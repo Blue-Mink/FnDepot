@@ -1,1 +1,54 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgeyBlZmZlY3RTY29wZSB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUNvbmZpcm1hdGlvbkRpYWxvZyB9IGZyb20gIi4uLy4uLy4uL3BhY2thZ2VzL2FkbWluLXNoYXJlZC9zcmMvY29tcG9zYWJsZXMvdXNlQ29uZmlybWF0aW9uRGlhbG9nIjsKCmRlc2NyaWJlKCJwcm9qZWN0IGNvbmZpcm1hdGlvbiBkaWFsb2ciLCAoKSA9PiB7CiAgaXQoInJlc29sdmVzIGV4cGxpY2l0IGNvbmZpcm1hdGlvbiBhbmQgZGlzbWlzc2FsIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgc2NvcGUgPSBlZmZlY3RTY29wZSgpOwogICAgY29uc3QgZGlhbG9nID0gc2NvcGUucnVuKHVzZUNvbmZpcm1hdGlvbkRpYWxvZyk7CiAgICBhc3NlcnQub2soZGlhbG9nKTsKCiAgICBjb25zdCBjb25maXJtZWQgPSBkaWFsb2cucmVxdWVzdENvbmZpcm1hdGlvbih7CiAgICAgIGRlc2NyaXB0aW9uOiAiU2F2ZSBjaGFuZ2VzPyIsCiAgICAgIHRpdGxlOiAiQ29uZmlybSIsCiAgICB9KTsKICAgIGFzc2VydC5lcXVhbChkaWFsb2cuY29uZmlybWF0aW9uRGlhbG9nT3Blbi52YWx1ZSwgdHJ1ZSk7CiAgICBkaWFsb2cuY29uZmlybVBlbmRpbmdBY3Rpb24oKTsKICAgIGFzc2VydC5lcXVhbChhd2FpdCBjb25maXJtZWQsIHRydWUpOwogICAgYXNzZXJ0LmVxdWFsKGRpYWxvZy5jb25maXJtYXRpb25EaWFsb2dPcGVuLnZhbHVlLCBmYWxzZSk7CgogICAgY29uc3QgZGlzbWlzc2VkID0gZGlhbG9nLnJlcXVlc3RDb25maXJtYXRpb24oewogICAgICBkZXNjcmlwdGlvbjogIkxlYXZlIHRoaXMgcGFnZT8iLAogICAgICB0aXRsZTogIkNvbmZpcm0iLAogICAgfSk7CiAgICBkaWFsb2cuaGFuZGxlQ29uZmlybWF0aW9uRGlhbG9nT3BlbkNoYW5nZShmYWxzZSk7CiAgICBhc3NlcnQuZXF1YWwoYXdhaXQgZGlzbWlzc2VkLCBmYWxzZSk7CgogICAgc2NvcGUuc3RvcCgpOwogIH0pOwoKICBpdCgiY2FuY2VscyBhbiBvbGRlciByZXF1ZXN0IHdoZW4gYSBuZXcgY29uZmlybWF0aW9uIHJlcGxhY2VzIGl0IiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgc2NvcGUgPSBlZmZlY3RTY29wZSgpOwogICAgY29uc3QgZGlhbG9nID0gc2NvcGUucnVuKHVzZUNvbmZpcm1hdGlvbkRpYWxvZyk7CiAgICBhc3NlcnQub2soZGlhbG9nKTsKCiAgICBjb25zdCBmaXJzdCA9IGRpYWxvZy5yZXF1ZXN0Q29uZmlybWF0aW9uKHsKICAgICAgZGVzY3JpcHRpb246ICJGaXJzdCBhY3Rpb24iLAogICAgICB0aXRsZTogIkNvbmZpcm0iLAogICAgfSk7CiAgICBjb25zdCBzZWNvbmQgPSBkaWFsb2cucmVxdWVzdENvbmZpcm1hdGlvbih7CiAgICAgIGRlc2NyaXB0aW9uOiAiU2Vjb25kIGFjdGlvbiIsCiAgICAgIHRpdGxlOiAiQ29uZmlybSIsCiAgICB9KTsKCiAgICBhc3NlcnQuZXF1YWwoYXdhaXQgZmlyc3QsIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgZGlhbG9nLmNvbmZpcm1hdGlvbkRpYWxvZ09wdGlvbnMudmFsdWUuZGVzY3JpcHRpb24sCiAgICAgICJTZWNvbmQgYWN0aW9uIiwKICAgICk7CgogICAgc2NvcGUuc3RvcCgpOwogICAgYXNzZXJ0LmVxdWFsKGF3YWl0IHNlY29uZCwgZmFsc2UpOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import { effectScope } from "vue";
+import { useConfirmationDialog } from "../../../packages/admin-shared/src/composables/useConfirmationDialog";
+
+describe("project confirmation dialog", () => {
+  it("resolves explicit confirmation and dismissal", async () => {
+    const scope = effectScope();
+    const dialog = scope.run(useConfirmationDialog);
+    assert.ok(dialog);
+
+    const confirmed = dialog.requestConfirmation({
+      description: "Save changes?",
+      title: "Confirm",
+    });
+    assert.equal(dialog.confirmationDialogOpen.value, true);
+    dialog.confirmPendingAction();
+    assert.equal(await confirmed, true);
+    assert.equal(dialog.confirmationDialogOpen.value, false);
+
+    const dismissed = dialog.requestConfirmation({
+      description: "Leave this page?",
+      title: "Confirm",
+    });
+    dialog.handleConfirmationDialogOpenChange(false);
+    assert.equal(await dismissed, false);
+
+    scope.stop();
+  });
+
+  it("cancels an older request when a new confirmation replaces it", async () => {
+    const scope = effectScope();
+    const dialog = scope.run(useConfirmationDialog);
+    assert.ok(dialog);
+
+    const first = dialog.requestConfirmation({
+      description: "First action",
+      title: "Confirm",
+    });
+    const second = dialog.requestConfirmation({
+      description: "Second action",
+      title: "Confirm",
+    });
+
+    assert.equal(await first, false);
+    assert.equal(
+      dialog.confirmationDialogOptions.value.description,
+      "Second action",
+    );
+
+    scope.stop();
+    assert.equal(await second, false);
+  });
+});

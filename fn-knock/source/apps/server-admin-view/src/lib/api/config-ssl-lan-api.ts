@@ -1,1 +1,21 @@
-aW1wb3J0IHR5cGUgeyBjb21wb25lbnRzIGFzIEFwaUNvbnRyYWN0Q29tcG9uZW50cyB9IGZyb20gIkBmbi1rbm9jay9hcGktY29udHJhY3QiOwppbXBvcnQgeyBhcGlDbGllbnQgfSBmcm9tICIuL2NsaWVudCI7Cgp0eXBlIExhbkNlcnRpZmljYXRlRGVwbG95bWVudCA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIkxhbkNlcnRpZmljYXRlRGVwbG95bWVudERhdGEiXTsKdHlwZSBMYW5DZXJ0aWZpY2F0ZURlcGxveW1lbnRVcGRhdGVCb2R5ID0KICBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiTGFuQ2VydGlmaWNhdGVEZXBsb3ltZW50VXBkYXRlQm9keURhdGEiXTsKCmV4cG9ydCBjb25zdCBjb25maWdTc2xMYW5BcGkgPSB7CiAgYXN5bmMgZ2V0TGFuQ2VydGlmaWNhdGVEZXBsb3ltZW50KCk6IFByb21pc2U8TGFuQ2VydGlmaWNhdGVEZXBsb3ltZW50PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvc3NsL2V4dGVybmFsLWJpbmRpbmdzL2xhbiIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyB1cGRhdGVMYW5DZXJ0aWZpY2F0ZURlcGxveW1lbnQoCiAgICB1cGRhdGU6IExhbkNlcnRpZmljYXRlRGVwbG95bWVudFVwZGF0ZUJvZHksCiAgKTogUHJvbWlzZTxMYW5DZXJ0aWZpY2F0ZURlcGxveW1lbnQ+IHsKICAgIGNvbnN0IHBheWxvYWQgPSB1cGRhdGUgc2F0aXNmaWVzIExhbkNlcnRpZmljYXRlRGVwbG95bWVudFVwZGF0ZUJvZHk7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucHV0KCIvc3NsL2V4dGVybmFsLWJpbmRpbmdzL2xhbiIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKfTsK
+import type { components as ApiContractComponents } from "@fn-knock/api-contract";
+import { apiClient } from "./client";
+
+type LanCertificateDeployment =
+  ApiContractComponents["schemas"]["LanCertificateDeploymentData"];
+type LanCertificateDeploymentUpdateBody =
+  ApiContractComponents["schemas"]["LanCertificateDeploymentUpdateBodyData"];
+
+export const configSslLanApi = {
+  async getLanCertificateDeployment(): Promise<LanCertificateDeployment> {
+    const res = await apiClient.get("/ssl/external-bindings/lan");
+    return res.data.data;
+  },
+  async updateLanCertificateDeployment(
+    update: LanCertificateDeploymentUpdateBody,
+  ): Promise<LanCertificateDeployment> {
+    const payload = update satisfies LanCertificateDeploymentUpdateBody;
+    const res = await apiClient.put("/ssl/external-bindings/lan", payload);
+    return res.data.data;
+  },
+};

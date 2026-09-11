@@ -1,1 +1,277 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IG9uTW91bnRlZCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdXNlUGFnZWRTZWxlY3Rpb25MaXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VQYWdlZFNlbGVjdGlvbkxpc3QiOwppbXBvcnQgQ29uZmlybURhbmdlclBvcG92ZXIgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtRGFuZ2VyUG9wb3Zlci52dWUiOwppbXBvcnQgSHVtYW5GcmllbmRseVRpbWUgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9IdW1hbkZyaWVuZGx5VGltZS52dWUiOwppbXBvcnQgUGFnZWRUYWJsZUZvb3RlciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvbGlzdC9QYWdlZFRhYmxlRm9vdGVyLnZ1ZSI7CmltcG9ydCBTZWFyY2hJbnB1dCBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvU2VhcmNoSW5wdXQudnVlIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQ2FyZCwgQ2FyZENvbnRlbnQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7IENoZWNrYm94IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NoZWNrYm94IjsKaW1wb3J0IHsKICBUYWJsZSwKICBUYWJsZUJvZHksCiAgVGFibGVDZWxsLAogIFRhYmxlSGVhZCwKICBUYWJsZUhlYWRlciwKICBUYWJsZVJvdywKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFibGUiOwppbXBvcnQgUmVmcmVzaEJ1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvUmVmcmVzaEJ1dHRvbi52dWUiOwppbXBvcnQgeyBMb2FkZXIyLCBUcmFzaDIgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBTU0hTZWN1cml0eUFQSSB9IGZyb20gIkAvbGliL2FwaS9zZWN1cml0eSI7CmltcG9ydCB0eXBlIHsgU1NIU2VjdXJpdHlCbG9ja1JlY29yZCB9IGZyb20gIi4uLy4uL3R5cGVzIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIHJlbG9hZERldGFpbHM6ICgpID0+IFByb21pc2U8dm9pZD47Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IHsgaXNQZW5kaW5nOiBpc0RlbGV0aW5nLCBydW46IHJ1bkRlbGV0ZSB9ID0gdXNlQXN5bmNBY3Rpb24oewogIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uc3NoU2VjdXJpdHkudW5ibG9ja0ZhaWxlZCIpLCB7CiAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgIGVycm9yLAogICAgICAgIHQoImFkbWluLnNzaFNlY3VyaXR5LnVuYmxvY2tEZXNjcmlwdGlvbiIpLAogICAgICApLAogICAgfSk7CiAgfSwKfSk7Cgpjb25zdCByZWFzb25MYWJlbCA9IChyZWFzb246IFNTSFNlY3VyaXR5QmxvY2tSZWNvcmRbInJlYXNvbiJdKSA9PgogIHJlYXNvbiA9PT0gImNpZHJfbm90X2FsbG93ZWQiCiAgICA/IHQoImFkbWluLnNzaFNlY3VyaXR5LnJlYXNvblJlZ2lvbk5vdEFsbG93ZWQiKQogICAgOiB0KCJhZG1pbi5zc2hTZWN1cml0eS5yZWFzb25UaHJlc2hvbGRSZWFjaGVkIik7Cgpjb25zdCB7CiAgaXRlbXM6IGJsb2NrUmVjb3JkcywKICB0b3RhbDogYmxvY2tUb3RhbCwKICBsb2FkaW5nOiBpc0xvYWRpbmdCbG9ja3MsCiAgc2VhcmNoUXVlcnk6IGJsb2NrU2VhcmNoLAogIGN1cnJlbnRQYWdlOiBibG9ja1BhZ2UsCiAgbGltaXQ6IGJsb2NrTGltaXQsCiAgcGFyc2VkTGltaXQ6IGJsb2NrUGFyc2VkTGltaXQsCiAgc2VsZWN0ZWRLZXlzOiBzZWxlY3RlZEJsb2NrSXBzLAogIGlzQWxsU2VsZWN0ZWQ6IGlzQWxsQmxvY2tzU2VsZWN0ZWQsCiAgZmV0Y2hMaXN0OiBsb2FkQmxvY2tzLAogIGhhbmRsZVNlYXJjaDogaGFuZGxlQmxvY2tTZWFyY2gsCiAgaGFuZGxlUGFnZUNoYW5nZTogaGFuZGxlQmxvY2tQYWdlQ2hhbmdlLAogIGhhbmRsZUxpbWl0Q2hhbmdlOiBoYW5kbGVCbG9ja0xpbWl0Q2hhbmdlLAogIHRvZ2dsZVNlbGVjdDogdG9nZ2xlQmxvY2tTZWxlY3QsCiAgY2xlYXJTZWxlY3Rpb246IGNsZWFyQmxvY2tTZWxlY3Rpb24sCn0gPSB1c2VQYWdlZFNlbGVjdGlvbkxpc3Q8U1NIU2VjdXJpdHlCbG9ja1JlY29yZCwgc3RyaW5nPih7CiAgZmV0Y2hQYWdlOiBhc3luYyAoeyBwYWdlLCBsaW1pdCwgcXVlcnkgfSkgPT4gewogICAgY29uc3QgcGF5bG9hZCA9IGF3YWl0IFNTSFNlY3VyaXR5QVBJLmdldEJsb2NrcyhwYWdlLCBsaW1pdCwgcXVlcnkpOwogICAgcmV0dXJuIHsgaXRlbXM6IHBheWxvYWQuaXRlbXMsIHRvdGFsOiBwYXlsb2FkLnRvdGFsIH07CiAgfSwKICBnZXRLZXk6IChyZWNvcmQpID0+IHJlY29yZC5pcCwKICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnNzaFNlY3VyaXR5LmJsb2Nrc0xvYWRGYWlsZWQiKSwgewogICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICBlcnJvciwKICAgICAgICB0KCJhZG1pbi5zc2hTZWN1cml0eS5ibG9ja3NMb2FkRGVzY3JpcHRpb24iKSwKICAgICAgKSwKICAgIH0pOwogIH0sCn0pOwoKY29uc3QgcmVsb2FkQWZ0ZXJDaGFuZ2UgPSBhc3luYyAoKSA9PiB7CiAgYXdhaXQgUHJvbWlzZS5hbGwoW2xvYWRCbG9ja3MoKSwgcHJvcHMucmVsb2FkRGV0YWlscygpXSk7Cn07Cgpjb25zdCBkZWxldGVCbG9ja3MgPSBhc3luYyAoaXBzOiBzdHJpbmdbXSkgPT4gewogIGlmIChpcHMubGVuZ3RoID09PSAwKSByZXR1cm47CiAgYXdhaXQgcnVuRGVsZXRlKCgpID0+IFNTSFNlY3VyaXR5QVBJLmRlbGV0ZUJsb2NrcyhpcHMpLCB7CiAgICBvblN1Y2Nlc3M6IGFzeW5jICgpID0+IHsKICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5zc2hTZWN1cml0eS51bmJsb2NrZWQiKSk7CiAgICAgIGNsZWFyQmxvY2tTZWxlY3Rpb24oKTsKICAgICAgYXdhaXQgcmVsb2FkQWZ0ZXJDaGFuZ2UoKTsKICAgIH0sCiAgfSk7Cn07Cgpjb25zdCBkZWxldGVPbmVCbG9jayA9IGFzeW5jIChpcDogc3RyaW5nKSA9PiB7CiAgYXdhaXQgcnVuRGVsZXRlKCgpID0+IFNTSFNlY3VyaXR5QVBJLmRlbGV0ZUJsb2NrKGlwKSwgewogICAgb25TdWNjZXNzOiBhc3luYyAoKSA9PiB7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uc3NoU2VjdXJpdHkudW5ibG9ja2VkIikpOwogICAgICBzZWxlY3RlZEJsb2NrSXBzLnZhbHVlLmRlbGV0ZShpcCk7CiAgICAgIHNlbGVjdGVkQmxvY2tJcHMudmFsdWUgPSBuZXcgU2V0KHNlbGVjdGVkQmxvY2tJcHMudmFsdWUpOwogICAgICBhd2FpdCByZWxvYWRBZnRlckNoYW5nZSgpOwogICAgfSwKICB9KTsKfTsKCm9uTW91bnRlZCgoKSA9PiB7CiAgdm9pZCBsb2FkQmxvY2tzKCk7Cn0pOwoKZGVmaW5lRXhwb3NlKHsgbG9hZEJsb2NrcyB9KTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0ic3BhY2UteS0zIj4KICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgIDxTZWFyY2hJbnB1dAogICAgICAgIHYtbW9kZWw9ImJsb2NrU2VhcmNoIgogICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uc3NoU2VjdXJpdHkuc2VhcmNoQmxvY2tzUGxhY2Vob2xkZXInKSIKICAgICAgICBjbGFzcz0idy1mdWxsIG1heC13LXhzIgogICAgICAgIEBzZWFyY2g9ImhhbmRsZUJsb2NrU2VhcmNoIgogICAgICAvPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4LTEiPjwvZGl2PgogICAgICA8UmVmcmVzaEJ1dHRvbgogICAgICAgIDpsb2FkaW5nPSJpc0xvYWRpbmdCbG9ja3MiCiAgICAgICAgOmRpc2FibGVkPSJpc0xvYWRpbmdCbG9ja3MiCiAgICAgICAgQGNsaWNrPSJsb2FkQmxvY2tzIgogICAgICAvPgogICAgICA8Q29uZmlybURhbmdlclBvcG92ZXIKICAgICAgICA6dGl0bGU9IgogICAgICAgICAgdCgnYWRtaW4uc3NoU2VjdXJpdHkuY29uZmlybVVuYmxvY2tTZWxlY3RlZFRpdGxlJywgewogICAgICAgICAgICBjb3VudDogc2VsZWN0ZWRCbG9ja0lwcy5zaXplLAogICAgICAgICAgfSkKICAgICAgICAiCiAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5zc2hTZWN1cml0eS51bmJsb2NrRGVzY3JpcHRpb25UZXh0JykiCiAgICAgICAgOmxvYWRpbmc9ImlzRGVsZXRpbmciCiAgICAgICAgOmRpc2FibGVkPSJzZWxlY3RlZEJsb2NrSXBzLnNpemUgPT09IDAgfHwgaXNEZWxldGluZyIKICAgICAgICA6b24tY29uZmlybT0iKCkgPT4gZGVsZXRlQmxvY2tzKEFycmF5LmZyb20oc2VsZWN0ZWRCbG9ja0lwcykpIgogICAgICA+CiAgICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB2YXJpYW50PSJkZXN0cnVjdGl2ZSIKICAgICAgICAgICAgOmRpc2FibGVkPSJzZWxlY3RlZEJsb2NrSXBzLnNpemUgPT09IDAgfHwgaXNEZWxldGluZyIKICAgICAgICAgID4KICAgICAgICAgICAgPFRyYXNoMiBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICB0KCJhZG1pbi5zc2hTZWN1cml0eS5kZWxldGVTZWxlY3RlZCIsIHsKICAgICAgICAgICAgICAgIGNvdW50OiBzZWxlY3RlZEJsb2NrSXBzLnNpemUsCiAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwvQ29uZmlybURhbmdlclBvcG92ZXI+CiAgICA8L2Rpdj4KCiAgICA8Q2FyZCBjbGFzcz0iYm9yZGVyLWJvcmRlci82MCBzaGFkb3ctbm9uZSI+CiAgICAgIDxDYXJkQ29udGVudCBjbGFzcz0icC0wIj4KICAgICAgICA8ZGl2IGNsYXNzPSJvdmVyZmxvdy1hdXRvIj4KICAgICAgICAgIDxUYWJsZSBjbGFzcz0ibWluLXctWzg2MHB4XSI+CiAgICAgICAgICAgIDxUYWJsZUhlYWRlcj4KICAgICAgICAgICAgICA8VGFibGVSb3c+CiAgICAgICAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJoLTExIHctWzQ4cHhdIHB4LTMiPgogICAgICAgICAgICAgICAgICA8Q2hlY2tib3gKICAgICAgICAgICAgICAgICAgICB2LW1vZGVsPSJpc0FsbEJsb2Nrc1NlbGVjdGVkIgogICAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24uc2VsZWN0QWxsJykiCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9ImgtMTEgbWluLXctWzIyMHB4XSBweC00Ij4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3NoU2VjdXJpdHkuaXBMb2NhdGlvbiIpIH19CiAgICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9ImgtMTEgdy1bMTY4cHhdIHB4LTQiPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zc2hTZWN1cml0eS5ibG9ja2VkQXQiKSB9fQogICAgICAgICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJoLTExIHctWzE2OHB4XSBweC00Ij4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3NoU2VjdXJpdHkuZXhwaXJlc0F0IikgfX0KICAgICAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0iaC0xMSB3LVsxMjBweF0gcHgtNCI+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnNzaFNlY3VyaXR5LnJlYXNvbiIpIH19CiAgICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9ImgtMTEgdy1bMTIwcHhdIHB4LTQiPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zc2hTZWN1cml0eS5jb3VudCIpIH19CiAgICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9ImgtMTEgdy1bODhweF0gcHgtNCB0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3NoU2VjdXJpdHkuYWN0aW9ucyIpIH19CiAgICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgICA8L1RhYmxlSGVhZGVyPgogICAgICAgICAgICA8VGFibGVCb2R5PgogICAgICAgICAgICAgIDxUYWJsZVJvdyB2LWlmPSJpc0xvYWRpbmdCbG9ja3MiPgogICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjb2xzcGFuPSI3IiBjbGFzcz0icHgtNCBweS0xMCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgICAgIDxMb2FkZXIyCiAgICAgICAgICAgICAgICAgICAgY2xhc3M9Im14LWF1dG8gaC02IHctNiBhbmltYXRlLXNwaW4gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgICA8VGFibGVSb3cgdi1lbHNlLWlmPSJibG9ja1JlY29yZHMubGVuZ3RoID09PSAwIj4KICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwKICAgICAgICAgICAgICAgICAgY29sc3Bhbj0iNyIKICAgICAgICAgICAgICAgICAgY2xhc3M9InB4LTQgcHktMTAgdGV4dC1jZW50ZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zc2hTZWN1cml0eS5ub0Jsb2NrUmVjb3JkcyIpIH19CiAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgICAgIDxUYWJsZVJvdyB2LWZvcj0icmVjb3JkIGluIGJsb2NrUmVjb3JkcyIgdi1lbHNlIDprZXk9InJlY29yZC5pcCI+CiAgICAgICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJweC0zIHB5LTMgYWxpZ24tdG9wIj4KICAgICAgICAgICAgICAgICAgPENoZWNrYm94CiAgICAgICAgICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJzZWxlY3RlZEJsb2NrSXBzLmhhcyhyZWNvcmQuaXApIgogICAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24uc2VsZWN0SXRlbScsIHsgaXRlbTogcmVjb3JkLmlwIH0pIgogICAgICAgICAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9InRvZ2dsZUJsb2NrU2VsZWN0KHJlY29yZC5pcCkiCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwKICAgICAgICAgICAgICAgICAgY2xhc3M9Im1pbi13LVsyMjBweF0gcHgtNCBweS0zIGFsaWduLXRvcCB3aGl0ZXNwYWNlLW5vcm1hbCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZm9udC1tb25vIHRleHQtc20iPnt7IHJlY29yZC5pcCB9fTwvZGl2PgogICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgdi1pZj0icmVjb3JkLmlwTG9jYXRpb24iCiAgICAgICAgICAgICAgICAgICAgY2xhc3M9Im10LTAuNSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHt7IHJlY29yZC5pcExvY2F0aW9uIH19CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJweC00IHB5LTMgYWxpZ24tdG9wIHdoaXRlc3BhY2Utbm93cmFwIj4KICAgICAgICAgICAgICAgICAgPEh1bWFuRnJpZW5kbHlUaW1lIDp2YWx1ZT0icmVjb3JkLmJsb2NrZWRfYXQiIC8+CiAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InB4LTQgcHktMyBhbGlnbi10b3Agd2hpdGVzcGFjZS1ub3dyYXAiPgogICAgICAgICAgICAgICAgICA8SHVtYW5GcmllbmRseVRpbWUgOnZhbHVlPSJyZWNvcmQuZXhwaXJlc19hdCIgLz4KICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0icHgtNCBweS0zIGFsaWduLXRvcCI+CiAgICAgICAgICAgICAgICAgIDxCYWRnZSA6dmFyaWFudD0icmVjb3JkLmFwcGxpZWQgPyAnc2Vjb25kYXJ5JyA6ICdvdXRsaW5lJyI+CiAgICAgICAgICAgICAgICAgICAge3sgcmVhc29uTGFiZWwocmVjb3JkLnJlYXNvbikgfX0KICAgICAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0icHgtNCBweS0zIGFsaWduLXRvcCB3aGl0ZXNwYWNlLW5vd3JhcCI+CiAgICAgICAgICAgICAgICAgIHt7IHJlY29yZC5mYWlsZWRfY291bnQgfX0gLyB7eyByZWNvcmQudGhyZXNob2xkIH19CiAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InB4LTQgcHktMyB0ZXh0LXJpZ2h0IGFsaWduLXRvcCI+CiAgICAgICAgICAgICAgICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICAgICAgICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4uc3NoU2VjdXJpdHkuY29uZmlybVVuYmxvY2tPbmVUaXRsZScpIgogICAgICAgICAgICAgICAgICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4uc3NoU2VjdXJpdHkudW5ibG9ja0Rlc2NyaXB0aW9uVGV4dCcpIgogICAgICAgICAgICAgICAgICAgIDpsb2FkaW5nPSJpc0RlbGV0aW5nIgogICAgICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNEZWxldGluZyIKICAgICAgICAgICAgICAgICAgICA6b24tY29uZmlybT0iKCkgPT4gZGVsZXRlT25lQmxvY2socmVjb3JkLmlwKSIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDx0ZW1wbGF0ZSAjdHJpZ2dlcj4KICAgICAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICAgICAgICAgIHNpemU9Imljb24iCiAgICAgICAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24uY29uZmlybURlbGV0ZScpIgogICAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc0RlbGV0aW5nIgogICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICA8VHJhc2gyIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgICAgICAgICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICAgIDwvVGFibGVCb2R5PgogICAgICAgICAgPC9UYWJsZT4KICAgICAgICA8L2Rpdj4KICAgICAgICA8UGFnZWRUYWJsZUZvb3RlcgogICAgICAgICAgOnRvdGFsPSJibG9ja1RvdGFsIgogICAgICAgICAgOnBhZ2U9ImJsb2NrUGFnZSIKICAgICAgICAgIDpsaW1pdD0iYmxvY2tMaW1pdCIKICAgICAgICAgIDppdGVtcy1wZXItcGFnZT0iYmxvY2tQYXJzZWRMaW1pdCIKICAgICAgICAgIEB1cGRhdGU6cGFnZT0iaGFuZGxlQmxvY2tQYWdlQ2hhbmdlIgogICAgICAgICAgQHVwZGF0ZTpsaW1pdD0iaGFuZGxlQmxvY2tMaW1pdENoYW5nZSIKICAgICAgICAvPgogICAgICA8L0NhcmRDb250ZW50PgogICAgPC9DYXJkPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { onMounted } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { usePagedSelectionList } from "@admin-shared/composables/usePagedSelectionList";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import PagedTableFooter from "@admin-shared/components/list/PagedTableFooter.vue";
+import SearchInput from "@admin-shared/components/SearchInput.vue";
+import { toast } from "@admin-shared/utils/toast";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import RefreshButton from "@/components/RefreshButton.vue";
+import { Loader2, Trash2 } from "lucide-vue-next";
+import { SSHSecurityAPI } from "@/lib/api/security";
+import type { SSHSecurityBlockRecord } from "../../types";
+
+const props = defineProps<{
+  reloadDetails: () => Promise<void>;
+}>();
+
+const { t } = useI18n();
+
+const { isPending: isDeleting, run: runDelete } = useAsyncAction({
+  onError: (error) => {
+    toast.error(t("admin.sshSecurity.unblockFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.sshSecurity.unblockDescription"),
+      ),
+    });
+  },
+});
+
+const reasonLabel = (reason: SSHSecurityBlockRecord["reason"]) =>
+  reason === "cidr_not_allowed"
+    ? t("admin.sshSecurity.reasonRegionNotAllowed")
+    : t("admin.sshSecurity.reasonThresholdReached");
+
+const {
+  items: blockRecords,
+  total: blockTotal,
+  loading: isLoadingBlocks,
+  searchQuery: blockSearch,
+  currentPage: blockPage,
+  limit: blockLimit,
+  parsedLimit: blockParsedLimit,
+  selectedKeys: selectedBlockIps,
+  isAllSelected: isAllBlocksSelected,
+  fetchList: loadBlocks,
+  handleSearch: handleBlockSearch,
+  handlePageChange: handleBlockPageChange,
+  handleLimitChange: handleBlockLimitChange,
+  toggleSelect: toggleBlockSelect,
+  clearSelection: clearBlockSelection,
+} = usePagedSelectionList<SSHSecurityBlockRecord, string>({
+  fetchPage: async ({ page, limit, query }) => {
+    const payload = await SSHSecurityAPI.getBlocks(page, limit, query);
+    return { items: payload.items, total: payload.total };
+  },
+  getKey: (record) => record.ip,
+  onError: (error) => {
+    toast.error(t("admin.sshSecurity.blocksLoadFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.sshSecurity.blocksLoadDescription"),
+      ),
+    });
+  },
+});
+
+const reloadAfterChange = async () => {
+  await Promise.all([loadBlocks(), props.reloadDetails()]);
+};
+
+const deleteBlocks = async (ips: string[]) => {
+  if (ips.length === 0) return;
+  await runDelete(() => SSHSecurityAPI.deleteBlocks(ips), {
+    onSuccess: async () => {
+      toast.success(t("admin.sshSecurity.unblocked"));
+      clearBlockSelection();
+      await reloadAfterChange();
+    },
+  });
+};
+
+const deleteOneBlock = async (ip: string) => {
+  await runDelete(() => SSHSecurityAPI.deleteBlock(ip), {
+    onSuccess: async () => {
+      toast.success(t("admin.sshSecurity.unblocked"));
+      selectedBlockIps.value.delete(ip);
+      selectedBlockIps.value = new Set(selectedBlockIps.value);
+      await reloadAfterChange();
+    },
+  });
+};
+
+onMounted(() => {
+  void loadBlocks();
+});
+
+defineExpose({ loadBlocks });
+</script>
+
+<template>
+  <div class="space-y-3">
+    <div class="flex flex-wrap items-center gap-2">
+      <SearchInput
+        v-model="blockSearch"
+        :placeholder="t('admin.sshSecurity.searchBlocksPlaceholder')"
+        class="w-full max-w-xs"
+        @search="handleBlockSearch"
+      />
+      <div class="flex-1"></div>
+      <RefreshButton
+        :loading="isLoadingBlocks"
+        :disabled="isLoadingBlocks"
+        @click="loadBlocks"
+      />
+      <ConfirmDangerPopover
+        :title="
+          t('admin.sshSecurity.confirmUnblockSelectedTitle', {
+            count: selectedBlockIps.size,
+          })
+        "
+        :description="t('admin.sshSecurity.unblockDescriptionText')"
+        :loading="isDeleting"
+        :disabled="selectedBlockIps.size === 0 || isDeleting"
+        :on-confirm="() => deleteBlocks(Array.from(selectedBlockIps))"
+      >
+        <template #trigger>
+          <Button
+            variant="destructive"
+            :disabled="selectedBlockIps.size === 0 || isDeleting"
+          >
+            <Trash2 class="h-4 w-4" />
+            {{
+              t("admin.sshSecurity.deleteSelected", {
+                count: selectedBlockIps.size,
+              })
+            }}
+          </Button>
+        </template>
+      </ConfirmDangerPopover>
+    </div>
+
+    <Card class="border-border/60 shadow-none">
+      <CardContent class="p-0">
+        <div class="overflow-auto">
+          <Table class="min-w-[860px]">
+            <TableHeader>
+              <TableRow>
+                <TableHead class="h-11 w-[48px] px-3">
+                  <Checkbox
+                    v-model="isAllBlocksSelected"
+                    :aria-label="t('common.selectAll')"
+                  />
+                </TableHead>
+                <TableHead class="h-11 min-w-[220px] px-4">
+                  {{ t("admin.sshSecurity.ipLocation") }}
+                </TableHead>
+                <TableHead class="h-11 w-[168px] px-4">
+                  {{ t("admin.sshSecurity.blockedAt") }}
+                </TableHead>
+                <TableHead class="h-11 w-[168px] px-4">
+                  {{ t("admin.sshSecurity.expiresAt") }}
+                </TableHead>
+                <TableHead class="h-11 w-[120px] px-4">
+                  {{ t("admin.sshSecurity.reason") }}
+                </TableHead>
+                <TableHead class="h-11 w-[120px] px-4">
+                  {{ t("admin.sshSecurity.count") }}
+                </TableHead>
+                <TableHead class="h-11 w-[88px] px-4 text-right">
+                  {{ t("admin.sshSecurity.actions") }}
+                </TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              <TableRow v-if="isLoadingBlocks">
+                <TableCell colspan="7" class="px-4 py-10 text-center">
+                  <Loader2
+                    class="mx-auto h-6 w-6 animate-spin text-muted-foreground"
+                  />
+                </TableCell>
+              </TableRow>
+              <TableRow v-else-if="blockRecords.length === 0">
+                <TableCell
+                  colspan="7"
+                  class="px-4 py-10 text-center text-muted-foreground"
+                >
+                  {{ t("admin.sshSecurity.noBlockRecords") }}
+                </TableCell>
+              </TableRow>
+              <TableRow v-for="record in blockRecords" v-else :key="record.ip">
+                <TableCell class="px-3 py-3 align-top">
+                  <Checkbox
+                    :model-value="selectedBlockIps.has(record.ip)"
+                    :aria-label="t('common.selectItem', { item: record.ip })"
+                    @update:model-value="toggleBlockSelect(record.ip)"
+                  />
+                </TableCell>
+                <TableCell
+                  class="min-w-[220px] px-4 py-3 align-top whitespace-normal"
+                >
+                  <div class="font-mono text-sm">{{ record.ip }}</div>
+                  <div
+                    v-if="record.ipLocation"
+                    class="mt-0.5 text-xs text-muted-foreground"
+                  >
+                    {{ record.ipLocation }}
+                  </div>
+                </TableCell>
+                <TableCell class="px-4 py-3 align-top whitespace-nowrap">
+                  <HumanFriendlyTime :value="record.blocked_at" />
+                </TableCell>
+                <TableCell class="px-4 py-3 align-top whitespace-nowrap">
+                  <HumanFriendlyTime :value="record.expires_at" />
+                </TableCell>
+                <TableCell class="px-4 py-3 align-top">
+                  <Badge :variant="record.applied ? 'secondary' : 'outline'">
+                    {{ reasonLabel(record.reason) }}
+                  </Badge>
+                </TableCell>
+                <TableCell class="px-4 py-3 align-top whitespace-nowrap">
+                  {{ record.failed_count }} / {{ record.threshold }}
+                </TableCell>
+                <TableCell class="px-4 py-3 text-right align-top">
+                  <ConfirmDangerPopover
+                    :title="t('admin.sshSecurity.confirmUnblockOneTitle')"
+                    :description="t('admin.sshSecurity.unblockDescriptionText')"
+                    :loading="isDeleting"
+                    :disabled="isDeleting"
+                    :on-confirm="() => deleteOneBlock(record.ip)"
+                  >
+                    <template #trigger>
+                      <Button
+                        variant="ghost"
+                        size="icon"
+                        :aria-label="t('common.confirmDelete')"
+                        class="text-destructive"
+                        :disabled="isDeleting"
+                      >
+                        <Trash2 class="h-4 w-4" />
+                      </Button>
+                    </template>
+                  </ConfirmDangerPopover>
+                </TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </div>
+        <PagedTableFooter
+          :total="blockTotal"
+          :page="blockPage"
+          :limit="blockLimit"
+          :items-per-page="blockParsedLimit"
+          @update:page="handleBlockPageChange"
+          @update:limit="handleBlockLimitChange"
+        />
+      </CardContent>
+    </Card>
+  </div>
+</template>

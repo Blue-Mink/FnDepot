@@ -1,1 +1,95 @@
-dXNlIGF4dW06OnsKICAgIEpzb24sCiAgICBleHRyYWN0Ojp7UGF0aCwgUXVlcnksIFN0YXRlfSwKICAgIGh0dHA6OlN0YXR1c0NvZGUsCiAgICByZXNwb25zZTo6e0ludG9SZXNwb25zZSwgUmVzcG9uc2V9LAp9Owp1c2Ugc2VyZGVfanNvbjo6e1ZhbHVlLCBqc29ufTsKCnVzZSBjcmF0ZTo6cGFuZWxfc3luYzo6ewogICAgbW9kZWw6OiosCiAgICBzZXJ2aWNlOjp7c2VsZiwgU2VydmljZUVycm9yfSwKfTsKdXNlIGNyYXRlOjp7cmVzcG9uc2UsIHN0YXRlOjpBcHBTdGF0ZX07CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi9wYW5lbC1zeW5jL3Byb3ZpZGVycyIsIHRhZyA9ICJwYW5lbC1zeW5jIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGJvZHkgPSBbUHJvdmlkZXJEZXNjcmlwdG9yXSkpKV0KcHViIGFzeW5jIGZuIHByb3ZpZGVycygpIC0+IFJlc3BvbnNlIHsKICAgIHJlc3BvbnNlOjpvayhzZXJ2aWNlOjpwcm92aWRlcnMoKSkuaW50b19yZXNwb25zZSgpCn0KCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL3BhbmVsLXN5bmMvY29ubmVjdGlvbnMiLCB0YWcgPSAicGFuZWwtc3luYyIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBib2R5ID0gW1BhbmVsQ29ubmVjdGlvbl0pKSldCnB1YiBhc3luYyBmbiBsaXN0KFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICByZXN1bHQoc2VydmljZTo6Y29ubmVjdGlvbnMoJnN0YXRlKS5hd2FpdCkKfQoKI1t1dG9pcGE6OnBhdGgocG9zdCwgcGF0aCA9ICIvYXBpL2FkbWluL3BhbmVsLXN5bmMvY29ubmVjdGlvbnMiLCB0YWcgPSAicGFuZWwtc3luYyIsIHJlcXVlc3RfYm9keSA9IENvbm5lY3Rpb25JbnB1dCwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGJvZHkgPSBQYW5lbENvbm5lY3Rpb24pLCAoc3RhdHVzID0gNDAwLCBib2R5ID0gc2VyZGVfanNvbjo6VmFsdWUpKSldCnB1YiBhc3luYyBmbiBjcmVhdGUoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sIEpzb24oaW5wdXQpOiBKc29uPENvbm5lY3Rpb25JbnB1dD4pIC0+IFJlc3BvbnNlIHsKICAgIHJlc3VsdChzZXJ2aWNlOjpjcmVhdGUoJnN0YXRlLCBpbnB1dCkuYXdhaXQpCn0KCiNbdXRvaXBhOjpwYXRoKHB1dCwgcGF0aCA9ICIvYXBpL2FkbWluL3BhbmVsLXN5bmMvY29ubmVjdGlvbnMve2lkfSIsIHRhZyA9ICJwYW5lbC1zeW5jIiwgcGFyYW1zKCgiaWQiID0gU3RyaW5nLCBQYXRoKSksIHJlcXVlc3RfYm9keSA9IENvbm5lY3Rpb25VcGRhdGVJbnB1dCwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGJvZHkgPSBQYW5lbENvbm5lY3Rpb24pLCAoc3RhdHVzID0gNDA0LCBib2R5ID0gc2VyZGVfanNvbjo6VmFsdWUpKSldCnB1YiBhc3luYyBmbiB1cGRhdGUoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIFBhdGgoaWQpOiBQYXRoPFN0cmluZz4sCiAgICBKc29uKGlucHV0KTogSnNvbjxDb25uZWN0aW9uVXBkYXRlSW5wdXQ+LAopIC0+IFJlc3BvbnNlIHsKICAgIHJlc3VsdChzZXJ2aWNlOjp1cGRhdGUoJnN0YXRlLCAmaWQsIGlucHV0KS5hd2FpdCkKfQoKI1t1dG9pcGE6OnBhdGgoZGVsZXRlLCBwYXRoID0gIi9hcGkvYWRtaW4vcGFuZWwtc3luYy9jb25uZWN0aW9ucy97aWR9IiwgdGFnID0gInBhbmVsLXN5bmMiLCBwYXJhbXMoKCJpZCIgPSBTdHJpbmcsIFBhdGgpLCAoImNsZWFudXBfcmVtb3RlIiA9IE9wdGlvbjxib29sPiwgUXVlcnkpLCAoInNvdXJjZV9yZXZpc2lvbiIgPSBPcHRpb248U3RyaW5nPiwgUXVlcnkpLCAoInBsYW5faGFzaCIgPSBPcHRpb248U3RyaW5nPiwgUXVlcnkpKSwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGJvZHkgPSBzZXJkZV9qc29uOjpWYWx1ZSksIChzdGF0dXMgPSA0MDQsIGJvZHkgPSBzZXJkZV9qc29uOjpWYWx1ZSkpKV0KcHViIGFzeW5jIGZuIGRlbGV0ZSgKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgUGF0aChpZCk6IFBhdGg8U3RyaW5nPiwKICAgIFF1ZXJ5KGlucHV0KTogUXVlcnk8RGVsZXRlQ29ubmVjdGlvblJlcXVlc3Q+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCBjbGVhbnVwX3JlbW90ZSA9IGlucHV0LmNsZWFudXBfcmVtb3RlOwogICAgbWF0Y2ggc2VydmljZTo6ZGVsZXRlKCZzdGF0ZSwgJmlkLCBpbnB1dCkuYXdhaXQgewogICAgICAgIE9rKCgpKSA9PiB7CiAgICAgICAgICAgIHJlc3BvbnNlOjpvayhqc29uISh7CiAgICAgICAgICAgICAgICAiZGV0YWNoZWQiOiB0cnVlLAogICAgICAgICAgICAgICAgInJlbW90ZV9jbGVhbmVkIjogY2xlYW51cF9yZW1vdGUsCiAgICAgICAgICAgICAgICAid2FybmluZyI6IGlmIGNsZWFudXBfcmVtb3RlIHsgVmFsdWU6Ok51bGwgfSBlbHNlIHsganNvbiEoIui/nuaOpeW3suino+mZpO+8m+i/nOerr+WGheWuueacquiHquWKqOa4heeQhiIpIH0KICAgICAgICAgICAgfSkpCiAgICAgICAgICAgIC5pbnRvX3Jlc3BvbnNlKCkKICAgICAgICB9CiAgICAgICAgRXJyKGVycm9yKSA9PiBzZXJ2aWNlX2Vycm9yKGVycm9yKSwKICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgocG9zdCwgcGF0aCA9ICIvYXBpL2FkbWluL3BhbmVsLXN5bmMvdGVzdCIsIHRhZyA9ICJwYW5lbC1zeW5jIiwgcmVxdWVzdF9ib2R5ID0gVGVzdENvbm5lY3Rpb25JbnB1dCwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGJvZHkgPSBQcm9iZVJlc3VsdCksIChzdGF0dXMgPSA0MDAsIGJvZHkgPSBzZXJkZV9qc29uOjpWYWx1ZSkpKV0KcHViIGFzeW5jIGZuIHRlc3QoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIEpzb24oaW5wdXQpOiBKc29uPFRlc3RDb25uZWN0aW9uSW5wdXQ+LAopIC0+IFJlc3BvbnNlIHsKICAgIHJlc3VsdChzZXJ2aWNlOjp0ZXN0KCZzdGF0ZSwgaW5wdXQpLmF3YWl0KQp9CgojW3V0b2lwYTo6cGF0aChwb3N0LCBwYXRoID0gIi9hcGkvYWRtaW4vcGFuZWwtc3luYy9jb25uZWN0aW9ucy97aWR9L3ByZXZpZXciLCB0YWcgPSAicGFuZWwtc3luYyIsIHBhcmFtcygoImlkIiA9IFN0cmluZywgUGF0aCkpLCByZXF1ZXN0X2JvZHkgPSBQcmV2aWV3UmVxdWVzdCwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGJvZHkgPSBTeW5jUHJldmlldyksIChzdGF0dXMgPSA0MDAsIGJvZHkgPSBzZXJkZV9qc29uOjpWYWx1ZSkpKV0KcHViIGFzeW5jIGZuIHByZXZpZXcoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIFBhdGgoaWQpOiBQYXRoPFN0cmluZz4sCiAgICBKc29uKGlucHV0KTogSnNvbjxQcmV2aWV3UmVxdWVzdD4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IF9yZWZyZXNoX3JlbW90ZSA9IGlucHV0LnJlZnJlc2hfcmVtb3RlLnVud3JhcF9vcih0cnVlKTsKICAgIG1hdGNoIHNlcnZpY2U6OnByZXZpZXcoJnN0YXRlLCAmaWQsIGlucHV0LmNsZWFudXBfcmVtb3RlKS5hd2FpdCB7CiAgICAgICAgT2socGxhbikgPT4gcmVzcG9uc2U6Om9rKHBsYW4ucHJldmlldykuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gc2VydmljZV9lcnJvcihlcnJvciksCiAgICB9Cn0KCmZuIHJlc3VsdDxUOiBzZXJkZTo6U2VyaWFsaXplPih2YWx1ZTogUmVzdWx0PFQsIFNlcnZpY2VFcnJvcj4pIC0+IFJlc3BvbnNlIHsKICAgIG1hdGNoIHZhbHVlIHsKICAgICAgICBPayh2YWx1ZSkgPT4gcmVzcG9uc2U6Om9rKHZhbHVlKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgRXJyKGVycm9yKSA9PiBzZXJ2aWNlX2Vycm9yKGVycm9yKSwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBzZXJ2aWNlX2Vycm9yKGVycm9yOiBTZXJ2aWNlRXJyb3IpIC0+IFJlc3BvbnNlIHsKICAgIGxldCBzdGF0dXMgPSBtYXRjaCBlcnJvciB7CiAgICAgICAgU2VydmljZUVycm9yOjpOb3RGb3VuZCA9PiBTdGF0dXNDb2RlOjpOT1RfRk9VTkQsCiAgICAgICAgU2VydmljZUVycm9yOjpWYWxpZGF0aW9uKF8pID0+IFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgIFNlcnZpY2VFcnJvcjo6Q29uZmxpY3QoXykgPT4gU3RhdHVzQ29kZTo6Q09ORkxJQ1QsCiAgICAgICAgU2VydmljZUVycm9yOjpGYWlsZWQoXykgPT4gU3RhdHVzQ29kZTo6QkFEX0dBVEVXQVksCiAgICB9OwogICAgcmVzcG9uc2U6OmVycm9yKHN0YXR1cywgZXJyb3IubWVzc2FnZSgpKQp9Cg==
+use axum::{
+    Json,
+    extract::{Path, Query, State},
+    http::StatusCode,
+    response::{IntoResponse, Response},
+};
+use serde_json::{Value, json};
+
+use crate::panel_sync::{
+    model::*,
+    service::{self, ServiceError},
+};
+use crate::{response, state::AppState};
+
+#[utoipa::path(get, path = "/api/admin/panel-sync/providers", tag = "panel-sync", responses((status = 200, body = [ProviderDescriptor])))]
+pub async fn providers() -> Response {
+    response::ok(service::providers()).into_response()
+}
+
+#[utoipa::path(get, path = "/api/admin/panel-sync/connections", tag = "panel-sync", responses((status = 200, body = [PanelConnection])))]
+pub async fn list(State(state): State<AppState>) -> Response {
+    result(service::connections(&state).await)
+}
+
+#[utoipa::path(post, path = "/api/admin/panel-sync/connections", tag = "panel-sync", request_body = ConnectionInput, responses((status = 200, body = PanelConnection), (status = 400, body = serde_json::Value)))]
+pub async fn create(State(state): State<AppState>, Json(input): Json<ConnectionInput>) -> Response {
+    result(service::create(&state, input).await)
+}
+
+#[utoipa::path(put, path = "/api/admin/panel-sync/connections/{id}", tag = "panel-sync", params(("id" = String, Path)), request_body = ConnectionUpdateInput, responses((status = 200, body = PanelConnection), (status = 404, body = serde_json::Value)))]
+pub async fn update(
+    State(state): State<AppState>,
+    Path(id): Path<String>,
+    Json(input): Json<ConnectionUpdateInput>,
+) -> Response {
+    result(service::update(&state, &id, input).await)
+}
+
+#[utoipa::path(delete, path = "/api/admin/panel-sync/connections/{id}", tag = "panel-sync", params(("id" = String, Path), ("cleanup_remote" = Option<bool>, Query), ("source_revision" = Option<String>, Query), ("plan_hash" = Option<String>, Query)), responses((status = 200, body = serde_json::Value), (status = 404, body = serde_json::Value)))]
+pub async fn delete(
+    State(state): State<AppState>,
+    Path(id): Path<String>,
+    Query(input): Query<DeleteConnectionRequest>,
+) -> Response {
+    let cleanup_remote = input.cleanup_remote;
+    match service::delete(&state, &id, input).await {
+        Ok(()) => {
+            response::ok(json!({
+                "detached": true,
+                "remote_cleaned": cleanup_remote,
+                "warning": if cleanup_remote { Value::Null } else { json!("连接已解除；远端内容未自动清理") }
+            }))
+            .into_response()
+        }
+        Err(error) => service_error(error),
+    }
+}
+
+#[utoipa::path(post, path = "/api/admin/panel-sync/test", tag = "panel-sync", request_body = TestConnectionInput, responses((status = 200, body = ProbeResult), (status = 400, body = serde_json::Value)))]
+pub async fn test(
+    State(state): State<AppState>,
+    Json(input): Json<TestConnectionInput>,
+) -> Response {
+    result(service::test(&state, input).await)
+}
+
+#[utoipa::path(post, path = "/api/admin/panel-sync/connections/{id}/preview", tag = "panel-sync", params(("id" = String, Path)), request_body = PreviewRequest, responses((status = 200, body = SyncPreview), (status = 400, body = serde_json::Value)))]
+pub async fn preview(
+    State(state): State<AppState>,
+    Path(id): Path<String>,
+    Json(input): Json<PreviewRequest>,
+) -> Response {
+    let _refresh_remote = input.refresh_remote.unwrap_or(true);
+    match service::preview(&state, &id, input.cleanup_remote).await {
+        Ok(plan) => response::ok(plan.preview).into_response(),
+        Err(error) => service_error(error),
+    }
+}
+
+fn result<T: serde::Serialize>(value: Result<T, ServiceError>) -> Response {
+    match value {
+        Ok(value) => response::ok(value).into_response(),
+        Err(error) => service_error(error),
+    }
+}
+
+pub(super) fn service_error(error: ServiceError) -> Response {
+    let status = match error {
+        ServiceError::NotFound => StatusCode::NOT_FOUND,
+        ServiceError::Validation(_) => StatusCode::BAD_REQUEST,
+        ServiceError::Conflict(_) => StatusCode::CONFLICT,
+        ServiceError::Failed(_) => StatusCode::BAD_GATEWAY,
+    };
+    response::error(status, error.message())
+}

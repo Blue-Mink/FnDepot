@@ -1,1 +1,419 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tICJ2dWUtcm91dGVyIjsKaW1wb3J0IHsKICBDbG91ZGZsYXJlZEFQSSwKICB0eXBlIENsb3VkZmxhcmVkQ29uZmlnLAogIHR5cGUgQ2xvdWRmbGFyZWRQcm90b2NvbCwKICB0eXBlIFR1bm5lbFN1cGVydmlzb3JTdGF0dXMsCn0gZnJvbSAiQC9saWIvYXBpL3R1bm5lbCI7CmltcG9ydCB7IENvbmZpZ0FQSSB9IGZyb20gIkAvbGliL2FwaS9jb25maWciOwppbXBvcnQgewogIFN5c3RlbUFQSSwKICB0eXBlIENsb3VkZmxhcmVkSW5zdGFsbGF0aW9uU3RhdHVzLAp9IGZyb20gIkAvbGliL2FwaS9zeXN0ZW0iOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7CiAgREVGQVVMVF9MT0dfV0lORE9XX1NJWkUsCiAgbWVyZ2VQb2xsaW5nTG9nV2luZG93LAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvbG9nLXdpbmRvdyI7CmltcG9ydCB7IHVzZUFjY2Vzc0VudHJ5UG9ydCB9IGZyb20gIkAvY29tcG9zYWJsZXMvdXNlQWNjZXNzRW50cnlQb3J0IjsKaW1wb3J0IHsgdXNlVGFyZ2V0UG9sbGluZyB9IGZyb20gIkAvY29tcG9zYWJsZXMvdXNlVGFyZ2V0UG9sbGluZyI7CmltcG9ydCB7IHVzZUNvbmZpZ1N0b3JlIH0gZnJvbSAiQC9zdG9yZS9jb25maWciOwppbXBvcnQgewogIGFuYWx5emVDbG91ZGZsYXJlZExvZ3MsCiAgdHlwZSBDbG91ZGZsYXJlZExvZ0FuYWx5c2lzLAp9IGZyb20gIi4vY2xvdWRmbGFyZWRMb2dBbmFseXNpcyI7CmltcG9ydCB0eXBlIHsKICBDbG91ZGZsYXJlZFByb3RvY29sT3B0aW9uLAogIENsb3VkZmxhcmVUcmFuc2xhdGUsCn0gZnJvbSAiLi9jbG91ZGZsYXJlVHVubmVsVHlwZXMiOwoKY29uc3Qgc3RvcHBlZFN1cGVydmlzb3IgPSAoKTogVHVubmVsU3VwZXJ2aXNvclN0YXR1cyA9PiAoewogIHN0YXRlOiAic3RvcHBlZCIsCiAgZGVzaXJlZFJ1bm5pbmc6IGZhbHNlLAogIHJ1bm5pbmc6IGZhbHNlLAogIGF0dGFjaGVkOiBmYWxzZSwKICBwaWQ6IG51bGwsCiAgcmVzdGFydENvdW50OiAwLAogIGNvbnNlY3V0aXZlRmFpbHVyZXM6IDAsCiAgbmV4dFJlc3RhcnRBdDogbnVsbCwKICBzdGFydGVkQXQ6IG51bGwsCiAgc3RvcHBlZEF0OiBudWxsLAogIGxhc3RGYWlsdXJlOiBudWxsLAogIGxhc3RNZXNzYWdlOiBudWxsLAp9KTsKCmV4cG9ydCBjb25zdCB1c2VDbG91ZGZsYXJlZFJ1bnRpbWUgPSAoewogIG9uQ29uZmlnTG9hZGVkLAogIHQsCn06IHsKICBvbkNvbmZpZ0xvYWRlZDogKGNvbmZpZzogQ2xvdWRmbGFyZWRDb25maWcpID0+IHZvaWQ7CiAgdDogQ2xvdWRmbGFyZVRyYW5zbGF0ZTsKfSkgPT4gewogIGNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpOwogIGNvbnN0IGNvbmZpZ1N0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKICBjb25zdCBpc0luaXQgPSByZWYoZmFsc2UpOwogIGNvbnN0IHJ1bm5pbmcgPSByZWYoZmFsc2UpOwogIGNvbnN0IGNsb3VkZmxhcmVkSW5zdGFsbGF0aW9uU3RhdHVzID0KICAgIHJlZjxDbG91ZGZsYXJlZEluc3RhbGxhdGlvblN0YXR1cz4oIm1pc3NpbmciKTsKICBjb25zdCBjbG91ZGZsYXJlZFRhcmdldFZlcnNpb24gPSByZWYoIiIpOwogIGNvbnN0IHBpZCA9IHJlZjxudW1iZXIgfCBudWxsPihudWxsKTsKICBjb25zdCBzdXBlcnZpc29yID0gcmVmPFR1bm5lbFN1cGVydmlzb3JTdGF0dXM+KHN0b3BwZWRTdXBlcnZpc29yKCkpOwogIGNvbnN0IGxvZ3MgPSByZWY8c3RyaW5nW10+KFtdKTsKICBjb25zdCBjbG91ZGZsYXJlZExvZ0FuYWx5c2lzID0gcmVmPENsb3VkZmxhcmVkTG9nQW5hbHlzaXMgfCBudWxsPihudWxsKTsKICBjb25zdCBzaG93SW5pdERpYWxvZyA9IHJlZihmYWxzZSk7CiAgY29uc3Qgc2hvd1Rva2VuID0gcmVmKGZhbHNlKTsKICBjb25zdCBjb25maWdMb2FkZWQgPSByZWYoZmFsc2UpOwogIGNvbnN0IGhhc0Nsb3VkZmxhcmVkTG9nQmFzZWxpbmUgPSByZWYoZmFsc2UpOwogIGNvbnN0IHRva2VuID0gcmVmKCIiKTsKICBjb25zdCB0dW5uZWxUb2tlbkNvbmZpZ3VyZWQgPSByZWYoZmFsc2UpOwogIGNvbnN0IHByb3RvY29sID0gcmVmPENsb3VkZmxhcmVkUHJvdG9jb2w+KCJhdXRvIik7CiAgY29uc3QgeyBhY2Nlc3NFbnRyeVBvcnQsIGxvYWRBY2Nlc3NFbnRyeVBvcnQgfSA9IHVzZUFjY2Vzc0VudHJ5UG9ydCh7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgY29uc29sZS53YXJuKCJsb2FkIGNsb3VkZmxhcmVkIGFjY2VzcyBlbnRyeSBwb3J0IGZhaWxlZDoiLCBlcnJvcik7CiAgICB9LAogIH0pOwoKICBjb25zdCBjbG91ZGZsYXJlZFByb3RvY29sT3B0aW9ucyA9IGNvbXB1dGVkPENsb3VkZmxhcmVkUHJvdG9jb2xPcHRpb25bXT4oCiAgICAoKSA9PiBbCiAgICAgIHsKICAgICAgICB2YWx1ZTogImF1dG8iLAogICAgICAgIGxhYmVsOiB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLnByb3RvY29sLmF1dG8iKSwKICAgICAgICBkZXNjcmlwdGlvbjogdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5wcm90b2NvbC5hdXRvRGVzY3JpcHRpb24iKSwKICAgICAgfSwKICAgICAgewogICAgICAgIHZhbHVlOiAiaHR0cDIiLAogICAgICAgIGxhYmVsOiAiSFRUUDIiLAogICAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLnByb3RvY29sLmh0dHAyRGVzY3JpcHRpb24iKSwKICAgICAgfSwKICAgICAgewogICAgICAgIHZhbHVlOiAicXVpYyIsCiAgICAgICAgbGFiZWw6ICJRVUlDIiwKICAgICAgICBkZXNjcmlwdGlvbjogdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5wcm90b2NvbC5xdWljRGVzY3JpcHRpb24iKSwKICAgICAgfSwKICAgIF0sCiAgKTsKICBjb25zdCBkZWZhdWx0Q2xvdWRmbGFyZWRQcm90b2NvbE9wdGlvbiA9IGNvbXB1dGVkPENsb3VkZmxhcmVkUHJvdG9jb2xPcHRpb24+KAogICAgKCkgPT4KICAgICAgY2xvdWRmbGFyZWRQcm90b2NvbE9wdGlvbnMudmFsdWVbMF0gPz8gewogICAgICAgIHZhbHVlOiAiYXV0byIsCiAgICAgICAgbGFiZWw6IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwucHJvdG9jb2wuYXV0byIpLAogICAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLnByb3RvY29sLmF1dG9EZXNjcmlwdGlvbiIpLAogICAgICB9LAogICk7CgogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1NhdmluZywgcnVuOiBydW5TYXZlQ29uZmlnIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5zYXZlRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5zYXZlRmFpbGVkIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1N0YXJ0aW5nLCBydW46IHJ1blN0YXJ0Q2xvdWRmbGFyZWQgfSA9IHVzZUFzeW5jQWN0aW9uKCk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzU3RvcHBpbmcsIHJ1bjogcnVuU3RvcENsb3VkZmxhcmVkIH0gPSB1c2VBc3luY0FjdGlvbigpOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc0NsZWFyaW5nTG9ncywgcnVuOiBydW5DbGVhckxvZ3MgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLmNsZWFyTG9nc0ZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwuY2xlYXJMb2dzRmFpbGVkIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwogIGNvbnN0IHsgcnVuOiBydW5Mb2FkU3RhdHVzIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5sb2FkU3RhdHVzRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5sb2FkU3RhdHVzRmFpbGVkIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwogIGNvbnN0IHsgcnVuOiBydW5Mb2FkQ29uZmlnIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5sb2FkQ29uZmlnRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5sb2FkQ29uZmlnRmFpbGVkIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwoKICB3YXRjaCh0b2tlbiwgKG5ld1ZhbHVlKSA9PiB7CiAgICBpZiAoIW5ld1ZhbHVlKSByZXR1cm47CiAgICBjb25zdCByYXdUb2tlbk1hdGNoID0gbmV3VmFsdWUubWF0Y2goLyhleUpbQS1aYS16MC05LV9dKykvKTsKICAgIGlmIChyYXdUb2tlbk1hdGNoPy5bMV0gJiYgbmV3VmFsdWUgIT09IHJhd1Rva2VuTWF0Y2hbMV0pIHsKICAgICAgdG9rZW4udmFsdWUgPSByYXdUb2tlbk1hdGNoWzFdOwogICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwudG9rZW5FeHRyYWN0ZWQiKSk7CiAgICB9CiAgfSk7CgogIGNvbnN0IGNhblN0YXJ0ID0gY29tcHV0ZWQoCiAgICAoKSA9PgogICAgICBpc0luaXQudmFsdWUgJiYKICAgICAgIXN1cGVydmlzb3IudmFsdWUuZGVzaXJlZFJ1bm5pbmcgJiYKICAgICAgIXN1cGVydmlzb3IudmFsdWUucnVubmluZyAmJgogICAgICAodHVubmVsVG9rZW5Db25maWd1cmVkLnZhbHVlIHx8IHRva2VuLnZhbHVlLnRyaW0oKSksCiAgKTsKICBjb25zdCBjYW5TdG9wID0gY29tcHV0ZWQoCiAgICAoKSA9PiBzdXBlcnZpc29yLnZhbHVlLmRlc2lyZWRSdW5uaW5nIHx8IHN1cGVydmlzb3IudmFsdWUucnVubmluZywKICApOwogIGNvbnN0IGlzUmV2ZXJzZVByb3h5U3ViZG9tYWluTW9kZSA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgY29uZmlnU3RvcmUuY29uZmlnPy5ydW5fdHlwZSA9PT0gMSAmJgogICAgICBjb25maWdTdG9yZS5jb25maWc/LnJldmVyc2VfcHJveHlfc3VibW9kZSA9PT0gInN1YmRvbWFpbiIsCiAgKTsKICBjb25zdCByb290RG9tYWluID0gY29tcHV0ZWQoCiAgICAoKSA9PgogICAgICBjb25maWdTdG9yZS5jb25maWc/LnN1YmRvbWFpbl9tb2RlPy5yb290X2RvbWFpbj8udHJpbSgpLnRvTG93ZXJDYXNlKCkgfHwKICAgICAgIiIsCiAgKTsKICBjb25zdCBwdWJsaWNXaWxkY2FyZEhvc3RuYW1lID0gY29tcHV0ZWQoKCkgPT4KICAgIHJvb3REb21haW4udmFsdWUgPyBgKi4ke3Jvb3REb21haW4udmFsdWV9YCA6ICIqLmV4YW1wbGUuY29tIiwKICApOwogIGNvbnN0IGF1dGhTZXJ2aWNlSG9zdCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IGF1dGhNYXBwaW5nID0gY29uZmlnU3RvcmUuY29uZmlnPy5ob3N0X21hcHBpbmdzPy5maW5kKAogICAgICAobWFwcGluZykgPT4gbWFwcGluZy5zZXJ2aWNlX3JvbGUgPT09ICJhdXRoIiwKICAgICk7CiAgICByZXR1cm4gKAogICAgICBhdXRoTWFwcGluZz8uaG9zdD8udHJpbSgpIHx8CiAgICAgIGNvbmZpZ1N0b3JlLmNvbmZpZz8uc3ViZG9tYWluX21vZGU/LmF1dGhfaG9zdD8udHJpbSgpIHx8CiAgICAgICIiCiAgICApOwogIH0pOwogIGNvbnN0IGRpc3BsYXlBY2Nlc3NFbnRyeVBvcnQgPSBjb21wdXRlZCgKICAgICgpID0+IGFjY2Vzc0VudHJ5UG9ydC52YWx1ZS50cmltKCkgfHwgIjc5OTkiLAogICk7CiAgY29uc3QgY2xvdWRmbGFyZWRPcmlnaW5TZXJ2aWNlVXJsID0gY29tcHV0ZWQoCiAgICAoKSA9PiBgaHR0cDovLzEyNy4wLjAuMToke2Rpc3BsYXlBY2Nlc3NFbnRyeVBvcnQudmFsdWV9YCwKICApOwogIGNvbnN0IGhhc1N1YmRvbWFpblJvb3QgPSBjb21wdXRlZCgoKSA9PiBCb29sZWFuKHJvb3REb21haW4udmFsdWUpKTsKICBjb25zdCBjbG91ZGZsYXJlZFByb3RvY29sT3B0aW9uID0gY29tcHV0ZWQoCiAgICAoKSA9PgogICAgICBjbG91ZGZsYXJlZFByb3RvY29sT3B0aW9ucy52YWx1ZS5maW5kKAogICAgICAgIChvcHRpb24pID0+IG9wdGlvbi52YWx1ZSA9PT0gcHJvdG9jb2wudmFsdWUsCiAgICAgICkgPz8gZGVmYXVsdENsb3VkZmxhcmVkUHJvdG9jb2xPcHRpb24udmFsdWUsCiAgKTsKICBjb25zdCBjbG91ZGZsYXJlZFByb3RvY29sTGFiZWwgPSBjb21wdXRlZCgKICAgICgpID0+IGNsb3VkZmxhcmVkUHJvdG9jb2xPcHRpb24udmFsdWUubGFiZWwsCiAgKTsKICBjb25zdCBjbG91ZGZsYXJlZFByb3RvY29sRGVzY3JpcHRpb24gPSBjb21wdXRlZCgKICAgICgpID0+IGNsb3VkZmxhcmVkUHJvdG9jb2xPcHRpb24udmFsdWUuZGVzY3JpcHRpb24sCiAgKTsKICBjb25zdCBjbG91ZGZsYXJlZExvZ0FuYWx5c2lzTWVzc2FnZSA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IGFuYWx5c2lzID0gY2xvdWRmbGFyZWRMb2dBbmFseXNpcy52YWx1ZTsKICAgIGlmICghYW5hbHlzaXMpIHJldHVybiAiIjsKICAgIGNvbnN0IG9yaWdpblRhcmdldCA9IGFuYWx5c2lzLm9yaWdpbkhvc3QKICAgICAgPyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLmFuYWx5c2lzT3JpZ2luSG9zdCIsIHsKICAgICAgICAgIGhvc3Q6IGFuYWx5c2lzLm9yaWdpbkhvc3QsCiAgICAgICAgfSkKICAgICAgOiB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLmFuYWx5c2lzT3JpZ2luR2VuZXJpYyIpOwogICAgcmV0dXJuIHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwuYW5hbHlzaXNNZXNzYWdlIiwgewogICAgICBvcmlnaW46IG9yaWdpblRhcmdldCwKICAgICAgY2VydGlmaWNhdGVzOiBhbmFseXNpcy5jZXJ0aWZpY2F0ZUhvc3RzLmpvaW4oIiwgIiksCiAgICAgIHJlcXVlc3RlZDogYW5hbHlzaXMucmVxdWVzdGVkSG9zdCwKICAgIH0pOwogIH0pOwoKICBjb25zdCBsb2FkU3RhdHVzID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuTG9hZFN0YXR1cyhhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IHN0YXR1cyA9IGF3YWl0IENsb3VkZmxhcmVkQVBJLmdldFN0YXR1cygpOwogICAgICBpc0luaXQudmFsdWUgPSBzdGF0dXMuaW5pdGlhbGl6ZWQ7CiAgICAgIHJ1bm5pbmcudmFsdWUgPSBzdGF0dXMucnVubmluZzsKICAgICAgcGlkLnZhbHVlID0gc3RhdHVzLnBpZDsKICAgICAgc3VwZXJ2aXNvci52YWx1ZSA9IHN0YXR1cy5zdXBlcnZpc29yOwogICAgICBpZiAoIWlzSW5pdC52YWx1ZSkgewogICAgICAgIGNvbnN0IHN5c3RlbVN0YXR1cyA9IGF3YWl0IFN5c3RlbUFQSS5nZXRDbG91ZGZsYXJlZFN0YXR1cygpOwogICAgICAgIGNvbnN0IGFzc2V0ID0gc3lzdGVtU3RhdHVzPy5kYXRhOwogICAgICAgIGNsb3VkZmxhcmVkSW5zdGFsbGF0aW9uU3RhdHVzLnZhbHVlID0KICAgICAgICAgIGFzc2V0Py5pbnN0YWxsYXRpb25fc3RhdHVzID8/CiAgICAgICAgICAoYXNzZXQ/LmRvd25sb2FkZWQgPyAiY3VycmVudCIgOiAibWlzc2luZyIpOwogICAgICAgIGNsb3VkZmxhcmVkVGFyZ2V0VmVyc2lvbi52YWx1ZSA9IGFzc2V0Py50YXJnZXRfdmVyc2lvbiA/PyAiIjsKICAgICAgICBzaG93SW5pdERpYWxvZy52YWx1ZSA9CiAgICAgICAgICBjbG91ZGZsYXJlZEluc3RhbGxhdGlvblN0YXR1cy52YWx1ZSA9PT0gIm1pc3NpbmciOwogICAgICB9IGVsc2UgewogICAgICAgIGNsb3VkZmxhcmVkSW5zdGFsbGF0aW9uU3RhdHVzLnZhbHVlID0gImN1cnJlbnQiOwogICAgICAgIHNob3dJbml0RGlhbG9nLnZhbHVlID0gZmFsc2U7CiAgICAgIH0KICAgIH0pOwogIH07CgogIGNvbnN0IGxvYWRDb25maWcgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBydW5Mb2FkQ29uZmlnKAogICAgICBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgY29uZmlnID0gYXdhaXQgQ2xvdWRmbGFyZWRBUEkuZ2V0Q29uZmlnKCk7CiAgICAgICAgdG9rZW4udmFsdWUgPSAiIjsKICAgICAgICB0dW5uZWxUb2tlbkNvbmZpZ3VyZWQudmFsdWUgPSBjb25maWcudHVubmVsVG9rZW5Db25maWd1cmVkOwogICAgICAgIHByb3RvY29sLnZhbHVlID0gY29uZmlnLnByb3RvY29sIHx8ICJhdXRvIjsKICAgICAgICBvbkNvbmZpZ0xvYWRlZChjb25maWcpOwogICAgICB9LAogICAgICB7IG9uRmluYWxseTogKCkgPT4gKGNvbmZpZ0xvYWRlZC52YWx1ZSA9IHRydWUpIH0sCiAgICApOwogIH07CgogIGNvbnN0IHNlbGVjdEFzRGVmYXVsdFR1bm5lbCA9IGFzeW5jICgpID0+IHsKICAgIGF3YWl0IENvbmZpZ0FQSS51cGRhdGVEZWZhdWx0VHVubmVsKCJjbG91ZGZsYXJlZCIpOwogICAgaWYgKGNvbmZpZ1N0b3JlLmNvbmZpZykgY29uZmlnU3RvcmUuY29uZmlnLmRlZmF1bHRfdHVubmVsID0gImNsb3VkZmxhcmVkIjsKICB9OwogIGNvbnN0IHN0YXJ0Q2xvdWRmbGFyZWQgPSBhc3luYyAob3B0aW9ucz86IHsgc2lsZW50PzogYm9vbGVhbiB9KSA9PiB7CiAgICBhd2FpdCBydW5TdGFydENsb3VkZmxhcmVkKCgpID0+IENsb3VkZmxhcmVkQVBJLnN0YXJ0KCksIHsKICAgICAgb25TdWNjZXNzOiBhc3luYyAocmVzdWx0KSA9PiB7CiAgICAgICAgcGlkLnZhbHVlID0gcmVzdWx0LnBpZDsKICAgICAgICBydW5uaW5nLnZhbHVlID0gdHJ1ZTsKICAgICAgICBzdXBlcnZpc29yLnZhbHVlID0gewogICAgICAgICAgLi4uc3VwZXJ2aXNvci52YWx1ZSwKICAgICAgICAgIHN0YXRlOiAicnVubmluZyIsCiAgICAgICAgICBkZXNpcmVkUnVubmluZzogdHJ1ZSwKICAgICAgICAgIHJ1bm5pbmc6IHRydWUsCiAgICAgICAgICBwaWQ6IHJlc3VsdC5waWQsCiAgICAgICAgICBuZXh0UmVzdGFydEF0OiBudWxsLAogICAgICAgIH07CiAgICAgICAgYXdhaXQgc2VsZWN0QXNEZWZhdWx0VHVubmVsKCk7CiAgICAgICAgaWYgKCFvcHRpb25zPy5zaWxlbnQpIHsKICAgICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5zdGFydFN1Y2Nlc3MiKSk7CiAgICAgICAgfQogICAgICB9LAogICAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgICBpZiAob3B0aW9ucz8uc2lsZW50KSByZXR1cm47CiAgICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5zdGFydEZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgICAgZXJyb3IsCiAgICAgICAgICAgIHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwuc3RhcnRGYWlsZWQiKSwKICAgICAgICAgICksCiAgICAgICAgfSk7CiAgICAgIH0sCiAgICB9KTsKICB9OwogIGNvbnN0IHN0b3BDbG91ZGZsYXJlZCA9IGFzeW5jIChvcHRpb25zPzogeyBzaWxlbnQ/OiBib29sZWFuIH0pID0+IHsKICAgIGF3YWl0IHJ1blN0b3BDbG91ZGZsYXJlZCgoKSA9PiBDbG91ZGZsYXJlZEFQSS5zdG9wKCksIHsKICAgICAgb25TdWNjZXNzOiAoKSA9PiB7CiAgICAgICAgcnVubmluZy52YWx1ZSA9IGZhbHNlOwogICAgICAgIHBpZC52YWx1ZSA9IG51bGw7CiAgICAgICAgc3VwZXJ2aXNvci52YWx1ZSA9IHN0b3BwZWRTdXBlcnZpc29yKCk7CiAgICAgICAgaWYgKCFvcHRpb25zPy5zaWxlbnQpIHsKICAgICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5zdG9wU3VjY2VzcyIpKTsKICAgICAgICB9CiAgICAgIH0sCiAgICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICAgIGlmIChvcHRpb25zPy5zaWxlbnQpIHJldHVybjsKICAgICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLnN0b3BGYWlsZWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICAgIGVycm9yLAogICAgICAgICAgICB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLnN0b3BGYWlsZWQiKSwKICAgICAgICAgICksCiAgICAgICAgfSk7CiAgICAgIH0sCiAgICB9KTsKICB9OwogIGNvbnN0IHNhdmVDb25maWcgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBydW5TYXZlQ29uZmlnKGFzeW5jICgpID0+IHsKICAgICAgY29uc3Qgc2hvdWxkUmVzdGFydCA9IHN1cGVydmlzb3IudmFsdWUuZGVzaXJlZFJ1bm5pbmc7CiAgICAgIGF3YWl0IENsb3VkZmxhcmVkQVBJLnNhdmVDb25maWcoewogICAgICAgIHByb3RvY29sOiBwcm90b2NvbC52YWx1ZSwKICAgICAgICAuLi4odG9rZW4udmFsdWUudHJpbSgpID8geyB0b2tlbjogdG9rZW4udmFsdWUudHJpbSgpIH0gOiB7fSksCiAgICAgIH0pOwogICAgICBpZiAodG9rZW4udmFsdWUudHJpbSgpKSB7CiAgICAgICAgdHVubmVsVG9rZW5Db25maWd1cmVkLnZhbHVlID0gdHJ1ZTsKICAgICAgICB0b2tlbi52YWx1ZSA9ICIiOwogICAgICB9CiAgICAgIGF3YWl0IGxvYWRTdGF0dXMoKTsKICAgICAgdG9hc3Quc3VjY2VzcygKICAgICAgICB0KAogICAgICAgICAgc2hvdWxkUmVzdGFydAogICAgICAgICAgICA/ICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLnJlc3RhcnRTdWNjZXNzIgogICAgICAgICAgICA6ICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLnNhdmVTdWNjZXNzIiwKICAgICAgICApLAogICAgICApOwogICAgfSk7CiAgfTsKCiAgY29uc3QgY2xvdWRmbGFyZWRQb2xsaW5nID0gdXNlVGFyZ2V0UG9sbGluZyh7CiAgICB0YXJnZXQ6ICJjbG91ZGZsYXJlZCIsCiAgICBpbnRlcnZhbE1zOiAyMDAwLAogICAgb25EYXRhOiAocGF5bG9hZCkgPT4gewogICAgICBsb2dzLnZhbHVlID0gbWVyZ2VQb2xsaW5nTG9nV2luZG93KGxvZ3MudmFsdWUsIHBheWxvYWQubG9ncywgewogICAgICAgIHJlc2V0OiBwYXlsb2FkLnJlc2V0LAogICAgICAgIG1heDogREVGQVVMVF9MT0dfV0lORE9XX1NJWkUsCiAgICAgIH0pOwogICAgICBydW5uaW5nLnZhbHVlID0gcGF5bG9hZC5zdGF0dXMucnVubmluZzsKICAgICAgcGlkLnZhbHVlID0gcGF5bG9hZC5zdGF0dXMucGlkOwogICAgICBzdXBlcnZpc29yLnZhbHVlID0gcGF5bG9hZC5zdGF0dXMuc3VwZXJ2aXNvcjsKICAgICAgaWYgKCFoYXNDbG91ZGZsYXJlZExvZ0Jhc2VsaW5lLnZhbHVlKSB7CiAgICAgICAgaGFzQ2xvdWRmbGFyZWRMb2dCYXNlbGluZS52YWx1ZSA9IHRydWU7CiAgICAgICAgcmV0dXJuOwogICAgICB9CiAgICAgIGNvbnN0IGFuYWx5c2lzID0gYW5hbHl6ZUNsb3VkZmxhcmVkTG9ncyhwYXlsb2FkLmxvZ3MpOwogICAgICBpZiAoYW5hbHlzaXMpIGNsb3VkZmxhcmVkTG9nQW5hbHlzaXMudmFsdWUgPSBhbmFseXNpczsKICAgIH0sCiAgfSk7CgogIGNvbnN0IG9uQ2xlYXJMb2dzQ2xpY2sgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBydW5DbGVhckxvZ3MoKCkgPT4gQ2xvdWRmbGFyZWRBUEkuY2xlYXJMb2dzKCksIHsKICAgICAgb25TdWNjZXNzOiAoKSA9PiB7CiAgICAgICAgbG9ncy52YWx1ZSA9IFtdOwogICAgICAgIGNsb3VkZmxhcmVkTG9nQW5hbHlzaXMudmFsdWUgPSBudWxsOwogICAgICAgIGNsb3VkZmxhcmVkUG9sbGluZy5yZXNldEN1cnNvcigpOwogICAgICAgIHZvaWQgY2xvdWRmbGFyZWRQb2xsaW5nLnJlZnJlc2goKTsKICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwubG9nc0NsZWFyZWQiKSk7CiAgICAgIH0sCiAgICB9KTsKICB9OwogIGNvbnN0IGdvdG9SZXNvdXJjZXMgPSAoKSA9PiB7CiAgICBzaG93SW5pdERpYWxvZy52YWx1ZSA9IGZhbHNlOwogICAgdm9pZCByb3V0ZXIucHVzaCh7IHBhdGg6ICIvc3lzdGVtIiwgcXVlcnk6IHsgdGFiOiAiY2xvdWRmbGFyZWQiIH0gfSk7CiAgfTsKICBjb25zdCBsb2FkRW52aXJvbm1lbnRDb25maWcgPSAoKSA9PgogICAgY29uZmlnU3RvcmUuY29uZmlnID8gUHJvbWlzZS5yZXNvbHZlKCkgOiBjb25maWdTdG9yZS5sb2FkQ29uZmlnKCk7CgogIHJldHVybiB7CiAgICBhdXRoU2VydmljZUhvc3QsCiAgICBjYW5TdGFydCwKICAgIGNhblN0b3AsCiAgICBjbG91ZGZsYXJlZEluc3RhbGxhdGlvblN0YXR1cywKICAgIGNsb3VkZmxhcmVkTG9nQW5hbHlzaXMsCiAgICBjbG91ZGZsYXJlZExvZ0FuYWx5c2lzTWVzc2FnZSwKICAgIGNsb3VkZmxhcmVkT3JpZ2luU2VydmljZVVybCwKICAgIGNsb3VkZmxhcmVkUHJvdG9jb2xEZXNjcmlwdGlvbiwKICAgIGNsb3VkZmxhcmVkUHJvdG9jb2xMYWJlbCwKICAgIGNsb3VkZmxhcmVkUHJvdG9jb2xPcHRpb25zLAogICAgY2xvdWRmbGFyZWRUYXJnZXRWZXJzaW9uLAogICAgY29uZmlnTG9hZGVkLAogICAgZ290b1Jlc291cmNlcywKICAgIGhhc1N1YmRvbWFpblJvb3QsCiAgICBpc0NsZWFyaW5nTG9ncywKICAgIGlzUmV2ZXJzZVByb3h5U3ViZG9tYWluTW9kZSwKICAgIGlzU2F2aW5nLAogICAgaXNTdGFydGluZywKICAgIGlzU3RvcHBpbmcsCiAgICBsb2FkQWNjZXNzRW50cnlQb3J0LAogICAgbG9hZENvbmZpZywKICAgIGxvYWRFbnZpcm9ubWVudENvbmZpZywKICAgIGxvYWRTdGF0dXMsCiAgICBsb2dzLAogICAgb25DbGVhckxvZ3NDbGljaywKICAgIHBpZCwKICAgIHByb3RvY29sLAogICAgcHVibGljV2lsZGNhcmRIb3N0bmFtZSwKICAgIHJ1bm5pbmcsCiAgICBzYXZlQ29uZmlnLAogICAgc2hvd0luaXREaWFsb2csCiAgICBzaG93VG9rZW4sCiAgICBzdGFydENsb3VkZmxhcmVkLAogICAgc3RhcnRQb2xsaW5nOiBjbG91ZGZsYXJlZFBvbGxpbmcuc3RhcnQsCiAgICBzdG9wQ2xvdWRmbGFyZWQsCiAgICBzdG9wUG9sbGluZzogY2xvdWRmbGFyZWRQb2xsaW5nLnN0b3AsCiAgICBzdXBlcnZpc29yLAogICAgdG9rZW4sCiAgICB0dW5uZWxUb2tlbkNvbmZpZ3VyZWQsCiAgfTsKfTsK
+import { computed, ref, watch } from "vue";
+import { useRouter } from "vue-router";
+import {
+  CloudflaredAPI,
+  type CloudflaredConfig,
+  type CloudflaredProtocol,
+  type TunnelSupervisorStatus,
+} from "@/lib/api/tunnel";
+import { ConfigAPI } from "@/lib/api/config";
+import {
+  SystemAPI,
+  type CloudflaredInstallationStatus,
+} from "@/lib/api/system";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import {
+  DEFAULT_LOG_WINDOW_SIZE,
+  mergePollingLogWindow,
+} from "@admin-shared/utils/log-window";
+import { useAccessEntryPort } from "@/composables/useAccessEntryPort";
+import { useTargetPolling } from "@/composables/useTargetPolling";
+import { useConfigStore } from "@/store/config";
+import {
+  analyzeCloudflaredLogs,
+  type CloudflaredLogAnalysis,
+} from "./cloudflaredLogAnalysis";
+import type {
+  CloudflaredProtocolOption,
+  CloudflareTranslate,
+} from "./cloudflareTunnelTypes";
+
+const stoppedSupervisor = (): TunnelSupervisorStatus => ({
+  state: "stopped",
+  desiredRunning: false,
+  running: false,
+  attached: false,
+  pid: null,
+  restartCount: 0,
+  consecutiveFailures: 0,
+  nextRestartAt: null,
+  startedAt: null,
+  stoppedAt: null,
+  lastFailure: null,
+  lastMessage: null,
+});
+
+export const useCloudflaredRuntime = ({
+  onConfigLoaded,
+  t,
+}: {
+  onConfigLoaded: (config: CloudflaredConfig) => void;
+  t: CloudflareTranslate;
+}) => {
+  const router = useRouter();
+  const configStore = useConfigStore();
+  const isInit = ref(false);
+  const running = ref(false);
+  const cloudflaredInstallationStatus =
+    ref<CloudflaredInstallationStatus>("missing");
+  const cloudflaredTargetVersion = ref("");
+  const pid = ref<number | null>(null);
+  const supervisor = ref<TunnelSupervisorStatus>(stoppedSupervisor());
+  const logs = ref<string[]>([]);
+  const cloudflaredLogAnalysis = ref<CloudflaredLogAnalysis | null>(null);
+  const showInitDialog = ref(false);
+  const showToken = ref(false);
+  const configLoaded = ref(false);
+  const hasCloudflaredLogBaseline = ref(false);
+  const token = ref("");
+  const tunnelTokenConfigured = ref(false);
+  const protocol = ref<CloudflaredProtocol>("auto");
+  const { accessEntryPort, loadAccessEntryPort } = useAccessEntryPort({
+    onError: (error) => {
+      console.warn("load cloudflared access entry port failed:", error);
+    },
+  });
+
+  const cloudflaredProtocolOptions = computed<CloudflaredProtocolOption[]>(
+    () => [
+      {
+        value: "auto",
+        label: t("admin.cloudflareTunnel.protocol.auto"),
+        description: t("admin.cloudflareTunnel.protocol.autoDescription"),
+      },
+      {
+        value: "http2",
+        label: "HTTP2",
+        description: t("admin.cloudflareTunnel.protocol.http2Description"),
+      },
+      {
+        value: "quic",
+        label: "QUIC",
+        description: t("admin.cloudflareTunnel.protocol.quicDescription"),
+      },
+    ],
+  );
+  const defaultCloudflaredProtocolOption = computed<CloudflaredProtocolOption>(
+    () =>
+      cloudflaredProtocolOptions.value[0] ?? {
+        value: "auto",
+        label: t("admin.cloudflareTunnel.protocol.auto"),
+        description: t("admin.cloudflareTunnel.protocol.autoDescription"),
+      },
+  );
+
+  const { isPending: isSaving, run: runSaveConfig } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.cloudflareTunnel.saveFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.cloudflareTunnel.saveFailed"),
+        ),
+      });
+    },
+  });
+  const { isPending: isStarting, run: runStartCloudflared } = useAsyncAction();
+  const { isPending: isStopping, run: runStopCloudflared } = useAsyncAction();
+  const { isPending: isClearingLogs, run: runClearLogs } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.cloudflareTunnel.clearLogsFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.cloudflareTunnel.clearLogsFailed"),
+        ),
+      });
+    },
+  });
+  const { run: runLoadStatus } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.cloudflareTunnel.loadStatusFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.cloudflareTunnel.loadStatusFailed"),
+        ),
+      });
+    },
+  });
+  const { run: runLoadConfig } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.cloudflareTunnel.loadConfigFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.cloudflareTunnel.loadConfigFailed"),
+        ),
+      });
+    },
+  });
+
+  watch(token, (newValue) => {
+    if (!newValue) return;
+    const rawTokenMatch = newValue.match(/(eyJ[A-Za-z0-9-_]+)/);
+    if (rawTokenMatch?.[1] && newValue !== rawTokenMatch[1]) {
+      token.value = rawTokenMatch[1];
+      toast.success(t("admin.cloudflareTunnel.tokenExtracted"));
+    }
+  });
+
+  const canStart = computed(
+    () =>
+      isInit.value &&
+      !supervisor.value.desiredRunning &&
+      !supervisor.value.running &&
+      (tunnelTokenConfigured.value || token.value.trim()),
+  );
+  const canStop = computed(
+    () => supervisor.value.desiredRunning || supervisor.value.running,
+  );
+  const isReverseProxySubdomainMode = computed(
+    () =>
+      configStore.config?.run_type === 1 &&
+      configStore.config?.reverse_proxy_submode === "subdomain",
+  );
+  const rootDomain = computed(
+    () =>
+      configStore.config?.subdomain_mode?.root_domain?.trim().toLowerCase() ||
+      "",
+  );
+  const publicWildcardHostname = computed(() =>
+    rootDomain.value ? `*.${rootDomain.value}` : "*.example.com",
+  );
+  const authServiceHost = computed(() => {
+    const authMapping = configStore.config?.host_mappings?.find(
+      (mapping) => mapping.service_role === "auth",
+    );
+    return (
+      authMapping?.host?.trim() ||
+      configStore.config?.subdomain_mode?.auth_host?.trim() ||
+      ""
+    );
+  });
+  const displayAccessEntryPort = computed(
+    () => accessEntryPort.value.trim() || "7999",
+  );
+  const cloudflaredOriginServiceUrl = computed(
+    () => `http://127.0.0.1:${displayAccessEntryPort.value}`,
+  );
+  const hasSubdomainRoot = computed(() => Boolean(rootDomain.value));
+  const cloudflaredProtocolOption = computed(
+    () =>
+      cloudflaredProtocolOptions.value.find(
+        (option) => option.value === protocol.value,
+      ) ?? defaultCloudflaredProtocolOption.value,
+  );
+  const cloudflaredProtocolLabel = computed(
+    () => cloudflaredProtocolOption.value.label,
+  );
+  const cloudflaredProtocolDescription = computed(
+    () => cloudflaredProtocolOption.value.description,
+  );
+  const cloudflaredLogAnalysisMessage = computed(() => {
+    const analysis = cloudflaredLogAnalysis.value;
+    if (!analysis) return "";
+    const originTarget = analysis.originHost
+      ? t("admin.cloudflareTunnel.analysisOriginHost", {
+          host: analysis.originHost,
+        })
+      : t("admin.cloudflareTunnel.analysisOriginGeneric");
+    return t("admin.cloudflareTunnel.analysisMessage", {
+      origin: originTarget,
+      certificates: analysis.certificateHosts.join(", "),
+      requested: analysis.requestedHost,
+    });
+  });
+
+  const loadStatus = async () => {
+    await runLoadStatus(async () => {
+      const status = await CloudflaredAPI.getStatus();
+      isInit.value = status.initialized;
+      running.value = status.running;
+      pid.value = status.pid;
+      supervisor.value = status.supervisor;
+      if (!isInit.value) {
+        const systemStatus = await SystemAPI.getCloudflaredStatus();
+        const asset = systemStatus?.data;
+        cloudflaredInstallationStatus.value =
+          asset?.installation_status ??
+          (asset?.downloaded ? "current" : "missing");
+        cloudflaredTargetVersion.value = asset?.target_version ?? "";
+        showInitDialog.value =
+          cloudflaredInstallationStatus.value === "missing";
+      } else {
+        cloudflaredInstallationStatus.value = "current";
+        showInitDialog.value = false;
+      }
+    });
+  };
+
+  const loadConfig = async () => {
+    await runLoadConfig(
+      async () => {
+        const config = await CloudflaredAPI.getConfig();
+        token.value = "";
+        tunnelTokenConfigured.value = config.tunnelTokenConfigured;
+        protocol.value = config.protocol || "auto";
+        onConfigLoaded(config);
+      },
+      { onFinally: () => (configLoaded.value = true) },
+    );
+  };
+
+  const selectAsDefaultTunnel = async () => {
+    await ConfigAPI.updateDefaultTunnel("cloudflared");
+    if (configStore.config) configStore.config.default_tunnel = "cloudflared";
+  };
+  const startCloudflared = async (options?: { silent?: boolean }) => {
+    await runStartCloudflared(() => CloudflaredAPI.start(), {
+      onSuccess: async (result) => {
+        pid.value = result.pid;
+        running.value = true;
+        supervisor.value = {
+          ...supervisor.value,
+          state: "running",
+          desiredRunning: true,
+          running: true,
+          pid: result.pid,
+          nextRestartAt: null,
+        };
+        await selectAsDefaultTunnel();
+        if (!options?.silent) {
+          toast.success(t("admin.cloudflareTunnel.startSuccess"));
+        }
+      },
+      onError: (error) => {
+        if (options?.silent) return;
+        toast.error(t("admin.cloudflareTunnel.startFailed"), {
+          description: extractErrorMessage(
+            error,
+            t("admin.cloudflareTunnel.startFailed"),
+          ),
+        });
+      },
+    });
+  };
+  const stopCloudflared = async (options?: { silent?: boolean }) => {
+    await runStopCloudflared(() => CloudflaredAPI.stop(), {
+      onSuccess: () => {
+        running.value = false;
+        pid.value = null;
+        supervisor.value = stoppedSupervisor();
+        if (!options?.silent) {
+          toast.success(t("admin.cloudflareTunnel.stopSuccess"));
+        }
+      },
+      onError: (error) => {
+        if (options?.silent) return;
+        toast.error(t("admin.cloudflareTunnel.stopFailed"), {
+          description: extractErrorMessage(
+            error,
+            t("admin.cloudflareTunnel.stopFailed"),
+          ),
+        });
+      },
+    });
+  };
+  const saveConfig = async () => {
+    await runSaveConfig(async () => {
+      const shouldRestart = supervisor.value.desiredRunning;
+      await CloudflaredAPI.saveConfig({
+        protocol: protocol.value,
+        ...(token.value.trim() ? { token: token.value.trim() } : {}),
+      });
+      if (token.value.trim()) {
+        tunnelTokenConfigured.value = true;
+        token.value = "";
+      }
+      await loadStatus();
+      toast.success(
+        t(
+          shouldRestart
+            ? "admin.cloudflareTunnel.restartSuccess"
+            : "admin.cloudflareTunnel.saveSuccess",
+        ),
+      );
+    });
+  };
+
+  const cloudflaredPolling = useTargetPolling({
+    target: "cloudflared",
+    intervalMs: 2000,
+    onData: (payload) => {
+      logs.value = mergePollingLogWindow(logs.value, payload.logs, {
+        reset: payload.reset,
+        max: DEFAULT_LOG_WINDOW_SIZE,
+      });
+      running.value = payload.status.running;
+      pid.value = payload.status.pid;
+      supervisor.value = payload.status.supervisor;
+      if (!hasCloudflaredLogBaseline.value) {
+        hasCloudflaredLogBaseline.value = true;
+        return;
+      }
+      const analysis = analyzeCloudflaredLogs(payload.logs);
+      if (analysis) cloudflaredLogAnalysis.value = analysis;
+    },
+  });
+
+  const onClearLogsClick = async () => {
+    await runClearLogs(() => CloudflaredAPI.clearLogs(), {
+      onSuccess: () => {
+        logs.value = [];
+        cloudflaredLogAnalysis.value = null;
+        cloudflaredPolling.resetCursor();
+        void cloudflaredPolling.refresh();
+        toast.success(t("admin.cloudflareTunnel.logsCleared"));
+      },
+    });
+  };
+  const gotoResources = () => {
+    showInitDialog.value = false;
+    void router.push({ path: "/system", query: { tab: "cloudflared" } });
+  };
+  const loadEnvironmentConfig = () =>
+    configStore.config ? Promise.resolve() : configStore.loadConfig();
+
+  return {
+    authServiceHost,
+    canStart,
+    canStop,
+    cloudflaredInstallationStatus,
+    cloudflaredLogAnalysis,
+    cloudflaredLogAnalysisMessage,
+    cloudflaredOriginServiceUrl,
+    cloudflaredProtocolDescription,
+    cloudflaredProtocolLabel,
+    cloudflaredProtocolOptions,
+    cloudflaredTargetVersion,
+    configLoaded,
+    gotoResources,
+    hasSubdomainRoot,
+    isClearingLogs,
+    isReverseProxySubdomainMode,
+    isSaving,
+    isStarting,
+    isStopping,
+    loadAccessEntryPort,
+    loadConfig,
+    loadEnvironmentConfig,
+    loadStatus,
+    logs,
+    onClearLogsClick,
+    pid,
+    protocol,
+    publicWildcardHostname,
+    running,
+    saveConfig,
+    showInitDialog,
+    showToken,
+    startCloudflared,
+    startPolling: cloudflaredPolling.start,
+    stopCloudflared,
+    stopPolling: cloudflaredPolling.stop,
+    supervisor,
+    token,
+    tunnelTokenConfigured,
+  };
+};

@@ -1,1 +1,72 @@
-aW1wb3J0IHsgdHlwZSBBY21lRG5zUHJvdmlkZXIgfSBmcm9tICJAL2xpYi9hcGkvYWNtZSI7CgpleHBvcnQgdHlwZSBEbnNDcmVkZW50aWFsU2NoZW1lID0gQWNtZURuc1Byb3ZpZGVyWyJjcmVkZW50aWFsU2NoZW1lcyJdW251bWJlcl07CmV4cG9ydCB0eXBlIERuc0NyZWRlbnRpYWxGaWVsZCA9IERuc0NyZWRlbnRpYWxTY2hlbWVbImZpZWxkcyJdW251bWJlcl07CgpleHBvcnQgY29uc3QgZ2V0UHJvdmlkZXJDcmVkZW50aWFsRmllbGRzID0gKAogIHByb3ZpZGVyOiBBY21lRG5zUHJvdmlkZXIgfCBudWxsLAopID0+IHsKICBpZiAoIXByb3ZpZGVyKSByZXR1cm4gW10gYXMgRG5zQ3JlZGVudGlhbEZpZWxkW107CgogIGNvbnN0IGZpZWxkczogRG5zQ3JlZGVudGlhbEZpZWxkW10gPSBbXTsKICBjb25zdCBzZWVuID0gbmV3IFNldDxzdHJpbmc+KCk7CgogIGZvciAoY29uc3Qgc2NoZW1lIG9mIHByb3ZpZGVyLmNyZWRlbnRpYWxTY2hlbWVzKSB7CiAgICBmb3IgKGNvbnN0IGZpZWxkIG9mIHNjaGVtZS5maWVsZHMpIHsKICAgICAgaWYgKHNlZW4uaGFzKGZpZWxkLmtleSkpIGNvbnRpbnVlOwogICAgICBzZWVuLmFkZChmaWVsZC5rZXkpOwogICAgICBmaWVsZHMucHVzaChmaWVsZCk7CiAgICB9CiAgfQoKICByZXR1cm4gZmllbGRzOwp9OwoKZXhwb3J0IGNvbnN0IGdldFNhdGlzZmllZENyZWRlbnRpYWxTY2hlbWUgPSAoCiAgcHJvdmlkZXI6IEFjbWVEbnNQcm92aWRlciB8IG51bGwsCiAgdmFsdWVzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+LAopID0+IHsKICBpZiAoIXByb3ZpZGVyKSByZXR1cm4gbnVsbDsKCiAgcmV0dXJuICgKICAgIHByb3ZpZGVyLmNyZWRlbnRpYWxTY2hlbWVzLmZpbmQoKHNjaGVtZSkgPT4KICAgICAgc2NoZW1lLmZpZWxkcwogICAgICAgIC5maWx0ZXIoKGZpZWxkKSA9PiBmaWVsZC5yZXF1aXJlZCAhPT0gZmFsc2UpCiAgICAgICAgLmV2ZXJ5KChmaWVsZCkgPT4gQm9vbGVhbigodmFsdWVzW2ZpZWxkLmtleV0gfHwgIiIpLnRyaW0oKSkpLAogICAgKSB8fCBudWxsCiAgKTsKfTsKCmV4cG9ydCBjb25zdCBidWlsZEFjbWVDcmVkZW50aWFsc1BheWxvYWQgPSAoCiAgY3JlZGVudGlhbHM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4sCikgPT4gewogIGNvbnN0IHBheWxvYWQ6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7fTsKICBmb3IgKGNvbnN0IFtrZXksIHZhbHVlXSBvZiBPYmplY3QuZW50cmllcyhjcmVkZW50aWFscyB8fCB7fSkpIHsKICAgIGNvbnN0IG5vcm1hbGl6ZWRLZXkgPSBrZXkudHJpbSgpOwogICAgY29uc3Qgbm9ybWFsaXplZFZhbHVlID0gU3RyaW5nKHZhbHVlID8/ICIiKS50cmltKCk7CiAgICBpZiAoIW5vcm1hbGl6ZWRLZXkgfHwgIW5vcm1hbGl6ZWRWYWx1ZSkgY29udGludWU7CiAgICBwYXlsb2FkW25vcm1hbGl6ZWRLZXldID0gbm9ybWFsaXplZFZhbHVlOwogIH0KICByZXR1cm4gcGF5bG9hZDsKfTsKCmV4cG9ydCBjb25zdCBub3JtYWxpemVQcm92aWRlckNyZWRlbnRpYWxzID0gKAogIHByb3ZpZGVyOiBBY21lRG5zUHJvdmlkZXIgfCBudWxsLAogIGNyZWRlbnRpYWxzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+LAopID0+IHsKICBjb25zdCBub3JtYWxpemVkOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0ge307CiAgZm9yIChjb25zdCBmaWVsZCBvZiBnZXRQcm92aWRlckNyZWRlbnRpYWxGaWVsZHMocHJvdmlkZXIpKSB7CiAgICBjb25zdCB2YWx1ZSA9IGNyZWRlbnRpYWxzW2ZpZWxkLmtleV07CiAgICBub3JtYWxpemVkW2ZpZWxkLmtleV0gPSB0eXBlb2YgdmFsdWUgPT09ICJzdHJpbmciID8gdmFsdWUgOiAiIjsKICB9CiAgcmV0dXJuIG5vcm1hbGl6ZWQ7Cn07CgpleHBvcnQgY29uc3QgZ2V0UHJvdmlkZXJHcm91cEtleSA9IChncm91cD86IHN0cmluZyB8IG51bGwpID0+IHsKICBpZiAoZ3JvdXAgPT09ICJcdTVlMzhcdTc1MjgiKSByZXR1cm4gImNvbW1vbiI7CiAgaWYgKGdyb3VwID09PSAiXHU1NmZkXHU1MTg1IikgcmV0dXJuICJjaGluYSI7CiAgaWYgKGdyb3VwID09PSAiXHU1NmZkXHU5NjQ1IikgcmV0dXJuICJpbnRlcm5hdGlvbmFsIjsKICBpZiAoZ3JvdXAgPT09ICJcdTgxZWFcdTVlZmEvXHU5YWQ4XHU3ZWE3IikgcmV0dXJuICJjdXN0b21BZHZhbmNlZCI7CiAgaWYgKCFncm91cCB8fCBncm91cCA9PT0gIlx1NTE3Nlx1NGVkNiIpIHJldHVybiAib3RoZXIiOwogIHJldHVybiBncm91cDsKfTsK
+import { type AcmeDnsProvider } from "@/lib/api/acme";
+
+export type DnsCredentialScheme = AcmeDnsProvider["credentialSchemes"][number];
+export type DnsCredentialField = DnsCredentialScheme["fields"][number];
+
+export const getProviderCredentialFields = (
+  provider: AcmeDnsProvider | null,
+) => {
+  if (!provider) return [] as DnsCredentialField[];
+
+  const fields: DnsCredentialField[] = [];
+  const seen = new Set<string>();
+
+  for (const scheme of provider.credentialSchemes) {
+    for (const field of scheme.fields) {
+      if (seen.has(field.key)) continue;
+      seen.add(field.key);
+      fields.push(field);
+    }
+  }
+
+  return fields;
+};
+
+export const getSatisfiedCredentialScheme = (
+  provider: AcmeDnsProvider | null,
+  values: Record<string, string>,
+) => {
+  if (!provider) return null;
+
+  return (
+    provider.credentialSchemes.find((scheme) =>
+      scheme.fields
+        .filter((field) => field.required !== false)
+        .every((field) => Boolean((values[field.key] || "").trim())),
+    ) || null
+  );
+};
+
+export const buildAcmeCredentialsPayload = (
+  credentials: Record<string, string>,
+) => {
+  const payload: Record<string, string> = {};
+  for (const [key, value] of Object.entries(credentials || {})) {
+    const normalizedKey = key.trim();
+    const normalizedValue = String(value ?? "").trim();
+    if (!normalizedKey || !normalizedValue) continue;
+    payload[normalizedKey] = normalizedValue;
+  }
+  return payload;
+};
+
+export const normalizeProviderCredentials = (
+  provider: AcmeDnsProvider | null,
+  credentials: Record<string, string>,
+) => {
+  const normalized: Record<string, string> = {};
+  for (const field of getProviderCredentialFields(provider)) {
+    const value = credentials[field.key];
+    normalized[field.key] = typeof value === "string" ? value : "";
+  }
+  return normalized;
+};
+
+export const getProviderGroupKey = (group?: string | null) => {
+  if (group === "\u5e38\u7528") return "common";
+  if (group === "\u56fd\u5185") return "china";
+  if (group === "\u56fd\u9645") return "international";
+  if (group === "\u81ea\u5efa/\u9ad8\u7ea7") return "customAdvanced";
+  if (!group || group === "\u5176\u4ed6") return "other";
+  return group;
+};

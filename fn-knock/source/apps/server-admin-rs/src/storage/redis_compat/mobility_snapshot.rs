@@ -1,1 +1,121 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBzdHJ1Y3QgQXV0aE1vYmlsaXR5U2Vzc2lvblNuYXBzaG90IHsKICAgIHB1YihzdXBlcikgd2hpdGVsaXN0X2lkczogQlRyZWVTZXQ8U3RyaW5nPiwKICAgIHB1YihzdXBlcikgb3duZWRfYmluZGluZ19rZXlzOiBCVHJlZVNldDxTdHJpbmc+LAogICAgcHViKHN1cGVyKSBvd25lcl9yZWNvcmRfa2V5czogQlRyZWVTZXQ8U3RyaW5nPiwKfQoKcHViKHN1cGVyKSBmbiBjb2xsZWN0X2F1dGhfbW9iaWxpdHlfZG9jdW1lbnRfcmVmZXJlbmNlcygKICAgIHdoaXRlbGlzdF9pZHM6ICZtdXQgQlRyZWVTZXQ8U3RyaW5nPiwKICAgIG93bmVyX3JlY29yZF9rZXlzOiAmbXV0IEJUcmVlU2V0PFN0cmluZz4sCiAgICB2YWx1ZTogJnNlcmRlX2pzb246OlZhbHVlLAogICAgY29sbGVjdF9vd25lcl9yZWNvcmRfa2V5OiBib29sLAopIHsKICAgIGlmIGxldCBTb21lKGlkKSA9IHZhbHVlCiAgICAgICAgLmdldCgid2hpdGVsaXN0UmVjb3JkSWQiKQogICAgICAgIC5hbmRfdGhlbihzZXJkZV9qc29uOjpWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgIHsKICAgICAgICB3aGl0ZWxpc3RfaWRzLmluc2VydChpZC50b19zdHJpbmcoKSk7CiAgICB9CiAgICBpZiBjb2xsZWN0X293bmVyX3JlY29yZF9rZXkKICAgICAgICAmJiBsZXQgU29tZShrZXkpID0gdmFsdWUKICAgICAgICAgICAgLmdldCgiYXV0b1doaXRlbGlzdE93bmVyUmVjb3JkS2V5IikKICAgICAgICAgICAgLmFuZF90aGVuKHNlcmRlX2pzb246OlZhbHVlOjphc19zdHIpCiAgICAgICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgIHsKICAgICAgICBvd25lcl9yZWNvcmRfa2V5cy5pbnNlcnQoa2V5LnRvX3N0cmluZygpKTsKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBhdXRoX21vYmlsaXR5X3Nlc3Npb25fc25hcHNob3RfdHgoCiAgICB0eDogJnJ1c3FsaXRlOjpUcmFuc2FjdGlvbjwnXz4sCiAgICBzZXNzaW9uX2lkOiAmc3RyLAogICAgc2Vzc2lvbl9pbmRleF9rZXk6ICZzdHIsCiAgICBhY3RpdmVfZGV0YWlsc19rZXk6ICZzdHIsCiAgICBwcm94eV9iaW5kaW5nX2tleTogJnN0ciwKICAgIHBlbmRpbmdfa2V5OiAmc3RyLAopIC0+IFJlZGlzUmVzdWx0PEF1dGhNb2JpbGl0eVNlc3Npb25TbmFwc2hvdD4gewogICAgZm9yIGtleSBpbiBbCiAgICAgICAgc2Vzc2lvbl9pbmRleF9rZXksCiAgICAgICAgYWN0aXZlX2RldGFpbHNfa2V5LAogICAgICAgIHByb3h5X2JpbmRpbmdfa2V5LAogICAgICAgIHBlbmRpbmdfa2V5LAogICAgXSB7CiAgICAgICAgcHVyZ2VfZXhwaXJlZF90eCh0eCwga2V5KT87CiAgICB9CgogICAgbGV0IG11dCBiaW5kaW5nX2tleXMgPSB7CiAgICAgICAgbGV0IG11dCBzdGF0ZW1lbnQgPSB0eC5wcmVwYXJlKCJTRUxFQ1QgbWVtYmVyIEZST00ga3Zfc2V0IFdIRVJFIGtleSA9ID8xIik/OwogICAgICAgIGxldCByb3dzID0gc3RhdGVtZW50LnF1ZXJ5X21hcChbc2Vzc2lvbl9pbmRleF9rZXldLCB8cm93fCByb3cuZ2V0Ojo8XywgU3RyaW5nPigwKSk/OwogICAgICAgIHJvd3MuY29sbGVjdDo6PFJlc3VsdDxCVHJlZVNldDxfPiwgXz4+KCk/CiAgICB9OwogICAgYmluZGluZ19rZXlzLmluc2VydChwcm94eV9iaW5kaW5nX2tleS50b19zdHJpbmcoKSk7CgogICAgbGV0IG11dCB3aGl0ZWxpc3RfaWRzID0gQlRyZWVTZXQ6Om5ldygpOwogICAgbGV0IG11dCBvd25lZF9iaW5kaW5nX2tleXMgPSBCVHJlZVNldDo6bmV3KCk7CiAgICBsZXQgbXV0IG93bmVyX3JlY29yZF9rZXlzID0gQlRyZWVTZXQ6Om5ldygpOwogICAgZm9yIGJpbmRpbmdfa2V5IGluIGJpbmRpbmdfa2V5cyB7CiAgICAgICAgbGV0IFNvbWUocmF3KSA9IHN0cmluZ19nZXRfdHgodHgsICZiaW5kaW5nX2tleSk/IGVsc2UgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9OwogICAgICAgIGxldCBwYXJzZWQgPSBzZXJkZV9qc29uOjpmcm9tX3N0cjo6PHNlcmRlX2pzb246OlZhbHVlPigmcmF3KS5vaygpOwogICAgICAgIGxldCBvd25lcl9tYXRjaGVzID0gYmluZGluZ19rZXkgPT0gcHJveHlfYmluZGluZ19rZXkKICAgICAgICAgICAgfHwgcGFyc2VkCiAgICAgICAgICAgICAgICAuYXNfcmVmKCkKICAgICAgICAgICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLmdldCgib3duZXJTZXNzaW9uSWQiKSkKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihzZXJkZV9qc29uOjpWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgPT0gU29tZShzZXNzaW9uX2lkKTsKICAgICAgICBpZiAhb3duZXJfbWF0Y2hlcyB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBvd25lZF9iaW5kaW5nX2tleXMuaW5zZXJ0KGJpbmRpbmdfa2V5KTsKICAgICAgICBpZiBsZXQgU29tZSh2YWx1ZSkgPSBwYXJzZWQuYXNfcmVmKCkgewogICAgICAgICAgICBjb2xsZWN0X2F1dGhfbW9iaWxpdHlfZG9jdW1lbnRfcmVmZXJlbmNlcygKICAgICAgICAgICAgICAgICZtdXQgd2hpdGVsaXN0X2lkcywKICAgICAgICAgICAgICAgICZtdXQgb3duZXJfcmVjb3JkX2tleXMsCiAgICAgICAgICAgICAgICB2YWx1ZSwKICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH0KCiAgICBsZXQgYWN0aXZlX3ZhbHVlcyA9IHsKICAgICAgICBsZXQgbXV0IHN0YXRlbWVudCA9IHR4LnByZXBhcmUoIlNFTEVDVCB2YWx1ZSBGUk9NIGt2X2hhc2ggV0hFUkUga2V5ID0gPzEiKT87CiAgICAgICAgbGV0IHJvd3MgPSBzdGF0ZW1lbnQucXVlcnlfbWFwKFthY3RpdmVfZGV0YWlsc19rZXldLCB8cm93fCByb3cuZ2V0Ojo8XywgU3RyaW5nPigwKSk/OwogICAgICAgIHJvd3MuY29sbGVjdDo6PFJlc3VsdDxWZWM8Xz4sIF8+PigpPwogICAgfTsKICAgIGZvciByYXcgaW4gYWN0aXZlX3ZhbHVlcyB7CiAgICAgICAgaWYgbGV0IE9rKHZhbHVlKSA9IHNlcmRlX2pzb246OmZyb21fc3RyOjo8c2VyZGVfanNvbjo6VmFsdWU+KCZyYXcpIHsKICAgICAgICAgICAgY29sbGVjdF9hdXRoX21vYmlsaXR5X2RvY3VtZW50X3JlZmVyZW5jZXMoCiAgICAgICAgICAgICAgICAmbXV0IHdoaXRlbGlzdF9pZHMsCiAgICAgICAgICAgICAgICAmbXV0IG93bmVyX3JlY29yZF9rZXlzLAogICAgICAgICAgICAgICAgJnZhbHVlLAogICAgICAgICAgICAgICAgdHJ1ZSwKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICB9CgogICAgbGV0IHBlbmRpbmcgPSB7CiAgICAgICAgbGV0IG11dCBzdGF0ZW1lbnQgPSB0eC5wcmVwYXJlKCJTRUxFQ1QgZmllbGQsIHZhbHVlIEZST00ga3ZfaGFzaCBXSEVSRSBrZXkgPSA/MSIpPzsKICAgICAgICBsZXQgcm93cyA9IHN0YXRlbWVudC5xdWVyeV9tYXAoW3BlbmRpbmdfa2V5XSwgfHJvd3wgewogICAgICAgICAgICBPaygocm93LmdldDo6PF8sIFN0cmluZz4oMCk/LCByb3cuZ2V0Ojo8XywgU3RyaW5nPigxKT8pKQogICAgICAgIH0pPzsKICAgICAgICByb3dzLmNvbGxlY3Q6OjxSZXN1bHQ8VmVjPF8+LCBfPj4oKT8KICAgIH07CiAgICBmb3IgKHJlY29yZF9pZCwgb3duZXJfcmVjb3JkX2tleSkgaW4gcGVuZGluZyB7CiAgICAgICAgaWYgIXJlY29yZF9pZC5pc19lbXB0eSgpIHsKICAgICAgICAgICAgd2hpdGVsaXN0X2lkcy5pbnNlcnQocmVjb3JkX2lkKTsKICAgICAgICB9CiAgICAgICAgaWYgIW93bmVyX3JlY29yZF9rZXkuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIG93bmVyX3JlY29yZF9rZXlzLmluc2VydChvd25lcl9yZWNvcmRfa2V5KTsKICAgICAgICB9CiAgICB9CgogICAgT2soQXV0aE1vYmlsaXR5U2Vzc2lvblNuYXBzaG90IHsKICAgICAgICB3aGl0ZWxpc3RfaWRzLAogICAgICAgIG93bmVkX2JpbmRpbmdfa2V5cywKICAgICAgICBvd25lcl9yZWNvcmRfa2V5cywKICAgIH0pCn0K
+use super::*;
+
+pub(super) struct AuthMobilitySessionSnapshot {
+    pub(super) whitelist_ids: BTreeSet<String>,
+    pub(super) owned_binding_keys: BTreeSet<String>,
+    pub(super) owner_record_keys: BTreeSet<String>,
+}
+
+pub(super) fn collect_auth_mobility_document_references(
+    whitelist_ids: &mut BTreeSet<String>,
+    owner_record_keys: &mut BTreeSet<String>,
+    value: &serde_json::Value,
+    collect_owner_record_key: bool,
+) {
+    if let Some(id) = value
+        .get("whitelistRecordId")
+        .and_then(serde_json::Value::as_str)
+        .filter(|value| !value.is_empty())
+    {
+        whitelist_ids.insert(id.to_string());
+    }
+    if collect_owner_record_key
+        && let Some(key) = value
+            .get("autoWhitelistOwnerRecordKey")
+            .and_then(serde_json::Value::as_str)
+            .filter(|value| !value.is_empty())
+    {
+        owner_record_keys.insert(key.to_string());
+    }
+}
+
+pub(super) fn auth_mobility_session_snapshot_tx(
+    tx: &rusqlite::Transaction<'_>,
+    session_id: &str,
+    session_index_key: &str,
+    active_details_key: &str,
+    proxy_binding_key: &str,
+    pending_key: &str,
+) -> RedisResult<AuthMobilitySessionSnapshot> {
+    for key in [
+        session_index_key,
+        active_details_key,
+        proxy_binding_key,
+        pending_key,
+    ] {
+        purge_expired_tx(tx, key)?;
+    }
+
+    let mut binding_keys = {
+        let mut statement = tx.prepare("SELECT member FROM kv_set WHERE key = ?1")?;
+        let rows = statement.query_map([session_index_key], |row| row.get::<_, String>(0))?;
+        rows.collect::<Result<BTreeSet<_>, _>>()?
+    };
+    binding_keys.insert(proxy_binding_key.to_string());
+
+    let mut whitelist_ids = BTreeSet::new();
+    let mut owned_binding_keys = BTreeSet::new();
+    let mut owner_record_keys = BTreeSet::new();
+    for binding_key in binding_keys {
+        let Some(raw) = string_get_tx(tx, &binding_key)? else {
+            continue;
+        };
+        let parsed = serde_json::from_str::<serde_json::Value>(&raw).ok();
+        let owner_matches = binding_key == proxy_binding_key
+            || parsed
+                .as_ref()
+                .and_then(|value| value.get("ownerSessionId"))
+                .and_then(serde_json::Value::as_str)
+                == Some(session_id);
+        if !owner_matches {
+            continue;
+        }
+        owned_binding_keys.insert(binding_key);
+        if let Some(value) = parsed.as_ref() {
+            collect_auth_mobility_document_references(
+                &mut whitelist_ids,
+                &mut owner_record_keys,
+                value,
+                false,
+            );
+        }
+    }
+
+    let active_values = {
+        let mut statement = tx.prepare("SELECT value FROM kv_hash WHERE key = ?1")?;
+        let rows = statement.query_map([active_details_key], |row| row.get::<_, String>(0))?;
+        rows.collect::<Result<Vec<_>, _>>()?
+    };
+    for raw in active_values {
+        if let Ok(value) = serde_json::from_str::<serde_json::Value>(&raw) {
+            collect_auth_mobility_document_references(
+                &mut whitelist_ids,
+                &mut owner_record_keys,
+                &value,
+                true,
+            );
+        }
+    }
+
+    let pending = {
+        let mut statement = tx.prepare("SELECT field, value FROM kv_hash WHERE key = ?1")?;
+        let rows = statement.query_map([pending_key], |row| {
+            Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?))
+        })?;
+        rows.collect::<Result<Vec<_>, _>>()?
+    };
+    for (record_id, owner_record_key) in pending {
+        if !record_id.is_empty() {
+            whitelist_ids.insert(record_id);
+        }
+        if !owner_record_key.is_empty() {
+            owner_record_keys.insert(owner_record_key);
+        }
+    }
+
+    Ok(AuthMobilitySessionSnapshot {
+        whitelist_ids,
+        owned_binding_keys,
+        owner_record_keys,
+    })
+}

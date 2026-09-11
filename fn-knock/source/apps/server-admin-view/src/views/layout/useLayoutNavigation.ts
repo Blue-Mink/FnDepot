@@ -1,1 +1,211 @@
-aW1wb3J0IHsgdXNlVGVybWluYWxBY2Nlc3NTdG9yZSB9IGZyb20gIkAvc3RvcmUvdGVybWluYWwtYWNjZXNzIjsKaW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgb25Vbm1vdW50ZWQgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyB1c2VSb3V0ZSB9IGZyb20gInZ1ZS1yb3V0ZXIiOwppbXBvcnQgewogIEJlbGxSaW5nLAogIENoYXJ0Tm9BeGVzQ29tYmluZWQsCiAgRmlsZUtleTIsCiAgRmluZ2VycHJpbnQsCiAgR2xvYmUyLAogIExheW91dERhc2hib2FyZCwKICBOZXR3b3JrLAogIFJhZGlvVG93ZXIsCiAgTW9uaXRvclVwLAogIFJvdXRlIGFzIFJvdXRlSWNvbiwKICBTZXR0aW5nczIsCiAgU2hpZWxkQmFuLAogIFNxdWFyZVRlcm1pbmFsLAogIFVzZXJzUm91bmQsCn0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgcGVuZGluZ05hdlBhdGggfSBmcm9tICJAL3JvdXRlci9uYXZpZ2F0aW9uLXN0YXRlIjsKaW1wb3J0IHsKICBpc0FueVN1YmRvbWFpblJvdXRpbmdNb2RlLAogIGlzUmV2ZXJzZVByb3h5U3ViZG9tYWluTW9kZSwKfSBmcm9tICJAL2xpYi9yZXZlcnNlLXByb3h5LXN1Ym1vZGUiOwppbXBvcnQgeyB1c2VDb25maWdTdG9yZSB9IGZyb20gIkAvc3RvcmUvY29uZmlnIjsKaW1wb3J0IHsgdXNlVXBkYXRlU3RvcmUgfSBmcm9tICJAL3N0b3JlL3VwZGF0ZSI7CmltcG9ydCB7IG9yZGVyU2lkZWJhck5hdkl0ZW1zLCB0eXBlIFNpZGViYXJOYXZJdGVtIH0gZnJvbSAiLi9zaWRlYmFyTmF2aWdhdGlvbiI7CmltcG9ydCB7IHByaXZpbGVnZWROYXZpZ2F0aW9uVmlzaWJpbGl0eSB9IGZyb20gIi4vcnVudGltZS1uYXZpZ2F0aW9uIjsKCmV4cG9ydCBjb25zdCB1c2VMYXlvdXROYXZpZ2F0aW9uID0gKCkgPT4gewogIGNvbnN0IHJvdXRlID0gdXNlUm91dGUoKTsKICBjb25zdCB0ZXJtaW5hbEFjY2VzcyA9IHVzZVRlcm1pbmFsQWNjZXNzU3RvcmUoKTsKICBsZXQgYWNjZXNzVGltZXI6IFJldHVyblR5cGU8dHlwZW9mIHNldEludGVydmFsPiB8IHVuZGVmaW5lZDsKICBjb25zdCByZWZyZXNoVGVybWluYWxBY2Nlc3MgPSAoKSA9PiB7CiAgICB2b2lkIHRlcm1pbmFsQWNjZXNzLnJlZnJlc2goKS5jYXRjaCgoKSA9PiB1bmRlZmluZWQpOwogIH07CiAgY29uc3QgaW52YWxpZGF0ZVRlcm1pbmFsQWNjZXNzID0gKCkgPT4gewogICAgdGVybWluYWxBY2Nlc3MuaW52YWxpZGF0ZSgpOwogICAgcmVmcmVzaFRlcm1pbmFsQWNjZXNzKCk7CiAgfTsKICBvbk1vdW50ZWQoKCkgPT4gewogICAgcmVmcmVzaFRlcm1pbmFsQWNjZXNzKCk7CiAgICBhY2Nlc3NUaW1lciA9IHNldEludGVydmFsKHJlZnJlc2hUZXJtaW5hbEFjY2VzcywgMTAwMDApOwogICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoCiAgICAgICJmbi1rbm9jazp0ZXJtaW5hbC1hY2Nlc3MtY2hhbmdlZCIsCiAgICAgIGludmFsaWRhdGVUZXJtaW5hbEFjY2VzcywKICAgICk7CiAgfSk7CiAgb25Vbm1vdW50ZWQoKCkgPT4gewogICAgY2xlYXJJbnRlcnZhbChhY2Nlc3NUaW1lcik7CiAgICB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcigKICAgICAgImZuLWtub2NrOnRlcm1pbmFsLWFjY2Vzcy1jaGFuZ2VkIiwKICAgICAgaW52YWxpZGF0ZVRlcm1pbmFsQWNjZXNzLAogICAgKTsKICB9KTsKICBjb25zdCBjb25maWdTdG9yZSA9IHVzZUNvbmZpZ1N0b3JlKCk7CiAgY29uc3QgdXBkYXRlU3RvcmUgPSB1c2VVcGRhdGVTdG9yZSgpOwogIGNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwoKICBjb25zdCBpc05hdkFjdGl2ZSA9IChwYXRoOiBzdHJpbmcpID0+IHsKICAgIGNvbnN0IGFjdGl2ZVBhdGggPSBwZW5kaW5nTmF2UGF0aC52YWx1ZSA/PyByb3V0ZS5wYXRoOwogICAgaWYgKHBhdGggPT09ICIvbWFwcGluZ3MiKSB7CiAgICAgIHJldHVybiAoCiAgICAgICAgYWN0aXZlUGF0aCA9PT0gcGF0aCB8fAogICAgICAgIGFjdGl2ZVBhdGguc3RhcnRzV2l0aCgiL3N1YmRvbWFpbnMvIikgfHwKICAgICAgICBhY3RpdmVQYXRoLnN0YXJ0c1dpdGgoIi9zdHJlYW1zLyIpCiAgICAgICk7CiAgICB9CiAgICBpZiAoYWN0aXZlUGF0aCA9PT0gcGF0aCkgcmV0dXJuIHRydWU7CiAgICBpZiAocGF0aCA9PT0gIi8iKSByZXR1cm4gYWN0aXZlUGF0aCA9PT0gIi8iOwogICAgcmV0dXJuIGFjdGl2ZVBhdGguc3RhcnRzV2l0aChgJHtwYXRofS9gKTsKICB9OwoKICBjb25zdCBuYXZJdGVtcyA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IHByaXZpbGVnZWROYXZpZ2F0aW9uID0gcHJpdmlsZWdlZE5hdmlnYXRpb25WaXNpYmlsaXR5KHsKICAgICAgY2FuVXNlU3NoU2VjdXJpdHk6IGNvbmZpZ1N0b3JlLmNhblVzZVNzaFNlY3VyaXR5LAogICAgICBzc2hTZWN1cml0eUVuYWJsZWQ6IGNvbmZpZ1N0b3JlLmNvbmZpZz8uc3NoX3NlY3VyaXR5Py5lbmFibGVkID09PSB0cnVlLAogICAgfSk7CiAgICBjb25zdCBpdGVtczogU2lkZWJhck5hdkl0ZW1bXSA9IFsKICAgICAgewogICAgICAgIGlkOiAic2Vzc2lvbnMiLAogICAgICAgIG5hbWU6IHQoImFkbWluLm5hdi5zZXNzaW9ucyIpLAogICAgICAgIHBhdGg6ICIvc2Vzc2lvbnMiLAogICAgICAgIGljb246IFVzZXJzUm91bmQsCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBpZDogInNzbF9jZXJ0aWZpY2F0ZSIsCiAgICAgICAgbmFtZTogdCgiYWRtaW4ubmF2LnNzbENlcnQiKSwKICAgICAgICBwYXRoOiAiL3NzbCIsCiAgICAgICAgaWNvbjogRmlsZUtleTIsCiAgICAgIH0sCiAgICBdOwogICAgaWYgKAogICAgICBjb25maWdTdG9yZS5jb25maWc/LnJ1bl90eXBlID09PSAxIHx8CiAgICAgIGNvbmZpZ1N0b3JlLmNvbmZpZz8ucnVuX3R5cGUgPT09IDMKICAgICkgewogICAgICBpdGVtcy51bnNoaWZ0KHsKICAgICAgICBpZDogImRhc2hib2FyZCIsCiAgICAgICAgbmFtZTogdCgiYWRtaW4ubmF2LmRhc2hib2FyZCIpLAogICAgICAgIHBhdGg6ICIvIiwKICAgICAgICBpY29uOiBMYXlvdXREYXNoYm9hcmQsCiAgICAgIH0pOwogICAgfQogICAgaXRlbXMucHVzaCh7CiAgICAgIGlkOiAiZGRucyIsCiAgICAgIG5hbWU6IHQoImFkbWluLm5hdi5kZG5zIiksCiAgICAgIHBhdGg6ICIvZGRucyIsCiAgICAgIGljb246IE5ldHdvcmssCiAgICB9KTsKICAgIGlmIChjb25maWdTdG9yZS5jb25maWc/LndvbF9mZWF0dXJlPy5lbmFibGVkID09PSB0cnVlKSB7CiAgICAgIGl0ZW1zLnB1c2goewogICAgICAgIGlkOiAid29sIiwKICAgICAgICBuYW1lOiB0KCJhZG1pbi5uYXYud29sIiksCiAgICAgICAgcGF0aDogIi93b2wiLAogICAgICAgIGljb246IE1vbml0b3JVcCwKICAgICAgfSk7CiAgICB9CiAgICBpZiAoY29uZmlnU3RvcmUuY29uZmlnPy5ydW5fdHlwZSA9PT0gMSkgewogICAgICBjb25zdCBpc1N1YmRvbWFpbk1vZGUgPSBpc1JldmVyc2VQcm94eVN1YmRvbWFpbk1vZGUoY29uZmlnU3RvcmUuY29uZmlnKTsKICAgICAgaXRlbXMuc3BsaWNlKDEsIDAsIHsKICAgICAgICBpZDogInJvdXRlX21hcHBpbmciLAogICAgICAgIG5hbWU6IGlzU3ViZG9tYWluTW9kZQogICAgICAgICAgPyB0KCJhZG1pbi5uYXYubWFwcGluZ01hbmFnZW1lbnQiKQogICAgICAgICAgOiB0KCJhZG1pbi5uYXYucGF0aE1hcHBpbmciKSwKICAgICAgICBwYXRoOiBpc1N1YmRvbWFpbk1vZGUgPyAiL21hcHBpbmdzIiA6ICIvcHJveHkiLAogICAgICAgIGljb246IGlzU3ViZG9tYWluTW9kZSA/IEdsb2JlMiA6IFJvdXRlSWNvbiwKICAgICAgfSk7CiAgICAgIGNvbnN0IHNob3dUdW5uZWwgPQogICAgICAgIGNvbmZpZ1N0b3JlLmNhblVzZUZycGMgfHwgY29uZmlnU3RvcmUuY2FuVXNlQ2xvdWRmbGFyZWQ7CiAgICAgIGlmIChzaG93VHVubmVsKSB7CiAgICAgICAgaXRlbXMuc3BsaWNlKDIsIDAsIHsKICAgICAgICAgIGlkOiAidHVubmVsIiwKICAgICAgICAgIG5hbWU6IHQoImFkbWluLm5hdi50dW5uZWwiKSwKICAgICAgICAgIHBhdGg6ICIvdHVubmVsIiwKICAgICAgICAgIGljb246IFJhZGlvVG93ZXIsCiAgICAgICAgfSk7CiAgICAgIH0KICAgIH0gZWxzZSBpZiAoaXNBbnlTdWJkb21haW5Sb3V0aW5nTW9kZShjb25maWdTdG9yZS5jb25maWcpKSB7CiAgICAgIGl0ZW1zLnNwbGljZSgxLCAwLCB7CiAgICAgICAgaWQ6ICJyb3V0ZV9tYXBwaW5nIiwKICAgICAgICBuYW1lOiB0KCJhZG1pbi5uYXYubWFwcGluZ01hbmFnZW1lbnQiKSwKICAgICAgICBwYXRoOiAiL21hcHBpbmdzIiwKICAgICAgICBpY29uOiBHbG9iZTIsCiAgICAgIH0pOwogICAgfQogICAgaXRlbXMucHVzaCh7CiAgICAgIGlkOiAiYXV0aCIsCiAgICAgIG5hbWU6IHQoImFkbWluLm5hdi5hdXRoQ29uZmlnIiksCiAgICAgIHBhdGg6ICIvYXV0aCIsCiAgICAgIGljb246IEZpbmdlcnByaW50LAogICAgfSk7CiAgICBpZiAocHJpdmlsZWdlZE5hdmlnYXRpb24uc3NoU2VjdXJpdHkpIHsKICAgICAgaXRlbXMucHVzaCh7CiAgICAgICAgaWQ6ICJzc2hfc2VjdXJpdHkiLAogICAgICAgIG5hbWU6IHQoImFkbWluLm5hdi5zc2hTZWN1cml0eSIpLAogICAgICAgIHBhdGg6ICIvc3NoLXNlY3VyaXR5IiwKICAgICAgICBpY29uOiBTaGllbGRCYW4sCiAgICAgIH0pOwogICAgfQogICAgaXRlbXMucHVzaCh7CiAgICAgIGlkOiAiZXZlbnRzIiwKICAgICAgbmFtZTogdCgiYWRtaW4ubmF2LmV2ZW50cyIpLAogICAgICBwYXRoOiAiL2V2ZW50cyIsCiAgICAgIGljb246IEJlbGxSaW5nLAogICAgfSk7CiAgICBpdGVtcy5wdXNoKHsKICAgICAgaWQ6ICJnYXRld2F5X3JlcXVlc3RfbG9ncyIsCiAgICAgIG5hbWU6IHQoImFkbWluLm5hdi5yZXF1ZXN0TG9ncyIpLAogICAgICBwYXRoOiAiL3JlcXVlc3QtYW5hbHlzaXMiLAogICAgICBpY29uOiBDaGFydE5vQXhlc0NvbWJpbmVkLAogICAgfSk7CiAgICBpZiAodGVybWluYWxBY2Nlc3Muc3RhdHVzPy5lbmFibGVkID09PSB0cnVlKQogICAgICBpdGVtcy5wdXNoKHsKICAgICAgICBpZDogIndlYl90ZXJtaW5hbCIsCiAgICAgICAgbmFtZTogdCgiYWRtaW4ubmF2LndlYlRlcm1pbmFsIiksCiAgICAgICAgcGF0aDogIi90ZXJtaW5hbCIsCiAgICAgICAgaWNvbjogU3F1YXJlVGVybWluYWwsCiAgICAgIH0pOwogICAgaXRlbXMucHVzaCh7CiAgICAgIGlkOiAic3lzdGVtX3NldHRpbmdzIiwKICAgICAgbmFtZTogdCgiYWRtaW4ubmF2LnN5c3RlbVNldHRpbmdzIiksCiAgICAgIHBhdGg6ICIvc3lzdGVtIiwKICAgICAgaWNvbjogU2V0dGluZ3MyLAogICAgfSk7CiAgICByZXR1cm4gb3JkZXJTaWRlYmFyTmF2SXRlbXMoCiAgICAgIGl0ZW1zLAogICAgICBjb25maWdTdG9yZS5jb25maWc/LmRhc2hib2FyZF9kaXNwbGF5Py5zaWRlYmFyX21lbnVfb3JkZXIsCiAgICApOwogIH0pOwoKICBjb25zdCBjdXJyZW50TmF2TGFiZWwgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBhY3RpdmVJdGVtID0gbmF2SXRlbXMudmFsdWUuZmluZCgoaXRlbSkgPT4gaXNOYXZBY3RpdmUoaXRlbS5wYXRoKSk7CiAgICByZXR1cm4gYWN0aXZlSXRlbT8ubmFtZSA/PyB0KCJjb21tb24ubWFuYWdlbWVudENvbnNvbGUiKTsKICB9KTsKCiAgY29uc3QgY3VycmVudFZlcnNpb25MYWJlbCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IHZlcnNpb24gPSB1cGRhdGVTdG9yZS5zdGF0dXM/LmxvY2FsVmVyc2lvbj8udHJpbSgpOwogICAgcmV0dXJuIHZlcnNpb24gPyBgdiR7dmVyc2lvbn1gIDogIiI7CiAgfSk7CgogIGNvbnN0IGFib3V0RW50cnlMYWJlbCA9IGNvbXB1dGVkKCgpID0+IHQoImFkbWluLm5hdi5zeXN0ZW1VcGRhdGUiKSk7CgogIHJldHVybiB7CiAgICBhYm91dEVudHJ5TGFiZWwsCiAgICBjdXJyZW50TmF2TGFiZWwsCiAgICBjdXJyZW50VmVyc2lvbkxhYmVsLAogICAgaXNOYXZBY3RpdmUsCiAgICBuYXZJdGVtcywKICB9Owp9Owo=
+import { useTerminalAccessStore } from "@/store/terminal-access";
+import { computed, onMounted, onUnmounted } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRoute } from "vue-router";
+import {
+  BellRing,
+  ChartNoAxesCombined,
+  FileKey2,
+  Fingerprint,
+  Globe2,
+  LayoutDashboard,
+  Network,
+  RadioTower,
+  MonitorUp,
+  Route as RouteIcon,
+  Settings2,
+  ShieldBan,
+  SquareTerminal,
+  UsersRound,
+} from "lucide-vue-next";
+import { pendingNavPath } from "@/router/navigation-state";
+import {
+  isAnySubdomainRoutingMode,
+  isReverseProxySubdomainMode,
+} from "@/lib/reverse-proxy-submode";
+import { useConfigStore } from "@/store/config";
+import { useUpdateStore } from "@/store/update";
+import { orderSidebarNavItems, type SidebarNavItem } from "./sidebarNavigation";
+import { privilegedNavigationVisibility } from "./runtime-navigation";
+
+export const useLayoutNavigation = () => {
+  const route = useRoute();
+  const terminalAccess = useTerminalAccessStore();
+  let accessTimer: ReturnType<typeof setInterval> | undefined;
+  const refreshTerminalAccess = () => {
+    void terminalAccess.refresh().catch(() => undefined);
+  };
+  const invalidateTerminalAccess = () => {
+    terminalAccess.invalidate();
+    refreshTerminalAccess();
+  };
+  onMounted(() => {
+    refreshTerminalAccess();
+    accessTimer = setInterval(refreshTerminalAccess, 10000);
+    window.addEventListener(
+      "fn-knock:terminal-access-changed",
+      invalidateTerminalAccess,
+    );
+  });
+  onUnmounted(() => {
+    clearInterval(accessTimer);
+    window.removeEventListener(
+      "fn-knock:terminal-access-changed",
+      invalidateTerminalAccess,
+    );
+  });
+  const configStore = useConfigStore();
+  const updateStore = useUpdateStore();
+  const { t } = useI18n();
+
+  const isNavActive = (path: string) => {
+    const activePath = pendingNavPath.value ?? route.path;
+    if (path === "/mappings") {
+      return (
+        activePath === path ||
+        activePath.startsWith("/subdomains/") ||
+        activePath.startsWith("/streams/")
+      );
+    }
+    if (activePath === path) return true;
+    if (path === "/") return activePath === "/";
+    return activePath.startsWith(`${path}/`);
+  };
+
+  const navItems = computed(() => {
+    const privilegedNavigation = privilegedNavigationVisibility({
+      canUseSshSecurity: configStore.canUseSshSecurity,
+      sshSecurityEnabled: configStore.config?.ssh_security?.enabled === true,
+    });
+    const items: SidebarNavItem[] = [
+      {
+        id: "sessions",
+        name: t("admin.nav.sessions"),
+        path: "/sessions",
+        icon: UsersRound,
+      },
+      {
+        id: "ssl_certificate",
+        name: t("admin.nav.sslCert"),
+        path: "/ssl",
+        icon: FileKey2,
+      },
+    ];
+    if (
+      configStore.config?.run_type === 1 ||
+      configStore.config?.run_type === 3
+    ) {
+      items.unshift({
+        id: "dashboard",
+        name: t("admin.nav.dashboard"),
+        path: "/",
+        icon: LayoutDashboard,
+      });
+    }
+    items.push({
+      id: "ddns",
+      name: t("admin.nav.ddns"),
+      path: "/ddns",
+      icon: Network,
+    });
+    if (configStore.config?.wol_feature?.enabled === true) {
+      items.push({
+        id: "wol",
+        name: t("admin.nav.wol"),
+        path: "/wol",
+        icon: MonitorUp,
+      });
+    }
+    if (configStore.config?.run_type === 1) {
+      const isSubdomainMode = isReverseProxySubdomainMode(configStore.config);
+      items.splice(1, 0, {
+        id: "route_mapping",
+        name: isSubdomainMode
+          ? t("admin.nav.mappingManagement")
+          : t("admin.nav.pathMapping"),
+        path: isSubdomainMode ? "/mappings" : "/proxy",
+        icon: isSubdomainMode ? Globe2 : RouteIcon,
+      });
+      const showTunnel =
+        configStore.canUseFrpc || configStore.canUseCloudflared;
+      if (showTunnel) {
+        items.splice(2, 0, {
+          id: "tunnel",
+          name: t("admin.nav.tunnel"),
+          path: "/tunnel",
+          icon: RadioTower,
+        });
+      }
+    } else if (isAnySubdomainRoutingMode(configStore.config)) {
+      items.splice(1, 0, {
+        id: "route_mapping",
+        name: t("admin.nav.mappingManagement"),
+        path: "/mappings",
+        icon: Globe2,
+      });
+    }
+    items.push({
+      id: "auth",
+      name: t("admin.nav.authConfig"),
+      path: "/auth",
+      icon: Fingerprint,
+    });
+    if (privilegedNavigation.sshSecurity) {
+      items.push({
+        id: "ssh_security",
+        name: t("admin.nav.sshSecurity"),
+        path: "/ssh-security",
+        icon: ShieldBan,
+      });
+    }
+    items.push({
+      id: "events",
+      name: t("admin.nav.events"),
+      path: "/events",
+      icon: BellRing,
+    });
+    items.push({
+      id: "gateway_request_logs",
+      name: t("admin.nav.requestLogs"),
+      path: "/request-analysis",
+      icon: ChartNoAxesCombined,
+    });
+    if (terminalAccess.status?.enabled === true)
+      items.push({
+        id: "web_terminal",
+        name: t("admin.nav.webTerminal"),
+        path: "/terminal",
+        icon: SquareTerminal,
+      });
+    items.push({
+      id: "system_settings",
+      name: t("admin.nav.systemSettings"),
+      path: "/system",
+      icon: Settings2,
+    });
+    return orderSidebarNavItems(
+      items,
+      configStore.config?.dashboard_display?.sidebar_menu_order,
+    );
+  });
+
+  const currentNavLabel = computed(() => {
+    const activeItem = navItems.value.find((item) => isNavActive(item.path));
+    return activeItem?.name ?? t("common.managementConsole");
+  });
+
+  const currentVersionLabel = computed(() => {
+    const version = updateStore.status?.localVersion?.trim();
+    return version ? `v${version}` : "";
+  });
+
+  const aboutEntryLabel = computed(() => t("admin.nav.systemUpdate"));
+
+  return {
+    aboutEntryLabel,
+    currentNavLabel,
+    currentVersionLabel,
+    isNavActive,
+    navItems,
+  };
+};

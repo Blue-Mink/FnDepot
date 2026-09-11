@@ -1,1 +1,341 @@
-dXNlIHN1cGVyOjoqOwoKI1t1dG9pcGE6OnBhdGgoZ2V0LCBwYXRoID0gIi9hcGkvYWRtaW4vc3NoLXNlY3VyaXR5L2NvbmZpZyIsIHRhZyA9ICJzc2gtc2VjdXJpdHkiLCBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9zc2hfc2VjdXJpdHlfY29uZmlnIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlNTSCBzZWN1cml0eSBjb25maWd1cmF0aW9uIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfY29uZmlnKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBtYXRjaCBzc2hfc2VjdXJpdHlfZGV0YWlscygmc3RhdGUpLmF3YWl0IHsKICAgICAgICBPayhkZXRhaWxzKSA9PiByZXNwb25zZTo6b2soZGV0YWlscykuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgU1NIIHNlY3VyaXR5IGNvbmZpZyIpOwogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICBzc2hfc2VjdXJpdHlfcm91dGVfdGV4dCgmdHJhbnNsYXRvciwgImxvYWRDb25maWdGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgocG9zdCwgcGF0aCA9ICIvYXBpL2FkbWluL3NzaC1zZWN1cml0eS9jb25maWciLCB0YWcgPSAic3NoLXNlY3VyaXR5Iiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX3NzaF9zZWN1cml0eV9jb25maWciLCByZXF1ZXN0X2JvZHkgPSBzZXJkZV9qc29uOjpWYWx1ZSwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlVwZGF0ZWQgU1NIIHNlY3VyaXR5IGNvbmZpZ3VyYXRpb24iKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHVwZGF0ZV9jb25maWcoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIEpzb24oYm9keSk6IEpzb248VmFsdWU+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbWF0Y2ggdXBkYXRlX3NzaF9zZWN1cml0eV9jb25maWcoJnN0YXRlLCBib2R5LCAmdHJhbnNsYXRvcikuYXdhaXQgewogICAgICAgIE9rKGRldGFpbHMpID0+IHJlc3BvbnNlOjpvayhkZXRhaWxzKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgRXJyKFNzaEVycm9yOjpCYWRSZXF1ZXN0KG1lc3NhZ2UpKSA9PiByZXNwb25zZTo6ZXJyb3IoU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsIG1lc3NhZ2UpLAogICAgICAgIEVycihTc2hFcnJvcjo6UnVudGltZShtZXNzYWdlKSkgPT4gcmVzcG9uc2U6OmVycm9yKFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULCBtZXNzYWdlKSwKICAgICAgICBFcnIoU3NoRXJyb3I6OlN0b3JhZ2UoZXJyb3IpKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byB1cGRhdGUgU1NIIHNlY3VyaXR5IGNvbmZpZyIpOwogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICBzc2hfc2VjdXJpdHlfcm91dGVfdGV4dCgmdHJhbnNsYXRvciwgInVwZGF0ZUNvbmZpZ0ZhaWxlZCIpLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9CgojW3V0b2lwYTo6cGF0aChwb3N0LCBwYXRoID0gIi9hcGkvYWRtaW4vc3NoLXNlY3VyaXR5L2ZpcmV3YWxsL3N5bmMiLCB0YWcgPSAic3NoLXNlY3VyaXR5Iiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX3NzaF9zZWN1cml0eV9maXJld2FsbF9zeW5jIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlNTSCBmaXJld2FsbCBzeW5jaHJvbml6YXRpb24gcmVzdWx0IikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBzeW5jX2ZpcmV3YWxsKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIG1hdGNoIHN5bmNfZmlyZXdhbGxfYmxvY2tzX25vdygmc3RhdGUsICZ0cmFuc2xhdG9yKS5hd2FpdCB7CiAgICAgICAgT2sodmFsdWUpID0+IHsKICAgICAgICAgICAgbGV0IHBvcnRzID0gdmFsdWUKICAgICAgICAgICAgICAgIC5nZXQoInBvcnRzIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgICAgICAgICAubWFwKHxpdGVtc3wgewogICAgICAgICAgICAgICAgICAgIGl0ZW1zCiAgICAgICAgICAgICAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgICAgICAgICAgICAgLmZpbHRlcl9tYXAoVmFsdWU6OmFzX2k2NCkKICAgICAgICAgICAgICAgICAgICAgICAgLm1hcCh8cG9ydHwgcG9ydC50b19zdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCkKICAgICAgICAgICAgICAgICAgICAgICAgLmpvaW4oIiwgIikKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgICAgICAgICAgbGV0IG1lc3NhZ2UgPSBzc2hfc2VjdXJpdHlfcm91dGVfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJzeW5jRmlyZXdhbGxTdWNjZXNzIiwKICAgICAgICAgICAgICAgICZbCiAgICAgICAgICAgICAgICAgICAgKAogICAgICAgICAgICAgICAgICAgICAgICAiYWxsb3dlZENpZHJzIiwKICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5nZXQoImFsbG93ZWRfY2lkcnMiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19pNjQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAudW53cmFwX29yKDApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAoInBvcnRzIiwgcG9ydHMpLAogICAgICAgICAgICAgICAgICAgICgKICAgICAgICAgICAgICAgICAgICAgICAgInN5bmNlZCIsCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZ2V0KCJzeW5jZWQiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19pNjQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAudW53cmFwX29yKDApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICk7CiAgICAgICAgICAgIEpzb24oanNvbiEoeyAic3VjY2VzcyI6IHRydWUsICJtZXNzYWdlIjogbWVzc2FnZSwgImRhdGEiOiB2YWx1ZSB9KSkuaW50b19yZXNwb25zZSgpCiAgICAgICAgfQogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gc3luYyBTU0ggZmlyZXdhbGwiKTsKICAgICAgICAgICAgbGV0IG1lc3NhZ2UgPSBlcnJvci50b19zdHJpbmcoKTsKICAgICAgICAgICAgcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX0dBVEVXQVksCiAgICAgICAgICAgICAgICBpZiBtZXNzYWdlLnRyaW0oKS5pc19lbXB0eSgpIHsKICAgICAgICAgICAgICAgICAgICBzc2hfc2VjdXJpdHlfcm91dGVfdGV4dCgmdHJhbnNsYXRvciwgInN5bmNGaXJld2FsbEZhaWxlZCIpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCiNbdXRvaXBhOjpwYXRoKHBvc3QsIHBhdGggPSAiL2FwaS9hZG1pbi9zc2gtc2VjdXJpdHkvZmlyZXdhbGwvY2xlYXIiLCB0YWcgPSAic3NoLXNlY3VyaXR5Iiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX3NzaF9zZWN1cml0eV9maXJld2FsbF9jbGVhciIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJTU0ggZmlyZXdhbGwgY2xlYXIgcmVzdWx0IikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBjbGVhcl9maXJld2FsbChTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICBsZXQgYXZhaWxhYmlsaXR5ID0gc3NoX3NlY3VyaXR5X2F2YWlsYWJpbGl0eSgmc3RhdGUsICZ0cmFuc2xhdG9yKTsKICAgIGlmICFhdmFpbGFiaWxpdHkuYXZhaWxhYmxlIHsKICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULCBhdmFpbGFiaWxpdHkucmVhc29uKTsKICAgIH0KICAgIGxldCBwYXlsb2FkID0ganNvbiEoewogICAgICAgICJjaGFpbl9uYW1lIjogU1NIX0ZJUkVXQUxMX0NIQUlOLAogICAgICAgICJwYXJlbnRfY2hhaW4iOiBbIklOUFVUIiwgIkRPQ0tFUi1VU0VSIl0KICAgIH0pOwogICAgbWF0Y2ggc3RhdGUuZ2F0ZXdheS5jbGllbnQuY2xlYXJfc3NoX2ZpcmV3YWxsKCZwYXlsb2FkKS5hd2FpdCB7CiAgICAgICAgT2sodmFsdWUpID0+IHsKICAgICAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPSBlbnN1cmVfZ29fc3VjY2Vzcyh2YWx1ZSwgJnRyYW5zbGF0b3IsICJjbGVhclNzaFBvbGljeUZhaWxlZCIpCiAgICAgICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IHsKICAgICAgICAgICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJnbyBiYWNrZW5kIHJlamVjdGVkIFNTSCBmaXJld2FsbCBjbGVhciIpOwogICAgICAgICAgICAgICAgICAgIGVycm9yCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9HQVRFV0FZLAogICAgICAgICAgICAgICAgICAgIGlmIGVycm9yLnRvX3N0cmluZygpLnRyaW0oKS5pc19lbXB0eSgpIHsKICAgICAgICAgICAgICAgICAgICAgICAgc3NoX3NlY3VyaXR5X3JvdXRlX3RleHQoJnRyYW5zbGF0b3IsICJjbGVhckZpcmV3YWxsRmFpbGVkIikKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBlcnJvci50b19zdHJpbmcoKQogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGxldCBtdXQgY2xlYXJlZCA9IDB1c2l6ZTsKICAgICAgICAgICAgbWF0Y2ggYWN0aXZlX2Jsb2Nrcygmc3RhdGUpLmF3YWl0IHsKICAgICAgICAgICAgICAgIE9rKHJlY29yZHMpID0+IHsKICAgICAgICAgICAgICAgICAgICBmb3IgcmVjb3JkIGluIHJlY29yZHMgewogICAgICAgICAgICAgICAgICAgICAgICBpZiBsZXQgU29tZShpcCkgPSByZWNvcmQuZ2V0KCJpcCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAmJiBtYXJrX2Jsb2NrX3JlbW92ZWQoJnN0YXRlLCBpcCwgIm1hbnVhbCIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcihmYWxzZSkKICAgICAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPSBjbGVhcl9mYWlsdXJlcygmc3RhdGUsIGlwKS5hd2FpdCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCBpcCwgImZhaWxlZCB0byBjbGVhciBTU0ggZmFpbHVyZXMiKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsZWFyZWQgKz0gMTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIEVycihlcnJvcikgPT4gdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIG1hcmsgU1NIIGJsb2NrcyBhcyBjbGVhcmVkIiksCiAgICAgICAgICAgIH0KICAgICAgICAgICAgSnNvbihqc29uISh7CiAgICAgICAgICAgICAgICAic3VjY2VzcyI6IHRydWUsCiAgICAgICAgICAgICAgICAibWVzc2FnZSI6IHNzaF9zZWN1cml0eV9yb3V0ZV90ZXh0KCZ0cmFuc2xhdG9yLCAiY2xlYXJGaXJld2FsbFN1Y2Nlc3MiKSwKICAgICAgICAgICAgICAgICJkYXRhIjogeyAiY2xlYXJlZF9ibG9ja3MiOiBjbGVhcmVkIH0KICAgICAgICAgICAgfSkpCiAgICAgICAgICAgIC5pbnRvX3Jlc3BvbnNlKCkKICAgICAgICB9CiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImdvIGJhY2tlbmQgU1NIIGZpcmV3YWxsIGNsZWFyIGZhaWxlZCIpOwogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfR0FURVdBWSwKICAgICAgICAgICAgICAgIHNzaF9zZWN1cml0eV9yb3V0ZV90ZXh0KCZ0cmFuc2xhdG9yLCAiY2xlYXJGaXJld2FsbEZhaWxlZCIpLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi9zc2gtc2VjdXJpdHkvbG9naW4tbG9ncyIsIHRhZyA9ICJzc2gtc2VjdXJpdHkiLCBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9zc2hfc2VjdXJpdHlfbG9naW5fbG9ncyIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJSZWNlbnQgU1NIIGxvZ2luIGxvZ3MiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGxvZ2luX2xvZ3MoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIFF1ZXJ5KHF1ZXJ5KTogUXVlcnk8TGlzdFF1ZXJ5PiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgcGFnZSA9IHBhcnNlX3Bvc2l0aXZlKHF1ZXJ5LnBhZ2UuYXNfZGVyZWYoKSwgMSwgaTY0OjpNQVgpOwogICAgbGV0IGxpbWl0ID0gcGFyc2VfcG9zaXRpdmUocXVlcnkubGltaXQuYXNfZGVyZWYoKSwgMjAsIDEwMCk7CiAgICBsZXQgc2VhcmNoID0gcXVlcnkuc2VhcmNoLnVud3JhcF9vcl9kZWZhdWx0KCkudHJpbSgpLnRvX2FzY2lpX2xvd2VyY2FzZSgpOwogICAgbGV0IG91dGNvbWUgPSBxdWVyeS5vdXRjb21lLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgb3V0Y29tZSA9IGlmIG91dGNvbWUgPT0gInN1Y2Nlc3MiIHx8IG91dGNvbWUgPT0gImZhaWx1cmUiIHsKICAgICAgICBvdXRjb21lCiAgICB9IGVsc2UgewogICAgICAgIFN0cmluZzo6bmV3KCkKICAgIH07CiAgICBsZXQgbXV0IGVudHJpZXMgPSBxdWVyeV9yZWNlbnRfc3NoX2xvZ3MoKHBhZ2UgKiBsaW1pdCAqIDUgKyBsaW1pdCAqIDUpLm1heCg1MDApIGFzIHVzaXplKTsKICAgIGVudHJpZXMucmV0YWluKHxlbnRyeXwgewogICAgICAgIGlmICFvdXRjb21lLmlzX2VtcHR5KCkKICAgICAgICAgICAgJiYgZW50cnkuZ2V0KCJvdXRjb21lIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgIT0gU29tZShvdXRjb21lLmFzX3N0cigpKQogICAgICAgIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgIH0KICAgICAgICBpZiBzZWFyY2guaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0KICAgICAgICBbImlwIiwgInVzZXJuYW1lIiwgInJhdyJdLml0ZXIoKS5hbnkofGtleXwgewogICAgICAgICAgICBlbnRyeQogICAgICAgICAgICAgICAgLmdldCgqa2V5KQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQogICAgICAgICAgICAgICAgLnRvX2FzY2lpX2xvd2VyY2FzZSgpCiAgICAgICAgICAgICAgICAuY29udGFpbnMoJnNlYXJjaCkKICAgICAgICB9KQogICAgfSk7CiAgICBlbnRyaWVzLnNvcnRfYnkofGxlZnQsIHJpZ2h0fCB7CiAgICAgICAgaXNvX3Njb3JlKHJpZ2h0LmdldCgiaGFwcGVuZWRfYXQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSkKICAgICAgICAgICAgLmNtcCgmaXNvX3Njb3JlKGxlZnQuZ2V0KCJoYXBwZW5lZF9hdCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpKSkKICAgIH0pOwogICAgZW50cmllcyA9IGNvYWxlc2NlX3N1Y2Nlc3NfbG9naW5fbG9ncyhlbnRyaWVzKTsKICAgIGxldCB0b3RhbCA9IGVudHJpZXMubGVuKCk7CiAgICBsZXQgc3RhcnQgPSAoKHBhZ2UgLSAxKSAqIGxpbWl0KSBhcyB1c2l6ZTsKICAgIGxldCBtdXQgaXRlbXMgPSBlbnRyaWVzCiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLnNraXAoc3RhcnQpCiAgICAgICAgLnRha2UobGltaXQgYXMgdXNpemUpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBoeWRyYXRlX2lwX2xvY2F0aW9uX3JlY29yZHMoJnN0YXRlLCAmbXV0IGl0ZW1zLCB8ZW50cnl8IHsKICAgICAgICBlbnRyeQogICAgICAgICAgICAuZ2V0KCJpZCIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAubWFwKHxpZHwgZm9ybWF0ISgic3NoLWxvZ2luLWxvZ3x7aWR9IikpCiAgICB9KQogICAgLmF3YWl0OwogICAgcmVzcG9uc2U6Om9rKGpzb24hKHsgIml0ZW1zIjogaXRlbXMsICJ0b3RhbCI6IHRvdGFsLCAicGFnZSI6IHBhZ2UsICJsaW1pdCI6IGxpbWl0IH0pKQogICAgICAgIC5pbnRvX3Jlc3BvbnNlKCkKfQoKI1t1dG9pcGE6OnBhdGgoZ2V0LCBwYXRoID0gIi9hcGkvYWRtaW4vc3NoLXNlY3VyaXR5L2Jsb2NrcyIsIHRhZyA9ICJzc2gtc2VjdXJpdHkiLCBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9zc2hfc2VjdXJpdHlfYmxvY2tzIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkFjdGl2ZSBTU0ggc2VjdXJpdHkgYmxvY2tzIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBsaXN0X2Jsb2NrcygKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgUXVlcnkocXVlcnkpOiBRdWVyeTxMaXN0UXVlcnk+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbGV0IHBhZ2UgPSBwYXJzZV9wb3NpdGl2ZShxdWVyeS5wYWdlLmFzX2RlcmVmKCksIDEsIGk2NDo6TUFYKTsKICAgIGxldCBsaW1pdCA9IHBhcnNlX3Bvc2l0aXZlKHF1ZXJ5LmxpbWl0LmFzX2RlcmVmKCksIDIwLCAxMDApOwogICAgbGV0IHNlYXJjaCA9IHF1ZXJ5LnNlYXJjaC51bndyYXBfb3JfZGVmYXVsdCgpLnRyaW0oKS50b19hc2NpaV9sb3dlcmNhc2UoKTsKICAgIG1hdGNoIGxpc3RfYWN0aXZlX2Jsb2Nrcygmc3RhdGUsIHBhZ2UsIGxpbWl0LCAmc2VhcmNoKS5hd2FpdCB7CiAgICAgICAgT2soKG11dCBpdGVtcywgdG90YWwpKSA9PiB7CiAgICAgICAgICAgIGh5ZHJhdGVfaXBfbG9jYXRpb25fcmVjb3Jkcygmc3RhdGUsICZtdXQgaXRlbXMsIHxyZWNvcmR8IHsKICAgICAgICAgICAgICAgIHJlY29yZAogICAgICAgICAgICAgICAgICAgIC5nZXQoImlwIikKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAubWFwKHxpcHwgZm9ybWF0ISgic3NoLWJsb2NrbGlzdHx7aXB9IikpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdDsKICAgICAgICAgICAgcmVzcG9uc2U6Om9rKGpzb24hKHsgIml0ZW1zIjogaXRlbXMsICJ0b3RhbCI6IHRvdGFsLCAicGFnZSI6IHBhZ2UsICJsaW1pdCI6IGxpbWl0IH0pKQogICAgICAgICAgICAgICAgLmludG9fcmVzcG9uc2UoKQogICAgICAgIH0KICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxpc3QgU1NIIHNlY3VyaXR5IGJsb2NrcyIpOwogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICBzc2hfc2VjdXJpdHlfcm91dGVfdGV4dCgmdHJhbnNsYXRvciwgImxpc3RCbG9ja3NGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoZ2V0LCBwYXRoID0gIi9hcGkvYWRtaW4vc3NoLXNlY3VyaXR5L2Jsb2Nrcy97aXB9IiwgdGFnID0gInNzaC1zZWN1cml0eSIsIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX3NzaF9zZWN1cml0eV9ibG9ja3NfYnlfaXAiLCBwYXJhbXMoKCJpcCIgPSBTdHJpbmcsIFBhdGgsIGRlc2NyaXB0aW9uID0gIkJsb2NrZWQgSVAgYWRkcmVzcyIpKSwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlNTSCBzZWN1cml0eSBibG9jayIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gZ2V0X2Jsb2NrKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBBeHVtUGF0aChpcCk6IEF4dW1QYXRoPFN0cmluZz4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICBsZXQgbm9ybWFsaXplZCA9IG5vcm1hbGl6ZV9pcCgmaXApOwogICAgaWYgbm9ybWFsaXplZC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpOT1RfRk9VTkQsCiAgICAgICAgICAgIHNzaF9zZWN1cml0eV9yb3V0ZV90ZXh0KCZ0cmFuc2xhdG9yLCAiYmxvY2tOb3RGb3VuZCIpLAogICAgICAgICk7CiAgICB9CiAgICBtYXRjaCBsb2FkX2Jsb2NrKCZzdGF0ZSwgJm5vcm1hbGl6ZWQpLmF3YWl0IHsKICAgICAgICBPayhTb21lKG11dCByZWNvcmQpKSBpZiBpc19hY3RpdmVfYmxvY2soJnJlY29yZCwgdGltZV91dGlsczo6bm93X21zKCkpID0+IHsKICAgICAgICAgICAgaHlkcmF0ZV9pcF9sb2NhdGlvbl9yZWNvcmRzKCZzdGF0ZSwgc3RkOjpzbGljZTo6ZnJvbV9tdXQoJm11dCByZWNvcmQpLCB8cmVjb3JkfCB7CiAgICAgICAgICAgICAgICByZWNvcmQKICAgICAgICAgICAgICAgICAgICAuZ2V0KCJpcCIpCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgLm1hcCh8aXB8IGZvcm1hdCEoInNzaC1ibG9ja2xpc3R8e2lwfSIpKQogICAgICAgICAgICB9KQogICAgICAgICAgICAuYXdhaXQ7CiAgICAgICAgICAgIHJlc3BvbnNlOjpvayhyZWNvcmQpLmludG9fcmVzcG9uc2UoKQogICAgICAgIH0KICAgICAgICBPayhfKSA9PiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6Ok5PVF9GT1VORCwKICAgICAgICAgICAgc3NoX3NlY3VyaXR5X3JvdXRlX3RleHQoJnRyYW5zbGF0b3IsICJibG9ja05vdEZvdW5kIiksCiAgICAgICAgKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCBpcCA9IG5vcm1hbGl6ZWQsICJmYWlsZWQgdG8gbG9hZCBTU0ggYmxvY2siKTsKICAgICAgICAgICAgcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgc3NoX3NlY3VyaXR5X3JvdXRlX3RleHQoJnRyYW5zbGF0b3IsICJsb2FkQmxvY2tGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoZGVsZXRlLCBwYXRoID0gIi9hcGkvYWRtaW4vc3NoLXNlY3VyaXR5L2Jsb2Nrcy97aXB9IiwgdGFnID0gInNzaC1zZWN1cml0eSIsIG9wZXJhdGlvbl9pZCA9ICJkZWxldGVfYXBpX2FkbWluX3NzaF9zZWN1cml0eV9ibG9ja3NfYnlfaXAiLCBwYXJhbXMoKCJpcCIgPSBTdHJpbmcsIFBhdGgsIGRlc2NyaXB0aW9uID0gIkJsb2NrZWQgSVAgYWRkcmVzcyIpKSwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkRlbGV0ZWQgU1NIIHNlY3VyaXR5IGJsb2NrIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBkZWxldGVfYmxvY2soCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIEF4dW1QYXRoKGlwKTogQXh1bVBhdGg8U3RyaW5nPiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIG1hdGNoIHJlbW92ZV9ibG9jaygmc3RhdGUsICZpcCwgIm1hbnVhbCIsICZ0cmFuc2xhdG9yKS5hd2FpdCB7CiAgICAgICAgT2sodHJ1ZSkgPT4gcmVzcG9uc2U6OnN1Y2Nlc3NfZW1wdHkoKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgT2soZmFsc2UpID0+IHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgU3RhdHVzQ29kZTo6Tk9UX0ZPVU5ELAogICAgICAgICAgICBzc2hfc2VjdXJpdHlfcm91dGVfdGV4dCgmdHJhbnNsYXRvciwgImJsb2NrTm90Rm91bmQiKSwKICAgICAgICApLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gcmVtb3ZlIFNTSCBibG9jayIpOwogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwKICAgICAgICAgICAgICAgIHNzaF9zZWN1cml0eV9yb3V0ZV90ZXh0KCZ0cmFuc2xhdG9yLCAicmVtb3ZlQmxvY2tGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoZGVsZXRlLCBwYXRoID0gIi9hcGkvYWRtaW4vc3NoLXNlY3VyaXR5L2Jsb2NrcyIsIHRhZyA9ICJzc2gtc2VjdXJpdHkiLCBvcGVyYXRpb25faWQgPSAiZGVsZXRlX2FwaV9hZG1pbl9zc2hfc2VjdXJpdHlfYmxvY2tzIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkRlbGV0ZWQgU1NIIHNlY3VyaXR5IGJsb2NrcyIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gZGVsZXRlX2Jsb2NrcyhTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwgYm9keTogQnl0ZXMpIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbGV0IHBhcnNlZCA9IHBhcnNlX2pzb25fYm9keSgmYm9keSk7CiAgICBsZXQgcmF3X2lwcyA9IHBhcnNlZAogICAgICAgIC5nZXQoImlwcyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAubWFwKHxpdGVtc3wgewogICAgICAgICAgICBpdGVtcwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLm1hcChkZWxldGVfaXBfdmFsdWVfdG9fc3RyaW5nKQogICAgICAgICAgICAgICAgLm1hcCh8dmFsdWV8IHZhbHVlLnRyaW0oKS50b19zdHJpbmcoKSkKICAgICAgICAgICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpCiAgICAgICAgfSkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGlmIHJhd19pcHMuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgICAgIHNzaF9zZWN1cml0eV9yb3V0ZV90ZXh0KCZ0cmFuc2xhdG9yLCAic2VsZWN0SXBzIiksCiAgICAgICAgKTsKICAgIH0KICAgIGxldCBtdXQgcmVtb3ZlZCA9IDB1c2l6ZTsKICAgIGxldCBtdXQgc2VlbiA9IEhhc2hTZXQ6Om5ldygpOwogICAgZm9yIHJhd19pcCBpbiByYXdfaXBzIHsKICAgICAgICBsZXQgaXAgPSBub3JtYWxpemVfaXAoJnJhd19pcCk7CiAgICAgICAgaWYgaXAuaXNfZW1wdHkoKSB8fCAhc2Vlbi5pbnNlcnQoaXAuY2xvbmUoKSkgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgbWF0Y2ggcmVtb3ZlX2Jsb2NrKCZzdGF0ZSwgJmlwLCAibWFudWFsIiwgJnRyYW5zbGF0b3IpLmF3YWl0IHsKICAgICAgICAgICAgT2sodHJ1ZSkgPT4gcmVtb3ZlZCArPSAxLAogICAgICAgICAgICBPayhmYWxzZSkgPT4ge30KICAgICAgICAgICAgRXJyKGVycm9yKSA9PiB0cmFjaW5nOjp3YXJuISglZXJyb3IsIGlwLCAiZmFpbGVkIHRvIHJlbW92ZSBTU0ggYmxvY2siKSwKICAgICAgICB9CiAgICB9CiAgICByZXNwb25zZTo6b2soanNvbiEoeyAicmVtb3ZlZCI6IHJlbW92ZWQgfSkpLmludG9fcmVzcG9uc2UoKQp9Cg==
+use super::*;
+
+#[utoipa::path(get, path = "/api/admin/ssh-security/config", tag = "ssh-security", operation_id = "get_api_admin_ssh_security_config", responses((status = 200, description = "SSH security configuration")))]
+pub(super) async fn get_config(State(state): State<AppState>) -> Response {
+    match ssh_security_details(&state).await {
+        Ok(details) => response::ok(details).into_response(),
+        Err(error) => {
+            let translator = Translator::from_state(&state).await;
+            tracing::warn!(%error, "failed to load SSH security config");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                ssh_security_route_text(&translator, "loadConfigFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(post, path = "/api/admin/ssh-security/config", tag = "ssh-security", operation_id = "post_api_admin_ssh_security_config", request_body = serde_json::Value, responses((status = 200, description = "Updated SSH security configuration")))]
+pub(super) async fn update_config(
+    State(state): State<AppState>,
+    Json(body): Json<Value>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match update_ssh_security_config(&state, body, &translator).await {
+        Ok(details) => response::ok(details).into_response(),
+        Err(SshError::BadRequest(message)) => response::error(StatusCode::BAD_REQUEST, message),
+        Err(SshError::Runtime(message)) => response::error(StatusCode::BAD_REQUEST, message),
+        Err(SshError::Storage(error)) => {
+            tracing::warn!(%error, "failed to update SSH security config");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                ssh_security_route_text(&translator, "updateConfigFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(post, path = "/api/admin/ssh-security/firewall/sync", tag = "ssh-security", operation_id = "post_api_admin_ssh_security_firewall_sync", responses((status = 200, description = "SSH firewall synchronization result")))]
+pub(super) async fn sync_firewall(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match sync_firewall_blocks_now(&state, &translator).await {
+        Ok(value) => {
+            let ports = value
+                .get("ports")
+                .and_then(Value::as_array)
+                .map(|items| {
+                    items
+                        .iter()
+                        .filter_map(Value::as_i64)
+                        .map(|port| port.to_string())
+                        .collect::<Vec<_>>()
+                        .join(", ")
+                })
+                .unwrap_or_default();
+            let message = ssh_security_route_text_params(
+                &translator,
+                "syncFirewallSuccess",
+                &[
+                    (
+                        "allowedCidrs",
+                        value
+                            .get("allowed_cidrs")
+                            .and_then(Value::as_i64)
+                            .unwrap_or(0)
+                            .to_string(),
+                    ),
+                    ("ports", ports),
+                    (
+                        "synced",
+                        value
+                            .get("synced")
+                            .and_then(Value::as_i64)
+                            .unwrap_or(0)
+                            .to_string(),
+                    ),
+                ],
+            );
+            Json(json!({ "success": true, "message": message, "data": value })).into_response()
+        }
+        Err(error) => {
+            tracing::warn!(%error, "failed to sync SSH firewall");
+            let message = error.to_string();
+            response::error(
+                StatusCode::BAD_GATEWAY,
+                if message.trim().is_empty() {
+                    ssh_security_route_text(&translator, "syncFirewallFailed")
+                } else {
+                    message
+                },
+            )
+        }
+    }
+}
+
+#[utoipa::path(post, path = "/api/admin/ssh-security/firewall/clear", tag = "ssh-security", operation_id = "post_api_admin_ssh_security_firewall_clear", responses((status = 200, description = "SSH firewall clear result")))]
+pub(super) async fn clear_firewall(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let availability = ssh_security_availability(&state, &translator);
+    if !availability.available {
+        return response::error(StatusCode::BAD_REQUEST, availability.reason);
+    }
+    let payload = json!({
+        "chain_name": SSH_FIREWALL_CHAIN,
+        "parent_chain": ["INPUT", "DOCKER-USER"]
+    });
+    match state.gateway.client.clear_ssh_firewall(&payload).await {
+        Ok(value) => {
+            if let Err(error) = ensure_go_success(value, &translator, "clearSshPolicyFailed")
+                .map_err(|error| {
+                    tracing::warn!(%error, "go backend rejected SSH firewall clear");
+                    error
+                })
+            {
+                return response::error(
+                    StatusCode::BAD_GATEWAY,
+                    if error.to_string().trim().is_empty() {
+                        ssh_security_route_text(&translator, "clearFirewallFailed")
+                    } else {
+                        error.to_string()
+                    },
+                );
+            }
+            let mut cleared = 0usize;
+            match active_blocks(&state).await {
+                Ok(records) => {
+                    for record in records {
+                        if let Some(ip) = record.get("ip").and_then(Value::as_str)
+                            && mark_block_removed(&state, ip, "manual")
+                                .await
+                                .unwrap_or(false)
+                        {
+                            if let Err(error) = clear_failures(&state, ip).await {
+                                tracing::warn!(%error, ip, "failed to clear SSH failures");
+                            }
+                            cleared += 1;
+                        }
+                    }
+                }
+                Err(error) => tracing::warn!(%error, "failed to mark SSH blocks as cleared"),
+            }
+            Json(json!({
+                "success": true,
+                "message": ssh_security_route_text(&translator, "clearFirewallSuccess"),
+                "data": { "cleared_blocks": cleared }
+            }))
+            .into_response()
+        }
+        Err(error) => {
+            tracing::warn!(%error, "go backend SSH firewall clear failed");
+            response::error(
+                StatusCode::BAD_GATEWAY,
+                ssh_security_route_text(&translator, "clearFirewallFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(get, path = "/api/admin/ssh-security/login-logs", tag = "ssh-security", operation_id = "get_api_admin_ssh_security_login_logs", responses((status = 200, description = "Recent SSH login logs")))]
+pub(super) async fn login_logs(
+    State(state): State<AppState>,
+    Query(query): Query<ListQuery>,
+) -> Response {
+    let page = parse_positive(query.page.as_deref(), 1, i64::MAX);
+    let limit = parse_positive(query.limit.as_deref(), 20, 100);
+    let search = query.search.unwrap_or_default().trim().to_ascii_lowercase();
+    let outcome = query.outcome.unwrap_or_default();
+    let outcome = if outcome == "success" || outcome == "failure" {
+        outcome
+    } else {
+        String::new()
+    };
+    let mut entries = query_recent_ssh_logs((page * limit * 5 + limit * 5).max(500) as usize);
+    entries.retain(|entry| {
+        if !outcome.is_empty()
+            && entry.get("outcome").and_then(Value::as_str) != Some(outcome.as_str())
+        {
+            return false;
+        }
+        if search.is_empty() {
+            return true;
+        }
+        ["ip", "username", "raw"].iter().any(|key| {
+            entry
+                .get(*key)
+                .and_then(Value::as_str)
+                .unwrap_or_default()
+                .to_ascii_lowercase()
+                .contains(&search)
+        })
+    });
+    entries.sort_by(|left, right| {
+        iso_score(right.get("happened_at").and_then(Value::as_str))
+            .cmp(&iso_score(left.get("happened_at").and_then(Value::as_str)))
+    });
+    entries = coalesce_success_login_logs(entries);
+    let total = entries.len();
+    let start = ((page - 1) * limit) as usize;
+    let mut items = entries
+        .into_iter()
+        .skip(start)
+        .take(limit as usize)
+        .collect::<Vec<_>>();
+    hydrate_ip_location_records(&state, &mut items, |entry| {
+        entry
+            .get("id")
+            .and_then(Value::as_str)
+            .map(|id| format!("ssh-login-log|{id}"))
+    })
+    .await;
+    response::ok(json!({ "items": items, "total": total, "page": page, "limit": limit }))
+        .into_response()
+}
+
+#[utoipa::path(get, path = "/api/admin/ssh-security/blocks", tag = "ssh-security", operation_id = "get_api_admin_ssh_security_blocks", responses((status = 200, description = "Active SSH security blocks")))]
+pub(super) async fn list_blocks(
+    State(state): State<AppState>,
+    Query(query): Query<ListQuery>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let page = parse_positive(query.page.as_deref(), 1, i64::MAX);
+    let limit = parse_positive(query.limit.as_deref(), 20, 100);
+    let search = query.search.unwrap_or_default().trim().to_ascii_lowercase();
+    match list_active_blocks(&state, page, limit, &search).await {
+        Ok((mut items, total)) => {
+            hydrate_ip_location_records(&state, &mut items, |record| {
+                record
+                    .get("ip")
+                    .and_then(Value::as_str)
+                    .map(|ip| format!("ssh-blocklist|{ip}"))
+            })
+            .await;
+            response::ok(json!({ "items": items, "total": total, "page": page, "limit": limit }))
+                .into_response()
+        }
+        Err(error) => {
+            tracing::warn!(%error, "failed to list SSH security blocks");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                ssh_security_route_text(&translator, "listBlocksFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(get, path = "/api/admin/ssh-security/blocks/{ip}", tag = "ssh-security", operation_id = "get_api_admin_ssh_security_blocks_by_ip", params(("ip" = String, Path, description = "Blocked IP address")), responses((status = 200, description = "SSH security block")))]
+pub(super) async fn get_block(
+    State(state): State<AppState>,
+    AxumPath(ip): AxumPath<String>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let normalized = normalize_ip(&ip);
+    if normalized.is_empty() {
+        return response::error(
+            StatusCode::NOT_FOUND,
+            ssh_security_route_text(&translator, "blockNotFound"),
+        );
+    }
+    match load_block(&state, &normalized).await {
+        Ok(Some(mut record)) if is_active_block(&record, time_utils::now_ms()) => {
+            hydrate_ip_location_records(&state, std::slice::from_mut(&mut record), |record| {
+                record
+                    .get("ip")
+                    .and_then(Value::as_str)
+                    .map(|ip| format!("ssh-blocklist|{ip}"))
+            })
+            .await;
+            response::ok(record).into_response()
+        }
+        Ok(_) => response::error(
+            StatusCode::NOT_FOUND,
+            ssh_security_route_text(&translator, "blockNotFound"),
+        ),
+        Err(error) => {
+            tracing::warn!(%error, ip = normalized, "failed to load SSH block");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                ssh_security_route_text(&translator, "loadBlockFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(delete, path = "/api/admin/ssh-security/blocks/{ip}", tag = "ssh-security", operation_id = "delete_api_admin_ssh_security_blocks_by_ip", params(("ip" = String, Path, description = "Blocked IP address")), responses((status = 200, description = "Deleted SSH security block")))]
+pub(super) async fn delete_block(
+    State(state): State<AppState>,
+    AxumPath(ip): AxumPath<String>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match remove_block(&state, &ip, "manual", &translator).await {
+        Ok(true) => response::success_empty().into_response(),
+        Ok(false) => response::error(
+            StatusCode::NOT_FOUND,
+            ssh_security_route_text(&translator, "blockNotFound"),
+        ),
+        Err(error) => {
+            tracing::warn!(%error, "failed to remove SSH block");
+            response::error(
+                StatusCode::BAD_REQUEST,
+                ssh_security_route_text(&translator, "removeBlockFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(delete, path = "/api/admin/ssh-security/blocks", tag = "ssh-security", operation_id = "delete_api_admin_ssh_security_blocks", responses((status = 200, description = "Deleted SSH security blocks")))]
+pub(super) async fn delete_blocks(State(state): State<AppState>, body: Bytes) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let parsed = parse_json_body(&body);
+    let raw_ips = parsed
+        .get("ips")
+        .and_then(Value::as_array)
+        .map(|items| {
+            items
+                .iter()
+                .map(delete_ip_value_to_string)
+                .map(|value| value.trim().to_string())
+                .filter(|value| !value.is_empty())
+                .collect::<Vec<_>>()
+        })
+        .unwrap_or_default();
+    if raw_ips.is_empty() {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            ssh_security_route_text(&translator, "selectIps"),
+        );
+    }
+    let mut removed = 0usize;
+    let mut seen = HashSet::new();
+    for raw_ip in raw_ips {
+        let ip = normalize_ip(&raw_ip);
+        if ip.is_empty() || !seen.insert(ip.clone()) {
+            continue;
+        }
+        match remove_block(&state, &ip, "manual", &translator).await {
+            Ok(true) => removed += 1,
+            Ok(false) => {}
+            Err(error) => tracing::warn!(%error, ip, "failed to remove SSH block"),
+        }
+    }
+    response::ok(json!({ "removed": removed })).into_response()
+}

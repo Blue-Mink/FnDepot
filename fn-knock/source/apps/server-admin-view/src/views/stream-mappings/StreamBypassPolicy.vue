@@ -1,1 +1,92 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEFycm93TGVmdCwgUm91dGUsIFNoaWVsZE9mZiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7CiAgQnJlYWRjcnVtYiwKICBCcmVhZGNydW1iSXRlbSwKICBCcmVhZGNydW1iTGluaywKICBCcmVhZGNydW1iTGlzdCwKICBCcmVhZGNydW1iUGFnZSwKICBCcmVhZGNydW1iU2VwYXJhdG9yLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9icmVhZGNydW1iIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgQ2FyZCwKICBDYXJkQ29udGVudCwKICBDYXJkRGVzY3JpcHRpb24sCiAgQ2FyZEhlYWRlciwKICBDYXJkVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgQ29uZmlybWF0aW9uRGlhbG9nIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vQ29uZmlybWF0aW9uRGlhbG9nLnZ1ZSI7CmltcG9ydCBTdHJlYW1CeXBhc3NQb2xpY3lFZGl0b3IgZnJvbSAiLi9TdHJlYW1CeXBhc3NQb2xpY3lFZGl0b3IudnVlIjsKaW1wb3J0IHsgdXNlU3RyZWFtQnlwYXNzUG9saWN5UGFnZSB9IGZyb20gIi4vdXNlU3RyZWFtQnlwYXNzUG9saWN5UGFnZSI7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgbW9kZWwgPSB1c2VTdHJlYW1CeXBhc3NQb2xpY3lQYWdlKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktNSI+CiAgICA8QnJlYWRjcnVtYj4KICAgICAgPEJyZWFkY3J1bWJMaXN0PgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iTGluayBocmVmPSIjL21hcHBpbmdzP3RhYj1wcm90b2NvbCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLm5hdi5tYXBwaW5nTWFuYWdlbWVudCIpIH19CiAgICAgICAgICA8L0JyZWFkY3J1bWJMaW5rPgogICAgICAgIDwvQnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgPEJyZWFkY3J1bWJTZXBhcmF0b3IgLz4KICAgICAgICA8QnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgICA8QnJlYWRjcnVtYlBhZ2U+e3sKICAgICAgICAgICAgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuYnlwYXNzUG9saWN5VGl0bGUiKQogICAgICAgICAgfX08L0JyZWFkY3J1bWJQYWdlPgogICAgICAgIDwvQnJlYWRjcnVtYkl0ZW0+CiAgICAgIDwvQnJlYWRjcnVtYkxpc3Q+CiAgICA8L0JyZWFkY3J1bWI+CgogICAgPENhcmQgY2xhc3M9ImJvcmRlci1ib3JkZXIvNTAgc2hhZG93LW5vbmUiPgogICAgICA8Q2FyZEhlYWRlcj4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xLjUiPgogICAgICAgICAgICA8Q2FyZFRpdGxlIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXhsIj4KICAgICAgICAgICAgICA8U2hpZWxkT2ZmIGNsYXNzPSJoLTUgdy01IHRleHQtcHJpbWFyeSIgLz4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5ieXBhc3NQb2xpY3lUaXRsZSIpIH19CiAgICAgICAgICAgIDwvQ2FyZFRpdGxlPgogICAgICAgICAgICA8Q2FyZERlc2NyaXB0aW9uIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgPFJvdXRlIGNsYXNzPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgICB7eyBtb2RlbC5tYXBwaW5nTGFiZWwgfX0KICAgICAgICAgICAgPC9DYXJkRGVzY3JpcHRpb24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgQGNsaWNrPSJtb2RlbC5jYW5jZWwiPgogICAgICAgICAgICA8QXJyb3dMZWZ0IGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnBvbGljeUJhY2siKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvQ2FyZEhlYWRlcj4KCiAgICAgIDxDYXJkQ29udGVudAogICAgICAgIHYtaWY9Im1vZGVsLmxvYWRpbmciCiAgICAgICAgY2xhc3M9InB5LTEyIHRleHQtY2VudGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgPgogICAgICAgIHt7IHQoImNvbW1vbi5sb2FkaW5nQ29uZmlnIikgfX0KICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgPENhcmRDb250ZW50IHYtZWxzZS1pZj0ibW9kZWwubWlzc2luZyIgY2xhc3M9InNwYWNlLXktNCBweS04Ij4KICAgICAgICA8cAogICAgICAgICAgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1kZXN0cnVjdGl2ZS8zMCBiZy1kZXN0cnVjdGl2ZS81IHAtNCB0ZXh0LXNtIHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgPgogICAgICAgICAge3sgbW9kZWwubG9hZEVycm9yIHx8IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnBvbGljeU5vdEZvdW5kIikgfX0KICAgICAgICA8L3A+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBAY2xpY2s9Im1vZGVsLmNhbmNlbCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5wb2xpY3lCYWNrIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgPFN0cmVhbUJ5cGFzc1BvbGljeUVkaXRvciB2LWVsc2UgOm1vZGVsPSJtb2RlbCIgLz4KICAgIDwvQ2FyZD4KCiAgICA8Q29uZmlybWF0aW9uRGlhbG9nCiAgICAgIDpvcGVuPSJtb2RlbC5jb25maXJtYXRpb25EaWFsb2dPcGVuIgogICAgICB2LWJpbmQ9Im1vZGVsLmNvbmZpcm1hdGlvbkRpYWxvZ09wdGlvbnMiCiAgICAgIEB1cGRhdGU6b3Blbj0ibW9kZWwuaGFuZGxlQ29uZmlybWF0aW9uRGlhbG9nT3BlbkNoYW5nZSIKICAgICAgQGNvbmZpcm09Im1vZGVsLmNvbmZpcm1QZW5kaW5nQWN0aW9uIgogICAgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { ArrowLeft, Route, ShieldOff } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import ConfirmationDialog from "@admin-shared/components/common/ConfirmationDialog.vue";
+import StreamBypassPolicyEditor from "./StreamBypassPolicyEditor.vue";
+import { useStreamBypassPolicyPage } from "./useStreamBypassPolicyPage";
+
+const { t } = useI18n();
+const model = useStreamBypassPolicyPage();
+</script>
+
+<template>
+  <div class="space-y-5">
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/mappings?tab=protocol">
+            {{ t("admin.nav.mappingManagement") }}
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbPage>{{
+            t("admin.streamMappings.bypassPolicyTitle")
+          }}</BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+
+    <Card class="border-border/50 shadow-none">
+      <CardHeader>
+        <div class="flex flex-wrap items-start justify-between gap-3">
+          <div class="space-y-1.5">
+            <CardTitle class="flex items-center gap-2 text-xl">
+              <ShieldOff class="h-5 w-5 text-primary" />
+              {{ t("admin.streamMappings.bypassPolicyTitle") }}
+            </CardTitle>
+            <CardDescription class="flex items-center gap-2">
+              <Route class="h-3.5 w-3.5" />
+              {{ model.mappingLabel }}
+            </CardDescription>
+          </div>
+          <Button variant="outline" @click="model.cancel">
+            <ArrowLeft class="mr-2 h-4 w-4" />
+            {{ t("admin.streamMappings.policyBack") }}
+          </Button>
+        </div>
+      </CardHeader>
+
+      <CardContent
+        v-if="model.loading"
+        class="py-12 text-center text-muted-foreground"
+      >
+        {{ t("common.loadingConfig") }}
+      </CardContent>
+      <CardContent v-else-if="model.missing" class="space-y-4 py-8">
+        <p
+          class="rounded-lg border border-destructive/30 bg-destructive/5 p-4 text-sm text-destructive"
+        >
+          {{ model.loadError || t("admin.streamMappings.policyNotFound") }}
+        </p>
+        <Button variant="outline" @click="model.cancel">
+          {{ t("admin.streamMappings.policyBack") }}
+        </Button>
+      </CardContent>
+      <StreamBypassPolicyEditor v-else :model="model" />
+    </Card>
+
+    <ConfirmationDialog
+      :open="model.confirmationDialogOpen"
+      v-bind="model.confirmationDialogOptions"
+      @update:open="model.handleConfirmationDialogOpenChange"
+      @confirm="model.confirmPendingAction"
+    />
+  </div>
+</template>

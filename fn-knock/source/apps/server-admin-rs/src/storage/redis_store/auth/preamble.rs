@@ -1,1 +1,74 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBjb25zdCBVUERBVEVfSlNPTl9DQVNfU0NSSVBUOiAmc3RyID0gciMiCi0tIGZuLWtub2NrOmV2YWw6dXBkYXRlLWpzb24tY2FzOnYxCmxvY2FsIGN1cnJlbnQgPSByZWRpcy5jYWxsKCJHRVQiLCBLRVlTWzFdKQppZiBub3QgY3VycmVudCB0aGVuIHJldHVybiAtMSBlbmQKaWYgY3VycmVudCB+PSBBUkdWWzFdIHRoZW4gcmV0dXJuIDAgZW5kCmxvY2FsIHR0bCA9IHJlZGlzLmNhbGwoIlBUVEwiLCBLRVlTWzFdKQppZiB0dGwgPT0gLTIgb3IgdHRsID09IDAgdGhlbiByZXR1cm4gLTEgZW5kCmlmIHR0bCA+IDAgdGhlbgogIHJlZGlzLmNhbGwoIlNFVCIsIEtFWVNbMV0sIEFSR1ZbMl0sICJQWCIsIHR0bCkKZWxzZQogIHJlZGlzLmNhbGwoIlNFVCIsIEtFWVNbMV0sIEFSR1ZbMl0pCmVuZApyZXR1cm4gMQoiIzsKCnB1YihzdXBlcikgY29uc3QgQ09MTEVDVF9BVVRIX01PQklMSVRZX1NFU1NJT05fV0hJVEVMSVNUX1NDUklQVDogJnN0ciA9IHIjIgotLSBmbi1rbm9jazpldmFsOmNvbGxlY3QtbW9iaWxpdHktc2Vzc2lvbi13aGl0ZWxpc3Q6djEKbG9jYWwgc2Vzc2lvbl9pZCA9IEFSR1ZbMV0KbG9jYWwgd2hpdGVsaXN0X2lkcyA9IHt9CmxvY2FsIHNlZW5fd2hpdGVsaXN0ID0ge30KCmxvY2FsIGZ1bmN0aW9uIGFkZF93aGl0ZWxpc3QoaWQpCiAgaWYgdHlwZShpZCkgPT0gInN0cmluZyIgYW5kIGlkIH49ICIiIGFuZCBub3Qgc2Vlbl93aGl0ZWxpc3RbaWRdIHRoZW4KICAgIHNlZW5fd2hpdGVsaXN0W2lkXSA9IHRydWUKICAgIHRhYmxlLmluc2VydCh3aGl0ZWxpc3RfaWRzLCBpZCkKICBlbmQKZW5kCgpsb2NhbCBmdW5jdGlvbiBkZWNvZGVfanNvbihyYXcpCiAgaWYgbm90IHJhdyB0aGVuIHJldHVybiBuaWwgZW5kCiAgbG9jYWwgb2ssIGRlY29kZWQgPSBwY2FsbChjanNvbi5kZWNvZGUsIHJhdykKICBpZiBub3Qgb2sgb3IgdHlwZShkZWNvZGVkKSB+PSAidGFibGUiIHRoZW4gcmV0dXJuIG5pbCBlbmQKICByZXR1cm4gZGVjb2RlZAplbmQKCmxvY2FsIGJpbmRpbmdfa2V5cyA9IHJlZGlzLmNhbGwoIlNNRU1CRVJTIiwgS0VZU1sxXSkKdGFibGUuaW5zZXJ0KGJpbmRpbmdfa2V5cywgS0VZU1szXSkKbG9jYWwgc2Vlbl9iaW5kaW5nID0ge30KZm9yIF8sIGJpbmRpbmdfa2V5IGluIGlwYWlycyhiaW5kaW5nX2tleXMpIGRvCiAgaWYgbm90IHNlZW5fYmluZGluZ1tiaW5kaW5nX2tleV0gdGhlbgogICAgc2Vlbl9iaW5kaW5nW2JpbmRpbmdfa2V5XSA9IHRydWUKICAgIGxvY2FsIGRlY29kZWQgPSBkZWNvZGVfanNvbihyZWRpcy5jYWxsKCJHRVQiLCBiaW5kaW5nX2tleSkpCiAgICBpZiBkZWNvZGVkIGFuZCAoYmluZGluZ19rZXkgPT0gS0VZU1szXSBvciBkZWNvZGVkWyJvd25lclNlc3Npb25JZCJdID09IHNlc3Npb25faWQpIHRoZW4KICAgICAgYWRkX3doaXRlbGlzdChkZWNvZGVkWyJ3aGl0ZWxpc3RSZWNvcmRJZCJdKQogICAgZW5kCiAgZW5kCmVuZApmb3IgXywgcmF3IGluIGlwYWlycyhyZWRpcy5jYWxsKCJIVkFMUyIsIEtFWVNbMl0pKSBkbwogIGxvY2FsIGRlY29kZWQgPSBkZWNvZGVfanNvbihyYXcpCiAgaWYgZGVjb2RlZCB0aGVuIGFkZF93aGl0ZWxpc3QoZGVjb2RlZFsid2hpdGVsaXN0UmVjb3JkSWQiXSkgZW5kCmVuZApsb2NhbCBwZW5kaW5nID0gcmVkaXMuY2FsbCgiSEtFWVMiLCBLRVlTWzRdKQpmb3IgXywgaWQgaW4gaXBhaXJzKHBlbmRpbmcpIGRvIGFkZF93aGl0ZWxpc3QoaWQpIGVuZAp0YWJsZS5zb3J0KHdoaXRlbGlzdF9pZHMpCnJldHVybiB3aGl0ZWxpc3RfaWRzCiIjOwoKcHViKHN1cGVyKSBhc3luYyBmbiBjb21wYXJlX2FuZF9zZXRfanNvbigKICAgIGNvbm46ICZtdXQgQ29ubmVjdGlvbk1hbmFnZXIsCiAgICBrZXk6ICZzdHIsCiAgICBleHBlY3RlZF9yYXc6ICZzdHIsCiAgICBuZXh0X3JhdzogJnN0ciwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxpNjQ+IHsKICAgIHJlZGlzOjpjbWQoIkVWQUwiKQogICAgICAgIC5hcmcoVVBEQVRFX0pTT05fQ0FTX1NDUklQVCkKICAgICAgICAuYXJnKDEpCiAgICAgICAgLmFyZyhrZXkpCiAgICAgICAgLmFyZyhleHBlY3RlZF9yYXcpCiAgICAgICAgLmFyZyhuZXh0X3JhdykKICAgICAgICAucXVlcnlfYXN5bmMoY29ubikKICAgICAgICAuYXdhaXQKfQo=
+use super::*;
+
+pub(super) const UPDATE_JSON_CAS_SCRIPT: &str = r#"
+-- fn-knock:eval:update-json-cas:v1
+local current = redis.call("GET", KEYS[1])
+if not current then return -1 end
+if current ~= ARGV[1] then return 0 end
+local ttl = redis.call("PTTL", KEYS[1])
+if ttl == -2 or ttl == 0 then return -1 end
+if ttl > 0 then
+  redis.call("SET", KEYS[1], ARGV[2], "PX", ttl)
+else
+  redis.call("SET", KEYS[1], ARGV[2])
+end
+return 1
+"#;
+
+pub(super) const COLLECT_AUTH_MOBILITY_SESSION_WHITELIST_SCRIPT: &str = r#"
+-- fn-knock:eval:collect-mobility-session-whitelist:v1
+local session_id = ARGV[1]
+local whitelist_ids = {}
+local seen_whitelist = {}
+
+local function add_whitelist(id)
+  if type(id) == "string" and id ~= "" and not seen_whitelist[id] then
+    seen_whitelist[id] = true
+    table.insert(whitelist_ids, id)
+  end
+end
+
+local function decode_json(raw)
+  if not raw then return nil end
+  local ok, decoded = pcall(cjson.decode, raw)
+  if not ok or type(decoded) ~= "table" then return nil end
+  return decoded
+end
+
+local binding_keys = redis.call("SMEMBERS", KEYS[1])
+table.insert(binding_keys, KEYS[3])
+local seen_binding = {}
+for _, binding_key in ipairs(binding_keys) do
+  if not seen_binding[binding_key] then
+    seen_binding[binding_key] = true
+    local decoded = decode_json(redis.call("GET", binding_key))
+    if decoded and (binding_key == KEYS[3] or decoded["ownerSessionId"] == session_id) then
+      add_whitelist(decoded["whitelistRecordId"])
+    end
+  end
+end
+for _, raw in ipairs(redis.call("HVALS", KEYS[2])) do
+  local decoded = decode_json(raw)
+  if decoded then add_whitelist(decoded["whitelistRecordId"]) end
+end
+local pending = redis.call("HKEYS", KEYS[4])
+for _, id in ipairs(pending) do add_whitelist(id) end
+table.sort(whitelist_ids)
+return whitelist_ids
+"#;
+
+pub(super) async fn compare_and_set_json(
+    conn: &mut ConnectionManager,
+    key: &str,
+    expected_raw: &str,
+    next_raw: &str,
+) -> crate::storage::StorageResult<i64> {
+    redis::cmd("EVAL")
+        .arg(UPDATE_JSON_CAS_SCRIPT)
+        .arg(1)
+        .arg(key)
+        .arg(expected_raw)
+        .arg(next_raw)
+        .query_async(conn)
+        .await
+}

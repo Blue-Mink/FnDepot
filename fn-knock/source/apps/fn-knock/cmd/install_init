@@ -1,1 +1,5 @@
-IyEvYmluL2Jhc2gKCiMjIyBUaGlzIHNjcmlwdCBpcyBjYWxsZWQgYmVmb3JlIHRoZSB1c2VyIGluc3RhbGxzIHRoZSBhcHBsaWNhdGlvbi4KCmV4aXQgMA==
+#!/bin/bash
+
+### This script is called before the user installs the application.
+
+exit 0

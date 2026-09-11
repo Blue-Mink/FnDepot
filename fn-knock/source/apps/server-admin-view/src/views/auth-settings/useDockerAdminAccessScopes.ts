@@ -1,1 +1,128 @@
-aW1wb3J0IHsgcmVmLCB0eXBlIFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IGV4dHJhY3RFcnJvck1lc3NhZ2UgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgQ29uZmlnQVBJIH0gZnJvbSAiQC9saWIvYXBpL2NvbmZpZyI7CmltcG9ydCB0eXBlIHsgQXV0aEFjY291bnQsIFRPVFBDcmVkZW50aWFsLCBUT1RQQWNjZXNzU2NvcGUgfSBmcm9tICIuLi8uLi90eXBlcyI7Cgpjb25zdCBET0NLRVJfQURNSU5fUEFORUxfQUNDRVNTX1NDT1BFOiBUT1RQQWNjZXNzU2NvcGUgPSAiZG9ja2VyX2FkbWluX3BhbmVsIjsKCnR5cGUgVHJhbnNsYXRlID0gKGtleTogc3RyaW5nKSA9PiBzdHJpbmc7CgppbnRlcmZhY2UgQWNjZXNzU2NvcGVSZWNvcmQgewogIGlkOiBzdHJpbmc7CiAgYWNjZXNzX3Njb3BlczogVE9UUEFjY2Vzc1Njb3BlW107Cn0KCmludGVyZmFjZSBVc2VEb2NrZXJBZG1pbkFjY2Vzc1Njb3Blc09wdGlvbnMgewogIGNyZWRlbnRpYWxzOiBSZWY8VE9UUENyZWRlbnRpYWxbXT47CiAgcmVwbGFjZUF1dGhBY2NvdW50OiAoYWNjb3VudDogQXV0aEFjY291bnQpID0+IHZvaWQ7CiAgdHJhbnNsYXRlOiBUcmFuc2xhdGU7Cn0KCmV4cG9ydCBmdW5jdGlvbiB1c2VEb2NrZXJBZG1pbkFjY2Vzc1Njb3Blcyh7CiAgY3JlZGVudGlhbHMsCiAgcmVwbGFjZUF1dGhBY2NvdW50LAogIHRyYW5zbGF0ZSwKfTogVXNlRG9ja2VyQWRtaW5BY2Nlc3NTY29wZXNPcHRpb25zKSB7CiAgY29uc3QgdXBkYXRpbmdBY2Nlc3NTY29wZUlkcyA9IHJlZjxTZXQ8c3RyaW5nPj4obmV3IFNldCgpKTsKCiAgZnVuY3Rpb24gaGFzRG9ja2VyQWRtaW5QYW5lbEFjY2VzcyhyZWNvcmQ6IEFjY2Vzc1Njb3BlUmVjb3JkKSB7CiAgICByZXR1cm4gKHJlY29yZC5hY2Nlc3Nfc2NvcGVzIHx8IFtdKS5pbmNsdWRlcygKICAgICAgRE9DS0VSX0FETUlOX1BBTkVMX0FDQ0VTU19TQ09QRSwKICAgICk7CiAgfQoKICBmdW5jdGlvbiBpc0FjY2Vzc1Njb3BlVXBkYXRpbmcoaWQ6IHN0cmluZykgewogICAgcmV0dXJuIHVwZGF0aW5nQWNjZXNzU2NvcGVJZHMudmFsdWUuaGFzKGlkKTsKICB9CgogIGZ1bmN0aW9uIHNldEFjY2Vzc1Njb3BlVXBkYXRpbmcoaWQ6IHN0cmluZywgcGVuZGluZzogYm9vbGVhbikgewogICAgY29uc3QgbmV4dCA9IG5ldyBTZXQodXBkYXRpbmdBY2Nlc3NTY29wZUlkcy52YWx1ZSk7CiAgICBpZiAocGVuZGluZykgewogICAgICBuZXh0LmFkZChpZCk7CiAgICB9IGVsc2UgewogICAgICBuZXh0LmRlbGV0ZShpZCk7CiAgICB9CiAgICB1cGRhdGluZ0FjY2Vzc1Njb3BlSWRzLnZhbHVlID0gbmV4dDsKICB9CgogIGZ1bmN0aW9uIGdldE5leHRTY29wZXMocmVjb3JkOiBBY2Nlc3NTY29wZVJlY29yZCwgZW5hYmxlZDogYm9vbGVhbikgewogICAgY29uc3QgbmV4dFNjb3BlU2V0ID0gbmV3IFNldDxUT1RQQWNjZXNzU2NvcGU+KHJlY29yZC5hY2Nlc3Nfc2NvcGVzIHx8IFtdKTsKICAgIGlmIChlbmFibGVkKSB7CiAgICAgIG5leHRTY29wZVNldC5hZGQoRE9DS0VSX0FETUlOX1BBTkVMX0FDQ0VTU19TQ09QRSk7CiAgICB9IGVsc2UgewogICAgICBuZXh0U2NvcGVTZXQuZGVsZXRlKERPQ0tFUl9BRE1JTl9QQU5FTF9BQ0NFU1NfU0NPUEUpOwogICAgfQogICAgcmV0dXJuIFsuLi5uZXh0U2NvcGVTZXRdOwogIH0KCiAgZnVuY3Rpb24gaGFuZGxlVXBkYXRlRXJyb3IoCiAgICByZWNvcmQ6IEFjY2Vzc1Njb3BlUmVjb3JkLAogICAgcHJldmlvdXNTY29wZXM6IFRPVFBBY2Nlc3NTY29wZVtdLAogICAgZXJyb3I6IHVua25vd24sCiAgKSB7CiAgICByZWNvcmQuYWNjZXNzX3Njb3BlcyA9IHByZXZpb3VzU2NvcGVzOwogICAgdG9hc3QuZXJyb3IoCiAgICAgIGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgZXJyb3IsCiAgICAgICAgdHJhbnNsYXRlKCJhZG1pbi5hdXRoU2V0dGluZ3MuYWRtaW5QYW5lbEFjY2Vzc1VwZGF0ZUZhaWxlZCIpLAogICAgICApLAogICAgKTsKICB9CgogIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZURvY2tlckFkbWluUGFuZWxBY2Nlc3NDaGFuZ2UoCiAgICB0b3RwOiBUT1RQQ3JlZGVudGlhbCwKICAgIGVuYWJsZWQ6IGJvb2xlYW4sCiAgKSB7CiAgICBjb25zdCBwcmV2aW91c1Njb3BlcyA9IFsuLi4odG90cC5hY2Nlc3Nfc2NvcGVzIHx8IFtdKV07CiAgICBjb25zdCBuZXh0U2NvcGVzID0gZ2V0TmV4dFNjb3Blcyh0b3RwLCBlbmFibGVkKTsKICAgIHRvdHAuYWNjZXNzX3Njb3BlcyA9IG5leHRTY29wZXM7CiAgICBzZXRBY2Nlc3NTY29wZVVwZGF0aW5nKHRvdHAuaWQsIHRydWUpOwoKICAgIHRyeSB7CiAgICAgIGNvbnN0IHVwZGF0ZWQgPSBhd2FpdCBDb25maWdBUEkudXBkYXRlVE9UUEFjY2Vzc1Njb3BlcygKICAgICAgICB0b3RwLmlkLAogICAgICAgIG5leHRTY29wZXMsCiAgICAgICk7CiAgICAgIGNvbnN0IHRhcmdldCA9IGNyZWRlbnRpYWxzLnZhbHVlLmZpbmQoKGl0ZW0pID0+IGl0ZW0uaWQgPT09IHRvdHAuaWQpOwogICAgICBpZiAodGFyZ2V0KSB7CiAgICAgICAgdGFyZ2V0LmFjY2Vzc19zY29wZXMgPSB1cGRhdGVkLmFjY2Vzc19zY29wZXMgfHwgW107CiAgICAgIH0KICAgICAgdG9hc3Quc3VjY2Vzcyh0cmFuc2xhdGUoImFkbWluLmF1dGhTZXR0aW5ncy5hZG1pblBhbmVsQWNjZXNzVXBkYXRlZCIpKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGhhbmRsZVVwZGF0ZUVycm9yKHRvdHAsIHByZXZpb3VzU2NvcGVzLCBlcnJvcik7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRBY2Nlc3NTY29wZVVwZGF0aW5nKHRvdHAuaWQsIGZhbHNlKTsKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZUFjY291bnREb2NrZXJBZG1pblBhbmVsQWNjZXNzQ2hhbmdlKAogICAgYWNjb3VudDogQXV0aEFjY291bnQsCiAgICBlbmFibGVkOiBib29sZWFuLAogICkgewogICAgY29uc3QgcHJldmlvdXNTY29wZXMgPSBbLi4uKGFjY291bnQuYWNjZXNzX3Njb3BlcyB8fCBbXSldOwogICAgY29uc3QgbmV4dFNjb3BlcyA9IGdldE5leHRTY29wZXMoYWNjb3VudCwgZW5hYmxlZCk7CiAgICBhY2NvdW50LmFjY2Vzc19zY29wZXMgPSBuZXh0U2NvcGVzOwogICAgc2V0QWNjZXNzU2NvcGVVcGRhdGluZyhhY2NvdW50LmlkLCB0cnVlKTsKCiAgICB0cnkgewogICAgICBjb25zdCB1cGRhdGVkID0gYXdhaXQgQ29uZmlnQVBJLnVwZGF0ZUF1dGhBY2NvdW50QWNjZXNzU2NvcGVzKAogICAgICAgIGFjY291bnQuaWQsCiAgICAgICAgbmV4dFNjb3BlcywKICAgICAgKTsKICAgICAgcmVwbGFjZUF1dGhBY2NvdW50KHVwZGF0ZWQpOwogICAgICB0b2FzdC5zdWNjZXNzKHRyYW5zbGF0ZSgiYWRtaW4uYXV0aFNldHRpbmdzLmFkbWluUGFuZWxBY2Nlc3NVcGRhdGVkIikpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgaGFuZGxlVXBkYXRlRXJyb3IoYWNjb3VudCwgcHJldmlvdXNTY29wZXMsIGVycm9yKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldEFjY2Vzc1Njb3BlVXBkYXRpbmcoYWNjb3VudC5pZCwgZmFsc2UpOwogICAgfQogIH0KCiAgcmV0dXJuIHsKICAgIGhhbmRsZUFjY291bnREb2NrZXJBZG1pblBhbmVsQWNjZXNzQ2hhbmdlLAogICAgaGFuZGxlRG9ja2VyQWRtaW5QYW5lbEFjY2Vzc0NoYW5nZSwKICAgIGhhc0RvY2tlckFkbWluUGFuZWxBY2Nlc3MsCiAgICBpc0FjY2Vzc1Njb3BlVXBkYXRpbmcsCiAgfTsKfQo=
+import { ref, type Ref } from "vue";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import { ConfigAPI } from "@/lib/api/config";
+import type { AuthAccount, TOTPCredential, TOTPAccessScope } from "../../types";
+
+const DOCKER_ADMIN_PANEL_ACCESS_SCOPE: TOTPAccessScope = "docker_admin_panel";
+
+type Translate = (key: string) => string;
+
+interface AccessScopeRecord {
+  id: string;
+  access_scopes: TOTPAccessScope[];
+}
+
+interface UseDockerAdminAccessScopesOptions {
+  credentials: Ref<TOTPCredential[]>;
+  replaceAuthAccount: (account: AuthAccount) => void;
+  translate: Translate;
+}
+
+export function useDockerAdminAccessScopes({
+  credentials,
+  replaceAuthAccount,
+  translate,
+}: UseDockerAdminAccessScopesOptions) {
+  const updatingAccessScopeIds = ref<Set<string>>(new Set());
+
+  function hasDockerAdminPanelAccess(record: AccessScopeRecord) {
+    return (record.access_scopes || []).includes(
+      DOCKER_ADMIN_PANEL_ACCESS_SCOPE,
+    );
+  }
+
+  function isAccessScopeUpdating(id: string) {
+    return updatingAccessScopeIds.value.has(id);
+  }
+
+  function setAccessScopeUpdating(id: string, pending: boolean) {
+    const next = new Set(updatingAccessScopeIds.value);
+    if (pending) {
+      next.add(id);
+    } else {
+      next.delete(id);
+    }
+    updatingAccessScopeIds.value = next;
+  }
+
+  function getNextScopes(record: AccessScopeRecord, enabled: boolean) {
+    const nextScopeSet = new Set<TOTPAccessScope>(record.access_scopes || []);
+    if (enabled) {
+      nextScopeSet.add(DOCKER_ADMIN_PANEL_ACCESS_SCOPE);
+    } else {
+      nextScopeSet.delete(DOCKER_ADMIN_PANEL_ACCESS_SCOPE);
+    }
+    return [...nextScopeSet];
+  }
+
+  function handleUpdateError(
+    record: AccessScopeRecord,
+    previousScopes: TOTPAccessScope[],
+    error: unknown,
+  ) {
+    record.access_scopes = previousScopes;
+    toast.error(
+      extractErrorMessage(
+        error,
+        translate("admin.authSettings.adminPanelAccessUpdateFailed"),
+      ),
+    );
+  }
+
+  async function handleDockerAdminPanelAccessChange(
+    totp: TOTPCredential,
+    enabled: boolean,
+  ) {
+    const previousScopes = [...(totp.access_scopes || [])];
+    const nextScopes = getNextScopes(totp, enabled);
+    totp.access_scopes = nextScopes;
+    setAccessScopeUpdating(totp.id, true);
+
+    try {
+      const updated = await ConfigAPI.updateTOTPAccessScopes(
+        totp.id,
+        nextScopes,
+      );
+      const target = credentials.value.find((item) => item.id === totp.id);
+      if (target) {
+        target.access_scopes = updated.access_scopes || [];
+      }
+      toast.success(translate("admin.authSettings.adminPanelAccessUpdated"));
+    } catch (error) {
+      handleUpdateError(totp, previousScopes, error);
+    } finally {
+      setAccessScopeUpdating(totp.id, false);
+    }
+  }
+
+  async function handleAccountDockerAdminPanelAccessChange(
+    account: AuthAccount,
+    enabled: boolean,
+  ) {
+    const previousScopes = [...(account.access_scopes || [])];
+    const nextScopes = getNextScopes(account, enabled);
+    account.access_scopes = nextScopes;
+    setAccessScopeUpdating(account.id, true);
+
+    try {
+      const updated = await ConfigAPI.updateAuthAccountAccessScopes(
+        account.id,
+        nextScopes,
+      );
+      replaceAuthAccount(updated);
+      toast.success(translate("admin.authSettings.adminPanelAccessUpdated"));
+    } catch (error) {
+      handleUpdateError(account, previousScopes, error);
+    } finally {
+      setAccessScopeUpdating(account.id, false);
+    }
+  }
+
+  return {
+    handleAccountDockerAdminPanelAccessChange,
+    handleDockerAdminPanelAccessChange,
+    hasDockerAdminPanelAccess,
+    isAccessScopeUpdating,
+  };
+}

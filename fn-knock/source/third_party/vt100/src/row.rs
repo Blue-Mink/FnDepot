@@ -1,1 +1,494 @@
-dXNlIGNyYXRlOjp0ZXJtOjpCdWZXcml0ZSBhcyBfOwoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnKV0KcHViIHN0cnVjdCBSb3cgewogICAgY2VsbHM6IFZlYzxjcmF0ZTo6Q2VsbD4sCiAgICB3cmFwcGVkOiBib29sLAp9CgppbXBsIFJvdyB7CiAgICBwdWIgZm4gbmV3KGNvbHM6IHUxNikgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7CiAgICAgICAgICAgIGNlbGxzOiB2ZWMhW2NyYXRlOjpDZWxsOjpuZXcoKTsgdXNpemU6OmZyb20oY29scyldLAogICAgICAgICAgICB3cmFwcGVkOiBmYWxzZSwKICAgICAgICB9CiAgICB9CgogICAgZm4gY29scygmc2VsZikgLT4gdTE2IHsKICAgICAgICBzZWxmLmNlbGxzCiAgICAgICAgICAgIC5sZW4oKQogICAgICAgICAgICAudHJ5X2ludG8oKQogICAgICAgICAgICAvLyB3ZSBsaW1pdCB0aGUgbnVtYmVyIG9mIGNvbHMgdG8gYSB1MTYgKHNlZSBTaXplKQogICAgICAgICAgICAudW53cmFwKCkKICAgIH0KCiAgICBwdWIgZm4gY2xlYXIoJm11dCBzZWxmLCBhdHRyczogY3JhdGU6OmF0dHJzOjpBdHRycykgewogICAgICAgIGZvciBjZWxsIGluICZtdXQgc2VsZi5jZWxscyB7CiAgICAgICAgICAgIGNlbGwuY2xlYXIoYXR0cnMpOwogICAgICAgIH0KICAgICAgICBzZWxmLndyYXBwZWQgPSBmYWxzZTsKICAgIH0KCiAgICBmbiBjZWxscygmc2VsZikgLT4gaW1wbCBJdGVyYXRvcjxJdGVtID0gJmNyYXRlOjpDZWxsPiB7CiAgICAgICAgc2VsZi5jZWxscy5pdGVyKCkKICAgIH0KCiAgICBwdWIgZm4gZ2V0KCZzZWxmLCBjb2w6IHUxNikgLT4gT3B0aW9uPCZjcmF0ZTo6Q2VsbD4gewogICAgICAgIHNlbGYuY2VsbHMuZ2V0KHVzaXplOjpmcm9tKGNvbCkpCiAgICB9CgogICAgcHViIGZuIGdldF9tdXQoJm11dCBzZWxmLCBjb2w6IHUxNikgLT4gT3B0aW9uPCZtdXQgY3JhdGU6OkNlbGw+IHsKICAgICAgICBzZWxmLmNlbGxzLmdldF9tdXQodXNpemU6OmZyb20oY29sKSkKICAgIH0KCiAgICBwdWIgZm4gaW5zZXJ0KCZtdXQgc2VsZiwgaTogdTE2LCBjZWxsOiBjcmF0ZTo6Q2VsbCkgewogICAgICAgIHNlbGYuY2VsbHMuaW5zZXJ0KHVzaXplOjpmcm9tKGkpLCBjZWxsKTsKICAgICAgICBzZWxmLndyYXBwZWQgPSBmYWxzZTsKICAgIH0KCiAgICBwdWIgZm4gcmVtb3ZlKCZtdXQgc2VsZiwgaTogdTE2KSB7CiAgICAgICAgc2VsZi5jbGVhcl93aWRlKGkpOwogICAgICAgIHNlbGYuY2VsbHMucmVtb3ZlKHVzaXplOjpmcm9tKGkpKTsKICAgICAgICBzZWxmLndyYXBwZWQgPSBmYWxzZTsKICAgIH0KCiAgICBwdWIgZm4gZXJhc2UoJm11dCBzZWxmLCBpOiB1MTYsIGF0dHJzOiBjcmF0ZTo6YXR0cnM6OkF0dHJzKSB7CiAgICAgICAgbGV0IHdpZGUgPSBzZWxmLmNlbGxzW3VzaXplOjpmcm9tKGkpXS5pc193aWRlKCk7CiAgICAgICAgc2VsZi5jbGVhcl93aWRlKGkpOwogICAgICAgIHNlbGYuY2VsbHNbdXNpemU6OmZyb20oaSldLmNsZWFyKGF0dHJzKTsKICAgICAgICAvLyBgd2lkZWAgaXMgY2FwdHVyZWQgYmVmb3JlIGNsZWFyaW5nIHRoZSBjZWxsLiBVc2Ugc2F0dXJhdGluZwogICAgICAgIC8vIHN1YnRyYWN0aW9uIGJlY2F1c2UgYSBkYW1hZ2VkIG9uZS1jb2x1bW4gcm93IG1heSBjb250YWluIGFuCiAgICAgICAgLy8gb3JwaGFuZWQgd2lkZSBjZWxsIHdpdGggbm8gY29udGludWF0aW9uLgogICAgICAgIGlmIGkgPT0gc2VsZi5jb2xzKCkuc2F0dXJhdGluZ19zdWIoaWYgd2lkZSB7IDIgfSBlbHNlIHsgMSB9KSB7CiAgICAgICAgICAgIHNlbGYud3JhcHBlZCA9IGZhbHNlOwogICAgICAgIH0KICAgIH0KCiAgICBwdWIgZm4gdHJ1bmNhdGUoJm11dCBzZWxmLCBsZW46IHUxNikgewogICAgICAgIHNlbGYuY2VsbHMudHJ1bmNhdGUodXNpemU6OmZyb20obGVuKSk7CiAgICAgICAgc2VsZi53cmFwcGVkID0gZmFsc2U7CiAgICAgICAgbGV0IGxhc3RfY2VsbCA9ICZtdXQgc2VsZi5jZWxsc1t1c2l6ZTo6ZnJvbShsZW4pIC0gMV07CiAgICAgICAgaWYgbGFzdF9jZWxsLmlzX3dpZGUoKSB7CiAgICAgICAgICAgIGxhc3RfY2VsbC5jbGVhcigqbGFzdF9jZWxsLmF0dHJzKCkpOwogICAgICAgIH0KICAgIH0KCiAgICBwdWIgZm4gcmVzaXplKCZtdXQgc2VsZiwgbGVuOiB1MTYsIGNlbGw6IGNyYXRlOjpDZWxsKSB7CiAgICAgICAgaWYgdXNpemU6OmZyb20obGVuKSA8IHNlbGYuY2VsbHMubGVuKCkgewogICAgICAgICAgICAvLyB0cnVuY2F0ZSgpIGNsZWFycyBhIHdpZGUgY2VsbCB3aGVuIHNocmlua2luZyByZW1vdmVzIGl0cwogICAgICAgICAgICAvLyBjb250aW51YXRpb24uIFZlYzo6cmVzaXplKCkgYWxvbmUgd291bGQgbGVhdmUgYW4gb3JwaGFuZWQKICAgICAgICAgICAgLy8gd2lkZSBjZWxsIGF0IHRoZSBuZXcgbGFzdCBjb2x1bW4uCiAgICAgICAgICAgIHNlbGYudHJ1bmNhdGUobGVuKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBzZWxmLmNlbGxzLnJlc2l6ZSh1c2l6ZTo6ZnJvbShsZW4pLCBjZWxsKTsKICAgICAgICAgICAgc2VsZi53cmFwcGVkID0gZmFsc2U7CiAgICAgICAgfQogICAgfQoKICAgIHB1YiBmbiB3cmFwKCZtdXQgc2VsZiwgd3JhcDogYm9vbCkgewogICAgICAgIHNlbGYud3JhcHBlZCA9IHdyYXA7CiAgICB9CgogICAgcHViIGZuIHdyYXBwZWQoJnNlbGYpIC0+IGJvb2wgewogICAgICAgIHNlbGYud3JhcHBlZAogICAgfQoKICAgIHB1YiBmbiBjbGVhcl93aWRlKCZtdXQgc2VsZiwgY29sOiB1MTYpIHsKICAgICAgICBsZXQgY29sX2lkeCA9IHVzaXplOjpmcm9tKGNvbCk7CiAgICAgICAgbGV0IGNlbGwgPSAmc2VsZi5jZWxsc1tjb2xfaWR4XTsKICAgICAgICBsZXQgb3RoZXIgPSBpZiBjZWxsLmlzX3dpZGUoKSB7CiAgICAgICAgICAgIGxldCBuZXh0ID0gY29sX2lkeCArIDE7CiAgICAgICAgICAgIGlmIG5leHQgPj0gc2VsZi5jZWxscy5sZW4oKSB7CiAgICAgICAgICAgICAgICAvLyBEZWZlbmQgYWdhaW5zdCBhbiBvcnBoYW5lZCB3aWRlIGNlbGwgbGVmdCBieSBtYWxmb3JtZWQKICAgICAgICAgICAgICAgIC8vIHN0YXRlIG9yIG9sZGVyIHJlc2l6ZSBiZWhhdmlvciBpbnN0ZWFkIG9mIGluZGV4aW5nIGJleW9uZAogICAgICAgICAgICAgICAgLy8gdGhlIHJvdy4KICAgICAgICAgICAgICAgIGxldCBhdHRycyA9ICpzZWxmLmNlbGxzW2NvbF9pZHhdLmF0dHJzKCk7CiAgICAgICAgICAgICAgICBzZWxmLmNlbGxzW2NvbF9pZHhdLmNsZWFyKGF0dHJzKTsKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQogICAgICAgICAgICAmbXV0IHNlbGYuY2VsbHNbbmV4dF0KICAgICAgICB9IGVsc2UgaWYgY2VsbC5pc193aWRlX2NvbnRpbnVhdGlvbigpIHsKICAgICAgICAgICAgJm11dCBzZWxmLmNlbGxzW3VzaXplOjpmcm9tKGNvbCAtIDEpXQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9OwogICAgICAgIG90aGVyLmNsZWFyKCpvdGhlci5hdHRycygpKTsKICAgIH0KCiAgICBwdWIgZm4gd3JpdGVfY29udGVudHMoCiAgICAgICAgJnNlbGYsCiAgICAgICAgY29udGVudHM6ICZtdXQgU3RyaW5nLAogICAgICAgIHN0YXJ0OiB1MTYsCiAgICAgICAgd2lkdGg6IHUxNiwKICAgICAgICB3cmFwcGluZzogYm9vbCwKICAgICkgewogICAgICAgIGxldCBtdXQgcHJldl93YXNfd2lkZSA9IGZhbHNlOwoKICAgICAgICBsZXQgbXV0IHByZXZfY29sID0gc3RhcnQ7CiAgICAgICAgZm9yIChjb2wsIGNlbGwpIGluIHNlbGYKICAgICAgICAgICAgLmNlbGxzKCkKICAgICAgICAgICAgLmVudW1lcmF0ZSgpCiAgICAgICAgICAgIC5za2lwKHVzaXplOjpmcm9tKHN0YXJ0KSkKICAgICAgICAgICAgLnRha2UodXNpemU6OmZyb20od2lkdGgpKQogICAgICAgIHsKICAgICAgICAgICAgaWYgcHJldl93YXNfd2lkZSB7CiAgICAgICAgICAgICAgICBwcmV2X3dhc193aWRlID0gZmFsc2U7CiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgfQogICAgICAgICAgICBwcmV2X3dhc193aWRlID0gY2VsbC5pc193aWRlKCk7CgogICAgICAgICAgICAvLyB3ZSBsaW1pdCB0aGUgbnVtYmVyIG9mIGNvbHMgdG8gYSB1MTYgKHNlZSBTaXplKQogICAgICAgICAgICBsZXQgY29sOiB1MTYgPSBjb2wudHJ5X2ludG8oKS51bndyYXAoKTsKICAgICAgICAgICAgaWYgY2VsbC5oYXNfY29udGVudHMoKSB7CiAgICAgICAgICAgICAgICBmb3IgXyBpbiAwLi4oY29sIC0gcHJldl9jb2wpIHsKICAgICAgICAgICAgICAgICAgICBjb250ZW50cy5wdXNoKCcgJyk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBwcmV2X2NvbCArPSBjb2wgLSBwcmV2X2NvbDsKCiAgICAgICAgICAgICAgICBjb250ZW50cy5wdXNoX3N0cihjZWxsLmNvbnRlbnRzKCkpOwogICAgICAgICAgICAgICAgcHJldl9jb2wgKz0gaWYgY2VsbC5pc193aWRlKCkgeyAyIH0gZWxzZSB7IDEgfTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBpZiBwcmV2X2NvbCA9PSBzdGFydCAmJiB3cmFwcGluZyB7CiAgICAgICAgICAgIGNvbnRlbnRzLnB1c2goJ1xuJyk7CiAgICAgICAgfQogICAgfQoKICAgIHB1YiBmbiB3cml0ZV9jb250ZW50c19mb3JtYXR0ZWQoCiAgICAgICAgJnNlbGYsCiAgICAgICAgY29udGVudHM6ICZtdXQgVmVjPHU4PiwKICAgICAgICBzdGFydDogdTE2LAogICAgICAgIHdpZHRoOiB1MTYsCiAgICAgICAgcm93OiB1MTYsCiAgICAgICAgd3JhcHBpbmc6IGJvb2wsCiAgICAgICAgcHJldl9wb3M6IE9wdGlvbjxjcmF0ZTo6Z3JpZDo6UG9zPiwKICAgICAgICBwcmV2X2F0dHJzOiBPcHRpb248Y3JhdGU6OmF0dHJzOjpBdHRycz4sCiAgICApIC0+IChjcmF0ZTo6Z3JpZDo6UG9zLCBjcmF0ZTo6YXR0cnM6OkF0dHJzKSB7CiAgICAgICAgbGV0IG11dCBwcmV2X3dhc193aWRlID0gZmFsc2U7CiAgICAgICAgbGV0IGRlZmF1bHRfY2VsbCA9IGNyYXRlOjpDZWxsOjpuZXcoKTsKCiAgICAgICAgbGV0IG11dCBwcmV2X3BvcyA9IHByZXZfcG9zLnVud3JhcF9vcl9lbHNlKHx8IHsKICAgICAgICAgICAgaWYgd3JhcHBpbmcgewogICAgICAgICAgICAgICAgY3JhdGU6OmdyaWQ6OlBvcyB7CiAgICAgICAgICAgICAgICAgICAgcm93OiByb3cgLSAxLAogICAgICAgICAgICAgICAgICAgIGNvbDogc2VsZi5jb2xzKCksCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBjcmF0ZTo6Z3JpZDo6UG9zIHsgcm93LCBjb2w6IHN0YXJ0IH0KICAgICAgICAgICAgfQogICAgICAgIH0pOwogICAgICAgIGxldCBtdXQgcHJldl9hdHRycyA9IHByZXZfYXR0cnMudW53cmFwX29yX2RlZmF1bHQoKTsKCiAgICAgICAgbGV0IGZpcnN0X2NlbGwgPSAmc2VsZi5jZWxsc1t1c2l6ZTo6ZnJvbShzdGFydCldOwogICAgICAgIGlmIHdyYXBwaW5nICYmIGZpcnN0X2NlbGwgPT0gJmRlZmF1bHRfY2VsbCB7CiAgICAgICAgICAgIGxldCBkZWZhdWx0X2F0dHJzID0gZGVmYXVsdF9jZWxsLmF0dHJzKCk7CiAgICAgICAgICAgIGlmICZwcmV2X2F0dHJzICE9IGRlZmF1bHRfYXR0cnMgewogICAgICAgICAgICAgICAgZGVmYXVsdF9hdHRycy53cml0ZV9lc2NhcGVfY29kZV9kaWZmKGNvbnRlbnRzLCAmcHJldl9hdHRycyk7CiAgICAgICAgICAgICAgICBwcmV2X2F0dHJzID0gKmRlZmF1bHRfYXR0cnM7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY29udGVudHMucHVzaChiJyAnKTsKICAgICAgICAgICAgY3JhdGU6OnRlcm06OkJhY2tzcGFjZS53cml0ZV9idWYoY29udGVudHMpOwogICAgICAgICAgICBjcmF0ZTo6dGVybTo6RXJhc2VDaGFyOjpuZXcoMSkud3JpdGVfYnVmKGNvbnRlbnRzKTsKICAgICAgICAgICAgcHJldl9wb3MgPSBjcmF0ZTo6Z3JpZDo6UG9zIHsgcm93LCBjb2w6IDAgfTsKICAgICAgICB9CgogICAgICAgIGxldCBtdXQgZXJhc2U6IE9wdGlvbjwodTE2LCAmY3JhdGU6OmF0dHJzOjpBdHRycyk+ID0gTm9uZTsKICAgICAgICBmb3IgKGNvbCwgY2VsbCkgaW4gc2VsZgogICAgICAgICAgICAuY2VsbHMoKQogICAgICAgICAgICAuZW51bWVyYXRlKCkKICAgICAgICAgICAgLnNraXAodXNpemU6OmZyb20oc3RhcnQpKQogICAgICAgICAgICAudGFrZSh1c2l6ZTo6ZnJvbSh3aWR0aCkpCiAgICAgICAgewogICAgICAgICAgICBpZiBwcmV2X3dhc193aWRlIHsKICAgICAgICAgICAgICAgIHByZXZfd2FzX3dpZGUgPSBmYWxzZTsKICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHByZXZfd2FzX3dpZGUgPSBjZWxsLmlzX3dpZGUoKTsKCiAgICAgICAgICAgIC8vIHdlIGxpbWl0IHRoZSBudW1iZXIgb2YgY29scyB0byBhIHUxNiAoc2VlIFNpemUpCiAgICAgICAgICAgIGxldCBjb2w6IHUxNiA9IGNvbC50cnlfaW50bygpLnVud3JhcCgpOwogICAgICAgICAgICBsZXQgcG9zID0gY3JhdGU6OmdyaWQ6OlBvcyB7IHJvdywgY29sIH07CgogICAgICAgICAgICBpZiBsZXQgU29tZSgocHJldl9jb2wsIGF0dHJzKSkgPSBlcmFzZSB7CiAgICAgICAgICAgICAgICBpZiBjZWxsLmhhc19jb250ZW50cygpIHx8IGNlbGwuYXR0cnMoKSAhPSBhdHRycyB7CiAgICAgICAgICAgICAgICAgICAgbGV0IG5ld19wb3MgPSBjcmF0ZTo6Z3JpZDo6UG9zIHsgcm93LCBjb2w6IHByZXZfY29sIH07CiAgICAgICAgICAgICAgICAgICAgaWYgd3JhcHBpbmcKICAgICAgICAgICAgICAgICAgICAgICAgJiYgcHJldl9wb3Mucm93ICsgMSA9PSBuZXdfcG9zLnJvdwogICAgICAgICAgICAgICAgICAgICAgICAmJiBwcmV2X3Bvcy5jb2wgPj0gc2VsZi5jb2xzKCkKICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIG5ld19wb3MuY29sID4gMCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50cy5leHRlbmQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIiAiLnJlcGVhdCh1c2l6ZTo6ZnJvbShuZXdfcG9zLmNvbCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5hc19ieXRlcygpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnRzLmV4dGVuZChiIiAiKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNyYXRlOjp0ZXJtOjpCYWNrc3BhY2Uud3JpdGVfYnVmKGNvbnRlbnRzKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNyYXRlOjp0ZXJtOjpNb3ZlRnJvbVRvOjpuZXcocHJldl9wb3MsIG5ld19wb3MpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAud3JpdGVfYnVmKGNvbnRlbnRzKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgcHJldl9wb3MgPSBuZXdfcG9zOwogICAgICAgICAgICAgICAgICAgIGlmICZwcmV2X2F0dHJzICE9IGF0dHJzIHsKICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnMud3JpdGVfZXNjYXBlX2NvZGVfZGlmZihjb250ZW50cywgJnByZXZfYXR0cnMpOwogICAgICAgICAgICAgICAgICAgICAgICBwcmV2X2F0dHJzID0gKmF0dHJzOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBjcmF0ZTo6dGVybTo6RXJhc2VDaGFyOjpuZXcocG9zLmNvbCAtIHByZXZfY29sKQogICAgICAgICAgICAgICAgICAgICAgICAud3JpdGVfYnVmKGNvbnRlbnRzKTsKICAgICAgICAgICAgICAgICAgICBlcmFzZSA9IE5vbmU7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmIGNlbGwgIT0gJmRlZmF1bHRfY2VsbCB7CiAgICAgICAgICAgICAgICBsZXQgYXR0cnMgPSBjZWxsLmF0dHJzKCk7CiAgICAgICAgICAgICAgICBpZiBjZWxsLmhhc19jb250ZW50cygpIHsKICAgICAgICAgICAgICAgICAgICBpZiBwb3MgIT0gcHJldl9wb3MgewogICAgICAgICAgICAgICAgICAgICAgICBpZiAhd3JhcHBpbmcKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHx8IHByZXZfcG9zLnJvdyArIDEgIT0gcG9zLnJvdwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfHwgcHJldl9wb3MuY29sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPCBzZWxmLmNvbHMoKSAtIHUxNjo6ZnJvbShjZWxsLmlzX3dpZGUoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHx8IHBvcy5jb2wgIT0gMAogICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjcmF0ZTo6dGVybTo6TW92ZUZyb21Ubzo6bmV3KHByZXZfcG9zLCBwb3MpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLndyaXRlX2J1Zihjb250ZW50cyk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgcHJldl9wb3MgPSBwb3M7CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBpZiAmcHJldl9hdHRycyAhPSBhdHRycyB7CiAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzLndyaXRlX2VzY2FwZV9jb2RlX2RpZmYoY29udGVudHMsICZwcmV2X2F0dHJzKTsKICAgICAgICAgICAgICAgICAgICAgICAgcHJldl9hdHRycyA9ICphdHRyczsKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIHByZXZfcG9zLmNvbCArPSBpZiBjZWxsLmlzX3dpZGUoKSB7IDIgfSBlbHNlIHsgMSB9OwogICAgICAgICAgICAgICAgICAgIGxldCBjZWxsX2NvbnRlbnRzID0gY2VsbC5jb250ZW50cygpOwogICAgICAgICAgICAgICAgICAgIGNvbnRlbnRzLmV4dGVuZChjZWxsX2NvbnRlbnRzLmFzX2J5dGVzKCkpOwogICAgICAgICAgICAgICAgfSBlbHNlIGlmIGVyYXNlLmlzX25vbmUoKSB7CiAgICAgICAgICAgICAgICAgICAgZXJhc2UgPSBTb21lKChwb3MuY29sLCBhdHRycykpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGlmIGxldCBTb21lKChwcmV2X2NvbCwgYXR0cnMpKSA9IGVyYXNlIHsKICAgICAgICAgICAgbGV0IG5ld19wb3MgPSBjcmF0ZTo6Z3JpZDo6UG9zIHsgcm93LCBjb2w6IHByZXZfY29sIH07CiAgICAgICAgICAgIGlmIHdyYXBwaW5nCiAgICAgICAgICAgICAgICAmJiBwcmV2X3Bvcy5yb3cgKyAxID09IG5ld19wb3Mucm93CiAgICAgICAgICAgICAgICAmJiBwcmV2X3Bvcy5jb2wgPj0gc2VsZi5jb2xzKCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgaWYgbmV3X3Bvcy5jb2wgPiAwIHsKICAgICAgICAgICAgICAgICAgICBjb250ZW50cy5leHRlbmQoCiAgICAgICAgICAgICAgICAgICAgICAgICIgIi5yZXBlYXQodXNpemU6OmZyb20obmV3X3Bvcy5jb2wpKS5hc19ieXRlcygpLAogICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGNvbnRlbnRzLmV4dGVuZChiIiAiKTsKICAgICAgICAgICAgICAgICAgICBjcmF0ZTo6dGVybTo6QmFja3NwYWNlLndyaXRlX2J1Zihjb250ZW50cyk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBjcmF0ZTo6dGVybTo6TW92ZUZyb21Ubzo6bmV3KHByZXZfcG9zLCBuZXdfcG9zKQogICAgICAgICAgICAgICAgICAgIC53cml0ZV9idWYoY29udGVudHMpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHByZXZfcG9zID0gbmV3X3BvczsKICAgICAgICAgICAgaWYgJnByZXZfYXR0cnMgIT0gYXR0cnMgewogICAgICAgICAgICAgICAgYXR0cnMud3JpdGVfZXNjYXBlX2NvZGVfZGlmZihjb250ZW50cywgJnByZXZfYXR0cnMpOwogICAgICAgICAgICAgICAgcHJldl9hdHRycyA9ICphdHRyczsKICAgICAgICAgICAgfQogICAgICAgICAgICBjcmF0ZTo6dGVybTo6Q2xlYXJSb3dGb3J3YXJkLndyaXRlX2J1Zihjb250ZW50cyk7CiAgICAgICAgfQoKICAgICAgICAocHJldl9wb3MsIHByZXZfYXR0cnMpCiAgICB9CgogICAgLy8gd2hpbGUgaXQncyB0cnVlIHRoYXQgbW9zdCBvZiB0aGUgbG9naWMgaW4gdGhpcyBpcyBpZGVudGljYWwgdG8KICAgIC8vIHdyaXRlX2NvbnRlbnRzX2Zvcm1hdHRlZCwgaSBjYW4ndCBmaWd1cmUgb3V0IGhvdyB0byBicmVhayBvdXQgdGhlCiAgICAvLyBjb21tb24gcGFydHMgd2l0aG91dCBtYWtpbmcgdGhpbmdzIG5vdGljZWFibHkgc2xvd2VyLgogICAgcHViIGZuIHdyaXRlX2NvbnRlbnRzX2RpZmYoCiAgICAgICAgJnNlbGYsCiAgICAgICAgY29udGVudHM6ICZtdXQgVmVjPHU4PiwKICAgICAgICBwcmV2OiAmU2VsZiwKICAgICAgICBzdGFydDogdTE2LAogICAgICAgIHdpZHRoOiB1MTYsCiAgICAgICAgcm93OiB1MTYsCiAgICAgICAgd3JhcHBpbmc6IGJvb2wsCiAgICAgICAgcHJldl93cmFwcGluZzogYm9vbCwKICAgICAgICBtdXQgcHJldl9wb3M6IGNyYXRlOjpncmlkOjpQb3MsCiAgICAgICAgbXV0IHByZXZfYXR0cnM6IGNyYXRlOjphdHRyczo6QXR0cnMsCiAgICApIC0+IChjcmF0ZTo6Z3JpZDo6UG9zLCBjcmF0ZTo6YXR0cnM6OkF0dHJzKSB7CiAgICAgICAgbGV0IG11dCBwcmV2X3dhc193aWRlID0gZmFsc2U7CgogICAgICAgIGxldCBmaXJzdF9jZWxsID0gJnNlbGYuY2VsbHNbdXNpemU6OmZyb20oc3RhcnQpXTsKICAgICAgICBsZXQgcHJldl9maXJzdF9jZWxsID0gJnByZXYuY2VsbHNbdXNpemU6OmZyb20oc3RhcnQpXTsKICAgICAgICBpZiB3cmFwcGluZwogICAgICAgICAgICAmJiAhcHJldl93cmFwcGluZwogICAgICAgICAgICAmJiBmaXJzdF9jZWxsID09IHByZXZfZmlyc3RfY2VsbAogICAgICAgICAgICAmJiBwcmV2X3Bvcy5yb3cgKyAxID09IHJvdwogICAgICAgICAgICAmJiBwcmV2X3Bvcy5jb2wKICAgICAgICAgICAgICAgID49IHNlbGYuY29scygpIC0gdTE2Ojpmcm9tKHByZXZfZmlyc3RfY2VsbC5pc193aWRlKCkpCiAgICAgICAgewogICAgICAgICAgICBsZXQgZmlyc3RfY2VsbF9hdHRycyA9IGZpcnN0X2NlbGwuYXR0cnMoKTsKICAgICAgICAgICAgaWYgJnByZXZfYXR0cnMgIT0gZmlyc3RfY2VsbF9hdHRycyB7CiAgICAgICAgICAgICAgICBmaXJzdF9jZWxsX2F0dHJzCiAgICAgICAgICAgICAgICAgICAgLndyaXRlX2VzY2FwZV9jb2RlX2RpZmYoY29udGVudHMsICZwcmV2X2F0dHJzKTsKICAgICAgICAgICAgICAgIHByZXZfYXR0cnMgPSAqZmlyc3RfY2VsbF9hdHRyczsKICAgICAgICAgICAgfQogICAgICAgICAgICBsZXQgbXV0IGNlbGxfY29udGVudHMgPSBwcmV2X2ZpcnN0X2NlbGwuY29udGVudHMoKTsKICAgICAgICAgICAgbGV0IG5lZWRfZXJhc2UgPSBpZiBjZWxsX2NvbnRlbnRzLmlzX2VtcHR5KCkgewogICAgICAgICAgICAgICAgY2VsbF9jb250ZW50cyA9ICIgIjsKICAgICAgICAgICAgICAgIHRydWUKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGZhbHNlCiAgICAgICAgICAgIH07CiAgICAgICAgICAgIGNvbnRlbnRzLmV4dGVuZChjZWxsX2NvbnRlbnRzLmFzX2J5dGVzKCkpOwogICAgICAgICAgICBjcmF0ZTo6dGVybTo6QmFja3NwYWNlLndyaXRlX2J1Zihjb250ZW50cyk7CiAgICAgICAgICAgIGlmIHByZXZfZmlyc3RfY2VsbC5pc193aWRlKCkgewogICAgICAgICAgICAgICAgY3JhdGU6OnRlcm06OkJhY2tzcGFjZS53cml0ZV9idWYoY29udGVudHMpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIG5lZWRfZXJhc2UgewogICAgICAgICAgICAgICAgY3JhdGU6OnRlcm06OkVyYXNlQ2hhcjo6bmV3KDEpLndyaXRlX2J1Zihjb250ZW50cyk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcHJldl9wb3MgPSBjcmF0ZTo6Z3JpZDo6UG9zIHsgcm93LCBjb2w6IDAgfTsKICAgICAgICB9CgogICAgICAgIGxldCBtdXQgZXJhc2U6IE9wdGlvbjwodTE2LCAmY3JhdGU6OmF0dHJzOjpBdHRycyk+ID0gTm9uZTsKICAgICAgICBmb3IgKGNvbCwgKGNlbGwsIHByZXZfY2VsbCkpIGluIHNlbGYKICAgICAgICAgICAgLmNlbGxzKCkKICAgICAgICAgICAgLnppcChwcmV2LmNlbGxzKCkpCiAgICAgICAgICAgIC5lbnVtZXJhdGUoKQogICAgICAgICAgICAuc2tpcCh1c2l6ZTo6ZnJvbShzdGFydCkpCiAgICAgICAgICAgIC50YWtlKHVzaXplOjpmcm9tKHdpZHRoKSkKICAgICAgICB7CiAgICAgICAgICAgIGlmIHByZXZfd2FzX3dpZGUgewogICAgICAgICAgICAgICAgcHJldl93YXNfd2lkZSA9IGZhbHNlOwogICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcHJldl93YXNfd2lkZSA9IGNlbGwuaXNfd2lkZSgpOwoKICAgICAgICAgICAgLy8gd2UgbGltaXQgdGhlIG51bWJlciBvZiBjb2xzIHRvIGEgdTE2IChzZWUgU2l6ZSkKICAgICAgICAgICAgbGV0IGNvbDogdTE2ID0gY29sLnRyeV9pbnRvKCkudW53cmFwKCk7CiAgICAgICAgICAgIGxldCBwb3MgPSBjcmF0ZTo6Z3JpZDo6UG9zIHsgcm93LCBjb2wgfTsKCiAgICAgICAgICAgIGlmIGxldCBTb21lKChwcmV2X2NvbCwgYXR0cnMpKSA9IGVyYXNlIHsKICAgICAgICAgICAgICAgIGlmIGNlbGwuaGFzX2NvbnRlbnRzKCkgfHwgY2VsbC5hdHRycygpICE9IGF0dHJzIHsKICAgICAgICAgICAgICAgICAgICBsZXQgbmV3X3BvcyA9IGNyYXRlOjpncmlkOjpQb3MgeyByb3csIGNvbDogcHJldl9jb2wgfTsKICAgICAgICAgICAgICAgICAgICBpZiB3cmFwcGluZwogICAgICAgICAgICAgICAgICAgICAgICAmJiBwcmV2X3Bvcy5yb3cgKyAxID09IG5ld19wb3Mucm93CiAgICAgICAgICAgICAgICAgICAgICAgICYmIHByZXZfcG9zLmNvbCA+PSBzZWxmLmNvbHMoKQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgbmV3X3Bvcy5jb2wgPiAwIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnRzLmV4dGVuZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiICIucmVwZWF0KHVzaXplOjpmcm9tKG5ld19wb3MuY29sKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmFzX2J5dGVzKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudHMuZXh0ZW5kKGIiICIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgY3JhdGU6OnRlcm06OkJhY2tzcGFjZS53cml0ZV9idWYoY29udGVudHMpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgY3JhdGU6OnRlcm06Ok1vdmVGcm9tVG86Om5ldyhwcmV2X3BvcywgbmV3X3BvcykKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC53cml0ZV9idWYoY29udGVudHMpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBwcmV2X3BvcyA9IG5ld19wb3M7CiAgICAgICAgICAgICAgICAgICAgaWYgJnByZXZfYXR0cnMgIT0gYXR0cnMgewogICAgICAgICAgICAgICAgICAgICAgICBhdHRycy53cml0ZV9lc2NhcGVfY29kZV9kaWZmKGNvbnRlbnRzLCAmcHJldl9hdHRycyk7CiAgICAgICAgICAgICAgICAgICAgICAgIHByZXZfYXR0cnMgPSAqYXR0cnM7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGNyYXRlOjp0ZXJtOjpFcmFzZUNoYXI6Om5ldyhwb3MuY29sIC0gcHJldl9jb2wpCiAgICAgICAgICAgICAgICAgICAgICAgIC53cml0ZV9idWYoY29udGVudHMpOwogICAgICAgICAgICAgICAgICAgIGVyYXNlID0gTm9uZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgY2VsbCAhPSBwcmV2X2NlbGwgewogICAgICAgICAgICAgICAgbGV0IGF0dHJzID0gY2VsbC5hdHRycygpOwogICAgICAgICAgICAgICAgaWYgY2VsbC5oYXNfY29udGVudHMoKSB7CiAgICAgICAgICAgICAgICAgICAgaWYgcG9zICE9IHByZXZfcG9zIHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgIXdyYXBwaW5nCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB8fCBwcmV2X3Bvcy5yb3cgKyAxICE9IHBvcy5yb3cKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHx8IHByZXZfcG9zLmNvbAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwgc2VsZi5jb2xzKCkgLSB1MTY6OmZyb20oY2VsbC5pc193aWRlKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB8fCBwb3MuY29sICE9IDAKICAgICAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY3JhdGU6OnRlcm06Ok1vdmVGcm9tVG86Om5ldyhwcmV2X3BvcywgcG9zKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC53cml0ZV9idWYoY29udGVudHMpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIHByZXZfcG9zID0gcG9zOwogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgaWYgJnByZXZfYXR0cnMgIT0gYXR0cnMgewogICAgICAgICAgICAgICAgICAgICAgICBhdHRycy53cml0ZV9lc2NhcGVfY29kZV9kaWZmKGNvbnRlbnRzLCAmcHJldl9hdHRycyk7CiAgICAgICAgICAgICAgICAgICAgICAgIHByZXZfYXR0cnMgPSAqYXR0cnM7CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBwcmV2X3Bvcy5jb2wgKz0gaWYgY2VsbC5pc193aWRlKCkgeyAyIH0gZWxzZSB7IDEgfTsKICAgICAgICAgICAgICAgICAgICBjb250ZW50cy5leHRlbmQoY2VsbC5jb250ZW50cygpLmFzX2J5dGVzKCkpOwogICAgICAgICAgICAgICAgfSBlbHNlIGlmIGVyYXNlLmlzX25vbmUoKSB7CiAgICAgICAgICAgICAgICAgICAgZXJhc2UgPSBTb21lKChwb3MuY29sLCBhdHRycykpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGlmIGxldCBTb21lKChwcmV2X2NvbCwgYXR0cnMpKSA9IGVyYXNlIHsKICAgICAgICAgICAgbGV0IG5ld19wb3MgPSBjcmF0ZTo6Z3JpZDo6UG9zIHsgcm93LCBjb2w6IHByZXZfY29sIH07CiAgICAgICAgICAgIGlmIHdyYXBwaW5nCiAgICAgICAgICAgICAgICAmJiBwcmV2X3Bvcy5yb3cgKyAxID09IG5ld19wb3Mucm93CiAgICAgICAgICAgICAgICAmJiBwcmV2X3Bvcy5jb2wgPj0gc2VsZi5jb2xzKCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgaWYgbmV3X3Bvcy5jb2wgPiAwIHsKICAgICAgICAgICAgICAgICAgICBjb250ZW50cy5leHRlbmQoCiAgICAgICAgICAgICAgICAgICAgICAgICIgIi5yZXBlYXQodXNpemU6OmZyb20obmV3X3Bvcy5jb2wpKS5hc19ieXRlcygpLAogICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGNvbnRlbnRzLmV4dGVuZChiIiAiKTsKICAgICAgICAgICAgICAgICAgICBjcmF0ZTo6dGVybTo6QmFja3NwYWNlLndyaXRlX2J1Zihjb250ZW50cyk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBjcmF0ZTo6dGVybTo6TW92ZUZyb21Ubzo6bmV3KHByZXZfcG9zLCBuZXdfcG9zKQogICAgICAgICAgICAgICAgICAgIC53cml0ZV9idWYoY29udGVudHMpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHByZXZfcG9zID0gbmV3X3BvczsKICAgICAgICAgICAgaWYgJnByZXZfYXR0cnMgIT0gYXR0cnMgewogICAgICAgICAgICAgICAgYXR0cnMud3JpdGVfZXNjYXBlX2NvZGVfZGlmZihjb250ZW50cywgJnByZXZfYXR0cnMpOwogICAgICAgICAgICAgICAgcHJldl9hdHRycyA9ICphdHRyczsKICAgICAgICAgICAgfQogICAgICAgICAgICBjcmF0ZTo6dGVybTo6Q2xlYXJSb3dGb3J3YXJkLndyaXRlX2J1Zihjb250ZW50cyk7CiAgICAgICAgfQoKICAgICAgICAvLyBpZiB0aGlzIHJvdyBpcyBnb2luZyBmcm9tIHdyYXBwZWQgdG8gbm90IHdyYXBwZWQsIHdlIG5lZWQgdG8gZXJhc2UKICAgICAgICAvLyBhbmQgcmVkcmF3IHRoZSBsYXN0IGNoYXJhY3RlciB0byBicmVhayB3cmFwcGluZy4gaWYgdGhpcyByb3cgaXMKICAgICAgICAvLyB3cmFwcGVkLCB3ZSBuZWVkIHRvIHJlZHJhdyB0aGUgbGFzdCBjaGFyYWN0ZXIgd2l0aG91dCBlcmFzaW5nIGl0IHRvCiAgICAgICAgLy8gcG9zaXRpb24gdGhlIGN1cnNvciBhZnRlciB0aGUgZW5kIG9mIHRoZSBsaW5lIGNvcnJlY3RseSBzbyB0aGF0CiAgICAgICAgLy8gZHJhd2luZyB0aGUgbmV4dCBsaW5lIGNhbiBqdXN0IHN0YXJ0IHdyaXRpbmcgYW5kIGJlIHdyYXBwZWQuCiAgICAgICAgaWYgKCFzZWxmLndyYXBwZWQgJiYgcHJldi53cmFwcGVkKSB8fCAoIXByZXYud3JhcHBlZCAmJiBzZWxmLndyYXBwZWQpCiAgICAgICAgewogICAgICAgICAgICBsZXQgZW5kX3BvcyA9IGlmIHNlbGYuY2VsbHNbdXNpemU6OmZyb20oc2VsZi5jb2xzKCkgLSAxKV0KICAgICAgICAgICAgICAgIC5pc193aWRlX2NvbnRpbnVhdGlvbigpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGNyYXRlOjpncmlkOjpQb3MgewogICAgICAgICAgICAgICAgICAgIHJvdywKICAgICAgICAgICAgICAgICAgICBjb2w6IHNlbGYuY29scygpIC0gMiwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGNyYXRlOjpncmlkOjpQb3MgewogICAgICAgICAgICAgICAgICAgIHJvdywKICAgICAgICAgICAgICAgICAgICBjb2w6IHNlbGYuY29scygpIC0gMSwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfTsKICAgICAgICAgICAgY3JhdGU6OnRlcm06Ok1vdmVGcm9tVG86Om5ldyhwcmV2X3BvcywgZW5kX3BvcykKICAgICAgICAgICAgICAgIC53cml0ZV9idWYoY29udGVudHMpOwogICAgICAgICAgICBwcmV2X3BvcyA9IGVuZF9wb3M7CiAgICAgICAgICAgIGlmICFzZWxmLndyYXBwZWQgewogICAgICAgICAgICAgICAgY3JhdGU6OnRlcm06OkVyYXNlQ2hhcjo6bmV3KDEpLndyaXRlX2J1Zihjb250ZW50cyk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgbGV0IGVuZF9jZWxsID0gJnNlbGYuY2VsbHNbdXNpemU6OmZyb20oZW5kX3Bvcy5jb2wpXTsKICAgICAgICAgICAgaWYgZW5kX2NlbGwuaGFzX2NvbnRlbnRzKCkgewogICAgICAgICAgICAgICAgbGV0IGF0dHJzID0gZW5kX2NlbGwuYXR0cnMoKTsKICAgICAgICAgICAgICAgIGlmICZwcmV2X2F0dHJzICE9IGF0dHJzIHsKICAgICAgICAgICAgICAgICAgICBhdHRycy53cml0ZV9lc2NhcGVfY29kZV9kaWZmKGNvbnRlbnRzLCAmcHJldl9hdHRycyk7CiAgICAgICAgICAgICAgICAgICAgcHJldl9hdHRycyA9ICphdHRyczsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNvbnRlbnRzLmV4dGVuZChlbmRfY2VsbC5jb250ZW50cygpLmFzX2J5dGVzKCkpOwogICAgICAgICAgICAgICAgcHJldl9wb3MuY29sICs9IGlmIGVuZF9jZWxsLmlzX3dpZGUoKSB7IDIgfSBlbHNlIHsgMSB9OwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAocHJldl9wb3MsIHByZXZfYXR0cnMpCiAgICB9Cn0K
+use crate::term::BufWrite as _;
+
+#[derive(Clone, Debug)]
+pub struct Row {
+    cells: Vec<crate::Cell>,
+    wrapped: bool,
+}
+
+impl Row {
+    pub fn new(cols: u16) -> Self {
+        Self {
+            cells: vec![crate::Cell::new(); usize::from(cols)],
+            wrapped: false,
+        }
+    }
+
+    fn cols(&self) -> u16 {
+        self.cells
+            .len()
+            .try_into()
+            // we limit the number of cols to a u16 (see Size)
+            .unwrap()
+    }
+
+    pub fn clear(&mut self, attrs: crate::attrs::Attrs) {
+        for cell in &mut self.cells {
+            cell.clear(attrs);
+        }
+        self.wrapped = false;
+    }
+
+    fn cells(&self) -> impl Iterator<Item = &crate::Cell> {
+        self.cells.iter()
+    }
+
+    pub fn get(&self, col: u16) -> Option<&crate::Cell> {
+        self.cells.get(usize::from(col))
+    }
+
+    pub fn get_mut(&mut self, col: u16) -> Option<&mut crate::Cell> {
+        self.cells.get_mut(usize::from(col))
+    }
+
+    pub fn insert(&mut self, i: u16, cell: crate::Cell) {
+        self.cells.insert(usize::from(i), cell);
+        self.wrapped = false;
+    }
+
+    pub fn remove(&mut self, i: u16) {
+        self.clear_wide(i);
+        self.cells.remove(usize::from(i));
+        self.wrapped = false;
+    }
+
+    pub fn erase(&mut self, i: u16, attrs: crate::attrs::Attrs) {
+        let wide = self.cells[usize::from(i)].is_wide();
+        self.clear_wide(i);
+        self.cells[usize::from(i)].clear(attrs);
+        // `wide` is captured before clearing the cell. Use saturating
+        // subtraction because a damaged one-column row may contain an
+        // orphaned wide cell with no continuation.
+        if i == self.cols().saturating_sub(if wide { 2 } else { 1 }) {
+            self.wrapped = false;
+        }
+    }
+
+    pub fn truncate(&mut self, len: u16) {
+        self.cells.truncate(usize::from(len));
+        self.wrapped = false;
+        let last_cell = &mut self.cells[usize::from(len) - 1];
+        if last_cell.is_wide() {
+            last_cell.clear(*last_cell.attrs());
+        }
+    }
+
+    pub fn resize(&mut self, len: u16, cell: crate::Cell) {
+        if usize::from(len) < self.cells.len() {
+            // truncate() clears a wide cell when shrinking removes its
+            // continuation. Vec::resize() alone would leave an orphaned
+            // wide cell at the new last column.
+            self.truncate(len);
+        } else {
+            self.cells.resize(usize::from(len), cell);
+            self.wrapped = false;
+        }
+    }
+
+    pub fn wrap(&mut self, wrap: bool) {
+        self.wrapped = wrap;
+    }
+
+    pub fn wrapped(&self) -> bool {
+        self.wrapped
+    }
+
+    pub fn clear_wide(&mut self, col: u16) {
+        let col_idx = usize::from(col);
+        let cell = &self.cells[col_idx];
+        let other = if cell.is_wide() {
+            let next = col_idx + 1;
+            if next >= self.cells.len() {
+                // Defend against an orphaned wide cell left by malformed
+                // state or older resize behavior instead of indexing beyond
+                // the row.
+                let attrs = *self.cells[col_idx].attrs();
+                self.cells[col_idx].clear(attrs);
+                return;
+            }
+            &mut self.cells[next]
+        } else if cell.is_wide_continuation() {
+            &mut self.cells[usize::from(col - 1)]
+        } else {
+            return;
+        };
+        other.clear(*other.attrs());
+    }
+
+    pub fn write_contents(
+        &self,
+        contents: &mut String,
+        start: u16,
+        width: u16,
+        wrapping: bool,
+    ) {
+        let mut prev_was_wide = false;
+
+        let mut prev_col = start;
+        for (col, cell) in self
+            .cells()
+            .enumerate()
+            .skip(usize::from(start))
+            .take(usize::from(width))
+        {
+            if prev_was_wide {
+                prev_was_wide = false;
+                continue;
+            }
+            prev_was_wide = cell.is_wide();
+
+            // we limit the number of cols to a u16 (see Size)
+            let col: u16 = col.try_into().unwrap();
+            if cell.has_contents() {
+                for _ in 0..(col - prev_col) {
+                    contents.push(' ');
+                }
+                prev_col += col - prev_col;
+
+                contents.push_str(cell.contents());
+                prev_col += if cell.is_wide() { 2 } else { 1 };
+            }
+        }
+        if prev_col == start && wrapping {
+            contents.push('\n');
+        }
+    }
+
+    pub fn write_contents_formatted(
+        &self,
+        contents: &mut Vec<u8>,
+        start: u16,
+        width: u16,
+        row: u16,
+        wrapping: bool,
+        prev_pos: Option<crate::grid::Pos>,
+        prev_attrs: Option<crate::attrs::Attrs>,
+    ) -> (crate::grid::Pos, crate::attrs::Attrs) {
+        let mut prev_was_wide = false;
+        let default_cell = crate::Cell::new();
+
+        let mut prev_pos = prev_pos.unwrap_or_else(|| {
+            if wrapping {
+                crate::grid::Pos {
+                    row: row - 1,
+                    col: self.cols(),
+                }
+            } else {
+                crate::grid::Pos { row, col: start }
+            }
+        });
+        let mut prev_attrs = prev_attrs.unwrap_or_default();
+
+        let first_cell = &self.cells[usize::from(start)];
+        if wrapping && first_cell == &default_cell {
+            let default_attrs = default_cell.attrs();
+            if &prev_attrs != default_attrs {
+                default_attrs.write_escape_code_diff(contents, &prev_attrs);
+                prev_attrs = *default_attrs;
+            }
+            contents.push(b' ');
+            crate::term::Backspace.write_buf(contents);
+            crate::term::EraseChar::new(1).write_buf(contents);
+            prev_pos = crate::grid::Pos { row, col: 0 };
+        }
+
+        let mut erase: Option<(u16, &crate::attrs::Attrs)> = None;
+        for (col, cell) in self
+            .cells()
+            .enumerate()
+            .skip(usize::from(start))
+            .take(usize::from(width))
+        {
+            if prev_was_wide {
+                prev_was_wide = false;
+                continue;
+            }
+            prev_was_wide = cell.is_wide();
+
+            // we limit the number of cols to a u16 (see Size)
+            let col: u16 = col.try_into().unwrap();
+            let pos = crate::grid::Pos { row, col };
+
+            if let Some((prev_col, attrs)) = erase {
+                if cell.has_contents() || cell.attrs() != attrs {
+                    let new_pos = crate::grid::Pos { row, col: prev_col };
+                    if wrapping
+                        && prev_pos.row + 1 == new_pos.row
+                        && prev_pos.col >= self.cols()
+                    {
+                        if new_pos.col > 0 {
+                            contents.extend(
+                                " ".repeat(usize::from(new_pos.col))
+                                    .as_bytes(),
+                            );
+                        } else {
+                            contents.extend(b" ");
+                            crate::term::Backspace.write_buf(contents);
+                        }
+                    } else {
+                        crate::term::MoveFromTo::new(prev_pos, new_pos)
+                            .write_buf(contents);
+                    }
+                    prev_pos = new_pos;
+                    if &prev_attrs != attrs {
+                        attrs.write_escape_code_diff(contents, &prev_attrs);
+                        prev_attrs = *attrs;
+                    }
+                    crate::term::EraseChar::new(pos.col - prev_col)
+                        .write_buf(contents);
+                    erase = None;
+                }
+            }
+
+            if cell != &default_cell {
+                let attrs = cell.attrs();
+                if cell.has_contents() {
+                    if pos != prev_pos {
+                        if !wrapping
+                            || prev_pos.row + 1 != pos.row
+                            || prev_pos.col
+                                < self.cols() - u16::from(cell.is_wide())
+                            || pos.col != 0
+                        {
+                            crate::term::MoveFromTo::new(prev_pos, pos)
+                                .write_buf(contents);
+                        }
+                        prev_pos = pos;
+                    }
+
+                    if &prev_attrs != attrs {
+                        attrs.write_escape_code_diff(contents, &prev_attrs);
+                        prev_attrs = *attrs;
+                    }
+
+                    prev_pos.col += if cell.is_wide() { 2 } else { 1 };
+                    let cell_contents = cell.contents();
+                    contents.extend(cell_contents.as_bytes());
+                } else if erase.is_none() {
+                    erase = Some((pos.col, attrs));
+                }
+            }
+        }
+        if let Some((prev_col, attrs)) = erase {
+            let new_pos = crate::grid::Pos { row, col: prev_col };
+            if wrapping
+                && prev_pos.row + 1 == new_pos.row
+                && prev_pos.col >= self.cols()
+            {
+                if new_pos.col > 0 {
+                    contents.extend(
+                        " ".repeat(usize::from(new_pos.col)).as_bytes(),
+                    );
+                } else {
+                    contents.extend(b" ");
+                    crate::term::Backspace.write_buf(contents);
+                }
+            } else {
+                crate::term::MoveFromTo::new(prev_pos, new_pos)
+                    .write_buf(contents);
+            }
+            prev_pos = new_pos;
+            if &prev_attrs != attrs {
+                attrs.write_escape_code_diff(contents, &prev_attrs);
+                prev_attrs = *attrs;
+            }
+            crate::term::ClearRowForward.write_buf(contents);
+        }
+
+        (prev_pos, prev_attrs)
+    }
+
+    // while it's true that most of the logic in this is identical to
+    // write_contents_formatted, i can't figure out how to break out the
+    // common parts without making things noticeably slower.
+    pub fn write_contents_diff(
+        &self,
+        contents: &mut Vec<u8>,
+        prev: &Self,
+        start: u16,
+        width: u16,
+        row: u16,
+        wrapping: bool,
+        prev_wrapping: bool,
+        mut prev_pos: crate::grid::Pos,
+        mut prev_attrs: crate::attrs::Attrs,
+    ) -> (crate::grid::Pos, crate::attrs::Attrs) {
+        let mut prev_was_wide = false;
+
+        let first_cell = &self.cells[usize::from(start)];
+        let prev_first_cell = &prev.cells[usize::from(start)];
+        if wrapping
+            && !prev_wrapping
+            && first_cell == prev_first_cell
+            && prev_pos.row + 1 == row
+            && prev_pos.col
+                >= self.cols() - u16::from(prev_first_cell.is_wide())
+        {
+            let first_cell_attrs = first_cell.attrs();
+            if &prev_attrs != first_cell_attrs {
+                first_cell_attrs
+                    .write_escape_code_diff(contents, &prev_attrs);
+                prev_attrs = *first_cell_attrs;
+            }
+            let mut cell_contents = prev_first_cell.contents();
+            let need_erase = if cell_contents.is_empty() {
+                cell_contents = " ";
+                true
+            } else {
+                false
+            };
+            contents.extend(cell_contents.as_bytes());
+            crate::term::Backspace.write_buf(contents);
+            if prev_first_cell.is_wide() {
+                crate::term::Backspace.write_buf(contents);
+            }
+            if need_erase {
+                crate::term::EraseChar::new(1).write_buf(contents);
+            }
+            prev_pos = crate::grid::Pos { row, col: 0 };
+        }
+
+        let mut erase: Option<(u16, &crate::attrs::Attrs)> = None;
+        for (col, (cell, prev_cell)) in self
+            .cells()
+            .zip(prev.cells())
+            .enumerate()
+            .skip(usize::from(start))
+            .take(usize::from(width))
+        {
+            if prev_was_wide {
+                prev_was_wide = false;
+                continue;
+            }
+            prev_was_wide = cell.is_wide();
+
+            // we limit the number of cols to a u16 (see Size)
+            let col: u16 = col.try_into().unwrap();
+            let pos = crate::grid::Pos { row, col };
+
+            if let Some((prev_col, attrs)) = erase {
+                if cell.has_contents() || cell.attrs() != attrs {
+                    let new_pos = crate::grid::Pos { row, col: prev_col };
+                    if wrapping
+                        && prev_pos.row + 1 == new_pos.row
+                        && prev_pos.col >= self.cols()
+                    {
+                        if new_pos.col > 0 {
+                            contents.extend(
+                                " ".repeat(usize::from(new_pos.col))
+                                    .as_bytes(),
+                            );
+                        } else {
+                            contents.extend(b" ");
+                            crate::term::Backspace.write_buf(contents);
+                        }
+                    } else {
+                        crate::term::MoveFromTo::new(prev_pos, new_pos)
+                            .write_buf(contents);
+                    }
+                    prev_pos = new_pos;
+                    if &prev_attrs != attrs {
+                        attrs.write_escape_code_diff(contents, &prev_attrs);
+                        prev_attrs = *attrs;
+                    }
+                    crate::term::EraseChar::new(pos.col - prev_col)
+                        .write_buf(contents);
+                    erase = None;
+                }
+            }
+
+            if cell != prev_cell {
+                let attrs = cell.attrs();
+                if cell.has_contents() {
+                    if pos != prev_pos {
+                        if !wrapping
+                            || prev_pos.row + 1 != pos.row
+                            || prev_pos.col
+                                < self.cols() - u16::from(cell.is_wide())
+                            || pos.col != 0
+                        {
+                            crate::term::MoveFromTo::new(prev_pos, pos)
+                                .write_buf(contents);
+                        }
+                        prev_pos = pos;
+                    }
+
+                    if &prev_attrs != attrs {
+                        attrs.write_escape_code_diff(contents, &prev_attrs);
+                        prev_attrs = *attrs;
+                    }
+
+                    prev_pos.col += if cell.is_wide() { 2 } else { 1 };
+                    contents.extend(cell.contents().as_bytes());
+                } else if erase.is_none() {
+                    erase = Some((pos.col, attrs));
+                }
+            }
+        }
+        if let Some((prev_col, attrs)) = erase {
+            let new_pos = crate::grid::Pos { row, col: prev_col };
+            if wrapping
+                && prev_pos.row + 1 == new_pos.row
+                && prev_pos.col >= self.cols()
+            {
+                if new_pos.col > 0 {
+                    contents.extend(
+                        " ".repeat(usize::from(new_pos.col)).as_bytes(),
+                    );
+                } else {
+                    contents.extend(b" ");
+                    crate::term::Backspace.write_buf(contents);
+                }
+            } else {
+                crate::term::MoveFromTo::new(prev_pos, new_pos)
+                    .write_buf(contents);
+            }
+            prev_pos = new_pos;
+            if &prev_attrs != attrs {
+                attrs.write_escape_code_diff(contents, &prev_attrs);
+                prev_attrs = *attrs;
+            }
+            crate::term::ClearRowForward.write_buf(contents);
+        }
+
+        // if this row is going from wrapped to not wrapped, we need to erase
+        // and redraw the last character to break wrapping. if this row is
+        // wrapped, we need to redraw the last character without erasing it to
+        // position the cursor after the end of the line correctly so that
+        // drawing the next line can just start writing and be wrapped.
+        if (!self.wrapped && prev.wrapped) || (!prev.wrapped && self.wrapped)
+        {
+            let end_pos = if self.cells[usize::from(self.cols() - 1)]
+                .is_wide_continuation()
+            {
+                crate::grid::Pos {
+                    row,
+                    col: self.cols() - 2,
+                }
+            } else {
+                crate::grid::Pos {
+                    row,
+                    col: self.cols() - 1,
+                }
+            };
+            crate::term::MoveFromTo::new(prev_pos, end_pos)
+                .write_buf(contents);
+            prev_pos = end_pos;
+            if !self.wrapped {
+                crate::term::EraseChar::new(1).write_buf(contents);
+            }
+            let end_cell = &self.cells[usize::from(end_pos.col)];
+            if end_cell.has_contents() {
+                let attrs = end_cell.attrs();
+                if &prev_attrs != attrs {
+                    attrs.write_escape_code_diff(contents, &prev_attrs);
+                    prev_attrs = *attrs;
+                }
+                contents.extend(end_cell.contents().as_bytes());
+                prev_pos.col += if end_cell.is_wide() { 2 } else { 1 };
+            }
+        }
+
+        (prev_pos, prev_attrs)
+    }
+}

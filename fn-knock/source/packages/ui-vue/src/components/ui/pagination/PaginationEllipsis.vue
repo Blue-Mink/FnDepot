@@ -1,1 +1,27 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUGFnaW5hdGlvbkVsbGlwc2lzUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyByZWFjdGl2ZU9taXQgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7IE1vcmVIb3Jpem9udGFsIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IgppbXBvcnQgeyBQYWdpbmF0aW9uRWxsaXBzaXMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPFBhZ2luYXRpb25FbGxpcHNpc1Byb3BzICYgeyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdIH0+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UGFnaW5hdGlvbkVsbGlwc2lzCiAgICBkYXRhLXNsb3Q9InBhZ2luYXRpb24tZWxsaXBzaXMiCiAgICB2LWJpbmQ9ImRlbGVnYXRlZFByb3BzIgogICAgOmNsYXNzPSJjbignZmxleCBzaXplLTkgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyJywgcHJvcHMuY2xhc3MpIgogID4KICAgIDxzbG90PgogICAgICA8TW9yZUhvcml6b250YWwgY2xhc3M9InNpemUtNCIgLz4KICAgICAgPHNwYW4gY2xhc3M9InNyLW9ubHkiPnt7IHQoImNvbW1vbi5tb3JlUGFnZXMiKSB9fTwvc3Bhbj4KICAgIDwvc2xvdD4KICA8L1BhZ2luYXRpb25FbGxpcHNpcz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { PaginationEllipsisProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { MoreHorizontal } from "lucide-vue-next"
+import { PaginationEllipsis } from "reka-ui"
+import { useI18n } from "vue-i18n"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<PaginationEllipsisProps & { class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+const { t } = useI18n()
+</script>
+
+<template>
+  <PaginationEllipsis
+    data-slot="pagination-ellipsis"
+    v-bind="delegatedProps"
+    :class="cn('flex size-9 items-center justify-center', props.class)"
+  >
+    <slot>
+      <MoreHorizontal class="size-4" />
+      <span class="sr-only">{{ t("common.morePages") }}</span>
+    </slot>
+  </PaginationEllipsis>
+</template>

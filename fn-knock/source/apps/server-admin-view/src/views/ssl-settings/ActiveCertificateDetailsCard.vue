@@ -1,1 +1,250 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB0eXBlIHsKICBTU0xDZXJ0aWZpY2F0ZVN1bW1hcnksCiAgU3ViZG9tYWluQ2VydGlmaWNhdGVDb3ZlcmFnZSwKfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsgQWxlcnQsIEFsZXJ0RGVzY3JpcHRpb24sIEFsZXJ0VGl0bGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYWxlcnQiOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgQ29uZmlnQ29sbGFwc2libGVDYXJkIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9Db25maWdDb2xsYXBzaWJsZUNhcmQudnVlIjsKCmRlZmluZVByb3BzPHsKICBhY3RpdmVDZXJ0aWZpY2F0ZTogU1NMQ2VydGlmaWNhdGVTdW1tYXJ5IHwgbnVsbDsKICBjb3ZlcmFnZUJhZGdlQ2xhc3M6IChjb3ZlcmFnZTogU3ViZG9tYWluQ2VydGlmaWNhdGVDb3ZlcmFnZSkgPT4gc3RyaW5nOwogIGNvdmVyYWdlQmFkZ2VMYWJlbDogKGNvdmVyYWdlOiBTdWJkb21haW5DZXJ0aWZpY2F0ZUNvdmVyYWdlKSA9PiBzdHJpbmc7CiAgY292ZXJhZ2VCYWRnZVZhcmlhbnQ6ICgKICAgIGNvdmVyYWdlOiBTdWJkb21haW5DZXJ0aWZpY2F0ZUNvdmVyYWdlLAogICkgPT4gImRlZmF1bHQiIHwgImRlc3RydWN0aXZlIiB8ICJvdXRsaW5lIjsKICBjdXJyZW50Q2VydGlmaWNhdGVTdW1tYXJ5OiBzdHJpbmc7CiAgZm9ybWF0RGF0ZTogKHZhbHVlOiBzdHJpbmcpID0+IHN0cmluZzsKICBmb3JtYXREbjogKHZhbHVlOiBzdHJpbmcpID0+IHN0cmluZzsKICBpc0V4cGlyZWQ6IGJvb2xlYW47CiAgaXNFeHBpcmluZ1Nvb246IGJvb2xlYW47CiAgcmVhZHk6IGJvb2xlYW47CiAgc291cmNlTGFiZWw6IChzb3VyY2U6IFNTTENlcnRpZmljYXRlU3VtbWFyeVsic291cmNlIl0pID0+IHN0cmluZzsKICBzdWJkb21haW5Db3ZlcmFnZTogU3ViZG9tYWluQ2VydGlmaWNhdGVDb3ZlcmFnZSB8IG51bGw7CiAgdW5jb3ZlcmVkSG9zdHNQcmV2aWV3OiAoaG9zdHM6IHN0cmluZ1tdKSA9PiBzdHJpbmc7Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPENvbmZpZ0NvbGxhcHNpYmxlQ2FyZAogICAgdi1pZj0iYWN0aXZlQ2VydGlmaWNhdGUgfHwgc3ViZG9tYWluQ292ZXJhZ2UiCiAgICA6dGl0bGU9InQoJ2FkbWluLmNlcnRDb25maWcuY3VycmVudENlcnRpZmljYXRlVGl0bGUnKSIKICAgIDpjb25maWd1cmVkPSJCb29sZWFuKGFjdGl2ZUNlcnRpZmljYXRlPy5jZXJ0SW5mbykiCiAgICA6cmVhZHk9InJlYWR5IgogICAgOmVkaXQtbGFiZWw9InQoJ2NvbW1vbi52aWV3RGV0YWlscycpIgogICAgY29sbGFwc2VkLWNvbnRlbnQtY2xhc3M9Im1pbi1oLVs3NnB4XSBmbGV4IGZsZXgtY29sIGl0ZW1zLXN0YXJ0IGdhcC0zIHNtOmgtWzQwcHhdIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICBzdW1tYXJ5LWNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtYXgtdy1mdWxsIHdoaXRlc3BhY2Utbm9ybWFsIGJyZWFrLXdvcmRzIHNtOnRydW5jYXRlIgogICAgZXhwYW5kZWQtY29udGVudC1jbGFzcz0icC0wIHNtOnAtMCIKICAgIGFjdGlvbnMtY2xhc3M9ImJvcmRlci10IGJnLW11dGVkLzMwIHB4LTQgcHktNCBzbTpweC02IGZsZXggZmxleC1jb2wgZ2FwLTIgcm91bmRlZC1iLWxnIHNtOmZsZXgtcm93IHNtOmp1c3RpZnktZW5kIgogICAgY2FyZC1jbGFzcz0iZHluYW1pYy13aGl0ZS1jZXJ0LWNhcmQiCiAgPgogICAgPHRlbXBsYXRlICNzdW1tYXJ5Pnt7IGN1cnJlbnRDZXJ0aWZpY2F0ZVN1bW1hcnkgfX08L3RlbXBsYXRlPgoKICAgIDx0ZW1wbGF0ZSAjZGVmYXVsdD4KICAgICAgPGRpdiBjbGFzcz0icC00IHNtOnAtNiI+CiAgICAgICAgPGRpdgogICAgICAgICAgdi1pZj0iYWN0aXZlQ2VydGlmaWNhdGU/LmNlcnRJbmZvIgogICAgICAgICAgY2xhc3M9ImdyaWQgZ2FwLTQgeGw6Z3JpZC1jb2xzLVttaW5tYXgoMCwxLjJmcilfbWlubWF4KDAsMWZyKV0iCiAgICAgICAgPgogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzcz0iZHluYW1pYy13aGl0ZS1jZXJ0LXN1YnN1cmZhY2UgZ3JpZCBnYXAtNCByb3VuZGVkLWxnIGJvcmRlciBiZy1tdXRlZC8yMCBwLTQiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICBjbGFzcz0iZ3JpZCBncmlkLWNvbHMtWzg4cHhfbWlubWF4KDAsMWZyKV0gZ2FwLXktMyB0ZXh0LXNtIHNtOmdyaWQtY29scy1bMTAwcHhfbWlubWF4KDAsMWZyKV0iCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iZm9udC1tZWRpdW0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcuZmllbGROYW1lIikgfX0KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9Im1pbi13LTAgZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAge3sgYWN0aXZlQ2VydGlmaWNhdGUubGFiZWwgfX0KICAgICAgICAgICAgICA8L3NwYW4+CgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5maWVsZFNvdXJjZSIpIH19CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJtaW4tdy0wIHRleHQteHMiPgogICAgICAgICAgICAgICAge3sgc291cmNlTGFiZWwoYWN0aXZlQ2VydGlmaWNhdGUuc291cmNlKSB9fQogICAgICAgICAgICAgIDwvc3Bhbj4KCiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImZvbnQtbWVkaXVtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5jZXJ0Q29uZmlnLmZpZWxkSXNzdWVyIikgfX0KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9Im1pbi13LTAgYnJlYWstYWxsIGZvbnQtbW9ubyB0ZXh0LXhzIj4KICAgICAgICAgICAgICAgIHt7IGZvcm1hdERuKGFjdGl2ZUNlcnRpZmljYXRlLmNlcnRJbmZvLmlzc3VlcikgfX0KICAgICAgICAgICAgICA8L3NwYW4+CgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5maWVsZFN1YmplY3QiKSB9fQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0ibWluLXctMCBicmVhay1hbGwgZm9udC1tb25vIHRleHQteHMiPgogICAgICAgICAgICAgICAge3sgZm9ybWF0RG4oYWN0aXZlQ2VydGlmaWNhdGUuY2VydEluZm8uc3ViamVjdCkgfX0KICAgICAgICAgICAgICA8L3NwYW4+CgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5maWVsZFZhbGlkaXR5IikgfX0KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9Im1pbi13LTAgdGV4dC14cyI+CiAgICAgICAgICAgICAgICA8c3Bhbj57ewogICAgICAgICAgICAgICAgICBmb3JtYXREYXRlKGFjdGl2ZUNlcnRpZmljYXRlLmNlcnRJbmZvLnZhbGlkRnJvbSkKICAgICAgICAgICAgICAgIH19PC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9Im14LTEgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy50byIpIH19CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICA6Y2xhc3M9ImlzRXhwaXJlZCA/ICdmb250LXNlbWlib2xkIHRleHQtZGVzdHJ1Y3RpdmUnIDogJyciCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IGZvcm1hdERhdGUoYWN0aXZlQ2VydGlmaWNhdGUuY2VydEluZm8udmFsaWRUbykgfX0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDxCYWRnZQogICAgICAgICAgICAgICAgICB2LWlmPSJpc0V4cGlyZWQiCiAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9ImRlc3RydWN0aXZlIgogICAgICAgICAgICAgICAgICBjbGFzcz0ibWwtMiB0ZXh0LVsxMHB4XSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5leHBpcmVkIikgfX0KICAgICAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICAgICAgICA8QmFkZ2UKICAgICAgICAgICAgICAgICAgdi1lbHNlLWlmPSJpc0V4cGlyaW5nU29vbiIKICAgICAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICAgICAgY2xhc3M9Im1sLTIgYm9yZGVyLXllbGxvdy01MDAgdGV4dC1bMTBweF0gdGV4dC15ZWxsb3ctNjAwIGRhcms6Ym9yZGVyLXllbGxvdy00MDAvODAgZGFyazp0ZXh0LXllbGxvdy0zMDAiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcuZXhwaXJpbmdTb29uIikgfX0KICAgICAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICAgICAgPC9zcGFuPgoKICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iZm9udC1tZWRpdW0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcuZmllbGREb21haW5zIikgfX0KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBmbGV4IGZsZXgtd3JhcCBnYXAtMS41Ij4KICAgICAgICAgICAgICAgIDxCYWRnZQogICAgICAgICAgICAgICAgICB2LWZvcj0iZG5zIGluIGFjdGl2ZUNlcnRpZmljYXRlLmNlcnRJbmZvLmRuc05hbWVzIgogICAgICAgICAgICAgICAgICA6a2V5PSJkbnMiCiAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9InNlY29uZGFyeSIKICAgICAgICAgICAgICAgICAgY2xhc3M9ImZvbnQtbW9ubyB0ZXh0LXhzIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7eyBkbnMgfX0KICAgICAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICB2LWlmPSIhYWN0aXZlQ2VydGlmaWNhdGUuY2VydEluZm8uZG5zTmFtZXMubGVuZ3RoIgogICAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcubm9uZSIpIH19CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5maWVsZFVwZGF0ZWRBdCIpIH19CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJtaW4tdy0wIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt7IGZvcm1hdERhdGUoYWN0aXZlQ2VydGlmaWNhdGUudXBkYXRlZF9hdCkgfX0KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSJzdWJkb21haW5Db3ZlcmFnZSIKICAgICAgICAgICAgY2xhc3M9ImR5bmFtaWMtd2hpdGUtY2VydC1zdWJzdXJmYWNlIGdyaWQgZ2FwLTMgcm91bmRlZC1sZyBib3JkZXIgYmctYmFja2dyb3VuZC84MCBwLTQiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5jb3ZlcmFnZUFuYWx5c2lzVGl0bGUiKSB9fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxCYWRnZQogICAgICAgICAgICAgICAgOnZhcmlhbnQ9ImNvdmVyYWdlQmFkZ2VWYXJpYW50KHN1YmRvbWFpbkNvdmVyYWdlKSIKICAgICAgICAgICAgICAgIDpjbGFzcz0iY292ZXJhZ2VCYWRnZUNsYXNzKHN1YmRvbWFpbkNvdmVyYWdlKSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7eyBjb3ZlcmFnZUJhZGdlTGFiZWwoc3ViZG9tYWluQ292ZXJhZ2UpIH19CiAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAge3sgc3ViZG9tYWluQ292ZXJhZ2Uuc3VtbWFyeSB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICBjbGFzcz0iZ3JpZCBncmlkLWNvbHMtWzg4cHhfbWlubWF4KDAsMWZyKV0gZ2FwLXktMyB0ZXh0LXNtIHNtOmdyaWQtY29scy1bMTAwcHhfbWlubWF4KDAsMWZyKV0iCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iZm9udC1tZWRpdW0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcuYXV0aFNlcnZpY2UiKSB9fQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0ibWluLXctMCBicmVhay1hbGwgZm9udC1tb25vIHRleHQteHMiPgogICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgc3ViZG9tYWluQ292ZXJhZ2UuYXV0aF9ob3N0IHx8CiAgICAgICAgICAgICAgICAgIHQoImFkbWluLmNlcnRDb25maWcubm90Q29uZmlndXJlZCIpCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgIDwvc3Bhbj4KCiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImZvbnQtbWVkaXVtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5jZXJ0Q29uZmlnLnJlY29tbWVuZGVkRG9tYWlucyIpIH19CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJtaW4tdy0wIGJyZWFrLWFsbCBmb250LW1vbm8gdGV4dC14cyI+CiAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICBzdWJkb21haW5Db3ZlcmFnZS5yZWNvbW1lbmRlZF9kb21haW5zLmxlbmd0aAogICAgICAgICAgICAgICAgICAgID8gc3ViZG9tYWluQ292ZXJhZ2UucmVjb21tZW5kZWRfZG9tYWlucy5qb2luKCIsICIpCiAgICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5jZXJ0Q29uZmlnLm5vUmVjb21tZW5kYXRpb24iKQogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICA8L3NwYW4+CgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5ob3N0Q292ZXJhZ2UiKSB9fQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0ibWluLXctMCB0ZXh0LXhzIj4KICAgICAgICAgICAgICAgIHt7IHN1YmRvbWFpbkNvdmVyYWdlLmNvdmVyZWRfaG9zdHMubGVuZ3RoIH19IC8KICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgIHN1YmRvbWFpbkNvdmVyYWdlLmNvdmVyZWRfaG9zdHMubGVuZ3RoICsKICAgICAgICAgICAgICAgICAgc3ViZG9tYWluQ292ZXJhZ2UudW5jb3ZlcmVkX2hvc3RzLmxlbmd0aAogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgIHQoImFkbWluLmNlcnRDb25maWcuaG9zdENvdmVyYWdlQ291bnQiLCB7CiAgICAgICAgICAgICAgICAgICAgY292ZXJlZDogc3ViZG9tYWluQ292ZXJhZ2UuY292ZXJlZF9ob3N0cy5sZW5ndGgsCiAgICAgICAgICAgICAgICAgICAgdG90YWw6CiAgICAgICAgICAgICAgICAgICAgICBzdWJkb21haW5Db3ZlcmFnZS5jb3ZlcmVkX2hvc3RzLmxlbmd0aCArCiAgICAgICAgICAgICAgICAgICAgICBzdWJkb21haW5Db3ZlcmFnZS51bmNvdmVyZWRfaG9zdHMubGVuZ3RoLAogICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgdi1pZj0ic3ViZG9tYWluQ292ZXJhZ2UudW5jb3ZlcmVkX2hvc3RzLmxlbmd0aCIKICAgICAgICAgICAgICBjbGFzcz0idGV4dC14cyB0ZXh0LWFtYmVyLTYwMCBkYXJrOnRleHQtYW1iZXItNDAwIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgIHQoImFkbWluLmNlcnRDb25maWcudW5jb3ZlcmVkSG9zdHMiLCB7CiAgICAgICAgICAgICAgICAgIGhvc3RzOiB1bmNvdmVyZWRIb3N0c1ByZXZpZXcoCiAgICAgICAgICAgICAgICAgICAgc3ViZG9tYWluQ292ZXJhZ2UudW5jb3ZlcmVkX2hvc3RzLAogICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIHYtaWY9InN1YmRvbWFpbkNvdmVyYWdlLndhcm5pbmdzLmxlbmd0aCIKICAgICAgICAgICAgICBjbGFzcz0iZ3JpZCBnYXAtMSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxkaXYgdi1mb3I9Indhcm5pbmcgaW4gc3ViZG9tYWluQ292ZXJhZ2Uud2FybmluZ3MiIDprZXk9Indhcm5pbmciPgogICAgICAgICAgICAgICAge3sgd2FybmluZyB9fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8QWxlcnQgdi1lbHNlIHZhcmlhbnQ9ImRlZmF1bHQiIGNsYXNzPSJkeW5hbWljLXdoaXRlLWdsYXNzLXN1cmZhY2UiPgogICAgICAgICAgPEFsZXJ0VGl0bGU+e3sgdCgiYWRtaW4uY2VydENvbmZpZy5ub0FjdGl2ZVRpdGxlIikgfX08L0FsZXJ0VGl0bGU+CiAgICAgICAgICA8QWxlcnREZXNjcmlwdGlvbiBjbGFzcz0iZ3JpZCBnYXAtMiI+CiAgICAgICAgICAgIDxwPnt7IHQoImFkbWluLmNlcnRDb25maWcubm9BY3RpdmVEZXNjcmlwdGlvbiIpIH19PC9wPgogICAgICAgICAgICA8cCB2LWlmPSJzdWJkb21haW5Db3ZlcmFnZSIgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyBzdWJkb21haW5Db3ZlcmFnZS5zdW1tYXJ5IH19CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvQWxlcnREZXNjcmlwdGlvbj4KICAgICAgICA8L0FsZXJ0PgogICAgICA8L2Rpdj4KICAgIDwvdGVtcGxhdGU+CgogICAgPHRlbXBsYXRlICNhY3Rpb25zPSJ7IGNvbGxhcHNlIH0iPgogICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0iY29sbGFwc2UiPgogICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcuY29sbGFwc2UiKSB9fQogICAgICA8L0J1dHRvbj4KICAgIDwvdGVtcGxhdGU+CiAgPC9Db25maWdDb2xsYXBzaWJsZUNhcmQ+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import type {
+  SSLCertificateSummary,
+  SubdomainCertificateCoverage,
+} from "@/types";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import ConfigCollapsibleCard from "@admin-shared/components/ConfigCollapsibleCard.vue";
+
+defineProps<{
+  activeCertificate: SSLCertificateSummary | null;
+  coverageBadgeClass: (coverage: SubdomainCertificateCoverage) => string;
+  coverageBadgeLabel: (coverage: SubdomainCertificateCoverage) => string;
+  coverageBadgeVariant: (
+    coverage: SubdomainCertificateCoverage,
+  ) => "default" | "destructive" | "outline";
+  currentCertificateSummary: string;
+  formatDate: (value: string) => string;
+  formatDn: (value: string) => string;
+  isExpired: boolean;
+  isExpiringSoon: boolean;
+  ready: boolean;
+  sourceLabel: (source: SSLCertificateSummary["source"]) => string;
+  subdomainCoverage: SubdomainCertificateCoverage | null;
+  uncoveredHostsPreview: (hosts: string[]) => string;
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <ConfigCollapsibleCard
+    v-if="activeCertificate || subdomainCoverage"
+    :title="t('admin.certConfig.currentCertificateTitle')"
+    :configured="Boolean(activeCertificate?.certInfo)"
+    :ready="ready"
+    :edit-label="t('common.viewDetails')"
+    collapsed-content-class="min-h-[76px] flex flex-col items-start gap-3 sm:h-[40px] sm:flex-row sm:items-center sm:justify-between"
+    summary-class="text-xs text-muted-foreground max-w-full whitespace-normal break-words sm:truncate"
+    expanded-content-class="p-0 sm:p-0"
+    actions-class="border-t bg-muted/30 px-4 py-4 sm:px-6 flex flex-col gap-2 rounded-b-lg sm:flex-row sm:justify-end"
+    card-class="dynamic-white-cert-card"
+  >
+    <template #summary>{{ currentCertificateSummary }}</template>
+
+    <template #default>
+      <div class="p-4 sm:p-6">
+        <div
+          v-if="activeCertificate?.certInfo"
+          class="grid gap-4 xl:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]"
+        >
+          <div
+            class="dynamic-white-cert-subsurface grid gap-4 rounded-lg border bg-muted/20 p-4"
+          >
+            <div
+              class="grid grid-cols-[88px_minmax(0,1fr)] gap-y-3 text-sm sm:grid-cols-[100px_minmax(0,1fr)]"
+            >
+              <span class="font-medium text-muted-foreground">
+                {{ t("admin.certConfig.fieldName") }}
+              </span>
+              <span class="min-w-0 font-medium">
+                {{ activeCertificate.label }}
+              </span>
+
+              <span class="font-medium text-muted-foreground">
+                {{ t("admin.certConfig.fieldSource") }}
+              </span>
+              <span class="min-w-0 text-xs">
+                {{ sourceLabel(activeCertificate.source) }}
+              </span>
+
+              <span class="font-medium text-muted-foreground">
+                {{ t("admin.certConfig.fieldIssuer") }}
+              </span>
+              <span class="min-w-0 break-all font-mono text-xs">
+                {{ formatDn(activeCertificate.certInfo.issuer) }}
+              </span>
+
+              <span class="font-medium text-muted-foreground">
+                {{ t("admin.certConfig.fieldSubject") }}
+              </span>
+              <span class="min-w-0 break-all font-mono text-xs">
+                {{ formatDn(activeCertificate.certInfo.subject) }}
+              </span>
+
+              <span class="font-medium text-muted-foreground">
+                {{ t("admin.certConfig.fieldValidity") }}
+              </span>
+              <span class="min-w-0 text-xs">
+                <span>{{
+                  formatDate(activeCertificate.certInfo.validFrom)
+                }}</span>
+                <span class="mx-1 text-muted-foreground">
+                  {{ t("admin.certConfig.to") }}
+                </span>
+                <span
+                  :class="isExpired ? 'font-semibold text-destructive' : ''"
+                >
+                  {{ formatDate(activeCertificate.certInfo.validTo) }}
+                </span>
+                <Badge
+                  v-if="isExpired"
+                  variant="destructive"
+                  class="ml-2 text-[10px]"
+                >
+                  {{ t("admin.certConfig.expired") }}
+                </Badge>
+                <Badge
+                  v-else-if="isExpiringSoon"
+                  variant="outline"
+                  class="ml-2 border-yellow-500 text-[10px] text-yellow-600 dark:border-yellow-400/80 dark:text-yellow-300"
+                >
+                  {{ t("admin.certConfig.expiringSoon") }}
+                </Badge>
+              </span>
+
+              <span class="font-medium text-muted-foreground">
+                {{ t("admin.certConfig.fieldDomains") }}
+              </span>
+              <div class="min-w-0 flex flex-wrap gap-1.5">
+                <Badge
+                  v-for="dns in activeCertificate.certInfo.dnsNames"
+                  :key="dns"
+                  variant="secondary"
+                  class="font-mono text-xs"
+                >
+                  {{ dns }}
+                </Badge>
+                <span
+                  v-if="!activeCertificate.certInfo.dnsNames.length"
+                  class="text-xs text-muted-foreground"
+                >
+                  {{ t("admin.certConfig.none") }}
+                </span>
+              </div>
+
+              <span class="font-medium text-muted-foreground">
+                {{ t("admin.certConfig.fieldUpdatedAt") }}
+              </span>
+              <span class="min-w-0 text-xs text-muted-foreground">
+                {{ formatDate(activeCertificate.updated_at) }}
+              </span>
+            </div>
+          </div>
+
+          <div
+            v-if="subdomainCoverage"
+            class="dynamic-white-cert-subsurface grid gap-3 rounded-lg border bg-background/80 p-4"
+          >
+            <div class="flex flex-wrap items-center justify-between gap-3">
+              <div class="text-sm font-medium">
+                {{ t("admin.certConfig.coverageAnalysisTitle") }}
+              </div>
+              <Badge
+                :variant="coverageBadgeVariant(subdomainCoverage)"
+                :class="coverageBadgeClass(subdomainCoverage)"
+              >
+                {{ coverageBadgeLabel(subdomainCoverage) }}
+              </Badge>
+            </div>
+            <p class="text-sm text-muted-foreground">
+              {{ subdomainCoverage.summary }}
+            </p>
+            <div
+              class="grid grid-cols-[88px_minmax(0,1fr)] gap-y-3 text-sm sm:grid-cols-[100px_minmax(0,1fr)]"
+            >
+              <span class="font-medium text-muted-foreground">
+                {{ t("admin.certConfig.authService") }}
+              </span>
+              <span class="min-w-0 break-all font-mono text-xs">
+                {{
+                  subdomainCoverage.auth_host ||
+                  t("admin.certConfig.notConfigured")
+                }}
+              </span>
+
+              <span class="font-medium text-muted-foreground">
+                {{ t("admin.certConfig.recommendedDomains") }}
+              </span>
+              <span class="min-w-0 break-all font-mono text-xs">
+                {{
+                  subdomainCoverage.recommended_domains.length
+                    ? subdomainCoverage.recommended_domains.join(", ")
+                    : t("admin.certConfig.noRecommendation")
+                }}
+              </span>
+
+              <span class="font-medium text-muted-foreground">
+                {{ t("admin.certConfig.hostCoverage") }}
+              </span>
+              <span class="min-w-0 text-xs">
+                {{ subdomainCoverage.covered_hosts.length }} /
+                {{
+                  subdomainCoverage.covered_hosts.length +
+                  subdomainCoverage.uncovered_hosts.length
+                }}
+                {{
+                  t("admin.certConfig.hostCoverageCount", {
+                    covered: subdomainCoverage.covered_hosts.length,
+                    total:
+                      subdomainCoverage.covered_hosts.length +
+                      subdomainCoverage.uncovered_hosts.length,
+                  })
+                }}
+              </span>
+            </div>
+            <div
+              v-if="subdomainCoverage.uncovered_hosts.length"
+              class="text-xs text-amber-600 dark:text-amber-400"
+            >
+              {{
+                t("admin.certConfig.uncoveredHosts", {
+                  hosts: uncoveredHostsPreview(
+                    subdomainCoverage.uncovered_hosts,
+                  ),
+                })
+              }}
+            </div>
+            <div
+              v-if="subdomainCoverage.warnings.length"
+              class="grid gap-1 text-xs text-muted-foreground"
+            >
+              <div v-for="warning in subdomainCoverage.warnings" :key="warning">
+                {{ warning }}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <Alert v-else variant="default" class="dynamic-white-glass-surface">
+          <AlertTitle>{{ t("admin.certConfig.noActiveTitle") }}</AlertTitle>
+          <AlertDescription class="grid gap-2">
+            <p>{{ t("admin.certConfig.noActiveDescription") }}</p>
+            <p v-if="subdomainCoverage" class="text-xs text-muted-foreground">
+              {{ subdomainCoverage.summary }}
+            </p>
+          </AlertDescription>
+        </Alert>
+      </div>
+    </template>
+
+    <template #actions="{ collapse }">
+      <Button variant="outline" @click="collapse">
+        {{ t("admin.certConfig.collapse") }}
+      </Button>
+    </template>
+  </ConfigCollapsibleCard>
+</template>

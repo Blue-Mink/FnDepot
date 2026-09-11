@@ -1,1 +1,77 @@
-aW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgZXh0cmFjdEVycm9yTWVzc2FnZSB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwoKdHlwZSBUcmFuc2xhdGUgPSAoa2V5OiBzdHJpbmcsIG5hbWVkPzogUmVjb3JkPHN0cmluZywgdW5rbm93bj4pID0+IHN0cmluZzsKCmV4cG9ydCBjb25zdCBjcmVhdGVSZXZlcnNlUHJveHlNZXNzYWdlcyA9ICh0OiBUcmFuc2xhdGUpID0+ICh7CiAgZ2V0IHVua25vd25FcnJvcigpIHsKICAgIHJldHVybiB0KCJhZG1pbi5yZXZlcnNlUHJveHkuZmVlZGJhY2sudW5rbm93bkVycm9yIik7CiAgfSwKICBnZXQgbmV0d29ya0Vycm9yKCkgewogICAgcmV0dXJuIHQoImFkbWluLnJldmVyc2VQcm94eS5mZWVkYmFjay5uZXR3b3JrRXJyb3IiKTsKICB9LAogIGdldCBzeW5jRmFpbGVkKCkgewogICAgcmV0dXJuIHQoImFkbWluLnJldmVyc2VQcm94eS5mZWVkYmFjay5zeW5jRmFpbGVkIik7CiAgfSwKICBnZXQgZGVsZXRlRmFpbGVkKCkgewogICAgcmV0dXJuIHQoImFkbWluLnJldmVyc2VQcm94eS5mZWVkYmFjay5kZWxldGVGYWlsZWQiKTsKICB9LAogIGdldCBkZWxldGVTdWNjZXNzKCkgewogICAgcmV0dXJuIHQoImFkbWluLnJldmVyc2VQcm94eS5mZWVkYmFjay5kZWxldGVTdWNjZXNzIik7CiAgfSwKICBnZXQgc2F2ZUZhaWxlZCgpIHsKICAgIHJldHVybiB0KCJhZG1pbi5yZXZlcnNlUHJveHkuZmVlZGJhY2suc2F2ZUZhaWxlZCIpOwogIH0sCiAgZ2V0IGNyZWF0ZVN1Y2Nlc3MoKSB7CiAgICByZXR1cm4gdCgiYWRtaW4ucmV2ZXJzZVByb3h5LmZlZWRiYWNrLmNyZWF0ZVN1Y2Nlc3MiKTsKICB9LAogIGdldCB1cGRhdGVTdWNjZXNzKCkgewogICAgcmV0dXJuIHQoImFkbWluLnJldmVyc2VQcm94eS5mZWVkYmFjay51cGRhdGVTdWNjZXNzIik7CiAgfSwKICBnZXQgZGVmYXVsdFJvdXRlVXBkYXRlRmFpbGVkKCkgewogICAgcmV0dXJuIHQoImFkbWluLnJldmVyc2VQcm94eS5mZWVkYmFjay5kZWZhdWx0Um91dGVVcGRhdGVGYWlsZWQiKTsKICB9LAogIGdldCBzY2FuRmFpbGVkKCkgewogICAgcmV0dXJuIHQoImFkbWluLnJldmVyc2VQcm94eS5mZWVkYmFjay5zY2FuRmFpbGVkIik7CiAgfSwKICBkdXBsaWNhdGVQYXRoOiAocGF0aDogc3RyaW5nKSA9PgogICAgdCgiYWRtaW4ucmV2ZXJzZVByb3h5LmZlZWRiYWNrLmR1cGxpY2F0ZVBhdGgiLCB7IHBhdGggfSksCiAgZHVwbGljYXRlVGFyZ2V0OiAodGFyZ2V0OiBzdHJpbmcpID0+CiAgICB0KCJhZG1pbi5yZXZlcnNlUHJveHkuZmVlZGJhY2suZHVwbGljYXRlVGFyZ2V0IiwgeyB0YXJnZXQgfSksCiAgZHVwbGljYXRlSXRlbXM6IChsYWJlbDogc3RyaW5nLCB2YWx1ZXM6IHN0cmluZ1tdKSA9PgogICAgdCgiYWRtaW4ucmV2ZXJzZVByb3h5LmZlZWRiYWNrLmR1cGxpY2F0ZUl0ZW1zIiwgewogICAgICBsYWJlbCwKICAgICAgdmFsdWVzOiB2YWx1ZXMuam9pbih0KCJhZG1pbi5yZXZlcnNlUHJveHkuZmVlZGJhY2subGlzdFNlcGFyYXRvciIpKSwKICAgIH0pLAogIHN5bmNTdWNjZXNzOiAoY291bnQ6IG51bWJlcikgPT4KICAgIHQoImFkbWluLnJldmVyc2VQcm94eS5mZWVkYmFjay5zeW5jU3VjY2VzcyIsIHsgY291bnQgfSksCiAgZGlzY292ZXJTYXZlU3VjY2VzczogKGNvdW50OiBudW1iZXIpID0+CiAgICB0KCJhZG1pbi5yZXZlcnNlUHJveHkuZmVlZGJhY2suZGlzY292ZXJTYXZlU3VjY2VzcyIsIHsgY291bnQgfSksCn0pOwoKZXhwb3J0IGNvbnN0IHNob3dSZXZlcnNlUHJveHlBY3Rpb25FcnJvciA9ICgKICB0aXRsZTogc3RyaW5nLAogIGVycm9yOiB1bmtub3duLAogIGZhbGxiYWNrOiBzdHJpbmcsCikgPT4gewogIHRvYXN0LmVycm9yKGAke3RpdGxlfTogJHtleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCBmYWxsYmFjayl9YCk7Cn07CgpleHBvcnQgY29uc3Qgc2hvd1JldmVyc2VQcm94eUR1cGxpY2F0ZUl0ZW1zRXJyb3IgPSAobWVzc2FnZTogc3RyaW5nKSA9PiB7CiAgdG9hc3QuZXJyb3IobWVzc2FnZSk7Cn07CgpleHBvcnQgY29uc3Qgc2hvd1JldmVyc2VQcm94eUJvb2xlYW5SZXN1bHRUb2FzdCA9ICgKICByZXN1bHQ6IHsgc3VjY2Vzcz86IGJvb2xlYW47IG1lc3NhZ2U/OiBzdHJpbmcgfCBudWxsIH0sCiAgb3B0aW9uczogeyBzdWNjZXNzVGV4dDogc3RyaW5nOyBlcnJvclRleHQ6IHN0cmluZzsgdW5rbm93bkVycm9yVGV4dDogc3RyaW5nIH0sCikgPT4gewogIGlmIChyZXN1bHQuc3VjY2VzcykgewogICAgdG9hc3Quc3VjY2VzcyhyZXN1bHQubWVzc2FnZSB8fCBvcHRpb25zLnN1Y2Nlc3NUZXh0KTsKICAgIHJldHVybiB0cnVlOwogIH0KCiAgdG9hc3QuZXJyb3IoCiAgICBgJHtvcHRpb25zLmVycm9yVGV4dH06ICR7cmVzdWx0Lm1lc3NhZ2UgfHwgb3B0aW9ucy51bmtub3duRXJyb3JUZXh0fWAsCiAgKTsKICByZXR1cm4gZmFsc2U7Cn07Cg==
+import { toast } from "@admin-shared/utils/toast";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+
+type Translate = (key: string, named?: Record<string, unknown>) => string;
+
+export const createReverseProxyMessages = (t: Translate) => ({
+  get unknownError() {
+    return t("admin.reverseProxy.feedback.unknownError");
+  },
+  get networkError() {
+    return t("admin.reverseProxy.feedback.networkError");
+  },
+  get syncFailed() {
+    return t("admin.reverseProxy.feedback.syncFailed");
+  },
+  get deleteFailed() {
+    return t("admin.reverseProxy.feedback.deleteFailed");
+  },
+  get deleteSuccess() {
+    return t("admin.reverseProxy.feedback.deleteSuccess");
+  },
+  get saveFailed() {
+    return t("admin.reverseProxy.feedback.saveFailed");
+  },
+  get createSuccess() {
+    return t("admin.reverseProxy.feedback.createSuccess");
+  },
+  get updateSuccess() {
+    return t("admin.reverseProxy.feedback.updateSuccess");
+  },
+  get defaultRouteUpdateFailed() {
+    return t("admin.reverseProxy.feedback.defaultRouteUpdateFailed");
+  },
+  get scanFailed() {
+    return t("admin.reverseProxy.feedback.scanFailed");
+  },
+  duplicatePath: (path: string) =>
+    t("admin.reverseProxy.feedback.duplicatePath", { path }),
+  duplicateTarget: (target: string) =>
+    t("admin.reverseProxy.feedback.duplicateTarget", { target }),
+  duplicateItems: (label: string, values: string[]) =>
+    t("admin.reverseProxy.feedback.duplicateItems", {
+      label,
+      values: values.join(t("admin.reverseProxy.feedback.listSeparator")),
+    }),
+  syncSuccess: (count: number) =>
+    t("admin.reverseProxy.feedback.syncSuccess", { count }),
+  discoverSaveSuccess: (count: number) =>
+    t("admin.reverseProxy.feedback.discoverSaveSuccess", { count }),
+});
+
+export const showReverseProxyActionError = (
+  title: string,
+  error: unknown,
+  fallback: string,
+) => {
+  toast.error(`${title}: ${extractErrorMessage(error, fallback)}`);
+};
+
+export const showReverseProxyDuplicateItemsError = (message: string) => {
+  toast.error(message);
+};
+
+export const showReverseProxyBooleanResultToast = (
+  result: { success?: boolean; message?: string | null },
+  options: { successText: string; errorText: string; unknownErrorText: string },
+) => {
+  if (result.success) {
+    toast.success(result.message || options.successText);
+    return true;
+  }
+
+  toast.error(
+    `${options.errorText}: ${result.message || options.unknownErrorText}`,
+  );
+  return false;
+};

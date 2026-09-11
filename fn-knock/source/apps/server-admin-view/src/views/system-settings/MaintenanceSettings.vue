@@ -1,1 +1,26 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBBdXRvbWF0aWNCYWNrdXBTZXR0aW5ncyBmcm9tICIuL0F1dG9tYXRpY0JhY2t1cFNldHRpbmdzLnZ1ZSI7CmltcG9ydCBNYWludGVuYW5jZUJhY2t1cERpYWxvZ3MgZnJvbSAiLi9NYWludGVuYW5jZUJhY2t1cERpYWxvZ3MudnVlIjsKaW1wb3J0IE1haW50ZW5hbmNlQmFja3VwUGFuZWwgZnJvbSAiLi9NYWludGVuYW5jZUJhY2t1cFBhbmVsLnZ1ZSI7CmltcG9ydCBNYWludGVuYW5jZURhbmdlclpvbmUgZnJvbSAiLi9NYWludGVuYW5jZURhbmdlclpvbmUudnVlIjsKaW1wb3J0IHsgdXNlTWFpbnRlbmFuY2VCYWNrdXBXb3JrZmxvdyB9IGZyb20gIi4vdXNlTWFpbnRlbmFuY2VCYWNrdXBXb3JrZmxvdyI7CmltcG9ydCB7IHVzZU1haW50ZW5hbmNlQ2xlYXJEYXRhIH0gZnJvbSAiLi91c2VNYWludGVuYW5jZUNsZWFyRGF0YSI7Cgpjb25zdCBiYWNrdXAgPSB1c2VNYWludGVuYW5jZUJhY2t1cFdvcmtmbG93KCk7CmNvbnN0IGNsZWFyRGF0YSA9IHVzZU1haW50ZW5hbmNlQ2xlYXJEYXRhKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InctZnVsbCI+CiAgICA8TWFpbnRlbmFuY2VCYWNrdXBQYW5lbCA6Y29udHJvbGxlcj0iYmFja3VwIiAvPgoKICAgIDxzZWN0aW9uIGNsYXNzPSJtdC02IG92ZXJmbG93LWhpZGRlbiByb3VuZGVkLTJ4bCBib3JkZXIgYmctYmFja2dyb3VuZCI+CiAgICAgIDxBdXRvbWF0aWNCYWNrdXBTZXR0aW5ncwogICAgICAgIEBmaWxlcy1jaGFuZ2VkPSJiYWNrdXAucmVmcmVzaEF1dG9tYXRpY0JhY2t1cEZpbGVzIgogICAgICAvPgogICAgPC9zZWN0aW9uPgoKICAgIDxNYWludGVuYW5jZURhbmdlclpvbmUgOmNvbnRyb2xsZXI9ImNsZWFyRGF0YSIgLz4KICAgIDxNYWludGVuYW5jZUJhY2t1cERpYWxvZ3MgOmNvbnRyb2xsZXI9ImJhY2t1cCIgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import AutomaticBackupSettings from "./AutomaticBackupSettings.vue";
+import MaintenanceBackupDialogs from "./MaintenanceBackupDialogs.vue";
+import MaintenanceBackupPanel from "./MaintenanceBackupPanel.vue";
+import MaintenanceDangerZone from "./MaintenanceDangerZone.vue";
+import { useMaintenanceBackupWorkflow } from "./useMaintenanceBackupWorkflow";
+import { useMaintenanceClearData } from "./useMaintenanceClearData";
+
+const backup = useMaintenanceBackupWorkflow();
+const clearData = useMaintenanceClearData();
+</script>
+
+<template>
+  <div class="w-full">
+    <MaintenanceBackupPanel :controller="backup" />
+
+    <section class="mt-6 overflow-hidden rounded-2xl border bg-background">
+      <AutomaticBackupSettings
+        @files-changed="backup.refreshAutomaticBackupFiles"
+      />
+    </section>
+
+    <MaintenanceDangerZone :controller="clearData" />
+    <MaintenanceBackupDialogs :controller="backup" />
+  </div>
+</template>

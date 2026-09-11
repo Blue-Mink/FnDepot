@@ -1,1 +1,32 @@
-dXNlIHN1cGVyOjp7CiAgICBCSU5ESU5HU19EQVRBX0tFWV9QUkVGSVgsIEJJTkRJTkdTX1NVQkpFQ1RfS0VZX1BSRUZJWCwgSU5WSVRFX0tFWV9QUkVGSVgsCiAgICBMT0dJTl9FUlJPUl9LRVlfUFJFRklYLCBQUk9WSURFUlNfREFUQV9LRVlfUFJFRklYLCBTVEFURV9LRVlfUFJFRklYLAp9OwoKcHViKHN1cGVyKSB1c2UgY3JhdGU6OmF1dGg6Om9pZGNfdG9rZW5zOjp7Y3JlYXRlX29pZGNfaWQsIGNyZWF0ZV9wdWJsaWNfdG9rZW59OwoKcHViKHN1cGVyKSB1c2UgY3JhdGU6OmNyeXB0b191dGlsczo6c2hhMjU2X2hleF9zdHIgYXMgc2hhMjU2X2hleDsKCnB1YihzdXBlcikgZm4gcHJvdmlkZXJfa2V5KGlkOiAmc3RyKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgie1BST1ZJREVSU19EQVRBX0tFWV9QUkVGSVh9e2lkfSIpCn0KCnB1YihzdXBlcikgZm4gYmluZGluZ19rZXkoaWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7QklORElOR1NfREFUQV9LRVlfUFJFRklYfXtpZH0iKQp9CgpwdWIoc3VwZXIpIGZuIHN1YmplY3RfYmluZGluZ19rZXkoc3ViamVjdF9rZXk6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7QklORElOR1NfU1VCSkVDVF9LRVlfUFJFRklYfXtzdWJqZWN0X2tleX0iKQp9CgpwdWIoc3VwZXIpIGZuIGludml0ZV9rZXkodG9rZW5faGFzaDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntJTlZJVEVfS0VZX1BSRUZJWH17dG9rZW5faGFzaH0iKQp9CgpwdWIoc3VwZXIpIGZuIHN0YXRlX2tleShzdGF0ZV9oYXNoOiAmc3RyKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgie1NUQVRFX0tFWV9QUkVGSVh9e3N0YXRlX2hhc2h9IikKfQoKcHViKHN1cGVyKSBmbiBsb2dpbl9lcnJvcl9rZXkodG9rZW5faGFzaDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntMT0dJTl9FUlJPUl9LRVlfUFJFRklYfXt0b2tlbl9oYXNofSIpCn0K
+use super::{
+    BINDINGS_DATA_KEY_PREFIX, BINDINGS_SUBJECT_KEY_PREFIX, INVITE_KEY_PREFIX,
+    LOGIN_ERROR_KEY_PREFIX, PROVIDERS_DATA_KEY_PREFIX, STATE_KEY_PREFIX,
+};
+
+pub(super) use crate::auth::oidc_tokens::{create_oidc_id, create_public_token};
+
+pub(super) use crate::crypto_utils::sha256_hex_str as sha256_hex;
+
+pub(super) fn provider_key(id: &str) -> String {
+    format!("{PROVIDERS_DATA_KEY_PREFIX}{id}")
+}
+
+pub(super) fn binding_key(id: &str) -> String {
+    format!("{BINDINGS_DATA_KEY_PREFIX}{id}")
+}
+
+pub(super) fn subject_binding_key(subject_key: &str) -> String {
+    format!("{BINDINGS_SUBJECT_KEY_PREFIX}{subject_key}")
+}
+
+pub(super) fn invite_key(token_hash: &str) -> String {
+    format!("{INVITE_KEY_PREFIX}{token_hash}")
+}
+
+pub(super) fn state_key(state_hash: &str) -> String {
+    format!("{STATE_KEY_PREFIX}{state_hash}")
+}
+
+pub(super) fn login_error_key(token_hash: &str) -> String {
+    format!("{LOGIN_ERROR_KEY_PREFIX}{token_hash}")
+}

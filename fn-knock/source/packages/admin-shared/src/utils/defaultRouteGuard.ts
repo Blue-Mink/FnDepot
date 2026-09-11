@@ -1,1 +1,17 @@
-ZXhwb3J0IGNvbnN0IG5lZWRzQ2xlYXJEZWZhdWx0Um91dGVDb25maXJtID0gKAogIHRhcmdldFBvcnQ6IG51bWJlciB8IG51bGwsCiAgZGVmYXVsdFN5c3RlbVBvcnQ6IG51bWJlciwKKSA9PiB7CiAgcmV0dXJuIHRhcmdldFBvcnQgPT09IGRlZmF1bHRTeXN0ZW1Qb3J0Owp9OwoKZXhwb3J0IGNvbnN0IG5lZWRzU2V0RGVmYXVsdFJvdXRlQ29uZmlybSA9ICgKICBjdXJyZW50RGVmYXVsdFBvcnQ6IG51bWJlciB8IG51bGwsCiAgY3VycmVudERlZmF1bHRQYXRoOiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkLAogIG5leHRQYXRoOiBzdHJpbmcsCiAgZGVmYXVsdFN5c3RlbVBvcnQ6IG51bWJlciwKKSA9PiB7CiAgY29uc3QgaGFzRGVmYXVsdFN5c3RlbVBvcnQgPSBjdXJyZW50RGVmYXVsdFBvcnQgPT09IGRlZmF1bHRTeXN0ZW1Qb3J0OwogIGNvbnN0IGlzU3dpdGNoaW5nRnJvbUN1cnJlbnREZWZhdWx0ID0gbmV4dFBhdGggIT09IGN1cnJlbnREZWZhdWx0UGF0aDsKICByZXR1cm4gaGFzRGVmYXVsdFN5c3RlbVBvcnQgJiYgaXNTd2l0Y2hpbmdGcm9tQ3VycmVudERlZmF1bHQ7Cn07Cg==
+export const needsClearDefaultRouteConfirm = (
+  targetPort: number | null,
+  defaultSystemPort: number,
+) => {
+  return targetPort === defaultSystemPort;
+};
+
+export const needsSetDefaultRouteConfirm = (
+  currentDefaultPort: number | null,
+  currentDefaultPath: string | null | undefined,
+  nextPath: string,
+  defaultSystemPort: number,
+) => {
+  const hasDefaultSystemPort = currentDefaultPort === defaultSystemPort;
+  const isSwitchingFromCurrentDefault = nextPath !== currentDefaultPath;
+  return hasDefaultSystemPort && isSwitchingFromCurrentDefault;
+};

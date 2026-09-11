@@ -1,1 +1,159 @@
-dXNlIHNlcmRlX2pzb246OntWYWx1ZSwganNvbn07Cgp1c2Ugc3VwZXI6OnsKICAgIEFVVEhfTUFYX1RUTF9TRUNPTkRTLCBBVVRIX1BPU1RfTE9HSU5fSVBfR1JBTlRfVFRMX1NFQ09ORFNfREVGQVVMVCwKICAgIEFVVEhfUkVNRU1CRVJfTUVfVFRMX1NFQ09ORFNfREVGQVVMVCwgQVVUSF9TRVNTSU9OX0lQX01PQklMSVRZX1dJTkRPV19TRUNPTkRTX0RFRkFVTFQsCiAgICBBVVRIX1NFU1NJT05fVFRMX1NFQ09ORFNfREVGQVVMVCwKfTsKCnB1YihzdXBlcikgZm4gYXV0aF9jcmVkZW50aWFsX3NldHRpbmdzX2Zyb21fY29uZmlnKGNvbmZpZzogJlZhbHVlKSAtPiBWYWx1ZSB7CiAgICBub3JtYWxpemVfYXV0aF9jcmVkZW50aWFsX3NldHRpbmdzKAogICAgICAgIGNvbmZpZwogICAgICAgICAgICAuZ2V0KCJhdXRoX2NyZWRlbnRpYWxfc2V0dGluZ3MiKQogICAgICAgICAgICAuY2xvbmVkKCkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IGpzb24hKHt9KSksCiAgICAgICAgbGVnYWN5X2F1dG9fYWRkX3doaXRlbGlzdF9vbl9sb2dpbihjb25maWcpLAogICAgKQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9hdXRoX2NyZWRlbnRpYWxfc2V0dGluZ3MoCiAgICB2YWx1ZTogVmFsdWUsCiAgICBsZWdhY3lfYXV0b19hZGRfd2hpdGVsaXN0X29uX2xvZ2luOiBPcHRpb248Ym9vbD4sCikgLT4gVmFsdWUgewogICAgbGV0IHNlc3Npb25fdHRsID0gYm91bmRlZF9pbnRfbGlrZV9ub2RlKAogICAgICAgICZ2YWx1ZSwKICAgICAgICAic2Vzc2lvbl90dGxfc2Vjb25kcyIsCiAgICAgICAgQVVUSF9TRVNTSU9OX1RUTF9TRUNPTkRTX0RFRkFVTFQsCiAgICAgICAgNjAsCiAgICAgICAgQVVUSF9NQVhfVFRMX1NFQ09ORFMsCiAgICApOwogICAgbGV0IHJlbWVtYmVyX3R0bCA9IGJvdW5kZWRfaW50X2xpa2Vfbm9kZSgKICAgICAgICAmdmFsdWUsCiAgICAgICAgInJlbWVtYmVyX21lX3R0bF9zZWNvbmRzIiwKICAgICAgICBBVVRIX1JFTUVNQkVSX01FX1RUTF9TRUNPTkRTX0RFRkFVTFQsCiAgICAgICAgc2Vzc2lvbl90dGwsCiAgICAgICAgQVVUSF9NQVhfVFRMX1NFQ09ORFMsCiAgICApOwogICAgbGV0IGlwX2dyYW50X21vZGUgPSBtYXRjaCB2YWx1ZQogICAgICAgIC5nZXQoInBvc3RfbG9naW5faXBfZ3JhbnRfbW9kZSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICB7CiAgICAgICAgU29tZSgiZGlzYWJsZWQiKSA9PiAiZGlzYWJsZWQiLAogICAgICAgIFNvbWUoImN1c3RvbSIpID0+ICJjdXN0b20iLAogICAgICAgIFNvbWUoImZvbGxvd19zZXNzaW9uIikgPT4gImZvbGxvd19zZXNzaW9uIiwKICAgICAgICBfIGlmIGxlZ2FjeV9hdXRvX2FkZF93aGl0ZWxpc3Rfb25fbG9naW4gPT0gU29tZShmYWxzZSkgPT4gImRpc2FibGVkIiwKICAgICAgICBfID0+ICJmb2xsb3dfc2Vzc2lvbiIsCiAgICB9OwogICAgbGV0IHBvc3RfbG9naW5faXBfZ3JhbnRfdHRsX3NlY29uZHMgPSAoaXBfZ3JhbnRfbW9kZSA9PSAiY3VzdG9tIikudGhlbih8fCB7CiAgICAgICAgYm91bmRlZF9pbnRfbGlrZV9ub2RlKAogICAgICAgICAgICAmdmFsdWUsCiAgICAgICAgICAgICJwb3N0X2xvZ2luX2lwX2dyYW50X3R0bF9zZWNvbmRzIiwKICAgICAgICAgICAgQVVUSF9QT1NUX0xPR0lOX0lQX0dSQU5UX1RUTF9TRUNPTkRTX0RFRkFVTFQsCiAgICAgICAgICAgIDYwLAogICAgICAgICAgICBBVVRIX01BWF9UVExfU0VDT05EUywKICAgICAgICApCiAgICB9KTsKICAgIGpzb24hKHsKICAgICAgICAic2Vzc2lvbl90dGxfc2Vjb25kcyI6IHNlc3Npb25fdHRsLAogICAgICAgICJyZW1lbWJlcl9tZV90dGxfc2Vjb25kcyI6IHJlbWVtYmVyX3R0bCwKICAgICAgICAicG9zdF9sb2dpbl9pcF9ncmFudF9tb2RlIjogaXBfZ3JhbnRfbW9kZSwKICAgICAgICAicG9zdF9sb2dpbl9pcF9ncmFudF90dGxfc2Vjb25kcyI6IHBvc3RfbG9naW5faXBfZ3JhbnRfdHRsX3NlY29uZHMsCiAgICAgICAgInNlc3Npb25faXBfbW9iaWxpdHlfZW5hYmxlZCI6IHZhbHVlCiAgICAgICAgICAgIC5nZXQoInNlc3Npb25faXBfbW9iaWxpdHlfZW5hYmxlZCIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAgICAgLnVud3JhcF9vcihmYWxzZSksCiAgICAgICAgInNlc3Npb25faXBfbW9iaWxpdHlfd2luZG93X3NlY29uZHMiOiBib3VuZGVkX2ludF9saWtlX25vZGUoCiAgICAgICAgICAgICZ2YWx1ZSwKICAgICAgICAgICAgInNlc3Npb25faXBfbW9iaWxpdHlfd2luZG93X3NlY29uZHMiLAogICAgICAgICAgICBBVVRIX1NFU1NJT05fSVBfTU9CSUxJVFlfV0lORE9XX1NFQ09ORFNfREVGQVVMVCwKICAgICAgICAgICAgNjAsCiAgICAgICAgICAgIDI0ICogMzYwMCwKICAgICAgICApLAogICAgICAgICJwYXNza2V5X2JpbmRfcHJvbXB0X2VuYWJsZWQiOiB2YWx1ZQogICAgICAgICAgICAuZ2V0KCJwYXNza2V5X2JpbmRfcHJvbXB0X2VuYWJsZWQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgICAgIC51bndyYXBfb3IodHJ1ZSkKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gaXNfYWxsb3dlZF9hdXRoX2NyZWRlbnRpYWxfc2V0dGluZyhrZXk6ICZzdHIpIC0+IGJvb2wgewogICAgbWF0Y2hlcyEoCiAgICAgICAga2V5LAogICAgICAgICJzZXNzaW9uX3R0bF9zZWNvbmRzIgogICAgICAgICAgICB8ICJyZW1lbWJlcl9tZV90dGxfc2Vjb25kcyIKICAgICAgICAgICAgfCAicG9zdF9sb2dpbl9pcF9ncmFudF9tb2RlIgogICAgICAgICAgICB8ICJwb3N0X2xvZ2luX2lwX2dyYW50X3R0bF9zZWNvbmRzIgogICAgICAgICAgICB8ICJzZXNzaW9uX2lwX21vYmlsaXR5X2VuYWJsZWQiCiAgICAgICAgICAgIHwgInNlc3Npb25faXBfbW9iaWxpdHlfd2luZG93X3NlY29uZHMiCiAgICAgICAgICAgIHwgInBhc3NrZXlfYmluZF9wcm9tcHRfZW5hYmxlZCIKICAgICkKfQoKcHViKHN1cGVyKSBmbiBsZWdhY3lfYXV0b19hZGRfd2hpdGVsaXN0X29uX2xvZ2luKGNvbmZpZzogJlZhbHVlKSAtPiBPcHRpb248Ym9vbD4gewogICAgY29uZmlnCiAgICAgICAgLnBvaW50ZXIoIi9zdWJkb21haW5fbW9kZS9hdXRvX2FkZF93aGl0ZWxpc3Rfb25fbG9naW4iKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKfQoKcHViKHN1cGVyKSBmbiBib3VuZGVkX2ludF9saWtlX25vZGUoCiAgICB2YWx1ZTogJlZhbHVlLAogICAga2V5OiAmc3RyLAogICAgZmFsbGJhY2s6IGk2NCwKICAgIG1pbjogaTY0LAogICAgbWF4OiBpNjQsCikgLT4gaTY0IHsKICAgIHZhbHVlCiAgICAgICAgLmdldChrZXkpCiAgICAgICAgLmFuZF90aGVuKHBhcnNlX2ludF9saWtlX25vZGUpCiAgICAgICAgLnVud3JhcF9vcihmYWxsYmFjaykKICAgICAgICAuY2xhbXAobWluLCBtYXgpCn0KCnB1YihzdXBlcikgZm4gcGFyc2VfaW50X2xpa2Vfbm9kZSh2YWx1ZTogJlZhbHVlKSAtPiBPcHRpb248aTY0PiB7CiAgICBsZXQgcmF3ID0gbWF0Y2ggdmFsdWUgewogICAgICAgIFZhbHVlOjpOdWxsID0+IHJldHVybiBOb25lLAogICAgICAgIFZhbHVlOjpCb29sKHRydWUpID0+ICJ0cnVlIi50b19zdHJpbmcoKSwKICAgICAgICBWYWx1ZTo6Qm9vbChmYWxzZSkgPT4gImZhbHNlIi50b19zdHJpbmcoKSwKICAgICAgICBWYWx1ZTo6TnVtYmVyKG51bWJlcikgPT4gbnVtYmVyLnRvX3N0cmluZygpLAogICAgICAgIFZhbHVlOjpTdHJpbmcodmFsdWUpID0+IHZhbHVlLmNsb25lKCksCiAgICAgICAgVmFsdWU6OkFycmF5KF8pIHwgVmFsdWU6Ok9iamVjdChfKSA9PiByZXR1cm4gTm9uZSwKICAgIH07CiAgICBjcmF0ZTo6bm9kZV9jb21wYXQ6OnBhcnNlX2k2NF9wcmVmaXhfdHJpbV9zdGFydCgmcmF3KQp9CgpwdWIoc3VwZXIpIGZuIHNlc3Npb25faXBfbW9iaWxpdHlfc2V0dGluZ3NfY2hhbmdlZChwcmV2aW91czogJlZhbHVlLCBuZXh0OiAmVmFsdWUpIC0+IGJvb2wgewogICAgcHJldmlvdXMKICAgICAgICAuZ2V0KCJzZXNzaW9uX2lwX21vYmlsaXR5X2VuYWJsZWQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAhPSBuZXh0CiAgICAgICAgICAgIC5nZXQoInNlc3Npb25faXBfbW9iaWxpdHlfZW5hYmxlZCIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICB8fCBwcmV2aW91cwogICAgICAgICAgICAuZ2V0KCJzZXNzaW9uX2lwX21vYmlsaXR5X3dpbmRvd19zZWNvbmRzIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19pNjQpCiAgICAgICAgICAgICE9IG5leHQKICAgICAgICAgICAgICAgIC5nZXQoInNlc3Npb25faXBfbW9iaWxpdHlfd2luZG93X3NlY29uZHMiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19pNjQpCn0KCnB1YihzdXBlcikgZm4gc3RyZWFtX2FjY2Vzc19ncmFudF9zZXR0aW5nc19jaGFuZ2VkKHByZXZpb3VzOiAmVmFsdWUsIG5leHQ6ICZWYWx1ZSkgLT4gYm9vbCB7CiAgICBwcmV2aW91cwogICAgICAgIC5nZXQoInBvc3RfbG9naW5faXBfZ3JhbnRfbW9kZSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgIT0gbmV4dC5nZXQoInBvc3RfbG9naW5faXBfZ3JhbnRfbW9kZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgfHwgcHJldmlvdXMKICAgICAgICAgICAgLmdldCgicG9zdF9sb2dpbl9pcF9ncmFudF90dGxfc2Vjb25kcyIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KQogICAgICAgICAgICAhPSBuZXh0CiAgICAgICAgICAgICAgICAuZ2V0KCJwb3N0X2xvZ2luX2lwX2dyYW50X3R0bF9zZWNvbmRzIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KQp9CgpwdWIoc3VwZXIpIGZuIG5vZGVfdG90cF9iaW5kX2NvbW1lbnQoY29tbWVudDogT3B0aW9uPFN0cmluZz4pIC0+IFN0cmluZyB7CiAgICBtYXRjaCBjb21tZW50IHsKICAgICAgICBTb21lKHZhbHVlKSBpZiAhdmFsdWUuaXNfZW1wdHkoKSA9PiB2YWx1ZSwKICAgICAgICBfID0+ICJOZXcgVG9rZW4iLnRvX3N0cmluZygpLAogICAgfQp9CgpwdWIoc3VwZXIpIHVzZSBjcmF0ZTo6anNvbl91dGlsczo6ZW5zdXJlX29iamVjdDsK
+use serde_json::{Value, json};
+
+use super::{
+    AUTH_MAX_TTL_SECONDS, AUTH_POST_LOGIN_IP_GRANT_TTL_SECONDS_DEFAULT,
+    AUTH_REMEMBER_ME_TTL_SECONDS_DEFAULT, AUTH_SESSION_IP_MOBILITY_WINDOW_SECONDS_DEFAULT,
+    AUTH_SESSION_TTL_SECONDS_DEFAULT,
+};
+
+pub(super) fn auth_credential_settings_from_config(config: &Value) -> Value {
+    normalize_auth_credential_settings(
+        config
+            .get("auth_credential_settings")
+            .cloned()
+            .unwrap_or_else(|| json!({})),
+        legacy_auto_add_whitelist_on_login(config),
+    )
+}
+
+pub(super) fn normalize_auth_credential_settings(
+    value: Value,
+    legacy_auto_add_whitelist_on_login: Option<bool>,
+) -> Value {
+    let session_ttl = bounded_int_like_node(
+        &value,
+        "session_ttl_seconds",
+        AUTH_SESSION_TTL_SECONDS_DEFAULT,
+        60,
+        AUTH_MAX_TTL_SECONDS,
+    );
+    let remember_ttl = bounded_int_like_node(
+        &value,
+        "remember_me_ttl_seconds",
+        AUTH_REMEMBER_ME_TTL_SECONDS_DEFAULT,
+        session_ttl,
+        AUTH_MAX_TTL_SECONDS,
+    );
+    let ip_grant_mode = match value
+        .get("post_login_ip_grant_mode")
+        .and_then(Value::as_str)
+    {
+        Some("disabled") => "disabled",
+        Some("custom") => "custom",
+        Some("follow_session") => "follow_session",
+        _ if legacy_auto_add_whitelist_on_login == Some(false) => "disabled",
+        _ => "follow_session",
+    };
+    let post_login_ip_grant_ttl_seconds = (ip_grant_mode == "custom").then(|| {
+        bounded_int_like_node(
+            &value,
+            "post_login_ip_grant_ttl_seconds",
+            AUTH_POST_LOGIN_IP_GRANT_TTL_SECONDS_DEFAULT,
+            60,
+            AUTH_MAX_TTL_SECONDS,
+        )
+    });
+    json!({
+        "session_ttl_seconds": session_ttl,
+        "remember_me_ttl_seconds": remember_ttl,
+        "post_login_ip_grant_mode": ip_grant_mode,
+        "post_login_ip_grant_ttl_seconds": post_login_ip_grant_ttl_seconds,
+        "session_ip_mobility_enabled": value
+            .get("session_ip_mobility_enabled")
+            .and_then(Value::as_bool)
+            .unwrap_or(false),
+        "session_ip_mobility_window_seconds": bounded_int_like_node(
+            &value,
+            "session_ip_mobility_window_seconds",
+            AUTH_SESSION_IP_MOBILITY_WINDOW_SECONDS_DEFAULT,
+            60,
+            24 * 3600,
+        ),
+        "passkey_bind_prompt_enabled": value
+            .get("passkey_bind_prompt_enabled")
+            .and_then(Value::as_bool)
+            .unwrap_or(true)
+    })
+}
+
+pub(super) fn is_allowed_auth_credential_setting(key: &str) -> bool {
+    matches!(
+        key,
+        "session_ttl_seconds"
+            | "remember_me_ttl_seconds"
+            | "post_login_ip_grant_mode"
+            | "post_login_ip_grant_ttl_seconds"
+            | "session_ip_mobility_enabled"
+            | "session_ip_mobility_window_seconds"
+            | "passkey_bind_prompt_enabled"
+    )
+}
+
+pub(super) fn legacy_auto_add_whitelist_on_login(config: &Value) -> Option<bool> {
+    config
+        .pointer("/subdomain_mode/auto_add_whitelist_on_login")
+        .and_then(Value::as_bool)
+}
+
+pub(super) fn bounded_int_like_node(
+    value: &Value,
+    key: &str,
+    fallback: i64,
+    min: i64,
+    max: i64,
+) -> i64 {
+    value
+        .get(key)
+        .and_then(parse_int_like_node)
+        .unwrap_or(fallback)
+        .clamp(min, max)
+}
+
+pub(super) fn parse_int_like_node(value: &Value) -> Option<i64> {
+    let raw = match value {
+        Value::Null => return None,
+        Value::Bool(true) => "true".to_string(),
+        Value::Bool(false) => "false".to_string(),
+        Value::Number(number) => number.to_string(),
+        Value::String(value) => value.clone(),
+        Value::Array(_) | Value::Object(_) => return None,
+    };
+    crate::node_compat::parse_i64_prefix_trim_start(&raw)
+}
+
+pub(super) fn session_ip_mobility_settings_changed(previous: &Value, next: &Value) -> bool {
+    previous
+        .get("session_ip_mobility_enabled")
+        .and_then(Value::as_bool)
+        != next
+            .get("session_ip_mobility_enabled")
+            .and_then(Value::as_bool)
+        || previous
+            .get("session_ip_mobility_window_seconds")
+            .and_then(Value::as_i64)
+            != next
+                .get("session_ip_mobility_window_seconds")
+                .and_then(Value::as_i64)
+}
+
+pub(super) fn stream_access_grant_settings_changed(previous: &Value, next: &Value) -> bool {
+    previous
+        .get("post_login_ip_grant_mode")
+        .and_then(Value::as_str)
+        != next.get("post_login_ip_grant_mode").and_then(Value::as_str)
+        || previous
+            .get("post_login_ip_grant_ttl_seconds")
+            .and_then(Value::as_i64)
+            != next
+                .get("post_login_ip_grant_ttl_seconds")
+                .and_then(Value::as_i64)
+}
+
+pub(super) fn node_totp_bind_comment(comment: Option<String>) -> String {
+    match comment {
+        Some(value) if !value.is_empty() => value,
+        _ => "New Token".to_string(),
+    }
+}
+
+pub(super) use crate::json_utils::ensure_object;

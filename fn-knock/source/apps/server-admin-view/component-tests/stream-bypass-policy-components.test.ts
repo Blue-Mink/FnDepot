@@ -1,1 +1,172 @@
-aW1wb3J0IHsgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBjcmVhdGVJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBkZXNjcmliZSwgZXhwZWN0LCBpdCB9IGZyb20gInZpdGVzdCI7CmltcG9ydCBTdHJlYW1CeXBhc3NQb2xpY3lFZGl0b3IgZnJvbSAiLi4vc3JjL3ZpZXdzL3N0cmVhbS1tYXBwaW5ncy9TdHJlYW1CeXBhc3NQb2xpY3lFZGl0b3IudnVlIjsKaW1wb3J0IFN0cmVhbUJ5cGFzc1J1bGVHcm91cHMgZnJvbSAiLi4vc3JjL3ZpZXdzL3N0cmVhbS1tYXBwaW5ncy9TdHJlYW1CeXBhc3NSdWxlR3JvdXBzLnZ1ZSI7CmltcG9ydCB0eXBlIHsgU3RyZWFtQnlwYXNzUG9saWN5Rm9ybSB9IGZyb20gIi4uL3NyYy92aWV3cy9zdHJlYW0tbWFwcGluZ3Mvc3RyZWFtLWJ5cGFzcy1wb2xpY3ktZm9ybSI7CmltcG9ydCB0eXBlIHsgU3RyZWFtQnlwYXNzUG9saWN5UGFnZU1vZGVsIH0gZnJvbSAiLi4vc3JjL3ZpZXdzL3N0cmVhbS1tYXBwaW5ncy91c2VTdHJlYW1CeXBhc3NQb2xpY3lQYWdlIjsKCmNvbnN0IGNyZWF0ZUkxOG5QbHVnaW4gPSAoKSA9PgogIGNyZWF0ZUkxOG4oewogICAgbGVnYWN5OiBmYWxzZSwKICAgIGxvY2FsZTogImVuIiwKICAgIG1lc3NhZ2VzOiB7CiAgICAgIGVuOiB7CiAgICAgICAgY29tbW9uOiB7IGNhbmNlbDogIkNhbmNlbCIsIGxvYWRpbmdDb25maWc6ICJMb2FkaW5nIiwgc2F2ZTogIlNhdmUiIH0sCiAgICAgICAgYWRtaW46IHsKICAgICAgICAgIGFkdmFuY2VkQXV0aDogewogICAgICAgICAgICBhZGRBbmRDb25kaXRpb246ICJBZGQgQU5EIGNvbmRpdGlvbiIsCiAgICAgICAgICAgIGFkZE9yR3JvdXA6ICJBZGQgT1IgZ3JvdXAiLAogICAgICAgICAgICBhZGRSZWdpb246ICJBZGQgcmVnaW9uIiwKICAgICAgICAgICAgZGVsZXRlQ29uZGl0aW9uOiAiRGVsZXRlIGNvbmRpdGlvbiIsCiAgICAgICAgICAgIGRlbGV0ZUdyb3VwOiAiRGVsZXRlIGdyb3VwIiwKICAgICAgICAgICAgaW52YWxpZFNvdXJjZUNpZHJMaW5lOiAiSW52YWxpZCBDSURSIHtsaW5lfSIsCiAgICAgICAgICAgIGludmFsaWRTb3VyY2VJcExpbmU6ICJJbnZhbGlkIElQIHtsaW5lfSIsCiAgICAgICAgICAgIG1hdGNoT3BlcmF0b3I6ICJNYXRjaCBvcGVyYXRvciIsCiAgICAgICAgICAgIG1hdGNoVGFyZ2V0OiAiTWF0Y2ggdGFyZ2V0IiwKICAgICAgICAgICAgbWF0Y2hWYWx1ZTogIk1hdGNoIHZhbHVlIiwKICAgICAgICAgICAgbm9SZWdpb25zOiAiTm8gcmVnaW9ucyIsCiAgICAgICAgICAgIG9wZXJhdG9yRXF1YWxzOiAiRXF1YWxzIiwKICAgICAgICAgICAgb3BlcmF0b3JJbkNpZHI6ICJJbiBDSURSIiwKICAgICAgICAgICAgb3BlcmF0b3JJblJlZ2lvbjogIkluIHJlZ2lvbiIsCiAgICAgICAgICAgIG9wZXJhdG9yTm90RXF1YWxzOiAiTm90IGVxdWFscyIsCiAgICAgICAgICAgIG9wZXJhdG9yTm90SW5DaWRyOiAiTm90IGluIENJRFIiLAogICAgICAgICAgICBvcGVyYXRvck5vdEluUmVnaW9uOiAiTm90IGluIHJlZ2lvbiIsCiAgICAgICAgICAgIHByb3ZpbmNlOiAiUHJvdmluY2UiLAogICAgICAgICAgICByZWdpb25EaWFsb2dEZXNjcmlwdGlvbjogIlNlbGVjdCByZWdpb24iLAogICAgICAgICAgICByZWdpb25Mb2FkRmFpbGVkOiAiUmVnaW9uIGZhaWxlZCIsCiAgICAgICAgICAgIHJlZ2lvbkxvYWRGYWlsZWREZXNjcmlwdGlvbjogIlJlZ2lvbiB1bmF2YWlsYWJsZSIsCiAgICAgICAgICAgIHJldHJ5OiAiUmV0cnkiLAogICAgICAgICAgICBzY29wZTogIlNjb3BlIiwKICAgICAgICAgICAgc2VsZWN0Q2l0eTogIlNlbGVjdCBjaXR5IiwKICAgICAgICAgICAgc2VsZWN0ZWRSZWdpb25zOiAie2NvdW50fSBzZWxlY3RlZCIsCiAgICAgICAgICAgIHNlbGVjdFByb3ZpbmNlOiAiU2VsZWN0IHByb3ZpbmNlIiwKICAgICAgICAgICAgc2VsZWN0UHJvdmluY2VGaXJzdDogIlNlbGVjdCBwcm92aW5jZSBmaXJzdCIsCiAgICAgICAgICAgIHNvdXJjZUNpZHJIaW50OiAiQ0lEUiBoaW50IiwKICAgICAgICAgICAgc291cmNlQ2lkckxhYmVsOiAiQ0lEUiByYW5nZXMiLAogICAgICAgICAgICBzb3VyY2VDaWRyUGxhY2Vob2xkZXI6ICIxOTIuMC4yLjAvMjQiLAogICAgICAgICAgICBzb3VyY2VJcEhpbnQ6ICJJUCBoaW50IiwKICAgICAgICAgICAgc291cmNlSXBMYWJlbDogIklQIGFkZHJlc3NlcyIsCiAgICAgICAgICAgIHNvdXJjZUlwUGxhY2Vob2xkZXI6ICIxOTIuMC4yLjEwIiwKICAgICAgICAgICAgdGFyZ2V0U291cmNlSXA6ICJTb3VyY2UgSVAiLAogICAgICAgICAgICB0YXJnZXRTb3VyY2VSZWdpb246ICJTb3VyY2UgcmVnaW9uIiwKICAgICAgICAgICAgdW5hdmFpbGFibGU6ICJVbmF2YWlsYWJsZSIsCiAgICAgICAgICB9LAogICAgICAgICAgc3RyZWFtTWFwcGluZ3M6IHsKICAgICAgICAgICAgYnlwYXNzUG9saWN5RGVzY3JpcHRpb246ICJPUiBiZXR3ZWVuIGdyb3VwcywgQU5EIHdpdGhpbiBhIGdyb3VwLiIsCiAgICAgICAgICAgIHBvbGljeUdyb3VwQWxsOiAiQWxsIGNvbmRpdGlvbnMgbXVzdCBtYXRjaCIsCiAgICAgICAgICAgIHBvbGljeUF1dGhEaXNhYmxlZE5vdGljZToKICAgICAgICAgICAgICAiQXV0aGVudGljYXRpb24gaXMgZGlzYWJsZWQ7IHRoaXMgcmVtYWlucyBhIGRyYWZ0LiIsCiAgICAgICAgICAgIHBvbGljeUJyb2FkUnVsZVdhcm5pbmc6ICJCcm9hZCBydWxlIiwKICAgICAgICAgICAgcG9saWN5RGlzYWJsZWRTYXZlSGludDoKICAgICAgICAgICAgICAiQnlwYXNzIHdpbGwgYmUgZGlzYWJsZWQ7IHJ1bGVzIHJlbWFpbiBhIGRyYWZ0LiIsCiAgICAgICAgICAgIHBvbGljeUVuYWJsZWQ6ICJFbmFibGUgYnlwYXNzIiwKICAgICAgICAgICAgcG9saWN5RW5hYmxlZERlc2NyaXB0aW9uOiAiU2tpcCBhdXRoZW50aWNhdGlvbiBmb3IgbWF0Y2hlcyIsCiAgICAgICAgICAgIHBvbGljeU5vR3JvdXBzOiAiTm8gZ3JvdXBzIiwKICAgICAgICAgICAgcG9saWN5UmVnaW9uRGVzY3JpcHRpb246ICJDb21waWxlIHJlZ2lvbnMgdG8gQ0lEUnMiLAogICAgICAgICAgICBwb2xpY3lSdWxlR3JvdXBzOiAiU291cmNlIGFsbG93IHJ1bGVzIiwKICAgICAgICAgICAgcG9saWN5U2F2ZUhpbnQ6ICJTYXZlIGNoYW5nZXMiLAogICAgICAgICAgICBwb2xpY3lWYWxpZGF0aW9uTm90aWNlOiAiU3RyaWN0IHZhbGlkYXRpb24gc3RpbGwgcnVucyIsCiAgICAgICAgICAgIHNhdmluZ1BvbGljeTogIlNhdmluZyIsCiAgICAgICAgICB9LAogICAgICAgIH0sCiAgICAgIH0sCiAgICB9LAogIH0pOwoKY29uc3QgZm9ybSA9ICgpOiBTdHJlYW1CeXBhc3NQb2xpY3lGb3JtID0+ICh7CiAgYnJvYWRfcnVsZV9jb25maXJtZWQ6IGZhbHNlLAogIGVuYWJsZWQ6IHRydWUsCiAgZ3JvdXBzOiBbCiAgICB7CiAgICAgIGlkOiAiZ3JvdXAtMSIsCiAgICAgIGNvbmRpdGlvbnM6IFsKICAgICAgICB7CiAgICAgICAgICBpZDogImNvbmRpdGlvbi0xIiwKICAgICAgICAgIG9wZXJhdG9yOiAiZXF1YWxzIiwKICAgICAgICAgIHBvbGljeV9pZDogIiIsCiAgICAgICAgICBzZWxlY3Rpb25zOiBbXSwKICAgICAgICAgIHRhcmdldDogInNvdXJjZV9pcCIsCiAgICAgICAgICB2YWx1ZXM6IFsiMTkyLjAuMi4xMCJdLAogICAgICAgIH0sCiAgICAgIF0sCiAgICB9LAogIF0sCiAgcG9saWN5X3ZlcnNpb246ICJ2ZXJzaW9uLTEiLAp9KTsKCmRlc2NyaWJlKCJzdHJlYW0gYnlwYXNzIHZpc3VhbCBlZGl0b3IiLCAoKSA9PiB7CiAgaXQoInJlbmRlcnMgT1IvQU5EIHN0cnVjdHVyZSBhbmQgZXhwb3NlcyBvbmx5IHNvdXJjZSBjb25kaXRpb25zIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgcG9saWN5ID0gZm9ybSgpOwogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KFN0cmVhbUJ5cGFzc1J1bGVHcm91cHMsIHsKICAgICAgcHJvcHM6IHsgZm9ybTogcG9saWN5LCBzYXZpbmc6IGZhbHNlLCB2YWx1ZURyYWZ0czoge30gfSwKICAgICAgZ2xvYmFsOiB7CiAgICAgICAgcGx1Z2luczogW2NyZWF0ZUkxOG5QbHVnaW4oKV0sCiAgICAgICAgc3R1YnM6IHsgQ2lkclJlZ2lvblNlbGVjdG9yOiB0cnVlIH0sCiAgICAgIH0sCiAgICB9KTsKCiAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLnRvQ29udGFpbigiU291cmNlIGFsbG93IHJ1bGVzIik7CiAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLnRvQ29udGFpbigiT1IgMSIpOwogICAgY29uc3QgdGFyZ2V0ID0gd3JhcHBlci5nZXQoInNlbGVjdCIpOwogICAgZXhwZWN0KAogICAgICB0YXJnZXQuZmluZEFsbCgib3B0aW9uIikubWFwKChvcHRpb24pID0+IG9wdGlvbi5hdHRyaWJ1dGVzKCJ2YWx1ZSIpKSwKICAgICkudG9FcXVhbChbInNvdXJjZV9pcCIsICJzb3VyY2VfcmVnaW9uIl0pOwoKICAgIGNvbnN0IGFkZENvbmRpdGlvbiA9IHdyYXBwZXIKICAgICAgLmZpbmRBbGwoImJ1dHRvbiIpCiAgICAgIC5maW5kKChidXR0b24pID0+IGJ1dHRvbi50ZXh0KCkuaW5jbHVkZXMoIkFkZCBBTkQgY29uZGl0aW9uIikpOwogICAgYXdhaXQgYWRkQ29uZGl0aW9uPy50cmlnZ2VyKCJjbGljayIpOwogICAgZXhwZWN0KHBvbGljeS5ncm91cHNbMF0/LmNvbmRpdGlvbnMpLnRvSGF2ZUxlbmd0aCgyKTsKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKCJBTkQiKTsKCiAgICBjb25zdCBhZGRHcm91cCA9IHdyYXBwZXIKICAgICAgLmZpbmRBbGwoImJ1dHRvbiIpCiAgICAgIC5maW5kKChidXR0b24pID0+IGJ1dHRvbi50ZXh0KCkuaW5jbHVkZXMoIkFkZCBPUiBncm91cCIpKTsKICAgIGF3YWl0IGFkZEdyb3VwPy50cmlnZ2VyKCJjbGljayIpOwogICAgZXhwZWN0KHBvbGljeS5ncm91cHMpLnRvSGF2ZUxlbmd0aCgyKTsKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKCJPUiAyIik7CiAgfSk7CgogIGl0KCJoaWRlcyBkcmFmdCBydWxlcyB3aGVuIGxvZ2luIGJ5cGFzcyBjYW5ub3QgYmUgZW5hYmxlZCIsICgpID0+IHsKICAgIGNvbnN0IHBvbGljeSA9IHsgLi4uZm9ybSgpLCBlbmFibGVkOiBmYWxzZSwgZ3JvdXBzOiBbXSB9OwogICAgY29uc3QgbW9kZWwgPSB7CiAgICAgIGF1dGhFbmFibGVkOiBmYWxzZSwKICAgICAgY2FuY2VsOiAoKSA9PiB1bmRlZmluZWQsCiAgICAgIGZvcm06IHBvbGljeSwKICAgICAgaXNCcm9hZFJ1bGU6IGZhbHNlLAogICAgICBpc0RpcnR5OiBmYWxzZSwKICAgICAgc2F2ZTogKCkgPT4gdW5kZWZpbmVkLAogICAgICBzYXZpbmc6IGZhbHNlLAogICAgICBzZXRFbmFibGVkOiAoKSA9PiB1bmRlZmluZWQsCiAgICAgIHZhbHVlRHJhZnRzOiB7fSwKICAgIH0gYXMgdW5rbm93biBhcyBTdHJlYW1CeXBhc3NQb2xpY3lQYWdlTW9kZWw7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoU3RyZWFtQnlwYXNzUG9saWN5RWRpdG9yLCB7CiAgICAgIHByb3BzOiB7IG1vZGVsIH0sCiAgICAgIGdsb2JhbDogewogICAgICAgIHBsdWdpbnM6IFtjcmVhdGVJMThuUGx1Z2luKCldLAogICAgICAgIHN0dWJzOiB7CiAgICAgICAgICBGbG9hdGluZ0FjdGlvbkRvY2s6IHsKICAgICAgICAgICAgdGVtcGxhdGU6ICc8ZGl2PjxzbG90IG5hbWU9ImlubGluZSIgLz48L2Rpdj4nLAogICAgICAgICAgfSwKICAgICAgICAgIFN0cmVhbUJ5cGFzc1J1bGVHcm91cHM6IHsKICAgICAgICAgICAgdGVtcGxhdGU6ICc8ZGl2IGRhdGEtdGVzdGlkPSJydWxlLWdyb3VwcyI+UnVsZSBncm91cHM8L2Rpdj4nLAogICAgICAgICAgfSwKICAgICAgICAgIFN3aXRjaDogewogICAgICAgICAgICBwcm9wczogWyJkaXNhYmxlZCJdLAogICAgICAgICAgICB0ZW1wbGF0ZToKICAgICAgICAgICAgICAnPGJ1dHRvbiBkYXRhLXRlc3RpZD0iZW5hYmxlZC1zd2l0Y2giIDpkaXNhYmxlZD0iZGlzYWJsZWQiPjwvYnV0dG9uPicsCiAgICAgICAgICB9LAogICAgICAgIH0sCiAgICAgIH0sCiAgICB9KTsKCiAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLnRvQ29udGFpbigidGhpcyByZW1haW5zIGEgZHJhZnQiKTsKICAgIGV4cGVjdCgKICAgICAgd3JhcHBlci5nZXQoJ1tkYXRhLXRlc3RpZD0iZW5hYmxlZC1zd2l0Y2giXScpLmF0dHJpYnV0ZXMoKSwKICAgICkudG9IYXZlUHJvcGVydHkoImRpc2FibGVkIik7CiAgICBleHBlY3Qod3JhcHBlci5maW5kKCdbZGF0YS10ZXN0aWQ9InJ1bGUtZ3JvdXBzIl0nKS5leGlzdHMoKSkudG9CZShmYWxzZSk7CiAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLm5vdC50b0NvbnRhaW4oIlN0cmljdCB2YWxpZGF0aW9uIHN0aWxsIHJ1bnMiKTsKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKCJydWxlcyByZW1haW4gYSBkcmFmdCIpOwogIH0pOwp9KTsK
+import { mount } from "@vue/test-utils";
+import { createI18n } from "vue-i18n";
+import { describe, expect, it } from "vitest";
+import StreamBypassPolicyEditor from "../src/views/stream-mappings/StreamBypassPolicyEditor.vue";
+import StreamBypassRuleGroups from "../src/views/stream-mappings/StreamBypassRuleGroups.vue";
+import type { StreamBypassPolicyForm } from "../src/views/stream-mappings/stream-bypass-policy-form";
+import type { StreamBypassPolicyPageModel } from "../src/views/stream-mappings/useStreamBypassPolicyPage";
+
+const createI18nPlugin = () =>
+  createI18n({
+    legacy: false,
+    locale: "en",
+    messages: {
+      en: {
+        common: { cancel: "Cancel", loadingConfig: "Loading", save: "Save" },
+        admin: {
+          advancedAuth: {
+            addAndCondition: "Add AND condition",
+            addOrGroup: "Add OR group",
+            addRegion: "Add region",
+            deleteCondition: "Delete condition",
+            deleteGroup: "Delete group",
+            invalidSourceCidrLine: "Invalid CIDR {line}",
+            invalidSourceIpLine: "Invalid IP {line}",
+            matchOperator: "Match operator",
+            matchTarget: "Match target",
+            matchValue: "Match value",
+            noRegions: "No regions",
+            operatorEquals: "Equals",
+            operatorInCidr: "In CIDR",
+            operatorInRegion: "In region",
+            operatorNotEquals: "Not equals",
+            operatorNotInCidr: "Not in CIDR",
+            operatorNotInRegion: "Not in region",
+            province: "Province",
+            regionDialogDescription: "Select region",
+            regionLoadFailed: "Region failed",
+            regionLoadFailedDescription: "Region unavailable",
+            retry: "Retry",
+            scope: "Scope",
+            selectCity: "Select city",
+            selectedRegions: "{count} selected",
+            selectProvince: "Select province",
+            selectProvinceFirst: "Select province first",
+            sourceCidrHint: "CIDR hint",
+            sourceCidrLabel: "CIDR ranges",
+            sourceCidrPlaceholder: "192.0.2.0/24",
+            sourceIpHint: "IP hint",
+            sourceIpLabel: "IP addresses",
+            sourceIpPlaceholder: "192.0.2.10",
+            targetSourceIp: "Source IP",
+            targetSourceRegion: "Source region",
+            unavailable: "Unavailable",
+          },
+          streamMappings: {
+            bypassPolicyDescription: "OR between groups, AND within a group.",
+            policyGroupAll: "All conditions must match",
+            policyAuthDisabledNotice:
+              "Authentication is disabled; this remains a draft.",
+            policyBroadRuleWarning: "Broad rule",
+            policyDisabledSaveHint:
+              "Bypass will be disabled; rules remain a draft.",
+            policyEnabled: "Enable bypass",
+            policyEnabledDescription: "Skip authentication for matches",
+            policyNoGroups: "No groups",
+            policyRegionDescription: "Compile regions to CIDRs",
+            policyRuleGroups: "Source allow rules",
+            policySaveHint: "Save changes",
+            policyValidationNotice: "Strict validation still runs",
+            savingPolicy: "Saving",
+          },
+        },
+      },
+    },
+  });
+
+const form = (): StreamBypassPolicyForm => ({
+  broad_rule_confirmed: false,
+  enabled: true,
+  groups: [
+    {
+      id: "group-1",
+      conditions: [
+        {
+          id: "condition-1",
+          operator: "equals",
+          policy_id: "",
+          selections: [],
+          target: "source_ip",
+          values: ["192.0.2.10"],
+        },
+      ],
+    },
+  ],
+  policy_version: "version-1",
+});
+
+describe("stream bypass visual editor", () => {
+  it("renders OR/AND structure and exposes only source conditions", async () => {
+    const policy = form();
+    const wrapper = mount(StreamBypassRuleGroups, {
+      props: { form: policy, saving: false, valueDrafts: {} },
+      global: {
+        plugins: [createI18nPlugin()],
+        stubs: { CidrRegionSelector: true },
+      },
+    });
+
+    expect(wrapper.text()).toContain("Source allow rules");
+    expect(wrapper.text()).toContain("OR 1");
+    const target = wrapper.get("select");
+    expect(
+      target.findAll("option").map((option) => option.attributes("value")),
+    ).toEqual(["source_ip", "source_region"]);
+
+    const addCondition = wrapper
+      .findAll("button")
+      .find((button) => button.text().includes("Add AND condition"));
+    await addCondition?.trigger("click");
+    expect(policy.groups[0]?.conditions).toHaveLength(2);
+    expect(wrapper.text()).toContain("AND");
+
+    const addGroup = wrapper
+      .findAll("button")
+      .find((button) => button.text().includes("Add OR group"));
+    await addGroup?.trigger("click");
+    expect(policy.groups).toHaveLength(2);
+    expect(wrapper.text()).toContain("OR 2");
+  });
+
+  it("hides draft rules when login bypass cannot be enabled", () => {
+    const policy = { ...form(), enabled: false, groups: [] };
+    const model = {
+      authEnabled: false,
+      cancel: () => undefined,
+      form: policy,
+      isBroadRule: false,
+      isDirty: false,
+      save: () => undefined,
+      saving: false,
+      setEnabled: () => undefined,
+      valueDrafts: {},
+    } as unknown as StreamBypassPolicyPageModel;
+    const wrapper = mount(StreamBypassPolicyEditor, {
+      props: { model },
+      global: {
+        plugins: [createI18nPlugin()],
+        stubs: {
+          FloatingActionDock: {
+            template: '<div><slot name="inline" /></div>',
+          },
+          StreamBypassRuleGroups: {
+            template: '<div data-testid="rule-groups">Rule groups</div>',
+          },
+          Switch: {
+            props: ["disabled"],
+            template:
+              '<button data-testid="enabled-switch" :disabled="disabled"></button>',
+          },
+        },
+      },
+    });
+
+    expect(wrapper.text()).toContain("this remains a draft");
+    expect(
+      wrapper.get('[data-testid="enabled-switch"]').attributes(),
+    ).toHaveProperty("disabled");
+    expect(wrapper.find('[data-testid="rule-groups"]').exists()).toBe(false);
+    expect(wrapper.text()).not.toContain("Strict validation still runs");
+    expect(wrapper.text()).toContain("rules remain a draft");
+  });
+});

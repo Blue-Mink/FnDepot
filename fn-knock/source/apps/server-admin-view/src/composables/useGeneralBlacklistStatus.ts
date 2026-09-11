@@ -1,1 +1,106 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgd2F0Y2gsIHR5cGUgQ29tcHV0ZWRSZWYsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsKICBHZW5lcmFsQmxhY2tsaXN0QVBJLAogIHR5cGUgR2VuZXJhbEJsYWNrbGlzdFJlY29yZCwKfSBmcm9tICJAL2xpYi9hcGkvc2VjdXJpdHkiOwppbXBvcnQgeyBub3JtYWxpemVJcEtleSB9IGZyb20gIi4vdXNlSXBMb2NhdGlvbkJhdGNoIjsKCnR5cGUgTWF5YmVJcExpc3RSZWYgPSBSZWY8c3RyaW5nW10+IHwgQ29tcHV0ZWRSZWY8c3RyaW5nW10+OwoKY29uc3Qgbm9ybWFsaXplVHJhY2tlZElwID0gKGlwPzogc3RyaW5nIHwgbnVsbCkgPT4gewogIGNvbnN0IG5vcm1hbGl6ZWQgPSBub3JtYWxpemVJcEtleShTdHJpbmcoaXAgfHwgIiIpKTsKICByZXR1cm4gbm9ybWFsaXplZCB8fCBTdHJpbmcoaXAgfHwgIiIpLnRyaW0oKTsKfTsKCmNvbnN0IHVuaXF1ZUlwcyA9IChpcHM6IHN0cmluZ1tdKSA9PgogIEFycmF5LmZyb20oCiAgICBuZXcgU2V0KAogICAgICBpcHMubWFwKChpcCkgPT4gbm9ybWFsaXplVHJhY2tlZElwKGlwKSkuZmlsdGVyKChpcCkgPT4gQm9vbGVhbihpcCkpLAogICAgKSwKICApOwoKZXhwb3J0IGNvbnN0IHVzZUdlbmVyYWxCbGFja2xpc3RTdGF0dXMgPSAoaXBzOiBNYXliZUlwTGlzdFJlZikgPT4gewogIGNvbnN0IHJlY29yZHMgPSByZWY8UmVjb3JkPHN0cmluZywgR2VuZXJhbEJsYWNrbGlzdFJlY29yZD4+KHt9KTsKICBjb25zdCBsb2FkaW5nID0gcmVmKGZhbHNlKTsKICBsZXQgcnVuSWQgPSAwOwoKICBjb25zdCByZWZyZXNoID0gYXN5bmMgKG92ZXJyaWRlSXBzPzogc3RyaW5nW10pID0+IHsKICAgIGNvbnN0IHRyYWNrZWRJcHMgPSB1bmlxdWVJcHMob3ZlcnJpZGVJcHMgPz8gaXBzLnZhbHVlKTsKICAgIGNvbnN0IGN1cnJlbnRSdW5JZCA9ICsrcnVuSWQ7CgogICAgaWYgKHRyYWNrZWRJcHMubGVuZ3RoID09PSAwKSB7CiAgICAgIHJlY29yZHMudmFsdWUgPSB7fTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGxvYWRpbmcudmFsdWUgPSB0cnVlOwogICAgdHJ5IHsKICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IEdlbmVyYWxCbGFja2xpc3RBUEkuZ2V0U3RhdHVzKHRyYWNrZWRJcHMpOwogICAgICBpZiAoY3VycmVudFJ1bklkICE9PSBydW5JZCkgcmV0dXJuOwoKICAgICAgY29uc3QgbmV4dFJlY29yZHM6IFJlY29yZDxzdHJpbmcsIEdlbmVyYWxCbGFja2xpc3RSZWNvcmQ+ID0ge307CiAgICAgIGZvciAoY29uc3QgW2lwLCByZWNvcmRdIG9mIE9iamVjdC5lbnRyaWVzKGRhdGEucmVjb3JkcyB8fCB7fSkpIHsKICAgICAgICBjb25zdCBub3JtYWxpemVkSXAgPSBub3JtYWxpemVUcmFja2VkSXAoaXApOwogICAgICAgIGlmIChub3JtYWxpemVkSXApIG5leHRSZWNvcmRzW25vcm1hbGl6ZWRJcF0gPSByZWNvcmQ7CiAgICAgICAgaWYgKHJlY29yZC5pcCkgbmV4dFJlY29yZHNbbm9ybWFsaXplVHJhY2tlZElwKHJlY29yZC5pcCldID0gcmVjb3JkOwogICAgICB9CiAgICAgIHJlY29yZHMudmFsdWUgPSBuZXh0UmVjb3JkczsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGlmIChjdXJyZW50UnVuSWQgIT09IHJ1bklkKSByZXR1cm47CiAgICAgIGNvbnNvbGUuZXJyb3IoIltnZW5lcmFsLWJsYWNrbGlzdF0gZmFpbGVkIHRvIGZldGNoIHN0YXR1czoiLCBlcnJvcik7CiAgICAgIGNvbnN0IHRyYWNrZWRTZXQgPSBuZXcgU2V0KHRyYWNrZWRJcHMpOwogICAgICByZWNvcmRzLnZhbHVlID0gT2JqZWN0LmZyb21FbnRyaWVzKAogICAgICAgIE9iamVjdC5lbnRyaWVzKHJlY29yZHMudmFsdWUpLmZpbHRlcigoW2lwLCByZWNvcmRdKSA9PiB7CiAgICAgICAgICBpZiAodHJhY2tlZFNldC5oYXMoaXApKSByZXR1cm4gdHJ1ZTsKICAgICAgICAgIGNvbnN0IHJlY29yZElwID0gbm9ybWFsaXplVHJhY2tlZElwKHJlY29yZC5pcCk7CiAgICAgICAgICByZXR1cm4gQm9vbGVhbihyZWNvcmRJcCAmJiB0cmFja2VkU2V0LmhhcyhyZWNvcmRJcCkpOwogICAgICAgIH0pLAogICAgICApOwogICAgfSBmaW5hbGx5IHsKICAgICAgaWYgKGN1cnJlbnRSdW5JZCA9PT0gcnVuSWQpIHsKICAgICAgICBsb2FkaW5nLnZhbHVlID0gZmFsc2U7CiAgICAgIH0KICAgIH0KICB9OwoKICBjb25zdCBnZXRSZWNvcmQgPSAoaXA/OiBzdHJpbmcgfCBudWxsKSA9PiB7CiAgICBjb25zdCBub3JtYWxpemVkSXAgPSBub3JtYWxpemVUcmFja2VkSXAoaXApOwogICAgcmV0dXJuIG5vcm1hbGl6ZWRJcCA/IHJlY29yZHMudmFsdWVbbm9ybWFsaXplZElwXSB8fCBudWxsIDogbnVsbDsKICB9OwoKICBjb25zdCBpc0JsYWNrbGlzdGVkID0gKGlwPzogc3RyaW5nIHwgbnVsbCkgPT4gQm9vbGVhbihnZXRSZWNvcmQoaXApKTsKCiAgY29uc3Qgc3BsaXRCeVN0YXR1cyA9IChjYW5kaWRhdGVJcHM6IHN0cmluZ1tdKSA9PiB7CiAgICBjb25zdCBub3JtYWxpemVkSXBzID0gdW5pcXVlSXBzKGNhbmRpZGF0ZUlwcyk7CiAgICByZXR1cm4gewogICAgICBibG9ja2VkOiBub3JtYWxpemVkSXBzLmZpbHRlcigoaXApID0+IGlzQmxhY2tsaXN0ZWQoaXApKSwKICAgICAgdW5ibG9ja2VkOiBub3JtYWxpemVkSXBzLmZpbHRlcigoaXApID0+ICFpc0JsYWNrbGlzdGVkKGlwKSksCiAgICB9OwogIH07CgogIGNvbnN0IGJsb2NrZWRJcHMgPSBjb21wdXRlZCgoKSA9PgogICAgdW5pcXVlSXBzKGlwcy52YWx1ZSkuZmlsdGVyKChpcCkgPT4gaXNCbGFja2xpc3RlZChpcCkpLAogICk7CiAgY29uc3QgdW5ibG9ja2VkSXBzID0gY29tcHV0ZWQoKCkgPT4KICAgIHVuaXF1ZUlwcyhpcHMudmFsdWUpLmZpbHRlcigoaXApID0+ICFpc0JsYWNrbGlzdGVkKGlwKSksCiAgKTsKCiAgd2F0Y2goCiAgICBpcHMsCiAgICAoKSA9PiB7CiAgICAgIHZvaWQgcmVmcmVzaCgpOwogICAgfSwKICAgIHsgaW1tZWRpYXRlOiB0cnVlIH0sCiAgKTsKCiAgcmV0dXJuIHsKICAgIHJlY29yZHMsCiAgICBsb2FkaW5nLAogICAgcmVmcmVzaCwKICAgIGdldFJlY29yZCwKICAgIGlzQmxhY2tsaXN0ZWQsCiAgICBzcGxpdEJ5U3RhdHVzLAogICAgYmxvY2tlZElwcywKICAgIHVuYmxvY2tlZElwcywKICB9Owp9Owo=
+import { computed, ref, watch, type ComputedRef, type Ref } from "vue";
+import {
+  GeneralBlacklistAPI,
+  type GeneralBlacklistRecord,
+} from "@/lib/api/security";
+import { normalizeIpKey } from "./useIpLocationBatch";
+
+type MaybeIpListRef = Ref<string[]> | ComputedRef<string[]>;
+
+const normalizeTrackedIp = (ip?: string | null) => {
+  const normalized = normalizeIpKey(String(ip || ""));
+  return normalized || String(ip || "").trim();
+};
+
+const uniqueIps = (ips: string[]) =>
+  Array.from(
+    new Set(
+      ips.map((ip) => normalizeTrackedIp(ip)).filter((ip) => Boolean(ip)),
+    ),
+  );
+
+export const useGeneralBlacklistStatus = (ips: MaybeIpListRef) => {
+  const records = ref<Record<string, GeneralBlacklistRecord>>({});
+  const loading = ref(false);
+  let runId = 0;
+
+  const refresh = async (overrideIps?: string[]) => {
+    const trackedIps = uniqueIps(overrideIps ?? ips.value);
+    const currentRunId = ++runId;
+
+    if (trackedIps.length === 0) {
+      records.value = {};
+      return;
+    }
+
+    loading.value = true;
+    try {
+      const data = await GeneralBlacklistAPI.getStatus(trackedIps);
+      if (currentRunId !== runId) return;
+
+      const nextRecords: Record<string, GeneralBlacklistRecord> = {};
+      for (const [ip, record] of Object.entries(data.records || {})) {
+        const normalizedIp = normalizeTrackedIp(ip);
+        if (normalizedIp) nextRecords[normalizedIp] = record;
+        if (record.ip) nextRecords[normalizeTrackedIp(record.ip)] = record;
+      }
+      records.value = nextRecords;
+    } catch (error) {
+      if (currentRunId !== runId) return;
+      console.error("[general-blacklist] failed to fetch status:", error);
+      const trackedSet = new Set(trackedIps);
+      records.value = Object.fromEntries(
+        Object.entries(records.value).filter(([ip, record]) => {
+          if (trackedSet.has(ip)) return true;
+          const recordIp = normalizeTrackedIp(record.ip);
+          return Boolean(recordIp && trackedSet.has(recordIp));
+        }),
+      );
+    } finally {
+      if (currentRunId === runId) {
+        loading.value = false;
+      }
+    }
+  };
+
+  const getRecord = (ip?: string | null) => {
+    const normalizedIp = normalizeTrackedIp(ip);
+    return normalizedIp ? records.value[normalizedIp] || null : null;
+  };
+
+  const isBlacklisted = (ip?: string | null) => Boolean(getRecord(ip));
+
+  const splitByStatus = (candidateIps: string[]) => {
+    const normalizedIps = uniqueIps(candidateIps);
+    return {
+      blocked: normalizedIps.filter((ip) => isBlacklisted(ip)),
+      unblocked: normalizedIps.filter((ip) => !isBlacklisted(ip)),
+    };
+  };
+
+  const blockedIps = computed(() =>
+    uniqueIps(ips.value).filter((ip) => isBlacklisted(ip)),
+  );
+  const unblockedIps = computed(() =>
+    uniqueIps(ips.value).filter((ip) => !isBlacklisted(ip)),
+  );
+
+  watch(
+    ips,
+    () => {
+      void refresh();
+    },
+    { immediate: true },
+  );
+
+  return {
+    records,
+    loading,
+    refresh,
+    getRecord,
+    isBlacklisted,
+    splitByStatus,
+    blockedIps,
+    unblockedIps,
+  };
+};

@@ -1,1 +1,129 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4iICYmIHB3ZCkiCnNvdXJjZSAiJHtST09UX0RJUn0vc2NyaXB0cy92ZXJzaW9uLnNoIgpPVVRQVVRfRElSPSIkezE6LSR7Uk9PVF9ESVJ9L2Rpc3QvZm4ta25vY2stcnVudGltZX0iCkZPUkNFX0ZST05URU5EX1JFQlVJTEQ9IiR7Rk5fS05PQ0tfRk9SQ0VfRlJPTlRFTkRfUkVCVUlMRDotMX0iCkJBQ0tFTkRfSU1QTD0iJHtGTl9LTk9DS19CQUNLRU5EX0lNUEw6LXJ1c3R9IgpCVUlMRF9SVVNUX0JBQ0tFTkQ9IiR7Rk5fS05PQ0tfQlVJTERfUlVTVF9CQUNLRU5EOi0xfSIKR0FURVdBWV9BUkNIRVNfUkFXPSIke0ZOX0tOT0NLX1JVTlRJTUVfR0FURVdBWV9BUkNIRVM6LSR7Rk5fS05PQ0tfRlBLX0FSQ0hFUzotYW1kNjQgYXJtNjR9fSIKR0FURVdBWV9BUkNIRVM9KCkKCkFETUlOX0RJU1RfRElSPSIke09VVFBVVF9ESVJ9L3VpL3d3dyIKQVVUSF9ESVNUX0RJUj0iJHtPVVRQVVRfRElSfS9zZXJ2ZXItYXV0aC12aWV3L2Rpc3QiClNFUlZFUl9ESVI9IiR7T1VUUFVUX0RJUn0vc2VydmVyIgpTRVJWRVJfQURNSU5fRElSPSIke1NFUlZFUl9ESVJ9L3NlcnZlci1hZG1pbiIKU0VSVkVSX0FETUlOX1JFU19ESVI9IiR7U0VSVkVSX0FETUlOX0RJUn0vcmVzb3VyY2VzIgpTRVJWRVJfQURNSU5fUlNfQklOPSIke1NFUlZFUl9ESVJ9L3NlcnZlci1hZG1pbi1ycyIKQUNNRV9SRVNPVVJDRV9TUkM9IiR7Uk9PVF9ESVJ9L2FwcHMvc2VydmVyLWFkbWluLXJzL3Jlc291cmNlcy9hY21lc2guemlwIgoKY2FzZSAiJHtCQUNLRU5EX0lNUEx9IiBpbgogIHJ1c3QpIDs7CiAgKikgZWNobyAiW2ZuLWtub2NrXSBJbnZhbGlkIEZOX0tOT0NLX0JBQ0tFTkRfSU1QTD0ke0JBQ0tFTkRfSU1QTH07IFJ1c3QgaXMgdGhlIG9ubHkgcnVudGltZSBiYWNrZW5kIiA+JjI7IGV4aXQgMSA7Owplc2FjCgpyZWFkX2dhdGV3YXlfYXJjaGVzKCkgewogIGxvY2FsIHJhdz0iJHtHQVRFV0FZX0FSQ0hFU19SQVcvLywvIH0iCiAgbG9jYWwgYXJjaAogIGxvY2FsIG5vcm1hbGl6ZWQKICBsb2NhbCBzZWVuPSIgIgoKICBmb3IgYXJjaCBpbiAke3Jhd307IGRvCiAgICBjYXNlICIke2FyY2h9IiBpbgogICAgICBhbWQ2NHx4ODZ8eDg2XzY0KQogICAgICAgIG5vcm1hbGl6ZWQ9ImFtZDY0IgogICAgICAgIDs7CiAgICAgIGFybTY0fGFhcmNoNjQpCiAgICAgICAgbm9ybWFsaXplZD0iYXJtNjQiCiAgICAgICAgOzsKICAgICAgYXJtMzJ8YXJtdjhsfGFybXY3fGFybXY3bHxhcm1oZnxhcm0pCiAgICAgICAgbm9ybWFsaXplZD0iYXJtIgogICAgICAgIDs7CiAgICAgICopCiAgICAgICAgZWNobyAiW2ZuLWtub2NrXSBJbnZhbGlkIGdhdGV3YXkgYXJjaGl0ZWN0dXJlOiAke2FyY2h9OyBleHBlY3RlZCBhbWQ2NC94ODYsIGFybTY0LCBvciBhcm0iID4mMgogICAgICAgIGV4aXQgMQogICAgICAgIDs7CiAgICBlc2FjCgogICAgY2FzZSAiJHtzZWVufSIgaW4KICAgICAgKiIgJHtub3JtYWxpemVkfSAiKikgOzsKICAgICAgKikKICAgICAgICBHQVRFV0FZX0FSQ0hFUys9KCIke25vcm1hbGl6ZWR9IikKICAgICAgICBzZWVuPSIke3NlZW59JHtub3JtYWxpemVkfSAiCiAgICAgICAgOzsKICAgIGVzYWMKICBkb25lCgogIGlmIFsgIiR7I0dBVEVXQVlfQVJDSEVTW0BdfSIgLWVxIDAgXTsgdGhlbgogICAgZWNobyAiW2ZuLWtub2NrXSBHYXRld2F5IGFyY2hpdGVjdHVyZSBsaXN0IGlzIGVtcHR5IiA+JjIKICAgIGV4aXQgMQogIGZpCn0KCnJlYWRfZ2F0ZXdheV9hcmNoZXMKCmVjaG8gIltmbi1rbm9ja10gQXNzZW1ibGluZyBydW50aW1lIGludG8gJHtPVVRQVVRfRElSfSIKZWNobyAiW2ZuLWtub2NrXSBHYXRld2F5IGFyY2hpdGVjdHVyZXM6ICR7R0FURVdBWV9BUkNIRVNbKl19IgoKY2QgIiR7Uk9PVF9ESVJ9IgoKdHVyYm9fYnVpbGRfYXJncz0oCiAgcnVuCiAgYnVpbGQKICAtLWZpbHRlcj1zZXJ2ZXItYWRtaW4tdmlldwogIC0tZmlsdGVyPXNlcnZlci1hdXRoLXZpZXcKKQoKaWYgWyAiJHtGT1JDRV9GUk9OVEVORF9SRUJVSUxEfSIgPSAiMSIgXTsgdGhlbgogIGVjaG8gIltmbi1rbm9ja10gQnVpbGRpbmcgZnJvbnRlbmQgYXBwcyAoZm9yY2VkIHJlYnVpbGQgZW5hYmxlZCkuLi4iCiAgdHVyYm9fYnVpbGRfYXJncys9KC0tZm9yY2UpCmVsc2UKICBlY2hvICJbZm4ta25vY2tdIEJ1aWxkaW5nIGZyb250ZW5kIGFwcHMgKGFsbG93aW5nIFR1cmJvIGNhY2hlIHJldXNlKS4uLiIKZmkKCm5weCB0dXJibyAiJHt0dXJib19idWlsZF9hcmdzW0BdfSIKCmlmIFsgIiR7QlVJTERfUlVTVF9CQUNLRU5EfSIgPSAiMSIgXTsgdGhlbgogIGZuX2tub2NrX3N5bmNfcnVzdF9wYWNrYWdlX3ZlcnNpb24gIiR7Uk9PVF9ESVJ9IiAiW2ZuLWtub2NrXSIKICBlY2hvICJbZm4ta25vY2tdIEJ1aWxkaW5nIHNlcnZlci1hZG1pbi1ycy4uLiIKICBjYXJnbyBidWlsZCAtLWxvY2tlZCAtLXJlbGVhc2UgLS1tYW5pZmVzdC1wYXRoICIke1JPT1RfRElSfS9hcHBzL3NlcnZlci1hZG1pbi1ycy9DYXJnby50b21sIgpmaQoKZWNobyAiW2ZuLWtub2NrXSBQcmVwYXJpbmcgcnVudGltZSBkaXJlY3Rvcmllcy4uLiIKcm0gLXJmICIke1NFUlZFUl9BRE1JTl9ESVJ9Igpta2RpciAtcCBcCiAgIiR7QURNSU5fRElTVF9ESVJ9IiBcCiAgIiR7QVVUSF9ESVNUX0RJUn0iIFwKICAiJHtTRVJWRVJfQURNSU5fRElSfSIgXAogICIke1NFUlZFUl9BRE1JTl9SRVNfRElSfSIgXAogICIke1NFUlZFUl9ESVJ9IgoKZWNobyAiW2ZuLWtub2NrXSBTeW5jaW5nIHNlcnZlci1hZG1pbi12aWV3IGRpc3QiCnJzeW5jIC1hIC0tZGVsZXRlICIke1JPT1RfRElSfS9hcHBzL3NlcnZlci1hZG1pbi12aWV3L2Rpc3QvIiAiJHtBRE1JTl9ESVNUX0RJUn0vIgoKZWNobyAiW2ZuLWtub2NrXSBTeW5jaW5nIHNlcnZlci1hdXRoLXZpZXcgZGlzdCIKcnN5bmMgLWEgLS1kZWxldGUgIiR7Uk9PVF9ESVJ9L2FwcHMvc2VydmVyLWF1dGgtdmlldy9kaXN0LyIgIiR7QVVUSF9ESVNUX0RJUn0vIgoKbWtkaXIgLXAgIiR7U0VSVkVSX0FETUlOX1JFU19ESVJ9IgoKaWYgWyAiJHtCVUlMRF9SVVNUX0JBQ0tFTkR9IiA9ICIxIiBdOyB0aGVuCiAgZWNobyAiW2ZuLWtub2NrXSBDb3B5aW5nIHNlcnZlci1hZG1pbi1ycyBiaW5hcnkiCiAgY3AgIiR7Uk9PVF9ESVJ9L2FwcHMvc2VydmVyLWFkbWluLXJzL3RhcmdldC9yZWxlYXNlL3NlcnZlci1hZG1pbi1ycyIgIiR7U0VSVkVSX0FETUlOX1JTX0JJTn0iCiAgY2htb2QgNzU1ICIke1NFUlZFUl9BRE1JTl9SU19CSU59IgplbHNlCiAgcm0gLWYgIiR7U0VSVkVSX0FETUlOX1JTX0JJTn0iCmZpCgppZiBbICEgLWYgIiR7QUNNRV9SRVNPVVJDRV9TUkN9IiBdOyB0aGVuCiAgZWNobyAiW2ZuLWtub2NrXSBNaXNzaW5nIGFjbWUgcmVzb3VyY2U6ICR7QUNNRV9SRVNPVVJDRV9TUkN9IiA+JjIKICBleGl0IDEKZmkKCmVjaG8gIltmbi1rbm9ja10gQ29weWluZyBidW5kbGVkIGFjbWUgcmVzb3VyY2UiCmNwICIke0FDTUVfUkVTT1VSQ0VfU1JDfSIgIiR7U0VSVkVSX0FETUlOX1JFU19ESVJ9L2FjbWVzaC56aXAiCgpybSAtZiAiJHtTRVJWRVJfRElSfSIvZ28tcmVhdXRoLXByb3h5LWxpbnV4LSoKYmFzaCAiJHtST09UX0RJUn0vc2NyaXB0cy9wcmVwYXJlLWdvLXJlYXV0aC1wcm94eS5zaCIgIiR7U0VSVkVSX0RJUn0iICIke0dBVEVXQVlfQVJDSEVTW0BdfSIKCmVjaG8gIltmbi1rbm9ja10gUnVudGltZSBhc3NlbWJseSBjb21wbGV0ZWQiCg==
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+source "${ROOT_DIR}/scripts/version.sh"
+OUTPUT_DIR="${1:-${ROOT_DIR}/dist/fn-knock-runtime}"
+FORCE_FRONTEND_REBUILD="${FN_KNOCK_FORCE_FRONTEND_REBUILD:-1}"
+BACKEND_IMPL="${FN_KNOCK_BACKEND_IMPL:-rust}"
+BUILD_RUST_BACKEND="${FN_KNOCK_BUILD_RUST_BACKEND:-1}"
+GATEWAY_ARCHES_RAW="${FN_KNOCK_RUNTIME_GATEWAY_ARCHES:-${FN_KNOCK_FPK_ARCHES:-amd64 arm64}}"
+GATEWAY_ARCHES=()
+
+ADMIN_DIST_DIR="${OUTPUT_DIR}/ui/www"
+AUTH_DIST_DIR="${OUTPUT_DIR}/server-auth-view/dist"
+SERVER_DIR="${OUTPUT_DIR}/server"
+SERVER_ADMIN_DIR="${SERVER_DIR}/server-admin"
+SERVER_ADMIN_RES_DIR="${SERVER_ADMIN_DIR}/resources"
+SERVER_ADMIN_RS_BIN="${SERVER_DIR}/server-admin-rs"
+ACME_RESOURCE_SRC="${ROOT_DIR}/apps/server-admin-rs/resources/acmesh.zip"
+
+case "${BACKEND_IMPL}" in
+  rust) ;;
+  *) echo "[fn-knock] Invalid FN_KNOCK_BACKEND_IMPL=${BACKEND_IMPL}; Rust is the only runtime backend" >&2; exit 1 ;;
+esac
+
+read_gateway_arches() {
+  local raw="${GATEWAY_ARCHES_RAW//,/ }"
+  local arch
+  local normalized
+  local seen=" "
+
+  for arch in ${raw}; do
+    case "${arch}" in
+      amd64|x86|x86_64)
+        normalized="amd64"
+        ;;
+      arm64|aarch64)
+        normalized="arm64"
+        ;;
+      arm32|armv8l|armv7|armv7l|armhf|arm)
+        normalized="arm"
+        ;;
+      *)
+        echo "[fn-knock] Invalid gateway architecture: ${arch}; expected amd64/x86, arm64, or arm" >&2
+        exit 1
+        ;;
+    esac
+
+    case "${seen}" in
+      *" ${normalized} "*) ;;
+      *)
+        GATEWAY_ARCHES+=("${normalized}")
+        seen="${seen}${normalized} "
+        ;;
+    esac
+  done
+
+  if [ "${#GATEWAY_ARCHES[@]}" -eq 0 ]; then
+    echo "[fn-knock] Gateway architecture list is empty" >&2
+    exit 1
+  fi
+}
+
+read_gateway_arches
+
+echo "[fn-knock] Assembling runtime into ${OUTPUT_DIR}"
+echo "[fn-knock] Gateway architectures: ${GATEWAY_ARCHES[*]}"
+
+cd "${ROOT_DIR}"
+
+turbo_build_args=(
+  run
+  build
+  --filter=server-admin-view
+  --filter=server-auth-view
+)
+
+if [ "${FORCE_FRONTEND_REBUILD}" = "1" ]; then
+  echo "[fn-knock] Building frontend apps (forced rebuild enabled)..."
+  turbo_build_args+=(--force)
+else
+  echo "[fn-knock] Building frontend apps (allowing Turbo cache reuse)..."
+fi
+
+npx turbo "${turbo_build_args[@]}"
+
+if [ "${BUILD_RUST_BACKEND}" = "1" ]; then
+  fn_knock_sync_rust_package_version "${ROOT_DIR}" "[fn-knock]"
+  echo "[fn-knock] Building server-admin-rs..."
+  cargo build --locked --release --manifest-path "${ROOT_DIR}/apps/server-admin-rs/Cargo.toml"
+fi
+
+echo "[fn-knock] Preparing runtime directories..."
+rm -rf "${SERVER_ADMIN_DIR}"
+mkdir -p \
+  "${ADMIN_DIST_DIR}" \
+  "${AUTH_DIST_DIR}" \
+  "${SERVER_ADMIN_DIR}" \
+  "${SERVER_ADMIN_RES_DIR}" \
+  "${SERVER_DIR}"
+
+echo "[fn-knock] Syncing server-admin-view dist"
+rsync -a --delete "${ROOT_DIR}/apps/server-admin-view/dist/" "${ADMIN_DIST_DIR}/"
+
+echo "[fn-knock] Syncing server-auth-view dist"
+rsync -a --delete "${ROOT_DIR}/apps/server-auth-view/dist/" "${AUTH_DIST_DIR}/"
+
+mkdir -p "${SERVER_ADMIN_RES_DIR}"
+
+if [ "${BUILD_RUST_BACKEND}" = "1" ]; then
+  echo "[fn-knock] Copying server-admin-rs binary"
+  cp "${ROOT_DIR}/apps/server-admin-rs/target/release/server-admin-rs" "${SERVER_ADMIN_RS_BIN}"
+  chmod 755 "${SERVER_ADMIN_RS_BIN}"
+else
+  rm -f "${SERVER_ADMIN_RS_BIN}"
+fi
+
+if [ ! -f "${ACME_RESOURCE_SRC}" ]; then
+  echo "[fn-knock] Missing acme resource: ${ACME_RESOURCE_SRC}" >&2
+  exit 1
+fi
+
+echo "[fn-knock] Copying bundled acme resource"
+cp "${ACME_RESOURCE_SRC}" "${SERVER_ADMIN_RES_DIR}/acmesh.zip"
+
+rm -f "${SERVER_DIR}"/go-reauth-proxy-linux-*
+bash "${ROOT_DIR}/scripts/prepare-go-reauth-proxy.sh" "${SERVER_DIR}" "${GATEWAY_ARCHES[@]}"
+
+echo "[fn-knock] Runtime assembly completed"

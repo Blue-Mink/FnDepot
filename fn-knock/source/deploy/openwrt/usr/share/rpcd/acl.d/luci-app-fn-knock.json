@@ -1,1 +1,25 @@
-ewoJImx1Y2ktYXBwLWZuLWtub2NrIjogewoJCSJkZXNjcmlwdGlvbiI6ICJHcmFudCBhY2Nlc3MgdG8gdGhlIGZuLWtub2NrIEx1Q0kgYXBwIiwKCQkicmVhZCI6IHsKCQkJInVjaSI6IFsgImZuLWtub2NrIiBdLAoJCQkiZmlsZSI6IHsKCQkJCSIvZXRjL2luaXQuZC9mbi1rbm9jayBzdGF0dXMiOiBbICJleGVjIiBdLAoJCQkJIi91c3IvbGliZXhlYy9mbi1rbm9jay1maXJld2FsbCBzdGF0dXMiOiBbICJleGVjIiBdCgkJCX0sCgkJCSJ1YnVzIjogewoJCQkJImZpbGUiOiBbICJleGVjIiBdCgkJCX0KCQl9LAoJCSJ3cml0ZSI6IHsKCQkJInVjaSI6IFsgImZuLWtub2NrIiBdLAoJCQkiZmlsZSI6IHsKCQkJCSIvZXRjL2luaXQuZC9mbi1rbm9jayByZXN0YXJ0IjogWyAiZXhlYyIgXSwKCQkJCSIvdXNyL2xpYmV4ZWMvZm4ta25vY2stZmlyZXdhbGwgYWxsb3cgKiI6IFsgImV4ZWMiIF0KCQkJfSwKCQkJInVidXMiOiB7CgkJCQkiZmlsZSI6IFsgImV4ZWMiIF0KCQkJfQoJCX0KCX0KfQo=
+{
+	"luci-app-fn-knock": {
+		"description": "Grant access to the fn-knock LuCI app",
+		"read": {
+			"uci": [ "fn-knock" ],
+			"file": {
+				"/etc/init.d/fn-knock status": [ "exec" ],
+				"/usr/libexec/fn-knock-firewall status": [ "exec" ]
+			},
+			"ubus": {
+				"file": [ "exec" ]
+			}
+		},
+		"write": {
+			"uci": [ "fn-knock" ],
+			"file": {
+				"/etc/init.d/fn-knock restart": [ "exec" ],
+				"/usr/libexec/fn-knock-firewall allow *": [ "exec" ]
+			},
+			"ubus": {
+				"file": [ "exec" ]
+			}
+		}
+	}
+}

@@ -1,1 +1,54 @@
-PHRlbXBsYXRlPgogIDxDYXJkIDpjbGFzcz0iWydhdXRoLWdsYXNzLWNhcmQgdy1mdWxsIG1heC13LXNtJywgY2FyZENsYXNzXSI+CiAgICA8c2xvdCBuYW1lPSJoZWFkZXIiPgogICAgICA8Q2FyZEhlYWRlciB2LWlmPSJzaG93RGVmYXVsdEhlYWRlciI+CiAgICAgICAgPGgxIHYtaWY9InRpdGxlIiA6Y2xhc3M9IlsnbGVhZGluZy1ub25lIGZvbnQtc2VtaWJvbGQnLCB0aXRsZUNsYXNzXSI+CiAgICAgICAgICB7eyB0aXRsZSB9fQogICAgICAgIDwvaDE+CiAgICAgICAgPENhcmREZXNjcmlwdGlvbiB2LWlmPSJkZXNjcmlwdGlvbiIgOmNsYXNzPSJkZXNjcmlwdGlvbkNsYXNzIj4KICAgICAgICAgIHt7IGRlc2NyaXB0aW9uIH19CiAgICAgICAgPC9DYXJkRGVzY3JpcHRpb24+CiAgICAgICAgPHNsb3QgbmFtZT0iaGVhZGVyLWV4dHJhIiAvPgogICAgICA8L0NhcmRIZWFkZXI+CiAgICA8L3Nsb3Q+CgogICAgPENhcmRDb250ZW50IDpjbGFzcz0iY29udGVudENsYXNzIj4KICAgICAgPHNsb3QgLz4KICAgIDwvQ2FyZENvbnRlbnQ+CiAgPC9DYXJkPgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCB1c2VTbG90cyB9IGZyb20gInZ1ZSI7CmltcG9ydCB7CiAgQ2FyZCwKICBDYXJkQ29udGVudCwKICBDYXJkRGVzY3JpcHRpb24sCiAgQ2FyZEhlYWRlciwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cygKICBkZWZpbmVQcm9wczx7CiAgICBjYXJkQ2xhc3M/OiBzdHJpbmc7CiAgICBjb250ZW50Q2xhc3M/OiBzdHJpbmc7CiAgICBkZXNjcmlwdGlvbj86IHN0cmluZzsKICAgIGRlc2NyaXB0aW9uQ2xhc3M/OiBzdHJpbmc7CiAgICB0aXRsZT86IHN0cmluZzsKICAgIHRpdGxlQ2xhc3M/OiBzdHJpbmc7CiAgfT4oKSwKICB7CiAgICBjYXJkQ2xhc3M6ICIiLAogICAgY29udGVudENsYXNzOiAiIiwKICAgIGRlc2NyaXB0aW9uOiAiIiwKICAgIGRlc2NyaXB0aW9uQ2xhc3M6ICJ0ZXh0LWNlbnRlciIsCiAgICB0aXRsZTogIiIsCiAgICB0aXRsZUNsYXNzOiAidGV4dC0yeGwgdGV4dC1jZW50ZXIiLAogIH0sCik7Cgpjb25zdCBzbG90cyA9IHVzZVNsb3RzKCk7CmNvbnN0IHNob3dEZWZhdWx0SGVhZGVyID0gY29tcHV0ZWQoCiAgKCkgPT4KICAgIEJvb2xlYW4ocHJvcHMudGl0bGUgfHwgcHJvcHMuZGVzY3JpcHRpb24pIHx8IEJvb2xlYW4oc2xvdHNbImhlYWRlci1leHRyYSJdKSwKKTsKPC9zY3JpcHQ+Cg==
+<template>
+  <Card :class="['auth-glass-card w-full max-w-sm', cardClass]">
+    <slot name="header">
+      <CardHeader v-if="showDefaultHeader">
+        <h1 v-if="title" :class="['leading-none font-semibold', titleClass]">
+          {{ title }}
+        </h1>
+        <CardDescription v-if="description" :class="descriptionClass">
+          {{ description }}
+        </CardDescription>
+        <slot name="header-extra" />
+      </CardHeader>
+    </slot>
+
+    <CardContent :class="contentClass">
+      <slot />
+    </CardContent>
+  </Card>
+</template>
+
+<script setup lang="ts">
+import { computed, useSlots } from "vue";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+} from "@/components/ui/card";
+
+const props = withDefaults(
+  defineProps<{
+    cardClass?: string;
+    contentClass?: string;
+    description?: string;
+    descriptionClass?: string;
+    title?: string;
+    titleClass?: string;
+  }>(),
+  {
+    cardClass: "",
+    contentClass: "",
+    description: "",
+    descriptionClass: "text-center",
+    title: "",
+    titleClass: "text-2xl text-center",
+  },
+);
+
+const slots = useSlots();
+const showDefaultHeader = computed(
+  () =>
+    Boolean(props.title || props.description) || Boolean(slots["header-extra"]),
+);
+</script>

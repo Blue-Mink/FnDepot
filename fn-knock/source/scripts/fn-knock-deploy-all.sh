@@ -1,1 +1,87 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4iICYmIHB3ZCkiClJVTk5FUj0iJHtGTl9LTk9DS19TQ1JJUFRfUlVOTkVSOi1ucG19IgpTVEFSVF9UUz0iJChkYXRlICslcykiCgpjZCAiJHtST09UX0RJUn0iCgpsb2coKSB7CiAgZWNobyAiW2ZuLWtub2NrLWRlcGxveS1hbGxdICQqIgp9Cgpmb3JtYXRfZHVyYXRpb24oKSB7CiAgbG9jYWwgdG90YWxfc2Vjb25kcz0iJDEiCiAgbG9jYWwgbWludXRlcz0kKCh0b3RhbF9zZWNvbmRzIC8gNjApKQogIGxvY2FsIHNlY29uZHM9JCgodG90YWxfc2Vjb25kcyAlIDYwKSkKCiAgcHJpbnRmICclZOWIhiUwMmTnp5InICIke21pbnV0ZXN9IiAiJHtzZWNvbmRzfSIKfQoKZmluaXNoKCkgewogIGxvY2FsIGV4aXRfY29kZT0iJD8iCiAgbG9jYWwgZW5kX3RzCiAgbG9jYWwgZWxhcHNlZAoKICB0cmFwIC0gRVhJVAogIGVuZF90cz0iJChkYXRlICslcykiCiAgZWxhcHNlZD0kKChlbmRfdHMgLSBTVEFSVF9UUykpCgogIGlmIFsgIiR7ZXhpdF9jb2RlfSIgLWVxIDAgXTsgdGhlbgogICAgbG9nICLlhajpg6jlrozmiJDvvIzmgLvogJfml7Y6ICQoZm9ybWF0X2R1cmF0aW9uICIke2VsYXBzZWR9IikiCiAgZWxzZQogICAgbG9nICLmiafooYzlpLHotKUoZXhpdCAke2V4aXRfY29kZX0p77yM5oC76ICX5pe2OiAkKGZvcm1hdF9kdXJhdGlvbiAiJHtlbGFwc2VkfSIpIgogIGZpCgogIGV4aXQgIiR7ZXhpdF9jb2RlfSIKfQoKcnVuX3BhY2thZ2Vfc2NyaXB0KCkgewogIGxvY2FsIHNjcmlwdF9uYW1lPSIkMSIKCiAgbG9nICJSdW5uaW5nOiAke1JVTk5FUn0gcnVuICR7c2NyaXB0X25hbWV9IgogICIke1JVTk5FUn0iIHJ1biAiJHtzY3JpcHRfbmFtZX0iCn0KCnZlcmlmeV9wYWNrYWdlX291dHB1dHMoKSB7CiAgbG9jYWwgYXJ0aWZhY3RzX2Rpcj0iJHtGTl9LTk9DS19BUlRJRkFDVFNfRElSOi0ke1JPT1RfRElSfS9kaXN0L2ZuLWtub2NrLWFydGlmYWN0c30iCiAgbG9jYWwgbGludXhfZGlyPSIke0ZOX0tOT0NLX1BSRVBBUkVEX0xJTlVYX0RJUjotJHthcnRpZmFjdHNfZGlyfS9saW51eH0iCiAgbG9jYWwgLWEgbGludXhfcGFja2FnZXMKICBsb2NhbCAtYSBzcGtfcGFja2FnZXMKCiAgc2hvcHQgLXMgbnVsbGdsb2IKICBsaW51eF9wYWNrYWdlcz0oIiR7bGludXhfZGlyfSIvZm4ta25vY2stbGludXgtKi50YXIuZ3opCiAgaWYgWyAtbiAiJHtGTl9LTk9DS19TWU5PTE9HWV9PVVRQVVQ6LX0iIF07IHRoZW4KICAgIHNwa19wYWNrYWdlcz0oIiR7Rk5fS05PQ0tfU1lOT0xPR1lfT1VUUFVUfSIpCiAgZWxzZQogICAgc3BrX3BhY2thZ2VzPSgiJHtST09UX0RJUn0iL2Rpc3Qvc3lub2xvZ3kvKi5zcGspCiAgZmkKICBzaG9wdCAtdSBudWxsZ2xvYgoKICBpZiBbICIkeyNsaW51eF9wYWNrYWdlc1tAXX0iIC1lcSAwIF07IHRoZW4KICAgIGxvZyAi5pyq5om+5YiwIExpbnV4IOWuieijheWMhTogJHtsaW51eF9kaXJ9L2ZuLWtub2NrLWxpbnV4LSoudGFyLmd6IgogICAgcmV0dXJuIDEKICBmaQogIGlmIFsgIiR7I3Nwa19wYWNrYWdlc1tAXX0iIC1lcSAwIF0gfHwgWyAhIC1mICIke3Nwa19wYWNrYWdlc1swXX0iIF07IHRoZW4KICAgIGxvZyAi5pyq5om+5YiwIFN5bm9sb2d5IFNQSyDlronoo4XljIUiCiAgICByZXR1cm4gMQogIGZpCgogIGxvZyAi5pys5Zyw5a6J6KOF5YyF5bey5bCx57uqOiBMaW51eCAkeyNsaW51eF9wYWNrYWdlc1tAXX0g5Liq77yMU1BLICR7I3Nwa19wYWNrYWdlc1tAXX0g5LiqIgp9Cgp0cmFwIGZpbmlzaCBFWElUCgpsb2cgIuWHhuWkh+WFseS6q+aehOW7uuS6p+eJqe+8iOWMheWQqyBMaW51eCDlronoo4XljIXvvIkiCnJ1bl9wYWNrYWdlX3NjcmlwdCAiZm4ta25vY2s6cHJlcGFyZS1hcnRpZmFjdHMiCgpleHBvcnQgRk5fS05PQ0tfQVJUSUZBQ1RTX0FMUkVBRFlfUFJFUEFSRUQ9MQoKcnVuX3BhY2thZ2Vfc2NyaXB0ICJmbi1rbm9jazpkZXBsb3kiCnJ1bl9wYWNrYWdlX3NjcmlwdCAiZm4ta25vY2s6b3BlbndydDpidWlsZCIKcnVuX3BhY2thZ2Vfc2NyaXB0ICJmbi1rbm9jazpkb2NrZXI6bG9jYWwtZGVwbG95IgoKbG9nICLkvb/nlKjlhbHkuqvkuqfnianmiZPljIUgU3lub2xvZ3kgU1BLIgpydW5fcGFja2FnZV9zY3JpcHQgImZuLWtub2NrOnNwazpidWlsZDpwcmVwYXJlZCIKdmVyaWZ5X3BhY2thZ2Vfb3V0cHV0cwo=
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+RUNNER="${FN_KNOCK_SCRIPT_RUNNER:-npm}"
+START_TS="$(date +%s)"
+
+cd "${ROOT_DIR}"
+
+log() {
+  echo "[fn-knock-deploy-all] $*"
+}
+
+format_duration() {
+  local total_seconds="$1"
+  local minutes=$((total_seconds / 60))
+  local seconds=$((total_seconds % 60))
+
+  printf '%d分%02d秒' "${minutes}" "${seconds}"
+}
+
+finish() {
+  local exit_code="$?"
+  local end_ts
+  local elapsed
+
+  trap - EXIT
+  end_ts="$(date +%s)"
+  elapsed=$((end_ts - START_TS))
+
+  if [ "${exit_code}" -eq 0 ]; then
+    log "全部完成，总耗时: $(format_duration "${elapsed}")"
+  else
+    log "执行失败(exit ${exit_code})，总耗时: $(format_duration "${elapsed}")"
+  fi
+
+  exit "${exit_code}"
+}
+
+run_package_script() {
+  local script_name="$1"
+
+  log "Running: ${RUNNER} run ${script_name}"
+  "${RUNNER}" run "${script_name}"
+}
+
+verify_package_outputs() {
+  local artifacts_dir="${FN_KNOCK_ARTIFACTS_DIR:-${ROOT_DIR}/dist/fn-knock-artifacts}"
+  local linux_dir="${FN_KNOCK_PREPARED_LINUX_DIR:-${artifacts_dir}/linux}"
+  local -a linux_packages
+  local -a spk_packages
+
+  shopt -s nullglob
+  linux_packages=("${linux_dir}"/fn-knock-linux-*.tar.gz)
+  if [ -n "${FN_KNOCK_SYNOLOGY_OUTPUT:-}" ]; then
+    spk_packages=("${FN_KNOCK_SYNOLOGY_OUTPUT}")
+  else
+    spk_packages=("${ROOT_DIR}"/dist/synology/*.spk)
+  fi
+  shopt -u nullglob
+
+  if [ "${#linux_packages[@]}" -eq 0 ]; then
+    log "未找到 Linux 安装包: ${linux_dir}/fn-knock-linux-*.tar.gz"
+    return 1
+  fi
+  if [ "${#spk_packages[@]}" -eq 0 ] || [ ! -f "${spk_packages[0]}" ]; then
+    log "未找到 Synology SPK 安装包"
+    return 1
+  fi
+
+  log "本地安装包已就绪: Linux ${#linux_packages[@]} 个，SPK ${#spk_packages[@]} 个"
+}
+
+trap finish EXIT
+
+log "准备共享构建产物（包含 Linux 安装包）"
+run_package_script "fn-knock:prepare-artifacts"
+
+export FN_KNOCK_ARTIFACTS_ALREADY_PREPARED=1
+
+run_package_script "fn-knock:deploy"
+run_package_script "fn-knock:openwrt:build"
+run_package_script "fn-knock:docker:local-deploy"
+
+log "使用共享产物打包 Synology SPK"
+run_package_script "fn-knock:spk:build:prepared"
+verify_package_outputs

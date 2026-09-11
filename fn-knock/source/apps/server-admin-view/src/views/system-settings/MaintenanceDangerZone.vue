@@ -1,1 +1,133 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IExvYWRlcjIsIFRyYXNoMiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHR5cGUgeyBNYWludGVuYW5jZUNsZWFyRGF0YUNvbnRyb2xsZXIgfSBmcm9tICIuL21haW50ZW5hbmNlLXNldHRpbmdzLWNvbnRyYWN0IjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8eyBjb250cm9sbGVyOiBNYWludGVuYW5jZUNsZWFyRGF0YUNvbnRyb2xsZXIgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHsKICBjYW5DbGVhckFsbERhdGEsCiAgY2xlYXJBbGxEYXRhLAogIGNsZWFyRGF0YUNvbmZpcm1hdGlvbiwKICBleHBlY3RlZENsZWFyRGF0YUNvbmZpcm1hdGlvbiwKICBoYW5kbGVDbGVhckRhdGFEaWFsb2dPcGVuQ2hhbmdlLAogIGhhbmRsZUNsZWFyRGF0YUVudGVyLAogIGlzQ2xlYXJEYXRhRGlhbG9nT3BlbiwKICBpc0NsZWFyaW5nRGF0YSwKICBvcGVuQ2xlYXJEYXRhRGlhbG9nLAp9ID0gcHJvcHMuY29udHJvbGxlcjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CjxzZWN0aW9uIGNsYXNzPSJtdC02IG92ZXJmbG93LWhpZGRlbiByb3VuZGVkLTJ4bCBib3JkZXIgYmctYmFja2dyb3VuZCI+CiAgPGRpdiBjbGFzcz0iYm9yZGVyLWIgcHgtNiBweS01IHNtOnB4LTgiPgogICAgPGgyIGNsYXNzPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHQiPgogICAgICB7eyB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmRhbmdlclpvbmVUaXRsZSIpIH19CiAgICA8L2gyPgogICAgPHAgY2xhc3M9Im10LTEgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICB7eyB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmRhbmdlclpvbmVEZXNjcmlwdGlvbiIpIH19CiAgICA8L3A+CiAgPC9kaXY+CgogIDxkaXYKICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC00IHB4LTYgcHktNSBzbTpweC04IGxnOmZsZXgtcm93IGxnOml0ZW1zLWNlbnRlciBsZzpqdXN0aWZ5LWJldHdlZW4iCiAgPgogICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgPHAgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgIHt7IHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuY2xlYXJBbGxEYXRhVGl0bGUiKSB9fQogICAgICA8L3A+CiAgICAgIDxwIGNsYXNzPSJtYXgtdy0zeGwgdGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmNsZWFyQWxsRGF0YURlc2NyaXB0aW9uIikgfX0KICAgICAgPC9wPgogICAgPC9kaXY+CgogICAgPEJ1dHRvbgogICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICBjbGFzcz0ic2hyaW5rLTAgYm9yZGVyLWRlc3RydWN0aXZlLzQwIHRleHQtZGVzdHJ1Y3RpdmUgaG92ZXI6YmctZGVzdHJ1Y3RpdmUvNSBob3Zlcjp0ZXh0LWRlc3RydWN0aXZlIGZvY3VzLXZpc2libGU6cmluZy1kZXN0cnVjdGl2ZS8yMCBsZzptaW4tdy1bMTY4cHhdIgogICAgICA6ZGlzYWJsZWQ9ImlzQ2xlYXJpbmdEYXRhIgogICAgICBAY2xpY2s9Im9wZW5DbGVhckRhdGFEaWFsb2ciCiAgICA+CiAgICAgIDxUcmFzaDIgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAge3sgdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5jbGVhckFsbERhdGFBY3Rpb24iKSB9fQogICAgPC9CdXR0b24+CiAgPC9kaXY+Cjwvc2VjdGlvbj4KCjxEaWFsb2cKICA6b3Blbj0iaXNDbGVhckRhdGFEaWFsb2dPcGVuIgogIEB1cGRhdGU6b3Blbj0iaGFuZGxlQ2xlYXJEYXRhRGlhbG9nT3BlbkNoYW5nZSIKPgogIDxEaWFsb2dDb250ZW50CiAgICBjbGFzcz0ic206bWF4LXctWzQyMHB4XSIKICAgIDpzaG93LWNsb3NlLWJ1dHRvbj0iIWlzQ2xlYXJpbmdEYXRhIgogID4KICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgIDxEaWFsb2dUaXRsZSBjbGFzcz0idGV4dC1sZWZ0Ij4KICAgICAgICB7eyB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmNsZWFyQWxsRGF0YURpYWxvZ1RpdGxlIikgfX0KICAgICAgPC9EaWFsb2dUaXRsZT4KICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uIGNsYXNzPSJ0ZXh0LWxlZnQgdGV4dC1zbSBsZWFkaW5nLTYiPgogICAgICAgIHt7IHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuY2xlYXJBbGxEYXRhRGlhbG9nRGVzY3JpcHRpb24iKSB9fQogICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgPC9EaWFsb2dIZWFkZXI+CgogICAgPHAgY2xhc3M9InRleHQtc20gbGVhZGluZy02IHRleHQtZGVzdHJ1Y3RpdmUiPgogICAgICB7eyB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmNsZWFyQWxsRGF0YVdhcm5pbmciKSB9fQogICAgPC9wPgoKICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgIDxsYWJlbCBmb3I9ImNsZWFyLWFsbC1kYXRhLWNvbmZpcm1hdGlvbiIgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgIHt7CiAgICAgICAgICB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmNsZWFyQWxsRGF0YVR5cGVQcm9tcHQiLCB7CiAgICAgICAgICAgIHBocmFzZTogZXhwZWN0ZWRDbGVhckRhdGFDb25maXJtYXRpb24sCiAgICAgICAgICB9KQogICAgICAgIH19CiAgICAgIDwvbGFiZWw+CiAgICAgIDxJbnB1dAogICAgICAgIGlkPSJjbGVhci1hbGwtZGF0YS1jb25maXJtYXRpb24iCiAgICAgICAgdi1tb2RlbD0iY2xlYXJEYXRhQ29uZmlybWF0aW9uIgogICAgICAgIDpwbGFjZWhvbGRlcj0iZXhwZWN0ZWRDbGVhckRhdGFDb25maXJtYXRpb24iCiAgICAgICAgOmRpc2FibGVkPSJpc0NsZWFyaW5nRGF0YSIKICAgICAgICA6YXJpYS1pbnZhbGlkPSIKICAgICAgICAgIGNsZWFyRGF0YUNvbmZpcm1hdGlvbi5sZW5ndGggPiAwICYmCiAgICAgICAgICBjbGVhckRhdGFDb25maXJtYXRpb24gIT09IGV4cGVjdGVkQ2xlYXJEYXRhQ29uZmlybWF0aW9uCiAgICAgICAgICAgID8gJ3RydWUnCiAgICAgICAgICAgIDogdW5kZWZpbmVkCiAgICAgICAgIgogICAgICAgIEBrZXlkb3duLmVudGVyPSJoYW5kbGVDbGVhckRhdGFFbnRlciIKICAgICAgLz4KICAgIDwvZGl2PgoKICAgIDxEaWFsb2dGb290ZXIgY2xhc3M9Im10LTEgZ2FwLTIiPgogICAgICA8QnV0dG9uCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICA6ZGlzYWJsZWQ9ImlzQ2xlYXJpbmdEYXRhIgogICAgICAgIEBjbGljaz0iaGFuZGxlQ2xlYXJEYXRhRGlhbG9nT3BlbkNoYW5nZShmYWxzZSkiCiAgICAgID4KICAgICAgICB7eyB0KCJjb21tb24uY2FuY2VsIikgfX0KICAgICAgPC9CdXR0b24+CiAgICAgIDxCdXR0b24KICAgICAgICB2YXJpYW50PSJkZXN0cnVjdGl2ZSIKICAgICAgICA6ZGlzYWJsZWQ9IiFjYW5DbGVhckFsbERhdGEiCiAgICAgICAgQGNsaWNrPSJjbGVhckFsbERhdGEiCiAgICAgID4KICAgICAgICA8TG9hZGVyMiB2LWlmPSJpc0NsZWFyaW5nRGF0YSIgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4iIC8+CiAgICAgICAge3sKICAgICAgICAgIGlzQ2xlYXJpbmdEYXRhCiAgICAgICAgICAgID8gdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5jbGVhcmluZ0FsbERhdGEiKQogICAgICAgICAgICA6IHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuY29uZmlybUNsZWFyQWxsRGF0YSIpCiAgICAgICAgfX0KICAgICAgPC9CdXR0b24+CiAgICA8L0RpYWxvZ0Zvb3Rlcj4KICA8L0RpYWxvZ0NvbnRlbnQ+CjwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Loader2, Trash2 } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import type { MaintenanceClearDataController } from "./maintenance-settings-contract";
+
+const props = defineProps<{ controller: MaintenanceClearDataController }>();
+const { t } = useI18n();
+const {
+  canClearAllData,
+  clearAllData,
+  clearDataConfirmation,
+  expectedClearDataConfirmation,
+  handleClearDataDialogOpenChange,
+  handleClearDataEnter,
+  isClearDataDialogOpen,
+  isClearingData,
+  openClearDataDialog,
+} = props.controller;
+</script>
+
+<template>
+<section class="mt-6 overflow-hidden rounded-2xl border bg-background">
+  <div class="border-b px-6 py-5 sm:px-8">
+    <h2 class="text-xl font-semibold tracking-tight">
+      {{ t("admin.maintenanceSettings.dangerZoneTitle") }}
+    </h2>
+    <p class="mt-1 text-sm text-muted-foreground">
+      {{ t("admin.maintenanceSettings.dangerZoneDescription") }}
+    </p>
+  </div>
+
+  <div
+    class="flex flex-col gap-4 px-6 py-5 sm:px-8 lg:flex-row lg:items-center lg:justify-between"
+  >
+    <div class="space-y-1">
+      <p class="text-sm font-medium">
+        {{ t("admin.maintenanceSettings.clearAllDataTitle") }}
+      </p>
+      <p class="max-w-3xl text-sm leading-6 text-muted-foreground">
+        {{ t("admin.maintenanceSettings.clearAllDataDescription") }}
+      </p>
+    </div>
+
+    <Button
+      variant="outline"
+      class="shrink-0 border-destructive/40 text-destructive hover:bg-destructive/5 hover:text-destructive focus-visible:ring-destructive/20 lg:min-w-[168px]"
+      :disabled="isClearingData"
+      @click="openClearDataDialog"
+    >
+      <Trash2 class="mr-2 h-4 w-4" />
+      {{ t("admin.maintenanceSettings.clearAllDataAction") }}
+    </Button>
+  </div>
+</section>
+
+<Dialog
+  :open="isClearDataDialogOpen"
+  @update:open="handleClearDataDialogOpenChange"
+>
+  <DialogContent
+    class="sm:max-w-[420px]"
+    :show-close-button="!isClearingData"
+  >
+    <DialogHeader>
+      <DialogTitle class="text-left">
+        {{ t("admin.maintenanceSettings.clearAllDataDialogTitle") }}
+      </DialogTitle>
+      <DialogDescription class="text-left text-sm leading-6">
+        {{ t("admin.maintenanceSettings.clearAllDataDialogDescription") }}
+      </DialogDescription>
+    </DialogHeader>
+
+    <p class="text-sm leading-6 text-destructive">
+      {{ t("admin.maintenanceSettings.clearAllDataWarning") }}
+    </p>
+
+    <div class="space-y-2">
+      <label for="clear-all-data-confirmation" class="text-sm font-medium">
+        {{
+          t("admin.maintenanceSettings.clearAllDataTypePrompt", {
+            phrase: expectedClearDataConfirmation,
+          })
+        }}
+      </label>
+      <Input
+        id="clear-all-data-confirmation"
+        v-model="clearDataConfirmation"
+        :placeholder="expectedClearDataConfirmation"
+        :disabled="isClearingData"
+        :aria-invalid="
+          clearDataConfirmation.length > 0 &&
+          clearDataConfirmation !== expectedClearDataConfirmation
+            ? 'true'
+            : undefined
+        "
+        @keydown.enter="handleClearDataEnter"
+      />
+    </div>
+
+    <DialogFooter class="mt-1 gap-2">
+      <Button
+        variant="outline"
+        :disabled="isClearingData"
+        @click="handleClearDataDialogOpenChange(false)"
+      >
+        {{ t("common.cancel") }}
+      </Button>
+      <Button
+        variant="destructive"
+        :disabled="!canClearAllData"
+        @click="clearAllData"
+      >
+        <Loader2 v-if="isClearingData" class="mr-2 h-4 w-4 animate-spin" />
+        {{
+          isClearingData
+            ? t("admin.maintenanceSettings.clearingAllData")
+            : t("admin.maintenanceSettings.confirmClearAllData")
+        }}
+      </Button>
+    </DialogFooter>
+  </DialogContent>
+</Dialog>
+</template>

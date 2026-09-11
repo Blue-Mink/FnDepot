@@ -1,1 +1,22 @@
-ewogICJkYXRhLXNoYXJlIjogewogICAgInNoYXJlcyI6IFsKICAgICAgewogICAgICAgICJuYW1lIjogImZuLWtub2NrLWxpdGUiLAogICAgICAgICJwZXJtaXNzaW9uIjogewogICAgICAgICAgInJ3IjogWwogICAgICAgICAgICAiZm4ta25vY2stbGl0ZSIKICAgICAgICAgIF0KICAgICAgICB9CiAgICAgIH0sCiAgICAgIHsKICAgICAgICAibmFtZSI6ICJmbi1rbm9jay1saXRlL2RhdGEiLAogICAgICAgICJwZXJtaXNzaW9uIjogewogICAgICAgICAgInJ3IjogWwogICAgICAgICAgICAiZm4ta25vY2stbGl0ZSIKICAgICAgICAgIF0KICAgICAgICB9CiAgICAgIH0KICAgIF0KICB9Cn0K
+{
+  "data-share": {
+    "shares": [
+      {
+        "name": "fn-knock-lite",
+        "permission": {
+          "rw": [
+            "fn-knock-lite"
+          ]
+        }
+      },
+      {
+        "name": "fn-knock-lite/data",
+        "permission": {
+          "rw": [
+            "fn-knock-lite"
+          ]
+        }
+      }
+    ]
+  }
+}

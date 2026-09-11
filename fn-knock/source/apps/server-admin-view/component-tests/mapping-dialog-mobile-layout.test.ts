@@ -1,1 +1,470 @@
-aW1wb3J0IHsgZGVmaW5lQ29tcG9uZW50LCBlZmZlY3RTY29wZSwgaCwgbmV4dFRpY2ssIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IG1vdW50IH0gZnJvbSAiQHZ1ZS90ZXN0LXV0aWxzIjsKaW1wb3J0IHsgY3JlYXRlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgYWZ0ZXJFYWNoLCBiZWZvcmVFYWNoLCBkZXNjcmliZSwgZXhwZWN0LCBpdCwgdmkgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ1RpdGxlLAogIHVzZU1vYmlsZURpYWxvZ0lucHV0RnVsbHNjcmVlbiwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKCmltcG9ydCBTdWJkb21haW5NYXBwaW5nRGlhbG9nRm9vdGVyIGZyb20gIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvU3ViZG9tYWluTWFwcGluZ0RpYWxvZ0Zvb3Rlci52dWUiOwppbXBvcnQgdHlwZSB7IFN1YmRvbWFpbk1hcHBpbmdEaWFsb2dQcm9wcyB9IGZyb20gIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvc3ViZG9tYWluLW1hcHBpbmctZGlhbG9nLWNvbnRyYWN0IjsKCnR5cGUgTXV0YWJsZVZpc3VhbFZpZXdwb3J0ID0gewogIGhlaWdodDogbnVtYmVyOwogIG9mZnNldFRvcDogbnVtYmVyOwogIGFkZEV2ZW50TGlzdGVuZXI6IFJldHVyblR5cGU8dHlwZW9mIHZpLmZuPjsKICByZW1vdmVFdmVudExpc3RlbmVyOiBSZXR1cm5UeXBlPHR5cGVvZiB2aS5mbj47Cn07Cgpjb25zdCBvcmlnaW5hbElubmVySGVpZ2h0RGVzY3JpcHRvciA9IE9iamVjdC5nZXRPd25Qcm9wZXJ0eURlc2NyaXB0b3IoCiAgd2luZG93LAogICJpbm5lckhlaWdodCIsCik7CmNvbnN0IG9yaWdpbmFsSW5uZXJXaWR0aERlc2NyaXB0b3IgPSBPYmplY3QuZ2V0T3duUHJvcGVydHlEZXNjcmlwdG9yKAogIHdpbmRvdywKICAiaW5uZXJXaWR0aCIsCik7CmNvbnN0IG9yaWdpbmFsVmlzdWFsVmlld3BvcnREZXNjcmlwdG9yID0gT2JqZWN0LmdldE93blByb3BlcnR5RGVzY3JpcHRvcigKICB3aW5kb3csCiAgInZpc3VhbFZpZXdwb3J0IiwKKTsKCmNvbnN0IGNyZWF0ZVRlc3RJMThuID0gKCkgPT4KICBjcmVhdGVJMThuKHsKICAgIGxlZ2FjeTogZmFsc2UsCiAgICBsb2NhbGU6ICJlbiIsCiAgICBtZXNzYWdlczogewogICAgICBlbjogewogICAgICAgIGFkbWluOiB7CiAgICAgICAgICBzdWJkb21haW5Qcm94eTogewogICAgICAgICAgICBjYW5jZWw6ICJDYW5jZWwiLAogICAgICAgICAgICBzYXZlTWFwcGluZzogIlNhdmUgbWFwcGluZyIsCiAgICAgICAgICAgIHN0YXRpY1NlcnZlOiB7CiAgICAgICAgICAgICAgYnJvd3NlcjogewogICAgICAgICAgICAgICAgY2FuY2VsOiAiQ2FuY2VsIGJyb3dzZXIiLAogICAgICAgICAgICAgICAgdXNlQ3VycmVudEZvbGRlcjogIlVzZSBmb2xkZXIiLAogICAgICAgICAgICAgICAgdXNlU2VsZWN0ZWRGaWxlOiAiVXNlIGZpbGUiLAogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgIH0sCiAgICAgICAgICB9LAogICAgICAgIH0sCiAgICAgIH0sCiAgICB9LAogIH0pOwoKY29uc3QgaW5zdGFsbFZpZXdwb3J0ID0gKAogIGhlaWdodCA9IDkwMCwKICBvZmZzZXRUb3AgPSAwLAogIHdpZHRoID0gMzkwLAopOiBNdXRhYmxlVmlzdWFsVmlld3BvcnQgPT4gewogIGNvbnN0IHZpZXdwb3J0ID0gewogICAgaGVpZ2h0LAogICAgb2Zmc2V0VG9wLAogICAgYWRkRXZlbnRMaXN0ZW5lcjogdmkuZm4oKSwKICAgIHJlbW92ZUV2ZW50TGlzdGVuZXI6IHZpLmZuKCksCiAgfTsKICBPYmplY3QuZGVmaW5lUHJvcGVydHkod2luZG93LCAiaW5uZXJIZWlnaHQiLCB7CiAgICBjb25maWd1cmFibGU6IHRydWUsCiAgICB2YWx1ZTogOTAwLAogIH0pOwogIE9iamVjdC5kZWZpbmVQcm9wZXJ0eSh3aW5kb3csICJpbm5lcldpZHRoIiwgewogICAgY29uZmlndXJhYmxlOiB0cnVlLAogICAgdmFsdWU6IHdpZHRoLAogIH0pOwogIE9iamVjdC5kZWZpbmVQcm9wZXJ0eSh3aW5kb3csICJ2aXN1YWxWaWV3cG9ydCIsIHsKICAgIGNvbmZpZ3VyYWJsZTogdHJ1ZSwKICAgIHZhbHVlOiB2aWV3cG9ydCwKICB9KTsKICByZXR1cm4gdmlld3BvcnQ7Cn07Cgpjb25zdCBjcmVhdGVLZXlib2FyZEhhcm5lc3MgPSAoKSA9PiB7CiAgY29uc3Qgc2NvcGUgPSBlZmZlY3RTY29wZSgpOwogIGNvbnN0IGlzRGlhbG9nT3BlbiA9IHJlZih0cnVlKTsKICBjb25zdCBrZXlib2FyZCA9IHNjb3BlLnJ1bigoKSA9PgogICAgdXNlTW9iaWxlRGlhbG9nSW5wdXRGdWxsc2NyZWVuKHsgaXNEaWFsb2dPcGVuIH0pLAogICk7CiAgaWYgKCFrZXlib2FyZCkgdGhyb3cgbmV3IEVycm9yKCJrZXlib2FyZCBsYXlvdXQgaGFybmVzcyBmYWlsZWQiKTsKCiAgY29uc3QgY29udGFpbmVyID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgiZGl2Iik7CiAgY29uc3QgaW5wdXQgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJpbnB1dCIpOwogIE9iamVjdC5kZWZpbmVQcm9wZXJ0eShjb250YWluZXIsICJzY3JvbGxUbyIsIHsgdmFsdWU6IHZpLmZuKCkgfSk7CiAgT2JqZWN0LmRlZmluZVByb3BlcnR5KGlucHV0LCAic2Nyb2xsSW50b1ZpZXciLCB7IHZhbHVlOiB2aS5mbigpIH0pOwogIGNvbnRhaW5lci5hcHBlbmQoaW5wdXQpOwogIGRvY3VtZW50LmJvZHkuYXBwZW5kKGNvbnRhaW5lcik7CgogIHJldHVybiB7IGNvbnRhaW5lciwgaW5wdXQsIGlzRGlhbG9nT3Blbiwga2V5Ym9hcmQsIHNjb3BlIH07Cn07Cgpjb25zdCBmb2N1c0lucHV0ID0gKGhhcm5lc3M6IFJldHVyblR5cGU8dHlwZW9mIGNyZWF0ZUtleWJvYXJkSGFybmVzcz4pID0+IHsKICBoYXJuZXNzLmlucHV0LmZvY3VzKCk7CiAgaGFybmVzcy5rZXlib2FyZC5oYW5kbGVGb2N1c0luKHsKICAgIGN1cnJlbnRUYXJnZXQ6IGhhcm5lc3MuY29udGFpbmVyLAogICAgdGFyZ2V0OiBoYXJuZXNzLmlucHV0LAogIH0gYXMgdW5rbm93biBhcyBGb2N1c0V2ZW50KTsKfTsKCmNvbnN0IGJsdXJJbnB1dCA9IChoYXJuZXNzOiBSZXR1cm5UeXBlPHR5cGVvZiBjcmVhdGVLZXlib2FyZEhhcm5lc3M+KSA9PiB7CiAgaGFybmVzcy5pbnB1dC5ibHVyKCk7CiAgaGFybmVzcy5rZXlib2FyZC5oYW5kbGVGb2N1c091dCh7CiAgICBjdXJyZW50VGFyZ2V0OiBoYXJuZXNzLmNvbnRhaW5lciwKICAgIHRhcmdldDogaGFybmVzcy5pbnB1dCwKICB9IGFzIHVua25vd24gYXMgRm9jdXNFdmVudCk7Cn07Cgpjb25zdCBjcmVhdGVGb290ZXJEaWFsb2cgPSAoCiAgdmlldzogImJhc2ljIiB8ICJwYXRoLWJyb3dzZXIiID0gImJhc2ljIiwKICBvdmVycmlkZXM6IFJlY29yZDxzdHJpbmcsIHVua25vd24+ID0ge30sCikgPT4KICAoewogICAgaWNvbkVkaXRvcjogeyBpc0ljb25CdXN5OiBmYWxzZSB9LAogICAgaXNHYXRld2F5QWR2YW5jZWRMb2FkaW5nOiBmYWxzZSwKICAgIGlzTWFwcGluZ1ZhbGlkOiB0cnVlLAogICAgaXNTYXZpbmdNYXBwaW5nczogZmFsc2UsCiAgICBwYXRoQnJvd3NlckVkaXRvcjogewogICAgICBjYW5Db25maXJtOiB0cnVlLAogICAgICBjYW5jZWw6IHZpLmZuKCksCiAgICAgIGNvbmZpcm1TZWxlY3Rpb246IHZpLmZuKCksCiAgICAgIGlzQ29uZmlybWluZzogZmFsc2UsCiAgICAgIHRhcmdldFR5cGU6ICJkaXJlY3RvcnkiLAogICAgfSwKICAgIHZpc2liaWxpdHlFZGl0b3I6IHsgbWFwcGluZ0RpYWxvZ1ZpZXc6IHZpZXcgfSwKICAgIC4uLm92ZXJyaWRlcywKICB9KSBhcyB1bmtub3duIGFzIFN1YmRvbWFpbk1hcHBpbmdEaWFsb2dQcm9wczsKCmJlZm9yZUVhY2goKCkgPT4gewogIHZpLnVzZUZha2VUaW1lcnMoKTsKfSk7CgphZnRlckVhY2goKCkgPT4gewogIHZpLnVzZVJlYWxUaW1lcnMoKTsKICB2aS5yZXN0b3JlQWxsTW9ja3MoKTsKICBkb2N1bWVudC5ib2R5LnJlcGxhY2VDaGlsZHJlbigpOwogIGlmIChvcmlnaW5hbElubmVySGVpZ2h0RGVzY3JpcHRvcikgewogICAgT2JqZWN0LmRlZmluZVByb3BlcnR5KAogICAgICB3aW5kb3csCiAgICAgICJpbm5lckhlaWdodCIsCiAgICAgIG9yaWdpbmFsSW5uZXJIZWlnaHREZXNjcmlwdG9yLAogICAgKTsKICB9CiAgaWYgKG9yaWdpbmFsSW5uZXJXaWR0aERlc2NyaXB0b3IpIHsKICAgIE9iamVjdC5kZWZpbmVQcm9wZXJ0eSgKICAgICAgd2luZG93LAogICAgICAiaW5uZXJXaWR0aCIsCiAgICAgIG9yaWdpbmFsSW5uZXJXaWR0aERlc2NyaXB0b3IsCiAgICApOwogIH0KICBpZiAob3JpZ2luYWxWaXN1YWxWaWV3cG9ydERlc2NyaXB0b3IpIHsKICAgIE9iamVjdC5kZWZpbmVQcm9wZXJ0eSgKICAgICAgd2luZG93LAogICAgICAidmlzdWFsVmlld3BvcnQiLAogICAgICBvcmlnaW5hbFZpc3VhbFZpZXdwb3J0RGVzY3JpcHRvciwKICAgICk7CiAgfSBlbHNlIHsKICAgIFJlZmxlY3QuZGVsZXRlUHJvcGVydHkod2luZG93LCAidmlzdWFsVmlld3BvcnQiKTsKICB9Cn0pOwoKZGVzY3JpYmUoInNoYXJlZCBkaWFsb2cgbW9iaWxlIGlucHV0IGZ1bGxzY3JlZW4gbGF5b3V0IiwgKCkgPT4gewogIGl0KCJlbmFibGVzIHRoZSBiZWhhdmlvciBieSBkZWZhdWx0IGZvciBldmVyeSBzaGFyZWQgRGlhbG9nQ29udGVudCIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHZpZXdwb3J0ID0gaW5zdGFsbFZpZXdwb3J0KCk7CiAgICBjb25zdCBpc09wZW4gPSByZWYodHJ1ZSk7CiAgICBjb25zdCBEaWFsb2dIYXJuZXNzID0gZGVmaW5lQ29tcG9uZW50KHsKICAgICAgc2V0dXA6ICgpID0+ICgpID0+CiAgICAgICAgaCgKICAgICAgICAgIERpYWxvZywKICAgICAgICAgIHsgb3BlbjogaXNPcGVuLnZhbHVlLCB1bm1vdW50T25IaWRlOiBmYWxzZSB9LAogICAgICAgICAgKCkgPT4KICAgICAgICAgICAgaChEaWFsb2dDb250ZW50LCBudWxsLCB7CiAgICAgICAgICAgICAgZGVmYXVsdDogKCkgPT4gWwogICAgICAgICAgICAgICAgaChEaWFsb2dUaXRsZSwgbnVsbCwgKCkgPT4gIkVkaXQiKSwKICAgICAgICAgICAgICAgIGgoRGlhbG9nRGVzY3JpcHRpb24sIG51bGwsICgpID0+ICJFZGl0IHRoaXMgcmVjb3JkIiksCiAgICAgICAgICAgICAgICBoKCJpbnB1dCIsIHsgImRhdGEtdGVzdGlkIjogImRpYWxvZy1pbnB1dCIgfSksCiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgfSksCiAgICAgICAgKSwKICAgIH0pOwogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KERpYWxvZ0hhcm5lc3MsIHsgYXR0YWNoVG86IGRvY3VtZW50LmJvZHkgfSk7CiAgICBhd2FpdCBuZXh0VGljaygpOwogICAgY29uc3QgY29udGVudCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3I8SFRNTEVsZW1lbnQ+KAogICAgICAnW2RhdGEtc2xvdD0iZGlhbG9nLWNvbnRlbnQiXScsCiAgICApOwogICAgY29uc3QgaW5wdXQgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yPEhUTUxJbnB1dEVsZW1lbnQ+KAogICAgICAnW2RhdGEtdGVzdGlkPSJkaWFsb2ctaW5wdXQiXScsCiAgICApOwogICAgaWYgKCFjb250ZW50IHx8ICFpbnB1dCkgdGhyb3cgbmV3IEVycm9yKCJzaGFyZWQgZGlhbG9nIGhhcm5lc3MgZmFpbGVkIik7CiAgICBPYmplY3QuZGVmaW5lUHJvcGVydHkoaW5wdXQsICJzY3JvbGxJbnRvVmlldyIsIHsgdmFsdWU6IHZpLmZuKCkgfSk7CgogICAgaW5wdXQuZm9jdXMoKTsKICAgIGF3YWl0IG5leHRUaWNrKCk7CgogICAgZXhwZWN0KGNvbnRlbnQuZGF0YXNldC5pbnB1dEZ1bGxzY3JlZW4pLnRvQmUoInRydWUiKTsKICAgIGV4cGVjdChjb250ZW50LnN0eWxlLmdldFByb3BlcnR5VmFsdWUoIi0tZGlhbG9nLWlucHV0LXZpZXdwb3J0LWhlaWdodCIpKS50b0JlKAogICAgICAiOTAwcHgiLAogICAgKTsKICAgIGV4cGVjdChjb250ZW50LmNsYXNzTGlzdCkudG9Db250YWluKAogICAgICAibWF4LXNtOiFoLVt2YXIoLS1kaWFsb2ctaW5wdXQtdmlld3BvcnQtaGVpZ2h0KV0iLAogICAgKTsKCiAgICBpc09wZW4udmFsdWUgPSBmYWxzZTsKICAgIGF3YWl0IG5leHRUaWNrKCk7CiAgICBleHBlY3QoY29udGVudC5kYXRhc2V0LmlucHV0RnVsbHNjcmVlbikudG9CZSgiZmFsc2UiKTsKICAgIGV4cGVjdCh2aWV3cG9ydC5yZW1vdmVFdmVudExpc3RlbmVyKS50b0hhdmVCZWVuQ2FsbGVkV2l0aCgKICAgICAgInJlc2l6ZSIsCiAgICAgIGV4cGVjdC5hbnkoRnVuY3Rpb24pLAogICAgKTsKICAgIGV4cGVjdCh2aWV3cG9ydC5yZW1vdmVFdmVudExpc3RlbmVyKS50b0hhdmVCZWVuQ2FsbGVkV2l0aCgKICAgICAgInNjcm9sbCIsCiAgICAgIGV4cGVjdC5hbnkoRnVuY3Rpb24pLAogICAgKTsKICAgIHdyYXBwZXIudW5tb3VudCgpOwogIH0pOwoKICBpdCgiZmlsbHMgdGhlIHZpc3VhbCB2aWV3cG9ydCBvbiBmb2N1cyBhbmQgdHJhY2tzIGtleWJvYXJkIGdlb21ldHJ5IiwgKCkgPT4gewogICAgY29uc3Qgdmlld3BvcnQgPSBpbnN0YWxsVmlld3BvcnQoKTsKICAgIGNvbnN0IGhhcm5lc3MgPSBjcmVhdGVLZXlib2FyZEhhcm5lc3MoKTsKICAgIGZvY3VzSW5wdXQoaGFybmVzcyk7CgogICAgZXhwZWN0KGhhcm5lc3Mua2V5Ym9hcmQuaXNJbnB1dEZ1bGxzY3JlZW4udmFsdWUpLnRvQmUodHJ1ZSk7CiAgICBleHBlY3QoaGFybmVzcy5rZXlib2FyZC5pc1NvZnRLZXlib2FyZFZpc2libGUudmFsdWUpLnRvQmUoZmFsc2UpOwogICAgZXhwZWN0KGhhcm5lc3Mua2V5Ym9hcmQuY29udGVudFN0eWxlLnZhbHVlKS50b01hdGNoT2JqZWN0KHsKICAgICAgIi0tZGlhbG9nLWlucHV0LXZpZXdwb3J0LWhlaWdodCI6ICI5MDBweCIsCiAgICAgICItLWRpYWxvZy1pbnB1dC12aWV3cG9ydC10b3AiOiAiMHB4IiwKICAgIH0pOwoKICAgIHZpZXdwb3J0LmhlaWdodCA9IDUxMDsKICAgIHZpZXdwb3J0Lm9mZnNldFRvcCA9IDE4OwogICAgaGFybmVzcy5rZXlib2FyZC5oYW5kbGVWaWV3cG9ydENoYW5nZSgpOwogICAgZXhwZWN0KGhhcm5lc3Mua2V5Ym9hcmQuaXNTb2Z0S2V5Ym9hcmRWaXNpYmxlLnZhbHVlKS50b0JlKHRydWUpOwogICAgZXhwZWN0KGhhcm5lc3Mua2V5Ym9hcmQuY29udGVudFN0eWxlLnZhbHVlKS50b01hdGNoT2JqZWN0KHsKICAgICAgIi0tZGlhbG9nLWlucHV0LXZpZXdwb3J0LWhlaWdodCI6ICI1MTBweCIsCiAgICAgICItLWRpYWxvZy1pbnB1dC12aWV3cG9ydC10b3AiOiAiMThweCIsCiAgICB9KTsKCiAgICBibHVySW5wdXQoaGFybmVzcyk7CiAgICB2aS5hZHZhbmNlVGltZXJzQnlUaW1lKDApOwogICAgZXhwZWN0KGhhcm5lc3Mua2V5Ym9hcmQuaXNJbnB1dEZ1bGxzY3JlZW4udmFsdWUpLnRvQmUodHJ1ZSk7CgogICAgdmlld3BvcnQuaGVpZ2h0ID0gOTAwOwogICAgdmlld3BvcnQub2Zmc2V0VG9wID0gMDsKICAgIGhhcm5lc3Mua2V5Ym9hcmQuaGFuZGxlVmlld3BvcnRDaGFuZ2UoKTsKICAgIGV4cGVjdChoYXJuZXNzLmtleWJvYXJkLmlzSW5wdXRGdWxsc2NyZWVuLnZhbHVlKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChoYXJuZXNzLmtleWJvYXJkLmlzU29mdEtleWJvYXJkVmlzaWJsZS52YWx1ZSkudG9CZShmYWxzZSk7CiAgICBleHBlY3Qodmlld3BvcnQucmVtb3ZlRXZlbnRMaXN0ZW5lcikudG9IYXZlQmVlbkNhbGxlZFdpdGgoCiAgICAgICJyZXNpemUiLAogICAgICBleHBlY3QuYW55KEZ1bmN0aW9uKSwKICAgICk7CiAgICBleHBlY3Qodmlld3BvcnQucmVtb3ZlRXZlbnRMaXN0ZW5lcikudG9IYXZlQmVlbkNhbGxlZFdpdGgoCiAgICAgICJzY3JvbGwiLAogICAgICBleHBlY3QuYW55KEZ1bmN0aW9uKSwKICAgICk7CgogICAgaGFybmVzcy5rZXlib2FyZC5yZXNldCgpOwogICAgZXhwZWN0KGhhcm5lc3Mua2V5Ym9hcmQuY29udGVudFN0eWxlLnZhbHVlKS50b01hdGNoT2JqZWN0KHsKICAgICAgIi0tZGlhbG9nLWlucHV0LXZpZXdwb3J0LWhlaWdodCI6ICIxMDBkdmgiLAogICAgICAiLS1kaWFsb2ctaW5wdXQtdmlld3BvcnQtdG9wIjogIjBweCIsCiAgICB9KTsKICAgIGhhcm5lc3Muc2NvcGUuc3RvcCgpOwogIH0pOwoKICBpdCgiZG9lcyBub3QgY2hhbmdlIHNjcm9sbGluZyBvciBsYXlvdXQgd2hlbiBhIGRlc2t0b3AgaW5wdXQgcmVjZWl2ZXMgZm9jdXMiLCAoKSA9PiB7CiAgICBjb25zdCB2aWV3cG9ydCA9IGluc3RhbGxWaWV3cG9ydCg5MDAsIDAsIDEwMjQpOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUtleWJvYXJkSGFybmVzcygpOwoKICAgIGZvY3VzSW5wdXQoaGFybmVzcyk7CgogICAgZXhwZWN0KGhhcm5lc3Mua2V5Ym9hcmQuaXNJbnB1dEZ1bGxzY3JlZW4udmFsdWUpLnRvQmUoZmFsc2UpOwogICAgZXhwZWN0KGhhcm5lc3MuaW5wdXQuc2Nyb2xsSW50b1ZpZXcpLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICBleHBlY3Qodmlld3BvcnQuYWRkRXZlbnRMaXN0ZW5lcikubm90LnRvSGF2ZUJlZW5DYWxsZWQoKTsKICAgIGhhcm5lc3Muc2NvcGUuc3RvcCgpOwogIH0pOwoKICBpdCgiaWdub3JlcyB2aWV3cG9ydCBzaHJpbmthZ2UgdW50aWwgYSBkaWFsb2cgaW5wdXQgc3RhcnRzIHRoZSBrZXlib2FyZCBzZXNzaW9uIiwgKCkgPT4gewogICAgaW5zdGFsbFZpZXdwb3J0KDUxMCwgMTgpOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUtleWJvYXJkSGFybmVzcygpOwoKICAgIGhhcm5lc3Mua2V5Ym9hcmQuaGFuZGxlVmlld3BvcnRDaGFuZ2UoKTsKCiAgICBleHBlY3QoaGFybmVzcy5rZXlib2FyZC5pc0lucHV0RnVsbHNjcmVlbi52YWx1ZSkudG9CZShmYWxzZSk7CiAgICBleHBlY3QoaGFybmVzcy5rZXlib2FyZC5pc1NvZnRLZXlib2FyZFZpc2libGUudmFsdWUpLnRvQmUoZmFsc2UpOwogICAgaGFybmVzcy5zY29wZS5zdG9wKCk7CiAgfSk7CgogIGl0KCJkb2VzIG5vdCBmdWxsc2NyZWVuIGNvbnRyb2xzIHRoYXQgY2Fubm90IG9wZW4gYSBzb2Z0d2FyZSBrZXlib2FyZCIsICgpID0+IHsKICAgIGluc3RhbGxWaWV3cG9ydCgpOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUtleWJvYXJkSGFybmVzcygpOwogICAgaGFybmVzcy5pbnB1dC50eXBlID0gImNoZWNrYm94IjsKCiAgICBmb2N1c0lucHV0KGhhcm5lc3MpOwoKICAgIGV4cGVjdChoYXJuZXNzLmtleWJvYXJkLmlzSW5wdXRGdWxsc2NyZWVuLnZhbHVlKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChoYXJuZXNzLmtleWJvYXJkLmlzU29mdEtleWJvYXJkVmlzaWJsZS52YWx1ZSkudG9CZShmYWxzZSk7CiAgICBoYXJuZXNzLnNjb3BlLnN0b3AoKTsKICB9KTsKCiAgaXQoImNhbmNlbHMgZGVsYXllZCBpbnB1dCBzY3JvbGxpbmcgd2hlbiB0aGUgZGlhbG9nIHJlc2V0cyIsICgpID0+IHsKICAgIGluc3RhbGxWaWV3cG9ydCgpOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUtleWJvYXJkSGFybmVzcygpOwogICAgY29uc3QgY29udGFpbmVyUmVjdCA9IHsKICAgICAgYm90dG9tOiA3MDAsCiAgICAgIGhlaWdodDogNzAwLAogICAgICBsZWZ0OiAwLAogICAgICByaWdodDogMzkwLAogICAgICB0b3A6IDAsCiAgICAgIHdpZHRoOiAzOTAsCiAgICAgIHg6IDAsCiAgICAgIHk6IDAsCiAgICAgIHRvSlNPTjogKCkgPT4gKHt9KSwKICAgIH0gYXMgRE9NUmVjdDsKICAgIGNvbnN0IGlucHV0UmVjdCA9IHsKICAgICAgLi4uY29udGFpbmVyUmVjdCwKICAgICAgYm90dG9tOiAxMzYsCiAgICAgIGhlaWdodDogMzYsCiAgICAgIHRvcDogMTAwLAogICAgICB5OiAxMDAsCiAgICB9IGFzIERPTVJlY3Q7CiAgICB2aS5zcHlPbihoYXJuZXNzLmNvbnRhaW5lciwgImdldEJvdW5kaW5nQ2xpZW50UmVjdCIpLm1vY2tSZXR1cm5WYWx1ZSgKICAgICAgY29udGFpbmVyUmVjdCwKICAgICk7CiAgICB2aS5zcHlPbihoYXJuZXNzLmlucHV0LCAiZ2V0Qm91bmRpbmdDbGllbnRSZWN0IikubW9ja1JldHVyblZhbHVlKGlucHV0UmVjdCk7CiAgICBmb2N1c0lucHV0KGhhcm5lc3MpOwogICAgY29uc3Qgc2Nyb2xsSW50b1ZpZXcgPSB2aS5tb2NrZWQoaGFybmVzcy5pbnB1dC5zY3JvbGxJbnRvVmlldyk7CiAgICBjb25zdCBjYWxsc0JlZm9yZVJlc2V0ID0gc2Nyb2xsSW50b1ZpZXcubW9jay5jYWxscy5sZW5ndGg7CgogICAgaGFybmVzcy5rZXlib2FyZC5yZXNldCgpOwogICAgdmkucnVuQWxsVGltZXJzKCk7CgogICAgZXhwZWN0KHNjcm9sbEludG9WaWV3KS50b0hhdmVCZWVuQ2FsbGVkVGltZXMoY2FsbHNCZWZvcmVSZXNldCk7CiAgICBleHBlY3QoaGFybmVzcy5rZXlib2FyZC5pc0lucHV0RnVsbHNjcmVlbi52YWx1ZSkudG9CZShmYWxzZSk7CiAgICBoYXJuZXNzLnNjb3BlLnN0b3AoKTsKICB9KTsKCiAgaXQoInJlbGVhc2VzIHZpZXdwb3J0IGxpc3RlbmVycyB3aGVuIGl0cyBvd25pbmcgc2NvcGUgaXMgZGlzcG9zZWQiLCAoKSA9PiB7CiAgICBjb25zdCB2aWV3cG9ydCA9IGluc3RhbGxWaWV3cG9ydCgpOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUtleWJvYXJkSGFybmVzcygpOwogICAgZm9jdXNJbnB1dChoYXJuZXNzKTsKCiAgICBoYXJuZXNzLnNjb3BlLnN0b3AoKTsKCiAgICBleHBlY3Qodmlld3BvcnQucmVtb3ZlRXZlbnRMaXN0ZW5lcikudG9IYXZlQmVlbkNhbGxlZFdpdGgoCiAgICAgICJyZXNpemUiLAogICAgICBleHBlY3QuYW55KEZ1bmN0aW9uKSwKICAgICk7CiAgICBleHBlY3Qodmlld3BvcnQucmVtb3ZlRXZlbnRMaXN0ZW5lcikudG9IYXZlQmVlbkNhbGxlZFdpdGgoCiAgICAgICJzY3JvbGwiLAogICAgICBleHBlY3QuYW55KEZ1bmN0aW9uKSwKICAgICk7CiAgICBleHBlY3QoaGFybmVzcy5rZXlib2FyZC5pc0lucHV0RnVsbHNjcmVlbi52YWx1ZSkudG9CZShmYWxzZSk7CiAgfSk7CgogIGl0KCJkZWZlcnMgY29sbGFwc2UgdW50aWwgYWZ0ZXIgYSBuZXdseSBmb2N1c2VkIGZvb3RlciBhY3Rpb24gY2FuIGNsaWNrIiwgKCkgPT4gewogICAgaW5zdGFsbFZpZXdwb3J0KCk7CiAgICBjb25zdCBoYXJuZXNzID0gY3JlYXRlS2V5Ym9hcmRIYXJuZXNzKCk7CiAgICBjb25zdCBidXR0b24gPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJidXR0b24iKTsKICAgIGNvbnN0IGhhbmRsZUNsaWNrID0gdmkuZm4oKTsKICAgIGJ1dHRvbi5hZGRFdmVudExpc3RlbmVyKCJjbGljayIsIGhhbmRsZUNsaWNrKTsKICAgIGRvY3VtZW50LmJvZHkuYXBwZW5kKGJ1dHRvbik7CiAgICBmb2N1c0lucHV0KGhhcm5lc3MpOwoKICAgIGJsdXJJbnB1dChoYXJuZXNzKTsKICAgIGJ1dHRvbi5jbGljaygpOwoKICAgIGV4cGVjdChoYW5kbGVDbGljaykudG9IYXZlQmVlbkNhbGxlZE9uY2UoKTsKICAgIGV4cGVjdChoYXJuZXNzLmtleWJvYXJkLmlzSW5wdXRGdWxsc2NyZWVuLnZhbHVlKS50b0JlKHRydWUpOwogICAgdmkuYWR2YW5jZVRpbWVyc0J5VGltZSgwKTsKICAgIGV4cGVjdChoYXJuZXNzLmtleWJvYXJkLmlzSW5wdXRGdWxsc2NyZWVuLnZhbHVlKS50b0JlKGZhbHNlKTsKICAgIGhhcm5lc3Muc2NvcGUuc3RvcCgpOwogIH0pOwoKICBpdCgiZmFsbHMgYmFjayB0byB0aGUgZHluYW1pYyB2aWV3cG9ydCB3aGVuIFZpc3VhbFZpZXdwb3J0IGlzIHVuYXZhaWxhYmxlIiwgKCkgPT4gewogICAgaW5zdGFsbFZpZXdwb3J0KCk7CiAgICBPYmplY3QuZGVmaW5lUHJvcGVydHkod2luZG93LCAidmlzdWFsVmlld3BvcnQiLCB7CiAgICAgIGNvbmZpZ3VyYWJsZTogdHJ1ZSwKICAgICAgdmFsdWU6IHVuZGVmaW5lZCwKICAgIH0pOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUtleWJvYXJkSGFybmVzcygpOwogICAgZm9jdXNJbnB1dChoYXJuZXNzKTsKCiAgICBleHBlY3QoaGFybmVzcy5rZXlib2FyZC5jb250ZW50U3R5bGUudmFsdWUpLnRvTWF0Y2hPYmplY3QoewogICAgICAiLS1kaWFsb2ctaW5wdXQtdmlld3BvcnQtaGVpZ2h0IjogIjEwMGR2aCIsCiAgICAgICItLWRpYWxvZy1pbnB1dC12aWV3cG9ydC10b3AiOiAiMHB4IiwKICAgIH0pOwogICAgZXhwZWN0KGhhcm5lc3Mua2V5Ym9hcmQuaXNJbnB1dEZ1bGxzY3JlZW4udmFsdWUpLnRvQmUodHJ1ZSk7CiAgICBleHBlY3QoaGFybmVzcy5pbnB1dC5zY3JvbGxJbnRvVmlldykudG9IYXZlQmVlbkNhbGxlZCgpOwogICAgaGFybmVzcy5zY29wZS5zdG9wKCk7CiAgfSk7Cn0pOwoKZGVzY3JpYmUoInN1YmRvbWFpbiBtYXBwaW5nIGRpYWxvZyBmb290ZXIiLCAoKSA9PiB7CiAgaXQoImtlZXBzIHRoZSBzYWZlIGFyZWEgdW50aWwgdGhlIHNoYXJlZCBkaWFsb2cgcmVwb3J0cyBhIHNvZnR3YXJlIGtleWJvYXJkIiwgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KFN1YmRvbWFpbk1hcHBpbmdEaWFsb2dGb290ZXIsIHsKICAgICAgcHJvcHM6IHsgZGlhbG9nOiBjcmVhdGVGb290ZXJEaWFsb2coKSB9LAogICAgICBnbG9iYWw6IHsgcGx1Z2luczogW2NyZWF0ZVRlc3RJMThuKCldIH0sCiAgICB9KTsKCiAgICBleHBlY3Qod3JhcHBlci5jbGFzc2VzKCkpLnRvQ29udGFpbigKICAgICAgIm1heC1zbTpncm91cC1kYXRhLVtzb2Z0LWtleWJvYXJkLXZpc2libGU9ZmFsc2VdL2RpYWxvZzpwYi1bY2FsYyhlbnYoc2FmZS1hcmVhLWluc2V0LWJvdHRvbSkrMXJlbSldIiwKICAgICk7CiAgfSk7CgogIGl0KCJrZWVwcyBjYW5jZWwgYW5kIHNhdmUgYXMgZXF1YWwgbW9iaWxlIGNvbHVtbnMgd2l0aG91dCBjaGFuZ2luZyBhY3Rpb25zIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KFN1YmRvbWFpbk1hcHBpbmdEaWFsb2dGb290ZXIsIHsKICAgICAgcHJvcHM6IHsgZGlhbG9nOiBjcmVhdGVGb290ZXJEaWFsb2coKSB9LAogICAgICBnbG9iYWw6IHsgcGx1Z2luczogW2NyZWF0ZVRlc3RJMThuKCldIH0sCiAgICB9KTsKCiAgICBleHBlY3Qod3JhcHBlci5jbGFzc2VzKCkpLnRvRXF1YWwoCiAgICAgIGV4cGVjdC5hcnJheUNvbnRhaW5pbmcoWyJncmlkIiwgImdyaWQtY29scy0yIiwgInNtOmZsZXgiXSksCiAgICApOwogICAgY29uc3QgYnV0dG9ucyA9IHdyYXBwZXIuZmluZEFsbCgiYnV0dG9uIik7CiAgICBleHBlY3QoYnV0dG9ucy5tYXAoKGJ1dHRvbikgPT4gYnV0dG9uLnRleHQoKSkpLnRvRXF1YWwoWwogICAgICAiQ2FuY2VsIiwKICAgICAgIlNhdmUgbWFwcGluZyIsCiAgICBdKTsKICAgIGV4cGVjdCgKICAgICAgYnV0dG9ucy5ldmVyeSgKICAgICAgICAoYnV0dG9uKSA9PgogICAgICAgICAgYnV0dG9uLmNsYXNzZXMoKS5pbmNsdWRlcygidy1mdWxsIikgJiYKICAgICAgICAgIGJ1dHRvbi5jbGFzc2VzKCkuaW5jbHVkZXMoInNtOnctYXV0byIpLAogICAgICApLAogICAgKS50b0JlKHRydWUpOwoKICAgIGF3YWl0IGJ1dHRvbnNbMF0/LnRyaWdnZXIoImNsaWNrIik7CiAgICBhd2FpdCBidXR0b25zWzFdPy50cmlnZ2VyKCJjbGljayIpOwogICAgZXhwZWN0KHdyYXBwZXIuZW1pdHRlZCgiY2xvc2UiKSkudG9IYXZlTGVuZ3RoKDEpOwogICAgZXhwZWN0KHdyYXBwZXIuZW1pdHRlZCgic2F2ZSIpKS50b0hhdmVMZW5ndGgoMSk7CiAgfSk7CgogIGl0KCJ1c2VzIHRoZSBzYW1lIGhvcml6b250YWwgb3JkZXIgYW5kIGRpc2FibGVkIHN0YXRlIGluIHRoZSBwYXRoIGJyb3dzZXIiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBjYW5jZWwgPSB2aS5mbigpOwogICAgY29uc3QgY29uZmlybVNlbGVjdGlvbiA9IHZpLmZuKCk7CiAgICBjb25zdCBkaWFsb2cgPSBjcmVhdGVGb290ZXJEaWFsb2coInBhdGgtYnJvd3NlciIsIHsKICAgICAgcGF0aEJyb3dzZXJFZGl0b3I6IHsKICAgICAgICBjYW5Db25maXJtOiBmYWxzZSwKICAgICAgICBjYW5jZWwsCiAgICAgICAgY29uZmlybVNlbGVjdGlvbiwKICAgICAgICBpc0NvbmZpcm1pbmc6IGZhbHNlLAogICAgICAgIHRhcmdldFR5cGU6ICJkaXJlY3RvcnkiLAogICAgICB9LAogICAgfSk7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoU3ViZG9tYWluTWFwcGluZ0RpYWxvZ0Zvb3RlciwgewogICAgICBwcm9wczogeyBkaWFsb2cgfSwKICAgICAgZ2xvYmFsOiB7IHBsdWdpbnM6IFtjcmVhdGVUZXN0STE4bigpXSB9LAogICAgfSk7CiAgICBjb25zdCBidXR0b25zID0gd3JhcHBlci5maW5kQWxsKCJidXR0b24iKTsKCiAgICBleHBlY3QoYnV0dG9ucy5tYXAoKGJ1dHRvbikgPT4gYnV0dG9uLnRleHQoKSkpLnRvRXF1YWwoWwogICAgICAiQ2FuY2VsIGJyb3dzZXIiLAogICAgICAiVXNlIGZvbGRlciIsCiAgICBdKTsKICAgIGV4cGVjdChidXR0b25zWzFdPy5hdHRyaWJ1dGVzKCkpLnRvSGF2ZVByb3BlcnR5KCJkaXNhYmxlZCIpOwogICAgYXdhaXQgYnV0dG9uc1swXT8udHJpZ2dlcigiY2xpY2siKTsKICAgIGF3YWl0IGJ1dHRvbnNbMV0/LnRyaWdnZXIoImNsaWNrIik7CiAgICBleHBlY3QoY2FuY2VsKS50b0hhdmVCZWVuQ2FsbGVkT25jZSgpOwogICAgZXhwZWN0KGNvbmZpcm1TZWxlY3Rpb24pLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgfSk7Cn0pOwo=
+import { defineComponent, effectScope, h, nextTick, ref } from "vue";
+import { mount } from "@vue/test-utils";
+import { createI18n } from "vue-i18n";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogTitle,
+  useMobileDialogInputFullscreen,
+} from "@/components/ui/dialog";
+
+import SubdomainMappingDialogFooter from "../src/views/subdomain-proxy/SubdomainMappingDialogFooter.vue";
+import type { SubdomainMappingDialogProps } from "../src/views/subdomain-proxy/subdomain-mapping-dialog-contract";
+
+type MutableVisualViewport = {
+  height: number;
+  offsetTop: number;
+  addEventListener: ReturnType<typeof vi.fn>;
+  removeEventListener: ReturnType<typeof vi.fn>;
+};
+
+const originalInnerHeightDescriptor = Object.getOwnPropertyDescriptor(
+  window,
+  "innerHeight",
+);
+const originalInnerWidthDescriptor = Object.getOwnPropertyDescriptor(
+  window,
+  "innerWidth",
+);
+const originalVisualViewportDescriptor = Object.getOwnPropertyDescriptor(
+  window,
+  "visualViewport",
+);
+
+const createTestI18n = () =>
+  createI18n({
+    legacy: false,
+    locale: "en",
+    messages: {
+      en: {
+        admin: {
+          subdomainProxy: {
+            cancel: "Cancel",
+            saveMapping: "Save mapping",
+            staticServe: {
+              browser: {
+                cancel: "Cancel browser",
+                useCurrentFolder: "Use folder",
+                useSelectedFile: "Use file",
+              },
+            },
+          },
+        },
+      },
+    },
+  });
+
+const installViewport = (
+  height = 900,
+  offsetTop = 0,
+  width = 390,
+): MutableVisualViewport => {
+  const viewport = {
+    height,
+    offsetTop,
+    addEventListener: vi.fn(),
+    removeEventListener: vi.fn(),
+  };
+  Object.defineProperty(window, "innerHeight", {
+    configurable: true,
+    value: 900,
+  });
+  Object.defineProperty(window, "innerWidth", {
+    configurable: true,
+    value: width,
+  });
+  Object.defineProperty(window, "visualViewport", {
+    configurable: true,
+    value: viewport,
+  });
+  return viewport;
+};
+
+const createKeyboardHarness = () => {
+  const scope = effectScope();
+  const isDialogOpen = ref(true);
+  const keyboard = scope.run(() =>
+    useMobileDialogInputFullscreen({ isDialogOpen }),
+  );
+  if (!keyboard) throw new Error("keyboard layout harness failed");
+
+  const container = document.createElement("div");
+  const input = document.createElement("input");
+  Object.defineProperty(container, "scrollTo", { value: vi.fn() });
+  Object.defineProperty(input, "scrollIntoView", { value: vi.fn() });
+  container.append(input);
+  document.body.append(container);
+
+  return { container, input, isDialogOpen, keyboard, scope };
+};
+
+const focusInput = (harness: ReturnType<typeof createKeyboardHarness>) => {
+  harness.input.focus();
+  harness.keyboard.handleFocusIn({
+    currentTarget: harness.container,
+    target: harness.input,
+  } as unknown as FocusEvent);
+};
+
+const blurInput = (harness: ReturnType<typeof createKeyboardHarness>) => {
+  harness.input.blur();
+  harness.keyboard.handleFocusOut({
+    currentTarget: harness.container,
+    target: harness.input,
+  } as unknown as FocusEvent);
+};
+
+const createFooterDialog = (
+  view: "basic" | "path-browser" = "basic",
+  overrides: Record<string, unknown> = {},
+) =>
+  ({
+    iconEditor: { isIconBusy: false },
+    isGatewayAdvancedLoading: false,
+    isMappingValid: true,
+    isSavingMappings: false,
+    pathBrowserEditor: {
+      canConfirm: true,
+      cancel: vi.fn(),
+      confirmSelection: vi.fn(),
+      isConfirming: false,
+      targetType: "directory",
+    },
+    visibilityEditor: { mappingDialogView: view },
+    ...overrides,
+  }) as unknown as SubdomainMappingDialogProps;
+
+beforeEach(() => {
+  vi.useFakeTimers();
+});
+
+afterEach(() => {
+  vi.useRealTimers();
+  vi.restoreAllMocks();
+  document.body.replaceChildren();
+  if (originalInnerHeightDescriptor) {
+    Object.defineProperty(
+      window,
+      "innerHeight",
+      originalInnerHeightDescriptor,
+    );
+  }
+  if (originalInnerWidthDescriptor) {
+    Object.defineProperty(
+      window,
+      "innerWidth",
+      originalInnerWidthDescriptor,
+    );
+  }
+  if (originalVisualViewportDescriptor) {
+    Object.defineProperty(
+      window,
+      "visualViewport",
+      originalVisualViewportDescriptor,
+    );
+  } else {
+    Reflect.deleteProperty(window, "visualViewport");
+  }
+});
+
+describe("shared dialog mobile input fullscreen layout", () => {
+  it("enables the behavior by default for every shared DialogContent", async () => {
+    const viewport = installViewport();
+    const isOpen = ref(true);
+    const DialogHarness = defineComponent({
+      setup: () => () =>
+        h(
+          Dialog,
+          { open: isOpen.value, unmountOnHide: false },
+          () =>
+            h(DialogContent, null, {
+              default: () => [
+                h(DialogTitle, null, () => "Edit"),
+                h(DialogDescription, null, () => "Edit this record"),
+                h("input", { "data-testid": "dialog-input" }),
+              ],
+            }),
+        ),
+    });
+    const wrapper = mount(DialogHarness, { attachTo: document.body });
+    await nextTick();
+    const content = document.querySelector<HTMLElement>(
+      '[data-slot="dialog-content"]',
+    );
+    const input = document.querySelector<HTMLInputElement>(
+      '[data-testid="dialog-input"]',
+    );
+    if (!content || !input) throw new Error("shared dialog harness failed");
+    Object.defineProperty(input, "scrollIntoView", { value: vi.fn() });
+
+    input.focus();
+    await nextTick();
+
+    expect(content.dataset.inputFullscreen).toBe("true");
+    expect(content.style.getPropertyValue("--dialog-input-viewport-height")).toBe(
+      "900px",
+    );
+    expect(content.classList).toContain(
+      "max-sm:!h-[var(--dialog-input-viewport-height)]",
+    );
+
+    isOpen.value = false;
+    await nextTick();
+    expect(content.dataset.inputFullscreen).toBe("false");
+    expect(viewport.removeEventListener).toHaveBeenCalledWith(
+      "resize",
+      expect.any(Function),
+    );
+    expect(viewport.removeEventListener).toHaveBeenCalledWith(
+      "scroll",
+      expect.any(Function),
+    );
+    wrapper.unmount();
+  });
+
+  it("fills the visual viewport on focus and tracks keyboard geometry", () => {
+    const viewport = installViewport();
+    const harness = createKeyboardHarness();
+    focusInput(harness);
+
+    expect(harness.keyboard.isInputFullscreen.value).toBe(true);
+    expect(harness.keyboard.isSoftKeyboardVisible.value).toBe(false);
+    expect(harness.keyboard.contentStyle.value).toMatchObject({
+      "--dialog-input-viewport-height": "900px",
+      "--dialog-input-viewport-top": "0px",
+    });
+
+    viewport.height = 510;
+    viewport.offsetTop = 18;
+    harness.keyboard.handleViewportChange();
+    expect(harness.keyboard.isSoftKeyboardVisible.value).toBe(true);
+    expect(harness.keyboard.contentStyle.value).toMatchObject({
+      "--dialog-input-viewport-height": "510px",
+      "--dialog-input-viewport-top": "18px",
+    });
+
+    blurInput(harness);
+    vi.advanceTimersByTime(0);
+    expect(harness.keyboard.isInputFullscreen.value).toBe(true);
+
+    viewport.height = 900;
+    viewport.offsetTop = 0;
+    harness.keyboard.handleViewportChange();
+    expect(harness.keyboard.isInputFullscreen.value).toBe(false);
+    expect(harness.keyboard.isSoftKeyboardVisible.value).toBe(false);
+    expect(viewport.removeEventListener).toHaveBeenCalledWith(
+      "resize",
+      expect.any(Function),
+    );
+    expect(viewport.removeEventListener).toHaveBeenCalledWith(
+      "scroll",
+      expect.any(Function),
+    );
+
+    harness.keyboard.reset();
+    expect(harness.keyboard.contentStyle.value).toMatchObject({
+      "--dialog-input-viewport-height": "100dvh",
+      "--dialog-input-viewport-top": "0px",
+    });
+    harness.scope.stop();
+  });
+
+  it("does not change scrolling or layout when a desktop input receives focus", () => {
+    const viewport = installViewport(900, 0, 1024);
+    const harness = createKeyboardHarness();
+
+    focusInput(harness);
+
+    expect(harness.keyboard.isInputFullscreen.value).toBe(false);
+    expect(harness.input.scrollIntoView).not.toHaveBeenCalled();
+    expect(viewport.addEventListener).not.toHaveBeenCalled();
+    harness.scope.stop();
+  });
+
+  it("ignores viewport shrinkage until a dialog input starts the keyboard session", () => {
+    installViewport(510, 18);
+    const harness = createKeyboardHarness();
+
+    harness.keyboard.handleViewportChange();
+
+    expect(harness.keyboard.isInputFullscreen.value).toBe(false);
+    expect(harness.keyboard.isSoftKeyboardVisible.value).toBe(false);
+    harness.scope.stop();
+  });
+
+  it("does not fullscreen controls that cannot open a software keyboard", () => {
+    installViewport();
+    const harness = createKeyboardHarness();
+    harness.input.type = "checkbox";
+
+    focusInput(harness);
+
+    expect(harness.keyboard.isInputFullscreen.value).toBe(false);
+    expect(harness.keyboard.isSoftKeyboardVisible.value).toBe(false);
+    harness.scope.stop();
+  });
+
+  it("cancels delayed input scrolling when the dialog resets", () => {
+    installViewport();
+    const harness = createKeyboardHarness();
+    const containerRect = {
+      bottom: 700,
+      height: 700,
+      left: 0,
+      right: 390,
+      top: 0,
+      width: 390,
+      x: 0,
+      y: 0,
+      toJSON: () => ({}),
+    } as DOMRect;
+    const inputRect = {
+      ...containerRect,
+      bottom: 136,
+      height: 36,
+      top: 100,
+      y: 100,
+    } as DOMRect;
+    vi.spyOn(harness.container, "getBoundingClientRect").mockReturnValue(
+      containerRect,
+    );
+    vi.spyOn(harness.input, "getBoundingClientRect").mockReturnValue(inputRect);
+    focusInput(harness);
+    const scrollIntoView = vi.mocked(harness.input.scrollIntoView);
+    const callsBeforeReset = scrollIntoView.mock.calls.length;
+
+    harness.keyboard.reset();
+    vi.runAllTimers();
+
+    expect(scrollIntoView).toHaveBeenCalledTimes(callsBeforeReset);
+    expect(harness.keyboard.isInputFullscreen.value).toBe(false);
+    harness.scope.stop();
+  });
+
+  it("releases viewport listeners when its owning scope is disposed", () => {
+    const viewport = installViewport();
+    const harness = createKeyboardHarness();
+    focusInput(harness);
+
+    harness.scope.stop();
+
+    expect(viewport.removeEventListener).toHaveBeenCalledWith(
+      "resize",
+      expect.any(Function),
+    );
+    expect(viewport.removeEventListener).toHaveBeenCalledWith(
+      "scroll",
+      expect.any(Function),
+    );
+    expect(harness.keyboard.isInputFullscreen.value).toBe(false);
+  });
+
+  it("defers collapse until after a newly focused footer action can click", () => {
+    installViewport();
+    const harness = createKeyboardHarness();
+    const button = document.createElement("button");
+    const handleClick = vi.fn();
+    button.addEventListener("click", handleClick);
+    document.body.append(button);
+    focusInput(harness);
+
+    blurInput(harness);
+    button.click();
+
+    expect(handleClick).toHaveBeenCalledOnce();
+    expect(harness.keyboard.isInputFullscreen.value).toBe(true);
+    vi.advanceTimersByTime(0);
+    expect(harness.keyboard.isInputFullscreen.value).toBe(false);
+    harness.scope.stop();
+  });
+
+  it("falls back to the dynamic viewport when VisualViewport is unavailable", () => {
+    installViewport();
+    Object.defineProperty(window, "visualViewport", {
+      configurable: true,
+      value: undefined,
+    });
+    const harness = createKeyboardHarness();
+    focusInput(harness);
+
+    expect(harness.keyboard.contentStyle.value).toMatchObject({
+      "--dialog-input-viewport-height": "100dvh",
+      "--dialog-input-viewport-top": "0px",
+    });
+    expect(harness.keyboard.isInputFullscreen.value).toBe(true);
+    expect(harness.input.scrollIntoView).toHaveBeenCalled();
+    harness.scope.stop();
+  });
+});
+
+describe("subdomain mapping dialog footer", () => {
+  it("keeps the safe area until the shared dialog reports a software keyboard", () => {
+    const wrapper = mount(SubdomainMappingDialogFooter, {
+      props: { dialog: createFooterDialog() },
+      global: { plugins: [createTestI18n()] },
+    });
+
+    expect(wrapper.classes()).toContain(
+      "max-sm:group-data-[soft-keyboard-visible=false]/dialog:pb-[calc(env(safe-area-inset-bottom)+1rem)]",
+    );
+  });
+
+  it("keeps cancel and save as equal mobile columns without changing actions", async () => {
+    const wrapper = mount(SubdomainMappingDialogFooter, {
+      props: { dialog: createFooterDialog() },
+      global: { plugins: [createTestI18n()] },
+    });
+
+    expect(wrapper.classes()).toEqual(
+      expect.arrayContaining(["grid", "grid-cols-2", "sm:flex"]),
+    );
+    const buttons = wrapper.findAll("button");
+    expect(buttons.map((button) => button.text())).toEqual([
+      "Cancel",
+      "Save mapping",
+    ]);
+    expect(
+      buttons.every(
+        (button) =>
+          button.classes().includes("w-full") &&
+          button.classes().includes("sm:w-auto"),
+      ),
+    ).toBe(true);
+
+    await buttons[0]?.trigger("click");
+    await buttons[1]?.trigger("click");
+    expect(wrapper.emitted("close")).toHaveLength(1);
+    expect(wrapper.emitted("save")).toHaveLength(1);
+  });
+
+  it("uses the same horizontal order and disabled state in the path browser", async () => {
+    const cancel = vi.fn();
+    const confirmSelection = vi.fn();
+    const dialog = createFooterDialog("path-browser", {
+      pathBrowserEditor: {
+        canConfirm: false,
+        cancel,
+        confirmSelection,
+        isConfirming: false,
+        targetType: "directory",
+      },
+    });
+    const wrapper = mount(SubdomainMappingDialogFooter, {
+      props: { dialog },
+      global: { plugins: [createTestI18n()] },
+    });
+    const buttons = wrapper.findAll("button");
+
+    expect(buttons.map((button) => button.text())).toEqual([
+      "Cancel browser",
+      "Use folder",
+    ]);
+    expect(buttons[1]?.attributes()).toHaveProperty("disabled");
+    await buttons[0]?.trigger("click");
+    await buttons[1]?.trigger("click");
+    expect(cancel).toHaveBeenCalledOnce();
+    expect(confirmSelection).not.toHaveBeenCalled();
+  });
+});

@@ -1,1 +1,410 @@
-dXNlIHN0ZDo6e2Vudiwgc3luYzo6QXJjfTsKCnVzZSBheHVtOjp7CiAgICBSb3V0ZXIsCiAgICBodHRwOjp7SGVhZGVyTWFwLCBIZWFkZXJWYWx1ZSwgU3RhdHVzQ29kZSwgVXJpLCBoZWFkZXJ9LAogICAgcmVzcG9uc2U6OntJbnRvUmVzcG9uc2UsIFJlc3BvbnNlfSwKfTsKdXNlIHNlcmRlX2pzb246OntWYWx1ZSwganNvbn07CnVzZSB0b2tpbzo6e25ldDo6VGNwTGlzdGVuZXIsIHN5bmM6Ok11dGV4LCB0YXNrOjpKb2luSGFuZGxlfTsKCnVzZSBjcmF0ZTo6e2kxOG46OlRyYW5zbGF0b3IsIHJ1bnRpbWVfcHJvZmlsZSwgc3RhdGU6OkFwcFN0YXRlLCB0aW1lX3V0aWxzfTsKCmNvbnN0IEFVVE9fSFRUUFNfTElTVEVOX1BPUlQ6IHUxNiA9IDgwOwpjb25zdCBBVVRPX0hUVFBTX0RVQUxfU1RBQ0tfTElTVEVOX0hPU1Q6ICZzdHIgPSAiOjoiOwpjb25zdCBBVVRPX0hUVFBTX0ZBTExCQUNLX0lQVjRfTElTVEVOX0hPU1Q6ICZzdHIgPSAiMC4wLjAuMCI7CmNvbnN0IExJU1RFTl9FQUNDRVNfRVJST1I6ICZzdHIgPSAiUGVybWlzc2lvbiBkZW5pZWQgd2hpbGUgYmluZGluZyBIVFRQIHJlZGlyZWN0IHBvcnQiOwpjb25zdCBMSVNURU5fRUFERFJJTlVTRV9FUlJPUjogJnN0ciA9ICJIVFRQIHJlZGlyZWN0IHBvcnQgaXMgYWxyZWFkeSBpbiB1c2UiOwpjb25zdCBMSVNURU5fRkFJTEVEX0VSUk9SOiAmc3RyID0gIkZhaWxlZCB0byBzdGFydCBIVFRQIHJlZGlyZWN0IHNlcnZlciI7CmNvbnN0IExJU1RFTl9GQUlMRURfV0lUSF9NRVNTQUdFX1BSRUZJWDogJnN0ciA9ICJGYWlsZWQgdG8gc3RhcnQgSFRUUCByZWRpcmVjdCBzZXJ2ZXI6ICI7CgojW2Rlcml2ZShDbG9uZSldCnB1YiBzdHJ1Y3QgQXV0b0h0dHBzUmVkaXJlY3RNYW5hZ2VyIHsKICAgIGlubmVyOiBBcmM8TXV0ZXg8QXV0b0h0dHBzSW5uZXI+PiwKICAgIGxpc3Rlbl9wb3J0OiB1MTYsCiAgICBjb25maWd1cmVkX2xpc3Rlbl9ob3N0OiBTdHJpbmcsCn0KCnN0cnVjdCBBdXRvSHR0cHNJbm5lciB7CiAgICBzdGF0ZTogVmFsdWUsCiAgICBzaHV0ZG93bjogT3B0aW9uPHRva2lvOjpzeW5jOjpvbmVzaG90OjpTZW5kZXI8KCk+PiwKICAgIHRhc2s6IE9wdGlvbjxKb2luSGFuZGxlPCgpPj4sCn0KCiNbZGVyaXZlKENsb25lKV0Kc3RydWN0IEF1dG9IdHRwc0xpc3RlblRhcmdldCB7CiAgICBob3N0OiBTdHJpbmcsCn0KCmltcGwgQXV0b0h0dHBzUmVkaXJlY3RNYW5hZ2VyIHsKICAgIHB1YiBmbiBuZXcoKSAtPiBTZWxmIHsKICAgICAgICBsZXQgY29uZmlndXJlZF9saXN0ZW5faG9zdCA9IGVudjo6dmFyKCJGTl9LTk9DS19BVVRPX0hUVFBTX0hPU1QiKQogICAgICAgICAgICAub2soKQogICAgICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUudHJpbSgpLnRvX3N0cmluZygpKQogICAgICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgICAgIGxldCBkZWZhdWx0X2hvc3QgPSBpZiBjb25maWd1cmVkX2xpc3Rlbl9ob3N0LmlzX2VtcHR5KCkgewogICAgICAgICAgICBBVVRPX0hUVFBTX0RVQUxfU1RBQ0tfTElTVEVOX0hPU1QudG9fc3RyaW5nKCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBjb25maWd1cmVkX2xpc3Rlbl9ob3N0LmNsb25lKCkKICAgICAgICB9OwogICAgICAgIFNlbGYgewogICAgICAgICAgICBpbm5lcjogQXJjOjpuZXcoTXV0ZXg6Om5ldyhBdXRvSHR0cHNJbm5lciB7CiAgICAgICAgICAgICAgICBzdGF0ZTogYnVpbGRfc3RhdGVfdmFsdWUoZmFsc2UsIGZhbHNlLCBOb25lLCAmZGVmYXVsdF9ob3N0LCBBVVRPX0hUVFBTX0xJU1RFTl9QT1JUKSwKICAgICAgICAgICAgICAgIHNodXRkb3duOiBOb25lLAogICAgICAgICAgICAgICAgdGFzazogTm9uZSwKICAgICAgICAgICAgfSkpLAogICAgICAgICAgICBsaXN0ZW5fcG9ydDogQVVUT19IVFRQU19MSVNURU5fUE9SVCwKICAgICAgICAgICAgY29uZmlndXJlZF9saXN0ZW5faG9zdCwKICAgICAgICB9CiAgICB9CgogICAgcHViIGFzeW5jIGZuIHJ1bnRpbWVfc3RhdGUoJnNlbGYpIC0+IFZhbHVlIHsKICAgICAgICBzZWxmLmlubmVyLmxvY2soKS5hd2FpdC5zdGF0ZS5jbG9uZSgpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIGFwcGx5X2NvbmZpZygmc2VsZiwgZW5hYmxlZDogYm9vbCkgLT4gVmFsdWUgewogICAgICAgIGxldCBtdXQgaW5uZXIgPSBzZWxmLmlubmVyLmxvY2soKS5hd2FpdDsKICAgICAgICBpZiAhZW5hYmxlZCB7CiAgICAgICAgICAgIHNlbGYuc3RvcF9zZXJ2ZXJfbG9ja2VkKCZtdXQgaW5uZXIpLmF3YWl0OwogICAgICAgICAgICBpbm5lci5zdGF0ZSA9IHNlbGYuYnVpbGRfc3RhdGUoZmFsc2UsIGZhbHNlLCBOb25lLCAmc2VsZi5kZWZhdWx0X2xpc3Rlbl9ob3N0KCkpOwogICAgICAgICAgICByZXR1cm4gaW5uZXIuc3RhdGUuY2xvbmUoKTsKICAgICAgICB9CgogICAgICAgIGlmIGlubmVyLnNodXRkb3duLmlzX3NvbWUoKSB7CiAgICAgICAgICAgIGxldCBob3N0ID0gaW5uZXIKICAgICAgICAgICAgICAgIC5zdGF0ZQogICAgICAgICAgICAgICAgLmdldCgibGlzdGVuX2hvc3QiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IHNlbGYuZGVmYXVsdF9saXN0ZW5faG9zdCgpKQogICAgICAgICAgICAgICAgLnRvX3N0cmluZygpOwogICAgICAgICAgICBpbm5lci5zdGF0ZSA9IHNlbGYuYnVpbGRfc3RhdGUodHJ1ZSwgdHJ1ZSwgTm9uZSwgJmhvc3QpOwogICAgICAgICAgICByZXR1cm4gaW5uZXIuc3RhdGUuY2xvbmUoKTsKICAgICAgICB9CgogICAgICAgIHNlbGYuc3RvcF9zZXJ2ZXJfbG9ja2VkKCZtdXQgaW5uZXIpLmF3YWl0OwogICAgICAgIGxldCBtdXQgbGFzdF9lcnJvciA9IE5vbmU7CiAgICAgICAgZm9yIHRhcmdldCBpbiBzZWxmLmxpc3Rlbl90YXJnZXRzKCkgewogICAgICAgICAgICBtYXRjaCBUY3BMaXN0ZW5lcjo6YmluZCgodGFyZ2V0Lmhvc3QuYXNfc3RyKCksIHNlbGYubGlzdGVuX3BvcnQpKS5hd2FpdCB7CiAgICAgICAgICAgICAgICBPayhsaXN0ZW5lcikgPT4gewogICAgICAgICAgICAgICAgICAgIGxldCBsaXN0ZW5faG9zdCA9IGxpc3RlbmVyCiAgICAgICAgICAgICAgICAgICAgICAgIC5sb2NhbF9hZGRyKCkKICAgICAgICAgICAgICAgICAgICAgICAgLm9rKCkKICAgICAgICAgICAgICAgICAgICAgICAgLm1hcCh8YWRkcnwgYWRkci5pcCgpLnRvX3N0cmluZygpKQogICAgICAgICAgICAgICAgICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCB0YXJnZXQuaG9zdC5jbG9uZSgpKTsKICAgICAgICAgICAgICAgICAgICBsZXQgKHNodXRkb3duX3R4LCBzaHV0ZG93bl9yeCkgPSB0b2tpbzo6c3luYzo6b25lc2hvdDo6Y2hhbm5lbCgpOwogICAgICAgICAgICAgICAgICAgIGlubmVyLnNodXRkb3duID0gU29tZShzaHV0ZG93bl90eCk7CiAgICAgICAgICAgICAgICAgICAgaW5uZXIudGFzayA9IFNvbWUodG9raW86OnNwYXduKHNlcnZlX3JlZGlyZWN0KGxpc3RlbmVyLCBzaHV0ZG93bl9yeCkpKTsKICAgICAgICAgICAgICAgICAgICBpbm5lci5zdGF0ZSA9IHNlbGYuYnVpbGRfc3RhdGUodHJ1ZSwgdHJ1ZSwgTm9uZSwgJmxpc3Rlbl9ob3N0KTsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gaW5uZXIuc3RhdGUuY2xvbmUoKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICAgICAgICAgIGxldCBzaG91bGRfZmFsbGJhY2sgPSBzZWxmLmNvbmZpZ3VyZWRfbGlzdGVuX2hvc3QuaXNfZW1wdHkoKQogICAgICAgICAgICAgICAgICAgICAgICAmJiB0YXJnZXQuaG9zdCA9PSBBVVRPX0hUVFBTX0RVQUxfU1RBQ0tfTElTVEVOX0hPU1QKICAgICAgICAgICAgICAgICAgICAgICAgJiYgbWF0Y2hlcyEoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlcnJvci5raW5kKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGQ6OmlvOjpFcnJvcktpbmQ6OkFkZHJOb3RBdmFpbGFibGUgfCBzdGQ6OmlvOjpFcnJvcktpbmQ6OlVuc3VwcG9ydGVkCiAgICAgICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICAgICAgbGV0IG1lc3NhZ2UgPSBub3JtYWxpemVfbGlzdGVuX2Vycm9yKCZlcnJvcik7CiAgICAgICAgICAgICAgICAgICAgbGFzdF9lcnJvciA9IFNvbWUobWVzc2FnZS5jbG9uZSgpKTsKICAgICAgICAgICAgICAgICAgICBpZiBzaG91bGRfZmFsbGJhY2sgewogICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgaW5uZXIuc3RhdGUgPSBzZWxmLmJ1aWxkX2Vycm9yX3N0YXRlKCZtZXNzYWdlLCAmdGFyZ2V0Lmhvc3QpOwogICAgICAgICAgICAgICAgICAgIHJldHVybiBpbm5lci5zdGF0ZS5jbG9uZSgpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBsZXQgbWVzc2FnZSA9IGxhc3RfZXJyb3IudW53cmFwX29yX2Vsc2UofHwgIkZhaWxlZCB0byBzdGFydCBIVFRQIHJlZGlyZWN0IHNlcnZlciIuaW50bygpKTsKICAgICAgICBpbm5lci5zdGF0ZSA9IHNlbGYuYnVpbGRfZXJyb3Jfc3RhdGUoJm1lc3NhZ2UsICZzZWxmLmRlZmF1bHRfbGlzdGVuX2hvc3QoKSk7CiAgICAgICAgaW5uZXIuc3RhdGUuY2xvbmUoKQogICAgfQoKICAgIGFzeW5jIGZuIHN0b3Bfc2VydmVyX2xvY2tlZCgmc2VsZiwgaW5uZXI6ICZtdXQgQXV0b0h0dHBzSW5uZXIpIHsKICAgICAgICBpZiBsZXQgU29tZShzaHV0ZG93bikgPSBpbm5lci5zaHV0ZG93bi50YWtlKCkgewogICAgICAgICAgICBsZXQgXyA9IHNodXRkb3duLnNlbmQoKCkpOwogICAgICAgIH0KICAgICAgICBpZiBsZXQgU29tZSh0YXNrKSA9IGlubmVyLnRhc2sudGFrZSgpIHsKICAgICAgICAgICAgbGV0IF8gPSB0YXNrLmF3YWl0OwogICAgICAgIH0KICAgIH0KCiAgICBmbiBidWlsZF9zdGF0ZSgKICAgICAgICAmc2VsZiwKICAgICAgICBlbmFibGVkOiBib29sLAogICAgICAgIGFjdGl2ZTogYm9vbCwKICAgICAgICBlcnJvcjogT3B0aW9uPCZzdHI+LAogICAgICAgIGxpc3Rlbl9ob3N0OiAmc3RyLAogICAgKSAtPiBWYWx1ZSB7CiAgICAgICAgYnVpbGRfc3RhdGVfdmFsdWUoZW5hYmxlZCwgYWN0aXZlLCBlcnJvciwgbGlzdGVuX2hvc3QsIHNlbGYubGlzdGVuX3BvcnQpCiAgICB9CgogICAgZm4gYnVpbGRfZXJyb3Jfc3RhdGUoJnNlbGYsIGVycm9yOiAmc3RyLCBsaXN0ZW5faG9zdDogJnN0cikgLT4gVmFsdWUgewogICAgICAgIHNlbGYuYnVpbGRfc3RhdGUoZmFsc2UsIGZhbHNlLCBTb21lKGVycm9yKSwgbGlzdGVuX2hvc3QpCiAgICB9CgogICAgZm4gbGlzdGVuX3RhcmdldHMoJnNlbGYpIC0+IFZlYzxBdXRvSHR0cHNMaXN0ZW5UYXJnZXQ+IHsKICAgICAgICBsZXQgaG9zdCA9IHNlbGYuY29uZmlndXJlZF9saXN0ZW5faG9zdC50cmltKCk7CiAgICAgICAgaWYgIWhvc3QuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiB2ZWMhW0F1dG9IdHRwc0xpc3RlblRhcmdldCB7CiAgICAgICAgICAgICAgICBob3N0OiBob3N0LnRvX3N0cmluZygpLAogICAgICAgICAgICB9XTsKICAgICAgICB9CiAgICAgICAgdmVjIVsKICAgICAgICAgICAgQXV0b0h0dHBzTGlzdGVuVGFyZ2V0IHsKICAgICAgICAgICAgICAgIGhvc3Q6IEFVVE9fSFRUUFNfRFVBTF9TVEFDS19MSVNURU5fSE9TVC50b19zdHJpbmcoKSwKICAgICAgICAgICAgfSwKICAgICAgICAgICAgQXV0b0h0dHBzTGlzdGVuVGFyZ2V0IHsKICAgICAgICAgICAgICAgIGhvc3Q6IEFVVE9fSFRUUFNfRkFMTEJBQ0tfSVBWNF9MSVNURU5fSE9TVC50b19zdHJpbmcoKSwKICAgICAgICAgICAgfSwKICAgICAgICBdCiAgICB9CgogICAgZm4gZGVmYXVsdF9saXN0ZW5faG9zdCgmc2VsZikgLT4gU3RyaW5nIHsKICAgICAgICBzZWxmLmxpc3Rlbl90YXJnZXRzKCkKICAgICAgICAgICAgLmZpcnN0KCkKICAgICAgICAgICAgLm1hcCh8dGFyZ2V0fCB0YXJnZXQuaG9zdC5jbG9uZSgpKQogICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofHwgQVVUT19IVFRQU19GQUxMQkFDS19JUFY0X0xJU1RFTl9IT1NULnRvX3N0cmluZygpKQogICAgfQp9CgpmbiBidWlsZF9zdGF0ZV92YWx1ZSgKICAgIGVuYWJsZWQ6IGJvb2wsCiAgICBhY3RpdmU6IGJvb2wsCiAgICBlcnJvcjogT3B0aW9uPCZzdHI+LAogICAgbGlzdGVuX2hvc3Q6ICZzdHIsCiAgICBsaXN0ZW5fcG9ydDogdTE2LAopIC0+IFZhbHVlIHsKICAgIGxldCBzdGF0dXMgPSBpZiBlcnJvci5pc19zb21lKCkgewogICAgICAgICJlcnJvciIKICAgIH0gZWxzZSBpZiAhZW5hYmxlZCB7CiAgICAgICAgImRpc2FibGVkIgogICAgfSBlbHNlIGlmIGFjdGl2ZSB7CiAgICAgICAgImFjdGl2ZSIKICAgIH0gZWxzZSB7CiAgICAgICAgImVycm9yIgogICAgfTsKCiAgICBqc29uISh7CiAgICAgICAgImVuYWJsZWQiOiBlbmFibGVkLAogICAgICAgICJhY3RpdmUiOiBhY3RpdmUsCiAgICAgICAgInN0YXR1cyI6IHN0YXR1cywKICAgICAgICAibGlzdGVuX2hvc3QiOiBsaXN0ZW5faG9zdCwKICAgICAgICAibGlzdGVuX3BvcnQiOiBsaXN0ZW5fcG9ydCwKICAgICAgICAicmVkaXJlY3Rfc2NoZW1lIjogImh0dHBzIiwKICAgICAgICAibGFzdF9lcnJvciI6IGVycm9yLm1hcCh8dmFsdWV8IFZhbHVlOjpTdHJpbmcodmFsdWUudG9fc3RyaW5nKCkpKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgICJsYXN0X2Vycm9yX2F0IjogZXJyb3IubWFwKHxffCBWYWx1ZTo6U3RyaW5nKHRpbWVfdXRpbHM6Om5vd19pc28oKSkpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCksCiAgICAgICAgInVwZGF0ZWRfYXQiOiB0aW1lX3V0aWxzOjpub3dfaXNvKCksCiAgICB9KQp9CgppbXBsIERlZmF1bHQgZm9yIEF1dG9IdHRwc1JlZGlyZWN0TWFuYWdlciB7CiAgICBmbiBkZWZhdWx0KCkgLT4gU2VsZiB7CiAgICAgICAgU2VsZjo6bmV3KCkKICAgIH0KfQoKcHViIGFzeW5jIGZuIHN5bmNfYXV0b19odHRwc19vbl9ib290KHN0YXRlOiBBcHBTdGF0ZSkgewogICAgaWYgIXJ1bnRpbWVfcHJvZmlsZTo6YXV0b19odHRwc19hdmFpbGFibGUoJnN0YXRlKSB7CiAgICAgICAgbGV0IF8gPSBzdGF0ZS5hdXRvX2h0dHBzLmFwcGx5X2NvbmZpZyhmYWxzZSkuYXdhaXQ7CiAgICAgICAgcmV0dXJuOwogICAgfQogICAgbGV0IGNvbmZpZyA9IG1hdGNoIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0IHsKICAgICAgICBPayhjb25maWcpID0+IGNvbmZpZywKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIHJlYWQgY29uZmlnIGZvciBhdXRvIEhUVFBTIGJvb3Qgc3luYyIpOwogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgfTsKICAgIGxldCBhdXRvX2h0dHBzID0gbm9ybWFsaXplX2F1dG9faHR0cHNfY29uZmlnKGNvbmZpZy5nZXQoImF1dG9faHR0cHMiKSk7CiAgICBsZXQgcnVudGltZSA9IHN0YXRlCiAgICAgICAgLmF1dG9faHR0cHMKICAgICAgICAuYXBwbHlfY29uZmlnKGF1dG9faHR0cHNbImVuYWJsZWQiXS5hc19ib29sKCkudW53cmFwX29yKGZhbHNlKSkKICAgICAgICAuYXdhaXQ7CiAgICBsZXQgc2h1dGRvd24gPSBzdGF0ZS5zaHV0ZG93bi5jbG9uZSgpOwogICAgbGV0IHJlZGlyZWN0X21hbmFnZXIgPSBzdGF0ZS5hdXRvX2h0dHBzLmNsb25lKCk7CiAgICBzdGF0ZS5zcGF3bl9iYWNrZ3JvdW5kKCJhdXRvLWh0dHBzLXNodXRkb3duIiwgYXN5bmMgbW92ZSB7CiAgICAgICAgc2h1dGRvd24uY2FuY2VsbGVkKCkuYXdhaXQ7CiAgICAgICAgbGV0IF8gPSByZWRpcmVjdF9tYW5hZ2VyLmFwcGx5X2NvbmZpZyhmYWxzZSkuYXdhaXQ7CiAgICB9KTsKICAgIGlmIHJ1bnRpbWUuZ2V0KCJzdGF0dXMiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKCJlcnJvciIpIHsKICAgICAgICBsZXQgbXV0IG5leHRfY29uZmlnID0gY29uZmlnOwogICAgICAgIGlmIGxldCBTb21lKG9iamVjdCkgPSBuZXh0X2NvbmZpZy5hc19vYmplY3RfbXV0KCkgewogICAgICAgICAgICBvYmplY3QuaW5zZXJ0KCJhdXRvX2h0dHBzIi50b19zdHJpbmcoKSwganNvbiEoeyAiZW5hYmxlZCI6IGZhbHNlIH0pKTsKICAgICAgICB9CiAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLnNhdmVfY29uZmlnKCZuZXh0X2NvbmZpZykuYXdhaXQgewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gZGlzYWJsZSBhdXRvIEhUVFBTIGFmdGVyIGJvb3Qgc3luYyBlcnJvciIpOwogICAgICAgIH0KICAgIH0KfQoKcHViIGZuIG5vcm1hbGl6ZV9hdXRvX2h0dHBzX2NvbmZpZyh2YWx1ZTogT3B0aW9uPCZWYWx1ZT4pIC0+IFZhbHVlIHsKICAgIGpzb24hKHsKICAgICAgICAiZW5hYmxlZCI6IHZhbHVlCiAgICAgICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLmdldCgiZW5hYmxlZCIpKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgICAgIC51bndyYXBfb3IoZmFsc2UpCiAgICB9KQp9CgpwdWIgZm4gbG9jYWxpemVfcnVudGltZV9zdGF0ZShtdXQgcnVudGltZTogVmFsdWUsIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yKSAtPiBWYWx1ZSB7CiAgICBsZXQgU29tZShvYmplY3QpID0gcnVudGltZS5hc19vYmplY3RfbXV0KCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIHJ1bnRpbWU7CiAgICB9OwogICAgbGV0IFNvbWUobWVzc2FnZSkgPSBvYmplY3QKICAgICAgICAuZ2V0KCJsYXN0X2Vycm9yIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgZWxzZSB7CiAgICAgICAgcmV0dXJuIHJ1bnRpbWU7CiAgICB9OwogICAgb2JqZWN0Lmluc2VydCgKICAgICAgICAibGFzdF9lcnJvciIudG9fc3RyaW5nKCksCiAgICAgICAgVmFsdWU6OlN0cmluZyhsb2NhbGl6ZV9saXN0ZW5fZXJyb3JfbWVzc2FnZSgmbWVzc2FnZSwgdHJhbnNsYXRvcikpLAogICAgKTsKICAgIHJ1bnRpbWUKfQoKZm4gbm9ybWFsaXplX2xpc3Rlbl9lcnJvcihlcnJvcjogJnN0ZDo6aW86OkVycm9yKSAtPiBTdHJpbmcgewogICAgbWF0Y2ggZXJyb3Iua2luZCgpIHsKICAgICAgICBzdGQ6OmlvOjpFcnJvcktpbmQ6OlBlcm1pc3Npb25EZW5pZWQgPT4gTElTVEVOX0VBQ0NFU19FUlJPUi50b19zdHJpbmcoKSwKICAgICAgICBzdGQ6OmlvOjpFcnJvcktpbmQ6OkFkZHJJblVzZSA9PiBMSVNURU5fRUFERFJJTlVTRV9FUlJPUi50b19zdHJpbmcoKSwKICAgICAgICBfID0+IGZvcm1hdCEoIntMSVNURU5fRkFJTEVEX1dJVEhfTUVTU0FHRV9QUkVGSVh9e2Vycm9yfSIpLAogICAgfQp9CgpmbiBsb2NhbGl6ZV9saXN0ZW5fZXJyb3JfbWVzc2FnZShtZXNzYWdlOiAmc3RyLCB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvcikgLT4gU3RyaW5nIHsKICAgIG1hdGNoIG1lc3NhZ2UgewogICAgICAgIExJU1RFTl9FQUNDRVNfRVJST1IgPT4gdHJhbnNsYXRvci50KCJzZXJ2ZXIuYXV0b0h0dHBzLmxpc3RlbkVhY2NlcyIpLAogICAgICAgIExJU1RFTl9FQUREUklOVVNFX0VSUk9SID0+IHRyYW5zbGF0b3IudCgic2VydmVyLmF1dG9IdHRwcy5saXN0ZW5FYWRkcmludXNlIiksCiAgICAgICAgTElTVEVOX0ZBSUxFRF9FUlJPUiA9PiB0cmFuc2xhdG9yLnQoInNlcnZlci5hdXRvSHR0cHMubGlzdGVuRmFpbGVkIiksCiAgICAgICAgdmFsdWUgPT4gdmFsdWUKICAgICAgICAgICAgLnN0cmlwX3ByZWZpeChMSVNURU5fRkFJTEVEX1dJVEhfTUVTU0FHRV9QUkVGSVgpCiAgICAgICAgICAgIC5tYXAofGRldGFpbHwgewogICAgICAgICAgICAgICAgdHJhbnNsYXRvci50X3BhcmFtcygKICAgICAgICAgICAgICAgICAgICAic2VydmVyLmF1dG9IdHRwcy5saXN0ZW5GYWlsZWRXaXRoTWVzc2FnZSIsCiAgICAgICAgICAgICAgICAgICAgJlsoIm1lc3NhZ2UiLCBkZXRhaWwudG9fc3RyaW5nKCkpXSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IHZhbHVlLnRvX3N0cmluZygpKSwKICAgIH0KfQoKYXN5bmMgZm4gc2VydmVfcmVkaXJlY3QobGlzdGVuZXI6IFRjcExpc3RlbmVyLCBzaHV0ZG93bl9yeDogdG9raW86OnN5bmM6Om9uZXNob3Q6OlJlY2VpdmVyPCgpPikgewogICAgbGV0IGFwcCA9IFJvdXRlcjo6bmV3KCkuZmFsbGJhY2socmVkaXJlY3QpOwogICAgaWYgbGV0IEVycihlcnJvcikgPSBheHVtOjpzZXJ2ZShsaXN0ZW5lciwgYXBwKQogICAgICAgIC53aXRoX2dyYWNlZnVsX3NodXRkb3duKGFzeW5jIHsKICAgICAgICAgICAgbGV0IF8gPSBzaHV0ZG93bl9yeC5hd2FpdDsKICAgICAgICB9KQogICAgICAgIC5hd2FpdAogICAgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImF1dG8gSFRUUFMgcmVkaXJlY3Qgc2VydmVyIHN0b3BwZWQgd2l0aCBlcnJvciIpOwogICAgfQp9Cgphc3luYyBmbiByZWRpcmVjdChoZWFkZXJzOiBIZWFkZXJNYXAsIHVyaTogVXJpKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgaG9zdCA9IGhlYWRlcnMKICAgICAgICAuZ2V0KGhlYWRlcjo6SE9TVCkKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS50b19zdHIoKS5vaygpKQogICAgICAgIC5tYXAobm9ybWFsaXplX3JlcXVlc3RfaG9zdCkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8ICJsb2NhbGhvc3QiLnRvX3N0cmluZygpKTsKICAgIGxldCBwYXRoID0gdXJpCiAgICAgICAgLnBhdGhfYW5kX3F1ZXJ5KCkKICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUuYXNfc3RyKCkpCiAgICAgICAgLnVud3JhcF9vcigiLyIpOwogICAgbGV0IGxvY2F0aW9uID0gZm9ybWF0ISgiaHR0cHM6Ly97aG9zdH17cGF0aH0iKTsKICAgIGxldCBtdXQgcmVzcG9uc2UgPSBTdGF0dXNDb2RlOjpQRVJNQU5FTlRfUkVESVJFQ1QuaW50b19yZXNwb25zZSgpOwogICAgaWYgbGV0IE9rKHZhbHVlKSA9IEhlYWRlclZhbHVlOjpmcm9tX3N0cigmbG9jYXRpb24pIHsKICAgICAgICByZXNwb25zZS5oZWFkZXJzX211dCgpLmluc2VydChoZWFkZXI6OkxPQ0FUSU9OLCB2YWx1ZSk7CiAgICB9CiAgICByZXNwb25zZQogICAgICAgIC5oZWFkZXJzX211dCgpCiAgICAgICAgLmluc2VydChoZWFkZXI6OkNBQ0hFX0NPTlRST0wsIEhlYWRlclZhbHVlOjpmcm9tX3N0YXRpYygibm8tc3RvcmUiKSk7CiAgICByZXNwb25zZQogICAgICAgIC5oZWFkZXJzX211dCgpCiAgICAgICAgLmluc2VydChoZWFkZXI6OkNPTk5FQ1RJT04sIEhlYWRlclZhbHVlOjpmcm9tX3N0YXRpYygiY2xvc2UiKSk7CiAgICByZXNwb25zZQp9CgpmbiBub3JtYWxpemVfcmVxdWVzdF9ob3N0KHZhbHVlOiAmc3RyKSAtPiBTdHJpbmcgewogICAgbGV0IGhvc3QgPSB2YWx1ZS5yZXBsYWNlKFsnXHInLCAnXG4nXSwgIiIpLnRyaW0oKS50b19zdHJpbmcoKTsKICAgIHN0cmlwX2RlZmF1bHRfaHR0cF9wb3J0KCZob3N0KQp9CgpmbiBzdHJpcF9kZWZhdWx0X2h0dHBfcG9ydChob3N0OiAmc3RyKSAtPiBTdHJpbmcgewogICAgaWYgaG9zdC5zdGFydHNfd2l0aCgnWycpICYmIGhvc3QuZW5kc193aXRoKCJdOjgwIikgewogICAgICAgIHJldHVybiBob3N0Wy4uaG9zdC5sZW4oKSAtIDNdLnRvX3N0cmluZygpOwogICAgfQogICAgaWYgIWhvc3Quc3RhcnRzX3dpdGgoJ1snKSAmJiBob3N0LmVuZHNfd2l0aCgiOjgwIikgewogICAgICAgIHJldHVybiBob3N0Wy4uaG9zdC5sZW4oKSAtIDNdLnRvX3N0cmluZygpOwogICAgfQogICAgaG9zdC50b19zdHJpbmcoKQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKCiAgICAjW3Rlc3RdCiAgICBmbiBub3JtYWxpemVzX2F1dG9faHR0cHNfY29uZmlnX2xpa2Vfbm9kZSgpIHsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBub3JtYWxpemVfYXV0b19odHRwc19jb25maWcoU29tZSgmanNvbiEoeyAiZW5hYmxlZCI6IHRydWUgfSkpKSwKICAgICAgICAgICAganNvbiEoeyAiZW5hYmxlZCI6IHRydWUgfSkKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIG5vcm1hbGl6ZV9hdXRvX2h0dHBzX2NvbmZpZyhTb21lKCZqc29uISh7ICJlbmFibGVkIjogInRydWUiIH0pKSksCiAgICAgICAgICAgIGpzb24hKHsgImVuYWJsZWQiOiBmYWxzZSB9KQogICAgICAgICk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gc3RyaXBzX2RlZmF1bHRfaHR0cF9wb3J0X2xpa2Vfbm9kZSgpIHsKICAgICAgICBhc3NlcnRfZXEhKG5vcm1hbGl6ZV9yZXF1ZXN0X2hvc3QoImV4YW1wbGUuY29tOjgwIiksICJleGFtcGxlLmNvbSIpOwogICAgICAgIGFzc2VydF9lcSEobm9ybWFsaXplX3JlcXVlc3RfaG9zdCgiWzo6MV06ODAiKSwgIls6OjFdIik7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgbm9ybWFsaXplX3JlcXVlc3RfaG9zdCgiZXhhbXBsZS5jb206ODA4MCIpLAogICAgICAgICAgICAiZXhhbXBsZS5jb206ODA4MCIKICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGxvY2FsaXplc19hdXRvX2h0dHBzX3J1bnRpbWVfZXJyb3JzX2xpa2Vfbm9kZSgpIHsKICAgICAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6Om5ldygiemgtQ04iKTsKICAgICAgICBsZXQgcnVudGltZSA9IGxvY2FsaXplX3J1bnRpbWVfc3RhdGUoCiAgICAgICAgICAgIGJ1aWxkX3N0YXRlX3ZhbHVlKAogICAgICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgICAgICBmYWxzZSwKICAgICAgICAgICAgICAgIFNvbWUoTElTVEVOX0VBRERSSU5VU0VfRVJST1IpLAogICAgICAgICAgICAgICAgQVVUT19IVFRQU19EVUFMX1NUQUNLX0xJU1RFTl9IT1NULAogICAgICAgICAgICAgICAgQVVUT19IVFRQU19MSVNURU5fUE9SVCwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKHJ1bnRpbWUuZ2V0KCJzdGF0dXMiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSwgU29tZSgiZXJyb3IiKSk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgcnVudGltZS5nZXQoImxhc3RfZXJyb3IiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSwKICAgICAgICAgICAgU29tZSgKICAgICAgICAgICAgICAgICI4MCDnq6/lj6Plt7Looqvlhbbku5bnqIvluo/ljaDnlKjvvIzoh6rliqggSFRUUFMg5peg5rOV5ZCv5Yqo44CC6K+35bCd6K+V6aOe54mb57O757uf6K6+572u77yM5a6J5YWo5oCn77yM56uv5Y+j6K6+572u77yM57yW6L6R77yM5Y+W5raI5Yu+6YCJ77ya6YeN5a6a5ZCRIDgwIOS4jiA0NDMg56uv5Y+jIgogICAgICAgICAgICApCiAgICAgICAgKTsKCiAgICAgICAgbGV0IHJ1bnRpbWUgPSBsb2NhbGl6ZV9ydW50aW1lX3N0YXRlKAogICAgICAgICAgICBidWlsZF9zdGF0ZV92YWx1ZSgKICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgICAgICBTb21lKCJGYWlsZWQgdG8gc3RhcnQgSFRUUCByZWRpcmVjdCBzZXJ2ZXI6IGJvb20iKSwKICAgICAgICAgICAgICAgIEFVVE9fSFRUUFNfRFVBTF9TVEFDS19MSVNURU5fSE9TVCwKICAgICAgICAgICAgICAgIEFVVE9fSFRUUFNfTElTVEVOX1BPUlQsCiAgICAgICAgICAgICksCiAgICAgICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgcnVudGltZS5nZXQoImxhc3RfZXJyb3IiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSwKICAgICAgICAgICAgU29tZSgi55uR5ZCsIDgwIOerr+WPo+Wksei0pe+8mmJvb20iKQogICAgICAgICk7CiAgICB9Cn0K
+use std::{env, sync::Arc};
+
+use axum::{
+    Router,
+    http::{HeaderMap, HeaderValue, StatusCode, Uri, header},
+    response::{IntoResponse, Response},
+};
+use serde_json::{Value, json};
+use tokio::{net::TcpListener, sync::Mutex, task::JoinHandle};
+
+use crate::{i18n::Translator, runtime_profile, state::AppState, time_utils};
+
+const AUTO_HTTPS_LISTEN_PORT: u16 = 80;
+const AUTO_HTTPS_DUAL_STACK_LISTEN_HOST: &str = "::";
+const AUTO_HTTPS_FALLBACK_IPV4_LISTEN_HOST: &str = "0.0.0.0";
+const LISTEN_EACCES_ERROR: &str = "Permission denied while binding HTTP redirect port";
+const LISTEN_EADDRINUSE_ERROR: &str = "HTTP redirect port is already in use";
+const LISTEN_FAILED_ERROR: &str = "Failed to start HTTP redirect server";
+const LISTEN_FAILED_WITH_MESSAGE_PREFIX: &str = "Failed to start HTTP redirect server: ";
+
+#[derive(Clone)]
+pub struct AutoHttpsRedirectManager {
+    inner: Arc<Mutex<AutoHttpsInner>>,
+    listen_port: u16,
+    configured_listen_host: String,
+}
+
+struct AutoHttpsInner {
+    state: Value,
+    shutdown: Option<tokio::sync::oneshot::Sender<()>>,
+    task: Option<JoinHandle<()>>,
+}
+
+#[derive(Clone)]
+struct AutoHttpsListenTarget {
+    host: String,
+}
+
+impl AutoHttpsRedirectManager {
+    pub fn new() -> Self {
+        let configured_listen_host = env::var("FN_KNOCK_AUTO_HTTPS_HOST")
+            .ok()
+            .map(|value| value.trim().to_string())
+            .filter(|value| !value.is_empty())
+            .unwrap_or_default();
+        let default_host = if configured_listen_host.is_empty() {
+            AUTO_HTTPS_DUAL_STACK_LISTEN_HOST.to_string()
+        } else {
+            configured_listen_host.clone()
+        };
+        Self {
+            inner: Arc::new(Mutex::new(AutoHttpsInner {
+                state: build_state_value(false, false, None, &default_host, AUTO_HTTPS_LISTEN_PORT),
+                shutdown: None,
+                task: None,
+            })),
+            listen_port: AUTO_HTTPS_LISTEN_PORT,
+            configured_listen_host,
+        }
+    }
+
+    pub async fn runtime_state(&self) -> Value {
+        self.inner.lock().await.state.clone()
+    }
+
+    pub async fn apply_config(&self, enabled: bool) -> Value {
+        let mut inner = self.inner.lock().await;
+        if !enabled {
+            self.stop_server_locked(&mut inner).await;
+            inner.state = self.build_state(false, false, None, &self.default_listen_host());
+            return inner.state.clone();
+        }
+
+        if inner.shutdown.is_some() {
+            let host = inner
+                .state
+                .get("listen_host")
+                .and_then(Value::as_str)
+                .map(str::to_string)
+                .unwrap_or_else(|| self.default_listen_host())
+                .to_string();
+            inner.state = self.build_state(true, true, None, &host);
+            return inner.state.clone();
+        }
+
+        self.stop_server_locked(&mut inner).await;
+        let mut last_error = None;
+        for target in self.listen_targets() {
+            match TcpListener::bind((target.host.as_str(), self.listen_port)).await {
+                Ok(listener) => {
+                    let listen_host = listener
+                        .local_addr()
+                        .ok()
+                        .map(|addr| addr.ip().to_string())
+                        .filter(|value| !value.is_empty())
+                        .unwrap_or_else(|| target.host.clone());
+                    let (shutdown_tx, shutdown_rx) = tokio::sync::oneshot::channel();
+                    inner.shutdown = Some(shutdown_tx);
+                    inner.task = Some(tokio::spawn(serve_redirect(listener, shutdown_rx)));
+                    inner.state = self.build_state(true, true, None, &listen_host);
+                    return inner.state.clone();
+                }
+                Err(error) => {
+                    let should_fallback = self.configured_listen_host.is_empty()
+                        && target.host == AUTO_HTTPS_DUAL_STACK_LISTEN_HOST
+                        && matches!(
+                            error.kind(),
+                            std::io::ErrorKind::AddrNotAvailable | std::io::ErrorKind::Unsupported
+                        );
+                    let message = normalize_listen_error(&error);
+                    last_error = Some(message.clone());
+                    if should_fallback {
+                        continue;
+                    }
+                    inner.state = self.build_error_state(&message, &target.host);
+                    return inner.state.clone();
+                }
+            }
+        }
+
+        let message = last_error.unwrap_or_else(|| "Failed to start HTTP redirect server".into());
+        inner.state = self.build_error_state(&message, &self.default_listen_host());
+        inner.state.clone()
+    }
+
+    async fn stop_server_locked(&self, inner: &mut AutoHttpsInner) {
+        if let Some(shutdown) = inner.shutdown.take() {
+            let _ = shutdown.send(());
+        }
+        if let Some(task) = inner.task.take() {
+            let _ = task.await;
+        }
+    }
+
+    fn build_state(
+        &self,
+        enabled: bool,
+        active: bool,
+        error: Option<&str>,
+        listen_host: &str,
+    ) -> Value {
+        build_state_value(enabled, active, error, listen_host, self.listen_port)
+    }
+
+    fn build_error_state(&self, error: &str, listen_host: &str) -> Value {
+        self.build_state(false, false, Some(error), listen_host)
+    }
+
+    fn listen_targets(&self) -> Vec<AutoHttpsListenTarget> {
+        let host = self.configured_listen_host.trim();
+        if !host.is_empty() {
+            return vec![AutoHttpsListenTarget {
+                host: host.to_string(),
+            }];
+        }
+        vec![
+            AutoHttpsListenTarget {
+                host: AUTO_HTTPS_DUAL_STACK_LISTEN_HOST.to_string(),
+            },
+            AutoHttpsListenTarget {
+                host: AUTO_HTTPS_FALLBACK_IPV4_LISTEN_HOST.to_string(),
+            },
+        ]
+    }
+
+    fn default_listen_host(&self) -> String {
+        self.listen_targets()
+            .first()
+            .map(|target| target.host.clone())
+            .unwrap_or_else(|| AUTO_HTTPS_FALLBACK_IPV4_LISTEN_HOST.to_string())
+    }
+}
+
+fn build_state_value(
+    enabled: bool,
+    active: bool,
+    error: Option<&str>,
+    listen_host: &str,
+    listen_port: u16,
+) -> Value {
+    let status = if error.is_some() {
+        "error"
+    } else if !enabled {
+        "disabled"
+    } else if active {
+        "active"
+    } else {
+        "error"
+    };
+
+    json!({
+        "enabled": enabled,
+        "active": active,
+        "status": status,
+        "listen_host": listen_host,
+        "listen_port": listen_port,
+        "redirect_scheme": "https",
+        "last_error": error.map(|value| Value::String(value.to_string())).unwrap_or(Value::Null),
+        "last_error_at": error.map(|_| Value::String(time_utils::now_iso())).unwrap_or(Value::Null),
+        "updated_at": time_utils::now_iso(),
+    })
+}
+
+impl Default for AutoHttpsRedirectManager {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
+pub async fn sync_auto_https_on_boot(state: AppState) {
+    if !runtime_profile::auto_https_available(&state) {
+        let _ = state.auto_https.apply_config(false).await;
+        return;
+    }
+    let config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => {
+            tracing::warn!(%error, "failed to read config for auto HTTPS boot sync");
+            return;
+        }
+    };
+    let auto_https = normalize_auto_https_config(config.get("auto_https"));
+    let runtime = state
+        .auto_https
+        .apply_config(auto_https["enabled"].as_bool().unwrap_or(false))
+        .await;
+    let shutdown = state.shutdown.clone();
+    let redirect_manager = state.auto_https.clone();
+    state.spawn_background("auto-https-shutdown", async move {
+        shutdown.cancelled().await;
+        let _ = redirect_manager.apply_config(false).await;
+    });
+    if runtime.get("status").and_then(Value::as_str) == Some("error") {
+        let mut next_config = config;
+        if let Some(object) = next_config.as_object_mut() {
+            object.insert("auto_https".to_string(), json!({ "enabled": false }));
+        }
+        if let Err(error) = state.storage.store.save_config(&next_config).await {
+            tracing::warn!(%error, "failed to disable auto HTTPS after boot sync error");
+        }
+    }
+}
+
+pub fn normalize_auto_https_config(value: Option<&Value>) -> Value {
+    json!({
+        "enabled": value
+            .and_then(|value| value.get("enabled"))
+            .and_then(Value::as_bool)
+            .unwrap_or(false)
+    })
+}
+
+pub fn localize_runtime_state(mut runtime: Value, translator: &Translator) -> Value {
+    let Some(object) = runtime.as_object_mut() else {
+        return runtime;
+    };
+    let Some(message) = object
+        .get("last_error")
+        .and_then(Value::as_str)
+        .map(str::to_string)
+    else {
+        return runtime;
+    };
+    object.insert(
+        "last_error".to_string(),
+        Value::String(localize_listen_error_message(&message, translator)),
+    );
+    runtime
+}
+
+fn normalize_listen_error(error: &std::io::Error) -> String {
+    match error.kind() {
+        std::io::ErrorKind::PermissionDenied => LISTEN_EACCES_ERROR.to_string(),
+        std::io::ErrorKind::AddrInUse => LISTEN_EADDRINUSE_ERROR.to_string(),
+        _ => format!("{LISTEN_FAILED_WITH_MESSAGE_PREFIX}{error}"),
+    }
+}
+
+fn localize_listen_error_message(message: &str, translator: &Translator) -> String {
+    match message {
+        LISTEN_EACCES_ERROR => translator.t("server.autoHttps.listenEacces"),
+        LISTEN_EADDRINUSE_ERROR => translator.t("server.autoHttps.listenEaddrinuse"),
+        LISTEN_FAILED_ERROR => translator.t("server.autoHttps.listenFailed"),
+        value => value
+            .strip_prefix(LISTEN_FAILED_WITH_MESSAGE_PREFIX)
+            .map(|detail| {
+                translator.t_params(
+                    "server.autoHttps.listenFailedWithMessage",
+                    &[("message", detail.to_string())],
+                )
+            })
+            .unwrap_or_else(|| value.to_string()),
+    }
+}
+
+async fn serve_redirect(listener: TcpListener, shutdown_rx: tokio::sync::oneshot::Receiver<()>) {
+    let app = Router::new().fallback(redirect);
+    if let Err(error) = axum::serve(listener, app)
+        .with_graceful_shutdown(async {
+            let _ = shutdown_rx.await;
+        })
+        .await
+    {
+        tracing::warn!(%error, "auto HTTPS redirect server stopped with error");
+    }
+}
+
+async fn redirect(headers: HeaderMap, uri: Uri) -> Response {
+    let host = headers
+        .get(header::HOST)
+        .and_then(|value| value.to_str().ok())
+        .map(normalize_request_host)
+        .filter(|value| !value.is_empty())
+        .unwrap_or_else(|| "localhost".to_string());
+    let path = uri
+        .path_and_query()
+        .map(|value| value.as_str())
+        .unwrap_or("/");
+    let location = format!("https://{host}{path}");
+    let mut response = StatusCode::PERMANENT_REDIRECT.into_response();
+    if let Ok(value) = HeaderValue::from_str(&location) {
+        response.headers_mut().insert(header::LOCATION, value);
+    }
+    response
+        .headers_mut()
+        .insert(header::CACHE_CONTROL, HeaderValue::from_static("no-store"));
+    response
+        .headers_mut()
+        .insert(header::CONNECTION, HeaderValue::from_static("close"));
+    response
+}
+
+fn normalize_request_host(value: &str) -> String {
+    let host = value.replace(['\r', '\n'], "").trim().to_string();
+    strip_default_http_port(&host)
+}
+
+fn strip_default_http_port(host: &str) -> String {
+    if host.starts_with('[') && host.ends_with("]:80") {
+        return host[..host.len() - 3].to_string();
+    }
+    if !host.starts_with('[') && host.ends_with(":80") {
+        return host[..host.len() - 3].to_string();
+    }
+    host.to_string()
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn normalizes_auto_https_config_like_node() {
+        assert_eq!(
+            normalize_auto_https_config(Some(&json!({ "enabled": true }))),
+            json!({ "enabled": true })
+        );
+        assert_eq!(
+            normalize_auto_https_config(Some(&json!({ "enabled": "true" }))),
+            json!({ "enabled": false })
+        );
+    }
+
+    #[test]
+    fn strips_default_http_port_like_node() {
+        assert_eq!(normalize_request_host("example.com:80"), "example.com");
+        assert_eq!(normalize_request_host("[::1]:80"), "[::1]");
+        assert_eq!(
+            normalize_request_host("example.com:8080"),
+            "example.com:8080"
+        );
+    }
+
+    #[test]
+    fn localizes_auto_https_runtime_errors_like_node() {
+        let translator = Translator::new("zh-CN");
+        let runtime = localize_runtime_state(
+            build_state_value(
+                false,
+                false,
+                Some(LISTEN_EADDRINUSE_ERROR),
+                AUTO_HTTPS_DUAL_STACK_LISTEN_HOST,
+                AUTO_HTTPS_LISTEN_PORT,
+            ),
+            &translator,
+        );
+        assert_eq!(runtime.get("status").and_then(Value::as_str), Some("error"));
+        assert_eq!(
+            runtime.get("last_error").and_then(Value::as_str),
+            Some(
+                "80 端口已被其他程序占用，自动 HTTPS 无法启动。请尝试飞牛系统设置，安全性，端口设置，编辑，取消勾选：重定向 80 与 443 端口"
+            )
+        );
+
+        let runtime = localize_runtime_state(
+            build_state_value(
+                false,
+                false,
+                Some("Failed to start HTTP redirect server: boom"),
+                AUTO_HTTPS_DUAL_STACK_LISTEN_HOST,
+                AUTO_HTTPS_LISTEN_PORT,
+            ),
+            &translator,
+        );
+        assert_eq!(
+            runtime.get("last_error").and_then(Value::as_str),
+            Some("监听 80 端口失败：boom")
+        );
+    }
+}

@@ -1,1 +1,32 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgdXNlRm9yd2FyZFByb3BzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgY29tcHV0ZWQgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHVzZVZ1ZU9UUENvbnRleHQgfSBmcm9tICJ2dWUtaW5wdXQtb3RwIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7IGluZGV4OiBudW1iZXIsIGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0gfT4oKQoKY29uc3QgZGVsZWdhdGVkUHJvcHMgPSByZWFjdGl2ZU9taXQocHJvcHMsICJjbGFzcyIpCgpjb25zdCBmb3J3YXJkZWQgPSB1c2VGb3J3YXJkUHJvcHMoZGVsZWdhdGVkUHJvcHMpCgpjb25zdCBjb250ZXh0ID0gdXNlVnVlT1RQQ29udGV4dCgpCgpjb25zdCBzbG90ID0gY29tcHV0ZWQoKCkgPT4gY29udGV4dD8udmFsdWUuc2xvdHNbcHJvcHMuaW5kZXhdKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICB2LWJpbmQ9ImZvcndhcmRlZCIKICAgIGRhdGEtc2xvdD0iaW5wdXQtb3RwLXNsb3QiCiAgICA6ZGF0YS1hY3RpdmU9InNsb3Q/LmlzQWN0aXZlIgogICAgOmNsYXNzPSJjbignZGF0YS1bYWN0aXZlPXRydWVdOmJvcmRlci1yaW5nIGRhdGEtW2FjdGl2ZT10cnVlXTpyaW5nLXJpbmcvNTAgZGF0YS1bYWN0aXZlPXRydWVdOmFyaWEtaW52YWxpZDpyaW5nLWRlc3RydWN0aXZlLzIwIGRhcms6ZGF0YS1bYWN0aXZlPXRydWVdOmFyaWEtaW52YWxpZDpyaW5nLWRlc3RydWN0aXZlLzQwIGFyaWEtaW52YWxpZDpib3JkZXItZGVzdHJ1Y3RpdmUgZGF0YS1bYWN0aXZlPXRydWVdOmFyaWEtaW52YWxpZDpib3JkZXItZGVzdHJ1Y3RpdmUgZGFyazpiZy1pbnB1dC8zMCBib3JkZXItaW5wdXQgcmVsYXRpdmUgZmxleCBoLTkgdy05IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBib3JkZXIteSBib3JkZXItciB0ZXh0LXNtIHNoYWRvdy14cyB0cmFuc2l0aW9uLWFsbCBvdXRsaW5lLW5vbmUgZmlyc3Q6cm91bmRlZC1sLW1kIGZpcnN0OmJvcmRlci1sIGxhc3Q6cm91bmRlZC1yLW1kIGRhdGEtW2FjdGl2ZT10cnVlXTp6LTEwIGRhdGEtW2FjdGl2ZT10cnVlXTpyaW5nLVszcHhdJywgcHJvcHMuY2xhc3MpIgogID4KICAgIHt7IHNsb3Q/LmNoYXIgfX0KICAgIDxkaXYgdi1pZj0ic2xvdD8uaGFzRmFrZUNhcmV0IiBjbGFzcz0icG9pbnRlci1ldmVudHMtbm9uZSBhYnNvbHV0ZSBpbnNldC0wIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIj4KICAgICAgPGRpdiBjbGFzcz0iYW5pbWF0ZS1jYXJldC1ibGluayBiZy1mb3JlZ3JvdW5kIGgtNCB3LXB4IGR1cmF0aW9uLTEwMDAiIC8+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { useForwardProps } from "reka-ui"
+import { computed } from "vue"
+import { useVueOTPContext } from "vue-input-otp"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{ index: number, class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwarded = useForwardProps(delegatedProps)
+
+const context = useVueOTPContext()
+
+const slot = computed(() => context?.value.slots[props.index])
+</script>
+
+<template>
+  <div
+    v-bind="forwarded"
+    data-slot="input-otp-slot"
+    :data-active="slot?.isActive"
+    :class="cn('data-[active=true]:border-ring data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:ring-destructive/20 dark:data-[active=true]:aria-invalid:ring-destructive/40 aria-invalid:border-destructive data-[active=true]:aria-invalid:border-destructive dark:bg-input/30 border-input relative flex h-9 w-9 items-center justify-center border-y border-r text-sm shadow-xs transition-all outline-none first:rounded-l-md first:border-l last:rounded-r-md data-[active=true]:z-10 data-[active=true]:ring-[3px]', props.class)"
+  >
+    {{ slot?.char }}
+    <div v-if="slot?.hasFakeCaret" class="pointer-events-none absolute inset-0 flex items-center justify-center">
+      <div class="animate-caret-blink bg-foreground h-4 w-px duration-1000" />
+    </div>
+  </div>
+</template>

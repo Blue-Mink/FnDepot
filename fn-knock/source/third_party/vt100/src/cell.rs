@@ -1,1 +1,179 @@
-dXNlIHVuaWNvZGVfd2lkdGg6OlVuaWNvZGVXaWR0aENoYXIgYXMgXzsKCi8vIGNob3NlbiB0byBtYWtlIHRoZSBzaXplIG9mIHRoZSBjZWxsIHN0cnVjdCAzMiBieXRlcwpjb25zdCBDT05URU5UX0JZVEVTOiB1c2l6ZSA9IDIyOwoKY29uc3QgSVNfV0lERTogdTggPSAwYjEwMDBfMDAwMDsKY29uc3QgSVNfV0lERV9DT05USU5VQVRJT046IHU4ID0gMGIwMTAwXzAwMDA7CmNvbnN0IExFTl9CSVRTOiB1OCA9IDBiMDAwMV8xMTExOwoKLy8vIFJlcHJlc2VudHMgYSBzaW5nbGUgdGVybWluYWwgY2VsbC4KI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBFcSldCnB1YiBzdHJ1Y3QgQ2VsbCB7CiAgICBjb250ZW50czogW3U4OyBDT05URU5UX0JZVEVTXSwKICAgIGxlbjogdTgsCiAgICBhdHRyczogY3JhdGU6OmF0dHJzOjpBdHRycywKfQpjb25zdCBfOiAoKSA9IGFzc2VydCEoc3RkOjptZW06OnNpemVfb2Y6OjxDZWxsPigpID09IDMyKTsKCmltcGwgUGFydGlhbEVxPFNlbGY+IGZvciBDZWxsIHsKICAgIGZuIGVxKCZzZWxmLCBvdGhlcjogJlNlbGYpIC0+IGJvb2wgewogICAgICAgIGlmIHNlbGYubGVuICE9IG90aGVyLmxlbiB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9CiAgICAgICAgaWYgc2VsZi5hdHRycyAhPSBvdGhlci5hdHRycyB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9CiAgICAgICAgbGV0IGxlbiA9IHNlbGYubGVuKCk7CiAgICAgICAgc2VsZi5jb250ZW50c1suLmxlbl0gPT0gb3RoZXIuY29udGVudHNbLi5sZW5dCiAgICB9Cn0KCmltcGwgQ2VsbCB7CiAgICBwdWIoY3JhdGUpIGZuIG5ldygpIC0+IFNlbGYgewogICAgICAgIFNlbGYgewogICAgICAgICAgICBjb250ZW50czogRGVmYXVsdDo6ZGVmYXVsdCgpLAogICAgICAgICAgICBsZW46IDAsCiAgICAgICAgICAgIGF0dHJzOiBjcmF0ZTo6YXR0cnM6OkF0dHJzOjpkZWZhdWx0KCksCiAgICAgICAgfQogICAgfQoKICAgIGZuIGxlbigmc2VsZikgLT4gdXNpemUgewogICAgICAgIHVzaXplOjpmcm9tKHNlbGYubGVuICYgTEVOX0JJVFMpCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiBzZXQoJm11dCBzZWxmLCBjOiBjaGFyLCBhOiBjcmF0ZTo6YXR0cnM6OkF0dHJzKSB7CiAgICAgICAgc2VsZi5sZW4gPSAwOwogICAgICAgIHNlbGYuYXBwZW5kX2NoYXIoMCwgYyk7CiAgICAgICAgLy8gc3RyaW5ncyBpbiB0aGlzIGNvbnRleHQgc2hvdWxkIGFsd2F5cyBiZSBhbiBhcmJpdHJhcnkgY2hhcmFjdGVyCiAgICAgICAgLy8gZm9sbG93ZWQgYnkgemVybyBvciBtb3JlIHplcm8td2lkdGggY2hhcmFjdGVycywgc28gd2Ugc2hvdWxkIG9ubHkKICAgICAgICAvLyBoYXZlIHRvIGxvb2sgYXQgdGhlIGZpcnN0IGNoYXJhY3RlcgogICAgICAgIHNlbGYuc2V0X3dpZGUoYy53aWR0aCgpLnVud3JhcF9vcigxKSA+IDEpOwogICAgICAgIHNlbGYuYXR0cnMgPSBhOwogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gYXBwZW5kKCZtdXQgc2VsZiwgYzogY2hhcikgewogICAgICAgIGxldCBsZW4gPSBzZWxmLmxlbigpOwogICAgICAgIGlmIGxlbiA+PSBDT05URU5UX0JZVEVTIC0gNCB7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgaWYgbGVuID09IDAgewogICAgICAgICAgICBzZWxmLmNvbnRlbnRzWzBdID0gYicgJzsKICAgICAgICAgICAgc2VsZi5sZW4gKz0gMTsKICAgICAgICB9CgogICAgICAgIC8vIHdlIGFscmVhZHkgY2hlY2tlZCB0aGF0IHdlIGhhdmUgc3BhY2UgZm9yIGFub3RoZXIgY29kZXBvaW50CiAgICAgICAgc2VsZi5hcHBlbmRfY2hhcihzZWxmLmxlbigpLCBjKTsKICAgIH0KCiAgICAvLyBXcml0ZXMgYnl0ZXMgcmVwcmVzZW50aW5nIGMgYXQgc3RhcnQKICAgIC8vIFJlcXVpcmVzIGNhbGxlciB0byB2ZXJpZnkgc3RhcnQgPD0gQ09ERVBPSU5UU19JTl9DRUxMICogNAogICAgZm4gYXBwZW5kX2NoYXIoJm11dCBzZWxmLCBzdGFydDogdXNpemUsIGM6IGNoYXIpIHsKICAgICAgICBjLmVuY29kZV91dGY4KCZtdXQgc2VsZi5jb250ZW50c1tzdGFydC4uXSk7CiAgICAgICAgc2VsZi5sZW4gKz0gdTg6OnRyeV9mcm9tKGMubGVuX3V0ZjgoKSkudW53cmFwKCk7CiAgICB9CgogICAgcHViKGNyYXRlKSBmbiBjbGVhcigmbXV0IHNlbGYsIGF0dHJzOiBjcmF0ZTo6YXR0cnM6OkF0dHJzKSB7CiAgICAgICAgc2VsZi5sZW4gPSAwOwogICAgICAgIHNlbGYuYXR0cnMgPSBhdHRyczsKICAgIH0KCiAgICAvLy8gUmV0dXJucyB0aGUgdGV4dCBjb250ZW50cyBvZiB0aGUgY2VsbC4KICAgIC8vLwogICAgLy8vIENhbiBpbmNsdWRlIG11bHRpcGxlIHVuaWNvZGUgY2hhcmFjdGVycyBpZiBjb21iaW5pbmcgY2hhcmFjdGVycyBhcmUKICAgIC8vLyB1c2VkLCBidXQgd2lsbCBjb250YWluIGF0IG1vc3Qgb25lIGNoYXJhY3RlciB3aXRoIGEgbm9uLXplcm8gY2hhcmFjdGVyCiAgICAvLy8gd2lkdGguCiAgICAvLyBTaW5jZSBjb250ZW50cyBoYXMgYmVlbiBjb25zdHJ1Y3RlZCBieSBhcHBlbmRpbmcgY2hhcnMgZW5jb2RlZCBhcyBVVEYtOCBpdCB3aWxsIGJlIHZhbGlkIFVURi04CiAgICAjW2FsbG93KGNsaXBweTo6bWlzc2luZ19wYW5pY3NfZG9jKV0KICAgICNbbXVzdF91c2VdCiAgICBwdWIgZm4gY29udGVudHMoJnNlbGYpIC0+ICZzdHIgewogICAgICAgIHN0ZDo6c3RyOjpmcm9tX3V0ZjgoJnNlbGYuY29udGVudHNbLi5zZWxmLmxlbigpXSkudW53cmFwKCkKICAgIH0KCiAgICAvLy8gUmV0dXJucyB3aGV0aGVyIHRoZSBjZWxsIGNvbnRhaW5zIGFueSB0ZXh0IGRhdGEuCiAgICAjW211c3RfdXNlXQogICAgcHViIGZuIGhhc19jb250ZW50cygmc2VsZikgLT4gYm9vbCB7CiAgICAgICAgc2VsZi5sZW4oKSA+IDAKICAgIH0KCiAgICAvLy8gUmV0dXJucyB3aGV0aGVyIHRoZSB0ZXh0IGRhdGEgaW4gdGhlIGNlbGwgcmVwcmVzZW50cyBhIHdpZGUgY2hhcmFjdGVyLgogICAgI1ttdXN0X3VzZV0KICAgIHB1YiBmbiBpc193aWRlKCZzZWxmKSAtPiBib29sIHsKICAgICAgICBzZWxmLmxlbiAmIElTX1dJREUgIT0gMAogICAgfQoKICAgIC8vLyBSZXR1cm5zIHdoZXRoZXIgdGhlIGNlbGwgY29udGFpbnMgdGhlIHNlY29uZCBoYWxmIG9mIGEgd2lkZSBjaGFyYWN0ZXIKICAgIC8vLyAoaW4gb3RoZXIgd29yZHMsIHdoZXRoZXIgdGhlIHByZXZpb3VzIGNlbGwgaW4gdGhlIHJvdyBjb250YWlucyBhIHdpZGUKICAgIC8vLyBjaGFyYWN0ZXIpCiAgICAjW211c3RfdXNlXQogICAgcHViIGZuIGlzX3dpZGVfY29udGludWF0aW9uKCZzZWxmKSAtPiBib29sIHsKICAgICAgICBzZWxmLmxlbiAmIElTX1dJREVfQ09OVElOVUFUSU9OICE9IDAKICAgIH0KCiAgICBmbiBzZXRfd2lkZSgmbXV0IHNlbGYsIHdpZGU6IGJvb2wpIHsKICAgICAgICBpZiB3aWRlIHsKICAgICAgICAgICAgc2VsZi5sZW4gfD0gSVNfV0lERTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBzZWxmLmxlbiAmPSAhSVNfV0lERTsKICAgICAgICB9CiAgICB9CgogICAgcHViKGNyYXRlKSBmbiBzZXRfd2lkZV9jb250aW51YXRpb24oJm11dCBzZWxmLCB3aWRlOiBib29sKSB7CiAgICAgICAgaWYgd2lkZSB7CiAgICAgICAgICAgIHNlbGYubGVuIHw9IElTX1dJREVfQ09OVElOVUFUSU9OOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHNlbGYubGVuICY9ICFJU19XSURFX0NPTlRJTlVBVElPTjsKICAgICAgICB9CiAgICB9CgogICAgcHViKGNyYXRlKSBmbiBhdHRycygmc2VsZikgLT4gJmNyYXRlOjphdHRyczo6QXR0cnMgewogICAgICAgICZzZWxmLmF0dHJzCiAgICB9CgogICAgLy8vIFJldHVybnMgdGhlIGZvcmVncm91bmQgY29sb3Igb2YgdGhlIGNlbGwuCiAgICAjW211c3RfdXNlXQogICAgcHViIGZuIGZnY29sb3IoJnNlbGYpIC0+IGNyYXRlOjpDb2xvciB7CiAgICAgICAgc2VsZi5hdHRycy5mZ2NvbG9yCiAgICB9CgogICAgLy8vIFJldHVybnMgdGhlIGJhY2tncm91bmQgY29sb3Igb2YgdGhlIGNlbGwuCiAgICAjW211c3RfdXNlXQogICAgcHViIGZuIGJnY29sb3IoJnNlbGYpIC0+IGNyYXRlOjpDb2xvciB7CiAgICAgICAgc2VsZi5hdHRycy5iZ2NvbG9yCiAgICB9CgogICAgLy8vIFJldHVybnMgd2hldGhlciB0aGUgY2VsbCBzaG91bGQgYmUgcmVuZGVyZWQgd2l0aCB0aGUgYm9sZCB0ZXh0CiAgICAvLy8gYXR0cmlidXRlLgogICAgI1ttdXN0X3VzZV0KICAgIHB1YiBmbiBib2xkKCZzZWxmKSAtPiBib29sIHsKICAgICAgICBzZWxmLmF0dHJzLmJvbGQoKQogICAgfQoKICAgIC8vLyBSZXR1cm5zIHdoZXRoZXIgdGhlIGNlbGwgc2hvdWxkIGJlIHJlbmRlcmVkIHdpdGggdGhlIGRpbSB0ZXh0CiAgICAvLy8gYXR0cmlidXRlLgogICAgI1ttdXN0X3VzZV0KICAgIHB1YiBmbiBkaW0oJnNlbGYpIC0+IGJvb2wgewogICAgICAgIHNlbGYuYXR0cnMuZGltKCkKICAgIH0KCiAgICAvLy8gUmV0dXJucyB3aGV0aGVyIHRoZSBjZWxsIHNob3VsZCBiZSByZW5kZXJlZCB3aXRoIHRoZSBpdGFsaWMgdGV4dAogICAgLy8vIGF0dHJpYnV0ZS4KICAgICNbbXVzdF91c2VdCiAgICBwdWIgZm4gaXRhbGljKCZzZWxmKSAtPiBib29sIHsKICAgICAgICBzZWxmLmF0dHJzLml0YWxpYygpCiAgICB9CgogICAgLy8vIFJldHVybnMgd2hldGhlciB0aGUgY2VsbCBzaG91bGQgYmUgcmVuZGVyZWQgd2l0aCB0aGUgdW5kZXJsaW5lZCB0ZXh0CiAgICAvLy8gYXR0cmlidXRlLgogICAgI1ttdXN0X3VzZV0KICAgIHB1YiBmbiB1bmRlcmxpbmUoJnNlbGYpIC0+IGJvb2wgewogICAgICAgIHNlbGYuYXR0cnMudW5kZXJsaW5lKCkKICAgIH0KCiAgICAvLy8gUmV0dXJucyB3aGV0aGVyIHRoZSBjZWxsIHNob3VsZCBiZSByZW5kZXJlZCB3aXRoIHRoZSBpbnZlcnNlIHRleHQKICAgIC8vLyBhdHRyaWJ1dGUuCiAgICAjW211c3RfdXNlXQogICAgcHViIGZuIGludmVyc2UoJnNlbGYpIC0+IGJvb2wgewogICAgICAgIHNlbGYuYXR0cnMuaW52ZXJzZSgpCiAgICB9Cn0K
+use unicode_width::UnicodeWidthChar as _;
+
+// chosen to make the size of the cell struct 32 bytes
+const CONTENT_BYTES: usize = 22;
+
+const IS_WIDE: u8 = 0b1000_0000;
+const IS_WIDE_CONTINUATION: u8 = 0b0100_0000;
+const LEN_BITS: u8 = 0b0001_1111;
+
+/// Represents a single terminal cell.
+#[derive(Clone, Debug, Eq)]
+pub struct Cell {
+    contents: [u8; CONTENT_BYTES],
+    len: u8,
+    attrs: crate::attrs::Attrs,
+}
+const _: () = assert!(std::mem::size_of::<Cell>() == 32);
+
+impl PartialEq<Self> for Cell {
+    fn eq(&self, other: &Self) -> bool {
+        if self.len != other.len {
+            return false;
+        }
+        if self.attrs != other.attrs {
+            return false;
+        }
+        let len = self.len();
+        self.contents[..len] == other.contents[..len]
+    }
+}
+
+impl Cell {
+    pub(crate) fn new() -> Self {
+        Self {
+            contents: Default::default(),
+            len: 0,
+            attrs: crate::attrs::Attrs::default(),
+        }
+    }
+
+    fn len(&self) -> usize {
+        usize::from(self.len & LEN_BITS)
+    }
+
+    pub(crate) fn set(&mut self, c: char, a: crate::attrs::Attrs) {
+        self.len = 0;
+        self.append_char(0, c);
+        // strings in this context should always be an arbitrary character
+        // followed by zero or more zero-width characters, so we should only
+        // have to look at the first character
+        self.set_wide(c.width().unwrap_or(1) > 1);
+        self.attrs = a;
+    }
+
+    pub(crate) fn append(&mut self, c: char) {
+        let len = self.len();
+        if len >= CONTENT_BYTES - 4 {
+            return;
+        }
+        if len == 0 {
+            self.contents[0] = b' ';
+            self.len += 1;
+        }
+
+        // we already checked that we have space for another codepoint
+        self.append_char(self.len(), c);
+    }
+
+    // Writes bytes representing c at start
+    // Requires caller to verify start <= CODEPOINTS_IN_CELL * 4
+    fn append_char(&mut self, start: usize, c: char) {
+        c.encode_utf8(&mut self.contents[start..]);
+        self.len += u8::try_from(c.len_utf8()).unwrap();
+    }
+
+    pub(crate) fn clear(&mut self, attrs: crate::attrs::Attrs) {
+        self.len = 0;
+        self.attrs = attrs;
+    }
+
+    /// Returns the text contents of the cell.
+    ///
+    /// Can include multiple unicode characters if combining characters are
+    /// used, but will contain at most one character with a non-zero character
+    /// width.
+    // Since contents has been constructed by appending chars encoded as UTF-8 it will be valid UTF-8
+    #[allow(clippy::missing_panics_doc)]
+    #[must_use]
+    pub fn contents(&self) -> &str {
+        std::str::from_utf8(&self.contents[..self.len()]).unwrap()
+    }
+
+    /// Returns whether the cell contains any text data.
+    #[must_use]
+    pub fn has_contents(&self) -> bool {
+        self.len() > 0
+    }
+
+    /// Returns whether the text data in the cell represents a wide character.
+    #[must_use]
+    pub fn is_wide(&self) -> bool {
+        self.len & IS_WIDE != 0
+    }
+
+    /// Returns whether the cell contains the second half of a wide character
+    /// (in other words, whether the previous cell in the row contains a wide
+    /// character)
+    #[must_use]
+    pub fn is_wide_continuation(&self) -> bool {
+        self.len & IS_WIDE_CONTINUATION != 0
+    }
+
+    fn set_wide(&mut self, wide: bool) {
+        if wide {
+            self.len |= IS_WIDE;
+        } else {
+            self.len &= !IS_WIDE;
+        }
+    }
+
+    pub(crate) fn set_wide_continuation(&mut self, wide: bool) {
+        if wide {
+            self.len |= IS_WIDE_CONTINUATION;
+        } else {
+            self.len &= !IS_WIDE_CONTINUATION;
+        }
+    }
+
+    pub(crate) fn attrs(&self) -> &crate::attrs::Attrs {
+        &self.attrs
+    }
+
+    /// Returns the foreground color of the cell.
+    #[must_use]
+    pub fn fgcolor(&self) -> crate::Color {
+        self.attrs.fgcolor
+    }
+
+    /// Returns the background color of the cell.
+    #[must_use]
+    pub fn bgcolor(&self) -> crate::Color {
+        self.attrs.bgcolor
+    }
+
+    /// Returns whether the cell should be rendered with the bold text
+    /// attribute.
+    #[must_use]
+    pub fn bold(&self) -> bool {
+        self.attrs.bold()
+    }
+
+    /// Returns whether the cell should be rendered with the dim text
+    /// attribute.
+    #[must_use]
+    pub fn dim(&self) -> bool {
+        self.attrs.dim()
+    }
+
+    /// Returns whether the cell should be rendered with the italic text
+    /// attribute.
+    #[must_use]
+    pub fn italic(&self) -> bool {
+        self.attrs.italic()
+    }
+
+    /// Returns whether the cell should be rendered with the underlined text
+    /// attribute.
+    #[must_use]
+    pub fn underline(&self) -> bool {
+        self.attrs.underline()
+    }
+
+    /// Returns whether the cell should be rendered with the inverse text
+    /// attribute.
+    #[must_use]
+    pub fn inverse(&self) -> bool {
+        self.attrs.inverse()
+    }
+}

@@ -1,1 +1,87 @@
-aW1wb3J0IHsgcmVmLCB0eXBlIFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IGNsYW1wVGVybWluYWxGb250U2l6ZSB9IGZyb20gIi4vdGVybWluYWwtZG9tIjsKaW1wb3J0IHsKICBERUZBVUxUX1RFUk1JTkFMX0ZPTlRfU0laRSwKICBERUZBVUxUX1RFUk1JTkFMX0ZPTlRfU0laRV9NT0JJTEUsCiAgVEVSTUlOQUxfRk9OVF9TSVpFX0tFWSwKfSBmcm9tICIuL3Rlcm1pbmFsLXJ1bnRpbWUiOwoKdHlwZSBUZXJtaW5hbEZvbnRTaXplVGFyZ2V0ID0gewogIG9wdGlvbnM6IHsKICAgIGZvbnRTaXplOiBudW1iZXI7CiAgfTsKfTsKCmV4cG9ydCBjb25zdCB1c2VUZXJtaW5hbEZvbnRTaXplID0gKHsKICBjb21wYWN0Vmlld3BvcnQsCiAgZ2V0VGVybWluYWwsCiAgc2NoZWR1bGVGaXQsCn06IHsKICBjb21wYWN0Vmlld3BvcnQ6IFJlZjxib29sZWFuPjsKICBnZXRUZXJtaW5hbDogKCkgPT4gVGVybWluYWxGb250U2l6ZVRhcmdldCB8IG51bGw7CiAgc2NoZWR1bGVGaXQ6ICgpID0+IHZvaWQ7Cn0pID0+IHsKICBjb25zdCB0ZXJtaW5hbEZvbnRTaXplID0gcmVmKERFRkFVTFRfVEVSTUlOQUxfRk9OVF9TSVpFKTsKCiAgY29uc3QgcGVyc2lzdFRlcm1pbmFsRm9udFNpemUgPSAoKSA9PiB7CiAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgKICAgICAgVEVSTUlOQUxfRk9OVF9TSVpFX0tFWSwKICAgICAgU3RyaW5nKHRlcm1pbmFsRm9udFNpemUudmFsdWUpLAogICAgKTsKICB9OwoKICBjb25zdCBsb2FkVGVybWluYWxGb250U2l6ZSA9ICgpID0+IHsKICAgIGNvbnN0IHN0b3JlZCA9IE51bWJlcihsb2NhbFN0b3JhZ2UuZ2V0SXRlbShURVJNSU5BTF9GT05UX1NJWkVfS0VZKSB8fCAiIik7CiAgICBpZiAoTnVtYmVyLmlzRmluaXRlKHN0b3JlZCkpIHsKICAgICAgdGVybWluYWxGb250U2l6ZS52YWx1ZSA9IGNsYW1wVGVybWluYWxGb250U2l6ZShzdG9yZWQpOwogICAgICByZXR1cm47CiAgICB9CiAgICB0ZXJtaW5hbEZvbnRTaXplLnZhbHVlID0gY29tcGFjdFZpZXdwb3J0LnZhbHVlCiAgICAgID8gREVGQVVMVF9URVJNSU5BTF9GT05UX1NJWkVfTU9CSUxFCiAgICAgIDogREVGQVVMVF9URVJNSU5BTF9GT05UX1NJWkU7CiAgfTsKCiAgY29uc3QgYXBwbHlUZXJtaW5hbEZvbnRTaXplID0gKAogICAgdmFsdWU6IG51bWJlciwKICAgIG9wdGlvbnM/OiB7IHBlcnNpc3Q/OiBib29sZWFuIH0sCiAgKSA9PiB7CiAgICBjb25zdCBuZXh0Rm9udFNpemUgPSBjbGFtcFRlcm1pbmFsRm9udFNpemUodmFsdWUpOwogICAgaWYgKG5leHRGb250U2l6ZSA9PT0gdGVybWluYWxGb250U2l6ZS52YWx1ZSkgewogICAgICBpZiAob3B0aW9ucz8ucGVyc2lzdCAhPT0gZmFsc2UpIHsKICAgICAgICBwZXJzaXN0VGVybWluYWxGb250U2l6ZSgpOwogICAgICB9CiAgICAgIHJldHVybjsKICAgIH0KCiAgICB0ZXJtaW5hbEZvbnRTaXplLnZhbHVlID0gbmV4dEZvbnRTaXplOwogICAgaWYgKG9wdGlvbnM/LnBlcnNpc3QgIT09IGZhbHNlKSB7CiAgICAgIHBlcnNpc3RUZXJtaW5hbEZvbnRTaXplKCk7CiAgICB9CgogICAgY29uc3QgdGVybWluYWwgPSBnZXRUZXJtaW5hbCgpOwogICAgaWYgKCF0ZXJtaW5hbCkgcmV0dXJuOwogICAgdGVybWluYWwub3B0aW9ucy5mb250U2l6ZSA9IG5leHRGb250U2l6ZTsKICAgIHNjaGVkdWxlRml0KCk7CiAgfTsKCiAgY29uc3QgbnVkZ2VUZXJtaW5hbEZvbnRTaXplID0gKGRlbHRhOiBudW1iZXIpID0+IHsKICAgIGFwcGx5VGVybWluYWxGb250U2l6ZSh0ZXJtaW5hbEZvbnRTaXplLnZhbHVlICsgZGVsdGEpOwogIH07CgogIGNvbnN0IHJlc2V0VGVybWluYWxGb250U2l6ZSA9ICgpID0+IHsKICAgIGFwcGx5VGVybWluYWxGb250U2l6ZSgKICAgICAgY29tcGFjdFZpZXdwb3J0LnZhbHVlCiAgICAgICAgPyBERUZBVUxUX1RFUk1JTkFMX0ZPTlRfU0laRV9NT0JJTEUKICAgICAgICA6IERFRkFVTFRfVEVSTUlOQUxfRk9OVF9TSVpFLAogICAgKTsKICB9OwoKICByZXR1cm4gewogICAgYXBwbHlUZXJtaW5hbEZvbnRTaXplLAogICAgbG9hZFRlcm1pbmFsRm9udFNpemUsCiAgICBudWRnZVRlcm1pbmFsRm9udFNpemUsCiAgICBwZXJzaXN0VGVybWluYWxGb250U2l6ZSwKICAgIHJlc2V0VGVybWluYWxGb250U2l6ZSwKICAgIHRlcm1pbmFsRm9udFNpemUsCiAgfTsKfTsK
+import { ref, type Ref } from "vue";
+import { clampTerminalFontSize } from "./terminal-dom";
+import {
+  DEFAULT_TERMINAL_FONT_SIZE,
+  DEFAULT_TERMINAL_FONT_SIZE_MOBILE,
+  TERMINAL_FONT_SIZE_KEY,
+} from "./terminal-runtime";
+
+type TerminalFontSizeTarget = {
+  options: {
+    fontSize: number;
+  };
+};
+
+export const useTerminalFontSize = ({
+  compactViewport,
+  getTerminal,
+  scheduleFit,
+}: {
+  compactViewport: Ref<boolean>;
+  getTerminal: () => TerminalFontSizeTarget | null;
+  scheduleFit: () => void;
+}) => {
+  const terminalFontSize = ref(DEFAULT_TERMINAL_FONT_SIZE);
+
+  const persistTerminalFontSize = () => {
+    localStorage.setItem(
+      TERMINAL_FONT_SIZE_KEY,
+      String(terminalFontSize.value),
+    );
+  };
+
+  const loadTerminalFontSize = () => {
+    const stored = Number(localStorage.getItem(TERMINAL_FONT_SIZE_KEY) || "");
+    if (Number.isFinite(stored)) {
+      terminalFontSize.value = clampTerminalFontSize(stored);
+      return;
+    }
+    terminalFontSize.value = compactViewport.value
+      ? DEFAULT_TERMINAL_FONT_SIZE_MOBILE
+      : DEFAULT_TERMINAL_FONT_SIZE;
+  };
+
+  const applyTerminalFontSize = (
+    value: number,
+    options?: { persist?: boolean },
+  ) => {
+    const nextFontSize = clampTerminalFontSize(value);
+    if (nextFontSize === terminalFontSize.value) {
+      if (options?.persist !== false) {
+        persistTerminalFontSize();
+      }
+      return;
+    }
+
+    terminalFontSize.value = nextFontSize;
+    if (options?.persist !== false) {
+      persistTerminalFontSize();
+    }
+
+    const terminal = getTerminal();
+    if (!terminal) return;
+    terminal.options.fontSize = nextFontSize;
+    scheduleFit();
+  };
+
+  const nudgeTerminalFontSize = (delta: number) => {
+    applyTerminalFontSize(terminalFontSize.value + delta);
+  };
+
+  const resetTerminalFontSize = () => {
+    applyTerminalFontSize(
+      compactViewport.value
+        ? DEFAULT_TERMINAL_FONT_SIZE_MOBILE
+        : DEFAULT_TERMINAL_FONT_SIZE,
+    );
+  };
+
+  return {
+    applyTerminalFontSize,
+    loadTerminalFontSize,
+    nudgeTerminalFontSize,
+    persistTerminalFontSize,
+    resetTerminalFontSize,
+    terminalFontSize,
+  };
+};

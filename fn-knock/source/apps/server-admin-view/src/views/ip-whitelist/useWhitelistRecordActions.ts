@@ -1,1 +1,194 @@
-aW1wb3J0IHsgcmVmLCB0eXBlIENvbXB1dGVkUmVmLCB0eXBlIFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgV2hpdGVsaXN0QVBJLCB0eXBlIFdoaXRlTGlzdFJlY29yZCB9IGZyb20gIkAvbGliL2FwaS93aGl0ZWxpc3QiOwoKdHlwZSBUcmFuc2xhdGUgPSAoa2V5OiBzdHJpbmcsIHBhcmFtcz86IFJlY29yZDxzdHJpbmcsIHVua25vd24+KSA9PiBzdHJpbmc7CgppbnRlcmZhY2UgVXNlV2hpdGVsaXN0UmVjb3JkQWN0aW9uc09wdGlvbnMgewogIGN1cnJlbnRQYWdlOiBSZWY8bnVtYmVyPjsKICBmZXRjaFJlY29yZHM6ICgpID0+IFByb21pc2U8dW5rbm93bj47CiAgcGFnaW5hdGVkUmVjb3JkczogQ29tcHV0ZWRSZWY8V2hpdGVMaXN0UmVjb3JkW10+OwogIHJlY29yZHM6IFJlZjxXaGl0ZUxpc3RSZWNvcmRbXT47CiAgdHJhbnNsYXRlOiBUcmFuc2xhdGU7Cn0KCmV4cG9ydCBmdW5jdGlvbiB1c2VXaGl0ZWxpc3RSZWNvcmRBY3Rpb25zKHsKICBjdXJyZW50UGFnZSwKICBmZXRjaFJlY29yZHMsCiAgcGFnaW5hdGVkUmVjb3JkcywKICByZWNvcmRzLAogIHRyYW5zbGF0ZSwKfTogVXNlV2hpdGVsaXN0UmVjb3JkQWN0aW9uc09wdGlvbnMpIHsKICBjb25zdCByZW1vdmluZ0lkID0gcmVmPHN0cmluZyB8IG51bGw+KG51bGwpOwogIGNvbnN0IHJlbW92aW5nUmVnaW9uR3JvdXBJZCA9IHJlZjxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCByZWZyZXNoaW5nSWQgPSByZWY8c3RyaW5nIHwgbnVsbD4obnVsbCk7CgogIGNvbnN0IHsgcnVuOiBydW5SZW1vdmVSZWNvcmQgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0cmFuc2xhdGUoImFkbWluLmlwV2hpdGVsaXN0Lm5ldHdvcmtEZWxldGVUaXRsZSIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QuZGVsZXRlRmFpbGVkIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwogIGNvbnN0IHsgcnVuOiBydW5SZW1vdmVSZWdpb25Hcm91cCB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QubmV0d29ya1JlZ2lvbkRlbGV0ZVRpdGxlIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdHJhbnNsYXRlKCJhZG1pbi5pcFdoaXRlbGlzdC5yZWdpb25Hcm91cERlbGV0ZUZhaWxlZCIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSwKICB9KTsKICBjb25zdCB7IHJ1bjogcnVuUmVmcmVzaFJlY29yZCB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QubmV0d29ya1JlZnJlc2hUaXRsZSIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QucmVmcmVzaEZhaWxlZCIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSwKICB9KTsKICBjb25zdCB7IHJ1bjogcnVuU2F2ZUNvbW1lbnQgfSA9IHVzZUFzeW5jQWN0aW9uKHsgcmV0aHJvdzogdHJ1ZSB9KTsKCiAgZnVuY3Rpb24gcmVwbGFjZVJlY29yZChuZXh0UmVjb3JkOiBXaGl0ZUxpc3RSZWNvcmQpIHsKICAgIGNvbnN0IGluZGV4ID0gcmVjb3Jkcy52YWx1ZS5maW5kSW5kZXgoCiAgICAgIChyZWNvcmQpID0+IHJlY29yZC5pZCA9PT0gbmV4dFJlY29yZC5pZCwKICAgICk7CiAgICBpZiAoaW5kZXggPCAwKSByZXR1cm47CiAgICByZWNvcmRzLnZhbHVlLnNwbGljZShpbmRleCwgMSwgbmV4dFJlY29yZCk7CiAgfQoKICBhc3luYyBmdW5jdGlvbiByZW1vdmVSZWdpb25Hcm91cChpZDogc3RyaW5nKSB7CiAgICByZW1vdmluZ1JlZ2lvbkdyb3VwSWQudmFsdWUgPSBpZDsKICAgIGF3YWl0IHJ1blJlbW92ZVJlZ2lvbkdyb3VwKAogICAgICBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBXaGl0ZWxpc3RBUEkuZGVsZXRlUmVnaW9uKGlkKTsKICAgICAgICBpZiAocmVzcG9uc2Uuc3VjY2VzcykgewogICAgICAgICAgdG9hc3Quc3VjY2VzcygKICAgICAgICAgICAgdHJhbnNsYXRlKCJhZG1pbi5pcFdoaXRlbGlzdC5yZWdpb25Hcm91cERlbGV0ZVN1Y2Nlc3MiKSwKICAgICAgICAgICk7CiAgICAgICAgICBhd2FpdCBmZXRjaFJlY29yZHMoKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgdG9hc3QuZXJyb3IodHJhbnNsYXRlKCJhZG1pbi5pcFdoaXRlbGlzdC5yZWdpb25Hcm91cERlbGV0ZUZhaWxlZCIpLCB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uOiByZXNwb25zZS5tZXNzYWdlID8/IHVuZGVmaW5lZCwKICAgICAgICAgIH0pOwogICAgICAgIH0KICAgICAgfSwKICAgICAgewogICAgICAgIG9uRmluYWxseTogKCkgPT4gewogICAgICAgICAgcmVtb3ZpbmdSZWdpb25Hcm91cElkLnZhbHVlID0gbnVsbDsKICAgICAgICB9LAogICAgICB9LAogICAgKTsKICB9CgogIGFzeW5jIGZ1bmN0aW9uIHJlbW92ZVJlY29yZChpZDogc3RyaW5nKSB7CiAgICByZW1vdmluZ0lkLnZhbHVlID0gaWQ7CiAgICBhd2FpdCBydW5SZW1vdmVSZWNvcmQoCiAgICAgIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IFdoaXRlbGlzdEFQSS5kZWxldGVSZWNvcmQoaWQpOwogICAgICAgIGlmIChyZXNwb25zZS5zdWNjZXNzKSB7CiAgICAgICAgICB0b2FzdC5zdWNjZXNzKHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QuZGVsZXRlU3VjY2VzcyIpKTsKICAgICAgICAgIGF3YWl0IGZldGNoUmVjb3JkcygpOwogICAgICAgICAgaWYgKHBhZ2luYXRlZFJlY29yZHMudmFsdWUubGVuZ3RoID09PSAxICYmIGN1cnJlbnRQYWdlLnZhbHVlID4gMSkgewogICAgICAgICAgICBjdXJyZW50UGFnZS52YWx1ZS0tOwogICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICB0b2FzdC5lcnJvcih0cmFuc2xhdGUoImFkbWluLmlwV2hpdGVsaXN0LmRlbGV0ZUZhaWxlZCIpLCB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uOiByZXNwb25zZS5tZXNzYWdlID8/IHVuZGVmaW5lZCwKICAgICAgICAgIH0pOwogICAgICAgIH0KICAgICAgfSwKICAgICAgewogICAgICAgIG9uRmluYWxseTogKCkgPT4gewogICAgICAgICAgcmVtb3ZpbmdJZC52YWx1ZSA9IG51bGw7CiAgICAgICAgfSwKICAgICAgfSwKICAgICk7CiAgfQoKICBhc3luYyBmdW5jdGlvbiByZWZyZXNoUmVjb3JkKGlkOiBzdHJpbmcpIHsKICAgIHJlZnJlc2hpbmdJZC52YWx1ZSA9IGlkOwogICAgYXdhaXQgcnVuUmVmcmVzaFJlY29yZCgKICAgICAgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgV2hpdGVsaXN0QVBJLnJlZnJlc2hSZWNvcmQoaWQpOwogICAgICAgIGNvbnN0IHJlc3VsdCA9IHJlc3BvbnNlLmRhdGE7CiAgICAgICAgY29uc3QgbmV4dFJlY29yZCA9IHJlc3VsdD8ucmVjb3JkOwogICAgICAgIGlmIChuZXh0UmVjb3JkKSB7CiAgICAgICAgICByZXBsYWNlUmVjb3JkKG5leHRSZWNvcmQpOwogICAgICAgIH0KCiAgICAgICAgaWYgKAogICAgICAgICAgIXJlc3BvbnNlLnN1Y2Nlc3MgfHwKICAgICAgICAgICFyZXN1bHQgfHwKICAgICAgICAgICFuZXh0UmVjb3JkIHx8CiAgICAgICAgICBuZXh0UmVjb3JkLnJlc29sdmVTdGF0dXMgPT09ICJlcnJvciIKICAgICAgICApIHsKICAgICAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QucmVmcmVzaEZhaWxlZCIpLCB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICAgICAgIHJlc3BvbnNlLm1lc3NhZ2UgfHwKICAgICAgICAgICAgICBuZXh0UmVjb3JkPy5yZXNvbHZlTWVzc2FnZSB8fAogICAgICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QucmVmcmVzaEZhbGxiYWNrRXJyb3IiKSwKICAgICAgICAgIH0pOwogICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KCiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0cmFuc2xhdGUoImFkbWluLmlwV2hpdGVsaXN0LnJlZnJlc2hTdWNjZXNzVGl0bGUiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IHJlc3VsdC5jaGFuZ2VkCiAgICAgICAgICAgID8gdHJhbnNsYXRlKCJhZG1pbi5pcFdoaXRlbGlzdC5yZWZyZXNoQ2hhbmdlZCIpCiAgICAgICAgICAgIDogdHJhbnNsYXRlKCJhZG1pbi5pcFdoaXRlbGlzdC5yZWZyZXNoVW5jaGFuZ2VkIiksCiAgICAgICAgfSk7CiAgICAgIH0sCiAgICAgIHsKICAgICAgICBvbkZpbmFsbHk6ICgpID0+IHsKICAgICAgICAgIHJlZnJlc2hpbmdJZC52YWx1ZSA9IG51bGw7CiAgICAgICAgfSwKICAgICAgfSwKICAgICk7CiAgfQoKICBhc3luYyBmdW5jdGlvbiBzYXZlQ29tbWVudChpZDogc3RyaW5nLCBuZXdDb21tZW50OiBzdHJpbmcpIHsKICAgIGNvbnN0IHJlY29yZCA9IHJlY29yZHMudmFsdWUuZmluZCgoaXRlbSkgPT4gaXRlbS5pZCA9PT0gaWQpOwogICAgaWYgKHJlY29yZCAmJiAocmVjb3JkLmNvbW1lbnQgfHwgIiIpID09PSBuZXdDb21tZW50KSByZXR1cm47CgogICAgYXdhaXQgcnVuU2F2ZUNvbW1lbnQoKCkgPT4gV2hpdGVsaXN0QVBJLnVwZGF0ZUNvbW1lbnQoaWQsIG5ld0NvbW1lbnQpLCB7CiAgICAgIG9uU3VjY2VzczogKHJlc3BvbnNlKSA9PiB7CiAgICAgICAgaWYgKCFyZXNwb25zZS5zdWNjZXNzKSB7CiAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICAgICAgIHJlc3BvbnNlLm1lc3NhZ2UgfHwKICAgICAgICAgICAgICB0cmFuc2xhdGUoImFkbWluLmlwV2hpdGVsaXN0LmNvbW1lbnRVcGRhdGVGYWlsZWQiKSwKICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIGlmIChyZWNvcmQpIHJlY29yZC5jb21tZW50ID0gbmV3Q29tbWVudDsKICAgICAgICB0b2FzdC5zdWNjZXNzKHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QuY29tbWVudFVwZGF0ZWQiKSk7CiAgICAgIH0sCiAgICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICAgIHRocm93IG5ldyBFcnJvcigKICAgICAgICAgIGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICAgIGVycm9yLAogICAgICAgICAgICB0cmFuc2xhdGUoImFkbWluLmlwV2hpdGVsaXN0LmNvbW1lbnRVcGRhdGVGYWlsZWQiKSwKICAgICAgICAgICksCiAgICAgICAgKTsKICAgICAgfSwKICAgIH0pOwogIH0KCiAgcmV0dXJuIHsKICAgIHJlZnJlc2hSZWNvcmQsCiAgICByZWZyZXNoaW5nSWQsCiAgICByZW1vdmVSZWNvcmQsCiAgICByZW1vdmVSZWdpb25Hcm91cCwKICAgIHJlbW92aW5nSWQsCiAgICByZW1vdmluZ1JlZ2lvbkdyb3VwSWQsCiAgICBzYXZlQ29tbWVudCwKICB9Owp9Cg==
+import { ref, type ComputedRef, type Ref } from "vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import { WhitelistAPI, type WhiteListRecord } from "@/lib/api/whitelist";
+
+type Translate = (key: string, params?: Record<string, unknown>) => string;
+
+interface UseWhitelistRecordActionsOptions {
+  currentPage: Ref<number>;
+  fetchRecords: () => Promise<unknown>;
+  paginatedRecords: ComputedRef<WhiteListRecord[]>;
+  records: Ref<WhiteListRecord[]>;
+  translate: Translate;
+}
+
+export function useWhitelistRecordActions({
+  currentPage,
+  fetchRecords,
+  paginatedRecords,
+  records,
+  translate,
+}: UseWhitelistRecordActionsOptions) {
+  const removingId = ref<string | null>(null);
+  const removingRegionGroupId = ref<string | null>(null);
+  const refreshingId = ref<string | null>(null);
+
+  const { run: runRemoveRecord } = useAsyncAction({
+    onError: (error) => {
+      toast.error(translate("admin.ipWhitelist.networkDeleteTitle"), {
+        description: extractErrorMessage(
+          error,
+          translate("admin.ipWhitelist.deleteFailed"),
+        ),
+      });
+    },
+  });
+  const { run: runRemoveRegionGroup } = useAsyncAction({
+    onError: (error) => {
+      toast.error(translate("admin.ipWhitelist.networkRegionDeleteTitle"), {
+        description: extractErrorMessage(
+          error,
+          translate("admin.ipWhitelist.regionGroupDeleteFailed"),
+        ),
+      });
+    },
+  });
+  const { run: runRefreshRecord } = useAsyncAction({
+    onError: (error) => {
+      toast.error(translate("admin.ipWhitelist.networkRefreshTitle"), {
+        description: extractErrorMessage(
+          error,
+          translate("admin.ipWhitelist.refreshFailed"),
+        ),
+      });
+    },
+  });
+  const { run: runSaveComment } = useAsyncAction({ rethrow: true });
+
+  function replaceRecord(nextRecord: WhiteListRecord) {
+    const index = records.value.findIndex(
+      (record) => record.id === nextRecord.id,
+    );
+    if (index < 0) return;
+    records.value.splice(index, 1, nextRecord);
+  }
+
+  async function removeRegionGroup(id: string) {
+    removingRegionGroupId.value = id;
+    await runRemoveRegionGroup(
+      async () => {
+        const response = await WhitelistAPI.deleteRegion(id);
+        if (response.success) {
+          toast.success(
+            translate("admin.ipWhitelist.regionGroupDeleteSuccess"),
+          );
+          await fetchRecords();
+        } else {
+          toast.error(translate("admin.ipWhitelist.regionGroupDeleteFailed"), {
+            description: response.message ?? undefined,
+          });
+        }
+      },
+      {
+        onFinally: () => {
+          removingRegionGroupId.value = null;
+        },
+      },
+    );
+  }
+
+  async function removeRecord(id: string) {
+    removingId.value = id;
+    await runRemoveRecord(
+      async () => {
+        const response = await WhitelistAPI.deleteRecord(id);
+        if (response.success) {
+          toast.success(translate("admin.ipWhitelist.deleteSuccess"));
+          await fetchRecords();
+          if (paginatedRecords.value.length === 1 && currentPage.value > 1) {
+            currentPage.value--;
+          }
+        } else {
+          toast.error(translate("admin.ipWhitelist.deleteFailed"), {
+            description: response.message ?? undefined,
+          });
+        }
+      },
+      {
+        onFinally: () => {
+          removingId.value = null;
+        },
+      },
+    );
+  }
+
+  async function refreshRecord(id: string) {
+    refreshingId.value = id;
+    await runRefreshRecord(
+      async () => {
+        const response = await WhitelistAPI.refreshRecord(id);
+        const result = response.data;
+        const nextRecord = result?.record;
+        if (nextRecord) {
+          replaceRecord(nextRecord);
+        }
+
+        if (
+          !response.success ||
+          !result ||
+          !nextRecord ||
+          nextRecord.resolveStatus === "error"
+        ) {
+          toast.error(translate("admin.ipWhitelist.refreshFailed"), {
+            description:
+              response.message ||
+              nextRecord?.resolveMessage ||
+              translate("admin.ipWhitelist.refreshFallbackError"),
+          });
+          return;
+        }
+
+        toast.success(translate("admin.ipWhitelist.refreshSuccessTitle"), {
+          description: result.changed
+            ? translate("admin.ipWhitelist.refreshChanged")
+            : translate("admin.ipWhitelist.refreshUnchanged"),
+        });
+      },
+      {
+        onFinally: () => {
+          refreshingId.value = null;
+        },
+      },
+    );
+  }
+
+  async function saveComment(id: string, newComment: string) {
+    const record = records.value.find((item) => item.id === id);
+    if (record && (record.comment || "") === newComment) return;
+
+    await runSaveComment(() => WhitelistAPI.updateComment(id, newComment), {
+      onSuccess: (response) => {
+        if (!response.success) {
+          throw new Error(
+            response.message ||
+              translate("admin.ipWhitelist.commentUpdateFailed"),
+          );
+        }
+        if (record) record.comment = newComment;
+        toast.success(translate("admin.ipWhitelist.commentUpdated"));
+      },
+      onError: (error) => {
+        throw new Error(
+          extractErrorMessage(
+            error,
+            translate("admin.ipWhitelist.commentUpdateFailed"),
+          ),
+        );
+      },
+    });
+  }
+
+  return {
+    refreshRecord,
+    refreshingId,
+    removeRecord,
+    removeRegionGroup,
+    removingId,
+    removingRegionGroupId,
+    saveComment,
+  };
+}

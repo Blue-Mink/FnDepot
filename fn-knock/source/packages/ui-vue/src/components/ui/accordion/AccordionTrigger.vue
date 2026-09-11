@@ -1,1 +1,37 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgQWNjb3JkaW9uVHJpZ2dlclByb3BzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHR5cGUgeyBIVE1MQXR0cmlidXRlcyB9IGZyb20gInZ1ZSIKaW1wb3J0IHsgcmVhY3RpdmVPbWl0IH0gZnJvbSAiQHZ1ZXVzZS9jb3JlIgppbXBvcnQgeyBDaGV2cm9uRG93biB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCIKaW1wb3J0IHsKICBBY2NvcmRpb25IZWFkZXIsCiAgQWNjb3JkaW9uVHJpZ2dlciwKfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxBY2NvcmRpb25UcmlnZ2VyUHJvcHMgJiB7IGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0gfT4oKQoKY29uc3QgZGVsZWdhdGVkUHJvcHMgPSByZWFjdGl2ZU9taXQocHJvcHMsICJjbGFzcyIpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxBY2NvcmRpb25IZWFkZXIgY2xhc3M9ImZsZXgiPgogICAgPEFjY29yZGlvblRyaWdnZXIKICAgICAgZGF0YS1zbG90PSJhY2NvcmRpb24tdHJpZ2dlciIKICAgICAgdi1iaW5kPSJkZWxlZ2F0ZWRQcm9wcyIKICAgICAgOmNsYXNzPSIKICAgICAgICBjbigKICAgICAgICAgICdmb2N1cy12aXNpYmxlOmJvcmRlci1yaW5nIGZvY3VzLXZpc2libGU6cmluZy1yaW5nLzUwIGZsZXggZmxleC0xIGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtNCByb3VuZGVkLW1kIHB5LTQgdGV4dC1sZWZ0IHRleHQtc20gZm9udC1tZWRpdW0gdHJhbnNpdGlvbi1hbGwgb3V0bGluZS1ub25lIGhvdmVyOnVuZGVybGluZSBmb2N1cy12aXNpYmxlOnJpbmctWzNweF0gZGlzYWJsZWQ6cG9pbnRlci1ldmVudHMtbm9uZSBkaXNhYmxlZDpvcGFjaXR5LTUwIFsmW2RhdGEtc3RhdGU9b3Blbl0+c3ZnXTpyb3RhdGUtMTgwJywKICAgICAgICAgIHByb3BzLmNsYXNzLAogICAgICAgICkKICAgICAgIgogICAgPgogICAgICA8c2xvdCAvPgogICAgICA8c2xvdCBuYW1lPSJpY29uIj4KICAgICAgICA8Q2hldnJvbkRvd24KICAgICAgICAgIGNsYXNzPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgcG9pbnRlci1ldmVudHMtbm9uZSBzaXplLTQgc2hyaW5rLTAgdHJhbnNsYXRlLXktMC41IHRyYW5zaXRpb24tdHJhbnNmb3JtIGR1cmF0aW9uLTIwMCIKICAgICAgICAvPgogICAgICA8L3Nsb3Q+CiAgICA8L0FjY29yZGlvblRyaWdnZXI+CiAgPC9BY2NvcmRpb25IZWFkZXI+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { AccordionTriggerProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { ChevronDown } from "lucide-vue-next"
+import {
+  AccordionHeader,
+  AccordionTrigger,
+} from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<AccordionTriggerProps & { class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+</script>
+
+<template>
+  <AccordionHeader class="flex">
+    <AccordionTrigger
+      data-slot="accordion-trigger"
+      v-bind="delegatedProps"
+      :class="
+        cn(
+          'focus-visible:border-ring focus-visible:ring-ring/50 flex flex-1 items-start justify-between gap-4 rounded-md py-4 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&[data-state=open]>svg]:rotate-180',
+          props.class,
+        )
+      "
+    >
+      <slot />
+      <slot name="icon">
+        <ChevronDown
+          class="text-muted-foreground pointer-events-none size-4 shrink-0 translate-y-0.5 transition-transform duration-200"
+        />
+      </slot>
+    </AccordionTrigger>
+  </AccordionHeader>
+</template>

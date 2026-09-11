@@ -1,1 +1,159 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIGJhcmtfZGVmaW5pdGlvbigpIC0+IFByb3ZpZGVyRGVmaW5pdGlvbiB7CiAgICBQcm92aWRlckRlZmluaXRpb24gewogICAgICAgIHByb3ZpZGVyX3R5cGU6ICJiYXJrIiwKICAgICAgICBsYWJlbDogIkJhcmsiLAogICAgICAgIGRlc2NyaXB0aW9uOiAiU2VuZCBub3RpZmljYXRpb25zIHRocm91Z2ggQmFyay4iLAogICAgICAgIGNvbm5lY3Rpb25fc2NoZW1hOiB2ZWMhWwogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKAogICAgICAgICAgICAgICAgInNlcnZlcl91cmwiLAogICAgICAgICAgICAgICAgIlNlcnZlciBVUkwiLAogICAgICAgICAgICAgICAgdHJ1ZSwKICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICAgICAgU29tZSgiaHR0cHM6Ly9hcGkuZGF5LmFwcCIpLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5wbGFjZWhvbGRlcigiaHR0cHM6Ly9hcGkuZGF5LmFwcCIpLAogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJkZXZpY2Vfa2V5IiwgIkRldmljZSBLZXkiLCB0cnVlLCB0cnVlLCBOb25lKQogICAgICAgICAgICAgICAgLnBsYWNlaG9sZGVyKCJ5bko1RnQ0YXRrTWtXZW8yUEF2RmhGIiksCiAgICAgICAgICAgIG51bWJlcl9zY2hlbWEoInRpbWVvdXRfc2Vjb25kcyIsICJUaW1lb3V0IHNlY29uZHMiLCB0cnVlLCBTb21lKDUpKS5ib3VuZHMoMSwgMzApLAogICAgICAgIF0sCiAgICAgICAgdGFyZ2V0X3NjaGVtYTogdmVjIVsKICAgICAgICAgICAgc2VsZWN0X3NjaGVtYSgKICAgICAgICAgICAgICAgICJsZXZlbCIsCiAgICAgICAgICAgICAgICAiTGV2ZWwiLAogICAgICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgICAgICBTb21lKCJhY3RpdmUiKSwKICAgICAgICAgICAgICAgICZbImFjdGl2ZSIsICJ0aW1lU2Vuc2l0aXZlIiwgInBhc3NpdmUiLCAiY3JpdGljYWwiXSwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgiZ3JvdXAiLCAiR3JvdXAiLCBmYWxzZSwgZmFsc2UsIE5vbmUpLnBsYWNlaG9sZGVyKCJmbi1rbm9jayIpLAogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJzb3VuZCIsICJTb3VuZCIsIGZhbHNlLCBmYWxzZSwgTm9uZSkucGxhY2Vob2xkZXIoImFsYXJtIiksCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoInVybCIsICJVUkwiLCBmYWxzZSwgZmFsc2UsIE5vbmUpCiAgICAgICAgICAgICAgICAucGxhY2Vob2xkZXIoImh0dHBzOi8vZXhhbXBsZS5jb20vZXZlbnRzLzEyMyIpLAogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJpY29uIiwgIkljb24iLCBmYWxzZSwgZmFsc2UsIE5vbmUpCiAgICAgICAgICAgICAgICAucGxhY2Vob2xkZXIoImh0dHBzOi8vZGF5LmFwcC9hc3NldHMvaW1hZ2VzL2F2YXRhci5qcGciKSwKICAgICAgICAgICAgbnVtYmVyX3NjaGVtYSgiYmFkZ2UiLCAiQmFkZ2UiLCBmYWxzZSwgTm9uZSkuYm91bmRzKDAsIDk5OTk5KSwKICAgICAgICAgICAgYm9vbF9zY2hlbWEoImNhbGwiLCAiQ2FsbCIsIGZhbHNlLCBTb21lKGZhbHNlKSksCiAgICAgICAgXSwKICAgICAgICBzZW5zaXRpdmVfZmllbGRzOiB2ZWMhWyJkZXZpY2Vfa2V5Il0sCiAgICAgICAgc3VwcG9ydHNfbWFya2Rvd246IGZhbHNlLAogICAgICAgIHN1cHBvcnRzX2FjdGlvbnM6IHRydWUsCiAgICAgICAgc3VwcG9ydHNfbWVudGlvbnM6IGZhbHNlLAogICAgICAgIHN1cHBvcnRzX3Byb3ZpZGVyX2RlZHVwZV9rZXk6IGZhbHNlLAogICAgfQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgYXN5bmMgZm4gc2VuZF9iYXJrKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHByb3ZpZGVyOiAmVmFsdWUsCiAgICB0YXJnZXQ6ICZWYWx1ZSwKICAgIG1lc3NhZ2U6ICZWYWx1ZSwKICAgIHRpbWVvdXRfc2Vjb25kczogaTY0LAopIC0+IFByb3ZpZGVyVGVzdFJlc3VsdCB7CiAgICBsZXQgY29uZmlnID0gcHJvdmlkZXJfY29uZmlnKHByb3ZpZGVyKTsKICAgIGxldCBkZXZpY2Vfa2V5cyA9IHNwbGl0X3ZhbHVlcyhjb25maWcuZ2V0KCJkZXZpY2Vfa2V5IikpOwogICAgaWYgZGV2aWNlX2tleXMuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIG1pc3NpbmdfY29uZmlnX3Jlc3VsdCgmbm90aWZpY2F0aW9uX3Byb3ZpZGVyX2Vycm9yX2RlZmF1bHQoCiAgICAgICAgICAgICJiYXJrIiwKICAgICAgICAgICAgIm1pc3NpbmdEZXZpY2VLZXkiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSk7CiAgICB9CiAgICBsZXQgYmFzZV91cmwgPSBkZWZhdWx0X3N0cmluZyhjb25maWdfdGV4dCgmY29uZmlnLCAic2VydmVyX3VybCIpLCAiaHR0cHM6Ly9hcGkuZGF5LmFwcCIpOwogICAgbGV0IHVybCA9IGZvcm1hdCEoInt9L3B1c2giLCBiYXNlX3VybC50cmltX2VuZF9tYXRjaGVzKCcvJykpOwogICAgbGV0IHBheWxvYWRfcHJldmlldyA9IGJ1aWxkX2JhcmtfcGF5bG9hZChtZXNzYWdlLCB0YXJnZXQpOwogICAgbGV0IG11dCByZXN1bHRzID0gVmVjOjpuZXcoKTsKICAgIGZvciBkZXZpY2Vfa2V5IGluICZkZXZpY2Vfa2V5cyB7CiAgICAgICAgbGV0IG11dCBwYXlsb2FkID0gcGF5bG9hZF9wcmV2aWV3LmNsb25lKCk7CiAgICAgICAgaW5zZXJ0X3N0cmluZygmbXV0IHBheWxvYWQsICJkZXZpY2Vfa2V5IiwgZGV2aWNlX2tleS5jbG9uZSgpKTsKICAgICAgICBsZXQgKHN0YXR1cywgb2ssIHRleHQsIHBhcnNlZCkgPSBwb3N0X2pzb24oc3RhdGUsICZ1cmwsICZwYXlsb2FkLCB0aW1lb3V0X3NlY29uZHMpLmF3YWl0OwogICAgICAgIGxldCBiYXJrX2NvZGUgPSBwYXJzZWQuYXNfcmVmKCkuYW5kX3RoZW4ofHZhbHVlfCBqc29uX2k2NCh2YWx1ZSwgImNvZGUiKSk7CiAgICAgICAgbGV0IHN1Y2Nlc3MgPSBvayAmJiBiYXJrX2NvZGUuaXNfbm9uZV9vcih8Y29kZXwgY29kZSA9PSAyMDApOwogICAgICAgIGxldCByZXRyeWFibGUgPSAhc3VjY2VzcyAmJiAoc3RhdHVzID49IDUwMCB8fCBzdGF0dXMgPT0gNDI5KTsKICAgICAgICBsZXQgcmVhc29uID0gcGFyc2VkCiAgICAgICAgICAgIC5hc19yZWYoKQogICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCBqc29uX3RleHQodmFsdWUsICJtZXNzYWdlIikpCiAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCB7CiAgICAgICAgICAgICAgICBpZiBzdGF0dXMgPT0gNTk5ICYmICF0ZXh0LmlzX2VtcHR5KCkgewogICAgICAgICAgICAgICAgICAgIHJldHVybiB0ZXh0LmNsb25lKCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiBvayB7CiAgICAgICAgICAgICAgICAgICAgU3RyaW5nOjpuZXcoKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBmb3JtYXQhKCJCYXJrIHJldHVybmVkIHtzdGF0dXN9IikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSk7CiAgICAgICAgbGV0IHJlc3BvbnNlX3N1bW1hcnkgPSBpZiBzdGF0dXMgPT0gNTk5ICYmIHBhcnNlZC5pc19ub25lKCkgewogICAgICAgICAgICBWYWx1ZTo6TnVsbAogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGpzb24hKHsKICAgICAgICAgICAgInN0YXR1cyI6IHN0YXR1cywKICAgICAgICAgICAgIm9rIjogb2ssCiAgICAgICAgICAgICJjb2RlIjogYmFya19jb2RlLAogICAgICAgICAgICAibWVzc2FnZSI6IHBhcnNlZC5hc19yZWYoKS5hbmRfdGhlbih8dmFsdWV8IGpzb25fdGV4dCh2YWx1ZSwgIm1lc3NhZ2UiKSksCiAgICAgICAgICAgICJib2R5X3ByZXZpZXciOiB0cnVuY2F0ZV90ZXh0KCZ0ZXh0LCA1MDApCiAgICAgICAgICAgIH0pCiAgICAgICAgfTsKICAgICAgICBsZXQgbXV0IHJlc3VsdCA9IE1hcDo6bmV3KCk7CiAgICAgICAgcmVzdWx0Lmluc2VydCgic3VjY2VzcyIudG9fc3RyaW5nKCksIFZhbHVlOjpCb29sKHN1Y2Nlc3MpKTsKICAgICAgICByZXN1bHQuaW5zZXJ0KCJyZXRyeWFibGUiLnRvX3N0cmluZygpLCBWYWx1ZTo6Qm9vbChyZXRyeWFibGUpKTsKICAgICAgICBpZiAhc3VjY2VzcyAmJiAhcmVhc29uLmlzX2VtcHR5KCkgewogICAgICAgICAgICByZXN1bHQuaW5zZXJ0KCJyZWFzb24iLnRvX3N0cmluZygpLCBWYWx1ZTo6U3RyaW5nKHJlYXNvbikpOwogICAgICAgIH0KICAgICAgICByZXN1bHQuaW5zZXJ0KCJyZXNwb25zZV9zdW1tYXJ5Ii50b19zdHJpbmcoKSwgcmVzcG9uc2Vfc3VtbWFyeSk7CiAgICAgICAgcmVzdWx0cy5wdXNoKFZhbHVlOjpPYmplY3QocmVzdWx0KSk7CiAgICB9CiAgICBsZXQgZmFpbGVkX2NvdW50ID0gcmVzdWx0cwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyKHxyZXN1bHR8IHJlc3VsdC5nZXQoInN1Y2Nlc3MiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgIT0gU29tZSh0cnVlKSkKICAgICAgICAuY291bnQoKTsKICAgIGxldCByZXNwb25zZV9yZXN1bHRzID0gaWYgZmFpbGVkX2NvdW50ID09IDAgewogICAgICAgIHJlc3VsdHMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAubWFwKHxyZXN1bHR8IHsKICAgICAgICAgICAgICAgIHJlc3VsdAogICAgICAgICAgICAgICAgICAgIC5nZXQoInJlc3BvbnNlX3N1bW1hcnkiKQogICAgICAgICAgICAgICAgICAgIC5jbG9uZWQoKQogICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3IoVmFsdWU6Ok51bGwpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpCiAgICB9IGVsc2UgewogICAgICAgIHJlc3VsdHMuY2xvbmUoKQogICAgfTsKICAgIFByb3ZpZGVyVGVzdFJlc3VsdCB7CiAgICAgICAgc3VjY2VzczogZmFpbGVkX2NvdW50ID09IDAsCiAgICAgICAgcmV0cnlhYmxlOiByZXN1bHRzLml0ZXIoKS5hbnkofHJlc3VsdHwgewogICAgICAgICAgICByZXN1bHQKICAgICAgICAgICAgICAgIC5nZXQoInJldHJ5YWJsZSIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgICAgICAgICAudW53cmFwX29yKGZhbHNlKQogICAgICAgIH0pLAogICAgICAgIG1lc3NhZ2U6IGlmIGZhaWxlZF9jb3VudCA9PSAwIHsKICAgICAgICAgICAgbm90aWZpY2F0aW9uX3NlcnZpY2VfZGVmYXVsdF90ZXh0KCJ0ZXN0U2VuZFN1Y2Nlc3MiLCAmW10pCiAgICAgICAgfSBlbHNlIGlmIGZhaWxlZF9jb3VudCA9PSAxIHsKICAgICAgICAgICAgcmVzdWx0cwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLmZpbmQofHJlc3VsdHwgcmVzdWx0LmdldCgic3VjY2VzcyIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSAhPSBTb21lKHRydWUpKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKHxyZXN1bHR8IHJlc3VsdC5nZXQoInJlYXNvbiIpKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAuZmlsdGVyKHxyZWFzb258ICFyZWFzb24uaXNfZW1wdHkoKSkKICAgICAgICAgICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCiAgICAgICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofHwgbm90aWZpY2F0aW9uX3Byb3ZpZGVyX2Vycm9yX2RlZmF1bHQoImJhcmsiLCAicHVzaEZhaWxlZCIsICZbXSkpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZm9ybWF0ISgiQmFyayBmYWlsZWQgZm9yIHtmYWlsZWRfY291bnR9L3t9IHRhcmdldChzKSIsIHJlc3VsdHMubGVuKCkpCiAgICAgICAgfSwKICAgICAgICByZXF1ZXN0X3N1bW1hcnk6IFNvbWUoanNvbiEoewogICAgICAgICAgICAibWV0aG9kIjogIlBPU1QiLAogICAgICAgICAgICAidXJsIjogdXJsLAogICAgICAgICAgICAiZGV2aWNlX2tleV9jb3VudCI6IGRldmljZV9rZXlzLmxlbigpLAogICAgICAgICAgICAibGV2ZWwiOiBwYXlsb2FkX3ByZXZpZXcuZ2V0KCJsZXZlbCIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCksCiAgICAgICAgICAgICJncm91cCI6IHBheWxvYWRfcHJldmlldy5nZXQoImdyb3VwIikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgICAgICAgICAgInRpdGxlX3ByZXZpZXciOiBwYXlsb2FkX3ByZXZpZXcuZ2V0KCJ0aXRsZSIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCkKICAgICAgICB9KSksCiAgICAgICAgcmVzcG9uc2Vfc3VtbWFyeTogU29tZShqc29uISh7CiAgICAgICAgICAgICJzdWNjZXNzX2NvdW50IjogcmVzdWx0cy5sZW4oKS5zYXR1cmF0aW5nX3N1YihmYWlsZWRfY291bnQpLAogICAgICAgICAgICAiZmFpbGVkX2NvdW50IjogZmFpbGVkX2NvdW50LAogICAgICAgICAgICAicmVzdWx0cyI6IHJlc3BvbnNlX3Jlc3VsdHMKICAgICAgICB9KSksCiAgICB9Cn0K
+use super::*;
+
+pub(in crate::notifications::routes) fn bark_definition() -> ProviderDefinition {
+    ProviderDefinition {
+        provider_type: "bark",
+        label: "Bark",
+        description: "Send notifications through Bark.",
+        connection_schema: vec![
+            string_schema(
+                "server_url",
+                "Server URL",
+                true,
+                false,
+                Some("https://api.day.app"),
+            )
+            .placeholder("https://api.day.app"),
+            string_schema("device_key", "Device Key", true, true, None)
+                .placeholder("ynJ5Ft4atkMkWeo2PAvFhF"),
+            number_schema("timeout_seconds", "Timeout seconds", true, Some(5)).bounds(1, 30),
+        ],
+        target_schema: vec![
+            select_schema(
+                "level",
+                "Level",
+                false,
+                Some("active"),
+                &["active", "timeSensitive", "passive", "critical"],
+            ),
+            string_schema("group", "Group", false, false, None).placeholder("fn-knock"),
+            string_schema("sound", "Sound", false, false, None).placeholder("alarm"),
+            string_schema("url", "URL", false, false, None)
+                .placeholder("https://example.com/events/123"),
+            string_schema("icon", "Icon", false, false, None)
+                .placeholder("https://day.app/assets/images/avatar.jpg"),
+            number_schema("badge", "Badge", false, None).bounds(0, 99999),
+            bool_schema("call", "Call", false, Some(false)),
+        ],
+        sensitive_fields: vec!["device_key"],
+        supports_markdown: false,
+        supports_actions: true,
+        supports_mentions: false,
+        supports_provider_dedupe_key: false,
+    }
+}
+
+pub(in crate::notifications::routes) async fn send_bark(
+    state: &AppState,
+    provider: &Value,
+    target: &Value,
+    message: &Value,
+    timeout_seconds: i64,
+) -> ProviderTestResult {
+    let config = provider_config(provider);
+    let device_keys = split_values(config.get("device_key"));
+    if device_keys.is_empty() {
+        return missing_config_result(&notification_provider_error_default(
+            "bark",
+            "missingDeviceKey",
+            &[],
+        ));
+    }
+    let base_url = default_string(config_text(&config, "server_url"), "https://api.day.app");
+    let url = format!("{}/push", base_url.trim_end_matches('/'));
+    let payload_preview = build_bark_payload(message, target);
+    let mut results = Vec::new();
+    for device_key in &device_keys {
+        let mut payload = payload_preview.clone();
+        insert_string(&mut payload, "device_key", device_key.clone());
+        let (status, ok, text, parsed) = post_json(state, &url, &payload, timeout_seconds).await;
+        let bark_code = parsed.as_ref().and_then(|value| json_i64(value, "code"));
+        let success = ok && bark_code.is_none_or(|code| code == 200);
+        let retryable = !success && (status >= 500 || status == 429);
+        let reason = parsed
+            .as_ref()
+            .and_then(|value| json_text(value, "message"))
+            .unwrap_or_else(|| {
+                if status == 599 && !text.is_empty() {
+                    return text.clone();
+                }
+                if ok {
+                    String::new()
+                } else {
+                    format!("Bark returned {status}")
+                }
+            });
+        let response_summary = if status == 599 && parsed.is_none() {
+            Value::Null
+        } else {
+            json!({
+            "status": status,
+            "ok": ok,
+            "code": bark_code,
+            "message": parsed.as_ref().and_then(|value| json_text(value, "message")),
+            "body_preview": truncate_text(&text, 500)
+            })
+        };
+        let mut result = Map::new();
+        result.insert("success".to_string(), Value::Bool(success));
+        result.insert("retryable".to_string(), Value::Bool(retryable));
+        if !success && !reason.is_empty() {
+            result.insert("reason".to_string(), Value::String(reason));
+        }
+        result.insert("response_summary".to_string(), response_summary);
+        results.push(Value::Object(result));
+    }
+    let failed_count = results
+        .iter()
+        .filter(|result| result.get("success").and_then(Value::as_bool) != Some(true))
+        .count();
+    let response_results = if failed_count == 0 {
+        results
+            .iter()
+            .map(|result| {
+                result
+                    .get("response_summary")
+                    .cloned()
+                    .unwrap_or(Value::Null)
+            })
+            .collect::<Vec<_>>()
+    } else {
+        results.clone()
+    };
+    ProviderTestResult {
+        success: failed_count == 0,
+        retryable: results.iter().any(|result| {
+            result
+                .get("retryable")
+                .and_then(Value::as_bool)
+                .unwrap_or(false)
+        }),
+        message: if failed_count == 0 {
+            notification_service_default_text("testSendSuccess", &[])
+        } else if failed_count == 1 {
+            results
+                .iter()
+                .find(|result| result.get("success").and_then(Value::as_bool) != Some(true))
+                .and_then(|result| result.get("reason"))
+                .and_then(Value::as_str)
+                .filter(|reason| !reason.is_empty())
+                .map(str::to_string)
+                .unwrap_or_else(|| notification_provider_error_default("bark", "pushFailed", &[]))
+        } else {
+            format!("Bark failed for {failed_count}/{} target(s)", results.len())
+        },
+        request_summary: Some(json!({
+            "method": "POST",
+            "url": url,
+            "device_key_count": device_keys.len(),
+            "level": payload_preview.get("level").cloned().unwrap_or(Value::Null),
+            "group": payload_preview.get("group").cloned().unwrap_or(Value::Null),
+            "title_preview": payload_preview.get("title").cloned().unwrap_or(Value::Null)
+        })),
+        response_summary: Some(json!({
+            "success_count": results.len().saturating_sub(failed_count),
+            "failed_count": failed_count,
+            "results": response_results
+        })),
+    }
+}

@@ -1,1 +1,9 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSB1c2UgY3JhdGU6OmZycF91dGlsczo6ZGV0ZWN0X2ZycF9wbGF0Zm9ybTsKCnB1YihzdXBlcikgZm4gZnJwX2V4ZWN1dGFibGUoc3RhdGU6ICZBcHBTdGF0ZSkgLT4gT3B0aW9uPFBhdGhCdWY+IHsKICAgIGxldCBwYXRoID0KICAgICAgICBjcmF0ZTo6ZnJwX3V0aWxzOjpmcnBfYmluYXJ5X3BhdGgoJnN0YXRlLnNldHRpbmdzLmRhdGFfZGlyLCBkZXRlY3RfZnJwX3BsYXRmb3JtKCksICJmcnBjIik/OwogICAgcGF0aC5leGlzdHMoKS50aGVuX3NvbWUocGF0aCkKfQo=
+use super::*;
+
+pub(super) use crate::frp_utils::detect_frp_platform;
+
+pub(super) fn frp_executable(state: &AppState) -> Option<PathBuf> {
+    let path =
+        crate::frp_utils::frp_binary_path(&state.settings.data_dir, detect_frp_platform(), "frpc")?;
+    path.exists().then_some(path)
+}

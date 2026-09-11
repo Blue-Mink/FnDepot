@@ -1,1 +1,572 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiBzc2hfc2VjdXJpdHlfbWFpbnRlbmFuY2VfdGljayhzdGF0ZTogJkFwcFN0YXRlKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgbGV0IGNvbmZpZyA9IGxvYWRfY29uZmlnKHN0YXRlKS5hd2FpdD87CiAgICBsZXQgcnVudGltZSA9IGxvYWRfcnVudGltZShzdGF0ZSkuYXdhaXQ/OwogICAgYXBwbHlfc3NoX3NlY3VyaXR5X2NvbmZpZ19vbmNlKHN0YXRlLCAmY29uZmlnLCAmcnVudGltZSkuYXdhaXQKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBhcHBseV9zc2hfc2VjdXJpdHlfY29uZmlnX29uY2UoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgY29uZmlnOiAmVmFsdWUsCiAgICBydW50aW1lOiAmVmFsdWUsCikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIGlmIGNvbmZpZy5nZXQoImVuYWJsZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgIT0gU29tZSh0cnVlKQogICAgICAgIHx8IHJ1bnRpbWUuZ2V0KCJlbmFibGVkIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpICE9IFNvbWUodHJ1ZSkKICAgIHsKICAgICAgICBkaXNhYmxlX3NzaF9zZWN1cml0eShzdGF0ZSwgU29tZShydW50aW1lKSkuYXdhaXQ/OwogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CgogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKHN0YXRlKS5hd2FpdDsKICAgIGxldCBhdmFpbGFiaWxpdHkgPSBzc2hfc2VjdXJpdHlfYXZhaWxhYmlsaXR5KHN0YXRlLCAmdHJhbnNsYXRvcik7CiAgICBpZiAhYXZhaWxhYmlsaXR5LmF2YWlsYWJsZSB7CiAgICAgICAgdHJhY2luZzo6d2FybiEocmVhc29uID0gJWF2YWlsYWJpbGl0eS5yZWFzb24sICJza2lwcGVkIFNTSCBzZWN1cml0eSBzeW5jIik7CiAgICAgICAgZGlzYWJsZV9zc2hfc2VjdXJpdHkoc3RhdGUsIFNvbWUocnVudGltZSkpLmF3YWl0PzsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQoKICAgIHJlY29uY2lsZV9leHBpcmVkX2Jsb2NrcyhzdGF0ZSkuYXdhaXQ/OwogICAgbGV0IF8gPSBzeW5jX2ZpcmV3YWxsX3BvbGljeShzdGF0ZSwgU29tZShydW50aW1lKSwgTm9uZSwgVmVjOjpuZXcoKSwgJnRyYW5zbGF0b3IpLmF3YWl0PzsKICAgIHByb2Nlc3NfcmVjZW50X3NzaF9lbnRyaWVzKHN0YXRlLCBjb25maWcsIFNUQVJUVVBfQkFDS0ZJTExfTE9HX0xJTUlUKS5hd2FpdD87CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBkaXNhYmxlX3NzaF9zZWN1cml0eSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBydW50aW1lOiBPcHRpb248JlZhbHVlPiwKKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgaWYgaG9zdF9maXJld2FsbF9hdmFpbGFibGUoc3RhdGUpIHsKICAgICAgICBsZXQgcGF5bG9hZCA9IGpzb24hKHsKICAgICAgICAgICAgImNoYWluX25hbWUiOiBTU0hfRklSRVdBTExfQ0hBSU4sCiAgICAgICAgICAgICJwYXJlbnRfY2hhaW4iOiBbIklOUFVUIiwgIkRPQ0tFUi1VU0VSIl0KICAgICAgICB9KTsKICAgICAgICBpZiBsZXQgRXJyKGVycm9yKSA9IHN0YXRlLmdhdGV3YXkuY2xpZW50LmNsZWFyX3NzaF9maXJld2FsbCgmcGF5bG9hZCkuYXdhaXQgewogICAgICAgICAgICB0cmFjaW5nOjpkZWJ1ZyEoJWVycm9yLCAiZmFpbGVkIHRvIGNsZWFyIGRpc2FibGVkIFNTSCBmaXJld2FsbCBwb2xpY3kiKTsKICAgICAgICB9CiAgICB9CiAgICBmb3IgcmVjb3JkIGluIGFjdGl2ZV9ibG9ja3Moc3RhdGUpLmF3YWl0PyB7CiAgICAgICAgaWYgbGV0IFNvbWUoaXApID0gcmVjb3JkLmdldCgiaXAiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAmJiBsZXQgRXJyKGVycm9yKSA9IG1hcmtfYmxvY2tfcmVtb3ZlZChzdGF0ZSwgaXAsICJkaXNhYmxlZCIpLmF3YWl0CiAgICAgICAgewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsIGlwLCAiZmFpbGVkIHRvIG1hcmsgU1NIIGJsb2NrIGRpc2FibGVkIik7CiAgICAgICAgfQogICAgfQogICAgaWYgbGV0IFNvbWUocnVudGltZSkgPSBydW50aW1lIHsKICAgICAgICBsZXQgcG9saWN5ID0gcG9saWN5X2Zyb21fcnVudGltZShydW50aW1lKT87CiAgICAgICAgbGV0IG5leHQgPSBjb21wYWN0X3J1bnRpbWUoZmFsc2UsICZwb2xpY3ksIFNvbWUoVmFsdWU6OlN0cmluZyh0aW1lX3V0aWxzOjpub3dfaXNvKCkpKSk7CiAgICAgICAgaWYgcnVudGltZSAhPSAmbmV4dCB7CiAgICAgICAgICAgIHN0YXRlCiAgICAgICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgICAgICAuc2V0X2pzb25fdmFsdWUoUlVOVElNRV9LRVksICZuZXh0KQogICAgICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICB9CiAgICB9CiAgICBzdGF0ZS5zZWN1cml0eS5pcHNldHMucHVibGlzaChTU0hfQUxMT1dFRF9JUFNFVF9LRVksIE5vbmUpOwogICAgT2soKCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc3luY19maXJld2FsbF9ibG9ja3Nfbm93KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IGFueWhvdzo6UmVzdWx0PFZhbHVlPiB7CiAgICBsZXQgYXZhaWxhYmlsaXR5ID0gc3NoX3NlY3VyaXR5X2F2YWlsYWJpbGl0eShzdGF0ZSwgdHJhbnNsYXRvcik7CiAgICBpZiAhYXZhaWxhYmlsaXR5LmF2YWlsYWJsZSB7CiAgICAgICAgYW55aG93OjpiYWlsIShhdmFpbGFiaWxpdHkucmVhc29uKTsKICAgIH0KICAgIHJlY29uY2lsZV9leHBpcmVkX2Jsb2NrcyhzdGF0ZSkuYXdhaXQ/OwogICAgbGV0IGFjdGl2ZSA9IGFjdGl2ZV9ibG9ja3Moc3RhdGUpLmF3YWl0PzsKICAgIGxldCBwb2xpY3kgPQogICAgICAgIHN5bmNfZmlyZXdhbGxfcG9saWN5KHN0YXRlLCBOb25lLCBTb21lKGFjdGl2ZS5jbG9uZSgpKSwgVmVjOjpuZXcoKSwgdHJhbnNsYXRvcikuYXdhaXQ/OwogICAgbGV0IHBvcnRzID0gcG9saWN5LnBvcnRzOwogICAgbGV0IG11dCBzeW5jZWQgPSAwdXNpemU7CiAgICBmb3IgcmVjb3JkIGluIGFjdGl2ZSB7CiAgICAgICAgbGV0IG11dCBuZXh0ID0gcmVjb3JkLmFzX29iamVjdCgpLmNsb25lZCgpLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICAgICAgbmV4dC5pbnNlcnQoInBvcnRzIi50b19zdHJpbmcoKSwganNvbiEocG9ydHMpKTsKICAgICAgICBuZXh0Lmluc2VydCgiYXBwbGllZCIudG9fc3RyaW5nKCksIFZhbHVlOjpCb29sKHRydWUpKTsKICAgICAgICBuZXh0Lmluc2VydCgicmVtb3ZlZF9hdCIudG9fc3RyaW5nKCksIFZhbHVlOjpOdWxsKTsKICAgICAgICBuZXh0Lmluc2VydCgicmVtb3ZlX3JlYXNvbiIudG9fc3RyaW5nKCksIFZhbHVlOjpOdWxsKTsKICAgICAgICBzYXZlX2Jsb2NrKHN0YXRlLCAmVmFsdWU6Ok9iamVjdChuZXh0KSkuYXdhaXQ/OwogICAgICAgIHN5bmNlZCArPSAxOwogICAgfQogICAgT2soanNvbiEoewogICAgICAgICJjbGVhcmVkIjogc3luY2VkLAogICAgICAgICJzeW5jZWQiOiBzeW5jZWQsCiAgICAgICAgImFjdGl2ZV9ibG9ja3MiOiBwb2xpY3kuYmxvY2tlZF9pcHMsCiAgICAgICAgImFsbG93ZWRfY2lkcnMiOiBwb2xpY3kuYWxsb3dlZF9jaWRycywKICAgICAgICAicG9ydHMiOiBwb3J0cwogICAgfSkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gcmVjb25jaWxlX2V4cGlyZWRfYmxvY2tzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgZm9yIHJlY29yZCBpbiBleHBpcmVkX2FjdGl2ZV9ibG9ja3Moc3RhdGUpLmF3YWl0PyB7CiAgICAgICAgaWYgbGV0IFNvbWUoaXApID0gcmVjb3JkLmdldCgiaXAiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSB7CiAgICAgICAgICAgIGxldCBfID0gbWFya19ibG9ja19yZW1vdmVkKHN0YXRlLCBpcCwgImV4cGlyZWQiKS5hd2FpdD87CiAgICAgICAgfQogICAgfQogICAgT2soKCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gZXhwaXJlZF9hY3RpdmVfYmxvY2tzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxWZWM8VmFsdWU+PiB7CiAgICBsZXQga2V5cyA9IHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2Nhbl9rZXlzKEJMT0NLX0RBVEFfUFJFRklYLCAxMDApCiAgICAgICAgLmF3YWl0PzsKICAgIGxldCBtdXQgcmVjb3JkcyA9IFZlYzo6bmV3KCk7CiAgICBsZXQgbm93ID0gdGltZV91dGlsczo6bm93X21zKCk7CiAgICBmb3Iga2V5IGluIGtleXMgewogICAgICAgIGlmIGxldCBTb21lKHJlY29yZCkgPSBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLmdldF9qc29uX3ZhbHVlKCZrZXkpCiAgICAgICAgICAgIC5hd2FpdD8KICAgICAgICAgICAgLmFuZF90aGVuKG5vcm1hbGl6ZV9ibG9ja19yZWNvcmQpCiAgICAgICAgICAgICYmIHJlY29yZAogICAgICAgICAgICAgICAgLmdldCgiYXBwbGllZCIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgICAgICAgICAudW53cmFwX29yKGZhbHNlKQogICAgICAgICAgICAmJiBpc29fc2NvcmUocmVjb3JkLmdldCgiZXhwaXJlc19hdCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpKSA8PSBub3cKICAgICAgICB7CiAgICAgICAgICAgIHJlY29yZHMucHVzaChyZWNvcmQpOwogICAgICAgIH0KICAgIH0KICAgIE9rKHJlY29yZHMpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc3luY19maXJld2FsbF9wb2xpY3koCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgcnVudGltZTogT3B0aW9uPCZWYWx1ZT4sCiAgICBhY3RpdmVfcmVjb3JkczogT3B0aW9uPFZlYzxWYWx1ZT4+LAogICAgZXh0cmFfYmxvY2tlZF9pcHM6IFZlYzxTdHJpbmc+LAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gYW55aG93OjpSZXN1bHQ8RmlyZXdhbGxQb2xpY3lSZXN1bHQ+IHsKICAgIGxldCBsb2FkZWRfcnVudGltZTsKICAgIGxldCBydW50aW1lID0gbWF0Y2ggcnVudGltZSB7CiAgICAgICAgU29tZShydW50aW1lKSA9PiBydW50aW1lLAogICAgICAgIE5vbmUgPT4gewogICAgICAgICAgICBsb2FkZWRfcnVudGltZSA9IGxvYWRfcnVudGltZShzdGF0ZSkuYXdhaXQ/OwogICAgICAgICAgICAmbG9hZGVkX3J1bnRpbWUKICAgICAgICB9CiAgICB9OwogICAgbGV0IGFjdGl2ZSA9IG1hdGNoIGFjdGl2ZV9yZWNvcmRzIHsKICAgICAgICBTb21lKHJlY29yZHMpID0+IHJlY29yZHMsCiAgICAgICAgTm9uZSA9PiBhY3RpdmVfYmxvY2tzKHN0YXRlKS5hd2FpdD8sCiAgICB9OwogICAgbGV0IG11dCBibG9ja2VkX2lwcyA9IGFjdGl2ZQogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyX21hcCh8cmVjb3JkfCByZWNvcmQuZ2V0KCJpcCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpKQogICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBibG9ja2VkX2lwcy5leHRlbmQoZXh0cmFfYmxvY2tlZF9pcHMpOwogICAgYmxvY2tlZF9pcHMgPSBub3JtYWxpemVfaXBfc3RyaW5ncyhibG9ja2VkX2lwcyk7CgogICAgbGV0IGFsbG93ZWRfcG9saWN5ID0gaWYgcnVudGltZS5nZXQoImVuYWJsZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgPT0gU29tZSh0cnVlKSB7CiAgICAgICAgU29tZSgKICAgICAgICAgICAgc3RhdGUKICAgICAgICAgICAgICAgIC5zZWN1cml0eQogICAgICAgICAgICAgICAgLmlwc2V0cwogICAgICAgICAgICAgICAgLmdldChTU0hfQUxMT1dFRF9JUFNFVF9LRVkpCiAgICAgICAgICAgICAgICAubWFwKHxwb2xpY3l8ICgqcG9saWN5KS5jbG9uZSgpKQogICAgICAgICAgICAgICAgLm1hcChPaykKICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCBwb2xpY3lfZnJvbV9ydW50aW1lKHJ1bnRpbWUpKT8sCiAgICAgICAgKQogICAgfSBlbHNlIHsKICAgICAgICBOb25lCiAgICB9OwogICAgbGV0IHBvcnRzID0gcmVzb2x2ZV9zc2hfcG9ydHMoKTsKICAgIGlmIGFsbG93ZWRfcG9saWN5CiAgICAgICAgLmFzX3JlZigpCiAgICAgICAgLmlzX25vbmVfb3IofHBvbGljeXwgcG9saWN5LnJhbmdlX2NvdW50KCkgPT0gMCkKICAgICAgICAmJiBibG9ja2VkX2lwcy5pc19lbXB0eSgpCiAgICB7CiAgICAgICAgbGV0IHBheWxvYWQgPSBqc29uISh7CiAgICAgICAgICAgICJjaGFpbl9uYW1lIjogU1NIX0ZJUkVXQUxMX0NIQUlOLAogICAgICAgICAgICAicGFyZW50X2NoYWluIjogWyJJTlBVVCIsICJET0NLRVItVVNFUiJdCiAgICAgICAgfSk7CiAgICAgICAgbGV0IHZhbHVlID0gc3RhdGUuZ2F0ZXdheS5jbGllbnQuY2xlYXJfc3NoX2ZpcmV3YWxsKCZwYXlsb2FkKS5hd2FpdD87CiAgICAgICAgZW5zdXJlX2dvX3N1Y2Nlc3ModmFsdWUsIHRyYW5zbGF0b3IsICJjbGVhclNzaFBvbGljeUZhaWxlZCIpPzsKICAgICAgICByZXR1cm4gT2soRmlyZXdhbGxQb2xpY3lSZXN1bHQgewogICAgICAgICAgICBhbGxvd2VkX2NpZHJzOiAwLAogICAgICAgICAgICBibG9ja2VkX2lwczogMCwKICAgICAgICAgICAgcG9ydHMsCiAgICAgICAgfSk7CiAgICB9CgogICAgbGV0IGFsbG93ZWRfY291bnQgPSBhbGxvd2VkX3BvbGljeQogICAgICAgIC5hc19yZWYoKQogICAgICAgIC5tYXAoQ29tcGlsZWRJcFNldDo6cmFuZ2VfY291bnQpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgYmxvY2tlZF9jb3VudCA9IGJsb2NrZWRfaXBzLmxlbigpOwogICAgbGV0IHBheWxvYWQgPSBqc29uISh7CiAgICAgICAgImNoYWluX25hbWUiOiBTU0hfRklSRVdBTExfQ0hBSU4sCiAgICAgICAgInBhcmVudF9jaGFpbiI6IFsiSU5QVVQiLCAiRE9DS0VSLVVTRVIiXSwKICAgICAgICAicG9ydHMiOiBwb3J0cy5jbG9uZSgpLAogICAgICAgICJhbGxvd2VkX2NpZHJzIjogVmVjOjo8U3RyaW5nPjo6bmV3KCksCiAgICAgICAgInBvbGljeV9pZCI6IGFsbG93ZWRfcG9saWN5LmFzX3JlZigpLm1hcCh8cG9saWN5fCBwb2xpY3kuaWQuY2xvbmUoKSksCiAgICAgICAgInBvbGljeSI6IGFsbG93ZWRfcG9saWN5LmFzX3JlZigpLm1hcChDb21waWxlZElwU2V0Ojp0b190cmFuc3BvcnRfdmFsdWUpLAogICAgICAgICJibG9ja2VkX2lwcyI6IGJsb2NrZWRfaXBzLAogICAgICAgICJpbmNsdWRlX2xvY2FsX2NpZHJzIjogdHJ1ZQogICAgfSk7CiAgICBsZXQgdmFsdWUgPSBzdGF0ZS5nYXRld2F5LmNsaWVudC5zeW5jX3NzaF9maXJld2FsbCgmcGF5bG9hZCkuYXdhaXQ/OwogICAgZW5zdXJlX2dvX3N1Y2Nlc3ModmFsdWUsIHRyYW5zbGF0b3IsICJzeW5jU3NoUG9saWN5RmFpbGVkIik/OwogICAgT2soRmlyZXdhbGxQb2xpY3lSZXN1bHQgewogICAgICAgIGFsbG93ZWRfY2lkcnM6IGFsbG93ZWRfY291bnQsCiAgICAgICAgYmxvY2tlZF9pcHM6IGJsb2NrZWRfY291bnQsCiAgICAgICAgcG9ydHMsCiAgICB9KQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHByb2Nlc3NfcmVjZW50X3NzaF9lbnRyaWVzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGNvbmZpZzogJlZhbHVlLAogICAgbGltaXQ6IHVzaXplLAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgd2luZG93X21zID0gY29uZmlnCiAgICAgICAgLmdldCgid2luZG93X21pbnV0ZXMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KQogICAgICAgIC51bndyYXBfb3IoMTApCiAgICAgICAgLm1heCgxKQogICAgICAgICogNjAKICAgICAgICAqIDEwMDA7CiAgICBsZXQgY3V0b2ZmID0gdGltZV91dGlsczo6bm93X21zKCkgLSB3aW5kb3dfbXM7CiAgICBsZXQgbXV0IGVudHJpZXMgPSBxdWVyeV9yZWNlbnRfc3NoX2xvZ3MobGltaXQpCiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLmZpbHRlcih8ZW50cnl8IGlzb19zY29yZShlbnRyeS5nZXQoImhhcHBlbmVkX2F0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpID49IGN1dG9mZikKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGVudHJpZXMuc29ydF9ieSh8bGVmdCwgcmlnaHR8IHsKICAgICAgICBpc29fc2NvcmUobGVmdC5nZXQoImhhcHBlbmVkX2F0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpCiAgICAgICAgICAgIC5jbXAoJmlzb19zY29yZShyaWdodC5nZXQoImhhcHBlbmVkX2F0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpKQogICAgfSk7CiAgICBmb3IgZW50cnkgaW4gZW50cmllcyB7CiAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPSBoYW5kbGVfc3NoX2VudHJ5KHN0YXRlLCBjb25maWcsICZlbnRyeSkuYXdhaXQgewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsIGVudHJ5ID0gJWVudHJ5LCAiZmFpbGVkIHRvIGhhbmRsZSBTU0ggbG9nIGVudHJ5Iik7CiAgICAgICAgfQogICAgfQogICAgT2soKCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gaGFuZGxlX3NzaF9lbnRyeSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBjb25maWc6ICZWYWx1ZSwKICAgIGVudHJ5OiAmVmFsdWUsCikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIGxldCBpZCA9IGVudHJ5LmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpOwogICAgaWYgaWQuaXNfZW1wdHkoKSB8fCBpc19wcm9jZXNzZWQoc3RhdGUsIGlkKS5hd2FpdD8gewogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CiAgICBpZiBjb25maWcuZ2V0KCJlbmFibGVkIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpICE9IFNvbWUodHJ1ZSkgewogICAgICAgIG1hcmtfcHJvY2Vzc2VkKHN0YXRlLCBpZCkuYXdhaXQ/OwogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CiAgICBsZXQgaXAgPSBub3JtYWxpemVfaXAoZW50cnkuZ2V0KCJpcCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIikpOwogICAgaWYgaXAuaXNfZW1wdHkoKSB8fCBpc19wcml2YXRlX29yX2xvY2FsX2lwKCZpcCkgewogICAgICAgIG1hcmtfcHJvY2Vzc2VkKHN0YXRlLCBpZCkuYXdhaXQ/OwogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CiAgICBsZXQgaXBfbG9jYXRpb24gPSBpcF9sb2NhdGlvbjo6cmVnaXN0ZXJfdXNhZ2Uoc3RhdGUsICZpcCwgdmVjIVtmb3JtYXQhKCJzc2gtbG9naW4tbG9nfHtpZH0iKV0pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgbXV0IGVudHJ5ID0gZW50cnkuY2xvbmUoKTsKICAgIGlmICFpcF9sb2NhdGlvbi50cmltKCkuaXNfZW1wdHkoKQogICAgICAgICYmIGxldCBTb21lKG9iamVjdCkgPSBlbnRyeS5hc19vYmplY3RfbXV0KCkKICAgIHsKICAgICAgICBvYmplY3QuaW5zZXJ0KCJpcExvY2F0aW9uIi50b19zdHJpbmcoKSwgVmFsdWU6OlN0cmluZyhpcF9sb2NhdGlvbikpOwogICAgfQoKICAgIG1hdGNoIGVudHJ5LmdldCgib3V0Y29tZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpIHsKICAgICAgICBTb21lKCJmYWlsdXJlIikgPT4gaGFuZGxlX3NzaF9mYWlsdXJlKHN0YXRlLCBjb25maWcsICZlbnRyeSwgaWQsICZpcCkuYXdhaXQ/LAogICAgICAgIFNvbWUoInN1Y2Nlc3MiKSA9PiBoYW5kbGVfc3NoX3N1Y2Nlc3Moc3RhdGUsIGNvbmZpZywgJmVudHJ5LCBpZCwgJmlwKS5hd2FpdD8sCiAgICAgICAgXyA9PiB7fQogICAgfQogICAgbWFya19wcm9jZXNzZWQoc3RhdGUsIGlkKS5hd2FpdD87CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBoYW5kbGVfc3NoX2ZhaWx1cmUoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgY29uZmlnOiAmVmFsdWUsCiAgICBlbnRyeTogJlZhbHVlLAogICAgaWQ6ICZzdHIsCiAgICBpcDogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgbGV0IHdpbmRvd19taW51dGVzID0gY29uZmlnCiAgICAgICAgLmdldCgid2luZG93X21pbnV0ZXMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KQogICAgICAgIC51bndyYXBfb3IoMTApCiAgICAgICAgLm1heCgxKTsKICAgIGxldCB0aHJlc2hvbGQgPSBjb25maWcKICAgICAgICAuZ2V0KCJmYWlsZWRfbG9naW5fdGhyZXNob2xkIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkKICAgICAgICAudW53cmFwX29yKDUpCiAgICAgICAgLm1heCgxKTsKICAgIGxldCBhdHRlbXB0cyA9IGFkZF9mYWlsdXJlKHN0YXRlLCBpcCwgaWQsIGVudHJ5LCB3aW5kb3dfbWludXRlcykuYXdhaXQ/OwogICAgbGV0IG11dCBldmVudF9wYXlsb2FkID0ganNvbiEoewogICAgICAgICJpcCI6IGlwLAogICAgICAgICJ1c2VybmFtZSI6IGVudHJ5LmdldCgidXNlcm5hbWUiKS5jbG9uZWQoKS51bndyYXBfb3JfZWxzZSh8fCBqc29uISgiLSIpKSwKICAgICAgICAiaW52YWxpZF91c2VyIjogZW50cnkuZ2V0KCJpbnZhbGlkX3VzZXIiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkudW53cmFwX29yKGZhbHNlKSwKICAgICAgICAiYXV0aF9tZXRob2QiOiBlbnRyeS5nZXQoImF1dGhfbWV0aG9kIikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgICAgICAicG9ydCI6IGVudHJ5LmdldCgicG9ydCIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCksCiAgICAgICAgImF0dGVtcHRzIjogYXR0ZW1wdHMsCiAgICAgICAgIndpbmRvd19taW51dGVzIjogd2luZG93X21pbnV0ZXMsCiAgICAgICAgInRocmVzaG9sZCI6IHRocmVzaG9sZCwKICAgICAgICAibG9nX3RpbWUiOiBlbnRyeS5nZXQoImhhcHBlbmVkX2F0IikuY2xvbmVkKCkudW53cmFwX29yX2Vsc2UofHwganNvbiEodGltZV91dGlsczo6bm93X2lzbygpKSkKICAgIH0pOwogICAgaWYgbGV0IFNvbWUobG9jYXRpb24pID0gZW50cnkKICAgICAgICAuZ2V0KCJpcExvY2F0aW9uIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgJiYgbGV0IFNvbWUob2JqZWN0KSA9IGV2ZW50X3BheWxvYWQuYXNfb2JqZWN0X211dCgpCiAgICB7CiAgICAgICAgb2JqZWN0Lmluc2VydCgKICAgICAgICAgICAgImlwX2xvY2F0aW9uIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgVmFsdWU6OlN0cmluZyhsb2NhdGlvbi50b19zdHJpbmcoKSksCiAgICAgICAgKTsKICAgIH0KICAgIGlmIGxldCBFcnIoZXJyb3IpID0gc3lzdGVtX2V2ZW50czo6cHVibGlzaF9zc2hfbG9naW5fZmFpbHVyZV9ldmVudChzdGF0ZSwgZXZlbnRfcGF5bG9hZCkuYXdhaXQgewogICAgICAgIHRyYWNpbmc6OmRlYnVnISglZXJyb3IsICJmYWlsZWQgdG8gcHVibGlzaCBTU0ggbG9naW4gZmFpbHVyZSBldmVudCIpOwogICAgfQogICAgaWYgYXR0ZW1wdHMgPCB0aHJlc2hvbGQgfHwgaXNfYWN0aXZlX2Jsb2NrZWQoc3RhdGUsIGlwKS5hd2FpdD8gewogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CiAgICBjcmVhdGVfc3NoX2Jsb2NrKHN0YXRlLCBjb25maWcsIGVudHJ5LCAiZmFpbGVkX2xvZ2luX3RocmVzaG9sZCIsIGF0dGVtcHRzKS5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGhhbmRsZV9zc2hfc3VjY2VzcygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBjb25maWc6ICZWYWx1ZSwKICAgIGVudHJ5OiAmVmFsdWUsCiAgICBpZDogJnN0ciwKICAgIGlwOiAmc3RyLAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBjbGVhcl9mYWlsdXJlcyhzdGF0ZSwgaXApLmF3YWl0PzsKICAgIGxldCBtdXQgZXZlbnRfcGF5bG9hZCA9IGpzb24hKHsKICAgICAgICAiaXAiOiBpcCwKICAgICAgICAidXNlcm5hbWUiOiBlbnRyeS5nZXQoInVzZXJuYW1lIikuY2xvbmVkKCkudW53cmFwX29yX2Vsc2UofHwganNvbiEoIi0iKSksCiAgICAgICAgImF1dGhfbWV0aG9kIjogZW50cnkuZ2V0KCJhdXRoX21ldGhvZCIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCksCiAgICAgICAgInBvcnQiOiBlbnRyeS5nZXQoInBvcnQiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgICJsb2dfdGltZSI6IGVudHJ5LmdldCgiaGFwcGVuZWRfYXQiKS5jbG9uZWQoKS51bndyYXBfb3JfZWxzZSh8fCBqc29uISh0aW1lX3V0aWxzOjpub3dfaXNvKCkpKQogICAgfSk7CiAgICBpZiBsZXQgU29tZShsb2NhdGlvbikgPSBlbnRyeQogICAgICAgIC5nZXQoImlwTG9jYXRpb24iKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICAmJiBsZXQgU29tZShvYmplY3QpID0gZXZlbnRfcGF5bG9hZC5hc19vYmplY3RfbXV0KCkKICAgIHsKICAgICAgICBvYmplY3QuaW5zZXJ0KAogICAgICAgICAgICAiaXBfbG9jYXRpb24iLnRvX3N0cmluZygpLAogICAgICAgICAgICBWYWx1ZTo6U3RyaW5nKGxvY2F0aW9uLnRvX3N0cmluZygpKSwKICAgICAgICApOwogICAgfQogICAgaWYgbGV0IEVycihlcnJvcikgPSBzeXN0ZW1fZXZlbnRzOjpwdWJsaXNoX3NzaF9sb2dpbl9zdWNjZXNzX2V2ZW50KHN0YXRlLCBldmVudF9wYXlsb2FkKS5hd2FpdCB7CiAgICAgICAgdHJhY2luZzo6ZGVidWchKCVlcnJvciwgImZhaWxlZCB0byBwdWJsaXNoIFNTSCBsb2dpbiBzdWNjZXNzIGV2ZW50Iik7CiAgICB9CiAgICBsZXQgcnVudGltZSA9IGxvYWRfcnVudGltZShzdGF0ZSkuYXdhaXQ/OwogICAgaWYgaXBfYWxsb3dlZF9ieV9ydW50aW1lKHN0YXRlLCAmcnVudGltZSwgaXApIHx8IGlzX2FjdGl2ZV9ibG9ja2VkKHN0YXRlLCBpcCkuYXdhaXQ/IHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQogICAgY3JlYXRlX3NzaF9ibG9jayhzdGF0ZSwgY29uZmlnLCBlbnRyeSwgImNpZHJfbm90X2FsbG93ZWQiLCAwKS5hd2FpdD87CiAgICBtYXJrX3Byb2Nlc3NlZChzdGF0ZSwgaWQpLmF3YWl0PzsKICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGNyZWF0ZV9zc2hfYmxvY2soCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgY29uZmlnOiAmVmFsdWUsCiAgICBlbnRyeTogJlZhbHVlLAogICAgcmVhc29uOiAmc3RyLAogICAgZmFpbGVkX2NvdW50OiBpNjQsCikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIGxldCBpcCA9IG5vcm1hbGl6ZV9pcChlbnRyeS5nZXQoImlwIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKSk7CiAgICBpZiBpcC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQogICAgbGV0IGJsb2NrX3NlY29uZHMgPSBzc2hfYmxvY2tfZHVyYXRpb25fc2Vjb25kcyhjb25maWcpOwogICAgbGV0IGJsb2NrZWRfYXQgPSB0aW1lX3V0aWxzOjpub3dfaXNvKCk7CiAgICBsZXQgZXhwaXJlc19hdCA9IG1pbGxpc190b19pc28odGltZV91dGlsczo6bm93X21zKCkgKyBibG9ja19zZWNvbmRzICogMTAwMCk7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoc3RhdGUpLmF3YWl0OwogICAgbGV0IGlwX2xvY2F0aW9uID0gaWYgbGV0IFNvbWUobG9jYXRpb24pID0gZW50cnkKICAgICAgICAuZ2V0KCJpcExvY2F0aW9uIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICB7CiAgICAgICAgbG9jYXRpb24udG9fc3RyaW5nKCkKICAgIH0gZWxzZSB7CiAgICAgICAgaXBfbG9jYXRpb246OnJlZ2lzdGVyX3VzYWdlKHN0YXRlLCAmaXAsIHZlYyFbZm9ybWF0ISgic3NoLWJsb2NrbGlzdHx7aXB9IildKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgIH07CiAgICBsZXQgcG9saWN5ID0gc3luY19maXJld2FsbF9wb2xpY3koc3RhdGUsIE5vbmUsIE5vbmUsIHZlYyFbaXAuY2xvbmUoKV0sICZ0cmFuc2xhdG9yKS5hd2FpdD87CiAgICBsZXQgbXV0IHJlY29yZCA9IGpzb24hKHsKICAgICAgICAiaXAiOiBpcCwKICAgICAgICAicG9ydHMiOiBwb2xpY3kucG9ydHMsCiAgICAgICAgImJsb2NrZWRfYXQiOiBibG9ja2VkX2F0LAogICAgICAgICJleHBpcmVzX2F0IjogZXhwaXJlc19hdCwKICAgICAgICAicmVhc29uIjogcmVhc29uLAogICAgICAgICJmYWlsZWRfY291bnQiOiBmYWlsZWRfY291bnQsCiAgICAgICAgIndpbmRvd19taW51dGVzIjogY29uZmlnLmdldCgid2luZG93X21pbnV0ZXMiKS5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KS51bndyYXBfb3IoMTApLAogICAgICAgICJ0aHJlc2hvbGQiOiBjb25maWcuZ2V0KCJmYWlsZWRfbG9naW5fdGhyZXNob2xkIikuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkudW53cmFwX29yKDUpLAogICAgICAgICJzYW1wbGVfdXNlciI6IGVudHJ5LmdldCgidXNlcm5hbWUiKS5jbG9uZWQoKS51bndyYXBfb3JfZWxzZSh8fCBqc29uISgiLSIpKSwKICAgICAgICAic2FtcGxlX2F1dGhfbWV0aG9kIjogZW50cnkuZ2V0KCJhdXRoX21ldGhvZCIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCksCiAgICAgICAgInNhbXBsZV9sb2dfdGltZSI6IGVudHJ5LmdldCgiaGFwcGVuZWRfYXQiKS5jbG9uZWQoKS51bndyYXBfb3JfZWxzZSh8fCBqc29uISh0aW1lX3V0aWxzOjpub3dfaXNvKCkpKSwKICAgICAgICAiYXBwbGllZCI6IHRydWUsCiAgICAgICAgInJlbW92ZWRfYXQiOiBWYWx1ZTo6TnVsbCwKICAgICAgICAicmVtb3ZlX3JlYXNvbiI6IFZhbHVlOjpOdWxsLAogICAgfSk7CiAgICBpZiAhaXBfbG9jYXRpb24udHJpbSgpLmlzX2VtcHR5KCkKICAgICAgICAmJiBsZXQgU29tZShvYmplY3QpID0gcmVjb3JkLmFzX29iamVjdF9tdXQoKQogICAgewogICAgICAgIG9iamVjdC5pbnNlcnQoImlwTG9jYXRpb24iLnRvX3N0cmluZygpLCBWYWx1ZTo6U3RyaW5nKGlwX2xvY2F0aW9uLmNsb25lKCkpKTsKICAgIH0KICAgIHNhdmVfYmxvY2soc3RhdGUsICZyZWNvcmQpLmF3YWl0PzsKICAgIGxldCBtdXQgcGF5bG9hZCA9IGpzb24hKHsKICAgICAgICAiaXAiOiByZWNvcmQuZ2V0KCJpcCIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCksCiAgICAgICAgImJsb2NrZWRfYXQiOiByZWNvcmQuZ2V0KCJibG9ja2VkX2F0IikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgICAgICAiYmxvY2tlZF91bnRpbCI6IHJlY29yZC5nZXQoImV4cGlyZXNfYXQiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgICJibG9ja19zZWNvbmRzIjogYmxvY2tfc2Vjb25kcywKICAgICAgICAicmVhc29uIjogcmVhc29uLAogICAgICAgICJmYWlsZWRfY291bnQiOiBmYWlsZWRfY291bnQsCiAgICAgICAgIndpbmRvd19taW51dGVzIjogcmVjb3JkLmdldCgid2luZG93X21pbnV0ZXMiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgICJ0aHJlc2hvbGQiOiByZWNvcmQuZ2V0KCJ0aHJlc2hvbGQiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgICJ1c2VybmFtZSI6IHJlY29yZC5nZXQoInNhbXBsZV91c2VyIikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgIH0pOwogICAgaWYgIWlwX2xvY2F0aW9uLnRyaW0oKS5pc19lbXB0eSgpCiAgICAgICAgJiYgbGV0IFNvbWUob2JqZWN0KSA9IHBheWxvYWQuYXNfb2JqZWN0X211dCgpCiAgICB7CiAgICAgICAgb2JqZWN0Lmluc2VydCgiaXBfbG9jYXRpb24iLnRvX3N0cmluZygpLCBWYWx1ZTo6U3RyaW5nKGlwX2xvY2F0aW9uKSk7CiAgICB9CiAgICBpZiBsZXQgRXJyKGVycm9yKSA9IHN5c3RlbV9ldmVudHM6OnB1Ymxpc2hfc3NoX2lwX2Jsb2NrZWRfZXZlbnQoc3RhdGUsIHBheWxvYWQpLmF3YWl0IHsKICAgICAgICB0cmFjaW5nOjpkZWJ1ZyEoJWVycm9yLCAiZmFpbGVkIHRvIHB1Ymxpc2ggU1NIIGJsb2NrIGV2ZW50Iik7CiAgICB9CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBpc19wcm9jZXNzZWQoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaWQ6ICZzdHIsCikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgT2soc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfc3RyaW5nX3ZhbHVlKCZmb3JtYXQhKCJ7UFJPQ0VTU0VEX1BSRUZJWH17aWR9IikpCiAgICAgICAgLmF3YWl0PwogICAgICAgIC5pc19zb21lKCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gbWFya19wcm9jZXNzZWQoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaWQ6ICZzdHIsCikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2V0X3N0cmluZ192YWx1ZV93aXRoX29wdGlvbmFsX3R0bCgKICAgICAgICAgICAgJmZvcm1hdCEoIntQUk9DRVNTRURfUFJFRklYfXtpZH0iKSwKICAgICAgICAgICAgIjEiLAogICAgICAgICAgICBTb21lKFBST0NFU1NFRF9UVExfU0VDT05EUyksCiAgICAgICAgKQogICAgICAgIC5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGFkZF9mYWlsdXJlKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGlwOiAmc3RyLAogICAgaWQ6ICZzdHIsCiAgICBlbnRyeTogJlZhbHVlLAogICAgd2luZG93X21pbnV0ZXM6IGk2NCwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxpNjQ+IHsKICAgIGxldCBzY29yZSA9IGlzb19zY29yZShlbnRyeS5nZXQoImhhcHBlbmVkX2F0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpOwogICAgbGV0IHNjb3JlID0gaWYgc2NvcmUgPiAwIHsKICAgICAgICBzY29yZQogICAgfSBlbHNlIHsKICAgICAgICB0aW1lX3V0aWxzOjpub3dfbXMoKQogICAgfTsKICAgIGxldCB3aW5kb3dfbXMgPSB3aW5kb3dfbWludXRlcy5tYXgoMSkgKiA2MCAqIDEwMDA7CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnphZGRfdHJpbV9jb3VudF9leHBpcmUoCiAgICAgICAgICAgICZmb3JtYXQhKCJ7RkFJTFVSRVNfUFJFRklYfXtpcH0iKSwKICAgICAgICAgICAgaWQsCiAgICAgICAgICAgIHNjb3JlLAogICAgICAgICAgICBzY29yZSAtIHdpbmRvd19tcywKICAgICAgICAgICAgKCh3aW5kb3dfbXMgLyAxMDAwKSArIDM2MDApIGFzIHVzaXplLAogICAgICAgICkKICAgICAgICAuYXdhaXQKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBjbGVhcl9mYWlsdXJlcygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBpcDogJnN0ciwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5kZWxldGVfa2V5KCZmb3JtYXQhKCJ7RkFJTFVSRVNfUFJFRklYfXtpcH0iKSkKICAgICAgICAuYXdhaXQKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBpc19hY3RpdmVfYmxvY2tlZCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBpcDogJnN0ciwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxib29sPiB7CiAgICBPayhsb2FkX2Jsb2NrKHN0YXRlLCBpcCkKICAgICAgICAuYXdhaXQ/CiAgICAgICAgLmlzX3NvbWVfYW5kKHxyZWNvcmR8IGlzX2FjdGl2ZV9ibG9jaygmcmVjb3JkLCB0aW1lX3V0aWxzOjpub3dfbXMoKSkpKQp9CgpwdWIoc3VwZXIpIGZuIGlwX2FsbG93ZWRfYnlfcnVudGltZShzdGF0ZTogJkFwcFN0YXRlLCBydW50aW1lOiAmVmFsdWUsIGlwOiAmc3RyKSAtPiBib29sIHsKICAgIGlmIHJ1bnRpbWUKICAgICAgICAuZ2V0KCJyYW5nZV9jb3VudCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc191NjQpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICA9PSAwCiAgICB7CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CiAgICBsZXQgT2soaXApID0gaXAucGFyc2U6OjxJcEFkZHI+KCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9OwogICAgc3RhdGUKICAgICAgICAuc2VjdXJpdHkKICAgICAgICAuaXBzZXRzCiAgICAgICAgLmdldChTU0hfQUxMT1dFRF9JUFNFVF9LRVkpCiAgICAgICAgLmlzX3NvbWVfYW5kKHxwb2xpY3l8IHBvbGljeS5jb250YWlucyhpcCkpCn0KCnB1YihzdXBlcikgZm4gc3NoX2Jsb2NrX2R1cmF0aW9uX3NlY29uZHMoY29uZmlnOiAmVmFsdWUpIC0+IGk2NCB7CiAgICBsZXQgdmFsdWUgPSBjb25maWcKICAgICAgICAuZ2V0KCJibG9ja19kdXJhdGlvbl92YWx1ZSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19pNjQpCiAgICAgICAgLnVud3JhcF9vcigxKQogICAgICAgIC5jbGFtcCgxLCAzNjUpOwogICAgbWF0Y2ggY29uZmlnCiAgICAgICAgLmdldCgiYmxvY2tfZHVyYXRpb25fdW5pdCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcigiZGF5IikKICAgIHsKICAgICAgICAibWludXRlIiA9PiB2YWx1ZSAqIDYwLAogICAgICAgICJob3VyIiA9PiB2YWx1ZSAqIDM2MDAsCiAgICAgICAgIm1vbnRoIiA9PiB2YWx1ZSAqIDMwICogMjQgKiAzNjAwLAogICAgICAgIF8gPT4gdmFsdWUgKiAyNCAqIDM2MDAsCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX2lwX3N0cmluZ3ModmFsdWVzOiBpbXBsIEludG9JdGVyYXRvcjxJdGVtID0gU3RyaW5nPikgLT4gVmVjPFN0cmluZz4gewogICAgbGV0IG11dCBzZWVuID0gSGFzaFNldDo6bmV3KCk7CiAgICB2YWx1ZXMKICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAuZmlsdGVyX21hcCh8dmFsdWV8IHsKICAgICAgICAgICAgbGV0IGlwID0gbm9ybWFsaXplX2lwKCZ2YWx1ZSk7CiAgICAgICAgICAgICghaXAuaXNfZW1wdHkoKSAmJiBzZWVuLmluc2VydChpcC5jbG9uZSgpKSkudGhlbl9zb21lKGlwKQogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3QoKQp9Cg==
+use super::*;
+
+pub(super) async fn ssh_security_maintenance_tick(state: &AppState) -> anyhow::Result<()> {
+    let config = load_config(state).await?;
+    let runtime = load_runtime(state).await?;
+    apply_ssh_security_config_once(state, &config, &runtime).await
+}
+
+pub(super) async fn apply_ssh_security_config_once(
+    state: &AppState,
+    config: &Value,
+    runtime: &Value,
+) -> anyhow::Result<()> {
+    if config.get("enabled").and_then(Value::as_bool) != Some(true)
+        || runtime.get("enabled").and_then(Value::as_bool) != Some(true)
+    {
+        disable_ssh_security(state, Some(runtime)).await?;
+        return Ok(());
+    }
+
+    let translator = Translator::from_state(state).await;
+    let availability = ssh_security_availability(state, &translator);
+    if !availability.available {
+        tracing::warn!(reason = %availability.reason, "skipped SSH security sync");
+        disable_ssh_security(state, Some(runtime)).await?;
+        return Ok(());
+    }
+
+    reconcile_expired_blocks(state).await?;
+    let _ = sync_firewall_policy(state, Some(runtime), None, Vec::new(), &translator).await?;
+    process_recent_ssh_entries(state, config, STARTUP_BACKFILL_LOG_LIMIT).await?;
+    Ok(())
+}
+
+pub(super) async fn disable_ssh_security(
+    state: &AppState,
+    runtime: Option<&Value>,
+) -> anyhow::Result<()> {
+    if host_firewall_available(state) {
+        let payload = json!({
+            "chain_name": SSH_FIREWALL_CHAIN,
+            "parent_chain": ["INPUT", "DOCKER-USER"]
+        });
+        if let Err(error) = state.gateway.client.clear_ssh_firewall(&payload).await {
+            tracing::debug!(%error, "failed to clear disabled SSH firewall policy");
+        }
+    }
+    for record in active_blocks(state).await? {
+        if let Some(ip) = record.get("ip").and_then(Value::as_str)
+            && let Err(error) = mark_block_removed(state, ip, "disabled").await
+        {
+            tracing::warn!(%error, ip, "failed to mark SSH block disabled");
+        }
+    }
+    if let Some(runtime) = runtime {
+        let policy = policy_from_runtime(runtime)?;
+        let next = compact_runtime(false, &policy, Some(Value::String(time_utils::now_iso())));
+        if runtime != &next {
+            state
+                .storage
+                .store
+                .set_json_value(RUNTIME_KEY, &next)
+                .await?;
+        }
+    }
+    state.security.ipsets.publish(SSH_ALLOWED_IPSET_KEY, None);
+    Ok(())
+}
+
+pub(super) async fn sync_firewall_blocks_now(
+    state: &AppState,
+    translator: &Translator,
+) -> anyhow::Result<Value> {
+    let availability = ssh_security_availability(state, translator);
+    if !availability.available {
+        anyhow::bail!(availability.reason);
+    }
+    reconcile_expired_blocks(state).await?;
+    let active = active_blocks(state).await?;
+    let policy =
+        sync_firewall_policy(state, None, Some(active.clone()), Vec::new(), translator).await?;
+    let ports = policy.ports;
+    let mut synced = 0usize;
+    for record in active {
+        let mut next = record.as_object().cloned().unwrap_or_default();
+        next.insert("ports".to_string(), json!(ports));
+        next.insert("applied".to_string(), Value::Bool(true));
+        next.insert("removed_at".to_string(), Value::Null);
+        next.insert("remove_reason".to_string(), Value::Null);
+        save_block(state, &Value::Object(next)).await?;
+        synced += 1;
+    }
+    Ok(json!({
+        "cleared": synced,
+        "synced": synced,
+        "active_blocks": policy.blocked_ips,
+        "allowed_cidrs": policy.allowed_cidrs,
+        "ports": ports
+    }))
+}
+
+pub(super) async fn reconcile_expired_blocks(
+    state: &AppState,
+) -> crate::storage::StorageResult<()> {
+    for record in expired_active_blocks(state).await? {
+        if let Some(ip) = record.get("ip").and_then(Value::as_str) {
+            let _ = mark_block_removed(state, ip, "expired").await?;
+        }
+    }
+    Ok(())
+}
+
+pub(super) async fn expired_active_blocks(
+    state: &AppState,
+) -> crate::storage::StorageResult<Vec<Value>> {
+    let keys = state
+        .storage
+        .store
+        .scan_keys(BLOCK_DATA_PREFIX, 100)
+        .await?;
+    let mut records = Vec::new();
+    let now = time_utils::now_ms();
+    for key in keys {
+        if let Some(record) = state
+            .storage
+            .store
+            .get_json_value(&key)
+            .await?
+            .and_then(normalize_block_record)
+            && record
+                .get("applied")
+                .and_then(Value::as_bool)
+                .unwrap_or(false)
+            && iso_score(record.get("expires_at").and_then(Value::as_str)) <= now
+        {
+            records.push(record);
+        }
+    }
+    Ok(records)
+}
+
+pub(super) async fn sync_firewall_policy(
+    state: &AppState,
+    runtime: Option<&Value>,
+    active_records: Option<Vec<Value>>,
+    extra_blocked_ips: Vec<String>,
+    translator: &Translator,
+) -> anyhow::Result<FirewallPolicyResult> {
+    let loaded_runtime;
+    let runtime = match runtime {
+        Some(runtime) => runtime,
+        None => {
+            loaded_runtime = load_runtime(state).await?;
+            &loaded_runtime
+        }
+    };
+    let active = match active_records {
+        Some(records) => records,
+        None => active_blocks(state).await?,
+    };
+    let mut blocked_ips = active
+        .iter()
+        .filter_map(|record| record.get("ip").and_then(Value::as_str))
+        .map(str::to_string)
+        .collect::<Vec<_>>();
+    blocked_ips.extend(extra_blocked_ips);
+    blocked_ips = normalize_ip_strings(blocked_ips);
+
+    let allowed_policy = if runtime.get("enabled").and_then(Value::as_bool) == Some(true) {
+        Some(
+            state
+                .security
+                .ipsets
+                .get(SSH_ALLOWED_IPSET_KEY)
+                .map(|policy| (*policy).clone())
+                .map(Ok)
+                .unwrap_or_else(|| policy_from_runtime(runtime))?,
+        )
+    } else {
+        None
+    };
+    let ports = resolve_ssh_ports();
+    if allowed_policy
+        .as_ref()
+        .is_none_or(|policy| policy.range_count() == 0)
+        && blocked_ips.is_empty()
+    {
+        let payload = json!({
+            "chain_name": SSH_FIREWALL_CHAIN,
+            "parent_chain": ["INPUT", "DOCKER-USER"]
+        });
+        let value = state.gateway.client.clear_ssh_firewall(&payload).await?;
+        ensure_go_success(value, translator, "clearSshPolicyFailed")?;
+        return Ok(FirewallPolicyResult {
+            allowed_cidrs: 0,
+            blocked_ips: 0,
+            ports,
+        });
+    }
+
+    let allowed_count = allowed_policy
+        .as_ref()
+        .map(CompiledIpSet::range_count)
+        .unwrap_or_default();
+    let blocked_count = blocked_ips.len();
+    let payload = json!({
+        "chain_name": SSH_FIREWALL_CHAIN,
+        "parent_chain": ["INPUT", "DOCKER-USER"],
+        "ports": ports.clone(),
+        "allowed_cidrs": Vec::<String>::new(),
+        "policy_id": allowed_policy.as_ref().map(|policy| policy.id.clone()),
+        "policy": allowed_policy.as_ref().map(CompiledIpSet::to_transport_value),
+        "blocked_ips": blocked_ips,
+        "include_local_cidrs": true
+    });
+    let value = state.gateway.client.sync_ssh_firewall(&payload).await?;
+    ensure_go_success(value, translator, "syncSshPolicyFailed")?;
+    Ok(FirewallPolicyResult {
+        allowed_cidrs: allowed_count,
+        blocked_ips: blocked_count,
+        ports,
+    })
+}
+
+pub(super) async fn process_recent_ssh_entries(
+    state: &AppState,
+    config: &Value,
+    limit: usize,
+) -> anyhow::Result<()> {
+    let window_ms = config
+        .get("window_minutes")
+        .and_then(Value::as_i64)
+        .unwrap_or(10)
+        .max(1)
+        * 60
+        * 1000;
+    let cutoff = time_utils::now_ms() - window_ms;
+    let mut entries = query_recent_ssh_logs(limit)
+        .into_iter()
+        .filter(|entry| iso_score(entry.get("happened_at").and_then(Value::as_str)) >= cutoff)
+        .collect::<Vec<_>>();
+    entries.sort_by(|left, right| {
+        iso_score(left.get("happened_at").and_then(Value::as_str))
+            .cmp(&iso_score(right.get("happened_at").and_then(Value::as_str)))
+    });
+    for entry in entries {
+        if let Err(error) = handle_ssh_entry(state, config, &entry).await {
+            tracing::warn!(%error, entry = %entry, "failed to handle SSH log entry");
+        }
+    }
+    Ok(())
+}
+
+pub(super) async fn handle_ssh_entry(
+    state: &AppState,
+    config: &Value,
+    entry: &Value,
+) -> anyhow::Result<()> {
+    let id = entry.get("id").and_then(Value::as_str).unwrap_or("");
+    if id.is_empty() || is_processed(state, id).await? {
+        return Ok(());
+    }
+    if config.get("enabled").and_then(Value::as_bool) != Some(true) {
+        mark_processed(state, id).await?;
+        return Ok(());
+    }
+    let ip = normalize_ip(entry.get("ip").and_then(Value::as_str).unwrap_or(""));
+    if ip.is_empty() || is_private_or_local_ip(&ip) {
+        mark_processed(state, id).await?;
+        return Ok(());
+    }
+    let ip_location = ip_location::register_usage(state, &ip, vec![format!("ssh-login-log|{id}")])
+        .await
+        .unwrap_or_default();
+    let mut entry = entry.clone();
+    if !ip_location.trim().is_empty()
+        && let Some(object) = entry.as_object_mut()
+    {
+        object.insert("ipLocation".to_string(), Value::String(ip_location));
+    }
+
+    match entry.get("outcome").and_then(Value::as_str) {
+        Some("failure") => handle_ssh_failure(state, config, &entry, id, &ip).await?,
+        Some("success") => handle_ssh_success(state, config, &entry, id, &ip).await?,
+        _ => {}
+    }
+    mark_processed(state, id).await?;
+    Ok(())
+}
+
+pub(super) async fn handle_ssh_failure(
+    state: &AppState,
+    config: &Value,
+    entry: &Value,
+    id: &str,
+    ip: &str,
+) -> anyhow::Result<()> {
+    let window_minutes = config
+        .get("window_minutes")
+        .and_then(Value::as_i64)
+        .unwrap_or(10)
+        .max(1);
+    let threshold = config
+        .get("failed_login_threshold")
+        .and_then(Value::as_i64)
+        .unwrap_or(5)
+        .max(1);
+    let attempts = add_failure(state, ip, id, entry, window_minutes).await?;
+    let mut event_payload = json!({
+        "ip": ip,
+        "username": entry.get("username").cloned().unwrap_or_else(|| json!("-")),
+        "invalid_user": entry.get("invalid_user").and_then(Value::as_bool).unwrap_or(false),
+        "auth_method": entry.get("auth_method").cloned().unwrap_or(Value::Null),
+        "port": entry.get("port").cloned().unwrap_or(Value::Null),
+        "attempts": attempts,
+        "window_minutes": window_minutes,
+        "threshold": threshold,
+        "log_time": entry.get("happened_at").cloned().unwrap_or_else(|| json!(time_utils::now_iso()))
+    });
+    if let Some(location) = entry
+        .get("ipLocation")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        && let Some(object) = event_payload.as_object_mut()
+    {
+        object.insert(
+            "ip_location".to_string(),
+            Value::String(location.to_string()),
+        );
+    }
+    if let Err(error) = system_events::publish_ssh_login_failure_event(state, event_payload).await {
+        tracing::debug!(%error, "failed to publish SSH login failure event");
+    }
+    if attempts < threshold || is_active_blocked(state, ip).await? {
+        return Ok(());
+    }
+    create_ssh_block(state, config, entry, "failed_login_threshold", attempts).await
+}
+
+pub(super) async fn handle_ssh_success(
+    state: &AppState,
+    config: &Value,
+    entry: &Value,
+    id: &str,
+    ip: &str,
+) -> anyhow::Result<()> {
+    clear_failures(state, ip).await?;
+    let mut event_payload = json!({
+        "ip": ip,
+        "username": entry.get("username").cloned().unwrap_or_else(|| json!("-")),
+        "auth_method": entry.get("auth_method").cloned().unwrap_or(Value::Null),
+        "port": entry.get("port").cloned().unwrap_or(Value::Null),
+        "log_time": entry.get("happened_at").cloned().unwrap_or_else(|| json!(time_utils::now_iso()))
+    });
+    if let Some(location) = entry
+        .get("ipLocation")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        && let Some(object) = event_payload.as_object_mut()
+    {
+        object.insert(
+            "ip_location".to_string(),
+            Value::String(location.to_string()),
+        );
+    }
+    if let Err(error) = system_events::publish_ssh_login_success_event(state, event_payload).await {
+        tracing::debug!(%error, "failed to publish SSH login success event");
+    }
+    let runtime = load_runtime(state).await?;
+    if ip_allowed_by_runtime(state, &runtime, ip) || is_active_blocked(state, ip).await? {
+        return Ok(());
+    }
+    create_ssh_block(state, config, entry, "cidr_not_allowed", 0).await?;
+    mark_processed(state, id).await?;
+    Ok(())
+}
+
+pub(super) async fn create_ssh_block(
+    state: &AppState,
+    config: &Value,
+    entry: &Value,
+    reason: &str,
+    failed_count: i64,
+) -> anyhow::Result<()> {
+    let ip = normalize_ip(entry.get("ip").and_then(Value::as_str).unwrap_or(""));
+    if ip.is_empty() {
+        return Ok(());
+    }
+    let block_seconds = ssh_block_duration_seconds(config);
+    let blocked_at = time_utils::now_iso();
+    let expires_at = millis_to_iso(time_utils::now_ms() + block_seconds * 1000);
+    let translator = Translator::from_state(state).await;
+    let ip_location = if let Some(location) = entry
+        .get("ipLocation")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+    {
+        location.to_string()
+    } else {
+        ip_location::register_usage(state, &ip, vec![format!("ssh-blocklist|{ip}")])
+            .await
+            .unwrap_or_default()
+    };
+    let policy = sync_firewall_policy(state, None, None, vec![ip.clone()], &translator).await?;
+    let mut record = json!({
+        "ip": ip,
+        "ports": policy.ports,
+        "blocked_at": blocked_at,
+        "expires_at": expires_at,
+        "reason": reason,
+        "failed_count": failed_count,
+        "window_minutes": config.get("window_minutes").and_then(Value::as_i64).unwrap_or(10),
+        "threshold": config.get("failed_login_threshold").and_then(Value::as_i64).unwrap_or(5),
+        "sample_user": entry.get("username").cloned().unwrap_or_else(|| json!("-")),
+        "sample_auth_method": entry.get("auth_method").cloned().unwrap_or(Value::Null),
+        "sample_log_time": entry.get("happened_at").cloned().unwrap_or_else(|| json!(time_utils::now_iso())),
+        "applied": true,
+        "removed_at": Value::Null,
+        "remove_reason": Value::Null,
+    });
+    if !ip_location.trim().is_empty()
+        && let Some(object) = record.as_object_mut()
+    {
+        object.insert("ipLocation".to_string(), Value::String(ip_location.clone()));
+    }
+    save_block(state, &record).await?;
+    let mut payload = json!({
+        "ip": record.get("ip").cloned().unwrap_or(Value::Null),
+        "blocked_at": record.get("blocked_at").cloned().unwrap_or(Value::Null),
+        "blocked_until": record.get("expires_at").cloned().unwrap_or(Value::Null),
+        "block_seconds": block_seconds,
+        "reason": reason,
+        "failed_count": failed_count,
+        "window_minutes": record.get("window_minutes").cloned().unwrap_or(Value::Null),
+        "threshold": record.get("threshold").cloned().unwrap_or(Value::Null),
+        "username": record.get("sample_user").cloned().unwrap_or(Value::Null),
+    });
+    if !ip_location.trim().is_empty()
+        && let Some(object) = payload.as_object_mut()
+    {
+        object.insert("ip_location".to_string(), Value::String(ip_location));
+    }
+    if let Err(error) = system_events::publish_ssh_ip_blocked_event(state, payload).await {
+        tracing::debug!(%error, "failed to publish SSH block event");
+    }
+    Ok(())
+}
+
+pub(super) async fn is_processed(
+    state: &AppState,
+    id: &str,
+) -> crate::storage::StorageResult<bool> {
+    Ok(state
+        .storage
+        .store
+        .get_string_value(&format!("{PROCESSED_PREFIX}{id}"))
+        .await?
+        .is_some())
+}
+
+pub(super) async fn mark_processed(
+    state: &AppState,
+    id: &str,
+) -> crate::storage::StorageResult<()> {
+    state
+        .storage
+        .store
+        .set_string_value_with_optional_ttl(
+            &format!("{PROCESSED_PREFIX}{id}"),
+            "1",
+            Some(PROCESSED_TTL_SECONDS),
+        )
+        .await
+}
+
+pub(super) async fn add_failure(
+    state: &AppState,
+    ip: &str,
+    id: &str,
+    entry: &Value,
+    window_minutes: i64,
+) -> crate::storage::StorageResult<i64> {
+    let score = iso_score(entry.get("happened_at").and_then(Value::as_str));
+    let score = if score > 0 {
+        score
+    } else {
+        time_utils::now_ms()
+    };
+    let window_ms = window_minutes.max(1) * 60 * 1000;
+    state
+        .storage
+        .store
+        .zadd_trim_count_expire(
+            &format!("{FAILURES_PREFIX}{ip}"),
+            id,
+            score,
+            score - window_ms,
+            ((window_ms / 1000) + 3600) as usize,
+        )
+        .await
+}
+
+pub(super) async fn clear_failures(
+    state: &AppState,
+    ip: &str,
+) -> crate::storage::StorageResult<()> {
+    state
+        .storage
+        .store
+        .delete_key(&format!("{FAILURES_PREFIX}{ip}"))
+        .await
+}
+
+pub(super) async fn is_active_blocked(
+    state: &AppState,
+    ip: &str,
+) -> crate::storage::StorageResult<bool> {
+    Ok(load_block(state, ip)
+        .await?
+        .is_some_and(|record| is_active_block(&record, time_utils::now_ms())))
+}
+
+pub(super) fn ip_allowed_by_runtime(state: &AppState, runtime: &Value, ip: &str) -> bool {
+    if runtime
+        .get("range_count")
+        .and_then(Value::as_u64)
+        .unwrap_or_default()
+        == 0
+    {
+        return true;
+    }
+    let Ok(ip) = ip.parse::<IpAddr>() else {
+        return true;
+    };
+    state
+        .security
+        .ipsets
+        .get(SSH_ALLOWED_IPSET_KEY)
+        .is_some_and(|policy| policy.contains(ip))
+}
+
+pub(super) fn ssh_block_duration_seconds(config: &Value) -> i64 {
+    let value = config
+        .get("block_duration_value")
+        .and_then(Value::as_i64)
+        .unwrap_or(1)
+        .clamp(1, 365);
+    match config
+        .get("block_duration_unit")
+        .and_then(Value::as_str)
+        .unwrap_or("day")
+    {
+        "minute" => value * 60,
+        "hour" => value * 3600,
+        "month" => value * 30 * 24 * 3600,
+        _ => value * 24 * 3600,
+    }
+}
+
+pub(super) fn normalize_ip_strings(values: impl IntoIterator<Item = String>) -> Vec<String> {
+    let mut seen = HashSet::new();
+    values
+        .into_iter()
+        .filter_map(|value| {
+            let ip = normalize_ip(&value);
+            (!ip.is_empty() && seen.insert(ip.clone())).then_some(ip)
+        })
+        .collect()
+}

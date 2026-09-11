@@ -1,1 +1,346 @@
-dXNlIHN0ZDo6dGltZTo6RHVyYXRpb247Cgp1c2UgYmFzZTY0Ojp7RW5naW5lIGFzIF8sIGVuZ2luZTo6Z2VuZXJhbF9wdXJwb3NlOjpVUkxfU0FGRV9OT19QQUR9Owp1c2UgbGRhcDM6OntMZGFwLCBMZGFwQ29ubkFzeW5jLCBMZGFwQ29ublNldHRpbmdzLCBTY29wZSwgU2VhcmNoRW50cnksIFNlYXJjaE9wdGlvbnN9Owp1c2UgbmF0aXZlX3Rsczo6VGxzQ29ubmVjdG9yOwp1c2Ugc2VyZGVfanNvbjo6VmFsdWU7Cgp1c2UgY3JhdGU6OmNyeXB0b191dGlsczsKCiNbY2ZnKHRlc3QpXQp1c2Ugc3VwZXI6OnByb3ZpZGVyOjpzcGxpdF9wZW1fY2VydGlmaWNhdGVzOwp1c2Ugc3VwZXI6OnByb3ZpZGVyOjp7TGRhcENvbm5lY3Rpb25Db25maWcsIGN1c3RvbV9jYV9jZXJ0aWZpY2F0ZXMsIHByb3ZpZGVyX2NvbmZpZ307Cgpjb25zdCBDT05ORUNUX1RJTUVPVVQ6IER1cmF0aW9uID0gRHVyYXRpb246OmZyb21fc2Vjcyg1KTsKY29uc3QgT1BFUkFUSU9OX1RJTUVPVVQ6IER1cmF0aW9uID0gRHVyYXRpb246OmZyb21fc2Vjcyg4KTsKCiNbZGVyaXZlKENsb25lLCBEZWJ1ZyldCnB1YihzdXBlcikgc3RydWN0IExkYXBQcm9maWxlIHsKICAgIHB1YiBkbjogU3RyaW5nLAogICAgcHViIHN1YmplY3Q6IFN0cmluZywKICAgIHB1YiBzdWJqZWN0X2tleTogU3RyaW5nLAogICAgcHViIHVzZXJuYW1lOiBTdHJpbmcsCiAgICBwdWIgZGlzcGxheV9uYW1lOiBPcHRpb248U3RyaW5nPiwKICAgIHB1YiBlbWFpbDogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKERlYnVnLCB0aGlzZXJyb3I6OkVycm9yKV0KcHViKHN1cGVyKSBlbnVtIExkYXBBdXRoRXJyb3IgewogICAgI1tlcnJvcigiSW52YWxpZCBkaXJlY3RvcnkgY3JlZGVudGlhbHMiKV0KICAgIEludmFsaWRDcmVkZW50aWFscywKICAgICNbZXJyb3IoIkRpcmVjdG9yeSB1c2VyIHdhcyBub3QgZm91bmQgb3Igd2FzIG5vdCB1bmlxdWUiKV0KICAgIFVzZXJOb3RGb3VuZCwKICAgICNbZXJyb3IoIkxEQVAgcHJvdmlkZXIgY29uZmlndXJhdGlvbiBlcnJvcjogezB9IildCiAgICBDb25maWd1cmF0aW9uKFN0cmluZyksCiAgICAjW2Vycm9yKCJMREFQIHNlcnZpY2UgaXMgdW5hdmFpbGFibGU6IHswfSIpXQogICAgVW5hdmFpbGFibGUoU3RyaW5nKSwKfQoKaW1wbCBMZGFwQXV0aEVycm9yIHsKICAgIHB1YihzdXBlcikgZm4gaXNfYXV0aGVudGljYXRpb25fZmFpbHVyZSgmc2VsZikgLT4gYm9vbCB7CiAgICAgICAgbWF0Y2hlcyEoc2VsZiwgU2VsZjo6SW52YWxpZENyZWRlbnRpYWxzIHwgU2VsZjo6VXNlck5vdEZvdW5kKQogICAgfQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGF1dGhlbnRpY2F0ZSgKICAgIHByb3ZpZGVyOiAmVmFsdWUsCiAgICB1c2VybmFtZTogJnN0ciwKICAgIHBhc3N3b3JkOiAmc3RyLAopIC0+IFJlc3VsdDxMZGFwUHJvZmlsZSwgTGRhcEF1dGhFcnJvcj4gewogICAgaWYgdXNlcm5hbWUudHJpbSgpLmlzX2VtcHR5KCkgfHwgcGFzc3dvcmQuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIEVycihMZGFwQXV0aEVycm9yOjpJbnZhbGlkQ3JlZGVudGlhbHMpOwogICAgfQogICAgbGV0IGNvbmZpZyA9IHByb3ZpZGVyX2NvbmZpZyhwcm92aWRlcikubWFwX2VycihMZGFwQXV0aEVycm9yOjpDb25maWd1cmF0aW9uKT87CiAgICBsZXQgbXV0IGxhc3RfdW5hdmFpbGFibGUgPSBOb25lOwogICAgZm9yIHNlcnZlciBpbiAmY29uZmlnLnNlcnZlcnMgewogICAgICAgIG1hdGNoIGF1dGhlbnRpY2F0ZV9hdChzZXJ2ZXIsICZjb25maWcsIHVzZXJuYW1lLnRyaW0oKSwgcGFzc3dvcmQpLmF3YWl0IHsKICAgICAgICAgICAgT2socHJvZmlsZSkgPT4gewogICAgICAgICAgICAgICAgbGV0IHByb3ZpZGVyX2lkID0gcHJvdmlkZXIuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIik7CiAgICAgICAgICAgICAgICByZXR1cm4gT2soTGRhcFByb2ZpbGUgewogICAgICAgICAgICAgICAgICAgIHN1YmplY3Rfa2V5OiBjcnlwdG9fdXRpbHM6OnNoYTI1Nl9oZXhfc3RyKCZmb3JtYXQhKAogICAgICAgICAgICAgICAgICAgICAgICAie3Byb3ZpZGVyX2lkfVwwe30iLAogICAgICAgICAgICAgICAgICAgICAgICBwcm9maWxlLnN1YmplY3QKICAgICAgICAgICAgICAgICAgICApKSwKICAgICAgICAgICAgICAgICAgICAuLnByb2ZpbGUKICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICB9CiAgICAgICAgICAgIEVycihMZGFwQXV0aEVycm9yOjpVbmF2YWlsYWJsZShtZXNzYWdlKSkgPT4gbGFzdF91bmF2YWlsYWJsZSA9IFNvbWUobWVzc2FnZSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gcmV0dXJuIEVycihlcnJvciksCiAgICAgICAgfQogICAgfQogICAgRXJyKExkYXBBdXRoRXJyb3I6OlVuYXZhaWxhYmxlKAogICAgICAgIGxhc3RfdW5hdmFpbGFibGUudW53cmFwX29yX2Vsc2UofHwgIk5vIExEQVAgc2VydmVyIGlzIGNvbmZpZ3VyZWQiLmludG8oKSksCiAgICApKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHRlc3RfY29ubmVjdGlvbihwcm92aWRlcjogJlZhbHVlKSAtPiBSZXN1bHQ8U3RyaW5nLCBMZGFwQXV0aEVycm9yPiB7CiAgICBsZXQgY29uZmlnID0gcHJvdmlkZXJfY29uZmlnKHByb3ZpZGVyKS5tYXBfZXJyKExkYXBBdXRoRXJyb3I6OkNvbmZpZ3VyYXRpb24pPzsKICAgIGxldCBtdXQgbGFzdF91bmF2YWlsYWJsZSA9IE5vbmU7CiAgICBmb3Igc2VydmVyIGluICZjb25maWcuc2VydmVycyB7CiAgICAgICAgbWF0Y2ggY29ubmVjdChzZXJ2ZXIsICZjb25maWcpLmF3YWl0IHsKICAgICAgICAgICAgT2sobXV0IGxkYXApID0+IHsKICAgICAgICAgICAgICAgIGlmIGNvbmZpZy5iaW5kX21vZGUgPT0gInNlYXJjaCIgewogICAgICAgICAgICAgICAgICAgIGJpbmQoCiAgICAgICAgICAgICAgICAgICAgICAgICZtdXQgbGRhcCwKICAgICAgICAgICAgICAgICAgICAgICAgJmNvbmZpZy5zZXJ2aWNlX2JpbmRfZG4sCiAgICAgICAgICAgICAgICAgICAgICAgICZjb25maWcuc2VydmljZV9iaW5kX3Bhc3N3b3JkLAogICAgICAgICAgICAgICAgICAgICAgICBmYWxzZSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGxldCBfID0gbGRhcC51bmJpbmQoKS5hd2FpdDsKICAgICAgICAgICAgICAgIHJldHVybiBPayhzZXJ2ZXIuY2xvbmUoKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgRXJyKExkYXBBdXRoRXJyb3I6OlVuYXZhaWxhYmxlKG1lc3NhZ2UpKSA9PiBsYXN0X3VuYXZhaWxhYmxlID0gU29tZShtZXNzYWdlKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiByZXR1cm4gRXJyKGVycm9yKSwKICAgICAgICB9CiAgICB9CiAgICBFcnIoTGRhcEF1dGhFcnJvcjo6VW5hdmFpbGFibGUoCiAgICAgICAgbGFzdF91bmF2YWlsYWJsZS51bndyYXBfb3JfZWxzZSh8fCAiTm8gTERBUCBzZXJ2ZXIgaXMgY29uZmlndXJlZCIuaW50bygpKSwKICAgICkpCn0KCmFzeW5jIGZuIGF1dGhlbnRpY2F0ZV9hdCgKICAgIHNlcnZlcjogJnN0ciwKICAgIGNvbmZpZzogJkxkYXBDb25uZWN0aW9uQ29uZmlnLAogICAgdXNlcm5hbWU6ICZzdHIsCiAgICBwYXNzd29yZDogJnN0ciwKKSAtPiBSZXN1bHQ8TGRhcFByb2ZpbGUsIExkYXBBdXRoRXJyb3I+IHsKICAgIGlmIGNvbmZpZy5iaW5kX21vZGUgPT0gInNlYXJjaCIgewogICAgICAgIGF1dGhlbnRpY2F0ZV9zZWFyY2hfYmluZChzZXJ2ZXIsIGNvbmZpZywgdXNlcm5hbWUsIHBhc3N3b3JkKS5hd2FpdAogICAgfSBlbHNlIHsKICAgICAgICBhdXRoZW50aWNhdGVfZGlyZWN0X2JpbmQoc2VydmVyLCBjb25maWcsIHVzZXJuYW1lLCBwYXNzd29yZCkuYXdhaXQKICAgIH0KfQoKYXN5bmMgZm4gYXV0aGVudGljYXRlX3NlYXJjaF9iaW5kKAogICAgc2VydmVyOiAmc3RyLAogICAgY29uZmlnOiAmTGRhcENvbm5lY3Rpb25Db25maWcsCiAgICB1c2VybmFtZTogJnN0ciwKICAgIHBhc3N3b3JkOiAmc3RyLAopIC0+IFJlc3VsdDxMZGFwUHJvZmlsZSwgTGRhcEF1dGhFcnJvcj4gewogICAgbGV0IG11dCBzZWFyY2hfbGRhcCA9IGNvbm5lY3Qoc2VydmVyLCBjb25maWcpLmF3YWl0PzsKICAgIGJpbmQoCiAgICAgICAgJm11dCBzZWFyY2hfbGRhcCwKICAgICAgICAmY29uZmlnLnNlcnZpY2VfYmluZF9kbiwKICAgICAgICAmY29uZmlnLnNlcnZpY2VfYmluZF9wYXNzd29yZCwKICAgICAgICBmYWxzZSwKICAgICkKICAgIC5hd2FpdD87CiAgICBsZXQgcHJvZmlsZSA9IHNlYXJjaF9wcm9maWxlKCZtdXQgc2VhcmNoX2xkYXAsIGNvbmZpZywgdXNlcm5hbWUpLmF3YWl0PzsKICAgIGxldCBfID0gc2VhcmNoX2xkYXAudW5iaW5kKCkuYXdhaXQ7CgogICAgbGV0IG11dCB1c2VyX2xkYXAgPSBjb25uZWN0KHNlcnZlciwgY29uZmlnKS5hd2FpdD87CiAgICBiaW5kKCZtdXQgdXNlcl9sZGFwLCAmcHJvZmlsZS5kbiwgcGFzc3dvcmQsIHRydWUpLmF3YWl0PzsKICAgIGxldCBfID0gdXNlcl9sZGFwLnVuYmluZCgpLmF3YWl0OwogICAgT2socHJvZmlsZSkKfQoKYXN5bmMgZm4gYXV0aGVudGljYXRlX2RpcmVjdF9iaW5kKAogICAgc2VydmVyOiAmc3RyLAogICAgY29uZmlnOiAmTGRhcENvbm5lY3Rpb25Db25maWcsCiAgICB1c2VybmFtZTogJnN0ciwKICAgIHBhc3N3b3JkOiAmc3RyLAopIC0+IFJlc3VsdDxMZGFwUHJvZmlsZSwgTGRhcEF1dGhFcnJvcj4gewogICAgbGV0IGVzY2FwZWRfdXNlcm5hbWUgPSBpZiBkaXJlY3RfdGVtcGxhdGVfaXNfZG4oJmNvbmZpZy5kaXJlY3RfYmluZF90ZW1wbGF0ZSkgewogICAgICAgIGxkYXAzOjpkbl9lc2NhcGUodXNlcm5hbWUpLmludG9fb3duZWQoKQogICAgfSBlbHNlIHsKICAgICAgICB1c2VybmFtZS50b19zdHJpbmcoKQogICAgfTsKICAgIGxldCBwcmluY2lwYWwgPSBjb25maWcKICAgICAgICAuZGlyZWN0X2JpbmRfdGVtcGxhdGUKICAgICAgICAucmVwbGFjZSgie3VzZXJuYW1lfSIsICZlc2NhcGVkX3VzZXJuYW1lKTsKICAgIGxldCBtdXQgbGRhcCA9IGNvbm5lY3Qoc2VydmVyLCBjb25maWcpLmF3YWl0PzsKICAgIGJpbmQoJm11dCBsZGFwLCAmcHJpbmNpcGFsLCBwYXNzd29yZCwgdHJ1ZSkuYXdhaXQ/OwogICAgbGV0IHByb2ZpbGUgPSBzZWFyY2hfcHJvZmlsZSgmbXV0IGxkYXAsIGNvbmZpZywgdXNlcm5hbWUpLmF3YWl0PzsKICAgIGxldCBfID0gbGRhcC51bmJpbmQoKS5hd2FpdDsKICAgIE9rKHByb2ZpbGUpCn0KCmFzeW5jIGZuIGNvbm5lY3Qoc2VydmVyOiAmc3RyLCBjb25maWc6ICZMZGFwQ29ubmVjdGlvbkNvbmZpZykgLT4gUmVzdWx0PExkYXAsIExkYXBBdXRoRXJyb3I+IHsKICAgIGxldCBjb25uZWN0b3IgPSB0bHNfY29ubmVjdG9yKCZjb25maWcuY2FfcGVtKT87CiAgICBsZXQgc2V0dGluZ3MgPSBMZGFwQ29ublNldHRpbmdzOjpuZXcoKQogICAgICAgIC5zZXRfY29ubl90aW1lb3V0KENPTk5FQ1RfVElNRU9VVCkKICAgICAgICAuc2V0X3N0YXJ0dGxzKGNvbmZpZy50cmFuc3BvcnQgPT0gInN0YXJ0dGxzIikKICAgICAgICAuc2V0X2Nvbm5lY3Rvcihjb25uZWN0b3IpOwogICAgbGV0IChjb25uZWN0aW9uLCBtdXQgbGRhcCkgPSBMZGFwQ29ubkFzeW5jOjp3aXRoX3NldHRpbmdzKHNldHRpbmdzLCBzZXJ2ZXIpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIoY2xhc3NpZnlfY2xpZW50X2Vycm9yKT87CiAgICBsZGFwMzo6ZHJpdmUhKGNvbm5lY3Rpb24pOwogICAgbGRhcC50aW1lb3V0ID0gU29tZShPUEVSQVRJT05fVElNRU9VVCk7CiAgICBPayhsZGFwKQp9CgpmbiB0bHNfY29ubmVjdG9yKGNhX3BlbTogJnN0cikgLT4gUmVzdWx0PFRsc0Nvbm5lY3RvciwgTGRhcEF1dGhFcnJvcj4gewogICAgbGV0IG11dCBidWlsZGVyID0gVGxzQ29ubmVjdG9yOjpidWlsZGVyKCk7CiAgICBmb3IgY2VydGlmaWNhdGUgaW4gY3VzdG9tX2NhX2NlcnRpZmljYXRlcyhjYV9wZW0pLm1hcF9lcnIoTGRhcEF1dGhFcnJvcjo6Q29uZmlndXJhdGlvbik/IHsKICAgICAgICBidWlsZGVyLmFkZF9yb290X2NlcnRpZmljYXRlKGNlcnRpZmljYXRlKTsKICAgIH0KICAgIGJ1aWxkZXIKICAgICAgICAuYnVpbGQoKQogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgTGRhcEF1dGhFcnJvcjo6Q29uZmlndXJhdGlvbihlcnJvci50b19zdHJpbmcoKSkpCn0KCmFzeW5jIGZuIGJpbmQoCiAgICBsZGFwOiAmbXV0IExkYXAsCiAgICBwcmluY2lwYWw6ICZzdHIsCiAgICBwYXNzd29yZDogJnN0ciwKICAgIHVzZXJfYmluZDogYm9vbCwKKSAtPiBSZXN1bHQ8KCksIExkYXBBdXRoRXJyb3I+IHsKICAgIGxldCByZXN1bHQgPSBsZGFwCiAgICAgICAgLnNpbXBsZV9iaW5kKHByaW5jaXBhbCwgcGFzc3dvcmQpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIoY2xhc3NpZnlfY2xpZW50X2Vycm9yKT87CiAgICBpZiByZXN1bHQucmMgPT0gMCB7CiAgICAgICAgT2soKCkpCiAgICB9IGVsc2UgaWYgdXNlcl9iaW5kICYmIG1hdGNoZXMhKHJlc3VsdC5yYywgMzIgfCA0OSkgewogICAgICAgIEVycihMZGFwQXV0aEVycm9yOjpJbnZhbGlkQ3JlZGVudGlhbHMpCiAgICB9IGVsc2UgewogICAgICAgIGxldCBiaW5kX2tpbmQgPSBpZiB1c2VyX2JpbmQgeyAidXNlciIgfSBlbHNlIHsgInNlcnZpY2UiIH07CiAgICAgICAgRXJyKExkYXBBdXRoRXJyb3I6OkNvbmZpZ3VyYXRpb24oZm9ybWF0ISgKICAgICAgICAgICAgIntiaW5kX2tpbmR9IGJpbmQgZmFpbGVkIHdpdGggTERBUCByZXN1bHQge30iLAogICAgICAgICAgICByZXN1bHQucmMKICAgICAgICApKSkKICAgIH0KfQoKYXN5bmMgZm4gc2VhcmNoX3Byb2ZpbGUoCiAgICBsZGFwOiAmbXV0IExkYXAsCiAgICBjb25maWc6ICZMZGFwQ29ubmVjdGlvbkNvbmZpZywKICAgIHVzZXJuYW1lOiAmc3RyLAopIC0+IFJlc3VsdDxMZGFwUHJvZmlsZSwgTGRhcEF1dGhFcnJvcj4gewogICAgbGV0IGVzY2FwZWQgPSBsZGFwMzo6bGRhcF9lc2NhcGUodXNlcm5hbWUpOwogICAgbGV0IGZpbHRlciA9IGNvbmZpZy51c2VyX2ZpbHRlci5yZXBsYWNlKCJ7dXNlcm5hbWV9IiwgZXNjYXBlZC5hc19yZWYoKSk7CiAgICBsZXQgYXR0cmlidXRlcyA9IHZlYyFbCiAgICAgICAgY29uZmlnLnN1YmplY3RfYXR0cmlidXRlLmFzX3N0cigpLAogICAgICAgIGNvbmZpZy51c2VybmFtZV9hdHRyaWJ1dGUuYXNfc3RyKCksCiAgICAgICAgY29uZmlnLmRpc3BsYXlfbmFtZV9hdHRyaWJ1dGUuYXNfc3RyKCksCiAgICAgICAgY29uZmlnLmVtYWlsX2F0dHJpYnV0ZS5hc19zdHIoKSwKICAgIF07CiAgICBsZXQgbGRhcDM6OlNlYXJjaFJlc3VsdChlbnRyaWVzLCByZXN1bHQpID0gbGRhcAogICAgICAgIC53aXRoX3NlYXJjaF9vcHRpb25zKFNlYXJjaE9wdGlvbnM6Om5ldygpLnNpemVsaW1pdCgyKS50aW1lbGltaXQoNSkpCiAgICAgICAgLnNlYXJjaCgmY29uZmlnLmJhc2VfZG4sIFNjb3BlOjpTdWJ0cmVlLCAmZmlsdGVyLCBhdHRyaWJ1dGVzKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKGNsYXNzaWZ5X2NsaWVudF9lcnJvcik/OwogICAgaWYgcmVzdWx0LnJjID09IDQgJiYgZW50cmllcy5sZW4oKSA+PSAyIHsKICAgICAgICByZXR1cm4gRXJyKExkYXBBdXRoRXJyb3I6OlVzZXJOb3RGb3VuZCk7CiAgICB9CiAgICBpZiByZXN1bHQucmMgIT0gMCB7CiAgICAgICAgcmV0dXJuIEVycihMZGFwQXV0aEVycm9yOjpDb25maWd1cmF0aW9uKGZvcm1hdCEoCiAgICAgICAgICAgICJ1c2VyIHNlYXJjaCBmYWlsZWQgd2l0aCBMREFQIHJlc3VsdCB7fSIsCiAgICAgICAgICAgIHJlc3VsdC5yYwogICAgICAgICkpKTsKICAgIH0KICAgIGlmIGVudHJpZXMubGVuKCkgIT0gMSB7CiAgICAgICAgcmV0dXJuIEVycihMZGFwQXV0aEVycm9yOjpVc2VyTm90Rm91bmQpOwogICAgfQogICAgcHJvZmlsZV9mcm9tX2VudHJ5KAogICAgICAgIFNlYXJjaEVudHJ5Ojpjb25zdHJ1Y3QoZW50cmllcy5pbnRvX2l0ZXIoKS5uZXh0KCkudW53cmFwKCkpLAogICAgICAgIGNvbmZpZywKICAgICkKfQoKZm4gY2xhc3NpZnlfY2xpZW50X2Vycm9yKGVycm9yOiBsZGFwMzo6TGRhcEVycm9yKSAtPiBMZGFwQXV0aEVycm9yIHsKICAgIGxldCBtZXNzYWdlID0gZXJyb3IudG9fc3RyaW5nKCk7CiAgICBtYXRjaCBlcnJvciB7CiAgICAgICAgbGRhcDM6OkxkYXBFcnJvcjo6SW8geyAuLiB9CiAgICAgICAgfCBsZGFwMzo6TGRhcEVycm9yOjpPcFNlbmQgeyAuLiB9CiAgICAgICAgfCBsZGFwMzo6TGRhcEVycm9yOjpSZXN1bHRSZWN2IHsgLi4gfQogICAgICAgIHwgbGRhcDM6OkxkYXBFcnJvcjo6SWRTY3J1YlNlbmQgeyAuLiB9CiAgICAgICAgfCBsZGFwMzo6TGRhcEVycm9yOjpNaXNjU2VuZCB7IC4uIH0KICAgICAgICB8IGxkYXAzOjpMZGFwRXJyb3I6OlRpbWVvdXQgeyAuLiB9CiAgICAgICAgfCBsZGFwMzo6TGRhcEVycm9yOjpFbmRPZlN0cmVhbQogICAgICAgIHwgbGRhcDM6OkxkYXBFcnJvcjo6TmF0aXZlVExTIHsgLi4gfSA9PiBMZGFwQXV0aEVycm9yOjpVbmF2YWlsYWJsZShtZXNzYWdlKSwKICAgICAgICBfID0+IExkYXBBdXRoRXJyb3I6OkNvbmZpZ3VyYXRpb24obWVzc2FnZSksCiAgICB9Cn0KCmZuIHByb2ZpbGVfZnJvbV9lbnRyeSgKICAgIGVudHJ5OiBTZWFyY2hFbnRyeSwKICAgIGNvbmZpZzogJkxkYXBDb25uZWN0aW9uQ29uZmlnLAopIC0+IFJlc3VsdDxMZGFwUHJvZmlsZSwgTGRhcEF1dGhFcnJvcj4gewogICAgbGV0IHN1YmplY3QgPSBlbnRyeQogICAgICAgIC5iaW5fYXR0cnMKICAgICAgICAuZ2V0KCZjb25maWcuc3ViamVjdF9hdHRyaWJ1dGUpCiAgICAgICAgLm9yX2Vsc2UofHwgewogICAgICAgICAgICBlbnRyeQogICAgICAgICAgICAgICAgLmJpbl9hdHRycwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLmZpbmQofChrZXksIF8pfCBrZXkuZXFfaWdub3JlX2FzY2lpX2Nhc2UoJmNvbmZpZy5zdWJqZWN0X2F0dHJpYnV0ZSkpCiAgICAgICAgICAgICAgICAubWFwKHwoXywgdmFsdWUpfCB2YWx1ZSkKICAgICAgICB9KQogICAgICAgIC5hbmRfdGhlbih8dmFsdWVzfCB2YWx1ZXMuZmlyc3QoKSkKICAgICAgICAubWFwKHx2YWx1ZXwgVVJMX1NBRkVfTk9fUEFELmVuY29kZSh2YWx1ZSkpCiAgICAgICAgLm9yX2Vsc2UofHwgZmlyc3RfYXR0cigmZW50cnksICZjb25maWcuc3ViamVjdF9hdHRyaWJ1dGUpKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICAub2tfb3JfZWxzZSh8fCB7CiAgICAgICAgICAgIExkYXBBdXRoRXJyb3I6OkNvbmZpZ3VyYXRpb24oZm9ybWF0ISgKICAgICAgICAgICAgICAgICJMREFQIHN1YmplY3QgYXR0cmlidXRlIHt9IGlzIG1pc3NpbmciLAogICAgICAgICAgICAgICAgY29uZmlnLnN1YmplY3RfYXR0cmlidXRlCiAgICAgICAgICAgICkpCiAgICAgICAgfSk/OwogICAgbGV0IHVzZXJuYW1lID0gZmlyc3RfYXR0cigmZW50cnksICZjb25maWcudXNlcm5hbWVfYXR0cmlidXRlKS5va19vcl9lbHNlKHx8IHsKICAgICAgICBMZGFwQXV0aEVycm9yOjpDb25maWd1cmF0aW9uKGZvcm1hdCEoCiAgICAgICAgICAgICJMREFQIHVzZXJuYW1lIGF0dHJpYnV0ZSB7fSBpcyBtaXNzaW5nIiwKICAgICAgICAgICAgY29uZmlnLnVzZXJuYW1lX2F0dHJpYnV0ZQogICAgICAgICkpCiAgICB9KT87CiAgICBsZXQgZGlzcGxheV9uYW1lID0gZmlyc3RfYXR0cigmZW50cnksICZjb25maWcuZGlzcGxheV9uYW1lX2F0dHJpYnV0ZSk7CiAgICBsZXQgZW1haWwgPSBmaXJzdF9hdHRyKCZlbnRyeSwgJmNvbmZpZy5lbWFpbF9hdHRyaWJ1dGUpOwogICAgT2soTGRhcFByb2ZpbGUgewogICAgICAgIGRuOiBlbnRyeS5kbiwKICAgICAgICBzdWJqZWN0LAogICAgICAgIHN1YmplY3Rfa2V5OiBTdHJpbmc6Om5ldygpLAogICAgICAgIHVzZXJuYW1lLAogICAgICAgIGRpc3BsYXlfbmFtZSwKICAgICAgICBlbWFpbCwKICAgIH0pCn0KCmZuIGZpcnN0X2F0dHIoZW50cnk6ICZTZWFyY2hFbnRyeSwgbmFtZTogJnN0cikgLT4gT3B0aW9uPFN0cmluZz4gewogICAgZW50cnkKICAgICAgICAuYXR0cnMKICAgICAgICAuZ2V0KG5hbWUpCiAgICAgICAgLm9yX2Vsc2UofHwgewogICAgICAgICAgICBlbnRyeQogICAgICAgICAgICAgICAgLmF0dHJzCiAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAuZmluZCh8KGtleSwgXyl8IGtleS5lcV9pZ25vcmVfYXNjaWlfY2FzZShuYW1lKSkKICAgICAgICAgICAgICAgIC5tYXAofChfLCB2YWx1ZSl8IHZhbHVlKQogICAgICAgIH0pCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXN8IHZhbHVlcy5maXJzdCgpKQogICAgICAgIC5tYXAofHZhbHVlfCB2YWx1ZS50cmltKCkpCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCn0KCmZuIGRpcmVjdF90ZW1wbGF0ZV9pc19kbih0ZW1wbGF0ZTogJnN0cikgLT4gYm9vbCB7CiAgICB0ZW1wbGF0ZQogICAgICAgIC5zcGxpdCgnLCcpCiAgICAgICAgLmFueSh8Y29tcG9uZW50fCBjb21wb25lbnQudHJpbSgpLnNwbGl0X29uY2UoJz0nKS5pc19zb21lKCkpCn0KCiNbY2ZnKHRlc3QpXQpwdWIoc3VwZXIpIGZuIHNwbGl0X3BlbV9jZXJ0aWZpY2F0ZXNfZm9yX3Rlc3QodmFsdWU6ICZzdHIpIC0+IFZlYzxTdHJpbmc+IHsKICAgIHNwbGl0X3BlbV9jZXJ0aWZpY2F0ZXModmFsdWUpCn0KCiNbY2ZnKHRlc3QpXQpwdWIoc3VwZXIpIGZuIGJpbmFyeV9zdWJqZWN0X2Zvcl90ZXN0KHZhbHVlOiAmW3U4XSkgLT4gU3RyaW5nIHsKICAgIFVSTF9TQUZFX05PX1BBRC5lbmNvZGUodmFsdWUpCn0KCiNbY2ZnKHRlc3QpXQpwdWIoc3VwZXIpIGZuIGRpcmVjdF9wcmluY2lwYWxfZm9yX3Rlc3QodGVtcGxhdGU6ICZzdHIsIHVzZXJuYW1lOiAmc3RyKSAtPiBTdHJpbmcgewogICAgbGV0IGVzY2FwZWQgPSBpZiBkaXJlY3RfdGVtcGxhdGVfaXNfZG4odGVtcGxhdGUpIHsKICAgICAgICBsZGFwMzo6ZG5fZXNjYXBlKHVzZXJuYW1lKS5pbnRvX293bmVkKCkKICAgIH0gZWxzZSB7CiAgICAgICAgdXNlcm5hbWUudG9fc3RyaW5nKCkKICAgIH07CiAgICB0ZW1wbGF0ZS5yZXBsYWNlKCJ7dXNlcm5hbWV9IiwgJmVzY2FwZWQpCn0KCiNbY2ZnKHRlc3QpXQpwdWIoc3VwZXIpIGZuIGNsaWVudF9lcnJvcl9pc191bmF2YWlsYWJsZV9mb3JfdGVzdChlcnJvcjogbGRhcDM6OkxkYXBFcnJvcikgLT4gYm9vbCB7CiAgICBtYXRjaGVzIShjbGFzc2lmeV9jbGllbnRfZXJyb3IoZXJyb3IpLCBMZGFwQXV0aEVycm9yOjpVbmF2YWlsYWJsZShfKSkKfQo=
+use std::time::Duration;
+
+use base64::{Engine as _, engine::general_purpose::URL_SAFE_NO_PAD};
+use ldap3::{Ldap, LdapConnAsync, LdapConnSettings, Scope, SearchEntry, SearchOptions};
+use native_tls::TlsConnector;
+use serde_json::Value;
+
+use crate::crypto_utils;
+
+#[cfg(test)]
+use super::provider::split_pem_certificates;
+use super::provider::{LdapConnectionConfig, custom_ca_certificates, provider_config};
+
+const CONNECT_TIMEOUT: Duration = Duration::from_secs(5);
+const OPERATION_TIMEOUT: Duration = Duration::from_secs(8);
+
+#[derive(Clone, Debug)]
+pub(super) struct LdapProfile {
+    pub dn: String,
+    pub subject: String,
+    pub subject_key: String,
+    pub username: String,
+    pub display_name: Option<String>,
+    pub email: Option<String>,
+}
+
+#[derive(Debug, thiserror::Error)]
+pub(super) enum LdapAuthError {
+    #[error("Invalid directory credentials")]
+    InvalidCredentials,
+    #[error("Directory user was not found or was not unique")]
+    UserNotFound,
+    #[error("LDAP provider configuration error: {0}")]
+    Configuration(String),
+    #[error("LDAP service is unavailable: {0}")]
+    Unavailable(String),
+}
+
+impl LdapAuthError {
+    pub(super) fn is_authentication_failure(&self) -> bool {
+        matches!(self, Self::InvalidCredentials | Self::UserNotFound)
+    }
+}
+
+pub(super) async fn authenticate(
+    provider: &Value,
+    username: &str,
+    password: &str,
+) -> Result<LdapProfile, LdapAuthError> {
+    if username.trim().is_empty() || password.is_empty() {
+        return Err(LdapAuthError::InvalidCredentials);
+    }
+    let config = provider_config(provider).map_err(LdapAuthError::Configuration)?;
+    let mut last_unavailable = None;
+    for server in &config.servers {
+        match authenticate_at(server, &config, username.trim(), password).await {
+            Ok(profile) => {
+                let provider_id = provider.get("id").and_then(Value::as_str).unwrap_or("");
+                return Ok(LdapProfile {
+                    subject_key: crypto_utils::sha256_hex_str(&format!(
+                        "{provider_id}\0{}",
+                        profile.subject
+                    )),
+                    ..profile
+                });
+            }
+            Err(LdapAuthError::Unavailable(message)) => last_unavailable = Some(message),
+            Err(error) => return Err(error),
+        }
+    }
+    Err(LdapAuthError::Unavailable(
+        last_unavailable.unwrap_or_else(|| "No LDAP server is configured".into()),
+    ))
+}
+
+pub(super) async fn test_connection(provider: &Value) -> Result<String, LdapAuthError> {
+    let config = provider_config(provider).map_err(LdapAuthError::Configuration)?;
+    let mut last_unavailable = None;
+    for server in &config.servers {
+        match connect(server, &config).await {
+            Ok(mut ldap) => {
+                if config.bind_mode == "search" {
+                    bind(
+                        &mut ldap,
+                        &config.service_bind_dn,
+                        &config.service_bind_password,
+                        false,
+                    )
+                    .await?;
+                }
+                let _ = ldap.unbind().await;
+                return Ok(server.clone());
+            }
+            Err(LdapAuthError::Unavailable(message)) => last_unavailable = Some(message),
+            Err(error) => return Err(error),
+        }
+    }
+    Err(LdapAuthError::Unavailable(
+        last_unavailable.unwrap_or_else(|| "No LDAP server is configured".into()),
+    ))
+}
+
+async fn authenticate_at(
+    server: &str,
+    config: &LdapConnectionConfig,
+    username: &str,
+    password: &str,
+) -> Result<LdapProfile, LdapAuthError> {
+    if config.bind_mode == "search" {
+        authenticate_search_bind(server, config, username, password).await
+    } else {
+        authenticate_direct_bind(server, config, username, password).await
+    }
+}
+
+async fn authenticate_search_bind(
+    server: &str,
+    config: &LdapConnectionConfig,
+    username: &str,
+    password: &str,
+) -> Result<LdapProfile, LdapAuthError> {
+    let mut search_ldap = connect(server, config).await?;
+    bind(
+        &mut search_ldap,
+        &config.service_bind_dn,
+        &config.service_bind_password,
+        false,
+    )
+    .await?;
+    let profile = search_profile(&mut search_ldap, config, username).await?;
+    let _ = search_ldap.unbind().await;
+
+    let mut user_ldap = connect(server, config).await?;
+    bind(&mut user_ldap, &profile.dn, password, true).await?;
+    let _ = user_ldap.unbind().await;
+    Ok(profile)
+}
+
+async fn authenticate_direct_bind(
+    server: &str,
+    config: &LdapConnectionConfig,
+    username: &str,
+    password: &str,
+) -> Result<LdapProfile, LdapAuthError> {
+    let escaped_username = if direct_template_is_dn(&config.direct_bind_template) {
+        ldap3::dn_escape(username).into_owned()
+    } else {
+        username.to_string()
+    };
+    let principal = config
+        .direct_bind_template
+        .replace("{username}", &escaped_username);
+    let mut ldap = connect(server, config).await?;
+    bind(&mut ldap, &principal, password, true).await?;
+    let profile = search_profile(&mut ldap, config, username).await?;
+    let _ = ldap.unbind().await;
+    Ok(profile)
+}
+
+async fn connect(server: &str, config: &LdapConnectionConfig) -> Result<Ldap, LdapAuthError> {
+    let connector = tls_connector(&config.ca_pem)?;
+    let settings = LdapConnSettings::new()
+        .set_conn_timeout(CONNECT_TIMEOUT)
+        .set_starttls(config.transport == "starttls")
+        .set_connector(connector);
+    let (connection, mut ldap) = LdapConnAsync::with_settings(settings, server)
+        .await
+        .map_err(classify_client_error)?;
+    ldap3::drive!(connection);
+    ldap.timeout = Some(OPERATION_TIMEOUT);
+    Ok(ldap)
+}
+
+fn tls_connector(ca_pem: &str) -> Result<TlsConnector, LdapAuthError> {
+    let mut builder = TlsConnector::builder();
+    for certificate in custom_ca_certificates(ca_pem).map_err(LdapAuthError::Configuration)? {
+        builder.add_root_certificate(certificate);
+    }
+    builder
+        .build()
+        .map_err(|error| LdapAuthError::Configuration(error.to_string()))
+}
+
+async fn bind(
+    ldap: &mut Ldap,
+    principal: &str,
+    password: &str,
+    user_bind: bool,
+) -> Result<(), LdapAuthError> {
+    let result = ldap
+        .simple_bind(principal, password)
+        .await
+        .map_err(classify_client_error)?;
+    if result.rc == 0 {
+        Ok(())
+    } else if user_bind && matches!(result.rc, 32 | 49) {
+        Err(LdapAuthError::InvalidCredentials)
+    } else {
+        let bind_kind = if user_bind { "user" } else { "service" };
+        Err(LdapAuthError::Configuration(format!(
+            "{bind_kind} bind failed with LDAP result {}",
+            result.rc
+        )))
+    }
+}
+
+async fn search_profile(
+    ldap: &mut Ldap,
+    config: &LdapConnectionConfig,
+    username: &str,
+) -> Result<LdapProfile, LdapAuthError> {
+    let escaped = ldap3::ldap_escape(username);
+    let filter = config.user_filter.replace("{username}", escaped.as_ref());
+    let attributes = vec![
+        config.subject_attribute.as_str(),
+        config.username_attribute.as_str(),
+        config.display_name_attribute.as_str(),
+        config.email_attribute.as_str(),
+    ];
+    let ldap3::SearchResult(entries, result) = ldap
+        .with_search_options(SearchOptions::new().sizelimit(2).timelimit(5))
+        .search(&config.base_dn, Scope::Subtree, &filter, attributes)
+        .await
+        .map_err(classify_client_error)?;
+    if result.rc == 4 && entries.len() >= 2 {
+        return Err(LdapAuthError::UserNotFound);
+    }
+    if result.rc != 0 {
+        return Err(LdapAuthError::Configuration(format!(
+            "user search failed with LDAP result {}",
+            result.rc
+        )));
+    }
+    if entries.len() != 1 {
+        return Err(LdapAuthError::UserNotFound);
+    }
+    profile_from_entry(
+        SearchEntry::construct(entries.into_iter().next().unwrap()),
+        config,
+    )
+}
+
+fn classify_client_error(error: ldap3::LdapError) -> LdapAuthError {
+    let message = error.to_string();
+    match error {
+        ldap3::LdapError::Io { .. }
+        | ldap3::LdapError::OpSend { .. }
+        | ldap3::LdapError::ResultRecv { .. }
+        | ldap3::LdapError::IdScrubSend { .. }
+        | ldap3::LdapError::MiscSend { .. }
+        | ldap3::LdapError::Timeout { .. }
+        | ldap3::LdapError::EndOfStream
+        | ldap3::LdapError::NativeTLS { .. } => LdapAuthError::Unavailable(message),
+        _ => LdapAuthError::Configuration(message),
+    }
+}
+
+fn profile_from_entry(
+    entry: SearchEntry,
+    config: &LdapConnectionConfig,
+) -> Result<LdapProfile, LdapAuthError> {
+    let subject = entry
+        .bin_attrs
+        .get(&config.subject_attribute)
+        .or_else(|| {
+            entry
+                .bin_attrs
+                .iter()
+                .find(|(key, _)| key.eq_ignore_ascii_case(&config.subject_attribute))
+                .map(|(_, value)| value)
+        })
+        .and_then(|values| values.first())
+        .map(|value| URL_SAFE_NO_PAD.encode(value))
+        .or_else(|| first_attr(&entry, &config.subject_attribute))
+        .filter(|value| !value.is_empty())
+        .ok_or_else(|| {
+            LdapAuthError::Configuration(format!(
+                "LDAP subject attribute {} is missing",
+                config.subject_attribute
+            ))
+        })?;
+    let username = first_attr(&entry, &config.username_attribute).ok_or_else(|| {
+        LdapAuthError::Configuration(format!(
+            "LDAP username attribute {} is missing",
+            config.username_attribute
+        ))
+    })?;
+    let display_name = first_attr(&entry, &config.display_name_attribute);
+    let email = first_attr(&entry, &config.email_attribute);
+    Ok(LdapProfile {
+        dn: entry.dn,
+        subject,
+        subject_key: String::new(),
+        username,
+        display_name,
+        email,
+    })
+}
+
+fn first_attr(entry: &SearchEntry, name: &str) -> Option<String> {
+    entry
+        .attrs
+        .get(name)
+        .or_else(|| {
+            entry
+                .attrs
+                .iter()
+                .find(|(key, _)| key.eq_ignore_ascii_case(name))
+                .map(|(_, value)| value)
+        })
+        .and_then(|values| values.first())
+        .map(|value| value.trim())
+        .filter(|value| !value.is_empty())
+        .map(str::to_string)
+}
+
+fn direct_template_is_dn(template: &str) -> bool {
+    template
+        .split(',')
+        .any(|component| component.trim().split_once('=').is_some())
+}
+
+#[cfg(test)]
+pub(super) fn split_pem_certificates_for_test(value: &str) -> Vec<String> {
+    split_pem_certificates(value)
+}
+
+#[cfg(test)]
+pub(super) fn binary_subject_for_test(value: &[u8]) -> String {
+    URL_SAFE_NO_PAD.encode(value)
+}
+
+#[cfg(test)]
+pub(super) fn direct_principal_for_test(template: &str, username: &str) -> String {
+    let escaped = if direct_template_is_dn(template) {
+        ldap3::dn_escape(username).into_owned()
+    } else {
+        username.to_string()
+    };
+    template.replace("{username}", &escaped)
+}
+
+#[cfg(test)]
+pub(super) fn client_error_is_unavailable_for_test(error: ldap3::LdapError) -> bool {
+    matches!(classify_client_error(error), LdapAuthError::Unavailable(_))
+}

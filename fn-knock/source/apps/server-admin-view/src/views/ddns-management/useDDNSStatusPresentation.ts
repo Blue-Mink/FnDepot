@@ -1,1 +1,90 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgY29weVRleHRUb0NsaXBib2FyZCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvY29weVRleHRUb0NsaXBib2FyZCI7CmltcG9ydCB7IGJ1aWxkREROU1RpbWVzdGFtcFRvb2x0aXBMaW5lcyB9IGZyb20gIi4uLy4uL2xpYi9kZG5zLXRpbWUiOwppbXBvcnQgeyB0eXBlIERETlNUYXJnZXRTdW1tYXJ5UGF5bG9hZCB9IGZyb20gIkAvbGliL2FwaS9kZG5zIjsKaW1wb3J0IHR5cGUgeyBMYXN0Q2hlY2ssIExhc3RJUCB9IGZyb20gIi4vbW9kZWwiOwoKdHlwZSBUcmFuc2xhdGUgPSAoCiAga2V5OiBzdHJpbmcsCiAgcGFyYW1zPzogUmVjb3JkPHN0cmluZywgc3RyaW5nIHwgbnVtYmVyPiwKKSA9PiBzdHJpbmc7CgppbnRlcmZhY2UgVXNlREROU1N0YXR1c1ByZXNlbnRhdGlvbk9wdGlvbnMgewogIGxhc3RDaGVjazogUmVmPExhc3RDaGVjaz47CiAgbGFzdElQOiBSZWY8TGFzdElQPjsKICBsb2NhbGU6IFJlZjxzdHJpbmc+OwogIHRyYW5zbGF0ZTogVHJhbnNsYXRlOwogIHVwZGF0ZUludGVydmFsTWludXRlczogUmVmPG51bWJlcj47Cn0KCmV4cG9ydCBmdW5jdGlvbiB1c2VERE5TU3RhdHVzUHJlc2VudGF0aW9uKHsKICBsYXN0Q2hlY2ssCiAgbGFzdElQLAogIGxvY2FsZSwKICB0cmFuc2xhdGUsCiAgdXBkYXRlSW50ZXJ2YWxNaW51dGVzLAp9OiBVc2VERE5TU3RhdHVzUHJlc2VudGF0aW9uT3B0aW9ucykgewogIGNvbnN0IHRpbWVzdGFtcExhYmVscyA9ICgpID0+ICh7CiAgICBsYXN0U3VjY2Vzc2Z1bFVwZGF0ZTogdHJhbnNsYXRlKCJhZG1pbi5kZG5zLmxhc3RTdWNjZXNzZnVsVXBkYXRlIiksCiAgICBsYXN0Q2hlY2s6IHRyYW5zbGF0ZSgiYWRtaW4uZGRucy5sYXN0Q2hlY2siKSwKICAgIG5ldmVyOiB0cmFuc2xhdGUoImFkbWluLmRkbnMubmV2ZXIiKSwKICB9KTsKCiAgY29uc3QgZ2V0VGFyZ2V0TGFzdENoZWNrVG9vbHRpcExpbmVzID0gKHRhcmdldDogREROU1RhcmdldFN1bW1hcnlQYXlsb2FkKSA9PgogICAgYnVpbGRERE5TVGltZXN0YW1wVG9vbHRpcExpbmVzKHsKICAgICAgdXBkYXRlZEF0OiB0YXJnZXQubGFzdElQLnVwZGF0ZWRfYXQsCiAgICAgIGNoZWNrZWRBdDogdGFyZ2V0Lmxhc3RDaGVjay5jaGVja2VkX2F0LAogICAgICBsb2NhbGU6IFN0cmluZyhsb2NhbGUudmFsdWUpLAogICAgICBsYWJlbHM6IHRpbWVzdGFtcExhYmVscygpLAogICAgfSk7CgogIGNvbnN0IGxhc3RDaGVja1Rvb2x0aXBMaW5lcyA9IGNvbXB1dGVkKCgpID0+CiAgICBidWlsZERETlNUaW1lc3RhbXBUb29sdGlwTGluZXMoewogICAgICB1cGRhdGVkQXQ6IGxhc3RJUC52YWx1ZS51cGRhdGVkX2F0LAogICAgICBjaGVja2VkQXQ6IGxhc3RDaGVjay52YWx1ZS5jaGVja2VkX2F0LAogICAgICBsb2NhbGU6IFN0cmluZyhsb2NhbGUudmFsdWUpLAogICAgICBsYWJlbHM6IHRpbWVzdGFtcExhYmVscygpLAogICAgfSksCiAgKTsKCiAgY29uc3QgdXBkYXRlSW50ZXJ2YWxMYWJlbCA9IGNvbXB1dGVkKCgpID0+CiAgICB0cmFuc2xhdGUoImFkbWluLmRkbnMudXBkYXRlSW50ZXJ2YWxMYWJlbCIsIHsKICAgICAgbWludXRlczogdXBkYXRlSW50ZXJ2YWxNaW51dGVzLnZhbHVlLAogICAgfSksCiAgKTsKCiAgY29uc3QgY29weUlwQWRkcmVzcyA9IGFzeW5jICgKICAgIHZlcnNpb25MYWJlbDogIklQdjQiIHwgIklQdjYiLAogICAgdmFsdWU6IHN0cmluZyB8IG51bGwsCiAgKSA9PiB7CiAgICBjb25zdCBhZGRyZXNzID0gdmFsdWU/LnRyaW0oKTsKICAgIGlmICghYWRkcmVzcykgewogICAgICB0b2FzdC5lcnJvcigKICAgICAgICB0cmFuc2xhdGUoImFkbWluLmRkbnMuY29weVVuYXZhaWxhYmxlIiwgeyB2ZXJzaW9uOiB2ZXJzaW9uTGFiZWwgfSksCiAgICAgICk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICB0cnkgewogICAgICBhd2FpdCBjb3B5VGV4dFRvQ2xpcGJvYXJkKGFkZHJlc3MpOwogICAgICB0b2FzdC5zdWNjZXNzKAogICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uZGRucy5jb3B5U3VjY2VzcyIsIHsgdmVyc2lvbjogdmVyc2lvbkxhYmVsIH0pLAogICAgICAgIHsgZGVzY3JpcHRpb246IGFkZHJlc3MgfSwKICAgICAgKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoImNvcHlJcEFkZHJlc3M6IiwgZXJyb3IpOwogICAgICB0b2FzdC5lcnJvcigKICAgICAgICB0cmFuc2xhdGUoImFkbWluLmRkbnMuY29weUZhaWxlZCIsIHsgdmVyc2lvbjogdmVyc2lvbkxhYmVsIH0pLAogICAgICAgIHsgZGVzY3JpcHRpb246IHRyYW5zbGF0ZSgiYWRtaW4uZGRucy5jb3B5RmFpbGVkRGVzY3JpcHRpb24iKSB9LAogICAgICApOwogICAgfQogIH07CgogIHJldHVybiB7CiAgICBjb3B5SXBBZGRyZXNzLAogICAgZ2V0VGFyZ2V0TGFzdENoZWNrVG9vbHRpcExpbmVzLAogICAgbGFzdENoZWNrVG9vbHRpcExpbmVzLAogICAgdXBkYXRlSW50ZXJ2YWxMYWJlbCwKICB9Owp9Cg==
+import { computed, type Ref } from "vue";
+import { toast } from "@admin-shared/utils/toast";
+import { copyTextToClipboard } from "@admin-shared/utils/copyTextToClipboard";
+import { buildDDNSTimestampTooltipLines } from "../../lib/ddns-time";
+import { type DDNSTargetSummaryPayload } from "@/lib/api/ddns";
+import type { LastCheck, LastIP } from "./model";
+
+type Translate = (
+  key: string,
+  params?: Record<string, string | number>,
+) => string;
+
+interface UseDDNSStatusPresentationOptions {
+  lastCheck: Ref<LastCheck>;
+  lastIP: Ref<LastIP>;
+  locale: Ref<string>;
+  translate: Translate;
+  updateIntervalMinutes: Ref<number>;
+}
+
+export function useDDNSStatusPresentation({
+  lastCheck,
+  lastIP,
+  locale,
+  translate,
+  updateIntervalMinutes,
+}: UseDDNSStatusPresentationOptions) {
+  const timestampLabels = () => ({
+    lastSuccessfulUpdate: translate("admin.ddns.lastSuccessfulUpdate"),
+    lastCheck: translate("admin.ddns.lastCheck"),
+    never: translate("admin.ddns.never"),
+  });
+
+  const getTargetLastCheckTooltipLines = (target: DDNSTargetSummaryPayload) =>
+    buildDDNSTimestampTooltipLines({
+      updatedAt: target.lastIP.updated_at,
+      checkedAt: target.lastCheck.checked_at,
+      locale: String(locale.value),
+      labels: timestampLabels(),
+    });
+
+  const lastCheckTooltipLines = computed(() =>
+    buildDDNSTimestampTooltipLines({
+      updatedAt: lastIP.value.updated_at,
+      checkedAt: lastCheck.value.checked_at,
+      locale: String(locale.value),
+      labels: timestampLabels(),
+    }),
+  );
+
+  const updateIntervalLabel = computed(() =>
+    translate("admin.ddns.updateIntervalLabel", {
+      minutes: updateIntervalMinutes.value,
+    }),
+  );
+
+  const copyIpAddress = async (
+    versionLabel: "IPv4" | "IPv6",
+    value: string | null,
+  ) => {
+    const address = value?.trim();
+    if (!address) {
+      toast.error(
+        translate("admin.ddns.copyUnavailable", { version: versionLabel }),
+      );
+      return;
+    }
+
+    try {
+      await copyTextToClipboard(address);
+      toast.success(
+        translate("admin.ddns.copySuccess", { version: versionLabel }),
+        { description: address },
+      );
+    } catch (error) {
+      console.error("copyIpAddress:", error);
+      toast.error(
+        translate("admin.ddns.copyFailed", { version: versionLabel }),
+        { description: translate("admin.ddns.copyFailedDescription") },
+      );
+    }
+  };
+
+  return {
+    copyIpAddress,
+    getTargetLastCheckTooltipLines,
+    lastCheckTooltipLines,
+    updateIntervalLabel,
+  };
+}

@@ -1,1 +1,456 @@
-dXNlIHN1cGVyOjoqOwoKcHViIGFzeW5jIGZuIHRyeV9yZXN0b3JlX2FjY2VzcygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBjbGllbnRfaXA6ICZzdHIsCiAgICBpZGVudGl0eTogQXV0aE1vYmlsaXR5UmVzdG9yZUlkZW50aXR5PCdfPiwKKSAtPiBhbnlob3c6OlJlc3VsdDxBdXRoTW9iaWxpdHlSZXN0b3JlUmVzdWx0PiB7CiAgICBpZiBsZXQgU29tZSh0b2tlbikgPSBpZGVudGl0eS5mbm9zX3Rva2VuLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS50cmltKCkuaXNfZW1wdHkoKSkKICAgICAgICAmJiByZXN0b3JlX2FwcF90b2tlbl9iaW5kaW5nKHN0YXRlLCAiZm5vcy10b2tlbiIsIHRva2VuLCBjbGllbnRfaXAsICJmbm9zLXRva2VuIikuYXdhaXQ/CiAgICB7CiAgICAgICAgcmV0dXJuIE9rKEF1dGhNb2JpbGl0eVJlc3RvcmVSZXN1bHQgewogICAgICAgICAgICBzdWNjZXNzOiB0cnVlLAogICAgICAgICAgICBncmFudF90eXBlOiBTb21lKCJmbm9zX2ZpbmdlcnByaW50X3Nlc3Npb24iKSwKICAgICAgICB9KTsKICAgIH0KCiAgICBpZiBsZXQgU29tZSh0b2tlbikgPSBpZGVudGl0eQogICAgICAgIC50cmltX21lZGlhX3Rva2VuCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS50cmltKCkuaXNfZW1wdHkoKSkKICAgICAgICAmJiByZXN0b3JlX2FwcF90b2tlbl9iaW5kaW5nKHN0YXRlLCAidHJpbS1tZWRpYS10b2tlbiIsIHRva2VuLCBjbGllbnRfaXAsICJmbm9zLXRva2VuIikKICAgICAgICAgICAgLmF3YWl0PwogICAgewogICAgICAgIHJldHVybiBPayhBdXRoTW9iaWxpdHlSZXN0b3JlUmVzdWx0IHsKICAgICAgICAgICAgc3VjY2VzczogdHJ1ZSwKICAgICAgICAgICAgZ3JhbnRfdHlwZTogU29tZSgiZm5vc19maW5nZXJwcmludF9zZXNzaW9uIiksCiAgICAgICAgfSk7CiAgICB9CgogICAgbWF0Y2ggaWRlbnRpdHkuYXBwX2JpbmRpbmcgewogICAgICAgIFNvbWUoImZub3MtYXBwIikgaWYgcmVzdG9yZV9hbm9ueW1vdXNfZm5vc19hcHAoc3RhdGUsIGNsaWVudF9pcCkuYXdhaXQ/ID0+IHsKICAgICAgICAgICAgcmV0dXJuIE9rKEF1dGhNb2JpbGl0eVJlc3RvcmVSZXN1bHQgewogICAgICAgICAgICAgICAgc3VjY2VzczogdHJ1ZSwKICAgICAgICAgICAgICAgIGdyYW50X3R5cGU6IFNvbWUoImZub3NfZmluZ2VycHJpbnRfc2Vzc2lvbiIpLAogICAgICAgICAgICB9KTsKICAgICAgICB9CiAgICAgICAgU29tZSgidHJpbS1tZWRpYS1hcHAiKSBpZiByZXN0b3JlX3RyaW1fbWVkaWFfYXBwKHN0YXRlLCBjbGllbnRfaXApLmF3YWl0PyA9PiB7CiAgICAgICAgICAgIHJldHVybiBPayhBdXRoTW9iaWxpdHlSZXN0b3JlUmVzdWx0IHsKICAgICAgICAgICAgICAgIHN1Y2Nlc3M6IHRydWUsCiAgICAgICAgICAgICAgICBncmFudF90eXBlOiBTb21lKCJmbm9zX2ZpbmdlcnByaW50X3Nlc3Npb24iKSwKICAgICAgICAgICAgfSk7CiAgICAgICAgfQogICAgICAgIF8gPT4ge30KICAgIH0KCiAgICBpZiBsZXQgU29tZShzZXNzaW9uX2lkKSA9IGlkZW50aXR5LnNlc3Npb25faWQuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLnRyaW0oKS5pc19lbXB0eSgpKQogICAgICAgICYmIHJlc3RvcmVfcHJveHlfc2Vzc2lvbihzdGF0ZSwgc2Vzc2lvbl9pZCwgY2xpZW50X2lwKS5hd2FpdD8KICAgIHsKICAgICAgICByZXR1cm4gT2soQXV0aE1vYmlsaXR5UmVzdG9yZVJlc3VsdCB7CiAgICAgICAgICAgIHN1Y2Nlc3M6IHRydWUsCiAgICAgICAgICAgIGdyYW50X3R5cGU6IFNvbWUoInNlc3Npb25fbWlncmF0aW9uIiksCiAgICAgICAgfSk7CiAgICB9CgogICAgT2soQXV0aE1vYmlsaXR5UmVzdG9yZVJlc3VsdCB7CiAgICAgICAgc3VjY2VzczogZmFsc2UsCiAgICAgICAgZ3JhbnRfdHlwZTogTm9uZSwKICAgIH0pCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gcmVzdG9yZV9hcHBfdG9rZW5fYmluZGluZygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBzdWJqZWN0X3R5cGU6ICZzdHIsCiAgICBzdWJqZWN0X2tleTogJnN0ciwKICAgIGNsaWVudF9pcDogJnN0ciwKICAgIHN5bmNfc291cmNlOiAmc3RyLAopIC0+IGFueWhvdzo6UmVzdWx0PGJvb2w+IHsKICAgIGxldCBub3JtYWxpemVkX2lwID0gbm9ybWFsaXplZF9vcl90cmltbWVkX2lwKGNsaWVudF9pcCk7CiAgICBpZiBub3JtYWxpemVkX2lwLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICB9CgogICAgbGV0IG11dCBiaW5kaW5nID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfYXV0aF9tb2JpbGl0eV9iaW5kaW5nKHN1YmplY3RfdHlwZSwgc3ViamVjdF9rZXkpCiAgICAgICAgLmF3YWl0PzsKICAgIGlmIGxldCBTb21lKG93bmVyX3Nlc3Npb25faWQpID0gYmluZGluZy5hc19yZWYoKS5hbmRfdGhlbihiaW5kaW5nX293bmVyX3Nlc3Npb25faWQpCiAgICAgICAgJiYgc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5nZXRfc2Vzc2lvbigmb3duZXJfc2Vzc2lvbl9pZCkKICAgICAgICAgICAgLmF3YWl0PwogICAgICAgICAgICAuaXNfbm9uZSgpCiAgICAgICAgJiYgbGV0IFNvbWUobXV0IG9ycGhhbmVkKSA9IGJpbmRpbmcudGFrZSgpCiAgICB7CiAgICAgICAgY2xlYXJfYmluZGluZ19vd25lcl9zZXNzaW9uKCZtdXQgb3JwaGFuZWQpOwogICAgICAgIHNldF9iaW5kaW5nX2xhc3Rfc2VlbigmbXV0IG9ycGhhbmVkKTsKICAgICAgICBpZiAhc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5zYXZlX2F1dGhfbW9iaWxpdHlfb3JwaGFuZWRfYmluZGluZygKICAgICAgICAgICAgICAgIHN1YmplY3RfdHlwZSwKICAgICAgICAgICAgICAgIHN1YmplY3Rfa2V5LAogICAgICAgICAgICAgICAgJm9ycGhhbmVkLAogICAgICAgICAgICAgICAgJm93bmVyX3Nlc3Npb25faWQsCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0PwogICAgICAgIHsKICAgICAgICAgICAgcmV0dXJuIE9rKGZhbHNlKTsKICAgICAgICB9CiAgICAgICAgYmluZGluZyA9IFNvbWUob3JwaGFuZWQpOwogICAgfQoKICAgIGlmIGJpbmRpbmcKICAgICAgICAuYXNfcmVmKCkKICAgICAgICAuYW5kX3RoZW4oYmluZGluZ19vd25lcl9zZXNzaW9uX2lkKQogICAgICAgIC5pc19ub25lKCkKICAgIHsKICAgICAgICBsZXQgU29tZSgob3duZXJfc2Vzc2lvbl9pZCwgb3duZXJfc2Vzc2lvbikpID0KICAgICAgICAgICAgcmVzb2x2ZV9ib290c3RyYXBfb3duZXIoc3RhdGUsICZub3JtYWxpemVkX2lwKS5hd2FpdD8KICAgICAgICBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuIE9rKGZhbHNlKTsKICAgICAgICB9OwogICAgICAgIGxldCBleHBpcmVfYXQgPSBwYXJzZV9pc29fdW5peChvd25lcl9zZXNzaW9uLmV4cGlyZXNfYXQuYXNfZGVyZWYoKSk7CiAgICAgICAgbGV0IFNvbWUodHRsX3NlY29uZHMpID0gcmVzb2x2ZV9wcm94eV9zZXNzaW9uX3R0bChleHBpcmVfYXQpIGVsc2UgewogICAgICAgICAgICByZXR1cm4gT2soZmFsc2UpOwogICAgICAgIH07CiAgICAgICAgbGV0IG5leHRfYmluZGluZyA9IGJ1aWxkX29yX3VwZGF0ZV9tb2JpbGl0eV9iaW5kaW5nKAogICAgICAgICAgICBiaW5kaW5nLAogICAgICAgICAgICBzdWJqZWN0X3R5cGUsCiAgICAgICAgICAgIHN1YmplY3Rfa2V5LAogICAgICAgICAgICAmbm9ybWFsaXplZF9pcCwKICAgICAgICAgICAgZXhwaXJlX2F0LAogICAgICAgICAgICBTb21lKCZvd25lcl9zZXNzaW9uX2lkKSwKICAgICAgICAgICAgTm9uZSwKICAgICAgICApOwogICAgICAgIGlmICFzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnNhdmVfYXV0aF9tb2JpbGl0eV9vd25lZF9iaW5kaW5nKAogICAgICAgICAgICAgICAgc3ViamVjdF90eXBlLAogICAgICAgICAgICAgICAgc3ViamVjdF9rZXksCiAgICAgICAgICAgICAgICAmbmV4dF9iaW5kaW5nLAogICAgICAgICAgICAgICAgJm93bmVyX3Nlc3Npb25faWQsCiAgICAgICAgICAgICAgICB0dGxfc2Vjb25kcywKICAgICAgICAgICAgICAgIHJlc29sdmVfcHJveHlfc2Vzc2lvbl90dGwoZXhwaXJlX2F0KSwKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXdhaXQ/CiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gT2soZmFsc2UpOwogICAgICAgIH0KICAgICAgICBiaW5kaW5nID0gU29tZShuZXh0X2JpbmRpbmcpOwogICAgfQoKICAgIGxldCBTb21lKG93bmVyX3Nlc3Npb25faWQpID0gYmluZGluZy5hc19yZWYoKS5hbmRfdGhlbihiaW5kaW5nX293bmVyX3Nlc3Npb25faWQpIGVsc2UgewogICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICB9OwogICAgbGV0IFNvbWUob3duZXJfc2Vzc2lvbikgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9zZXNzaW9uKCZvd25lcl9zZXNzaW9uX2lkKS5hd2FpdD8gZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKGZhbHNlKTsKICAgIH07CiAgICBsZXQgZXhwaXJlX2F0ID0gcGFyc2VfaXNvX3VuaXgob3duZXJfc2Vzc2lvbi5leHBpcmVzX2F0LmFzX2RlcmVmKCkpOwogICAgbGV0IFNvbWUodHRsX3NlY29uZHMpID0gcmVzb2x2ZV9wcm94eV9zZXNzaW9uX3R0bChleHBpcmVfYXQpIGVsc2UgewogICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICB9OwogICAgbGV0IHdoaXRlbGlzdF9yZWNvcmRfaWQgPSBiaW5kaW5nLmFzX3JlZigpLmFuZF90aGVuKGJpbmRpbmdfd2hpdGVsaXN0X3JlY29yZF9pZCk7CiAgICBsZXQgbmV4dF9iaW5kaW5nID0gYnVpbGRfb3JfdXBkYXRlX21vYmlsaXR5X2JpbmRpbmcoCiAgICAgICAgYmluZGluZywKICAgICAgICBzdWJqZWN0X3R5cGUsCiAgICAgICAgc3ViamVjdF9rZXksCiAgICAgICAgJm5vcm1hbGl6ZWRfaXAsCiAgICAgICAgZXhwaXJlX2F0LAogICAgICAgIFNvbWUoJm93bmVyX3Nlc3Npb25faWQpLAogICAgICAgIHdoaXRlbGlzdF9yZWNvcmRfaWQsCiAgICApOwogICAgaWYgIXN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2F2ZV9hdXRoX21vYmlsaXR5X293bmVkX2JpbmRpbmcoCiAgICAgICAgICAgIHN1YmplY3RfdHlwZSwKICAgICAgICAgICAgc3ViamVjdF9rZXksCiAgICAgICAgICAgICZuZXh0X2JpbmRpbmcsCiAgICAgICAgICAgICZvd25lcl9zZXNzaW9uX2lkLAogICAgICAgICAgICB0dGxfc2Vjb25kcywKICAgICAgICAgICAgcmVzb2x2ZV9wcm94eV9zZXNzaW9uX3R0bChleHBpcmVfYXQpLAogICAgICAgICkKICAgICAgICAuYXdhaXQ/CiAgICB7CiAgICAgICAgcmV0dXJuIE9rKGZhbHNlKTsKICAgIH0KCiAgICBpZiBzeW5jX2Jyb3dzZXJfc2Vzc2lvbl9pcChzdGF0ZSwgJm93bmVyX3Nlc3Npb25faWQsICZub3JtYWxpemVkX2lwLCBzeW5jX3NvdXJjZSkKICAgICAgICAuYXdhaXQ/CiAgICAgICAgLmlzX25vbmUoKQogICAgewogICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICB9CgogICAgT2sodHJ1ZSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiByZXN0b3JlX2Fub255bW91c19mbm9zX2FwcCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBjbGllbnRfaXA6ICZzdHIsCikgLT4gYW55aG93OjpSZXN1bHQ8Ym9vbD4gewogICAgbGV0IFNvbWUoKG93bmVyX3Nlc3Npb25faWQsIF9vd25lcl9zZXNzaW9uKSkgPQogICAgICAgIHJlc29sdmVfYm9vdHN0cmFwX293bmVyKHN0YXRlLCBjbGllbnRfaXApLmF3YWl0PwogICAgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKGZhbHNlKTsKICAgIH07CiAgICBsZXQgXyA9IGlwX2xvY2F0aW9uOjpyZWdpc3Rlcl91c2FnZSgKICAgICAgICBzdGF0ZSwKICAgICAgICBjbGllbnRfaXAsCiAgICAgICAgdmVjIVsKICAgICAgICAgICAgZm9ybWF0ISgic2Vzc2lvbnx7b3duZXJfc2Vzc2lvbl9pZH0iKSwKICAgICAgICAgICAgZm9ybWF0ISgic2Vzc2lvbi10aW1lbGluZXx7b3duZXJfc2Vzc2lvbl9pZH0iKSwKICAgICAgICBdLAogICAgKQogICAgLmF3YWl0OwogICAgT2sodHJ1ZSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiByZXN0b3JlX3RyaW1fbWVkaWFfYXBwKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGNsaWVudF9pcDogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDxib29sPiB7CiAgICBsZXQgc2Vzc2lvbnMgPSBsaXN0X2FjdGl2ZV9zZXNzaW9uc19ieV9pcChzdGF0ZSwgY2xpZW50X2lwKS5hd2FpdD87CiAgICBpZiBzZXNzaW9ucy5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gT2soZmFsc2UpOwogICAgfQoKICAgIGxldCBtdXQgcmVmZXJlbmNlcyA9IFZlYzo6bmV3KCk7CiAgICBmb3IgKHNlc3Npb25faWQsIF9zZXNzaW9uKSBpbiBzZXNzaW9ucyB7CiAgICAgICAgZm9yIHJlZmVyZW5jZSBpbiBbCiAgICAgICAgICAgIGZvcm1hdCEoInNlc3Npb258e3Nlc3Npb25faWR9IiksCiAgICAgICAgICAgIGZvcm1hdCEoInNlc3Npb24tdGltZWxpbmV8e3Nlc3Npb25faWR9IiksCiAgICAgICAgXSB7CiAgICAgICAgICAgIGlmICFyZWZlcmVuY2VzLml0ZXIoKS5hbnkofHZhbHVlfCB2YWx1ZSA9PSAmcmVmZXJlbmNlKSB7CiAgICAgICAgICAgICAgICByZWZlcmVuY2VzLnB1c2gocmVmZXJlbmNlKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIGxldCBfID0gaXBfbG9jYXRpb246OnJlZ2lzdGVyX3VzYWdlKHN0YXRlLCBjbGllbnRfaXAsIHJlZmVyZW5jZXMpLmF3YWl0OwogICAgT2sodHJ1ZSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiByZXN0b3JlX3Byb3h5X3Nlc3Npb24oCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgc2Vzc2lvbl9pZDogJnN0ciwKICAgIGNsaWVudF9pcDogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDxib29sPiB7CiAgICBsZXQgU29tZShzZXNzaW9uKSA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X3Nlc3Npb24oc2Vzc2lvbl9pZCkuYXdhaXQ/IGVsc2UgewogICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICB9OwogICAgbGV0IG5vcm1hbGl6ZWRfaXAgPSBub3JtYWxpemVkX29yX3RyaW1tZWRfaXAoY2xpZW50X2lwKTsKICAgIGlmIG5vcm1hbGl6ZWRfaXAuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE9rKGZhbHNlKTsKICAgIH0KICAgIGxldCBjb25maWcgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9jb25maWcoKS5hd2FpdD87CiAgICBsZXQgc2V0dGluZ3MgPSBBdXRoQ3JlZGVudGlhbFNldHRpbmdzOjpmcm9tX2NvbmZpZygmY29uZmlnKTsKICAgIGxldCBiaW5kaW5nID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfYXV0aF9tb2JpbGl0eV9iaW5kaW5nKCJwcm94eS1zZXNzaW9uIiwgc2Vzc2lvbl9pZCkKICAgICAgICAuYXdhaXQ/OwoKICAgIGlmIHNldHRpbmdzLnNlc3Npb25faXBfbW9iaWxpdHlfZW5hYmxlZCB7CiAgICAgICAgaWYgc2Vzc2lvbl9pcF9tYXRjaGVzKCZzZXNzaW9uLCAmbm9ybWFsaXplZF9pcCkgewogICAgICAgICAgICByZXR1cm4gT2soZmFsc2UpOwogICAgICAgIH0KICAgICAgICBpZiBsZXQgU29tZShiaW5kaW5nKSA9IGJpbmRpbmcgewogICAgICAgICAgICBsZXQgd2hpdGVsaXN0X3JlY29yZF9pZCA9IGJpbmRpbmdfd2hpdGVsaXN0X3JlY29yZF9pZCgmYmluZGluZyk7CiAgICAgICAgICAgIGxldCBuZXh0X2JpbmRpbmcgPSBidWlsZF9vcl91cGRhdGVfbW9iaWxpdHlfYmluZGluZygKICAgICAgICAgICAgICAgIFNvbWUoYmluZGluZyksCiAgICAgICAgICAgICAgICAicHJveHktc2Vzc2lvbiIsCiAgICAgICAgICAgICAgICBzZXNzaW9uX2lkLAogICAgICAgICAgICAgICAgJm5vcm1hbGl6ZWRfaXAsCiAgICAgICAgICAgICAgICBwYXJzZV9pc29fdW5peChzZXNzaW9uLmV4cGlyZXNfYXQuYXNfZGVyZWYoKSksCiAgICAgICAgICAgICAgICBTb21lKHNlc3Npb25faWQpLAogICAgICAgICAgICAgICAgd2hpdGVsaXN0X3JlY29yZF9pZCwKICAgICAgICAgICAgKTsKICAgICAgICAgICAgaWYgIXN0YXRlCiAgICAgICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgICAgICAuc2F2ZV9hdXRoX21vYmlsaXR5X2JpbmRpbmdfa2VlcF90dGwoCiAgICAgICAgICAgICAgICAgICAgInByb3h5LXNlc3Npb24iLAogICAgICAgICAgICAgICAgICAgIHNlc3Npb25faWQsCiAgICAgICAgICAgICAgICAgICAgJm5leHRfYmluZGluZywKICAgICAgICAgICAgICAgICAgICBzZXNzaW9uX2lkLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgLmF3YWl0PwogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICByZXR1cm4gT2soZmFsc2UpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBPaygKICAgICAgICAgICAgc3luY19icm93c2VyX3Nlc3Npb25faXAoc3RhdGUsIHNlc3Npb25faWQsICZub3JtYWxpemVkX2lwLCAicHJveHktc2Vzc2lvbiIpCiAgICAgICAgICAgICAgICAuYXdhaXQ/CiAgICAgICAgICAgICAgICAuaXNfc29tZSgpLAogICAgICAgICk7CiAgICB9CgogICAgbGV0IFNvbWUoYmluZGluZykgPSBiaW5kaW5nIGVsc2UgewogICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICB9OwogICAgaWYgYmluZGluZ193aGl0ZWxpc3RfcmVjb3JkX2lkKCZiaW5kaW5nKS5pc19ub25lKCkgewogICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICB9CiAgICBpZiBzZXNzaW9uX2lwX21hdGNoZXMoJnNlc3Npb24sICZub3JtYWxpemVkX2lwKQogICAgICAgICYmIG1vYmlsaXR5X2JpbmRpbmdfdG91Y2hfaXNfZnJlc2goJmJpbmRpbmcsICZub3JtYWxpemVkX2lwLCBzZXNzaW9uX2lkLCBub3dfc2Vjb25kcygpKQogICAgewogICAgICAgIC8vIEtlZXAgdGhlIGhpc3RvcmljYWwgc2Vzc2lvbl9taWdyYXRpb24gZ3JhbnQgd2hpbGUgYXZvaWRpbmcgYQogICAgICAgIC8vIG5vLW9wIHdoaXRlbGlzdC9iaW5kaW5nL3Nlc3Npb24gcmV3cml0ZSBmb3IgYW4gYWxyZWFkeS1jdXJyZW50IElQLgogICAgICAgIHJldHVybiBPayh0cnVlKTsKICAgIH0KICAgIHJlc3RvcmVfc2luZ2xlX2lwX3Byb3h5X3Nlc3Npb24oc3RhdGUsIHNlc3Npb25faWQsICZub3JtYWxpemVkX2lwKS5hd2FpdAp9Cgphc3luYyBmbiByZXN0b3JlX3NpbmdsZV9pcF9wcm94eV9zZXNzaW9uKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHNlc3Npb25faWQ6ICZzdHIsCiAgICBub3JtYWxpemVkX2lwOiAmc3RyLAopIC0+IGFueWhvdzo6UmVzdWx0PGJvb2w+IHsKICAgIGxldCBTb21lKGxlYXNlKSA9IGFjcXVpcmVfYXV0aF9tb2JpbGl0eV9zZXNzaW9uX211dGF0aW9uX2xlYXNlKHN0YXRlLCBzZXNzaW9uX2lkKS5hd2FpdD8gZWxzZSB7CiAgICAgICAgYW55aG93OjpiYWlsISgiVGltZWQgb3V0IHdhaXRpbmcgZm9yIGF1dGggbW9iaWxpdHkgc2Vzc2lvbiBtdXRhdGlvbiBsb2NrIik7CiAgICB9OwogICAgbGV0IHJlc3VsdCA9IGFzeW5jIHsKICAgICAgICBpZiAhbGVhc2UuZW5zdXJlX3ZhbGlkKCkuYXdhaXQ/IHsKICAgICAgICAgICAgcmV0dXJuIE9rKGZhbHNlKTsKICAgICAgICB9CiAgICAgICAgbGV0IFNvbWUoc2Vzc2lvbikgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9zZXNzaW9uKHNlc3Npb25faWQpLmF3YWl0PyBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuIE9rKGZhbHNlKTsKICAgICAgICB9OwogICAgICAgIGxldCBTb21lKGJpbmRpbmcpID0gc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5nZXRfYXV0aF9tb2JpbGl0eV9iaW5kaW5nKCJwcm94eS1zZXNzaW9uIiwgc2Vzc2lvbl9pZCkKICAgICAgICAgICAgLmF3YWl0PwogICAgICAgIGVsc2UgewogICAgICAgICAgICByZXR1cm4gT2soZmFsc2UpOwogICAgICAgIH07CiAgICAgICAgbGV0IFNvbWUod2hpdGVsaXN0X3JlY29yZF9pZCkgPSBiaW5kaW5nX3doaXRlbGlzdF9yZWNvcmRfaWQoJmJpbmRpbmcpIGVsc2UgewogICAgICAgICAgICByZXR1cm4gT2soZmFsc2UpOwogICAgICAgIH07CiAgICAgICAgaWYgc2Vzc2lvbl9pcF9tYXRjaGVzKCZzZXNzaW9uLCBub3JtYWxpemVkX2lwKQogICAgICAgICAgICAmJiBtb2JpbGl0eV9iaW5kaW5nX3RvdWNoX2lzX2ZyZXNoKCZiaW5kaW5nLCBub3JtYWxpemVkX2lwLCBzZXNzaW9uX2lkLCBub3dfc2Vjb25kcygpKQogICAgICAgIHsKICAgICAgICAgICAgcmV0dXJuIE9rKHRydWUpOwogICAgICAgIH0KICAgICAgICBsZXQgU29tZShtb3ZlZF9yZWNvcmQpID0KICAgICAgICAgICAgd2hpdGVsaXN0Ojptb3ZlX3JlY29yZF90b19pcChzdGF0ZSwgJndoaXRlbGlzdF9yZWNvcmRfaWQsIG5vcm1hbGl6ZWRfaXApLmF3YWl0PwogICAgICAgIGVsc2UgewogICAgICAgICAgICByZXR1cm4gT2soZmFsc2UpOwogICAgICAgIH07CiAgICAgICAgaWYgIWxlYXNlLmVuc3VyZV92YWxpZCgpLmF3YWl0PyB7CiAgICAgICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICAgICAgfQogICAgICAgIGxldCBuZXh0X2JpbmRpbmcgPSBidWlsZF9vcl91cGRhdGVfbW9iaWxpdHlfYmluZGluZygKICAgICAgICAgICAgU29tZShiaW5kaW5nKSwKICAgICAgICAgICAgInByb3h5LXNlc3Npb24iLAogICAgICAgICAgICBzZXNzaW9uX2lkLAogICAgICAgICAgICBub3JtYWxpemVkX2lwLAogICAgICAgICAgICBtb3ZlZF9yZWNvcmQKICAgICAgICAgICAgICAgIC5leHBpcmVfYXQKICAgICAgICAgICAgICAgIC5vcl9lbHNlKHx8IHBhcnNlX2lzb191bml4KHNlc3Npb24uZXhwaXJlc19hdC5hc19kZXJlZigpKSksCiAgICAgICAgICAgIFNvbWUoc2Vzc2lvbl9pZCksCiAgICAgICAgICAgIFNvbWUod2hpdGVsaXN0X3JlY29yZF9pZCksCiAgICAgICAgKTsKICAgICAgICBpZiAhc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5zYXZlX2F1dGhfbW9iaWxpdHlfYmluZGluZ19rZWVwX3R0bCgKICAgICAgICAgICAgICAgICJwcm94eS1zZXNzaW9uIiwKICAgICAgICAgICAgICAgIHNlc3Npb25faWQsCiAgICAgICAgICAgICAgICAmbmV4dF9iaW5kaW5nLAogICAgICAgICAgICAgICAgc2Vzc2lvbl9pZCwKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXdhaXQ/CiAgICAgICAgewogICAgICAgICAgICBsZXQgXyA9IHdoaXRlbGlzdDo6cmVtb3ZlX3doaXRlbGlzdF9yZWNvcmRfYnlfaWQoc3RhdGUsICZtb3ZlZF9yZWNvcmQuaWQpLmF3YWl0OwogICAgICAgICAgICByZXR1cm4gT2soZmFsc2UpOwogICAgICAgIH0KICAgICAgICBPaygKICAgICAgICAgICAgc3luY19icm93c2VyX3Nlc3Npb25faXAoc3RhdGUsIHNlc3Npb25faWQsIG5vcm1hbGl6ZWRfaXAsICJwcm94eS1zZXNzaW9uIikKICAgICAgICAgICAgICAgIC5hd2FpdD8KICAgICAgICAgICAgICAgIC5pc19zb21lKCksCiAgICAgICAgKQogICAgfQogICAgLmF3YWl0OwogICAgaWYgbGV0IEVycihlcnJvcikgPSBsZWFzZS5yZWxlYXNlKCkuYXdhaXQgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgJXNlc3Npb25faWQsICJmYWlsZWQgdG8gcmVsZWFzZSBzaW5nbGUtSVAgc2Vzc2lvbiByZXN0b3JlIGxvY2siKTsKICAgIH0KICAgIHJlc3VsdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHJlc29sdmVfYm9vdHN0cmFwX293bmVyKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGNsaWVudF9pcDogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDxPcHRpb248KFN0cmluZywgTG9naW5TZXNzaW9uKT4+IHsKICAgIGxldCBzZXNzaW9ucyA9IGxpc3RfYWN0aXZlX3Nlc3Npb25zX2J5X2lwKHN0YXRlLCBjbGllbnRfaXApLmF3YWl0PzsKICAgIE9rKChzZXNzaW9ucy5sZW4oKSA9PSAxKQogICAgICAgIC50aGVuKHx8IHNlc3Npb25zLmludG9faXRlcigpLm5leHQoKSkKICAgICAgICAuZmxhdHRlbigpKQp9CgpwdWIgYXN5bmMgZm4gbGlzdF9hY3RpdmVfc2Vzc2lvbnNfYnlfaXAoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgY2xpZW50X2lwOiAmc3RyLAopIC0+IGFueWhvdzo6UmVzdWx0PFZlYzwoU3RyaW5nLCBMb2dpblNlc3Npb24pPj4gewogICAgbGV0IG5vcm1hbGl6ZWRfaXAgPSBub3JtYWxpemVkX29yX3RyaW1tZWRfaXAoY2xpZW50X2lwKTsKICAgIGlmIG5vcm1hbGl6ZWRfaXAuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE9rKFZlYzo6bmV3KCkpOwogICAgfQogICAgbGV0IGNvbmZpZyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0PzsKICAgIGxldCBtdXQgb3duZXJzID0gVmVjOjpuZXcoKTsKICAgIGZvciAoc2Vzc2lvbl9pZCwgc2Vzc2lvbikgaW4gc3RhdGUuc3RvcmFnZS5zdG9yZS5saXN0X2xvZ2luX3Nlc3Npb25zKCkuYXdhaXQ/IHsKICAgICAgICBsZXQgaXBzID0gZWZmZWN0aXZlX3Nlc3Npb25faXBzKHN0YXRlLCAmc2Vzc2lvbl9pZCwgJnNlc3Npb24sICZjb25maWcpLmF3YWl0PzsKICAgICAgICBpZiBpcHMuaXRlcigpLmFueSh8aXB8IGlwID09ICZub3JtYWxpemVkX2lwKSB7CiAgICAgICAgICAgIG93bmVycy5wdXNoKChzZXNzaW9uX2lkLCBzZXNzaW9uKSk7CiAgICAgICAgfQogICAgfQogICAgT2sob3duZXJzKQp9CgpwdWIoY3JhdGUpIGFzeW5jIGZuIGxpc3Rfc3RyZWFtX2FjY2Vzc19zZXNzaW9uc19ieV9pcCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBjbGllbnRfaXA6ICZzdHIsCikgLT4gYW55aG93OjpSZXN1bHQ8VmVjPChTdHJpbmcsIExvZ2luU2Vzc2lvbik+PiB7CiAgICBsZXQgbm9ybWFsaXplZF9pcCA9IG5vcm1hbGl6ZWRfb3JfdHJpbW1lZF9pcChjbGllbnRfaXApOwogICAgaWYgbm9ybWFsaXplZF9pcC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gT2soVmVjOjpuZXcoKSk7CiAgICB9CiAgICBsZXQgY29uZmlnID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQ/OwogICAgbGV0IG11dCBvd25lcnMgPSBWZWM6Om5ldygpOwogICAgZm9yIChzZXNzaW9uX2lkLCBzZXNzaW9uKSBpbiBzdGF0ZS5zdG9yYWdlLnN0b3JlLmxpc3RfbG9naW5fc2Vzc2lvbnMoKS5hd2FpdD8gewogICAgICAgIC8vIFByb3RvY29sIG1hcHBpbmdzIGhhdmUgbm8gYnJvd3NlciBjb29raWUgdG8gcmVmcmVzaCBtb2JpbGl0eSBzdGF0ZS4KICAgICAgICAvLyBLZWVwIHRoZSBzZXNzaW9uJ3MgY2Fub25pY2FsIElQIGVsaWdpYmxlIGZvciB0aGUgbGlmZXRpbWUgb2YgaXRzCiAgICAgICAgLy8gc3RyZWFtIGdyYW50LCB3aGlsZSBhZGRpdGlvbmFsIGRyaWZ0IElQcyByZW1haW4gd2luZG93LWJvdW5kLgogICAgICAgIGlmIHN0cmVhbV9hY2Nlc3NfaXBfbWF0Y2hlcygmc2Vzc2lvbi5pcCwgJm5vcm1hbGl6ZWRfaXApIHsKICAgICAgICAgICAgb3duZXJzLnB1c2goKHNlc3Npb25faWQsIHNlc3Npb24pKTsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBpcHMgPSBlZmZlY3RpdmVfc2Vzc2lvbl9pcHMoc3RhdGUsICZzZXNzaW9uX2lkLCAmc2Vzc2lvbiwgJmNvbmZpZykuYXdhaXQ/OwogICAgICAgIGlmIGlwcwogICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgIC5hbnkofGlwfCBzdHJlYW1fYWNjZXNzX2lwX21hdGNoZXMoaXAsICZub3JtYWxpemVkX2lwKSkKICAgICAgICB7CiAgICAgICAgICAgIG93bmVycy5wdXNoKChzZXNzaW9uX2lkLCBzZXNzaW9uKSk7CiAgICAgICAgfQogICAgfQogICAgT2sob3duZXJzKQp9CgpmbiBzdHJlYW1fYWNjZXNzX2lwX21hdGNoZXMobGVmdDogJnN0ciwgcmlnaHQ6ICZzdHIpIC0+IGJvb2wgewogICAgbGV0IGxlZnQgPSBub3JtYWxpemVkX29yX3RyaW1tZWRfaXAobGVmdCk7CiAgICBsZXQgcmlnaHQgPSBub3JtYWxpemVkX29yX3RyaW1tZWRfaXAocmlnaHQpOwogICAgaWYgbGVmdC5pc19lbXB0eSgpIHx8IHJpZ2h0LmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KICAgIG1hdGNoICgKICAgICAgICBsZWZ0LnBhcnNlOjo8c3RkOjpuZXQ6OklwQWRkcj4oKSwKICAgICAgICByaWdodC5wYXJzZTo6PHN0ZDo6bmV0OjpJcEFkZHI+KCksCiAgICApIHsKICAgICAgICAoT2sobGVmdCksIE9rKHJpZ2h0KSkgPT4gbGVmdCA9PSByaWdodCwKICAgICAgICBfID0+IGZhbHNlLAogICAgfQp9Cg==
+use super::*;
+
+pub async fn try_restore_access(
+    state: &AppState,
+    client_ip: &str,
+    identity: AuthMobilityRestoreIdentity<'_>,
+) -> anyhow::Result<AuthMobilityRestoreResult> {
+    if let Some(token) = identity.fnos_token.filter(|value| !value.trim().is_empty())
+        && restore_app_token_binding(state, "fnos-token", token, client_ip, "fnos-token").await?
+    {
+        return Ok(AuthMobilityRestoreResult {
+            success: true,
+            grant_type: Some("fnos_fingerprint_session"),
+        });
+    }
+
+    if let Some(token) = identity
+        .trim_media_token
+        .filter(|value| !value.trim().is_empty())
+        && restore_app_token_binding(state, "trim-media-token", token, client_ip, "fnos-token")
+            .await?
+    {
+        return Ok(AuthMobilityRestoreResult {
+            success: true,
+            grant_type: Some("fnos_fingerprint_session"),
+        });
+    }
+
+    match identity.app_binding {
+        Some("fnos-app") if restore_anonymous_fnos_app(state, client_ip).await? => {
+            return Ok(AuthMobilityRestoreResult {
+                success: true,
+                grant_type: Some("fnos_fingerprint_session"),
+            });
+        }
+        Some("trim-media-app") if restore_trim_media_app(state, client_ip).await? => {
+            return Ok(AuthMobilityRestoreResult {
+                success: true,
+                grant_type: Some("fnos_fingerprint_session"),
+            });
+        }
+        _ => {}
+    }
+
+    if let Some(session_id) = identity.session_id.filter(|value| !value.trim().is_empty())
+        && restore_proxy_session(state, session_id, client_ip).await?
+    {
+        return Ok(AuthMobilityRestoreResult {
+            success: true,
+            grant_type: Some("session_migration"),
+        });
+    }
+
+    Ok(AuthMobilityRestoreResult {
+        success: false,
+        grant_type: None,
+    })
+}
+
+pub(super) async fn restore_app_token_binding(
+    state: &AppState,
+    subject_type: &str,
+    subject_key: &str,
+    client_ip: &str,
+    sync_source: &str,
+) -> anyhow::Result<bool> {
+    let normalized_ip = normalized_or_trimmed_ip(client_ip);
+    if normalized_ip.is_empty() {
+        return Ok(false);
+    }
+
+    let mut binding = state
+        .storage
+        .store
+        .get_auth_mobility_binding(subject_type, subject_key)
+        .await?;
+    if let Some(owner_session_id) = binding.as_ref().and_then(binding_owner_session_id)
+        && state
+            .storage
+            .store
+            .get_session(&owner_session_id)
+            .await?
+            .is_none()
+        && let Some(mut orphaned) = binding.take()
+    {
+        clear_binding_owner_session(&mut orphaned);
+        set_binding_last_seen(&mut orphaned);
+        if !state
+            .storage
+            .store
+            .save_auth_mobility_orphaned_binding(
+                subject_type,
+                subject_key,
+                &orphaned,
+                &owner_session_id,
+            )
+            .await?
+        {
+            return Ok(false);
+        }
+        binding = Some(orphaned);
+    }
+
+    if binding
+        .as_ref()
+        .and_then(binding_owner_session_id)
+        .is_none()
+    {
+        let Some((owner_session_id, owner_session)) =
+            resolve_bootstrap_owner(state, &normalized_ip).await?
+        else {
+            return Ok(false);
+        };
+        let expire_at = parse_iso_unix(owner_session.expires_at.as_deref());
+        let Some(ttl_seconds) = resolve_proxy_session_ttl(expire_at) else {
+            return Ok(false);
+        };
+        let next_binding = build_or_update_mobility_binding(
+            binding,
+            subject_type,
+            subject_key,
+            &normalized_ip,
+            expire_at,
+            Some(&owner_session_id),
+            None,
+        );
+        if !state
+            .storage
+            .store
+            .save_auth_mobility_owned_binding(
+                subject_type,
+                subject_key,
+                &next_binding,
+                &owner_session_id,
+                ttl_seconds,
+                resolve_proxy_session_ttl(expire_at),
+            )
+            .await?
+        {
+            return Ok(false);
+        }
+        binding = Some(next_binding);
+    }
+
+    let Some(owner_session_id) = binding.as_ref().and_then(binding_owner_session_id) else {
+        return Ok(false);
+    };
+    let Some(owner_session) = state.storage.store.get_session(&owner_session_id).await? else {
+        return Ok(false);
+    };
+    let expire_at = parse_iso_unix(owner_session.expires_at.as_deref());
+    let Some(ttl_seconds) = resolve_proxy_session_ttl(expire_at) else {
+        return Ok(false);
+    };
+    let whitelist_record_id = binding.as_ref().and_then(binding_whitelist_record_id);
+    let next_binding = build_or_update_mobility_binding(
+        binding,
+        subject_type,
+        subject_key,
+        &normalized_ip,
+        expire_at,
+        Some(&owner_session_id),
+        whitelist_record_id,
+    );
+    if !state
+        .storage
+        .store
+        .save_auth_mobility_owned_binding(
+            subject_type,
+            subject_key,
+            &next_binding,
+            &owner_session_id,
+            ttl_seconds,
+            resolve_proxy_session_ttl(expire_at),
+        )
+        .await?
+    {
+        return Ok(false);
+    }
+
+    if sync_browser_session_ip(state, &owner_session_id, &normalized_ip, sync_source)
+        .await?
+        .is_none()
+    {
+        return Ok(false);
+    }
+
+    Ok(true)
+}
+
+pub(super) async fn restore_anonymous_fnos_app(
+    state: &AppState,
+    client_ip: &str,
+) -> anyhow::Result<bool> {
+    let Some((owner_session_id, _owner_session)) =
+        resolve_bootstrap_owner(state, client_ip).await?
+    else {
+        return Ok(false);
+    };
+    let _ = ip_location::register_usage(
+        state,
+        client_ip,
+        vec![
+            format!("session|{owner_session_id}"),
+            format!("session-timeline|{owner_session_id}"),
+        ],
+    )
+    .await;
+    Ok(true)
+}
+
+pub(super) async fn restore_trim_media_app(
+    state: &AppState,
+    client_ip: &str,
+) -> anyhow::Result<bool> {
+    let sessions = list_active_sessions_by_ip(state, client_ip).await?;
+    if sessions.is_empty() {
+        return Ok(false);
+    }
+
+    let mut references = Vec::new();
+    for (session_id, _session) in sessions {
+        for reference in [
+            format!("session|{session_id}"),
+            format!("session-timeline|{session_id}"),
+        ] {
+            if !references.iter().any(|value| value == &reference) {
+                references.push(reference);
+            }
+        }
+    }
+    let _ = ip_location::register_usage(state, client_ip, references).await;
+    Ok(true)
+}
+
+pub(super) async fn restore_proxy_session(
+    state: &AppState,
+    session_id: &str,
+    client_ip: &str,
+) -> anyhow::Result<bool> {
+    let Some(session) = state.storage.store.get_session(session_id).await? else {
+        return Ok(false);
+    };
+    let normalized_ip = normalized_or_trimmed_ip(client_ip);
+    if normalized_ip.is_empty() {
+        return Ok(false);
+    }
+    let config = state.storage.store.get_config().await?;
+    let settings = AuthCredentialSettings::from_config(&config);
+    let binding = state
+        .storage
+        .store
+        .get_auth_mobility_binding("proxy-session", session_id)
+        .await?;
+
+    if settings.session_ip_mobility_enabled {
+        if session_ip_matches(&session, &normalized_ip) {
+            return Ok(false);
+        }
+        if let Some(binding) = binding {
+            let whitelist_record_id = binding_whitelist_record_id(&binding);
+            let next_binding = build_or_update_mobility_binding(
+                Some(binding),
+                "proxy-session",
+                session_id,
+                &normalized_ip,
+                parse_iso_unix(session.expires_at.as_deref()),
+                Some(session_id),
+                whitelist_record_id,
+            );
+            if !state
+                .storage
+                .store
+                .save_auth_mobility_binding_keep_ttl(
+                    "proxy-session",
+                    session_id,
+                    &next_binding,
+                    session_id,
+                )
+                .await?
+            {
+                return Ok(false);
+            }
+        }
+        return Ok(
+            sync_browser_session_ip(state, session_id, &normalized_ip, "proxy-session")
+                .await?
+                .is_some(),
+        );
+    }
+
+    let Some(binding) = binding else {
+        return Ok(false);
+    };
+    if binding_whitelist_record_id(&binding).is_none() {
+        return Ok(false);
+    }
+    if session_ip_matches(&session, &normalized_ip)
+        && mobility_binding_touch_is_fresh(&binding, &normalized_ip, session_id, now_seconds())
+    {
+        // Keep the historical session_migration grant while avoiding a
+        // no-op whitelist/binding/session rewrite for an already-current IP.
+        return Ok(true);
+    }
+    restore_single_ip_proxy_session(state, session_id, &normalized_ip).await
+}
+
+async fn restore_single_ip_proxy_session(
+    state: &AppState,
+    session_id: &str,
+    normalized_ip: &str,
+) -> anyhow::Result<bool> {
+    let Some(lease) = acquire_auth_mobility_session_mutation_lease(state, session_id).await? else {
+        anyhow::bail!("Timed out waiting for auth mobility session mutation lock");
+    };
+    let result = async {
+        if !lease.ensure_valid().await? {
+            return Ok(false);
+        }
+        let Some(session) = state.storage.store.get_session(session_id).await? else {
+            return Ok(false);
+        };
+        let Some(binding) = state
+            .storage
+            .store
+            .get_auth_mobility_binding("proxy-session", session_id)
+            .await?
+        else {
+            return Ok(false);
+        };
+        let Some(whitelist_record_id) = binding_whitelist_record_id(&binding) else {
+            return Ok(false);
+        };
+        if session_ip_matches(&session, normalized_ip)
+            && mobility_binding_touch_is_fresh(&binding, normalized_ip, session_id, now_seconds())
+        {
+            return Ok(true);
+        }
+        let Some(moved_record) =
+            whitelist::move_record_to_ip(state, &whitelist_record_id, normalized_ip).await?
+        else {
+            return Ok(false);
+        };
+        if !lease.ensure_valid().await? {
+            return Ok(false);
+        }
+        let next_binding = build_or_update_mobility_binding(
+            Some(binding),
+            "proxy-session",
+            session_id,
+            normalized_ip,
+            moved_record
+                .expire_at
+                .or_else(|| parse_iso_unix(session.expires_at.as_deref())),
+            Some(session_id),
+            Some(whitelist_record_id),
+        );
+        if !state
+            .storage
+            .store
+            .save_auth_mobility_binding_keep_ttl(
+                "proxy-session",
+                session_id,
+                &next_binding,
+                session_id,
+            )
+            .await?
+        {
+            let _ = whitelist::remove_whitelist_record_by_id(state, &moved_record.id).await;
+            return Ok(false);
+        }
+        Ok(
+            sync_browser_session_ip(state, session_id, normalized_ip, "proxy-session")
+                .await?
+                .is_some(),
+        )
+    }
+    .await;
+    if let Err(error) = lease.release().await {
+        tracing::warn!(%error, %session_id, "failed to release single-IP session restore lock");
+    }
+    result
+}
+
+pub(super) async fn resolve_bootstrap_owner(
+    state: &AppState,
+    client_ip: &str,
+) -> anyhow::Result<Option<(String, LoginSession)>> {
+    let sessions = list_active_sessions_by_ip(state, client_ip).await?;
+    Ok((sessions.len() == 1)
+        .then(|| sessions.into_iter().next())
+        .flatten())
+}
+
+pub async fn list_active_sessions_by_ip(
+    state: &AppState,
+    client_ip: &str,
+) -> anyhow::Result<Vec<(String, LoginSession)>> {
+    let normalized_ip = normalized_or_trimmed_ip(client_ip);
+    if normalized_ip.is_empty() {
+        return Ok(Vec::new());
+    }
+    let config = state.storage.store.get_config().await?;
+    let mut owners = Vec::new();
+    for (session_id, session) in state.storage.store.list_login_sessions().await? {
+        let ips = effective_session_ips(state, &session_id, &session, &config).await?;
+        if ips.iter().any(|ip| ip == &normalized_ip) {
+            owners.push((session_id, session));
+        }
+    }
+    Ok(owners)
+}
+
+pub(crate) async fn list_stream_access_sessions_by_ip(
+    state: &AppState,
+    client_ip: &str,
+) -> anyhow::Result<Vec<(String, LoginSession)>> {
+    let normalized_ip = normalized_or_trimmed_ip(client_ip);
+    if normalized_ip.is_empty() {
+        return Ok(Vec::new());
+    }
+    let config = state.storage.store.get_config().await?;
+    let mut owners = Vec::new();
+    for (session_id, session) in state.storage.store.list_login_sessions().await? {
+        // Protocol mappings have no browser cookie to refresh mobility state.
+        // Keep the session's canonical IP eligible for the lifetime of its
+        // stream grant, while additional drift IPs remain window-bound.
+        if stream_access_ip_matches(&session.ip, &normalized_ip) {
+            owners.push((session_id, session));
+            continue;
+        }
+        let ips = effective_session_ips(state, &session_id, &session, &config).await?;
+        if ips
+            .iter()
+            .any(|ip| stream_access_ip_matches(ip, &normalized_ip))
+        {
+            owners.push((session_id, session));
+        }
+    }
+    Ok(owners)
+}
+
+fn stream_access_ip_matches(left: &str, right: &str) -> bool {
+    let left = normalized_or_trimmed_ip(left);
+    let right = normalized_or_trimmed_ip(right);
+    if left.is_empty() || right.is_empty() {
+        return false;
+    }
+    match (
+        left.parse::<std::net::IpAddr>(),
+        right.parse::<std::net::IpAddr>(),
+    ) {
+        (Ok(left), Ok(right)) => left == right,
+        _ => false,
+    }
+}

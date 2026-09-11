@@ -1,1 +1,37 @@
-aW1wb3J0IHsgZGVmaW5lU3RvcmUgfSBmcm9tICJwaW5pYSI7CmltcG9ydCB7IHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7CiAgVGVybWluYWxBY2Nlc3NBUEksCiAgdHlwZSBXZWJUZXJtaW5hbFNldHRpbmdzLAp9IGZyb20gIkAvbGliL2FwaS90ZXJtaW5hbC1hY2Nlc3MiOwoKZXhwb3J0IGNvbnN0IHVzZVRlcm1pbmFsQWNjZXNzU3RvcmUgPSBkZWZpbmVTdG9yZSgidGVybWluYWwtYWNjZXNzIiwgKCkgPT4gewogIGNvbnN0IHN0YXR1cyA9IHJlZjxXZWJUZXJtaW5hbFNldHRpbmdzIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgaXNDdXJyZW50ID0gcmVmKGZhbHNlKTsKICBsZXQgZ2VuZXJhdGlvbiA9IDA7CiAgZnVuY3Rpb24gaW52YWxpZGF0ZSgpIHsKICAgIGdlbmVyYXRpb24rKzsKICAgIGlzQ3VycmVudC52YWx1ZSA9IGZhbHNlOwogIH0KICBmdW5jdGlvbiBhcHBseVNldHRpbmdzKHNldHRpbmdzOiBXZWJUZXJtaW5hbFNldHRpbmdzKSB7CiAgICBnZW5lcmF0aW9uKys7CiAgICBzdGF0dXMudmFsdWUgPSBzZXR0aW5nczsKICAgIGlzQ3VycmVudC52YWx1ZSA9IHRydWU7CiAgfQogIGFzeW5jIGZ1bmN0aW9uIHJlZnJlc2goKSB7CiAgICBjb25zdCByZXF1ZXN0ID0gKytnZW5lcmF0aW9uOwogICAgdHJ5IHsKICAgICAgY29uc3QgbmV4dCA9IGF3YWl0IFRlcm1pbmFsQWNjZXNzQVBJLnNldHRpbmdzKCk7CiAgICAgIGlmIChyZXF1ZXN0ID09PSBnZW5lcmF0aW9uKSB7CiAgICAgICAgc3RhdHVzLnZhbHVlID0gbmV4dDsKICAgICAgICBpc0N1cnJlbnQudmFsdWUgPSB0cnVlOwogICAgICB9CiAgICAgIHJldHVybiBuZXh0OwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgLy8gQSBmYWlsZWQgbmV3ZXIgY2hlY2sgbXVzdCBub3QgbGVhdmUgYW4gb2xkZXIgZW5hYmxlZCBzdGF0ZSB1c2FibGUuCiAgICAgIGlmIChyZXF1ZXN0ID09PSBnZW5lcmF0aW9uKSBpbnZhbGlkYXRlKCk7CiAgICAgIHRocm93IGVycm9yOwogICAgfQogIH0KICByZXR1cm4geyBzdGF0dXMsIGlzQ3VycmVudCwgaW52YWxpZGF0ZSwgYXBwbHlTZXR0aW5ncywgcmVmcmVzaCB9Owp9KTsK
+import { defineStore } from "pinia";
+import { ref } from "vue";
+import {
+  TerminalAccessAPI,
+  type WebTerminalSettings,
+} from "@/lib/api/terminal-access";
+
+export const useTerminalAccessStore = defineStore("terminal-access", () => {
+  const status = ref<WebTerminalSettings | null>(null);
+  const isCurrent = ref(false);
+  let generation = 0;
+  function invalidate() {
+    generation++;
+    isCurrent.value = false;
+  }
+  function applySettings(settings: WebTerminalSettings) {
+    generation++;
+    status.value = settings;
+    isCurrent.value = true;
+  }
+  async function refresh() {
+    const request = ++generation;
+    try {
+      const next = await TerminalAccessAPI.settings();
+      if (request === generation) {
+        status.value = next;
+        isCurrent.value = true;
+      }
+      return next;
+    } catch (error) {
+      // A failed newer check must not leave an older enabled state usable.
+      if (request === generation) invalidate();
+      throw error;
+    }
+  }
+  return { status, isCurrent, invalidate, applySettings, refresh };
+});

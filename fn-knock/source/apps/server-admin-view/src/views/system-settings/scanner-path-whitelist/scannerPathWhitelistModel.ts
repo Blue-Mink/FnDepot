@@ -1,1 +1,48 @@
-ZXhwb3J0IHR5cGUgU2Nhbm5lclBhdGhEcmFmdEVudHJ5ID0gewogIGlkOiBudW1iZXI7CiAgdmFsdWU6IHN0cmluZzsKfTsKCmV4cG9ydCB0eXBlIFNjYW5uZXJQYXRoVmFsaWRhdGlvbkVycm9yID0KICAicmVxdWlyZWQiIHwgImFic29sdXRlIiB8ICJjb250cm9sQ2hhcmFjdGVycyIgfCAiZHVwbGljYXRlIjsKCmV4cG9ydCBjb25zdCBub3JtYWxpemVTY2FubmVyV2hpdGVsaXN0UGF0aCA9ICh2YWx1ZTogc3RyaW5nKSA9PiB7CiAgY29uc3QgcGF0aCA9IHZhbHVlLnRyaW0oKS5zcGxpdCgiPyIpWzBdPy5zcGxpdCgiIyIpWzBdID8/ICIiOwogIGlmICghcGF0aCkgcmV0dXJuICIiOwogIHJldHVybiBwYXRoID09PSAiLyIgPyBwYXRoIDogcGF0aC5yZXBsYWNlKC9cLyQvdSwgIiIpIHx8ICIvIjsKfTsKCmV4cG9ydCBjb25zdCB2YWxpZGF0ZVNjYW5uZXJXaGl0ZWxpc3RFbnRyaWVzID0gKAogIGVudHJpZXM6IFNjYW5uZXJQYXRoRHJhZnRFbnRyeVtdLAopID0+IHsKICBjb25zdCBlcnJvcnMgPSBuZXcgTWFwPG51bWJlciwgU2Nhbm5lclBhdGhWYWxpZGF0aW9uRXJyb3I+KCk7CiAgY29uc3QgY2Fub25pY2FsT3duZXJzID0gbmV3IE1hcDxzdHJpbmcsIG51bWJlcj4oKTsKICBmb3IgKGNvbnN0IGVudHJ5IG9mIGVudHJpZXMpIHsKICAgIGNvbnN0IGhhc0NvbnRyb2xDaGFyYWN0ZXIgPSBBcnJheS5mcm9tKGVudHJ5LnZhbHVlKS5zb21lKChjaGFyYWN0ZXIpID0+IHsKICAgICAgY29uc3QgY29kZVBvaW50ID0gY2hhcmFjdGVyLmNvZGVQb2ludEF0KDApID8/IDA7CiAgICAgIHJldHVybiBjb2RlUG9pbnQgPCAzMiB8fCAoY29kZVBvaW50ID49IDEyNyAmJiBjb2RlUG9pbnQgPD0gMTU5KTsKICAgIH0pOwogICAgaWYgKGhhc0NvbnRyb2xDaGFyYWN0ZXIpIHsKICAgICAgZXJyb3JzLnNldChlbnRyeS5pZCwgImNvbnRyb2xDaGFyYWN0ZXJzIik7CiAgICAgIGNvbnRpbnVlOwogICAgfQogICAgY29uc3QgdmFsdWUgPSBlbnRyeS52YWx1ZS50cmltKCk7CiAgICBpZiAoIXZhbHVlKSB7CiAgICAgIGVycm9ycy5zZXQoZW50cnkuaWQsICJyZXF1aXJlZCIpOwogICAgICBjb250aW51ZTsKICAgIH0KICAgIGlmICghdmFsdWUuc3RhcnRzV2l0aCgiLyIpKSB7CiAgICAgIGVycm9ycy5zZXQoZW50cnkuaWQsICJhYnNvbHV0ZSIpOwogICAgICBjb250aW51ZTsKICAgIH0KICAgIGNvbnN0IGNhbm9uaWNhbCA9IG5vcm1hbGl6ZVNjYW5uZXJXaGl0ZWxpc3RQYXRoKHZhbHVlKTsKICAgIGNvbnN0IGV4aXN0aW5nT3duZXIgPSBjYW5vbmljYWxPd25lcnMuZ2V0KGNhbm9uaWNhbCk7CiAgICBpZiAoZXhpc3RpbmdPd25lciAhPT0gdW5kZWZpbmVkKSB7CiAgICAgIGVycm9ycy5zZXQoZW50cnkuaWQsICJkdXBsaWNhdGUiKTsKICAgICAgZXJyb3JzLnNldChleGlzdGluZ093bmVyLCAiZHVwbGljYXRlIik7CiAgICB9IGVsc2UgewogICAgICBjYW5vbmljYWxPd25lcnMuc2V0KGNhbm9uaWNhbCwgZW50cnkuaWQpOwogICAgfQogIH0KICByZXR1cm4gZXJyb3JzOwp9Owo=
+export type ScannerPathDraftEntry = {
+  id: number;
+  value: string;
+};
+
+export type ScannerPathValidationError =
+  "required" | "absolute" | "controlCharacters" | "duplicate";
+
+export const normalizeScannerWhitelistPath = (value: string) => {
+  const path = value.trim().split("?")[0]?.split("#")[0] ?? "";
+  if (!path) return "";
+  return path === "/" ? path : path.replace(/\/$/u, "") || "/";
+};
+
+export const validateScannerWhitelistEntries = (
+  entries: ScannerPathDraftEntry[],
+) => {
+  const errors = new Map<number, ScannerPathValidationError>();
+  const canonicalOwners = new Map<string, number>();
+  for (const entry of entries) {
+    const hasControlCharacter = Array.from(entry.value).some((character) => {
+      const codePoint = character.codePointAt(0) ?? 0;
+      return codePoint < 32 || (codePoint >= 127 && codePoint <= 159);
+    });
+    if (hasControlCharacter) {
+      errors.set(entry.id, "controlCharacters");
+      continue;
+    }
+    const value = entry.value.trim();
+    if (!value) {
+      errors.set(entry.id, "required");
+      continue;
+    }
+    if (!value.startsWith("/")) {
+      errors.set(entry.id, "absolute");
+      continue;
+    }
+    const canonical = normalizeScannerWhitelistPath(value);
+    const existingOwner = canonicalOwners.get(canonical);
+    if (existingOwner !== undefined) {
+      errors.set(entry.id, "duplicate");
+      errors.set(existingOwner, "duplicate");
+    } else {
+      canonicalOwners.set(canonical, entry.id);
+    }
+  }
+  return errors;
+};

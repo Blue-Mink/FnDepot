@@ -1,1 +1,223 @@
-aW1wb3J0IHsgZXh0cmFjdFBvcnRGcm9tVGFyZ2V0IH0gZnJvbSAiLi9leHRyYWN0UG9ydEZyb21UYXJnZXQiOwoKZXhwb3J0IHR5cGUgUHJveHlUYXJnZXRQcm90b2NvbCA9ICJodHRwIiB8ICJodHRwcyIgfCAid3MiIHwgIndzcyI7CgpleHBvcnQgY29uc3QgREVGQVVMVF9QUk9YWV9UQVJHRVRfUFJPVE9DT0w6IFByb3h5VGFyZ2V0UHJvdG9jb2wgPSAiaHR0cCI7CmV4cG9ydCBjb25zdCBERUZBVUxUX1BST1hZX1RBUkdFVF9QT1JUUzogUmVjb3JkPFByb3h5VGFyZ2V0UHJvdG9jb2wsIHN0cmluZz4gPSB7CiAgaHR0cDogIjgwIiwKICBodHRwczogIjQ0MyIsCiAgd3M6ICI4MCIsCiAgd3NzOiAiNDQzIiwKfTsKZXhwb3J0IGNvbnN0IERFRkFVTFRfUFJPWFlfVEFSR0VUX1BPUlQgPQogIERFRkFVTFRfUFJPWFlfVEFSR0VUX1BPUlRTW0RFRkFVTFRfUFJPWFlfVEFSR0VUX1BST1RPQ09MXTsKZXhwb3J0IGNvbnN0IFBST1hZX1RBUkdFVF9QUk9UT0NPTFM6IFByb3h5VGFyZ2V0UHJvdG9jb2xbXSA9IFsKICAiaHR0cCIsCiAgImh0dHBzIiwKICAid3MiLAogICJ3c3MiLApdOwoKY29uc3QgUFJPWFlfVEFSR0VUX1BST1RPQ09MX1NFVCA9IG5ldyBTZXQ8c3RyaW5nPihQUk9YWV9UQVJHRVRfUFJPVE9DT0xTKTsKCmNvbnN0IGlzTm9ybWFsaXplZFByb3h5VGFyZ2V0UHJvdG9jb2wgPSAoCiAgdmFsdWU6IHN0cmluZywKKTogdmFsdWUgaXMgUHJveHlUYXJnZXRQcm90b2NvbCA9PiBQUk9YWV9UQVJHRVRfUFJPVE9DT0xfU0VULmhhcyh2YWx1ZSk7Cgp0eXBlIFBhcnNlZFByb3h5VGFyZ2V0UGFydHMgPSB7CiAgcHJvdG9jb2w6IFByb3h5VGFyZ2V0UHJvdG9jb2w7CiAgZW5kcG9pbnQ6IHN0cmluZzsKICBoYWRQcm90b2NvbDogYm9vbGVhbjsKfTsKCmNvbnN0IFRBUkdFVF9QUk9UT0NPTF9QQVRURVJOID0gL14oaHR0cHM/fHdzcz8pOlwvXC8oLiopJC9pOwoKY29uc3QgaGFzRXhwbGljaXRFbXB0eVBvcnQgPSAodmFsdWU6IHN0cmluZyk6IGJvb2xlYW4gPT4gewogIGNvbnN0IG1hdGNoID0gdmFsdWUudHJpbSgpLm1hdGNoKFRBUkdFVF9QUk9UT0NPTF9QQVRURVJOKTsKICBpZiAoIW1hdGNoKSByZXR1cm4gZmFsc2U7CgogIGNvbnN0IFssICwgZW5kcG9pbnQgPSAiIl0gPSBtYXRjaDsKICBjb25zdCBmaXJzdFN1ZmZpeEluZGV4ID0gZW5kcG9pbnQuc2VhcmNoKC9bLz8jXS8pOwogIGNvbnN0IGJvdW5kYXJ5ID0KICAgIGZpcnN0U3VmZml4SW5kZXggPT09IC0xID8gZW5kcG9pbnQubGVuZ3RoIDogZmlyc3RTdWZmaXhJbmRleDsKICBjb25zdCBhdXRob3JpdHlXaXRoQ3JlZGVudGlhbHMgPSBlbmRwb2ludC5zbGljZSgwLCBib3VuZGFyeSk7CiAgY29uc3QgYXV0aG9yaXR5ID0gYXV0aG9yaXR5V2l0aENyZWRlbnRpYWxzLnNsaWNlKAogICAgYXV0aG9yaXR5V2l0aENyZWRlbnRpYWxzLmxhc3RJbmRleE9mKCJAIikgKyAxLAogICk7CgogIHJldHVybiBhdXRob3JpdHkuZW5kc1dpdGgoIjoiKTsKfTsKCmV4cG9ydCBjb25zdCBpc1Byb3h5VGFyZ2V0UHJvdG9jb2wgPSAoCiAgdmFsdWU6IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQsCik6IGJvb2xlYW4gPT4gewogIGNvbnN0IG5vcm1hbGl6ZWQgPSB2YWx1ZT8udG9Mb3dlckNhc2UoKS5yZXBsYWNlKC86JC8sICIiKSA/PyAiIjsKICByZXR1cm4gaXNOb3JtYWxpemVkUHJveHlUYXJnZXRQcm90b2NvbChub3JtYWxpemVkKTsKfTsKCmV4cG9ydCBjb25zdCBpc0h0dHBQcm94eVRhcmdldFByb3RvY29sID0gKAogIHZhbHVlOiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkLAopOiBib29sZWFuID0+IHsKICBjb25zdCBub3JtYWxpemVkID0gdmFsdWU/LnRvTG93ZXJDYXNlKCkucmVwbGFjZSgvOiQvLCAiIikgPz8gIiI7CiAgcmV0dXJuIG5vcm1hbGl6ZWQgPT09ICJodHRwIiB8fCBub3JtYWxpemVkID09PSAiaHR0cHMiOwp9OwoKZXhwb3J0IGNvbnN0IGlzV2ViU29ja2V0UHJveHlUYXJnZXRQcm90b2NvbCA9ICgKICB2YWx1ZTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCwKKTogYm9vbGVhbiA9PiB7CiAgY29uc3Qgbm9ybWFsaXplZCA9IHZhbHVlPy50b0xvd2VyQ2FzZSgpLnJlcGxhY2UoLzokLywgIiIpID8/ICIiOwogIHJldHVybiBub3JtYWxpemVkID09PSAid3MiIHx8IG5vcm1hbGl6ZWQgPT09ICJ3c3MiOwp9OwoKY29uc3Qgbm9ybWFsaXplUHJvdG9jb2wgPSAoCiAgdmFsdWU6IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQsCik6IFByb3h5VGFyZ2V0UHJvdG9jb2wgPT4gewogIGNvbnN0IG5vcm1hbGl6ZWQgPSB2YWx1ZT8udG9Mb3dlckNhc2UoKS5yZXBsYWNlKC86JC8sICIiKSA/PyAiIjsKICByZXR1cm4gaXNOb3JtYWxpemVkUHJveHlUYXJnZXRQcm90b2NvbChub3JtYWxpemVkKQogICAgPyBub3JtYWxpemVkCiAgICA6IERFRkFVTFRfUFJPWFlfVEFSR0VUX1BST1RPQ09MOwp9OwoKZXhwb3J0IGNvbnN0IGdldERlZmF1bHRQcm94eVRhcmdldFBvcnQgPSAoCiAgcHJvdG9jb2w6IFByb3h5VGFyZ2V0UHJvdG9jb2wsCiAgZGVmYXVsdFBvcnQ/OiBzdHJpbmcsCik6IHN0cmluZyA9PiB7CiAgY29uc3QgZXhwbGljaXREZWZhdWx0UG9ydCA9IGRlZmF1bHRQb3J0Py50cmltKCk7CiAgcmV0dXJuIGV4cGxpY2l0RGVmYXVsdFBvcnQgfHwgREVGQVVMVF9QUk9YWV9UQVJHRVRfUE9SVFNbcHJvdG9jb2xdOwp9OwoKZXhwb3J0IGNvbnN0IHBhcnNlUHJveHlUYXJnZXRQYXJ0cyA9ICgKICB2YWx1ZTogc3RyaW5nLAogIGZhbGxiYWNrUHJvdG9jb2w6IFByb3h5VGFyZ2V0UHJvdG9jb2wgPSBERUZBVUxUX1BST1hZX1RBUkdFVF9QUk9UT0NPTCwKKTogUGFyc2VkUHJveHlUYXJnZXRQYXJ0cyA9PiB7CiAgY29uc3QgdHJpbW1lZCA9IHZhbHVlLnRyaW0oKTsKICBpZiAoIXRyaW1tZWQpIHsKICAgIHJldHVybiB7CiAgICAgIHByb3RvY29sOiBmYWxsYmFja1Byb3RvY29sLAogICAgICBlbmRwb2ludDogIiIsCiAgICAgIGhhZFByb3RvY29sOiBmYWxzZSwKICAgIH07CiAgfQoKICBjb25zdCBtYXRjaCA9IHRyaW1tZWQubWF0Y2goVEFSR0VUX1BST1RPQ09MX1BBVFRFUk4pOwogIGlmIChtYXRjaCkgewogICAgY29uc3QgWywgcHJvdG9jb2wgPSBmYWxsYmFja1Byb3RvY29sLCBlbmRwb2ludCA9ICIiXSA9IG1hdGNoOwogICAgcmV0dXJuIHsKICAgICAgcHJvdG9jb2w6IG5vcm1hbGl6ZVByb3RvY29sKHByb3RvY29sKSwKICAgICAgZW5kcG9pbnQ6IGVuZHBvaW50LnRyaW0oKSwKICAgICAgaGFkUHJvdG9jb2w6IHRydWUsCiAgICB9OwogIH0KCiAgcmV0dXJuIHsKICAgIHByb3RvY29sOiBmYWxsYmFja1Byb3RvY29sLAogICAgZW5kcG9pbnQ6IHRyaW1tZWQucmVwbGFjZSgvXlwvXC8vLCAiIikudHJpbSgpLAogICAgaGFkUHJvdG9jb2w6IGZhbHNlLAogIH07Cn07CgpleHBvcnQgY29uc3QgcmVzb2x2ZVByb3h5VGFyZ2V0SW5wdXQgPSAoCiAgc2VsZWN0ZWRQcm90b2NvbDogUHJveHlUYXJnZXRQcm90b2NvbCwKICBlbmRwb2ludElucHV0OiBzdHJpbmcsCikgPT4gewogIGNvbnN0IHBhcnNlZCA9IHBhcnNlUHJveHlUYXJnZXRQYXJ0cyhlbmRwb2ludElucHV0LCBzZWxlY3RlZFByb3RvY29sKTsKICBjb25zdCBwcm90b2NvbCA9IHBhcnNlZC5oYWRQcm90b2NvbCA/IHBhcnNlZC5wcm90b2NvbCA6IHNlbGVjdGVkUHJvdG9jb2w7CiAgY29uc3QgZW5kcG9pbnQgPSBwYXJzZWQuZW5kcG9pbnQ7CgogIHJldHVybiB7CiAgICBwcm90b2NvbCwKICAgIGVuZHBvaW50LAogICAgaGFkUHJvdG9jb2w6IHBhcnNlZC5oYWRQcm90b2NvbCwKICAgIHRhcmdldDogZW5kcG9pbnQgPyBgJHtwcm90b2NvbH06Ly8ke2VuZHBvaW50fWAgOiAiIiwKICB9Owp9OwoKZXhwb3J0IGNvbnN0IGVuc3VyZVByb3h5VGFyZ2V0UG9ydCA9ICgKICBlbmRwb2ludDogc3RyaW5nLAogIGRlZmF1bHRQb3J0OiBzdHJpbmcgPSBERUZBVUxUX1BST1hZX1RBUkdFVF9QT1JULAopOiBzdHJpbmcgPT4gewogIGNvbnN0IHRyaW1tZWQgPSBlbmRwb2ludC50cmltKCk7CiAgaWYgKCF0cmltbWVkIHx8IGV4dHJhY3RQb3J0RnJvbVRhcmdldCh0cmltbWVkKSAhPT0gbnVsbCkgewogICAgcmV0dXJuIHRyaW1tZWQ7CiAgfQoKICBjb25zdCBwb3J0ID0gZGVmYXVsdFBvcnQudHJpbSgpOwogIGlmICghcG9ydCkgewogICAgcmV0dXJuIHRyaW1tZWQ7CiAgfQoKICBjb25zdCBmaXJzdFN1ZmZpeEluZGV4ID0gdHJpbW1lZC5zZWFyY2goL1svPyNdLyk7CiAgY29uc3QgYm91bmRhcnkgPSBmaXJzdFN1ZmZpeEluZGV4ID09PSAtMSA/IHRyaW1tZWQubGVuZ3RoIDogZmlyc3RTdWZmaXhJbmRleDsKICBjb25zdCBhdXRob3JpdHkgPSB0cmltbWVkLnNsaWNlKDAsIGJvdW5kYXJ5KTsKICBjb25zdCBzdWZmaXggPSB0cmltbWVkLnNsaWNlKGJvdW5kYXJ5KTsKCiAgaWYgKCFhdXRob3JpdHkpIHsKICAgIHJldHVybiB0cmltbWVkOwogIH0KCiAgaWYgKGF1dGhvcml0eS5zdGFydHNXaXRoKCJbIikpIHsKICAgIGNvbnN0IGNsb3NpbmdCcmFja2V0SW5kZXggPSBhdXRob3JpdHkuaW5kZXhPZigiXSIpOwogICAgaWYgKGNsb3NpbmdCcmFja2V0SW5kZXggPT09IC0xKSB7CiAgICAgIHJldHVybiB0cmltbWVkOwogICAgfQoKICAgIGNvbnN0IGhvc3QgPSBhdXRob3JpdHkuc2xpY2UoMCwgY2xvc2luZ0JyYWNrZXRJbmRleCArIDEpOwogICAgY29uc3QgcmVzdCA9IGF1dGhvcml0eS5zbGljZShjbG9zaW5nQnJhY2tldEluZGV4ICsgMSk7CiAgICByZXR1cm4gYCR7aG9zdH06JHtwb3J0fSR7cmVzdH0ke3N1ZmZpeH1gOwogIH0KCiAgaWYgKGF1dGhvcml0eS5pbmNsdWRlcygiOiIpKSB7CiAgICByZXR1cm4gdHJpbW1lZDsKICB9CgogIHJldHVybiBgJHthdXRob3JpdHl9OiR7cG9ydH0ke3N1ZmZpeH1gOwp9OwoKZXhwb3J0IGNvbnN0IG5vcm1hbGl6ZVByb3h5VGFyZ2V0SW5wdXQgPSAoCiAgc2VsZWN0ZWRQcm90b2NvbDogUHJveHlUYXJnZXRQcm90b2NvbCwKICBlbmRwb2ludElucHV0OiBzdHJpbmcsCiAgZGVmYXVsdFBvcnQ/OiBzdHJpbmcsCikgPT4gewogIGNvbnN0IHJlc29sdmVkID0gcmVzb2x2ZVByb3h5VGFyZ2V0SW5wdXQoc2VsZWN0ZWRQcm90b2NvbCwgZW5kcG9pbnRJbnB1dCk7CiAgY29uc3QgZW5kcG9pbnQgPSBlbnN1cmVQcm94eVRhcmdldFBvcnQoCiAgICByZXNvbHZlZC5lbmRwb2ludCwKICAgIGdldERlZmF1bHRQcm94eVRhcmdldFBvcnQocmVzb2x2ZWQucHJvdG9jb2wsIGRlZmF1bHRQb3J0KSwKICApOwoKICByZXR1cm4gewogICAgLi4ucmVzb2x2ZWQsCiAgICBlbmRwb2ludCwKICAgIHRhcmdldDogZW5kcG9pbnQgPyBgJHtyZXNvbHZlZC5wcm90b2NvbH06Ly8ke2VuZHBvaW50fWAgOiAiIiwKICB9Owp9OwoKZXhwb3J0IGNvbnN0IGlzU3VwcG9ydGVkUHJveHlUYXJnZXRVcmwgPSAodmFsdWU6IHN0cmluZyk6IGJvb2xlYW4gPT4gewogIGNvbnN0IHRhcmdldCA9IHZhbHVlLnRyaW0oKTsKICBpZiAoIXRhcmdldCkgcmV0dXJuIGZhbHNlOwogIGlmIChoYXNFeHBsaWNpdEVtcHR5UG9ydCh0YXJnZXQpKSByZXR1cm4gZmFsc2U7CgogIHRyeSB7CiAgICBjb25zdCBwYXJzZWQgPSBuZXcgVVJMKHRhcmdldCk7CiAgICByZXR1cm4gKAogICAgICBpc1Byb3h5VGFyZ2V0UHJvdG9jb2wocGFyc2VkLnByb3RvY29sKSAmJiBCb29sZWFuKHBhcnNlZC5ob3N0bmFtZS50cmltKCkpCiAgICApOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIGZhbHNlOwogIH0KfTsKCmV4cG9ydCBjb25zdCBpc1dlYlNvY2tldFByb3h5VGFyZ2V0VXJsID0gKHZhbHVlOiBzdHJpbmcpOiBib29sZWFuID0+IHsKICBjb25zdCB0YXJnZXQgPSB2YWx1ZS50cmltKCk7CiAgaWYgKCF0YXJnZXQpIHJldHVybiBmYWxzZTsKICBpZiAoaGFzRXhwbGljaXRFbXB0eVBvcnQodGFyZ2V0KSkgcmV0dXJuIGZhbHNlOwoKICB0cnkgewogICAgY29uc3QgcGFyc2VkID0gbmV3IFVSTCh0YXJnZXQpOwogICAgcmV0dXJuICgKICAgICAgaXNXZWJTb2NrZXRQcm94eVRhcmdldFByb3RvY29sKHBhcnNlZC5wcm90b2NvbCkgJiYKICAgICAgQm9vbGVhbihwYXJzZWQuaG9zdG5hbWUudHJpbSgpKQogICAgKTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBmYWxzZTsKICB9Cn07Cg==
+import { extractPortFromTarget } from "./extractPortFromTarget";
+
+export type ProxyTargetProtocol = "http" | "https" | "ws" | "wss";
+
+export const DEFAULT_PROXY_TARGET_PROTOCOL: ProxyTargetProtocol = "http";
+export const DEFAULT_PROXY_TARGET_PORTS: Record<ProxyTargetProtocol, string> = {
+  http: "80",
+  https: "443",
+  ws: "80",
+  wss: "443",
+};
+export const DEFAULT_PROXY_TARGET_PORT =
+  DEFAULT_PROXY_TARGET_PORTS[DEFAULT_PROXY_TARGET_PROTOCOL];
+export const PROXY_TARGET_PROTOCOLS: ProxyTargetProtocol[] = [
+  "http",
+  "https",
+  "ws",
+  "wss",
+];
+
+const PROXY_TARGET_PROTOCOL_SET = new Set<string>(PROXY_TARGET_PROTOCOLS);
+
+const isNormalizedProxyTargetProtocol = (
+  value: string,
+): value is ProxyTargetProtocol => PROXY_TARGET_PROTOCOL_SET.has(value);
+
+type ParsedProxyTargetParts = {
+  protocol: ProxyTargetProtocol;
+  endpoint: string;
+  hadProtocol: boolean;
+};
+
+const TARGET_PROTOCOL_PATTERN = /^(https?|wss?):\/\/(.*)$/i;
+
+const hasExplicitEmptyPort = (value: string): boolean => {
+  const match = value.trim().match(TARGET_PROTOCOL_PATTERN);
+  if (!match) return false;
+
+  const [, , endpoint = ""] = match;
+  const firstSuffixIndex = endpoint.search(/[/?#]/);
+  const boundary =
+    firstSuffixIndex === -1 ? endpoint.length : firstSuffixIndex;
+  const authorityWithCredentials = endpoint.slice(0, boundary);
+  const authority = authorityWithCredentials.slice(
+    authorityWithCredentials.lastIndexOf("@") + 1,
+  );
+
+  return authority.endsWith(":");
+};
+
+export const isProxyTargetProtocol = (
+  value: string | null | undefined,
+): boolean => {
+  const normalized = value?.toLowerCase().replace(/:$/, "") ?? "";
+  return isNormalizedProxyTargetProtocol(normalized);
+};
+
+export const isHttpProxyTargetProtocol = (
+  value: string | null | undefined,
+): boolean => {
+  const normalized = value?.toLowerCase().replace(/:$/, "") ?? "";
+  return normalized === "http" || normalized === "https";
+};
+
+export const isWebSocketProxyTargetProtocol = (
+  value: string | null | undefined,
+): boolean => {
+  const normalized = value?.toLowerCase().replace(/:$/, "") ?? "";
+  return normalized === "ws" || normalized === "wss";
+};
+
+const normalizeProtocol = (
+  value: string | null | undefined,
+): ProxyTargetProtocol => {
+  const normalized = value?.toLowerCase().replace(/:$/, "") ?? "";
+  return isNormalizedProxyTargetProtocol(normalized)
+    ? normalized
+    : DEFAULT_PROXY_TARGET_PROTOCOL;
+};
+
+export const getDefaultProxyTargetPort = (
+  protocol: ProxyTargetProtocol,
+  defaultPort?: string,
+): string => {
+  const explicitDefaultPort = defaultPort?.trim();
+  return explicitDefaultPort || DEFAULT_PROXY_TARGET_PORTS[protocol];
+};
+
+export const parseProxyTargetParts = (
+  value: string,
+  fallbackProtocol: ProxyTargetProtocol = DEFAULT_PROXY_TARGET_PROTOCOL,
+): ParsedProxyTargetParts => {
+  const trimmed = value.trim();
+  if (!trimmed) {
+    return {
+      protocol: fallbackProtocol,
+      endpoint: "",
+      hadProtocol: false,
+    };
+  }
+
+  const match = trimmed.match(TARGET_PROTOCOL_PATTERN);
+  if (match) {
+    const [, protocol = fallbackProtocol, endpoint = ""] = match;
+    return {
+      protocol: normalizeProtocol(protocol),
+      endpoint: endpoint.trim(),
+      hadProtocol: true,
+    };
+  }
+
+  return {
+    protocol: fallbackProtocol,
+    endpoint: trimmed.replace(/^\/\//, "").trim(),
+    hadProtocol: false,
+  };
+};
+
+export const resolveProxyTargetInput = (
+  selectedProtocol: ProxyTargetProtocol,
+  endpointInput: string,
+) => {
+  const parsed = parseProxyTargetParts(endpointInput, selectedProtocol);
+  const protocol = parsed.hadProtocol ? parsed.protocol : selectedProtocol;
+  const endpoint = parsed.endpoint;
+
+  return {
+    protocol,
+    endpoint,
+    hadProtocol: parsed.hadProtocol,
+    target: endpoint ? `${protocol}://${endpoint}` : "",
+  };
+};
+
+export const ensureProxyTargetPort = (
+  endpoint: string,
+  defaultPort: string = DEFAULT_PROXY_TARGET_PORT,
+): string => {
+  const trimmed = endpoint.trim();
+  if (!trimmed || extractPortFromTarget(trimmed) !== null) {
+    return trimmed;
+  }
+
+  const port = defaultPort.trim();
+  if (!port) {
+    return trimmed;
+  }
+
+  const firstSuffixIndex = trimmed.search(/[/?#]/);
+  const boundary = firstSuffixIndex === -1 ? trimmed.length : firstSuffixIndex;
+  const authority = trimmed.slice(0, boundary);
+  const suffix = trimmed.slice(boundary);
+
+  if (!authority) {
+    return trimmed;
+  }
+
+  if (authority.startsWith("[")) {
+    const closingBracketIndex = authority.indexOf("]");
+    if (closingBracketIndex === -1) {
+      return trimmed;
+    }
+
+    const host = authority.slice(0, closingBracketIndex + 1);
+    const rest = authority.slice(closingBracketIndex + 1);
+    return `${host}:${port}${rest}${suffix}`;
+  }
+
+  if (authority.includes(":")) {
+    return trimmed;
+  }
+
+  return `${authority}:${port}${suffix}`;
+};
+
+export const normalizeProxyTargetInput = (
+  selectedProtocol: ProxyTargetProtocol,
+  endpointInput: string,
+  defaultPort?: string,
+) => {
+  const resolved = resolveProxyTargetInput(selectedProtocol, endpointInput);
+  const endpoint = ensureProxyTargetPort(
+    resolved.endpoint,
+    getDefaultProxyTargetPort(resolved.protocol, defaultPort),
+  );
+
+  return {
+    ...resolved,
+    endpoint,
+    target: endpoint ? `${resolved.protocol}://${endpoint}` : "",
+  };
+};
+
+export const isSupportedProxyTargetUrl = (value: string): boolean => {
+  const target = value.trim();
+  if (!target) return false;
+  if (hasExplicitEmptyPort(target)) return false;
+
+  try {
+    const parsed = new URL(target);
+    return (
+      isProxyTargetProtocol(parsed.protocol) && Boolean(parsed.hostname.trim())
+    );
+  } catch {
+    return false;
+  }
+};
+
+export const isWebSocketProxyTargetUrl = (value: string): boolean => {
+  const target = value.trim();
+  if (!target) return false;
+  if (hasExplicitEmptyPort(target)) return false;
+
+  try {
+    const parsed = new URL(target);
+    return (
+      isWebSocketProxyTargetProtocol(parsed.protocol) &&
+      Boolean(parsed.hostname.trim())
+    );
+  } catch {
+    return false;
+  }
+};

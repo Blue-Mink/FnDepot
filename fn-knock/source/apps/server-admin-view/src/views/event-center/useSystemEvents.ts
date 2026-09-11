@@ -1,1 +1,189 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgcmVmLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdXNlRGVsYXllZExvYWRpbmcgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZURlbGF5ZWRMb2FkaW5nIjsKaW1wb3J0IHsgdXNlUGFnZWRTZWxlY3Rpb25MaXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VQYWdlZFNlbGVjdGlvbkxpc3QiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyBFdmVudENlbnRlckFQSSB9IGZyb20gIkAvbGliL2FwaS9ldmVudHMiOwppbXBvcnQgdHlwZSB7CiAgU3lzdGVtRXZlbnRMZXZlbCwKICBTeXN0ZW1FdmVudFJlY29yZCwKICBTeXN0ZW1FdmVudFNvdXJjZSwKICBTeXN0ZW1FdmVudFR5cGUsCn0gZnJvbSAiQC90eXBlcyI7CgpleHBvcnQgY29uc3QgdXNlU3lzdGVtRXZlbnRzID0gKCkgPT4gewogIGNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IHNlbGVjdGVkVHlwZSA9IHJlZjxTeXN0ZW1FdmVudFR5cGUgfCAiYWxsIj4oImFsbCIpOwogIGNvbnN0IHNlbGVjdGVkTGV2ZWwgPSByZWY8U3lzdGVtRXZlbnRMZXZlbCB8ICJhbGwiPigiYWxsIik7CiAgY29uc3Qgc2VsZWN0ZWRTb3VyY2UgPSByZWY8U3lzdGVtRXZlbnRTb3VyY2UgfCAiYWxsIj4oImFsbCIpOwogIGNvbnN0IGlzRGV0YWlsc09wZW4gPSByZWYoZmFsc2UpOwogIGNvbnN0IGFjdGl2ZUV2ZW50ID0gcmVmPFN5c3RlbUV2ZW50UmVjb3JkIHwgbnVsbD4obnVsbCk7CgogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc0RlbGV0aW5nLCBydW46IHJ1bkRlbGV0ZSB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZWxldGVGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGVsZXRlRXZlbnRGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzQ2xlYXJpbmcsIHJ1bjogcnVuQ2xlYXIgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuY2xlYXJGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuY2xlYXJFdmVudEZhaWxlZCIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSwKICB9KTsKCiAgY29uc3QgewogICAgaXRlbXM6IGV2ZW50cywKICAgIHRvdGFsOiB0b3RhbEV2ZW50cywKICAgIGxvYWRpbmcsCiAgICBzZWFyY2hRdWVyeSwKICAgIGN1cnJlbnRQYWdlLAogICAgbGltaXQsCiAgICBwYXJzZWRMaW1pdCwKICAgIHNlbGVjdGVkS2V5cywKICAgIGlzQWxsU2VsZWN0ZWQsCiAgICBmZXRjaExpc3Q6IGZldGNoRXZlbnRzLAogICAgaGFuZGxlU2VhcmNoLAogICAgaGFuZGxlUGFnZUNoYW5nZSwKICAgIGhhbmRsZUxpbWl0Q2hhbmdlLAogICAgdG9nZ2xlU2VsZWN0LAogICAgY2xlYXJTZWxlY3Rpb24sCiAgfSA9IHVzZVBhZ2VkU2VsZWN0aW9uTGlzdDxTeXN0ZW1FdmVudFJlY29yZCwgc3RyaW5nPih7CiAgICBmZXRjaFBhZ2U6IGFzeW5jICh7IHBhZ2UsIGxpbWl0OiBwYWdlTGltaXQsIHF1ZXJ5IH0pID0+IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgRXZlbnRDZW50ZXJBUEkuZ2V0RXZlbnRzKHsKICAgICAgICBwYWdlLAogICAgICAgIGxpbWl0OiBwYWdlTGltaXQsCiAgICAgICAgc2VhcmNoOiBxdWVyeSwKICAgICAgICB0eXBlOiBzZWxlY3RlZFR5cGUudmFsdWUsCiAgICAgICAgbGV2ZWw6IHNlbGVjdGVkTGV2ZWwudmFsdWUsCiAgICAgICAgc291cmNlOiBzZWxlY3RlZFNvdXJjZS52YWx1ZSwKICAgICAgfSk7CiAgICAgIGlmICghKHJlc3VsdC5zdWNjZXNzIHx8IHJlc3VsdC5kYXRhKSkgewogICAgICAgIHRocm93IG5ldyBFcnJvcigKICAgICAgICAgIHJlc3VsdC5tZXNzYWdlIHx8IHQoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5sb2FkRmFpbGVkIiksCiAgICAgICAgKTsKICAgICAgfQogICAgICByZXR1cm4gewogICAgICAgIGl0ZW1zOiByZXN1bHQuZGF0YS5ldmVudHMgfHwgW10sCiAgICAgICAgdG90YWw6IHJlc3VsdC5kYXRhLnRvdGFsIHx8IDAsCiAgICAgIH07CiAgICB9LAogICAgZ2V0S2V5OiAoZXZlbnQpID0+IGV2ZW50LmlkLAogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5sb2FkRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmV2ZW50TGlzdExvYWRGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IHNob3dUYWJsZVNrZWxldG9uID0gdXNlRGVsYXllZExvYWRpbmcoCiAgICAoKSA9PiBsb2FkaW5nLnZhbHVlICYmIGV2ZW50cy52YWx1ZS5sZW5ndGggPT09IDAsCiAgKTsKICBjb25zdCBoYXNTZWxlY3RlZEV2ZW50cyA9IGNvbXB1dGVkKCgpID0+IHNlbGVjdGVkS2V5cy52YWx1ZS5zaXplID4gMCk7CiAgY29uc3QgY2xlYXJFdmVudHNEZXNjcmlwdGlvbiA9IGNvbXB1dGVkKCgpID0+CiAgICB0KCJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuY2xlYXJEZXNjcmlwdGlvbiIsIHsKICAgICAgY291bnQ6IHRvdGFsRXZlbnRzLnZhbHVlLAogICAgfSksCiAgKTsKCiAgY29uc3Qgdmlld0RldGFpbHMgPSAoZXZlbnQ6IFN5c3RlbUV2ZW50UmVjb3JkKSA9PiB7CiAgICBhY3RpdmVFdmVudC52YWx1ZSA9IGV2ZW50OwogICAgaXNEZXRhaWxzT3Blbi52YWx1ZSA9IHRydWU7CiAgfTsKICBjb25zdCBkZWxldGVFdmVudHMgPSBhc3luYyAoaWRzOiBzdHJpbmdbXSkgPT4gewogICAgYXdhaXQgcnVuRGVsZXRlKCgpID0+IEV2ZW50Q2VudGVyQVBJLmRlbGV0ZUV2ZW50cyhpZHMpLCB7CiAgICAgIG9uU3VjY2VzczogYXN5bmMgKHJlc3VsdCkgPT4gewogICAgICAgIGlmIChyZXN1bHQuc3VjY2VzcyB8fCByZXN1bHQubWVzc2FnZSA9PT0gInN1Y2Nlc3MiKSB7CiAgICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZWxldGVTdWNjZXNzIikpOwogICAgICAgICAgY2xlYXJTZWxlY3Rpb24oKTsKICAgICAgICAgIGF3YWl0IGZldGNoRXZlbnRzKCk7CiAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZWxldGVGYWlsZWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246CiAgICAgICAgICAgIHJlc3VsdC5tZXNzYWdlIHx8IHQoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZWxldGVFdmVudEZhaWxlZCIpLAogICAgICAgIH0pOwogICAgICB9LAogICAgfSk7CiAgfTsKICBjb25zdCBjbGVhckFsbEV2ZW50cyA9IGFzeW5jICgpID0+IHsKICAgIGlmICh0b3RhbEV2ZW50cy52YWx1ZSA9PT0gMCkgcmV0dXJuOwogICAgYXdhaXQgcnVuQ2xlYXIoKCkgPT4gRXZlbnRDZW50ZXJBUEkuY2xlYXJFdmVudHMoKSwgewogICAgICBvblN1Y2Nlc3M6IGFzeW5jIChyZXN1bHQpID0+IHsKICAgICAgICBpZiAocmVzdWx0LnN1Y2Nlc3MgfHwgcmVzdWx0Lm1lc3NhZ2UgPT09ICJzdWNjZXNzIikgewogICAgICAgICAgY29uc3QgZGVsZXRlZENvdW50ID0gcmVzdWx0LmRhdGE/LmRlbGV0ZWRfY291bnQgPz8gMDsKICAgICAgICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgICAgICAgIGRlbGV0ZWRDb3VudCA+IDAKICAgICAgICAgICAgICA/IHQoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5jbGVhclN1Y2Nlc3MiLCB7CiAgICAgICAgICAgICAgICAgIGNvdW50OiBkZWxldGVkQ291bnQsCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgIDogdCgiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmNsZWFyRW1wdHkiKSwKICAgICAgICAgICk7CiAgICAgICAgICBjbGVhclNlbGVjdGlvbigpOwogICAgICAgICAgYWN0aXZlRXZlbnQudmFsdWUgPSBudWxsOwogICAgICAgICAgaXNEZXRhaWxzT3Blbi52YWx1ZSA9IGZhbHNlOwogICAgICAgICAgaWYgKGN1cnJlbnRQYWdlLnZhbHVlICE9PSAxKSBjdXJyZW50UGFnZS52YWx1ZSA9IDE7CiAgICAgICAgICBhd2FpdCBmZXRjaEV2ZW50cygpOwogICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuY2xlYXJGYWlsZWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246CiAgICAgICAgICAgIHJlc3VsdC5tZXNzYWdlIHx8IHQoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5jbGVhckV2ZW50RmFpbGVkIiksCiAgICAgICAgfSk7CiAgICAgIH0sCiAgICB9KTsKICB9OwoKICB3YXRjaChbc2VsZWN0ZWRUeXBlLCBzZWxlY3RlZExldmVsLCBzZWxlY3RlZFNvdXJjZV0sICgpID0+IHsKICAgIGN1cnJlbnRQYWdlLnZhbHVlID0gMTsKICAgIHZvaWQgZmV0Y2hFdmVudHMoKTsKICB9KTsKICBvbk1vdW50ZWQoKCkgPT4gewogICAgdm9pZCBmZXRjaEV2ZW50cygpOwogIH0pOwoKICByZXR1cm4gewogICAgYWN0aXZlRXZlbnQsCiAgICBjbGVhckFsbEV2ZW50cywKICAgIGNsZWFyRXZlbnRzRGVzY3JpcHRpb24sCiAgICBjdXJyZW50UGFnZSwKICAgIGRlbGV0ZUV2ZW50cywKICAgIGV2ZW50cywKICAgIGZldGNoRXZlbnRzLAogICAgaGFuZGxlTGltaXRDaGFuZ2UsCiAgICBoYW5kbGVQYWdlQ2hhbmdlLAogICAgaGFuZGxlU2VhcmNoLAogICAgaGFzU2VsZWN0ZWRFdmVudHMsCiAgICBpc0FsbFNlbGVjdGVkLAogICAgaXNDbGVhcmluZywKICAgIGlzRGVsZXRpbmcsCiAgICBpc0RldGFpbHNPcGVuLAogICAgbGltaXQsCiAgICBsb2FkaW5nLAogICAgcGFyc2VkTGltaXQsCiAgICBzZWFyY2hRdWVyeSwKICAgIHNlbGVjdGVkS2V5cywKICAgIHNlbGVjdGVkTGV2ZWwsCiAgICBzZWxlY3RlZFNvdXJjZSwKICAgIHNlbGVjdGVkVHlwZSwKICAgIHNob3dUYWJsZVNrZWxldG9uLAogICAgdG9nZ2xlU2VsZWN0LAogICAgdG90YWxFdmVudHMsCiAgICB2aWV3RGV0YWlscywKICB9Owp9Owo=
+import { computed, onMounted, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import { usePagedSelectionList } from "@admin-shared/composables/usePagedSelectionList";
+import { toast } from "@admin-shared/utils/toast";
+import { EventCenterAPI } from "@/lib/api/events";
+import type {
+  SystemEventLevel,
+  SystemEventRecord,
+  SystemEventSource,
+  SystemEventType,
+} from "@/types";
+
+export const useSystemEvents = () => {
+  const { t } = useI18n();
+  const selectedType = ref<SystemEventType | "all">("all");
+  const selectedLevel = ref<SystemEventLevel | "all">("all");
+  const selectedSource = ref<SystemEventSource | "all">("all");
+  const isDetailsOpen = ref(false);
+  const activeEvent = ref<SystemEventRecord | null>(null);
+
+  const { isPending: isDeleting, run: runDelete } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.eventCenter.events.deleteFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.eventCenter.events.deleteEventFailed"),
+        ),
+      });
+    },
+  });
+  const { isPending: isClearing, run: runClear } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.eventCenter.events.clearFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.eventCenter.events.clearEventFailed"),
+        ),
+      });
+    },
+  });
+
+  const {
+    items: events,
+    total: totalEvents,
+    loading,
+    searchQuery,
+    currentPage,
+    limit,
+    parsedLimit,
+    selectedKeys,
+    isAllSelected,
+    fetchList: fetchEvents,
+    handleSearch,
+    handlePageChange,
+    handleLimitChange,
+    toggleSelect,
+    clearSelection,
+  } = usePagedSelectionList<SystemEventRecord, string>({
+    fetchPage: async ({ page, limit: pageLimit, query }) => {
+      const result = await EventCenterAPI.getEvents({
+        page,
+        limit: pageLimit,
+        search: query,
+        type: selectedType.value,
+        level: selectedLevel.value,
+        source: selectedSource.value,
+      });
+      if (!(result.success || result.data)) {
+        throw new Error(
+          result.message || t("admin.eventCenter.events.loadFailed"),
+        );
+      }
+      return {
+        items: result.data.events || [],
+        total: result.data.total || 0,
+      };
+    },
+    getKey: (event) => event.id,
+    onError: (error) => {
+      toast.error(t("admin.eventCenter.events.loadFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.eventCenter.events.eventListLoadFailed"),
+        ),
+      });
+    },
+  });
+
+  const showTableSkeleton = useDelayedLoading(
+    () => loading.value && events.value.length === 0,
+  );
+  const hasSelectedEvents = computed(() => selectedKeys.value.size > 0);
+  const clearEventsDescription = computed(() =>
+    t("admin.eventCenter.events.clearDescription", {
+      count: totalEvents.value,
+    }),
+  );
+
+  const viewDetails = (event: SystemEventRecord) => {
+    activeEvent.value = event;
+    isDetailsOpen.value = true;
+  };
+  const deleteEvents = async (ids: string[]) => {
+    await runDelete(() => EventCenterAPI.deleteEvents(ids), {
+      onSuccess: async (result) => {
+        if (result.success || result.message === "success") {
+          toast.success(t("admin.eventCenter.events.deleteSuccess"));
+          clearSelection();
+          await fetchEvents();
+          return;
+        }
+        toast.error(t("admin.eventCenter.events.deleteFailed"), {
+          description:
+            result.message || t("admin.eventCenter.events.deleteEventFailed"),
+        });
+      },
+    });
+  };
+  const clearAllEvents = async () => {
+    if (totalEvents.value === 0) return;
+    await runClear(() => EventCenterAPI.clearEvents(), {
+      onSuccess: async (result) => {
+        if (result.success || result.message === "success") {
+          const deletedCount = result.data?.deleted_count ?? 0;
+          toast.success(
+            deletedCount > 0
+              ? t("admin.eventCenter.events.clearSuccess", {
+                  count: deletedCount,
+                })
+              : t("admin.eventCenter.events.clearEmpty"),
+          );
+          clearSelection();
+          activeEvent.value = null;
+          isDetailsOpen.value = false;
+          if (currentPage.value !== 1) currentPage.value = 1;
+          await fetchEvents();
+          return;
+        }
+        toast.error(t("admin.eventCenter.events.clearFailed"), {
+          description:
+            result.message || t("admin.eventCenter.events.clearEventFailed"),
+        });
+      },
+    });
+  };
+
+  watch([selectedType, selectedLevel, selectedSource], () => {
+    currentPage.value = 1;
+    void fetchEvents();
+  });
+  onMounted(() => {
+    void fetchEvents();
+  });
+
+  return {
+    activeEvent,
+    clearAllEvents,
+    clearEventsDescription,
+    currentPage,
+    deleteEvents,
+    events,
+    fetchEvents,
+    handleLimitChange,
+    handlePageChange,
+    handleSearch,
+    hasSelectedEvents,
+    isAllSelected,
+    isClearing,
+    isDeleting,
+    isDetailsOpen,
+    limit,
+    loading,
+    parsedLimit,
+    searchQuery,
+    selectedKeys,
+    selectedLevel,
+    selectedSource,
+    selectedType,
+    showTableSkeleton,
+    toggleSelect,
+    totalEvents,
+    viewDetails,
+  };
+};

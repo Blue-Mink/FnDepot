@@ -1,1 +1,5 @@
-IyEvYmluL2Jhc2gKCiMjIyBUaGlzIHNjcmlwdCBpcyBjYWxsZWQgYmVmb3JlIHRoZSB1c2VyIHVwZ3JhZGVzIHRoZSBhcHBsaWNhdGlvbi4KCmV4aXQgMA==
+#!/bin/bash
+
+### This script is called before the user upgrades the application.
+
+exit 0

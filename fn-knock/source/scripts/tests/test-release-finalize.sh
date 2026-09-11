@@ -1,1 +1,164 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCldPUktfRElSPSIkKG1rdGVtcCAtZCAiJHtUTVBESVI6LS90bXB9L2ZuLWtub2NrLWZpbmFsaXplLXRlc3QuWFhYWFhYIikiCkFTU0VUU19ESVI9IiR7V09SS19ESVJ9L2Fzc2V0cyIKV0lORE9XU19NRVRBREFUQV9ESVI9IiR7V09SS19ESVJ9L3dpbmRvd3MtbWV0YWRhdGEiCkNPU19PVVRQVVRfRElSPSIke1dPUktfRElSfS9jb3Mtb3V0cHV0IgpWRVJTSU9OPSIkKGpxIC1yICcudmVyc2lvbicgIiR7Uk9PVF9ESVJ9L3ZlcnNpb24uanNvbiIpIgpDT05UUk9MX0FQSV9WRVJTSU9OPSIkKGJhc2ggIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvY29udHJvbC1hcGktdmVyc2lvbi5zaCIpIgoKY2xlYW51cCgpIHsKICBybSAtcmYgIiR7V09SS19ESVJ9Igp9CnRyYXAgY2xlYW51cCBFWElUCgpmYWlsKCkgewogIHByaW50ZiAnW3Rlc3QtcmVsZWFzZS1maW5hbGl6ZV0gRVJST1I6ICVzXG4nICIkKiIgPiYyCiAgZXhpdCAxCn0KCmV4cGVjdF9mYWlsdXJlKCkgewogIGxvY2FsIGV4cGVjdGVkPSIkMSIKICBzaGlmdAogIGxvY2FsIG91dHB1dAogIGlmIG91dHB1dD0iJCgiJEAiIDI+JjEpIjsgdGhlbgogICAgZmFpbCAiY29tbWFuZCB1bmV4cGVjdGVkbHkgc3VjY2VlZGVkOiAkKiIKICBmaQogIHByaW50ZiAnJXNcbicgIiR7b3V0cHV0fSIgfCBncmVwIC1GcSAiJHtleHBlY3RlZH0iIHx8IFwKICAgIGZhaWwgImZhaWx1cmUgZGlkIG5vdCBjb250YWluICcke2V4cGVjdGVkfSc6ICR7b3V0cHV0fSIKfQoKcnVuX2ZpbmFsaXplKCkgewogIEZOX0tOT0NLX1ZFUlNJT049IiR7VkVSU0lPTn0iIFwKICBGTl9LTk9DS19SRUxFQVNFX1RBRz0idiR7VkVSU0lPTn0iIFwKICBGTl9LTk9DS19TT1VSQ0VfQ09NTUlUPTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTEgXAogIEZOX0tOT0NLX0dPX1NPVVJDRV9DT01NSVQ9MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMiBcCiAgRk5fS05PQ0tfQ09OVFJPTF9BUElfVkVSU0lPTj0iJHtDT05UUk9MX0FQSV9WRVJTSU9OfSIgXAogIEZOX0tOT0NLX0RPQ0tFUl9JTUFHRT1rY2lsbmsvZm4ta25vY2sgXAogIEZOX0tOT0NLX0RPQ0tFUl9ESUdFU1Q9c2hhMjU2OjMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMgXAogIEZOX0tOT0NLX1JFUVVJUkVfRE9DS0VSPTEgXAogICAgbm9kZSAiJHtST09UX0RJUn0vc2NyaXB0cy9mbi1rbm9jay1yZWxlYXNlLWZpbmFsaXplLm1qcyIgIiR7QVNTRVRTX0RJUn0iCn0KCm1rZGlyIC1wICIke0FTU0VUU19ESVJ9Igpmb3IgbmFtZSBpbiBcCiAgImZuLWtub2NrLSR7VkVSU0lPTn0tZm5vcy1hbWQ2NC5mcGsiIFwKICAiZm4ta25vY2stJHtWRVJTSU9OfS1mbm9zLWFybTY0LmZwayIgXAogICJmbi1rbm9jay1saW51eC0ke1ZFUlNJT059LWFtZDY0LnRhci5neiIgXAogICJmbi1rbm9jay1saW51eC0ke1ZFUlNJT059LWFtZDY0LnRhci5nei5zaGEyNTYiIFwKICAiZm4ta25vY2stbGludXgtJHtWRVJTSU9OfS1hcm02NC50YXIuZ3oiIFwKICAiZm4ta25vY2stbGludXgtJHtWRVJTSU9OfS1hcm02NC50YXIuZ3ouc2hhMjU2IiBcCiAgImZuLWtub2NrLWxpbnV4LSR7VkVSU0lPTn0tYXJtLnRhci5neiIgXAogICJmbi1rbm9jay1saW51eC0ke1ZFUlNJT059LWFybS50YXIuZ3ouc2hhMjU2IiBcCiAgImZuLWtub2NrLW1hY29zLSR7VkVSU0lPTn0tYW1kNjQudGFyLmd6IiBcCiAgImZuLWtub2NrLW1hY29zLSR7VkVSU0lPTn0tYW1kNjQudGFyLmd6LnNoYTI1NiIgXAogICJmbi1rbm9jay1tYWNvcy0ke1ZFUlNJT059LWFybTY0LnRhci5neiIgXAogICJmbi1rbm9jay1tYWNvcy0ke1ZFUlNJT059LWFybTY0LnRhci5nei5zaGEyNTYiIFwKICAiZm4ta25vY2tfJHtWRVJTSU9OfS0xX2FhcmNoNjRfY29ydGV4LWE1My5pcGsiIFwKICAiZm4ta25vY2tfJHtWRVJTSU9OfS1yMV9hYXJjaDY0X2NvcnRleC1hNTMuYXBrIiBcCiAgImZuLWtub2NrXyR7VkVSU0lPTn0tMV9hYXJjaDY0X2dlbmVyaWMuaXBrIiBcCiAgImZuLWtub2NrXyR7VkVSU0lPTn0tcjFfYWFyY2g2NF9nZW5lcmljLmFwayIgXAogICJmbi1rbm9ja18ke1ZFUlNJT059LTFfYXJtX2NvcnRleC1hN19uZW9uLXZmcHY0LmlwayIgXAogICJmbi1rbm9ja18ke1ZFUlNJT059LXIxX2FybV9jb3J0ZXgtYTdfbmVvbi12ZnB2NC5hcGsiIFwKICAiZm4ta25vY2tfJHtWRVJTSU9OfS0xX2FybV9jb3J0ZXgtYTVfdmZwdjQuaXBrIiBcCiAgImZuLWtub2NrXyR7VkVSU0lPTn0tcjFfYXJtX2NvcnRleC1hNV92ZnB2NC5hcGsiIFwKICAiZm4ta25vY2tfJHtWRVJTSU9OfS0xX3g4Nl82NC5pcGsiIFwKICAiZm4ta25vY2tfJHtWRVJTSU9OfS1yMV94ODZfNjQuYXBrIiBcCiAgImFwcC1tZXRhLWZuLWtub2NrXyR7VkVSU0lPTn0tcjFfYWxsLmlwayIgXAogICJhcHAtbWV0YS1mbi1rbm9jay0ke1ZFUlNJT059LXIxLmFwayIgXAogICJmbi1rbm9jay1zeW5vbG9neS14ODZfNjQtJHtWRVJTSU9OfS0wMDE3LnNwayIgXAogICJmbi1rbm9jay1zeW5vbG9neS14ODZfNjQtJHtWRVJTSU9OfS0wMDE3LnNway5zaGEyNTYiIFwKICAiZm4ta25vY2stc3lub2xvZ3ktYXJtdjgtJHtWRVJTSU9OfS0wMDE3LnNwayIgXAogICJmbi1rbm9jay1zeW5vbG9neS1hcm12OC0ke1ZFUlNJT059LTAwMTcuc3BrLnNoYTI1NiIgXAogICJmbi1rbm9jay1zeW5vbG9neS1hcm12Ny0ke1ZFUlNJT059LTAwMTcuc3BrIiBcCiAgImZuLWtub2NrLXN5bm9sb2d5LWFybXY3LSR7VkVSU0lPTn0tMDAxNy5zcGsuc2hhMjU2IiBcCiAgImZuLWtub2NrLSR7VkVSU0lPTn0td2luZG93cy14ODZfNjQtdW5zaWduZWQtc2V0dXAuZXhlIiBcCiAgImZuLWtub2NrLSR7VkVSU0lPTn0td2luZG93cy14ODZfNjQtdW5zaWduZWQtc2V0dXAuZXhlLnNoYTI1NiIgXAogICJmbi1rbm9jay0ke1ZFUlNJT059LXdpbmRvd3MteDg2XzY0LXVuc2lnbmVkLXJlbGVhc2UuanNvbiIgXAogICJmbi1rbm9jay0ke1ZFUlNJT059LXdpbmRvd3MteDg2XzY0LXVuc2lnbmVkLXVwZGF0ZXIuanNvbiIKZG8KICBwcmludGYgJ2ZpeHR1cmU6JXNcbicgIiR7bmFtZX0iID4gIiR7QVNTRVRTX0RJUn0vJHtuYW1lfSIKZG9uZQoKbWtkaXIgLXAgIiR7V0lORE9XU19NRVRBREFUQV9ESVJ9IgpXSU5ET1dTX1NFVFVQPSJmbi1rbm9jay0ke1ZFUlNJT059LXdpbmRvd3MteDg2XzY0LXVuc2lnbmVkLXNldHVwLmV4ZSIKV0lORE9XU19TSEEyNTY9IiQoc2hhMjU2c3VtICIke0FTU0VUU19ESVJ9LyR7V0lORE9XU19TRVRVUH0iIHwgYXdrICd7cHJpbnQgJDF9JykiCnByaW50ZiAnJXMgICVzXG4nICIke1dJTkRPV1NfU0hBMjU2fSIgIiR7V0lORE9XU19TRVRVUH0iIFwKICA+ICIke1dJTkRPV1NfTUVUQURBVEFfRElSfS8ke1dJTkRPV1NfU0VUVVB9LnNoYTI1NiIKcHJpbnRmICd7InZlcnNpb24iOiIlcyIsInJ1bnRpbWVfdGFyZ2V0Ijoid2luZG93cyIsImFyY2hpdGVjdHVyZSI6Ing4Nl82NCIsInB1Ymxpc2hlZF9hdCI6IjIwMjYtMDctMjJUMDA6MDA6MDAuMDAwWiJ9XG4nIFwKICAiJHtWRVJTSU9OfSIgXAogID4gIiR7V0lORE9XU19NRVRBREFUQV9ESVJ9L2ZuLWtub2NrLSR7VkVSU0lPTn0td2luZG93cy14ODZfNjQtdW5zaWduZWQtcmVsZWFzZS5qc29uIgpwcmludGYgJ3sidmVyc2lvbiI6IiVzIiwicHViX2RhdGUiOiIyMDI2LTA3LTIyVDAwOjAwOjAwLjAwMFoifVxuJyBcCiAgIiR7VkVSU0lPTn0iIFwKICA+ICIke1dJTkRPV1NfTUVUQURBVEFfRElSfS9mbi1rbm9jay0ke1ZFUlNJT059LXdpbmRvd3MteDg2XzY0LXVuc2lnbmVkLXVwZGF0ZXIuanNvbiIKcHJpbnRmICcjIS9iaW4vc2hcbmVjaG8gaW5zdGFsbFxuJyA+ICIke1dPUktfRElSfS9pbnN0YWxsLnNoIgpwcmludGYgJyMhL2Jpbi9zaFxuZWNobyBtYWNvcyBpbnN0YWxsXG4nID4gIiR7V09SS19ESVJ9L21hY29zLWluc3RhbGwuc2giCnByaW50ZiAnIyBmbi1rbm9jayAlc1xuXG4tIEludGVncmF0aW9uIGZpeHR1cmVcbicgIiR7VkVSU0lPTn0iIFwKICA+ICIke1dPUktfRElSfS9yZWxlYXNlLW5vdGVzLm1kIgpwcmludGYgJ1tdXG4nID4gIiR7V09SS19ESVJ9L3JlbGVhc2UtaGlzdG9yeS5qc29uIgoKcnVuX2ZpbmFsaXplID4vZGV2L251bGwKanEgLWUgXAogIC0tYXJnIHZlcnNpb24gIiR7VkVSU0lPTn0iIFwKICAtLWFyZ2pzb24gY29udHJvbF9hcGlfdmVyc2lvbiAiJHtDT05UUk9MX0FQSV9WRVJTSU9OfSIgXAogICcKICAgIC5zY2hlbWFfdmVyc2lvbiA9PSAxIGFuZAogICAgLnZlcnNpb24gPT0gJHZlcnNpb24gYW5kCiAgICAudGFnID09ICgidiIgKyAkdmVyc2lvbikgYW5kCiAgICAuY2hhbm5lbCA9PSAic3RhYmxlIiBhbmQKICAgIC5wcmVyZWxlYXNlID09IGZhbHNlIGFuZAogICAgLmNvbnRyb2xfYXBpX3ZlcnNpb24gPT0gJGNvbnRyb2xfYXBpX3ZlcnNpb24gYW5kCiAgICAoLmFydGlmYWN0cyB8IGxlbmd0aCkgPT0gMjMgYW5kCiAgICAoWy5hcnRpZmFjdHNbXS5uYW1lIHwgZW5kc3dpdGgoIi5zaGEyNTYiKSBvciBlbmRzd2l0aCgiLmpzb24iKV0gfCBhbnkgfCBub3QpIGFuZAogICAgKFsuYXJ0aWZhY3RzW10ubmFtZSB8IHNlbGVjdChzdGFydHN3aXRoKCJhcHAtbWV0YS0iKSldIHwgbGVuZ3RoKSA9PSAyIGFuZAogICAgKFsuYXJ0aWZhY3RzW10gfCBzZWxlY3QoLnBsYXRmb3JtID09ICJvcGVud3J0IiBhbmQgKC5uYW1lIHwgZW5kc3dpdGgoIi5pcGsiKSkpIHwgLmFyY2hpdGVjdHVyZV0gfCBzb3J0KSA9PSBbImFhcmNoNjRfY29ydGV4LWE1MyIsICJhYXJjaDY0X2dlbmVyaWMiLCAiYWxsIiwgImFybV9jb3J0ZXgtYTVfdmZwdjQiLCAiYXJtX2NvcnRleC1hN19uZW9uLXZmcHY0IiwgIng4Nl82NCJdIGFuZAogICAgKFsuYXJ0aWZhY3RzW10gfCBzZWxlY3QoLnBsYXRmb3JtID09ICJvcGVud3J0IiBhbmQgKC5uYW1lIHwgZW5kc3dpdGgoIi5hcGsiKSkpIHwgLmFyY2hpdGVjdHVyZV0gfCBzb3J0KSA9PSBbImFhcmNoNjRfY29ydGV4LWE1MyIsICJhYXJjaDY0X2dlbmVyaWMiLCAiYWxsIiwgImFybV9jb3J0ZXgtYTVfdmZwdjQiLCAiYXJtX2NvcnRleC1hN19uZW9uLXZmcHY0IiwgIng4Nl82NCJdIGFuZAogICAgKFsuYXJ0aWZhY3RzW10gfCBzZWxlY3QoLnBsYXRmb3JtID09ICJzeW5vbG9neSIpIHwgLmFyY2hpdGVjdHVyZV0gfCBzb3J0KSA9PSBbImFybXY3IiwgImFybXY4IiwgIng4Nl82NCJdIGFuZAogICAgKFsuYXJ0aWZhY3RzW10gfCBzZWxlY3QoLnBsYXRmb3JtID09ICJtYWNvcyIpIHwgLmFyY2hpdGVjdHVyZV0gfCBzb3J0KSA9PSBbImFtZDY0IiwgImFybTY0Il0gYW5kCiAgICAubWV0YWRhdGFfZmlsZXMgPT0gWyJyZWxlYXNlLW1hbmlmZXN0Lmpzb24iLCAiU0hBMjU2U1VNUyJdIGFuZAogICAgLmRvY2tlci5wdWJsaXNoZWQgPT0gdHJ1ZSBhbmQKICAgIC5kb2NrZXIucmVmZXJlbmNlID09ICgia2NpbG5rL2ZuLWtub2NrOiIgKyAkdmVyc2lvbikgYW5kCiAgICAuZG9ja2VyLnBsYXRmb3JtcyA9PSBbImxpbnV4L2FtZDY0IiwgImxpbnV4L2FybTY0IiwgImxpbnV4L2FybS92NyJdCiAgJyBcCiAgIiR7QVNTRVRTX0RJUn0vcmVsZWFzZS1tYW5pZmVzdC5qc29uIiA+L2Rldi9udWxsClsgIiQod2MgLWwgPCAiJHtBU1NFVFNfRElSfS9TSEEyNTZTVU1TIiB8IHRyIC1kICcgJykiID0gIjI0IiBdIHx8IFwKICBmYWlsICJTSEEyNTZTVU1TIGRvZXMgbm90IGNvdmVyIDIzIHB1YmxpYyBkZWxpdmVyYWJsZXMgYW5kIHJlbGVhc2UtbWFuaWZlc3QuanNvbiIKaWYgZmluZCAiJHtBU1NFVFNfRElSfSIgLW1heGRlcHRoIDEgLXR5cGUgZiBcCiAgXCggLW5hbWUgJyouc2hhMjU2JyAtbyBcKCAtbmFtZSAnKi5qc29uJyAhIC1uYW1lICdyZWxlYXNlLW1hbmlmZXN0Lmpzb24nIFwpIFwpIHwKICAgIGdyZXAgLXEgLgp0aGVuCiAgZmFpbCAicGVyLWFydGlmYWN0IG1ldGFkYXRhIGZpbGVzIHJlbWFpbiBpbiB0aGUgcHVibGljIHJlbGVhc2UgZGlyZWN0b3J5IgpmaQoKQ09TX1BVQkxJQ0JBU0lDVVJMPWh0dHBzOi8vY2RuLmV4YW1wbGUudGVzdCBcCkZOX0tOT0NLX0NPU19PVVRQVVRfRElSPSIke0NPU19PVVRQVVRfRElSfSIgXApGTl9LTk9DS19JTlNUQUxMX1NDUklQVD0iJHtXT1JLX0RJUn0vaW5zdGFsbC5zaCIgXApGTl9LTk9DS19NQUNPU19JTlNUQUxMX1NDUklQVD0iJHtXT1JLX0RJUn0vbWFjb3MtaW5zdGFsbC5zaCIgXApGTl9LTk9DS19SRUxFQVNFX0FTU0VUU19ESVI9IiR7QVNTRVRTX0RJUn0iIFwKRk5fS05PQ0tfUkVMRUFTRV9ISVNUT1JZX0ZJTEU9IiR7V09SS19ESVJ9L3JlbGVhc2UtaGlzdG9yeS5qc29uIiBcCkZOX0tOT0NLX1JFTEVBU0VfTk9URVNfUEFUSD0iJHtXT1JLX0RJUn0vcmVsZWFzZS1ub3Rlcy5tZCIgXApGTl9LTk9DS19WRVJTSU9OPSIke1ZFUlNJT059IiBcCkZOX0tOT0NLX1dJTkRPV1NfTUVUQURBVEFfRElSPSIke1dJTkRPV1NfTUVUQURBVEFfRElSfSIgXAogIG5vZGUgIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvZm4ta25vY2stY29zLXB1Ymxpc2gubWpzIiBwbGFuID4vZGV2L251bGwKanEgLWUgXAogICcKICAgICgudmVyc2lvbl9vYmplY3RzIHwgbGVuZ3RoKSA9PSAyNiBhbmQKICAgICgubXV0YWJsZV9vYmplY3RzIHwgbGVuZ3RoKSA9PSA5CiAgJyBcCiAgIiR7Q09TX09VVFBVVF9ESVJ9L3B1Ymxpc2gtcGxhbi5qc29uIiA+L2Rldi9udWxsCmpxIC1lIFwKICAnCiAgICAoLnBhY2thZ2VzLmlwayB8IGtleXMgfCBzb3J0KSA9PSBbImFhcmNoNjRfY29ydGV4LWE1MyIsICJhYXJjaDY0X2dlbmVyaWMiLCAiYWxsIiwgImFybV9jb3J0ZXgtYTVfdmZwdjQiLCAiYXJtX2NvcnRleC1hN19uZW9uLXZmcHY0IiwgIng4Nl82NCJdIGFuZAogICAgKC5wYWNrYWdlcy5hcGsgfCBrZXlzIHwgc29ydCkgPT0gWyJhYXJjaDY0X2NvcnRleC1hNTMiLCAiYWFyY2g2NF9nZW5lcmljIiwgImFsbCIsICJhcm1fY29ydGV4LWE1X3ZmcHY0IiwgImFybV9jb3J0ZXgtYTdfbmVvbi12ZnB2NCIsICJ4ODZfNjQiXQogICAgYW5kICgucGFja2FnZXMubWFjb3MgfCBrZXlzIHwgc29ydCkgPT0gWyJhbWQ2NCIsICJhcm02NCJdCiAgJyBcCiAgIiR7Q09TX09VVFBVVF9ESVJ9L2xhdGVzdC5qc29uIiA+L2Rldi9udWxsCgpydW5fZmluYWxpemUgPi9kZXYvbnVsbAoKcHJpbnRmICd1bmV4cGVjdGVkXG4nID4gIiR7QVNTRVRTX0RJUn0vdW5leHBlY3RlZC5iaW4iCmV4cGVjdF9mYWlsdXJlICJleGFjdGx5IDIzIGRlbGl2ZXJhYmxlcyIgcnVuX2ZpbmFsaXplCgpwcmludGYgJ1t0ZXN0LXJlbGVhc2UtZmluYWxpemVdIGFsbCBpbnZlbnRvcnkgdGVzdHMgcGFzc2VkXG4nCg==
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+WORK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/fn-knock-finalize-test.XXXXXX")"
+ASSETS_DIR="${WORK_DIR}/assets"
+WINDOWS_METADATA_DIR="${WORK_DIR}/windows-metadata"
+COS_OUTPUT_DIR="${WORK_DIR}/cos-output"
+VERSION="$(jq -r '.version' "${ROOT_DIR}/version.json")"
+CONTROL_API_VERSION="$(bash "${ROOT_DIR}/scripts/control-api-version.sh")"
+
+cleanup() {
+  rm -rf "${WORK_DIR}"
+}
+trap cleanup EXIT
+
+fail() {
+  printf '[test-release-finalize] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+expect_failure() {
+  local expected="$1"
+  shift
+  local output
+  if output="$("$@" 2>&1)"; then
+    fail "command unexpectedly succeeded: $*"
+  fi
+  printf '%s\n' "${output}" | grep -Fq "${expected}" || \
+    fail "failure did not contain '${expected}': ${output}"
+}
+
+run_finalize() {
+  FN_KNOCK_VERSION="${VERSION}" \
+  FN_KNOCK_RELEASE_TAG="v${VERSION}" \
+  FN_KNOCK_SOURCE_COMMIT=1111111111111111111111111111111111111111 \
+  FN_KNOCK_GO_SOURCE_COMMIT=2222222222222222222222222222222222222222 \
+  FN_KNOCK_CONTROL_API_VERSION="${CONTROL_API_VERSION}" \
+  FN_KNOCK_DOCKER_IMAGE=kcilnk/fn-knock \
+  FN_KNOCK_DOCKER_DIGEST=sha256:3333333333333333333333333333333333333333333333333333333333333333 \
+  FN_KNOCK_REQUIRE_DOCKER=1 \
+    node "${ROOT_DIR}/scripts/fn-knock-release-finalize.mjs" "${ASSETS_DIR}"
+}
+
+mkdir -p "${ASSETS_DIR}"
+for name in \
+  "fn-knock-${VERSION}-fnos-amd64.fpk" \
+  "fn-knock-${VERSION}-fnos-arm64.fpk" \
+  "fn-knock-linux-${VERSION}-amd64.tar.gz" \
+  "fn-knock-linux-${VERSION}-amd64.tar.gz.sha256" \
+  "fn-knock-linux-${VERSION}-arm64.tar.gz" \
+  "fn-knock-linux-${VERSION}-arm64.tar.gz.sha256" \
+  "fn-knock-linux-${VERSION}-arm.tar.gz" \
+  "fn-knock-linux-${VERSION}-arm.tar.gz.sha256" \
+  "fn-knock-macos-${VERSION}-amd64.tar.gz" \
+  "fn-knock-macos-${VERSION}-amd64.tar.gz.sha256" \
+  "fn-knock-macos-${VERSION}-arm64.tar.gz" \
+  "fn-knock-macos-${VERSION}-arm64.tar.gz.sha256" \
+  "fn-knock_${VERSION}-1_aarch64_cortex-a53.ipk" \
+  "fn-knock_${VERSION}-r1_aarch64_cortex-a53.apk" \
+  "fn-knock_${VERSION}-1_aarch64_generic.ipk" \
+  "fn-knock_${VERSION}-r1_aarch64_generic.apk" \
+  "fn-knock_${VERSION}-1_arm_cortex-a7_neon-vfpv4.ipk" \
+  "fn-knock_${VERSION}-r1_arm_cortex-a7_neon-vfpv4.apk" \
+  "fn-knock_${VERSION}-1_arm_cortex-a5_vfpv4.ipk" \
+  "fn-knock_${VERSION}-r1_arm_cortex-a5_vfpv4.apk" \
+  "fn-knock_${VERSION}-1_x86_64.ipk" \
+  "fn-knock_${VERSION}-r1_x86_64.apk" \
+  "app-meta-fn-knock_${VERSION}-r1_all.ipk" \
+  "app-meta-fn-knock-${VERSION}-r1.apk" \
+  "fn-knock-synology-x86_64-${VERSION}-0017.spk" \
+  "fn-knock-synology-x86_64-${VERSION}-0017.spk.sha256" \
+  "fn-knock-synology-armv8-${VERSION}-0017.spk" \
+  "fn-knock-synology-armv8-${VERSION}-0017.spk.sha256" \
+  "fn-knock-synology-armv7-${VERSION}-0017.spk" \
+  "fn-knock-synology-armv7-${VERSION}-0017.spk.sha256" \
+  "fn-knock-${VERSION}-windows-x86_64-unsigned-setup.exe" \
+  "fn-knock-${VERSION}-windows-x86_64-unsigned-setup.exe.sha256" \
+  "fn-knock-${VERSION}-windows-x86_64-unsigned-release.json" \
+  "fn-knock-${VERSION}-windows-x86_64-unsigned-updater.json"
+do
+  printf 'fixture:%s\n' "${name}" > "${ASSETS_DIR}/${name}"
+done
+
+mkdir -p "${WINDOWS_METADATA_DIR}"
+WINDOWS_SETUP="fn-knock-${VERSION}-windows-x86_64-unsigned-setup.exe"
+WINDOWS_SHA256="$(sha256sum "${ASSETS_DIR}/${WINDOWS_SETUP}" | awk '{print $1}')"
+printf '%s  %s\n' "${WINDOWS_SHA256}" "${WINDOWS_SETUP}" \
+  > "${WINDOWS_METADATA_DIR}/${WINDOWS_SETUP}.sha256"
+printf '{"version":"%s","runtime_target":"windows","architecture":"x86_64","published_at":"2026-07-22T00:00:00.000Z"}\n' \
+  "${VERSION}" \
+  > "${WINDOWS_METADATA_DIR}/fn-knock-${VERSION}-windows-x86_64-unsigned-release.json"
+printf '{"version":"%s","pub_date":"2026-07-22T00:00:00.000Z"}\n' \
+  "${VERSION}" \
+  > "${WINDOWS_METADATA_DIR}/fn-knock-${VERSION}-windows-x86_64-unsigned-updater.json"
+printf '#!/bin/sh\necho install\n' > "${WORK_DIR}/install.sh"
+printf '#!/bin/sh\necho macos install\n' > "${WORK_DIR}/macos-install.sh"
+printf '# fn-knock %s\n\n- Integration fixture\n' "${VERSION}" \
+  > "${WORK_DIR}/release-notes.md"
+printf '[]\n' > "${WORK_DIR}/release-history.json"
+
+run_finalize >/dev/null
+jq -e \
+  --arg version "${VERSION}" \
+  --argjson control_api_version "${CONTROL_API_VERSION}" \
+  '
+    .schema_version == 1 and
+    .version == $version and
+    .tag == ("v" + $version) and
+    .channel == "stable" and
+    .prerelease == false and
+    .control_api_version == $control_api_version and
+    (.artifacts | length) == 23 and
+    ([.artifacts[].name | endswith(".sha256") or endswith(".json")] | any | not) and
+    ([.artifacts[].name | select(startswith("app-meta-"))] | length) == 2 and
+    ([.artifacts[] | select(.platform == "openwrt" and (.name | endswith(".ipk"))) | .architecture] | sort) == ["aarch64_cortex-a53", "aarch64_generic", "all", "arm_cortex-a5_vfpv4", "arm_cortex-a7_neon-vfpv4", "x86_64"] and
+    ([.artifacts[] | select(.platform == "openwrt" and (.name | endswith(".apk"))) | .architecture] | sort) == ["aarch64_cortex-a53", "aarch64_generic", "all", "arm_cortex-a5_vfpv4", "arm_cortex-a7_neon-vfpv4", "x86_64"] and
+    ([.artifacts[] | select(.platform == "synology") | .architecture] | sort) == ["armv7", "armv8", "x86_64"] and
+    ([.artifacts[] | select(.platform == "macos") | .architecture] | sort) == ["amd64", "arm64"] and
+    .metadata_files == ["release-manifest.json", "SHA256SUMS"] and
+    .docker.published == true and
+    .docker.reference == ("kcilnk/fn-knock:" + $version) and
+    .docker.platforms == ["linux/amd64", "linux/arm64", "linux/arm/v7"]
+  ' \
+  "${ASSETS_DIR}/release-manifest.json" >/dev/null
+[ "$(wc -l < "${ASSETS_DIR}/SHA256SUMS" | tr -d ' ')" = "24" ] || \
+  fail "SHA256SUMS does not cover 23 public deliverables and release-manifest.json"
+if find "${ASSETS_DIR}" -maxdepth 1 -type f \
+  \( -name '*.sha256' -o \( -name '*.json' ! -name 'release-manifest.json' \) \) |
+    grep -q .
+then
+  fail "per-artifact metadata files remain in the public release directory"
+fi
+
+COS_PUBLICBASICURL=https://cdn.example.test \
+FN_KNOCK_COS_OUTPUT_DIR="${COS_OUTPUT_DIR}" \
+FN_KNOCK_INSTALL_SCRIPT="${WORK_DIR}/install.sh" \
+FN_KNOCK_MACOS_INSTALL_SCRIPT="${WORK_DIR}/macos-install.sh" \
+FN_KNOCK_RELEASE_ASSETS_DIR="${ASSETS_DIR}" \
+FN_KNOCK_RELEASE_HISTORY_FILE="${WORK_DIR}/release-history.json" \
+FN_KNOCK_RELEASE_NOTES_PATH="${WORK_DIR}/release-notes.md" \
+FN_KNOCK_VERSION="${VERSION}" \
+FN_KNOCK_WINDOWS_METADATA_DIR="${WINDOWS_METADATA_DIR}" \
+  node "${ROOT_DIR}/scripts/fn-knock-cos-publish.mjs" plan >/dev/null
+jq -e \
+  '
+    (.version_objects | length) == 26 and
+    (.mutable_objects | length) == 9
+  ' \
+  "${COS_OUTPUT_DIR}/publish-plan.json" >/dev/null
+jq -e \
+  '
+    (.packages.ipk | keys | sort) == ["aarch64_cortex-a53", "aarch64_generic", "all", "arm_cortex-a5_vfpv4", "arm_cortex-a7_neon-vfpv4", "x86_64"] and
+    (.packages.apk | keys | sort) == ["aarch64_cortex-a53", "aarch64_generic", "all", "arm_cortex-a5_vfpv4", "arm_cortex-a7_neon-vfpv4", "x86_64"]
+    and (.packages.macos | keys | sort) == ["amd64", "arm64"]
+  ' \
+  "${COS_OUTPUT_DIR}/latest.json" >/dev/null
+
+run_finalize >/dev/null
+
+printf 'unexpected\n' > "${ASSETS_DIR}/unexpected.bin"
+expect_failure "exactly 23 deliverables" run_finalize
+
+printf '[test-release-finalize] all inventory tests passed\n'

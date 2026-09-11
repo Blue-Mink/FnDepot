@@ -1,1 +1,22 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB0eXBlIHsgQnV0dG9uR3JvdXBWYXJpYW50cyB9IGZyb20gIi4iCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCmltcG9ydCB7IGJ1dHRvbkdyb3VwVmFyaWFudHMgfSBmcm9tICIuIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXQogIG9yaWVudGF0aW9uPzogQnV0dG9uR3JvdXBWYXJpYW50c1sib3JpZW50YXRpb24iXQp9PigpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYKICAgIHJvbGU9Imdyb3VwIgogICAgZGF0YS1zbG90PSJidXR0b24tZ3JvdXAiCiAgICA6ZGF0YS1vcmllbnRhdGlvbj0icHJvcHMub3JpZW50YXRpb24iCiAgICA6Y2xhc3M9ImNuKGJ1dHRvbkdyb3VwVmFyaWFudHMoeyBvcmllbnRhdGlvbjogcHJvcHMub3JpZW50YXRpb24gfSksIHByb3BzLmNsYXNzKSIKICA+CiAgICA8c2xvdCAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import type { ButtonGroupVariants } from "."
+import { cn } from "@/lib/utils"
+import { buttonGroupVariants } from "."
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+  orientation?: ButtonGroupVariants["orientation"]
+}>()
+</script>
+
+<template>
+  <div
+    role="group"
+    data-slot="button-group"
+    :data-orientation="props.orientation"
+    :class="cn(buttonGroupVariants({ orientation: props.orientation }), props.class)"
+  >
+    <slot />
+  </div>
+</template>

@@ -1,1 +1,337 @@
-I1t0ZXN0XQpmbiByZWNvdmVyc19vbmx5X2FfZnVsbHlfdmVyaWZpZWRfcHJldmlvdXNfZm5fa25vY2tfbGluZWFnZSgpIHsKICAgIGxldCBjdXN0b20gPSBqc29uISh7CiAgICAgICAgImlkIjogImN1c3RvbS1pZCIsCiAgICAgICAgImhvc3RuYW1lIjogImF1dGgudHUuZXhhbXBsZS5jb20iLAogICAgICAgICJjdXN0b21fb3JpZ2luX3NlcnZlciI6ICJmbmtub2NrLW9yaWdpbi03ZjUzMWU2ZGQxZTQudHUuZXhhbXBsZS5jb20iLAogICAgICAgICJzdGF0dXMiOiAiYWN0aXZlIiwKICAgICAgICAic3NsIjogeyAic3RhdHVzIjogImFjdGl2ZSIgfSwKICAgIH0pOwogICAgbGV0IGV4YWN0ID0ganNvbiEoW3sKICAgICAgICAiaWQiOiAiZXhhY3QtaWQiLAogICAgICAgICJuYW1lIjogImF1dGgudHUuZXhhbXBsZS5jb20iLAogICAgICAgICJ0eXBlIjogIkNOQU1FIiwKICAgICAgICAiY29udGVudCI6ICJmbmtub2NrLWVkZ2UtN2Y1MzFlNmRkMWU0LnR1LmV4YW1wbGUuY29tIiwKICAgICAgICAicHJveGllZCI6IGZhbHNlLAogICAgICAgICJjb21tZW50IjogIk1hbmFnZWQgYnkgZm4ta25vY2sgKDdmNTMxZTZkZDFlNCkiLAogICAgICAgICJ0YWdzIjogW10sCiAgICB9XSk7CiAgICBsZXQgb3JpZ2luID0ganNvbiEoW3sKICAgICAgICAiaWQiOiAib3JpZ2luLWlkIiwKICAgICAgICAibmFtZSI6ICJmbmtub2NrLW9yaWdpbi03ZjUzMWU2ZGQxZTQudHUuZXhhbXBsZS5jb20iLAogICAgICAgICJ0eXBlIjogIkNOQU1FIiwKICAgICAgICAiY29udGVudCI6ICJiOGUzYzIyNi1lNTEyLTQyMzItYTVhMS0zZmJkYzU5MGU4ODAuY2ZhcmdvdHVubmVsLmNvbSIsCiAgICAgICAgInByb3hpZWQiOiB0cnVlLAogICAgICAgICJjb21tZW50IjogIk1hbmFnZWQgYnkgZm4ta25vY2sgKDdmNTMxZTZkZDFlNCkiLAogICAgICAgICJ0YWdzIjogW10sCiAgICB9XSk7CiAgICBsZXQgcmVjb3ZlcmVkID0gcmVjb3ZlcmFibGVfZm5fa25vY2tfY3VzdG9tX2hvc3RuYW1lX2Zyb21fc25hcHNob3QoCiAgICAgICAgJmN1c3RvbSwKICAgICAgICBleGFjdC5hc19hcnJheSgpLnVud3JhcCgpLAogICAgICAgIG9yaWdpbi5hc19hcnJheSgpLnVud3JhcCgpLAogICAgICAgIFNvbWUoImZua25vY2stb3JpZ2luLTdmNTMxZTZkZDFlNC50dS5leGFtcGxlLmNvbSIpLAogICAgICAgICJ0dS5leGFtcGxlLmNvbSIsCiAgICAgICAgImY2M2Y3ZmNiMmYwZiIsCiAgICAgICAgTm9uZSwKICAgICkKICAgIC5leHBlY3QoInZlcmlmaWVkIHByZXZpb3VzIGZuLWtub2NrIGxpbmVhZ2Ugc2hvdWxkIGJlIHJlY292ZXJhYmxlIik7CiAgICBhc3NlcnRfZXEhKHJlY292ZXJlZC5sZWdhY3lfaW5zdGFuY2VfaWQsICI3ZjUzMWU2ZGQxZTQiKTsKICAgIGFzc2VydF9lcSEocmVjb3ZlcmVkLmV4YWN0X2Ruc1siaWQiXSwganNvbiEoImV4YWN0LWlkIikpOwogICAgYXNzZXJ0X2VxIShyZWNvdmVyZWQub3JpZ2luX2Ruc1siaWQiXSwganNvbiEoIm9yaWdpbi1pZCIpKTsKCiAgICBhc3NlcnQhKAogICAgICAgIHJlY292ZXJhYmxlX2ZuX2tub2NrX2N1c3RvbV9ob3N0bmFtZV9mcm9tX3NuYXBzaG90KAogICAgICAgICAgICAmY3VzdG9tLAogICAgICAgICAgICBleGFjdC5hc19hcnJheSgpLnVud3JhcCgpLAogICAgICAgICAgICBvcmlnaW4uYXNfYXJyYXkoKS51bndyYXAoKSwKICAgICAgICAgICAgU29tZSgiZm5rbm9jay1vcmlnaW4tYW5vdGhlcjAwMDAwMC50dS5leGFtcGxlLmNvbSIpLAogICAgICAgICAgICAidHUuZXhhbXBsZS5jb20iLAogICAgICAgICAgICAiZjYzZjdmY2IyZjBmIiwKICAgICAgICAgICAgTm9uZSwKICAgICAgICApCiAgICAgICAgLmlzX25vbmUoKQogICAgKTsKICAgIGxldCB1bnJlbGF0ZWRfZXhhY3QgPSBqc29uIShbewogICAgICAgICJpZCI6ICJleGFjdC1pZCIsCiAgICAgICAgIm5hbWUiOiAiYXV0aC50dS5leGFtcGxlLmNvbSIsCiAgICAgICAgInR5cGUiOiAiQ05BTUUiLAogICAgICAgICJjb250ZW50IjogImZua25vY2stZWRnZS03ZjUzMWU2ZGQxZTQudHUuZXhhbXBsZS5jb20iLAogICAgICAgICJwcm94aWVkIjogZmFsc2UsCiAgICAgICAgImNvbW1lbnQiOiAibWFuYWdlZCBtYW51YWxseSIsCiAgICAgICAgInRhZ3MiOiBbXSwKICAgIH1dKTsKICAgIGFzc2VydCEoCiAgICAgICAgcmVjb3ZlcmFibGVfZm5fa25vY2tfY3VzdG9tX2hvc3RuYW1lX2Zyb21fc25hcHNob3QoCiAgICAgICAgICAgICZjdXN0b20sCiAgICAgICAgICAgIHVucmVsYXRlZF9leGFjdC5hc19hcnJheSgpLnVud3JhcCgpLAogICAgICAgICAgICBvcmlnaW4uYXNfYXJyYXkoKS51bndyYXAoKSwKICAgICAgICAgICAgU29tZSgiZm5rbm9jay1vcmlnaW4tN2Y1MzFlNmRkMWU0LnR1LmV4YW1wbGUuY29tIiksCiAgICAgICAgICAgICJ0dS5leGFtcGxlLmNvbSIsCiAgICAgICAgICAgICJmNjNmN2ZjYjJmMGYiLAogICAgICAgICAgICBOb25lLAogICAgICAgICkKICAgICAgICAuaXNfbm9uZSgpCiAgICApOwoKICAgIGxldCByZWNvdmVyZWRfb3JpZ2luID0ganNvbiEoewogICAgICAgICJpZCI6ICJvcmlnaW4taWQiLAogICAgICAgICJuYW1lIjogImZua25vY2stb3JpZ2luLTdmNTMxZTZkZDFlNC50dS5leGFtcGxlLmNvbSIsCiAgICAgICAgInR5cGUiOiAiQ05BTUUiLAogICAgICAgICJjb250ZW50IjogImVkYTQ1Y2RlLTVhMmItNGE2ZS05ZjBmLTUyY2EwYzc1MjU0Zi5jZmFyZ290dW5uZWwuY29tIiwKICAgICAgICAicHJveGllZCI6IHRydWUsCiAgICAgICAgImNvbW1lbnQiOiAiTWFuYWdlZCBieSBmbi1rbm9jayAoZjYzZjdmY2IyZjBmKSIsCiAgICAgICAgInRhZ3MiOiBbXSwKICAgICAgICAicmVjb3ZlcmVkRnJvbUluc3RhbmNlIjogIjdmNTMxZTZkZDFlNCIsCiAgICB9KTsKICAgIGxldCBjdXJyZW50X29yaWdpbiA9IGpzb24hKFt7CiAgICAgICAgImlkIjogIm9yaWdpbi1pZCIsCiAgICAgICAgIm5hbWUiOiAiZm5rbm9jay1vcmlnaW4tN2Y1MzFlNmRkMWU0LnR1LmV4YW1wbGUuY29tIiwKICAgICAgICAidHlwZSI6ICJDTkFNRSIsCiAgICAgICAgImNvbnRlbnQiOiAiZWRhNDVjZGUtNWEyYi00YTZlLTlmMGYtNTJjYTBjNzUyNTRmLmNmYXJnb3R1bm5lbC5jb20iLAogICAgICAgICJwcm94aWVkIjogdHJ1ZSwKICAgICAgICAiY29tbWVudCI6ICJNYW5hZ2VkIGJ5IGZuLWtub2NrIChmNjNmN2ZjYjJmMGYpIiwKICAgICAgICAidGFncyI6IFtdLAogICAgfV0pOwogICAgYXNzZXJ0ISgKICAgICAgICByZWNvdmVyYWJsZV9mbl9rbm9ja19jdXN0b21faG9zdG5hbWVfZnJvbV9zbmFwc2hvdCgKICAgICAgICAgICAgJmN1c3RvbSwKICAgICAgICAgICAgZXhhY3QuYXNfYXJyYXkoKS51bndyYXAoKSwKICAgICAgICAgICAgY3VycmVudF9vcmlnaW4uYXNfYXJyYXkoKS51bndyYXAoKSwKICAgICAgICAgICAgU29tZSgiZm5rbm9jay1vcmlnaW4tN2Y1MzFlNmRkMWU0LnR1LmV4YW1wbGUuY29tIiksCiAgICAgICAgICAgICJ0dS5leGFtcGxlLmNvbSIsCiAgICAgICAgICAgICJmNjNmN2ZjYjJmMGYiLAogICAgICAgICAgICBTb21lKCZyZWNvdmVyZWRfb3JpZ2luKSwKICAgICAgICApCiAgICAgICAgLmlzX3NvbWUoKQogICAgKTsKICAgIGxldCBtdXQgY2hhbmdlZF9vcmlnaW4gPSBjdXJyZW50X29yaWdpbi5jbG9uZSgpOwogICAgY2hhbmdlZF9vcmlnaW5bMF1bImNvbnRlbnQiXSA9IGpzb24hKCJiOGUzYzIyNi1lNTEyLTQyMzItYTVhMS0zZmJkYzU5MGU4ODAuY2ZhcmdvdHVubmVsLmNvbSIpOwogICAgYXNzZXJ0ISgKICAgICAgICByZWNvdmVyYWJsZV9mbl9rbm9ja19jdXN0b21faG9zdG5hbWVfZnJvbV9zbmFwc2hvdCgKICAgICAgICAgICAgJmN1c3RvbSwKICAgICAgICAgICAgZXhhY3QuYXNfYXJyYXkoKS51bndyYXAoKSwKICAgICAgICAgICAgY2hhbmdlZF9vcmlnaW4uYXNfYXJyYXkoKS51bndyYXAoKSwKICAgICAgICAgICAgU29tZSgiZm5rbm9jay1vcmlnaW4tN2Y1MzFlNmRkMWU0LnR1LmV4YW1wbGUuY29tIiksCiAgICAgICAgICAgICJ0dS5leGFtcGxlLmNvbSIsCiAgICAgICAgICAgICJmNjNmN2ZjYjJmMGYiLAogICAgICAgICAgICBTb21lKCZyZWNvdmVyZWRfb3JpZ2luKSwKICAgICAgICApCiAgICAgICAgLmlzX25vbmUoKQogICAgKTsKfQoKI1t0ZXN0XQpmbiBtYW5hZ2VkX2N1c3RvbV9ob3N0bmFtZV9yZWplY3RzX2lkX2hvc3RuYW1lX2FuZF9vcmlnaW5fZHJpZnQoKSB7CiAgICBsZXQgb3duZWQgPSBqc29uISh7CiAgICAgICAgImlkIjogImN1c3RvbS1pZCIsCiAgICAgICAgImN1c3RvbU9yaWdpblNlcnZlciI6ICJmbmtub2NrLW9yaWdpbi1vbGQudHUuZXhhbXBsZS5jb20iLAogICAgfSk7CiAgICBsZXQgcmVtb3RlID0ganNvbiEoewogICAgICAgICJpZCI6ICJjdXN0b20taWQiLAogICAgICAgICJob3N0bmFtZSI6ICJhdXRoLnR1LmV4YW1wbGUuY29tIiwKICAgICAgICAiY3VzdG9tX29yaWdpbl9zZXJ2ZXIiOiAiZm5rbm9jay1vcmlnaW4tb2xkLnR1LmV4YW1wbGUuY29tIiwKICAgIH0pOwogICAgYXNzZXJ0IShtYW5hZ2VkX2N1c3RvbV9ob3N0bmFtZV9tYXRjaGVzKAogICAgICAgICZyZW1vdGUsCiAgICAgICAgImF1dGgudHUuZXhhbXBsZS5jb20iLAogICAgICAgICZvd25lZCwKICAgICAgICBTb21lKCJmbmtub2NrLW9yaWdpbi1jdXJyZW50LnR1LmV4YW1wbGUuY29tIiksCiAgICApKTsKCiAgICBmb3IgKGZpZWxkLCB2YWx1ZSkgaW4gWwogICAgICAgICgiaWQiLCAiZGlmZmVyZW50LWlkIiksCiAgICAgICAgKCJob3N0bmFtZSIsICJvdGhlci50dS5leGFtcGxlLmNvbSIpLAogICAgICAgICgKICAgICAgICAgICAgImN1c3RvbV9vcmlnaW5fc2VydmVyIiwKICAgICAgICAgICAgImZua25vY2stb3JpZ2luLW90aGVyLnR1LmV4YW1wbGUuY29tIiwKICAgICAgICApLAogICAgXSB7CiAgICAgICAgbGV0IG11dCBkcmlmdGVkID0gcmVtb3RlLmNsb25lKCk7CiAgICAgICAgZHJpZnRlZFtmaWVsZF0gPSBqc29uISh2YWx1ZSk7CiAgICAgICAgYXNzZXJ0ISghbWFuYWdlZF9jdXN0b21faG9zdG5hbWVfbWF0Y2hlcygKICAgICAgICAgICAgJmRyaWZ0ZWQsCiAgICAgICAgICAgICJhdXRoLnR1LmV4YW1wbGUuY29tIiwKICAgICAgICAgICAgJm93bmVkLAogICAgICAgICAgICBTb21lKCJmbmtub2NrLW9yaWdpbi1jdXJyZW50LnR1LmV4YW1wbGUuY29tIiksCiAgICAgICAgKSk7CiAgICB9CgogICAgbGV0IGxlZ2FjeV9vd25lZCA9IGpzb24hKHsgImlkIjogImN1c3RvbS1pZCIgfSk7CiAgICBhc3NlcnQhKG1hbmFnZWRfY3VzdG9tX2hvc3RuYW1lX21hdGNoZXMoCiAgICAgICAgJmpzb24hKHsKICAgICAgICAgICAgImlkIjogImN1c3RvbS1pZCIsCiAgICAgICAgICAgICJob3N0bmFtZSI6ICJhdXRoLnR1LmV4YW1wbGUuY29tIiwKICAgICAgICAgICAgImN1c3RvbV9vcmlnaW5fc2VydmVyIjogImZua25vY2stb3JpZ2luLWN1cnJlbnQudHUuZXhhbXBsZS5jb20iLAogICAgICAgIH0pLAogICAgICAgICJhdXRoLnR1LmV4YW1wbGUuY29tIiwKICAgICAgICAmbGVnYWN5X293bmVkLAogICAgICAgIFNvbWUoImZua25vY2stb3JpZ2luLWN1cnJlbnQudHUuZXhhbXBsZS5jb20iKSwKICAgICkpOwogICAgYXNzZXJ0ISghbWFuYWdlZF9jdXN0b21faG9zdG5hbWVfbWF0Y2hlcygKICAgICAgICAmcmVtb3RlLAogICAgICAgICJhdXRoLnR1LmV4YW1wbGUuY29tIiwKICAgICAgICAmbGVnYWN5X293bmVkLAogICAgICAgIE5vbmUsCiAgICApKTsKfQoKI1t0ZXN0XQpmbiBzY2FuX3ZhbGlkYXRpb25fcmVxdWlyZXNfYm90aF9ob3N0bmFtZV9hbmRfY2VydGlmaWNhdGVfcmVhZGluZXNzKCkgewogICAgbGV0IHBlbmRpbmdfYnVzaW5lc3NfaG9zdG5hbWUgPSBqc29uISh7CiAgICAgICAgIm9wdGltaXphdGlvbiI6IHsKICAgICAgICAgICAgImN1c3RvbUhvc3RuYW1lcyI6IHsKICAgICAgICAgICAgICAgICJwZW5kaW5nLmV4YW1wbGUuY29tIjogewogICAgICAgICAgICAgICAgICAgICJzdGF0dXMiOiAicGVuZGluZyIsCiAgICAgICAgICAgICAgICAgICAgInNzbFN0YXR1cyI6ICJhY3RpdmUiLAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfSk7CiAgICBhc3NlcnRfZXEhKHNjYW5fdmFsaWRhdGlvbl9ob3N0bmFtZSgmcGVuZGluZ19idXNpbmVzc19ob3N0bmFtZSksIE5vbmUpOwoKICAgIGxldCByZWFkeV9idXNpbmVzc19ob3N0bmFtZSA9IGpzb24hKHsKICAgICAgICAib3B0aW1pemF0aW9uIjogewogICAgICAgICAgICAiY3VzdG9tSG9zdG5hbWVzIjogewogICAgICAgICAgICAgICAgInJlYWR5LmV4YW1wbGUuY29tIjogewogICAgICAgICAgICAgICAgICAgICJpZCI6ICJjdXN0b20tcmVhZHkiLAogICAgICAgICAgICAgICAgICAgICJzdGF0dXMiOiAicmVhZHkiLAogICAgICAgICAgICAgICAgICAgICJzc2xTdGF0dXMiOiAiYWN0aXZlIiwKICAgICAgICAgICAgICAgICAgICAiZXhhY3REbnNJZCI6ICJkbnMtcmVhZHkiLAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfSk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHNjYW5fdmFsaWRhdGlvbl9ob3N0bmFtZSgmcmVhZHlfYnVzaW5lc3NfaG9zdG5hbWUpLmFzX2RlcmVmKCksCiAgICAgICAgU29tZSgicmVhZHkuZXhhbXBsZS5jb20iKQogICAgKTsKCiAgICBsZXQgcGVuZGluZ19jYXBhYmlsaXR5X2hvc3RuYW1lID0ganNvbiEoewogICAgICAgICJvcHRpbWl6YXRpb24iOiB7CiAgICAgICAgICAgICJjYXBhYmlsaXR5UHJvYmUiOiB7CiAgICAgICAgICAgICAgICAiaG9zdG5hbWUiOiAicHJvYmUuZXhhbXBsZS5jb20iLAogICAgICAgICAgICAgICAgInN0YXR1cyI6ICJwZW5kaW5nIiwKICAgICAgICAgICAgICAgICJob3N0bmFtZVN0YXR1cyI6ICJwZW5kaW5nIiwKICAgICAgICAgICAgICAgICJzc2xTdGF0dXMiOiAiYWN0aXZlIiwKICAgICAgICAgICAgICAgICJhY3RpdmF0aW9uRG5zIjogeyAiaWQiOiAiZG5zLXByb2JlIiB9LAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfSk7CiAgICBhc3NlcnRfZXEhKHNjYW5fdmFsaWRhdGlvbl9ob3N0bmFtZSgmcGVuZGluZ19jYXBhYmlsaXR5X2hvc3RuYW1lKSwgTm9uZSk7CgogICAgbGV0IHJlYWR5X2NhcGFiaWxpdHlfaG9zdG5hbWUgPSBqc29uISh7CiAgICAgICAgIm9wdGltaXphdGlvbiI6IHsKICAgICAgICAgICAgImNhcGFiaWxpdHlQcm9iZSI6IHsKICAgICAgICAgICAgICAgICJob3N0bmFtZSI6ICJwcm9iZS5leGFtcGxlLmNvbSIsCiAgICAgICAgICAgICAgICAic3RhdHVzIjogInBlbmRpbmciLAogICAgICAgICAgICAgICAgImhvc3RuYW1lU3RhdHVzIjogImFjdGl2ZSIsCiAgICAgICAgICAgICAgICAic3NsU3RhdHVzIjogImFjdGl2ZSIsCiAgICAgICAgICAgICAgICAiYWN0aXZhdGlvbkRucyI6IHsgImlkIjogImRucy1wcm9iZSIgfSwKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0pOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzY2FuX3ZhbGlkYXRpb25faG9zdG5hbWUoJnJlYWR5X2NhcGFiaWxpdHlfaG9zdG5hbWUpLmFzX2RlcmVmKCksCiAgICAgICAgU29tZSgicHJvYmUuZXhhbXBsZS5jb20iKQogICAgKTsKCiAgICBsZXQgY2FwYWJpbGl0eV93aXRob3V0X2FjdGl2YXRpb25fZG5zID0ganNvbiEoewogICAgICAgICJvcHRpbWl6YXRpb24iOiB7CiAgICAgICAgICAgICJjYXBhYmlsaXR5UHJvYmUiOiB7CiAgICAgICAgICAgICAgICAiaG9zdG5hbWUiOiAicHJvYmUuZXhhbXBsZS5jb20iLAogICAgICAgICAgICAgICAgInN0YXR1cyI6ICJhd2FpdGluZy1jYW5kaWRhdGUiLAogICAgICAgICAgICAgICAgImhvc3RuYW1lU3RhdHVzIjogImFjdGl2ZSIsCiAgICAgICAgICAgICAgICAic3NsU3RhdHVzIjogImFjdGl2ZSIsCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9KTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc2Nhbl92YWxpZGF0aW9uX2hvc3RuYW1lKCZjYXBhYmlsaXR5X3dpdGhvdXRfYWN0aXZhdGlvbl9kbnMpLAogICAgICAgIE5vbmUKICAgICk7CgogICAgbGV0IGNsZWFuZWRfY2FwYWJpbGl0eV9ob3N0bmFtZSA9IGpzb24hKHsKICAgICAgICAib3B0aW1pemF0aW9uIjogewogICAgICAgICAgICAiY2FwYWJpbGl0eVByb2JlIjogewogICAgICAgICAgICAgICAgImhvc3RuYW1lIjogImRlbGV0ZWQtcHJvYmUuZXhhbXBsZS5jb20iLAogICAgICAgICAgICAgICAgInN0YXR1cyI6ICJjb21wYXRpYmxlIiwKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0pOwogICAgYXNzZXJ0X2VxIShzY2FuX3ZhbGlkYXRpb25faG9zdG5hbWUoJmNsZWFuZWRfY2FwYWJpbGl0eV9ob3N0bmFtZSksIE5vbmUpOwoKICAgIGxldCBwYXJ0aWFsbHlfcmVjb25jaWxlZCA9IGpzb24hKHsKICAgICAgICAib3B0aW1pemF0aW9uIjogewogICAgICAgICAgICAiY3VzdG9tSG9zdG5hbWVzIjogewogICAgICAgICAgICAgICAgInJlYWR5LmV4YW1wbGUuY29tIjogewogICAgICAgICAgICAgICAgICAgICJzdGF0dXMiOiAib3B0aW1pemVkIiwKICAgICAgICAgICAgICAgICAgICAic3NsU3RhdHVzIjogImFjdGl2ZSIsCiAgICAgICAgICAgICAgICAgICAgImV4YWN0RG5zSWQiOiAiZG5zLXJlYWR5IiwKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAiY29uZmxpY3QuZXhhbXBsZS5jb20iOiB7ICJzdGF0dXMiOiAiY29uZmxpY3QiIH0sCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9KTsKICAgIGFzc2VydF9lcSEoc2Nhbl92YWxpZGF0aW9uX2hvc3RuYW1lKCZwYXJ0aWFsbHlfcmVjb25jaWxlZCksIE5vbmUpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBvcHRpbWl6YXRpb25fc2Nhbl9lcnJvcl9jb2RlKCZzY2FuX3ZhbGlkYXRpb25faG9zdG5hbWVfZXJyb3IoJnBhcnRpYWxseV9yZWNvbmNpbGVkKSksCiAgICAgICAgU29tZShDTE9VREZMQVJFX1JFU09VUkNFX0NPTkZMSUNUX0VSUk9SX0NPREUpCiAgICApOwoKICAgIGxldCBmYWlsZWRfcm91dGVfd2l0aF9hY3RpdmVfaG9zdG5hbWUgPSBqc29uISh7CiAgICAgICAgIm9wdGltaXphdGlvbiI6IHsKICAgICAgICAgICAgImN1c3RvbUhvc3RuYW1lcyI6IHsKICAgICAgICAgICAgICAgICJyZXRyeS5leGFtcGxlLmNvbSI6IHsKICAgICAgICAgICAgICAgICAgICAiaWQiOiAiY3VzdG9tLXJldHJ5IiwKICAgICAgICAgICAgICAgICAgICAic3RhdHVzIjogInByb2JlLWZhaWxlZCIsCiAgICAgICAgICAgICAgICAgICAgImhvc3RuYW1lU3RhdHVzIjogImFjdGl2ZSIsCiAgICAgICAgICAgICAgICAgICAgInNzbFN0YXR1cyI6ICJhY3RpdmUiLAogICAgICAgICAgICAgICAgICAgICJtZXNzYWdlIjogIkNsb3VkZmxhcmUgZWRnZSByZXR1cm5lZCBIVFRQIDUzMCIsCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9KTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc2Nhbl92YWxpZGF0aW9uX2hvc3RuYW1lKCZmYWlsZWRfcm91dGVfd2l0aF9hY3RpdmVfaG9zdG5hbWUpLmFzX2RlcmVmKCksCiAgICAgICAgU29tZSgicmV0cnkuZXhhbXBsZS5jb20iKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgYWN0aXZlX3Byb2JlX2hvc3RuYW1lcygmZmFpbGVkX3JvdXRlX3dpdGhfYWN0aXZlX2hvc3RuYW1lKSwKICAgICAgICB2ZWMhWyJyZXRyeS5leGFtcGxlLmNvbSJdCiAgICApOwoKICAgIGxldCBsZWdhY3lfZmFsbGJhY2tfd2l0aG91dF9leGFjdF9kbnMgPSBqc29uISh7CiAgICAgICAgIm9wdGltaXphdGlvbiI6IHsKICAgICAgICAgICAgImN1c3RvbUhvc3RuYW1lcyI6IHsKICAgICAgICAgICAgICAgICJmYWxsYmFjay5leGFtcGxlLmNvbSI6IHsKICAgICAgICAgICAgICAgICAgICAiaWQiOiAiY3VzdG9tLWZhbGxiYWNrIiwKICAgICAgICAgICAgICAgICAgICAic3RhdHVzIjogImZhbGxiYWNrIiwKICAgICAgICAgICAgICAgICAgICAic3NsU3RhdHVzIjogImFjdGl2ZSIsCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9KTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc2Nhbl92YWxpZGF0aW9uX2hvc3RuYW1lKCZsZWdhY3lfZmFsbGJhY2tfd2l0aG91dF9leGFjdF9kbnMpLmFzX2RlcmVmKCksCiAgICAgICAgU29tZSgiZmFsbGJhY2suZXhhbXBsZS5jb20iKQogICAgKTsKCiAgICBsZXQgY29uZmxpY3Rfd2l0aF9hY3RpdmVfaG9zdG5hbWUgPSBqc29uISh7CiAgICAgICAgIm9wdGltaXphdGlvbiI6IHsKICAgICAgICAgICAgImN1c3RvbUhvc3RuYW1lcyI6IHsKICAgICAgICAgICAgICAgICJjb25mbGljdC5leGFtcGxlLmNvbSI6IHsKICAgICAgICAgICAgICAgICAgICAiaWQiOiAiY3VzdG9tLWNvbmZsaWN0IiwKICAgICAgICAgICAgICAgICAgICAic3RhdHVzIjogImNvbmZsaWN0IiwKICAgICAgICAgICAgICAgICAgICAiaG9zdG5hbWVTdGF0dXMiOiAiYWN0aXZlIiwKICAgICAgICAgICAgICAgICAgICAic3NsU3RhdHVzIjogImFjdGl2ZSIsCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9KTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc2Nhbl92YWxpZGF0aW9uX2hvc3RuYW1lKCZjb25mbGljdF93aXRoX2FjdGl2ZV9ob3N0bmFtZSksCiAgICAgICAgTm9uZQogICAgKTsKICAgIGFzc2VydCEoYWN0aXZlX3Byb2JlX2hvc3RuYW1lcygmY29uZmxpY3Rfd2l0aF9hY3RpdmVfaG9zdG5hbWUpLmlzX2VtcHR5KCkpOwp9CnVzZSBzdXBlcjo6KjsK
+#[test]
+fn recovers_only_a_fully_verified_previous_fn_knock_lineage() {
+    let custom = json!({
+        "id": "custom-id",
+        "hostname": "auth.tu.example.com",
+        "custom_origin_server": "fnknock-origin-7f531e6dd1e4.tu.example.com",
+        "status": "active",
+        "ssl": { "status": "active" },
+    });
+    let exact = json!([{
+        "id": "exact-id",
+        "name": "auth.tu.example.com",
+        "type": "CNAME",
+        "content": "fnknock-edge-7f531e6dd1e4.tu.example.com",
+        "proxied": false,
+        "comment": "Managed by fn-knock (7f531e6dd1e4)",
+        "tags": [],
+    }]);
+    let origin = json!([{
+        "id": "origin-id",
+        "name": "fnknock-origin-7f531e6dd1e4.tu.example.com",
+        "type": "CNAME",
+        "content": "b8e3c226-e512-4232-a5a1-3fbdc590e880.cfargotunnel.com",
+        "proxied": true,
+        "comment": "Managed by fn-knock (7f531e6dd1e4)",
+        "tags": [],
+    }]);
+    let recovered = recoverable_fn_knock_custom_hostname_from_snapshot(
+        &custom,
+        exact.as_array().unwrap(),
+        origin.as_array().unwrap(),
+        Some("fnknock-origin-7f531e6dd1e4.tu.example.com"),
+        "tu.example.com",
+        "f63f7fcb2f0f",
+        None,
+    )
+    .expect("verified previous fn-knock lineage should be recoverable");
+    assert_eq!(recovered.legacy_instance_id, "7f531e6dd1e4");
+    assert_eq!(recovered.exact_dns["id"], json!("exact-id"));
+    assert_eq!(recovered.origin_dns["id"], json!("origin-id"));
+
+    assert!(
+        recoverable_fn_knock_custom_hostname_from_snapshot(
+            &custom,
+            exact.as_array().unwrap(),
+            origin.as_array().unwrap(),
+            Some("fnknock-origin-another000000.tu.example.com"),
+            "tu.example.com",
+            "f63f7fcb2f0f",
+            None,
+        )
+        .is_none()
+    );
+    let unrelated_exact = json!([{
+        "id": "exact-id",
+        "name": "auth.tu.example.com",
+        "type": "CNAME",
+        "content": "fnknock-edge-7f531e6dd1e4.tu.example.com",
+        "proxied": false,
+        "comment": "managed manually",
+        "tags": [],
+    }]);
+    assert!(
+        recoverable_fn_knock_custom_hostname_from_snapshot(
+            &custom,
+            unrelated_exact.as_array().unwrap(),
+            origin.as_array().unwrap(),
+            Some("fnknock-origin-7f531e6dd1e4.tu.example.com"),
+            "tu.example.com",
+            "f63f7fcb2f0f",
+            None,
+        )
+        .is_none()
+    );
+
+    let recovered_origin = json!({
+        "id": "origin-id",
+        "name": "fnknock-origin-7f531e6dd1e4.tu.example.com",
+        "type": "CNAME",
+        "content": "eda45cde-5a2b-4a6e-9f0f-52ca0c75254f.cfargotunnel.com",
+        "proxied": true,
+        "comment": "Managed by fn-knock (f63f7fcb2f0f)",
+        "tags": [],
+        "recoveredFromInstance": "7f531e6dd1e4",
+    });
+    let current_origin = json!([{
+        "id": "origin-id",
+        "name": "fnknock-origin-7f531e6dd1e4.tu.example.com",
+        "type": "CNAME",
+        "content": "eda45cde-5a2b-4a6e-9f0f-52ca0c75254f.cfargotunnel.com",
+        "proxied": true,
+        "comment": "Managed by fn-knock (f63f7fcb2f0f)",
+        "tags": [],
+    }]);
+    assert!(
+        recoverable_fn_knock_custom_hostname_from_snapshot(
+            &custom,
+            exact.as_array().unwrap(),
+            current_origin.as_array().unwrap(),
+            Some("fnknock-origin-7f531e6dd1e4.tu.example.com"),
+            "tu.example.com",
+            "f63f7fcb2f0f",
+            Some(&recovered_origin),
+        )
+        .is_some()
+    );
+    let mut changed_origin = current_origin.clone();
+    changed_origin[0]["content"] = json!("b8e3c226-e512-4232-a5a1-3fbdc590e880.cfargotunnel.com");
+    assert!(
+        recoverable_fn_knock_custom_hostname_from_snapshot(
+            &custom,
+            exact.as_array().unwrap(),
+            changed_origin.as_array().unwrap(),
+            Some("fnknock-origin-7f531e6dd1e4.tu.example.com"),
+            "tu.example.com",
+            "f63f7fcb2f0f",
+            Some(&recovered_origin),
+        )
+        .is_none()
+    );
+}
+
+#[test]
+fn managed_custom_hostname_rejects_id_hostname_and_origin_drift() {
+    let owned = json!({
+        "id": "custom-id",
+        "customOriginServer": "fnknock-origin-old.tu.example.com",
+    });
+    let remote = json!({
+        "id": "custom-id",
+        "hostname": "auth.tu.example.com",
+        "custom_origin_server": "fnknock-origin-old.tu.example.com",
+    });
+    assert!(managed_custom_hostname_matches(
+        &remote,
+        "auth.tu.example.com",
+        &owned,
+        Some("fnknock-origin-current.tu.example.com"),
+    ));
+
+    for (field, value) in [
+        ("id", "different-id"),
+        ("hostname", "other.tu.example.com"),
+        (
+            "custom_origin_server",
+            "fnknock-origin-other.tu.example.com",
+        ),
+    ] {
+        let mut drifted = remote.clone();
+        drifted[field] = json!(value);
+        assert!(!managed_custom_hostname_matches(
+            &drifted,
+            "auth.tu.example.com",
+            &owned,
+            Some("fnknock-origin-current.tu.example.com"),
+        ));
+    }
+
+    let legacy_owned = json!({ "id": "custom-id" });
+    assert!(managed_custom_hostname_matches(
+        &json!({
+            "id": "custom-id",
+            "hostname": "auth.tu.example.com",
+            "custom_origin_server": "fnknock-origin-current.tu.example.com",
+        }),
+        "auth.tu.example.com",
+        &legacy_owned,
+        Some("fnknock-origin-current.tu.example.com"),
+    ));
+    assert!(!managed_custom_hostname_matches(
+        &remote,
+        "auth.tu.example.com",
+        &legacy_owned,
+        None,
+    ));
+}
+
+#[test]
+fn scan_validation_requires_both_hostname_and_certificate_readiness() {
+    let pending_business_hostname = json!({
+        "optimization": {
+            "customHostnames": {
+                "pending.example.com": {
+                    "status": "pending",
+                    "sslStatus": "active",
+                }
+            }
+        }
+    });
+    assert_eq!(scan_validation_hostname(&pending_business_hostname), None);
+
+    let ready_business_hostname = json!({
+        "optimization": {
+            "customHostnames": {
+                "ready.example.com": {
+                    "id": "custom-ready",
+                    "status": "ready",
+                    "sslStatus": "active",
+                    "exactDnsId": "dns-ready",
+                }
+            }
+        }
+    });
+    assert_eq!(
+        scan_validation_hostname(&ready_business_hostname).as_deref(),
+        Some("ready.example.com")
+    );
+
+    let pending_capability_hostname = json!({
+        "optimization": {
+            "capabilityProbe": {
+                "hostname": "probe.example.com",
+                "status": "pending",
+                "hostnameStatus": "pending",
+                "sslStatus": "active",
+                "activationDns": { "id": "dns-probe" },
+            }
+        }
+    });
+    assert_eq!(scan_validation_hostname(&pending_capability_hostname), None);
+
+    let ready_capability_hostname = json!({
+        "optimization": {
+            "capabilityProbe": {
+                "hostname": "probe.example.com",
+                "status": "pending",
+                "hostnameStatus": "active",
+                "sslStatus": "active",
+                "activationDns": { "id": "dns-probe" },
+            }
+        }
+    });
+    assert_eq!(
+        scan_validation_hostname(&ready_capability_hostname).as_deref(),
+        Some("probe.example.com")
+    );
+
+    let capability_without_activation_dns = json!({
+        "optimization": {
+            "capabilityProbe": {
+                "hostname": "probe.example.com",
+                "status": "awaiting-candidate",
+                "hostnameStatus": "active",
+                "sslStatus": "active",
+            }
+        }
+    });
+    assert_eq!(
+        scan_validation_hostname(&capability_without_activation_dns),
+        None
+    );
+
+    let cleaned_capability_hostname = json!({
+        "optimization": {
+            "capabilityProbe": {
+                "hostname": "deleted-probe.example.com",
+                "status": "compatible",
+            }
+        }
+    });
+    assert_eq!(scan_validation_hostname(&cleaned_capability_hostname), None);
+
+    let partially_reconciled = json!({
+        "optimization": {
+            "customHostnames": {
+                "ready.example.com": {
+                    "status": "optimized",
+                    "sslStatus": "active",
+                    "exactDnsId": "dns-ready",
+                },
+                "conflict.example.com": { "status": "conflict" },
+            }
+        }
+    });
+    assert_eq!(scan_validation_hostname(&partially_reconciled), None);
+    assert_eq!(
+        optimization_scan_error_code(&scan_validation_hostname_error(&partially_reconciled)),
+        Some(CLOUDFLARE_RESOURCE_CONFLICT_ERROR_CODE)
+    );
+
+    let failed_route_with_active_hostname = json!({
+        "optimization": {
+            "customHostnames": {
+                "retry.example.com": {
+                    "id": "custom-retry",
+                    "status": "probe-failed",
+                    "hostnameStatus": "active",
+                    "sslStatus": "active",
+                    "message": "Cloudflare edge returned HTTP 530",
+                }
+            }
+        }
+    });
+    assert_eq!(
+        scan_validation_hostname(&failed_route_with_active_hostname).as_deref(),
+        Some("retry.example.com")
+    );
+    assert_eq!(
+        active_probe_hostnames(&failed_route_with_active_hostname),
+        vec!["retry.example.com"]
+    );
+
+    let legacy_fallback_without_exact_dns = json!({
+        "optimization": {
+            "customHostnames": {
+                "fallback.example.com": {
+                    "id": "custom-fallback",
+                    "status": "fallback",
+                    "sslStatus": "active",
+                }
+            }
+        }
+    });
+    assert_eq!(
+        scan_validation_hostname(&legacy_fallback_without_exact_dns).as_deref(),
+        Some("fallback.example.com")
+    );
+
+    let conflict_with_active_hostname = json!({
+        "optimization": {
+            "customHostnames": {
+                "conflict.example.com": {
+                    "id": "custom-conflict",
+                    "status": "conflict",
+                    "hostnameStatus": "active",
+                    "sslStatus": "active",
+                }
+            }
+        }
+    });
+    assert_eq!(
+        scan_validation_hostname(&conflict_with_active_hostname),
+        None
+    );
+    assert!(active_probe_hostnames(&conflict_with_active_hostname).is_empty());
+}
+use super::*;

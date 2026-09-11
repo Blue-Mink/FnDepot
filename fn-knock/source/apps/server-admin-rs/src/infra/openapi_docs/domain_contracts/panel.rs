@@ -1,1 +1,45 @@
-dXNlIHNlcmRlOjpTZXJpYWxpemU7CnVzZSB1dG9pcGE6OlRvU2NoZW1hOwoKdXNlIHN1cGVyOjpMb2NhbGVDb25maWdEYXRhOwoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFBhbmVsQXBwZWFyYW5jZURhdGEgewogICAgdGhlbWVfY29sb3JfcHJlc2V0OiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBQYW5lbEJvb3RzdHJhcERhdGEgewogICAgZGVwbG95bWVudF90YXJnZXQ6IFN0cmluZywKICAgIGVuYWJsZWQ6IGJvb2wsCiAgICBwYXNzd29yZF9jb25maWd1cmVkOiBib29sLAogICAgYXV0aGVudGljYXRlZDogYm9vbCwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBhdXRoX3NvdXJjZTogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgc2Vzc2lvbl9leHBpcmVzX2F0OiBPcHRpb248U3RyaW5nPiwKICAgIGxvY2FsZTogTG9jYWxlQ29uZmlnRGF0YSwKICAgIGFwcGVhcmFuY2U6IFBhbmVsQXBwZWFyYW5jZURhdGEsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBQYW5lbFBhc3N3b3JkQm9keURhdGEgewogICAgcGFzc3dvcmQ6IFN0cmluZywKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgUGFuZWxMb2dpbkJvZHlEYXRhIHsKICAgIHBhc3N3b3JkOiBTdHJpbmcsCiAgICAjW3NjaGVtYShudWxsYWJsZSA9IGZhbHNlKV0KICAgIHJlbWVtYmVyX21lOiBPcHRpb248Ym9vbD4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IFBhbmVsTG9naW5SYXRlTGltaXRFcnJvckRhdGEgewogICAgc3VjY2VzczogYm9vbCwKICAgIG1lc3NhZ2U6IFN0cmluZywKICAgIHJldHJ5X2FmdGVyOiBpNjQsCiAgICBibG9ja2VkX3VudGlsOiBpNjQsCn0K
+use serde::Serialize;
+use utoipa::ToSchema;
+
+use super::LocaleConfigData;
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct PanelAppearanceData {
+    theme_color_preset: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct PanelBootstrapData {
+    deployment_target: String,
+    enabled: bool,
+    password_configured: bool,
+    authenticated: bool,
+    #[schema(required = true)]
+    auth_source: Option<String>,
+    #[schema(required = true)]
+    session_expires_at: Option<String>,
+    locale: LocaleConfigData,
+    appearance: PanelAppearanceData,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct PanelPasswordBodyData {
+    password: String,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct PanelLoginBodyData {
+    password: String,
+    #[schema(nullable = false)]
+    remember_me: Option<bool>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct PanelLoginRateLimitErrorData {
+    success: bool,
+    message: String,
+    retry_after: i64,
+    blocked_until: i64,
+}

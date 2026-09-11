@@ -1,1 +1,25 @@
-aW1wb3J0IHsgZm9ybWF0RGF0ZVRpbWVTYWZlIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9mb3JtYXREYXRlVGltZVNhZmUiOwoKZXhwb3J0IGNvbnN0IGJ1aWxkREROU1RpbWVzdGFtcFRvb2x0aXBMaW5lcyA9IChpbnB1dDogewogIHVwZGF0ZWRBdDogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZDsKICBjaGVja2VkQXQ6IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQ7CiAgbG9jYWxlPzogc3RyaW5nOwogIGxhYmVsczogewogICAgbGFzdFN1Y2Nlc3NmdWxVcGRhdGU6IHN0cmluZzsKICAgIGxhc3RDaGVjazogc3RyaW5nOwogICAgbmV2ZXI6IHN0cmluZzsKICB9Owp9KSA9PiB7CiAgY29uc3QgbG9jYWxlID0gaW5wdXQubG9jYWxlIHx8ICJlbiI7CgogIHJldHVybiBbCiAgICBgJHtpbnB1dC5sYWJlbHMubGFzdFN1Y2Nlc3NmdWxVcGRhdGV9OiAke2Zvcm1hdERhdGVUaW1lU2FmZShpbnB1dC51cGRhdGVkQXQsIHsKICAgICAgbG9jYWxlLAogICAgICBlbXB0eVRleHQ6IGlucHV0LmxhYmVscy5uZXZlciwKICAgIH0pfWAsCiAgICBgJHtpbnB1dC5sYWJlbHMubGFzdENoZWNrfTogJHtmb3JtYXREYXRlVGltZVNhZmUoaW5wdXQuY2hlY2tlZEF0LCB7CiAgICAgIGxvY2FsZSwKICAgICAgZW1wdHlUZXh0OiBpbnB1dC5sYWJlbHMubmV2ZXIsCiAgICB9KX1gLAogIF07Cn07Cg==
+import { formatDateTimeSafe } from "@admin-shared/utils/formatDateTimeSafe";
+
+export const buildDDNSTimestampTooltipLines = (input: {
+  updatedAt: string | null | undefined;
+  checkedAt: string | null | undefined;
+  locale?: string;
+  labels: {
+    lastSuccessfulUpdate: string;
+    lastCheck: string;
+    never: string;
+  };
+}) => {
+  const locale = input.locale || "en";
+
+  return [
+    `${input.labels.lastSuccessfulUpdate}: ${formatDateTimeSafe(input.updatedAt, {
+      locale,
+      emptyText: input.labels.never,
+    })}`,
+    `${input.labels.lastCheck}: ${formatDateTimeSafe(input.checkedAt, {
+      locale,
+      emptyText: input.labels.never,
+    })}`,
+  ];
+};

@@ -1,1 +1,56 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IExvYWRlcjIgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgRGlhbG9nLCBEaWFsb2dDb250ZW50LCBEaWFsb2dGb290ZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHR5cGUgeyBOb3RpZmljYXRpb25SdWxlRWRpdG9yQ29udHJvbGxlciB9IGZyb20gIi4vbm90aWZpY2F0aW9uLXJ1bGUtZWRpdG9yLWNvbnRyYWN0IjsKaW1wb3J0IE5vdGlmaWNhdGlvblJ1bGVDb25kaXRpb25zIGZyb20gIi4vTm90aWZpY2F0aW9uUnVsZUNvbmRpdGlvbnMudnVlIjsKaW1wb3J0IE5vdGlmaWNhdGlvblJ1bGVEaWFsb2dIZWFkZXIgZnJvbSAiLi9Ob3RpZmljYXRpb25SdWxlRGlhbG9nSGVhZGVyLnZ1ZSI7CmltcG9ydCBOb3RpZmljYXRpb25SdWxlRXZlbnRUeXBlcyBmcm9tICIuL05vdGlmaWNhdGlvblJ1bGVFdmVudFR5cGVzLnZ1ZSI7CmltcG9ydCBOb3RpZmljYXRpb25SdWxlVGFyZ2V0cyBmcm9tICIuL05vdGlmaWNhdGlvblJ1bGVUYXJnZXRzLnZ1ZSI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsgY29udHJvbGxlcjogTm90aWZpY2F0aW9uUnVsZUVkaXRvckNvbnRyb2xsZXIgfT4oKTsKY29uc3QgeyBkaWFsb2dPcGVuLCBpc0VkaXRNb2RlLCBydWxlRm9ybUludmFsaWQsIHNhdmVSdWxlLCBzYXZpbmcgfSA9CiAgcHJvcHMuY29udHJvbGxlcjsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgdi1tb2RlbDpvcGVuPSJkaWFsb2dPcGVuIj4KICAgIDxEaWFsb2dDb250ZW50CiAgICAgIGNsYXNzPSJmbGV4IG1heC1oLVs5MnZoXSBtaW4tdy0wIGZsZXgtY29sIGdhcC0wIG92ZXJmbG93LWhpZGRlbiBwLTAgc206bWF4LXctWzEwNDBweF0iCiAgICA+CiAgICAgIDxOb3RpZmljYXRpb25SdWxlRGlhbG9nSGVhZGVyIDpjb250cm9sbGVyPSJjb250cm9sbGVyIiAvPgogICAgICA8ZGl2CiAgICAgICAgY2xhc3M9Im1pbi13LTAgZmxleC0xIHNwYWNlLXktNiBvdmVyZmxvdy14LWhpZGRlbiBvdmVyZmxvdy15LWF1dG8gYmctYmFja2dyb3VuZCBweC00IHB5LTUgc206cHgtNiIKICAgICAgPgogICAgICAgIDxOb3RpZmljYXRpb25SdWxlRXZlbnRUeXBlcwogICAgICAgICAgdi1pZj0iIWlzRWRpdE1vZGUiCiAgICAgICAgICA6Y29udHJvbGxlcj0iY29udHJvbGxlciIKICAgICAgICAvPgogICAgICAgIDxOb3RpZmljYXRpb25SdWxlQ29uZGl0aW9ucyB2LWVsc2UgOmNvbnRyb2xsZXI9ImNvbnRyb2xsZXIiIC8+CiAgICAgICAgPE5vdGlmaWNhdGlvblJ1bGVUYXJnZXRzIDpjb250cm9sbGVyPSJjb250cm9sbGVyIiAvPgogICAgICA8L2Rpdj4KICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sLXJldmVyc2UgZ2FwLTIgYm9yZGVyLXQgYmctYmFja2dyb3VuZCBweC00IHB5LTQgc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIHNtOmp1c3RpZnktYmV0d2VlbiBzbTpweC02IgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sKICAgICAgICAgICAgaXNFZGl0TW9kZQogICAgICAgICAgICAgID8gdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ydWxlcy5zYXZlRWRpdEhpbnQiKQogICAgICAgICAgICAgIDogdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ydWxlcy5zYXZlQ3JlYXRlSGludCIpCiAgICAgICAgICB9fQogICAgICAgIDwvZGl2PgogICAgICAgIDxEaWFsb2dGb290ZXIgY2xhc3M9ImdhcC0yIHNtOmZsZXgtcm93Ij4KICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgQGNsaWNrPSJkaWFsb2dPcGVuID0gZmFsc2UiPgogICAgICAgICAgICB7eyB0KCJjb21tb24uY2FuY2VsIikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPEJ1dHRvbiA6ZGlzYWJsZWQ9InNhdmluZyB8fCBydWxlRm9ybUludmFsaWQiIEBjbGljaz0ic2F2ZVJ1bGUiPgogICAgICAgICAgICA8TG9hZGVyMiB2LWlmPSJzYXZpbmciIGNsYXNzPSJtci0yIGgtNCB3LTQgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgICAgICB7eyB0KCJjb21tb24uc2F2ZSIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgICAgPC9kaXY+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { Loader2 } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogFooter } from "@/components/ui/dialog";
+import type { NotificationRuleEditorController } from "./notification-rule-editor-contract";
+import NotificationRuleConditions from "./NotificationRuleConditions.vue";
+import NotificationRuleDialogHeader from "./NotificationRuleDialogHeader.vue";
+import NotificationRuleEventTypes from "./NotificationRuleEventTypes.vue";
+import NotificationRuleTargets from "./NotificationRuleTargets.vue";
+
+const props = defineProps<{ controller: NotificationRuleEditorController }>();
+const { dialogOpen, isEditMode, ruleFormInvalid, saveRule, saving } =
+  props.controller;
+const { t } = useI18n();
+</script>
+
+<template>
+  <Dialog v-model:open="dialogOpen">
+    <DialogContent
+      class="flex max-h-[92vh] min-w-0 flex-col gap-0 overflow-hidden p-0 sm:max-w-[1040px]"
+    >
+      <NotificationRuleDialogHeader :controller="controller" />
+      <div
+        class="min-w-0 flex-1 space-y-6 overflow-x-hidden overflow-y-auto bg-background px-4 py-5 sm:px-6"
+      >
+        <NotificationRuleEventTypes
+          v-if="!isEditMode"
+          :controller="controller"
+        />
+        <NotificationRuleConditions v-else :controller="controller" />
+        <NotificationRuleTargets :controller="controller" />
+      </div>
+      <div
+        class="flex flex-col-reverse gap-2 border-t bg-background px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-6"
+      >
+        <div class="text-xs text-muted-foreground">
+          {{
+            isEditMode
+              ? t("admin.notifications.rules.saveEditHint")
+              : t("admin.notifications.rules.saveCreateHint")
+          }}
+        </div>
+        <DialogFooter class="gap-2 sm:flex-row">
+          <Button variant="outline" @click="dialogOpen = false">
+            {{ t("common.cancel") }}
+          </Button>
+          <Button :disabled="saving || ruleFormInvalid" @click="saveRule">
+            <Loader2 v-if="saving" class="mr-2 h-4 w-4 animate-spin" />
+            {{ t("common.save") }}
+          </Button>
+        </DialogFooter>
+      </div>
+    </DialogContent>
+  </Dialog>
+</template>

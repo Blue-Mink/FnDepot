@@ -1,1 +1,185 @@
-aW1wb3J0IHR5cGUgeyBHYXRld2F5TG9nQW5hbHl0aWNzQnVja2V0IH0gZnJvbSAiQC90eXBlcyI7CmltcG9ydCB7IEFVVEhfREVDSVNJT05fTEFCRUxfS0VZUyB9IGZyb20gIkAvbGliL2dhdGV3YXlMb2dMYWJlbHMiOwoKZXhwb3J0IHR5cGUgUmVxdWVzdEFuYWx5dGljc1JhbmdlS2V5ID0gInRvZGF5IiB8ICI3ZCIgfCAiMzBkIjsKCmV4cG9ydCBjb25zdCBSRVFVRVNUX0FOQUxZVElDU19SQU5HRV9PUFRJT05TID0gWwogIHsga2V5OiAidG9kYXkiLCBsYWJlbEtleTogImFkbWluLnJlcXVlc3RBbmFseXNpcy5yYW5nZXMudG9kYXkiIH0sCiAgeyBrZXk6ICI3ZCIsIGxhYmVsS2V5OiAiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLnJhbmdlcy5sYXN0N0RheXMiIH0sCiAgeyBrZXk6ICIzMGQiLCBsYWJlbEtleTogImFkbWluLnJlcXVlc3RBbmFseXNpcy5yYW5nZXMubGFzdDMwRGF5cyIgfSwKXSBhcyBjb25zdDsKCmV4cG9ydCBpbnRlcmZhY2UgQW5hbHl0aWNzQnJlYWtkb3duSXRlbSBleHRlbmRzIEdhdGV3YXlMb2dBbmFseXRpY3NCdWNrZXQgewogIGxhYmVsOiBzdHJpbmc7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgQW5hbHl0aWNzR2VvUmVnaW9uQnVja2V0IGV4dGVuZHMgR2F0ZXdheUxvZ0FuYWx5dGljc0J1Y2tldCB7CiAgY291bnRyeV9jb2RlPzogc3RyaW5nOwogIHByb3ZpbmNlPzogc3RyaW5nOwogIGNpdHk/OiBzdHJpbmc7Cn0KCnR5cGUgVHJhbnNsYXRvciA9IChrZXk6IHN0cmluZywgcGFyYW1zPzogUmVjb3JkPHN0cmluZywgdW5rbm93bj4pID0+IHN0cmluZzsKCmNvbnN0IGxvY2FsRGF0ZVN0cmluZyA9IChkYXRlOiBEYXRlKSA9PiB7CiAgY29uc3QgeWVhciA9IGRhdGUuZ2V0RnVsbFllYXIoKTsKICBjb25zdCBtb250aCA9IFN0cmluZyhkYXRlLmdldE1vbnRoKCkgKyAxKS5wYWRTdGFydCgyLCAiMCIpOwogIGNvbnN0IGRheSA9IFN0cmluZyhkYXRlLmdldERhdGUoKSkucGFkU3RhcnQoMiwgIjAiKTsKICByZXR1cm4gYCR7eWVhcn0tJHttb250aH0tJHtkYXl9YDsKfTsKCmV4cG9ydCBjb25zdCB0b2RheURhdGVTdHJpbmcgPSAoKSA9PiBsb2NhbERhdGVTdHJpbmcobmV3IERhdGUoKSk7CgpleHBvcnQgY29uc3Qgc3VidHJhY3RDYWxlbmRhckRheXMgPSAoZGF0ZTogc3RyaW5nLCBkYXlzOiBudW1iZXIpID0+IHsKICBjb25zdCB2YWx1ZSA9IG5ldyBEYXRlKGAke2RhdGV9VDAwOjAwOjAwWmApOwogIHZhbHVlLnNldFVUQ0RhdGUodmFsdWUuZ2V0VVRDRGF0ZSgpIC0gZGF5cyk7CiAgcmV0dXJuIHZhbHVlLnRvSVNPU3RyaW5nKCkuc2xpY2UoMCwgMTApOwp9OwoKZXhwb3J0IGNvbnN0IHJlc29sdmVBbmFseXRpY3NSYW5nZSA9ICgKICBrZXk6IFJlcXVlc3RBbmFseXRpY3NSYW5nZUtleSwKICB0b2RheSA9IHRvZGF5RGF0ZVN0cmluZygpLAopID0+IHsKICBjb25zdCBkYXlzID0ga2V5ID09PSAidG9kYXkiID8gMSA6IGtleSA9PT0gIjdkIiA/IDcgOiAzMDsKICByZXR1cm4geyBmcm9tOiBzdWJ0cmFjdENhbGVuZGFyRGF5cyh0b2RheSwgZGF5cyAtIDEpLCB0bzogdG9kYXkgfTsKfTsKCmV4cG9ydCBjb25zdCBhbmFseXRpY3NSYW5nZURheXMgPSAoZnJvbTogc3RyaW5nLCB0bzogc3RyaW5nKSA9PiB7CiAgY29uc3Qgc3RhcnQgPSBEYXRlLnBhcnNlKGAke2Zyb219VDAwOjAwOjAwWmApOwogIGNvbnN0IGVuZCA9IERhdGUucGFyc2UoYCR7dG99VDAwOjAwOjAwWmApOwogIGlmICghTnVtYmVyLmlzRmluaXRlKHN0YXJ0KSB8fCAhTnVtYmVyLmlzRmluaXRlKGVuZCkpIHJldHVybiAwOwogIHJldHVybiBNYXRoLmZsb29yKChlbmQgLSBzdGFydCkgLyA4Nl80MDBfMDAwKSArIDE7Cn07Cgpjb25zdCBpc0NhbGVuZGFyRGF0ZSA9ICh2YWx1ZTogc3RyaW5nKSA9PiB7CiAgaWYgKCEvXlxkezR9LVxkezJ9LVxkezJ9JC8udGVzdCh2YWx1ZSkpIHJldHVybiBmYWxzZTsKICBjb25zdCBwYXJzZWQgPSBuZXcgRGF0ZShgJHt2YWx1ZX1UMDA6MDA6MDBaYCk7CiAgcmV0dXJuICgKICAgICFOdW1iZXIuaXNOYU4ocGFyc2VkLmdldFRpbWUoKSkgJiYKICAgIHBhcnNlZC50b0lTT1N0cmluZygpLnNsaWNlKDAsIDEwKSA9PT0gdmFsdWUKICApOwp9OwoKZXhwb3J0IGNvbnN0IGlzVmFsaWRBbmFseXRpY3NSYW5nZSA9ICgKICBmcm9tOiBzdHJpbmcsCiAgdG86IHN0cmluZywKICBsYXRlc3REYXRlID0gdG9kYXlEYXRlU3RyaW5nKCksCikgPT4KICBpc0NhbGVuZGFyRGF0ZShmcm9tKSAmJgogIGlzQ2FsZW5kYXJEYXRlKHRvKSAmJgogIGZyb20gPD0gdG8gJiYKICB0byA8PSBsYXRlc3REYXRlICYmCiAgYW5hbHl0aWNzUmFuZ2VEYXlzKGZyb20sIHRvKSA8PSAzMDsKCmV4cG9ydCBjb25zdCBmb3JtYXRBbmFseXRpY3NOdW1iZXIgPSAodmFsdWU6IG51bWJlciwgbG9jYWxlOiBzdHJpbmcpID0+CiAgbmV3IEludGwuTnVtYmVyRm9ybWF0KGxvY2FsZSwgeyBtYXhpbXVtRnJhY3Rpb25EaWdpdHM6IDAgfSkuZm9ybWF0KAogICAgTnVtYmVyLmlzRmluaXRlKHZhbHVlKSA/IHZhbHVlIDogMCwKICApOwoKZXhwb3J0IGNvbnN0IGZvcm1hdEFuYWx5dGljc1BlcmNlbnQgPSAodmFsdWU6IG51bWJlciwgbG9jYWxlOiBzdHJpbmcpID0+CiAgbmV3IEludGwuTnVtYmVyRm9ybWF0KGxvY2FsZSwgewogICAgc3R5bGU6ICJwZXJjZW50IiwKICAgIG1heGltdW1GcmFjdGlvbkRpZ2l0czogdmFsdWUgPiAwICYmIHZhbHVlIDwgMC4wMSA/IDIgOiAxLAogIH0pLmZvcm1hdChOdW1iZXIuaXNGaW5pdGUodmFsdWUpID8gdmFsdWUgOiAwKTsKCmV4cG9ydCBjb25zdCBmb3JtYXRBbmFseXRpY3NEdXJhdGlvbiA9ICh2YWx1ZTogbnVtYmVyLCBsb2NhbGU6IHN0cmluZykgPT4gewogIGlmICghTnVtYmVyLmlzRmluaXRlKHZhbHVlKSB8fCB2YWx1ZSA8PSAwKSByZXR1cm4gIjAgbXMiOwogIGlmICh2YWx1ZSA8IDEwMDApIHsKICAgIHJldHVybiBgJHtuZXcgSW50bC5OdW1iZXJGb3JtYXQobG9jYWxlLCB7IG1heGltdW1GcmFjdGlvbkRpZ2l0czogMCB9KS5mb3JtYXQodmFsdWUpfSBtc2A7CiAgfQogIHJldHVybiBgJHtuZXcgSW50bC5OdW1iZXJGb3JtYXQobG9jYWxlLCB7IG1heGltdW1GcmFjdGlvbkRpZ2l0czogMiB9KS5mb3JtYXQodmFsdWUgLyAxMDAwKX0gc2A7Cn07CgpleHBvcnQgY29uc3QgZm9ybWF0QW5hbHl0aWNzQnl0ZXMgPSAodmFsdWU6IG51bWJlciwgbG9jYWxlOiBzdHJpbmcpID0+IHsKICBpZiAoIU51bWJlci5pc0Zpbml0ZSh2YWx1ZSkgfHwgdmFsdWUgPD0gMCkgcmV0dXJuICIwIEIiOwogIGNvbnN0IHVuaXRzID0gWyJCIiwgIktCIiwgIk1CIiwgIkdCIiwgIlRCIl07CiAgY29uc3QgZXhwb25lbnQgPSBNYXRoLm1pbigKICAgIHVuaXRzLmxlbmd0aCAtIDEsCiAgICBNYXRoLmZsb29yKE1hdGgubG9nKHZhbHVlKSAvIE1hdGgubG9nKDEwMjQpKSwKICApOwogIGNvbnN0IG5vcm1hbGl6ZWQgPSB2YWx1ZSAvIDEwMjQgKiogZXhwb25lbnQ7CiAgcmV0dXJuIGAke25ldyBJbnRsLk51bWJlckZvcm1hdChsb2NhbGUsIHsgbWF4aW11bUZyYWN0aW9uRGlnaXRzOiAyIH0pLmZvcm1hdChub3JtYWxpemVkKX0gJHt1bml0c1tleHBvbmVudF19YDsKfTsKCmV4cG9ydCBjb25zdCBhbmFseXRpY3NUaW1lc3RhbXBPZmZzZXRNaW51dGVzID0gKHZhbHVlOiBzdHJpbmcpID0+IHsKICBpZiAoL3okL2l1LnRlc3QodmFsdWUudHJpbSgpKSkgcmV0dXJuIDA7CiAgY29uc3QgbWF0Y2ggPSB2YWx1ZS50cmltKCkubWF0Y2goLyhbKy1dKShcZHsyfSk6KFxkezJ9KSQvdSk7CiAgaWYgKCFtYXRjaCkgcmV0dXJuIDA7CiAgY29uc3QgaG91cnMgPSBOdW1iZXIobWF0Y2hbMl0pOwogIGNvbnN0IG1pbnV0ZXMgPSBOdW1iZXIobWF0Y2hbM10pOwogIGlmIChob3VycyA+IDIzIHx8IG1pbnV0ZXMgPiA1OSkgcmV0dXJuIDA7CiAgY29uc3Qgb2Zmc2V0ID0gaG91cnMgKiA2MCArIG1pbnV0ZXM7CiAgcmV0dXJuIG1hdGNoWzFdID09PSAiLSIgPyAtb2Zmc2V0IDogb2Zmc2V0Owp9OwoKY29uc3Qgc3BlY2lhbExhYmVsS2V5czogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICBib3Q6ICJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMudmFsdWVzLmJvdCIsCiAgZGVza3RvcDogImFkbWluLnJlcXVlc3RBbmFseXNpcy52YWx1ZXMuZGVza3RvcCIsCiAgbW9iaWxlOiAiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLnZhbHVlcy5tb2JpbGUiLAogIHRhYmxldDogImFkbWluLnJlcXVlc3RBbmFseXNpcy52YWx1ZXMudGFibGV0IiwKICB0djogImFkbWluLnJlcXVlc3RBbmFseXNpcy52YWx1ZXMudHYiLAogIHVua25vd246ICJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMudmFsdWVzLnVua25vd24iLAogIGRpcmVjdDogImFkbWluLnJlcXVlc3RBbmFseXNpcy52YWx1ZXMuZGlyZWN0IiwKICBub25lOiAiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLnZhbHVlcy5ub25lIiwKICBibG9ja2VkOiAiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLnZhbHVlcy5ibG9ja2VkIiwKICBoaXQ6ICJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMudmFsdWVzLmhpdCIsCiAgYmxvY2s6ICJhZG1pbi53YWZMb2dzLmFjdGlvbnMuYmxvY2siLAogIGRlbnk6ICJhZG1pbi53YWZMb2dzLmFjdGlvbnMuYmxvY2siLAogIGxvZzogImFkbWluLndhZkxvZ3MuYWN0aW9ucy5yZWNvcmQiLAogIGRldGVjdDogImFkbWluLndhZkxvZ3MuYWN0aW9ucy5yZWNvcmQiLAogIHBhc3M6ICJhZG1pbi53YWZMb2dzLmFjdGlvbnMucGFzcyIsCiAgbHRfNTA6ICJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMubGF0ZW5jeUJhbmRzLmx0NTAiLAogICI1MF8xMDAiOiAiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLmxhdGVuY3lCYW5kcy5mcm9tNTBUbzEwMCIsCiAgIjEwMF8yNTAiOiAiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLmxhdGVuY3lCYW5kcy5mcm9tMTAwVG8yNTAiLAogICIyNTBfNTAwIjogImFkbWluLnJlcXVlc3RBbmFseXNpcy5sYXRlbmN5QmFuZHMuZnJvbTI1MFRvNTAwIiwKICAiNTAwXzEwMDAiOiAiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLmxhdGVuY3lCYW5kcy5mcm9tNTAwVG8xMDAwIiwKICBndGVfMTAwMDogImFkbWluLnJlcXVlc3RBbmFseXNpcy5sYXRlbmN5QmFuZHMuZ3RlMTAwMCIsCn07CgpleHBvcnQgY29uc3QgYW5hbHl0aWNzRGltZW5zaW9uTGFiZWwgPSAoa2V5OiBzdHJpbmcsIHQ6IFRyYW5zbGF0b3IpID0+IHsKICBjb25zdCBub3JtYWxpemVkID0ga2V5LnRyaW0oKTsKICBjb25zdCBub3JtYWxpemVkS2V5ID0gbm9ybWFsaXplZC50b0xvd2VyQ2FzZSgpOwogIGNvbnN0IHRyYW5zbGF0aW9uS2V5ID0KICAgIEFVVEhfREVDSVNJT05fTEFCRUxfS0VZU1tub3JtYWxpemVkS2V5XSB8fCBzcGVjaWFsTGFiZWxLZXlzW25vcm1hbGl6ZWRLZXldOwogIHJldHVybiB0cmFuc2xhdGlvbktleQogICAgPyB0KHRyYW5zbGF0aW9uS2V5KQogICAgOiBub3JtYWxpemVkIHx8IHQoImFkbWluLnJlcXVlc3RBbmFseXNpcy52YWx1ZXMudW5rbm93biIpOwp9OwoKZXhwb3J0IGNvbnN0IGFuYWx5dGljc1JlZ2lvbkxhYmVsID0gKAogIGl0ZW06IEFuYWx5dGljc0dlb1JlZ2lvbkJ1Y2tldCwKICBsb2NhbGU6IHN0cmluZywKICB0OiBUcmFuc2xhdG9yLAopID0+IHsKICBpZiAoaXRlbS5rZXkgPT09ICJ1bmtub3duIikgcmV0dXJuIHQoImFkbWluLnJlcXVlc3RBbmFseXNpcy52YWx1ZXMudW5rbm93biIpOwogIGNvbnN0IHBhcnRzID0gWwogICAgaXRlbS5jb3VudHJ5X2NvZGUKICAgICAgPyBhbmFseXRpY3NDb3VudHJ5TGFiZWwoaXRlbS5jb3VudHJ5X2NvZGUsIGxvY2FsZSwgdCkKICAgICAgOiAiIiwKICAgIGl0ZW0ucHJvdmluY2U/LnRyaW0oKSB8fCAiIiwKICAgIGl0ZW0uY2l0eT8udHJpbSgpIHx8ICIiLAogIF0uZmlsdGVyKCh2YWx1ZSwgaW5kZXgsIHZhbHVlcykgPT4gewogICAgaWYgKCF2YWx1ZSkgcmV0dXJuIGZhbHNlOwogICAgcmV0dXJuIHZhbHVlcy5maW5kSW5kZXgoKGNhbmRpZGF0ZSkgPT4gY2FuZGlkYXRlID09PSB2YWx1ZSkgPT09IGluZGV4OwogIH0pOwogIHJldHVybiBwYXJ0cy5qb2luKCIgwrcgIikgfHwgdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLnZhbHVlcy51bmtub3duIik7Cn07CgpleHBvcnQgY29uc3QgYW5hbHl0aWNzQ291bnRyeUxhYmVsID0gKAogIGtleTogc3RyaW5nLAogIGxvY2FsZTogc3RyaW5nLAogIHQ6IFRyYW5zbGF0b3IsCikgPT4gewogIGlmIChrZXkgPT09ICJ1bmtub3duIikgcmV0dXJuIHQoImFkbWluLnJlcXVlc3RBbmFseXNpcy52YWx1ZXMudW5rbm93biIpOwogIHRyeSB7CiAgICByZXR1cm4gbmV3IEludGwuRGlzcGxheU5hbWVzKFtsb2NhbGVdLCB7IHR5cGU6ICJyZWdpb24iIH0pLm9mKGtleSkgfHwga2V5OwogIH0gY2F0Y2ggewogICAgcmV0dXJuIGtleTsKICB9Cn07CgpleHBvcnQgY29uc3QgbWFwQW5hbHl0aWNzQnVja2V0cyA9ICgKICBpdGVtczogR2F0ZXdheUxvZ0FuYWx5dGljc0J1Y2tldFtdLAogIGxhYmVsOiAoa2V5OiBzdHJpbmcpID0+IHN0cmluZywKKTogQW5hbHl0aWNzQnJlYWtkb3duSXRlbVtdID0+CiAgaXRlbXMubWFwKChpdGVtKSA9PiAoeyAuLi5pdGVtLCBsYWJlbDogbGFiZWwoaXRlbS5rZXkpIH0pKTsK
+import type { GatewayLogAnalyticsBucket } from "@/types";
+import { AUTH_DECISION_LABEL_KEYS } from "@/lib/gatewayLogLabels";
+
+export type RequestAnalyticsRangeKey = "today" | "7d" | "30d";
+
+export const REQUEST_ANALYTICS_RANGE_OPTIONS = [
+  { key: "today", labelKey: "admin.requestAnalysis.ranges.today" },
+  { key: "7d", labelKey: "admin.requestAnalysis.ranges.last7Days" },
+  { key: "30d", labelKey: "admin.requestAnalysis.ranges.last30Days" },
+] as const;
+
+export interface AnalyticsBreakdownItem extends GatewayLogAnalyticsBucket {
+  label: string;
+}
+
+export interface AnalyticsGeoRegionBucket extends GatewayLogAnalyticsBucket {
+  country_code?: string;
+  province?: string;
+  city?: string;
+}
+
+type Translator = (key: string, params?: Record<string, unknown>) => string;
+
+const localDateString = (date: Date) => {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+};
+
+export const todayDateString = () => localDateString(new Date());
+
+export const subtractCalendarDays = (date: string, days: number) => {
+  const value = new Date(`${date}T00:00:00Z`);
+  value.setUTCDate(value.getUTCDate() - days);
+  return value.toISOString().slice(0, 10);
+};
+
+export const resolveAnalyticsRange = (
+  key: RequestAnalyticsRangeKey,
+  today = todayDateString(),
+) => {
+  const days = key === "today" ? 1 : key === "7d" ? 7 : 30;
+  return { from: subtractCalendarDays(today, days - 1), to: today };
+};
+
+export const analyticsRangeDays = (from: string, to: string) => {
+  const start = Date.parse(`${from}T00:00:00Z`);
+  const end = Date.parse(`${to}T00:00:00Z`);
+  if (!Number.isFinite(start) || !Number.isFinite(end)) return 0;
+  return Math.floor((end - start) / 86_400_000) + 1;
+};
+
+const isCalendarDate = (value: string) => {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+  const parsed = new Date(`${value}T00:00:00Z`);
+  return (
+    !Number.isNaN(parsed.getTime()) &&
+    parsed.toISOString().slice(0, 10) === value
+  );
+};
+
+export const isValidAnalyticsRange = (
+  from: string,
+  to: string,
+  latestDate = todayDateString(),
+) =>
+  isCalendarDate(from) &&
+  isCalendarDate(to) &&
+  from <= to &&
+  to <= latestDate &&
+  analyticsRangeDays(from, to) <= 30;
+
+export const formatAnalyticsNumber = (value: number, locale: string) =>
+  new Intl.NumberFormat(locale, { maximumFractionDigits: 0 }).format(
+    Number.isFinite(value) ? value : 0,
+  );
+
+export const formatAnalyticsPercent = (value: number, locale: string) =>
+  new Intl.NumberFormat(locale, {
+    style: "percent",
+    maximumFractionDigits: value > 0 && value < 0.01 ? 2 : 1,
+  }).format(Number.isFinite(value) ? value : 0);
+
+export const formatAnalyticsDuration = (value: number, locale: string) => {
+  if (!Number.isFinite(value) || value <= 0) return "0 ms";
+  if (value < 1000) {
+    return `${new Intl.NumberFormat(locale, { maximumFractionDigits: 0 }).format(value)} ms`;
+  }
+  return `${new Intl.NumberFormat(locale, { maximumFractionDigits: 2 }).format(value / 1000)} s`;
+};
+
+export const formatAnalyticsBytes = (value: number, locale: string) => {
+  if (!Number.isFinite(value) || value <= 0) return "0 B";
+  const units = ["B", "KB", "MB", "GB", "TB"];
+  const exponent = Math.min(
+    units.length - 1,
+    Math.floor(Math.log(value) / Math.log(1024)),
+  );
+  const normalized = value / 1024 ** exponent;
+  return `${new Intl.NumberFormat(locale, { maximumFractionDigits: 2 }).format(normalized)} ${units[exponent]}`;
+};
+
+export const analyticsTimestampOffsetMinutes = (value: string) => {
+  if (/z$/iu.test(value.trim())) return 0;
+  const match = value.trim().match(/([+-])(\d{2}):(\d{2})$/u);
+  if (!match) return 0;
+  const hours = Number(match[2]);
+  const minutes = Number(match[3]);
+  if (hours > 23 || minutes > 59) return 0;
+  const offset = hours * 60 + minutes;
+  return match[1] === "-" ? -offset : offset;
+};
+
+const specialLabelKeys: Record<string, string> = {
+  bot: "admin.requestAnalysis.values.bot",
+  desktop: "admin.requestAnalysis.values.desktop",
+  mobile: "admin.requestAnalysis.values.mobile",
+  tablet: "admin.requestAnalysis.values.tablet",
+  tv: "admin.requestAnalysis.values.tv",
+  unknown: "admin.requestAnalysis.values.unknown",
+  direct: "admin.requestAnalysis.values.direct",
+  none: "admin.requestAnalysis.values.none",
+  blocked: "admin.requestAnalysis.values.blocked",
+  hit: "admin.requestAnalysis.values.hit",
+  block: "admin.wafLogs.actions.block",
+  deny: "admin.wafLogs.actions.block",
+  log: "admin.wafLogs.actions.record",
+  detect: "admin.wafLogs.actions.record",
+  pass: "admin.wafLogs.actions.pass",
+  lt_50: "admin.requestAnalysis.latencyBands.lt50",
+  "50_100": "admin.requestAnalysis.latencyBands.from50To100",
+  "100_250": "admin.requestAnalysis.latencyBands.from100To250",
+  "250_500": "admin.requestAnalysis.latencyBands.from250To500",
+  "500_1000": "admin.requestAnalysis.latencyBands.from500To1000",
+  gte_1000: "admin.requestAnalysis.latencyBands.gte1000",
+};
+
+export const analyticsDimensionLabel = (key: string, t: Translator) => {
+  const normalized = key.trim();
+  const normalizedKey = normalized.toLowerCase();
+  const translationKey =
+    AUTH_DECISION_LABEL_KEYS[normalizedKey] || specialLabelKeys[normalizedKey];
+  return translationKey
+    ? t(translationKey)
+    : normalized || t("admin.requestAnalysis.values.unknown");
+};
+
+export const analyticsRegionLabel = (
+  item: AnalyticsGeoRegionBucket,
+  locale: string,
+  t: Translator,
+) => {
+  if (item.key === "unknown") return t("admin.requestAnalysis.values.unknown");
+  const parts = [
+    item.country_code
+      ? analyticsCountryLabel(item.country_code, locale, t)
+      : "",
+    item.province?.trim() || "",
+    item.city?.trim() || "",
+  ].filter((value, index, values) => {
+    if (!value) return false;
+    return values.findIndex((candidate) => candidate === value) === index;
+  });
+  return parts.join(" · ") || t("admin.requestAnalysis.values.unknown");
+};
+
+export const analyticsCountryLabel = (
+  key: string,
+  locale: string,
+  t: Translator,
+) => {
+  if (key === "unknown") return t("admin.requestAnalysis.values.unknown");
+  try {
+    return new Intl.DisplayNames([locale], { type: "region" }).of(key) || key;
+  } catch {
+    return key;
+  }
+};
+
+export const mapAnalyticsBuckets = (
+  items: GatewayLogAnalyticsBucket[],
+  label: (key: string) => string,
+): AnalyticsBreakdownItem[] =>
+  items.map((item) => ({ ...item, label: label(item.key) }));

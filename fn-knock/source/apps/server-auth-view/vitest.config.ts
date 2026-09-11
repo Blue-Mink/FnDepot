@@ -1,1 +1,14 @@
-aW1wb3J0IHsgbWVyZ2VDb25maWcgfSBmcm9tICJ2aXRlIjsKaW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAidml0ZXN0L2NvbmZpZyI7CgppbXBvcnQgdml0ZUNvbmZpZyBmcm9tICIuL3ZpdGUuY29uZmlnIjsKCmV4cG9ydCBkZWZhdWx0IG1lcmdlQ29uZmlnKAogIHZpdGVDb25maWcsCiAgZGVmaW5lQ29uZmlnKHsKICAgIHRlc3Q6IHsKICAgICAgZW52aXJvbm1lbnQ6ICJoYXBweS1kb20iLAogICAgICBpbmNsdWRlOiBbImNvbXBvbmVudC10ZXN0cy8qKi8qLnRlc3QudHMiXSwKICAgIH0sCiAgfSksCik7Cg==
+import { mergeConfig } from "vite";
+import { defineConfig } from "vitest/config";
+
+import viteConfig from "./vite.config";
+
+export default mergeConfig(
+  viteConfig,
+  defineConfig({
+    test: {
+      environment: "happy-dom",
+      include: ["component-tests/**/*.test.ts"],
+    },
+  }),
+);

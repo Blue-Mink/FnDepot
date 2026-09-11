@@ -1,1 +1,220 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7CiAgTG9hZGVyQ2lyY2xlLAogIFJlZnJlc2hDdywKICBTaGllbGRDaGVjaywKICBUcmlhbmdsZUFsZXJ0LAogIFphcCwKfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBBbGVydCwgQWxlcnREZXNjcmlwdGlvbiwgQWxlcnRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9hbGVydCI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgdHlwZSB7IENsb3VkZmxhcmVPcHRpbWl6YXRpb25DYXJkUHJlc2VudGF0aW9uIH0gZnJvbSAiLi91c2VDbG91ZGZsYXJlT3B0aW1pemF0aW9uQ2FyZFByZXNlbnRhdGlvbiI7CmltcG9ydCB0eXBlIHsgQ2xvdWRmbGFyZVR1bm5lbENvbnRyb2xsZXIgfSBmcm9tICIuL3VzZUNsb3VkZmxhcmVUdW5uZWxDb250cm9sbGVyIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIGNvbnRyb2xsZXI6IENsb3VkZmxhcmVUdW5uZWxDb250cm9sbGVyOwogIHByZXNlbnRhdGlvbjogQ2xvdWRmbGFyZU9wdGltaXphdGlvbkNhcmRQcmVzZW50YXRpb247Cn0+KCk7CmNvbnN0IHsKICBjYW5jZWxPcHRpbWl6YXRpb25TY2FuLAogIGZhbGxiYWNrT3B0aW1pemF0aW9uLAogIGlzRmFsbGluZ0JhY2tPcHRpbWl6YXRpb24sCiAgaXNTY2FubmluZ09wdGltaXphdGlvbiwKICBvcHRpbWl6YXRpb24sCiAgb3B0aW1pemF0aW9uQXBwbGllZCwKICBvcHRpbWl6YXRpb25TY2FuUmVhZHksCiAgcHJlZmVycmVkQ2FuZGlkYXRlSXAsCiAgc3RhcnRPcHRpbWl6YXRpb25TY2FuLAogIHQsCn0gPSBwcm9wcy5jb250cm9sbGVyOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgPGRpdiBjbGFzcz0ibWF4LXctM3hsIj4KICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1iYXNlIGZvbnQtc2VtaWJvbGQiPgogICAgICAgIDxaYXAgY2xhc3M9InNpemUtNSIgLz4KICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5oZWFkaW5nIikgfX0KICAgICAgICA8QmFkZ2UgdmFyaWFudD0ic2Vjb25kYXJ5Ij4KICAgICAgICAgIHt7IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLmJldGFCYWRnZSIpIH19CiAgICAgICAgPC9CYWRnZT4KICAgICAgPC9kaXY+CiAgICAgIDxwIGNsYXNzPSJtdC0xIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5kZXNjcmlwdGlvbiIpIH19CiAgICAgIDwvcD4KICAgIDwvZGl2PgogICAgPEJhZGdlIDp2YXJpYW50PSJvcHRpbWl6YXRpb24/LmZhbGxiYWNrQWN0aXZlID8gJ3NlY29uZGFyeScgOiAnZGVmYXVsdCciPgogICAgICB7ewogICAgICAgIG9wdGltaXphdGlvbj8uZmFsbGJhY2tBY3RpdmUKICAgICAgICAgID8gdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uZmFsbGJhY2tTdGF0dXMiKQogICAgICAgICAgOiB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5hY3RpdmVTdGF0dXMiKQogICAgICB9fQogICAgPC9CYWRnZT4KICA8L2Rpdj4KCiAgPEFsZXJ0IHYtaWY9IiFvcHRpbWl6YXRpb25BcHBsaWVkIiBjbGFzcz0iaXRlbXMtc3RhcnQiPgogICAgPFRyaWFuZ2xlQWxlcnQgY2xhc3M9InNpemUtNCIgLz4KICAgIDxBbGVydFRpdGxlPgogICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5yZWNvbmNpbGVSZXF1aXJlZFRpdGxlIikgfX0KICAgIDwvQWxlcnRUaXRsZT4KICAgIDxBbGVydERlc2NyaXB0aW9uPgogICAgICB7ewogICAgICAgIHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnJlY29uY2lsZVJlcXVpcmVkRGVzY3JpcHRpb24iKQogICAgICB9fQogICAgPC9BbGVydERlc2NyaXB0aW9uPgogIDwvQWxlcnQ+CgogIDxzbG90IG5hbWU9InNvdXJjZS1zZXR0aW5ncyIgLz4KCiAgPEFsZXJ0CiAgICB2LWlmPSJvcHRpbWl6YXRpb24/LmNhcGFiaWxpdHlQcm9iZT8uc3RhdHVzID09PSAndW5zdXBwb3J0ZWQnIgogICAgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiCiAgICBjbGFzcz0iaXRlbXMtc3RhcnQiCiAgPgogICAgPFRyaWFuZ2xlQWxlcnQKICAgICAgdi1pZj0icHJlc2VudGF0aW9uLmNhcGFiaWxpdHlSZXF1aXJlc0Nsb3VkZmxhcmVTYWFzIgogICAgICBjbGFzcz0ic2l6ZS00IgogICAgLz4KICAgIDxTaGllbGRDaGVjayB2LWVsc2UgY2xhc3M9InNpemUtNCIgLz4KICAgIDxBbGVydFRpdGxlPgogICAgICB7ewogICAgICAgIHByZXNlbnRhdGlvbi5jYXBhYmlsaXR5UmVxdWlyZXNDbG91ZGZsYXJlU2FhcwogICAgICAgICAgPyB0KAogICAgICAgICAgICAgICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5jbG91ZGZsYXJlU2Fhc1JlcXVpcmVkVGl0bGUiLAogICAgICAgICAgICApCiAgICAgICAgICA6IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLmNhcGFiaWxpdHlQcm9iZSIpCiAgICAgIH19CiAgICA8L0FsZXJ0VGl0bGU+CiAgICA8QWxlcnREZXNjcmlwdGlvbj4KICAgICAge3sgcHJlc2VudGF0aW9uLmNhcGFiaWxpdHlQcm9iZU1lc3NhZ2UgfX0KICAgIDwvQWxlcnREZXNjcmlwdGlvbj4KICA8L0FsZXJ0PgoKICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0zIHNtOmdyaWQtY29scy0zIj4KICAgIDxkaXYgY2xhc3M9InJvdW5kZWQtbWQgYm9yZGVyIHAtMyI+CiAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5jdXJyZW50SXAiKSB9fQogICAgICA8L2Rpdj4KICAgICAgPGNvZGUgY2xhc3M9Im10LTEgYmxvY2sgdGV4dC1zbSI+e3sKICAgICAgICBvcHRpbWl6YXRpb24/LnNlbGVjdGVkPy5pcCB8fCAiLSIKICAgICAgfX08L2NvZGU+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9InJvdW5kZWQtbWQgYm9yZGVyIHAtMyI+CiAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5uZXh0U2NhbiIpIH19CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJtdC0xIHRleHQtc20iPgogICAgICAgIHt7IHByZXNlbnRhdGlvbi5mb3JtYXREYXRlKG9wdGltaXphdGlvbj8uc2NoZWR1bGUubmV4dEZ1bGxTY2FuQXQpIH19CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJyb3VuZGVkLW1kIGJvcmRlciBwLTMiPgogICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24ub3B0aW1pemVkRG9tYWlucyIpIH19CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJtdC0xIHRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgIHt7IHByZXNlbnRhdGlvbi5vcHRpbWl6ZWREb21haW5Db3VudCB9fSAvCiAgICAgICAge3sgcHJlc2VudGF0aW9uLm9wdGltaXphdGlvbk1hbmFnZWREb21haW5Db3VudCB9fQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvZGl2PgoKICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0yIHJvdW5kZWQtbWQgYm9yZGVyIGJnLW11dGVkLzIwIHAtMyBzbTptYXgtdy14bCI+CiAgICA8TGFiZWwgZm9yPSJvcHRpbWl6YXRpb24tcHJlZmVycmVkLWlwIj4KICAgICAge3sgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24ucHJlZmVycmVkSXBMYWJlbCIpIH19CiAgICA8L0xhYmVsPgogICAgPElucHV0CiAgICAgIGlkPSJvcHRpbWl6YXRpb24tcHJlZmVycmVkLWlwIgogICAgICB2LW1vZGVsPSJwcmVmZXJyZWRDYW5kaWRhdGVJcCIKICAgICAgYXJpYS1kZXNjcmliZWRieT0ib3B0aW1pemF0aW9uLXByZWZlcnJlZC1pcC1kZXNjcmlwdGlvbiIKICAgICAgaW5wdXRtb2RlPSJkZWNpbWFsIgogICAgICBhdXRvY29tcGxldGU9Im9mZiIKICAgICAgOmRpc2FibGVkPSJpc1NjYW5uaW5nT3B0aW1pemF0aW9uIgogICAgICA6cGxhY2Vob2xkZXI9IgogICAgICAgIHQoJ2FkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnByZWZlcnJlZElwUGxhY2Vob2xkZXInKQogICAgICAiCiAgICAvPgogICAgPGRpdgogICAgICBpZD0ib3B0aW1pemF0aW9uLXByZWZlcnJlZC1pcC1kZXNjcmlwdGlvbiIKICAgICAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgPgogICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5wcmVmZXJyZWRJcERlc2NyaXB0aW9uIikgfX0KICAgIDwvZGl2PgogIDwvZGl2PgoKICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICA8QnV0dG9uCiAgICAgIDpkaXNhYmxlZD0iCiAgICAgICAgIW9wdGltaXphdGlvbkFwcGxpZWQgfHwKICAgICAgICAhb3B0aW1pemF0aW9uU2NhblJlYWR5IHx8CiAgICAgICAgaXNTY2FubmluZ09wdGltaXphdGlvbgogICAgICAiCiAgICAgIEBjbGljaz0ic3RhcnRPcHRpbWl6YXRpb25TY2FuIgogICAgPgogICAgICA8UmVmcmVzaEN3CiAgICAgICAgY2xhc3M9Im1yLTIgc2l6ZS00IgogICAgICAgIDpjbGFzcz0ieyAnYW5pbWF0ZS1zcGluJzogaXNTY2FubmluZ09wdGltaXphdGlvbiB9IgogICAgICAvPgogICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5zdGFydFNjYW4iKSB9fQogICAgPC9CdXR0b24+CiAgICA8QnV0dG9uCiAgICAgIHYtaWY9ImlzU2Nhbm5pbmdPcHRpbWl6YXRpb24iCiAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgIEBjbGljaz0iY2FuY2VsT3B0aW1pemF0aW9uU2NhbiIKICAgID4KICAgICAge3sgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uY2FuY2VsU2NhbiIpIH19CiAgICA8L0J1dHRvbj4KICAgIDxCdXR0b24KICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgOmRpc2FibGVkPSIKICAgICAgICAhb3B0aW1pemF0aW9uQXBwbGllZCB8fAogICAgICAgIGlzRmFsbGluZ0JhY2tPcHRpbWl6YXRpb24gfHwKICAgICAgICBvcHRpbWl6YXRpb24/LmZhbGxiYWNrQWN0aXZlCiAgICAgICIKICAgICAgQGNsaWNrPSJmYWxsYmFja09wdGltaXphdGlvbiIKICAgID4KICAgICAge3sgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uZmFsbGJhY2siKSB9fQogICAgPC9CdXR0b24+CiAgPC9kaXY+CgogIDxBbGVydAogICAgdi1pZj0iCiAgICAgIG9wdGltaXphdGlvbkFwcGxpZWQgJiYKICAgICAgIW9wdGltaXphdGlvblNjYW5SZWFkeSAmJgogICAgICAhcHJlc2VudGF0aW9uLmNhcGFiaWxpdHlSZXF1aXJlc0Nsb3VkZmxhcmVTYWFzCiAgICAiCiAgICBjbGFzcz0iaXRlbXMtc3RhcnQiCiAgPgogICAgPExvYWRlckNpcmNsZQogICAgICB2LWlmPSJwcmVzZW50YXRpb24uY2FwYWJpbGl0eVZhbGlkYXRpb25QZW5kaW5nIgogICAgICBjbGFzcz0ic2l6ZS00IGFuaW1hdGUtc3BpbiIKICAgIC8+CiAgICA8VHJpYW5nbGVBbGVydCB2LWVsc2UgY2xhc3M9InNpemUtNCIgLz4KICAgIDxBbGVydFRpdGxlPgogICAgICB7ewogICAgICAgIHByZXNlbnRhdGlvbi5vcHRpbWl6YXRpb25SZXNvdXJjZUNvbmZsaWN0CiAgICAgICAgICA/IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnJlc291cmNlQ29uZmxpY3RUaXRsZSIpCiAgICAgICAgICA6IHByZXNlbnRhdGlvbi5jYXBhYmlsaXR5VmFsaWRhdGlvblBlbmRpbmcKICAgICAgICAgICAgPyB0KAogICAgICAgICAgICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLmNsb3VkZmxhcmVTYWFzVmFsaWRhdGlvblBlbmRpbmdUaXRsZSIsCiAgICAgICAgICAgICAgKQogICAgICAgICAgICA6IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLm5vdFJlYWR5VGl0bGUiKQogICAgICB9fQogICAgPC9BbGVydFRpdGxlPgogICAgPEFsZXJ0RGVzY3JpcHRpb24+CiAgICAgIHt7CiAgICAgICAgcHJlc2VudGF0aW9uLm9wdGltaXphdGlvblJlc291cmNlQ29uZmxpY3QKICAgICAgICAgID8gdCgKICAgICAgICAgICAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24ucmVzb3VyY2VDb25mbGljdERlc2NyaXB0aW9uIiwKICAgICAgICAgICAgKQogICAgICAgICAgOiBwcmVzZW50YXRpb24uY2FwYWJpbGl0eVZhbGlkYXRpb25QZW5kaW5nCiAgICAgICAgICAgID8gdCgKICAgICAgICAgICAgICAgICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5jbG91ZGZsYXJlU2Fhc1ZhbGlkYXRpb25QZW5kaW5nRGVzY3JpcHRpb24iLAogICAgICAgICAgICAgICkKICAgICAgICAgICAgOiB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5ub3RSZWFkeURlc2NyaXB0aW9uIikKICAgICAgfX0KICAgIDwvQWxlcnREZXNjcmlwdGlvbj4KICA8L0FsZXJ0Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import {
+  LoaderCircle,
+  RefreshCw,
+  ShieldCheck,
+  TriangleAlert,
+  Zap,
+} from "lucide-vue-next";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import type { CloudflareOptimizationCardPresentation } from "./useCloudflareOptimizationCardPresentation";
+import type { CloudflareTunnelController } from "./useCloudflareTunnelController";
+
+const props = defineProps<{
+  controller: CloudflareTunnelController;
+  presentation: CloudflareOptimizationCardPresentation;
+}>();
+const {
+  cancelOptimizationScan,
+  fallbackOptimization,
+  isFallingBackOptimization,
+  isScanningOptimization,
+  optimization,
+  optimizationApplied,
+  optimizationScanReady,
+  preferredCandidateIp,
+  startOptimizationScan,
+  t,
+} = props.controller;
+</script>
+
+<template>
+  <div class="flex flex-wrap items-start justify-between gap-3">
+    <div class="max-w-3xl">
+      <div class="flex items-center gap-2 text-base font-semibold">
+        <Zap class="size-5" />
+        {{ t("admin.cloudflareTunnel.optimization.heading") }}
+        <Badge variant="secondary">
+          {{ t("admin.cloudflareTunnel.optimization.betaBadge") }}
+        </Badge>
+      </div>
+      <p class="mt-1 text-sm text-muted-foreground">
+        {{ t("admin.cloudflareTunnel.optimization.description") }}
+      </p>
+    </div>
+    <Badge :variant="optimization?.fallbackActive ? 'secondary' : 'default'">
+      {{
+        optimization?.fallbackActive
+          ? t("admin.cloudflareTunnel.optimization.fallbackStatus")
+          : t("admin.cloudflareTunnel.optimization.activeStatus")
+      }}
+    </Badge>
+  </div>
+
+  <Alert v-if="!optimizationApplied" class="items-start">
+    <TriangleAlert class="size-4" />
+    <AlertTitle>
+      {{ t("admin.cloudflareTunnel.optimization.reconcileRequiredTitle") }}
+    </AlertTitle>
+    <AlertDescription>
+      {{
+        t("admin.cloudflareTunnel.optimization.reconcileRequiredDescription")
+      }}
+    </AlertDescription>
+  </Alert>
+
+  <slot name="source-settings" />
+
+  <Alert
+    v-if="optimization?.capabilityProbe?.status === 'unsupported'"
+    variant="destructive"
+    class="items-start"
+  >
+    <TriangleAlert
+      v-if="presentation.capabilityRequiresCloudflareSaas"
+      class="size-4"
+    />
+    <ShieldCheck v-else class="size-4" />
+    <AlertTitle>
+      {{
+        presentation.capabilityRequiresCloudflareSaas
+          ? t(
+              "admin.cloudflareTunnel.optimization.cloudflareSaasRequiredTitle",
+            )
+          : t("admin.cloudflareTunnel.optimization.capabilityProbe")
+      }}
+    </AlertTitle>
+    <AlertDescription>
+      {{ presentation.capabilityProbeMessage }}
+    </AlertDescription>
+  </Alert>
+
+  <div class="grid gap-3 sm:grid-cols-3">
+    <div class="rounded-md border p-3">
+      <div class="text-xs text-muted-foreground">
+        {{ t("admin.cloudflareTunnel.optimization.currentIp") }}
+      </div>
+      <code class="mt-1 block text-sm">{{
+        optimization?.selected?.ip || "-"
+      }}</code>
+    </div>
+    <div class="rounded-md border p-3">
+      <div class="text-xs text-muted-foreground">
+        {{ t("admin.cloudflareTunnel.optimization.nextScan") }}
+      </div>
+      <div class="mt-1 text-sm">
+        {{ presentation.formatDate(optimization?.schedule.nextFullScanAt) }}
+      </div>
+    </div>
+    <div class="rounded-md border p-3">
+      <div class="text-xs text-muted-foreground">
+        {{ t("admin.cloudflareTunnel.optimization.optimizedDomains") }}
+      </div>
+      <div class="mt-1 text-sm font-medium">
+        {{ presentation.optimizedDomainCount }} /
+        {{ presentation.optimizationManagedDomainCount }}
+      </div>
+    </div>
+  </div>
+
+  <div class="grid gap-2 rounded-md border bg-muted/20 p-3 sm:max-w-xl">
+    <Label for="optimization-preferred-ip">
+      {{ t("admin.cloudflareTunnel.optimization.preferredIpLabel") }}
+    </Label>
+    <Input
+      id="optimization-preferred-ip"
+      v-model="preferredCandidateIp"
+      aria-describedby="optimization-preferred-ip-description"
+      inputmode="decimal"
+      autocomplete="off"
+      :disabled="isScanningOptimization"
+      :placeholder="
+        t('admin.cloudflareTunnel.optimization.preferredIpPlaceholder')
+      "
+    />
+    <div
+      id="optimization-preferred-ip-description"
+      class="text-xs text-muted-foreground"
+    >
+      {{ t("admin.cloudflareTunnel.optimization.preferredIpDescription") }}
+    </div>
+  </div>
+
+  <div class="flex flex-wrap gap-2">
+    <Button
+      :disabled="
+        !optimizationApplied ||
+        !optimizationScanReady ||
+        isScanningOptimization
+      "
+      @click="startOptimizationScan"
+    >
+      <RefreshCw
+        class="mr-2 size-4"
+        :class="{ 'animate-spin': isScanningOptimization }"
+      />
+      {{ t("admin.cloudflareTunnel.optimization.startScan") }}
+    </Button>
+    <Button
+      v-if="isScanningOptimization"
+      variant="outline"
+      @click="cancelOptimizationScan"
+    >
+      {{ t("admin.cloudflareTunnel.optimization.cancelScan") }}
+    </Button>
+    <Button
+      variant="outline"
+      :disabled="
+        !optimizationApplied ||
+        isFallingBackOptimization ||
+        optimization?.fallbackActive
+      "
+      @click="fallbackOptimization"
+    >
+      {{ t("admin.cloudflareTunnel.optimization.fallback") }}
+    </Button>
+  </div>
+
+  <Alert
+    v-if="
+      optimizationApplied &&
+      !optimizationScanReady &&
+      !presentation.capabilityRequiresCloudflareSaas
+    "
+    class="items-start"
+  >
+    <LoaderCircle
+      v-if="presentation.capabilityValidationPending"
+      class="size-4 animate-spin"
+    />
+    <TriangleAlert v-else class="size-4" />
+    <AlertTitle>
+      {{
+        presentation.optimizationResourceConflict
+          ? t("admin.cloudflareTunnel.optimization.resourceConflictTitle")
+          : presentation.capabilityValidationPending
+            ? t(
+                "admin.cloudflareTunnel.optimization.cloudflareSaasValidationPendingTitle",
+              )
+            : t("admin.cloudflareTunnel.optimization.notReadyTitle")
+      }}
+    </AlertTitle>
+    <AlertDescription>
+      {{
+        presentation.optimizationResourceConflict
+          ? t(
+              "admin.cloudflareTunnel.optimization.resourceConflictDescription",
+            )
+          : presentation.capabilityValidationPending
+            ? t(
+                "admin.cloudflareTunnel.optimization.cloudflareSaasValidationPendingDescription",
+              )
+            : t("admin.cloudflareTunnel.optimization.notReadyDescription")
+      }}
+    </AlertDescription>
+  </Alert>
+</template>

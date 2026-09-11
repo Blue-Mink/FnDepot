@@ -1,1 +1,177 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCm1rZGlyIC1wICIke1JPT1RfRElSfS9kaXN0IgpXT1JLX0RJUj0iJChta3RlbXAgLWQgIiR7Uk9PVF9ESVJ9L2Rpc3QvcmVsZWFzZS1idWlsZC1oZWxwZXItdGVzdC5YWFhYWFgiKSIKRkFLRV9CSU49IiR7V09SS19ESVJ9L2JpbiIKR09fRklYVFVSRT0iJHtXT1JLX0RJUn0vZ28tcmVwb3NpdG9yeSIKR09fT1VUUFVUPSIke1dPUktfRElSfS9nby1vdXRwdXQiClJVU1RfT1VUUFVUPSIke1dPUktfRElSfS9zZXJ2ZXItYWRtaW4tcnMtbGludXgtYW1kNjQiCgpjbGVhbnVwKCkgewogIHJtIC1yZiAiJHtXT1JLX0RJUn0iCn0KdHJhcCBjbGVhbnVwIEVYSVQKCmZhaWwoKSB7CiAgcHJpbnRmICdbdGVzdC1yZWxlYXNlLWJ1aWxkLWhlbHBlcnNdIEVSUk9SOiAlc1xuJyAiJCoiID4mMgogIGV4aXQgMQp9Cgphc3NlcnRfdmVuZG9yZWRfdnQxMDBfZnJlc2huZXNzX2d1YXJkKCkgewogIGxvY2FsIHNjcmlwdD0iJDEiCiAgbG9jYWwgZnVuY3Rpb25fYm9keQoKICBmdW5jdGlvbl9ib2R5PSIkKGF3ayAnCiAgICAvXnJ1c3RfYmFja2VuZF9pc19mcmVzaFwoXCkgXHsvIHsgY2FwdHVyZSA9IDEgfQogICAgY2FwdHVyZSB7IHByaW50IH0KICAgIGNhcHR1cmUgJiYgL159JC8geyBleGl0IH0KICAnICIke3NjcmlwdH0iKSIKICBbIC1uICIke2Z1bmN0aW9uX2JvZHl9IiBdIHx8IGZhaWwgIm1pc3NpbmcgcnVzdF9iYWNrZW5kX2lzX2ZyZXNoIGluICR7c2NyaXB0fSIKICBwcmludGYgJyVzXG4nICIke2Z1bmN0aW9uX2JvZHl9IiB8IGdyZXAgLUZxICciJHtST09UX0RJUn0vdGhpcmRfcGFydHkvdnQxMDAiJyB8fCBcCiAgICBmYWlsICJSdXN0IGZyZXNobmVzcyBjaGVjayBpZ25vcmVzIHZlbmRvcmVkIHZ0MTAwIHNvdXJjZXMgaW4gJHtzY3JpcHR9Igp9Cgpta2RpciAtcCAiJHtGQUtFX0JJTn0iICIke0dPX0ZJWFRVUkV9L3BrZy9ncnBjL3BiIgoKY2F0ID4gIiR7RkFLRV9CSU59L2dvIiA8PCdFT0YnCiMhL2Jpbi9iYXNoCnNldCAtZXVvIHBpcGVmYWlsCgpbICIkezE6LX0iID0gImJ1aWxkIiBdIHx8IGV4aXQgMApzaGlmdApvdXRwdXQ9IiIKd2hpbGUgWyAiJCMiIC1ndCAwIF07IGRvCiAgaWYgWyAiJDEiID0gIi1vIiBdOyB0aGVuCiAgICBvdXRwdXQ9IiQyIgogICAgYnJlYWsKICBmaQogIHNoaWZ0CmRvbmUKWyAtbiAiJHtvdXRwdXR9IiBdCmNwIC91c3IvYmluL3RydWUgIiR7b3V0cHV0fSIKRU9GCgpjYXQgPiAiJHtGQUtFX0JJTn0vZmlsZSIgPDwnRU9GJwojIS9iaW4vYmFzaApzZXQgLWV1byBwaXBlZmFpbAoKcGF0aD0iJHtAOiAtMX0iCmNhc2UgIiR7cGF0aH0iIGluCiAgKndpbmRvd3MtYW1kNjQuZXhlKQogICAgcHJpbnRmICdQRTMyKyBleGVjdXRhYmxlIChjb25zb2xlKSB4ODYtNjRcbicKICAgIDs7CiAgKmxpbnV4LWFybTY0KQogICAgcHJpbnRmICdFTEYgNjQtYml0IExTQiBleGVjdXRhYmxlLCBBUk0gYWFyY2g2NCwgc3RhdGljYWxseSBsaW5rZWQsIEdvIEJ1aWxkSUQ9dGVzdFxuJwogICAgOzsKICAqbGludXgtYXJtKQogICAgcHJpbnRmICdFTEYgMzItYml0IExTQiBleGVjdXRhYmxlLCBBUk0sIHN0YXRpY2FsbHkgbGlua2VkLCBHbyBCdWlsZElEPXRlc3RcbicKICAgIDs7CiAgKmxpbnV4LWFtZDY0KQogICAgcHJpbnRmICdFTEYgNjQtYml0IExTQiBleGVjdXRhYmxlLCB4ODYtNjQsIHN0YXRpY2FsbHkgbGlua2VkLCBHbyBCdWlsZElEPXRlc3RcbicKICAgIDs7CiAgKikKICAgIGV4aXQgMQogICAgOzsKZXNhYwpFT0YKCmNhdCA+ICIke0ZBS0VfQklOfS9yZWFkZWxmIiA8PCdFT0YnCiMhL2Jpbi9iYXNoCnNldCAtZXVvIHBpcGVmYWlsCgptb2RlPSIkMSIKcGF0aD0iJDIiCmNhc2UgIiR7bW9kZX0iIGluCiAgLWgpCiAgICBjYXNlICIke3BhdGh9IiBpbgogICAgICAqbGludXgtYXJtNjQpIHByaW50ZiAnICBNYWNoaW5lOiBBQXJjaDY0XG4nIDs7CiAgICAgICpsaW51eC1hcm0pIHByaW50ZiAnICBNYWNoaW5lOiBBUk1cbicgOzsKICAgICAgKmxpbnV4LWFtZDY0KSBwcmludGYgJyAgTWFjaGluZTogQWR2YW5jZWQgTWljcm8gRGV2aWNlcyBYODYtNjRcbicgOzsKICAgICAgKikgZXhpdCAxIDs7CiAgICBlc2FjCiAgICA7OwogIC1kKQogICAgcHJpbnRmICdUaGVyZSBpcyBubyBkeW5hbWljIHNlY3Rpb24gaW4gdGhpcyBmaWxlLlxuJwogICAgOzsKICAtLXZlcnNpb24taW5mbykKICAgIDoKICAgIDs7CiAgKikKICAgIGV4aXQgMQogICAgOzsKZXNhYwpFT0YKCmNhdCA+ICIke0ZBS0VfQklOfS9kb2NrZXIiIDw8J0VPRicKIyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKCmNvbnRhaW5lcl9vdXRwdXQ9IiIKd2hpbGUgWyAiJCMiIC1ndCAwIF07IGRvCiAgaWYgWyAiJDEiID0gIi1lIiBdICYmIFsgIiQjIiAtZ2UgMiBdOyB0aGVuCiAgICBjYXNlICIkMiIgaW4KICAgICAgRk5fS05PQ0tfUlVTVF9PVVQ9KikgY29udGFpbmVyX291dHB1dD0iJHsyI0ZOX0tOT0NLX1JVU1RfT1VUPX0iIDs7CiAgICBlc2FjCiAgICBzaGlmdCAyCiAgICBjb250aW51ZQogIGZpCiAgc2hpZnQKZG9uZQpbIC1uICIke2NvbnRhaW5lcl9vdXRwdXR9IiBdCmhvc3Rfb3V0cHV0PSIke0ZOX1RFU1RfUk9PVF9ESVJ9LyR7Y29udGFpbmVyX291dHB1dCMvd29ya3NwYWNlL30iCm1rZGlyIC1wICIkKGRpcm5hbWUgIiR7aG9zdF9vdXRwdXR9IikiCmNwIC91c3IvYmluL3RydWUgIiR7aG9zdF9vdXRwdXR9IgovYmluL2NobW9kIDc1NSAiJHtob3N0X291dHB1dH0iCkVPRgoKY2F0ID4gIiR7RkFLRV9CSU59L2NobW9kIiA8PCdFT0YnCiMhL2Jpbi9iYXNoCnByaW50ZiAndW5leHBlY3RlZCBob3N0IGNobW9kOiAlc1xuJyAiJCoiID4mMgpleGl0IDk5CkVPRgoKL2Jpbi9jaG1vZCA3NTUgXAogICIke0ZBS0VfQklOfS9nbyIgXAogICIke0ZBS0VfQklOfS9maWxlIiBcCiAgIiR7RkFLRV9CSU59L3JlYWRlbGYiIFwKICAiJHtGQUtFX0JJTn0vZG9ja2VyIiBcCiAgIiR7RkFLRV9CSU59L2NobW9kIgoKZ2l0IC1DICIke0dPX0ZJWFRVUkV9IiBpbml0IC1xCmdpdCAtQyAiJHtHT19GSVhUVVJFfSIgY29uZmlnIHVzZXIuZW1haWwgdGVzdEBleGFtcGxlLmludmFsaWQKZ2l0IC1DICIke0dPX0ZJWFRVUkV9IiBjb25maWcgdXNlci5uYW1lICJSZWxlYXNlIFRlc3QiCnByaW50ZiAnbW9kdWxlIGdvLXJlYXV0aC1wcm94eVxuXG5nbyAxLjIyXG4nID4gIiR7R09fRklYVFVSRX0vZ28ubW9kIgpDT05UUk9MX0FQSV9WRVJTSU9OPSIkKGJhc2ggIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvY29udHJvbC1hcGktdmVyc2lvbi5zaCIpIgpwcmludGYgJ3BhY2thZ2UgcGJcblxudHlwZSBDb250cm9sQXBpVmVyc2lvbiBpbnQzMlxuXG5jb25zdCAoXG5cdENvbnRyb2xBcGlWZXJzaW9uX0NPTlRST0xfQVBJX1ZFUlNJT05fQ1VSUkVOVCBDb250cm9sQXBpVmVyc2lvbiA9ICVzXG4pXG4nIFwKICAiJHtDT05UUk9MX0FQSV9WRVJTSU9OfSIgPiAiJHtHT19GSVhUVVJFfS9wa2cvZ3JwYy9wYi9nYXRld2F5LnBiLmdvIgpnaXQgLUMgIiR7R09fRklYVFVSRX0iIGFkZCBnby5tb2QgcGtnL2dycGMvcGIvZ2F0ZXdheS5wYi5nbwpnaXQgLUMgIiR7R09fRklYVFVSRX0iIGNvbW1pdCAtcW0gZml4dHVyZQpHT19DT01NSVQ9IiQoZ2l0IC1DICIke0dPX0ZJWFRVUkV9IiByZXYtcGFyc2UgSEVBRCkiCgpQQVRIPSIke0ZBS0VfQklOfToke1BBVEh9IiBcCkZOX0tOT0NLX0dPX1NPVVJDRV9DT01NSVQ9IiR7R09fQ09NTUlUfSIgXApGTl9LTk9DS19HT19TS0lQX1RFU1RTPTEgXAogIGJhc2ggIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvYnVpbGQtZ28tcmVsZWFzZS5zaCIgIiR7R09fRklYVFVSRX0iICIke0dPX09VVFBVVH0iID4vZGV2L251bGwKCmZvciBuYW1lIGluIFwKICBnby1yZWF1dGgtcHJveHktbGludXgtYW1kNjQgXAogIGdvLXJlYXV0aC1wcm94eS1saW51eC1hcm02NCBcCiAgZ28tcmVhdXRoLXByb3h5LWxpbnV4LWFybSBcCiAgZ28tcmVhdXRoLXByb3h5LXdpbmRvd3MtYW1kNjQuZXhlCmRvCiAgWyAteCAiJHtHT19PVVRQVVR9LyR7bmFtZX0iIF0gfHwgZmFpbCAibWlzc2luZyBleGVjdXRhYmxlIGZpeHR1cmUgb3V0cHV0OiAke25hbWV9Igpkb25lCgpQQVRIPSIke0ZBS0VfQklOfToke1BBVEh9IiBcCkZOX1RFU1RfUk9PVF9ESVI9IiR7Uk9PVF9ESVJ9IiBcCkNJPXRydWUgXAogIGJhc2ggIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvYnVpbGQtcnVzdC1iYWNrZW5kLnNoIiBtdXNsIGFtZDY0ICIke1JVU1RfT1VUUFVUfSIgPi9kZXYvbnVsbAoKWyAteCAiJHtSVVNUX09VVFBVVH0iIF0gfHwgZmFpbCAibXVzbCBoZWxwZXIgZGlkIG5vdCBwcmVzZXJ2ZSBleGVjdXRhYmxlIG1vZGUiCgphc3NlcnRfdmVuZG9yZWRfdnQxMDBfZnJlc2huZXNzX2d1YXJkICIke1JPT1RfRElSfS9zY3JpcHRzL2ZuLWtub2NrLXByZXBhcmUtYXJ0aWZhY3RzLnNoIgphc3NlcnRfdmVuZG9yZWRfdnQxMDBfZnJlc2huZXNzX2d1YXJkICIke1JPT1RfRElSfS9zY3JpcHRzL2ZuLWtub2NrLWRvY2tlci5zaCIKCnByaW50ZiAnW3Rlc3QtcmVsZWFzZS1idWlsZC1oZWxwZXJzXSBhbGwgYnVpbGQgaGVscGVyIHRlc3RzIHBhc3NlZFxuJwo=
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+mkdir -p "${ROOT_DIR}/dist"
+WORK_DIR="$(mktemp -d "${ROOT_DIR}/dist/release-build-helper-test.XXXXXX")"
+FAKE_BIN="${WORK_DIR}/bin"
+GO_FIXTURE="${WORK_DIR}/go-repository"
+GO_OUTPUT="${WORK_DIR}/go-output"
+RUST_OUTPUT="${WORK_DIR}/server-admin-rs-linux-amd64"
+
+cleanup() {
+  rm -rf "${WORK_DIR}"
+}
+trap cleanup EXIT
+
+fail() {
+  printf '[test-release-build-helpers] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+assert_vendored_vt100_freshness_guard() {
+  local script="$1"
+  local function_body
+
+  function_body="$(awk '
+    /^rust_backend_is_fresh\(\) \{/ { capture = 1 }
+    capture { print }
+    capture && /^}$/ { exit }
+  ' "${script}")"
+  [ -n "${function_body}" ] || fail "missing rust_backend_is_fresh in ${script}"
+  printf '%s\n' "${function_body}" | grep -Fq '"${ROOT_DIR}/third_party/vt100"' || \
+    fail "Rust freshness check ignores vendored vt100 sources in ${script}"
+}
+
+mkdir -p "${FAKE_BIN}" "${GO_FIXTURE}/pkg/grpc/pb"
+
+cat > "${FAKE_BIN}/go" <<'EOF'
+#!/bin/bash
+set -euo pipefail
+
+[ "${1:-}" = "build" ] || exit 0
+shift
+output=""
+while [ "$#" -gt 0 ]; do
+  if [ "$1" = "-o" ]; then
+    output="$2"
+    break
+  fi
+  shift
+done
+[ -n "${output}" ]
+cp /usr/bin/true "${output}"
+EOF
+
+cat > "${FAKE_BIN}/file" <<'EOF'
+#!/bin/bash
+set -euo pipefail
+
+path="${@: -1}"
+case "${path}" in
+  *windows-amd64.exe)
+    printf 'PE32+ executable (console) x86-64\n'
+    ;;
+  *linux-arm64)
+    printf 'ELF 64-bit LSB executable, ARM aarch64, statically linked, Go BuildID=test\n'
+    ;;
+  *linux-arm)
+    printf 'ELF 32-bit LSB executable, ARM, statically linked, Go BuildID=test\n'
+    ;;
+  *linux-amd64)
+    printf 'ELF 64-bit LSB executable, x86-64, statically linked, Go BuildID=test\n'
+    ;;
+  *)
+    exit 1
+    ;;
+esac
+EOF
+
+cat > "${FAKE_BIN}/readelf" <<'EOF'
+#!/bin/bash
+set -euo pipefail
+
+mode="$1"
+path="$2"
+case "${mode}" in
+  -h)
+    case "${path}" in
+      *linux-arm64) printf '  Machine: AArch64\n' ;;
+      *linux-arm) printf '  Machine: ARM\n' ;;
+      *linux-amd64) printf '  Machine: Advanced Micro Devices X86-64\n' ;;
+      *) exit 1 ;;
+    esac
+    ;;
+  -d)
+    printf 'There is no dynamic section in this file.\n'
+    ;;
+  --version-info)
+    :
+    ;;
+  *)
+    exit 1
+    ;;
+esac
+EOF
+
+cat > "${FAKE_BIN}/docker" <<'EOF'
+#!/bin/bash
+set -euo pipefail
+
+container_output=""
+while [ "$#" -gt 0 ]; do
+  if [ "$1" = "-e" ] && [ "$#" -ge 2 ]; then
+    case "$2" in
+      FN_KNOCK_RUST_OUT=*) container_output="${2#FN_KNOCK_RUST_OUT=}" ;;
+    esac
+    shift 2
+    continue
+  fi
+  shift
+done
+[ -n "${container_output}" ]
+host_output="${FN_TEST_ROOT_DIR}/${container_output#/workspace/}"
+mkdir -p "$(dirname "${host_output}")"
+cp /usr/bin/true "${host_output}"
+/bin/chmod 755 "${host_output}"
+EOF
+
+cat > "${FAKE_BIN}/chmod" <<'EOF'
+#!/bin/bash
+printf 'unexpected host chmod: %s\n' "$*" >&2
+exit 99
+EOF
+
+/bin/chmod 755 \
+  "${FAKE_BIN}/go" \
+  "${FAKE_BIN}/file" \
+  "${FAKE_BIN}/readelf" \
+  "${FAKE_BIN}/docker" \
+  "${FAKE_BIN}/chmod"
+
+git -C "${GO_FIXTURE}" init -q
+git -C "${GO_FIXTURE}" config user.email test@example.invalid
+git -C "${GO_FIXTURE}" config user.name "Release Test"
+printf 'module go-reauth-proxy\n\ngo 1.22\n' > "${GO_FIXTURE}/go.mod"
+CONTROL_API_VERSION="$(bash "${ROOT_DIR}/scripts/control-api-version.sh")"
+printf 'package pb\n\ntype ControlApiVersion int32\n\nconst (\n\tControlApiVersion_CONTROL_API_VERSION_CURRENT ControlApiVersion = %s\n)\n' \
+  "${CONTROL_API_VERSION}" > "${GO_FIXTURE}/pkg/grpc/pb/gateway.pb.go"
+git -C "${GO_FIXTURE}" add go.mod pkg/grpc/pb/gateway.pb.go
+git -C "${GO_FIXTURE}" commit -qm fixture
+GO_COMMIT="$(git -C "${GO_FIXTURE}" rev-parse HEAD)"
+
+PATH="${FAKE_BIN}:${PATH}" \
+FN_KNOCK_GO_SOURCE_COMMIT="${GO_COMMIT}" \
+FN_KNOCK_GO_SKIP_TESTS=1 \
+  bash "${ROOT_DIR}/scripts/build-go-release.sh" "${GO_FIXTURE}" "${GO_OUTPUT}" >/dev/null
+
+for name in \
+  go-reauth-proxy-linux-amd64 \
+  go-reauth-proxy-linux-arm64 \
+  go-reauth-proxy-linux-arm \
+  go-reauth-proxy-windows-amd64.exe
+do
+  [ -x "${GO_OUTPUT}/${name}" ] || fail "missing executable fixture output: ${name}"
+done
+
+PATH="${FAKE_BIN}:${PATH}" \
+FN_TEST_ROOT_DIR="${ROOT_DIR}" \
+CI=true \
+  bash "${ROOT_DIR}/scripts/build-rust-backend.sh" musl amd64 "${RUST_OUTPUT}" >/dev/null
+
+[ -x "${RUST_OUTPUT}" ] || fail "musl helper did not preserve executable mode"
+
+assert_vendored_vt100_freshness_guard "${ROOT_DIR}/scripts/fn-knock-prepare-artifacts.sh"
+assert_vendored_vt100_freshness_guard "${ROOT_DIR}/scripts/fn-knock-docker.sh"
+
+printf '[test-release-build-helpers] all build helper tests passed\n'

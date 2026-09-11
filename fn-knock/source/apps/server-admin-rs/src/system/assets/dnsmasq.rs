@@ -1,1 +1,562 @@
-dXNlIHN0ZDo6e2ZzLCBwYXRoOjpQYXRoLCBwcm9jZXNzOjpDb21tYW5kLCBzeW5jOjpNdXRleH07Cgp1c2Ugc2VyZGVfanNvbjo6e1ZhbHVlLCBqc29ufTsKCnVzZSBjcmF0ZTo6e2kxOG46OlRyYW5zbGF0b3IsIHRpbWVfdXRpbHN9OwoKdXNlIHN1cGVyOjp7CiAgICBETlNNQVNRX0lOU1RBTEwsIERuc21hc3FJbnN0YWxsU3RhdGUsIFNNQVJUX0NPTk5FQ1RfTE9DQUxfVFRMX1NFQ09ORFMsCiAgICBTTUFSVF9DT05ORUNUX01BTkFHRURfQ09ORl9QQVRILAogICAgcHJvY2Vzczo6cnVuX3Byb2Nlc3Nfc3VjY2VzcywKICAgIHRleHQ6OntkbnNtYXNxX3RleHQsIGRuc21hc3FfdGV4dF9wYXJhbXN9LAp9OwoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBFcSwgUGFydGlhbEVxKV0KcHViKHN1cGVyKSBlbnVtIERuc21hc3FTZXJ2aWNlS2luZCB7CiAgICBTeXN0ZW1kLAogICAgU3lzViwKfQoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBFcSwgUGFydGlhbEVxKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRG5zbWFzcVNlcnZpY2VDb21tYW5kIHsKICAgIHB1YihzdXBlcikgcHJvZ3JhbTogJidzdGF0aWMgc3RyLAogICAgcHViKHN1cGVyKSBhcmdzOiAmJ3N0YXRpYyBbJidzdGF0aWMgc3RyXSwKICAgIHB1YihzdXBlcikgZmFpbHVyZV9rZXk6ICYnc3RhdGljIHN0ciwKICAgIHB1YihzdXBlcikgY29udGludWVfYWZ0ZXJfZmFpbHVyZTogYm9vbCwKfQoKY29uc3QgU1lTVEVNRF9BQ1RJVkFURV9DT01NQU5EUzogJltEbnNtYXNxU2VydmljZUNvbW1hbmRdID0gJlsKICAgIERuc21hc3FTZXJ2aWNlQ29tbWFuZCB7CiAgICAgICAgcHJvZ3JhbTogInN5c3RlbWN0bCIsCiAgICAgICAgYXJnczogJlsiZW5hYmxlIiwgImRuc21hc3EiXSwKICAgICAgICBmYWlsdXJlX2tleTogImVuYWJsZVNlcnZpY2VGYWlsZWQiLAogICAgICAgIGNvbnRpbnVlX2FmdGVyX2ZhaWx1cmU6IGZhbHNlLAogICAgfSwKICAgIERuc21hc3FTZXJ2aWNlQ29tbWFuZCB7CiAgICAgICAgcHJvZ3JhbTogInN5c3RlbWN0bCIsCiAgICAgICAgYXJnczogJlsicmVzdGFydCIsICJkbnNtYXNxIl0sCiAgICAgICAgZmFpbHVyZV9rZXk6ICJyZXN0YXJ0RmFpbGVkIiwKICAgICAgICBjb250aW51ZV9hZnRlcl9mYWlsdXJlOiBmYWxzZSwKICAgIH0sCl07CmNvbnN0IFNZU1RFTURfREVBQ1RJVkFURV9DT01NQU5EUzogJltEbnNtYXNxU2VydmljZUNvbW1hbmRdID0gJltEbnNtYXNxU2VydmljZUNvbW1hbmQgewogICAgcHJvZ3JhbTogInN5c3RlbWN0bCIsCiAgICBhcmdzOiAmWyJkaXNhYmxlIiwgIi0tbm93IiwgImRuc21hc3EiXSwKICAgIGZhaWx1cmVfa2V5OiAiZGlzYWJsZVNlcnZpY2VGYWlsZWQiLAogICAgY29udGludWVfYWZ0ZXJfZmFpbHVyZTogZmFsc2UsCn1dOwpjb25zdCBTWVNWX0FDVElWQVRFX0NPTU1BTkRTOiAmW0Ruc21hc3FTZXJ2aWNlQ29tbWFuZF0gPSAmWwogICAgRG5zbWFzcVNlcnZpY2VDb21tYW5kIHsKICAgICAgICBwcm9ncmFtOiAidXBkYXRlLXJjLmQiLAogICAgICAgIGFyZ3M6ICZbImRuc21hc3EiLCAiZGVmYXVsdHMiXSwKICAgICAgICBmYWlsdXJlX2tleTogImVuYWJsZVNlcnZpY2VGYWlsZWQiLAogICAgICAgIGNvbnRpbnVlX2FmdGVyX2ZhaWx1cmU6IGZhbHNlLAogICAgfSwKICAgIERuc21hc3FTZXJ2aWNlQ29tbWFuZCB7CiAgICAgICAgcHJvZ3JhbTogInNlcnZpY2UiLAogICAgICAgIGFyZ3M6ICZbImRuc21hc3EiLCAicmVzdGFydCJdLAogICAgICAgIGZhaWx1cmVfa2V5OiAicmVzdGFydEZhaWxlZCIsCiAgICAgICAgY29udGludWVfYWZ0ZXJfZmFpbHVyZTogZmFsc2UsCiAgICB9LApdOwpjb25zdCBTWVNWX0RFQUNUSVZBVEVfQ09NTUFORFM6ICZbRG5zbWFzcVNlcnZpY2VDb21tYW5kXSA9ICZbCiAgICBEbnNtYXNxU2VydmljZUNvbW1hbmQgewogICAgICAgIHByb2dyYW06ICJzZXJ2aWNlIiwKICAgICAgICBhcmdzOiAmWyJkbnNtYXNxIiwgInN0b3AiXSwKICAgICAgICBmYWlsdXJlX2tleTogInN0b3BTZXJ2aWNlRmFpbGVkIiwKICAgICAgICBjb250aW51ZV9hZnRlcl9mYWlsdXJlOiB0cnVlLAogICAgfSwKICAgIERuc21hc3FTZXJ2aWNlQ29tbWFuZCB7CiAgICAgICAgcHJvZ3JhbTogInVwZGF0ZS1yYy5kIiwKICAgICAgICBhcmdzOiAmWyItZiIsICJkbnNtYXNxIiwgInJlbW92ZSJdLAogICAgICAgIGZhaWx1cmVfa2V5OiAiZGlzYWJsZVNlcnZpY2VGYWlsZWQiLAogICAgICAgIGNvbnRpbnVlX2FmdGVyX2ZhaWx1cmU6IGZhbHNlLAogICAgfSwKXTsKCnB1YihjcmF0ZSkgZm4gYnVpbGRfZG5zbWFzcV9zdGF0dXNfd2l0aF90cmFuc2xhdG9yKHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yKSAtPiBWYWx1ZSB7CiAgICBsZXQgY3VycmVudCA9IGRuc21hc3FfaW5zdGFsbF9zdGF0ZSgpOwogICAgbGV0IGV4ZWN1dGFibGUgPSBkZXRlY3RfZG5zbWFzcV9leGVjdXRhYmxlKCk7CiAgICBsZXQgcmF3X3NlcnZpY2VfYWN0aXZlID0gZG5zbWFzcV9zZXJ2aWNlX2FjdGl2ZSgpOwogICAgbGV0IHNlcnZpY2VfYWN0aXZlID0gaWYgZXhlY3V0YWJsZS5pc19ub25lKCkgJiYgY3VycmVudC5zdGF0dXMgIT0gImluc3RhbGxpbmciIHsKICAgICAgICBmYWxzZQogICAgfSBlbHNlIHsKICAgICAgICByYXdfc2VydmljZV9hY3RpdmUKICAgIH07CiAgICBsZXQgaW5pdGlhbGl6ZWQgPSBjdXJyZW50LnN0YXR1cyAhPSAiaW5zdGFsbGluZyIKICAgICAgICAmJiBleGVjdXRhYmxlCiAgICAgICAgICAgIC5hc19yZWYoKQogICAgICAgICAgICAuaXNfc29tZV9hbmQofChwYXRoLCBfKXwgZG5zbWFzcV9jYW5faW5pdGlhbGl6ZShwYXRoKSk7CiAgICBsZXQgaGFzX3NlcnZpY2VfZGVmaW5pdGlvbiA9CiAgICAgICAgY3VycmVudC5zdGF0dXMgIT0gImluc3RhbGxpbmciICYmIGV4ZWN1dGFibGUuaXNfc29tZSgpICYmIGhhc19zZXJ2aWNlX2RlZmluaXRpb24oKTsKICAgIGxldCB2ZXJzaW9uID0gZXhlY3V0YWJsZS5hc19yZWYoKS5tYXAofChfLCB2ZXJzaW9uKXwgdmVyc2lvbi5hc19zdHIoKSk7CiAgICBsZXQgaW5zdGFsbF9zdGF0ZSA9IHJlc29sdmVfZG5zbWFzcV9pbnN0YWxsX3N0YXRlKAogICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgdmVyc2lvbiwKICAgICAgICBzZXJ2aWNlX2FjdGl2ZSwKICAgICAgICBpbml0aWFsaXplZCwKICAgICAgICBoYXNfc2VydmljZV9kZWZpbml0aW9uLAogICAgICAgIGN1cnJlbnQsCiAgICApOwogICAganNvbiEoewogICAgICAgICJpbnN0YWxsZWQiOiBleGVjdXRhYmxlLmlzX3NvbWUoKSwKICAgICAgICAic2VydmljZV9hY3RpdmUiOiBzZXJ2aWNlX2FjdGl2ZSwKICAgICAgICAiaW5pdGlhbGl6ZWQiOiBpbml0aWFsaXplZCwKICAgICAgICAidmVyc2lvbiI6IGV4ZWN1dGFibGUubWFwKHwoXywgdmVyc2lvbil8IHZlcnNpb24pLnVud3JhcF9vcl9kZWZhdWx0KCksCiAgICAgICAgImluc3RhbGxfc3RhdGUiOiBkbnNtYXNxX2luc3RhbGxfc3RhdGVfdG9fanNvbigmaW5zdGFsbF9zdGF0ZSwgdHJhbnNsYXRvcikKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gZG5zbWFzcV9zdGF0ZShzdGF0dXM6ICZzdHIsIHByb2dyZXNzOiBpNjQsIG1lc3NhZ2U6IFN0cmluZykgLT4gRG5zbWFzcUluc3RhbGxTdGF0ZSB7CiAgICBEbnNtYXNxSW5zdGFsbFN0YXRlIHsKICAgICAgICBzdGF0dXM6IHN0YXR1cy50b19zdHJpbmcoKSwKICAgICAgICBwcm9ncmVzcywKICAgICAgICBtZXNzYWdlLAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGRuc21hc3FfcmVhZHlfbWVzc2FnZSh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwgdmVyc2lvbjogJnN0cikgLT4gU3RyaW5nIHsKICAgIGlmIHZlcnNpb24udHJpbSgpLmlzX2VtcHR5KCkgewogICAgICAgIGRuc21hc3FfdGV4dCh0cmFuc2xhdG9yLCAicmVhZHkiKQogICAgfSBlbHNlIHsKICAgICAgICBkbnNtYXNxX3RleHRfcGFyYW1zKAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAicmVhZHlXaXRoVmVyc2lvbiIsCiAgICAgICAgICAgICZbKCJ2ZXJzaW9uIiwgdmVyc2lvbi50b19zdHJpbmcoKSldLAogICAgICAgICkKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBkbnNtYXNxX2RldGVjdGVkX21lc3NhZ2UoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIHZlcnNpb246ICZzdHIsCiAgICBoYXNfc2VydmljZV9kZWZpbml0aW9uOiBib29sLAopIC0+IFN0cmluZyB7CiAgICBpZiAhaGFzX3NlcnZpY2VfZGVmaW5pdGlvbiB7CiAgICAgICAgZG5zbWFzcV90ZXh0KHRyYW5zbGF0b3IsICJtaXNzaW5nU2VydmljZUF1dG9Db21wbGV0ZSIpCiAgICB9IGVsc2UgaWYgdmVyc2lvbi50cmltKCkuaXNfZW1wdHkoKSB7CiAgICAgICAgZG5zbWFzcV90ZXh0KHRyYW5zbGF0b3IsICJkZXRlY3RlZCIpCiAgICB9IGVsc2UgewogICAgICAgIGRuc21hc3FfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJkZXRlY3RlZFdpdGhWZXJzaW9uIiwKICAgICAgICAgICAgJlsoInZlcnNpb24iLCB2ZXJzaW9uLnRvX3N0cmluZygpKV0sCiAgICAgICAgKQogICAgfQp9CgpwdWIoc3VwZXIpIGZuIHJlc29sdmVfZG5zbWFzcV9pbnN0YWxsX3N0YXRlKAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICBleGVjdXRhYmxlX3ZlcnNpb246IE9wdGlvbjwmc3RyPiwKICAgIHNlcnZpY2VfYWN0aXZlOiBib29sLAogICAgaW5pdGlhbGl6ZWQ6IGJvb2wsCiAgICBoYXNfc2VydmljZV9kZWZpbml0aW9uOiBib29sLAogICAgY3VycmVudDogRG5zbWFzcUluc3RhbGxTdGF0ZSwKKSAtPiBEbnNtYXNxSW5zdGFsbFN0YXRlIHsKICAgIGlmIGN1cnJlbnQuc3RhdHVzID09ICJpbnN0YWxsaW5nIiB7CiAgICAgICAgcmV0dXJuIGN1cnJlbnQ7CiAgICB9CiAgICBsZXQgU29tZSh2ZXJzaW9uKSA9IGV4ZWN1dGFibGVfdmVyc2lvbiBlbHNlIHsKICAgICAgICByZXR1cm4gaWYgY3VycmVudC5zdGF0dXMgPT0gImVycm9yIiB7CiAgICAgICAgICAgIGN1cnJlbnQKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBkbnNtYXNxX3N0YXRlKAogICAgICAgICAgICAgICAgInVuaW5zdGFsbGVkIiwKICAgICAgICAgICAgICAgIDAsCiAgICAgICAgICAgICAgICBkbnNtYXNxX3RleHQodHJhbnNsYXRvciwgIm5vdERldGVjdGVkSW5zdGFsbEZpcnN0IiksCiAgICAgICAgICAgICkKICAgICAgICB9OwogICAgfTsKICAgIGlmIHNlcnZpY2VfYWN0aXZlICYmIGluaXRpYWxpemVkIHsKICAgICAgICByZXR1cm4gZG5zbWFzcV9zdGF0ZSgiaW5zdGFsbGVkIiwgMTAwLCBkbnNtYXNxX3JlYWR5X21lc3NhZ2UodHJhbnNsYXRvciwgdmVyc2lvbikpOwogICAgfQogICAgaWYgY3VycmVudC5zdGF0dXMgPT0gImVycm9yIiB7CiAgICAgICAgcmV0dXJuIGN1cnJlbnQ7CiAgICB9CiAgICBkbnNtYXNxX3N0YXRlKAogICAgICAgICJpbnN0YWxsZWQiLAogICAgICAgIDEwMCwKICAgICAgICBkbnNtYXNxX2RldGVjdGVkX21lc3NhZ2UodHJhbnNsYXRvciwgdmVyc2lvbiwgaGFzX3NlcnZpY2VfZGVmaW5pdGlvbiksCiAgICApCn0KCnB1YihzdXBlcikgZm4gZGV0ZWN0X2Ruc21hc3FfZXhlY3V0YWJsZSgpIC0+IE9wdGlvbjwoU3RyaW5nLCBTdHJpbmcpPiB7CiAgICBmb3IgY2FuZGlkYXRlIGluIFsiZG5zbWFzcSIsICIvdXNyL3NiaW4vZG5zbWFzcSIsICIvdXNyL2Jpbi9kbnNtYXNxIl0gewogICAgICAgIGxldCBPayhvdXRwdXQpID0gQ29tbWFuZDo6bmV3KGNhbmRpZGF0ZSkuYXJnKCItLXZlcnNpb24iKS5vdXRwdXQoKSBlbHNlIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfTsKICAgICAgICBpZiAhb3V0cHV0LnN0YXR1cy5zdWNjZXNzKCkgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgbGV0IHN0ZG91dCA9IFN0cmluZzo6ZnJvbV91dGY4X2xvc3N5KCZvdXRwdXQuc3Rkb3V0KTsKICAgICAgICBsZXQgdmVyc2lvbiA9IHN0ZG91dAogICAgICAgICAgICAubGluZXMoKQogICAgICAgICAgICAubmV4dCgpCiAgICAgICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgICAgIC51bndyYXBfb3IoImRuc21hc3EiKQogICAgICAgICAgICAudG9fc3RyaW5nKCk7CiAgICAgICAgcmV0dXJuIFNvbWUoKGNhbmRpZGF0ZS50b19zdHJpbmcoKSwgdmVyc2lvbikpOwogICAgfQogICAgTm9uZQp9CgpwdWIoc3VwZXIpIGZuIGRuc21hc3Ffc2VydmljZV9hY3RpdmUoKSAtPiBib29sIHsKICAgIG1hdGNoIGRuc21hc3Ffc2VydmljZV9raW5kKCkgewogICAgICAgIFNvbWUoRG5zbWFzcVNlcnZpY2VLaW5kOjpTeXN0ZW1kKSA9PiB7CiAgICAgICAgICAgIHJ1bl9wcm9jZXNzX3N1Y2Nlc3MoInN5c3RlbWN0bCIsICZbImlzLWFjdGl2ZSIsICItLXF1aWV0IiwgImRuc21hc3EiXSkuaXNfb2soKQogICAgICAgIH0KICAgICAgICBTb21lKERuc21hc3FTZXJ2aWNlS2luZDo6U3lzVikgPT4gewogICAgICAgICAgICBydW5fcHJvY2Vzc19zdWNjZXNzKCJzZXJ2aWNlIiwgJlsiZG5zbWFzcSIsICJzdGF0dXMiXSkuaXNfb2soKQogICAgICAgIH0KICAgICAgICBOb25lID0+IGZhbHNlLAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGRuc21hc3FfY2FuX2luaXRpYWxpemUoZXhlY3V0YWJsZV9wYXRoOiAmc3RyKSAtPiBib29sIHsKICAgIGlmIGZzOjpjcmVhdGVfZGlyX2FsbCgKICAgICAgICBQYXRoOjpuZXcoU01BUlRfQ09OTkVDVF9NQU5BR0VEX0NPTkZfUEFUSCkKICAgICAgICAgICAgLnBhcmVudCgpCiAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCBQYXRoOjpuZXcoIi9ldGMvZG5zbWFzcS5kIikpLAogICAgKQogICAgLmlzX2VycigpCiAgICB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogICAgbGV0IHRlc3RfcGF0aCA9IFBhdGg6Om5ldyhTTUFSVF9DT05ORUNUX01BTkFHRURfQ09ORl9QQVRIKQogICAgICAgIC5wYXJlbnQoKQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCBQYXRoOjpuZXcoIi9ldGMvZG5zbWFzcS5kIikpCiAgICAgICAgLmpvaW4oZm9ybWF0ISgiLmZuLWtub2NrLXdyaXRlLXRlc3Qte30iLCB0aW1lX3V0aWxzOjpub3dfbXMoKSkpOwogICAgaWYgZnM6OndyaXRlKCZ0ZXN0X3BhdGgsICIiKS5pc19lcnIoKSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogICAgbGV0IF8gPSBmczo6cmVtb3ZlX2ZpbGUodGVzdF9wYXRoKTsKICAgIHZhbGlkYXRlX2Ruc21hc3FfY29uZmlnKGV4ZWN1dGFibGVfcGF0aCwgJmRuc21hc3FfYm9vdHN0cmFwX2NvbmZpZygpKS5pc19vaygpCn0KCnB1YihzdXBlcikgZm4gaW5zdGFsbF9kbnNtYXNxX2JhY2tncm91bmQoYWxyZWFkeV9pbnN0YWxsZWQ6IGJvb2wsIHRyYW5zbGF0b3I6IFRyYW5zbGF0b3IpIHsKICAgIGxldCByZXN1bHQgPSBpZiBhbHJlYWR5X2luc3RhbGxlZCB7CiAgICAgICAgaW5pdGlhbGl6ZV9kbnNtYXNxKCZ0cmFuc2xhdG9yKQogICAgfSBlbHNlIHsKICAgICAgICBpbnN0YWxsX2Ruc21hc3FfcGFja2FnZSgmdHJhbnNsYXRvcikKICAgIH07CiAgICBpZiBsZXQgRXJyKGVycm9yKSA9IHJlc3VsdCB7CiAgICAgICAgc2V0X2Ruc21hc3FfaW5zdGFsbF9zdGF0ZSgiZXJyb3IiLCAwLCBlcnJvcik7CiAgICB9Cn0KCnB1YihzdXBlcikgZm4gaW5zdGFsbF9kbnNtYXNxX3BhY2thZ2UodHJhbnNsYXRvcjogJlRyYW5zbGF0b3IpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBzZXRfZG5zbWFzcV9pbnN0YWxsX3N0YXRlKCJpbnN0YWxsaW5nIiwgMTUsIGRuc21hc3FfdGV4dCh0cmFuc2xhdG9yLCAicmVmcmVzaGluZ0FwdCIpKTsKICAgIHJ1bl9kbnNtYXNxX3Byb2Nlc3Nfc3VjY2VzcygKICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICIvdXNyL2Jpbi9hcHQtZ2V0IiwKICAgICAgICAmWyJ1cGRhdGUiXSwKICAgICAgICAiYXB0VXBkYXRlRmFpbGVkIiwKICAgICk/OwoKICAgIHNldF9kbnNtYXNxX2luc3RhbGxfc3RhdGUoImluc3RhbGxpbmciLCA1NSwgZG5zbWFzcV90ZXh0KHRyYW5zbGF0b3IsICJpbnN0YWxsaW5nIikpOwogICAgcnVuX2Ruc21hc3FfcHJvY2Vzc19zdWNjZXNzKAogICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgIi91c3IvYmluL2FwdC1nZXQiLAogICAgICAgICZbImluc3RhbGwiLCAiLXkiLCAiZG5zbWFzcSJdLAogICAgICAgICJhcHRJbnN0YWxsRmFpbGVkIiwKICAgICk/OwoKICAgIGluaXRpYWxpemVfZG5zbWFzcSh0cmFuc2xhdG9yKQp9CgpwdWIoc3VwZXIpIGZuIGluaXRpYWxpemVfZG5zbWFzcSh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvcikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIHNldF9kbnNtYXNxX2luc3RhbGxfc3RhdGUoCiAgICAgICAgImluc3RhbGxpbmciLAogICAgICAgIDIwLAogICAgICAgIGRuc21hc3FfdGV4dCh0cmFuc2xhdG9yLCAiY2hlY2tpbmdFbnZpcm9ubWVudCIpLAogICAgKTsKICAgIGxldCBleGVjdXRhYmxlID0gZGV0ZWN0X2Ruc21hc3FfZXhlY3V0YWJsZSgpCiAgICAgICAgLm9rX29yX2Vsc2UofHwgZG5zbWFzcV90ZXh0KHRyYW5zbGF0b3IsICJub3REZXRlY3RlZEluc3RhbGxGaXJzdCIpKT87CgogICAgc2V0X2Ruc21hc3FfaW5zdGFsbF9zdGF0ZSgKICAgICAgICAiaW5zdGFsbGluZyIsCiAgICAgICAgNDUsCiAgICAgICAgZG5zbWFzcV90ZXh0KHRyYW5zbGF0b3IsICJ2YWxpZGF0aW5nQ29uZmlnIiksCiAgICApOwogICAgZW5zdXJlX2Ruc21hc3Ffc2VydmljZV9wYWNrYWdlX2luc3RhbGxlZCh0cmFuc2xhdG9yKT87CiAgICBmczo6Y3JlYXRlX2Rpcl9hbGwoCiAgICAgICAgUGF0aDo6bmV3KFNNQVJUX0NPTk5FQ1RfTUFOQUdFRF9DT05GX1BBVEgpCiAgICAgICAgICAgIC5wYXJlbnQoKQogICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofHwgUGF0aDo6bmV3KCIvZXRjL2Ruc21hc3EuZCIpKSwKICAgICkKICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIHZhbGlkYXRlX2Ruc21hc3FfY29uZmlnKCZleGVjdXRhYmxlLjAsICZkbnNtYXNxX2Jvb3RzdHJhcF9jb25maWcoKSkKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IG5vcm1hbGl6ZV9kbnNtYXNxX2Vycm9yKHRyYW5zbGF0b3IsICZlcnJvciwgImNvbmZpZ1Rlc3RGYWlsZWQiKSk/OwoKICAgIHNldF9kbnNtYXNxX2luc3RhbGxfc3RhdGUoCiAgICAgICAgImluc3RhbGxpbmciLAogICAgICAgIDcyLAogICAgICAgIGRuc21hc3FfdGV4dCh0cmFuc2xhdG9yLCAiZW5hYmxpbmdTZXJ2aWNlIiksCiAgICApOwogICAgYWN0aXZhdGVfZG5zbWFzcV9zZXJ2aWNlKHRyYW5zbGF0b3IpPzsKCiAgICBzZXRfZG5zbWFzcV9pbnN0YWxsX3N0YXRlKAogICAgICAgICJpbnN0YWxsZWQiLAogICAgICAgIDEwMCwKICAgICAgICBkbnNtYXNxX3JlYWR5X21lc3NhZ2UodHJhbnNsYXRvciwgJmV4ZWN1dGFibGUuMSksCiAgICApOwogICAgT2soKCkpCn0KCnB1YihzdXBlcikgZm4gZW5zdXJlX2Ruc21hc3Ffc2VydmljZV9wYWNrYWdlX2luc3RhbGxlZCgKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBpZiBoYXNfc2VydmljZV9kZWZpbml0aW9uKCkgewogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CiAgICBpZiAhUGF0aDo6bmV3KCIvdXNyL2Jpbi9hcHQtZ2V0IikuZXhpc3RzKCkgewogICAgICAgIHJldHVybiBFcnIoZG5zbWFzcV90ZXh0KHRyYW5zbGF0b3IsICJzZXJ2aWNlUGFja2FnZU1pc3NpbmciKSk7CiAgICB9CiAgICBzZXRfZG5zbWFzcV9pbnN0YWxsX3N0YXRlKAogICAgICAgICJpbnN0YWxsaW5nIiwKICAgICAgICA1OCwKICAgICAgICBkbnNtYXNxX3RleHQodHJhbnNsYXRvciwgImNvbXBsZXRpbmdTZXJ2aWNlIiksCiAgICApOwogICAgcnVuX2Ruc21hc3FfcHJvY2Vzc19zdWNjZXNzKAogICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgIi91c3IvYmluL2FwdC1nZXQiLAogICAgICAgICZbImluc3RhbGwiLCAiLXkiLCAiZG5zbWFzcSJdLAogICAgICAgICJjb21wbGV0ZVNlcnZpY2VGYWlsZWQiLAogICAgKT87CiAgICBpZiAhaGFzX3NlcnZpY2VfZGVmaW5pdGlvbigpIHsKICAgICAgICByZXR1cm4gRXJyKGRuc21hc3FfdGV4dCgKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgInNlcnZpY2VEZWZpbml0aW9uTWlzc2luZ0FmdGVySW5zdGFsbCIsCiAgICAgICAgKSk7CiAgICB9CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBmbiBkbnNtYXNxX2Jvb3RzdHJhcF9jb25maWcoKSAtPiBTdHJpbmcgewogICAgWwogICAgICAgIGZvcm1hdCEoImxvY2FsLXR0bD17U01BUlRfQ09OTkVDVF9MT0NBTF9UVExfU0VDT05EU30iKSwKICAgICAgICAibGlzdGVuLWFkZHJlc3M9MTI3LjAuMC4xIi50b19zdHJpbmcoKSwKICAgICAgICAiYmluZC1pbnRlcmZhY2VzIi50b19zdHJpbmcoKSwKICAgICAgICBTdHJpbmc6Om5ldygpLAogICAgXQogICAgLmpvaW4oIlxuIikKfQoKcHViKHN1cGVyKSBmbiB2YWxpZGF0ZV9kbnNtYXNxX2NvbmZpZyhleGVjdXRhYmxlX3BhdGg6ICZzdHIsIGNvbnRlbnQ6ICZzdHIpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBsZXQgdGVtcF9kaXIgPSBzdGQ6OmVudjo6dGVtcF9kaXIoKS5qb2luKGZvcm1hdCEoImZuLWtub2NrLWRuc21hc3Ete30iLCB0aW1lX3V0aWxzOjpub3dfbXMoKSkpOwogICAgZnM6OmNyZWF0ZV9kaXJfYWxsKCZ0ZW1wX2RpcikubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICBsZXQgdGVtcF9jb25mX3BhdGggPSB0ZW1wX2Rpci5qb2luKCJkbnNtYXNxLmNvbmYiKTsKICAgIGxldCByZXN1bHQgPSAofHwgewogICAgICAgIGZzOjp3cml0ZSgmdGVtcF9jb25mX3BhdGgsIGNvbnRlbnQpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgICAgIHJ1bl9wcm9jZXNzX3N1Y2Nlc3MoCiAgICAgICAgICAgIGV4ZWN1dGFibGVfcGF0aCwKICAgICAgICAgICAgJlsKICAgICAgICAgICAgICAgICItLXRlc3QiLAogICAgICAgICAgICAgICAgJmZvcm1hdCEoIi0tY29uZi1maWxlPXt9IiwgdGVtcF9jb25mX3BhdGguZGlzcGxheSgpKSwKICAgICAgICAgICAgXSwKICAgICAgICApCiAgICB9KSgpOwogICAgbGV0IF8gPSBmczo6cmVtb3ZlX2Rpcl9hbGwodGVtcF9kaXIpOwogICAgcmVzdWx0Lm1hcCh8X3wgKCkpCn0KCnB1YihzdXBlcikgZm4gZG5zbWFzcV9zZXJ2aWNlX2tpbmQoKSAtPiBPcHRpb248RG5zbWFzcVNlcnZpY2VLaW5kPiB7CiAgICBkbnNtYXNxX3NlcnZpY2Vfa2luZF9mb3IoCiAgICAgICAgUGF0aDo6bmV3KCIvcnVuL3N5c3RlbWQvc3lzdGVtIikuaXNfZGlyKCksCiAgICAgICAgaGFzX3N5c3RlbWRfdW5pdCgpLAogICAgICAgIGhhc19pbml0X3NjcmlwdCgpLAogICAgKQp9CgpwdWIoc3VwZXIpIGZuIGRuc21hc3Ffc2VydmljZV9raW5kX2ZvcigKICAgIHN5c3RlbWRfcnVubmluZzogYm9vbCwKICAgIGhhc19zeXN0ZW1kX3VuaXQ6IGJvb2wsCiAgICBoYXNfaW5pdF9zY3JpcHQ6IGJvb2wsCikgLT4gT3B0aW9uPERuc21hc3FTZXJ2aWNlS2luZD4gewogICAgaWYgc3lzdGVtZF9ydW5uaW5nICYmIGhhc19zeXN0ZW1kX3VuaXQgewogICAgICAgIFNvbWUoRG5zbWFzcVNlcnZpY2VLaW5kOjpTeXN0ZW1kKQogICAgfSBlbHNlIGlmIGhhc19pbml0X3NjcmlwdCB7CiAgICAgICAgU29tZShEbnNtYXNxU2VydmljZUtpbmQ6OlN5c1YpCiAgICB9IGVsc2UgewogICAgICAgIE5vbmUKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBkbnNtYXNxX3NlcnZpY2VfY29tbWFuZHMoCiAgICBraW5kOiBEbnNtYXNxU2VydmljZUtpbmQsCiAgICBhY3RpdmF0ZTogYm9vbCwKKSAtPiAmJ3N0YXRpYyBbRG5zbWFzcVNlcnZpY2VDb21tYW5kXSB7CiAgICBtYXRjaCAoa2luZCwgYWN0aXZhdGUpIHsKICAgICAgICAoRG5zbWFzcVNlcnZpY2VLaW5kOjpTeXN0ZW1kLCB0cnVlKSA9PiBTWVNURU1EX0FDVElWQVRFX0NPTU1BTkRTLAogICAgICAgIChEbnNtYXNxU2VydmljZUtpbmQ6OlN5c3RlbWQsIGZhbHNlKSA9PiBTWVNURU1EX0RFQUNUSVZBVEVfQ09NTUFORFMsCiAgICAgICAgKERuc21hc3FTZXJ2aWNlS2luZDo6U3lzViwgdHJ1ZSkgPT4gU1lTVl9BQ1RJVkFURV9DT01NQU5EUywKICAgICAgICAoRG5zbWFzcVNlcnZpY2VLaW5kOjpTeXNWLCBmYWxzZSkgPT4gU1lTVl9ERUFDVElWQVRFX0NPTU1BTkRTLAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIHJ1bl9kbnNtYXNxX3NlcnZpY2VfY29tbWFuZHNfd2l0aDxGPigKICAgIGNvbW1hbmRzOiAmW0Ruc21hc3FTZXJ2aWNlQ29tbWFuZF0sCiAgICBtdXQgcnVuOiBGLAopIC0+IFJlc3VsdDwoKSwgU3RyaW5nPgp3aGVyZQogICAgRjogRm5NdXQoJkRuc21hc3FTZXJ2aWNlQ29tbWFuZCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+LAp7CiAgICBsZXQgbXV0IGVycm9ycyA9IFZlYzo6bmV3KCk7CiAgICBmb3IgY29tbWFuZCBpbiBjb21tYW5kcyB7CiAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPSBydW4oY29tbWFuZCkgewogICAgICAgICAgICBlcnJvcnMucHVzaChlcnJvcik7CiAgICAgICAgICAgIGlmICFjb21tYW5kLmNvbnRpbnVlX2FmdGVyX2ZhaWx1cmUgewogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICBpZiBlcnJvcnMuaXNfZW1wdHkoKSB7CiAgICAgICAgT2soKCkpCiAgICB9IGVsc2UgewogICAgICAgIEVycihlcnJvcnMuam9pbigiIHwgIikpCiAgICB9Cn0KCmZuIHJ1bl9kbnNtYXNxX3NlcnZpY2VfY29tbWFuZHModHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsIGFjdGl2YXRlOiBib29sKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgbGV0IFNvbWUoa2luZCkgPSBkbnNtYXNxX3NlcnZpY2Vfa2luZCgpIGVsc2UgewogICAgICAgIHJldHVybiBpZiBhY3RpdmF0ZSB7CiAgICAgICAgICAgIEVycihkbnNtYXNxX3RleHQodHJhbnNsYXRvciwgInNlcnZpY2VEZWZpbml0aW9uTWlzc2luZyIpKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIE9rKCgpKQogICAgICAgIH07CiAgICB9OwogICAgcnVuX2Ruc21hc3Ffc2VydmljZV9jb21tYW5kc193aXRoKGRuc21hc3Ffc2VydmljZV9jb21tYW5kcyhraW5kLCBhY3RpdmF0ZSksIHxjb21tYW5kfCB7CiAgICAgICAgcnVuX2Ruc21hc3FfcHJvY2Vzc19zdWNjZXNzKAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICBjb21tYW5kLnByb2dyYW0sCiAgICAgICAgICAgIGNvbW1hbmQuYXJncywKICAgICAgICAgICAgY29tbWFuZC5mYWlsdXJlX2tleSwKICAgICAgICApCiAgICB9KQp9CgpwdWIoY3JhdGUpIGZuIGFjdGl2YXRlX2Ruc21hc3Ffc2VydmljZSh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvcikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIHJ1bl9kbnNtYXNxX3NlcnZpY2VfY29tbWFuZHModHJhbnNsYXRvciwgdHJ1ZSkKfQoKcHViKGNyYXRlKSBmbiBkZWFjdGl2YXRlX2Ruc21hc3Ffc2VydmljZSh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvcikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIHJ1bl9kbnNtYXNxX3NlcnZpY2VfY29tbWFuZHModHJhbnNsYXRvciwgZmFsc2UpCn0KCnB1YihzdXBlcikgZm4gaGFzX3NlcnZpY2VfZGVmaW5pdGlvbigpIC0+IGJvb2wgewogICAgaGFzX3N5c3RlbWRfdW5pdCgpIHx8IGhhc19pbml0X3NjcmlwdCgpCn0KCnB1YihzdXBlcikgZm4gaGFzX3N5c3RlbWRfdW5pdCgpIC0+IGJvb2wgewogICAgWwogICAgICAgICIvZXRjL3N5c3RlbWQvc3lzdGVtL2Ruc21hc3Euc2VydmljZSIsCiAgICAgICAgIi9saWIvc3lzdGVtZC9zeXN0ZW0vZG5zbWFzcS5zZXJ2aWNlIiwKICAgICAgICAiL3Vzci9saWIvc3lzdGVtZC9zeXN0ZW0vZG5zbWFzcS5zZXJ2aWNlIiwKICAgIF0KICAgIC5pdGVyKCkKICAgIC5hbnkofHBhdGh8IFBhdGg6Om5ldyhwYXRoKS5leGlzdHMoKSkKfQoKcHViKHN1cGVyKSBmbiBoYXNfaW5pdF9zY3JpcHQoKSAtPiBib29sIHsKICAgIFBhdGg6Om5ldygiL2V0Yy9pbml0LmQvZG5zbWFzcSIpLmV4aXN0cygpCn0KCnB1YihzdXBlcikgZm4gZG5zbWFzcV9pbnN0YWxsX3N0YXRlKCkgLT4gRG5zbWFzcUluc3RhbGxTdGF0ZSB7CiAgICBkbnNtYXNxX2luc3RhbGxfc3RhdGVfbG9jaygpCiAgICAgICAgLmxvY2soKQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8ZXJyb3J8IGVycm9yLmludG9faW5uZXIoKSkKICAgICAgICAuY2xvbmUoKQp9CgpwdWIoc3VwZXIpIGZuIGRuc21hc3FfaW5zdGFsbF9zdGF0ZV9qc29uKHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yKSAtPiBWYWx1ZSB7CiAgICBkbnNtYXNxX2luc3RhbGxfc3RhdGVfdG9fanNvbigmZG5zbWFzcV9pbnN0YWxsX3N0YXRlKCksIHRyYW5zbGF0b3IpCn0KCnB1YihzdXBlcikgZm4gZG5zbWFzcV9pbnN0YWxsX3N0YXRlX3RvX2pzb24oCiAgICBzdGF0ZTogJkRuc21hc3FJbnN0YWxsU3RhdGUsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBWYWx1ZSB7CiAgICBqc29uISh7CiAgICAgICAgInN0YXR1cyI6IHN0YXRlLnN0YXR1cywKICAgICAgICAicHJvZ3Jlc3MiOiBzdGF0ZS5wcm9ncmVzcywKICAgICAgICAibWVzc2FnZSI6IGxvY2FsaXplX2Ruc21hc3FfaW5zdGFsbF9tZXNzYWdlKHN0YXRlLCB0cmFuc2xhdG9yKQogICAgfSkKfQoKcHViKHN1cGVyKSBmbiBsb2NhbGl6ZV9kbnNtYXNxX2luc3RhbGxfbWVzc2FnZSgKICAgIHN0YXRlOiAmRG5zbWFzcUluc3RhbGxTdGF0ZSwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IFN0cmluZyB7CiAgICBsZXQgbWVzc2FnZSA9IHN0YXRlLm1lc3NhZ2UudHJpbSgpOwogICAgaWYgc3RhdGUuc3RhdHVzID09ICJ1bmluc3RhbGxlZCIKICAgICAgICAmJiAobWVzc2FnZS5pc19lbXB0eSgpCiAgICAgICAgICAgIHx8IG1lc3NhZ2UgPT0gImRuc21hc3EgaXMgbm90IGRldGVjdGVkIgogICAgICAgICAgICB8fCBtZXNzYWdlID09ICJkbnNtYXNxIHdhcyBub3QgZGV0ZWN0ZWQuIEluc3RhbGwgaXQgZmlyc3QuIikKICAgIHsKICAgICAgICByZXR1cm4gZG5zbWFzcV90ZXh0KHRyYW5zbGF0b3IsICJub3REZXRlY3RlZEluc3RhbGxGaXJzdCIpOwogICAgfQogICAgc3RhdGUubWVzc2FnZS5jbG9uZSgpCn0KCnB1YihzdXBlcikgZm4gc2V0X2Ruc21hc3FfaW5zdGFsbF9zdGF0ZSgKICAgIHN0YXR1czogaW1wbCBJbnRvPFN0cmluZz4sCiAgICBwcm9ncmVzczogaTY0LAogICAgbWVzc2FnZTogaW1wbCBJbnRvPFN0cmluZz4sCikgewogICAgbGV0IG11dCBndWFyZCA9IGRuc21hc3FfaW5zdGFsbF9zdGF0ZV9sb2NrKCkKICAgICAgICAubG9jaygpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHxlcnJvcnwgZXJyb3IuaW50b19pbm5lcigpKTsKICAgIGd1YXJkLnN0YXR1cyA9IHN0YXR1cy5pbnRvKCk7CiAgICBndWFyZC5wcm9ncmVzcyA9IHByb2dyZXNzLmNsYW1wKDAsIDEwMCk7CiAgICBndWFyZC5tZXNzYWdlID0gbWVzc2FnZS5pbnRvKCk7Cn0KCnB1YihzdXBlcikgZm4gZG5zbWFzcV9pbnN0YWxsX3N0YXRlX2xvY2soKSAtPiAmJ3N0YXRpYyBNdXRleDxEbnNtYXNxSW5zdGFsbFN0YXRlPiB7CiAgICBETlNNQVNRX0lOU1RBTEwuZ2V0X29yX2luaXQofHwgTXV0ZXg6Om5ldyhEbnNtYXNxSW5zdGFsbFN0YXRlOjpkZWZhdWx0KCkpKQp9CgpwdWIoc3VwZXIpIGZuIHJ1bl9kbnNtYXNxX3Byb2Nlc3Nfc3VjY2VzcygKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgY29tbWFuZDogJnN0ciwKICAgIGFyZ3M6ICZbJnN0cl0sCiAgICBmYWxsYmFja19rZXk6ICZzdHIsCikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIHJ1bl9wcm9jZXNzX3N1Y2Nlc3MoY29tbWFuZCwgYXJncykKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IG5vcm1hbGl6ZV9kbnNtYXNxX2Vycm9yKHRyYW5zbGF0b3IsICZlcnJvciwgZmFsbGJhY2tfa2V5KSkKfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfZG5zbWFzcV9lcnJvcigKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgbWVzc2FnZTogJnN0ciwKICAgIGZhbGxiYWNrX2tleTogJnN0ciwKKSAtPiBTdHJpbmcgewogICAgbGV0IGRldGFpbCA9IG1lc3NhZ2UudHJpbSgpOwogICAgbGV0IGxvd2VyID0gZGV0YWlsLnRvX2FzY2lpX2xvd2VyY2FzZSgpOwogICAgbGV0IHNlcnZpY2VfbGlmZWN5Y2xlX2Vycm9yID0gbWF0Y2hlcyEoCiAgICAgICAgZmFsbGJhY2tfa2V5LAogICAgICAgICJlbmFibGVTZXJ2aWNlRmFpbGVkIiB8ICJzdG9wU2VydmljZUZhaWxlZCIgfCAiZGlzYWJsZVNlcnZpY2VGYWlsZWQiCiAgICApOwogICAgaWYgIXNlcnZpY2VfbGlmZWN5Y2xlX2Vycm9yCiAgICAgICAgJiYgKGxvd2VyLmNvbnRhaW5zKCJhZGRyZXNzIGFscmVhZHkgaW4gdXNlIikKICAgICAgICAgICAgfHwgbG93ZXIuY29udGFpbnMoImZhaWxlZCB0byBjcmVhdGUgbGlzdGVuaW5nIHNvY2tldCIpCiAgICAgICAgICAgIHx8IGxvd2VyLmNvbnRhaW5zKCJmYWlsZWQgdG8gYmluZCBsaXN0ZW5pbmcgc29ja2V0IikpCiAgICB7CiAgICAgICAgcmV0dXJuIGlmIGRldGFpbC5pc19lbXB0eSgpIHsKICAgICAgICAgICAgZG5zbWFzcV90ZXh0KHRyYW5zbGF0b3IsICJkbnNQb3J0VW5hdmFpbGFibGUiKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGRuc21hc3FfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgImRuc1BvcnRVbmF2YWlsYWJsZVdpdGhEZXRhaWwiLAogICAgICAgICAgICAgICAgJlsoImRldGFpbCIsIGRldGFpbC50b19zdHJpbmcoKSldLAogICAgICAgICAgICApCiAgICAgICAgfTsKICAgIH0KICAgIGlmIGRldGFpbC5pc19lbXB0eSgpIHsKICAgICAgICBkbnNtYXNxX3RleHQodHJhbnNsYXRvciwgZmFsbGJhY2tfa2V5KQogICAgfSBlbHNlIGlmIHNlcnZpY2VfbGlmZWN5Y2xlX2Vycm9yIHsKICAgICAgICBmb3JtYXQhKCJ7fToge2RldGFpbH0iLCBkbnNtYXNxX3RleHQodHJhbnNsYXRvciwgZmFsbGJhY2tfa2V5KSkKICAgIH0gZWxzZSB7CiAgICAgICAgZGV0YWlsLnRvX3N0cmluZygpCiAgICB9Cn0K
+use std::{fs, path::Path, process::Command, sync::Mutex};
+
+use serde_json::{Value, json};
+
+use crate::{i18n::Translator, time_utils};
+
+use super::{
+    DNSMASQ_INSTALL, DnsmasqInstallState, SMART_CONNECT_LOCAL_TTL_SECONDS,
+    SMART_CONNECT_MANAGED_CONF_PATH,
+    process::run_process_success,
+    text::{dnsmasq_text, dnsmasq_text_params},
+};
+
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+pub(super) enum DnsmasqServiceKind {
+    Systemd,
+    SysV,
+}
+
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+pub(super) struct DnsmasqServiceCommand {
+    pub(super) program: &'static str,
+    pub(super) args: &'static [&'static str],
+    pub(super) failure_key: &'static str,
+    pub(super) continue_after_failure: bool,
+}
+
+const SYSTEMD_ACTIVATE_COMMANDS: &[DnsmasqServiceCommand] = &[
+    DnsmasqServiceCommand {
+        program: "systemctl",
+        args: &["enable", "dnsmasq"],
+        failure_key: "enableServiceFailed",
+        continue_after_failure: false,
+    },
+    DnsmasqServiceCommand {
+        program: "systemctl",
+        args: &["restart", "dnsmasq"],
+        failure_key: "restartFailed",
+        continue_after_failure: false,
+    },
+];
+const SYSTEMD_DEACTIVATE_COMMANDS: &[DnsmasqServiceCommand] = &[DnsmasqServiceCommand {
+    program: "systemctl",
+    args: &["disable", "--now", "dnsmasq"],
+    failure_key: "disableServiceFailed",
+    continue_after_failure: false,
+}];
+const SYSV_ACTIVATE_COMMANDS: &[DnsmasqServiceCommand] = &[
+    DnsmasqServiceCommand {
+        program: "update-rc.d",
+        args: &["dnsmasq", "defaults"],
+        failure_key: "enableServiceFailed",
+        continue_after_failure: false,
+    },
+    DnsmasqServiceCommand {
+        program: "service",
+        args: &["dnsmasq", "restart"],
+        failure_key: "restartFailed",
+        continue_after_failure: false,
+    },
+];
+const SYSV_DEACTIVATE_COMMANDS: &[DnsmasqServiceCommand] = &[
+    DnsmasqServiceCommand {
+        program: "service",
+        args: &["dnsmasq", "stop"],
+        failure_key: "stopServiceFailed",
+        continue_after_failure: true,
+    },
+    DnsmasqServiceCommand {
+        program: "update-rc.d",
+        args: &["-f", "dnsmasq", "remove"],
+        failure_key: "disableServiceFailed",
+        continue_after_failure: false,
+    },
+];
+
+pub(crate) fn build_dnsmasq_status_with_translator(translator: &Translator) -> Value {
+    let current = dnsmasq_install_state();
+    let executable = detect_dnsmasq_executable();
+    let raw_service_active = dnsmasq_service_active();
+    let service_active = if executable.is_none() && current.status != "installing" {
+        false
+    } else {
+        raw_service_active
+    };
+    let initialized = current.status != "installing"
+        && executable
+            .as_ref()
+            .is_some_and(|(path, _)| dnsmasq_can_initialize(path));
+    let has_service_definition =
+        current.status != "installing" && executable.is_some() && has_service_definition();
+    let version = executable.as_ref().map(|(_, version)| version.as_str());
+    let install_state = resolve_dnsmasq_install_state(
+        translator,
+        version,
+        service_active,
+        initialized,
+        has_service_definition,
+        current,
+    );
+    json!({
+        "installed": executable.is_some(),
+        "service_active": service_active,
+        "initialized": initialized,
+        "version": executable.map(|(_, version)| version).unwrap_or_default(),
+        "install_state": dnsmasq_install_state_to_json(&install_state, translator)
+    })
+}
+
+pub(super) fn dnsmasq_state(status: &str, progress: i64, message: String) -> DnsmasqInstallState {
+    DnsmasqInstallState {
+        status: status.to_string(),
+        progress,
+        message,
+    }
+}
+
+pub(super) fn dnsmasq_ready_message(translator: &Translator, version: &str) -> String {
+    if version.trim().is_empty() {
+        dnsmasq_text(translator, "ready")
+    } else {
+        dnsmasq_text_params(
+            translator,
+            "readyWithVersion",
+            &[("version", version.to_string())],
+        )
+    }
+}
+
+pub(super) fn dnsmasq_detected_message(
+    translator: &Translator,
+    version: &str,
+    has_service_definition: bool,
+) -> String {
+    if !has_service_definition {
+        dnsmasq_text(translator, "missingServiceAutoComplete")
+    } else if version.trim().is_empty() {
+        dnsmasq_text(translator, "detected")
+    } else {
+        dnsmasq_text_params(
+            translator,
+            "detectedWithVersion",
+            &[("version", version.to_string())],
+        )
+    }
+}
+
+pub(super) fn resolve_dnsmasq_install_state(
+    translator: &Translator,
+    executable_version: Option<&str>,
+    service_active: bool,
+    initialized: bool,
+    has_service_definition: bool,
+    current: DnsmasqInstallState,
+) -> DnsmasqInstallState {
+    if current.status == "installing" {
+        return current;
+    }
+    let Some(version) = executable_version else {
+        return if current.status == "error" {
+            current
+        } else {
+            dnsmasq_state(
+                "uninstalled",
+                0,
+                dnsmasq_text(translator, "notDetectedInstallFirst"),
+            )
+        };
+    };
+    if service_active && initialized {
+        return dnsmasq_state("installed", 100, dnsmasq_ready_message(translator, version));
+    }
+    if current.status == "error" {
+        return current;
+    }
+    dnsmasq_state(
+        "installed",
+        100,
+        dnsmasq_detected_message(translator, version, has_service_definition),
+    )
+}
+
+pub(super) fn detect_dnsmasq_executable() -> Option<(String, String)> {
+    for candidate in ["dnsmasq", "/usr/sbin/dnsmasq", "/usr/bin/dnsmasq"] {
+        let Ok(output) = Command::new(candidate).arg("--version").output() else {
+            continue;
+        };
+        if !output.status.success() {
+            continue;
+        }
+        let stdout = String::from_utf8_lossy(&output.stdout);
+        let version = stdout
+            .lines()
+            .next()
+            .map(str::trim)
+            .filter(|value| !value.is_empty())
+            .unwrap_or("dnsmasq")
+            .to_string();
+        return Some((candidate.to_string(), version));
+    }
+    None
+}
+
+pub(super) fn dnsmasq_service_active() -> bool {
+    match dnsmasq_service_kind() {
+        Some(DnsmasqServiceKind::Systemd) => {
+            run_process_success("systemctl", &["is-active", "--quiet", "dnsmasq"]).is_ok()
+        }
+        Some(DnsmasqServiceKind::SysV) => {
+            run_process_success("service", &["dnsmasq", "status"]).is_ok()
+        }
+        None => false,
+    }
+}
+
+pub(super) fn dnsmasq_can_initialize(executable_path: &str) -> bool {
+    if fs::create_dir_all(
+        Path::new(SMART_CONNECT_MANAGED_CONF_PATH)
+            .parent()
+            .unwrap_or_else(|| Path::new("/etc/dnsmasq.d")),
+    )
+    .is_err()
+    {
+        return false;
+    }
+    let test_path = Path::new(SMART_CONNECT_MANAGED_CONF_PATH)
+        .parent()
+        .unwrap_or_else(|| Path::new("/etc/dnsmasq.d"))
+        .join(format!(".fn-knock-write-test-{}", time_utils::now_ms()));
+    if fs::write(&test_path, "").is_err() {
+        return false;
+    }
+    let _ = fs::remove_file(test_path);
+    validate_dnsmasq_config(executable_path, &dnsmasq_bootstrap_config()).is_ok()
+}
+
+pub(super) fn install_dnsmasq_background(already_installed: bool, translator: Translator) {
+    let result = if already_installed {
+        initialize_dnsmasq(&translator)
+    } else {
+        install_dnsmasq_package(&translator)
+    };
+    if let Err(error) = result {
+        set_dnsmasq_install_state("error", 0, error);
+    }
+}
+
+pub(super) fn install_dnsmasq_package(translator: &Translator) -> Result<(), String> {
+    set_dnsmasq_install_state("installing", 15, dnsmasq_text(translator, "refreshingApt"));
+    run_dnsmasq_process_success(
+        translator,
+        "/usr/bin/apt-get",
+        &["update"],
+        "aptUpdateFailed",
+    )?;
+
+    set_dnsmasq_install_state("installing", 55, dnsmasq_text(translator, "installing"));
+    run_dnsmasq_process_success(
+        translator,
+        "/usr/bin/apt-get",
+        &["install", "-y", "dnsmasq"],
+        "aptInstallFailed",
+    )?;
+
+    initialize_dnsmasq(translator)
+}
+
+pub(super) fn initialize_dnsmasq(translator: &Translator) -> Result<(), String> {
+    set_dnsmasq_install_state(
+        "installing",
+        20,
+        dnsmasq_text(translator, "checkingEnvironment"),
+    );
+    let executable = detect_dnsmasq_executable()
+        .ok_or_else(|| dnsmasq_text(translator, "notDetectedInstallFirst"))?;
+
+    set_dnsmasq_install_state(
+        "installing",
+        45,
+        dnsmasq_text(translator, "validatingConfig"),
+    );
+    ensure_dnsmasq_service_package_installed(translator)?;
+    fs::create_dir_all(
+        Path::new(SMART_CONNECT_MANAGED_CONF_PATH)
+            .parent()
+            .unwrap_or_else(|| Path::new("/etc/dnsmasq.d")),
+    )
+    .map_err(|error| error.to_string())?;
+    validate_dnsmasq_config(&executable.0, &dnsmasq_bootstrap_config())
+        .map_err(|error| normalize_dnsmasq_error(translator, &error, "configTestFailed"))?;
+
+    set_dnsmasq_install_state(
+        "installing",
+        72,
+        dnsmasq_text(translator, "enablingService"),
+    );
+    activate_dnsmasq_service(translator)?;
+
+    set_dnsmasq_install_state(
+        "installed",
+        100,
+        dnsmasq_ready_message(translator, &executable.1),
+    );
+    Ok(())
+}
+
+pub(super) fn ensure_dnsmasq_service_package_installed(
+    translator: &Translator,
+) -> Result<(), String> {
+    if has_service_definition() {
+        return Ok(());
+    }
+    if !Path::new("/usr/bin/apt-get").exists() {
+        return Err(dnsmasq_text(translator, "servicePackageMissing"));
+    }
+    set_dnsmasq_install_state(
+        "installing",
+        58,
+        dnsmasq_text(translator, "completingService"),
+    );
+    run_dnsmasq_process_success(
+        translator,
+        "/usr/bin/apt-get",
+        &["install", "-y", "dnsmasq"],
+        "completeServiceFailed",
+    )?;
+    if !has_service_definition() {
+        return Err(dnsmasq_text(
+            translator,
+            "serviceDefinitionMissingAfterInstall",
+        ));
+    }
+    Ok(())
+}
+
+pub(super) fn dnsmasq_bootstrap_config() -> String {
+    [
+        format!("local-ttl={SMART_CONNECT_LOCAL_TTL_SECONDS}"),
+        "listen-address=127.0.0.1".to_string(),
+        "bind-interfaces".to_string(),
+        String::new(),
+    ]
+    .join("\n")
+}
+
+pub(super) fn validate_dnsmasq_config(executable_path: &str, content: &str) -> Result<(), String> {
+    let temp_dir = std::env::temp_dir().join(format!("fn-knock-dnsmasq-{}", time_utils::now_ms()));
+    fs::create_dir_all(&temp_dir).map_err(|error| error.to_string())?;
+    let temp_conf_path = temp_dir.join("dnsmasq.conf");
+    let result = (|| {
+        fs::write(&temp_conf_path, content).map_err(|error| error.to_string())?;
+        run_process_success(
+            executable_path,
+            &[
+                "--test",
+                &format!("--conf-file={}", temp_conf_path.display()),
+            ],
+        )
+    })();
+    let _ = fs::remove_dir_all(temp_dir);
+    result.map(|_| ())
+}
+
+pub(super) fn dnsmasq_service_kind() -> Option<DnsmasqServiceKind> {
+    dnsmasq_service_kind_for(
+        Path::new("/run/systemd/system").is_dir(),
+        has_systemd_unit(),
+        has_init_script(),
+    )
+}
+
+pub(super) fn dnsmasq_service_kind_for(
+    systemd_running: bool,
+    has_systemd_unit: bool,
+    has_init_script: bool,
+) -> Option<DnsmasqServiceKind> {
+    if systemd_running && has_systemd_unit {
+        Some(DnsmasqServiceKind::Systemd)
+    } else if has_init_script {
+        Some(DnsmasqServiceKind::SysV)
+    } else {
+        None
+    }
+}
+
+pub(super) fn dnsmasq_service_commands(
+    kind: DnsmasqServiceKind,
+    activate: bool,
+) -> &'static [DnsmasqServiceCommand] {
+    match (kind, activate) {
+        (DnsmasqServiceKind::Systemd, true) => SYSTEMD_ACTIVATE_COMMANDS,
+        (DnsmasqServiceKind::Systemd, false) => SYSTEMD_DEACTIVATE_COMMANDS,
+        (DnsmasqServiceKind::SysV, true) => SYSV_ACTIVATE_COMMANDS,
+        (DnsmasqServiceKind::SysV, false) => SYSV_DEACTIVATE_COMMANDS,
+    }
+}
+
+pub(super) fn run_dnsmasq_service_commands_with<F>(
+    commands: &[DnsmasqServiceCommand],
+    mut run: F,
+) -> Result<(), String>
+where
+    F: FnMut(&DnsmasqServiceCommand) -> Result<(), String>,
+{
+    let mut errors = Vec::new();
+    for command in commands {
+        if let Err(error) = run(command) {
+            errors.push(error);
+            if !command.continue_after_failure {
+                break;
+            }
+        }
+    }
+    if errors.is_empty() {
+        Ok(())
+    } else {
+        Err(errors.join(" | "))
+    }
+}
+
+fn run_dnsmasq_service_commands(translator: &Translator, activate: bool) -> Result<(), String> {
+    let Some(kind) = dnsmasq_service_kind() else {
+        return if activate {
+            Err(dnsmasq_text(translator, "serviceDefinitionMissing"))
+        } else {
+            Ok(())
+        };
+    };
+    run_dnsmasq_service_commands_with(dnsmasq_service_commands(kind, activate), |command| {
+        run_dnsmasq_process_success(
+            translator,
+            command.program,
+            command.args,
+            command.failure_key,
+        )
+    })
+}
+
+pub(crate) fn activate_dnsmasq_service(translator: &Translator) -> Result<(), String> {
+    run_dnsmasq_service_commands(translator, true)
+}
+
+pub(crate) fn deactivate_dnsmasq_service(translator: &Translator) -> Result<(), String> {
+    run_dnsmasq_service_commands(translator, false)
+}
+
+pub(super) fn has_service_definition() -> bool {
+    has_systemd_unit() || has_init_script()
+}
+
+pub(super) fn has_systemd_unit() -> bool {
+    [
+        "/etc/systemd/system/dnsmasq.service",
+        "/lib/systemd/system/dnsmasq.service",
+        "/usr/lib/systemd/system/dnsmasq.service",
+    ]
+    .iter()
+    .any(|path| Path::new(path).exists())
+}
+
+pub(super) fn has_init_script() -> bool {
+    Path::new("/etc/init.d/dnsmasq").exists()
+}
+
+pub(super) fn dnsmasq_install_state() -> DnsmasqInstallState {
+    dnsmasq_install_state_lock()
+        .lock()
+        .unwrap_or_else(|error| error.into_inner())
+        .clone()
+}
+
+pub(super) fn dnsmasq_install_state_json(translator: &Translator) -> Value {
+    dnsmasq_install_state_to_json(&dnsmasq_install_state(), translator)
+}
+
+pub(super) fn dnsmasq_install_state_to_json(
+    state: &DnsmasqInstallState,
+    translator: &Translator,
+) -> Value {
+    json!({
+        "status": state.status,
+        "progress": state.progress,
+        "message": localize_dnsmasq_install_message(state, translator)
+    })
+}
+
+pub(super) fn localize_dnsmasq_install_message(
+    state: &DnsmasqInstallState,
+    translator: &Translator,
+) -> String {
+    let message = state.message.trim();
+    if state.status == "uninstalled"
+        && (message.is_empty()
+            || message == "dnsmasq is not detected"
+            || message == "dnsmasq was not detected. Install it first.")
+    {
+        return dnsmasq_text(translator, "notDetectedInstallFirst");
+    }
+    state.message.clone()
+}
+
+pub(super) fn set_dnsmasq_install_state(
+    status: impl Into<String>,
+    progress: i64,
+    message: impl Into<String>,
+) {
+    let mut guard = dnsmasq_install_state_lock()
+        .lock()
+        .unwrap_or_else(|error| error.into_inner());
+    guard.status = status.into();
+    guard.progress = progress.clamp(0, 100);
+    guard.message = message.into();
+}
+
+pub(super) fn dnsmasq_install_state_lock() -> &'static Mutex<DnsmasqInstallState> {
+    DNSMASQ_INSTALL.get_or_init(|| Mutex::new(DnsmasqInstallState::default()))
+}
+
+pub(super) fn run_dnsmasq_process_success(
+    translator: &Translator,
+    command: &str,
+    args: &[&str],
+    fallback_key: &str,
+) -> Result<(), String> {
+    run_process_success(command, args)
+        .map_err(|error| normalize_dnsmasq_error(translator, &error, fallback_key))
+}
+
+pub(super) fn normalize_dnsmasq_error(
+    translator: &Translator,
+    message: &str,
+    fallback_key: &str,
+) -> String {
+    let detail = message.trim();
+    let lower = detail.to_ascii_lowercase();
+    let service_lifecycle_error = matches!(
+        fallback_key,
+        "enableServiceFailed" | "stopServiceFailed" | "disableServiceFailed"
+    );
+    if !service_lifecycle_error
+        && (lower.contains("address already in use")
+            || lower.contains("failed to create listening socket")
+            || lower.contains("failed to bind listening socket"))
+    {
+        return if detail.is_empty() {
+            dnsmasq_text(translator, "dnsPortUnavailable")
+        } else {
+            dnsmasq_text_params(
+                translator,
+                "dnsPortUnavailableWithDetail",
+                &[("detail", detail.to_string())],
+            )
+        };
+    }
+    if detail.is_empty() {
+        dnsmasq_text(translator, fallback_key)
+    } else if service_lifecycle_error {
+        format!("{}: {detail}", dnsmasq_text(translator, fallback_key))
+    } else {
+        detail.to_string()
+    }
+}

@@ -1,1 +1,405 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7CiAgQ2hlY2tDaXJjbGUyLAogIEV4dGVybmFsTGluaywKICBMaW5rMiwKICBMb2FkZXJDaXJjbGUsCiAgUm90YXRlQ2N3LAogIFNhdmUsCn0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0R3JvdXAsIElucHV0R3JvdXBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dC1ncm91cCI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsKICBTZWxlY3QsCiAgU2VsZWN0Q29udGVudCwKICBTZWxlY3RJdGVtLAogIFNlbGVjdFRyaWdnZXIsCiAgU2VsZWN0VmFsdWUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NlbGVjdCI7CmltcG9ydCB7IFNrZWxldG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NrZWxldG9uIjsKaW1wb3J0IEZsb2F0aW5nQWN0aW9uRG9jayBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0Zsb2F0aW5nQWN0aW9uRG9jay52dWUiOwppbXBvcnQgeyB1c2VJcExvY2F0aW9uU2V0dGluZ3MgfSBmcm9tICIuL2lwLWxvY2F0aW9uL3VzZUlwTG9jYXRpb25TZXR0aW5ncyI7Cgpjb25zdCB7CiAgY2lkckRvY2tlclVybCwKICBjaWRyVXJsSW5wdXQsCiAgZm9ybSwKICBpcExvb2t1cERvY2tlclVybCwKICBpcExvb2t1cFVybElucHV0LAogIGlzRGlydHksCiAgaXNMb2FkaW5nLAogIGlzU2F2aW5nLAogIGlzVGVzdGluZ0NpZHIsCiAgaXNUZXN0aW5nSXBMb29rdXAsCiAgcmVzZXRGb3JtLAogIHNhdmVTZXR0aW5ncywKICBzaG93TG9hZGluZ1NrZWxldG9uLAogIHQsCiAgdGVzdENpZHJTZXJ2aWNlLAogIHRlc3RJcExvb2t1cFNlcnZpY2UsCn0gPSB1c2VJcExvY2F0aW9uU2V0dGluZ3MoKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0idy1mdWxsIHNwYWNlLXktNCI+CiAgICA8ZGl2IHYtaWY9ImlzTG9hZGluZyAmJiBzaG93TG9hZGluZ1NrZWxldG9uIiBjbGFzcz0iZ3JpZCBnYXAtNCI+CiAgICAgIDxzZWN0aW9uIGNsYXNzPSJyb3VuZGVkLXhsIGJvcmRlciBiZy1jYXJkIHAtNSBzaGFkb3ctc20iPgogICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZ2FwLTMiPgogICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJzaXplLTEwIHJvdW5kZWQtbGciIC8+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4LTEgc3BhY2UteS0yIj4KICAgICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTUgdy0zMiIgLz4KICAgICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy00LzUiIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJtdC02IHNwYWNlLXktMyI+CiAgICAgICAgICA8U2tlbGV0b24gY2xhc3M9ImgtNCB3LTI0IiAvPgogICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTkgdy1mdWxsIiAvPgogICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTIwIHctZnVsbCIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9zZWN0aW9uPgogICAgICA8c2VjdGlvbiBjbGFzcz0icm91bmRlZC14bCBib3JkZXIgYmctY2FyZCBwLTUgc2hhZG93LXNtIj4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGdhcC0zIj4KICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0ic2l6ZS0xMCByb3VuZGVkLWxnIiAvPgogICAgICAgICAgPGRpdiBjbGFzcz0iZmxleC0xIHNwYWNlLXktMiI+CiAgICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC01IHctMzIiIC8+CiAgICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC00IHctNC81IiAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ibXQtNiBzcGFjZS15LTMiPgogICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy0yNCIgLz4KICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC05IHctZnVsbCIgLz4KICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC0yMCB3LWZ1bGwiIC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KICAgIDwvZGl2PgoKICAgIDxkaXYgdi1lbHNlLWlmPSIhaXNMb2FkaW5nIiBjbGFzcz0iZ3JpZCBnYXAtNCI+CiAgICAgIDxzZWN0aW9uCiAgICAgICAgY2xhc3M9ImZsZXggbWluLWgtZnVsbCBmbGV4LWNvbCBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC14bCBib3JkZXIgYmctY2FyZCBzaGFkb3ctc20iCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJib3JkZXItYiBiZy1tdXRlZC8xMCBwLTQgc206cC01Ij4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZ2FwLTMiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIHNwYWNlLXktMSI+CiAgICAgICAgICAgICAgPGgzIGNsYXNzPSJ0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCB0cmFja2luZy1ub3JtYWwiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmlwTG9va3VwVGl0bGUiKSB9fQogICAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgICAgPHAgY2xhc3M9InRleHQtc20gbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MuaXBMb29rdXBEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IHctZnVsbCBmbGV4LTEgZmxleC1jb2wgZ2FwLTUgcC00IHNtOnAtNSI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgICAgIDxMYWJlbCBmb3I9ImlwLWxvY2F0aW9uLWxvb2t1cC1tb2RlIiBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3Muc2VydmljZVNvdXJjZSIpIH19CiAgICAgICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxTZWxlY3Qgdi1tb2RlbD0iZm9ybS5pcF9sb29rdXBfbW9kZSIgOmRpc2FibGVkPSJpc1NhdmluZyI+CiAgICAgICAgICAgICAgPFNlbGVjdFRyaWdnZXIgaWQ9ImlwLWxvY2F0aW9uLWxvb2t1cC1tb2RlIiBjbGFzcz0idy1mdWxsIj4KICAgICAgICAgICAgICAgIDxTZWxlY3RWYWx1ZQogICAgICAgICAgICAgICAgICA6cGxhY2Vob2xkZXI9IgogICAgICAgICAgICAgICAgICAgIHQoJ2FkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5jaG9vc2VTZXJ2aWNlU291cmNlJykKICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0ib25saW5lIj4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLm9mZmljaWFsT25saW5lU2VydmljZSIpIH19CiAgICAgICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0iY3VzdG9tIj4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmN1c3RvbVNlcnZpY2UiKSB9fQogICAgICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgICAgICAgPC9TZWxlY3Q+CiAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIGxlYWRpbmctNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5pcExvb2t1cE1vZGVIaW50IikgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSJmb3JtLmlwX2xvb2t1cF9tb2RlID09PSAnb25saW5lJyIKICAgICAgICAgICAgY2xhc3M9Im10LWF1dG8gcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWRhc2hlZCBiZy1tdXRlZC8yMCBwLTQiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZ2FwLTMiPgogICAgICAgICAgICAgIDxDaGVja0NpcmNsZTIgY2xhc3M9Im10LTAuNSBzaXplLTQgc2hyaW5rLTAgdGV4dC1lbWVyYWxkLTYwMCIgLz4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIHNwYWNlLXktMSI+CiAgICAgICAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy51c2luZ09mZmljaWFsU2VydmljZSIpIH19CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSJmb3JtLmlwX2xvb2t1cF9tb2RlID09PSAnY3VzdG9tJyIKICAgICAgICAgICAgY2xhc3M9ImFuaW1hdGUtaW4gZmFkZS1pbiBzbGlkZS1pbi1mcm9tLXRvcC0yIHNwYWNlLXktNCBkdXJhdGlvbi0yMDAiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIGJnLW11dGVkLzIwIHAtNCI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBnYXAtMyI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEgdGV4dC1zbSI+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzPSJmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLnNlbGZIb3N0ZWRTZXJ2aWNlIikgfX0KICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICA8cCBjbGFzcz0ibGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmNhblVzZSIpIH19CiAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgYXMtY2hpbGQKICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9ImxpbmsiCiAgICAgICAgICAgICAgICAgICAgICBkYXRhLWFmZm9yZGFuY2U9ImRldGFpbHMiCiAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0iaC1hdXRvIGdhcC0xIHAtMCBhbGlnbi1iYXNlbGluZSB0ZXh0LXNtIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIDxhCiAgICAgICAgICAgICAgICAgICAgICAgIDpocmVmPSJpcExvb2t1cERvY2tlclVybCIKICAgICAgICAgICAgICAgICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiCiAgICAgICAgICAgICAgICAgICAgICAgIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIKICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgZ28taXBhZGRyZXNzLWFwaQogICAgICAgICAgICAgICAgICAgICAgICA8RXh0ZXJuYWxMaW5rIGNsYXNzPSJzaXplLTMuNSIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgICAgICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmRlcGxveVN1ZmZpeCIpIH19CiAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICAgICAgPExhYmVsIGZvcj0iaXAtbG9jYXRpb24tbG9va3VwLXVybCIgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgQmFzZSBVUkwKICAgICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTIgc206ZmxleC1yb3ciPgogICAgICAgICAgICAgICAgPElucHV0R3JvdXAgY2xhc3M9InNtOmZsZXgtMSI+CiAgICAgICAgICAgICAgICAgIDxJbnB1dEdyb3VwSW5wdXQKICAgICAgICAgICAgICAgICAgICBpZD0iaXAtbG9jYXRpb24tbG9va3VwLXVybCIKICAgICAgICAgICAgICAgICAgICB2LW1vZGVsPSJpcExvb2t1cFVybElucHV0IgogICAgICAgICAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0iCiAgICAgICAgICAgICAgICAgICAgICB0KCdhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MuaXBMb29rdXBQbGFjZWhvbGRlcicpCiAgICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmciCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L0lucHV0R3JvdXA+CiAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJ3LWZ1bGwgc206dy1hdXRvIgogICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzVGVzdGluZ0lwTG9va3VwIHx8ICFpcExvb2t1cFVybElucHV0LnRyaW0oKSIKICAgICAgICAgICAgICAgICAgQGNsaWNrPSJ0ZXN0SXBMb29rdXBTZXJ2aWNlIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8TG9hZGVyQ2lyY2xlCiAgICAgICAgICAgICAgICAgICAgdi1pZj0iaXNUZXN0aW5nSXBMb29rdXAiCiAgICAgICAgICAgICAgICAgICAgY2xhc3M9InNpemUtNCBhbmltYXRlLXNwaW4iCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgIDxMaW5rMiB2LWVsc2UgY2xhc3M9InNpemUtNCIgLz4KICAgICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgICBpc1Rlc3RpbmdJcExvb2t1cAogICAgICAgICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MudGVzdGluZyIpCiAgICAgICAgICAgICAgICAgICAgICA6IHQoImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy50ZXN0Q29ubmVjdGlvbiIpCiAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmJhc2VVcmxIaW50IikgfX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIDxzZWN0aW9uCiAgICAgICAgY2xhc3M9ImZsZXggbWluLWgtZnVsbCBmbGV4LWNvbCBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC14bCBib3JkZXIgYmctY2FyZCBzaGFkb3ctc20iCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJib3JkZXItYiBiZy1tdXRlZC8xMCBwLTQgc206cC01Ij4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZ2FwLTMiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIHNwYWNlLXktMSI+CiAgICAgICAgICAgICAgPGgzIGNsYXNzPSJ0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCB0cmFja2luZy1ub3JtYWwiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmNpZHJUaXRsZSIpIH19CiAgICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5jaWRyRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCB3LWZ1bGwgZmxleC0xIGZsZXgtY29sIGdhcC01IHAtNCBzbTpwLTUiPgogICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICAgICAgICA8TGFiZWwgZm9yPSJpcC1sb2NhdGlvbi1jaWRyLW1vZGUiIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5zZXJ2aWNlU291cmNlIikgfX0KICAgICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPFNlbGVjdCB2LW1vZGVsPSJmb3JtLmNpZHJfbW9kZSIgOmRpc2FibGVkPSJpc1NhdmluZyI+CiAgICAgICAgICAgICAgPFNlbGVjdFRyaWdnZXIgaWQ9ImlwLWxvY2F0aW9uLWNpZHItbW9kZSIgY2xhc3M9InctZnVsbCI+CiAgICAgICAgICAgICAgICA8U2VsZWN0VmFsdWUKICAgICAgICAgICAgICAgICAgOnBsYWNlaG9sZGVyPSIKICAgICAgICAgICAgICAgICAgICB0KCdhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MuY2hvb3NlU2VydmljZVNvdXJjZScpCiAgICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICAgICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgICAgICAgPFNlbGVjdEl0ZW0gdmFsdWU9Im9ubGluZSI+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5vZmZpY2lhbE9ubGluZVNlcnZpY2UiKSB9fQogICAgICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgICAgICAgPFNlbGVjdEl0ZW0gdmFsdWU9ImN1c3RvbSI+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5jdXN0b21TZXJ2aWNlIikgfX0KICAgICAgICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgIDwvU2VsZWN0PgogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MuY2lkck1vZGVIaW50IikgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSJmb3JtLmNpZHJfbW9kZSA9PT0gJ29ubGluZSciCiAgICAgICAgICAgIGNsYXNzPSJtdC1hdXRvIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1kYXNoZWQgYmctbXV0ZWQvMjAgcC00IgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGdhcC0zIj4KICAgICAgICAgICAgICA8Q2hlY2tDaXJjbGUyIGNsYXNzPSJtdC0wLjUgc2l6ZS00IHNocmluay0wIHRleHQtZW1lcmFsZC02MDAiIC8+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTEiPgogICAgICAgICAgICAgICAgPHAgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MudXNpbmdPZmZpY2lhbFNlcnZpY2UiKSB9fQogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXYKICAgICAgICAgICAgdi1pZj0iZm9ybS5jaWRyX21vZGUgPT09ICdjdXN0b20nIgogICAgICAgICAgICBjbGFzcz0iYW5pbWF0ZS1pbiBmYWRlLWluIHNsaWRlLWluLWZyb20tdG9wLTIgc3BhY2UteS00IGR1cmF0aW9uLTIwMCIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdiBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgYmctbXV0ZWQvMjAgcC00Ij4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGdhcC0zIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSB0ZXh0LXNtIj4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3M9ImZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3Muc2VsZkhvc3RlZFNlcnZpY2UiKSB9fQogICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzPSJsZWFkaW5nLTYgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MuY2FuVXNlIikgfX0KICAgICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICBhcy1jaGlsZAogICAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0ibGluayIKICAgICAgICAgICAgICAgICAgICAgIGRhdGEtYWZmb3JkYW5jZT0iZGV0YWlscyIKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJoLWF1dG8gZ2FwLTEgcC0wIGFsaWduLWJhc2VsaW5lIHRleHQtc20iCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPGEKICAgICAgICAgICAgICAgICAgICAgICAgOmhyZWY9ImNpZHJEb2NrZXJVcmwiCiAgICAgICAgICAgICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgICAgICAgICAgICByZWw9Im5vb3BlbmVyIG5vcmVmZXJyZXIiCiAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIGdvLWNpZHItYXBpCiAgICAgICAgICAgICAgICAgICAgICAgIDxFeHRlcm5hbExpbmsgY2xhc3M9InNpemUtMy41IiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KICAgICAgICAgICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MuZGVwbG95U3VmZml4IikgfX0KICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgICAgICA8TGFiZWwgZm9yPSJpcC1sb2NhdGlvbi1jaWRyLXVybCIgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgQmFzZSBVUkwKICAgICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTIgc206ZmxleC1yb3ciPgogICAgICAgICAgICAgICAgPElucHV0R3JvdXAgY2xhc3M9InNtOmZsZXgtMSI+CiAgICAgICAgICAgICAgICAgIDxJbnB1dEdyb3VwSW5wdXQKICAgICAgICAgICAgICAgICAgICBpZD0iaXAtbG9jYXRpb24tY2lkci11cmwiCiAgICAgICAgICAgICAgICAgICAgdi1tb2RlbD0iY2lkclVybElucHV0IgogICAgICAgICAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmNpZHJQbGFjZWhvbGRlcicpIgogICAgICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmciCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L0lucHV0R3JvdXA+CiAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJ3LWZ1bGwgc206dy1hdXRvIgogICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzVGVzdGluZ0NpZHIgfHwgIWNpZHJVcmxJbnB1dC50cmltKCkiCiAgICAgICAgICAgICAgICAgIEBjbGljaz0idGVzdENpZHJTZXJ2aWNlIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8TG9hZGVyQ2lyY2xlCiAgICAgICAgICAgICAgICAgICAgdi1pZj0iaXNUZXN0aW5nQ2lkciIKICAgICAgICAgICAgICAgICAgICBjbGFzcz0ic2l6ZS00IGFuaW1hdGUtc3BpbiIKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgPExpbmsyIHYtZWxzZSBjbGFzcz0ic2l6ZS00IiAvPgogICAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICAgIGlzVGVzdGluZ0NpZHIKICAgICAgICAgICAgICAgICAgICAgID8gdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLnRlc3RpbmciKQogICAgICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MudGVzdENvbm5lY3Rpb24iKQogICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5iYXNlVXJsSGludCIpIH19CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CiAgICA8L2Rpdj4KCiAgICA8ZGl2CiAgICAgIHYtZWxzZQogICAgICBjbGFzcz0ibWluLWgtWzIyMHB4XSByb3VuZGVkLXhsIGJvcmRlciBiZy1jYXJkIgogICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgIC8+CgogICAgPEZsb2F0aW5nQWN0aW9uRG9jawogICAgICA6YWN0aXZlPSJpc0RpcnR5IgogICAgICBpbmxpbmUtY2xhc3M9InJvdW5kZWQteGwgYm9yZGVyIGJnLWNhcmQgcHgtNCBweS00IHNoYWRvdy1zbSBzbTpweC02IgogICAgPgogICAgICA8dGVtcGxhdGUgI2lubGluZT4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtMyBzbTpmbGV4LXJvdyBzbTppdGVtcy1jZW50ZXIgc206anVzdGlmeS1lbmQiCiAgICAgICAgPgogICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBnYXAtMyI+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgIGNsYXNzPSJmbGV4LTEgc206ZmxleC1ub25lIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iIWlzRGlydHkgfHwgaXNTYXZpbmciCiAgICAgICAgICAgICAgQGNsaWNrPSJyZXNldEZvcm0iCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8Um90YXRlQ2N3IGNsYXNzPSJzaXplLTQiIC8+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmRpc2NhcmQiKSB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIGNsYXNzPSJmbGV4LTEgc206ZmxleC1ub25lIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iIWlzRGlydHkgfHwgaXNTYXZpbmciCiAgICAgICAgICAgICAgQGNsaWNrPSJzYXZlU2V0dGluZ3MiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8TG9hZGVyQ2lyY2xlIHYtaWY9ImlzU2F2aW5nIiBjbGFzcz0ic2l6ZS00IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgICAgICA8U2F2ZSB2LWVsc2UgY2xhc3M9InNpemUtNCIgLz4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgaXNTYXZpbmcKICAgICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3Muc2F2aW5nIikKICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3Muc2F2ZUNoYW5nZXMiKQogICAgICAgICAgICAgIH19CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvdGVtcGxhdGU+CgogICAgICA8dGVtcGxhdGUgI2Zsb2F0aW5nPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9IiFpc0RpcnR5IHx8IGlzU2F2aW5nIgogICAgICAgICAgQGNsaWNrPSJyZXNldEZvcm0iCiAgICAgICAgPgogICAgICAgICAgPFJvdGF0ZUNjdyBjbGFzcz0ic2l6ZS00IiAvPgogICAgICAgICAge3sgdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmRpc2NhcmQiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24gOmRpc2FibGVkPSIhaXNEaXJ0eSB8fCBpc1NhdmluZyIgQGNsaWNrPSJzYXZlU2V0dGluZ3MiPgogICAgICAgICAgPExvYWRlckNpcmNsZSB2LWlmPSJpc1NhdmluZyIgY2xhc3M9InNpemUtNCBhbmltYXRlLXNwaW4iIC8+CiAgICAgICAgICA8U2F2ZSB2LWVsc2UgY2xhc3M9InNpemUtNCIgLz4KICAgICAgICAgIHt7CiAgICAgICAgICAgIGlzU2F2aW5nCiAgICAgICAgICAgICAgPyB0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3Muc2F2aW5nIikKICAgICAgICAgICAgICA6IHQoImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5zYXZlQ2hhbmdlcyIpCiAgICAgICAgICB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L3RlbXBsYXRlPgogICAgPC9GbG9hdGluZ0FjdGlvbkRvY2s+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import {
+  CheckCircle2,
+  ExternalLink,
+  Link2,
+  LoaderCircle,
+  RotateCcw,
+  Save,
+} from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { InputGroup, InputGroupInput } from "@/components/ui/input-group";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Skeleton } from "@/components/ui/skeleton";
+import FloatingActionDock from "@admin-shared/components/common/FloatingActionDock.vue";
+import { useIpLocationSettings } from "./ip-location/useIpLocationSettings";
+
+const {
+  cidrDockerUrl,
+  cidrUrlInput,
+  form,
+  ipLookupDockerUrl,
+  ipLookupUrlInput,
+  isDirty,
+  isLoading,
+  isSaving,
+  isTestingCidr,
+  isTestingIpLookup,
+  resetForm,
+  saveSettings,
+  showLoadingSkeleton,
+  t,
+  testCidrService,
+  testIpLookupService,
+} = useIpLocationSettings();
+</script>
+
+<template>
+  <div class="w-full space-y-4">
+    <div v-if="isLoading && showLoadingSkeleton" class="grid gap-4">
+      <section class="rounded-xl border bg-card p-5 shadow-sm">
+        <div class="flex gap-3">
+          <Skeleton class="size-10 rounded-lg" />
+          <div class="flex-1 space-y-2">
+            <Skeleton class="h-5 w-32" />
+            <Skeleton class="h-4 w-4/5" />
+          </div>
+        </div>
+        <div class="mt-6 space-y-3">
+          <Skeleton class="h-4 w-24" />
+          <Skeleton class="h-9 w-full" />
+          <Skeleton class="h-20 w-full" />
+        </div>
+      </section>
+      <section class="rounded-xl border bg-card p-5 shadow-sm">
+        <div class="flex gap-3">
+          <Skeleton class="size-10 rounded-lg" />
+          <div class="flex-1 space-y-2">
+            <Skeleton class="h-5 w-32" />
+            <Skeleton class="h-4 w-4/5" />
+          </div>
+        </div>
+        <div class="mt-6 space-y-3">
+          <Skeleton class="h-4 w-24" />
+          <Skeleton class="h-9 w-full" />
+          <Skeleton class="h-20 w-full" />
+        </div>
+      </section>
+    </div>
+
+    <div v-else-if="!isLoading" class="grid gap-4">
+      <section
+        class="flex min-h-full flex-col overflow-hidden rounded-xl border bg-card shadow-sm"
+      >
+        <div class="border-b bg-muted/10 p-4 sm:p-5">
+          <div class="flex gap-3">
+            <div class="min-w-0 space-y-1">
+              <h3 class="text-base font-semibold tracking-normal">
+                {{ t("admin.ipLocationSettings.ipLookupTitle") }}
+              </h3>
+              <p class="text-sm leading-6 text-muted-foreground">
+                {{ t("admin.ipLocationSettings.ipLookupDescription") }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex w-full flex-1 flex-col gap-5 p-4 sm:p-5">
+          <div class="space-y-2">
+            <div class="flex items-center justify-between gap-3">
+              <Label for="ip-location-lookup-mode" class="text-sm font-medium">
+                {{ t("admin.ipLocationSettings.serviceSource") }}
+              </Label>
+            </div>
+            <Select v-model="form.ip_lookup_mode" :disabled="isSaving">
+              <SelectTrigger id="ip-location-lookup-mode" class="w-full">
+                <SelectValue
+                  :placeholder="
+                    t('admin.ipLocationSettings.chooseServiceSource')
+                  "
+                />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="online">
+                  {{ t("admin.ipLocationSettings.officialOnlineService") }}
+                </SelectItem>
+                <SelectItem value="custom">
+                  {{ t("admin.ipLocationSettings.customService") }}
+                </SelectItem>
+              </SelectContent>
+            </Select>
+            <p class="text-sm leading-6 text-muted-foreground">
+              {{ t("admin.ipLocationSettings.ipLookupModeHint") }}
+            </p>
+          </div>
+
+          <div
+            v-if="form.ip_lookup_mode === 'online'"
+            class="mt-auto rounded-lg border border-dashed bg-muted/20 p-4"
+          >
+            <div class="flex gap-3">
+              <CheckCircle2 class="mt-0.5 size-4 shrink-0 text-emerald-600" />
+              <div class="min-w-0 space-y-1">
+                <p class="text-sm font-medium">
+                  {{ t("admin.ipLocationSettings.usingOfficialService") }}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            v-if="form.ip_lookup_mode === 'custom'"
+            class="animate-in fade-in slide-in-from-top-2 space-y-4 duration-200"
+          >
+            <div class="rounded-lg border bg-muted/20 p-4">
+              <div class="flex gap-3">
+                <div class="space-y-1 text-sm">
+                  <p class="font-medium">
+                    {{ t("admin.ipLocationSettings.selfHostedService") }}
+                  </p>
+                  <p class="leading-6 text-muted-foreground">
+                    {{ t("admin.ipLocationSettings.canUse") }}
+                    <Button
+                      as-child
+                      variant="link"
+                      data-affordance="details"
+                      class="h-auto gap-1 p-0 align-baseline text-sm"
+                    >
+                      <a
+                        :href="ipLookupDockerUrl"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        go-ipaddress-api
+                        <ExternalLink class="size-3.5" aria-hidden="true" />
+                      </a>
+                    </Button>
+                    {{ t("admin.ipLocationSettings.deploySuffix") }}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="space-y-2">
+              <Label for="ip-location-lookup-url" class="text-sm font-medium">
+                Base URL
+              </Label>
+              <div class="flex flex-col gap-2 sm:flex-row">
+                <InputGroup class="sm:flex-1">
+                  <InputGroupInput
+                    id="ip-location-lookup-url"
+                    v-model="ipLookupUrlInput"
+                    :placeholder="
+                      t('admin.ipLocationSettings.ipLookupPlaceholder')
+                    "
+                    :disabled="isSaving"
+                  />
+                </InputGroup>
+                <Button
+                  variant="outline"
+                  class="w-full sm:w-auto"
+                  :disabled="isTestingIpLookup || !ipLookupUrlInput.trim()"
+                  @click="testIpLookupService"
+                >
+                  <LoaderCircle
+                    v-if="isTestingIpLookup"
+                    class="size-4 animate-spin"
+                  />
+                  <Link2 v-else class="size-4" />
+                  {{
+                    isTestingIpLookup
+                      ? t("admin.ipLocationSettings.testing")
+                      : t("admin.ipLocationSettings.testConnection")
+                  }}
+                </Button>
+              </div>
+              <p class="text-xs text-muted-foreground">
+                {{ t("admin.ipLocationSettings.baseUrlHint") }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="flex min-h-full flex-col overflow-hidden rounded-xl border bg-card shadow-sm"
+      >
+        <div class="border-b bg-muted/10 p-4 sm:p-5">
+          <div class="flex gap-3">
+            <div class="min-w-0 space-y-1">
+              <h3 class="text-base font-semibold tracking-normal">
+                {{ t("admin.ipLocationSettings.cidrTitle") }}
+              </h3>
+              <p class="text-sm leading-6 text-muted-foreground">
+                {{ t("admin.ipLocationSettings.cidrDescription") }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex w-full flex-1 flex-col gap-5 p-4 sm:p-5">
+          <div class="space-y-2">
+            <div class="flex items-center justify-between gap-3">
+              <Label for="ip-location-cidr-mode" class="text-sm font-medium">
+                {{ t("admin.ipLocationSettings.serviceSource") }}
+              </Label>
+            </div>
+            <Select v-model="form.cidr_mode" :disabled="isSaving">
+              <SelectTrigger id="ip-location-cidr-mode" class="w-full">
+                <SelectValue
+                  :placeholder="
+                    t('admin.ipLocationSettings.chooseServiceSource')
+                  "
+                />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="online">
+                  {{ t("admin.ipLocationSettings.officialOnlineService") }}
+                </SelectItem>
+                <SelectItem value="custom">
+                  {{ t("admin.ipLocationSettings.customService") }}
+                </SelectItem>
+              </SelectContent>
+            </Select>
+            <p class="text-sm leading-6 text-muted-foreground">
+              {{ t("admin.ipLocationSettings.cidrModeHint") }}
+            </p>
+          </div>
+
+          <div
+            v-if="form.cidr_mode === 'online'"
+            class="mt-auto rounded-lg border border-dashed bg-muted/20 p-4"
+          >
+            <div class="flex gap-3">
+              <CheckCircle2 class="mt-0.5 size-4 shrink-0 text-emerald-600" />
+              <div class="min-w-0 space-y-1">
+                <p class="text-sm font-medium">
+                  {{ t("admin.ipLocationSettings.usingOfficialService") }}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            v-if="form.cidr_mode === 'custom'"
+            class="animate-in fade-in slide-in-from-top-2 space-y-4 duration-200"
+          >
+            <div class="rounded-lg border bg-muted/20 p-4">
+              <div class="flex gap-3">
+                <div class="space-y-1 text-sm">
+                  <p class="font-medium">
+                    {{ t("admin.ipLocationSettings.selfHostedService") }}
+                  </p>
+                  <p class="leading-6 text-muted-foreground">
+                    {{ t("admin.ipLocationSettings.canUse") }}
+                    <Button
+                      as-child
+                      variant="link"
+                      data-affordance="details"
+                      class="h-auto gap-1 p-0 align-baseline text-sm"
+                    >
+                      <a
+                        :href="cidrDockerUrl"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        go-cidr-api
+                        <ExternalLink class="size-3.5" aria-hidden="true" />
+                      </a>
+                    </Button>
+                    {{ t("admin.ipLocationSettings.deploySuffix") }}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="space-y-2">
+              <Label for="ip-location-cidr-url" class="text-sm font-medium">
+                Base URL
+              </Label>
+              <div class="flex flex-col gap-2 sm:flex-row">
+                <InputGroup class="sm:flex-1">
+                  <InputGroupInput
+                    id="ip-location-cidr-url"
+                    v-model="cidrUrlInput"
+                    :placeholder="t('admin.ipLocationSettings.cidrPlaceholder')"
+                    :disabled="isSaving"
+                  />
+                </InputGroup>
+                <Button
+                  variant="outline"
+                  class="w-full sm:w-auto"
+                  :disabled="isTestingCidr || !cidrUrlInput.trim()"
+                  @click="testCidrService"
+                >
+                  <LoaderCircle
+                    v-if="isTestingCidr"
+                    class="size-4 animate-spin"
+                  />
+                  <Link2 v-else class="size-4" />
+                  {{
+                    isTestingCidr
+                      ? t("admin.ipLocationSettings.testing")
+                      : t("admin.ipLocationSettings.testConnection")
+                  }}
+                </Button>
+              </div>
+              <p class="text-xs text-muted-foreground">
+                {{ t("admin.ipLocationSettings.baseUrlHint") }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div
+      v-else
+      class="min-h-[220px] rounded-xl border bg-card"
+      aria-hidden="true"
+    />
+
+    <FloatingActionDock
+      :active="isDirty"
+      inline-class="rounded-xl border bg-card px-4 py-4 shadow-sm sm:px-6"
+    >
+      <template #inline>
+        <div
+          class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-end"
+        >
+          <div class="flex gap-3">
+            <Button
+              variant="outline"
+              class="flex-1 sm:flex-none"
+              :disabled="!isDirty || isSaving"
+              @click="resetForm"
+            >
+              <RotateCcw class="size-4" />
+              {{ t("admin.ipLocationSettings.discard") }}
+            </Button>
+            <Button
+              class="flex-1 sm:flex-none"
+              :disabled="!isDirty || isSaving"
+              @click="saveSettings"
+            >
+              <LoaderCircle v-if="isSaving" class="size-4 animate-spin" />
+              <Save v-else class="size-4" />
+              {{
+                isSaving
+                  ? t("admin.ipLocationSettings.saving")
+                  : t("admin.ipLocationSettings.saveChanges")
+              }}
+            </Button>
+          </div>
+        </div>
+      </template>
+
+      <template #floating>
+        <Button
+          variant="outline"
+          :disabled="!isDirty || isSaving"
+          @click="resetForm"
+        >
+          <RotateCcw class="size-4" />
+          {{ t("admin.ipLocationSettings.discard") }}
+        </Button>
+        <Button :disabled="!isDirty || isSaving" @click="saveSettings">
+          <LoaderCircle v-if="isSaving" class="size-4 animate-spin" />
+          <Save v-else class="size-4" />
+          {{
+            isSaving
+              ? t("admin.ipLocationSettings.saving")
+              : t("admin.ipLocationSettings.saveChanges")
+          }}
+        </Button>
+      </template>
+    </FloatingActionDock>
+  </div>
+</template>

@@ -1,1 +1,60 @@
-cHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgY29uc3QgTE9HSU5fQkFDS09GRl9QUkVGSVg6ICZzdHIgPSAiZm5fa25vY2s6bG9naW5fYmFja29mZjoiOwpwdWIoaW4gY3JhdGU6OnN0b3JhZ2U6OnJlZGlzX3N0b3JlKSBjb25zdCBMT0dJTl9CQUNLT0ZGX1RUTF9TRUNPTkRTOiBpNjQgPSAzNjAwOwpwdWIoaW4gY3JhdGU6OnN0b3JhZ2U6OnJlZGlzX3N0b3JlKSBjb25zdCBUT1RQX1NVQkRPTUFJTl9BQ0NFU1NfU0VMRUNUX1BBR0U6ICZzdHIgPQogICAgIl9fYnVpbHRpbl9zZWxlY3RfXyI7CnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGNvbnN0IFRPVFBfU1VCRE9NQUlOX0FDQ0VTU19TRUxFQ1RfUEFHRV9QQVRIOiAmc3RyID0KICAgICIvX19zZWxlY3RfXyI7CnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGNvbnN0IFRPVFBfU1VCRE9NQUlOX0FDQ0VTU19XT0xfUEFHRTogJnN0ciA9ICJfX2J1aWx0aW5fd29sX18iOwpwdWIoaW4gY3JhdGU6OnN0b3JhZ2U6OnJlZGlzX3N0b3JlKSBjb25zdCBUT1RQX1NVQkRPTUFJTl9BQ0NFU1NfV09MX1BBR0VfUEFUSDogJnN0ciA9ICIvX193b2xfXyI7CnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGNvbnN0IExPR0lOX0JBQ0tPRkZfUkVHSVNURVJfRkFJTFVSRV9TQ1JJUFQ6ICZzdHIgPSByIyIKLS0gZm4ta25vY2s6ZXZhbDpsb2dpbi1iYWNrb2ZmOnYxCmxvY2FsIGtleSA9IEtFWVNbMV0KbG9jYWwgaXAgPSBBUkdWWzFdCmxvY2FsIG5vdyA9IHRvbnVtYmVyKEFSR1ZbMl0pCmxvY2FsIHR0bFNlY29uZHMgPSB0b251bWJlcihBUkdWWzNdKQpsb2NhbCBiYXNlRGVsYXkgPSB0b251bWJlcihBUkdWWzRdKQpsb2NhbCBtYXhEZWxheSA9IHRvbnVtYmVyKEFSR1ZbNV0pCmxvY2FsIGppdHRlckZhY3RvciA9IHRvbnVtYmVyKEFSR1ZbNl0pCgpsb2NhbCBhdHRlbXB0cyA9IDAKbG9jYWwgcmF3ID0gcmVkaXMuY2FsbCgnR0VUJywga2V5KQppZiByYXcgdGhlbgogIGxvY2FsIG9rLCBkZWNvZGVkID0gcGNhbGwoY2pzb24uZGVjb2RlLCByYXcpCiAgaWYgb2sgYW5kIHR5cGUoZGVjb2RlZCkgPT0gJ3RhYmxlJyBhbmQgdG9udW1iZXIoZGVjb2RlZC5hdHRlbXB0cykgdGhlbgogICAgYXR0ZW1wdHMgPSB0b251bWJlcihkZWNvZGVkLmF0dGVtcHRzKQogIGVuZAplbmQKCmF0dGVtcHRzID0gYXR0ZW1wdHMgKyAxCgpsb2NhbCBleHBEZWxheSA9IG1hdGgucG93KDIsIGF0dGVtcHRzIC0gMSkgKiBiYXNlRGVsYXkKbG9jYWwgc2VlZCA9IGlwIC4uICc6JyAuLiB0b3N0cmluZyhhdHRlbXB0cykgLi4gJzonIC4uIHRvc3RyaW5nKG5vdykKbG9jYWwgaGFzaCA9IDAKZm9yIGkgPSAxLCAjc2VlZCBkbwogIGhhc2ggPSAoaGFzaCAqIDMzICsgc3RyaW5nLmJ5dGUoc2VlZCwgaSkpICUgMTAwMDAwMwplbmQKbG9jYWwgcmF0aW8gPSAoaGFzaCAlIDEwMDAwKSAvIDEwMDAwCmxvY2FsIGppdHRlciA9ICgocmF0aW8gKiAyKSAtIDEpICogKGV4cERlbGF5ICogaml0dGVyRmFjdG9yKQpsb2NhbCBiYWNrb2ZmTXMgPSBtYXRoLmZsb29yKGV4cERlbGF5ICsgaml0dGVyKQppZiBiYWNrb2ZmTXMgPCAwIHRoZW4KICBiYWNrb2ZmTXMgPSAwCmVuZAppZiBiYWNrb2ZmTXMgPiBtYXhEZWxheSB0aGVuCiAgYmFja29mZk1zID0gbWF4RGVsYXkKZW5kCgpsb2NhbCBibG9ja2VkVW50aWwgPSBub3cgKyBiYWNrb2ZmTXMKbG9jYWwgbmV4dFN0YXRlID0gY2pzb24uZW5jb2RlKHsKICBpcCA9IGlwLAogIGF0dGVtcHRzID0gYXR0ZW1wdHMsCiAgbGFzdEF0dGVtcHQgPSBub3csCiAgYmxvY2tlZFVudGlsID0gYmxvY2tlZFVudGlsLAp9KQoKcmVkaXMuY2FsbCgnU0VUJywga2V5LCBuZXh0U3RhdGUsICdFWCcsIHR0bFNlY29uZHMpCnJldHVybiB7YXR0ZW1wdHMsIG1hdGguY2VpbChiYWNrb2ZmTXMgLyAxMDAwKSwgYmxvY2tlZFVudGlsfQoiIzsKCnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGZuIGxvZ2luX2JhY2tvZmZfa2V5KGlwOiAmc3RyKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgie0xPR0lOX0JBQ0tPRkZfUFJFRklYfXtpcH0iKQp9Cg==
+pub(in crate::storage::redis_store) const LOGIN_BACKOFF_PREFIX: &str = "fn_knock:login_backoff:";
+pub(in crate::storage::redis_store) const LOGIN_BACKOFF_TTL_SECONDS: i64 = 3600;
+pub(in crate::storage::redis_store) const TOTP_SUBDOMAIN_ACCESS_SELECT_PAGE: &str =
+    "__builtin_select__";
+pub(in crate::storage::redis_store) const TOTP_SUBDOMAIN_ACCESS_SELECT_PAGE_PATH: &str =
+    "/__select__";
+pub(in crate::storage::redis_store) const TOTP_SUBDOMAIN_ACCESS_WOL_PAGE: &str = "__builtin_wol__";
+pub(in crate::storage::redis_store) const TOTP_SUBDOMAIN_ACCESS_WOL_PAGE_PATH: &str = "/__wol__";
+pub(in crate::storage::redis_store) const LOGIN_BACKOFF_REGISTER_FAILURE_SCRIPT: &str = r#"
+-- fn-knock:eval:login-backoff:v1
+local key = KEYS[1]
+local ip = ARGV[1]
+local now = tonumber(ARGV[2])
+local ttlSeconds = tonumber(ARGV[3])
+local baseDelay = tonumber(ARGV[4])
+local maxDelay = tonumber(ARGV[5])
+local jitterFactor = tonumber(ARGV[6])
+
+local attempts = 0
+local raw = redis.call('GET', key)
+if raw then
+  local ok, decoded = pcall(cjson.decode, raw)
+  if ok and type(decoded) == 'table' and tonumber(decoded.attempts) then
+    attempts = tonumber(decoded.attempts)
+  end
+end
+
+attempts = attempts + 1
+
+local expDelay = math.pow(2, attempts - 1) * baseDelay
+local seed = ip .. ':' .. tostring(attempts) .. ':' .. tostring(now)
+local hash = 0
+for i = 1, #seed do
+  hash = (hash * 33 + string.byte(seed, i)) % 1000003
+end
+local ratio = (hash % 10000) / 10000
+local jitter = ((ratio * 2) - 1) * (expDelay * jitterFactor)
+local backoffMs = math.floor(expDelay + jitter)
+if backoffMs < 0 then
+  backoffMs = 0
+end
+if backoffMs > maxDelay then
+  backoffMs = maxDelay
+end
+
+local blockedUntil = now + backoffMs
+local nextState = cjson.encode({
+  ip = ip,
+  attempts = attempts,
+  lastAttempt = now,
+  blockedUntil = blockedUntil,
+})
+
+redis.call('SET', key, nextState, 'EX', ttlSeconds)
+return {attempts, math.ceil(backoffMs / 1000), blockedUntil}
+"#;
+
+pub(in crate::storage::redis_store) fn login_backoff_key(ip: &str) -> String {
+    format!("{LOGIN_BACKOFF_PREFIX}{ip}")
+}

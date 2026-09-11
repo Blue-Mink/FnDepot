@@ -1,1 +1,72 @@
-aW1wb3J0IHsgYWZ0ZXJFYWNoLCBiZWZvcmVFYWNoLCBkZXNjcmliZSwgZXhwZWN0LCBpdCwgdmkgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBERUZBVUxUX0xPQ0FMRSwgTE9DQUxFX1NUT1JBR0VfS0VZIH0gZnJvbSAiQGZuLWtub2NrL2kxOG4vY29yZSI7Cgpjb25zdCBsb2FkUnVudGltZSA9IGFzeW5jICgKICBsb2FkZXJzOiBQYXJ0aWFsPAogICAgUmVjb3JkPAogICAgICAiemgtQ04iIHwgInpoLUhhbnQiIHwgImVuIiB8ICJrby1LUiIgfCAiamEtSlAiLAogICAgICAoKSA9PiBQcm9taXNlPHsgZGVmYXVsdDogUmVjb3JkPHN0cmluZywgdW5rbm93bj4gfT4KICAgID4KICA+LAopID0+IHsKICBjb25zdCBicm93c2VyUnVudGltZSA9CiAgICBhd2FpdCBpbXBvcnQoIi4uLy4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL2Jyb3dzZXItcnVudGltZSIpOwogIGJyb3dzZXJSdW50aW1lLnJlZ2lzdGVyU2NvcGVkTG9jYWxlTG9hZGVycygiYWRtaW4iLCB7CiAgICAiemgtQ04iOiBsb2FkZXJzWyJ6aC1DTiJdID8/IHZpLmZuKCksCiAgICAiemgtSGFudCI6IGxvYWRlcnNbInpoLUhhbnQiXSA/PyB2aS5mbigpLAogICAgZW46IGxvYWRlcnMuZW4gPz8gdmkuZm4oKSwKICAgICJrby1LUiI6IGxvYWRlcnNbImtvLUtSIl0gPz8gdmkuZm4oKSwKICAgICJqYS1KUCI6IGxvYWRlcnNbImphLUpQIl0gPz8gdmkuZm4oKSwKICB9KTsKICByZXR1cm4gaW1wb3J0KCIuLi8uLi8uLi9wYWNrYWdlcy9pMThuL3NyYy92dWUtcnVudGltZSIpOwp9OwoKYmVmb3JlRWFjaCgoKSA9PiB7CiAgdmkucmVzZXRNb2R1bGVzKCk7CiAgd2luZG93LmxvY2FsU3RvcmFnZS5jbGVhcigpOwogIGRvY3VtZW50LmNvb2tpZSA9ICJmbl9rbm9ja19sb2NhbGU9OyBNYXgtQWdlPTA7IFBhdGg9LyI7Cn0pOwoKYWZ0ZXJFYWNoKCgpID0+IHsKICB2aS5yZXN0b3JlQWxsTW9ja3MoKTsKfSk7CgpkZXNjcmliZSgiaTE4biBhcHBsaWNhdGlvbiBib290c3RyYXAiLCAoKSA9PiB7CiAgaXQoImZhbGxzIGJhY2sgdG8gdGhlIGRlZmF1bHQgbG9jYWxlIHdoZW4gYSBwZXJzaXN0ZWQgbG9jYWxlIGNodW5rIGZhaWxzIiwgYXN5bmMgKCkgPT4gewogICAgd2luZG93LmxvY2FsU3RvcmFnZS5zZXRJdGVtKExPQ0FMRV9TVE9SQUdFX0tFWSwgImVuIik7CiAgICBjb25zdCB3YXJuID0gdmkuc3B5T24oY29uc29sZSwgIndhcm4iKS5tb2NrSW1wbGVtZW50YXRpb24oKCkgPT4gdW5kZWZpbmVkKTsKICAgIGNvbnN0IHJ1bnRpbWUgPSBhd2FpdCBsb2FkUnVudGltZSh7CiAgICAgIGVuOiBhc3luYyAoKSA9PiB7CiAgICAgICAgdGhyb3cgbmV3IFR5cGVFcnJvcigiRmFpbGVkIHRvIGZldGNoIik7CiAgICAgIH0sCiAgICAgICJ6aC1DTiI6IGFzeW5jICgpID0+ICh7IGRlZmF1bHQ6IHsgY29tbW9uOiB7IG9rOiAi56Gu5a6aIiB9IH0gfSksCiAgICB9KTsKCiAgICBjb25zdCBpMThuID0gYXdhaXQgcnVudGltZS5jcmVhdGVTY29wZWRGbktub2NrSTE4bigiYWRtaW4iKTsKCiAgICBleHBlY3QoaTE4bi5nbG9iYWwubG9jYWxlLnZhbHVlKS50b0JlKERFRkFVTFRfTE9DQUxFKTsKICAgIGV4cGVjdCh3aW5kb3cubG9jYWxTdG9yYWdlLmdldEl0ZW0oTE9DQUxFX1NUT1JBR0VfS0VZKSkudG9CZSgKICAgICAgREVGQVVMVF9MT0NBTEUsCiAgICApOwogICAgZXhwZWN0KGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5sYW5nKS50b0JlKERFRkFVTFRfTE9DQUxFKTsKICAgIGV4cGVjdCh3YXJuKS50b0hhdmVCZWVuQ2FsbGVkT25jZSgpOwogIH0pOwoKICBpdCgic3VyZmFjZXMgdGhlIGVycm9yIHdoZW4gYm90aCB0aGUgcHJlZmVycmVkIGFuZCBkZWZhdWx0IGNodW5rcyBmYWlsIiwgYXN5bmMgKCkgPT4gewogICAgd2luZG93LmxvY2FsU3RvcmFnZS5zZXRJdGVtKExPQ0FMRV9TVE9SQUdFX0tFWSwgImVuIik7CiAgICB2aS5zcHlPbihjb25zb2xlLCAid2FybiIpLm1vY2tJbXBsZW1lbnRhdGlvbigoKSA9PiB1bmRlZmluZWQpOwogICAgY29uc3QgZGVmYXVsdEZhaWx1cmUgPSBuZXcgVHlwZUVycm9yKCJMb2FkIGZhaWxlZCIpOwogICAgY29uc3QgcnVudGltZSA9IGF3YWl0IGxvYWRSdW50aW1lKHsKICAgICAgZW46IGFzeW5jICgpID0+IHsKICAgICAgICB0aHJvdyBuZXcgVHlwZUVycm9yKCJGYWlsZWQgdG8gZmV0Y2giKTsKICAgICAgfSwKICAgICAgInpoLUNOIjogYXN5bmMgKCkgPT4gewogICAgICAgIHRocm93IGRlZmF1bHRGYWlsdXJlOwogICAgICB9LAogICAgfSk7CgogICAgYXdhaXQgZXhwZWN0KHJ1bnRpbWUuY3JlYXRlU2NvcGVkRm5Lbm9ja0kxOG4oImFkbWluIikpLnJlamVjdHMudG9CZSgKICAgICAgZGVmYXVsdEZhaWx1cmUsCiAgICApOwogIH0pOwp9KTsK
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { DEFAULT_LOCALE, LOCALE_STORAGE_KEY } from "@fn-knock/i18n/core";
+
+const loadRuntime = async (
+  loaders: Partial<
+    Record<
+      "zh-CN" | "zh-Hant" | "en" | "ko-KR" | "ja-JP",
+      () => Promise<{ default: Record<string, unknown> }>
+    >
+  >,
+) => {
+  const browserRuntime =
+    await import("../../../packages/i18n/src/browser-runtime");
+  browserRuntime.registerScopedLocaleLoaders("admin", {
+    "zh-CN": loaders["zh-CN"] ?? vi.fn(),
+    "zh-Hant": loaders["zh-Hant"] ?? vi.fn(),
+    en: loaders.en ?? vi.fn(),
+    "ko-KR": loaders["ko-KR"] ?? vi.fn(),
+    "ja-JP": loaders["ja-JP"] ?? vi.fn(),
+  });
+  return import("../../../packages/i18n/src/vue-runtime");
+};
+
+beforeEach(() => {
+  vi.resetModules();
+  window.localStorage.clear();
+  document.cookie = "fn_knock_locale=; Max-Age=0; Path=/";
+});
+
+afterEach(() => {
+  vi.restoreAllMocks();
+});
+
+describe("i18n application bootstrap", () => {
+  it("falls back to the default locale when a persisted locale chunk fails", async () => {
+    window.localStorage.setItem(LOCALE_STORAGE_KEY, "en");
+    const warn = vi.spyOn(console, "warn").mockImplementation(() => undefined);
+    const runtime = await loadRuntime({
+      en: async () => {
+        throw new TypeError("Failed to fetch");
+      },
+      "zh-CN": async () => ({ default: { common: { ok: "确定" } } }),
+    });
+
+    const i18n = await runtime.createScopedFnKnockI18n("admin");
+
+    expect(i18n.global.locale.value).toBe(DEFAULT_LOCALE);
+    expect(window.localStorage.getItem(LOCALE_STORAGE_KEY)).toBe(
+      DEFAULT_LOCALE,
+    );
+    expect(document.documentElement.lang).toBe(DEFAULT_LOCALE);
+    expect(warn).toHaveBeenCalledOnce();
+  });
+
+  it("surfaces the error when both the preferred and default chunks fail", async () => {
+    window.localStorage.setItem(LOCALE_STORAGE_KEY, "en");
+    vi.spyOn(console, "warn").mockImplementation(() => undefined);
+    const defaultFailure = new TypeError("Load failed");
+    const runtime = await loadRuntime({
+      en: async () => {
+        throw new TypeError("Failed to fetch");
+      },
+      "zh-CN": async () => {
+        throw defaultFailure;
+      },
+    });
+
+    await expect(runtime.createScopedFnKnockI18n("admin")).rejects.toBe(
+      defaultFailure,
+    );
+  });
+});

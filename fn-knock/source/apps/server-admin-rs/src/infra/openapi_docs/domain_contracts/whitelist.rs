@@ -1,1 +1,96 @@
-dXNlIHNlcmRlOjpTZXJpYWxpemU7CnVzZSB1dG9pcGE6OlRvU2NoZW1hOwoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2hpdGVsaXN0UmVjb3JkRGF0YSB7CiAgICBpZDogU3RyaW5nLAogICAgaXA6IFN0cmluZywKICAgIHRhcmdldF90eXBlOiBTdHJpbmcsCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgZXhwaXJlX2F0OiBPcHRpb248aTY0PiwKICAgIHNvdXJjZTogU3RyaW5nLAogICAgY3JlYXRlZF9hdDogaTY0LAogICAgc3RhdHVzOiBTdHJpbmcsCiAgICBjb21tZW50OiBPcHRpb248U3RyaW5nPiwKICAgIGlwX2xvY2F0aW9uOiBPcHRpb248U3RyaW5nPiwKICAgIHJlc29sdmVkX3RhcmdldHM6IE9wdGlvbjxWZWM8U3RyaW5nPj4sCiAgICBjaGVja19pbnRlcnZhbF9taW51dGVzOiBPcHRpb248aTY0PiwKICAgIGxhc3RfY2hlY2tlZF9hdDogT3B0aW9uPGk2ND4sCiAgICBsYXN0X3Jlc29sdmVkX2F0OiBPcHRpb248aTY0PiwKICAgIHJlc29sdmVfc3RhdHVzOiBPcHRpb248U3RyaW5nPiwKICAgIHJlc29sdmVfbWVzc2FnZTogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBXaGl0ZWxpc3RSZWdpb25JbnB1dERhdGEgewogICAgcHJvdmluY2U6IFN0cmluZywKICAgIHF1ZXJ5X2NpdHk6IE9wdGlvbjxTdHJpbmc+LAogICAgb3BlcmF0b3I6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBXaGl0ZWxpc3RSZWdpb25Hcm91cERhdGEgewogICAgaWQ6IFN0cmluZywKICAgIHJlZ2lvbnM6IFZlYzxXaGl0ZWxpc3RSZWdpb25JbnB1dERhdGE+LAogICAgY2lkcl9jb3VudDogdXNpemUsCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgZXhwaXJlX2F0OiBPcHRpb248aTY0PiwKICAgIHNvdXJjZTogU3RyaW5nLAogICAgY3JlYXRlZF9hdDogaTY0LAogICAgdXBkYXRlZF9hdDogaTY0LAogICAgc3RhdHVzOiBTdHJpbmcsCiAgICBjb21tZW50OiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2hpdGVsaXN0QWRkQm9keURhdGEgewogICAgaXA6IFN0cmluZywKICAgIHRhcmdldF90eXBlOiBPcHRpb248U3RyaW5nPiwKICAgIGV4cGlyZV9hdDogT3B0aW9uPGk2ND4sCiAgICBzb3VyY2U6IE9wdGlvbjxTdHJpbmc+LAogICAgY29tbWVudDogT3B0aW9uPFN0cmluZz4sCiAgICBjaGVja19pbnRlcnZhbF9taW51dGVzOiBPcHRpb248aTY0PiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2hpdGVsaXN0UmVnaW9uQWRkQm9keURhdGEgewogICAgcmVnaW9uczogVmVjPFdoaXRlbGlzdFJlZ2lvbklucHV0RGF0YT4sCiAgICBleHBpcmVfYXQ6IE9wdGlvbjxpNjQ+LAogICAgY29tbWVudDogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBXaGl0ZWxpc3RDb21tZW50Qm9keURhdGEgewogICAgY29tbWVudDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2hpdGVsaXN0QWRkUmVzdWx0RGF0YSB7CiAgICBpZDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2hpdGVsaXN0UmVnaW9uQWRkUmVzdWx0RGF0YSB7CiAgICBncm91cDogV2hpdGVsaXN0UmVnaW9uR3JvdXBEYXRhLAogICAgdG90YWw6IHVzaXplLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2hpdGVsaXN0UmVmcmVzaERhdGEgewogICAgY2hhbmdlZDogYm9vbCwKICAgIHNraXBwZWQ6IGJvb2wsCiAgICByZWNvcmQ6IFdoaXRlbGlzdFJlY29yZERhdGEsCn0KCi8vLyBDTkFNRSByZXNvbHV0aW9uIGZhaWx1cmVzIGRlbGliZXJhdGVseSB1c2UgSFRUUCAyMDAgc28gdGhlIHJlZnJlc2hlZAovLy8gcmVjb3JkIGFuZCBpdHMgbG9jYWxpemVkIHJlc29sdmVyIGVycm9yIGNhbiBzdGlsbCByZXBsYWNlIHN0YWxlIFVJIHN0YXRlLgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2hpdGVsaXN0UmVmcmVzaEVudmVsb3BlRGF0YSB7CiAgICBzdWNjZXNzOiBib29sLAogICAgbWVzc2FnZTogT3B0aW9uPFN0cmluZz4sCiAgICBkYXRhOiBXaGl0ZWxpc3RSZWZyZXNoRGF0YSwKfQo=
+use serde::Serialize;
+use utoipa::ToSchema;
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct WhitelistRecordData {
+    id: String,
+    ip: String,
+    target_type: String,
+    #[schema(required = true)]
+    expire_at: Option<i64>,
+    source: String,
+    created_at: i64,
+    status: String,
+    comment: Option<String>,
+    ip_location: Option<String>,
+    resolved_targets: Option<Vec<String>>,
+    check_interval_minutes: Option<i64>,
+    last_checked_at: Option<i64>,
+    last_resolved_at: Option<i64>,
+    resolve_status: Option<String>,
+    resolve_message: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WhitelistRegionInputData {
+    province: String,
+    query_city: Option<String>,
+    operator: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct WhitelistRegionGroupData {
+    id: String,
+    regions: Vec<WhitelistRegionInputData>,
+    cidr_count: usize,
+    #[schema(required = true)]
+    expire_at: Option<i64>,
+    source: String,
+    created_at: i64,
+    updated_at: i64,
+    status: String,
+    comment: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct WhitelistAddBodyData {
+    ip: String,
+    target_type: Option<String>,
+    expire_at: Option<i64>,
+    source: Option<String>,
+    comment: Option<String>,
+    check_interval_minutes: Option<i64>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct WhitelistRegionAddBodyData {
+    regions: Vec<WhitelistRegionInputData>,
+    expire_at: Option<i64>,
+    comment: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WhitelistCommentBodyData {
+    comment: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WhitelistAddResultData {
+    id: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WhitelistRegionAddResultData {
+    group: WhitelistRegionGroupData,
+    total: usize,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WhitelistRefreshData {
+    changed: bool,
+    skipped: bool,
+    record: WhitelistRecordData,
+}
+
+/// CNAME resolution failures deliberately use HTTP 200 so the refreshed
+/// record and its localized resolver error can still replace stale UI state.
+#[derive(Serialize, ToSchema)]
+pub(super) struct WhitelistRefreshEnvelopeData {
+    success: bool,
+    message: Option<String>,
+    data: WhitelistRefreshData,
+}

@@ -1,1 +1,73 @@
-aW1wb3J0IHsgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsKICBQb2xsaW5nQVBJLAogIHR5cGUgUG9sbFRhcmdldCwKICB0eXBlIFBvbGxpbmdQYXlsb2FkTWFwLAp9IGZyb20gIkAvbGliL2FwaS9wb2xsaW5nIjsKaW1wb3J0IHsgY3JlYXRlVmlzaWJpbGl0eVBvbGxlciB9IGZyb20gIi4vdXNlVmlzaWJpbGl0eVBvbGxpbmciOwoKaW50ZXJmYWNlIFVzZVRhcmdldFBvbGxpbmdPcHRpb25zPFQgZXh0ZW5kcyBQb2xsVGFyZ2V0PiB7CiAgdGFyZ2V0OiBUOwogIGludGVydmFsTXM/OiBudW1iZXI7CiAgaW1tZWRpYXRlPzogYm9vbGVhbjsKICBvbkRhdGE6IChwYXlsb2FkOiBQb2xsaW5nUGF5bG9hZE1hcFtUXSkgPT4gdm9pZDsKICBvbkVycm9yPzogKGVycm9yOiB1bmtub3duKSA9PiB2b2lkOwp9CgpleHBvcnQgZnVuY3Rpb24gdXNlVGFyZ2V0UG9sbGluZzxUIGV4dGVuZHMgUG9sbFRhcmdldD4oCiAgb3B0aW9uczogVXNlVGFyZ2V0UG9sbGluZ09wdGlvbnM8VD4sCikgewogIGNvbnN0IGlzUnVubmluZyA9IHJlZihmYWxzZSk7CiAgbGV0IGN1cnNvcjogbnVtYmVyIHwgdW5kZWZpbmVkOwogIGxldCBydW5Ub2tlbiA9IDA7CgogIGNvbnN0IHJlc2V0Q3Vyc29yID0gKCkgPT4gewogICAgY3Vyc29yID0gdW5kZWZpbmVkOwogIH07CgogIGNvbnN0IGZldGNoT25jZSA9IGFzeW5jIChzaWduYWw6IEFib3J0U2lnbmFsKSA9PiB7CiAgICBjb25zdCB0b2tlbiA9IHJ1blRva2VuOwogICAgdHJ5IHsKICAgICAgY29uc3QgcGF5bG9hZCA9IGF3YWl0IFBvbGxpbmdBUEkucG9sbChvcHRpb25zLnRhcmdldCwgY3Vyc29yLCBzaWduYWwpOwogICAgICBpZiAodG9rZW4gIT09IHJ1blRva2VuIHx8IHNpZ25hbC5hYm9ydGVkKSByZXR1cm47CiAgICAgIGNvbnN0IG5leHRDdXJzb3IgPSAocGF5bG9hZCBhcyB7IGN1cnNvcj86IHVua25vd24gfSkuY3Vyc29yOwogICAgICBpZiAoCiAgICAgICAgdHlwZW9mIG5leHRDdXJzb3IgPT09ICJudW1iZXIiICYmCiAgICAgICAgTnVtYmVyLmlzRmluaXRlKG5leHRDdXJzb3IpICYmCiAgICAgICAgbmV4dEN1cnNvciA+PSAwCiAgICAgICkgewogICAgICAgIGN1cnNvciA9IG5leHRDdXJzb3I7CiAgICAgIH0KICAgICAgb3B0aW9ucy5vbkRhdGEocGF5bG9hZCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBpZiAoIXNpZ25hbC5hYm9ydGVkKSBvcHRpb25zLm9uRXJyb3I/LihlcnJvcik7CiAgICB9CiAgfTsKCiAgY29uc3QgcG9sbGVyID0gY3JlYXRlVmlzaWJpbGl0eVBvbGxlcih7CiAgICBpbnRlcnZhbE1zOiBvcHRpb25zLmludGVydmFsTXMgPz8gMjAwMCwKICAgIGltbWVkaWF0ZTogb3B0aW9ucy5pbW1lZGlhdGUsCiAgICB0YXNrOiBmZXRjaE9uY2UsCiAgfSk7CgogIGNvbnN0IHN0YXJ0ID0gKCkgPT4gewogICAgaWYgKGlzUnVubmluZy52YWx1ZSkgcmV0dXJuOwogICAgcnVuVG9rZW4gKz0gMTsKICAgIGlzUnVubmluZy52YWx1ZSA9IHRydWU7CiAgICBwb2xsZXIuc3RhcnQoKTsKICB9OwoKICBjb25zdCBzdG9wID0gKCkgPT4gewogICAgcnVuVG9rZW4gKz0gMTsKICAgIGlzUnVubmluZy52YWx1ZSA9IGZhbHNlOwogICAgcG9sbGVyLnN0b3AoKTsKICB9OwoKICByZXR1cm4gewogICAgaXNSdW5uaW5nLAogICAgc3RhcnQsCiAgICBzdG9wLAogICAgcmVmcmVzaDogcG9sbGVyLnJlZnJlc2gsCiAgICByZXNldEN1cnNvciwKICB9Owp9Cg==
+import { ref } from "vue";
+import {
+  PollingAPI,
+  type PollTarget,
+  type PollingPayloadMap,
+} from "@/lib/api/polling";
+import { createVisibilityPoller } from "./useVisibilityPolling";
+
+interface UseTargetPollingOptions<T extends PollTarget> {
+  target: T;
+  intervalMs?: number;
+  immediate?: boolean;
+  onData: (payload: PollingPayloadMap[T]) => void;
+  onError?: (error: unknown) => void;
+}
+
+export function useTargetPolling<T extends PollTarget>(
+  options: UseTargetPollingOptions<T>,
+) {
+  const isRunning = ref(false);
+  let cursor: number | undefined;
+  let runToken = 0;
+
+  const resetCursor = () => {
+    cursor = undefined;
+  };
+
+  const fetchOnce = async (signal: AbortSignal) => {
+    const token = runToken;
+    try {
+      const payload = await PollingAPI.poll(options.target, cursor, signal);
+      if (token !== runToken || signal.aborted) return;
+      const nextCursor = (payload as { cursor?: unknown }).cursor;
+      if (
+        typeof nextCursor === "number" &&
+        Number.isFinite(nextCursor) &&
+        nextCursor >= 0
+      ) {
+        cursor = nextCursor;
+      }
+      options.onData(payload);
+    } catch (error) {
+      if (!signal.aborted) options.onError?.(error);
+    }
+  };
+
+  const poller = createVisibilityPoller({
+    intervalMs: options.intervalMs ?? 2000,
+    immediate: options.immediate,
+    task: fetchOnce,
+  });
+
+  const start = () => {
+    if (isRunning.value) return;
+    runToken += 1;
+    isRunning.value = true;
+    poller.start();
+  };
+
+  const stop = () => {
+    runToken += 1;
+    isRunning.value = false;
+    poller.stop();
+  };
+
+  return {
+    isRunning,
+    start,
+    stop,
+    refresh: poller.refresh,
+    resetCursor,
+  };
+}

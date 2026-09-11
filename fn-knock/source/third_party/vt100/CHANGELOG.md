@@ -1,1 +1,396 @@
-IyBDaGFuZ2Vsb2cKCiMjIFswLjE2LjJdIC0gMjAyNS0wNy0xMQoKIyMjIEZpeGVkCgoqIEZpeGVkIHBvdGVudGlhbCBjdXJzb3Igb3V0IG9mIGJvdW5kcyB3aGVuIHVzaW5nIGRlY3JjIGFmdGVyIHJlc2l6aW5nLiAoIzEzKQoKIyMgWzAuMTYuMV0gLSAyMDI1LTA3LTEwCgojIyMgQ2hhbmdlZAoKKiBSZXZlcnRlZCB0byB0aGUgMjAyMSBlZGl0aW9uIGZvciBub3cuCgojIyBbMC4xNi4wXSAtIDIwMjUtMDctMDgKCiMjIyBBZGRlZAoKKiBgUGFyc2VyOjpwcm9jZXNzX2NiYCwgd2hpY2ggd29ya3MgdGhlIHNhbWUgYXMgYFBhcnNlcjo6cHJvY2Vzc2AgZXhjZXB0IHRoYXQKICBpdCBjYWxscyBjYWxsYmFja3MgZHVyaW5nIHBhcnNpbmcgd2hlbiBpdCBmaW5kcyBhIHRlcm1pbmFsIGVzY2FwZSB3aGljaCBpcwogIHBvdGVudGlhbGx5IHVzZWZ1bCBidXQgbm90IHNvbWV0aGluZyB0aGF0IGFmZmVjdHMgdGhlIHNjcmVlbiBpdHNlbGYuCiogU3VwcG9ydCBmb3IgeHRlcm0gd2luZG93IHJlc2l6ZSByZXF1ZXN0IGVzY2FwZSBjb2RlcywgdmlhIHRoZSBuZXcgY2FsbGJhY2sKICBtZWNoYW5pc20uCiogU3VwcG9ydCBmb3IgZGltIGZvcm1hdHRpbmcuIChEYW5pZWwgRmF1c3QsICM5KQoqIFN1cHBvcnQgZm9yIENOTC9DUEwgZXNjYXBlIGNvZGVzLiAoRGFubnkgV2VpbmJlcmcsICMxMCkKKiBTdXBwb3J0IGZvciBPU0MgNTIgKGNsaXBib2FyZCBtYW5pcHVsYXRpb24pLgoKIyMjIFJlbW92ZWQKCiogVGhlc2UgbWV0aG9kcyBvbiBgU2NyZWVuYCBoYXZlIGJlZW4gcmVtb3ZlZCBpbiBmYXZvciBvZiB0aGUgbmV3IGNhbGxiYWNrCiAgQVBJIGRlc2NyaWJlZCBhYm92ZToKICAqIGB0aXRsZV9mb3JtYXR0ZWRgCiAgKiBgdGl0bGVfZGlmZmAKICAqIGB0aXRsZWAKICAqIGBpY29uX25hbWVgCiAgKiBgYmVsbHNfZGlmZmAKICAqIGBhdWRpYmxlX2JlbGxfY291bnRgCiAgKiBgdmlzdWFsX2JlbGxfY291bnRgCiAgKiBgZXJyb3JzYAoqIEFkZGl0aW9uYWxseSwgdW5oYW5kbGVkIGVzY2FwZSBzZXF1ZW5jZXMgbm8gbG9uZ2VyIGxvZyB0byBTVERFUlI7IHRoZXkKICBpbnN0ZWFkIGNhbGwgdmFyaW91cyBjYWxsYmFjayBtZXRob2RzIHdoaWNoIGNhbiBiZSBkZWZpbmVkIHRvIGxvZyBpZgogIGRlc2lyZWQuCiogYENlbGxgIG5vIGxvbmdlciBpbXBsZW1lbnRzIGBEZWZhdWx0YC4KKiBgU2NyZWVuYCBubyBsb25nZXIgaW1wbGVtZW50cyBgdnRlOjpQZXJmb3JtYC4KCiMjIyBDaGFuZ2VkCgoqIGBQYXJzZXI6OnNldF9zaXplYCBhbmQgYFBhcnNlcjo6c2V0X3Njcm9sbGJhY2tgIGhhdmUgYmVlbiBtb3ZlZCB0byBtZXRob2RzCiAgb24gYFNjcmVlbmAsIGFuZCBgUGFyc2VyOjpzY3JlZW5fbXV0YCB3YXMgYWRkZWQgdG8gZ2V0IGEgbXV0YWJsZSByZWZlcmVuY2UKICB0byB0aGUgc2NyZWVuLgoqIGBDZWxsOjpjb250ZW50c2Agbm93IHJldHVybnMgYCZzdHJgIGluc3RlYWQgb2YgYFN0cmluZ2AsIGVsaW1pbmF0aW5nIGFuCiAgYWxsb2NhdGlvbiBpbiBtYW55IGNhc2VzLiAoQ2hyaXMgT2xzemV3c2tpLCAjMTQpCgojIyMgRml4ZWQKCiogRml4ZWQgc29tZSBpc3N1ZXMgd2l0aCBjYWxjdWxhdGluZyBzY3JvbGxiYWNrIG9mZnNldHMgY29ycmVjdGx5IGluCiAgYEdyaWQ6OnZpc2libGVfcm93c2AuIChyZXppZ25lZCwgIzExKQoKIyMgWzAuMTUuMl0gLSAyMDIzLTAyLTA1CgojIyMgQ2hhbmdlZAoKKiBCdW1wZWQgZGVwZW5kZW5jaWVzCgojIyBbMC4xNS4xXSAtIDIwMjEtMTItMjEKCiMjIyBDaGFuZ2VkCgoqIFJlbW92ZWQgYSBsb3Qgb2YgdW5uZWNlc3NhcnkgdGVzdCBkYXRhIGZyb20gdGhlIHBhY2thZ2VkIGNyYXRlLCBtYWtpbmcKICBkb3dubG9hZHMgZmFzdGVyCgojIyBbMC4xNS4wXSAtIDIwMjEtMTItMTUKCiMjIyBBZGRlZAoKKiBgU2NyZWVuOjplcnJvcnNgIHRvIHRyYWNrIHRoZSBudW1iZXIgb2YgcGFyc2luZyBlcnJvcnMgc2VlbiBzbyBmYXIKCiMjIyBGaXhlZAoKKiBObyBsb25nZXIgZ2VuZXJhdGUgc3B1cmlvdXMgZGlmZnMgaW4gc29tZSBjYXNlcyB3aGVyZSB0aGUgY3Vyc29yIGlzIHBhc3QgdGhlCiAgZW5kIG9mIGEgcm93CiogRml4IHJlc3RvcmluZyB0aGUgY3Vyc29yIHBvc2l0aW9uIHdoZW4gc2Nyb2xsZWQgYmFjawoKIyMjIENoYW5nZWQKCiogVmFyaW91cyBpbnRlcm5hbCByZWZhY3RvcmluZ3MKCiMjIFswLjE0LjBdIC0gMjAyMS0xMi0wNgoKIyMjIENoYW5nZWQKCiogVW5rbm93biBVVEYtOCBjaGFyYWN0ZXJzIGRlZmF1bHQgdG8gYSB3aWR0aCBvZiAxLCByYXRoZXIgdGhhbiAwIChleGNlcHQgZm9yCiAgY29udHJvbCBjaGFyYWN0ZXJzLCBhcyBtZW50aW9uZWQgYmVsb3cpCgojIyMgRml4ZWQKCiogSWdub3JlIEMxIGNvbnRyb2wgY2hhcmFjdGVycyByYXRoZXIgdGhhbiBhZGRpbmcgdGhlbSB0byB0aGUgY2VsbCBkYXRhLCBzaW5jZQogIHRoZXkgYXJlIG5vbi1wcmludGFibGUKCiMjIFswLjEzLjJdIC0gMjAyMS0xMi0wNQoKIyMjIENoYW5nZWQKCiogRGVsYXkgYWxsb2NhdGlvbiBvZiB0aGUgYWx0ZXJuYXRlIHNjcmVlbiB1bnRpbCBpdCBpcyB1c2VkIChzYXZlcyBhIGJpdCBvZgogIG1lbW9yeSBpbiBiYXNpYyBjYXNlcykKCiMjIFswLjEzLjFdIC0gMjAyMS0xMi0wNAoKIyMjIEZpeGVkCgoqIEZpeGVkIHZhcmlvdXMgbGluZSB3cmFwcGluZyBzdGF0ZSBpc3N1ZXMKKiBGaXhlZCBjdXJzb3IgcG9zaXRpb25pbmcgYWZ0ZXIgd3JpdGluZyB6ZXJvIHdpZHRoIGNoYXJhY3RlcnMgYXQgdGhlIGVuZCBvZgogIHRoZSBsaW5lCiogRml4ZWQgYFNjcmVlbjo6Y3Vyc29yX3N0YXRlX2Zvcm1hdHRlZGAgdG8gZHJhdyB0aGUgbGFzdCBjaGFyYWN0ZXIgaW4gYSBsaW5lCiAgd2l0aCB0aGUgYXBwcm9wcmlhdGUgZHJhd2luZyBhdHRyaWJ1dGVzIGlmIGl0IG5lZWRzIHRvIHJlZHJhdyBpdAoKIyMgWzAuMTMuMF0gLSAyMDIxLTExLTE3CgojIyMgQWRkZWQKCiogYFNjcmVlbjo6YWx0ZXJuYXRlX3NjcmVlbmAgdG8gZGV0ZXJtaW5lIGlmIHRoZSBhbHRlcm5hdGUgc2NyZWVuIGlzIGluIHVzZQoqIGBTY3JlZW46OnJvd193cmFwcGVkYCB0byBkZXRlcm1pbmUgd2hldGhlciB0aGUgcm93IGF0IHRoZSBnaXZlbiBpbmRleCBzaG91bGQKICB3cmFwIGl0cyB0ZXh0CiogYFNjcmVlbjo6Y3Vyc29yX3N0YXRlX2Zvcm1hdHRlZGAgdG8gc2V0IHRoZSBjdXJzb3IgcG9zaXRpb24gYW5kIGhpZGRlbiBzdGF0ZQogIChpbmNsdWRpbmcgaW50ZXJuYWwgc3RhdGUgbGlrZSB0aGUgb25lLXBhc3QtdGhlLWVuZCBzdGF0ZSB3aGljaCBpc24ndCB2aXNpYmxlCiAgaW4gdGhlIHJldHVybiB2YWx1ZSBvZiBgY3Vyc29yX3Bvc2l0aW9uYCkKCiMjIyBGaXhlZAoKKiBgU2NyZWVuOjpyb3dzX2Zvcm1hdHRlZGAgbm93IG91dHB1dHMgY29ycmVjdCBlc2NhcGUgY29kZXMgaW4gc29tZSBlZGdlIGNhc2VzCiAgYXQgdGhlIGJlZ2lubmluZyBvZiBhIHJvdyB3aGVuIHRoZSBwcmV2aW91cyByb3cgd2FzIHdyYXBwZWQKKiBWUEEgZXNjYXBlIHNlcXVlbmNlIGNhbiBubyBsb25nZXIgcG9zaXRpb24gdGhlIGN1cnNvciBvZmYgdGhlIHNjcmVlbgoKIyMgWzAuMTIuMF0gLSAyMDIxLTAzLTA5CgojIyMgQWRkZWQKCiogYFNjcmVlbjo6c3RhdGVfZm9ybWF0dGVkYCBhbmQgYFNjcmVlbjo6c3RhdGVfZGlmZmAgY29udmVuaWVuY2Ugd3JhcHBlcnMKCiMjIyBGaXhlZAoKKiBgU2NyZWVuOjphdHRyaWJ1dGVzX2Zvcm1hdHRlZGAgbm93IGNvcnJlY3RseSByZXNldHMgcHJldmlvdXNseSBzZXQgYXR0cmlidXRlcwogIHdoZXJlIG5lY2Vzc2FyeQoKIyMjIFJlbW92ZWQKCiogUmVtb3ZlZCBgU2NyZWVuOjphdHRyaWJ1dGVzX2RpZmZgLCBzaW5jZSBJIGNhbid0IGFjdHVhbGx5IHRoaW5rIG9mIGFueQogIHNpdHVhdGlvbiB3aGVyZSBpdCBkb2VzIGEgdGhpbmcgdGhhdCBtYWtlcyBzZW5zZS4KCiMjIFswLjExLjFdIC0gMjAyMS0wMy0wNwoKIyMjIENoYW5nZWQKCiogRHJvcCBkZXBlbmRlbmN5IG9uIGBlbnVtc2V0YAoKIyMgWzAuMTEuMF0gLSAyMDIxLTAzLTA3CgojIyMgQWRkZWQKCiogYFNjcmVlbjo6YXR0cmlidXRlc19mb3JtYXR0ZWRgIGFuZCBgU2NyZWVuOjphdHRyaWJ1dGVzX2RpZmZgIHRvIHJldHJpZXZlIHRoZQogIGN1cnJlbnQgc3RhdGUgb2YgdGhlIGRyYXdpbmcgYXR0cmlidXRlcyBhcyBlc2NhcGUgc2VxdWVuY2VzCiogYFNjcmVlbjo6Zmdjb2xvcmAsIGBTY3JlZW46OmJnY29sb3JgLCBgU2NyZWVuOjpib2xkYCwgYFNjcmVlbjo6aXRhbGljYCwKICBgU2NyZWVuOjp1bmRlcmxpbmVgLCBhbmQgYFNjcmVlbjo6aW52ZXJzZWAgdG8gcmV0cmlldmUgdGhlIGN1cnJlbnQgc3RhdGUgb2YKICB0aGUgZHJhd2luZyBhdHRyaWJ1dGVzIGRpcmVjdGx5CgojIyBbMC4xMC4wXSAtIDIwMjEtMDMtMDYKCiMjIyBBZGRlZAoKKiBJbXBsZW1lbnRhdGlvbiBvZiBgc3RkOjppbzo6V3JpdGVgIGZvciBgUGFyc2VyYAoKIyMgWzAuOS4wXSAtIDIwMjEtMDMtMDUKCiMjIyBBZGRlZAoKKiBgU2NyZWVuOjpjb250ZW50c19iZXR3ZWVuYCwgZm9yIHJldHVybmluZyB0aGUgY29udGVudHMgbG9naWNhbGx5IGJldHdlZW4gdHdvCiAgZ2l2ZW4gY2VsbHMgKGZvciB0aGluZ3MgbGlrZSBjbGlwYm9hcmQgc2VsZWN0aW9uKQoqIFN1cHBvcnQgU0dSIHN1YnBhcmFtZXRlcnMgKHNvIGBcZVszODoyOjI1NTowOjBtYCBiZWhhdmVzIHRoZSBzYW1lIHdheSBhcwogIGBcZVszODsyOzI1NTswOzBtYCkKCiMjIyBGaXhlZAoKKiBCdW1wIGBlbnVtc2V0YCB0byBmaXggYSBkZXBlbmRlbmN5IHdoaWNoIGZhaWxzIHRvIGJ1aWxkCgojIyBbMC44LjFdIC0gMjAyMC0wMi0wOQoKIyMjIENoYW5nZWQKCiogQnVtcGVkIGB2dGVgIGRlcCB0byAwLjYuCgojIyBbMC44LjBdIC0gMjAxOS0xMi0wNwoKIyMjIFJlbW92ZWQKCiogUmVtb3ZlZCB0aGUgdW5pY29kZS1ub3JtYWxpemF0aW9uIGZlYXR1cmUgYWx0b2dldGhlciAtIGl0IHR1cm5zIG91dCB0aGF0IGl0CiAgc3RpbGwgaGFzIGEgY291cGxlIGVkZ2UgY2FzZXMgd2hlcmUgaXQgY2F1c2VzIGluY29ycmVjdCBiZWhhdmlvciwgYW5kIGZpeGluZwogIHRob3NlIHdvdWxkIGJlIGEgbG90IG1vcmUgZWZmb3J0LgoKIyMjIEZpeGVkCgoqIEZpeCBhIGNvdXBsZSBtb3JlIGVuZC1vZi1saW5lL3dyYXBwaW5nIGJ1Z3MsIGVzcGVjaWFsbHkgYXJvdW5kIGN1cnNvcgogIHBvc2l0aW9uaW5nLgoqIEZpeCBhcHBseWluZyBjb21iaW5pbmcgY2hhcmFjdGVycyB0byB3aWRlIGNoYXJhY3RlcnMuCiogRW5zdXJlIGNlbGxzIGNhbid0IGhhdmUgY29udGVudHMgd2l0aCB3aWR0aCB6ZXJvICh0byBhdm9pZCBhbWJpZ3VpdHkpLiBJZiBhbgogIGVtcHR5IGNlbGwgZ2V0cyBhIGNvbWJpbmluZyBjaGFyYWN0ZXIgYXBwbGllZCB0byBpdCwgZGVmYXVsdCB0aGF0IGNlbGwgdG8gYQogIChub3JtYWwtd2lkdGgpIHNwYWNlIGZpcnN0LgoKIyMgWzAuNy4wXSAtIDIwMTktMTEtMjMKCiMjIyBBZGRlZAoKKiBOZXcgKGRlZmF1bHQtb24pIGNhcmdvIGZlYXR1cmUgYHVuaWNvZGUtbm9ybWFsaXphdGlvbmAgd2hpY2ggY2FuIGJlIGRpc2FibGVkCiAgdG8gZGlzYWJsZSBub3JtYWxpemluZyBjZWxsIGNvbnRlbnRzIHRvIE5GQyAtIGl0J3MgYSBwcmV0dHkgc21hbGwgZWRnZSBjYXNlLAogIGFuZCB0aGUgZGF0YSB0YWJsZXMgcmVxdWlyZWQgdG8gc3VwcG9ydCBpdCBhcmUgcXVpdGUgbGFyZ2UsIHdoaWNoIGFmZmVjdHMKICBzaXplLXNlbnNpdGl2ZSB0YXJnZXRzIGxpa2Ugd2FzbQoKIyMgWzAuNi4zXSAtIDIwMTktMTEtMjAKCiMjIyBGaXhlZAoKKiBGaXggb3V0cHV0IG9mIGBjb250ZW50c19mb3JtYXR0ZWRgIGFuZCBgY29udGVudHNfZGlmZmAgd2hlbiB0aGUgY3Vyc29yCiAgcG9zaXRpb24gZW5kcyBhdCBvbmUgcGFzdCB0aGUgZW5kIG9mIGEgcm93LgoqIElmIHRoZSBjdXJzb3IgcG9zaXRpb24gaXMgb25lIHBhc3QgdGhlIGVuZCBvZiBhIHJvdywgYW55IGNoYXIsIGV2ZW4gYQogIGNvbWJpbmluZyBjaGFyLCBuZWVkcyB0byBjYXVzZSB0aGUgY3Vyc29yIHBvc2l0aW9uIHRvIHdyYXAuCgojIyBbMC42LjJdIC0gMjAxOS0xMS0xMwoKIyMjIEZpeGVkCgoqIEZpeCB6ZXJvLXdpZHRoIGNoYXJhY3RlcnMgd2hlbiB0aGUgY3Vyc29yIGlzIGF0IHRoZSBlbmQgb2YgYSByb3cuCgojIyBbMC42LjFdIC0gMjAxOS0xMS0xMwoKIyMjIEFkZGVkCgoqIEFkZCBtb3JlIGRlYnVnIGxvZ2dpbmcgZm9yIHVuaGFuZGxlZCBlc2NhcGUgc2VxdWVuY2VzLgoKIyMjIENoYW5nZWQKCiogVW5oYW5kbGVkIGVzY2FwZSBzZXF1ZW5jZSB3YXJuaW5ncyBhcmUgbm93IGF0IHRoZSBgZGVidWdgIGxvZyBsZXZlbC4KCiMjIFswLjYuMF0gLSAyMDE5LTExLTEzCgojIyMgQWRkZWQKCiogYFNjcmVlbjo6aW5wdXRfbW9kZV9mb3JtYXR0ZWRgIGFuZCBgU2NyZWVuOjppbnB1dF9tb2RlX2RpZmZgIGdpdmUgZXNjYXBlCiAgY29kZXMgdG8gc2V0IHRoZSBjdXJyZW50IHRlcm1pbmFsIGlucHV0IG1vZGVzLgoqIGBTY3JlZW46OnRpdGxlX2Zvcm1hdHRlZGAgYW5kIGBTY3JlZW46OnRpdGxlX2RpZmZgIGdpdmUgZXNjYXBlIGNvZGVzIHRvIHNldAogIHRoZSB0ZXJtaW5hbCB3aW5kb3cgdGl0bGUuCiogYFNjcmVlbjo6YmVsbHNfZGlmZmAgZ2l2ZXMgZXNjYXBlIGNvZGVzIHRvIHRyaWdnZXIgYW55IGF1ZGlibGUgb3IgdmlzdWFsCiAgYmVsbHMgd2hpY2ggaGF2ZSBiZWVuIHNlZW4gc2luY2UgdGhlIHByZXZpb3VzIHN0YXRlLgoKIyMjIENoYW5nZWQKCiogYFNjcmVlbjo6Y29udGVudHNfZGlmZmAgbm8gbG9uZ2VyIGluY2x1ZGVzIGF1ZGlibGUgb3IgdmlzdWFsIGJlbGxzIChzZWUKICBgU2NyZWVuOjpiZWxsc19kaWZmYCBpbnN0ZWFkKS4KCiMjIFswLjUuMV0gLSAyMDE5LTExLTEyCgojIyMgRml4ZWQKCiogYFNjcmVlbjo6c2V0X3NpemVgIG5vdyBhY3R1YWxseSByZXNpemVzIHdoZW4gcmVxdWVzdGVkIChwcmV2aW91c2x5IHRoZQogIHVuZGVybHlpbmcgc3RvcmFnZSB3YXMgbm90IGJlaW5nIHJlc2l6ZWQsIGxlYWRpbmcgdG8gcGFuaWNzIHdoZW4gd3JpdGluZwogIG91dHNpZGUgb2YgdGhlIG9yaWdpbmFsIHNjcmVlbikuCgojIyBbMC41LjBdIC0gMjAxOS0xMS0xMgoKIyMjIEFkZGVkCgoqIFNjcm9sbGJhY2sgc3VwcG9ydC4KKiBgRGVmYXVsdGAgaW1wbCBmb3IgYFBhcnNlcmAgd2hpY2ggY3JlYXRlcyBhbiA4MHgyNCB0ZXJtaW5hbCB3aXRoIG5vCiAgc2Nyb2xsYmFjay4KCiMjIyBSZW1vdmVkCgoqIGBQYXJzZXI6OnNjcmVlbl9tdXRgIChhbmQgdGhlIGBwdWJgIGAmbXV0IHNlbGZgIG1ldGhvZHMgb24gYFNjcmVlbmApLiBUaGUgZmV3CiAgdGhpbmdzIHlvdSBjYW4gZG8gdG8gY2hhbmdlIHRoZSBzY3JlZW4gc3RhdGUgZGlyZWN0bHkgYXJlIG5vdyBleHBvc2VkIGFzCiAgbWV0aG9kcyBvbiBgUGFyc2VyYCBpdHNlbGYuCgojIyMgQ2hhbmdlZAoKKiBgQ2VsbDo6Y29udGVudHNgIG5vdyByZXR1cm5zIGEgYFN0cmluZ2AgaW5zdGVhZCBvZiBhIGAmc3RyYC4KKiBgU2NyZWVuOjpjaGVja19hdWRpYmxlX2JlbGxgIGFuZCBgU2NyZWVuOjpjaGVja192aXN1YWxfYmVsbGAgaGF2ZSBiZWVuCiAgcmVwbGFjZWQgd2l0aCBgU2NyZWVuOjphdWRpYmxlX2JlbGxfY291bnRgIGFuZCBgU2NyZWVuOjp2aXN1YWxfYmVsbF9jb3VudGAuCiAgWW91IHNob3VsZCBrZWVwIHRyYWNrIG9mIHRoZSAic2luY2UgdGhlIGxhc3QgbWV0aG9kIGNhbGwiIHN0YXRlIHlvdXJzZWxmCiAgaW5zdGVhZCBvZiBoYXZpbmcgdGhlIHNjcmVlbiB0cmFjayBpdCBmb3IgeW91LgoKIyMjIEZpeGVkCgoqIExvdHMgb2YgcGVyZm9ybWFuY2UgYW5kIG91dHB1dCBvcHRpbWl6YXRpb25zLgoqIENsZWFyaW5nIGEgY2VsbCBub3cgc2V0cyBhbGwgb2YgdGhhdCBjZWxsJ3MgYXR0cmlidXRlcyB0byB0aGUgY3VycmVudAogIGF0dHJpYnV0ZSBzZXQsIHNpbmNlIGRpZmZlcmVudCB0ZXJtaW5hbHMgcmVuZGVyIGRpZmZlcmVudCB0aGluZ3MgZm9yIGFuIGVtcHR5CiAgY2VsbCBiYXNlZCBvbiB0aGUgYXR0cmlidXRlcy4KKiBgU2NyZWVuOjpjb250ZW50c19kaWZmYCBub3cgaW5jbHVkZXMgYXVkaWJsZSBhbmQgdmlzdWFsIGJlbGxzIHdoZW4KICBhcHByb3ByaWF0ZS4KCiMjIFswLjQuMF0gLSAyMDE5LTExLTA4CgojIyMgUmVtb3ZlZAoKKiBgU2NyZWVuOjpmZ2NvbG9yYCwgYFNjcmVlbjo6Ymdjb2xvcmAsIGBTY3JlZW46OmJvbGRgLCBgU2NyZWVuOjppdGFsaWNgLAogIGBTY3JlZW46OnVuZGVybGluZWAsIGBTY3JlZW46OmludmVyc2VgLCBhbmQgYFNjcmVlbjo6YWx0ZXJuYXRlX3NjcmVlbmA6CiAgdGhlc2UgYXJlIGp1c3QgaW1wbGVtZW50YXRpb24gZGV0YWlscyB0aGF0IHBlb3BsZSBzaG91bGRuJ3QgbmVlZCB0byBjYXJlCiAgYWJvdXQuCgojIyMgRml4ZWQKCiogRml4ZWQgY3Vyc29yIG1vdmVtZW50IHdoZW4gdGhlIGN1cnNvciBwb3NpdGlvbiBpcyBhbHJlYWR5IG91dHNpZGUgb2YgYW4KICBhY3RpdmUgc2Nyb2xsIHJlZ2lvbi4KCiMjIFswLjMuMl0gLSAyMDE5LTExLTA4CgojIyMgRml4ZWQKCiogQ2xlYXJpbmcgY2VsbHMgbm93IGNvcnJlY3RseSBzZXRzIHRoZSBjZWxsIGJhY2tncm91bmQgY29sb3IuCiogRml4ZWQgYSBjb3VwbGUgYnVncyBpbiB3aWRlIGNoYXJhY3RlciBoYW5kbGluZyBpbiBgY29udGVudHNfZm9ybWF0dGVkYCBhbmQKICBgY29udGVudHNfZGlmZmAuCiogRml4ZWQgUkkgd2hlbiB0aGUgY3Vyc29yIGlzIGF0IHRoZSB0b3Agb2YgdGhlIHNjcmVlbiAoZml4ZXMgc2Nyb2xsaW5nIHVwIGluCiAgYGxlc3NgLCBmb3IgaW5zdGFuY2UpLgoqIEZpeGVkIFZQQSBpbmNvcnJlY3RseSBiZWluZyBjbGFtcGVkIHRvIHRoZSBzY3JvbGwgcmVnaW9uLgoqIFN0b3AgdHJlYXRpbmcgc29mdCBoeXBoZW4gc3BlY2lhbGx5IChhcyBmYXIgYXMgaSBjYW4gdGVsbCwgbm8gb3RoZXIgdGVybWluYWxzCiAgZG8gdGhpcywgYW5kIGknbSBub3Qgc3VyZSB3aHkgaSB0aG91Z2h0IGl0IHdhcyBuZWNlc3NhcnkgdG8gYmVnaW4gd2l0aCkuCiogYGNvbnRlbnRzX2Zvcm1hdHRlZGAgbm93IGFsc28gcmVzZXRzIGF0dHJpYnV0ZXMgYXQgdGhlIHN0YXJ0LCBsaWtlCiAgYGNvbnRlbnRzX2RpZmZgIGRvZXMuCgojIyBbMC4zLjFdIC0gMjAxOS0xMS0wNgoKIyMjIEZpeGVkCgoqIE1ha2UgYGNvbnRlbnRzX2Zvcm1hdHRlZGAgZXhwbGljaXRseSBzaG93IHRoZSBjdXJzb3Igd2hlbiBuZWNlc3NhcnksIGluIGNhc2UKICB0aGUgY3Vyc29yIHdhcyBwcmV2aW91c2x5IGhpZGRlbi4KCiMjIFswLjMuMF0gLSAyMDE5LTExLTA2CgojIyMgQWRkZWQKCiogYFNjcmVlbjo6cm93c2Agd2hpY2ggaXMgbGlrZSBgU2NyZWVuOjpjb250ZW50c2AgZXhjZXB0IHRoYXQgaXQgcmV0dXJucyB0aGUKICBkYXRhIGJ5IHJvdyBpbnN0ZWFkIG9mIGFsbCBhdCBvbmNlLCBhbmQgYWxzbyBhbGxvd3MgeW91IHRvIHJlc3RyaWN0IHRoZQogIHJlZ2lvbiByZXR1cm5lZCB0byBhIHN1YnNldCBvZiBjb2x1bW5zLgoqIGBTY3JlZW46OnJvd3NfZm9ybWF0dGVkYCB3aGljaCBpcyBsaWtlIGBTY3JlZW46OnJvd3NgLCBidXQgcmV0dXJucyBlc2NhcGUKICBzZXF1ZW5jZXMgc3VmZmljaWVudCB0byBkcmF3IHRoZSByZXF1ZXN0ZWQgc3Vic2V0IG9mIGVhY2ggcm93LgoqIGBTY3JlZW46OmNvbnRlbnRzX2RpZmZgIGFuZCBgU2NyZWVuOjpyb3dzX2RpZmZgIHdoaWNoIHJldHVybiBlc2NhcGUgc2VxdWVuY2VzCiAgc3VmZmljaWVudCB0byB0dXJuIHRoZSB2aXNpYmxlIHN0YXRlIG9mIG9uZSBzY3JlZW4gKG9yIGEgc3Vic2V0IG9mIHRoZSBzY3JlZW4KICBpbiB0aGUgY2FzZSBvZiBgcm93c19kaWZmYCkgaW50byBhbm90aGVyLgoKIyMjIENoYW5nZWQKCiogVGhlIHNjcmVlbiBpcyBub3cgZXhwb3NlZCBzZXBhcmF0ZWx5IGZyb20gdGhlIHBhcnNlciwgYW5kIGlzIGNsb25lYWJsZS4KKiBgY29udGVudHNfZm9ybWF0dGVkYCBub3cgcmV0dXJucyBgVmVjPHU4PmAgaW5zdGVhZCBvZiBgU3RyaW5nYC4KKiBgY29udGVudHNgIGFuZCBgY29udGVudHNfZm9ybWF0dGVkYCBub3cgb25seSBhbGxvdyBnZXR0aW5nIHRoZSBjb250ZW50cyBvZgogIHRoZSBlbnRpcmUgc2NyZWVuIHJhdGhlciB0aGFuIGEgc3Vic2V0IChidXQgc2VlIHRoZSBlbnRyeSBmb3IgYHJvd3NgIGFuZAogIGByb3dzX2Zvcm1hdHRlZGAgYWJvdmUpLgoKIyMjIFJlbW92ZWQKCiogYENlbGw6Om5ld2AsIHNpbmNlIHRoZXJlJ3Mgbm90IHJlYWxseSBhbnkgcmVhc29uIHRoYXQgdGhpcyBpcyB1c2VmdWwgZm9yCiAgc29tZW9uZSB0byBkbyBmcm9tIG91dHNpZGUgb2YgdGhlIGNyYXRlLgoKIyMjIEZpeGVkCgoqIGBjb250ZW50c19mb3JtYXR0ZWRgIG5vdyBwcmVzZXJ2ZXMgdGhlIHN0YXRlIG9mIGVtcHR5IGNlbGxzIGluc3RlYWQgb2YKICBmaWxsaW5nIHRoZW0gd2l0aCBzcGFjZXMuCiogV2Ugbm93IGNsZWFyIHRoZSByb3cgd3JhcHBpbmcgc3RhdGUgd2hlbiB0aGUgbnVtYmVyIG9mIGNvbHVtbnMgaW4gdGhlCiAgdGVybWluYWwgaXMgY2hhbmdlZC4KKiBgY29udGVudHNfZm9ybWF0dGVkYCBub3cgZW5zdXJlcyB0aGF0IHRoZSBjdXJzb3IgaGFzIHRoZSBjb3JyZWN0IGhpZGRlbiBzdGF0ZQogIGFuZCBsb2NhdGlvbi4KKiBgY29udGVudHNfZm9ybWF0dGVkYCBub3cgY2xlYXJzIHRoZSBzY3JlZW4gYmVmb3JlIHN0YXJ0aW5nIHRvIGRyYXcuCgojIyBbMC4yLjBdIC0gMjAxOS0xMS0wNAoKIyMjIENoYW5nZWQKCiogUmVpbXBsZW1lbnRlZCBpbiBwdXJlIHNhZmUgcnVzdCwgd2l0aCBhIG11Y2ggbW9yZSBhY2N1cmF0ZSBwYXJzZXIKKiBBIGJ1bmNoIG9mIG1pbm9yIEFQSSB0d2Vha3MsIHNvbWUgYmFja3dhcmRzLWluY29tcGF0aWJsZQoKIyMgWzAuMS4yXSAtIDIwMTYtMDYtMDQKCiMjIyBGaXhlZAoKKiBGaXggcmV0dXJuaW5nIHVuaW5pdCBtZW1vcnkgaW4gZ2V0X3N0cmluZ19mb3JtYXR0ZWQvZ2V0X3N0cmluZ19wbGFpbnRleHQKKiBIYW5kbGUgZW1vamkgYW5kIHplcm8gd2lkdGggdW5pY29kZSBjaGFyYWN0ZXJzIHByb3Blcmx5CiogRml4IGN1cnNvciBwb3NpdGlvbmluZyB3aXRoIHJlZ2FyZHMgdG8gc2Nyb2xsIHJlZ2lvbnMgYW5kIHdyYXBwaW5nCiogRml4IHBhcnNpbmcgb2YgKGlnbm9yZWQpIGNoYXJhY3RlciBzZXQgZXNjYXBlcwoqIEV4cGxpY2l0bHkgc3VwcHJlc3Mgc3RhdHVzIHJlcG9ydCBlc2NhcGVzCgojIyBbMC4xLjFdIC0gMjAxNi0wNC0yOAoKIyMjIEZpeGVkCgoqIEZpeCBidWlsZHMKCiMjIFswLjEuMF0gLSAyMDE2LTA0LTI4CgojIyMgQWRkZWQKCiogSW5pdGlhbCByZWxlYXNlCg==
+# Changelog
+
+## [0.16.2] - 2025-07-11
+
+### Fixed
+
+* Fixed potential cursor out of bounds when using decrc after resizing. (#13)
+
+## [0.16.1] - 2025-07-10
+
+### Changed
+
+* Reverted to the 2021 edition for now.
+
+## [0.16.0] - 2025-07-08
+
+### Added
+
+* `Parser::process_cb`, which works the same as `Parser::process` except that
+  it calls callbacks during parsing when it finds a terminal escape which is
+  potentially useful but not something that affects the screen itself.
+* Support for xterm window resize request escape codes, via the new callback
+  mechanism.
+* Support for dim formatting. (Daniel Faust, #9)
+* Support for CNL/CPL escape codes. (Danny Weinberg, #10)
+* Support for OSC 52 (clipboard manipulation).
+
+### Removed
+
+* These methods on `Screen` have been removed in favor of the new callback
+  API described above:
+  * `title_formatted`
+  * `title_diff`
+  * `title`
+  * `icon_name`
+  * `bells_diff`
+  * `audible_bell_count`
+  * `visual_bell_count`
+  * `errors`
+* Additionally, unhandled escape sequences no longer log to STDERR; they
+  instead call various callback methods which can be defined to log if
+  desired.
+* `Cell` no longer implements `Default`.
+* `Screen` no longer implements `vte::Perform`.
+
+### Changed
+
+* `Parser::set_size` and `Parser::set_scrollback` have been moved to methods
+  on `Screen`, and `Parser::screen_mut` was added to get a mutable reference
+  to the screen.
+* `Cell::contents` now returns `&str` instead of `String`, eliminating an
+  allocation in many cases. (Chris Olszewski, #14)
+
+### Fixed
+
+* Fixed some issues with calculating scrollback offsets correctly in
+  `Grid::visible_rows`. (rezigned, #11)
+
+## [0.15.2] - 2023-02-05
+
+### Changed
+
+* Bumped dependencies
+
+## [0.15.1] - 2021-12-21
+
+### Changed
+
+* Removed a lot of unnecessary test data from the packaged crate, making
+  downloads faster
+
+## [0.15.0] - 2021-12-15
+
+### Added
+
+* `Screen::errors` to track the number of parsing errors seen so far
+
+### Fixed
+
+* No longer generate spurious diffs in some cases where the cursor is past the
+  end of a row
+* Fix restoring the cursor position when scrolled back
+
+### Changed
+
+* Various internal refactorings
+
+## [0.14.0] - 2021-12-06
+
+### Changed
+
+* Unknown UTF-8 characters default to a width of 1, rather than 0 (except for
+  control characters, as mentioned below)
+
+### Fixed
+
+* Ignore C1 control characters rather than adding them to the cell data, since
+  they are non-printable
+
+## [0.13.2] - 2021-12-05
+
+### Changed
+
+* Delay allocation of the alternate screen until it is used (saves a bit of
+  memory in basic cases)
+
+## [0.13.1] - 2021-12-04
+
+### Fixed
+
+* Fixed various line wrapping state issues
+* Fixed cursor positioning after writing zero width characters at the end of
+  the line
+* Fixed `Screen::cursor_state_formatted` to draw the last character in a line
+  with the appropriate drawing attributes if it needs to redraw it
+
+## [0.13.0] - 2021-11-17
+
+### Added
+
+* `Screen::alternate_screen` to determine if the alternate screen is in use
+* `Screen::row_wrapped` to determine whether the row at the given index should
+  wrap its text
+* `Screen::cursor_state_formatted` to set the cursor position and hidden state
+  (including internal state like the one-past-the-end state which isn't visible
+  in the return value of `cursor_position`)
+
+### Fixed
+
+* `Screen::rows_formatted` now outputs correct escape codes in some edge cases
+  at the beginning of a row when the previous row was wrapped
+* VPA escape sequence can no longer position the cursor off the screen
+
+## [0.12.0] - 2021-03-09
+
+### Added
+
+* `Screen::state_formatted` and `Screen::state_diff` convenience wrappers
+
+### Fixed
+
+* `Screen::attributes_formatted` now correctly resets previously set attributes
+  where necessary
+
+### Removed
+
+* Removed `Screen::attributes_diff`, since I can't actually think of any
+  situation where it does a thing that makes sense.
+
+## [0.11.1] - 2021-03-07
+
+### Changed
+
+* Drop dependency on `enumset`
+
+## [0.11.0] - 2021-03-07
+
+### Added
+
+* `Screen::attributes_formatted` and `Screen::attributes_diff` to retrieve the
+  current state of the drawing attributes as escape sequences
+* `Screen::fgcolor`, `Screen::bgcolor`, `Screen::bold`, `Screen::italic`,
+  `Screen::underline`, and `Screen::inverse` to retrieve the current state of
+  the drawing attributes directly
+
+## [0.10.0] - 2021-03-06
+
+### Added
+
+* Implementation of `std::io::Write` for `Parser`
+
+## [0.9.0] - 2021-03-05
+
+### Added
+
+* `Screen::contents_between`, for returning the contents logically between two
+  given cells (for things like clipboard selection)
+* Support SGR subparameters (so `\e[38:2:255:0:0m` behaves the same way as
+  `\e[38;2;255;0;0m`)
+
+### Fixed
+
+* Bump `enumset` to fix a dependency which fails to build
+
+## [0.8.1] - 2020-02-09
+
+### Changed
+
+* Bumped `vte` dep to 0.6.
+
+## [0.8.0] - 2019-12-07
+
+### Removed
+
+* Removed the unicode-normalization feature altogether - it turns out that it
+  still has a couple edge cases where it causes incorrect behavior, and fixing
+  those would be a lot more effort.
+
+### Fixed
+
+* Fix a couple more end-of-line/wrapping bugs, especially around cursor
+  positioning.
+* Fix applying combining characters to wide characters.
+* Ensure cells can't have contents with width zero (to avoid ambiguity). If an
+  empty cell gets a combining character applied to it, default that cell to a
+  (normal-width) space first.
+
+## [0.7.0] - 2019-11-23
+
+### Added
+
+* New (default-on) cargo feature `unicode-normalization` which can be disabled
+  to disable normalizing cell contents to NFC - it's a pretty small edge case,
+  and the data tables required to support it are quite large, which affects
+  size-sensitive targets like wasm
+
+## [0.6.3] - 2019-11-20
+
+### Fixed
+
+* Fix output of `contents_formatted` and `contents_diff` when the cursor
+  position ends at one past the end of a row.
+* If the cursor position is one past the end of a row, any char, even a
+  combining char, needs to cause the cursor position to wrap.
+
+## [0.6.2] - 2019-11-13
+
+### Fixed
+
+* Fix zero-width characters when the cursor is at the end of a row.
+
+## [0.6.1] - 2019-11-13
+
+### Added
+
+* Add more debug logging for unhandled escape sequences.
+
+### Changed
+
+* Unhandled escape sequence warnings are now at the `debug` log level.
+
+## [0.6.0] - 2019-11-13
+
+### Added
+
+* `Screen::input_mode_formatted` and `Screen::input_mode_diff` give escape
+  codes to set the current terminal input modes.
+* `Screen::title_formatted` and `Screen::title_diff` give escape codes to set
+  the terminal window title.
+* `Screen::bells_diff` gives escape codes to trigger any audible or visual
+  bells which have been seen since the previous state.
+
+### Changed
+
+* `Screen::contents_diff` no longer includes audible or visual bells (see
+  `Screen::bells_diff` instead).
+
+## [0.5.1] - 2019-11-12
+
+### Fixed
+
+* `Screen::set_size` now actually resizes when requested (previously the
+  underlying storage was not being resized, leading to panics when writing
+  outside of the original screen).
+
+## [0.5.0] - 2019-11-12
+
+### Added
+
+* Scrollback support.
+* `Default` impl for `Parser` which creates an 80x24 terminal with no
+  scrollback.
+
+### Removed
+
+* `Parser::screen_mut` (and the `pub` `&mut self` methods on `Screen`). The few
+  things you can do to change the screen state directly are now exposed as
+  methods on `Parser` itself.
+
+### Changed
+
+* `Cell::contents` now returns a `String` instead of a `&str`.
+* `Screen::check_audible_bell` and `Screen::check_visual_bell` have been
+  replaced with `Screen::audible_bell_count` and `Screen::visual_bell_count`.
+  You should keep track of the "since the last method call" state yourself
+  instead of having the screen track it for you.
+
+### Fixed
+
+* Lots of performance and output optimizations.
+* Clearing a cell now sets all of that cell's attributes to the current
+  attribute set, since different terminals render different things for an empty
+  cell based on the attributes.
+* `Screen::contents_diff` now includes audible and visual bells when
+  appropriate.
+
+## [0.4.0] - 2019-11-08
+
+### Removed
+
+* `Screen::fgcolor`, `Screen::bgcolor`, `Screen::bold`, `Screen::italic`,
+  `Screen::underline`, `Screen::inverse`, and `Screen::alternate_screen`:
+  these are just implementation details that people shouldn't need to care
+  about.
+
+### Fixed
+
+* Fixed cursor movement when the cursor position is already outside of an
+  active scroll region.
+
+## [0.3.2] - 2019-11-08
+
+### Fixed
+
+* Clearing cells now correctly sets the cell background color.
+* Fixed a couple bugs in wide character handling in `contents_formatted` and
+  `contents_diff`.
+* Fixed RI when the cursor is at the top of the screen (fixes scrolling up in
+  `less`, for instance).
+* Fixed VPA incorrectly being clamped to the scroll region.
+* Stop treating soft hyphen specially (as far as i can tell, no other terminals
+  do this, and i'm not sure why i thought it was necessary to begin with).
+* `contents_formatted` now also resets attributes at the start, like
+  `contents_diff` does.
+
+## [0.3.1] - 2019-11-06
+
+### Fixed
+
+* Make `contents_formatted` explicitly show the cursor when necessary, in case
+  the cursor was previously hidden.
+
+## [0.3.0] - 2019-11-06
+
+### Added
+
+* `Screen::rows` which is like `Screen::contents` except that it returns the
+  data by row instead of all at once, and also allows you to restrict the
+  region returned to a subset of columns.
+* `Screen::rows_formatted` which is like `Screen::rows`, but returns escape
+  sequences sufficient to draw the requested subset of each row.
+* `Screen::contents_diff` and `Screen::rows_diff` which return escape sequences
+  sufficient to turn the visible state of one screen (or a subset of the screen
+  in the case of `rows_diff`) into another.
+
+### Changed
+
+* The screen is now exposed separately from the parser, and is cloneable.
+* `contents_formatted` now returns `Vec<u8>` instead of `String`.
+* `contents` and `contents_formatted` now only allow getting the contents of
+  the entire screen rather than a subset (but see the entry for `rows` and
+  `rows_formatted` above).
+
+### Removed
+
+* `Cell::new`, since there's not really any reason that this is useful for
+  someone to do from outside of the crate.
+
+### Fixed
+
+* `contents_formatted` now preserves the state of empty cells instead of
+  filling them with spaces.
+* We now clear the row wrapping state when the number of columns in the
+  terminal is changed.
+* `contents_formatted` now ensures that the cursor has the correct hidden state
+  and location.
+* `contents_formatted` now clears the screen before starting to draw.
+
+## [0.2.0] - 2019-11-04
+
+### Changed
+
+* Reimplemented in pure safe rust, with a much more accurate parser
+* A bunch of minor API tweaks, some backwards-incompatible
+
+## [0.1.2] - 2016-06-04
+
+### Fixed
+
+* Fix returning uninit memory in get_string_formatted/get_string_plaintext
+* Handle emoji and zero width unicode characters properly
+* Fix cursor positioning with regards to scroll regions and wrapping
+* Fix parsing of (ignored) character set escapes
+* Explicitly suppress status report escapes
+
+## [0.1.1] - 2016-04-28
+
+### Fixed
+
+* Fix builds
+
+## [0.1.0] - 2016-04-28
+
+### Added
+
+* Initial release

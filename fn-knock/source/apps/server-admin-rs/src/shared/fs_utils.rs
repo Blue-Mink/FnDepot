@@ -1,1 +1,118 @@
-dXNlIHN0ZDo6e2lvLCBwYXRoOjpQYXRofTsKCnVzZSB0b2tpbzo6aW86OkFzeW5jUmVhZEV4dDsKCnB1YihjcmF0ZSkgYXN5bmMgZm4gcmVhZF9maWxlX2xpbWl0ZWQocGF0aDogJlBhdGgsIGxpbWl0OiB1c2l6ZSkgLT4gaW86OlJlc3VsdDxWZWM8dTg+PiB7CiAgICBsZXQgZmlsZSA9IHRva2lvOjpmczo6RmlsZTo6b3BlbihwYXRoKS5hd2FpdD87CiAgICByZWFkX29wZW5fZmlsZV9saW1pdGVkKGZpbGUsIGxpbWl0KS5hd2FpdC5tYXBfZXJyKHxlcnJvcnwgewogICAgICAgIGlmIGVycm9yLmtpbmQoKSA9PSBpbzo6RXJyb3JLaW5kOjpJbnZhbGlkRGF0YSB7CiAgICAgICAgICAgIGlvOjpFcnJvcjo6bmV3KAogICAgICAgICAgICAgICAgaW86OkVycm9yS2luZDo6SW52YWxpZERhdGEsCiAgICAgICAgICAgICAgICBmb3JtYXQhKCJ7fSBleGNlZWRzIHRoZSB7bGltaXR9LWJ5dGUgbGltaXQiLCBwYXRoLmRpc3BsYXkoKSksCiAgICAgICAgICAgICkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBlcnJvcgogICAgICAgIH0KICAgIH0pCn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gcmVhZF9vcGVuX2ZpbGVfbGltaXRlZCgKICAgIGZpbGU6IHRva2lvOjpmczo6RmlsZSwKICAgIGxpbWl0OiB1c2l6ZSwKKSAtPiBpbzo6UmVzdWx0PFZlYzx1OD4+IHsKICAgIGxldCByZWFkX2xpbWl0ID0gdTY0Ojp0cnlfZnJvbShsaW1pdCkudW53cmFwX29yKHU2NDo6TUFYKS5zYXR1cmF0aW5nX2FkZCgxKTsKICAgIGxldCBtdXQgY29udGVudCA9IFZlYzo6d2l0aF9jYXBhY2l0eShsaW1pdC5taW4oNjQgKiAxMDI0KSk7CiAgICBmaWxlLnRha2UocmVhZF9saW1pdCkucmVhZF90b19lbmQoJm11dCBjb250ZW50KS5hd2FpdD87CiAgICBpZiBjb250ZW50LmxlbigpID4gbGltaXQgewogICAgICAgIHJldHVybiBFcnIoaW86OkVycm9yOjpuZXcoCiAgICAgICAgICAgIGlvOjpFcnJvcktpbmQ6OkludmFsaWREYXRhLAogICAgICAgICAgICBmb3JtYXQhKCJmaWxlIGV4Y2VlZHMgdGhlIHtsaW1pdH0tYnl0ZSBsaW1pdCIpLAogICAgICAgICkpOwogICAgfQogICAgT2soY29udGVudCkKfQoKI1tjZmcobm90KHdpbmRvd3MpKV0KcHViKGNyYXRlKSBmbiByZXBsYWNlX2ZpbGUodGVtcG9yYXJ5OiAmUGF0aCwgZGVzdGluYXRpb246ICZQYXRoKSAtPiBpbzo6UmVzdWx0PCgpPiB7CiAgICBzdGQ6OmZzOjpyZW5hbWUodGVtcG9yYXJ5LCBkZXN0aW5hdGlvbikKfQoKI1tjZmcod2luZG93cyldCnB1YihjcmF0ZSkgZm4gcmVwbGFjZV9maWxlKHRlbXBvcmFyeTogJlBhdGgsIGRlc3RpbmF0aW9uOiAmUGF0aCkgLT4gaW86OlJlc3VsdDwoKT4gewogICAgdXNlIHN0ZDo6b3M6OndpbmRvd3M6OmZmaTo6T3NTdHJFeHQ7CgogICAgdXNlIHdpbmRvd3Nfc3lzOjpXaW4zMjo6U3RvcmFnZTo6RmlsZVN5c3RlbTo6ewogICAgICAgIE1PVkVGSUxFX1JFUExBQ0VfRVhJU1RJTkcsIE1PVkVGSUxFX1dSSVRFX1RIUk9VR0gsIE1vdmVGaWxlRXhXLAogICAgfTsKCiAgICBsZXQgc291cmNlID0gdGVtcG9yYXJ5CiAgICAgICAgLmFzX29zX3N0cigpCiAgICAgICAgLmVuY29kZV93aWRlKCkKICAgICAgICAuY2hhaW4oU29tZSgwKSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGxldCBkZXN0aW5hdGlvbiA9IGRlc3RpbmF0aW9uCiAgICAgICAgLmFzX29zX3N0cigpCiAgICAgICAgLmVuY29kZV93aWRlKCkKICAgICAgICAuY2hhaW4oU29tZSgwKSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIC8vIFNBRkVUWTogYm90aCBidWZmZXJzIGFyZSB2YWxpZCwgTlVMLXRlcm1pbmF0ZWQgVVRGLTE2IHBhdGhzIGFuZCByZW1haW4KICAgIC8vIGFsaXZlIGZvciB0aGUgZHVyYXRpb24gb2YgdGhpcyBzYW1lLXZvbHVtZSBhdG9taWMgcmVwbGFjZW1lbnQgY2FsbC4KICAgIGxldCBtb3ZlZCA9IHVuc2FmZSB7CiAgICAgICAgTW92ZUZpbGVFeFcoCiAgICAgICAgICAgIHNvdXJjZS5hc19wdHIoKSwKICAgICAgICAgICAgZGVzdGluYXRpb24uYXNfcHRyKCksCiAgICAgICAgICAgIE1PVkVGSUxFX1JFUExBQ0VfRVhJU1RJTkcgfCBNT1ZFRklMRV9XUklURV9USFJPVUdILAogICAgICAgICkKICAgIH07CiAgICBpZiBtb3ZlZCA9PSAwIHsKICAgICAgICBFcnIoaW86OkVycm9yOjpsYXN0X29zX2Vycm9yKCkpCiAgICB9IGVsc2UgewogICAgICAgIE9rKCgpKQogICAgfQp9CgojW2NmZyh1bml4KV0KcHViKGNyYXRlKSBmbiBjaG1vZF9leGVjdXRhYmxlKHBhdGg6ICZQYXRoKSB7CiAgICB1c2Ugc3RkOjpvczo6dW5peDo6ZnM6OlBlcm1pc3Npb25zRXh0OwoKICAgIGlmIGxldCBPayhtZXRhZGF0YSkgPSBzdGQ6OmZzOjptZXRhZGF0YShwYXRoKSB7CiAgICAgICAgbGV0IG11dCBwZXJtaXNzaW9ucyA9IG1ldGFkYXRhLnBlcm1pc3Npb25zKCk7CiAgICAgICAgcGVybWlzc2lvbnMuc2V0X21vZGUoMG83NTUpOwogICAgICAgIGxldCBfID0gc3RkOjpmczo6c2V0X3Blcm1pc3Npb25zKHBhdGgsIHBlcm1pc3Npb25zKTsKICAgIH0KfQoKI1tjZmcobm90KHVuaXgpKV0KcHViKGNyYXRlKSBmbiBjaG1vZF9leGVjdXRhYmxlKF9wYXRoOiAmUGF0aCkge30KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwoKICAgICNbY2ZnKHVuaXgpXQogICAgI1t0ZXN0XQogICAgZm4gY2htb2RfZXhlY3V0YWJsZV9zZXRzX2V4cGVjdGVkX3VuaXhfbW9kZSgpIHsKICAgICAgICB1c2Ugc3RkOjpvczo6dW5peDo6ZnM6OlBlcm1pc3Npb25zRXh0OwoKICAgICAgICBsZXQgZGlyZWN0b3J5ID0gdGVtcGZpbGU6OnRlbXBkaXIoKS51bndyYXAoKTsKICAgICAgICBsZXQgcGF0aCA9IGRpcmVjdG9yeS5wYXRoKCkuam9pbigidG9vbCIpOwogICAgICAgIHN0ZDo6ZnM6OndyaXRlKCZwYXRoLCBiIiMhL2Jpbi9zaFxuIikudW53cmFwKCk7CgogICAgICAgIGNobW9kX2V4ZWN1dGFibGUoJnBhdGgpOwoKICAgICAgICBsZXQgbW9kZSA9IHN0ZDo6ZnM6Om1ldGFkYXRhKCZwYXRoKS51bndyYXAoKS5wZXJtaXNzaW9ucygpLm1vZGUoKSAmIDBvNzc3OwogICAgICAgIGFzc2VydF9lcSEobW9kZSwgMG83NTUpOwogICAgfQoKICAgICNbdG9raW86OnRlc3RdCiAgICBhc3luYyBmbiBsaW1pdGVkX2ZpbGVfcmVhZF9hY2NlcHRzX3RoZV9saW1pdF9hbmRfcmVqZWN0c190aGVfbmV4dF9ieXRlKCkgewogICAgICAgIGxldCBkaXJlY3RvcnkgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLnVud3JhcCgpOwogICAgICAgIGxldCBwYXRoID0gZGlyZWN0b3J5LnBhdGgoKS5qb2luKCJib3VuZGVkIik7CiAgICAgICAgc3RkOjpmczo6d3JpdGUoJnBhdGgsIGIiMTIzNCIpLnVud3JhcCgpOwogICAgICAgIGFzc2VydF9lcSEocmVhZF9maWxlX2xpbWl0ZWQoJnBhdGgsIDQpLmF3YWl0LnVud3JhcCgpLCBiIjEyMzQiKTsKCiAgICAgICAgc3RkOjpmczo6d3JpdGUoJnBhdGgsIGIiMTIzNDUiKS51bndyYXAoKTsKICAgICAgICBsZXQgZXJyb3IgPSByZWFkX2ZpbGVfbGltaXRlZCgmcGF0aCwgNCkuYXdhaXQudW53cmFwX2VycigpOwogICAgICAgIGFzc2VydF9lcSEoZXJyb3Iua2luZCgpLCBzdGQ6OmlvOjpFcnJvcktpbmQ6OkludmFsaWREYXRhKTsKICAgIH0KfQo=
+use std::{io, path::Path};
+
+use tokio::io::AsyncReadExt;
+
+pub(crate) async fn read_file_limited(path: &Path, limit: usize) -> io::Result<Vec<u8>> {
+    let file = tokio::fs::File::open(path).await?;
+    read_open_file_limited(file, limit).await.map_err(|error| {
+        if error.kind() == io::ErrorKind::InvalidData {
+            io::Error::new(
+                io::ErrorKind::InvalidData,
+                format!("{} exceeds the {limit}-byte limit", path.display()),
+            )
+        } else {
+            error
+        }
+    })
+}
+
+pub(crate) async fn read_open_file_limited(
+    file: tokio::fs::File,
+    limit: usize,
+) -> io::Result<Vec<u8>> {
+    let read_limit = u64::try_from(limit).unwrap_or(u64::MAX).saturating_add(1);
+    let mut content = Vec::with_capacity(limit.min(64 * 1024));
+    file.take(read_limit).read_to_end(&mut content).await?;
+    if content.len() > limit {
+        return Err(io::Error::new(
+            io::ErrorKind::InvalidData,
+            format!("file exceeds the {limit}-byte limit"),
+        ));
+    }
+    Ok(content)
+}
+
+#[cfg(not(windows))]
+pub(crate) fn replace_file(temporary: &Path, destination: &Path) -> io::Result<()> {
+    std::fs::rename(temporary, destination)
+}
+
+#[cfg(windows)]
+pub(crate) fn replace_file(temporary: &Path, destination: &Path) -> io::Result<()> {
+    use std::os::windows::ffi::OsStrExt;
+
+    use windows_sys::Win32::Storage::FileSystem::{
+        MOVEFILE_REPLACE_EXISTING, MOVEFILE_WRITE_THROUGH, MoveFileExW,
+    };
+
+    let source = temporary
+        .as_os_str()
+        .encode_wide()
+        .chain(Some(0))
+        .collect::<Vec<_>>();
+    let destination = destination
+        .as_os_str()
+        .encode_wide()
+        .chain(Some(0))
+        .collect::<Vec<_>>();
+    // SAFETY: both buffers are valid, NUL-terminated UTF-16 paths and remain
+    // alive for the duration of this same-volume atomic replacement call.
+    let moved = unsafe {
+        MoveFileExW(
+            source.as_ptr(),
+            destination.as_ptr(),
+            MOVEFILE_REPLACE_EXISTING | MOVEFILE_WRITE_THROUGH,
+        )
+    };
+    if moved == 0 {
+        Err(io::Error::last_os_error())
+    } else {
+        Ok(())
+    }
+}
+
+#[cfg(unix)]
+pub(crate) fn chmod_executable(path: &Path) {
+    use std::os::unix::fs::PermissionsExt;
+
+    if let Ok(metadata) = std::fs::metadata(path) {
+        let mut permissions = metadata.permissions();
+        permissions.set_mode(0o755);
+        let _ = std::fs::set_permissions(path, permissions);
+    }
+}
+
+#[cfg(not(unix))]
+pub(crate) fn chmod_executable(_path: &Path) {}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[cfg(unix)]
+    #[test]
+    fn chmod_executable_sets_expected_unix_mode() {
+        use std::os::unix::fs::PermissionsExt;
+
+        let directory = tempfile::tempdir().unwrap();
+        let path = directory.path().join("tool");
+        std::fs::write(&path, b"#!/bin/sh\n").unwrap();
+
+        chmod_executable(&path);
+
+        let mode = std::fs::metadata(&path).unwrap().permissions().mode() & 0o777;
+        assert_eq!(mode, 0o755);
+    }
+
+    #[tokio::test]
+    async fn limited_file_read_accepts_the_limit_and_rejects_the_next_byte() {
+        let directory = tempfile::tempdir().unwrap();
+        let path = directory.path().join("bounded");
+        std::fs::write(&path, b"1234").unwrap();
+        assert_eq!(read_file_limited(&path, 4).await.unwrap(), b"1234");
+
+        std::fs::write(&path, b"12345").unwrap();
+        let error = read_file_limited(&path, 4).await.unwrap_err();
+        assert_eq!(error.kind(), std::io::ErrorKind::InvalidData);
+    }
+}

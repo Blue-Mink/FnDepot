@@ -1,1 +1,216 @@
-dXNlIHN0ZDo6ewogICAgY29sbGVjdGlvbnM6OkJUcmVlU2V0LAogICAgbmV0Ojp7SXB2NEFkZHIsIElwdjZBZGRyfSwKfTsKCnVzZSBnZXRfaWZfYWRkcnM6OntJZkFkZHIsIEludGVyZmFjZSwgZ2V0X2lmX2FkZHJzfTsKCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRXEsIFBhcnRpYWxFcSldCnB1YihjcmF0ZSkgc3RydWN0IFByaXZhdGVJcHY0Q2FuZGlkYXRlIHsKICAgIHB1YihjcmF0ZSkgaW50ZXJmYWNlOiBTdHJpbmcsCiAgICBwdWIoY3JhdGUpIGFkZHJlc3M6IElwdjRBZGRyLAogICAgcHViKGNyYXRlKSBuZXRtYXNrOiBJcHY0QWRkciwKICAgIHB1YihjcmF0ZSkgcHJlZml4OiBPcHRpb248dTg+LAp9CgpwdWIoY3JhdGUpIGZuIGlwdjRfcHJlZml4X2xlbihtYXNrOiBJcHY0QWRkcikgLT4gdTMyIHsKICAgIG1hc2sub2N0ZXRzKCkuaXRlcigpLm1hcCh8Ynl0ZXwgYnl0ZS5jb3VudF9vbmVzKCkpLnN1bSgpCn0KCnB1YihjcmF0ZSkgZm4gaXB2Nl9wcmVmaXhfbGVuKG1hc2s6IElwdjZBZGRyKSAtPiB1MzIgewogICAgbWFzay5vY3RldHMoKS5pdGVyKCkubWFwKHxieXRlfCBieXRlLmNvdW50X29uZXMoKSkuc3VtKCkKfQoKcHViKGNyYXRlKSBmbiBpcHY0X3ByZWZpeF9sZW5fY2hlY2tlZChtYXNrOiBJcHY0QWRkcikgLT4gT3B0aW9uPHU4PiB7CiAgICBsZXQgbWFzayA9IHUzMjo6ZnJvbShtYXNrKTsKICAgIGxldCBwcmVmaXggPSBtYXNrLmxlYWRpbmdfb25lcygpIGFzIHU4OwogICAgbGV0IGV4cGVjdGVkID0gaWYgcHJlZml4ID09IDAgewogICAgICAgIDAKICAgIH0gZWxzZSB7CiAgICAgICAgdTMyOjpNQVguY2hlY2tlZF9zaGwoKDMyIC0gcHJlZml4KSBhcyB1MzIpLnVud3JhcF9vcigwKQogICAgfTsKICAgIChtYXNrID09IGV4cGVjdGVkKS50aGVuX3NvbWUocHJlZml4KQp9CgpwdWIoY3JhdGUpIGZuIGlzX3ByaXZhdGVfaXB2NChpcDogSXB2NEFkZHIpIC0+IGJvb2wgewogICAgbGV0IFtmaXJzdCwgc2Vjb25kLCBfLCBfXSA9IGlwLm9jdGV0cygpOwogICAgZmlyc3QgPT0gMTAgfHwgKGZpcnN0ID09IDE3MiAmJiAoMTYuLj0zMSkuY29udGFpbnMoJnNlY29uZCkpIHx8IChmaXJzdCA9PSAxOTIgJiYgc2Vjb25kID09IDE2OCkKfQoKcHViKGNyYXRlKSBmbiBpc19leGNsdWRlZF9sb2NhbF9pbnRlcmZhY2UobmFtZTogJnN0cikgLT4gYm9vbCB7CiAgICBsZXQgbG93ZXIgPSBuYW1lLnRyaW0oKS50b19hc2NpaV9sb3dlcmNhc2UoKTsKICAgIGxvd2VyID09ICJsbyIKICAgICAgICB8fCBsb3dlci5zdGFydHNfd2l0aCgiZG9ja2VyIikKICAgICAgICB8fCBpc19kb2NrZXJfZ2VuZXJhdGVkX2JyaWRnZV9uYW1lKCZsb3dlcikKICAgICAgICB8fCBsb3dlci5zdGFydHNfd2l0aCgidmV0aCIpCiAgICAgICAgfHwgbG93ZXIuc3RhcnRzX3dpdGgoInRhaWxzY2FsZSIpCiAgICAgICAgfHwgbG93ZXIuc3RhcnRzX3dpdGgoInp0IikKICAgICAgICB8fCBsb3dlci5zdGFydHNfd2l0aCgidHVuIikKICAgICAgICB8fCBsb3dlci5zdGFydHNfd2l0aCgidGFwIikKICAgICAgICB8fCBsb3dlci5zdGFydHNfd2l0aCgid2ciKQogICAgICAgIHx8IGxvd2VyLnN0YXJ0c193aXRoKCJncmUiKQogICAgICAgIHx8IGxvd2VyLnN0YXJ0c193aXRoKCJpcGlwIikKICAgICAgICB8fCBsb3dlci5zdGFydHNfd2l0aCgic2l0IikKICAgICAgICB8fCBsb3dlci5zdGFydHNfd2l0aCgidnhsYW4iKQogICAgICAgIHx8IGxvd2VyLnN0YXJ0c193aXRoKCJnZW5ldiIpCiAgICAgICAgfHwgbG93ZXIuc3RhcnRzX3dpdGgoImVyc3BhbiIpCiAgICAgICAgfHwgbG93ZXIuc3RhcnRzX3dpdGgoImlwNnRubCIpCiAgICAgICAgfHwgbG93ZXIuc3RhcnRzX3dpdGgoImlwNmdyZSIpCn0KCmZuIGlzX2RvY2tlcl9nZW5lcmF0ZWRfYnJpZGdlX25hbWUobmFtZTogJnN0cikgLT4gYm9vbCB7CiAgICBsZXQgU29tZShzdWZmaXgpID0gbmFtZS5zdHJpcF9wcmVmaXgoImJyLSIpIGVsc2UgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH07CiAgICAoMTIuLj02NCkuY29udGFpbnMoJnN1ZmZpeC5sZW4oKSkKICAgICAgICAmJiBzdWZmaXgKICAgICAgICAgICAgLmNoYXJzKCkKICAgICAgICAgICAgLmFsbCh8Y2hhcmFjdGVyfCBjaGFyYWN0ZXIuaXNfYXNjaWlfaGV4ZGlnaXQoKSkKfQoKcHViKGNyYXRlKSBmbiBsaXN0X3ByaXZhdGVfaXB2NF9jYW5kaWRhdGVzKCkgLT4gVmVjPFByaXZhdGVJcHY0Q2FuZGlkYXRlPiB7CiAgICBnZXRfaWZfYWRkcnMoKQogICAgICAgIC5tYXAoY29sbGVjdF9wcml2YXRlX2lwdjRfY2FuZGlkYXRlcykKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQp9CgpmbiBjb2xsZWN0X3ByaXZhdGVfaXB2NF9jYW5kaWRhdGVzKAogICAgaW50ZXJmYWNlczogaW1wbCBJbnRvSXRlcmF0b3I8SXRlbSA9IEludGVyZmFjZT4sCikgLT4gVmVjPFByaXZhdGVJcHY0Q2FuZGlkYXRlPiB7CiAgICBsZXQgbXV0IG91dHB1dCA9IFZlYzo6bmV3KCk7CiAgICBmb3IgaW50ZXJmYWNlIGluIGludGVyZmFjZXMgewogICAgICAgIGlmIGludGVyZmFjZS5pc19sb29wYmFjaygpIHx8IGlzX2V4Y2x1ZGVkX2xvY2FsX2ludGVyZmFjZSgmaW50ZXJmYWNlLm5hbWUpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBJZkFkZHI6OlY0KGFkZHJlc3MpID0gaW50ZXJmYWNlLmFkZHIgZWxzZSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH07CiAgICAgICAgaWYgIWlzX3ByaXZhdGVfaXB2NChhZGRyZXNzLmlwKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBvdXRwdXQucHVzaChQcml2YXRlSXB2NENhbmRpZGF0ZSB7CiAgICAgICAgICAgIGludGVyZmFjZTogaW50ZXJmYWNlLm5hbWUsCiAgICAgICAgICAgIGFkZHJlc3M6IGFkZHJlc3MuaXAsCiAgICAgICAgICAgIG5ldG1hc2s6IGFkZHJlc3MubmV0bWFzaywKICAgICAgICAgICAgcHJlZml4OiBpcHY0X3ByZWZpeF9sZW5fY2hlY2tlZChhZGRyZXNzLm5ldG1hc2spLAogICAgICAgIH0pOwogICAgfQogICAgb3V0cHV0LnNvcnRfYnkofGxlZnQsIHJpZ2h0fCB7CiAgICAgICAgbGVmdC5pbnRlcmZhY2UKICAgICAgICAgICAgLmNtcCgmcmlnaHQuaW50ZXJmYWNlKQogICAgICAgICAgICAudGhlbl93aXRoKHx8IGxlZnQuYWRkcmVzcy5jbXAoJnJpZ2h0LmFkZHJlc3MpKQogICAgfSk7CiAgICBsZXQgbXV0IHNlZW4gPSBCVHJlZVNldDo6bmV3KCk7CiAgICBvdXRwdXQucmV0YWluKHxjYW5kaWRhdGV8IHNlZW4uaW5zZXJ0KGNhbmRpZGF0ZS5hZGRyZXNzKSk7CiAgICBvdXRwdXQKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CgogICAgZm4gaXB2NF9pbnRlcmZhY2UobmFtZTogJnN0ciwgYWRkcmVzczogW3U4OyA0XSwgbmV0bWFzazogW3U4OyA0XSkgLT4gSW50ZXJmYWNlIHsKICAgICAgICBJbnRlcmZhY2UgewogICAgICAgICAgICBuYW1lOiBuYW1lLnRvX3N0cmluZygpLAogICAgICAgICAgICBhZGRyOiBJZkFkZHI6OlY0KGdldF9pZl9hZGRyczo6SWZ2NEFkZHIgewogICAgICAgICAgICAgICAgaXA6IElwdjRBZGRyOjpmcm9tKGFkZHJlc3MpLAogICAgICAgICAgICAgICAgbmV0bWFzazogSXB2NEFkZHI6OmZyb20obmV0bWFzayksCiAgICAgICAgICAgICAgICBwcmVmaXhsZW46IGlwdjRfcHJlZml4X2xlbihJcHY0QWRkcjo6ZnJvbShuZXRtYXNrKSkgYXMgdTgsCiAgICAgICAgICAgICAgICBicm9hZGNhc3Q6IE5vbmUsCiAgICAgICAgICAgIH0pLAogICAgICAgICAgICBpbmRleDogTm9uZSwKICAgICAgICAgICAgb3Blcl9zdGF0dXM6IGdldF9pZl9hZGRyczo6SWZPcGVyU3RhdHVzOjpVcCwKICAgICAgICAgICAgaXNfcDJwOiBmYWxzZSwKICAgICAgICAgICAgI1tjZmcod2luZG93cyldCiAgICAgICAgICAgIGFkYXB0ZXJfbmFtZTogU3RyaW5nOjpuZXcoKSwKICAgICAgICB9CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gY291bnRzX2lwdjRfYW5kX2lwdjZfbWFza19iaXRzX2xpa2VfZXhpc3RpbmdfY2FsbGVycygpIHsKICAgICAgICBhc3NlcnRfZXEhKGlwdjRfcHJlZml4X2xlbihJcHY0QWRkcjo6bmV3KDI1NSwgMjU1LCAyNTUsIDApKSwgMjQpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGlwdjZfcHJlZml4X2xlbigiZmZmZjpmZmZmOmZmZmY6ZmZmZjo6Ii5wYXJzZTo6PElwdjZBZGRyPigpLnVud3JhcCgpKSwKICAgICAgICAgICAgNjQKICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHZhbGlkYXRlc19pcHY0X3ByZWZpeF9tYXNrcygpIHsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBpcHY0X3ByZWZpeF9sZW5fY2hlY2tlZChJcHY0QWRkcjo6bmV3KDI1NSwgMjU1LCAyNTQsIDApKSwKICAgICAgICAgICAgU29tZSgyMykKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoaXB2NF9wcmVmaXhfbGVuX2NoZWNrZWQoSXB2NEFkZHI6Om5ldygyNTUsIDAsIDI1NSwgMCkpLCBOb25lKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiByZWNvZ25pemVzX29ubHlfcmZjMTkxOF9pcHY0X2FkZHJlc3NlcygpIHsKICAgICAgICBmb3IgYWRkcmVzcyBpbiBbIjEwLjAuMC4xIiwgIjE3Mi4xNi4wLjEiLCAiMTcyLjMxLjI1NS4yNTQiLCAiMTkyLjE2OC4xLjEiXSB7CiAgICAgICAgICAgIGFzc2VydCEoaXNfcHJpdmF0ZV9pcHY0KGFkZHJlc3MucGFyc2UoKS51bndyYXAoKSksICJ7YWRkcmVzc30iKTsKICAgICAgICB9CiAgICAgICAgZm9yIGFkZHJlc3MgaW4gWwogICAgICAgICAgICAiMTI3LjAuMC4xIiwKICAgICAgICAgICAgIjEwMC42NC4wLjEiLAogICAgICAgICAgICAiMTY5LjI1NC4xLjEiLAogICAgICAgICAgICAiMTcyLjMyLjAuMSIsCiAgICAgICAgICAgICI4LjguOC44IiwKICAgICAgICBdIHsKICAgICAgICAgICAgYXNzZXJ0ISghaXNfcHJpdmF0ZV9pcHY0KGFkZHJlc3MucGFyc2UoKS51bndyYXAoKSksICJ7YWRkcmVzc30iKTsKICAgICAgICB9CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gZXhjbHVkZXNfZXBoZW1lcmFsX2ludGVyZmFjZXNfYnV0X2tlZXBzX2xhbl9icmlkZ2VzKCkgewogICAgICAgIGZvciBuYW1lIGluIFsiYnIwIiwgImJyLWxhbiIsICJib25kMCIsICJlbjAiLCAiZXRoMCIsICJvdnMtc3lzdGVtIl0gewogICAgICAgICAgICBhc3NlcnQhKCFpc19leGNsdWRlZF9sb2NhbF9pbnRlcmZhY2UobmFtZSksICJ7bmFtZX0iKTsKICAgICAgICB9CiAgICAgICAgZm9yIG5hbWUgaW4gWwogICAgICAgICAgICAibG8iLAogICAgICAgICAgICAiZG9ja2VyMCIsCiAgICAgICAgICAgICJici0wMTIzNDU2Nzg5YWIiLAogICAgICAgICAgICAidmV0aDEyMzQiLAogICAgICAgICAgICAidGFpbHNjYWxlMCIsCiAgICAgICAgICAgICJ3ZzAiLAogICAgICAgICAgICAiZ3JlMCIsCiAgICAgICAgICAgICJncmV0YXAwIiwKICAgICAgICAgICAgImlwaXAwIiwKICAgICAgICAgICAgInNpdDAiLAogICAgICAgICAgICAidnhsYW4xMDAiLAogICAgICAgICAgICAiZ2VuZXZfc3lzXzYwODEiLAogICAgICAgICAgICAiZXJzcGFuMCIsCiAgICAgICAgICAgICJpcDZ0bmwwIiwKICAgICAgICAgICAgImlwNmdyZTAiLAogICAgICAgIF0gewogICAgICAgICAgICBhc3NlcnQhKGlzX2V4Y2x1ZGVkX2xvY2FsX2ludGVyZmFjZShuYW1lKSwgIntuYW1lfSIpOwogICAgICAgIH0KICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBwcml2YXRlX2NhbmRpZGF0ZXNfZmlsdGVyX2RlZHVwZV9hbmRfc29ydF9zdGFibHkoKSB7CiAgICAgICAgbGV0IGNhbmRpZGF0ZXMgPSBjb2xsZWN0X3ByaXZhdGVfaXB2NF9jYW5kaWRhdGVzKFsKICAgICAgICAgICAgaXB2NF9pbnRlcmZhY2UoImVuMSIsIFsxOTIsIDE2OCwgMSwgMjBdLCBbMjU1LCAyNTUsIDI1NSwgMF0pLAogICAgICAgICAgICBpcHY0X2ludGVyZmFjZSgiZW4wIiwgWzE5MiwgMTY4LCAxLCAxMF0sIFsyNTUsIDI1NSwgMjU0LCAwXSksCiAgICAgICAgICAgIGlwdjRfaW50ZXJmYWNlKCJlbjAiLCBbMTkyLCAxNjgsIDEsIDJdLCBbMjU1LCAyNTUsIDI1NSwgMF0pLAogICAgICAgICAgICBpcHY0X2ludGVyZmFjZSgiYm9uZDAiLCBbMTkyLCAxNjgsIDEsIDIwXSwgWzI1NSwgMjU1LCAyNTUsIDBdKSwKICAgICAgICAgICAgaXB2NF9pbnRlcmZhY2UoImRvY2tlcjAiLCBbMTcyLCAxNywgMCwgMV0sIFsyNTUsIDI1NSwgMCwgMF0pLAogICAgICAgICAgICBpcHY0X2ludGVyZmFjZSgiZW4yIiwgWzEwMCwgNjQsIDAsIDFdLCBbMjU1LCAxOTIsIDAsIDBdKSwKICAgICAgICBdKTsKCiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgY2FuZGlkYXRlcwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLm1hcCh8Y2FuZGlkYXRlfCAoCiAgICAgICAgICAgICAgICAgICAgY2FuZGlkYXRlLmludGVyZmFjZS5hc19zdHIoKSwKICAgICAgICAgICAgICAgICAgICBjYW5kaWRhdGUuYWRkcmVzcywKICAgICAgICAgICAgICAgICAgICBjYW5kaWRhdGUucHJlZml4CiAgICAgICAgICAgICAgICApKQogICAgICAgICAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCksCiAgICAgICAgICAgIHZlYyFbCiAgICAgICAgICAgICAgICAoImJvbmQwIiwgSXB2NEFkZHI6Om5ldygxOTIsIDE2OCwgMSwgMjApLCBTb21lKDI0KSksCiAgICAgICAgICAgICAgICAoImVuMCIsIElwdjRBZGRyOjpuZXcoMTkyLCAxNjgsIDEsIDIpLCBTb21lKDI0KSksCiAgICAgICAgICAgICAgICAoImVuMCIsIElwdjRBZGRyOjpuZXcoMTkyLCAxNjgsIDEsIDEwKSwgU29tZSgyMykpLAogICAgICAgICAgICBdCiAgICAgICAgKTsKICAgIH0KfQo=
+use std::{
+    collections::BTreeSet,
+    net::{Ipv4Addr, Ipv6Addr},
+};
+
+use get_if_addrs::{IfAddr, Interface, get_if_addrs};
+
+#[derive(Clone, Debug, Eq, PartialEq)]
+pub(crate) struct PrivateIpv4Candidate {
+    pub(crate) interface: String,
+    pub(crate) address: Ipv4Addr,
+    pub(crate) netmask: Ipv4Addr,
+    pub(crate) prefix: Option<u8>,
+}
+
+pub(crate) fn ipv4_prefix_len(mask: Ipv4Addr) -> u32 {
+    mask.octets().iter().map(|byte| byte.count_ones()).sum()
+}
+
+pub(crate) fn ipv6_prefix_len(mask: Ipv6Addr) -> u32 {
+    mask.octets().iter().map(|byte| byte.count_ones()).sum()
+}
+
+pub(crate) fn ipv4_prefix_len_checked(mask: Ipv4Addr) -> Option<u8> {
+    let mask = u32::from(mask);
+    let prefix = mask.leading_ones() as u8;
+    let expected = if prefix == 0 {
+        0
+    } else {
+        u32::MAX.checked_shl((32 - prefix) as u32).unwrap_or(0)
+    };
+    (mask == expected).then_some(prefix)
+}
+
+pub(crate) fn is_private_ipv4(ip: Ipv4Addr) -> bool {
+    let [first, second, _, _] = ip.octets();
+    first == 10 || (first == 172 && (16..=31).contains(&second)) || (first == 192 && second == 168)
+}
+
+pub(crate) fn is_excluded_local_interface(name: &str) -> bool {
+    let lower = name.trim().to_ascii_lowercase();
+    lower == "lo"
+        || lower.starts_with("docker")
+        || is_docker_generated_bridge_name(&lower)
+        || lower.starts_with("veth")
+        || lower.starts_with("tailscale")
+        || lower.starts_with("zt")
+        || lower.starts_with("tun")
+        || lower.starts_with("tap")
+        || lower.starts_with("wg")
+        || lower.starts_with("gre")
+        || lower.starts_with("ipip")
+        || lower.starts_with("sit")
+        || lower.starts_with("vxlan")
+        || lower.starts_with("genev")
+        || lower.starts_with("erspan")
+        || lower.starts_with("ip6tnl")
+        || lower.starts_with("ip6gre")
+}
+
+fn is_docker_generated_bridge_name(name: &str) -> bool {
+    let Some(suffix) = name.strip_prefix("br-") else {
+        return false;
+    };
+    (12..=64).contains(&suffix.len())
+        && suffix
+            .chars()
+            .all(|character| character.is_ascii_hexdigit())
+}
+
+pub(crate) fn list_private_ipv4_candidates() -> Vec<PrivateIpv4Candidate> {
+    get_if_addrs()
+        .map(collect_private_ipv4_candidates)
+        .unwrap_or_default()
+}
+
+fn collect_private_ipv4_candidates(
+    interfaces: impl IntoIterator<Item = Interface>,
+) -> Vec<PrivateIpv4Candidate> {
+    let mut output = Vec::new();
+    for interface in interfaces {
+        if interface.is_loopback() || is_excluded_local_interface(&interface.name) {
+            continue;
+        }
+        let IfAddr::V4(address) = interface.addr else {
+            continue;
+        };
+        if !is_private_ipv4(address.ip) {
+            continue;
+        }
+        output.push(PrivateIpv4Candidate {
+            interface: interface.name,
+            address: address.ip,
+            netmask: address.netmask,
+            prefix: ipv4_prefix_len_checked(address.netmask),
+        });
+    }
+    output.sort_by(|left, right| {
+        left.interface
+            .cmp(&right.interface)
+            .then_with(|| left.address.cmp(&right.address))
+    });
+    let mut seen = BTreeSet::new();
+    output.retain(|candidate| seen.insert(candidate.address));
+    output
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn ipv4_interface(name: &str, address: [u8; 4], netmask: [u8; 4]) -> Interface {
+        Interface {
+            name: name.to_string(),
+            addr: IfAddr::V4(get_if_addrs::Ifv4Addr {
+                ip: Ipv4Addr::from(address),
+                netmask: Ipv4Addr::from(netmask),
+                prefixlen: ipv4_prefix_len(Ipv4Addr::from(netmask)) as u8,
+                broadcast: None,
+            }),
+            index: None,
+            oper_status: get_if_addrs::IfOperStatus::Up,
+            is_p2p: false,
+            #[cfg(windows)]
+            adapter_name: String::new(),
+        }
+    }
+
+    #[test]
+    fn counts_ipv4_and_ipv6_mask_bits_like_existing_callers() {
+        assert_eq!(ipv4_prefix_len(Ipv4Addr::new(255, 255, 255, 0)), 24);
+        assert_eq!(
+            ipv6_prefix_len("ffff:ffff:ffff:ffff::".parse::<Ipv6Addr>().unwrap()),
+            64
+        );
+    }
+
+    #[test]
+    fn validates_ipv4_prefix_masks() {
+        assert_eq!(
+            ipv4_prefix_len_checked(Ipv4Addr::new(255, 255, 254, 0)),
+            Some(23)
+        );
+        assert_eq!(ipv4_prefix_len_checked(Ipv4Addr::new(255, 0, 255, 0)), None);
+    }
+
+    #[test]
+    fn recognizes_only_rfc1918_ipv4_addresses() {
+        for address in ["10.0.0.1", "172.16.0.1", "172.31.255.254", "192.168.1.1"] {
+            assert!(is_private_ipv4(address.parse().unwrap()), "{address}");
+        }
+        for address in [
+            "127.0.0.1",
+            "100.64.0.1",
+            "169.254.1.1",
+            "172.32.0.1",
+            "8.8.8.8",
+        ] {
+            assert!(!is_private_ipv4(address.parse().unwrap()), "{address}");
+        }
+    }
+
+    #[test]
+    fn excludes_ephemeral_interfaces_but_keeps_lan_bridges() {
+        for name in ["br0", "br-lan", "bond0", "en0", "eth0", "ovs-system"] {
+            assert!(!is_excluded_local_interface(name), "{name}");
+        }
+        for name in [
+            "lo",
+            "docker0",
+            "br-0123456789ab",
+            "veth1234",
+            "tailscale0",
+            "wg0",
+            "gre0",
+            "gretap0",
+            "ipip0",
+            "sit0",
+            "vxlan100",
+            "genev_sys_6081",
+            "erspan0",
+            "ip6tnl0",
+            "ip6gre0",
+        ] {
+            assert!(is_excluded_local_interface(name), "{name}");
+        }
+    }
+
+    #[test]
+    fn private_candidates_filter_dedupe_and_sort_stably() {
+        let candidates = collect_private_ipv4_candidates([
+            ipv4_interface("en1", [192, 168, 1, 20], [255, 255, 255, 0]),
+            ipv4_interface("en0", [192, 168, 1, 10], [255, 255, 254, 0]),
+            ipv4_interface("en0", [192, 168, 1, 2], [255, 255, 255, 0]),
+            ipv4_interface("bond0", [192, 168, 1, 20], [255, 255, 255, 0]),
+            ipv4_interface("docker0", [172, 17, 0, 1], [255, 255, 0, 0]),
+            ipv4_interface("en2", [100, 64, 0, 1], [255, 192, 0, 0]),
+        ]);
+
+        assert_eq!(
+            candidates
+                .iter()
+                .map(|candidate| (
+                    candidate.interface.as_str(),
+                    candidate.address,
+                    candidate.prefix
+                ))
+                .collect::<Vec<_>>(),
+            vec![
+                ("bond0", Ipv4Addr::new(192, 168, 1, 20), Some(24)),
+                ("en0", Ipv4Addr::new(192, 168, 1, 2), Some(24)),
+                ("en0", Ipv4Addr::new(192, 168, 1, 10), Some(23)),
+            ]
+        );
+    }
+}

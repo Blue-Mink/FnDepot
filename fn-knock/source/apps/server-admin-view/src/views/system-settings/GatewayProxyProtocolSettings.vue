@@ -1,1 +1,291 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvbk1vdW50ZWQsIHJlYWN0aXZlLCByZWYsIHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsKICBleHRyYWN0RXJyb3JNZXNzYWdlLAogIHVzZUFzeW5jQWN0aW9uLAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgewogIGlzVmFsaWRDSURSLAogIGlzVmFsaWRJUHY0QWRkcmVzcywKICBpc1ZhbGlkSVB2NkFkZHJlc3MsCiAgbm9ybWFsaXplQ2lkckxpbmVzLAogIHNwbGl0Q2lkclRleHRhcmVhLAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvY2lkciI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCBGbG9hdGluZ0FjdGlvbkRvY2sgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9GbG9hdGluZ0FjdGlvbkRvY2sudnVlIjsKaW1wb3J0IHsKICBCcmVhZGNydW1iLAogIEJyZWFkY3J1bWJJdGVtLAogIEJyZWFkY3J1bWJMaW5rLAogIEJyZWFkY3J1bWJMaXN0LAogIEJyZWFkY3J1bWJQYWdlLAogIEJyZWFkY3J1bWJTZXBhcmF0b3IsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JyZWFkY3J1bWIiOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIENhcmQsCiAgQ2FyZENvbnRlbnQsCiAgQ2FyZERlc2NyaXB0aW9uLAogIENhcmRIZWFkZXIsCiAgQ2FyZFRpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IHsgVGV4dGFyZWEgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGV4dGFyZWEiOwppbXBvcnQgeyBDb25maWdBUEkgfSBmcm9tICJAL2xpYi9hcGkvY29uZmlnIjsKaW1wb3J0IHR5cGUgeyBHYXRld2F5UHJveHlQcm90b2NvbENvbmZpZyB9IGZyb20gIkAvdHlwZXMiOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IGExMXlJZCA9IHVzZUlkKCk7CmNvbnN0IHNldHRpbmdzID0gcmVmPEdhdGV3YXlQcm94eVByb3RvY29sQ29uZmlnIHwgbnVsbD4obnVsbCk7CmNvbnN0IGxvYWRFcnJvciA9IHJlZigiIik7CmNvbnN0IGZvcm0gPSByZWFjdGl2ZSh7IGVuYWJsZWQ6IGZhbHNlLCB0cnVzdGVkU291cmNlc1RleHQ6ICIiIH0pOwoKY29uc3QgcGFyc2VkU291cmNlcyA9IGNvbXB1dGVkKCgpID0+IHsKICBjb25zdCBzb3VyY2VzID0gbm9ybWFsaXplQ2lkckxpbmVzKAogICAgc3BsaXRDaWRyVGV4dGFyZWEoZm9ybS50cnVzdGVkU291cmNlc1RleHQpLAogICk7CiAgY29uc3QgaW52YWxpZCA9IHNvdXJjZXMuZmlsdGVyKChzb3VyY2UpID0+IHsKICAgIGlmIChzb3VyY2UgPT09ICIwLjAuMC4wLzAiIHx8IHNvdXJjZSA9PT0gIjo6LzAiKSByZXR1cm4gdHJ1ZTsKICAgIHJldHVybiAhKAogICAgICBpc1ZhbGlkSVB2NEFkZHJlc3Moc291cmNlKSB8fAogICAgICBpc1ZhbGlkSVB2NkFkZHJlc3Moc291cmNlKSB8fAogICAgICBpc1ZhbGlkQ0lEUihzb3VyY2UpCiAgICApOwogIH0pOwogIHJldHVybiB7IHNvdXJjZXMsIGludmFsaWQgfTsKfSk7Cgpjb25zdCBzbmFwc2hvdCA9IGNvbXB1dGVkKCgpID0+CiAgSlNPTi5zdHJpbmdpZnkoewogICAgZW5hYmxlZDogZm9ybS5lbmFibGVkLAogICAgdHJ1c3RlZF9zb3VyY2VzOiBwYXJzZWRTb3VyY2VzLnZhbHVlLnNvdXJjZXMsCiAgfSksCik7CmNvbnN0IHNhdmVkU25hcHNob3QgPSBjb21wdXRlZCgoKSA9PgogIEpTT04uc3RyaW5naWZ5KHsKICAgIGVuYWJsZWQ6IHNldHRpbmdzLnZhbHVlPy5lbmFibGVkID8/IGZhbHNlLAogICAgdHJ1c3RlZF9zb3VyY2VzOiBzZXR0aW5ncy52YWx1ZT8udHJ1c3RlZF9zb3VyY2VzID8/IFtdLAogIH0pLAopOwpjb25zdCBpc0RpcnR5ID0gY29tcHV0ZWQoKCkgPT4gc25hcHNob3QudmFsdWUgIT09IHNhdmVkU25hcHNob3QudmFsdWUpOwpjb25zdCBzYXZlQmxvY2tlZFJlYXNvbiA9IGNvbXB1dGVkKCgpID0+IHsKICBpZiAocGFyc2VkU291cmNlcy52YWx1ZS5pbnZhbGlkLmxlbmd0aCA+IDApIHsKICAgIHJldHVybiB0KCJhZG1pbi5nYXRld2F5UHJveHlQcm90b2NvbFNldHRpbmdzLmludmFsaWRTb3VyY2VzIik7CiAgfQogIGlmIChmb3JtLmVuYWJsZWQgJiYgcGFyc2VkU291cmNlcy52YWx1ZS5zb3VyY2VzLmxlbmd0aCA9PT0gMCkgewogICAgcmV0dXJuIHQoImFkbWluLmdhdGV3YXlQcm94eVByb3RvY29sU2V0dGluZ3Muc291cmNlUmVxdWlyZWQiKTsKICB9CiAgcmV0dXJuICIiOwp9KTsKCmNvbnN0IHsgaXNQZW5kaW5nOiBpc0xvYWRpbmcsIHJ1bjogcnVuTG9hZCB9ID0gdXNlQXN5bmNBY3Rpb24oewogIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgbG9hZEVycm9yLnZhbHVlID0gZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgZXJyb3IsCiAgICAgIHQoImFkbWluLmdhdGV3YXlQcm94eVByb3RvY29sU2V0dGluZ3MubG9hZEZhaWxlZERlc2NyaXB0aW9uIiksCiAgICApOwogIH0sCn0pOwpjb25zdCB7IGlzUGVuZGluZzogaXNTYXZpbmcsIHJ1bjogcnVuU2F2ZSB9ID0gdXNlQXN5bmNBY3Rpb24oewogIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZ2F0ZXdheVByb3h5UHJvdG9jb2xTZXR0aW5ncy5zYXZlRmFpbGVkIiksIHsKICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgZXJyb3IsCiAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheVByb3h5UHJvdG9jb2xTZXR0aW5ncy5zYXZlRmFpbGVkRGVzY3JpcHRpb24iKSwKICAgICAgKSwKICAgIH0pOwogIH0sCn0pOwoKY29uc3QgYXBwbHlTZXR0aW5ncyA9ICh2YWx1ZTogR2F0ZXdheVByb3h5UHJvdG9jb2xDb25maWcpID0+IHsKICBzZXR0aW5ncy52YWx1ZSA9IHsKICAgIC4uLnZhbHVlLAogICAgdHJ1c3RlZF9zb3VyY2VzOiBbLi4udmFsdWUudHJ1c3RlZF9zb3VyY2VzXSwKICB9OwogIGZvcm0uZW5hYmxlZCA9IHZhbHVlLmVuYWJsZWQ7CiAgZm9ybS50cnVzdGVkU291cmNlc1RleHQgPSB2YWx1ZS50cnVzdGVkX3NvdXJjZXMuam9pbigiXG4iKTsKfTsKCmNvbnN0IGZldGNoU2V0dGluZ3MgPSBhc3luYyAoKSA9PiB7CiAgYXdhaXQgcnVuTG9hZChhc3luYyAoKSA9PiB7CiAgICBsb2FkRXJyb3IudmFsdWUgPSAiIjsKICAgIGFwcGx5U2V0dGluZ3MoYXdhaXQgQ29uZmlnQVBJLmdldEdhdGV3YXlQcm94eVByb3RvY29sKCkpOwogIH0pOwp9OwoKY29uc3QgcmVzZXRGb3JtID0gKCkgPT4gewogIGlmIChzZXR0aW5ncy52YWx1ZSkgYXBwbHlTZXR0aW5ncyhzZXR0aW5ncy52YWx1ZSk7Cn07Cgpjb25zdCBzYXZlU2V0dGluZ3MgPSBhc3luYyAoKSA9PiB7CiAgaWYgKHNhdmVCbG9ja2VkUmVhc29uLnZhbHVlKSB7CiAgICB0b2FzdC5lcnJvcihzYXZlQmxvY2tlZFJlYXNvbi52YWx1ZSwgewogICAgICBkZXNjcmlwdGlvbjoKICAgICAgICBwYXJzZWRTb3VyY2VzLnZhbHVlLmludmFsaWQubGVuZ3RoID4gMAogICAgICAgICAgPyBwYXJzZWRTb3VyY2VzLnZhbHVlLmludmFsaWQuam9pbigi44CBIikKICAgICAgICAgIDogdW5kZWZpbmVkLAogICAgfSk7CiAgICByZXR1cm47CiAgfQogIGF3YWl0IHJ1blNhdmUoCiAgICAoKSA9PgogICAgICBDb25maWdBUEkudXBkYXRlR2F0ZXdheVByb3h5UHJvdG9jb2woewogICAgICAgIGVuYWJsZWQ6IGZvcm0uZW5hYmxlZCwKICAgICAgICB0cnVzdGVkX3NvdXJjZXM6IHBhcnNlZFNvdXJjZXMudmFsdWUuc291cmNlcywKICAgICAgfSksCiAgICB7CiAgICAgIG9uU3VjY2VzczogKHZhbHVlKSA9PiB7CiAgICAgICAgYXBwbHlTZXR0aW5ncyh2YWx1ZSk7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5nYXRld2F5UHJveHlQcm90b2NvbFNldHRpbmdzLnVwZGF0ZWQiKSk7CiAgICAgIH0sCiAgICB9LAogICk7Cn07Cgpvbk1vdW50ZWQoKCkgPT4gdm9pZCBmZXRjaFNldHRpbmdzKCkpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJzcGFjZS15LTYiPgogICAgPEJyZWFkY3J1bWI+CiAgICAgIDxCcmVhZGNydW1iTGlzdD4KICAgICAgICA8QnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgICA8QnJlYWRjcnVtYkxpbmsgaHJlZj0iIy9zeXN0ZW0iPnt7CiAgICAgICAgICAgIHQoImFkbWluLmdhdGV3YXlQcm94eVByb3RvY29sU2V0dGluZ3Muc3lzdGVtU2V0dGluZ3MiKQogICAgICAgICAgfX08L0JyZWFkY3J1bWJMaW5rPgogICAgICAgIDwvQnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgPEJyZWFkY3J1bWJTZXBhcmF0b3IgLz4KICAgICAgICA8QnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgICA8QnJlYWRjcnVtYkxpbmsgaHJlZj0iIy9zeXN0ZW0/dGFiPWdhdGV3YXkiPnt7CiAgICAgICAgICAgIHQoImFkbWluLmdhdGV3YXlQcm94eVByb3RvY29sU2V0dGluZ3MuZ2F0ZXdheSIpCiAgICAgICAgICB9fTwvQnJlYWRjcnVtYkxpbms+CiAgICAgICAgPC9CcmVhZGNydW1iSXRlbT4KICAgICAgICA8QnJlYWRjcnVtYlNlcGFyYXRvciAvPgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iUGFnZT57ewogICAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5UHJveHlQcm90b2NvbFNldHRpbmdzLnRpdGxlIikKICAgICAgICAgIH19PC9CcmVhZGNydW1iUGFnZT4KICAgICAgICA8L0JyZWFkY3J1bWJJdGVtPgogICAgICA8L0JyZWFkY3J1bWJMaXN0PgogICAgPC9CcmVhZGNydW1iPgoKICAgIDxDYXJkIGNsYXNzPSJib3JkZXItYm9yZGVyLzYwIHNoYWRvdy1ub25lIj4KICAgICAgPENhcmRIZWFkZXIgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgPENhcmRUaXRsZSBjbGFzcz0idGV4dC14bCI+e3sKICAgICAgICAgIHQoImFkbWluLmdhdGV3YXlQcm94eVByb3RvY29sU2V0dGluZ3MudGl0bGUiKQogICAgICAgIH19PC9DYXJkVGl0bGU+CiAgICAgICAgPENhcmREZXNjcmlwdGlvbiBjbGFzcz0ibWF4LXctM3hsIGxlYWRpbmctNiI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5UHJveHlQcm90b2NvbFNldHRpbmdzLmRlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L0NhcmREZXNjcmlwdGlvbj4KICAgICAgPC9DYXJkSGVhZGVyPgoKICAgICAgPENhcmRDb250ZW50IGNsYXNzPSJzcGFjZS15LTYiPgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9ImlzTG9hZGluZyIKICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLXhsIGJvcmRlciBib3JkZXItYm9yZGVyLzYwIGJnLW11dGVkLzIwIHB4LTUgcHktMTIgdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICByb2xlPSJzdGF0dXMiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVByb3h5UHJvdG9jb2xTZXR0aW5ncy5sb2FkaW5nIikgfX0KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2CiAgICAgICAgICB2LWVsc2UtaWY9ImxvYWRFcnJvciIKICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLXhsIGJvcmRlciBib3JkZXItZGVzdHJ1Y3RpdmUvMjUgYmctZGVzdHJ1Y3RpdmUvNSBweC01IHB5LTQgdGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgcm9sZT0iYWxlcnQiCiAgICAgICAgPgogICAgICAgICAge3sgbG9hZEVycm9yIH19CiAgICAgICAgPC9kaXY+CgogICAgICAgIDx0ZW1wbGF0ZSB2LWVsc2UtaWY9InNldHRpbmdzIj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgIDxCYWRnZQogICAgICAgICAgICAgIDp2YXJpYW50PSJzZXR0aW5ncy5lZmZlY3RpdmVfZW5hYmxlZCA/ICdkZWZhdWx0JyA6ICdzZWNvbmRhcnknIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgIHNldHRpbmdzLmVmZmVjdGl2ZV9lbmFibGVkCiAgICAgICAgICAgICAgICAgID8gdCgiYWRtaW4uZ2F0ZXdheVByb3h5UHJvdG9jb2xTZXR0aW5ncy5lZmZlY3RpdmVFbmFibGVkIikKICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5nYXRld2F5UHJveHlQcm90b2NvbFNldHRpbmdzLmVmZmVjdGl2ZURpc2FibGVkIikKICAgICAgICAgICAgICB9fQogICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgICA8QmFkZ2Ugdi1pZj0ic2V0dGluZ3MubWFuYWdlZF9mcnBfZW5hYmxlZCIgdmFyaWFudD0ic2Vjb25kYXJ5Ij4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5UHJveHlQcm90b2NvbFNldHRpbmdzLm1hbmFnZWRGcnBFbmFibGVkIikgfX0KICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXYgY2xhc3M9InJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1ib3JkZXIvNjAgYmctbXV0ZWQvMTAgcC01Ij4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgICAgICAgICA8TGFiZWwgOmZvcj0iYCR7YTExeUlkfS1lbmFibGVkYCIgY2xhc3M9InRleHQtYmFzZSI+e3sKICAgICAgICAgICAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheVByb3h5UHJvdG9jb2xTZXR0aW5ncy5leHRlcm5hbEVuYWJsZWQiKQogICAgICAgICAgICAgICAgfX08L0xhYmVsPgogICAgICAgICAgICAgICAgPHAgY2xhc3M9Im1heC13LTN4bCB0ZXh0LXNtIGxlYWRpbmctNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICAgIHQoImFkbWluLmdhdGV3YXlQcm94eVByb3RvY29sU2V0dGluZ3MuZXh0ZXJuYWxFbmFibGVkSGludCIpCiAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPFN3aXRjaAogICAgICAgICAgICAgICAgOmlkPSJgJHthMTF5SWR9LWVuYWJsZWRgIgogICAgICAgICAgICAgICAgdi1tb2RlbD0iZm9ybS5lbmFibGVkIgogICAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZyIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICAgIDxMYWJlbCA6Zm9yPSJgJHthMTF5SWR9LXNvdXJjZXNgIj57ewogICAgICAgICAgICAgIHQoImFkbWluLmdhdGV3YXlQcm94eVByb3RvY29sU2V0dGluZ3MudHJ1c3RlZFNvdXJjZXMiKQogICAgICAgICAgICB9fTwvTGFiZWw+CiAgICAgICAgICAgIDxUZXh0YXJlYQogICAgICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1zb3VyY2VzYCIKICAgICAgICAgICAgICB2LW1vZGVsPSJmb3JtLnRydXN0ZWRTb3VyY2VzVGV4dCIKICAgICAgICAgICAgICBjbGFzcz0ibWluLWgtNDAgZm9udC1tb25vIHRleHQtc20iCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZyIKICAgICAgICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLmdhdGV3YXlQcm94eVByb3RvY29sU2V0dGluZ3MucGxhY2Vob2xkZXInKSIKICAgICAgICAgICAgLz4KICAgICAgICAgICAgPHAgY2xhc3M9InRleHQtc20gbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVByb3h5UHJvdG9jb2xTZXR0aW5ncy50cnVzdGVkU291cmNlc0hpbnQiKSB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxwCiAgICAgICAgICAgICAgdi1pZj0icGFyc2VkU291cmNlcy5pbnZhbGlkLmxlbmd0aCIKICAgICAgICAgICAgICBjbGFzcz0idGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgICAgIHJvbGU9ImFsZXJ0IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVByb3h5UHJvdG9jb2xTZXR0aW5ncy5pbnZhbGlkRW50cmllcyIpIH19OgogICAgICAgICAgICAgIHt7IHBhcnNlZFNvdXJjZXMuaW52YWxpZC5qb2luKCLjgIEiKSB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLXhsIGJvcmRlciBib3JkZXItYW1iZXItNTAwLzI1IGJnLWFtYmVyLTUwMC8xMCBweC01IHB5LTQgdGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1hbWJlci04MDAgZGFyazp0ZXh0LWFtYmVyLTIwMCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVByb3h5UHJvdG9jb2xTZXR0aW5ncy5zZWN1cml0eVdhcm5pbmciKSB9fQogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPEZsb2F0aW5nQWN0aW9uRG9jawogICAgICAgICAgICA6YWN0aXZlPSJpc0RpcnR5IgogICAgICAgICAgICBpbmxpbmUtY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktZW5kIGdhcC0zIgogICAgICAgICAgPgogICAgICAgICAgICA8dGVtcGxhdGUgI2lubGluZT4KICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgICAgOmRpc2FibGVkPSIhaXNEaXJ0eSB8fCBpc1NhdmluZyIKICAgICAgICAgICAgICAgIEBjbGljaz0icmVzZXRGb3JtIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlQcm94eVByb3RvY29sU2V0dGluZ3MucmVzZXQiKSB9fQogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iIWlzRGlydHkgfHwgaXNTYXZpbmcgfHwgISFzYXZlQmxvY2tlZFJlYXNvbiIKICAgICAgICAgICAgICAgIEBjbGljaz0ic2F2ZVNldHRpbmdzIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlQcm94eVByb3RvY29sU2V0dGluZ3Muc2F2ZSIpIH19CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICA8L0Zsb2F0aW5nQWN0aW9uRG9jaz4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L0NhcmRDb250ZW50PgogICAgPC9DYXJkPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, onMounted, reactive, ref, useId } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import {
+  isValidCIDR,
+  isValidIPv4Address,
+  isValidIPv6Address,
+  normalizeCidrLines,
+  splitCidrTextarea,
+} from "@admin-shared/utils/cidr";
+import { toast } from "@admin-shared/utils/toast";
+import FloatingActionDock from "@admin-shared/components/common/FloatingActionDock.vue";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import { Textarea } from "@/components/ui/textarea";
+import { ConfigAPI } from "@/lib/api/config";
+import type { GatewayProxyProtocolConfig } from "@/types";
+
+const { t } = useI18n();
+const a11yId = useId();
+const settings = ref<GatewayProxyProtocolConfig | null>(null);
+const loadError = ref("");
+const form = reactive({ enabled: false, trustedSourcesText: "" });
+
+const parsedSources = computed(() => {
+  const sources = normalizeCidrLines(
+    splitCidrTextarea(form.trustedSourcesText),
+  );
+  const invalid = sources.filter((source) => {
+    if (source === "0.0.0.0/0" || source === "::/0") return true;
+    return !(
+      isValidIPv4Address(source) ||
+      isValidIPv6Address(source) ||
+      isValidCIDR(source)
+    );
+  });
+  return { sources, invalid };
+});
+
+const snapshot = computed(() =>
+  JSON.stringify({
+    enabled: form.enabled,
+    trusted_sources: parsedSources.value.sources,
+  }),
+);
+const savedSnapshot = computed(() =>
+  JSON.stringify({
+    enabled: settings.value?.enabled ?? false,
+    trusted_sources: settings.value?.trusted_sources ?? [],
+  }),
+);
+const isDirty = computed(() => snapshot.value !== savedSnapshot.value);
+const saveBlockedReason = computed(() => {
+  if (parsedSources.value.invalid.length > 0) {
+    return t("admin.gatewayProxyProtocolSettings.invalidSources");
+  }
+  if (form.enabled && parsedSources.value.sources.length === 0) {
+    return t("admin.gatewayProxyProtocolSettings.sourceRequired");
+  }
+  return "";
+});
+
+const { isPending: isLoading, run: runLoad } = useAsyncAction({
+  onError: (error) => {
+    loadError.value = extractErrorMessage(
+      error,
+      t("admin.gatewayProxyProtocolSettings.loadFailedDescription"),
+    );
+  },
+});
+const { isPending: isSaving, run: runSave } = useAsyncAction({
+  onError: (error) => {
+    toast.error(t("admin.gatewayProxyProtocolSettings.saveFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.gatewayProxyProtocolSettings.saveFailedDescription"),
+      ),
+    });
+  },
+});
+
+const applySettings = (value: GatewayProxyProtocolConfig) => {
+  settings.value = {
+    ...value,
+    trusted_sources: [...value.trusted_sources],
+  };
+  form.enabled = value.enabled;
+  form.trustedSourcesText = value.trusted_sources.join("\n");
+};
+
+const fetchSettings = async () => {
+  await runLoad(async () => {
+    loadError.value = "";
+    applySettings(await ConfigAPI.getGatewayProxyProtocol());
+  });
+};
+
+const resetForm = () => {
+  if (settings.value) applySettings(settings.value);
+};
+
+const saveSettings = async () => {
+  if (saveBlockedReason.value) {
+    toast.error(saveBlockedReason.value, {
+      description:
+        parsedSources.value.invalid.length > 0
+          ? parsedSources.value.invalid.join("、")
+          : undefined,
+    });
+    return;
+  }
+  await runSave(
+    () =>
+      ConfigAPI.updateGatewayProxyProtocol({
+        enabled: form.enabled,
+        trusted_sources: parsedSources.value.sources,
+      }),
+    {
+      onSuccess: (value) => {
+        applySettings(value);
+        toast.success(t("admin.gatewayProxyProtocolSettings.updated"));
+      },
+    },
+  );
+};
+
+onMounted(() => void fetchSettings());
+</script>
+
+<template>
+  <div class="space-y-6">
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system">{{
+            t("admin.gatewayProxyProtocolSettings.systemSettings")
+          }}</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system?tab=gateway">{{
+            t("admin.gatewayProxyProtocolSettings.gateway")
+          }}</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbPage>{{
+            t("admin.gatewayProxyProtocolSettings.title")
+          }}</BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+
+    <Card class="border-border/60 shadow-none">
+      <CardHeader class="space-y-2">
+        <CardTitle class="text-xl">{{
+          t("admin.gatewayProxyProtocolSettings.title")
+        }}</CardTitle>
+        <CardDescription class="max-w-3xl leading-6">
+          {{ t("admin.gatewayProxyProtocolSettings.description") }}
+        </CardDescription>
+      </CardHeader>
+
+      <CardContent class="space-y-6">
+        <div
+          v-if="isLoading"
+          class="rounded-xl border border-border/60 bg-muted/20 px-5 py-12 text-center text-sm text-muted-foreground"
+          role="status"
+        >
+          {{ t("admin.gatewayProxyProtocolSettings.loading") }}
+        </div>
+        <div
+          v-else-if="loadError"
+          class="rounded-xl border border-destructive/25 bg-destructive/5 px-5 py-4 text-sm text-destructive"
+          role="alert"
+        >
+          {{ loadError }}
+        </div>
+
+        <template v-else-if="settings">
+          <div class="flex flex-wrap items-center gap-2">
+            <Badge
+              :variant="settings.effective_enabled ? 'default' : 'secondary'"
+            >
+              {{
+                settings.effective_enabled
+                  ? t("admin.gatewayProxyProtocolSettings.effectiveEnabled")
+                  : t("admin.gatewayProxyProtocolSettings.effectiveDisabled")
+              }}
+            </Badge>
+            <Badge v-if="settings.managed_frp_enabled" variant="secondary">
+              {{ t("admin.gatewayProxyProtocolSettings.managedFrpEnabled") }}
+            </Badge>
+          </div>
+
+          <div class="rounded-xl border border-border/60 bg-muted/10 p-5">
+            <div class="flex items-start justify-between gap-4">
+              <div class="space-y-1">
+                <Label :for="`${a11yId}-enabled`" class="text-base">{{
+                  t("admin.gatewayProxyProtocolSettings.externalEnabled")
+                }}</Label>
+                <p class="max-w-3xl text-sm leading-6 text-muted-foreground">
+                  {{
+                    t("admin.gatewayProxyProtocolSettings.externalEnabledHint")
+                  }}
+                </p>
+              </div>
+              <Switch
+                :id="`${a11yId}-enabled`"
+                v-model="form.enabled"
+                :disabled="isSaving"
+              />
+            </div>
+          </div>
+
+          <div class="space-y-2">
+            <Label :for="`${a11yId}-sources`">{{
+              t("admin.gatewayProxyProtocolSettings.trustedSources")
+            }}</Label>
+            <Textarea
+              :id="`${a11yId}-sources`"
+              v-model="form.trustedSourcesText"
+              class="min-h-40 font-mono text-sm"
+              :disabled="isSaving"
+              :placeholder="t('admin.gatewayProxyProtocolSettings.placeholder')"
+            />
+            <p class="text-sm leading-6 text-muted-foreground">
+              {{ t("admin.gatewayProxyProtocolSettings.trustedSourcesHint") }}
+            </p>
+            <p
+              v-if="parsedSources.invalid.length"
+              class="text-sm text-destructive"
+              role="alert"
+            >
+              {{ t("admin.gatewayProxyProtocolSettings.invalidEntries") }}:
+              {{ parsedSources.invalid.join("、") }}
+            </p>
+          </div>
+
+          <div
+            class="rounded-xl border border-amber-500/25 bg-amber-500/10 px-5 py-4 text-sm leading-6 text-amber-800 dark:text-amber-200"
+          >
+            {{ t("admin.gatewayProxyProtocolSettings.securityWarning") }}
+          </div>
+
+          <FloatingActionDock
+            :active="isDirty"
+            inline-class="flex items-center justify-end gap-3"
+          >
+            <template #inline>
+              <Button
+                variant="outline"
+                :disabled="!isDirty || isSaving"
+                @click="resetForm"
+              >
+                {{ t("admin.gatewayProxyProtocolSettings.reset") }}
+              </Button>
+              <Button
+                :disabled="!isDirty || isSaving || !!saveBlockedReason"
+                @click="saveSettings"
+              >
+                {{ t("admin.gatewayProxyProtocolSettings.save") }}
+              </Button>
+            </template>
+          </FloatingActionDock>
+        </template>
+      </CardContent>
+    </Card>
+  </div>
+</template>

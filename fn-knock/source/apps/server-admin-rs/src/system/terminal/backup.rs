@@ -1,1 +1,182 @@
-dXNlIHN0ZDo6Y29sbGVjdGlvbnM6OntIYXNoTWFwLCBIYXNoU2V0fTsKCnVzZSBiYXNlNjQ6OntFbmdpbmUgYXMgXywgZW5naW5lOjpnZW5lcmFsX3B1cnBvc2U6OlNUQU5EQVJEfTsKdXNlIHNlcmRlOjp7RGVzZXJpYWxpemUsIFNlcmlhbGl6ZX07Cgp1c2UgY3JhdGU6OnN0YXRlOjpBcHBTdGF0ZTsKCnVzZSBzdXBlcjo6ewogICAgZG9tYWluOjpBdXRoTWV0aG9kLAogICAgcmVwb3NpdG9yeTo6VGFyZ2V0UmVwb3NpdG9yeSwKICAgIHJ1bnRpbWU6Ok1BWF9UQVJHRVRTLAogICAgc2VjcmV0czo6e0NyZWRlbnRpYWxCdW5kbGUsIFRlcm1pbmFsU2VjcmV0U3RvcmV9LAp9OwoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZWZhdWx0LCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplLCBQYXJ0aWFsRXEsIEVxKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoY3JhdGUpIHN0cnVjdCBUZXJtaW5hbENyZWRlbnRpYWxCYWNrdXAgewogICAgY3JlZGVudGlhbHM6IFZlYzxUZXJtaW5hbENyZWRlbnRpYWxCYWNrdXBFbnRyeT4sCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVzZXJpYWxpemUsIFNlcmlhbGl6ZSwgUGFydGlhbEVxLCBFcSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0Kc3RydWN0IFRlcm1pbmFsQ3JlZGVudGlhbEJhY2t1cEVudHJ5IHsKICAgIHRhcmdldF9pZDogU3RyaW5nLAogICAgdGFyZ2V0X3JldmlzaW9uOiB1NjQsCiAgICBhdXRoX21ldGhvZDogQXV0aE1ldGhvZCwKICAgIHBhc3N3b3JkOiBPcHRpb248U3RyaW5nPiwKICAgIHByaXZhdGVfa2V5OiBPcHRpb248U3RyaW5nPiwKICAgIHBhc3NwaHJhc2U6IE9wdGlvbjxTdHJpbmc+LAp9CgpwdWIoY3JhdGUpIGFzeW5jIGZuIGV4cG9ydF9jcmVkZW50aWFsc19mb3JfYmFja3VwKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKKSAtPiBSZXN1bHQ8VGVybWluYWxDcmVkZW50aWFsQmFja3VwLCBTdHJpbmc+IHsKICAgIGxldCB0YXJnZXRzID0gVGFyZ2V0UmVwb3NpdG9yeTo6bmV3KHN0YXRlKQogICAgICAgIC5saXN0KCkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICBsZXQgc3RvcmUgPSBUZXJtaW5hbFNlY3JldFN0b3JlOjpmcm9tX3N0YXRlKHN0YXRlKTsKICAgIGxldCBtdXQgY3JlZGVudGlhbHMgPSBWZWM6Om5ldygpOwogICAgZm9yIHRhcmdldCBpbiB0YXJnZXRzIHsKICAgICAgICBsZXQgYnVuZGxlID0gc3RvcmUKICAgICAgICAgICAgLnJlYWRfYnVuZGxlKCZ0YXJnZXQuaWQpCiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgICAgICBpZiBidW5kbGUuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBpZiBidW5kbGUuYXV0aF9tZXRob2QgIT0gU29tZSh0YXJnZXQuYXV0aF9tZXRob2QpCiAgICAgICAgICAgIHx8IGJ1bmRsZS50YXJnZXRfcmV2aXNpb24gIT0gdGFyZ2V0LnJldmlzaW9uCiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gRXJyKGZvcm1hdCEoCiAgICAgICAgICAgICAgICAidGVybWluYWwgY3JlZGVudGlhbCBtZXRhZGF0YSBkb2VzIG5vdCBtYXRjaCB0YXJnZXQge30iLAogICAgICAgICAgICAgICAgdGFyZ2V0LmlkCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgICAgICBjcmVkZW50aWFscy5wdXNoKFRlcm1pbmFsQ3JlZGVudGlhbEJhY2t1cEVudHJ5IHsKICAgICAgICAgICAgdGFyZ2V0X2lkOiB0YXJnZXQuaWQsCiAgICAgICAgICAgIHRhcmdldF9yZXZpc2lvbjogdGFyZ2V0LnJldmlzaW9uLAogICAgICAgICAgICBhdXRoX21ldGhvZDogdGFyZ2V0LmF1dGhfbWV0aG9kLAogICAgICAgICAgICBwYXNzd29yZDogYnVuZGxlLnBhc3N3b3JkLm1hcCh8dmFsdWV8IFNUQU5EQVJELmVuY29kZSh2YWx1ZSkpLAogICAgICAgICAgICBwcml2YXRlX2tleTogYnVuZGxlLnByaXZhdGVfa2V5Lm1hcCh8dmFsdWV8IFNUQU5EQVJELmVuY29kZSh2YWx1ZSkpLAogICAgICAgICAgICBwYXNzcGhyYXNlOiBidW5kbGUucGFzc3BocmFzZS5tYXAofHZhbHVlfCBTVEFOREFSRC5lbmNvZGUodmFsdWUpKSwKICAgICAgICB9KTsKICAgIH0KICAgIE9rKFRlcm1pbmFsQ3JlZGVudGlhbEJhY2t1cCB7IGNyZWRlbnRpYWxzIH0pCn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gcmVzdG9yZV9jcmVkZW50aWFsc19hZnRlcl9iYWNrdXAoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgYmFja3VwOiAmVGVybWluYWxDcmVkZW50aWFsQmFja3VwLAopIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBpZiBiYWNrdXAuY3JlZGVudGlhbHMubGVuKCkgPiBNQVhfVEFSR0VUUyB7CiAgICAgICAgcmV0dXJuIEVycigidGVybWluYWwgY3JlZGVudGlhbCBiYWNrdXAgY29udGFpbnMgdG9vIG1hbnkgdGFyZ2V0cyIudG9fc3RyaW5nKCkpOwogICAgfQogICAgbGV0IHRhcmdldHMgPSBUYXJnZXRSZXBvc2l0b3J5OjpuZXcoc3RhdGUpCiAgICAgICAgLmxpc3QoKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPwogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5tYXAofHRhcmdldHwgKHRhcmdldC5pZC5jbG9uZSgpLCB0YXJnZXQpKQogICAgICAgIC5jb2xsZWN0Ojo8SGFzaE1hcDxfLCBfPj4oKTsKICAgIGxldCBtdXQgc2VlbiA9IEhhc2hTZXQ6Om5ldygpOwogICAgbGV0IG11dCBidW5kbGVzID0gVmVjOjp3aXRoX2NhcGFjaXR5KGJhY2t1cC5jcmVkZW50aWFscy5sZW4oKSk7CiAgICBmb3IgZW50cnkgaW4gJmJhY2t1cC5jcmVkZW50aWFscyB7CiAgICAgICAgbGV0IHRhcmdldCA9IHRhcmdldHMKICAgICAgICAgICAgLmdldCgmZW50cnkudGFyZ2V0X2lkKQogICAgICAgICAgICAub2tfb3JfZWxzZSh8fCAidGVybWluYWwgY3JlZGVudGlhbCByZWZlcmVuY2VzIGFuIHVua25vd24gdGFyZ2V0Ii50b19zdHJpbmcoKSk/OwogICAgICAgIGlmICFzZWVuLmluc2VydChlbnRyeS50YXJnZXRfaWQuYXNfc3RyKCkpCiAgICAgICAgICAgIHx8IGVudHJ5LnRhcmdldF9yZXZpc2lvbiAhPSB0YXJnZXQucmV2aXNpb24KICAgICAgICAgICAgfHwgZW50cnkuYXV0aF9tZXRob2QgIT0gdGFyZ2V0LmF1dGhfbWV0aG9kCiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gRXJyKCJ0ZXJtaW5hbCBjcmVkZW50aWFsIG1ldGFkYXRhIGlzIGluY29uc2lzdGVudCIudG9fc3RyaW5nKCkpOwogICAgICAgIH0KICAgICAgICBsZXQgZGVjb2RlID0gfHZhbHVlOiAmT3B0aW9uPFN0cmluZz58IHsKICAgICAgICAgICAgdmFsdWUKICAgICAgICAgICAgICAgIC5hc19kZXJlZigpCiAgICAgICAgICAgICAgICAubWFwKHx2YWx1ZXwgU1RBTkRBUkQuZGVjb2RlKHZhbHVlKSkKICAgICAgICAgICAgICAgIC50cmFuc3Bvc2UoKQogICAgICAgICAgICAgICAgLm1hcF9lcnIofF98ICJ0ZXJtaW5hbCBjcmVkZW50aWFsIGJhY2t1cCBpcyBpbnZhbGlkIi50b19zdHJpbmcoKSkKICAgICAgICB9OwogICAgICAgIGxldCBidW5kbGUgPSBDcmVkZW50aWFsQnVuZGxlIHsKICAgICAgICAgICAgYXV0aF9tZXRob2Q6IFNvbWUoZW50cnkuYXV0aF9tZXRob2QpLAogICAgICAgICAgICB0YXJnZXRfcmV2aXNpb246IGVudHJ5LnRhcmdldF9yZXZpc2lvbiwKICAgICAgICAgICAgcGFzc3dvcmQ6IGRlY29kZSgmZW50cnkucGFzc3dvcmQpPywKICAgICAgICAgICAgcHJpdmF0ZV9rZXk6IGRlY29kZSgmZW50cnkucHJpdmF0ZV9rZXkpPywKICAgICAgICAgICAgcGFzc3BocmFzZTogZGVjb2RlKCZlbnRyeS5wYXNzcGhyYXNlKT8sCiAgICAgICAgfTsKICAgICAgICB2YWxpZGF0ZV9idW5kbGVfc2hhcGUoZW50cnkuYXV0aF9tZXRob2QsICZidW5kbGUpPzsKICAgICAgICBidW5kbGVzLnB1c2goKGVudHJ5LnRhcmdldF9pZC5jbG9uZSgpLCBidW5kbGUpKTsKICAgIH0KCiAgICBsZXQgc3RvcmUgPSBUZXJtaW5hbFNlY3JldFN0b3JlOjpmcm9tX3N0YXRlKHN0YXRlKTsKICAgIHN0b3JlLmNsZWFyX2FsbCgpPzsKICAgIGZvciAodGFyZ2V0X2lkLCBidW5kbGUpIGluIGJ1bmRsZXMgewogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC53cml0ZV9idW5kbGUoJnRhcmdldF9pZCwgJmJ1bmRsZSkKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgfQogICAgT2soKCkpCn0KCmZuIHZhbGlkYXRlX2J1bmRsZV9zaGFwZShhdXRoX21ldGhvZDogQXV0aE1ldGhvZCwgYnVuZGxlOiAmQ3JlZGVudGlhbEJ1bmRsZSkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGlmIGJ1bmRsZQogICAgICAgIC5wYXNzd29yZAogICAgICAgIC5hc19yZWYoKQogICAgICAgIC5pc19zb21lX2FuZCh8dmFsdWV8IHZhbHVlLmxlbigpID4gNjQgKiAxMDI0KQogICAgICAgIHx8IGJ1bmRsZQogICAgICAgICAgICAucHJpdmF0ZV9rZXkKICAgICAgICAgICAgLmFzX3JlZigpCiAgICAgICAgICAgIC5pc19zb21lX2FuZCh8dmFsdWV8IHZhbHVlLmxlbigpID4gNCAqIDEwMjQgKiAxMDI0KQogICAgICAgIHx8IGJ1bmRsZQogICAgICAgICAgICAucGFzc3BocmFzZQogICAgICAgICAgICAuYXNfcmVmKCkKICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHx2YWx1ZXwgdmFsdWUubGVuKCkgPiA2NCAqIDEwMjQpCiAgICB7CiAgICAgICAgcmV0dXJuIEVycigidGVybWluYWwgY3JlZGVudGlhbCBiYWNrdXAgaGFzIGFuIGludmFsaWQgc2l6ZSIudG9fc3RyaW5nKCkpOwogICAgfQogICAgbGV0IHZhbGlkID0gbWF0Y2ggYXV0aF9tZXRob2QgewogICAgICAgIEF1dGhNZXRob2Q6OlBhc3N3b3JkID0+IHsKICAgICAgICAgICAgYnVuZGxlLnBhc3N3b3JkLmlzX3NvbWUoKSAmJiBidW5kbGUucHJpdmF0ZV9rZXkuaXNfbm9uZSgpICYmIGJ1bmRsZS5wYXNzcGhyYXNlLmlzX25vbmUoKQogICAgICAgIH0KICAgICAgICBBdXRoTWV0aG9kOjpQcml2YXRlS2V5ID0+IGJ1bmRsZS5wYXNzd29yZC5pc19ub25lKCkgJiYgYnVuZGxlLnByaXZhdGVfa2V5LmlzX3NvbWUoKSwKICAgIH07CiAgICB2YWxpZAogICAgICAgIC50aGVuX3NvbWUoKCkpCiAgICAgICAgLm9rX29yX2Vsc2UofHwgInRlcm1pbmFsIGNyZWRlbnRpYWwgYmFja3VwIGhhcyBhbiBpbnZhbGlkIHNoYXBlIi50b19zdHJpbmcoKSkKfQoKI1tjZmcodGVzdCldCnB1YihjcmF0ZSkgZm4gd3JpdGVfYmFja3VwX3Rlc3RfY3JlZGVudGlhbCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICB0YXJnZXRfaWQ6ICZzdHIsCiAgICBhdXRoX21ldGhvZDogQXV0aE1ldGhvZCwKICAgIHRhcmdldF9yZXZpc2lvbjogdTY0LAogICAgcGFzc3dvcmQ6IE9wdGlvbjwmW3U4XT4sCiAgICBwcml2YXRlX2tleTogT3B0aW9uPCZbdThdPiwKICAgIHBhc3NwaHJhc2U6IE9wdGlvbjwmW3U4XT4sCikgewogICAgVGVybWluYWxTZWNyZXRTdG9yZTo6ZnJvbV9zdGF0ZShzdGF0ZSkKICAgICAgICAud3JpdGVfYnVuZGxlKAogICAgICAgICAgICB0YXJnZXRfaWQsCiAgICAgICAgICAgICZDcmVkZW50aWFsQnVuZGxlIHsKICAgICAgICAgICAgICAgIGF1dGhfbWV0aG9kOiBTb21lKGF1dGhfbWV0aG9kKSwKICAgICAgICAgICAgICAgIHRhcmdldF9yZXZpc2lvbiwKICAgICAgICAgICAgICAgIHBhc3N3b3JkOiBwYXNzd29yZC5tYXAoPFt1OF0+Ojp0b192ZWMpLAogICAgICAgICAgICAgICAgcHJpdmF0ZV9rZXk6IHByaXZhdGVfa2V5Lm1hcCg8W3U4XT46OnRvX3ZlYyksCiAgICAgICAgICAgICAgICBwYXNzcGhyYXNlOiBwYXNzcGhyYXNlLm1hcCg8W3U4XT46OnRvX3ZlYyksCiAgICAgICAgICAgIH0sCiAgICAgICAgKQogICAgICAgIC51bndyYXAoKTsKfQoKI1tjZmcodGVzdCldCnB1YihjcmF0ZSkgZm4gcmVhZF9iYWNrdXBfdGVzdF9jcmVkZW50aWFsKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHRhcmdldF9pZDogJnN0ciwKKSAtPiBbT3B0aW9uPFZlYzx1OD4+OyAzXSB7CiAgICBsZXQgYnVuZGxlID0gVGVybWluYWxTZWNyZXRTdG9yZTo6ZnJvbV9zdGF0ZShzdGF0ZSkKICAgICAgICAucmVhZF9idW5kbGUodGFyZ2V0X2lkKQogICAgICAgIC51bndyYXAoKTsKICAgIFtidW5kbGUucGFzc3dvcmQsIGJ1bmRsZS5wcml2YXRlX2tleSwgYnVuZGxlLnBhc3NwaHJhc2VdCn0K
+use std::collections::{HashMap, HashSet};
+
+use base64::{Engine as _, engine::general_purpose::STANDARD};
+use serde::{Deserialize, Serialize};
+
+use crate::state::AppState;
+
+use super::{
+    domain::AuthMethod,
+    repository::TargetRepository,
+    runtime::MAX_TARGETS,
+    secrets::{CredentialBundle, TerminalSecretStore},
+};
+
+#[derive(Clone, Debug, Default, Deserialize, Serialize, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub(crate) struct TerminalCredentialBackup {
+    credentials: Vec<TerminalCredentialBackupEntry>,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+struct TerminalCredentialBackupEntry {
+    target_id: String,
+    target_revision: u64,
+    auth_method: AuthMethod,
+    password: Option<String>,
+    private_key: Option<String>,
+    passphrase: Option<String>,
+}
+
+pub(crate) async fn export_credentials_for_backup(
+    state: &AppState,
+) -> Result<TerminalCredentialBackup, String> {
+    let targets = TargetRepository::new(state)
+        .list()
+        .await
+        .map_err(|error| error.to_string())?;
+    let store = TerminalSecretStore::from_state(state);
+    let mut credentials = Vec::new();
+    for target in targets {
+        let bundle = store
+            .read_bundle(&target.id)
+            .map_err(|error| error.to_string())?;
+        if bundle.is_empty() {
+            continue;
+        }
+        if bundle.auth_method != Some(target.auth_method)
+            || bundle.target_revision != target.revision
+        {
+            return Err(format!(
+                "terminal credential metadata does not match target {}",
+                target.id
+            ));
+        }
+        credentials.push(TerminalCredentialBackupEntry {
+            target_id: target.id,
+            target_revision: target.revision,
+            auth_method: target.auth_method,
+            password: bundle.password.map(|value| STANDARD.encode(value)),
+            private_key: bundle.private_key.map(|value| STANDARD.encode(value)),
+            passphrase: bundle.passphrase.map(|value| STANDARD.encode(value)),
+        });
+    }
+    Ok(TerminalCredentialBackup { credentials })
+}
+
+pub(crate) async fn restore_credentials_after_backup(
+    state: &AppState,
+    backup: &TerminalCredentialBackup,
+) -> Result<(), String> {
+    if backup.credentials.len() > MAX_TARGETS {
+        return Err("terminal credential backup contains too many targets".to_string());
+    }
+    let targets = TargetRepository::new(state)
+        .list()
+        .await
+        .map_err(|error| error.to_string())?
+        .into_iter()
+        .map(|target| (target.id.clone(), target))
+        .collect::<HashMap<_, _>>();
+    let mut seen = HashSet::new();
+    let mut bundles = Vec::with_capacity(backup.credentials.len());
+    for entry in &backup.credentials {
+        let target = targets
+            .get(&entry.target_id)
+            .ok_or_else(|| "terminal credential references an unknown target".to_string())?;
+        if !seen.insert(entry.target_id.as_str())
+            || entry.target_revision != target.revision
+            || entry.auth_method != target.auth_method
+        {
+            return Err("terminal credential metadata is inconsistent".to_string());
+        }
+        let decode = |value: &Option<String>| {
+            value
+                .as_deref()
+                .map(|value| STANDARD.decode(value))
+                .transpose()
+                .map_err(|_| "terminal credential backup is invalid".to_string())
+        };
+        let bundle = CredentialBundle {
+            auth_method: Some(entry.auth_method),
+            target_revision: entry.target_revision,
+            password: decode(&entry.password)?,
+            private_key: decode(&entry.private_key)?,
+            passphrase: decode(&entry.passphrase)?,
+        };
+        validate_bundle_shape(entry.auth_method, &bundle)?;
+        bundles.push((entry.target_id.clone(), bundle));
+    }
+
+    let store = TerminalSecretStore::from_state(state);
+    store.clear_all()?;
+    for (target_id, bundle) in bundles {
+        store
+            .write_bundle(&target_id, &bundle)
+            .map_err(|error| error.to_string())?;
+    }
+    Ok(())
+}
+
+fn validate_bundle_shape(auth_method: AuthMethod, bundle: &CredentialBundle) -> Result<(), String> {
+    if bundle
+        .password
+        .as_ref()
+        .is_some_and(|value| value.len() > 64 * 1024)
+        || bundle
+            .private_key
+            .as_ref()
+            .is_some_and(|value| value.len() > 4 * 1024 * 1024)
+        || bundle
+            .passphrase
+            .as_ref()
+            .is_some_and(|value| value.len() > 64 * 1024)
+    {
+        return Err("terminal credential backup has an invalid size".to_string());
+    }
+    let valid = match auth_method {
+        AuthMethod::Password => {
+            bundle.password.is_some() && bundle.private_key.is_none() && bundle.passphrase.is_none()
+        }
+        AuthMethod::PrivateKey => bundle.password.is_none() && bundle.private_key.is_some(),
+    };
+    valid
+        .then_some(())
+        .ok_or_else(|| "terminal credential backup has an invalid shape".to_string())
+}
+
+#[cfg(test)]
+pub(crate) fn write_backup_test_credential(
+    state: &AppState,
+    target_id: &str,
+    auth_method: AuthMethod,
+    target_revision: u64,
+    password: Option<&[u8]>,
+    private_key: Option<&[u8]>,
+    passphrase: Option<&[u8]>,
+) {
+    TerminalSecretStore::from_state(state)
+        .write_bundle(
+            target_id,
+            &CredentialBundle {
+                auth_method: Some(auth_method),
+                target_revision,
+                password: password.map(<[u8]>::to_vec),
+                private_key: private_key.map(<[u8]>::to_vec),
+                passphrase: passphrase.map(<[u8]>::to_vec),
+            },
+        )
+        .unwrap();
+}
+
+#[cfg(test)]
+pub(crate) fn read_backup_test_credential(
+    state: &AppState,
+    target_id: &str,
+) -> [Option<Vec<u8>>; 3] {
+    let bundle = TerminalSecretStore::from_state(state)
+        .read_bundle(target_id)
+        .unwrap();
+    [bundle.password, bundle.private_key, bundle.passphrase]
+}

@@ -1,1 +1,69 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgVHJpYW5nbGVBbGVydCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEFsZXJ0LCBBbGVydERlc2NyaXB0aW9uLCBBbGVydFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2FsZXJ0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBpbnN0YWxsYXRpb25TdGF0dXM6ICJtaXNzaW5nIiB8ICJvdXRkYXRlZCIgfCAiY3VycmVudCI7CiAgdGFyZ2V0VmVyc2lvbjogc3RyaW5nOwogIHJ1bm5pbmdDb3VudDogbnVtYmVyOwogIG91dGRhdGVkUnVubmluZ0NvdW50OiBudW1iZXI7Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8eyBnb1VwZGF0ZTogW10gfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cgpjb25zdCB2aXNpYmxlID0gY29tcHV0ZWQoCiAgKCkgPT4KICAgIHByb3BzLmluc3RhbGxhdGlvblN0YXR1cyA9PT0gIm91dGRhdGVkIiB8fCBwcm9wcy5vdXRkYXRlZFJ1bm5pbmdDb3VudCA+IDAsCik7CmNvbnN0IHJlc3RhcnRSZXF1aXJlZCA9IGNvbXB1dGVkKAogICgpID0+CiAgICBwcm9wcy5pbnN0YWxsYXRpb25TdGF0dXMgPT09ICJjdXJyZW50IiAmJiBwcm9wcy5vdXRkYXRlZFJ1bm5pbmdDb3VudCA+IDAsCik7CmNvbnN0IHRpdGxlS2V5ID0gY29tcHV0ZWQoKCkgPT4KICByZXN0YXJ0UmVxdWlyZWQudmFsdWUKICAgID8gImFkbWluLmZycFR1bm5lbC5yZXN0YXJ0UmVxdWlyZWRUaXRsZSIKICAgIDogcHJvcHMucnVubmluZ0NvdW50ID4gMAogICAgICA/ICJhZG1pbi5mcnBUdW5uZWwub3V0ZGF0ZWRSdW5uaW5nVGl0bGUiCiAgICAgIDogImFkbWluLmZycFR1bm5lbC5vdXRkYXRlZFN0b3BwZWRUaXRsZSIsCik7CmNvbnN0IGRlc2NyaXB0aW9uS2V5ID0gY29tcHV0ZWQoKCkgPT4KICByZXN0YXJ0UmVxdWlyZWQudmFsdWUKICAgID8gImFkbWluLmZycFR1bm5lbC5yZXN0YXJ0UmVxdWlyZWREZXNjcmlwdGlvbiIKICAgIDogcHJvcHMucnVubmluZ0NvdW50ID4gMAogICAgICA/ICJhZG1pbi5mcnBUdW5uZWwub3V0ZGF0ZWRSdW5uaW5nRGVzY3JpcHRpb24iCiAgICAgIDogImFkbWluLmZycFR1bm5lbC5vdXRkYXRlZFN0b3BwZWREZXNjcmlwdGlvbiIsCik7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxBbGVydAogICAgdi1pZj0idmlzaWJsZSIKICAgIGNsYXNzPSJpdGVtcy1zdGFydCByb3VuZGVkLXhsIGJvcmRlci1hbWJlci0zMDAgYmctYW1iZXItNTAgdGV4dC1hbWJlci05NTAgZGFyazpib3JkZXItYW1iZXItODAwIGRhcms6YmctYW1iZXItOTUwLzMwIGRhcms6dGV4dC1hbWJlci0xMDAiCiAgICBkYXRhLXRlc3RpZD0iZnJwLW91dGRhdGVkLXdhcm5pbmciCiAgPgogICAgPFRyaWFuZ2xlQWxlcnQgY2xhc3M9InNpemUtNCB0ZXh0LWFtYmVyLTcwMCIgLz4KICAgIDxBbGVydFRpdGxlPnt7IHQodGl0bGVLZXkpIH19PC9BbGVydFRpdGxlPgogICAgPEFsZXJ0RGVzY3JpcHRpb24gY2xhc3M9InNwYWNlLXktMyB0ZXh0LWFtYmVyLTkwMCBkYXJrOnRleHQtYW1iZXItMTAwIj4KICAgICAgPHA+CiAgICAgICAge3sKICAgICAgICAgIHQoZGVzY3JpcHRpb25LZXksIHsKICAgICAgICAgICAgY291bnQ6IHByb3BzLm91dGRhdGVkUnVubmluZ0NvdW50LAogICAgICAgICAgICB2ZXJzaW9uOiBwcm9wcy50YXJnZXRWZXJzaW9uLAogICAgICAgICAgfSkKICAgICAgICB9fQogICAgICA8L3A+CiAgICAgIDxCdXR0b24KICAgICAgICB2LWlmPSJwcm9wcy5pbnN0YWxsYXRpb25TdGF0dXMgIT09ICdjdXJyZW50JyIKICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgIHNpemU9InNtIgogICAgICAgIEBjbGljaz0iZW1pdCgnZ29VcGRhdGUnKSIKICAgICAgPgogICAgICAgIHt7IHQoImFkbWluLmZycFR1bm5lbC5nb1VwZGF0ZSIpIH19CiAgICAgIDwvQnV0dG9uPgogICAgPC9BbGVydERlc2NyaXB0aW9uPgogIDwvQWxlcnQ+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { TriangleAlert } from "lucide-vue-next";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
+
+const props = defineProps<{
+  installationStatus: "missing" | "outdated" | "current";
+  targetVersion: string;
+  runningCount: number;
+  outdatedRunningCount: number;
+}>();
+
+const emit = defineEmits<{ goUpdate: [] }>();
+const { t } = useI18n();
+
+const visible = computed(
+  () =>
+    props.installationStatus === "outdated" || props.outdatedRunningCount > 0,
+);
+const restartRequired = computed(
+  () =>
+    props.installationStatus === "current" && props.outdatedRunningCount > 0,
+);
+const titleKey = computed(() =>
+  restartRequired.value
+    ? "admin.frpTunnel.restartRequiredTitle"
+    : props.runningCount > 0
+      ? "admin.frpTunnel.outdatedRunningTitle"
+      : "admin.frpTunnel.outdatedStoppedTitle",
+);
+const descriptionKey = computed(() =>
+  restartRequired.value
+    ? "admin.frpTunnel.restartRequiredDescription"
+    : props.runningCount > 0
+      ? "admin.frpTunnel.outdatedRunningDescription"
+      : "admin.frpTunnel.outdatedStoppedDescription",
+);
+</script>
+
+<template>
+  <Alert
+    v-if="visible"
+    class="items-start rounded-xl border-amber-300 bg-amber-50 text-amber-950 dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-100"
+    data-testid="frp-outdated-warning"
+  >
+    <TriangleAlert class="size-4 text-amber-700" />
+    <AlertTitle>{{ t(titleKey) }}</AlertTitle>
+    <AlertDescription class="space-y-3 text-amber-900 dark:text-amber-100">
+      <p>
+        {{
+          t(descriptionKey, {
+            count: props.outdatedRunningCount,
+            version: props.targetVersion,
+          })
+        }}
+      </p>
+      <Button
+        v-if="props.installationStatus !== 'current'"
+        variant="outline"
+        size="sm"
+        @click="emit('goUpdate')"
+      >
+        {{ t("admin.frpTunnel.goUpdate") }}
+      </Button>
+    </AlertDescription>
+  </Alert>
+</template>

@@ -1,1 +1,59 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgewogIGJhY2t1cEVtYWlsUGF5bG9hZCwKICBkZWZhdWx0QmFja3VwRW1haWwsCiAgaXNCYWNrdXBFbWFpbFZhbGlkLAp9IGZyb20gIi4uL3NyYy9saWIvYmFja3VwLWVtYWlsIjsKZGVzY3JpYmUoImJhY2t1cCBlbWFpbCIsICgpID0+IHsKICBpdCgiZGVmYXVsdHMgdG8gZGlzYWJsZWQgYW5kIHByZXNlcnZlcyBzdG9yZWQgcGFzc3dvcmRzIGluIG91dGdvaW5nIHVwZGF0ZXMiLCAoKSA9PiB7CiAgICBjb25zdCBjb25maWcgPSBkZWZhdWx0QmFja3VwRW1haWwoKTsKICAgIGFzc2VydC5lcXVhbChjb25maWcuZW5hYmxlZCwgZmFsc2UpOwogICAgY29uc3QgcGF5bG9hZCA9IGJhY2t1cEVtYWlsUGF5bG9hZCh7CiAgICAgIC4uLmNvbmZpZywKICAgICAgcGFzc3dvcmRfY29uZmlndXJlZDogdHJ1ZSwKICAgICAgcGFzc3dvcmQ6ICIiLAogICAgfSk7CiAgICBhc3NlcnQuZXF1YWwoInBhc3N3b3JkIiBpbiBwYXlsb2FkLCBmYWxzZSk7CiAgICBhc3NlcnQuZXF1YWwoInBhc3N3b3JkX2NvbmZpZ3VyZWQiIGluIHBheWxvYWQsIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgYmFja3VwRW1haWxQYXlsb2FkKHsgLi4uY29uZmlnLCBjbGVhcl9wYXNzd29yZDogdHJ1ZSB9KS5jbGVhcl9wYXNzd29yZCwKICAgICAgdHJ1ZSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGJhY2t1cEVtYWlsUGF5bG9hZCh7IC4uLmNvbmZpZywgcGFzc3dvcmQ6ICJyZXBsYWNlbWVudCIgfSkucGFzc3dvcmQsCiAgICAgICJyZXBsYWNlbWVudCIsCiAgICApOwogIH0pOwogIGl0KCJjaGVja3MgbGltaXRzIGFuZCByZXF1aXJlcyBjb25uZWN0aW9uIGFuZCByZWNpcGllbnQgZmllbGRzIHdoZW4gZW5hYmxlZCIsICgpID0+IHsKICAgIGNvbnN0IGNvbmZpZyA9IGRlZmF1bHRCYWNrdXBFbWFpbCgpOwogICAgYXNzZXJ0LmVxdWFsKGlzQmFja3VwRW1haWxWYWxpZChjb25maWcpLCB0cnVlKTsKICAgIGFzc2VydC5lcXVhbChpc0JhY2t1cEVtYWlsVmFsaWQoeyAuLi5jb25maWcsIGVuYWJsZWQ6IHRydWUgfSksIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgaXNCYWNrdXBFbWFpbFZhbGlkKHsgLi4uY29uZmlnLCBhdHRhY2htZW50X2xpbWl0X21pYjogMTAxIH0pLAogICAgICBmYWxzZSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGlzQmFja3VwRW1haWxWYWxpZCh7IC4uLmNvbmZpZywgc210cDogeyAuLi5jb25maWcuc210cCwgcG9ydDogMS41IH0gfSksCiAgICAgIGZhbHNlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgaXNCYWNrdXBFbWFpbFZhbGlkKHsKICAgICAgICAuLi5jb25maWcsCiAgICAgICAgZW5hYmxlZDogdHJ1ZSwKICAgICAgICBmcm9tX2FkZHJlc3M6ICJiYWNrdXBAZXhhbXBsZS5jb20iLAogICAgICAgIHRvX2FkZHJlc3NlczogWyJhZG1pbkBleGFtcGxlLmNvbSJdLAogICAgICAgIHNtdHA6IHsgLi4uY29uZmlnLnNtdHAsIGhvc3Q6ICJsb2NhbGhvc3QiLCBhdXRoX21vZGU6ICJub25lIiB9LAogICAgICB9KSwKICAgICAgdHJ1ZSwKICAgICk7CiAgfSk7Cn0pOwoKaXQoInRvZ2dsaW5nIHBhc3N3b3JkIGNsZWFyaW5nIG9mZiByZXN0b3JlcyB0aGUgb3JpZ2luYWwgdXBkYXRlIHBheWxvYWQiLCAoKSA9PiB7CiAgY29uc3QgZm9ybSA9IGRlZmF1bHRCYWNrdXBFbWFpbCgpOwogIGFzc2VydC5kZWVwRXF1YWwoCiAgICBiYWNrdXBFbWFpbFBheWxvYWQoeyAuLi5mb3JtLCBjbGVhcl9wYXNzd29yZDogZmFsc2UsIHBhc3N3b3JkOiAiIiB9KSwKICAgIGJhY2t1cEVtYWlsUGF5bG9hZChmb3JtKSwKICApOwp9KTsK
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import {
+  backupEmailPayload,
+  defaultBackupEmail,
+  isBackupEmailValid,
+} from "../src/lib/backup-email";
+describe("backup email", () => {
+  it("defaults to disabled and preserves stored passwords in outgoing updates", () => {
+    const config = defaultBackupEmail();
+    assert.equal(config.enabled, false);
+    const payload = backupEmailPayload({
+      ...config,
+      password_configured: true,
+      password: "",
+    });
+    assert.equal("password" in payload, false);
+    assert.equal("password_configured" in payload, false);
+    assert.equal(
+      backupEmailPayload({ ...config, clear_password: true }).clear_password,
+      true,
+    );
+    assert.equal(
+      backupEmailPayload({ ...config, password: "replacement" }).password,
+      "replacement",
+    );
+  });
+  it("checks limits and requires connection and recipient fields when enabled", () => {
+    const config = defaultBackupEmail();
+    assert.equal(isBackupEmailValid(config), true);
+    assert.equal(isBackupEmailValid({ ...config, enabled: true }), false);
+    assert.equal(
+      isBackupEmailValid({ ...config, attachment_limit_mib: 101 }),
+      false,
+    );
+    assert.equal(
+      isBackupEmailValid({ ...config, smtp: { ...config.smtp, port: 1.5 } }),
+      false,
+    );
+    assert.equal(
+      isBackupEmailValid({
+        ...config,
+        enabled: true,
+        from_address: "backup@example.com",
+        to_addresses: ["admin@example.com"],
+        smtp: { ...config.smtp, host: "localhost", auth_mode: "none" },
+      }),
+      true,
+    );
+  });
+});
+
+it("toggling password clearing off restores the original update payload", () => {
+  const form = defaultBackupEmail();
+  assert.deepEqual(
+    backupEmailPayload({ ...form, clear_password: false, password: "" }),
+    backupEmailPayload(form),
+  );
+});

@@ -1,1 +1,473 @@
-aW1wb3J0IHsgdXNlVGVybWluYWxBY2Nlc3NTdG9yZSB9IGZyb20gIkAvc3RvcmUvdGVybWluYWwtYWNjZXNzIjsKaW1wb3J0IE5Qcm9ncmVzcyBmcm9tICJucHJvZ3Jlc3MiOwppbXBvcnQgeyBjcmVhdGVSb3V0ZXIsIGNyZWF0ZVdlYkhhc2hIaXN0b3J5IH0gZnJvbSAidnVlLXJvdXRlciI7CmltcG9ydCBMYXlvdXQgZnJvbSAiLi4vdmlld3MvTGF5b3V0LnZ1ZSI7CmltcG9ydCB7IHVzZUNvbmZpZ1N0b3JlIH0gZnJvbSAiLi4vc3RvcmUvY29uZmlnIjsKaW1wb3J0IHsgdXNlRG9ja2VyQWRtaW5BdXRoU3RvcmUgfSBmcm9tICIuLi9zdG9yZS9kb2NrZXJBZG1pbkF1dGgiOwppbXBvcnQgeyBwaW5pYSB9IGZyb20gIi4uL3N0b3JlIjsKaW1wb3J0IHsgaXNSb3V0ZU5hdmlnYXRpbmcsIHBlbmRpbmdOYXZQYXRoIH0gZnJvbSAiLi9uYXZpZ2F0aW9uLXN0YXRlIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgYnJvd3NlclQgfSBmcm9tICJAZm4ta25vY2svaTE4bi92dWUvYWRtaW4iOwppbXBvcnQgewogIGlzQW55U3ViZG9tYWluUm91dGluZ01vZGUsCiAgaXNSZXZlcnNlUHJveHlTdWJkb21haW5Nb2RlLAp9IGZyb20gIi4uL2xpYi9yZXZlcnNlLXByb3h5LXN1Ym1vZGUiOwppbXBvcnQgeyBpc1Byb3RvY29sTWFwcGluZ1Zpc2libGUgfSBmcm9tICIuLi9saWIvcHJvdG9jb2wtbWFwcGluZy12aXNpYmlsaXR5IjsKaW1wb3J0IHsgcmVzb2x2ZVJ1bnRpbWVDYXBhYmlsaXR5UmVkaXJlY3QgfSBmcm9tICIuL3J1bnRpbWUtYWNjZXNzIjsKaW1wb3J0IHsKICBjbGFpbUNodW5rUmVsb2FkLAogIGlzRHluYW1pY0ltcG9ydEZhaWx1cmUsCiAgcmVwbGFjZVdpdGhVcGRhdGVkQXBwbGljYXRpb24sCn0gZnJvbSAiLi4vbGliL3VwZGF0ZS1yZWxvYWQiOwoKTlByb2dyZXNzLmNvbmZpZ3VyZSh7CiAgYmFyU2VsZWN0b3I6ICIuYmFyIiwKICBzaG93U3Bpbm5lcjogZmFsc2UsCiAgbWluaW11bTogMC4xMiwKICBlYXNpbmc6ICJlYXNlIiwKICBzcGVlZDogNDIwLAogIHRlbXBsYXRlOiAnPGRpdiBjbGFzcz0iYmFyIiBhcmlhLWhpZGRlbj0idHJ1ZSI+PGRpdiBjbGFzcz0icGVnIj48L2Rpdj48L2Rpdj4nLAogIHRyaWNrbGVTcGVlZDogMTYwLAp9KTsKCmNvbnN0IHJvdXRlciA9IGNyZWF0ZVJvdXRlcih7CiAgaGlzdG9yeTogY3JlYXRlV2ViSGFzaEhpc3RvcnkoKSwKICByb3V0ZXM6IFsKICAgIHsKICAgICAgcGF0aDogIi8iLAogICAgICBjb21wb25lbnQ6IExheW91dCwKICAgICAgY2hpbGRyZW46IFsKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAiIiwKICAgICAgICAgIG5hbWU6ICJEYXNoYm9hcmQiLAogICAgICAgICAgY29tcG9uZW50OiAoKSA9PiBpbXBvcnQoIi4uL3ZpZXdzL0Rhc2hib2FyZC52dWUiKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJkYXNoYm9hcmQiLAogICAgICAgICAgcmVkaXJlY3Q6ICIvIiwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJ3aGl0ZWxpc3QiLAogICAgICAgICAgcmVkaXJlY3Q6ICh0bykgPT4gKHsKICAgICAgICAgICAgcGF0aDogIi9zZXNzaW9ucyIsCiAgICAgICAgICAgIHF1ZXJ5OiB7IC4uLnRvLnF1ZXJ5LCB0YWI6ICJpcC13aGl0ZWxpc3QiIH0sCiAgICAgICAgICB9KSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJwcm94eSIsCiAgICAgICAgICBuYW1lOiAiUmV2ZXJzZVByb3h5IiwKICAgICAgICAgIGNvbXBvbmVudDogKCkgPT4gaW1wb3J0KCIuLi92aWV3cy9SZXZlcnNlUHJveHkudnVlIiksCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAibWFwcGluZ3MiLAogICAgICAgICAgbmFtZTogIk1hcHBpbmdNYW5hZ2VtZW50IiwKICAgICAgICAgIGNvbXBvbmVudDogKCkgPT4gaW1wb3J0KCIuLi92aWV3cy9NYXBwaW5nTWFuYWdlbWVudC52dWUiKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJzdWJkb21haW5zIiwKICAgICAgICAgIHJlZGlyZWN0OiAodG8pID0+ICh7CiAgICAgICAgICAgIHBhdGg6ICIvbWFwcGluZ3MiLAogICAgICAgICAgICBxdWVyeTogeyAuLi50by5xdWVyeSwgdGFiOiAic3ViZG9tYWluIiB9LAogICAgICAgICAgfSksCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAic3ViZG9tYWlucy9wYW5lbC1zeW5jIiwKICAgICAgICAgIG5hbWU6ICJQYW5lbFN5bmMiLAogICAgICAgICAgY29tcG9uZW50OiAoKSA9PiBpbXBvcnQoIi4uL3ZpZXdzL1BhbmVsU3luYy52dWUiKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJzdWJkb21haW5zLzpob3N0L2FkdmFuY2VkLWF1dGgiLAogICAgICAgICAgbmFtZTogIlN1YmRvbWFpbkFkdmFuY2VkQXV0aCIsCiAgICAgICAgICBjb21wb25lbnQ6ICgpID0+CiAgICAgICAgICAgIGltcG9ydCgiLi4vdmlld3Mvc3ViZG9tYWluLXByb3h5L1N1YmRvbWFpbkFkdmFuY2VkQXV0aC52dWUiKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJzdWJkb21haW5zLzpob3N0L2RlZXAtbW9uaXRvciIsCiAgICAgICAgICBuYW1lOiAiRGVlcE1vbml0b3IiLAogICAgICAgICAgY29tcG9uZW50OiAoKSA9PiBpbXBvcnQoIi4uL3ZpZXdzL0RlZXBNb25pdG9yLnZ1ZSIpLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogInN1YmRvbWFpbnMvOmhvc3QvcGF0aHMiLAogICAgICAgICAgbmFtZTogIlN1YmRvbWFpblBhdGhzIiwKICAgICAgICAgIGNvbXBvbmVudDogKCkgPT4KICAgICAgICAgICAgaW1wb3J0KCIuLi92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvR2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLnZ1ZSIpLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogInN0cmVhbXMiLAogICAgICAgICAgcmVkaXJlY3Q6ICh0bykgPT4gKHsKICAgICAgICAgICAgcGF0aDogIi9tYXBwaW5ncyIsCiAgICAgICAgICAgIHF1ZXJ5OiB7IC4uLnRvLnF1ZXJ5LCB0YWI6ICJwcm90b2NvbCIgfSwKICAgICAgICAgIH0pLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogInN0cmVhbXMvOnByb3RvY29sLzpwb3J0L2J5cGFzcy1wb2xpY3kiLAogICAgICAgICAgbmFtZTogIlN0cmVhbUJ5cGFzc1BvbGljeSIsCiAgICAgICAgICBjb21wb25lbnQ6ICgpID0+CiAgICAgICAgICAgIGltcG9ydCgiLi4vdmlld3Mvc3RyZWFtLW1hcHBpbmdzL1N0cmVhbUJ5cGFzc1BvbGljeS52dWUiKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJzc2wiLAogICAgICAgICAgbmFtZTogIlNTTFNldHRpbmdzIiwKICAgICAgICAgIGNvbXBvbmVudDogKCkgPT4gaW1wb3J0KCIuLi92aWV3cy9TU0xTZXR0aW5ncy52dWUiKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJtb2RlIiwKICAgICAgICAgIG5hbWU6ICJSdW5Nb2RlIiwKICAgICAgICAgIGNvbXBvbmVudDogKCkgPT4KICAgICAgICAgICAgaW1wb3J0KCIuLi92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvUnVuTW9kZVNldHRpbmdzLnZ1ZSIpLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogImF1dGgiLAogICAgICAgICAgbmFtZTogIkF1dGhTZXR0aW5ncyIsCiAgICAgICAgICBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgiLi4vdmlld3MvQXV0aFNldHRpbmdzLnZ1ZSIpLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogImF1dGgvcGFzc2tleXMvOnRvdHBJZCIsCiAgICAgICAgICBuYW1lOiAiUGFzc2tleVNldHRpbmdzIiwKICAgICAgICAgIGNvbXBvbmVudDogKCkgPT4gaW1wb3J0KCIuLi92aWV3cy9QYXNza2V5U2V0dGluZ3MudnVlIiksCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAiYXV0aC9leHRlcm5hbC1wcm92aWRlcnMiLAogICAgICAgICAgbmFtZTogIkV4dGVybmFsUHJvdmlkZXJTZXR0aW5ncyIsCiAgICAgICAgICBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgiLi4vdmlld3MvT0lEQ1Byb3ZpZGVyU2V0dGluZ3MudnVlIiksCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAiYXV0aC9vaWRjLXByb3ZpZGVycyIsCiAgICAgICAgICByZWRpcmVjdDogIi9hdXRoL2V4dGVybmFsLXByb3ZpZGVycyIsCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAiZXZlbnRzIiwKICAgICAgICAgIG5hbWU6ICJFdmVudENlbnRlciIsCiAgICAgICAgICBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgiLi4vdmlld3MvRXZlbnRDZW50ZXIudnVlIiksCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAic3NoLXNlY3VyaXR5IiwKICAgICAgICAgIG5hbWU6ICJTU0hTZWN1cml0eSIsCiAgICAgICAgICBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgiLi4vdmlld3MvU1NIU2VjdXJpdHkudnVlIiksCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAibG9ncyIsCiAgICAgICAgICByZWRpcmVjdDogIi9ldmVudHMiLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogInJlcXVlc3QtYW5hbHlzaXMiLAogICAgICAgICAgbmFtZTogIlJlcXVlc3RBbmFseXNpcyIsCiAgICAgICAgICBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgiLi4vdmlld3MvUmVxdWVzdEFuYWx5c2lzLnZ1ZSIpLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogInRyYWNlcy86dHJhY2VfaWQiLAogICAgICAgICAgbmFtZTogIlRyYWNlRGV0YWlscyIsCiAgICAgICAgICBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgiLi4vdmlld3MvVHJhY2VEZXRhaWxzLnZ1ZSIpLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogInJlcXVlc3QtbG9ncyIsCiAgICAgICAgICByZWRpcmVjdDogKHRvKSA9PiAoewogICAgICAgICAgICBwYXRoOiAiL3JlcXVlc3QtYW5hbHlzaXMiLAogICAgICAgICAgICBxdWVyeTogeyAuLi50by5xdWVyeSwgdGFiOiAibG9ncyIgfSwKICAgICAgICAgIH0pLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogImRlZXAtbW9uaXRvciIsCiAgICAgICAgICByZWRpcmVjdDogKHRvKSA9PiB7CiAgICAgICAgICAgIGNvbnN0IGhvc3QgPQogICAgICAgICAgICAgIHR5cGVvZiB0by5xdWVyeS5ob3N0ID09PSAic3RyaW5nIiA/IHRvLnF1ZXJ5Lmhvc3QudHJpbSgpIDogIiI7CiAgICAgICAgICAgIHJldHVybiBob3N0CiAgICAgICAgICAgICAgPyBgL3N1YmRvbWFpbnMvJHtlbmNvZGVVUklDb21wb25lbnQoaG9zdCl9L2RlZXAtbW9uaXRvcmAKICAgICAgICAgICAgICA6ICIvbWFwcGluZ3M/dGFiPXN1YmRvbWFpbiI7CiAgICAgICAgICB9LAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogIndhZi1sb2dzIiwKICAgICAgICAgIHJlZGlyZWN0OiAodG8pID0+ICh7CiAgICAgICAgICAgIHBhdGg6ICIvcmVxdWVzdC1hbmFseXNpcyIsCiAgICAgICAgICAgIHF1ZXJ5OiB7IC4uLnRvLnF1ZXJ5LCB0YWI6ICJ3YWYiIH0sCiAgICAgICAgICB9KSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJzeXN0ZW0iLAogICAgICAgICAgbmFtZTogIlN5c3RlbVNldHRpbmdzIiwKICAgICAgICAgIGNvbXBvbmVudDogKCkgPT4gaW1wb3J0KCIuLi92aWV3cy9TeXN0ZW1TZXR0aW5ncy52dWUiKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJzeXN0ZW0vYmFja3VwLWVtYWlsIiwKICAgICAgICAgIG5hbWU6ICJCYWNrdXBFbWFpbFNldHRpbmdzIiwKICAgICAgICAgIGNvbXBvbmVudDogKCkgPT4gaW1wb3J0KCIuLi92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvQmFja3VwRW1haWxQYWdlLnZ1ZSIpLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogInN5c3RlbS9zY2FubmVyLXBhdGgtd2hpdGVsaXN0IiwKICAgICAgICAgIG5hbWU6ICJTY2FubmVyUGF0aFdoaXRlbGlzdFNldHRpbmdzIiwKICAgICAgICAgIGNvbXBvbmVudDogKCkgPT4KICAgICAgICAgICAgaW1wb3J0KCIuLi92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvU2Nhbm5lclBhdGhXaGl0ZWxpc3RTZXR0aW5ncy52dWUiKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJzeXN0ZW0vZ2F0ZXdheS12aXNpYmlsaXR5IiwKICAgICAgICAgIG5hbWU6ICJHYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzIiwKICAgICAgICAgIGNvbXBvbmVudDogKCkgPT4KICAgICAgICAgICAgaW1wb3J0KCIuLi92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvR2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy52dWUiKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJzeXN0ZW0vZ2F0ZXdheS1wb3J0YWwiLAogICAgICAgICAgbmFtZTogIkdhdGV3YXlQb3J0YWxTZXR0aW5ncyIsCiAgICAgICAgICBjb21wb25lbnQ6ICgpID0+CiAgICAgICAgICAgIGltcG9ydCgiLi4vdmlld3Mvc3lzdGVtLXNldHRpbmdzL0dhdGV3YXlQb3J0YWxTZXR0aW5ncy52dWUiKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJzeXN0ZW0vZ2F0ZXdheS1wcm94eS1oZWFkZXJzIiwKICAgICAgICAgIG5hbWU6ICJHYXRld2F5UHJveHlIZWFkZXJzU2V0dGluZ3MiLAogICAgICAgICAgY29tcG9uZW50OiAoKSA9PgogICAgICAgICAgICBpbXBvcnQoIi4uL3ZpZXdzL3N5c3RlbS1zZXR0aW5ncy9HYXRld2F5UHJveHlIZWFkZXJzU2V0dGluZ3MudnVlIiksCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAic3lzdGVtL2dhdGV3YXktaHR0cDMiLAogICAgICAgICAgbmFtZTogIkdhdGV3YXlIdHRwM1NldHRpbmdzIiwKICAgICAgICAgIGNvbXBvbmVudDogKCkgPT4KICAgICAgICAgICAgaW1wb3J0KCIuLi92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvR2F0ZXdheUh0dHAzU2V0dGluZ3MudnVlIiksCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAic3lzdGVtL2dhdGV3YXktcHJveHktcHJvdG9jb2wiLAogICAgICAgICAgbmFtZTogIkdhdGV3YXlQcm94eVByb3RvY29sU2V0dGluZ3MiLAogICAgICAgICAgY29tcG9uZW50OiAoKSA9PgogICAgICAgICAgICBpbXBvcnQoIi4uL3ZpZXdzL3N5c3RlbS1zZXR0aW5ncy9HYXRld2F5UHJveHlQcm90b2NvbFNldHRpbmdzLnZ1ZSIpLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogInN5c3RlbS9nYXRld2F5LWhvc3QtcmVzcG9uc2UiLAogICAgICAgICAgbmFtZTogIkdhdGV3YXlIb3N0UmVzcG9uc2VTZXR0aW5ncyIsCiAgICAgICAgICBjb21wb25lbnQ6ICgpID0+CiAgICAgICAgICAgIGltcG9ydCgiLi4vdmlld3Mvc3lzdGVtLXNldHRpbmdzL0dhdGV3YXlIb3N0UmVzcG9uc2VTZXR0aW5ncy52dWUiKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJzeXN0ZW0vd2ViLXRlcm1pbmFsIiwKICAgICAgICAgIG5hbWU6ICJXZWJUZXJtaW5hbFNldHRpbmdzIiwKICAgICAgICAgIGNvbXBvbmVudDogKCkgPT4KICAgICAgICAgICAgaW1wb3J0KCIuLi92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvV2ViVGVybWluYWxTZXR0aW5ncy52dWUiKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJzeXN0ZW0vc21hcnQtY29ubmVjdCIsCiAgICAgICAgICBuYW1lOiAiU21hcnRDb25uZWN0U2V0dGluZ3MiLAogICAgICAgICAgY29tcG9uZW50OiAoKSA9PgogICAgICAgICAgICBpbXBvcnQoIi4uL3ZpZXdzL3N5c3RlbS1zZXR0aW5ncy9TbWFydENvbm5lY3RTZXR0aW5ncy52dWUiKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJzeXN0ZW0vc2lkZWJhci1tZW51LW9yZGVyIiwKICAgICAgICAgIG5hbWU6ICJTaWRlYmFyTWVudU9yZGVyU2V0dGluZ3MiLAogICAgICAgICAgY29tcG9uZW50OiAoKSA9PgogICAgICAgICAgICBpbXBvcnQoIi4uL3ZpZXdzL3N5c3RlbS1zZXR0aW5ncy9TaWRlYmFyTWVudU9yZGVyU2V0dGluZ3MudnVlIiksCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAic3lzdGVtL2Zub3MtY2VydGlmaWNhdGUtc3luYyIsCiAgICAgICAgICBuYW1lOiAiRm5vc0NlcnRpZmljYXRlU3luY1NldHRpbmdzIiwKICAgICAgICAgIGNvbXBvbmVudDogKCkgPT4KICAgICAgICAgICAgaW1wb3J0KCIuLi92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvRm5vc0NlcnRpZmljYXRlU3luY1NldHRpbmdzLnZ1ZSIpLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogInNlc3Npb25zIiwKICAgICAgICAgIG5hbWU6ICJTZXNzaW9uTWFuYWdlbWVudCIsCiAgICAgICAgICBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgiLi4vdmlld3MvU2Vzc2lvbk1hbmFnZW1lbnQudnVlIiksCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAic2Vzc2lvbnMvbW9iaWxpdHkvOmlkIiwKICAgICAgICAgIG5hbWU6ICJTZXNzaW9uTW9iaWxpdHkiLAogICAgICAgICAgY29tcG9uZW50OiAoKSA9PgogICAgICAgICAgICBpbXBvcnQoIi4uL3ZpZXdzL3Nlc3Npb24tbWFuYWdlbWVudC9tb2JpbGl0eS9TZXNzaW9uTW9iaWxpdHlQYWdlLnZ1ZSIpLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogInRlcm1pbmFsIiwKICAgICAgICAgIG5hbWU6ICJXZWJUZXJtaW5hbCIsCiAgICAgICAgICBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgiLi4vdmlld3MvV2ViVGVybWluYWwudnVlIiksCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAidHVubmVsIiwKICAgICAgICAgIG5hbWU6ICJJbnRyYW5ldFR1bm5lbCIsCiAgICAgICAgICBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgiLi4vdmlld3MvVHVubmVsLnZ1ZSIpLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogInR1bm5lbC9mcnAvaW5zdGFuY2VzL25ldyIsCiAgICAgICAgICBuYW1lOiAiRnJwY0luc3RhbmNlQ3JlYXRlIiwKICAgICAgICAgIGNvbXBvbmVudDogKCkgPT4gaW1wb3J0KCIuLi92aWV3cy90dW5uZWwvZnJwL0ZycGNJbnN0YW5jZVBhZ2UudnVlIiksCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAidHVubmVsL2ZycC9pbnN0YW5jZXMvOmlkIiwKICAgICAgICAgIG5hbWU6ICJGcnBjSW5zdGFuY2VEZXRhaWwiLAogICAgICAgICAgY29tcG9uZW50OiAoKSA9PiBpbXBvcnQoIi4uL3ZpZXdzL3R1bm5lbC9mcnAvRnJwY0luc3RhbmNlUGFnZS52dWUiKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICJkZG5zIiwKICAgICAgICAgIG5hbWU6ICJERE5TTWFuYWdlbWVudCIsCiAgICAgICAgICBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgiLi4vdmlld3MvREROU01hbmFnZW1lbnQudnVlIiksCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAid29sIiwKICAgICAgICAgIG5hbWU6ICJXT0xNYW5hZ2VtZW50IiwKICAgICAgICAgIGNvbXBvbmVudDogKCkgPT4gaW1wb3J0KCIuLi92aWV3cy9XT0xNYW5hZ2VtZW50LnZ1ZSIpLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogImFib3V0IiwKICAgICAgICAgIG5hbWU6ICJBYm91dCIsCiAgICAgICAgICBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgiLi4vdmlld3MvQWJvdXRVcGRhdGUudnVlIiksCiAgICAgICAgfSwKICAgICAgXSwKICAgIH0sCiAgXSwKfSk7Cgpyb3V0ZXIuYmVmb3JlRWFjaChhc3luYyAodG8sIGZyb20pID0+IHsKICBjb25zdCBpc1BhZ2VOYXZpZ2F0aW9uID0gdG8uZnVsbFBhdGggIT09IGZyb20uZnVsbFBhdGg7CgogIGlmIChpc1BhZ2VOYXZpZ2F0aW9uKSB7CiAgICBpc1JvdXRlTmF2aWdhdGluZy52YWx1ZSA9IHRydWU7CiAgICBOUHJvZ3Jlc3Muc3RhcnQoKTsKICB9CgogIGNvbnN0IGRvY2tlckFkbWluQXV0aFN0b3JlID0gdXNlRG9ja2VyQWRtaW5BdXRoU3RvcmUocGluaWEpOwogIGlmICghZG9ja2VyQWRtaW5BdXRoU3RvcmUuaXNCb290c3RyYXBwZWQpIHsKICAgIHRyeSB7CiAgICAgIGF3YWl0IGRvY2tlckFkbWluQXV0aFN0b3JlLmJvb3RzdHJhcCgpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgY29uc29sZS5lcnJvcigiRmFpbGVkIHRvIGJvb3RzdHJhcCBkb2NrZXIgYWRtaW4gYXV0aCBpbiByb3V0ZXIiLCBlcnJvcik7CiAgICAgIHJldHVybiB0cnVlOwogICAgfQogIH0KCiAgaWYgKGRvY2tlckFkbWluQXV0aFN0b3JlLmlzRW5hYmxlZCAmJiAhZG9ja2VyQWRtaW5BdXRoU3RvcmUuaXNBdXRoZW50aWNhdGVkKSB7CiAgICByZXR1cm4gdHJ1ZTsKICB9CgogIGlmICh0by5wYXRoID09PSAiL3Rlcm1pbmFsIikgewogICAgdHJ5IHsKICAgICAgY29uc3Qgc3RhdHVzID0gYXdhaXQgdXNlVGVybWluYWxBY2Nlc3NTdG9yZShwaW5pYSkucmVmcmVzaCgpOwogICAgICBpZiAoIXN0YXR1cy5lbmFibGVkKQogICAgICAgIHJldHVybiB7IHBhdGg6ICIvc3lzdGVtIiwgcXVlcnk6IHsgdGFiOiAiZmVhdHVyZXMiIH0gfTsKICAgIH0gY2F0Y2ggewogICAgICAvLyBUaGUgcGFnZSBzdGF5cyBsb2NrZWQgYW5kIG9mZmVycyByZXRyeSB3aGVuIHRoZSBzdGF0dXMgY2Fubm90IGJlIGxvYWRlZC4KICAgICAgdXNlVGVybWluYWxBY2Nlc3NTdG9yZShwaW5pYSkuaW52YWxpZGF0ZSgpOwogICAgfQogIH0KCiAgaWYgKAogICAgdG8ucGF0aCAhPT0gIi8iICYmCiAgICB0by5wYXRoICE9PSAiL2Rhc2hib2FyZCIgJiYKICAgIHRvLnBhdGggIT09ICIvbWFwcGluZ3MiICYmCiAgICB0by5wYXRoICE9PSAiL3N0cmVhbXMiICYmCiAgICAhdG8ucGF0aC5zdGFydHNXaXRoKCIvc3RyZWFtcy8iKSAmJgogICAgdG8ucGF0aCAhPT0gIi9wcm94eSIgJiYKICAgIHRvLnBhdGggIT09ICIvc3ViZG9tYWlucyIgJiYKICAgICF0by5wYXRoLnN0YXJ0c1dpdGgoIi9zdWJkb21haW5zLyIpICYmCiAgICB0by5wYXRoICE9PSAiL3Rlcm1pbmFsIiAmJgogICAgdG8ucGF0aCAhPT0gIi93b2wiICYmCiAgICB0by5wYXRoICE9PSAiL3NzaC1zZWN1cml0eSIgJiYKICAgIHRvLnBhdGggIT09ICIvdHVubmVsIiAmJgogICAgIXRvLnBhdGguc3RhcnRzV2l0aCgiL3R1bm5lbC8iKSAmJgogICAgdG8ucGF0aCAhPT0gIi9zeXN0ZW0vc21hcnQtY29ubmVjdCIgJiYKICAgIHRvLnBhdGggIT09ICIvc3lzdGVtL2Zub3MtY2VydGlmaWNhdGUtc3luYyIKICApIHsKICAgIHJldHVybiB0cnVlOwogIH0KCiAgY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZShwaW5pYSk7CiAgaWYgKCFjb25maWdTdG9yZS5jb25maWcpIHsKICAgIGF3YWl0IGNvbmZpZ1N0b3JlLmxvYWRDb25maWcoKTsKICB9CgogIGlmIChjb25maWdTdG9yZS5jb25maWc/LnJ1bl90eXBlID09PSAwKSB7CiAgICBpZiAodG8ucGF0aCA9PT0gIi90ZXJtaW5hbCIpIHsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9CiAgICBpZiAodG8ucGF0aCAhPT0gIi93b2wiKSB7CiAgICAgIHJldHVybiAiL3Nlc3Npb25zP3RhYj1pcC13aGl0ZWxpc3QiOwogICAgfQogIH0KCiAgY29uc3QgaXNTdWJkb21haW5Sb3V0aW5nTW9kZSA9IGlzQW55U3ViZG9tYWluUm91dGluZ01vZGUoY29uZmlnU3RvcmUuY29uZmlnKTsKCiAgaWYgKHRvLnBhdGggPT09ICIvcHJveHkiICYmIGNvbmZpZ1N0b3JlLmNvbmZpZz8ucnVuX3R5cGUgPT09IDEpIHsKICAgIGlmIChpc1JldmVyc2VQcm94eVN1YmRvbWFpbk1vZGUoY29uZmlnU3RvcmUuY29uZmlnKSkgewogICAgICByZXR1cm4gIi9tYXBwaW5ncz90YWI9c3ViZG9tYWluIjsKICAgIH0KICAgIHJldHVybiB0cnVlOwogIH0KCiAgaWYgKHRvLnBhdGggPT09ICIvcHJveHkiKSB7CiAgICByZXR1cm4gaXNTdWJkb21haW5Sb3V0aW5nTW9kZQogICAgICA/ICIvbWFwcGluZ3M/dGFiPXN1YmRvbWFpbiIKICAgICAgOiAiL3Nlc3Npb25zP3RhYj1pcC13aGl0ZWxpc3QiOwogIH0KCiAgaWYgKHRvLnBhdGggPT09ICIvbWFwcGluZ3MiICYmICFpc1N1YmRvbWFpblJvdXRpbmdNb2RlKSB7CiAgICByZXR1cm4gY29uZmlnU3RvcmUuY29uZmlnPy5ydW5fdHlwZSA9PT0gMQogICAgICA/ICIvcHJveHkiCiAgICAgIDogIi9zZXNzaW9ucz90YWI9aXAtd2hpdGVsaXN0IjsKICB9CgogIGlmICgKICAgICh0by5wYXRoID09PSAiL3N1YmRvbWFpbnMiIHx8IHRvLnBhdGguc3RhcnRzV2l0aCgiL3N1YmRvbWFpbnMvIikpICYmCiAgICAhaXNTdWJkb21haW5Sb3V0aW5nTW9kZQogICkgewogICAgcmV0dXJuIGNvbmZpZ1N0b3JlLmNvbmZpZz8ucnVuX3R5cGUgPT09IDEKICAgICAgPyAiL3Byb3h5IgogICAgICA6ICIvc2Vzc2lvbnM/dGFiPWlwLXdoaXRlbGlzdCI7CiAgfQoKICBpZiAodG8ucGF0aC5zdGFydHNXaXRoKCIvc3RyZWFtcy8iKSAmJiAhaXNTdWJkb21haW5Sb3V0aW5nTW9kZSkgewogICAgcmV0dXJuIGNvbmZpZ1N0b3JlLmNvbmZpZz8ucnVuX3R5cGUgPT09IDEKICAgICAgPyAiL3Byb3h5IgogICAgICA6ICIvc2Vzc2lvbnM/dGFiPWlwLXdoaXRlbGlzdCI7CiAgfQoKICBpZiAoCiAgICB0by5wYXRoLnN0YXJ0c1dpdGgoIi9zdHJlYW1zLyIpICYmCiAgICAhaXNQcm90b2NvbE1hcHBpbmdWaXNpYmxlKGNvbmZpZ1N0b3JlLmNvbmZpZykKICApIHsKICAgIHJldHVybiAiL21hcHBpbmdzP3RhYj1zdWJkb21haW4iOwogIH0KCiAgaWYgKAogICAgKHRvLnBhdGggPT09ICIvdHVubmVsIiB8fCB0by5wYXRoLnN0YXJ0c1dpdGgoIi90dW5uZWwvIikpICYmCiAgICAoY29uZmlnU3RvcmUuY29uZmlnPy5ydW5fdHlwZSAhPT0gMSB8fAogICAgICAoIWNvbmZpZ1N0b3JlLmNhblVzZUZycGMgJiYgIWNvbmZpZ1N0b3JlLmNhblVzZUNsb3VkZmxhcmVkKSkKICApIHsKICAgIHJldHVybiAiL3N5c3RlbSI7CiAgfQoKICBjb25zdCBydW50aW1lQ2FwYWJpbGl0eVJlZGlyZWN0ID0gcmVzb2x2ZVJ1bnRpbWVDYXBhYmlsaXR5UmVkaXJlY3QodG8ucGF0aCwgewogICAgY2FuVXNlU3NoU2VjdXJpdHk6IGNvbmZpZ1N0b3JlLmNhblVzZVNzaFNlY3VyaXR5LAogICAgc3NoU2VjdXJpdHlFbmFibGVkOiBjb25maWdTdG9yZS5jb25maWc/LnNzaF9zZWN1cml0eT8uZW5hYmxlZCA9PT0gdHJ1ZSwKICAgIGNhblVzZVNtYXJ0Q29ubmVjdDogY29uZmlnU3RvcmUuY2FuVXNlU21hcnRDb25uZWN0LAogICAgY2FuVXNlRm5vc0NlcnRpZmljYXRlU3luYzogY29uZmlnU3RvcmUuY2FuVXNlRm5vc0NlcnRpZmljYXRlU3luYywKICAgIHdvbEVuYWJsZWQ6IGNvbmZpZ1N0b3JlLmNvbmZpZz8ud29sX2ZlYXR1cmU/LmVuYWJsZWQgPT09IHRydWUsCiAgfSk7CiAgaWYgKHJ1bnRpbWVDYXBhYmlsaXR5UmVkaXJlY3QpIHsKICAgIHJldHVybiBydW50aW1lQ2FwYWJpbGl0eVJlZGlyZWN0OwogIH0KCiAgcmV0dXJuIHRydWU7Cn0pOwoKcm91dGVyLmFmdGVyRWFjaCgoKSA9PiB7CiAgaXNSb3V0ZU5hdmlnYXRpbmcudmFsdWUgPSBmYWxzZTsKICBwZW5kaW5nTmF2UGF0aC52YWx1ZSA9IG51bGw7CiAgTlByb2dyZXNzLmRvbmUoKTsKfSk7Cgpyb3V0ZXIub25FcnJvcigoZXJyb3IpID0+IHsKICBpc1JvdXRlTmF2aWdhdGluZy52YWx1ZSA9IGZhbHNlOwogIHBlbmRpbmdOYXZQYXRoLnZhbHVlID0gbnVsbDsKICBOUHJvZ3Jlc3MuZG9uZSgpOwoKICBsZXQgcmVsb2FkU3RvcmFnZTogU3RvcmFnZSB8IG51bGwgPSBudWxsOwogIHRyeSB7CiAgICByZWxvYWRTdG9yYWdlID0gd2luZG93LnNlc3Npb25TdG9yYWdlOwogIH0gY2F0Y2ggewogICAgLy8gVGhlIGNhY2hlLWJ1c3RpbmcgcXVlcnkgcGFyYW1ldGVyIHN0aWxsIGd1YXJkcyBhZ2FpbnN0IHJlbG9hZCBsb29wcy4KICB9CiAgaWYgKCFpc0R5bmFtaWNJbXBvcnRGYWlsdXJlKGVycm9yKSkgcmV0dXJuOwogIGlmICghY2xhaW1DaHVua1JlbG9hZCh3aW5kb3cubG9jYXRpb24uaHJlZiwgcmVsb2FkU3RvcmFnZSkpIHsKICAgIHRvYXN0LmVycm9yKGJyb3dzZXJUKCJhZG1pbi5yb3V0ZS5sb2FkRmFpbGVkUmV0cnkiKSk7CiAgICByZXR1cm47CiAgfQogIHRvYXN0LmluZm8oYnJvd3NlclQoImFkbWluLnJvdXRlLmNhY2hlRXhwaXJlZCIpKTsKICB3aW5kb3cuc2V0VGltZW91dCgoKSA9PiB7CiAgICByZXBsYWNlV2l0aFVwZGF0ZWRBcHBsaWNhdGlvbigiY2h1bmsiKTsKICB9LCAxMjApOwp9KTsKCmV4cG9ydCBkZWZhdWx0IHJvdXRlcjsK
+import { useTerminalAccessStore } from "@/store/terminal-access";
+import NProgress from "nprogress";
+import { createRouter, createWebHashHistory } from "vue-router";
+import Layout from "../views/Layout.vue";
+import { useConfigStore } from "../store/config";
+import { useDockerAdminAuthStore } from "../store/dockerAdminAuth";
+import { pinia } from "../store";
+import { isRouteNavigating, pendingNavPath } from "./navigation-state";
+import { toast } from "@admin-shared/utils/toast";
+import { browserT } from "@fn-knock/i18n/vue/admin";
+import {
+  isAnySubdomainRoutingMode,
+  isReverseProxySubdomainMode,
+} from "../lib/reverse-proxy-submode";
+import { isProtocolMappingVisible } from "../lib/protocol-mapping-visibility";
+import { resolveRuntimeCapabilityRedirect } from "./runtime-access";
+import {
+  claimChunkReload,
+  isDynamicImportFailure,
+  replaceWithUpdatedApplication,
+} from "../lib/update-reload";
+
+NProgress.configure({
+  barSelector: ".bar",
+  showSpinner: false,
+  minimum: 0.12,
+  easing: "ease",
+  speed: 420,
+  template: '<div class="bar" aria-hidden="true"><div class="peg"></div></div>',
+  trickleSpeed: 160,
+});
+
+const router = createRouter({
+  history: createWebHashHistory(),
+  routes: [
+    {
+      path: "/",
+      component: Layout,
+      children: [
+        {
+          path: "",
+          name: "Dashboard",
+          component: () => import("../views/Dashboard.vue"),
+        },
+        {
+          path: "dashboard",
+          redirect: "/",
+        },
+        {
+          path: "whitelist",
+          redirect: (to) => ({
+            path: "/sessions",
+            query: { ...to.query, tab: "ip-whitelist" },
+          }),
+        },
+        {
+          path: "proxy",
+          name: "ReverseProxy",
+          component: () => import("../views/ReverseProxy.vue"),
+        },
+        {
+          path: "mappings",
+          name: "MappingManagement",
+          component: () => import("../views/MappingManagement.vue"),
+        },
+        {
+          path: "subdomains",
+          redirect: (to) => ({
+            path: "/mappings",
+            query: { ...to.query, tab: "subdomain" },
+          }),
+        },
+        {
+          path: "subdomains/panel-sync",
+          name: "PanelSync",
+          component: () => import("../views/PanelSync.vue"),
+        },
+        {
+          path: "subdomains/:host/advanced-auth",
+          name: "SubdomainAdvancedAuth",
+          component: () =>
+            import("../views/subdomain-proxy/SubdomainAdvancedAuth.vue"),
+        },
+        {
+          path: "subdomains/:host/deep-monitor",
+          name: "DeepMonitor",
+          component: () => import("../views/DeepMonitor.vue"),
+        },
+        {
+          path: "subdomains/:host/paths",
+          name: "SubdomainPaths",
+          component: () =>
+            import("../views/system-settings/GatewayLocationsSettings.vue"),
+        },
+        {
+          path: "streams",
+          redirect: (to) => ({
+            path: "/mappings",
+            query: { ...to.query, tab: "protocol" },
+          }),
+        },
+        {
+          path: "streams/:protocol/:port/bypass-policy",
+          name: "StreamBypassPolicy",
+          component: () =>
+            import("../views/stream-mappings/StreamBypassPolicy.vue"),
+        },
+        {
+          path: "ssl",
+          name: "SSLSettings",
+          component: () => import("../views/SSLSettings.vue"),
+        },
+        {
+          path: "mode",
+          name: "RunMode",
+          component: () =>
+            import("../views/system-settings/RunModeSettings.vue"),
+        },
+        {
+          path: "auth",
+          name: "AuthSettings",
+          component: () => import("../views/AuthSettings.vue"),
+        },
+        {
+          path: "auth/passkeys/:totpId",
+          name: "PasskeySettings",
+          component: () => import("../views/PasskeySettings.vue"),
+        },
+        {
+          path: "auth/external-providers",
+          name: "ExternalProviderSettings",
+          component: () => import("../views/OIDCProviderSettings.vue"),
+        },
+        {
+          path: "auth/oidc-providers",
+          redirect: "/auth/external-providers",
+        },
+        {
+          path: "events",
+          name: "EventCenter",
+          component: () => import("../views/EventCenter.vue"),
+        },
+        {
+          path: "ssh-security",
+          name: "SSHSecurity",
+          component: () => import("../views/SSHSecurity.vue"),
+        },
+        {
+          path: "logs",
+          redirect: "/events",
+        },
+        {
+          path: "request-analysis",
+          name: "RequestAnalysis",
+          component: () => import("../views/RequestAnalysis.vue"),
+        },
+        {
+          path: "traces/:trace_id",
+          name: "TraceDetails",
+          component: () => import("../views/TraceDetails.vue"),
+        },
+        {
+          path: "request-logs",
+          redirect: (to) => ({
+            path: "/request-analysis",
+            query: { ...to.query, tab: "logs" },
+          }),
+        },
+        {
+          path: "deep-monitor",
+          redirect: (to) => {
+            const host =
+              typeof to.query.host === "string" ? to.query.host.trim() : "";
+            return host
+              ? `/subdomains/${encodeURIComponent(host)}/deep-monitor`
+              : "/mappings?tab=subdomain";
+          },
+        },
+        {
+          path: "waf-logs",
+          redirect: (to) => ({
+            path: "/request-analysis",
+            query: { ...to.query, tab: "waf" },
+          }),
+        },
+        {
+          path: "system",
+          name: "SystemSettings",
+          component: () => import("../views/SystemSettings.vue"),
+        },
+        {
+          path: "system/backup-email",
+          name: "BackupEmailSettings",
+          component: () => import("../views/system-settings/BackupEmailPage.vue"),
+        },
+        {
+          path: "system/scanner-path-whitelist",
+          name: "ScannerPathWhitelistSettings",
+          component: () =>
+            import("../views/system-settings/ScannerPathWhitelistSettings.vue"),
+        },
+        {
+          path: "system/gateway-visibility",
+          name: "GatewayVisibilitySettings",
+          component: () =>
+            import("../views/system-settings/GatewayVisibilitySettings.vue"),
+        },
+        {
+          path: "system/gateway-portal",
+          name: "GatewayPortalSettings",
+          component: () =>
+            import("../views/system-settings/GatewayPortalSettings.vue"),
+        },
+        {
+          path: "system/gateway-proxy-headers",
+          name: "GatewayProxyHeadersSettings",
+          component: () =>
+            import("../views/system-settings/GatewayProxyHeadersSettings.vue"),
+        },
+        {
+          path: "system/gateway-http3",
+          name: "GatewayHttp3Settings",
+          component: () =>
+            import("../views/system-settings/GatewayHttp3Settings.vue"),
+        },
+        {
+          path: "system/gateway-proxy-protocol",
+          name: "GatewayProxyProtocolSettings",
+          component: () =>
+            import("../views/system-settings/GatewayProxyProtocolSettings.vue"),
+        },
+        {
+          path: "system/gateway-host-response",
+          name: "GatewayHostResponseSettings",
+          component: () =>
+            import("../views/system-settings/GatewayHostResponseSettings.vue"),
+        },
+        {
+          path: "system/web-terminal",
+          name: "WebTerminalSettings",
+          component: () =>
+            import("../views/system-settings/WebTerminalSettings.vue"),
+        },
+        {
+          path: "system/smart-connect",
+          name: "SmartConnectSettings",
+          component: () =>
+            import("../views/system-settings/SmartConnectSettings.vue"),
+        },
+        {
+          path: "system/sidebar-menu-order",
+          name: "SidebarMenuOrderSettings",
+          component: () =>
+            import("../views/system-settings/SidebarMenuOrderSettings.vue"),
+        },
+        {
+          path: "system/fnos-certificate-sync",
+          name: "FnosCertificateSyncSettings",
+          component: () =>
+            import("../views/system-settings/FnosCertificateSyncSettings.vue"),
+        },
+        {
+          path: "sessions",
+          name: "SessionManagement",
+          component: () => import("../views/SessionManagement.vue"),
+        },
+        {
+          path: "sessions/mobility/:id",
+          name: "SessionMobility",
+          component: () =>
+            import("../views/session-management/mobility/SessionMobilityPage.vue"),
+        },
+        {
+          path: "terminal",
+          name: "WebTerminal",
+          component: () => import("../views/WebTerminal.vue"),
+        },
+        {
+          path: "tunnel",
+          name: "IntranetTunnel",
+          component: () => import("../views/Tunnel.vue"),
+        },
+        {
+          path: "tunnel/frp/instances/new",
+          name: "FrpcInstanceCreate",
+          component: () => import("../views/tunnel/frp/FrpcInstancePage.vue"),
+        },
+        {
+          path: "tunnel/frp/instances/:id",
+          name: "FrpcInstanceDetail",
+          component: () => import("../views/tunnel/frp/FrpcInstancePage.vue"),
+        },
+        {
+          path: "ddns",
+          name: "DDNSManagement",
+          component: () => import("../views/DDNSManagement.vue"),
+        },
+        {
+          path: "wol",
+          name: "WOLManagement",
+          component: () => import("../views/WOLManagement.vue"),
+        },
+        {
+          path: "about",
+          name: "About",
+          component: () => import("../views/AboutUpdate.vue"),
+        },
+      ],
+    },
+  ],
+});
+
+router.beforeEach(async (to, from) => {
+  const isPageNavigation = to.fullPath !== from.fullPath;
+
+  if (isPageNavigation) {
+    isRouteNavigating.value = true;
+    NProgress.start();
+  }
+
+  const dockerAdminAuthStore = useDockerAdminAuthStore(pinia);
+  if (!dockerAdminAuthStore.isBootstrapped) {
+    try {
+      await dockerAdminAuthStore.bootstrap();
+    } catch (error) {
+      console.error("Failed to bootstrap docker admin auth in router", error);
+      return true;
+    }
+  }
+
+  if (dockerAdminAuthStore.isEnabled && !dockerAdminAuthStore.isAuthenticated) {
+    return true;
+  }
+
+  if (to.path === "/terminal") {
+    try {
+      const status = await useTerminalAccessStore(pinia).refresh();
+      if (!status.enabled)
+        return { path: "/system", query: { tab: "features" } };
+    } catch {
+      // The page stays locked and offers retry when the status cannot be loaded.
+      useTerminalAccessStore(pinia).invalidate();
+    }
+  }
+
+  if (
+    to.path !== "/" &&
+    to.path !== "/dashboard" &&
+    to.path !== "/mappings" &&
+    to.path !== "/streams" &&
+    !to.path.startsWith("/streams/") &&
+    to.path !== "/proxy" &&
+    to.path !== "/subdomains" &&
+    !to.path.startsWith("/subdomains/") &&
+    to.path !== "/terminal" &&
+    to.path !== "/wol" &&
+    to.path !== "/ssh-security" &&
+    to.path !== "/tunnel" &&
+    !to.path.startsWith("/tunnel/") &&
+    to.path !== "/system/smart-connect" &&
+    to.path !== "/system/fnos-certificate-sync"
+  ) {
+    return true;
+  }
+
+  const configStore = useConfigStore(pinia);
+  if (!configStore.config) {
+    await configStore.loadConfig();
+  }
+
+  if (configStore.config?.run_type === 0) {
+    if (to.path === "/terminal") {
+      return true;
+    }
+    if (to.path !== "/wol") {
+      return "/sessions?tab=ip-whitelist";
+    }
+  }
+
+  const isSubdomainRoutingMode = isAnySubdomainRoutingMode(configStore.config);
+
+  if (to.path === "/proxy" && configStore.config?.run_type === 1) {
+    if (isReverseProxySubdomainMode(configStore.config)) {
+      return "/mappings?tab=subdomain";
+    }
+    return true;
+  }
+
+  if (to.path === "/proxy") {
+    return isSubdomainRoutingMode
+      ? "/mappings?tab=subdomain"
+      : "/sessions?tab=ip-whitelist";
+  }
+
+  if (to.path === "/mappings" && !isSubdomainRoutingMode) {
+    return configStore.config?.run_type === 1
+      ? "/proxy"
+      : "/sessions?tab=ip-whitelist";
+  }
+
+  if (
+    (to.path === "/subdomains" || to.path.startsWith("/subdomains/")) &&
+    !isSubdomainRoutingMode
+  ) {
+    return configStore.config?.run_type === 1
+      ? "/proxy"
+      : "/sessions?tab=ip-whitelist";
+  }
+
+  if (to.path.startsWith("/streams/") && !isSubdomainRoutingMode) {
+    return configStore.config?.run_type === 1
+      ? "/proxy"
+      : "/sessions?tab=ip-whitelist";
+  }
+
+  if (
+    to.path.startsWith("/streams/") &&
+    !isProtocolMappingVisible(configStore.config)
+  ) {
+    return "/mappings?tab=subdomain";
+  }
+
+  if (
+    (to.path === "/tunnel" || to.path.startsWith("/tunnel/")) &&
+    (configStore.config?.run_type !== 1 ||
+      (!configStore.canUseFrpc && !configStore.canUseCloudflared))
+  ) {
+    return "/system";
+  }
+
+  const runtimeCapabilityRedirect = resolveRuntimeCapabilityRedirect(to.path, {
+    canUseSshSecurity: configStore.canUseSshSecurity,
+    sshSecurityEnabled: configStore.config?.ssh_security?.enabled === true,
+    canUseSmartConnect: configStore.canUseSmartConnect,
+    canUseFnosCertificateSync: configStore.canUseFnosCertificateSync,
+    wolEnabled: configStore.config?.wol_feature?.enabled === true,
+  });
+  if (runtimeCapabilityRedirect) {
+    return runtimeCapabilityRedirect;
+  }
+
+  return true;
+});
+
+router.afterEach(() => {
+  isRouteNavigating.value = false;
+  pendingNavPath.value = null;
+  NProgress.done();
+});
+
+router.onError((error) => {
+  isRouteNavigating.value = false;
+  pendingNavPath.value = null;
+  NProgress.done();
+
+  let reloadStorage: Storage | null = null;
+  try {
+    reloadStorage = window.sessionStorage;
+  } catch {
+    // The cache-busting query parameter still guards against reload loops.
+  }
+  if (!isDynamicImportFailure(error)) return;
+  if (!claimChunkReload(window.location.href, reloadStorage)) {
+    toast.error(browserT("admin.route.loadFailedRetry"));
+    return;
+  }
+  toast.info(browserT("admin.route.cacheExpired"));
+  window.setTimeout(() => {
+    replaceWithUpdatedApplication("chunk");
+  }, 120);
+});
+
+export default router;

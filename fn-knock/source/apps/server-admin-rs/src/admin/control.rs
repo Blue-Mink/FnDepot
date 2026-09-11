@@ -1,1 +1,159 @@
-dXNlIGF4dW06OntSb3V0ZXIsIGh0dHA6OlN0YXR1c0NvZGV9Owp1c2Ugc2VyZGU6OkRlc2VyaWFsaXplOwp1c2Ugc2VyZGVfanNvbjo6e01hcCwgVmFsdWV9OwoKdXNlIGNyYXRlOjpzdGF0ZTo6QXBwU3RhdGU7Cgptb2QgYXV0aF9tb2RlOwptb2QgZ2F0ZXdheTsKbW9kIGhhbmRsZXJzOwptb2Qgc2Vzc2lvbnM7Cm1vZCBzZXR0aW5nczsKbW9kIHRleHQ7Cm1vZCB0cmFuc2ZlcjsKCnB1YihjcmF0ZSkgdXNlIGF1dGhfbW9kZTo6e2F1dGhfYWNjb3VudF9yb3V0ZXMsIGF1dGhfbW9kZV9yb3V0ZXN9OwpwdWIoY3JhdGUpIHVzZSBoYW5kbGVyczo6YXV0aF9jcmVkZW50aWFsX3NldHRpbmdzX3JvdXRlczsKcHViKGNyYXRlKSB1c2UgaGFuZGxlcnM6OnNlc3Npb25fcm91dGVzOwpwdWIoY3JhdGUpIHVzZSBoYW5kbGVyczo6dG90cF9ib290c3RyYXBfcm91dGVzOwpwdWIoY3JhdGUpIHVzZSBoYW5kbGVyczo6dG90cF9tYW5hZ2VtZW50X3JvdXRlczsKCiNbY2ZnKHRlc3QpXQp1c2UgY3JhdGU6OnsKICAgIGF1dGhfbW9iaWxpdHksCiAgICBpMThuOjpUcmFuc2xhdG9yLAogICAgc3RvcmU6OntBdXRoQWNjb3VudCwgQXV0aFBhc3N3b3JkQ3JlZGVudGlhbCwgTG9naW5TZXNzaW9uLCBUb3RwQ3JlZGVudGlhbH0sCiAgICB0aW1lX3V0aWxzLAp9OwojW2NmZyh0ZXN0KV0KdXNlIHNlcmRlX2pzb246Ompzb247CiNbY2ZnKHRlc3QpXQp1c2Ugc2Vzc2lvbnM6OnsKICAgIGFwcGx5X21vYmlsaXR5X2V2ZW50X2lwX2xvY2F0aW9ucywgYnVpbGRfbW9iaWxpdHlfbG9naW5fZXZlbnQsIGJ1aWxkX21vYmlsaXR5X3N1bW1hcnksCiAgICBub3JtYWxpemVfYXV0b19pcF9ncmFudF9jb21tZW50X3ZhbHVlLCBzZXNzaW9uX2F0dGFjaG1lbnRfZnJvbV9iaW5kaW5nLAp9OwojW2NmZyh0ZXN0KV0KdXNlIHNldHRpbmdzOjp7bm9kZV90b3RwX2JpbmRfY29tbWVudCwgbm9ybWFsaXplX2F1dGhfY3JlZGVudGlhbF9zZXR0aW5nc307CiNbY2ZnKHRlc3QpXQp1c2Ugc3RkOjpjb2xsZWN0aW9uczo6e0JUcmVlTWFwLCBIYXNoU2V0fTsKI1tjZmcodGVzdCldCnVzZSB0ZXh0Ojp7YWRtaW5fY29udHJvbF90ZXh0LCB0b3RwX2ltcG9ydF9lcnJvcl9tZXNzYWdlLCB0b3RwX2ltcG9ydF9lcnJvcl93aXRoX21heH07CiNbY2ZnKHRlc3QpXQp1c2UgdHJhbnNmZXI6OnsKICAgIENyZWRlbnRpYWxJbXBvcnRQbGFuLCBidWlsZF9jcmVkZW50aWFsX2ltcG9ydF9wbGFuLCBidWlsZF9wYXNzd29yZF9leHBvcnRfcGF5bG9hZCwKICAgIGJ1aWxkX3RvdHBfZXhwb3J0X3BheWxvYWQsIGJ1aWxkX3RvdHBfaW1wb3J0X3BsYW4sCn07Cgpjb25zdCBUT1RQX1RSQU5TRkVSX0tJTkQ6ICZzdHIgPSAiZm4ta25vY2sudG90cC1jcmVkZW50aWFscyI7CmNvbnN0IFRPVFBfVFJBTlNGRVJfVkVSU0lPTjogdTY0ID0gMTsKY29uc3QgUEFTU1dPUkRfVFJBTlNGRVJfS0lORDogJnN0ciA9ICJmbi1rbm9jay5wYXNzd29yZC1jcmVkZW50aWFscyI7CmNvbnN0IFBBU1NXT1JEX1RSQU5TRkVSX1ZFUlNJT046IHU2NCA9IDE7CmNvbnN0IE1BWF9UT1RQX0lNUE9SVF9DT1VOVDogdXNpemUgPSAyMDA7CmNvbnN0IE1BWF9BVVRIX0FDQ09VTlRfSU1QT1JUX0NPVU5UOiB1c2l6ZSA9IDIwMDsKY29uc3QgQVVUSF9TRVNTSU9OX1RUTF9TRUNPTkRTX0RFRkFVTFQ6IGk2NCA9IDI0ICogMzYwMDsKY29uc3QgQVVUSF9SRU1FTUJFUl9NRV9UVExfU0VDT05EU19ERUZBVUxUOiBpNjQgPSAzNjUgKiAyNCAqIDM2MDA7CmNvbnN0IEFVVEhfUE9TVF9MT0dJTl9JUF9HUkFOVF9UVExfU0VDT05EU19ERUZBVUxUOiBpNjQgPSAzNjAwOwpjb25zdCBBVVRIX1NFU1NJT05fSVBfTU9CSUxJVFlfV0lORE9XX1NFQ09ORFNfREVGQVVMVDogaTY0ID0gMjAgKiA2MDsKY29uc3QgQVVUSF9NQVhfVFRMX1NFQ09ORFM6IGk2NCA9IDUgKiAzNjUgKiAyNCAqIDM2MDA7CgojW2Rlcml2ZShEZWJ1ZyldCnN0cnVjdCBUb3RwSW1wb3J0Um91dGVFcnJvciB7CiAgICBzdGF0dXM6IFN0YXR1c0NvZGUsCiAgICBrZXk6ICYnc3RhdGljIHN0ciwKICAgIG1heDogT3B0aW9uPHVzaXplPiwKfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUpXQpzdHJ1Y3QgQXV0aENyZWRlbnRpYWxTZXR0aW5nc0JvZHkgewogICAgI1tzZXJkZShmbGF0dGVuKV0KICAgIHZhbHVlOiBNYXA8U3RyaW5nLCBWYWx1ZT4sCn0KCiNbZGVyaXZlKERlc2VyaWFsaXplLCB1dG9pcGE6OlRvU2NoZW1hKV0KcHViKGNyYXRlKSBzdHJ1Y3QgQXV0aExvZ2luTW9kZUJvZHkgewogICAgbW9kZTogU3RyaW5nLAp9CgojW2Rlcml2ZShEZXNlcmlhbGl6ZSwgdXRvaXBhOjpUb1NjaGVtYSldCnB1YihjcmF0ZSkgc3RydWN0IEF1dGhBY2NvdW50UGF0Y2hCb2R5IHsKICAgIHVzZXJuYW1lOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUsIHV0b2lwYTo6VG9TY2hlbWEpXQpwdWIoY3JhdGUpIHN0cnVjdCBBdXRoQWNjb3VudENyZWF0ZUJvZHkgewogICAgdXNlcm5hbWU6IFN0cmluZywKICAgIHBhc3N3b3JkOiBTdHJpbmcsCn0KCiNbZGVyaXZlKERlc2VyaWFsaXplLCB1dG9pcGE6OlRvU2NoZW1hKV0KcHViKGNyYXRlKSBzdHJ1Y3QgQXV0aEFjY291bnRQYXNzd29yZEJvZHkgewogICAgcGFzc3dvcmQ6IFN0cmluZywKfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUsIHV0b2lwYTo6VG9TY2hlbWEpXQpwdWIoY3JhdGUpIHN0cnVjdCBBdXRoQWNjb3VudFNldHVwQm9keSB7CiAgICB1c2VybmFtZTogU3RyaW5nLAogICAgcGFzc3dvcmQ6IFN0cmluZywKfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUpXQpzdHJ1Y3QgQXV0aEFjY291bnRBY2Nlc3NTY29wZXNCb2R5IHsKICAgIGFjY2Vzc19zY29wZXM6IFZhbHVlLAp9CgojW2Rlcml2ZShEZXNlcmlhbGl6ZSldCnN0cnVjdCBBdXRoQWNjb3VudFN1YmRvbWFpbkFjY2Vzc0JvZHkgewogICAgc3ViZG9tYWluX2FjY2VzczogVmFsdWUsCn0KCiNbZGVyaXZlKERlc2VyaWFsaXplLCB1dG9pcGE6OlRvU2NoZW1hKV0KcHViKGNyYXRlKSBzdHJ1Y3QgVG90cEJpbmRCb2R5IHsKICAgIHNlY3JldDogU3RyaW5nLAogICAgdG9rZW46IFN0cmluZywKICAgIGNvbW1lbnQ6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShEZXNlcmlhbGl6ZSwgdXRvaXBhOjpUb1NjaGVtYSldCnB1YihjcmF0ZSkgc3RydWN0IFRvdHBDb21tZW50Qm9keSB7CiAgICBjb21tZW50OiBTdHJpbmcsCn0KCiNbZGVyaXZlKERlc2VyaWFsaXplKV0Kc3RydWN0IFRvdHBBY2Nlc3NTY29wZXNCb2R5IHsKICAgIGFjY2Vzc19zY29wZXM6IFZhbHVlLAp9CgojW2Rlcml2ZShEZXNlcmlhbGl6ZSldCnN0cnVjdCBUb3RwU3ViZG9tYWluQWNjZXNzQm9keSB7CiAgICBzdWJkb21haW5fYWNjZXNzOiBWYWx1ZSwKfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUpXQpzdHJ1Y3QgVG90cEltcG9ydEJvZHkgewogICAgcGF5bG9hZDogVmFsdWUsCn0KCiNbZGVyaXZlKERlc2VyaWFsaXplLCB1dG9pcGE6OlRvU2NoZW1hKV0KcHViKGNyYXRlKSBzdHJ1Y3QgU2Vzc2lvbkNvbW1lbnRCb2R5IHsKICAgIGNvbW1lbnQ6IFN0cmluZywKfQoKcHViIGZuIGFkbWluX2NvbnRyb2xfcm91dGVzKCkgLT4gUm91dGVyPEFwcFN0YXRlPiB7CiAgICBsZXQgYXV0aF9tb2RlX3JvdXRlczogUm91dGVyPEFwcFN0YXRlPiA9IGF1dGhfbW9kZV9yb3V0ZXMoKS5pbnRvKCk7CiAgICBsZXQgYXV0aF9hY2NvdW50X3JvdXRlczogUm91dGVyPEFwcFN0YXRlPiA9IGF1dGhfYWNjb3VudF9yb3V0ZXMoKS5pbnRvKCk7CiAgICBsZXQgc2Vzc2lvbl9yb3V0ZXM6IFJvdXRlcjxBcHBTdGF0ZT4gPSBzZXNzaW9uX3JvdXRlcygpLmludG8oKTsKICAgIGxldCBhdXRoX2NyZWRlbnRpYWxfc2V0dGluZ3Nfcm91dGVzOiBSb3V0ZXI8QXBwU3RhdGU+ID0KICAgICAgICBhdXRoX2NyZWRlbnRpYWxfc2V0dGluZ3Nfcm91dGVzKCkuaW50bygpOwogICAgbGV0IHRvdHBfYm9vdHN0cmFwX3JvdXRlczogUm91dGVyPEFwcFN0YXRlPiA9IHRvdHBfYm9vdHN0cmFwX3JvdXRlcygpLmludG8oKTsKICAgIGxldCB0b3RwX21hbmFnZW1lbnRfcm91dGVzOiBSb3V0ZXI8QXBwU3RhdGU+ID0gdG90cF9tYW5hZ2VtZW50X3JvdXRlcygpLmludG8oKTsKICAgIFJvdXRlcjo6bmV3KCkKICAgICAgICAubWVyZ2UoYXV0aF9jcmVkZW50aWFsX3NldHRpbmdzX3JvdXRlcykKICAgICAgICAubWVyZ2UodG90cF9tYW5hZ2VtZW50X3JvdXRlcykKICAgICAgICAubWVyZ2UodG90cF9ib290c3RyYXBfcm91dGVzKQogICAgICAgIC5tZXJnZShhdXRoX2FjY291bnRfcm91dGVzKQogICAgICAgIC5tZXJnZShzZXNzaW9uX3JvdXRlcykKICAgICAgICAubWVyZ2UoYXV0aF9tb2RlX3JvdXRlcykKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0czsK
+use axum::{Router, http::StatusCode};
+use serde::Deserialize;
+use serde_json::{Map, Value};
+
+use crate::state::AppState;
+
+mod auth_mode;
+mod gateway;
+mod handlers;
+mod sessions;
+mod settings;
+mod text;
+mod transfer;
+
+pub(crate) use auth_mode::{auth_account_routes, auth_mode_routes};
+pub(crate) use handlers::auth_credential_settings_routes;
+pub(crate) use handlers::session_routes;
+pub(crate) use handlers::totp_bootstrap_routes;
+pub(crate) use handlers::totp_management_routes;
+
+#[cfg(test)]
+use crate::{
+    auth_mobility,
+    i18n::Translator,
+    store::{AuthAccount, AuthPasswordCredential, LoginSession, TotpCredential},
+    time_utils,
+};
+#[cfg(test)]
+use serde_json::json;
+#[cfg(test)]
+use sessions::{
+    apply_mobility_event_ip_locations, build_mobility_login_event, build_mobility_summary,
+    normalize_auto_ip_grant_comment_value, session_attachment_from_binding,
+};
+#[cfg(test)]
+use settings::{node_totp_bind_comment, normalize_auth_credential_settings};
+#[cfg(test)]
+use std::collections::{BTreeMap, HashSet};
+#[cfg(test)]
+use text::{admin_control_text, totp_import_error_message, totp_import_error_with_max};
+#[cfg(test)]
+use transfer::{
+    CredentialImportPlan, build_credential_import_plan, build_password_export_payload,
+    build_totp_export_payload, build_totp_import_plan,
+};
+
+const TOTP_TRANSFER_KIND: &str = "fn-knock.totp-credentials";
+const TOTP_TRANSFER_VERSION: u64 = 1;
+const PASSWORD_TRANSFER_KIND: &str = "fn-knock.password-credentials";
+const PASSWORD_TRANSFER_VERSION: u64 = 1;
+const MAX_TOTP_IMPORT_COUNT: usize = 200;
+const MAX_AUTH_ACCOUNT_IMPORT_COUNT: usize = 200;
+const AUTH_SESSION_TTL_SECONDS_DEFAULT: i64 = 24 * 3600;
+const AUTH_REMEMBER_ME_TTL_SECONDS_DEFAULT: i64 = 365 * 24 * 3600;
+const AUTH_POST_LOGIN_IP_GRANT_TTL_SECONDS_DEFAULT: i64 = 3600;
+const AUTH_SESSION_IP_MOBILITY_WINDOW_SECONDS_DEFAULT: i64 = 20 * 60;
+const AUTH_MAX_TTL_SECONDS: i64 = 5 * 365 * 24 * 3600;
+
+#[derive(Debug)]
+struct TotpImportRouteError {
+    status: StatusCode,
+    key: &'static str,
+    max: Option<usize>,
+}
+
+#[derive(Deserialize)]
+struct AuthCredentialSettingsBody {
+    #[serde(flatten)]
+    value: Map<String, Value>,
+}
+
+#[derive(Deserialize, utoipa::ToSchema)]
+pub(crate) struct AuthLoginModeBody {
+    mode: String,
+}
+
+#[derive(Deserialize, utoipa::ToSchema)]
+pub(crate) struct AuthAccountPatchBody {
+    username: Option<String>,
+}
+
+#[derive(Deserialize, utoipa::ToSchema)]
+pub(crate) struct AuthAccountCreateBody {
+    username: String,
+    password: String,
+}
+
+#[derive(Deserialize, utoipa::ToSchema)]
+pub(crate) struct AuthAccountPasswordBody {
+    password: String,
+}
+
+#[derive(Deserialize, utoipa::ToSchema)]
+pub(crate) struct AuthAccountSetupBody {
+    username: String,
+    password: String,
+}
+
+#[derive(Deserialize)]
+struct AuthAccountAccessScopesBody {
+    access_scopes: Value,
+}
+
+#[derive(Deserialize)]
+struct AuthAccountSubdomainAccessBody {
+    subdomain_access: Value,
+}
+
+#[derive(Deserialize, utoipa::ToSchema)]
+pub(crate) struct TotpBindBody {
+    secret: String,
+    token: String,
+    comment: Option<String>,
+}
+
+#[derive(Deserialize, utoipa::ToSchema)]
+pub(crate) struct TotpCommentBody {
+    comment: String,
+}
+
+#[derive(Deserialize)]
+struct TotpAccessScopesBody {
+    access_scopes: Value,
+}
+
+#[derive(Deserialize)]
+struct TotpSubdomainAccessBody {
+    subdomain_access: Value,
+}
+
+#[derive(Deserialize)]
+struct TotpImportBody {
+    payload: Value,
+}
+
+#[derive(Deserialize, utoipa::ToSchema)]
+pub(crate) struct SessionCommentBody {
+    comment: String,
+}
+
+pub fn admin_control_routes() -> Router<AppState> {
+    let auth_mode_routes: Router<AppState> = auth_mode_routes().into();
+    let auth_account_routes: Router<AppState> = auth_account_routes().into();
+    let session_routes: Router<AppState> = session_routes().into();
+    let auth_credential_settings_routes: Router<AppState> =
+        auth_credential_settings_routes().into();
+    let totp_bootstrap_routes: Router<AppState> = totp_bootstrap_routes().into();
+    let totp_management_routes: Router<AppState> = totp_management_routes().into();
+    Router::new()
+        .merge(auth_credential_settings_routes)
+        .merge(totp_management_routes)
+        .merge(totp_bootstrap_routes)
+        .merge(auth_account_routes)
+        .merge(session_routes)
+        .merge(auth_mode_routes)
+}
+
+#[cfg(test)]
+mod tests;

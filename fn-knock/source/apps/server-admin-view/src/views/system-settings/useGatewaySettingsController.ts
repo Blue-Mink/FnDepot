@@ -1,1 +1,287 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgcmVhY3RpdmUsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gInZ1ZS1yb3V0ZXIiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IHVzZURlbGF5ZWRMb2FkaW5nIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VEZWxheWVkTG9hZGluZyI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7IENvbmZpZ0FQSSB9IGZyb20gIkAvbGliL2FwaS9jb25maWciOwppbXBvcnQgeyBub3JtYWxpemVHYXRld2F5UG9ydGFsQ29uZmlnIH0gZnJvbSAiQC9saWIvZ2F0ZXdheVBvcnRhbCI7CmltcG9ydCB7CiAgYnVpbGRHYXRld2F5VW5tYXRjaGVkUm91dGVQYXRjaCwKICBub3JtYWxpemVHYXRld2F5VW5tYXRjaGVkUm91dGVCZWhhdmlvciwKICBub3JtYWxpemVHYXRld2F5VXBzdHJlYW1FcnJvckRldGFpbCwKfSBmcm9tICJAL2xpYi9nYXRld2F5VW5tYXRjaGVkUm91dGUiOwppbXBvcnQgeyB1c2VDb25maWdTdG9yZSB9IGZyb20gIkAvc3RvcmUvY29uZmlnIjsKaW1wb3J0IHR5cGUgeyBHYXRld2F5U2V0dGluZ3MgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsgREVGQVVMVF9SRVZFUlNFX1BST1hZX1RIUk9UVExFIH0gZnJvbSAiLi9nYXRld2F5U2V0dGluZ3NNb2RlbCI7CmltcG9ydCB7IHVzZUdhdGV3YXlTdWJkb21haW5FZGl0b3JBdmFpbGFiaWxpdHkgfSBmcm9tICIuL3VzZUdhdGV3YXlTdWJkb21haW5FZGl0b3JBdmFpbGFiaWxpdHkiOwoKdHlwZSBHYXRld2F5U2V0dGluZ3NGb3JtID0gUGljazwKICBHYXRld2F5U2V0dGluZ3MsCiAgfCAiYXV0aF9jYWNoZV90dGxfc2Vjb25kcyIKICB8ICJhdXRoX2NhY2hlX3VuYXV0aG9yaXplZF90dGxfc2Vjb25kcyIKICB8ICJwb3J0YWwiCiAgfCAidW5tYXRjaGVkX3JvdXRlIgogIHwgImNyYXdsZXJfYmxvY2tlciIKICB8ICJyZXZlcnNlX3Byb3h5X3Rocm90dGxlIgo+OwoKZXhwb3J0IGNvbnN0IHVzZUdhdGV3YXlTZXR0aW5nc0NvbnRyb2xsZXIgPSAoKSA9PiB7CiAgY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwogIGNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpOwogIGNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IHNldHRpbmdzID0gcmVmPEdhdGV3YXlTZXR0aW5ncyB8IG51bGw+KG51bGwpOwogIGNvbnN0IGZvcm0gPSByZWFjdGl2ZTxHYXRld2F5U2V0dGluZ3NGb3JtPih7CiAgICBhdXRoX2NhY2hlX3R0bF9zZWNvbmRzOiAxLAogICAgYXV0aF9jYWNoZV91bmF1dGhvcml6ZWRfdHRsX3NlY29uZHM6IDEsCiAgICBwb3J0YWw6IG5vcm1hbGl6ZUdhdGV3YXlQb3J0YWxDb25maWcoKSwKICAgIHVubWF0Y2hlZF9yb3V0ZTogewogICAgICBiZWhhdmlvcjogImVycm9yX3BhZ2UiLAogICAgICB1cHN0cmVhbV9lcnJvcl9kZXRhaWw6ICJsZXNzIiwKICAgIH0sCiAgICBjcmF3bGVyX2Jsb2NrZXI6IHsKICAgICAgZW5hYmxlZDogZmFsc2UsCiAgICAgIHVwZGF0ZWRfYXQ6IG51bGwsCiAgICB9LAogICAgcmV2ZXJzZV9wcm94eV90aHJvdHRsZTogeyAuLi5ERUZBVUxUX1JFVkVSU0VfUFJPWFlfVEhST1RUTEUgfSwKICB9KTsKCiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzTG9hZGluZywgcnVuOiBydW5Mb2FkU2V0dGluZ3MgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5nYXRld2F5U2V0dGluZ3MubG9hZEZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLmdhdGV3YXlTZXR0aW5ncy5sb2FkRmFpbGVkRGVzY3JpcHRpb24iKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CiAgY29uc3Qgc2hvd0xvYWRpbmdTa2VsZXRvbiA9IHVzZURlbGF5ZWRMb2FkaW5nKGlzTG9hZGluZyk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzU2F2aW5nLCBydW46IHJ1blNhdmVTZXR0aW5ncyB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmdhdGV3YXlTZXR0aW5ncy5zYXZlRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheVNldHRpbmdzLnNhdmVTZXR0aW5nc0ZhaWxlZERlc2NyaXB0aW9uIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwogIGNvbnN0IGlzR2F0ZXdheVNldHRpbmdzQnVzeSA9IGNvbXB1dGVkKCgpID0+IGlzU2F2aW5nLnZhbHVlKTsKCiAgY29uc3QgY2xhbXBDYWNoZVR0bCA9ICh2YWx1ZTogdW5rbm93bikgPT4KICAgIE1hdGgubWF4KDAsIE1hdGguZmxvb3IoTnVtYmVyKHZhbHVlKSB8fCAwKSk7CiAgY29uc3QgY2xhbXBQb3NpdGl2ZUludCA9ICh2YWx1ZTogdW5rbm93biwgZmFsbGJhY2sgPSAxKSA9PgogICAgTWF0aC5tYXgoMSwgTWF0aC5mbG9vcihOdW1iZXIodmFsdWUpIHx8IGZhbGxiYWNrKSk7CgogIGNvbnN0IGlzRGlydHkgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoIXNldHRpbmdzLnZhbHVlKSByZXR1cm4gZmFsc2U7CiAgICByZXR1cm4gKAogICAgICBzZXR0aW5ncy52YWx1ZS5hdXRoX2NhY2hlX3R0bF9zZWNvbmRzICE9PQogICAgICAgIE51bWJlcihmb3JtLmF1dGhfY2FjaGVfdHRsX3NlY29uZHMpIHx8CiAgICAgIHNldHRpbmdzLnZhbHVlLmF1dGhfY2FjaGVfdW5hdXRob3JpemVkX3R0bF9zZWNvbmRzICE9PQogICAgICAgIE51bWJlcihmb3JtLmF1dGhfY2FjaGVfdW5hdXRob3JpemVkX3R0bF9zZWNvbmRzKSB8fAogICAgICBzZXR0aW5ncy52YWx1ZS5yZXZlcnNlX3Byb3h5X3Rocm90dGxlLmVuYWJsZWQgIT09CiAgICAgICAgZm9ybS5yZXZlcnNlX3Byb3h5X3Rocm90dGxlLmVuYWJsZWQgfHwKICAgICAgc2V0dGluZ3MudmFsdWUucmV2ZXJzZV9wcm94eV90aHJvdHRsZS5yZXF1ZXN0c19wZXJfc2Vjb25kICE9PQogICAgICAgIE51bWJlcihmb3JtLnJldmVyc2VfcHJveHlfdGhyb3R0bGUucmVxdWVzdHNfcGVyX3NlY29uZCkgfHwKICAgICAgc2V0dGluZ3MudmFsdWUucmV2ZXJzZV9wcm94eV90aHJvdHRsZS5idXJzdCAhPT0KICAgICAgICBOdW1iZXIoZm9ybS5yZXZlcnNlX3Byb3h5X3Rocm90dGxlLmJ1cnN0KSB8fAogICAgICBzZXR0aW5ncy52YWx1ZS5yZXZlcnNlX3Byb3h5X3Rocm90dGxlLmJsb2NrX3NlY29uZHMgIT09CiAgICAgICAgTnVtYmVyKGZvcm0ucmV2ZXJzZV9wcm94eV90aHJvdHRsZS5ibG9ja19zZWNvbmRzKSB8fAogICAgICBzZXR0aW5ncy52YWx1ZS5jcmF3bGVyX2Jsb2NrZXIuZW5hYmxlZCAhPT0gZm9ybS5jcmF3bGVyX2Jsb2NrZXIuZW5hYmxlZCB8fAogICAgICBzZXR0aW5ncy52YWx1ZS51bm1hdGNoZWRfcm91dGUuYmVoYXZpb3IgIT09CiAgICAgICAgZm9ybS51bm1hdGNoZWRfcm91dGUuYmVoYXZpb3IgfHwKICAgICAgc2V0dGluZ3MudmFsdWUudW5tYXRjaGVkX3JvdXRlLnVwc3RyZWFtX2Vycm9yX2RldGFpbCAhPT0KICAgICAgICBmb3JtLnVubWF0Y2hlZF9yb3V0ZS51cHN0cmVhbV9lcnJvcl9kZXRhaWwKICAgICk7CiAgfSk7CgogIGNvbnN0IGF1dGhDYWNoZUhpbnQgPSBjb21wdXRlZCgoKSA9PgogICAgTnVtYmVyKGZvcm0uYXV0aF9jYWNoZV90dGxfc2Vjb25kcykgPT09IDAKICAgICAgPyB0KCJhZG1pbi5nYXRld2F5U2V0dGluZ3MuYXV0aENhY2hlRGlzYWJsZWQiKQogICAgICA6IHQoImFkbWluLmdhdGV3YXlTZXR0aW5ncy5hdXRoQ2FjaGVFbmFibGVkIiwgewogICAgICAgICAgc2Vjb25kczogY2xhbXBDYWNoZVR0bChmb3JtLmF1dGhfY2FjaGVfdHRsX3NlY29uZHMpLAogICAgICAgIH0pLAogICk7CiAgY29uc3QgYXV0aENhY2hlRmFpbEhpbnQgPSBjb21wdXRlZCgoKSA9PgogICAgTnVtYmVyKGZvcm0uYXV0aF9jYWNoZV91bmF1dGhvcml6ZWRfdHRsX3NlY29uZHMpID09PSAwCiAgICAgID8gdCgiYWRtaW4uZ2F0ZXdheVNldHRpbmdzLmF1dGhDYWNoZUZhaWxEaXNhYmxlZCIpCiAgICAgIDogdCgiYWRtaW4uZ2F0ZXdheVNldHRpbmdzLmF1dGhDYWNoZUZhaWxFbmFibGVkIiwgewogICAgICAgICAgc2Vjb25kczogY2xhbXBDYWNoZVR0bChmb3JtLmF1dGhfY2FjaGVfdW5hdXRob3JpemVkX3R0bF9zZWNvbmRzKSwKICAgICAgICB9KSwKICApOwoKICBjb25zdCB2aXNpYmlsaXR5U3VtbWFyeSA9IGNvbXB1dGVkKCgpID0+IHNldHRpbmdzLnZhbHVlPy52aXNpYmlsaXR5ID8/IG51bGwpOwogIGNvbnN0IHByb3h5UHJvdG9jb2xTdW1tYXJ5ID0gY29tcHV0ZWQoCiAgICAoKSA9PiBzZXR0aW5ncy52YWx1ZT8ucHJveHlfcHJvdG9jb2wgPz8gbnVsbCwKICApOwogIGNvbnN0IHBvcnRhbFN1bW1hcnkgPSBjb21wdXRlZCgoKSA9PiBzZXR0aW5ncy52YWx1ZT8ucG9ydGFsID8/IG51bGwpOwogIGNvbnN0IHBvcnRhbEVuYWJsZWRTdW1tYXJ5ID0gY29tcHV0ZWQoKCkgPT4KICAgIHBvcnRhbFN1bW1hcnkudmFsdWU/LmVuYWJsZWQgIT09IGZhbHNlCiAgICAgID8gdCgiYWRtaW4uZ2F0ZXdheVNldHRpbmdzLmVuYWJsZWQiKQogICAgICA6IHQoImFkbWluLmdhdGV3YXlTZXR0aW5ncy5kaXNhYmxlZCIpLAogICk7CiAgY29uc3QgcG9ydGFsRGlzcGxheVN1bW1hcnkgPSBjb21wdXRlZCgoKSA9PgogICAgcG9ydGFsU3VtbWFyeS52YWx1ZT8uZGlzcGxheV9zdHlsZSA9PT0gImRvbWFpbiIKICAgICAgPyB0KCJhZG1pbi5nYXRld2F5U2V0dGluZ3MucG9ydGFsRGlzcGxheURvbWFpbiIpCiAgICAgIDogdCgiYWRtaW4uZ2F0ZXdheVNldHRpbmdzLnBvcnRhbERpc3BsYXlUaXRsZSIpLAogICk7CiAgY29uc3QgcG9ydGFsSWNvblN1bW1hcnkgPSBjb21wdXRlZCgoKSA9PgogICAgcG9ydGFsU3VtbWFyeS52YWx1ZT8uc2hvd19hcHBfaWNvbiAhPT0gZmFsc2UKICAgICAgPyB0KCJhZG1pbi5nYXRld2F5U2V0dGluZ3MuZW5hYmxlZCIpCiAgICAgIDogdCgiYWRtaW4uZ2F0ZXdheVNldHRpbmdzLmRpc2FibGVkIiksCiAgKTsKICBjb25zdCBwb3J0YWxWZXJzaW9uU3VtbWFyeSA9IGNvbXB1dGVkKCgpID0+CiAgICBwb3J0YWxTdW1tYXJ5LnZhbHVlPy52ZXJzaW9uID09PSAidjIiCiAgICAgID8gdCgiYWRtaW4uZ2F0ZXdheVNldHRpbmdzLnBvcnRhbFZlcnNpb25WMiIpCiAgICAgIDogdCgiYWRtaW4uZ2F0ZXdheVNldHRpbmdzLnBvcnRhbFZlcnNpb25WMSIpLAogICk7CiAgY29uc3QgewogICAgaXNQcm94eUhlYWRlcnNBdmFpbGFibGUsCiAgICBwcm94eUhlYWRlcnNEaXNhYmxlZFJlYXNvbiwKICAgIGlzSG9zdFJlc3BvbnNlQXZhaWxhYmxlLAogICAgaG9zdFJlc3BvbnNlRGlzYWJsZWRSZWFzb24sCiAgfSA9IHVzZUdhdGV3YXlTdWJkb21haW5FZGl0b3JBdmFpbGFiaWxpdHkoKTsKCiAgY29uc3Qgb3BlblZpc2liaWxpdHlFZGl0b3IgPSAoKSA9PgogICAgdm9pZCByb3V0ZXIucHVzaCgiL3N5c3RlbS9nYXRld2F5LXZpc2liaWxpdHkiKTsKICBjb25zdCBvcGVuUG9ydGFsRWRpdG9yID0gKCkgPT4gdm9pZCByb3V0ZXIucHVzaCgiL3N5c3RlbS9nYXRld2F5LXBvcnRhbCIpOwogIGNvbnN0IG9wZW5Qcm94eUhlYWRlcnNFZGl0b3IgPSAoKSA9PiB7CiAgICBpZiAoaXNQcm94eUhlYWRlcnNBdmFpbGFibGUudmFsdWUpIHsKICAgICAgdm9pZCByb3V0ZXIucHVzaCgiL3N5c3RlbS9nYXRld2F5LXByb3h5LWhlYWRlcnMiKTsKICAgIH0KICB9OwogIGNvbnN0IG9wZW5Qcm94eVByb3RvY29sRWRpdG9yID0gKCkgPT4KICAgIHZvaWQgcm91dGVyLnB1c2goIi9zeXN0ZW0vZ2F0ZXdheS1wcm94eS1wcm90b2NvbCIpOwogIGNvbnN0IG9wZW5Ib3N0UmVzcG9uc2VFZGl0b3IgPSAoKSA9PiB7CiAgICBpZiAoaXNIb3N0UmVzcG9uc2VBdmFpbGFibGUudmFsdWUpIHsKICAgICAgdm9pZCByb3V0ZXIucHVzaCgiL3N5c3RlbS9nYXRld2F5LWhvc3QtcmVzcG9uc2UiKTsKICAgIH0KICB9OwogIGNvbnN0IGJ1aWxkU2V0dGluZ3NTbmFwc2hvdCA9IChkYXRhOiBHYXRld2F5U2V0dGluZ3MpOiBHYXRld2F5U2V0dGluZ3MgPT4gKHsKICAgIC4uLmRhdGEsCiAgICBwb3J0YWw6IG5vcm1hbGl6ZUdhdGV3YXlQb3J0YWxDb25maWcoZGF0YS5wb3J0YWwpLAogICAgY3Jhd2xlcl9ibG9ja2VyOiB7CiAgICAgIGVuYWJsZWQ6IGRhdGEuY3Jhd2xlcl9ibG9ja2VyPy5lbmFibGVkID09PSB0cnVlLAogICAgICB1cGRhdGVkX2F0OiBkYXRhLmNyYXdsZXJfYmxvY2tlcj8udXBkYXRlZF9hdCA/PyBudWxsLAogICAgfSwKICAgIHVubWF0Y2hlZF9yb3V0ZTogewogICAgICBiZWhhdmlvcjogbm9ybWFsaXplR2F0ZXdheVVubWF0Y2hlZFJvdXRlQmVoYXZpb3IoCiAgICAgICAgZGF0YS51bm1hdGNoZWRfcm91dGU/LmJlaGF2aW9yLAogICAgICApLAogICAgICB1cHN0cmVhbV9lcnJvcl9kZXRhaWw6IG5vcm1hbGl6ZUdhdGV3YXlVcHN0cmVhbUVycm9yRGV0YWlsKAogICAgICAgIGRhdGEudW5tYXRjaGVkX3JvdXRlPy51cHN0cmVhbV9lcnJvcl9kZXRhaWwsCiAgICAgICksCiAgICB9LAogICAgcmV2ZXJzZV9wcm94eV90aHJvdHRsZTogeyAuLi5kYXRhLnJldmVyc2VfcHJveHlfdGhyb3R0bGUgfSwKICB9KTsKCiAgY29uc3QgYXBwbHlGcm9tU2V0dGluZ3MgPSAoZGF0YTogR2F0ZXdheVNldHRpbmdzKSA9PiB7CiAgICBjb25zdCBzbmFwc2hvdCA9IGJ1aWxkU2V0dGluZ3NTbmFwc2hvdChkYXRhKTsKICAgIHNldHRpbmdzLnZhbHVlID0gc25hcHNob3Q7CiAgICBmb3JtLmF1dGhfY2FjaGVfdHRsX3NlY29uZHMgPSBkYXRhLmF1dGhfY2FjaGVfdHRsX3NlY29uZHM7CiAgICBmb3JtLmF1dGhfY2FjaGVfdW5hdXRob3JpemVkX3R0bF9zZWNvbmRzID0KICAgICAgZGF0YS5hdXRoX2NhY2hlX3VuYXV0aG9yaXplZF90dGxfc2Vjb25kczsKICAgIGZvcm0ucG9ydGFsLmVuYWJsZWQgPSBzbmFwc2hvdC5wb3J0YWwuZW5hYmxlZDsKICAgIGZvcm0ucG9ydGFsLmRpc3BsYXlfc3R5bGUgPSBzbmFwc2hvdC5wb3J0YWwuZGlzcGxheV9zdHlsZTsKICAgIGZvcm0ucG9ydGFsLnNob3dfYXBwX2ljb24gPSBzbmFwc2hvdC5wb3J0YWwuc2hvd19hcHBfaWNvbjsKICAgIGZvcm0ucG9ydGFsLmljb25fZHJhZ19tb2RlID0gc25hcHNob3QucG9ydGFsLmljb25fZHJhZ19tb2RlOwogICAgZm9ybS5wb3J0YWwudmVyc2lvbiA9IHNuYXBzaG90LnBvcnRhbC52ZXJzaW9uOwogICAgZm9ybS51bm1hdGNoZWRfcm91dGUuYmVoYXZpb3IgPSBzbmFwc2hvdC51bm1hdGNoZWRfcm91dGUuYmVoYXZpb3I7CiAgICBmb3JtLnVubWF0Y2hlZF9yb3V0ZS51cHN0cmVhbV9lcnJvcl9kZXRhaWwgPQogICAgICBzbmFwc2hvdC51bm1hdGNoZWRfcm91dGUudXBzdHJlYW1fZXJyb3JfZGV0YWlsOwogICAgZm9ybS5jcmF3bGVyX2Jsb2NrZXIuZW5hYmxlZCA9IHNuYXBzaG90LmNyYXdsZXJfYmxvY2tlci5lbmFibGVkOwogICAgZm9ybS5jcmF3bGVyX2Jsb2NrZXIudXBkYXRlZF9hdCA9IHNuYXBzaG90LmNyYXdsZXJfYmxvY2tlci51cGRhdGVkX2F0OwogICAgZm9ybS5yZXZlcnNlX3Byb3h5X3Rocm90dGxlLmVuYWJsZWQgPSBkYXRhLnJldmVyc2VfcHJveHlfdGhyb3R0bGUuZW5hYmxlZDsKICAgIGZvcm0ucmV2ZXJzZV9wcm94eV90aHJvdHRsZS5yZXF1ZXN0c19wZXJfc2Vjb25kID0KICAgICAgZGF0YS5yZXZlcnNlX3Byb3h5X3Rocm90dGxlLnJlcXVlc3RzX3Blcl9zZWNvbmQ7CiAgICBmb3JtLnJldmVyc2VfcHJveHlfdGhyb3R0bGUuYnVyc3QgPSBkYXRhLnJldmVyc2VfcHJveHlfdGhyb3R0bGUuYnVyc3Q7CiAgICBmb3JtLnJldmVyc2VfcHJveHlfdGhyb3R0bGUuYmxvY2tfc2Vjb25kcyA9CiAgICAgIGRhdGEucmV2ZXJzZV9wcm94eV90aHJvdHRsZS5ibG9ja19zZWNvbmRzOwogIH07CgogIGNvbnN0IGZldGNoU2V0dGluZ3MgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBydW5Mb2FkU2V0dGluZ3MoYXN5bmMgKCkgPT4gewogICAgICBhcHBseUZyb21TZXR0aW5ncyhhd2FpdCBDb25maWdBUEkuZ2V0R2F0ZXdheVNldHRpbmdzKCkpOwogICAgfSk7CiAgfTsKICBjb25zdCByZXNldEZvcm0gPSAoKSA9PiB7CiAgICBpZiAoc2V0dGluZ3MudmFsdWUpIGFwcGx5RnJvbVNldHRpbmdzKHNldHRpbmdzLnZhbHVlKTsKICB9OwogIGNvbnN0IHNhdmVTZXR0aW5ncyA9IGFzeW5jICgpID0+IHsKICAgIGF3YWl0IHJ1blNhdmVTZXR0aW5ncygKICAgICAgKCkgPT4KICAgICAgICBDb25maWdBUEkudXBkYXRlR2F0ZXdheVNldHRpbmdzKHsKICAgICAgICAgIGF1dGhfY2FjaGVfdHRsX3NlY29uZHM6IGNsYW1wQ2FjaGVUdGwoZm9ybS5hdXRoX2NhY2hlX3R0bF9zZWNvbmRzKSwKICAgICAgICAgIGF1dGhfY2FjaGVfdW5hdXRob3JpemVkX3R0bF9zZWNvbmRzOiBjbGFtcENhY2hlVHRsKAogICAgICAgICAgICBmb3JtLmF1dGhfY2FjaGVfdW5hdXRob3JpemVkX3R0bF9zZWNvbmRzLAogICAgICAgICAgKSwKICAgICAgICAgIHJldmVyc2VfcHJveHlfdGhyb3R0bGU6IHsKICAgICAgICAgICAgZW5hYmxlZDogZm9ybS5yZXZlcnNlX3Byb3h5X3Rocm90dGxlLmVuYWJsZWQsCiAgICAgICAgICAgIHJlcXVlc3RzX3Blcl9zZWNvbmQ6IGNsYW1wUG9zaXRpdmVJbnQoCiAgICAgICAgICAgICAgZm9ybS5yZXZlcnNlX3Byb3h5X3Rocm90dGxlLnJlcXVlc3RzX3Blcl9zZWNvbmQsCiAgICAgICAgICAgICAgREVGQVVMVF9SRVZFUlNFX1BST1hZX1RIUk9UVExFLnJlcXVlc3RzX3Blcl9zZWNvbmQsCiAgICAgICAgICAgICksCiAgICAgICAgICAgIGJ1cnN0OiBjbGFtcFBvc2l0aXZlSW50KAogICAgICAgICAgICAgIGZvcm0ucmV2ZXJzZV9wcm94eV90aHJvdHRsZS5idXJzdCwKICAgICAgICAgICAgICBERUZBVUxUX1JFVkVSU0VfUFJPWFlfVEhST1RUTEUuYnVyc3QsCiAgICAgICAgICAgICksCiAgICAgICAgICAgIGJsb2NrX3NlY29uZHM6IGNsYW1wUG9zaXRpdmVJbnQoCiAgICAgICAgICAgICAgZm9ybS5yZXZlcnNlX3Byb3h5X3Rocm90dGxlLmJsb2NrX3NlY29uZHMsCiAgICAgICAgICAgICAgREVGQVVMVF9SRVZFUlNFX1BST1hZX1RIUk9UVExFLmJsb2NrX3NlY29uZHMsCiAgICAgICAgICAgICksCiAgICAgICAgICB9LAogICAgICAgICAgY3Jhd2xlcl9ibG9ja2VyOiB7CiAgICAgICAgICAgIGVuYWJsZWQ6IGZvcm0uY3Jhd2xlcl9ibG9ja2VyLmVuYWJsZWQsCiAgICAgICAgICB9LAogICAgICAgICAgLi4uYnVpbGRHYXRld2F5VW5tYXRjaGVkUm91dGVQYXRjaCgKICAgICAgICAgICAgZm9ybS51bm1hdGNoZWRfcm91dGUuYmVoYXZpb3IsCiAgICAgICAgICAgIGZvcm0udW5tYXRjaGVkX3JvdXRlLnVwc3RyZWFtX2Vycm9yX2RldGFpbCwKICAgICAgICAgICksCiAgICAgICAgfSksCiAgICAgIHsKICAgICAgICBvblN1Y2Nlc3M6IGFzeW5jIChkYXRhKSA9PiB7CiAgICAgICAgICBhcHBseUZyb21TZXR0aW5ncyhkYXRhKTsKICAgICAgICAgIGF3YWl0IGNvbmZpZ1N0b3JlLmxvYWRDb25maWcoKTsKICAgICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uZ2F0ZXdheVNldHRpbmdzLnNldHRpbmdzVXBkYXRlZCIpKTsKICAgICAgICB9LAogICAgICB9LAogICAgKTsKICB9OwoKICBvbk1vdW50ZWQoZmV0Y2hTZXR0aW5ncyk7CgogIHJldHVybiB7CiAgICBhdXRoQ2FjaGVGYWlsSGludCwKICAgIGF1dGhDYWNoZUhpbnQsCiAgICBmb3JtLAogICAgaG9zdFJlc3BvbnNlRGlzYWJsZWRSZWFzb24sCiAgICBpc0RpcnR5LAogICAgaXNHYXRld2F5U2V0dGluZ3NCdXN5LAogICAgaXNIb3N0UmVzcG9uc2VBdmFpbGFibGUsCiAgICBpc0xvYWRpbmcsCiAgICBpc1Byb3h5SGVhZGVyc0F2YWlsYWJsZSwKICAgIGlzU2F2aW5nLAogICAgb3Blbkhvc3RSZXNwb25zZUVkaXRvciwKICAgIG9wZW5Qb3J0YWxFZGl0b3IsCiAgICBvcGVuUHJveHlIZWFkZXJzRWRpdG9yLAogICAgb3BlblByb3h5UHJvdG9jb2xFZGl0b3IsCiAgICBvcGVuVmlzaWJpbGl0eUVkaXRvciwKICAgIHBvcnRhbERpc3BsYXlTdW1tYXJ5LAogICAgcG9ydGFsRW5hYmxlZFN1bW1hcnksCiAgICBwb3J0YWxJY29uU3VtbWFyeSwKICAgIHBvcnRhbFN1bW1hcnksCiAgICBwb3J0YWxWZXJzaW9uU3VtbWFyeSwKICAgIHByb3h5SGVhZGVyc0Rpc2FibGVkUmVhc29uLAogICAgcHJveHlQcm90b2NvbFN1bW1hcnksCiAgICByZXNldEZvcm0sCiAgICBzYXZlU2V0dGluZ3MsCiAgICBzZXR0aW5ncywKICAgIHNob3dMb2FkaW5nU2tlbGV0b24sCiAgICB2aXNpYmlsaXR5U3VtbWFyeSwKICB9Owp9Owo=
+import { computed, onMounted, reactive, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRouter } from "vue-router";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import { toast } from "@admin-shared/utils/toast";
+import { ConfigAPI } from "@/lib/api/config";
+import { normalizeGatewayPortalConfig } from "@/lib/gatewayPortal";
+import {
+  buildGatewayUnmatchedRoutePatch,
+  normalizeGatewayUnmatchedRouteBehavior,
+  normalizeGatewayUpstreamErrorDetail,
+} from "@/lib/gatewayUnmatchedRoute";
+import { useConfigStore } from "@/store/config";
+import type { GatewaySettings } from "@/types";
+import { DEFAULT_REVERSE_PROXY_THROTTLE } from "./gatewaySettingsModel";
+import { useGatewaySubdomainEditorAvailability } from "./useGatewaySubdomainEditorAvailability";
+
+type GatewaySettingsForm = Pick<
+  GatewaySettings,
+  | "auth_cache_ttl_seconds"
+  | "auth_cache_unauthorized_ttl_seconds"
+  | "portal"
+  | "unmatched_route"
+  | "crawler_blocker"
+  | "reverse_proxy_throttle"
+>;
+
+export const useGatewaySettingsController = () => {
+  const configStore = useConfigStore();
+  const router = useRouter();
+  const { t } = useI18n();
+  const settings = ref<GatewaySettings | null>(null);
+  const form = reactive<GatewaySettingsForm>({
+    auth_cache_ttl_seconds: 1,
+    auth_cache_unauthorized_ttl_seconds: 1,
+    portal: normalizeGatewayPortalConfig(),
+    unmatched_route: {
+      behavior: "error_page",
+      upstream_error_detail: "less",
+    },
+    crawler_blocker: {
+      enabled: false,
+      updated_at: null,
+    },
+    reverse_proxy_throttle: { ...DEFAULT_REVERSE_PROXY_THROTTLE },
+  });
+
+  const { isPending: isLoading, run: runLoadSettings } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.gatewaySettings.loadFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.gatewaySettings.loadFailedDescription"),
+        ),
+      });
+    },
+  });
+  const showLoadingSkeleton = useDelayedLoading(isLoading);
+  const { isPending: isSaving, run: runSaveSettings } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.gatewaySettings.saveFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.gatewaySettings.saveSettingsFailedDescription"),
+        ),
+      });
+    },
+  });
+  const isGatewaySettingsBusy = computed(() => isSaving.value);
+
+  const clampCacheTtl = (value: unknown) =>
+    Math.max(0, Math.floor(Number(value) || 0));
+  const clampPositiveInt = (value: unknown, fallback = 1) =>
+    Math.max(1, Math.floor(Number(value) || fallback));
+
+  const isDirty = computed(() => {
+    if (!settings.value) return false;
+    return (
+      settings.value.auth_cache_ttl_seconds !==
+        Number(form.auth_cache_ttl_seconds) ||
+      settings.value.auth_cache_unauthorized_ttl_seconds !==
+        Number(form.auth_cache_unauthorized_ttl_seconds) ||
+      settings.value.reverse_proxy_throttle.enabled !==
+        form.reverse_proxy_throttle.enabled ||
+      settings.value.reverse_proxy_throttle.requests_per_second !==
+        Number(form.reverse_proxy_throttle.requests_per_second) ||
+      settings.value.reverse_proxy_throttle.burst !==
+        Number(form.reverse_proxy_throttle.burst) ||
+      settings.value.reverse_proxy_throttle.block_seconds !==
+        Number(form.reverse_proxy_throttle.block_seconds) ||
+      settings.value.crawler_blocker.enabled !== form.crawler_blocker.enabled ||
+      settings.value.unmatched_route.behavior !==
+        form.unmatched_route.behavior ||
+      settings.value.unmatched_route.upstream_error_detail !==
+        form.unmatched_route.upstream_error_detail
+    );
+  });
+
+  const authCacheHint = computed(() =>
+    Number(form.auth_cache_ttl_seconds) === 0
+      ? t("admin.gatewaySettings.authCacheDisabled")
+      : t("admin.gatewaySettings.authCacheEnabled", {
+          seconds: clampCacheTtl(form.auth_cache_ttl_seconds),
+        }),
+  );
+  const authCacheFailHint = computed(() =>
+    Number(form.auth_cache_unauthorized_ttl_seconds) === 0
+      ? t("admin.gatewaySettings.authCacheFailDisabled")
+      : t("admin.gatewaySettings.authCacheFailEnabled", {
+          seconds: clampCacheTtl(form.auth_cache_unauthorized_ttl_seconds),
+        }),
+  );
+
+  const visibilitySummary = computed(() => settings.value?.visibility ?? null);
+  const proxyProtocolSummary = computed(
+    () => settings.value?.proxy_protocol ?? null,
+  );
+  const portalSummary = computed(() => settings.value?.portal ?? null);
+  const portalEnabledSummary = computed(() =>
+    portalSummary.value?.enabled !== false
+      ? t("admin.gatewaySettings.enabled")
+      : t("admin.gatewaySettings.disabled"),
+  );
+  const portalDisplaySummary = computed(() =>
+    portalSummary.value?.display_style === "domain"
+      ? t("admin.gatewaySettings.portalDisplayDomain")
+      : t("admin.gatewaySettings.portalDisplayTitle"),
+  );
+  const portalIconSummary = computed(() =>
+    portalSummary.value?.show_app_icon !== false
+      ? t("admin.gatewaySettings.enabled")
+      : t("admin.gatewaySettings.disabled"),
+  );
+  const portalVersionSummary = computed(() =>
+    portalSummary.value?.version === "v2"
+      ? t("admin.gatewaySettings.portalVersionV2")
+      : t("admin.gatewaySettings.portalVersionV1"),
+  );
+  const {
+    isProxyHeadersAvailable,
+    proxyHeadersDisabledReason,
+    isHostResponseAvailable,
+    hostResponseDisabledReason,
+  } = useGatewaySubdomainEditorAvailability();
+
+  const openVisibilityEditor = () =>
+    void router.push("/system/gateway-visibility");
+  const openPortalEditor = () => void router.push("/system/gateway-portal");
+  const openProxyHeadersEditor = () => {
+    if (isProxyHeadersAvailable.value) {
+      void router.push("/system/gateway-proxy-headers");
+    }
+  };
+  const openProxyProtocolEditor = () =>
+    void router.push("/system/gateway-proxy-protocol");
+  const openHostResponseEditor = () => {
+    if (isHostResponseAvailable.value) {
+      void router.push("/system/gateway-host-response");
+    }
+  };
+  const buildSettingsSnapshot = (data: GatewaySettings): GatewaySettings => ({
+    ...data,
+    portal: normalizeGatewayPortalConfig(data.portal),
+    crawler_blocker: {
+      enabled: data.crawler_blocker?.enabled === true,
+      updated_at: data.crawler_blocker?.updated_at ?? null,
+    },
+    unmatched_route: {
+      behavior: normalizeGatewayUnmatchedRouteBehavior(
+        data.unmatched_route?.behavior,
+      ),
+      upstream_error_detail: normalizeGatewayUpstreamErrorDetail(
+        data.unmatched_route?.upstream_error_detail,
+      ),
+    },
+    reverse_proxy_throttle: { ...data.reverse_proxy_throttle },
+  });
+
+  const applyFromSettings = (data: GatewaySettings) => {
+    const snapshot = buildSettingsSnapshot(data);
+    settings.value = snapshot;
+    form.auth_cache_ttl_seconds = data.auth_cache_ttl_seconds;
+    form.auth_cache_unauthorized_ttl_seconds =
+      data.auth_cache_unauthorized_ttl_seconds;
+    form.portal.enabled = snapshot.portal.enabled;
+    form.portal.display_style = snapshot.portal.display_style;
+    form.portal.show_app_icon = snapshot.portal.show_app_icon;
+    form.portal.icon_drag_mode = snapshot.portal.icon_drag_mode;
+    form.portal.version = snapshot.portal.version;
+    form.unmatched_route.behavior = snapshot.unmatched_route.behavior;
+    form.unmatched_route.upstream_error_detail =
+      snapshot.unmatched_route.upstream_error_detail;
+    form.crawler_blocker.enabled = snapshot.crawler_blocker.enabled;
+    form.crawler_blocker.updated_at = snapshot.crawler_blocker.updated_at;
+    form.reverse_proxy_throttle.enabled = data.reverse_proxy_throttle.enabled;
+    form.reverse_proxy_throttle.requests_per_second =
+      data.reverse_proxy_throttle.requests_per_second;
+    form.reverse_proxy_throttle.burst = data.reverse_proxy_throttle.burst;
+    form.reverse_proxy_throttle.block_seconds =
+      data.reverse_proxy_throttle.block_seconds;
+  };
+
+  const fetchSettings = async () => {
+    await runLoadSettings(async () => {
+      applyFromSettings(await ConfigAPI.getGatewaySettings());
+    });
+  };
+  const resetForm = () => {
+    if (settings.value) applyFromSettings(settings.value);
+  };
+  const saveSettings = async () => {
+    await runSaveSettings(
+      () =>
+        ConfigAPI.updateGatewaySettings({
+          auth_cache_ttl_seconds: clampCacheTtl(form.auth_cache_ttl_seconds),
+          auth_cache_unauthorized_ttl_seconds: clampCacheTtl(
+            form.auth_cache_unauthorized_ttl_seconds,
+          ),
+          reverse_proxy_throttle: {
+            enabled: form.reverse_proxy_throttle.enabled,
+            requests_per_second: clampPositiveInt(
+              form.reverse_proxy_throttle.requests_per_second,
+              DEFAULT_REVERSE_PROXY_THROTTLE.requests_per_second,
+            ),
+            burst: clampPositiveInt(
+              form.reverse_proxy_throttle.burst,
+              DEFAULT_REVERSE_PROXY_THROTTLE.burst,
+            ),
+            block_seconds: clampPositiveInt(
+              form.reverse_proxy_throttle.block_seconds,
+              DEFAULT_REVERSE_PROXY_THROTTLE.block_seconds,
+            ),
+          },
+          crawler_blocker: {
+            enabled: form.crawler_blocker.enabled,
+          },
+          ...buildGatewayUnmatchedRoutePatch(
+            form.unmatched_route.behavior,
+            form.unmatched_route.upstream_error_detail,
+          ),
+        }),
+      {
+        onSuccess: async (data) => {
+          applyFromSettings(data);
+          await configStore.loadConfig();
+          toast.success(t("admin.gatewaySettings.settingsUpdated"));
+        },
+      },
+    );
+  };
+
+  onMounted(fetchSettings);
+
+  return {
+    authCacheFailHint,
+    authCacheHint,
+    form,
+    hostResponseDisabledReason,
+    isDirty,
+    isGatewaySettingsBusy,
+    isHostResponseAvailable,
+    isLoading,
+    isProxyHeadersAvailable,
+    isSaving,
+    openHostResponseEditor,
+    openPortalEditor,
+    openProxyHeadersEditor,
+    openProxyProtocolEditor,
+    openVisibilityEditor,
+    portalDisplaySummary,
+    portalEnabledSummary,
+    portalIconSummary,
+    portalSummary,
+    portalVersionSummary,
+    proxyHeadersDisabledReason,
+    proxyProtocolSummary,
+    resetForm,
+    saveSettings,
+    settings,
+    showLoadingSkeleton,
+    visibilitySummary,
+  };
+};

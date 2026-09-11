@@ -1,1 +1,10 @@
-I1tjZmcod2luZG93cyldCmZuIG1haW4oKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgc2VydmVyX2FkbWluX3JzOjp3aW5kb3dzX3NlcnZpY2U6OmNvbW1hbmRfbWFpbigpCn0KCiNbY2ZnKG5vdCh3aW5kb3dzKSldCmZuIG1haW4oKSB7CiAgICBlcHJpbnRsbiEoImZuLWtub2NrLXNlcnZpY2UgaXMgb25seSBhdmFpbGFibGUgb24gV2luZG93cyIpOwogICAgc3RkOjpwcm9jZXNzOjpleGl0KDEpOwp9Cg==
+#[cfg(windows)]
+fn main() -> anyhow::Result<()> {
+    server_admin_rs::windows_service::command_main()
+}
+
+#[cfg(not(windows))]
+fn main() {
+    eprintln!("fn-knock-service is only available on Windows");
+    std::process::exit(1);
+}

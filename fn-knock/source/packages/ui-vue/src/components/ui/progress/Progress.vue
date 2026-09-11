@@ -1,1 +1,38 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUHJvZ3Jlc3NSb290UHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyByZWFjdGl2ZU9taXQgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7CiAgUHJvZ3Jlc3NJbmRpY2F0b3IsCiAgUHJvZ3Jlc3NSb290LAp9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cygKICBkZWZpbmVQcm9wczxQcm9ncmVzc1Jvb3RQcm9wcyAmIHsgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXSB9PigpLAogIHsKICAgIG1vZGVsVmFsdWU6IDAsCiAgfSwKKQoKY29uc3QgZGVsZWdhdGVkUHJvcHMgPSByZWFjdGl2ZU9taXQocHJvcHMsICJjbGFzcyIpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxQcm9ncmVzc1Jvb3QKICAgIGRhdGEtc2xvdD0icHJvZ3Jlc3MiCiAgICB2LWJpbmQ9ImRlbGVnYXRlZFByb3BzIgogICAgOmNsYXNzPSIKICAgICAgY24oCiAgICAgICAgJ2JnLXByaW1hcnkvMjAgcmVsYXRpdmUgaC0yIHctZnVsbCBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1mdWxsJywKICAgICAgICBwcm9wcy5jbGFzcywKICAgICAgKQogICAgIgogID4KICAgIDxQcm9ncmVzc0luZGljYXRvcgogICAgICBkYXRhLXNsb3Q9InByb2dyZXNzLWluZGljYXRvciIKICAgICAgY2xhc3M9ImJnLXByaW1hcnkgaC1mdWxsIHctZnVsbCBmbGV4LTEgdHJhbnNpdGlvbi1hbGwiCiAgICAgIDpzdHlsZT0iYHRyYW5zZm9ybTogdHJhbnNsYXRlWCgtJHsxMDAgLSAocHJvcHMubW9kZWxWYWx1ZSA/PyAwKX0lKTtgIgogICAgLz4KICA8L1Byb2dyZXNzUm9vdD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { ProgressRootProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import {
+  ProgressIndicator,
+  ProgressRoot,
+} from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = withDefaults(
+  defineProps<ProgressRootProps & { class?: HTMLAttributes["class"] }>(),
+  {
+    modelValue: 0,
+  },
+)
+
+const delegatedProps = reactiveOmit(props, "class")
+</script>
+
+<template>
+  <ProgressRoot
+    data-slot="progress"
+    v-bind="delegatedProps"
+    :class="
+      cn(
+        'bg-primary/20 relative h-2 w-full overflow-hidden rounded-full',
+        props.class,
+      )
+    "
+  >
+    <ProgressIndicator
+      data-slot="progress-indicator"
+      class="bg-primary h-full w-full flex-1 transition-all"
+      :style="`transform: translateX(-${100 - (props.modelValue ?? 0)}%);`"
+    />
+  </ProgressRoot>
+</template>

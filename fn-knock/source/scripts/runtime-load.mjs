@@ -1,1 +1,277 @@
-aW1wb3J0IHsgbW9uaXRvckV2ZW50TG9vcERlbGF5IH0gZnJvbSAibm9kZTpwZXJmX2hvb2tzIjsKaW1wb3J0IHsgc2V0VGltZW91dCBhcyBkZWxheSB9IGZyb20gIm5vZGU6dGltZXJzL3Byb21pc2VzIjsKaW1wb3J0IHsgV29ya2VyIH0gZnJvbSAibm9kZTp3b3JrZXJfdGhyZWFkcyI7CgovLyBBIGNvbGxlY3RvciBtYXkgZmFpbCB0byBob25vciBjYW5jZWxsYXRpb24uIFJhY2UgaXQgYWdhaW5zdCBvdXIgb3duIGJvdW5kLAovLyB3aGlsZSBwYXNzaW5nIHRoZSBzYW1lIGNhbmNlbGxhdGlvbiB0byBjb29wZXJhdGl2ZSBJL08gc28gaXQgY2FuIGNsZWFuIHVwLgpleHBvcnQgY29uc3QgY29sbGVjdExvYWRTYW1wbGUgPSBhc3luYyAoCiAgY29sbGVjdCwKICBzaWduYWwsCiAga2luZCwKICB0aW1lb3V0TXMgPSAzXzAwMCwKKSA9PiB7CiAgc2lnbmFsLnRocm93SWZBYm9ydGVkKCk7CiAgY29uc3QgY29udHJvbGxlciA9IG5ldyBBYm9ydENvbnRyb2xsZXIoKTsKICBjb25zdCBvblN0b3AgPSAoKSA9PiBjb250cm9sbGVyLmFib3J0KHNpZ25hbC5yZWFzb24pOwogIGxldCByZWplY3RDYW5jZWxsYXRpb247CiAgY29uc3QgY2FuY2VsbGVkID0gbmV3IFByb21pc2UoKF8sIHJlamVjdCkgPT4gewogICAgcmVqZWN0Q2FuY2VsbGF0aW9uID0gcmVqZWN0OwogIH0pOwogIGNvbnN0IG9uQWJvcnQgPSAoKSA9PiByZWplY3RDYW5jZWxsYXRpb24oY29udHJvbGxlci5zaWduYWwucmVhc29uKTsKICBjb250cm9sbGVyLnNpZ25hbC5hZGRFdmVudExpc3RlbmVyKCJhYm9ydCIsIG9uQWJvcnQsIHsgb25jZTogdHJ1ZSB9KTsKICBzaWduYWwuYWRkRXZlbnRMaXN0ZW5lcigiYWJvcnQiLCBvblN0b3AsIHsgb25jZTogdHJ1ZSB9KTsKICBjb25zdCB0aW1lciA9IHNldFRpbWVvdXQoCiAgICAoKSA9PgogICAgICBjb250cm9sbGVyLmFib3J0KAogICAgICAgIG5ldyBFcnJvcihgJHtraW5kfSBzYW1wbGVyIGV4Y2VlZGVkICR7dGltZW91dE1zfSBtcyBkZWFkbGluZWApLAogICAgICApLAogICAgdGltZW91dE1zLAogICk7CiAgdHJ5IHsKICAgIHJldHVybiBhd2FpdCBQcm9taXNlLnJhY2UoWwogICAgICBQcm9taXNlLnJlc29sdmUoKS50aGVuKCgpID0+IHsKICAgICAgICBjb250cm9sbGVyLnNpZ25hbC50aHJvd0lmQWJvcnRlZCgpOwogICAgICAgIHJldHVybiBjb2xsZWN0KGNvbnRyb2xsZXIuc2lnbmFsKTsKICAgICAgfSksCiAgICAgIGNhbmNlbGxlZCwKICAgIF0pOwogIH0gZmluYWxseSB7CiAgICBjbGVhclRpbWVvdXQodGltZXIpOwogICAgc2lnbmFsLnJlbW92ZUV2ZW50TGlzdGVuZXIoImFib3J0Iiwgb25TdG9wKTsKICAgIGNvbnRyb2xsZXIuc2lnbmFsLnJlbW92ZUV2ZW50TGlzdGVuZXIoImFib3J0Iiwgb25BYm9ydCk7CiAgfQp9OwoKZXhwb3J0IGNvbnN0IG1heENoZWNrcG9pbnQgPSAoc2FtcGxlcykgPT4gewogIGNvbnN0IGZpZWxkcyA9IG5ldyBTZXQoc2FtcGxlcy5mbGF0TWFwKChzYW1wbGUpID0+IE9iamVjdC5rZXlzKHNhbXBsZSkpKTsKICBjb25zdCByZXN1bHQgPSB7IGNhcHR1cmVkX2F0OiBzYW1wbGVzLmF0KC0xKT8uY2FwdHVyZWRfYXQgPz8gbnVsbCB9OwogIGZvciAoY29uc3QgZmllbGQgb2YgZmllbGRzKSB7CiAgICBpZiAoZmllbGQgPT09ICJjYXB0dXJlZF9hdCIpIGNvbnRpbnVlOwogICAgY29uc3QgdmFsdWVzID0gc2FtcGxlcwogICAgICAubWFwKChzYW1wbGUpID0+IHNhbXBsZVtmaWVsZF0pCiAgICAgIC5maWx0ZXIoTnVtYmVyLmlzRmluaXRlKTsKICAgIHJlc3VsdFtmaWVsZF0gPSB2YWx1ZXMubGVuZ3RoID4gMCA/IE1hdGgubWF4KC4uLnZhbHVlcykgOiBudWxsOwogIH0KICByZXR1cm4gcmVzdWx0Owp9OwoKZXhwb3J0IGNvbnN0IGFzc2Vzc1NhbXBsaW5nUXVhbGl0eSA9ICh7IGR1cmF0aW9uTXMsIHJlc3VsdCwgbWVtb3J5VGltZXMgfSkgPT4gewogIGNvbnN0IGdhcHMgPSBtZW1vcnlUaW1lcy5sZW5ndGgKICAgID8gWwogICAgICAgIG1lbW9yeVRpbWVzWzBdLAogICAgICAgIC4uLm1lbW9yeVRpbWVzLnNsaWNlKDEpLm1hcCgodGltZSwgaW5kZXgpID0+IHRpbWUgLSBtZW1vcnlUaW1lc1tpbmRleF0pLAogICAgICAgIE1hdGgubWF4KDAsIHJlc3VsdC5lbGFwc2VkX21zIC0gbWVtb3J5VGltZXMuYXQoLTEpKSwKICAgICAgXQogICAgOiBbcmVzdWx0LmVsYXBzZWRfbXNdOwogIGNvbnN0IHF1YWxpdHkgPSB7CiAgICBtYXhfYWxsb3dlZF9nYXBfbXM6IDUwMCwKICAgIG1heF9nYXBfbXM6IE1hdGgubWF4KC4uLmdhcHMpLAogICAgc2FtcGxlX2NvdW50OiBtZW1vcnlUaW1lcy5sZW5ndGgsCiAgICBtaW5pbXVtX3NhbXBsZXM6IE1hdGgubWF4KDEsIE1hdGguZmxvb3IoZHVyYXRpb25NcyAvIDIwMCkpLAogICAgZHVyYXRpb25fb3ZlcnJ1bl9tczogcmVzdWx0LmVsYXBzZWRfbXMgLSBkdXJhdGlvbk1zLAogICAgbWF4X2FsbG93ZWRfb3ZlcnJ1bl9tczogTWF0aC5tYXgoMjUwLCBkdXJhdGlvbk1zICogMC4wNSksCiAgICBjbGllbnRfc3RhcnRfZGVsYXlfbXM6IHJlc3VsdC5jbGllbnRfc3RhcnRfZGVsYXlfbXMsCiAgfTsKICBxdWFsaXR5LnBhc3NlZCA9CiAgICByZXN1bHQuZWxhcHNlZF9tcyA+PSBkdXJhdGlvbk1zICYmCiAgICBxdWFsaXR5LmR1cmF0aW9uX292ZXJydW5fbXMgPD0gcXVhbGl0eS5tYXhfYWxsb3dlZF9vdmVycnVuX21zICYmCiAgICBxdWFsaXR5Lm1heF9nYXBfbXMgPD0gcXVhbGl0eS5tYXhfYWxsb3dlZF9nYXBfbXMgJiYKICAgIHF1YWxpdHkuc2FtcGxlX2NvdW50ID49IHF1YWxpdHkubWluaW11bV9zYW1wbGVzICYmCiAgICBxdWFsaXR5LmNsaWVudF9zdGFydF9kZWxheV9tcyA+PSAwICYmCiAgICBxdWFsaXR5LmNsaWVudF9zdGFydF9kZWxheV9tcyA8PSAxMDA7CiAgcmV0dXJuIHF1YWxpdHk7Cn07CgpleHBvcnQgY29uc3QgcnVuTG9hZFNjZW5hcmlvID0gYXN5bmMgKHsKICBjb2xsZWN0Q2hlY2twb2ludCwKICBjb2xsZWN0TWVtb3J5U2FtcGxlLAogIGNvbmN1cnJlbmN5LAogIGR1cmF0aW9uTXMsCiAgZXhwZWN0ZWRSZXNwb25zZUJ5dGVzLAogIHJlc3BvbnNlVmFsaWRhdGlvbiwKICBuYW1lLAogIHVybCwKfSkgPT4gewogIGlmICgKICAgICFOdW1iZXIuaXNJbnRlZ2VyKGNvbmN1cnJlbmN5KSB8fAogICAgY29uY3VycmVuY3kgPCAxIHx8CiAgICBjb25jdXJyZW5jeSA+IDEyOCB8fAogICAgIU51bWJlci5pc0ludGVnZXIoZHVyYXRpb25NcykgfHwKICAgIGR1cmF0aW9uTXMgPCAxIHx8CiAgICBkdXJhdGlvbk1zID4gMzAwXzAwMCB8fAogICAgKHJlc3BvbnNlVmFsaWRhdGlvbiAhPT0gdW5kZWZpbmVkICYmIHJlc3BvbnNlVmFsaWRhdGlvbiAhPT0gImxvY2FsZSIpIHx8CiAgICAoZXhwZWN0ZWRSZXNwb25zZUJ5dGVzID09PSB1bmRlZmluZWQgJiYgcmVzcG9uc2VWYWxpZGF0aW9uID09PSB1bmRlZmluZWQpIHx8CiAgICAoZXhwZWN0ZWRSZXNwb25zZUJ5dGVzICE9PSB1bmRlZmluZWQgJiYKICAgICAgKCFOdW1iZXIuaXNTYWZlSW50ZWdlcihleHBlY3RlZFJlc3BvbnNlQnl0ZXMpIHx8CiAgICAgICAgZXhwZWN0ZWRSZXNwb25zZUJ5dGVzIDwgMCkpCiAgKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoImludmFsaWQgcnVudGltZSBsb2FkIHBhcmFtZXRlcnMiKTsKICB9CiAgY29uc3Qgd29ya2VyID0gbmV3IFdvcmtlcigKICAgIG5ldyBVUkwoIi4vcnVudGltZS1sb2FkLXdvcmtlci5tanMiLCBpbXBvcnQubWV0YS51cmwpLAogICAgewogICAgICB3b3JrZXJEYXRhOiB7CiAgICAgICAgY29uY3VycmVuY3ksCiAgICAgICAgZXhwZWN0ZWRSZXNwb25zZUJ5dGVzLAogICAgICAgIHJlc3BvbnNlVmFsaWRhdGlvbiwKICAgICAgICBuYW1lLAogICAgICAgIHVybCwKICAgICAgfSwKICAgIH0sCiAgKTsKICBsZXQgcmVhZHlSZXNvbHZlOwogIGxldCByZWFkeVJlamVjdDsKICBsZXQgZG9uZVJlc29sdmU7CiAgbGV0IGRvbmVSZWplY3Q7CiAgbGV0IGNvbXBsZXRlZCA9IGZhbHNlOwogIGNvbnN0IHJlYWR5ID0gbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgcmVhZHlSZXNvbHZlID0gcmVzb2x2ZTsKICAgIHJlYWR5UmVqZWN0ID0gcmVqZWN0OwogIH0pOwogIGNvbnN0IGRvbmUgPSBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICBkb25lUmVzb2x2ZSA9IHJlc29sdmU7CiAgICBkb25lUmVqZWN0ID0gcmVqZWN0OwogIH0pOwogIHJlYWR5LmNhdGNoKCgpID0+IHt9KTsKICBkb25lLmNhdGNoKCgpID0+IHt9KTsKICBjb25zdCBmYWlsID0gKGVycm9yKSA9PiB7CiAgICByZWFkeVJlamVjdChlcnJvcik7CiAgICBkb25lUmVqZWN0KGVycm9yKTsKICB9OwogIHdvcmtlci5vbigiZXJyb3IiLCBmYWlsKTsKICB3b3JrZXIub24oImV4aXQiLCAoY29kZSkgPT4gewogICAgaWYgKCFjb21wbGV0ZWQpCiAgICAgIGZhaWwobmV3IEVycm9yKGBydW50aW1lIGxvYWQgd29ya2VyIGV4aXRlZCBiZWZvcmUgY29tcGxldGlvbjogJHtjb2RlfWApKTsKICB9KTsKICB3b3JrZXIub24oIm1lc3NhZ2UiLCAobWVzc2FnZSkgPT4gewogICAgaWYgKG1lc3NhZ2UudHlwZSA9PT0gInJlYWR5IikgcmVhZHlSZXNvbHZlKCk7CiAgICBlbHNlIGlmIChtZXNzYWdlLnR5cGUgPT09ICJmYWlsZWQiKSB7CiAgICAgIGNvbnN0IGVycm9yID0gbmV3IEVycm9yKG1lc3NhZ2UuZXJyb3IpOwogICAgICBlcnJvci5tZWFzdXJlbWVudCA9IG1lc3NhZ2UucmVzdWx0OwogICAgICBmYWlsKGVycm9yKTsKICAgIH0gZWxzZSBpZiAobWVzc2FnZS50eXBlID09PSAiY29tcGxldGVkIikgewogICAgICBjb21wbGV0ZWQgPSB0cnVlOwogICAgICBkb25lUmVzb2x2ZShtZXNzYWdlLnJlc3VsdCk7CiAgICB9CiAgfSk7CiAgY29uc3Qgc3RhcnR1cFRpbWVvdXQgPSBzZXRUaW1lb3V0KAogICAgKCkgPT4gZmFpbChuZXcgRXJyb3IoInJ1bnRpbWUgbG9hZCB3b3JrZXIgc3RhcnR1cCB0aW1lZCBvdXQiKSksCiAgICAxMF8wMDAsCiAgKTsKICB0cnkgewogICAgYXdhaXQgcmVhZHk7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGF3YWl0IHdvcmtlci50ZXJtaW5hdGUoKTsKICAgIHRocm93IGVycm9yOwogIH0gZmluYWxseSB7CiAgICBjbGVhclRpbWVvdXQoc3RhcnR1cFRpbWVvdXQpOwogIH0KCiAgLy8gU2FtcGxpbmcgYW5kIHRoZSB1cHN0cmVhbSBmaXh0dXJlIHNlcnZlciByZW1haW4gb24gdGhlIGNvb3JkaW5hdG9yLiBBCiAgLy8gaGlnaC10aHJvdWdocHV0IHJlcXVlc3QgbG9vcCBtdXN0IG5vdCBzdGFydmUgcHMgc3Rkb3V0IG9yIGl0cyBkZWFkbGluZS4KICBjb25zdCBzdGFydGVkQXQgPSBwZXJmb3JtYW5jZS50aW1lT3JpZ2luICsgcGVyZm9ybWFuY2Uubm93KCk7CiAgY29uc3QgZWxhcHNlZCA9ICgpID0+IHBlcmZvcm1hbmNlLnRpbWVPcmlnaW4gKyBwZXJmb3JtYW5jZS5ub3coKSAtIHN0YXJ0ZWRBdDsKICBjb25zdCBsb29wRGVsYXkgPSBtb25pdG9yRXZlbnRMb29wRGVsYXkoeyByZXNvbHV0aW9uOiAxMCB9KTsKICBsb29wRGVsYXkuZW5hYmxlKCk7CiAgY29uc3Qgc2FtcGxlcyA9IFtdOwogIGNvbnN0IHNhbXBsaW5nQWJvcnQgPSBuZXcgQWJvcnRDb250cm9sbGVyKCk7CiAgbGV0IHNhbXBsaW5nID0gdHJ1ZTsKICBsZXQgc2FtcGxpbmdFcnJvcjsKICBjb25zdCBzYW1wbGUgPSAoY29sbGVjdCwgaW50ZXJ2YWwsIGtpbmQpID0+CiAgICAoYXN5bmMgKCkgPT4gewogICAgICB3aGlsZSAoc2FtcGxpbmcpIHsKICAgICAgICBjb25zdCBzdGFydGVkID0gZWxhcHNlZCgpOwogICAgICAgIGNvbnN0IGNoZWNrcG9pbnQgPSBhd2FpdCBjb2xsZWN0TG9hZFNhbXBsZSgKICAgICAgICAgIGNvbGxlY3QsCiAgICAgICAgICBzYW1wbGluZ0Fib3J0LnNpZ25hbCwKICAgICAgICAgIGtpbmQsCiAgICAgICAgKTsKICAgICAgICBpZiAoIXNhbXBsaW5nKSByZXR1cm47CiAgICAgICAgaWYgKAogICAgICAgICAga2luZCA9PT0gInByb2Nlc3NfbWVtb3J5IiAmJgogICAgICAgICAgISgKICAgICAgICAgICAgTnVtYmVyLmlzRmluaXRlKGNoZWNrcG9pbnQ/Lm1hbmFnZW1lbnRfcnNzX2J5dGVzKSAmJgogICAgICAgICAgICBjaGVja3BvaW50Lm1hbmFnZW1lbnRfcnNzX2J5dGVzID49IDAKICAgICAgICAgICkKICAgICAgICApIHsKICAgICAgICAgIHRocm93IG5ldyBFcnJvcigicnVudGltZSBtZW1vcnkgc2FtcGxlciByZXR1cm5lZCBubyB2YWxpZCBSdXN0IFJTUyIpOwogICAgICAgIH0KICAgICAgICBzYW1wbGVzLnB1c2goewogICAgICAgICAga2luZCwKICAgICAgICAgIGVsYXBzZWRfbXM6IGVsYXBzZWQoKSwKICAgICAgICAgIGNvbGxlY3Rpb25fbXM6IGVsYXBzZWQoKSAtIHN0YXJ0ZWQsCiAgICAgICAgICBjaGVja3BvaW50LAogICAgICAgIH0pOwogICAgICAgIGF3YWl0IGRlbGF5KGludGVydmFsLCB1bmRlZmluZWQsIHsgc2lnbmFsOiBzYW1wbGluZ0Fib3J0LnNpZ25hbCB9KTsKICAgICAgfQogICAgfSkoKS5jYXRjaCgoZXJyb3IpID0+IHsKICAgICAgLy8gQ29tcGxldGluZyB0aGUgbG9hZCBjYW5jZWxzIHRoZSBsYXN0IGNvbGxlY3Rpb24gYW5kIGludGVydmFsIHdhaXQuCiAgICAgIC8vIEZhaWx1cmVzIG9ic2VydmVkIHdoaWxlIHRoZSBsb2FkIGlzIGFjdGl2ZSBzdGlsbCBpbnZhbGlkYXRlIHRoZSBydW4uCiAgICAgIGlmICghc2FtcGxpbmcgJiYgc2FtcGxpbmdBYm9ydC5zaWduYWwuYWJvcnRlZCkgcmV0dXJuOwogICAgICBzYW1wbGluZ0Vycm9yID8/PSBlcnJvcjsKICAgICAgc2FtcGxpbmcgPSBmYWxzZTsKICAgICAgc2FtcGxpbmdBYm9ydC5hYm9ydChlcnJvcik7CiAgICAgIHdvcmtlci5wb3N0TWVzc2FnZSh7IHR5cGU6ICJjYW5jZWwiLCByZWFzb246IGVycm9yLm1lc3NhZ2UgfSk7CiAgICB9KTsKICBjb25zdCBzYW1wbGVycyA9IFsKICAgIHNhbXBsZShjb2xsZWN0Q2hlY2twb2ludCwgNTAwLCAicnVudGltZV9jaGVja3BvaW50IiksCiAgICBzYW1wbGUoY29sbGVjdE1lbW9yeVNhbXBsZSwgMTAwLCAicHJvY2Vzc19tZW1vcnkiKSwKICBdOwogIGNvbnN0IHRpbWVvdXQgPSBzZXRUaW1lb3V0KAogICAgKCkgPT4gZmFpbChuZXcgRXJyb3IoInJ1bnRpbWUgbG9hZCBleGNlZWRlZCBpdHMgYm91bmRlZCBydW50aW1lIikpLAogICAgZHVyYXRpb25NcyArIDE1XzAwMCwKICApOwogIGxldCByZXN1bHQ7CiAgbGV0IGZhaWx1cmU7CiAgdHJ5IHsKICAgIHdvcmtlci5wb3N0TWVzc2FnZSh7IHR5cGU6ICJzdGFydCIsIHN0YXJ0ZWRBdCwgZHVyYXRpb25NcyB9KTsKICAgIHJlc3VsdCA9IGF3YWl0IGRvbmU7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGZhaWx1cmUgPSBzYW1wbGluZ0Vycm9yID8/IGVycm9yOwogIH0gZmluYWxseSB7CiAgICBjbGVhclRpbWVvdXQodGltZW91dCk7CiAgICBzYW1wbGluZyA9IGZhbHNlOwogICAgc2FtcGxpbmdBYm9ydC5hYm9ydChuZXcgRXJyb3IoInJ1bnRpbWUgbG9hZCBzYW1wbGluZyBjb21wbGV0ZWQiKSk7CiAgICBhd2FpdCB3b3JrZXIudGVybWluYXRlKCk7CiAgICBhd2FpdCBQcm9taXNlLmFsbChzYW1wbGVycyk7CiAgICBsb29wRGVsYXkuZGlzYWJsZSgpOwogIH0KICBpZiAoZmFpbHVyZSB8fCBzYW1wbGluZ0Vycm9yKSB7CiAgICBjb25zdCBlcnJvciA9IGZhaWx1cmUgPz8gc2FtcGxpbmdFcnJvcjsKICAgIGVycm9yLnNhbXBsZXMgPSBzYW1wbGVzOwogICAgdGhyb3cgZXJyb3I7CiAgfQogIGNvbnN0IG1lYXN1cmVkU2FtcGxlcyA9IHNhbXBsZXMuZmlsdGVyKAogICAgKHNhbXBsZSkgPT4gc2FtcGxlLmVsYXBzZWRfbXMgPD0gcmVzdWx0LmVsYXBzZWRfbXMsCiAgKTsKICBjb25zdCBxdWFsaXR5ID0gYXNzZXNzU2FtcGxpbmdRdWFsaXR5KHsKICAgIGR1cmF0aW9uTXMsCiAgICByZXN1bHQsCiAgICBtZW1vcnlUaW1lczogbWVhc3VyZWRTYW1wbGVzCiAgICAgIC5maWx0ZXIoKHNhbXBsZSkgPT4gc2FtcGxlLmtpbmQgPT09ICJwcm9jZXNzX21lbW9yeSIpCiAgICAgIC5tYXAoKHNhbXBsZSkgPT4gc2FtcGxlLmVsYXBzZWRfbXMpLAogIH0pOwogIGlmICghcXVhbGl0eS5wYXNzZWQpIHsKICAgIGNvbnN0IGVycm9yID0gbmV3IEVycm9yKAogICAgICBgJHtuYW1lfSBmYWlsZWQgc2FtcGxpbmcvZHVyYXRpb24gcXVhbGl0eSBsaW1pdHM6ICR7SlNPTi5zdHJpbmdpZnkocXVhbGl0eSl9YCwKICAgICk7CiAgICBlcnJvci5tZWFzdXJlbWVudCA9IHJlc3VsdDsKICAgIGVycm9yLnNhbXBsZXMgPSBzYW1wbGVzOwogICAgdGhyb3cgZXJyb3I7CiAgfQogIHJldHVybiB7CiAgICBuYW1lLAogICAgY29uY3VycmVuY3ksCiAgICAuLi5yZXN1bHQsCiAgICByZXF1ZXN0ZWRfZHVyYXRpb25fbXM6IGR1cmF0aW9uTXMsCiAgICBjb29yZGluYXRvcl9ldmVudF9sb29wX2RlbGF5X21heF9tczogTnVtYmVyKAogICAgICAobG9vcERlbGF5Lm1heCAvIDFlNikudG9GaXhlZCgzKSwKICAgICksCiAgICBzYW1wbGluZ19xdWFsaXR5OiBxdWFsaXR5LAogICAgbWVtb3J5X3NhbXBsaW5nX3NvdXJjZTogWyJsaW51eCIsICJkYXJ3aW4iXS5pbmNsdWRlcyhwcm9jZXNzLnBsYXRmb3JtKQogICAgICA/ICJvcyIKICAgICAgOiAiaGVhbHRoLWZhbGxiYWNrIiwKICAgIHBlYWs6IG1heENoZWNrcG9pbnQobWVhc3VyZWRTYW1wbGVzLm1hcCgoc2FtcGxlKSA9PiBzYW1wbGUuY2hlY2twb2ludCkpLAogICAgc2FtcGxlcywKICB9Owp9Owo=
+import { monitorEventLoopDelay } from "node:perf_hooks";
+import { setTimeout as delay } from "node:timers/promises";
+import { Worker } from "node:worker_threads";
+
+// A collector may fail to honor cancellation. Race it against our own bound,
+// while passing the same cancellation to cooperative I/O so it can clean up.
+export const collectLoadSample = async (
+  collect,
+  signal,
+  kind,
+  timeoutMs = 3_000,
+) => {
+  signal.throwIfAborted();
+  const controller = new AbortController();
+  const onStop = () => controller.abort(signal.reason);
+  let rejectCancellation;
+  const cancelled = new Promise((_, reject) => {
+    rejectCancellation = reject;
+  });
+  const onAbort = () => rejectCancellation(controller.signal.reason);
+  controller.signal.addEventListener("abort", onAbort, { once: true });
+  signal.addEventListener("abort", onStop, { once: true });
+  const timer = setTimeout(
+    () =>
+      controller.abort(
+        new Error(`${kind} sampler exceeded ${timeoutMs} ms deadline`),
+      ),
+    timeoutMs,
+  );
+  try {
+    return await Promise.race([
+      Promise.resolve().then(() => {
+        controller.signal.throwIfAborted();
+        return collect(controller.signal);
+      }),
+      cancelled,
+    ]);
+  } finally {
+    clearTimeout(timer);
+    signal.removeEventListener("abort", onStop);
+    controller.signal.removeEventListener("abort", onAbort);
+  }
+};
+
+export const maxCheckpoint = (samples) => {
+  const fields = new Set(samples.flatMap((sample) => Object.keys(sample)));
+  const result = { captured_at: samples.at(-1)?.captured_at ?? null };
+  for (const field of fields) {
+    if (field === "captured_at") continue;
+    const values = samples
+      .map((sample) => sample[field])
+      .filter(Number.isFinite);
+    result[field] = values.length > 0 ? Math.max(...values) : null;
+  }
+  return result;
+};
+
+export const assessSamplingQuality = ({ durationMs, result, memoryTimes }) => {
+  const gaps = memoryTimes.length
+    ? [
+        memoryTimes[0],
+        ...memoryTimes.slice(1).map((time, index) => time - memoryTimes[index]),
+        Math.max(0, result.elapsed_ms - memoryTimes.at(-1)),
+      ]
+    : [result.elapsed_ms];
+  const quality = {
+    max_allowed_gap_ms: 500,
+    max_gap_ms: Math.max(...gaps),
+    sample_count: memoryTimes.length,
+    minimum_samples: Math.max(1, Math.floor(durationMs / 200)),
+    duration_overrun_ms: result.elapsed_ms - durationMs,
+    max_allowed_overrun_ms: Math.max(250, durationMs * 0.05),
+    client_start_delay_ms: result.client_start_delay_ms,
+  };
+  quality.passed =
+    result.elapsed_ms >= durationMs &&
+    quality.duration_overrun_ms <= quality.max_allowed_overrun_ms &&
+    quality.max_gap_ms <= quality.max_allowed_gap_ms &&
+    quality.sample_count >= quality.minimum_samples &&
+    quality.client_start_delay_ms >= 0 &&
+    quality.client_start_delay_ms <= 100;
+  return quality;
+};
+
+export const runLoadScenario = async ({
+  collectCheckpoint,
+  collectMemorySample,
+  concurrency,
+  durationMs,
+  expectedResponseBytes,
+  responseValidation,
+  name,
+  url,
+}) => {
+  if (
+    !Number.isInteger(concurrency) ||
+    concurrency < 1 ||
+    concurrency > 128 ||
+    !Number.isInteger(durationMs) ||
+    durationMs < 1 ||
+    durationMs > 300_000 ||
+    (responseValidation !== undefined && responseValidation !== "locale") ||
+    (expectedResponseBytes === undefined && responseValidation === undefined) ||
+    (expectedResponseBytes !== undefined &&
+      (!Number.isSafeInteger(expectedResponseBytes) ||
+        expectedResponseBytes < 0))
+  ) {
+    throw new Error("invalid runtime load parameters");
+  }
+  const worker = new Worker(
+    new URL("./runtime-load-worker.mjs", import.meta.url),
+    {
+      workerData: {
+        concurrency,
+        expectedResponseBytes,
+        responseValidation,
+        name,
+        url,
+      },
+    },
+  );
+  let readyResolve;
+  let readyReject;
+  let doneResolve;
+  let doneReject;
+  let completed = false;
+  const ready = new Promise((resolve, reject) => {
+    readyResolve = resolve;
+    readyReject = reject;
+  });
+  const done = new Promise((resolve, reject) => {
+    doneResolve = resolve;
+    doneReject = reject;
+  });
+  ready.catch(() => {});
+  done.catch(() => {});
+  const fail = (error) => {
+    readyReject(error);
+    doneReject(error);
+  };
+  worker.on("error", fail);
+  worker.on("exit", (code) => {
+    if (!completed)
+      fail(new Error(`runtime load worker exited before completion: ${code}`));
+  });
+  worker.on("message", (message) => {
+    if (message.type === "ready") readyResolve();
+    else if (message.type === "failed") {
+      const error = new Error(message.error);
+      error.measurement = message.result;
+      fail(error);
+    } else if (message.type === "completed") {
+      completed = true;
+      doneResolve(message.result);
+    }
+  });
+  const startupTimeout = setTimeout(
+    () => fail(new Error("runtime load worker startup timed out")),
+    10_000,
+  );
+  try {
+    await ready;
+  } catch (error) {
+    await worker.terminate();
+    throw error;
+  } finally {
+    clearTimeout(startupTimeout);
+  }
+
+  // Sampling and the upstream fixture server remain on the coordinator. A
+  // high-throughput request loop must not starve ps stdout or its deadline.
+  const startedAt = performance.timeOrigin + performance.now();
+  const elapsed = () => performance.timeOrigin + performance.now() - startedAt;
+  const loopDelay = monitorEventLoopDelay({ resolution: 10 });
+  loopDelay.enable();
+  const samples = [];
+  const samplingAbort = new AbortController();
+  let sampling = true;
+  let samplingError;
+  const sample = (collect, interval, kind) =>
+    (async () => {
+      while (sampling) {
+        const started = elapsed();
+        const checkpoint = await collectLoadSample(
+          collect,
+          samplingAbort.signal,
+          kind,
+        );
+        if (!sampling) return;
+        if (
+          kind === "process_memory" &&
+          !(
+            Number.isFinite(checkpoint?.management_rss_bytes) &&
+            checkpoint.management_rss_bytes >= 0
+          )
+        ) {
+          throw new Error("runtime memory sampler returned no valid Rust RSS");
+        }
+        samples.push({
+          kind,
+          elapsed_ms: elapsed(),
+          collection_ms: elapsed() - started,
+          checkpoint,
+        });
+        await delay(interval, undefined, { signal: samplingAbort.signal });
+      }
+    })().catch((error) => {
+      // Completing the load cancels the last collection and interval wait.
+      // Failures observed while the load is active still invalidate the run.
+      if (!sampling && samplingAbort.signal.aborted) return;
+      samplingError ??= error;
+      sampling = false;
+      samplingAbort.abort(error);
+      worker.postMessage({ type: "cancel", reason: error.message });
+    });
+  const samplers = [
+    sample(collectCheckpoint, 500, "runtime_checkpoint"),
+    sample(collectMemorySample, 100, "process_memory"),
+  ];
+  const timeout = setTimeout(
+    () => fail(new Error("runtime load exceeded its bounded runtime")),
+    durationMs + 15_000,
+  );
+  let result;
+  let failure;
+  try {
+    worker.postMessage({ type: "start", startedAt, durationMs });
+    result = await done;
+  } catch (error) {
+    failure = samplingError ?? error;
+  } finally {
+    clearTimeout(timeout);
+    sampling = false;
+    samplingAbort.abort(new Error("runtime load sampling completed"));
+    await worker.terminate();
+    await Promise.all(samplers);
+    loopDelay.disable();
+  }
+  if (failure || samplingError) {
+    const error = failure ?? samplingError;
+    error.samples = samples;
+    throw error;
+  }
+  const measuredSamples = samples.filter(
+    (sample) => sample.elapsed_ms <= result.elapsed_ms,
+  );
+  const quality = assessSamplingQuality({
+    durationMs,
+    result,
+    memoryTimes: measuredSamples
+      .filter((sample) => sample.kind === "process_memory")
+      .map((sample) => sample.elapsed_ms),
+  });
+  if (!quality.passed) {
+    const error = new Error(
+      `${name} failed sampling/duration quality limits: ${JSON.stringify(quality)}`,
+    );
+    error.measurement = result;
+    error.samples = samples;
+    throw error;
+  }
+  return {
+    name,
+    concurrency,
+    ...result,
+    requested_duration_ms: durationMs,
+    coordinator_event_loop_delay_max_ms: Number(
+      (loopDelay.max / 1e6).toFixed(3),
+    ),
+    sampling_quality: quality,
+    memory_sampling_source: ["linux", "darwin"].includes(process.platform)
+      ? "os"
+      : "health-fallback",
+    peak: maxCheckpoint(measuredSamples.map((sample) => sample.checkpoint)),
+    samples,
+  };
+};

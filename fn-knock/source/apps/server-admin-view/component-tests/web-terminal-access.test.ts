@@ -1,1 +1,222 @@
-aW1wb3J0IHsgZmx1c2hQcm9taXNlcywgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBjcmVhdGVQaW5pYSwgc2V0QWN0aXZlUGluaWEgfSBmcm9tICJwaW5pYSI7CmltcG9ydCB7IGNyZWF0ZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IG5leHRUaWNrIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgYWZ0ZXJFYWNoLCBiZWZvcmVFYWNoLCBkZXNjcmliZSwgZXhwZWN0LCBpdCwgdmkgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBlbkFkbWluIH0gZnJvbSAiLi4vLi4vLi4vcGFja2FnZXMvaTE4bi9zcmMvbWVzc2FnZXMvYWRtaW4vZW4iOwoKY29uc3QgYXBpID0gdmkuaG9pc3RlZCgoKSA9PiAoeyBzZXR0aW5nczogdmkuZm4oKSwgdXBkYXRlOiB2aS5mbigpIH0pKTsKY29uc3QgcHVzaCA9IHZpLmhvaXN0ZWQoKCkgPT4gdmkuZm4oKSk7CnZpLm1vY2soIkAvbGliL2FwaS90ZXJtaW5hbC1hY2Nlc3MiLCBhc3luYyAob3JpZ2luYWwpID0+ICh7CiAgLi4uKGF3YWl0IG9yaWdpbmFsPHR5cGVvZiBpbXBvcnQoIkAvbGliL2FwaS90ZXJtaW5hbC1hY2Nlc3MiKT4oKSksCiAgVGVybWluYWxBY2Nlc3NBUEk6IGFwaSwKfSkpOwp2aS5tb2NrKCJ2dWUtcm91dGVyIiwgKCkgPT4gKHsgdXNlUm91dGVyOiAoKSA9PiAoeyBwdXNoIH0pIH0pKTsKdmkubW9jaygiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCIsICgpID0+ICh7CiAgdG9hc3Q6IHsgc3VjY2VzczogdmkuZm4oKSwgZXJyb3I6IHZpLmZuKCkgfSwKfSkpOwp2aS5tb2NrKCJAL3ZpZXdzL3dlYi10ZXJtaW5hbC9XZWJUZXJtaW5hbEF1dGhvcml6ZWQudnVlIiwgKCkgPT4gKHsKICBkZWZhdWx0OiB7IHRlbXBsYXRlOiAnPGRpdiBkYXRhLXRlc3Q9IndvcmtzcGFjZSIgLz4nIH0sCn0pKTsKCmltcG9ydCBXZWJUZXJtaW5hbCBmcm9tICJAL3ZpZXdzL1dlYlRlcm1pbmFsLnZ1ZSI7CmltcG9ydCBXZWJUZXJtaW5hbFNldHRpbmdzIGZyb20gIkAvdmlld3Mvc3lzdGVtLXNldHRpbmdzL1dlYlRlcm1pbmFsU2V0dGluZ3MudnVlIjsKaW1wb3J0IHsgdXNlVGVybWluYWxBY2Nlc3NTdG9yZSB9IGZyb20gIkAvc3RvcmUvdGVybWluYWwtYWNjZXNzIjsKaW1wb3J0IHsgU3dpdGNoIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N3aXRjaCI7Cgpjb25zdCBlbmFibGVkID0geyBlbmFibGVkOiB0cnVlLCByZXZpc2lvbjogIm9uZSIgfTsKZnVuY3Rpb24gb3B0aW9ucygpIHsKICByZXR1cm4gewogICAgZ2xvYmFsOiB7CiAgICAgIHBsdWdpbnM6IFsKICAgICAgICBjcmVhdGVQaW5pYSgpLAogICAgICAgIGNyZWF0ZUkxOG4oewogICAgICAgICAgbGVnYWN5OiBmYWxzZSwKICAgICAgICAgIGxvY2FsZTogImVuIiwKICAgICAgICAgIG1lc3NhZ2VzOiB7IGVuOiB7IGFkbWluOiBlbkFkbWluIH0gfSwKICAgICAgICB9KSwKICAgICAgXSwKICAgICAgc3R1YnM6IHsKICAgICAgICBGbG9hdGluZ0FjdGlvbkRvY2s6IHsgdGVtcGxhdGU6ICc8ZGl2PjxzbG90IG5hbWU9ImlubGluZSIgLz48L2Rpdj4nIH0sCiAgICAgICAgUmVmcmVzaEJ1dHRvbjogewogICAgICAgICAgdGVtcGxhdGU6CiAgICAgICAgICAgICc8YnV0dG9uIHR5cGU9ImJ1dHRvbiIgQGNsaWNrPSIkZW1pdChcJ2NsaWNrXCcpIj5SZWZyZXNoPC9idXR0b24+JywKICAgICAgICB9LAogICAgICB9LAogICAgfSwKICB9Owp9CmJlZm9yZUVhY2goKCkgPT4gewogIHZpLnJlc2V0QWxsTW9ja3MoKTsKICB2aS51c2VGYWtlVGltZXJzKCk7CiAgc2V0QWN0aXZlUGluaWEoY3JlYXRlUGluaWEoKSk7CiAgYXBpLnNldHRpbmdzLm1vY2tSZXNvbHZlZFZhbHVlKGVuYWJsZWQpOwp9KTsKYWZ0ZXJFYWNoKCgpID0+IHZpLnVzZVJlYWxUaW1lcnMoKSk7Cgphc3luYyBmdW5jdGlvbiB0b2dnbGUod3JhcHBlcjogUmV0dXJuVHlwZTx0eXBlb2YgbW91bnQ+LCB2YWx1ZTogYm9vbGVhbikgewogIHdyYXBwZXIuZmluZENvbXBvbmVudChTd2l0Y2gpLnZtLiRlbWl0KCJ1cGRhdGU6bW9kZWxWYWx1ZSIsIHZhbHVlKTsKICBhd2FpdCBuZXh0VGljaygpOwp9CgpkZXNjcmliZSgiV2ViIFRlcm1pbmFsIGZlYXR1cmUgc3dpdGNoIiwgKCkgPT4gewogIGl0KCJvcGVucyB0aGUgd29ya3NwYWNlIHdpdGhvdXQgYSBwYXNzd29yZCBmb3JtLCBhbmQgbGVhdmVzIHdoZW4gZGlzYWJsZWQiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoV2ViVGVybWluYWwsIG9wdGlvbnMoKSk7CiAgICBleHBlY3Qod3JhcHBlci5maW5kKCdbZGF0YS10ZXN0PSJ3b3Jrc3BhY2UiXScpLmV4aXN0cygpKS50b0JlKGZhbHNlKTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgIGV4cGVjdCh3cmFwcGVyLmZpbmQoJ1tkYXRhLXRlc3Q9IndvcmtzcGFjZSJdJykuZXhpc3RzKCkpLnRvQmUodHJ1ZSk7CiAgICBleHBlY3Qod3JhcHBlci5maW5kKCJpbnB1dCIpLmV4aXN0cygpKS50b0JlKGZhbHNlKTsKICAgIGFwaS5zZXR0aW5ncy5tb2NrUmVzb2x2ZWRWYWx1ZSh7IGVuYWJsZWQ6IGZhbHNlLCByZXZpc2lvbjogInR3byIgfSk7CiAgICBhd2FpdCB2aS5hZHZhbmNlVGltZXJzQnlUaW1lQXN5bmMoNTAwMCk7CiAgICBleHBlY3Qod3JhcHBlci5maW5kKCdbZGF0YS10ZXN0PSJ3b3Jrc3BhY2UiXScpLmV4aXN0cygpKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChwdXNoKS50b0hhdmVCZWVuQ2FsbGVkV2l0aCh7CiAgICAgIHBhdGg6ICIvc3lzdGVtIiwKICAgICAgcXVlcnk6IHsgdGFiOiAiZmVhdHVyZXMiIH0sCiAgICB9KTsKICAgIHdyYXBwZXIudW5tb3VudCgpOwogIH0pOwogIGl0KCJmYWlscyBjbG9zZWQgb24gYSBmYWlsZWQgY2hlY2sgYW5kIHJlY292ZXJzIG9uIHJldHJ5IiwgYXN5bmMgKCkgPT4gewogICAgYXBpLnNldHRpbmdzLm1vY2tSZWplY3RlZFZhbHVlT25jZShuZXcgRXJyb3IoIm9mZmxpbmUiKSk7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoV2ViVGVybWluYWwsIG9wdGlvbnMoKSk7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICBleHBlY3Qod3JhcHBlci5maW5kKCdbZGF0YS10ZXN0PSJ3b3Jrc3BhY2UiXScpLmV4aXN0cygpKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdCh3cmFwcGVyLmdldCgnW3JvbGU9ImFsZXJ0Il0nKS50ZXh0KCkpLnRvQ29udGFpbigiUmVxdWVzdCBmYWlsZWQiKTsKICAgIGF3YWl0IHdyYXBwZXIKICAgICAgLmZpbmRBbGwoImJ1dHRvbiIpCiAgICAgIC5maW5kKChiKSA9PiBiLnRleHQoKSA9PT0gIlJldHJ5IikhCiAgICAgIC50cmlnZ2VyKCJjbGljayIpOwogICAgYXdhaXQgZmx1c2hQcm9taXNlcygpOwogICAgZXhwZWN0KHdyYXBwZXIuZmluZCgnW2RhdGEtdGVzdD0id29ya3NwYWNlIl0nKS5leGlzdHMoKSkudG9CZSh0cnVlKTsKICAgIHdyYXBwZXIudW5tb3VudCgpOwogIH0pOwogIGl0KCJzaG93cyBvbmx5IHRoZSBzd2l0Y2ggYW5kIHB1Ymxpc2hlcyBvbmx5IGEgc3VjY2Vzc2Z1bCBzYXZlIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KFdlYlRlcm1pbmFsU2V0dGluZ3MsIG9wdGlvbnMoKSk7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICBleHBlY3Qod3JhcHBlci5maW5kKCJpbnB1dCIpLmV4aXN0cygpKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdCh3cmFwcGVyLmZpbmRBbGxDb21wb25lbnRzKFN3aXRjaCkpLnRvSGF2ZUxlbmd0aCgxKTsKICAgIGF3YWl0IHRvZ2dsZSh3cmFwcGVyLCBmYWxzZSk7CiAgICBleHBlY3QodXNlVGVybWluYWxBY2Nlc3NTdG9yZSgpLnN0YXR1cz8uZW5hYmxlZCkudG9CZSh0cnVlKTsKICAgIGFwaS51cGRhdGUubW9ja1JlamVjdGVkVmFsdWVPbmNlKG5ldyBFcnJvcigib2ZmbGluZSIpKTsKICAgIGF3YWl0IHdyYXBwZXIuZ2V0KCJmb3JtIikudHJpZ2dlcigic3VibWl0Iik7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICBleHBlY3Qod3JhcHBlci5nZXQoJ1tyb2xlPSJhbGVydCJdJykudGV4dCgpKS50b0NvbnRhaW4oIlJlcXVlc3QgZmFpbGVkIik7CiAgICBleHBlY3QodXNlVGVybWluYWxBY2Nlc3NTdG9yZSgpLnN0YXR1cz8uZW5hYmxlZCkudG9CZSh0cnVlKTsKICAgIGFwaS51cGRhdGUubW9ja1Jlc29sdmVkVmFsdWUoeyBlbmFibGVkOiBmYWxzZSwgcmV2aXNpb246ICJ0d28iIH0pOwogICAgYXdhaXQgd3JhcHBlci5nZXQoImZvcm0iKS50cmlnZ2VyKCJzdWJtaXQiKTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgIGV4cGVjdChhcGkudXBkYXRlKS50b0hhdmVCZWVuTGFzdENhbGxlZFdpdGgoewogICAgICBlbmFibGVkOiBmYWxzZSwKICAgICAgcmV2aXNpb246ICJvbmUiLAogICAgfSk7CiAgICBleHBlY3QodXNlVGVybWluYWxBY2Nlc3NTdG9yZSgpLnN0YXR1cz8uZW5hYmxlZCkudG9CZShmYWxzZSk7CiAgICB3cmFwcGVyLnVubW91bnQoKTsKICB9KTsKICBpdCgic2F2ZXMgcmUtZW5hYmxpbmcgd2l0aG91dCBzdGFydGluZyBhIHRlcm1pbmFsIHNlc3Npb24iLCBhc3luYyAoKSA9PiB7CiAgICBhcGkuc2V0dGluZ3MubW9ja1Jlc29sdmVkVmFsdWUoeyBlbmFibGVkOiBmYWxzZSwgcmV2aXNpb246ICJvbmUiIH0pOwogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KFdlYlRlcm1pbmFsU2V0dGluZ3MsIG9wdGlvbnMoKSk7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICBhd2FpdCB0b2dnbGUod3JhcHBlciwgdHJ1ZSk7CiAgICBhcGkudXBkYXRlLm1vY2tSZXNvbHZlZFZhbHVlKHsgZW5hYmxlZDogdHJ1ZSwgcmV2aXNpb246ICJ0d28iIH0pOwogICAgYXdhaXQgd3JhcHBlci5nZXQoImZvcm0iKS50cmlnZ2VyKCJzdWJtaXQiKTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgIGV4cGVjdChhcGkudXBkYXRlKS50b0hhdmVCZWVuQ2FsbGVkV2l0aCh7IGVuYWJsZWQ6IHRydWUsIHJldmlzaW9uOiAib25lIiB9KTsKICAgIGV4cGVjdCh3cmFwcGVyLmZpbmQoJ1tkYXRhLXRlc3Q9IndvcmtzcGFjZSJdJykuZXhpc3RzKCkpLnRvQmUoZmFsc2UpOwogICAgZXhwZWN0KHB1c2gpLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICB3cmFwcGVyLnVubW91bnQoKTsKICB9KTsKICBpdCgiaWdub3JlcyBhbiBvbGQgcmVmcmVzaCBhZnRlciBhIHNldHRpbmdzIHNhdmUiLCBhc3luYyAoKSA9PiB7CiAgICBsZXQgcmVzb2x2ZSE6ICh2YWx1ZTogdHlwZW9mIGVuYWJsZWQpID0+IHZvaWQ7CiAgICBhcGkuc2V0dGluZ3MubW9ja0ltcGxlbWVudGF0aW9uT25jZSgKICAgICAgKCkgPT4KICAgICAgICBuZXcgUHJvbWlzZSgoZG9uZSkgPT4gewogICAgICAgICAgcmVzb2x2ZSA9IGRvbmU7CiAgICAgICAgfSksCiAgICApOwogICAgY29uc3Qgc3RvcmUgPSB1c2VUZXJtaW5hbEFjY2Vzc1N0b3JlKCk7CiAgICBjb25zdCBwZW5kaW5nID0gc3RvcmUucmVmcmVzaCgpOwogICAgc3RvcmUuYXBwbHlTZXR0aW5ncyh7IGVuYWJsZWQ6IGZhbHNlLCByZXZpc2lvbjogInR3byIgfSk7CiAgICByZXNvbHZlKGVuYWJsZWQpOwogICAgYXdhaXQgcGVuZGluZzsKICAgIGV4cGVjdChzdG9yZS5zdGF0dXM/LmVuYWJsZWQpLnRvQmUoZmFsc2UpOwogIH0pOwogIGl0KCJhIGZhaWxlZCBuZXdlciBjaGVjayBjYW5ub3QgYmUgcmVwbGFjZWQgYnkgYW4gb2xkIHN1Y2Nlc3NmdWwgcmVzcG9uc2UiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBzdG9yZSA9IHVzZVRlcm1pbmFsQWNjZXNzU3RvcmUoKTsKICAgIHN0b3JlLmFwcGx5U2V0dGluZ3MoZW5hYmxlZCk7CiAgICBsZXQgcmVzb2x2ZSE6ICh2YWx1ZTogdHlwZW9mIGVuYWJsZWQpID0+IHZvaWQ7CiAgICBhcGkuc2V0dGluZ3MubW9ja0ltcGxlbWVudGF0aW9uT25jZSgKICAgICAgKCkgPT4KICAgICAgICBuZXcgUHJvbWlzZSgoZG9uZSkgPT4gewogICAgICAgICAgcmVzb2x2ZSA9IGRvbmU7CiAgICAgICAgfSksCiAgICApOwogICAgY29uc3Qgb2xkID0gc3RvcmUucmVmcmVzaCgpOwogICAgYXBpLnNldHRpbmdzLm1vY2tSZWplY3RlZFZhbHVlT25jZShuZXcgRXJyb3IoIm9mZmxpbmUiKSk7CiAgICBhd2FpdCBleHBlY3Qoc3RvcmUucmVmcmVzaCgpKS5yZWplY3RzLnRvVGhyb3coIm9mZmxpbmUiKTsKICAgIHJlc29sdmUoZW5hYmxlZCk7CiAgICBhd2FpdCBvbGQ7CiAgICBleHBlY3Qoc3RvcmUuaXNDdXJyZW50KS50b0JlKGZhbHNlKTsKICB9KTsKICBpdCgia2VlcHMgYSBrbm93biBkaXNhYmxlZCBtZW51IHN0YXRlIHdoZW4gYSBsYXRlciByZWZyZXNoIGZhaWxzIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgc3RvcmUgPSB1c2VUZXJtaW5hbEFjY2Vzc1N0b3JlKCk7CiAgICBzdG9yZS5hcHBseVNldHRpbmdzKHsgZW5hYmxlZDogZmFsc2UsIHJldmlzaW9uOiAiZGlzYWJsZWQiIH0pOwogICAgYXBpLnNldHRpbmdzLm1vY2tSZWplY3RlZFZhbHVlT25jZShuZXcgRXJyb3IoIm9mZmxpbmUiKSk7CiAgICBhd2FpdCBleHBlY3Qoc3RvcmUucmVmcmVzaCgpKS5yZWplY3RzLnRvVGhyb3coIm9mZmxpbmUiKTsKICAgIGV4cGVjdChzdG9yZS5zdGF0dXM/LmVuYWJsZWQpLnRvQmUoZmFsc2UpOwogICAgZXhwZWN0KHN0b3JlLmlzQ3VycmVudCkudG9CZShmYWxzZSk7CiAgfSk7CiAgaXQoImFuIG9sZCBmYWlsZWQgY2hlY2sgY2Fubm90IHJlcGxhY2UgbmV3ZXIgc2F2ZWQgc2V0dGluZ3MiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBzdG9yZSA9IHVzZVRlcm1pbmFsQWNjZXNzU3RvcmUoKTsKICAgIGxldCByZWplY3QhOiAoZXJyb3I6IEVycm9yKSA9PiB2b2lkOwogICAgYXBpLnNldHRpbmdzLm1vY2tJbXBsZW1lbnRhdGlvbk9uY2UoCiAgICAgICgpID0+CiAgICAgICAgbmV3IFByb21pc2UoKF8sIGZhaWwpID0+IHsKICAgICAgICAgIHJlamVjdCA9IGZhaWw7CiAgICAgICAgfSksCiAgICApOwogICAgY29uc3Qgb2xkID0gc3RvcmUucmVmcmVzaCgpLmNhdGNoKCgpID0+IHVuZGVmaW5lZCk7CiAgICBhd2FpdCBzdG9yZS5yZWZyZXNoKCk7CiAgICByZWplY3QobmV3IEVycm9yKCJvbGQgZmFpbHVyZSIpKTsKICAgIGF3YWl0IG9sZDsKICAgIGV4cGVjdChzdG9yZS5zdGF0dXM/LmVuYWJsZWQpLnRvQmUodHJ1ZSk7CiAgfSk7CiAgaXQoImNvYWxlc2NlcyBzZXR0aW5ncyByZWZyZXNoZXMgYW5kIGlnbm9yZXMgcmVzcG9uc2VzIGFmdGVyIGxlYXZpbmciLCBhc3luYyAoKSA9PiB7CiAgICBsZXQgcmVzb2x2ZSE6ICh2YWx1ZTogdHlwZW9mIGVuYWJsZWQpID0+IHZvaWQ7CiAgICBhcGkuc2V0dGluZ3MubW9ja0ltcGxlbWVudGF0aW9uT25jZSgKICAgICAgKCkgPT4KICAgICAgICBuZXcgUHJvbWlzZSgoZG9uZSkgPT4gewogICAgICAgICAgcmVzb2x2ZSA9IGRvbmU7CiAgICAgICAgfSksCiAgICApOwogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KFdlYlRlcm1pbmFsU2V0dGluZ3MsIG9wdGlvbnMoKSk7CiAgICBhd2FpdCB3cmFwcGVyCiAgICAgIC5maW5kQWxsKCJidXR0b24iKQogICAgICAuZmluZCgoYikgPT4gYi50ZXh0KCkgPT09ICJSZWZyZXNoIikhCiAgICAgIC50cmlnZ2VyKCJjbGljayIpOwogICAgZXhwZWN0KGFwaS5zZXR0aW5ncykudG9IYXZlQmVlbkNhbGxlZFRpbWVzKDEpOwogICAgd3JhcHBlci51bm1vdW50KCk7CiAgICBjb25zdCBzdG9yZSA9IHVzZVRlcm1pbmFsQWNjZXNzU3RvcmUoKTsKICAgIHN0b3JlLmFwcGx5U2V0dGluZ3MoeyBlbmFibGVkOiBmYWxzZSwgcmV2aXNpb246ICJ0d28iIH0pOwogICAgcmVzb2x2ZShlbmFibGVkKTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgIGV4cGVjdChzdG9yZS5zdGF0dXM/LmVuYWJsZWQpLnRvQmUoZmFsc2UpOwogIH0pOwogIGl0KCJpZ25vcmVzIGEgbGF0ZSBzYXZlIGFmdGVyIGxlYXZpbmcgdGhlIHNldHRpbmdzIHBhZ2UiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoV2ViVGVybWluYWxTZXR0aW5ncywgb3B0aW9ucygpKTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgIGxldCByZXNvbHZlITogKHZhbHVlOiB0eXBlb2YgZW5hYmxlZCkgPT4gdm9pZDsKICAgIGFwaS51cGRhdGUubW9ja0ltcGxlbWVudGF0aW9uT25jZSgKICAgICAgKCkgPT4KICAgICAgICBuZXcgUHJvbWlzZSgoZG9uZSkgPT4gewogICAgICAgICAgcmVzb2x2ZSA9IGRvbmU7CiAgICAgICAgfSksCiAgICApOwogICAgYXdhaXQgdG9nZ2xlKHdyYXBwZXIsIGZhbHNlKTsKICAgIGF3YWl0IHdyYXBwZXIuZ2V0KCJmb3JtIikudHJpZ2dlcigic3VibWl0Iik7CiAgICBjb25zdCBzdG9yZSA9IHVzZVRlcm1pbmFsQWNjZXNzU3RvcmUoKTsKICAgIHdyYXBwZXIudW5tb3VudCgpOwogICAgc3RvcmUuYXBwbHlTZXR0aW5ncyh7IGVuYWJsZWQ6IHRydWUsIHJldmlzaW9uOiAibGF0ZXN0IiB9KTsKICAgIHJlc29sdmUoeyBlbmFibGVkOiBmYWxzZSwgcmV2aXNpb246ICJvbGRlci1zYXZlIiB9KTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgIGV4cGVjdChzdG9yZS5zdGF0dXM/LnJldmlzaW9uKS50b0JlKCJsYXRlc3QiKTsKICB9KTsKfSk7Cg==
+import { flushPromises, mount } from "@vue/test-utils";
+import { createPinia, setActivePinia } from "pinia";
+import { createI18n } from "vue-i18n";
+import { nextTick } from "vue";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { enAdmin } from "../../../packages/i18n/src/messages/admin/en";
+
+const api = vi.hoisted(() => ({ settings: vi.fn(), update: vi.fn() }));
+const push = vi.hoisted(() => vi.fn());
+vi.mock("@/lib/api/terminal-access", async (original) => ({
+  ...(await original<typeof import("@/lib/api/terminal-access")>()),
+  TerminalAccessAPI: api,
+}));
+vi.mock("vue-router", () => ({ useRouter: () => ({ push }) }));
+vi.mock("@admin-shared/utils/toast", () => ({
+  toast: { success: vi.fn(), error: vi.fn() },
+}));
+vi.mock("@/views/web-terminal/WebTerminalAuthorized.vue", () => ({
+  default: { template: '<div data-test="workspace" />' },
+}));
+
+import WebTerminal from "@/views/WebTerminal.vue";
+import WebTerminalSettings from "@/views/system-settings/WebTerminalSettings.vue";
+import { useTerminalAccessStore } from "@/store/terminal-access";
+import { Switch } from "@/components/ui/switch";
+
+const enabled = { enabled: true, revision: "one" };
+function options() {
+  return {
+    global: {
+      plugins: [
+        createPinia(),
+        createI18n({
+          legacy: false,
+          locale: "en",
+          messages: { en: { admin: enAdmin } },
+        }),
+      ],
+      stubs: {
+        FloatingActionDock: { template: '<div><slot name="inline" /></div>' },
+        RefreshButton: {
+          template:
+            '<button type="button" @click="$emit(\'click\')">Refresh</button>',
+        },
+      },
+    },
+  };
+}
+beforeEach(() => {
+  vi.resetAllMocks();
+  vi.useFakeTimers();
+  setActivePinia(createPinia());
+  api.settings.mockResolvedValue(enabled);
+});
+afterEach(() => vi.useRealTimers());
+
+async function toggle(wrapper: ReturnType<typeof mount>, value: boolean) {
+  wrapper.findComponent(Switch).vm.$emit("update:modelValue", value);
+  await nextTick();
+}
+
+describe("Web Terminal feature switch", () => {
+  it("opens the workspace without a password form, and leaves when disabled", async () => {
+    const wrapper = mount(WebTerminal, options());
+    expect(wrapper.find('[data-test="workspace"]').exists()).toBe(false);
+    await flushPromises();
+    expect(wrapper.find('[data-test="workspace"]').exists()).toBe(true);
+    expect(wrapper.find("input").exists()).toBe(false);
+    api.settings.mockResolvedValue({ enabled: false, revision: "two" });
+    await vi.advanceTimersByTimeAsync(5000);
+    expect(wrapper.find('[data-test="workspace"]').exists()).toBe(false);
+    expect(push).toHaveBeenCalledWith({
+      path: "/system",
+      query: { tab: "features" },
+    });
+    wrapper.unmount();
+  });
+  it("fails closed on a failed check and recovers on retry", async () => {
+    api.settings.mockRejectedValueOnce(new Error("offline"));
+    const wrapper = mount(WebTerminal, options());
+    await flushPromises();
+    expect(wrapper.find('[data-test="workspace"]').exists()).toBe(false);
+    expect(wrapper.get('[role="alert"]').text()).toContain("Request failed");
+    await wrapper
+      .findAll("button")
+      .find((b) => b.text() === "Retry")!
+      .trigger("click");
+    await flushPromises();
+    expect(wrapper.find('[data-test="workspace"]').exists()).toBe(true);
+    wrapper.unmount();
+  });
+  it("shows only the switch and publishes only a successful save", async () => {
+    const wrapper = mount(WebTerminalSettings, options());
+    await flushPromises();
+    expect(wrapper.find("input").exists()).toBe(false);
+    expect(wrapper.findAllComponents(Switch)).toHaveLength(1);
+    await toggle(wrapper, false);
+    expect(useTerminalAccessStore().status?.enabled).toBe(true);
+    api.update.mockRejectedValueOnce(new Error("offline"));
+    await wrapper.get("form").trigger("submit");
+    await flushPromises();
+    expect(wrapper.get('[role="alert"]').text()).toContain("Request failed");
+    expect(useTerminalAccessStore().status?.enabled).toBe(true);
+    api.update.mockResolvedValue({ enabled: false, revision: "two" });
+    await wrapper.get("form").trigger("submit");
+    await flushPromises();
+    expect(api.update).toHaveBeenLastCalledWith({
+      enabled: false,
+      revision: "one",
+    });
+    expect(useTerminalAccessStore().status?.enabled).toBe(false);
+    wrapper.unmount();
+  });
+  it("saves re-enabling without starting a terminal session", async () => {
+    api.settings.mockResolvedValue({ enabled: false, revision: "one" });
+    const wrapper = mount(WebTerminalSettings, options());
+    await flushPromises();
+    await toggle(wrapper, true);
+    api.update.mockResolvedValue({ enabled: true, revision: "two" });
+    await wrapper.get("form").trigger("submit");
+    await flushPromises();
+    expect(api.update).toHaveBeenCalledWith({ enabled: true, revision: "one" });
+    expect(wrapper.find('[data-test="workspace"]').exists()).toBe(false);
+    expect(push).not.toHaveBeenCalled();
+    wrapper.unmount();
+  });
+  it("ignores an old refresh after a settings save", async () => {
+    let resolve!: (value: typeof enabled) => void;
+    api.settings.mockImplementationOnce(
+      () =>
+        new Promise((done) => {
+          resolve = done;
+        }),
+    );
+    const store = useTerminalAccessStore();
+    const pending = store.refresh();
+    store.applySettings({ enabled: false, revision: "two" });
+    resolve(enabled);
+    await pending;
+    expect(store.status?.enabled).toBe(false);
+  });
+  it("a failed newer check cannot be replaced by an old successful response", async () => {
+    const store = useTerminalAccessStore();
+    store.applySettings(enabled);
+    let resolve!: (value: typeof enabled) => void;
+    api.settings.mockImplementationOnce(
+      () =>
+        new Promise((done) => {
+          resolve = done;
+        }),
+    );
+    const old = store.refresh();
+    api.settings.mockRejectedValueOnce(new Error("offline"));
+    await expect(store.refresh()).rejects.toThrow("offline");
+    resolve(enabled);
+    await old;
+    expect(store.isCurrent).toBe(false);
+  });
+  it("keeps a known disabled menu state when a later refresh fails", async () => {
+    const store = useTerminalAccessStore();
+    store.applySettings({ enabled: false, revision: "disabled" });
+    api.settings.mockRejectedValueOnce(new Error("offline"));
+    await expect(store.refresh()).rejects.toThrow("offline");
+    expect(store.status?.enabled).toBe(false);
+    expect(store.isCurrent).toBe(false);
+  });
+  it("an old failed check cannot replace newer saved settings", async () => {
+    const store = useTerminalAccessStore();
+    let reject!: (error: Error) => void;
+    api.settings.mockImplementationOnce(
+      () =>
+        new Promise((_, fail) => {
+          reject = fail;
+        }),
+    );
+    const old = store.refresh().catch(() => undefined);
+    await store.refresh();
+    reject(new Error("old failure"));
+    await old;
+    expect(store.status?.enabled).toBe(true);
+  });
+  it("coalesces settings refreshes and ignores responses after leaving", async () => {
+    let resolve!: (value: typeof enabled) => void;
+    api.settings.mockImplementationOnce(
+      () =>
+        new Promise((done) => {
+          resolve = done;
+        }),
+    );
+    const wrapper = mount(WebTerminalSettings, options());
+    await wrapper
+      .findAll("button")
+      .find((b) => b.text() === "Refresh")!
+      .trigger("click");
+    expect(api.settings).toHaveBeenCalledTimes(1);
+    wrapper.unmount();
+    const store = useTerminalAccessStore();
+    store.applySettings({ enabled: false, revision: "two" });
+    resolve(enabled);
+    await flushPromises();
+    expect(store.status?.enabled).toBe(false);
+  });
+  it("ignores a late save after leaving the settings page", async () => {
+    const wrapper = mount(WebTerminalSettings, options());
+    await flushPromises();
+    let resolve!: (value: typeof enabled) => void;
+    api.update.mockImplementationOnce(
+      () =>
+        new Promise((done) => {
+          resolve = done;
+        }),
+    );
+    await toggle(wrapper, false);
+    await wrapper.get("form").trigger("submit");
+    const store = useTerminalAccessStore();
+    wrapper.unmount();
+    store.applySettings({ enabled: true, revision: "latest" });
+    resolve({ enabled: false, revision: "older-save" });
+    await flushPromises();
+    expect(store.status?.revision).toBe("latest");
+  });
+});

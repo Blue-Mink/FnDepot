@@ -1,1 +1,448 @@
-dXNlIGFzeW5jX3RyYWl0Ojphc3luY190cmFpdDsKCnVzZSBzdXBlcjo6KjsKdXNlIGNyYXRlOjp0dW5uZWxzOjp7CiAgICBjb25uZWN0aXZpdHk6OntDb25uZWN0ZWRFdmVudEFjdGlvbiwgVHVubmVsQ29ubmVjdGl2aXR5R2F0ZSwgVHVubmVsRGlzY29ubmVjdEV2ZW50fSwKICAgIHN1cGVydmlzb3I6OntPdXRwdXRTdHJlYW0sIFByb2Nlc3NMYXVuY2gsIFN1cGVydmlzb3JIYW5kbGUsIFR1bm5lbFByb2Nlc3NBZGFwdGVyfSwKfTsKCnB1YihzdXBlcikgZm4gc3VwZXJ2aXNvcl9rZXkoaWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJmcnBjOntpZH0iKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGVuc3VyZV9mcnBjX3N1cGVydmlzb3IoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgbWV0YTogJkZycGNJbnN0YW5jZU1ldGEsCikgLT4gRnJwY1Jlc3VsdDxTdXBlcnZpc29ySGFuZGxlPiB7CiAgICBsZXQgcnVudGltZSA9IHJlYWRfcnVudGltZSgmc3RhdGUuc3RvcmFnZS5zdG9yZSwgJm1ldGEuaWQpLmF3YWl0PzsKICAgIGxldCBtdXQgaW5pdGlhbCA9IHJ1bnRpbWUuc3VwZXJ2aXNvcjsKICAgIGluaXRpYWwuZGVzaXJlZF9ydW5uaW5nID0gcnVudGltZS5kZXNpcmVkX3J1bm5pbmc7CiAgICBpbml0aWFsLnBpZCA9IHJ1bnRpbWUucGlkLm9yKGluaXRpYWwucGlkKTsKICAgIGluaXRpYWwucnVubmluZyA9IGluaXRpYWwucGlkLmlzX3NvbWUoKTsKICAgIGluaXRpYWwuc3RhcnRlZF9hdCA9IHJ1bnRpbWUuc3RhcnRlZF9hdC5vcihpbml0aWFsLnN0YXJ0ZWRfYXQpOwogICAgaW5pdGlhbC5zdG9wcGVkX2F0ID0gcnVudGltZS5zdG9wcGVkX2F0Lm9yKGluaXRpYWwuc3RvcHBlZF9hdCk7CiAgICBpbml0aWFsLmxhc3RfbWVzc2FnZSA9IHJ1bnRpbWUubGFzdF9tZXNzYWdlLm9yKGluaXRpYWwubGFzdF9tZXNzYWdlKTsKICAgIGxldCBzZWNyZXRzID0gcmVhZF9jb25maWdfZm9yX21ldGEobWV0YSkKICAgICAgICAuYXdhaXQKICAgICAgICAub2soKQogICAgICAgIC5tYXAofGNvbnRlbnR8IGV4dHJhY3RfZnJwY19zZWNyZXRzKCZjb250ZW50KSkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBhZGFwdGVyID0gQXJjOjpuZXcoRnJwY1Byb2Nlc3NBZGFwdGVyIHsKICAgICAgICBzdGF0ZTogc3RhdGUuY2xvbmUoKSwKICAgICAgICBtZXRhOiBtZXRhLmNsb25lKCksCiAgICAgICAgY29ubmVjdGlvbjogQXJjOjpuZXcoTXV0ZXg6Om5ldyhUdW5uZWxDb25uZWN0aXZpdHlHYXRlOjpkZWZhdWx0KCkpKSwKICAgICAgICBzZWNyZXRzOiBzdGQ6OnN5bmM6OlJ3TG9jazo6bmV3KHNlY3JldHMpLAogICAgfSk7CiAgICBPayhzdGF0ZQogICAgICAgIC50dW5uZWwKICAgICAgICAuc3VwZXJ2aXNvcnMKICAgICAgICAuZW5zdXJlKGFkYXB0ZXIsIGluaXRpYWwsIHN0YXRlLnNodXRkb3duLmNsb25lKCkpCiAgICAgICAgLmF3YWl0KQp9CgpzdHJ1Y3QgRnJwY1Byb2Nlc3NBZGFwdGVyIHsKICAgIHN0YXRlOiBBcHBTdGF0ZSwKICAgIG1ldGE6IEZycGNJbnN0YW5jZU1ldGEsCiAgICBjb25uZWN0aW9uOiBBcmM8TXV0ZXg8VHVubmVsQ29ubmVjdGl2aXR5R2F0ZT4+LAogICAgc2VjcmV0czogc3RkOjpzeW5jOjpSd0xvY2s8VmVjPFN0cmluZz4+LAp9CgppbXBsIEZycGNQcm9jZXNzQWRhcHRlciB7CiAgICBhc3luYyBmbiBjdXJyZW50X21ldGEoJnNlbGYpIC0+IEZycGNJbnN0YW5jZU1ldGEgewogICAgICAgIHJlYWRfbWV0YSgmc2VsZi5zdGF0ZS5zdG9yYWdlLnN0b3JlLCAmc2VsZi5zdGF0ZSwgJnNlbGYubWV0YS5pZCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5vaygpCiAgICAgICAgICAgIC5mbGF0dGVuKCkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IHNlbGYubWV0YS5jbG9uZSgpKQogICAgfQp9CgojW2FzeW5jX3RyYWl0XQppbXBsIFR1bm5lbFByb2Nlc3NBZGFwdGVyIGZvciBGcnBjUHJvY2Vzc0FkYXB0ZXIgewogICAgZm4ga2V5KCZzZWxmKSAtPiBTdHJpbmcgewogICAgICAgIHN1cGVydmlzb3Jfa2V5KCZzZWxmLm1ldGEuaWQpCiAgICB9CgogICAgZm4gbGFiZWwoJnNlbGYpIC0+IFN0cmluZyB7CiAgICAgICAgImZycGMiLnRvX3N0cmluZygpCiAgICB9CgogICAgYXN5bmMgZm4gcHJlcGFyZV9sYXVuY2goJnNlbGYpIC0+IFJlc3VsdDxQcm9jZXNzTGF1bmNoLCBTdHJpbmc+IHsKICAgICAgICBsZXQgU29tZShiaW4pID0gZnJwX2V4ZWN1dGFibGUoJnNlbGYuc3RhdGUpIGVsc2UgewogICAgICAgICAgICByZXR1cm4gRXJyKCJGUlAgaXMgbm90IGluaXRpYWxpemVkIi50b19zdHJpbmcoKSk7CiAgICAgICAgfTsKICAgICAgICBsZXQgY29udGVudCA9IHJlYWRfY29uZmlnX2Zvcl9tZXRhKCZzZWxmLm1ldGEpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICAgICAgKnNlbGYKICAgICAgICAgICAgLnNlY3JldHMKICAgICAgICAgICAgLndyaXRlKCkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHxlcnJvcnwgZXJyb3IuaW50b19pbm5lcigpKSA9IGV4dHJhY3RfZnJwY19zZWNyZXRzKCZjb250ZW50KTsKICAgICAgICB2ZXJpZnlfZnJwY19jb25maWcoJnNlbGYuc3RhdGUsICZzZWxmLm1ldGEsICZjb250ZW50KQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBzZWxmLnNhbml0aXplX291dHB1dCgmZXJyb3IubWVzc2FnZSkpPzsKICAgICAgICBPayhQcm9jZXNzTGF1bmNoIHsKICAgICAgICAgICAgZXhlY3V0YWJsZTogYmluLmludG9fb3Nfc3RyaW5nKCksCiAgICAgICAgICAgIGFyZ3M6IHZlYyFbIi1jIi5pbnRvKCksIHNlbGYubWV0YS5jb25maWdfcGF0aC5jbG9uZSgpLmludG8oKV0sCiAgICAgICAgICAgIGN1cnJlbnRfZGlyOiBQYXRoQnVmOjpmcm9tKCZzZWxmLm1ldGEud29ya19kaXIpLAogICAgICAgIH0pCiAgICB9CgogICAgYXN5bmMgZm4gZmluZF9leGlzdGluZ19waWQoJnNlbGYpIC0+IE9wdGlvbjx1MzI+IHsKICAgICAgICBsZXQgcnVudGltZSA9IHJlYWRfcnVudGltZSgmc2VsZi5zdGF0ZS5zdG9yYWdlLnN0b3JlLCAmc2VsZi5tZXRhLmlkKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm9rKCkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKGRlZmF1bHRfcnVudGltZSk7CiAgICAgICAgcmVhZF9jYW5kaWRhdGVfcGlkKCZzZWxmLm1ldGEsICZydW50aW1lKS5hd2FpdAogICAgfQoKICAgIGFzeW5jIGZuIG93bnNfbGl2ZV9waWQoJnNlbGYsIHBpZDogdTMyKSAtPiBib29sIHsKICAgICAgICBpc19vd25lZF9mcnBjX3BpZChwaWQsICZzZWxmLm1ldGEuY29uZmlnX3BhdGgpLmF3YWl0CiAgICB9CgogICAgYXN5bmMgZm4gcGVyc2lzdF9zbmFwc2hvdCgmc2VsZiwgc25hcHNob3Q6ICZTdXBlcnZpc29yU25hcHNob3QpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICAgICAgbGV0IG11dCBydW50aW1lID0gcmVhZF9ydW50aW1lKCZzZWxmLnN0YXRlLnN0b3JhZ2Uuc3RvcmUsICZzZWxmLm1ldGEuaWQpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICAgICAgbGV0IHByZXZpb3VzX3J1bnRpbWUgPSBydW50aW1lLmNsb25lKCk7CiAgICAgICAgcnVudGltZS5kZXNpcmVkX3J1bm5pbmcgPSBzbmFwc2hvdC5kZXNpcmVkX3J1bm5pbmc7CiAgICAgICAgcnVudGltZS5waWQgPSBzbmFwc2hvdC5waWQ7CiAgICAgICAgcnVudGltZS5zdGFydGVkX2F0ID0gc25hcHNob3Quc3RhcnRlZF9hdC5jbG9uZSgpOwogICAgICAgIHJ1bnRpbWUuc3RvcHBlZF9hdCA9IHNuYXBzaG90LnN0b3BwZWRfYXQuY2xvbmUoKTsKICAgICAgICBydW50aW1lLmxhc3RfZXhpdF9jb2RlID0gaWYgc25hcHNob3QucnVubmluZyB7CiAgICAgICAgICAgIE5vbmUKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBzbmFwc2hvdAogICAgICAgICAgICAgICAgLmxhc3RfZmFpbHVyZQogICAgICAgICAgICAgICAgLmFzX3JlZigpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofGZhaWx1cmV8IGZhaWx1cmUuZXhpdF9jb2RlKQogICAgICAgIH07CiAgICAgICAgcnVudGltZS5sYXN0X21lc3NhZ2UgPSBzbmFwc2hvdC5sYXN0X21lc3NhZ2UuY2xvbmUoKTsKICAgICAgICBydW50aW1lLnN1cGVydmlzb3IgPSBzbmFwc2hvdC5jbG9uZSgpOwogICAgICAgIHdyaXRlX3J1bnRpbWUoJnNlbGYuc3RhdGUuc3RvcmFnZS5zdG9yZSwgJnNlbGYubWV0YS5pZCwgJnJ1bnRpbWUpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPSB1cGRhdGVfYWdncmVnYXRlX3R1bm5lbF9zdGF0ZSgmc2VsZi5zdGF0ZSkuYXdhaXQgewogICAgICAgICAgICBsZXQgcm9sbGJhY2sgPQogICAgICAgICAgICAgICAgd3JpdGVfcnVudGltZSgmc2VsZi5zdGF0ZS5zdG9yYWdlLnN0b3JlLCAmc2VsZi5tZXRhLmlkLCAmcHJldmlvdXNfcnVudGltZSkuYXdhaXQ7CiAgICAgICAgICAgIHJldHVybiBFcnIobWF0Y2ggcm9sbGJhY2sgewogICAgICAgICAgICAgICAgT2soKCkpID0+IGVycm9yLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgRXJyKHJvbGxiYWNrX2Vycm9yKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgZm9ybWF0ISgie2Vycm9yfTsgZmFpbGVkIHRvIHJvbGwgYmFjayBmcnBjIHJ1bnRpbWU6IHtyb2xsYmFja19lcnJvcn0iKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9KTsKICAgICAgICB9CiAgICAgICAgT2soKCkpCiAgICB9CgogICAgZm4gc2FuaXRpemVfb3V0cHV0KCZzZWxmLCBsaW5lOiAmc3RyKSAtPiBTdHJpbmcgewogICAgICAgIHNlbGYuc2VjcmV0cwogICAgICAgICAgICAucmVhZCgpCiAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8ZXJyb3J8IGVycm9yLmludG9faW5uZXIoKSkKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAuZmlsdGVyKHxzZWNyZXR8ICFzZWNyZXQuaXNfZW1wdHkoKSkKICAgICAgICAgICAgLmZvbGQobGluZS50b19zdHJpbmcoKSwgfGxpbmUsIHNlY3JldHwgewogICAgICAgICAgICAgICAgbGluZS5yZXBsYWNlKHNlY3JldCwgIltSRURBQ1RFRF0iKQogICAgICAgICAgICB9KQogICAgfQoKICAgIGFzeW5jIGZuIGFwcGVuZF9vdXRwdXQoJnNlbGYsIHN0cmVhbTogT3V0cHV0U3RyZWFtLCBsaW5lOiBTdHJpbmcpIHsKICAgICAgICBsZXQgbWV0YSA9IHNlbGYuY3VycmVudF9tZXRhKCkuYXdhaXQ7CiAgICAgICAgbGV0IGxpbmUgPSBtYXRjaCBzdHJlYW0gewogICAgICAgICAgICBPdXRwdXRTdHJlYW06OlN0ZG91dCA9PiBmb3JtYXQhKCJbT1VUXSB7bGluZX0iKSwKICAgICAgICAgICAgT3V0cHV0U3RyZWFtOjpTdGRlcnIgPT4gZm9ybWF0ISgiW0VSUl0ge2xpbmV9IiksCiAgICAgICAgfTsKICAgICAgICBpZiBsZXQgRXJyKGVycm9yKSA9IGFwcGVuZF9sb2dzKCZzZWxmLnN0YXRlLCAmbWV0YSwgc3RkOjpzbGljZTo6ZnJvbV9yZWYoJmxpbmUpKS5hd2FpdCB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKGluc3RhbmNlX2lkID0gJXNlbGYubWV0YS5pZCwgJWVycm9yLCAiZmFpbGVkIHRvIGFwcGVuZCBmcnBjIHByb2Nlc3MgbG9nIik7CiAgICAgICAgfQogICAgICAgIGhhbmRsZV9mcnBjX3J1bnRpbWVfc2lnbmFsKCZzZWxmLnN0YXRlLCAmbWV0YSwgJnNlbGYuY29ubmVjdGlvbiwgJmxpbmUpLmF3YWl0OwogICAgfQoKICAgIGFzeW5jIGZuIGFwcGVuZF9zdXBlcnZpc29yX2xvZygmc2VsZiwgbGluZTogU3RyaW5nKSB7CiAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPSBhcHBlbmRfbG9ncygmc2VsZi5zdGF0ZSwgJnNlbGYubWV0YSwgJltsaW5lXSkuYXdhaXQgewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuIShpbnN0YW5jZV9pZCA9ICVzZWxmLm1ldGEuaWQsICVlcnJvciwgImZhaWxlZCB0byBhcHBlbmQgZnJwYyBzdXBlcnZpc29yIGxvZyIpOwogICAgICAgIH0KICAgIH0KCiAgICBhc3luYyBmbiBzZXRfZXhwZWN0ZWRfc3RvcCgmc2VsZiwgZXhwZWN0ZWQ6IGJvb2wpIHsKICAgICAgICBsZXQgbXV0IGNvbm5lY3Rpb24gPSBzZWxmLmNvbm5lY3Rpb24ubG9jaygpLmF3YWl0OwogICAgICAgIGNvbm5lY3Rpb24uc2V0X2V4cGVjdGVkX3N0b3AoZXhwZWN0ZWQpOwogICAgfQoKICAgIGFzeW5jIGZuIG9uX3VuZXhwZWN0ZWRfZXhpdCgmc2VsZiwgcGlkOiBPcHRpb248dTMyPiwgZmFpbHVyZTogJlN1cGVydmlzb3JGYWlsdXJlKSB7CiAgICAgICAgbGV0IG1ldGEgPSBzZWxmLmN1cnJlbnRfbWV0YSgpLmF3YWl0OwogICAgICAgIGxldCBtdXQgbGluZXMgPSB2ZWMhW2Zvcm1hdF9mYWlsdXJlX3N1bW1hcnkoImZycGMiLCBwaWQsIGZhaWx1cmUpXTsKICAgICAgICBsaW5lcy5leHRlbmQoCiAgICAgICAgICAgIGZhaWx1cmUKICAgICAgICAgICAgICAgIC5yZWNlbnRfc3Rkb3V0CiAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAubWFwKHxsaW5lfCBmb3JtYXQhKCJbTEFTVCBzdGRvdXRdIHtsaW5lfSIpKSwKICAgICAgICApOwogICAgICAgIGxpbmVzLmV4dGVuZCgKICAgICAgICAgICAgZmFpbHVyZQogICAgICAgICAgICAgICAgLnJlY2VudF9zdGRlcnIKICAgICAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgICAgIC5tYXAofGxpbmV8IGZvcm1hdCEoIltMQVNUIHN0ZGVycl0ge2xpbmV9IikpLAogICAgICAgICk7CiAgICAgICAgbGV0IF8gPSBhcHBlbmRfbG9ncygmc2VsZi5zdGF0ZSwgJm1ldGEsICZsaW5lcykuYXdhaXQ7CiAgICAgICAgZW1pdF9mcnBjX2Nvbm5lY3Rpdml0eV93aXRoX3N0YXRlKAogICAgICAgICAgICAmc2VsZi5zdGF0ZSwKICAgICAgICAgICAgJm1ldGEsCiAgICAgICAgICAgICZzZWxmLmNvbm5lY3Rpb24sCiAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICBTb21lKCZmYWlsdXJlLnJlYXNvbiksCiAgICAgICAgICAgIHBpZCwKICAgICAgICApCiAgICAgICAgLmF3YWl0OwogICAgfQoKICAgIGFzeW5jIGZuIHJlbW92ZV9waWRfZmlsZSgmc2VsZikgewogICAgICAgIHJlbW92ZV9waWRfZmlsZSgmcGlkX3BhdGhfZm9yX21ldGEoJnNlbGYubWV0YSkpLmF3YWl0OwogICAgfQoKICAgIGFzeW5jIGZuIHdyaXRlX3BpZF9maWxlKCZzZWxmLCBwaWQ6IHUzMikgewogICAgICAgIHdyaXRlX3BpZF9maWxlKCZwaWRfcGF0aF9mb3JfbWV0YSgmc2VsZi5tZXRhKSwgcGlkKS5hd2FpdDsKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBleHRyYWN0X2ZycGNfc2VjcmV0cyhjb250ZW50OiAmc3RyKSAtPiBWZWM8U3RyaW5nPiB7CiAgICBsZXQgbXV0IHNlY3JldHMgPSBjb250ZW50CiAgICAgICAgLmxpbmVzKCkKICAgICAgICAuZmlsdGVyX21hcChleHRyYWN0X3NlbnNpdGl2ZV9hc3NpZ25tZW50KQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgaWYgbGV0IE9rKGRvY3VtZW50KSA9IHRvbWw6OmZyb21fc3RyOjo8dG9tbDo6VmFsdWU+KGNvbnRlbnQpIHsKICAgICAgICBjb2xsZWN0X3RvbWxfc2VjcmV0cygmZG9jdW1lbnQsIGZhbHNlLCAmbXV0IHNlY3JldHMpOwogICAgfQogICAgbGV0IG11dCB1bmlxdWUgPSBWZWM6OndpdGhfY2FwYWNpdHkoc2VjcmV0cy5sZW4oKSk7CiAgICBmb3Igc2VjcmV0IGluIHNlY3JldHMgewogICAgICAgIGlmICFzZWNyZXQuaXNfZW1wdHkoKSAmJiAhdW5pcXVlLml0ZXIoKS5hbnkofHZhbHVlfCB2YWx1ZSA9PSAmc2VjcmV0KSB7CiAgICAgICAgICAgIHVuaXF1ZS5wdXNoKHNlY3JldCk7CiAgICAgICAgfQogICAgfQogICAgdW5pcXVlCn0KCmZuIGV4dHJhY3Rfc2Vuc2l0aXZlX2Fzc2lnbm1lbnQobGluZTogJnN0cikgLT4gT3B0aW9uPFN0cmluZz4gewogICAgbGV0IGxpbmUgPSBsaW5lLnRyaW0oKTsKICAgIGlmIGxpbmUuaXNfZW1wdHkoKSB8fCBsaW5lLnN0YXJ0c193aXRoKCcjJykgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgbGV0IChrZXksIHZhbHVlKSA9IGxpbmUuc3BsaXRfb25jZSgnPScpPzsKICAgIGxldCBrZXkgPSBrZXkKICAgICAgICAucnNwbGl0KCcuJykKICAgICAgICAubmV4dCgpCiAgICAgICAgLnVud3JhcF9vcihrZXkpCiAgICAgICAgLnRyaW0oKQogICAgICAgIC50cmltX21hdGNoZXMoWyciJywgJ1wnJ10pOwogICAgaXNfc2Vuc2l0aXZlX2ZycGNfa2V5KGtleSkKICAgICAgICAudGhlbih8fCBwYXJzZV90b21sX3NjYWxhcl9mYWxsYmFjayh2YWx1ZSkpCiAgICAgICAgLmZsYXR0ZW4oKQp9CgpmbiBwYXJzZV90b21sX3NjYWxhcl9mYWxsYmFjayh2YWx1ZTogJnN0cikgLT4gT3B0aW9uPFN0cmluZz4gewogICAgbGV0IHZhbHVlID0gdmFsdWUudHJpbV9zdGFydCgpOwogICAgbGV0IHF1b3RlID0gdmFsdWUuY2hhcnMoKS5uZXh0KCk7CiAgICBpZiBtYXRjaGVzIShxdW90ZSwgU29tZSgnIicpIHwgU29tZSgnXCcnKSkgewogICAgICAgIGxldCBxdW90ZSA9IHF1b3RlPzsKICAgICAgICBsZXQgbXV0IGVzY2FwZWQgPSBmYWxzZTsKICAgICAgICBmb3IgKGluZGV4LCBjaGFyYWN0ZXIpIGluIHZhbHVlLmNoYXJfaW5kaWNlcygpLnNraXAoMSkgewogICAgICAgICAgICBpZiBxdW90ZSA9PSAnIicgJiYgY2hhcmFjdGVyID09ICdcXCcgJiYgIWVzY2FwZWQgewogICAgICAgICAgICAgICAgZXNjYXBlZCA9IHRydWU7CiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiBjaGFyYWN0ZXIgPT0gcXVvdGUgJiYgIWVzY2FwZWQgewogICAgICAgICAgICAgICAgcmV0dXJuIFNvbWUodmFsdWVbMS4uaW5kZXhdLnRvX3N0cmluZygpKS5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZXNjYXBlZCA9IGZhbHNlOwogICAgICAgIH0KICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIHZhbHVlCiAgICAgICAgLnNwbGl0KCcjJykKICAgICAgICAubmV4dCgpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIC5tYXAoVG9TdHJpbmc6OnRvX3N0cmluZykKfQoKZm4gY29sbGVjdF90b21sX3NlY3JldHModmFsdWU6ICZ0b21sOjpWYWx1ZSwgc2Vuc2l0aXZlOiBib29sLCBzZWNyZXRzOiAmbXV0IFZlYzxTdHJpbmc+KSB7CiAgICBtYXRjaCB2YWx1ZSB7CiAgICAgICAgdG9tbDo6VmFsdWU6OlN0cmluZyh2YWx1ZSkgaWYgc2Vuc2l0aXZlID0+IHNlY3JldHMucHVzaCh2YWx1ZS5jbG9uZSgpKSwKICAgICAgICB0b21sOjpWYWx1ZTo6QXJyYXkodmFsdWVzKSA9PiB7CiAgICAgICAgICAgIGZvciB2YWx1ZSBpbiB2YWx1ZXMgewogICAgICAgICAgICAgICAgY29sbGVjdF90b21sX3NlY3JldHModmFsdWUsIHNlbnNpdGl2ZSwgc2VjcmV0cyk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgdG9tbDo6VmFsdWU6OlRhYmxlKHRhYmxlKSA9PiB7CiAgICAgICAgICAgIGZvciAoa2V5LCB2YWx1ZSkgaW4gdGFibGUgewogICAgICAgICAgICAgICAgY29sbGVjdF90b21sX3NlY3JldHModmFsdWUsIHNlbnNpdGl2ZSB8fCBpc19zZW5zaXRpdmVfZnJwY19rZXkoa2V5KSwgc2VjcmV0cyk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgXyA9PiB7fQogICAgfQp9CgpmbiBpc19zZW5zaXRpdmVfZnJwY19rZXkoa2V5OiAmc3RyKSAtPiBib29sIHsKICAgIGxldCBub3JtYWxpemVkID0ga2V5CiAgICAgICAgLmNoYXJzKCkKICAgICAgICAuZmlsdGVyKHxjaGFyYWN0ZXJ8IGNoYXJhY3Rlci5pc19hc2NpaV9hbHBoYW51bWVyaWMoKSkKICAgICAgICAuZmxhdF9tYXAoY2hhcjo6dG9fbG93ZXJjYXNlKQogICAgICAgIC5jb2xsZWN0Ojo8U3RyaW5nPigpOwogICAgbm9ybWFsaXplZC5jb250YWlucygidG9rZW4iKQogICAgICAgIHx8IG5vcm1hbGl6ZWQuY29udGFpbnMoInNlY3JldCIpCiAgICAgICAgfHwgbm9ybWFsaXplZC5jb250YWlucygicGFzc3dvcmQiKQogICAgICAgIHx8IG5vcm1hbGl6ZWQuY29udGFpbnMoInBhc3N3ZCIpCiAgICAgICAgfHwgbm9ybWFsaXplZC5jb250YWlucygiY3JlZGVudGlhbCIpCn0KCmZuIGZvcm1hdF9mYWlsdXJlX3N1bW1hcnkobGFiZWw6ICZzdHIsIHBpZDogT3B0aW9uPHUzMj4sIGZhaWx1cmU6ICZTdXBlcnZpc29yRmFpbHVyZSkgLT4gU3RyaW5nIHsKICAgIGxldCBtdXQgcGFydHMgPSB2ZWMhWwogICAgICAgIGZvcm1hdCEoIntsYWJlbH0gc3RvcHBlZCB1bmV4cGVjdGVkbHkiKSwKICAgICAgICBmb3JtYXQhKAogICAgICAgICAgICAicGlkPXt9IiwKICAgICAgICAgICAgcGlkLm1hcF9vcl9lbHNlKHx8ICItIi50b19zdHJpbmcoKSwgfHBpZHwgcGlkLnRvX3N0cmluZygpKQogICAgICAgICksCiAgICAgICAgZm9ybWF0ISgic3RhcnRlZEF0PXt9IiwgZmFpbHVyZS5zdGFydGVkX2F0LmFzX2RlcmVmKCkudW53cmFwX29yKCItIikpLAogICAgICAgIGZvcm1hdCEoImV4aXRlZEF0PXt9IiwgZmFpbHVyZS5hdCksCiAgICAgICAgZm9ybWF0ISgicmVhc29uPXt9IiwgZmFpbHVyZS5yZWFzb24pLAogICAgICAgIGZvcm1hdCEoInVwdGltZU1zPXt9IiwgZmFpbHVyZS51cHRpbWVfbXMpLAogICAgXTsKICAgIGlmIGxldCBTb21lKHNpZ25hbCkgPSBmYWlsdXJlLnNpZ25hbCB7CiAgICAgICAgcGFydHMucHVzaChmb3JtYXQhKCJzaWduYWw9e3NpZ25hbH0iKSk7CiAgICB9CiAgICBpZiBsZXQgU29tZShjb2RlKSA9IGZhaWx1cmUuZXhpdF9jb2RlIHsKICAgICAgICBwYXJ0cy5wdXNoKGZvcm1hdCEoImV4aXRDb2RlPXtjb2RlfSIpKTsKICAgIH0KICAgIGlmIGxldCBTb21lKGRpYWdub3NpcykgPSBmYWlsdXJlLmRpYWdub3Npcy5hc19kZXJlZigpIHsKICAgICAgICBwYXJ0cy5wdXNoKGZvcm1hdCEoImRpYWdub3Npcz17ZGlhZ25vc2lzfSIpKTsKICAgIH0KICAgIHBhcnRzLmpvaW4oIiAiKQp9Cgphc3luYyBmbiBoYW5kbGVfZnJwY19ydW50aW1lX3NpZ25hbCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBtZXRhOiAmRnJwY0luc3RhbmNlTWV0YSwKICAgIGNvbm5lY3Rpb246ICZBcmM8TXV0ZXg8VHVubmVsQ29ubmVjdGl2aXR5R2F0ZT4+LAogICAgbGluZTogJnN0ciwKKSB7CiAgICBsZXQgU29tZShtZXNzYWdlKSA9IG5vcm1hbGl6ZV9mcnBjX3R1bm5lbF9ldmVudF9tZXNzYWdlKGxpbmUpIGVsc2UgewogICAgICAgIHJldHVybjsKICAgIH07CiAgICBsZXQgbm9ybWFsaXplZCA9IG1lc3NhZ2UudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBsZXQgcGlkID0gc3RhdGUKICAgICAgICAudHVubmVsCiAgICAgICAgLnN1cGVydmlzb3JzCiAgICAgICAgLmdldCgmc3VwZXJ2aXNvcl9rZXkoJm1ldGEuaWQpKQogICAgICAgIC5hd2FpdAogICAgICAgIC5hbmRfdGhlbih8aGFuZGxlfCBoYW5kbGUuc25hcHNob3QoKS5waWQpOwogICAgaWYgRlJQQ19DT05ORUNURURfUEFUVEVSTlMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmFueSh8cGF0dGVybnwgbm9ybWFsaXplZC5jb250YWlucyhwYXR0ZXJuKSkKICAgIHsKICAgICAgICBlbWl0X2ZycGNfY29ubmVjdGl2aXR5X3dpdGhfc3RhdGUoc3RhdGUsIG1ldGEsIGNvbm5lY3Rpb24sIHRydWUsIFNvbWUoJm1lc3NhZ2UpLCBwaWQpLmF3YWl0OwogICAgfSBlbHNlIGlmIEZSUENfRElTQ09OTkVDVEVEX1BBVFRFUk5TCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5hbnkofHBhdHRlcm58IG5vcm1hbGl6ZWQuY29udGFpbnMocGF0dGVybikpCiAgICB7CiAgICAgICAgZW1pdF9mcnBjX2Nvbm5lY3Rpdml0eV93aXRoX3N0YXRlKHN0YXRlLCBtZXRhLCBjb25uZWN0aW9uLCBmYWxzZSwgU29tZSgmbWVzc2FnZSksIHBpZCkKICAgICAgICAgICAgLmF3YWl0OwogICAgfQp9Cgphc3luYyBmbiBlbWl0X2ZycGNfY29ubmVjdGl2aXR5X3dpdGhfc3RhdGUoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgbWV0YTogJkZycGNJbnN0YW5jZU1ldGEsCiAgICBjb25uZWN0aW9uOiAmQXJjPE11dGV4PFR1bm5lbENvbm5lY3Rpdml0eUdhdGU+PiwKICAgIGNvbm5lY3RlZDogYm9vbCwKICAgIG1lc3NhZ2U6IE9wdGlvbjwmc3RyPiwKICAgIHBpZDogT3B0aW9uPHUzMj4sCikgewogICAgbGV0IGV2ZW50X21lc3NhZ2UgPSBtZXNzYWdlLm1hcCh8dmFsdWV8IGZvcm1hdCEoInt9OiB7dmFsdWV9IiwgbWV0YS5uYW1lKSk7CiAgICBpZiBjb25uZWN0ZWQgewogICAgICAgIGxldCBtdXQgY29ubmVjdGlvbiA9IGNvbm5lY3Rpb24ubG9jaygpLmF3YWl0OwogICAgICAgIG1hdGNoIGNvbm5lY3Rpb24ub2JzZXJ2ZV9jb25uZWN0ZWQodG9raW86OnRpbWU6Okluc3RhbnQ6Om5vdygpKSB7CiAgICAgICAgICAgIENvbm5lY3RlZEV2ZW50QWN0aW9uOjpJZ25vcmUgPT4gcmV0dXJuLAogICAgICAgICAgICBDb25uZWN0ZWRFdmVudEFjdGlvbjo6UHVibGlzaENvbm5lY3RlZCA9PiB7fQogICAgICAgICAgICBDb25uZWN0ZWRFdmVudEFjdGlvbjo6UHVibGlzaERpc2Nvbm5lY3RUaGVuQ29ubmVjdGVkKGRpc2Nvbm5lY3RlZCkgPT4gewogICAgICAgICAgICAgICAgcHVibGlzaF9mcnBjX2Nvbm5lY3Rpdml0eV9ldmVudCgKICAgICAgICAgICAgICAgICAgICBzdGF0ZSwKICAgICAgICAgICAgICAgICAgICBtZXRhLAogICAgICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICAgICAgICAgIGRpc2Nvbm5lY3RlZC5waWQsCiAgICAgICAgICAgICAgICAgICAgZGlzY29ubmVjdGVkLm1lc3NhZ2UuYXNfZGVyZWYoKSwKICAgICAgICAgICAgICAgICAgICBTb21lKCZkaXNjb25uZWN0ZWQuaGFwcGVuZWRfYXQpLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgLmF3YWl0OwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHB1Ymxpc2hfZnJwY19jb25uZWN0aXZpdHlfZXZlbnQoc3RhdGUsIG1ldGEsIHRydWUsIHBpZCwgZXZlbnRfbWVzc2FnZS5hc19kZXJlZigpLCBOb25lKQogICAgICAgICAgICAuYXdhaXQ7CiAgICAgICAgcmV0dXJuOwogICAgfQoKICAgIGxldCBkaXNjb25uZWN0ZWQgPSBUdW5uZWxEaXNjb25uZWN0RXZlbnQgewogICAgICAgIGhhcHBlbmVkX2F0OiB0aW1lX3V0aWxzOjpub3dfaXNvKCksCiAgICAgICAgbWVzc2FnZTogZXZlbnRfbWVzc2FnZSwKICAgICAgICBwaWQsCiAgICB9OwogICAgbGV0IFNvbWUodGltZXIpID0gY29ubmVjdGlvbgogICAgICAgIC5sb2NrKCkKICAgICAgICAuYXdhaXQKICAgICAgICAub2JzZXJ2ZV9kaXNjb25uZWN0ZWQodG9raW86OnRpbWU6Okluc3RhbnQ6Om5vdygpLCBkaXNjb25uZWN0ZWQpCiAgICBlbHNlIHsKICAgICAgICByZXR1cm47CiAgICB9OwogICAgbGV0IHN0YXRlID0gc3RhdGUuY2xvbmUoKTsKICAgIGxldCBtZXRhID0gbWV0YS5jbG9uZSgpOwogICAgbGV0IGNvbm5lY3Rpb24gPSBBcmM6OmNsb25lKGNvbm5lY3Rpb24pOwogICAgbGV0IHNodXRkb3duID0gc3RhdGUuc2h1dGRvd24uY2xvbmUoKTsKICAgIGxldCB0YXNrX3N0YXRlID0gc3RhdGUuY2xvbmUoKTsKICAgIHN0YXRlLnNwYXduX2JhY2tncm91bmQoImZycGMtZGlzY29ubmVjdC1jb25maXJtYXRpb24iLCBhc3luYyBtb3ZlIHsKICAgICAgICB0b2tpbzo6c2VsZWN0ISB7CiAgICAgICAgICAgIF8gPSB0b2tpbzo6dGltZTo6c2xlZXBfdW50aWwodGltZXIuZGVhZGxpbmUpID0+IHt9CiAgICAgICAgICAgIF8gPSB0aW1lci5jYW5jZWxsZWQoKSA9PiByZXR1cm4sCiAgICAgICAgICAgIF8gPSBzaHV0ZG93bi5jYW5jZWxsZWQoKSA9PiByZXR1cm4sCiAgICAgICAgfQogICAgICAgIGxldCBtdXQgY29ubmVjdGlvbiA9IGNvbm5lY3Rpb24ubG9jaygpLmF3YWl0OwogICAgICAgIGxldCBTb21lKGRpc2Nvbm5lY3RlZCkgPSBjb25uZWN0aW9uLmNvbmZpcm1fZGlzY29ubmVjdCgmdGltZXIsIHRva2lvOjp0aW1lOjpJbnN0YW50Ojpub3coKSkKICAgICAgICBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH07CiAgICAgICAgcHVibGlzaF9mcnBjX2Nvbm5lY3Rpdml0eV9ldmVudCgKICAgICAgICAgICAgJnRhc2tfc3RhdGUsCiAgICAgICAgICAgICZtZXRhLAogICAgICAgICAgICBmYWxzZSwKICAgICAgICAgICAgZGlzY29ubmVjdGVkLnBpZCwKICAgICAgICAgICAgZGlzY29ubmVjdGVkLm1lc3NhZ2UuYXNfZGVyZWYoKSwKICAgICAgICAgICAgU29tZSgmZGlzY29ubmVjdGVkLmhhcHBlbmVkX2F0KSwKICAgICAgICApCiAgICAgICAgLmF3YWl0OwogICAgfSk7Cn0KCmFzeW5jIGZuIHB1Ymxpc2hfZnJwY19jb25uZWN0aXZpdHlfZXZlbnQoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgbWV0YTogJkZycGNJbnN0YW5jZU1ldGEsCiAgICBjb25uZWN0ZWQ6IGJvb2wsCiAgICBwaWQ6IE9wdGlvbjx1MzI+LAogICAgbWVzc2FnZTogT3B0aW9uPCZzdHI+LAogICAgaGFwcGVuZWRfYXQ6IE9wdGlvbjwmc3RyPiwKKSB7CiAgICBpZiBsZXQgRXJyKGVycm9yKSA9IHN5c3RlbV9ldmVudHM6OnB1Ymxpc2hfdHVubmVsX2Nvbm5lY3Rpdml0eV9ldmVudCgKICAgICAgICBzdGF0ZSwKICAgICAgICBzeXN0ZW1fZXZlbnRzOjpUdW5uZWxDb25uZWN0aXZpdHlFdmVudCB7CiAgICAgICAgICAgIHR1bm5lbDogImZycCIsCiAgICAgICAgICAgIGNvbm5lY3RlZCwKICAgICAgICAgICAgcGlkLAogICAgICAgICAgICBtZXNzYWdlLAogICAgICAgICAgICBpbnN0YW5jZV9pZDogU29tZSgmbWV0YS5pZCksCiAgICAgICAgICAgIGluc3RhbmNlX25hbWU6IFNvbWUoJm1ldGEubmFtZSksCiAgICAgICAgICAgIGlzX3ByaW1hcnk6IFNvbWUobWV0YS5pc19wcmltYXJ5KSwKICAgICAgICAgICAgaGFwcGVuZWRfYXQsCiAgICAgICAgfSwKICAgICkKICAgIC5hd2FpdAogICAgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKGluc3RhbmNlX2lkID0gJW1ldGEuaWQsICVlcnJvciwgImZhaWxlZCB0byBwdWJsaXNoIGZycGMgY29ubmVjdGl2aXR5IGV2ZW50Iik7CiAgICB9Cn0K
+use async_trait::async_trait;
+
+use super::*;
+use crate::tunnels::{
+    connectivity::{ConnectedEventAction, TunnelConnectivityGate, TunnelDisconnectEvent},
+    supervisor::{OutputStream, ProcessLaunch, SupervisorHandle, TunnelProcessAdapter},
+};
+
+pub(super) fn supervisor_key(id: &str) -> String {
+    format!("frpc:{id}")
+}
+
+pub(super) async fn ensure_frpc_supervisor(
+    state: &AppState,
+    meta: &FrpcInstanceMeta,
+) -> FrpcResult<SupervisorHandle> {
+    let runtime = read_runtime(&state.storage.store, &meta.id).await?;
+    let mut initial = runtime.supervisor;
+    initial.desired_running = runtime.desired_running;
+    initial.pid = runtime.pid.or(initial.pid);
+    initial.running = initial.pid.is_some();
+    initial.started_at = runtime.started_at.or(initial.started_at);
+    initial.stopped_at = runtime.stopped_at.or(initial.stopped_at);
+    initial.last_message = runtime.last_message.or(initial.last_message);
+    let secrets = read_config_for_meta(meta)
+        .await
+        .ok()
+        .map(|content| extract_frpc_secrets(&content))
+        .unwrap_or_default();
+    let adapter = Arc::new(FrpcProcessAdapter {
+        state: state.clone(),
+        meta: meta.clone(),
+        connection: Arc::new(Mutex::new(TunnelConnectivityGate::default())),
+        secrets: std::sync::RwLock::new(secrets),
+    });
+    Ok(state
+        .tunnel
+        .supervisors
+        .ensure(adapter, initial, state.shutdown.clone())
+        .await)
+}
+
+struct FrpcProcessAdapter {
+    state: AppState,
+    meta: FrpcInstanceMeta,
+    connection: Arc<Mutex<TunnelConnectivityGate>>,
+    secrets: std::sync::RwLock<Vec<String>>,
+}
+
+impl FrpcProcessAdapter {
+    async fn current_meta(&self) -> FrpcInstanceMeta {
+        read_meta(&self.state.storage.store, &self.state, &self.meta.id)
+            .await
+            .ok()
+            .flatten()
+            .unwrap_or_else(|| self.meta.clone())
+    }
+}
+
+#[async_trait]
+impl TunnelProcessAdapter for FrpcProcessAdapter {
+    fn key(&self) -> String {
+        supervisor_key(&self.meta.id)
+    }
+
+    fn label(&self) -> String {
+        "frpc".to_string()
+    }
+
+    async fn prepare_launch(&self) -> Result<ProcessLaunch, String> {
+        let Some(bin) = frp_executable(&self.state) else {
+            return Err("FRP is not initialized".to_string());
+        };
+        let content = read_config_for_meta(&self.meta)
+            .await
+            .map_err(|error| error.to_string())?;
+        *self
+            .secrets
+            .write()
+            .unwrap_or_else(|error| error.into_inner()) = extract_frpc_secrets(&content);
+        verify_frpc_config(&self.state, &self.meta, &content)
+            .await
+            .map_err(|error| self.sanitize_output(&error.message))?;
+        Ok(ProcessLaunch {
+            executable: bin.into_os_string(),
+            args: vec!["-c".into(), self.meta.config_path.clone().into()],
+            current_dir: PathBuf::from(&self.meta.work_dir),
+        })
+    }
+
+    async fn find_existing_pid(&self) -> Option<u32> {
+        let runtime = read_runtime(&self.state.storage.store, &self.meta.id)
+            .await
+            .ok()
+            .unwrap_or_else(default_runtime);
+        read_candidate_pid(&self.meta, &runtime).await
+    }
+
+    async fn owns_live_pid(&self, pid: u32) -> bool {
+        is_owned_frpc_pid(pid, &self.meta.config_path).await
+    }
+
+    async fn persist_snapshot(&self, snapshot: &SupervisorSnapshot) -> Result<(), String> {
+        let mut runtime = read_runtime(&self.state.storage.store, &self.meta.id)
+            .await
+            .map_err(|error| error.to_string())?;
+        let previous_runtime = runtime.clone();
+        runtime.desired_running = snapshot.desired_running;
+        runtime.pid = snapshot.pid;
+        runtime.started_at = snapshot.started_at.clone();
+        runtime.stopped_at = snapshot.stopped_at.clone();
+        runtime.last_exit_code = if snapshot.running {
+            None
+        } else {
+            snapshot
+                .last_failure
+                .as_ref()
+                .and_then(|failure| failure.exit_code)
+        };
+        runtime.last_message = snapshot.last_message.clone();
+        runtime.supervisor = snapshot.clone();
+        write_runtime(&self.state.storage.store, &self.meta.id, &runtime)
+            .await
+            .map_err(|error| error.to_string())?;
+        if let Err(error) = update_aggregate_tunnel_state(&self.state).await {
+            let rollback =
+                write_runtime(&self.state.storage.store, &self.meta.id, &previous_runtime).await;
+            return Err(match rollback {
+                Ok(()) => error.to_string(),
+                Err(rollback_error) => {
+                    format!("{error}; failed to roll back frpc runtime: {rollback_error}")
+                }
+            });
+        }
+        Ok(())
+    }
+
+    fn sanitize_output(&self, line: &str) -> String {
+        self.secrets
+            .read()
+            .unwrap_or_else(|error| error.into_inner())
+            .iter()
+            .filter(|secret| !secret.is_empty())
+            .fold(line.to_string(), |line, secret| {
+                line.replace(secret, "[REDACTED]")
+            })
+    }
+
+    async fn append_output(&self, stream: OutputStream, line: String) {
+        let meta = self.current_meta().await;
+        let line = match stream {
+            OutputStream::Stdout => format!("[OUT] {line}"),
+            OutputStream::Stderr => format!("[ERR] {line}"),
+        };
+        if let Err(error) = append_logs(&self.state, &meta, std::slice::from_ref(&line)).await {
+            tracing::warn!(instance_id = %self.meta.id, %error, "failed to append frpc process log");
+        }
+        handle_frpc_runtime_signal(&self.state, &meta, &self.connection, &line).await;
+    }
+
+    async fn append_supervisor_log(&self, line: String) {
+        if let Err(error) = append_logs(&self.state, &self.meta, &[line]).await {
+            tracing::warn!(instance_id = %self.meta.id, %error, "failed to append frpc supervisor log");
+        }
+    }
+
+    async fn set_expected_stop(&self, expected: bool) {
+        let mut connection = self.connection.lock().await;
+        connection.set_expected_stop(expected);
+    }
+
+    async fn on_unexpected_exit(&self, pid: Option<u32>, failure: &SupervisorFailure) {
+        let meta = self.current_meta().await;
+        let mut lines = vec![format_failure_summary("frpc", pid, failure)];
+        lines.extend(
+            failure
+                .recent_stdout
+                .iter()
+                .map(|line| format!("[LAST stdout] {line}")),
+        );
+        lines.extend(
+            failure
+                .recent_stderr
+                .iter()
+                .map(|line| format!("[LAST stderr] {line}")),
+        );
+        let _ = append_logs(&self.state, &meta, &lines).await;
+        emit_frpc_connectivity_with_state(
+            &self.state,
+            &meta,
+            &self.connection,
+            false,
+            Some(&failure.reason),
+            pid,
+        )
+        .await;
+    }
+
+    async fn remove_pid_file(&self) {
+        remove_pid_file(&pid_path_for_meta(&self.meta)).await;
+    }
+
+    async fn write_pid_file(&self, pid: u32) {
+        write_pid_file(&pid_path_for_meta(&self.meta), pid).await;
+    }
+}
+
+pub(super) fn extract_frpc_secrets(content: &str) -> Vec<String> {
+    let mut secrets = content
+        .lines()
+        .filter_map(extract_sensitive_assignment)
+        .collect::<Vec<_>>();
+    if let Ok(document) = toml::from_str::<toml::Value>(content) {
+        collect_toml_secrets(&document, false, &mut secrets);
+    }
+    let mut unique = Vec::with_capacity(secrets.len());
+    for secret in secrets {
+        if !secret.is_empty() && !unique.iter().any(|value| value == &secret) {
+            unique.push(secret);
+        }
+    }
+    unique
+}
+
+fn extract_sensitive_assignment(line: &str) -> Option<String> {
+    let line = line.trim();
+    if line.is_empty() || line.starts_with('#') {
+        return None;
+    }
+    let (key, value) = line.split_once('=')?;
+    let key = key
+        .rsplit('.')
+        .next()
+        .unwrap_or(key)
+        .trim()
+        .trim_matches(['"', '\'']);
+    is_sensitive_frpc_key(key)
+        .then(|| parse_toml_scalar_fallback(value))
+        .flatten()
+}
+
+fn parse_toml_scalar_fallback(value: &str) -> Option<String> {
+    let value = value.trim_start();
+    let quote = value.chars().next();
+    if matches!(quote, Some('"') | Some('\'')) {
+        let quote = quote?;
+        let mut escaped = false;
+        for (index, character) in value.char_indices().skip(1) {
+            if quote == '"' && character == '\\' && !escaped {
+                escaped = true;
+                continue;
+            }
+            if character == quote && !escaped {
+                return Some(value[1..index].to_string()).filter(|value| !value.is_empty());
+            }
+            escaped = false;
+        }
+        return None;
+    }
+    value
+        .split('#')
+        .next()
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .map(ToString::to_string)
+}
+
+fn collect_toml_secrets(value: &toml::Value, sensitive: bool, secrets: &mut Vec<String>) {
+    match value {
+        toml::Value::String(value) if sensitive => secrets.push(value.clone()),
+        toml::Value::Array(values) => {
+            for value in values {
+                collect_toml_secrets(value, sensitive, secrets);
+            }
+        }
+        toml::Value::Table(table) => {
+            for (key, value) in table {
+                collect_toml_secrets(value, sensitive || is_sensitive_frpc_key(key), secrets);
+            }
+        }
+        _ => {}
+    }
+}
+
+fn is_sensitive_frpc_key(key: &str) -> bool {
+    let normalized = key
+        .chars()
+        .filter(|character| character.is_ascii_alphanumeric())
+        .flat_map(char::to_lowercase)
+        .collect::<String>();
+    normalized.contains("token")
+        || normalized.contains("secret")
+        || normalized.contains("password")
+        || normalized.contains("passwd")
+        || normalized.contains("credential")
+}
+
+fn format_failure_summary(label: &str, pid: Option<u32>, failure: &SupervisorFailure) -> String {
+    let mut parts = vec![
+        format!("{label} stopped unexpectedly"),
+        format!(
+            "pid={}",
+            pid.map_or_else(|| "-".to_string(), |pid| pid.to_string())
+        ),
+        format!("startedAt={}", failure.started_at.as_deref().unwrap_or("-")),
+        format!("exitedAt={}", failure.at),
+        format!("reason={}", failure.reason),
+        format!("uptimeMs={}", failure.uptime_ms),
+    ];
+    if let Some(signal) = failure.signal {
+        parts.push(format!("signal={signal}"));
+    }
+    if let Some(code) = failure.exit_code {
+        parts.push(format!("exitCode={code}"));
+    }
+    if let Some(diagnosis) = failure.diagnosis.as_deref() {
+        parts.push(format!("diagnosis={diagnosis}"));
+    }
+    parts.join(" ")
+}
+
+async fn handle_frpc_runtime_signal(
+    state: &AppState,
+    meta: &FrpcInstanceMeta,
+    connection: &Arc<Mutex<TunnelConnectivityGate>>,
+    line: &str,
+) {
+    let Some(message) = normalize_frpc_tunnel_event_message(line) else {
+        return;
+    };
+    let normalized = message.to_ascii_lowercase();
+    let pid = state
+        .tunnel
+        .supervisors
+        .get(&supervisor_key(&meta.id))
+        .await
+        .and_then(|handle| handle.snapshot().pid);
+    if FRPC_CONNECTED_PATTERNS
+        .iter()
+        .any(|pattern| normalized.contains(pattern))
+    {
+        emit_frpc_connectivity_with_state(state, meta, connection, true, Some(&message), pid).await;
+    } else if FRPC_DISCONNECTED_PATTERNS
+        .iter()
+        .any(|pattern| normalized.contains(pattern))
+    {
+        emit_frpc_connectivity_with_state(state, meta, connection, false, Some(&message), pid)
+            .await;
+    }
+}
+
+async fn emit_frpc_connectivity_with_state(
+    state: &AppState,
+    meta: &FrpcInstanceMeta,
+    connection: &Arc<Mutex<TunnelConnectivityGate>>,
+    connected: bool,
+    message: Option<&str>,
+    pid: Option<u32>,
+) {
+    let event_message = message.map(|value| format!("{}: {value}", meta.name));
+    if connected {
+        let mut connection = connection.lock().await;
+        match connection.observe_connected(tokio::time::Instant::now()) {
+            ConnectedEventAction::Ignore => return,
+            ConnectedEventAction::PublishConnected => {}
+            ConnectedEventAction::PublishDisconnectThenConnected(disconnected) => {
+                publish_frpc_connectivity_event(
+                    state,
+                    meta,
+                    false,
+                    disconnected.pid,
+                    disconnected.message.as_deref(),
+                    Some(&disconnected.happened_at),
+                )
+                .await;
+            }
+        }
+        publish_frpc_connectivity_event(state, meta, true, pid, event_message.as_deref(), None)
+            .await;
+        return;
+    }
+
+    let disconnected = TunnelDisconnectEvent {
+        happened_at: time_utils::now_iso(),
+        message: event_message,
+        pid,
+    };
+    let Some(timer) = connection
+        .lock()
+        .await
+        .observe_disconnected(tokio::time::Instant::now(), disconnected)
+    else {
+        return;
+    };
+    let state = state.clone();
+    let meta = meta.clone();
+    let connection = Arc::clone(connection);
+    let shutdown = state.shutdown.clone();
+    let task_state = state.clone();
+    state.spawn_background("frpc-disconnect-confirmation", async move {
+        tokio::select! {
+            _ = tokio::time::sleep_until(timer.deadline) => {}
+            _ = timer.cancelled() => return,
+            _ = shutdown.cancelled() => return,
+        }
+        let mut connection = connection.lock().await;
+        let Some(disconnected) = connection.confirm_disconnect(&timer, tokio::time::Instant::now())
+        else {
+            return;
+        };
+        publish_frpc_connectivity_event(
+            &task_state,
+            &meta,
+            false,
+            disconnected.pid,
+            disconnected.message.as_deref(),
+            Some(&disconnected.happened_at),
+        )
+        .await;
+    });
+}
+
+async fn publish_frpc_connectivity_event(
+    state: &AppState,
+    meta: &FrpcInstanceMeta,
+    connected: bool,
+    pid: Option<u32>,
+    message: Option<&str>,
+    happened_at: Option<&str>,
+) {
+    if let Err(error) = system_events::publish_tunnel_connectivity_event(
+        state,
+        system_events::TunnelConnectivityEvent {
+            tunnel: "frp",
+            connected,
+            pid,
+            message,
+            instance_id: Some(&meta.id),
+            instance_name: Some(&meta.name),
+            is_primary: Some(meta.is_primary),
+            happened_at,
+        },
+    )
+    .await
+    {
+        tracing::warn!(instance_id = %meta.id, %error, "failed to publish frpc connectivity event");
+    }
+}

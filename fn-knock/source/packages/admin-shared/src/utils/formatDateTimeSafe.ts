@@ -1,1 +1,23 @@
-dHlwZSBGb3JtYXREYXRlVGltZVNhZmVPcHRpb25zID0gewogIGxvY2FsZT86IHN0cmluZzsKICBmb3JtYXRPcHRpb25zPzogSW50bC5EYXRlVGltZUZvcm1hdE9wdGlvbnM7CiAgZW1wdHlUZXh0Pzogc3RyaW5nOwogIGtlZXBJbnZhbGlkUmF3VGV4dD86IGJvb2xlYW47Cn07CgpleHBvcnQgY29uc3QgZm9ybWF0RGF0ZVRpbWVTYWZlID0gKAogIHZhbHVlOiBzdHJpbmcgfCBudW1iZXIgfCBEYXRlIHwgbnVsbCB8IHVuZGVmaW5lZCwKICBvcHRpb25zOiBGb3JtYXREYXRlVGltZVNhZmVPcHRpb25zID0ge30sCik6IHN0cmluZyA9PiB7CiAgY29uc3QgeyBsb2NhbGUsIGZvcm1hdE9wdGlvbnMsIGVtcHR5VGV4dCA9ICctJywga2VlcEludmFsaWRSYXdUZXh0ID0gdHJ1ZSB9ID0gb3B0aW9uczsKCiAgaWYgKHZhbHVlID09PSBudWxsIHx8IHZhbHVlID09PSB1bmRlZmluZWQgfHwgdmFsdWUgPT09ICcnKSByZXR1cm4gZW1wdHlUZXh0OwoKICBjb25zdCBkYXRlID0gdmFsdWUgaW5zdGFuY2VvZiBEYXRlID8gdmFsdWUgOiBuZXcgRGF0ZSh2YWx1ZSk7CiAgaWYgKE51bWJlci5pc05hTihkYXRlLmdldFRpbWUoKSkpIHsKICAgIHJldHVybiBrZWVwSW52YWxpZFJhd1RleHQgPyBTdHJpbmcodmFsdWUpIDogZW1wdHlUZXh0OwogIH0KCiAgaWYgKGxvY2FsZSkgcmV0dXJuIGRhdGUudG9Mb2NhbGVTdHJpbmcobG9jYWxlLCBmb3JtYXRPcHRpb25zKTsKICByZXR1cm4gZGF0ZS50b0xvY2FsZVN0cmluZyh1bmRlZmluZWQsIGZvcm1hdE9wdGlvbnMpOwp9Owo=
+type FormatDateTimeSafeOptions = {
+  locale?: string;
+  formatOptions?: Intl.DateTimeFormatOptions;
+  emptyText?: string;
+  keepInvalidRawText?: boolean;
+};
+
+export const formatDateTimeSafe = (
+  value: string | number | Date | null | undefined,
+  options: FormatDateTimeSafeOptions = {},
+): string => {
+  const { locale, formatOptions, emptyText = '-', keepInvalidRawText = true } = options;
+
+  if (value === null || value === undefined || value === '') return emptyText;
+
+  const date = value instanceof Date ? value : new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return keepInvalidRawText ? String(value) : emptyText;
+  }
+
+  if (locale) return date.toLocaleString(locale, formatOptions);
+  return date.toLocaleString(undefined, formatOptions);
+};

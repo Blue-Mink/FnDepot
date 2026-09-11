@@ -1,1 +1,113 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7CiAgU2VsZWN0LAogIFNlbGVjdENvbnRlbnQsCiAgU2VsZWN0SXRlbSwKICBTZWxlY3RUcmlnZ2VyLAogIFNlbGVjdFZhbHVlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9zZWxlY3QiOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IHR5cGUgeyBQcm92aWRlciwgVGFyZ2V0RGlhbG9nU3RhdGUgfSBmcm9tICIuL21vZGVsIjsKCmRlZmluZVByb3BzPHsKICBwcm92aWRlcnM6IFByb3ZpZGVyW107CiAgc3RhdGU6IFRhcmdldERpYWxvZ1N0YXRlOwp9PigpOwpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8eyAidXBkYXRlOnByb3ZpZGVyIjogW3ZhbHVlOiBzdHJpbmddIH0+KCk7CmNvbnN0IGExMXlJZCA9IHVzZUlkKCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICBjbGFzcz0iZ3JpZCBpdGVtcy1zdGFydCBnYXAtMyBwLTQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvMTAgc206Z3JpZC1jb2xzLVsxODBweF8xZnJdIHNtOnAtNSBtZDpncmlkLWNvbHMtWzIyMHB4XzFmcl0iCiAgPgogICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIHNtOm10LTEuNSI+CiAgICAgIDxMYWJlbCA6Zm9yPSJgJHthMTF5SWR9LWVuYWJsZWRgIiBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAge3sgdCgiYWRtaW4uZGRucy50YXJnZXRFbmFibGVkTGFiZWwiKSB9fQogICAgICA8L0xhYmVsPgogICAgICA8cCBjbGFzcz0iaGlkZGVuIHByLTQgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgc206YmxvY2siPgogICAgICAgIHt7IHQoImFkbWluLmRkbnMudGFyZ2V0RW5hYmxlZEhpbnQiKSB9fQogICAgICA8L3A+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9InctZnVsbCBtYXgtdy1tZCBzcGFjZS15LTIgc206anVzdGlmeS1zZWxmLWVuZCI+CiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0iZmxleCBtaW4taC0xMCB3LWZ1bGwgaXRlbXMtY2VudGVyIGp1c3RpZnktc3RhcnQgZ2FwLTMgc206anVzdGlmeS1lbmQgc206cHgtMyIKICAgICAgPgogICAgICAgIDxTd2l0Y2ggOmlkPSJgJHthMTF5SWR9LWVuYWJsZWRgIiB2LW1vZGVsPSJzdGF0ZS5lbmFibGVkIiAvPgogICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7ewogICAgICAgICAgICBzdGF0ZS5lbmFibGVkCiAgICAgICAgICAgICAgPyB0KCJhZG1pbi5kZG5zLmFjdGl2ZUxhYmVsIikKICAgICAgICAgICAgICA6IHQoImFkbWluLmRkbnMuc3RvcHBlZExhYmVsIikKICAgICAgICAgIH19CiAgICAgICAgPC9zcGFuPgogICAgICA8L2Rpdj4KICAgICAgPHAgY2xhc3M9InRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTpoaWRkZW4iPgogICAgICAgIHt7IHQoImFkbWluLmRkbnMudGFyZ2V0RW5hYmxlZEhpbnQiKSB9fQogICAgICA8L3A+CiAgICA8L2Rpdj4KICA8L2Rpdj4KCiAgPGRpdgogICAgY2xhc3M9ImdyaWQgaXRlbXMtc3RhcnQgZ2FwLTIgcC00IHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLW11dGVkLzEwIHNtOmdyaWQtY29scy1bMTgwcHhfMWZyXSBzbTpwLTUgbWQ6Z3JpZC1jb2xzLVsyMjBweF8xZnJdIgogID4KICAgIDxkaXYgY2xhc3M9Im10LTEuNSBzcGFjZS15LTEiPgogICAgICA8TGFiZWwgZm9yPSJkZG5zLXRhcmdldC1uYW1lIiBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAge3sgdCgiYWRtaW4uZGRucy5uYW1lIikgfX0KICAgICAgPC9MYWJlbD4KICAgICAgPHAgY2xhc3M9ImhpZGRlbiBwci00IHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHNtOmJsb2NrIj4KICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLnRhcmdldE5hbWVIaW50IikgfX0KICAgICAgPC9wPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJ3LWZ1bGwgbWF4LXctbWQgc3BhY2UteS0yIj4KICAgICAgPElucHV0CiAgICAgICAgaWQ9ImRkbnMtdGFyZ2V0LW5hbWUiCiAgICAgICAgdi1tb2RlbD0ic3RhdGUubmFtZSIKICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLmRkbnMudGFyZ2V0TmFtZVBsYWNlaG9sZGVyJykiCiAgICAgIC8+CiAgICAgIDxwIGNsYXNzPSJ0ZXh0LVsxMXB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQgc206aGlkZGVuIj4KICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLnRhcmdldE5hbWVIaW50IikgfX0KICAgICAgPC9wPgogICAgPC9kaXY+CiAgPC9kaXY+CgogIDxkaXYKICAgIGNsYXNzPSJncmlkIGl0ZW1zLXN0YXJ0IGdhcC0yIHAtNCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy1tdXRlZC8xMCBzbTpncmlkLWNvbHMtWzE4MHB4XzFmcl0gc206cC01IG1kOmdyaWQtY29scy1bMjIwcHhfMWZyXSIKICA+CiAgICA8ZGl2IGNsYXNzPSJtdC0xLjUgc3BhY2UteS0xIj4KICAgICAgPExhYmVsIGZvcj0iZGRucy10YXJnZXQtcHJvdmlkZXIiIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLnByb3ZpZGVyTGFiZWwiKSB9fQogICAgICA8L0xhYmVsPgogICAgICA8cCBjbGFzcz0iaGlkZGVuIHByLTQgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgc206YmxvY2siPgogICAgICAgIHt7IHQoImFkbWluLmRkbnMudGFyZ2V0UHJvdmlkZXJIaW50IikgfX0KICAgICAgPC9wPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJ3LWZ1bGwgbWF4LXctbWQgc3BhY2UteS0yIj4KICAgICAgPFNlbGVjdAogICAgICAgIDptb2RlbC12YWx1ZT0ic3RhdGUucHJvdmlkZXIiCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgndXBkYXRlOnByb3ZpZGVyJywgU3RyaW5nKCRldmVudCA/PyAnJykpIgogICAgICA+CiAgICAgICAgPFNlbGVjdFRyaWdnZXIgaWQ9ImRkbnMtdGFyZ2V0LXByb3ZpZGVyIj4KICAgICAgICAgIDxTZWxlY3RWYWx1ZSA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLmRkbnMuc2VsZWN0UHJvdmlkZXInKSIgLz4KICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICA8U2VsZWN0SXRlbQogICAgICAgICAgICB2LWZvcj0icHJvdmlkZXIgaW4gcHJvdmlkZXJzIgogICAgICAgICAgICA6a2V5PSJwcm92aWRlci5uYW1lIgogICAgICAgICAgICA6dmFsdWU9InByb3ZpZGVyLm5hbWUiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHByb3ZpZGVyLmxhYmVsIH19CiAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICA8L1NlbGVjdD4KICAgICAgPHAgY2xhc3M9InRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTpoaWRkZW4iPgogICAgICAgIHt7IHQoImFkbWluLmRkbnMudGFyZ2V0UHJvdmlkZXJIaW50IikgfX0KICAgICAgPC9wPgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Switch } from "@/components/ui/switch";
+import type { Provider, TargetDialogState } from "./model";
+
+defineProps<{
+  providers: Provider[];
+  state: TargetDialogState;
+}>();
+const emit = defineEmits<{ "update:provider": [value: string] }>();
+const a11yId = useId();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div
+    class="grid items-start gap-3 p-4 transition-colors hover:bg-muted/10 sm:grid-cols-[180px_1fr] sm:p-5 md:grid-cols-[220px_1fr]"
+  >
+    <div class="space-y-1 sm:mt-1.5">
+      <Label :for="`${a11yId}-enabled`" class="text-sm font-medium">
+        {{ t("admin.ddns.targetEnabledLabel") }}
+      </Label>
+      <p class="hidden pr-4 text-xs text-muted-foreground sm:block">
+        {{ t("admin.ddns.targetEnabledHint") }}
+      </p>
+    </div>
+    <div class="w-full max-w-md space-y-2 sm:justify-self-end">
+      <div
+        class="flex min-h-10 w-full items-center justify-start gap-3 sm:justify-end sm:px-3"
+      >
+        <Switch :id="`${a11yId}-enabled`" v-model="state.enabled" />
+        <span class="text-sm text-muted-foreground">
+          {{
+            state.enabled
+              ? t("admin.ddns.activeLabel")
+              : t("admin.ddns.stoppedLabel")
+          }}
+        </span>
+      </div>
+      <p class="text-[11px] text-muted-foreground sm:hidden">
+        {{ t("admin.ddns.targetEnabledHint") }}
+      </p>
+    </div>
+  </div>
+
+  <div
+    class="grid items-start gap-2 p-4 transition-colors hover:bg-muted/10 sm:grid-cols-[180px_1fr] sm:p-5 md:grid-cols-[220px_1fr]"
+  >
+    <div class="mt-1.5 space-y-1">
+      <Label for="ddns-target-name" class="text-sm font-medium">
+        {{ t("admin.ddns.name") }}
+      </Label>
+      <p class="hidden pr-4 text-xs text-muted-foreground sm:block">
+        {{ t("admin.ddns.targetNameHint") }}
+      </p>
+    </div>
+    <div class="w-full max-w-md space-y-2">
+      <Input
+        id="ddns-target-name"
+        v-model="state.name"
+        :placeholder="t('admin.ddns.targetNamePlaceholder')"
+      />
+      <p class="text-[11px] text-muted-foreground sm:hidden">
+        {{ t("admin.ddns.targetNameHint") }}
+      </p>
+    </div>
+  </div>
+
+  <div
+    class="grid items-start gap-2 p-4 transition-colors hover:bg-muted/10 sm:grid-cols-[180px_1fr] sm:p-5 md:grid-cols-[220px_1fr]"
+  >
+    <div class="mt-1.5 space-y-1">
+      <Label for="ddns-target-provider" class="text-sm font-medium">
+        {{ t("admin.ddns.providerLabel") }}
+      </Label>
+      <p class="hidden pr-4 text-xs text-muted-foreground sm:block">
+        {{ t("admin.ddns.targetProviderHint") }}
+      </p>
+    </div>
+    <div class="w-full max-w-md space-y-2">
+      <Select
+        :model-value="state.provider"
+        @update:model-value="emit('update:provider', String($event ?? ''))"
+      >
+        <SelectTrigger id="ddns-target-provider">
+          <SelectValue :placeholder="t('admin.ddns.selectProvider')" />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem
+            v-for="provider in providers"
+            :key="provider.name"
+            :value="provider.name"
+          >
+            {{ provider.label }}
+          </SelectItem>
+        </SelectContent>
+      </Select>
+      <p class="text-[11px] text-muted-foreground sm:hidden">
+        {{ t("admin.ddns.targetProviderHint") }}
+      </p>
+    </div>
+  </div>
+</template>

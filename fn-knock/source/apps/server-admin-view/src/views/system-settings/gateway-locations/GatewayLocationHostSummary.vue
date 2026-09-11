@@ -1,1 +1,83 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB0eXBlIHsgR2F0ZXdheUxvY2F0aW9uc1BhZ2VDb250cm9sbGVyIH0gZnJvbSAiLi91c2VHYXRld2F5TG9jYXRpb25zUGFnZSI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsgY29udHJvbGxlcjogR2F0ZXdheUxvY2F0aW9uc1BhZ2VDb250cm9sbGVyIH0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCB7CiAgYXZhaWxhYmxlTWFwcGluZ3MsCiAgZHJhZnRMb2NhdGlvbnMsCiAgZ2V0TWFwcGluZ1RpdGxlRm9yRGlzcGxheSwKICBpc0F2YWlsYWJsZSwKICBvcGVuSG9zdFBpY2tlciwKICBzZWxlY3RlZE1hcHBpbmcsCn0gPSBwcm9wcy5jb250cm9sbGVyOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8YnV0dG9uCiAgICB0eXBlPSJidXR0b24iCiAgICBjbGFzcz0iZ3JpZCB3LWZ1bGwgZ2FwLTQgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlci82MCBiZy1iYWNrZ3JvdW5kIHB4LTUgcHktNCB0ZXh0LWxlZnQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6Ym9yZGVyLXByaW1hcnkvMzAgaG92ZXI6YmctbXV0ZWQvMjAgZm9jdXMtdmlzaWJsZTpvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpyaW5nLTIgZm9jdXMtdmlzaWJsZTpyaW5nLXJpbmcgZGlzYWJsZWQ6Y3Vyc29yLW5vdC1hbGxvd2VkIGRpc2FibGVkOm9wYWNpdHktNjAgc206Z3JpZC1jb2xzLVttaW5tYXgoMCwxLjJmcilfbWlubWF4KDAsMWZyKV9taW5tYXgoMCwxZnIpXzVyZW1dIHNtOml0ZW1zLWNlbnRlciIKICAgIDpkaXNhYmxlZD0iIWlzQXZhaWxhYmxlIHx8IGF2YWlsYWJsZU1hcHBpbmdzLmxlbmd0aCA9PT0gMCIKICAgIDphcmlhLWxhYmVsPSIKICAgICAgdCgnYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLnN3aXRjaEhvc3RBcmlhJywgewogICAgICAgIGhvc3Q6CiAgICAgICAgICBzZWxlY3RlZE1hcHBpbmc/Lmhvc3QgfHwgdCgnYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLm5vSG9zdCcpLAogICAgICAgIHRpdGxlOiBnZXRNYXBwaW5nVGl0bGVGb3JEaXNwbGF5KHNlbGVjdGVkTWFwcGluZyksCiAgICAgIH0pCiAgICAiCiAgICBAY2xpY2s9Im9wZW5Ib3N0UGlja2VyIgogID4KICAgIDxzcGFuIGNsYXNzPSJtaW4tdy0wIHNwYWNlLXktMSI+CiAgICAgIDxzcGFuIGNsYXNzPSJibG9jayB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLmN1cnJlbnRIb3N0IikgfX0KICAgICAgPC9zcGFuPgogICAgICA8c3BhbiBjbGFzcz0iYmxvY2sgdHJ1bmNhdGUgdGV4dC1iYXNlIGZvbnQtc2VtaWJvbGQgbGVhZGluZy02Ij4KICAgICAgICB7eyBzZWxlY3RlZE1hcHBpbmc/Lmhvc3QgfHwgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLm5vSG9zdCIpIH19CiAgICAgIDwvc3Bhbj4KICAgICAgPHNwYW4gY2xhc3M9ImJsb2NrIHRydW5jYXRlIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7ewogICAgICAgICAgYXZhaWxhYmxlTWFwcGluZ3MubGVuZ3RoID4gMAogICAgICAgICAgICA/IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5zd2l0Y2hPYmplY3QiKQogICAgICAgICAgICA6IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5jcmVhdGVIb3N0SGludCIpCiAgICAgICAgfX0KICAgICAgPC9zcGFuPgogICAgPC9zcGFuPgoKICAgIDxzcGFuCiAgICAgIGNsYXNzPSJtaW4tdy0wIHNwYWNlLXktMSBib3JkZXItdCBib3JkZXItYm9yZGVyLzYwIHB0LTMgc206Ym9yZGVyLWwgc206Ym9yZGVyLXQtMCBzbTpwbC01IHNtOnB0LTAiCiAgICA+CiAgICAgIDxzcGFuIGNsYXNzPSJibG9jayB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLnNpdGVUaXRsZSIpIH19CiAgICAgIDwvc3Bhbj4KICAgICAgPHNwYW4gY2xhc3M9ImZsZXggbWluLXctMCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgIDxzcGFuIGNsYXNzPSJ0cnVuY2F0ZSB0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgIHt7IGdldE1hcHBpbmdUaXRsZUZvckRpc3BsYXkoc2VsZWN0ZWRNYXBwaW5nKSB9fQogICAgICAgIDwvc3Bhbj4KICAgICAgPC9zcGFuPgogICAgPC9zcGFuPgoKICAgIDxzcGFuCiAgICAgIGNsYXNzPSJtaW4tdy0wIHNwYWNlLXktMSBib3JkZXItdCBib3JkZXItYm9yZGVyLzYwIHB0LTMgc206Ym9yZGVyLWwgc206Ym9yZGVyLXQtMCBzbTpwbC01IHNtOnB0LTAiCiAgICA+CiAgICAgIDxzcGFuIGNsYXNzPSJibG9jayB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLnRhcmdldCIpIH19CiAgICAgIDwvc3Bhbj4KICAgICAgPHNwYW4gY2xhc3M9ImJsb2NrIHRydW5jYXRlIHRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgIHt7CiAgICAgICAgICBzZWxlY3RlZE1hcHBpbmc/LnRhcmdldCB8fAogICAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLm5vdFNlbGVjdGVkIikKICAgICAgICB9fQogICAgICA8L3NwYW4+CiAgICA8L3NwYW4+CgogICAgPHNwYW4KICAgICAgY2xhc3M9InNwYWNlLXktMSBib3JkZXItdCBib3JkZXItYm9yZGVyLzYwIHB0LTMgc206Ym9yZGVyLWwgc206Ym9yZGVyLXQtMCBzbTpwbC01IHNtOnB0LTAgc206dGV4dC1yaWdodCIKICAgID4KICAgICAgPHNwYW4gY2xhc3M9ImJsb2NrIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MucnVsZUNvdW50IikgfX0KICAgICAgPC9zcGFuPgogICAgICA8c3BhbiBjbGFzcz0iYmxvY2sgdGV4dC1zbSBmb250LW1lZGl1bSI+e3sgZHJhZnRMb2NhdGlvbnMubGVuZ3RoIH19PC9zcGFuPgogICAgPC9zcGFuPgogIDwvYnV0dG9uPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import type { GatewayLocationsPageController } from "./useGatewayLocationsPage";
+
+const props = defineProps<{ controller: GatewayLocationsPageController }>();
+const { t } = useI18n();
+const {
+  availableMappings,
+  draftLocations,
+  getMappingTitleForDisplay,
+  isAvailable,
+  openHostPicker,
+  selectedMapping,
+} = props.controller;
+</script>
+
+<template>
+  <button
+    type="button"
+    class="grid w-full gap-4 rounded-md border border-border/60 bg-background px-5 py-4 text-left transition-colors hover:border-primary/30 hover:bg-muted/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-60 sm:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)_minmax(0,1fr)_5rem] sm:items-center"
+    :disabled="!isAvailable || availableMappings.length === 0"
+    :aria-label="
+      t('admin.gatewayLocationsSettings.switchHostAria', {
+        host:
+          selectedMapping?.host || t('admin.gatewayLocationsSettings.noHost'),
+        title: getMappingTitleForDisplay(selectedMapping),
+      })
+    "
+    @click="openHostPicker"
+  >
+    <span class="min-w-0 space-y-1">
+      <span class="block text-xs font-medium text-muted-foreground">
+        {{ t("admin.gatewayLocationsSettings.currentHost") }}
+      </span>
+      <span class="block truncate text-base font-semibold leading-6">
+        {{ selectedMapping?.host || t("admin.gatewayLocationsSettings.noHost") }}
+      </span>
+      <span class="block truncate text-sm text-muted-foreground">
+        {{
+          availableMappings.length > 0
+            ? t("admin.gatewayLocationsSettings.switchObject")
+            : t("admin.gatewayLocationsSettings.createHostHint")
+        }}
+      </span>
+    </span>
+
+    <span
+      class="min-w-0 space-y-1 border-t border-border/60 pt-3 sm:border-l sm:border-t-0 sm:pl-5 sm:pt-0"
+    >
+      <span class="block text-xs font-medium text-muted-foreground">
+        {{ t("admin.gatewayLocationsSettings.siteTitle") }}
+      </span>
+      <span class="flex min-w-0 items-center gap-2">
+        <span class="truncate text-sm font-medium">
+          {{ getMappingTitleForDisplay(selectedMapping) }}
+        </span>
+      </span>
+    </span>
+
+    <span
+      class="min-w-0 space-y-1 border-t border-border/60 pt-3 sm:border-l sm:border-t-0 sm:pl-5 sm:pt-0"
+    >
+      <span class="block text-xs font-medium text-muted-foreground">
+        {{ t("admin.gatewayLocationsSettings.target") }}
+      </span>
+      <span class="block truncate text-sm font-medium">
+        {{
+          selectedMapping?.target ||
+          t("admin.gatewayLocationsSettings.notSelected")
+        }}
+      </span>
+    </span>
+
+    <span
+      class="space-y-1 border-t border-border/60 pt-3 sm:border-l sm:border-t-0 sm:pl-5 sm:pt-0 sm:text-right"
+    >
+      <span class="block text-xs font-medium text-muted-foreground">
+        {{ t("admin.gatewayLocationsSettings.ruleCount") }}
+      </span>
+      <span class="block text-sm font-medium">{{ draftLocations.length }}</span>
+    </span>
+  </button>
+</template>

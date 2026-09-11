@@ -1,1 +1,42 @@
-aW1wb3J0IHsgb25CZWZvcmVVbm1vdW50LCBvbk1vdW50ZWQsIHJlZiB9IGZyb20gInZ1ZSI7CgovKioKICogUmVhY3RpdmVseSB0cmFja3MgYSBtZWRpYSBxdWVyeSB3aGlsZSBwcmVzZXJ2aW5nIGNvbXBhdGliaWxpdHkgd2l0aCBlbWJlZGRlZAogKiBicm93c2VycyB0aGF0IG9ubHkgZXhwb3NlIHRoZSBsZWdhY3kgTWVkaWFRdWVyeUxpc3QgbGlzdGVuZXIgQVBJLgogKi8KZXhwb3J0IGZ1bmN0aW9uIHVzZU1lZGlhUXVlcnlNYXRjaChxdWVyeTogc3RyaW5nKSB7CiAgY29uc3QgbWF0Y2hlcyA9IHJlZihmYWxzZSk7CiAgbGV0IG1lZGlhUXVlcnk6IE1lZGlhUXVlcnlMaXN0IHwgbnVsbCA9IG51bGw7CgogIGNvbnN0IHVwZGF0ZU1hdGNoZXMgPSAoKSA9PiB7CiAgICBtYXRjaGVzLnZhbHVlID0gQm9vbGVhbihtZWRpYVF1ZXJ5Py5tYXRjaGVzKTsKICB9OwoKICBvbk1vdW50ZWQoKCkgPT4gewogICAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm47CgogICAgbWVkaWFRdWVyeSA9IHdpbmRvdy5tYXRjaE1lZGlhKHF1ZXJ5KTsKICAgIHVwZGF0ZU1hdGNoZXMoKTsKCiAgICBpZiAodHlwZW9mIG1lZGlhUXVlcnkuYWRkRXZlbnRMaXN0ZW5lciA9PT0gImZ1bmN0aW9uIikgewogICAgICBtZWRpYVF1ZXJ5LmFkZEV2ZW50TGlzdGVuZXIoImNoYW5nZSIsIHVwZGF0ZU1hdGNoZXMpOwogICAgICByZXR1cm47CiAgICB9CgogICAgbWVkaWFRdWVyeS5hZGRMaXN0ZW5lcih1cGRhdGVNYXRjaGVzKTsKICB9KTsKCiAgb25CZWZvcmVVbm1vdW50KCgpID0+IHsKICAgIGlmICghbWVkaWFRdWVyeSkgcmV0dXJuOwoKICAgIGlmICh0eXBlb2YgbWVkaWFRdWVyeS5yZW1vdmVFdmVudExpc3RlbmVyID09PSAiZnVuY3Rpb24iKSB7CiAgICAgIG1lZGlhUXVlcnkucmVtb3ZlRXZlbnRMaXN0ZW5lcigiY2hhbmdlIiwgdXBkYXRlTWF0Y2hlcyk7CiAgICB9IGVsc2UgewogICAgICBtZWRpYVF1ZXJ5LnJlbW92ZUxpc3RlbmVyKHVwZGF0ZU1hdGNoZXMpOwogICAgfQoKICAgIG1lZGlhUXVlcnkgPSBudWxsOwogIH0pOwoKICByZXR1cm4gbWF0Y2hlczsKfQo=
+import { onBeforeUnmount, onMounted, ref } from "vue";
+
+/**
+ * Reactively tracks a media query while preserving compatibility with embedded
+ * browsers that only expose the legacy MediaQueryList listener API.
+ */
+export function useMediaQueryMatch(query: string) {
+  const matches = ref(false);
+  let mediaQuery: MediaQueryList | null = null;
+
+  const updateMatches = () => {
+    matches.value = Boolean(mediaQuery?.matches);
+  };
+
+  onMounted(() => {
+    if (typeof window === "undefined") return;
+
+    mediaQuery = window.matchMedia(query);
+    updateMatches();
+
+    if (typeof mediaQuery.addEventListener === "function") {
+      mediaQuery.addEventListener("change", updateMatches);
+      return;
+    }
+
+    mediaQuery.addListener(updateMatches);
+  });
+
+  onBeforeUnmount(() => {
+    if (!mediaQuery) return;
+
+    if (typeof mediaQuery.removeEventListener === "function") {
+      mediaQuery.removeEventListener("change", updateMatches);
+    } else {
+      mediaQuery.removeListener(updateMatches);
+    }
+
+    mediaQuery = null;
+  });
+
+  return matches;
+}

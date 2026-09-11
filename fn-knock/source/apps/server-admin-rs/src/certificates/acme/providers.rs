@@ -1,1 +1,533 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiB3aW5kb3dzX2FjbWVfZG5zX3Byb3ZpZGVycyh0OiAmVHJhbnNsYXRvcikgLT4gVmVjPFZhbHVlPiB7CiAgICBsZXQgY29tbW9uX2xhYmVsID0gdC50KCJzZXJ2ZXIuYWNtZURuc1Byb3ZpZGVycy5ncm91cHMuY29tbW9uIik7CiAgICBsZXQgZG9tZXN0aWNfbGFiZWwgPSB0LnQoInNlcnZlci5hY21lRG5zUHJvdmlkZXJzLmdyb3Vwcy5kb21lc3RpYyIpOwogICAgbGV0IGludGVybmF0aW9uYWxfbGFiZWwgPSB0LnQoInNlcnZlci5hY21lRG5zUHJvdmlkZXJzLmdyb3Vwcy5pbnRlcm5hdGlvbmFsIik7CiAgICBsZXQgY29tbW9uID0gY29tbW9uX2xhYmVsLmFzX3N0cigpOwogICAgbGV0IGRvbWVzdGljID0gZG9tZXN0aWNfbGFiZWwuYXNfc3RyKCk7CiAgICBsZXQgaW50ZXJuYXRpb25hbCA9IGludGVybmF0aW9uYWxfbGFiZWwuYXNfc3RyKCk7CiAgICBsZXQgbXV0IHByb3ZpZGVycyA9IHZlYyFbCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX2FsaSIsCiAgICAgICAgICAgICZ0LnQoInNlcnZlci5hY21lRG5zUHJvdmlkZXJzLmxhYmVscy5hbGl5dW4iKSwKICAgICAgICAgICAgY29tbW9uLAogICAgICAgICAgICAmWyJBbGlfS2V5IiwgIkFsaV9TZWNyZXQiLCAiQWxpX0RvbWFpbiJdLAogICAgICAgICAgICAmWyJBbGlfRG9tYWluIl0sCiAgICAgICAgKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoCiAgICAgICAgICAgICJkbnNfYmFpZHVjbG91ZCIsCiAgICAgICAgICAgICJCYWlkdSBDbG91ZCBETlMiLAogICAgICAgICAgICBkb21lc3RpYywKICAgICAgICAgICAgJlsKICAgICAgICAgICAgICAgICJCQUlEVV9BQ0NFU1NfS0VZX0lEIiwKICAgICAgICAgICAgICAgICJCQUlEVV9TRUNSRVRfQUNDRVNTX0tFWSIsCiAgICAgICAgICAgICAgICAicm9vdF9kb21haW4iLAogICAgICAgICAgICBdLAogICAgICAgICAgICAmWyJyb290X2RvbWFpbiJdLAogICAgICAgICksCiAgICAgICAganNvbiEoewogICAgICAgICAgICAiZG5zVHlwZSI6ICJkbnNfY2YiLAogICAgICAgICAgICAibGFiZWwiOiAiQ2xvdWRmbGFyZSIsCiAgICAgICAgICAgICJncm91cCI6IGNvbW1vbiwKICAgICAgICAgICAgImNyZWRlbnRpYWxTY2hlbWVzIjogWwogICAgICAgICAgICAgICAgc2NoZW1lKCJhcGktdG9rZW4iLCAiQVBJIFRva2VuIiwgJlsiQ0ZfVG9rZW4iLCAiQ0ZfWm9uZV9JRCIsICJDRl9BY2NvdW50X0lEIl0sICZbIkNGX1pvbmVfSUQiLCAiQ0ZfQWNjb3VudF9JRCJdKSwKICAgICAgICAgICAgICAgIHNjaGVtZSgiZ2xvYmFsLWtleSIsICJHbG9iYWwgQVBJIEtleSIsICZbIkNGX0tleSIsICJDRl9FbWFpbCIsICJDRl9ab25lX0lEIiwgIkNGX0FjY291bnRfSUQiXSwgJlsiQ0ZfWm9uZV9JRCIsICJDRl9BY2NvdW50X0lEIl0pLAogICAgICAgICAgICBdLAogICAgICAgIH0pLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigKICAgICAgICAgICAgImRuc19kcCIsCiAgICAgICAgICAgICJETlNQb2QiLAogICAgICAgICAgICBjb21tb24sCiAgICAgICAgICAgICZbIkRQX0lkIiwgIkRQX0tleSIsICJEUF9Eb21haW4iXSwKICAgICAgICAgICAgJlsiRFBfRG9tYWluIl0sCiAgICAgICAgKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoCiAgICAgICAgICAgICJkbnNfdGVuY2VudCIsCiAgICAgICAgICAgICZ0LnQoInNlcnZlci5hY21lRG5zUHJvdmlkZXJzLmxhYmVscy50ZW5jZW50Q2xvdWREbnNwb2QiKSwKICAgICAgICAgICAgY29tbW9uLAogICAgICAgICAgICAmWyJUZW5jZW50X1NlY3JldElkIiwgIlRlbmNlbnRfU2VjcmV0S2V5Il0sCiAgICAgICAgICAgICZbXSwKICAgICAgICApLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigiZG5zX2R1Y2tkbnMiLCAiRHVja0ROUyIsIGNvbW1vbiwgJlsiRHVja0ROU19Ub2tlbiJdLCAmW10pLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigKICAgICAgICAgICAgImRuc19keW51IiwKICAgICAgICAgICAgIkR5bnUiLAogICAgICAgICAgICBpbnRlcm5hdGlvbmFsLAogICAgICAgICAgICAmWyJEeW51X0NsaWVudElkIiwgIkR5bnVfU2VjcmV0Il0sCiAgICAgICAgICAgICZbXSwKICAgICAgICApLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigiZG5zX2R5bnY2IiwgImR5bnY2IiwgaW50ZXJuYXRpb25hbCwgJlsiRFlOVjZfVE9LRU4iXSwgJltdKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoCiAgICAgICAgICAgICJkbnNfZ2QiLAogICAgICAgICAgICAiR29EYWRkeSIsCiAgICAgICAgICAgIGludGVybmF0aW9uYWwsCiAgICAgICAgICAgICZbIkdEX0tleSIsICJHRF9TZWNyZXQiLCAiR0RfRG9tYWluIl0sCiAgICAgICAgICAgICZbIkdEX0RvbWFpbiJdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX2h1YXdlaWNsb3VkIiwKICAgICAgICAgICAgJnQudCgic2VydmVyLmFjbWVEbnNQcm92aWRlcnMubGFiZWxzLmh1YXdlaUNsb3VkRG5zIiksCiAgICAgICAgICAgIGRvbWVzdGljLAogICAgICAgICAgICAmWwogICAgICAgICAgICAgICAgIkhVQVdFSUNMT1VEX1VzZXJuYW1lIiwKICAgICAgICAgICAgICAgICJIVUFXRUlDTE9VRF9QYXNzd29yZCIsCiAgICAgICAgICAgICAgICAiSFVBV0VJQ0xPVURfRG9tYWluTmFtZSIsCiAgICAgICAgICAgICAgICAiSFVBV0VJQ0xPVURfUmVnaW9uIiwKICAgICAgICAgICAgICAgICJIVUFXRUlDTE9VRF9Qcm9qZWN0TmFtZSIsCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICZbIkhVQVdFSUNMT1VEX1JlZ2lvbiIsICJIVUFXRUlDTE9VRF9Qcm9qZWN0TmFtZSJdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX3BvcmtidW4iLAogICAgICAgICAgICAiUG9ya2J1biIsCiAgICAgICAgICAgIGludGVybmF0aW9uYWwsCiAgICAgICAgICAgICZbCiAgICAgICAgICAgICAgICAiUE9SS0JVTl9BUElfS0VZIiwKICAgICAgICAgICAgICAgICJQT1JLQlVOX1NFQ1JFVF9BUElfS0VZIiwKICAgICAgICAgICAgICAgICJQT1JLQlVOX0RPTUFJTiIsCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICZbIlBPUktCVU5fRE9NQUlOIl0sCiAgICAgICAgKSwKICAgIF07CiAgICBsZXQgZGVmYXVsdF9jcmVkZW50aWFsX2xhYmVsID0gdC50KCJzZXJ2ZXIuYWNtZURuc1Byb3ZpZGVycy5jcmVkZW50aWFsU2NoZW1lcy5kZWZhdWx0Iik7CiAgICBsb2NhbGl6ZV9kZWZhdWx0X2NyZWRlbnRpYWxfbGFiZWxzKCZtdXQgcHJvdmlkZXJzLCAmZGVmYXVsdF9jcmVkZW50aWFsX2xhYmVsKTsKICAgIHByb3ZpZGVycwp9CgpwdWIoc3VwZXIpIGZuIGFjbWVfZG5zX3Byb3ZpZGVycyh0OiAmVHJhbnNsYXRvcikgLT4gVmVjPFZhbHVlPiB7CiAgICBsZXQgY29tbW9uX2xhYmVsID0gdC50KCJzZXJ2ZXIuYWNtZURuc1Byb3ZpZGVycy5ncm91cHMuY29tbW9uIik7CiAgICBsZXQgZG9tZXN0aWNfbGFiZWwgPSB0LnQoInNlcnZlci5hY21lRG5zUHJvdmlkZXJzLmdyb3Vwcy5kb21lc3RpYyIpOwogICAgbGV0IGludGVybmF0aW9uYWxfbGFiZWwgPSB0LnQoInNlcnZlci5hY21lRG5zUHJvdmlkZXJzLmdyb3Vwcy5pbnRlcm5hdGlvbmFsIik7CiAgICBsZXQgc2VsZl9ob3N0ZWRfbGFiZWwgPSB0LnQoInNlcnZlci5hY21lRG5zUHJvdmlkZXJzLmdyb3Vwcy5zZWxmSG9zdGVkQWR2YW5jZWQiKTsKICAgIGxldCBjb21tb24gPSBjb21tb25fbGFiZWwuYXNfc3RyKCk7CiAgICBsZXQgZG9tZXN0aWMgPSBkb21lc3RpY19sYWJlbC5hc19zdHIoKTsKICAgIGxldCBpbnRlcm5hdGlvbmFsID0gaW50ZXJuYXRpb25hbF9sYWJlbC5hc19zdHIoKTsKICAgIGxldCBzZWxmX2hvc3RlZCA9IHNlbGZfaG9zdGVkX2xhYmVsLmFzX3N0cigpOwogICAgbGV0IGRlZmF1bHRfY3JlZGVudGlhbF9sYWJlbCA9IHQudCgic2VydmVyLmFjbWVEbnNQcm92aWRlcnMuY3JlZGVudGlhbFNjaGVtZXMuZGVmYXVsdCIpOwogICAgbGV0IG11dCBwcm92aWRlcnMgPSB2ZWMhWwogICAgICAgIGpzb24hKHsKICAgICAgICAgICAgImRuc1R5cGUiOiAiZG5zX2NmIiwKICAgICAgICAgICAgImxhYmVsIjogIkNsb3VkZmxhcmUiLAogICAgICAgICAgICAiZ3JvdXAiOiBjb21tb24sCiAgICAgICAgICAgICJjcmVkZW50aWFsU2NoZW1lcyI6IFsKICAgICAgICAgICAgICAgIHNjaGVtZSgiZ2xvYmFsLWtleSIsICJHbG9iYWwgQVBJIEtleSIsICZbIkNGX0tleSIsICJDRl9FbWFpbCJdLCAmW10pLAogICAgICAgICAgICAgICAgc2NoZW1lKCJhcGktdG9rZW4iLCAiQVBJIFRva2VuIiwgJlsiQ0ZfVG9rZW4iLCAiQ0ZfWm9uZV9JRCIsICJDRl9BY2NvdW50X0lEIl0sICZbIkNGX1pvbmVfSUQiLCAiQ0ZfQWNjb3VudF9JRCJdKSwKICAgICAgICAgICAgXSwKICAgICAgICB9KSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoCiAgICAgICAgICAgICJkbnNfYWxpIiwKICAgICAgICAgICAgJnQudCgic2VydmVyLmFjbWVEbnNQcm92aWRlcnMubGFiZWxzLmFsaXl1biIpLAogICAgICAgICAgICBjb21tb24sCiAgICAgICAgICAgICZbIkFsaV9LZXkiLCAiQWxpX1NlY3JldCJdLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoImRuc19kcCIsICJETlNQb2QiLCBjb21tb24sICZbIkRQX0lkIiwgIkRQX0tleSJdLCAmW10pLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigKICAgICAgICAgICAgImRuc190ZW5jZW50IiwKICAgICAgICAgICAgJnQudCgic2VydmVyLmFjbWVEbnNQcm92aWRlcnMubGFiZWxzLnRlbmNlbnRDbG91ZERuc3BvZCIpLAogICAgICAgICAgICBjb21tb24sCiAgICAgICAgICAgICZbIlRlbmNlbnRfU2VjcmV0SWQiLCAiVGVuY2VudF9TZWNyZXRLZXkiXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKCJkbnNfZHVja2RucyIsICJEdWNrRE5TIiwgY29tbW9uLCAmWyJEdWNrRE5TX1Rva2VuIl0sICZbXSksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKCJkbnNfZ2QiLCAiR29EYWRkeSIsIGNvbW1vbiwgJlsiR0RfS2V5IiwgIkdEX1NlY3JldCJdLCAmW10pLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigiZG5zX2Rnb24iLCAiRGlnaXRhbE9jZWFuIiwgY29tbW9uLCAmWyJET19BUElfS0VZIl0sICZbXSksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX25ldGxpZnkiLAogICAgICAgICAgICAiTmV0bGlmeSIsCiAgICAgICAgICAgIGNvbW1vbiwKICAgICAgICAgICAgJlsiTkVUTElGWV9BQ0NFU1NfVE9LRU4iXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKCJkbnNfdmVyY2VsIiwgIlZlcmNlbCIsIGNvbW1vbiwgJlsiVkVSQ0VMX1RPS0VOIl0sICZbXSksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX2F3cyIsCiAgICAgICAgICAgICJBV1MgUm91dGU1MyIsCiAgICAgICAgICAgIGNvbW1vbiwKICAgICAgICAgICAgJlsiQVdTX0FDQ0VTU19LRVlfSUQiLCAiQVdTX1NFQ1JFVF9BQ0NFU1NfS0VZIl0sCiAgICAgICAgICAgICZbXSwKICAgICAgICApLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigKICAgICAgICAgICAgImRuc19nY2xvdWQiLAogICAgICAgICAgICAiR29vZ2xlIENsb3VkIEROUyAoZ2Nsb3VkKSIsCiAgICAgICAgICAgIGNvbW1vbiwKICAgICAgICAgICAgJlsiQ0xPVURTREtfQUNUSVZFX0NPTkZJR19OQU1FIl0sCiAgICAgICAgICAgICZbIkNMT1VEU0RLX0FDVElWRV9DT05GSUdfTkFNRSJdLAogICAgICAgICksCiAgICAgICAganNvbiEoewogICAgICAgICAgICAiZG5zVHlwZSI6ICJkbnNfYXp1cmUiLAogICAgICAgICAgICAibGFiZWwiOiAiQXp1cmUgRE5TIiwKICAgICAgICAgICAgImdyb3VwIjogY29tbW9uLAogICAgICAgICAgICAiY3JlZGVudGlhbFNjaGVtZXMiOiBbCiAgICAgICAgICAgICAgICBzY2hlbWUoInNlcnZpY2UtcHJpbmNpcGFsIiwgIlNlcnZpY2UgUHJpbmNpcGFsIiwgJlsiQVpVUkVETlNfU1VCU0NSSVBUSU9OSUQiLCAiQVpVUkVETlNfVEVOQU5USUQiLCAiQVpVUkVETlNfQVBQSUQiLCAiQVpVUkVETlNfQ0xJRU5UU0VDUkVUIl0sICZbXSksCiAgICAgICAgICAgICAgICBzY2hlbWUoImJlYXJlci10b2tlbiIsICJCZWFyZXIgVG9rZW4iLCAmWyJBWlVSRUROU19TVUJTQ1JJUFRJT05JRCIsICJBWlVSRUROU19CRUFSRVJUT0tFTiJdLCAmW10pLAogICAgICAgICAgICAgICAgc2NoZW1lKCJtYW5hZ2VkLWlkZW50aXR5IiwgIk1hbmFnZWQgSWRlbnRpdHkiLCAmWyJBWlVSRUROU19TVUJTQ1JJUFRJT05JRCIsICJBWlVSRUROU19NQU5BR0VESURFTlRJVFkiXSwgJltdKSwKICAgICAgICAgICAgXSwKICAgICAgICB9KSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoCiAgICAgICAgICAgICJkbnNfcG9ya2J1biIsCiAgICAgICAgICAgICJQb3JrYnVuIiwKICAgICAgICAgICAgY29tbW9uLAogICAgICAgICAgICAmWyJQT1JLQlVOX0FQSV9LRVkiLCAiUE9SS0JVTl9TRUNSRVRfQVBJX0tFWSJdLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSwKICAgICAgICBqc29uISh7CiAgICAgICAgICAgICJkbnNUeXBlIjogImRuc19keW52NiIsCiAgICAgICAgICAgICJsYWJlbCI6ICJkeW52NiIsCiAgICAgICAgICAgICJncm91cCI6IGNvbW1vbiwKICAgICAgICAgICAgImNyZWRlbnRpYWxTY2hlbWVzIjogWwogICAgICAgICAgICAgICAgc2NoZW1lKCJyZXN0LXRva2VuIiwgIlJFU1QgQVBJIFRva2VuIiwgJlsiRFlOVjZfVE9LRU4iXSwgJltdKSwKICAgICAgICAgICAgICAgIHNjaGVtZSgic3NoLWtleSIsICJTU0ggS2V5IiwgJlsiS0VZIl0sICZbXSksCiAgICAgICAgICAgIF0sCiAgICAgICAgfSksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX2h1YXdlaWNsb3VkIiwKICAgICAgICAgICAgJnQudCgic2VydmVyLmFjbWVEbnNQcm92aWRlcnMubGFiZWxzLmh1YXdlaUNsb3VkRG5zIiksCiAgICAgICAgICAgIGRvbWVzdGljLAogICAgICAgICAgICAmWwogICAgICAgICAgICAgICAgIkhVQVdFSUNMT1VEX1VzZXJuYW1lIiwKICAgICAgICAgICAgICAgICJIVUFXRUlDTE9VRF9QYXNzd29yZCIsCiAgICAgICAgICAgICAgICAiSFVBV0VJQ0xPVURfRG9tYWluTmFtZSIsCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICZbXSwKICAgICAgICApLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigKICAgICAgICAgICAgImRuc19qZCIsCiAgICAgICAgICAgICZ0LnQoInNlcnZlci5hY21lRG5zUHJvdmlkZXJzLmxhYmVscy5qZENsb3VkRG5zIiksCiAgICAgICAgICAgIGRvbWVzdGljLAogICAgICAgICAgICAmWyJKRF9BQ0NFU1NfS0VZX0lEIiwgIkpEX0FDQ0VTU19LRVlfU0VDUkVUIiwgIkpEX1JFR0lPTiJdLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoImRuc19sYSIsICJETlMuTEEiLCBkb21lc3RpYywgJlsiTEFfSWQiLCAiTEFfU2siXSwgJltdKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoCiAgICAgICAgICAgICJkbnNfd2VzdF9jbiIsCiAgICAgICAgICAgICZ0LnQoInNlcnZlci5hY21lRG5zUHJvdmlkZXJzLmxhYmVscy53ZXN0Q24iKSwKICAgICAgICAgICAgZG9tZXN0aWMsCiAgICAgICAgICAgICZbIldFU1RfVXNlcm5hbWUiLCAiV0VTVF9LZXkiXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX2xpbm9kZV92NCIsCiAgICAgICAgICAgICJMaW5vZGUiLAogICAgICAgICAgICBpbnRlcm5hdGlvbmFsLAogICAgICAgICAgICAmWyJMSU5PREVfVjRfQVBJX0tFWSJdLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoImRuc192dWx0ciIsICJWdWx0ciIsIGludGVybmF0aW9uYWwsICZbIlZVTFRSX0FQSV9LRVkiXSwgJltdKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoCiAgICAgICAgICAgICJkbnNfb3ZoIiwKICAgICAgICAgICAgIk9WSCIsCiAgICAgICAgICAgIGludGVybmF0aW9uYWwsCiAgICAgICAgICAgICZbIk9WSF9BSyIsICJPVkhfQVMiLCAiT1ZIX0NLIiwgIk9WSF9FTkRfUE9JTlQiXSwKICAgICAgICAgICAgJlsiT1ZIX0VORF9QT0lOVCJdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX2hldHpuZXIiLAogICAgICAgICAgICAiSGV0em5lciIsCiAgICAgICAgICAgIGludGVybmF0aW9uYWwsCiAgICAgICAgICAgICZbIkhFVFpORVJfVG9rZW4iXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX25hbWVjaGVhcCIsCiAgICAgICAgICAgICJOYW1lY2hlYXAiLAogICAgICAgICAgICBpbnRlcm5hdGlvbmFsLAogICAgICAgICAgICAmWwogICAgICAgICAgICAgICAgIk5BTUVDSEVBUF9BUElfS0VZIiwKICAgICAgICAgICAgICAgICJOQU1FQ0hFQVBfVVNFUk5BTUUiLAogICAgICAgICAgICAgICAgIk5BTUVDSEVBUF9TT1VSQ0VJUCIsCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICZbXSwKICAgICAgICApLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigKICAgICAgICAgICAgImRuc19uYW1lY29tIiwKICAgICAgICAgICAgIk5hbWUuY29tIiwKICAgICAgICAgICAgaW50ZXJuYXRpb25hbCwKICAgICAgICAgICAgJlsiTmFtZWNvbV9Vc2VybmFtZSIsICJOYW1lY29tX1Rva2VuIl0sCiAgICAgICAgICAgICZbXSwKICAgICAgICApLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigKICAgICAgICAgICAgImRuc19uYW1lc2lsbyIsCiAgICAgICAgICAgICJOYW1lU2lsbyIsCiAgICAgICAgICAgIGludGVybmF0aW9uYWwsCiAgICAgICAgICAgICZbIk5hbWVzaWxvX0tleSJdLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoCiAgICAgICAgICAgICJkbnNfZHJlYW1ob3N0IiwKICAgICAgICAgICAgIkRyZWFtSG9zdCIsCiAgICAgICAgICAgIGludGVybmF0aW9uYWwsCiAgICAgICAgICAgICZbIkRIX0FQSV9LRVkiXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX2ZyZWVkbnMiLAogICAgICAgICAgICAiRnJlZUROUyIsCiAgICAgICAgICAgIGludGVybmF0aW9uYWwsCiAgICAgICAgICAgICZbIkZSRUVETlNfVXNlciIsICJGUkVFRE5TX1Bhc3N3b3JkIl0sCiAgICAgICAgICAgICZbXSwKICAgICAgICApLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigKICAgICAgICAgICAgImRuc19keW4iLAogICAgICAgICAgICAiRHluIE1hbmFnZWQgRE5TIiwKICAgICAgICAgICAgaW50ZXJuYXRpb25hbCwKICAgICAgICAgICAgJlsiRFlOX0N1c3RvbWVyIiwgIkRZTl9Vc2VybmFtZSIsICJEWU5fUGFzc3dvcmQiXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX2R5bnUiLAogICAgICAgICAgICAiRHludSIsCiAgICAgICAgICAgIGludGVybmF0aW9uYWwsCiAgICAgICAgICAgICZbIkR5bnVfQ2xpZW50SWQiLCAiRHludV9TZWNyZXQiXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX2J1bm55IiwKICAgICAgICAgICAgIkJ1bm55IEROUyIsCiAgICAgICAgICAgIGludGVybmF0aW9uYWwsCiAgICAgICAgICAgICZbIkJVTk5ZX0FQSV9LRVkiXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKCJkbnNfZGVzZWMiLCAiZGVTRUMiLCBpbnRlcm5hdGlvbmFsLCAmWyJERURZTl9UT0tFTiJdLCAmW10pLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigKICAgICAgICAgICAgImRuc19mcmVlbXlpcCIsCiAgICAgICAgICAgICJGcmVlTXlJUCIsCiAgICAgICAgICAgIGludGVybmF0aW9uYWwsCiAgICAgICAgICAgICZbIkZSRUVNWUlQX1Rva2VuIl0sCiAgICAgICAgICAgICZbXSwKICAgICAgICApLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigKICAgICAgICAgICAgImRuc19pcHY2NCIsCiAgICAgICAgICAgICJJUHY2NC5uZXQiLAogICAgICAgICAgICBpbnRlcm5hdGlvbmFsLAogICAgICAgICAgICAmWyJJUHY2NF9Ub2tlbiJdLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoCiAgICAgICAgICAgICJkbnNfc2NhbGV3YXkiLAogICAgICAgICAgICAiU2NhbGV3YXkiLAogICAgICAgICAgICBpbnRlcm5hdGlvbmFsLAogICAgICAgICAgICAmWyJTQ0FMRVdBWV9BUElfVE9LRU4iXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX2Vhc3lkbnMiLAogICAgICAgICAgICAiZWFzeUROUyIsCiAgICAgICAgICAgIGludGVybmF0aW9uYWwsCiAgICAgICAgICAgICZbIkVBU1lETlNfVG9rZW4iLCAiRUFTWUROU19LZXkiXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX3pvbmVlZGl0IiwKICAgICAgICAgICAgIlpvbmVFZGl0IiwKICAgICAgICAgICAgaW50ZXJuYXRpb25hbCwKICAgICAgICAgICAgJlsiWk9ORUVESVRfSUQiLCAiWk9ORUVESVRfVG9rZW4iXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKCJkbnNfem9ub21pIiwgIlpvbm9taSIsIGludGVybmF0aW9uYWwsICZbIlpNX0tleSJdLCAmW10pLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigKICAgICAgICAgICAgImRuc19kbnNleGl0IiwKICAgICAgICAgICAgIkROU0V4aXQiLAogICAgICAgICAgICBpbnRlcm5hdGlvbmFsLAogICAgICAgICAgICAmWyJETlNFWElUX0FQSV9LRVkiLCAiRE5TRVhJVF9BVVRIX1VTRVIiLCAiRE5TRVhJVF9BVVRIX1BBU1MiXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAganNvbiEoewogICAgICAgICAgICAiZG5zVHlwZSI6ICJkbnNfeWFuZGV4MzYwIiwKICAgICAgICAgICAgImxhYmVsIjogIllhbmRleCAzNjAiLAogICAgICAgICAgICAiZ3JvdXAiOiBpbnRlcm5hdGlvbmFsLAogICAgICAgICAgICAiY3JlZGVudGlhbFNjaGVtZXMiOiBbCiAgICAgICAgICAgICAgICBzY2hlbWUoIm9hdXRoLWNsaWVudCIsICJPQXV0aCBDbGllbnQiLCAmWyJZQU5ERVgzNjBfQ0xJRU5UX0lEIiwgIllBTkRFWDM2MF9DTElFTlRfU0VDUkVUIiwgIllBTkRFWDM2MF9PUkdfSUQiXSwgJlsiWUFOREVYMzYwX09SR19JRCJdKSwKICAgICAgICAgICAgICAgIHNjaGVtZSgiYWNjZXNzLXRva2VuIiwgIkFjY2VzcyBUb2tlbiIsICZbIllBTkRFWDM2MF9BQ0NFU1NfVE9LRU4iLCAiWUFOREVYMzYwX09SR19JRCJdLCAmWyJZQU5ERVgzNjBfT1JHX0lEIl0pLAogICAgICAgICAgICBdLAogICAgICAgIH0pLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigKICAgICAgICAgICAgImRuc19teWRuc2pwIiwKICAgICAgICAgICAgIk15RE5TLkpQIiwKICAgICAgICAgICAgaW50ZXJuYXRpb25hbCwKICAgICAgICAgICAgJlsiTVlETlNKUF9NYXN0ZXJJRCIsICJNWUROU0pQX1Bhc3N3b3JkIl0sCiAgICAgICAgICAgICZbXSwKICAgICAgICApLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigKICAgICAgICAgICAgImRuc19nYW5kaV9saXZlZG5zIiwKICAgICAgICAgICAgIkdhbmRpIExpdmVETlMiLAogICAgICAgICAgICBpbnRlcm5hdGlvbmFsLAogICAgICAgICAgICAmWyJHQU5ESV9MSVZFRE5TX0tFWSJdLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoImRuc19uc29uZSIsICJOUzEiLCBpbnRlcm5hdGlvbmFsLCAmWyJOUzFfS2V5Il0sICZbXSksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX2Ruc2ltcGxlIiwKICAgICAgICAgICAgIkROU2ltcGxlIiwKICAgICAgICAgICAgaW50ZXJuYXRpb25hbCwKICAgICAgICAgICAgJlsiRE5TaW1wbGVfT0FVVEhfVE9LRU4iXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAganNvbiEoewogICAgICAgICAgICAiZG5zVHlwZSI6ICJkbnNfY2xvdWRucyIsCiAgICAgICAgICAgICJsYWJlbCI6ICJDbG91RE5TIiwKICAgICAgICAgICAgImdyb3VwIjogaW50ZXJuYXRpb25hbCwKICAgICAgICAgICAgImNyZWRlbnRpYWxTY2hlbWVzIjogWwogICAgICAgICAgICAgICAgc2NoZW1lKCJhdXRoLWlkIiwgIkF1dGggSUQiLCAmWyJDTE9VRE5TX0FVVEhfSUQiLCAiQ0xPVUROU19BVVRIX1BBU1NXT1JEIl0sICZbXSksCiAgICAgICAgICAgICAgICBzY2hlbWUoInN1Yi1hdXRoLWlkIiwgIlN1YiBBdXRoIElEIiwgJlsiQ0xPVUROU19TVUJfQVVUSF9JRCIsICJDTE9VRE5TX0FVVEhfUEFTU1dPUkQiXSwgJltdKSwKICAgICAgICAgICAgXSwKICAgICAgICB9KSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoCiAgICAgICAgICAgICJkbnNfaGUiLAogICAgICAgICAgICAiSHVycmljYW5lIEVsZWN0cmljIiwKICAgICAgICAgICAgaW50ZXJuYXRpb25hbCwKICAgICAgICAgICAgJlsiSEVfVXNlcm5hbWUiLCAiSEVfUGFzc3dvcmQiXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX3RyYW5zaXAiLAogICAgICAgICAgICAiVHJhbnNJUCIsCiAgICAgICAgICAgIGludGVybmF0aW9uYWwsCiAgICAgICAgICAgICZbIlRSQU5TSVBfVXNlcm5hbWUiLCAiVFJBTlNJUF9LZXlfRmlsZSJdLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoCiAgICAgICAgICAgICJkbnNfZG9hcGkiLAogICAgICAgICAgICAiRG9tYWluLU9mZmVuc2l2ZSIsCiAgICAgICAgICAgIGludGVybmF0aW9uYWwsCiAgICAgICAgICAgICZbIkRPX0xFVE9LRU4iXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX2FjbWVkbnMiLAogICAgICAgICAgICAiYWNtZS1kbnMiLAogICAgICAgICAgICBzZWxmX2hvc3RlZCwKICAgICAgICAgICAgJlsKICAgICAgICAgICAgICAgICJBQ01FRE5TX1VTRVJOQU1FIiwKICAgICAgICAgICAgICAgICJBQ01FRE5TX1BBU1NXT1JEIiwKICAgICAgICAgICAgICAgICJBQ01FRE5TX1NVQkRPTUFJTiIsCiAgICAgICAgICAgICAgICAiQUNNRUROU19CQVNFX1VSTCIsCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICZbIkFDTUVETlNfQkFTRV9VUkwiXSwKICAgICAgICApLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigKICAgICAgICAgICAgImRuc19uc3VwZGF0ZSIsCiAgICAgICAgICAgICJuc3VwZGF0ZSIsCiAgICAgICAgICAgIHNlbGZfaG9zdGVkLAogICAgICAgICAgICAmWwogICAgICAgICAgICAgICAgIk5TVVBEQVRFX1NFUlZFUiIsCiAgICAgICAgICAgICAgICAiTlNVUERBVEVfU0VSVkVSX1BPUlQiLAogICAgICAgICAgICAgICAgIk5TVVBEQVRFX0tFWSIsCiAgICAgICAgICAgICAgICAiTlNVUERBVEVfWk9ORSIsCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICZbIk5TVVBEQVRFX1NFUlZFUl9QT1JUIiwgIk5TVVBEQVRFX0tFWSIsICJOU1VQREFURV9aT05FIl0sCiAgICAgICAgKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoCiAgICAgICAgICAgICJkbnNfcGRucyIsCiAgICAgICAgICAgICJQb3dlckROUyIsCiAgICAgICAgICAgIHNlbGZfaG9zdGVkLAogICAgICAgICAgICAmWyJQRE5TX1VybCIsICJQRE5TX1NlcnZlcklkIiwgIlBETlNfVG9rZW4iLCAiUEROU19UdGwiXSwKICAgICAgICAgICAgJlsiUEROU19UdGwiXSwKICAgICAgICApLAogICAgICAgIHNpbXBsZV9wcm92aWRlcigKICAgICAgICAgICAgImRuc190ZWNobml0aXVtIiwKICAgICAgICAgICAgIlRlY2huaXRpdW0gRE5TIiwKICAgICAgICAgICAgc2VsZl9ob3N0ZWQsCiAgICAgICAgICAgICZbCiAgICAgICAgICAgICAgICAiVGVjaG5pdGl1bV9TZXJ2ZXIiLAogICAgICAgICAgICAgICAgIlRlY2huaXRpdW1fVG9rZW4iLAogICAgICAgICAgICAgICAgIlRlY2huaXRpdW1fRXhwaXJ5X1R0bCIsCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICZbIlRlY2huaXRpdW1fRXhwaXJ5X1R0bCJdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX3BsZXNreG1sIiwKICAgICAgICAgICAgIlBsZXNrIFhNTCBBUEkiLAogICAgICAgICAgICBzZWxmX2hvc3RlZCwKICAgICAgICAgICAgJlsicGxlc2t4bWxfdXJpIiwgInBsZXNreG1sX3VzZXIiLCAicGxlc2t4bWxfcGFzcyJdLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoCiAgICAgICAgICAgICJkbnNfY3BhbmVsIiwKICAgICAgICAgICAgImNQYW5lbCIsCiAgICAgICAgICAgIHNlbGZfaG9zdGVkLAogICAgICAgICAgICAmWyJjUGFuZWxfVXNlcm5hbWUiLCAiY1BhbmVsX0FwaXRva2VuIiwgImNQYW5lbF9Ib3N0bmFtZSJdLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoCiAgICAgICAgICAgICJkbnNfZGEiLAogICAgICAgICAgICAiRGlyZWN0QWRtaW4iLAogICAgICAgICAgICBzZWxmX2hvc3RlZCwKICAgICAgICAgICAgJlsiREFfQXBpIiwgIkRBX0FwaV9JbnNlY3VyZSJdLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSwKICAgICAgICBzaW1wbGVfcHJvdmlkZXIoCiAgICAgICAgICAgICJkbnNfaXNwY29uZmlnIiwKICAgICAgICAgICAgIklTUENvbmZpZyIsCiAgICAgICAgICAgIHNlbGZfaG9zdGVkLAogICAgICAgICAgICAmWwogICAgICAgICAgICAgICAgIklTUENfVXNlciIsCiAgICAgICAgICAgICAgICAiSVNQQ19QYXNzd29yZCIsCiAgICAgICAgICAgICAgICAiSVNQQ19BcGkiLAogICAgICAgICAgICAgICAgIklTUENfQXBpX0luc2VjdXJlIiwKICAgICAgICAgICAgXSwKICAgICAgICAgICAgJltdLAogICAgICAgICksCiAgICAgICAgc2ltcGxlX3Byb3ZpZGVyKAogICAgICAgICAgICAiZG5zX29wbnNlbnNlIiwKICAgICAgICAgICAgIk9QTnNlbnNlIiwKICAgICAgICAgICAgc2VsZl9ob3N0ZWQsCiAgICAgICAgICAgICZbCiAgICAgICAgICAgICAgICAiT1BOc19Ib3N0IiwKICAgICAgICAgICAgICAgICJPUE5zX1BvcnQiLAogICAgICAgICAgICAgICAgIk9QTnNfS2V5IiwKICAgICAgICAgICAgICAgICJPUE5zX1Rva2VuIiwKICAgICAgICAgICAgICAgICJPUE5zX0FwaV9JbnNlY3VyZSIsCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICZbIk9QTnNfUG9ydCIsICJPUE5zX0FwaV9JbnNlY3VyZSJdLAogICAgICAgICksCiAgICBdOwogICAgbG9jYWxpemVfZGVmYXVsdF9jcmVkZW50aWFsX2xhYmVscygmbXV0IHByb3ZpZGVycywgJmRlZmF1bHRfY3JlZGVudGlhbF9sYWJlbCk7CiAgICBwcm92aWRlcnMKfQoKcHViKHN1cGVyKSBmbiBsb2NhbGl6ZV9kZWZhdWx0X2NyZWRlbnRpYWxfbGFiZWxzKHByb3ZpZGVyczogJm11dCBbVmFsdWVdLCBsYWJlbDogJnN0cikgewogICAgZm9yIHByb3ZpZGVyIGluIHByb3ZpZGVycyB7CiAgICAgICAgbGV0IFNvbWUoc2NoZW1lcykgPSBwcm92aWRlcgogICAgICAgICAgICAuZ2V0X211dCgiY3JlZGVudGlhbFNjaGVtZXMiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5X211dCkKICAgICAgICBlbHNlIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfTsKICAgICAgICBmb3Igc2NoZW1lIGluIHNjaGVtZXMgewogICAgICAgICAgICBpZiBzY2hlbWUuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoImRlZmF1bHQiKSB7CiAgICAgICAgICAgICAgICBzY2hlbWVbImxhYmVsIl0gPSBqc29uIShsYWJlbCk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCnB1YihzdXBlcikgZm4gc2ltcGxlX3Byb3ZpZGVyKAogICAgZG5zX3R5cGU6ICZzdHIsCiAgICBsYWJlbDogJnN0ciwKICAgIGdyb3VwOiAmc3RyLAogICAgZmllbGRzOiAmWyZzdHJdLAogICAgb3B0aW9uYWxfZmllbGRzOiAmWyZzdHJdLAopIC0+IFZhbHVlIHsKICAgIGpzb24hKHsKICAgICAgICAiZG5zVHlwZSI6IGRuc190eXBlLAogICAgICAgICJsYWJlbCI6IGxhYmVsLAogICAgICAgICJncm91cCI6IGdyb3VwLAogICAgICAgICJjcmVkZW50aWFsU2NoZW1lcyI6IFtzY2hlbWUoImRlZmF1bHQiLCAiRGVmYXVsdCBjcmVkZW50aWFscyIsIGZpZWxkcywgb3B0aW9uYWxfZmllbGRzKV0sCiAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIHNjaGVtZShpZDogJnN0ciwgbGFiZWw6ICZzdHIsIGZpZWxkczogJlsmc3RyXSwgb3B0aW9uYWxfZmllbGRzOiAmWyZzdHJdKSAtPiBWYWx1ZSB7CiAgICBsZXQgb3B0aW9uYWwgPSBvcHRpb25hbF9maWVsZHMuaXRlcigpLmNvcGllZCgpLmNvbGxlY3Q6OjxCVHJlZVNldDxfPj4oKTsKICAgIGpzb24hKHsKICAgICAgICAiaWQiOiBpZCwKICAgICAgICAibGFiZWwiOiBsYWJlbCwKICAgICAgICAiZmllbGRzIjogZmllbGRzLml0ZXIoKS5tYXAofGtleXwgewogICAgICAgICAgICBqc29uISh7CiAgICAgICAgICAgICAgICAia2V5Ijoga2V5LAogICAgICAgICAgICAgICAgInJlcXVpcmVkIjogIW9wdGlvbmFsLmNvbnRhaW5zKGtleSksCiAgICAgICAgICAgIH0pCiAgICAgICAgfSkuY29sbGVjdDo6PFZlYzxfPj4oKSwKICAgIH0pCn0K
+use super::*;
+
+pub(super) fn windows_acme_dns_providers(t: &Translator) -> Vec<Value> {
+    let common_label = t.t("server.acmeDnsProviders.groups.common");
+    let domestic_label = t.t("server.acmeDnsProviders.groups.domestic");
+    let international_label = t.t("server.acmeDnsProviders.groups.international");
+    let common = common_label.as_str();
+    let domestic = domestic_label.as_str();
+    let international = international_label.as_str();
+    let mut providers = vec![
+        simple_provider(
+            "dns_ali",
+            &t.t("server.acmeDnsProviders.labels.aliyun"),
+            common,
+            &["Ali_Key", "Ali_Secret", "Ali_Domain"],
+            &["Ali_Domain"],
+        ),
+        simple_provider(
+            "dns_baiducloud",
+            "Baidu Cloud DNS",
+            domestic,
+            &[
+                "BAIDU_ACCESS_KEY_ID",
+                "BAIDU_SECRET_ACCESS_KEY",
+                "root_domain",
+            ],
+            &["root_domain"],
+        ),
+        json!({
+            "dnsType": "dns_cf",
+            "label": "Cloudflare",
+            "group": common,
+            "credentialSchemes": [
+                scheme("api-token", "API Token", &["CF_Token", "CF_Zone_ID", "CF_Account_ID"], &["CF_Zone_ID", "CF_Account_ID"]),
+                scheme("global-key", "Global API Key", &["CF_Key", "CF_Email", "CF_Zone_ID", "CF_Account_ID"], &["CF_Zone_ID", "CF_Account_ID"]),
+            ],
+        }),
+        simple_provider(
+            "dns_dp",
+            "DNSPod",
+            common,
+            &["DP_Id", "DP_Key", "DP_Domain"],
+            &["DP_Domain"],
+        ),
+        simple_provider(
+            "dns_tencent",
+            &t.t("server.acmeDnsProviders.labels.tencentCloudDnspod"),
+            common,
+            &["Tencent_SecretId", "Tencent_SecretKey"],
+            &[],
+        ),
+        simple_provider("dns_duckdns", "DuckDNS", common, &["DuckDNS_Token"], &[]),
+        simple_provider(
+            "dns_dynu",
+            "Dynu",
+            international,
+            &["Dynu_ClientId", "Dynu_Secret"],
+            &[],
+        ),
+        simple_provider("dns_dynv6", "dynv6", international, &["DYNV6_TOKEN"], &[]),
+        simple_provider(
+            "dns_gd",
+            "GoDaddy",
+            international,
+            &["GD_Key", "GD_Secret", "GD_Domain"],
+            &["GD_Domain"],
+        ),
+        simple_provider(
+            "dns_huaweicloud",
+            &t.t("server.acmeDnsProviders.labels.huaweiCloudDns"),
+            domestic,
+            &[
+                "HUAWEICLOUD_Username",
+                "HUAWEICLOUD_Password",
+                "HUAWEICLOUD_DomainName",
+                "HUAWEICLOUD_Region",
+                "HUAWEICLOUD_ProjectName",
+            ],
+            &["HUAWEICLOUD_Region", "HUAWEICLOUD_ProjectName"],
+        ),
+        simple_provider(
+            "dns_porkbun",
+            "Porkbun",
+            international,
+            &[
+                "PORKBUN_API_KEY",
+                "PORKBUN_SECRET_API_KEY",
+                "PORKBUN_DOMAIN",
+            ],
+            &["PORKBUN_DOMAIN"],
+        ),
+    ];
+    let default_credential_label = t.t("server.acmeDnsProviders.credentialSchemes.default");
+    localize_default_credential_labels(&mut providers, &default_credential_label);
+    providers
+}
+
+pub(super) fn acme_dns_providers(t: &Translator) -> Vec<Value> {
+    let common_label = t.t("server.acmeDnsProviders.groups.common");
+    let domestic_label = t.t("server.acmeDnsProviders.groups.domestic");
+    let international_label = t.t("server.acmeDnsProviders.groups.international");
+    let self_hosted_label = t.t("server.acmeDnsProviders.groups.selfHostedAdvanced");
+    let common = common_label.as_str();
+    let domestic = domestic_label.as_str();
+    let international = international_label.as_str();
+    let self_hosted = self_hosted_label.as_str();
+    let default_credential_label = t.t("server.acmeDnsProviders.credentialSchemes.default");
+    let mut providers = vec![
+        json!({
+            "dnsType": "dns_cf",
+            "label": "Cloudflare",
+            "group": common,
+            "credentialSchemes": [
+                scheme("global-key", "Global API Key", &["CF_Key", "CF_Email"], &[]),
+                scheme("api-token", "API Token", &["CF_Token", "CF_Zone_ID", "CF_Account_ID"], &["CF_Zone_ID", "CF_Account_ID"]),
+            ],
+        }),
+        simple_provider(
+            "dns_ali",
+            &t.t("server.acmeDnsProviders.labels.aliyun"),
+            common,
+            &["Ali_Key", "Ali_Secret"],
+            &[],
+        ),
+        simple_provider("dns_dp", "DNSPod", common, &["DP_Id", "DP_Key"], &[]),
+        simple_provider(
+            "dns_tencent",
+            &t.t("server.acmeDnsProviders.labels.tencentCloudDnspod"),
+            common,
+            &["Tencent_SecretId", "Tencent_SecretKey"],
+            &[],
+        ),
+        simple_provider("dns_duckdns", "DuckDNS", common, &["DuckDNS_Token"], &[]),
+        simple_provider("dns_gd", "GoDaddy", common, &["GD_Key", "GD_Secret"], &[]),
+        simple_provider("dns_dgon", "DigitalOcean", common, &["DO_API_KEY"], &[]),
+        simple_provider(
+            "dns_netlify",
+            "Netlify",
+            common,
+            &["NETLIFY_ACCESS_TOKEN"],
+            &[],
+        ),
+        simple_provider("dns_vercel", "Vercel", common, &["VERCEL_TOKEN"], &[]),
+        simple_provider(
+            "dns_aws",
+            "AWS Route53",
+            common,
+            &["AWS_ACCESS_KEY_ID", "AWS_SECRET_ACCESS_KEY"],
+            &[],
+        ),
+        simple_provider(
+            "dns_gcloud",
+            "Google Cloud DNS (gcloud)",
+            common,
+            &["CLOUDSDK_ACTIVE_CONFIG_NAME"],
+            &["CLOUDSDK_ACTIVE_CONFIG_NAME"],
+        ),
+        json!({
+            "dnsType": "dns_azure",
+            "label": "Azure DNS",
+            "group": common,
+            "credentialSchemes": [
+                scheme("service-principal", "Service Principal", &["AZUREDNS_SUBSCRIPTIONID", "AZUREDNS_TENANTID", "AZUREDNS_APPID", "AZUREDNS_CLIENTSECRET"], &[]),
+                scheme("bearer-token", "Bearer Token", &["AZUREDNS_SUBSCRIPTIONID", "AZUREDNS_BEARERTOKEN"], &[]),
+                scheme("managed-identity", "Managed Identity", &["AZUREDNS_SUBSCRIPTIONID", "AZUREDNS_MANAGEDIDENTITY"], &[]),
+            ],
+        }),
+        simple_provider(
+            "dns_porkbun",
+            "Porkbun",
+            common,
+            &["PORKBUN_API_KEY", "PORKBUN_SECRET_API_KEY"],
+            &[],
+        ),
+        json!({
+            "dnsType": "dns_dynv6",
+            "label": "dynv6",
+            "group": common,
+            "credentialSchemes": [
+                scheme("rest-token", "REST API Token", &["DYNV6_TOKEN"], &[]),
+                scheme("ssh-key", "SSH Key", &["KEY"], &[]),
+            ],
+        }),
+        simple_provider(
+            "dns_huaweicloud",
+            &t.t("server.acmeDnsProviders.labels.huaweiCloudDns"),
+            domestic,
+            &[
+                "HUAWEICLOUD_Username",
+                "HUAWEICLOUD_Password",
+                "HUAWEICLOUD_DomainName",
+            ],
+            &[],
+        ),
+        simple_provider(
+            "dns_jd",
+            &t.t("server.acmeDnsProviders.labels.jdCloudDns"),
+            domestic,
+            &["JD_ACCESS_KEY_ID", "JD_ACCESS_KEY_SECRET", "JD_REGION"],
+            &[],
+        ),
+        simple_provider("dns_la", "DNS.LA", domestic, &["LA_Id", "LA_Sk"], &[]),
+        simple_provider(
+            "dns_west_cn",
+            &t.t("server.acmeDnsProviders.labels.westCn"),
+            domestic,
+            &["WEST_Username", "WEST_Key"],
+            &[],
+        ),
+        simple_provider(
+            "dns_linode_v4",
+            "Linode",
+            international,
+            &["LINODE_V4_API_KEY"],
+            &[],
+        ),
+        simple_provider("dns_vultr", "Vultr", international, &["VULTR_API_KEY"], &[]),
+        simple_provider(
+            "dns_ovh",
+            "OVH",
+            international,
+            &["OVH_AK", "OVH_AS", "OVH_CK", "OVH_END_POINT"],
+            &["OVH_END_POINT"],
+        ),
+        simple_provider(
+            "dns_hetzner",
+            "Hetzner",
+            international,
+            &["HETZNER_Token"],
+            &[],
+        ),
+        simple_provider(
+            "dns_namecheap",
+            "Namecheap",
+            international,
+            &[
+                "NAMECHEAP_API_KEY",
+                "NAMECHEAP_USERNAME",
+                "NAMECHEAP_SOURCEIP",
+            ],
+            &[],
+        ),
+        simple_provider(
+            "dns_namecom",
+            "Name.com",
+            international,
+            &["Namecom_Username", "Namecom_Token"],
+            &[],
+        ),
+        simple_provider(
+            "dns_namesilo",
+            "NameSilo",
+            international,
+            &["Namesilo_Key"],
+            &[],
+        ),
+        simple_provider(
+            "dns_dreamhost",
+            "DreamHost",
+            international,
+            &["DH_API_KEY"],
+            &[],
+        ),
+        simple_provider(
+            "dns_freedns",
+            "FreeDNS",
+            international,
+            &["FREEDNS_User", "FREEDNS_Password"],
+            &[],
+        ),
+        simple_provider(
+            "dns_dyn",
+            "Dyn Managed DNS",
+            international,
+            &["DYN_Customer", "DYN_Username", "DYN_Password"],
+            &[],
+        ),
+        simple_provider(
+            "dns_dynu",
+            "Dynu",
+            international,
+            &["Dynu_ClientId", "Dynu_Secret"],
+            &[],
+        ),
+        simple_provider(
+            "dns_bunny",
+            "Bunny DNS",
+            international,
+            &["BUNNY_API_KEY"],
+            &[],
+        ),
+        simple_provider("dns_desec", "deSEC", international, &["DEDYN_TOKEN"], &[]),
+        simple_provider(
+            "dns_freemyip",
+            "FreeMyIP",
+            international,
+            &["FREEMYIP_Token"],
+            &[],
+        ),
+        simple_provider(
+            "dns_ipv64",
+            "IPv64.net",
+            international,
+            &["IPv64_Token"],
+            &[],
+        ),
+        simple_provider(
+            "dns_scaleway",
+            "Scaleway",
+            international,
+            &["SCALEWAY_API_TOKEN"],
+            &[],
+        ),
+        simple_provider(
+            "dns_easydns",
+            "easyDNS",
+            international,
+            &["EASYDNS_Token", "EASYDNS_Key"],
+            &[],
+        ),
+        simple_provider(
+            "dns_zoneedit",
+            "ZoneEdit",
+            international,
+            &["ZONEEDIT_ID", "ZONEEDIT_Token"],
+            &[],
+        ),
+        simple_provider("dns_zonomi", "Zonomi", international, &["ZM_Key"], &[]),
+        simple_provider(
+            "dns_dnsexit",
+            "DNSExit",
+            international,
+            &["DNSEXIT_API_KEY", "DNSEXIT_AUTH_USER", "DNSEXIT_AUTH_PASS"],
+            &[],
+        ),
+        json!({
+            "dnsType": "dns_yandex360",
+            "label": "Yandex 360",
+            "group": international,
+            "credentialSchemes": [
+                scheme("oauth-client", "OAuth Client", &["YANDEX360_CLIENT_ID", "YANDEX360_CLIENT_SECRET", "YANDEX360_ORG_ID"], &["YANDEX360_ORG_ID"]),
+                scheme("access-token", "Access Token", &["YANDEX360_ACCESS_TOKEN", "YANDEX360_ORG_ID"], &["YANDEX360_ORG_ID"]),
+            ],
+        }),
+        simple_provider(
+            "dns_mydnsjp",
+            "MyDNS.JP",
+            international,
+            &["MYDNSJP_MasterID", "MYDNSJP_Password"],
+            &[],
+        ),
+        simple_provider(
+            "dns_gandi_livedns",
+            "Gandi LiveDNS",
+            international,
+            &["GANDI_LIVEDNS_KEY"],
+            &[],
+        ),
+        simple_provider("dns_nsone", "NS1", international, &["NS1_Key"], &[]),
+        simple_provider(
+            "dns_dnsimple",
+            "DNSimple",
+            international,
+            &["DNSimple_OAUTH_TOKEN"],
+            &[],
+        ),
+        json!({
+            "dnsType": "dns_cloudns",
+            "label": "ClouDNS",
+            "group": international,
+            "credentialSchemes": [
+                scheme("auth-id", "Auth ID", &["CLOUDNS_AUTH_ID", "CLOUDNS_AUTH_PASSWORD"], &[]),
+                scheme("sub-auth-id", "Sub Auth ID", &["CLOUDNS_SUB_AUTH_ID", "CLOUDNS_AUTH_PASSWORD"], &[]),
+            ],
+        }),
+        simple_provider(
+            "dns_he",
+            "Hurricane Electric",
+            international,
+            &["HE_Username", "HE_Password"],
+            &[],
+        ),
+        simple_provider(
+            "dns_transip",
+            "TransIP",
+            international,
+            &["TRANSIP_Username", "TRANSIP_Key_File"],
+            &[],
+        ),
+        simple_provider(
+            "dns_doapi",
+            "Domain-Offensive",
+            international,
+            &["DO_LETOKEN"],
+            &[],
+        ),
+        simple_provider(
+            "dns_acmedns",
+            "acme-dns",
+            self_hosted,
+            &[
+                "ACMEDNS_USERNAME",
+                "ACMEDNS_PASSWORD",
+                "ACMEDNS_SUBDOMAIN",
+                "ACMEDNS_BASE_URL",
+            ],
+            &["ACMEDNS_BASE_URL"],
+        ),
+        simple_provider(
+            "dns_nsupdate",
+            "nsupdate",
+            self_hosted,
+            &[
+                "NSUPDATE_SERVER",
+                "NSUPDATE_SERVER_PORT",
+                "NSUPDATE_KEY",
+                "NSUPDATE_ZONE",
+            ],
+            &["NSUPDATE_SERVER_PORT", "NSUPDATE_KEY", "NSUPDATE_ZONE"],
+        ),
+        simple_provider(
+            "dns_pdns",
+            "PowerDNS",
+            self_hosted,
+            &["PDNS_Url", "PDNS_ServerId", "PDNS_Token", "PDNS_Ttl"],
+            &["PDNS_Ttl"],
+        ),
+        simple_provider(
+            "dns_technitium",
+            "Technitium DNS",
+            self_hosted,
+            &[
+                "Technitium_Server",
+                "Technitium_Token",
+                "Technitium_Expiry_Ttl",
+            ],
+            &["Technitium_Expiry_Ttl"],
+        ),
+        simple_provider(
+            "dns_pleskxml",
+            "Plesk XML API",
+            self_hosted,
+            &["pleskxml_uri", "pleskxml_user", "pleskxml_pass"],
+            &[],
+        ),
+        simple_provider(
+            "dns_cpanel",
+            "cPanel",
+            self_hosted,
+            &["cPanel_Username", "cPanel_Apitoken", "cPanel_Hostname"],
+            &[],
+        ),
+        simple_provider(
+            "dns_da",
+            "DirectAdmin",
+            self_hosted,
+            &["DA_Api", "DA_Api_Insecure"],
+            &[],
+        ),
+        simple_provider(
+            "dns_ispconfig",
+            "ISPConfig",
+            self_hosted,
+            &[
+                "ISPC_User",
+                "ISPC_Password",
+                "ISPC_Api",
+                "ISPC_Api_Insecure",
+            ],
+            &[],
+        ),
+        simple_provider(
+            "dns_opnsense",
+            "OPNsense",
+            self_hosted,
+            &[
+                "OPNs_Host",
+                "OPNs_Port",
+                "OPNs_Key",
+                "OPNs_Token",
+                "OPNs_Api_Insecure",
+            ],
+            &["OPNs_Port", "OPNs_Api_Insecure"],
+        ),
+    ];
+    localize_default_credential_labels(&mut providers, &default_credential_label);
+    providers
+}
+
+pub(super) fn localize_default_credential_labels(providers: &mut [Value], label: &str) {
+    for provider in providers {
+        let Some(schemes) = provider
+            .get_mut("credentialSchemes")
+            .and_then(Value::as_array_mut)
+        else {
+            continue;
+        };
+        for scheme in schemes {
+            if scheme.get("id").and_then(Value::as_str) == Some("default") {
+                scheme["label"] = json!(label);
+            }
+        }
+    }
+}
+
+pub(super) fn simple_provider(
+    dns_type: &str,
+    label: &str,
+    group: &str,
+    fields: &[&str],
+    optional_fields: &[&str],
+) -> Value {
+    json!({
+        "dnsType": dns_type,
+        "label": label,
+        "group": group,
+        "credentialSchemes": [scheme("default", "Default credentials", fields, optional_fields)],
+    })
+}
+
+pub(super) fn scheme(id: &str, label: &str, fields: &[&str], optional_fields: &[&str]) -> Value {
+    let optional = optional_fields.iter().copied().collect::<BTreeSet<_>>();
+    json!({
+        "id": id,
+        "label": label,
+        "fields": fields.iter().map(|key| {
+            json!({
+                "key": key,
+                "required": !optional.contains(key),
+            })
+        }).collect::<Vec<_>>(),
+    })
+}

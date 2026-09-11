@@ -1,1 +1,39 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRHJvcGRvd25NZW51Q2hlY2tib3hJdGVtRW1pdHMsIERyb3Bkb3duTWVudUNoZWNrYm94SXRlbVByb3BzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHR5cGUgeyBIVE1MQXR0cmlidXRlcyB9IGZyb20gInZ1ZSIKaW1wb3J0IHsgcmVhY3RpdmVPbWl0IH0gZnJvbSAiQHZ1ZXVzZS9jb3JlIgppbXBvcnQgeyBDaGVjayB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCIKaW1wb3J0IHsKICBEcm9wZG93bk1lbnVDaGVja2JveEl0ZW0sCiAgRHJvcGRvd25NZW51SXRlbUluZGljYXRvciwKICB1c2VGb3J3YXJkUHJvcHNFbWl0cywKfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxEcm9wZG93bk1lbnVDaGVja2JveEl0ZW1Qcm9wcyAmIHsgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXSB9PigpCmNvbnN0IGVtaXRzID0gZGVmaW5lRW1pdHM8RHJvcGRvd25NZW51Q2hlY2tib3hJdGVtRW1pdHM+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQoKY29uc3QgZm9yd2FyZGVkID0gdXNlRm9yd2FyZFByb3BzRW1pdHMoZGVsZWdhdGVkUHJvcHMsIGVtaXRzKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RHJvcGRvd25NZW51Q2hlY2tib3hJdGVtCiAgICBkYXRhLXNsb3Q9ImRyb3Bkb3duLW1lbnUtY2hlY2tib3gtaXRlbSIKICAgIHYtYmluZD0iZm9yd2FyZGVkIgogICAgOmNsYXNzPSIgY24oCiAgICAgICdmb2N1czpiZy1hY2NlbnQgZm9jdXM6dGV4dC1hY2NlbnQtZm9yZWdyb3VuZCByZWxhdGl2ZSBmbGV4IGN1cnNvci1kZWZhdWx0IGl0ZW1zLWNlbnRlciBnYXAtMiByb3VuZGVkLXNtIHB5LTEuNSBwci0yIHBsLTggdGV4dC1zbSBvdXRsaW5lLWhpZGRlbiBzZWxlY3Qtbm9uZSBkYXRhLVtkaXNhYmxlZF06cG9pbnRlci1ldmVudHMtbm9uZSBkYXRhLVtkaXNhYmxlZF06b3BhY2l0eS01MCBbJl9zdmddOnBvaW50ZXItZXZlbnRzLW5vbmUgWyZfc3ZnXTpzaHJpbmstMCBbJl9zdmc6bm90KFtjbGFzcyo9XCdzaXplLVwnXSldOnNpemUtNCcsCiAgICAgIHByb3BzLmNsYXNzLAogICAgKSIKICA+CiAgICA8c3BhbiBjbGFzcz0icG9pbnRlci1ldmVudHMtbm9uZSBhYnNvbHV0ZSBsZWZ0LTIgZmxleCBzaXplLTMuNSBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICA8RHJvcGRvd25NZW51SXRlbUluZGljYXRvcj4KICAgICAgICA8c2xvdCBuYW1lPSJpbmRpY2F0b3ItaWNvbiI+CiAgICAgICAgICA8Q2hlY2sgY2xhc3M9InNpemUtNCIgLz4KICAgICAgICA8L3Nsb3Q+CiAgICAgIDwvRHJvcGRvd25NZW51SXRlbUluZGljYXRvcj4KICAgIDwvc3Bhbj4KICAgIDxzbG90IC8+CiAgPC9Ecm9wZG93bk1lbnVDaGVja2JveEl0ZW0+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { DropdownMenuCheckboxItemEmits, DropdownMenuCheckboxItemProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { Check } from "lucide-vue-next"
+import {
+  DropdownMenuCheckboxItem,
+  DropdownMenuItemIndicator,
+  useForwardPropsEmits,
+} from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<DropdownMenuCheckboxItemProps & { class?: HTMLAttributes["class"] }>()
+const emits = defineEmits<DropdownMenuCheckboxItemEmits>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwarded = useForwardPropsEmits(delegatedProps, emits)
+</script>
+
+<template>
+  <DropdownMenuCheckboxItem
+    data-slot="dropdown-menu-checkbox-item"
+    v-bind="forwarded"
+    :class=" cn(
+      'focus:bg-accent focus:text-accent-foreground relative flex cursor-default items-center gap-2 rounded-sm py-1.5 pr-2 pl-8 text-sm outline-hidden select-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*=\'size-\'])]:size-4',
+      props.class,
+    )"
+  >
+    <span class="pointer-events-none absolute left-2 flex size-3.5 items-center justify-center">
+      <DropdownMenuItemIndicator>
+        <slot name="indicator-icon">
+          <Check class="size-4" />
+        </slot>
+      </DropdownMenuItemIndicator>
+    </span>
+    <slot />
+  </DropdownMenuCheckboxItem>
+</template>

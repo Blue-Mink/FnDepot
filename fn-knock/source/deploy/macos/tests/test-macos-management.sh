@@ -1,1 +1,322 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaApzZXQgLWV1byBwaXBlZmFpbAoKUk9PVF9ESVI9IiQoY2QgIiQoZGlybmFtZSAiJHtCQVNIX1NPVVJDRVswXX0iKS8uLi8uLi8uLiIgJiYgcHdkKSIKV09SS19ESVI9IiQobWt0ZW1wIC1kICIke1RNUERJUjotL3RtcH0vZm4ta25vY2stbWFjb3MtbWFuYWdlbWVudC5YWFhYWFgiKSIKTU9DS19CSU49IiR7V09SS19ESVJ9L2JpbiIKU1RBVEVfRklMRT0iJHtXT1JLX0RJUn0vbGF1bmNoZC5sb2FkZWQiCgpjbGVhbnVwKCkgeyBybSAtcmYgIiR7V09SS19ESVJ9IjsgfQp0cmFwIGNsZWFudXAgRVhJVApmYWlsKCkgeyBwcmludGYgJ1t0ZXN0LW1hY29zLW1hbmFnZW1lbnRdIEVSUk9SOiAlc1xuJyAiJCoiID4mMjsgZXhpdCAxOyB9CgpbICIkKHVuYW1lIC1zKSIgPSBEYXJ3aW4gXSB8fCBmYWlsICJ0aGlzIHRlc3QgbXVzdCBydW4gb24gbWFjT1MiCm1rZGlyIC1wICIke01PQ0tfQklOfSIKCmNhdCA+ICIke01PQ0tfQklOfS9pZCIgPDwnRU9GJwojIS9iaW4vc2gKaWYgWyAiJHsxOi19IiA9ICItdSIgXTsgdGhlbiBwcmludGYgJzBcbic7IGVsc2UgZXhlYyAvdXNyL2Jpbi9pZCAiJEAiOyBmaQpFT0YKY2F0ID4gIiR7TU9DS19CSU59L3VuYW1lIiA8PCdFT0YnCiMhL2Jpbi9zaApjYXNlICIkezE6LX0iIGluCiAgLXMpIHByaW50ZiAnRGFyd2luXG4nIDs7CiAgLW0pIC91c3IvYmluL3VuYW1lIC1tIDs7CiAgKikgL3Vzci9iaW4vdW5hbWUgIiRAIiA7Owplc2FjCkVPRgpjYXQgPiAiJHtNT0NLX0JJTn0vc3dfdmVycyIgPDwnRU9GJwojIS9iaW4vc2gKWyAiJHsxOi19IiA9ICItcHJvZHVjdFZlcnNpb24iIF0gJiYgeyBwcmludGYgJzEzLjYuMVxuJzsgZXhpdCAwOyB9CmV4aXQgMQpFT0YKY2F0ID4gIiR7TU9DS19CSU59L2xhdW5jaGN0bCIgPDwnRU9GJwojIS9iaW4vc2gKWyAiJHtGTl9LTk9DS19URVNUX0xBVU5DSENUTF9GQUlMOi19IiAhPSAiJHsxOi19IiBdIHx8IGV4aXQgNjQKY2FzZSAiJDEiIGluCiAgcHJpbnQpIFsgLWYgIiR7Rk5fS05PQ0tfVEVTVF9MQVVOQ0hEX1NUQVRFfSIgXSA7OwogIGJvb3RzdHJhcCkKICAgIGlmIFsgIiR7Rk5fS05PQ0tfVEVTVF9CT09UU1RSQVBfRUlPX09OQ0U6LTB9IiA9ICIxIiBdICYmIFwKICAgICAgWyAtZiAiJHtGTl9LTk9DS19URVNUX0xBVU5DSERfU1RBVEV9LnRlYXJkb3duIiBdOyB0aGVuCiAgICAgIHJtIC1mICIke0ZOX0tOT0NLX1RFU1RfTEFVTkNIRF9TVEFURX0udGVhcmRvd24iCiAgICAgIHByaW50ZiAnQm9vdHN0cmFwIGZhaWxlZDogNTogSW5wdXQvb3V0cHV0IGVycm9yXG4nID4mMgogICAgICBleGl0IDUKICAgIGZpCiAgICA6ID4gIiR7Rk5fS05PQ0tfVEVTVF9MQVVOQ0hEX1NUQVRFfSIKICAgIDs7CiAga2lja3N0YXJ0KSA6ID4gIiR7Rk5fS05PQ0tfVEVTVF9MQVVOQ0hEX1NUQVRFfSIgOzsKICBib290b3V0KQogICAgcm0gLWYgIiR7Rk5fS05PQ0tfVEVTVF9MQVVOQ0hEX1NUQVRFfSIKICAgIFsgIiR7Rk5fS05PQ0tfVEVTVF9CT09UU1RSQVBfRUlPX09OQ0U6LTB9IiAhPSAiMSIgXSB8fCBcCiAgICAgIDogPiAiJHtGTl9LTk9DS19URVNUX0xBVU5DSERfU1RBVEV9LnRlYXJkb3duIgogICAgOzsKICAqKSBleGl0IDEgOzsKZXNhYwpFT0YKY2F0ID4gIiR7TU9DS19CSU59L2xzb2YiIDw8J0VPRicKIyEvYmluL3NoClsgIiR7Rk5fS05PQ0tfVEVTVF9QT1JUX0NPTkZMSUNUOi0wfSIgIT0gIjEiIF0gfHwgewogIHByaW50ZiAnQ09NTUFORCBQSUQgVVNFUiBGRCBUWVBFIERFVklDRSBTSVpFL09GRiBOT0RFIE5BTUVcbicKICBwcmludGYgJ2NvbmZsaWN0IDQyIHJvb3QgM3UgSVB2NCAwdDAgVENQIDEyNy4wLjAuMTo3OTkxIChMSVNURU4pXG4nCn0KZXhpdCAwCkVPRgpjYXQgPiAiJHtNT0NLX0JJTn0vcGdyZXAiIDw8J0VPRicKIyEvYmluL3NoCmNhc2UgIiR7Kn0iIGluCiAgKnNlcnZlci1hZG1pbi1ycykgcHJpbnRmICc0MjQyXG40MjQzXG4nIDs7CiAgKmdvLXJlYXV0aC1wcm94eSkgcHJpbnRmICc0MzQyXG4nIDs7CiAgKikgZXhpdCAxIDs7CmVzYWMKRU9GCmNhdCA+ICIke01PQ0tfQklOfS9wcyIgPDwnRU9GJwojIS9iaW4vc2gKcGlkPSIkezI6LX0iCmNhc2UgIiR7Kn0iIGluCiAgKmNvbW09KikKICAgIGNhc2UgIiR7cGlkfSIgaW4KICAgICAgNDI0MikgcHJpbnRmICclcy9jdXJyZW50L2Jpbi9zZXJ2ZXItYWRtaW4tcnNcbicgIiR7Rk5fS05PQ0tfQVBQX1JPT1R9IiA7OwogICAgICA0MjQzKSBwcmludGYgJy9wcml2YXRlL3RtcC9mbi1rbm9jay1tYWNvcy1zbW9rZS5vbGQvZm4ta25vY2svYmluL3NlcnZlci1hZG1pbi1yc1xuJyA7OwogICAgICA0MzQyKSBwcmludGYgJyVzL2N1cnJlbnQvYmluL2dvLXJlYXV0aC1wcm94eVxuJyAiJHtGTl9LTk9DS19BUFBfUk9PVH0iIDs7CiAgICAgICopIGV4aXQgMSA7OwogICAgZXNhYwogICAgOzsKICAqcnNzPSpldGltZT0qKSBwcmludGYgJzIwNDggMDA6NDJcbicgOzsKICAqKSBleGl0IDEgOzsKZXNhYwpFT0YKY2F0ID4gIiR7TU9DS19CSU59L2RpdHRvIiA8PCdFT0YnCiMhL2Jpbi9zaApta2RpciAtcCAiJDIiCmNwIC1SICIkMS8uIiAiJDIvIgpFT0YKY2F0ID4gIiR7TU9DS19CSU59L3N5c2N0bCIgPDwnRU9GJwojIS9iaW4vc2gKcHJpbnRmICclc1xuJyAiJHtGTl9LTk9DS19URVNUX1JPU0VUVEE6LTB9IgpFT0YKY2F0ID4gIiR7TU9DS19CSU59L2N1cmwiIDw8J0VPRicKIyEvYmluL3NoCm91dHB1dD0iIgp1cmw9IiIKd2hpbGUgWyAiJCMiIC1ndCAwIF07IGRvCiAgY2FzZSAiJDEiIGluCiAgICAtb3wtLW91dHB1dCkgb3V0cHV0PSIkMiI7IHNoaWZ0IDIgOzsKICAgIGh0dHA6Ly8qfGh0dHBzOi8vKikgdXJsPSIkMSI7IHNoaWZ0IDs7CiAgICAqKSBzaGlmdCA7OwogIGVzYWMKZG9uZQpbIC1uICIke291dHB1dH0iIF0gfHwgewogIFsgIiR7Rk5fS05PQ0tfVEVTVF9IRUFMVEhfRkFJTDotMH0iICE9ICIxIiBdIHx8IGV4aXQgMjIKICBleGl0IDAKfQpjYXNlICIke3VybH0iIGluCiAgKi9sYXRlc3QvKi5lbnYpIGNwICIke0ZOX0tOT0NLX1RFU1RfVVBEQVRFX01BTklGRVNUfSIgIiR7b3V0cHV0fSIgOzsKICAqKSBjcCAiJHtGTl9LTk9DS19URVNUX1VQREFURV9BUkNISVZFfSIgIiR7b3V0cHV0fSIgOzsKZXNhYwpFT0YKY2htb2QgMDc1NSAiJHtNT0NLX0JJTn0vIioKCmV4cG9ydCBQQVRIPSIke01PQ0tfQklOfTovdXNyL2JpbjovYmluOi91c3Ivc2Jpbjovc2JpbiIKZXhwb3J0IEZOX0tOT0NLX1RFU1RfTU9ERT0xCmV4cG9ydCBGTl9LTk9DS19URVNUX0xBVU5DSERfU1RBVEU9IiR7U1RBVEVfRklMRX0iCmV4cG9ydCBGTl9LTk9DS19BUFBfUk9PVD0iJHtXT1JLX0RJUn0vQXBwbGljYXRpb24gU3VwcG9ydC9Gbktub2NrIgpleHBvcnQgRk5fS05PQ0tfQ09ORklHX0RJUj0iJHtGTl9LTk9DS19BUFBfUk9PVH0vY29uZmlnIgpleHBvcnQgRk5fS05PQ0tfREFUQV9ESVI9IiR7Rk5fS05PQ0tfQVBQX1JPT1R9L2RhdGEiCmV4cG9ydCBGTl9LTk9DS19MT0dfRElSPSIke1dPUktfRElSfS9Mb2dzL0ZuS25vY2siCmV4cG9ydCBGTl9LTk9DS19VTklUX0ZJTEU9IiR7V09SS19ESVJ9L0xhdW5jaERhZW1vbnMvY24uZm5rbm9jay5zZXJ2aWNlLnBsaXN0IgpleHBvcnQgRk5fS05PQ0tfQ09NTUFORF9GSUxFPSIke1dPUktfRElSfS9jb21tYW5kcy9rbm9jayIKZXhwb3J0IEZOX0tOT0NLX0xTT0ZfQklOPSIke01PQ0tfQklOfS9sc29mIgpleHBvcnQgRk5fS05PQ0tfQVNTVU1FX1lFUz0xCmV4cG9ydCBGTl9LTk9DS19IRUFMVEhfQVRURU1QVFM9MQpleHBvcnQgRk5fS05PQ0tfTEFVTkNIQ1RMX0FUVEVNUFRTPTMKZXhwb3J0IEZOX0tOT0NLX0xBVU5DSENUTF9ERUxBWT0wCgpGTl9LTk9DS19URVNUX1JPU0VUVEE9MCAiJHtST09UX0RJUn0vZGVwbG95L21hY29zL2tub2NrIiBfbm9ybWFsaXplLWFyY2ggeDg2XzY0IHwgZ3JlcCAtcXggYW1kNjQKRk5fS05PQ0tfVEVTVF9ST1NFVFRBPTEgIiR7Uk9PVF9ESVJ9L2RlcGxveS9tYWNvcy9rbm9jayIgX25vcm1hbGl6ZS1hcmNoIHg4Nl82NCB8IGdyZXAgLXF4IGFybTY0CgpuYXRpdmVfYXJjaD0iJCgke1JPT1RfRElSfS9kZXBsb3kvbWFjb3Mva25vY2sgX25vcm1hbGl6ZS1hcmNoKSIKYXJjaGl2ZT0iJChmaW5kICIke1JPT1RfRElSfS9kaXN0L2ZuLWtub2NrLW1hY29zIiAtbWF4ZGVwdGggMSAtbmFtZSAiZm4ta25vY2stbWFjb3MtKi0ke25hdGl2ZV9hcmNofS50YXIuZ3oiIC1wcmludCAtcXVpdCkiClsgLW4gIiR7YXJjaGl2ZX0iIF0gfHwgZmFpbCAibmF0aXZlIHBhY2thZ2Ugd2FzIG5vdCBmb3VuZCB1bmRlciBkaXN0L2ZuLWtub2NrLW1hY29zIgpta2RpciAtcCAiJHtXT1JLX0RJUn0vcmVsZWFzZS1vbmUiCnRhciAteHpmICIke2FyY2hpdmV9IiAtQyAiJHtXT1JLX0RJUn0vcmVsZWFzZS1vbmUiCnJlbGVhc2Vfb25lPSIke1dPUktfRElSfS9yZWxlYXNlLW9uZS9mbi1rbm9jayIKdmVyc2lvbl9vbmU9IiQoc2VkIC1uRSAncy9eW1s6c3BhY2U6XV0qInZlcnNpb24iW1s6c3BhY2U6XV0qOltbOnNwYWNlOl1dKiIoW14iXSspIi4qL1wxL3AnICIke3JlbGVhc2Vfb25lfS9yZWxlYXNlLmpzb24iIHwgaGVhZCAtbjEpIgoKaWYgRk5fS05PQ0tfVEVTVF9QT1JUX0NPTkZMSUNUPTEgIiR7cmVsZWFzZV9vbmV9L2Jpbi9rbm9jayIgX3ByZXBhcmUtaW5zdGFsbCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBmYWlsICJub24taW50ZXJhY3RpdmUgaW5zdGFsbGF0aW9uIGFjY2VwdGVkIGEgY29uZmxpY3RpbmcgZGVmYXVsdCBwb3J0IgpmaQoKd3JvbmdfcmVsZWFzZT0iJHtXT1JLX0RJUn0vd3JvbmctYXJjaGl0ZWN0dXJlIgpta2RpciAtcCAiJHt3cm9uZ19yZWxlYXNlfSIKY3AgLVIgIiR7cmVsZWFzZV9vbmV9Ly4iICIke3dyb25nX3JlbGVhc2V9LyIKd3JvbmdfYXJjaD1hbWQ2NApbICIke25hdGl2ZV9hcmNofSIgPSBhbWQ2NCBdICYmIHdyb25nX2FyY2g9YXJtNjQKc2VkIC1FICJzL1wiYXJjaGl0ZWN0dXJlXCJbWzpzcGFjZTpdXSo6W1s6c3BhY2U6XV0qXCJbXlwiXStcIi9cImFyY2hpdGVjdHVyZVwiOiBcIiR7d3JvbmdfYXJjaH1cIi8iIFwKICAiJHtyZWxlYXNlX29uZX0vcmVsZWFzZS5qc29uIiA+ICIke3dyb25nX3JlbGVhc2V9L3JlbGVhc2UuanNvbiIKaWYgIiR7d3JvbmdfcmVsZWFzZX0vYmluL2tub2NrIiBfaW5zdGFsbC1leHRyYWN0ZWQgIiR7d3JvbmdfcmVsZWFzZX0iICIke3ZlcnNpb25fb25lfSIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgZmFpbCAid3JvbmctYXJjaGl0ZWN0dXJlIHBhY2thZ2Ugd2FzIGFjY2VwdGVkIgpmaQpbICEgLWUgIiR7Rk5fS05PQ0tfQVBQX1JPT1R9L2N1cnJlbnQiIF0gfHwgZmFpbCAid3JvbmctYXJjaGl0ZWN0dXJlIHBhY2thZ2UgbXV0YXRlZCB0aGUgaW5zdGFsbGF0aW9uIgoKdGFtcGVyZWRfcmVsZWFzZT0iJHtXT1JLX0RJUn0vdGFtcGVyZWQtYmluYXJ5Igpta2RpciAtcCAiJHt0YW1wZXJlZF9yZWxlYXNlfSIKY3AgLVIgIiR7cmVsZWFzZV9vbmV9Ly4iICIke3RhbXBlcmVkX3JlbGVhc2V9LyIKcHJpbnRmICcjIS9iaW4vc2hcbmV4aXQgMFxuJyA+ICIke3RhbXBlcmVkX3JlbGVhc2V9L2Jpbi9nby1yZWF1dGgtcHJveHkiCmNobW9kIDA3NTUgIiR7dGFtcGVyZWRfcmVsZWFzZX0vYmluL2dvLXJlYXV0aC1wcm94eSIKaWYgIiR7dGFtcGVyZWRfcmVsZWFzZX0vYmluL2tub2NrIiBfaW5zdGFsbC1leHRyYWN0ZWQgIiR7dGFtcGVyZWRfcmVsZWFzZX0iICIke3ZlcnNpb25fb25lfSIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgZmFpbCAibm9uLU1hY2gtTyBiYWNrZW5kIHdhcyBhY2NlcHRlZCIKZmkKWyAhIC1lICIke0ZOX0tOT0NLX0FQUF9ST09UfS9jdXJyZW50IiBdIHx8IGZhaWwgInRhbXBlcmVkIHBhY2thZ2UgbXV0YXRlZCB0aGUgaW5zdGFsbGF0aW9uIgoKaW5zdGFsbGVyX3NoYT0iJChzaGFzdW0gLWEgMjU2ICIke2FyY2hpdmV9IiB8IGF3ayAne3ByaW50ICQxfScpIgppbnN0YWxsZXJfc2l6ZT0iJCh3YyAtYyA8ICIke2FyY2hpdmV9IiB8IHRyIC1kICdbOnNwYWNlOl0nKSIKaW5zdGFsbGVyX21hbmlmZXN0PSIke1dPUktfRElSfS9pbnN0YWxsZXItbGF0ZXN0LmVudiIKY2F0ID4gIiR7aW5zdGFsbGVyX21hbmlmZXN0fSIgPDxFT0YKVkVSU0lPTj0ke3ZlcnNpb25fb25lfQpVUkw9aHR0cHM6Ly9jZG4uZXhhbXBsZS50ZXN0L2ZuLWtub2NrLW1hY29zLSR7dmVyc2lvbl9vbmV9LSR7bmF0aXZlX2FyY2h9LnRhci5negpTSEEyNTY9JHtpbnN0YWxsZXJfc2hhfQpTSVpFPSR7aW5zdGFsbGVyX3NpemV9CkVPRgpleHBvcnQgRk5fS05PQ0tfVEVTVF9VUERBVEVfTUFOSUZFU1Q9IiR7aW5zdGFsbGVyX21hbmlmZXN0fSIKZXhwb3J0IEZOX0tOT0NLX1RFU1RfVVBEQVRFX0FSQ0hJVkU9IiR7YXJjaGl2ZX0iCmV4cG9ydCBGTl9LTk9DS19CQVNFX1VSTD1odHRwczovL2Nkbi5leGFtcGxlLnRlc3QKc2ggIiR7Uk9PVF9ESVJ9L2RlcGxveS9tYWNvcy9pbnN0YWxsLnNoIgpbICIkKCR7Rk5fS05PQ0tfQ09NTUFORF9GSUxFfSB2ZXJzaW9uKSIgPSAiJHt2ZXJzaW9uX29uZX0iIF0gfHwgZmFpbCAiaW5zdGFsbGVyIGFjdGl2YXRlZCB0aGUgd3JvbmcgdmVyc2lvbiIKIiR7Rk5fS05PQ0tfQ09NTUFORF9GSUxFfSIgdW5pbnN0YWxsIC0teWVzClsgISAtZSAiJHtGTl9LTk9DS19BUFBfUk9PVH0vY3VycmVudCIgXSB8fCBmYWlsICJpbnN0YWxsZXIgdGVzdCB1bmluc3RhbGwgbGVmdCBjdXJyZW50IGxpbmsiClsgISAtZSAiJHtGTl9LTk9DS19DT01NQU5EX0ZJTEV9IiBdIHx8IGZhaWwgImluc3RhbGxlciB0ZXN0IHVuaW5zdGFsbCBsZWZ0IG1hbmFnZW1lbnQgY29tbWFuZCIKCiIke3JlbGVhc2Vfb25lfS9iaW4va25vY2siIF9wcmVwYXJlLWluc3RhbGwKIiR7cmVsZWFzZV9vbmV9L2Jpbi9rbm9jayIgX2luc3RhbGwtZXh0cmFjdGVkICIke3JlbGVhc2Vfb25lfSIgIiR7dmVyc2lvbl9vbmV9IgpbIC1MICIke0ZOX0tOT0NLX0FQUF9ST09UfS9jdXJyZW50IiBdIHx8IGZhaWwgImN1cnJlbnQgbGluayB3YXMgbm90IGluc3RhbGxlZCIKWyAteCAiJHtGTl9LTk9DS19DT01NQU5EX0ZJTEV9IiBdIHx8IGZhaWwgIm1hbmFnZW1lbnQgY29tbWFuZCB3YXMgbm90IGluc3RhbGxlZCIKWyAtZiAiJHtGTl9LTk9DS19VTklUX0ZJTEV9IiBdIHx8IGZhaWwgIkxhdW5jaERhZW1vbiB3YXMgbm90IGluc3RhbGxlZCIKZ3JlcCAtRnEgIiR7Rk5fS05PQ0tfQVBQX1JPT1R9L2N1cnJlbnQvYmluL2ZuLWtub2NrLWVudHJ5cG9pbnQiICIke0ZOX0tOT0NLX1VOSVRfRklMRX0iIHx8IFwKICBmYWlsICJMYXVuY2hEYWVtb24gYXBwbGljYXRpb24gcGF0aCB3YXMgbm90IHJlbmRlcmVkIgpncmVwIC1GcSAiJHtGTl9LTk9DS19MT0dfRElSfS9zdGRvdXQubG9nIiAiJHtGTl9LTk9DS19VTklUX0ZJTEV9IiB8fCBcCiAgZmFpbCAiTGF1bmNoRGFlbW9uIGxvZyBwYXRoIHdhcyBub3QgcmVuZGVyZWQiClsgIiQoJHtGTl9LTk9DS19DT01NQU5EX0ZJTEV9IHZlcnNpb24pIiA9ICIke3ZlcnNpb25fb25lfSIgXSB8fCBmYWlsICJpbnN0YWxsZWQgdmVyc2lvbiBpcyBpbmNvcnJlY3QiCnN0YXR1c19vdXRwdXQ9IiQoIiR7Rk5fS05PQ0tfQ09NTUFORF9GSUxFfSIgc3RhdHVzKSIKcHJpbnRmICclc1xuJyAiJHtzdGF0dXNfb3V0cHV0fSIgfCBncmVwIC1FcSAnc2VydmVyLWFkbWluLXJzLipQSUQ6W1s6c3BhY2U6XV0rNDI0MicgfHwgXAogIGZhaWwgInN0YXR1cyBkaWQgbm90IHJlcG9ydCB0aGUgaW5zdGFsbGVkIFJ1c3QgYmFja2VuZCIKcHJpbnRmICclc1xuJyAiJHtzdGF0dXNfb3V0cHV0fSIgfCBncmVwIC1FcSAnZ28tcmVhdXRoLXByb3h5LipQSUQ6W1s6c3BhY2U6XV0rNDM0MicgfHwgXAogIGZhaWwgInN0YXR1cyBkaWQgbm90IHJlcG9ydCB0aGUgaW5zdGFsbGVkIEdvIGdhdGV3YXkiCmlmIHByaW50ZiAnJXNcbicgIiR7c3RhdHVzX291dHB1dH0iIHwgZ3JlcCAtRXEgJ1BJRDpbWzpzcGFjZTpdXSs0MjQzJzsgdGhlbgogIGZhaWwgInN0YXR1cyBjb3VudGVkIGEgc2FtZS1uYW1lIHByb2Nlc3MgZnJvbSBhbm90aGVyIGluc3RhbGxhdGlvbiIKZmkKcHJpbnRmICclc1xuJyAiJHtzdGF0dXNfb3V0cHV0fSIgfCBncmVwIC1GcSAn5ZCI6K6h77yaMiDkuKrov5vnqIsnIHx8IFwKICBmYWlsICJzdGF0dXMgcHJvY2VzcyB0b3RhbCBkb2VzIG5vdCBpbmNsdWRlIGV4YWN0bHkgdGhlIGluc3RhbGxlZCBwYWlyIgoKIiR7Rk5fS05PQ0tfQ09NTUFORF9GSUxFfSIgc3RvcAppZiBGTl9LTk9DS19URVNUX0xBVU5DSENUTF9GQUlMPWJvb3RzdHJhcCAiJHtGTl9LTk9DS19DT01NQU5EX0ZJTEV9IiBzdGFydCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBmYWlsICJmYWlsZWQgbGF1bmNoY3RsIGJvb3RzdHJhcCB3YXMgcmVwb3J0ZWQgYXMgc3VjY2VzcyIKZmkKWyAhIC1mICIke1NUQVRFX0ZJTEV9IiBdIHx8IGZhaWwgImZhaWxlZCBib290c3RyYXAgdW5leHBlY3RlZGx5IG1hcmtlZCBsYXVuY2hkIGFjdGl2ZSIKIiR7Rk5fS05PQ0tfQ09NTUFORF9GSUxFfSIgc3RhcnQKRk5fS05PQ0tfVEVTVF9CT09UU1RSQVBfRUlPX09OQ0U9MSAiJHtGTl9LTk9DS19DT01NQU5EX0ZJTEV9IiByZXN0YXJ0ClsgLWYgIiR7U1RBVEVfRklMRX0iIF0gfHwgZmFpbCAicmVzdGFydCBkaWQgbm90IHJlY292ZXIgZnJvbSBsYXVuY2hkIGJvb3RzdHJhcCBFSU8iClsgISAtZiAiJHtTVEFURV9GSUxFfS50ZWFyZG93biIgXSB8fCBmYWlsICJyZXN0YXJ0IGxlZnQgbGF1bmNoZCB0ZWFyZG93biBzdGF0ZSBiZWhpbmQiCkZOX0tOT0NLX1RFU1RfQk9PVFNUUkFQX0VJT19PTkNFPTEgXAogICIke3JlbGVhc2Vfb25lfS9iaW4va25vY2siIF9pbnN0YWxsLWV4dHJhY3RlZCAiJHtyZWxlYXNlX29uZX0iICIke3ZlcnNpb25fb25lfSIKWyAtZiAiJHtTVEFURV9GSUxFfSIgXSB8fCBmYWlsICJyZWluc3RhbGwgZGlkIG5vdCByZWNvdmVyIGZyb20gbGF1bmNoZCBib290c3RyYXAgRUlPIgpbICIkKCR7Rk5fS05PQ0tfQ09NTUFORF9GSUxFfSB2ZXJzaW9uKSIgPSAiJHt2ZXJzaW9uX29uZX0iIF0gfHwgXAogIGZhaWwgInJlaW5zdGFsbCBzZWxlY3RlZCB0aGUgd3JvbmcgdmVyc2lvbiBhZnRlciBsYXVuY2hkIGJvb3RzdHJhcCBFSU8iCgp2ZXJzaW9uX3R3bz0iOS45LjkiCnJlbGVhc2VfdHdvX3BhcmVudD0iJHtXT1JLX0RJUn0vcmVsZWFzZS10d28iCm1rZGlyIC1wICIke3JlbGVhc2VfdHdvX3BhcmVudH0vZm4ta25vY2siCmNwIC1SICIke3JlbGVhc2Vfb25lfS8uIiAiJHtyZWxlYXNlX3R3b19wYXJlbnR9L2ZuLWtub2NrLyIKc2VkIC1FICJzL1widmVyc2lvblwiW1s6c3BhY2U6XV0qOltbOnNwYWNlOl1dKlwiW15cIl0rXCIvXCJ2ZXJzaW9uXCI6IFwiJHt2ZXJzaW9uX3R3b31cIi8iIFwKICAiJHtyZWxlYXNlX29uZX0vcmVsZWFzZS5qc29uIiA+ICIke3JlbGVhc2VfdHdvX3BhcmVudH0vZm4ta25vY2svcmVsZWFzZS5qc29uIgp1cGRhdGVfYXJjaGl2ZT0iJHtXT1JLX0RJUn0vdXBkYXRlLnRhci5neiIKdGFyIC1jemYgIiR7dXBkYXRlX2FyY2hpdmV9IiAtQyAiJHtyZWxlYXNlX3R3b19wYXJlbnR9IiBmbi1rbm9jawp1cGRhdGVfc2hhPSIkKHNoYXN1bSAtYSAyNTYgIiR7dXBkYXRlX2FyY2hpdmV9IiB8IGF3ayAne3ByaW50ICQxfScpIgp1cGRhdGVfc2l6ZT0iJCh3YyAtYyA8ICIke3VwZGF0ZV9hcmNoaXZlfSIgfCB0ciAtZCAnWzpzcGFjZTpdJykiCnVwZGF0ZV9tYW5pZmVzdD0iJHtXT1JLX0RJUn0vbGF0ZXN0LmVudiIKY2F0ID4gIiR7dXBkYXRlX21hbmlmZXN0fSIgPDxFT0YKVkVSU0lPTj0ke3ZlcnNpb25fdHdvfQpVUkw9aHR0cHM6Ly9jZG4uZXhhbXBsZS50ZXN0L2ZuLWtub2NrLW1hY29zLSR7dmVyc2lvbl90d299LSR7bmF0aXZlX2FyY2h9LnRhci5negpTSEEyNTY9JHt1cGRhdGVfc2hhfQpTSVpFPSR7dXBkYXRlX3NpemV9CkVPRgpleHBvcnQgRk5fS05PQ0tfVEVTVF9VUERBVEVfTUFOSUZFU1Q9IiR7dXBkYXRlX21hbmlmZXN0fSIKZXhwb3J0IEZOX0tOT0NLX1RFU1RfVVBEQVRFX0FSQ0hJVkU9IiR7dXBkYXRlX2FyY2hpdmV9IgpleHBvcnQgRk5fS05PQ0tfQkFTRV9VUkw9aHR0cHM6Ly9jZG4uZXhhbXBsZS50ZXN0CgoiJHtGTl9LTk9DS19DT01NQU5EX0ZJTEV9IiB1cGRhdGUgLS15ZXMKWyAiJCgke0ZOX0tOT0NLX0NPTU1BTkRfRklMRX0gdmVyc2lvbikiID0gIiR7dmVyc2lvbl90d299IiBdIHx8IGZhaWwgInVwZGF0ZSBkaWQgbm90IGFjdGl2YXRlIHRoZSBuZXcgdmVyc2lvbiIKIiR7Rk5fS05PQ0tfQ09NTUFORF9GSUxFfSIgcm9sbGJhY2sKWyAiJCgke0ZOX0tOT0NLX0NPTU1BTkRfRklMRX0gdmVyc2lvbikiID0gIiR7dmVyc2lvbl9vbmV9IiBdIHx8IGZhaWwgInJvbGxiYWNrIGRpZCBub3QgcmVzdG9yZSB0aGUgcHJpb3IgdmVyc2lvbiIKCnVuc2FmZV92ZXJzaW9uPSI5LjkuOCIKdW5zYWZlX3BhcmVudD0iJHtXT1JLX0RJUn0vcmVsZWFzZS11bnNhZmUiCm1rZGlyIC1wICIke3Vuc2FmZV9wYXJlbnR9L2ZuLWtub2NrIgpjcCAtUiAiJHtyZWxlYXNlX29uZX0vLiIgIiR7dW5zYWZlX3BhcmVudH0vZm4ta25vY2svIgpzZWQgLUUgInMvXCJ2ZXJzaW9uXCJbWzpzcGFjZTpdXSo6W1s6c3BhY2U6XV0qXCJbXlwiXStcIi9cInZlcnNpb25cIjogXCIke3Vuc2FmZV92ZXJzaW9ufVwiLyIgXAogICIke3JlbGVhc2Vfb25lfS9yZWxlYXNlLmpzb24iID4gIiR7dW5zYWZlX3BhcmVudH0vZm4ta25vY2svcmVsZWFzZS5qc29uIgpsbiAtcyByZWxlYXNlLmpzb24gIiR7dW5zYWZlX3BhcmVudH0vZm4ta25vY2svdW5zYWZlLWxpbmsiCnVuc2FmZV9hcmNoaXZlPSIke1dPUktfRElSfS91bnNhZmUtdXBkYXRlLnRhci5neiIKdGFyIC1jemYgIiR7dW5zYWZlX2FyY2hpdmV9IiAtQyAiJHt1bnNhZmVfcGFyZW50fSIgZm4ta25vY2sKdW5zYWZlX3NoYT0iJChzaGFzdW0gLWEgMjU2ICIke3Vuc2FmZV9hcmNoaXZlfSIgfCBhd2sgJ3twcmludCAkMX0nKSIKdW5zYWZlX3NpemU9IiQod2MgLWMgPCAiJHt1bnNhZmVfYXJjaGl2ZX0iIHwgdHIgLWQgJ1s6c3BhY2U6XScpIgp1bnNhZmVfbWFuaWZlc3Q9IiR7V09SS19ESVJ9L3Vuc2FmZS1sYXRlc3QuZW52IgpjYXQgPiAiJHt1bnNhZmVfbWFuaWZlc3R9IiA8PEVPRgpWRVJTSU9OPSR7dW5zYWZlX3ZlcnNpb259ClVSTD1odHRwczovL2Nkbi5leGFtcGxlLnRlc3QvZm4ta25vY2stbWFjb3MtJHt1bnNhZmVfdmVyc2lvbn0tJHtuYXRpdmVfYXJjaH0udGFyLmd6ClNIQTI1Nj0ke3Vuc2FmZV9zaGF9ClNJWkU9JHt1bnNhZmVfc2l6ZX0KRU9GCmV4cG9ydCBGTl9LTk9DS19URVNUX1VQREFURV9NQU5JRkVTVD0iJHt1bnNhZmVfbWFuaWZlc3R9IgpleHBvcnQgRk5fS05PQ0tfVEVTVF9VUERBVEVfQVJDSElWRT0iJHt1bnNhZmVfYXJjaGl2ZX0iCmlmICIke0ZOX0tOT0NLX0NPTU1BTkRfRklMRX0iIHVwZGF0ZSAtLXllcyA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBmYWlsICJhcmNoaXZlIGNvbnRhaW5pbmcgYSBzeW1ib2xpYyBsaW5rIHdhcyBhY2NlcHRlZCIKZmkKWyAiJCgke0ZOX0tOT0NLX0NPTU1BTkRfRklMRX0gdmVyc2lvbikiID0gIiR7dmVyc2lvbl9vbmV9IiBdIHx8IFwKICBmYWlsICJ1bnNhZmUgYXJjaGl2ZSBtdXRhdGVkIHRoZSBjdXJyZW50IHZlcnNpb24iCgp2ZXJzaW9uX2ZhaWxlZD0iMTAuMC4wIgpmYWlsZWRfcGFyZW50PSIke1dPUktfRElSfS9yZWxlYXNlLWZhaWxlZCIKbWtkaXIgLXAgIiR7ZmFpbGVkX3BhcmVudH0vZm4ta25vY2siCmNwIC1SICIke3JlbGVhc2Vfb25lfS8uIiAiJHtmYWlsZWRfcGFyZW50fS9mbi1rbm9jay8iCnNlZCAtRSAicy9cInZlcnNpb25cIltbOnNwYWNlOl1dKjpbWzpzcGFjZTpdXSpcIlteXCJdK1wiL1widmVyc2lvblwiOiBcIiR7dmVyc2lvbl9mYWlsZWR9XCIvIiBcCiAgIiR7cmVsZWFzZV9vbmV9L3JlbGVhc2UuanNvbiIgPiAiJHtmYWlsZWRfcGFyZW50fS9mbi1rbm9jay9yZWxlYXNlLmpzb24iCmZhaWxlZF9hcmNoaXZlPSIke1dPUktfRElSfS9mYWlsZWQtdXBkYXRlLnRhci5neiIKdGFyIC1jemYgIiR7ZmFpbGVkX2FyY2hpdmV9IiAtQyAiJHtmYWlsZWRfcGFyZW50fSIgZm4ta25vY2sKZmFpbGVkX3NoYT0iJChzaGFzdW0gLWEgMjU2ICIke2ZhaWxlZF9hcmNoaXZlfSIgfCBhd2sgJ3twcmludCAkMX0nKSIKZmFpbGVkX3NpemU9IiQod2MgLWMgPCAiJHtmYWlsZWRfYXJjaGl2ZX0iIHwgdHIgLWQgJ1s6c3BhY2U6XScpIgpmYWlsZWRfbWFuaWZlc3Q9IiR7V09SS19ESVJ9L2ZhaWxlZC1sYXRlc3QuZW52IgpjYXQgPiAiJHtmYWlsZWRfbWFuaWZlc3R9IiA8PEVPRgpWRVJTSU9OPSR7dmVyc2lvbl9mYWlsZWR9ClVSTD1odHRwczovL2Nkbi5leGFtcGxlLnRlc3QvZm4ta25vY2stbWFjb3MtJHt2ZXJzaW9uX2ZhaWxlZH0tJHtuYXRpdmVfYXJjaH0udGFyLmd6ClNIQTI1Nj0ke2ZhaWxlZF9zaGF9ClNJWkU9JHtmYWlsZWRfc2l6ZX0KRU9GCmV4cG9ydCBGTl9LTk9DS19URVNUX1VQREFURV9NQU5JRkVTVD0iJHtmYWlsZWRfbWFuaWZlc3R9IgpleHBvcnQgRk5fS05PQ0tfVEVTVF9VUERBVEVfQVJDSElWRT0iJHtmYWlsZWRfYXJjaGl2ZX0iCmlmIEZOX0tOT0NLX1RFU1RfSEVBTFRIX0ZBSUw9MSAiJHtGTl9LTk9DS19DT01NQU5EX0ZJTEV9IiB1cGRhdGUgLS15ZXMgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgZmFpbCAidXBkYXRlIHVuZXhwZWN0ZWRseSBzdWNjZWVkZWQgYWZ0ZXIgaXRzIHJlYWRpbmVzcyBjaGVjayBmYWlsZWQiCmZpClsgIiQoJHtGTl9LTk9DS19DT01NQU5EX0ZJTEV9IHZlcnNpb24pIiA9ICIke3ZlcnNpb25fb25lfSIgXSB8fCBcCiAgZmFpbCAiZmFpbGVkIHVwZGF0ZSBkaWQgbm90IHJlc3RvcmUgdGhlIG9yaWdpbmFsIGN1cnJlbnQgdmVyc2lvbiIKWyAtZiAiJHtTVEFURV9GSUxFfSIgXSB8fCBmYWlsICJmYWlsZWQgdXBkYXRlIGRpZCBub3QgcmVzdG9yZSB0aGUgcnVubmluZyBsYXVuY2hkIHN0YXRlIgoKbWtkaXIgLXAgIiR7Rk5fS05PQ0tfREFUQV9ESVJ9IgpwcmludGYgJ3ByZXNlcnZlXG4nID4gIiR7Rk5fS05PQ0tfREFUQV9ESVJ9L3ByZXNlcnZlLnR4dCIKaWYgRk5fS05PQ0tfVEVTVF9MQVVOQ0hDVExfRkFJTD1ib290b3V0ICIke0ZOX0tOT0NLX0NPTU1BTkRfRklMRX0iIHVuaW5zdGFsbCAtLXllcyA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBmYWlsICJ1bmluc3RhbGwgc3VjY2VlZGVkIGFmdGVyIGxhdW5jaGN0bCBib290b3V0IGZhaWxlZCIKZmkKWyAtZSAiJHtGTl9LTk9DS19VTklUX0ZJTEV9IiBdIHx8IGZhaWwgImZhaWxlZCB1bmluc3RhbGwgcmVtb3ZlZCB0aGUgTGF1bmNoRGFlbW9uIgpbIC14ICIke0ZOX0tOT0NLX0NPTU1BTkRfRklMRX0iIF0gfHwgZmFpbCAiZmFpbGVkIHVuaW5zdGFsbCByZW1vdmVkIHRoZSBtYW5hZ2VtZW50IGNvbW1hbmQiCiIke0ZOX0tOT0NLX0NPTU1BTkRfRklMRX0iIHVuaW5zdGFsbCAtLXllcwpbIC1mICIke0ZOX0tOT0NLX0RBVEFfRElSfS9wcmVzZXJ2ZS50eHQiIF0gfHwgZmFpbCAidW5pbnN0YWxsIHJlbW92ZWQgcHJlc2VydmVkIGRhdGEiClsgISAtZSAiJHtGTl9LTk9DS19VTklUX0ZJTEV9IiBdIHx8IGZhaWwgInVuaW5zdGFsbCBsZWZ0IHRoZSBMYXVuY2hEYWVtb24iClsgISAtZSAiJHtGTl9LTk9DS19DT01NQU5EX0ZJTEV9IiBdIHx8IGZhaWwgInVuaW5zdGFsbCBsZWZ0IHRoZSBtYW5hZ2VtZW50IGNvbW1hbmQiCgpncmVwIC1GcSAnRk5fS05PQ0tfRElTQUJMRV9JUFRBQkxFUz0xJyAiJHtST09UX0RJUn0vZGVwbG95L21hY29zL2ZuLWtub2NrLWVudHJ5cG9pbnQiIHx8IFwKICBmYWlsICJtYWNPUyBnYXRld2F5IGRvZXMgbm90IGV4cGxpY2l0bHkgZGlzYWJsZSBpcHRhYmxlcyIKaWYgZ3JlcCAtRXEgJyhefFtbOnNwYWNlOl1dKShpcHRhYmxlc3xpcDZ0YWJsZXMpKFtbOnNwYWNlOl1dfCQpJyBcCiAgIiR7Uk9PVF9ESVJ9L2RlcGxveS9tYWNvcy9rbm9jayIgIiR7Uk9PVF9ESVJ9L2RlcGxveS9tYWNvcy9mbi1rbm9jay1lbnRyeXBvaW50IjsgdGhlbgogIGZhaWwgIm1hY09TIG1hbmFnZW1lbnQgc2NyaXB0cyBpbnZva2UgaXB0YWJsZXMiCmZpCgpwcmludGYgJ1t0ZXN0LW1hY29zLW1hbmFnZW1lbnRdIGFsbCBtYWNPUyBtYW5hZ2VtZW50IHRlc3RzIHBhc3NlZFxuJwo=
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
+WORK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/fn-knock-macos-management.XXXXXX")"
+MOCK_BIN="${WORK_DIR}/bin"
+STATE_FILE="${WORK_DIR}/launchd.loaded"
+
+cleanup() { rm -rf "${WORK_DIR}"; }
+trap cleanup EXIT
+fail() { printf '[test-macos-management] ERROR: %s\n' "$*" >&2; exit 1; }
+
+[ "$(uname -s)" = Darwin ] || fail "this test must run on macOS"
+mkdir -p "${MOCK_BIN}"
+
+cat > "${MOCK_BIN}/id" <<'EOF'
+#!/bin/sh
+if [ "${1:-}" = "-u" ]; then printf '0\n'; else exec /usr/bin/id "$@"; fi
+EOF
+cat > "${MOCK_BIN}/uname" <<'EOF'
+#!/bin/sh
+case "${1:-}" in
+  -s) printf 'Darwin\n' ;;
+  -m) /usr/bin/uname -m ;;
+  *) /usr/bin/uname "$@" ;;
+esac
+EOF
+cat > "${MOCK_BIN}/sw_vers" <<'EOF'
+#!/bin/sh
+[ "${1:-}" = "-productVersion" ] && { printf '13.6.1\n'; exit 0; }
+exit 1
+EOF
+cat > "${MOCK_BIN}/launchctl" <<'EOF'
+#!/bin/sh
+[ "${FN_KNOCK_TEST_LAUNCHCTL_FAIL:-}" != "${1:-}" ] || exit 64
+case "$1" in
+  print) [ -f "${FN_KNOCK_TEST_LAUNCHD_STATE}" ] ;;
+  bootstrap)
+    if [ "${FN_KNOCK_TEST_BOOTSTRAP_EIO_ONCE:-0}" = "1" ] && \
+      [ -f "${FN_KNOCK_TEST_LAUNCHD_STATE}.teardown" ]; then
+      rm -f "${FN_KNOCK_TEST_LAUNCHD_STATE}.teardown"
+      printf 'Bootstrap failed: 5: Input/output error\n' >&2
+      exit 5
+    fi
+    : > "${FN_KNOCK_TEST_LAUNCHD_STATE}"
+    ;;
+  kickstart) : > "${FN_KNOCK_TEST_LAUNCHD_STATE}" ;;
+  bootout)
+    rm -f "${FN_KNOCK_TEST_LAUNCHD_STATE}"
+    [ "${FN_KNOCK_TEST_BOOTSTRAP_EIO_ONCE:-0}" != "1" ] || \
+      : > "${FN_KNOCK_TEST_LAUNCHD_STATE}.teardown"
+    ;;
+  *) exit 1 ;;
+esac
+EOF
+cat > "${MOCK_BIN}/lsof" <<'EOF'
+#!/bin/sh
+[ "${FN_KNOCK_TEST_PORT_CONFLICT:-0}" != "1" ] || {
+  printf 'COMMAND PID USER FD TYPE DEVICE SIZE/OFF NODE NAME\n'
+  printf 'conflict 42 root 3u IPv4 0t0 TCP 127.0.0.1:7991 (LISTEN)\n'
+}
+exit 0
+EOF
+cat > "${MOCK_BIN}/pgrep" <<'EOF'
+#!/bin/sh
+case "${*}" in
+  *server-admin-rs) printf '4242\n4243\n' ;;
+  *go-reauth-proxy) printf '4342\n' ;;
+  *) exit 1 ;;
+esac
+EOF
+cat > "${MOCK_BIN}/ps" <<'EOF'
+#!/bin/sh
+pid="${2:-}"
+case "${*}" in
+  *comm=*)
+    case "${pid}" in
+      4242) printf '%s/current/bin/server-admin-rs\n' "${FN_KNOCK_APP_ROOT}" ;;
+      4243) printf '/private/tmp/fn-knock-macos-smoke.old/fn-knock/bin/server-admin-rs\n' ;;
+      4342) printf '%s/current/bin/go-reauth-proxy\n' "${FN_KNOCK_APP_ROOT}" ;;
+      *) exit 1 ;;
+    esac
+    ;;
+  *rss=*etime=*) printf '2048 00:42\n' ;;
+  *) exit 1 ;;
+esac
+EOF
+cat > "${MOCK_BIN}/ditto" <<'EOF'
+#!/bin/sh
+mkdir -p "$2"
+cp -R "$1/." "$2/"
+EOF
+cat > "${MOCK_BIN}/sysctl" <<'EOF'
+#!/bin/sh
+printf '%s\n' "${FN_KNOCK_TEST_ROSETTA:-0}"
+EOF
+cat > "${MOCK_BIN}/curl" <<'EOF'
+#!/bin/sh
+output=""
+url=""
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    -o|--output) output="$2"; shift 2 ;;
+    http://*|https://*) url="$1"; shift ;;
+    *) shift ;;
+  esac
+done
+[ -n "${output}" ] || {
+  [ "${FN_KNOCK_TEST_HEALTH_FAIL:-0}" != "1" ] || exit 22
+  exit 0
+}
+case "${url}" in
+  */latest/*.env) cp "${FN_KNOCK_TEST_UPDATE_MANIFEST}" "${output}" ;;
+  *) cp "${FN_KNOCK_TEST_UPDATE_ARCHIVE}" "${output}" ;;
+esac
+EOF
+chmod 0755 "${MOCK_BIN}/"*
+
+export PATH="${MOCK_BIN}:/usr/bin:/bin:/usr/sbin:/sbin"
+export FN_KNOCK_TEST_MODE=1
+export FN_KNOCK_TEST_LAUNCHD_STATE="${STATE_FILE}"
+export FN_KNOCK_APP_ROOT="${WORK_DIR}/Application Support/FnKnock"
+export FN_KNOCK_CONFIG_DIR="${FN_KNOCK_APP_ROOT}/config"
+export FN_KNOCK_DATA_DIR="${FN_KNOCK_APP_ROOT}/data"
+export FN_KNOCK_LOG_DIR="${WORK_DIR}/Logs/FnKnock"
+export FN_KNOCK_UNIT_FILE="${WORK_DIR}/LaunchDaemons/cn.fnknock.service.plist"
+export FN_KNOCK_COMMAND_FILE="${WORK_DIR}/commands/knock"
+export FN_KNOCK_LSOF_BIN="${MOCK_BIN}/lsof"
+export FN_KNOCK_ASSUME_YES=1
+export FN_KNOCK_HEALTH_ATTEMPTS=1
+export FN_KNOCK_LAUNCHCTL_ATTEMPTS=3
+export FN_KNOCK_LAUNCHCTL_DELAY=0
+
+FN_KNOCK_TEST_ROSETTA=0 "${ROOT_DIR}/deploy/macos/knock" _normalize-arch x86_64 | grep -qx amd64
+FN_KNOCK_TEST_ROSETTA=1 "${ROOT_DIR}/deploy/macos/knock" _normalize-arch x86_64 | grep -qx arm64
+
+native_arch="$(${ROOT_DIR}/deploy/macos/knock _normalize-arch)"
+archive="$(find "${ROOT_DIR}/dist/fn-knock-macos" -maxdepth 1 -name "fn-knock-macos-*-${native_arch}.tar.gz" -print -quit)"
+[ -n "${archive}" ] || fail "native package was not found under dist/fn-knock-macos"
+mkdir -p "${WORK_DIR}/release-one"
+tar -xzf "${archive}" -C "${WORK_DIR}/release-one"
+release_one="${WORK_DIR}/release-one/fn-knock"
+version_one="$(sed -nE 's/^[[:space:]]*"version"[[:space:]]*:[[:space:]]*"([^"]+)".*/\1/p' "${release_one}/release.json" | head -n1)"
+
+if FN_KNOCK_TEST_PORT_CONFLICT=1 "${release_one}/bin/knock" _prepare-install >/dev/null 2>&1; then
+  fail "non-interactive installation accepted a conflicting default port"
+fi
+
+wrong_release="${WORK_DIR}/wrong-architecture"
+mkdir -p "${wrong_release}"
+cp -R "${release_one}/." "${wrong_release}/"
+wrong_arch=amd64
+[ "${native_arch}" = amd64 ] && wrong_arch=arm64
+sed -E "s/\"architecture\"[[:space:]]*:[[:space:]]*\"[^\"]+\"/\"architecture\": \"${wrong_arch}\"/" \
+  "${release_one}/release.json" > "${wrong_release}/release.json"
+if "${wrong_release}/bin/knock" _install-extracted "${wrong_release}" "${version_one}" >/dev/null 2>&1; then
+  fail "wrong-architecture package was accepted"
+fi
+[ ! -e "${FN_KNOCK_APP_ROOT}/current" ] || fail "wrong-architecture package mutated the installation"
+
+tampered_release="${WORK_DIR}/tampered-binary"
+mkdir -p "${tampered_release}"
+cp -R "${release_one}/." "${tampered_release}/"
+printf '#!/bin/sh\nexit 0\n' > "${tampered_release}/bin/go-reauth-proxy"
+chmod 0755 "${tampered_release}/bin/go-reauth-proxy"
+if "${tampered_release}/bin/knock" _install-extracted "${tampered_release}" "${version_one}" >/dev/null 2>&1; then
+  fail "non-Mach-O backend was accepted"
+fi
+[ ! -e "${FN_KNOCK_APP_ROOT}/current" ] || fail "tampered package mutated the installation"
+
+installer_sha="$(shasum -a 256 "${archive}" | awk '{print $1}')"
+installer_size="$(wc -c < "${archive}" | tr -d '[:space:]')"
+installer_manifest="${WORK_DIR}/installer-latest.env"
+cat > "${installer_manifest}" <<EOF
+VERSION=${version_one}
+URL=https://cdn.example.test/fn-knock-macos-${version_one}-${native_arch}.tar.gz
+SHA256=${installer_sha}
+SIZE=${installer_size}
+EOF
+export FN_KNOCK_TEST_UPDATE_MANIFEST="${installer_manifest}"
+export FN_KNOCK_TEST_UPDATE_ARCHIVE="${archive}"
+export FN_KNOCK_BASE_URL=https://cdn.example.test
+sh "${ROOT_DIR}/deploy/macos/install.sh"
+[ "$(${FN_KNOCK_COMMAND_FILE} version)" = "${version_one}" ] || fail "installer activated the wrong version"
+"${FN_KNOCK_COMMAND_FILE}" uninstall --yes
+[ ! -e "${FN_KNOCK_APP_ROOT}/current" ] || fail "installer test uninstall left current link"
+[ ! -e "${FN_KNOCK_COMMAND_FILE}" ] || fail "installer test uninstall left management command"
+
+"${release_one}/bin/knock" _prepare-install
+"${release_one}/bin/knock" _install-extracted "${release_one}" "${version_one}"
+[ -L "${FN_KNOCK_APP_ROOT}/current" ] || fail "current link was not installed"
+[ -x "${FN_KNOCK_COMMAND_FILE}" ] || fail "management command was not installed"
+[ -f "${FN_KNOCK_UNIT_FILE}" ] || fail "LaunchDaemon was not installed"
+grep -Fq "${FN_KNOCK_APP_ROOT}/current/bin/fn-knock-entrypoint" "${FN_KNOCK_UNIT_FILE}" || \
+  fail "LaunchDaemon application path was not rendered"
+grep -Fq "${FN_KNOCK_LOG_DIR}/stdout.log" "${FN_KNOCK_UNIT_FILE}" || \
+  fail "LaunchDaemon log path was not rendered"
+[ "$(${FN_KNOCK_COMMAND_FILE} version)" = "${version_one}" ] || fail "installed version is incorrect"
+status_output="$("${FN_KNOCK_COMMAND_FILE}" status)"
+printf '%s\n' "${status_output}" | grep -Eq 'server-admin-rs.*PID:[[:space:]]+4242' || \
+  fail "status did not report the installed Rust backend"
+printf '%s\n' "${status_output}" | grep -Eq 'go-reauth-proxy.*PID:[[:space:]]+4342' || \
+  fail "status did not report the installed Go gateway"
+if printf '%s\n' "${status_output}" | grep -Eq 'PID:[[:space:]]+4243'; then
+  fail "status counted a same-name process from another installation"
+fi
+printf '%s\n' "${status_output}" | grep -Fq '合计：2 个进程' || \
+  fail "status process total does not include exactly the installed pair"
+
+"${FN_KNOCK_COMMAND_FILE}" stop
+if FN_KNOCK_TEST_LAUNCHCTL_FAIL=bootstrap "${FN_KNOCK_COMMAND_FILE}" start >/dev/null 2>&1; then
+  fail "failed launchctl bootstrap was reported as success"
+fi
+[ ! -f "${STATE_FILE}" ] || fail "failed bootstrap unexpectedly marked launchd active"
+"${FN_KNOCK_COMMAND_FILE}" start
+FN_KNOCK_TEST_BOOTSTRAP_EIO_ONCE=1 "${FN_KNOCK_COMMAND_FILE}" restart
+[ -f "${STATE_FILE}" ] || fail "restart did not recover from launchd bootstrap EIO"
+[ ! -f "${STATE_FILE}.teardown" ] || fail "restart left launchd teardown state behind"
+FN_KNOCK_TEST_BOOTSTRAP_EIO_ONCE=1 \
+  "${release_one}/bin/knock" _install-extracted "${release_one}" "${version_one}"
+[ -f "${STATE_FILE}" ] || fail "reinstall did not recover from launchd bootstrap EIO"
+[ "$(${FN_KNOCK_COMMAND_FILE} version)" = "${version_one}" ] || \
+  fail "reinstall selected the wrong version after launchd bootstrap EIO"
+
+version_two="9.9.9"
+release_two_parent="${WORK_DIR}/release-two"
+mkdir -p "${release_two_parent}/fn-knock"
+cp -R "${release_one}/." "${release_two_parent}/fn-knock/"
+sed -E "s/\"version\"[[:space:]]*:[[:space:]]*\"[^\"]+\"/\"version\": \"${version_two}\"/" \
+  "${release_one}/release.json" > "${release_two_parent}/fn-knock/release.json"
+update_archive="${WORK_DIR}/update.tar.gz"
+tar -czf "${update_archive}" -C "${release_two_parent}" fn-knock
+update_sha="$(shasum -a 256 "${update_archive}" | awk '{print $1}')"
+update_size="$(wc -c < "${update_archive}" | tr -d '[:space:]')"
+update_manifest="${WORK_DIR}/latest.env"
+cat > "${update_manifest}" <<EOF
+VERSION=${version_two}
+URL=https://cdn.example.test/fn-knock-macos-${version_two}-${native_arch}.tar.gz
+SHA256=${update_sha}
+SIZE=${update_size}
+EOF
+export FN_KNOCK_TEST_UPDATE_MANIFEST="${update_manifest}"
+export FN_KNOCK_TEST_UPDATE_ARCHIVE="${update_archive}"
+export FN_KNOCK_BASE_URL=https://cdn.example.test
+
+"${FN_KNOCK_COMMAND_FILE}" update --yes
+[ "$(${FN_KNOCK_COMMAND_FILE} version)" = "${version_two}" ] || fail "update did not activate the new version"
+"${FN_KNOCK_COMMAND_FILE}" rollback
+[ "$(${FN_KNOCK_COMMAND_FILE} version)" = "${version_one}" ] || fail "rollback did not restore the prior version"
+
+unsafe_version="9.9.8"
+unsafe_parent="${WORK_DIR}/release-unsafe"
+mkdir -p "${unsafe_parent}/fn-knock"
+cp -R "${release_one}/." "${unsafe_parent}/fn-knock/"
+sed -E "s/\"version\"[[:space:]]*:[[:space:]]*\"[^\"]+\"/\"version\": \"${unsafe_version}\"/" \
+  "${release_one}/release.json" > "${unsafe_parent}/fn-knock/release.json"
+ln -s release.json "${unsafe_parent}/fn-knock/unsafe-link"
+unsafe_archive="${WORK_DIR}/unsafe-update.tar.gz"
+tar -czf "${unsafe_archive}" -C "${unsafe_parent}" fn-knock
+unsafe_sha="$(shasum -a 256 "${unsafe_archive}" | awk '{print $1}')"
+unsafe_size="$(wc -c < "${unsafe_archive}" | tr -d '[:space:]')"
+unsafe_manifest="${WORK_DIR}/unsafe-latest.env"
+cat > "${unsafe_manifest}" <<EOF
+VERSION=${unsafe_version}
+URL=https://cdn.example.test/fn-knock-macos-${unsafe_version}-${native_arch}.tar.gz
+SHA256=${unsafe_sha}
+SIZE=${unsafe_size}
+EOF
+export FN_KNOCK_TEST_UPDATE_MANIFEST="${unsafe_manifest}"
+export FN_KNOCK_TEST_UPDATE_ARCHIVE="${unsafe_archive}"
+if "${FN_KNOCK_COMMAND_FILE}" update --yes >/dev/null 2>&1; then
+  fail "archive containing a symbolic link was accepted"
+fi
+[ "$(${FN_KNOCK_COMMAND_FILE} version)" = "${version_one}" ] || \
+  fail "unsafe archive mutated the current version"
+
+version_failed="10.0.0"
+failed_parent="${WORK_DIR}/release-failed"
+mkdir -p "${failed_parent}/fn-knock"
+cp -R "${release_one}/." "${failed_parent}/fn-knock/"
+sed -E "s/\"version\"[[:space:]]*:[[:space:]]*\"[^\"]+\"/\"version\": \"${version_failed}\"/" \
+  "${release_one}/release.json" > "${failed_parent}/fn-knock/release.json"
+failed_archive="${WORK_DIR}/failed-update.tar.gz"
+tar -czf "${failed_archive}" -C "${failed_parent}" fn-knock
+failed_sha="$(shasum -a 256 "${failed_archive}" | awk '{print $1}')"
+failed_size="$(wc -c < "${failed_archive}" | tr -d '[:space:]')"
+failed_manifest="${WORK_DIR}/failed-latest.env"
+cat > "${failed_manifest}" <<EOF
+VERSION=${version_failed}
+URL=https://cdn.example.test/fn-knock-macos-${version_failed}-${native_arch}.tar.gz
+SHA256=${failed_sha}
+SIZE=${failed_size}
+EOF
+export FN_KNOCK_TEST_UPDATE_MANIFEST="${failed_manifest}"
+export FN_KNOCK_TEST_UPDATE_ARCHIVE="${failed_archive}"
+if FN_KNOCK_TEST_HEALTH_FAIL=1 "${FN_KNOCK_COMMAND_FILE}" update --yes >/dev/null 2>&1; then
+  fail "update unexpectedly succeeded after its readiness check failed"
+fi
+[ "$(${FN_KNOCK_COMMAND_FILE} version)" = "${version_one}" ] || \
+  fail "failed update did not restore the original current version"
+[ -f "${STATE_FILE}" ] || fail "failed update did not restore the running launchd state"
+
+mkdir -p "${FN_KNOCK_DATA_DIR}"
+printf 'preserve\n' > "${FN_KNOCK_DATA_DIR}/preserve.txt"
+if FN_KNOCK_TEST_LAUNCHCTL_FAIL=bootout "${FN_KNOCK_COMMAND_FILE}" uninstall --yes >/dev/null 2>&1; then
+  fail "uninstall succeeded after launchctl bootout failed"
+fi
+[ -e "${FN_KNOCK_UNIT_FILE}" ] || fail "failed uninstall removed the LaunchDaemon"
+[ -x "${FN_KNOCK_COMMAND_FILE}" ] || fail "failed uninstall removed the management command"
+"${FN_KNOCK_COMMAND_FILE}" uninstall --yes
+[ -f "${FN_KNOCK_DATA_DIR}/preserve.txt" ] || fail "uninstall removed preserved data"
+[ ! -e "${FN_KNOCK_UNIT_FILE}" ] || fail "uninstall left the LaunchDaemon"
+[ ! -e "${FN_KNOCK_COMMAND_FILE}" ] || fail "uninstall left the management command"
+
+grep -Fq 'FN_KNOCK_DISABLE_IPTABLES=1' "${ROOT_DIR}/deploy/macos/fn-knock-entrypoint" || \
+  fail "macOS gateway does not explicitly disable iptables"
+if grep -Eq '(^|[[:space:]])(iptables|ip6tables)([[:space:]]|$)' \
+  "${ROOT_DIR}/deploy/macos/knock" "${ROOT_DIR}/deploy/macos/fn-knock-entrypoint"; then
+  fail "macOS management scripts invoke iptables"
+fi
+
+printf '[test-macos-management] all macOS management tests passed\n'

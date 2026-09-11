@@ -1,1 +1,50 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCkdPX1JFUE9TSVRPUlk9IiR7Rk5fS05PQ0tfR09fUkVBVVRIX1BST1hZX0RJUjotJHtGTl9LTk9DS19HT19SRUFVVEhfUFJPWFlfUkVQTzotJHtST09UX0RJUn0vLi4vR28tUmVhdXRoLVByb3h5fX0iCgpmYWlsKCkgewogIHByaW50ZiAnW3Rlc3QtZ28taG90LWJlbmNobWFyay1nYXRlXSBFUlJPUjogJXNcbicgIiQqIiA+JjIKICBleGl0IDEKfQoKYXNzZXJ0X2NvbnRhaW5zKCkgewogIGxvY2FsIGZpbGU9IiQxIiBleHBlY3RlZD0iJDIiIGxhYmVsPSIkMyIKICBncmVwIC1GcSAtLSAiJHtleHBlY3RlZH0iICIke2ZpbGV9IiB8fCBmYWlsICIke2xhYmVsfTogJHtmaWxlfSBpcyBtaXNzaW5nICR7ZXhwZWN0ZWR9Igp9CgpbIC1kICIke0dPX1JFUE9TSVRPUll9IiBdIHx8IGZhaWwgIkdvIHJlcG9zaXRvcnkgbm90IGZvdW5kOiAke0dPX1JFUE9TSVRPUll9IgoKV09SS0ZMT1c9IiR7R09fUkVQT1NJVE9SWX0vLmdpdGh1Yi93b3JrZmxvd3MvY2kueW1sIgpDT01QQVJBVE9SPSIke0dPX1JFUE9TSVRPUll9L3Rvb2xzL2JlbmNoY2hlY2svbWFpbi5nbyIKUkVBRE1FPSIke0dPX1JFUE9TSVRPUll9L1JFQURNRS5tZCIKClsgLWYgIiR7V09SS0ZMT1d9IiBdIHx8IGZhaWwgIkdvIENJIHdvcmtmbG93IG5vdCBmb3VuZDogJHtXT1JLRkxPV30iClsgLWYgIiR7Q09NUEFSQVRPUn0iIF0gfHwgZmFpbCAiR28gYmVuY2htYXJrIGNvbXBhcmF0b3Igbm90IGZvdW5kOiAke0NPTVBBUkFUT1J9IgoKYXNzZXJ0X2NvbnRhaW5zICIke0NPTVBBUkFUT1J9IiAnZnVuYyBwYXJzZUJlbmNobWFya1NhbXBsZXMnICdiZW5jaG1hcmsgc2FtcGxlIHBhcnNlcicKYXNzZXJ0X2NvbnRhaW5zICIke0NPTVBBUkFUT1J9IiAnZnVuYyBjb21wYXJlQmVuY2htYXJrcycgJ2JlbmNobWFyayBjb21wYXJhdG9yJwphc3NlcnRfY29udGFpbnMgIiR7Q09NUEFSQVRPUn0iICdtYXgtbGF0ZW5jeS1yZWdyZXNzaW9uJyAnbGF0ZW5jeSByZWdyZXNzaW9uIHRocmVzaG9sZCcKYXNzZXJ0X2NvbnRhaW5zICIke0NPTVBBUkFUT1J9IiAnbWF4LWJ5dGVzLXJlZ3Jlc3Npb24nICdtZW1vcnkgcmVncmVzc2lvbiB0aHJlc2hvbGQnCmFzc2VydF9jb250YWlucyAiJHtDT01QQVJBVE9SfSIgJ21heC1hbGxvY3MtcmVncmVzc2lvbicgJ2FsbG9jYXRpb24gcmVncmVzc2lvbiB0aHJlc2hvbGQnCmFzc2VydF9jb250YWlucyAiJHtDT01QQVJBVE9SfSIgJ21heC1hbGxvY3MtYWJzb2x1dGUtcmVncmVzc2lvbicgJ2FsbG9jYXRpb24gcm91bmRpbmcgdGhyZXNob2xkJwphc3NlcnRfY29udGFpbnMgIiR7V09SS0ZMT1d9IiAnaG90LWJlbmNobWFya3M6JyAnUFIgaG90IGJlbmNobWFyayBqb2InCmFzc2VydF9jb250YWlucyAiJHtXT1JLRkxPV30iICJnaXRodWIuZXZlbnRfbmFtZSA9PSAncHVsbF9yZXF1ZXN0JyIgJ1BSLW9ubHkgYmVuY2htYXJrIGdhdGUnCmFzc2VydF9jb250YWlucyAiJHtXT1JLRkxPV30iICdnaXRodWIuZXZlbnQucHVsbF9yZXF1ZXN0LmJhc2Uuc2hhJyAnUFIgYmFzZWxpbmUgY29tbWl0Jwphc3NlcnRfY29udGFpbnMgIiR7V09SS0ZMT1d9IiAnZ2l0IHdvcmt0cmVlIGFkZCAtLWRldGFjaCcgJ2lzb2xhdGVkIGJhc2VsaW5lIHdvcmt0cmVlJwphc3NlcnRfY29udGFpbnMgIiR7V09SS0ZMT1d9IiAnLWNvdW50PTEnICdpc29sYXRlZCBiZW5jaG1hcmsgcHJvY2VzcyBzYW1wbGVzJwphc3NlcnRfY29udGFpbnMgIiR7V09SS0ZMT1d9IiAnZm9yIGl0ZXJhdGlvbiBpbiAkKHNlcSAxIDYpJyAnbXVsdGlwbGUgYmVuY2htYXJrIHNhbXBsZXMnCmFzc2VydF9jb250YWlucyAiJHtXT1JLRkxPV30iICctYmVuY2htZW0nICdhbGxvY2F0aW9uIGJlbmNobWFyayBtZXRyaWNzJwphc3NlcnRfY29udGFpbnMgIiR7V09SS0ZMT1d9IiAnLS1tYXgtbGF0ZW5jeS1yZWdyZXNzaW9uIDAuMDUnICdsYXRlbmN5IHRvbGVyYW5jZScKYXNzZXJ0X2NvbnRhaW5zICIke1dPUktGTE9XfSIgJy0tbWF4LWJ5dGVzLXJlZ3Jlc3Npb24gMC4wNScgJ21lbW9yeSB0b2xlcmFuY2UnCmFzc2VydF9jb250YWlucyAiJHtXT1JLRkxPV30iICctLW1heC1hbGxvY3MtcmVncmVzc2lvbiAwLjA1JyAnYWxsb2NhdGlvbiB0b2xlcmFuY2UnCmFzc2VydF9jb250YWlucyAiJHtXT1JLRkxPV30iICctLW1heC1hbGxvY3MtYWJzb2x1dGUtcmVncmVzc2lvbiAxJyAnYWxsb2NhdGlvbiByb3VuZGluZyB0b2xlcmFuY2UnCmFzc2VydF9jb250YWlucyAiJHtSRUFETUV9IiAn5q+P5LiqIFBSIOS8muWcqOWQjOS4gCBDSSBydW5uZXIg5LiK5bCG54Ot6Lev5b6EIGJlbmNobWFyaycgJ2JlbmNobWFyayBnYXRlIGRvY3VtZW50YXRpb24nCgooCiAgY2QgIiR7R09fUkVQT1NJVE9SWX0iCiAgZ28gdGVzdCAuL3Rvb2xzL2JlbmNoY2hlY2sKKQoKcHJpbnRmICdbdGVzdC1nby1ob3QtYmVuY2htYXJrLWdhdGVdIEdvIGhvdC1wYXRoIGJlbmNobWFyayByZWdyZXNzaW9uIGdhdGUgcGFzc2VkXG4nCg==
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+GO_REPOSITORY="${FN_KNOCK_GO_REAUTH_PROXY_DIR:-${FN_KNOCK_GO_REAUTH_PROXY_REPO:-${ROOT_DIR}/../Go-Reauth-Proxy}}"
+
+fail() {
+  printf '[test-go-hot-benchmark-gate] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+assert_contains() {
+  local file="$1" expected="$2" label="$3"
+  grep -Fq -- "${expected}" "${file}" || fail "${label}: ${file} is missing ${expected}"
+}
+
+[ -d "${GO_REPOSITORY}" ] || fail "Go repository not found: ${GO_REPOSITORY}"
+
+WORKFLOW="${GO_REPOSITORY}/.github/workflows/ci.yml"
+COMPARATOR="${GO_REPOSITORY}/tools/benchcheck/main.go"
+README="${GO_REPOSITORY}/README.md"
+
+[ -f "${WORKFLOW}" ] || fail "Go CI workflow not found: ${WORKFLOW}"
+[ -f "${COMPARATOR}" ] || fail "Go benchmark comparator not found: ${COMPARATOR}"
+
+assert_contains "${COMPARATOR}" 'func parseBenchmarkSamples' 'benchmark sample parser'
+assert_contains "${COMPARATOR}" 'func compareBenchmarks' 'benchmark comparator'
+assert_contains "${COMPARATOR}" 'max-latency-regression' 'latency regression threshold'
+assert_contains "${COMPARATOR}" 'max-bytes-regression' 'memory regression threshold'
+assert_contains "${COMPARATOR}" 'max-allocs-regression' 'allocation regression threshold'
+assert_contains "${COMPARATOR}" 'max-allocs-absolute-regression' 'allocation rounding threshold'
+assert_contains "${WORKFLOW}" 'hot-benchmarks:' 'PR hot benchmark job'
+assert_contains "${WORKFLOW}" "github.event_name == 'pull_request'" 'PR-only benchmark gate'
+assert_contains "${WORKFLOW}" 'github.event.pull_request.base.sha' 'PR baseline commit'
+assert_contains "${WORKFLOW}" 'git worktree add --detach' 'isolated baseline worktree'
+assert_contains "${WORKFLOW}" '-count=1' 'isolated benchmark process samples'
+assert_contains "${WORKFLOW}" 'for iteration in $(seq 1 6)' 'multiple benchmark samples'
+assert_contains "${WORKFLOW}" '-benchmem' 'allocation benchmark metrics'
+assert_contains "${WORKFLOW}" '--max-latency-regression 0.05' 'latency tolerance'
+assert_contains "${WORKFLOW}" '--max-bytes-regression 0.05' 'memory tolerance'
+assert_contains "${WORKFLOW}" '--max-allocs-regression 0.05' 'allocation tolerance'
+assert_contains "${WORKFLOW}" '--max-allocs-absolute-regression 1' 'allocation rounding tolerance'
+assert_contains "${README}" '每个 PR 会在同一 CI runner 上将热路径 benchmark' 'benchmark gate documentation'
+
+(
+  cd "${GO_REPOSITORY}"
+  go test ./tools/benchcheck
+)
+
+printf '[test-go-hot-benchmark-gate] Go hot-path benchmark regression gate passed\n'

@@ -1,1 +1,207 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBiZWZvcmVFYWNoLCBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgeyBjcmVhdGVQaW5pYSwgc2V0QWN0aXZlUGluaWEgfSBmcm9tICJwaW5pYSI7CmltcG9ydCB7CiAgQ29uZmlnQVBJLAogIFNUUkVBTV9NQVBQSU5HX0xFR0FDWV9SRVBBSVJfUkVRVUlSRURfQ09ERSwKICBTeXN0ZW1BUEksCiAgdHlwZSBSZXZpc2lvbmVkQ29uZmlnLAp9IGZyb20gIi4uL3NyYy9saWIvYXBpIjsKaW1wb3J0IHsgdXNlQ29uZmlnU3RvcmUgfSBmcm9tICIuLi9zcmMvc3RvcmUvY29uZmlnIjsKaW1wb3J0IHR5cGUgeyBBcHBDb25maWcsIERhaWx5QXZhaWxhYmlsaXR5LCBTdHJlYW1NYXBwaW5nIH0gZnJvbSAiLi4vc3JjL3R5cGVzIjsKCmNvbnN0IGxlZ2FjeVVkcDogU3RyZWFtTWFwcGluZyA9IHsKICBwcm90b2NvbDogInVkcCIsCiAgbGlzdGVuX3BvcnQ6IDEyMzMzLAogIHRhcmdldDogIjEyNy4wLjAuMToxMjMzMyIsCiAgdXNlX2F1dGg6IHRydWUsCiAgY29tbWVudDogImxlZ2FjeSBVRFAiLAp9Owpjb25zdCByZXRhaW5lZFRjcDogU3RyZWFtTWFwcGluZyA9IHsKICBwcm90b2NvbDogInRjcCIsCiAgbGlzdGVuX3BvcnQ6IDI0NDQ0LAogIHRhcmdldDogIjE5Mi4wLjIuMjA6MjQ0NDQiLAogIHVzZV9hdXRoOiBmYWxzZSwKICBjb21tZW50OiAicmV0YWluZWQiLAp9Owpjb25zdCBjb25jdXJyZW50VGNwOiBTdHJlYW1NYXBwaW5nID0gewogIHByb3RvY29sOiAidGNwIiwKICBsaXN0ZW5fcG9ydDogMzU1NTUsCiAgdGFyZ2V0OiAiMTkyLjAuMi4zMDozNTU1NSIsCiAgdXNlX2F1dGg6IGZhbHNlLAogIGNvbW1lbnQ6ICJjb25jdXJyZW50IiwKfTsKCmNvbnN0IGFwcENvbmZpZyA9ICgKICBtYXBwaW5nczogU3RyZWFtTWFwcGluZ1tdLAogIGVuYWJsZWQ6IGJvb2xlYW4sCiAgYXZhaWxhYmlsaXR5OiBEYWlseUF2YWlsYWJpbGl0eSB8IG51bGwgPSBudWxsLAopOiBBcHBDb25maWcgPT4KICAoewogICAgaG9zdF9tYXBwaW5nczogW10sCiAgICBob3N0X21hcHBpbmdfZ3JvdXBzOiBbXSwKICAgIGhvc3RfbWFwcGluZ19ncm91cGVkX3ZpZXc6IGZhbHNlLAogICAgc3RyZWFtX21hcHBpbmdzOiBtYXBwaW5ncywKICAgIHByb3RvY29sX21hcHBpbmdfZmVhdHVyZTogeyBlbmFibGVkLCBhdmFpbGFiaWxpdHkgfSwKICB9KSBhcyBBcHBDb25maWc7Cgpjb25zdCByZXZpc2lvbmVkID0gKGNvbmZpZzogQXBwQ29uZmlnKTogUmV2aXNpb25lZENvbmZpZyA9PiAoewogIGNvbmZpZywKICBob3N0TWFwcGluZ3NSZXZpc2lvbjogbnVsbCwKICBob3N0TWFwcGluZ0NhdGFsb2dSZXZpc2lvbjogbnVsbCwKfSk7Cgpjb25zdCByZXBhaXJDb25mbGljdCA9IChjb2RlID0gU1RSRUFNX01BUFBJTkdfTEVHQUNZX1JFUEFJUl9SRVFVSVJFRF9DT0RFKSA9PgogIE9iamVjdC5hc3NpZ24obmV3IEVycm9yKCJyZXBhaXIgY29uZmxpY3QiKSwgewogICAgcmVzcG9uc2U6IHsgc3RhdHVzOiA0MDksIGRhdGE6IHsgY29kZSB9IH0sCiAgfSk7Cgpjb25zdCByZW1vdmVMZWdhY3lVZHAgPSAoY3VycmVudDogcmVhZG9ubHkgU3RyZWFtTWFwcGluZ1tdKSA9PgogIGN1cnJlbnQuZmlsdGVyKAogICAgKG1hcHBpbmcpID0+CiAgICAgIG1hcHBpbmcucHJvdG9jb2wgIT09IGxlZ2FjeVVkcC5wcm90b2NvbCB8fAogICAgICBtYXBwaW5nLmxpc3Rlbl9wb3J0ICE9PSBsZWdhY3lVZHAubGlzdGVuX3BvcnQsCiAgKTsKCmRlc2NyaWJlKCJjb25maWcgc3RvcmUgc3RyZWFtIG1hcHBpbmcgcmVwYWlyIiwgKCkgPT4gewogIGJlZm9yZUVhY2goKCkgPT4gewogICAgc2V0QWN0aXZlUGluaWEoY3JlYXRlUGluaWEoKSk7CiAgfSk7CgogIGl0KCJkaXNhYmxlcywgcmVsb2FkcywgcmViYXNlcywgYW5kIHJldHJpZXMgb25seSBmb3IgdGhlIGRlZGljYXRlZCByZXBhaXIgY29kZSIsIGFzeW5jICh0KSA9PiB7CiAgICBjb25zdCBzdG9yZSA9IHVzZUNvbmZpZ1N0b3JlKCk7CiAgICBjb25zdCBhdmFpbGFiaWxpdHk6IERhaWx5QXZhaWxhYmlsaXR5ID0gewogICAgICBlbmFibGVkOiB0cnVlLAogICAgICBzdGFydF90aW1lOiAiMjI6MDAiLAogICAgICBlbmRfdGltZTogIjA2OjAwIiwKICAgIH07CiAgICBzdG9yZS5jb25maWcgPSBhcHBDb25maWcoW2xlZ2FjeVVkcCwgcmV0YWluZWRUY3BdLCB0cnVlLCBhdmFpbGFiaWxpdHkpOwogICAgbGV0IHVwZGF0ZUNhbGxzID0gMDsKICAgIGNvbnN0IHVwZGF0ZU1vY2sgPSB0Lm1vY2subWV0aG9kKAogICAgICBDb25maWdBUEksCiAgICAgICJ1cGRhdGVTdHJlYW1NYXBwaW5ncyIsCiAgICAgIGFzeW5jIChtYXBwaW5ncykgPT4gewogICAgICAgIHVwZGF0ZUNhbGxzICs9IDE7CiAgICAgICAgaWYgKHVwZGF0ZUNhbGxzID09PSAxKSB0aHJvdyByZXBhaXJDb25mbGljdCgpOwogICAgICAgIGFzc2VydC5kZWVwRXF1YWwobWFwcGluZ3MsIFtyZXRhaW5lZFRjcCwgY29uY3VycmVudFRjcF0pOwogICAgICB9LAogICAgKTsKICAgIGNvbnN0IGRpc2FibGVNb2NrID0gdC5tb2NrLm1ldGhvZCgKICAgICAgU3lzdGVtQVBJLAogICAgICAidXBkYXRlUHJvdG9jb2xNYXBwaW5nRmVhdHVyZUNvbmZpZyIsCiAgICAgIGFzeW5jICgpID0+ICh7IGVuYWJsZWQ6IGZhbHNlLCBhdmFpbGFiaWxpdHkgfSksCiAgICApOwogICAgbGV0IGNvbmZpZ1JlYWRzID0gMDsKICAgIHQubW9jay5tZXRob2QoQ29uZmlnQVBJLCAiZ2V0Q29uZmlnIiwgYXN5bmMgKCkgPT4gewogICAgICBjb25maWdSZWFkcyArPSAxOwogICAgICByZXR1cm4gcmV2aXNpb25lZCgKICAgICAgICBhcHBDb25maWcoCiAgICAgICAgICBbCiAgICAgICAgICAgIHJldGFpbmVkVGNwLAogICAgICAgICAgICBjb25jdXJyZW50VGNwLAogICAgICAgICAgICAuLi4oY29uZmlnUmVhZHMgPT09IDEgPyBbbGVnYWN5VWRwXSA6IFtdKSwKICAgICAgICAgIF0sCiAgICAgICAgICBmYWxzZSwKICAgICAgICAgIGF2YWlsYWJpbGl0eSwKICAgICAgICApLAogICAgICApOwogICAgfSk7CgogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgc3RvcmUuc2F2ZVN0cmVhbU1hcHBpbmdzKHJlbW92ZUxlZ2FjeVVkcCwgewogICAgICBkaXNhYmxlRmVhdHVyZU9uTGVnYWN5UmVwYWlyQ29uZmxpY3Q6IHRydWUsCiAgICB9KTsKCiAgICBhc3NlcnQuZGVlcEVxdWFsKHJlc3VsdCwgeyBwcm90b2NvbE1hcHBpbmdEaXNhYmxlZDogdHJ1ZSB9KTsKICAgIGFzc2VydC5lcXVhbCh1cGRhdGVNb2NrLm1vY2suY2FsbENvdW50KCksIDIpOwogICAgYXNzZXJ0LmVxdWFsKGRpc2FibGVNb2NrLm1vY2suY2FsbENvdW50KCksIDEpOwogICAgYXNzZXJ0LmVxdWFsKGNvbmZpZ1JlYWRzLCAyKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoc3RvcmUuY29uZmlnPy5zdHJlYW1fbWFwcGluZ3MsIFsKICAgICAgcmV0YWluZWRUY3AsCiAgICAgIGNvbmN1cnJlbnRUY3AsCiAgICBdKTsKICAgIGFzc2VydC5lcXVhbChzdG9yZS5jb25maWc/LnByb3RvY29sX21hcHBpbmdfZmVhdHVyZT8uZW5hYmxlZCwgZmFsc2UpOwogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgc3RvcmUuY29uZmlnPy5wcm90b2NvbF9tYXBwaW5nX2ZlYXR1cmU/LmF2YWlsYWJpbGl0eSwKICAgICAgYXZhaWxhYmlsaXR5LAogICAgKTsKICB9KTsKCiAgaXQoImRvZXMgbm90IGRpc2FibGUgcHJvdG9jb2wgbWFwcGluZ3MgZm9yIGFuIHVucmVsYXRlZCA0MDkgcmVzcG9uc2UiLCBhc3luYyAodCkgPT4gewogICAgY29uc3Qgc3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwogICAgc3RvcmUuY29uZmlnID0gYXBwQ29uZmlnKFtsZWdhY3lVZHBdLCB0cnVlKTsKICAgIHQubW9jay5tZXRob2QoQ29uZmlnQVBJLCAidXBkYXRlU3RyZWFtTWFwcGluZ3MiLCBhc3luYyAoKSA9PiB7CiAgICAgIHRocm93IHJlcGFpckNvbmZsaWN0KDQwXzk5OSk7CiAgICB9KTsKICAgIGNvbnN0IGRpc2FibGVNb2NrID0gdC5tb2NrLm1ldGhvZCgKICAgICAgU3lzdGVtQVBJLAogICAgICAidXBkYXRlUHJvdG9jb2xNYXBwaW5nRmVhdHVyZUNvbmZpZyIsCiAgICAgIGFzeW5jICgpID0+ICh7IGVuYWJsZWQ6IGZhbHNlIH0pLAogICAgKTsKCiAgICBhd2FpdCBhc3NlcnQucmVqZWN0cygKICAgICAgc3RvcmUuc2F2ZVN0cmVhbU1hcHBpbmdzKHJlbW92ZUxlZ2FjeVVkcCwgewogICAgICAgIGRpc2FibGVGZWF0dXJlT25MZWdhY3lSZXBhaXJDb25mbGljdDogdHJ1ZSwKICAgICAgfSksCiAgICAgIC9yZXBhaXIgY29uZmxpY3QvdSwKICAgICk7CgogICAgYXNzZXJ0LmVxdWFsKGRpc2FibGVNb2NrLm1vY2suY2FsbENvdW50KCksIDApOwogICAgYXNzZXJ0LmVxdWFsKHN0b3JlLmNvbmZpZz8ucHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlPy5lbmFibGVkLCB0cnVlKTsKICB9KTsKCiAgaXQoImtlZXBzIHRoZSBsb2NhbCBmZWF0dXJlIGRpc2FibGVkIHdoZW4gcmVsb2FkIGFuZCByZXRyeSBmYWlsIiwgYXN5bmMgKHQpID0+IHsKICAgIGNvbnN0IHN0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKICAgIHN0b3JlLmNvbmZpZyA9IGFwcENvbmZpZyhbbGVnYWN5VWRwXSwgdHJ1ZSk7CiAgICB0Lm1vY2subWV0aG9kKENvbmZpZ0FQSSwgInVwZGF0ZVN0cmVhbU1hcHBpbmdzIiwgYXN5bmMgKCkgPT4gewogICAgICB0aHJvdyByZXBhaXJDb25mbGljdCgpOwogICAgfSk7CiAgICBjb25zdCBkaXNhYmxlTW9jayA9IHQubW9jay5tZXRob2QoCiAgICAgIFN5c3RlbUFQSSwKICAgICAgInVwZGF0ZVByb3RvY29sTWFwcGluZ0ZlYXR1cmVDb25maWciLAogICAgICBhc3luYyAoKSA9PiAoeyBlbmFibGVkOiBmYWxzZSB9KSwKICAgICk7CiAgICB0Lm1vY2subWV0aG9kKENvbmZpZ0FQSSwgImdldENvbmZpZyIsIGFzeW5jICgpID0+IHsKICAgICAgdGhyb3cgbmV3IEVycm9yKCJyZWxvYWQgZmFpbGVkIik7CiAgICB9KTsKICAgIHQubW9jay5tZXRob2QoQ29uZmlnQVBJLCAiZ2V0U3RyZWFtTWFwcGluZ3MiLCBhc3luYyAoKSA9PiB7CiAgICAgIHRocm93IG5ldyBFcnJvcigicmV0cnkgc291cmNlIGZhaWxlZCIpOwogICAgfSk7CiAgICB0Lm1vY2subWV0aG9kKGNvbnNvbGUsICJlcnJvciIsICgpID0+IHVuZGVmaW5lZCk7CgogICAgYXdhaXQgYXNzZXJ0LnJlamVjdHMoCiAgICAgIHN0b3JlLnNhdmVTdHJlYW1NYXBwaW5ncyhyZW1vdmVMZWdhY3lVZHAsIHsKICAgICAgICBkaXNhYmxlRmVhdHVyZU9uTGVnYWN5UmVwYWlyQ29uZmxpY3Q6IHRydWUsCiAgICAgIH0pLAogICAgICAvcmV0cnkgc291cmNlIGZhaWxlZC91LAogICAgKTsKCiAgICBhc3NlcnQuZXF1YWwoZGlzYWJsZU1vY2subW9jay5jYWxsQ291bnQoKSwgMSk7CiAgICBhc3NlcnQuZXF1YWwoc3RvcmUuY29uZmlnPy5wcm90b2NvbF9tYXBwaW5nX2ZlYXR1cmU/LmVuYWJsZWQsIGZhbHNlKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoc3RvcmUuY29uZmlnPy5zdHJlYW1fbWFwcGluZ3MsIFtsZWdhY3lVZHBdKTsKICB9KTsKCiAgaXQoImtlZXBzIHRoZSBsb2NhbCBmZWF0dXJlIGVuYWJsZWQgd2hlbiB0aGUgZGlzYWJsZSByZXF1ZXN0IGZhaWxzIiwgYXN5bmMgKHQpID0+IHsKICAgIGNvbnN0IHN0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKICAgIHN0b3JlLmNvbmZpZyA9IGFwcENvbmZpZyhbbGVnYWN5VWRwXSwgdHJ1ZSk7CiAgICB0Lm1vY2subWV0aG9kKENvbmZpZ0FQSSwgInVwZGF0ZVN0cmVhbU1hcHBpbmdzIiwgYXN5bmMgKCkgPT4gewogICAgICB0aHJvdyByZXBhaXJDb25mbGljdCgpOwogICAgfSk7CiAgICB0Lm1vY2subWV0aG9kKFN5c3RlbUFQSSwgInVwZGF0ZVByb3RvY29sTWFwcGluZ0ZlYXR1cmVDb25maWciLCBhc3luYyAoKSA9PiB7CiAgICAgIHRocm93IG5ldyBFcnJvcigiZGlzYWJsZSBmYWlsZWQiKTsKICAgIH0pOwogICAgY29uc3QgcmVsb2FkTW9jayA9IHQubW9jay5tZXRob2QoQ29uZmlnQVBJLCAiZ2V0Q29uZmlnIiwgYXN5bmMgKCkgPT4KICAgICAgcmV2aXNpb25lZChhcHBDb25maWcoW2xlZ2FjeVVkcF0sIHRydWUpKSwKICAgICk7CgogICAgYXdhaXQgYXNzZXJ0LnJlamVjdHMoCiAgICAgIHN0b3JlLnNhdmVTdHJlYW1NYXBwaW5ncyhyZW1vdmVMZWdhY3lVZHAsIHsKICAgICAgICBkaXNhYmxlRmVhdHVyZU9uTGVnYWN5UmVwYWlyQ29uZmxpY3Q6IHRydWUsCiAgICAgIH0pLAogICAgICAvZGlzYWJsZSBmYWlsZWQvdSwKICAgICk7CgogICAgYXNzZXJ0LmVxdWFsKHJlbG9hZE1vY2subW9jay5jYWxsQ291bnQoKSwgMCk7CiAgICBhc3NlcnQuZXF1YWwoc3RvcmUuY29uZmlnPy5wcm90b2NvbF9tYXBwaW5nX2ZlYXR1cmU/LmVuYWJsZWQsIHRydWUpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChzdG9yZS5jb25maWc/LnN0cmVhbV9tYXBwaW5ncywgW2xlZ2FjeVVkcF0pOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { beforeEach, describe, it } from "node:test";
+import { createPinia, setActivePinia } from "pinia";
+import {
+  ConfigAPI,
+  STREAM_MAPPING_LEGACY_REPAIR_REQUIRED_CODE,
+  SystemAPI,
+  type RevisionedConfig,
+} from "../src/lib/api";
+import { useConfigStore } from "../src/store/config";
+import type { AppConfig, DailyAvailability, StreamMapping } from "../src/types";
+
+const legacyUdp: StreamMapping = {
+  protocol: "udp",
+  listen_port: 12333,
+  target: "127.0.0.1:12333",
+  use_auth: true,
+  comment: "legacy UDP",
+};
+const retainedTcp: StreamMapping = {
+  protocol: "tcp",
+  listen_port: 24444,
+  target: "192.0.2.20:24444",
+  use_auth: false,
+  comment: "retained",
+};
+const concurrentTcp: StreamMapping = {
+  protocol: "tcp",
+  listen_port: 35555,
+  target: "192.0.2.30:35555",
+  use_auth: false,
+  comment: "concurrent",
+};
+
+const appConfig = (
+  mappings: StreamMapping[],
+  enabled: boolean,
+  availability: DailyAvailability | null = null,
+): AppConfig =>
+  ({
+    host_mappings: [],
+    host_mapping_groups: [],
+    host_mapping_grouped_view: false,
+    stream_mappings: mappings,
+    protocol_mapping_feature: { enabled, availability },
+  }) as AppConfig;
+
+const revisioned = (config: AppConfig): RevisionedConfig => ({
+  config,
+  hostMappingsRevision: null,
+  hostMappingCatalogRevision: null,
+});
+
+const repairConflict = (code = STREAM_MAPPING_LEGACY_REPAIR_REQUIRED_CODE) =>
+  Object.assign(new Error("repair conflict"), {
+    response: { status: 409, data: { code } },
+  });
+
+const removeLegacyUdp = (current: readonly StreamMapping[]) =>
+  current.filter(
+    (mapping) =>
+      mapping.protocol !== legacyUdp.protocol ||
+      mapping.listen_port !== legacyUdp.listen_port,
+  );
+
+describe("config store stream mapping repair", () => {
+  beforeEach(() => {
+    setActivePinia(createPinia());
+  });
+
+  it("disables, reloads, rebases, and retries only for the dedicated repair code", async (t) => {
+    const store = useConfigStore();
+    const availability: DailyAvailability = {
+      enabled: true,
+      start_time: "22:00",
+      end_time: "06:00",
+    };
+    store.config = appConfig([legacyUdp, retainedTcp], true, availability);
+    let updateCalls = 0;
+    const updateMock = t.mock.method(
+      ConfigAPI,
+      "updateStreamMappings",
+      async (mappings) => {
+        updateCalls += 1;
+        if (updateCalls === 1) throw repairConflict();
+        assert.deepEqual(mappings, [retainedTcp, concurrentTcp]);
+      },
+    );
+    const disableMock = t.mock.method(
+      SystemAPI,
+      "updateProtocolMappingFeatureConfig",
+      async () => ({ enabled: false, availability }),
+    );
+    let configReads = 0;
+    t.mock.method(ConfigAPI, "getConfig", async () => {
+      configReads += 1;
+      return revisioned(
+        appConfig(
+          [
+            retainedTcp,
+            concurrentTcp,
+            ...(configReads === 1 ? [legacyUdp] : []),
+          ],
+          false,
+          availability,
+        ),
+      );
+    });
+
+    const result = await store.saveStreamMappings(removeLegacyUdp, {
+      disableFeatureOnLegacyRepairConflict: true,
+    });
+
+    assert.deepEqual(result, { protocolMappingDisabled: true });
+    assert.equal(updateMock.mock.callCount(), 2);
+    assert.equal(disableMock.mock.callCount(), 1);
+    assert.equal(configReads, 2);
+    assert.deepEqual(store.config?.stream_mappings, [
+      retainedTcp,
+      concurrentTcp,
+    ]);
+    assert.equal(store.config?.protocol_mapping_feature?.enabled, false);
+    assert.deepEqual(
+      store.config?.protocol_mapping_feature?.availability,
+      availability,
+    );
+  });
+
+  it("does not disable protocol mappings for an unrelated 409 response", async (t) => {
+    const store = useConfigStore();
+    store.config = appConfig([legacyUdp], true);
+    t.mock.method(ConfigAPI, "updateStreamMappings", async () => {
+      throw repairConflict(40_999);
+    });
+    const disableMock = t.mock.method(
+      SystemAPI,
+      "updateProtocolMappingFeatureConfig",
+      async () => ({ enabled: false }),
+    );
+
+    await assert.rejects(
+      store.saveStreamMappings(removeLegacyUdp, {
+        disableFeatureOnLegacyRepairConflict: true,
+      }),
+      /repair conflict/u,
+    );
+
+    assert.equal(disableMock.mock.callCount(), 0);
+    assert.equal(store.config?.protocol_mapping_feature?.enabled, true);
+  });
+
+  it("keeps the local feature disabled when reload and retry fail", async (t) => {
+    const store = useConfigStore();
+    store.config = appConfig([legacyUdp], true);
+    t.mock.method(ConfigAPI, "updateStreamMappings", async () => {
+      throw repairConflict();
+    });
+    const disableMock = t.mock.method(
+      SystemAPI,
+      "updateProtocolMappingFeatureConfig",
+      async () => ({ enabled: false }),
+    );
+    t.mock.method(ConfigAPI, "getConfig", async () => {
+      throw new Error("reload failed");
+    });
+    t.mock.method(ConfigAPI, "getStreamMappings", async () => {
+      throw new Error("retry source failed");
+    });
+    t.mock.method(console, "error", () => undefined);
+
+    await assert.rejects(
+      store.saveStreamMappings(removeLegacyUdp, {
+        disableFeatureOnLegacyRepairConflict: true,
+      }),
+      /retry source failed/u,
+    );
+
+    assert.equal(disableMock.mock.callCount(), 1);
+    assert.equal(store.config?.protocol_mapping_feature?.enabled, false);
+    assert.deepEqual(store.config?.stream_mappings, [legacyUdp]);
+  });
+
+  it("keeps the local feature enabled when the disable request fails", async (t) => {
+    const store = useConfigStore();
+    store.config = appConfig([legacyUdp], true);
+    t.mock.method(ConfigAPI, "updateStreamMappings", async () => {
+      throw repairConflict();
+    });
+    t.mock.method(SystemAPI, "updateProtocolMappingFeatureConfig", async () => {
+      throw new Error("disable failed");
+    });
+    const reloadMock = t.mock.method(ConfigAPI, "getConfig", async () =>
+      revisioned(appConfig([legacyUdp], true)),
+    );
+
+    await assert.rejects(
+      store.saveStreamMappings(removeLegacyUdp, {
+        disableFeatureOnLegacyRepairConflict: true,
+      }),
+      /disable failed/u,
+    );
+
+    assert.equal(reloadMock.mock.callCount(), 0);
+    assert.equal(store.config?.protocol_mapping_feature?.enabled, true);
+    assert.deepEqual(store.config?.stream_mappings, [legacyUdp]);
+  });
+});

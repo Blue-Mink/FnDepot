@@ -1,1 +1,4 @@
-ZXhwb3J0IHR5cGUgR2F0ZXdheUxvZ1RyYW5zbGF0b3IgPSAoCiAga2V5OiBzdHJpbmcsCiAgcGFyYW1zPzogUmVjb3JkPHN0cmluZywgdW5rbm93bj4sCikgPT4gc3RyaW5nOwo=
+export type GatewayLogTranslator = (
+  key: string,
+  params?: Record<string, unknown>,
+) => string;

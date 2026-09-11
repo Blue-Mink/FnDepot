@@ -1,1 +1,466 @@
-dXNlIHN1cGVyOjoqOwoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gc2NoZW1hX21pZ3JhdGlvbl9jaGVja3N1bV9taXNtYXRjaF9mYWlsc19zdGFydHVwKCkgewogICAgbGV0IG1hbmFnZXIgPSB0ZW1wX21hbmFnZXIoKS5hd2FpdDsKICAgIG1hbmFnZXIKICAgICAgICAuY2FsbCh8Y29ubnwgewogICAgICAgICAgICBjb25uLmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAiVVBEQVRFIHNjaGVtYV9taWdyYXRpb25zIFNFVCBjaGVja3N1bSA9ICdiYWQnIFdIRVJFIHZlcnNpb24gPSAxIiwKICAgICAgICAgICAgICAgIFtdLAogICAgICAgICAgICApPzsKICAgICAgICAgICAgT2soKCkpCiAgICAgICAgfSkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJjb3JydXB0IGNoZWNrc3VtIik7CgogICAgbGV0IGVycm9yID0gbWFuYWdlci5pbml0aWFsaXplKCkuYXdhaXQuZXhwZWN0X2VycigiY2hlY2tzdW0gbXVzdCBmYWlsIik7CiAgICBhc3NlcnQhKGVycm9yLnRvX3N0cmluZygpLmNvbnRhaW5zKCJjaGVja3N1bSBtaXNtYXRjaCIpKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gc3lzdGVtX3VwZGF0ZV9wcmVmbGlnaHRfcmVwbGFjZXNfYV92ZXJpZmllZF9kdXJhYmxlX3NuYXBzaG90KCkgewogICAgbGV0IGRpcmVjdG9yeSA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgdGVtcCBkaXIiKTsKICAgIGxldCBwYXRoID0gZGlyZWN0b3J5LnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIik7CiAgICBsZXQgYmFja3VwX3BhdGggPSBkaXJlY3RvcnkucGF0aCgpLmpvaW4oImZuLWtub2NrLnNxbGl0ZTMucHJlLXVwZGF0ZS5iYWsiKTsKICAgIGxldCBtYW5hZ2VyID0gQ29ubmVjdGlvbk1hbmFnZXI6Om9wZW4oJnBhdGgpLmF3YWl0LmV4cGVjdCgib3BlbiBzcWxpdGUiKTsKICAgIG1hbmFnZXIKICAgICAgICAuc2V0X21ldGFfdmFsdWUoInVwZGF0ZS1zbmFwc2hvdC10ZXN0IiwgImJlZm9yZSIpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgic2VlZCBzbmFwc2hvdCB2YWx1ZSIpOwoKICAgIG1hbmFnZXIKICAgICAgICAucHJlcGFyZV9mb3Jfc3lzdGVtX3VwZGF0ZSgmYmFja3VwX3BhdGgpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgicHJlcGFyZSBmaXJzdCB1cGRhdGUgc25hcHNob3QiKTsKICAgIGFzc2VydF9lcSEocmVhZF9iYWNrdXBfbWV0YSgmYmFja3VwX3BhdGgpLCAiYmVmb3JlIik7CgogICAgYXNzZXJ0X2VxIShzeW5jaHJvbm91c19tb2RlKCZtYW5hZ2VyKS5hd2FpdCwgMik7CgogICAgbWFuYWdlcgogICAgICAgIC5zZXRfbWV0YV92YWx1ZSgidXBkYXRlLXNuYXBzaG90LXRlc3QiLCAiYWZ0ZXIiKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInVwZGF0ZSBzbmFwc2hvdCB2YWx1ZSIpOwogICAgbWFuYWdlcgogICAgICAgIC5wcmVwYXJlX2Zvcl9zeXN0ZW1fdXBkYXRlKCZiYWNrdXBfcGF0aCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJyZXBsYWNlIHVwZGF0ZSBzbmFwc2hvdCIpOwogICAgYXNzZXJ0X2VxIShyZWFkX2JhY2t1cF9tZXRhKCZiYWNrdXBfcGF0aCksICJhZnRlciIpOwogICAgbWFuYWdlcgogICAgICAgIC5jaGVja3BvaW50X2Zvcl9zaHV0ZG93bigpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgiY2hlY2twb2ludCBzaHV0ZG93biBXQUwiKTsKICAgIG1hbmFnZXIKICAgICAgICAuY2FuY2VsX3N5c3RlbV91cGRhdGUoKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInJlc3RvcmUgbm9ybWFsIHN5bmMgbW9kZSIpOwogICAgYXNzZXJ0X2VxIShzeW5jaHJvbm91c19tb2RlKCZtYW5hZ2VyKS5hd2FpdCwgMSk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIGZhaWxlZF9zeXN0ZW1fdXBkYXRlX3ByZWZsaWdodF9yZXN0b3Jlc19ub3JtYWxfc3luY19tb2RlKCkgewogICAgbGV0IGRpcmVjdG9yeSA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgdGVtcCBkaXIiKTsKICAgIGxldCBwYXRoID0gZGlyZWN0b3J5LnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIik7CiAgICBsZXQgaW52YWxpZF9iYWNrdXAgPSBkaXJlY3RvcnkucGF0aCgpLmpvaW4oImludmFsaWQtYmFja3VwIik7CiAgICBsZXQgbXV0IGludmFsaWRfdGVtcG9yYXJ5X25hbWUgPSBpbnZhbGlkX2JhY2t1cC5hc19vc19zdHIoKS50b19vc19zdHJpbmcoKTsKICAgIGludmFsaWRfdGVtcG9yYXJ5X25hbWUucHVzaCgiLnRtcCIpOwogICAgc3RkOjpmczo6Y3JlYXRlX2RpcihQYXRoQnVmOjpmcm9tKGludmFsaWRfdGVtcG9yYXJ5X25hbWUpKQogICAgICAgIC5leHBlY3QoImNyZWF0ZSBpbnZhbGlkIHRlbXBvcmFyeSBkaXJlY3RvcnkiKTsKICAgIGxldCBtYW5hZ2VyID0gQ29ubmVjdGlvbk1hbmFnZXI6Om9wZW4oJnBhdGgpLmF3YWl0LmV4cGVjdCgib3BlbiBzcWxpdGUiKTsKCiAgICBtYW5hZ2VyCiAgICAgICAgLnByZXBhcmVfZm9yX3N5c3RlbV91cGRhdGUoJmludmFsaWRfYmFja3VwKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3RfZXJyKCJpbnZhbGlkIGJhY2t1cCBkZXN0aW5hdGlvbiBtdXN0IGZhaWwiKTsKICAgIGFzc2VydF9lcSEoc3luY2hyb25vdXNfbW9kZSgmbWFuYWdlcikuYXdhaXQsIDEpOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiB3YWxfY2hlY2twb2ludF93YWl0c19mb3JfYW5fYWN0aXZlX2FuYWx5dGljc19yZWFkZXIoKSB7CiAgICBsZXQgbWFuYWdlciA9IHRlbXBfbWFuYWdlcigpLmF3YWl0OwogICAgbGV0IHJlYWRlcl9tYW5hZ2VyID0gbWFuYWdlci5jbG9uZSgpOwogICAgbGV0IChzdGFydGVkX3R4LCBzdGFydGVkX3J4KSA9IHRva2lvOjpzeW5jOjpvbmVzaG90OjpjaGFubmVsKCk7CiAgICBsZXQgKHJlbGVhc2VfdHgsIHJlbGVhc2VfcngpID0gc3RkOjpzeW5jOjptcHNjOjpjaGFubmVsKCk7CiAgICBsZXQgcmVhZGVyID0gdG9raW86OnNwYXduKGFzeW5jIG1vdmUgewogICAgICAgIHJlYWRlcl9tYW5hZ2VyCiAgICAgICAgICAgIC5jYWxsX2FuYWx5dGljcyhtb3ZlIHxfY29ubnwgewogICAgICAgICAgICAgICAgbGV0IF8gPSBzdGFydGVkX3R4LnNlbmQoKCkpOwogICAgICAgICAgICAgICAgcmVsZWFzZV9yeAogICAgICAgICAgICAgICAgICAgIC5yZWN2X3RpbWVvdXQoc3RkOjp0aW1lOjpEdXJhdGlvbjo6ZnJvbV9zZWNzKDUpKQogICAgICAgICAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgc3RvcmFnZV9lcnJvcihmb3JtYXQhKCJyZWxlYXNlIGFuYWx5dGljcyByZWFkZXI6IHtlcnJvcn0iKSkpPzsKICAgICAgICAgICAgICAgIE9rKCgpKQogICAgICAgICAgICB9KQogICAgICAgICAgICAuYXdhaXQKICAgIH0pOwogICAgc3RhcnRlZF9yeC5hd2FpdC5leHBlY3QoImFuYWx5dGljcyByZWFkZXIgc3RhcnRlZCIpOwoKICAgIGxldCBjaGVja3BvaW50X21hbmFnZXIgPSBtYW5hZ2VyLmNsb25lKCk7CiAgICBsZXQgbXV0IGNoZWNrcG9pbnQgPQogICAgICAgIHRva2lvOjpzcGF3bihhc3luYyBtb3ZlIHsgY2hlY2twb2ludF9tYW5hZ2VyLmNoZWNrcG9pbnRfZm9yX3NodXRkb3duKCkuYXdhaXQgfSk7CiAgICBsZXQgcHJlbWF0dXJlID0KICAgICAgICB0b2tpbzo6dGltZTo6dGltZW91dChzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX21pbGxpcyg1MCksICZtdXQgY2hlY2twb2ludCkuYXdhaXQ7CiAgICByZWxlYXNlX3R4LnNlbmQoKCkpLmV4cGVjdCgicmVsZWFzZSBhbmFseXRpY3MgcmVhZGVyIik7CiAgICByZWFkZXIKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJhbmFseXRpY3MgcmVhZGVyIHRhc2siKQogICAgICAgIC5leHBlY3QoImFuYWx5dGljcyByZWFkZXIgcmVzdWx0Iik7CgogICAgYXNzZXJ0IShwcmVtYXR1cmUuaXNfZXJyKCksICJjaGVja3BvaW50IGJ5cGFzc2VkIGFuYWx5dGljcyBnYXRlIik7CiAgICB0b2tpbzo6dGltZTo6dGltZW91dChzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX3NlY3MoNSksIGNoZWNrcG9pbnQpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgiY2hlY2twb2ludCBjb21wbGV0ZWQgYWZ0ZXIgcmVhZGVyIikKICAgICAgICAuZXhwZWN0KCJjaGVja3BvaW50IHRhc2siKQogICAgICAgIC5leHBlY3QoImNoZWNrcG9pbnQgcmVzdWx0Iik7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIGhlYWx0aF9wcm9iZV9kb2VzX25vdF93YWl0X2Zvcl90aGVfcHJpbWFyeV9leGVjdXRvcigpIHsKICAgIGxldCBtYW5hZ2VyID0gdGVtcF9tYW5hZ2VyKCkuYXdhaXQ7CiAgICBsZXQgYmxvY2tlcl9tYW5hZ2VyID0gbWFuYWdlci5jbG9uZSgpOwogICAgbGV0IChzdGFydGVkX3R4LCBzdGFydGVkX3J4KSA9IHRva2lvOjpzeW5jOjpvbmVzaG90OjpjaGFubmVsKCk7CiAgICBsZXQgKHJlbGVhc2VfdHgsIHJlbGVhc2VfcngpID0gc3RkOjpzeW5jOjptcHNjOjpjaGFubmVsKCk7CiAgICBsZXQgYmxvY2tlciA9IGJsb2NrZXJfbWFuYWdlci5jYWxsKG1vdmUgfF9jb25ufCB7CiAgICAgICAgbGV0IF8gPSBzdGFydGVkX3R4LnNlbmQoKCkpOwogICAgICAgIHJlbGVhc2VfcngKICAgICAgICAgICAgLnJlY3ZfdGltZW91dChzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX3NlY3MoNSkpCiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgc3RvcmFnZV9lcnJvcihmb3JtYXQhKCJyZWxlYXNlIHByaW1hcnkgYmxvY2tlcjoge2Vycm9yfSIpKSk/OwogICAgICAgIE9rKCgpKQogICAgfSk7CiAgICBsZXQgcHJvYmUgPSBhc3luYyB7CiAgICAgICAgc3RhcnRlZF9yeC5hd2FpdC5leHBlY3QoInByaW1hcnkgZXhlY3V0b3Igc3RhcnRlZCIpOwogICAgICAgIHRva2lvOjp0aW1lOjp0aW1lb3V0KHN0ZDo6dGltZTo6RHVyYXRpb246OmZyb21fbWlsbGlzKDI1MCksIG1hbmFnZXIucGluZygpKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgiaGVhbHRoIHJlYWRlciBtdXN0IG5vdCBxdWV1ZSBiZWhpbmQgcHJpbWFyeSB3b3JrIikKICAgICAgICAgICAgLmV4cGVjdCgiaGVhbHRoIHF1ZXJ5IHN1Y2NlZWRzIik7CiAgICAgICAgcmVsZWFzZV90eC5zZW5kKCgpKS5leHBlY3QoInJlbGVhc2UgcHJpbWFyeSBleGVjdXRvciIpOwogICAgfTsKICAgIGxldCAoYmxvY2tlcl9yZXN1bHQsICgpKSA9IHRva2lvOjpqb2luIShibG9ja2VyLCBwcm9iZSk7CiAgICBibG9ja2VyX3Jlc3VsdC5leHBlY3QoInByaW1hcnkgYmxvY2tlciByZXN1bHQiKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gY2FuY2VsZWRfcHJpbWFyeV93YWl0ZXJfaXNfbmV2ZXJfc3VibWl0dGVkX3RvX3NxbGl0ZSgpIHsKICAgIGxldCBtYW5hZ2VyID0gdGVtcF9tYW5hZ2VyKCkuYXdhaXQ7CiAgICBsZXQgYmxvY2tlcl9tYW5hZ2VyID0gbWFuYWdlci5jbG9uZSgpOwogICAgbGV0IChzdGFydGVkX3R4LCBzdGFydGVkX3J4KSA9IHRva2lvOjpzeW5jOjpvbmVzaG90OjpjaGFubmVsKCk7CiAgICBsZXQgKHJlbGVhc2VfdHgsIHJlbGVhc2VfcngpID0gc3RkOjpzeW5jOjptcHNjOjpjaGFubmVsKCk7CiAgICBsZXQgYmxvY2tlciA9IGJsb2NrZXJfbWFuYWdlci5jYWxsKG1vdmUgfF9jb25ufCB7CiAgICAgICAgbGV0IF8gPSBzdGFydGVkX3R4LnNlbmQoKCkpOwogICAgICAgIHJlbGVhc2VfcngKICAgICAgICAgICAgLnJlY3ZfdGltZW91dChzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX3NlY3MoNSkpCiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgc3RvcmFnZV9lcnJvcihmb3JtYXQhKCJyZWxlYXNlIHByaW1hcnkgYmxvY2tlcjoge2Vycm9yfSIpKSk/OwogICAgICAgIE9rKCgpKQogICAgfSk7CiAgICBsZXQgZXhlY3V0ZWQgPSBBcmM6Om5ldyhzdGQ6OnN5bmM6OmF0b21pYzo6QXRvbWljQm9vbDo6bmV3KGZhbHNlKSk7CiAgICBsZXQgZXhlY3V0ZWRfaW5fY2FsbCA9IGV4ZWN1dGVkLmNsb25lKCk7CiAgICBsZXQgY2FuY2VsbGF0aW9uID0gYXN5bmMgewogICAgICAgIHN0YXJ0ZWRfcnguYXdhaXQuZXhwZWN0KCJwcmltYXJ5IGV4ZWN1dG9yIHN0YXJ0ZWQiKTsKICAgICAgICBsZXQgY2FuY2VsZWQgPSB0b2tpbzo6dGltZTo6dGltZW91dCgKICAgICAgICAgICAgc3RkOjp0aW1lOjpEdXJhdGlvbjo6ZnJvbV9taWxsaXMoNTApLAogICAgICAgICAgICBtYW5hZ2VyLmNhbGwobW92ZSB8X2Nvbm58IHsKICAgICAgICAgICAgICAgIGV4ZWN1dGVkX2luX2NhbGwuc3RvcmUodHJ1ZSwgc3RkOjpzeW5jOjphdG9taWM6Ok9yZGVyaW5nOjpSZWxlYXNlKTsKICAgICAgICAgICAgICAgIE9rKCgpKQogICAgICAgICAgICB9KSwKICAgICAgICApCiAgICAgICAgLmF3YWl0OwogICAgICAgIGFzc2VydCEoY2FuY2VsZWQuaXNfZXJyKCksICJxdWV1ZWQgY2FsbCB1bmV4cGVjdGVkbHkgY29tcGxldGVkIik7CiAgICAgICAgYXNzZXJ0X2VxIShtYW5hZ2VyLnByaW1hcnlfcXVldWVfc3RhdHVzKCkucXVldWVfZGVwdGgsIDApOwogICAgICAgIGFzc2VydF9lcSEobWFuYWdlci5wcmltYXJ5X3F1ZXVlX3N0YXR1cygpLmNhbmNlbGVkX29wZXJhdGlvbnMsIDEpOwogICAgICAgIHJlbGVhc2VfdHguc2VuZCgoKSkuZXhwZWN0KCJyZWxlYXNlIHByaW1hcnkgZXhlY3V0b3IiKTsKICAgIH07CiAgICBsZXQgKGJsb2NrZXJfcmVzdWx0LCAoKSkgPSB0b2tpbzo6am9pbiEoYmxvY2tlciwgY2FuY2VsbGF0aW9uKTsKICAgIGJsb2NrZXJfcmVzdWx0LmV4cGVjdCgicHJpbWFyeSBibG9ja2VyIHJlc3VsdCIpOwogICAgYXNzZXJ0ISgKICAgICAgICAhZXhlY3V0ZWQubG9hZChzdGQ6OnN5bmM6OmF0b21pYzo6T3JkZXJpbmc6OkFjcXVpcmUpLAogICAgICAgICJjYW5jZWxlZCB3YWl0ZXIgd2FzIHN1Ym1pdHRlZCBhZnRlciBpdHMgY2FsbGVyIGRpc2FwcGVhcmVkIgogICAgKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gY2FuY2VsZWRfYXV0aF9yZWFkZXJfd2FpdGVyX2lzX25ldmVyX3N1Ym1pdHRlZF90b19zcWxpdGUoKSB7CiAgICBsZXQgbWFuYWdlciA9IHRlbXBfbWFuYWdlcigpLmF3YWl0OwogICAgbGV0IGJsb2NrZXJfbWFuYWdlciA9IG1hbmFnZXIuY2xvbmUoKTsKICAgIGxldCAoc3RhcnRlZF90eCwgc3RhcnRlZF9yeCkgPSB0b2tpbzo6c3luYzo6b25lc2hvdDo6Y2hhbm5lbCgpOwogICAgbGV0IChyZWxlYXNlX3R4LCByZWxlYXNlX3J4KSA9IHN0ZDo6c3luYzo6bXBzYzo6Y2hhbm5lbCgpOwogICAgbGV0IGJsb2NrZXIgPSBibG9ja2VyX21hbmFnZXIuY2FsbF9hdXRoX3JlYWQobW92ZSB8X2Nvbm58IHsKICAgICAgICBsZXQgXyA9IHN0YXJ0ZWRfdHguc2VuZCgoKSk7CiAgICAgICAgcmVsZWFzZV9yeAogICAgICAgICAgICAucmVjdl90aW1lb3V0KHN0ZDo6dGltZTo6RHVyYXRpb246OmZyb21fc2Vjcyg1KSkKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBzdG9yYWdlX2Vycm9yKGZvcm1hdCEoInJlbGVhc2UgYXV0aCByZWFkZXI6IHtlcnJvcn0iKSkpPzsKICAgICAgICBPaygoKSkKICAgIH0pOwogICAgbGV0IGV4ZWN1dGVkID0gQXJjOjpuZXcoc3RkOjpzeW5jOjphdG9taWM6OkF0b21pY0Jvb2w6Om5ldyhmYWxzZSkpOwogICAgbGV0IGV4ZWN1dGVkX2luX2NhbGwgPSBleGVjdXRlZC5jbG9uZSgpOwogICAgbGV0IGNhbmNlbGxhdGlvbiA9IGFzeW5jIHsKICAgICAgICBzdGFydGVkX3J4LmF3YWl0LmV4cGVjdCgiYXV0aCByZWFkZXIgc3RhcnRlZCIpOwogICAgICAgIGxldCBjYW5jZWxlZCA9IHRva2lvOjp0aW1lOjp0aW1lb3V0KAogICAgICAgICAgICBzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX21pbGxpcyg1MCksCiAgICAgICAgICAgIG1hbmFnZXIuY2FsbF9hdXRoX3JlYWQobW92ZSB8X2Nvbm58IHsKICAgICAgICAgICAgICAgIGV4ZWN1dGVkX2luX2NhbGwuc3RvcmUodHJ1ZSwgc3RkOjpzeW5jOjphdG9taWM6Ok9yZGVyaW5nOjpSZWxlYXNlKTsKICAgICAgICAgICAgICAgIE9rKCgpKQogICAgICAgICAgICB9KSwKICAgICAgICApCiAgICAgICAgLmF3YWl0OwogICAgICAgIGFzc2VydCEoY2FuY2VsZWQuaXNfZXJyKCksICJxdWV1ZWQgYXV0aCByZWFkIHVuZXhwZWN0ZWRseSBjb21wbGV0ZWQiKTsKICAgICAgICByZWxlYXNlX3R4LnNlbmQoKCkpLmV4cGVjdCgicmVsZWFzZSBhdXRoIHJlYWRlciIpOwogICAgfTsKICAgIGxldCAoYmxvY2tlcl9yZXN1bHQsICgpKSA9IHRva2lvOjpqb2luIShibG9ja2VyLCBjYW5jZWxsYXRpb24pOwogICAgYmxvY2tlcl9yZXN1bHQuZXhwZWN0KCJhdXRoIHJlYWRlciBibG9ja2VyIHJlc3VsdCIpOwogICAgYXNzZXJ0ISgKICAgICAgICAhZXhlY3V0ZWQubG9hZChzdGQ6OnN5bmM6OmF0b21pYzo6T3JkZXJpbmc6OkFjcXVpcmUpLAogICAgICAgICJjYW5jZWxlZCBhdXRoIHJlYWQgd2FzIHN1Ym1pdHRlZCBhZnRlciBpdHMgY2FsbGVyIGRpc2FwcGVhcmVkIgogICAgKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gY2FuY2VsZWRfZXhjbHVzaXZlX2NhbGxfcmV0YWluc19jaGVja3BvaW50X2dhdGVfdW50aWxfc3FsaXRlX2ZpbmlzaGVzKCkgewogICAgbGV0IG1hbmFnZXIgPSB0ZW1wX21hbmFnZXIoKS5hd2FpdDsKICAgIGxldCBleGNsdXNpdmVfbWFuYWdlciA9IG1hbmFnZXIuY2xvbmUoKTsKICAgIGxldCAoc3RhcnRlZF90eCwgc3RhcnRlZF9yeCkgPSB0b2tpbzo6c3luYzo6b25lc2hvdDo6Y2hhbm5lbCgpOwogICAgbGV0IChyZWxlYXNlX3R4LCByZWxlYXNlX3J4KSA9IHN0ZDo6c3luYzo6bXBzYzo6Y2hhbm5lbCgpOwogICAgbGV0IGV4Y2x1c2l2ZSA9IHRva2lvOjp0aW1lOjp0aW1lb3V0KAogICAgICAgIHN0ZDo6dGltZTo6RHVyYXRpb246OmZyb21fbWlsbGlzKDUwKSwKICAgICAgICBleGNsdXNpdmVfbWFuYWdlci5jYWxsX2V4Y2x1c2l2ZShtb3ZlIHxfY29ubnwgewogICAgICAgICAgICBsZXQgXyA9IHN0YXJ0ZWRfdHguc2VuZCgoKSk7CiAgICAgICAgICAgIHJlbGVhc2VfcngKICAgICAgICAgICAgICAgIC5yZWN2X3RpbWVvdXQoc3RkOjp0aW1lOjpEdXJhdGlvbjo6ZnJvbV9zZWNzKDUpKQogICAgICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBzdG9yYWdlX2Vycm9yKGZvcm1hdCEoInJlbGVhc2UgZXhjbHVzaXZlIGNhbGw6IHtlcnJvcn0iKSkpPzsKICAgICAgICAgICAgT2soKCkpCiAgICAgICAgfSksCiAgICApOwogICAgbGV0IHdhaXRfdW50aWxfc3VibWl0dGVkID0gYXN5bmMgewogICAgICAgIHN0YXJ0ZWRfcnguYXdhaXQuZXhwZWN0KCJleGNsdXNpdmUgY2FsbCBzdGFydGVkIik7CiAgICB9OwogICAgbGV0IChjYW5jZWxlZCwgKCkpID0gdG9raW86OmpvaW4hKGV4Y2x1c2l2ZSwgd2FpdF91bnRpbF9zdWJtaXR0ZWQpOwogICAgYXNzZXJ0IShjYW5jZWxlZC5pc19lcnIoKSwgImV4Y2x1c2l2ZSBjYWxsZXIgdW5leHBlY3RlZGx5IGNvbXBsZXRlZCIpOwoKICAgIGxldCBleGVjdXRlZCA9IEFyYzo6bmV3KHN0ZDo6c3luYzo6YXRvbWljOjpBdG9taWNCb29sOjpuZXcoZmFsc2UpKTsKICAgIGxldCBleGVjdXRlZF9pbl9jYWxsID0gZXhlY3V0ZWQuY2xvbmUoKTsKICAgIGxldCBibG9ja2VkX3JlYWRlciA9IHRva2lvOjp0aW1lOjp0aW1lb3V0KAogICAgICAgIHN0ZDo6dGltZTo6RHVyYXRpb246OmZyb21fbWlsbGlzKDUwKSwKICAgICAgICBtYW5hZ2VyLmNhbGxfYW5hbHl0aWNzKG1vdmUgfF9jb25ufCB7CiAgICAgICAgICAgIGV4ZWN1dGVkX2luX2NhbGwuc3RvcmUodHJ1ZSwgc3RkOjpzeW5jOjphdG9taWM6Ok9yZGVyaW5nOjpSZWxlYXNlKTsKICAgICAgICAgICAgT2soKCkpCiAgICAgICAgfSksCiAgICApCiAgICAuYXdhaXQ7CiAgICBhc3NlcnQhKAogICAgICAgIGJsb2NrZWRfcmVhZGVyLmlzX2VycigpLAogICAgICAgICJyZWFkZXIgYnlwYXNzZWQgY2FuY2VsZWQgZXhjbHVzaXZlIGNhbGwiCiAgICApOwogICAgYXNzZXJ0ISghZXhlY3V0ZWQubG9hZChzdGQ6OnN5bmM6OmF0b21pYzo6T3JkZXJpbmc6OkFjcXVpcmUpKTsKCiAgICByZWxlYXNlX3R4LnNlbmQoKCkpLmV4cGVjdCgicmVsZWFzZSBleGNsdXNpdmUgU1FMaXRlIGNhbGwiKTsKICAgIHRva2lvOjp0aW1lOjp0aW1lb3V0KAogICAgICAgIHN0ZDo6dGltZTo6RHVyYXRpb246OmZyb21fc2Vjcyg1KSwKICAgICAgICBtYW5hZ2VyLmNhbGxfYW5hbHl0aWNzKHxfY29ubnwgT2soKCkpKSwKICAgICkKICAgIC5hd2FpdAogICAgLmV4cGVjdCgiY2hlY2twb2ludCBnYXRlIHJlbGVhc2VkIGFmdGVyIFNRTGl0ZSBjb21wbGV0aW9uIikKICAgIC5leHBlY3QoImFuYWx5dGljcyByZWFkZXIgc3VjY2VlZHMgYWZ0ZXIgZXhjbHVzaXZlIGNvbXBsZXRpb24iKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gZGVzdHJ1Y3RpdmVfbWlncmF0aW9uX2JhY2t1cF9pc19hX3ZlcmlmaWVkX3NxbGl0ZV9zbmFwc2hvdCgpIHsKICAgIGxldCBkaXJlY3RvcnkgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHRlbXAgZGlyIik7CiAgICBsZXQgcGF0aCA9IGRpcmVjdG9yeS5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpOwogICAgbGV0IG1hbmFnZXIgPSBDb25uZWN0aW9uTWFuYWdlcjo6b3BlbigmcGF0aCkuYXdhaXQuZXhwZWN0KCJvcGVuIHNxbGl0ZSIpOwogICAgbWFuYWdlcgogICAgICAgIC5zZXRfbWV0YV92YWx1ZSgidXBkYXRlLXNuYXBzaG90LXRlc3QiLCAibWlncmF0aW9uIikKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJzZWVkIG1pZ3JhdGlvbiBzbmFwc2hvdCB2YWx1ZSIpOwogICAgbGV0IHNvdXJjZV9wYXRoID0gcGF0aC5jbG9uZSgpOwogICAgbGV0IGJhY2t1cF9wYXRoID0gbWFuYWdlcgogICAgICAgIC5jYWxsKG1vdmUgfGNvbm58IHsKICAgICAgICAgICAgY3JlYXRlX21pZ3JhdGlvbl9iYWNrdXAoY29ubiwgJnNvdXJjZV9wYXRoLCAmU0NIRU1BX01JR1JBVElPTlNbMV0pPwogICAgICAgICAgICAgICAgLm9rX29yX2Vsc2UofHwgc3RvcmFnZV9lcnJvcigibWlncmF0aW9uIGJhY2t1cCB3YXMgbm90IGNyZWF0ZWQiKSkKICAgICAgICB9KQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoImNyZWF0ZSBtaWdyYXRpb24gc25hcHNob3QiKTsKCiAgICBhc3NlcnRfZXEhKHJlYWRfYmFja3VwX21ldGEoJmJhY2t1cF9wYXRoKSwgIm1pZ3JhdGlvbiIpOwp9Cgphc3luYyBmbiBzeW5jaHJvbm91c19tb2RlKG1hbmFnZXI6ICZDb25uZWN0aW9uTWFuYWdlcikgLT4gaTY0IHsKICAgIG1hbmFnZXIKICAgICAgICAuY2FsbCh8Y29ubnwgewogICAgICAgICAgICBjb25uLnF1ZXJ5X3JvdygiUFJBR01BIHN5bmNocm9ub3VzIiwgW10sIHxyb3d8IHJvdy5nZXQ6OjxfLCBpNjQ+KDApKQogICAgICAgICAgICAgICAgLm1hcF9lcnIoSW50bzo6aW50bykKICAgICAgICB9KQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInJlYWQgc3luY2hyb25vdXMgbW9kZSIpCn0KCmZuIHJlYWRfYmFja3VwX21ldGEocGF0aDogJlBhdGgpIC0+IFN0cmluZyB7CiAgICBsZXQgY29ubiA9CiAgICAgICAgcnVzcWxpdGU6OkNvbm5lY3Rpb246Om9wZW5fd2l0aF9mbGFncyhwYXRoLCBydXNxbGl0ZTo6T3BlbkZsYWdzOjpTUUxJVEVfT1BFTl9SRUFEX09OTFkpCiAgICAgICAgICAgIC5leHBlY3QoIm9wZW4gdXBkYXRlIHNuYXBzaG90Iik7CiAgICB2ZXJpZnlfc3FsaXRlX2ludGVncml0eSgmY29ubikuZXhwZWN0KCJzbmFwc2hvdCBpbnRlZ3JpdHkiKTsKICAgIGNvbm4ucXVlcnlfcm93KAogICAgICAgICJTRUxFQ1QgdmFsdWUgRlJPTSBzdG9yYWdlX21ldGEgV0hFUkUga2V5ID0gJ3VwZGF0ZS1zbmFwc2hvdC10ZXN0JyIsCiAgICAgICAgW10sCiAgICAgICAgfHJvd3wgcm93LmdldCgwKSwKICAgICkKICAgIC5leHBlY3QoInJlYWQgc25hcHNob3QgdmFsdWUiKQp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBzY2hlbWFfbWlncmF0aW9uX3JlamVjdHNfZnV0dXJlX2RhdGFiYXNlX3ZlcnNpb24oKSB7CiAgICBsZXQgbWFuYWdlciA9IHRlbXBfbWFuYWdlcigpLmF3YWl0OwogICAgbWFuYWdlcgogICAgICAgIC5jYWxsKHxjb25ufCB7CiAgICAgICAgICAgIGNvbm4uZXhlY3V0ZSgKICAgICAgICAgICAgICAgICJJTlNFUlQgSU5UTyBzY2hlbWFfbWlncmF0aW9ucyh2ZXJzaW9uLCBuYW1lLCBjaGVja3N1bSwgYXBwbGllZF9hdF9tcykKICAgICAgICAgICAgICAgICAgICAgVkFMVUVTICg5OTksICdmdXR1cmUnLCAnc2hhMjU2OmZ1dHVyZScsID8xKSIsCiAgICAgICAgICAgICAgICBwYXJhbXMhW25vd19tcygpXSwKICAgICAgICAgICAgKT87CiAgICAgICAgICAgIE9rKCgpKQogICAgICAgIH0pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgiaW5zZXJ0IGZ1dHVyZSBtaWdyYXRpb24iKTsKCiAgICBsZXQgZXJyb3IgPSBtYW5hZ2VyLmluaXRpYWxpemUoKS5hd2FpdC5leHBlY3RfZXJyKCJmdXR1cmUgREIgbXVzdCBmYWlsIik7CiAgICBhc3NlcnQhKAogICAgICAgIGVycm9yCiAgICAgICAgICAgIC50b19zdHJpbmcoKQogICAgICAgICAgICAuY29udGFpbnMoIm5ld2VyIHRoYW4gdGhpcyBzZXJ2ZXIgc3VwcG9ydHMiKQogICAgKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gc2NoZW1hX21pZ3JhdGlvbl9ub3JtYWxpemVzX2xlZ2FjeV92MV9tYXJrZXIoKSB7CiAgICBsZXQgbWFuYWdlciA9IHRlbXBfbWFuYWdlcigpLmF3YWl0OwogICAgbWFuYWdlcgogICAgICAgIC5jYWxsKHxjb25ufCB7CiAgICAgICAgICAgIGNvbm4uZXhlY3V0ZSgKICAgICAgICAgICAgICAgICJVUERBVEUgc2NoZW1hX21pZ3JhdGlvbnMgU0VUIGNoZWNrc3VtID0gJ3YxJyBXSEVSRSB2ZXJzaW9uID0gMSIsCiAgICAgICAgICAgICAgICBbXSwKICAgICAgICAgICAgKT87CiAgICAgICAgICAgIE9rKCgpKQogICAgICAgIH0pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgid3JpdGUgbGVnYWN5IGNoZWNrc3VtIik7CgogICAgbWFuYWdlci5pbml0aWFsaXplKCkuYXdhaXQuZXhwZWN0KCJsZWdhY3kgbWFya2VyIHVwZ3JhZGVzIik7CiAgICBsZXQgY2hlY2tzdW0gPSBtYW5hZ2VyCiAgICAgICAgLmNhbGwofGNvbm58IHsKICAgICAgICAgICAgY29ubi5xdWVyeV9yb3coCiAgICAgICAgICAgICAgICAiU0VMRUNUIGNoZWNrc3VtIEZST00gc2NoZW1hX21pZ3JhdGlvbnMgV0hFUkUgdmVyc2lvbiA9IDEiLAogICAgICAgICAgICAgICAgW10sCiAgICAgICAgICAgICAgICB8cm93fCByb3cuZ2V0Ojo8XywgU3RyaW5nPigwKSwKICAgICAgICAgICAgKQogICAgICAgICAgICAubWFwX2VycihJbnRvOjppbnRvKQogICAgICAgIH0pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgicmVhZCBjaGVja3N1bSIpOwogICAgYXNzZXJ0X2VxIShjaGVja3N1bSwgbWlncmF0aW9uX2NoZWNrc3VtKFJFRElTX0NPTVBBVElCTEVfS0VZU1BBQ0VfU1FMKSk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHNjaGVtYV9taWdyYXRpb25fdjJfYmFja2ZpbGxzX251bWVyaWNfc3RyZWFtX2lkc19hbmRfbWV0YWRhdGEoKSB7CiAgICBsZXQgZGlyID0gdGVtcGZpbGU6OnRlbXBkaXIoKS5leHBlY3QoImNyZWF0ZSB0ZW1wIGRpciIpOwogICAgbGV0IHBhdGggPSBkaXIucGF0aCgpLmpvaW4oImZuLWtub2NrLnNxbGl0ZTMiKTsKICAgIGxldCBmdXR1cmVfbXMgPSBub3dfbXMoKSArIDYwXzAwMDsKICAgIGxldCBmdXR1cmVfaWQgPSBmb3JtYXQhKCJ7ZnV0dXJlX21zfS0wIik7CiAgICB7CiAgICAgICAgbGV0IGNvbm4gPSBydXNxbGl0ZTo6Q29ubmVjdGlvbjo6b3BlbigmcGF0aCkuZXhwZWN0KCJvcGVuIGxlZ2FjeSBzcWxpdGUiKTsKICAgICAgICBjb25uLnByYWdtYV91cGRhdGUoTm9uZSwgImZvcmVpZ25fa2V5cyIsICJPTiIpCiAgICAgICAgICAgIC5leHBlY3QoImVuYWJsZSBmb3JlaWduIGtleXMiKTsKICAgICAgICBjb25uLmV4ZWN1dGVfYmF0Y2goU0NIRU1BX01JR1JBVElPTlNfU1FMKQogICAgICAgICAgICAuZXhwZWN0KCJjcmVhdGUgbWlncmF0aW9uIHRhYmxlIik7CiAgICAgICAgY29ubi5leGVjdXRlX2JhdGNoKFJFRElTX0NPTVBBVElCTEVfS0VZU1BBQ0VfU1FMKQogICAgICAgICAgICAuZXhwZWN0KCJjcmVhdGUgdjEga2V5c3BhY2UiKTsKICAgICAgICBjb25uLmV4ZWN1dGUoCiAgICAgICAgICAgICJJTlNFUlQgSU5UTyBzY2hlbWFfbWlncmF0aW9ucyh2ZXJzaW9uLCBuYW1lLCBjaGVja3N1bSwgYXBwbGllZF9hdF9tcykKICAgICAgICAgICAgICAgICBWQUxVRVMgKDEsICdyZWRpc19jb21wYXRpYmxlX2tleXNwYWNlJywgPzEsID8yKSIsCiAgICAgICAgICAgIHBhcmFtcyFbbWlncmF0aW9uX2NoZWNrc3VtKFJFRElTX0NPTVBBVElCTEVfS0VZU1BBQ0VfU1FMKSwgbm93X21zKCldLAogICAgICAgICkKICAgICAgICAuZXhwZWN0KCJyZWNvcmQgdjEgbWlncmF0aW9uIik7CiAgICAgICAgY29ubi5leGVjdXRlKAogICAgICAgICAgICAiSU5TRVJUIElOVE8ga3Zfa2V5cyhrZXksIGtpbmQpIFZBTFVFUyAoJ2ZuX2tub2NrOnRlc3Q6bGVnYWN5LXN0cmVhbScsICdzdHJlYW0nKSIsCiAgICAgICAgICAgIFtdLAogICAgICAgICkKICAgICAgICAuZXhwZWN0KCJjcmVhdGUgbGVnYWN5IHN0cmVhbSBrZXkiKTsKICAgICAgICBmb3IgaWQgaW4gWyIxMC0wIi50b19zdHJpbmcoKSwgIjktMCIudG9fc3RyaW5nKCksIGZ1dHVyZV9pZC5jbG9uZSgpXSB7CiAgICAgICAgICAgIGNvbm4uZXhlY3V0ZSgKICAgICAgICAgICAgICAgICJJTlNFUlQgSU5UTyBrdl9zdHJlYW0oa2V5LCBpZCwgZmllbGRzX2pzb24pIFZBTFVFUyAoPzEsID8yLCA/MykiLAogICAgICAgICAgICAgICAgcGFyYW1zIVsKICAgICAgICAgICAgICAgICAgICAiZm5fa25vY2s6dGVzdDpsZWdhY3ktc3RyZWFtIiwKICAgICAgICAgICAgICAgICAgICBpZCwKICAgICAgICAgICAgICAgICAgICBzZXJkZV9qc29uOjp0b19zdHJpbmcoJnZlYyFbInZhbHVlIiwgaWQuYXNfc3RyKCldKS51bndyYXAoKQogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgKQogICAgICAgICAgICAuZXhwZWN0KCJzZWVkIGxlZ2FjeSBzdHJlYW0gZW50cnkiKTsKICAgICAgICB9CiAgICB9CgogICAgbGV0IG11dCBtYW5hZ2VyID0gQ29ubmVjdGlvbk1hbmFnZXI6Om9wZW4oJnBhdGgpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgibWlncmF0ZSB2MSBkYXRhYmFzZSIpOwogICAgbGV0IHJlYWQgPSBtYW5hZ2VyCiAgICAgICAgLnhyZWFkX29wdGlvbnMoCiAgICAgICAgICAgICZbImZuX2tub2NrOnRlc3Q6bGVnYWN5LXN0cmVhbSJdLAogICAgICAgICAgICAmWyIwLTAiXSwKICAgICAgICAgICAgJnN0cmVhbXM6OlN0cmVhbVJlYWRPcHRpb25zOjpkZWZhdWx0KCkuY291bnQoMTApLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJyZWFkIG1pZ3JhdGVkIHN0cmVhbSIpCiAgICAgICAgLmV4cGVjdCgic3RyZWFtIGhhcyByb3dzIik7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHJlYWQua2V5c1swXQogICAgICAgICAgICAuaWRzCiAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgLm1hcCh8ZW50cnl8IGVudHJ5LmlkLmFzX3N0cigpKQogICAgICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKSwKICAgICAgICB2ZWMhWyI5LTAiLCAiMTAtMCIsIGZ1dHVyZV9pZC5hc19zdHIoKV0KICAgICk7CgogICAgbGV0IF86ICgpID0gY21kKCJYREVMIikKICAgICAgICAuYXJnKCJmbl9rbm9jazp0ZXN0OmxlZ2FjeS1zdHJlYW0iKQogICAgICAgIC5hcmcodmVjIVsKICAgICAgICAgICAgIjktMCIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICIxMC0wIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgZnV0dXJlX2lkLmNsb25lKCksCiAgICAgICAgXSkKICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBtYW5hZ2VyKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoImVtcHR5IG1pZ3JhdGVkIHN0cmVhbSIpOwogICAgZHJvcChtYW5hZ2VyKTsKCiAgICBsZXQgbXV0IHJlb3BlbmVkID0gQ29ubmVjdGlvbk1hbmFnZXI6Om9wZW4oJnBhdGgpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgicmVvcGVuIGRhdGFiYXNlIik7CiAgICBsZXQgZ2VuZXJhdGVkOiBTdHJpbmcgPSBjbWQoIlhBREQiKQogICAgICAgIC5hcmcoImZuX2tub2NrOnRlc3Q6bGVnYWN5LXN0cmVhbSIpCiAgICAgICAgLmFyZygiKiIpCiAgICAgICAgLmFyZygidmFsdWUiKQogICAgICAgIC5hcmcoImFmdGVyLXJlb3BlbiIpCiAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgcmVvcGVuZWQpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgiYXBwZW5kIGFmdGVyIHJlb3BlbiIpOwogICAgYXNzZXJ0X2VxIShnZW5lcmF0ZWQsIGZvcm1hdCEoIntmdXR1cmVfbXN9LTEiKSk7Cn0KCiNbY2ZnKHVuaXgpXQojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBzcWxpdGVfZGF0YWJhc2VfZmlsZV9pc19vd25lcl9vbmx5KCkgewogICAgbGV0IGRpciA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgdGVtcCBkaXIiKTsKICAgIGxldCBwYXRoID0gZGlyLnBhdGgoKS5qb2luKCJzdG9yYWdlIikuam9pbigiZm4ta25vY2suc3FsaXRlMyIpOwogICAgbGV0IF9tYW5hZ2VyID0gQ29ubmVjdGlvbk1hbmFnZXI6Om9wZW4oJnBhdGgpLmF3YWl0LmV4cGVjdCgib3BlbiBzcWxpdGUiKTsKCiAgICBsZXQgZmlsZV9tb2RlID0gdG9raW86OmZzOjptZXRhZGF0YSgmcGF0aCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJzdGF0IHNxbGl0ZSIpCiAgICAgICAgLnBlcm1pc3Npb25zKCkKICAgICAgICAubW9kZSgpCiAgICAgICAgJiAwbzc3NzsKICAgIGxldCBkaXJfbW9kZSA9IHRva2lvOjpmczo6bWV0YWRhdGEocGF0aC5wYXJlbnQoKS5leHBlY3QoInNxbGl0ZSBwYXJlbnQiKSkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJzdGF0IHNxbGl0ZSBwYXJlbnQiKQogICAgICAgIC5wZXJtaXNzaW9ucygpCiAgICAgICAgLm1vZGUoKQogICAgICAgICYgMG83Nzc7CgogICAgYXNzZXJ0X2VxIShmaWxlX21vZGUsIDBvNjAwKTsKICAgIGFzc2VydF9lcSEoZGlyX21vZGUsIDBvNzAwKTsKfQo=
+use super::*;
+
+#[tokio::test]
+async fn schema_migration_checksum_mismatch_fails_startup() {
+    let manager = temp_manager().await;
+    manager
+        .call(|conn| {
+            conn.execute(
+                "UPDATE schema_migrations SET checksum = 'bad' WHERE version = 1",
+                [],
+            )?;
+            Ok(())
+        })
+        .await
+        .expect("corrupt checksum");
+
+    let error = manager.initialize().await.expect_err("checksum must fail");
+    assert!(error.to_string().contains("checksum mismatch"));
+}
+
+#[tokio::test]
+async fn system_update_preflight_replaces_a_verified_durable_snapshot() {
+    let directory = tempfile::tempdir().expect("create temp dir");
+    let path = directory.path().join("fn-knock.sqlite3");
+    let backup_path = directory.path().join("fn-knock.sqlite3.pre-update.bak");
+    let manager = ConnectionManager::open(&path).await.expect("open sqlite");
+    manager
+        .set_meta_value("update-snapshot-test", "before")
+        .await
+        .expect("seed snapshot value");
+
+    manager
+        .prepare_for_system_update(&backup_path)
+        .await
+        .expect("prepare first update snapshot");
+    assert_eq!(read_backup_meta(&backup_path), "before");
+
+    assert_eq!(synchronous_mode(&manager).await, 2);
+
+    manager
+        .set_meta_value("update-snapshot-test", "after")
+        .await
+        .expect("update snapshot value");
+    manager
+        .prepare_for_system_update(&backup_path)
+        .await
+        .expect("replace update snapshot");
+    assert_eq!(read_backup_meta(&backup_path), "after");
+    manager
+        .checkpoint_for_shutdown()
+        .await
+        .expect("checkpoint shutdown WAL");
+    manager
+        .cancel_system_update()
+        .await
+        .expect("restore normal sync mode");
+    assert_eq!(synchronous_mode(&manager).await, 1);
+}
+
+#[tokio::test]
+async fn failed_system_update_preflight_restores_normal_sync_mode() {
+    let directory = tempfile::tempdir().expect("create temp dir");
+    let path = directory.path().join("fn-knock.sqlite3");
+    let invalid_backup = directory.path().join("invalid-backup");
+    let mut invalid_temporary_name = invalid_backup.as_os_str().to_os_string();
+    invalid_temporary_name.push(".tmp");
+    std::fs::create_dir(PathBuf::from(invalid_temporary_name))
+        .expect("create invalid temporary directory");
+    let manager = ConnectionManager::open(&path).await.expect("open sqlite");
+
+    manager
+        .prepare_for_system_update(&invalid_backup)
+        .await
+        .expect_err("invalid backup destination must fail");
+    assert_eq!(synchronous_mode(&manager).await, 1);
+}
+
+#[tokio::test]
+async fn wal_checkpoint_waits_for_an_active_analytics_reader() {
+    let manager = temp_manager().await;
+    let reader_manager = manager.clone();
+    let (started_tx, started_rx) = tokio::sync::oneshot::channel();
+    let (release_tx, release_rx) = std::sync::mpsc::channel();
+    let reader = tokio::spawn(async move {
+        reader_manager
+            .call_analytics(move |_conn| {
+                let _ = started_tx.send(());
+                release_rx
+                    .recv_timeout(std::time::Duration::from_secs(5))
+                    .map_err(|error| storage_error(format!("release analytics reader: {error}")))?;
+                Ok(())
+            })
+            .await
+    });
+    started_rx.await.expect("analytics reader started");
+
+    let checkpoint_manager = manager.clone();
+    let mut checkpoint =
+        tokio::spawn(async move { checkpoint_manager.checkpoint_for_shutdown().await });
+    let premature =
+        tokio::time::timeout(std::time::Duration::from_millis(50), &mut checkpoint).await;
+    release_tx.send(()).expect("release analytics reader");
+    reader
+        .await
+        .expect("analytics reader task")
+        .expect("analytics reader result");
+
+    assert!(premature.is_err(), "checkpoint bypassed analytics gate");
+    tokio::time::timeout(std::time::Duration::from_secs(5), checkpoint)
+        .await
+        .expect("checkpoint completed after reader")
+        .expect("checkpoint task")
+        .expect("checkpoint result");
+}
+
+#[tokio::test]
+async fn health_probe_does_not_wait_for_the_primary_executor() {
+    let manager = temp_manager().await;
+    let blocker_manager = manager.clone();
+    let (started_tx, started_rx) = tokio::sync::oneshot::channel();
+    let (release_tx, release_rx) = std::sync::mpsc::channel();
+    let blocker = blocker_manager.call(move |_conn| {
+        let _ = started_tx.send(());
+        release_rx
+            .recv_timeout(std::time::Duration::from_secs(5))
+            .map_err(|error| storage_error(format!("release primary blocker: {error}")))?;
+        Ok(())
+    });
+    let probe = async {
+        started_rx.await.expect("primary executor started");
+        tokio::time::timeout(std::time::Duration::from_millis(250), manager.ping())
+            .await
+            .expect("health reader must not queue behind primary work")
+            .expect("health query succeeds");
+        release_tx.send(()).expect("release primary executor");
+    };
+    let (blocker_result, ()) = tokio::join!(blocker, probe);
+    blocker_result.expect("primary blocker result");
+}
+
+#[tokio::test]
+async fn canceled_primary_waiter_is_never_submitted_to_sqlite() {
+    let manager = temp_manager().await;
+    let blocker_manager = manager.clone();
+    let (started_tx, started_rx) = tokio::sync::oneshot::channel();
+    let (release_tx, release_rx) = std::sync::mpsc::channel();
+    let blocker = blocker_manager.call(move |_conn| {
+        let _ = started_tx.send(());
+        release_rx
+            .recv_timeout(std::time::Duration::from_secs(5))
+            .map_err(|error| storage_error(format!("release primary blocker: {error}")))?;
+        Ok(())
+    });
+    let executed = Arc::new(std::sync::atomic::AtomicBool::new(false));
+    let executed_in_call = executed.clone();
+    let cancellation = async {
+        started_rx.await.expect("primary executor started");
+        let canceled = tokio::time::timeout(
+            std::time::Duration::from_millis(50),
+            manager.call(move |_conn| {
+                executed_in_call.store(true, std::sync::atomic::Ordering::Release);
+                Ok(())
+            }),
+        )
+        .await;
+        assert!(canceled.is_err(), "queued call unexpectedly completed");
+        assert_eq!(manager.primary_queue_status().queue_depth, 0);
+        assert_eq!(manager.primary_queue_status().canceled_operations, 1);
+        release_tx.send(()).expect("release primary executor");
+    };
+    let (blocker_result, ()) = tokio::join!(blocker, cancellation);
+    blocker_result.expect("primary blocker result");
+    assert!(
+        !executed.load(std::sync::atomic::Ordering::Acquire),
+        "canceled waiter was submitted after its caller disappeared"
+    );
+}
+
+#[tokio::test]
+async fn canceled_auth_reader_waiter_is_never_submitted_to_sqlite() {
+    let manager = temp_manager().await;
+    let blocker_manager = manager.clone();
+    let (started_tx, started_rx) = tokio::sync::oneshot::channel();
+    let (release_tx, release_rx) = std::sync::mpsc::channel();
+    let blocker = blocker_manager.call_auth_read(move |_conn| {
+        let _ = started_tx.send(());
+        release_rx
+            .recv_timeout(std::time::Duration::from_secs(5))
+            .map_err(|error| storage_error(format!("release auth reader: {error}")))?;
+        Ok(())
+    });
+    let executed = Arc::new(std::sync::atomic::AtomicBool::new(false));
+    let executed_in_call = executed.clone();
+    let cancellation = async {
+        started_rx.await.expect("auth reader started");
+        let canceled = tokio::time::timeout(
+            std::time::Duration::from_millis(50),
+            manager.call_auth_read(move |_conn| {
+                executed_in_call.store(true, std::sync::atomic::Ordering::Release);
+                Ok(())
+            }),
+        )
+        .await;
+        assert!(canceled.is_err(), "queued auth read unexpectedly completed");
+        release_tx.send(()).expect("release auth reader");
+    };
+    let (blocker_result, ()) = tokio::join!(blocker, cancellation);
+    blocker_result.expect("auth reader blocker result");
+    assert!(
+        !executed.load(std::sync::atomic::Ordering::Acquire),
+        "canceled auth read was submitted after its caller disappeared"
+    );
+}
+
+#[tokio::test]
+async fn canceled_exclusive_call_retains_checkpoint_gate_until_sqlite_finishes() {
+    let manager = temp_manager().await;
+    let exclusive_manager = manager.clone();
+    let (started_tx, started_rx) = tokio::sync::oneshot::channel();
+    let (release_tx, release_rx) = std::sync::mpsc::channel();
+    let exclusive = tokio::time::timeout(
+        std::time::Duration::from_millis(50),
+        exclusive_manager.call_exclusive(move |_conn| {
+            let _ = started_tx.send(());
+            release_rx
+                .recv_timeout(std::time::Duration::from_secs(5))
+                .map_err(|error| storage_error(format!("release exclusive call: {error}")))?;
+            Ok(())
+        }),
+    );
+    let wait_until_submitted = async {
+        started_rx.await.expect("exclusive call started");
+    };
+    let (canceled, ()) = tokio::join!(exclusive, wait_until_submitted);
+    assert!(canceled.is_err(), "exclusive caller unexpectedly completed");
+
+    let executed = Arc::new(std::sync::atomic::AtomicBool::new(false));
+    let executed_in_call = executed.clone();
+    let blocked_reader = tokio::time::timeout(
+        std::time::Duration::from_millis(50),
+        manager.call_analytics(move |_conn| {
+            executed_in_call.store(true, std::sync::atomic::Ordering::Release);
+            Ok(())
+        }),
+    )
+    .await;
+    assert!(
+        blocked_reader.is_err(),
+        "reader bypassed canceled exclusive call"
+    );
+    assert!(!executed.load(std::sync::atomic::Ordering::Acquire));
+
+    release_tx.send(()).expect("release exclusive SQLite call");
+    tokio::time::timeout(
+        std::time::Duration::from_secs(5),
+        manager.call_analytics(|_conn| Ok(())),
+    )
+    .await
+    .expect("checkpoint gate released after SQLite completion")
+    .expect("analytics reader succeeds after exclusive completion");
+}
+
+#[tokio::test]
+async fn destructive_migration_backup_is_a_verified_sqlite_snapshot() {
+    let directory = tempfile::tempdir().expect("create temp dir");
+    let path = directory.path().join("fn-knock.sqlite3");
+    let manager = ConnectionManager::open(&path).await.expect("open sqlite");
+    manager
+        .set_meta_value("update-snapshot-test", "migration")
+        .await
+        .expect("seed migration snapshot value");
+    let source_path = path.clone();
+    let backup_path = manager
+        .call(move |conn| {
+            create_migration_backup(conn, &source_path, &SCHEMA_MIGRATIONS[1])?
+                .ok_or_else(|| storage_error("migration backup was not created"))
+        })
+        .await
+        .expect("create migration snapshot");
+
+    assert_eq!(read_backup_meta(&backup_path), "migration");
+}
+
+async fn synchronous_mode(manager: &ConnectionManager) -> i64 {
+    manager
+        .call(|conn| {
+            conn.query_row("PRAGMA synchronous", [], |row| row.get::<_, i64>(0))
+                .map_err(Into::into)
+        })
+        .await
+        .expect("read synchronous mode")
+}
+
+fn read_backup_meta(path: &Path) -> String {
+    let conn =
+        rusqlite::Connection::open_with_flags(path, rusqlite::OpenFlags::SQLITE_OPEN_READ_ONLY)
+            .expect("open update snapshot");
+    verify_sqlite_integrity(&conn).expect("snapshot integrity");
+    conn.query_row(
+        "SELECT value FROM storage_meta WHERE key = 'update-snapshot-test'",
+        [],
+        |row| row.get(0),
+    )
+    .expect("read snapshot value")
+}
+
+#[tokio::test]
+async fn schema_migration_rejects_future_database_version() {
+    let manager = temp_manager().await;
+    manager
+        .call(|conn| {
+            conn.execute(
+                "INSERT INTO schema_migrations(version, name, checksum, applied_at_ms)
+                     VALUES (999, 'future', 'sha256:future', ?1)",
+                params![now_ms()],
+            )?;
+            Ok(())
+        })
+        .await
+        .expect("insert future migration");
+
+    let error = manager.initialize().await.expect_err("future DB must fail");
+    assert!(
+        error
+            .to_string()
+            .contains("newer than this server supports")
+    );
+}
+
+#[tokio::test]
+async fn schema_migration_normalizes_legacy_v1_marker() {
+    let manager = temp_manager().await;
+    manager
+        .call(|conn| {
+            conn.execute(
+                "UPDATE schema_migrations SET checksum = 'v1' WHERE version = 1",
+                [],
+            )?;
+            Ok(())
+        })
+        .await
+        .expect("write legacy checksum");
+
+    manager.initialize().await.expect("legacy marker upgrades");
+    let checksum = manager
+        .call(|conn| {
+            conn.query_row(
+                "SELECT checksum FROM schema_migrations WHERE version = 1",
+                [],
+                |row| row.get::<_, String>(0),
+            )
+            .map_err(Into::into)
+        })
+        .await
+        .expect("read checksum");
+    assert_eq!(checksum, migration_checksum(REDIS_COMPATIBLE_KEYSPACE_SQL));
+}
+
+#[tokio::test]
+async fn schema_migration_v2_backfills_numeric_stream_ids_and_metadata() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let future_ms = now_ms() + 60_000;
+    let future_id = format!("{future_ms}-0");
+    {
+        let conn = rusqlite::Connection::open(&path).expect("open legacy sqlite");
+        conn.pragma_update(None, "foreign_keys", "ON")
+            .expect("enable foreign keys");
+        conn.execute_batch(SCHEMA_MIGRATIONS_SQL)
+            .expect("create migration table");
+        conn.execute_batch(REDIS_COMPATIBLE_KEYSPACE_SQL)
+            .expect("create v1 keyspace");
+        conn.execute(
+            "INSERT INTO schema_migrations(version, name, checksum, applied_at_ms)
+                 VALUES (1, 'redis_compatible_keyspace', ?1, ?2)",
+            params![migration_checksum(REDIS_COMPATIBLE_KEYSPACE_SQL), now_ms()],
+        )
+        .expect("record v1 migration");
+        conn.execute(
+            "INSERT INTO kv_keys(key, kind) VALUES ('fn_knock:test:legacy-stream', 'stream')",
+            [],
+        )
+        .expect("create legacy stream key");
+        for id in ["10-0".to_string(), "9-0".to_string(), future_id.clone()] {
+            conn.execute(
+                "INSERT INTO kv_stream(key, id, fields_json) VALUES (?1, ?2, ?3)",
+                params![
+                    "fn_knock:test:legacy-stream",
+                    id,
+                    serde_json::to_string(&vec!["value", id.as_str()]).unwrap()
+                ],
+            )
+            .expect("seed legacy stream entry");
+        }
+    }
+
+    let mut manager = ConnectionManager::open(&path)
+        .await
+        .expect("migrate v1 database");
+    let read = manager
+        .xread_options(
+            &["fn_knock:test:legacy-stream"],
+            &["0-0"],
+            &streams::StreamReadOptions::default().count(10),
+        )
+        .await
+        .expect("read migrated stream")
+        .expect("stream has rows");
+    assert_eq!(
+        read.keys[0]
+            .ids
+            .iter()
+            .map(|entry| entry.id.as_str())
+            .collect::<Vec<_>>(),
+        vec!["9-0", "10-0", future_id.as_str()]
+    );
+
+    let _: () = cmd("XDEL")
+        .arg("fn_knock:test:legacy-stream")
+        .arg(vec![
+            "9-0".to_string(),
+            "10-0".to_string(),
+            future_id.clone(),
+        ])
+        .query_async(&mut manager)
+        .await
+        .expect("empty migrated stream");
+    drop(manager);
+
+    let mut reopened = ConnectionManager::open(&path)
+        .await
+        .expect("reopen database");
+    let generated: String = cmd("XADD")
+        .arg("fn_knock:test:legacy-stream")
+        .arg("*")
+        .arg("value")
+        .arg("after-reopen")
+        .query_async(&mut reopened)
+        .await
+        .expect("append after reopen");
+    assert_eq!(generated, format!("{future_ms}-1"));
+}
+
+#[cfg(unix)]
+#[tokio::test]
+async fn sqlite_database_file_is_owner_only() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("storage").join("fn-knock.sqlite3");
+    let _manager = ConnectionManager::open(&path).await.expect("open sqlite");
+
+    let file_mode = tokio::fs::metadata(&path)
+        .await
+        .expect("stat sqlite")
+        .permissions()
+        .mode()
+        & 0o777;
+    let dir_mode = tokio::fs::metadata(path.parent().expect("sqlite parent"))
+        .await
+        .expect("stat sqlite parent")
+        .permissions()
+        .mode()
+        & 0o777;
+
+    assert_eq!(file_mode, 0o600);
+    assert_eq!(dir_mode, 0o700);
+}

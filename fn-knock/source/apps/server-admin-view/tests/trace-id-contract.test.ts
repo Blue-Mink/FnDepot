@@ -1,1 +1,106 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKaW1wb3J0IHsgaXNUcmFjZUlkLCBub3JtYWxpemVUcmFjZUlkIH0gZnJvbSAiLi4vc3JjL2xpYi90cmFjZS1pZCI7Cgpjb25zdCByZWFkU291cmNlID0gKHBhdGg6IHN0cmluZykgPT4KICByZWFkRmlsZVN5bmMobmV3IFVSTChwYXRoLCBpbXBvcnQubWV0YS51cmwpLCAidXRmOCIpOwpjb25zdCBjb250cmFjdCA9IEpTT04ucGFyc2UoCiAgcmVhZFNvdXJjZSgiLi4vLi4vLi4vcGFja2FnZXMvYXBpLWNvbnRyYWN0L29wZW5hcGkuanNvbiIpLAopIGFzIHsKICBwYXRoczogUmVjb3JkPHN0cmluZywgUmVjb3JkPHN0cmluZywgdW5rbm93bj4+OwogIGNvbXBvbmVudHM6IHsKICAgIHNjaGVtYXM6IFJlY29yZDwKICAgICAgc3RyaW5nLAogICAgICB7CiAgICAgICAgcHJvcGVydGllcz86IFJlY29yZDxzdHJpbmcsIHVua25vd24+OwogICAgICAgIHJlcXVpcmVkPzogc3RyaW5nW107CiAgICAgICAgZW51bT86IHN0cmluZ1tdOwogICAgICB9CiAgICA+OwogIH07Cn07CgpkZXNjcmliZSgidW5pZmllZCBUcmFjZSBJRCBjb250cmFjdCIsICgpID0+IHsKICBpdCgicHVibGlzaGVzIHRoZSBhZ2dyZWdhdGUgbG9va3VwIGFuZCBleGFjdCBsaXN0IGZpbHRlcnMiLCAoKSA9PiB7CiAgICBjb25zdCB0cmFjZU9wZXJhdGlvbiA9IGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL3RyYWNlcy97dHJhY2VfaWR9Il0/LmdldDsKICAgIGFzc2VydC5vayh0cmFjZU9wZXJhdGlvbik7CiAgICBhc3NlcnQubWF0Y2goSlNPTi5zdHJpbmdpZnkodHJhY2VPcGVyYXRpb24pLCAvIjQwMCIvdSk7CiAgICBhc3NlcnQubWF0Y2goSlNPTi5zdHJpbmdpZnkodHJhY2VPcGVyYXRpb24pLCAvXChcPzp0cmNcfHdhZlwpL3UpOwogICAgZm9yIChjb25zdCBwYXRoIG9mIFsKICAgICAgIi9hcGkvYWRtaW4vZXZlbnRzIiwKICAgICAgIi9hcGkvYWRtaW4vZ2F0ZXdheS1sb2dzL2VudHJpZXMiLAogICAgICAiL2FwaS9hZG1pbi9ub3RpZmljYXRpb25zL3RyaWdnZXJzIiwKICAgICAgIi9hcGkvYWRtaW4vbm90aWZpY2F0aW9ucy9kZWxpdmVyaWVzIiwKICAgIF0pIHsKICAgICAgY29uc3Qgb3BlcmF0aW9uID0gSlNPTi5zdHJpbmdpZnkoY29udHJhY3QucGF0aHNbcGF0aF0/LmdldCk7CiAgICAgIGFzc2VydC5tYXRjaChvcGVyYXRpb24sIC90cmFjZV9pZC91LCBwYXRoKTsKICAgICAgYXNzZXJ0Lm1hdGNoKG9wZXJhdGlvbiwgL1woXD86dHJjXHx3YWZcKS91LCBwYXRoKTsKICAgIH0KICAgIGNvbnN0IHRyYWNlID0gY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLlRyYWNlTG9va3VwRGF0YTsKICAgIGZvciAoY29uc3QgZmllbGQgb2YgWwogICAgICAidHJhY2VfaWQiLAogICAgICAiZm91bmQiLAogICAgICAicmVxdWVzdCIsCiAgICAgICJ3YWZfZXZlbnQiLAogICAgICAic3lzdGVtX2V2ZW50cyIsCiAgICAgICJub3RpZmljYXRpb25fdHJpZ2dlcnMiLAogICAgICAibm90aWZpY2F0aW9uX2RlbGl2ZXJpZXMiLAogICAgICAic291cmNlcyIsCiAgICBdKSB7CiAgICAgIGFzc2VydC5vayh0cmFjZS5wcm9wZXJ0aWVzPy5bZmllbGRdLCBmaWVsZCk7CiAgICB9CiAgICBhc3NlcnQuZGVlcEVxdWFsKGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5UcmFjZVNvdXJjZVN0YXR1c0RhdGEuZW51bSwgWwogICAgICAiZm91bmQiLAogICAgICAibm90X2ZvdW5kIiwKICAgICAgInVuYXZhaWxhYmxlIiwKICAgIF0pOwogIH0pOwoKICBpdCgibm9ybWFsaXplcyBpbnB1dCBhbmQgYWNjZXB0cyBvbmx5IGNhbm9uaWNhbCBjdXJyZW50IG9yIGxlZ2FjeSBJRHMiLCAoKSA9PiB7CiAgICBjb25zdCBjdXJyZW50ID0gInRyY18zZjkzZDQwYS04OWVhLTRkYmUtYTA0Zi02NzY5Mjc3OGQ5NzMiOwogICAgY29uc3QgbGVnYWN5ID0gIndhZl8zZjkzZDQwYS04OWVhLTRkYmUtYTA0Zi02NzY5Mjc3OGQ5NzMiOwogICAgYXNzZXJ0LmVxdWFsKG5vcm1hbGl6ZVRyYWNlSWQoYCAgJHtjdXJyZW50fSAgYCksIGN1cnJlbnQpOwogICAgYXNzZXJ0LmVxdWFsKGlzVHJhY2VJZChjdXJyZW50KSwgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwoaXNUcmFjZUlkKGxlZ2FjeSksIHRydWUpOwogICAgYXNzZXJ0LmVxdWFsKGlzVHJhY2VJZCgidHJjXzNGOTNENDBBLTg5RUEtNERCRS1BMDRGLTY3NjkyNzc4RDk3MyIpLCBmYWxzZSk7CiAgICBhc3NlcnQuZXF1YWwoaXNUcmFjZUlkKCJ0cmNfbm90LWEtdXVpZCIpLCBmYWxzZSk7CiAgfSk7CgogIGl0KCJrZWVwcyB0cmFjZV9pZCBvbiBpbnRlcm5hbCByZWNvcmRzIHdpdGhvdXQgZXhwb3NpbmcgaXQgaW4gbm90aWZpY2F0aW9uIG1lc3NhZ2VzIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBzY2hlbWEgb2YgWwogICAgICAiU3lzdGVtRXZlbnREYXRhIiwKICAgICAgIk5vdGlmaWNhdGlvblRyaWdnZXJEYXRhIiwKICAgICAgIk5vdGlmaWNhdGlvbkRlbGl2ZXJ5RGF0YSIsCiAgICAgICJHYXRld2F5TG9nRW50cnlEYXRhIiwKICAgIF0pIHsKICAgICAgYXNzZXJ0Lm9rKAogICAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hc1tzY2hlbWFdLnByb3BlcnRpZXM/LnRyYWNlX2lkLAogICAgICAgIHNjaGVtYSwKICAgICAgKTsKICAgIH0KICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLk5vdGlmaWNhdGlvbk1lc3NhZ2VEYXRhLnByb3BlcnRpZXM/LnRyYWNlX2lkLAogICAgICB1bmRlZmluZWQsCiAgICApOwogICAgYXNzZXJ0Lm9rKAogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuTm90aWZpY2F0aW9uVHJpZ2dlckRhdGEucHJvcGVydGllcz8uaWQsCiAgICApOwogICAgYXNzZXJ0Lm9rKAogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuTm90aWZpY2F0aW9uRGVsaXZlcnlEYXRhLnByb3BlcnRpZXM/LmlkLAogICAgKTsKICB9KTsKCiAgaXQoInJlZ2lzdGVycyBhIGhpZGRlbiB0cmFjZSBwYWdlIHdpdGggdGltZWxpbmUsIHBhcnRpYWwgZmFpbHVyZSwgYW5kIGxvb2t1cCBlbnRyeSBwb2ludHMiLCAoKSA9PiB7CiAgICBjb25zdCByb3V0ZXIgPSByZWFkU291cmNlKCIuLi9zcmMvcm91dGVyL2luZGV4LnRzIik7CiAgICBjb25zdCB0cmFjZVBhZ2UgPSByZWFkU291cmNlKCIuLi9zcmMvdmlld3MvVHJhY2VEZXRhaWxzLnZ1ZSIpOwogICAgY29uc3QgcmVxdWVzdEFuYWx5c2lzID0gcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL1JlcXVlc3RBbmFseXNpcy52dWUiKTsKICAgIGNvbnN0IGV2ZW50Q2VudGVyID0gcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL0V2ZW50Q2VudGVyLnZ1ZSIpOwogICAgYXNzZXJ0Lm1hdGNoKHJvdXRlciwgL3BhdGg6ICJ0cmFjZXNcLzp0cmFjZV9pZCIvdSk7CiAgICBhc3NlcnQubWF0Y2godHJhY2VQYWdlLCAvbm90aWZpY2F0aW9uX2RlbGl2ZXJpZXMvdSk7CiAgICBhc3NlcnQubWF0Y2godHJhY2VQYWdlLCAvdW5hdmFpbGFibGVTb3VyY2VzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHRyYWNlUGFnZSwgL3RpbWVsaW5lL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHJlcXVlc3RBbmFseXNpcywgL1RyYWNlTG9va3VwQnV0dG9uL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGV2ZW50Q2VudGVyLCAvVHJhY2VMb29rdXBCdXR0b24vdSk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+import { isTraceId, normalizeTraceId } from "../src/lib/trace-id";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  paths: Record<string, Record<string, unknown>>;
+  components: {
+    schemas: Record<
+      string,
+      {
+        properties?: Record<string, unknown>;
+        required?: string[];
+        enum?: string[];
+      }
+    >;
+  };
+};
+
+describe("unified Trace ID contract", () => {
+  it("publishes the aggregate lookup and exact list filters", () => {
+    const traceOperation = contract.paths["/api/admin/traces/{trace_id}"]?.get;
+    assert.ok(traceOperation);
+    assert.match(JSON.stringify(traceOperation), /"400"/u);
+    assert.match(JSON.stringify(traceOperation), /\(\?:trc\|waf\)/u);
+    for (const path of [
+      "/api/admin/events",
+      "/api/admin/gateway-logs/entries",
+      "/api/admin/notifications/triggers",
+      "/api/admin/notifications/deliveries",
+    ]) {
+      const operation = JSON.stringify(contract.paths[path]?.get);
+      assert.match(operation, /trace_id/u, path);
+      assert.match(operation, /\(\?:trc\|waf\)/u, path);
+    }
+    const trace = contract.components.schemas.TraceLookupData;
+    for (const field of [
+      "trace_id",
+      "found",
+      "request",
+      "waf_event",
+      "system_events",
+      "notification_triggers",
+      "notification_deliveries",
+      "sources",
+    ]) {
+      assert.ok(trace.properties?.[field], field);
+    }
+    assert.deepEqual(contract.components.schemas.TraceSourceStatusData.enum, [
+      "found",
+      "not_found",
+      "unavailable",
+    ]);
+  });
+
+  it("normalizes input and accepts only canonical current or legacy IDs", () => {
+    const current = "trc_3f93d40a-89ea-4dbe-a04f-67692778d973";
+    const legacy = "waf_3f93d40a-89ea-4dbe-a04f-67692778d973";
+    assert.equal(normalizeTraceId(`  ${current}  `), current);
+    assert.equal(isTraceId(current), true);
+    assert.equal(isTraceId(legacy), true);
+    assert.equal(isTraceId("trc_3F93D40A-89EA-4DBE-A04F-67692778D973"), false);
+    assert.equal(isTraceId("trc_not-a-uuid"), false);
+  });
+
+  it("keeps trace_id on internal records without exposing it in notification messages", () => {
+    for (const schema of [
+      "SystemEventData",
+      "NotificationTriggerData",
+      "NotificationDeliveryData",
+      "GatewayLogEntryData",
+    ]) {
+      assert.ok(
+        contract.components.schemas[schema].properties?.trace_id,
+        schema,
+      );
+    }
+    assert.equal(
+      contract.components.schemas.NotificationMessageData.properties?.trace_id,
+      undefined,
+    );
+    assert.ok(
+      contract.components.schemas.NotificationTriggerData.properties?.id,
+    );
+    assert.ok(
+      contract.components.schemas.NotificationDeliveryData.properties?.id,
+    );
+  });
+
+  it("registers a hidden trace page with timeline, partial failure, and lookup entry points", () => {
+    const router = readSource("../src/router/index.ts");
+    const tracePage = readSource("../src/views/TraceDetails.vue");
+    const requestAnalysis = readSource("../src/views/RequestAnalysis.vue");
+    const eventCenter = readSource("../src/views/EventCenter.vue");
+    assert.match(router, /path: "traces\/:trace_id"/u);
+    assert.match(tracePage, /notification_deliveries/u);
+    assert.match(tracePage, /unavailableSources/u);
+    assert.match(tracePage, /timeline/u);
+    assert.match(requestAnalysis, /TraceLookupButton/u);
+    assert.match(eventCenter, /TraceLookupButton/u);
+  });
+});

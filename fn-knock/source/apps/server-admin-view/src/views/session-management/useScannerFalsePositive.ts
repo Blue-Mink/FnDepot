@@ -1,1 +1,57 @@
-aW1wb3J0IHR5cGUgeyBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBTY2FubmVyQVBJLCB0eXBlIFNjYW5uZXJCbGFja2xpc3RSZWNvcmQgfSBmcm9tICJAL2xpYi9hcGkvc2VjdXJpdHkiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7Cgp0eXBlIFVzZVNjYW5uZXJGYWxzZVBvc2l0aXZlT3B0aW9ucyA9IHsKICBkZXRhaWxSZWNvcmQ6IFJlZjxTY2FubmVyQmxhY2tsaXN0UmVjb3JkIHwgbnVsbD47CiAgaXNEZXRhaWxzTW9kYWxPcGVuOiBSZWY8Ym9vbGVhbj47CiAgY2xlYXJTZWxlY3Rpb246ICgpID0+IHZvaWQ7CiAgZmV0Y2hCbGFja2xpc3Q6ICgpID0+IFByb21pc2U8dm9pZD47Cn07CgpleHBvcnQgZnVuY3Rpb24gdXNlU2Nhbm5lckZhbHNlUG9zaXRpdmUoewogIGRldGFpbFJlY29yZCwKICBpc0RldGFpbHNNb2RhbE9wZW4sCiAgY2xlYXJTZWxlY3Rpb24sCiAgZmV0Y2hCbGFja2xpc3QsCn06IFVzZVNjYW5uZXJGYWxzZVBvc2l0aXZlT3B0aW9ucykgewogIGNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1Jlc29sdmluZ0ZhbHNlUG9zaXRpdmUsIHJ1biB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0LmZhbHNlUG9zaXRpdmVGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5zZXNzaW9ucy5pcEJsYWNrbGlzdC5mYWxzZVBvc2l0aXZlRmFpbGVkRGVzY3JpcHRpb24iKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IHJlc29sdmVGYWxzZVBvc2l0aXZlID0gYXN5bmMgKHBhdGg6IHN0cmluZykgPT4gewogICAgY29uc3QgcmVjb3JkID0gZGV0YWlsUmVjb3JkLnZhbHVlOwogICAgaWYgKCFyZWNvcmQgfHwgaXNSZXNvbHZpbmdGYWxzZVBvc2l0aXZlLnZhbHVlKSByZXR1cm47CiAgICBhd2FpdCBydW4oKCkgPT4gU2Nhbm5lckFQSS5yZXNvbHZlRmFsc2VQb3NpdGl2ZSh7IGlwOiByZWNvcmQuaXAsIHBhdGggfSksIHsKICAgICAgb25TdWNjZXNzOiBhc3luYyAocmVzdWx0KSA9PiB7CiAgICAgICAgdG9hc3Quc3VjY2VzcygKICAgICAgICAgIHQoCiAgICAgICAgICAgIHJlc3VsdC5hZGRlZAogICAgICAgICAgICAgID8gImFkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0LmZhbHNlUG9zaXRpdmVSZXNvbHZlZCIKICAgICAgICAgICAgICA6ICJhZG1pbi5zZXNzaW9ucy5pcEJsYWNrbGlzdC5mYWxzZVBvc2l0aXZlUmVzb2x2ZWRFeGlzdGluZyIsCiAgICAgICAgICAgIHsgcGF0aDogcmVzdWx0LnBhdGgsIGlwOiByZXN1bHQuaXAgfSwKICAgICAgICAgICksCiAgICAgICAgKTsKICAgICAgICBpc0RldGFpbHNNb2RhbE9wZW4udmFsdWUgPSBmYWxzZTsKICAgICAgICBkZXRhaWxSZWNvcmQudmFsdWUgPSBudWxsOwogICAgICAgIGNsZWFyU2VsZWN0aW9uKCk7CiAgICAgICAgYXdhaXQgZmV0Y2hCbGFja2xpc3QoKTsKICAgICAgfSwKICAgIH0pOwogIH07CgogIHJldHVybiB7IGlzUmVzb2x2aW5nRmFsc2VQb3NpdGl2ZSwgcmVzb2x2ZUZhbHNlUG9zaXRpdmUgfTsKfQo=
+import type { Ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { ScannerAPI, type ScannerBlacklistRecord } from "@/lib/api/security";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+
+type UseScannerFalsePositiveOptions = {
+  detailRecord: Ref<ScannerBlacklistRecord | null>;
+  isDetailsModalOpen: Ref<boolean>;
+  clearSelection: () => void;
+  fetchBlacklist: () => Promise<void>;
+};
+
+export function useScannerFalsePositive({
+  detailRecord,
+  isDetailsModalOpen,
+  clearSelection,
+  fetchBlacklist,
+}: UseScannerFalsePositiveOptions) {
+  const { t } = useI18n();
+  const { isPending: isResolvingFalsePositive, run } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.sessions.ipBlacklist.falsePositiveFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.sessions.ipBlacklist.falsePositiveFailedDescription"),
+        ),
+      });
+    },
+  });
+
+  const resolveFalsePositive = async (path: string) => {
+    const record = detailRecord.value;
+    if (!record || isResolvingFalsePositive.value) return;
+    await run(() => ScannerAPI.resolveFalsePositive({ ip: record.ip, path }), {
+      onSuccess: async (result) => {
+        toast.success(
+          t(
+            result.added
+              ? "admin.sessions.ipBlacklist.falsePositiveResolved"
+              : "admin.sessions.ipBlacklist.falsePositiveResolvedExisting",
+            { path: result.path, ip: result.ip },
+          ),
+        );
+        isDetailsModalOpen.value = false;
+        detailRecord.value = null;
+        clearSelection();
+        await fetchBlacklist();
+      },
+    });
+  };
+
+  return { isResolvingFalsePositive, resolveFalsePositive };
+}

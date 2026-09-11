@@ -1,1 +1,125 @@
-ZXhwb3J0IGNvbnN0IGphSlBTaGFyZWQgPSB7CiAgYmluYXJ5RG93bmxvYWQ6IHsKICAgIGN1cnJlbnRQbGF0Zm9ybTogIuePvuWcqOOBruODl+ODqeODg+ODiOODleOCqeODvOODoCIsCiAgICBzdXBwb3J0ZWQ6ICLlr77lv5wiLAogICAgdW5zdXBwb3J0ZWQ6ICLmnKrlr77lv5wiLAogICAgcmVzb3VyY2VTdGF0dXM6ICLjg6rjgr3jg7zjgrnjga7nirbmhYsiLAogICAgcmVhZHlMYWJlbDogIua6luWCmeWujOS6hiIsCiAgICBwZW5kaW5nTGFiZWw6ICLmnKrmupblgpkiLAogICAgZG93bmxvYWRQcm9ncmVzczogIuODgOOCpuODs+ODreODvOODieOBrumAsuaNlyIsCiAgICBlcnJvclByZWZpeDogIuOCqOODqeODvDogIiwKICAgIGRvd25sb2FkQnV0dG9uOiAi44Oq44K944O844K544KS44OA44Km44Oz44Ot44O844OJIiwKICAgIHJlZG93bmxvYWQ6ICLlho3jg4Djgqbjg7Pjg63jg7zjg4kiLAogICAgcmVkb3dubG9hZENvbmZpcm1UaXRsZTogIuOBk+OBruODquOCveODvOOCueOCkuWGjeODgOOCpuODs+ODreODvOODieOBl+OBvuOBmeOBi++8nyIsCiAgICByZWRvd25sb2FkQ29uZmlybURlc2NyaXB0aW9uOiAi5pei5a2Y44Gu44OV44Kh44Kk44Or44Gv5LiK5pu444GN44GV44KM44G+44GZ44CCIiwKICAgIGNvbmZpcm1SZWRvd25sb2FkOiAi5YaN44OA44Km44Oz44Ot44O844OJIiwKICAgIGRlbGV0ZTogIuWJiumZpCIsCiAgICBkZWxldGVDb25maXJtVGl0bGU6ICLjgZPjga7jg6rjgr3jg7zjgrnjgpLliYrpmaTjgZfjgb7jgZnjgYvvvJ8iLAogICAgZGVsZXRlQ29uZmlybURlc2NyaXB0aW9uOiAi5YaN5bqm5L2/55So44GZ44KL44Gr44Gv44CB44OA44Km44Oz44Ot44O844OJ44GM5b+F6KaB44Gn44GZ44CCIiwKICAgIGNvbmZpcm1EZWxldGU6ICLliYrpmaQiLAogICAgZG93bmxvYWRpbmc6ICLjg4Djgqbjg7Pjg63jg7zjg4nkuK3jgafjgZnjgILjgZfjgbDjgonjgY/jgYrlvoXjgaHjgY/jgaDjgZXjgYQuLi4iLAogICAgY2FuY2VsVGFzazogIuODgOOCpuODs+ODreODvOODieOCkuOCreODo+ODs+OCu+ODqyIsCiAgfSwKICBkYXRhU2hhcmVGaWxlUGlja2VyOiB7CiAgICB0aXRsZTogIkZOT1Mg44GL44KJ44OV44Kh44Kk44Or44KS6YG45oqeIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAi44Ki44OX44Oq44Kx44O844K344On44Oz44Gu44Or44O844OI44OH44Kj44Os44Kv44OI44Oq44Gr44GC44KL44CB6Kqt44G/5Y+W44KK5Y+v6IO944Gq44OV44Kh44Kk44Or44KS6YG45oqe44GX44Gm44GP44Gg44GV44GE44CCIiwKICAgIGRpcmVjdG9yeUxhYmVsOiAi44Ki44OX44Oq44Kx44O844K344On44Oz44Gu44OV44Kh44Kk44OrIiwKICAgIGFsZXJ0VGl0bGU6ICLjg4fjgqPjg6zjgq/jg4jjg6rjga7oqq3jgb/lj5bjgorjgavlpLHmlZfjgZfjgb7jgZfjgZ8iLAogICAgdW5hdmFpbGFibGVEZXNjcmlwdGlvbjoKICAgICAgIuOBk+OBruODh+OCo+ODrOOCr+ODiOODquOBq+OBr+OCouOCr+OCu+OCueOBp+OBjeOBvuOBm+OCk+OAguOCouODl+ODquOBjOOCpOODs+OCueODiOODvOODq+a4iOOBv+OBp+OAgeWFseacieODh+OCo+ODrOOCr+ODiOODquOBjOS9nOaIkOOBleOCjOOBpuOBhOOCi+OBk+OBqOOCkueiuuiqjeOBl+OBpuOBj+OBoOOBleOBhOOAgiIsCiAgICBjb25maXJtVGV4dDogIuOBk+OBruODleOCoeOCpOODq+OCkuS9v+eUqCIsCiAgICBhdmFpbGFibGVEZXNjcmlwdGlvbjogIuWIqeeUqOWPr+iDveOBquODleOCoeOCpOODq+OBjCB7Y291bnR9IOS7tuimi+OBpOOBi+OCiuOBvuOBl+OBnyIsCiAgICBub01hdGNoZWRGaWxlczogIuS4gOiHtOOBmeOCi+ODleOCoeOCpOODq+OBjOOBguOCiuOBvuOBm+OCkyIsCiAgICBub01hdGNoZWREZXNjcmlwdGlvbjoKICAgICAgIuOCreODvOODr+ODvOODieOCkuWkieabtOOBmeOCi+OBi+OAgeODh+OCo+ODrOOCr+ODiOODquODquOCueODiOOCkuabtOaWsOOBl+OBpuOBj+OBoOOBleOBhOOAgiIsCiAgICBlbXB0eVRpdGxlOiAi5YWx5pyJ44OH44Kj44Os44Kv44OI44Oq44Gr5Yip55So5Y+v6IO944Gq44OV44Kh44Kk44Or44GM44GC44KK44G+44Gb44KTIiwKICAgIGVtcHR5RGVzY3JpcHRpb246CiAgICAgICLjgZPjga7jg4fjgqPjg6zjgq/jg4jjg6rjgavlr77lv5zlvaLlvI/jga7jg5XjgqHjgqTjg6vjgYzjgYLjgorjgb7jgZvjgpPjgILlr77lv5zjgZnjgovjg5XjgqHjgqTjg6vjgpLov73liqDjgZfjgabjgYvjgonjgIHjgoLjgYbkuIDluqbpgbjmip7jgZfjgabjgY/jgaDjgZXjgYTjgIIiLAogICAgbm9FeHRlbnNpb246ICLmi6HlvLXlrZDjgarjgZciLAogIH0sCiAgY2VydFNvdXJjZUZpZWxkOiB7CiAgICB1cGxvYWRGcm9tUGhvbmU6ICLjgrnjg57jg7zjg4jjg5Xjgqnjg7PjgYvjgonjgqLjg4Pjg5fjg63jg7zjg4kiLAogICAgdXBsb2FkRnJvbUNvbXB1dGVyOiAi44OR44K944Kz44Oz44GL44KJ44Ki44OD44OX44Ot44O844OJIiwKICAgIHVwbG9hZEZpbGU6ICLjg5XjgqHjgqTjg6vjgpLjgqLjg4Pjg5fjg63jg7zjg4kiLAogICAgY2hvb3NlU291cmNlVGl0bGU6ICLjg5XjgqHjgqTjg6vjga7lj5blvpflhYPjgpLpgbjmip4iLAogICAgY2hvb3NlU291cmNlRGVzY3JpcHRpb246CiAgICAgICLjgqTjg7Pjg53jg7zjg4jmlrnms5XjgpLpgbjmip7jgZfjgabjgIF7bGFiZWx9IOODleOCoeOCpOODq+OCkuiqreOBv+i+vOOBv+OBvuOBmeOAgiIsCiAgICBsb2NhbEZpbGVEZXNjcmlwdGlvbjoKICAgICAgIuOBk+OBruODh+ODkOOCpOOCueOBi+OCiSB7dHlwZXN9IOODleOCoeOCpOODq+OCkumBuOaKnuOBl+OBpuOAgeiHquWLleeahOOBq+iqreOBv+i+vOOBv+OBvuOBmSIsCiAgICBjaG9vc2VGcm9tRm5vczogIkZOT1Mg44GL44KJ6YG45oqeIiwKICAgIHNoYXJlZEZpbGVEZXNjcmlwdGlvbjoKICAgICAgIntzaGFyZU5hbWV9IOOBruODq+ODvOODiOODh+OCo+ODrOOCr+ODiOODquOBi+OCiSAzIOmajuWxpOS7peWGheOBq+OBguOCi+ODleOCoeOCpOODq+OCkuiqreOBv+i+vOOBv+OBvuOBmSIsCiAgICBwaWNrZXJUaXRsZTogIkZOT1Mg44GL44KJIHtsYWJlbH0g44KS6YG45oqeIiwKICAgIHBpY2tlckRlc2NyaXB0aW9uOgogICAgICAi5YWI44Gr6Ki85piO5pu444OV44Kh44Kk44Or44KS44CM44Ki44OX44Oq44Kx44O844K344On44Oz44OH44O844K/IOKGkiBmbi1rbm9ja+OAjeOBuOenu+WLleOBl+OBpuOBj+OBoOOBleOBhCIsCiAgICByZWFkRmlsZTogIuOBk+OBruODleOCoeOCpOODq+OCkuiqreOBv+i+vOOCgCIsCiAgfSwKICBsb2dWaWV3ZXI6IHsKICAgIHRpdGxlOiAi5YuV5L2c44Ot44KwIiwKICAgIGVtcHR5VGV4dDogIuODreOCsOOBr+OBvuOBoOOBguOCiuOBvuOBm+OCkyIsCiAgICBsaW5lQ291bnQ6ICJ7Y291bnR9IOihjCIsCiAgfSwKICBkZXRhaWxEaWFsb2c6IHsKICAgIGNsb3NlOiAi6ZaJ44GY44KLIiwKICAgIGNvcHlMb2c6ICLjg63jgrDjgpLjgrPjg5Tjg7wiLAogICAgY29weVN1Y2Nlc3M6ICLjg63jgrDjgpLjgrPjg5Tjg7zjgZfjgb7jgZfjgZ8iLAogICAgY29weVVudmVyaWZpZWQ6ICLjg63jgrDjga7jgrPjg5Tjg7zjgpLoqabooYzjgZfjgb7jgZfjgZ8iLAogICAgY29weVVudmVyaWZpZWREZXNjcmlwdGlvbjoKICAgICAgIuOCs+ODlOODvOe1kOaenOOCkueiuuiqjeOBp+OBjeOBvuOBm+OCk+OBp+OBl+OBn+OAguOCr+ODquODg+ODl+ODnOODvOODieOCkueiuuiqjeOBl+OBpuOBj+OBoOOBleOBhOOAgiIsCiAgICBjb3B5RmFpbGVkOiAi44Ot44Kw44Gu44Kz44OU44O844Gr5aSx5pWX44GX44G+44GX44GfIiwKICAgIG1hbnVhbENvcHlIaW50OgogICAgICAi44GT44Gu44Oa44O844K444Gv5Yi26ZmQ44GV44KM44Gf55Kw5aKD44Gn5YuV5L2c44GX44Gm44GE44KL5Y+v6IO95oCn44GM44GC44KK44G+44GZ44CC5omL5YuV44Gn44Kz44OU44O844GX44Gm44GP44Gg44GV44GE44CCIiwKICB9LAogIGlubGluZUNvbW1lbnRFZGl0b3I6IHsKICAgIHBsYWNlaG9sZGVyOiAi44Kz44Oh44Oz44OI44KS5YWl5YqbLi4uIiwKICAgIGVkaXQ6ICLjgrPjg6Hjg7Pjg4jjgpLnt6jpm4YiLAogICAgc2F2ZTogIuOCs+ODoeODs+ODiOOCkuS/neWtmCIsCiAgICBjYW5jZWw6ICLnt6jpm4bjgpLjgq3jg6Pjg7Pjgrvjg6siLAogICAgcmVxdWlyZWQ6ICLjgrPjg6Hjg7Pjg4jjgpLlhaXlipvjgZfjgabjgY/jgaDjgZXjgYQiLAogICAgdXBkYXRlRmFpbGVkOiAi44Kz44Oh44Oz44OI44Gu5pu05paw44Gr5aSx5pWX44GX44G+44GX44GfIiwKICB9LAogIGRlZmF1bHRSb3V0ZUNvbmZpcm06IHsKICAgIGNsZWFyVGl0bGU6ICLjg4fjg5Xjgqnjg6vjg4jjg6vjg7zjg4jjgpLop6PpmaTjgZfjgb7jgZnjgYvvvJ8iLAogICAgc2V0VGl0bGU6ICLjg4fjg5Xjgqnjg6vjg4jjg6vjg7zjg4jjgavoqK3lrprjgZfjgb7jgZnjgYvvvJ8iLAogICAgY2xlYXJGbm9zRGVzY3JpcHRpb246CiAgICAgICLjg53jg7zjg4gge3BvcnR9IOOBruOCteODvOODk+OCueOCkuODh+ODleOCqeODq+ODiOODq+ODvOODiOOBi+OCieino+mZpOOBl+OBvuOBmeOAgkZOT1Mg44Gu44OH44OV44Kp44Or44OI44Gu44Ki44Kv44K744K55YWI44Gr5b2x6Z+/44GZ44KL5aC05ZCI44GM44GC44KK44G+44GZ44CCIiwKICAgIGNsZWFyRGVzY3JpcHRpb246CiAgICAgICLop6PpmaTjgZnjgovjgajjg4fjg5Xjgqnjg6vjg4jjg6vjg7zjg4jjgYzjgarjgY/jgarjgovjgZ/jgoHjgIHjganjga7jg5HjgrnjgavjgoLkuIDoh7TjgZfjgarjgYTjg6rjgq/jgqjjgrnjg4jjgYzmraPjgZfjgY/ou6LpgIHjgZXjgozjgarjgYTloLTlkIjjgYzjgYLjgorjgb7jgZnjgIIiLAogICAgc2V0RGVzY3JpcHRpb246CiAgICAgICLnj77lnKjjga7jg4fjg5Xjgqnjg6vjg4jjg6vjg7zjg4jjga/jg53jg7zjg4gge3BvcnR9IOOBruOCteODvOODk+OCueOBp+OBmeOAguWIpeOBruODq+ODvOODiOOBq+WIh+OCiuabv+OBiOOCi+OBqOOAgUZOT1Mg44Gu44OH44OV44Kp44Or44OI44Gu44Ki44Kv44K744K55YWI44Gr5b2x6Z+/44GZ44KL5aC05ZCI44GM44GC44KK44G+44GZ44CCIiwKICB9LAogIGNlcnRGb3JtOiB7CiAgICBzc2xDZXJ0OiAiU1NMIOiovOaYjuabuCIsCiAgICBwcml2YXRlS2V5OiAi56eY5a+G6Y21IiwKICB9LAogIHBhZ2VkVGFibGVGb290ZXI6IHsKICAgIHRvdGFsOiAi5ZCI6KiIIHt0b3RhbH0ge2l0ZW1UZXh0fSIsCiAgICByZWNvcmRzOiAi5Lu2IiwKICAgIHBhZ2VTaXplT3B0aW9uOiAie2NvdW50fSDku7YiLAogIH0sCiAgZG5zQ3JlZGVudGlhbEJyaWRnZTogewogICAgcHJvdmlkZXJzOiB7CiAgICAgIGNsb3VkZmxhcmU6ICJDbG91ZGZsYXJlIiwKICAgICAgYWxpZG5zOiAiQWxpYmFiYSBDbG91ZCBETlMiLAogICAgICBkbnNwb2Q6ICJETlNQb2QiLAogICAgICB0ZW5jZW50Y2xvdWQ6ICJUZW5jZW50IENsb3VkIEROUyIsCiAgICAgIGVkZ2VvbmU6ICJUZW5jZW50IENsb3VkIEVkZ2VPbmUiLAogICAgICBlZGdlb25lQ25hbWU6ICJUZW5jZW50IENsb3VkIEVkZ2VPbmXvvIhDTkFNRSDmjqXntprvvIkiLAogICAgICBnb2RhZGR5OiAiR29EYWRkeSIsCiAgICAgIHBvcmtidW46ICJQb3JrYnVuIiwKICAgICAgZHludjY6ICJkeW52NiIsCiAgICAgIGR1Y2tkbnM6ICJEdWNrRE5TIiwKICAgIH0sCiAgfSwKICBwcm94eVRhcmdldElucHV0RmllbGQ6IHsKICAgIGhpbnQ6ICLlt6blgbTjgafjg5fjg63jg4jjgrPjg6vjgpLpgbjjgbPjgIHlj7PlgbTjgasgSVAg44Ki44OJ44Os44K544Go44Od44O844OI44KS5YWl5Yqb44GX44G+44GZ44CC44Od44O844OI44KS55yB55Wl44GZ44KL44Go44CB44OV44Kp44O844Kr44K544KS5aSW44GX44Gf44Go44GN44Gr44OX44Ot44OI44Kz44Or44Gu44OH44OV44Kp44Or44OI5YCk44GM6KOc5a6M44GV44KM44G+44GZ44CCIiwKICAgIHN1Z2dlc3Rpb25zTGFiZWw6ICLou6LpgIHlhYjjgqLjg4njg6zjgrnjga7lgJnoo5wiLAogIH0sCiAgY29uZmlnQ29sbGFwc2libGVDYXJkOiB7CiAgICBlZGl0Q29uZmlnOiAi6Kit5a6a44Gu57eo6ZuGIiwKICB9LAogIHN0cmVhbVByb3RvY29sTXVsdGlTZWxlY3Q6IHsKICAgIGFyaWFMYWJlbDogIuODiOODqeODs+OCueODneODvOODiOODl+ODreODiOOCs+ODqyIsCiAgfSwKfTsK
+export const jaJPShared = {
+  binaryDownload: {
+    currentPlatform: "現在のプラットフォーム",
+    supported: "対応",
+    unsupported: "未対応",
+    resourceStatus: "リソースの状態",
+    readyLabel: "準備完了",
+    pendingLabel: "未準備",
+    downloadProgress: "ダウンロードの進捗",
+    errorPrefix: "エラー: ",
+    downloadButton: "リソースをダウンロード",
+    redownload: "再ダウンロード",
+    redownloadConfirmTitle: "このリソースを再ダウンロードしますか？",
+    redownloadConfirmDescription: "既存のファイルは上書きされます。",
+    confirmRedownload: "再ダウンロード",
+    delete: "削除",
+    deleteConfirmTitle: "このリソースを削除しますか？",
+    deleteConfirmDescription: "再度使用するには、ダウンロードが必要です。",
+    confirmDelete: "削除",
+    downloading: "ダウンロード中です。しばらくお待ちください...",
+    cancelTask: "ダウンロードをキャンセル",
+  },
+  dataShareFilePicker: {
+    title: "FNOS からファイルを選択",
+    description:
+      "アプリケーションのルートディレクトリにある、読み取り可能なファイルを選択してください。",
+    directoryLabel: "アプリケーションのファイル",
+    alertTitle: "ディレクトリの読み取りに失敗しました",
+    unavailableDescription:
+      "このディレクトリにはアクセスできません。アプリがインストール済みで、共有ディレクトリが作成されていることを確認してください。",
+    confirmText: "このファイルを使用",
+    availableDescription: "利用可能なファイルが {count} 件見つかりました",
+    noMatchedFiles: "一致するファイルがありません",
+    noMatchedDescription:
+      "キーワードを変更するか、ディレクトリリストを更新してください。",
+    emptyTitle: "共有ディレクトリに利用可能なファイルがありません",
+    emptyDescription:
+      "このディレクトリに対応形式のファイルがありません。対応するファイルを追加してから、もう一度選択してください。",
+    noExtension: "拡張子なし",
+  },
+  certSourceField: {
+    uploadFromPhone: "スマートフォンからアップロード",
+    uploadFromComputer: "パソコンからアップロード",
+    uploadFile: "ファイルをアップロード",
+    chooseSourceTitle: "ファイルの取得元を選択",
+    chooseSourceDescription:
+      "インポート方法を選択して、{label} ファイルを読み込みます。",
+    localFileDescription:
+      "このデバイスから {types} ファイルを選択して、自動的に読み込みます",
+    chooseFromFnos: "FNOS から選択",
+    sharedFileDescription:
+      "{shareName} のルートディレクトリから 3 階層以内にあるファイルを読み込みます",
+    pickerTitle: "FNOS から {label} を選択",
+    pickerDescription:
+      "先に証明書ファイルを「アプリケーションデータ → fn-knock」へ移動してください",
+    readFile: "このファイルを読み込む",
+  },
+  logViewer: {
+    title: "動作ログ",
+    emptyText: "ログはまだありません",
+    lineCount: "{count} 行",
+  },
+  detailDialog: {
+    close: "閉じる",
+    copyLog: "ログをコピー",
+    copySuccess: "ログをコピーしました",
+    copyUnverified: "ログのコピーを試行しました",
+    copyUnverifiedDescription:
+      "コピー結果を確認できませんでした。クリップボードを確認してください。",
+    copyFailed: "ログのコピーに失敗しました",
+    manualCopyHint:
+      "このページは制限された環境で動作している可能性があります。手動でコピーしてください。",
+  },
+  inlineCommentEditor: {
+    placeholder: "コメントを入力...",
+    edit: "コメントを編集",
+    save: "コメントを保存",
+    cancel: "編集をキャンセル",
+    required: "コメントを入力してください",
+    updateFailed: "コメントの更新に失敗しました",
+  },
+  defaultRouteConfirm: {
+    clearTitle: "デフォルトルートを解除しますか？",
+    setTitle: "デフォルトルートに設定しますか？",
+    clearFnosDescription:
+      "ポート {port} のサービスをデフォルトルートから解除します。FNOS のデフォルトのアクセス先に影響する場合があります。",
+    clearDescription:
+      "解除するとデフォルトルートがなくなるため、どのパスにも一致しないリクエストが正しく転送されない場合があります。",
+    setDescription:
+      "現在のデフォルトルートはポート {port} のサービスです。別のルートに切り替えると、FNOS のデフォルトのアクセス先に影響する場合があります。",
+  },
+  certForm: {
+    sslCert: "SSL 証明書",
+    privateKey: "秘密鍵",
+  },
+  pagedTableFooter: {
+    total: "合計 {total} {itemText}",
+    records: "件",
+    pageSizeOption: "{count} 件",
+  },
+  dnsCredentialBridge: {
+    providers: {
+      cloudflare: "Cloudflare",
+      alidns: "Alibaba Cloud DNS",
+      dnspod: "DNSPod",
+      tencentcloud: "Tencent Cloud DNS",
+      edgeone: "Tencent Cloud EdgeOne",
+      edgeoneCname: "Tencent Cloud EdgeOne（CNAME 接続）",
+      godaddy: "GoDaddy",
+      porkbun: "Porkbun",
+      dynv6: "dynv6",
+      duckdns: "DuckDNS",
+    },
+  },
+  proxyTargetInputField: {
+    hint: "左側でプロトコルを選び、右側に IP アドレスとポートを入力します。ポートを省略すると、フォーカスを外したときにプロトコルのデフォルト値が補完されます。",
+    suggestionsLabel: "転送先アドレスの候補",
+  },
+  configCollapsibleCard: {
+    editConfig: "設定の編集",
+  },
+  streamProtocolMultiSelect: {
+    ariaLabel: "トランスポートプロトコル",
+  },
+};

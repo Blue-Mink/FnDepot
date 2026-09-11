@@ -1,1 +1,166 @@
-aW1wb3J0IHsgcmVmLCB0eXBlIENvbXB1dGVkUmVmLCB0eXBlIFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB0eXBlIHsgUHJveHlNYXBwaW5nIH0gZnJvbSAiQC90eXBlcyI7CmltcG9ydCB7IHVzZUFzeW5jQWN0aW9uIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7IGJ1aWxkUHJveHlNYXBwaW5nIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9wcm94eU1hcHBpbmciOwppbXBvcnQgeyBpc1dlYlNvY2tldFByb3h5VGFyZ2V0VXJsIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9wcm94eVRhcmdldElucHV0IjsKaW1wb3J0IHsgcGVyc2lzdFByb3h5TWFwcGluZ3MgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3BlcnNpc3RQcm94eU1hcHBpbmdzIjsKaW1wb3J0IHsKICBjcmVhdGVSZXZlcnNlUHJveHlNZXNzYWdlcywKICBzaG93UmV2ZXJzZVByb3h5QWN0aW9uRXJyb3IsCn0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9yZXZlcnNlUHJveHlGZWVkYmFjayI7CmltcG9ydCB7IHZhbGlkYXRlU2luZ2xlTWFwcGluZ0R1cGxpY2F0ZXMgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3ZhbGlkYXRlUHJveHlNYXBwaW5nRHVwbGljYXRlcyI7Cgp0eXBlIFJldmVyc2VQcm94eU1lc3NhZ2VzID0gUmV0dXJuVHlwZTx0eXBlb2YgY3JlYXRlUmV2ZXJzZVByb3h5TWVzc2FnZXM+OwoKZXhwb3J0IGNvbnN0IHVzZVJldmVyc2VQcm94eU1hcHBpbmdBY3Rpb25zID0gKHsKICBhbGxNYXBwaW5ncywKICBjbG9zZU1hcHBpbmdEaWFsb2csCiAgY3VycmVudFBhZ2UsCiAgZWRpdGluZ09yaWdpbmFsTWFwcGluZywKICBmb3JtLAogIGlzRGVmYXVsdFJvdXRlLAogIGlzRWRpdGluZywKICBpc1ZhbGlkLAogIG1lc3NhZ2VzLAogIHBhZ2luYXRlZE1hcHBpbmdzLAogIHNhdmVEZWZhdWx0Um91dGUsCiAgc2F2ZVByb3h5TWFwcGluZ3MsCiAgc2VhcmNoUXVlcnksCn06IHsKICBhbGxNYXBwaW5nczogQ29tcHV0ZWRSZWY8UHJveHlNYXBwaW5nW10+OwogIGNsb3NlTWFwcGluZ0RpYWxvZzogKHJlc2V0PzogYm9vbGVhbikgPT4gdm9pZDsKICBjdXJyZW50UGFnZTogUmVmPG51bWJlcj47CiAgZWRpdGluZ09yaWdpbmFsTWFwcGluZzogUmVmPFByb3h5TWFwcGluZyB8IG51bGw+OwogIGZvcm06IFByb3h5TWFwcGluZzsKICBpc0RlZmF1bHRSb3V0ZTogKHBhdGg6IHN0cmluZykgPT4gYm9vbGVhbjsKICBpc0VkaXRpbmc6IFJlZjxib29sZWFuPjsKICBpc1ZhbGlkOiBSZWY8Ym9vbGVhbj47CiAgbWVzc2FnZXM6IFJldmVyc2VQcm94eU1lc3NhZ2VzOwogIHBhZ2luYXRlZE1hcHBpbmdzOiBDb21wdXRlZFJlZjxQcm94eU1hcHBpbmdbXT47CiAgc2F2ZURlZmF1bHRSb3V0ZTogKHBhdGg6IHN0cmluZykgPT4gUHJvbWlzZTx2b2lkPjsKICBzYXZlUHJveHlNYXBwaW5nczogKG1hcHBpbmdzOiBQcm94eU1hcHBpbmdbXSkgPT4gUHJvbWlzZTx2b2lkPjsKICBzZWFyY2hRdWVyeTogUmVmPHN0cmluZz47Cn0pID0+IHsKICBjb25zdCByZW1vdmluZ1BhdGggPSByZWY8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgeyBydW46IHJ1blJlbW92ZU1hcHBpbmcgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICBzaG93UmV2ZXJzZVByb3h5QWN0aW9uRXJyb3IoCiAgICAgICAgbWVzc2FnZXMuZGVsZXRlRmFpbGVkLAogICAgICAgIGVycm9yLAogICAgICAgIG1lc3NhZ2VzLnVua25vd25FcnJvciwKICAgICAgKTsKICAgIH0sCiAgfSk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzU2F2aW5nLCBydW46IHJ1blNhdmVBY3Rpb24gfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICBzaG93UmV2ZXJzZVByb3h5QWN0aW9uRXJyb3IoCiAgICAgICAgbWVzc2FnZXMuc2F2ZUZhaWxlZCwKICAgICAgICBlcnJvciwKICAgICAgICBtZXNzYWdlcy51bmtub3duRXJyb3IsCiAgICAgICk7CiAgICB9LAogIH0pOwoKICBjb25zdCByZW1vdmVNYXBwaW5nID0gYXN5bmMgKG1hcHBpbmc6IFByb3h5TWFwcGluZykgPT4gewogICAgcmVtb3ZpbmdQYXRoLnZhbHVlID0gbWFwcGluZy5wYXRoOwogICAgYXdhaXQgcnVuUmVtb3ZlTWFwcGluZygKICAgICAgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IG5leHRNYXBwaW5ncyA9IGFsbE1hcHBpbmdzLnZhbHVlLmZpbHRlcigKICAgICAgICAgIChpdGVtKSA9PiBpdGVtICE9PSBtYXBwaW5nLAogICAgICAgICk7CiAgICAgICAgYXdhaXQgc2F2ZVByb3h5TWFwcGluZ3MobmV4dE1hcHBpbmdzKTsKCiAgICAgICAgaWYgKGlzRGVmYXVsdFJvdXRlKG1hcHBpbmcucGF0aCkpIHsKICAgICAgICAgIGF3YWl0IHNhdmVEZWZhdWx0Um91dGUoIi9fX3NlbGVjdF9fIik7CiAgICAgICAgfQoKICAgICAgICBpZiAocGFnaW5hdGVkTWFwcGluZ3MudmFsdWUubGVuZ3RoID09PSAxICYmIGN1cnJlbnRQYWdlLnZhbHVlID4gMSkgewogICAgICAgICAgY3VycmVudFBhZ2UudmFsdWUtLTsKICAgICAgICB9CgogICAgICAgIHRvYXN0LnN1Y2Nlc3MobWVzc2FnZXMuZGVsZXRlU3VjY2Vzcyk7CiAgICAgIH0sCiAgICAgIHsKICAgICAgICBvbkZpbmFsbHk6ICgpID0+IHsKICAgICAgICAgIHJlbW92aW5nUGF0aC52YWx1ZSA9IG51bGw7CiAgICAgICAgfSwKICAgICAgfSwKICAgICk7CiAgfTsKCiAgY29uc3Qgc2F2ZU1hcHBpbmcgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoIWlzVmFsaWQudmFsdWUpIHJldHVybjsKICAgIGNvbnN0IGlzV2ViU29ja2V0VGFyZ2V0ID0gaXNXZWJTb2NrZXRQcm94eVRhcmdldFVybChmb3JtLnRhcmdldCk7CiAgICBjb25zdCBub3JtYWxpemVkTWFwcGluZyA9IGJ1aWxkUHJveHlNYXBwaW5nKHsKICAgICAgLi4uZm9ybSwKICAgICAgcmV3cml0ZV9odG1sOiBpc1dlYlNvY2tldFRhcmdldCA/IGZhbHNlIDogZm9ybS5yZXdyaXRlX2h0bWwsCiAgICAgIHVzZV9yb290X21vZGU6IGlzV2ViU29ja2V0VGFyZ2V0ID8gZmFsc2UgOiBmb3JtLnVzZV9yb290X21vZGUsCiAgICB9KTsKICAgIGNvbnN0IHsgcGF0aDogdHJpbW1lZFBhdGgsIHRhcmdldDogdHJpbW1lZFRhcmdldCB9ID0gbm9ybWFsaXplZE1hcHBpbmc7CiAgICBjb25zdCBpZ25vcmVQYXRoID0gaXNFZGl0aW5nLnZhbHVlCiAgICAgID8gKGVkaXRpbmdPcmlnaW5hbE1hcHBpbmcudmFsdWU/LnBhdGgudHJpbSgpID8/IG51bGwpCiAgICAgIDogbnVsbDsKICAgIGNvbnN0IGlnbm9yZVRhcmdldCA9IGlzRWRpdGluZy52YWx1ZQogICAgICA/IChlZGl0aW5nT3JpZ2luYWxNYXBwaW5nLnZhbHVlPy50YXJnZXQudHJpbSgpID8/IG51bGwpCiAgICAgIDogbnVsbDsKICAgIGNvbnN0IHsgZHVwbGljYXRlUGF0aCwgZHVwbGljYXRlVGFyZ2V0IH0gPSB2YWxpZGF0ZVNpbmdsZU1hcHBpbmdEdXBsaWNhdGVzKAogICAgICBhbGxNYXBwaW5ncy52YWx1ZSwKICAgICAgeyBwYXRoOiB0cmltbWVkUGF0aCwgdGFyZ2V0OiB0cmltbWVkVGFyZ2V0IH0sCiAgICAgIHsgaWdub3JlUGF0aCwgaWdub3JlVGFyZ2V0IH0sCiAgICApOwoKICAgIGlmIChkdXBsaWNhdGVQYXRoKSB7CiAgICAgIHRvYXN0LmVycm9yKG1lc3NhZ2VzLmR1cGxpY2F0ZVBhdGgodHJpbW1lZFBhdGgpKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKGR1cGxpY2F0ZVRhcmdldCkgewogICAgICB0b2FzdC5lcnJvcihtZXNzYWdlcy5kdXBsaWNhdGVUYXJnZXQodHJpbW1lZFRhcmdldCkpOwogICAgICByZXR1cm47CiAgICB9CgogICAgY29uc3QgaXNDcmVhdGUgPSAhaXNFZGl0aW5nLnZhbHVlOwogICAgYXdhaXQgcnVuU2F2ZUFjdGlvbihhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IG5leHRNYXBwaW5ncyA9IFsuLi5hbGxNYXBwaW5ncy52YWx1ZV07CiAgICAgIGlmIChpc0VkaXRpbmcudmFsdWUgJiYgZWRpdGluZ09yaWdpbmFsTWFwcGluZy52YWx1ZSkgewogICAgICAgIGNvbnN0IGluZGV4ID0gbmV4dE1hcHBpbmdzLmluZGV4T2YoZWRpdGluZ09yaWdpbmFsTWFwcGluZy52YWx1ZSk7CiAgICAgICAgaWYgKGluZGV4ICE9PSAtMSkgewogICAgICAgICAgbmV4dE1hcHBpbmdzW2luZGV4XSA9IG5vcm1hbGl6ZWRNYXBwaW5nOwogICAgICAgIH0KICAgICAgfSBlbHNlIHsKICAgICAgICBuZXh0TWFwcGluZ3MucHVzaChub3JtYWxpemVkTWFwcGluZyk7CiAgICAgIH0KCiAgICAgIGF3YWl0IHBlcnNpc3RQcm94eU1hcHBpbmdzKAogICAgICAgIG5leHRNYXBwaW5ncywKICAgICAgICB7CiAgICAgICAgICBzYXZlTWFwcGluZ3M6IHNhdmVQcm94eU1hcHBpbmdzLAogICAgICAgICAgc2F2ZURlZmF1bHRSb3V0ZSwKICAgICAgICAgIHJlc2V0UGFnZTogKCkgPT4gewogICAgICAgICAgICBjdXJyZW50UGFnZS52YWx1ZSA9IDE7CiAgICAgICAgICB9LAogICAgICAgICAgcmVzZXRTZWFyY2g6ICgpID0+IHsKICAgICAgICAgICAgc2VhcmNoUXVlcnkudmFsdWUgPSAiIjsKICAgICAgICAgIH0sCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICByZXNldFBhZ2U6IGlzQ3JlYXRlLAogICAgICAgICAgcmVzZXRTZWFyY2g6IGlzQ3JlYXRlLAogICAgICAgICAgb25BZnRlclBlcnNpc3Q6ICgpID0+IHsKICAgICAgICAgICAgY2xvc2VNYXBwaW5nRGlhbG9nKHRydWUpOwogICAgICAgICAgfSwKICAgICAgICB9LAogICAgICApOwoKICAgICAgdG9hc3Quc3VjY2Vzcyhpc0NyZWF0ZSA/IG1lc3NhZ2VzLmNyZWF0ZVN1Y2Nlc3MgOiBtZXNzYWdlcy51cGRhdGVTdWNjZXNzKTsKICAgIH0pOwogIH07CgogIHJldHVybiB7CiAgICBpc1NhdmluZywKICAgIHJlbW92ZU1hcHBpbmcsCiAgICByZW1vdmluZ1BhdGgsCiAgICBydW5TYXZlQWN0aW9uLAogICAgc2F2ZU1hcHBpbmcsCiAgfTsKfTsK
+import { ref, type ComputedRef, type Ref } from "vue";
+import type { ProxyMapping } from "@/types";
+import { useAsyncAction } from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import { buildProxyMapping } from "@admin-shared/utils/proxyMapping";
+import { isWebSocketProxyTargetUrl } from "@admin-shared/utils/proxyTargetInput";
+import { persistProxyMappings } from "@admin-shared/utils/persistProxyMappings";
+import {
+  createReverseProxyMessages,
+  showReverseProxyActionError,
+} from "@admin-shared/utils/reverseProxyFeedback";
+import { validateSingleMappingDuplicates } from "@admin-shared/utils/validateProxyMappingDuplicates";
+
+type ReverseProxyMessages = ReturnType<typeof createReverseProxyMessages>;
+
+export const useReverseProxyMappingActions = ({
+  allMappings,
+  closeMappingDialog,
+  currentPage,
+  editingOriginalMapping,
+  form,
+  isDefaultRoute,
+  isEditing,
+  isValid,
+  messages,
+  paginatedMappings,
+  saveDefaultRoute,
+  saveProxyMappings,
+  searchQuery,
+}: {
+  allMappings: ComputedRef<ProxyMapping[]>;
+  closeMappingDialog: (reset?: boolean) => void;
+  currentPage: Ref<number>;
+  editingOriginalMapping: Ref<ProxyMapping | null>;
+  form: ProxyMapping;
+  isDefaultRoute: (path: string) => boolean;
+  isEditing: Ref<boolean>;
+  isValid: Ref<boolean>;
+  messages: ReverseProxyMessages;
+  paginatedMappings: ComputedRef<ProxyMapping[]>;
+  saveDefaultRoute: (path: string) => Promise<void>;
+  saveProxyMappings: (mappings: ProxyMapping[]) => Promise<void>;
+  searchQuery: Ref<string>;
+}) => {
+  const removingPath = ref<string | null>(null);
+  const { run: runRemoveMapping } = useAsyncAction({
+    onError: (error) => {
+      showReverseProxyActionError(
+        messages.deleteFailed,
+        error,
+        messages.unknownError,
+      );
+    },
+  });
+  const { isPending: isSaving, run: runSaveAction } = useAsyncAction({
+    onError: (error) => {
+      showReverseProxyActionError(
+        messages.saveFailed,
+        error,
+        messages.unknownError,
+      );
+    },
+  });
+
+  const removeMapping = async (mapping: ProxyMapping) => {
+    removingPath.value = mapping.path;
+    await runRemoveMapping(
+      async () => {
+        const nextMappings = allMappings.value.filter(
+          (item) => item !== mapping,
+        );
+        await saveProxyMappings(nextMappings);
+
+        if (isDefaultRoute(mapping.path)) {
+          await saveDefaultRoute("/__select__");
+        }
+
+        if (paginatedMappings.value.length === 1 && currentPage.value > 1) {
+          currentPage.value--;
+        }
+
+        toast.success(messages.deleteSuccess);
+      },
+      {
+        onFinally: () => {
+          removingPath.value = null;
+        },
+      },
+    );
+  };
+
+  const saveMapping = async () => {
+    if (!isValid.value) return;
+    const isWebSocketTarget = isWebSocketProxyTargetUrl(form.target);
+    const normalizedMapping = buildProxyMapping({
+      ...form,
+      rewrite_html: isWebSocketTarget ? false : form.rewrite_html,
+      use_root_mode: isWebSocketTarget ? false : form.use_root_mode,
+    });
+    const { path: trimmedPath, target: trimmedTarget } = normalizedMapping;
+    const ignorePath = isEditing.value
+      ? (editingOriginalMapping.value?.path.trim() ?? null)
+      : null;
+    const ignoreTarget = isEditing.value
+      ? (editingOriginalMapping.value?.target.trim() ?? null)
+      : null;
+    const { duplicatePath, duplicateTarget } = validateSingleMappingDuplicates(
+      allMappings.value,
+      { path: trimmedPath, target: trimmedTarget },
+      { ignorePath, ignoreTarget },
+    );
+
+    if (duplicatePath) {
+      toast.error(messages.duplicatePath(trimmedPath));
+      return;
+    }
+    if (duplicateTarget) {
+      toast.error(messages.duplicateTarget(trimmedTarget));
+      return;
+    }
+
+    const isCreate = !isEditing.value;
+    await runSaveAction(async () => {
+      const nextMappings = [...allMappings.value];
+      if (isEditing.value && editingOriginalMapping.value) {
+        const index = nextMappings.indexOf(editingOriginalMapping.value);
+        if (index !== -1) {
+          nextMappings[index] = normalizedMapping;
+        }
+      } else {
+        nextMappings.push(normalizedMapping);
+      }
+
+      await persistProxyMappings(
+        nextMappings,
+        {
+          saveMappings: saveProxyMappings,
+          saveDefaultRoute,
+          resetPage: () => {
+            currentPage.value = 1;
+          },
+          resetSearch: () => {
+            searchQuery.value = "";
+          },
+        },
+        {
+          resetPage: isCreate,
+          resetSearch: isCreate,
+          onAfterPersist: () => {
+            closeMappingDialog(true);
+          },
+        },
+      );
+
+      toast.success(isCreate ? messages.createSuccess : messages.updateSuccess);
+    });
+  };
+
+  return {
+    isSaving,
+    removeMapping,
+    removingPath,
+    runSaveAction,
+    saveMapping,
+  };
+};

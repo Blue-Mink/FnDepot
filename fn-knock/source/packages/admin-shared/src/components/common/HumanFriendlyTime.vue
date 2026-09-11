@@ -1,1 +1,161 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvblVubW91bnRlZCwgcmVmLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7CiAgVG9vbHRpcCwKICBUb29sdGlwQ29udGVudCwKICBUb29sdGlwUHJvdmlkZXIsCiAgVG9vbHRpcFRyaWdnZXIsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3Rvb2x0aXAiOwppbXBvcnQgeyBmb3JtYXREYXRlVGltZVNhZmUgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL2Zvcm1hdERhdGVUaW1lU2FmZSI7CmltcG9ydCB7CiAgZm9ybWF0SHVtYW5GcmllbmRseVRpbWUsCiAgcmVzb2x2ZURhdGVWYWx1ZSwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL2Zvcm1hdEh1bWFuRnJpZW5kbHlUaW1lIjsKaW1wb3J0IHsgdXNlTWVkaWFRdWVyeU1hdGNoIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VNZWRpYVF1ZXJ5TWF0Y2giOwppbXBvcnQgeyB1c2VEYXRlVGltZURpc3BsYXlTdGF0ZSB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlRGF0ZVRpbWVEaXNwbGF5U3RhdGUiOwoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoCiAgZGVmaW5lUHJvcHM8ewogICAgdmFsdWU6IHN0cmluZyB8IG51bWJlciB8IERhdGUgfCBudWxsIHwgdW5kZWZpbmVkOwogICAgbG9jYWxlPzogc3RyaW5nOwogICAgZW1wdHlUZXh0Pzogc3RyaW5nOwogICAga2VlcEludmFsaWRSYXdUZXh0PzogYm9vbGVhbjsKICAgIGFic29sdXRlRm9ybWF0T3B0aW9ucz86IEludGwuRGF0ZVRpbWVGb3JtYXRPcHRpb25zOwogICAgcmVmcmVzaEludGVydmFsTXM/OiBudW1iZXI7CiAgICB0b29sdGlwTGluZXM/OiBzdHJpbmdbXTsKICB9PigpLAogIHsKICAgIGVtcHR5VGV4dDogIi0iLAogICAga2VlcEludmFsaWRSYXdUZXh0OiB0cnVlLAogICAgcmVmcmVzaEludGVydmFsTXM6IDYwXzAwMCwKICB9LAopOwoKY29uc3QgeyBsb2NhbGU6IGdsb2JhbExvY2FsZSB9ID0gdXNlSTE4bih7IHVzZVNjb3BlOiAiZ2xvYmFsIiB9KTsKY29uc3QgeyBkYXRlVGltZURpc3BsYXlNb2RlIH0gPSB1c2VEYXRlVGltZURpc3BsYXlTdGF0ZSgpOwpjb25zdCBub3cgPSByZWYoRGF0ZS5ub3coKSk7CmNvbnN0IG9wZW4gPSByZWYoZmFsc2UpOwpjb25zdCBpc1RvdWNoSW50ZXJhY3Rpb24gPSB1c2VNZWRpYVF1ZXJ5TWF0Y2goCiAgIihob3Zlcjogbm9uZSksIChwb2ludGVyOiBjb2Fyc2UpIiwKKTsKbGV0IHRpbWVyOiBudW1iZXIgfCBudWxsID0gbnVsbDsKCmNvbnN0IHN0b3BUaW1lciA9ICgpID0+IHsKICBpZiAodGltZXIgIT09IG51bGwpIHsKICAgIHdpbmRvdy5jbGVhckludGVydmFsKHRpbWVyKTsKICAgIHRpbWVyID0gbnVsbDsKICB9Cn07Cgpjb25zdCBzdGFydFRpbWVyID0gKCkgPT4gewogIHN0b3BUaW1lcigpOwogIHRpbWVyID0gd2luZG93LnNldEludGVydmFsKCgpID0+IHsKICAgIG5vdy52YWx1ZSA9IERhdGUubm93KCk7CiAgfSwgcHJvcHMucmVmcmVzaEludGVydmFsTXMpOwp9OwoKY29uc3QgcmVzb2x2ZWREYXRlID0gY29tcHV0ZWQoKCkgPT4gcmVzb2x2ZURhdGVWYWx1ZShwcm9wcy52YWx1ZSkpOwpjb25zdCBlZmZlY3RpdmVMb2NhbGUgPSBjb21wdXRlZCgoKSA9PgogIFN0cmluZyhwcm9wcy5sb2NhbGUgfHwgZ2xvYmFsTG9jYWxlLnZhbHVlIHx8ICJ6aC1DTiIpLAopOwpjb25zdCBmdWxsVGV4dCA9IGNvbXB1dGVkKCgpID0+CiAgZm9ybWF0RGF0ZVRpbWVTYWZlKHByb3BzLnZhbHVlLCB7CiAgICBsb2NhbGU6IGVmZmVjdGl2ZUxvY2FsZS52YWx1ZSwKICAgIGVtcHR5VGV4dDogcHJvcHMuZW1wdHlUZXh0LAogICAga2VlcEludmFsaWRSYXdUZXh0OiBwcm9wcy5rZWVwSW52YWxpZFJhd1RleHQsCiAgICBmb3JtYXRPcHRpb25zOiBwcm9wcy5hYnNvbHV0ZUZvcm1hdE9wdGlvbnMsCiAgfSksCik7CmNvbnN0IGh1bWFuRnJpZW5kbHlUZXh0ID0gY29tcHV0ZWQoKCkgPT4KICBmb3JtYXRIdW1hbkZyaWVuZGx5VGltZShwcm9wcy52YWx1ZSwgewogICAgbG9jYWxlOiBlZmZlY3RpdmVMb2NhbGUudmFsdWUsCiAgICBlbXB0eVRleHQ6IHByb3BzLmVtcHR5VGV4dCwKICAgIGtlZXBJbnZhbGlkUmF3VGV4dDogcHJvcHMua2VlcEludmFsaWRSYXdUZXh0LAogICAgbm93OiBub3cudmFsdWUsCiAgfSksCik7CmNvbnN0IGRpc3BsYXlUZXh0ID0gY29tcHV0ZWQoKCkgPT4KICBkYXRlVGltZURpc3BsYXlNb2RlLnZhbHVlID09PSAiZnVsbCIKICAgID8gZnVsbFRleHQudmFsdWUKICAgIDogaHVtYW5GcmllbmRseVRleHQudmFsdWUsCik7CmNvbnN0IGN1c3RvbVRvb2x0aXBMaW5lcyA9IGNvbXB1dGVkKCgpID0+CiAgKHByb3BzLnRvb2x0aXBMaW5lcyB8fCBbXSkubWFwKChsaW5lKSA9PiBsaW5lPy50cmltKCkpLmZpbHRlcihCb29sZWFuKSwKKTsKY29uc3QgdG9vbHRpcENvbnRlbnRMaW5lcyA9IGNvbXB1dGVkKCgpID0+CiAgY3VzdG9tVG9vbHRpcExpbmVzLnZhbHVlLmxlbmd0aCA+IDAKICAgID8gY3VzdG9tVG9vbHRpcExpbmVzLnZhbHVlCiAgICA6IFsKICAgICAgICBkYXRlVGltZURpc3BsYXlNb2RlLnZhbHVlID09PSAiZnVsbCIKICAgICAgICAgID8gaHVtYW5GcmllbmRseVRleHQudmFsdWUKICAgICAgICAgIDogZnVsbFRleHQudmFsdWUsCiAgICAgIF0sCik7CmNvbnN0IHNob3dUb29sdGlwID0gY29tcHV0ZWQoCiAgKCkgPT4KICAgIGN1c3RvbVRvb2x0aXBMaW5lcy52YWx1ZS5sZW5ndGggPiAwIHx8CiAgICAoQm9vbGVhbihyZXNvbHZlZERhdGUudmFsdWUpICYmCiAgICAgIGZ1bGxUZXh0LnZhbHVlICE9PSBodW1hbkZyaWVuZGx5VGV4dC52YWx1ZSksCik7Cgpjb25zdCBoYW5kbGVPcGVuQ2hhbmdlID0gKG5leHRPcGVuOiBib29sZWFuKSA9PiB7CiAgb3Blbi52YWx1ZSA9IG5leHRPcGVuOwp9OwoKY29uc3QgaGFuZGxlVHJpZ2dlckNsaWNrID0gKCkgPT4gewogIGlmICghc2hvd1Rvb2x0aXAudmFsdWUgfHwgIWlzVG91Y2hJbnRlcmFjdGlvbi52YWx1ZSkgewogICAgcmV0dXJuOwogIH0KCiAgb3Blbi52YWx1ZSA9ICFvcGVuLnZhbHVlOwp9OwoKd2F0Y2goCiAgWwogICAgcmVzb2x2ZWREYXRlLAogICAgKCkgPT4gcHJvcHMucmVmcmVzaEludGVydmFsTXMsCiAgICBkYXRlVGltZURpc3BsYXlNb2RlLAogICAgKCkgPT4gY3VzdG9tVG9vbHRpcExpbmVzLnZhbHVlLmxlbmd0aCwKICBdLAogIChbZGF0ZSwgLCBkaXNwbGF5TW9kZSwgY3VzdG9tVG9vbHRpcExpbmVDb3VudF0pID0+IHsKICAgIG5vdy52YWx1ZSA9IERhdGUubm93KCk7CiAgICBpZiAoIWRhdGUgfHwgKGRpc3BsYXlNb2RlID09PSAiZnVsbCIgJiYgY3VzdG9tVG9vbHRpcExpbmVDb3VudCA+IDApKSB7CiAgICAgIHN0b3BUaW1lcigpOwogICAgICByZXR1cm47CiAgICB9CiAgICBzdGFydFRpbWVyKCk7CiAgfSwKICB7IGltbWVkaWF0ZTogdHJ1ZSB9LAopOwoKd2F0Y2goc2hvd1Rvb2x0aXAsICh2aXNpYmxlKSA9PiB7CiAgaWYgKCF2aXNpYmxlKSB7CiAgICBvcGVuLnZhbHVlID0gZmFsc2U7CiAgfQp9KTsKCm9uVW5tb3VudGVkKCgpID0+IHsKICBzdG9wVGltZXIoKTsKfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxzcGFuIHYtaWY9IiFzaG93VG9vbHRpcCI+e3sgZGlzcGxheVRleHQgfX08L3NwYW4+CiAgPFRvb2x0aXBQcm92aWRlciB2LWVsc2U+CiAgICA8VG9vbHRpcCA6b3Blbj0ib3BlbiIgQHVwZGF0ZTpvcGVuPSJoYW5kbGVPcGVuQ2hhbmdlIj4KICAgICAgPFRvb2x0aXBUcmlnZ2VyIGFzLWNoaWxkPgogICAgICAgIDxidXR0b24KICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIGNsYXNzPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgYWxpZ24tbWlkZGxlIGN1cnNvci1oZWxwIHJvdW5kZWQtc20gYm9yZGVyLTAgYmctdHJhbnNwYXJlbnQgcC0wIGZvbnQtaW5oZXJpdCB0ZXh0LWluaGVyaXQgW2xpbmUtaGVpZ2h0OmluaGVyaXRdIGZvY3VzLXZpc2libGU6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0yIGZvY3VzLXZpc2libGU6cmluZy1yaW5nIGZvY3VzLXZpc2libGU6cmluZy1vZmZzZXQtMiIKICAgICAgICAgIEBjbGljaz0iaGFuZGxlVHJpZ2dlckNsaWNrIgogICAgICAgID4KICAgICAgICAgIHt7IGRpc3BsYXlUZXh0IH19CiAgICAgICAgPC9idXR0b24+CiAgICAgIDwvVG9vbHRpcFRyaWdnZXI+CiAgICAgIDxUb29sdGlwQ29udGVudD4KICAgICAgICA8cCB2LWZvcj0ibGluZSBpbiB0b29sdGlwQ29udGVudExpbmVzIiA6a2V5PSJsaW5lIj57eyBsaW5lIH19PC9wPgogICAgICA8L1Rvb2x0aXBDb250ZW50PgogICAgPC9Ub29sdGlwPgogIDwvVG9vbHRpcFByb3ZpZGVyPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, onUnmounted, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import { formatDateTimeSafe } from "@admin-shared/utils/formatDateTimeSafe";
+import {
+  formatHumanFriendlyTime,
+  resolveDateValue,
+} from "@admin-shared/utils/formatHumanFriendlyTime";
+import { useMediaQueryMatch } from "@admin-shared/composables/useMediaQueryMatch";
+import { useDateTimeDisplayState } from "@admin-shared/composables/useDateTimeDisplayState";
+
+const props = withDefaults(
+  defineProps<{
+    value: string | number | Date | null | undefined;
+    locale?: string;
+    emptyText?: string;
+    keepInvalidRawText?: boolean;
+    absoluteFormatOptions?: Intl.DateTimeFormatOptions;
+    refreshIntervalMs?: number;
+    tooltipLines?: string[];
+  }>(),
+  {
+    emptyText: "-",
+    keepInvalidRawText: true,
+    refreshIntervalMs: 60_000,
+  },
+);
+
+const { locale: globalLocale } = useI18n({ useScope: "global" });
+const { dateTimeDisplayMode } = useDateTimeDisplayState();
+const now = ref(Date.now());
+const open = ref(false);
+const isTouchInteraction = useMediaQueryMatch(
+  "(hover: none), (pointer: coarse)",
+);
+let timer: number | null = null;
+
+const stopTimer = () => {
+  if (timer !== null) {
+    window.clearInterval(timer);
+    timer = null;
+  }
+};
+
+const startTimer = () => {
+  stopTimer();
+  timer = window.setInterval(() => {
+    now.value = Date.now();
+  }, props.refreshIntervalMs);
+};
+
+const resolvedDate = computed(() => resolveDateValue(props.value));
+const effectiveLocale = computed(() =>
+  String(props.locale || globalLocale.value || "zh-CN"),
+);
+const fullText = computed(() =>
+  formatDateTimeSafe(props.value, {
+    locale: effectiveLocale.value,
+    emptyText: props.emptyText,
+    keepInvalidRawText: props.keepInvalidRawText,
+    formatOptions: props.absoluteFormatOptions,
+  }),
+);
+const humanFriendlyText = computed(() =>
+  formatHumanFriendlyTime(props.value, {
+    locale: effectiveLocale.value,
+    emptyText: props.emptyText,
+    keepInvalidRawText: props.keepInvalidRawText,
+    now: now.value,
+  }),
+);
+const displayText = computed(() =>
+  dateTimeDisplayMode.value === "full"
+    ? fullText.value
+    : humanFriendlyText.value,
+);
+const customTooltipLines = computed(() =>
+  (props.tooltipLines || []).map((line) => line?.trim()).filter(Boolean),
+);
+const tooltipContentLines = computed(() =>
+  customTooltipLines.value.length > 0
+    ? customTooltipLines.value
+    : [
+        dateTimeDisplayMode.value === "full"
+          ? humanFriendlyText.value
+          : fullText.value,
+      ],
+);
+const showTooltip = computed(
+  () =>
+    customTooltipLines.value.length > 0 ||
+    (Boolean(resolvedDate.value) &&
+      fullText.value !== humanFriendlyText.value),
+);
+
+const handleOpenChange = (nextOpen: boolean) => {
+  open.value = nextOpen;
+};
+
+const handleTriggerClick = () => {
+  if (!showTooltip.value || !isTouchInteraction.value) {
+    return;
+  }
+
+  open.value = !open.value;
+};
+
+watch(
+  [
+    resolvedDate,
+    () => props.refreshIntervalMs,
+    dateTimeDisplayMode,
+    () => customTooltipLines.value.length,
+  ],
+  ([date, , displayMode, customTooltipLineCount]) => {
+    now.value = Date.now();
+    if (!date || (displayMode === "full" && customTooltipLineCount > 0)) {
+      stopTimer();
+      return;
+    }
+    startTimer();
+  },
+  { immediate: true },
+);
+
+watch(showTooltip, (visible) => {
+  if (!visible) {
+    open.value = false;
+  }
+});
+
+onUnmounted(() => {
+  stopTimer();
+});
+</script>
+
+<template>
+  <span v-if="!showTooltip">{{ displayText }}</span>
+  <TooltipProvider v-else>
+    <Tooltip :open="open" @update:open="handleOpenChange">
+      <TooltipTrigger as-child>
+        <button
+          type="button"
+          class="inline-flex items-center justify-center align-middle cursor-help rounded-sm border-0 bg-transparent p-0 font-inherit text-inherit [line-height:inherit] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+          @click="handleTriggerClick"
+        >
+          {{ displayText }}
+        </button>
+      </TooltipTrigger>
+      <TooltipContent>
+        <p v-for="line in tooltipContentLines" :key="line">{{ line }}</p>
+      </TooltipContent>
+    </Tooltip>
+  </TooltipProvider>
+</template>

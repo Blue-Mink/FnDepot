@@ -1,1 +1,15 @@
-aW1wb3J0IHsgcmVhZEZpbGUsIHdyaXRlRmlsZSB9IGZyb20gIm5vZGU6ZnMvcHJvbWlzZXMiOwppbXBvcnQgcGF0aCBmcm9tICJub2RlOnBhdGgiOwoKY29uc3Qgcm9vdCA9IHBhdGgucmVzb2x2ZShwcm9jZXNzLmVudi5GTl9LTk9DS19ST09UX0RJUik7CmlmIChwcm9jZXNzLmFyZ3ZbMl0gIT09ICJnZW5lcmF0ZSIpIHsKICB0aHJvdyBuZXcgRXJyb3IoImV4cGVjdGVkIGdlbmVyYXRlIG1vZGUiKTsKfQpjb25zdCB2ZXJzaW9uID0gSlNPTi5wYXJzZSgKICBhd2FpdCByZWFkRmlsZShwYXRoLmpvaW4ocm9vdCwgInZlcnNpb24uanNvbiIpLCAidXRmOCIpLAopLnZlcnNpb247CmF3YWl0IHdyaXRlRmlsZSgKICBwYXRoLmpvaW4ocm9vdCwgInBhY2thZ2VzL2FwaS1jb250cmFjdC9vcGVuYXBpLmpzb24iKSwKICBgJHtKU09OLnN0cmluZ2lmeSh7IGluZm86IHsgdmVyc2lvbiB9IH0sIG51bGwsIDIpfVxuYCwKICAidXRmOCIsCik7Cg==
+import { readFile, writeFile } from "node:fs/promises";
+import path from "node:path";
+
+const root = path.resolve(process.env.FN_KNOCK_ROOT_DIR);
+if (process.argv[2] !== "generate") {
+  throw new Error("expected generate mode");
+}
+const version = JSON.parse(
+  await readFile(path.join(root, "version.json"), "utf8"),
+).version;
+await writeFile(
+  path.join(root, "packages/api-contract/openapi.json"),
+  `${JSON.stringify({ info: { version } }, null, 2)}\n`,
+  "utf8",
+);

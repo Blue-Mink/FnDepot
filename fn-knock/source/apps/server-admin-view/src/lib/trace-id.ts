@@ -1,1 +1,7 @@
-ZXhwb3J0IGNvbnN0IFRSQUNFX0lEX1BBVFRFUk4gPQogIC9eKD86dHJjfHdhZilfWzAtOWEtZl17OH0tWzAtOWEtZl17NH0tNFswLTlhLWZdezN9LVs4OWFiXVswLTlhLWZdezN9LVswLTlhLWZdezEyfSQvOwoKZXhwb3J0IGNvbnN0IG5vcm1hbGl6ZVRyYWNlSWQgPSAodmFsdWU6IHVua25vd24pID0+IFN0cmluZyh2YWx1ZSA/PyAiIikudHJpbSgpOwoKZXhwb3J0IGNvbnN0IGlzVHJhY2VJZCA9ICh2YWx1ZTogdW5rbm93bikgPT4KICBUUkFDRV9JRF9QQVRURVJOLnRlc3Qobm9ybWFsaXplVHJhY2VJZCh2YWx1ZSkpOwo=
+export const TRACE_ID_PATTERN =
+  /^(?:trc|waf)_[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/;
+
+export const normalizeTraceId = (value: unknown) => String(value ?? "").trim();
+
+export const isTraceId = (value: unknown) =>
+  TRACE_ID_PATTERN.test(normalizeTraceId(value));

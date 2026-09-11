@@ -1,1 +1,19 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCmltcG9ydCB7IFNlcGFyYXRvciB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9zZXBhcmF0b3InCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFNlcGFyYXRvcgogICAgZGF0YS1zbG90PSJzaWRlYmFyLXNlcGFyYXRvciIKICAgIGRhdGEtc2lkZWJhcj0ic2VwYXJhdG9yIgogICAgOmNsYXNzPSJjbignYmctc2lkZWJhci1ib3JkZXIgbXgtMiB3LWF1dG8nLCBwcm9wcy5jbGFzcykiCiAgPgogICAgPHNsb3QgLz4KICA8L1NlcGFyYXRvcj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+import { Separator } from '@/components/ui/separator'
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <Separator
+    data-slot="sidebar-separator"
+    data-sidebar="separator"
+    :class="cn('bg-sidebar-border mx-2 w-auto', props.class)"
+  >
+    <slot />
+  </Separator>
+</template>

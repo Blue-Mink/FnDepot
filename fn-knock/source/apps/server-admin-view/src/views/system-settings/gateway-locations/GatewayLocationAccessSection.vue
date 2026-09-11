@@ -1,1 +1,55 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsKICBTZWxlY3QsCiAgU2VsZWN0Q29udGVudCwKICBTZWxlY3RJdGVtLAogIFNlbGVjdFRyaWdnZXIsCiAgU2VsZWN0VmFsdWUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NlbGVjdCI7CmltcG9ydCB0eXBlIHsgR2F0ZXdheUxvY2F0aW9uRm9ybSB9IGZyb20gIi4vZ2F0ZXdheUxvY2F0aW9uTW9kZWwiOwoKZGVmaW5lUHJvcHM8eyBmb3JtOiBHYXRld2F5TG9jYXRpb25Gb3JtIH0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJweS01Ij4KICAgIDxkaXYKICAgICAgY2xhc3M9ImdyaWQgZ2FwLTMgc206Z3JpZC1jb2xzLVsxOHJlbV9taW5tYXgoMCwxZnIpXSBzbTppdGVtcy1zdGFydCBzbTpnYXAtNCIKICAgID4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICA8TGFiZWwgZm9yPSJsb2NhdGlvbi1hdXRoLW1vZGUiPgogICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLmF1dGhCZWhhdmlvciIpIH19CiAgICAgICAgPC9MYWJlbD4KICAgICAgICA8U2VsZWN0IHYtbW9kZWw9ImZvcm0uYXV0aF9tb2RlIj4KICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyIGlkPSJsb2NhdGlvbi1hdXRoLW1vZGUiIGNsYXNzPSJ3LWZ1bGwiPgogICAgICAgICAgICA8U2VsZWN0VmFsdWUgLz4KICAgICAgICAgIDwvU2VsZWN0VHJpZ2dlcj4KICAgICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0iaW5oZXJpdCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLmF1dGhJbmhlcml0IikgfX0KICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0icmVxdWlyZV9sb2dpbiI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLmF1dGhSZXF1aXJlTG9naW4iKSB9fQogICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJwdWJsaWMiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5hdXRoUHVibGljIikgfX0KICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICAgIDwvU2VsZWN0PgogICAgICA8L2Rpdj4KCiAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LW11dGVkLWZvcmVncm91bmQgc206bXQtNyI+CiAgICAgICAge3sKICAgICAgICAgIGZvcm0uYXV0aF9tb2RlID09PSAicHVibGljIgogICAgICAgICAgICA/IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5hdXRoUHVibGljRGVzY3JpcHRpb24iKQogICAgICAgICAgICA6IGZvcm0uYXV0aF9tb2RlID09PSAicmVxdWlyZV9sb2dpbiIKICAgICAgICAgICAgICA/IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5hdXRoUmVxdWlyZUxvZ2luRGVzY3JpcHRpb24iKQogICAgICAgICAgICAgIDogdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLmF1dGhJbmhlcml0RGVzY3JpcHRpb24iKQogICAgICAgIH19CiAgICAgIDwvcD4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import type { GatewayLocationForm } from "./gatewayLocationModel";
+
+defineProps<{ form: GatewayLocationForm }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div class="py-5">
+    <div
+      class="grid gap-3 sm:grid-cols-[18rem_minmax(0,1fr)] sm:items-start sm:gap-4"
+    >
+      <div class="space-y-2">
+        <Label for="location-auth-mode">
+          {{ t("admin.gatewayLocationsSettings.authBehavior") }}
+        </Label>
+        <Select v-model="form.auth_mode">
+          <SelectTrigger id="location-auth-mode" class="w-full">
+            <SelectValue />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="inherit">
+              {{ t("admin.gatewayLocationsSettings.authInherit") }}
+            </SelectItem>
+            <SelectItem value="require_login">
+              {{ t("admin.gatewayLocationsSettings.authRequireLogin") }}
+            </SelectItem>
+            <SelectItem value="public">
+              {{ t("admin.gatewayLocationsSettings.authPublic") }}
+            </SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
+
+      <p class="text-xs leading-5 text-muted-foreground sm:mt-7">
+        {{
+          form.auth_mode === "public"
+            ? t("admin.gatewayLocationsSettings.authPublicDescription")
+            : form.auth_mode === "require_login"
+              ? t("admin.gatewayLocationsSettings.authRequireLoginDescription")
+              : t("admin.gatewayLocationsSettings.authInheritDescription")
+        }}
+      </p>
+    </div>
+  </div>
+</template>

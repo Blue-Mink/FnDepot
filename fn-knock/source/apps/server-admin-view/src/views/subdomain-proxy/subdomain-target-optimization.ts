@@ -1,1 +1,232 @@
-aW1wb3J0IHsgaXNQcm94eVRhcmdldFByb3RvY29sIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9wcm94eVRhcmdldElucHV0IjsKaW1wb3J0IHR5cGUgeyBTY2FuRGlzY292ZXJ5SG9zdENhbmRpZGF0ZSB9IGZyb20gIkAvbGliL2FwaS9zY2FuIjsKaW1wb3J0IHR5cGUgeyBIb3N0TWFwcGluZyB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgeyBpc1Byb3h5SG9zdE1hcHBpbmcgfSBmcm9tICJAL2xpYi9ob3N0LW1hcHBpbmctdGFyZ2V0IjsKaW1wb3J0IHsgTkFUSVZFX0xPT1BCQUNLX0FERFJFU1MgfSBmcm9tICIuL2hvc3QtdGFyZ2V0LWNhbmRpZGF0ZXMiOwoKZXhwb3J0IHR5cGUgVGFyZ2V0T3B0aW1pemF0aW9uRGlyZWN0aW9uID0gImxvb3BiYWNrX3RvX2xhbiIgfCAibGFuX3RvX2xvb3BiYWNrIjsKCmV4cG9ydCBpbnRlcmZhY2UgVGFyZ2V0T3B0aW1pemF0aW9uRGVzdGluYXRpb24gewogIGFkZHJlc3M6IHN0cmluZzsKICBkaXJlY3Rpb246IFRhcmdldE9wdGltaXphdGlvbkRpcmVjdGlvbjsKICBzb3VyY2U6IFNjYW5EaXNjb3ZlcnlIb3N0Q2FuZGlkYXRlWyJzb3VyY2UiXTsKfQoKZXhwb3J0IGludGVyZmFjZSBUYXJnZXRPcHRpbWl6YXRpb25QcmV2aWV3IHsKICBkaXJlY3Rpb246IFRhcmdldE9wdGltaXphdGlvbkRpcmVjdGlvbjsKICBob3N0OiBzdHJpbmc7CiAgbmV4dFRhcmdldDogc3RyaW5nOwogIHRhcmdldDogc3RyaW5nOwp9Cgpjb25zdCBQUk9URUNURURfTE9PUEJBQ0tfVEFSR0VUX1BPUlQgPSAiNzk5OCI7Cgpjb25zdCBpc0lwdjRBZGRyZXNzID0gKHZhbHVlOiBzdHJpbmcpOiBib29sZWFuID0+IHsKICBjb25zdCBwYXJ0cyA9IHZhbHVlLnNwbGl0KCIuIik7CiAgcmV0dXJuICgKICAgIHBhcnRzLmxlbmd0aCA9PT0gNCAmJgogICAgcGFydHMuZXZlcnkoKHBhcnQpID0+IHsKICAgICAgaWYgKCEvXlxkezEsM30kL3UudGVzdChwYXJ0KSkgcmV0dXJuIGZhbHNlOwogICAgICBjb25zdCBudW1iZXIgPSBOdW1iZXIocGFydCk7CiAgICAgIHJldHVybiBudW1iZXIgPj0gMCAmJiBudW1iZXIgPD0gMjU1ICYmIFN0cmluZyhudW1iZXIpID09PSBwYXJ0OwogICAgfSkKICApOwp9OwoKZXhwb3J0IGNvbnN0IHBhcnNlT3B0aW1pemFibGVUYXJnZXRIb3N0bmFtZSA9ICgKICB0YXJnZXQ6IHN0cmluZywKKTogc3RyaW5nIHwgbnVsbCA9PiB7CiAgY29uc3Qgbm9ybWFsaXplZCA9IHRhcmdldC50cmltKCk7CiAgaWYgKCFub3JtYWxpemVkKSByZXR1cm4gbnVsbDsKICB0cnkgewogICAgY29uc3QgcGFyc2VkID0gbmV3IFVSTChub3JtYWxpemVkKTsKICAgIGlmICgKICAgICAgcGFyc2VkLmhvc3RuYW1lID09PSBOQVRJVkVfTE9PUEJBQ0tfQUREUkVTUyAmJgogICAgICBwYXJzZWQucG9ydCA9PT0gUFJPVEVDVEVEX0xPT1BCQUNLX1RBUkdFVF9QT1JUCiAgICApIHsKICAgICAgcmV0dXJuIG51bGw7CiAgICB9CiAgICByZXR1cm4gaXNQcm94eVRhcmdldFByb3RvY29sKHBhcnNlZC5wcm90b2NvbCkgJiYKICAgICAgaXNJcHY0QWRkcmVzcyhwYXJzZWQuaG9zdG5hbWUpCiAgICAgID8gcGFyc2VkLmhvc3RuYW1lCiAgICAgIDogbnVsbDsKICB9IGNhdGNoIHsKICAgIHJldHVybiBudWxsOwogIH0KfTsKCmV4cG9ydCBjb25zdCByZXdyaXRlVGFyZ2V0SG9zdG5hbWUgPSAoCiAgdGFyZ2V0OiBzdHJpbmcsCiAgc291cmNlQWRkcmVzc2VzOiBSZWFkb25seVNldDxzdHJpbmc+LAogIGRlc3RpbmF0aW9uQWRkcmVzczogc3RyaW5nLAopOiBzdHJpbmcgfCBudWxsID0+IHsKICBpZiAoIWlzSXB2NEFkZHJlc3MoZGVzdGluYXRpb25BZGRyZXNzKSkgcmV0dXJuIG51bGw7CiAgY29uc3Qgc291cmNlQWRkcmVzcyA9IHBhcnNlT3B0aW1pemFibGVUYXJnZXRIb3N0bmFtZSh0YXJnZXQpOwogIGlmICghc291cmNlQWRkcmVzcyB8fCAhc291cmNlQWRkcmVzc2VzLmhhcyhzb3VyY2VBZGRyZXNzKSkgcmV0dXJuIG51bGw7CgogIGNvbnN0IGNvbnRlbnRTdGFydCA9IHRhcmdldC5sZW5ndGggLSB0YXJnZXQudHJpbVN0YXJ0KCkubGVuZ3RoOwogIGNvbnN0IGNvbnRlbnRFbmQgPSB0YXJnZXQudHJpbUVuZCgpLmxlbmd0aDsKICBjb25zdCBub3JtYWxpemVkID0gdGFyZ2V0LnNsaWNlKGNvbnRlbnRTdGFydCwgY29udGVudEVuZCk7CiAgY29uc3Qgc2NoZW1lRW5kID0gbm9ybWFsaXplZC5pbmRleE9mKCI6Ly8iKTsKICBpZiAoc2NoZW1lRW5kIDwgMCkgcmV0dXJuIG51bGw7CiAgY29uc3QgYXV0aG9yaXR5U3RhcnQgPSBzY2hlbWVFbmQgKyAzOwogIGNvbnN0IHN1ZmZpeE9mZnNldCA9IG5vcm1hbGl6ZWQuc2xpY2UoYXV0aG9yaXR5U3RhcnQpLnNlYXJjaCgvWy8/I10vdSk7CiAgY29uc3QgYXV0aG9yaXR5RW5kID0KICAgIHN1ZmZpeE9mZnNldCA8IDAgPyBub3JtYWxpemVkLmxlbmd0aCA6IGF1dGhvcml0eVN0YXJ0ICsgc3VmZml4T2Zmc2V0OwogIGNvbnN0IGF1dGhvcml0eSA9IG5vcm1hbGl6ZWQuc2xpY2UoYXV0aG9yaXR5U3RhcnQsIGF1dGhvcml0eUVuZCk7CiAgY29uc3QgdXNlckluZm9FbmQgPSBhdXRob3JpdHkubGFzdEluZGV4T2YoIkAiKTsKICBjb25zdCBob3N0U3RhcnRJbkF1dGhvcml0eSA9IHVzZXJJbmZvRW5kIDwgMCA/IDAgOiB1c2VySW5mb0VuZCArIDE7CiAgY29uc3QgaG9zdEFuZFBvcnQgPSBhdXRob3JpdHkuc2xpY2UoaG9zdFN0YXJ0SW5BdXRob3JpdHkpOwogIGlmICgKICAgIGhvc3RBbmRQb3J0LnNsaWNlKDAsIHNvdXJjZUFkZHJlc3MubGVuZ3RoKS50b0xvd2VyQ2FzZSgpICE9PQogICAgICBzb3VyY2VBZGRyZXNzLnRvTG93ZXJDYXNlKCkgfHwKICAgICFbIiIsICI6Il0uaW5jbHVkZXMoaG9zdEFuZFBvcnRbc291cmNlQWRkcmVzcy5sZW5ndGhdID8/ICIiKQogICkgewogICAgcmV0dXJuIG51bGw7CiAgfQoKICBjb25zdCBhYnNvbHV0ZUhvc3RTdGFydCA9CiAgICBjb250ZW50U3RhcnQgKyBhdXRob3JpdHlTdGFydCArIGhvc3RTdGFydEluQXV0aG9yaXR5OwogIHJldHVybiBgJHt0YXJnZXQuc2xpY2UoMCwgYWJzb2x1dGVIb3N0U3RhcnQpfSR7ZGVzdGluYXRpb25BZGRyZXNzfSR7dGFyZ2V0LnNsaWNlKAogICAgYWJzb2x1dGVIb3N0U3RhcnQgKyBzb3VyY2VBZGRyZXNzLmxlbmd0aCwKICApfWA7Cn07CgpleHBvcnQgY29uc3QgYnVpbGRUYXJnZXRPcHRpbWl6YXRpb25EZXN0aW5hdGlvbnMgPSAoCiAgY2FuZGlkYXRlczogcmVhZG9ubHkgU2NhbkRpc2NvdmVyeUhvc3RDYW5kaWRhdGVbXSwKICBpc0RvY2tlckRlcGxveW1lbnQ6IGJvb2xlYW4sCik6IFRhcmdldE9wdGltaXphdGlvbkRlc3RpbmF0aW9uW10gPT4gewogIGNvbnN0IGRlc3RpbmF0aW9uczogVGFyZ2V0T3B0aW1pemF0aW9uRGVzdGluYXRpb25bXSA9IFtdOwogIGZvciAoY29uc3QgY2FuZGlkYXRlIG9mIGNhbmRpZGF0ZXMpIHsKICAgIGlmIChjYW5kaWRhdGUuYWRkcmVzcyA9PT0gTkFUSVZFX0xPT1BCQUNLX0FERFJFU1MpIHsKICAgICAgaWYgKCFpc0RvY2tlckRlcGxveW1lbnQpIHsKICAgICAgICBkZXN0aW5hdGlvbnMucHVzaCh7CiAgICAgICAgICBhZGRyZXNzOiBjYW5kaWRhdGUuYWRkcmVzcywKICAgICAgICAgIGRpcmVjdGlvbjogImxhbl90b19sb29wYmFjayIsCiAgICAgICAgICBzb3VyY2U6IGNhbmRpZGF0ZS5zb3VyY2UsCiAgICAgICAgfSk7CiAgICAgIH0KICAgICAgY29udGludWU7CiAgICB9CiAgICBpZiAoCiAgICAgICghaXNEb2NrZXJEZXBsb3ltZW50ICYmIGNhbmRpZGF0ZS5zb3VyY2UgIT09ICJpbnRlcmZhY2UiKSB8fAogICAgICAhaXNJcHY0QWRkcmVzcyhjYW5kaWRhdGUuYWRkcmVzcykKICAgICkgewogICAgICBjb250aW51ZTsKICAgIH0KICAgIGRlc3RpbmF0aW9ucy5wdXNoKHsKICAgICAgYWRkcmVzczogY2FuZGlkYXRlLmFkZHJlc3MsCiAgICAgIGRpcmVjdGlvbjogImxvb3BiYWNrX3RvX2xhbiIsCiAgICAgIHNvdXJjZTogY2FuZGlkYXRlLnNvdXJjZSwKICAgIH0pOwogIH0KICByZXR1cm4gZGVzdGluYXRpb25zOwp9OwoKY29uc3QgYnVpbGRPcHRpbWl6YXRpb25Tb3VyY2VBZGRyZXNzZXMgPSAoCiAgZGVzdGluYXRpb246IFRhcmdldE9wdGltaXphdGlvbkRlc3RpbmF0aW9uLAogIGNhbmRpZGF0ZXM6IHJlYWRvbmx5IFNjYW5EaXNjb3ZlcnlIb3N0Q2FuZGlkYXRlW10sCik6IFJlYWRvbmx5U2V0PHN0cmluZz4gPT4KICBkZXN0aW5hdGlvbi5kaXJlY3Rpb24gPT09ICJsb29wYmFja190b19sYW4iCiAgICA/IG5ldyBTZXQoW05BVElWRV9MT09QQkFDS19BRERSRVNTXSkKICAgIDogbmV3IFNldCgKICAgICAgICBjYW5kaWRhdGVzCiAgICAgICAgICAuZmlsdGVyKAogICAgICAgICAgICAoY2FuZGlkYXRlKSA9PgogICAgICAgICAgICAgIGNhbmRpZGF0ZS5zb3VyY2UgPT09ICJpbnRlcmZhY2UiICYmCiAgICAgICAgICAgICAgY2FuZGlkYXRlLmFkZHJlc3MgIT09IE5BVElWRV9MT09QQkFDS19BRERSRVNTLAogICAgICAgICAgKQogICAgICAgICAgLm1hcCgoY2FuZGlkYXRlKSA9PiBjYW5kaWRhdGUuYWRkcmVzcyksCiAgICAgICk7CgpleHBvcnQgY29uc3QgYnVpbGRUYXJnZXRPcHRpbWl6YXRpb25QcmV2aWV3cyA9ICh7CiAgY2FuZGlkYXRlcywKICBkZXN0aW5hdGlvbkFkZHJlc3MsCiAgaXNBdXRoU2VydmljZVRhcmdldCwKICBpc0RvY2tlckRlcGxveW1lbnQsCiAgbWFwcGluZ3MsCn06IHsKICBjYW5kaWRhdGVzOiByZWFkb25seSBTY2FuRGlzY292ZXJ5SG9zdENhbmRpZGF0ZVtdOwogIGRlc3RpbmF0aW9uQWRkcmVzczogc3RyaW5nOwogIGlzQXV0aFNlcnZpY2VUYXJnZXQ6ICh0YXJnZXQ6IHN0cmluZykgPT4gYm9vbGVhbjsKICBpc0RvY2tlckRlcGxveW1lbnQ6IGJvb2xlYW47CiAgbWFwcGluZ3M6IHJlYWRvbmx5IEhvc3RNYXBwaW5nW107Cn0pOiBUYXJnZXRPcHRpbWl6YXRpb25QcmV2aWV3W10gPT4gewogIGNvbnN0IGRlc3RpbmF0aW9uID0gYnVpbGRUYXJnZXRPcHRpbWl6YXRpb25EZXN0aW5hdGlvbnMoCiAgICBjYW5kaWRhdGVzLAogICAgaXNEb2NrZXJEZXBsb3ltZW50LAogICkuZmluZCgoY2FuZGlkYXRlKSA9PiBjYW5kaWRhdGUuYWRkcmVzcyA9PT0gZGVzdGluYXRpb25BZGRyZXNzKTsKICBpZiAoIWRlc3RpbmF0aW9uKSByZXR1cm4gW107CiAgY29uc3Qgc291cmNlQWRkcmVzc2VzID0gYnVpbGRPcHRpbWl6YXRpb25Tb3VyY2VBZGRyZXNzZXMoCiAgICBkZXN0aW5hdGlvbiwKICAgIGNhbmRpZGF0ZXMsCiAgKTsKCiAgcmV0dXJuIG1hcHBpbmdzLmZsYXRNYXAoKG1hcHBpbmcpID0+IHsKICAgIGlmICghaXNQcm94eUhvc3RNYXBwaW5nKG1hcHBpbmcpKSByZXR1cm4gW107CiAgICBpZiAoaXNBdXRoU2VydmljZVRhcmdldChtYXBwaW5nLnRhcmdldCkpIHJldHVybiBbXTsKICAgIGNvbnN0IG5leHRUYXJnZXQgPSByZXdyaXRlVGFyZ2V0SG9zdG5hbWUoCiAgICAgIG1hcHBpbmcudGFyZ2V0LAogICAgICBzb3VyY2VBZGRyZXNzZXMsCiAgICAgIGRlc3RpbmF0aW9uLmFkZHJlc3MsCiAgICApOwogICAgaWYgKCFuZXh0VGFyZ2V0IHx8IG5leHRUYXJnZXQgPT09IG1hcHBpbmcudGFyZ2V0KSByZXR1cm4gW107CiAgICByZXR1cm4gWwogICAgICB7CiAgICAgICAgZGlyZWN0aW9uOiBkZXN0aW5hdGlvbi5kaXJlY3Rpb24sCiAgICAgICAgaG9zdDogbWFwcGluZy5ob3N0LAogICAgICAgIG5leHRUYXJnZXQsCiAgICAgICAgdGFyZ2V0OiBtYXBwaW5nLnRhcmdldCwKICAgICAgfSwKICAgIF07CiAgfSk7Cn07CgpleHBvcnQgY29uc3QgcmVzb2x2ZURlZmF1bHRUYXJnZXRPcHRpbWl6YXRpb25EZXN0aW5hdGlvbiA9ICh7CiAgY2FuZGlkYXRlcywKICBpc0F1dGhTZXJ2aWNlVGFyZ2V0LAogIGlzRG9ja2VyRGVwbG95bWVudCwKICBtYXBwaW5ncywKfTogewogIGNhbmRpZGF0ZXM6IHJlYWRvbmx5IFNjYW5EaXNjb3ZlcnlIb3N0Q2FuZGlkYXRlW107CiAgaXNBdXRoU2VydmljZVRhcmdldDogKHRhcmdldDogc3RyaW5nKSA9PiBib29sZWFuOwogIGlzRG9ja2VyRGVwbG95bWVudDogYm9vbGVhbjsKICBtYXBwaW5nczogcmVhZG9ubHkgSG9zdE1hcHBpbmdbXTsKfSk6IHN0cmluZyA9PiB7CiAgY29uc3QgZGVzdGluYXRpb25zID0gYnVpbGRUYXJnZXRPcHRpbWl6YXRpb25EZXN0aW5hdGlvbnMoCiAgICBjYW5kaWRhdGVzLAogICAgaXNEb2NrZXJEZXBsb3ltZW50LAogICk7CiAgY29uc3QgZmlyc3RMYW5EZXN0aW5hdGlvbiA9IGRlc3RpbmF0aW9ucy5maW5kKAogICAgKGRlc3RpbmF0aW9uKSA9PiBkZXN0aW5hdGlvbi5kaXJlY3Rpb24gPT09ICJsb29wYmFja190b19sYW4iLAogICk7CiAgaWYgKAogICAgZmlyc3RMYW5EZXN0aW5hdGlvbiAmJgogICAgYnVpbGRUYXJnZXRPcHRpbWl6YXRpb25QcmV2aWV3cyh7CiAgICAgIGNhbmRpZGF0ZXMsCiAgICAgIGRlc3RpbmF0aW9uQWRkcmVzczogZmlyc3RMYW5EZXN0aW5hdGlvbi5hZGRyZXNzLAogICAgICBpc0F1dGhTZXJ2aWNlVGFyZ2V0LAogICAgICBpc0RvY2tlckRlcGxveW1lbnQsCiAgICAgIG1hcHBpbmdzLAogICAgfSkubGVuZ3RoID4gMAogICkgewogICAgcmV0dXJuIGZpcnN0TGFuRGVzdGluYXRpb24uYWRkcmVzczsKICB9CgogIGNvbnN0IGxvb3BiYWNrRGVzdGluYXRpb24gPSBkZXN0aW5hdGlvbnMuZmluZCgKICAgIChkZXN0aW5hdGlvbikgPT4gZGVzdGluYXRpb24uZGlyZWN0aW9uID09PSAibGFuX3RvX2xvb3BiYWNrIiwKICApOwogIGlmICgKICAgIGxvb3BiYWNrRGVzdGluYXRpb24gJiYKICAgIGJ1aWxkVGFyZ2V0T3B0aW1pemF0aW9uUHJldmlld3MoewogICAgICBjYW5kaWRhdGVzLAogICAgICBkZXN0aW5hdGlvbkFkZHJlc3M6IGxvb3BiYWNrRGVzdGluYXRpb24uYWRkcmVzcywKICAgICAgaXNBdXRoU2VydmljZVRhcmdldCwKICAgICAgaXNEb2NrZXJEZXBsb3ltZW50LAogICAgICBtYXBwaW5ncywKICAgIH0pLmxlbmd0aCA+IDAKICApIHsKICAgIHJldHVybiBsb29wYmFja0Rlc3RpbmF0aW9uLmFkZHJlc3M7CiAgfQogIHJldHVybiBmaXJzdExhbkRlc3RpbmF0aW9uPy5hZGRyZXNzID8/IGxvb3BiYWNrRGVzdGluYXRpb24/LmFkZHJlc3MgPz8gIiI7Cn07Cg==
+import { isProxyTargetProtocol } from "@admin-shared/utils/proxyTargetInput";
+import type { ScanDiscoveryHostCandidate } from "@/lib/api/scan";
+import type { HostMapping } from "@/types";
+import { isProxyHostMapping } from "@/lib/host-mapping-target";
+import { NATIVE_LOOPBACK_ADDRESS } from "./host-target-candidates";
+
+export type TargetOptimizationDirection = "loopback_to_lan" | "lan_to_loopback";
+
+export interface TargetOptimizationDestination {
+  address: string;
+  direction: TargetOptimizationDirection;
+  source: ScanDiscoveryHostCandidate["source"];
+}
+
+export interface TargetOptimizationPreview {
+  direction: TargetOptimizationDirection;
+  host: string;
+  nextTarget: string;
+  target: string;
+}
+
+const PROTECTED_LOOPBACK_TARGET_PORT = "7998";
+
+const isIpv4Address = (value: string): boolean => {
+  const parts = value.split(".");
+  return (
+    parts.length === 4 &&
+    parts.every((part) => {
+      if (!/^\d{1,3}$/u.test(part)) return false;
+      const number = Number(part);
+      return number >= 0 && number <= 255 && String(number) === part;
+    })
+  );
+};
+
+export const parseOptimizableTargetHostname = (
+  target: string,
+): string | null => {
+  const normalized = target.trim();
+  if (!normalized) return null;
+  try {
+    const parsed = new URL(normalized);
+    if (
+      parsed.hostname === NATIVE_LOOPBACK_ADDRESS &&
+      parsed.port === PROTECTED_LOOPBACK_TARGET_PORT
+    ) {
+      return null;
+    }
+    return isProxyTargetProtocol(parsed.protocol) &&
+      isIpv4Address(parsed.hostname)
+      ? parsed.hostname
+      : null;
+  } catch {
+    return null;
+  }
+};
+
+export const rewriteTargetHostname = (
+  target: string,
+  sourceAddresses: ReadonlySet<string>,
+  destinationAddress: string,
+): string | null => {
+  if (!isIpv4Address(destinationAddress)) return null;
+  const sourceAddress = parseOptimizableTargetHostname(target);
+  if (!sourceAddress || !sourceAddresses.has(sourceAddress)) return null;
+
+  const contentStart = target.length - target.trimStart().length;
+  const contentEnd = target.trimEnd().length;
+  const normalized = target.slice(contentStart, contentEnd);
+  const schemeEnd = normalized.indexOf("://");
+  if (schemeEnd < 0) return null;
+  const authorityStart = schemeEnd + 3;
+  const suffixOffset = normalized.slice(authorityStart).search(/[/?#]/u);
+  const authorityEnd =
+    suffixOffset < 0 ? normalized.length : authorityStart + suffixOffset;
+  const authority = normalized.slice(authorityStart, authorityEnd);
+  const userInfoEnd = authority.lastIndexOf("@");
+  const hostStartInAuthority = userInfoEnd < 0 ? 0 : userInfoEnd + 1;
+  const hostAndPort = authority.slice(hostStartInAuthority);
+  if (
+    hostAndPort.slice(0, sourceAddress.length).toLowerCase() !==
+      sourceAddress.toLowerCase() ||
+    !["", ":"].includes(hostAndPort[sourceAddress.length] ?? "")
+  ) {
+    return null;
+  }
+
+  const absoluteHostStart =
+    contentStart + authorityStart + hostStartInAuthority;
+  return `${target.slice(0, absoluteHostStart)}${destinationAddress}${target.slice(
+    absoluteHostStart + sourceAddress.length,
+  )}`;
+};
+
+export const buildTargetOptimizationDestinations = (
+  candidates: readonly ScanDiscoveryHostCandidate[],
+  isDockerDeployment: boolean,
+): TargetOptimizationDestination[] => {
+  const destinations: TargetOptimizationDestination[] = [];
+  for (const candidate of candidates) {
+    if (candidate.address === NATIVE_LOOPBACK_ADDRESS) {
+      if (!isDockerDeployment) {
+        destinations.push({
+          address: candidate.address,
+          direction: "lan_to_loopback",
+          source: candidate.source,
+        });
+      }
+      continue;
+    }
+    if (
+      (!isDockerDeployment && candidate.source !== "interface") ||
+      !isIpv4Address(candidate.address)
+    ) {
+      continue;
+    }
+    destinations.push({
+      address: candidate.address,
+      direction: "loopback_to_lan",
+      source: candidate.source,
+    });
+  }
+  return destinations;
+};
+
+const buildOptimizationSourceAddresses = (
+  destination: TargetOptimizationDestination,
+  candidates: readonly ScanDiscoveryHostCandidate[],
+): ReadonlySet<string> =>
+  destination.direction === "loopback_to_lan"
+    ? new Set([NATIVE_LOOPBACK_ADDRESS])
+    : new Set(
+        candidates
+          .filter(
+            (candidate) =>
+              candidate.source === "interface" &&
+              candidate.address !== NATIVE_LOOPBACK_ADDRESS,
+          )
+          .map((candidate) => candidate.address),
+      );
+
+export const buildTargetOptimizationPreviews = ({
+  candidates,
+  destinationAddress,
+  isAuthServiceTarget,
+  isDockerDeployment,
+  mappings,
+}: {
+  candidates: readonly ScanDiscoveryHostCandidate[];
+  destinationAddress: string;
+  isAuthServiceTarget: (target: string) => boolean;
+  isDockerDeployment: boolean;
+  mappings: readonly HostMapping[];
+}): TargetOptimizationPreview[] => {
+  const destination = buildTargetOptimizationDestinations(
+    candidates,
+    isDockerDeployment,
+  ).find((candidate) => candidate.address === destinationAddress);
+  if (!destination) return [];
+  const sourceAddresses = buildOptimizationSourceAddresses(
+    destination,
+    candidates,
+  );
+
+  return mappings.flatMap((mapping) => {
+    if (!isProxyHostMapping(mapping)) return [];
+    if (isAuthServiceTarget(mapping.target)) return [];
+    const nextTarget = rewriteTargetHostname(
+      mapping.target,
+      sourceAddresses,
+      destination.address,
+    );
+    if (!nextTarget || nextTarget === mapping.target) return [];
+    return [
+      {
+        direction: destination.direction,
+        host: mapping.host,
+        nextTarget,
+        target: mapping.target,
+      },
+    ];
+  });
+};
+
+export const resolveDefaultTargetOptimizationDestination = ({
+  candidates,
+  isAuthServiceTarget,
+  isDockerDeployment,
+  mappings,
+}: {
+  candidates: readonly ScanDiscoveryHostCandidate[];
+  isAuthServiceTarget: (target: string) => boolean;
+  isDockerDeployment: boolean;
+  mappings: readonly HostMapping[];
+}): string => {
+  const destinations = buildTargetOptimizationDestinations(
+    candidates,
+    isDockerDeployment,
+  );
+  const firstLanDestination = destinations.find(
+    (destination) => destination.direction === "loopback_to_lan",
+  );
+  if (
+    firstLanDestination &&
+    buildTargetOptimizationPreviews({
+      candidates,
+      destinationAddress: firstLanDestination.address,
+      isAuthServiceTarget,
+      isDockerDeployment,
+      mappings,
+    }).length > 0
+  ) {
+    return firstLanDestination.address;
+  }
+
+  const loopbackDestination = destinations.find(
+    (destination) => destination.direction === "lan_to_loopback",
+  );
+  if (
+    loopbackDestination &&
+    buildTargetOptimizationPreviews({
+      candidates,
+      destinationAddress: loopbackDestination.address,
+      isAuthServiceTarget,
+      isDockerDeployment,
+      mappings,
+    }).length > 0
+  ) {
+    return loopbackDestination.address;
+  }
+  return firstLanDestination?.address ?? loopbackDestination?.address ?? "";
+};

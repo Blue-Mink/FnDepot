@@ -1,1 +1,194 @@
-aW1wb3J0IHsKICBjb21wdXRlZCwKICBnZXRDdXJyZW50U2NvcGUsCiAgb25TY29wZURpc3Bvc2UsCiAgcmVmLAogIHRvVmFsdWUsCiAgd2F0Y2gsCiAgdHlwZSBNYXliZVJlZk9yR2V0dGVyLAp9IGZyb20gInZ1ZSI7CgppbXBvcnQgdHlwZSB7CiAgQ2FwdGNoYVB1YmxpY1NldHRpbmdzLAogIENhcHRjaGFTdWJtaXNzaW9uLAp9IGZyb20gIkBmcm9udGVuZC1jb3JlL2NhcHRjaGEvdHlwZXMiOwppbXBvcnQgeyBleHRyYWN0RXJyb3JNZXNzYWdlIH0gZnJvbSAiQGZyb250ZW5kLWNvcmUvZXJyb3JzL2V4dHJhY3RFcnJvck1lc3NhZ2UiOwppbXBvcnQgewogIGJ1aWxkUG93U3VibWlzc2lvbiwKICBDYXB0Y2hhRXJyb3IsCiAgbm9ybWFsaXplUG93Q2hhbGxlbmdlLAogIHNvbHZlUG93Q2hhbGxlbmdlLAp9IGZyb20gIkAvbGliL2NhcHRjaGEiOwoKaW50ZXJmYWNlIFJlc2V0dGFibGVDYXB0Y2hhV2lkZ2V0IHsKICByZXNldDogKCkgPT4gdm9pZDsKfQoKaW50ZXJmYWNlIFVzZUxvZ2luQ2FwdGNoYU9wdGlvbnMgewogIGNhblVzZU5hdGl2ZVBvdzogTWF5YmVSZWZPckdldHRlcjxib29sZWFuPjsKICB0cmFuc2xhdGU6IChrZXk6IHN0cmluZykgPT4gc3RyaW5nOwogIG9uRXJyb3I6IChtZXNzYWdlOiBzdHJpbmcpID0+IHZvaWQ7CiAgb25WZXJpZmllZD86ICgpID0+IHZvaWQ7CiAgcmVzb2x2ZVBvd1N1Ym1pc3Npb24/OiAoc2lnbmFsPzogQWJvcnRTaWduYWwpID0+IFByb21pc2U8Q2FwdGNoYVN1Ym1pc3Npb24+Owp9Cgp0eXBlIFBvd1N0YXRlQ2hhbmdlRXZlbnQgPSBDdXN0b21FdmVudDx7CiAgc3RhdGU/OiBzdHJpbmc7CiAgcGF5bG9hZD86IHN0cmluZzsKfT47Cgpjb25zdCByZXNvbHZlRGVmYXVsdFBvd1N1Ym1pc3Npb24gPSBhc3luYyAoCiAgc2lnbmFsPzogQWJvcnRTaWduYWwsCik6IFByb21pc2U8Q2FwdGNoYVN1Ym1pc3Npb24+ID0+IHsKICBjb25zdCB7IENhcHRjaGFBUEkgfSA9IGF3YWl0IGltcG9ydCgiQC9saWIvYXBpIik7CiAgaWYgKHNpZ25hbD8uYWJvcnRlZCkgdGhyb3cgbmV3IERPTUV4Y2VwdGlvbigiQWJvcnRlZCIsICJBYm9ydEVycm9yIik7CiAgY29uc3QgY2hhbGxlbmdlID0gbm9ybWFsaXplUG93Q2hhbGxlbmdlKAogICAgYXdhaXQgQ2FwdGNoYUFQSS5nZXRQb3dDaGFsbGVuZ2Uoc2lnbmFsKSwKICApOwogIGNvbnN0IG51bWJlciA9IGF3YWl0IHNvbHZlUG93Q2hhbGxlbmdlKGNoYWxsZW5nZSwgc2lnbmFsKTsKICByZXR1cm4gYnVpbGRQb3dTdWJtaXNzaW9uKGNoYWxsZW5nZSwgbnVtYmVyKTsKfTsKCmV4cG9ydCBjb25zdCB1c2VMb2dpbkNhcHRjaGEgPSAob3B0aW9uczogVXNlTG9naW5DYXB0Y2hhT3B0aW9ucykgPT4gewogIGNvbnN0IGNhcHRjaGFDb25maWcgPSByZWY8Q2FwdGNoYVB1YmxpY1NldHRpbmdzIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgcG93V2lkZ2V0UmVmID0gcmVmPFJlc2V0dGFibGVDYXB0Y2hhV2lkZ2V0IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgdHVybnN0aWxlV2lkZ2V0UmVmID0gcmVmPFJlc2V0dGFibGVDYXB0Y2hhV2lkZ2V0IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgaXNDYXB0Y2hhVmVyaWZpZWQgPSByZWYoZmFsc2UpOwogIGNvbnN0IGNhcHRjaGFTdWJtaXNzaW9uID0gcmVmPENhcHRjaGFTdWJtaXNzaW9uIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgaXNQb3dGYWxsYmFja0xvYWRpbmcgPSByZWYoZmFsc2UpOwogIGNvbnN0IGlzQ2FwdGNoYUNvbmZpZ0xvYWRpbmcgPSByZWYodHJ1ZSk7CiAgbGV0IHBvd0ZhbGxiYWNrQ29udHJvbGxlcjogQWJvcnRDb250cm9sbGVyIHwgbnVsbCA9IG51bGw7CgogIGNvbnN0IGFjdGl2ZUNhcHRjaGFQcm92aWRlciA9IGNvbXB1dGVkKAogICAgKCkgPT4gY2FwdGNoYUNvbmZpZy52YWx1ZT8ucHJvdmlkZXIgPz8gbnVsbCwKICApOwogIGNvbnN0IGlzQ2FwdGNoYVByb3ZpZGVyQXZhaWxhYmxlID0gY29tcHV0ZWQoCiAgICAoKSA9PiBjYXB0Y2hhQ29uZmlnLnZhbHVlPy5hdmFpbGFibGUgPz8gZmFsc2UsCiAgKTsKICBjb25zdCBjYXB0Y2hhVW5hdmFpbGFibGVSZWFzb24gPSBjb21wdXRlZCgKICAgICgpID0+CiAgICAgIGNhcHRjaGFDb25maWcudmFsdWU/LnVuYXZhaWxhYmxlX3JlYXNvbiB8fAogICAgICBvcHRpb25zLnRyYW5zbGF0ZSgiYXV0aC5jYXB0Y2hhQ29uZmlnTG9hZEZhaWxlZCIpLAogICk7CiAgY29uc3QgaGFzVHVybnN0aWxlU2l0ZUtleSA9IGNvbXB1dGVkKAogICAgKCkgPT4gISFjYXB0Y2hhQ29uZmlnLnZhbHVlPy50dXJuc3RpbGUuc2l0ZV9rZXkudHJpbSgpLAogICk7CiAgY29uc3QgcG93V2lkZ2V0U3RyaW5ncyA9IGNvbXB1dGVkKCgpID0+CiAgICBKU09OLnN0cmluZ2lmeSh7CiAgICAgIGxhYmVsOiBvcHRpb25zLnRyYW5zbGF0ZSgiYXV0aC5ub3RSb2JvdCIpLAogICAgICB2ZXJpZmllZDogb3B0aW9ucy50cmFuc2xhdGUoImF1dGgudmVyaWZpZWQiKSwKICAgICAgdmVyaWZ5aW5nOiBvcHRpb25zLnRyYW5zbGF0ZSgiYXV0aC52ZXJpZnlpbmciKSwKICAgICAgd2FpdDogb3B0aW9ucy50cmFuc2xhdGUoImF1dGgud2FpdCIpLAogICAgICBlcnJvcjogb3B0aW9ucy50cmFuc2xhdGUoImF1dGgudmVyaWZ5RXJyb3IiKSwKICAgIH0pLAogICk7CgogIGNvbnN0IHJlc2V0Q2FwdGNoYSA9ICgpID0+IHsKICAgIGlzQ2FwdGNoYVZlcmlmaWVkLnZhbHVlID0gZmFsc2U7CiAgICBjYXB0Y2hhU3VibWlzc2lvbi52YWx1ZSA9IG51bGw7CiAgfTsKCiAgY29uc3QgcmVzZXRDYXB0Y2hhV2lkZ2V0cyA9ICgpID0+IHsKICAgIHBvd0ZhbGxiYWNrQ29udHJvbGxlcj8uYWJvcnQoKTsKICAgIHBvd0ZhbGxiYWNrQ29udHJvbGxlciA9IG51bGw7CiAgICBpc1Bvd0ZhbGxiYWNrTG9hZGluZy52YWx1ZSA9IGZhbHNlOwogICAgcmVzZXRDYXB0Y2hhKCk7CiAgICBpZiAoCiAgICAgIGFjdGl2ZUNhcHRjaGFQcm92aWRlci52YWx1ZSA9PT0gInBvdyIgJiYKICAgICAgdG9WYWx1ZShvcHRpb25zLmNhblVzZU5hdGl2ZVBvdykKICAgICkgewogICAgICBwb3dXaWRnZXRSZWYudmFsdWU/LnJlc2V0KCk7CiAgICB9CiAgICBpZiAoYWN0aXZlQ2FwdGNoYVByb3ZpZGVyLnZhbHVlID09PSAidHVybnN0aWxlIikgewogICAgICB0dXJuc3RpbGVXaWRnZXRSZWYudmFsdWU/LnJlc2V0KCk7CiAgICB9CiAgfTsKCiAgY29uc3Qgc2V0VmVyaWZpZWRTdWJtaXNzaW9uID0gKHN1Ym1pc3Npb246IENhcHRjaGFTdWJtaXNzaW9uKSA9PiB7CiAgICBjYXB0Y2hhU3VibWlzc2lvbi52YWx1ZSA9IHN1Ym1pc3Npb247CiAgICBpc0NhcHRjaGFWZXJpZmllZC52YWx1ZSA9IHRydWU7CiAgICBvcHRpb25zLm9uVmVyaWZpZWQ/LigpOwogIH07CgogIGNvbnN0IGhhbmRsZVBvd1N0YXRlQ2hhbmdlID0gKGV2ZW50OiBQb3dTdGF0ZUNoYW5nZUV2ZW50KSA9PiB7CiAgICBpZiAoCiAgICAgIGV2ZW50LmRldGFpbD8uc3RhdGUgPT09ICJ2ZXJpZmllZCIgJiYKICAgICAgdHlwZW9mIGV2ZW50LmRldGFpbC5wYXlsb2FkID09PSAic3RyaW5nIiAmJgogICAgICBldmVudC5kZXRhaWwucGF5bG9hZAogICAgKSB7CiAgICAgIHNldFZlcmlmaWVkU3VibWlzc2lvbih7CiAgICAgICAgcHJvdmlkZXI6ICJwb3ciLAogICAgICAgIHByb29mOiBldmVudC5kZXRhaWwucGF5bG9hZCwKICAgICAgfSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICByZXNldENhcHRjaGEoKTsKICB9OwoKICBjb25zdCBoYW5kbGVQb3dGYWxsYmFja1ZlcmlmeSA9IGFzeW5jICgpID0+IHsKICAgIGlmIChpc1Bvd0ZhbGxiYWNrTG9hZGluZy52YWx1ZSkgcmV0dXJuOwogICAgY29uc3QgY29udHJvbGxlciA9IG5ldyBBYm9ydENvbnRyb2xsZXIoKTsKICAgIHBvd0ZhbGxiYWNrQ29udHJvbGxlciA9IGNvbnRyb2xsZXI7CiAgICBpc1Bvd0ZhbGxiYWNrTG9hZGluZy52YWx1ZSA9IHRydWU7CiAgICB0cnkgewogICAgICBjb25zdCByZXNvbHZlU3VibWlzc2lvbiA9CiAgICAgICAgb3B0aW9ucy5yZXNvbHZlUG93U3VibWlzc2lvbiA/PyByZXNvbHZlRGVmYXVsdFBvd1N1Ym1pc3Npb247CiAgICAgIGNvbnN0IHN1Ym1pc3Npb24gPSBhd2FpdCByZXNvbHZlU3VibWlzc2lvbihjb250cm9sbGVyLnNpZ25hbCk7CiAgICAgIGlmICghY29udHJvbGxlci5zaWduYWwuYWJvcnRlZCkgc2V0VmVyaWZpZWRTdWJtaXNzaW9uKHN1Ym1pc3Npb24pOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgaWYgKGNvbnRyb2xsZXIuc2lnbmFsLmFib3J0ZWQpIHJldHVybjsKICAgICAgcmVzZXRDYXB0Y2hhKCk7CiAgICAgIG9wdGlvbnMub25FcnJvcigKICAgICAgICBlcnJvciBpbnN0YW5jZW9mIENhcHRjaGFFcnJvcgogICAgICAgICAgPyBvcHRpb25zLnRyYW5zbGF0ZShgYXV0aC4ke2Vycm9yLmNvZGV9YCkKICAgICAgICAgIDogZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgb3B0aW9ucy50cmFuc2xhdGUoImF1dGguY2FwdGNoYUZhaWxlZCIpKSwKICAgICAgKTsKICAgIH0gZmluYWxseSB7CiAgICAgIGlmIChwb3dGYWxsYmFja0NvbnRyb2xsZXIgPT09IGNvbnRyb2xsZXIpIHsKICAgICAgICBwb3dGYWxsYmFja0NvbnRyb2xsZXIgPSBudWxsOwogICAgICAgIGlzUG93RmFsbGJhY2tMb2FkaW5nLnZhbHVlID0gZmFsc2U7CiAgICAgIH0KICAgIH0KICB9OwoKICB3YXRjaChhY3RpdmVDYXB0Y2hhUHJvdmlkZXIsICgpID0+IHsKICAgIHBvd0ZhbGxiYWNrQ29udHJvbGxlcj8uYWJvcnQoKTsKICAgIHBvd0ZhbGxiYWNrQ29udHJvbGxlciA9IG51bGw7CiAgICBpc1Bvd0ZhbGxiYWNrTG9hZGluZy52YWx1ZSA9IGZhbHNlOwogICAgcmVzZXRDYXB0Y2hhKCk7CiAgfSk7CiAgaWYgKGdldEN1cnJlbnRTY29wZSgpKSB7CiAgICBvblNjb3BlRGlzcG9zZSgoKSA9PiBwb3dGYWxsYmFja0NvbnRyb2xsZXI/LmFib3J0KCkpOwogIH0KCiAgY29uc3QgaGFuZGxlVHVybnN0aWxlVmVyaWZpZWQgPSAodG9rZW46IHN0cmluZykgPT4gewogICAgc2V0VmVyaWZpZWRTdWJtaXNzaW9uKHsgcHJvdmlkZXI6ICJ0dXJuc3RpbGUiLCB0b2tlbiB9KTsKICB9OwoKICBjb25zdCBoYW5kbGVUdXJuc3RpbGVFcnJvciA9IChtZXNzYWdlOiBzdHJpbmcpID0+IHsKICAgIHJlc2V0Q2FwdGNoYSgpOwogICAgb3B0aW9ucy5vbkVycm9yKG1lc3NhZ2UpOwogIH07CgogIHJldHVybiB7CiAgICBhY3RpdmVDYXB0Y2hhUHJvdmlkZXIsCiAgICBjYXB0Y2hhQ29uZmlnLAogICAgY2FwdGNoYVN1Ym1pc3Npb24sCiAgICBjYXB0Y2hhVW5hdmFpbGFibGVSZWFzb24sCiAgICBoYW5kbGVQb3dGYWxsYmFja1ZlcmlmeSwKICAgIGhhbmRsZVBvd1N0YXRlQ2hhbmdlLAogICAgaGFuZGxlVHVybnN0aWxlRXJyb3IsCiAgICBoYW5kbGVUdXJuc3RpbGVWZXJpZmllZCwKICAgIGhhc1R1cm5zdGlsZVNpdGVLZXksCiAgICBpc0NhcHRjaGFDb25maWdMb2FkaW5nLAogICAgaXNDYXB0Y2hhUHJvdmlkZXJBdmFpbGFibGUsCiAgICBpc0NhcHRjaGFWZXJpZmllZCwKICAgIGlzUG93RmFsbGJhY2tMb2FkaW5nLAogICAgcG93V2lkZ2V0UmVmLAogICAgcG93V2lkZ2V0U3RyaW5ncywKICAgIHJlc2V0Q2FwdGNoYSwKICAgIHJlc2V0Q2FwdGNoYVdpZGdldHMsCiAgICB0dXJuc3RpbGVXaWRnZXRSZWYsCiAgfTsKfTsK
+import {
+  computed,
+  getCurrentScope,
+  onScopeDispose,
+  ref,
+  toValue,
+  watch,
+  type MaybeRefOrGetter,
+} from "vue";
+
+import type {
+  CaptchaPublicSettings,
+  CaptchaSubmission,
+} from "@frontend-core/captcha/types";
+import { extractErrorMessage } from "@frontend-core/errors/extractErrorMessage";
+import {
+  buildPowSubmission,
+  CaptchaError,
+  normalizePowChallenge,
+  solvePowChallenge,
+} from "@/lib/captcha";
+
+interface ResettableCaptchaWidget {
+  reset: () => void;
+}
+
+interface UseLoginCaptchaOptions {
+  canUseNativePow: MaybeRefOrGetter<boolean>;
+  translate: (key: string) => string;
+  onError: (message: string) => void;
+  onVerified?: () => void;
+  resolvePowSubmission?: (signal?: AbortSignal) => Promise<CaptchaSubmission>;
+}
+
+type PowStateChangeEvent = CustomEvent<{
+  state?: string;
+  payload?: string;
+}>;
+
+const resolveDefaultPowSubmission = async (
+  signal?: AbortSignal,
+): Promise<CaptchaSubmission> => {
+  const { CaptchaAPI } = await import("@/lib/api");
+  if (signal?.aborted) throw new DOMException("Aborted", "AbortError");
+  const challenge = normalizePowChallenge(
+    await CaptchaAPI.getPowChallenge(signal),
+  );
+  const number = await solvePowChallenge(challenge, signal);
+  return buildPowSubmission(challenge, number);
+};
+
+export const useLoginCaptcha = (options: UseLoginCaptchaOptions) => {
+  const captchaConfig = ref<CaptchaPublicSettings | null>(null);
+  const powWidgetRef = ref<ResettableCaptchaWidget | null>(null);
+  const turnstileWidgetRef = ref<ResettableCaptchaWidget | null>(null);
+  const isCaptchaVerified = ref(false);
+  const captchaSubmission = ref<CaptchaSubmission | null>(null);
+  const isPowFallbackLoading = ref(false);
+  const isCaptchaConfigLoading = ref(true);
+  let powFallbackController: AbortController | null = null;
+
+  const activeCaptchaProvider = computed(
+    () => captchaConfig.value?.provider ?? null,
+  );
+  const isCaptchaProviderAvailable = computed(
+    () => captchaConfig.value?.available ?? false,
+  );
+  const captchaUnavailableReason = computed(
+    () =>
+      captchaConfig.value?.unavailable_reason ||
+      options.translate("auth.captchaConfigLoadFailed"),
+  );
+  const hasTurnstileSiteKey = computed(
+    () => !!captchaConfig.value?.turnstile.site_key.trim(),
+  );
+  const powWidgetStrings = computed(() =>
+    JSON.stringify({
+      label: options.translate("auth.notRobot"),
+      verified: options.translate("auth.verified"),
+      verifying: options.translate("auth.verifying"),
+      wait: options.translate("auth.wait"),
+      error: options.translate("auth.verifyError"),
+    }),
+  );
+
+  const resetCaptcha = () => {
+    isCaptchaVerified.value = false;
+    captchaSubmission.value = null;
+  };
+
+  const resetCaptchaWidgets = () => {
+    powFallbackController?.abort();
+    powFallbackController = null;
+    isPowFallbackLoading.value = false;
+    resetCaptcha();
+    if (
+      activeCaptchaProvider.value === "pow" &&
+      toValue(options.canUseNativePow)
+    ) {
+      powWidgetRef.value?.reset();
+    }
+    if (activeCaptchaProvider.value === "turnstile") {
+      turnstileWidgetRef.value?.reset();
+    }
+  };
+
+  const setVerifiedSubmission = (submission: CaptchaSubmission) => {
+    captchaSubmission.value = submission;
+    isCaptchaVerified.value = true;
+    options.onVerified?.();
+  };
+
+  const handlePowStateChange = (event: PowStateChangeEvent) => {
+    if (
+      event.detail?.state === "verified" &&
+      typeof event.detail.payload === "string" &&
+      event.detail.payload
+    ) {
+      setVerifiedSubmission({
+        provider: "pow",
+        proof: event.detail.payload,
+      });
+      return;
+    }
+
+    resetCaptcha();
+  };
+
+  const handlePowFallbackVerify = async () => {
+    if (isPowFallbackLoading.value) return;
+    const controller = new AbortController();
+    powFallbackController = controller;
+    isPowFallbackLoading.value = true;
+    try {
+      const resolveSubmission =
+        options.resolvePowSubmission ?? resolveDefaultPowSubmission;
+      const submission = await resolveSubmission(controller.signal);
+      if (!controller.signal.aborted) setVerifiedSubmission(submission);
+    } catch (error) {
+      if (controller.signal.aborted) return;
+      resetCaptcha();
+      options.onError(
+        error instanceof CaptchaError
+          ? options.translate(`auth.${error.code}`)
+          : extractErrorMessage(error, options.translate("auth.captchaFailed")),
+      );
+    } finally {
+      if (powFallbackController === controller) {
+        powFallbackController = null;
+        isPowFallbackLoading.value = false;
+      }
+    }
+  };
+
+  watch(activeCaptchaProvider, () => {
+    powFallbackController?.abort();
+    powFallbackController = null;
+    isPowFallbackLoading.value = false;
+    resetCaptcha();
+  });
+  if (getCurrentScope()) {
+    onScopeDispose(() => powFallbackController?.abort());
+  }
+
+  const handleTurnstileVerified = (token: string) => {
+    setVerifiedSubmission({ provider: "turnstile", token });
+  };
+
+  const handleTurnstileError = (message: string) => {
+    resetCaptcha();
+    options.onError(message);
+  };
+
+  return {
+    activeCaptchaProvider,
+    captchaConfig,
+    captchaSubmission,
+    captchaUnavailableReason,
+    handlePowFallbackVerify,
+    handlePowStateChange,
+    handleTurnstileError,
+    handleTurnstileVerified,
+    hasTurnstileSiteKey,
+    isCaptchaConfigLoading,
+    isCaptchaProviderAvailable,
+    isCaptchaVerified,
+    isPowFallbackLoading,
+    powWidgetRef,
+    powWidgetStrings,
+    resetCaptcha,
+    resetCaptchaWidgets,
+    turnstileWidgetRef,
+  };
+};

@@ -1,1 +1,239 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IHJlYWRGaWxlIH0gZnJvbSAibm9kZTpmcy9wcm9taXNlcyI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgppbXBvcnQgewogIGFyZUZpcmV3YWxsUG9ydExpc3RzRXF1YWwsCiAgTUFYX0ZJUkVXQUxMX0FERElUSU9OQUxfUE9SVFMsCiAgcmVzb2x2ZUZpcmV3YWxsQWRkaXRpb25hbFBvcnRzU3VjY2Vzc01lc3NhZ2VLZXksCiAgdmFsaWRhdGVGaXJld2FsbEFkZGl0aW9uYWxQb3J0RHJhZnQsCn0gZnJvbSAiLi4vc3JjL3ZpZXdzL3N5c3RlbS1zZXR0aW5ncy9maXJld2FsbEFkZGl0aW9uYWxQb3J0c01vZGVsIjsKaW1wb3J0IHsgY3JlYXRlRmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNDb250cm9sbGVyIH0gZnJvbSAiLi4vc3JjL3ZpZXdzL3N5c3RlbS1zZXR0aW5ncy91c2VGaXJld2FsbEFkZGl0aW9uYWxQb3J0cyI7CmltcG9ydCB0eXBlIHsgRmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNEZXRhaWxzIH0gZnJvbSAiLi4vc3JjL3R5cGVzIjsKCmNvbnN0IGRldGFpbHMgPSAoCiAgb3ZlcnJpZGVzOiBQYXJ0aWFsPEZpcmV3YWxsQWRkaXRpb25hbFBvcnRzRGV0YWlscz4gPSB7fSwKKTogRmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNEZXRhaWxzID0+ICh7CiAgYWRkaXRpb25hbFBvcnRzOiBbNTY2Nl0sCiAgYXV0b21hdGljUG9ydHM6IFs3OTk5XSwKICBlZmZlY3RpdmVQb3J0czogWzU2NjYsIDc5OTldLAogIHJ1blR5cGU6IDAsCiAgYXBwbGllZE5vdzogdHJ1ZSwKICAuLi5vdmVycmlkZXMsCn0pOwoKZGVzY3JpYmUoImZpcmV3YWxsIGFkZGl0aW9uYWwgcG9ydHMiLCAoKSA9PiB7CiAgaXQoImFjY2VwdHMgZW1wdHkgZHJhZnRzIGFuZCByZXR1cm5zIHNvcnRlZCB1bmlxdWUgaW50ZWdlciBwb3J0cyIsICgpID0+IHsKICAgIGFzc2VydC5kZWVwRXF1YWwodmFsaWRhdGVGaXJld2FsbEFkZGl0aW9uYWxQb3J0RHJhZnQoW10pLCB7CiAgICAgIHZhbGlkOiB0cnVlLAogICAgICBwb3J0czogW10sCiAgICB9KTsKICAgIGFzc2VydC5kZWVwRXF1YWwodmFsaWRhdGVGaXJld2FsbEFkZGl0aW9uYWxQb3J0RHJhZnQoWyIgNTY2NiAiLCAiNTMiXSksIHsKICAgICAgdmFsaWQ6IHRydWUsCiAgICAgIHBvcnRzOiBbNTMsIDU2NjZdLAogICAgfSk7CiAgfSk7CgogIGl0KCJyZWplY3RzIGJsYW5rLCBub24taW50ZWdlciwgb3V0LW9mLXJhbmdlLCBkdXBsaWNhdGUsIGFuZCBvdmVyc2l6ZWQgZHJhZnRzIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKHZhbGlkYXRlRmlyZXdhbGxBZGRpdGlvbmFsUG9ydERyYWZ0KFsiIl0pLnZhbGlkLCBmYWxzZSk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKHZhbGlkYXRlRmlyZXdhbGxBZGRpdGlvbmFsUG9ydERyYWZ0KFsiMS41Il0pLCB7CiAgICAgIHZhbGlkOiBmYWxzZSwKICAgICAgY29kZTogImludGVnZXIiLAogICAgICBpbmRleDogMCwKICAgIH0pOwogICAgYXNzZXJ0LmRlZXBFcXVhbCh2YWxpZGF0ZUZpcmV3YWxsQWRkaXRpb25hbFBvcnREcmFmdChbIjY1NTM2Il0pLCB7CiAgICAgIHZhbGlkOiBmYWxzZSwKICAgICAgY29kZTogInJhbmdlIiwKICAgICAgaW5kZXg6IDAsCiAgICB9KTsKICAgIGFzc2VydC5kZWVwRXF1YWwodmFsaWRhdGVGaXJld2FsbEFkZGl0aW9uYWxQb3J0RHJhZnQoWyI1MyIsICIwNTMiXSksIHsKICAgICAgdmFsaWQ6IGZhbHNlLAogICAgICBjb2RlOiAiZHVwbGljYXRlIiwKICAgICAgaW5kZXg6IDEsCiAgICB9KTsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIHZhbGlkYXRlRmlyZXdhbGxBZGRpdGlvbmFsUG9ydERyYWZ0KAogICAgICAgIEFycmF5LmZyb20oeyBsZW5ndGg6IE1BWF9GSVJFV0FMTF9BRERJVElPTkFMX1BPUlRTICsgMSB9LCAoXywgaW5kZXgpID0+CiAgICAgICAgICBTdHJpbmcoaW5kZXggKyAxKSwKICAgICAgICApLAogICAgICApLAogICAgICB7IHZhbGlkOiBmYWxzZSwgY29kZTogInRvb01hbnkiIH0sCiAgICApOwogIH0pOwoKICBpdCgiY29tcGFyZXMgc2F2ZWQgcG9ydCBzZXRzIGluZGVwZW5kZW50IG9mIG9yZGVyaW5nIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKGFyZUZpcmV3YWxsUG9ydExpc3RzRXF1YWwoWzU2NjYsIDUzXSwgWzUzLCA1NjY2XSksIHRydWUpOwogICAgYXNzZXJ0LmVxdWFsKGFyZUZpcmV3YWxsUG9ydExpc3RzRXF1YWwoWzUzXSwgWzUzLCA1NjY2XSksIGZhbHNlKTsKICB9KTsKCiAgaXQoImxvYWRzIGF1dGhvcml0YXRpdmVseSwgcHJlc2VydmVzIHRoZSBkaWFsb2cgb24gZmFpbHVyZSwgYW5kIHN1cHBvcnRzIHJldHJ5IiwgYXN5bmMgKCkgPT4gewogICAgbGV0IHJlYWRzID0gMDsKICAgIGxldCBsb2FkRXJyb3JzID0gMDsKICAgIGNvbnN0IGNvbnRyb2xsZXIgPSBjcmVhdGVGaXJld2FsbEFkZGl0aW9uYWxQb3J0c0NvbnRyb2xsZXIoCiAgICAgIHsKICAgICAgICBjYW5NYW5hZ2VIb3N0RmlyZXdhbGw6ICgpID0+IHRydWUsCiAgICAgICAgaGFzVW5zYXZlZE1vZGVDaGFuZ2VzOiAoKSA9PiBmYWxzZSwKICAgICAgfSwKICAgICAgewogICAgICAgIGdldERldGFpbHM6IGFzeW5jICgpID0+IHsKICAgICAgICAgIHJlYWRzICs9IDE7CiAgICAgICAgICBpZiAocmVhZHMgPT09IDEpIHRocm93IG5ldyBFcnJvcigibG9hZCBmYWlsZWQiKTsKICAgICAgICAgIHJldHVybiBkZXRhaWxzKCk7CiAgICAgICAgfSwKICAgICAgICB1cGRhdGVQb3J0czogYXN5bmMgKCkgPT4gZGV0YWlscygpLAogICAgICAgIG9uTG9hZEVycm9yOiAoKSA9PiB7CiAgICAgICAgICBsb2FkRXJyb3JzICs9IDE7CiAgICAgICAgfSwKICAgICAgICBvblNhdmVFcnJvcjogKCkgPT4gdW5kZWZpbmVkLAogICAgICAgIG9uVW5zdXBwb3J0ZWQ6ICgpID0+IHVuZGVmaW5lZCwKICAgICAgICBvblVwZGF0ZWQ6ICgpID0+IHVuZGVmaW5lZCwKICAgICAgICBvblNhdmVkOiAoKSA9PiB1bmRlZmluZWQsCiAgICAgIH0sCiAgICApOwoKICAgIGF3YWl0IGNvbnRyb2xsZXIub3BlbkRpYWxvZygpOwogICAgYXNzZXJ0LmVxdWFsKGNvbnRyb2xsZXIub3Blbi52YWx1ZSwgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwoY29udHJvbGxlci5sb2FkRmFpbGVkLnZhbHVlLCB0cnVlKTsKICAgIGFzc2VydC5lcXVhbChjb250cm9sbGVyLmRldGFpbHMudmFsdWUsIG51bGwpOwogICAgYXNzZXJ0LmVxdWFsKGxvYWRFcnJvcnMsIDEpOwoKICAgIGF3YWl0IGNvbnRyb2xsZXIubG9hZCgpOwogICAgYXNzZXJ0LmVxdWFsKGNvbnRyb2xsZXIubG9hZEZhaWxlZC52YWx1ZSwgZmFsc2UpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChjb250cm9sbGVyLmRldGFpbHMudmFsdWUsIGRldGFpbHMoKSk7CiAgfSk7CgogIGl0KCJrZWVwcyBzdGF0ZSBvbiBzYXZlIGZhaWx1cmUsIGJsb2NrcyBjbG9zaW5nIHdoaWxlIHNhdmluZywgYW5kIGV4cG9zZXMgcmV0dXJuZWQgcG9ydHMiLCBhc3luYyAoKSA9PiB7CiAgICBsZXQgdXBkYXRlQXR0ZW1wdHMgPSAwOwogICAgbGV0IHNhdmVFcnJvcnMgPSAwOwogICAgbGV0IHJlc29sdmVVcGRhdGU6ICgodmFsdWU6IEZpcmV3YWxsQWRkaXRpb25hbFBvcnRzRGV0YWlscykgPT4gdm9pZCkgfCBudWxsID0KICAgICAgbnVsbDsKICAgIGxldCB1cGRhdGVkOiBGaXJld2FsbEFkZGl0aW9uYWxQb3J0c0RldGFpbHMgfCBudWxsID0gbnVsbDsKICAgIGxldCBzYXZlZDogewogICAgICByZXN1bHQ6IEZpcmV3YWxsQWRkaXRpb25hbFBvcnRzRGV0YWlsczsKICAgICAgc2hvd1Vuc2F2ZWRNb2RlTm90aWNlOiBib29sZWFuOwogICAgfSB8IG51bGwgPSBudWxsOwogICAgY29uc3QgY29udHJvbGxlciA9IGNyZWF0ZUZpcmV3YWxsQWRkaXRpb25hbFBvcnRzQ29udHJvbGxlcigKICAgICAgewogICAgICAgIGNhbk1hbmFnZUhvc3RGaXJld2FsbDogKCkgPT4gdHJ1ZSwKICAgICAgICBoYXNVbnNhdmVkTW9kZUNoYW5nZXM6ICgpID0+IHRydWUsCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBnZXREZXRhaWxzOiBhc3luYyAoKSA9PiBkZXRhaWxzKCksCiAgICAgICAgdXBkYXRlUG9ydHM6IGFzeW5jICgpID0+IHsKICAgICAgICAgIHVwZGF0ZUF0dGVtcHRzICs9IDE7CiAgICAgICAgICBpZiAodXBkYXRlQXR0ZW1wdHMgPT09IDEpIHRocm93IG5ldyBFcnJvcigic2F2ZSBmYWlsZWQiKTsKICAgICAgICAgIHJldHVybiBuZXcgUHJvbWlzZTxGaXJld2FsbEFkZGl0aW9uYWxQb3J0c0RldGFpbHM+KChyZXNvbHZlKSA9PiB7CiAgICAgICAgICAgIHJlc29sdmVVcGRhdGUgPSByZXNvbHZlOwogICAgICAgICAgfSk7CiAgICAgICAgfSwKICAgICAgICBvbkxvYWRFcnJvcjogKCkgPT4gdW5kZWZpbmVkLAogICAgICAgIG9uU2F2ZUVycm9yOiAoKSA9PiB7CiAgICAgICAgICBzYXZlRXJyb3JzICs9IDE7CiAgICAgICAgfSwKICAgICAgICBvblVuc3VwcG9ydGVkOiAoKSA9PiB1bmRlZmluZWQsCiAgICAgICAgb25VcGRhdGVkOiAocmVzdWx0KSA9PiB7CiAgICAgICAgICB1cGRhdGVkID0gcmVzdWx0OwogICAgICAgIH0sCiAgICAgICAgb25TYXZlZDogKHJlc3VsdCwgc2hvd1Vuc2F2ZWRNb2RlTm90aWNlKSA9PiB7CiAgICAgICAgICBzYXZlZCA9IHsgcmVzdWx0LCBzaG93VW5zYXZlZE1vZGVOb3RpY2UgfTsKICAgICAgICB9LAogICAgICB9LAogICAgKTsKICAgIGF3YWl0IGNvbnRyb2xsZXIub3BlbkRpYWxvZygpOwoKICAgIGF3YWl0IGNvbnRyb2xsZXIuc2F2ZShbNTNdKTsKICAgIGFzc2VydC5lcXVhbChzYXZlRXJyb3JzLCAxKTsKICAgIGFzc2VydC5lcXVhbChjb250cm9sbGVyLm9wZW4udmFsdWUsIHRydWUpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChjb250cm9sbGVyLmRldGFpbHMudmFsdWUsIGRldGFpbHMoKSk7CgogICAgY29uc3Qgc2F2ZSA9IGNvbnRyb2xsZXIuc2F2ZShbNTMsIDU2NjZdKTsKICAgIGF3YWl0IFByb21pc2UucmVzb2x2ZSgpOwogICAgYXNzZXJ0LmVxdWFsKGNvbnRyb2xsZXIuc2F2aW5nLnZhbHVlLCB0cnVlKTsKICAgIGNvbnRyb2xsZXIudXBkYXRlT3BlbihmYWxzZSk7CiAgICBhc3NlcnQuZXF1YWwoY29udHJvbGxlci5vcGVuLnZhbHVlLCB0cnVlKTsKICAgIGNvbnN0IHJlc3VsdCA9IGRldGFpbHMoewogICAgICBhZGRpdGlvbmFsUG9ydHM6IFs1MywgNTY2Nl0sCiAgICAgIGVmZmVjdGl2ZVBvcnRzOiBbNTMsIDU2NjYsIDc5OTldLAogICAgfSk7CiAgICBhc3NlcnQub2socmVzb2x2ZVVwZGF0ZSk7CiAgICByZXNvbHZlVXBkYXRlKHJlc3VsdCk7CiAgICBhd2FpdCBzYXZlOwoKICAgIGFzc2VydC5lcXVhbChjb250cm9sbGVyLm9wZW4udmFsdWUsIGZhbHNlKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoY29udHJvbGxlci5kZXRhaWxzLnZhbHVlLCByZXN1bHQpOwogICAgYXNzZXJ0LmRlZXBFcXVhbCh1cGRhdGVkLCByZXN1bHQpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChzYXZlZCwgewogICAgICByZXN1bHQsCiAgICAgIHNob3dVbnNhdmVkTW9kZU5vdGljZTogdHJ1ZSwKICAgIH0pOwogIH0pOwoKICBpdCgic2VsZWN0cyBhY2N1cmF0ZSBmZWVkYmFjayBmb3IgaW1tZWRpYXRlLCBhdXRvbWF0aWMtbGF0ZXIsIGFuZCBtYW51YWwtbGF0ZXIgYXBwbHkiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHJlc29sdmVGaXJld2FsbEFkZGl0aW9uYWxQb3J0c1N1Y2Nlc3NNZXNzYWdlS2V5KAogICAgICAgIHsgYXBwbGllZE5vdzogdHJ1ZSB9LAogICAgICAgIGZhbHNlLAogICAgICApLAogICAgICAic2F2ZWRBbmRBcHBsaWVkRGVzY3JpcHRpb24iLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgcmVzb2x2ZUZpcmV3YWxsQWRkaXRpb25hbFBvcnRzU3VjY2Vzc01lc3NhZ2VLZXkoCiAgICAgICAgeyBhcHBsaWVkTm93OiBmYWxzZSB9LAogICAgICAgIHRydWUsCiAgICAgICksCiAgICAgICJzYXZlZEZvckxhdGVyRGVzY3JpcHRpb24iLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgcmVzb2x2ZUZpcmV3YWxsQWRkaXRpb25hbFBvcnRzU3VjY2Vzc01lc3NhZ2VLZXkoCiAgICAgICAgeyBhcHBsaWVkTm93OiBmYWxzZSB9LAogICAgICAgIGZhbHNlLAogICAgICApLAogICAgICAic2F2ZWRGb3JMYXRlck1hbnVhbERlc2NyaXB0aW9uIiwKICAgICk7CiAgfSk7CgogIGl0KCJrZWVwcyB0aGUgZW50cnkgYmVoaW5kIHRoZSBleGlzdGluZyBob3N0LWZpcmV3YWxsIGNhcGFiaWxpdHkiLCBhc3luYyAoKSA9PiB7CiAgICBsZXQgcmVxdWVzdHMgPSAwOwogICAgbGV0IHVuc3VwcG9ydGVkID0gMDsKICAgIGNvbnN0IGNvbnRyb2xsZXIgPSBjcmVhdGVGaXJld2FsbEFkZGl0aW9uYWxQb3J0c0NvbnRyb2xsZXIoCiAgICAgIHsKICAgICAgICBjYW5NYW5hZ2VIb3N0RmlyZXdhbGw6ICgpID0+IGZhbHNlLAogICAgICAgIGhhc1Vuc2F2ZWRNb2RlQ2hhbmdlczogKCkgPT4gZmFsc2UsCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBnZXREZXRhaWxzOiBhc3luYyAoKSA9PiB7CiAgICAgICAgICByZXF1ZXN0cyArPSAxOwogICAgICAgICAgcmV0dXJuIGRldGFpbHMoKTsKICAgICAgICB9LAogICAgICAgIHVwZGF0ZVBvcnRzOiBhc3luYyAoKSA9PiB7CiAgICAgICAgICByZXF1ZXN0cyArPSAxOwogICAgICAgICAgcmV0dXJuIGRldGFpbHMoKTsKICAgICAgICB9LAogICAgICAgIG9uTG9hZEVycm9yOiAoKSA9PiB1bmRlZmluZWQsCiAgICAgICAgb25TYXZlRXJyb3I6ICgpID0+IHVuZGVmaW5lZCwKICAgICAgICBvblVuc3VwcG9ydGVkOiAoKSA9PiB7CiAgICAgICAgICB1bnN1cHBvcnRlZCArPSAxOwogICAgICAgIH0sCiAgICAgICAgb25VcGRhdGVkOiAoKSA9PiB1bmRlZmluZWQsCiAgICAgICAgb25TYXZlZDogKCkgPT4gdW5kZWZpbmVkLAogICAgICB9LAogICAgKTsKICAgIGF3YWl0IGNvbnRyb2xsZXIub3BlbkRpYWxvZygpOwogICAgYXNzZXJ0LmVxdWFsKHJlcXVlc3RzLCAwKTsKICAgIGFzc2VydC5lcXVhbCh1bnN1cHBvcnRlZCwgMSk7CiAgICBhc3NlcnQuZXF1YWwoY29udHJvbGxlci5vcGVuLnZhbHVlLCBmYWxzZSk7CgogICAgY29uc3Qgc291cmNlID0gYXdhaXQgcmVhZEZpbGUoCiAgICAgIG5ldyBVUkwoCiAgICAgICAgIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvUnVuTW9kZVNldHRpbmdzLnZ1ZSIsCiAgICAgICAgaW1wb3J0Lm1ldGEudXJsLAogICAgICApLAogICAgICAidXRmOCIsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHNvdXJjZSwgLzxEcm9wZG93bk1lbnUgdi1pZj0iY2FuTWFuYWdlSG9zdEZpcmV3YWxsIj4vdSk7CiAgICBhc3NlcnQubWF0Y2goc291cmNlLCAvYWRkaXRpb25hbFBvcnRzXC5tZW51L3UpOwogICAgYXNzZXJ0Lm1hdGNoKHNvdXJjZSwgL0ZpcmV3YWxsQWRkaXRpb25hbFBvcnRzRGlhbG9nL3UpOwogIH0pOwp9KTsK
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+import { describe, it } from "node:test";
+
+import {
+  areFirewallPortListsEqual,
+  MAX_FIREWALL_ADDITIONAL_PORTS,
+  resolveFirewallAdditionalPortsSuccessMessageKey,
+  validateFirewallAdditionalPortDraft,
+} from "../src/views/system-settings/firewallAdditionalPortsModel";
+import { createFirewallAdditionalPortsController } from "../src/views/system-settings/useFirewallAdditionalPorts";
+import type { FirewallAdditionalPortsDetails } from "../src/types";
+
+const details = (
+  overrides: Partial<FirewallAdditionalPortsDetails> = {},
+): FirewallAdditionalPortsDetails => ({
+  additionalPorts: [5666],
+  automaticPorts: [7999],
+  effectivePorts: [5666, 7999],
+  runType: 0,
+  appliedNow: true,
+  ...overrides,
+});
+
+describe("firewall additional ports", () => {
+  it("accepts empty drafts and returns sorted unique integer ports", () => {
+    assert.deepEqual(validateFirewallAdditionalPortDraft([]), {
+      valid: true,
+      ports: [],
+    });
+    assert.deepEqual(validateFirewallAdditionalPortDraft([" 5666 ", "53"]), {
+      valid: true,
+      ports: [53, 5666],
+    });
+  });
+
+  it("rejects blank, non-integer, out-of-range, duplicate, and oversized drafts", () => {
+    assert.equal(validateFirewallAdditionalPortDraft([""]).valid, false);
+    assert.deepEqual(validateFirewallAdditionalPortDraft(["1.5"]), {
+      valid: false,
+      code: "integer",
+      index: 0,
+    });
+    assert.deepEqual(validateFirewallAdditionalPortDraft(["65536"]), {
+      valid: false,
+      code: "range",
+      index: 0,
+    });
+    assert.deepEqual(validateFirewallAdditionalPortDraft(["53", "053"]), {
+      valid: false,
+      code: "duplicate",
+      index: 1,
+    });
+    assert.deepEqual(
+      validateFirewallAdditionalPortDraft(
+        Array.from({ length: MAX_FIREWALL_ADDITIONAL_PORTS + 1 }, (_, index) =>
+          String(index + 1),
+        ),
+      ),
+      { valid: false, code: "tooMany" },
+    );
+  });
+
+  it("compares saved port sets independent of ordering", () => {
+    assert.equal(areFirewallPortListsEqual([5666, 53], [53, 5666]), true);
+    assert.equal(areFirewallPortListsEqual([53], [53, 5666]), false);
+  });
+
+  it("loads authoritatively, preserves the dialog on failure, and supports retry", async () => {
+    let reads = 0;
+    let loadErrors = 0;
+    const controller = createFirewallAdditionalPortsController(
+      {
+        canManageHostFirewall: () => true,
+        hasUnsavedModeChanges: () => false,
+      },
+      {
+        getDetails: async () => {
+          reads += 1;
+          if (reads === 1) throw new Error("load failed");
+          return details();
+        },
+        updatePorts: async () => details(),
+        onLoadError: () => {
+          loadErrors += 1;
+        },
+        onSaveError: () => undefined,
+        onUnsupported: () => undefined,
+        onUpdated: () => undefined,
+        onSaved: () => undefined,
+      },
+    );
+
+    await controller.openDialog();
+    assert.equal(controller.open.value, true);
+    assert.equal(controller.loadFailed.value, true);
+    assert.equal(controller.details.value, null);
+    assert.equal(loadErrors, 1);
+
+    await controller.load();
+    assert.equal(controller.loadFailed.value, false);
+    assert.deepEqual(controller.details.value, details());
+  });
+
+  it("keeps state on save failure, blocks closing while saving, and exposes returned ports", async () => {
+    let updateAttempts = 0;
+    let saveErrors = 0;
+    let resolveUpdate: ((value: FirewallAdditionalPortsDetails) => void) | null =
+      null;
+    let updated: FirewallAdditionalPortsDetails | null = null;
+    let saved: {
+      result: FirewallAdditionalPortsDetails;
+      showUnsavedModeNotice: boolean;
+    } | null = null;
+    const controller = createFirewallAdditionalPortsController(
+      {
+        canManageHostFirewall: () => true,
+        hasUnsavedModeChanges: () => true,
+      },
+      {
+        getDetails: async () => details(),
+        updatePorts: async () => {
+          updateAttempts += 1;
+          if (updateAttempts === 1) throw new Error("save failed");
+          return new Promise<FirewallAdditionalPortsDetails>((resolve) => {
+            resolveUpdate = resolve;
+          });
+        },
+        onLoadError: () => undefined,
+        onSaveError: () => {
+          saveErrors += 1;
+        },
+        onUnsupported: () => undefined,
+        onUpdated: (result) => {
+          updated = result;
+        },
+        onSaved: (result, showUnsavedModeNotice) => {
+          saved = { result, showUnsavedModeNotice };
+        },
+      },
+    );
+    await controller.openDialog();
+
+    await controller.save([53]);
+    assert.equal(saveErrors, 1);
+    assert.equal(controller.open.value, true);
+    assert.deepEqual(controller.details.value, details());
+
+    const save = controller.save([53, 5666]);
+    await Promise.resolve();
+    assert.equal(controller.saving.value, true);
+    controller.updateOpen(false);
+    assert.equal(controller.open.value, true);
+    const result = details({
+      additionalPorts: [53, 5666],
+      effectivePorts: [53, 5666, 7999],
+    });
+    assert.ok(resolveUpdate);
+    resolveUpdate(result);
+    await save;
+
+    assert.equal(controller.open.value, false);
+    assert.deepEqual(controller.details.value, result);
+    assert.deepEqual(updated, result);
+    assert.deepEqual(saved, {
+      result,
+      showUnsavedModeNotice: true,
+    });
+  });
+
+  it("selects accurate feedback for immediate, automatic-later, and manual-later apply", () => {
+    assert.equal(
+      resolveFirewallAdditionalPortsSuccessMessageKey(
+        { appliedNow: true },
+        false,
+      ),
+      "savedAndAppliedDescription",
+    );
+    assert.equal(
+      resolveFirewallAdditionalPortsSuccessMessageKey(
+        { appliedNow: false },
+        true,
+      ),
+      "savedForLaterDescription",
+    );
+    assert.equal(
+      resolveFirewallAdditionalPortsSuccessMessageKey(
+        { appliedNow: false },
+        false,
+      ),
+      "savedForLaterManualDescription",
+    );
+  });
+
+  it("keeps the entry behind the existing host-firewall capability", async () => {
+    let requests = 0;
+    let unsupported = 0;
+    const controller = createFirewallAdditionalPortsController(
+      {
+        canManageHostFirewall: () => false,
+        hasUnsavedModeChanges: () => false,
+      },
+      {
+        getDetails: async () => {
+          requests += 1;
+          return details();
+        },
+        updatePorts: async () => {
+          requests += 1;
+          return details();
+        },
+        onLoadError: () => undefined,
+        onSaveError: () => undefined,
+        onUnsupported: () => {
+          unsupported += 1;
+        },
+        onUpdated: () => undefined,
+        onSaved: () => undefined,
+      },
+    );
+    await controller.openDialog();
+    assert.equal(requests, 0);
+    assert.equal(unsupported, 1);
+    assert.equal(controller.open.value, false);
+
+    const source = await readFile(
+      new URL(
+        "../src/views/system-settings/RunModeSettings.vue",
+        import.meta.url,
+      ),
+      "utf8",
+    );
+    assert.match(source, /<DropdownMenu v-if="canManageHostFirewall">/u);
+    assert.match(source, /additionalPorts\.menu/u);
+    assert.match(source, /FirewallAdditionalPortsDialog/u);
+  });
+});

@@ -1,1 +1,250 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IGRvd25sb2FkQmxvYiB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvZG93bmxvYWRCbG9iIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgQ29uZmlnQVBJIH0gZnJvbSAiQC9saWIvYXBpL2NvbmZpZyI7CmltcG9ydCB0eXBlIHsKICBBdXRoQWNjb3VudCwKICBBdXRoTG9naW5Nb2RlLAogIFRPVFBDcmVkZW50aWFsLAogIFRPVFBDcmVkZW50aWFsSW1wb3J0U3VtbWFyeSwKfSBmcm9tICIuLi8uLi90eXBlcyI7Cgpjb25zdCBNQVhfSU1QT1JUX0ZJTEVfU0laRSA9IDUxMiAqIDEwMjQ7Cgp0eXBlIFRyYW5zbGF0ZSA9IChrZXk6IHN0cmluZywgcGFyYW1zPzogUmVjb3JkPHN0cmluZywgdW5rbm93bj4pID0+IHN0cmluZzsKCmludGVyZmFjZSBVc2VBdXRoQ3JlZGVudGlhbFRyYW5zZmVyT3B0aW9ucyB7CiAgYXV0aEFjY291bnRzOiBSZWY8QXV0aEFjY291bnRbXT47CiAgYXV0aExvZ2luTW9kZTogUmVmPEF1dGhMb2dpbk1vZGU+OwogIGNyZWRlbnRpYWxzOiBSZWY8VE9UUENyZWRlbnRpYWxbXT47CiAgcmVmcmVzaFN0YXR1czogKCkgPT4gUHJvbWlzZTx1bmtub3duPjsKICB0cmFuc2xhdGU6IFRyYW5zbGF0ZTsKfQoKZXhwb3J0IGZ1bmN0aW9uIHVzZUF1dGhDcmVkZW50aWFsVHJhbnNmZXIoewogIGF1dGhBY2NvdW50cywKICBhdXRoTG9naW5Nb2RlLAogIGNyZWRlbnRpYWxzLAogIHJlZnJlc2hTdGF0dXMsCiAgdHJhbnNsYXRlLAp9OiBVc2VBdXRoQ3JlZGVudGlhbFRyYW5zZmVyT3B0aW9ucykgewogIGNvbnN0IGNyZWRlbnRpYWxJbXBvcnRJbnB1dFJlZiA9IHJlZjxIVE1MSW5wdXRFbGVtZW50IHwgbnVsbD4obnVsbCk7CiAgY29uc3Qgc2hvd0NyZWRlbnRpYWxUcmFuc2ZlckRpYWxvZyA9IHJlZihmYWxzZSk7CiAgY29uc3Qgc2hvd0V4cG9ydERpYWxvZyA9IHJlZihmYWxzZSk7CiAgY29uc3Qgc2hvd0ltcG9ydERpYWxvZyA9IHJlZihmYWxzZSk7CiAgY29uc3QgcGVuZGluZ0NyZWRlbnRpYWxJbXBvcnRQYXlsb2FkID0gcmVmPHVua25vd24+KG51bGwpOwogIGNvbnN0IHBlbmRpbmdDcmVkZW50aWFsSW1wb3J0RmlsZW5hbWUgPSByZWYoIiIpOwoKICBjb25zdCB7IGlzUGVuZGluZzogaXNFeHBvcnRpbmdDcmVkZW50aWFscywgcnVuOiBydW5FeHBvcnRDcmVkZW50aWFscyB9ID0KICAgIHVzZUFzeW5jQWN0aW9uKHsKICAgICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgICAgdG9hc3QuZXJyb3IoCiAgICAgICAgICBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgICBlcnJvciwKICAgICAgICAgICAgdHJhbnNsYXRlKCJhZG1pbi5hdXRoU2V0dGluZ3MuZXhwb3J0Q3JlZGVudGlhbHNGYWlsZWQiKSwKICAgICAgICAgICksCiAgICAgICAgKTsKICAgICAgfSwKICAgIH0pOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc0ltcG9ydGluZ0NyZWRlbnRpYWxzLCBydW46IHJ1bkltcG9ydENyZWRlbnRpYWxzIH0gPQogICAgdXNlQXN5bmNBY3Rpb24oewogICAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgICB0b2FzdC5lcnJvcigKICAgICAgICAgIGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICAgIGVycm9yLAogICAgICAgICAgICB0cmFuc2xhdGUoImFkbWluLmF1dGhTZXR0aW5ncy5pbXBvcnRDcmVkZW50aWFsc0ZhaWxlZCIpLAogICAgICAgICAgKSwKICAgICAgICApOwogICAgICB9LAogICAgfSk7CgogIGNvbnN0IGlzQ3JlZGVudGlhbFRyYW5zZmVyQnVzeSA9IGNvbXB1dGVkKAogICAgKCkgPT4gaXNFeHBvcnRpbmdDcmVkZW50aWFscy52YWx1ZSB8fCBpc0ltcG9ydGluZ0NyZWRlbnRpYWxzLnZhbHVlLAogICk7CiAgY29uc3QgZXhwb3J0YWJsZUNyZWRlbnRpYWxDb3VudCA9IGNvbXB1dGVkKCgpID0+CiAgICBhdXRoTG9naW5Nb2RlLnZhbHVlID09PSAicGFzc3dvcmQiCiAgICAgID8gYXV0aEFjY291bnRzLnZhbHVlLmxlbmd0aAogICAgICA6IGNyZWRlbnRpYWxzLnZhbHVlLmxlbmd0aCwKICApOwoKICBmdW5jdGlvbiBidWlsZENyZWRlbnRpYWxFeHBvcnRGaWxlbmFtZSgpIHsKICAgIGNvbnN0IHByZWZpeCA9CiAgICAgIGF1dGhMb2dpbk1vZGUudmFsdWUgPT09ICJwYXNzd29yZCIKICAgICAgICA/ICJmbi1rbm9jay1wYXNzd29yZC1jcmVkZW50aWFscyIKICAgICAgICA6ICJmbi1rbm9jay10b3RwLWNyZWRlbnRpYWxzIjsKICAgIHJldHVybiBgJHtwcmVmaXh9LSR7bmV3IERhdGUoKS50b0lTT1N0cmluZygpLnJlcGxhY2UoL1s6Ll0vZywgIi0iKX0uanNvbmA7CiAgfQoKICBmdW5jdGlvbiByZXNldFBlbmRpbmdDcmVkZW50aWFsSW1wb3J0KCkgewogICAgcGVuZGluZ0NyZWRlbnRpYWxJbXBvcnRQYXlsb2FkLnZhbHVlID0gbnVsbDsKICAgIHBlbmRpbmdDcmVkZW50aWFsSW1wb3J0RmlsZW5hbWUudmFsdWUgPSAiIjsKICB9CgogIGZ1bmN0aW9uIHJlc2V0Q3JlZGVudGlhbEltcG9ydElucHV0KCkgewogICAgaWYgKGNyZWRlbnRpYWxJbXBvcnRJbnB1dFJlZi52YWx1ZSkgewogICAgICBjcmVkZW50aWFsSW1wb3J0SW5wdXRSZWYudmFsdWUudmFsdWUgPSAiIjsKICAgIH0KICB9CgogIGZ1bmN0aW9uIHNldENyZWRlbnRpYWxJbXBvcnRJbnB1dChlbGVtZW50OiB1bmtub3duKSB7CiAgICBjcmVkZW50aWFsSW1wb3J0SW5wdXRSZWYudmFsdWUgPQogICAgICBlbGVtZW50IGluc3RhbmNlb2YgSFRNTElucHV0RWxlbWVudCA/IGVsZW1lbnQgOiBudWxsOwogIH0KCiAgZnVuY3Rpb24gb3BlbkV4cG9ydERpYWxvZygpIHsKICAgIGlmICgKICAgICAgZXhwb3J0YWJsZUNyZWRlbnRpYWxDb3VudC52YWx1ZSA9PT0gMCB8fAogICAgICBpc0NyZWRlbnRpYWxUcmFuc2ZlckJ1c3kudmFsdWUKICAgICkgewogICAgICByZXR1cm47CiAgICB9CiAgICBzaG93RXhwb3J0RGlhbG9nLnZhbHVlID0gdHJ1ZTsKICB9CgogIGZ1bmN0aW9uIG9wZW5FeHBvcnREaWFsb2dGcm9tQ3JlZGVudGlhbFRyYW5zZmVyRGlhbG9nKCkgewogICAgc2hvd0NyZWRlbnRpYWxUcmFuc2ZlckRpYWxvZy52YWx1ZSA9IGZhbHNlOwogICAgb3BlbkV4cG9ydERpYWxvZygpOwogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlRXhwb3J0Q3JlZGVudGlhbHMoKSB7CiAgICBhd2FpdCBydW5FeHBvcnRDcmVkZW50aWFscyhhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IGJsb2IgPSBhd2FpdCBDb25maWdBUEkuZG93bmxvYWRUT1RQQ3JlZGVudGlhbHMoKTsKICAgICAgZG93bmxvYWRCbG9iKGJsb2IsIGJ1aWxkQ3JlZGVudGlhbEV4cG9ydEZpbGVuYW1lKCkpOwogICAgICBzaG93RXhwb3J0RGlhbG9nLnZhbHVlID0gZmFsc2U7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModHJhbnNsYXRlKCJhZG1pbi5hdXRoU2V0dGluZ3MuZXhwb3J0Q3JlZGVudGlhbHNTdGFydGVkIikpOwogICAgfSk7CiAgfQoKICBmdW5jdGlvbiB0cmlnZ2VySW1wb3J0RmlsZVBpY2tlcigpIHsKICAgIGlmIChpc0NyZWRlbnRpYWxUcmFuc2ZlckJ1c3kudmFsdWUpIHJldHVybjsKICAgIHJlc2V0Q3JlZGVudGlhbEltcG9ydElucHV0KCk7CiAgICBjcmVkZW50aWFsSW1wb3J0SW5wdXRSZWYudmFsdWU/LmNsaWNrKCk7CiAgfQoKICBmdW5jdGlvbiB0cmlnZ2VySW1wb3J0RmlsZVBpY2tlckZyb21DcmVkZW50aWFsVHJhbnNmZXJEaWFsb2coKSB7CiAgICBzaG93Q3JlZGVudGlhbFRyYW5zZmVyRGlhbG9nLnZhbHVlID0gZmFsc2U7CiAgICB0cmlnZ2VySW1wb3J0RmlsZVBpY2tlcigpOwogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlQ3JlZGVudGlhbEltcG9ydEZpbGVDaGFuZ2UoZXZlbnQ6IEV2ZW50KSB7CiAgICBjb25zdCBpbnB1dCA9IGV2ZW50LnRhcmdldCBhcyBIVE1MSW5wdXRFbGVtZW50IHwgbnVsbDsKICAgIGNvbnN0IGZpbGUgPSBpbnB1dD8uZmlsZXM/LlswXSA/PyBudWxsOwogICAgcmVzZXRQZW5kaW5nQ3JlZGVudGlhbEltcG9ydCgpOwoKICAgIGlmICghZmlsZSkgcmV0dXJuOwoKICAgIGlmICgKICAgICAgIWZpbGUubmFtZS50b0xvd2VyQ2FzZSgpLmVuZHNXaXRoKCIuanNvbiIpICYmCiAgICAgIGZpbGUudHlwZSAhPT0gImFwcGxpY2F0aW9uL2pzb24iCiAgICApIHsKICAgICAgdG9hc3QuZXJyb3IodHJhbnNsYXRlKCJhZG1pbi5hdXRoU2V0dGluZ3MuaW1wb3J0Q3JlZGVudGlhbHNJbnZhbGlkRmlsZSIpKTsKICAgICAgcmVzZXRDcmVkZW50aWFsSW1wb3J0SW5wdXQoKTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGlmIChmaWxlLnNpemUgPiBNQVhfSU1QT1JUX0ZJTEVfU0laRSkgewogICAgICB0b2FzdC5lcnJvcigKICAgICAgICB0cmFuc2xhdGUoImFkbWluLmF1dGhTZXR0aW5ncy5pbXBvcnRDcmVkZW50aWFsc0ZpbGVUb29MYXJnZSIpLAogICAgICAgIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiB0cmFuc2xhdGUoCiAgICAgICAgICAgICJhZG1pbi5hdXRoU2V0dGluZ3MuaW1wb3J0Q3JlZGVudGlhbHNGaWxlVG9vTGFyZ2VEZXRhaWwiLAogICAgICAgICAgICB7IHNpemU6IE1hdGguZmxvb3IoTUFYX0lNUE9SVF9GSUxFX1NJWkUgLyAxMDI0KSB9LAogICAgICAgICAgKSwKICAgICAgICB9LAogICAgICApOwogICAgICByZXNldENyZWRlbnRpYWxJbXBvcnRJbnB1dCgpOwogICAgICByZXR1cm47CiAgICB9CgogICAgdHJ5IHsKICAgICAgcGVuZGluZ0NyZWRlbnRpYWxJbXBvcnRQYXlsb2FkLnZhbHVlID0gSlNPTi5wYXJzZShhd2FpdCBmaWxlLnRleHQoKSk7CiAgICAgIHBlbmRpbmdDcmVkZW50aWFsSW1wb3J0RmlsZW5hbWUudmFsdWUgPSBmaWxlLm5hbWU7CiAgICAgIHNob3dJbXBvcnREaWFsb2cudmFsdWUgPSB0cnVlOwogICAgfSBjYXRjaCB7CiAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uYXV0aFNldHRpbmdzLmltcG9ydENyZWRlbnRpYWxzUGFyc2VGYWlsZWQiKSk7CiAgICB9IGZpbmFsbHkgewogICAgICByZXNldENyZWRlbnRpYWxJbXBvcnRJbnB1dCgpOwogICAgfQogIH0KCiAgZnVuY3Rpb24gYnVpbGRJbXBvcnRTdW1tYXJ5RGVzY3JpcHRpb24oc3VtbWFyeTogVE9UUENyZWRlbnRpYWxJbXBvcnRTdW1tYXJ5KSB7CiAgICBpZiAoCiAgICAgIHN1bW1hcnkua2luZCA9PT0gInBhc3N3b3JkIiB8fAogICAgICBzdW1tYXJ5LmxvZ2luX21vZGUgPT09ICJwYXNzd29yZCIgfHwKICAgICAgdHlwZW9mIHN1bW1hcnkucGFzc3dvcmRfdG90YWwgPT09ICJudW1iZXIiCiAgICApIHsKICAgICAgcmV0dXJuIHRyYW5zbGF0ZSgiYWRtaW4uYXV0aFNldHRpbmdzLmltcG9ydFBhc3N3b3JkQ3JlZGVudGlhbHNTdW1tYXJ5IiwgewogICAgICAgIHRvdGFsOiBzdW1tYXJ5LnRvdGFsLAogICAgICAgIGltcG9ydGVkOiBzdW1tYXJ5LmltcG9ydGVkLAogICAgICAgIHNraXBwZWRFeGlzdGluZ0lkOiBzdW1tYXJ5LnNraXBwZWRfZXhpc3RpbmdfaWQsCiAgICAgICAgc2tpcHBlZEV4aXN0aW5nVXNlcm5hbWU6IHN1bW1hcnkuc2tpcHBlZF9leGlzdGluZ191c2VybmFtZSA/PyAwLAogICAgICAgIHNraXBwZWRGaWxlRHVwbGljYXRlOiBzdW1tYXJ5LnNraXBwZWRfZmlsZV9kdXBsaWNhdGUsCiAgICAgICAgaW52YWxpZDogc3VtbWFyeS5pbnZhbGlkLAogICAgICAgIHBhc3N3b3JkVG90YWw6IHN1bW1hcnkucGFzc3dvcmRfdG90YWwgPz8gMCwKICAgICAgICBwYXNzd29yZEltcG9ydGVkOiBzdW1tYXJ5LnBhc3N3b3JkX2ltcG9ydGVkID8/IDAsCiAgICAgICAgcGFzc3dvcmRTa2lwcGVkRXhpc3Rpbmc6IHN1bW1hcnkucGFzc3dvcmRfc2tpcHBlZF9leGlzdGluZyA/PyAwLAogICAgICAgIHBhc3N3b3JkU2tpcHBlZE1pc3NpbmdBY2NvdW50OgogICAgICAgICAgc3VtbWFyeS5wYXNzd29yZF9za2lwcGVkX21pc3NpbmdfYWNjb3VudCA/PyAwLAogICAgICAgIHBhc3N3b3JkU2tpcHBlZEZpbGVEdXBsaWNhdGU6CiAgICAgICAgICBzdW1tYXJ5LnBhc3N3b3JkX3NraXBwZWRfZmlsZV9kdXBsaWNhdGUgPz8gMCwKICAgICAgICBwYXNzd29yZEludmFsaWQ6IHN1bW1hcnkucGFzc3dvcmRfaW52YWxpZCA/PyAwLAogICAgICAgIHRvdHBUb3RhbDogc3VtbWFyeS50b3RwX3RvdGFsID8/IDAsCiAgICAgICAgdG90cEltcG9ydGVkOiBzdW1tYXJ5LnRvdHBfaW1wb3J0ZWQgPz8gMCwKICAgICAgfSk7CiAgICB9CgogICAgcmV0dXJuIHRyYW5zbGF0ZSgiYWRtaW4uYXV0aFNldHRpbmdzLmltcG9ydENyZWRlbnRpYWxzU3VtbWFyeSIsIHsKICAgICAgaW1wb3J0ZWQ6IHN1bW1hcnkuaW1wb3J0ZWQsCiAgICAgIHNraXBwZWRFeGlzdGluZ0lkOiBzdW1tYXJ5LnNraXBwZWRfZXhpc3RpbmdfaWQsCiAgICAgIHNraXBwZWRFeGlzdGluZ1NlY3JldDogc3VtbWFyeS5za2lwcGVkX2V4aXN0aW5nX3NlY3JldCA/PyAwLAogICAgICBza2lwcGVkRmlsZUR1cGxpY2F0ZTogc3VtbWFyeS5za2lwcGVkX2ZpbGVfZHVwbGljYXRlLAogICAgICBpbnZhbGlkOiBzdW1tYXJ5LmludmFsaWQsCiAgICAgIHRvdGFsOiBzdW1tYXJ5LnRvdGFsLAogICAgfSk7CiAgfQoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVJbXBvcnRDcmVkZW50aWFscygpIHsKICAgIGNvbnN0IHBheWxvYWQgPSBwZW5kaW5nQ3JlZGVudGlhbEltcG9ydFBheWxvYWQudmFsdWU7CiAgICBpZiAoIXBheWxvYWQpIHsKICAgICAgdG9hc3QuZXJyb3IoCiAgICAgICAgdHJhbnNsYXRlKCJhZG1pbi5hdXRoU2V0dGluZ3MuaW1wb3J0Q3JlZGVudGlhbHNDaG9vc2VGaWxlRmlyc3QiKSwKICAgICAgKTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGF3YWl0IHJ1bkltcG9ydENyZWRlbnRpYWxzKGFzeW5jICgpID0+IHsKICAgICAgY29uc3Qgc3VtbWFyeSA9IGF3YWl0IENvbmZpZ0FQSS5pbXBvcnRUT1RQQ3JlZGVudGlhbHMocGF5bG9hZCk7CiAgICAgIHNob3dJbXBvcnREaWFsb2cudmFsdWUgPSBmYWxzZTsKICAgICAgcmVzZXRQZW5kaW5nQ3JlZGVudGlhbEltcG9ydCgpOwogICAgICBhd2FpdCByZWZyZXNoU3RhdHVzKCk7CiAgICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgICAgdHJhbnNsYXRlKCJhZG1pbi5hdXRoU2V0dGluZ3MuaW1wb3J0Q3JlZGVudGlhbHNDb21wbGV0ZWQiKSwKICAgICAgICB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogYnVpbGRJbXBvcnRTdW1tYXJ5RGVzY3JpcHRpb24oc3VtbWFyeSksCiAgICAgICAgfSwKICAgICAgKTsKICAgIH0pOwogIH0KCiAgcmV0dXJuIHsKICAgIGV4cG9ydGFibGVDcmVkZW50aWFsQ291bnQsCiAgICBoYW5kbGVDcmVkZW50aWFsSW1wb3J0RmlsZUNoYW5nZSwKICAgIGhhbmRsZUV4cG9ydENyZWRlbnRpYWxzLAogICAgaGFuZGxlSW1wb3J0Q3JlZGVudGlhbHMsCiAgICBpc0NyZWRlbnRpYWxUcmFuc2ZlckJ1c3ksCiAgICBpc0V4cG9ydGluZ0NyZWRlbnRpYWxzLAogICAgaXNJbXBvcnRpbmdDcmVkZW50aWFscywKICAgIG9wZW5FeHBvcnREaWFsb2dGcm9tQ3JlZGVudGlhbFRyYW5zZmVyRGlhbG9nLAogICAgcGVuZGluZ0NyZWRlbnRpYWxJbXBvcnRGaWxlbmFtZSwKICAgIHJlc2V0UGVuZGluZ0NyZWRlbnRpYWxJbXBvcnQsCiAgICBzZXRDcmVkZW50aWFsSW1wb3J0SW5wdXQsCiAgICBzaG93Q3JlZGVudGlhbFRyYW5zZmVyRGlhbG9nLAogICAgc2hvd0V4cG9ydERpYWxvZywKICAgIHNob3dJbXBvcnREaWFsb2csCiAgICB0cmlnZ2VySW1wb3J0RmlsZVBpY2tlckZyb21DcmVkZW50aWFsVHJhbnNmZXJEaWFsb2csCiAgfTsKfQo=
+import { computed, ref, type Ref } from "vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { downloadBlob } from "@admin-shared/utils/downloadBlob";
+import { toast } from "@admin-shared/utils/toast";
+import { ConfigAPI } from "@/lib/api/config";
+import type {
+  AuthAccount,
+  AuthLoginMode,
+  TOTPCredential,
+  TOTPCredentialImportSummary,
+} from "../../types";
+
+const MAX_IMPORT_FILE_SIZE = 512 * 1024;
+
+type Translate = (key: string, params?: Record<string, unknown>) => string;
+
+interface UseAuthCredentialTransferOptions {
+  authAccounts: Ref<AuthAccount[]>;
+  authLoginMode: Ref<AuthLoginMode>;
+  credentials: Ref<TOTPCredential[]>;
+  refreshStatus: () => Promise<unknown>;
+  translate: Translate;
+}
+
+export function useAuthCredentialTransfer({
+  authAccounts,
+  authLoginMode,
+  credentials,
+  refreshStatus,
+  translate,
+}: UseAuthCredentialTransferOptions) {
+  const credentialImportInputRef = ref<HTMLInputElement | null>(null);
+  const showCredentialTransferDialog = ref(false);
+  const showExportDialog = ref(false);
+  const showImportDialog = ref(false);
+  const pendingCredentialImportPayload = ref<unknown>(null);
+  const pendingCredentialImportFilename = ref("");
+
+  const { isPending: isExportingCredentials, run: runExportCredentials } =
+    useAsyncAction({
+      onError: (error) => {
+        toast.error(
+          extractErrorMessage(
+            error,
+            translate("admin.authSettings.exportCredentialsFailed"),
+          ),
+        );
+      },
+    });
+  const { isPending: isImportingCredentials, run: runImportCredentials } =
+    useAsyncAction({
+      onError: (error) => {
+        toast.error(
+          extractErrorMessage(
+            error,
+            translate("admin.authSettings.importCredentialsFailed"),
+          ),
+        );
+      },
+    });
+
+  const isCredentialTransferBusy = computed(
+    () => isExportingCredentials.value || isImportingCredentials.value,
+  );
+  const exportableCredentialCount = computed(() =>
+    authLoginMode.value === "password"
+      ? authAccounts.value.length
+      : credentials.value.length,
+  );
+
+  function buildCredentialExportFilename() {
+    const prefix =
+      authLoginMode.value === "password"
+        ? "fn-knock-password-credentials"
+        : "fn-knock-totp-credentials";
+    return `${prefix}-${new Date().toISOString().replace(/[:.]/g, "-")}.json`;
+  }
+
+  function resetPendingCredentialImport() {
+    pendingCredentialImportPayload.value = null;
+    pendingCredentialImportFilename.value = "";
+  }
+
+  function resetCredentialImportInput() {
+    if (credentialImportInputRef.value) {
+      credentialImportInputRef.value.value = "";
+    }
+  }
+
+  function setCredentialImportInput(element: unknown) {
+    credentialImportInputRef.value =
+      element instanceof HTMLInputElement ? element : null;
+  }
+
+  function openExportDialog() {
+    if (
+      exportableCredentialCount.value === 0 ||
+      isCredentialTransferBusy.value
+    ) {
+      return;
+    }
+    showExportDialog.value = true;
+  }
+
+  function openExportDialogFromCredentialTransferDialog() {
+    showCredentialTransferDialog.value = false;
+    openExportDialog();
+  }
+
+  async function handleExportCredentials() {
+    await runExportCredentials(async () => {
+      const blob = await ConfigAPI.downloadTOTPCredentials();
+      downloadBlob(blob, buildCredentialExportFilename());
+      showExportDialog.value = false;
+      toast.success(translate("admin.authSettings.exportCredentialsStarted"));
+    });
+  }
+
+  function triggerImportFilePicker() {
+    if (isCredentialTransferBusy.value) return;
+    resetCredentialImportInput();
+    credentialImportInputRef.value?.click();
+  }
+
+  function triggerImportFilePickerFromCredentialTransferDialog() {
+    showCredentialTransferDialog.value = false;
+    triggerImportFilePicker();
+  }
+
+  async function handleCredentialImportFileChange(event: Event) {
+    const input = event.target as HTMLInputElement | null;
+    const file = input?.files?.[0] ?? null;
+    resetPendingCredentialImport();
+
+    if (!file) return;
+
+    if (
+      !file.name.toLowerCase().endsWith(".json") &&
+      file.type !== "application/json"
+    ) {
+      toast.error(translate("admin.authSettings.importCredentialsInvalidFile"));
+      resetCredentialImportInput();
+      return;
+    }
+
+    if (file.size > MAX_IMPORT_FILE_SIZE) {
+      toast.error(
+        translate("admin.authSettings.importCredentialsFileTooLarge"),
+        {
+          description: translate(
+            "admin.authSettings.importCredentialsFileTooLargeDetail",
+            { size: Math.floor(MAX_IMPORT_FILE_SIZE / 1024) },
+          ),
+        },
+      );
+      resetCredentialImportInput();
+      return;
+    }
+
+    try {
+      pendingCredentialImportPayload.value = JSON.parse(await file.text());
+      pendingCredentialImportFilename.value = file.name;
+      showImportDialog.value = true;
+    } catch {
+      toast.error(translate("admin.authSettings.importCredentialsParseFailed"));
+    } finally {
+      resetCredentialImportInput();
+    }
+  }
+
+  function buildImportSummaryDescription(summary: TOTPCredentialImportSummary) {
+    if (
+      summary.kind === "password" ||
+      summary.login_mode === "password" ||
+      typeof summary.password_total === "number"
+    ) {
+      return translate("admin.authSettings.importPasswordCredentialsSummary", {
+        total: summary.total,
+        imported: summary.imported,
+        skippedExistingId: summary.skipped_existing_id,
+        skippedExistingUsername: summary.skipped_existing_username ?? 0,
+        skippedFileDuplicate: summary.skipped_file_duplicate,
+        invalid: summary.invalid,
+        passwordTotal: summary.password_total ?? 0,
+        passwordImported: summary.password_imported ?? 0,
+        passwordSkippedExisting: summary.password_skipped_existing ?? 0,
+        passwordSkippedMissingAccount:
+          summary.password_skipped_missing_account ?? 0,
+        passwordSkippedFileDuplicate:
+          summary.password_skipped_file_duplicate ?? 0,
+        passwordInvalid: summary.password_invalid ?? 0,
+        totpTotal: summary.totp_total ?? 0,
+        totpImported: summary.totp_imported ?? 0,
+      });
+    }
+
+    return translate("admin.authSettings.importCredentialsSummary", {
+      imported: summary.imported,
+      skippedExistingId: summary.skipped_existing_id,
+      skippedExistingSecret: summary.skipped_existing_secret ?? 0,
+      skippedFileDuplicate: summary.skipped_file_duplicate,
+      invalid: summary.invalid,
+      total: summary.total,
+    });
+  }
+
+  async function handleImportCredentials() {
+    const payload = pendingCredentialImportPayload.value;
+    if (!payload) {
+      toast.error(
+        translate("admin.authSettings.importCredentialsChooseFileFirst"),
+      );
+      return;
+    }
+
+    await runImportCredentials(async () => {
+      const summary = await ConfigAPI.importTOTPCredentials(payload);
+      showImportDialog.value = false;
+      resetPendingCredentialImport();
+      await refreshStatus();
+      toast.success(
+        translate("admin.authSettings.importCredentialsCompleted"),
+        {
+          description: buildImportSummaryDescription(summary),
+        },
+      );
+    });
+  }
+
+  return {
+    exportableCredentialCount,
+    handleCredentialImportFileChange,
+    handleExportCredentials,
+    handleImportCredentials,
+    isCredentialTransferBusy,
+    isExportingCredentials,
+    isImportingCredentials,
+    openExportDialogFromCredentialTransferDialog,
+    pendingCredentialImportFilename,
+    resetPendingCredentialImport,
+    setCredentialImportInput,
+    showCredentialTransferDialog,
+    showExportDialog,
+    showImportDialog,
+    triggerImportFilePickerFromCredentialTransferDialog,
+  };
+}

@@ -1,1 +1,300 @@
-dXNlIHN1cGVyOjoqOwp1c2UgYXh1bTo6ewogICAgYm9keTo6e0JvZHksIHRvX2J5dGVzfSwKICAgIGh0dHA6OntSZXF1ZXN0LCBTdGF0dXNDb2RlfSwKfTsKdXNlIHN0ZDo6dGltZTo6RHVyYXRpb247CnVzZSB0b3dlcjo6U2VydmljZUV4dDsKCmFzeW5jIGZuIHRlc3Rfc3RhdGUoKSAtPiAodGVtcGZpbGU6OlRlbXBEaXIsIEFwcFN0YXRlKSB7CiAgICBsZXQgZGlyZWN0b3J5ID0gdGVtcGZpbGU6OnRlbXBkaXIoKS51bndyYXAoKTsKICAgIGxldCBtdXQgc2V0dGluZ3MgPSB7CiAgICAgICAgbGV0IF9lbnZpcm9ubWVudCA9IGNyYXRlOjp0ZXN0X3N1cHBvcnQ6OkVudkd1YXJkOjpuZXcoJltdKTsKICAgICAgICBjcmF0ZTo6c2V0dGluZ3M6OlNldHRpbmdzOjpmcm9tX2VudigpCiAgICB9OwogICAgc2V0dGluZ3MuZGF0YV9kaXIgPSBkaXJlY3RvcnkucGF0aCgpLmpvaW4oImRhdGEiKTsKICAgIHNldHRpbmdzLnJ1bnRpbWVfdGFyZ2V0ID0gImxpbnV4Ii5pbnRvKCk7CiAgICBzZXR0aW5ncy5nYXRld2F5X2NvbmZpZ19kaXIgPSBkaXJlY3RvcnkucGF0aCgpLmpvaW4oImdhdGV3YXkiKTsKICAgIHNldHRpbmdzLnNxbGl0ZV9wYXRoID0gZGlyZWN0b3J5LnBhdGgoKS5qb2luKCJ0ZXN0LnNxbGl0ZTMiKTsKICAgIHNldHRpbmdzLmxlZ2FjeV9yZWRpc191cmwgPSBTdHJpbmc6Om5ldygpOwogICAgc2V0dGluZ3MuZ29fYmFja2VuZF9ncnBjX2FkZHIgPSAiaHR0cDovLzEyNy4wLjAuMToxIi5pbnRvKCk7CiAgICBzZXR0aW5ncy5pbnRlcm5hbF9ycGNfdG9rZW4gPSAidGVybWluYWwtYWNjZXNzLXRlc3QiLmludG8oKTsKICAgIHNldHRpbmdzLnJlcXVlc3RfdGltZW91dCA9IER1cmF0aW9uOjpmcm9tX21pbGxpcygxMDApOwogICAgKGRpcmVjdG9yeSwgQXBwU3RhdGU6Om5ldyhzZXR0aW5ncykuYXdhaXQudW53cmFwKCkpCn0KCmFzeW5jIGZuIGNoYW5nZShzdGF0ZTogJkFwcFN0YXRlLCBlbmFibGVkOiBib29sKSAtPiBXZWJUZXJtaW5hbFNldHRpbmdzIHsKICAgIHVwZGF0ZSgKICAgICAgICBzdGF0ZSwKICAgICAgICBXZWJUZXJtaW5hbFNldHRpbmdzSW5wdXQgewogICAgICAgICAgICBlbmFibGVkLAogICAgICAgICAgICByZXZpc2lvbjogc2V0dGluZ3Moc3RhdGUpLmF3YWl0LnVud3JhcCgpLnJldmlzaW9uLAogICAgICAgIH0sCiAgICApCiAgICAuYXdhaXQKICAgIC51bndyYXAoKQp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBkZWZhdWx0c19hbmRfc3dpdGNoX3BlcnNpc3Rfd2l0aG91dF9wYXNzd29yZF9maWVsZHMoKSB7CiAgICBsZXQgKF9kaXJlY3RvcnksIHN0YXRlKSA9IHRlc3Rfc3RhdGUoKS5hd2FpdDsKICAgIGFzc2VydCEoc2V0dGluZ3MoJnN0YXRlKS5hd2FpdC51bndyYXAoKS5lbmFibGVkKTsKICAgIGxldCBkaXNhYmxlZCA9IGNoYW5nZSgmc3RhdGUsIGZhbHNlKS5hd2FpdDsKICAgIGxldCByZXN0YXJ0ZWQgPSBBcHBTdGF0ZTo6bmV3KHN0YXRlLnNldHRpbmdzLmNsb25lKCkpLmF3YWl0LnVud3JhcCgpOwogICAgYXNzZXJ0ISghc2V0dGluZ3MoJnJlc3RhcnRlZCkuYXdhaXQudW53cmFwKCkuZW5hYmxlZCk7CiAgICBsZXQgZW5hYmxlZCA9IGNoYW5nZSgmc3RhdGUsIHRydWUpLmF3YWl0OwogICAgYXNzZXJ0X25lIShlbmFibGVkLnJldmlzaW9uLCBkaXNhYmxlZC5yZXZpc2lvbik7CiAgICBsZXQgcmF3ID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfanNvbl92YWx1ZShTRVRUSU5HU19LRVkpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpCiAgICAgICAgLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxIShyYXcuYXNfb2JqZWN0KCkudW53cmFwKCkubGVuKCksIDIpOwogICAgYXNzZXJ0IShyYXcuZ2V0KCJwYXNzd29yZCIpLmlzX25vbmUoKSk7CiAgICBhc3NlcnQhKAogICAgICAgIHVwZGF0ZSgKICAgICAgICAgICAgJnN0YXRlLAogICAgICAgICAgICBXZWJUZXJtaW5hbFNldHRpbmdzSW5wdXQgewogICAgICAgICAgICAgICAgZW5hYmxlZDogZmFsc2UsCiAgICAgICAgICAgICAgICByZXZpc2lvbjogZGlzYWJsZWQucmV2aXNpb24KICAgICAgICAgICAgfQogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgICAgICAuaXNfZXJyKCkKICAgICk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIGxlZ2FjeV9wYXNzd29yZF9pc19pZ25vcmVkX2FuZF9yZW1vdmVkX3dpdGhvdXRfY2hhbmdpbmdfdGhlX3N3aXRjaCgpIHsKICAgIGxldCAoX2RpcmVjdG9yeSwgc3RhdGUpID0gdGVzdF9zdGF0ZSgpLmF3YWl0OwogICAgbGV0IHJvdXRlciA9IGNyYXRlOjp0ZXJtaW5hbDo6dGVybWluYWxfcm91dGVzKCkud2l0aF9zdGF0ZShzdGF0ZS5jbG9uZSgpKTsKICAgIGZvciBlbmFibGVkIGluIFtmYWxzZSwgdHJ1ZV0gewogICAgICAgIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuc2V0X2pzb25fdmFsdWUoU0VUVElOR1NfS0VZLCAmc2VyZGVfanNvbjo6anNvbiEoeyJlbmFibGVkIjogZW5hYmxlZCwgInJldmlzaW9uIjogImxlZ2FjeSIsICJwYXNzd29yZCI6IHsiaGFzaCI6ICJvYnNvbGV0ZSJ9fSkpLmF3YWl0LnVud3JhcCgpOwogICAgICAgIHN0YXRlCiAgICAgICAgICAgIC5zdG9yYWdlCiAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAuc2V0X3N0cmluZ192YWx1ZV93aXRoX29wdGlvbmFsX3R0bCgKICAgICAgICAgICAgICAgICJmbl9rbm9jazp0ZXJtaW5hbDphY2Nlc3MtZ3JhbnQ6bGVnYWN5IiwKICAgICAgICAgICAgICAgICJvYnNvbGV0ZSIsCiAgICAgICAgICAgICAgICBOb25lLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCk7CiAgICAgICAgLy8gQW4gb2xkIGhhc2gsIGV2ZW4gaWYgaW52YWxpZCwgbm8gbG9uZ2VyIGdhdGVzIHRlcm1pbmFsIHJlcXVlc3RzLgogICAgICAgIGxldCByZXNwb25zZSA9IHJvdXRlcgogICAgICAgICAgICAuY2xvbmUoKQogICAgICAgICAgICAub25lc2hvdCgKICAgICAgICAgICAgICAgIFJlcXVlc3Q6OmJ1aWxkZXIoKQogICAgICAgICAgICAgICAgICAgIC51cmkoIi9hcGkvYWRtaW4vdGVybWluYWwvdGFyZ2V0cyIpCiAgICAgICAgICAgICAgICAgICAgLmJvZHkoQm9keTo6ZW1wdHkoKSkKICAgICAgICAgICAgICAgICAgICAudW53cmFwKCksCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICByZXNwb25zZS5zdGF0dXMoKSwKICAgICAgICAgICAgaWYgZW5hYmxlZCB7CiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpPSwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6Rk9SQklEREVOCiAgICAgICAgICAgIH0KICAgICAgICApOwogICAgICAgIGNsZWFudXBfcmV0aXJlZF9wYXNzd29yZCgmc3RhdGUpLmF3YWl0LnVud3JhcCgpOwogICAgICAgIGxldCByYXcgPSBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLmdldF9qc29uX3ZhbHVlKFNFVFRJTkdTX0tFWSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgcmF3LAogICAgICAgICAgICBzZXJkZV9qc29uOjpqc29uISh7ImVuYWJsZWQiOiBlbmFibGVkLCAicmV2aXNpb24iOiAibGVnYWN5In0pCiAgICAgICAgKTsKICAgICAgICBhc3NlcnQhKAogICAgICAgICAgICBzdGF0ZQogICAgICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAgICAgLnNjYW5fa2V5cygiZm5fa25vY2s6dGVybWluYWw6YWNjZXNzLWdyYW50OiIsIDIwMCkKICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgICAgICAuaXNfZW1wdHkoKQogICAgICAgICk7CiAgICB9CiAgICBmb3IgKG1ldGhvZCwgcGF0aCkgaW4gWwogICAgICAgICgiR0VUIiwgIi9hcGkvYWRtaW4vdGVybWluYWwvYWNjZXNzIiksCiAgICAgICAgKCJQT1NUIiwgIi9hcGkvYWRtaW4vdGVybWluYWwvYWNjZXNzL3ZlcmlmeSIpLAogICAgXSB7CiAgICAgICAgbGV0IHJlc3BvbnNlID0gcm91dGVyCiAgICAgICAgICAgIC5jbG9uZSgpCiAgICAgICAgICAgIC5vbmVzaG90KAogICAgICAgICAgICAgICAgUmVxdWVzdDo6YnVpbGRlcigpCiAgICAgICAgICAgICAgICAgICAgLm1ldGhvZChtZXRob2QpCiAgICAgICAgICAgICAgICAgICAgLnVyaShwYXRoKQogICAgICAgICAgICAgICAgICAgIC5ib2R5KEJvZHk6OmVtcHR5KCkpCiAgICAgICAgICAgICAgICAgICAgLnVud3JhcCgpLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0X2VxIShyZXNwb25zZS5zdGF0dXMoKSwgU3RhdHVzQ29kZTo6Tk9UX0ZPVU5EKTsKICAgIH0KfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gZXZlcnlfYnVzaW5lc3NfZW5kcG9pbnRfZW5mb3JjZXNfdGhlX3N3aXRjaF9iZWZvcmVfcHJvY2Vzc2luZ19pbnB1dCgpIHsKICAgIGxldCAoX2RpcmVjdG9yeSwgc3RhdGUpID0gdGVzdF9zdGF0ZSgpLmF3YWl0OwogICAgY2hhbmdlKCZzdGF0ZSwgZmFsc2UpLmF3YWl0OwogICAgbGV0IGRvY3VtZW50ID0gc3VwZXI6OnN1cGVyOjpodHRwOjpyb3V0ZXMoKS5pbnRvX29wZW5hcGkoKTsKICAgIGxldCByb3V0ZXIgPSBjcmF0ZTo6dGVybWluYWw6OnRlcm1pbmFsX3JvdXRlcygpLndpdGhfc3RhdGUoc3RhdGUuY2xvbmUoKSk7CiAgICBsZXQgcGF0aHMgPSBzZXJkZV9qc29uOjp0b192YWx1ZSgmZG9jdW1lbnQpLnVud3JhcCgpOwogICAgZm9yIChwYXRoLCBpdGVtKSBpbiBwYXRoc1sicGF0aHMiXS5hc19vYmplY3QoKS51bndyYXAoKSB7CiAgICAgICAgaWYgcGF0aC5lbmRzX3dpdGgoIi9zZXR0aW5ncyIpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGZvciBtZXRob2QgaW4gaXRlbS5hc19vYmplY3QoKS51bndyYXAoKS5rZXlzKCkgewogICAgICAgICAgICBsZXQgcmVzcG9uc2UgPSByb3V0ZXIKICAgICAgICAgICAgICAgIC5jbG9uZSgpCiAgICAgICAgICAgICAgICAub25lc2hvdCgKICAgICAgICAgICAgICAgICAgICBSZXF1ZXN0OjpidWlsZGVyKCkKICAgICAgICAgICAgICAgICAgICAgICAgLm1ldGhvZChtZXRob2QudG9fdXBwZXJjYXNlKCkuYXNfc3RyKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC51cmkocGF0aC5yZXBsYWNlKCJ7aWR9IiwgIjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMSIpKQogICAgICAgICAgICAgICAgICAgICAgICAuYm9keShCb2R5OjplbXB0eSgpKQogICAgICAgICAgICAgICAgICAgICAgICAudW53cmFwKCksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgICAgIC51bndyYXAoKTsKICAgICAgICAgICAgYXNzZXJ0X2VxIShyZXNwb25zZS5zdGF0dXMoKSwgU3RhdHVzQ29kZTo6Rk9SQklEREVOLCAie21ldGhvZH0ge3BhdGh9Iik7CiAgICAgICAgICAgIGxldCBib2R5OiBzZXJkZV9qc29uOjpWYWx1ZSA9CiAgICAgICAgICAgICAgICBzZXJkZV9qc29uOjpmcm9tX3NsaWNlKCZ0b19ieXRlcyhyZXNwb25zZS5pbnRvX2JvZHkoKSwgNjU1MzYpLmF3YWl0LnVud3JhcCgpKQogICAgICAgICAgICAgICAgICAgIC51bndyYXAoKTsKICAgICAgICAgICAgYXNzZXJ0X2VxIShib2R5WyJlcnJvckNvZGUiXSwgImZlYXR1cmVfZGlzYWJsZWQiLCAie21ldGhvZH0ge3BhdGh9Iik7CiAgICAgICAgfQogICAgfQogICAgbGV0IHJlc3BvbnNlID0gcm91dGVyCiAgICAgICAgLm9uZXNob3QoCiAgICAgICAgICAgIFJlcXVlc3Q6OmJ1aWxkZXIoKQogICAgICAgICAgICAgICAgLnVyaSgiL2FwaS9hZG1pbi90ZXJtaW5hbC9zZXR0aW5ncyIpCiAgICAgICAgICAgICAgICAuYm9keShCb2R5OjplbXB0eSgpKQogICAgICAgICAgICAgICAgLnVud3JhcCgpLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKHJlc3BvbnNlLnN0YXR1cygpLCBTdGF0dXNDb2RlOjpPSyk7Cn0KCiNbY2ZnKHVuaXgpXQojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBkaXNhYmxpbmdfd2FpdHNfZm9yX2luZmxpZ2h0X2NyZWF0aW9uX3RoZW5fZW5kc19ldmVyeV9zZXNzaW9uKCkgewogICAgdXNlIHN1cGVyOjpzdXBlcjo6ewogICAgICAgIGRvbWFpbjo6e0NyZWF0ZVNlc3Npb25JbnB1dCwgTG9jYWxUZXJtaW5hbFNldHRpbmdzSW5wdXR9LAogICAgICAgIHNlcnZpY2UsCiAgICB9OwogICAgbGV0IChfZGlyZWN0b3J5LCBzdGF0ZSkgPSB0ZXN0X3N0YXRlKCkuYXdhaXQ7CiAgICBzZXJ2aWNlOjp1cGRhdGVfbG9jYWxfdGVybWluYWwoCiAgICAgICAgJnN0YXRlLAogICAgICAgIExvY2FsVGVybWluYWxTZXR0aW5nc0lucHV0IHsKICAgICAgICAgICAgZW5hYmxlZDogdHJ1ZSwKICAgICAgICAgICAgcmV2aXNpb246IDAsCiAgICAgICAgICAgIGFja25vd2xlZGdlX3Jpc2s6IHRydWUsCiAgICAgICAgfSwKICAgICAgICBmYWxzZSwKICAgICAgICBOb25lLAogICAgKQogICAgLmF3YWl0CiAgICAudW53cmFwKCk7CiAgICBsZXQgKG11dCBwYXJ0cywgXykgPSBSZXF1ZXN0OjpidWlsZGVyKCkuYm9keSgoKSkudW53cmFwKCkuaW50b19wYXJ0cygpOwogICAgbGV0IGFjY2VzcyA9IFRlcm1pbmFsQWNjZXNzOjpmcm9tX3JlcXVlc3RfcGFydHMoJm11dCBwYXJ0cywgJnN0YXRlKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIGxldCBtdXQgdXBkYXRlX3JlcXVlc3QgPSBCb3g6OnBpbih1cGRhdGUoCiAgICAgICAgJnN0YXRlLAogICAgICAgIFdlYlRlcm1pbmFsU2V0dGluZ3NJbnB1dCB7CiAgICAgICAgICAgIGVuYWJsZWQ6IGZhbHNlLAogICAgICAgICAgICByZXZpc2lvbjogc2V0dGluZ3MoJnN0YXRlKS5hd2FpdC51bndyYXAoKS5yZXZpc2lvbiwKICAgICAgICB9LAogICAgKSk7CiAgICBzdGQ6OmZ1dHVyZTo6cG9sbF9mbih8Y3h8IHsKICAgICAgICBhc3NlcnQhKHN0ZDo6ZnV0dXJlOjpGdXR1cmU6OnBvbGwodXBkYXRlX3JlcXVlc3QuYXNfbXV0KCksIGN4KS5pc19wZW5kaW5nKCkpOwogICAgICAgIHN0ZDo6dGFzazo6UG9sbDo6UmVhZHkoKCkpCiAgICB9KQogICAgLmF3YWl0OwogICAgc2VydmljZTo6Y3JlYXRlX2xvY2FsX3Nlc3Npb24oCiAgICAgICAgJnN0YXRlLAogICAgICAgIENyZWF0ZVNlc3Npb25JbnB1dCB7CiAgICAgICAgICAgIGNvbHM6IFNvbWUoODApLAogICAgICAgICAgICByb3dzOiBTb21lKDI0KSwKICAgICAgICAgICAgdGl0bGU6IE5vbmUsCiAgICAgICAgfSwKICAgICkKICAgIC5hd2FpdAogICAgLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxIShzdGF0ZS50ZXJtaW5hbC5saXN0KCkuYXdhaXQuc2Vzc2lvbnMubGVuKCksIDEpOwogICAgZHJvcChhY2Nlc3MpOwogICAgYXNzZXJ0ISghdXBkYXRlX3JlcXVlc3QuYXdhaXQudW53cmFwKCkuZW5hYmxlZCk7CiAgICBhc3NlcnQhKHN0YXRlLnRlcm1pbmFsLmxpc3QoKS5hd2FpdC5zZXNzaW9ucy5pc19lbXB0eSgpKTsKICAgIGFzc2VydCEoCiAgICAgICAgVGVybWluYWxBY2Nlc3M6OmZyb21fcmVxdWVzdF9wYXJ0cygmbXV0IHBhcnRzLCAmc3RhdGUpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuaXNfZXJyKCkKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHNlcnZpY2U6OmxvY2FsX3Rlcm1pbmFsX3N0YXR1cygmc3RhdGUpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmVuYWJsZWQKICAgICk7Cn0KCiNbY2ZnKHVuaXgpXQojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBhY2NlcHRlZF9kaXNhYmxlX2ZpbmlzaGVzX2FmdGVyX3RoZV9odHRwX3JlcXVlc3RfaXNfY2FuY2VsbGVkKCkgewogICAgdXNlIHN1cGVyOjpzdXBlcjo6ewogICAgICAgIGRvbWFpbjo6e0NyZWF0ZVNlc3Npb25JbnB1dCwgTG9jYWxUZXJtaW5hbFNldHRpbmdzSW5wdXR9LAogICAgICAgIHNlcnZpY2UsCiAgICB9OwogICAgbGV0IChfZGlyZWN0b3J5LCBzdGF0ZSkgPSB0ZXN0X3N0YXRlKCkuYXdhaXQ7CiAgICBzZXJ2aWNlOjp1cGRhdGVfbG9jYWxfdGVybWluYWwoCiAgICAgICAgJnN0YXRlLAogICAgICAgIExvY2FsVGVybWluYWxTZXR0aW5nc0lucHV0IHsKICAgICAgICAgICAgZW5hYmxlZDogdHJ1ZSwKICAgICAgICAgICAgcmV2aXNpb246IDAsCiAgICAgICAgICAgIGFja25vd2xlZGdlX3Jpc2s6IHRydWUsCiAgICAgICAgfSwKICAgICAgICBmYWxzZSwKICAgICAgICBOb25lLAogICAgKQogICAgLmF3YWl0CiAgICAudW53cmFwKCk7CiAgICBzZXJ2aWNlOjpjcmVhdGVfbG9jYWxfc2Vzc2lvbigKICAgICAgICAmc3RhdGUsCiAgICAgICAgQ3JlYXRlU2Vzc2lvbklucHV0IHsKICAgICAgICAgICAgY29sczogU29tZSg4MCksCiAgICAgICAgICAgIHJvd3M6IFNvbWUoMjQpLAogICAgICAgICAgICB0aXRsZTogTm9uZSwKICAgICAgICB9LAogICAgKQogICAgLmF3YWl0CiAgICAudW53cmFwKCk7CiAgICBsZXQgbXV0IHJlcXVlc3QgPSBCb3g6OnBpbih1cGRhdGUoCiAgICAgICAgJnN0YXRlLAogICAgICAgIFdlYlRlcm1pbmFsU2V0dGluZ3NJbnB1dCB7CiAgICAgICAgICAgIGVuYWJsZWQ6IGZhbHNlLAogICAgICAgICAgICByZXZpc2lvbjogc2V0dGluZ3MoJnN0YXRlKS5hd2FpdC51bndyYXAoKS5yZXZpc2lvbiwKICAgICAgICB9LAogICAgKSk7CiAgICAvLyBEaXNwYXRjaCB0aGUgb3duZWQgb3BlcmF0aW9uLCB0aGVuIHNpbXVsYXRlIHRoZSBjbGllbnQgZHJvcHBpbmcgaXRzIHJlc3BvbnNlLgogICAgc3RkOjpmdXR1cmU6OnBvbGxfZm4ofGN4fCB7CiAgICAgICAgYXNzZXJ0IShzdGQ6OmZ1dHVyZTo6RnV0dXJlOjpwb2xsKHJlcXVlc3QuYXNfbXV0KCksIGN4KS5pc19wZW5kaW5nKCkpOwogICAgICAgIHN0ZDo6dGFzazo6UG9sbDo6UmVhZHkoKCkpCiAgICB9KQogICAgLmF3YWl0OwogICAgZHJvcChyZXF1ZXN0KTsKICAgIGxldCBfZ3VhcmQgPSBzdGF0ZS50ZXJtaW5hbC5hY2Nlc3MucG9saWN5LnJlYWQoKS5hd2FpdDsKICAgIGFzc2VydCEoIXNldHRpbmdzKCZzdGF0ZSkuYXdhaXQudW53cmFwKCkuZW5hYmxlZCk7CiAgICBhc3NlcnQhKHN0YXRlLnRlcm1pbmFsLmxpc3QoKS5hd2FpdC5zZXNzaW9ucy5pc19lbXB0eSgpKTsKfQoKI1tjZmcodW5peCldCm1vZCBjZ2k7Cg==
+use super::*;
+use axum::{
+    body::{Body, to_bytes},
+    http::{Request, StatusCode},
+};
+use std::time::Duration;
+use tower::ServiceExt;
+
+async fn test_state() -> (tempfile::TempDir, AppState) {
+    let directory = tempfile::tempdir().unwrap();
+    let mut settings = {
+        let _environment = crate::test_support::EnvGuard::new(&[]);
+        crate::settings::Settings::from_env()
+    };
+    settings.data_dir = directory.path().join("data");
+    settings.runtime_target = "linux".into();
+    settings.gateway_config_dir = directory.path().join("gateway");
+    settings.sqlite_path = directory.path().join("test.sqlite3");
+    settings.legacy_redis_url = String::new();
+    settings.go_backend_grpc_addr = "http://127.0.0.1:1".into();
+    settings.internal_rpc_token = "terminal-access-test".into();
+    settings.request_timeout = Duration::from_millis(100);
+    (directory, AppState::new(settings).await.unwrap())
+}
+
+async fn change(state: &AppState, enabled: bool) -> WebTerminalSettings {
+    update(
+        state,
+        WebTerminalSettingsInput {
+            enabled,
+            revision: settings(state).await.unwrap().revision,
+        },
+    )
+    .await
+    .unwrap()
+}
+
+#[tokio::test]
+async fn defaults_and_switch_persist_without_password_fields() {
+    let (_directory, state) = test_state().await;
+    assert!(settings(&state).await.unwrap().enabled);
+    let disabled = change(&state, false).await;
+    let restarted = AppState::new(state.settings.clone()).await.unwrap();
+    assert!(!settings(&restarted).await.unwrap().enabled);
+    let enabled = change(&state, true).await;
+    assert_ne!(enabled.revision, disabled.revision);
+    let raw = state
+        .storage
+        .store
+        .get_json_value(SETTINGS_KEY)
+        .await
+        .unwrap()
+        .unwrap();
+    assert_eq!(raw.as_object().unwrap().len(), 2);
+    assert!(raw.get("password").is_none());
+    assert!(
+        update(
+            &state,
+            WebTerminalSettingsInput {
+                enabled: false,
+                revision: disabled.revision
+            }
+        )
+        .await
+        .is_err()
+    );
+}
+
+#[tokio::test]
+async fn legacy_password_is_ignored_and_removed_without_changing_the_switch() {
+    let (_directory, state) = test_state().await;
+    let router = crate::terminal::terminal_routes().with_state(state.clone());
+    for enabled in [false, true] {
+        state.storage.store.set_json_value(SETTINGS_KEY, &serde_json::json!({"enabled": enabled, "revision": "legacy", "password": {"hash": "obsolete"}})).await.unwrap();
+        state
+            .storage
+            .store
+            .set_string_value_with_optional_ttl(
+                "fn_knock:terminal:access-grant:legacy",
+                "obsolete",
+                None,
+            )
+            .await
+            .unwrap();
+        // An old hash, even if invalid, no longer gates terminal requests.
+        let response = router
+            .clone()
+            .oneshot(
+                Request::builder()
+                    .uri("/api/admin/terminal/targets")
+                    .body(Body::empty())
+                    .unwrap(),
+            )
+            .await
+            .unwrap();
+        assert_eq!(
+            response.status(),
+            if enabled {
+                StatusCode::OK
+            } else {
+                StatusCode::FORBIDDEN
+            }
+        );
+        cleanup_retired_password(&state).await.unwrap();
+        let raw = state
+            .storage
+            .store
+            .get_json_value(SETTINGS_KEY)
+            .await
+            .unwrap()
+            .unwrap();
+        assert_eq!(
+            raw,
+            serde_json::json!({"enabled": enabled, "revision": "legacy"})
+        );
+        assert!(
+            state
+                .storage
+                .store
+                .scan_keys("fn_knock:terminal:access-grant:", 200)
+                .await
+                .unwrap()
+                .is_empty()
+        );
+    }
+    for (method, path) in [
+        ("GET", "/api/admin/terminal/access"),
+        ("POST", "/api/admin/terminal/access/verify"),
+    ] {
+        let response = router
+            .clone()
+            .oneshot(
+                Request::builder()
+                    .method(method)
+                    .uri(path)
+                    .body(Body::empty())
+                    .unwrap(),
+            )
+            .await
+            .unwrap();
+        assert_eq!(response.status(), StatusCode::NOT_FOUND);
+    }
+}
+
+#[tokio::test]
+async fn every_business_endpoint_enforces_the_switch_before_processing_input() {
+    let (_directory, state) = test_state().await;
+    change(&state, false).await;
+    let document = super::super::http::routes().into_openapi();
+    let router = crate::terminal::terminal_routes().with_state(state.clone());
+    let paths = serde_json::to_value(&document).unwrap();
+    for (path, item) in paths["paths"].as_object().unwrap() {
+        if path.ends_with("/settings") {
+            continue;
+        }
+        for method in item.as_object().unwrap().keys() {
+            let response = router
+                .clone()
+                .oneshot(
+                    Request::builder()
+                        .method(method.to_uppercase().as_str())
+                        .uri(path.replace("{id}", "00000000-0000-0000-0000-000000000001"))
+                        .body(Body::empty())
+                        .unwrap(),
+                )
+                .await
+                .unwrap();
+            assert_eq!(response.status(), StatusCode::FORBIDDEN, "{method} {path}");
+            let body: serde_json::Value =
+                serde_json::from_slice(&to_bytes(response.into_body(), 65536).await.unwrap())
+                    .unwrap();
+            assert_eq!(body["errorCode"], "feature_disabled", "{method} {path}");
+        }
+    }
+    let response = router
+        .oneshot(
+            Request::builder()
+                .uri("/api/admin/terminal/settings")
+                .body(Body::empty())
+                .unwrap(),
+        )
+        .await
+        .unwrap();
+    assert_eq!(response.status(), StatusCode::OK);
+}
+
+#[cfg(unix)]
+#[tokio::test]
+async fn disabling_waits_for_inflight_creation_then_ends_every_session() {
+    use super::super::{
+        domain::{CreateSessionInput, LocalTerminalSettingsInput},
+        service,
+    };
+    let (_directory, state) = test_state().await;
+    service::update_local_terminal(
+        &state,
+        LocalTerminalSettingsInput {
+            enabled: true,
+            revision: 0,
+            acknowledge_risk: true,
+        },
+        false,
+        None,
+    )
+    .await
+    .unwrap();
+    let (mut parts, _) = Request::builder().body(()).unwrap().into_parts();
+    let access = TerminalAccess::from_request_parts(&mut parts, &state)
+        .await
+        .unwrap();
+    let mut update_request = Box::pin(update(
+        &state,
+        WebTerminalSettingsInput {
+            enabled: false,
+            revision: settings(&state).await.unwrap().revision,
+        },
+    ));
+    std::future::poll_fn(|cx| {
+        assert!(std::future::Future::poll(update_request.as_mut(), cx).is_pending());
+        std::task::Poll::Ready(())
+    })
+    .await;
+    service::create_local_session(
+        &state,
+        CreateSessionInput {
+            cols: Some(80),
+            rows: Some(24),
+            title: None,
+        },
+    )
+    .await
+    .unwrap();
+    assert_eq!(state.terminal.list().await.sessions.len(), 1);
+    drop(access);
+    assert!(!update_request.await.unwrap().enabled);
+    assert!(state.terminal.list().await.sessions.is_empty());
+    assert!(
+        TerminalAccess::from_request_parts(&mut parts, &state)
+            .await
+            .is_err()
+    );
+    assert!(
+        service::local_terminal_status(&state)
+            .await
+            .unwrap()
+            .enabled
+    );
+}
+
+#[cfg(unix)]
+#[tokio::test]
+async fn accepted_disable_finishes_after_the_http_request_is_cancelled() {
+    use super::super::{
+        domain::{CreateSessionInput, LocalTerminalSettingsInput},
+        service,
+    };
+    let (_directory, state) = test_state().await;
+    service::update_local_terminal(
+        &state,
+        LocalTerminalSettingsInput {
+            enabled: true,
+            revision: 0,
+            acknowledge_risk: true,
+        },
+        false,
+        None,
+    )
+    .await
+    .unwrap();
+    service::create_local_session(
+        &state,
+        CreateSessionInput {
+            cols: Some(80),
+            rows: Some(24),
+            title: None,
+        },
+    )
+    .await
+    .unwrap();
+    let mut request = Box::pin(update(
+        &state,
+        WebTerminalSettingsInput {
+            enabled: false,
+            revision: settings(&state).await.unwrap().revision,
+        },
+    ));
+    // Dispatch the owned operation, then simulate the client dropping its response.
+    std::future::poll_fn(|cx| {
+        assert!(std::future::Future::poll(request.as_mut(), cx).is_pending());
+        std::task::Poll::Ready(())
+    })
+    .await;
+    drop(request);
+    let _guard = state.terminal.access.policy.read().await;
+    assert!(!settings(&state).await.unwrap().enabled);
+    assert!(state.terminal.list().await.sessions.is_empty());
+}
+
+#[cfg(unix)]
+mod cgi;

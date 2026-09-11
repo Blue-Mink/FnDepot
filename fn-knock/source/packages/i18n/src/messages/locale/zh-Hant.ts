@@ -1,1 +1,14 @@
-aW1wb3J0IHsgemhDTkxvY2FsZSB9IGZyb20gIi4vemgtQ04iOwoKZXhwb3J0IGNvbnN0IHpoSGFudExvY2FsZSA9IHsKICAuLi56aENOTG9jYWxlLAogIGxhYmVsOiAi6Kqe6KiAIiwKICB6aENOOiAi5Lit5paH566A5L2TIiwKICB6aEhhbnQ6ICLkuK3mlofmraPpq5QiLAogIGVuOiAiRW5nbGlzaCIsCiAga29LUjogIu2VnOq1reyWtCIsCiAgamFKUDogIuaXpeacrOiqniIsCiAgc2F2ZWQ6ICLoqp7oqIDoqK3lrprlt7Lmm7TmlrAiLAogIHNhdmVGYWlsZWQ6ICLoqp7oqIDoqK3lrprlhLLlrZjlpLHmlZciLAogIGludmFsaWQ6ICLkuI3mlK/mj7TnmoToqp7oqIAiLAp9Owo=
+import { zhCNLocale } from "./zh-CN";
+
+export const zhHantLocale = {
+  ...zhCNLocale,
+  label: "語言",
+  zhCN: "中文简体",
+  zhHant: "中文正體",
+  en: "English",
+  koKR: "한국어",
+  jaJP: "日本語",
+  saved: "語言設定已更新",
+  saveFailed: "語言設定儲存失敗",
+  invalid: "不支援的語言",
+};

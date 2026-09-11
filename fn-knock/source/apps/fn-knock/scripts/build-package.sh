@@ -1,1 +1,400 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4vLi4iICYmIHB3ZCkiCnNvdXJjZSAiJHtST09UX0RJUn0vc2NyaXB0cy92ZXJzaW9uLnNoIgpBUFBfUEFDS0FHRV9ESVI9IiR7Rk5fS05PQ0tfRlBLX1BBQ0tBR0VfRElSOi0ke1JPT1RfRElSfS9hcHBzL2ZuLWtub2NrfSIKUkVNT1RFX0hPU1Q9IiR7Rk5fS05PQ0tfUkVNT1RFX0hPU1Q6LXJvb3RAMTkyLjE2OC4zMS45OH0iClJFTU9URV9ESVI9IiR7Rk5fS05PQ0tfUkVNT1RFX0RJUjotL3RtcC9mbi1rbm9jay1mcGt9IgpMT0NBTF9GUEtfUEFUSD0iJHtGTl9LTk9DS19MT0NBTF9GUEtfUEFUSDotYXBwcy9mbi1rbm9jay9kaXN0L2ZuLWtub2NrLmZwa30iCkFQUF9OQU1FPSIke0ZOX0tOT0NLX0FQUF9OQU1FOi1mbi1rbm9ja30iClJFTU9URV9GUEtfQU1ENjRfUEFUSD0iJHtSRU1PVEVfRElSfS8ke0FQUF9OQU1FfS1hbWQ2NC5mcGsiClJFTU9URV9GUEtfQVJNNjRfUEFUSD0iJHtSRU1PVEVfRElSfS8ke0FQUF9OQU1FfS1hcm02NC5mcGsiClZFUlNJT05fRklMRT0iJHtST09UX0RJUn0vdmVyc2lvbi5qc29uIgpNQU5JRkVTVF9GSUxFPSIke0FQUF9QQUNLQUdFX0RJUn0vbWFuaWZlc3QiCgpkZXJpdmVfYXJjaF9mcGtfcGF0aCgpIHsKICBsb2NhbCBiYXNlX3BhdGg9IiQxIgogIGxvY2FsIGFyY2g9IiQyIgogIGxvY2FsIGRpcl9uYW1lCiAgbG9jYWwgZmlsZV9uYW1lCiAgbG9jYWwgZmlsZV9zdGVtCgogIGRpcl9uYW1lPSIkKGRpcm5hbWUgIiR7YmFzZV9wYXRofSIpIgogIGZpbGVfbmFtZT0iJChiYXNlbmFtZSAiJHtiYXNlX3BhdGh9IikiCiAgZmlsZV9zdGVtPSIke2ZpbGVfbmFtZSUuZnBrfSIKCiAgaWYgWyAiJHtmaWxlX3N0ZW19IiA9ICIke2ZpbGVfbmFtZX0iIF07IHRoZW4KICAgIGVjaG8gIiR7ZGlyX25hbWV9LyR7ZmlsZV9uYW1lfS0ke2FyY2h9LmZwayIKICAgIHJldHVybiAwCiAgZmkKCiAgZWNobyAiJHtkaXJfbmFtZX0vJHtmaWxlX3N0ZW19LSR7YXJjaH0uZnBrIgp9CgpMT0NBTF9GUEtfQU1ENjRfUEFUSD0iJChkZXJpdmVfYXJjaF9mcGtfcGF0aCAiJHtMT0NBTF9GUEtfUEFUSH0iICJhbWQ2NCIpIgpMT0NBTF9GUEtfQVJNNjRfUEFUSD0iJChkZXJpdmVfYXJjaF9mcGtfcGF0aCAiJHtMT0NBTF9GUEtfUEFUSH0iICJhcm02NCIpIgpSVVNUX0JBQ0tFTkRfT1VUUFVUX0RJUj0iJHtST09UX0RJUn0vZGlzdC9mbi1rbm9jay1ydXN0LWJhY2tlbmRzIgpGUEtfQVJDSEVTPSgpCgpyZWFkX2Zwa19hcmNoZXMoKSB7CiAgbG9jYWwgcmF3PSIke0ZOX0tOT0NLX0ZQS19BUkNIRVM6LWFtZDY0IGFybTY0fSIKICByYXc9IiR7cmF3Ly8sLyB9IgoKICBsb2NhbCBhcmNoCiAgbG9jYWwgbm9ybWFsaXplZAogIGxvY2FsIHNlZW49IiAiCgogIGZvciBhcmNoIGluICR7cmF3fTsgZG8KICAgIGNhc2UgIiR7YXJjaH0iIGluCiAgICAgIGFtZDY0fHg4Nnx4ODZfNjQpCiAgICAgICAgbm9ybWFsaXplZD0iYW1kNjQiCiAgICAgICAgOzsKICAgICAgYXJtNjR8YWFyY2g2NCkKICAgICAgICBub3JtYWxpemVkPSJhcm02NCIKICAgICAgICA7OwogICAgICAqKQogICAgICAgIGVjaG8gIltmbi1rbm9ja10gSW52YWxpZCBGUEsgYXJjaGl0ZWN0dXJlOiAke2FyY2h9OyBleHBlY3RlZCBhbWQ2NC94ODYgb3IgYXJtNjQiID4mMgogICAgICAgIGV4aXQgMQogICAgICAgIDs7CiAgICBlc2FjCgogICAgY2FzZSAiJHtzZWVufSIgaW4KICAgICAgKiIgJHtub3JtYWxpemVkfSAiKikgOzsKICAgICAgKikKICAgICAgICBGUEtfQVJDSEVTKz0oIiR7bm9ybWFsaXplZH0iKQogICAgICAgIHNlZW49IiR7c2Vlbn0ke25vcm1hbGl6ZWR9ICIKICAgICAgICA7OwogICAgZXNhYwogIGRvbmUKCiAgaWYgWyAiJHsjRlBLX0FSQ0hFU1tAXX0iIC1lcSAwIF07IHRoZW4KICAgIGVjaG8gIltmbi1rbm9ja10gRlBLIGFyY2hpdGVjdHVyZSBsaXN0IGlzIGVtcHR5IiA+JjIKICAgIGV4aXQgMQogIGZpCn0KCmZwa19hcmNoX2VuYWJsZWQoKSB7CiAgbG9jYWwgdGFyZ2V0PSIkMSIKICBsb2NhbCBhcmNoCgogIGZvciBhcmNoIGluICIke0ZQS19BUkNIRVNbQF19IjsgZG8KICAgIGlmIFsgIiR7YXJjaH0iID0gIiR7dGFyZ2V0fSIgXTsgdGhlbgogICAgICByZXR1cm4gMAogICAgZmkKICBkb25lCgogIHJldHVybiAxCn0KCmRldGVjdF9jcHVfY291bnQoKSB7CiAgbG9jYWwgY291bnQKCiAgY291bnQ9IiQoZ2V0Y29uZiBfTlBST0NFU1NPUlNfT05MTiAyPi9kZXYvbnVsbCB8fCB0cnVlKSIKICBpZiBbIC16ICIke2NvdW50fSIgXTsgdGhlbgogICAgY291bnQ9IiQoc3lzY3RsIC1uIGh3LmxvZ2ljYWxjcHUgMj4vZGV2L251bGwgfHwgdHJ1ZSkiCiAgZmkKICBpZiAhIHByaW50ZiAnJXNcbicgIiR7Y291bnR9IiB8IGdyZXAgLUVxICdeWzEtOV1bMC05XSokJzsgdGhlbgogICAgY291bnQ9IjEiCiAgZmkKCiAgZWNobyAiJHtjb3VudH0iCn0KCmNvbmZpZ3VyZV9ydXN0X2J1aWxkX3BhcmFsbGVsaXNtKCkgewogIGxvY2FsIHBhcmFsbGVsX3JlbGVhc2U9IiR7Rk5fS05PQ0tfUlVTVF9QQVJBTExFTF9SRUxFQVNFOi0wfSIKICBsb2NhbCBjcHVfY291bnQKCiAgaWYgWyAtbiAiJHtDQVJHT19CVUlMRF9KT0JTOi19IiBdOyB0aGVuCiAgICBlY2hvICJbZm4ta25vY2tdIENhcmdvIGJ1aWxkIGpvYnM6ICR7Q0FSR09fQlVJTERfSk9CU30iCiAgZWxpZiBbICIke3BhcmFsbGVsX3JlbGVhc2V9IiA9ICIxIiBdOyB0aGVuCiAgICBjcHVfY291bnQ9IiQoZGV0ZWN0X2NwdV9jb3VudCkiCiAgICBleHBvcnQgQ0FSR09fQlVJTERfSk9CUz0iJHtjcHVfY291bnR9IgogICAgZWNobyAiW2ZuLWtub2NrXSBDYXJnbyBidWlsZCBqb2JzOiAke0NBUkdPX0JVSUxEX0pPQlN9IgogIGZpCgogIGlmIFsgIiR7cGFyYWxsZWxfcmVsZWFzZX0iICE9ICIxIiBdOyB0aGVuCiAgICByZXR1cm4KICBmaQoKICBjcHVfY291bnQ9IiR7Q0FSR09fQlVJTERfSk9CUzotJChkZXRlY3RfY3B1X2NvdW50KX0iCiAgZXhwb3J0IENBUkdPX1BST0ZJTEVfUkVMRUFTRV9MVE89IiR7Q0FSR09fUFJPRklMRV9SRUxFQVNFX0xUTzotdGhpbn0iCiAgZXhwb3J0IENBUkdPX1BST0ZJTEVfUkVMRUFTRV9DT0RFR0VOX1VOSVRTPSIke0NBUkdPX1BST0ZJTEVfUkVMRUFTRV9DT0RFR0VOX1VOSVRTOi0ke2NwdV9jb3VudH19IgoKICBlY2hvICJbZm4ta25vY2tdIFBhcmFsbGVsIHJlbGVhc2UgcHJvZmlsZTogbHRvPSR7Q0FSR09fUFJPRklMRV9SRUxFQVNFX0xUT30sIGNvZGVnZW4tdW5pdHM9JHtDQVJHT19QUk9GSUxFX1JFTEVBU0VfQ09ERUdFTl9VTklUU30iCn0KCnN5bmNfbWFuaWZlc3RfdmVyc2lvbigpIHsKICBmbl9rbm9ja19zeW5jX21hbmlmZXN0X3ZlcnNpb24gIiR7Uk9PVF9ESVJ9IiAiJHtNQU5JRkVTVF9GSUxFfSIgIlske0FQUF9OQU1FfV0iCiAgZm5fa25vY2tfc3luY19ydXN0X3BhY2thZ2VfdmVyc2lvbiAiJHtST09UX0RJUn0iICJbJHtBUFBfTkFNRX1dIgp9CgpidWlsZF9wYWNrYWdlX2Fzc2V0cygpIHsKICBjZCAiJHtST09UX0RJUn0iCgogIGVjaG8gIltmbi1rbm9ja10gVGFyZ2V0IEZQSyBhcmNoaXRlY3R1cmVzOiAke0ZQS19BUkNIRVNbKl19IgogIGlmIFsgIiR7Rk5fS05PQ0tfQVJUSUZBQ1RTX0FMUkVBRFlfUFJFUEFSRUQ6LTB9IiA9ICIxIiBdOyB0aGVuCiAgICBlY2hvICJbZm4ta25vY2tdIFVzaW5nIGFscmVhZHkgcHJlcGFyZWQgc2hhcmVkIGFydGlmYWN0cyBmb3IgRlBLIHBhY2thZ2UgYXNzZXRzIgogIGVsc2UKICAgIGVjaG8gIltmbi1rbm9ja10gUHJlcGFyaW5nIHNoYXJlZCBhcnRpZmFjdHMgZm9yIEZQSyBwYWNrYWdlIGFzc2V0cy4uLiIKICAgIEZOX0tOT0NLX0ZQS19BUkNIRVM9IiR7RlBLX0FSQ0hFU1sqXX0iIFwKICAgICAgRk5fS05PQ0tfUlVOVElNRV9HQVRFV0FZX0FSQ0hFUz0iJHtGUEtfQVJDSEVTWypdfSIgXAogICAgICBGTl9LTk9DS19GUEtfUEFDS0FHRV9ESVI9IiR7QVBQX1BBQ0tBR0VfRElSfSIgXAogICAgICBiYXNoICIke1JPT1RfRElSfS9zY3JpcHRzL2ZuLWtub2NrLXByZXBhcmUtYXJ0aWZhY3RzLnNoIiBmcGsKICBmaQogIGNobW9kICt4IFwKICAgICIke0FQUF9QQUNLQUdFX0RJUn0vY21kL21haW4iIFwKICAgICIke0FQUF9QQUNLQUdFX0RJUn0vYXBwL3VpL2luZGV4LmNnaSIKICBlY2hvICJbZm4ta25vY2tdIFBhY2thZ2UgYXNzZXRzIGFyZSByZWFkeSB1bmRlciAke0FQUF9QQUNLQUdFX0RJUn0vYXBwIgp9CgpidWlsZF9mcGtfcnVzdF9iYWNrZW5kcygpIHsKICBpZiBbICIke0ZOX0tOT0NLX0ZQS19CVUlMRF9SVVNUX0JBQ0tFTkRTOi0xfSIgIT0gIjEiIF07IHRoZW4KICAgIGVjaG8gIltmbi1rbm9ja10gU2tpcHBpbmcgTGludXggUnVzdCBiYWNrZW5kIGJ1aWxkIChGTl9LTk9DS19GUEtfQlVJTERfUlVTVF9CQUNLRU5EUz0wKSIKICAgIHJldHVybgogIGZpCgogIG1rZGlyIC1wICIke1JVU1RfQkFDS0VORF9PVVRQVVRfRElSfSIKICBjb25maWd1cmVfcnVzdF9idWlsZF9wYXJhbGxlbGlzbQoKICBsb2NhbCBidWlsZGVyPSIke0ZOX0tOT0NLX0ZQS19SVVNUX0JVSUxERVI6LWF1dG99IgogIGlmIFsgIiR7YnVpbGRlcn0iID0gImF1dG8iIF07IHRoZW4KICAgIGlmIGNvbW1hbmQgLXYgemlnID4vZGV2L251bGwgMj4mMSAmJiBjYXJnbyB6aWdidWlsZCAtLWhlbHAgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICAgIGJ1aWxkZXI9InppZyIKICAgIGVsc2UKICAgICAgYnVpbGRlcj0iZG9ja2VyIgogICAgZmkKICBmaQoKICBjYXNlICIke2J1aWxkZXJ9IiBpbgogICAgemlnKQogICAgICByZXF1aXJlX2xvY2FsX3ppZ2J1aWxkCiAgICAgIGZvciBhcmNoIGluICIke0ZQS19BUkNIRVNbQF19IjsgZG8KICAgICAgICBjYXNlICIke2FyY2h9IiBpbgogICAgICAgICAgYW1kNjQpCiAgICAgICAgICAgIGJ1aWxkX2Zwa19ydXN0X2JhY2tlbmRfd2l0aF96aWcgImFtZDY0IiAieDg2XzY0LXVua25vd24tbGludXgtZ251IgogICAgICAgICAgICA7OwogICAgICAgICAgYXJtNjQpCiAgICAgICAgICAgIGJ1aWxkX2Zwa19ydXN0X2JhY2tlbmRfd2l0aF96aWcgImFybTY0IiAiYWFyY2g2NC11bmtub3duLWxpbnV4LWdudSIKICAgICAgICAgICAgOzsKICAgICAgICBlc2FjCiAgICAgIGRvbmUKICAgICAgOzsKICAgIGRvY2tlcikKICAgICAgaWYgISBjb21tYW5kIC12IGRvY2tlciA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgICAgICBlY2hvICJbZm4ta25vY2tdIERvY2tlciBpcyByZXF1aXJlZCB0byBidWlsZCBMaW51eCBSdXN0IGJhY2tlbmQgYmluYXJpZXMgZm9yIEZQSyBwYWNrYWdpbmcgd2hlbiBaaWcgaXMgdW5hdmFpbGFibGUiID4mMgogICAgICAgIGV4aXQgMQogICAgICBmaQogICAgICBmb3IgYXJjaCBpbiAiJHtGUEtfQVJDSEVTW0BdfSI7IGRvCiAgICAgICAgY2FzZSAiJHthcmNofSIgaW4KICAgICAgICAgIGFtZDY0KQogICAgICAgICAgICBidWlsZF9mcGtfcnVzdF9iYWNrZW5kX3dpdGhfZG9ja2VyICJhbWQ2NCIgImxpbnV4L2FtZDY0IgogICAgICAgICAgICA7OwogICAgICAgICAgYXJtNjQpCiAgICAgICAgICAgIGJ1aWxkX2Zwa19ydXN0X2JhY2tlbmRfd2l0aF9kb2NrZXIgImFybTY0IiAibGludXgvYXJtNjQiCiAgICAgICAgICAgIDs7CiAgICAgICAgZXNhYwogICAgICBkb25lCiAgICAgIDs7CiAgICAqKQogICAgICBlY2hvICJbZm4ta25vY2tdIFVuc3VwcG9ydGVkIEZOX0tOT0NLX0ZQS19SVVNUX0JVSUxERVI9JHtidWlsZGVyfTsgZXhwZWN0ZWQgYXV0bywgemlnLCBvciBkb2NrZXIiID4mMgogICAgICBleGl0IDEKICAgICAgOzsKICBlc2FjCn0KCnJlcXVpcmVfbG9jYWxfemlnYnVpbGQoKSB7CiAgaWYgISBjb21tYW5kIC12IHppZyA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgIGVjaG8gIltmbi1rbm9ja10gWmlnIGlzIHJlcXVpcmVkIGZvciBsb2NhbCBMaW51eCBjcm9zcyBjb21waWxhdGlvbjsgaW5zdGFsbCB6aWcgYmVmb3JlIHJ1bm5pbmcgdGhlIEZQSyBidWlsZCIgPiYyCiAgICBleGl0IDEKICBmaQoKICBpZiAhIGNhcmdvIHppZ2J1aWxkIC0taGVscCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgIGVjaG8gIltmbi1rbm9ja10gY2FyZ28temlnYnVpbGQgaXMgcmVxdWlyZWQgZm9yIGxvY2FsIExpbnV4IGNyb3NzIGNvbXBpbGF0aW9uOyBpbnN0YWxsIGl0IHdpdGg6IGNhcmdvIGluc3RhbGwgY2FyZ28temlnYnVpbGQiID4mMgogICAgZXhpdCAxCiAgZmkKfQoKYnVpbGRfZnBrX3J1c3RfYmFja2VuZF93aXRoX2RvY2tlcigpIHsKICBsb2NhbCBhcmNoPSIkMSIKICBsb2NhbCBwbGF0Zm9ybT0iJDIiCiAgbG9jYWwgb3V0X2Jpbj0iJHtSVVNUX0JBQ0tFTkRfT1VUUFVUX0RJUn0vc2VydmVyLWFkbWluLXJzLWxpbnV4LSR7YXJjaH0iCiAgbG9jYWwgaW1hZ2U9IiR7Rk5fS05PQ0tfUlVTVF9ET0NLRVJfSU1BR0U6LXJ1c3Q6MS1ib29rd29ybX0iCiAgbG9jYWwgY2FyZ29fZW52X25hbWUKICBsb2NhbCBkb2NrZXJfZW52X2FyZ3M9KAogICAgLWUgQ0FSR09fSE9NRT0vd29ya3NwYWNlL2Rpc3QvY2FyZ28taG9tZQogICAgLWUgQ0FSR09fVEFSR0VUX0RJUj0iL3dvcmtzcGFjZS9kaXN0L3NlcnZlci1hZG1pbi1ycy10YXJnZXQvJHthcmNofSIKICAgIC1lIEZOX0tOT0NLX1JVU1RfT1VUPSIvd29ya3NwYWNlL2Rpc3QvZm4ta25vY2stcnVzdC1iYWNrZW5kcy9zZXJ2ZXItYWRtaW4tcnMtbGludXgtJHthcmNofSIKICApCgogIGZvciBjYXJnb19lbnZfbmFtZSBpbiBcCiAgICBDQVJHT19CVUlMRF9KT0JTIFwKICAgIENBUkdPX1BST0ZJTEVfUkVMRUFTRV9MVE8gXAogICAgQ0FSR09fUFJPRklMRV9SRUxFQVNFX0NPREVHRU5fVU5JVFMgXAogICAgQ0FSR09fUFJPRklMRV9SRUxFQVNFX09QVF9MRVZFTCBcCiAgICBDQVJHT19QUk9GSUxFX1JFTEVBU0VfSU5DUkVNRU5UQUwgXAogICAgUlVTVEZMQUdTCiAgZG8KICAgIGlmIFsgLW4gIiR7IWNhcmdvX2Vudl9uYW1lOi19IiBdOyB0aGVuCiAgICAgIGRvY2tlcl9lbnZfYXJncys9KC1lICIke2NhcmdvX2Vudl9uYW1lfT0keyFjYXJnb19lbnZfbmFtZX0iKQogICAgZmkKICBkb25lCgogIGVjaG8gIltmbi1rbm9ja10gQnVpbGRpbmcgc2VydmVyLWFkbWluLXJzIGZvciAke3BsYXRmb3JtfSB3aXRoIERvY2tlci4uLiIKICBkb2NrZXIgcnVuIC0tcm0gXAogICAgLS1wbGF0Zm9ybSAiJHtwbGF0Zm9ybX0iIFwKICAgICIke2RvY2tlcl9lbnZfYXJnc1tAXX0iIFwKICAgIC12ICIke1JPT1RfRElSfTovd29ya3NwYWNlIiBcCiAgICAtdyAvd29ya3NwYWNlIFwKICAgICIke2ltYWdlfSIgXAogICAgYmFzaCAtbGMgJ2V4cG9ydCBQQVRIPS91c3IvbG9jYWwvY2FyZ28vYmluOiRQQVRIOyBjYXJnbyBidWlsZCAtLWxvY2tlZCAtLXJlbGVhc2UgLS1tYW5pZmVzdC1wYXRoIGFwcHMvc2VydmVyLWFkbWluLXJzL0NhcmdvLnRvbWwgJiYgY3AgIiR7Q0FSR09fVEFSR0VUX0RJUn0vcmVsZWFzZS9zZXJ2ZXItYWRtaW4tcnMiICIke0ZOX0tOT0NLX1JVU1RfT1VUfSIgJiYgeyBzdHJpcCAtLXN0cmlwLXVubmVlZGVkICIke0ZOX0tOT0NLX1JVU1RfT1VUfSIgMj4vZGV2L251bGwgfHwgdHJ1ZTsgfScKCiAgY2htb2QgNzU1ICIke291dF9iaW59IgogIGxvZ19ydXN0X2JhY2tlbmRfYmluYXJ5X3NpemUgIiR7b3V0X2Jpbn0iICIke2FyY2h9IgogIHZlcmlmeV9saW51eF9ydXN0X2JhY2tlbmQgIiR7b3V0X2Jpbn0iICIke2FyY2h9IgogIGVjaG8gIltmbi1rbm9ja10gUHJlcGFyZWQgUnVzdCBiYWNrZW5kICR7YXJjaH06ICR7b3V0X2Jpbn0iCn0KCmJ1aWxkX2Zwa19ydXN0X2JhY2tlbmRfd2l0aF96aWcoKSB7CiAgbG9jYWwgYXJjaD0iJDEiCiAgbG9jYWwgdGFyZ2V0X3RyaXBsZT0iJDIiCiAgbG9jYWwgb3V0X2Jpbj0iJHtSVVNUX0JBQ0tFTkRfT1VUUFVUX0RJUn0vc2VydmVyLWFkbWluLXJzLWxpbnV4LSR7YXJjaH0iCiAgbG9jYWwgdGFyZ2V0X2Rpcj0iJHtST09UX0RJUn0vZGlzdC9zZXJ2ZXItYWRtaW4tcnMtdGFyZ2V0L3ppZy0ke2FyY2h9IgogIGxvY2FsIHRhcmdldF9hcmc9IiR7dGFyZ2V0X3RyaXBsZX0iCiAgbG9jYWwgZ2xpYmNfdmVyc2lvbj0iJHtGTl9LTk9DS19aSUdfR0xJQkNfVkVSU0lPTjotfSIKICBsb2NhbCBidWlsdF9iaW4KCiAgaWYgWyAtbiAiJHtnbGliY192ZXJzaW9ufSIgXTsgdGhlbgogICAgdGFyZ2V0X2FyZz0iJHt0YXJnZXRfdHJpcGxlfS4ke2dsaWJjX3ZlcnNpb259IgogIGZpCgogIGVjaG8gIltmbi1rbm9ja10gQnVpbGRpbmcgc2VydmVyLWFkbWluLXJzIGZvciAke3RhcmdldF9hcmd9IHdpdGggY2FyZ28temlnYnVpbGQuLi4iCiAgcnVzdHVwIHRhcmdldCBhZGQgIiR7dGFyZ2V0X3RyaXBsZX0iID4vZGV2L251bGwKICBDQVJHT19UQVJHRVRfRElSPSIke3RhcmdldF9kaXJ9IiBjYXJnbyB6aWdidWlsZCBcCiAgICAtLWxvY2tlZCBcCiAgICAtLXJlbGVhc2UgXAogICAgLS1tYW5pZmVzdC1wYXRoICIke1JPT1RfRElSfS9hcHBzL3NlcnZlci1hZG1pbi1ycy9DYXJnby50b21sIiBcCiAgICAtLXRhcmdldCAiJHt0YXJnZXRfYXJnfSIKCiAgYnVpbHRfYmluPSIkKGZpbmQgIiR7dGFyZ2V0X2Rpcn0iIC10eXBlIGYgLXBhdGggJyovcmVsZWFzZS9zZXJ2ZXItYWRtaW4tcnMnIHwgaGVhZCAtbjEpIgogIGlmIFsgLXogIiR7YnVpbHRfYmlufSIgXTsgdGhlbgogICAgZWNobyAiW2ZuLWtub2NrXSBjYXJnby16aWdidWlsZCBmaW5pc2hlZCBidXQgc2VydmVyLWFkbWluLXJzIHdhcyBub3QgZm91bmQgdW5kZXIgJHt0YXJnZXRfZGlyfSIgPiYyCiAgICBleGl0IDEKICBmaQogIGNwICIke2J1aWx0X2Jpbn0iICIke291dF9iaW59IgogIGNobW9kIDc1NSAiJHtvdXRfYmlufSIKICBsb2dfcnVzdF9iYWNrZW5kX2JpbmFyeV9zaXplICIke291dF9iaW59IiAiJHthcmNofSIKICB2ZXJpZnlfbGludXhfcnVzdF9iYWNrZW5kICIke291dF9iaW59IiAiJHthcmNofSIKICBlY2hvICJbZm4ta25vY2tdIFByZXBhcmVkIFJ1c3QgYmFja2VuZCAke2FyY2h9OiAke291dF9iaW59Igp9Cgpsb2dfcnVzdF9iYWNrZW5kX2JpbmFyeV9zaXplKCkgewogIGxvY2FsIGJpbj0iJDEiCiAgbG9jYWwgYXJjaD0iJDIiCiAgbG9jYWwgYnl0ZXMKCiAgYnl0ZXM9IiQoZmlsZV9zaXplX2J5dGVzICIke2Jpbn0iKSIKICBlY2hvICJbZm4ta25vY2tdIFJ1c3QgYmFja2VuZCAke2FyY2h9IHNpemU6ICQoZm9ybWF0X2J5dGVzICIke2J5dGVzfSIpIgp9CgpmaWxlX3NpemVfYnl0ZXMoKSB7CiAgd2MgLWMgPCAiJDEiIHwgdHIgLWQgJ1s6c3BhY2U6XScKfQoKZm9ybWF0X2J5dGVzKCkgewogIGxvY2FsIGJ5dGVzPSIkMSIKICBhd2sgLXYgYnl0ZXM9IiR7Ynl0ZXN9IiAnQkVHSU4gewogICAgc3BsaXQoIkIgS2lCIE1pQiBHaUIiLCB1bml0cywgIiAiKTsKICAgIHZhbHVlID0gYnl0ZXMgKyAwOwogICAgdW5pdCA9IDE7CiAgICB3aGlsZSAodmFsdWUgPj0gMTAyNCAmJiB1bml0IDwgNCkgewogICAgICB2YWx1ZSAvPSAxMDI0OwogICAgICB1bml0Kys7CiAgICB9CiAgICBpZiAodW5pdCA9PSAxKSB7CiAgICAgIHByaW50ZiAiJWQgJXMiLCB2YWx1ZSwgdW5pdHNbdW5pdF07CiAgICB9IGVsc2UgewogICAgICBwcmludGYgIiUuMWYgJXMiLCB2YWx1ZSwgdW5pdHNbdW5pdF07CiAgICB9CiAgfScKfQoKdmVyaWZ5X2xpbnV4X3J1c3RfYmFja2VuZCgpIHsKICBsb2NhbCBiaW49IiQxIgogIGxvY2FsIGFyY2g9IiQyIgogIGxvY2FsIGZpbGVfaW5mbwoKICBpZiBbICEgLXggIiR7YmlufSIgXTsgdGhlbgogICAgZWNobyAiW2ZuLWtub2NrXSBNaXNzaW5nIGV4ZWN1dGFibGUgUnVzdCBiYWNrZW5kOiAke2Jpbn0iID4mMgogICAgZXhpdCAxCiAgZmkKCiAgZmlsZV9pbmZvPSIkKGZpbGUgLWIgIiR7YmlufSIpIgogIGNhc2UgIiR7YXJjaH0iIGluCiAgICBhbWQ2NCkKICAgICAgaWYgISBwcmludGYgJyVzXG4nICIke2ZpbGVfaW5mb30iIHwgZ3JlcCAtRXEgJ0VMRiA2NC1iaXQgTFNCLip4ODYtNjQnOyB0aGVuCiAgICAgICAgZWNobyAiW2ZuLWtub2NrXSBSdXN0IGJhY2tlbmQgJHtiaW59IGlzIG5vdCBhIExpbnV4IHg4Ni02NCBFTEY6ICR7ZmlsZV9pbmZvfSIgPiYyCiAgICAgICAgZXhpdCAxCiAgICAgIGZpCiAgICAgIDs7CiAgICBhcm02NCkKICAgICAgaWYgISBwcmludGYgJyVzXG4nICIke2ZpbGVfaW5mb30iIHwgZ3JlcCAtRXEgJ0VMRiA2NC1iaXQgTFNCLiooQVJNIGFhcmNoNjR8YWFyY2g2NCknOyB0aGVuCiAgICAgICAgZWNobyAiW2ZuLWtub2NrXSBSdXN0IGJhY2tlbmQgJHtiaW59IGlzIG5vdCBhIExpbnV4IGFybTY0IEVMRjogJHtmaWxlX2luZm99IiA+JjIKICAgICAgICBleGl0IDEKICAgICAgZmkKICAgICAgOzsKICAgICopCiAgICAgIGVjaG8gIltmbi1rbm9ja10gVW5zdXBwb3J0ZWQgUnVzdCBiYWNrZW5kIGFyY2g6ICR7YXJjaH0iID4mMgogICAgICBleGl0IDEKICAgICAgOzsKICBlc2FjCn0KCmNvcHlfcmVtb3RlX2ZwaygpIHsKICBjZCAiJHtST09UX0RJUn0iCiAgbWtkaXIgLXAgIiQoZGlybmFtZSAiJHtMT0NBTF9GUEtfQU1ENjRfUEFUSH0iKSIKICBpZiBmcGtfYXJjaF9lbmFibGVkICJhbWQ2NCI7IHRoZW4KICAgIGVjaG8gIltmbi1rbm9ja10gUHVsbGluZyByZW1vdGUgRlBLOiAke1JFTU9URV9IT1NUfToke1JFTU9URV9GUEtfQU1ENjRfUEFUSH0gLT4gJHtMT0NBTF9GUEtfQU1ENjRfUEFUSH0iCiAgICBzY3AgIiR7UkVNT1RFX0hPU1R9OiR7UkVNT1RFX0ZQS19BTUQ2NF9QQVRIfSIgIiR7TE9DQUxfRlBLX0FNRDY0X1BBVEh9IgogIGZpCiAgaWYgZnBrX2FyY2hfZW5hYmxlZCAiYXJtNjQiOyB0aGVuCiAgICBlY2hvICJbZm4ta25vY2tdIFB1bGxpbmcgcmVtb3RlIEZQSzogJHtSRU1PVEVfSE9TVH06JHtSRU1PVEVfRlBLX0FSTTY0X1BBVEh9IC0+ICR7TE9DQUxfRlBLX0FSTTY0X1BBVEh9IgogICAgc2NwICIke1JFTU9URV9IT1NUfToke1JFTU9URV9GUEtfQVJNNjRfUEFUSH0iICIke0xPQ0FMX0ZQS19BUk02NF9QQVRIfSIKICBmaQogIGVjaG8gIltmbi1rbm9ja10gRlBLIGNvcGllZCBmb3IgYXJjaGl0ZWN0dXJlczogJHtGUEtfQVJDSEVTWypdfSIKfQoKdXNhZ2UoKSB7CiAgY2F0IDw8J0VPRicKVXNhZ2U6CiAgLi9hcHBzL2ZuLWtub2NrL3NjcmlwdHMvYnVpbGQtcGFja2FnZS5zaCBbYnVpbGQtYXNzZXRzfGNvcHktZnBrXQoKQ29tbWFuZHM6CiAgYnVpbGQtYXNzZXRzICBCdWlsZCBhbmQgc3luYyBwYWNrYWdlIGFzc2V0cyAoZGVmYXVsdCkKICBjb3B5LWZwayAgICAgIENvcHkgcGFja2FnZWQgRlBLcyBmcm9tIHJlbW90ZSBob3N0IHRvIGxvY2FsIGRpc3QgcGF0aHMKCk9wdGlvbmFsIGVudiBvdmVycmlkZXM6CiAgRk5fS05PQ0tfRlBLX0FSQ0hFUyAgU3BhY2UvY29tbWEgbGlzdDogYW1kNjQveDg2IGFuZC9vciBhcm02NCAoZGVmYXVsdDogYW1kNjQgYXJtNjQpCiAgRk5fS05PQ0tfRlBLX1JVU1RfQlVJTERFUiAgUnVzdCBiYWNrZW5kIGJ1aWxkZXI6IGF1dG8sIHppZywgb3IgZG9ja2VyIChkZWZhdWx0OiBhdXRvKQogIEZOX0tOT0NLX1JVU1RfUEFSQUxMRUxfUkVMRUFTRSAgU2V0IDEgdG8gb3ZlcnJpZGUgcmVsZWFzZSBMVE8vY29kZWdlbiBmb3IgbW9yZSBwYXJhbGxlbCBidWlsZHMKICBDQVJHT19CVUlMRF9KT0JTICBDYXJnbyBqb2IgY291bnQ7IGRlZmF1bHRzIHRvIENQVSBjb3VudCB3aGVuIEZOX0tOT0NLX1JVU1RfUEFSQUxMRUxfUkVMRUFTRT0xCiAgQ0FSR09fUFJPRklMRV9SRUxFQVNFX0xUTyAgT3B0aW9uYWwgQ2FyZ28gcmVsZWFzZSBMVE8gb3ZlcnJpZGUsIGUuZy4gdGhpbgogIENBUkdPX1BST0ZJTEVfUkVMRUFTRV9DT0RFR0VOX1VOSVRTICBPcHRpb25hbCByZWxlYXNlIGNvZGVnZW4gdW5pdHMgb3ZlcnJpZGUKRU9GCn0KCnJlYWRfZnBrX2FyY2hlcwoKY21kPSIkezE6LWJ1aWxkLWFzc2V0c30iCmNhc2UgIiR7Y21kfSIgaW4KICBidWlsZC1hc3NldHMpCiAgICBidWlsZF9wYWNrYWdlX2Fzc2V0cwogICAgOzsKICBjb3B5LWZwaykKICAgIGNvcHlfcmVtb3RlX2ZwawogICAgOzsKICAqKQogICAgdXNhZ2UKICAgIGV4aXQgMQogICAgOzsKZXNhYwo=
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
+source "${ROOT_DIR}/scripts/version.sh"
+APP_PACKAGE_DIR="${FN_KNOCK_FPK_PACKAGE_DIR:-${ROOT_DIR}/apps/fn-knock}"
+REMOTE_HOST="${FN_KNOCK_REMOTE_HOST:-root@192.168.31.98}"
+REMOTE_DIR="${FN_KNOCK_REMOTE_DIR:-/tmp/fn-knock-fpk}"
+LOCAL_FPK_PATH="${FN_KNOCK_LOCAL_FPK_PATH:-apps/fn-knock/dist/fn-knock.fpk}"
+APP_NAME="${FN_KNOCK_APP_NAME:-fn-knock}"
+REMOTE_FPK_AMD64_PATH="${REMOTE_DIR}/${APP_NAME}-amd64.fpk"
+REMOTE_FPK_ARM64_PATH="${REMOTE_DIR}/${APP_NAME}-arm64.fpk"
+VERSION_FILE="${ROOT_DIR}/version.json"
+MANIFEST_FILE="${APP_PACKAGE_DIR}/manifest"
+
+derive_arch_fpk_path() {
+  local base_path="$1"
+  local arch="$2"
+  local dir_name
+  local file_name
+  local file_stem
+
+  dir_name="$(dirname "${base_path}")"
+  file_name="$(basename "${base_path}")"
+  file_stem="${file_name%.fpk}"
+
+  if [ "${file_stem}" = "${file_name}" ]; then
+    echo "${dir_name}/${file_name}-${arch}.fpk"
+    return 0
+  fi
+
+  echo "${dir_name}/${file_stem}-${arch}.fpk"
+}
+
+LOCAL_FPK_AMD64_PATH="$(derive_arch_fpk_path "${LOCAL_FPK_PATH}" "amd64")"
+LOCAL_FPK_ARM64_PATH="$(derive_arch_fpk_path "${LOCAL_FPK_PATH}" "arm64")"
+RUST_BACKEND_OUTPUT_DIR="${ROOT_DIR}/dist/fn-knock-rust-backends"
+FPK_ARCHES=()
+
+read_fpk_arches() {
+  local raw="${FN_KNOCK_FPK_ARCHES:-amd64 arm64}"
+  raw="${raw//,/ }"
+
+  local arch
+  local normalized
+  local seen=" "
+
+  for arch in ${raw}; do
+    case "${arch}" in
+      amd64|x86|x86_64)
+        normalized="amd64"
+        ;;
+      arm64|aarch64)
+        normalized="arm64"
+        ;;
+      *)
+        echo "[fn-knock] Invalid FPK architecture: ${arch}; expected amd64/x86 or arm64" >&2
+        exit 1
+        ;;
+    esac
+
+    case "${seen}" in
+      *" ${normalized} "*) ;;
+      *)
+        FPK_ARCHES+=("${normalized}")
+        seen="${seen}${normalized} "
+        ;;
+    esac
+  done
+
+  if [ "${#FPK_ARCHES[@]}" -eq 0 ]; then
+    echo "[fn-knock] FPK architecture list is empty" >&2
+    exit 1
+  fi
+}
+
+fpk_arch_enabled() {
+  local target="$1"
+  local arch
+
+  for arch in "${FPK_ARCHES[@]}"; do
+    if [ "${arch}" = "${target}" ]; then
+      return 0
+    fi
+  done
+
+  return 1
+}
+
+detect_cpu_count() {
+  local count
+
+  count="$(getconf _NPROCESSORS_ONLN 2>/dev/null || true)"
+  if [ -z "${count}" ]; then
+    count="$(sysctl -n hw.logicalcpu 2>/dev/null || true)"
+  fi
+  if ! printf '%s\n' "${count}" | grep -Eq '^[1-9][0-9]*$'; then
+    count="1"
+  fi
+
+  echo "${count}"
+}
+
+configure_rust_build_parallelism() {
+  local parallel_release="${FN_KNOCK_RUST_PARALLEL_RELEASE:-0}"
+  local cpu_count
+
+  if [ -n "${CARGO_BUILD_JOBS:-}" ]; then
+    echo "[fn-knock] Cargo build jobs: ${CARGO_BUILD_JOBS}"
+  elif [ "${parallel_release}" = "1" ]; then
+    cpu_count="$(detect_cpu_count)"
+    export CARGO_BUILD_JOBS="${cpu_count}"
+    echo "[fn-knock] Cargo build jobs: ${CARGO_BUILD_JOBS}"
+  fi
+
+  if [ "${parallel_release}" != "1" ]; then
+    return
+  fi
+
+  cpu_count="${CARGO_BUILD_JOBS:-$(detect_cpu_count)}"
+  export CARGO_PROFILE_RELEASE_LTO="${CARGO_PROFILE_RELEASE_LTO:-thin}"
+  export CARGO_PROFILE_RELEASE_CODEGEN_UNITS="${CARGO_PROFILE_RELEASE_CODEGEN_UNITS:-${cpu_count}}"
+
+  echo "[fn-knock] Parallel release profile: lto=${CARGO_PROFILE_RELEASE_LTO}, codegen-units=${CARGO_PROFILE_RELEASE_CODEGEN_UNITS}"
+}
+
+sync_manifest_version() {
+  fn_knock_sync_manifest_version "${ROOT_DIR}" "${MANIFEST_FILE}" "[${APP_NAME}]"
+  fn_knock_sync_rust_package_version "${ROOT_DIR}" "[${APP_NAME}]"
+}
+
+build_package_assets() {
+  cd "${ROOT_DIR}"
+
+  echo "[fn-knock] Target FPK architectures: ${FPK_ARCHES[*]}"
+  if [ "${FN_KNOCK_ARTIFACTS_ALREADY_PREPARED:-0}" = "1" ]; then
+    echo "[fn-knock] Using already prepared shared artifacts for FPK package assets"
+  else
+    echo "[fn-knock] Preparing shared artifacts for FPK package assets..."
+    FN_KNOCK_FPK_ARCHES="${FPK_ARCHES[*]}" \
+      FN_KNOCK_RUNTIME_GATEWAY_ARCHES="${FPK_ARCHES[*]}" \
+      FN_KNOCK_FPK_PACKAGE_DIR="${APP_PACKAGE_DIR}" \
+      bash "${ROOT_DIR}/scripts/fn-knock-prepare-artifacts.sh" fpk
+  fi
+  chmod +x \
+    "${APP_PACKAGE_DIR}/cmd/main" \
+    "${APP_PACKAGE_DIR}/app/ui/index.cgi"
+  echo "[fn-knock] Package assets are ready under ${APP_PACKAGE_DIR}/app"
+}
+
+build_fpk_rust_backends() {
+  if [ "${FN_KNOCK_FPK_BUILD_RUST_BACKENDS:-1}" != "1" ]; then
+    echo "[fn-knock] Skipping Linux Rust backend build (FN_KNOCK_FPK_BUILD_RUST_BACKENDS=0)"
+    return
+  fi
+
+  mkdir -p "${RUST_BACKEND_OUTPUT_DIR}"
+  configure_rust_build_parallelism
+
+  local builder="${FN_KNOCK_FPK_RUST_BUILDER:-auto}"
+  if [ "${builder}" = "auto" ]; then
+    if command -v zig >/dev/null 2>&1 && cargo zigbuild --help >/dev/null 2>&1; then
+      builder="zig"
+    else
+      builder="docker"
+    fi
+  fi
+
+  case "${builder}" in
+    zig)
+      require_local_zigbuild
+      for arch in "${FPK_ARCHES[@]}"; do
+        case "${arch}" in
+          amd64)
+            build_fpk_rust_backend_with_zig "amd64" "x86_64-unknown-linux-gnu"
+            ;;
+          arm64)
+            build_fpk_rust_backend_with_zig "arm64" "aarch64-unknown-linux-gnu"
+            ;;
+        esac
+      done
+      ;;
+    docker)
+      if ! command -v docker >/dev/null 2>&1; then
+        echo "[fn-knock] Docker is required to build Linux Rust backend binaries for FPK packaging when Zig is unavailable" >&2
+        exit 1
+      fi
+      for arch in "${FPK_ARCHES[@]}"; do
+        case "${arch}" in
+          amd64)
+            build_fpk_rust_backend_with_docker "amd64" "linux/amd64"
+            ;;
+          arm64)
+            build_fpk_rust_backend_with_docker "arm64" "linux/arm64"
+            ;;
+        esac
+      done
+      ;;
+    *)
+      echo "[fn-knock] Unsupported FN_KNOCK_FPK_RUST_BUILDER=${builder}; expected auto, zig, or docker" >&2
+      exit 1
+      ;;
+  esac
+}
+
+require_local_zigbuild() {
+  if ! command -v zig >/dev/null 2>&1; then
+    echo "[fn-knock] Zig is required for local Linux cross compilation; install zig before running the FPK build" >&2
+    exit 1
+  fi
+
+  if ! cargo zigbuild --help >/dev/null 2>&1; then
+    echo "[fn-knock] cargo-zigbuild is required for local Linux cross compilation; install it with: cargo install cargo-zigbuild" >&2
+    exit 1
+  fi
+}
+
+build_fpk_rust_backend_with_docker() {
+  local arch="$1"
+  local platform="$2"
+  local out_bin="${RUST_BACKEND_OUTPUT_DIR}/server-admin-rs-linux-${arch}"
+  local image="${FN_KNOCK_RUST_DOCKER_IMAGE:-rust:1-bookworm}"
+  local cargo_env_name
+  local docker_env_args=(
+    -e CARGO_HOME=/workspace/dist/cargo-home
+    -e CARGO_TARGET_DIR="/workspace/dist/server-admin-rs-target/${arch}"
+    -e FN_KNOCK_RUST_OUT="/workspace/dist/fn-knock-rust-backends/server-admin-rs-linux-${arch}"
+  )
+
+  for cargo_env_name in \
+    CARGO_BUILD_JOBS \
+    CARGO_PROFILE_RELEASE_LTO \
+    CARGO_PROFILE_RELEASE_CODEGEN_UNITS \
+    CARGO_PROFILE_RELEASE_OPT_LEVEL \
+    CARGO_PROFILE_RELEASE_INCREMENTAL \
+    RUSTFLAGS
+  do
+    if [ -n "${!cargo_env_name:-}" ]; then
+      docker_env_args+=(-e "${cargo_env_name}=${!cargo_env_name}")
+    fi
+  done
+
+  echo "[fn-knock] Building server-admin-rs for ${platform} with Docker..."
+  docker run --rm \
+    --platform "${platform}" \
+    "${docker_env_args[@]}" \
+    -v "${ROOT_DIR}:/workspace" \
+    -w /workspace \
+    "${image}" \
+    bash -lc 'export PATH=/usr/local/cargo/bin:$PATH; cargo build --locked --release --manifest-path apps/server-admin-rs/Cargo.toml && cp "${CARGO_TARGET_DIR}/release/server-admin-rs" "${FN_KNOCK_RUST_OUT}" && { strip --strip-unneeded "${FN_KNOCK_RUST_OUT}" 2>/dev/null || true; }'
+
+  chmod 755 "${out_bin}"
+  log_rust_backend_binary_size "${out_bin}" "${arch}"
+  verify_linux_rust_backend "${out_bin}" "${arch}"
+  echo "[fn-knock] Prepared Rust backend ${arch}: ${out_bin}"
+}
+
+build_fpk_rust_backend_with_zig() {
+  local arch="$1"
+  local target_triple="$2"
+  local out_bin="${RUST_BACKEND_OUTPUT_DIR}/server-admin-rs-linux-${arch}"
+  local target_dir="${ROOT_DIR}/dist/server-admin-rs-target/zig-${arch}"
+  local target_arg="${target_triple}"
+  local glibc_version="${FN_KNOCK_ZIG_GLIBC_VERSION:-}"
+  local built_bin
+
+  if [ -n "${glibc_version}" ]; then
+    target_arg="${target_triple}.${glibc_version}"
+  fi
+
+  echo "[fn-knock] Building server-admin-rs for ${target_arg} with cargo-zigbuild..."
+  rustup target add "${target_triple}" >/dev/null
+  CARGO_TARGET_DIR="${target_dir}" cargo zigbuild \
+    --locked \
+    --release \
+    --manifest-path "${ROOT_DIR}/apps/server-admin-rs/Cargo.toml" \
+    --target "${target_arg}"
+
+  built_bin="$(find "${target_dir}" -type f -path '*/release/server-admin-rs' | head -n1)"
+  if [ -z "${built_bin}" ]; then
+    echo "[fn-knock] cargo-zigbuild finished but server-admin-rs was not found under ${target_dir}" >&2
+    exit 1
+  fi
+  cp "${built_bin}" "${out_bin}"
+  chmod 755 "${out_bin}"
+  log_rust_backend_binary_size "${out_bin}" "${arch}"
+  verify_linux_rust_backend "${out_bin}" "${arch}"
+  echo "[fn-knock] Prepared Rust backend ${arch}: ${out_bin}"
+}
+
+log_rust_backend_binary_size() {
+  local bin="$1"
+  local arch="$2"
+  local bytes
+
+  bytes="$(file_size_bytes "${bin}")"
+  echo "[fn-knock] Rust backend ${arch} size: $(format_bytes "${bytes}")"
+}
+
+file_size_bytes() {
+  wc -c < "$1" | tr -d '[:space:]'
+}
+
+format_bytes() {
+  local bytes="$1"
+  awk -v bytes="${bytes}" 'BEGIN {
+    split("B KiB MiB GiB", units, " ");
+    value = bytes + 0;
+    unit = 1;
+    while (value >= 1024 && unit < 4) {
+      value /= 1024;
+      unit++;
+    }
+    if (unit == 1) {
+      printf "%d %s", value, units[unit];
+    } else {
+      printf "%.1f %s", value, units[unit];
+    }
+  }'
+}
+
+verify_linux_rust_backend() {
+  local bin="$1"
+  local arch="$2"
+  local file_info
+
+  if [ ! -x "${bin}" ]; then
+    echo "[fn-knock] Missing executable Rust backend: ${bin}" >&2
+    exit 1
+  fi
+
+  file_info="$(file -b "${bin}")"
+  case "${arch}" in
+    amd64)
+      if ! printf '%s\n' "${file_info}" | grep -Eq 'ELF 64-bit LSB.*x86-64'; then
+        echo "[fn-knock] Rust backend ${bin} is not a Linux x86-64 ELF: ${file_info}" >&2
+        exit 1
+      fi
+      ;;
+    arm64)
+      if ! printf '%s\n' "${file_info}" | grep -Eq 'ELF 64-bit LSB.*(ARM aarch64|aarch64)'; then
+        echo "[fn-knock] Rust backend ${bin} is not a Linux arm64 ELF: ${file_info}" >&2
+        exit 1
+      fi
+      ;;
+    *)
+      echo "[fn-knock] Unsupported Rust backend arch: ${arch}" >&2
+      exit 1
+      ;;
+  esac
+}
+
+copy_remote_fpk() {
+  cd "${ROOT_DIR}"
+  mkdir -p "$(dirname "${LOCAL_FPK_AMD64_PATH}")"
+  if fpk_arch_enabled "amd64"; then
+    echo "[fn-knock] Pulling remote FPK: ${REMOTE_HOST}:${REMOTE_FPK_AMD64_PATH} -> ${LOCAL_FPK_AMD64_PATH}"
+    scp "${REMOTE_HOST}:${REMOTE_FPK_AMD64_PATH}" "${LOCAL_FPK_AMD64_PATH}"
+  fi
+  if fpk_arch_enabled "arm64"; then
+    echo "[fn-knock] Pulling remote FPK: ${REMOTE_HOST}:${REMOTE_FPK_ARM64_PATH} -> ${LOCAL_FPK_ARM64_PATH}"
+    scp "${REMOTE_HOST}:${REMOTE_FPK_ARM64_PATH}" "${LOCAL_FPK_ARM64_PATH}"
+  fi
+  echo "[fn-knock] FPK copied for architectures: ${FPK_ARCHES[*]}"
+}
+
+usage() {
+  cat <<'EOF'
+Usage:
+  ./apps/fn-knock/scripts/build-package.sh [build-assets|copy-fpk]
+
+Commands:
+  build-assets  Build and sync package assets (default)
+  copy-fpk      Copy packaged FPKs from remote host to local dist paths
+
+Optional env overrides:
+  FN_KNOCK_FPK_ARCHES  Space/comma list: amd64/x86 and/or arm64 (default: amd64 arm64)
+  FN_KNOCK_FPK_RUST_BUILDER  Rust backend builder: auto, zig, or docker (default: auto)
+  FN_KNOCK_RUST_PARALLEL_RELEASE  Set 1 to override release LTO/codegen for more parallel builds
+  CARGO_BUILD_JOBS  Cargo job count; defaults to CPU count when FN_KNOCK_RUST_PARALLEL_RELEASE=1
+  CARGO_PROFILE_RELEASE_LTO  Optional Cargo release LTO override, e.g. thin
+  CARGO_PROFILE_RELEASE_CODEGEN_UNITS  Optional release codegen units override
+EOF
+}
+
+read_fpk_arches
+
+cmd="${1:-build-assets}"
+case "${cmd}" in
+  build-assets)
+    build_package_assets
+    ;;
+  copy-fpk)
+    copy_remote_fpk
+    ;;
+  *)
+    usage
+    exit 1
+    ;;
+esac

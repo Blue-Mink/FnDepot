@@ -1,1 +1,142 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgdHlwZSBDb21wdXRlZFJlZiwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyBTY2FuQVBJLCB0eXBlIEhvc3RNYXBwaW5nUHJvYmVSZXN1bHQgfSBmcm9tICJAL2xpYi9hcGkvc2NhbiI7CmltcG9ydCB0eXBlIHsgSG9zdE1hcHBpbmcgfSBmcm9tICIuLi90eXBlcyI7CmltcG9ydCB7IGlzUHJveHlIb3N0TWFwcGluZyB9IGZyb20gIi4uL2xpYi9ob3N0LW1hcHBpbmctdGFyZ2V0IjsKCnR5cGUgTWFwcGluZ3NTb3VyY2UgPSBSZWY8SG9zdE1hcHBpbmdbXT4gfCBDb21wdXRlZFJlZjxIb3N0TWFwcGluZ1tdPjsKCmV4cG9ydCBpbnRlcmZhY2UgVXNlU3RhbGVIb3N0TWFwcGluZ3NDbGVhbnVwT3B0aW9ucyB7CiAgbWFwcGluZ3M6IE1hcHBpbmdzU291cmNlOwogIHNhdmVNYXBwaW5nczogKG1hcHBpbmdzOiBIb3N0TWFwcGluZ1tdKSA9PiBQcm9taXNlPHVua25vd24+OwogIGlzQXV0aFNlcnZpY2VUYXJnZXQ6ICh0YXJnZXQ6IHN0cmluZykgPT4gYm9vbGVhbjsKfQoKY29uc3QgaG9zdEtleSA9ICh2YWx1ZTogc3RyaW5nKTogc3RyaW5nID0+IHZhbHVlLnRyaW0oKS50b0xvd2VyQ2FzZSgpOwoKZXhwb3J0IGNvbnN0IHVzZVN0YWxlSG9zdE1hcHBpbmdzQ2xlYW51cCA9ICgKICBvcHRpb25zOiBVc2VTdGFsZUhvc3RNYXBwaW5nc0NsZWFudXBPcHRpb25zLAopID0+IHsKICBjb25zdCBvcGVuID0gcmVmKGZhbHNlKTsKICBjb25zdCByZXN1bHRzID0gcmVmPEhvc3RNYXBwaW5nUHJvYmVSZXN1bHRbXT4oW10pOwogIGNvbnN0IHNlbGVjdGVkSG9zdEtleXMgPSByZWYobmV3IFNldDxzdHJpbmc+KCkpOwogIGNvbnN0IGlzUHJvYmluZyA9IHJlZihmYWxzZSk7CiAgY29uc3QgaXNDbGVhbmluZyA9IHJlZihmYWxzZSk7CgogIGNvbnN0IHByb2JlYWJsZU1hcHBpbmdzID0gY29tcHV0ZWQoKCkgPT4KICAgIG9wdGlvbnMubWFwcGluZ3MudmFsdWUuZmlsdGVyKAogICAgICAobWFwcGluZykgPT4KICAgICAgICBpc1Byb3h5SG9zdE1hcHBpbmcobWFwcGluZykgJiYKICAgICAgICBtYXBwaW5nLmhvc3QudHJpbSgpICYmCiAgICAgICAgbWFwcGluZy50YXJnZXQudHJpbSgpICYmCiAgICAgICAgIW9wdGlvbnMuaXNBdXRoU2VydmljZVRhcmdldChtYXBwaW5nLnRhcmdldCksCiAgICApLAogICk7CgogIGNvbnN0IHN0YWxlUmVzdWx0cyA9IGNvbXB1dGVkKCgpID0+CiAgICByZXN1bHRzLnZhbHVlLmZpbHRlcigocmVzdWx0KSA9PiByZXN1bHQuc3RhdHVzID09PSAic3RhbGUiKSwKICApOwoKICBjb25zdCBzZWxlY3RlZENvdW50ID0gY29tcHV0ZWQoKCkgPT4gc2VsZWN0ZWRIb3N0S2V5cy52YWx1ZS5zaXplKTsKICBjb25zdCBpc0FsbFN0YWxlU2VsZWN0ZWQgPSBjb21wdXRlZCgKICAgICgpID0+CiAgICAgIHN0YWxlUmVzdWx0cy52YWx1ZS5sZW5ndGggPiAwICYmCiAgICAgIHN0YWxlUmVzdWx0cy52YWx1ZS5ldmVyeSgocmVzdWx0KSA9PgogICAgICAgIHNlbGVjdGVkSG9zdEtleXMudmFsdWUuaGFzKGhvc3RLZXkocmVzdWx0Lmhvc3QpKSwKICAgICAgKSwKICApOwoKICBjb25zdCBzZXRTZWxlY3RlZEhvc3RzID0gKGhvc3RzOiBJdGVyYWJsZTxzdHJpbmc+KSA9PiB7CiAgICBzZWxlY3RlZEhvc3RLZXlzLnZhbHVlID0gbmV3IFNldChbLi4uaG9zdHNdLm1hcChob3N0S2V5KS5maWx0ZXIoQm9vbGVhbikpOwogIH07CgogIGNvbnN0IHNldEhvc3RTZWxlY3RlZCA9IChob3N0OiBzdHJpbmcsIHNlbGVjdGVkOiBib29sZWFuKSA9PiB7CiAgICBjb25zdCBuZXh0ID0gbmV3IFNldChzZWxlY3RlZEhvc3RLZXlzLnZhbHVlKTsKICAgIGNvbnN0IGtleSA9IGhvc3RLZXkoaG9zdCk7CiAgICBpZiAoc2VsZWN0ZWQpIG5leHQuYWRkKGtleSk7CiAgICBlbHNlIG5leHQuZGVsZXRlKGtleSk7CiAgICBzZWxlY3RlZEhvc3RLZXlzLnZhbHVlID0gbmV4dDsKICB9OwoKICBjb25zdCBpc0hvc3RTZWxlY3RlZCA9IChob3N0OiBzdHJpbmcpOiBib29sZWFuID0+CiAgICBzZWxlY3RlZEhvc3RLZXlzLnZhbHVlLmhhcyhob3N0S2V5KGhvc3QpKTsKCiAgY29uc3Qgc2V0QWxsU3RhbGVTZWxlY3RlZCA9IChzZWxlY3RlZDogYm9vbGVhbikgPT4gewogICAgc2V0U2VsZWN0ZWRIb3N0cygKICAgICAgc2VsZWN0ZWQgPyBzdGFsZVJlc3VsdHMudmFsdWUubWFwKChyZXN1bHQpID0+IHJlc3VsdC5ob3N0KSA6IFtdLAogICAgKTsKICB9OwoKICBjb25zdCByZXNldCA9ICgpID0+IHsKICAgIHJlc3VsdHMudmFsdWUgPSBbXTsKICAgIHNlbGVjdGVkSG9zdEtleXMudmFsdWUgPSBuZXcgU2V0KCk7CiAgfTsKCiAgY29uc3Qgb3BlbkRpYWxvZyA9ICgpID0+IHsKICAgIG9wZW4udmFsdWUgPSB0cnVlOwogIH07CgogIGNvbnN0IGNsb3NlRGlhbG9nID0gKCkgPT4gewogICAgb3Blbi52YWx1ZSA9IGZhbHNlOwogICAgcmVzZXQoKTsKICB9OwoKICBjb25zdCBwcm9iZSA9IGFzeW5jICgpID0+IHsKICAgIGlzUHJvYmluZy52YWx1ZSA9IHRydWU7CiAgICB0cnkgewogICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IFNjYW5BUEkucHJvYmVIb3N0TWFwcGluZ3MoewogICAgICAgIGhvc3RzOiBwcm9iZWFibGVNYXBwaW5ncy52YWx1ZS5tYXAoKG1hcHBpbmcpID0+IG1hcHBpbmcuaG9zdCksCiAgICAgIH0pOwogICAgICByZXN1bHRzLnZhbHVlID0gcmVzcG9uc2UucmVzdWx0czsKICAgICAgc2V0U2VsZWN0ZWRIb3N0cygKICAgICAgICByZXNwb25zZS5yZXN1bHRzCiAgICAgICAgICAuZmlsdGVyKChyZXN1bHQpID0+IHJlc3VsdC5zdGF0dXMgPT09ICJzdGFsZSIpCiAgICAgICAgICAubWFwKChyZXN1bHQpID0+IHJlc3VsdC5ob3N0KSwKICAgICAgKTsKICAgICAgcmV0dXJuIHJlc3BvbnNlLnJlc3VsdHM7CiAgICB9IGZpbmFsbHkgewogICAgICBpc1Byb2JpbmcudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9OwoKICBjb25zdCBjbGVhblNlbGVjdGVkID0gYXN5bmMgKCk6IFByb21pc2U8bnVtYmVyPiA9PiB7CiAgICBjb25zdCBzdGFsZVNlbGVjdGVkS2V5cyA9IG5ldyBTZXQoCiAgICAgIHN0YWxlUmVzdWx0cy52YWx1ZQogICAgICAgIC5tYXAoKHJlc3VsdCkgPT4gaG9zdEtleShyZXN1bHQuaG9zdCkpCiAgICAgICAgLmZpbHRlcigoa2V5KSA9PiBzZWxlY3RlZEhvc3RLZXlzLnZhbHVlLmhhcyhrZXkpKSwKICAgICk7CiAgICBpZiAoc3RhbGVTZWxlY3RlZEtleXMuc2l6ZSA9PT0gMCkgcmV0dXJuIDA7CgogICAgY29uc3QgbmV4dE1hcHBpbmdzID0gb3B0aW9ucy5tYXBwaW5ncy52YWx1ZS5maWx0ZXIoCiAgICAgIChtYXBwaW5nKSA9PiAhc3RhbGVTZWxlY3RlZEtleXMuaGFzKGhvc3RLZXkobWFwcGluZy5ob3N0KSksCiAgICApOwogICAgY29uc3QgcmVtb3ZlZENvdW50ID0gb3B0aW9ucy5tYXBwaW5ncy52YWx1ZS5sZW5ndGggLSBuZXh0TWFwcGluZ3MubGVuZ3RoOwogICAgaWYgKHJlbW92ZWRDb3VudCA8PSAwKSByZXR1cm4gMDsKCiAgICBpc0NsZWFuaW5nLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGF3YWl0IG9wdGlvbnMuc2F2ZU1hcHBpbmdzKG5leHRNYXBwaW5ncyk7CiAgICAgIHJlc2V0KCk7CiAgICAgIHJldHVybiByZW1vdmVkQ291bnQ7CiAgICB9IGZpbmFsbHkgewogICAgICBpc0NsZWFuaW5nLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgcmV0dXJuIHsKICAgIG9wZW4sCiAgICByZXN1bHRzLAogICAgcHJvYmVhYmxlTWFwcGluZ3MsCiAgICBzdGFsZVJlc3VsdHMsCiAgICBzZWxlY3RlZENvdW50LAogICAgaXNBbGxTdGFsZVNlbGVjdGVkLAogICAgaXNQcm9iaW5nLAogICAgaXNDbGVhbmluZywKICAgIG9wZW5EaWFsb2csCiAgICBjbG9zZURpYWxvZywKICAgIHByb2JlLAogICAgY2xlYW5TZWxlY3RlZCwKICAgIHNldEhvc3RTZWxlY3RlZCwKICAgIGlzSG9zdFNlbGVjdGVkLAogICAgc2V0QWxsU3RhbGVTZWxlY3RlZCwKICB9Owp9Owo=
+import { computed, ref, type ComputedRef, type Ref } from "vue";
+import { ScanAPI, type HostMappingProbeResult } from "@/lib/api/scan";
+import type { HostMapping } from "../types";
+import { isProxyHostMapping } from "../lib/host-mapping-target";
+
+type MappingsSource = Ref<HostMapping[]> | ComputedRef<HostMapping[]>;
+
+export interface UseStaleHostMappingsCleanupOptions {
+  mappings: MappingsSource;
+  saveMappings: (mappings: HostMapping[]) => Promise<unknown>;
+  isAuthServiceTarget: (target: string) => boolean;
+}
+
+const hostKey = (value: string): string => value.trim().toLowerCase();
+
+export const useStaleHostMappingsCleanup = (
+  options: UseStaleHostMappingsCleanupOptions,
+) => {
+  const open = ref(false);
+  const results = ref<HostMappingProbeResult[]>([]);
+  const selectedHostKeys = ref(new Set<string>());
+  const isProbing = ref(false);
+  const isCleaning = ref(false);
+
+  const probeableMappings = computed(() =>
+    options.mappings.value.filter(
+      (mapping) =>
+        isProxyHostMapping(mapping) &&
+        mapping.host.trim() &&
+        mapping.target.trim() &&
+        !options.isAuthServiceTarget(mapping.target),
+    ),
+  );
+
+  const staleResults = computed(() =>
+    results.value.filter((result) => result.status === "stale"),
+  );
+
+  const selectedCount = computed(() => selectedHostKeys.value.size);
+  const isAllStaleSelected = computed(
+    () =>
+      staleResults.value.length > 0 &&
+      staleResults.value.every((result) =>
+        selectedHostKeys.value.has(hostKey(result.host)),
+      ),
+  );
+
+  const setSelectedHosts = (hosts: Iterable<string>) => {
+    selectedHostKeys.value = new Set([...hosts].map(hostKey).filter(Boolean));
+  };
+
+  const setHostSelected = (host: string, selected: boolean) => {
+    const next = new Set(selectedHostKeys.value);
+    const key = hostKey(host);
+    if (selected) next.add(key);
+    else next.delete(key);
+    selectedHostKeys.value = next;
+  };
+
+  const isHostSelected = (host: string): boolean =>
+    selectedHostKeys.value.has(hostKey(host));
+
+  const setAllStaleSelected = (selected: boolean) => {
+    setSelectedHosts(
+      selected ? staleResults.value.map((result) => result.host) : [],
+    );
+  };
+
+  const reset = () => {
+    results.value = [];
+    selectedHostKeys.value = new Set();
+  };
+
+  const openDialog = () => {
+    open.value = true;
+  };
+
+  const closeDialog = () => {
+    open.value = false;
+    reset();
+  };
+
+  const probe = async () => {
+    isProbing.value = true;
+    try {
+      const response = await ScanAPI.probeHostMappings({
+        hosts: probeableMappings.value.map((mapping) => mapping.host),
+      });
+      results.value = response.results;
+      setSelectedHosts(
+        response.results
+          .filter((result) => result.status === "stale")
+          .map((result) => result.host),
+      );
+      return response.results;
+    } finally {
+      isProbing.value = false;
+    }
+  };
+
+  const cleanSelected = async (): Promise<number> => {
+    const staleSelectedKeys = new Set(
+      staleResults.value
+        .map((result) => hostKey(result.host))
+        .filter((key) => selectedHostKeys.value.has(key)),
+    );
+    if (staleSelectedKeys.size === 0) return 0;
+
+    const nextMappings = options.mappings.value.filter(
+      (mapping) => !staleSelectedKeys.has(hostKey(mapping.host)),
+    );
+    const removedCount = options.mappings.value.length - nextMappings.length;
+    if (removedCount <= 0) return 0;
+
+    isCleaning.value = true;
+    try {
+      await options.saveMappings(nextMappings);
+      reset();
+      return removedCount;
+    } finally {
+      isCleaning.value = false;
+    }
+  };
+
+  return {
+    open,
+    results,
+    probeableMappings,
+    staleResults,
+    selectedCount,
+    isAllStaleSelected,
+    isProbing,
+    isCleaning,
+    openDialog,
+    closeDialog,
+    probe,
+    cleanSelected,
+    setHostSelected,
+    isHostSelected,
+    setAllStaleSelected,
+  };
+};

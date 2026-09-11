@@ -1,1 +1,21 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPG1haW4KICAgIGRhdGEtc2xvdD0ic2lkZWJhci1pbnNldCIKICAgIDpjbGFzcz0iY24oCiAgICAgICdiZy1iYWNrZ3JvdW5kIHJlbGF0aXZlIGZsZXggdy1mdWxsIGZsZXgtMSBmbGV4LWNvbCcsCiAgICAgICdtZDpwZWVyLWRhdGEtW3ZhcmlhbnQ9aW5zZXRdOm0tMiBtZDpwZWVyLWRhdGEtW3ZhcmlhbnQ9aW5zZXRdOm1sLTAgbWQ6cGVlci1kYXRhLVt2YXJpYW50PWluc2V0XTpyb3VuZGVkLXhsIG1kOnBlZXItZGF0YS1bdmFyaWFudD1pbnNldF06c2hhZG93LXNtIG1kOnBlZXItZGF0YS1bdmFyaWFudD1pbnNldF06cGVlci1kYXRhLVtzdGF0ZT1jb2xsYXBzZWRdOm1sLTInLAogICAgICBwcm9wcy5jbGFzcywKICAgICkiCiAgPgogICAgPHNsb3QgLz4KICA8L21haW4+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <main
+    data-slot="sidebar-inset"
+    :class="cn(
+      'bg-background relative flex w-full flex-1 flex-col',
+      'md:peer-data-[variant=inset]:m-2 md:peer-data-[variant=inset]:ml-0 md:peer-data-[variant=inset]:rounded-xl md:peer-data-[variant=inset]:shadow-sm md:peer-data-[variant=inset]:peer-data-[state=collapsed]:ml-2',
+      props.class,
+    )"
+  >
+    <slot />
+  </main>
+</template>

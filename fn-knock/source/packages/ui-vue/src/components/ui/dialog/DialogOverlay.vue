@@ -1,1 +1,21 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRGlhbG9nT3ZlcmxheVByb3BzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHR5cGUgeyBIVE1MQXR0cmlidXRlcyB9IGZyb20gInZ1ZSIKaW1wb3J0IHsgcmVhY3RpdmVPbWl0IH0gZnJvbSAiQHZ1ZXVzZS9jb3JlIgppbXBvcnQgeyBEaWFsb2dPdmVybGF5IH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8RGlhbG9nT3ZlcmxheVByb3BzICYgeyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdIH0+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nT3ZlcmxheQogICAgZGF0YS1zbG90PSJkaWFsb2ctb3ZlcmxheSIKICAgIHYtYmluZD0iZGVsZWdhdGVkUHJvcHMiCiAgICA6Y2xhc3M9ImNuKCdkYXRhLVtzdGF0ZT1vcGVuXTphbmltYXRlLWluIGRhdGEtW3N0YXRlPWNsb3NlZF06YW5pbWF0ZS1vdXQgZGF0YS1bc3RhdGU9Y2xvc2VkXTpmYWRlLW91dC0wIGRhdGEtW3N0YXRlPW9wZW5dOmZhZGUtaW4tMCBmaXhlZCBpbnNldC0wIHotNTAgYmctYmxhY2svODAnLCBwcm9wcy5jbGFzcykiCiAgPgogICAgPHNsb3QgLz4KICA8L0RpYWxvZ092ZXJsYXk+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { DialogOverlayProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { DialogOverlay } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<DialogOverlayProps & { class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+</script>
+
+<template>
+  <DialogOverlay
+    data-slot="dialog-overlay"
+    v-bind="delegatedProps"
+    :class="cn('data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 fixed inset-0 z-50 bg-black/80', props.class)"
+  >
+    <slot />
+  </DialogOverlay>
+</template>

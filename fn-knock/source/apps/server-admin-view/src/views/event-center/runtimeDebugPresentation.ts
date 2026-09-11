@@ -1,1 +1,53 @@
-aW1wb3J0IHR5cGUgeyBSdW50aW1lRGVidWdTYW1wbGUgfSBmcm9tICJAL3R5cGVzL3J1bnRpbWUtZGVidWciOwoKZXhwb3J0IGNvbnN0IHN1bW1hcml6ZURlYnVnU2FtcGxlcyA9IChzYW1wbGVzOiBSdW50aW1lRGVidWdTYW1wbGVbXSkgPT4gewogIGxldCB3ZWlnaHRlZENwdSA9IDA7CiAgbGV0IG1lYXN1cmVkTXMgPSAwOwogIGxldCBtYXhDcHU6IG51bWJlciB8IG51bGwgPSBudWxsOwogIGNvbnN0IHRocmVhZHMgPSBuZXcgTWFwPAogICAgbnVtYmVyLAogICAgeyB0aWQ6IG51bWJlcjsgbmFtZTogc3RyaW5nOyBjcHVNczogbnVtYmVyOyBwZWFrOiBudW1iZXIgfQogID4oKTsKICBmb3IgKGxldCBpbmRleCA9IDE7IGluZGV4IDwgc2FtcGxlcy5sZW5ndGg7ICsraW5kZXgpIHsKICAgIGNvbnN0IHNhbXBsZSA9IHNhbXBsZXNbaW5kZXhdITsKICAgIGNvbnN0IGVsYXBzZWQgPSBNYXRoLm1heCgKICAgICAgMCwKICAgICAgc2FtcGxlLmVsYXBzZWRfbXMgLSBzYW1wbGVzW2luZGV4IC0gMV0hLmVsYXBzZWRfbXMsCiAgICApOwogICAgY29uc3QgY3B1ID0gc2FtcGxlLnJlc291cmNlLmNwdV9wZXJjZW50OwogICAgaWYgKGNwdSA9PSBudWxsIHx8IGVsYXBzZWQgPT09IDApIGNvbnRpbnVlOwogICAgd2VpZ2h0ZWRDcHUgKz0gY3B1ICogZWxhcHNlZDsKICAgIG1lYXN1cmVkTXMgKz0gZWxhcHNlZDsKICAgIG1heENwdSA9IE1hdGgubWF4KG1heENwdSA/PyAwLCBjcHUpOwogICAgZm9yIChjb25zdCB0aHJlYWQgb2Ygc2FtcGxlLnJlc291cmNlLnRocmVhZF9jcHUpIHsKICAgICAgY29uc3QgcHJldmlvdXMgPSB0aHJlYWRzLmdldCh0aHJlYWQudGlkKSA/PyB7CiAgICAgICAgdGlkOiB0aHJlYWQudGlkLAogICAgICAgIG5hbWU6IHRocmVhZC5uYW1lLAogICAgICAgIGNwdU1zOiAwLAogICAgICAgIHBlYWs6IDAsCiAgICAgIH07CiAgICAgIHByZXZpb3VzLm5hbWUgPSB0aHJlYWQubmFtZTsKICAgICAgcHJldmlvdXMuY3B1TXMgKz0gdGhyZWFkLmNwdV9wZXJjZW50ICogZWxhcHNlZDsKICAgICAgcHJldmlvdXMucGVhayA9IE1hdGgubWF4KHByZXZpb3VzLnBlYWssIHRocmVhZC5jcHVfcGVyY2VudCk7CiAgICAgIHRocmVhZHMuc2V0KHRocmVhZC50aWQsIHByZXZpb3VzKTsKICAgIH0KICB9CiAgY29uc3QgcnNzID0gc2FtcGxlcy5mbGF0TWFwKChzYW1wbGUpID0+CiAgICBzYW1wbGUucmVzb3VyY2UucnNzX2J5dGVzID09IG51bGwgPyBbXSA6IFtzYW1wbGUucmVzb3VyY2UucnNzX2J5dGVzXSwKICApOwogIHJldHVybiB7CiAgICBhdmVyYWdlQ3B1OiBtZWFzdXJlZE1zID8gd2VpZ2h0ZWRDcHUgLyBtZWFzdXJlZE1zIDogbnVsbCwKICAgIG1heENwdSwKICAgIHJzc0RlbHRhOiByc3MubGVuZ3RoID4gMSA/IHJzc1tyc3MubGVuZ3RoIC0gMV0hIC0gcnNzWzBdISA6IG51bGwsCiAgICB0aHJlYWRzOiBbLi4udGhyZWFkcy52YWx1ZXMoKV0KICAgICAgLm1hcCgodGhyZWFkKSA9PiAoewogICAgICAgIC4uLnRocmVhZCwKICAgICAgICBhdmVyYWdlOiBtZWFzdXJlZE1zID8gdGhyZWFkLmNwdU1zIC8gbWVhc3VyZWRNcyA6IDAsCiAgICAgIH0pKQogICAgICAuc29ydCgobGVmdCwgcmlnaHQpID0+IHJpZ2h0LmF2ZXJhZ2UgLSBsZWZ0LmF2ZXJhZ2UpCiAgICAgIC5zbGljZSgwLCA4KSwKICB9Owp9OwoKZXhwb3J0IGNvbnN0IGZvcm1hdERlYnVnUGVyY2VudCA9ICh2YWx1ZTogbnVtYmVyIHwgbnVsbCB8IHVuZGVmaW5lZCkgPT4KICB2YWx1ZSA9PSBudWxsID8gIuKAlCIgOiBgJHt2YWx1ZS50b0ZpeGVkKDIpfSVgOwo=
+import type { RuntimeDebugSample } from "@/types/runtime-debug";
+
+export const summarizeDebugSamples = (samples: RuntimeDebugSample[]) => {
+  let weightedCpu = 0;
+  let measuredMs = 0;
+  let maxCpu: number | null = null;
+  const threads = new Map<
+    number,
+    { tid: number; name: string; cpuMs: number; peak: number }
+  >();
+  for (let index = 1; index < samples.length; ++index) {
+    const sample = samples[index]!;
+    const elapsed = Math.max(
+      0,
+      sample.elapsed_ms - samples[index - 1]!.elapsed_ms,
+    );
+    const cpu = sample.resource.cpu_percent;
+    if (cpu == null || elapsed === 0) continue;
+    weightedCpu += cpu * elapsed;
+    measuredMs += elapsed;
+    maxCpu = Math.max(maxCpu ?? 0, cpu);
+    for (const thread of sample.resource.thread_cpu) {
+      const previous = threads.get(thread.tid) ?? {
+        tid: thread.tid,
+        name: thread.name,
+        cpuMs: 0,
+        peak: 0,
+      };
+      previous.name = thread.name;
+      previous.cpuMs += thread.cpu_percent * elapsed;
+      previous.peak = Math.max(previous.peak, thread.cpu_percent);
+      threads.set(thread.tid, previous);
+    }
+  }
+  const rss = samples.flatMap((sample) =>
+    sample.resource.rss_bytes == null ? [] : [sample.resource.rss_bytes],
+  );
+  return {
+    averageCpu: measuredMs ? weightedCpu / measuredMs : null,
+    maxCpu,
+    rssDelta: rss.length > 1 ? rss[rss.length - 1]! - rss[0]! : null,
+    threads: [...threads.values()]
+      .map((thread) => ({
+        ...thread,
+        average: measuredMs ? thread.cpuMs / measuredMs : 0,
+      }))
+      .sort((left, right) => right.average - left.average)
+      .slice(0, 8),
+  };
+};
+
+export const formatDebugPercent = (value: number | null | undefined) =>
+  value == null ? "—" : `${value.toFixed(2)}%`;

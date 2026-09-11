@@ -1,1 +1,57 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CgppbXBvcnQgewogIGNvbXBvc2VIb3N0RnJvbVN1YmRvbWFpbiwKICBjcmVhdGVEZWZhdWx0TW9kZUZvcm0sCiAgaGFzU3ViZG9tYWluUm9vdERvbWFpbldpbGRjYXJkLAp9IGZyb20gIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvbW9kZWwiOwppbXBvcnQgeyB1c2VTdWJkb21haW5Nb2RlQ29uZmlnIH0gZnJvbSAiLi4vc3JjL3ZpZXdzL3N1YmRvbWFpbi1wcm94eS91c2VTdWJkb21haW5Nb2RlQ29uZmlnIjsKCmRlc2NyaWJlKCJzdWJkb21haW4gcm9vdCBkb21haW4gdmFsaWRhdGlvbiIsICgpID0+IHsKICBpdCgiYnVpbGRzIHRoZSBMaXRlIGF1dGggdGFyZ2V0IGZyb20gaXRzIDg5OTcgcnVudGltZSBwb3J0IiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjcmVhdGVEZWZhdWx0TW9kZUZvcm0oODk5NykuYXV0aF90YXJnZXQsCiAgICAgICJodHRwOi8vbG9jYWxob3N0Ojg5OTciLAogICAgKTsKICB9KTsKCiAgaXQoInJlamVjdHMgd2lsZGNhcmQgcm9vdHMgYmVmb3JlIGNvbXBvc2luZyBhIEhvc3QgcnVsZSIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbChoYXNTdWJkb21haW5Sb290RG9tYWluV2lsZGNhcmQoIiouZXhhbXBsZS5jb20iKSwgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwoY29tcG9zZUhvc3RGcm9tU3ViZG9tYWluKCJhdXRoIiwgIiouZXhhbXBsZS5jb20iKSwgIiIpOwogIH0pOwoKICBpdCgia2VlcHMgZXhhY3Qgcm9vdCBkb21haW5zIGF2YWlsYWJsZSBmb3IgSG9zdCBjb21wb3NpdGlvbiIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbChoYXNTdWJkb21haW5Sb290RG9tYWluV2lsZGNhcmQoImV4YW1wbGUuY29tIiksIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29tcG9zZUhvc3RGcm9tU3ViZG9tYWluKCJhdXRoIiwgImV4YW1wbGUuY29tIiksCiAgICAgICJhdXRoLmV4YW1wbGUuY29tIiwKICAgICk7CiAgfSk7CgogIGl0KCJibG9ja3MgbW9kZSBzYXZlcyBhbmQgbmV3IG1hcHBpbmdzIHdoaWxlIGEgd2lsZGNhcmQgcm9vdCBpcyBwcmVzZW50IiwgKCkgPT4gewogICAgY29uc3QgcGVyc2lzdGVkID0gewogICAgICBzdWJkb21haW5fbW9kZTogewogICAgICAgIC4uLmNyZWF0ZURlZmF1bHRNb2RlRm9ybSgpLAogICAgICAgIHJvb3RfZG9tYWluOiAiZXhhbXBsZS5jb20iLAogICAgICB9LAogICAgfTsKICAgIGNvbnN0IGNvbnRyb2xsZXIgPSB1c2VTdWJkb21haW5Nb2RlQ29uZmlnKHsKICAgICAgZ2V0Q29uZmlnOiAoKSA9PiBwZXJzaXN0ZWQsCiAgICAgIHNhdmVTdWJkb21haW5Nb2RlOiBhc3luYyAoKSA9PiB1bmRlZmluZWQsCiAgICAgIHRyYW5zbGF0ZTogKGtleSkgPT4ga2V5LAogICAgfSk7CgogICAgY29udHJvbGxlci5tb2RlRm9ybS5yb290X2RvbWFpbiA9ICIqLmV4YW1wbGUuY29tIjsKCiAgICBhc3NlcnQuZXF1YWwoY29udHJvbGxlci5pc01vZGVWYWxpZC52YWx1ZSwgZmFsc2UpOwogICAgYXNzZXJ0LmVxdWFsKGNvbnRyb2xsZXIuY2FuTWFuYWdlTmV3TWFwcGluZ3MudmFsdWUsIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbChjb250cm9sbGVyLmNhblVzZVJvb3REb21haW5TdWZmaXgudmFsdWUsIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29udHJvbGxlci5yb290RG9tYWluVmFsaWRhdGlvbk1lc3NhZ2UudmFsdWUsCiAgICAgICJhZG1pbi5zdWJkb21haW5Qcm94eS5yb290RG9tYWluV2lsZGNhcmRGb3JiaWRkZW4iLAogICAgKTsKICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
+
+import {
+  composeHostFromSubdomain,
+  createDefaultModeForm,
+  hasSubdomainRootDomainWildcard,
+} from "../src/views/subdomain-proxy/model";
+import { useSubdomainModeConfig } from "../src/views/subdomain-proxy/useSubdomainModeConfig";
+
+describe("subdomain root domain validation", () => {
+  it("builds the Lite auth target from its 8997 runtime port", () => {
+    assert.equal(
+      createDefaultModeForm(8997).auth_target,
+      "http://localhost:8997",
+    );
+  });
+
+  it("rejects wildcard roots before composing a Host rule", () => {
+    assert.equal(hasSubdomainRootDomainWildcard("*.example.com"), true);
+    assert.equal(composeHostFromSubdomain("auth", "*.example.com"), "");
+  });
+
+  it("keeps exact root domains available for Host composition", () => {
+    assert.equal(hasSubdomainRootDomainWildcard("example.com"), false);
+    assert.equal(
+      composeHostFromSubdomain("auth", "example.com"),
+      "auth.example.com",
+    );
+  });
+
+  it("blocks mode saves and new mappings while a wildcard root is present", () => {
+    const persisted = {
+      subdomain_mode: {
+        ...createDefaultModeForm(),
+        root_domain: "example.com",
+      },
+    };
+    const controller = useSubdomainModeConfig({
+      getConfig: () => persisted,
+      saveSubdomainMode: async () => undefined,
+      translate: (key) => key,
+    });
+
+    controller.modeForm.root_domain = "*.example.com";
+
+    assert.equal(controller.isModeValid.value, false);
+    assert.equal(controller.canManageNewMappings.value, false);
+    assert.equal(controller.canUseRootDomainSuffix.value, false);
+    assert.equal(
+      controller.rootDomainValidationMessage.value,
+      "admin.subdomainProxy.rootDomainWildcardForbidden",
+    );
+  });
+});

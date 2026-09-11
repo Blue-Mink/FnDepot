@@ -1,1 +1,15 @@
-IyBMb2NhbCB2dDEwMCBwYXRjaGVzCgpUaGlzIGRpcmVjdG9yeSBjb250YWlucyBgdnQxMDBgIDAuMTYuMiB1bmRlciBpdHMgTUlUIGxpY2Vuc2UuCgpUaGUgbG9jYWwgY2hhbmdlcyBpbiBgc3JjL3Jvdy5yc2AgZml4IHRoZSB3aWRlLWNoYXJhY3RlciByZXNpemUgcGFuaWMgdHJhY2tlZApieSBbZG95L3Z0MTAwLXJ1c3QjMjhdKGh0dHBzOi8vZ2l0aHViLmNvbS9kb3kvdnQxMDAtcnVzdC9pc3N1ZXMvMjgpIGFuZCBhcmUKYmFzZWQgb24gdGhlIGRlZmVuc2l2ZSBmaXhlcyBmcm9tIHRoZSBzdGlsbC11bnJlbGVhc2VkIHVwc3RyZWFtCltwdWxsIHJlcXVlc3QgIzMwXShodHRwczovL2dpdGh1Yi5jb20vZG95L3Z0MTAwLXJ1c3QvcHVsbC8zMCk6CgotIHNocmlua2luZyBhIHJvdyB1c2VzIGBSb3c6OnRydW5jYXRlYCBzbyBhIHNwbGl0IHdpZGUgY2hhcmFjdGVyIGlzIGNsZWFyZWQ7Ci0gYFJvdzo6Y2xlYXJfd2lkZWAgYm91bmRzLWNoZWNrcyBhIG1pc3NpbmcgY29udGludWF0aW9uIGNlbGw7Ci0gYFJvdzo6ZXJhc2VgIGF2b2lkcyBzdWJ0cmFjdGlvbiB1bmRlcmZsb3cgZm9yIGEgb25lLWNvbHVtbiBvcnBoYW5lZCBjZWxsLgoKUmVtb3ZlIHRoaXMgdmVuZG9yZWQgY29weSBhbmQgcmV0dXJuIHRvIHRoZSBjcmF0ZXMuaW8gZGVwZW5kZW5jeSBvbmNlIGFuCnVwc3RyZWFtIHJlbGVhc2UgaW5jbHVkZXMgdGhvc2UgZml4ZXMuCg==
+# Local vt100 patches
+
+This directory contains `vt100` 0.16.2 under its MIT license.
+
+The local changes in `src/row.rs` fix the wide-character resize panic tracked
+by [doy/vt100-rust#28](https://github.com/doy/vt100-rust/issues/28) and are
+based on the defensive fixes from the still-unreleased upstream
+[pull request #30](https://github.com/doy/vt100-rust/pull/30):
+
+- shrinking a row uses `Row::truncate` so a split wide character is cleared;
+- `Row::clear_wide` bounds-checks a missing continuation cell;
+- `Row::erase` avoids subtraction underflow for a one-column orphaned cell.
+
+Remove this vendored copy and return to the crates.io dependency once an
+upstream release includes those fixes.

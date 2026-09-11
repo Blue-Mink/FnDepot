@@ -1,1 +1,553 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHRlc3QgZnJvbSAibm9kZTp0ZXN0IjsKaW1wb3J0IHsgY29tcHV0ZWQsIG5leHRUaWNrLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgdHlwZSB7IEhvc3RNYXBwaW5nLCBIb3N0TWFwcGluZ0dyb3VwIH0gZnJvbSAiLi4vc3JjL3R5cGVzIjsKaW1wb3J0IHsgY3JlYXRlRGVmYXVsdE1hcHBpbmcgfSBmcm9tICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L21vZGVsIjsKaW1wb3J0IHsKICBhcHBseUhvc3RNYXBwaW5nR3JvdXBTZWN0aW9ucywKICBidWlsZEhvc3RNYXBwaW5nRHJhZ1JlbmRlcktleSwKICBidWlsZEhvc3RNYXBwaW5nR3JvdXBTZWN0aW9ucywKICBjcmVhdGVIb3N0TWFwcGluZ0dyb3VwSWQsCiAgaXNIb3N0TWFwcGluZ0dyb3VwTmFtZUxlbmd0aFZhbGlkLAogIG1vdmVIb3N0TWFwcGluZ3NUb0dyb3VwLAogIG5vcm1hbGl6ZUhvc3RNYXBwaW5nR3JvdXBOYW1lS2V5LAogIHJlc29sdmVIb3N0TWFwcGluZ0dyb3VwU2F2ZUZlZWRiYWNrLAp9IGZyb20gIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvaG9zdC1tYXBwaW5nLWdyb3VwcyI7CmltcG9ydCB7IHVzZVN1YmRvbWFpbk1hcHBpbmdHcm91cHMgfSBmcm9tICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L3VzZVN1YmRvbWFpbk1hcHBpbmdHcm91cHMiOwppbXBvcnQgeyB1c2VTdWJkb21haW5NYXBwaW5nVGFibGVTdGF0ZSB9IGZyb20gIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvdXNlU3ViZG9tYWluTWFwcGluZ1RhYmxlU3RhdGUiOwoKY29uc3QgZ3JvdXBzOiBIb3N0TWFwcGluZ0dyb3VwW10gPSBbCiAgeyBpZDogIjExMTExMTExLTExMTEtNDExMS04MTExLTExMTExMTExMTExMSIsIG5hbWU6ICJNZWRpYSIgfSwKICB7IGlkOiAiMjIyMjIyMjItMjIyMi00MjIyLTgyMjItMjIyMjIyMjIyMjIyIiwgbmFtZTogIlRvb2xzIiB9LApdOwoKY29uc3QgbWFwcGluZyA9IChob3N0OiBzdHJpbmcsIGdyb3VwSWQ6IHN0cmluZyB8IG51bGwpOiBIb3N0TWFwcGluZyA9PiAoewogIC4uLmNyZWF0ZURlZmF1bHRNYXBwaW5nKCksCiAgaG9zdCwKICB0YXJnZXQ6IGBodHRwOi8vJHtob3N0fWAsCiAgZ3JvdXBfaWQ6IGdyb3VwSWQsCn0pOwoKdGVzdCgiY3JlYXRlcyBhbiBSRkMgNDEyMiBVVUlEIHdoZW4gcmFuZG9tVVVJRCBpcyB1bmF2YWlsYWJsZSIsICgpID0+IHsKICBjb25zdCBpZCA9IGNyZWF0ZUhvc3RNYXBwaW5nR3JvdXBJZCh7CiAgICBnZXRSYW5kb21WYWx1ZXM6IChieXRlcykgPT4gewogICAgICBieXRlcy5maWxsKDApOwogICAgICByZXR1cm4gYnl0ZXM7CiAgICB9LAogIH0pOwoKICBhc3NlcnQuZXF1YWwoaWQsICIwMDAwMDAwMC0wMDAwLTQwMDAtODAwMC0wMDAwMDAwMDAwMDAiKTsKfSk7Cgp0ZXN0KCJ2YWxpZGF0ZXMgZ3JvdXAgbmFtZXMgYnkgVW5pY29kZSBjb2RlIHBvaW50cyB3aXRob3V0IGxvY2FsZS1kZXBlbmRlbnQgY2FzaW5nIiwgKCkgPT4gewogIGFzc2VydC5lcXVhbChpc0hvc3RNYXBwaW5nR3JvdXBOYW1lTGVuZ3RoVmFsaWQoIvCfmIAiLnJlcGVhdCg0MCkpLCB0cnVlKTsKICBhc3NlcnQuZXF1YWwoaXNIb3N0TWFwcGluZ0dyb3VwTmFtZUxlbmd0aFZhbGlkKCLwn5iAIi5yZXBlYXQoNDEpKSwgZmFsc2UpOwogIGFzc2VydC5lcXVhbChpc0hvc3RNYXBwaW5nR3JvdXBOYW1lTGVuZ3RoVmFsaWQoIiAgICIpLCBmYWxzZSk7CiAgYXNzZXJ0LmVxdWFsKG5vcm1hbGl6ZUhvc3RNYXBwaW5nR3JvdXBOYW1lS2V5KCIgIE1FRElBICAiKSwgIm1lZGlhIik7Cn0pOwoKdGVzdCgicHJvamVjdHMgbWFwcGluZ3MgaW4gZ3JvdXAgb3JkZXIgd2l0aCB1bmdyb3VwZWQgbGFzdCIsICgpID0+IHsKICBjb25zdCBzZWN0aW9ucyA9IGJ1aWxkSG9zdE1hcHBpbmdHcm91cFNlY3Rpb25zKAogICAgWwogICAgICBtYXBwaW5nKCJ0b29sLmV4YW1wbGUudGVzdCIsIGdyb3Vwc1sxXS5pZCksCiAgICAgIG1hcHBpbmcoImxvb3NlLmV4YW1wbGUudGVzdCIsIG51bGwpLAogICAgICBtYXBwaW5nKCJtZWRpYS5leGFtcGxlLnRlc3QiLCBncm91cHNbMF0uaWQpLAogICAgXSwKICAgIGdyb3VwcywKICAgICJVbmdyb3VwZWQiLAogICk7CgogIGFzc2VydC5kZWVwRXF1YWwoCiAgICBzZWN0aW9ucy5tYXAoKHNlY3Rpb24pID0+IFsKICAgICAgc2VjdGlvbi5uYW1lLAogICAgICBzZWN0aW9uLm1hcHBpbmdzLm1hcCgoaXRlbSkgPT4gaXRlbS5ob3N0KSwKICAgIF0pLAogICAgWwogICAgICBbIk1lZGlhIiwgWyJtZWRpYS5leGFtcGxlLnRlc3QiXV0sCiAgICAgIFsiVG9vbHMiLCBbInRvb2wuZXhhbXBsZS50ZXN0Il1dLAogICAgICBbIlVuZ3JvdXBlZCIsIFsibG9vc2UuZXhhbXBsZS50ZXN0Il1dLAogICAgXSwKICApOwp9KTsKCnRlc3QoImtlZXBzIHRoZSBmbGF0IHByb2plY3Rpb24gd2hlbiBubyBncm91cHMgZXhpc3QiLCAoKSA9PiB7CiAgY29uc3QgbWFwcGluZ3MgPSBbbWFwcGluZygib25lLmV4YW1wbGUudGVzdCIsIG51bGwpXTsKICBjb25zdCBzZWN0aW9ucyA9IGJ1aWxkSG9zdE1hcHBpbmdHcm91cFNlY3Rpb25zKG1hcHBpbmdzLCBbXSwgIlVuZ3JvdXBlZCIpOwogIGFzc2VydC5lcXVhbChzZWN0aW9ucy5sZW5ndGgsIDEpOwogIGFzc2VydC5lcXVhbChzZWN0aW9uc1swXT8ubmFtZSwgIiIpOwogIGFzc2VydC5kZWVwRXF1YWwoc2VjdGlvbnNbMF0/Lm1hcHBpbmdzLCBtYXBwaW5ncyk7Cn0pOwoKdGVzdCgiY2hhbmdlcyB0aGUgZHJhZ2dhYmxlIHJlbmRlciBpZGVudGl0eSB3aGVuIG1lbWJlcnNoaXAgb3Igb3JkZXIgY2hhbmdlcyIsICgpID0+IHsKICBjb25zdCBmaXJzdCA9IG1hcHBpbmcoIm9uZS5leGFtcGxlLnRlc3QiLCBncm91cHNbMF0uaWQpOwogIGNvbnN0IHNlY29uZCA9IG1hcHBpbmcoInR3by5leGFtcGxlLnRlc3QiLCBncm91cHNbMF0uaWQpOwoKICBhc3NlcnQuZXF1YWwoCiAgICBidWlsZEhvc3RNYXBwaW5nRHJhZ1JlbmRlcktleShbZmlyc3QsIHNlY29uZF0pLAogICAgJ1sib25lLmV4YW1wbGUudGVzdCIsInR3by5leGFtcGxlLnRlc3QiXScsCiAgKTsKICBhc3NlcnQubm90RXF1YWwoCiAgICBidWlsZEhvc3RNYXBwaW5nRHJhZ1JlbmRlcktleShbZmlyc3QsIHNlY29uZF0pLAogICAgYnVpbGRIb3N0TWFwcGluZ0RyYWdSZW5kZXJLZXkoW3NlY29uZCwgZmlyc3RdKSwKICApOwogIGFzc2VydC5ub3RFcXVhbCgKICAgIGJ1aWxkSG9zdE1hcHBpbmdEcmFnUmVuZGVyS2V5KFtmaXJzdCwgc2Vjb25kXSksCiAgICBidWlsZEhvc3RNYXBwaW5nRHJhZ1JlbmRlcktleShbZmlyc3RdKSwKICApOwp9KTsKCnRlc3QoImFwcGxpZXMgYSBjcm9zcy1ncm91cCBkcmFnIHdoaWxlIHByZXNlcnZpbmcgdGhlIGF1dGggbWFwcGluZyBzbG90IiwgKCkgPT4gewogIGNvbnN0IGF1dGggPSB7CiAgICAuLi5tYXBwaW5nKCJhdXRoLmV4YW1wbGUudGVzdCIsIG51bGwpLAogICAgdGFyZ2V0OiAiaHR0cDovLzEyNy4wLjAuMTo3OTk3IiwKICAgIHNlcnZpY2Vfcm9sZTogImF1dGgiIGFzIGNvbnN0LAogIH07CiAgY29uc3QgbWVkaWEgPSBtYXBwaW5nKCJtZWRpYS5leGFtcGxlLnRlc3QiLCBncm91cHNbMF0uaWQpOwogIGNvbnN0IHRvb2wgPSBtYXBwaW5nKCJ0b29sLmV4YW1wbGUudGVzdCIsIGdyb3Vwc1sxXS5pZCk7CiAgY29uc3Qgc2VjdGlvbnMgPSBidWlsZEhvc3RNYXBwaW5nR3JvdXBTZWN0aW9ucygKICAgIFttZWRpYSwgdG9vbF0sCiAgICBncm91cHMsCiAgICAiVW5ncm91cGVkIiwKICApOwogIHNlY3Rpb25zWzBdIS5tYXBwaW5ncyA9IFt0b29sLCBtZWRpYV07CiAgc2VjdGlvbnNbMV0hLm1hcHBpbmdzID0gW107CgogIGNvbnN0IG5leHQgPSBhcHBseUhvc3RNYXBwaW5nR3JvdXBTZWN0aW9ucygKICAgIFthdXRoLCBtZWRpYSwgdG9vbF0sCiAgICBzZWN0aW9ucywKICAgICh0YXJnZXQpID0+IHRhcmdldC5lbmRzV2l0aCgiOjc5OTciKSwKICApOwogIGFzc2VydC5lcXVhbChuZXh0WzBdPy5ob3N0LCBhdXRoLmhvc3QpOwogIGFzc2VydC5lcXVhbChuZXh0WzFdPy5ob3N0LCB0b29sLmhvc3QpOwogIGFzc2VydC5lcXVhbChuZXh0WzFdPy5ncm91cF9pZCwgZ3JvdXBzWzBdLmlkKTsKICBhc3NlcnQuZXF1YWwobmV4dFsyXT8uaG9zdCwgbWVkaWEuaG9zdCk7Cn0pOwoKdGVzdCgiYmF0Y2ggbW92ZSBvbmx5IHVwZGF0ZXMgc2VsZWN0ZWQgbWFwcGluZ3MiLCAoKSA9PiB7CiAgY29uc3QgZmlyc3QgPSBtYXBwaW5nKCJvbmUuZXhhbXBsZS50ZXN0IiwgbnVsbCk7CiAgY29uc3Qgc2Vjb25kID0gbWFwcGluZygidHdvLmV4YW1wbGUudGVzdCIsIGdyb3Vwc1swXS5pZCk7CiAgY29uc3QgbmV4dCA9IG1vdmVIb3N0TWFwcGluZ3NUb0dyb3VwKAogICAgW2ZpcnN0LCBzZWNvbmRdLAogICAgbmV3IFNldChbZmlyc3QuaG9zdF0pLAogICAgZ3JvdXBzWzFdLmlkLAogICk7CiAgYXNzZXJ0LmVxdWFsKG5leHRbMF0/Lmdyb3VwX2lkLCBncm91cHNbMV0uaWQpOwogIGFzc2VydC5lcXVhbChuZXh0WzFdPy5ncm91cF9pZCwgZ3JvdXBzWzBdLmlkKTsKfSk7Cgp0ZXN0KCJrZWVwcyBtYXBwaW5nIHNlbGVjdGlvbiBzY29wZWQgdG8gdmlzaWJsZSByb3dzIiwgYXN5bmMgKCkgPT4gewogIGNvbnN0IGZpcnN0ID0gbWFwcGluZygib25lLmV4YW1wbGUudGVzdCIsIGdyb3Vwc1swXS5pZCk7CiAgY29uc3Qgc2Vjb25kID0gbWFwcGluZygidHdvLmV4YW1wbGUudGVzdCIsIGdyb3Vwc1swXS5pZCk7CiAgY29uc3QgZmlsdGVyZWRNYXBwaW5ncyA9IHJlZihbZmlyc3QsIHNlY29uZF0pOwogIGNvbnN0IHN0YXRlID0gdXNlU3ViZG9tYWluTWFwcGluZ1RhYmxlU3RhdGUoewogICAgZmlsdGVyZWRNYXBwaW5nczogKCkgPT4gZmlsdGVyZWRNYXBwaW5ncy52YWx1ZSwKICAgIGdyb3VwczogKCkgPT4gZ3JvdXBzLAogICAgaXNTYXZpbmdNYXBwaW5nczogKCkgPT4gZmFsc2UsCiAgICBpc01hcHBpbmdTZWxlY3RhYmxlOiAoKSA9PiB0cnVlLAogICAgc2VhcmNoUXVlcnk6ICgpID0+ICIiLAogICAgc2hvd0dyb3VwZWRWaWV3OiAoKSA9PiB0cnVlLAogICAgdW5ncm91cGVkTGFiZWw6ICgpID0+ICJVbmdyb3VwZWQiLAogICAgb25TYXZlRmxhdE9yZGVyOiAoKSA9PiB1bmRlZmluZWQsCiAgICBvblNhdmVHcm91cGVkT3JkZXI6ICgpID0+IHVuZGVmaW5lZCwKICAgIGNvbGxhcHNlU3RvcmFnZTogbnVsbCwKICB9KTsKCiAgc3RhdGUuc2V0U2VjdGlvblNlbGVjdGVkKHN0YXRlLmdyb3VwU2VjdGlvbnMudmFsdWVbMF0hLCB0cnVlKTsKICBhc3NlcnQuZXF1YWwoc3RhdGUuc2VsZWN0ZWRDb3VudC52YWx1ZSwgMik7CiAgYXNzZXJ0LmVxdWFsKHN0YXRlLmFsbFZpc2libGVTZWxlY3RlZC52YWx1ZSwgdHJ1ZSk7CgogIGZpbHRlcmVkTWFwcGluZ3MudmFsdWUgPSBbZmlyc3RdOwogIGF3YWl0IG5leHRUaWNrKCk7CiAgYXNzZXJ0LmVxdWFsKHN0YXRlLnNlbGVjdGVkQ291bnQudmFsdWUsIDEpOwogIGFzc2VydC5kZWVwRXF1YWwoc3RhdGUudGFrZVNlbGVjdGVkSG9zdHMoKSwgW2ZpcnN0Lmhvc3RdKTsKICBhc3NlcnQuZXF1YWwoc3RhdGUuc2VsZWN0ZWRDb3VudC52YWx1ZSwgMCk7Cn0pOwoKdGVzdCgic2VsZWN0aW9uIG1vZGUgY2xlYXJzIG9uIHNlYXJjaCBjaGFuZ2VzIGFuZCBleGNsdWRlcyBhdXRoIG1hcHBpbmdzIiwgYXN5bmMgKCkgPT4gewogIGNvbnN0IGZpcnN0ID0gbWFwcGluZygib25lLmV4YW1wbGUudGVzdCIsIGdyb3Vwc1swXS5pZCk7CiAgY29uc3QgYXV0aCA9IHsKICAgIC4uLm1hcHBpbmcoImF1dGguZXhhbXBsZS50ZXN0IiwgZ3JvdXBzWzBdLmlkKSwKICAgIHRhcmdldDogImh0dHA6Ly8xMjcuMC4wLjE6Nzk5NyIsCiAgICBzZXJ2aWNlX3JvbGU6ICJhdXRoIiBhcyBjb25zdCwKICB9OwogIGNvbnN0IGZpbHRlcmVkTWFwcGluZ3MgPSByZWYoW2ZpcnN0LCBhdXRoXSk7CiAgY29uc3Qgc2VhcmNoUXVlcnkgPSByZWYoIiIpOwogIGNvbnN0IHN0YXRlID0gdXNlU3ViZG9tYWluTWFwcGluZ1RhYmxlU3RhdGUoewogICAgZmlsdGVyZWRNYXBwaW5nczogKCkgPT4gZmlsdGVyZWRNYXBwaW5ncy52YWx1ZSwKICAgIGdyb3VwczogKCkgPT4gZ3JvdXBzLAogICAgaXNTYXZpbmdNYXBwaW5nczogKCkgPT4gZmFsc2UsCiAgICBpc01hcHBpbmdTZWxlY3RhYmxlOiAoaXRlbSkgPT4gaXRlbS5zZXJ2aWNlX3JvbGUgIT09ICJhdXRoIiwKICAgIHNlYXJjaFF1ZXJ5OiAoKSA9PiBzZWFyY2hRdWVyeS52YWx1ZSwKICAgIHNob3dHcm91cGVkVmlldzogKCkgPT4gdHJ1ZSwKICAgIHVuZ3JvdXBlZExhYmVsOiAoKSA9PiAiVW5ncm91cGVkIiwKICAgIG9uU2F2ZUZsYXRPcmRlcjogKCkgPT4gdW5kZWZpbmVkLAogICAgb25TYXZlR3JvdXBlZE9yZGVyOiAoKSA9PiB1bmRlZmluZWQsCiAgICBjb2xsYXBzZVN0b3JhZ2U6IG51bGwsCiAgfSk7CgogIHN0YXRlLnNldFNlbGVjdGlvbk1vZGUodHJ1ZSk7CiAgc3RhdGUuc2V0QWxsVmlzaWJsZVNlbGVjdGVkKHRydWUpOwogIGFzc2VydC5kZWVwRXF1YWwoc3RhdGUuZ2V0U2VsZWN0ZWRIb3N0cygpLCBbZmlyc3QuaG9zdF0pOwogIGFzc2VydC5lcXVhbChzdGF0ZS5kcmFnRGlzYWJsZWQudmFsdWUsIHRydWUpOwoKICBzZWFyY2hRdWVyeS52YWx1ZSA9ICJvbmUiOwogIGF3YWl0IG5leHRUaWNrKCk7CiAgYXNzZXJ0LmVxdWFsKHN0YXRlLnNlbGVjdGVkQ291bnQudmFsdWUsIDApOwp9KTsKCnRlc3QoInJlc3RvcmVzIGNhbm9uaWNhbCBtYXBwaW5nIG9yZGVyIGFmdGVyIGEgc2F2ZSBmaW5pc2hlcyIsIGFzeW5jICgpID0+IHsKICBjb25zdCBmaXJzdCA9IG1hcHBpbmcoIm9uZS5leGFtcGxlLnRlc3QiLCBudWxsKTsKICBjb25zdCBzZWNvbmQgPSBtYXBwaW5nKCJ0d28uZXhhbXBsZS50ZXN0IiwgbnVsbCk7CiAgY29uc3QgaXNTYXZpbmcgPSByZWYodHJ1ZSk7CiAgY29uc3Qgc2F2ZWRPcmRlcnM6IEhvc3RNYXBwaW5nW11bXSA9IFtdOwogIGNvbnN0IHN0YXRlID0gdXNlU3ViZG9tYWluTWFwcGluZ1RhYmxlU3RhdGUoewogICAgZmlsdGVyZWRNYXBwaW5nczogKCkgPT4gW2ZpcnN0LCBzZWNvbmRdLAogICAgZ3JvdXBzOiAoKSA9PiBbXSwKICAgIGlzU2F2aW5nTWFwcGluZ3M6ICgpID0+IGlzU2F2aW5nLnZhbHVlLAogICAgaXNNYXBwaW5nU2VsZWN0YWJsZTogKCkgPT4gdHJ1ZSwKICAgIHNlYXJjaFF1ZXJ5OiAoKSA9PiAiIiwKICAgIHNob3dHcm91cGVkVmlldzogKCkgPT4gZmFsc2UsCiAgICB1bmdyb3VwZWRMYWJlbDogKCkgPT4gIlVuZ3JvdXBlZCIsCiAgICBvblNhdmVGbGF0T3JkZXI6IChtYXBwaW5ncykgPT4gc2F2ZWRPcmRlcnMucHVzaChtYXBwaW5ncyksCiAgICBvblNhdmVHcm91cGVkT3JkZXI6ICgpID0+IHVuZGVmaW5lZCwKICAgIGNvbGxhcHNlU3RvcmFnZTogbnVsbCwKICB9KTsKCiAgc3RhdGUudXBkYXRlU2VjdGlvbk1hcHBpbmdzKHN0YXRlLmdyb3VwU2VjdGlvbnMudmFsdWVbMF0hLmtleSwgWwogICAgc2Vjb25kLAogICAgZmlyc3QsCiAgXSk7CiAgYXdhaXQgc3RhdGUuaGFuZGxlU29ydEVuZCgpOwogIGFzc2VydC5kZWVwRXF1YWwoCiAgICBzYXZlZE9yZGVyc1swXT8ubWFwKChpdGVtKSA9PiBpdGVtLmhvc3QpLAogICAgW3NlY29uZC5ob3N0LCBmaXJzdC5ob3N0XSwKICApOwoKICBpc1NhdmluZy52YWx1ZSA9IGZhbHNlOwogIGF3YWl0IG5leHRUaWNrKCk7CiAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgIHN0YXRlLmdyb3VwU2VjdGlvbnMudmFsdWVbMF0/Lm1hcHBpbmdzLm1hcCgoaXRlbSkgPT4gaXRlbS5ob3N0KSwKICAgIFtmaXJzdC5ob3N0LCBzZWNvbmQuaG9zdF0sCiAgKTsKfSk7Cgp0ZXN0KCJwZXJzaXN0cyBjb2xsYXBzZWQgZ3JvdXBzIHdpdGhvdXQgZmFpbGluZyB3aGVuIHN0b3JhZ2UgcmVqZWN0cyB3cml0ZXMiLCAoKSA9PiB7CiAgY29uc3QgZmlyc3QgPSBtYXBwaW5nKCJvbmUuZXhhbXBsZS50ZXN0IiwgZ3JvdXBzWzBdLmlkKTsKICBjb25zdCB3cml0ZXM6IHN0cmluZ1tdID0gW107CiAgY29uc3Qgc3RhdGUgPSB1c2VTdWJkb21haW5NYXBwaW5nVGFibGVTdGF0ZSh7CiAgICBmaWx0ZXJlZE1hcHBpbmdzOiAoKSA9PiBbZmlyc3RdLAogICAgZ3JvdXBzOiAoKSA9PiBncm91cHMsCiAgICBpc1NhdmluZ01hcHBpbmdzOiAoKSA9PiBmYWxzZSwKICAgIGlzTWFwcGluZ1NlbGVjdGFibGU6ICgpID0+IHRydWUsCiAgICBzZWFyY2hRdWVyeTogKCkgPT4gIiIsCiAgICBzaG93R3JvdXBlZFZpZXc6ICgpID0+IHRydWUsCiAgICB1bmdyb3VwZWRMYWJlbDogKCkgPT4gIlVuZ3JvdXBlZCIsCiAgICBvblNhdmVGbGF0T3JkZXI6ICgpID0+IHVuZGVmaW5lZCwKICAgIG9uU2F2ZUdyb3VwZWRPcmRlcjogKCkgPT4gdW5kZWZpbmVkLAogICAgY29sbGFwc2VTdG9yYWdlOiB7CiAgICAgIGdldEl0ZW06ICgpID0+ICJbXSIsCiAgICAgIHNldEl0ZW06IChfa2V5LCB2YWx1ZSkgPT4gd3JpdGVzLnB1c2godmFsdWUpLAogICAgfSwKICB9KTsKCiAgY29uc3Qgc2VjdGlvbiA9IHN0YXRlLmdyb3VwU2VjdGlvbnMudmFsdWVbMF0hOwogIHN0YXRlLnRvZ2dsZVNlY3Rpb25Db2xsYXBzZWQoc2VjdGlvbik7CiAgYXNzZXJ0LmVxdWFsKHN0YXRlLmlzU2VjdGlvbkNvbGxhcHNlZChzZWN0aW9uKSwgdHJ1ZSk7CiAgYXNzZXJ0LmRlZXBFcXVhbChKU09OLnBhcnNlKHdyaXRlc1swXSEpLCBbc2VjdGlvbi5rZXldKTsKCiAgY29uc3QgcmVqZWN0aW5nU3RhdGUgPSB1c2VTdWJkb21haW5NYXBwaW5nVGFibGVTdGF0ZSh7CiAgICBmaWx0ZXJlZE1hcHBpbmdzOiAoKSA9PiBbZmlyc3RdLAogICAgZ3JvdXBzOiAoKSA9PiBncm91cHMsCiAgICBpc1NhdmluZ01hcHBpbmdzOiAoKSA9PiBmYWxzZSwKICAgIGlzTWFwcGluZ1NlbGVjdGFibGU6ICgpID0+IHRydWUsCiAgICBzZWFyY2hRdWVyeTogKCkgPT4gIiIsCiAgICBzaG93R3JvdXBlZFZpZXc6ICgpID0+IHRydWUsCiAgICB1bmdyb3VwZWRMYWJlbDogKCkgPT4gIlVuZ3JvdXBlZCIsCiAgICBvblNhdmVGbGF0T3JkZXI6ICgpID0+IHVuZGVmaW5lZCwKICAgIG9uU2F2ZUdyb3VwZWRPcmRlcjogKCkgPT4gdW5kZWZpbmVkLAogICAgY29sbGFwc2VTdG9yYWdlOiB7CiAgICAgIGdldEl0ZW06ICgpID0+ICJbXSIsCiAgICAgIHNldEl0ZW06ICgpID0+IHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoInF1b3RhIGV4Y2VlZGVkIik7CiAgICAgIH0sCiAgICB9LAogIH0pOwogIGFzc2VydC5kb2VzTm90VGhyb3coKCkgPT4KICAgIHJlamVjdGluZ1N0YXRlLnRvZ2dsZVNlY3Rpb25Db2xsYXBzZWQoCiAgICAgIHJlamVjdGluZ1N0YXRlLmdyb3VwU2VjdGlvbnMudmFsdWVbMF0hLAogICAgKSwKICApOwp9KTsKCnRlc3QoInNlbGVjdHMgYSBwcmVjaXNlIHN1Y2Nlc3MgbWVzc2FnZSBmb3IgYSBzaW5nbGUgZ3JvdXAgY2hhbmdlIiwgKCkgPT4gewogIGFzc2VydC5lcXVhbCgKICAgIHJlc29sdmVIb3N0TWFwcGluZ0dyb3VwU2F2ZUZlZWRiYWNrKGdyb3VwcywgWwogICAgICAuLi5ncm91cHMsCiAgICAgIHsgaWQ6ICIzMzMzMzMzMy0zMzMzLTQzMzMtODMzMy0zMzMzMzMzMzMzMzMiLCBuYW1lOiAiTmV3IiB9LAogICAgXSksCiAgICAiY3JlYXRlZCIsCiAgKTsKICBhc3NlcnQuZXF1YWwoCiAgICByZXNvbHZlSG9zdE1hcHBpbmdHcm91cFNhdmVGZWVkYmFjayhncm91cHMsIFsKICAgICAgeyAuLi5ncm91cHNbMF0hLCBuYW1lOiAiU3RyZWFtaW5nIiB9LAogICAgICBncm91cHNbMV0hLAogICAgXSksCiAgICAicmVuYW1lZCIsCiAgKTsKICBhc3NlcnQuZXF1YWwoCiAgICByZXNvbHZlSG9zdE1hcHBpbmdHcm91cFNhdmVGZWVkYmFjayhncm91cHMsIFtncm91cHNbMF0hXSksCiAgICAiZGVsZXRlZCIsCiAgKTsKICBhc3NlcnQuZXF1YWwoCiAgICByZXNvbHZlSG9zdE1hcHBpbmdHcm91cFNhdmVGZWVkYmFjayhncm91cHMsIFtncm91cHNbMV0hLCBncm91cHNbMF0hXSksCiAgICAicmVvcmRlcmVkIiwKICApOwp9KTsKCnRlc3QoInVzZXMgdGhlIGdlbmVyaWMgc2F2ZWQgbWVzc2FnZSB3aGVuIGdyb3VwIGNoYW5nZXMgYXJlIGNvbWJpbmVkIiwgKCkgPT4gewogIGFzc2VydC5lcXVhbCgKICAgIHJlc29sdmVIb3N0TWFwcGluZ0dyb3VwU2F2ZUZlZWRiYWNrKGdyb3VwcywgWwogICAgICB7IC4uLmdyb3Vwc1sxXSEsIG5hbWU6ICJVdGlsaXRpZXMiIH0sCiAgICAgIGdyb3Vwc1swXSEsCiAgICBdKSwKICAgICJzYXZlZCIsCiAgKTsKICBhc3NlcnQuZXF1YWwocmVzb2x2ZUhvc3RNYXBwaW5nR3JvdXBTYXZlRmVlZGJhY2soZ3JvdXBzLCBncm91cHMpLCAic2F2ZWQiKTsKfSk7Cgp0ZXN0KCJyZXBvcnRzIGEgZmFpbGVkIGdyb3VwIGNhdGFsb2cgc2F2ZSB3aXRob3V0IGNsb3NpbmcgaXRzIGVkaXRvciIsIGFzeW5jICgpID0+IHsKICBsZXQgY29tcGxldGVkOiBib29sZWFuIHwgdW5kZWZpbmVkOwogIGNvbnN0IG9yaWdpbmFsTWFwcGluZ3MgPSBbbWFwcGluZygibWVkaWEuZXhhbXBsZS50ZXN0IiwgZ3JvdXBzWzBdLmlkKV07CiAgY29uc3QgY29udHJvbGxlciA9IHVzZVN1YmRvbWFpbk1hcHBpbmdHcm91cHMoewogICAgYWxsTWFwcGluZ3M6IGNvbXB1dGVkKCgpID0+IG9yaWdpbmFsTWFwcGluZ3MpLAogICAgZ3JvdXBlZFZpZXc6IGNvbXB1dGVkKCgpID0+IHRydWUpLAogICAgZ3JvdXBzOiBjb21wdXRlZCgoKSA9PiBncm91cHMpLAogICAgaXNBdXRoU2VydmljZVRhcmdldDogKCkgPT4gZmFsc2UsCiAgICBydW5TYXZlTWFwcGluZ3M6IGFzeW5jIChhY3Rpb24pID0+IHsKICAgICAgdHJ5IHsKICAgICAgICByZXR1cm4gYXdhaXQgYWN0aW9uKCk7CiAgICAgIH0gY2F0Y2ggewogICAgICAgIHJldHVybiB1bmRlZmluZWQ7CiAgICAgIH0KICAgIH0sCiAgICBzYXZlQ2F0YWxvZzogYXN5bmMgKCkgPT4gewogICAgICB0aHJvdyBuZXcgRXJyb3IoImNvbmZsaWN0Iik7CiAgICB9LAogICAgdHJhbnNsYXRlOiAoa2V5KSA9PiBrZXksCiAgfSk7CgogIGNvbnN0IHNhdmVkID0gYXdhaXQgY29udHJvbGxlci5zYXZlTWFwcGluZ0dyb3Vwcyhncm91cHMsICh2YWx1ZSkgPT4gewogICAgY29tcGxldGVkID0gdmFsdWU7CiAgfSk7CgogIGFzc2VydC5lcXVhbChzYXZlZCwgZmFsc2UpOwogIGFzc2VydC5lcXVhbChjb21wbGV0ZWQsIGZhbHNlKTsKICBhc3NlcnQuZXF1YWwob3JpZ2luYWxNYXBwaW5nc1swXT8uZ3JvdXBfaWQsIGdyb3Vwc1swXS5pZCk7Cn0pOwoKdGVzdCgicmVwb3J0cyBiYXRjaCBtb3ZlcyBhcyB1bnN1Y2Nlc3NmdWwgdW50aWwgdGhlIGNhdGFsb2cgc2F2ZSBjb21wbGV0ZXMiLCBhc3luYyAoKSA9PiB7CiAgY29uc3Qgb3JpZ2luYWxNYXBwaW5ncyA9IFttYXBwaW5nKCJvbmUuZXhhbXBsZS50ZXN0IiwgbnVsbCldOwogIGNvbnN0IGNvbnRyb2xsZXIgPSB1c2VTdWJkb21haW5NYXBwaW5nR3JvdXBzKHsKICAgIGFsbE1hcHBpbmdzOiBjb21wdXRlZCgoKSA9PiBvcmlnaW5hbE1hcHBpbmdzKSwKICAgIGdyb3VwZWRWaWV3OiBjb21wdXRlZCgoKSA9PiB0cnVlKSwKICAgIGdyb3VwczogY29tcHV0ZWQoKCkgPT4gZ3JvdXBzKSwKICAgIGlzQXV0aFNlcnZpY2VUYXJnZXQ6ICgpID0+IGZhbHNlLAogICAgcnVuU2F2ZU1hcHBpbmdzOiBhc3luYyAoYWN0aW9uKSA9PiB7CiAgICAgIHRyeSB7CiAgICAgICAgcmV0dXJuIGF3YWl0IGFjdGlvbigpOwogICAgICB9IGNhdGNoIHsKICAgICAgICByZXR1cm4gdW5kZWZpbmVkOwogICAgICB9CiAgICB9LAogICAgc2F2ZUNhdGFsb2c6IGFzeW5jICgpID0+IHsKICAgICAgdGhyb3cgbmV3IEVycm9yKCJjb25mbGljdCIpOwogICAgfSwKICAgIHRyYW5zbGF0ZTogKGtleSkgPT4ga2V5LAogIH0pOwoKICBjb25zdCBzYXZlZCA9IGF3YWl0IGNvbnRyb2xsZXIubW92ZU1hcHBpbmdzVG9Hcm91cCgKICAgIFtvcmlnaW5hbE1hcHBpbmdzWzBdIS5ob3N0XSwKICAgIGdyb3Vwc1swXSEuaWQsCiAgKTsKCiAgYXNzZXJ0LmVxdWFsKHNhdmVkLCBmYWxzZSk7CiAgYXNzZXJ0LmVxdWFsKG9yaWdpbmFsTWFwcGluZ3NbMF0/Lmdyb3VwX2lkLCBudWxsKTsKfSk7Cgp0ZXN0KCJwcm92aWRlcyBzdWNjZXNzIHRvYXN0cyBmb3IgZXZlcnkgcGVyc2lzdGVkIGdyb3VwIG9wZXJhdGlvbiIsICgpID0+IHsKICBjb25zdCBjb250cm9sbGVyID0gcmVhZEZpbGVTeW5jKAogICAgbmV3IFVSTCgKICAgICAgIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvdXNlU3ViZG9tYWluTWFwcGluZ0dyb3Vwcy50cyIsCiAgICAgIGltcG9ydC5tZXRhLnVybCwKICAgICksCiAgICAidXRmOCIsCiAgKTsKCiAgZm9yIChjb25zdCBrZXkgb2YgWwogICAgImdyb3VwQ3JlYXRlZCIsCiAgICAiZ3JvdXBSZW5hbWVkIiwKICAgICJncm91cERlbGV0ZWQiLAogICAgImdyb3VwT3JkZXJVcGRhdGVkIiwKICAgICJncm91cHNTYXZlZCIsCiAgICAibWFwcGluZ3NNb3ZlZCIsCiAgICAiZ3JvdXBlZE1hcHBpbmdPcmRlclVwZGF0ZWQiLAogICAgImdyb3VwZWRWaWV3RW5hYmxlZCIsCiAgICAiZ3JvdXBlZFZpZXdEaXNhYmxlZCIsCiAgXSkgewogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBjb250cm9sbGVyLAogICAgICBuZXcgUmVnRXhwKGBhZG1pblxcLnN1YmRvbWFpblByb3h5XFwuJHtrZXl9YCwgInUiKSwKICAgICk7CiAgfQogIGFzc2VydC5lcXVhbCgoY29udHJvbGxlci5tYXRjaCgvdG9hc3RcLnN1Y2Nlc3NcKC9ndSkgPz8gW10pLmxlbmd0aCwgNCk7Cn0pOwoKdGVzdCgia2VlcHMgbW9iaWxlIGFjdGlvbnMgYmFsYW5jZWQgYW5kIGdyb3VwIGhlYWRpbmdzIHZpc2libGUgd2hpbGUgc2Nyb2xsaW5nIiwgKCkgPT4gewogIGNvbnN0IGNhcmQgPSByZWFkRmlsZVN5bmMoCiAgICBuZXcgVVJMKAogICAgICAiLi4vc3JjL3ZpZXdzL3N1YmRvbWFpbi1wcm94eS9TdWJkb21haW5NYXBwaW5nR3JvdXBIZWFkZXJSb3cudnVlIiwKICAgICAgaW1wb3J0Lm1ldGEudXJsLAogICAgKSwKICAgICJ1dGY4IiwKICApOwogIGNvbnN0IGhlYWRlciA9IHJlYWRGaWxlU3luYygKICAgIG5ldyBVUkwoCiAgICAgICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L1N1YmRvbWFpbk1hcHBpbmdzQ2FyZEhlYWRlci52dWUiLAogICAgICBpbXBvcnQubWV0YS51cmwsCiAgICApLAogICAgInV0ZjgiLAogICk7CiAgY29uc3Qgc3R5bGVzID0gcmVhZEZpbGVTeW5jKAogICAgbmV3IFVSTCgiLi4vc3JjL2Fzc2V0cy9pbmRleC5jc3MiLCBpbXBvcnQubWV0YS51cmwpLAogICAgInV0ZjgiLAogICk7CgogIGFzc2VydC5tYXRjaCgKICAgIGhlYWRlciwKICAgIC9ncmlkIHctZnVsbCBncmlkLWNvbHMtMyBpdGVtcy1jZW50ZXIgZ2FwLTIgc206ZmxleC91LAogICk7CiAgYXNzZXJ0Lm1hdGNoKAogICAgaGVhZGVyLAogICAgL2NsYXNzPSJjb2wtc3Bhbi0zIGZsZXggbWluLXctMCB3LWZ1bGwgaXRlbXMtY2VudGVyIHNtOmNvbC1hdXRvIHNtOnctYXV0byIvdSwKICApOwogIGZvciAoY29uc3QgaWNvbiBvZiBbIkxpc3RUcmVlIiwgIkxpc3RDaGVja3MiLCAiU2VhcmNoIl0pIHsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgaGVhZGVyLAogICAgICBuZXcgUmVnRXhwKGA8JHtpY29ufSBjbGFzcz0iaC00IHctNCBzaHJpbmstMCJgLCAidSIpLAogICAgKTsKICB9CiAgYXNzZXJ0Lm1hdGNoKAogICAgaGVhZGVyLAogICAgL2NsYXNzPSJoaWRkZW4gc206aW5saW5lLWZsZXgiW1xzXFNdKj9hZG1pblwuc3ViZG9tYWluUHJveHlcLm1hbmFnZUdyb3Vwcy91LAogICk7CiAgYXNzZXJ0Lm1hdGNoKAogICAgaGVhZGVyLAogICAgL3YtaWY9Imdyb3VwZWRWaWV3Iltcc1xTXSo/ZGF0YS10ZXN0aWQ9Im1vYmlsZS1tYW5hZ2UtZ3JvdXBzLW1lbnUtaXRlbSJbXHNcU10qP2NsYXNzPSJzbTpoaWRkZW4iW1xzXFNdKj9Ac2VsZWN0PSJlbWl0XCgnbWFuYWdlLWdyb3VwcydcKSJbXHNcU10qP2FkbWluXC5zdWJkb21haW5Qcm94eVwubWFuYWdlR3JvdXBzL3UsCiAgKTsKICBhc3NlcnQubWF0Y2goaGVhZGVyLCAvY2xhc3M9ImNvbC1zcGFuLTMgdy1mdWxsIHNtOnctYXV0byIvdSk7CiAgYXNzZXJ0Lm1hdGNoKGNhcmQsIC9tYXBwaW5nLWdyb3VwLWhlYWRlci1yb3cvdSk7CiAgYXNzZXJ0Lm1hdGNoKGNhcmQsIC9jbGFzcz0ibWFwcGluZy1ncm91cC1oZWFkZXItbGF5b3V0Ii91KTsKICBhc3NlcnQubWF0Y2goY2FyZCwgL21hcHBpbmctZ3JvdXAtaGVhZGVyLXN0aWNreS91KTsKICBhc3NlcnQubWF0Y2goY2FyZCwgL2NsYXNzPSJtYXBwaW5nLWdyb3VwLWhlYWRlci1hY3Rpb25zIi91KTsKICBhc3NlcnQubWF0Y2goCiAgICBjYXJkLAogICAgL2NsYXNzPSJtYXBwaW5nLWdyb3VwLWhlYWRlci1zdGlja3lbXHNcU10qPzxcL2Rpdj5ccyo8ZGl2IGNsYXNzPSJtYXBwaW5nLWdyb3VwLWhlYWRlci1hY3Rpb25zIj5bXHNcU10qPzxNb3JlSG9yaXpvbnRhbC91LAogICk7CiAgYXNzZXJ0Lm1hdGNoKAogICAgc3R5bGVzLAogICAgL1wubWFwcGluZy10YWJsZS1zY3JvbGwgXC5tYXBwaW5nLWdyb3VwLWhlYWRlci1zdGlja3kgXHtbXHNcU10qP3Bvc2l0aW9uOiBzdGlja3k7W1xzXFNdKj9sZWZ0OiAwO1tcc1xTXSo/d2lkdGg6IG1pblwoMjRyZW0sIGNhbGNcKDEwMHZ3IC0gM3JlbVwpXCk7L3UsCiAgKTsKICBhc3NlcnQubWF0Y2goCiAgICBzdHlsZXMsCiAgICAvXC5tYXBwaW5nLXRhYmxlLXNjcm9sbCBcLm1hcHBpbmctZ3JvdXAtaGVhZGVyLXJvdyBce1tcc1xTXSo/LS1tYXBwaW5nLWdyb3VwLWhlYWRlci1iYWNrZ3JvdW5kOltcc1xTXSo/YmFja2dyb3VuZC1jb2xvcjogdmFyXCgtLW1hcHBpbmctZ3JvdXAtaGVhZGVyLWJhY2tncm91bmRcKTsvdSwKICApOwogIGFzc2VydC5tYXRjaCgKICAgIHN0eWxlcywKICAgIC9cLm1hcHBpbmctdGFibGUtc2Nyb2xsIFwubWFwcGluZy1ncm91cC1oZWFkZXItc3RpY2t5IFx7W1xzXFNdKj9iYWNrZ3JvdW5kLWNvbG9yOiB2YXJcKC0tbWFwcGluZy1ncm91cC1oZWFkZXItYmFja2dyb3VuZFwpOy91LAogICk7CiAgYXNzZXJ0Lm1hdGNoKAogICAgc3R5bGVzLAogICAgL1wubWFwcGluZy10YWJsZS1zY3JvbGwgXC5tYXBwaW5nLWdyb3VwLWhlYWRlci1hY3Rpb25zIFx7W1xzXFNdKj93aWR0aDogOHJlbTtbXHNcU10qP21hcmdpbi1sZWZ0OiBhdXRvO1tcc1xTXSo/anVzdGlmeS1jb250ZW50OiBmbGV4LWVuZDsvdSwKICApOwp9KTsKCnRlc3QoImFuaW1hdGVzIGdyb3VwZWQgcm93cyBhbmQgdGhlIGRpc2Nsb3N1cmUgY2hldnJvbiIsICgpID0+IHsKICBjb25zdCBjYXJkID0gcmVhZEZpbGVTeW5jKAogICAgbmV3IFVSTCgKICAgICAgIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvU3ViZG9tYWluTWFwcGluZ0dyb3VwSGVhZGVyUm93LnZ1ZSIsCiAgICAgIGltcG9ydC5tZXRhLnVybCwKICAgICksCiAgICAidXRmOCIsCiAgKTsKICBjb25zdCBncm91cFJvd3MgPSByZWFkRmlsZVN5bmMoCiAgICBuZXcgVVJMKAogICAgICAiLi4vc3JjL3ZpZXdzL3N1YmRvbWFpbi1wcm94eS9TdWJkb21haW5NYXBwaW5nR3JvdXBSb3dzLnZ1ZSIsCiAgICAgIGltcG9ydC5tZXRhLnVybCwKICAgICksCiAgICAidXRmOCIsCiAgKTsKICBjb25zdCBzdHlsZXMgPSByZWFkRmlsZVN5bmMoCiAgICBuZXcgVVJMKCIuLi9zcmMvYXNzZXRzL2luZGV4LmNzcyIsIGltcG9ydC5tZXRhLnVybCksCiAgICAidXRmOCIsCiAgKTsKCiAgYXNzZXJ0Lm1hdGNoKGdyb3VwUm93cywgL2lzQm9keVZpc3VhbGx5Q29sbGFwc2VkL3UpOwogIGFzc2VydC5tYXRjaChncm91cFJvd3MsIC9AdHJhbnNpdGlvbmVuZD0iaGFuZGxlQm9keVRyYW5zaXRpb25FbmQiL3UpOwogIGFzc2VydC5tYXRjaChjYXJkLCAvdHJhbnNpdGlvbi10cmFuc2Zvcm0gZHVyYXRpb24tMjAwL3UpOwogIGFzc2VydC5tYXRjaChjYXJkLCAvJ3JvdGF0ZS05MCc6ICFjb2xsYXBzZWQvdSk7CiAgYXNzZXJ0Lm1hdGNoKAogICAgc3R5bGVzLAogICAgL1wubWFwcGluZy1ncm91cC1jb2xsYXBzZS1ib2R5IFx7W1xzXFNdKj9jbGlwLXBhdGggMjIwbXMvdSwKICApOwogIGFzc2VydC5tYXRjaCgKICAgIHN0eWxlcywKICAgIC9cLm1hcHBpbmctZ3JvdXAtY29sbGFwc2UtYm9keS0tY29sbGFwc2VkIFx7W1xzXFNdKj9jbGlwLXBhdGg6IGluc2V0XCgwIDAgMTAwJSAwXCkvdSwKICApOwogIGFzc2VydC5tYXRjaCgKICAgIHN0eWxlcywKICAgIC9AbWVkaWEgXChwcmVmZXJzLXJlZHVjZWQtbW90aW9uOiByZWR1Y2VcKVtcc1xTXSo/bWFwcGluZy1ncm91cC1jb2xsYXBzZS1ib2R5L3UsCiAgKTsKfSk7Cgp0ZXN0KCJyZWNvbmNpbGVzIGRyYWdnYWJsZSB0YWJsZSByb3dzIGFmdGVyIGEgY3Jvc3MtZ3JvdXAgbW92ZSIsICgpID0+IHsKICBjb25zdCBjYXJkID0gcmVhZEZpbGVTeW5jKAogICAgbmV3IFVSTCgKICAgICAgIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvU3ViZG9tYWluTWFwcGluZ1RhYmxlUm93LnZ1ZSIsCiAgICAgIGltcG9ydC5tZXRhLnVybCwKICAgICksCiAgICAidXRmOCIsCiAgKTsKICBjb25zdCBncm91cFJvd3MgPSByZWFkRmlsZVN5bmMoCiAgICBuZXcgVVJMKAogICAgICAiLi4vc3JjL3ZpZXdzL3N1YmRvbWFpbi1wcm94eS9TdWJkb21haW5NYXBwaW5nR3JvdXBSb3dzLnZ1ZSIsCiAgICAgIGltcG9ydC5tZXRhLnVybCwKICAgICksCiAgICAidXRmOCIsCiAgKTsKICBjb25zdCB0YWJsZVN0YXRlID0gcmVhZEZpbGVTeW5jKAogICAgbmV3IFVSTCgKICAgICAgIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvdXNlU3ViZG9tYWluTWFwcGluZ1RhYmxlU3RhdGUudHMiLAogICAgICBpbXBvcnQubWV0YS51cmwsCiAgICApLAogICAgInV0ZjgiLAogICk7CgogIGFzc2VydC5tYXRjaChncm91cFJvd3MsIC86a2V5PSJkcmFnZ2FibGVSZW5kZXJLZXkiL3UpOwogIGFzc2VydC5tYXRjaCgKICAgIGdyb3VwUm93cywKICAgIC9idWlsZEhvc3RNYXBwaW5nRHJhZ1JlbmRlcktleVwocHJvcHNcLm1hcHBpbmdzXCkvdSwKICApOwogIGFzc2VydC5tYXRjaCgKICAgIGNhcmQsCiAgICAvPFRhYmxlUm93W1xzXFNdKj86a2V5PSJtYXBwaW5nXC5ob3N0Iltcc1xTXSo/OmRhdGEtaG9zdC1tYXBwaW5nPSJtYXBwaW5nXC5ob3N0Iltcc1xTXSo/Y2xhc3M9Im1hcHBpbmctcm93Ii91LAogICk7CiAgYXNzZXJ0Lm1hdGNoKAogICAgdGFibGVTdGF0ZSwKICAgIC9cKGlzU2F2aW5nLCB3YXNTYXZpbmdcKSA9PiBce1tcc1xTXSo/aWYgXCh3YXNTYXZpbmcgJiYgIWlzU2F2aW5nXCkgc3luY0dyb3VwU2VjdGlvbnNcKFwpOy91LAogICk7CiAgYXNzZXJ0LmRvZXNOb3RNYXRjaCgKICAgIGNhcmQsCiAgICAvcHJvcHNcLnNlYXJjaFF1ZXJ5LFxzKnByb3BzXC5pc1NhdmluZ01hcHBpbmdzLFxzKnNob3dHcm91cGVkVmlld1wudmFsdWUvdSwKICApOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import test from "node:test";
+import { computed, nextTick, ref } from "vue";
+import type { HostMapping, HostMappingGroup } from "../src/types";
+import { createDefaultMapping } from "../src/views/subdomain-proxy/model";
+import {
+  applyHostMappingGroupSections,
+  buildHostMappingDragRenderKey,
+  buildHostMappingGroupSections,
+  createHostMappingGroupId,
+  isHostMappingGroupNameLengthValid,
+  moveHostMappingsToGroup,
+  normalizeHostMappingGroupNameKey,
+  resolveHostMappingGroupSaveFeedback,
+} from "../src/views/subdomain-proxy/host-mapping-groups";
+import { useSubdomainMappingGroups } from "../src/views/subdomain-proxy/useSubdomainMappingGroups";
+import { useSubdomainMappingTableState } from "../src/views/subdomain-proxy/useSubdomainMappingTableState";
+
+const groups: HostMappingGroup[] = [
+  { id: "11111111-1111-4111-8111-111111111111", name: "Media" },
+  { id: "22222222-2222-4222-8222-222222222222", name: "Tools" },
+];
+
+const mapping = (host: string, groupId: string | null): HostMapping => ({
+  ...createDefaultMapping(),
+  host,
+  target: `http://${host}`,
+  group_id: groupId,
+});
+
+test("creates an RFC 4122 UUID when randomUUID is unavailable", () => {
+  const id = createHostMappingGroupId({
+    getRandomValues: (bytes) => {
+      bytes.fill(0);
+      return bytes;
+    },
+  });
+
+  assert.equal(id, "00000000-0000-4000-8000-000000000000");
+});
+
+test("validates group names by Unicode code points without locale-dependent casing", () => {
+  assert.equal(isHostMappingGroupNameLengthValid("😀".repeat(40)), true);
+  assert.equal(isHostMappingGroupNameLengthValid("😀".repeat(41)), false);
+  assert.equal(isHostMappingGroupNameLengthValid("   "), false);
+  assert.equal(normalizeHostMappingGroupNameKey("  MEDIA  "), "media");
+});
+
+test("projects mappings in group order with ungrouped last", () => {
+  const sections = buildHostMappingGroupSections(
+    [
+      mapping("tool.example.test", groups[1].id),
+      mapping("loose.example.test", null),
+      mapping("media.example.test", groups[0].id),
+    ],
+    groups,
+    "Ungrouped",
+  );
+
+  assert.deepEqual(
+    sections.map((section) => [
+      section.name,
+      section.mappings.map((item) => item.host),
+    ]),
+    [
+      ["Media", ["media.example.test"]],
+      ["Tools", ["tool.example.test"]],
+      ["Ungrouped", ["loose.example.test"]],
+    ],
+  );
+});
+
+test("keeps the flat projection when no groups exist", () => {
+  const mappings = [mapping("one.example.test", null)];
+  const sections = buildHostMappingGroupSections(mappings, [], "Ungrouped");
+  assert.equal(sections.length, 1);
+  assert.equal(sections[0]?.name, "");
+  assert.deepEqual(sections[0]?.mappings, mappings);
+});
+
+test("changes the draggable render identity when membership or order changes", () => {
+  const first = mapping("one.example.test", groups[0].id);
+  const second = mapping("two.example.test", groups[0].id);
+
+  assert.equal(
+    buildHostMappingDragRenderKey([first, second]),
+    '["one.example.test","two.example.test"]',
+  );
+  assert.notEqual(
+    buildHostMappingDragRenderKey([first, second]),
+    buildHostMappingDragRenderKey([second, first]),
+  );
+  assert.notEqual(
+    buildHostMappingDragRenderKey([first, second]),
+    buildHostMappingDragRenderKey([first]),
+  );
+});
+
+test("applies a cross-group drag while preserving the auth mapping slot", () => {
+  const auth = {
+    ...mapping("auth.example.test", null),
+    target: "http://127.0.0.1:7997",
+    service_role: "auth" as const,
+  };
+  const media = mapping("media.example.test", groups[0].id);
+  const tool = mapping("tool.example.test", groups[1].id);
+  const sections = buildHostMappingGroupSections(
+    [media, tool],
+    groups,
+    "Ungrouped",
+  );
+  sections[0]!.mappings = [tool, media];
+  sections[1]!.mappings = [];
+
+  const next = applyHostMappingGroupSections(
+    [auth, media, tool],
+    sections,
+    (target) => target.endsWith(":7997"),
+  );
+  assert.equal(next[0]?.host, auth.host);
+  assert.equal(next[1]?.host, tool.host);
+  assert.equal(next[1]?.group_id, groups[0].id);
+  assert.equal(next[2]?.host, media.host);
+});
+
+test("batch move only updates selected mappings", () => {
+  const first = mapping("one.example.test", null);
+  const second = mapping("two.example.test", groups[0].id);
+  const next = moveHostMappingsToGroup(
+    [first, second],
+    new Set([first.host]),
+    groups[1].id,
+  );
+  assert.equal(next[0]?.group_id, groups[1].id);
+  assert.equal(next[1]?.group_id, groups[0].id);
+});
+
+test("keeps mapping selection scoped to visible rows", async () => {
+  const first = mapping("one.example.test", groups[0].id);
+  const second = mapping("two.example.test", groups[0].id);
+  const filteredMappings = ref([first, second]);
+  const state = useSubdomainMappingTableState({
+    filteredMappings: () => filteredMappings.value,
+    groups: () => groups,
+    isSavingMappings: () => false,
+    isMappingSelectable: () => true,
+    searchQuery: () => "",
+    showGroupedView: () => true,
+    ungroupedLabel: () => "Ungrouped",
+    onSaveFlatOrder: () => undefined,
+    onSaveGroupedOrder: () => undefined,
+    collapseStorage: null,
+  });
+
+  state.setSectionSelected(state.groupSections.value[0]!, true);
+  assert.equal(state.selectedCount.value, 2);
+  assert.equal(state.allVisibleSelected.value, true);
+
+  filteredMappings.value = [first];
+  await nextTick();
+  assert.equal(state.selectedCount.value, 1);
+  assert.deepEqual(state.takeSelectedHosts(), [first.host]);
+  assert.equal(state.selectedCount.value, 0);
+});
+
+test("selection mode clears on search changes and excludes auth mappings", async () => {
+  const first = mapping("one.example.test", groups[0].id);
+  const auth = {
+    ...mapping("auth.example.test", groups[0].id),
+    target: "http://127.0.0.1:7997",
+    service_role: "auth" as const,
+  };
+  const filteredMappings = ref([first, auth]);
+  const searchQuery = ref("");
+  const state = useSubdomainMappingTableState({
+    filteredMappings: () => filteredMappings.value,
+    groups: () => groups,
+    isSavingMappings: () => false,
+    isMappingSelectable: (item) => item.service_role !== "auth",
+    searchQuery: () => searchQuery.value,
+    showGroupedView: () => true,
+    ungroupedLabel: () => "Ungrouped",
+    onSaveFlatOrder: () => undefined,
+    onSaveGroupedOrder: () => undefined,
+    collapseStorage: null,
+  });
+
+  state.setSelectionMode(true);
+  state.setAllVisibleSelected(true);
+  assert.deepEqual(state.getSelectedHosts(), [first.host]);
+  assert.equal(state.dragDisabled.value, true);
+
+  searchQuery.value = "one";
+  await nextTick();
+  assert.equal(state.selectedCount.value, 0);
+});
+
+test("restores canonical mapping order after a save finishes", async () => {
+  const first = mapping("one.example.test", null);
+  const second = mapping("two.example.test", null);
+  const isSaving = ref(true);
+  const savedOrders: HostMapping[][] = [];
+  const state = useSubdomainMappingTableState({
+    filteredMappings: () => [first, second],
+    groups: () => [],
+    isSavingMappings: () => isSaving.value,
+    isMappingSelectable: () => true,
+    searchQuery: () => "",
+    showGroupedView: () => false,
+    ungroupedLabel: () => "Ungrouped",
+    onSaveFlatOrder: (mappings) => savedOrders.push(mappings),
+    onSaveGroupedOrder: () => undefined,
+    collapseStorage: null,
+  });
+
+  state.updateSectionMappings(state.groupSections.value[0]!.key, [
+    second,
+    first,
+  ]);
+  await state.handleSortEnd();
+  assert.deepEqual(
+    savedOrders[0]?.map((item) => item.host),
+    [second.host, first.host],
+  );
+
+  isSaving.value = false;
+  await nextTick();
+  assert.deepEqual(
+    state.groupSections.value[0]?.mappings.map((item) => item.host),
+    [first.host, second.host],
+  );
+});
+
+test("persists collapsed groups without failing when storage rejects writes", () => {
+  const first = mapping("one.example.test", groups[0].id);
+  const writes: string[] = [];
+  const state = useSubdomainMappingTableState({
+    filteredMappings: () => [first],
+    groups: () => groups,
+    isSavingMappings: () => false,
+    isMappingSelectable: () => true,
+    searchQuery: () => "",
+    showGroupedView: () => true,
+    ungroupedLabel: () => "Ungrouped",
+    onSaveFlatOrder: () => undefined,
+    onSaveGroupedOrder: () => undefined,
+    collapseStorage: {
+      getItem: () => "[]",
+      setItem: (_key, value) => writes.push(value),
+    },
+  });
+
+  const section = state.groupSections.value[0]!;
+  state.toggleSectionCollapsed(section);
+  assert.equal(state.isSectionCollapsed(section), true);
+  assert.deepEqual(JSON.parse(writes[0]!), [section.key]);
+
+  const rejectingState = useSubdomainMappingTableState({
+    filteredMappings: () => [first],
+    groups: () => groups,
+    isSavingMappings: () => false,
+    isMappingSelectable: () => true,
+    searchQuery: () => "",
+    showGroupedView: () => true,
+    ungroupedLabel: () => "Ungrouped",
+    onSaveFlatOrder: () => undefined,
+    onSaveGroupedOrder: () => undefined,
+    collapseStorage: {
+      getItem: () => "[]",
+      setItem: () => {
+        throw new Error("quota exceeded");
+      },
+    },
+  });
+  assert.doesNotThrow(() =>
+    rejectingState.toggleSectionCollapsed(
+      rejectingState.groupSections.value[0]!,
+    ),
+  );
+});
+
+test("selects a precise success message for a single group change", () => {
+  assert.equal(
+    resolveHostMappingGroupSaveFeedback(groups, [
+      ...groups,
+      { id: "33333333-3333-4333-8333-333333333333", name: "New" },
+    ]),
+    "created",
+  );
+  assert.equal(
+    resolveHostMappingGroupSaveFeedback(groups, [
+      { ...groups[0]!, name: "Streaming" },
+      groups[1]!,
+    ]),
+    "renamed",
+  );
+  assert.equal(
+    resolveHostMappingGroupSaveFeedback(groups, [groups[0]!]),
+    "deleted",
+  );
+  assert.equal(
+    resolveHostMappingGroupSaveFeedback(groups, [groups[1]!, groups[0]!]),
+    "reordered",
+  );
+});
+
+test("uses the generic saved message when group changes are combined", () => {
+  assert.equal(
+    resolveHostMappingGroupSaveFeedback(groups, [
+      { ...groups[1]!, name: "Utilities" },
+      groups[0]!,
+    ]),
+    "saved",
+  );
+  assert.equal(resolveHostMappingGroupSaveFeedback(groups, groups), "saved");
+});
+
+test("reports a failed group catalog save without closing its editor", async () => {
+  let completed: boolean | undefined;
+  const originalMappings = [mapping("media.example.test", groups[0].id)];
+  const controller = useSubdomainMappingGroups({
+    allMappings: computed(() => originalMappings),
+    groupedView: computed(() => true),
+    groups: computed(() => groups),
+    isAuthServiceTarget: () => false,
+    runSaveMappings: async (action) => {
+      try {
+        return await action();
+      } catch {
+        return undefined;
+      }
+    },
+    saveCatalog: async () => {
+      throw new Error("conflict");
+    },
+    translate: (key) => key,
+  });
+
+  const saved = await controller.saveMappingGroups(groups, (value) => {
+    completed = value;
+  });
+
+  assert.equal(saved, false);
+  assert.equal(completed, false);
+  assert.equal(originalMappings[0]?.group_id, groups[0].id);
+});
+
+test("reports batch moves as unsuccessful until the catalog save completes", async () => {
+  const originalMappings = [mapping("one.example.test", null)];
+  const controller = useSubdomainMappingGroups({
+    allMappings: computed(() => originalMappings),
+    groupedView: computed(() => true),
+    groups: computed(() => groups),
+    isAuthServiceTarget: () => false,
+    runSaveMappings: async (action) => {
+      try {
+        return await action();
+      } catch {
+        return undefined;
+      }
+    },
+    saveCatalog: async () => {
+      throw new Error("conflict");
+    },
+    translate: (key) => key,
+  });
+
+  const saved = await controller.moveMappingsToGroup(
+    [originalMappings[0]!.host],
+    groups[0]!.id,
+  );
+
+  assert.equal(saved, false);
+  assert.equal(originalMappings[0]?.group_id, null);
+});
+
+test("provides success toasts for every persisted group operation", () => {
+  const controller = readFileSync(
+    new URL(
+      "../src/views/subdomain-proxy/useSubdomainMappingGroups.ts",
+      import.meta.url,
+    ),
+    "utf8",
+  );
+
+  for (const key of [
+    "groupCreated",
+    "groupRenamed",
+    "groupDeleted",
+    "groupOrderUpdated",
+    "groupsSaved",
+    "mappingsMoved",
+    "groupedMappingOrderUpdated",
+    "groupedViewEnabled",
+    "groupedViewDisabled",
+  ]) {
+    assert.match(
+      controller,
+      new RegExp(`admin\\.subdomainProxy\\.${key}`, "u"),
+    );
+  }
+  assert.equal((controller.match(/toast\.success\(/gu) ?? []).length, 4);
+});
+
+test("keeps mobile actions balanced and group headings visible while scrolling", () => {
+  const card = readFileSync(
+    new URL(
+      "../src/views/subdomain-proxy/SubdomainMappingGroupHeaderRow.vue",
+      import.meta.url,
+    ),
+    "utf8",
+  );
+  const header = readFileSync(
+    new URL(
+      "../src/views/subdomain-proxy/SubdomainMappingsCardHeader.vue",
+      import.meta.url,
+    ),
+    "utf8",
+  );
+  const styles = readFileSync(
+    new URL("../src/assets/index.css", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(
+    header,
+    /grid w-full grid-cols-3 items-center gap-2 sm:flex/u,
+  );
+  assert.match(
+    header,
+    /class="col-span-3 flex min-w-0 w-full items-center sm:col-auto sm:w-auto"/u,
+  );
+  for (const icon of ["ListTree", "ListChecks", "Search"]) {
+    assert.match(
+      header,
+      new RegExp(`<${icon} class="h-4 w-4 shrink-0"`, "u"),
+    );
+  }
+  assert.match(
+    header,
+    /class="hidden sm:inline-flex"[\s\S]*?admin\.subdomainProxy\.manageGroups/u,
+  );
+  assert.match(
+    header,
+    /v-if="groupedView"[\s\S]*?data-testid="mobile-manage-groups-menu-item"[\s\S]*?class="sm:hidden"[\s\S]*?@select="emit\('manage-groups'\)"[\s\S]*?admin\.subdomainProxy\.manageGroups/u,
+  );
+  assert.match(header, /class="col-span-3 w-full sm:w-auto"/u);
+  assert.match(card, /mapping-group-header-row/u);
+  assert.match(card, /class="mapping-group-header-layout"/u);
+  assert.match(card, /mapping-group-header-sticky/u);
+  assert.match(card, /class="mapping-group-header-actions"/u);
+  assert.match(
+    card,
+    /class="mapping-group-header-sticky[\s\S]*?<\/div>\s*<div class="mapping-group-header-actions">[\s\S]*?<MoreHorizontal/u,
+  );
+  assert.match(
+    styles,
+    /\.mapping-table-scroll \.mapping-group-header-sticky \{[\s\S]*?position: sticky;[\s\S]*?left: 0;[\s\S]*?width: min\(24rem, calc\(100vw - 3rem\)\);/u,
+  );
+  assert.match(
+    styles,
+    /\.mapping-table-scroll \.mapping-group-header-row \{[\s\S]*?--mapping-group-header-background:[\s\S]*?background-color: var\(--mapping-group-header-background\);/u,
+  );
+  assert.match(
+    styles,
+    /\.mapping-table-scroll \.mapping-group-header-sticky \{[\s\S]*?background-color: var\(--mapping-group-header-background\);/u,
+  );
+  assert.match(
+    styles,
+    /\.mapping-table-scroll \.mapping-group-header-actions \{[\s\S]*?width: 8rem;[\s\S]*?margin-left: auto;[\s\S]*?justify-content: flex-end;/u,
+  );
+});
+
+test("animates grouped rows and the disclosure chevron", () => {
+  const card = readFileSync(
+    new URL(
+      "../src/views/subdomain-proxy/SubdomainMappingGroupHeaderRow.vue",
+      import.meta.url,
+    ),
+    "utf8",
+  );
+  const groupRows = readFileSync(
+    new URL(
+      "../src/views/subdomain-proxy/SubdomainMappingGroupRows.vue",
+      import.meta.url,
+    ),
+    "utf8",
+  );
+  const styles = readFileSync(
+    new URL("../src/assets/index.css", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(groupRows, /isBodyVisuallyCollapsed/u);
+  assert.match(groupRows, /@transitionend="handleBodyTransitionEnd"/u);
+  assert.match(card, /transition-transform duration-200/u);
+  assert.match(card, /'rotate-90': !collapsed/u);
+  assert.match(
+    styles,
+    /\.mapping-group-collapse-body \{[\s\S]*?clip-path 220ms/u,
+  );
+  assert.match(
+    styles,
+    /\.mapping-group-collapse-body--collapsed \{[\s\S]*?clip-path: inset\(0 0 100% 0\)/u,
+  );
+  assert.match(
+    styles,
+    /@media \(prefers-reduced-motion: reduce\)[\s\S]*?mapping-group-collapse-body/u,
+  );
+});
+
+test("reconciles draggable table rows after a cross-group move", () => {
+  const card = readFileSync(
+    new URL(
+      "../src/views/subdomain-proxy/SubdomainMappingTableRow.vue",
+      import.meta.url,
+    ),
+    "utf8",
+  );
+  const groupRows = readFileSync(
+    new URL(
+      "../src/views/subdomain-proxy/SubdomainMappingGroupRows.vue",
+      import.meta.url,
+    ),
+    "utf8",
+  );
+  const tableState = readFileSync(
+    new URL(
+      "../src/views/subdomain-proxy/useSubdomainMappingTableState.ts",
+      import.meta.url,
+    ),
+    "utf8",
+  );
+
+  assert.match(groupRows, /:key="draggableRenderKey"/u);
+  assert.match(
+    groupRows,
+    /buildHostMappingDragRenderKey\(props\.mappings\)/u,
+  );
+  assert.match(
+    card,
+    /<TableRow[\s\S]*?:key="mapping\.host"[\s\S]*?:data-host-mapping="mapping\.host"[\s\S]*?class="mapping-row"/u,
+  );
+  assert.match(
+    tableState,
+    /\(isSaving, wasSaving\) => \{[\s\S]*?if \(wasSaving && !isSaving\) syncGroupSections\(\);/u,
+  );
+  assert.doesNotMatch(
+    card,
+    /props\.searchQuery,\s*props\.isSavingMappings,\s*showGroupedView\.value/u,
+  );
+});

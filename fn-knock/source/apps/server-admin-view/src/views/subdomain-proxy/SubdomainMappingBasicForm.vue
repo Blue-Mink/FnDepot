@@ -1,1 +1,189 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgUmVmcmVzaEN3IH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgU3ViZG9tYWluTWFwcGluZ0FkdmFuY2VkU2V0dGluZ3MgZnJvbSAiLi9TdWJkb21haW5NYXBwaW5nQWR2YW5jZWRTZXR0aW5ncy52dWUiOwppbXBvcnQgU3ViZG9tYWluTWFwcGluZ0dyb3VwRmllbGQgZnJvbSAiLi9TdWJkb21haW5NYXBwaW5nR3JvdXBGaWVsZC52dWUiOwppbXBvcnQgU3ViZG9tYWluTWFwcGluZ0ljb25FbnRyeSBmcm9tICIuL1N1YmRvbWFpbk1hcHBpbmdJY29uRW50cnkudnVlIjsKaW1wb3J0IFN1YmRvbWFpbk1hcHBpbmdUYXJnZXRFZGl0b3IgZnJvbSAiLi9TdWJkb21haW5NYXBwaW5nVGFyZ2V0RWRpdG9yLnZ1ZSI7CmltcG9ydCB0eXBlIHsgU3ViZG9tYWluTWFwcGluZ0RpYWxvZ1Byb3BzIH0gZnJvbSAiLi9zdWJkb21haW4tbWFwcGluZy1kaWFsb2ctY29udHJhY3QiOwoKY29uc3QgeyBkaWFsb2cgfSA9IGRlZmluZVByb3BzPHsgZGlhbG9nOiBTdWJkb21haW5NYXBwaW5nRGlhbG9nUHJvcHMgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHRpdGxlT3ZlcnJpZGVNb2RlbCA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IGRpYWxvZy5tYXBwaW5nRm9ybS50aXRsZV9vdmVycmlkZSwKICBzZXQ6ICh2YWx1ZTogc3RyaW5nKSA9PiBkaWFsb2cudXBkYXRlTWFwcGluZ0Zvcm0oeyB0aXRsZV9vdmVycmlkZTogdmFsdWUgfSksCn0pOwpjb25zdCBtYXBwaW5nU3ViZG9tYWluTW9kZWwgPSBjb21wdXRlZCh7CiAgZ2V0OiAoKSA9PiBkaWFsb2cubWFwcGluZ1N1YmRvbWFpbiwKICBzZXQ6ICh2YWx1ZTogc3RyaW5nKSA9PiBkaWFsb2cuc2V0TWFwcGluZ1N1YmRvbWFpbih2YWx1ZSksCn0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJncmlkIGdhcC00IHBiLTQgcHQtNiI+CiAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgIDxMYWJlbCBmb3I9Im1hcHBpbmctZGlzcGxheS10aXRsZSI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5kaXNwbGF5VGl0bGUiKSB9fQogICAgICAgIDwvTGFiZWw+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdi1pZj0iZGlhbG9nLm1hcHBpbmdGb3JtLnRhcmdldF90eXBlID09PSAncHJveHknIgogICAgICAgICAgdmFyaWFudD0ibGluayIKICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgZGF0YS1hZmZvcmRhbmNlPSJlZGl0IgogICAgICAgICAgY2xhc3M9ImgtYXV0byBwLTAgdGV4dC14cyIKICAgICAgICAgIDpkaXNhYmxlZD0iCiAgICAgICAgICAgICFkaWFsb2cuY2FuUmVmcmVzaE1hcHBpbmdNZXRhZGF0YSB8fAogICAgICAgICAgICBkaWFsb2cuaXNSZWZyZXNoaW5nTWFwcGluZ01ldGFkYXRhCiAgICAgICAgICAiCiAgICAgICAgICBAY2xpY2s9ImRpYWxvZy5yZWZyZXNoTWFwcGluZ01ldGFkYXRhIgogICAgICAgID4KICAgICAgICAgIDxSZWZyZXNoQ3cKICAgICAgICAgICAgdi1pZj0iZGlhbG9nLmlzUmVmcmVzaGluZ01hcHBpbmdNZXRhZGF0YSIKICAgICAgICAgICAgY2xhc3M9Im1yLTEgaC0zLjUgdy0zLjUgYW5pbWF0ZS1zcGluIgogICAgICAgICAgLz4KICAgICAgICAgIHt7CiAgICAgICAgICAgIGRpYWxvZy5pc1JlZnJlc2hpbmdNYXBwaW5nTWV0YWRhdGEKICAgICAgICAgICAgICA/IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnJlZnJlc2hpbmciKQogICAgICAgICAgICAgIDogdCgiYWRtaW4uc3ViZG9tYWluUHJveHkucmVmcmVzaFRpdGxlIikKICAgICAgICAgIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvZGl2PgogICAgICA8SW5wdXQKICAgICAgICBpZD0ibWFwcGluZy1kaXNwbGF5LXRpdGxlIgogICAgICAgIHYtbW9kZWw9InRpdGxlT3ZlcnJpZGVNb2RlbCIKICAgICAgICA6cGxhY2Vob2xkZXI9IgogICAgICAgICAgdCgKICAgICAgICAgICAgZGlhbG9nLm1hcHBpbmdGb3JtLnRhcmdldF90eXBlID09PSAncHJveHknCiAgICAgICAgICAgICAgPyAnYWRtaW4uc3ViZG9tYWluUHJveHkudGl0bGVBdXRvUGxhY2Vob2xkZXInCiAgICAgICAgICAgICAgOiAnYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUudGl0bGVQbGFjZWhvbGRlcicsCiAgICAgICAgICApCiAgICAgICAgIgogICAgICAvPgogICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIHt7CiAgICAgICAgICB0KAogICAgICAgICAgICBkaWFsb2cubWFwcGluZ0Zvcm0udGFyZ2V0X3R5cGUgPT09ICJwcm94eSIKICAgICAgICAgICAgICA/ICJhZG1pbi5zdWJkb21haW5Qcm94eS50aXRsZUhlbHAiCiAgICAgICAgICAgICAgOiAiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUudGl0bGVIaW50IiwKICAgICAgICAgICkKICAgICAgICB9fQogICAgICAgIDxzcGFuIHYtaWY9ImRpYWxvZy5tYXBwaW5nUmVzb2x2ZWRUaXRsZSI+CiAgICAgICAgICB7ewogICAgICAgICAgICB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5mZXRjaGVkVGl0bGUiLCB7CiAgICAgICAgICAgICAgdGl0bGU6IGRpYWxvZy5tYXBwaW5nUmVzb2x2ZWRUaXRsZSwKICAgICAgICAgICAgfSkKICAgICAgICAgIH19CiAgICAgICAgPC9zcGFuPgogICAgICAgIDxzcGFuIHYtZWxzZS1pZj0iZGlhbG9nLm1hcHBpbmdGb3JtLnRhcmdldC50cmltKCkiPgogICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkubm9GZXRjaGVkVGl0bGUiKSB9fQogICAgICAgIDwvc3Bhbj4KICAgICAgPC9wPgogICAgPC9kaXY+CgogICAgPFN1YmRvbWFpbk1hcHBpbmdJY29uRW50cnkKICAgICAgOmljb24tZWRpdG9yPSJkaWFsb2cuaWNvbkVkaXRvciIKICAgICAgOm9wZW4tZWRpdG9yPSJkaWFsb2cudmlzaWJpbGl0eUVkaXRvci5vcGVuSWNvblZpZXciCiAgICAvPgoKICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtMiBzbTpmbGV4LXJvdyBzbTppdGVtcy1zdGFydCBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEiPgogICAgICAgICAgPExhYmVsIGZvcj0ibWFwcGluZy1zdWJkb21haW4iPnt7IGRpYWxvZy5tYXBwaW5nSW5wdXRMYWJlbCB9fTwvTGFiZWw+CiAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyBkaWFsb2cubWFwcGluZ01vZGVEZXNjcmlwdGlvbiB9fQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYKICAgICAgICAgIHJvbGU9Imdyb3VwIgogICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLnN1YmRvbWFpblByb3h5Lmhvc3RJbnB1dE1vZGVBcmlhJykiCiAgICAgICAgICBjbGFzcz0iZ3JpZCB3LWZ1bGwgZ3JpZC1jb2xzLTIgcm91bmRlZC1sZyBiZy1tdXRlZCBwLVszcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTp3LVsyMTZweF0iCiAgICAgICAgPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIDphcmlhLXByZXNzZWQ9ImRpYWxvZy5tYXBwaW5nSW5wdXRNb2RlID09PSAnc3ViZG9tYWluJyIKICAgICAgICAgICAgOmRpc2FibGVkPSIhZGlhbG9nLmNhblVzZVJvb3REb21haW5TdWZmaXgiCiAgICAgICAgICAgIGNsYXNzPSJpbmxpbmUtZmxleCBoLTggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgcHgtMiB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRyYW5zaXRpb24tY29sb3JzIGZvY3VzLXZpc2libGU6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0yIGZvY3VzLXZpc2libGU6cmluZy1yaW5nIGRpc2FibGVkOnBvaW50ZXItZXZlbnRzLW5vbmUgZGlzYWJsZWQ6b3BhY2l0eS01MCIKICAgICAgICAgICAgOmNsYXNzPSIKICAgICAgICAgICAgICBkaWFsb2cubWFwcGluZ0lucHV0TW9kZSA9PT0gJ3N1YmRvbWFpbicKICAgICAgICAgICAgICAgID8gJ2JnLWJhY2tncm91bmQgdGV4dC1mb3JlZ3JvdW5kIHNoYWRvdy1zbScKICAgICAgICAgICAgICAgIDogJ2hvdmVyOnRleHQtZm9yZWdyb3VuZCcKICAgICAgICAgICAgIgogICAgICAgICAgICBAY2xpY2s9ImRpYWxvZy5oYW5kbGVJbnB1dE1vZGVDaGFuZ2UoJ3N1YmRvbWFpbicpIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5maXhlZFN1ZmZpeCIpIH19CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICA6YXJpYS1wcmVzc2VkPSJkaWFsb2cubWFwcGluZ0lucHV0TW9kZSA9PT0gJ2Z1bGxfaG9zdCciCiAgICAgICAgICAgIGNsYXNzPSJpbmxpbmUtZmxleCBoLTggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgcHgtMiB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRyYW5zaXRpb24tY29sb3JzIGZvY3VzLXZpc2libGU6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0yIGZvY3VzLXZpc2libGU6cmluZy1yaW5nIgogICAgICAgICAgICA6Y2xhc3M9IgogICAgICAgICAgICAgIGRpYWxvZy5tYXBwaW5nSW5wdXRNb2RlID09PSAnZnVsbF9ob3N0JwogICAgICAgICAgICAgICAgPyAnYmctYmFja2dyb3VuZCB0ZXh0LWZvcmVncm91bmQgc2hhZG93LXNtJwogICAgICAgICAgICAgICAgOiAnaG92ZXI6dGV4dC1mb3JlZ3JvdW5kJwogICAgICAgICAgICAiCiAgICAgICAgICAgIEBjbGljaz0iZGlhbG9nLmhhbmRsZUlucHV0TW9kZUNoYW5nZSgnZnVsbF9ob3N0JykiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmZ1bGxIb3N0IikgfX0KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPHRlbXBsYXRlIHYtaWY9ImRpYWxvZy5tYXBwaW5nSW5wdXRNb2RlID09PSAnc3ViZG9tYWluJyI+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1zdHJldGNoIHJvdW5kZWQtbWQgYm9yZGVyIj4KICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICBpZD0ibWFwcGluZy1zdWJkb21haW4iCiAgICAgICAgICAgIHYtbW9kZWw9Im1hcHBpbmdTdWJkb21haW5Nb2RlbCIKICAgICAgICAgICAgcGxhY2Vob2xkZXI9InJlZGlzIgogICAgICAgICAgICBjbGFzcz0icm91bmRlZC1ub25lIGJvcmRlci0wIHNoYWRvdy1ub25lIGZvY3VzLXZpc2libGU6cmluZy0wIgogICAgICAgICAgLz4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGJvcmRlci1sIGJnLW11dGVkLzMwIHB4LTMgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICA+CiAgICAgICAgICAgIC57eyBkaWFsb2cuc2F2ZWRSb290RG9tYWluIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuZmluYWxIb3N0IiwgewogICAgICAgICAgICAgIGhvc3Q6CiAgICAgICAgICAgICAgICBkaWFsb2cuY29tcG9zZWRQcmV2aWV3SG9zdCB8fAogICAgICAgICAgICAgICAgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkubm90RmlsbGVkIiksCiAgICAgICAgICAgIH0pCiAgICAgICAgICB9fQogICAgICAgIDwvcD4KICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPHRlbXBsYXRlIHYtZWxzZT4KICAgICAgICA8SW5wdXQKICAgICAgICAgIGlkPSJtYXBwaW5nLXN1YmRvbWFpbiIKICAgICAgICAgIHYtbW9kZWw9Im1hcHBpbmdTdWJkb21haW5Nb2RlbCIKICAgICAgICAgIHBsYWNlaG9sZGVyPSJhdXRoLm90aGVyLWRvbWFpbi5leGFtcGxlIgogICAgICAgIC8+CiAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7IGRpYWxvZy5mdWxsSG9zdElucHV0SGludCB9fQogICAgICAgIDwvcD4KICAgICAgPC90ZW1wbGF0ZT4KICAgIDwvZGl2PgoKICAgIDxTdWJkb21haW5NYXBwaW5nVGFyZ2V0RWRpdG9yCiAgICAgIDptYXBwaW5nLWZvcm09ImRpYWxvZy5tYXBwaW5nRm9ybSIKICAgICAgOmFsbG93LXRhcmdldC1wYXRoLW1vZGU9IiFkaWFsb2cuaXNNYXBwaW5nQXV0aFNlcnZpY2UiCiAgICAgIDpvcGVuPSJkaWFsb2cub3BlbiIKICAgICAgOnVwZGF0ZS1tYXBwaW5nLWZvcm09ImRpYWxvZy51cGRhdGVNYXBwaW5nRm9ybSIKICAgICAgQGJyb3dzZS1zdGF0aWMtcGF0aD0iZGlhbG9nLnBhdGhCcm93c2VyRWRpdG9yLm9wZW5QYXRoQnJvd3NlciIKICAgIC8+CiAgICA8U3ViZG9tYWluTWFwcGluZ0dyb3VwRmllbGQKICAgICAgdi1pZj0iZGlhbG9nLmdyb3Vwcy5sZW5ndGggPiAwICYmICFkaWFsb2cuaXNNYXBwaW5nQXV0aFNlcnZpY2UiCiAgICAgIDptb2RlbC12YWx1ZT0iZGlhbG9nLm1hcHBpbmdGb3JtLmdyb3VwX2lkIgogICAgICA6Z3JvdXBzPSJkaWFsb2cuZ3JvdXBzIgogICAgICA6ZGlzYWJsZWQ9ImRpYWxvZy5pc1NhdmluZ01hcHBpbmdzIgogICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJkaWFsb2cudXBkYXRlTWFwcGluZ0Zvcm0oeyBncm91cF9pZDogJGV2ZW50IH0pIgogICAgLz4KICAgIDxTdWJkb21haW5NYXBwaW5nQWR2YW5jZWRTZXR0aW5ncyA6ZGlhbG9nPSJkaWFsb2ciIC8+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { RefreshCw } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import SubdomainMappingAdvancedSettings from "./SubdomainMappingAdvancedSettings.vue";
+import SubdomainMappingGroupField from "./SubdomainMappingGroupField.vue";
+import SubdomainMappingIconEntry from "./SubdomainMappingIconEntry.vue";
+import SubdomainMappingTargetEditor from "./SubdomainMappingTargetEditor.vue";
+import type { SubdomainMappingDialogProps } from "./subdomain-mapping-dialog-contract";
+
+const { dialog } = defineProps<{ dialog: SubdomainMappingDialogProps }>();
+const { t } = useI18n();
+const titleOverrideModel = computed({
+  get: () => dialog.mappingForm.title_override,
+  set: (value: string) => dialog.updateMappingForm({ title_override: value }),
+});
+const mappingSubdomainModel = computed({
+  get: () => dialog.mappingSubdomain,
+  set: (value: string) => dialog.setMappingSubdomain(value),
+});
+</script>
+
+<template>
+  <div class="grid gap-4 pb-4 pt-6">
+    <div class="space-y-2">
+      <div class="flex items-center justify-between gap-3">
+        <Label for="mapping-display-title">
+          {{ t("admin.subdomainProxy.displayTitle") }}
+        </Label>
+        <Button
+          v-if="dialog.mappingForm.target_type === 'proxy'"
+          variant="link"
+          size="sm"
+          data-affordance="edit"
+          class="h-auto p-0 text-xs"
+          :disabled="
+            !dialog.canRefreshMappingMetadata ||
+            dialog.isRefreshingMappingMetadata
+          "
+          @click="dialog.refreshMappingMetadata"
+        >
+          <RefreshCw
+            v-if="dialog.isRefreshingMappingMetadata"
+            class="mr-1 h-3.5 w-3.5 animate-spin"
+          />
+          {{
+            dialog.isRefreshingMappingMetadata
+              ? t("admin.subdomainProxy.refreshing")
+              : t("admin.subdomainProxy.refreshTitle")
+          }}
+        </Button>
+      </div>
+      <Input
+        id="mapping-display-title"
+        v-model="titleOverrideModel"
+        :placeholder="
+          t(
+            dialog.mappingForm.target_type === 'proxy'
+              ? 'admin.subdomainProxy.titleAutoPlaceholder'
+              : 'admin.subdomainProxy.staticServe.titlePlaceholder',
+          )
+        "
+      />
+      <p class="text-xs text-muted-foreground">
+        {{
+          t(
+            dialog.mappingForm.target_type === "proxy"
+              ? "admin.subdomainProxy.titleHelp"
+              : "admin.subdomainProxy.staticServe.titleHint",
+          )
+        }}
+        <span v-if="dialog.mappingResolvedTitle">
+          {{
+            t("admin.subdomainProxy.fetchedTitle", {
+              title: dialog.mappingResolvedTitle,
+            })
+          }}
+        </span>
+        <span v-else-if="dialog.mappingForm.target.trim()">
+          {{ t("admin.subdomainProxy.noFetchedTitle") }}
+        </span>
+      </p>
+    </div>
+
+    <SubdomainMappingIconEntry
+      :icon-editor="dialog.iconEditor"
+      :open-editor="dialog.visibilityEditor.openIconView"
+    />
+
+    <div class="space-y-2">
+      <div
+        class="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between"
+      >
+        <div class="space-y-1">
+          <Label for="mapping-subdomain">{{ dialog.mappingInputLabel }}</Label>
+          <p class="text-xs text-muted-foreground">
+            {{ dialog.mappingModeDescription }}
+          </p>
+        </div>
+        <div
+          role="group"
+          :aria-label="t('admin.subdomainProxy.hostInputModeAria')"
+          class="grid w-full grid-cols-2 rounded-lg bg-muted p-[3px] text-muted-foreground sm:w-[216px]"
+        >
+          <button
+            type="button"
+            :aria-pressed="dialog.mappingInputMode === 'subdomain'"
+            :disabled="!dialog.canUseRootDomainSuffix"
+            class="inline-flex h-8 items-center justify-center rounded-md px-2 text-xs font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+            :class="
+              dialog.mappingInputMode === 'subdomain'
+                ? 'bg-background text-foreground shadow-sm'
+                : 'hover:text-foreground'
+            "
+            @click="dialog.handleInputModeChange('subdomain')"
+          >
+            {{ t("admin.subdomainProxy.fixedSuffix") }}
+          </button>
+          <button
+            type="button"
+            :aria-pressed="dialog.mappingInputMode === 'full_host'"
+            class="inline-flex h-8 items-center justify-center rounded-md px-2 text-xs font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            :class="
+              dialog.mappingInputMode === 'full_host'
+                ? 'bg-background text-foreground shadow-sm'
+                : 'hover:text-foreground'
+            "
+            @click="dialog.handleInputModeChange('full_host')"
+          >
+            {{ t("admin.subdomainProxy.fullHost") }}
+          </button>
+        </div>
+      </div>
+      <template v-if="dialog.mappingInputMode === 'subdomain'">
+        <div class="flex items-stretch rounded-md border">
+          <Input
+            id="mapping-subdomain"
+            v-model="mappingSubdomainModel"
+            placeholder="redis"
+            class="rounded-none border-0 shadow-none focus-visible:ring-0"
+          />
+          <div
+            class="flex items-center border-l bg-muted/30 px-3 text-sm text-muted-foreground"
+          >
+            .{{ dialog.savedRootDomain }}
+          </div>
+        </div>
+        <p class="text-xs text-muted-foreground">
+          {{
+            t("admin.subdomainProxy.finalHost", {
+              host:
+                dialog.composedPreviewHost ||
+                t("admin.subdomainProxy.notFilled"),
+            })
+          }}
+        </p>
+      </template>
+      <template v-else>
+        <Input
+          id="mapping-subdomain"
+          v-model="mappingSubdomainModel"
+          placeholder="auth.other-domain.example"
+        />
+        <p class="text-xs text-muted-foreground">
+          {{ dialog.fullHostInputHint }}
+        </p>
+      </template>
+    </div>
+
+    <SubdomainMappingTargetEditor
+      :mapping-form="dialog.mappingForm"
+      :allow-target-path-mode="!dialog.isMappingAuthService"
+      :open="dialog.open"
+      :update-mapping-form="dialog.updateMappingForm"
+      @browse-static-path="dialog.pathBrowserEditor.openPathBrowser"
+    />
+    <SubdomainMappingGroupField
+      v-if="dialog.groups.length > 0 && !dialog.isMappingAuthService"
+      :model-value="dialog.mappingForm.group_id"
+      :groups="dialog.groups"
+      :disabled="dialog.isSavingMappings"
+      @update:model-value="dialog.updateMappingForm({ group_id: $event })"
+    />
+    <SubdomainMappingAdvancedSettings :dialog="dialog" />
+  </div>
+</template>

@@ -1,1 +1,59 @@
-ZXhwb3J0IGNvbnN0IERPQ0tFUl9BRE1JTl9QQVNTV09SRF9NSU5fQllURVMgPSA2OwpleHBvcnQgY29uc3QgRE9DS0VSX0FETUlOX1BBU1NXT1JEX01BWF9CWVRFUyA9IDEyODsKCmV4cG9ydCB0eXBlIERvY2tlckFkbWluUGFzc3dvcmRWYWxpZGF0aW9uRXJyb3IgPQogIHwgInRvb1Nob3J0IgogIHwgInRvb0xvbmciCiAgfCAiY29udGFpbnNXaGl0ZXNwYWNlIgogIHwgIm1pc3NpbmdMZXR0ZXJPck51bWJlciI7CgpleHBvcnQgY29uc3QgZG9ja2VyQWRtaW5QYXNzd29yZFZhbGlkYXRpb25NZXNzYWdlS2V5cyA9IHsKICB0b29TaG9ydDogImFkbWluLmRvY2tlckFkbWluLnBhc3N3b3JkTWluIiwKICB0b29Mb25nOiAiYWRtaW4uZG9ja2VyQWRtaW4ucGFzc3dvcmRNYXgiLAogIGNvbnRhaW5zV2hpdGVzcGFjZTogImFkbWluLmRvY2tlckFkbWluLnBhc3N3b3JkTm9XaGl0ZXNwYWNlIiwKICBtaXNzaW5nTGV0dGVyT3JOdW1iZXI6ICJhZG1pbi5kb2NrZXJBZG1pbi5wYXNzd29yZFJlcXVpcmVMZXR0ZXJOdW1iZXIiLAp9IGFzIGNvbnN0IHNhdGlzZmllcyBSZWNvcmQ8RG9ja2VyQWRtaW5QYXNzd29yZFZhbGlkYXRpb25FcnJvciwgc3RyaW5nPjsKCmNvbnN0IHRleHRFbmNvZGVyID0gbmV3IFRleHRFbmNvZGVyKCk7Cgpjb25zdCBpc0RvY2tlckFkbWluUGFzc3dvcmRXaGl0ZXNwYWNlID0gKGNoYXJhY3Rlcjogc3RyaW5nKSA9PiB7CiAgY29uc3QgY29kZVBvaW50ID0gY2hhcmFjdGVyLmNvZGVQb2ludEF0KDApOwogIHJldHVybiAoCiAgICBjb2RlUG9pbnQgIT09IHVuZGVmaW5lZCAmJgogICAgKChjb2RlUG9pbnQgPj0gMHgwMDA5ICYmIGNvZGVQb2ludCA8PSAweDAwMGQpIHx8CiAgICAgIGNvZGVQb2ludCA9PT0gMHgwMDIwIHx8CiAgICAgIGNvZGVQb2ludCA9PT0gMHgwMDg1IHx8CiAgICAgIGNvZGVQb2ludCA9PT0gMHgwMGEwIHx8CiAgICAgIGNvZGVQb2ludCA9PT0gMHgxNjgwIHx8CiAgICAgIChjb2RlUG9pbnQgPj0gMHgyMDAwICYmIGNvZGVQb2ludCA8PSAweDIwMGEpIHx8CiAgICAgIGNvZGVQb2ludCA9PT0gMHgyMDI4IHx8CiAgICAgIGNvZGVQb2ludCA9PT0gMHgyMDI5IHx8CiAgICAgIGNvZGVQb2ludCA9PT0gMHgyMDJmIHx8CiAgICAgIGNvZGVQb2ludCA9PT0gMHgyMDVmIHx8CiAgICAgIGNvZGVQb2ludCA9PT0gMHgzMDAwKQogICk7Cn07CgpleHBvcnQgY29uc3QgZ2V0RG9ja2VyQWRtaW5QYXNzd29yZEJ5dGVMZW5ndGggPSAocGFzc3dvcmQ6IHN0cmluZykgPT4KICB0ZXh0RW5jb2Rlci5lbmNvZGUocGFzc3dvcmQpLmJ5dGVMZW5ndGg7CgpleHBvcnQgY29uc3QgdmFsaWRhdGVEb2NrZXJBZG1pblBhc3N3b3JkID0gKAogIHBhc3N3b3JkOiBzdHJpbmcsCik6IERvY2tlckFkbWluUGFzc3dvcmRWYWxpZGF0aW9uRXJyb3IgfCBudWxsID0+IHsKICBjb25zdCBieXRlTGVuZ3RoID0gZ2V0RG9ja2VyQWRtaW5QYXNzd29yZEJ5dGVMZW5ndGgocGFzc3dvcmQpOwoKICBpZiAoYnl0ZUxlbmd0aCA8IERPQ0tFUl9BRE1JTl9QQVNTV09SRF9NSU5fQllURVMpIHsKICAgIHJldHVybiAidG9vU2hvcnQiOwogIH0KICBpZiAoYnl0ZUxlbmd0aCA+IERPQ0tFUl9BRE1JTl9QQVNTV09SRF9NQVhfQllURVMpIHsKICAgIHJldHVybiAidG9vTG9uZyI7CiAgfQogIGlmIChBcnJheS5mcm9tKHBhc3N3b3JkKS5zb21lKGlzRG9ja2VyQWRtaW5QYXNzd29yZFdoaXRlc3BhY2UpKSB7CiAgICByZXR1cm4gImNvbnRhaW5zV2hpdGVzcGFjZSI7CiAgfQogIGlmICghL1tBLVphLXpdL3UudGVzdChwYXNzd29yZCkgfHwgIS9cZC91LnRlc3QocGFzc3dvcmQpKSB7CiAgICByZXR1cm4gIm1pc3NpbmdMZXR0ZXJPck51bWJlciI7CiAgfQoKICByZXR1cm4gbnVsbDsKfTsK
+export const DOCKER_ADMIN_PASSWORD_MIN_BYTES = 6;
+export const DOCKER_ADMIN_PASSWORD_MAX_BYTES = 128;
+
+export type DockerAdminPasswordValidationError =
+  | "tooShort"
+  | "tooLong"
+  | "containsWhitespace"
+  | "missingLetterOrNumber";
+
+export const dockerAdminPasswordValidationMessageKeys = {
+  tooShort: "admin.dockerAdmin.passwordMin",
+  tooLong: "admin.dockerAdmin.passwordMax",
+  containsWhitespace: "admin.dockerAdmin.passwordNoWhitespace",
+  missingLetterOrNumber: "admin.dockerAdmin.passwordRequireLetterNumber",
+} as const satisfies Record<DockerAdminPasswordValidationError, string>;
+
+const textEncoder = new TextEncoder();
+
+const isDockerAdminPasswordWhitespace = (character: string) => {
+  const codePoint = character.codePointAt(0);
+  return (
+    codePoint !== undefined &&
+    ((codePoint >= 0x0009 && codePoint <= 0x000d) ||
+      codePoint === 0x0020 ||
+      codePoint === 0x0085 ||
+      codePoint === 0x00a0 ||
+      codePoint === 0x1680 ||
+      (codePoint >= 0x2000 && codePoint <= 0x200a) ||
+      codePoint === 0x2028 ||
+      codePoint === 0x2029 ||
+      codePoint === 0x202f ||
+      codePoint === 0x205f ||
+      codePoint === 0x3000)
+  );
+};
+
+export const getDockerAdminPasswordByteLength = (password: string) =>
+  textEncoder.encode(password).byteLength;
+
+export const validateDockerAdminPassword = (
+  password: string,
+): DockerAdminPasswordValidationError | null => {
+  const byteLength = getDockerAdminPasswordByteLength(password);
+
+  if (byteLength < DOCKER_ADMIN_PASSWORD_MIN_BYTES) {
+    return "tooShort";
+  }
+  if (byteLength > DOCKER_ADMIN_PASSWORD_MAX_BYTES) {
+    return "tooLong";
+  }
+  if (Array.from(password).some(isDockerAdminPasswordWhitespace)) {
+    return "containsWhitespace";
+  }
+  if (!/[A-Za-z]/u.test(password) || !/\d/u.test(password)) {
+    return "missingLetterOrNumber";
+  }
+
+  return null;
+};

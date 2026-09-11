@@ -1,1 +1,231 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgdHlwZSB7CiAgQXV0aEFjY291bnQsCiAgQXV0aExvZ2luTW9kZSwKICBBdXRoTG9naW5Nb2RlUHJldmlldywKfSBmcm9tICIuLi8uLi90eXBlcyI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBvcGVuOiBib29sZWFuOwogIGN1cnJlbnRNb2RlOiBBdXRoTG9naW5Nb2RlOwogIGFjY291bnRzOiBBdXRoQWNjb3VudFtdOwogIHByZXZpZXc6IEF1dGhMb2dpbk1vZGVQcmV2aWV3IHwgbnVsbDsKICBpc1ByZXZpZXdpbmc6IGJvb2xlYW47CiAgaXNTd2l0Y2hpbmc6IGJvb2xlYW47Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICJ1cGRhdGU6b3BlbiI6IFt2YWx1ZTogYm9vbGVhbl07CiAgY29uZmlybTogW107CiAgImJpbmQtdG90cCI6IFthY2NvdW50OiBBdXRoQWNjb3VudF07CiAgImVkaXQtYWNjb3VudCI6IFthY2NvdW50OiBBdXRoQWNjb3VudF07CiAgInNldC1wYXNzd29yZCI6IFthY2NvdW50OiBBdXRoQWNjb3VudF07Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IGRpYWxvZ09wZW4gPSBjb21wdXRlZCh7CiAgZ2V0OiAoKSA9PiBwcm9wcy5vcGVuLAogIHNldDogKHZhbHVlKSA9PiBlbWl0KCJ1cGRhdGU6b3BlbiIsIHZhbHVlKSwKfSk7Cgpjb25zdCB0YXJnZXRNb2RlTGFiZWwgPSBjb21wdXRlZCgoKSA9PgogIHByb3BzLmN1cnJlbnRNb2RlID09PSAidG90cCIKICAgID8gdCgiYWRtaW4uYXV0aFNldHRpbmdzLnBhc3N3b3JkTG9naW5Nb2RlIikKICAgIDogdCgiYWRtaW4uYXV0aFNldHRpbmdzLnRvdHBMb2dpbk1vZGUiKSwKKTsKCmNvbnN0IGlzU3dpdGNoaW5nVG9QYXNzd29yZCA9IGNvbXB1dGVkKCgpID0+IHByb3BzLmN1cnJlbnRNb2RlID09PSAidG90cCIpOwpjb25zdCBpc1N3aXRjaGluZ1RvVG90cCA9IGNvbXB1dGVkKCgpID0+IHByb3BzLmN1cnJlbnRNb2RlID09PSAicGFzc3dvcmQiKTsKY29uc3QgYWNjb3VudHNOZWVkaW5nUGFzc3dvcmQgPSBjb21wdXRlZCgoKSA9PgogIHByb3BzLmFjY291bnRzLmZpbHRlcigoYWNjb3VudCkgPT4gIWFjY291bnQucGFzc3dvcmRDb25maWd1cmVkKSwKKTsKY29uc3QgYWNjb3VudHNOZWVkaW5nVG90cCA9IGNvbXB1dGVkKCgpID0+CiAgcHJvcHMuYWNjb3VudHMuZmlsdGVyKChhY2NvdW50KSA9PiAhYWNjb3VudC50b3RwQ29uZmlndXJlZCksCik7CmNvbnN0IHNob3VsZFNob3dQYXNzd29yZFByZXBhcmF0aW9uID0gY29tcHV0ZWQoCiAgKCkgPT4gaXNTd2l0Y2hpbmdUb1Bhc3N3b3JkLnZhbHVlICYmIGFjY291bnRzTmVlZGluZ1Bhc3N3b3JkLnZhbHVlLmxlbmd0aCA+IDAsCik7CmNvbnN0IHNob3VsZFNob3dUb3RwUHJlcGFyYXRpb24gPSBjb21wdXRlZCgKICAoKSA9PiBpc1N3aXRjaGluZ1RvVG90cC52YWx1ZSAmJiBhY2NvdW50c05lZWRpbmdUb3RwLnZhbHVlLmxlbmd0aCA+IDAsCik7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgdi1tb2RlbDpvcGVuPSJkaWFsb2dPcGVuIj4KICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJtYXgtaC1bODh2aF0gb3ZlcmZsb3cteS1hdXRvIHNtOm1heC13LVs1MjBweF0iPgogICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgIDxEaWFsb2dUaXRsZT4KICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5zd2l0Y2hBdXRoTW9kZVRpdGxlIikgfX0KICAgICAgICA8L0RpYWxvZ1RpdGxlPgogICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHQoImFkbWluLmF1dGhTZXR0aW5ncy5zd2l0Y2hBdXRoTW9kZURlc2NyaXB0aW9uIiwgewogICAgICAgICAgICAgIG1vZGU6IHRhcmdldE1vZGVMYWJlbCwKICAgICAgICAgICAgfSkKICAgICAgICAgIH19CiAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgPC9EaWFsb2dIZWFkZXI+CgogICAgICA8ZGl2IHYtaWY9ImlzUHJldmlld2luZyIgY2xhc3M9InNwYWNlLXktMyI+CiAgICAgICAgPGRpdiBjbGFzcz0iaC0xMCBhbmltYXRlLXB1bHNlIHJvdW5kZWQtbWQgYmctbXV0ZWQiPjwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImgtMjAgYW5pbWF0ZS1wdWxzZSByb3VuZGVkLW1kIGJnLW11dGVkIj48L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgdi1lbHNlLWlmPSJwcmV2aWV3IiBjbGFzcz0ic3BhY2UteS0zIHRleHQtc20iPgogICAgICAgIDxwCiAgICAgICAgICB2LWlmPSJwcmV2aWV3LnBhc3N3b3JkUmVxdWlyZWRCZWZvcmVTd2l0Y2giCiAgICAgICAgICBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWRlc3RydWN0aXZlLzMwIGJnLWRlc3RydWN0aXZlLzEwIHB4LTMgcHktMiB0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgID4KICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5wcmV2aWV3UGFzc3dvcmRSZXF1aXJlZEJlZm9yZVN3aXRjaCIpIH19CiAgICAgICAgPC9wPgogICAgICAgIDxwCiAgICAgICAgICB2LWVsc2UtaWY9InByZXZpZXcubWlzc2luZ1NvdXJjZVRvdHBDb3VudCIKICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLW1kIGJvcmRlciBib3JkZXItZGVzdHJ1Y3RpdmUvMzAgYmctZGVzdHJ1Y3RpdmUvMTAgcHgtMyBweS0yIHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgiYWRtaW4uYXV0aFNldHRpbmdzLnByZXZpZXdUb3RwUmVxdWlyZWRCZWZvcmVTd2l0Y2giLCB7CiAgICAgICAgICAgICAgY291bnQ6IHByZXZpZXcubWlzc2luZ1NvdXJjZVRvdHBDb3VudCwKICAgICAgICAgICAgfSkKICAgICAgICAgIH19CiAgICAgICAgPC9wPgogICAgICAgIDxwCiAgICAgICAgICB2LWVsc2UtaWY9InByZXZpZXcuYmxvY2tpbmdJc3N1ZUNvdW50IgogICAgICAgICAgY2xhc3M9InJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1kZXN0cnVjdGl2ZS8zMCBiZy1kZXN0cnVjdGl2ZS8xMCBweC0zIHB5LTIgdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICA+CiAgICAgICAgICB7ewogICAgICAgICAgICB0KCJhZG1pbi5hdXRoU2V0dGluZ3MucHJldmlld0Jsb2NraW5nSXNzdWVzIiwgewogICAgICAgICAgICAgIGNvdW50OiBwcmV2aWV3LmJsb2NraW5nSXNzdWVDb3VudCwKICAgICAgICAgICAgfSkKICAgICAgICAgIH19CiAgICAgICAgPC9wPgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9InNob3VsZFNob3dQYXNzd29yZFByZXBhcmF0aW9uIgogICAgICAgICAgY2xhc3M9Im92ZXJmbG93LWhpZGRlbiByb3VuZGVkLW1kIGJvcmRlciIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJib3JkZXItYiBiZy1tdXRlZC8yMCBweC0zIHB5LTIiPgogICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgIDxwIGNsYXNzPSJmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MucGFzc3dvcmRBY2NvdW50c1ByZXBhcmF0aW9uVGl0bGUiKSB9fQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8cCBjbGFzcz0ibXQtMSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICB0KCJhZG1pbi5hdXRoU2V0dGluZ3MucGFzc3dvcmRBY2NvdW50c1ByZXBhcmF0aW9uRGVzY3JpcHRpb24iKQogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJkaXZpZGUteSI+CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICB2LWZvcj0iYWNjb3VudCBpbiBhY2NvdW50c05lZWRpbmdQYXNzd29yZCIKICAgICAgICAgICAgICA6a2V5PSJhY2NvdW50LmlkIgogICAgICAgICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIHB4LTMgcHktMyBzbTpmbGV4LXJvdyBzbTppdGVtcy1jZW50ZXIgc206anVzdGlmeS1iZXR3ZWVuIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCI+CiAgICAgICAgICAgICAgICA8cCBjbGFzcz0idHJ1bmNhdGUgZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgICB7eyBhY2NvdW50LnVzZXJuYW1lIH19CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8cCBjbGFzcz0idHJ1bmNhdGUgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICB7eyBhY2NvdW50LnNvdXJjZVRvdHBOYW1lIHx8IGFjY291bnQuc291cmNlVG90cElkIH19CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBzaHJpbmstMCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9ImRlc3RydWN0aXZlIj4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLnBhc3N3b3JkVW5zZXQiKSB9fQogICAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNTd2l0Y2hpbmciCiAgICAgICAgICAgICAgICAgIEBjbGljaz0iZW1pdCgnc2V0LXBhc3N3b3JkJywgYWNjb3VudCkiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5zZXRQYXNzd29yZCIpIH19CiAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2CiAgICAgICAgICB2LWlmPSJzaG91bGRTaG93VG90cFByZXBhcmF0aW9uIgogICAgICAgICAgY2xhc3M9Im92ZXJmbG93LWhpZGRlbiByb3VuZGVkLW1kIGJvcmRlciIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJib3JkZXItYiBiZy1tdXRlZC8yMCBweC0zIHB5LTIiPgogICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgIDxwIGNsYXNzPSJmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MudG90cEFjY291bnRzUHJlcGFyYXRpb25UaXRsZSIpIH19CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDxwIGNsYXNzPSJtdC0xIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy50b3RwQWNjb3VudHNQcmVwYXJhdGlvbkRlc2NyaXB0aW9uIikgfX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJkaXZpZGUteSI+CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICB2LWZvcj0iYWNjb3VudCBpbiBhY2NvdW50c05lZWRpbmdUb3RwIgogICAgICAgICAgICAgIDprZXk9ImFjY291bnQuaWQiCiAgICAgICAgICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTMgcHgtMyBweS0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIj4KICAgICAgICAgICAgICAgIDxwIGNsYXNzPSJ0cnVuY2F0ZSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICAgIHt7IGFjY291bnQudXNlcm5hbWUgfX0KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgIDxwIGNsYXNzPSJ0cnVuY2F0ZSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy50b3RwVW5hdmFpbGFibGVIaW50IikgfX0KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IHNocmluay0wIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICA8QmFkZ2UgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MudG90cE1pc3NpbmciKSB9fQogICAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNTd2l0Y2hpbmciCiAgICAgICAgICAgICAgICAgIEBjbGljaz0iZW1pdCgnYmluZC10b3RwJywgYWNjb3VudCkiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5iaW5kVG90cCIpIH19CiAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8RGlhbG9nRm9vdGVyIGNsYXNzPSJnYXAtMiI+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNQcmV2aWV3aW5nIHx8IGlzU3dpdGNoaW5nIgogICAgICAgICAgQGNsaWNrPSJkaWFsb2dPcGVuID0gZmFsc2UiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLmNhbmNlbCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgaXNQcmV2aWV3aW5nIHx8CiAgICAgICAgICAgIGlzU3dpdGNoaW5nIHx8CiAgICAgICAgICAgICFwcmV2aWV3IHx8CiAgICAgICAgICAgIHByZXZpZXcuYmxvY2tpbmdJc3N1ZUNvdW50ID4gMAogICAgICAgICAgIgogICAgICAgICAgQGNsaWNrPSJlbWl0KCdjb25maXJtJykiCiAgICAgICAgPgogICAgICAgICAgPHNwYW4KICAgICAgICAgICAgdi1pZj0iaXNTd2l0Y2hpbmciCiAgICAgICAgICAgIGNsYXNzPSJtci0yIGgtNCB3LTQgYW5pbWF0ZS1zcGluIHJvdW5kZWQtZnVsbCBib3JkZXItMiBib3JkZXItYmFja2dyb3VuZCBib3JkZXItdC1mb3JlZ3JvdW5kIgogICAgICAgICAgPjwvc3Bhbj4KICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5jb25maXJtU3dpdGNoQXV0aE1vZGUiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgIDwvRGlhbG9nQ29udGVudD4KICA8L0RpYWxvZz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import type {
+  AuthAccount,
+  AuthLoginMode,
+  AuthLoginModePreview,
+} from "../../types";
+
+const props = defineProps<{
+  open: boolean;
+  currentMode: AuthLoginMode;
+  accounts: AuthAccount[];
+  preview: AuthLoginModePreview | null;
+  isPreviewing: boolean;
+  isSwitching: boolean;
+}>();
+
+const emit = defineEmits<{
+  "update:open": [value: boolean];
+  confirm: [];
+  "bind-totp": [account: AuthAccount];
+  "edit-account": [account: AuthAccount];
+  "set-password": [account: AuthAccount];
+}>();
+
+const { t } = useI18n();
+
+const dialogOpen = computed({
+  get: () => props.open,
+  set: (value) => emit("update:open", value),
+});
+
+const targetModeLabel = computed(() =>
+  props.currentMode === "totp"
+    ? t("admin.authSettings.passwordLoginMode")
+    : t("admin.authSettings.totpLoginMode"),
+);
+
+const isSwitchingToPassword = computed(() => props.currentMode === "totp");
+const isSwitchingToTotp = computed(() => props.currentMode === "password");
+const accountsNeedingPassword = computed(() =>
+  props.accounts.filter((account) => !account.passwordConfigured),
+);
+const accountsNeedingTotp = computed(() =>
+  props.accounts.filter((account) => !account.totpConfigured),
+);
+const shouldShowPasswordPreparation = computed(
+  () => isSwitchingToPassword.value && accountsNeedingPassword.value.length > 0,
+);
+const shouldShowTotpPreparation = computed(
+  () => isSwitchingToTotp.value && accountsNeedingTotp.value.length > 0,
+);
+</script>
+
+<template>
+  <Dialog v-model:open="dialogOpen">
+    <DialogContent class="max-h-[88vh] overflow-y-auto sm:max-w-[520px]">
+      <DialogHeader>
+        <DialogTitle>
+          {{ t("admin.authSettings.switchAuthModeTitle") }}
+        </DialogTitle>
+        <DialogDescription>
+          {{
+            t("admin.authSettings.switchAuthModeDescription", {
+              mode: targetModeLabel,
+            })
+          }}
+        </DialogDescription>
+      </DialogHeader>
+
+      <div v-if="isPreviewing" class="space-y-3">
+        <div class="h-10 animate-pulse rounded-md bg-muted"></div>
+        <div class="h-20 animate-pulse rounded-md bg-muted"></div>
+      </div>
+      <div v-else-if="preview" class="space-y-3 text-sm">
+        <p
+          v-if="preview.passwordRequiredBeforeSwitch"
+          class="rounded-md border border-destructive/30 bg-destructive/10 px-3 py-2 text-destructive"
+        >
+          {{ t("admin.authSettings.previewPasswordRequiredBeforeSwitch") }}
+        </p>
+        <p
+          v-else-if="preview.missingSourceTotpCount"
+          class="rounded-md border border-destructive/30 bg-destructive/10 px-3 py-2 text-destructive"
+        >
+          {{
+            t("admin.authSettings.previewTotpRequiredBeforeSwitch", {
+              count: preview.missingSourceTotpCount,
+            })
+          }}
+        </p>
+        <p
+          v-else-if="preview.blockingIssueCount"
+          class="rounded-md border border-destructive/30 bg-destructive/10 px-3 py-2 text-destructive"
+        >
+          {{
+            t("admin.authSettings.previewBlockingIssues", {
+              count: preview.blockingIssueCount,
+            })
+          }}
+        </p>
+        <div
+          v-if="shouldShowPasswordPreparation"
+          class="overflow-hidden rounded-md border"
+        >
+          <div class="border-b bg-muted/20 px-3 py-2">
+            <div>
+              <p class="font-medium">
+                {{ t("admin.authSettings.passwordAccountsPreparationTitle") }}
+              </p>
+              <p class="mt-1 text-xs text-muted-foreground">
+                {{
+                  t("admin.authSettings.passwordAccountsPreparationDescription")
+                }}
+              </p>
+            </div>
+          </div>
+          <div class="divide-y">
+            <div
+              v-for="account in accountsNeedingPassword"
+              :key="account.id"
+              class="flex flex-col gap-3 px-3 py-3 sm:flex-row sm:items-center sm:justify-between"
+            >
+              <div class="min-w-0">
+                <p class="truncate font-medium">
+                  {{ account.username }}
+                </p>
+                <p class="truncate text-xs text-muted-foreground">
+                  {{ account.sourceTotpName || account.sourceTotpId }}
+                </p>
+              </div>
+              <div class="flex shrink-0 items-center gap-2">
+                <Badge variant="destructive">
+                  {{ t("admin.authSettings.passwordUnset") }}
+                </Badge>
+                <Button
+                  size="sm"
+                  variant="outline"
+                  :disabled="isSwitching"
+                  @click="emit('set-password', account)"
+                >
+                  {{ t("admin.authSettings.setPassword") }}
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          v-if="shouldShowTotpPreparation"
+          class="overflow-hidden rounded-md border"
+        >
+          <div class="border-b bg-muted/20 px-3 py-2">
+            <div>
+              <p class="font-medium">
+                {{ t("admin.authSettings.totpAccountsPreparationTitle") }}
+              </p>
+              <p class="mt-1 text-xs text-muted-foreground">
+                {{ t("admin.authSettings.totpAccountsPreparationDescription") }}
+              </p>
+            </div>
+          </div>
+          <div class="divide-y">
+            <div
+              v-for="account in accountsNeedingTotp"
+              :key="account.id"
+              class="flex flex-col gap-3 px-3 py-3 sm:flex-row sm:items-center sm:justify-between"
+            >
+              <div class="min-w-0">
+                <p class="truncate font-medium">
+                  {{ account.username }}
+                </p>
+                <p class="truncate text-xs text-muted-foreground">
+                  {{ t("admin.authSettings.totpUnavailableHint") }}
+                </p>
+              </div>
+              <div class="flex shrink-0 items-center gap-2">
+                <Badge variant="destructive">
+                  {{ t("admin.authSettings.totpMissing") }}
+                </Badge>
+                <Button
+                  size="sm"
+                  variant="outline"
+                  :disabled="isSwitching"
+                  @click="emit('bind-totp', account)"
+                >
+                  {{ t("admin.authSettings.bindTotp") }}
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <DialogFooter class="gap-2">
+        <Button
+          variant="outline"
+          :disabled="isPreviewing || isSwitching"
+          @click="dialogOpen = false"
+        >
+          {{ t("admin.authSettings.cancel") }}
+        </Button>
+        <Button
+          :disabled="
+            isPreviewing ||
+            isSwitching ||
+            !preview ||
+            preview.blockingIssueCount > 0
+          "
+          @click="emit('confirm')"
+        >
+          <span
+            v-if="isSwitching"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          ></span>
+          {{ t("admin.authSettings.confirmSwitchAuthMode") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

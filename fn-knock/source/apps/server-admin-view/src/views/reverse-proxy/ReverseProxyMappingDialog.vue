@@ -1,1 +1,160 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IFN3aXRjaCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9zd2l0Y2giOwppbXBvcnQgUHJveHlUYXJnZXRJbnB1dEZpZWxkIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vUHJveHlUYXJnZXRJbnB1dEZpZWxkLnZ1ZSI7CmltcG9ydCB0eXBlIHsgUHJveHlNYXBwaW5nIH0gZnJvbSAiQC90eXBlcyI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBmb3JtOiBQcm94eU1hcHBpbmc7CiAgaXNFZGl0aW5nOiBib29sZWFuOwogIGlzU2F2aW5nOiBib29sZWFuOwogIGlzVmFsaWQ6IGJvb2xlYW47CiAgaXNXZWJTb2NrZXRUYXJnZXQ6IGJvb2xlYW47CiAgb3BlbjogYm9vbGVhbjsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgY2xvc2U6IFtdOwogIHNhdmU6IFtdOwogICJ1cGRhdGU6b3BlbiI6IFtvcGVuOiBib29sZWFuXTsKICB1cGRhdGVGb3JtOiBbcGF0Y2g6IFBhcnRpYWw8UHJveHlNYXBwaW5nPl07Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IHBhdGhNb2RlbCA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IHByb3BzLmZvcm0ucGF0aCwKICBzZXQ6IChwYXRoOiBzdHJpbmcpID0+IGVtaXQoInVwZGF0ZUZvcm0iLCB7IHBhdGggfSksCn0pOwoKY29uc3QgdGFyZ2V0TW9kZWwgPSBjb21wdXRlZCh7CiAgZ2V0OiAoKSA9PiBwcm9wcy5mb3JtLnRhcmdldCwKICBzZXQ6ICh0YXJnZXQ6IHN0cmluZykgPT4gZW1pdCgidXBkYXRlRm9ybSIsIHsgdGFyZ2V0IH0pLAp9KTsKCmNvbnN0IHJld3JpdGVIdG1sTW9kZWwgPSBjb21wdXRlZCh7CiAgZ2V0OiAoKSA9PiBwcm9wcy5mb3JtLnJld3JpdGVfaHRtbCwKICBzZXQ6IChyZXdyaXRlSHRtbDogYm9vbGVhbikgPT4KICAgIGVtaXQoInVwZGF0ZUZvcm0iLCB7IHJld3JpdGVfaHRtbDogcmV3cml0ZUh0bWwgfSksCn0pOwoKY29uc3QgdXNlQXV0aE1vZGVsID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcHJvcHMuZm9ybS51c2VfYXV0aCwKICBzZXQ6ICh1c2VBdXRoOiBib29sZWFuKSA9PiBlbWl0KCJ1cGRhdGVGb3JtIiwgeyB1c2VfYXV0aDogdXNlQXV0aCB9KSwKfSk7Cgpjb25zdCB1c2VSb290TW9kZU1vZGVsID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcHJvcHMuZm9ybS51c2Vfcm9vdF9tb2RlLAogIHNldDogKHVzZVJvb3RNb2RlOiBib29sZWFuKSA9PgogICAgZW1pdCgidXBkYXRlRm9ybSIsIHsgdXNlX3Jvb3RfbW9kZTogdXNlUm9vdE1vZGUgfSksCn0pOwoKY29uc3Qgc3RyaXBQYXRoTW9kZWwgPSBjb21wdXRlZCh7CiAgZ2V0OiAoKSA9PiBwcm9wcy5mb3JtLnN0cmlwX3BhdGgsCiAgc2V0OiAoc3RyaXBQYXRoOiBib29sZWFuKSA9PiBlbWl0KCJ1cGRhdGVGb3JtIiwgeyBzdHJpcF9wYXRoOiBzdHJpcFBhdGggfSksCn0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nIDpvcGVuPSJvcGVuIiBAdXBkYXRlOm9wZW49ImVtaXQoJ3VwZGF0ZTpvcGVuJywgJGV2ZW50KSI+CiAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ic206bWF4LXctWzQyNXB4XSI+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPgogICAgICAgICAge3sKICAgICAgICAgICAgaXNFZGl0aW5nCiAgICAgICAgICAgICAgPyB0KCJhZG1pbi5yZXZlcnNlUHJveHkuZWRpdFRpdGxlIikKICAgICAgICAgICAgICA6IHQoImFkbWluLnJldmVyc2VQcm94eS5hZGRUaXRsZSIpCiAgICAgICAgICB9fQogICAgICAgIDwvRGlhbG9nVGl0bGU+CiAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAge3sKICAgICAgICAgICAgaXNFZGl0aW5nCiAgICAgICAgICAgICAgPyB0KCJhZG1pbi5yZXZlcnNlUHJveHkuZWRpdERlc2NyaXB0aW9uIikKICAgICAgICAgICAgICA6IHQoImFkbWluLnJldmVyc2VQcm94eS5hZGREZXNjcmlwdGlvbiIpCiAgICAgICAgICB9fQogICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgogICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC00IHB5LTQiPgogICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ3JpZC1jb2xzLTQgaXRlbXMtY2VudGVyIGdhcC00Ij4KICAgICAgICAgIDxMYWJlbCBmb3I9InBhdGgiIGNsYXNzPSJ0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAge3sgdCgiYWRtaW4ucmV2ZXJzZVByb3h5LnBhdGhMYWJlbCIpIH19CiAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIGlkPSJwYXRoIgogICAgICAgICAgICB2LW1vZGVsPSJwYXRoTW9kZWwiCiAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4ucmV2ZXJzZVByb3h5LnBhdGhQbGFjZWhvbGRlcicpIgogICAgICAgICAgICBjbGFzcz0iY29sLXNwYW4tMyIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBncmlkLWNvbHMtNCBpdGVtcy1zdGFydCBnYXAtNCI+CiAgICAgICAgICA8TGFiZWwgZm9yPSJ0YXJnZXQtZW5kcG9pbnQiIGNsYXNzPSJwdC0yIHRleHQtcmlnaHQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5yZXZlcnNlUHJveHkudGFyZ2V0TGFiZWwiKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxQcm94eVRhcmdldElucHV0RmllbGQKICAgICAgICAgICAgdi1tb2RlbD0idGFyZ2V0TW9kZWwiCiAgICAgICAgICAgIGlucHV0LWlkPSJ0YXJnZXQtZW5kcG9pbnQiCiAgICAgICAgICAgIHByb3RvY29sLWlkPSJ0YXJnZXQtcHJvdG9jb2wiCiAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4ucmV2ZXJzZVByb3h5LnRhcmdldFBsYWNlaG9sZGVyJykiCiAgICAgICAgICAgIGNsYXNzPSJjb2wtc3Bhbi0zIgogICAgICAgICAgLz4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBncmlkLWNvbHMtNCBpdGVtcy1jZW50ZXIgZ2FwLTQiPgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1yaWdodCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnJldmVyc2VQcm94eS5vcHRpb25zTGFiZWwiKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIHJvbGU9Imdyb3VwIgogICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4ucmV2ZXJzZVByb3h5Lm9wdGlvbnNMYWJlbCcpIgogICAgICAgICAgICBjbGFzcz0iY29sLXNwYW4tMyBzcGFjZS15LTIiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgdi1pZj0iIWlzV2ViU29ja2V0VGFyZ2V0IiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgc3BhY2UteC0yIj4KICAgICAgICAgICAgICA8U3dpdGNoIGlkPSJyZXdyaXRlIiB2LW1vZGVsPSJyZXdyaXRlSHRtbE1vZGVsIiAvPgogICAgICAgICAgICAgIDxMYWJlbCBmb3I9InJld3JpdGUiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucmV2ZXJzZVByb3h5LnJld3JpdGVIdG1sQ29udGVudCIpIH19CiAgICAgICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIHNwYWNlLXgtMiI+CiAgICAgICAgICAgICAgPFN3aXRjaCBpZD0iYXV0aCIgdi1tb2RlbD0idXNlQXV0aE1vZGVsIiAvPgogICAgICAgICAgICAgIDxMYWJlbCBmb3I9ImF1dGgiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucmV2ZXJzZVByb3h5LnJlcXVpcmVBdXRoIikgfX0KICAgICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiB2LWlmPSIhaXNXZWJTb2NrZXRUYXJnZXQiIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBzcGFjZS14LTIiPgogICAgICAgICAgICAgIDxTd2l0Y2ggaWQ9InJvb3QiIHYtbW9kZWw9InVzZVJvb3RNb2RlTW9kZWwiIC8+CiAgICAgICAgICAgICAgPExhYmVsIGZvcj0icm9vdCI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5yZXZlcnNlUHJveHkudXNlUm9vdE1vZGUiKSB9fQogICAgICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBzcGFjZS14LTIiPgogICAgICAgICAgICAgIDxTd2l0Y2ggaWQ9InN0cmlwIiB2LW1vZGVsPSJzdHJpcFBhdGhNb2RlbCIgLz4KICAgICAgICAgICAgICA8TGFiZWwgZm9yPSJzdHJpcCI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5yZXZlcnNlUHJveHkuc3RyaXBSZXF1ZXN0UHJlZml4IikgfX0KICAgICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPERpYWxvZ0Zvb3Rlcj4KICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0iZW1pdCgnY2xvc2UnKSI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5yZXZlcnNlUHJveHkuY2FuY2VsIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uIDpkaXNhYmxlZD0iIWlzVmFsaWQgfHwgaXNTYXZpbmciIEBjbGljaz0iZW1pdCgnc2F2ZScpIj4KICAgICAgICAgIHt7IHQoImFkbWluLnJldmVyc2VQcm94eS5zYXZlU2V0dGluZ3MiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgIDwvRGlhbG9nQ29udGVudD4KICA8L0RpYWxvZz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import ProxyTargetInputField from "@admin-shared/components/common/ProxyTargetInputField.vue";
+import type { ProxyMapping } from "@/types";
+
+const props = defineProps<{
+  form: ProxyMapping;
+  isEditing: boolean;
+  isSaving: boolean;
+  isValid: boolean;
+  isWebSocketTarget: boolean;
+  open: boolean;
+}>();
+
+const emit = defineEmits<{
+  close: [];
+  save: [];
+  "update:open": [open: boolean];
+  updateForm: [patch: Partial<ProxyMapping>];
+}>();
+
+const { t } = useI18n();
+
+const pathModel = computed({
+  get: () => props.form.path,
+  set: (path: string) => emit("updateForm", { path }),
+});
+
+const targetModel = computed({
+  get: () => props.form.target,
+  set: (target: string) => emit("updateForm", { target }),
+});
+
+const rewriteHtmlModel = computed({
+  get: () => props.form.rewrite_html,
+  set: (rewriteHtml: boolean) =>
+    emit("updateForm", { rewrite_html: rewriteHtml }),
+});
+
+const useAuthModel = computed({
+  get: () => props.form.use_auth,
+  set: (useAuth: boolean) => emit("updateForm", { use_auth: useAuth }),
+});
+
+const useRootModeModel = computed({
+  get: () => props.form.use_root_mode,
+  set: (useRootMode: boolean) =>
+    emit("updateForm", { use_root_mode: useRootMode }),
+});
+
+const stripPathModel = computed({
+  get: () => props.form.strip_path,
+  set: (stripPath: boolean) => emit("updateForm", { strip_path: stripPath }),
+});
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="sm:max-w-[425px]">
+      <DialogHeader>
+        <DialogTitle>
+          {{
+            isEditing
+              ? t("admin.reverseProxy.editTitle")
+              : t("admin.reverseProxy.addTitle")
+          }}
+        </DialogTitle>
+        <DialogDescription>
+          {{
+            isEditing
+              ? t("admin.reverseProxy.editDescription")
+              : t("admin.reverseProxy.addDescription")
+          }}
+        </DialogDescription>
+      </DialogHeader>
+      <div class="grid gap-4 py-4">
+        <div class="grid grid-cols-4 items-center gap-4">
+          <Label for="path" class="text-right">
+            {{ t("admin.reverseProxy.pathLabel") }}
+          </Label>
+          <Input
+            id="path"
+            v-model="pathModel"
+            :placeholder="t('admin.reverseProxy.pathPlaceholder')"
+            class="col-span-3"
+          />
+        </div>
+        <div class="grid grid-cols-4 items-start gap-4">
+          <Label for="target-endpoint" class="pt-2 text-right">
+            {{ t("admin.reverseProxy.targetLabel") }}
+          </Label>
+          <ProxyTargetInputField
+            v-model="targetModel"
+            input-id="target-endpoint"
+            protocol-id="target-protocol"
+            :placeholder="t('admin.reverseProxy.targetPlaceholder')"
+            class="col-span-3"
+          />
+        </div>
+
+        <div class="grid grid-cols-4 items-center gap-4">
+          <div class="text-right">
+            {{ t("admin.reverseProxy.optionsLabel") }}
+          </div>
+          <div
+            role="group"
+            :aria-label="t('admin.reverseProxy.optionsLabel')"
+            class="col-span-3 space-y-2"
+          >
+            <div v-if="!isWebSocketTarget" class="flex items-center space-x-2">
+              <Switch id="rewrite" v-model="rewriteHtmlModel" />
+              <Label for="rewrite">
+                {{ t("admin.reverseProxy.rewriteHtmlContent") }}
+              </Label>
+            </div>
+            <div class="flex items-center space-x-2">
+              <Switch id="auth" v-model="useAuthModel" />
+              <Label for="auth">
+                {{ t("admin.reverseProxy.requireAuth") }}
+              </Label>
+            </div>
+            <div v-if="!isWebSocketTarget" class="flex items-center space-x-2">
+              <Switch id="root" v-model="useRootModeModel" />
+              <Label for="root">
+                {{ t("admin.reverseProxy.useRootMode") }}
+              </Label>
+            </div>
+            <div class="flex items-center space-x-2">
+              <Switch id="strip" v-model="stripPathModel" />
+              <Label for="strip">
+                {{ t("admin.reverseProxy.stripRequestPrefix") }}
+              </Label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <DialogFooter>
+        <Button variant="outline" @click="emit('close')">
+          {{ t("admin.reverseProxy.cancel") }}
+        </Button>
+        <Button :disabled="!isValid || isSaving" @click="emit('save')">
+          {{ t("admin.reverseProxy.saveSettings") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

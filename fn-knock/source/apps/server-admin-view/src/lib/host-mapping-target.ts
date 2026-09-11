@@ -1,1 +1,220 @@
-aW1wb3J0IHR5cGUgewogIEhvc3RNYXBwaW5nLAogIEhvc3RNYXBwaW5nU3RhdGljU2VydmUsCiAgSG9zdE1hcHBpbmdUYXJnZXRUeXBlLAp9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgewogIGlzSHR0cFByb3h5VGFyZ2V0UHJvdG9jb2wsCiAgaXNTdXBwb3J0ZWRQcm94eVRhcmdldFVybCwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3Byb3h5VGFyZ2V0SW5wdXQiOwoKZXhwb3J0IGNvbnN0IERFRkFVTFRfU1RBVElDX0lOREVYX0ZJTEVTID0gWyJpbmRleC5odG1sIiwgImluZGV4Lmh0bSJdOwpleHBvcnQgY29uc3QgU1RBVElDX0lOREVYX0ZJTEVTX0xJTUlUID0gMTY7CmV4cG9ydCBjb25zdCBTVEFUSUNfSU5ERVhfRklMRV9OQU1FX0xJTUlUID0gMjU1OwoKZXhwb3J0IHR5cGUgU3RhdGljU2VydmVWYWxpZGF0aW9uSXNzdWUgPQogIHwgInBhdGhfcmVxdWlyZWQiCiAgfCAicGF0aF9ub3RfYWJzb2x1dGUiCiAgfCAicGF0aF9oYXNfcGFyZW50X3NlZ21lbnQiCiAgfCAicGF0aF91bnNhZmUiCiAgfCAiaW52YWxpZF9pbmRleF9maWxlIgogIHwgImR1cGxpY2F0ZV9pbmRleF9maWxlIgogIHwgInRvb19tYW55X2luZGV4X2ZpbGVzIjsKCmV4cG9ydCBjb25zdCBub3JtYWxpemVIb3N0TWFwcGluZ1RhcmdldFR5cGUgPSAoCiAgdmFsdWU6IHVua25vd24sCik6IEhvc3RNYXBwaW5nVGFyZ2V0VHlwZSA9PgogIHZhbHVlID09PSAiZmlsZSIgfHwgdmFsdWUgPT09ICJkaXJlY3RvcnkiID8gdmFsdWUgOiAicHJveHkiOwoKZXhwb3J0IGNvbnN0IGlzUHJveHlIb3N0TWFwcGluZyA9ICgKICBtYXBwaW5nOiBQaWNrPEhvc3RNYXBwaW5nLCAidGFyZ2V0X3R5cGUiPiB8IHsgdGFyZ2V0X3R5cGU/OiB1bmtub3duIH0sCik6IGJvb2xlYW4gPT4gbm9ybWFsaXplSG9zdE1hcHBpbmdUYXJnZXRUeXBlKG1hcHBpbmcudGFyZ2V0X3R5cGUpID09PSAicHJveHkiOwoKZXhwb3J0IGNvbnN0IGlzU3RhdGljSG9zdE1hcHBpbmcgPSAoCiAgbWFwcGluZzogUGljazxIb3N0TWFwcGluZywgInRhcmdldF90eXBlIj4gfCB7IHRhcmdldF90eXBlPzogdW5rbm93biB9LAopOiBib29sZWFuID0+IG5vcm1hbGl6ZUhvc3RNYXBwaW5nVGFyZ2V0VHlwZShtYXBwaW5nLnRhcmdldF90eXBlKSAhPT0gInByb3h5IjsKCmV4cG9ydCBjb25zdCBpc1N0YXRpY0RpcmVjdG9yeUhvc3RNYXBwaW5nID0gKAogIG1hcHBpbmc6IFBpY2s8SG9zdE1hcHBpbmcsICJ0YXJnZXRfdHlwZSI+IHwgeyB0YXJnZXRfdHlwZT86IHVua25vd24gfSwKKTogYm9vbGVhbiA9PgogIG5vcm1hbGl6ZUhvc3RNYXBwaW5nVGFyZ2V0VHlwZShtYXBwaW5nLnRhcmdldF90eXBlKSA9PT0gImRpcmVjdG9yeSI7CgpleHBvcnQgY29uc3QgY3JlYXRlRGVmYXVsdFN0YXRpY1NlcnZlID0gKAogIHRhcmdldFR5cGU6IEhvc3RNYXBwaW5nVGFyZ2V0VHlwZSwKKTogSG9zdE1hcHBpbmdTdGF0aWNTZXJ2ZSA9PiAoewogIHBhdGg6ICIiLAogIGluZGV4X2ZpbGVzOgogICAgdGFyZ2V0VHlwZSA9PT0gImRpcmVjdG9yeSIgPyBbLi4uREVGQVVMVF9TVEFUSUNfSU5ERVhfRklMRVNdIDogW10sCiAgZGlyZWN0b3J5X2xpc3Rpbmc6IHsgZW5hYmxlZDogZmFsc2UsIHJlbmRlcl9yZWFkbWU6IGZhbHNlIH0sCn0pOwoKZXhwb3J0IGNvbnN0IGlzVmFsaWRTdGF0aWNJbmRleEZpbGVOYW1lID0gKHZhbHVlOiBzdHJpbmcpOiBib29sZWFuID0+IHsKICBjb25zdCBub3JtYWxpemVkID0gdmFsdWUudHJpbSgpOwogIHJldHVybiAoCiAgICBub3JtYWxpemVkLmxlbmd0aCA+IDAgJiYKICAgIG5ldyBUZXh0RW5jb2RlcigpLmVuY29kZShub3JtYWxpemVkKS5ieXRlTGVuZ3RoIDw9CiAgICAgIFNUQVRJQ19JTkRFWF9GSUxFX05BTUVfTElNSVQgJiYKICAgIG5vcm1hbGl6ZWQgIT09ICIuIiAmJgogICAgbm9ybWFsaXplZCAhPT0gIi4uIiAmJgogICAgIW5vcm1hbGl6ZWQuc3RhcnRzV2l0aCgiLiIpICYmCiAgICAhbm9ybWFsaXplZC5pbmNsdWRlcygiLyIpICYmCiAgICAhbm9ybWFsaXplZC5pbmNsdWRlcygiXFwiKSAmJgogICAgIS9bXHB7Q2N9XHB7Q2Z9XS91LnRlc3Qobm9ybWFsaXplZCkKICApOwp9OwoKZXhwb3J0IGNvbnN0IG5vcm1hbGl6ZVN0YXRpY0luZGV4RmlsZXMgPSAoCiAgdmFsdWVzOiByZWFkb25seSBzdHJpbmdbXSwKKTogc3RyaW5nW10gPT4gewogIGNvbnN0IHNlZW4gPSBuZXcgU2V0PHN0cmluZz4oKTsKICBjb25zdCBub3JtYWxpemVkOiBzdHJpbmdbXSA9IFtdOwogIGZvciAoY29uc3QgdmFsdWUgb2YgdmFsdWVzKSB7CiAgICBjb25zdCBmaWxlbmFtZSA9IHZhbHVlLnRyaW0oKTsKICAgIGlmICghZmlsZW5hbWUgfHwgc2Vlbi5oYXMoZmlsZW5hbWUpKSBjb250aW51ZTsKICAgIHNlZW4uYWRkKGZpbGVuYW1lKTsKICAgIG5vcm1hbGl6ZWQucHVzaChmaWxlbmFtZSk7CiAgICBpZiAobm9ybWFsaXplZC5sZW5ndGggPj0gU1RBVElDX0lOREVYX0ZJTEVTX0xJTUlUKSBicmVhazsKICB9CiAgcmV0dXJuIG5vcm1hbGl6ZWQ7Cn07CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplSG9zdE1hcHBpbmdTdGF0aWNTZXJ2ZSA9ICgKICB0YXJnZXRUeXBlOiBIb3N0TWFwcGluZ1RhcmdldFR5cGUsCiAgdmFsdWU/OiBQYXJ0aWFsPEhvc3RNYXBwaW5nU3RhdGljU2VydmU+IHwgbnVsbCwKKTogSG9zdE1hcHBpbmdTdGF0aWNTZXJ2ZSB8IG51bGwgPT4gewogIGlmICh0YXJnZXRUeXBlID09PSAicHJveHkiKSByZXR1cm4gbnVsbDsKICBjb25zdCBkZWZhdWx0cyA9IGNyZWF0ZURlZmF1bHRTdGF0aWNTZXJ2ZSh0YXJnZXRUeXBlKTsKICBjb25zdCBkaXJlY3RvcnlMaXN0aW5nID0gdmFsdWU/LmRpcmVjdG9yeV9saXN0aW5nOwogIGNvbnN0IHBhdGggPSB0eXBlb2YgdmFsdWU/LnBhdGggPT09ICJzdHJpbmciID8gdmFsdWUucGF0aCA6ICIiOwogIGNvbnN0IGxpc3RpbmdFbmFibGVkID0KICAgIHRhcmdldFR5cGUgPT09ICJkaXJlY3RvcnkiICYmIGRpcmVjdG9yeUxpc3Rpbmc/LmVuYWJsZWQgPT09IHRydWU7CiAgcmV0dXJuIHsKICAgIHBhdGg6IHBhdGgudHJpbSgpID8gcGF0aCA6ICIiLAogICAgaW5kZXhfZmlsZXM6CiAgICAgIHRhcmdldFR5cGUgPT09ICJkaXJlY3RvcnkiCiAgICAgICAgPyBBcnJheS5pc0FycmF5KHZhbHVlPy5pbmRleF9maWxlcykKICAgICAgICAgID8gbm9ybWFsaXplU3RhdGljSW5kZXhGaWxlcyh2YWx1ZS5pbmRleF9maWxlcykKICAgICAgICAgIDogZGVmYXVsdHMuaW5kZXhfZmlsZXMKICAgICAgICA6IFtdLAogICAgZGlyZWN0b3J5X2xpc3Rpbmc6IHsKICAgICAgZW5hYmxlZDogbGlzdGluZ0VuYWJsZWQsCiAgICAgIHJlbmRlcl9yZWFkbWU6IGxpc3RpbmdFbmFibGVkICYmIGRpcmVjdG9yeUxpc3Rpbmc/LnJlbmRlcl9yZWFkbWUgPT09IHRydWUsCiAgICB9LAogIH07Cn07CgpleHBvcnQgY29uc3QgaXNBYnNvbHV0ZVNlcnZlclBhdGggPSAoCiAgdmFsdWU6IHN0cmluZywKICBpc1dpbmRvd3M/OiBib29sZWFuLAopOiBib29sZWFuID0+IHsKICBjb25zdCBwYXRoID0gdmFsdWU7CiAgY29uc3QgcG9zaXhBYnNvbHV0ZSA9IHBhdGguc3RhcnRzV2l0aCgiLyIpOwogIGNvbnN0IHdpbmRvd3NQYXRoID0gcGF0aC5yZXBsYWNlKC9cLy9ndSwgIlxcIik7CiAgY29uc3Qgd2luZG93c0Fic29sdXRlID0KICAgIC9eW0EtWmEtel06XFwvdS50ZXN0KHdpbmRvd3NQYXRoKSB8fAogICAgL15cXFxcW15cXF0rXFxbXlxcXSsvdS50ZXN0KHdpbmRvd3NQYXRoKTsKICBpZiAoaXNXaW5kb3dzID09PSB0cnVlKSByZXR1cm4gd2luZG93c0Fic29sdXRlOwogIGlmIChpc1dpbmRvd3MgPT09IGZhbHNlKSByZXR1cm4gcG9zaXhBYnNvbHV0ZTsKICByZXR1cm4gcG9zaXhBYnNvbHV0ZSB8fCB3aW5kb3dzQWJzb2x1dGU7Cn07Cgpjb25zdCBpc1NhZmVXaW5kb3dzVmlzaWJsZU5hbWUgPSAodmFsdWU6IHN0cmluZyk6IGJvb2xlYW4gPT4gewogIGlmICgvWzw+OiJ8PypdL3UudGVzdCh2YWx1ZSkgfHwgdmFsdWUuZW5kc1dpdGgoIiAiKSB8fCB2YWx1ZS5lbmRzV2l0aCgiLiIpKSB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQogIGNvbnN0IHN0ZW0gPSAodmFsdWUuc3BsaXQoIi4iKVswXSA/PyAiIikudG9VcHBlckNhc2UoKTsKICBpZiAoCiAgICBbIkNPTiIsICJQUk4iLCAiQVVYIiwgIk5VTCIsICJDTE9DSyQiLCAiQ09OSU4kIiwgIkNPTk9VVCQiXS5pbmNsdWRlcyhzdGVtKQogICkgewogICAgcmV0dXJuIGZhbHNlOwogIH0KICByZXR1cm4gIS9eKD86Q09NfExQVCkoPzpbMS05wrnCssKzXSkkL3UudGVzdChzdGVtKTsKfTsKCmNvbnN0IGlzVW5zYWZlU3RhdGljVGFyZ2V0UGF0aCA9ICgKICBwYXRoOiBzdHJpbmcsCiAgaXNXaW5kb3dzPzogYm9vbGVhbiwKKTogYm9vbGVhbiA9PiB7CiAgaWYgKC9bXHB7Q2N9XHB7Q2Z9XS91LnRlc3QocGF0aCkpIHJldHVybiB0cnVlOwogIGlmICgvXlwvKyQvdS50ZXN0KHBhdGgpIHx8IC9eW0EtWmEtel06W1xcL10qJC91LnRlc3QocGF0aCkpIHJldHVybiB0cnVlOwogIGNvbnN0IG5vcm1hbGl6ZWRXaW5kb3dzUGF0aCA9IHBhdGgucmVwbGFjZSgvXC8vZ3UsICJcXCIpOwogIGlmIChub3JtYWxpemVkV2luZG93c1BhdGguc3RhcnRzV2l0aCgiXFxcXCIpKSByZXR1cm4gdHJ1ZTsKCiAgY29uc3Qgc2VnbWVudHMgPSBwYXRoLnNwbGl0KC9bXFwvXSsvdSkuZmlsdGVyKEJvb2xlYW4pOwogIGNvbnN0IHRhcmdldE5hbWUgPSBzZWdtZW50c1tzZWdtZW50cy5sZW5ndGggLSAxXSA/PyAiIjsKICBpZiAoIXRhcmdldE5hbWUgfHwgdGFyZ2V0TmFtZS5zdGFydHNXaXRoKCIuIikpIHJldHVybiB0cnVlOwoKICAvLyBBIGJhY2tzbGFzaCBpcyBhIGxlZ2FsIHNlcGFyYXRvciBvbiBXaW5kb3dzIGJ1dCBhbiB1bnNhZmUgbGl0ZXJhbCBuYW1lCiAgLy8gY2hhcmFjdGVyIGluIHRoZSBHbyBnYXRld2F5J3MgUE9TSVggc3RhdGljLXJvb3QgdmFsaWRhdGlvbi4KICBjb25zdCB3aW5kb3dzUGF0aCA9IGlzV2luZG93cyA/PyAhcGF0aC5zdGFydHNXaXRoKCIvIik7CiAgaWYgKAogICAgd2luZG93c1BhdGggJiYKICAgICgvXig/OlxcXFx8XC9cLylbLj9dW1xcL10vdS50ZXN0KHBhdGgpIHx8CiAgICAgICFpc1NhZmVXaW5kb3dzVmlzaWJsZU5hbWUodGFyZ2V0TmFtZSkpCiAgKSB7CiAgICByZXR1cm4gdHJ1ZTsKICB9CiAgcmV0dXJuICF3aW5kb3dzUGF0aCAmJiBwYXRoLmluY2x1ZGVzKCJcXCIpOwp9OwoKZXhwb3J0IGNvbnN0IGdldFN0YXRpY1NlcnZlVmFsaWRhdGlvbklzc3VlID0gKHsKICBpc1dpbmRvd3MsCiAgc3RhdGljU2VydmUsCiAgdGFyZ2V0VHlwZSwKfTogewogIGlzV2luZG93cz86IGJvb2xlYW47CiAgc3RhdGljU2VydmU6IEhvc3RNYXBwaW5nU3RhdGljU2VydmUgfCBudWxsIHwgdW5kZWZpbmVkOwogIHRhcmdldFR5cGU6IEhvc3RNYXBwaW5nVGFyZ2V0VHlwZTsKfSk6IFN0YXRpY1NlcnZlVmFsaWRhdGlvbklzc3VlIHwgbnVsbCA9PiB7CiAgaWYgKHRhcmdldFR5cGUgPT09ICJwcm94eSIpIHJldHVybiBudWxsOwogIGNvbnN0IHBhdGggPSBzdGF0aWNTZXJ2ZT8ucGF0aCA/PyAiIjsKICBpZiAoIXBhdGgudHJpbSgpKSByZXR1cm4gInBhdGhfcmVxdWlyZWQiOwogIGlmICghaXNBYnNvbHV0ZVNlcnZlclBhdGgocGF0aCwgaXNXaW5kb3dzKSkgcmV0dXJuICJwYXRoX25vdF9hYnNvbHV0ZSI7CiAgaWYgKHBhdGguc3BsaXQoL1tcXC9dKy91KS5pbmNsdWRlcygiLi4iKSB8fCBwYXRoLmluY2x1ZGVzKCJcMCIpKSB7CiAgICByZXR1cm4gInBhdGhfaGFzX3BhcmVudF9zZWdtZW50IjsKICB9CiAgaWYgKGlzVW5zYWZlU3RhdGljVGFyZ2V0UGF0aChwYXRoLCBpc1dpbmRvd3MpKSByZXR1cm4gInBhdGhfdW5zYWZlIjsKICBpZiAoCiAgICB0YXJnZXRUeXBlID09PSAiZGlyZWN0b3J5IiAmJgogICAgKHN0YXRpY1NlcnZlPy5pbmRleF9maWxlcz8ubGVuZ3RoID8/IDApID4gU1RBVElDX0lOREVYX0ZJTEVTX0xJTUlUCiAgKSB7CiAgICByZXR1cm4gInRvb19tYW55X2luZGV4X2ZpbGVzIjsKICB9CiAgaWYgKHRhcmdldFR5cGUgPT09ICJkaXJlY3RvcnkiKSB7CiAgICBjb25zdCBpbmRleEZpbGVzID0gc3RhdGljU2VydmU/LmluZGV4X2ZpbGVzID8/IFtdOwogICAgaWYgKAogICAgICAhaW5kZXhGaWxlcy5ldmVyeSgKICAgICAgICAodmFsdWUpID0+CiAgICAgICAgICBpc1ZhbGlkU3RhdGljSW5kZXhGaWxlTmFtZSh2YWx1ZSkgJiYKICAgICAgICAgIChpc1dpbmRvd3MgIT09IHRydWUgfHwgaXNTYWZlV2luZG93c1Zpc2libGVOYW1lKHZhbHVlLnRyaW0oKSkpLAogICAgICApCiAgICApIHsKICAgICAgcmV0dXJuICJpbnZhbGlkX2luZGV4X2ZpbGUiOwogICAgfQogICAgY29uc3Qgbm9ybWFsaXplZE5hbWVzID0gaW5kZXhGaWxlcy5tYXAoKGl0ZW0pID0+IGl0ZW0udHJpbSgpKTsKICAgIGlmIChuZXcgU2V0KG5vcm1hbGl6ZWROYW1lcykuc2l6ZSAhPT0gbm9ybWFsaXplZE5hbWVzLmxlbmd0aCkgewogICAgICByZXR1cm4gImR1cGxpY2F0ZV9pbmRleF9maWxlIjsKICAgIH0KICB9CiAgcmV0dXJuIG51bGw7Cn07CgpleHBvcnQgY29uc3QgZ2V0SG9zdE1hcHBpbmdUYXJnZXRUZXh0ID0gKAogIG1hcHBpbmc6IFBpY2s8SG9zdE1hcHBpbmcsICJ0YXJnZXQiIHwgInRhcmdldF90eXBlIiB8ICJzdGF0aWNfc2VydmUiPiwKKTogc3RyaW5nID0+CiAgaXNQcm94eUhvc3RNYXBwaW5nKG1hcHBpbmcpCiAgICA/IG1hcHBpbmcudGFyZ2V0LnRyaW0oKQogICAgOiAobWFwcGluZy5zdGF0aWNfc2VydmU/LnBhdGggPz8gIiIpOwoKZXhwb3J0IGNvbnN0IGdldExvY2F0aW9uUnVsZXNDb3VudCA9IChtYXBwaW5nOiBIb3N0TWFwcGluZyk6IG51bWJlciA9PgogIGlzUHJveHlIb3N0TWFwcGluZyhtYXBwaW5nKSA/IChtYXBwaW5nLmxvY2F0aW9ucz8ubGVuZ3RoID8/IDApIDogMDsKCmV4cG9ydCBjb25zdCBjYW5SZWZyZXNoSG9zdE1hcHBpbmdNZXRhZGF0YSA9ICh0YXJnZXQ6IHN0cmluZyk6IGJvb2xlYW4gPT4gewogIGNvbnN0IG5vcm1hbGl6ZWRUYXJnZXQgPSB0YXJnZXQudHJpbSgpOwogIGlmICghaXNTdXBwb3J0ZWRQcm94eVRhcmdldFVybChub3JtYWxpemVkVGFyZ2V0KSkgcmV0dXJuIGZhbHNlOwogIHRyeSB7CiAgICByZXR1cm4gaXNIdHRwUHJveHlUYXJnZXRQcm90b2NvbChuZXcgVVJMKG5vcm1hbGl6ZWRUYXJnZXQpLnByb3RvY29sKTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBmYWxzZTsKICB9Cn07Cg==
+import type {
+  HostMapping,
+  HostMappingStaticServe,
+  HostMappingTargetType,
+} from "@/types";
+import {
+  isHttpProxyTargetProtocol,
+  isSupportedProxyTargetUrl,
+} from "@admin-shared/utils/proxyTargetInput";
+
+export const DEFAULT_STATIC_INDEX_FILES = ["index.html", "index.htm"];
+export const STATIC_INDEX_FILES_LIMIT = 16;
+export const STATIC_INDEX_FILE_NAME_LIMIT = 255;
+
+export type StaticServeValidationIssue =
+  | "path_required"
+  | "path_not_absolute"
+  | "path_has_parent_segment"
+  | "path_unsafe"
+  | "invalid_index_file"
+  | "duplicate_index_file"
+  | "too_many_index_files";
+
+export const normalizeHostMappingTargetType = (
+  value: unknown,
+): HostMappingTargetType =>
+  value === "file" || value === "directory" ? value : "proxy";
+
+export const isProxyHostMapping = (
+  mapping: Pick<HostMapping, "target_type"> | { target_type?: unknown },
+): boolean => normalizeHostMappingTargetType(mapping.target_type) === "proxy";
+
+export const isStaticHostMapping = (
+  mapping: Pick<HostMapping, "target_type"> | { target_type?: unknown },
+): boolean => normalizeHostMappingTargetType(mapping.target_type) !== "proxy";
+
+export const isStaticDirectoryHostMapping = (
+  mapping: Pick<HostMapping, "target_type"> | { target_type?: unknown },
+): boolean =>
+  normalizeHostMappingTargetType(mapping.target_type) === "directory";
+
+export const createDefaultStaticServe = (
+  targetType: HostMappingTargetType,
+): HostMappingStaticServe => ({
+  path: "",
+  index_files:
+    targetType === "directory" ? [...DEFAULT_STATIC_INDEX_FILES] : [],
+  directory_listing: { enabled: false, render_readme: false },
+});
+
+export const isValidStaticIndexFileName = (value: string): boolean => {
+  const normalized = value.trim();
+  return (
+    normalized.length > 0 &&
+    new TextEncoder().encode(normalized).byteLength <=
+      STATIC_INDEX_FILE_NAME_LIMIT &&
+    normalized !== "." &&
+    normalized !== ".." &&
+    !normalized.startsWith(".") &&
+    !normalized.includes("/") &&
+    !normalized.includes("\\") &&
+    !/[\p{Cc}\p{Cf}]/u.test(normalized)
+  );
+};
+
+export const normalizeStaticIndexFiles = (
+  values: readonly string[],
+): string[] => {
+  const seen = new Set<string>();
+  const normalized: string[] = [];
+  for (const value of values) {
+    const filename = value.trim();
+    if (!filename || seen.has(filename)) continue;
+    seen.add(filename);
+    normalized.push(filename);
+    if (normalized.length >= STATIC_INDEX_FILES_LIMIT) break;
+  }
+  return normalized;
+};
+
+export const normalizeHostMappingStaticServe = (
+  targetType: HostMappingTargetType,
+  value?: Partial<HostMappingStaticServe> | null,
+): HostMappingStaticServe | null => {
+  if (targetType === "proxy") return null;
+  const defaults = createDefaultStaticServe(targetType);
+  const directoryListing = value?.directory_listing;
+  const path = typeof value?.path === "string" ? value.path : "";
+  const listingEnabled =
+    targetType === "directory" && directoryListing?.enabled === true;
+  return {
+    path: path.trim() ? path : "",
+    index_files:
+      targetType === "directory"
+        ? Array.isArray(value?.index_files)
+          ? normalizeStaticIndexFiles(value.index_files)
+          : defaults.index_files
+        : [],
+    directory_listing: {
+      enabled: listingEnabled,
+      render_readme: listingEnabled && directoryListing?.render_readme === true,
+    },
+  };
+};
+
+export const isAbsoluteServerPath = (
+  value: string,
+  isWindows?: boolean,
+): boolean => {
+  const path = value;
+  const posixAbsolute = path.startsWith("/");
+  const windowsPath = path.replace(/\//gu, "\\");
+  const windowsAbsolute =
+    /^[A-Za-z]:\\/u.test(windowsPath) ||
+    /^\\\\[^\\]+\\[^\\]+/u.test(windowsPath);
+  if (isWindows === true) return windowsAbsolute;
+  if (isWindows === false) return posixAbsolute;
+  return posixAbsolute || windowsAbsolute;
+};
+
+const isSafeWindowsVisibleName = (value: string): boolean => {
+  if (/[<>:"|?*]/u.test(value) || value.endsWith(" ") || value.endsWith(".")) {
+    return false;
+  }
+  const stem = (value.split(".")[0] ?? "").toUpperCase();
+  if (
+    ["CON", "PRN", "AUX", "NUL", "CLOCK$", "CONIN$", "CONOUT$"].includes(stem)
+  ) {
+    return false;
+  }
+  return !/^(?:COM|LPT)(?:[1-9¹²³])$/u.test(stem);
+};
+
+const isUnsafeStaticTargetPath = (
+  path: string,
+  isWindows?: boolean,
+): boolean => {
+  if (/[\p{Cc}\p{Cf}]/u.test(path)) return true;
+  if (/^\/+$/u.test(path) || /^[A-Za-z]:[\\/]*$/u.test(path)) return true;
+  const normalizedWindowsPath = path.replace(/\//gu, "\\");
+  if (normalizedWindowsPath.startsWith("\\\\")) return true;
+
+  const segments = path.split(/[\\/]+/u).filter(Boolean);
+  const targetName = segments[segments.length - 1] ?? "";
+  if (!targetName || targetName.startsWith(".")) return true;
+
+  // A backslash is a legal separator on Windows but an unsafe literal name
+  // character in the Go gateway's POSIX static-root validation.
+  const windowsPath = isWindows ?? !path.startsWith("/");
+  if (
+    windowsPath &&
+    (/^(?:\\\\|\/\/)[.?][\\/]/u.test(path) ||
+      !isSafeWindowsVisibleName(targetName))
+  ) {
+    return true;
+  }
+  return !windowsPath && path.includes("\\");
+};
+
+export const getStaticServeValidationIssue = ({
+  isWindows,
+  staticServe,
+  targetType,
+}: {
+  isWindows?: boolean;
+  staticServe: HostMappingStaticServe | null | undefined;
+  targetType: HostMappingTargetType;
+}): StaticServeValidationIssue | null => {
+  if (targetType === "proxy") return null;
+  const path = staticServe?.path ?? "";
+  if (!path.trim()) return "path_required";
+  if (!isAbsoluteServerPath(path, isWindows)) return "path_not_absolute";
+  if (path.split(/[\\/]+/u).includes("..") || path.includes("\0")) {
+    return "path_has_parent_segment";
+  }
+  if (isUnsafeStaticTargetPath(path, isWindows)) return "path_unsafe";
+  if (
+    targetType === "directory" &&
+    (staticServe?.index_files?.length ?? 0) > STATIC_INDEX_FILES_LIMIT
+  ) {
+    return "too_many_index_files";
+  }
+  if (targetType === "directory") {
+    const indexFiles = staticServe?.index_files ?? [];
+    if (
+      !indexFiles.every(
+        (value) =>
+          isValidStaticIndexFileName(value) &&
+          (isWindows !== true || isSafeWindowsVisibleName(value.trim())),
+      )
+    ) {
+      return "invalid_index_file";
+    }
+    const normalizedNames = indexFiles.map((item) => item.trim());
+    if (new Set(normalizedNames).size !== normalizedNames.length) {
+      return "duplicate_index_file";
+    }
+  }
+  return null;
+};
+
+export const getHostMappingTargetText = (
+  mapping: Pick<HostMapping, "target" | "target_type" | "static_serve">,
+): string =>
+  isProxyHostMapping(mapping)
+    ? mapping.target.trim()
+    : (mapping.static_serve?.path ?? "");
+
+export const getLocationRulesCount = (mapping: HostMapping): number =>
+  isProxyHostMapping(mapping) ? (mapping.locations?.length ?? 0) : 0;
+
+export const canRefreshHostMappingMetadata = (target: string): boolean => {
+  const normalizedTarget = target.trim();
+  if (!isSupportedProxyTargetUrl(normalizedTarget)) return false;
+  try {
+    return isHttpProxyTargetProtocol(new URL(normalizedTarget).protocol);
+  } catch {
+    return false;
+  }
+};

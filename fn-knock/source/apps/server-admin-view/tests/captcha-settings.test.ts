@@ -1,1 +1,76 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKaW1wb3J0IHsKICBlbnN1cmVVbmNvbW1vbkRpZmZpY3VsdHlBdExlYXN0QmFzZSwKICBpc1Bvd0RpZmZpY3VsdHlQcmVzZXQsCiAgaXNQb3dEaWZmaWN1bHR5VmFsaWQsCiAgUE9XX0RJRkZJQ1VMVFlfTUFYLAogIFBPV19ESUZGSUNVTFRZX01JTiwKICBQT1dfRElGRklDVUxUWV9TVEFOREFSRCwKICBQT1dfRElGRklDVUxUWV9WRVJZX0hBUkQsCn0gZnJvbSAiLi4vc3JjL2xpYi9jYXB0Y2hhLXNldHRpbmdzIjsKCmNvbnN0IGNhcHRjaGFTZXR0aW5nc1NvdXJjZSA9IHJlYWRGaWxlU3luYygKICBuZXcgVVJMKCIuLi9zcmMvdmlld3Mvc3lzdGVtLXNldHRpbmdzL0NhcHRjaGFTZXR0aW5ncy52dWUiLCBpbXBvcnQubWV0YS51cmwpLAogICJ1dGY4IiwKKTsKY29uc3QgcG93U2V0dGluZ3NTb3VyY2UgPSByZWFkRmlsZVN5bmMoCiAgbmV3IFVSTCgKICAgICIuLi9zcmMvdmlld3Mvc3lzdGVtLXNldHRpbmdzL2NhcHRjaGEvUG93Q2FwdGNoYVNldHRpbmdzRmllbGRzLnZ1ZSIsCiAgICBpbXBvcnQubWV0YS51cmwsCiAgKSwKICAidXRmOCIsCik7CmNvbnN0IGZpZWxkU291cmNlID0gcmVhZEZpbGVTeW5jKAogIG5ldyBVUkwoCiAgICAiLi4vc3JjL3ZpZXdzL3N5c3RlbS1zZXR0aW5ncy9jYXB0Y2hhL0NhcHRjaGFDb25maWdGaWVsZC52dWUiLAogICAgaW1wb3J0Lm1ldGEudXJsLAogICksCiAgInV0ZjgiLAopOwoKZGVzY3JpYmUoImNhcHRjaGEgc2V0dGluZ3MiLCAoKSA9PiB7CiAgaXQoInZhbGlkYXRlcyBib3RoIFBvVyBkaWZmaWN1bHR5IHRpZXJzIGFuZCB0aGVpciBvcmRlcmluZyIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbChpc1Bvd0RpZmZpY3VsdHlWYWxpZCgxMDBfMDAwLCAzMDBfMDAwKSwgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGlzUG93RGlmZmljdWx0eVZhbGlkKFBPV19ESUZGSUNVTFRZX01JTiwgUE9XX0RJRkZJQ1VMVFlfTUFYKSwKICAgICAgdHJ1ZSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoaXNQb3dEaWZmaWN1bHR5VmFsaWQoOV85OTksIDMwMF8wMDApLCBmYWxzZSk7CiAgICBhc3NlcnQuZXF1YWwoaXNQb3dEaWZmaWN1bHR5VmFsaWQoMTVfMDAwLCAzMDBfMDAwKSwgZmFsc2UpOwogICAgYXNzZXJ0LmVxdWFsKGlzUG93RGlmZmljdWx0eVZhbGlkKDEwMF8wMDAuNSwgMzAwXzAwMCksIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbChpc1Bvd0RpZmZpY3VsdHlWYWxpZCg0MDBfMDAwLCAzMDBfMDAwKSwgZmFsc2UpOwogICAgYXNzZXJ0LmVxdWFsKGlzUG93RGlmZmljdWx0eVZhbGlkKDEwMF8wMDAsIDMwNV8wMDApLCBmYWxzZSk7CiAgICBhc3NlcnQuZXF1YWwoaXNQb3dEaWZmaWN1bHR5VmFsaWQoMTAwXzAwMCwgMV8wMDBfMDAxKSwgZmFsc2UpOwogIH0pOwoKICBpdCgiZGVmaW5lcyBzdGFuZGFyZCBhbmQgdmVyeS1oYXJkIHByZXNldHMiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoUE9XX0RJRkZJQ1VMVFlfU1RBTkRBUkQsIDEwMF8wMDApOwogICAgYXNzZXJ0LmVxdWFsKFBPV19ESUZGSUNVTFRZX1ZFUllfSEFSRCwgMzAwXzAwMCk7CiAgICBhc3NlcnQuZXF1YWwoaXNQb3dEaWZmaWN1bHR5UHJlc2V0KFBPV19ESUZGSUNVTFRZX1NUQU5EQVJEKSwgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwoaXNQb3dEaWZmaWN1bHR5UHJlc2V0KFBPV19ESUZGSUNVTFRZX1ZFUllfSEFSRCksIHRydWUpOwogICAgYXNzZXJ0LmVxdWFsKGlzUG93RGlmZmljdWx0eVByZXNldCgyMDBfMDAwKSwgZmFsc2UpOwogICAgYXNzZXJ0LmVxdWFsKGVuc3VyZVVuY29tbW9uRGlmZmljdWx0eUF0TGVhc3RCYXNlKDMwMF8wMDAsIDEwMF8wMDApLCAzMDBfMDAwKTsKICAgIGFzc2VydC5lcXVhbChlbnN1cmVVbmNvbW1vbkRpZmZpY3VsdHlBdExlYXN0QmFzZSgxMDBfMDAwLCAzMDBfMDAwKSwgMzAwXzAwMCk7CiAgfSk7CgogIGl0KCJyZW5kZXJzIGRpZmZpY3VsdHkgc2VsZWN0cyBhbmQgaGlkZXMgdGhlIHVuY29tbW9uIHRpZXIgd2hlbiBkaXNhYmxlZCIsICgpID0+IHsKICAgIGFzc2VydC5tYXRjaChjYXB0Y2hhU2V0dGluZ3NTb3VyY2UsIC9Qb3dDYXB0Y2hhU2V0dGluZ3NGaWVsZHMvKTsKICAgIGFzc2VydC5tYXRjaChjYXB0Y2hhU2V0dGluZ3NTb3VyY2UsIC92LW1vZGVsPSJmb3JtXC5wb3ciLyk7CiAgICBhc3NlcnQubWF0Y2gocG93U2V0dGluZ3NTb3VyY2UsIC92LW1vZGVsPSJiYXNlRGlmZmljdWx0eVNlbGVjdGlvbiIvKTsKICAgIGFzc2VydC5tYXRjaChwb3dTZXR0aW5nc1NvdXJjZSwgL3YtbW9kZWw9InVuY29tbW9uRGlmZmljdWx0eVNlbGVjdGlvbiIvKTsKICAgIGFzc2VydC5tYXRjaChwb3dTZXR0aW5nc1NvdXJjZSwgL21vZGVsXC51bmNvbW1vbl9sb2NhdGlvblwuZW5hYmxlZC8pOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBwb3dTZXR0aW5nc1NvdXJjZSwKICAgICAgL3YtaWY9Im1vZGVsXC51bmNvbW1vbl9sb2NhdGlvblwuZW5hYmxlZCIvLAogICAgKTsKICAgIGFzc2VydC5tYXRjaChwb3dTZXR0aW5nc1NvdXJjZSwgL2NvbnRyb2wtY2xhc3M9Im1kOnctXFszMDBweFxdIi8pOwogICAgYXNzZXJ0Lm1hdGNoKGZpZWxkU291cmNlLCAvbWQ6Z3JpZC1jb2xzLVxbMzIwcHhfbWlubWF4XCgwLDFmclwpXF0vKTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2gocG93U2V0dGluZ3NTb3VyY2UsIC9cKFx7XHsgUE9XX0RJRkZJQ1VMVFlfLyk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKAogICAgICBwb3dTZXR0aW5nc1NvdXJjZSwKICAgICAgL3YtbW9kZWxcLm51bWJlcj0ibW9kZWxcLig/OmJhc2VfbWF4X251bWJlcnx1bmNvbW1vbl9sb2NhdGlvblwubWF4X251bWJlcikiLywKICAgICk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+import {
+  ensureUncommonDifficultyAtLeastBase,
+  isPowDifficultyPreset,
+  isPowDifficultyValid,
+  POW_DIFFICULTY_MAX,
+  POW_DIFFICULTY_MIN,
+  POW_DIFFICULTY_STANDARD,
+  POW_DIFFICULTY_VERY_HARD,
+} from "../src/lib/captcha-settings";
+
+const captchaSettingsSource = readFileSync(
+  new URL("../src/views/system-settings/CaptchaSettings.vue", import.meta.url),
+  "utf8",
+);
+const powSettingsSource = readFileSync(
+  new URL(
+    "../src/views/system-settings/captcha/PowCaptchaSettingsFields.vue",
+    import.meta.url,
+  ),
+  "utf8",
+);
+const fieldSource = readFileSync(
+  new URL(
+    "../src/views/system-settings/captcha/CaptchaConfigField.vue",
+    import.meta.url,
+  ),
+  "utf8",
+);
+
+describe("captcha settings", () => {
+  it("validates both PoW difficulty tiers and their ordering", () => {
+    assert.equal(isPowDifficultyValid(100_000, 300_000), true);
+    assert.equal(
+      isPowDifficultyValid(POW_DIFFICULTY_MIN, POW_DIFFICULTY_MAX),
+      true,
+    );
+    assert.equal(isPowDifficultyValid(9_999, 300_000), false);
+    assert.equal(isPowDifficultyValid(15_000, 300_000), false);
+    assert.equal(isPowDifficultyValid(100_000.5, 300_000), false);
+    assert.equal(isPowDifficultyValid(400_000, 300_000), false);
+    assert.equal(isPowDifficultyValid(100_000, 305_000), false);
+    assert.equal(isPowDifficultyValid(100_000, 1_000_001), false);
+  });
+
+  it("defines standard and very-hard presets", () => {
+    assert.equal(POW_DIFFICULTY_STANDARD, 100_000);
+    assert.equal(POW_DIFFICULTY_VERY_HARD, 300_000);
+    assert.equal(isPowDifficultyPreset(POW_DIFFICULTY_STANDARD), true);
+    assert.equal(isPowDifficultyPreset(POW_DIFFICULTY_VERY_HARD), true);
+    assert.equal(isPowDifficultyPreset(200_000), false);
+    assert.equal(ensureUncommonDifficultyAtLeastBase(300_000, 100_000), 300_000);
+    assert.equal(ensureUncommonDifficultyAtLeastBase(100_000, 300_000), 300_000);
+  });
+
+  it("renders difficulty selects and hides the uncommon tier when disabled", () => {
+    assert.match(captchaSettingsSource, /PowCaptchaSettingsFields/);
+    assert.match(captchaSettingsSource, /v-model="form\.pow"/);
+    assert.match(powSettingsSource, /v-model="baseDifficultySelection"/);
+    assert.match(powSettingsSource, /v-model="uncommonDifficultySelection"/);
+    assert.match(powSettingsSource, /model\.uncommon_location\.enabled/);
+    assert.match(
+      powSettingsSource,
+      /v-if="model\.uncommon_location\.enabled"/,
+    );
+    assert.match(powSettingsSource, /control-class="md:w-\[300px\]"/);
+    assert.match(fieldSource, /md:grid-cols-\[320px_minmax\(0,1fr\)\]/);
+    assert.doesNotMatch(powSettingsSource, /\(\{\{ POW_DIFFICULTY_/);
+    assert.doesNotMatch(
+      powSettingsSource,
+      /v-model\.number="model\.(?:base_max_number|uncommon_location\.max_number)"/,
+    );
+  });
+});

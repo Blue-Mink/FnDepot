@@ -1,1 +1,23 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRHJvcGRvd25NZW51U2VwYXJhdG9yUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyByZWFjdGl2ZU9taXQgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7CiAgRHJvcGRvd25NZW51U2VwYXJhdG9yLAp9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPERyb3Bkb3duTWVudVNlcGFyYXRvclByb3BzICYgewogIGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0KfT4oKQoKY29uc3QgZGVsZWdhdGVkUHJvcHMgPSByZWFjdGl2ZU9taXQocHJvcHMsICJjbGFzcyIpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEcm9wZG93bk1lbnVTZXBhcmF0b3IKICAgIGRhdGEtc2xvdD0iZHJvcGRvd24tbWVudS1zZXBhcmF0b3IiCiAgICB2LWJpbmQ9ImRlbGVnYXRlZFByb3BzIgogICAgOmNsYXNzPSJjbignYmctYm9yZGVyIC1teC0xIG15LTEgaC1weCcsIHByb3BzLmNsYXNzKSIKICAvPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { DropdownMenuSeparatorProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import {
+  DropdownMenuSeparator,
+} from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<DropdownMenuSeparatorProps & {
+  class?: HTMLAttributes["class"]
+}>()
+
+const delegatedProps = reactiveOmit(props, "class")
+</script>
+
+<template>
+  <DropdownMenuSeparator
+    data-slot="dropdown-menu-separator"
+    v-bind="delegatedProps"
+    :class="cn('bg-border -mx-1 my-1 h-px', props.class)"
+  />
+</template>

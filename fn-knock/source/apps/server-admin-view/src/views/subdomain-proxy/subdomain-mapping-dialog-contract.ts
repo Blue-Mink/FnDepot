@@ -1,1 +1,61 @@
-aW1wb3J0IHR5cGUgeyBVbndyYXBOZXN0ZWRSZWZzIH0gZnJvbSAidnVlIjsKaW1wb3J0IHR5cGUgeyBIb3N0TWFwcGluZywgSG9zdE1hcHBpbmdHcm91cCB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgdHlwZSB7IE1hcHBpbmdJbnB1dE1vZGUgfSBmcm9tICIuL21vZGVsIjsKaW1wb3J0IHR5cGUgeyB1c2VNYXBwaW5nSWNvbiB9IGZyb20gIi4vdXNlTWFwcGluZ0ljb24iOwppbXBvcnQgdHlwZSB7IHVzZU1hcHBpbmdWaXNpYmlsaXR5IH0gZnJvbSAiLi91c2VNYXBwaW5nVmlzaWJpbGl0eSI7CmltcG9ydCB0eXBlIHsgdXNlU3RhdGljUGF0aEJyb3dzZXIgfSBmcm9tICIuL3VzZVN0YXRpY1BhdGhCcm93c2VyIjsKCmV4cG9ydCBpbnRlcmZhY2UgU3ViZG9tYWluTWFwcGluZ0RpYWxvZ1Byb3BzIHsKICBiYXNpY0F1dGhJbmplY3Rpb246IGJvb2xlYW47CiAgYmFzaWNBdXRoVmFsaWRhdGlvbk1lc3NhZ2U6IHN0cmluZzsKICBjYW5SZWZyZXNoTWFwcGluZ01ldGFkYXRhOiBib29sZWFuOwogIGNhblNob3dCYXNpY0F1dGhJbmplY3Rpb246IGJvb2xlYW47CiAgY2FuVXNlUm9vdERvbWFpblN1ZmZpeDogYm9vbGVhbjsKICBjb21wb3NlZFByZXZpZXdIb3N0OiBzdHJpbmc7CiAgZnVsbEhvc3RJbnB1dEhpbnQ6IHN0cmluZzsKICBnYXRld2F5SG9zdFJlc3BvbnNlQmxvY2tlZFJlYXNvbjogc3RyaW5nOwogIGdhdGV3YXlQcm94eUhlYWRlcnNCbG9ja2VkUmVhc29uOiBzdHJpbmc7CiAgZ2xvYmFsV2FmRW5hYmxlZDogYm9vbGVhbjsKICBncm91cHM6IEhvc3RNYXBwaW5nR3JvdXBbXTsKICBoYW5kbGVJbnB1dE1vZGVDaGFuZ2U6IChtb2RlOiBNYXBwaW5nSW5wdXRNb2RlKSA9PiB2b2lkOwogIGhhbmRsZVBvcnRhbERpc2FibGVkVG9vbHRpcE9wZW5DaGFuZ2U6IChvcGVuOiBib29sZWFuKSA9PiB2b2lkOwogIGhhbmRsZVBvcnRhbERpc2FibGVkVG9vbHRpcFRyaWdnZXJDbGljazogKCkgPT4gdm9pZDsKICBpc0dhdGV3YXlBZHZhbmNlZExvYWRpbmc6IGJvb2xlYW47CiAgaWNvbkVkaXRvcjogVW53cmFwTmVzdGVkUmVmczxSZXR1cm5UeXBlPHR5cGVvZiB1c2VNYXBwaW5nSWNvbj4+OwogIGlzTWFwcGluZ0F1dGhTZXJ2aWNlOiBib29sZWFuOwogIGlzTWFwcGluZ1ZhbGlkOiBib29sZWFuOwogIGlzTWFwcGluZ1dlYlNvY2tldFRhcmdldDogYm9vbGVhbjsKICBpc1BvcnRhbERpc2FibGVkVG9vbHRpcE9wZW46IGJvb2xlYW47CiAgaXNSZWZyZXNoaW5nTWFwcGluZ01ldGFkYXRhOiBib29sZWFuOwogIGlzU2F2aW5nTWFwcGluZ3M6IGJvb2xlYW47CiAgbWFwcGluZ0Zvcm06IEhvc3RNYXBwaW5nOwogIG1hcHBpbmdJbnB1dExhYmVsOiBzdHJpbmc7CiAgbWFwcGluZ0lucHV0TW9kZTogTWFwcGluZ0lucHV0TW9kZTsKICBtYXBwaW5nTW9kZURlc2NyaXB0aW9uOiBzdHJpbmc7CiAgbWFwcGluZ1Jlc29sdmVkVGl0bGU6IHN0cmluZzsKICBtYXBwaW5nU3ViZG9tYWluOiBzdHJpbmc7CiAgbWFwcGluZ1VzZUF1dGg6IGJvb2xlYW47CiAgb3BlbjogYm9vbGVhbjsKICBwYXRoQnJvd3NlckVkaXRvcjogVW53cmFwTmVzdGVkUmVmczxSZXR1cm5UeXBlPHR5cGVvZiB1c2VTdGF0aWNQYXRoQnJvd3Nlcj4+OwogIHByZXNlcnZlSG9zdDogYm9vbGVhbjsKICByZWZyZXNoTWFwcGluZ01ldGFkYXRhOiAoKSA9PiB2b2lkIHwgUHJvbWlzZTx1bmtub3duPjsKICBzYXZlZFJvb3REb21haW46IHN0cmluZzsKICBzZW5kUHJveHlIZWFkZXJzOiBib29sZWFuOwogIHNldEJhc2ljQXV0aEluamVjdGlvbjogKHZhbHVlOiBib29sZWFuKSA9PiB2b2lkOwogIHNldE1hcHBpbmdTdWJkb21haW46ICh2YWx1ZTogc3RyaW5nKSA9PiB2b2lkOwogIHNldE1hcHBpbmdVc2VBdXRoOiAodmFsdWU6IGJvb2xlYW4pID0+IHZvaWQ7CiAgc2V0UHJlc2VydmVIb3N0OiAodmFsdWU6IGJvb2xlYW4pID0+IHZvaWQ7CiAgc2V0U2VuZFByb3h5SGVhZGVyczogKHZhbHVlOiBib29sZWFuKSA9PiB2b2lkOwogIHNldFNob3dUb29sYmFyOiAodmFsdWU6IGJvb2xlYW4pID0+IHZvaWQ7CiAgc2hvdWxkU2hvd1BvcnRhbERpc2FibGVkVG9vbHRpcDogYm9vbGVhbjsKICBzaG93VG9vbGJhcjogYm9vbGVhbjsKICB1cGRhdGVNYXBwaW5nQmFzaWNBdXRoOiAocGF0Y2g6IFBhcnRpYWw8SG9zdE1hcHBpbmdbImJhc2ljX2F1dGgiXT4pID0+IHZvaWQ7CiAgdXBkYXRlTWFwcGluZ0Zvcm06IChwYXRjaDogUGFydGlhbDxIb3N0TWFwcGluZz4pID0+IHZvaWQ7CiAgdmlzaWJpbGl0eUVkaXRvcjogVW53cmFwTmVzdGVkUmVmczxSZXR1cm5UeXBlPHR5cGVvZiB1c2VNYXBwaW5nVmlzaWJpbGl0eT4+Owp9CgpleHBvcnQgdHlwZSBTdWJkb21haW5NYXBwaW5nRGlhbG9nRW1pdHMgPSB7CiAgY2xvc2U6IFtdOwogIHNhdmU6IFtdOwogICJ1cGRhdGU6b3BlbiI6IFt2YWx1ZTogYm9vbGVhbl07Cn07Cg==
+import type { UnwrapNestedRefs } from "vue";
+import type { HostMapping, HostMappingGroup } from "@/types";
+import type { MappingInputMode } from "./model";
+import type { useMappingIcon } from "./useMappingIcon";
+import type { useMappingVisibility } from "./useMappingVisibility";
+import type { useStaticPathBrowser } from "./useStaticPathBrowser";
+
+export interface SubdomainMappingDialogProps {
+  basicAuthInjection: boolean;
+  basicAuthValidationMessage: string;
+  canRefreshMappingMetadata: boolean;
+  canShowBasicAuthInjection: boolean;
+  canUseRootDomainSuffix: boolean;
+  composedPreviewHost: string;
+  fullHostInputHint: string;
+  gatewayHostResponseBlockedReason: string;
+  gatewayProxyHeadersBlockedReason: string;
+  globalWafEnabled: boolean;
+  groups: HostMappingGroup[];
+  handleInputModeChange: (mode: MappingInputMode) => void;
+  handlePortalDisabledTooltipOpenChange: (open: boolean) => void;
+  handlePortalDisabledTooltipTriggerClick: () => void;
+  isGatewayAdvancedLoading: boolean;
+  iconEditor: UnwrapNestedRefs<ReturnType<typeof useMappingIcon>>;
+  isMappingAuthService: boolean;
+  isMappingValid: boolean;
+  isMappingWebSocketTarget: boolean;
+  isPortalDisabledTooltipOpen: boolean;
+  isRefreshingMappingMetadata: boolean;
+  isSavingMappings: boolean;
+  mappingForm: HostMapping;
+  mappingInputLabel: string;
+  mappingInputMode: MappingInputMode;
+  mappingModeDescription: string;
+  mappingResolvedTitle: string;
+  mappingSubdomain: string;
+  mappingUseAuth: boolean;
+  open: boolean;
+  pathBrowserEditor: UnwrapNestedRefs<ReturnType<typeof useStaticPathBrowser>>;
+  preserveHost: boolean;
+  refreshMappingMetadata: () => void | Promise<unknown>;
+  savedRootDomain: string;
+  sendProxyHeaders: boolean;
+  setBasicAuthInjection: (value: boolean) => void;
+  setMappingSubdomain: (value: string) => void;
+  setMappingUseAuth: (value: boolean) => void;
+  setPreserveHost: (value: boolean) => void;
+  setSendProxyHeaders: (value: boolean) => void;
+  setShowToolbar: (value: boolean) => void;
+  shouldShowPortalDisabledTooltip: boolean;
+  showToolbar: boolean;
+  updateMappingBasicAuth: (patch: Partial<HostMapping["basic_auth"]>) => void;
+  updateMappingForm: (patch: Partial<HostMapping>) => void;
+  visibilityEditor: UnwrapNestedRefs<ReturnType<typeof useMappingVisibility>>;
+}
+
+export type SubdomainMappingDialogEmits = {
+  close: [];
+  save: [];
+  "update:open": [value: boolean];
+};

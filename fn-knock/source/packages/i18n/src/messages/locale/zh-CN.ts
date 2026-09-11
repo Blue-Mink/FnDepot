@@ -1,1 +1,11 @@
-ZXhwb3J0IGNvbnN0IHpoQ05Mb2NhbGUgPSB7CiAgbGFiZWw6ICLor63oqIAiLAogIHpoQ046ICLkuK3mlofnroDkvZMiLAogIHpoSGFudDogIuS4reaWh+ato+mrlCIsCiAgZW46ICJFbmdsaXNoIiwKICBrb0tSOiAi7ZWc6rWt7Ja0IiwKICBqYUpQOiAi5pel5pys6KqeIiwKICBzYXZlZDogIuivreiogOiuvue9ruW3suabtOaWsCIsCiAgc2F2ZUZhaWxlZDogIuivreiogOiuvue9ruS/neWtmOWksei0pSIsCiAgaW52YWxpZDogIuS4jeaUr+aMgeeahOivreiogCIsCn07Cg==
+export const zhCNLocale = {
+  label: "语言",
+  zhCN: "中文简体",
+  zhHant: "中文正體",
+  en: "English",
+  koKR: "한국어",
+  jaJP: "日本語",
+  saved: "语言设置已更新",
+  saveFailed: "语言设置保存失败",
+  invalid: "不支持的语言",
+};

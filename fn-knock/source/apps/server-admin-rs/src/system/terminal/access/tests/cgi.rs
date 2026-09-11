@@ -1,1 +1,112 @@
-Ly8hIEV4ZXJjaXNlIHRoZSBzaGlwcGVkIE5BUyBDR0kgc2NyaXB0cyBhZ2FpbnN0IHRoZSBhY3R1YWwgdGVybWluYWwgSFRUUCBBUEkuCnVzZSBzdXBlcjo6KjsKdXNlIHN0ZDo6cGF0aDo6UGF0aDsKdXNlIHRva2lvOjpwcm9jZXNzOjpDb21tYW5kOwoKYXN5bmMgZm4gcmVxdWVzdCgKICAgIHNjcmlwdDogJlBhdGgsCiAgICBiaW46ICZQYXRoLAogICAgcG9ydDogdTE2LAogICAgcGF0aDogJnN0ciwKICAgIG1ldGhvZDogJnN0ciwKICAgIGNvb2tpZTogJnN0ciwKKSAtPiBTdHJpbmcgewogICAgdXNlIHN0ZDo6cHJvY2Vzczo6U3RkaW87CiAgICB1c2UgdG9raW86OmlvOjpBc3luY1dyaXRlRXh0OwogICAgbGV0IGJvZHkgPSAiIjsKICAgIGxldCBtdXQgY2hpbGQgPSBDb21tYW5kOjpuZXcoInNoIikKICAgICAgICAuYXJnKHNjcmlwdCkKICAgICAgICAuZW52KAogICAgICAgICAgICAiUEFUSCIsCiAgICAgICAgICAgIGZvcm1hdCEoInt9Ont9IiwgYmluLmRpc3BsYXkoKSwgc3RkOjplbnY6OnZhcigiUEFUSCIpLnVud3JhcCgpKSwKICAgICAgICApCiAgICAgICAgLmVudigiQVVUSEVOVElDQVRFX0NHSSIsIGJpbi5qb2luKCJhdXRoZW50aWNhdGUiKSkKICAgICAgICAuZW52KCJBRE1JTl9UQVJHRVRfSE9TVCIsICIxMjcuMC4wLjEiKQogICAgICAgIC5lbnYoIkFETUlOX1RBUkdFVF9QT1JUIiwgcG9ydC50b19zdHJpbmcoKSkKICAgICAgICAuZW52KCJSRVFVRVNUX1VSSSIsIHBhdGgpCiAgICAgICAgLmVudigiUkVRVUVTVF9NRVRIT0QiLCBtZXRob2QpCiAgICAgICAgLmVudigiQ09OVEVOVF9MRU5HVEgiLCBib2R5LmxlbigpLnRvX3N0cmluZygpKQogICAgICAgIC5lbnYoIkhUVFBfQ09PS0lFIiwgY29va2llKQogICAgICAgIC5zdGRpbihTdGRpbzo6cGlwZWQoKSkKICAgICAgICAuc3Rkb3V0KFN0ZGlvOjpwaXBlZCgpKQogICAgICAgIC5zcGF3bigpCiAgICAgICAgLnVud3JhcCgpOwogICAgY2hpbGQKICAgICAgICAuc3RkaW4KICAgICAgICAudGFrZSgpCiAgICAgICAgLnVud3JhcCgpCiAgICAgICAgLndyaXRlX2FsbChib2R5LmFzX2J5dGVzKCkpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgbGV0IG91dHB1dCA9IGNoaWxkLndhaXRfd2l0aF9vdXRwdXQoKS5hd2FpdC51bndyYXAoKTsKICAgIGFzc2VydCEob3V0cHV0LnN0YXR1cy5zdWNjZXNzKCkpOwogICAgU3RyaW5nOjpmcm9tX3V0Zjgob3V0cHV0LnN0ZG91dCkudW53cmFwKCkKfQpmbiBqc29uKG91dHB1dDogJnN0cikgLT4gc2VyZGVfanNvbjo6VmFsdWUgewogICAgc2VyZGVfanNvbjo6ZnJvbV9zdHIob3V0cHV0LnNwbGl0X29uY2UoIlxyXG5cclxuIikudW53cmFwKCkuMSkudW53cmFwKCkKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gbmFzX2NnaV90ZXJtaW5hbF91c2VzX29ubHlfdGhlX2ZlYXR1cmVfc3dpdGNoKCkgewogICAgdXNlIHN0ZDo6b3M6OnVuaXg6OmZzOjpQZXJtaXNzaW9uc0V4dDsKICAgIGxldCAoZGlyZWN0b3J5LCBzdGF0ZSkgPSB0ZXN0X3N0YXRlKCkuYXdhaXQ7CgogICAgbGV0IGxpc3RlbmVyID0gdG9raW86Om5ldDo6VGNwTGlzdGVuZXI6OmJpbmQoIjEyNy4wLjAuMTowIikuYXdhaXQudW53cmFwKCk7CiAgICBsZXQgcG9ydCA9IGxpc3RlbmVyLmxvY2FsX2FkZHIoKS51bndyYXAoKS5wb3J0KCk7CiAgICBsZXQgYXBwID0gY3JhdGU6OnRlcm1pbmFsOjp0ZXJtaW5hbF9yb3V0ZXMoKS53aXRoX3N0YXRlKHN0YXRlLmNsb25lKCkpOwogICAgbGV0IHNodXRkb3duID0gc3RhdGUuc2h1dGRvd24uY2xvbmUoKTsKICAgIHN0YXRlLnNwYXduX2JhY2tncm91bmQoInRlcm1pbmFsLWNnaS10ZXN0IiwgYXN5bmMgbW92ZSB7CiAgICAgICAgYXh1bTo6c2VydmUobGlzdGVuZXIsIGFwcCkKICAgICAgICAgICAgLndpdGhfZ3JhY2VmdWxfc2h1dGRvd24oc2h1dGRvd24uY2FuY2VsbGVkX293bmVkKCkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCk7CiAgICB9KTsKICAgIGxldCByb290ID0gUGF0aDo6bmV3KGVudiEoIkNBUkdPX01BTklGRVNUX0RJUiIpKS5qb2luKCIuLi8uLiIpOwogICAgbGV0IGJpbiA9IGRpcmVjdG9yeS5wYXRoKCkuam9pbigiYmluIik7CiAgICBzdGQ6OmZzOjpjcmVhdGVfZGlyKCZiaW4pLnVud3JhcCgpOwogICAgZm9yIChuYW1lLCBib2R5KSBpbiBbCiAgICAgICAgKCJhdXRoZW50aWNhdGUiLCAiIyEvYmluL3NoXG5wcmludGYgdGVzdC1hZG1pbiIpLAogICAgICAgICgiaWQiLCAiIyEvYmluL3NoXG5wcmludGYgYWRtaW5pc3RyYXRvcnMiKSwKICAgIF0gewogICAgICAgIGxldCBwYXRoID0gYmluLmpvaW4obmFtZSk7CiAgICAgICAgc3RkOjpmczo6d3JpdGUoJnBhdGgsIGJvZHkpLnVud3JhcCgpOwogICAgICAgIHN0ZDo6ZnM6OnNldF9wZXJtaXNzaW9ucyhwYXRoLCBzdGQ6OmZzOjpQZXJtaXNzaW9uczo6ZnJvbV9tb2RlKDBvNzU1KSkudW53cmFwKCk7CiAgICB9CiAgICBmb3IgKHNjcmlwdCwgcHJlZml4KSBpbiBbCiAgICAgICAgKAogICAgICAgICAgICAiYXBwcy9mbi1rbm9jay9hcHAvdWkvaW5kZXguY2dpIiwKICAgICAgICAgICAgIi9jZ2kvVGhpcmRQYXJ0eS9mbi1rbm9jay9pbmRleC5jZ2kvIiwKICAgICAgICApLAogICAgICAgICgKICAgICAgICAgICAgImFwcHMvZm4ta25vY2stbGl0ZS9hcHAvdWkvaW5kZXguY2dpIiwKICAgICAgICAgICAgIi9jZ2kvVGhpcmRQYXJ0eS9mbi1rbm9jay1saXRlL2luZGV4LmNnaS8iLAogICAgICAgICksCiAgICAgICAgKAogICAgICAgICAgICAiYXBwcy9mbi1rbm9jay1zeW5vbG9neS9wYWNrYWdlL3VpL2luZGV4LmNnaSIsCiAgICAgICAgICAgICIvd2VibWFuLzNyZHBhcnR5L2ZuLWtub2NrLXN5bm9sb2d5L2luZGV4LmNnaS8iLAogICAgICAgICksCiAgICBdIHsKICAgICAgICBsZXQgc2NyaXB0ID0gcm9vdC5qb2luKHNjcmlwdCk7CiAgICAgICAgbGV0IHRhcmdldHNfcGF0aCA9IGZvcm1hdCEoIntwcmVmaXh9YXBpL2FkbWluL3Rlcm1pbmFsL3RhcmdldHMiKTsKICAgICAgICBmb3IgZW5hYmxlZCBpbiBbdHJ1ZSwgZmFsc2UsIHRydWVdIHsKICAgICAgICAgICAgY2hhbmdlKCZzdGF0ZSwgZW5hYmxlZCkuYXdhaXQ7CiAgICAgICAgICAgIGxldCByZXNwb25zZSA9IHJlcXVlc3QoCiAgICAgICAgICAgICAgICAmc2NyaXB0LAogICAgICAgICAgICAgICAgJmJpbiwKICAgICAgICAgICAgICAgIHBvcnQsCiAgICAgICAgICAgICAgICAmdGFyZ2V0c19wYXRoLAogICAgICAgICAgICAgICAgIkdFVCIsCiAgICAgICAgICAgICAgICAibmFzLXNlc3Npb249cHJpdmF0ZSIsCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0OwogICAgICAgICAgICBpZiBlbmFibGVkIHsKICAgICAgICAgICAgICAgIGFzc2VydCEoanNvbigmcmVzcG9uc2UpWyJkYXRhIl0uaXNfYXJyYXkoKSk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBhc3NlcnRfZXEhKGpzb24oJnJlc3BvbnNlKVsiZXJyb3JDb2RlIl0sICJmZWF0dXJlX2Rpc2FibGVkIik7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgYXNzZXJ0ISghcmVzcG9uc2UuY29udGFpbnMoImZuLWtub2NrLXRlcm1pbmFsLWFjY2Vzcz0iKSk7CiAgICAgICAgfQogICAgfQoKICAgIHN0YXRlLnNodXRkb3duLmNhbmNlbCgpOwp9Cg==
+//! Exercise the shipped NAS CGI scripts against the actual terminal HTTP API.
+use super::*;
+use std::path::Path;
+use tokio::process::Command;
+
+async fn request(
+    script: &Path,
+    bin: &Path,
+    port: u16,
+    path: &str,
+    method: &str,
+    cookie: &str,
+) -> String {
+    use std::process::Stdio;
+    use tokio::io::AsyncWriteExt;
+    let body = "";
+    let mut child = Command::new("sh")
+        .arg(script)
+        .env(
+            "PATH",
+            format!("{}:{}", bin.display(), std::env::var("PATH").unwrap()),
+        )
+        .env("AUTHENTICATE_CGI", bin.join("authenticate"))
+        .env("ADMIN_TARGET_HOST", "127.0.0.1")
+        .env("ADMIN_TARGET_PORT", port.to_string())
+        .env("REQUEST_URI", path)
+        .env("REQUEST_METHOD", method)
+        .env("CONTENT_LENGTH", body.len().to_string())
+        .env("HTTP_COOKIE", cookie)
+        .stdin(Stdio::piped())
+        .stdout(Stdio::piped())
+        .spawn()
+        .unwrap();
+    child
+        .stdin
+        .take()
+        .unwrap()
+        .write_all(body.as_bytes())
+        .await
+        .unwrap();
+    let output = child.wait_with_output().await.unwrap();
+    assert!(output.status.success());
+    String::from_utf8(output.stdout).unwrap()
+}
+fn json(output: &str) -> serde_json::Value {
+    serde_json::from_str(output.split_once("\r\n\r\n").unwrap().1).unwrap()
+}
+
+#[tokio::test]
+async fn nas_cgi_terminal_uses_only_the_feature_switch() {
+    use std::os::unix::fs::PermissionsExt;
+    let (directory, state) = test_state().await;
+
+    let listener = tokio::net::TcpListener::bind("127.0.0.1:0").await.unwrap();
+    let port = listener.local_addr().unwrap().port();
+    let app = crate::terminal::terminal_routes().with_state(state.clone());
+    let shutdown = state.shutdown.clone();
+    state.spawn_background("terminal-cgi-test", async move {
+        axum::serve(listener, app)
+            .with_graceful_shutdown(shutdown.cancelled_owned())
+            .await
+            .unwrap();
+    });
+    let root = Path::new(env!("CARGO_MANIFEST_DIR")).join("../..");
+    let bin = directory.path().join("bin");
+    std::fs::create_dir(&bin).unwrap();
+    for (name, body) in [
+        ("authenticate", "#!/bin/sh\nprintf test-admin"),
+        ("id", "#!/bin/sh\nprintf administrators"),
+    ] {
+        let path = bin.join(name);
+        std::fs::write(&path, body).unwrap();
+        std::fs::set_permissions(path, std::fs::Permissions::from_mode(0o755)).unwrap();
+    }
+    for (script, prefix) in [
+        (
+            "apps/fn-knock/app/ui/index.cgi",
+            "/cgi/ThirdParty/fn-knock/index.cgi/",
+        ),
+        (
+            "apps/fn-knock-lite/app/ui/index.cgi",
+            "/cgi/ThirdParty/fn-knock-lite/index.cgi/",
+        ),
+        (
+            "apps/fn-knock-synology/package/ui/index.cgi",
+            "/webman/3rdparty/fn-knock-synology/index.cgi/",
+        ),
+    ] {
+        let script = root.join(script);
+        let targets_path = format!("{prefix}api/admin/terminal/targets");
+        for enabled in [true, false, true] {
+            change(&state, enabled).await;
+            let response = request(
+                &script,
+                &bin,
+                port,
+                &targets_path,
+                "GET",
+                "nas-session=private",
+            )
+            .await;
+            if enabled {
+                assert!(json(&response)["data"].is_array());
+            } else {
+                assert_eq!(json(&response)["errorCode"], "feature_disabled");
+            }
+            assert!(!response.contains("fn-knock-terminal-access="));
+        }
+    }
+
+    state.shutdown.cancel();
+}

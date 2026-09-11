@@ -1,1 +1,146 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCm1rZGlyIC1wICIke1JPT1RfRElSfS9kaXN0IgpXT1JLX0RJUj0iJChta3RlbXAgLWQgIiR7Uk9PVF9ESVJ9L2Rpc3Qvc3lub2xvZ3ktcGFja2FnZS10ZXN0LlhYWFhYWCIpIgpGQUtFX0JJTj0iJHtXT1JLX0RJUn0vYmluIgpSVU5USU1FX0RJUj0iJHtXT1JLX0RJUn0vcnVudGltZSIKUlVTVF9ESVI9IiR7V09SS19ESVJ9L3J1c3QiClBBQ0tBR0VfVEdaPSIke1dPUktfRElSfS9wYWNrYWdlLnRneiIKUEFZTE9BRF9FWFRSQUNUX0RJUj0iJHtXT1JLX0RJUn0vcGF5bG9hZCIKCmNsZWFudXAoKSB7CiAgcm0gLXJmICIke1dPUktfRElSfSIKfQp0cmFwIGNsZWFudXAgRVhJVAoKZmFpbCgpIHsKICBwcmludGYgJ1t0ZXN0LXN5bm9sb2d5LXBhY2thZ2UtdmFsaWRhdGlvbl0gRVJST1I6ICVzXG4nICIkKiIgPiYyCiAgZXhpdCAxCn0KCm1rZGlyIC1wIFwKICAiJHtGQUtFX0JJTn0iIFwKICAiJHtSVU5USU1FX0RJUn0vdWkvd3d3IiBcCiAgIiR7UlVOVElNRV9ESVJ9L3NlcnZlci1hdXRoLXZpZXcvZGlzdCIgXAogICIke1JVTlRJTUVfRElSfS9zZXJ2ZXIvc2VydmVyLWFkbWluL3Jlc291cmNlcyIgXAogICIke1JVU1RfRElSfSIKCmNhdCA+ICIke0ZBS0VfQklOfS9maWxlIiA8PCdFT0YnCiMhL2Jpbi9iYXNoCnByaW50ZiAnJXNcbicgIiR7RVhQRUNURURfRklMRV9ERVNDUklQVElPTjo/fSIKRU9GCmNobW9kIDc1NSAiJHtGQUtFX0JJTn0vZmlsZSIKCmZvciBydW50aW1lX2FyY2ggaW4gYW1kNjQgYXJtNjQgYXJtOyBkbwogIGNwIC91c3IvYmluL3RydWUgIiR7V09SS19ESVJ9L2dvLXJlYXV0aC1wcm94eS1saW51eC0ke3J1bnRpbWVfYXJjaH0iCiAgY3AgL3Vzci9iaW4vdHJ1ZSAiJHtSVVNUX0RJUn0vc2VydmVyLWFkbWluLXJzLWxpbnV4LSR7cnVudGltZV9hcmNofSIKICBjaG1vZCA3NTUgXAogICAgIiR7V09SS19ESVJ9L2dvLXJlYXV0aC1wcm94eS1saW51eC0ke3J1bnRpbWVfYXJjaH0iIFwKICAgICIke1JVU1RfRElSfS9zZXJ2ZXItYWRtaW4tcnMtbGludXgtJHtydW50aW1lX2FyY2h9Igpkb25lCnByaW50ZiAnZml4dHVyZVxuJyA+ICIke1JVTlRJTUVfRElSfS9zZXJ2ZXIvc2VydmVyLWFkbWluL3Jlc291cmNlcy9hY21lc2guemlwIgpwcmludGYgJzxodG1sPmFkbWluPC9odG1sPlxuJyA+ICIke1JVTlRJTUVfRElSfS91aS93d3cvaW5kZXguaHRtbCIKcHJpbnRmICc8aHRtbD5hdXRoPC9odG1sPlxuJyA+ICIke1JVTlRJTUVfRElSfS9zZXJ2ZXItYXV0aC12aWV3L2Rpc3QvaW5kZXguaHRtbCIKCiMgS2VlcCB0aGUgcGF5bG9hZCBsaXN0aW5nIGxhcmdlciB0aGFuIGEgcGlwZSBidWZmZXIuIFRoZSBmb3JtZXIKIyBgdGFyIC4uLiB8IGdyZXAgLXFgIHZhbGlkYXRpb24gY2xvc2VkIHN0ZG91dCBhZnRlciBhbiBlYXJseSBtYXRjaCwgY2F1c2luZwojIHRhciB0byBmYWlsIHdpdGggRVBJUEUgdW5kZXIgYHNldCAtbyBwaXBlZmFpbGAuCmZvciBpbmRleCBpbiAkKHNlcSAxIDI1MDApOyBkbwogIHByaW50ZiAnZml4dHVyZVxuJyA+ICIke1JVTlRJTUVfRElSfS91aS93d3cvenotdmFsaWRhdGlvbi0ke2luZGV4fS50eHQiCmRvbmUKCmZvciB0YXJnZXQgaW4gXAogICd4ODZfNjQ6YW1kNjQ6RUxGIDY0LWJpdCBMU0IgZXhlY3V0YWJsZSwgeDg2LTY0LCBzdGF0aWNhbGx5IGxpbmtlZCcgXAogICdhcm12ODphcm02NDpFTEYgNjQtYml0IExTQiBleGVjdXRhYmxlLCBBUk0gYWFyY2g2NCwgc3RhdGljYWxseSBsaW5rZWQnIFwKICAnYXJtdjc6YXJtOkVMRiAzMi1iaXQgTFNCIGV4ZWN1dGFibGUsIEFSTSwgRUFCSTUgdmVyc2lvbiAxIChTWVNWKSwgc3RhdGljYWxseSBsaW5rZWQnCmRvCiAgSUZTPTogcmVhZCAtciBzeW5vbG9neV9hcmNoIHJ1bnRpbWVfYXJjaCBmaWxlX2Rlc2NyaXB0aW9uIDw8PCAiJHt0YXJnZXR9IgogIGdhdGV3YXlfYmluPSIke1dPUktfRElSfS9nby1yZWF1dGgtcHJveHktbGludXgtJHtydW50aW1lX2FyY2h9IgogIG91dHB1dF9wYXRoPSIke1dPUktfRElSfS9mbi1rbm9jay1zeW5vbG9neS0ke3N5bm9sb2d5X2FyY2h9LXRlc3Quc3BrIgoKICBQQVRIPSIke0ZBS0VfQklOfToke1BBVEh9IiBcCiAgVFo9IkFzaWEvU2hhbmdoYWkiIFwKICBFWFBFQ1RFRF9GSUxFX0RFU0NSSVBUSU9OPSIke2ZpbGVfZGVzY3JpcHRpb259IiBcCiAgRk5fS05PQ0tfU1lOT0xPR1lfU0tJUF9BUlRJRkFDVF9QUkVQQVJFPTEgXAogIEZOX0tOT0NLX1NZTk9MT0dZX0dBVEVXQVlfQklOPSIke2dhdGV3YXlfYmlufSIgXAogIEZOX0tOT0NLX1BSRVBBUkVEX1JVTlRJTUVfRElSPSIke1JVTlRJTUVfRElSfSIgXAogIEZOX0tOT0NLX1BSRVBBUkVEX01VU0xfUlVTVF9CQUNLRU5EX0RJUj0iJHtSVVNUX0RJUn0iIFwKICBGTl9LTk9DS19TWU5PTE9HWV9PVVRQVVQ9IiR7b3V0cHV0X3BhdGh9IiBcCiAgICBiYXNoICIke1JPT1RfRElSfS9hcHBzL2ZuLWtub2NrLXN5bm9sb2d5L3NjcmlwdHMvYnVpbGQtcGFja2FnZS5zaCIgIiR7c3lub2xvZ3lfYXJjaH0iID4vZGV2L251bGwKCiAgWyAtcyAiJHtvdXRwdXRfcGF0aH0iIF0gfHwgZmFpbCAiU3lub2xvZ3kgYnVpbGRlciBkaWQgbm90IHByb2R1Y2UgJHtzeW5vbG9neV9hcmNofSBTUEsiCiAgc3BrX2xpc3Rpbmc9IiQodGFyIC10ZiAiJHtvdXRwdXRfcGF0aH0iKSIKICBncmVwIC1GcXggJ0lORk8nIDw8PCAiJHtzcGtfbGlzdGluZ30iIHx8IGZhaWwgIiR7c3lub2xvZ3lfYXJjaH0gU1BLIGlzIG1pc3NpbmcgSU5GTyIKICBncmVwIC1GcXggJ3BhY2thZ2UudGd6JyA8PDwgIiR7c3BrX2xpc3Rpbmd9IiB8fCBmYWlsICIke3N5bm9sb2d5X2FyY2h9IFNQSyBpcyBtaXNzaW5nIHBhY2thZ2UudGd6IgogIHRhciAteE9mICIke291dHB1dF9wYXRofSIgSU5GTyB8IGdyZXAgLUZxeCAiYXJjaD1cIiR7c3lub2xvZ3lfYXJjaH1cIiIgfHwgXAogICAgZmFpbCAiJHtzeW5vbG9neV9hcmNofSBTUEsgSU5GTyBoYXMgdGhlIHdyb25nIGFyY2hpdGVjdHVyZSIKICBleHBlY3RlZF9iZXRhPSIkKGpxIC1yICdpZiAoLnJlbGVhc2VDaGFubmVsIC8vICJzdGFibGUiKSA9PSAic3RhYmxlIiB0aGVuICJubyIgZWxzZSAieWVzIiBlbmQnICIke1JPT1RfRElSfS92ZXJzaW9uLmpzb24iKSIKICB0YXIgLXhPZiAiJHtvdXRwdXRfcGF0aH0iIElORk8gfCBncmVwIC1GcXggImJldGE9XCIke2V4cGVjdGVkX2JldGF9XCIiIHx8IFwKICAgIGZhaWwgIiR7c3lub2xvZ3lfYXJjaH0gU1BLIElORk8gaGFzIHRoZSB3cm9uZyBiZXRhIG1hcmtlciIKICB0YXIgLXhPZiAiJHtvdXRwdXRfcGF0aH0iIElORk8gfCBncmVwIC1GcXggJ3N0YXJ0X2RlcF9zZXJ2aWNlcz0ibmV0d29yay1vbmxpbmUudGFyZ2V0IicgfHwgXAogICAgZmFpbCAiJHtzeW5vbG9neV9hcmNofSBTUEsgbXVzdCB3YWl0IGZvciBEU00gbmV0d29yayByZWFkaW5lc3MiCgogIHRhciAteE9mICIke291dHB1dF9wYXRofSIgcGFja2FnZS50Z3ogPiAiJHtQQUNLQUdFX1RHWn0iCiAgcGF5bG9hZF9saXN0aW5nPSIkKHRhciAtdHpmICIke1BBQ0tBR0VfVEdafSIpIgogIGdyZXAgLUZxeCAnLi9iaW4vc2VydmVyLWFkbWluLXJzJyA8PDwgIiR7cGF5bG9hZF9saXN0aW5nfSIgfHwgZmFpbCAiJHtzeW5vbG9neV9hcmNofSBTUEsgaXMgbWlzc2luZyBiYWNrZW5kIgogIGdyZXAgLUZxeCAnLi9iaW4vZ28tcmVhdXRoLXByb3h5JyA8PDwgIiR7cGF5bG9hZF9saXN0aW5nfSIgfHwgZmFpbCAiJHtzeW5vbG9neV9hcmNofSBTUEsgaXMgbWlzc2luZyBnYXRld2F5IgoKICBybSAtcmYgIiR7UEFZTE9BRF9FWFRSQUNUX0RJUn0iCiAgbWtkaXIgLXAgIiR7UEFZTE9BRF9FWFRSQUNUX0RJUn0iCiAgdGFyIC14emYgIiR7UEFDS0FHRV9UR1p9IiAtQyAiJHtQQVlMT0FEX0VYVFJBQ1RfRElSfSIKICBQQVlMT0FEX0VYVFJBQ1RfRElSPSIke1BBWUxPQURfRVhUUkFDVF9ESVJ9IiBub2RlIDw8J05PREUnCmNvbnN0IGZzID0gcmVxdWlyZSgibm9kZTpmcyIpOwpjb25zdCBwYXRoID0gcmVxdWlyZSgibm9kZTpwYXRoIik7Cgpjb25zdCBleHBlY3RlZE10aW1lU2Vjb25kcyA9IDk0NjY4NDgwMDsKZm9yIChjb25zdCByZWxhdGl2ZVBhdGggb2YgWwogICJiaW4vc2VydmVyLWFkbWluLXJzIiwKICAidWkvd3d3L2luZGV4Lmh0bWwiLAogICJzZXJ2ZXItYXV0aC12aWV3L2Rpc3QvaW5kZXguaHRtbCIsCl0pIHsKICBjb25zdCBhY3R1YWwgPSBNYXRoLnRydW5jKAogICAgZnMuc3RhdFN5bmMocGF0aC5qb2luKHByb2Nlc3MuZW52LlBBWUxPQURfRVhUUkFDVF9ESVIsIHJlbGF0aXZlUGF0aCkpLm10aW1lTXMgLyAxMDAwLAogICk7CiAgaWYgKGFjdHVhbCAhPT0gZXhwZWN0ZWRNdGltZVNlY29uZHMpIHsKICAgIHRocm93IG5ldyBFcnJvcihgJHtyZWxhdGl2ZVBhdGh9IG10aW1lPSR7YWN0dWFsfSwgZXhwZWN0ZWQgVVRDICR7ZXhwZWN0ZWRNdGltZVNlY29uZHN9YCk7CiAgfQp9Ck5PREUKZG9uZQoKWyAiJChmaW5kICIke1dPUktfRElSfSIgLW1heGRlcHRoIDEgLW5hbWUgJ2ZuLWtub2NrLXN5bm9sb2d5LSotdGVzdC5zcGsnIC10eXBlIGYgfCB3YyAtbCB8IHRyIC1kICcgJykiID0gIjMiIF0gfHwgXAogIGZhaWwgImNvbnNlY3V0aXZlIGFyY2hpdGVjdHVyZSBidWlsZHMgcmVtb3ZlZCBhbm90aGVyIFN5bm9sb2d5IHBhY2thZ2UiCgpqcSAtZSAnCiAgLnNjcmlwdHNbImZuLWtub2NrOnNwazpidWlsZCJdIHwgY29udGFpbnMoImJ1aWxkLWFsbC1wYWNrYWdlcy5zaCIpCicgIiR7Uk9PVF9ESVJ9L3BhY2thZ2UuanNvbiIgPi9kZXYvbnVsbCB8fCBmYWlsICJkZWZhdWx0IFNQSyBjb21tYW5kIG11c3QgYnVpbGQgYWxsIGFyY2hpdGVjdHVyZXMiCmZvciBzeW5vbG9neV9hcmNoIGluIHg4Nl82NCBhcm12OCBhcm12NzsgZG8KICBqcSAtZSAtLWFyZyBjb21tYW5kICJmbi1rbm9jazpzcGs6YnVpbGQ6JHtzeW5vbG9neV9hcmNofSIgLS1hcmcgYXJjaCAiJHtzeW5vbG9neV9hcmNofSIgJwogICAgLnNjcmlwdHNbJGNvbW1hbmRdIHwgY29udGFpbnMoImJ1aWxkLXBhY2thZ2Uuc2ggIiArICRhcmNoKQogICcgIiR7Uk9PVF9ESVJ9L3BhY2thZ2UuanNvbiIgPi9kZXYvbnVsbCB8fCBmYWlsICJtaXNzaW5nIGxvY2FsIGNvbW1hbmQgZm9yICR7c3lub2xvZ3lfYXJjaH0iCmRvbmUKZ3JlcCAtRnEgJ2J1aWxkLWFsbC1wYWNrYWdlcy5zaCcgIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvZm4ta25vY2stYXNzZW1ibGUtcmVsZWFzZS5zaCIgfHwgXAogIGZhaWwgInJlbGVhc2UgYXNzZW1ibHkgbXVzdCBidWlsZCBhbGwgU3lub2xvZ3kgYXJjaGl0ZWN0dXJlcyIKZ3JlcCAtRnEgJ3J1bjogYmFzaCAuL3NjcmlwdHMvZm4ta25vY2stYXNzZW1ibGUtcmVsZWFzZS5zaCcgIiR7Uk9PVF9ESVJ9Ly5naXRodWIvd29ya2Zsb3dzL3JlbGVhc2UueW1sIiB8fCBcCiAgZmFpbCAicmVsZWFzZSB3b3JrZmxvdyBtdXN0IGludm9rZSB0aGUgcmVsZWFzZSBhc3NlbWJseSBzY3JpcHQiCgppZiBQQVRIPSIke0ZBS0VfQklOfToke1BBVEh9IiBcCiAgRVhQRUNURURfRklMRV9ERVNDUklQVElPTj0nRUxGIDY0LWJpdCBMU0IgZXhlY3V0YWJsZSwgeDg2LTY0LCBzdGF0aWNhbGx5IGxpbmtlZCcgXAogIEZOX0tOT0NLX1NZTk9MT0dZX1NLSVBfQVJUSUZBQ1RfUFJFUEFSRT0xIFwKICBGTl9LTk9DS19TWU5PTE9HWV9HQVRFV0FZX0JJTj0iJHtXT1JLX0RJUn0vZ28tcmVhdXRoLXByb3h5LWxpbnV4LWFybTY0IiBcCiAgRk5fS05PQ0tfUFJFUEFSRURfUlVOVElNRV9ESVI9IiR7UlVOVElNRV9ESVJ9IiBcCiAgRk5fS05PQ0tfUFJFUEFSRURfTVVTTF9SVVNUX0JBQ0tFTkRfRElSPSIke1JVU1RfRElSfSIgXAogIEZOX0tOT0NLX1NZTk9MT0dZX09VVFBVVD0iJHtXT1JLX0RJUn0vbWlzbWF0Y2hlZC1hcm12OC5zcGsiIFwKICAgIGJhc2ggIiR7Uk9PVF9ESVJ9L2FwcHMvZm4ta25vY2stc3lub2xvZ3kvc2NyaXB0cy9idWlsZC1wYWNrYWdlLnNoIiBhcm12OCA+L2Rldi9udWxsIDI+JjEKdGhlbgogIGZhaWwgIlN5bm9sb2d5IGJ1aWxkZXIgYWNjZXB0ZWQgeDg2IGJpbmFyaWVzIGZvciBhcm12OCIKZmkKCmlmIGdyZXAgLUVxICd0YXJbWzpzcGFjZTpdXSstdCh6KT9mW158XSpbfF1bWzpzcGFjZTpdXSpncmVwIC4qLVtBLVphLXpdKnEnIFwKICAiJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay1zeW5vbG9neS9zY3JpcHRzL2J1aWxkLXBhY2thZ2Uuc2giOyB0aGVuCiAgZmFpbCAiU3lub2xvZ3kgdmFsaWRhdGlvbiBtdXN0IG5vdCBzdHJlYW0gdGFyIG91dHB1dCBpbnRvIGdyZXAgLXEiCmZpCgpwcmludGYgJ1t0ZXN0LXN5bm9sb2d5LXBhY2thZ2UtdmFsaWRhdGlvbl0gU1BLIHZhbGlkYXRpb24gcGFzc2VkXG4nCg==
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+mkdir -p "${ROOT_DIR}/dist"
+WORK_DIR="$(mktemp -d "${ROOT_DIR}/dist/synology-package-test.XXXXXX")"
+FAKE_BIN="${WORK_DIR}/bin"
+RUNTIME_DIR="${WORK_DIR}/runtime"
+RUST_DIR="${WORK_DIR}/rust"
+PACKAGE_TGZ="${WORK_DIR}/package.tgz"
+PAYLOAD_EXTRACT_DIR="${WORK_DIR}/payload"
+
+cleanup() {
+  rm -rf "${WORK_DIR}"
+}
+trap cleanup EXIT
+
+fail() {
+  printf '[test-synology-package-validation] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+mkdir -p \
+  "${FAKE_BIN}" \
+  "${RUNTIME_DIR}/ui/www" \
+  "${RUNTIME_DIR}/server-auth-view/dist" \
+  "${RUNTIME_DIR}/server/server-admin/resources" \
+  "${RUST_DIR}"
+
+cat > "${FAKE_BIN}/file" <<'EOF'
+#!/bin/bash
+printf '%s\n' "${EXPECTED_FILE_DESCRIPTION:?}"
+EOF
+chmod 755 "${FAKE_BIN}/file"
+
+for runtime_arch in amd64 arm64 arm; do
+  cp /usr/bin/true "${WORK_DIR}/go-reauth-proxy-linux-${runtime_arch}"
+  cp /usr/bin/true "${RUST_DIR}/server-admin-rs-linux-${runtime_arch}"
+  chmod 755 \
+    "${WORK_DIR}/go-reauth-proxy-linux-${runtime_arch}" \
+    "${RUST_DIR}/server-admin-rs-linux-${runtime_arch}"
+done
+printf 'fixture\n' > "${RUNTIME_DIR}/server/server-admin/resources/acmesh.zip"
+printf '<html>admin</html>\n' > "${RUNTIME_DIR}/ui/www/index.html"
+printf '<html>auth</html>\n' > "${RUNTIME_DIR}/server-auth-view/dist/index.html"
+
+# Keep the payload listing larger than a pipe buffer. The former
+# `tar ... | grep -q` validation closed stdout after an early match, causing
+# tar to fail with EPIPE under `set -o pipefail`.
+for index in $(seq 1 2500); do
+  printf 'fixture\n' > "${RUNTIME_DIR}/ui/www/zz-validation-${index}.txt"
+done
+
+for target in \
+  'x86_64:amd64:ELF 64-bit LSB executable, x86-64, statically linked' \
+  'armv8:arm64:ELF 64-bit LSB executable, ARM aarch64, statically linked' \
+  'armv7:arm:ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked'
+do
+  IFS=: read -r synology_arch runtime_arch file_description <<< "${target}"
+  gateway_bin="${WORK_DIR}/go-reauth-proxy-linux-${runtime_arch}"
+  output_path="${WORK_DIR}/fn-knock-synology-${synology_arch}-test.spk"
+
+  PATH="${FAKE_BIN}:${PATH}" \
+  TZ="Asia/Shanghai" \
+  EXPECTED_FILE_DESCRIPTION="${file_description}" \
+  FN_KNOCK_SYNOLOGY_SKIP_ARTIFACT_PREPARE=1 \
+  FN_KNOCK_SYNOLOGY_GATEWAY_BIN="${gateway_bin}" \
+  FN_KNOCK_PREPARED_RUNTIME_DIR="${RUNTIME_DIR}" \
+  FN_KNOCK_PREPARED_MUSL_RUST_BACKEND_DIR="${RUST_DIR}" \
+  FN_KNOCK_SYNOLOGY_OUTPUT="${output_path}" \
+    bash "${ROOT_DIR}/apps/fn-knock-synology/scripts/build-package.sh" "${synology_arch}" >/dev/null
+
+  [ -s "${output_path}" ] || fail "Synology builder did not produce ${synology_arch} SPK"
+  spk_listing="$(tar -tf "${output_path}")"
+  grep -Fqx 'INFO' <<< "${spk_listing}" || fail "${synology_arch} SPK is missing INFO"
+  grep -Fqx 'package.tgz' <<< "${spk_listing}" || fail "${synology_arch} SPK is missing package.tgz"
+  tar -xOf "${output_path}" INFO | grep -Fqx "arch=\"${synology_arch}\"" || \
+    fail "${synology_arch} SPK INFO has the wrong architecture"
+  expected_beta="$(jq -r 'if (.releaseChannel // "stable") == "stable" then "no" else "yes" end' "${ROOT_DIR}/version.json")"
+  tar -xOf "${output_path}" INFO | grep -Fqx "beta=\"${expected_beta}\"" || \
+    fail "${synology_arch} SPK INFO has the wrong beta marker"
+  tar -xOf "${output_path}" INFO | grep -Fqx 'start_dep_services="network-online.target"' || \
+    fail "${synology_arch} SPK must wait for DSM network readiness"
+
+  tar -xOf "${output_path}" package.tgz > "${PACKAGE_TGZ}"
+  payload_listing="$(tar -tzf "${PACKAGE_TGZ}")"
+  grep -Fqx './bin/server-admin-rs' <<< "${payload_listing}" || fail "${synology_arch} SPK is missing backend"
+  grep -Fqx './bin/go-reauth-proxy' <<< "${payload_listing}" || fail "${synology_arch} SPK is missing gateway"
+
+  rm -rf "${PAYLOAD_EXTRACT_DIR}"
+  mkdir -p "${PAYLOAD_EXTRACT_DIR}"
+  tar -xzf "${PACKAGE_TGZ}" -C "${PAYLOAD_EXTRACT_DIR}"
+  PAYLOAD_EXTRACT_DIR="${PAYLOAD_EXTRACT_DIR}" node <<'NODE'
+const fs = require("node:fs");
+const path = require("node:path");
+
+const expectedMtimeSeconds = 946684800;
+for (const relativePath of [
+  "bin/server-admin-rs",
+  "ui/www/index.html",
+  "server-auth-view/dist/index.html",
+]) {
+  const actual = Math.trunc(
+    fs.statSync(path.join(process.env.PAYLOAD_EXTRACT_DIR, relativePath)).mtimeMs / 1000,
+  );
+  if (actual !== expectedMtimeSeconds) {
+    throw new Error(`${relativePath} mtime=${actual}, expected UTC ${expectedMtimeSeconds}`);
+  }
+}
+NODE
+done
+
+[ "$(find "${WORK_DIR}" -maxdepth 1 -name 'fn-knock-synology-*-test.spk' -type f | wc -l | tr -d ' ')" = "3" ] || \
+  fail "consecutive architecture builds removed another Synology package"
+
+jq -e '
+  .scripts["fn-knock:spk:build"] | contains("build-all-packages.sh")
+' "${ROOT_DIR}/package.json" >/dev/null || fail "default SPK command must build all architectures"
+for synology_arch in x86_64 armv8 armv7; do
+  jq -e --arg command "fn-knock:spk:build:${synology_arch}" --arg arch "${synology_arch}" '
+    .scripts[$command] | contains("build-package.sh " + $arch)
+  ' "${ROOT_DIR}/package.json" >/dev/null || fail "missing local command for ${synology_arch}"
+done
+grep -Fq 'build-all-packages.sh' "${ROOT_DIR}/scripts/fn-knock-assemble-release.sh" || \
+  fail "release assembly must build all Synology architectures"
+grep -Fq 'run: bash ./scripts/fn-knock-assemble-release.sh' "${ROOT_DIR}/.github/workflows/release.yml" || \
+  fail "release workflow must invoke the release assembly script"
+
+if PATH="${FAKE_BIN}:${PATH}" \
+  EXPECTED_FILE_DESCRIPTION='ELF 64-bit LSB executable, x86-64, statically linked' \
+  FN_KNOCK_SYNOLOGY_SKIP_ARTIFACT_PREPARE=1 \
+  FN_KNOCK_SYNOLOGY_GATEWAY_BIN="${WORK_DIR}/go-reauth-proxy-linux-arm64" \
+  FN_KNOCK_PREPARED_RUNTIME_DIR="${RUNTIME_DIR}" \
+  FN_KNOCK_PREPARED_MUSL_RUST_BACKEND_DIR="${RUST_DIR}" \
+  FN_KNOCK_SYNOLOGY_OUTPUT="${WORK_DIR}/mismatched-armv8.spk" \
+    bash "${ROOT_DIR}/apps/fn-knock-synology/scripts/build-package.sh" armv8 >/dev/null 2>&1
+then
+  fail "Synology builder accepted x86 binaries for armv8"
+fi
+
+if grep -Eq 'tar[[:space:]]+-t(z)?f[^|]*[|][[:space:]]*grep .*-[A-Za-z]*q' \
+  "${ROOT_DIR}/apps/fn-knock-synology/scripts/build-package.sh"; then
+  fail "Synology validation must not stream tar output into grep -q"
+fi
+
+printf '[test-synology-package-validation] SPK validation passed\n'

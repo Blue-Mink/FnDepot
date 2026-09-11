@@ -1,1 +1,307 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHR5cGUgQ29tcHV0ZWRSZWYsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdXNlQ29uZmlnU3RvcmUgfSBmcm9tICIuLi8uLi9zdG9yZS9jb25maWciOwppbXBvcnQgewogIHR5cGUgQWNjZXNzRW50cnlJbmZvLAogIHR5cGUgUnVuTW9kZVByb21wdFByZWZlcmVuY2VzLAp9IGZyb20gIkAvbGliL2FwaS9zeXN0ZW0iOwppbXBvcnQgdHlwZSB7IFJldmVyc2VQcm94eVN1Ym1vZGUgfSBmcm9tICIuLi8uLi90eXBlcyI7Cgp0eXBlIFJ1bk1vZGUgPSAwIHwgMSB8IDM7Cgp0eXBlIFVzZVJ1bk1vZGVNZXNzYWdlc09wdGlvbnMgPSB7CiAgbW9kZTogUmVmPFJ1bk1vZGU+OwogIHJldmVyc2VQcm94eVN1Ym1vZGU6IFJlZjxSZXZlcnNlUHJveHlTdWJtb2RlPjsKICBzYXZlZFJldmVyc2VQcm94eVN1Ym1vZGU6IENvbXB1dGVkUmVmPFJldmVyc2VQcm94eVN1Ym1vZGU+OwogIGFjY2Vzc0VudHJ5OiBSZWY8QWNjZXNzRW50cnlJbmZvPjsKICBwZW5kaW5nUHJvbXB0S2V5OiBSZWY8a2V5b2YgUnVuTW9kZVByb21wdFByZWZlcmVuY2VzIHwgbnVsbD47CiAgcGVuZGluZ1N1Ym1vZGU6IFJlZjxSZXZlcnNlUHJveHlTdWJtb2RlIHwgbnVsbD47Cn07Cgpjb25zdCBERUZBVUxUX1JPVVRFX1BMQUNFSE9MREVSID0gIi9fX3NlbGVjdF9fIjsKCmV4cG9ydCBmdW5jdGlvbiB1c2VSdW5Nb2RlTWVzc2FnZXMoewogIG1vZGUsCiAgcmV2ZXJzZVByb3h5U3VibW9kZSwKICBzYXZlZFJldmVyc2VQcm94eVN1Ym1vZGUsCiAgYWNjZXNzRW50cnksCiAgcGVuZGluZ1Byb21wdEtleSwKICBwZW5kaW5nU3VibW9kZSwKfTogVXNlUnVuTW9kZU1lc3NhZ2VzT3B0aW9ucykgewogIGNvbnN0IGNvbmZpZ1N0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKICBjb25zdCB7IGxvY2FsZSwgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IGZvcm1hdElubGluZUxpc3QgPSAoaXRlbXM6IHN0cmluZ1tdKSA9PgogICAgaXRlbXMuam9pbihsb2NhbGUudmFsdWUgPT09ICJlbiIgPyAiLCAiIDogIuOAgSIpOwoKICBjb25zdCBwcm94eU1hcHBpbmdzQ291bnQgPSBjb21wdXRlZCgKICAgICgpID0+IGNvbmZpZ1N0b3JlLmNvbmZpZz8ucHJveHlfbWFwcGluZ3M/Lmxlbmd0aCA/PyAwLAogICk7CiAgY29uc3QgaG9zdE1hcHBpbmdzQ291bnQgPSBjb21wdXRlZCgKICAgICgpID0+IGNvbmZpZ1N0b3JlLmNvbmZpZz8uaG9zdF9tYXBwaW5ncz8ubGVuZ3RoID8/IDAsCiAgKTsKICBjb25zdCBzdHJlYW1NYXBwaW5nc0NvdW50ID0gY29tcHV0ZWQoCiAgICAoKSA9PiBjb25maWdTdG9yZS5jb25maWc/LnN0cmVhbV9tYXBwaW5ncz8ubGVuZ3RoID8/IDAsCiAgKTsKICBjb25zdCBoYXNDdXN0b21EZWZhdWx0Um91dGUgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBkZWZhdWx0Um91dGUgPSBjb25maWdTdG9yZS5jb25maWc/LmRlZmF1bHRfcm91dGU/LnRyaW0oKSB8fCAiIjsKICAgIHJldHVybiBkZWZhdWx0Um91dGUgIT09ICIiICYmIGRlZmF1bHRSb3V0ZSAhPT0gREVGQVVMVF9ST1VURV9QTEFDRUhPTERFUjsKICB9KTsKCiAgZnVuY3Rpb24gZ2V0UnVuTW9kZUxhYmVsKAogICAgdGFyZ2V0TW9kZTogMCB8IDEgfCAzLAogICAgdGFyZ2V0U3VibW9kZTogUmV2ZXJzZVByb3h5U3VibW9kZSA9IHJldmVyc2VQcm94eVN1Ym1vZGUudmFsdWUsCiAgKSB7CiAgICBpZiAodGFyZ2V0TW9kZSA9PT0gMCkgcmV0dXJuIHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5kaXJlY3RNb2RlTmFtZSIpOwogICAgaWYgKHRhcmdldE1vZGUgPT09IDEpIHsKICAgICAgcmV0dXJuIHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5yZXZlcnNlTW9kZU5hbWUiLCB7CiAgICAgICAgc3VibW9kZToKICAgICAgICAgIHRhcmdldFN1Ym1vZGUgPT09ICJzdWJkb21haW4iCiAgICAgICAgICAgID8gdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnN1YmRvbWFpbk1hcHBpbmciKQogICAgICAgICAgICA6IHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5wYXRoTWFwcGluZyIpLAogICAgICB9KTsKICAgIH0KICAgIHJldHVybiB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3Muc3ViZG9tYWluTW9kZU5hbWUiKTsKICB9CgogIGZ1bmN0aW9uIGJ1aWxkRmlyZXdhbGxSZXNldFN1Y2Nlc3NEZXNjcmlwdGlvbigKICAgIHJlc3VsdDogewogICAgICBydW5UeXBlOiAwIHwgMSB8IDM7CiAgICAgIGdhdGV3YXlQb3J0OiBudW1iZXI7CiAgICAgIGV4ZW1wdFBvcnRzOiBzdHJpbmdbXTsKICAgICAgd2hpdGVsaXN0U3luY2VkOiBudW1iZXI7CiAgICB9LAogICAgc2VsZWN0ZWRTdWJtb2RlOiBSZXZlcnNlUHJveHlTdWJtb2RlIHwgbnVsbCwKICApIHsKICAgIGlmIChyZXN1bHQucnVuVHlwZSA9PT0gMSkgewogICAgICByZXR1cm4gc2VsZWN0ZWRTdWJtb2RlID09PSAic3ViZG9tYWluIgogICAgICAgID8gdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLmZpcmV3YWxsUmVzZXRSZXZlcnNlU3ViZG9tYWluIikKICAgICAgICA6IHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5maXJld2FsbFJlc2V0UmV2ZXJzZVBhdGgiKTsKICAgIH0KCiAgICBjb25zdCBleGVtcHRQb3J0c0xhYmVsID0gZm9ybWF0SW5saW5lTGlzdChyZXN1bHQuZXhlbXB0UG9ydHMpOwoKICAgIGlmIChyZXN1bHQucnVuVHlwZSA9PT0gMCkgewogICAgICBjb25zdCB3aGl0ZWxpc3REZXNjcmlwdGlvbiA9CiAgICAgICAgcmVzdWx0LndoaXRlbGlzdFN5bmNlZCA+IDAKICAgICAgICAgID8gdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLmZpcmV3YWxsUmVzZXREaXJlY3RXaGl0ZWxpc3RTeW5jZWQiLCB7CiAgICAgICAgICAgICAgY291bnQ6IHJlc3VsdC53aGl0ZWxpc3RTeW5jZWQsCiAgICAgICAgICAgIH0pCiAgICAgICAgICA6IHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5maXJld2FsbFJlc2V0RGlyZWN0Tm9XaGl0ZWxpc3QiKTsKICAgICAgcmV0dXJuIHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5maXJld2FsbFJlc2V0RGlyZWN0IiwgewogICAgICAgIHBvcnRzOiBleGVtcHRQb3J0c0xhYmVsLAogICAgICAgIHdoaXRlbGlzdDogd2hpdGVsaXN0RGVzY3JpcHRpb24sCiAgICAgIH0pOwogICAgfQoKICAgIHJldHVybiB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MuZmlyZXdhbGxSZXNldFN1YmRvbWFpbiIsIHsKICAgICAgcG9ydHM6IGV4ZW1wdFBvcnRzTGFiZWwsCiAgICB9KTsKICB9CgogIGZ1bmN0aW9uIGJ1aWxkVW5zYXZlZE1vZGVOb3RpY2UoKSB7CiAgICBjb25zdCBjdXJyZW50TW9kZSA9IGNvbmZpZ1N0b3JlLmNvbmZpZz8ucnVuX3R5cGU7CiAgICBjb25zdCBjdXJyZW50U3VibW9kZSA9IHNhdmVkUmV2ZXJzZVByb3h5U3VibW9kZS52YWx1ZTsKICAgIGlmIChjdXJyZW50TW9kZSA9PT0gdW5kZWZpbmVkKSByZXR1cm4gIiI7CiAgICBjb25zdCBoYXNDaGFuZ2VzID0KICAgICAgY3VycmVudE1vZGUgIT09IG1vZGUudmFsdWUgfHwKICAgICAgKG1vZGUudmFsdWUgPT09IDEgJiYgY3VycmVudFN1Ym1vZGUgIT09IHJldmVyc2VQcm94eVN1Ym1vZGUudmFsdWUpOwogICAgaWYgKCFoYXNDaGFuZ2VzKSByZXR1cm4gIiI7CiAgICByZXR1cm4gdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnVuc2F2ZWRNb2RlTm90aWNlIiwgewogICAgICBjdXJyZW50OiBnZXRSdW5Nb2RlTGFiZWwoY3VycmVudE1vZGUsIGN1cnJlbnRTdWJtb2RlKSwKICAgICAgdGFyZ2V0OiBnZXRSdW5Nb2RlTGFiZWwobW9kZS52YWx1ZSwgcmV2ZXJzZVByb3h5U3VibW9kZS52YWx1ZSksCiAgICB9KTsKICB9CgogIGZ1bmN0aW9uIGJ1aWxkUnVuTW9kZUNoYW5nZVN1Y2Nlc3NEZXNjcmlwdGlvbigKICAgIG5leHRNb2RlOiAwIHwgMSB8IDMsCiAgICBuZXh0U3VibW9kZTogUmV2ZXJzZVByb3h5U3VibW9kZSB8IG51bGwsCiAgKSB7CiAgICBpZiAobmV4dE1vZGUgPT09IDMpIHsKICAgICAgaWYgKHByb3h5TWFwcGluZ3NDb3VudC52YWx1ZSA+IDApIHsKICAgICAgICByZXR1cm4gdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnN1Y2Nlc3NTdWJkb21haW5DbGVhcmVkTWFwcGluZ3MiLCB7CiAgICAgICAgICBjb3VudDogcHJveHlNYXBwaW5nc0NvdW50LnZhbHVlLAogICAgICAgICAgZGVmYXVsdFJvdXRlOiBoYXNDdXN0b21EZWZhdWx0Um91dGUudmFsdWUKICAgICAgICAgICAgPyB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3Muc3VjY2Vzc0RlZmF1bHRSb3V0ZVJlc2V0IikKICAgICAgICAgICAgOiAiIiwKICAgICAgICB9KTsKICAgICAgfQogICAgICByZXR1cm4gdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnN1Y2Nlc3NTdWJkb21haW5Ob01hcHBpbmdzIik7CiAgICB9CgogICAgaWYgKG5leHRNb2RlID09PSAxKSB7CiAgICAgIGlmIChuZXh0U3VibW9kZSA9PT0gInN1YmRvbWFpbiIpIHsKICAgICAgICBpZiAocHJveHlNYXBwaW5nc0NvdW50LnZhbHVlID4gMCkgewogICAgICAgICAgcmV0dXJuIHQoCiAgICAgICAgICAgICJhZG1pbi5ydW5Nb2RlU2V0dGluZ3Muc3VjY2Vzc1JldmVyc2VTdWJkb21haW5XaXRoTWFwcGluZ3MiLAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgY291bnQ6IHByb3h5TWFwcGluZ3NDb3VudC52YWx1ZSwKICAgICAgICAgICAgfSwKICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIHJldHVybiB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3Muc3VjY2Vzc1JldmVyc2VTdWJkb21haW5Ob01hcHBpbmdzIik7CiAgICAgIH0KCiAgICAgIGNvbnN0IHByZXNlcnZlZEl0ZW1zOiBzdHJpbmdbXSA9IFtdOwogICAgICBpZiAoaG9zdE1hcHBpbmdzQ291bnQudmFsdWUgPiAwKSB7CiAgICAgICAgcHJlc2VydmVkSXRlbXMucHVzaCgKICAgICAgICAgIHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5ob3N0TWFwcGluZ3NDb3VudCIsIHsKICAgICAgICAgICAgY291bnQ6IGhvc3RNYXBwaW5nc0NvdW50LnZhbHVlLAogICAgICAgICAgfSksCiAgICAgICAgKTsKICAgICAgfQogICAgICBpZiAoc3RyZWFtTWFwcGluZ3NDb3VudC52YWx1ZSA+IDApIHsKICAgICAgICBwcmVzZXJ2ZWRJdGVtcy5wdXNoKAogICAgICAgICAgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnN0cmVhbU1hcHBpbmdzQ291bnQiLCB7CiAgICAgICAgICAgIGNvdW50OiBzdHJlYW1NYXBwaW5nc0NvdW50LnZhbHVlLAogICAgICAgICAgfSksCiAgICAgICAgKTsKICAgICAgfQoKICAgICAgaWYgKHByZXNlcnZlZEl0ZW1zLmxlbmd0aCA+IDApIHsKICAgICAgICByZXR1cm4gdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnN1Y2Nlc3NSZXZlcnNlUGF0aFdpdGhQcmVzZXJ2ZWQiLCB7CiAgICAgICAgICBpdGVtczogZm9ybWF0SW5saW5lTGlzdChwcmVzZXJ2ZWRJdGVtcyksCiAgICAgICAgfSk7CiAgICAgIH0KCiAgICAgIHJldHVybiB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3Muc3VjY2Vzc1JldmVyc2VQYXRoTm9QcmVzZXJ2ZWQiKTsKICAgIH0KCiAgICByZXR1cm4gdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnN1Y2Nlc3NSdWxlc0FwcGxpZWQiKTsKICB9CgogIGZ1bmN0aW9uIGJ1aWxkU3ViZG9tYWluUmVzZXRNZXNzYWdlKCkgewogICAgaWYgKHByb3h5TWFwcGluZ3NDb3VudC52YWx1ZSA9PT0gMCkgewogICAgICByZXR1cm4gdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnN1YmRvbWFpblJlc2V0Tm9NYXBwaW5ncyIpOwogICAgfQoKICAgIHJldHVybiB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3Muc3ViZG9tYWluUmVzZXRXaXRoTWFwcGluZ3MiLCB7CiAgICAgIGNvdW50OiBwcm94eU1hcHBpbmdzQ291bnQudmFsdWUsCiAgICAgIGRlZmF1bHRSb3V0ZTogaGFzQ3VzdG9tRGVmYXVsdFJvdXRlLnZhbHVlCiAgICAgICAgPyB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3Muc3VjY2Vzc0RlZmF1bHRSb3V0ZVJlc2V0IikKICAgICAgICA6ICIiLAogICAgfSk7CiAgfQoKICBmdW5jdGlvbiBidWlsZFJldmVyc2VQcm94eUNvbXBhdGliaWxpdHlNZXNzYWdlKAogICAgdGFyZ2V0U3VibW9kZTogUmV2ZXJzZVByb3h5U3VibW9kZSwKICApIHsKICAgIGlmICh0YXJnZXRTdWJtb2RlID09PSAic3ViZG9tYWluIikgewogICAgICBpZiAocHJveHlNYXBwaW5nc0NvdW50LnZhbHVlID09PSAwKSB7CiAgICAgICAgcmV0dXJuIHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5jb21wYXRSZXZlcnNlU3ViZG9tYWluTm9NYXBwaW5ncyIpOwogICAgICB9CiAgICAgIHJldHVybiB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MuY29tcGF0UmV2ZXJzZVN1YmRvbWFpbldpdGhNYXBwaW5ncyIsIHsKICAgICAgICBjb3VudDogcHJveHlNYXBwaW5nc0NvdW50LnZhbHVlLAogICAgICB9KTsKICAgIH0KCiAgICBjb25zdCBwcmVzZXJ2ZWRJdGVtczogc3RyaW5nW10gPSBbXTsKICAgIGlmIChob3N0TWFwcGluZ3NDb3VudC52YWx1ZSA+IDApIHsKICAgICAgcHJlc2VydmVkSXRlbXMucHVzaCgKICAgICAgICB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MuaG9zdE1hcHBpbmdzQ291bnQiLCB7CiAgICAgICAgICBjb3VudDogaG9zdE1hcHBpbmdzQ291bnQudmFsdWUsCiAgICAgICAgfSksCiAgICAgICk7CiAgICB9CiAgICBpZiAoc3RyZWFtTWFwcGluZ3NDb3VudC52YWx1ZSA+IDApIHsKICAgICAgcHJlc2VydmVkSXRlbXMucHVzaCgKICAgICAgICB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3Muc3RyZWFtTWFwcGluZ3NDb3VudCIsIHsKICAgICAgICAgIGNvdW50OiBzdHJlYW1NYXBwaW5nc0NvdW50LnZhbHVlLAogICAgICAgIH0pLAogICAgICApOwogICAgfQoKICAgIGlmIChwcmVzZXJ2ZWRJdGVtcy5sZW5ndGggPT09IDApIHsKICAgICAgcmV0dXJuIHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5jb21wYXRSZXZlcnNlUGF0aE5vUHJlc2VydmVkIik7CiAgICB9CgogICAgcmV0dXJuIHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5jb21wYXRSZXZlcnNlUGF0aFdpdGhQcmVzZXJ2ZWQiLCB7CiAgICAgIGl0ZW1zOiBmb3JtYXRJbmxpbmVMaXN0KHByZXNlcnZlZEl0ZW1zKSwKICAgIH0pOwogIH0KCiAgY29uc3QgY29uZmlybURpYWxvZ0NvbnRlbnQgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBwb3J0ID0gYWNjZXNzRW50cnkudmFsdWUucG9ydDsKICAgIGNvbnN0IHRhcmdldFN1Ym1vZGUgPSBwZW5kaW5nU3VibW9kZS52YWx1ZSA/PyByZXZlcnNlUHJveHlTdWJtb2RlLnZhbHVlOwoKICAgIGlmIChwZW5kaW5nUHJvbXB0S2V5LnZhbHVlID09PSAicmV2ZXJzZVByb3h5VG9EaXJlY3QiKSB7CiAgICAgIHJldHVybiB7CiAgICAgICAgdGl0bGU6IHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5wcm9tcHREaXJlY3RUaXRsZSIpLAogICAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MucHJvbXB0RGlyZWN0RGVzY3JpcHRpb24iKSwKICAgICAgICBpdGVtczogWwogICAgICAgICAgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnByb21wdERpcmVjdEl0ZW1GaXJld2FsbCIsIHsgcG9ydCB9KSwKICAgICAgICAgIHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5wcm9tcHREaXJlY3RJdGVtTG9naW5FbnRyeSIsIHsgcG9ydCB9KSwKICAgICAgICAgIHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5wcm9tcHREaXJlY3RJdGVtTXVsdGlFbnRyeSIpLAogICAgICAgICAgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnByb21wdERpcmVjdEl0ZW1MYW4iKSwKICAgICAgICAgIHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5wcm9tcHREaXJlY3RJdGVtTm9UdW5uZWwiKSwKICAgICAgICBdLAogICAgICB9OwogICAgfQoKICAgIGlmICgKICAgICAgcGVuZGluZ1Byb21wdEtleS52YWx1ZSA9PT0gImRpcmVjdFRvUmV2ZXJzZVByb3h5IiB8fAogICAgICBwZW5kaW5nUHJvbXB0S2V5LnZhbHVlID09PSAic3ViZG9tYWluVG9SZXZlcnNlUHJveHkiCiAgICApIHsKICAgICAgcmV0dXJuIHsKICAgICAgICB0aXRsZTogdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnByb21wdFN3aXRjaFRvIiwgewogICAgICAgICAgbW9kZTogZ2V0UnVuTW9kZUxhYmVsKDEsIHRhcmdldFN1Ym1vZGUpLAogICAgICAgIH0pLAogICAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICAgdGFyZ2V0U3VibW9kZSA9PT0gInN1YmRvbWFpbiIKICAgICAgICAgICAgPyB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MucHJvbXB0UmV2ZXJzZVN1YmRvbWFpbkRlc2NyaXB0aW9uIikKICAgICAgICAgICAgOiB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MucHJvbXB0UmV2ZXJzZVBhdGhEZXNjcmlwdGlvbiIpLAogICAgICAgIGl0ZW1zOiBbCiAgICAgICAgICBidWlsZFJldmVyc2VQcm94eUNvbXBhdGliaWxpdHlNZXNzYWdlKHRhcmdldFN1Ym1vZGUpLAogICAgICAgICAgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnByb21wdFJldmVyc2VJdGVtQ2xlYXJGaXJld2FsbCIpLAogICAgICAgICAgdGFyZ2V0U3VibW9kZSA9PT0gInN1YmRvbWFpbiIKICAgICAgICAgICAgPyB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MucHJvbXB0UmV2ZXJzZUl0ZW1TdWJkb21haW5FbnRyeSIsIHsKICAgICAgICAgICAgICAgIHBvcnQsCiAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgOiB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MucHJvbXB0UmV2ZXJzZUl0ZW1QYXRoRW50cnkiLCB7IHBvcnQgfSksCiAgICAgICAgICB0YXJnZXRTdWJtb2RlID09PSAic3ViZG9tYWluIgogICAgICAgICAgICA/IHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5wcm9tcHRSZXZlcnNlSXRlbVN1YmRvbWFpblVpIikKICAgICAgICAgICAgOiB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MucHJvbXB0UmV2ZXJzZUl0ZW1QYXRoVWkiKSwKICAgICAgICBdLAogICAgICB9OwogICAgfQoKICAgIGlmIChwZW5kaW5nUHJvbXB0S2V5LnZhbHVlID09PSAic3dpdGNoVG9TdWJkb21haW4iKSB7CiAgICAgIHJldHVybiB7CiAgICAgICAgdGl0bGU6IHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5wcm9tcHRTdWJkb21haW5UaXRsZSIpLAogICAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MucHJvbXB0U3ViZG9tYWluRGVzY3JpcHRpb24iKSwKICAgICAgICBpdGVtczogWwogICAgICAgICAgYnVpbGRTdWJkb21haW5SZXNldE1lc3NhZ2UoKSwKICAgICAgICAgIHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5wcm9tcHRTdWJkb21haW5JdGVtRW50cnkiLCB7IHBvcnQgfSksCiAgICAgICAgICB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MucHJvbXB0U3ViZG9tYWluSXRlbUJpbmRMb2NhbCIpLAogICAgICAgICAgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnByb21wdFN1YmRvbWFpbkl0ZW1BdXRoIiksCiAgICAgICAgICB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MucHJvbXB0U3ViZG9tYWluSXRlbUlwdGFibGVzIiksCiAgICAgICAgXSwKICAgICAgfTsKICAgIH0KCiAgICByZXR1cm4gewogICAgICB0aXRsZTogdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnByb21wdFN3aXRjaFRvIiwgewogICAgICAgIG1vZGU6IGdldFJ1bk1vZGVMYWJlbCgxLCB0YXJnZXRTdWJtb2RlKSwKICAgICAgfSksCiAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MucHJvbXB0UmV2ZXJzZUdlbmVyaWNEZXNjcmlwdGlvbiIpLAogICAgICBpdGVtczogWwogICAgICAgIGJ1aWxkUmV2ZXJzZVByb3h5Q29tcGF0aWJpbGl0eU1lc3NhZ2UodGFyZ2V0U3VibW9kZSksCiAgICAgICAgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnByb21wdFJldmVyc2VJdGVtQ2VudHJhbEVudHJ5IiksCiAgICAgICAgdGFyZ2V0U3VibW9kZSA9PT0gInN1YmRvbWFpbiIKICAgICAgICAgID8gdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnByb21wdFJldmVyc2VJdGVtU3ViZG9tYWluRW50cnkiLCB7IHBvcnQgfSkKICAgICAgICAgIDogdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnByb21wdFJldmVyc2VJdGVtUGF0aEVudHJ5IiwgeyBwb3J0IH0pLAogICAgICAgIHRhcmdldFN1Ym1vZGUgPT09ICJzdWJkb21haW4iCiAgICAgICAgICA/IHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5wcm9tcHRSZXZlcnNlSXRlbVN1YmRvbWFpbkNvbXBhdGlibGUiKQogICAgICAgICAgOiB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MucHJvbXB0UmV2ZXJzZUl0ZW1QYXRoU2VydmljZXMiKSwKICAgICAgXSwKICAgIH07CiAgfSk7CgogIHJldHVybiB7CiAgICBidWlsZEZpcmV3YWxsUmVzZXRTdWNjZXNzRGVzY3JpcHRpb24sCiAgICBidWlsZFJ1bk1vZGVDaGFuZ2VTdWNjZXNzRGVzY3JpcHRpb24sCiAgICBidWlsZFVuc2F2ZWRNb2RlTm90aWNlLAogICAgY29uZmlybURpYWxvZ0NvbnRlbnQsCiAgICBmb3JtYXRJbmxpbmVMaXN0LAogICAgZ2V0UnVuTW9kZUxhYmVsLAogIH07Cn0K
+import { computed, type ComputedRef, type Ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { useConfigStore } from "../../store/config";
+import {
+  type AccessEntryInfo,
+  type RunModePromptPreferences,
+} from "@/lib/api/system";
+import type { ReverseProxySubmode } from "../../types";
+
+type RunMode = 0 | 1 | 3;
+
+type UseRunModeMessagesOptions = {
+  mode: Ref<RunMode>;
+  reverseProxySubmode: Ref<ReverseProxySubmode>;
+  savedReverseProxySubmode: ComputedRef<ReverseProxySubmode>;
+  accessEntry: Ref<AccessEntryInfo>;
+  pendingPromptKey: Ref<keyof RunModePromptPreferences | null>;
+  pendingSubmode: Ref<ReverseProxySubmode | null>;
+};
+
+const DEFAULT_ROUTE_PLACEHOLDER = "/__select__";
+
+export function useRunModeMessages({
+  mode,
+  reverseProxySubmode,
+  savedReverseProxySubmode,
+  accessEntry,
+  pendingPromptKey,
+  pendingSubmode,
+}: UseRunModeMessagesOptions) {
+  const configStore = useConfigStore();
+  const { locale, t } = useI18n();
+  const formatInlineList = (items: string[]) =>
+    items.join(locale.value === "en" ? ", " : "、");
+
+  const proxyMappingsCount = computed(
+    () => configStore.config?.proxy_mappings?.length ?? 0,
+  );
+  const hostMappingsCount = computed(
+    () => configStore.config?.host_mappings?.length ?? 0,
+  );
+  const streamMappingsCount = computed(
+    () => configStore.config?.stream_mappings?.length ?? 0,
+  );
+  const hasCustomDefaultRoute = computed(() => {
+    const defaultRoute = configStore.config?.default_route?.trim() || "";
+    return defaultRoute !== "" && defaultRoute !== DEFAULT_ROUTE_PLACEHOLDER;
+  });
+
+  function getRunModeLabel(
+    targetMode: 0 | 1 | 3,
+    targetSubmode: ReverseProxySubmode = reverseProxySubmode.value,
+  ) {
+    if (targetMode === 0) return t("admin.runModeSettings.directModeName");
+    if (targetMode === 1) {
+      return t("admin.runModeSettings.reverseModeName", {
+        submode:
+          targetSubmode === "subdomain"
+            ? t("admin.runModeSettings.subdomainMapping")
+            : t("admin.runModeSettings.pathMapping"),
+      });
+    }
+    return t("admin.runModeSettings.subdomainModeName");
+  }
+
+  function buildFirewallResetSuccessDescription(
+    result: {
+      runType: 0 | 1 | 3;
+      gatewayPort: number;
+      exemptPorts: string[];
+      whitelistSynced: number;
+    },
+    selectedSubmode: ReverseProxySubmode | null,
+  ) {
+    if (result.runType === 1) {
+      return selectedSubmode === "subdomain"
+        ? t("admin.runModeSettings.firewallResetReverseSubdomain")
+        : t("admin.runModeSettings.firewallResetReversePath");
+    }
+
+    const exemptPortsLabel = formatInlineList(result.exemptPorts);
+
+    if (result.runType === 0) {
+      const whitelistDescription =
+        result.whitelistSynced > 0
+          ? t("admin.runModeSettings.firewallResetDirectWhitelistSynced", {
+              count: result.whitelistSynced,
+            })
+          : t("admin.runModeSettings.firewallResetDirectNoWhitelist");
+      return t("admin.runModeSettings.firewallResetDirect", {
+        ports: exemptPortsLabel,
+        whitelist: whitelistDescription,
+      });
+    }
+
+    return t("admin.runModeSettings.firewallResetSubdomain", {
+      ports: exemptPortsLabel,
+    });
+  }
+
+  function buildUnsavedModeNotice() {
+    const currentMode = configStore.config?.run_type;
+    const currentSubmode = savedReverseProxySubmode.value;
+    if (currentMode === undefined) return "";
+    const hasChanges =
+      currentMode !== mode.value ||
+      (mode.value === 1 && currentSubmode !== reverseProxySubmode.value);
+    if (!hasChanges) return "";
+    return t("admin.runModeSettings.unsavedModeNotice", {
+      current: getRunModeLabel(currentMode, currentSubmode),
+      target: getRunModeLabel(mode.value, reverseProxySubmode.value),
+    });
+  }
+
+  function buildRunModeChangeSuccessDescription(
+    nextMode: 0 | 1 | 3,
+    nextSubmode: ReverseProxySubmode | null,
+  ) {
+    if (nextMode === 3) {
+      if (proxyMappingsCount.value > 0) {
+        return t("admin.runModeSettings.successSubdomainClearedMappings", {
+          count: proxyMappingsCount.value,
+          defaultRoute: hasCustomDefaultRoute.value
+            ? t("admin.runModeSettings.successDefaultRouteReset")
+            : "",
+        });
+      }
+      return t("admin.runModeSettings.successSubdomainNoMappings");
+    }
+
+    if (nextMode === 1) {
+      if (nextSubmode === "subdomain") {
+        if (proxyMappingsCount.value > 0) {
+          return t(
+            "admin.runModeSettings.successReverseSubdomainWithMappings",
+            {
+              count: proxyMappingsCount.value,
+            },
+          );
+        }
+        return t("admin.runModeSettings.successReverseSubdomainNoMappings");
+      }
+
+      const preservedItems: string[] = [];
+      if (hostMappingsCount.value > 0) {
+        preservedItems.push(
+          t("admin.runModeSettings.hostMappingsCount", {
+            count: hostMappingsCount.value,
+          }),
+        );
+      }
+      if (streamMappingsCount.value > 0) {
+        preservedItems.push(
+          t("admin.runModeSettings.streamMappingsCount", {
+            count: streamMappingsCount.value,
+          }),
+        );
+      }
+
+      if (preservedItems.length > 0) {
+        return t("admin.runModeSettings.successReversePathWithPreserved", {
+          items: formatInlineList(preservedItems),
+        });
+      }
+
+      return t("admin.runModeSettings.successReversePathNoPreserved");
+    }
+
+    return t("admin.runModeSettings.successRulesApplied");
+  }
+
+  function buildSubdomainResetMessage() {
+    if (proxyMappingsCount.value === 0) {
+      return t("admin.runModeSettings.subdomainResetNoMappings");
+    }
+
+    return t("admin.runModeSettings.subdomainResetWithMappings", {
+      count: proxyMappingsCount.value,
+      defaultRoute: hasCustomDefaultRoute.value
+        ? t("admin.runModeSettings.successDefaultRouteReset")
+        : "",
+    });
+  }
+
+  function buildReverseProxyCompatibilityMessage(
+    targetSubmode: ReverseProxySubmode,
+  ) {
+    if (targetSubmode === "subdomain") {
+      if (proxyMappingsCount.value === 0) {
+        return t("admin.runModeSettings.compatReverseSubdomainNoMappings");
+      }
+      return t("admin.runModeSettings.compatReverseSubdomainWithMappings", {
+        count: proxyMappingsCount.value,
+      });
+    }
+
+    const preservedItems: string[] = [];
+    if (hostMappingsCount.value > 0) {
+      preservedItems.push(
+        t("admin.runModeSettings.hostMappingsCount", {
+          count: hostMappingsCount.value,
+        }),
+      );
+    }
+    if (streamMappingsCount.value > 0) {
+      preservedItems.push(
+        t("admin.runModeSettings.streamMappingsCount", {
+          count: streamMappingsCount.value,
+        }),
+      );
+    }
+
+    if (preservedItems.length === 0) {
+      return t("admin.runModeSettings.compatReversePathNoPreserved");
+    }
+
+    return t("admin.runModeSettings.compatReversePathWithPreserved", {
+      items: formatInlineList(preservedItems),
+    });
+  }
+
+  const confirmDialogContent = computed(() => {
+    const port = accessEntry.value.port;
+    const targetSubmode = pendingSubmode.value ?? reverseProxySubmode.value;
+
+    if (pendingPromptKey.value === "reverseProxyToDirect") {
+      return {
+        title: t("admin.runModeSettings.promptDirectTitle"),
+        description: t("admin.runModeSettings.promptDirectDescription"),
+        items: [
+          t("admin.runModeSettings.promptDirectItemFirewall", { port }),
+          t("admin.runModeSettings.promptDirectItemLoginEntry", { port }),
+          t("admin.runModeSettings.promptDirectItemMultiEntry"),
+          t("admin.runModeSettings.promptDirectItemLan"),
+          t("admin.runModeSettings.promptDirectItemNoTunnel"),
+        ],
+      };
+    }
+
+    if (
+      pendingPromptKey.value === "directToReverseProxy" ||
+      pendingPromptKey.value === "subdomainToReverseProxy"
+    ) {
+      return {
+        title: t("admin.runModeSettings.promptSwitchTo", {
+          mode: getRunModeLabel(1, targetSubmode),
+        }),
+        description:
+          targetSubmode === "subdomain"
+            ? t("admin.runModeSettings.promptReverseSubdomainDescription")
+            : t("admin.runModeSettings.promptReversePathDescription"),
+        items: [
+          buildReverseProxyCompatibilityMessage(targetSubmode),
+          t("admin.runModeSettings.promptReverseItemClearFirewall"),
+          targetSubmode === "subdomain"
+            ? t("admin.runModeSettings.promptReverseItemSubdomainEntry", {
+                port,
+              })
+            : t("admin.runModeSettings.promptReverseItemPathEntry", { port }),
+          targetSubmode === "subdomain"
+            ? t("admin.runModeSettings.promptReverseItemSubdomainUi")
+            : t("admin.runModeSettings.promptReverseItemPathUi"),
+        ],
+      };
+    }
+
+    if (pendingPromptKey.value === "switchToSubdomain") {
+      return {
+        title: t("admin.runModeSettings.promptSubdomainTitle"),
+        description: t("admin.runModeSettings.promptSubdomainDescription"),
+        items: [
+          buildSubdomainResetMessage(),
+          t("admin.runModeSettings.promptSubdomainItemEntry", { port }),
+          t("admin.runModeSettings.promptSubdomainItemBindLocal"),
+          t("admin.runModeSettings.promptSubdomainItemAuth"),
+          t("admin.runModeSettings.promptSubdomainItemIptables"),
+        ],
+      };
+    }
+
+    return {
+      title: t("admin.runModeSettings.promptSwitchTo", {
+        mode: getRunModeLabel(1, targetSubmode),
+      }),
+      description: t("admin.runModeSettings.promptReverseGenericDescription"),
+      items: [
+        buildReverseProxyCompatibilityMessage(targetSubmode),
+        t("admin.runModeSettings.promptReverseItemCentralEntry"),
+        targetSubmode === "subdomain"
+          ? t("admin.runModeSettings.promptReverseItemSubdomainEntry", { port })
+          : t("admin.runModeSettings.promptReverseItemPathEntry", { port }),
+        targetSubmode === "subdomain"
+          ? t("admin.runModeSettings.promptReverseItemSubdomainCompatible")
+          : t("admin.runModeSettings.promptReverseItemPathServices"),
+      ],
+    };
+  });
+
+  return {
+    buildFirewallResetSuccessDescription,
+    buildRunModeChangeSuccessDescription,
+    buildUnsavedModeNotice,
+    confirmDialogContent,
+    formatInlineList,
+    getRunModeLabel,
+  };
+}

@@ -1,1 +1,285 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGNsb3VkZmxhcmVfY2F0YWxvZ19lbnRyeSgpIC0+IFZhbHVlIHsKICAgIHByb3ZpZGVyKAogICAgICAgICJjbG91ZGZsYXJlIiwKICAgICAgICAiQ2xvdWRmbGFyZSIsCiAgICAgICAgdmVjIVsKICAgICAgICAgICAgZmllbGQoCiAgICAgICAgICAgICAgICAiYXBpX3Rva2VuIiwKICAgICAgICAgICAgICAgICJBUEkgVG9rZW4iLAogICAgICAgICAgICAgICAgInBhc3N3b3JkIiwKICAgICAgICAgICAgICAgICJDbG91ZGZsYXJlIEFQSSBUb2tlbiIsCiAgICAgICAgICAgICAgICB0cnVlLAogICAgICAgICAgICApLAogICAgICAgICAgICBmaWVsZCgiem9uZV9pZCIsICJab25lIElEIiwgInRleHQiLCAiWm9uZSBJRCIsIHRydWUpLAogICAgICAgICAgICBmaWVsZCgiZG9tYWluIiwgIkRvbWFpbiIsICJ0ZXh0IiwgImhvbWUuZXhhbXBsZS5jb20iLCB0cnVlKSwKICAgICAgICAgICAgc2VsZWN0X2ZpZWxkKAogICAgICAgICAgICAgICAgInByb3hpZWQiLAogICAgICAgICAgICAgICAgIlByb3hpZWQiLAogICAgICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgICAgICB2ZWMhWygiRE5TIG9ubHkiLCAiZmFsc2UiKSwgKCJPcmFuZ2UgY2xvdWQiLCAidHJ1ZSIpXSwKICAgICAgICAgICAgKSwKICAgICAgICBdLAogICAgKQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgYXN5bmMgZm4gdmFsaWRhdGVfY2xvdWRmbGFyZV9wYWlyX3Jvb3RfaW5fem9uZSgKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgY29uZmlnOiAmSGFzaE1hcDxTdHJpbmcsIFN0cmluZz4sCiAgICBodHRwX29wdGlvbnM6ICZERE5TSHR0cENsaWVudE9wdGlvbnMsCiAgICBwYWlyX3Jvb3Q6ICZzdHIsCikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIGxldCBhcGlfdG9rZW4gPSBjb25maWdfdmFsdWUoY29uZmlnLCAiYXBpX3Rva2VuIik7CiAgICBsZXQgem9uZV9pZCA9IGNvbmZpZ192YWx1ZShjb25maWcsICJ6b25lX2lkIik7CiAgICBpZiBhcGlfdG9rZW4uaXNfZW1wdHkoKSB8fCB6b25lX2lkLmlzX2VtcHR5KCkgewogICAgICAgIGFueWhvdzo6YmFpbCEoCiAgICAgICAgICAgICJ7fSIsCiAgICAgICAgICAgIGRkbnNfdGV4dCh0cmFuc2xhdG9yLCAicHJvdmlkZXJzLmNsb3VkZmxhcmUuY29uZmlnSW5jb21wbGV0ZSIsICZbXSkKICAgICAgICApOwogICAgfQogICAgbGV0IGNsaWVudCA9IGRkbnNfaHR0cF9jbGllbnQodHJhbnNsYXRvciwgaHR0cF9vcHRpb25zKS5tYXBfZXJyKHxlcnJvcnwgewogICAgICAgIGFueWhvdzo6YW55aG93IShkZG5zX3RleHQoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJwcm92aWRlcnMuY2xvdWRmbGFyZS56b25lTG9va3VwRmFpbGVkIiwKICAgICAgICAgICAgJlsoImRldGFpbCIsIGVycm9yLnRvX3N0cmluZygpKV0sCiAgICAgICAgKSkKICAgIH0pPzsKICAgIGxldCByZXNwb25zZSA9IGNsaWVudAogICAgICAgIC5nZXQoZm9ybWF0ISgKICAgICAgICAgICAgImh0dHBzOi8vYXBpLmNsb3VkZmxhcmUuY29tL2NsaWVudC92NC96b25lcy97em9uZV9pZH0iCiAgICAgICAgKSkKICAgICAgICAuYmVhcmVyX2F1dGgoJmFwaV90b2tlbikKICAgICAgICAuaGVhZGVyKHJlcXdlc3Q6OmhlYWRlcjo6QUNDRVBULCAiYXBwbGljYXRpb24vanNvbiIpCiAgICAgICAgLnNlbmQoKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgewogICAgICAgICAgICBhbnlob3c6OmFueWhvdyEoZGRuc190ZXh0KAogICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJwcm92aWRlcnMuY2xvdWRmbGFyZS56b25lTG9va3VwRmFpbGVkIiwKICAgICAgICAgICAgICAgICZbKCJkZXRhaWwiLCBlcnJvci50b19zdHJpbmcoKSldLAogICAgICAgICAgICApKQogICAgICAgIH0pPzsKICAgIGxldCAoc3RhdHVzLCBkYXRhLCB0ZXh0KSA9IHJlc3BvbnNlX2pzb24odHJhbnNsYXRvciwgcmVzcG9uc2UpLmF3YWl0Lm1hcF9lcnIofGVycm9yfCB7CiAgICAgICAgYW55aG93Ojphbnlob3chKGRkbnNfdGV4dCgKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgInByb3ZpZGVycy5jbG91ZGZsYXJlLnpvbmVMb29rdXBGYWlsZWQiLAogICAgICAgICAgICAmWygiZGV0YWlsIiwgZXJyb3IudG9fc3RyaW5nKCkpXSwKICAgICAgICApKQogICAgfSk/OwogICAgaWYgIXN0YXR1cy5pc19zdWNjZXNzKCkgfHwgZGF0YS5nZXQoInN1Y2Nlc3MiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgIT0gU29tZSh0cnVlKSB7CiAgICAgICAgbGV0IGRldGFpbCA9IGlmIHRleHQuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIGNvbXBhY3RfanNvbihkYXRhLmdldCgiZXJyb3JzIikudW53cmFwX29yKCZkYXRhKSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB0ZXh0CiAgICAgICAgfTsKICAgICAgICBhbnlob3c6OmJhaWwhKAogICAgICAgICAgICAie30iLAogICAgICAgICAgICBkZG5zX3RleHQoCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgInByb3ZpZGVycy5jbG91ZGZsYXJlLnpvbmVMb29rdXBGYWlsZWQiLAogICAgICAgICAgICAgICAgJlsoImRldGFpbCIsIGRldGFpbCldLAogICAgICAgICAgICApCiAgICAgICAgKTsKICAgIH0KICAgIGxldCByZW1vdGVfcm9vdCA9IGNsb3VkZmxhcmVfem9uZV9uYW1lX2Zyb21fcmVzcG9uc2UoJmRhdGEsICZ6b25lX2lkKS51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgaWYgIWRkbnNfZG9tYWluX2lzX3NhbWVfb3Jfc3ViZG9tYWluKHBhaXJfcm9vdCwgJnJlbW90ZV9yb290KSB7CiAgICAgICAgYW55aG93OjpiYWlsISgKICAgICAgICAgICAgInt9IiwKICAgICAgICAgICAgZGRuc190ZXh0KAogICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJwcm92aWRlcnMuY2xvdWRmbGFyZS56b25lTWlzbWF0Y2giLAogICAgICAgICAgICAgICAgJlsKICAgICAgICAgICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAgICAgICAgICJleHBlY3RlZCIsCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIHJlbW90ZV9yb290LmlzX2VtcHR5KCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgIjx1bmtub3duPiIudG9fc3RyaW5nKCkKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlbW90ZV9yb290CiAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAoImFjdHVhbCIsIHBhaXJfcm9vdC50b19zdHJpbmcoKSksCiAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICApCiAgICAgICAgKTsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgZm4gY2xvdWRmbGFyZV96b25lX25hbWVfZnJvbV9yZXNwb25zZSgKICAgIGRhdGE6ICZWYWx1ZSwKICAgIHpvbmVfaWQ6ICZzdHIsCikgLT4gT3B0aW9uPFN0cmluZz4gewogICAgbGV0IHJlc3VsdCA9IGRhdGEuZ2V0KCJyZXN1bHQiKT87CiAgICBpZiByZXN1bHQuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpICE9IFNvbWUoem9uZV9pZCkgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgcmVzdWx0CiAgICAgICAgLmdldCgibmFtZSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLm1hcCh8bmFtZXwgbm9ybWFsaXplX2RvbWFpbihuYW1lKS50b19hc2NpaV9sb3dlcmNhc2UoKSkKICAgICAgICAuZmlsdGVyKHxuYW1lfCAhbmFtZS5pc19lbXB0eSgpKQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgYXN5bmMgZm4gdXBkYXRlX2Nsb3VkZmxhcmUoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIGNvbmZpZzogJkhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgaHR0cF9vcHRpb25zOiAmREROU0h0dHBDbGllbnRPcHRpb25zLAogICAgaXB2NDogT3B0aW9uPCZzdHI+LAogICAgaXB2NjogT3B0aW9uPCZzdHI+LAopIC0+IGFueWhvdzo6UmVzdWx0PERETlNQcm92aWRlclVwZGF0ZVJlc3VsdD4gewogICAgbGV0IGFwaV90b2tlbiA9IGNvbmZpZ192YWx1ZShjb25maWcsICJhcGlfdG9rZW4iKTsKICAgIGxldCB6b25lX2lkID0gY29uZmlnX3ZhbHVlKGNvbmZpZywgInpvbmVfaWQiKTsKICAgIGxldCBkb21haW4gPSBjb25maWdfdmFsdWUoY29uZmlnLCAiZG9tYWluIik7CiAgICBpZiBhcGlfdG9rZW4uaXNfZW1wdHkoKSB8fCB6b25lX2lkLmlzX2VtcHR5KCkgfHwgZG9tYWluLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBPayhwcm92aWRlcl9mYWlsdXJlKGRkbnNfdGV4dCgKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgInByb3ZpZGVycy5jbG91ZGZsYXJlLmNvbmZpZ0luY29tcGxldGUiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSkpOwogICAgfQogICAgbGV0IHByb3hpZWQgPSBjb25maWdfdmFsdWUoY29uZmlnLCAicHJveGllZCIpID09ICJ0cnVlIjsKICAgIGxldCBjbGllbnQgPSBkZG5zX2h0dHBfY2xpZW50KHRyYW5zbGF0b3IsIGh0dHBfb3B0aW9ucykKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGNsb3VkZmxhcmVfcmVjb3JkX29wZXJhdGlvbl9lcnJvcih0cmFuc2xhdG9yLCAiQSIsIGVycm9yKSk/OwogICAgbGV0IGJhc2VfdXJsID0gZm9ybWF0ISgiaHR0cHM6Ly9hcGkuY2xvdWRmbGFyZS5jb20vY2xpZW50L3Y0L3pvbmVzL3t6b25lX2lkfS9kbnNfcmVjb3JkcyIpOwogICAgbGV0IG11dCBlcnJvcnMgPSBWZWM6Om5ldygpOwoKICAgIGlmIGxldCBTb21lKGlwdjQpID0gaXB2NAogICAgICAgICYmIGxldCBTb21lKG1lc3NhZ2UpID0gdXBkYXRlX2Nsb3VkZmxhcmVfcmVjb3JkKAogICAgICAgICAgICB0cmFuc2xhdG9yLCAmY2xpZW50LCAmYmFzZV91cmwsICZhcGlfdG9rZW4sICZkb21haW4sIHByb3hpZWQsICJBIiwgaXB2NCwKICAgICAgICApCiAgICAgICAgLmF3YWl0PwogICAgewogICAgICAgIGVycm9ycy5wdXNoKG1lc3NhZ2UpOwogICAgfQoKICAgIGlmIGxldCBTb21lKGlwdjYpID0gaXB2NgogICAgICAgICYmIGxldCBTb21lKG1lc3NhZ2UpID0gdXBkYXRlX2Nsb3VkZmxhcmVfcmVjb3JkKAogICAgICAgICAgICB0cmFuc2xhdG9yLCAmY2xpZW50LCAmYmFzZV91cmwsICZhcGlfdG9rZW4sICZkb21haW4sIHByb3hpZWQsICJBQUFBIiwgaXB2NiwKICAgICAgICApCiAgICAgICAgLmF3YWl0PwogICAgewogICAgICAgIGVycm9ycy5wdXNoKG1lc3NhZ2UpOwogICAgfQoKICAgIGlmIGVycm9ycy5pc19lbXB0eSgpIHsKICAgICAgICBPayhERE5TUHJvdmlkZXJVcGRhdGVSZXN1bHQgewogICAgICAgICAgICBzdWNjZXNzOiB0cnVlLAogICAgICAgICAgICBtZXNzYWdlOiBkZG5zX3RleHQodHJhbnNsYXRvciwgInByb3ZpZGVycy5jbG91ZGZsYXJlLnN1Y2Nlc3MiLCAmW10pLAogICAgICAgIH0pCiAgICB9IGVsc2UgewogICAgICAgIE9rKHByb3ZpZGVyX2ZhaWx1cmUoZXJyb3JzLmpvaW4oIjsgIikpKQogICAgfQp9CgojW2FsbG93KGNsaXBweTo6dG9vX21hbnlfYXJndW1lbnRzKV0KYXN5bmMgZm4gdXBkYXRlX2Nsb3VkZmxhcmVfcmVjb3JkKAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICBjbGllbnQ6ICZERE5TSHR0cENsaWVudCwKICAgIGJhc2VfdXJsOiAmc3RyLAogICAgYXBpX3Rva2VuOiAmc3RyLAogICAgZG9tYWluOiAmc3RyLAogICAgcHJveGllZDogYm9vbCwKICAgIHJlY29yZF90eXBlOiAmJ3N0YXRpYyBzdHIsCiAgICBpcDogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDxPcHRpb248U3RyaW5nPj4gewogICAgbGV0IHNlYXJjaF91cmwgPSBidWlsZF9xdWVyeV91cmwoCiAgICAgICAgYmFzZV91cmwsCiAgICAgICAgJlsKICAgICAgICAgICAgKCJ0eXBlIiwgcmVjb3JkX3R5cGUudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAoIm5hbWUiLCBkb21haW4udG9fc3RyaW5nKCkpLAogICAgICAgIF0sCiAgICApOwogICAgbGV0IChzZWFyY2hfc3RhdHVzLCBzZWFyY2hfZGF0YSwgXykgPSByZXNwb25zZV9qc29uKAogICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgY2xpZW50CiAgICAgICAgICAgIC5nZXQoc2VhcmNoX3VybCkKICAgICAgICAgICAgLmJlYXJlcl9hdXRoKGFwaV90b2tlbikKICAgICAgICAgICAgLmhlYWRlcihyZXF3ZXN0OjpoZWFkZXI6OkFDQ0VQVCwgImFwcGxpY2F0aW9uL2pzb24iKQogICAgICAgICAgICAuc2VuZCgpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGNsb3VkZmxhcmVfcmVjb3JkX29wZXJhdGlvbl9lcnJvcih0cmFuc2xhdG9yLCByZWNvcmRfdHlwZSwgZXJyb3IpKT8sCiAgICApCiAgICAuYXdhaXQKICAgIC5tYXBfZXJyKHxlcnJvcnwgY2xvdWRmbGFyZV9yZWNvcmRfb3BlcmF0aW9uX2Vycm9yKHRyYW5zbGF0b3IsIHJlY29yZF90eXBlLCBlcnJvcikpPzsKICAgIGlmICFzZWFyY2hfc3RhdHVzLmlzX3N1Y2Nlc3MoKQogICAgICAgIHx8IHNlYXJjaF9kYXRhLmdldCgic3VjY2VzcyIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSAhPSBTb21lKHRydWUpCiAgICB7CiAgICAgICAgcmV0dXJuIE9rKFNvbWUoZGRuc190ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAicHJvdmlkZXJzLmNsb3VkZmxhcmUuc2VhcmNoUmVjb3JkRmFpbGVkIiwKICAgICAgICAgICAgJlsKICAgICAgICAgICAgICAgICgidHlwZSIsIHJlY29yZF90eXBlLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgICAgICgKICAgICAgICAgICAgICAgICAgICAiZGV0YWlsIiwKICAgICAgICAgICAgICAgICAgICBjb21wYWN0X2pzb24oc2VhcmNoX2RhdGEuZ2V0KCJlcnJvcnMiKS51bndyYXBfb3IoJnNlYXJjaF9kYXRhKSksCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICBdLAogICAgICAgICkpKTsKICAgIH0KCiAgICBsZXQgZXhpc3RpbmdfaWQgPSBzZWFyY2hfZGF0YQogICAgICAgIC5nZXQoInJlc3VsdCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAuYW5kX3RoZW4ofGl0ZW1zfCBpdGVtcy5maXJzdCgpKQogICAgICAgIC5hbmRfdGhlbih8aXRlbXwgaXRlbS5nZXQoImlkIikpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLm1hcChzdHI6OnRvX3N0cmluZyk7CiAgICBsZXQgYm9keSA9IGpzb24hKHsKICAgICAgICAidHlwZSI6IHJlY29yZF90eXBlLAogICAgICAgICJuYW1lIjogZG9tYWluLAogICAgICAgICJjb250ZW50IjogaXAsCiAgICAgICAgInByb3hpZWQiOiBwcm94aWVkLAogICAgICAgICJ0dGwiOiAxCiAgICB9KTsKICAgIGxldCB1cGRhdGluZ19leGlzdGluZyA9IGV4aXN0aW5nX2lkLmlzX3NvbWUoKTsKICAgIGxldCByZXF1ZXN0ID0gaWYgbGV0IFNvbWUoaWQpID0gZXhpc3RpbmdfaWQgewogICAgICAgIGNsaWVudAogICAgICAgICAgICAucGF0Y2goZm9ybWF0ISgie2Jhc2VfdXJsfS97aWR9IikpCiAgICAgICAgICAgIC5iZWFyZXJfYXV0aChhcGlfdG9rZW4pCiAgICAgICAgICAgIC5qc29uKCZib2R5KQogICAgfSBlbHNlIHsKICAgICAgICBjbGllbnQucG9zdChiYXNlX3VybCkuYmVhcmVyX2F1dGgoYXBpX3Rva2VuKS5qc29uKCZib2R5KQogICAgfTsKICAgIGxldCAoc3RhdHVzLCBkYXRhLCBfKSA9IHJlc3BvbnNlX2pzb24oCiAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICByZXF1ZXN0CiAgICAgICAgICAgIC5oZWFkZXIocmVxd2VzdDo6aGVhZGVyOjpBQ0NFUFQsICJhcHBsaWNhdGlvbi9qc29uIikKICAgICAgICAgICAgLnNlbmQoKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBjbG91ZGZsYXJlX3JlY29yZF9vcGVyYXRpb25fZXJyb3IodHJhbnNsYXRvciwgcmVjb3JkX3R5cGUsIGVycm9yKSk/LAogICAgKQogICAgLmF3YWl0CiAgICAubWFwX2Vycih8ZXJyb3J8IGNsb3VkZmxhcmVfcmVjb3JkX29wZXJhdGlvbl9lcnJvcih0cmFuc2xhdG9yLCByZWNvcmRfdHlwZSwgZXJyb3IpKT87CiAgICBpZiBzdGF0dXMuaXNfc3VjY2VzcygpICYmIGRhdGEuZ2V0KCJzdWNjZXNzIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpID09IFNvbWUodHJ1ZSkgewogICAgICAgIE9rKE5vbmUpCiAgICB9IGVsc2UgewogICAgICAgIE9rKFNvbWUoZGRuc190ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICBpZiB1cGRhdGluZ19leGlzdGluZyB7CiAgICAgICAgICAgICAgICAicHJvdmlkZXJzLmNsb3VkZmxhcmUudXBkYXRlUmVjb3JkRmFpbGVkIgogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgInByb3ZpZGVycy5jbG91ZGZsYXJlLmNyZWF0ZVJlY29yZEZhaWxlZCIKICAgICAgICAgICAgfSwKICAgICAgICAgICAgJlsKICAgICAgICAgICAgICAgICgidHlwZSIsIHJlY29yZF90eXBlLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgICAgICgiZGV0YWlsIiwgY29tcGFjdF9qc29uKGRhdGEuZ2V0KCJlcnJvcnMiKS51bndyYXBfb3IoJmRhdGEpKSksCiAgICAgICAgICAgIF0sCiAgICAgICAgKSkpCiAgICB9Cn0KCmZuIGNsb3VkZmxhcmVfcmVjb3JkX29wZXJhdGlvbl9lcnJvcigKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgcmVjb3JkX3R5cGU6ICZzdHIsCiAgICBlcnJvcjogaW1wbCBzdGQ6OmZtdDo6RGlzcGxheSwKKSAtPiBhbnlob3c6OkVycm9yIHsKICAgIGFueWhvdzo6YW55aG93IShkZG5zX3RleHQoCiAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAicHJvdmlkZXJzLmNsb3VkZmxhcmUucmVjb3JkT3BlcmF0aW9uRXJyb3IiLAogICAgICAgICZbCiAgICAgICAgICAgICgidHlwZSIsIHJlY29yZF90eXBlLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgKCJkZXRhaWwiLCBlcnJvci50b19zdHJpbmcoKSksCiAgICAgICAgXSwKICAgICkpCn0K
+use super::*;
+
+pub(in crate::ddns::routes) fn cloudflare_catalog_entry() -> Value {
+    provider(
+        "cloudflare",
+        "Cloudflare",
+        vec![
+            field(
+                "api_token",
+                "API Token",
+                "password",
+                "Cloudflare API Token",
+                true,
+            ),
+            field("zone_id", "Zone ID", "text", "Zone ID", true),
+            field("domain", "Domain", "text", "home.example.com", true),
+            select_field(
+                "proxied",
+                "Proxied",
+                false,
+                vec![("DNS only", "false"), ("Orange cloud", "true")],
+            ),
+        ],
+    )
+}
+
+pub(in crate::ddns::routes) async fn validate_cloudflare_pair_root_in_zone(
+    translator: &Translator,
+    config: &HashMap<String, String>,
+    http_options: &DDNSHttpClientOptions,
+    pair_root: &str,
+) -> anyhow::Result<()> {
+    let api_token = config_value(config, "api_token");
+    let zone_id = config_value(config, "zone_id");
+    if api_token.is_empty() || zone_id.is_empty() {
+        anyhow::bail!(
+            "{}",
+            ddns_text(translator, "providers.cloudflare.configIncomplete", &[])
+        );
+    }
+    let client = ddns_http_client(translator, http_options).map_err(|error| {
+        anyhow::anyhow!(ddns_text(
+            translator,
+            "providers.cloudflare.zoneLookupFailed",
+            &[("detail", error.to_string())],
+        ))
+    })?;
+    let response = client
+        .get(format!(
+            "https://api.cloudflare.com/client/v4/zones/{zone_id}"
+        ))
+        .bearer_auth(&api_token)
+        .header(reqwest::header::ACCEPT, "application/json")
+        .send()
+        .await
+        .map_err(|error| {
+            anyhow::anyhow!(ddns_text(
+                translator,
+                "providers.cloudflare.zoneLookupFailed",
+                &[("detail", error.to_string())],
+            ))
+        })?;
+    let (status, data, text) = response_json(translator, response).await.map_err(|error| {
+        anyhow::anyhow!(ddns_text(
+            translator,
+            "providers.cloudflare.zoneLookupFailed",
+            &[("detail", error.to_string())],
+        ))
+    })?;
+    if !status.is_success() || data.get("success").and_then(Value::as_bool) != Some(true) {
+        let detail = if text.is_empty() {
+            compact_json(data.get("errors").unwrap_or(&data))
+        } else {
+            text
+        };
+        anyhow::bail!(
+            "{}",
+            ddns_text(
+                translator,
+                "providers.cloudflare.zoneLookupFailed",
+                &[("detail", detail)],
+            )
+        );
+    }
+    let remote_root = cloudflare_zone_name_from_response(&data, &zone_id).unwrap_or_default();
+    if !ddns_domain_is_same_or_subdomain(pair_root, &remote_root) {
+        anyhow::bail!(
+            "{}",
+            ddns_text(
+                translator,
+                "providers.cloudflare.zoneMismatch",
+                &[
+                    (
+                        "expected",
+                        if remote_root.is_empty() {
+                            "<unknown>".to_string()
+                        } else {
+                            remote_root
+                        },
+                    ),
+                    ("actual", pair_root.to_string()),
+                ],
+            )
+        );
+    }
+    Ok(())
+}
+
+pub(in crate::ddns::routes) fn cloudflare_zone_name_from_response(
+    data: &Value,
+    zone_id: &str,
+) -> Option<String> {
+    let result = data.get("result")?;
+    if result.get("id").and_then(Value::as_str) != Some(zone_id) {
+        return None;
+    }
+    result
+        .get("name")
+        .and_then(Value::as_str)
+        .map(|name| normalize_domain(name).to_ascii_lowercase())
+        .filter(|name| !name.is_empty())
+}
+
+pub(in crate::ddns::routes) async fn update_cloudflare(
+    translator: &Translator,
+    config: &HashMap<String, String>,
+    http_options: &DDNSHttpClientOptions,
+    ipv4: Option<&str>,
+    ipv6: Option<&str>,
+) -> anyhow::Result<DDNSProviderUpdateResult> {
+    let api_token = config_value(config, "api_token");
+    let zone_id = config_value(config, "zone_id");
+    let domain = config_value(config, "domain");
+    if api_token.is_empty() || zone_id.is_empty() || domain.is_empty() {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.cloudflare.configIncomplete",
+            &[],
+        )));
+    }
+    let proxied = config_value(config, "proxied") == "true";
+    let client = ddns_http_client(translator, http_options)
+        .map_err(|error| cloudflare_record_operation_error(translator, "A", error))?;
+    let base_url = format!("https://api.cloudflare.com/client/v4/zones/{zone_id}/dns_records");
+    let mut errors = Vec::new();
+
+    if let Some(ipv4) = ipv4
+        && let Some(message) = update_cloudflare_record(
+            translator, &client, &base_url, &api_token, &domain, proxied, "A", ipv4,
+        )
+        .await?
+    {
+        errors.push(message);
+    }
+
+    if let Some(ipv6) = ipv6
+        && let Some(message) = update_cloudflare_record(
+            translator, &client, &base_url, &api_token, &domain, proxied, "AAAA", ipv6,
+        )
+        .await?
+    {
+        errors.push(message);
+    }
+
+    if errors.is_empty() {
+        Ok(DDNSProviderUpdateResult {
+            success: true,
+            message: ddns_text(translator, "providers.cloudflare.success", &[]),
+        })
+    } else {
+        Ok(provider_failure(errors.join("; ")))
+    }
+}
+
+#[allow(clippy::too_many_arguments)]
+async fn update_cloudflare_record(
+    translator: &Translator,
+    client: &DDNSHttpClient,
+    base_url: &str,
+    api_token: &str,
+    domain: &str,
+    proxied: bool,
+    record_type: &'static str,
+    ip: &str,
+) -> anyhow::Result<Option<String>> {
+    let search_url = build_query_url(
+        base_url,
+        &[
+            ("type", record_type.to_string()),
+            ("name", domain.to_string()),
+        ],
+    );
+    let (search_status, search_data, _) = response_json(
+        translator,
+        client
+            .get(search_url)
+            .bearer_auth(api_token)
+            .header(reqwest::header::ACCEPT, "application/json")
+            .send()
+            .await
+            .map_err(|error| cloudflare_record_operation_error(translator, record_type, error))?,
+    )
+    .await
+    .map_err(|error| cloudflare_record_operation_error(translator, record_type, error))?;
+    if !search_status.is_success()
+        || search_data.get("success").and_then(Value::as_bool) != Some(true)
+    {
+        return Ok(Some(ddns_text(
+            translator,
+            "providers.cloudflare.searchRecordFailed",
+            &[
+                ("type", record_type.to_string()),
+                (
+                    "detail",
+                    compact_json(search_data.get("errors").unwrap_or(&search_data)),
+                ),
+            ],
+        )));
+    }
+
+    let existing_id = search_data
+        .get("result")
+        .and_then(Value::as_array)
+        .and_then(|items| items.first())
+        .and_then(|item| item.get("id"))
+        .and_then(Value::as_str)
+        .map(str::to_string);
+    let body = json!({
+        "type": record_type,
+        "name": domain,
+        "content": ip,
+        "proxied": proxied,
+        "ttl": 1
+    });
+    let updating_existing = existing_id.is_some();
+    let request = if let Some(id) = existing_id {
+        client
+            .patch(format!("{base_url}/{id}"))
+            .bearer_auth(api_token)
+            .json(&body)
+    } else {
+        client.post(base_url).bearer_auth(api_token).json(&body)
+    };
+    let (status, data, _) = response_json(
+        translator,
+        request
+            .header(reqwest::header::ACCEPT, "application/json")
+            .send()
+            .await
+            .map_err(|error| cloudflare_record_operation_error(translator, record_type, error))?,
+    )
+    .await
+    .map_err(|error| cloudflare_record_operation_error(translator, record_type, error))?;
+    if status.is_success() && data.get("success").and_then(Value::as_bool) == Some(true) {
+        Ok(None)
+    } else {
+        Ok(Some(ddns_text(
+            translator,
+            if updating_existing {
+                "providers.cloudflare.updateRecordFailed"
+            } else {
+                "providers.cloudflare.createRecordFailed"
+            },
+            &[
+                ("type", record_type.to_string()),
+                ("detail", compact_json(data.get("errors").unwrap_or(&data))),
+            ],
+        )))
+    }
+}
+
+fn cloudflare_record_operation_error(
+    translator: &Translator,
+    record_type: &str,
+    error: impl std::fmt::Display,
+) -> anyhow::Error {
+    anyhow::anyhow!(ddns_text(
+        translator,
+        "providers.cloudflare.recordOperationError",
+        &[
+            ("type", record_type.to_string()),
+            ("detail", error.to_string()),
+        ],
+    ))
+}

@@ -1,1 +1,56 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKCmludGVyZmFjZSBEZXRhaWxGaWVsZEl0ZW0gewogIGtleTogc3RyaW5nOwogIGxhYmVsOiBzdHJpbmc7CiAgdmFsdWU6IHN0cmluZyB8IG51bWJlciB8IGJvb2xlYW47Cn0KCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKAogIGRlZmluZVByb3BzPHsKICAgIGl0ZW1zOiBEZXRhaWxGaWVsZEl0ZW1bXTsKICAgIGxheW91dD86ICJjb21wYWN0IiB8ICJjYXJkIjsKICAgIGNhcmRHcmlkQ2xhc3M/OiBzdHJpbmc7CiAgfT4oKSwKICB7CiAgICBsYXlvdXQ6ICJjb21wYWN0IiwKICAgIGNhcmRHcmlkQ2xhc3M6ICJtZDpncmlkLWNvbHMtMiIsCiAgfSwKKTsKCmNvbnN0IHZpc2libGVJdGVtcyA9IGNvbXB1dGVkKCgpID0+CiAgcHJvcHMuaXRlbXMuZmlsdGVyKChpdGVtKSA9PiBpdGVtLnZhbHVlICE9PSB1bmRlZmluZWQpLAopOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICB2LWlmPSJwcm9wcy5sYXlvdXQgPT09ICdjYXJkJyIKICAgIGNsYXNzPSJncmlkIGdhcC0zIgogICAgOmNsYXNzPSJwcm9wcy5jYXJkR3JpZENsYXNzIgogID4KICAgIDxkaXYKICAgICAgdi1mb3I9Iml0ZW0gaW4gdmlzaWJsZUl0ZW1zIgogICAgICA6a2V5PSJpdGVtLmtleSIKICAgICAgY2xhc3M9ImJvcmRlciByb3VuZGVkLWxnIHAtNCBzcGFjZS15LTIiCiAgICA+CiAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57eyBpdGVtLmxhYmVsIH19PC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9InRleHQtYmFzZSBicmVhay1hbGwiPnt7IGl0ZW0udmFsdWUgfX08L2Rpdj4KICAgIDwvZGl2PgogIDwvZGl2PgogIDxkaXYgdi1lbHNlIGNsYXNzPSJncmlkIGdhcC00Ij4KICAgIDxkaXYKICAgICAgdi1mb3I9Iml0ZW0gaW4gdmlzaWJsZUl0ZW1zIgogICAgICA6a2V5PSJpdGVtLmtleSIKICAgICAgY2xhc3M9ImdyaWQgZ3JpZC1jb2xzLTQgaXRlbXMtc3RhcnQgZ2FwLTQiCiAgICA+CiAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXJpZ2h0IGZvbnQtbWVkaXVtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBwdC0xIj57ewogICAgICAgIGl0ZW0ubGFiZWwKICAgICAgfX08L3NwYW4+CiAgICAgIDxkaXYgY2xhc3M9ImNvbC1zcGFuLTMgdGV4dC1zbSBiZy1tdXRlZC81MCBwLTIgcm91bmRlZC1tZCBicmVhay1hbGwiPgogICAgICAgIHt7IGl0ZW0udmFsdWUgfX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+
+interface DetailFieldItem {
+  key: string;
+  label: string;
+  value: string | number | boolean;
+}
+
+const props = withDefaults(
+  defineProps<{
+    items: DetailFieldItem[];
+    layout?: "compact" | "card";
+    cardGridClass?: string;
+  }>(),
+  {
+    layout: "compact",
+    cardGridClass: "md:grid-cols-2",
+  },
+);
+
+const visibleItems = computed(() =>
+  props.items.filter((item) => item.value !== undefined),
+);
+</script>
+
+<template>
+  <div
+    v-if="props.layout === 'card'"
+    class="grid gap-3"
+    :class="props.cardGridClass"
+  >
+    <div
+      v-for="item in visibleItems"
+      :key="item.key"
+      class="border rounded-lg p-4 space-y-2"
+    >
+      <div class="text-sm text-muted-foreground">{{ item.label }}</div>
+      <div class="text-base break-all">{{ item.value }}</div>
+    </div>
+  </div>
+  <div v-else class="grid gap-4">
+    <div
+      v-for="item in visibleItems"
+      :key="item.key"
+      class="grid grid-cols-4 items-start gap-4"
+    >
+      <span class="text-right font-medium text-muted-foreground pt-1">{{
+        item.label
+      }}</span>
+      <div class="col-span-3 text-sm bg-muted/50 p-2 rounded-md break-all">
+        {{ item.value }}
+      </div>
+    </div>
+  </div>
+</template>

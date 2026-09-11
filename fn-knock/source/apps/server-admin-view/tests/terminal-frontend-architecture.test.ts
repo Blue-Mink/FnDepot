@@ -1,1 +1,331 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMsIHJlYWRkaXJTeW5jIH0gZnJvbSAibm9kZTpmcyI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CmltcG9ydCBlbk1lc3NhZ2VzIGZyb20gIi4uLy4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL21lc3NhZ2VzL3Njb3Blcy9hZG1pbi9lbiI7CmltcG9ydCBqYUpQTWVzc2FnZXMgZnJvbSAiLi4vLi4vLi4vcGFja2FnZXMvaTE4bi9zcmMvbWVzc2FnZXMvc2NvcGVzL2FkbWluL2phLUpQIjsKaW1wb3J0IGtvS1JNZXNzYWdlcyBmcm9tICIuLi8uLi8uLi9wYWNrYWdlcy9pMThuL3NyYy9tZXNzYWdlcy9zY29wZXMvYWRtaW4va28tS1IiOwppbXBvcnQgemhDTk1lc3NhZ2VzIGZyb20gIi4uLy4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL21lc3NhZ2VzL3Njb3Blcy9hZG1pbi96aC1DTiI7CmltcG9ydCB6aEhhbnRNZXNzYWdlcyBmcm9tICIuLi8uLi8uLi9wYWNrYWdlcy9pMThuL3NyYy9tZXNzYWdlcy9zY29wZXMvYWRtaW4vemgtSGFudCI7Cgpjb25zdCByZWFkU291cmNlID0gKHBhdGg6IHN0cmluZykgPT4KICByZWFkRmlsZVN5bmMobmV3IFVSTChwYXRoLCBpbXBvcnQubWV0YS51cmwpLCAidXRmOCIpOwoKZGVzY3JpYmUoIldlYiB0ZXJtaW5hbCBmcm9udGVuZCBhcmNoaXRlY3R1cmUiLCAoKSA9PiB7CiAgaXQoImtlZXBzIHBhZ2Ugb3JjaGVzdHJhdGlvbiBzcGxpdCBieSByZXNwb25zaWJpbGl0eSIsICgpID0+IHsKICAgIGNvbnN0IHBhZ2UgPSByZWFkU291cmNlKCIuLi9zcmMvdmlld3Mvd2ViLXRlcm1pbmFsL3VzZVdlYlRlcm1pbmFsUGFnZS50cyIpOwogICAgZm9yIChjb25zdCBjb21wb3NhYmxlIG9mIFsKICAgICAgInVzZVRlcm1pbmFsVGFyZ2V0cyIsCiAgICAgICJ1c2VUZXJtaW5hbFRhcmdldEVkaXRvciIsCiAgICAgICJ1c2VUZXJtaW5hbFNlc3Npb25zIiwKICAgICAgInVzZVRlcm1pbmFsQXR0YWNobWVudCIsCiAgICAgICJ1c2VUZXJtaW5hbEVtdWxhdG9yIiwKICAgICAgInVzZVRlcm1pbmFsTG9jYWxTZXR0aW5ncyIsCiAgICAgICJ1c2VUZXJtaW5hbFZpZXdwb3J0IiwKICAgIF0pIHsKICAgICAgYXNzZXJ0Lm1hdGNoKHBhZ2UsIG5ldyBSZWdFeHAoYCR7Y29tcG9zYWJsZX1cXChgLCAidSIpLCBjb21wb3NhYmxlKTsKICAgIH0KICAgIGFzc2VydC5kb2VzTm90TWF0Y2gocGFnZSwgL3Rlcm1pbmFsX2ZlYXR1cmV8aW5zdGFsbFRtdXh8Z2V0U3RhdHVzL3UpOwogIH0pOwoKICBpdCgicmVzZXRzIHRoZSBlbXVsYXRvciBiZWZvcmUgYXBwbHlpbmcgYSByZXNldCBzbmFwc2hvdCIsICgpID0+IHsKICAgIGNvbnN0IGF0dGFjaG1lbnQgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3dlYi10ZXJtaW5hbC91c2VUZXJtaW5hbEF0dGFjaG1lbnQudHMiLAogICAgKTsKICAgIGNvbnN0IHJlc2V0ID0gYXR0YWNobWVudC5pbmRleE9mKCJpZiAoZXZlbnQucmVzZXQpIG9uUmVzZXQoKSIpOwogICAgY29uc3Qgb3V0cHV0ID0gYXR0YWNobWVudC5pbmRleE9mKCJvbk91dHB1dChldmVudCkiLCByZXNldCk7CiAgICBhc3NlcnQub2socmVzZXQgPj0gMCk7CiAgICBhc3NlcnQub2sob3V0cHV0ID4gcmVzZXQpOwogIH0pOwoKICBpdCgia2VlcHMgcHJlLXJ1bm5pbmcgU1NIIGFuZCBsb2NhbCBQVFkgcGhhc2VzIHJlYWQtb25seSIsICgpID0+IHsKICAgIGNvbnN0IGF0dGFjaG1lbnQgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3dlYi10ZXJtaW5hbC91c2VUZXJtaW5hbEF0dGFjaG1lbnQudHMiLAogICAgKTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgYXR0YWNobWVudCwKICAgICAgL2NvbnN0IGxpdmVQaGFzZSA9IHJlZjxUZXJtaW5hbFNlc3Npb25QaGFzZSBcfCBudWxsPlwobnVsbFwpLywKICAgICk7CiAgICBhc3NlcnQubWF0Y2goYXR0YWNobWVudCwgL2xpdmVQaGFzZVwudmFsdWUgPT09ICJydW5uaW5nIi8pOwogICAgYXNzZXJ0Lm1hdGNoKGF0dGFjaG1lbnQsIC9saXZlUGhhc2VcLnZhbHVlID0gZXZlbnRcLnBoYXNlLyk7CiAgICBhc3NlcnQubWF0Y2goYXR0YWNobWVudCwgL2xpdmVQaGFzZVwudmFsdWUgPSBzZXNzaW9uXC5waGFzZS8pOwogIH0pOwoKICBpdCgicGlucyB0aGUgZml4ZWQgbG9jYWwgZGVzdGluYXRpb24gYW5kIGtlZXBzIGl0IG91dCBvZiBTU0ggdGFyZ2V0IG11dGF0aW9ucyIsICgpID0+IHsKICAgIGNvbnN0IHRhcmdldHMgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3dlYi10ZXJtaW5hbC91c2VUZXJtaW5hbFRhcmdldHMudHMiLAogICAgKTsKICAgIGNvbnN0IHRhcmdldExpc3QgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3dlYi10ZXJtaW5hbC9UZXJtaW5hbFRhcmdldExpc3QudnVlIiwKICAgICk7CiAgICBjb25zdCBsb2NhbERpYWxvZyA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd2ViLXRlcm1pbmFsL1Rlcm1pbmFsTG9jYWxTZXR0aW5nc0RpYWxvZy52dWUiLAogICAgKTsKICAgIGFzc2VydC5tYXRjaCh0YXJnZXRzLCAvbG9jYWxcP1wuc3VwcG9ydGVkL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHRhcmdldHMsIC9cLlwuXC5zc2hUYXJnZXRzXC52YWx1ZS91KTsKICAgIGFzc2VydC5tYXRjaCh0YXJnZXRzLCAvaWQ6ICJsb2NhbCIgYXMgY29uc3QvdSk7CiAgICBhc3NlcnQubWF0Y2godGFyZ2V0TGlzdCwgL3RhcmdldFwua2luZCA9PT0gJ2xvY2FsJy91KTsKICAgIGFzc2VydC5tYXRjaCh0YXJnZXRMaXN0LCAvdi1pZj0idGFyZ2V0XC5raW5kID09PSAnc3NoJyIvdSk7CiAgICBhc3NlcnQubWF0Y2godGFyZ2V0TGlzdCwgL2VtaXRcKCdjb25maWd1cmVMb2NhbCcvdSk7CiAgICBhc3NlcnQubWF0Y2gobG9jYWxEaWFsb2csIC9sb2NhbFN0YXR1c1wucHJpdmlsZWdlZC91KTsKICAgIGFzc2VydC5tYXRjaChsb2NhbERpYWxvZywgL2xvY2FsUm9vdFJpc2tUaXRsZS91KTsKICAgIGFzc2VydC5tYXRjaChsb2NhbERpYWxvZywgL2xvY2FsUmlza0Fja25vd2xlZGdlZC91KTsKICB9KTsKCiAgaXQoInJlY29uY2lsZXMgc2Vzc2lvbiBzZWxlY3Rpb24gYWZ0ZXIgdGFyZ2V0cyBhbmQgc2Vzc2lvbnMgYm9vdHN0cmFwIiwgKCkgPT4gewogICAgY29uc3QgcGFnZSA9IHJlYWRTb3VyY2UoIi4uL3NyYy92aWV3cy93ZWItdGVybWluYWwvdXNlV2ViVGVybWluYWxQYWdlLnRzIik7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIHBhZ2UsCiAgICAgIC9hd2FpdCBQcm9taXNlXC5hbGxcKFtcc1xTXSpzZXNzaW9uc0NvbnRyb2xsZXJcLnJlY29uY2lsZVNlbGVjdGlvblwoXCkvLAogICAgKTsKICB9KTsKCiAgaXQoInJlY29uY2lsZXMgc2Vzc2lvbiBzZWxlY3Rpb24gaW4gdGhlIHNhbWUgdGFyZ2V0LWNsaWNrIGJhdGNoIiwgKCkgPT4gewogICAgY29uc3QgcGFnZSA9IHJlYWRTb3VyY2UoIi4uL3NyYy92aWV3cy93ZWItdGVybWluYWwvdXNlV2ViVGVybWluYWxQYWdlLnRzIik7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIHBhZ2UsCiAgICAgIC90YXJnZXRzQ29udHJvbGxlclwuc2VsZWN0VGFyZ2V0XCh0YXJnZXRJZFwpO1xzKnNlc3Npb25zQ29udHJvbGxlclwucmVjb25jaWxlU2VsZWN0aW9uXChcKTtccyp2aWV3cG9ydFwuY2xvc2VUYXJnZXREcmF3ZXJcKFwpOy91LAogICAgKTsKICB9KTsKCiAgaXQoInJlYnVpbGRzIGF0dGFjaG1lbnRzIHdpdGhvdXQgdGVybWluYXRpbmcgdGhlIFNTSCBzZXNzaW9uIiwgKCkgPT4gewogICAgY29uc3QgYXR0YWNobWVudCA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd2ViLXRlcm1pbmFsL3VzZVRlcm1pbmFsQXR0YWNobWVudC50cyIsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKGF0dGFjaG1lbnQsIC9jcmVhdGVBdHRhY2htZW50L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGF0dGFjaG1lbnQsIC9kZXRhY2hBdHRhY2htZW50L3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChhdHRhY2htZW50LCAvZGVsZXRlU2Vzc2lvbi91KTsKICAgIGFzc2VydC5tYXRjaChhdHRhY2htZW50LCAvZ2VuZXJhdGlvbjogY3VycmVudFwuZ2VuZXJhdGlvbi91KTsKICAgIGFzc2VydC5tYXRjaChhdHRhY2htZW50LCAvc2VxdWVuY2U6IGlucHV0U2VxdWVuY2UvdSk7CiAgICBhc3NlcnQubWF0Y2goYXR0YWNobWVudCwgL3JldmlzaW9uOiByZXNpemVSZXZpc2lvbi91KTsKICAgIGFzc2VydC5tYXRjaChhdHRhY2htZW50LCAvdGVybWluYWxQaGFzZS91KTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgYXR0YWNobWVudC5tYXRjaCgKICAgICAgICAvYXdhaXQgVGVybWluYWxBUElcLnNlbmRJbnB1dFwoY3VycmVudFwuaWQsIHBheWxvYWQsIHNpZ25hbFwpL2d1LAogICAgICApPy5sZW5ndGgsCiAgICAgIDIsCiAgICApOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaCgKICAgICAgYXR0YWNobWVudCwKICAgICAgL2xldCByZWNvbm5lY3RBdHRlbXB0ID0gMDtccypzZXRSZWFkeVN0YXRlXChyZWNvcmRcKS91LAogICAgKTsKICB9KTsKCiAgaXQoInByb3ZpZGVzIGRlc2t0b3AgdGFyZ2V0IG5hdmlnYXRpb24gYW5kIGEgbW9iaWxlIGRyYXdlciIsICgpID0+IHsKICAgIGNvbnN0IG5hdmlnYXRpb24gPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3dlYi10ZXJtaW5hbC9UZXJtaW5hbFRhcmdldHNOYXZpZ2F0aW9uLnZ1ZSIsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKG5hdmlnYXRpb24sIC9tZDpibG9jay91KTsKICAgIGFzc2VydC5tYXRjaChuYXZpZ2F0aW9uLCAvPFNoZWV0L3UpOwogICAgYXNzZXJ0Lm1hdGNoKG5hdmlnYXRpb24sIC9zaWRlPSJsZWZ0Ii91KTsKICAgIGFzc2VydC5tYXRjaChuYXZpZ2F0aW9uLCAvVGVybWluYWxUYXJnZXRMaXN0L3UpOwogICAgYXNzZXJ0Lm1hdGNoKG5hdmlnYXRpb24sIC9kcmF3ZXIvdSk7CiAgICBhc3NlcnQubWF0Y2gobmF2aWdhdGlvbiwgL3NlbGVjdGVkLXNlc3Npb24taWQvdSk7CiAgICBjb25zdCB0YXJnZXRMaXN0ID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy93ZWItdGVybWluYWwvVGVybWluYWxUYXJnZXRMaXN0LnZ1ZSIsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHRhcmdldExpc3QsIC9zZXNzaW9uc0ZvclRhcmdldC91KTsKICAgIGFzc2VydC5tYXRjaCh0YXJnZXRMaXN0LCAvZW1pdFwoWyciXXNlbGVjdFNlc3Npb25bJyJdLCBzZXNzaW9uXC5pZFwpL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHRhcmdldExpc3QsIC9kcmF3ZXIgXD8gJ3ByLTE0Jy91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2godGFyZ2V0TGlzdCwgL0NvbmZpcm1EYW5nZXJQb3BvdmVyfFRyYXNoMi91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2godGFyZ2V0TGlzdCwgL0NoZXZyb25SaWdodHxLZXlSb3VuZHx0YXJnZXRSZWFkeS91KTsKICB9KTsKCiAgaXQoImtlZXBzIHRhcmdldCBkZWxldGlvbiBpbnNpZGUgdGhlIGVkaXRvciIsICgpID0+IHsKICAgIGNvbnN0IHRhcmdldEVkaXRvciA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd2ViLXRlcm1pbmFsL1Rlcm1pbmFsVGFyZ2V0RWRpdG9yRGlhbG9nLnZ1ZSIsCiAgICApOwogICAgY29uc3QgZGlhbG9ncyA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd2ViLXRlcm1pbmFsL1dlYlRlcm1pbmFsRGlhbG9ncy52dWUiLAogICAgKTsKICAgIGFzc2VydC5tYXRjaCh0YXJnZXRFZGl0b3IsIC9Db25maXJtRGFuZ2VyUG9wb3Zlci91KTsKICAgIGFzc2VydC5tYXRjaCh0YXJnZXRFZGl0b3IsIC9UcmFzaDIvdSk7CiAgICBhc3NlcnQubWF0Y2godGFyZ2V0RWRpdG9yLCAvZGVsZXRlRWRpdGluZ1RhcmdldC91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2dzLCAvOm9uLWRlbGV0ZT0iZGVsZXRlVGFyZ2V0Ii91KTsKICB9KTsKCiAgaXQoImtlZXBzIG1vYmlsZSB0ZXJtaW5hbCBhY3Rpb25zIG9uIG9uZSByb3ciLCAoKSA9PiB7CiAgICBjb25zdCB0b29sYmFyID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy93ZWItdGVybWluYWwvVGVybWluYWxTZXNzaW9uVG9vbGJhci52dWUiLAogICAgKTsKICAgIGFzc2VydC5tYXRjaCh0b29sYmFyLCAvZmxleCBtaW4tdy0wIGZsZXgtbm93cmFwIGl0ZW1zLWNlbnRlci91KTsKICAgIGFzc2VydC5tYXRjaCh0b29sYmFyLCAvbWluLXctMCBmbGV4LTEgbWF4LXctXFsyMTBweFxdIG1kOmhpZGRlbi91KTsKICAgIGFzc2VydC5tYXRjaCh0b29sYmFyLCAvZmxleCBzaHJpbmstMCBpdGVtcy1jZW50ZXIgZ2FwLTEvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKHRvb2xiYXIsIC9mbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIvdSk7CiAgfSk7CgogIGl0KCJ1c2VzIGEgaGlnaC1jb250cmFzdCBzZWxlY3RlZCBzdGF0ZSBmb3IgbW9iaWxlIG1vZGlmaWVyIGtleXMiLCAoKSA9PiB7CiAgICBjb25zdCB0b29sYmFyID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy93ZWItdGVybWluYWwvVGVybWluYWxNb2JpbGVUb29sYmFyLnZ1ZSIsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHRvb2xiYXIsIC86YXJpYS1wcmVzc2VkPSJhcm1lZE1vZGlmaWVyID09PSBtb2RpZmllciIvdSk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIHRvb2xiYXIsCiAgICAgIC9ib3JkZXItcHJpbWFyeSBiZy1wcmltYXJ5IHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIGhvdmVyOmJnLXByaW1hcnlcLzkwIGhvdmVyOnRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kL3UsCiAgICApOwogIH0pOwoKICBpdCgia2VlcHMgdGhlIHRlcm1pbmFsIG1vdW50IGFsaXZlIHdoaWxlIHRhcmdldHMgYW5kIHNlc3Npb25zIHN3aXRjaCIsICgpID0+IHsKICAgIGNvbnN0IHdvcmtzcGFjZSA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd2ViLXRlcm1pbmFsL1Rlcm1pbmFsV29ya3NwYWNlUGFuZWwudnVlIiwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIHdvcmtzcGFjZSwKICAgICAgL3Ytc2hvdz0iIWlzQm9vdGluZyAmJiBzZWxlY3RlZFRhcmdldCAmJiBzZWxlY3RlZFNlc3Npb24iW1xzXFNdKjpyZWY9InNldFRlcm1pbmFsTW91bnRFbGVtZW50Ii91LAogICAgKTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goCiAgICAgIHdvcmtzcGFjZSwKICAgICAgLzx0ZW1wbGF0ZSB2LWVsc2U+W1xzXFNdKjpyZWY9InNldFRlcm1pbmFsTW91bnRFbGVtZW50Ii91LAogICAgKTsKICB9KTsKCiAgaXQoImtlZXBzIHRoZSB0ZXJtaW5hbCB3b3Jrc3BhY2UgaW5zaWRlIHRoZSBsYXlvdXQgbWFpbiBsYW5kbWFyayIsICgpID0+IHsKICAgIGNvbnN0IHdvcmtzcGFjZSA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd2ViLXRlcm1pbmFsL1Rlcm1pbmFsV29ya3NwYWNlUGFuZWwudnVlIiwKICAgICk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKHdvcmtzcGFjZSwgLzxtYWluKD86XHN8PikvdSk7CiAgfSk7CgogIGl0KCJndWFyZHMgZWRpdG9yIHJlcXVlc3RzIGFnYWluc3Qgc3RhbGUgYXN5bmMgcmVzdWx0cyIsICgpID0+IHsKICAgIGNvbnN0IGVkaXRvciA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd2ViLXRlcm1pbmFsL3VzZVRlcm1pbmFsVGFyZ2V0RWRpdG9yLnRzIiwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goZWRpdG9yLCAvQWJvcnRDb250cm9sbGVyL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGVkaXRvciwgL29wZXJhdGlvbkdlbmVyYXRpb24vdSk7CiAgICBhc3NlcnQubWF0Y2goZWRpdG9yLCAvZW5kcG9pbnQgIT09IGVuZHBvaW50S2V5XC52YWx1ZS91KTsKICAgIGFzc2VydC5tYXRjaChlZGl0b3IsIC9jb25uZWN0aW9uR2VuZXJhdGlvbi91KTsKICAgIGFzc2VydC5tYXRjaChlZGl0b3IsIC90ZXN0ZWRDb25uZWN0aW9uR2VuZXJhdGlvbi91KTsKICAgIGFzc2VydC5tYXRjaChlZGl0b3IsIC92ZXJpZmljYXRpb25Ub2tlbi91KTsKICAgIGFzc2VydC5tYXRjaChlZGl0b3IsIC9mb3JjZUNvbmZpcm1hdGlvblRva2VuL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChlZGl0b3IsIC9KU09OXC5zdHJpbmdpZnkvdSk7CiAgICBhc3NlcnQubWF0Y2goZWRpdG9yLCAvcGVuZGluZ0hvc3RLZXkvdSk7CiAgICBhc3NlcnQubWF0Y2goZWRpdG9yLCAvY29uZmlybUhvc3RLZXkvdSk7CiAgICBhc3NlcnQubWF0Y2goZWRpdG9yLCAvVGVybWluYWxBUElcLnByb2JlSG9zdEtleS91KTsKICAgIGFzc2VydC5tYXRjaChlZGl0b3IsIC9jbGVhclNlbnNpdGl2ZURyYWZ0L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGVkaXRvciwgL2RyYWZ0XC5zZWNyZXQgPSAiIi91KTsKICAgIGFzc2VydC5tYXRjaChlZGl0b3IsIC9kcmFmdFwucGFzc3BocmFzZSA9ICIiL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChlZGl0b3IsIC9jb25zb2xlXC4oPzpsb2d8ZXJyb3IpLipjcmVkZW50aWFsL2l1KTsKICB9KTsKCiAgaXQoIm9ubHkgZm9yY2VzIHRhcmdldCB1cGRhdGVzIHRoYXQgaW52YWxpZGF0ZSBhY3RpdmUgc2Vzc2lvbnMiLCAoKSA9PiB7CiAgICBjb25zdCBwYWdlID0gcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL3dlYi10ZXJtaW5hbC91c2VXZWJUZXJtaW5hbFBhZ2UudHMiKTsKICAgIGNvbnN0IGVkaXRvciA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd2ViLXRlcm1pbmFsL3VzZVRlcm1pbmFsVGFyZ2V0RWRpdG9yLnRzIiwKICAgICk7CiAgICBjb25zdCBkaWFsb2cgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3dlYi10ZXJtaW5hbC9UZXJtaW5hbFRhcmdldEVkaXRvckRpYWxvZy52dWUiLAogICAgKTsKICAgIGFzc2VydC5tYXRjaChlZGl0b3IsIC9yZXF1aXJlc1Nlc3Npb25UZXJtaW5hdGlvbi91KTsKICAgIGFzc2VydC5tYXRjaChlZGl0b3IsIC9mb3JjZUNvbmZpcm1hdGlvblJlcXVpcmVkL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGVkaXRvciwgL2NyZWRlbnRpYWxNdXRhdGlvblwoXClcLmFjdGlvbiAhPT0gImtlZXAiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGVkaXRvciwgL3Bhc3NwaHJhc2VNdXRhdGlvblwoXClcLmFjdGlvbiAhPT0gImtlZXAiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBlZGl0b3IsCiAgICAgIC9mb3JjZSAmJltcc1xTXSpmb3JjZUNvbmZpcm1hdGlvblJlcXVpcmVkXC52YWx1ZSAmJltcc1xTXSpyZXF1aXJlc1Nlc3Npb25UZXJtaW5hdGlvblwudmFsdWUvdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goZGlhbG9nLCAvcmVxdWlyZXNUZXJtaW5hdGlvbkNvbmZpcm1hdGlvbi91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2csIC8hdGVybWluYXRlQWN0aXZlU2Vzc2lvbnMvdSk7CiAgICBhc3NlcnQubWF0Y2goZGlhbG9nLCAvZWRpdG9yXC50ZXN0YWJsZVwudmFsdWUvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKGRpYWxvZywgL2VkaXRvclwucHJvYmVIb3N0S2V5fHByb2JlSG9zdEtleS91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2csIC9tYXgtaC1cW2NhbGNcKDEwMGR2aC0ycmVtXClcXS91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2csIC9vdmVyZmxvdy14LWhpZGRlbi91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2csIC9maWVsZC1zaXppbmctZml4ZWQvdSk7CiAgICBhc3NlcnQubWF0Y2goZGlhbG9nLCAvXFtvdmVyZmxvdy13cmFwOmFueXdoZXJlXF0vdSk7CiAgICBjb25zdCBkZWxldGlvbiA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd2ViLXRlcm1pbmFsL3VzZVRlcm1pbmFsVGFyZ2V0RGVsZXRpb24udHMiLAogICAgKTsKICAgIGFzc2VydC5tYXRjaChwYWdlLCAvdXNlVGVybWluYWxUYXJnZXREZWxldGlvbi91KTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgZGVsZXRpb24sCiAgICAgIC9yZXF1ZXN0RGVsZXRlVGFyZ2V0XCh0YXJnZXRcLmlkLCB0YXJnZXRcLnJldmlzaW9uLCBmYWxzZSwgdW5kZWZpbmVkXCkvdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGRlbGV0aW9uLAogICAgICAvcmVxdWVzdERlbGV0ZVRhcmdldFwoW1xzXFNdKnRhcmdldFwuaWQsW1xzXFNdKnRhcmdldFwucmV2aXNpb24sW1xzXFNdKnRydWUsW1xzXFNdKmNvbmZpcm1hdGlvblRva2VuL3UsCiAgICApOwogIH0pOwoKICBpdCgiZGVmaW5lcyBldmVyeSBzdGF0aWMgdGVybWluYWwgdHJhbnNsYXRpb24ga2V5IGluIGV2ZXJ5IGxvY2FsZSIsICgpID0+IHsKICAgIGNvbnN0IGRpcmVjdG9yeSA9IG5ldyBVUkwoIi4uL3NyYy92aWV3cy93ZWItdGVybWluYWwvIiwgaW1wb3J0Lm1ldGEudXJsKTsKICAgIGNvbnN0IHNvdXJjZSA9IFsKICAgICAgcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL1dlYlRlcm1pbmFsLnZ1ZSIpLAogICAgICAuLi5yZWFkZGlyU3luYyhkaXJlY3RvcnksIHsgcmVjdXJzaXZlOiB0cnVlIH0pCiAgICAgICAgLmZpbHRlcigKICAgICAgICAgIChlbnRyeSk6IGVudHJ5IGlzIHN0cmluZyA9PgogICAgICAgICAgICB0eXBlb2YgZW50cnkgPT09ICJzdHJpbmciICYmIC9cLig/OnRzfHZ1ZSkkL3UudGVzdChlbnRyeSksCiAgICAgICAgKQogICAgICAgIC5tYXAoKGVudHJ5KSA9PiByZWFkRmlsZVN5bmMobmV3IFVSTChlbnRyeSwgZGlyZWN0b3J5KSwgInV0ZjgiKSksCiAgICBdLmpvaW4oIlxuIik7CiAgICBjb25zdCBrZXlzID0gbmV3IFNldCgKICAgICAgWy4uLnNvdXJjZS5tYXRjaEFsbCgvXGJ0XChccypbIiddKFteIiddKylbIiddL2d1KV0ubWFwKAogICAgICAgIChtYXRjaCkgPT4gbWF0Y2hbMV0sCiAgICAgICksCiAgICApOwogICAgY29uc3QgcmVzb2x2ZU1lc3NhZ2UgPSAobWVzc2FnZXM6IHVua25vd24sIGtleTogc3RyaW5nKSA9PgogICAgICBrZXkuc3BsaXQoIi4iKS5yZWR1Y2U8dW5rbm93bj4oKHZhbHVlLCBzZWdtZW50KSA9PiB7CiAgICAgICAgaWYgKCF2YWx1ZSB8fCB0eXBlb2YgdmFsdWUgIT09ICJvYmplY3QiKSByZXR1cm4gdW5kZWZpbmVkOwogICAgICAgIHJldHVybiAodmFsdWUgYXMgUmVjb3JkPHN0cmluZywgdW5rbm93bj4pW3NlZ21lbnRdOwogICAgICB9LCBtZXNzYWdlcyk7CgogICAgZm9yIChjb25zdCBbbG9jYWxlLCBtZXNzYWdlc10gb2YgT2JqZWN0LmVudHJpZXMoewogICAgICAiemgtQ04iOiB6aENOTWVzc2FnZXMsCiAgICAgICJ6aC1IYW50IjogemhIYW50TWVzc2FnZXMsCiAgICAgIGVuOiBlbk1lc3NhZ2VzLAogICAgICAiamEtSlAiOiBqYUpQTWVzc2FnZXMsCiAgICAgICJrby1LUiI6IGtvS1JNZXNzYWdlcywKICAgIH0pKSB7CiAgICAgIGNvbnN0IG1pc3NpbmcgPSBbLi4ua2V5c10uZmlsdGVyKAogICAgICAgIChrZXkpID0+IHJlc29sdmVNZXNzYWdlKG1lc3NhZ2VzLCBrZXkpID09PSB1bmRlZmluZWQsCiAgICAgICk7CiAgICAgIGFzc2VydC5kZWVwRXF1YWwobWlzc2luZywgW10sIGAke2xvY2FsZX06ICR7bWlzc2luZy5qb2luKCIsICIpfWApOwogICAgfQogIH0pOwoKICBpdCgibW9kZWxzIHByaXZhdGUta2V5IGNyZWRlbnRpYWxzIGFuZCBwYXNzcGhyYXNlcyBpbmRlcGVuZGVudGx5IiwgKCkgPT4gewogICAgY29uc3QgYXBpID0gcmVhZFNvdXJjZSgiLi4vc3JjL2xpYi9hcGkvdGVybWluYWwudHMiKTsKICAgIGNvbnN0IGVkaXRvciA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd2ViLXRlcm1pbmFsL3VzZVRlcm1pbmFsVGFyZ2V0RWRpdG9yLnRzIiwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGFwaSwKICAgICAgL1Rlcm1pbmFsUGFzc3BocmFzZU11dGF0aW9uID0gVGVybWluYWxTY2hlbWFzXFsiUGFzc3BocmFzZU11dGF0aW9uIlxdL3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL1Rlcm1pbmFsVGFyZ2V0Q3JlYXRlSW5wdXQgPSBUZXJtaW5hbFNjaGVtYXMvdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvVGVybWluYWxUYXJnZXRVcGRhdGVJbnB1dCA9IFRlcm1pbmFsU2NoZW1hcy91KTsKICAgIGFzc2VydC5tYXRjaChlZGl0b3IsIC9jbGVhclBhc3NwaHJhc2UvdSk7CiAgICBhc3NlcnQubWF0Y2goZWRpdG9yLCAvcGFzc3BocmFzZTogcGFzc3BocmFzZU11dGF0aW9uXChcKS91KTsKICB9KTsKCiAgaXQoImNhbmNlbHMgc3RhbGUgbXV0YXRpb25zIGFuZCBkZXRhY2hlcyBleHRlcm5hbGx5IHJlbW92ZWQgc2Vzc2lvbnMiLCAoKSA9PiB7CiAgICBjb25zdCB0YXJnZXRzID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy93ZWItdGVybWluYWwvdXNlVGVybWluYWxUYXJnZXRzLnRzIiwKICAgICk7CiAgICBjb25zdCBzZXNzaW9ucyA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd2ViLXRlcm1pbmFsL3VzZVRlcm1pbmFsU2Vzc2lvbnMudHMiLAogICAgKTsKICAgIGNvbnN0IHBhZ2UgPSByZWFkU291cmNlKCIuLi9zcmMvdmlld3Mvd2ViLXRlcm1pbmFsL3VzZVdlYlRlcm1pbmFsUGFnZS50cyIpOwogICAgY29uc3QgcmVmcmVzaCA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd2ViLXRlcm1pbmFsL3VzZVRlcm1pbmFsU2Vzc2lvblJlZnJlc2gudHMiLAogICAgKTsKICAgIGZvciAoY29uc3Qgc291cmNlIG9mIFt0YXJnZXRzLCBzZXNzaW9uc10pIHsKICAgICAgYXNzZXJ0Lm1hdGNoKHNvdXJjZSwgL25ld09wZXJhdGlvblNsb3QvdSk7CiAgICAgIGFzc2VydC5tYXRjaChzb3VyY2UsIC9BYm9ydENvbnRyb2xsZXIvdSk7CiAgICAgIGFzc2VydC5tYXRjaChzb3VyY2UsIC9jYW5jZWxNdXRhdGlvbnMvdSk7CiAgICB9CiAgICBhc3NlcnQubWF0Y2gocGFnZSwgL3JlZnJlc2hTZXNzaW9ucy91KTsKICAgIGFzc2VydC5tYXRjaChyZWZyZXNoLCAvYXdhaXQgZGV0YWNoXChcKS91KTsKICAgIGFzc2VydC5tYXRjaChyZWZyZXNoLCAvYXR0YWNobWVudFNlc3Npb25JZFwudmFsdWUvdSk7CiAgICBhc3NlcnQubWF0Y2gocmVmcmVzaCwgL3Nlc3Npb25FeGlzdHNcKHByZXZpb3VzU2Vzc2lvbklkXCkvdSk7CiAgfSk7CgogIGl0KCJsb2NhbGl6ZXMgZXZlcnkgU1NIIGFuZCBsb2NhbCBQVFkgcGhhc2UgaW5zdGVhZCBvZiByZW5kZXJpbmcgcmF3IGVudW1zIiwgKCkgPT4gewogICAgY29uc3QgcHJlc2VudGF0aW9uID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy93ZWItdGVybWluYWwvdXNlVGVybWluYWxQcmVzZW50YXRpb24udHMiLAogICAgKTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgcHJlc2VudGF0aW9uLAogICAgICAvYWRtaW5cLndlYlRlcm1pbmFsXC5zZXNzaW9uUGhhc2VcLlwkXHtwaGFzZVx9L3UsCiAgICApOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChwcmVzZW50YXRpb24sIC9gIMK3IFwkXHtzZXNzaW9uXC5waGFzZVx9YC91KTsKICAgIGFzc2VydC5tYXRjaChwcmVzZW50YXRpb24sIC9waGFzZSAhPT0gInJ1bm5pbmciL3UpOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync, readdirSync } from "node:fs";
+import { describe, it } from "node:test";
+import enMessages from "../../../packages/i18n/src/messages/scopes/admin/en";
+import jaJPMessages from "../../../packages/i18n/src/messages/scopes/admin/ja-JP";
+import koKRMessages from "../../../packages/i18n/src/messages/scopes/admin/ko-KR";
+import zhCNMessages from "../../../packages/i18n/src/messages/scopes/admin/zh-CN";
+import zhHantMessages from "../../../packages/i18n/src/messages/scopes/admin/zh-Hant";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+describe("Web terminal frontend architecture", () => {
+  it("keeps page orchestration split by responsibility", () => {
+    const page = readSource("../src/views/web-terminal/useWebTerminalPage.ts");
+    for (const composable of [
+      "useTerminalTargets",
+      "useTerminalTargetEditor",
+      "useTerminalSessions",
+      "useTerminalAttachment",
+      "useTerminalEmulator",
+      "useTerminalLocalSettings",
+      "useTerminalViewport",
+    ]) {
+      assert.match(page, new RegExp(`${composable}\\(`, "u"), composable);
+    }
+    assert.doesNotMatch(page, /terminal_feature|installTmux|getStatus/u);
+  });
+
+  it("resets the emulator before applying a reset snapshot", () => {
+    const attachment = readSource(
+      "../src/views/web-terminal/useTerminalAttachment.ts",
+    );
+    const reset = attachment.indexOf("if (event.reset) onReset()");
+    const output = attachment.indexOf("onOutput(event)", reset);
+    assert.ok(reset >= 0);
+    assert.ok(output > reset);
+  });
+
+  it("keeps pre-running SSH and local PTY phases read-only", () => {
+    const attachment = readSource(
+      "../src/views/web-terminal/useTerminalAttachment.ts",
+    );
+    assert.match(
+      attachment,
+      /const livePhase = ref<TerminalSessionPhase \| null>\(null\)/,
+    );
+    assert.match(attachment, /livePhase\.value === "running"/);
+    assert.match(attachment, /livePhase\.value = event\.phase/);
+    assert.match(attachment, /livePhase\.value = session\.phase/);
+  });
+
+  it("pins the fixed local destination and keeps it out of SSH target mutations", () => {
+    const targets = readSource(
+      "../src/views/web-terminal/useTerminalTargets.ts",
+    );
+    const targetList = readSource(
+      "../src/views/web-terminal/TerminalTargetList.vue",
+    );
+    const localDialog = readSource(
+      "../src/views/web-terminal/TerminalLocalSettingsDialog.vue",
+    );
+    assert.match(targets, /local\?\.supported/u);
+    assert.match(targets, /\.\.\.sshTargets\.value/u);
+    assert.match(targets, /id: "local" as const/u);
+    assert.match(targetList, /target\.kind === 'local'/u);
+    assert.match(targetList, /v-if="target\.kind === 'ssh'"/u);
+    assert.match(targetList, /emit\('configureLocal'/u);
+    assert.match(localDialog, /localStatus\.privileged/u);
+    assert.match(localDialog, /localRootRiskTitle/u);
+    assert.match(localDialog, /localRiskAcknowledged/u);
+  });
+
+  it("reconciles session selection after targets and sessions bootstrap", () => {
+    const page = readSource("../src/views/web-terminal/useWebTerminalPage.ts");
+    assert.match(
+      page,
+      /await Promise\.all\([\s\S]*sessionsController\.reconcileSelection\(\)/,
+    );
+  });
+
+  it("reconciles session selection in the same target-click batch", () => {
+    const page = readSource("../src/views/web-terminal/useWebTerminalPage.ts");
+    assert.match(
+      page,
+      /targetsController\.selectTarget\(targetId\);\s*sessionsController\.reconcileSelection\(\);\s*viewport\.closeTargetDrawer\(\);/u,
+    );
+  });
+
+  it("rebuilds attachments without terminating the SSH session", () => {
+    const attachment = readSource(
+      "../src/views/web-terminal/useTerminalAttachment.ts",
+    );
+    assert.match(attachment, /createAttachment/u);
+    assert.match(attachment, /detachAttachment/u);
+    assert.doesNotMatch(attachment, /deleteSession/u);
+    assert.match(attachment, /generation: current\.generation/u);
+    assert.match(attachment, /sequence: inputSequence/u);
+    assert.match(attachment, /revision: resizeRevision/u);
+    assert.match(attachment, /terminalPhase/u);
+    assert.equal(
+      attachment.match(
+        /await TerminalAPI\.sendInput\(current\.id, payload, signal\)/gu,
+      )?.length,
+      2,
+    );
+    assert.doesNotMatch(
+      attachment,
+      /let reconnectAttempt = 0;\s*setReadyState\(record\)/u,
+    );
+  });
+
+  it("provides desktop target navigation and a mobile drawer", () => {
+    const navigation = readSource(
+      "../src/views/web-terminal/TerminalTargetsNavigation.vue",
+    );
+    assert.match(navigation, /md:block/u);
+    assert.match(navigation, /<Sheet/u);
+    assert.match(navigation, /side="left"/u);
+    assert.match(navigation, /TerminalTargetList/u);
+    assert.match(navigation, /drawer/u);
+    assert.match(navigation, /selected-session-id/u);
+    const targetList = readSource(
+      "../src/views/web-terminal/TerminalTargetList.vue",
+    );
+    assert.match(targetList, /sessionsForTarget/u);
+    assert.match(targetList, /emit\(['"]selectSession['"], session\.id\)/u);
+    assert.match(targetList, /drawer \? 'pr-14'/u);
+    assert.doesNotMatch(targetList, /ConfirmDangerPopover|Trash2/u);
+    assert.doesNotMatch(targetList, /ChevronRight|KeyRound|targetReady/u);
+  });
+
+  it("keeps target deletion inside the editor", () => {
+    const targetEditor = readSource(
+      "../src/views/web-terminal/TerminalTargetEditorDialog.vue",
+    );
+    const dialogs = readSource(
+      "../src/views/web-terminal/WebTerminalDialogs.vue",
+    );
+    assert.match(targetEditor, /ConfirmDangerPopover/u);
+    assert.match(targetEditor, /Trash2/u);
+    assert.match(targetEditor, /deleteEditingTarget/u);
+    assert.match(dialogs, /:on-delete="deleteTarget"/u);
+  });
+
+  it("keeps mobile terminal actions on one row", () => {
+    const toolbar = readSource(
+      "../src/views/web-terminal/TerminalSessionToolbar.vue",
+    );
+    assert.match(toolbar, /flex min-w-0 flex-nowrap items-center/u);
+    assert.match(toolbar, /min-w-0 flex-1 max-w-\[210px\] md:hidden/u);
+    assert.match(toolbar, /flex shrink-0 items-center gap-1/u);
+    assert.doesNotMatch(toolbar, /flex flex-wrap items-center/u);
+  });
+
+  it("uses a high-contrast selected state for mobile modifier keys", () => {
+    const toolbar = readSource(
+      "../src/views/web-terminal/TerminalMobileToolbar.vue",
+    );
+    assert.match(toolbar, /:aria-pressed="armedModifier === modifier"/u);
+    assert.match(
+      toolbar,
+      /border-primary bg-primary text-primary-foreground hover:bg-primary\/90 hover:text-primary-foreground/u,
+    );
+  });
+
+  it("keeps the terminal mount alive while targets and sessions switch", () => {
+    const workspace = readSource(
+      "../src/views/web-terminal/TerminalWorkspacePanel.vue",
+    );
+    assert.match(
+      workspace,
+      /v-show="!isBooting && selectedTarget && selectedSession"[\s\S]*:ref="setTerminalMountElement"/u,
+    );
+    assert.doesNotMatch(
+      workspace,
+      /<template v-else>[\s\S]*:ref="setTerminalMountElement"/u,
+    );
+  });
+
+  it("keeps the terminal workspace inside the layout main landmark", () => {
+    const workspace = readSource(
+      "../src/views/web-terminal/TerminalWorkspacePanel.vue",
+    );
+    assert.doesNotMatch(workspace, /<main(?:\s|>)/u);
+  });
+
+  it("guards editor requests against stale async results", () => {
+    const editor = readSource(
+      "../src/views/web-terminal/useTerminalTargetEditor.ts",
+    );
+    assert.match(editor, /AbortController/u);
+    assert.match(editor, /operationGeneration/u);
+    assert.match(editor, /endpoint !== endpointKey\.value/u);
+    assert.match(editor, /connectionGeneration/u);
+    assert.match(editor, /testedConnectionGeneration/u);
+    assert.match(editor, /verificationToken/u);
+    assert.match(editor, /forceConfirmationToken/u);
+    assert.doesNotMatch(editor, /JSON\.stringify/u);
+    assert.match(editor, /pendingHostKey/u);
+    assert.match(editor, /confirmHostKey/u);
+    assert.match(editor, /TerminalAPI\.probeHostKey/u);
+    assert.match(editor, /clearSensitiveDraft/u);
+    assert.match(editor, /draft\.secret = ""/u);
+    assert.match(editor, /draft\.passphrase = ""/u);
+    assert.doesNotMatch(editor, /console\.(?:log|error).*credential/iu);
+  });
+
+  it("only forces target updates that invalidate active sessions", () => {
+    const page = readSource("../src/views/web-terminal/useWebTerminalPage.ts");
+    const editor = readSource(
+      "../src/views/web-terminal/useTerminalTargetEditor.ts",
+    );
+    const dialog = readSource(
+      "../src/views/web-terminal/TerminalTargetEditorDialog.vue",
+    );
+    assert.match(editor, /requiresSessionTermination/u);
+    assert.match(editor, /forceConfirmationRequired/u);
+    assert.match(editor, /credentialMutation\(\)\.action !== "keep"/u);
+    assert.match(editor, /passphraseMutation\(\)\.action !== "keep"/u);
+    assert.match(
+      editor,
+      /force &&[\s\S]*forceConfirmationRequired\.value &&[\s\S]*requiresSessionTermination\.value/u,
+    );
+    assert.match(dialog, /requiresTerminationConfirmation/u);
+    assert.match(dialog, /!terminateActiveSessions/u);
+    assert.match(dialog, /editor\.testable\.value/u);
+    assert.doesNotMatch(dialog, /editor\.probeHostKey|probeHostKey/u);
+    assert.match(dialog, /max-h-\[calc\(100dvh-2rem\)\]/u);
+    assert.match(dialog, /overflow-x-hidden/u);
+    assert.match(dialog, /field-sizing-fixed/u);
+    assert.match(dialog, /\[overflow-wrap:anywhere\]/u);
+    const deletion = readSource(
+      "../src/views/web-terminal/useTerminalTargetDeletion.ts",
+    );
+    assert.match(page, /useTerminalTargetDeletion/u);
+    assert.match(
+      deletion,
+      /requestDeleteTarget\(target\.id, target\.revision, false, undefined\)/u,
+    );
+    assert.match(
+      deletion,
+      /requestDeleteTarget\([\s\S]*target\.id,[\s\S]*target\.revision,[\s\S]*true,[\s\S]*confirmationToken/u,
+    );
+  });
+
+  it("defines every static terminal translation key in every locale", () => {
+    const directory = new URL("../src/views/web-terminal/", import.meta.url);
+    const source = [
+      readSource("../src/views/WebTerminal.vue"),
+      ...readdirSync(directory, { recursive: true })
+        .filter(
+          (entry): entry is string =>
+            typeof entry === "string" && /\.(?:ts|vue)$/u.test(entry),
+        )
+        .map((entry) => readFileSync(new URL(entry, directory), "utf8")),
+    ].join("\n");
+    const keys = new Set(
+      [...source.matchAll(/\bt\(\s*["']([^"']+)["']/gu)].map(
+        (match) => match[1],
+      ),
+    );
+    const resolveMessage = (messages: unknown, key: string) =>
+      key.split(".").reduce<unknown>((value, segment) => {
+        if (!value || typeof value !== "object") return undefined;
+        return (value as Record<string, unknown>)[segment];
+      }, messages);
+
+    for (const [locale, messages] of Object.entries({
+      "zh-CN": zhCNMessages,
+      "zh-Hant": zhHantMessages,
+      en: enMessages,
+      "ja-JP": jaJPMessages,
+      "ko-KR": koKRMessages,
+    })) {
+      const missing = [...keys].filter(
+        (key) => resolveMessage(messages, key) === undefined,
+      );
+      assert.deepEqual(missing, [], `${locale}: ${missing.join(", ")}`);
+    }
+  });
+
+  it("models private-key credentials and passphrases independently", () => {
+    const api = readSource("../src/lib/api/terminal.ts");
+    const editor = readSource(
+      "../src/views/web-terminal/useTerminalTargetEditor.ts",
+    );
+    assert.match(
+      api,
+      /TerminalPassphraseMutation = TerminalSchemas\["PassphraseMutation"\]/u,
+    );
+    assert.match(api, /TerminalTargetCreateInput = TerminalSchemas/u);
+    assert.match(api, /TerminalTargetUpdateInput = TerminalSchemas/u);
+    assert.match(editor, /clearPassphrase/u);
+    assert.match(editor, /passphrase: passphraseMutation\(\)/u);
+  });
+
+  it("cancels stale mutations and detaches externally removed sessions", () => {
+    const targets = readSource(
+      "../src/views/web-terminal/useTerminalTargets.ts",
+    );
+    const sessions = readSource(
+      "../src/views/web-terminal/useTerminalSessions.ts",
+    );
+    const page = readSource("../src/views/web-terminal/useWebTerminalPage.ts");
+    const refresh = readSource(
+      "../src/views/web-terminal/useTerminalSessionRefresh.ts",
+    );
+    for (const source of [targets, sessions]) {
+      assert.match(source, /newOperationSlot/u);
+      assert.match(source, /AbortController/u);
+      assert.match(source, /cancelMutations/u);
+    }
+    assert.match(page, /refreshSessions/u);
+    assert.match(refresh, /await detach\(\)/u);
+    assert.match(refresh, /attachmentSessionId\.value/u);
+    assert.match(refresh, /sessionExists\(previousSessionId\)/u);
+  });
+
+  it("localizes every SSH and local PTY phase instead of rendering raw enums", () => {
+    const presentation = readSource(
+      "../src/views/web-terminal/useTerminalPresentation.ts",
+    );
+    assert.match(
+      presentation,
+      /admin\.webTerminal\.sessionPhase\.\$\{phase\}/u,
+    );
+    assert.doesNotMatch(presentation, /` · \$\{session\.phase\}`/u);
+    assert.match(presentation, /phase !== "running"/u);
+  });
+});

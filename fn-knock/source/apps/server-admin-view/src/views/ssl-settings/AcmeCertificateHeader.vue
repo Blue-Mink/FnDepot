@@ -1,1 +1,107 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEFsZXJ0VHJpYW5nbGUgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBBbGVydCwgQWxlcnREZXNjcmlwdGlvbiwgQWxlcnRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9hbGVydCI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgQ2FyZCwKICBDYXJkRGVzY3JpcHRpb24sCiAgQ2FyZEhlYWRlciwKICBDYXJkVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgUmVmcmVzaEJ1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvUmVmcmVzaEJ1dHRvbi52dWUiOwppbXBvcnQgdHlwZSB7IEFjbWVDZXJ0aWZpY2F0ZUNvbnRyb2xsZXIgfSBmcm9tICIuL2FjbWUtY2VydGlmaWNhdGUtY29udHJhY3QiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7IGNvbnRyb2xsZXI6IEFjbWVDZXJ0aWZpY2F0ZUNvbnRyb2xsZXIgfT4oKTsKY29uc3QgewogIGFjbWVTdGF0dXNCYWRnZVZhcmlhbnQsCiAgYWNtZVN0YXR1c0xhYmVsLAogIGNvbmZpZ1N0b3JlLAogIGRuc1Byb3ZpZGVycywKICBnb1RvQWNtZUluaXRpYWxpemF0aW9uLAogIGlzQWNtZUluc3RhbGxlZCwKICBpc0RpYWxvZ1N1Ym1pdHRpbmcsCiAgaXNPdmVydmlld0xvYWRpbmcsCiAgaXNQcm92aWRlcnNMb2FkaW5nLAogIGlzVGFibGVMb2NrZWQsCiAgbG9ja1JlYXNvbkxhYmVsLAogIG9wZW5DcmVhdGVEaWFsb2csCiAgcmVmcmVzaCwKICBzaG91bGRQcm9tcHRBY21lSW5pdGlhbGl6YXRpb24sCiAgdCwKfSA9IHByb3BzLmNvbnRyb2xsZXI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgo8Q2FyZCBjbGFzcz0iYm9yZGVyLWJvcmRlci84MCBzaGFkb3ctc20iPgogICAgICA8Q2FyZEhlYWRlcj4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtNCBsZzpmbGV4LXJvdyBsZzppdGVtcy1zdGFydCBsZzpqdXN0aWZ5LWJldHdlZW4iCiAgICAgICAgPgogICAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMSI+CiAgICAgICAgICAgIDxDYXJkVGl0bGUgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgIGNvbmZpZ1N0b3JlLmlzV2luZG93c0RlcGxveW1lbnQKICAgICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5hY21lQ2VydC5kbnMwMVRpdGxlIikKICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5hY21lQ2VydC50aXRsZSIpCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICA8QmFkZ2UgOnZhcmlhbnQ9ImFjbWVTdGF0dXNCYWRnZVZhcmlhbnQiPnt7CiAgICAgICAgICAgICAgICBhY21lU3RhdHVzTGFiZWwKICAgICAgICAgICAgICB9fTwvQmFkZ2U+CiAgICAgICAgICAgICAgPEJhZGdlIHYtaWY9ImlzVGFibGVMb2NrZWQiIHZhcmlhbnQ9Im91dGxpbmUiPgogICAgICAgICAgICAgICAge3sgbG9ja1JlYXNvbkxhYmVsIH19CiAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgPC9DYXJkVGl0bGU+CiAgICAgICAgICAgIDxDYXJkRGVzY3JpcHRpb24+CiAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgIGNvbmZpZ1N0b3JlLmlzV2luZG93c0RlcGxveW1lbnQKICAgICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5hY21lQ2VydC5kbnMwMURlc2NyaXB0aW9uIikKICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5hY21lQ2VydC5kZXNjcmlwdGlvbiIpCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9DYXJkRGVzY3JpcHRpb24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgIDxSZWZyZXNoQnV0dG9uCiAgICAgICAgICAgICAgOmxvYWRpbmc9ImlzT3ZlcnZpZXdMb2FkaW5nIHx8IGlzUHJvdmlkZXJzTG9hZGluZyIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzT3ZlcnZpZXdMb2FkaW5nIHx8IGlzUHJvdmlkZXJzTG9hZGluZyIKICAgICAgICAgICAgICBAY2xpY2s9InJlZnJlc2giCiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICA6ZGlzYWJsZWQ9IgogICAgICAgICAgICAgICAgIWlzQWNtZUluc3RhbGxlZCB8fAogICAgICAgICAgICAgICAgaXNEaWFsb2dTdWJtaXR0aW5nIHx8CiAgICAgICAgICAgICAgICAhZG5zUHJvdmlkZXJzLmxlbmd0aAogICAgICAgICAgICAgICIKICAgICAgICAgICAgICBAY2xpY2s9Im9wZW5DcmVhdGVEaWFsb2ciCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5hY21lQ2VydC5uZXdBcHBsaWNhdGlvbiIpIH19CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvQ2FyZEhlYWRlcj4KICAgIDwvQ2FyZD4KCiAgICA8QWxlcnQKICAgICAgdi1pZj0ic2hvdWxkUHJvbXB0QWNtZUluaXRpYWxpemF0aW9uIgogICAgICBjbGFzcz0iYm9yZGVyLWFtYmVyLTIwMCBiZy1hbWJlci01MCB0ZXh0LWFtYmVyLTk1MCBkYXJrOmJvcmRlci1hbWJlci05MDAvNTAgZGFyazpiZy1hbWJlci05NTAvMjAgZGFyazp0ZXh0LWFtYmVyLTEwMCIKICAgID4KICAgICAgPEFsZXJ0VHJpYW5nbGUgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgIDxBbGVydFRpdGxlPgogICAgICAgIHt7IHQoImFkbWluLmFjbWVDZXJ0LmluaXRpYWxpemVQcm9tcHRUaXRsZSIpIH19CiAgICAgIDwvQWxlcnRUaXRsZT4KICAgICAgPEFsZXJ0RGVzY3JpcHRpb24KICAgICAgICBjbGFzcz0iZ3JpZCBnYXAtMyB0ZXh0LWFtYmVyLTkwMCBzbTpncmlkLWNvbHMtWzFmcl9hdXRvXSBzbTppdGVtcy1jZW50ZXIgZGFyazp0ZXh0LWFtYmVyLTEwMC85MCIKICAgICAgPgogICAgICAgIDxzcGFuPnt7IHQoImFkbWluLmFjbWVDZXJ0LmluaXRpYWxpemVQcm9tcHREZXNjcmlwdGlvbiIpIH19PC9zcGFuPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIGNsYXNzPSJzaHJpbmstMCBib3JkZXItYW1iZXItMzAwIGJnLWJhY2tncm91bmQvODAgdGV4dC1hbWJlci05NTAgaG92ZXI6YmctYmFja2dyb3VuZCBkYXJrOmJvcmRlci1hbWJlci03MDAgZGFyazp0ZXh0LWFtYmVyLTEwMCIKICAgICAgICAgIEBjbGljaz0iZ29Ub0FjbWVJbml0aWFsaXphdGlvbiIKICAgICAgICA+CiAgICAgICAgICB7eyB0KCJhZG1pbi5hY21lQ2VydC5nb0luaXRpYWxpemUiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L0FsZXJ0RGVzY3JpcHRpb24+CiAgICA8L0FsZXJ0Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { AlertTriangle } from "lucide-vue-next";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import RefreshButton from "@/components/RefreshButton.vue";
+import type { AcmeCertificateController } from "./acme-certificate-contract";
+
+const props = defineProps<{ controller: AcmeCertificateController }>();
+const {
+  acmeStatusBadgeVariant,
+  acmeStatusLabel,
+  configStore,
+  dnsProviders,
+  goToAcmeInitialization,
+  isAcmeInstalled,
+  isDialogSubmitting,
+  isOverviewLoading,
+  isProvidersLoading,
+  isTableLocked,
+  lockReasonLabel,
+  openCreateDialog,
+  refresh,
+  shouldPromptAcmeInitialization,
+  t,
+} = props.controller;
+</script>
+
+<template>
+<Card class="border-border/80 shadow-sm">
+      <CardHeader>
+        <div
+          class="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between"
+        >
+          <div class="grid gap-1">
+            <CardTitle class="flex flex-wrap items-center gap-2">
+              {{
+                configStore.isWindowsDeployment
+                  ? t("admin.acmeCert.dns01Title")
+                  : t("admin.acmeCert.title")
+              }}
+              <Badge :variant="acmeStatusBadgeVariant">{{
+                acmeStatusLabel
+              }}</Badge>
+              <Badge v-if="isTableLocked" variant="outline">
+                {{ lockReasonLabel }}
+              </Badge>
+            </CardTitle>
+            <CardDescription>
+              {{
+                configStore.isWindowsDeployment
+                  ? t("admin.acmeCert.dns01Description")
+                  : t("admin.acmeCert.description")
+              }}
+            </CardDescription>
+          </div>
+          <div class="flex flex-wrap items-center gap-2">
+            <RefreshButton
+              :loading="isOverviewLoading || isProvidersLoading"
+              :disabled="isOverviewLoading || isProvidersLoading"
+              @click="refresh"
+            />
+            <Button
+              :disabled="
+                !isAcmeInstalled ||
+                isDialogSubmitting ||
+                !dnsProviders.length
+              "
+              @click="openCreateDialog"
+            >
+              {{ t("admin.acmeCert.newApplication") }}
+            </Button>
+          </div>
+        </div>
+      </CardHeader>
+    </Card>
+
+    <Alert
+      v-if="shouldPromptAcmeInitialization"
+      class="border-amber-200 bg-amber-50 text-amber-950 dark:border-amber-900/50 dark:bg-amber-950/20 dark:text-amber-100"
+    >
+      <AlertTriangle class="h-4 w-4" />
+      <AlertTitle>
+        {{ t("admin.acmeCert.initializePromptTitle") }}
+      </AlertTitle>
+      <AlertDescription
+        class="grid gap-3 text-amber-900 sm:grid-cols-[1fr_auto] sm:items-center dark:text-amber-100/90"
+      >
+        <span>{{ t("admin.acmeCert.initializePromptDescription") }}</span>
+        <Button
+          type="button"
+          size="sm"
+          variant="outline"
+          class="shrink-0 border-amber-300 bg-background/80 text-amber-950 hover:bg-background dark:border-amber-700 dark:text-amber-100"
+          @click="goToAcmeInitialization"
+        >
+          {{ t("admin.acmeCert.goInitialize") }}
+        </Button>
+      </AlertDescription>
+    </Alert>
+</template>

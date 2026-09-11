@@ -1,1 +1,21 @@
-ewogICJuYW1lIjogIkBmbi1rbm9jay9hZG1pbi1zaGFyZWQiLAogICJwcml2YXRlIjogdHJ1ZSwKICAidmVyc2lvbiI6ICIwLjAuMCIsCiAgInR5cGUiOiAibW9kdWxlIiwKICAic2NyaXB0cyI6IHsKICAgICJsaW50IjogImVzbGludCAuIC0tbWF4LXdhcm5pbmdzPTAiCiAgfSwKICAiZGVwZW5kZW5jaWVzIjogewogICAgIkBmbi1rbm9jay9mcm9udGVuZC1jb3JlIjogIl4wLjAuMCIsCiAgICAiQGZuLWtub2NrL3VpLXZ1ZSI6ICJeMC4wLjAiLAogICAgImx1Y2lkZS12dWUtbmV4dCI6ICJeMC41NzUuMCIsCiAgICAidnVlIjogIl4zLjUuMjUiLAogICAgInZ1ZS1pMThuIjogIl4xMC4wLjgiLAogICAgInZ1ZS1zb25uZXIiOiAiXjIuMC45IgogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJAcmVwby9lc2xpbnQtY29uZmlnIjogIl4wLjAuMCIsCiAgICAiZXNsaW50IjogIl4xMC44LjAiCiAgfQp9Cg==
+{
+  "name": "@fn-knock/admin-shared",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --max-warnings=0"
+  },
+  "dependencies": {
+    "@fn-knock/frontend-core": "^0.0.0",
+    "@fn-knock/ui-vue": "^0.0.0",
+    "lucide-vue-next": "^0.575.0",
+    "vue": "^3.5.25",
+    "vue-i18n": "^10.0.8",
+    "vue-sonner": "^2.0.9"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "^0.0.0",
+    "eslint": "^10.8.0"
+  }
+}

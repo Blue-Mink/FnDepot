@@ -1,1 +1,90 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgVGFic1Jvb3RFbWl0cywgVGFic1Jvb3RQcm9wcyB9IGZyb20gInJla2EtdWkiOwppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgcmVhY3RpdmVPbWl0LCB1c2VWTW9kZWwgfSBmcm9tICJAdnVldXNlL2NvcmUiOwppbXBvcnQgeyBjb21wdXRlZCwgcHJvdmlkZSwgc2hhbGxvd1JlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IFRhYnNSb290LCB1c2VGb3J3YXJkUHJvcHMgfSBmcm9tICJyZWthLXVpIjsKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyI7CmltcG9ydCB7IHRhYnNNb3Rpb25Db250ZXh0S2V5LCB0eXBlIFRhYnNWYWx1ZSB9IGZyb20gIi4vdGFicy1tb3Rpb24iOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczwKICBUYWJzUm9vdFByb3BzICYgeyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdIH0KPigpOwpjb25zdCBlbWl0cyA9IGRlZmluZUVtaXRzPFRhYnNSb290RW1pdHM+KCk7Cgpjb25zdCBkZWxlZ2F0ZWRQcm9wcyA9IHJlYWN0aXZlT21pdCgKICBwcm9wcywKICAiY2xhc3MiLAogICJkZWZhdWx0VmFsdWUiLAogICJtb2RlbFZhbHVlIiwKKTsKY29uc3QgZm9yd2FyZGVkID0gdXNlRm9yd2FyZFByb3BzKGRlbGVnYXRlZFByb3BzKTsKCmNvbnN0IG1vZGVsVmFsdWUgPSB1c2VWTW9kZWwocHJvcHMsICJtb2RlbFZhbHVlIiwgZW1pdHMsIHsKICBwYXNzaXZlOiB0cnVlLAogIGRlZmF1bHRWYWx1ZTogcHJvcHMuZGVmYXVsdFZhbHVlLAp9KTsKCmNvbnN0IHByZXZpb3VzVmFsdWUgPSBzaGFsbG93UmVmPFRhYnNWYWx1ZSB8IHVuZGVmaW5lZD4odW5kZWZpbmVkKTsKY29uc3QgY29udGVudE9yZGVyID0gc2hhbGxvd1JlZjxUYWJzVmFsdWVbXT4oW10pOwoKZnVuY3Rpb24gcmVnaXN0ZXJDb250ZW50KHZhbHVlOiBUYWJzVmFsdWUpIHsKICBpZiAoY29udGVudE9yZGVyLnZhbHVlLmluY2x1ZGVzKHZhbHVlKSkgewogICAgcmV0dXJuOwogIH0KCiAgY29udGVudE9yZGVyLnZhbHVlID0gWy4uLmNvbnRlbnRPcmRlci52YWx1ZSwgdmFsdWVdOwp9CgpmdW5jdGlvbiB1bnJlZ2lzdGVyQ29udGVudCh2YWx1ZTogVGFic1ZhbHVlKSB7CiAgY29udGVudE9yZGVyLnZhbHVlID0gY29udGVudE9yZGVyLnZhbHVlLmZpbHRlcigoaXRlbSkgPT4gaXRlbSAhPT0gdmFsdWUpOwp9Cgpjb25zdCBtb3Rpb25EaXJlY3Rpb24gPSBjb21wdXRlZCgoKSA9PiB7CiAgY29uc3QgY3VycmVudEluZGV4ID0gY29udGVudE9yZGVyLnZhbHVlLmluZGV4T2YoCiAgICBtb2RlbFZhbHVlLnZhbHVlIGFzIFRhYnNWYWx1ZSwKICApOwogIGNvbnN0IHByZXZpb3VzSW5kZXggPSBjb250ZW50T3JkZXIudmFsdWUuaW5kZXhPZigKICAgIHByZXZpb3VzVmFsdWUudmFsdWUgYXMgVGFic1ZhbHVlLAogICk7CgogIGlmICgKICAgIGN1cnJlbnRJbmRleCA9PT0gLTEgfHwKICAgIHByZXZpb3VzSW5kZXggPT09IC0xIHx8CiAgICBjdXJyZW50SW5kZXggPT09IHByZXZpb3VzSW5kZXgKICApIHsKICAgIHJldHVybiAibm9uZSI7CiAgfQoKICByZXR1cm4gY3VycmVudEluZGV4ID4gcHJldmlvdXNJbmRleCA/ICJmcm9tLWVuZCIgOiAiZnJvbS1zdGFydCI7Cn0pOwoKZnVuY3Rpb24gaGFuZGxlVXBkYXRlTW9kZWxWYWx1ZSh2YWx1ZTogc3RyaW5nIHwgbnVtYmVyKSB7CiAgaWYgKHZhbHVlICE9PSBtb2RlbFZhbHVlLnZhbHVlKSB7CiAgICBwcmV2aW91c1ZhbHVlLnZhbHVlID0gbW9kZWxWYWx1ZS52YWx1ZSBhcyBUYWJzVmFsdWUgfCB1bmRlZmluZWQ7CiAgfQoKICBtb2RlbFZhbHVlLnZhbHVlID0gdmFsdWU7Cn0KCnByb3ZpZGUodGFic01vdGlvbkNvbnRleHRLZXksIHsKICBtb2RlbFZhbHVlLAogIHByZXZpb3VzVmFsdWUsCiAgbW90aW9uRGlyZWN0aW9uLAogIHJlZ2lzdGVyQ29udGVudCwKICB1bnJlZ2lzdGVyQ29udGVudCwKfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxUYWJzUm9vdAogICAgdi1zbG90PSJzbG90UHJvcHMiCiAgICBkYXRhLXNsb3Q9InRhYnMiCiAgICA6bW9kZWwtdmFsdWU9Im1vZGVsVmFsdWUiCiAgICB2LWJpbmQ9ImZvcndhcmRlZCIKICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9ImhhbmRsZVVwZGF0ZU1vZGVsVmFsdWUiCiAgICA6Y2xhc3M9ImNuKCdmbGV4IGZsZXgtY29sIGdhcC0yJywgcHJvcHMuY2xhc3MpIgogID4KICAgIDxzbG90IHYtYmluZD0ic2xvdFByb3BzIiAvPgogIDwvVGFic1Jvb3Q+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { TabsRootEmits, TabsRootProps } from "reka-ui";
+import type { HTMLAttributes } from "vue";
+import { reactiveOmit, useVModel } from "@vueuse/core";
+import { computed, provide, shallowRef } from "vue";
+import { TabsRoot, useForwardProps } from "reka-ui";
+import { cn } from "@/lib/utils";
+import { tabsMotionContextKey, type TabsValue } from "./tabs-motion";
+
+const props = defineProps<
+  TabsRootProps & { class?: HTMLAttributes["class"] }
+>();
+const emits = defineEmits<TabsRootEmits>();
+
+const delegatedProps = reactiveOmit(
+  props,
+  "class",
+  "defaultValue",
+  "modelValue",
+);
+const forwarded = useForwardProps(delegatedProps);
+
+const modelValue = useVModel(props, "modelValue", emits, {
+  passive: true,
+  defaultValue: props.defaultValue,
+});
+
+const previousValue = shallowRef<TabsValue | undefined>(undefined);
+const contentOrder = shallowRef<TabsValue[]>([]);
+
+function registerContent(value: TabsValue) {
+  if (contentOrder.value.includes(value)) {
+    return;
+  }
+
+  contentOrder.value = [...contentOrder.value, value];
+}
+
+function unregisterContent(value: TabsValue) {
+  contentOrder.value = contentOrder.value.filter((item) => item !== value);
+}
+
+const motionDirection = computed(() => {
+  const currentIndex = contentOrder.value.indexOf(
+    modelValue.value as TabsValue,
+  );
+  const previousIndex = contentOrder.value.indexOf(
+    previousValue.value as TabsValue,
+  );
+
+  if (
+    currentIndex === -1 ||
+    previousIndex === -1 ||
+    currentIndex === previousIndex
+  ) {
+    return "none";
+  }
+
+  return currentIndex > previousIndex ? "from-end" : "from-start";
+});
+
+function handleUpdateModelValue(value: string | number) {
+  if (value !== modelValue.value) {
+    previousValue.value = modelValue.value as TabsValue | undefined;
+  }
+
+  modelValue.value = value;
+}
+
+provide(tabsMotionContextKey, {
+  modelValue,
+  previousValue,
+  motionDirection,
+  registerContent,
+  unregisterContent,
+});
+</script>
+
+<template>
+  <TabsRoot
+    v-slot="slotProps"
+    data-slot="tabs"
+    :model-value="modelValue"
+    v-bind="forwarded"
+    @update:model-value="handleUpdateModelValue"
+    :class="cn('flex flex-col gap-2', props.class)"
+  >
+    <slot v-bind="slotProps" />
+  </TabsRoot>
+</template>

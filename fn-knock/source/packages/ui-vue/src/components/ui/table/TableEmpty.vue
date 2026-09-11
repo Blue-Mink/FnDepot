@@ -1,1 +1,34 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKaW1wb3J0IFRhYmxlQ2VsbCBmcm9tICIuL1RhYmxlQ2VsbC52dWUiCmltcG9ydCBUYWJsZVJvdyBmcm9tICIuL1RhYmxlUm93LnZ1ZSIKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCiAgY29sc3Bhbj86IG51bWJlcgp9PigpLCB7CiAgY29sc3BhbjogMSwKfSkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8VGFibGVSb3c+CiAgICA8VGFibGVDZWxsCiAgICAgIDpjbGFzcz0iCiAgICAgICAgY24oCiAgICAgICAgICAncC00IHdoaXRlc3BhY2Utbm93cmFwIGFsaWduLW1pZGRsZSB0ZXh0LXNtIHRleHQtZm9yZWdyb3VuZCcsCiAgICAgICAgICBwcm9wcy5jbGFzcywKICAgICAgICApCiAgICAgICIKICAgICAgdi1iaW5kPSJkZWxlZ2F0ZWRQcm9wcyIKICAgID4KICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcHktMTAiPgogICAgICAgIDxzbG90IC8+CiAgICAgIDwvZGl2PgogICAgPC9UYWJsZUNlbGw+CiAgPC9UYWJsZVJvdz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { cn } from "@/lib/utils"
+import TableCell from "./TableCell.vue"
+import TableRow from "./TableRow.vue"
+
+const props = withDefaults(defineProps<{
+  class?: HTMLAttributes["class"]
+  colspan?: number
+}>(), {
+  colspan: 1,
+})
+
+const delegatedProps = reactiveOmit(props, "class")
+</script>
+
+<template>
+  <TableRow>
+    <TableCell
+      :class="
+        cn(
+          'p-4 whitespace-nowrap align-middle text-sm text-foreground',
+          props.class,
+        )
+      "
+      v-bind="delegatedProps"
+    >
+      <div class="flex items-center justify-center py-10">
+        <slot />
+      </div>
+    </TableCell>
+  </TableRow>
+</template>

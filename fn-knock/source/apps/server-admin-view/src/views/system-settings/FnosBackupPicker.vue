@@ -1,1 +1,49 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCBEYXRhU2hhcmVGaWxlUGlja2VyIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vRGF0YVNoYXJlRmlsZVBpY2tlci52dWUiOwppbXBvcnQgeyBLTk9DS19CQUNLVVBfRVhURU5TSU9OIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9tYWludGVuYW5jZUJhY2t1cCI7CmltcG9ydCB0eXBlIHsKICBCYWNrdXBEaXJlY3RvcnlGaWxlc1BheWxvYWQsCiAgU2hhcmVkRGF0YUZpbGVFbnRyeSwKfSBmcm9tICJAL3R5cGVzIjsKCmRlZmluZVByb3BzPHsKICBmaWxlczogQmFja3VwRGlyZWN0b3J5RmlsZXNQYXlsb2FkOwogIGxvYWRpbmc6IGJvb2xlYW47CiAgc2VsZWN0aW5nOiBib29sZWFuOwogIGVycm9yTWVzc2FnZTogc3RyaW5nOwp9PigpOwpjb25zdCBvcGVuID0gZGVmaW5lTW9kZWw8Ym9vbGVhbj4oIm9wZW4iLCB7IHJlcXVpcmVkOiB0cnVlIH0pOwpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIHJlZnJlc2g6IFtdOwogIHNlbGVjdDogW2ZpbGU6IFNoYXJlZERhdGFGaWxlRW50cnldOwp9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERhdGFTaGFyZUZpbGVQaWNrZXIKICAgIHYtbW9kZWw6b3Blbj0ib3BlbiIKICAgIDp0aXRsZT0idCgnYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5waWNrZXJUaXRsZScpIgogICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLnBpY2tlckRlc2NyaXB0aW9uJykiCiAgICA6ZGlyZWN0b3J5LWxhYmVsPSJ0KCdhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLnBpY2tlckRpcmVjdG9yeUxhYmVsJykiCiAgICA6ZmlsZXM9ImZpbGVzLmZpbGVzIgogICAgOnN1cHBvcnRlZC1maWxlLXR5cGVzPSJbS05PQ0tfQkFDS1VQX0VYVEVOU0lPTl0iCiAgICA6YXZhaWxhYmxlPSJmaWxlcy5hdmFpbGFibGUiCiAgICA6bG9hZGluZz0ibG9hZGluZyIKICAgIDpzZWxlY3Rpbmc9InNlbGVjdGluZyIKICAgIDplcnJvci1tZXNzYWdlPSJlcnJvck1lc3NhZ2UiCiAgICA6YWxlcnQtdGl0bGU9InQoJ2FkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MucGlja2VyQWxlcnRUaXRsZScpIgogICAgOmF2YWlsYWJsZS1kZXNjcmlwdGlvbj0iCiAgICAgIHQoJ2FkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MucGlja2VyQXZhaWxhYmxlRGVzY3JpcHRpb24nKQogICAgIgogICAgOnVuYXZhaWxhYmxlLWRlc2NyaXB0aW9uPSIKICAgICAgdCgnYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5waWNrZXJVbmF2YWlsYWJsZURlc2NyaXB0aW9uJykKICAgICIKICAgIDplbXB0eS10aXRsZT0idCgnYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5waWNrZXJFbXB0eVRpdGxlJykiCiAgICA6ZW1wdHktZGVzY3JpcHRpb249InQoJ2FkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MucGlja2VyRW1wdHlEZXNjcmlwdGlvbicpIgogICAgOmNvbmZpcm0tdGV4dD0idCgnYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5waWNrZXJDb25maXJtVGV4dCcpIgogICAgQHJlZnJlc2g9ImVtaXQoJ3JlZnJlc2gnKSIKICAgIEBzZWxlY3Q9ImVtaXQoJ3NlbGVjdCcsICRldmVudCkiCiAgLz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import DataShareFilePicker from "@admin-shared/components/common/DataShareFilePicker.vue";
+import { KNOCK_BACKUP_EXTENSION } from "@admin-shared/utils/maintenanceBackup";
+import type {
+  BackupDirectoryFilesPayload,
+  SharedDataFileEntry,
+} from "@/types";
+
+defineProps<{
+  files: BackupDirectoryFilesPayload;
+  loading: boolean;
+  selecting: boolean;
+  errorMessage: string;
+}>();
+const open = defineModel<boolean>("open", { required: true });
+const emit = defineEmits<{
+  refresh: [];
+  select: [file: SharedDataFileEntry];
+}>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <DataShareFilePicker
+    v-model:open="open"
+    :title="t('admin.maintenanceSettings.pickerTitle')"
+    :description="t('admin.maintenanceSettings.pickerDescription')"
+    :directory-label="t('admin.maintenanceSettings.pickerDirectoryLabel')"
+    :files="files.files"
+    :supported-file-types="[KNOCK_BACKUP_EXTENSION]"
+    :available="files.available"
+    :loading="loading"
+    :selecting="selecting"
+    :error-message="errorMessage"
+    :alert-title="t('admin.maintenanceSettings.pickerAlertTitle')"
+    :available-description="
+      t('admin.maintenanceSettings.pickerAvailableDescription')
+    "
+    :unavailable-description="
+      t('admin.maintenanceSettings.pickerUnavailableDescription')
+    "
+    :empty-title="t('admin.maintenanceSettings.pickerEmptyTitle')"
+    :empty-description="t('admin.maintenanceSettings.pickerEmptyDescription')"
+    :confirm-text="t('admin.maintenanceSettings.pickerConfirmText')"
+    @refresh="emit('refresh')"
+    @select="emit('select', $event)"
+  />
+</template>

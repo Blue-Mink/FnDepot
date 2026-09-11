@@ -1,1 +1,61 @@
-PHNjcmlwdCBsYW5nPSJ0cyIgc2V0dXA+CmltcG9ydCB0eXBlIHsgQ1NTUHJvcGVydGllcywgQ29tcG9uZW50IH0gZnJvbSAidnVlIjsKaW1wb3J0IHR5cGUgeyBUb2FzdGVyUHJvcHMgfSBmcm9tICJ2dWUtc29ubmVyIjsKaW1wb3J0IHsgY29tcHV0ZWQsIGRlZmluZUNvbXBvbmVudCwgaCwgbWFya1JhdyB9IGZyb20gInZ1ZSI7CmltcG9ydCB7CiAgQ2lyY2xlQ2hlY2tJY29uLAogIEluZm9JY29uLAogIExvYWRlcjJJY29uLAogIE9jdGFnb25YSWNvbiwKICBUcmlhbmdsZUFsZXJ0SWNvbiwKICBYSWNvbiwKfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBUb2FzdGVyIGFzIFNvbm5lciB9IGZyb20gInZ1ZS1zb25uZXIiOwppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8VG9hc3RlclByb3BzPigpOwoKY29uc3QgdGhlbWVkU3R5bGU6IENTU1Byb3BlcnRpZXMgPSB7CiAgIi0tbm9ybWFsLWJnIjogInZhcigtLXBvcG92ZXIpIiwKICAiLS1ub3JtYWwtdGV4dCI6ICJ2YXIoLS1wb3BvdmVyLWZvcmVncm91bmQpIiwKICAiLS1ub3JtYWwtYm9yZGVyIjogInZhcigtLWJvcmRlcikiLAogICItLWJvcmRlci1yYWRpdXMiOiAidmFyKC0tcmFkaXVzKSIsCn07Cgpjb25zdCBjcmVhdGVJY29uQ29tcG9uZW50ID0gKGljb246IENvbXBvbmVudCwgY2xhc3NOYW1lID0gInNpemUtNCIpID0+CiAgbWFya1JhdygKICAgIGRlZmluZUNvbXBvbmVudCh7CiAgICAgIG5hbWU6ICJUb2FzdEljb24iLAogICAgICBzZXR1cCgpIHsKICAgICAgICByZXR1cm4gKCkgPT4gaChpY29uLCB7IGNsYXNzOiBjbGFzc05hbWUgfSk7CiAgICAgIH0sCiAgICB9KSwKICApOwoKY29uc3QgZGVmYXVsdEljb25zID0gewogIHN1Y2Nlc3M6IGNyZWF0ZUljb25Db21wb25lbnQoQ2lyY2xlQ2hlY2tJY29uKSwKICBpbmZvOiBjcmVhdGVJY29uQ29tcG9uZW50KEluZm9JY29uKSwKICB3YXJuaW5nOiBjcmVhdGVJY29uQ29tcG9uZW50KFRyaWFuZ2xlQWxlcnRJY29uKSwKICBlcnJvcjogY3JlYXRlSWNvbkNvbXBvbmVudChPY3RhZ29uWEljb24pLAogIGxvYWRpbmc6IGNyZWF0ZUljb25Db21wb25lbnQoTG9hZGVyMkljb24sICJzaXplLTQgYW5pbWF0ZS1zcGluIiksCiAgY2xvc2U6IGNyZWF0ZUljb25Db21wb25lbnQoWEljb24pLAp9OwoKY29uc3QgbWVyZ2VkUHJvcHMgPSBjb21wdXRlZDxUb2FzdGVyUHJvcHM+KCgpID0+ICh7CiAgLi4ucHJvcHMsCiAgY2xvc2VCdXR0b246IHByb3BzLmNsb3NlQnV0dG9uID8/IGZhbHNlLAogIGNsYXNzOiBjbigidG9hc3RlciBncm91cCIsIHByb3BzLmNsYXNzKSwKICBzdHlsZTogewogICAgLi4udGhlbWVkU3R5bGUsCiAgICAuLi4ocHJvcHMuc3R5bGUgPz8ge30pLAogIH0sCiAgaWNvbnM6IHsKICAgIC4uLmRlZmF1bHRJY29ucywKICAgIC4uLihwcm9wcy5pY29ucyA/PyB7fSksCiAgfSwKfSkpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8U29ubmVyIHYtYmluZD0ibWVyZ2VkUHJvcHMiIC8+CjwvdGVtcGxhdGU+Cg==
+<script lang="ts" setup>
+import type { CSSProperties, Component } from "vue";
+import type { ToasterProps } from "vue-sonner";
+import { computed, defineComponent, h, markRaw } from "vue";
+import {
+  CircleCheckIcon,
+  InfoIcon,
+  Loader2Icon,
+  OctagonXIcon,
+  TriangleAlertIcon,
+  XIcon,
+} from "lucide-vue-next";
+import { Toaster as Sonner } from "vue-sonner";
+import { cn } from "@/lib/utils";
+
+const props = defineProps<ToasterProps>();
+
+const themedStyle: CSSProperties = {
+  "--normal-bg": "var(--popover)",
+  "--normal-text": "var(--popover-foreground)",
+  "--normal-border": "var(--border)",
+  "--border-radius": "var(--radius)",
+};
+
+const createIconComponent = (icon: Component, className = "size-4") =>
+  markRaw(
+    defineComponent({
+      name: "ToastIcon",
+      setup() {
+        return () => h(icon, { class: className });
+      },
+    }),
+  );
+
+const defaultIcons = {
+  success: createIconComponent(CircleCheckIcon),
+  info: createIconComponent(InfoIcon),
+  warning: createIconComponent(TriangleAlertIcon),
+  error: createIconComponent(OctagonXIcon),
+  loading: createIconComponent(Loader2Icon, "size-4 animate-spin"),
+  close: createIconComponent(XIcon),
+};
+
+const mergedProps = computed<ToasterProps>(() => ({
+  ...props,
+  closeButton: props.closeButton ?? false,
+  class: cn("toaster group", props.class),
+  style: {
+    ...themedStyle,
+    ...(props.style ?? {}),
+  },
+  icons: {
+    ...defaultIcons,
+    ...(props.icons ?? {}),
+  },
+}));
+</script>
+
+<template>
+  <Sonner v-bind="mergedProps" />
+</template>

@@ -1,1 +1,246 @@
-aW1wb3J0IHR5cGUgewogIFNTSExvZ2luTG9nTGlzdFBheWxvYWQsCiAgU1NIU2VjdXJpdHlCbG9ja0xpc3RQYXlsb2FkLAogIFNTSFNlY3VyaXR5QmxvY2tSZWNvcmQsCiAgU1NIU2VjdXJpdHlEZXRhaWxzLAogIFNTSFNlY3VyaXR5RmlyZXdhbGxDbGVhclJlc3VsdCwKICBTU0hTZWN1cml0eUZpcmV3YWxsU3luY1Jlc3VsdCwKICBUaHJlYXRPdmVydmlldywKfSBmcm9tICIuLi8uLi90eXBlcyI7CmltcG9ydCB0eXBlIHsKICBjb21wb25lbnRzIGFzIEFwaUNvbnRyYWN0Q29tcG9uZW50cywKICBvcGVyYXRpb25zIGFzIEFwaUNvbnRyYWN0T3BlcmF0aW9ucywKfSBmcm9tICJAZm4ta25vY2svYXBpLWNvbnRyYWN0IjsKaW1wb3J0IHsgYXBpQ2xpZW50IH0gZnJvbSAiLi9jbGllbnQiOwoKZXhwb3J0IHR5cGUgewogIFNTSExvZ2luTG9nTGlzdFBheWxvYWQsCiAgU1NIU2VjdXJpdHlCbG9ja0xpc3RQYXlsb2FkLAogIFNTSFNlY3VyaXR5QmxvY2tSZWNvcmQsCiAgU1NIU2VjdXJpdHlDb25maWcsCiAgU1NIU2VjdXJpdHlEZXRhaWxzLAogIFNTSFNlY3VyaXR5RmlyZXdhbGxDbGVhclJlc3VsdCwKICBTU0hTZWN1cml0eUZpcmV3YWxsU3luY1Jlc3VsdCwKICBUaHJlYXRPdmVydmlldywKfSBmcm9tICIuLi8uLi90eXBlcyI7Cgp0eXBlIFNlY3VyaXR5U2NoZW1hcyA9IEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdOwp0eXBlIFNzaFNlY3VyaXR5Q29uZmlnVXBkYXRlID0gU2VjdXJpdHlTY2hlbWFzWyJTc2hTZWN1cml0eUNvbmZpZ1VwZGF0ZURhdGEiXTsKdHlwZSBTc2hCbG9ja3NEZWxldGVCb2R5ID0gU2VjdXJpdHlTY2hlbWFzWyJTc2hCbG9ja3NEZWxldGVCb2R5RGF0YSJdOwp0eXBlIFNzaExvZ2luTG9nc1F1ZXJ5ID0gTm9uTnVsbGFibGU8CiAgQXBpQ29udHJhY3RPcGVyYXRpb25zWyJnZXRfYXBpX2FkbWluX3NzaF9zZWN1cml0eV9sb2dpbl9sb2dzIl1bInBhcmFtZXRlcnMiXVsicXVlcnkiXQo+Owp0eXBlIFNzaEJsb2Nrc1F1ZXJ5ID0gTm9uTnVsbGFibGU8CiAgQXBpQ29udHJhY3RPcGVyYXRpb25zWyJnZXRfYXBpX2FkbWluX3NzaF9zZWN1cml0eV9ibG9ja3MiXVsicGFyYW1ldGVycyJdWyJxdWVyeSJdCj47CnR5cGUgU3NoTG9naW5Mb2dzUGFyYW1zID0gewogIHBhZ2U6IE5vbk51bGxhYmxlPFNzaExvZ2luTG9nc1F1ZXJ5WyJwYWdlIl0+OwogIGxpbWl0OiBOb25OdWxsYWJsZTxTc2hMb2dpbkxvZ3NRdWVyeVsibGltaXQiXT47CiAgc2VhcmNoPzogU3NoTG9naW5Mb2dzUXVlcnlbInNlYXJjaCJdOwogIG91dGNvbWU/OiBTc2hMb2dpbkxvZ3NRdWVyeVsib3V0Y29tZSJdIHwgImFsbCI7Cn07CgpleHBvcnQgdHlwZSBTY2FubmVyU2V0dGluZ3MgPSBTZWN1cml0eVNjaGVtYXNbIlNjYW5uZXJTZXR0aW5nc0RhdGEiXTsKZXhwb3J0IHR5cGUgU2Nhbm5lclBhdGhXaGl0ZWxpc3QgPSBTZWN1cml0eVNjaGVtYXNbIlNjYW5uZXJQYXRoV2hpdGVsaXN0RGF0YSJdOwpleHBvcnQgdHlwZSBTY2FubmVyRmFsc2VQb3NpdGl2ZVJlc3VsdCA9CiAgU2VjdXJpdHlTY2hlbWFzWyJTY2FubmVyRmFsc2VQb3NpdGl2ZVJlc3VsdERhdGEiXTsKZXhwb3J0IHR5cGUgU2Nhbm5lckJsYWNrbGlzdEhpdCA9IFNlY3VyaXR5U2NoZW1hc1siU2Nhbm5lckJsYWNrbGlzdEhpdERhdGEiXTsKZXhwb3J0IHR5cGUgU2Nhbm5lckJsYWNrbGlzdFJlY29yZCA9CiAgU2VjdXJpdHlTY2hlbWFzWyJTY2FubmVyQmxhY2tsaXN0UmVjb3JkRGF0YSJdOwpleHBvcnQgdHlwZSBTY2FubmVyQmxhY2tsaXN0TGlzdCA9IFNlY3VyaXR5U2NoZW1hc1siU2Nhbm5lckJsYWNrbGlzdExpc3REYXRhIl07CmV4cG9ydCB0eXBlIEdlbmVyYWxCbGFja2xpc3RTb3VyY2UgPQogIFNlY3VyaXR5U2NoZW1hc1siR2VuZXJhbEJsYWNrbGlzdFJlY29yZERhdGEiXVsic291cmNlIl07CmV4cG9ydCB0eXBlIEdlbmVyYWxCbGFja2xpc3RSZWNvcmQgPQogIFNlY3VyaXR5U2NoZW1hc1siR2VuZXJhbEJsYWNrbGlzdFJlY29yZERhdGEiXTsKZXhwb3J0IHR5cGUgR2VuZXJhbEJsYWNrbGlzdExpc3QgPSBTZWN1cml0eVNjaGVtYXNbIkdlbmVyYWxCbGFja2xpc3RMaXN0RGF0YSJdOwpleHBvcnQgdHlwZSBHZW5lcmFsQmxhY2tsaXN0TXV0YXRpb25SZXN1bHQgPQogIFNlY3VyaXR5U2NoZW1hc1siR2VuZXJhbEJsYWNrbGlzdE11dGF0aW9uRGF0YSJdOwpleHBvcnQgdHlwZSBHZW5lcmFsQmxhY2tsaXN0U3RhdHVzID0KICBTZWN1cml0eVNjaGVtYXNbIkdlbmVyYWxCbGFja2xpc3RTdGF0dXNEYXRhIl07Cgp0eXBlIFNlY3VyaXR5T3ZlcnZpZXdRdWVyeSA9IE5vbk51bGxhYmxlPAogIEFwaUNvbnRyYWN0T3BlcmF0aW9uc1siZ2V0X2FwaV9hZG1pbl9zZWN1cml0eV9vdmVydmlldyJdWyJwYXJhbWV0ZXJzIl1bInF1ZXJ5Il0KPjsKdHlwZSBTY2FubmVyU2V0dGluZ3NVcGRhdGUgPSBTZWN1cml0eVNjaGVtYXNbIlNjYW5uZXJTZXR0aW5nc1VwZGF0ZURhdGEiXTsKdHlwZSBTY2FubmVyUGF0aFdoaXRlbGlzdFVwZGF0ZSA9CiAgU2VjdXJpdHlTY2hlbWFzWyJTY2FubmVyUGF0aFdoaXRlbGlzdFVwZGF0ZURhdGEiXTsKdHlwZSBTY2FubmVyRmFsc2VQb3NpdGl2ZUJvZHkgPSBTZWN1cml0eVNjaGVtYXNbIlNjYW5uZXJGYWxzZVBvc2l0aXZlQm9keURhdGEiXTsKdHlwZSBJcExpc3RCb2R5ID0gU2VjdXJpdHlTY2hlbWFzWyJJcExpc3RCb2R5RGF0YSJdOwp0eXBlIEdlbmVyYWxCbGFja2xpc3RBZGRCb2R5ID0gU2VjdXJpdHlTY2hlbWFzWyJHZW5lcmFsQmxhY2tsaXN0QWRkQm9keURhdGEiXTsKdHlwZSBTY2FubmVyQmxhY2tsaXN0UXVlcnkgPSBOb25OdWxsYWJsZTwKICBBcGlDb250cmFjdE9wZXJhdGlvbnNbImdldF9hcGlfYWRtaW5fc2Nhbm5lcl9ibGFja2xpc3QiXVsicGFyYW1ldGVycyJdWyJxdWVyeSJdCj47CnR5cGUgR2VuZXJhbEJsYWNrbGlzdFF1ZXJ5ID0gTm9uTnVsbGFibGU8CiAgQXBpQ29udHJhY3RPcGVyYXRpb25zWyJnZXRfYXBpX2FkbWluX2dlbmVyYWxfYmxhY2tsaXN0Il1bInBhcmFtZXRlcnMiXVsicXVlcnkiXQo+OwoKZXhwb3J0IGNvbnN0IFNlY3VyaXR5QVBJID0gewogIGFzeW5jIGdldE92ZXJ2aWV3KAogICAgcmFuZ2VTZWM6IG51bWJlciwKICAgIHNpZ25hbD86IEFib3J0U2lnbmFsLAogICk6IFByb21pc2U8VGhyZWF0T3ZlcnZpZXc+IHsKICAgIGNvbnN0IHBhcmFtcyA9IHsgcmFuZ2VTZWMgfSBzYXRpc2ZpZXMgU2VjdXJpdHlPdmVydmlld1F1ZXJ5OwogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL3NlY3VyaXR5L292ZXJ2aWV3IiwgewogICAgICBwYXJhbXMsCiAgICAgIHNpZ25hbCwKICAgIH0pOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKfTsKCmV4cG9ydCBjb25zdCBTY2FubmVyQVBJID0gewogIGFzeW5jIGdldFNldHRpbmdzKCk6IFByb21pc2U8U2Nhbm5lclNldHRpbmdzPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvc2Nhbm5lci9zZXR0aW5ncyIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBzYXZlU2V0dGluZ3MocGF5bG9hZDogU2Nhbm5lclNldHRpbmdzVXBkYXRlKTogUHJvbWlzZTxTY2FubmVyU2V0dGluZ3M+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvc2Nhbm5lci9zZXR0aW5ncyIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRQYXRoV2hpdGVsaXN0KCk6IFByb21pc2U8U2Nhbm5lclBhdGhXaGl0ZWxpc3Q+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9zY2FubmVyL3BhdGgtd2hpdGVsaXN0Iik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHVwZGF0ZVBhdGhXaGl0ZWxpc3QoCiAgICBwYXlsb2FkOiBTY2FubmVyUGF0aFdoaXRlbGlzdFVwZGF0ZSwKICApOiBQcm9taXNlPFNjYW5uZXJQYXRoV2hpdGVsaXN0PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucHV0KCIvc2Nhbm5lci9wYXRoLXdoaXRlbGlzdCIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyByZXNvbHZlRmFsc2VQb3NpdGl2ZSgKICAgIHBheWxvYWQ6IFNjYW5uZXJGYWxzZVBvc2l0aXZlQm9keSwKICApOiBQcm9taXNlPFNjYW5uZXJGYWxzZVBvc2l0aXZlUmVzdWx0PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgKICAgICAgIi9zY2FubmVyL3BhdGgtd2hpdGVsaXN0L2ZhbHNlLXBvc2l0aXZlIiwKICAgICAgcGF5bG9hZCwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGdldEJsYWNrbGlzdCgKICAgIHBhZ2U6IG51bWJlciwKICAgIGxpbWl0OiBzdHJpbmcsCiAgICBzZWFyY2g6IHN0cmluZywKICApOiBQcm9taXNlPFNjYW5uZXJCbGFja2xpc3RMaXN0PiB7CiAgICBjb25zdCBwYXJhbXMgPSB7IHBhZ2UsIGxpbWl0LCBzZWFyY2ggfSBzYXRpc2ZpZXMgU2Nhbm5lckJsYWNrbGlzdFF1ZXJ5OwogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL3NjYW5uZXIvYmxhY2tsaXN0IiwgewogICAgICBwYXJhbXMsCiAgICB9KTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0QmxhY2tsaXN0RGV0YWlsKGlwOiBzdHJpbmcpOiBQcm9taXNlPFNjYW5uZXJCbGFja2xpc3RSZWNvcmQ+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoCiAgICAgIGAvc2Nhbm5lci9ibGFja2xpc3QvJHtlbmNvZGVVUklDb21wb25lbnQoaXApfWAsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBkZWxldGVCbGFja2xpc3QoaXBzOiBzdHJpbmdbXSk6IFByb21pc2U8dm9pZD4gewogICAgY29uc3QgYm9keSA9IHsgaXBzIH0gc2F0aXNmaWVzIElwTGlzdEJvZHk7CiAgICBhd2FpdCBhcGlDbGllbnQuZGVsZXRlKCIvc2Nhbm5lci9ibGFja2xpc3QiLCB7IGRhdGE6IGJvZHkgfSk7CiAgfSwKICBhc3luYyBkZWxldGVCbGFja2xpc3RCeUlwKGlwOiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGF3YWl0IGFwaUNsaWVudC5kZWxldGUoYC9zY2FubmVyL2JsYWNrbGlzdC8ke2VuY29kZVVSSUNvbXBvbmVudChpcCl9YCk7CiAgfSwKfTsKCmV4cG9ydCBjb25zdCBHZW5lcmFsQmxhY2tsaXN0QVBJID0gewogIGFzeW5jIGdldExpc3QoCiAgICBwYWdlOiBudW1iZXIsCiAgICBsaW1pdDogc3RyaW5nLAogICAgc2VhcmNoOiBzdHJpbmcsCiAgKTogUHJvbWlzZTxHZW5lcmFsQmxhY2tsaXN0TGlzdD4gewogICAgY29uc3QgcGFyYW1zID0geyBwYWdlLCBsaW1pdCwgc2VhcmNoIH0gc2F0aXNmaWVzIEdlbmVyYWxCbGFja2xpc3RRdWVyeTsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9nZW5lcmFsLWJsYWNrbGlzdCIsIHsKICAgICAgcGFyYW1zLAogICAgfSk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGFkZCgKICAgIGlwczogc3RyaW5nW10sCiAgICBzb3VyY2U6IEdlbmVyYWxCbGFja2xpc3RTb3VyY2UsCiAgICBjb21tZW50Pzogc3RyaW5nLAogICk6IFByb21pc2U8R2VuZXJhbEJsYWNrbGlzdE11dGF0aW9uUmVzdWx0PiB7CiAgICBjb25zdCBib2R5ID0gewogICAgICBpcHMsCiAgICAgIHNvdXJjZSwKICAgICAgY29tbWVudCwKICAgIH0gc2F0aXNmaWVzIEdlbmVyYWxCbGFja2xpc3RBZGRCb2R5OwogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9nZW5lcmFsLWJsYWNrbGlzdCIsIGJvZHkpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRTdGF0dXMoaXBzOiBzdHJpbmdbXSk6IFByb21pc2U8R2VuZXJhbEJsYWNrbGlzdFN0YXR1cz4gewogICAgY29uc3QgYm9keSA9IHsgaXBzIH0gc2F0aXNmaWVzIElwTGlzdEJvZHk7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL2dlbmVyYWwtYmxhY2tsaXN0L3N0YXR1cyIsIGJvZHkpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBkZWxldGUoaXBzOiBzdHJpbmdbXSk6IFByb21pc2U8R2VuZXJhbEJsYWNrbGlzdE11dGF0aW9uUmVzdWx0PiB7CiAgICBjb25zdCBib2R5ID0geyBpcHMgfSBzYXRpc2ZpZXMgSXBMaXN0Qm9keTsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5kZWxldGUoIi9nZW5lcmFsLWJsYWNrbGlzdCIsIHsgZGF0YTogYm9keSB9KTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZGVsZXRlQnlJcChpcDogc3RyaW5nKTogUHJvbWlzZTxHZW5lcmFsQmxhY2tsaXN0TXV0YXRpb25SZXN1bHQ+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5kZWxldGUoCiAgICAgIGAvZ2VuZXJhbC1ibGFja2xpc3QvJHtlbmNvZGVVUklDb21wb25lbnQoaXApfWAsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKfTsKCmV4cG9ydCBjb25zdCBTU0hTZWN1cml0eUFQSSA9IHsKICBhc3luYyBnZXREZXRhaWxzKCk6IFByb21pc2U8U1NIU2VjdXJpdHlEZXRhaWxzPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvc3NoLXNlY3VyaXR5L2NvbmZpZyIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyB1cGRhdGVDb25maWcoCiAgICBwYXlsb2FkOiBTc2hTZWN1cml0eUNvbmZpZ1VwZGF0ZSwKICApOiBQcm9taXNlPFNTSFNlY3VyaXR5RGV0YWlscz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9zc2gtc2VjdXJpdHkvY29uZmlnIiwgcGF5bG9hZCk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHN5bmNGaXJld2FsbCgpOiBQcm9taXNlPFNTSFNlY3VyaXR5RmlyZXdhbGxTeW5jUmVzdWx0PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL3NzaC1zZWN1cml0eS9maXJld2FsbC9zeW5jIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGNsZWFyRmlyZXdhbGwoKTogUHJvbWlzZTxTU0hTZWN1cml0eUZpcmV3YWxsQ2xlYXJSZXN1bHQ+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvc3NoLXNlY3VyaXR5L2ZpcmV3YWxsL2NsZWFyIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGdldExvZ2luTG9ncygKICAgIHBhcmFtczogU3NoTG9naW5Mb2dzUGFyYW1zLAogICk6IFByb21pc2U8U1NITG9naW5Mb2dMaXN0UGF5bG9hZD4gewogICAgY29uc3QgcXVlcnkgPSB7CiAgICAgIHBhZ2U6IHBhcmFtcy5wYWdlLAogICAgICBsaW1pdDogcGFyYW1zLmxpbWl0LAogICAgICBzZWFyY2g6IHBhcmFtcy5zZWFyY2ggfHwgdW5kZWZpbmVkLAogICAgICBvdXRjb21lOgogICAgICAgIHBhcmFtcy5vdXRjb21lICYmIHBhcmFtcy5vdXRjb21lICE9PSAiYWxsIiA/IHBhcmFtcy5vdXRjb21lIDogdW5kZWZpbmVkLAogICAgfSBzYXRpc2ZpZXMgU3NoTG9naW5Mb2dzUXVlcnk7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvc3NoLXNlY3VyaXR5L2xvZ2luLWxvZ3MiLCB7CiAgICAgIHBhcmFtczogcXVlcnksCiAgICB9KTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0QmxvY2tzKAogICAgcGFnZTogbnVtYmVyLAogICAgbGltaXQ6IHN0cmluZywKICAgIHNlYXJjaDogc3RyaW5nLAogICk6IFByb21pc2U8U1NIU2VjdXJpdHlCbG9ja0xpc3RQYXlsb2FkPiB7CiAgICBjb25zdCBwYXJhbXMgPSB7IHBhZ2UsIGxpbWl0LCBzZWFyY2ggfSBzYXRpc2ZpZXMgU3NoQmxvY2tzUXVlcnk7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvc3NoLXNlY3VyaXR5L2Jsb2NrcyIsIHsKICAgICAgcGFyYW1zLAogICAgfSk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGdldEJsb2NrKGlwOiBzdHJpbmcpOiBQcm9taXNlPFNTSFNlY3VyaXR5QmxvY2tSZWNvcmQ+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoCiAgICAgIGAvc3NoLXNlY3VyaXR5L2Jsb2Nrcy8ke2VuY29kZVVSSUNvbXBvbmVudChpcCl9YCwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGRlbGV0ZUJsb2NrKGlwOiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGF3YWl0IGFwaUNsaWVudC5kZWxldGUoYC9zc2gtc2VjdXJpdHkvYmxvY2tzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlwKX1gKTsKICB9LAogIGFzeW5jIGRlbGV0ZUJsb2NrcyhpcHM6IHN0cmluZ1tdKTogUHJvbWlzZTx2b2lkPiB7CiAgICBjb25zdCBib2R5ID0geyBpcHMgfSBzYXRpc2ZpZXMgU3NoQmxvY2tzRGVsZXRlQm9keTsKICAgIGF3YWl0IGFwaUNsaWVudC5kZWxldGUoIi9zc2gtc2VjdXJpdHkvYmxvY2tzIiwgeyBkYXRhOiBib2R5IH0pOwogIH0sCn07Cg==
+import type {
+  SSHLoginLogListPayload,
+  SSHSecurityBlockListPayload,
+  SSHSecurityBlockRecord,
+  SSHSecurityDetails,
+  SSHSecurityFirewallClearResult,
+  SSHSecurityFirewallSyncResult,
+  ThreatOverview,
+} from "../../types";
+import type {
+  components as ApiContractComponents,
+  operations as ApiContractOperations,
+} from "@fn-knock/api-contract";
+import { apiClient } from "./client";
+
+export type {
+  SSHLoginLogListPayload,
+  SSHSecurityBlockListPayload,
+  SSHSecurityBlockRecord,
+  SSHSecurityConfig,
+  SSHSecurityDetails,
+  SSHSecurityFirewallClearResult,
+  SSHSecurityFirewallSyncResult,
+  ThreatOverview,
+} from "../../types";
+
+type SecuritySchemas = ApiContractComponents["schemas"];
+type SshSecurityConfigUpdate = SecuritySchemas["SshSecurityConfigUpdateData"];
+type SshBlocksDeleteBody = SecuritySchemas["SshBlocksDeleteBodyData"];
+type SshLoginLogsQuery = NonNullable<
+  ApiContractOperations["get_api_admin_ssh_security_login_logs"]["parameters"]["query"]
+>;
+type SshBlocksQuery = NonNullable<
+  ApiContractOperations["get_api_admin_ssh_security_blocks"]["parameters"]["query"]
+>;
+type SshLoginLogsParams = {
+  page: NonNullable<SshLoginLogsQuery["page"]>;
+  limit: NonNullable<SshLoginLogsQuery["limit"]>;
+  search?: SshLoginLogsQuery["search"];
+  outcome?: SshLoginLogsQuery["outcome"] | "all";
+};
+
+export type ScannerSettings = SecuritySchemas["ScannerSettingsData"];
+export type ScannerPathWhitelist = SecuritySchemas["ScannerPathWhitelistData"];
+export type ScannerFalsePositiveResult =
+  SecuritySchemas["ScannerFalsePositiveResultData"];
+export type ScannerBlacklistHit = SecuritySchemas["ScannerBlacklistHitData"];
+export type ScannerBlacklistRecord =
+  SecuritySchemas["ScannerBlacklistRecordData"];
+export type ScannerBlacklistList = SecuritySchemas["ScannerBlacklistListData"];
+export type GeneralBlacklistSource =
+  SecuritySchemas["GeneralBlacklistRecordData"]["source"];
+export type GeneralBlacklistRecord =
+  SecuritySchemas["GeneralBlacklistRecordData"];
+export type GeneralBlacklistList = SecuritySchemas["GeneralBlacklistListData"];
+export type GeneralBlacklistMutationResult =
+  SecuritySchemas["GeneralBlacklistMutationData"];
+export type GeneralBlacklistStatus =
+  SecuritySchemas["GeneralBlacklistStatusData"];
+
+type SecurityOverviewQuery = NonNullable<
+  ApiContractOperations["get_api_admin_security_overview"]["parameters"]["query"]
+>;
+type ScannerSettingsUpdate = SecuritySchemas["ScannerSettingsUpdateData"];
+type ScannerPathWhitelistUpdate =
+  SecuritySchemas["ScannerPathWhitelistUpdateData"];
+type ScannerFalsePositiveBody = SecuritySchemas["ScannerFalsePositiveBodyData"];
+type IpListBody = SecuritySchemas["IpListBodyData"];
+type GeneralBlacklistAddBody = SecuritySchemas["GeneralBlacklistAddBodyData"];
+type ScannerBlacklistQuery = NonNullable<
+  ApiContractOperations["get_api_admin_scanner_blacklist"]["parameters"]["query"]
+>;
+type GeneralBlacklistQuery = NonNullable<
+  ApiContractOperations["get_api_admin_general_blacklist"]["parameters"]["query"]
+>;
+
+export const SecurityAPI = {
+  async getOverview(
+    rangeSec: number,
+    signal?: AbortSignal,
+  ): Promise<ThreatOverview> {
+    const params = { rangeSec } satisfies SecurityOverviewQuery;
+    const res = await apiClient.get("/security/overview", {
+      params,
+      signal,
+    });
+    return res.data.data;
+  },
+};
+
+export const ScannerAPI = {
+  async getSettings(): Promise<ScannerSettings> {
+    const res = await apiClient.get("/scanner/settings");
+    return res.data.data;
+  },
+  async saveSettings(payload: ScannerSettingsUpdate): Promise<ScannerSettings> {
+    const res = await apiClient.post("/scanner/settings", payload);
+    return res.data.data;
+  },
+  async getPathWhitelist(): Promise<ScannerPathWhitelist> {
+    const res = await apiClient.get("/scanner/path-whitelist");
+    return res.data.data;
+  },
+  async updatePathWhitelist(
+    payload: ScannerPathWhitelistUpdate,
+  ): Promise<ScannerPathWhitelist> {
+    const res = await apiClient.put("/scanner/path-whitelist", payload);
+    return res.data.data;
+  },
+  async resolveFalsePositive(
+    payload: ScannerFalsePositiveBody,
+  ): Promise<ScannerFalsePositiveResult> {
+    const res = await apiClient.post(
+      "/scanner/path-whitelist/false-positive",
+      payload,
+    );
+    return res.data.data;
+  },
+  async getBlacklist(
+    page: number,
+    limit: string,
+    search: string,
+  ): Promise<ScannerBlacklistList> {
+    const params = { page, limit, search } satisfies ScannerBlacklistQuery;
+    const res = await apiClient.get("/scanner/blacklist", {
+      params,
+    });
+    return res.data.data;
+  },
+  async getBlacklistDetail(ip: string): Promise<ScannerBlacklistRecord> {
+    const res = await apiClient.get(
+      `/scanner/blacklist/${encodeURIComponent(ip)}`,
+    );
+    return res.data.data;
+  },
+  async deleteBlacklist(ips: string[]): Promise<void> {
+    const body = { ips } satisfies IpListBody;
+    await apiClient.delete("/scanner/blacklist", { data: body });
+  },
+  async deleteBlacklistByIp(ip: string): Promise<void> {
+    await apiClient.delete(`/scanner/blacklist/${encodeURIComponent(ip)}`);
+  },
+};
+
+export const GeneralBlacklistAPI = {
+  async getList(
+    page: number,
+    limit: string,
+    search: string,
+  ): Promise<GeneralBlacklistList> {
+    const params = { page, limit, search } satisfies GeneralBlacklistQuery;
+    const res = await apiClient.get("/general-blacklist", {
+      params,
+    });
+    return res.data.data;
+  },
+  async add(
+    ips: string[],
+    source: GeneralBlacklistSource,
+    comment?: string,
+  ): Promise<GeneralBlacklistMutationResult> {
+    const body = {
+      ips,
+      source,
+      comment,
+    } satisfies GeneralBlacklistAddBody;
+    const res = await apiClient.post("/general-blacklist", body);
+    return res.data.data;
+  },
+  async getStatus(ips: string[]): Promise<GeneralBlacklistStatus> {
+    const body = { ips } satisfies IpListBody;
+    const res = await apiClient.post("/general-blacklist/status", body);
+    return res.data.data;
+  },
+  async delete(ips: string[]): Promise<GeneralBlacklistMutationResult> {
+    const body = { ips } satisfies IpListBody;
+    const res = await apiClient.delete("/general-blacklist", { data: body });
+    return res.data.data;
+  },
+  async deleteByIp(ip: string): Promise<GeneralBlacklistMutationResult> {
+    const res = await apiClient.delete(
+      `/general-blacklist/${encodeURIComponent(ip)}`,
+    );
+    return res.data.data;
+  },
+};
+
+export const SSHSecurityAPI = {
+  async getDetails(): Promise<SSHSecurityDetails> {
+    const res = await apiClient.get("/ssh-security/config");
+    return res.data.data;
+  },
+  async updateConfig(
+    payload: SshSecurityConfigUpdate,
+  ): Promise<SSHSecurityDetails> {
+    const res = await apiClient.post("/ssh-security/config", payload);
+    return res.data.data;
+  },
+  async syncFirewall(): Promise<SSHSecurityFirewallSyncResult> {
+    const res = await apiClient.post("/ssh-security/firewall/sync");
+    return res.data.data;
+  },
+  async clearFirewall(): Promise<SSHSecurityFirewallClearResult> {
+    const res = await apiClient.post("/ssh-security/firewall/clear");
+    return res.data.data;
+  },
+  async getLoginLogs(
+    params: SshLoginLogsParams,
+  ): Promise<SSHLoginLogListPayload> {
+    const query = {
+      page: params.page,
+      limit: params.limit,
+      search: params.search || undefined,
+      outcome:
+        params.outcome && params.outcome !== "all" ? params.outcome : undefined,
+    } satisfies SshLoginLogsQuery;
+    const res = await apiClient.get("/ssh-security/login-logs", {
+      params: query,
+    });
+    return res.data.data;
+  },
+  async getBlocks(
+    page: number,
+    limit: string,
+    search: string,
+  ): Promise<SSHSecurityBlockListPayload> {
+    const params = { page, limit, search } satisfies SshBlocksQuery;
+    const res = await apiClient.get("/ssh-security/blocks", {
+      params,
+    });
+    return res.data.data;
+  },
+  async getBlock(ip: string): Promise<SSHSecurityBlockRecord> {
+    const res = await apiClient.get(
+      `/ssh-security/blocks/${encodeURIComponent(ip)}`,
+    );
+    return res.data.data;
+  },
+  async deleteBlock(ip: string): Promise<void> {
+    await apiClient.delete(`/ssh-security/blocks/${encodeURIComponent(ip)}`);
+  },
+  async deleteBlocks(ips: string[]): Promise<void> {
+    const body = { ips } satisfies SshBlocksDeleteBody;
+    await apiClient.delete("/ssh-security/blocks", { data: body });
+  },
+};

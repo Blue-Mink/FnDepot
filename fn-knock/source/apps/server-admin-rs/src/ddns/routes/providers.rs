@@ -1,1 +1,432 @@
-dXNlIHN1cGVyOjoqOwptb2QgYWxpZG5zOwptb2QgYmFpZHU7Cm1vZCBjbG91ZGZsYXJlOwptb2QgY29tbW9uOwptb2QgZG5zaGU7Cm1vZCBkbnNwb2Q7Cm1vZCBkdWNrZG5zOwptb2QgZHludTsKbW9kIGR5bnY2Owptb2QgZWRnZW9uZTsKbW9kIGVkZ2VvbmVfY25hbWU7Cm1vZCBlZGdlb25lX2NvbW1vbjsKbW9kIGVzYTsKbW9kIGdvZGFkZHk7Cm1vZCBodWF3ZWk7Cm1vZCBub2lwOwptb2QgcG9ya2J1bjsKbW9kIHRlbmNlbnRjbG91ZDsKbW9kIHRlbmNlbnRjbG91ZF90YzM7CgpwdWIoc3VwZXIpIHVzZSBhbGlkbnM6Oio7CnB1YihzdXBlcikgdXNlIGJhaWR1OjoqOwpwdWIoc3VwZXIpIHVzZSBjbG91ZGZsYXJlOjoqOwpwdWIoc3VwZXIpIHVzZSBjb21tb246Oio7CnB1YihzdXBlcikgdXNlIGRuc2hlOjoqOwpwdWIoc3VwZXIpIHVzZSBkbnNwb2Q6Oio7CnB1YihzdXBlcikgdXNlIGR1Y2tkbnM6Oio7CnB1YihzdXBlcikgdXNlIGR5bnU6Oio7CnB1YihzdXBlcikgdXNlIGR5bnY2OjoqOwpwdWIoc3VwZXIpIHVzZSBlZGdlb25lOjoqOwpwdWIoc3VwZXIpIHVzZSBlZGdlb25lX2NuYW1lOjoqOwpwdWIoc3VwZXIpIHVzZSBlZGdlb25lX2NvbW1vbjo6KjsKcHViKHN1cGVyKSB1c2UgZXNhOjoqOwpwdWIoc3VwZXIpIHVzZSBnb2RhZGR5OjoqOwpwdWIoc3VwZXIpIHVzZSBodWF3ZWk6Oio7CnB1YihzdXBlcikgdXNlIG5vaXA6Oio7CnB1YihzdXBlcikgdXNlIHBvcmtidW46Oio7CnB1YihzdXBlcikgdXNlIHRlbmNlbnRjbG91ZDo6KjsKcHViKHN1cGVyKSB1c2UgdGVuY2VudGNsb3VkX3RjMzo6KjsKCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgUGFydGlhbEVxLCBFcSldCnB1YihzdXBlcikgc3RydWN0IERETlNEb21haW5VcGRhdGVQbGFuIHsKICAgIHB1YihzdXBlcikgY29uZmlnOiBIYXNoTWFwPFN0cmluZywgU3RyaW5nPiwKICAgIHB1YihzdXBlcikgdGFyZ2V0czogT3B0aW9uPERkbnNEb21haW5UYXJnZXRzPiwKICAgIHB1YihzdXBlcikgZXhlY3V0aW9uOiBEZG5zRG9tYWluVXBkYXRlRXhlY3V0aW9uLAogICAgcHJlZmxpZ2h0X2NvbXBsZXRlOiBib29sLAp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX2RkbnNfcHJvdmlkZXJfdXBkYXRlX3BsYW4oCiAgICBwcm92aWRlcjogJnN0ciwKICAgIGNvbmZpZzogJkhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+LAopIC0+IGFueWhvdzo6UmVzdWx0PERETlNEb21haW5VcGRhdGVQbGFuPiB7CiAgICBsZXQgbXV0IG5vcm1hbGl6ZWQgPSBjb25maWcuY2xvbmUoKTsKICAgIGxldCB0YXJnZXRzID0gbm9ybWFsaXplX2FuZF92YWxpZGF0ZV9kZG5zX2RvbWFpbl9jb25maWcocHJvdmlkZXIsICZtdXQgbm9ybWFsaXplZCk/OwogICAgbGV0IGV4ZWN1dGlvbiA9IG1hdGNoIHRhcmdldHMuYXNfcmVmKCkgewogICAgICAgIFNvbWUodGFyZ2V0cykgaWYgdGFyZ2V0cy5pc19wYWlyKCkgPT4gZGRuc19wcm92aWRlcl9kb21haW5fcG9saWN5KHByb3ZpZGVyKQogICAgICAgICAgICAubWFwKHxwb2xpY3l8IHBvbGljeS5wYWlyX2V4ZWN1dGlvbikKICAgICAgICAgICAgLnVud3JhcF9vcihEZG5zRG9tYWluVXBkYXRlRXhlY3V0aW9uOjpTaW5nbGUpLAogICAgICAgIF8gPT4gRGRuc0RvbWFpblVwZGF0ZUV4ZWN1dGlvbjo6U2luZ2xlLAogICAgfTsKICAgIGxldCBwcmVmbGlnaHQgPSB0YXJnZXRzCiAgICAgICAgLmFzX3JlZigpCiAgICAgICAgLmZpbHRlcih8dGFyZ2V0c3wgdGFyZ2V0cy5pc19wYWlyKCkpCiAgICAgICAgLmFuZF90aGVuKHxffCBkZG5zX3Byb3ZpZGVyX2RvbWFpbl9wb2xpY3kocHJvdmlkZXIpKQogICAgICAgIC5tYXAofHBvbGljeXwgcG9saWN5LnByZWZsaWdodCkKICAgICAgICAudW53cmFwX29yKERkbnNEb21haW5Sb290UHJlZmxpZ2h0OjpOb25lKTsKICAgIE9rKERETlNEb21haW5VcGRhdGVQbGFuIHsKICAgICAgICBjb25maWc6IG5vcm1hbGl6ZWQsCiAgICAgICAgdGFyZ2V0cywKICAgICAgICBleGVjdXRpb24sCiAgICAgICAgcHJlZmxpZ2h0X2NvbXBsZXRlOiAhbWF0Y2hlcyEoCiAgICAgICAgICAgIHByZWZsaWdodCwKICAgICAgICAgICAgRGRuc0RvbWFpblJvb3RQcmVmbGlnaHQ6OkNsb3VkZmxhcmVab25lCiAgICAgICAgICAgICAgICB8IERkbnNEb21haW5Sb290UHJlZmxpZ2h0OjpFZGdlT25lWm9uZQogICAgICAgICAgICAgICAgfCBEZG5zRG9tYWluUm9vdFByZWZsaWdodDo6RXNhU2l0ZQogICAgICAgICksCiAgICB9KQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHByZXBhcmVfZGRuc19wcm92aWRlcl91cGRhdGUoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIHByb3ZpZGVyOiAmc3RyLAogICAgY29uZmlnOiAmSGFzaE1hcDxTdHJpbmcsIFN0cmluZz4sCiAgICBodHRwX29wdGlvbnM6ICZERE5TSHR0cENsaWVudE9wdGlvbnMsCikgLT4gYW55aG93OjpSZXN1bHQ8REROU0RvbWFpblVwZGF0ZVBsYW4+IHsKICAgIGxldCBtdXQgcGxhbiA9IGJ1aWxkX2RkbnNfcHJvdmlkZXJfdXBkYXRlX3BsYW4ocHJvdmlkZXIsIGNvbmZpZyk/OwogICAgcHJlZmxpZ2h0X2RkbnNfcHJvdmlkZXJfdXBkYXRlKHRyYW5zbGF0b3IsIHByb3ZpZGVyLCAmbXV0IHBsYW4sIGh0dHBfb3B0aW9ucykuYXdhaXQ/OwogICAgT2socGxhbikKfQoKcHViKHN1cGVyKSBmbiBkZG5zX3ByZWZsaWdodF9yZXF1aXJlZF9iZWZvcmVfYXV4aWxpYXJ5KAogICAgcHJvdmlkZXI6ICZzdHIsCiAgICBwbGFuOiAmREROU0RvbWFpblVwZGF0ZVBsYW4sCikgLT4gYm9vbCB7CiAgICAhcGxhbi5wcmVmbGlnaHRfY29tcGxldGUKICAgICAgICAmJiBkZG5zX3Byb3ZpZGVyX2RvbWFpbl9wb2xpY3kocHJvdmlkZXIpCiAgICAgICAgICAgIC5pc19zb21lX2FuZCh8cG9saWN5fCBwb2xpY3kucHJlZmxpZ2h0ID09IERkbnNEb21haW5Sb290UHJlZmxpZ2h0OjpFZGdlT25lWm9uZSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBwcmVmbGlnaHRfZGRuc19wcm92aWRlcl91cGRhdGUoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIHByb3ZpZGVyOiAmc3RyLAogICAgcGxhbjogJm11dCBERE5TRG9tYWluVXBkYXRlUGxhbiwKICAgIGh0dHBfb3B0aW9uczogJkRETlNIdHRwQ2xpZW50T3B0aW9ucywKKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgaWYgcGxhbi5wcmVmbGlnaHRfY29tcGxldGUgewogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CiAgICBsZXQgcm9vdCA9IHBsYW4KICAgICAgICAudGFyZ2V0cwogICAgICAgIC5hc19yZWYoKQogICAgICAgIC5hbmRfdGhlbihEZG5zRG9tYWluVGFyZ2V0czo6cGFpcl9yb290KQogICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCiAgICAgICAgLm9rX29yX2Vsc2UofHwgYW55aG93Ojphbnlob3chKCJtaXNzaW5nIERETlMgcGFpciByb290IGZvciBwcmVmbGlnaHQiKSk/OwogICAgbGV0IHByZWZsaWdodCA9IGRkbnNfcHJvdmlkZXJfZG9tYWluX3BvbGljeShwcm92aWRlcikKICAgICAgICAubWFwKHxwb2xpY3l8IHBvbGljeS5wcmVmbGlnaHQpCiAgICAgICAgLnVud3JhcF9vcihEZG5zRG9tYWluUm9vdFByZWZsaWdodDo6Tm9uZSk7CiAgICBtYXRjaCBwcmVmbGlnaHQgewogICAgICAgIERkbnNEb21haW5Sb290UHJlZmxpZ2h0OjpDbG91ZGZsYXJlWm9uZSA9PiB7CiAgICAgICAgICAgIHZhbGlkYXRlX2Nsb3VkZmxhcmVfcGFpcl9yb290X2luX3pvbmUodHJhbnNsYXRvciwgJnBsYW4uY29uZmlnLCBodHRwX29wdGlvbnMsICZyb290KQogICAgICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICB9CiAgICAgICAgRGRuc0RvbWFpblJvb3RQcmVmbGlnaHQ6OkVkZ2VPbmVab25lID0+IHsKICAgICAgICAgICAgdmFsaWRhdGVfZWRnZW9uZV9wYWlyX3Jvb3RfaW5fem9uZSh0cmFuc2xhdG9yLCAmcGxhbi5jb25maWcsIGh0dHBfb3B0aW9ucywgJnJvb3QpCiAgICAgICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIH0KICAgICAgICBEZG5zRG9tYWluUm9vdFByZWZsaWdodDo6RXNhU2l0ZSA9PiB7CiAgICAgICAgICAgIGxldCBzaXRlX2lkID0KICAgICAgICAgICAgICAgIHJlc29sdmVfYW5kX3ZhbGlkYXRlX2VzYV9zaXRlX2lkKHRyYW5zbGF0b3IsICZwbGFuLmNvbmZpZywgaHR0cF9vcHRpb25zLCAmcm9vdCkKICAgICAgICAgICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgICAgICBwbGFuLmNvbmZpZy5pbnNlcnQoInNpdGVfaWQiLnRvX3N0cmluZygpLCBzaXRlX2lkKTsKICAgICAgICB9CiAgICAgICAgRGRuc0RvbWFpblJvb3RQcmVmbGlnaHQ6Ok5vbmUgfCBEZG5zRG9tYWluUm9vdFByZWZsaWdodDo6RHludVNlcnZpY2UgPT4ge30KICAgIH0KICAgIHBsYW4ucHJlZmxpZ2h0X2NvbXBsZXRlID0gdHJ1ZTsKICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGV4ZWN1dGVfZGRuc19wcm92aWRlcl91cGRhdGUoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIHByb3ZpZGVyOiAmc3RyLAogICAgcGxhbjogJkRETlNEb21haW5VcGRhdGVQbGFuLAogICAgaHR0cF9vcHRpb25zOiAmREROU0h0dHBDbGllbnRPcHRpb25zLAogICAgaXB2NDogT3B0aW9uPCZzdHI+LAogICAgaXB2NjogT3B0aW9uPCZzdHI+LAopIC0+IGFueWhvdzo6UmVzdWx0PERETlNQcm92aWRlclVwZGF0ZVJlc3VsdD4gewogICAgaWYgIXBsYW4ucHJlZmxpZ2h0X2NvbXBsZXRlIHsKICAgICAgICBhbnlob3c6OmJhaWwhKCJERE5TIGRvbWFpbiB1cGRhdGUgcGxhbiBtdXN0IGJlIHByZWZsaWdodGVkIGJlZm9yZSBleGVjdXRpb24iKTsKICAgIH0KICAgIG1hdGNoIHBsYW4uZXhlY3V0aW9uIHsKICAgICAgICBEZG5zRG9tYWluVXBkYXRlRXhlY3V0aW9uOjpTaW5nbGUgPT4gewogICAgICAgICAgICB1cGRhdGVfZGRuc19wcm92aWRlcl9zaW5nbGUoCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgcHJvdmlkZXIsCiAgICAgICAgICAgICAgICAmcGxhbi5jb25maWcsCiAgICAgICAgICAgICAgICBodHRwX29wdGlvbnMsCiAgICAgICAgICAgICAgICBpcHY0LAogICAgICAgICAgICAgICAgaXB2NiwKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICB9CiAgICAgICAgRGRuc0RvbWFpblVwZGF0ZUV4ZWN1dGlvbjo6RHludVdpbGRjYXJkQWxpYXMgPT4gewogICAgICAgICAgICBsZXQgbXV0IGNvbmZpZyA9IHBsYW4uY29uZmlnLmNsb25lKCk7CiAgICAgICAgICAgIGxldCB3aWxkY2FyZCA9IHBsYW4KICAgICAgICAgICAgICAgIC50YXJnZXRzCiAgICAgICAgICAgICAgICAuYXNfcmVmKCkKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihEZG5zRG9tYWluVGFyZ2V0czo6d2lsZGNhcmQpCiAgICAgICAgICAgICAgICAub2tfb3JfZWxzZSh8fCBhbnlob3c6OmFueWhvdyEoIm1pc3NpbmcgRHludSB3aWxkY2FyZCB0YXJnZXQiKSk/OwogICAgICAgICAgICBjb25maWcuaW5zZXJ0KCJkb21haW4iLnRvX3N0cmluZygpLCB3aWxkY2FyZC50b19zdHJpbmcoKSk7CiAgICAgICAgICAgIHVwZGF0ZV9kZG5zX3Byb3ZpZGVyX3NpbmdsZSh0cmFuc2xhdG9yLCBwcm92aWRlciwgJmNvbmZpZywgaHR0cF9vcHRpb25zLCBpcHY0LCBpcHY2KQogICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgfQogICAgICAgIERkbnNEb21haW5VcGRhdGVFeGVjdXRpb246OkZhbk91dCA9PiB7CiAgICAgICAgICAgIGxldCB0YXJnZXRzID0gcGxhbgogICAgICAgICAgICAgICAgLnRhcmdldHMKICAgICAgICAgICAgICAgIC5hc19yZWYoKQogICAgICAgICAgICAgICAgLm9rX29yX2Vsc2UofHwgYW55aG93Ojphbnlob3chKCJtaXNzaW5nIERETlMgZG9tYWluIHRhcmdldHMiKSk/OwogICAgICAgICAgICBPayhleGVjdXRlX2RkbnNfZG9tYWluX2Zhbm91dCh0cmFuc2xhdG9yLCB0YXJnZXRzLCB8ZG9tYWlufCB7CiAgICAgICAgICAgICAgICBsZXQgbXV0IGNvbmZpZyA9IHBsYW4uY29uZmlnLmNsb25lKCk7CiAgICAgICAgICAgICAgICBjb25maWcuaW5zZXJ0KCJkb21haW4iLnRvX3N0cmluZygpLCBkb21haW4pOwogICAgICAgICAgICAgICAgYXN5bmMgbW92ZSB7CiAgICAgICAgICAgICAgICAgICAgdXBkYXRlX2RkbnNfcHJvdmlkZXJfc2luZ2xlKAogICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgICAgICAgICBwcm92aWRlciwKICAgICAgICAgICAgICAgICAgICAgICAgJmNvbmZpZywKICAgICAgICAgICAgICAgICAgICAgICAgaHR0cF9vcHRpb25zLAogICAgICAgICAgICAgICAgICAgICAgICBpcHY0LAogICAgICAgICAgICAgICAgICAgICAgICBpcHY2LAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmF3YWl0KQogICAgICAgIH0KICAgIH0KfQoKcHViKHN1cGVyKSBhc3luYyBmbiBleGVjdXRlX2RkbnNfZG9tYWluX2Zhbm91dDxGLCBGdXQ+KAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICB0YXJnZXRzOiAmRGRuc0RvbWFpblRhcmdldHMsCiAgICBtdXQgdXBkYXRlOiBGLAopIC0+IERETlNQcm92aWRlclVwZGF0ZVJlc3VsdAp3aGVyZQogICAgRjogRm5NdXQoU3RyaW5nKSAtPiBGdXQsCiAgICBGdXQ6IEZ1dHVyZTxPdXRwdXQgPSBhbnlob3c6OlJlc3VsdDxERE5TUHJvdmlkZXJVcGRhdGVSZXN1bHQ+PiwKewogICAgbGV0IG11dCByZXN1bHRzID0gVmVjOjpuZXcoKTsKICAgIGZvciBkb21haW4gaW4gdGFyZ2V0cy5kb21haW5zKCkgewogICAgICAgIGxldCBkb21haW4gPSBkb21haW4udG9fc3RyaW5nKCk7CiAgICAgICAgbGV0IHJlc3VsdCA9IG1hdGNoIHVwZGF0ZShkb21haW4uY2xvbmUoKSkuYXdhaXQgewogICAgICAgICAgICBPayhyZXN1bHQpID0+IHJlc3VsdCwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBwcm92aWRlcl9mYWlsdXJlKGVycm9yLnRvX3N0cmluZygpKSwKICAgICAgICB9OwogICAgICAgIHJlc3VsdHMucHVzaCgoZG9tYWluLCByZXN1bHQpKTsKICAgIH0KICAgIGFnZ3JlZ2F0ZV9kb21haW5fdXBkYXRlX3Jlc3VsdHModHJhbnNsYXRvciwgcmVzdWx0cykKfQoKcHViKHN1cGVyKSBmbiBhZ2dyZWdhdGVfZG9tYWluX3VwZGF0ZV9yZXN1bHRzKAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICByZXN1bHRzOiBWZWM8KFN0cmluZywgREROU1Byb3ZpZGVyVXBkYXRlUmVzdWx0KT4sCikgLT4gREROU1Byb3ZpZGVyVXBkYXRlUmVzdWx0IHsKICAgIGxldCBzdWNjZXNzID0gcmVzdWx0cy5pdGVyKCkuYWxsKHwoXywgcmVzdWx0KXwgcmVzdWx0LnN1Y2Nlc3MpOwogICAgaWYgc3VjY2VzcyB7CiAgICAgICAgcmV0dXJuIERETlNQcm92aWRlclVwZGF0ZVJlc3VsdCB7CiAgICAgICAgICAgIHN1Y2Nlc3M6IHRydWUsCiAgICAgICAgICAgIG1lc3NhZ2U6IGRkbnNfdGV4dCgKICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAiZG9tYWluVGFyZ2V0cy5hbGxTdWNjZWVkZWQiLAogICAgICAgICAgICAgICAgJlsoImNvdW50IiwgcmVzdWx0cy5sZW4oKS50b19zdHJpbmcoKSldLAogICAgICAgICAgICApLAogICAgICAgIH07CiAgICB9CiAgICBsZXQgbWVzc2FnZSA9IHJlc3VsdHMKICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAubWFwKHwoZG9tYWluLCByZXN1bHQpfCB7CiAgICAgICAgICAgIGlmIHJlc3VsdC5zdWNjZXNzIHsKICAgICAgICAgICAgICAgIGRkbnNfdGV4dCgKICAgICAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgICAgICJkb21haW5UYXJnZXRzLml0ZW1TdWNjZWVkZWQiLAogICAgICAgICAgICAgICAgICAgICZbKCJkb21haW4iLCBkb21haW4pXSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGxldCBkZXRhaWwgPSByZXN1bHQubWVzc2FnZS50cmltKCk7CiAgICAgICAgICAgICAgICBkZG5zX3RleHQoCiAgICAgICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICAgICAiZG9tYWluVGFyZ2V0cy5pdGVtRmFpbGVkIiwKICAgICAgICAgICAgICAgICAgICAmWwogICAgICAgICAgICAgICAgICAgICAgICAoImRvbWFpbiIsIGRvbWFpbiksCiAgICAgICAgICAgICAgICAgICAgICAgICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJkZXRhaWwiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgZGV0YWlsLmlzX2VtcHR5KCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRkbnNfdGV4dCh0cmFuc2xhdG9yLCAicmVxdWVzdEZhaWxlZCIsICZbXSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGV0YWlsLnRvX3N0cmluZygpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9KQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpCiAgICAgICAgLmpvaW4oIjsgIik7CiAgICBERE5TUHJvdmlkZXJVcGRhdGVSZXN1bHQgeyBzdWNjZXNzLCBtZXNzYWdlIH0KfQoKYXN5bmMgZm4gdXBkYXRlX2RkbnNfcHJvdmlkZXJfc2luZ2xlKAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICBwcm92aWRlcjogJnN0ciwKICAgIGNvbmZpZzogJkhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgaHR0cF9vcHRpb25zOiAmREROU0h0dHBDbGllbnRPcHRpb25zLAogICAgaXB2NDogT3B0aW9uPCZzdHI+LAogICAgaXB2NjogT3B0aW9uPCZzdHI+LAopIC0+IGFueWhvdzo6UmVzdWx0PERETlNQcm92aWRlclVwZGF0ZVJlc3VsdD4gewogICAgaWYgIWlzX2tub3duX2RkbnNfcHJvdmlkZXIocHJvdmlkZXIpIHsKICAgICAgICByZXR1cm4gdXBkYXRlX2RkbnNfcHJvdmlkZXJfb25jZSh0cmFuc2xhdG9yLCBwcm92aWRlciwgY29uZmlnLCBodHRwX29wdGlvbnMsIGlwdjQsIGlwdjYpCiAgICAgICAgICAgIC5hd2FpdDsKICAgIH0KCiAgICBsZXQgcmV0cnlfb3B0aW9ucyA9IGRkbnNfcHJvdmlkZXJfcmV0cnlfb3B0aW9uc19mcm9tX2VudigpOwogICAgaWYgcmV0cnlfb3B0aW9ucy5tYXhfYXR0ZW1wdHMgPT0gMCB7CiAgICAgICAgcmV0dXJuIE9rKHByb3ZpZGVyX2ZhaWx1cmUoIm51bGwiKSk7CiAgICB9CgogICAgbGV0IG11dCBsYXN0X2Vycm9yID0gTm9uZTsKICAgIGZvciBhdHRlbXB0IGluIDEuLj1yZXRyeV9vcHRpb25zLm1heF9hdHRlbXB0cyB7CiAgICAgICAgbWF0Y2ggdXBkYXRlX2RkbnNfcHJvdmlkZXJfb25jZSh0cmFuc2xhdG9yLCBwcm92aWRlciwgY29uZmlnLCBodHRwX29wdGlvbnMsIGlwdjQsIGlwdjYpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgT2socmVzdWx0KSA9PiByZXR1cm4gT2socmVzdWx0KSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgICAgICBsYXN0X2Vycm9yID0gU29tZShlcnJvcik7CiAgICAgICAgICAgICAgICBpZiBhdHRlbXB0IDwgcmV0cnlfb3B0aW9ucy5tYXhfYXR0ZW1wdHMgewogICAgICAgICAgICAgICAgICAgIHRva2lvX3RpbWU6OnNsZWVwKER1cmF0aW9uOjpmcm9tX21pbGxpcyhyZXRyeV9vcHRpb25zLmRlbGF5X21zKSkuYXdhaXQ7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgT2socHJvdmlkZXJfZmFpbHVyZSgKICAgICAgICBsYXN0X2Vycm9yCiAgICAgICAgICAgIC5tYXAofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8ICJudWxsIi50b19zdHJpbmcoKSksCiAgICApKQp9CgpwdWIoc3VwZXIpIGZuIGlzX2tub3duX2RkbnNfcHJvdmlkZXIocHJvdmlkZXI6ICZzdHIpIC0+IGJvb2wgewogICAgbWF0Y2hlcyEoCiAgICAgICAgcHJvdmlkZXIsCiAgICAgICAgImFsaWRucyIKICAgICAgICAgICAgfCAiYmFpZHVjbG91ZCIKICAgICAgICAgICAgfCAiY2xvdWRmbGFyZSIKICAgICAgICAgICAgfCAiZG5zaGUiCiAgICAgICAgICAgIHwgImRuc3BvZCIKICAgICAgICAgICAgfCAiZHVja2RucyIKICAgICAgICAgICAgfCAiZHludSIKICAgICAgICAgICAgfCAiZWRnZW9uZSIKICAgICAgICAgICAgfCAiZWRnZW9uZV9jbmFtZSIKICAgICAgICAgICAgfCAiZXNhIgogICAgICAgICAgICB8ICJnb2RhZGR5IgogICAgICAgICAgICB8ICJodWF3ZWljbG91ZCIKICAgICAgICAgICAgfCAibm9pcCIKICAgICAgICAgICAgfCAicG9ya2J1biIKICAgICAgICAgICAgfCAidGVuY2VudGNsb3VkIgogICAgICAgICAgICB8ICJkeW52NiIKICAgICkKfQoKYXN5bmMgZm4gdXBkYXRlX2RkbnNfcHJvdmlkZXJfb25jZSgKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgcHJvdmlkZXI6ICZzdHIsCiAgICBjb25maWc6ICZIYXNoTWFwPFN0cmluZywgU3RyaW5nPiwKICAgIGh0dHBfb3B0aW9uczogJkRETlNIdHRwQ2xpZW50T3B0aW9ucywKICAgIGlwdjQ6IE9wdGlvbjwmc3RyPiwKICAgIGlwdjY6IE9wdGlvbjwmc3RyPiwKKSAtPiBhbnlob3c6OlJlc3VsdDxERE5TUHJvdmlkZXJVcGRhdGVSZXN1bHQ+IHsKICAgIG1hdGNoIHByb3ZpZGVyIHsKICAgICAgICAiYWxpZG5zIiA9PiB1cGRhdGVfYWxpZG5zKHRyYW5zbGF0b3IsIGNvbmZpZywgaHR0cF9vcHRpb25zLCBpcHY0LCBpcHY2KS5hd2FpdCwKICAgICAgICAiYmFpZHVjbG91ZCIgPT4gdXBkYXRlX2JhaWR1Y2xvdWQodHJhbnNsYXRvciwgY29uZmlnLCBodHRwX29wdGlvbnMsIGlwdjQsIGlwdjYpLmF3YWl0LAogICAgICAgICJjbG91ZGZsYXJlIiA9PiB1cGRhdGVfY2xvdWRmbGFyZSh0cmFuc2xhdG9yLCBjb25maWcsIGh0dHBfb3B0aW9ucywgaXB2NCwgaXB2NikuYXdhaXQsCiAgICAgICAgImRuc2hlIiA9PiB1cGRhdGVfZG5zaGUodHJhbnNsYXRvciwgY29uZmlnLCBodHRwX29wdGlvbnMsIGlwdjQsIGlwdjYpLmF3YWl0LAogICAgICAgICJkbnNwb2QiID0+IHVwZGF0ZV9kbnNwb2QodHJhbnNsYXRvciwgY29uZmlnLCBodHRwX29wdGlvbnMsIGlwdjQsIGlwdjYpLmF3YWl0LAogICAgICAgICJkdWNrZG5zIiA9PiB1cGRhdGVfZHVja2Rucyh0cmFuc2xhdG9yLCBjb25maWcsIGh0dHBfb3B0aW9ucywgaXB2NCwgaXB2NikuYXdhaXQsCiAgICAgICAgImR5bnUiID0+IHVwZGF0ZV9keW51KHRyYW5zbGF0b3IsIGNvbmZpZywgaHR0cF9vcHRpb25zLCBpcHY0LCBpcHY2KS5hd2FpdCwKICAgICAgICAiZWRnZW9uZSIgPT4gdXBkYXRlX2VkZ2VvbmUodHJhbnNsYXRvciwgY29uZmlnLCBodHRwX29wdGlvbnMsIGlwdjQsIGlwdjYpLmF3YWl0LAogICAgICAgICJlZGdlb25lX2NuYW1lIiA9PiB1cGRhdGVfZWRnZW9uZV9jbmFtZSh0cmFuc2xhdG9yLCBjb25maWcsIGh0dHBfb3B0aW9ucywgaXB2NCwgaXB2NikuYXdhaXQsCiAgICAgICAgImVzYSIgPT4gdXBkYXRlX2VzYSh0cmFuc2xhdG9yLCBjb25maWcsIGh0dHBfb3B0aW9ucywgaXB2NCwgaXB2NikuYXdhaXQsCiAgICAgICAgImdvZGFkZHkiID0+IHVwZGF0ZV9nb2RhZGR5KHRyYW5zbGF0b3IsIGNvbmZpZywgaHR0cF9vcHRpb25zLCBpcHY0LCBpcHY2KS5hd2FpdCwKICAgICAgICAiaHVhd2VpY2xvdWQiID0+IHVwZGF0ZV9odWF3ZWljbG91ZCh0cmFuc2xhdG9yLCBjb25maWcsIGh0dHBfb3B0aW9ucywgaXB2NCwgaXB2NikuYXdhaXQsCiAgICAgICAgIm5vaXAiID0+IHVwZGF0ZV9ub2lwKHRyYW5zbGF0b3IsIGNvbmZpZywgaHR0cF9vcHRpb25zLCBpcHY0LCBpcHY2KS5hd2FpdCwKICAgICAgICAicG9ya2J1biIgPT4gdXBkYXRlX3BvcmtidW4odHJhbnNsYXRvciwgY29uZmlnLCBodHRwX29wdGlvbnMsIGlwdjQsIGlwdjYpLmF3YWl0LAogICAgICAgICJ0ZW5jZW50Y2xvdWQiID0+IHVwZGF0ZV90ZW5jZW50Y2xvdWQodHJhbnNsYXRvciwgY29uZmlnLCBodHRwX29wdGlvbnMsIGlwdjQsIGlwdjYpLmF3YWl0LAogICAgICAgICJkeW52NiIgPT4gdXBkYXRlX2R5bnY2KHRyYW5zbGF0b3IsIGNvbmZpZywgaHR0cF9vcHRpb25zLCBpcHY0LCBpcHY2KS5hd2FpdCwKICAgICAgICBvdGhlciA9PiBPayhERE5TUHJvdmlkZXJVcGRhdGVSZXN1bHQgewogICAgICAgICAgICBzdWNjZXNzOiBmYWxzZSwKICAgICAgICAgICAgbWVzc2FnZTogZGRuc190ZXh0KAogICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJ1bmtub3duUHJvdmlkZXIiLAogICAgICAgICAgICAgICAgJlsoInByb3ZpZGVyIiwgb3RoZXIudG9fc3RyaW5nKCkpXSwKICAgICAgICAgICAgKSwKICAgICAgICB9KSwKICAgIH0KfQoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBQYXJ0aWFsRXEsIEVxKV0Kc3RydWN0IERETlNQcm92aWRlclJldHJ5T3B0aW9ucyB7CiAgICBtYXhfYXR0ZW1wdHM6IHVzaXplLAogICAgZGVsYXlfbXM6IHU2NCwKfQoKZm4gZGRuc19wcm92aWRlcl9yZXRyeV9vcHRpb25zX2Zyb21fZW52KCkgLT4gREROU1Byb3ZpZGVyUmV0cnlPcHRpb25zIHsKICAgIERETlNQcm92aWRlclJldHJ5T3B0aW9ucyB7CiAgICAgICAgbWF4X2F0dGVtcHRzOiBkZG5zX3Byb3ZpZGVyX3JldHJ5X21heF9hdHRlbXB0cygKICAgICAgICAgICAgZW52Ojp2YXIoIkRETlNfUkVUUllfQ09VTlQiKS5vaygpLmFzX2RlcmVmKCksCiAgICAgICAgKSwKICAgICAgICBkZWxheV9tczogZGRuc19wcm92aWRlcl9yZXRyeV9kZWxheV9tcyhlbnY6OnZhcigiREROU19SRVRSWV9ERUxBWV9NUyIpLm9rKCkuYXNfZGVyZWYoKSksCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gZGRuc19wcm92aWRlcl9yZXRyeV9tYXhfYXR0ZW1wdHModmFsdWU6IE9wdGlvbjwmc3RyPikgLT4gdXNpemUgewogICAgbGV0IHJldHJ5X2NvdW50ID0ganNfbnVtYmVyX2Vudl9vcl9kZWZhdWx0KHZhbHVlLCAxLjApOwogICAgaWYgIXJldHJ5X2NvdW50LmlzX2Zpbml0ZSgpIHsKICAgICAgICByZXR1cm4gMDsKICAgIH0KICAgIChyZXRyeV9jb3VudCArIDEuMCkubWF4KDEuMCkuZmxvb3IoKSBhcyB1c2l6ZQp9CgpwdWIoc3VwZXIpIGZuIGRkbnNfcHJvdmlkZXJfcmV0cnlfZGVsYXlfbXModmFsdWU6IE9wdGlvbjwmc3RyPikgLT4gdTY0IHsKICAgIGxldCBkZWxheSA9IGpzX251bWJlcl9lbnZfb3JfZGVmYXVsdCh2YWx1ZSwgNjAwLjApOwogICAgaWYgIWRlbGF5LmlzX2Zpbml0ZSgpIHx8IGRlbGF5IDw9IDAuMCB7CiAgICAgICAgMAogICAgfSBlbHNlIHsKICAgICAgICBkZWxheS5mbG9vcigpIGFzIHU2NAogICAgfQp9CgpmbiBqc19udW1iZXJfZW52X29yX2RlZmF1bHQodmFsdWU6IE9wdGlvbjwmc3RyPiwgZmFsbGJhY2s6IGY2NCkgLT4gZjY0IHsKICAgIGxldCByYXcgPSB2YWx1ZS51bndyYXBfb3IoIiIpOwogICAgaWYgcmF3LmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBmYWxsYmFjazsKICAgIH0KICAgIGxldCB0cmltbWVkID0gcmF3LnRyaW0oKTsKICAgIGlmIHRyaW1tZWQuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIDAuMDsKICAgIH0KICAgIGlmIGxldCBTb21lKGhleCkgPSB0cmltbWVkCiAgICAgICAgLnN0cmlwX3ByZWZpeCgiMHgiKQogICAgICAgIC5vcl9lbHNlKHx8IHRyaW1tZWQuc3RyaXBfcHJlZml4KCIwWCIpKQogICAgICAgICYmICFoZXguaXNfZW1wdHkoKQogICAgICAgICYmIGxldCBPayh2YWx1ZSkgPSB1NjQ6OmZyb21fc3RyX3JhZGl4KGhleCwgMTYpCiAgICB7CiAgICAgICAgcmV0dXJuIHZhbHVlIGFzIGY2NDsKICAgIH0KICAgIGlmIGxldCBTb21lKGJpbmFyeSkgPSB0cmltbWVkCiAgICAgICAgLnN0cmlwX3ByZWZpeCgiMGIiKQogICAgICAgIC5vcl9lbHNlKHx8IHRyaW1tZWQuc3RyaXBfcHJlZml4KCIwQiIpKQogICAgICAgICYmICFiaW5hcnkuaXNfZW1wdHkoKQogICAgICAgICYmIGxldCBPayh2YWx1ZSkgPSB1NjQ6OmZyb21fc3RyX3JhZGl4KGJpbmFyeSwgMikKICAgIHsKICAgICAgICByZXR1cm4gdmFsdWUgYXMgZjY0OwogICAgfQogICAgaWYgbGV0IFNvbWUob2N0YWwpID0gdHJpbW1lZAogICAgICAgIC5zdHJpcF9wcmVmaXgoIjBvIikKICAgICAgICAub3JfZWxzZSh8fCB0cmltbWVkLnN0cmlwX3ByZWZpeCgiME8iKSkKICAgICAgICAmJiAhb2N0YWwuaXNfZW1wdHkoKQogICAgICAgICYmIGxldCBPayh2YWx1ZSkgPSB1NjQ6OmZyb21fc3RyX3JhZGl4KG9jdGFsLCA4KQogICAgewogICAgICAgIHJldHVybiB2YWx1ZSBhcyBmNjQ7CiAgICB9CiAgICB0cmltbWVkLnBhcnNlOjo8ZjY0PigpLnVud3JhcF9vcihmNjQ6Ok5BTikKfQo=
+use super::*;
+mod alidns;
+mod baidu;
+mod cloudflare;
+mod common;
+mod dnshe;
+mod dnspod;
+mod duckdns;
+mod dynu;
+mod dynv6;
+mod edgeone;
+mod edgeone_cname;
+mod edgeone_common;
+mod esa;
+mod godaddy;
+mod huawei;
+mod noip;
+mod porkbun;
+mod tencentcloud;
+mod tencentcloud_tc3;
+
+pub(super) use alidns::*;
+pub(super) use baidu::*;
+pub(super) use cloudflare::*;
+pub(super) use common::*;
+pub(super) use dnshe::*;
+pub(super) use dnspod::*;
+pub(super) use duckdns::*;
+pub(super) use dynu::*;
+pub(super) use dynv6::*;
+pub(super) use edgeone::*;
+pub(super) use edgeone_cname::*;
+pub(super) use edgeone_common::*;
+pub(super) use esa::*;
+pub(super) use godaddy::*;
+pub(super) use huawei::*;
+pub(super) use noip::*;
+pub(super) use porkbun::*;
+pub(super) use tencentcloud::*;
+pub(super) use tencentcloud_tc3::*;
+
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub(super) struct DDNSDomainUpdatePlan {
+    pub(super) config: HashMap<String, String>,
+    pub(super) targets: Option<DdnsDomainTargets>,
+    pub(super) execution: DdnsDomainUpdateExecution,
+    preflight_complete: bool,
+}
+
+pub(super) fn build_ddns_provider_update_plan(
+    provider: &str,
+    config: &HashMap<String, String>,
+) -> anyhow::Result<DDNSDomainUpdatePlan> {
+    let mut normalized = config.clone();
+    let targets = normalize_and_validate_ddns_domain_config(provider, &mut normalized)?;
+    let execution = match targets.as_ref() {
+        Some(targets) if targets.is_pair() => ddns_provider_domain_policy(provider)
+            .map(|policy| policy.pair_execution)
+            .unwrap_or(DdnsDomainUpdateExecution::Single),
+        _ => DdnsDomainUpdateExecution::Single,
+    };
+    let preflight = targets
+        .as_ref()
+        .filter(|targets| targets.is_pair())
+        .and_then(|_| ddns_provider_domain_policy(provider))
+        .map(|policy| policy.preflight)
+        .unwrap_or(DdnsDomainRootPreflight::None);
+    Ok(DDNSDomainUpdatePlan {
+        config: normalized,
+        targets,
+        execution,
+        preflight_complete: !matches!(
+            preflight,
+            DdnsDomainRootPreflight::CloudflareZone
+                | DdnsDomainRootPreflight::EdgeOneZone
+                | DdnsDomainRootPreflight::EsaSite
+        ),
+    })
+}
+
+pub(super) async fn prepare_ddns_provider_update(
+    translator: &Translator,
+    provider: &str,
+    config: &HashMap<String, String>,
+    http_options: &DDNSHttpClientOptions,
+) -> anyhow::Result<DDNSDomainUpdatePlan> {
+    let mut plan = build_ddns_provider_update_plan(provider, config)?;
+    preflight_ddns_provider_update(translator, provider, &mut plan, http_options).await?;
+    Ok(plan)
+}
+
+pub(super) fn ddns_preflight_required_before_auxiliary(
+    provider: &str,
+    plan: &DDNSDomainUpdatePlan,
+) -> bool {
+    !plan.preflight_complete
+        && ddns_provider_domain_policy(provider)
+            .is_some_and(|policy| policy.preflight == DdnsDomainRootPreflight::EdgeOneZone)
+}
+
+pub(super) async fn preflight_ddns_provider_update(
+    translator: &Translator,
+    provider: &str,
+    plan: &mut DDNSDomainUpdatePlan,
+    http_options: &DDNSHttpClientOptions,
+) -> anyhow::Result<()> {
+    if plan.preflight_complete {
+        return Ok(());
+    }
+    let root = plan
+        .targets
+        .as_ref()
+        .and_then(DdnsDomainTargets::pair_root)
+        .map(str::to_string)
+        .ok_or_else(|| anyhow::anyhow!("missing DDNS pair root for preflight"))?;
+    let preflight = ddns_provider_domain_policy(provider)
+        .map(|policy| policy.preflight)
+        .unwrap_or(DdnsDomainRootPreflight::None);
+    match preflight {
+        DdnsDomainRootPreflight::CloudflareZone => {
+            validate_cloudflare_pair_root_in_zone(translator, &plan.config, http_options, &root)
+                .await?;
+        }
+        DdnsDomainRootPreflight::EdgeOneZone => {
+            validate_edgeone_pair_root_in_zone(translator, &plan.config, http_options, &root)
+                .await?;
+        }
+        DdnsDomainRootPreflight::EsaSite => {
+            let site_id =
+                resolve_and_validate_esa_site_id(translator, &plan.config, http_options, &root)
+                    .await?;
+            plan.config.insert("site_id".to_string(), site_id);
+        }
+        DdnsDomainRootPreflight::None | DdnsDomainRootPreflight::DynuService => {}
+    }
+    plan.preflight_complete = true;
+    Ok(())
+}
+
+pub(super) async fn execute_ddns_provider_update(
+    translator: &Translator,
+    provider: &str,
+    plan: &DDNSDomainUpdatePlan,
+    http_options: &DDNSHttpClientOptions,
+    ipv4: Option<&str>,
+    ipv6: Option<&str>,
+) -> anyhow::Result<DDNSProviderUpdateResult> {
+    if !plan.preflight_complete {
+        anyhow::bail!("DDNS domain update plan must be preflighted before execution");
+    }
+    match plan.execution {
+        DdnsDomainUpdateExecution::Single => {
+            update_ddns_provider_single(
+                translator,
+                provider,
+                &plan.config,
+                http_options,
+                ipv4,
+                ipv6,
+            )
+            .await
+        }
+        DdnsDomainUpdateExecution::DynuWildcardAlias => {
+            let mut config = plan.config.clone();
+            let wildcard = plan
+                .targets
+                .as_ref()
+                .and_then(DdnsDomainTargets::wildcard)
+                .ok_or_else(|| anyhow::anyhow!("missing Dynu wildcard target"))?;
+            config.insert("domain".to_string(), wildcard.to_string());
+            update_ddns_provider_single(translator, provider, &config, http_options, ipv4, ipv6)
+                .await
+        }
+        DdnsDomainUpdateExecution::FanOut => {
+            let targets = plan
+                .targets
+                .as_ref()
+                .ok_or_else(|| anyhow::anyhow!("missing DDNS domain targets"))?;
+            Ok(execute_ddns_domain_fanout(translator, targets, |domain| {
+                let mut config = plan.config.clone();
+                config.insert("domain".to_string(), domain);
+                async move {
+                    update_ddns_provider_single(
+                        translator,
+                        provider,
+                        &config,
+                        http_options,
+                        ipv4,
+                        ipv6,
+                    )
+                    .await
+                }
+            })
+            .await)
+        }
+    }
+}
+
+pub(super) async fn execute_ddns_domain_fanout<F, Fut>(
+    translator: &Translator,
+    targets: &DdnsDomainTargets,
+    mut update: F,
+) -> DDNSProviderUpdateResult
+where
+    F: FnMut(String) -> Fut,
+    Fut: Future<Output = anyhow::Result<DDNSProviderUpdateResult>>,
+{
+    let mut results = Vec::new();
+    for domain in targets.domains() {
+        let domain = domain.to_string();
+        let result = match update(domain.clone()).await {
+            Ok(result) => result,
+            Err(error) => provider_failure(error.to_string()),
+        };
+        results.push((domain, result));
+    }
+    aggregate_domain_update_results(translator, results)
+}
+
+pub(super) fn aggregate_domain_update_results(
+    translator: &Translator,
+    results: Vec<(String, DDNSProviderUpdateResult)>,
+) -> DDNSProviderUpdateResult {
+    let success = results.iter().all(|(_, result)| result.success);
+    if success {
+        return DDNSProviderUpdateResult {
+            success: true,
+            message: ddns_text(
+                translator,
+                "domainTargets.allSucceeded",
+                &[("count", results.len().to_string())],
+            ),
+        };
+    }
+    let message = results
+        .into_iter()
+        .map(|(domain, result)| {
+            if result.success {
+                ddns_text(
+                    translator,
+                    "domainTargets.itemSucceeded",
+                    &[("domain", domain)],
+                )
+            } else {
+                let detail = result.message.trim();
+                ddns_text(
+                    translator,
+                    "domainTargets.itemFailed",
+                    &[
+                        ("domain", domain),
+                        (
+                            "detail",
+                            if detail.is_empty() {
+                                ddns_text(translator, "requestFailed", &[])
+                            } else {
+                                detail.to_string()
+                            },
+                        ),
+                    ],
+                )
+            }
+        })
+        .collect::<Vec<_>>()
+        .join("; ");
+    DDNSProviderUpdateResult { success, message }
+}
+
+async fn update_ddns_provider_single(
+    translator: &Translator,
+    provider: &str,
+    config: &HashMap<String, String>,
+    http_options: &DDNSHttpClientOptions,
+    ipv4: Option<&str>,
+    ipv6: Option<&str>,
+) -> anyhow::Result<DDNSProviderUpdateResult> {
+    if !is_known_ddns_provider(provider) {
+        return update_ddns_provider_once(translator, provider, config, http_options, ipv4, ipv6)
+            .await;
+    }
+
+    let retry_options = ddns_provider_retry_options_from_env();
+    if retry_options.max_attempts == 0 {
+        return Ok(provider_failure("null"));
+    }
+
+    let mut last_error = None;
+    for attempt in 1..=retry_options.max_attempts {
+        match update_ddns_provider_once(translator, provider, config, http_options, ipv4, ipv6)
+            .await
+        {
+            Ok(result) => return Ok(result),
+            Err(error) => {
+                last_error = Some(error);
+                if attempt < retry_options.max_attempts {
+                    tokio_time::sleep(Duration::from_millis(retry_options.delay_ms)).await;
+                }
+            }
+        }
+    }
+
+    Ok(provider_failure(
+        last_error
+            .map(|error| error.to_string())
+            .unwrap_or_else(|| "null".to_string()),
+    ))
+}
+
+pub(super) fn is_known_ddns_provider(provider: &str) -> bool {
+    matches!(
+        provider,
+        "alidns"
+            | "baiducloud"
+            | "cloudflare"
+            | "dnshe"
+            | "dnspod"
+            | "duckdns"
+            | "dynu"
+            | "edgeone"
+            | "edgeone_cname"
+            | "esa"
+            | "godaddy"
+            | "huaweicloud"
+            | "noip"
+            | "porkbun"
+            | "tencentcloud"
+            | "dynv6"
+    )
+}
+
+async fn update_ddns_provider_once(
+    translator: &Translator,
+    provider: &str,
+    config: &HashMap<String, String>,
+    http_options: &DDNSHttpClientOptions,
+    ipv4: Option<&str>,
+    ipv6: Option<&str>,
+) -> anyhow::Result<DDNSProviderUpdateResult> {
+    match provider {
+        "alidns" => update_alidns(translator, config, http_options, ipv4, ipv6).await,
+        "baiducloud" => update_baiducloud(translator, config, http_options, ipv4, ipv6).await,
+        "cloudflare" => update_cloudflare(translator, config, http_options, ipv4, ipv6).await,
+        "dnshe" => update_dnshe(translator, config, http_options, ipv4, ipv6).await,
+        "dnspod" => update_dnspod(translator, config, http_options, ipv4, ipv6).await,
+        "duckdns" => update_duckdns(translator, config, http_options, ipv4, ipv6).await,
+        "dynu" => update_dynu(translator, config, http_options, ipv4, ipv6).await,
+        "edgeone" => update_edgeone(translator, config, http_options, ipv4, ipv6).await,
+        "edgeone_cname" => update_edgeone_cname(translator, config, http_options, ipv4, ipv6).await,
+        "esa" => update_esa(translator, config, http_options, ipv4, ipv6).await,
+        "godaddy" => update_godaddy(translator, config, http_options, ipv4, ipv6).await,
+        "huaweicloud" => update_huaweicloud(translator, config, http_options, ipv4, ipv6).await,
+        "noip" => update_noip(translator, config, http_options, ipv4, ipv6).await,
+        "porkbun" => update_porkbun(translator, config, http_options, ipv4, ipv6).await,
+        "tencentcloud" => update_tencentcloud(translator, config, http_options, ipv4, ipv6).await,
+        "dynv6" => update_dynv6(translator, config, http_options, ipv4, ipv6).await,
+        other => Ok(DDNSProviderUpdateResult {
+            success: false,
+            message: ddns_text(
+                translator,
+                "unknownProvider",
+                &[("provider", other.to_string())],
+            ),
+        }),
+    }
+}
+
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+struct DDNSProviderRetryOptions {
+    max_attempts: usize,
+    delay_ms: u64,
+}
+
+fn ddns_provider_retry_options_from_env() -> DDNSProviderRetryOptions {
+    DDNSProviderRetryOptions {
+        max_attempts: ddns_provider_retry_max_attempts(
+            env::var("DDNS_RETRY_COUNT").ok().as_deref(),
+        ),
+        delay_ms: ddns_provider_retry_delay_ms(env::var("DDNS_RETRY_DELAY_MS").ok().as_deref()),
+    }
+}
+
+pub(super) fn ddns_provider_retry_max_attempts(value: Option<&str>) -> usize {
+    let retry_count = js_number_env_or_default(value, 1.0);
+    if !retry_count.is_finite() {
+        return 0;
+    }
+    (retry_count + 1.0).max(1.0).floor() as usize
+}
+
+pub(super) fn ddns_provider_retry_delay_ms(value: Option<&str>) -> u64 {
+    let delay = js_number_env_or_default(value, 600.0);
+    if !delay.is_finite() || delay <= 0.0 {
+        0
+    } else {
+        delay.floor() as u64
+    }
+}
+
+fn js_number_env_or_default(value: Option<&str>, fallback: f64) -> f64 {
+    let raw = value.unwrap_or("");
+    if raw.is_empty() {
+        return fallback;
+    }
+    let trimmed = raw.trim();
+    if trimmed.is_empty() {
+        return 0.0;
+    }
+    if let Some(hex) = trimmed
+        .strip_prefix("0x")
+        .or_else(|| trimmed.strip_prefix("0X"))
+        && !hex.is_empty()
+        && let Ok(value) = u64::from_str_radix(hex, 16)
+    {
+        return value as f64;
+    }
+    if let Some(binary) = trimmed
+        .strip_prefix("0b")
+        .or_else(|| trimmed.strip_prefix("0B"))
+        && !binary.is_empty()
+        && let Ok(value) = u64::from_str_radix(binary, 2)
+    {
+        return value as f64;
+    }
+    if let Some(octal) = trimmed
+        .strip_prefix("0o")
+        .or_else(|| trimmed.strip_prefix("0O"))
+        && !octal.is_empty()
+        && let Ok(value) = u64::from_str_radix(octal, 8)
+    {
+        return value as f64;
+    }
+    trimmed.parse::<f64>().unwrap_or(f64::NAN)
+}

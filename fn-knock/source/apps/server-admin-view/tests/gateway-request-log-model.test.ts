@@ -1,1 +1,171 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKaW1wb3J0IHR5cGUgeyBHYXRld2F5TG9nRW50cnkgfSBmcm9tICIuLi9zcmMvdHlwZXMiOwppbXBvcnQgeyBBVVRIX0RFQ0lTSU9OX0xBQkVMX0tFWVMgfSBmcm9tICIuLi9zcmMvbGliL2dhdGV3YXlMb2dMYWJlbHMiOwppbXBvcnQgewogIGFjY2Vzc01vZGVMYWJlbCwKICBhdXRoRGVjaXNpb25MYWJlbCwKICBidWlsZEdhdGV3YXlMb2dEZXRhaWxJdGVtcywKICBidWlsZEdhdGV3YXlMb2dTZWxlY3Rpb25LZXksCiAgZm9ybWF0QXV0aENyZWRlbnRpYWwsCiAgZ2V0R2F0ZXdheUxvZ09wdGlvbkxhYmVsLAogIGlzV0FGQmxvY2tlZCwKICBTVEFUVVNfRklMVEVSX09QVElPTlMsCn0gZnJvbSAiLi4vc3JjL3ZpZXdzL2dhdGV3YXktcmVxdWVzdC1sb2dzL21vZGVsIjsKCmNvbnN0IGdhdGV3YXlBdXRoRGVjaXNpb25zID0gWwogICJhY2Nlc3NfZGVuaWVkIiwKICAiYWR2YW5jZWRfYnlwYXNzIiwKICAiYXV0aF9lcnJvciIsCiAgImF1dGhfdW5jb25maWd1cmVkIiwKICAiYmluZGluZ190b2tlbiIsCiAgImJyaWRnZV91bmF2YWlsYWJsZSIsCiAgImJ5cGFzc2VkIiwKICAiY29ubmVjdGlvbl9yZXNldCIsCiAgImNyYXdsZXJfYmxvY2tlZCIsCiAgImRlbmllZCIsCiAgImRpc2FibGVkIiwKICAiZGlzY29ubmVjdGVkIiwKICAiZXJyb3IiLAogICJmbl9hcHBfcHJvbXB0IiwKICAiZ2VuZXJhbF9ibGFja2xpc3RfYmxvY2tlZCIsCiAgImh0dHAxX3JlcXVpcmVkIiwKICAiaHR0cDJfcmVxdWlyZWQiLAogICJpbnRlcm5hbCIsCiAgImludmFsaWRfcmVzcG9uc2UiLAogICJub3RfcmVxdWlyZWQiLAogICJvdXRzaWRlX3dpbmRvdyIsCiAgInBhc3NlZCIsCiAgInByb3h5IiwKICAicHVibGljIiwKICAicXVldWVfZnVsbCIsCiAgInJhdGVfbGltaXRlZCIsCiAgInJlZGlyZWN0ZWQiLAogICJyb2JvdHNfdHh0X3NlcnZlZCIsCiAgInJvb3RfbW9kZV9yZWRpcmVjdCIsCiAgInJ1bGVfbWlzc2luZyIsCiAgInNjaGVkdWxlX2Nsb3NlZCIsCiAgInNjb3BlX2RlbmllZCIsCiAgInN1YmRvbWFpbl9ydWxlX2FsbG93ZWQiLAogICJ0aW1lb3V0IiwKICAidmlzaWJpbGl0eV9kZW5pZWQiLAogICJ3YWZfYmxvY2tlZCIsCl0gYXMgY29uc3Q7Cgpjb25zdCB0cmFuc2xhdGUgPSAoa2V5OiBzdHJpbmcsIHBhcmFtcz86IFJlY29yZDxzdHJpbmcsIHVua25vd24+KSA9PgogIHBhcmFtcyA/IGAke2tleX06JHtKU09OLnN0cmluZ2lmeShwYXJhbXMpfWAgOiBrZXk7CgpkZXNjcmliZSgiZ2F0ZXdheSByZXF1ZXN0IGxvZyBtb2RlbCIsICgpID0+IHsKICBpdCgibG9jYWxpemVzIGV2ZXJ5IGdhdGV3YXkgYXV0aGVudGljYXRpb24gZGVjaXNpb24iLCAoKSA9PiB7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBPYmplY3Qua2V5cyhBVVRIX0RFQ0lTSU9OX0xBQkVMX0tFWVMpLnNvcnQoKSwKICAgICAgWy4uLmdhdGV3YXlBdXRoRGVjaXNpb25zXS5zb3J0KCksCiAgICApOwoKICAgIGZvciAoY29uc3QgZGVjaXNpb24gb2YgZ2F0ZXdheUF1dGhEZWNpc2lvbnMpIHsKICAgICAgY29uc3QgbGFiZWwgPSBhdXRoRGVjaXNpb25MYWJlbChkZWNpc2lvbiwgdHJhbnNsYXRlKTsKICAgICAgYXNzZXJ0Lm1hdGNoKGxhYmVsLCAvXmFkbWluXC5nYXRld2F5UmVxdWVzdExvZ3NcLmF1dGhEZWNpc2lvbnNcLi91KTsKICAgICAgYXNzZXJ0Lm5vdEVxdWFsKGxhYmVsLCBkZWNpc2lvbik7CiAgICB9CiAgfSk7CgogIGl0KCJrZWVwcyB0aGUgY29tcGF0aWJpbGl0eSBlbnRyeXBvaW50IGFzIGEgZm9jdXNlZCBiYXJyZWwiLCAoKSA9PiB7CiAgICBjb25zdCBzb3VyY2UgPSByZWFkRmlsZVN5bmMoCiAgICAgIG5ldyBVUkwoIi4uL3NyYy92aWV3cy9nYXRld2F5LXJlcXVlc3QtbG9ncy9tb2RlbC50cyIsIGltcG9ydC5tZXRhLnVybCksCiAgICAgICJ1dGY4IiwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goc291cmNlLCAvZ2F0ZXdheVJlcXVlc3RMb2dGaWx0ZXJzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHNvdXJjZSwgL2dhdGV3YXlSZXF1ZXN0TG9nUHJlc2VudGF0aW9uL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHNvdXJjZSwgL2dhdGV3YXlSZXF1ZXN0TG9nRGV0YWlscy91KTsKICAgIGFzc2VydC5lcXVhbChzb3VyY2UuaW5jbHVkZXMoImRldGFpbEZpZWxkcyIpLCBmYWxzZSk7CiAgfSk7CgogIGl0KCJyb3V0ZXMgZXZlcnkgZGV0YWlsIGZpZWxkIGxhYmVsIHRocm91Z2ggaTE4biIsICgpID0+IHsKICAgIGNvbnN0IHNvdXJjZSA9IHJlYWRGaWxlU3luYygKICAgICAgbmV3IFVSTCgKICAgICAgICAiLi4vc3JjL3ZpZXdzL2dhdGV3YXktcmVxdWVzdC1sb2dzL2dhdGV3YXlSZXF1ZXN0TG9nRGV0YWlscy50cyIsCiAgICAgICAgaW1wb3J0Lm1ldGEudXJsLAogICAgICApLAogICAgICAidXRmOCIsCiAgICApOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChzb3VyY2UsIC9cYmxhYmVsOlxzKlsiJ10vdSk7CiAgfSk7CgogIGl0KCJwcmVzZXJ2ZXMgZmlsdGVyIGxhYmVscyBhbmQgc3RhYmxlIHJvdyBzZWxlY3Rpb24ga2V5cyIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgZ2V0R2F0ZXdheUxvZ09wdGlvbkxhYmVsKAogICAgICAgIFNUQVRVU19GSUxURVJfT1BUSU9OUywKICAgICAgICAiNDA0IiwKICAgICAgICAiZmFsbGJhY2siLAogICAgICAgIHRyYW5zbGF0ZSwKICAgICAgKSwKICAgICAgImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5zdGF0dXNGaWx0ZXJzLm5vdEZvdW5kNDA0IiwKICAgICk7CiAgICBjb25zdCBlbnRyeSA9IHsKICAgICAgdGltZTogIjIwMjYtMDgtMTRUMDA6MDA6MDBaIiwKICAgICAgbWV0aG9kOiAiR0VUIiwKICAgICAgaG9zdDogImV4YW1wbGUudGVzdCIsCiAgICAgIHBhdGg6ICIvaGVhbHRoIiwKICAgICAgc3RhdHVzOiAyMDAsCiAgICAgIGNsaWVudF9pcDogIjE5Mi4wLjIuMSIsCiAgICB9IGFzIEdhdGV3YXlMb2dFbnRyeTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgYnVpbGRHYXRld2F5TG9nU2VsZWN0aW9uS2V5KGVudHJ5LCAzLCAiY3Vyc29yLWEiKSwKICAgICAgImN1cnNvci1hfDN8MjAyNi0wOC0xNFQwMDowMDowMFp8R0VUfGV4YW1wbGUudGVzdHwvaGVhbHRofDIwMHx8MTkyLjAuMi4xfHwiLAogICAgKTsKICB9KTsKCiAgaXQoInByZXNlcnZlcyBXQUYsIGNyZWRlbnRpYWwsIGFuZCBkZXRhaWwgcHJlc2VudGF0aW9uIiwgKCkgPT4gewogICAgY29uc3QgZW50cnkgPSB7CiAgICAgIGR1cmF0aW9uX21zOiAxMiwKICAgICAgbG9nZ2VkX2luOiB0cnVlLAogICAgICB3YWZfYWN0aW9uOiAiZGVueSIsCiAgICAgIHVwc3RyZWFtX2Vycm9yX2NsYXNzOiAiY29ubmVjdF91bmF2YWlsYWJsZSIsCiAgICAgIGF1dGhfY3JlZGVudGlhbF9tZXRob2Q6ICJPSURDIiwKICAgICAgYXV0aF9jcmVkZW50aWFsX25hbWU6ICJleGFtcGxlLXVzZXIiLAogICAgICBhdXRoX2xpbmtlZF90b3RwX25hbWU6ICJiYWNrdXAtdG9rZW4iLAogICAgfSBhcyBHYXRld2F5TG9nRW50cnk7CiAgICBhc3NlcnQuZXF1YWwoaXNXQUZCbG9ja2VkKGVudHJ5KSwgdHJ1ZSk7CiAgICBhc3NlcnQubWF0Y2goZm9ybWF0QXV0aENyZWRlbnRpYWwoZW50cnksIHRyYW5zbGF0ZSksIC9leGFtcGxlLXVzZXIvdSk7CiAgICBhc3NlcnQubWF0Y2goZm9ybWF0QXV0aENyZWRlbnRpYWwoZW50cnksIHRyYW5zbGF0ZSksIC9iYWNrdXAtdG9rZW4vdSk7CgogICAgY29uc3QgZGV0YWlscyA9IGJ1aWxkR2F0ZXdheUxvZ0RldGFpbEl0ZW1zKGVudHJ5LCB0cmFuc2xhdGUsICJlbi1VUyIpOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBkZXRhaWxzLmZpbmQoKGl0ZW0pID0+IGl0ZW0ubGFiZWwuaW5jbHVkZXMoImR1cmF0aW9uIikpPy52YWx1ZSwKICAgICAgIjEyIG1zIiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGRldGFpbHMuZmluZCgoaXRlbSkgPT4gaXRlbS5sYWJlbC5pbmNsdWRlcygibG9nZ2VkSW4iKSk/LnZhbHVlLAogICAgICAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmJvb2xlYW4ueWVzIiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGRldGFpbHMuZmluZCgoaXRlbSkgPT4gaXRlbS5sYWJlbC5pbmNsdWRlcygidXBzdHJlYW1FcnJvckNsYXNzIikpPy52YWx1ZSwKICAgICAgImNvbm5lY3RfdW5hdmFpbGFibGUiLAogICAgKTsKICB9KTsKCiAgaXQoImxvY2FsaXplcyBhY2Nlc3MgbW9kZXMgYW5kIGNyZWRlbnRpYWwgbWV0aG9kcyBpbiBkZXRhaWxzIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKAogICAgICBhY2Nlc3NNb2RlTGFiZWwoImxvZ2luX2ZpcnN0IiwgdHJhbnNsYXRlKSwKICAgICAgImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5hY2Nlc3NNb2Rlcy5sb2dpbkZpcnN0IiwKICAgICk7CiAgICBjb25zdCBkZXRhaWxzID0gYnVpbGRHYXRld2F5TG9nRGV0YWlsSXRlbXMoCiAgICAgIHsKICAgICAgICBhY2Nlc3NfbW9kZTogInN0cmljdF93aGl0ZWxpc3QiLAogICAgICAgIGF1dGhfY3JlZGVudGlhbF9tZXRob2Q6ICJQQVNTV09SRCIsCiAgICAgIH0gYXMgR2F0ZXdheUxvZ0VudHJ5LAogICAgICB0cmFuc2xhdGUsCiAgICAgICJ6aC1DTiIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBkZXRhaWxzLmZpbmQoKGl0ZW0pID0+IGl0ZW0ubGFiZWwuaW5jbHVkZXMoImFjY2Vzc01vZGUiKSk/LnZhbHVlLAogICAgICAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmFjY2Vzc01vZGVzLnN0cmljdFdoaXRlbGlzdCIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBkZXRhaWxzLmZpbmQoKGl0ZW0pID0+IGl0ZW0ubGFiZWwuaW5jbHVkZXMoImF1dGhDcmVkZW50aWFsTWV0aG9kIikpCiAgICAgICAgPy52YWx1ZSwKICAgICAgImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5jcmVkZW50aWFsTWV0aG9kcy5wYXNzd29yZCIsCiAgICApOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+import type { GatewayLogEntry } from "../src/types";
+import { AUTH_DECISION_LABEL_KEYS } from "../src/lib/gatewayLogLabels";
+import {
+  accessModeLabel,
+  authDecisionLabel,
+  buildGatewayLogDetailItems,
+  buildGatewayLogSelectionKey,
+  formatAuthCredential,
+  getGatewayLogOptionLabel,
+  isWAFBlocked,
+  STATUS_FILTER_OPTIONS,
+} from "../src/views/gateway-request-logs/model";
+
+const gatewayAuthDecisions = [
+  "access_denied",
+  "advanced_bypass",
+  "auth_error",
+  "auth_unconfigured",
+  "binding_token",
+  "bridge_unavailable",
+  "bypassed",
+  "connection_reset",
+  "crawler_blocked",
+  "denied",
+  "disabled",
+  "disconnected",
+  "error",
+  "fn_app_prompt",
+  "general_blacklist_blocked",
+  "http1_required",
+  "http2_required",
+  "internal",
+  "invalid_response",
+  "not_required",
+  "outside_window",
+  "passed",
+  "proxy",
+  "public",
+  "queue_full",
+  "rate_limited",
+  "redirected",
+  "robots_txt_served",
+  "root_mode_redirect",
+  "rule_missing",
+  "schedule_closed",
+  "scope_denied",
+  "subdomain_rule_allowed",
+  "timeout",
+  "visibility_denied",
+  "waf_blocked",
+] as const;
+
+const translate = (key: string, params?: Record<string, unknown>) =>
+  params ? `${key}:${JSON.stringify(params)}` : key;
+
+describe("gateway request log model", () => {
+  it("localizes every gateway authentication decision", () => {
+    assert.deepEqual(
+      Object.keys(AUTH_DECISION_LABEL_KEYS).sort(),
+      [...gatewayAuthDecisions].sort(),
+    );
+
+    for (const decision of gatewayAuthDecisions) {
+      const label = authDecisionLabel(decision, translate);
+      assert.match(label, /^admin\.gatewayRequestLogs\.authDecisions\./u);
+      assert.notEqual(label, decision);
+    }
+  });
+
+  it("keeps the compatibility entrypoint as a focused barrel", () => {
+    const source = readFileSync(
+      new URL("../src/views/gateway-request-logs/model.ts", import.meta.url),
+      "utf8",
+    );
+    assert.match(source, /gatewayRequestLogFilters/u);
+    assert.match(source, /gatewayRequestLogPresentation/u);
+    assert.match(source, /gatewayRequestLogDetails/u);
+    assert.equal(source.includes("detailFields"), false);
+  });
+
+  it("routes every detail field label through i18n", () => {
+    const source = readFileSync(
+      new URL(
+        "../src/views/gateway-request-logs/gatewayRequestLogDetails.ts",
+        import.meta.url,
+      ),
+      "utf8",
+    );
+    assert.doesNotMatch(source, /\blabel:\s*["']/u);
+  });
+
+  it("preserves filter labels and stable row selection keys", () => {
+    assert.equal(
+      getGatewayLogOptionLabel(
+        STATUS_FILTER_OPTIONS,
+        "404",
+        "fallback",
+        translate,
+      ),
+      "admin.gatewayRequestLogs.statusFilters.notFound404",
+    );
+    const entry = {
+      time: "2026-08-14T00:00:00Z",
+      method: "GET",
+      host: "example.test",
+      path: "/health",
+      status: 200,
+      client_ip: "192.0.2.1",
+    } as GatewayLogEntry;
+    assert.equal(
+      buildGatewayLogSelectionKey(entry, 3, "cursor-a"),
+      "cursor-a|3|2026-08-14T00:00:00Z|GET|example.test|/health|200||192.0.2.1||",
+    );
+  });
+
+  it("preserves WAF, credential, and detail presentation", () => {
+    const entry = {
+      duration_ms: 12,
+      logged_in: true,
+      waf_action: "deny",
+      upstream_error_class: "connect_unavailable",
+      auth_credential_method: "OIDC",
+      auth_credential_name: "example-user",
+      auth_linked_totp_name: "backup-token",
+    } as GatewayLogEntry;
+    assert.equal(isWAFBlocked(entry), true);
+    assert.match(formatAuthCredential(entry, translate), /example-user/u);
+    assert.match(formatAuthCredential(entry, translate), /backup-token/u);
+
+    const details = buildGatewayLogDetailItems(entry, translate, "en-US");
+    assert.equal(
+      details.find((item) => item.label.includes("duration"))?.value,
+      "12 ms",
+    );
+    assert.equal(
+      details.find((item) => item.label.includes("loggedIn"))?.value,
+      "admin.gatewayRequestLogs.boolean.yes",
+    );
+    assert.equal(
+      details.find((item) => item.label.includes("upstreamErrorClass"))?.value,
+      "connect_unavailable",
+    );
+  });
+
+  it("localizes access modes and credential methods in details", () => {
+    assert.equal(
+      accessModeLabel("login_first", translate),
+      "admin.gatewayRequestLogs.accessModes.loginFirst",
+    );
+    const details = buildGatewayLogDetailItems(
+      {
+        access_mode: "strict_whitelist",
+        auth_credential_method: "PASSWORD",
+      } as GatewayLogEntry,
+      translate,
+      "zh-CN",
+    );
+    assert.equal(
+      details.find((item) => item.label.includes("accessMode"))?.value,
+      "admin.gatewayRequestLogs.accessModes.strictWhitelist",
+    );
+    assert.equal(
+      details.find((item) => item.label.includes("authCredentialMethod"))
+        ?.value,
+      "admin.gatewayRequestLogs.credentialMethods.password",
+    );
+  });
+});

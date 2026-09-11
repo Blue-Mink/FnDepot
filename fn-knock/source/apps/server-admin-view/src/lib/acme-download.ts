@@ -1,1 +1,17 @@
-Ly8gZXNsaW50LWRpc2FibGUtbmV4dC1saW5lIG5vLWNvbnRyb2wtcmVnZXggLS0gY29udHJvbCBjaGFyYWN0ZXJzIGFyZSBpbnRlbnRpb25hbGx5IHJlamVjdGVkIGZyb20gYXJjaGl2ZSBmaWxlbmFtZXMuCmNvbnN0IFdJTkRPV1NfVU5TQUZFX0ZJTEVOQU1FX0NIQVJBQ1RFUlMgPSAvWzw+OiIvXFx8PypcdTAwMDAtXHUwMDFmXS9nOwoKZXhwb3J0IGNvbnN0IGFjbWVDZXJ0aWZpY2F0ZUFyY2hpdmVTdGVtID0gKGRvbWFpbjogc3RyaW5nKSA9PiB7CiAgY29uc3QgdHJpbW1lZCA9IGRvbWFpbi50cmltKCkucmVwbGFjZSgvXC4rJC8sICIiKTsKICBjb25zdCB3aWxkY2FyZFNhZmUgPSB0cmltbWVkLnN0YXJ0c1dpdGgoIiouIikKICAgID8gYHdpbGRjYXJkLiR7dHJpbW1lZC5zbGljZSgyKX1gCiAgICA6IHRyaW1tZWQ7CiAgY29uc3QgcG9ydGFibGUgPSB3aWxkY2FyZFNhZmUKICAgIC5yZXBsYWNlKFdJTkRPV1NfVU5TQUZFX0ZJTEVOQU1FX0NIQVJBQ1RFUlMsICJfIikKICAgIC5yZXBsYWNlKC9eWyAuXSt8WyAuXSskL2csICIiKTsKCiAgcmV0dXJuIHBvcnRhYmxlIHx8ICJjZXJ0aWZpY2F0ZSI7Cn07CgpleHBvcnQgY29uc3QgYWNtZUNlcnRpZmljYXRlQXJjaGl2ZUZpbGVuYW1lID0gKGRvbWFpbjogc3RyaW5nKSA9PgogIGAke2FjbWVDZXJ0aWZpY2F0ZUFyY2hpdmVTdGVtKGRvbWFpbil9LnppcGA7Cg==
+// eslint-disable-next-line no-control-regex -- control characters are intentionally rejected from archive filenames.
+const WINDOWS_UNSAFE_FILENAME_CHARACTERS = /[<>:"/\\|?*\u0000-\u001f]/g;
+
+export const acmeCertificateArchiveStem = (domain: string) => {
+  const trimmed = domain.trim().replace(/\.+$/, "");
+  const wildcardSafe = trimmed.startsWith("*.")
+    ? `wildcard.${trimmed.slice(2)}`
+    : trimmed;
+  const portable = wildcardSafe
+    .replace(WINDOWS_UNSAFE_FILENAME_CHARACTERS, "_")
+    .replace(/^[ .]+|[ .]+$/g, "");
+
+  return portable || "certificate";
+};
+
+export const acmeCertificateArchiveFilename = (domain: string) =>
+  `${acmeCertificateArchiveStem(domain)}.zip`;

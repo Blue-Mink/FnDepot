@@ -1,1 +1,23 @@
-aW1wb3J0IHR5cGUgeyBjb21wb25lbnRzIH0gZnJvbSAiQGZuLWtub2NrL2FwaS1jb250cmFjdCI7CmltcG9ydCB7IGFwaUNsaWVudCB9IGZyb20gIi4vY2xpZW50IjsKCnR5cGUgU2NoZW1hcyA9IGNvbXBvbmVudHNbInNjaGVtYXMiXTsKZXhwb3J0IHR5cGUgV2ViVGVybWluYWxTZXR0aW5ncyA9IFNjaGVtYXNbIldlYlRlcm1pbmFsU2V0dGluZ3MiXTsKZXhwb3J0IHR5cGUgV2ViVGVybWluYWxTZXR0aW5nc0lucHV0ID0gU2NoZW1hc1siV2ViVGVybWluYWxTZXR0aW5nc0lucHV0Il07CgpleHBvcnQgY29uc3QgVGVybWluYWxBY2Nlc3NBUEkgPSB7CiAgYXN5bmMgc2V0dGluZ3MoKTogUHJvbWlzZTxXZWJUZXJtaW5hbFNldHRpbmdzPiB7CiAgICByZXR1cm4gKGF3YWl0IGFwaUNsaWVudC5nZXQoIi90ZXJtaW5hbC9zZXR0aW5ncyIpKS5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyB1cGRhdGUoaW5wdXQ6IFdlYlRlcm1pbmFsU2V0dGluZ3NJbnB1dCk6IFByb21pc2U8V2ViVGVybWluYWxTZXR0aW5ncz4gewogICAgcmV0dXJuIChhd2FpdCBhcGlDbGllbnQucGF0Y2goIi90ZXJtaW5hbC9zZXR0aW5ncyIsIGlucHV0KSkuZGF0YS5kYXRhOwogIH0sCn07CgpleHBvcnQgZnVuY3Rpb24gdGVybWluYWxBY2Nlc3NFcnJvcktleShlcnJvcjogdW5rbm93bik6IHN0cmluZyB7CiAgY29uc3QgY29kZSA9IChlcnJvciBhcyB7IHJlc3BvbnNlPzogeyBkYXRhPzogeyBlcnJvckNvZGU/OiBzdHJpbmcgfSB9IH0pCiAgICA/LnJlc3BvbnNlPy5kYXRhPy5lcnJvckNvZGU7CiAgaWYgKGNvZGUgPT09ICJmZWF0dXJlX2Rpc2FibGVkIikgcmV0dXJuICJhZG1pbi53ZWJUZXJtaW5hbFNldHRpbmdzLmRpc2FibGVkIjsKICBpZiAoY29kZSA9PT0gImNvbmZsaWN0IikgcmV0dXJuICJhZG1pbi53ZWJUZXJtaW5hbFNldHRpbmdzLmNvbmZsaWN0IjsKICByZXR1cm4gImFkbWluLndlYlRlcm1pbmFsU2V0dGluZ3MucmVxdWVzdEZhaWxlZCI7Cn0K
+import type { components } from "@fn-knock/api-contract";
+import { apiClient } from "./client";
+
+type Schemas = components["schemas"];
+export type WebTerminalSettings = Schemas["WebTerminalSettings"];
+export type WebTerminalSettingsInput = Schemas["WebTerminalSettingsInput"];
+
+export const TerminalAccessAPI = {
+  async settings(): Promise<WebTerminalSettings> {
+    return (await apiClient.get("/terminal/settings")).data.data;
+  },
+  async update(input: WebTerminalSettingsInput): Promise<WebTerminalSettings> {
+    return (await apiClient.patch("/terminal/settings", input)).data.data;
+  },
+};
+
+export function terminalAccessErrorKey(error: unknown): string {
+  const code = (error as { response?: { data?: { errorCode?: string } } })
+    ?.response?.data?.errorCode;
+  if (code === "feature_disabled") return "admin.webTerminalSettings.disabled";
+  if (code === "conflict") return "admin.webTerminalSettings.conflict";
+  return "admin.webTerminalSettings.requestFailed";
+}

@@ -1,1 +1,173 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBhbmFseXplX2FjbWVfbG9ncyhqb2I6ICZWYWx1ZSwgbG9nczogJltWYWx1ZV0sIHQ6ICZUcmFuc2xhdG9yKSAtPiBWYWx1ZSB7CiAgICBsZXQgbG9ncyA9IGxvZ3MKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZpbHRlcl9tYXAoVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgaWYgbG9ncy5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gVmFsdWU6Ok51bGw7CiAgICB9CgogICAgbGV0IHByb3ZpZGVyID0gam9iCiAgICAgICAgLmdldCgicHJvdmlkZXIiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpOwogICAgbGV0IGhhcyA9IHxuZWVkbGU6ICZzdHJ8IGxvZ3MuaXRlcigpLmFueSh8bGluZXwgY29udGFpbnNfY2kobGluZSwgbmVlZGxlKSk7CiAgICBsZXQgaGFzX2NvZGUgPSB8Y29kZTogJnN0cnwgewogICAgICAgIGxvZ3MuaXRlcigpCiAgICAgICAgICAgIC5hbnkofGxpbmV8IGNvbnRhaW5zX2NpKGxpbmUsICJcImNvZGVcIiIpICYmIGxpbmUuY29udGFpbnMoY29kZSkpCiAgICB9OwogICAgbGV0IGlzX2Nsb3VkZmxhcmUgPQogICAgICAgIHByb3ZpZGVyLmFzX2RlcmVmKCkgPT0gU29tZSgiZG5zX2NmIikgfHwgaGFzKCJDbG91ZGZsYXJlIikgfHwgaGFzKCJYLUF1dGgtS2V5Iik7CgogICAgaWYgaXNfY2xvdWRmbGFyZSB7CiAgICAgICAgaWYgaGFzKCJJbnZhbGlkIGZvcm1hdCBmb3IgWC1BdXRoLUtleSBoZWFkZXIiKSB8fCBoYXNfY29kZSgiNjEwMyIpIHsKICAgICAgICAgICAgcmV0dXJuIGFuYWx5c2lzX29iamVjdCgKICAgICAgICAgICAgICAgICJkbnNfY3JlZGVudGlhbHNfaW52YWxpZCIsCiAgICAgICAgICAgICAgICBTb21lKCJkbnNfY2YiKSwKICAgICAgICAgICAgICAgIHQudCgic2VydmVyLmFjbWVSb3V0ZXMuY2xvdWRmbGFyZUludmFsaWRLZXkiKSwKICAgICAgICAgICAgICAgIHBpY2tfZXZpZGVuY2UoJmxvZ3MsIHxsaW5lfCB7CiAgICAgICAgICAgICAgICAgICAgY29udGFpbnNfY2kobGluZSwgIlgtQXV0aC1LZXkiKQogICAgICAgICAgICAgICAgICAgICAgICB8fCAoY29udGFpbnNfY2kobGluZSwgIlwiY29kZVwiIikgJiYgbGluZS5jb250YWlucygiNjEwMyIpKQogICAgICAgICAgICAgICAgfSksCiAgICAgICAgICAgICk7CiAgICAgICAgfQoKICAgICAgICBpZiBoYXMoIkludmFsaWQgZm9ybWF0IGZvciBYLUF1dGgtRW1haWwgaGVhZGVyIikgewogICAgICAgICAgICByZXR1cm4gYW5hbHlzaXNfb2JqZWN0KAogICAgICAgICAgICAgICAgImRuc19jcmVkZW50aWFsc19pbnZhbGlkX2VtYWlsIiwKICAgICAgICAgICAgICAgIFNvbWUoImRuc19jZiIpLAogICAgICAgICAgICAgICAgdC50KCJzZXJ2ZXIuYWNtZVJvdXRlcy5jbG91ZGZsYXJlSW52YWxpZEVtYWlsIiksCiAgICAgICAgICAgICAgICBwaWNrX2V2aWRlbmNlKCZsb2dzLCB8bGluZXwgY29udGFpbnNfY2kobGluZSwgIlgtQXV0aC1FbWFpbCIpKSwKICAgICAgICAgICAgKTsKICAgICAgICB9CgogICAgICAgIGlmIGhhcygiSW52YWxpZCByZXF1ZXN0IGhlYWRlcnMiKSB8fCBoYXNfY29kZSgiNjAwMyIpIHsKICAgICAgICAgICAgcmV0dXJuIGFuYWx5c2lzX29iamVjdCgKICAgICAgICAgICAgICAgICJkbnNfY3JlZGVudGlhbHNfaW52YWxpZCIsCiAgICAgICAgICAgICAgICBTb21lKCJkbnNfY2YiKSwKICAgICAgICAgICAgICAgIHQudCgic2VydmVyLmFjbWVSb3V0ZXMuY2xvdWRmbGFyZUludmFsaWRIZWFkZXJzIiksCiAgICAgICAgICAgICAgICBwaWNrX2V2aWRlbmNlKCZsb2dzLCB8bGluZXwgewogICAgICAgICAgICAgICAgICAgIGNvbnRhaW5zX2NpKGxpbmUsICJJbnZhbGlkIHJlcXVlc3QgaGVhZGVycyIpCiAgICAgICAgICAgICAgICAgICAgICAgIHx8IChjb250YWluc19jaShsaW5lLCAiXCJjb2RlXCIiKSAmJiBsaW5lLmNvbnRhaW5zKCI2MDAzIikpCiAgICAgICAgICAgICAgICB9KSwKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICB9CgogICAgaWYgbGV0IFNvbWUoKHJldHJ5X2xpbmUsIHNlY29uZHMpKSA9IGxvZ3MKICAgICAgICAuaXRlcigpCiAgICAgICAgLnJldigpCiAgICAgICAgLmZpbmRfbWFwKHxsaW5lfCBwYXJzZV9yZXRyeV9hZnRlcl9zZWNvbmRzKGxpbmUpLm1hcCh8c2Vjb25kc3wgKGxpbmUsIHNlY29uZHMpKSkKICAgICAgICAmJiAoY29udGFpbnNfY2kocmV0cnlfbGluZSwgIndpbGwgbm90IHJldHJ5IikgfHwgY29udGFpbnNfY2kocmV0cnlfbGluZSwgInRvbyBsYXJnZSIpKQogICAgICAgICYmIHNlY29uZHMgPiA2MDAKICAgIHsKICAgICAgICByZXR1cm4gYW5hbHlzaXNfb2JqZWN0KAogICAgICAgICAgICAiYWNtZV9mcmVxdWVuY3lfbGltaXRlZCIsCiAgICAgICAgICAgIHByb3ZpZGVyLmFzX2RlcmVmKCksCiAgICAgICAgICAgIHQudF9wYXJhbXMoCiAgICAgICAgICAgICAgICAic2VydmVyLmFjbWVSb3V0ZXMuYWNtZUZyZXF1ZW5jeUxpbWl0ZWQiLAogICAgICAgICAgICAgICAgJlsoInNlY29uZHMiLCBzZWNvbmRzLnRvX3N0cmluZygpKV0sCiAgICAgICAgICAgICksCiAgICAgICAgICAgIHBpY2tfZXZpZGVuY2UoJmxvZ3MsIHxsaW5lfCB7CiAgICAgICAgICAgICAgICBwYXJzZV9yZXRyeV9hZnRlcl9zZWNvbmRzKGxpbmUpLmlzX3NvbWUoKQogICAgICAgICAgICAgICAgICAgIHx8IGNvbnRhaW5zX2NpKGxpbmUsICJ3aWxsIG5vdCByZXRyeSIpCiAgICAgICAgICAgICAgICAgICAgfHwgY29udGFpbnNfY2kobGluZSwgInRvbyBsYXJnZSIpCiAgICAgICAgICAgIH0pLAogICAgICAgICk7CiAgICB9CgogICAgaWYgbG9ncy5pdGVyKCkuYW55KHxsaW5lfCB7CiAgICAgICAgY29udGFpbnNfY2kobGluZSwgInJhdGUgbGltaXQiKQogICAgICAgICAgICB8fCBjb250YWluc19jaShsaW5lLCAidG9vIG1hbnkgcmVxdWVzdHMiKQogICAgICAgICAgICB8fCBsaW5lLmNvbnRhaW5zKCI0MjkiKQogICAgfSkgewogICAgICAgIHJldHVybiBhbmFseXNpc19vYmplY3QoCiAgICAgICAgICAgICJkbnNfYXBpX3JhdGVfbGltaXRlZCIsCiAgICAgICAgICAgIHByb3ZpZGVyLmFzX2RlcmVmKCksCiAgICAgICAgICAgIHQudCgic2VydmVyLmFjbWVSb3V0ZXMuZG5zQXBpUmF0ZUxpbWl0ZWQiKSwKICAgICAgICAgICAgcGlja19ldmlkZW5jZSgmbG9ncywgfGxpbmV8IHsKICAgICAgICAgICAgICAgIGNvbnRhaW5zX2NpKGxpbmUsICJyYXRlIGxpbWl0IikKICAgICAgICAgICAgICAgICAgICB8fCBjb250YWluc19jaShsaW5lLCAidG9vIG1hbnkgcmVxdWVzdHMiKQogICAgICAgICAgICAgICAgICAgIHx8IGxpbmUuY29udGFpbnMoIjQyOSIpCiAgICAgICAgICAgIH0pLAogICAgICAgICk7CiAgICB9CgogICAgaWYgbG9ncwogICAgICAgIC5pdGVyKCkKICAgICAgICAuYW55KHxsaW5lfCBjb250YWluc19jaShsaW5lLCAiZmFpbGVkIikgfHwgY29udGFpbnNfY2kobGluZSwgImludmFsaWQiKSkKICAgIHsKICAgICAgICByZXR1cm4gYW5hbHlzaXNfb2JqZWN0KAogICAgICAgICAgICAidW5rbm93biIsCiAgICAgICAgICAgIHByb3ZpZGVyLmFzX2RlcmVmKCksCiAgICAgICAgICAgIHQudCgic2VydmVyLmFjbWVSb3V0ZXMubG9nVW5rbm93bkZhaWx1cmUiKSwKICAgICAgICAgICAgcGlja19ldmlkZW5jZSgmbG9ncywgfGxpbmV8IHsKICAgICAgICAgICAgICAgIGNvbnRhaW5zX2NpKGxpbmUsICJmYWlsZWQiKSB8fCBjb250YWluc19jaShsaW5lLCAiaW52YWxpZCIpCiAgICAgICAgICAgIH0pLAogICAgICAgICk7CiAgICB9CgogICAgVmFsdWU6Ok51bGwKfQoKZm4gYW5hbHlzaXNfb2JqZWN0KAogICAgcmVhc29uOiAmc3RyLAogICAgcHJvdmlkZXI6IE9wdGlvbjwmc3RyPiwKICAgIG1lc3NhZ2U6IFN0cmluZywKICAgIGV2aWRlbmNlOiBPcHRpb248VmVjPFN0cmluZz4+LAopIC0+IFZhbHVlIHsKICAgIGxldCBtdXQgb2JqZWN0ID0gTWFwOjpuZXcoKTsKICAgIG9iamVjdC5pbnNlcnQoInJlYXNvbiIudG9fc3RyaW5nKCksIGpzb24hKHJlYXNvbikpOwogICAgaWYgbGV0IFNvbWUocHJvdmlkZXIpID0gcHJvdmlkZXIgewogICAgICAgIG9iamVjdC5pbnNlcnQoInByb3ZpZGVyIi50b19zdHJpbmcoKSwganNvbiEocHJvdmlkZXIpKTsKICAgIH0KICAgIG9iamVjdC5pbnNlcnQoIm1lc3NhZ2UiLnRvX3N0cmluZygpLCBqc29uIShtZXNzYWdlKSk7CiAgICBpZiBsZXQgU29tZShldmlkZW5jZSkgPSBldmlkZW5jZSB7CiAgICAgICAgb2JqZWN0Lmluc2VydCgiZXZpZGVuY2UiLnRvX3N0cmluZygpLCBqc29uIShldmlkZW5jZSkpOwogICAgfQogICAgVmFsdWU6Ok9iamVjdChvYmplY3QpCn0KCmZuIHBpY2tfZXZpZGVuY2UobG9nczogJltTdHJpbmddLCBtYXRjaGVzOiBpbXBsIEZuKCZzdHIpIC0+IGJvb2wpIC0+IE9wdGlvbjxWZWM8U3RyaW5nPj4gewogICAgbGV0IG11dCBoaXRzID0gVmVjOjpuZXcoKTsKICAgIGZvciBsaW5lIGluIGxvZ3MuaXRlcigpLnJldigpIHsKICAgICAgICBpZiBsaW5lLmlzX2VtcHR5KCkgfHwgIW1hdGNoZXMobGluZSkgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgaGl0cy5wdXNoKGxpbmUuY2xvbmUoKSk7CiAgICAgICAgaWYgaGl0cy5sZW4oKSA+PSAzIHsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgfQogICAgfQogICAgaWYgaGl0cy5pc19lbXB0eSgpIHsKICAgICAgICBOb25lCiAgICB9IGVsc2UgewogICAgICAgIGhpdHMucmV2ZXJzZSgpOwogICAgICAgIFNvbWUoaGl0cykKICAgIH0KfQoKZm4gcGFyc2VfcmV0cnlfYWZ0ZXJfc2Vjb25kcyhsaW5lOiAmc3RyKSAtPiBPcHRpb248aTY0PiB7CiAgICBsZXQgbG93ZXIgPSBsaW5lLnRvX2FzY2lpX2xvd2VyY2FzZSgpOwogICAgbGV0IChfLCB0YWlsKSA9IGxvd2VyLnNwbGl0X29uY2UoInJldHJ5YWZ0ZXIiKT87CiAgICBsZXQgdGFpbCA9IHRhaWwudHJpbV9zdGFydCgpOwogICAgbGV0IHRhaWwgPSB0YWlsLnN0cmlwX3ByZWZpeCgnPScpPy50cmltX3N0YXJ0KCk7CiAgICBsZXQgZGlnaXRzID0gdGFpbAogICAgICAgIC5jaGFycygpCiAgICAgICAgLnRha2Vfd2hpbGUofGNofCBjaC5pc19hc2NpaV9kaWdpdCgpKQogICAgICAgIC5jb2xsZWN0Ojo8U3RyaW5nPigpOwogICAgaWYgZGlnaXRzLmlzX2VtcHR5KCkgewogICAgICAgIE5vbmUKICAgIH0gZWxzZSB7CiAgICAgICAgZGlnaXRzLnBhcnNlOjo8aTY0PigpLm9rKCkKICAgIH0KfQoKZm4gY29udGFpbnNfY2kodmFsdWU6ICZzdHIsIG5lZWRsZTogJnN0cikgLT4gYm9vbCB7CiAgICB2YWx1ZQogICAgICAgIC50b19hc2NpaV9sb3dlcmNhc2UoKQogICAgICAgIC5jb250YWlucygmbmVlZGxlLnRvX2FzY2lpX2xvd2VyY2FzZSgpKQp9Cg==
+use super::*;
+
+pub(super) fn analyze_acme_logs(job: &Value, logs: &[Value], t: &Translator) -> Value {
+    let logs = logs
+        .iter()
+        .filter_map(Value::as_str)
+        .map(str::to_string)
+        .collect::<Vec<_>>();
+    if logs.is_empty() {
+        return Value::Null;
+    }
+
+    let provider = job
+        .get("provider")
+        .and_then(Value::as_str)
+        .map(str::to_string);
+    let has = |needle: &str| logs.iter().any(|line| contains_ci(line, needle));
+    let has_code = |code: &str| {
+        logs.iter()
+            .any(|line| contains_ci(line, "\"code\"") && line.contains(code))
+    };
+    let is_cloudflare =
+        provider.as_deref() == Some("dns_cf") || has("Cloudflare") || has("X-Auth-Key");
+
+    if is_cloudflare {
+        if has("Invalid format for X-Auth-Key header") || has_code("6103") {
+            return analysis_object(
+                "dns_credentials_invalid",
+                Some("dns_cf"),
+                t.t("server.acmeRoutes.cloudflareInvalidKey"),
+                pick_evidence(&logs, |line| {
+                    contains_ci(line, "X-Auth-Key")
+                        || (contains_ci(line, "\"code\"") && line.contains("6103"))
+                }),
+            );
+        }
+
+        if has("Invalid format for X-Auth-Email header") {
+            return analysis_object(
+                "dns_credentials_invalid_email",
+                Some("dns_cf"),
+                t.t("server.acmeRoutes.cloudflareInvalidEmail"),
+                pick_evidence(&logs, |line| contains_ci(line, "X-Auth-Email")),
+            );
+        }
+
+        if has("Invalid request headers") || has_code("6003") {
+            return analysis_object(
+                "dns_credentials_invalid",
+                Some("dns_cf"),
+                t.t("server.acmeRoutes.cloudflareInvalidHeaders"),
+                pick_evidence(&logs, |line| {
+                    contains_ci(line, "Invalid request headers")
+                        || (contains_ci(line, "\"code\"") && line.contains("6003"))
+                }),
+            );
+        }
+    }
+
+    if let Some((retry_line, seconds)) = logs
+        .iter()
+        .rev()
+        .find_map(|line| parse_retry_after_seconds(line).map(|seconds| (line, seconds)))
+        && (contains_ci(retry_line, "will not retry") || contains_ci(retry_line, "too large"))
+        && seconds > 600
+    {
+        return analysis_object(
+            "acme_frequency_limited",
+            provider.as_deref(),
+            t.t_params(
+                "server.acmeRoutes.acmeFrequencyLimited",
+                &[("seconds", seconds.to_string())],
+            ),
+            pick_evidence(&logs, |line| {
+                parse_retry_after_seconds(line).is_some()
+                    || contains_ci(line, "will not retry")
+                    || contains_ci(line, "too large")
+            }),
+        );
+    }
+
+    if logs.iter().any(|line| {
+        contains_ci(line, "rate limit")
+            || contains_ci(line, "too many requests")
+            || line.contains("429")
+    }) {
+        return analysis_object(
+            "dns_api_rate_limited",
+            provider.as_deref(),
+            t.t("server.acmeRoutes.dnsApiRateLimited"),
+            pick_evidence(&logs, |line| {
+                contains_ci(line, "rate limit")
+                    || contains_ci(line, "too many requests")
+                    || line.contains("429")
+            }),
+        );
+    }
+
+    if logs
+        .iter()
+        .any(|line| contains_ci(line, "failed") || contains_ci(line, "invalid"))
+    {
+        return analysis_object(
+            "unknown",
+            provider.as_deref(),
+            t.t("server.acmeRoutes.logUnknownFailure"),
+            pick_evidence(&logs, |line| {
+                contains_ci(line, "failed") || contains_ci(line, "invalid")
+            }),
+        );
+    }
+
+    Value::Null
+}
+
+fn analysis_object(
+    reason: &str,
+    provider: Option<&str>,
+    message: String,
+    evidence: Option<Vec<String>>,
+) -> Value {
+    let mut object = Map::new();
+    object.insert("reason".to_string(), json!(reason));
+    if let Some(provider) = provider {
+        object.insert("provider".to_string(), json!(provider));
+    }
+    object.insert("message".to_string(), json!(message));
+    if let Some(evidence) = evidence {
+        object.insert("evidence".to_string(), json!(evidence));
+    }
+    Value::Object(object)
+}
+
+fn pick_evidence(logs: &[String], matches: impl Fn(&str) -> bool) -> Option<Vec<String>> {
+    let mut hits = Vec::new();
+    for line in logs.iter().rev() {
+        if line.is_empty() || !matches(line) {
+            continue;
+        }
+        hits.push(line.clone());
+        if hits.len() >= 3 {
+            break;
+        }
+    }
+    if hits.is_empty() {
+        None
+    } else {
+        hits.reverse();
+        Some(hits)
+    }
+}
+
+fn parse_retry_after_seconds(line: &str) -> Option<i64> {
+    let lower = line.to_ascii_lowercase();
+    let (_, tail) = lower.split_once("retryafter")?;
+    let tail = tail.trim_start();
+    let tail = tail.strip_prefix('=')?.trim_start();
+    let digits = tail
+        .chars()
+        .take_while(|ch| ch.is_ascii_digit())
+        .collect::<String>();
+    if digits.is_empty() {
+        None
+    } else {
+        digits.parse::<i64>().ok()
+    }
+}
+
+fn contains_ci(value: &str, needle: &str) -> bool {
+    value
+        .to_ascii_lowercase()
+        .contains(&needle.to_ascii_lowercase())
+}

@@ -1,1 +1,293 @@
-dXNlIHN1cGVyOjoqOwoKaW1wbCBTdG9yZSB7CiAgICBwdWIgYXN5bmMgZm4gZ2V0X3Bhc3NrZXlzKCZzZWxmKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxWZWM8VmFsdWU+PiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IHJhdzogT3B0aW9uPFN0cmluZz4gPSBjb25uLmdldCgiZm5fa25vY2s6cGFzc2tleXMiKS5hd2FpdD87CiAgICAgICAgbGV0IFNvbWUocmF3KSA9IHJhdyBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuIE9rKFZlYzo6bmV3KCkpOwogICAgICAgIH07CiAgICAgICAgT2soc2VyZGVfanNvbjo6ZnJvbV9zdHI6OjxWZWM8VmFsdWU+PigmcmF3KS51bndyYXBfb3JfZGVmYXVsdCgpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBkZWxldGVfcGFzc2tleSgmc2VsZiwgaWQ6ICZzdHIpIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PGJvb2w+IHsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBsZXQga2V5ID0gImZuX2tub2NrOnBhc3NrZXlzIjsKICAgICAgICBsb29wIHsKICAgICAgICAgICAgbGV0IFNvbWUoZXhwZWN0ZWRfcmF3KSA9IGNvbm4uZ2V0Ojo8XywgT3B0aW9uPFN0cmluZz4+KGtleSkuYXdhaXQ/IGVsc2UgewogICAgICAgICAgICAgICAgcmV0dXJuIE9rKGZhbHNlKTsKICAgICAgICAgICAgfTsKICAgICAgICAgICAgbGV0IG11dCBwYXNza2V5cyA9IHNlcmRlX2pzb246OmZyb21fc3RyOjo8VmVjPFZhbHVlPj4oJmV4cGVjdGVkX3Jhdyk/OwogICAgICAgICAgICBsZXQgb3JpZ2luYWxfbGVuID0gcGFzc2tleXMubGVuKCk7CiAgICAgICAgICAgIHBhc3NrZXlzLnJldGFpbih8cGFzc2tleXwgcGFzc2tleS5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgIT0gU29tZShpZCkpOwogICAgICAgICAgICBpZiBwYXNza2V5cy5sZW4oKSA9PSBvcmlnaW5hbF9sZW4gewogICAgICAgICAgICAgICAgcmV0dXJuIE9rKGZhbHNlKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBsZXQgbmV4dF9yYXcgPSBzZXJkZV9qc29uOjp0b19zdHJpbmcoJnBhc3NrZXlzKT87CiAgICAgICAgICAgIG1hdGNoIGNvbXBhcmVfYW5kX3NldF9qc29uKCZtdXQgY29ubiwga2V5LCAmZXhwZWN0ZWRfcmF3LCAmbmV4dF9yYXcpLmF3YWl0PyB7CiAgICAgICAgICAgICAgICAxID0+IHJldHVybiBPayh0cnVlKSwKICAgICAgICAgICAgICAgIDAgPT4gY29udGludWUsCiAgICAgICAgICAgICAgICAtMSA9PiByZXR1cm4gT2soZmFsc2UpLAogICAgICAgICAgICAgICAgXyA9PiB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihjcmF0ZTo6c3RvcmFnZTo6c3RvcmFnZV9lcnJvcigKICAgICAgICAgICAgICAgICAgICAgICAgInVuZXhwZWN0ZWQgcGFzc2tleSBkZWxldGlvbiBDQVMgcmVzdWx0IiwKICAgICAgICAgICAgICAgICAgICApKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gYWRkX3Bhc3NrZXkoJnNlbGYsIHBhc3NrZXk6ICZWYWx1ZSkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCBrZXkgPSAiZm5fa25vY2s6cGFzc2tleXMiOwogICAgICAgIGxvb3AgewogICAgICAgICAgICBsZXQgZXhwZWN0ZWRfcmF3ID0gbWF0Y2ggY29ubi5nZXQ6OjxfLCBPcHRpb248U3RyaW5nPj4oa2V5KS5hd2FpdD8gewogICAgICAgICAgICAgICAgU29tZSh2YWx1ZSkgPT4gdmFsdWUsCiAgICAgICAgICAgICAgICBOb25lID0+IHsKICAgICAgICAgICAgICAgICAgICBsZXQgXzogT3B0aW9uPFN0cmluZz4gPSByZWRpczo6Y21kKCJTRVQiKQogICAgICAgICAgICAgICAgICAgICAgICAuYXJnKGtleSkKICAgICAgICAgICAgICAgICAgICAgICAgLmFyZygiW10iKQogICAgICAgICAgICAgICAgICAgICAgICAuYXJnKCJOWCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeV9hc3luYygmbXV0IGNvbm4pCiAgICAgICAgICAgICAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH07CiAgICAgICAgICAgIGxldCBtdXQgcGFzc2tleXMgPSBzZXJkZV9qc29uOjpmcm9tX3N0cjo6PFZlYzxWYWx1ZT4+KCZleHBlY3RlZF9yYXcpPzsKICAgICAgICAgICAgbGV0IGlkID0gcGFzc2tleS5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cik7CiAgICAgICAgICAgIGlmIGlkLmlzX3NvbWVfYW5kKHxpZHwgewogICAgICAgICAgICAgICAgcGFzc2tleXMKICAgICAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAgICAgLmFueSh8c3RvcmVkfCBzdG9yZWQuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoaWQpKQogICAgICAgICAgICB9KSB7CiAgICAgICAgICAgICAgICByZXR1cm4gT2soZmFsc2UpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHBhc3NrZXlzLnB1c2gocGFzc2tleS5jbG9uZSgpKTsKICAgICAgICAgICAgbGV0IG5leHRfcmF3ID0gc2VyZGVfanNvbjo6dG9fc3RyaW5nKCZwYXNza2V5cyk/OwogICAgICAgICAgICBtYXRjaCBjb21wYXJlX2FuZF9zZXRfanNvbigmbXV0IGNvbm4sIGtleSwgJmV4cGVjdGVkX3JhdywgJm5leHRfcmF3KS5hd2FpdD8gewogICAgICAgICAgICAgICAgMSA9PiByZXR1cm4gT2sodHJ1ZSksCiAgICAgICAgICAgICAgICAwIHwgLTEgPT4gY29udGludWUsCiAgICAgICAgICAgICAgICBfID0+IHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gRXJyKGNyYXRlOjpzdG9yYWdlOjpzdG9yYWdlX2Vycm9yKAogICAgICAgICAgICAgICAgICAgICAgICAidW5leHBlY3RlZCBwYXNza2V5IGluc2VydGlvbiBDQVMgcmVzdWx0IiwKICAgICAgICAgICAgICAgICAgICApKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gdXBkYXRlX3Bhc3NrZXlfY291bnRlcigKICAgICAgICAmc2VsZiwKICAgICAgICBpZDogJnN0ciwKICAgICAgICBjb3VudGVyOiB1MzIsCiAgICAgICAgbGFzdF91c2VkX2F0OiAmc3RyLAogICAgICAgIGJhY2t1cF9lbGlnaWJsZTogT3B0aW9uPGJvb2w+LAogICAgICAgIGJhY2t1cF9zdGF0ZTogT3B0aW9uPGJvb2w+LAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxib29sPiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IGtleSA9ICJmbl9rbm9jazpwYXNza2V5cyI7CiAgICAgICAgbG9vcCB7CiAgICAgICAgICAgIGxldCBTb21lKGV4cGVjdGVkX3JhdykgPSBjb25uLmdldDo6PF8sIE9wdGlvbjxTdHJpbmc+PihrZXkpLmF3YWl0PyBlbHNlIHsKICAgICAgICAgICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICAgICAgICAgIH07CiAgICAgICAgICAgIGxldCBtdXQgcGFzc2tleXMgPSBzZXJkZV9qc29uOjpmcm9tX3N0cjo6PFZlYzxWYWx1ZT4+KCZleHBlY3RlZF9yYXcpPzsKICAgICAgICAgICAgbGV0IG11dCBmb3VuZCA9IGZhbHNlOwogICAgICAgICAgICBmb3IgcGFzc2tleSBpbiAmbXV0IHBhc3NrZXlzIHsKICAgICAgICAgICAgICAgIGlmIHBhc3NrZXkuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpICE9IFNvbWUoaWQpIHsKICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGxldCBTb21lKG9iamVjdCkgPSBwYXNza2V5LmFzX29iamVjdF9tdXQoKSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICBsZXQgc3RvcmVkX2NvdW50ZXIgPSBvYmplY3QKICAgICAgICAgICAgICAgICAgICAuZ2V0KCJjb3VudGVyIikKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3U2NCkKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB1MzI6OnRyeV9mcm9tKHZhbHVlKS5vaygpKQogICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3IoMCk7CiAgICAgICAgICAgICAgICBsZXQgY3JlZGVudGlhbF9jb3VudGVyID0gb2JqZWN0CiAgICAgICAgICAgICAgICAgICAgLmdldCgid2ViYXV0aG5DcmVkZW50aWFsIikKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX29iamVjdCkKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofGNyZWRlbnRpYWx8IGNyZWRlbnRpYWwuZ2V0KCJjb3VudGVyIikpCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc191NjQpCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdTMyOjp0cnlfZnJvbSh2YWx1ZSkub2soKSkKICAgICAgICAgICAgICAgICAgICAudW53cmFwX29yKDApOwogICAgICAgICAgICAgICAgbGV0IG5leHRfY291bnRlciA9IGNvdW50ZXIubWF4KHN0b3JlZF9jb3VudGVyKS5tYXgoY3JlZGVudGlhbF9jb3VudGVyKTsKICAgICAgICAgICAgICAgIGxldCBleGlzdGluZ19iYWNrdXBfZWxpZ2libGUgPSBvYmplY3QKICAgICAgICAgICAgICAgICAgICAuZ2V0KCJiYWNrdXBFbGlnaWJsZSIpCiAgICAgICAgICAgICAgICAgICAgLm9yX2Vsc2UofHwgb2JqZWN0LmdldCgiYmFja3VwX2VsaWdpYmxlIikpCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgICAgICAgICAgICAgIC5vcl9lbHNlKHx8IHsKICAgICAgICAgICAgICAgICAgICAgICAgb2JqZWN0CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZ2V0KCJ3ZWJhdXRobkNyZWRlbnRpYWwiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3QpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofGNyZWRlbnRpYWx8IGNyZWRlbnRpYWwuZ2V0KCJiYWNrdXBfZWxpZ2libGUiKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3IoZmFsc2UpOwoKICAgICAgICAgICAgICAgIG9iamVjdC5pbnNlcnQoImNvdW50ZXIiLnRvX3N0cmluZygpLCBqc29uIShuZXh0X2NvdW50ZXIpKTsKICAgICAgICAgICAgICAgIG9iamVjdC5pbnNlcnQoImxhc3RVc2VkQXQiLnRvX3N0cmluZygpLCBqc29uIShsYXN0X3VzZWRfYXQpKTsKICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKHZhbHVlKSA9IGJhY2t1cF9lbGlnaWJsZSB7CiAgICAgICAgICAgICAgICAgICAgbGV0IHZhbHVlID0gdmFsdWUgfHwgZXhpc3RpbmdfYmFja3VwX2VsaWdpYmxlOwogICAgICAgICAgICAgICAgICAgIG9iamVjdC5pbnNlcnQoImJhY2t1cEVsaWdpYmxlIi50b19zdHJpbmcoKSwganNvbiEodmFsdWUpKTsKICAgICAgICAgICAgICAgICAgICBvYmplY3QuaW5zZXJ0KCJiYWNrdXBfZWxpZ2libGUiLnRvX3N0cmluZygpLCBqc29uISh2YWx1ZSkpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgbGV0IFNvbWUodmFsdWUpID0gYmFja3VwX3N0YXRlIHsKICAgICAgICAgICAgICAgICAgICBvYmplY3QuaW5zZXJ0KCJiYWNrdXBTdGF0ZSIudG9fc3RyaW5nKCksIGpzb24hKHZhbHVlKSk7CiAgICAgICAgICAgICAgICAgICAgb2JqZWN0Lmluc2VydCgiYmFja3VwX3N0YXRlIi50b19zdHJpbmcoKSwganNvbiEodmFsdWUpKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKGNyZWRlbnRpYWwpID0gb2JqZWN0CiAgICAgICAgICAgICAgICAgICAgLmdldF9tdXQoIndlYmF1dGhuQ3JlZGVudGlhbCIpCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3RfbXV0KQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGNyZWRlbnRpYWwuaW5zZXJ0KCJjb3VudGVyIi50b19zdHJpbmcoKSwganNvbiEobmV4dF9jb3VudGVyKSk7CiAgICAgICAgICAgICAgICAgICAgaWYgbGV0IFNvbWUodmFsdWUpID0gYmFja3VwX2VsaWdpYmxlIHsKICAgICAgICAgICAgICAgICAgICAgICAgY3JlZGVudGlhbC5pbnNlcnQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiYmFja3VwX2VsaWdpYmxlIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGpzb24hKHZhbHVlIHx8IGV4aXN0aW5nX2JhY2t1cF9lbGlnaWJsZSksCiAgICAgICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKHZhbHVlKSA9IGJhY2t1cF9zdGF0ZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNyZWRlbnRpYWwuaW5zZXJ0KCJiYWNrdXBfc3RhdGUiLnRvX3N0cmluZygpLCBqc29uISh2YWx1ZSkpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGZvdW5kID0gdHJ1ZTsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmICFmb3VuZCB7CiAgICAgICAgICAgICAgICByZXR1cm4gT2soZmFsc2UpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBsZXQgbmV4dF9yYXcgPSBzZXJkZV9qc29uOjp0b19zdHJpbmcoJnBhc3NrZXlzKT87CiAgICAgICAgICAgIGxldCByZXN1bHQgPSBjb21wYXJlX2FuZF9zZXRfanNvbigmbXV0IGNvbm4sIGtleSwgJmV4cGVjdGVkX3JhdywgJm5leHRfcmF3KS5hd2FpdD87CiAgICAgICAgICAgIG1hdGNoIHJlc3VsdCB7CiAgICAgICAgICAgICAgICAxID0+IHJldHVybiBPayh0cnVlKSwKICAgICAgICAgICAgICAgIDAgPT4gY29udGludWUsCiAgICAgICAgICAgICAgICAtMSA9PiByZXR1cm4gT2soZmFsc2UpLAogICAgICAgICAgICAgICAgXyA9PiB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihjcmF0ZTo6c3RvcmFnZTo6c3RvcmFnZV9lcnJvcigKICAgICAgICAgICAgICAgICAgICAgICAgInVuZXhwZWN0ZWQgcGFzc2tleSB1cGRhdGUgQ0FTIHJlc3VsdCIsCiAgICAgICAgICAgICAgICAgICAgKSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHViIGFzeW5jIGZuIHNldF9wYXNza2V5X2NoYWxsZW5nZSgKICAgICAgICAmc2VsZiwKICAgICAgICBjaGFsbGVuZ2U6ICZzdHIsCiAgICAgICAgY2hhbGxlbmdlX3R5cGU6ICZzdHIsCiAgICAgICAgdHRsX3NlY29uZHM6IHVzaXplLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGNvbm4uc2V0X2V4KAogICAgICAgICAgICBmb3JtYXQhKCJmbl9rbm9jazpwYXNza2V5OmNoYWxsZW5nZTp7Y2hhbGxlbmdlfSIpLAogICAgICAgICAgICBjaGFsbGVuZ2VfdHlwZSwKICAgICAgICAgICAgdHRsX3NlY29uZHMubWF4KDEpIGFzIHU2NCwKICAgICAgICApCiAgICAgICAgLmF3YWl0CiAgICB9CgogICAgcHViIGFzeW5jIGZuIGNvbnN1bWVfcGFzc2tleV9jaGFsbGVuZ2UoCiAgICAgICAgJnNlbGYsCiAgICAgICAgY2hhbGxlbmdlOiAmc3RyLAogICAgICAgIGNoYWxsZW5nZV90eXBlOiAmc3RyLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxib29sPiB7CiAgICAgICAgbGV0IGtleSA9IGZvcm1hdCEoImZuX2tub2NrOnBhc3NrZXk6Y2hhbGxlbmdlOntjaGFsbGVuZ2V9Iik7CiAgICAgICAgc2VsZi52ZXJpZnlfcGFzc2tleV9ydW50aW1lX3NoYWRvd19rZXkoJmtleSkuYXdhaXQ/OwogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCByZXN1bHQ6IGk2NCA9IHJlZGlzOjpjbWQoIkVWQUwiKQogICAgICAgICAgICAuYXJnKAogICAgICAgICAgICAgICAgciMiCi0tIGZuLWtub2NrOmV2YWw6ZGVsZXRlLWlmLXZhbHVlOnYxCmxvY2FsIHZhbHVlID0gcmVkaXMuY2FsbCgiR0VUIiwgS0VZU1sxXSkKaWYgdmFsdWUgPT0gQVJHVlsxXSB0aGVuCiAgcmVkaXMuY2FsbCgiREVMIiwgS0VZU1sxXSkKICByZXR1cm4gMQplbmQKcmV0dXJuIDAKIiMsCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmFyZygxKQogICAgICAgICAgICAuYXJnKGtleSkKICAgICAgICAgICAgLmFyZyhjaGFsbGVuZ2VfdHlwZSkKICAgICAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBPayhyZXN1bHQgPT0gMSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gY3JlYXRlX3Bhc3NrZXlfYmluZF90b2tlbigKICAgICAgICAmc2VsZiwKICAgICAgICB0b3RwX2lkOiAmc3RyLAogICAgICAgIHR0bF9zZWNvbmRzOiB1c2l6ZSwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8U3RyaW5nPiB7CiAgICAgICAgbGV0IHRva2VuID0gaGV4OjplbmNvZGUocmFuZDo6cmFuZG9tOjo8W3U4OyAyNF0+KCkpOwogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCBfOiAoKSA9IGNvbm4KICAgICAgICAgICAgLnNldF9leCgKICAgICAgICAgICAgICAgIGZvcm1hdCEoImZuX2tub2NrOnBhc3NrZXk6YmluZDp7dG9rZW59IiksCiAgICAgICAgICAgICAgICB0b3RwX2lkLAogICAgICAgICAgICAgICAgdHRsX3NlY29uZHMubWF4KDEpIGFzIHU2NCwKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIE9rKHRva2VuKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBnZXRfcGFzc2tleV9iaW5kX3Rva2VuX3RvdHBfaWQoCiAgICAgICAgJnNlbGYsCiAgICAgICAgdG9rZW46ICZzdHIsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PE9wdGlvbjxTdHJpbmc+PiB7CiAgICAgICAgbGV0IGtleSA9IGZvcm1hdCEoImZuX2tub2NrOnBhc3NrZXk6YmluZDp7dG9rZW59Iik7CiAgICAgICAgc2VsZi52ZXJpZnlfcGFzc2tleV9ydW50aW1lX3NoYWRvd19rZXkoJmtleSkuYXdhaXQ/OwogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGNvbm4uZ2V0KGtleSkuYXdhaXQKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gY29uc3VtZV9wYXNza2V5X2JpbmRfdG9rZW4oCiAgICAgICAgJnNlbGYsCiAgICAgICAgdG9rZW46ICZzdHIsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PE9wdGlvbjxTdHJpbmc+PiB7CiAgICAgICAgbGV0IGtleSA9IGZvcm1hdCEoImZuX2tub2NrOnBhc3NrZXk6YmluZDp7dG9rZW59Iik7CiAgICAgICAgc2VsZi52ZXJpZnlfcGFzc2tleV9ydW50aW1lX3NoYWRvd19rZXkoJmtleSkuYXdhaXQ/OwogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIHJlZGlzOjpjbWQoIkVWQUwiKQogICAgICAgICAgICAuYXJnKAogICAgICAgICAgICAgICAgciMiCi0tIGZuLWtub2NrOmV2YWw6Y29uc3VtZS12YWx1ZTp2MQpsb2NhbCB2YWx1ZSA9IHJlZGlzLmNhbGwoIkdFVCIsIEtFWVNbMV0pCmlmIG5vdCB2YWx1ZSB0aGVuCiAgcmV0dXJuIG5pbAplbmQKcmVkaXMuY2FsbCgiREVMIiwgS0VZU1sxXSkKcmV0dXJuIHZhbHVlCiIjLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hcmcoMSkKICAgICAgICAgICAgLmFyZyhrZXkpCiAgICAgICAgICAgIC5xdWVyeV9hc3luYygmbXV0IGNvbm4pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgIHB1YiBhc3luYyBmbiBzZXRfcGFzc2tleV9zdGF0ZSgKICAgICAgICAmc2VsZiwKICAgICAgICBjaGFsbGVuZ2U6ICZzdHIsCiAgICAgICAgc3RhdGU6ICZWYWx1ZSwKICAgICAgICB0dGxfc2Vjb25kczogdXNpemUsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgc2VsZi5zZXRfanNvbl92YWx1ZV9leCgKICAgICAgICAgICAgJmZvcm1hdCEoImZuX2tub2NrOnBhc3NrZXk6c3RhdGU6e2NoYWxsZW5nZX0iKSwKICAgICAgICAgICAgc3RhdGUsCiAgICAgICAgICAgIHR0bF9zZWNvbmRzLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gY29uc3VtZV9wYXNza2V5X3N0YXRlKAogICAgICAgICZzZWxmLAogICAgICAgIGNoYWxsZW5nZTogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFZhbHVlPj4gewogICAgICAgIGxldCBrZXkgPSBmb3JtYXQhKCJmbl9rbm9jazpwYXNza2V5OnN0YXRlOntjaGFsbGVuZ2V9Iik7CiAgICAgICAgc2VsZi52ZXJpZnlfcGFzc2tleV9ydW50aW1lX3NoYWRvd19rZXkoJmtleSkuYXdhaXQ/OwogICAgICAgIHNlbGYuY29uc3VtZV9qc29uX3ZhbHVlKCZrZXkpLmF3YWl0CiAgICB9Cn0K
+use super::*;
+
+impl Store {
+    pub async fn get_passkeys(&self) -> crate::storage::StorageResult<Vec<Value>> {
+        let mut conn = self.conn();
+        let raw: Option<String> = conn.get("fn_knock:passkeys").await?;
+        let Some(raw) = raw else {
+            return Ok(Vec::new());
+        };
+        Ok(serde_json::from_str::<Vec<Value>>(&raw).unwrap_or_default())
+    }
+
+    pub async fn delete_passkey(&self, id: &str) -> crate::storage::StorageResult<bool> {
+        let mut conn = self.conn();
+        let key = "fn_knock:passkeys";
+        loop {
+            let Some(expected_raw) = conn.get::<_, Option<String>>(key).await? else {
+                return Ok(false);
+            };
+            let mut passkeys = serde_json::from_str::<Vec<Value>>(&expected_raw)?;
+            let original_len = passkeys.len();
+            passkeys.retain(|passkey| passkey.get("id").and_then(Value::as_str) != Some(id));
+            if passkeys.len() == original_len {
+                return Ok(false);
+            }
+            let next_raw = serde_json::to_string(&passkeys)?;
+            match compare_and_set_json(&mut conn, key, &expected_raw, &next_raw).await? {
+                1 => return Ok(true),
+                0 => continue,
+                -1 => return Ok(false),
+                _ => {
+                    return Err(crate::storage::storage_error(
+                        "unexpected passkey deletion CAS result",
+                    ));
+                }
+            }
+        }
+    }
+
+    pub async fn add_passkey(&self, passkey: &Value) -> crate::storage::StorageResult<bool> {
+        let mut conn = self.conn();
+        let key = "fn_knock:passkeys";
+        loop {
+            let expected_raw = match conn.get::<_, Option<String>>(key).await? {
+                Some(value) => value,
+                None => {
+                    let _: Option<String> = redis::cmd("SET")
+                        .arg(key)
+                        .arg("[]")
+                        .arg("NX")
+                        .query_async(&mut conn)
+                        .await?;
+                    continue;
+                }
+            };
+            let mut passkeys = serde_json::from_str::<Vec<Value>>(&expected_raw)?;
+            let id = passkey.get("id").and_then(Value::as_str);
+            if id.is_some_and(|id| {
+                passkeys
+                    .iter()
+                    .any(|stored| stored.get("id").and_then(Value::as_str) == Some(id))
+            }) {
+                return Ok(false);
+            }
+            passkeys.push(passkey.clone());
+            let next_raw = serde_json::to_string(&passkeys)?;
+            match compare_and_set_json(&mut conn, key, &expected_raw, &next_raw).await? {
+                1 => return Ok(true),
+                0 | -1 => continue,
+                _ => {
+                    return Err(crate::storage::storage_error(
+                        "unexpected passkey insertion CAS result",
+                    ));
+                }
+            }
+        }
+    }
+
+    pub async fn update_passkey_counter(
+        &self,
+        id: &str,
+        counter: u32,
+        last_used_at: &str,
+        backup_eligible: Option<bool>,
+        backup_state: Option<bool>,
+    ) -> crate::storage::StorageResult<bool> {
+        let mut conn = self.conn();
+        let key = "fn_knock:passkeys";
+        loop {
+            let Some(expected_raw) = conn.get::<_, Option<String>>(key).await? else {
+                return Ok(false);
+            };
+            let mut passkeys = serde_json::from_str::<Vec<Value>>(&expected_raw)?;
+            let mut found = false;
+            for passkey in &mut passkeys {
+                if passkey.get("id").and_then(Value::as_str) != Some(id) {
+                    continue;
+                }
+                let Some(object) = passkey.as_object_mut() else {
+                    continue;
+                };
+                let stored_counter = object
+                    .get("counter")
+                    .and_then(Value::as_u64)
+                    .and_then(|value| u32::try_from(value).ok())
+                    .unwrap_or(0);
+                let credential_counter = object
+                    .get("webauthnCredential")
+                    .and_then(Value::as_object)
+                    .and_then(|credential| credential.get("counter"))
+                    .and_then(Value::as_u64)
+                    .and_then(|value| u32::try_from(value).ok())
+                    .unwrap_or(0);
+                let next_counter = counter.max(stored_counter).max(credential_counter);
+                let existing_backup_eligible = object
+                    .get("backupEligible")
+                    .or_else(|| object.get("backup_eligible"))
+                    .and_then(Value::as_bool)
+                    .or_else(|| {
+                        object
+                            .get("webauthnCredential")
+                            .and_then(Value::as_object)
+                            .and_then(|credential| credential.get("backup_eligible"))
+                            .and_then(Value::as_bool)
+                    })
+                    .unwrap_or(false);
+
+                object.insert("counter".to_string(), json!(next_counter));
+                object.insert("lastUsedAt".to_string(), json!(last_used_at));
+                if let Some(value) = backup_eligible {
+                    let value = value || existing_backup_eligible;
+                    object.insert("backupEligible".to_string(), json!(value));
+                    object.insert("backup_eligible".to_string(), json!(value));
+                }
+                if let Some(value) = backup_state {
+                    object.insert("backupState".to_string(), json!(value));
+                    object.insert("backup_state".to_string(), json!(value));
+                }
+                if let Some(credential) = object
+                    .get_mut("webauthnCredential")
+                    .and_then(Value::as_object_mut)
+                {
+                    credential.insert("counter".to_string(), json!(next_counter));
+                    if let Some(value) = backup_eligible {
+                        credential.insert(
+                            "backup_eligible".to_string(),
+                            json!(value || existing_backup_eligible),
+                        );
+                    }
+                    if let Some(value) = backup_state {
+                        credential.insert("backup_state".to_string(), json!(value));
+                    }
+                }
+                found = true;
+                break;
+            }
+            if !found {
+                return Ok(false);
+            }
+
+            let next_raw = serde_json::to_string(&passkeys)?;
+            let result = compare_and_set_json(&mut conn, key, &expected_raw, &next_raw).await?;
+            match result {
+                1 => return Ok(true),
+                0 => continue,
+                -1 => return Ok(false),
+                _ => {
+                    return Err(crate::storage::storage_error(
+                        "unexpected passkey update CAS result",
+                    ));
+                }
+            }
+        }
+    }
+
+    pub async fn set_passkey_challenge(
+        &self,
+        challenge: &str,
+        challenge_type: &str,
+        ttl_seconds: usize,
+    ) -> crate::storage::StorageResult<()> {
+        let mut conn = self.conn();
+        conn.set_ex(
+            format!("fn_knock:passkey:challenge:{challenge}"),
+            challenge_type,
+            ttl_seconds.max(1) as u64,
+        )
+        .await
+    }
+
+    pub async fn consume_passkey_challenge(
+        &self,
+        challenge: &str,
+        challenge_type: &str,
+    ) -> crate::storage::StorageResult<bool> {
+        let key = format!("fn_knock:passkey:challenge:{challenge}");
+        self.verify_passkey_runtime_shadow_key(&key).await?;
+        let mut conn = self.conn();
+        let result: i64 = redis::cmd("EVAL")
+            .arg(
+                r#"
+-- fn-knock:eval:delete-if-value:v1
+local value = redis.call("GET", KEYS[1])
+if value == ARGV[1] then
+  redis.call("DEL", KEYS[1])
+  return 1
+end
+return 0
+"#,
+            )
+            .arg(1)
+            .arg(key)
+            .arg(challenge_type)
+            .query_async(&mut conn)
+            .await?;
+        Ok(result == 1)
+    }
+
+    pub async fn create_passkey_bind_token(
+        &self,
+        totp_id: &str,
+        ttl_seconds: usize,
+    ) -> crate::storage::StorageResult<String> {
+        let token = hex::encode(rand::random::<[u8; 24]>());
+        let mut conn = self.conn();
+        let _: () = conn
+            .set_ex(
+                format!("fn_knock:passkey:bind:{token}"),
+                totp_id,
+                ttl_seconds.max(1) as u64,
+            )
+            .await?;
+        Ok(token)
+    }
+
+    pub async fn get_passkey_bind_token_totp_id(
+        &self,
+        token: &str,
+    ) -> crate::storage::StorageResult<Option<String>> {
+        let key = format!("fn_knock:passkey:bind:{token}");
+        self.verify_passkey_runtime_shadow_key(&key).await?;
+        let mut conn = self.conn();
+        conn.get(key).await
+    }
+
+    pub async fn consume_passkey_bind_token(
+        &self,
+        token: &str,
+    ) -> crate::storage::StorageResult<Option<String>> {
+        let key = format!("fn_knock:passkey:bind:{token}");
+        self.verify_passkey_runtime_shadow_key(&key).await?;
+        let mut conn = self.conn();
+        redis::cmd("EVAL")
+            .arg(
+                r#"
+-- fn-knock:eval:consume-value:v1
+local value = redis.call("GET", KEYS[1])
+if not value then
+  return nil
+end
+redis.call("DEL", KEYS[1])
+return value
+"#,
+            )
+            .arg(1)
+            .arg(key)
+            .query_async(&mut conn)
+            .await
+    }
+
+    pub async fn set_passkey_state(
+        &self,
+        challenge: &str,
+        state: &Value,
+        ttl_seconds: usize,
+    ) -> crate::storage::StorageResult<()> {
+        self.set_json_value_ex(
+            &format!("fn_knock:passkey:state:{challenge}"),
+            state,
+            ttl_seconds,
+        )
+        .await
+    }
+
+    pub async fn consume_passkey_state(
+        &self,
+        challenge: &str,
+    ) -> crate::storage::StorageResult<Option<Value>> {
+        let key = format!("fn_knock:passkey:state:{challenge}");
+        self.verify_passkey_runtime_shadow_key(&key).await?;
+        self.consume_json_value(&key).await
+    }
+}

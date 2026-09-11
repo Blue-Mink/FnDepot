@@ -1,1 +1,65 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IGNvbnRyYWN0ID0gSlNPTi5wYXJzZSgKICByZWFkRmlsZVN5bmMoCiAgICBuZXcgVVJMKCIuLi8uLi8uLi9wYWNrYWdlcy9hcGktY29udHJhY3Qvb3BlbmFwaS5qc29uIiwgaW1wb3J0Lm1ldGEudXJsKSwKICAgICJ1dGY4IiwKICApLAopIGFzIHsKICBwYXRoczogUmVjb3JkPAogICAgc3RyaW5nLAogICAgUmVjb3JkPAogICAgICBzdHJpbmcsCiAgICAgIHsKICAgICAgICAieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiPzogc3RyaW5nOwogICAgICAgIHJlcXVlc3RCb2R5PzogewogICAgICAgICAgY29udGVudD86IFJlY29yZDxzdHJpbmcsIHsgc2NoZW1hPzogeyAkcmVmPzogc3RyaW5nIH0gfT47CiAgICAgICAgfTsKICAgICAgfQogICAgPgogID47Cn07CgpkZXNjcmliZSgiT0lEQyBhZG1pbmlzdHJhdGlvbiBBUEkgY29udHJhY3QiLCAoKSA9PiB7CiAgaXQoInVzZXMgdHlwZWQgcnVudGltZSByb3V0ZXMgZm9yIGV2ZXJ5IHByb3ZpZGVyIGFuZCBiaW5kaW5nIG9wZXJhdGlvbiIsICgpID0+IHsKICAgIGZvciAoY29uc3QgW21ldGhvZCwgcGF0aF0gb2YgWwogICAgICBbImdldCIsICIvYXBpL2FkbWluL2F1dGgvb2lkYy9jYXRhbG9nIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vYXV0aC9vaWRjL3Byb3ZpZGVycyJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9hdXRoL29pZGMvcHJvdmlkZXJzIl0sCiAgICAgIFsicGF0Y2giLCAiL2FwaS9hZG1pbi9hdXRoL29pZGMvcHJvdmlkZXJzL3tpZH0iXSwKICAgICAgWyJkZWxldGUiLCAiL2FwaS9hZG1pbi9hdXRoL29pZGMvcHJvdmlkZXJzL3tpZH0iXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vYXV0aC9vaWRjL3Byb3ZpZGVycy97aWR9L3Rlc3QiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9hdXRoL29pZGMvdG90cC97dG90cF9pZH0vYmluZGluZ3MiXSwKICAgICAgWyJkZWxldGUiLCAiL2FwaS9hZG1pbi9hdXRoL29pZGMvYmluZGluZ3Mve2lkfSJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9hdXRoL29pZGMvaW52aXRhdGlvbnMiXSwKICAgIF0gYXMgY29uc3QpIHsKICAgICAgYXNzZXJ0LmVxdWFsKAogICAgICAgIGNvbnRyYWN0LnBhdGhzW3BhdGhdPy5bbWV0aG9kXT8uWyJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSJdLAogICAgICAgICJ1dG9pcGEiLAogICAgICAgIGAke21ldGhvZC50b1VwcGVyQ2FzZSgpfSAke3BhdGh9YCwKICAgICAgKTsKICAgIH0KICB9KTsKCiAgaXQoInByZXNlcnZlcyB0aGUgZGlzdGluY3Qgd3JpdGUgc2NoZW1hcyBmb3IgcHJvdmlkZXJzIGFuZCBpbnZpdGF0aW9ucyIsICgpID0+IHsKICAgIGNvbnN0IHNjaGVtYUZvciA9IChwYXRoOiBzdHJpbmcsIG1ldGhvZDogc3RyaW5nKSA9PgogICAgICBjb250cmFjdC5wYXRoc1twYXRoXT8uW21ldGhvZF0/LnJlcXVlc3RCb2R5Py5jb250ZW50Py5bCiAgICAgICAgImFwcGxpY2F0aW9uL2pzb24iCiAgICAgIF0/LnNjaGVtYT8uJHJlZjsKCiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHNjaGVtYUZvcigiL2FwaS9hZG1pbi9hdXRoL29pZGMvcHJvdmlkZXJzIiwgInBvc3QiKSwKICAgICAgIiMvY29tcG9uZW50cy9zY2hlbWFzL09pZGNQcm92aWRlckNyZWF0ZURhdGEiLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgc2NoZW1hRm9yKCIvYXBpL2FkbWluL2F1dGgvb2lkYy9wcm92aWRlcnMve2lkfSIsICJwYXRjaCIpLAogICAgICAiIy9jb21wb25lbnRzL3NjaGVtYXMvT2lkY1Byb3ZpZGVyVXBkYXRlRGF0YSIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBzY2hlbWFGb3IoIi9hcGkvYWRtaW4vYXV0aC9vaWRjL2ludml0YXRpb25zIiwgInBvc3QiKSwKICAgICAgIiMvY29tcG9uZW50cy9zY2hlbWFzL0V4dGVybmFsQXV0aEludml0YXRpb25Cb2R5RGF0YSIsCiAgICApOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const contract = JSON.parse(
+  readFileSync(
+    new URL("../../../packages/api-contract/openapi.json", import.meta.url),
+    "utf8",
+  ),
+) as {
+  paths: Record<
+    string,
+    Record<
+      string,
+      {
+        "x-fn-knock-contract-source"?: string;
+        requestBody?: {
+          content?: Record<string, { schema?: { $ref?: string } }>;
+        };
+      }
+    >
+  >;
+};
+
+describe("OIDC administration API contract", () => {
+  it("uses typed runtime routes for every provider and binding operation", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/auth/oidc/catalog"],
+      ["get", "/api/admin/auth/oidc/providers"],
+      ["post", "/api/admin/auth/oidc/providers"],
+      ["patch", "/api/admin/auth/oidc/providers/{id}"],
+      ["delete", "/api/admin/auth/oidc/providers/{id}"],
+      ["post", "/api/admin/auth/oidc/providers/{id}/test"],
+      ["get", "/api/admin/auth/oidc/totp/{totp_id}/bindings"],
+      ["delete", "/api/admin/auth/oidc/bindings/{id}"],
+      ["post", "/api/admin/auth/oidc/invitations"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("preserves the distinct write schemas for providers and invitations", () => {
+    const schemaFor = (path: string, method: string) =>
+      contract.paths[path]?.[method]?.requestBody?.content?.[
+        "application/json"
+      ]?.schema?.$ref;
+
+    assert.equal(
+      schemaFor("/api/admin/auth/oidc/providers", "post"),
+      "#/components/schemas/OidcProviderCreateData",
+    );
+    assert.equal(
+      schemaFor("/api/admin/auth/oidc/providers/{id}", "patch"),
+      "#/components/schemas/OidcProviderUpdateData",
+    );
+    assert.equal(
+      schemaFor("/api/admin/auth/oidc/invitations", "post"),
+      "#/components/schemas/ExternalAuthInvitationBodyData",
+    );
+  });
+});

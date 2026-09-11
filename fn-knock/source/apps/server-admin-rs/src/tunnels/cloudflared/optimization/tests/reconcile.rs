@@ -1,1 +1,288 @@
-I1t0ZXN0XQpmbiBjbG91ZGZsYXJlX3JvdXRlX3JlamVjdGlvbnNfcHJlc2VydmVfdGhlX2FjdGlvbmFibGVfY2F1c2UoKSB7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGNsb3VkZmxhcmVfcm91dGVfcmVqZWN0aW9uX21lc3NhZ2UoCiAgICAgICAgICAgIDQwMywKICAgICAgICAgICAgImNsb3VkZmxhcmUgZXJyb3IgMTAwMDogZG5zIHBvaW50cyB0byBwcm9oaWJpdGVkIGlwIgogICAgICAgICkKICAgICAgICAuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKCJDbG91ZGZsYXJlIEVycm9yIDEwMDA6IEROUyBwb2ludHMgdG8gYSBwcm9oaWJpdGVkIENsb3VkZmxhcmUgSVAiKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgY2xvdWRmbGFyZV9yb3V0ZV9yZWplY3Rpb25fbWVzc2FnZSg1MzAsICJlcnJvciAxMDE2IikuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKCJDbG91ZGZsYXJlIEVycm9yIDEwMTY6IG9yaWdpbiBETlMgcmVzb2x1dGlvbiBmYWlsZWQiKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgY2xvdWRmbGFyZV9yb3V0ZV9yZWplY3Rpb25fbWVzc2FnZSg1MjIsICJnYXRld2F5IHVuYXZhaWxhYmxlIikuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKCJDbG91ZGZsYXJlIGVkZ2UgcmV0dXJuZWQgSFRUUCA1MjIiKQogICAgKTsKICAgIGFzc2VydF9lcSEoY2xvdWRmbGFyZV9yb3V0ZV9yZWplY3Rpb25fbWVzc2FnZSgyMDAsICJvayIpLCBOb25lKTsKfQoKI1t0ZXN0XQpmbiBjb250cm9sX3BsYW5lX3JlZnJlc2hfZG9lc19ub3RfcmVwdWJsaXNoX2Ffc3VwcHJlc3NlZF9yb3V0ZSgpIHsKICAgIGxldCBtdXQgaG9zdF9zdGF0ZSA9IGpzb24hKHsKICAgICAgICAiaWQiOiAiY3VzdG9tLWZhbGxiYWNrIiwKICAgICAgICAic3RhdHVzIjogImZhbGxiYWNrIiwKICAgICAgICAiaG9zdG5hbWVTdGF0dXMiOiAicGVuZGluZyIsCiAgICAgICAgInNzbFN0YXR1cyI6ICJwZW5kaW5nX3ZhbGlkYXRpb24iLAogICAgfSk7CiAgICBsZXQgY2hhbmdlZCA9IHVwZGF0ZV9jdXN0b21faG9zdG5hbWVfYWN0aXZhdGlvbigKICAgICAgICAmbXV0IGhvc3Rfc3RhdGUsCiAgICAgICAgJmpzb24hKHsKICAgICAgICAgICAgInN0YXR1cyI6ICJhY3RpdmUiLAogICAgICAgICAgICAic3NsIjogeyAic3RhdHVzIjogImFjdGl2ZSIgfSwKICAgICAgICB9KSwKICAgICk7CgogICAgYXNzZXJ0IShjaGFuZ2VkKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgaG9zdF9zdGF0ZS5nZXQoInN0YXR1cyIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLAogICAgICAgIFNvbWUoImZhbGxiYWNrIikKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGhvc3Rfc3RhdGUuZ2V0KCJob3N0bmFtZVN0YXR1cyIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLAogICAgICAgIFNvbWUoImFjdGl2ZSIpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBob3N0X3N0YXRlLmdldCgic3NsU3RhdHVzIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0ciksCiAgICAgICAgU29tZSgiYWN0aXZlIikKICAgICk7CiAgICBhc3NlcnQhKGhvc3Rfc3RhdGUuZ2V0KCJleGFjdERuc0lkIikuaXNfbm9uZSgpKTsKICAgIGFzc2VydCEoY3VzdG9tX2hvc3RuYW1lX2Nhbl92YWxpZGF0ZV9jYW5kaWRhdGVzKCZob3N0X3N0YXRlKSk7Cn0KCiNbdGVzdF0KZm4gY2FwYWJpbGl0eV9yb3V0ZV9mYWlsdXJlX3JlbWFpbnNfcmV0cnlhYmxlKCkgewogICAgbGV0IGZhaWxlZCA9IGNhcGFiaWxpdHlfcHJvYmVfZmFpbHVyZV9zdGF0ZSgKICAgICAgICAmanNvbiEoewogICAgICAgICAgICAiaWQiOiAiY2FwYWJpbGl0eS1pZCIsCiAgICAgICAgICAgICJob3N0bmFtZSI6ICJwcm9iZS5leGFtcGxlLmNvbSIsCiAgICAgICAgICAgICJzdGF0dXMiOiAicGVuZGluZyIsCiAgICAgICAgICAgICJob3N0bmFtZVN0YXR1cyI6ICJhY3RpdmUiLAogICAgICAgICAgICAic3NsU3RhdHVzIjogImFjdGl2ZSIsCiAgICAgICAgICAgICJhY3RpdmF0aW9uRG5zIjogeyAiaWQiOiAiYWN0aXZhdGlvbi1pZCIgfSwKICAgICAgICB9KSwKICAgICAgICAiQ2xvdWRmbGFyZSBlZGdlIHJldHVybmVkIEhUVFAgNTMwIiwKICAgICk7CgogICAgYXNzZXJ0X2VxISgKICAgICAgICBmYWlsZWQuZ2V0KCJzdGF0dXMiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSwKICAgICAgICBTb21lKCJwcm9iZS1mYWlsZWQiKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgZmFpbGVkLmdldCgibWVzc2FnZUNvZGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSwKICAgICAgICBTb21lKCJwcmVmZXJyZWRFZGdlUHJvYmVGYWlsZWQiKQogICAgKTsKICAgIGFzc2VydCEoZmFpbGVkLmdldCgicmVhc29uQ29kZSIpLmlzX25vbmUoKSk7CiAgICBhc3NlcnQhKGNhcGFiaWxpdHlfcHJvYmVfaG9zdG5hbWVfaXNfcmVhZHkoJmZhaWxlZCkpOwogICAgYXNzZXJ0ISghY2FwYWJpbGl0eV9wcm9iZV9pc19kZWZpbml0aXZlbHlfdW5zdXBwb3J0ZWQoJmpzb24hKHsKICAgICAgICAic3RhdHVzIjogInVuc3VwcG9ydGVkIiwKICAgICAgICAibWVzc2FnZSI6ICJDbG91ZGZsYXJlIGVkZ2UgcmV0dXJuZWQgSFRUUCA1MzAiLAogICAgfSkpKTsKICAgIGFzc2VydCEoY2FwYWJpbGl0eV9wcm9iZV9pc19kZWZpbml0aXZlbHlfdW5zdXBwb3J0ZWQoJmpzb24hKHsKICAgICAgICAic3RhdHVzIjogInVuc3VwcG9ydGVkIiwKICAgICAgICAicmVhc29uQ29kZSI6IENMT1VERkxBUkVfU0FBU19SRVFVSVJFRF9FUlJPUl9DT0RFLAogICAgfSkpKTsKfQoKI1t0ZXN0XQpmbiBmYWlsZWRfZWRnZV9yb3V0ZV9zdGF0ZV9pc19zYWZlX2Zvcl9vcmlnaW5fZmFsbGJhY2tfYW5kX3Jlc2NhbigpIHsKICAgIGxldCBtdXQgaG9zdF9zdGF0ZSA9IGpzb24hKHsKICAgICAgICAiaWQiOiAiY3VzdG9tLWlkIiwKICAgICAgICAic3RhdHVzIjogIm9wdGltaXplZCIsCiAgICAgICAgImhvc3RuYW1lU3RhdHVzIjogImFjdGl2ZSIsCiAgICAgICAgInNzbFN0YXR1cyI6ICJhY3RpdmUiLAogICAgICAgICJleGFjdERuc0lkIjogImVkZ2UtcmVjb3JkIiwKICAgICAgICAiZXhhY3REbnNUYXJnZXQiOiAiZWRnZSIsCiAgICB9KTsKICAgIGFzc2VydCEoZXhhY3Rfcm91dGVfaXNfb3B0aW1pemVkKCZob3N0X3N0YXRlKSk7CgogICAgc2V0X2V4YWN0X2Ruc19yb3V0ZSgmbXV0IGhvc3Rfc3RhdGUsICZqc29uISh7ICJpZCI6ICJvcmlnaW4tcmVjb3JkIiB9KSwgIm9yaWdpbiIpOwogICAgcmVjb3JkX3ByZWZlcnJlZF9lZGdlX3Byb2JlX2ZhaWx1cmUoJm11dCBob3N0X3N0YXRlLCAiQ2xvdWRmbGFyZSBlZGdlIHJldHVybmVkIEhUVFAgNTIyIik7CgogICAgYXNzZXJ0ISghZXhhY3Rfcm91dGVfaXNfb3B0aW1pemVkKCZob3N0X3N0YXRlKSk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGhvc3Rfc3RhdGUuZ2V0KCJleGFjdERuc1RhcmdldCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLAogICAgICAgIFNvbWUoIm9yaWdpbiIpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBob3N0X3N0YXRlLmdldCgic3RhdHVzIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0ciksCiAgICAgICAgU29tZSgicHJvYmUtZmFpbGVkIikKICAgICk7CiAgICBhc3NlcnQhKGN1c3RvbV9ob3N0bmFtZV9jYW5fdmFsaWRhdGVfY2FuZGlkYXRlcygmaG9zdF9zdGF0ZSkpOwp9CgojW3Rlc3RdCmZuIHNjYW5zX3JlcXVpcmVfYW5fYXBwbGllZF9tYW5hZ2VkX29wdGltaXphdGlvbl9wbGFuKCkgewogICAgYXNzZXJ0ISghb3B0aW1pemF0aW9uX2lzX2VuYWJsZWQoJmpzb24hKHt9KSkpOwogICAgYXNzZXJ0ISghb3B0aW1pemF0aW9uX2lzX2VuYWJsZWQoJmpzb24hKHsKICAgICAgICAibW9kZSI6ICJtYW5hZ2VkIiwKICAgICAgICAib3B0aW1pemF0aW9uRW5hYmxlZCI6IGZhbHNlLAogICAgfSkpKTsKICAgIGFzc2VydCEoIW9wdGltaXphdGlvbl9pc19lbmFibGVkKCZqc29uISh7CiAgICAgICAgIm1vZGUiOiAibWFudWFsIiwKICAgICAgICAib3B0aW1pemF0aW9uRW5hYmxlZCI6IHRydWUsCiAgICB9KSkpOwogICAgYXNzZXJ0IShvcHRpbWl6YXRpb25faXNfZW5hYmxlZCgmanNvbiEoewogICAgICAgICJtb2RlIjogIm1hbmFnZWQiLAogICAgICAgICJvcHRpbWl6YXRpb25FbmFibGVkIjogdHJ1ZSwKICAgIH0pKSk7Cn0KCiNbdGVzdF0KZm4gYWN0aXZhdGlvbl9jbmFtZV9pc19ub3RfcmVwb3J0ZWRfYXNfYW5fb3B0aW1pemVkX3JvdXRlKCkgewogICAgYXNzZXJ0ISghZXhhY3Rfcm91dGVfaXNfb3B0aW1pemVkKCZqc29uISh7CiAgICAgICAgImV4YWN0RG5zSWQiOiAiZG5zLWlkIiwKICAgICAgICAiZXhhY3REbnNUYXJnZXQiOiAib3JpZ2luIiwKICAgICAgICAic3RhdHVzIjogInBlbmRpbmciLAogICAgfSkpKTsKICAgIGFzc2VydCEoZXhhY3Rfcm91dGVfaXNfb3B0aW1pemVkKCZqc29uISh7CiAgICAgICAgImV4YWN0RG5zSWQiOiAiZG5zLWlkIiwKICAgICAgICAiZXhhY3REbnNUYXJnZXQiOiAiZWRnZSIsCiAgICAgICAgInN0YXR1cyI6ICJvcHRpbWl6ZWQiLAogICAgfSkpKTsKICAgIGFzc2VydCEoZXhhY3Rfcm91dGVfaXNfb3B0aW1pemVkKCZqc29uISh7CiAgICAgICAgImV4YWN0RG5zSWQiOiAibGVnYWN5LWRucy1pZCIsCiAgICAgICAgInN0YXR1cyI6ICJvcHRpbWl6ZWQiLAogICAgfSkpKTsKfQoKI1t0ZXN0XQpmbiBoZWFsdGhfY2hlY2tzX2lnbm9yZV9vcmlnaW5fYWN0aXZhdGlvbl9hbmRfdW5yZWFkeV9jZXJ0aWZpY2F0ZXMoKSB7CiAgICBsZXQgb3duZXJzaGlwID0ganNvbiEoewogICAgICAgICJvcHRpbWl6YXRpb24iOiB7CiAgICAgICAgICAgICJjdXN0b21Ib3N0bmFtZXMiOiB7CiAgICAgICAgICAgICAgICAiYWN0aXZhdGlvbi5leGFtcGxlLmNvbSI6IHsKICAgICAgICAgICAgICAgICAgICAiZXhhY3REbnNJZCI6ICJhY3RpdmF0aW9uLWlkIiwKICAgICAgICAgICAgICAgICAgICAiZXhhY3REbnNUYXJnZXQiOiAib3JpZ2luIiwKICAgICAgICAgICAgICAgICAgICAic3RhdHVzIjogInBlbmRpbmciLAogICAgICAgICAgICAgICAgICAgICJzc2xTdGF0dXMiOiAicGVuZGluZ192YWxpZGF0aW9uIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICJ1bnJlYWR5LmV4YW1wbGUuY29tIjogewogICAgICAgICAgICAgICAgICAgICJleGFjdERuc0lkIjogInVucmVhZHktaWQiLAogICAgICAgICAgICAgICAgICAgICJleGFjdERuc1RhcmdldCI6ICJlZGdlIiwKICAgICAgICAgICAgICAgICAgICAic3RhdHVzIjogIm9wdGltaXplZCIsCiAgICAgICAgICAgICAgICAgICAgInNzbFN0YXR1cyI6ICJwZW5kaW5nX3ZhbGlkYXRpb24iCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgInJlYWR5LmV4YW1wbGUuY29tIjogewogICAgICAgICAgICAgICAgICAgICJleGFjdERuc0lkIjogInJlYWR5LWlkIiwKICAgICAgICAgICAgICAgICAgICAiZXhhY3REbnNUYXJnZXQiOiAiZWRnZSIsCiAgICAgICAgICAgICAgICAgICAgInN0YXR1cyI6ICJvcHRpbWl6ZWQiLAogICAgICAgICAgICAgICAgICAgICJzc2xTdGF0dXMiOiAiYWN0aXZlIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfSk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIG9wdGltaXplZF9oZWFsdGhfaG9zdG5hbWUoJm93bmVyc2hpcCkuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKCJyZWFkeS5leGFtcGxlLmNvbSIpCiAgICApOwoKICAgIGxldCBvbmx5X2FjdGl2YXRpb24gPSBqc29uISh7CiAgICAgICAgIm9wdGltaXphdGlvbiI6IHsKICAgICAgICAgICAgImN1c3RvbUhvc3RuYW1lcyI6IHsKICAgICAgICAgICAgICAgICJhY3RpdmF0aW9uLmV4YW1wbGUuY29tIjogewogICAgICAgICAgICAgICAgICAgICJleGFjdERuc0lkIjogImFjdGl2YXRpb24taWQiLAogICAgICAgICAgICAgICAgICAgICJleGFjdERuc1RhcmdldCI6ICJvcmlnaW4iLAogICAgICAgICAgICAgICAgICAgICJzc2xTdGF0dXMiOiAiYWN0aXZlIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfSk7CiAgICBhc3NlcnRfZXEhKG9wdGltaXplZF9oZWFsdGhfaG9zdG5hbWUoJm9ubHlfYWN0aXZhdGlvbiksIE5vbmUpOwp9CgojW3Rlc3RdCmZuIGxlZ2FjeV9wdWJsaXNoX3N1cHByZXNzaW9uX3ByZXNlcnZlc19vbmx5X2V4cGxpY2l0X2ZhbGxiYWNrcygpIHsKICAgIGxldCBmYWxsYmFjayA9IGpzb24hKHsgIm9wdGltaXphdGlvbiI6IHsgImZhbGxiYWNrQWN0aXZlIjogdHJ1ZSB9IH0pOwogICAgYXNzZXJ0IShsZWdhY3lfcHVibGlzaF9zdXBwcmVzc2lvbigKICAgICAgICAmZmFsbGJhY2ssCiAgICAgICAgJmpzb24hKHsgImxhc3RTd2l0Y2hSZWFzb24iOiAiaGVhbHRoLWZhbGxiYWNrIiB9KQogICAgKSk7CiAgICBhc3NlcnQhKGxlZ2FjeV9wdWJsaXNoX3N1cHByZXNzaW9uKAogICAgICAgICZmYWxsYmFjaywKICAgICAgICAmanNvbiEoeyAibGFzdFN3aXRjaFJlYXNvbiI6ICJtYW51YWwtZmFsbGJhY2siIH0pCiAgICApKTsKICAgIGFzc2VydCEoIWxlZ2FjeV9wdWJsaXNoX3N1cHByZXNzaW9uKAogICAgICAgICZmYWxsYmFjaywKICAgICAgICAmanNvbiEoeyAibGFzdFN3aXRjaFJlYXNvbiI6ICJtYW51YWwtc3BlZWQtdGVzdCIgfSkKICAgICkpOwogICAgYXNzZXJ0ISghbGVnYWN5X3B1Ymxpc2hfc3VwcHJlc3Npb24oCiAgICAgICAgJmpzb24hKHsgIm9wdGltaXphdGlvbiI6IHsgImZhbGxiYWNrQWN0aXZlIjogZmFsc2UgfSB9KSwKICAgICAgICAmanNvbiEoeyAibGFzdFN3aXRjaFJlYXNvbiI6ICJoZWFsdGgtZmFsbGJhY2siIH0pCiAgICApKTsKfQoKI1t0ZXN0XQpmbiBkbnNfb3duZXJzaGlwX2lzX3Njb3BlZF90b190aGVfY3VycmVudF9pbnN0YW5jZSgpIHsKICAgIGxldCBvd24gPSBqc29uISh7CiAgICAgICAgImNvbW1lbnQiOiAiTWFuYWdlZCBieSBmbi1rbm9jayAoaW5zdGFuY2UtYSkiLAogICAgICAgICJ0YWdzIjogWyJmbi1rbm9jazptYW5hZ2VkIiwgImZuLWtub2NrLWluc3RhbmNlOmluc3RhbmNlLWEiXQogICAgfSk7CiAgICBsZXQgb3RoZXIgPSBqc29uISh7CiAgICAgICAgImNvbW1lbnQiOiAiTWFuYWdlZCBieSBmbi1rbm9jayAoaW5zdGFuY2UtYikiLAogICAgICAgICJ0YWdzIjogWyJmbi1rbm9jazptYW5hZ2VkIiwgImZuLWtub2NrLWluc3RhbmNlOmluc3RhbmNlLWIiXQogICAgfSk7CiAgICBsZXQgbGVnYWN5X2dlbmVyaWMgPSBqc29uISh7ICJ0YWdzIjogWyJmbi1rbm9jazptYW5hZ2VkIl0gfSk7CiAgICBhc3NlcnQhKGlzX21hbmFnZWRfZG5zKCZvd24sICJpbnN0YW5jZS1hIikpOwogICAgYXNzZXJ0ISghaXNfbWFuYWdlZF9kbnMoJm90aGVyLCAiaW5zdGFuY2UtYSIpKTsKICAgIGFzc2VydCEoIWlzX21hbmFnZWRfZG5zKCZsZWdhY3lfZ2VuZXJpYywgImluc3RhbmNlLWEiKSk7Cn0KCiNbdGVzdF0KZm4gZmFsbGJhY2tfc3VwcHJlc3Nlc19hdXRvbWF0aWNfZXhhY3Rfcm91dGVfcmVwdWJsaWNhdGlvbigpIHsKICAgIGxldCBvd25lcnNoaXAgPSBqc29uISh7ICJvcHRpbWl6YXRpb24iOiB7ICJwdWJsaXNoU3VwcHJlc3NlZCI6IHRydWUgfSB9KTsKICAgIGFzc2VydCEoIXNob3VsZF9wdWJsaXNoX2V4YWN0X3JvdXRlcygmb3duZXJzaGlwLCBmYWxzZSkpOwogICAgYXNzZXJ0IShzaG91bGRfcHVibGlzaF9leGFjdF9yb3V0ZXMoJm93bmVyc2hpcCwgdHJ1ZSkpOwogICAgYXNzZXJ0IShzaG91bGRfcHVibGlzaF9leGFjdF9yb3V0ZXMoCiAgICAgICAgJmpzb24hKHsgIm9wdGltaXphdGlvbiI6IHsgImZhbGxiYWNrQWN0aXZlIjogdHJ1ZSB9IH0pLAogICAgICAgIGZhbHNlCiAgICApKTsKICAgIGFzc2VydCEoc2hvdWxkX3B1Ymxpc2hfZXhhY3Rfcm91dGVzKCZqc29uISh7fSksIGZhbHNlKSk7Cn0KCiNbdGVzdF0KZm4gZmFsbGJhY2tfa2VlcHNfb25seV90aGVfYWN0aXZhdGlvbl9kbnNfbmVlZGVkX2Zvcl9ob3N0bmFtZV9wcm92aXNpb25pbmcoKSB7CiAgICBhc3NlcnQhKGN1c3RvbV9ob3N0bmFtZV9uZWVkc19hY3RpdmF0aW9uX2RucygKICAgICAgICBmYWxzZSwKICAgICAgICAicGVuZGluZyIsCiAgICAgICAgInBlbmRpbmdfdmFsaWRhdGlvbiIKICAgICkpOwogICAgYXNzZXJ0IShjdXN0b21faG9zdG5hbWVfbmVlZHNfYWN0aXZhdGlvbl9kbnMoCiAgICAgICAgZmFsc2UsCiAgICAgICAgImFjdGl2ZSIsCiAgICAgICAgInBlbmRpbmdfdmFsaWRhdGlvbiIKICAgICkpOwogICAgYXNzZXJ0ISghY3VzdG9tX2hvc3RuYW1lX25lZWRzX2FjdGl2YXRpb25fZG5zKAogICAgICAgIGZhbHNlLCAiYWN0aXZlIiwgImFjdGl2ZSIKICAgICkpOwogICAgYXNzZXJ0IShjdXN0b21faG9zdG5hbWVfbmVlZHNfYWN0aXZhdGlvbl9kbnMoCiAgICAgICAgdHJ1ZSwgImFjdGl2ZSIsICJhY3RpdmUiCiAgICApKTsKfQoKI1t0ZXN0XQpmbiBzdGFsZV9mbl9rbm9ja19jdXN0b21faG9zdG5hbWVfcmVxdWlyZXNfZXhwbGljaXRfdGFrZW92ZXIoKSB7CiAgICBsZXQgY29uZmxpY3QgPSBjdXN0b21faG9zdG5hbWVfb3duZXJzaGlwX2NvbmZsaWN0KAogICAgICAgICZqc29uISh7CiAgICAgICAgICAgICJob3N0bmFtZSI6ICJhcHAudHUuZXhhbXBsZS5jb20iLAogICAgICAgICAgICAiY3VzdG9tX29yaWdpbl9zZXJ2ZXIiOiAiZm5rbm9jay1vcmlnaW4tN2Y1MzFlNmRkMWU0LnR1LmV4YW1wbGUuY29tIgogICAgICAgIH0pLAogICAgICAgICJhcHAudHUuZXhhbXBsZS5jb20iLAogICAgICAgICJ0dS5leGFtcGxlLmNvbSIsCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBjb25mbGljdC5nZXQoInN0YXR1cyIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLAogICAgICAgIFNvbWUoImNvbmZsaWN0IikKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGNvbmZsaWN0LmdldCgibWVzc2FnZURldGFpbCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLAogICAgICAgIFNvbWUoIjdmNTMxZTZkZDFlNCIpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBjb25mbGljdC5nZXQoImNvbmZsaWN0UmVzb3VyY2VJZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLAogICAgICAgIFNvbWUoImN1c3RvbS1ob3N0bmFtZTphcHAudHUuZXhhbXBsZS5jb20iKQogICAgKTsKfQp1c2Ugc3VwZXI6Oio7Cg==
+#[test]
+fn cloudflare_route_rejections_preserve_the_actionable_cause() {
+    assert_eq!(
+        cloudflare_route_rejection_message(
+            403,
+            "cloudflare error 1000: dns points to prohibited ip"
+        )
+        .as_deref(),
+        Some("Cloudflare Error 1000: DNS points to a prohibited Cloudflare IP")
+    );
+    assert_eq!(
+        cloudflare_route_rejection_message(530, "error 1016").as_deref(),
+        Some("Cloudflare Error 1016: origin DNS resolution failed")
+    );
+    assert_eq!(
+        cloudflare_route_rejection_message(522, "gateway unavailable").as_deref(),
+        Some("Cloudflare edge returned HTTP 522")
+    );
+    assert_eq!(cloudflare_route_rejection_message(200, "ok"), None);
+}
+
+#[test]
+fn control_plane_refresh_does_not_republish_a_suppressed_route() {
+    let mut host_state = json!({
+        "id": "custom-fallback",
+        "status": "fallback",
+        "hostnameStatus": "pending",
+        "sslStatus": "pending_validation",
+    });
+    let changed = update_custom_hostname_activation(
+        &mut host_state,
+        &json!({
+            "status": "active",
+            "ssl": { "status": "active" },
+        }),
+    );
+
+    assert!(changed);
+    assert_eq!(
+        host_state.get("status").and_then(Value::as_str),
+        Some("fallback")
+    );
+    assert_eq!(
+        host_state.get("hostnameStatus").and_then(Value::as_str),
+        Some("active")
+    );
+    assert_eq!(
+        host_state.get("sslStatus").and_then(Value::as_str),
+        Some("active")
+    );
+    assert!(host_state.get("exactDnsId").is_none());
+    assert!(custom_hostname_can_validate_candidates(&host_state));
+}
+
+#[test]
+fn capability_route_failure_remains_retryable() {
+    let failed = capability_probe_failure_state(
+        &json!({
+            "id": "capability-id",
+            "hostname": "probe.example.com",
+            "status": "pending",
+            "hostnameStatus": "active",
+            "sslStatus": "active",
+            "activationDns": { "id": "activation-id" },
+        }),
+        "Cloudflare edge returned HTTP 530",
+    );
+
+    assert_eq!(
+        failed.get("status").and_then(Value::as_str),
+        Some("probe-failed")
+    );
+    assert_eq!(
+        failed.get("messageCode").and_then(Value::as_str),
+        Some("preferredEdgeProbeFailed")
+    );
+    assert!(failed.get("reasonCode").is_none());
+    assert!(capability_probe_hostname_is_ready(&failed));
+    assert!(!capability_probe_is_definitively_unsupported(&json!({
+        "status": "unsupported",
+        "message": "Cloudflare edge returned HTTP 530",
+    })));
+    assert!(capability_probe_is_definitively_unsupported(&json!({
+        "status": "unsupported",
+        "reasonCode": CLOUDFLARE_SAAS_REQUIRED_ERROR_CODE,
+    })));
+}
+
+#[test]
+fn failed_edge_route_state_is_safe_for_origin_fallback_and_rescan() {
+    let mut host_state = json!({
+        "id": "custom-id",
+        "status": "optimized",
+        "hostnameStatus": "active",
+        "sslStatus": "active",
+        "exactDnsId": "edge-record",
+        "exactDnsTarget": "edge",
+    });
+    assert!(exact_route_is_optimized(&host_state));
+
+    set_exact_dns_route(&mut host_state, &json!({ "id": "origin-record" }), "origin");
+    record_preferred_edge_probe_failure(&mut host_state, "Cloudflare edge returned HTTP 522");
+
+    assert!(!exact_route_is_optimized(&host_state));
+    assert_eq!(
+        host_state.get("exactDnsTarget").and_then(Value::as_str),
+        Some("origin")
+    );
+    assert_eq!(
+        host_state.get("status").and_then(Value::as_str),
+        Some("probe-failed")
+    );
+    assert!(custom_hostname_can_validate_candidates(&host_state));
+}
+
+#[test]
+fn scans_require_an_applied_managed_optimization_plan() {
+    assert!(!optimization_is_enabled(&json!({})));
+    assert!(!optimization_is_enabled(&json!({
+        "mode": "managed",
+        "optimizationEnabled": false,
+    })));
+    assert!(!optimization_is_enabled(&json!({
+        "mode": "manual",
+        "optimizationEnabled": true,
+    })));
+    assert!(optimization_is_enabled(&json!({
+        "mode": "managed",
+        "optimizationEnabled": true,
+    })));
+}
+
+#[test]
+fn activation_cname_is_not_reported_as_an_optimized_route() {
+    assert!(!exact_route_is_optimized(&json!({
+        "exactDnsId": "dns-id",
+        "exactDnsTarget": "origin",
+        "status": "pending",
+    })));
+    assert!(exact_route_is_optimized(&json!({
+        "exactDnsId": "dns-id",
+        "exactDnsTarget": "edge",
+        "status": "optimized",
+    })));
+    assert!(exact_route_is_optimized(&json!({
+        "exactDnsId": "legacy-dns-id",
+        "status": "optimized",
+    })));
+}
+
+#[test]
+fn health_checks_ignore_origin_activation_and_unready_certificates() {
+    let ownership = json!({
+        "optimization": {
+            "customHostnames": {
+                "activation.example.com": {
+                    "exactDnsId": "activation-id",
+                    "exactDnsTarget": "origin",
+                    "status": "pending",
+                    "sslStatus": "pending_validation"
+                },
+                "unready.example.com": {
+                    "exactDnsId": "unready-id",
+                    "exactDnsTarget": "edge",
+                    "status": "optimized",
+                    "sslStatus": "pending_validation"
+                },
+                "ready.example.com": {
+                    "exactDnsId": "ready-id",
+                    "exactDnsTarget": "edge",
+                    "status": "optimized",
+                    "sslStatus": "active"
+                }
+            }
+        }
+    });
+    assert_eq!(
+        optimized_health_hostname(&ownership).as_deref(),
+        Some("ready.example.com")
+    );
+
+    let only_activation = json!({
+        "optimization": {
+            "customHostnames": {
+                "activation.example.com": {
+                    "exactDnsId": "activation-id",
+                    "exactDnsTarget": "origin",
+                    "sslStatus": "active"
+                }
+            }
+        }
+    });
+    assert_eq!(optimized_health_hostname(&only_activation), None);
+}
+
+#[test]
+fn legacy_publish_suppression_preserves_only_explicit_fallbacks() {
+    let fallback = json!({ "optimization": { "fallbackActive": true } });
+    assert!(legacy_publish_suppression(
+        &fallback,
+        &json!({ "lastSwitchReason": "health-fallback" })
+    ));
+    assert!(legacy_publish_suppression(
+        &fallback,
+        &json!({ "lastSwitchReason": "manual-fallback" })
+    ));
+    assert!(!legacy_publish_suppression(
+        &fallback,
+        &json!({ "lastSwitchReason": "manual-speed-test" })
+    ));
+    assert!(!legacy_publish_suppression(
+        &json!({ "optimization": { "fallbackActive": false } }),
+        &json!({ "lastSwitchReason": "health-fallback" })
+    ));
+}
+
+#[test]
+fn dns_ownership_is_scoped_to_the_current_instance() {
+    let own = json!({
+        "comment": "Managed by fn-knock (instance-a)",
+        "tags": ["fn-knock:managed", "fn-knock-instance:instance-a"]
+    });
+    let other = json!({
+        "comment": "Managed by fn-knock (instance-b)",
+        "tags": ["fn-knock:managed", "fn-knock-instance:instance-b"]
+    });
+    let legacy_generic = json!({ "tags": ["fn-knock:managed"] });
+    assert!(is_managed_dns(&own, "instance-a"));
+    assert!(!is_managed_dns(&other, "instance-a"));
+    assert!(!is_managed_dns(&legacy_generic, "instance-a"));
+}
+
+#[test]
+fn fallback_suppresses_automatic_exact_route_republication() {
+    let ownership = json!({ "optimization": { "publishSuppressed": true } });
+    assert!(!should_publish_exact_routes(&ownership, false));
+    assert!(should_publish_exact_routes(&ownership, true));
+    assert!(should_publish_exact_routes(
+        &json!({ "optimization": { "fallbackActive": true } }),
+        false
+    ));
+    assert!(should_publish_exact_routes(&json!({}), false));
+}
+
+#[test]
+fn fallback_keeps_only_the_activation_dns_needed_for_hostname_provisioning() {
+    assert!(custom_hostname_needs_activation_dns(
+        false,
+        "pending",
+        "pending_validation"
+    ));
+    assert!(custom_hostname_needs_activation_dns(
+        false,
+        "active",
+        "pending_validation"
+    ));
+    assert!(!custom_hostname_needs_activation_dns(
+        false, "active", "active"
+    ));
+    assert!(custom_hostname_needs_activation_dns(
+        true, "active", "active"
+    ));
+}
+
+#[test]
+fn stale_fn_knock_custom_hostname_requires_explicit_takeover() {
+    let conflict = custom_hostname_ownership_conflict(
+        &json!({
+            "hostname": "app.tu.example.com",
+            "custom_origin_server": "fnknock-origin-7f531e6dd1e4.tu.example.com"
+        }),
+        "app.tu.example.com",
+        "tu.example.com",
+    );
+    assert_eq!(
+        conflict.get("status").and_then(Value::as_str),
+        Some("conflict")
+    );
+    assert_eq!(
+        conflict.get("messageDetail").and_then(Value::as_str),
+        Some("7f531e6dd1e4")
+    );
+    assert_eq!(
+        conflict.get("conflictResourceId").and_then(Value::as_str),
+        Some("custom-hostname:app.tu.example.com")
+    );
+}
+use super::*;

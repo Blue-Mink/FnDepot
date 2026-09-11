@@ -1,1 +1,11 @@
-ZXhwb3J0IGNvbnN0IGphSlBMb2NhbGUgPSB7CiAgbGFiZWw6ICLoqIDoqp4iLAogIHpoQ046ICLnsKHkvZPlrZfkuK3lm73oqp4iLAogIHpoSGFudDogIue5geS9k+Wtl+S4reWbveiqniIsCiAgZW46ICLoi7Hoqp4iLAogIGtvS1I6ICLpn5Plm73oqp4iLAogIGphSlA6ICLml6XmnKzoqp4iLAogIHNhdmVkOiAi6KiA6Kqe6Kit5a6a44KS5pu05paw44GX44G+44GX44GfIiwKICBzYXZlRmFpbGVkOiAi6KiA6Kqe6Kit5a6a44Gu5L+d5a2Y44Gr5aSx5pWX44GX44G+44GX44GfIiwKICBpbnZhbGlkOiAi44K144Od44O844OI44GV44KM44Gm44GE44Gq44GE6KiA6Kqe44Gn44GZIiwKfTsK
+export const jaJPLocale = {
+  label: "言語",
+  zhCN: "簡体字中国語",
+  zhHant: "繁体字中国語",
+  en: "英語",
+  koKR: "韓国語",
+  jaJP: "日本語",
+  saved: "言語設定を更新しました",
+  saveFailed: "言語設定の保存に失敗しました",
+  invalid: "サポートされていない言語です",
+};

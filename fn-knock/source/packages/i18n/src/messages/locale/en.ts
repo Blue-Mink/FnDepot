@@ -1,1 +1,11 @@
-ZXhwb3J0IGNvbnN0IGVuTG9jYWxlID0gewogIGxhYmVsOiAiTGFuZ3VhZ2UiLAogIHpoQ046ICLkuK3mlofnroDkvZMiLAogIHpoSGFudDogIuS4reaWh+ato+mrlCIsCiAgZW46ICJFbmdsaXNoIiwKICBrb0tSOiAi7ZWc6rWt7Ja0IiwKICBqYUpQOiAi5pel5pys6KqeIiwKICBzYXZlZDogIkxhbmd1YWdlIHVwZGF0ZWQiLAogIHNhdmVGYWlsZWQ6ICJGYWlsZWQgdG8gc2F2ZSBsYW5ndWFnZSIsCiAgaW52YWxpZDogIlVuc3VwcG9ydGVkIGxhbmd1YWdlIiwKfTsK
+export const enLocale = {
+  label: "Language",
+  zhCN: "中文简体",
+  zhHant: "中文正體",
+  en: "English",
+  koKR: "한국어",
+  jaJP: "日本語",
+  saved: "Language updated",
+  saveFailed: "Failed to save language",
+  invalid: "Unsupported language",
+};

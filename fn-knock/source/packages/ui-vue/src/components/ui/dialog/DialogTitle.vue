@@ -1,1 +1,23 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRGlhbG9nVGl0bGVQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgRGlhbG9nVGl0bGUsIHVzZUZvcndhcmRQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPERpYWxvZ1RpdGxlUHJvcHMgJiB7IGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0gfT4oKQoKY29uc3QgZGVsZWdhdGVkUHJvcHMgPSByZWFjdGl2ZU9taXQocHJvcHMsICJjbGFzcyIpCgpjb25zdCBmb3J3YXJkZWRQcm9wcyA9IHVzZUZvcndhcmRQcm9wcyhkZWxlZ2F0ZWRQcm9wcykKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERpYWxvZ1RpdGxlCiAgICBkYXRhLXNsb3Q9ImRpYWxvZy10aXRsZSIKICAgIHYtYmluZD0iZm9yd2FyZGVkUHJvcHMiCiAgICA6Y2xhc3M9ImNuKCd0ZXh0LWxnIGxlYWRpbmctbm9uZSBmb250LXNlbWlib2xkJywgcHJvcHMuY2xhc3MpIgogID4KICAgIDxzbG90IC8+CiAgPC9EaWFsb2dUaXRsZT4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { DialogTitleProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { DialogTitle, useForwardProps } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<DialogTitleProps & { class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwardedProps = useForwardProps(delegatedProps)
+</script>
+
+<template>
+  <DialogTitle
+    data-slot="dialog-title"
+    v-bind="forwardedProps"
+    :class="cn('text-lg leading-none font-semibold', props.class)"
+  >
+    <slot />
+  </DialogTitle>
+</template>

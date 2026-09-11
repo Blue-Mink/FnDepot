@@ -1,1 +1,250 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENoZWNrYm94IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NoZWNrYm94IjsKaW1wb3J0IHsKICBUYWJsZSwKICBUYWJsZUJvZHksCiAgVGFibGVDZWxsLAogIFRhYmxlSGVhZCwKICBUYWJsZUhlYWRlciwKICBUYWJsZVJvdywKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFibGUiOwppbXBvcnQgUmVmcmVzaEJ1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvUmVmcmVzaEJ1dHRvbi52dWUiOwppbXBvcnQgQ29uZmlybURhbmdlclBvcG92ZXIgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtRGFuZ2VyUG9wb3Zlci52dWUiOwppbXBvcnQgSHVtYW5GcmllbmRseVRpbWUgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9IdW1hbkZyaWVuZGx5VGltZS52dWUiOwppbXBvcnQgUGFnZWRUYWJsZUZvb3RlciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvbGlzdC9QYWdlZFRhYmxlRm9vdGVyLnZ1ZSI7CmltcG9ydCBTZWFyY2hJbnB1dCBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvU2VhcmNoSW5wdXQudnVlIjsKaW1wb3J0IFRhYmxlU2tlbGV0b25CbG9jayBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvbGlzdC9UYWJsZVNrZWxldG9uQmxvY2sudnVlIjsKaW1wb3J0IHsgRXllLCBMb2FkZXIyLCBTZXR0aW5ncywgVHJhc2gyIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHR5cGUgeyBJcEJsYWNrbGlzdFBhZ2VDb250cm9sbGVyIH0gZnJvbSAiLi91c2VJcEJsYWNrbGlzdFBhZ2UiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7IGNvbnRyb2xsZXI6IElwQmxhY2tsaXN0UGFnZUNvbnRyb2xsZXIgfT4oKTsKY29uc3QgeyB0LCBsb2NhbGUgfSA9IHVzZUkxOG4oKTsKY29uc3QgewogIGN1cnJlbnRQYWdlLAogIGRlbGV0ZUJsYWNrbGlzdCwKICBkZWxldGVPbmUsCiAgZmV0Y2hCbGFja2xpc3QsCiAgZ29Ub0ZpcmV3YWxsU2V0dGluZ3MsCiAgaGFuZGxlTGltaXRDaGFuZ2UsCiAgaGFuZGxlUGFnZUNoYW5nZSwKICBoYW5kbGVTZWFyY2gsCiAgaXNBbGxTZWxlY3RlZCwKICBpc0RlbGV0aW5nLAogIGxpbWl0LAogIGxvYWRpbmcsCiAgcGFyc2VkTGltaXQsCiAgcmVjb3JkcywKICBzZWFyY2hRdWVyeSwKICBzZWxlY3RlZElwcywKICBzaG93VGFibGVTa2VsZXRvbiwKICB0b2dnbGVTZWxlY3QsCiAgdG90YWxSZWNvcmRzLAogIHZpZXdEZXRhaWxzLAp9ID0gcHJvcHMuY29udHJvbGxlcjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgPFNlYXJjaElucHV0CiAgICAgIHYtbW9kZWw9InNlYXJjaFF1ZXJ5IgogICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0LnNlYXJjaFBsYWNlaG9sZGVyJykiCiAgICAgIGNsYXNzPSJ3LVsyNjBweF0iCiAgICAgIEBzZWFyY2g9ImhhbmRsZVNlYXJjaCIKICAgIC8+CiAgICA8ZGl2IGNsYXNzPSJmbGV4LTEiIC8+CiAgICA8UmVmcmVzaEJ1dHRvbgogICAgICA6bG9hZGluZz0ibG9hZGluZyIKICAgICAgOmRpc2FibGVkPSJsb2FkaW5nIgogICAgICBAY2xpY2s9ImZldGNoQmxhY2tsaXN0IgogICAgLz4KICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgQGNsaWNrPSJnb1RvRmlyZXdhbGxTZXR0aW5ncyI+CiAgICAgIDxTZXR0aW5ncyBjbGFzcz0iaC00IiAvPgogICAgICB7eyB0KCJhZG1pbi5zZXNzaW9ucy5pcEJsYWNrbGlzdC5zZXR0aW5ncyIpIH19CiAgICA8L0J1dHRvbj4KICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICA6dGl0bGU9IgogICAgICAgIHQoJ2FkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0LmRlbGV0ZVNlbGVjdGVkVGl0bGUnLCB7CiAgICAgICAgICBjb3VudDogc2VsZWN0ZWRJcHMuc2l6ZSwKICAgICAgICB9KQogICAgICAiCiAgICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4uc2Vzc2lvbnMuaXBCbGFja2xpc3QuZGVsZXRlRGVzY3JpcHRpb24nKSIKICAgICAgOmxvYWRpbmc9ImlzRGVsZXRpbmciCiAgICAgIDpkaXNhYmxlZD0ic2VsZWN0ZWRJcHMuc2l6ZSA9PT0gMCB8fCBpc0RlbGV0aW5nIgogICAgICA6b24tY29uZmlybT0iKCkgPT4gZGVsZXRlQmxhY2tsaXN0KEFycmF5LmZyb20oc2VsZWN0ZWRJcHMpKSIKICAgID4KICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9ImRlc3RydWN0aXZlIgogICAgICAgICAgOmRpc2FibGVkPSJzZWxlY3RlZElwcy5zaXplID09PSAwIHx8IGlzRGVsZXRpbmciCiAgICAgICAgPgogICAgICAgICAgPFRyYXNoMiBjbGFzcz0iaC00IiAvPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgiYWRtaW4uc2Vzc2lvbnMuaXBCbGFja2xpc3QuZGVsZXRlU2VsZWN0ZWQiLCB7CiAgICAgICAgICAgICAgY291bnQ6IHNlbGVjdGVkSXBzLnNpemUsCiAgICAgICAgICAgIH0pCiAgICAgICAgICB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L3RlbXBsYXRlPgogICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICA8L2Rpdj4KCiAgPGRpdgogICAgY2xhc3M9ImZsZXggZmxleC0xIGZsZXgtY29sIG92ZXJmbG93LWhpZGRlbiByb3VuZGVkLW1kIGJvcmRlciBiZy1iYWNrZ3JvdW5kIgogID4KICAgIDxkaXYgY2xhc3M9InctZnVsbCBmbGV4LTEgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgPGRpdiBjbGFzcz0iaC1mdWxsIG92ZXJmbG93LWF1dG8iPgogICAgICAgIDxUYWJsZSB2LWlmPSIhKGxvYWRpbmcgJiYgcmVjb3Jkcy5sZW5ndGggPT09IDApIj4KICAgICAgICAgIDxUYWJsZUhlYWRlciBjbGFzcz0ic3RpY2t5IHRvcC0wIHotMTAgYmctYmFja2dyb3VuZCBzaGFkb3ctc20iPgogICAgICAgICAgICA8VGFibGVSb3c+CiAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bNTBweF0iPgogICAgICAgICAgICAgICAgPENoZWNrYm94CiAgICAgICAgICAgICAgICAgIHYtbW9kZWw9ImlzQWxsU2VsZWN0ZWQiCiAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24uc2VsZWN0QWxsJykiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICAgIDxUYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zZXNzaW9ucy5pcEJsYWNrbGlzdC5pcExvY2F0aW9uSGVhZGVyIikgfX0KICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICA8VGFibGVIZWFkPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvbnMuaXBCbGFja2xpc3QuYmxvY2tlZEF0IikgfX0KICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICA8VGFibGVIZWFkPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvbnMuaXBCbGFja2xpc3Qud2luZG93IikgfX0KICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICA8VGFibGVIZWFkPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvbnMuaXBCbGFja2xpc3QudGhyZXNob2xkIikgfX0KICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICA8VGFibGVIZWFkPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvbnMuaXBCbGFja2xpc3QuaGl0cyIpIH19CiAgICAgICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0icHItNiB0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLnRhYmxlLmFjdGlvbnMiKSB9fQogICAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgPC9UYWJsZUhlYWRlcj4KICAgICAgICAgIDxUYWJsZUJvZHk+CiAgICAgICAgICAgIDxUYWJsZVJvdyB2LWlmPSJsb2FkaW5nIj4KICAgICAgICAgICAgICA8VGFibGVDZWxsIGNvbHNwYW49IjciIGNsYXNzPSJweS0xMCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgICA8TG9hZGVyMgogICAgICAgICAgICAgICAgICBjbGFzcz0ibXgtYXV0byBoLTYgdy02IGFuaW1hdGUtc3BpbiB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgICA8VGFibGVSb3cgdi1lbHNlLWlmPSJyZWNvcmRzLmxlbmd0aCA9PT0gMCI+CiAgICAgICAgICAgICAgPFRhYmxlQ2VsbAogICAgICAgICAgICAgICAgY29sc3Bhbj0iNyIKICAgICAgICAgICAgICAgIGNsYXNzPSJweS0xMCB0ZXh0LWNlbnRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvbnMuaXBCbGFja2xpc3QuZW1wdHkiKSB9fQogICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgICA8VGFibGVSb3cgdi1mb3I9InJlY29yZCBpbiByZWNvcmRzIiB2LWVsc2UgOmtleT0icmVjb3JkLmlwIj4KICAgICAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICAgICAgPENoZWNrYm94CiAgICAgICAgICAgICAgICAgIDptb2RlbC12YWx1ZT0ic2VsZWN0ZWRJcHMuaGFzKHJlY29yZC5pcCkiCiAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24uc2VsZWN0SXRlbScsIHsgaXRlbTogcmVjb3JkLmlwIH0pIgogICAgICAgICAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJ0b2dnbGVTZWxlY3QocmVjb3JkLmlwKSIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0iZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZm9udC1tb25vIHRleHQtc20iPnt7IHJlY29yZC5pcCB9fTwvZGl2PgogICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICB2LWlmPSJyZWNvcmQuaXBMb2NhdGlvbiIKICAgICAgICAgICAgICAgICAgY2xhc3M9Im10LTAuNSBicmVhay1hbGwgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IHJlY29yZC5pcExvY2F0aW9uIH19CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJ3aGl0ZXNwYWNlLW5vd3JhcCI+CiAgICAgICAgICAgICAgICA8SHVtYW5GcmllbmRseVRpbWUKICAgICAgICAgICAgICAgICAgOnZhbHVlPSJyZWNvcmQuYmxvY2tlZEF0IgogICAgICAgICAgICAgICAgICA6bG9jYWxlPSJsb2NhbGUiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgIDxUYWJsZUNlbGw+CiAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICB0KCJhZG1pbi5zZXNzaW9ucy5pcEJsYWNrbGlzdC5taW51dGVzIiwgewogICAgICAgICAgICAgICAgICAgIGNvdW50OiByZWNvcmQud2luZG93TWludXRlcywKICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgPFRhYmxlQ2VsbD4KICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgIHQoImFkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0LnRpbWVzIiwgewogICAgICAgICAgICAgICAgICAgIGNvdW50OiByZWNvcmQudGhyZXNob2xkLAogICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9InNlY29uZGFyeSI+e3sgcmVjb3JkLmhpdHM/Lmxlbmd0aCB8fCAwIH19PC9CYWRnZT4KICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJzcGFjZS14LTIgcHItNiB0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICAgIHNpemU9Imljb24iCiAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24udmlld0RldGFpbHMnKSIKICAgICAgICAgICAgICAgICAgQGNsaWNrPSJ2aWV3RGV0YWlscyhyZWNvcmQpIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8RXllIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICA8Q29uZmlybURhbmdlclBvcG92ZXIKICAgICAgICAgICAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5zZXNzaW9ucy5pcEJsYWNrbGlzdC5kZWxldGVPbmVUaXRsZScpIgogICAgICAgICAgICAgICAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0LmRlbGV0ZURlc2NyaXB0aW9uJykiCiAgICAgICAgICAgICAgICAgIDpsb2FkaW5nPSJpc0RlbGV0aW5nIgogICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzRGVsZXRpbmciCiAgICAgICAgICAgICAgICAgIDpvbi1jb25maXJtPSIoKSA9PiBkZWxldGVPbmUocmVjb3JkLmlwKSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24uY29uZmlybURlbGV0ZScpIgogICAgICAgICAgICAgICAgICAgICAgY2xhc3M9InRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzRGVsZXRpbmciCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPFRyYXNoMiBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgICAgICAgIDwvQ29uZmlybURhbmdlclBvcG92ZXI+CiAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICA8L1RhYmxlQm9keT4KICAgICAgICA8L1RhYmxlPgogICAgICAgIDxUYWJsZVNrZWxldG9uQmxvY2sKICAgICAgICAgIHYtZWxzZS1pZj0ic2hvd1RhYmxlU2tlbGV0b24iCiAgICAgICAgICA6aGVhZGVyLXdpZHRocz0iWwogICAgICAgICAgICAndy00JywKICAgICAgICAgICAgJ3ctMjQnLAogICAgICAgICAgICAndy0yMCcsCiAgICAgICAgICAgICd3LTEwJywKICAgICAgICAgICAgJ3ctMTAnLAogICAgICAgICAgICAndy0xMCcsCiAgICAgICAgICAgICd3LTEwJywKICAgICAgICAgIF0iCiAgICAgICAgICA6cm93LXdpZHRocz0iWwogICAgICAgICAgICAndy00JywKICAgICAgICAgICAgJ3ctMjQnLAogICAgICAgICAgICAndy0yMCcsCiAgICAgICAgICAgICd3LTEwJywKICAgICAgICAgICAgJ3ctMTAnLAogICAgICAgICAgICAndy0xMCcsCiAgICAgICAgICAgICd3LTE2JywKICAgICAgICAgIF0iCiAgICAgICAgLz4KICAgICAgICA8ZGl2IHYtZWxzZSBjbGFzcz0iaC1bMzgwcHhdIiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8UGFnZWRUYWJsZUZvb3RlcgogICAgICA6dG90YWw9InRvdGFsUmVjb3JkcyIKICAgICAgOnBhZ2U9ImN1cnJlbnRQYWdlIgogICAgICA6bGltaXQ9ImxpbWl0IgogICAgICA6aXRlbXMtcGVyLXBhZ2U9InBhcnNlZExpbWl0IgogICAgICBAdXBkYXRlOnBhZ2U9ImhhbmRsZVBhZ2VDaGFuZ2UiCiAgICAgIEB1cGRhdGU6bGltaXQ9ImhhbmRsZUxpbWl0Q2hhbmdlIgogICAgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import RefreshButton from "@/components/RefreshButton.vue";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import PagedTableFooter from "@admin-shared/components/list/PagedTableFooter.vue";
+import SearchInput from "@admin-shared/components/SearchInput.vue";
+import TableSkeletonBlock from "@admin-shared/components/list/TableSkeletonBlock.vue";
+import { Eye, Loader2, Settings, Trash2 } from "lucide-vue-next";
+import type { IpBlacklistPageController } from "./useIpBlacklistPage";
+
+const props = defineProps<{ controller: IpBlacklistPageController }>();
+const { t, locale } = useI18n();
+const {
+  currentPage,
+  deleteBlacklist,
+  deleteOne,
+  fetchBlacklist,
+  goToFirewallSettings,
+  handleLimitChange,
+  handlePageChange,
+  handleSearch,
+  isAllSelected,
+  isDeleting,
+  limit,
+  loading,
+  parsedLimit,
+  records,
+  searchQuery,
+  selectedIps,
+  showTableSkeleton,
+  toggleSelect,
+  totalRecords,
+  viewDetails,
+} = props.controller;
+</script>
+
+<template>
+  <div class="flex items-center gap-2">
+    <SearchInput
+      v-model="searchQuery"
+      :placeholder="t('admin.sessions.ipBlacklist.searchPlaceholder')"
+      class="w-[260px]"
+      @search="handleSearch"
+    />
+    <div class="flex-1" />
+    <RefreshButton
+      :loading="loading"
+      :disabled="loading"
+      @click="fetchBlacklist"
+    />
+    <Button variant="outline" @click="goToFirewallSettings">
+      <Settings class="h-4" />
+      {{ t("admin.sessions.ipBlacklist.settings") }}
+    </Button>
+    <ConfirmDangerPopover
+      :title="
+        t('admin.sessions.ipBlacklist.deleteSelectedTitle', {
+          count: selectedIps.size,
+        })
+      "
+      :description="t('admin.sessions.ipBlacklist.deleteDescription')"
+      :loading="isDeleting"
+      :disabled="selectedIps.size === 0 || isDeleting"
+      :on-confirm="() => deleteBlacklist(Array.from(selectedIps))"
+    >
+      <template #trigger>
+        <Button
+          variant="destructive"
+          :disabled="selectedIps.size === 0 || isDeleting"
+        >
+          <Trash2 class="h-4" />
+          {{
+            t("admin.sessions.ipBlacklist.deleteSelected", {
+              count: selectedIps.size,
+            })
+          }}
+        </Button>
+      </template>
+    </ConfirmDangerPopover>
+  </div>
+
+  <div
+    class="flex flex-1 flex-col overflow-hidden rounded-md border bg-background"
+  >
+    <div class="w-full flex-1 overflow-hidden">
+      <div class="h-full overflow-auto">
+        <Table v-if="!(loading && records.length === 0)">
+          <TableHeader class="sticky top-0 z-10 bg-background shadow-sm">
+            <TableRow>
+              <TableHead class="w-[50px]">
+                <Checkbox
+                  v-model="isAllSelected"
+                  :aria-label="t('common.selectAll')"
+                />
+              </TableHead>
+              <TableHead>
+                {{ t("admin.sessions.ipBlacklist.ipLocationHeader") }}
+              </TableHead>
+              <TableHead>
+                {{ t("admin.sessions.ipBlacklist.blockedAt") }}
+              </TableHead>
+              <TableHead>
+                {{ t("admin.sessions.ipBlacklist.window") }}
+              </TableHead>
+              <TableHead>
+                {{ t("admin.sessions.ipBlacklist.threshold") }}
+              </TableHead>
+              <TableHead>
+                {{ t("admin.sessions.ipBlacklist.hits") }}
+              </TableHead>
+              <TableHead class="pr-6 text-right">
+                {{ t("admin.sessions.table.actions") }}
+              </TableHead>
+            </TableRow>
+          </TableHeader>
+          <TableBody>
+            <TableRow v-if="loading">
+              <TableCell colspan="7" class="py-10 text-center">
+                <Loader2
+                  class="mx-auto h-6 w-6 animate-spin text-muted-foreground"
+                />
+              </TableCell>
+            </TableRow>
+            <TableRow v-else-if="records.length === 0">
+              <TableCell
+                colspan="7"
+                class="py-10 text-center text-muted-foreground"
+              >
+                {{ t("admin.sessions.ipBlacklist.empty") }}
+              </TableCell>
+            </TableRow>
+            <TableRow v-for="record in records" v-else :key="record.ip">
+              <TableCell>
+                <Checkbox
+                  :model-value="selectedIps.has(record.ip)"
+                  :aria-label="t('common.selectItem', { item: record.ip })"
+                  @update:model-value="toggleSelect(record.ip)"
+                />
+              </TableCell>
+              <TableCell class="font-medium">
+                <div class="font-mono text-sm">{{ record.ip }}</div>
+                <div
+                  v-if="record.ipLocation"
+                  class="mt-0.5 break-all text-xs text-muted-foreground"
+                >
+                  {{ record.ipLocation }}
+                </div>
+              </TableCell>
+              <TableCell class="whitespace-nowrap">
+                <HumanFriendlyTime
+                  :value="record.blockedAt"
+                  :locale="locale"
+                />
+              </TableCell>
+              <TableCell>
+                {{
+                  t("admin.sessions.ipBlacklist.minutes", {
+                    count: record.windowMinutes,
+                  })
+                }}
+              </TableCell>
+              <TableCell>
+                {{
+                  t("admin.sessions.ipBlacklist.times", {
+                    count: record.threshold,
+                  })
+                }}
+              </TableCell>
+              <TableCell>
+                <Badge variant="secondary">{{ record.hits?.length || 0 }}</Badge>
+              </TableCell>
+              <TableCell class="space-x-2 pr-6 text-right">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  :aria-label="t('common.viewDetails')"
+                  @click="viewDetails(record)"
+                >
+                  <Eye class="h-4 w-4" />
+                </Button>
+                <ConfirmDangerPopover
+                  :title="t('admin.sessions.ipBlacklist.deleteOneTitle')"
+                  :description="t('admin.sessions.ipBlacklist.deleteDescription')"
+                  :loading="isDeleting"
+                  :disabled="isDeleting"
+                  :on-confirm="() => deleteOne(record.ip)"
+                >
+                  <template #trigger>
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      :aria-label="t('common.confirmDelete')"
+                      class="text-destructive"
+                      :disabled="isDeleting"
+                    >
+                      <Trash2 class="h-4 w-4" />
+                    </Button>
+                  </template>
+                </ConfirmDangerPopover>
+              </TableCell>
+            </TableRow>
+          </TableBody>
+        </Table>
+        <TableSkeletonBlock
+          v-else-if="showTableSkeleton"
+          :header-widths="[
+            'w-4',
+            'w-24',
+            'w-20',
+            'w-10',
+            'w-10',
+            'w-10',
+            'w-10',
+          ]"
+          :row-widths="[
+            'w-4',
+            'w-24',
+            'w-20',
+            'w-10',
+            'w-10',
+            'w-10',
+            'w-16',
+          ]"
+        />
+        <div v-else class="h-[380px]" aria-hidden="true" />
+      </div>
+    </div>
+
+    <PagedTableFooter
+      :total="totalRecords"
+      :page="currentPage"
+      :limit="limit"
+      :items-per-page="parsedLimit"
+      @update:page="handlePageChange"
+      @update:limit="handleLimitChange"
+    />
+  </div>
+</template>

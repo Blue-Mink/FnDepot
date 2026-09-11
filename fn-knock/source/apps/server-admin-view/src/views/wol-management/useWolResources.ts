@@ -1,1 +1,68 @@
-aW1wb3J0IHsgcmVhY3RpdmUsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IGV4dHJhY3RFcnJvck1lc3NhZ2UgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsKICBXT0xBUEksCiAgdHlwZSBXT0xMb2NhbFJlbGF5LAogIHR5cGUgV09MUmVsYXksCiAgdHlwZSBXT0xUYXJnZXQsCn0gZnJvbSAiQC9saWIvYXBpL3dvbCI7CmltcG9ydCB7CiAgY3JlYXRlV29sTG9jYWxSZWxheUlucHV0LAogIHdvbExvY2FsUmVsYXlUb0lucHV0LAp9IGZyb20gIi4vd29sLW1hbmFnZW1lbnQtbW9kZWwiOwppbXBvcnQgdHlwZSB7IFdvbFRyYW5zbGF0ZSB9IGZyb20gIi4vd29sLW1hbmFnZW1lbnQtdHlwZXMiOwoKZXhwb3J0IGNvbnN0IHVzZVdvbFJlc291cmNlcyA9ICh0OiBXb2xUcmFuc2xhdGUpID0+IHsKICBjb25zdCByZWxheXMgPSByZWY8V09MUmVsYXlbXT4oW10pOwogIGNvbnN0IHRhcmdldHMgPSByZWY8V09MVGFyZ2V0W10+KFtdKTsKICBjb25zdCBsb2NhbFJlbGF5ID0gcmVmPFdPTExvY2FsUmVsYXkgfCBudWxsPihudWxsKTsKICBjb25zdCBsb2NhbFJlbGF5Rm9ybSA9IHJlYWN0aXZlKGNyZWF0ZVdvbExvY2FsUmVsYXlJbnB1dCgpKTsKICBjb25zdCBsb2FkaW5nID0gcmVmKHRydWUpOwogIGNvbnN0IGxvYWRFcnJvciA9IHJlZigiIik7CgogIGNvbnN0IGFwcGx5TG9jYWxSZWxheSA9IChyZXN1bHQ6IFdPTExvY2FsUmVsYXkpID0+IHsKICAgIGxvY2FsUmVsYXkudmFsdWUgPSByZXN1bHQ7CiAgICBPYmplY3QuYXNzaWduKGxvY2FsUmVsYXlGb3JtLCB3b2xMb2NhbFJlbGF5VG9JbnB1dChyZXN1bHQpKTsKICB9OwoKICBjb25zdCBsb2FkID0gYXN5bmMgKCkgPT4gewogICAgbG9hZGluZy52YWx1ZSA9IHRydWU7CiAgICBsb2FkRXJyb3IudmFsdWUgPSAiIjsKICAgIHRyeSB7CiAgICAgIGNvbnN0IFtyZWxheVJlc3VsdCwgdGFyZ2V0UmVzdWx0LCBsb2NhbFJlbGF5UmVzdWx0XSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgICAgICBXT0xBUEkubGlzdFJlbGF5cygpLAogICAgICAgIFdPTEFQSS5saXN0VGFyZ2V0cygpLAogICAgICAgIFdPTEFQSS5nZXRMb2NhbFJlbGF5KCksCiAgICAgIF0pOwogICAgICByZWxheXMudmFsdWUgPSByZWxheVJlc3VsdC5pdGVtczsKICAgICAgdGFyZ2V0cy52YWx1ZSA9IHRhcmdldFJlc3VsdC5pdGVtczsKICAgICAgYXBwbHlMb2NhbFJlbGF5KGxvY2FsUmVsYXlSZXN1bHQpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgbG9hZEVycm9yLnZhbHVlID0gZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiYWRtaW4ud29sLmxvYWRGYWlsZWQiKSk7CiAgICB9IGZpbmFsbHkgewogICAgICBsb2FkaW5nLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3Qgc3RhdHVzTGFiZWwgPSAodGFyZ2V0OiBXT0xUYXJnZXQpID0+CiAgICB0KGBhZG1pbi53b2wuc3RhdHVzLiR7dGFyZ2V0LnN0YXR1cy5zdGF0ZX1gKTsKICBjb25zdCBjaGVja2VkQXRMYWJlbCA9ICh0YXJnZXQ6IFdPTFRhcmdldCkgPT4gewogICAgaWYgKCF0YXJnZXQuc3RhdHVzLmNoZWNrZWRBdCkgcmV0dXJuIHQoImFkbWluLndvbC5zdGF0dXMubm90Q2hlY2tlZCIpOwogICAgcmV0dXJuIHQoImFkbWluLndvbC5zdGF0dXMuY2hlY2tlZEF0IiwgewogICAgICB0aW1lOiBuZXcgRGF0ZSh0YXJnZXQuc3RhdHVzLmNoZWNrZWRBdCkudG9Mb2NhbGVTdHJpbmcoKSwKICAgIH0pOwogIH07CgogIHJldHVybiB7CiAgICBhcHBseUxvY2FsUmVsYXksCiAgICBjaGVja2VkQXRMYWJlbCwKICAgIGxvYWQsCiAgICBsb2FkRXJyb3IsCiAgICBsb2FkaW5nLAogICAgbG9jYWxSZWxheSwKICAgIGxvY2FsUmVsYXlGb3JtLAogICAgcmVsYXlzLAogICAgc3RhdHVzTGFiZWwsCiAgICB0YXJnZXRzLAogIH07Cn07Cg==
+import { reactive, ref } from "vue";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import {
+  WOLAPI,
+  type WOLLocalRelay,
+  type WOLRelay,
+  type WOLTarget,
+} from "@/lib/api/wol";
+import {
+  createWolLocalRelayInput,
+  wolLocalRelayToInput,
+} from "./wol-management-model";
+import type { WolTranslate } from "./wol-management-types";
+
+export const useWolResources = (t: WolTranslate) => {
+  const relays = ref<WOLRelay[]>([]);
+  const targets = ref<WOLTarget[]>([]);
+  const localRelay = ref<WOLLocalRelay | null>(null);
+  const localRelayForm = reactive(createWolLocalRelayInput());
+  const loading = ref(true);
+  const loadError = ref("");
+
+  const applyLocalRelay = (result: WOLLocalRelay) => {
+    localRelay.value = result;
+    Object.assign(localRelayForm, wolLocalRelayToInput(result));
+  };
+
+  const load = async () => {
+    loading.value = true;
+    loadError.value = "";
+    try {
+      const [relayResult, targetResult, localRelayResult] = await Promise.all([
+        WOLAPI.listRelays(),
+        WOLAPI.listTargets(),
+        WOLAPI.getLocalRelay(),
+      ]);
+      relays.value = relayResult.items;
+      targets.value = targetResult.items;
+      applyLocalRelay(localRelayResult);
+    } catch (error) {
+      loadError.value = extractErrorMessage(error, t("admin.wol.loadFailed"));
+    } finally {
+      loading.value = false;
+    }
+  };
+
+  const statusLabel = (target: WOLTarget) =>
+    t(`admin.wol.status.${target.status.state}`);
+  const checkedAtLabel = (target: WOLTarget) => {
+    if (!target.status.checkedAt) return t("admin.wol.status.notChecked");
+    return t("admin.wol.status.checkedAt", {
+      time: new Date(target.status.checkedAt).toLocaleString(),
+    });
+  };
+
+  return {
+    applyLocalRelay,
+    checkedAtLabel,
+    load,
+    loadError,
+    loading,
+    localRelay,
+    localRelayForm,
+    relays,
+    statusLabel,
+    targets,
+  };
+};

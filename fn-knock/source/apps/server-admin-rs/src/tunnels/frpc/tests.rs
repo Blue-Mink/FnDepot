@@ -1,1 +1,215 @@
-dXNlIHN1cGVyOjoqOwoKI1t0ZXN0XQpmbiBwYXJzZXNfZnJwY19zdW1tYXJ5X2Zyb21fY2FtZWxfY2FzZV90b21sKCkgewogICAgbGV0IHN1bW1hcnkgPSBidWlsZF9zdW1tYXJ5KAogICAgICAgIHIjIgpzZXJ2ZXJBZGRyID0gImZycC5leGFtcGxlLmNvbSIKc2VydmVyUG9ydCA9IDcwMDEKCltbcHJveGllc11dCmxvY2FsUG9ydCA9IDc5OTkKcmVtb3RlUG9ydCA9IDQ0MwoiIywKICAgICk7CiAgICBhc3NlcnRfZXEhKHN1bW1hcnkuc2VydmVyX2FkZHIsICJmcnAuZXhhbXBsZS5jb20iKTsKICAgIGFzc2VydF9lcSEoc3VtbWFyeS5zZXJ2ZXJfcG9ydCwgIjcwMDEiKTsKICAgIGFzc2VydF9lcSEoc3VtbWFyeS5sb2NhbF9wb3J0LCAiNzk5OSIpOwogICAgYXNzZXJ0X2VxIShzdW1tYXJ5LnJlbW90ZV9wb3J0LCAiNDQzIik7Cn0KCiNbdGVzdF0KZm4gcGFyc2VzX2ZycGNfc3VtbWFyeV9saWtlX25vZGVfdG9tbF9yZWdleCgpIHsKICAgIGxldCBzdW1tYXJ5ID0gYnVpbGRfc3VtbWFyeSgKICAgICAgICByIyIKc2VydmVyQWRkciA9IGZycC5leGFtcGxlLmNvbQpzZXJ2ZXJQb3J0ID0gNzAwMSAjIGNvbW1lbnQKCltbcHJveGllc11dCmxvY2FsUG9ydCA9ICI3OTk5IgpyZW1vdGVQb3J0ID0gNDQzICMgY29tbWVudAoiIywKICAgICk7CiAgICBhc3NlcnRfZXEhKHN1bW1hcnkuc2VydmVyX2FkZHIsICIiKTsKICAgIGFzc2VydF9lcSEoc3VtbWFyeS5zZXJ2ZXJfcG9ydCwgIjcwMDAiKTsKICAgIGFzc2VydF9lcSEoc3VtbWFyeS5sb2NhbF9wb3J0LCAiNzk5OSIpOwogICAgYXNzZXJ0X2VxIShzdW1tYXJ5LnJlbW90ZV9wb3J0LCAiIik7Cn0KCiNbdGVzdF0KZm4gcHJvY2Vzc19hbGl2ZV9yZWplY3RzX3BpZF92YWx1ZXNfb3V0c2lkZV9waWRfdF9yYW5nZSgpIHsKICAgIGFzc2VydCEoIWlzX3Byb2Nlc3NfYWxpdmUodTMyOjpNQVgpKTsKfQoKI1t0ZXN0XQpmbiBsZWdhY3lfcnVudGltZV9pc19wcm9tb3RlZF90b19hX3N1cGVydmlzb3Jfc25hcHNob3QoKSB7CiAgICBsZXQgcnVudGltZSA9IG5vcm1hbGl6ZV9ydW50aW1lKGpzb24hKHsKICAgICAgICAiZGVzaXJlZFJ1bm5pbmciOiB0cnVlLAogICAgICAgICJwaWQiOiA0MiwKICAgICAgICAic3RhcnRlZEF0IjogIjIwMjYtMDEtMDFUMDA6MDA6MDBaIiwKICAgICAgICAibGFzdEV4aXRDb2RlIjogMSwKICAgICAgICAibGFzdE1lc3NhZ2UiOiAibGVnYWN5IG1lc3NhZ2UiCiAgICB9KSk7CiAgICBhc3NlcnQhKHJ1bnRpbWUuc3VwZXJ2aXNvci5kZXNpcmVkX3J1bm5pbmcpOwogICAgYXNzZXJ0IShydW50aW1lLnN1cGVydmlzb3IucnVubmluZyk7CiAgICBhc3NlcnRfZXEhKHJ1bnRpbWUuc3VwZXJ2aXNvci5waWQsIFNvbWUoNDIpKTsKICAgIGFzc2VydF9lcSEocnVudGltZS5zdXBlcnZpc29yLnN0YXRlLCBTdXBlcnZpc29yUGhhc2U6OlJ1bm5pbmcpOwp9CgojW3Rlc3RdCmZuIGRlZmF1bHRfdHVubmVsX3N0YXRlX21hdGNoZXNfbm9kZV9hYnNlbnRfa2V5X3NoYXBlKCkgewogICAgbGV0IHN0YXRlID0gVmFsdWU6Ok9iamVjdChkZWZhdWx0X3R1bm5lbF9zdGF0ZSgpKTsKICAgIGFzc2VydF9lcSEoc3RhdGVbImZycF9lbmFibGVkIl0sIGZhbHNlKTsKICAgIGFzc2VydF9lcSEoc3RhdGVbImNsb3VkZmxhcmVkX2VuYWJsZWQiXSwgZmFsc2UpOwogICAgYXNzZXJ0X2VxIShzdGF0ZVsibGFzdF90dW5uZWwiXSwgImZycCIpOwogICAgYXNzZXJ0X2VxIShzdGF0ZVsidXBkYXRlZF9hdCJdLCAiMTk3MC0wMS0wMVQwMDowMDowMC4wMDBaIik7Cn0KCiNbdGVzdF0KZm4gbWF0Y2hlc19mcnBjX3Byb2Nlc3NfY29uZmlnX2FyZ3MoKSB7CiAgICBhc3NlcnQhKGlzX2ZycGNfcHJvY2Vzc19hcmdzX2Zvcl9jb25maWcoCiAgICAgICAgJlsKICAgICAgICAgICAgIi9vcHQvZnJwL2ZycGMiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiLWMiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiL3RtcC9mcnBjLnRvbWwiLnRvX3N0cmluZygpCiAgICAgICAgXSwKICAgICAgICAiL3RtcC9mcnBjLnRvbWwiCiAgICApKTsKICAgIGFzc2VydCEoaXNfZnJwY19wcm9jZXNzX2FyZ3NfZm9yX2NvbmZpZygKICAgICAgICAmWyJmcnBjIi50b19zdHJpbmcoKSwgIi0tY29uZmlnPS90bXAvZnJwYy50b21sIi50b19zdHJpbmcoKV0sCiAgICAgICAgIi90bXAvZnJwYy50b21sIgogICAgKSk7CiAgICBhc3NlcnQhKCFpc19mcnBjX3Byb2Nlc3NfYXJnc19mb3JfY29uZmlnKAogICAgICAgICZbCiAgICAgICAgICAgICJmcnBzIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgIi1jIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgIi90bXAvZnJwYy50b21sIi50b19zdHJpbmcoKQogICAgICAgIF0sCiAgICAgICAgIi90bXAvZnJwYy50b21sIgogICAgKSk7Cn0KCiNbdGVzdF0KZm4gZGlzdGluZ3Vpc2hlc19jdXJyZW50X2FuZF9vdXRkYXRlZF9mcnBjX3Byb2Nlc3NfZXhlY3V0YWJsZXMoKSB7CiAgICBsZXQgY3VycmVudCA9IFBhdGg6Om5ldygiL29wdC9mcnAvZnJwXzAuNzEuMF9saW51eF9hbWQ2NC9mcnBjIik7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHByb2Nlc3NfYXJnc191c2VfZXhlY3V0YWJsZSgKICAgICAgICAgICAgJlsKICAgICAgICAgICAgICAgICIvb3B0L2ZycC9mcnBfMC43MS4wX2xpbnV4X2FtZDY0L2ZycGMiLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgIi1jIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICIvdG1wL2ZycGMudG9tbCIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgIGN1cnJlbnQsCiAgICAgICAgKSwKICAgICAgICBTb21lKHRydWUpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBwcm9jZXNzX2FyZ3NfdXNlX2V4ZWN1dGFibGUoCiAgICAgICAgICAgICZbCiAgICAgICAgICAgICAgICAiL29wdC9mcnAvZnJwXzAuNzAuMF9saW51eF9hbWQ2NC9mcnBjIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICItYyIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICAiL3RtcC9mcnBjLnRvbWwiLnRvX3N0cmluZygpLAogICAgICAgICAgICBdLAogICAgICAgICAgICBjdXJyZW50LAogICAgICAgICksCiAgICAgICAgU29tZShmYWxzZSkKICAgICk7CiAgICBhc3NlcnRfZXEhKHByb2Nlc3NfYXJnc191c2VfZXhlY3V0YWJsZSgmW10sIGN1cnJlbnQpLCBOb25lKTsKfQoKI1t0ZXN0XQpmbiBzYW5pdGl6ZXNfaW5zdGFuY2VfaWRzX2xpa2Vfbm9kZSgpIHsKICAgIGFzc2VydF9lcSEoc2FuaXRpemVfaW5zdGFuY2VfaWQoImFiYy0xMjMiKS5hc19kZXJlZigpLCBTb21lKCJhYmMtMTIzIikpOwogICAgYXNzZXJ0IShzYW5pdGl6ZV9pbnN0YW5jZV9pZCgiLi4vYmFkIikuaXNfbm9uZSgpKTsKICAgIGFzc2VydCEoc2FuaXRpemVfaW5zdGFuY2VfaWQoIiIpLmlzX25vbmUoKSk7Cn0KCiNbdGVzdF0KZm4gZGVmYXVsdF9pbnN0YW5jZV9uYW1lc19tYXRjaF9ub2RlX2RlZmF1bHRfbG9jYWxlKCkgewogICAgYXNzZXJ0X2VxIShkZWZhdWx0X2ZycGNfcHJpbWFyeV9uYW1lKCksICLkuLsgRlJQIik7CiAgICBhc3NlcnRfZXEhKGRlZmF1bHRfZnJwY19pbnN0YW5jZV9uYW1lKCksICJGUlAg5a6e5L6LIik7Cn0KCiNbdGVzdF0KZm4gbG9nX2xpbWl0X3BhcnNlcl9tYXRjaGVzX25vZGVfcGFyc2VfaW50X3ByZWZpeGVzKCkgewogICAgYXNzZXJ0X2VxIShwYXJzZV9saW1pdChOb25lKSwgMjAwKTsKICAgIGFzc2VydF9lcSEocGFyc2VfbGltaXQoU29tZSgiIikpLCAyMDApOwogICAgYXNzZXJ0X2VxIShwYXJzZV9saW1pdChTb21lKCIxMHgiKSksIDEwKTsKICAgIGFzc2VydF9lcSEocGFyc2VfbGltaXQoU29tZSgiMHgxMCIpKSwgMSk7CiAgICBhc3NlcnRfZXEhKHBhcnNlX2xpbWl0KFNvbWUoIi01IikpLCAxKTsKICAgIGFzc2VydF9lcSEocGFyc2VfbGltaXQoU29tZSgiNTAwMCIpKSwgMTAwMCk7CiAgICBhc3NlcnRfZXEhKHBhcnNlX2xpbWl0KFNvbWUoImFiYyIpKSwgMjAwKTsKfQoKI1t0ZXN0XQpmbiBsb2NhbGl6ZXNfZnJwY19lcnJvcnNfYW5kX3J1bnRpbWVfbWVzc2FnZXMoKSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6Om5ldygiemgtQ04iKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgbG9jYWxpemVfZnJwY19lcnJvcigmdHJhbnNsYXRvciwgIkZSUEMgaW5zdGFuY2Ugbm90IGZvdW5kOiBhYmMiKSwKICAgICAgICAiRlJQIOWunuS+i+S4jeWtmOWcqO+8mmFiYyIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGxvY2FsaXplX2ZycGNfZXJyb3IoJnRyYW5zbGF0b3IsICJGUlBDIGluc3RhbmNlIGxpbWl0IGV4Y2VlZGVkICgyMCkiKSwKICAgICAgICAi6aKd5aSWIEZSUCDlrp7kvovmnIDlpJrmlK/mjIEgMjAg5LiqIgogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgbG9jYWxpemVfZnJwY19lcnJvcigmdHJhbnNsYXRvciwgIlByaW1hcnkgRlJQQyBpbnN0YW5jZSBjYW5ub3QgYmUgZGVsZXRlZCIpLAogICAgICAgICLkuLsgRlJQIOWunuS+i+S4jeWFgeiuuOWIoOmZpCIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGxvY2FsaXplX2ZycGNfZXJyb3IoJnRyYW5zbGF0b3IsICJmcnBjIGNvbmZpZyB2ZXJpZnkgZmFpbGVkIHdpdGggY29kZSAyIiksCiAgICAgICAgImZycGMgdmVyaWZ5IOagoemqjOWksei0pe+8jOmAgOWHuueggSAyIgogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgbG9jYWxpemVfZnJwY19lcnJvcigmdHJhbnNsYXRvciwgIkZhaWxlZCB0byByZWFkIGZycGMgcGlkIiksCiAgICAgICAgIuivu+WPliBmcnBjIFBJRCDlpLHotKUiCiAgICApOwoKICAgIGxldCBsb2NhbGl6ZWQgPSBsb2NhbGl6ZV9mcnBjX3Jlc3BvbnNlX3ZhbHVlKAogICAgICAgIGpzb24hKHsKICAgICAgICAgICAgIml0ZW0iOiB7ICJsYXN0TWVzc2FnZSI6ICJmcnBjIHN0YXJ0ZWQgcGlkPTEyMzQiIH0sCiAgICAgICAgICAgICJzdGF0dXMiOiB7ICJsYXN0TWVzc2FnZSI6ICJmcnBjIGV4aXRlZCB3aXRoIGNvZGUgMSIgfSwKICAgICAgICAgICAgImxlZ2FjeSI6IHsgImxhc3RfbWVzc2FnZSI6ICJmcnBjIGFscmVhZHkgc3RvcHBlZCIgfQogICAgICAgIH0pLAogICAgICAgICZ0cmFuc2xhdG9yLAogICAgKTsKICAgIGFzc2VydF9lcSEobG9jYWxpemVkWyJpdGVtIl1bImxhc3RNZXNzYWdlIl0sICJmcnBjIOW3suWQr+WKqCBwaWQ9MTIzNCIpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBsb2NhbGl6ZWRbInN0YXR1cyJdWyJsYXN0TWVzc2FnZSJdLAogICAgICAgICJmcnBjIOi/m+eoi+W3sumAgOWHuu+8iOmAgOWHuueggSAx77yJIgogICAgKTsKICAgIGFzc2VydF9lcSEobG9jYWxpemVkWyJsZWdhY3kiXVsibGFzdF9tZXNzYWdlIl0sICJmcnBjIOW3suWBnOatoiIpOwp9CgojW3Rlc3RdCmZuIGV4dHJhY3RzX29ubHlfY29uZmlndXJlZF9mcnBjX3NlY3JldHNfZm9yX2xvZ19yZWRhY3Rpb24oKSB7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGV4dHJhY3RfZnJwY19zZWNyZXRzKAogICAgICAgICAgICByIyIKW2F1dGhdCm1ldGhvZCA9ICJ0b2tlbiIKdG9rZW4gPSAidG9wLXNlY3JldCIKb2lkY0NsaWVudFNlY3JldCA9ICdvaWRjLXNlY3JldCcKc2VydmVyQWRkciA9ICJleGFtcGxlLmNvbSIKW3dlYlNlcnZlcl0KcGFzc3dvcmQgPSAid2ViLXNlY3JldCIgIyBrbm93biBjcmVkZW50aWFsCltwcm94aWVzLnBsdWdpbl0KY3JlZGVudGlhbEZpbGUgPSAiL25vdC9hL3NlY3JldC92YWx1ZSIKIiMKICAgICAgICApLAogICAgICAgIHZlYyFbCiAgICAgICAgICAgICJ0b3Atc2VjcmV0IiwKICAgICAgICAgICAgIm9pZGMtc2VjcmV0IiwKICAgICAgICAgICAgIndlYi1zZWNyZXQiLAogICAgICAgICAgICAiL25vdC9hL3NlY3JldC92YWx1ZSIKICAgICAgICBdCiAgICApOwp9CgojW3Rlc3RdCmZuIHZlcmlmeV9vdXRwdXRfdHJ1bmNhdGlvbl9wcmVzZXJ2ZXNfdXRmOF9ib3VuZGFyaWVzKCkgewogICAgbGV0IG91dHB1dCA9ICLkuIAiLnJlcGVhdCg0XzAwMSk7CiAgICBsZXQgbm9ybWFsaXplZCA9IG5vcm1hbGl6ZV92ZXJpZnlfb3V0cHV0KCZvdXRwdXQpOwogICAgYXNzZXJ0X2VxIShub3JtYWxpemVkLmNoYXJzKCkuY291bnQoKSwgNF8wMDMpOwogICAgYXNzZXJ0IShub3JtYWxpemVkLmVuZHNfd2l0aCgiLi4uIikpOwp9Cg==
+use super::*;
+
+#[test]
+fn parses_frpc_summary_from_camel_case_toml() {
+    let summary = build_summary(
+        r#"
+serverAddr = "frp.example.com"
+serverPort = 7001
+
+[[proxies]]
+localPort = 7999
+remotePort = 443
+"#,
+    );
+    assert_eq!(summary.server_addr, "frp.example.com");
+    assert_eq!(summary.server_port, "7001");
+    assert_eq!(summary.local_port, "7999");
+    assert_eq!(summary.remote_port, "443");
+}
+
+#[test]
+fn parses_frpc_summary_like_node_toml_regex() {
+    let summary = build_summary(
+        r#"
+serverAddr = frp.example.com
+serverPort = 7001 # comment
+
+[[proxies]]
+localPort = "7999"
+remotePort = 443 # comment
+"#,
+    );
+    assert_eq!(summary.server_addr, "");
+    assert_eq!(summary.server_port, "7000");
+    assert_eq!(summary.local_port, "7999");
+    assert_eq!(summary.remote_port, "");
+}
+
+#[test]
+fn process_alive_rejects_pid_values_outside_pid_t_range() {
+    assert!(!is_process_alive(u32::MAX));
+}
+
+#[test]
+fn legacy_runtime_is_promoted_to_a_supervisor_snapshot() {
+    let runtime = normalize_runtime(json!({
+        "desiredRunning": true,
+        "pid": 42,
+        "startedAt": "2026-01-01T00:00:00Z",
+        "lastExitCode": 1,
+        "lastMessage": "legacy message"
+    }));
+    assert!(runtime.supervisor.desired_running);
+    assert!(runtime.supervisor.running);
+    assert_eq!(runtime.supervisor.pid, Some(42));
+    assert_eq!(runtime.supervisor.state, SupervisorPhase::Running);
+}
+
+#[test]
+fn default_tunnel_state_matches_node_absent_key_shape() {
+    let state = Value::Object(default_tunnel_state());
+    assert_eq!(state["frp_enabled"], false);
+    assert_eq!(state["cloudflared_enabled"], false);
+    assert_eq!(state["last_tunnel"], "frp");
+    assert_eq!(state["updated_at"], "1970-01-01T00:00:00.000Z");
+}
+
+#[test]
+fn matches_frpc_process_config_args() {
+    assert!(is_frpc_process_args_for_config(
+        &[
+            "/opt/frp/frpc".to_string(),
+            "-c".to_string(),
+            "/tmp/frpc.toml".to_string()
+        ],
+        "/tmp/frpc.toml"
+    ));
+    assert!(is_frpc_process_args_for_config(
+        &["frpc".to_string(), "--config=/tmp/frpc.toml".to_string()],
+        "/tmp/frpc.toml"
+    ));
+    assert!(!is_frpc_process_args_for_config(
+        &[
+            "frps".to_string(),
+            "-c".to_string(),
+            "/tmp/frpc.toml".to_string()
+        ],
+        "/tmp/frpc.toml"
+    ));
+}
+
+#[test]
+fn distinguishes_current_and_outdated_frpc_process_executables() {
+    let current = Path::new("/opt/frp/frp_0.71.0_linux_amd64/frpc");
+    assert_eq!(
+        process_args_use_executable(
+            &[
+                "/opt/frp/frp_0.71.0_linux_amd64/frpc".to_string(),
+                "-c".to_string(),
+                "/tmp/frpc.toml".to_string(),
+            ],
+            current,
+        ),
+        Some(true)
+    );
+    assert_eq!(
+        process_args_use_executable(
+            &[
+                "/opt/frp/frp_0.70.0_linux_amd64/frpc".to_string(),
+                "-c".to_string(),
+                "/tmp/frpc.toml".to_string(),
+            ],
+            current,
+        ),
+        Some(false)
+    );
+    assert_eq!(process_args_use_executable(&[], current), None);
+}
+
+#[test]
+fn sanitizes_instance_ids_like_node() {
+    assert_eq!(sanitize_instance_id("abc-123").as_deref(), Some("abc-123"));
+    assert!(sanitize_instance_id("../bad").is_none());
+    assert!(sanitize_instance_id("").is_none());
+}
+
+#[test]
+fn default_instance_names_match_node_default_locale() {
+    assert_eq!(default_frpc_primary_name(), "主 FRP");
+    assert_eq!(default_frpc_instance_name(), "FRP 实例");
+}
+
+#[test]
+fn log_limit_parser_matches_node_parse_int_prefixes() {
+    assert_eq!(parse_limit(None), 200);
+    assert_eq!(parse_limit(Some("")), 200);
+    assert_eq!(parse_limit(Some("10x")), 10);
+    assert_eq!(parse_limit(Some("0x10")), 1);
+    assert_eq!(parse_limit(Some("-5")), 1);
+    assert_eq!(parse_limit(Some("5000")), 1000);
+    assert_eq!(parse_limit(Some("abc")), 200);
+}
+
+#[test]
+fn localizes_frpc_errors_and_runtime_messages() {
+    let translator = Translator::new("zh-CN");
+    assert_eq!(
+        localize_frpc_error(&translator, "FRPC instance not found: abc"),
+        "FRP 实例不存在：abc"
+    );
+    assert_eq!(
+        localize_frpc_error(&translator, "FRPC instance limit exceeded (20)"),
+        "额外 FRP 实例最多支持 20 个"
+    );
+    assert_eq!(
+        localize_frpc_error(&translator, "Primary FRPC instance cannot be deleted"),
+        "主 FRP 实例不允许删除"
+    );
+    assert_eq!(
+        localize_frpc_error(&translator, "frpc config verify failed with code 2"),
+        "frpc verify 校验失败，退出码 2"
+    );
+    assert_eq!(
+        localize_frpc_error(&translator, "Failed to read frpc pid"),
+        "读取 frpc PID 失败"
+    );
+
+    let localized = localize_frpc_response_value(
+        json!({
+            "item": { "lastMessage": "frpc started pid=1234" },
+            "status": { "lastMessage": "frpc exited with code 1" },
+            "legacy": { "last_message": "frpc already stopped" }
+        }),
+        &translator,
+    );
+    assert_eq!(localized["item"]["lastMessage"], "frpc 已启动 pid=1234");
+    assert_eq!(
+        localized["status"]["lastMessage"],
+        "frpc 进程已退出（退出码 1）"
+    );
+    assert_eq!(localized["legacy"]["last_message"], "frpc 已停止");
+}
+
+#[test]
+fn extracts_only_configured_frpc_secrets_for_log_redaction() {
+    assert_eq!(
+        extract_frpc_secrets(
+            r#"
+[auth]
+method = "token"
+token = "top-secret"
+oidcClientSecret = 'oidc-secret'
+serverAddr = "example.com"
+[webServer]
+password = "web-secret" # known credential
+[proxies.plugin]
+credentialFile = "/not/a/secret/value"
+"#
+        ),
+        vec![
+            "top-secret",
+            "oidc-secret",
+            "web-secret",
+            "/not/a/secret/value"
+        ]
+    );
+}
+
+#[test]
+fn verify_output_truncation_preserves_utf8_boundaries() {
+    let output = "一".repeat(4_001);
+    let normalized = normalize_verify_output(&output);
+    assert_eq!(normalized.chars().count(), 4_003);
+    assert!(normalized.ends_with("..."));
+}

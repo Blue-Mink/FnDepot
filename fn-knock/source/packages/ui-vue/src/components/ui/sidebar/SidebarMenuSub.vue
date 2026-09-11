@@ -1,1 +1,22 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPHVsCiAgICBkYXRhLXNsb3Q9InNpZGViYXItbWVudS1zdWIiCiAgICBkYXRhLXNpZGViYXI9Im1lbnUtYmFkZ2UiCiAgICA6Y2xhc3M9ImNuKAogICAgICAnYm9yZGVyLXNpZGViYXItYm9yZGVyIG14LTMuNSBmbGV4IG1pbi13LTAgdHJhbnNsYXRlLXgtcHggZmxleC1jb2wgZ2FwLTEgYm9yZGVyLWwgcHgtMi41IHB5LTAuNScsCiAgICAgICdncm91cC1kYXRhLVtjb2xsYXBzaWJsZT1pY29uXTpoaWRkZW4nLAogICAgICBwcm9wcy5jbGFzcywKICAgICkiCiAgPgogICAgPHNsb3QgLz4KICA8L3VsPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <ul
+    data-slot="sidebar-menu-sub"
+    data-sidebar="menu-badge"
+    :class="cn(
+      'border-sidebar-border mx-3.5 flex min-w-0 translate-x-px flex-col gap-1 border-l px-2.5 py-0.5',
+      'group-data-[collapsible=icon]:hidden',
+      props.class,
+    )"
+  >
+    <slot />
+  </ul>
+</template>

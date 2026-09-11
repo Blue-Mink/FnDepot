@@ -1,1 +1,175 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsgRG93bmxvYWQsIFVwbG9hZCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjcmVkZW50aWFsQ291bnQ6IG51bWJlcjsKICBjcmVkZW50aWFsVHJhbnNmZXJPcGVuOiBib29sZWFuOwogIGV4cG9ydE9wZW46IGJvb2xlYW47CiAgaW1wb3J0T3BlbjogYm9vbGVhbjsKICBpc0NyZWRlbnRpYWxUcmFuc2ZlckJ1c3k6IGJvb2xlYW47CiAgaXNFeHBvcnRpbmdDcmVkZW50aWFsczogYm9vbGVhbjsKICBpc0ltcG9ydGluZ0NyZWRlbnRpYWxzOiBib29sZWFuOwogIHBlbmRpbmdDcmVkZW50aWFsSW1wb3J0RmlsZW5hbWU6IHN0cmluZzsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgInVwZGF0ZTpjcmVkZW50aWFsVHJhbnNmZXJPcGVuIjogW3ZhbHVlOiBib29sZWFuXTsKICAidXBkYXRlOmV4cG9ydE9wZW4iOiBbdmFsdWU6IGJvb2xlYW5dOwogICJ1cGRhdGU6aW1wb3J0T3BlbiI6IFt2YWx1ZTogYm9vbGVhbl07CiAgY29uZmlybUV4cG9ydDogW107CiAgY29uZmlybUltcG9ydDogW107CiAgZXhwb3J0RnJvbVRyYW5zZmVyOiBbXTsKICBpbXBvcnRGcm9tVHJhbnNmZXI6IFtdOwogIHJlc2V0SW1wb3J0OiBbXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwoKY29uc3QgdHJhbnNmZXJEaWFsb2dPcGVuID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcHJvcHMuY3JlZGVudGlhbFRyYW5zZmVyT3BlbiwKICBzZXQ6ICh2YWx1ZSkgPT4gZW1pdCgidXBkYXRlOmNyZWRlbnRpYWxUcmFuc2Zlck9wZW4iLCB2YWx1ZSksCn0pOwpjb25zdCBleHBvcnREaWFsb2dPcGVuID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcHJvcHMuZXhwb3J0T3BlbiwKICBzZXQ6ICh2YWx1ZSkgPT4gZW1pdCgidXBkYXRlOmV4cG9ydE9wZW4iLCB2YWx1ZSksCn0pOwpjb25zdCBpbXBvcnREaWFsb2dPcGVuID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcHJvcHMuaW1wb3J0T3BlbiwKICBzZXQ6ICh2YWx1ZSkgPT4gewogICAgZW1pdCgidXBkYXRlOmltcG9ydE9wZW4iLCB2YWx1ZSk7CiAgICBpZiAoIXZhbHVlKSBlbWl0KCJyZXNldEltcG9ydCIpOwogIH0sCn0pOwoKY29uc3QgY2xvc2VJbXBvcnREaWFsb2cgPSAoKSA9PiB7CiAgaW1wb3J0RGlhbG9nT3Blbi52YWx1ZSA9IGZhbHNlOwp9Owo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nIHYtbW9kZWw6b3Blbj0idHJhbnNmZXJEaWFsb2dPcGVuIj4KICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJtYXgtaC1bODh2aF0gb3ZlcmZsb3cteS1hdXRvIHNtOm1heC13LVs1MjBweF0iPgogICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgIDxEaWFsb2dUaXRsZT4KICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5jcmVkZW50aWFsVHJhbnNmZXIiKSB9fQogICAgICAgIDwvRGlhbG9nVGl0bGU+CiAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLmNyZWRlbnRpYWxUcmFuc2ZlckRlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICA8L0RpYWxvZ0hlYWRlcj4KICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMyBzbTpncmlkLWNvbHMtMiI+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIGNsYXNzPSJoLWF1dG8ganVzdGlmeS1zdGFydCBnYXAtMyBweC00IHB5LTMgdGV4dC1sZWZ0IgogICAgICAgICAgOmRpc2FibGVkPSJjcmVkZW50aWFsQ291bnQgPT09IDAgfHwgaXNDcmVkZW50aWFsVHJhbnNmZXJCdXN5IgogICAgICAgICAgQGNsaWNrPSJlbWl0KCdleHBvcnRGcm9tVHJhbnNmZXInKSIKICAgICAgICA+CiAgICAgICAgICA8RG93bmxvYWQgY2xhc3M9ImgtNCB3LTQgc2hyaW5rLTAiIC8+CiAgICAgICAgICA8c3BhbiBjbGFzcz0ibWluLXctMCB3aGl0ZXNwYWNlLW5vcm1hbCBmb250LW1lZGl1bSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5leHBvcnRDcmVkZW50aWFscyIpIH19CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIGNsYXNzPSJoLWF1dG8ganVzdGlmeS1zdGFydCBnYXAtMyBweC00IHB5LTMgdGV4dC1sZWZ0IgogICAgICAgICAgOmRpc2FibGVkPSJpc0NyZWRlbnRpYWxUcmFuc2ZlckJ1c3kiCiAgICAgICAgICBAY2xpY2s9ImVtaXQoJ2ltcG9ydEZyb21UcmFuc2ZlcicpIgogICAgICAgID4KICAgICAgICAgIDxVcGxvYWQgY2xhc3M9ImgtNCB3LTQgc2hyaW5rLTAiIC8+CiAgICAgICAgICA8c3BhbiBjbGFzcz0ibWluLXctMCB3aGl0ZXNwYWNlLW5vcm1hbCBmb250LW1lZGl1bSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5pbXBvcnRDcmVkZW50aWFscyIpIH19CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvZGl2PgogICAgICA8RGlhbG9nRm9vdGVyPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImlzQ3JlZGVudGlhbFRyYW5zZmVyQnVzeSIKICAgICAgICAgIEBjbGljaz0idHJhbnNmZXJEaWFsb2dPcGVuID0gZmFsc2UiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLmNhbmNlbCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgoKICA8RGlhbG9nIHYtbW9kZWw6b3Blbj0iZXhwb3J0RGlhbG9nT3BlbiI+CiAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ibWF4LWgtWzg4dmhdIG92ZXJmbG93LXktYXV0byBzbTptYXgtdy1bNTIwcHhdIj4KICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICA8RGlhbG9nVGl0bGU+CiAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MuZXhwb3J0Q3JlZGVudGlhbHNUaXRsZSIpIH19CiAgICAgICAgPC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MuZXhwb3J0Q3JlZGVudGlhbHNEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgIDxEaWFsb2dGb290ZXIgY2xhc3M9ImdhcC0yIj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgOmRpc2FibGVkPSJpc0V4cG9ydGluZ0NyZWRlbnRpYWxzIgogICAgICAgICAgQGNsaWNrPSJleHBvcnREaWFsb2dPcGVuID0gZmFsc2UiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLmNhbmNlbCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgOmRpc2FibGVkPSJpc0V4cG9ydGluZ0NyZWRlbnRpYWxzIgogICAgICAgICAgQGNsaWNrPSJlbWl0KCdjb25maXJtRXhwb3J0JykiCiAgICAgICAgPgogICAgICAgICAgPHNwYW4KICAgICAgICAgICAgdi1pZj0iaXNFeHBvcnRpbmdDcmVkZW50aWFscyIKICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiCiAgICAgICAgICA+PC9zcGFuPgogICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLmNvbmZpcm1FeHBvcnRDcmVkZW50aWFscyIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgoKICA8RGlhbG9nIHYtbW9kZWw6b3Blbj0iaW1wb3J0RGlhbG9nT3BlbiI+CiAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ibWF4LWgtWzg4dmhdIG92ZXJmbG93LXktYXV0byBzbTptYXgtdy1bNTIwcHhdIj4KICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICA8RGlhbG9nVGl0bGU+CiAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MuaW1wb3J0Q3JlZGVudGlhbHNUaXRsZSIpIH19CiAgICAgICAgPC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MuaW1wb3J0Q3JlZGVudGlhbHNEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgIDxkaXYgY2xhc3M9InJvdW5kZWQtbWQgYm9yZGVyIGJnLW11dGVkLzIwIHB4LTMgcHktMiB0ZXh0LXNtIj4KICAgICAgICA8cCBjbGFzcz0iYnJlYWstYWxsIGZvbnQtbWVkaXVtIj4KICAgICAgICAgIHt7IHBlbmRpbmdDcmVkZW50aWFsSW1wb3J0RmlsZW5hbWUgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgICA8RGlhbG9nRm9vdGVyIGNsYXNzPSJnYXAtMiI+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNJbXBvcnRpbmdDcmVkZW50aWFscyIKICAgICAgICAgIEBjbGljaz0iY2xvc2VJbXBvcnREaWFsb2ciCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLmNhbmNlbCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgOmRpc2FibGVkPSJpc0ltcG9ydGluZ0NyZWRlbnRpYWxzIgogICAgICAgICAgQGNsaWNrPSJlbWl0KCdjb25maXJtSW1wb3J0JykiCiAgICAgICAgPgogICAgICAgICAgPHNwYW4KICAgICAgICAgICAgdi1pZj0iaXNJbXBvcnRpbmdDcmVkZW50aWFscyIKICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiCiAgICAgICAgICA+PC9zcGFuPgogICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLmNvbmZpcm1JbXBvcnRDcmVkZW50aWFscyIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Download, Upload } from "lucide-vue-next";
+
+const props = defineProps<{
+  credentialCount: number;
+  credentialTransferOpen: boolean;
+  exportOpen: boolean;
+  importOpen: boolean;
+  isCredentialTransferBusy: boolean;
+  isExportingCredentials: boolean;
+  isImportingCredentials: boolean;
+  pendingCredentialImportFilename: string;
+}>();
+
+const emit = defineEmits<{
+  "update:credentialTransferOpen": [value: boolean];
+  "update:exportOpen": [value: boolean];
+  "update:importOpen": [value: boolean];
+  confirmExport: [];
+  confirmImport: [];
+  exportFromTransfer: [];
+  importFromTransfer: [];
+  resetImport: [];
+}>();
+
+const { t } = useI18n();
+
+const transferDialogOpen = computed({
+  get: () => props.credentialTransferOpen,
+  set: (value) => emit("update:credentialTransferOpen", value),
+});
+const exportDialogOpen = computed({
+  get: () => props.exportOpen,
+  set: (value) => emit("update:exportOpen", value),
+});
+const importDialogOpen = computed({
+  get: () => props.importOpen,
+  set: (value) => {
+    emit("update:importOpen", value);
+    if (!value) emit("resetImport");
+  },
+});
+
+const closeImportDialog = () => {
+  importDialogOpen.value = false;
+};
+</script>
+
+<template>
+  <Dialog v-model:open="transferDialogOpen">
+    <DialogContent class="max-h-[88vh] overflow-y-auto sm:max-w-[520px]">
+      <DialogHeader>
+        <DialogTitle>
+          {{ t("admin.authSettings.credentialTransfer") }}
+        </DialogTitle>
+        <DialogDescription>
+          {{ t("admin.authSettings.credentialTransferDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+      <div class="grid gap-3 sm:grid-cols-2">
+        <Button
+          variant="outline"
+          class="h-auto justify-start gap-3 px-4 py-3 text-left"
+          :disabled="credentialCount === 0 || isCredentialTransferBusy"
+          @click="emit('exportFromTransfer')"
+        >
+          <Download class="h-4 w-4 shrink-0" />
+          <span class="min-w-0 whitespace-normal font-medium">
+            {{ t("admin.authSettings.exportCredentials") }}
+          </span>
+        </Button>
+        <Button
+          variant="outline"
+          class="h-auto justify-start gap-3 px-4 py-3 text-left"
+          :disabled="isCredentialTransferBusy"
+          @click="emit('importFromTransfer')"
+        >
+          <Upload class="h-4 w-4 shrink-0" />
+          <span class="min-w-0 whitespace-normal font-medium">
+            {{ t("admin.authSettings.importCredentials") }}
+          </span>
+        </Button>
+      </div>
+      <DialogFooter>
+        <Button
+          variant="outline"
+          :disabled="isCredentialTransferBusy"
+          @click="transferDialogOpen = false"
+        >
+          {{ t("admin.authSettings.cancel") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+
+  <Dialog v-model:open="exportDialogOpen">
+    <DialogContent class="max-h-[88vh] overflow-y-auto sm:max-w-[520px]">
+      <DialogHeader>
+        <DialogTitle>
+          {{ t("admin.authSettings.exportCredentialsTitle") }}
+        </DialogTitle>
+        <DialogDescription>
+          {{ t("admin.authSettings.exportCredentialsDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+      <DialogFooter class="gap-2">
+        <Button
+          variant="outline"
+          :disabled="isExportingCredentials"
+          @click="exportDialogOpen = false"
+        >
+          {{ t("admin.authSettings.cancel") }}
+        </Button>
+        <Button
+          :disabled="isExportingCredentials"
+          @click="emit('confirmExport')"
+        >
+          <span
+            v-if="isExportingCredentials"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          ></span>
+          {{ t("admin.authSettings.confirmExportCredentials") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+
+  <Dialog v-model:open="importDialogOpen">
+    <DialogContent class="max-h-[88vh] overflow-y-auto sm:max-w-[520px]">
+      <DialogHeader>
+        <DialogTitle>
+          {{ t("admin.authSettings.importCredentialsTitle") }}
+        </DialogTitle>
+        <DialogDescription>
+          {{ t("admin.authSettings.importCredentialsDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+      <div class="rounded-md border bg-muted/20 px-3 py-2 text-sm">
+        <p class="break-all font-medium">
+          {{ pendingCredentialImportFilename }}
+        </p>
+      </div>
+      <DialogFooter class="gap-2">
+        <Button
+          variant="outline"
+          :disabled="isImportingCredentials"
+          @click="closeImportDialog"
+        >
+          {{ t("admin.authSettings.cancel") }}
+        </Button>
+        <Button
+          :disabled="isImportingCredentials"
+          @click="emit('confirmImport')"
+        >
+          <span
+            v-if="isImportingCredentials"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          ></span>
+          {{ t("admin.authSettings.confirmImportCredentials") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

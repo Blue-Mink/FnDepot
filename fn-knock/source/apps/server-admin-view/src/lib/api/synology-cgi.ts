@@ -1,1 +1,4 @@
-Y29uc3Qgc3lub2xvZ3lDZ2lQYXRoUGF0dGVybiA9IC8oPzpefFwvKWZuLWtub2NrLXN5bm9sb2d5XC9pbmRleFwuY2dpKD86XC98JCkvOwoKZXhwb3J0IGNvbnN0IGlzU3lub2xvZ3lDZ2lBcGlQYXRoID0gKHBhdGg6IHN0cmluZykgPT4KICBzeW5vbG9neUNnaVBhdGhQYXR0ZXJuLnRlc3QocGF0aCk7Cg==
+const synologyCgiPathPattern = /(?:^|\/)fn-knock-synology\/index\.cgi(?:\/|$)/;
+
+export const isSynologyCgiApiPath = (path: string) =>
+  synologyCgiPathPattern.test(path);

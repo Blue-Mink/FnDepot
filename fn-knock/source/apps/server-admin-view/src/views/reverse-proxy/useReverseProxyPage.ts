@@ -1,1 +1,289 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgb25Vbm1vdW50ZWQsIHJlYWN0aXZlLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyB1c2VBY2Nlc3NFbnRyeVBvcnQgfSBmcm9tICJAL2NvbXBvc2FibGVzL3VzZUFjY2Vzc0VudHJ5UG9ydCI7CmltcG9ydCB7IENvbmZpZ0FQSSB9IGZyb20gIkAvbGliL2FwaS9jb25maWciOwppbXBvcnQgeyB1c2VDb25maWdTdG9yZSB9IGZyb20gIkAvc3RvcmUvY29uZmlnIjsKaW1wb3J0IHR5cGUgeyBQcm94eU1hcHBpbmcgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsgdXNlQXN5bmNBY3Rpb24gfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdXNlRGVmYXVsdFJvdXRlQ29uZmlybSB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlRGVmYXVsdFJvdXRlQ29uZmlybSI7CmltcG9ydCB7IHVzZUxvY2FsUGFnZWRMaXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VMb2NhbFBhZ2VkTGlzdCI7CmltcG9ydCB7IHVzZVByb3h5TWFwcGluZ0RpYWxvZ0Zvcm0gfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZVByb3h5TWFwcGluZ0RpYWxvZ0Zvcm0iOwppbXBvcnQgeyBuZWVkc0NsZWFyRGVmYXVsdFJvdXRlQ29uZmlybSwgbmVlZHNTZXREZWZhdWx0Um91dGVDb25maXJtIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9kZWZhdWx0Um91dGVHdWFyZCI7CmltcG9ydCB7IGV4dHJhY3RQb3J0RnJvbVRhcmdldCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvZXh0cmFjdFBvcnRGcm9tVGFyZ2V0IjsKaW1wb3J0IHsgaXNXZWJTb2NrZXRQcm94eVRhcmdldFVybCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvcHJveHlUYXJnZXRJbnB1dCI7CmltcG9ydCB7IERFRkFVTFRfUFJPWFlfTUFQUElOR19GTEFHUyB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvcHJveHlNYXBwaW5nIjsKaW1wb3J0IHsKICBjcmVhdGVSZXZlcnNlUHJveHlNZXNzYWdlcywKICBzaG93UmV2ZXJzZVByb3h5QWN0aW9uRXJyb3IsCiAgc2hvd1JldmVyc2VQcm94eUJvb2xlYW5SZXN1bHRUb2FzdCwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3JldmVyc2VQcm94eUZlZWRiYWNrIjsKaW1wb3J0IHsgdXNlUmV2ZXJzZVByb3h5RGlzY292ZXJGbG93IH0gZnJvbSAiLi91c2VSZXZlcnNlUHJveHlEaXNjb3ZlckZsb3ciOwppbXBvcnQgeyB1c2VSZXZlcnNlUHJveHlNYXBwaW5nQWN0aW9ucyB9IGZyb20gIi4vdXNlUmV2ZXJzZVByb3h5TWFwcGluZ0FjdGlvbnMiOwoKdHlwZSBEaXNjb3ZlclRhcmdldHNTZXR0aW5nc0hhbmRsZSA9IHsKICBlbnN1cmVTYXZlZDogKCkgPT4gUHJvbWlzZTxzdHJpbmdbXT4gfCB1bmRlZmluZWQ7CiAgbG9hZFRhcmdldHM6ICgpID0+IFByb21pc2U8dm9pZD4gfCB1bmRlZmluZWQ7Cn07Cgpjb25zdCBERUZBVUxUX1NZU1RFTV9QT1JUID0gNTY2NjsKCmV4cG9ydCBjb25zdCB1c2VSZXZlcnNlUHJveHlQYWdlID0gKCkgPT4gewogIGNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IGNvbmZpZ1N0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKICBjb25zdCBtZXNzYWdlcyA9IGNyZWF0ZVJldmVyc2VQcm94eU1lc3NhZ2VzKHQpOwogIGNvbnN0IGRpc2NvdmVyVGFyZ2V0c1NldHRpbmdzUmVmID0gcmVmPERpc2NvdmVyVGFyZ2V0c1NldHRpbmdzSGFuZGxlIHwgbnVsbD4oCiAgICBudWxsLAogICk7CiAgY29uc3QgaXNTY2FuSW50ZW5zaXR5RGlhbG9nT3BlbiA9IHJlZihmYWxzZSk7CiAgY29uc3QgeyBhY2Nlc3NFbnRyeVBvcnQsIGxvYWRBY2Nlc3NFbnRyeVBvcnQgfSA9IHVzZUFjY2Vzc0VudHJ5UG9ydCgpOwoKICBjb25zdCBhbGxNYXBwaW5ncyA9IGNvbXB1dGVkKCgpID0+IGNvbmZpZ1N0b3JlLmNvbmZpZz8ucHJveHlfbWFwcGluZ3MgfHwgW10pOwogIGNvbnN0IGlzRGVmYXVsdFJvdXRlID0gKHBhdGg6IHN0cmluZykgPT4KICAgIGNvbmZpZ1N0b3JlLmNvbmZpZz8uZGVmYXVsdF9yb3V0ZSA9PT0gcGF0aDsKCiAgY29uc3QgewogICAgb3BlbjogaXNNYXBwaW5nRGlhbG9nT3BlbiwKICAgIGlzRWRpdGluZywKICAgIGVkaXRpbmdPcmlnaW5hbDogZWRpdGluZ09yaWdpbmFsTWFwcGluZywKICAgIGZvcm06IG5ld01hcHBpbmcsCiAgICBpc1ZhbGlkLAogICAgb3BlbkFkZDogb3BlbkFkZERpYWxvZywKICAgIG9wZW5FZGl0OiBvcGVuRWRpdERpYWxvZywKICAgIGNsb3NlOiBjbG9zZU1hcHBpbmdEaWFsb2csCiAgfSA9IHVzZVByb3h5TWFwcGluZ0RpYWxvZ0Zvcm08UHJveHlNYXBwaW5nPihERUZBVUxUX1BST1hZX01BUFBJTkdfRkxBR1MpOwogIGNvbnN0IGlzTmV3TWFwcGluZ1dlYlNvY2tldFRhcmdldCA9IGNvbXB1dGVkKCgpID0+CiAgICBpc1dlYlNvY2tldFByb3h5VGFyZ2V0VXJsKG5ld01hcHBpbmcudGFyZ2V0KSwKICApOwogIGNvbnN0IGhhbmRsZU1hcHBpbmdEaWFsb2dPcGVuQ2hhbmdlID0gKG5leHRPcGVuOiBib29sZWFuKSA9PiB7CiAgICBpZiAoIW5leHRPcGVuKSBjbG9zZU1hcHBpbmdEaWFsb2codHJ1ZSk7CiAgfTsKICBjb25zdCB1cGRhdGVNYXBwaW5nRHJhZnQgPSAocGF0Y2g6IFBhcnRpYWw8UHJveHlNYXBwaW5nPikgPT4gewogICAgT2JqZWN0LmFzc2lnbihuZXdNYXBwaW5nLCBwYXRjaCk7CiAgfTsKCiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzU3luY2luZywgcnVuOiBydW5TeW5jUm91dGVzIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgc2hvd1JldmVyc2VQcm94eUFjdGlvbkVycm9yKAogICAgICAgIG1lc3NhZ2VzLnN5bmNGYWlsZWQsCiAgICAgICAgZXJyb3IsCiAgICAgICAgbWVzc2FnZXMubmV0d29ya0Vycm9yLAogICAgICApOwogICAgfSwKICB9KTsKICBjb25zdCB7IGlzUGVuZGluZzogaXNTYXZpbmdEZWZhdWx0Um91dGUsIHJ1bjogcnVuU2F2ZURlZmF1bHRSb3V0ZSB9ID0KICAgIHVzZUFzeW5jQWN0aW9uKHsKICAgICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgICAgc2hvd1JldmVyc2VQcm94eUFjdGlvbkVycm9yKAogICAgICAgICAgbWVzc2FnZXMuZGVmYXVsdFJvdXRlVXBkYXRlRmFpbGVkLAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICBtZXNzYWdlcy51bmtub3duRXJyb3IsCiAgICAgICAgKTsKICAgICAgfSwKICAgIH0pOwoKICBjb25zdCB7CiAgICBvcGVuOiBpc0RlZmF1bHRSb3V0ZUNvbmZpcm1PcGVuLAogICAgcGVuZGluZ1BhdGg6IHBlbmRpbmdEZWZhdWx0Um91dGVQYXRoLAogICAgc2hvd0RlZmF1bHRSb3V0ZUZub3NIaW50LAogICAgZGlhbG9nVGl0bGU6IGRlZmF1bHRSb3V0ZURpYWxvZ1RpdGxlLAogICAgZGlhbG9nRGVzY3JpcHRpb246IGRlZmF1bHRSb3V0ZURpYWxvZ0Rlc2NyaXB0aW9uLAogICAgcXVldWU6IHF1ZXVlRGVmYXVsdFJvdXRlQWN0aW9uLAogICAgcmVzZXQ6IGNsb3NlRGVmYXVsdFJvdXRlQ29uZmlybSwKICB9ID0gdXNlRGVmYXVsdFJvdXRlQ29uZmlybShERUZBVUxUX1NZU1RFTV9QT1JUKTsKICBjb25zdCBoYW5kbGVEZWZhdWx0Um91dGVDb25maXJtT3BlbkNoYW5nZSA9IChuZXh0T3BlbjogYm9vbGVhbikgPT4gewogICAgaWYgKCFuZXh0T3BlbikgY2xvc2VEZWZhdWx0Um91dGVDb25maXJtKCk7CiAgfTsKCiAgY29uc3QgY3VycmVudERlZmF1bHRSb3V0ZU1hcHBpbmcgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBjdXJyZW50UGF0aCA9IGNvbmZpZ1N0b3JlLmNvbmZpZz8uZGVmYXVsdF9yb3V0ZTsKICAgIGlmICghY3VycmVudFBhdGggfHwgY3VycmVudFBhdGggPT09ICIvX19zZWxlY3RfXyIpIHJldHVybiBudWxsOwogICAgcmV0dXJuIGFsbE1hcHBpbmdzLnZhbHVlLmZpbmQoKHsgcGF0aCB9KSA9PiBwYXRoID09PSBjdXJyZW50UGF0aCkgPz8gbnVsbDsKICB9KTsKICBjb25zdCBjdXJyZW50RGVmYXVsdFJvdXRlUG9ydCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGlmICghY3VycmVudERlZmF1bHRSb3V0ZU1hcHBpbmcudmFsdWUpIHJldHVybiBudWxsOwogICAgcmV0dXJuIGV4dHJhY3RQb3J0RnJvbVRhcmdldChjdXJyZW50RGVmYXVsdFJvdXRlTWFwcGluZy52YWx1ZS50YXJnZXQpOwogIH0pOwogIGNvbnN0IGFwcGx5RGVmYXVsdFJvdXRlID0gYXN5bmMgKHBhdGg6IHN0cmluZykgPT4gewogICAgYXdhaXQgcnVuU2F2ZURlZmF1bHRSb3V0ZSgoKSA9PiBjb25maWdTdG9yZS5zYXZlRGVmYXVsdFJvdXRlKHBhdGgpKTsKICB9OwogIGNvbnN0IHJlcXVlc3RDbGVhckRlZmF1bHRSb3V0ZSA9IChtYXBwaW5nOiBQcm94eU1hcHBpbmcpID0+IHsKICAgIGNvbnN0IHRhcmdldFBvcnQgPSBleHRyYWN0UG9ydEZyb21UYXJnZXQobWFwcGluZy50YXJnZXQpOwogICAgaWYgKG5lZWRzQ2xlYXJEZWZhdWx0Um91dGVDb25maXJtKHRhcmdldFBvcnQsIERFRkFVTFRfU1lTVEVNX1BPUlQpKSB7CiAgICAgIHF1ZXVlRGVmYXVsdFJvdXRlQWN0aW9uKCIvX19zZWxlY3RfXyIsICJjbGVhciIsIHRhcmdldFBvcnQpOwogICAgICByZXR1cm47CiAgICB9CiAgICB2b2lkIGFwcGx5RGVmYXVsdFJvdXRlKCIvX19zZWxlY3RfXyIpOwogIH07CiAgY29uc3QgcmVxdWVzdFNldERlZmF1bHRSb3V0ZSA9IChtYXBwaW5nOiBQcm94eU1hcHBpbmcpID0+IHsKICAgIGlmICgKICAgICAgbmVlZHNTZXREZWZhdWx0Um91dGVDb25maXJtKAogICAgICAgIGN1cnJlbnREZWZhdWx0Um91dGVQb3J0LnZhbHVlLAogICAgICAgIGN1cnJlbnREZWZhdWx0Um91dGVNYXBwaW5nLnZhbHVlPy5wYXRoLAogICAgICAgIG1hcHBpbmcucGF0aCwKICAgICAgICBERUZBVUxUX1NZU1RFTV9QT1JULAogICAgICApCiAgICApIHsKICAgICAgcXVldWVEZWZhdWx0Um91dGVBY3Rpb24oCiAgICAgICAgbWFwcGluZy5wYXRoLAogICAgICAgICJzZXQiLAogICAgICAgIGN1cnJlbnREZWZhdWx0Um91dGVQb3J0LnZhbHVlLAogICAgICApOwogICAgICByZXR1cm47CiAgICB9CiAgICB2b2lkIGFwcGx5RGVmYXVsdFJvdXRlKG1hcHBpbmcucGF0aCk7CiAgfTsKICBjb25zdCBjb25maXJtRGVmYXVsdFJvdXRlQ2hhbmdlID0gYXN5bmMgKCkgPT4gewogICAgaWYgKCFwZW5kaW5nRGVmYXVsdFJvdXRlUGF0aC52YWx1ZSkgcmV0dXJuOwogICAgYXdhaXQgYXBwbHlEZWZhdWx0Um91dGUocGVuZGluZ0RlZmF1bHRSb3V0ZVBhdGgudmFsdWUpOwogICAgY2xvc2VEZWZhdWx0Um91dGVDb25maXJtKCk7CiAgfTsKCiAgY29uc3QgewogICAgc2VhcmNoUXVlcnksCiAgICBjdXJyZW50UGFnZSwKICAgIGxpbWl0LAogICAgcGFyc2VkTGltaXQsCiAgICBmaWx0ZXJlZEl0ZW1zOiBmaWx0ZXJlZE1hcHBpbmdzLAogICAgcGFnZWRJdGVtczogcGFnaW5hdGVkTWFwcGluZ3MsCiAgICBoYW5kbGVQYWdlQ2hhbmdlLAogICAgaGFuZGxlTGltaXRDaGFuZ2UsCiAgfSA9IHVzZUxvY2FsUGFnZWRMaXN0PFByb3h5TWFwcGluZz4oewogICAgaXRlbXM6IGFsbE1hcHBpbmdzLAogICAgbm9ybWFsaXplUXVlcnk6IChxdWVyeSkgPT4gcXVlcnkudG9Mb3dlckNhc2UoKSwKICAgIGZpbHRlcjogKG1hcHBpbmcsIHF1ZXJ5KSA9PgogICAgICBtYXBwaW5nLnBhdGgudG9Mb3dlckNhc2UoKS5pbmNsdWRlcyhxdWVyeSkgfHwKICAgICAgbWFwcGluZy50YXJnZXQudG9Mb3dlckNhc2UoKS5pbmNsdWRlcyhxdWVyeSksCiAgfSk7CiAgY29uc3Qgc2V0U2VhcmNoUXVlcnkgPSAodmFsdWU6IHN0cmluZykgPT4gewogICAgc2VhcmNoUXVlcnkudmFsdWUgPSB2YWx1ZTsKICB9OwoKICBjb25zdCB7IGlzU2F2aW5nLCByZW1vdmVNYXBwaW5nLCByZW1vdmluZ1BhdGgsIHJ1blNhdmVBY3Rpb24sIHNhdmVNYXBwaW5nIH0gPQogICAgdXNlUmV2ZXJzZVByb3h5TWFwcGluZ0FjdGlvbnMoewogICAgICBhbGxNYXBwaW5ncywKICAgICAgY2xvc2VNYXBwaW5nRGlhbG9nLAogICAgICBjdXJyZW50UGFnZSwKICAgICAgZWRpdGluZ09yaWdpbmFsTWFwcGluZywKICAgICAgZm9ybTogbmV3TWFwcGluZywKICAgICAgaXNEZWZhdWx0Um91dGUsCiAgICAgIGlzRWRpdGluZywKICAgICAgaXNWYWxpZCwKICAgICAgbWVzc2FnZXMsCiAgICAgIHBhZ2luYXRlZE1hcHBpbmdzLAogICAgICBzYXZlRGVmYXVsdFJvdXRlOiAocGF0aCkgPT4gY29uZmlnU3RvcmUuc2F2ZURlZmF1bHRSb3V0ZShwYXRoKSwKICAgICAgc2F2ZVByb3h5TWFwcGluZ3M6IChtYXBwaW5ncykgPT4KICAgICAgICBjb25maWdTdG9yZS5zYXZlUHJveHlNYXBwaW5ncyhtYXBwaW5ncyksCiAgICAgIHNlYXJjaFF1ZXJ5LAogICAgfSk7CgogIGNvbnN0IHsKICAgIGRpc2NvdmVyZWREYXRhLAogICAgZGlzbWlzc0Rpc2NvdmVyRGlhbG9nLAogICAgaGFuZGxlRGlzY292ZXJEaWFsb2dPcGVuQ2hhbmdlLAogICAgaXNBbGxTZWxlY3RlZCwKICAgIGlzRGlzY292ZXJEaWFsb2dPcGVuLAogICAgaXNEaXNjb3ZlcmluZywKICAgIGlzRGlzY292ZXJTZWxlY3Rpb25WYWxpZCwKICAgIGlzRGlzY292ZXJTZXR0aW5nc09wZW4sCiAgICBvblRvZ2dsZUFsbERpc2NvdmVyU2VsZWN0LAogICAgb3BlbkRpc2NvdmVyRGlhbG9nLAogICAgcmVzb2x2ZURpc2NvdmVyZWRTZXJ2aWNlSG9zdCwKICAgIHNhdmVEaXNjb3ZlcmVkU2VydmljZXMsCiAgICBzZWxlY3RlZFNlcnZpY2VzLAogICAgc2hvd0Rpc2NvdmVySG9zdENvbHVtbiwKICAgIHN0b3BEaXNjb3ZlclNjYW4sCiAgICB0b2dnbGVEaXNjb3ZlclNldHRpbmdzLAogICAgdHJpZ2dlclNjYW4sCiAgfSA9IHVzZVJldmVyc2VQcm94eURpc2NvdmVyRmxvdyh7CiAgICBhbGxNYXBwaW5ncywKICAgIGN1cnJlbnRIb3N0bmFtZTogd2luZG93LmxvY2F0aW9uLmhvc3RuYW1lLAogICAgY3VycmVudFBhZ2UsCiAgICBkaXNjb3ZlclRhcmdldHNTZXR0aW5nc1JlZiwKICAgIG1lc3NhZ2VzLAogICAgcnVuU2F2ZUFjdGlvbiwKICAgIHNhdmVEZWZhdWx0Um91dGU6IChwYXRoKSA9PiBjb25maWdTdG9yZS5zYXZlRGVmYXVsdFJvdXRlKHBhdGgpLAogICAgc2F2ZVByb3h5TWFwcGluZ3M6IChtYXBwaW5ncykgPT4gY29uZmlnU3RvcmUuc2F2ZVByb3h5TWFwcGluZ3MobWFwcGluZ3MpLAogICAgc2VhcmNoUXVlcnksCiAgICB0cmFuc2xhdGU6IChrZXksIHBhcmFtcykgPT4gKHBhcmFtcyA/IHQoa2V5LCBwYXJhbXMpIDogdChrZXkpKSwKICB9KTsKCiAgY29uc3Qgc2V0RGlzY292ZXJUYXJnZXRzU2V0dGluZ3NSZWYgPSAoaGFuZGxlOiB1bmtub3duKSA9PiB7CiAgICBkaXNjb3ZlclRhcmdldHNTZXR0aW5nc1JlZi52YWx1ZSA9CiAgICAgIGhhbmRsZSBhcyBEaXNjb3ZlclRhcmdldHNTZXR0aW5nc0hhbmRsZSB8IG51bGw7CiAgfTsKICBjb25zdCBzeW5jUm91dGVzID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuU3luY1JvdXRlcygoKSA9PiBDb25maWdBUEkuc3luY1JvdXRlcygpLCB7CiAgICAgIG9uU3VjY2VzczogKHJlc3VsdCkgPT4gewogICAgICAgIHNob3dSZXZlcnNlUHJveHlCb29sZWFuUmVzdWx0VG9hc3QocmVzdWx0LCB7CiAgICAgICAgICBzdWNjZXNzVGV4dDogbWVzc2FnZXMuc3luY1N1Y2Nlc3MocmVzdWx0LmRhdGE/LnN5bmNlZF9ydWxlcyA/PyAwKSwKICAgICAgICAgIGVycm9yVGV4dDogbWVzc2FnZXMuc3luY0ZhaWxlZCwKICAgICAgICAgIHVua25vd25FcnJvclRleHQ6IG1lc3NhZ2VzLnVua25vd25FcnJvciwKICAgICAgICB9KTsKICAgICAgfSwKICAgIH0pOwogIH07CgogIG9uTW91bnRlZCgoKSA9PiB2b2lkIGxvYWRBY2Nlc3NFbnRyeVBvcnQoKSk7CiAgb25Vbm1vdW50ZWQoc3RvcERpc2NvdmVyU2Nhbik7CgogIHJldHVybiByZWFjdGl2ZSh7CiAgICBhY2Nlc3NFbnRyeVBvcnQsCiAgICBjbG9zZU1hcHBpbmdEaWFsb2csCiAgICBjbG9zZURlZmF1bHRSb3V0ZUNvbmZpcm0sCiAgICBjb25maXJtRGVmYXVsdFJvdXRlQ2hhbmdlLAogICAgY3VycmVudFBhZ2UsCiAgICBkZWZhdWx0Um91dGVEaWFsb2dEZXNjcmlwdGlvbiwKICAgIGRlZmF1bHRSb3V0ZURpYWxvZ1RpdGxlLAogICAgZGlzY292ZXJlZERhdGEsCiAgICBkaXNtaXNzRGlzY292ZXJEaWFsb2csCiAgICBmaWx0ZXJlZE1hcHBpbmdzLAogICAgaGFuZGxlRGVmYXVsdFJvdXRlQ29uZmlybU9wZW5DaGFuZ2UsCiAgICBoYW5kbGVEaXNjb3ZlckRpYWxvZ09wZW5DaGFuZ2UsCiAgICBoYW5kbGVMaW1pdENoYW5nZSwKICAgIGhhbmRsZU1hcHBpbmdEaWFsb2dPcGVuQ2hhbmdlLAogICAgaGFuZGxlUGFnZUNoYW5nZSwKICAgIGlzQWxsU2VsZWN0ZWQsCiAgICBpc0RlZmF1bHRSb3V0ZSwKICAgIGlzRGVmYXVsdFJvdXRlQ29uZmlybU9wZW4sCiAgICBpc0Rpc2NvdmVyRGlhbG9nT3BlbiwKICAgIGlzRGlzY292ZXJpbmcsCiAgICBpc0Rpc2NvdmVyU2VsZWN0aW9uVmFsaWQsCiAgICBpc0Rpc2NvdmVyU2V0dGluZ3NPcGVuLAogICAgaXNFZGl0aW5nLAogICAgaXNNYXBwaW5nRGlhbG9nT3BlbiwKICAgIGlzTmV3TWFwcGluZ1dlYlNvY2tldFRhcmdldCwKICAgIGlzU2F2aW5nLAogICAgaXNTYXZpbmdEZWZhdWx0Um91dGUsCiAgICBpc1NjYW5JbnRlbnNpdHlEaWFsb2dPcGVuLAogICAgaXNTeW5jaW5nLAogICAgaXNWYWxpZCwKICAgIGxpbWl0LAogICAgbmV3TWFwcGluZywKICAgIG9uVG9nZ2xlQWxsRGlzY292ZXJTZWxlY3QsCiAgICBvcGVuQWRkRGlhbG9nLAogICAgb3BlbkRpc2NvdmVyRGlhbG9nLAogICAgb3BlbkVkaXREaWFsb2csCiAgICBwYWdpbmF0ZWRNYXBwaW5ncywKICAgIHBhcnNlZExpbWl0LAogICAgcmVtb3ZlTWFwcGluZywKICAgIHJlbW92aW5nUGF0aCwKICAgIHJlcXVlc3RDbGVhckRlZmF1bHRSb3V0ZSwKICAgIHJlcXVlc3RTZXREZWZhdWx0Um91dGUsCiAgICByZXNvbHZlRGlzY292ZXJlZFNlcnZpY2VIb3N0LAogICAgc2F2ZURpc2NvdmVyZWRTZXJ2aWNlcywKICAgIHNhdmVNYXBwaW5nLAogICAgc2VhcmNoUXVlcnksCiAgICBzZWxlY3RlZFNlcnZpY2VzLAogICAgc2V0RGlzY292ZXJUYXJnZXRzU2V0dGluZ3NSZWYsCiAgICBzZXRTZWFyY2hRdWVyeSwKICAgIHNob3dEZWZhdWx0Um91dGVGbm9zSGludCwKICAgIHNob3dEaXNjb3Zlckhvc3RDb2x1bW4sCiAgICBzdG9wRGlzY292ZXJTY2FuLAogICAgc3luY1JvdXRlcywKICAgIHRvZ2dsZURpc2NvdmVyU2V0dGluZ3MsCiAgICB0cmlnZ2VyU2NhbiwKICAgIHVwZGF0ZU1hcHBpbmdEcmFmdCwKICB9KTsKfTsKCmV4cG9ydCB0eXBlIFJldmVyc2VQcm94eVBhZ2VNb2RlbCA9IFJldHVyblR5cGU8dHlwZW9mIHVzZVJldmVyc2VQcm94eVBhZ2U+Owo=
+import { computed, onMounted, onUnmounted, reactive, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { useAccessEntryPort } from "@/composables/useAccessEntryPort";
+import { ConfigAPI } from "@/lib/api/config";
+import { useConfigStore } from "@/store/config";
+import type { ProxyMapping } from "@/types";
+import { useAsyncAction } from "@admin-shared/composables/useAsyncAction";
+import { useDefaultRouteConfirm } from "@admin-shared/composables/useDefaultRouteConfirm";
+import { useLocalPagedList } from "@admin-shared/composables/useLocalPagedList";
+import { useProxyMappingDialogForm } from "@admin-shared/composables/useProxyMappingDialogForm";
+import { needsClearDefaultRouteConfirm, needsSetDefaultRouteConfirm } from "@admin-shared/utils/defaultRouteGuard";
+import { extractPortFromTarget } from "@admin-shared/utils/extractPortFromTarget";
+import { isWebSocketProxyTargetUrl } from "@admin-shared/utils/proxyTargetInput";
+import { DEFAULT_PROXY_MAPPING_FLAGS } from "@admin-shared/utils/proxyMapping";
+import {
+  createReverseProxyMessages,
+  showReverseProxyActionError,
+  showReverseProxyBooleanResultToast,
+} from "@admin-shared/utils/reverseProxyFeedback";
+import { useReverseProxyDiscoverFlow } from "./useReverseProxyDiscoverFlow";
+import { useReverseProxyMappingActions } from "./useReverseProxyMappingActions";
+
+type DiscoverTargetsSettingsHandle = {
+  ensureSaved: () => Promise<string[]> | undefined;
+  loadTargets: () => Promise<void> | undefined;
+};
+
+const DEFAULT_SYSTEM_PORT = 5666;
+
+export const useReverseProxyPage = () => {
+  const { t } = useI18n();
+  const configStore = useConfigStore();
+  const messages = createReverseProxyMessages(t);
+  const discoverTargetsSettingsRef = ref<DiscoverTargetsSettingsHandle | null>(
+    null,
+  );
+  const isScanIntensityDialogOpen = ref(false);
+  const { accessEntryPort, loadAccessEntryPort } = useAccessEntryPort();
+
+  const allMappings = computed(() => configStore.config?.proxy_mappings || []);
+  const isDefaultRoute = (path: string) =>
+    configStore.config?.default_route === path;
+
+  const {
+    open: isMappingDialogOpen,
+    isEditing,
+    editingOriginal: editingOriginalMapping,
+    form: newMapping,
+    isValid,
+    openAdd: openAddDialog,
+    openEdit: openEditDialog,
+    close: closeMappingDialog,
+  } = useProxyMappingDialogForm<ProxyMapping>(DEFAULT_PROXY_MAPPING_FLAGS);
+  const isNewMappingWebSocketTarget = computed(() =>
+    isWebSocketProxyTargetUrl(newMapping.target),
+  );
+  const handleMappingDialogOpenChange = (nextOpen: boolean) => {
+    if (!nextOpen) closeMappingDialog(true);
+  };
+  const updateMappingDraft = (patch: Partial<ProxyMapping>) => {
+    Object.assign(newMapping, patch);
+  };
+
+  const { isPending: isSyncing, run: runSyncRoutes } = useAsyncAction({
+    onError: (error) => {
+      showReverseProxyActionError(
+        messages.syncFailed,
+        error,
+        messages.networkError,
+      );
+    },
+  });
+  const { isPending: isSavingDefaultRoute, run: runSaveDefaultRoute } =
+    useAsyncAction({
+      onError: (error) => {
+        showReverseProxyActionError(
+          messages.defaultRouteUpdateFailed,
+          error,
+          messages.unknownError,
+        );
+      },
+    });
+
+  const {
+    open: isDefaultRouteConfirmOpen,
+    pendingPath: pendingDefaultRoutePath,
+    showDefaultRouteFnosHint,
+    dialogTitle: defaultRouteDialogTitle,
+    dialogDescription: defaultRouteDialogDescription,
+    queue: queueDefaultRouteAction,
+    reset: closeDefaultRouteConfirm,
+  } = useDefaultRouteConfirm(DEFAULT_SYSTEM_PORT);
+  const handleDefaultRouteConfirmOpenChange = (nextOpen: boolean) => {
+    if (!nextOpen) closeDefaultRouteConfirm();
+  };
+
+  const currentDefaultRouteMapping = computed(() => {
+    const currentPath = configStore.config?.default_route;
+    if (!currentPath || currentPath === "/__select__") return null;
+    return allMappings.value.find(({ path }) => path === currentPath) ?? null;
+  });
+  const currentDefaultRoutePort = computed(() => {
+    if (!currentDefaultRouteMapping.value) return null;
+    return extractPortFromTarget(currentDefaultRouteMapping.value.target);
+  });
+  const applyDefaultRoute = async (path: string) => {
+    await runSaveDefaultRoute(() => configStore.saveDefaultRoute(path));
+  };
+  const requestClearDefaultRoute = (mapping: ProxyMapping) => {
+    const targetPort = extractPortFromTarget(mapping.target);
+    if (needsClearDefaultRouteConfirm(targetPort, DEFAULT_SYSTEM_PORT)) {
+      queueDefaultRouteAction("/__select__", "clear", targetPort);
+      return;
+    }
+    void applyDefaultRoute("/__select__");
+  };
+  const requestSetDefaultRoute = (mapping: ProxyMapping) => {
+    if (
+      needsSetDefaultRouteConfirm(
+        currentDefaultRoutePort.value,
+        currentDefaultRouteMapping.value?.path,
+        mapping.path,
+        DEFAULT_SYSTEM_PORT,
+      )
+    ) {
+      queueDefaultRouteAction(
+        mapping.path,
+        "set",
+        currentDefaultRoutePort.value,
+      );
+      return;
+    }
+    void applyDefaultRoute(mapping.path);
+  };
+  const confirmDefaultRouteChange = async () => {
+    if (!pendingDefaultRoutePath.value) return;
+    await applyDefaultRoute(pendingDefaultRoutePath.value);
+    closeDefaultRouteConfirm();
+  };
+
+  const {
+    searchQuery,
+    currentPage,
+    limit,
+    parsedLimit,
+    filteredItems: filteredMappings,
+    pagedItems: paginatedMappings,
+    handlePageChange,
+    handleLimitChange,
+  } = useLocalPagedList<ProxyMapping>({
+    items: allMappings,
+    normalizeQuery: (query) => query.toLowerCase(),
+    filter: (mapping, query) =>
+      mapping.path.toLowerCase().includes(query) ||
+      mapping.target.toLowerCase().includes(query),
+  });
+  const setSearchQuery = (value: string) => {
+    searchQuery.value = value;
+  };
+
+  const { isSaving, removeMapping, removingPath, runSaveAction, saveMapping } =
+    useReverseProxyMappingActions({
+      allMappings,
+      closeMappingDialog,
+      currentPage,
+      editingOriginalMapping,
+      form: newMapping,
+      isDefaultRoute,
+      isEditing,
+      isValid,
+      messages,
+      paginatedMappings,
+      saveDefaultRoute: (path) => configStore.saveDefaultRoute(path),
+      saveProxyMappings: (mappings) =>
+        configStore.saveProxyMappings(mappings),
+      searchQuery,
+    });
+
+  const {
+    discoveredData,
+    dismissDiscoverDialog,
+    handleDiscoverDialogOpenChange,
+    isAllSelected,
+    isDiscoverDialogOpen,
+    isDiscovering,
+    isDiscoverSelectionValid,
+    isDiscoverSettingsOpen,
+    onToggleAllDiscoverSelect,
+    openDiscoverDialog,
+    resolveDiscoveredServiceHost,
+    saveDiscoveredServices,
+    selectedServices,
+    showDiscoverHostColumn,
+    stopDiscoverScan,
+    toggleDiscoverSettings,
+    triggerScan,
+  } = useReverseProxyDiscoverFlow({
+    allMappings,
+    currentHostname: window.location.hostname,
+    currentPage,
+    discoverTargetsSettingsRef,
+    messages,
+    runSaveAction,
+    saveDefaultRoute: (path) => configStore.saveDefaultRoute(path),
+    saveProxyMappings: (mappings) => configStore.saveProxyMappings(mappings),
+    searchQuery,
+    translate: (key, params) => (params ? t(key, params) : t(key)),
+  });
+
+  const setDiscoverTargetsSettingsRef = (handle: unknown) => {
+    discoverTargetsSettingsRef.value =
+      handle as DiscoverTargetsSettingsHandle | null;
+  };
+  const syncRoutes = async () => {
+    await runSyncRoutes(() => ConfigAPI.syncRoutes(), {
+      onSuccess: (result) => {
+        showReverseProxyBooleanResultToast(result, {
+          successText: messages.syncSuccess(result.data?.synced_rules ?? 0),
+          errorText: messages.syncFailed,
+          unknownErrorText: messages.unknownError,
+        });
+      },
+    });
+  };
+
+  onMounted(() => void loadAccessEntryPort());
+  onUnmounted(stopDiscoverScan);
+
+  return reactive({
+    accessEntryPort,
+    closeMappingDialog,
+    closeDefaultRouteConfirm,
+    confirmDefaultRouteChange,
+    currentPage,
+    defaultRouteDialogDescription,
+    defaultRouteDialogTitle,
+    discoveredData,
+    dismissDiscoverDialog,
+    filteredMappings,
+    handleDefaultRouteConfirmOpenChange,
+    handleDiscoverDialogOpenChange,
+    handleLimitChange,
+    handleMappingDialogOpenChange,
+    handlePageChange,
+    isAllSelected,
+    isDefaultRoute,
+    isDefaultRouteConfirmOpen,
+    isDiscoverDialogOpen,
+    isDiscovering,
+    isDiscoverSelectionValid,
+    isDiscoverSettingsOpen,
+    isEditing,
+    isMappingDialogOpen,
+    isNewMappingWebSocketTarget,
+    isSaving,
+    isSavingDefaultRoute,
+    isScanIntensityDialogOpen,
+    isSyncing,
+    isValid,
+    limit,
+    newMapping,
+    onToggleAllDiscoverSelect,
+    openAddDialog,
+    openDiscoverDialog,
+    openEditDialog,
+    paginatedMappings,
+    parsedLimit,
+    removeMapping,
+    removingPath,
+    requestClearDefaultRoute,
+    requestSetDefaultRoute,
+    resolveDiscoveredServiceHost,
+    saveDiscoveredServices,
+    saveMapping,
+    searchQuery,
+    selectedServices,
+    setDiscoverTargetsSettingsRef,
+    setSearchQuery,
+    showDefaultRouteFnosHint,
+    showDiscoverHostColumn,
+    stopDiscoverScan,
+    syncRoutes,
+    toggleDiscoverSettings,
+    triggerScan,
+    updateMappingDraft,
+  });
+};
+
+export type ReverseProxyPageModel = ReturnType<typeof useReverseProxyPage>;

@@ -1,1 +1,44 @@
-ZXhwb3J0IHR5cGUgQ2FwdGNoYVByb3ZpZGVyID0gJ3BvdycgfCAndHVybnN0aWxlJzsKCmV4cG9ydCB0eXBlIENhcHRjaGFXaWRnZXRNb2RlID0gJ25vcm1hbCc7CgpleHBvcnQgdHlwZSBUdXJuc3RpbGVDYXB0Y2hhQ29uZmlnID0gewogICAgc2l0ZV9rZXk6IHN0cmluZzsKICAgIHNlY3JldF9rZXk6IHN0cmluZzsKfTsKCmV4cG9ydCB0eXBlIFBvd0NhcHRjaGFDb25maWcgPSB7CiAgICBiYXNlX21heF9udW1iZXI6IG51bWJlcjsKICAgIHVuY29tbW9uX2xvY2F0aW9uOiB7CiAgICAgICAgZW5hYmxlZDogYm9vbGVhbjsKICAgICAgICBtYXhfbnVtYmVyOiBudW1iZXI7CiAgICB9Owp9OwoKZXhwb3J0IHR5cGUgQ2FwdGNoYVNldHRpbmdzID0gewogICAgcHJvdmlkZXI6IENhcHRjaGFQcm92aWRlcjsKICAgIHdpZGdldF9tb2RlOiBDYXB0Y2hhV2lkZ2V0TW9kZTsKICAgIHBvdzogUG93Q2FwdGNoYUNvbmZpZzsKICAgIHR1cm5zdGlsZTogVHVybnN0aWxlQ2FwdGNoYUNvbmZpZzsKfTsKCmV4cG9ydCB0eXBlIENhcHRjaGFQdWJsaWNTZXR0aW5ncyA9IHsKICAgIHByb3ZpZGVyOiBDYXB0Y2hhUHJvdmlkZXI7CiAgICB3aWRnZXRfbW9kZTogQ2FwdGNoYVdpZGdldE1vZGU7CiAgICBhdmFpbGFibGU6IGJvb2xlYW47CiAgICB1bmF2YWlsYWJsZV9yZWFzb246IHN0cmluZyB8IG51bGw7CiAgICBwb3c6IFJlY29yZDxzdHJpbmcsIG5ldmVyPjsKICAgIHR1cm5zdGlsZTogewogICAgICAgIHNpdGVfa2V5OiBzdHJpbmc7CiAgICB9Owp9OwoKZXhwb3J0IHR5cGUgQ2FwdGNoYVN1Ym1pc3Npb24gPQogICAgfCB7CiAgICAgICAgcHJvdmlkZXI6ICdwb3cnOwogICAgICAgIHByb29mOiBzdHJpbmc7CiAgICB9CiAgICB8IHsKICAgICAgICBwcm92aWRlcjogJ3R1cm5zdGlsZSc7CiAgICAgICAgdG9rZW46IHN0cmluZzsKICAgIH07Cg==
+export type CaptchaProvider = 'pow' | 'turnstile';
+
+export type CaptchaWidgetMode = 'normal';
+
+export type TurnstileCaptchaConfig = {
+    site_key: string;
+    secret_key: string;
+};
+
+export type PowCaptchaConfig = {
+    base_max_number: number;
+    uncommon_location: {
+        enabled: boolean;
+        max_number: number;
+    };
+};
+
+export type CaptchaSettings = {
+    provider: CaptchaProvider;
+    widget_mode: CaptchaWidgetMode;
+    pow: PowCaptchaConfig;
+    turnstile: TurnstileCaptchaConfig;
+};
+
+export type CaptchaPublicSettings = {
+    provider: CaptchaProvider;
+    widget_mode: CaptchaWidgetMode;
+    available: boolean;
+    unavailable_reason: string | null;
+    pow: Record<string, never>;
+    turnstile: {
+        site_key: string;
+    };
+};
+
+export type CaptchaSubmission =
+    | {
+        provider: 'pow';
+        proof: string;
+    }
+    | {
+        provider: 'turnstile';
+        token: string;
+    };

@@ -1,1 +1,269 @@
-dXNlIHN1cGVyOjoqOwoKaW1wbCBTdG9yZSB7CiAgICBwdWIoY3JhdGUpIGZuIGRpYWdub3N0aWNzKCZzZWxmKSAtPiBBcmM8Y3JhdGU6OnJ1bnRpbWVfaGVhbHRoOjpvcGVyYXRpb25zOjpPcGVyYXRpb25SZWNvcmRlcj4gewogICAgICAgIHNlbGYubWFuYWdlci5kaWFnbm9zdGljcygpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIGNvbm5lY3Qoc3FsaXRlX3BhdGg6IGltcGwgQXNSZWY8UGF0aD4pIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PFNlbGY+IHsKICAgICAgICBsZXQgcGF0aCA9IHNxbGl0ZV9wYXRoLmFzX3JlZigpLnRvX3BhdGhfYnVmKCk7CiAgICAgICAgbGV0IG1hbmFnZXIgPSBDb25uZWN0aW9uTWFuYWdlcjo6b3BlbigmcGF0aCkuYXdhaXQ/OwogICAgICAgIGxldCB0eXBlZF9jb25maWcgPSBUeXBlZENvbmZpZ1JlcG9zaXRvcnk6Om5ldyhtYW5hZ2VyLmNsb25lKCkpOwogICAgICAgIHR5cGVkX2NvbmZpZy5pbml0aWFsaXplKCkuYXdhaXQ/OwogICAgICAgIGxldCB0eXBlZF9kb2NrZXJfYWRtaW4gPSBUeXBlZERvY2tlckFkbWluUmVwb3NpdG9yeTo6bmV3KG1hbmFnZXIuY2xvbmUoKSk7CiAgICAgICAgdHlwZWRfZG9ja2VyX2FkbWluLmluaXRpYWxpemUoKS5hd2FpdD87CiAgICAgICAgbGV0IHR5cGVkX2V2ZW50X2RlZHVwZSA9IFR5cGVkRXZlbnREZWR1cGVSZXBvc2l0b3J5OjpuZXcobWFuYWdlci5jbG9uZSgpKTsKICAgICAgICB0eXBlZF9ldmVudF9kZWR1cGUuaW5pdGlhbGl6ZSgpLmF3YWl0PzsKICAgICAgICBsZXQgdHlwZWRfZXZlbnRzID0gVHlwZWRFdmVudFJlcG9zaXRvcnk6Om5ldyhtYW5hZ2VyLmNsb25lKCkpOwogICAgICAgIHR5cGVkX2V2ZW50cy5pbml0aWFsaXplKCkuYXdhaXQ/OwogICAgICAgIGxldCB0eXBlZF9mbm9zX3NoYXJlID0gVHlwZWRGbm9zU2hhcmVSZXBvc2l0b3J5OjpuZXcobWFuYWdlci5jbG9uZSgpKTsKICAgICAgICB0eXBlZF9mbm9zX3NoYXJlLmluaXRpYWxpemUoKS5hd2FpdD87CiAgICAgICAgbGV0IHR5cGVkX2htYWNfbm9uY2UgPSBUeXBlZEhtYWNOb25jZVJlcG9zaXRvcnk6Om5ldyhtYW5hZ2VyLmNsb25lKCkpOwogICAgICAgIHR5cGVkX2htYWNfbm9uY2UuaW5pdGlhbGl6ZSgpLmF3YWl0PzsKICAgICAgICBsZXQgdHlwZWRfaWRlbnRpdHlfcnVudGltZSA9IFR5cGVkSWRlbnRpdHlSdW50aW1lUmVwb3NpdG9yeTo6bmV3KG1hbmFnZXIuY2xvbmUoKSk7CiAgICAgICAgdHlwZWRfaWRlbnRpdHlfcnVudGltZS5pbml0aWFsaXplKCkuYXdhaXQ/OwogICAgICAgIGxldCB0eXBlZF9sb2dpbl9iYWNrb2ZmID0gVHlwZWRMb2dpbkJhY2tvZmZSZXBvc2l0b3J5OjpuZXcobWFuYWdlci5jbG9uZSgpKTsKICAgICAgICB0eXBlZF9sb2dpbl9iYWNrb2ZmLmluaXRpYWxpemUoKS5hd2FpdD87CiAgICAgICAgbGV0IHR5cGVkX21vYmlsaXR5ID0gVHlwZWRNb2JpbGl0eVJlcG9zaXRvcnk6Om5ldyhtYW5hZ2VyLmNsb25lKCkpOwogICAgICAgIHR5cGVkX21vYmlsaXR5LmluaXRpYWxpemUoKS5hd2FpdD87CiAgICAgICAgbGV0IHR5cGVkX25vdGlmaWNhdGlvbl9ydW50aW1lID0gVHlwZWROb3RpZmljYXRpb25SdW50aW1lUmVwb3NpdG9yeTo6bmV3KG1hbmFnZXIuY2xvbmUoKSk7CiAgICAgICAgdHlwZWRfbm90aWZpY2F0aW9uX3J1bnRpbWUuaW5pdGlhbGl6ZSgpLmF3YWl0PzsKICAgICAgICBsZXQgdHlwZWRfbm90aWZpY2F0aW9ucyA9IFR5cGVkTm90aWZpY2F0aW9uUmVwb3NpdG9yeTo6bmV3KG1hbmFnZXIuY2xvbmUoKSk7CiAgICAgICAgdHlwZWRfbm90aWZpY2F0aW9ucy5pbml0aWFsaXplKCkuYXdhaXQ/OwogICAgICAgIGxldCB0eXBlZF9wYXNza2V5X3J1bnRpbWUgPSBUeXBlZFBhc3NrZXlSdW50aW1lUmVwb3NpdG9yeTo6bmV3KG1hbmFnZXIuY2xvbmUoKSk7CiAgICAgICAgdHlwZWRfcGFzc2tleV9ydW50aW1lLmluaXRpYWxpemUoKS5hd2FpdD87CiAgICAgICAgbGV0IHR5cGVkX3N1YmRvbWFpbl9ncmFudCA9IFR5cGVkU3ViZG9tYWluR3JhbnRSZXBvc2l0b3J5OjpuZXcobWFuYWdlci5jbG9uZSgpKTsKICAgICAgICB0eXBlZF9zdWJkb21haW5fZ3JhbnQuaW5pdGlhbGl6ZSgpLmF3YWl0PzsKICAgICAgICBsZXQgdHlwZWRfc3ViZG9tYWluX3JhdGVfbGltaXQgPSBUeXBlZFN1YmRvbWFpblJhdGVMaW1pdFJlcG9zaXRvcnk6Om5ldyhtYW5hZ2VyLmNsb25lKCkpOwogICAgICAgIHR5cGVkX3N1YmRvbWFpbl9yYXRlX2xpbWl0LmluaXRpYWxpemUoKS5hd2FpdD87CiAgICAgICAgbGV0IHR5cGVkX3doaXRlbGlzdCA9IFR5cGVkV2hpdGVsaXN0UmVwb3NpdG9yeTo6bmV3KG1hbmFnZXIuY2xvbmUoKSk7CiAgICAgICAgdHlwZWRfd2hpdGVsaXN0LmluaXRpYWxpemUoKS5hd2FpdD87CiAgICAgICAgbGV0IHR5cGVkX3doaXRlbGlzdF9ydW50aW1lID0gVHlwZWRXaGl0ZWxpc3RSdW50aW1lUmVwb3NpdG9yeTo6bmV3KG1hbmFnZXIuY2xvbmUoKSk7CiAgICAgICAgdHlwZWRfd2hpdGVsaXN0X3J1bnRpbWUuaW5pdGlhbGl6ZSgpLmF3YWl0PzsKICAgICAgICBsZXQgdHlwZWRfd29sX2Nvb2xkb3duID0gVHlwZWRXb2xDb29sZG93blJlcG9zaXRvcnk6Om5ldyhtYW5hZ2VyLmNsb25lKCkpOwogICAgICAgIHR5cGVkX3dvbF9jb29sZG93bi5pbml0aWFsaXplKCkuYXdhaXQ/OwogICAgICAgIGxldCBzdG9yZSA9IFNlbGYgewogICAgICAgICAgICBtYW5hZ2VyLAogICAgICAgICAgICBwYXRoLAogICAgICAgICAgICBjb25maWdfc25hcHNob3Q6IEFyYzo6bmV3KEFyY1N3YXA6OmZyb21fcG9pbnRlZShkZWZhdWx0X2NvbmZpZygpKSksCiAgICAgICAgICAgIGNvbmZpZ19zbmFwc2hvdF9yZXZpc2lvbjogQXJjOjpuZXcoU3RkTXV0ZXg6Om5ldygwKSksCiAgICAgICAgICAgIGNvbmZpZ19zbmFwc2hvdF91cGRhdGVzOiB0b2tpbzo6c3luYzo6d2F0Y2g6OmNoYW5uZWwoMCkuMCwKICAgICAgICAgICAgYXV0aF9hY2NvdW50X211dGF0aW9uX2xvY2s6IEFyYzo6bmV3KHRva2lvOjpzeW5jOjpNdXRleDo6bmV3KCgpKSksCiAgICAgICAgICAgIHR5cGVkOiBUeXBlZFJlcG9zaXRvcmllcyB7CiAgICAgICAgICAgICAgICB0eXBlZF9jb25maWcsCiAgICAgICAgICAgICAgICB0eXBlZF9kb2NrZXJfYWRtaW4sCiAgICAgICAgICAgICAgICB0eXBlZF9ldmVudF9kZWR1cGUsCiAgICAgICAgICAgICAgICB0eXBlZF9ldmVudHMsCiAgICAgICAgICAgICAgICB0eXBlZF9mbm9zX3NoYXJlLAogICAgICAgICAgICAgICAgdHlwZWRfaG1hY19ub25jZSwKICAgICAgICAgICAgICAgIHR5cGVkX2lkZW50aXR5X3J1bnRpbWUsCiAgICAgICAgICAgICAgICB0eXBlZF9sb2dpbl9iYWNrb2ZmLAogICAgICAgICAgICAgICAgdHlwZWRfbW9iaWxpdHksCiAgICAgICAgICAgICAgICB0eXBlZF9ub3RpZmljYXRpb25fcnVudGltZSwKICAgICAgICAgICAgICAgIHR5cGVkX25vdGlmaWNhdGlvbnMsCiAgICAgICAgICAgICAgICB0eXBlZF9wYXNza2V5X3J1bnRpbWUsCiAgICAgICAgICAgICAgICB0eXBlZF9zdWJkb21haW5fZ3JhbnQsCiAgICAgICAgICAgICAgICB0eXBlZF9zdWJkb21haW5fcmF0ZV9saW1pdCwKICAgICAgICAgICAgICAgIHR5cGVkX3doaXRlbGlzdCwKICAgICAgICAgICAgICAgIHR5cGVkX3doaXRlbGlzdF9ydW50aW1lLAogICAgICAgICAgICAgICAgdHlwZWRfd29sX2Nvb2xkb3duLAogICAgICAgICAgICB9LAogICAgICAgICAgICB0eXBlZF9jb25maWdfcHJpbWFyeV9ib290c3RyYXBwZWQ6IEFyYzo6bmV3KEF0b21pY0Jvb2w6Om5ldyhmYWxzZSkpLAogICAgICAgICAgICB0eXBlZF9jb25maWdfc2hhZG93OiBTaGFkb3dUcmFja2VyOjpuZXcoInR5cGVkX3ByaW1hcnkiKSwKICAgICAgICAgICAgdHlwZWRfZG9ja2VyX2FkbWluX3NoYWRvdzogU2hhZG93VHJhY2tlcjo6bmV3KCJsZWdhY3lfcHJpbWFyeV9zaGFkb3ciKSwKICAgICAgICAgICAgdHlwZWRfZXZlbnRfZGVkdXBlX3NoYWRvdzogU2hhZG93VHJhY2tlcjo6bmV3KCJsZWdhY3lfcHJpbWFyeV9zaGFkb3ciKSwKICAgICAgICAgICAgdHlwZWRfZXZlbnRzX3NoYWRvdzogU2hhZG93VHJhY2tlcjo6bmV3KCJ0eXBlZF9wcmltYXJ5IiksCiAgICAgICAgICAgIHR5cGVkX2Zub3Nfc2hhcmVfc2hhZG93OiBTaGFkb3dUcmFja2VyOjpuZXcoImxlZ2FjeV9wcmltYXJ5X3NoYWRvdyIpLAogICAgICAgICAgICB0eXBlZF9obWFjX25vbmNlX3NoYWRvdzogU2hhZG93VHJhY2tlcjo6bmV3KCJsZWdhY3lfcHJpbWFyeV9zaGFkb3ciKSwKICAgICAgICAgICAgdHlwZWRfaWRlbnRpdHlfcnVudGltZV9zaGFkb3c6IFNoYWRvd1RyYWNrZXI6Om5ldygibGVnYWN5X3ByaW1hcnlfc2hhZG93IiksCiAgICAgICAgICAgIHR5cGVkX2xvZ2luX2JhY2tvZmZfc2hhZG93OiBTaGFkb3dUcmFja2VyOjpuZXcoImxlZ2FjeV9wcmltYXJ5X3NoYWRvdyIpLAogICAgICAgICAgICB0eXBlZF9tb2JpbGl0eV9zaGFkb3c6IFNoYWRvd1RyYWNrZXI6Om5ldygiZHVhbF93cml0ZV9zaGFkb3ciKSwKICAgICAgICAgICAgdHlwZWRfbm90aWZpY2F0aW9uX3J1bnRpbWVfc2hhZG93OiBTaGFkb3dUcmFja2VyOjpuZXcoImxlZ2FjeV9wcmltYXJ5X3NoYWRvdyIpLAogICAgICAgICAgICB0eXBlZF9wYXNza2V5X3J1bnRpbWVfc2hhZG93OiBTaGFkb3dUcmFja2VyOjpuZXcoImxlZ2FjeV9wcmltYXJ5X3NoYWRvdyIpLAogICAgICAgICAgICB0eXBlZF9zdWJkb21haW5fZ3JhbnRfc2hhZG93OiBTaGFkb3dUcmFja2VyOjpuZXcoImxlZ2FjeV9wcmltYXJ5X3NoYWRvdyIpLAogICAgICAgICAgICB0eXBlZF9zdWJkb21haW5fcmF0ZV9saW1pdF9zaGFkb3c6IFNoYWRvd1RyYWNrZXI6Om5ldygibGVnYWN5X3ByaW1hcnlfc2hhZG93IiksCiAgICAgICAgICAgIHR5cGVkX3doaXRlbGlzdF9zaGFkb3c6IFNoYWRvd1RyYWNrZXI6Om5ldygidHlwZWRfcHJpbWFyeSIpLAogICAgICAgICAgICB0eXBlZF93aGl0ZWxpc3RfcnVudGltZV9zaGFkb3c6IFNoYWRvd1RyYWNrZXI6Om5ldygibGVnYWN5X3ByaW1hcnlfc2hhZG93IiksCiAgICAgICAgICAgIHR5cGVkX3dvbF9jb29sZG93bl9zaGFkb3c6IFNoYWRvd1RyYWNrZXI6Om5ldygibGVnYWN5X3ByaW1hcnlfc2hhZG93IiksCiAgICAgICAgfTsKICAgICAgICBzdG9yZS50eXBlZC50eXBlZF9kb2NrZXJfYWRtaW4ucmVidWlsZF9mcm9tX2xlZ2FjeSgpLmF3YWl0PzsKICAgICAgICBzdG9yZS50eXBlZC50eXBlZF9ldmVudF9kZWR1cGUucmVidWlsZF9mcm9tX2xlZ2FjeSgpLmF3YWl0PzsKICAgICAgICBzdG9yZS5yZWJ1aWxkX3R5cGVkX3N5c3RlbV9ldmVudHNfZnJvbV9sZWdhY3koKS5hd2FpdD87CiAgICAgICAgc3RvcmUudHlwZWQudHlwZWRfZm5vc19zaGFyZS5yZWJ1aWxkX2Zyb21fbGVnYWN5KCkuYXdhaXQ/OwogICAgICAgIHN0b3JlLnR5cGVkLnR5cGVkX2htYWNfbm9uY2UucmVidWlsZF9mcm9tX2xlZ2FjeSgpLmF3YWl0PzsKICAgICAgICBzdG9yZQogICAgICAgICAgICAudHlwZWQKICAgICAgICAgICAgLnR5cGVkX2lkZW50aXR5X3J1bnRpbWUKICAgICAgICAgICAgLnJlYnVpbGRfZnJvbV9sZWdhY3koKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfbG9naW5fYmFja29mZgogICAgICAgICAgICAucmVidWlsZF9mcm9tX2xlZ2FjeSgpCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgc3RvcmUudHlwZWQudHlwZWRfbW9iaWxpdHkucmVidWlsZF9mcm9tX2xlZ2FjeSgpLmF3YWl0PzsKICAgICAgICBzdG9yZQogICAgICAgICAgICAudHlwZWQKICAgICAgICAgICAgLnR5cGVkX25vdGlmaWNhdGlvbl9ydW50aW1lCiAgICAgICAgICAgIC5yZWJ1aWxkX2Zyb21fbGVnYWN5KCkKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBzdG9yZQogICAgICAgICAgICAucmVidWlsZF90eXBlZF9ub3RpZmljYXRpb25fZG9jdW1lbnRzX2Zyb21fbGVnYWN5KCkKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBzdG9yZQogICAgICAgICAgICAucmVidWlsZF90eXBlZF9ub3RpZmljYXRpb25faGlzdG9yeV9mcm9tX2xlZ2FjeSgpCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9wYXNza2V5X3J1bnRpbWUKICAgICAgICAgICAgLnJlYnVpbGRfZnJvbV9sZWdhY3koKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfc3ViZG9tYWluX2dyYW50CiAgICAgICAgICAgIC5yZWJ1aWxkX2Zyb21fbGVnYWN5KCkKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBzdG9yZQogICAgICAgICAgICAudHlwZWQKICAgICAgICAgICAgLnR5cGVkX3N1YmRvbWFpbl9yYXRlX2xpbWl0CiAgICAgICAgICAgIC5yZWJ1aWxkX2Zyb21fbGVnYWN5KCkKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBzdG9yZS5yZWJ1aWxkX3R5cGVkX3doaXRlbGlzdF9mcm9tX2xlZ2FjeSgpLmF3YWl0PzsKICAgICAgICBzdG9yZQogICAgICAgICAgICAudHlwZWQKICAgICAgICAgICAgLnR5cGVkX3doaXRlbGlzdF9ydW50aW1lCiAgICAgICAgICAgIC5yZWJ1aWxkX2Zyb21fbGVnYWN5KCkKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBzdG9yZS50eXBlZC50eXBlZF93b2xfY29vbGRvd24ucmVidWlsZF9mcm9tX2xlZ2FjeSgpLmF3YWl0PzsKICAgICAgICBzdG9yZS5yZWZyZXNoX2NvbmZpZ19zbmFwc2hvdCgpLmF3YWl0PzsKICAgICAgICBPayhzdG9yZSkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGFzeW5jIGZuIHByZXBhcmVfZm9yX3N5c3RlbV91cGRhdGUoCiAgICAgICAgJnNlbGYsCiAgICAgICAgYmFja3VwX3BhdGg6IGltcGwgQXNSZWY8UGF0aD4sCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5wcmVwYXJlX2Zvcl9zeXN0ZW1fdXBkYXRlKGJhY2t1cF9wYXRoLmFzX3JlZigpKQogICAgICAgICAgICAuYXdhaXQKICAgIH0KCiAgICBwdWIoY3JhdGUpIGFzeW5jIGZuIGNoZWNrcG9pbnRfZm9yX3NodXRkb3duKCZzZWxmKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIHNlbGYubWFuYWdlci5jaGVja3BvaW50X2Zvcl9zaHV0ZG93bigpLmF3YWl0CiAgICB9CgogICAgcHViKGNyYXRlKSBhc3luYyBmbiBjYW5jZWxfc3lzdGVtX3VwZGF0ZSgmc2VsZikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBzZWxmLm1hbmFnZXIuY2FuY2VsX3N5c3RlbV91cGRhdGUoKS5hd2FpdAogICAgfQoKICAgIHB1YihzdXBlcikgZm4gY29ubigmc2VsZikgLT4gQ29ubmVjdGlvbk1hbmFnZXIgewogICAgICAgIHNlbGYubWFuYWdlci5jbG9uZSgpCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiBwcmltYXJ5X3F1ZXVlX3N0YXR1cygmc2VsZikgLT4gcmVkaXM6OlByaW1hcnlRdWV1ZVN0YXR1cyB7CiAgICAgICAgc2VsZi5tYW5hZ2VyLnByaW1hcnlfcXVldWVfc3RhdHVzKCkKICAgIH0KCiAgICAjW2FsbG93KGRlYWRfY29kZSldCiAgICBwdWIgZm4gcGF0aCgmc2VsZikgLT4gJlBhdGggewogICAgICAgICZzZWxmLnBhdGgKICAgIH0KCiAgICBwdWIgZm4gY29uZmlnX3NuYXBzaG90KCZzZWxmKSAtPiBBcmM8VmFsdWU+IHsKICAgICAgICBzZWxmLmNvbmZpZ19zbmFwc2hvdC5sb2FkX2Z1bGwoKQogICAgfQoKICAgIC8vLyBTaWduYWxzIHB1YmxpY2F0aW9uLCBub3QgYXR0ZW1wdGVkIHdyaXRlcy4gU3Vic2NyaWJlcnMgcmVhZCB0aGUgbGF0ZXN0CiAgICAvLy8gc25hcHNob3Q7IHRoZSBjaGFubmVsIHJldGFpbnMgb25seSBhIHJldmlzaW9uLCBuZXZlciBvbGQgY29uZmlnIHZhbHVlcy4KICAgIHB1YihjcmF0ZSkgZm4gc3Vic2NyaWJlX2NvbmZpZ19zbmFwc2hvdCgmc2VsZikgLT4gdG9raW86OnN5bmM6OndhdGNoOjpSZWNlaXZlcjx1NjQ+IHsKICAgICAgICBzZWxmLmNvbmZpZ19zbmFwc2hvdF91cGRhdGVzLnN1YnNjcmliZSgpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIHJlZnJlc2hfY29uZmlnX3NuYXBzaG90KCZzZWxmKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGxldCAoY29uZmlnLCByZXZpc2lvbikgPSBzZWxmLnJlY29uY2lsZV90eXBlZF9jb25maWdfZnJvbV9sZWdhY3koKS5hd2FpdD87CiAgICAgICAgc2VsZi5wdWJsaXNoX2NvbmZpZ19zbmFwc2hvdChjb25maWcsIHJldmlzaW9uKTsKICAgICAgICBPaygoKSkKICAgIH0KCiAgICBwdWIoc3VwZXIpIGZuIHB1Ymxpc2hfY29uZmlnX3NuYXBzaG90KCZzZWxmLCBjb25maWc6IFZhbHVlLCByZXZpc2lvbjogdTY0KSB7CiAgICAgICAgbGV0IG11dCBwdWJsaXNoZWRfcmV2aXNpb24gPSBzZWxmCiAgICAgICAgICAgIC5jb25maWdfc25hcHNob3RfcmV2aXNpb24KICAgICAgICAgICAgLmxvY2soKQogICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofGVycm9yfCBlcnJvci5pbnRvX2lubmVyKCkpOwogICAgICAgIGlmIHJldmlzaW9uIDw9ICpwdWJsaXNoZWRfcmV2aXNpb24gewogICAgICAgICAgICB0cmFjaW5nOjpkZWJ1ZyEoCiAgICAgICAgICAgICAgICByZXZpc2lvbiwKICAgICAgICAgICAgICAgIGN1cnJlbnRfcmV2aXNpb24gPSAqcHVibGlzaGVkX3JldmlzaW9uLAogICAgICAgICAgICAgICAgImlnbm9yZWQgc3RhbGUgY29uZmlnIHNuYXBzaG90IHB1YmxpY2F0aW9uIgogICAgICAgICAgICApOwogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIHNlbGYuY29uZmlnX3NuYXBzaG90LnN0b3JlKEFyYzo6bmV3KGNvbmZpZykpOwogICAgICAgICpwdWJsaXNoZWRfcmV2aXNpb24gPSByZXZpc2lvbjsKICAgICAgICBzZWxmLnR5cGVkX2NvbmZpZ19zaGFkb3cuc2V0X2hlYWx0aHkoKTsKICAgICAgICAvLyBQdWJsaXNoIHVuZGVyIHRoZSBzYW1lIHJldmlzaW9uIGxvY2sgc28gbm90aWZpY2F0aW9ucyBjYW5ub3QgYXJyaXZlCiAgICAgICAgLy8gb3V0IG9mIG9yZGVyLiBzZW5kX3JlcGxhY2UgYWxzbyByZXRhaW5zIHRoZSByZXZpc2lvbiB3aXRob3V0IHJlYWRlcnMuCiAgICAgICAgc2VsZi5jb25maWdfc25hcHNob3RfdXBkYXRlcy5zZW5kX3JlcGxhY2UocmV2aXNpb24pOwogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gdHlwZWRfY29uZmlnX3NoYWRvd19zdGF0dXMoJnNlbGYpIC0+IFR5cGVkQ29uZmlnU2hhZG93U3RhdHVzIHsKICAgICAgICBzZWxmLnR5cGVkX2NvbmZpZ19zaGFkb3cuc3RhdHVzKCkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIHR5cGVkX21vYmlsaXR5X3NoYWRvd19zdGF0dXMoJnNlbGYpIC0+IFR5cGVkQ29uZmlnU2hhZG93U3RhdHVzIHsKICAgICAgICBzZWxmLnR5cGVkX21vYmlsaXR5X3NoYWRvdy5zdGF0dXMoKQogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gdHlwZWRfbG9naW5fYmFja29mZl9zaGFkb3dfc3RhdHVzKCZzZWxmKSAtPiBUeXBlZENvbmZpZ1NoYWRvd1N0YXR1cyB7CiAgICAgICAgc2VsZi50eXBlZF9sb2dpbl9iYWNrb2ZmX3NoYWRvdy5zdGF0dXMoKQogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gdHlwZWRfZG9ja2VyX2FkbWluX3NoYWRvd19zdGF0dXMoJnNlbGYpIC0+IFR5cGVkQ29uZmlnU2hhZG93U3RhdHVzIHsKICAgICAgICBzZWxmLnR5cGVkX2RvY2tlcl9hZG1pbl9zaGFkb3cuc3RhdHVzKCkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIHR5cGVkX2V2ZW50X2RlZHVwZV9zaGFkb3dfc3RhdHVzKCZzZWxmKSAtPiBUeXBlZENvbmZpZ1NoYWRvd1N0YXR1cyB7CiAgICAgICAgc2VsZi50eXBlZF9ldmVudF9kZWR1cGVfc2hhZG93LnN0YXR1cygpCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiB0eXBlZF9pZGVudGl0eV9ydW50aW1lX3NoYWRvd19zdGF0dXMoJnNlbGYpIC0+IFR5cGVkQ29uZmlnU2hhZG93U3RhdHVzIHsKICAgICAgICBzZWxmLnR5cGVkX2lkZW50aXR5X3J1bnRpbWVfc2hhZG93LnN0YXR1cygpCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiB0eXBlZF9mbm9zX3NoYXJlX3NoYWRvd19zdGF0dXMoJnNlbGYpIC0+IFR5cGVkQ29uZmlnU2hhZG93U3RhdHVzIHsKICAgICAgICBzZWxmLnR5cGVkX2Zub3Nfc2hhcmVfc2hhZG93LnN0YXR1cygpCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiB0eXBlZF9obWFjX25vbmNlX3NoYWRvd19zdGF0dXMoJnNlbGYpIC0+IFR5cGVkQ29uZmlnU2hhZG93U3RhdHVzIHsKICAgICAgICBzZWxmLnR5cGVkX2htYWNfbm9uY2Vfc2hhZG93LnN0YXR1cygpCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiB0eXBlZF9zdWJkb21haW5fcmF0ZV9saW1pdF9zaGFkb3dfc3RhdHVzKCZzZWxmKSAtPiBUeXBlZENvbmZpZ1NoYWRvd1N0YXR1cyB7CiAgICAgICAgc2VsZi50eXBlZF9zdWJkb21haW5fcmF0ZV9saW1pdF9zaGFkb3cuc3RhdHVzKCkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIHR5cGVkX3N1YmRvbWFpbl9ncmFudF9zaGFkb3dfc3RhdHVzKCZzZWxmKSAtPiBUeXBlZENvbmZpZ1NoYWRvd1N0YXR1cyB7CiAgICAgICAgc2VsZi50eXBlZF9zdWJkb21haW5fZ3JhbnRfc2hhZG93LnN0YXR1cygpCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiB0eXBlZF93b2xfY29vbGRvd25fc2hhZG93X3N0YXR1cygmc2VsZikgLT4gVHlwZWRDb25maWdTaGFkb3dTdGF0dXMgewogICAgICAgIHNlbGYudHlwZWRfd29sX2Nvb2xkb3duX3NoYWRvdy5zdGF0dXMoKQogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gdHlwZWRfd2hpdGVsaXN0X3J1bnRpbWVfc2hhZG93X3N0YXR1cygmc2VsZikgLT4gVHlwZWRDb25maWdTaGFkb3dTdGF0dXMgewogICAgICAgIHNlbGYudHlwZWRfd2hpdGVsaXN0X3J1bnRpbWVfc2hhZG93LnN0YXR1cygpCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiB0eXBlZF9ub3RpZmljYXRpb25fcnVudGltZV9zaGFkb3dfc3RhdHVzKCZzZWxmKSAtPiBUeXBlZENvbmZpZ1NoYWRvd1N0YXR1cyB7CiAgICAgICAgc2VsZi50eXBlZF9ub3RpZmljYXRpb25fcnVudGltZV9zaGFkb3cuc3RhdHVzKCkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIHR5cGVkX3Bhc3NrZXlfcnVudGltZV9zaGFkb3dfc3RhdHVzKCZzZWxmKSAtPiBUeXBlZENvbmZpZ1NoYWRvd1N0YXR1cyB7CiAgICAgICAgc2VsZi50eXBlZF9wYXNza2V5X3J1bnRpbWVfc2hhZG93LnN0YXR1cygpCiAgICB9CgogICAgI1tjZmcodGVzdCldCiAgICBwdWIoY3JhdGUpIGZuIHR5cGVkX2NvbmZpZ19zaGFkb3dfbWlzbWF0Y2hfY291bnQoJnNlbGYpIC0+IHU2NCB7CiAgICAgICAgc2VsZi50eXBlZF9jb25maWdfc2hhZG93X3N0YXR1cygpLm1pc21hdGNoX2NvdW50CiAgICB9Cn0K
+use super::*;
+
+impl Store {
+    pub(crate) fn diagnostics(&self) -> Arc<crate::runtime_health::operations::OperationRecorder> {
+        self.manager.diagnostics()
+    }
+
+    pub async fn connect(sqlite_path: impl AsRef<Path>) -> crate::storage::StorageResult<Self> {
+        let path = sqlite_path.as_ref().to_path_buf();
+        let manager = ConnectionManager::open(&path).await?;
+        let typed_config = TypedConfigRepository::new(manager.clone());
+        typed_config.initialize().await?;
+        let typed_docker_admin = TypedDockerAdminRepository::new(manager.clone());
+        typed_docker_admin.initialize().await?;
+        let typed_event_dedupe = TypedEventDedupeRepository::new(manager.clone());
+        typed_event_dedupe.initialize().await?;
+        let typed_events = TypedEventRepository::new(manager.clone());
+        typed_events.initialize().await?;
+        let typed_fnos_share = TypedFnosShareRepository::new(manager.clone());
+        typed_fnos_share.initialize().await?;
+        let typed_hmac_nonce = TypedHmacNonceRepository::new(manager.clone());
+        typed_hmac_nonce.initialize().await?;
+        let typed_identity_runtime = TypedIdentityRuntimeRepository::new(manager.clone());
+        typed_identity_runtime.initialize().await?;
+        let typed_login_backoff = TypedLoginBackoffRepository::new(manager.clone());
+        typed_login_backoff.initialize().await?;
+        let typed_mobility = TypedMobilityRepository::new(manager.clone());
+        typed_mobility.initialize().await?;
+        let typed_notification_runtime = TypedNotificationRuntimeRepository::new(manager.clone());
+        typed_notification_runtime.initialize().await?;
+        let typed_notifications = TypedNotificationRepository::new(manager.clone());
+        typed_notifications.initialize().await?;
+        let typed_passkey_runtime = TypedPasskeyRuntimeRepository::new(manager.clone());
+        typed_passkey_runtime.initialize().await?;
+        let typed_subdomain_grant = TypedSubdomainGrantRepository::new(manager.clone());
+        typed_subdomain_grant.initialize().await?;
+        let typed_subdomain_rate_limit = TypedSubdomainRateLimitRepository::new(manager.clone());
+        typed_subdomain_rate_limit.initialize().await?;
+        let typed_whitelist = TypedWhitelistRepository::new(manager.clone());
+        typed_whitelist.initialize().await?;
+        let typed_whitelist_runtime = TypedWhitelistRuntimeRepository::new(manager.clone());
+        typed_whitelist_runtime.initialize().await?;
+        let typed_wol_cooldown = TypedWolCooldownRepository::new(manager.clone());
+        typed_wol_cooldown.initialize().await?;
+        let store = Self {
+            manager,
+            path,
+            config_snapshot: Arc::new(ArcSwap::from_pointee(default_config())),
+            config_snapshot_revision: Arc::new(StdMutex::new(0)),
+            config_snapshot_updates: tokio::sync::watch::channel(0).0,
+            auth_account_mutation_lock: Arc::new(tokio::sync::Mutex::new(())),
+            typed: TypedRepositories {
+                typed_config,
+                typed_docker_admin,
+                typed_event_dedupe,
+                typed_events,
+                typed_fnos_share,
+                typed_hmac_nonce,
+                typed_identity_runtime,
+                typed_login_backoff,
+                typed_mobility,
+                typed_notification_runtime,
+                typed_notifications,
+                typed_passkey_runtime,
+                typed_subdomain_grant,
+                typed_subdomain_rate_limit,
+                typed_whitelist,
+                typed_whitelist_runtime,
+                typed_wol_cooldown,
+            },
+            typed_config_primary_bootstrapped: Arc::new(AtomicBool::new(false)),
+            typed_config_shadow: ShadowTracker::new("typed_primary"),
+            typed_docker_admin_shadow: ShadowTracker::new("legacy_primary_shadow"),
+            typed_event_dedupe_shadow: ShadowTracker::new("legacy_primary_shadow"),
+            typed_events_shadow: ShadowTracker::new("typed_primary"),
+            typed_fnos_share_shadow: ShadowTracker::new("legacy_primary_shadow"),
+            typed_hmac_nonce_shadow: ShadowTracker::new("legacy_primary_shadow"),
+            typed_identity_runtime_shadow: ShadowTracker::new("legacy_primary_shadow"),
+            typed_login_backoff_shadow: ShadowTracker::new("legacy_primary_shadow"),
+            typed_mobility_shadow: ShadowTracker::new("dual_write_shadow"),
+            typed_notification_runtime_shadow: ShadowTracker::new("legacy_primary_shadow"),
+            typed_passkey_runtime_shadow: ShadowTracker::new("legacy_primary_shadow"),
+            typed_subdomain_grant_shadow: ShadowTracker::new("legacy_primary_shadow"),
+            typed_subdomain_rate_limit_shadow: ShadowTracker::new("legacy_primary_shadow"),
+            typed_whitelist_shadow: ShadowTracker::new("typed_primary"),
+            typed_whitelist_runtime_shadow: ShadowTracker::new("legacy_primary_shadow"),
+            typed_wol_cooldown_shadow: ShadowTracker::new("legacy_primary_shadow"),
+        };
+        store.typed.typed_docker_admin.rebuild_from_legacy().await?;
+        store.typed.typed_event_dedupe.rebuild_from_legacy().await?;
+        store.rebuild_typed_system_events_from_legacy().await?;
+        store.typed.typed_fnos_share.rebuild_from_legacy().await?;
+        store.typed.typed_hmac_nonce.rebuild_from_legacy().await?;
+        store
+            .typed
+            .typed_identity_runtime
+            .rebuild_from_legacy()
+            .await?;
+        store
+            .typed
+            .typed_login_backoff
+            .rebuild_from_legacy()
+            .await?;
+        store.typed.typed_mobility.rebuild_from_legacy().await?;
+        store
+            .typed
+            .typed_notification_runtime
+            .rebuild_from_legacy()
+            .await?;
+        store
+            .rebuild_typed_notification_documents_from_legacy()
+            .await?;
+        store
+            .rebuild_typed_notification_history_from_legacy()
+            .await?;
+        store
+            .typed
+            .typed_passkey_runtime
+            .rebuild_from_legacy()
+            .await?;
+        store
+            .typed
+            .typed_subdomain_grant
+            .rebuild_from_legacy()
+            .await?;
+        store
+            .typed
+            .typed_subdomain_rate_limit
+            .rebuild_from_legacy()
+            .await?;
+        store.rebuild_typed_whitelist_from_legacy().await?;
+        store
+            .typed
+            .typed_whitelist_runtime
+            .rebuild_from_legacy()
+            .await?;
+        store.typed.typed_wol_cooldown.rebuild_from_legacy().await?;
+        store.refresh_config_snapshot().await?;
+        Ok(store)
+    }
+
+    pub(crate) async fn prepare_for_system_update(
+        &self,
+        backup_path: impl AsRef<Path>,
+    ) -> crate::storage::StorageResult<()> {
+        self.manager
+            .prepare_for_system_update(backup_path.as_ref())
+            .await
+    }
+
+    pub(crate) async fn checkpoint_for_shutdown(&self) -> crate::storage::StorageResult<()> {
+        self.manager.checkpoint_for_shutdown().await
+    }
+
+    pub(crate) async fn cancel_system_update(&self) -> crate::storage::StorageResult<()> {
+        self.manager.cancel_system_update().await
+    }
+
+    pub(super) fn conn(&self) -> ConnectionManager {
+        self.manager.clone()
+    }
+
+    pub(crate) fn primary_queue_status(&self) -> redis::PrimaryQueueStatus {
+        self.manager.primary_queue_status()
+    }
+
+    #[allow(dead_code)]
+    pub fn path(&self) -> &Path {
+        &self.path
+    }
+
+    pub fn config_snapshot(&self) -> Arc<Value> {
+        self.config_snapshot.load_full()
+    }
+
+    /// Signals publication, not attempted writes. Subscribers read the latest
+    /// snapshot; the channel retains only a revision, never old config values.
+    pub(crate) fn subscribe_config_snapshot(&self) -> tokio::sync::watch::Receiver<u64> {
+        self.config_snapshot_updates.subscribe()
+    }
+
+    pub async fn refresh_config_snapshot(&self) -> crate::storage::StorageResult<()> {
+        let (config, revision) = self.reconcile_typed_config_from_legacy().await?;
+        self.publish_config_snapshot(config, revision);
+        Ok(())
+    }
+
+    pub(super) fn publish_config_snapshot(&self, config: Value, revision: u64) {
+        let mut published_revision = self
+            .config_snapshot_revision
+            .lock()
+            .unwrap_or_else(|error| error.into_inner());
+        if revision <= *published_revision {
+            tracing::debug!(
+                revision,
+                current_revision = *published_revision,
+                "ignored stale config snapshot publication"
+            );
+            return;
+        }
+        self.config_snapshot.store(Arc::new(config));
+        *published_revision = revision;
+        self.typed_config_shadow.set_healthy();
+        // Publish under the same revision lock so notifications cannot arrive
+        // out of order. send_replace also retains the revision without readers.
+        self.config_snapshot_updates.send_replace(revision);
+    }
+
+    pub(crate) fn typed_config_shadow_status(&self) -> TypedConfigShadowStatus {
+        self.typed_config_shadow.status()
+    }
+
+    pub(crate) fn typed_mobility_shadow_status(&self) -> TypedConfigShadowStatus {
+        self.typed_mobility_shadow.status()
+    }
+
+    pub(crate) fn typed_login_backoff_shadow_status(&self) -> TypedConfigShadowStatus {
+        self.typed_login_backoff_shadow.status()
+    }
+
+    pub(crate) fn typed_docker_admin_shadow_status(&self) -> TypedConfigShadowStatus {
+        self.typed_docker_admin_shadow.status()
+    }
+
+    pub(crate) fn typed_event_dedupe_shadow_status(&self) -> TypedConfigShadowStatus {
+        self.typed_event_dedupe_shadow.status()
+    }
+
+    pub(crate) fn typed_identity_runtime_shadow_status(&self) -> TypedConfigShadowStatus {
+        self.typed_identity_runtime_shadow.status()
+    }
+
+    pub(crate) fn typed_fnos_share_shadow_status(&self) -> TypedConfigShadowStatus {
+        self.typed_fnos_share_shadow.status()
+    }
+
+    pub(crate) fn typed_hmac_nonce_shadow_status(&self) -> TypedConfigShadowStatus {
+        self.typed_hmac_nonce_shadow.status()
+    }
+
+    pub(crate) fn typed_subdomain_rate_limit_shadow_status(&self) -> TypedConfigShadowStatus {
+        self.typed_subdomain_rate_limit_shadow.status()
+    }
+
+    pub(crate) fn typed_subdomain_grant_shadow_status(&self) -> TypedConfigShadowStatus {
+        self.typed_subdomain_grant_shadow.status()
+    }
+
+    pub(crate) fn typed_wol_cooldown_shadow_status(&self) -> TypedConfigShadowStatus {
+        self.typed_wol_cooldown_shadow.status()
+    }
+
+    pub(crate) fn typed_whitelist_runtime_shadow_status(&self) -> TypedConfigShadowStatus {
+        self.typed_whitelist_runtime_shadow.status()
+    }
+
+    pub(crate) fn typed_notification_runtime_shadow_status(&self) -> TypedConfigShadowStatus {
+        self.typed_notification_runtime_shadow.status()
+    }
+
+    pub(crate) fn typed_passkey_runtime_shadow_status(&self) -> TypedConfigShadowStatus {
+        self.typed_passkey_runtime_shadow.status()
+    }
+
+    #[cfg(test)]
+    pub(crate) fn typed_config_shadow_mismatch_count(&self) -> u64 {
+        self.typed_config_shadow_status().mismatch_count
+    }
+}

@@ -1,1 +1,74 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7CgpkZXNjcmliZSgicnVudGltZSBoZWFsdGggdmlldyIsICgpID0+IHsKICBpdCgia2VlcHMgdmlydHVhbCBjb21wb25lbnRzIGNvbXBhY3QgYW5kIHByb2Nlc3MgZGV0YWlscyBjb25kaXRpb25hbCIsICgpID0+IHsKICAgIGNvbnN0IHZpZXdTb3VyY2UgPSByZWFkU291cmNlKCIuLi9zcmMvdmlld3MvZXZlbnQtY2VudGVyL1J1bnRpbWVUYWIudnVlIik7CiAgICBjb25zdCBjYXJkU291cmNlID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9ldmVudC1jZW50ZXIvUnVudGltZUNvbXBvbmVudENhcmQudnVlIiwKICAgICk7CiAgICBjb25zdCBjb250cm9sbGVyU291cmNlID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9ldmVudC1jZW50ZXIvdXNlUnVudGltZUhlYWx0aC50cyIsCiAgICApOwoKICAgIGFzc2VydC5tYXRjaCh2aWV3U291cmNlLCAvdXNlUnVudGltZUhlYWx0aC91KTsKICAgIGFzc2VydC5tYXRjaChjb250cm9sbGVyU291cmNlLCAvcHJvY2Vzc19zdGF0ZSAhPT0gIm5vdF9hcHBsaWNhYmxlIi91KTsKICAgIGFzc2VydC5tYXRjaCh2aWV3U291cmNlLCAveGw6Z3JpZC1jb2xzLTMvdSk7CiAgICBhc3NlcnQubWF0Y2godmlld1NvdXJjZSwgL3hsOmNvbC1zcGFuLTIvdSk7CiAgICBhc3NlcnQubWF0Y2godmlld1NvdXJjZSwgL3NtOmdyaWQtY29scy0yIHhsOmF1dG8tcm93cy1mciB4bDpncmlkLWNvbHMtMS91KTsKICAgIGFzc2VydC5tYXRjaChjYXJkU291cmNlLCAvdi1pZj0idmFyaWFudCA9PT0gJ3Byb2Nlc3MnIi91KTsKICAgIGFzc2VydC5tYXRjaChjYXJkU291cmNlLCAvY29tcG9uZW50XC5yc3NfYnl0ZXMgIT0gbnVsbC91KTsKICB9KTsKCiAgaXQoIm9mZmVycyBvbmx5IHRoZSBSdXN0IGFuZCBHbyBwcm9jZXNzIG9wZXJhdGlvbmFsIGxvZ3MiLCAoKSA9PiB7CiAgICBjb25zdCB2aWV3U291cmNlID0gcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL2V2ZW50LWNlbnRlci9SdW50aW1lVGFiLnZ1ZSIpOwogICAgY29uc3QgY2FyZFNvdXJjZSA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3MvZXZlbnQtY2VudGVyL1J1bnRpbWVDb21wb25lbnRDYXJkLnZ1ZSIsCiAgICApOwogICAgY29uc3QgYXBpU291cmNlID0gcmVhZFNvdXJjZSgiLi4vc3JjL2xpYi9hcGkvcnVudGltZS1oZWFsdGgudHMiKTsKICAgIGNvbnN0IGNvbnRyb2xsZXJTb3VyY2UgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL2V2ZW50LWNlbnRlci91c2VSdW50aW1lSGVhbHRoLnRzIiwKICAgICk7CgogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBjb250cm9sbGVyU291cmNlLAogICAgICAvY29tcG9uZW50XC5pZCA9PT0gIm1hbmFnZW1lbnQiIFx8XHwgY29tcG9uZW50XC5pZCA9PT0gImdhdGV3YXlfcHJvY2VzcyIvdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goY2FyZFNvdXJjZSwgL2FkbWluXC5ldmVudENlbnRlclwucnVudGltZVwudmlld0xvZ3MvdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpU291cmNlLCAvcnVudGltZS1oZWFsdGhcL2xvZ3MvdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpU291cmNlLCAvYXBpQ2xpZW50XC5kZWxldGUvdSk7CiAgICBhc3NlcnQubWF0Y2godmlld1NvdXJjZSwgL0NvbmZpcm1EYW5nZXJQb3BvdmVyL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHZpZXdTb3VyY2UsIC9hZG1pblwuZXZlbnRDZW50ZXJcLnJ1bnRpbWVcLmNsZWFyTG9ncy91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2godmlld1NvdXJjZSwgL1J1bnRpbWVIZWFsdGhBUEl8RXZlbnRDZW50ZXJBUEkvdSk7CiAgfSk7CgogIGl0KCJvcGVucyBHbyBtZW1vcnkgY29udHJvbHMgZnJvbSB0aGUgZ2F0ZXdheSBwcm9jZXNzIGNhcmQiLCAoKSA9PiB7CiAgICBjb25zdCB2aWV3U291cmNlID0gcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL2V2ZW50LWNlbnRlci9SdW50aW1lVGFiLnZ1ZSIpOwogICAgY29uc3QgY2FyZFNvdXJjZSA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3MvZXZlbnQtY2VudGVyL1J1bnRpbWVDb21wb25lbnRDYXJkLnZ1ZSIsCiAgICApOwogICAgY29uc3QgZGlhbG9nU291cmNlID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9ldmVudC1jZW50ZXIvR2F0ZXdheU1lbW9yeURpYWxvZy52dWUiLAogICAgKTsKICAgIGNvbnN0IGFwaVNvdXJjZSA9IHJlYWRTb3VyY2UoIi4uL3NyYy9saWIvYXBpL3J1bnRpbWUtaGVhbHRoLnRzIik7CgogICAgYXNzZXJ0Lm1hdGNoKHZpZXdTb3VyY2UsIC9jb21wb25lbnRcLmlkID09PSAnZ2F0ZXdheV9wcm9jZXNzJy91KTsKICAgIGFzc2VydC5tYXRjaCh2aWV3U291cmNlLCAvR2F0ZXdheU1lbW9yeURpYWxvZy91KTsKICAgIGFzc2VydC5tYXRjaChjYXJkU291cmNlLCAvTWVtb3J5U3RpY2svdSk7CiAgICBhc3NlcnQubWF0Y2goY2FyZFNvdXJjZSwgL21hbmFnZU1lbW9yeS91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2dTb3VyY2UsIC91cGRhdGVHYXRld2F5TWVtb3J5Q29uZmlnL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZ1NvdXJjZSwgL3JlY2xhaW1HYXRld2F5TWVtb3J5L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZ1NvdXJjZSwgLyF2YWxpZE1lbW9yeUxpbWl0XC52YWx1ZS91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2dTb3VyY2UsIC9NSU5fR0NfUEVSQ0VOVCA9IDI1L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZ1NvdXJjZSwgL01BWF9HQ19QRVJDRU5UID0gNTAwL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZ1NvdXJjZSwgL01JTl9NRU1PUllfTElNSVRfTUlCID0gNjQvdSk7CiAgICBhc3NlcnQubWF0Y2goZGlhbG9nU291cmNlLCAvTUFYX01FTU9SWV9MSU1JVF9NSUIgPSA0MDk2L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZ1NvdXJjZSwgL21lbW9yeV9saW1pdF9taWI6L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZ1NvdXJjZSwgL3NhdmluZ1wudmFsdWUgXHxcfCByZWNsYWltaW5nXC52YWx1ZS91KTsKICAgIGFzc2VydC5tYXRjaChhcGlTb3VyY2UsIC9ydW50aW1lLWhlYWx0aFwvZ2F0ZXdheS1tZW1vcnlcL3JlY2xhaW0vdSk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+describe("runtime health view", () => {
+  it("keeps virtual components compact and process details conditional", () => {
+    const viewSource = readSource("../src/views/event-center/RuntimeTab.vue");
+    const cardSource = readSource(
+      "../src/views/event-center/RuntimeComponentCard.vue",
+    );
+    const controllerSource = readSource(
+      "../src/views/event-center/useRuntimeHealth.ts",
+    );
+
+    assert.match(viewSource, /useRuntimeHealth/u);
+    assert.match(controllerSource, /process_state !== "not_applicable"/u);
+    assert.match(viewSource, /xl:grid-cols-3/u);
+    assert.match(viewSource, /xl:col-span-2/u);
+    assert.match(viewSource, /sm:grid-cols-2 xl:auto-rows-fr xl:grid-cols-1/u);
+    assert.match(cardSource, /v-if="variant === 'process'"/u);
+    assert.match(cardSource, /component\.rss_bytes != null/u);
+  });
+
+  it("offers only the Rust and Go process operational logs", () => {
+    const viewSource = readSource("../src/views/event-center/RuntimeTab.vue");
+    const cardSource = readSource(
+      "../src/views/event-center/RuntimeComponentCard.vue",
+    );
+    const apiSource = readSource("../src/lib/api/runtime-health.ts");
+    const controllerSource = readSource(
+      "../src/views/event-center/useRuntimeHealth.ts",
+    );
+
+    assert.match(
+      controllerSource,
+      /component\.id === "management" \|\| component\.id === "gateway_process"/u,
+    );
+    assert.match(cardSource, /admin\.eventCenter\.runtime\.viewLogs/u);
+    assert.match(apiSource, /runtime-health\/logs/u);
+    assert.match(apiSource, /apiClient\.delete/u);
+    assert.match(viewSource, /ConfirmDangerPopover/u);
+    assert.match(viewSource, /admin\.eventCenter\.runtime\.clearLogs/u);
+    assert.doesNotMatch(viewSource, /RuntimeHealthAPI|EventCenterAPI/u);
+  });
+
+  it("opens Go memory controls from the gateway process card", () => {
+    const viewSource = readSource("../src/views/event-center/RuntimeTab.vue");
+    const cardSource = readSource(
+      "../src/views/event-center/RuntimeComponentCard.vue",
+    );
+    const dialogSource = readSource(
+      "../src/views/event-center/GatewayMemoryDialog.vue",
+    );
+    const apiSource = readSource("../src/lib/api/runtime-health.ts");
+
+    assert.match(viewSource, /component\.id === 'gateway_process'/u);
+    assert.match(viewSource, /GatewayMemoryDialog/u);
+    assert.match(cardSource, /MemoryStick/u);
+    assert.match(cardSource, /manageMemory/u);
+    assert.match(dialogSource, /updateGatewayMemoryConfig/u);
+    assert.match(dialogSource, /reclaimGatewayMemory/u);
+    assert.match(dialogSource, /!validMemoryLimit\.value/u);
+    assert.match(dialogSource, /MIN_GC_PERCENT = 25/u);
+    assert.match(dialogSource, /MAX_GC_PERCENT = 500/u);
+    assert.match(dialogSource, /MIN_MEMORY_LIMIT_MIB = 64/u);
+    assert.match(dialogSource, /MAX_MEMORY_LIMIT_MIB = 4096/u);
+    assert.match(dialogSource, /memory_limit_mib:/u);
+    assert.match(dialogSource, /saving\.value \|\| reclaiming\.value/u);
+    assert.match(apiSource, /runtime-health\/gateway-memory\/reclaim/u);
+  });
+});

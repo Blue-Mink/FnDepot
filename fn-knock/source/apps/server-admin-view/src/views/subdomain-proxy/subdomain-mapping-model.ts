@@ -1,1 +1,519 @@
-aW1wb3J0IHsgZXh0cmFjdFBvcnRGcm9tVGFyZ2V0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9leHRyYWN0UG9ydEZyb21UYXJnZXQiOwppbXBvcnQgewogIGlzSHR0cFByb3h5VGFyZ2V0UHJvdG9jb2wsCiAgaXNTdXBwb3J0ZWRQcm94eVRhcmdldFVybCwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3Byb3h5VGFyZ2V0SW5wdXQiOwppbXBvcnQgeyBub3JtYWxpemVIb3N0TWFwcGluZ0F2YWlsYWJpbGl0eSB9IGZyb20gIkAvbGliL2hvc3QtbWFwcGluZy1hdmFpbGFiaWxpdHkiOwppbXBvcnQgdHlwZSB7CiAgSG9zdE1hcHBpbmcsCiAgSG9zdE1hcHBpbmdUYXJnZXRUeXBlLAogIFN1YmRvbWFpbk1vZGVDb25maWcsCn0gZnJvbSAiQC90eXBlcyI7CmltcG9ydCB7CiAgY3JlYXRlRGVmYXVsdFN0YXRpY1NlcnZlLAogIG5vcm1hbGl6ZUhvc3RNYXBwaW5nU3RhdGljU2VydmUsCiAgbm9ybWFsaXplSG9zdE1hcHBpbmdUYXJnZXRUeXBlLAogIHR5cGUgU3RhdGljU2VydmVWYWxpZGF0aW9uSXNzdWUsCn0gZnJvbSAiLi9ob3N0LW1hcHBpbmctdGFyZ2V0LW1vZGVsIjsKaW1wb3J0IHsKICBERUZBVUxUX0FDQ0VTU19NT0RFLAogIERFRkFVTFRfUFJPVE9DT0xfTU9ERSwKICBERUZBVUxUX1RBUkdFVF9QQVRIX01PREUsCiAgdHlwZSBNYXBwaW5nSW5wdXRNb2RlLAp9IGZyb20gIi4vc3ViZG9tYWluLW1vZGVsLXR5cGVzIjsKCmV4cG9ydCBjb25zdCBwYXJzZVRhcmdldFBvcnQgPSAodGFyZ2V0OiBzdHJpbmcpOiBudW1iZXIgfCBudWxsID0+IHsKICBjb25zdCBub3JtYWxpemVkVGFyZ2V0ID0gdGFyZ2V0LnRyaW0oKTsKICBpZiAoIW5vcm1hbGl6ZWRUYXJnZXQpIHJldHVybiBudWxsOwoKICBjb25zdCBleHBsaWNpdFBvcnQgPSBleHRyYWN0UG9ydEZyb21UYXJnZXQobm9ybWFsaXplZFRhcmdldCk7CiAgaWYgKAogICAgZXhwbGljaXRQb3J0ICE9PSBudWxsICYmCiAgICBOdW1iZXIuaXNGaW5pdGUoZXhwbGljaXRQb3J0KSAmJgogICAgZXhwbGljaXRQb3J0ID4gMAogICkgewogICAgcmV0dXJuIGV4cGxpY2l0UG9ydDsKICB9CgogIHRyeSB7CiAgICBjb25zdCBwYXJzZWQgPSBuZXcgVVJMKG5vcm1hbGl6ZWRUYXJnZXQpOwogICAgaWYgKHBhcnNlZC5wcm90b2NvbCA9PT0gImh0dHBzOiIgfHwgcGFyc2VkLnByb3RvY29sID09PSAid3NzOiIpIHJldHVybiA0NDM7CiAgICBpZiAocGFyc2VkLnByb3RvY29sID09PSAiaHR0cDoiIHx8IHBhcnNlZC5wcm90b2NvbCA9PT0gIndzOiIpIHJldHVybiA4MDsKICB9IGNhdGNoIHsKICAgIC8vIEtlZXAgaW52YWxpZCB0YXJnZXRzIHVucmVzb2x2ZWQ7IHZhbGlkYXRpb24gaGFwcGVucyBpbiB0aGUgcGFnZSBmbG93LgogIH0KCiAgcmV0dXJuIG51bGw7Cn07CgpleHBvcnQgY29uc3QgaXNIdHRwVGFyZ2V0VXJsID0gKHRhcmdldDogc3RyaW5nKTogYm9vbGVhbiA9PiB7CiAgdHJ5IHsKICAgIGNvbnN0IHBhcnNlZCA9IG5ldyBVUkwodGFyZ2V0LnRyaW0oKSk7CiAgICByZXR1cm4gKAogICAgICBpc0h0dHBQcm94eVRhcmdldFByb3RvY29sKHBhcnNlZC5wcm90b2NvbCkgJiYgQm9vbGVhbihwYXJzZWQuaG9zdG5hbWUpCiAgICApOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIGZhbHNlOwogIH0KfTsKCmV4cG9ydCBjb25zdCByZXNvbHZlRGVmYXVsdEF1dGhTZXJ2aWNlVGFyZ2V0ID0gKAogIGRyYWZ0VGFyZ2V0OiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkLAogIHNhdmVkVGFyZ2V0OiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkLAopOiBzdHJpbmcgPT4gewogIGNvbnN0IGRlZmF1bHRUYXJnZXQgPSBjcmVhdGVEZWZhdWx0TW9kZUZvcm0oKS5hdXRoX3RhcmdldDsKICBjb25zdCBjb25maWd1cmVkVGFyZ2V0ID0KICAgIGRyYWZ0VGFyZ2V0Py50cmltKCkgfHwgc2F2ZWRUYXJnZXQ/LnRyaW0oKSB8fCBkZWZhdWx0VGFyZ2V0OwoKICB0cnkgewogICAgY29uc3QgcGFyc2VkID0gbmV3IFVSTChjb25maWd1cmVkVGFyZ2V0KTsKICAgIGNvbnN0IHBvcnQgPQogICAgICBwYXJzZWQucG9ydCB8fAogICAgICAocGFyc2VkLnByb3RvY29sID09PSAiaHR0cHM6IgogICAgICAgID8gIjQ0MyIKICAgICAgICA6IHBhcnNlZC5wcm90b2NvbCA9PT0gImh0dHA6IgogICAgICAgICAgPyAiODAiCiAgICAgICAgICA6ICIiKTsKCiAgICBpZiAoIXBvcnQpIHJldHVybiBjb25maWd1cmVkVGFyZ2V0OwoKICAgIGNvbnN0IG5vcm1hbGl6ZWQgPSBuZXcgVVJMKGBodHRwOi8vbG9jYWxob3N0OiR7cG9ydH1gKTsKICAgIG5vcm1hbGl6ZWQucGF0aG5hbWUgPQogICAgICBwYXJzZWQucGF0aG5hbWUgJiYgcGFyc2VkLnBhdGhuYW1lICE9PSAiLyIgPyBwYXJzZWQucGF0aG5hbWUgOiAiLyI7CiAgICBub3JtYWxpemVkLnNlYXJjaCA9IHBhcnNlZC5zZWFyY2g7CiAgICBub3JtYWxpemVkLmhhc2ggPSBwYXJzZWQuaGFzaDsKICAgIHJldHVybiBub3JtYWxpemVkCiAgICAgIC50b1N0cmluZygpCiAgICAgIC5yZXBsYWNlKC9cLyQvLCBub3JtYWxpemVkLnBhdGhuYW1lID09PSAiLyIgPyAiIiA6IG5vcm1hbGl6ZWQucGF0aG5hbWUpOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIGNvbmZpZ3VyZWRUYXJnZXQgfHwgZGVmYXVsdFRhcmdldDsKICB9Cn07CgpleHBvcnQgY29uc3QgaXNNYXBwaW5nRHJhZnRWYWxpZCA9ICh7CiAgYmFzaWNBdXRoVmFsaWRhdGlvbk1lc3NhZ2UsCiAgY2FuVXNlUm9vdERvbWFpblN1ZmZpeCwKICBob3N0LAogIGlucHV0TW9kZSwKICBzdGF0aWNTZXJ2ZVZhbGlkYXRpb25Jc3N1ZSwKICB0YXJnZXQsCiAgdGFyZ2V0VHlwZSwKfTogewogIGJhc2ljQXV0aFZhbGlkYXRpb25NZXNzYWdlOiBzdHJpbmc7CiAgY2FuVXNlUm9vdERvbWFpblN1ZmZpeDogYm9vbGVhbjsKICBob3N0OiBzdHJpbmc7CiAgaW5wdXRNb2RlOiBNYXBwaW5nSW5wdXRNb2RlOwogIHN0YXRpY1NlcnZlVmFsaWRhdGlvbklzc3VlOiBTdGF0aWNTZXJ2ZVZhbGlkYXRpb25Jc3N1ZSB8IG51bGw7CiAgdGFyZ2V0OiBzdHJpbmc7CiAgdGFyZ2V0VHlwZTogSG9zdE1hcHBpbmdUYXJnZXRUeXBlOwp9KTogYm9vbGVhbiA9PiB7CiAgaWYgKCFob3N0KSByZXR1cm4gZmFsc2U7CiAgaWYgKGlucHV0TW9kZSA9PT0gInN1YmRvbWFpbiIgJiYgIWNhblVzZVJvb3REb21haW5TdWZmaXgpIHsKICAgIHJldHVybiBmYWxzZTsKICB9CiAgaWYgKHRhcmdldFR5cGUgIT09ICJwcm94eSIpIHJldHVybiBzdGF0aWNTZXJ2ZVZhbGlkYXRpb25Jc3N1ZSA9PT0gbnVsbDsKCiAgY29uc3Qgbm9ybWFsaXplZFRhcmdldCA9IHRhcmdldC50cmltKCk7CiAgaWYgKCFub3JtYWxpemVkVGFyZ2V0KSByZXR1cm4gZmFsc2U7CgogIHJldHVybiAoCiAgICBpc1N1cHBvcnRlZFByb3h5VGFyZ2V0VXJsKG5vcm1hbGl6ZWRUYXJnZXQpICYmICFiYXNpY0F1dGhWYWxpZGF0aW9uTWVzc2FnZQogICk7Cn07CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplUHVibGljUG9ydCA9ICh2YWx1ZTogdW5rbm93bik6IG51bWJlciA9PiB7CiAgY29uc3QgcG9ydCA9CiAgICB0eXBlb2YgdmFsdWUgPT09ICJudW1iZXIiCiAgICAgID8gdmFsdWUKICAgICAgOiBOdW1iZXIucGFyc2VJbnQoU3RyaW5nKHZhbHVlID8/ICIiKS50cmltKCksIDEwKTsKICBpZiAoIU51bWJlci5pc0Zpbml0ZShwb3J0KSB8fCBwb3J0IDw9IDApIHJldHVybiAwOwogIHJldHVybiBNYXRoLmZsb29yKHBvcnQpOwp9OwoKZXhwb3J0IGNvbnN0IHBhcnNlUHVibGljQXV0aEJhc2VVcmxQb3J0ID0gKAogIHZhbHVlOiBzdHJpbmcgfCB1bmRlZmluZWQsCiAgc2NoZW1lPzogImh0dHAiIHwgImh0dHBzIiwKKTogbnVtYmVyID0+IHsKICBjb25zdCB0cmltbWVkID0gdmFsdWU/LnRyaW0oKTsKICBpZiAoIXRyaW1tZWQpIHJldHVybiAwOwoKICB0cnkgewogICAgY29uc3QgcGFyc2VkID0gbmV3IFVSTCh0cmltbWVkKTsKICAgIGlmIChzY2hlbWUgJiYgcGFyc2VkLnByb3RvY29sICE9PSBgJHtzY2hlbWV9OmApIHJldHVybiAwOwogICAgcmV0dXJuIG5vcm1hbGl6ZVB1YmxpY1BvcnQocGFyc2VkLnBvcnQpOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIDA7CiAgfQp9OwoKZXhwb3J0IGNvbnN0IHN5bmNQdWJsaWNBdXRoQmFzZVVybFBvcnQgPSAoCiAgdmFsdWU6IHN0cmluZyB8IHVuZGVmaW5lZCwKICBwb3J0OiBudW1iZXIsCik6IHN0cmluZyA9PiB7CiAgY29uc3QgdHJpbW1lZCA9IHZhbHVlPy50cmltKCk7CiAgaWYgKCF0cmltbWVkIHx8ICFwb3J0KSByZXR1cm4gdHJpbW1lZCB8fCAiIjsKCiAgdHJ5IHsKICAgIGNvbnN0IHBhcnNlZCA9IG5ldyBVUkwodHJpbW1lZCk7CiAgICBjb25zdCBzY2hlbWUgPQogICAgICBwYXJzZWQucHJvdG9jb2wgPT09ICJodHRwczoiCiAgICAgICAgPyAiaHR0cHMiCiAgICAgICAgOiBwYXJzZWQucHJvdG9jb2wgPT09ICJodHRwOiIKICAgICAgICAgID8gImh0dHAiCiAgICAgICAgICA6IG51bGw7CiAgICBpZiAoIXNjaGVtZSkgcmV0dXJuICIiOwoKICAgIGNvbnN0IGlzRGVmYXVsdFBvcnQgPQogICAgICAoc2NoZW1lID09PSAiaHR0cHMiICYmIHBvcnQgPT09IDQ0MykgfHwKICAgICAgKHNjaGVtZSA9PT0gImh0dHAiICYmIHBvcnQgPT09IDgwKTsKICAgIHBhcnNlZC5wb3J0ID0gaXNEZWZhdWx0UG9ydCA/ICIiIDogU3RyaW5nKHBvcnQpOwogICAgcGFyc2VkLnBhdGhuYW1lID0gcGFyc2VkLnBhdGhuYW1lLnJlcGxhY2UoL1wvKyQvLCAiIikgfHwgIi8iOwogICAgcGFyc2VkLnNlYXJjaCA9ICIiOwogICAgcGFyc2VkLmhhc2ggPSAiIjsKICAgIHJldHVybiBwYXJzZWQudG9TdHJpbmcoKS5yZXBsYWNlKC9cLyQvLCAiIik7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gIiI7CiAgfQp9OwoKZXhwb3J0IGNvbnN0IHJlc29sdmVDb25maWd1cmVkQXV0aFNlcnZpY2VQdWJsaWNQb3J0ID0gKAogIGNvbmZpZzogUGljazwKICAgIFN1YmRvbWFpbk1vZGVDb25maWcsCiAgICAicHVibGljX2F1dGhfYmFzZV91cmwiIHwgInB1YmxpY19odHRwX3BvcnQiIHwgInB1YmxpY19odHRwc19wb3J0IgogID4sCiAgYWxsb3dDb25maWd1cmVkUG9ydCA9IHRydWUsCik6IG51bWJlciA9PiB7CiAgY29uc3QgZXhwbGljaXRIdHRwc1BvcnQgPSBwYXJzZVB1YmxpY0F1dGhCYXNlVXJsUG9ydCgKICAgIGNvbmZpZy5wdWJsaWNfYXV0aF9iYXNlX3VybCwKICAgICJodHRwcyIsCiAgKTsKICBjb25zdCBleHBsaWNpdEh0dHBQb3J0ID0gcGFyc2VQdWJsaWNBdXRoQmFzZVVybFBvcnQoCiAgICBjb25maWcucHVibGljX2F1dGhfYmFzZV91cmwsCiAgICAiaHR0cCIsCiAgKTsKICBjb25zdCBjb25maWd1cmVkSHR0cHNQb3J0ID0gbm9ybWFsaXplUHVibGljUG9ydChjb25maWcucHVibGljX2h0dHBzX3BvcnQpOwogIGNvbnN0IGNvbmZpZ3VyZWRIdHRwUG9ydCA9IG5vcm1hbGl6ZVB1YmxpY1BvcnQoY29uZmlnLnB1YmxpY19odHRwX3BvcnQpOwogIHJldHVybiAoCiAgICBleHBsaWNpdEh0dHBzUG9ydCB8fAogICAgZXhwbGljaXRIdHRwUG9ydCB8fAogICAgKGFsbG93Q29uZmlndXJlZFBvcnQgPyBjb25maWd1cmVkSHR0cHNQb3J0IHx8IGNvbmZpZ3VyZWRIdHRwUG9ydCA6IDApCiAgKTsKfTsKCmV4cG9ydCBjb25zdCByZXNvbHZlQ29uZmlndXJlZEFjY2Vzc0VudHJ5UHVibGljUG9ydCA9ICgKICBjb25maWc6IFBpY2s8CiAgICBTdWJkb21haW5Nb2RlQ29uZmlnLAogICAgInB1YmxpY19hdXRoX2Jhc2VfdXJsIiB8ICJwdWJsaWNfaHR0cF9wb3J0IiB8ICJwdWJsaWNfaHR0cHNfcG9ydCIKICA+LAogIGFsbG93Q29uZmlndXJlZFBvcnQgPSB0cnVlLAopOiBudW1iZXIgPT4gewogIGNvbnN0IGV4cGxpY2l0SHR0cHNQb3J0ID0gcGFyc2VQdWJsaWNBdXRoQmFzZVVybFBvcnQoCiAgICBjb25maWcucHVibGljX2F1dGhfYmFzZV91cmwsCiAgICAiaHR0cHMiLAogICk7CiAgY29uc3QgZXhwbGljaXRIdHRwUG9ydCA9IHBhcnNlUHVibGljQXV0aEJhc2VVcmxQb3J0KAogICAgY29uZmlnLnB1YmxpY19hdXRoX2Jhc2VfdXJsLAogICAgImh0dHAiLAogICk7CiAgY29uc3QgY29uZmlndXJlZEh0dHBzUG9ydCA9IG5vcm1hbGl6ZVB1YmxpY1BvcnQoY29uZmlnLnB1YmxpY19odHRwc19wb3J0KTsKICBjb25zdCBjb25maWd1cmVkSHR0cFBvcnQgPSBub3JtYWxpemVQdWJsaWNQb3J0KGNvbmZpZy5wdWJsaWNfaHR0cF9wb3J0KTsKICBjb25zdCBjb25maWd1cmVkUG9ydCA9CiAgICBleHBsaWNpdEh0dHBzUG9ydCB8fAogICAgZXhwbGljaXRIdHRwUG9ydCB8fAogICAgKGFsbG93Q29uZmlndXJlZFBvcnQgPyBjb25maWd1cmVkSHR0cHNQb3J0IHx8IGNvbmZpZ3VyZWRIdHRwUG9ydCA6IDApOwogIHJldHVybiBjb25maWd1cmVkUG9ydCA+IDAgPyBjb25maWd1cmVkUG9ydCA6IDA7Cn07CgpleHBvcnQgY29uc3QgaXNEZWZhdWx0UHVibGljUG9ydCA9ICh2YWx1ZTogdW5rbm93bik6IGJvb2xlYW4gPT4gewogIGNvbnN0IHBvcnQgPSBub3JtYWxpemVQdWJsaWNQb3J0KHZhbHVlKTsKICByZXR1cm4gcG9ydCA9PT0gODAgfHwgcG9ydCA9PT0gNDQzOwp9OwoKZXhwb3J0IGNvbnN0IGZvcm1hdEhvc3RXaXRoT3B0aW9uYWxQb3J0ID0gKAogIGhvc3Q6IHN0cmluZywKICBwb3J0OiBzdHJpbmcgfCBudW1iZXIsCiAgc2hvdWxkT21pdFBvcnQ6IGJvb2xlYW4sCik6IHN0cmluZyA9PiAoc2hvdWxkT21pdFBvcnQgPyBob3N0IDogYCR7aG9zdH06JHtwb3J0fWApOwoKY29uc3QgY29uZmlndXJlZERlZmF1bHRBdXRoUG9ydCA9IE51bWJlci5wYXJzZUludCgKICBpbXBvcnQubWV0YS5lbnY/LlZJVEVfRk5fS05PQ0tfREVGQVVMVF9BVVRIX1BPUlQgPz8gIjc5OTciLAogIDEwLAopOwpjb25zdCBkZWZhdWx0QXV0aFBvcnQgPQogIE51bWJlci5pc0ludGVnZXIoY29uZmlndXJlZERlZmF1bHRBdXRoUG9ydCkgJiYKICBjb25maWd1cmVkRGVmYXVsdEF1dGhQb3J0ID49IDEgJiYKICBjb25maWd1cmVkRGVmYXVsdEF1dGhQb3J0IDw9IDY1NTM1CiAgICA/IGNvbmZpZ3VyZWREZWZhdWx0QXV0aFBvcnQKICAgIDogNzk5NzsKCmV4cG9ydCBjb25zdCBjcmVhdGVEZWZhdWx0TW9kZUZvcm0gPSAoCiAgYXV0aFBvcnQgPSBkZWZhdWx0QXV0aFBvcnQsCik6IFN1YmRvbWFpbk1vZGVDb25maWcgPT4gKHsKICByb290X2RvbWFpbjogIiIsCiAgYXV0aF9ob3N0OiAiIiwKICBhdXRoX3RhcmdldDogYGh0dHA6Ly9sb2NhbGhvc3Q6JHthdXRoUG9ydH1gLAogIGNvb2tpZV9kb21haW46ICIiLAogIGVkZ2VfY2xpZW50X2lwX2VuYWJsZWQ6IGZhbHNlLAogIGFsaXl1bl9lc2FfZW5hYmxlZDogZmFsc2UsCiAgdGVuY2VudF9lZGdlb25lX2VuYWJsZWQ6IGZhbHNlLAogIHB1YmxpY19hdXRoX2Jhc2VfdXJsOiAiIiwKICBwdWJsaWNfaHR0cF9wb3J0OiAwLAogIHB1YmxpY19odHRwc19wb3J0OiAwLAogIGF1dGhfY2FjaGVfdHRsX3NlY29uZHM6IDEsCiAgYXV0aF9jYWNoZV91bmF1dGhvcml6ZWRfdHRsX3NlY29uZHM6IDEsCiAgZGVmYXVsdF9hY2Nlc3NfbW9kZTogImxvZ2luX2ZpcnN0IiwKICBhdXRvX2FkZF93aGl0ZWxpc3Rfb25fbG9naW46IHRydWUsCiAgcGFzc2tleV9ycF9tb2RlOiAiYXV0aF9ob3N0IiwKICBwYXNza2V5X3JwX2lkOiAiIiwKfSk7CgpleHBvcnQgY29uc3QgY3JlYXRlRGlzYWJsZWRNYXBwaW5nQmFzaWNBdXRoID0KICAoKTogSG9zdE1hcHBpbmdbImJhc2ljX2F1dGgiXSA9PiAoewogICAgZW5hYmxlZDogZmFsc2UsCiAgICB1c2VybmFtZTogIiIsCiAgICBwYXNzd29yZDogIiIsCiAgfSk7CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplTWFwcGluZ0Jhc2ljQXV0aCA9ICgKICB2YWx1ZT86IFBhcnRpYWw8SG9zdE1hcHBpbmdbImJhc2ljX2F1dGgiXT4gfCBudWxsLAopOiBIb3N0TWFwcGluZ1siYmFzaWNfYXV0aCJdID0+IHsKICBjb25zdCByYXcgPSB2YWx1ZSA/PyB7fTsKICBjb25zdCB1c2VybmFtZSA9IHR5cGVvZiByYXcudXNlcm5hbWUgPT09ICJzdHJpbmciID8gcmF3LnVzZXJuYW1lLnRyaW0oKSA6ICIiOwogIGNvbnN0IHBhc3N3b3JkID0gdHlwZW9mIHJhdy5wYXNzd29yZCA9PT0gInN0cmluZyIgPyByYXcucGFzc3dvcmQgOiAiIjsKCiAgaWYgKHJhdy5lbmFibGVkICE9PSB0cnVlKSB7CiAgICByZXR1cm4gY3JlYXRlRGlzYWJsZWRNYXBwaW5nQmFzaWNBdXRoKCk7CiAgfQoKICByZXR1cm4gewogICAgZW5hYmxlZDogdHJ1ZSwKICAgIHVzZXJuYW1lLAogICAgcGFzc3dvcmQsCiAgfTsKfTsKCmV4cG9ydCBjb25zdCBub3JtYWxpemVCYXNpY0F1dGhQcm9iZVRhcmdldCA9ICh2YWx1ZTogc3RyaW5nKTogc3RyaW5nID0+IHsKICBjb25zdCB0cmltbWVkID0gdmFsdWUudHJpbSgpOwogIGlmICghdHJpbW1lZCkgcmV0dXJuICIiOwoKICB0cnkgewogICAgY29uc3QgcGFyc2VkID0gbmV3IFVSTCh0cmltbWVkKTsKICAgIGlmIChwYXJzZWQucHJvdG9jb2wgIT09ICJodHRwOiIgJiYgcGFyc2VkLnByb3RvY29sICE9PSAiaHR0cHM6IikgewogICAgICByZXR1cm4gIiI7CiAgICB9CiAgICBwYXJzZWQuaGFzaCA9ICIiOwogICAgcmV0dXJuIHBhcnNlZC50b1N0cmluZygpOwogIH0gY2F0Y2ggewogICAgcmV0dXJuICIiOwogIH0KfTsKCmV4cG9ydCBjb25zdCBjcmVhdGVEZWZhdWx0TWFwcGluZyA9ICgpOiBIb3N0TWFwcGluZyA9PiAoewogIGhvc3Q6ICIiLAogIGdyb3VwX2lkOiBudWxsLAogIHRhcmdldF90eXBlOiAicHJveHkiLAogIHRhcmdldDogIiIsCiAgc3RhdGljX3NlcnZlOiBudWxsLAogIHRhcmdldF9wYXRoX21vZGU6IERFRkFVTFRfVEFSR0VUX1BBVEhfTU9ERSwKICB3YWZfZW5hYmxlZDogdHJ1ZSwKICB1c2VfYXV0aDogdHJ1ZSwKICBhY2Nlc3NfbW9kZTogREVGQVVMVF9BQ0NFU1NfTU9ERSwKICBzdXBwcmVzc190b29sYmFyOiBmYWxzZSwKICBwcmVzZXJ2ZV9ob3N0OiB0cnVlLAogIGlzX2RlZmF1bHQ6IGZhbHNlLAogIGRpc2FibGVkOiBmYWxzZSwKICBhdmFpbGFiaWxpdHk6IG51bGwsCiAgdmlzaWJpbGl0eTogY3JlYXRlRGVmYXVsdE1hcHBpbmdWaXNpYmlsaXR5KCksCiAgcHJvdG9jb2xfbW9kZTogREVGQVVMVF9QUk9UT0NPTF9NT0RFLAogIGJhc2ljX2F1dGg6IGNyZWF0ZURpc2FibGVkTWFwcGluZ0Jhc2ljQXV0aCgpLAogIGxvY2F0aW9uczogW10sCiAgc2VydmljZV9yb2xlOiAiYXBwIiwKICB0aXRsZTogIiIsCiAgdGl0bGVfb3ZlcnJpZGU6ICIiLAogIGZhdmljb246ICIiLAogIGZhdmljb25fb3ZlcnJpZGU6ICIiLAp9KTsKCmV4cG9ydCBjb25zdCBjcmVhdGVEZWZhdWx0TWFwcGluZ1Zpc2liaWxpdHkgPQogICgpOiBIb3N0TWFwcGluZ1sidmlzaWJpbGl0eSJdID0+ICh7CiAgICBtb2RlOiAiaW5oZXJpdCIsCiAgICBzZWxlY3Rpb25zOiBbXSwKICAgIGN1c3RvbV9jaWRyczogW10sCiAgICBjaWRyczogW10sCiAgfSk7CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplTWFwcGluZ1Zpc2liaWxpdHkgPSAoCiAgdmFsdWU6IEhvc3RNYXBwaW5nWyJ2aXNpYmlsaXR5Il0gfCBudWxsIHwgdW5kZWZpbmVkLAopOiBIb3N0TWFwcGluZ1sidmlzaWJpbGl0eSJdID0+ICh7CiAgbW9kZToKICAgIHZhbHVlPy5tb2RlID09PSAiY3VzdG9tIiB8fCB2YWx1ZT8ubW9kZSA9PT0gImRpc2FibGVkIgogICAgICA/IHZhbHVlLm1vZGUKICAgICAgOiAiaW5oZXJpdCIsCiAgc2VsZWN0aW9uczogKHZhbHVlPy5zZWxlY3Rpb25zID8/IFtdKS5tYXAoKHNlbGVjdGlvbikgPT4gKHsgLi4uc2VsZWN0aW9uIH0pKSwKICBjdXN0b21fY2lkcnM6IFsuLi4odmFsdWU/LmN1c3RvbV9jaWRycyA/PyBbXSldLAogIGNpZHJzOiBbLi4uKHZhbHVlPy5jaWRycyA/PyBbXSldLAp9KTsKCmV4cG9ydCBjb25zdCBidWlsZEJvb2ttYXJrRXhwb3J0RmlsZW5hbWUgPSAocm9vdERvbWFpbjogc3RyaW5nKTogc3RyaW5nID0+IHsKICBjb25zdCBub3JtYWxpemVkUm9vdERvbWFpbiA9IHJvb3REb21haW4KICAgIC50cmltKCkKICAgIC50b0xvd2VyQ2FzZSgpCiAgICAucmVwbGFjZSgvW15hLXowLTkuLV0rL2csICItIikKICAgIC5yZXBsYWNlKC8tKy9nLCAiLSIpCiAgICAucmVwbGFjZSgvXi0rfC0rJC9nLCAiIik7CgogIHJldHVybiBub3JtYWxpemVkUm9vdERvbWFpbgogICAgPyBgZm4ta25vY2stYm9va21hcmtzLSR7bm9ybWFsaXplZFJvb3REb21haW59Lmh0bWxgCiAgICA6ICJmbi1rbm9jay1ib29rbWFya3MuaHRtbCI7Cn07CgpleHBvcnQgdHlwZSBIb3N0TWFwcGluZ1Zpc2liaWxpdHlJbmRpY2F0b3IgPSAiaW5oZXJpdCIgfCAiY3VzdG9tIiB8IG51bGw7CgpleHBvcnQgaW50ZXJmYWNlIEhvc3RNYXBwaW5nU2VjdXJpdHlJbmRpY2F0b3JTdGF0ZSB7CiAgY3VzdG9tQ2lkckNvdW50OiBudW1iZXI7CiAgcmVnaW9uQ291bnQ6IG51bWJlcjsKICB2aXNpYmlsaXR5OiBIb3N0TWFwcGluZ1Zpc2liaWxpdHlJbmRpY2F0b3I7CiAgd2FmOiBib29sZWFuOwp9CgpleHBvcnQgY29uc3QgZ2V0TWFwcGluZ1NlY3VyaXR5SW5kaWNhdG9yU3RhdGUgPSAoewogIGdsb2JhbFZpc2liaWxpdHlFbmFibGVkLAogIGdsb2JhbFdhZkVuYWJsZWQsCiAgaXNBdXRoU2VydmljZSwKICBtYXBwaW5nLAp9OiB7CiAgZ2xvYmFsVmlzaWJpbGl0eUVuYWJsZWQ6IGJvb2xlYW47CiAgZ2xvYmFsV2FmRW5hYmxlZDogYm9vbGVhbjsKICBpc0F1dGhTZXJ2aWNlOiBib29sZWFuOwogIG1hcHBpbmc6IEhvc3RNYXBwaW5nOwp9KTogSG9zdE1hcHBpbmdTZWN1cml0eUluZGljYXRvclN0YXRlID0+IHsKICBjb25zdCBleGNsdWRlZCA9IGlzQXV0aFNlcnZpY2UgfHwgbWFwcGluZy5kaXNhYmxlZCA9PT0gdHJ1ZTsKICBjb25zdCB2aXNpYmlsaXR5TW9kZSA9IG1hcHBpbmcudmlzaWJpbGl0eT8ubW9kZTsKICBjb25zdCB2aXNpYmlsaXR5ID0KICAgIGV4Y2x1ZGVkIHx8ICFnbG9iYWxWaXNpYmlsaXR5RW5hYmxlZCB8fCB2aXNpYmlsaXR5TW9kZSA9PT0gImRpc2FibGVkIgogICAgICA/IG51bGwKICAgICAgOiB2aXNpYmlsaXR5TW9kZSA9PT0gImN1c3RvbSIKICAgICAgICA/ICJjdXN0b20iCiAgICAgICAgOiAiaW5oZXJpdCI7CgogIHJldHVybiB7CiAgICBjdXN0b21DaWRyQ291bnQ6IG1hcHBpbmcudmlzaWJpbGl0eT8uY3VzdG9tX2NpZHJzPy5sZW5ndGggPz8gMCwKICAgIHJlZ2lvbkNvdW50OiBtYXBwaW5nLnZpc2liaWxpdHk/LnNlbGVjdGlvbnM/Lmxlbmd0aCA/PyAwLAogICAgdmlzaWJpbGl0eSwKICAgIHdhZjogIWV4Y2x1ZGVkICYmIGdsb2JhbFdhZkVuYWJsZWQgJiYgbWFwcGluZy53YWZfZW5hYmxlZCAhPT0gZmFsc2UsCiAgfTsKfTsKCmV4cG9ydCBjb25zdCBnZXRNYXBwaW5nRGlzcGxheVRpdGxlID0gKG1hcHBpbmc6IEhvc3RNYXBwaW5nKTogc3RyaW5nID0+CiAgbWFwcGluZy50aXRsZV9vdmVycmlkZS50cmltKCkgfHwgbWFwcGluZy50aXRsZS50cmltKCk7CgpleHBvcnQgY29uc3QgZ2V0TWFwcGluZ0Zhdmljb25TcmMgPSAobWFwcGluZzogSG9zdE1hcHBpbmcpOiBzdHJpbmcgPT4gewogIGNvbnN0IGZhdmljb24gPSBtYXBwaW5nLmZhdmljb25fb3ZlcnJpZGU/LnRyaW0oKSB8fCBtYXBwaW5nLmZhdmljb24udHJpbSgpOwogIHJldHVybiAvXmRhdGE6aW1hZ2VcLy9pLnRlc3QoZmF2aWNvbikgPyBmYXZpY29uIDogIiI7Cn07CgpleHBvcnQgY29uc3QgZ2V0TWFwcGluZ0Zhdmljb25Tb3VyY2UgPSAoCiAgbWFwcGluZzogSG9zdE1hcHBpbmcsCik6ICJjdXN0b20iIHwgImF1dG8iIHwgIm1pc3NpbmciID0+IHsKICBpZiAoL15kYXRhOmltYWdlXC8vaS50ZXN0KG1hcHBpbmcuZmF2aWNvbl9vdmVycmlkZT8udHJpbSgpIHx8ICIiKSkgewogICAgcmV0dXJuICJjdXN0b20iOwogIH0KICByZXR1cm4gL15kYXRhOmltYWdlXC8vaS50ZXN0KG1hcHBpbmcuZmF2aWNvbi50cmltKCkpID8gImF1dG8iIDogIm1pc3NpbmciOwp9OwoKZXhwb3J0IGNvbnN0IGdldEZhdmljb25LZXkgPSAobWFwcGluZzogSG9zdE1hcHBpbmcpOiBzdHJpbmcgPT4KICBgJHttYXBwaW5nLmhvc3R9Ojoke2dldE1hcHBpbmdGYXZpY29uU3JjKG1hcHBpbmcpfWA7CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplTWFwcGluZ0Zvcm0gPSAoCiAgaW5wdXQ6IEhvc3RNYXBwaW5nLAogIHsKICAgIGhhc0ZyZXNoRmF2aWNvbk1ldGFkYXRhLAogICAgaGFzRnJlc2hUaXRsZU1ldGFkYXRhLAogICAgaG9zdCwKICAgIGlzQXV0aFNlcnZpY2VUYXJnZXQsCiAgICBpc1dlYlNvY2tldFRhcmdldCwKICB9OiB7CiAgICBoYXNGcmVzaEZhdmljb25NZXRhZGF0YTogYm9vbGVhbjsKICAgIGhhc0ZyZXNoVGl0bGVNZXRhZGF0YTogYm9vbGVhbjsKICAgIGhvc3Q6IHN0cmluZzsKICAgIGlzQXV0aFNlcnZpY2VUYXJnZXQ6ICh0YXJnZXQ6IHN0cmluZykgPT4gYm9vbGVhbjsKICAgIGlzV2ViU29ja2V0VGFyZ2V0OiAodGFyZ2V0OiBzdHJpbmcpID0+IGJvb2xlYW47CiAgfSwKKTogSG9zdE1hcHBpbmcgPT4gewogIGNvbnN0IHRhcmdldFR5cGUgPSBub3JtYWxpemVIb3N0TWFwcGluZ1RhcmdldFR5cGUoaW5wdXQudGFyZ2V0X3R5cGUpOwogIGNvbnN0IG5vcm1hbGl6ZWRUYXJnZXQgPSB0YXJnZXRUeXBlID09PSAicHJveHkiID8gaW5wdXQudGFyZ2V0LnRyaW0oKSA6ICIiOwogIGNvbnN0IHNlcnZpY2VSb2xlID0KICAgIHRhcmdldFR5cGUgPT09ICJwcm94eSIgJiYgaXNBdXRoU2VydmljZVRhcmdldChub3JtYWxpemVkVGFyZ2V0KQogICAgICA/ICJhdXRoIgogICAgICA6ICJhcHAiOwogIGNvbnN0IGJhc2ljQXV0aCA9CiAgICBzZXJ2aWNlUm9sZSA9PT0gImF1dGgiIHx8IHRhcmdldFR5cGUgIT09ICJwcm94eSIKICAgICAgPyBjcmVhdGVEaXNhYmxlZE1hcHBpbmdCYXNpY0F1dGgoKQogICAgICA6IG5vcm1hbGl6ZU1hcHBpbmdCYXNpY0F1dGgoaW5wdXQuYmFzaWNfYXV0aCk7CgogIHJldHVybiB7CiAgICBob3N0LAogICAgZ3JvdXBfaWQ6IHNlcnZpY2VSb2xlID09PSAiYXV0aCIgPyBudWxsIDogaW5wdXQuZ3JvdXBfaWQgfHwgbnVsbCwKICAgIHRhcmdldF90eXBlOiB0YXJnZXRUeXBlLAogICAgdGFyZ2V0OiBub3JtYWxpemVkVGFyZ2V0LAogICAgc3RhdGljX3NlcnZlOgogICAgICB0YXJnZXRUeXBlID09PSAicHJveHkiCiAgICAgICAgPyBudWxsCiAgICAgICAgOiBub3JtYWxpemVIb3N0TWFwcGluZ1N0YXRpY1NlcnZlKAogICAgICAgICAgICB0YXJnZXRUeXBlLAogICAgICAgICAgICBpbnB1dC5zdGF0aWNfc2VydmUgPz8gY3JlYXRlRGVmYXVsdFN0YXRpY1NlcnZlKHRhcmdldFR5cGUpLAogICAgICAgICAgKSwKICAgIHRhcmdldF9wYXRoX21vZGU6CiAgICAgIHNlcnZpY2VSb2xlICE9PSAiYXV0aCIgJiYKICAgICAgdGFyZ2V0VHlwZSA9PT0gInByb3h5IiAmJgogICAgICBpbnB1dC50YXJnZXRfcGF0aF9tb2RlID09PSAicHJlZml4IgogICAgICAgID8gInByZWZpeCIKICAgICAgICA6IERFRkFVTFRfVEFSR0VUX1BBVEhfTU9ERSwKICAgIHdhZl9lbmFibGVkOiBzZXJ2aWNlUm9sZSA9PT0gImF1dGgiID8gdHJ1ZSA6IGlucHV0LndhZl9lbmFibGVkICE9PSBmYWxzZSwKICAgIHVzZV9hdXRoOiBzZXJ2aWNlUm9sZSA9PT0gImF1dGgiID8gZmFsc2UgOiBpbnB1dC51c2VfYXV0aCwKICAgIGFjY2Vzc19tb2RlOgogICAgICBzZXJ2aWNlUm9sZSA9PT0gImF1dGgiCiAgICAgICAgPyBERUZBVUxUX0FDQ0VTU19NT0RFCiAgICAgICAgOiBpbnB1dC5hY2Nlc3NfbW9kZSB8fCBERUZBVUxUX0FDQ0VTU19NT0RFLAogICAgc3VwcHJlc3NfdG9vbGJhcjoKICAgICAgdGFyZ2V0VHlwZSAhPT0gInByb3h5IgogICAgICAgID8gdHJ1ZQogICAgICAgIDogc2VydmljZVJvbGUgPT09ICJhdXRoIgogICAgICAgICAgPyBmYWxzZQogICAgICAgICAgOiBpc1dlYlNvY2tldFRhcmdldChub3JtYWxpemVkVGFyZ2V0KQogICAgICAgICAgICA/IHRydWUKICAgICAgICAgICAgOiBpbnB1dC5zdXBwcmVzc190b29sYmFyLAogICAgcHJlc2VydmVfaG9zdDogdGFyZ2V0VHlwZSA9PT0gInByb3h5IiAmJiBpbnB1dC5wcmVzZXJ2ZV9ob3N0ID09PSB0cnVlLAogICAgaXNfZGVmYXVsdDogc2VydmljZVJvbGUgPT09ICJhdXRoIiA/IGZhbHNlIDogaW5wdXQuaXNfZGVmYXVsdCA9PT0gdHJ1ZSwKICAgIGRpc2FibGVkOiBzZXJ2aWNlUm9sZSA9PT0gImF1dGgiID8gZmFsc2UgOiBpbnB1dC5kaXNhYmxlZCA9PT0gdHJ1ZSwKICAgIGF2YWlsYWJpbGl0eToKICAgICAgc2VydmljZVJvbGUgPT09ICJhdXRoIgogICAgICAgID8gbnVsbAogICAgICAgIDogbm9ybWFsaXplSG9zdE1hcHBpbmdBdmFpbGFiaWxpdHkoaW5wdXQuYXZhaWxhYmlsaXR5KSwKICAgIHZpc2liaWxpdHk6CiAgICAgIHNlcnZpY2VSb2xlID09PSAiYXV0aCIKICAgICAgICA/IGNyZWF0ZURlZmF1bHRNYXBwaW5nVmlzaWJpbGl0eSgpCiAgICAgICAgOiBub3JtYWxpemVNYXBwaW5nVmlzaWJpbGl0eShpbnB1dC52aXNpYmlsaXR5KSwKICAgIHByb3RvY29sX21vZGU6CiAgICAgIGlucHV0LnByb3RvY29sX21vZGUgPT09ICJodHRwMSIgfHwgaW5wdXQucHJvdG9jb2xfbW9kZSA9PT0gImh0dHAyIgogICAgICAgID8gaW5wdXQucHJvdG9jb2xfbW9kZQogICAgICAgIDogREVGQVVMVF9QUk9UT0NPTF9NT0RFLAogICAgYmFzaWNfYXV0aDogYmFzaWNBdXRoLmVuYWJsZWQKICAgICAgPyBiYXNpY0F1dGgKICAgICAgOiBjcmVhdGVEaXNhYmxlZE1hcHBpbmdCYXNpY0F1dGgoKSwKICAgIGxvY2F0aW9uczoKICAgICAgc2VydmljZVJvbGUgPT09ICJhdXRoIiB8fCB0YXJnZXRUeXBlICE9PSAicHJveHkiCiAgICAgICAgPyBbXQogICAgICAgIDogWy4uLihpbnB1dC5sb2NhdGlvbnMgPz8gW10pXSwKICAgIHNlcnZpY2Vfcm9sZTogc2VydmljZVJvbGUsCiAgICB0aXRsZToKICAgICAgdGFyZ2V0VHlwZSA9PT0gInByb3h5IiAmJiBoYXNGcmVzaFRpdGxlTWV0YWRhdGEgPyBpbnB1dC50aXRsZS50cmltKCkgOiAiIiwKICAgIHRpdGxlX292ZXJyaWRlOiBpbnB1dC50aXRsZV9vdmVycmlkZS50cmltKCksCiAgICBmYXZpY29uOgogICAgICB0YXJnZXRUeXBlID09PSAicHJveHkiICYmIGhhc0ZyZXNoRmF2aWNvbk1ldGFkYXRhCiAgICAgICAgPyBpbnB1dC5mYXZpY29uLnRyaW0oKQogICAgICAgIDogIiIsCiAgICBmYXZpY29uX292ZXJyaWRlOgogICAgICBzZXJ2aWNlUm9sZSA9PT0gImF1dGgiID8gIiIgOiBpbnB1dC5mYXZpY29uX292ZXJyaWRlPy50cmltKCkgfHwgIiIsCiAgfTsKfTsK
+import { extractPortFromTarget } from "@admin-shared/utils/extractPortFromTarget";
+import {
+  isHttpProxyTargetProtocol,
+  isSupportedProxyTargetUrl,
+} from "@admin-shared/utils/proxyTargetInput";
+import { normalizeHostMappingAvailability } from "@/lib/host-mapping-availability";
+import type {
+  HostMapping,
+  HostMappingTargetType,
+  SubdomainModeConfig,
+} from "@/types";
+import {
+  createDefaultStaticServe,
+  normalizeHostMappingStaticServe,
+  normalizeHostMappingTargetType,
+  type StaticServeValidationIssue,
+} from "./host-mapping-target-model";
+import {
+  DEFAULT_ACCESS_MODE,
+  DEFAULT_PROTOCOL_MODE,
+  DEFAULT_TARGET_PATH_MODE,
+  type MappingInputMode,
+} from "./subdomain-model-types";
+
+export const parseTargetPort = (target: string): number | null => {
+  const normalizedTarget = target.trim();
+  if (!normalizedTarget) return null;
+
+  const explicitPort = extractPortFromTarget(normalizedTarget);
+  if (
+    explicitPort !== null &&
+    Number.isFinite(explicitPort) &&
+    explicitPort > 0
+  ) {
+    return explicitPort;
+  }
+
+  try {
+    const parsed = new URL(normalizedTarget);
+    if (parsed.protocol === "https:" || parsed.protocol === "wss:") return 443;
+    if (parsed.protocol === "http:" || parsed.protocol === "ws:") return 80;
+  } catch {
+    // Keep invalid targets unresolved; validation happens in the page flow.
+  }
+
+  return null;
+};
+
+export const isHttpTargetUrl = (target: string): boolean => {
+  try {
+    const parsed = new URL(target.trim());
+    return (
+      isHttpProxyTargetProtocol(parsed.protocol) && Boolean(parsed.hostname)
+    );
+  } catch {
+    return false;
+  }
+};
+
+export const resolveDefaultAuthServiceTarget = (
+  draftTarget: string | null | undefined,
+  savedTarget: string | null | undefined,
+): string => {
+  const defaultTarget = createDefaultModeForm().auth_target;
+  const configuredTarget =
+    draftTarget?.trim() || savedTarget?.trim() || defaultTarget;
+
+  try {
+    const parsed = new URL(configuredTarget);
+    const port =
+      parsed.port ||
+      (parsed.protocol === "https:"
+        ? "443"
+        : parsed.protocol === "http:"
+          ? "80"
+          : "");
+
+    if (!port) return configuredTarget;
+
+    const normalized = new URL(`http://localhost:${port}`);
+    normalized.pathname =
+      parsed.pathname && parsed.pathname !== "/" ? parsed.pathname : "/";
+    normalized.search = parsed.search;
+    normalized.hash = parsed.hash;
+    return normalized
+      .toString()
+      .replace(/\/$/, normalized.pathname === "/" ? "" : normalized.pathname);
+  } catch {
+    return configuredTarget || defaultTarget;
+  }
+};
+
+export const isMappingDraftValid = ({
+  basicAuthValidationMessage,
+  canUseRootDomainSuffix,
+  host,
+  inputMode,
+  staticServeValidationIssue,
+  target,
+  targetType,
+}: {
+  basicAuthValidationMessage: string;
+  canUseRootDomainSuffix: boolean;
+  host: string;
+  inputMode: MappingInputMode;
+  staticServeValidationIssue: StaticServeValidationIssue | null;
+  target: string;
+  targetType: HostMappingTargetType;
+}): boolean => {
+  if (!host) return false;
+  if (inputMode === "subdomain" && !canUseRootDomainSuffix) {
+    return false;
+  }
+  if (targetType !== "proxy") return staticServeValidationIssue === null;
+
+  const normalizedTarget = target.trim();
+  if (!normalizedTarget) return false;
+
+  return (
+    isSupportedProxyTargetUrl(normalizedTarget) && !basicAuthValidationMessage
+  );
+};
+
+export const normalizePublicPort = (value: unknown): number => {
+  const port =
+    typeof value === "number"
+      ? value
+      : Number.parseInt(String(value ?? "").trim(), 10);
+  if (!Number.isFinite(port) || port <= 0) return 0;
+  return Math.floor(port);
+};
+
+export const parsePublicAuthBaseUrlPort = (
+  value: string | undefined,
+  scheme?: "http" | "https",
+): number => {
+  const trimmed = value?.trim();
+  if (!trimmed) return 0;
+
+  try {
+    const parsed = new URL(trimmed);
+    if (scheme && parsed.protocol !== `${scheme}:`) return 0;
+    return normalizePublicPort(parsed.port);
+  } catch {
+    return 0;
+  }
+};
+
+export const syncPublicAuthBaseUrlPort = (
+  value: string | undefined,
+  port: number,
+): string => {
+  const trimmed = value?.trim();
+  if (!trimmed || !port) return trimmed || "";
+
+  try {
+    const parsed = new URL(trimmed);
+    const scheme =
+      parsed.protocol === "https:"
+        ? "https"
+        : parsed.protocol === "http:"
+          ? "http"
+          : null;
+    if (!scheme) return "";
+
+    const isDefaultPort =
+      (scheme === "https" && port === 443) ||
+      (scheme === "http" && port === 80);
+    parsed.port = isDefaultPort ? "" : String(port);
+    parsed.pathname = parsed.pathname.replace(/\/+$/, "") || "/";
+    parsed.search = "";
+    parsed.hash = "";
+    return parsed.toString().replace(/\/$/, "");
+  } catch {
+    return "";
+  }
+};
+
+export const resolveConfiguredAuthServicePublicPort = (
+  config: Pick<
+    SubdomainModeConfig,
+    "public_auth_base_url" | "public_http_port" | "public_https_port"
+  >,
+  allowConfiguredPort = true,
+): number => {
+  const explicitHttpsPort = parsePublicAuthBaseUrlPort(
+    config.public_auth_base_url,
+    "https",
+  );
+  const explicitHttpPort = parsePublicAuthBaseUrlPort(
+    config.public_auth_base_url,
+    "http",
+  );
+  const configuredHttpsPort = normalizePublicPort(config.public_https_port);
+  const configuredHttpPort = normalizePublicPort(config.public_http_port);
+  return (
+    explicitHttpsPort ||
+    explicitHttpPort ||
+    (allowConfiguredPort ? configuredHttpsPort || configuredHttpPort : 0)
+  );
+};
+
+export const resolveConfiguredAccessEntryPublicPort = (
+  config: Pick<
+    SubdomainModeConfig,
+    "public_auth_base_url" | "public_http_port" | "public_https_port"
+  >,
+  allowConfiguredPort = true,
+): number => {
+  const explicitHttpsPort = parsePublicAuthBaseUrlPort(
+    config.public_auth_base_url,
+    "https",
+  );
+  const explicitHttpPort = parsePublicAuthBaseUrlPort(
+    config.public_auth_base_url,
+    "http",
+  );
+  const configuredHttpsPort = normalizePublicPort(config.public_https_port);
+  const configuredHttpPort = normalizePublicPort(config.public_http_port);
+  const configuredPort =
+    explicitHttpsPort ||
+    explicitHttpPort ||
+    (allowConfiguredPort ? configuredHttpsPort || configuredHttpPort : 0);
+  return configuredPort > 0 ? configuredPort : 0;
+};
+
+export const isDefaultPublicPort = (value: unknown): boolean => {
+  const port = normalizePublicPort(value);
+  return port === 80 || port === 443;
+};
+
+export const formatHostWithOptionalPort = (
+  host: string,
+  port: string | number,
+  shouldOmitPort: boolean,
+): string => (shouldOmitPort ? host : `${host}:${port}`);
+
+const configuredDefaultAuthPort = Number.parseInt(
+  import.meta.env?.VITE_FN_KNOCK_DEFAULT_AUTH_PORT ?? "7997",
+  10,
+);
+const defaultAuthPort =
+  Number.isInteger(configuredDefaultAuthPort) &&
+  configuredDefaultAuthPort >= 1 &&
+  configuredDefaultAuthPort <= 65535
+    ? configuredDefaultAuthPort
+    : 7997;
+
+export const createDefaultModeForm = (
+  authPort = defaultAuthPort,
+): SubdomainModeConfig => ({
+  root_domain: "",
+  auth_host: "",
+  auth_target: `http://localhost:${authPort}`,
+  cookie_domain: "",
+  edge_client_ip_enabled: false,
+  aliyun_esa_enabled: false,
+  tencent_edgeone_enabled: false,
+  public_auth_base_url: "",
+  public_http_port: 0,
+  public_https_port: 0,
+  auth_cache_ttl_seconds: 1,
+  auth_cache_unauthorized_ttl_seconds: 1,
+  default_access_mode: "login_first",
+  auto_add_whitelist_on_login: true,
+  passkey_rp_mode: "auth_host",
+  passkey_rp_id: "",
+});
+
+export const createDisabledMappingBasicAuth =
+  (): HostMapping["basic_auth"] => ({
+    enabled: false,
+    username: "",
+    password: "",
+  });
+
+export const normalizeMappingBasicAuth = (
+  value?: Partial<HostMapping["basic_auth"]> | null,
+): HostMapping["basic_auth"] => {
+  const raw = value ?? {};
+  const username = typeof raw.username === "string" ? raw.username.trim() : "";
+  const password = typeof raw.password === "string" ? raw.password : "";
+
+  if (raw.enabled !== true) {
+    return createDisabledMappingBasicAuth();
+  }
+
+  return {
+    enabled: true,
+    username,
+    password,
+  };
+};
+
+export const normalizeBasicAuthProbeTarget = (value: string): string => {
+  const trimmed = value.trim();
+  if (!trimmed) return "";
+
+  try {
+    const parsed = new URL(trimmed);
+    if (parsed.protocol !== "http:" && parsed.protocol !== "https:") {
+      return "";
+    }
+    parsed.hash = "";
+    return parsed.toString();
+  } catch {
+    return "";
+  }
+};
+
+export const createDefaultMapping = (): HostMapping => ({
+  host: "",
+  group_id: null,
+  target_type: "proxy",
+  target: "",
+  static_serve: null,
+  target_path_mode: DEFAULT_TARGET_PATH_MODE,
+  waf_enabled: true,
+  use_auth: true,
+  access_mode: DEFAULT_ACCESS_MODE,
+  suppress_toolbar: false,
+  preserve_host: true,
+  is_default: false,
+  disabled: false,
+  availability: null,
+  visibility: createDefaultMappingVisibility(),
+  protocol_mode: DEFAULT_PROTOCOL_MODE,
+  basic_auth: createDisabledMappingBasicAuth(),
+  locations: [],
+  service_role: "app",
+  title: "",
+  title_override: "",
+  favicon: "",
+  favicon_override: "",
+});
+
+export const createDefaultMappingVisibility =
+  (): HostMapping["visibility"] => ({
+    mode: "inherit",
+    selections: [],
+    custom_cidrs: [],
+    cidrs: [],
+  });
+
+export const normalizeMappingVisibility = (
+  value: HostMapping["visibility"] | null | undefined,
+): HostMapping["visibility"] => ({
+  mode:
+    value?.mode === "custom" || value?.mode === "disabled"
+      ? value.mode
+      : "inherit",
+  selections: (value?.selections ?? []).map((selection) => ({ ...selection })),
+  custom_cidrs: [...(value?.custom_cidrs ?? [])],
+  cidrs: [...(value?.cidrs ?? [])],
+});
+
+export const buildBookmarkExportFilename = (rootDomain: string): string => {
+  const normalizedRootDomain = rootDomain
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9.-]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+  return normalizedRootDomain
+    ? `fn-knock-bookmarks-${normalizedRootDomain}.html`
+    : "fn-knock-bookmarks.html";
+};
+
+export type HostMappingVisibilityIndicator = "inherit" | "custom" | null;
+
+export interface HostMappingSecurityIndicatorState {
+  customCidrCount: number;
+  regionCount: number;
+  visibility: HostMappingVisibilityIndicator;
+  waf: boolean;
+}
+
+export const getMappingSecurityIndicatorState = ({
+  globalVisibilityEnabled,
+  globalWafEnabled,
+  isAuthService,
+  mapping,
+}: {
+  globalVisibilityEnabled: boolean;
+  globalWafEnabled: boolean;
+  isAuthService: boolean;
+  mapping: HostMapping;
+}): HostMappingSecurityIndicatorState => {
+  const excluded = isAuthService || mapping.disabled === true;
+  const visibilityMode = mapping.visibility?.mode;
+  const visibility =
+    excluded || !globalVisibilityEnabled || visibilityMode === "disabled"
+      ? null
+      : visibilityMode === "custom"
+        ? "custom"
+        : "inherit";
+
+  return {
+    customCidrCount: mapping.visibility?.custom_cidrs?.length ?? 0,
+    regionCount: mapping.visibility?.selections?.length ?? 0,
+    visibility,
+    waf: !excluded && globalWafEnabled && mapping.waf_enabled !== false,
+  };
+};
+
+export const getMappingDisplayTitle = (mapping: HostMapping): string =>
+  mapping.title_override.trim() || mapping.title.trim();
+
+export const getMappingFaviconSrc = (mapping: HostMapping): string => {
+  const favicon = mapping.favicon_override?.trim() || mapping.favicon.trim();
+  return /^data:image\//i.test(favicon) ? favicon : "";
+};
+
+export const getMappingFaviconSource = (
+  mapping: HostMapping,
+): "custom" | "auto" | "missing" => {
+  if (/^data:image\//i.test(mapping.favicon_override?.trim() || "")) {
+    return "custom";
+  }
+  return /^data:image\//i.test(mapping.favicon.trim()) ? "auto" : "missing";
+};
+
+export const getFaviconKey = (mapping: HostMapping): string =>
+  `${mapping.host}::${getMappingFaviconSrc(mapping)}`;
+
+export const normalizeMappingForm = (
+  input: HostMapping,
+  {
+    hasFreshFaviconMetadata,
+    hasFreshTitleMetadata,
+    host,
+    isAuthServiceTarget,
+    isWebSocketTarget,
+  }: {
+    hasFreshFaviconMetadata: boolean;
+    hasFreshTitleMetadata: boolean;
+    host: string;
+    isAuthServiceTarget: (target: string) => boolean;
+    isWebSocketTarget: (target: string) => boolean;
+  },
+): HostMapping => {
+  const targetType = normalizeHostMappingTargetType(input.target_type);
+  const normalizedTarget = targetType === "proxy" ? input.target.trim() : "";
+  const serviceRole =
+    targetType === "proxy" && isAuthServiceTarget(normalizedTarget)
+      ? "auth"
+      : "app";
+  const basicAuth =
+    serviceRole === "auth" || targetType !== "proxy"
+      ? createDisabledMappingBasicAuth()
+      : normalizeMappingBasicAuth(input.basic_auth);
+
+  return {
+    host,
+    group_id: serviceRole === "auth" ? null : input.group_id || null,
+    target_type: targetType,
+    target: normalizedTarget,
+    static_serve:
+      targetType === "proxy"
+        ? null
+        : normalizeHostMappingStaticServe(
+            targetType,
+            input.static_serve ?? createDefaultStaticServe(targetType),
+          ),
+    target_path_mode:
+      serviceRole !== "auth" &&
+      targetType === "proxy" &&
+      input.target_path_mode === "prefix"
+        ? "prefix"
+        : DEFAULT_TARGET_PATH_MODE,
+    waf_enabled: serviceRole === "auth" ? true : input.waf_enabled !== false,
+    use_auth: serviceRole === "auth" ? false : input.use_auth,
+    access_mode:
+      serviceRole === "auth"
+        ? DEFAULT_ACCESS_MODE
+        : input.access_mode || DEFAULT_ACCESS_MODE,
+    suppress_toolbar:
+      targetType !== "proxy"
+        ? true
+        : serviceRole === "auth"
+          ? false
+          : isWebSocketTarget(normalizedTarget)
+            ? true
+            : input.suppress_toolbar,
+    preserve_host: targetType === "proxy" && input.preserve_host === true,
+    is_default: serviceRole === "auth" ? false : input.is_default === true,
+    disabled: serviceRole === "auth" ? false : input.disabled === true,
+    availability:
+      serviceRole === "auth"
+        ? null
+        : normalizeHostMappingAvailability(input.availability),
+    visibility:
+      serviceRole === "auth"
+        ? createDefaultMappingVisibility()
+        : normalizeMappingVisibility(input.visibility),
+    protocol_mode:
+      input.protocol_mode === "http1" || input.protocol_mode === "http2"
+        ? input.protocol_mode
+        : DEFAULT_PROTOCOL_MODE,
+    basic_auth: basicAuth.enabled
+      ? basicAuth
+      : createDisabledMappingBasicAuth(),
+    locations:
+      serviceRole === "auth" || targetType !== "proxy"
+        ? []
+        : [...(input.locations ?? [])],
+    service_role: serviceRole,
+    title:
+      targetType === "proxy" && hasFreshTitleMetadata ? input.title.trim() : "",
+    title_override: input.title_override.trim(),
+    favicon:
+      targetType === "proxy" && hasFreshFaviconMetadata
+        ? input.favicon.trim()
+        : "",
+    favicon_override:
+      serviceRole === "auth" ? "" : input.favicon_override?.trim() || "",
+  };
+};

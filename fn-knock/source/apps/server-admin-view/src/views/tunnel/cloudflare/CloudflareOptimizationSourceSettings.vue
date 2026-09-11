@@ -1,1 +1,193 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgQWxlcnQsIEFsZXJ0RGVzY3JpcHRpb24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYWxlcnQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQ2hlY2tib3ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2hlY2tib3giOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IFRleHRhcmVhIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RleHRhcmVhIjsKaW1wb3J0IHsgTG9hZGVyQ2lyY2xlLCBTaGllbGRDaGVjaywgVHJpYW5nbGVBbGVydCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7CiAgb3B0aW1pemF0aW9uQnVpbHRpbkxhYmVsLAogIG9wdGltaXphdGlvblNvdXJjZVNldHRpbmdzRXJyb3JMYWJlbCwKfSBmcm9tICIuL2Nsb3VkZmxhcmVPcHRpbWl6YXRpb25QcmVzZW50YXRpb24iOwppbXBvcnQgQ2xvdWRmbGFyZVJlc29sdmVyRGlhZ25vc3RpY3MgZnJvbSAiLi9DbG91ZGZsYXJlUmVzb2x2ZXJEaWFnbm9zdGljcy52dWUiOwppbXBvcnQgdHlwZSB7IENsb3VkZmxhcmVUdW5uZWxDb250cm9sbGVyIH0gZnJvbSAiLi91c2VDbG91ZGZsYXJlVHVubmVsQ29udHJvbGxlciI7Cgpjb25zdCB7IGNvbnRyb2xsZXIgfSA9IGRlZmluZVByb3BzPHsKICBjb250cm9sbGVyOiBDbG91ZGZsYXJlVHVubmVsQ29udHJvbGxlcjsKfT4oKTsKY29uc3QgewogIGlzU2F2aW5nT3B0aW1pemF0aW9uU291cmNlcywKICBvcHRpbWl6YXRpb24sCiAgb3B0aW1pemF0aW9uQnVpbHRpbklkcywKICBvcHRpbWl6YXRpb25DdXN0b21Ib3N0bmFtZXMsCiAgb3B0aW1pemF0aW9uT2ZmaWNpYWxSYW5nZXMsCiAgb3B0aW1pemF0aW9uU2NhbiwKICBzYXZlT3B0aW1pemF0aW9uU291cmNlcywKICB0LAogIHRvZ2dsZU9wdGltaXphdGlvbkJ1aWx0aW4sCn0gPSBjb250cm9sbGVyOwoKY29uc3QgYnVpbHRpbkxhYmVsID0gKGlkOiBzdHJpbmcsIGhvc3RuYW1lOiBzdHJpbmcpID0+CiAgb3B0aW1pemF0aW9uQnVpbHRpbkxhYmVsKGlkLCBob3N0bmFtZSwgdCk7CmNvbnN0IHNvdXJjZVNldHRpbmdzRXJyb3JMYWJlbCA9IChtZXNzYWdlOiBzdHJpbmcpID0+CiAgb3B0aW1pemF0aW9uU291cmNlU2V0dGluZ3NFcnJvckxhYmVsKG1lc3NhZ2UsIHQpOwpjb25zdCByZXNvbHZlckRpYWdub3N0aWNzID0gY29tcHV0ZWQoKCkgPT4KICBvcHRpbWl6YXRpb25TY2FuLnZhbHVlCiAgICA/IG9wdGltaXphdGlvblNjYW4udmFsdWUucmVzb2x2ZXJEaWFnbm9zdGljcwogICAgOiBvcHRpbWl6YXRpb24udmFsdWU/LnJlc29sdmVyRGlhZ25vc3RpY3MgfHwgW10sCik7CmNvbnN0IHJlc29sdmVyUmVzb2x1dGlvblBhdGggPSBjb21wdXRlZCgKICAoKSA9PgogICAgKG9wdGltaXphdGlvblNjYW4udmFsdWUKICAgICAgPyBvcHRpbWl6YXRpb25TY2FuLnZhbHVlLnJlc29sdXRpb25QYXRoCiAgICAgIDogb3B0aW1pemF0aW9uLnZhbHVlPy5yZXNvbHV0aW9uUGF0aCkgPz8gbnVsbCwKKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CjxkZXRhaWxzIGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBiZy1tdXRlZC8yMCI+CiAgPHN1bW1hcnkgY2xhc3M9ImN1cnNvci1wb2ludGVyIGxpc3Qtbm9uZSBweC00IHB5LTMiPgogICAgPGRpdiBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgIHt7CiAgICAgICAgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uc291cmNlcy5hZHZhbmNlZFRpdGxlIikKICAgICAgfX0KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0ibXQtMSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgIHt7IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnNvdXJjZXMuZGVzY3JpcHRpb24iKSB9fQogICAgPC9kaXY+CiAgPC9zdW1tYXJ5PgogIDxkaXYgY2xhc3M9InNwYWNlLXktNCBib3JkZXItdCBwLTQiPgogICAgPEFsZXJ0CiAgICAgIHYtaWY9Im9wdGltaXphdGlvbj8uY2FuZGlkYXRlU291cmNlcy5lcnJvciIKICAgICAgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiCiAgICAgIGNsYXNzPSJpdGVtcy1zdGFydCIKICAgID4KICAgICAgPFRyaWFuZ2xlQWxlcnQgY2xhc3M9InNpemUtNCIgLz4KICAgICAgPEFsZXJ0RGVzY3JpcHRpb24+CiAgICAgICAge3sKICAgICAgICAgIHNvdXJjZVNldHRpbmdzRXJyb3JMYWJlbChvcHRpbWl6YXRpb24uY2FuZGlkYXRlU291cmNlcy5lcnJvcikKICAgICAgICB9fQogICAgICA8L0FsZXJ0RGVzY3JpcHRpb24+CiAgICA8L0FsZXJ0PgoKICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTMgcm91bmRlZC1tZCBib3JkZXIgcC0zIj4KICAgICAgPENoZWNrYm94CiAgICAgICAgaWQ9Im9wdGltaXphdGlvbi1vZmZpY2lhbC1yYW5nZXMiCiAgICAgICAgdi1tb2RlbD0ib3B0aW1pemF0aW9uT2ZmaWNpYWxSYW5nZXMiCiAgICAgIC8+CiAgICAgIDxMYWJlbAogICAgICAgIGZvcj0ib3B0aW1pemF0aW9uLW9mZmljaWFsLXJhbmdlcyIKICAgICAgICBjbGFzcz0iZ3JpZCBjdXJzb3ItcG9pbnRlciBnYXAtMSBmb250LW5vcm1hbCIKICAgICAgPgogICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHQoCiAgICAgICAgICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnNvdXJjZXMub2ZmaWNpYWxSYW5nZXMiLAogICAgICAgICAgICApCiAgICAgICAgICB9fQogICAgICAgIDwvc3Bhbj4KICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgKICAgICAgICAgICAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uc291cmNlcy5vZmZpY2lhbFJhbmdlc0Rlc2NyaXB0aW9uIiwKICAgICAgICAgICAgKQogICAgICAgICAgfX0KICAgICAgICA8L3NwYW4+CiAgICAgIDwvTGFiZWw+CiAgICA8L2Rpdj4KCiAgICA8ZGl2PgogICAgICA8ZGl2IGNsYXNzPSJtYi0yIHRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgIHt7CiAgICAgICAgICB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5zb3VyY2VzLmJ1aWx0aW5UaXRsZSIpCiAgICAgICAgfX0KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTIgc206Z3JpZC1jb2xzLTIiPgogICAgICAgIDxkaXYKICAgICAgICAgIHYtZm9yPSJzb3VyY2UgaW4gb3B0aW1pemF0aW9uPy5jYW5kaWRhdGVTb3VyY2VzLmJ1aWx0aW5zIHx8CiAgICAgICAgICBbXSIKICAgICAgICAgIDprZXk9InNvdXJjZS5pZCIKICAgICAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0zIHJvdW5kZWQtbWQgYm9yZGVyIHAtMyIKICAgICAgICA+CiAgICAgICAgICA8Q2hlY2tib3gKICAgICAgICAgICAgOmlkPSJgb3B0aW1pemF0aW9uLXNvdXJjZS0ke3NvdXJjZS5pZH1gIgogICAgICAgICAgICA6bW9kZWwtdmFsdWU9Im9wdGltaXphdGlvbkJ1aWx0aW5JZHMuaW5jbHVkZXMoc291cmNlLmlkKSIKICAgICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iCiAgICAgICAgICAgICAgKHZhbHVlKSA9PgogICAgICAgICAgICAgICAgdG9nZ2xlT3B0aW1pemF0aW9uQnVpbHRpbihzb3VyY2UuaWQsIHZhbHVlID09PSB0cnVlKQogICAgICAgICAgICAiCiAgICAgICAgICAvPgogICAgICAgICAgPExhYmVsCiAgICAgICAgICAgIDpmb3I9ImBvcHRpbWl6YXRpb24tc291cmNlLSR7c291cmNlLmlkfWAiCiAgICAgICAgICAgIGNsYXNzPSJncmlkIG1pbi13LTAgY3Vyc29yLXBvaW50ZXIgZ2FwLTEgZm9udC1ub3JtYWwiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICB7eyBidWlsdGluTGFiZWwoc291cmNlLmlkLCBzb3VyY2UuaG9zdG5hbWUpIH19CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPGNvZGUgY2xhc3M9InRydW5jYXRlIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57ewogICAgICAgICAgICAgIHNvdXJjZS5ob3N0bmFtZQogICAgICAgICAgICB9fTwvY29kZT4KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CgogICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgPExhYmVsIGZvcj0ib3B0aW1pemF0aW9uLWN1c3RvbS1ob3N0bmFtZXMiPgogICAgICAgIHt7CiAgICAgICAgICB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5zb3VyY2VzLmN1c3RvbVRpdGxlIikKICAgICAgICB9fQogICAgICA8L0xhYmVsPgogICAgICA8VGV4dGFyZWEKICAgICAgICBpZD0ib3B0aW1pemF0aW9uLWN1c3RvbS1ob3N0bmFtZXMiCiAgICAgICAgdi1tb2RlbD0ib3B0aW1pemF0aW9uQ3VzdG9tSG9zdG5hbWVzIgogICAgICAgIDpyb3dzPSI0IgogICAgICAgIDpwbGFjZWhvbGRlcj0iCiAgICAgICAgICB0KAogICAgICAgICAgICAnYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uc291cmNlcy5jdXN0b21QbGFjZWhvbGRlcicsCiAgICAgICAgICApCiAgICAgICAgIgogICAgICAvPgogICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sKICAgICAgICAgIHQoCiAgICAgICAgICAgICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5zb3VyY2VzLmN1c3RvbURlc2NyaXB0aW9uIiwKICAgICAgICAgICAgewogICAgICAgICAgICAgIG1heDoKICAgICAgICAgICAgICAgIG9wdGltaXphdGlvbj8uY2FuZGlkYXRlU291cmNlcy5tYXhDdXN0b21Ib3N0bmFtZXMgfHwgMTYsCiAgICAgICAgICAgIH0sCiAgICAgICAgICApCiAgICAgICAgfX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8QWxlcnQgY2xhc3M9Iml0ZW1zLXN0YXJ0Ij4KICAgICAgPFNoaWVsZENoZWNrIGNsYXNzPSJzaXplLTQiIC8+CiAgICAgIDxBbGVydERlc2NyaXB0aW9uPgogICAgICAgIHt7IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnNvdXJjZXMuc2FmZXR5IikgfX0KICAgICAgPC9BbGVydERlc2NyaXB0aW9uPgogICAgPC9BbGVydD4KCiAgICA8Q2xvdWRmbGFyZVJlc29sdmVyRGlhZ25vc3RpY3MKICAgICAgdi1pZj0icmVzb2x2ZXJEaWFnbm9zdGljcy5sZW5ndGggfHwgcmVzb2x2ZXJSZXNvbHV0aW9uUGF0aCIKICAgICAgOmRpYWdub3N0aWNzPSJyZXNvbHZlckRpYWdub3N0aWNzIgogICAgICA6cmVzb2x1dGlvbi1wYXRoPSJyZXNvbHZlclJlc29sdXRpb25QYXRoIgogICAgLz4KCiAgICA8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktZW5kIj4KICAgICAgPEJ1dHRvbgogICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZ09wdGltaXphdGlvblNvdXJjZXMiCiAgICAgICAgQGNsaWNrPSJzYXZlT3B0aW1pemF0aW9uU291cmNlcyIKICAgICAgPgogICAgICAgIDxMb2FkZXJDaXJjbGUKICAgICAgICAgIHYtaWY9ImlzU2F2aW5nT3B0aW1pemF0aW9uU291cmNlcyIKICAgICAgICAgIGNsYXNzPSJtci0yIHNpemUtNCBhbmltYXRlLXNwaW4iCiAgICAgICAgLz4KICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5zb3VyY2VzLnNhdmUiKSB9fQogICAgICA8L0J1dHRvbj4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L2RldGFpbHM+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from "vue";
+import { Alert, AlertDescription } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { LoaderCircle, ShieldCheck, TriangleAlert } from "lucide-vue-next";
+import {
+  optimizationBuiltinLabel,
+  optimizationSourceSettingsErrorLabel,
+} from "./cloudflareOptimizationPresentation";
+import CloudflareResolverDiagnostics from "./CloudflareResolverDiagnostics.vue";
+import type { CloudflareTunnelController } from "./useCloudflareTunnelController";
+
+const { controller } = defineProps<{
+  controller: CloudflareTunnelController;
+}>();
+const {
+  isSavingOptimizationSources,
+  optimization,
+  optimizationBuiltinIds,
+  optimizationCustomHostnames,
+  optimizationOfficialRanges,
+  optimizationScan,
+  saveOptimizationSources,
+  t,
+  toggleOptimizationBuiltin,
+} = controller;
+
+const builtinLabel = (id: string, hostname: string) =>
+  optimizationBuiltinLabel(id, hostname, t);
+const sourceSettingsErrorLabel = (message: string) =>
+  optimizationSourceSettingsErrorLabel(message, t);
+const resolverDiagnostics = computed(() =>
+  optimizationScan.value
+    ? optimizationScan.value.resolverDiagnostics
+    : optimization.value?.resolverDiagnostics || [],
+);
+const resolverResolutionPath = computed(
+  () =>
+    (optimizationScan.value
+      ? optimizationScan.value.resolutionPath
+      : optimization.value?.resolutionPath) ?? null,
+);
+</script>
+
+<template>
+<details class="rounded-lg border bg-muted/20">
+  <summary class="cursor-pointer list-none px-4 py-3">
+    <div class="text-sm font-medium">
+      {{
+        t("admin.cloudflareTunnel.optimization.sources.advancedTitle")
+      }}
+    </div>
+    <div class="mt-1 text-xs text-muted-foreground">
+      {{ t("admin.cloudflareTunnel.optimization.sources.description") }}
+    </div>
+  </summary>
+  <div class="space-y-4 border-t p-4">
+    <Alert
+      v-if="optimization?.candidateSources.error"
+      variant="destructive"
+      class="items-start"
+    >
+      <TriangleAlert class="size-4" />
+      <AlertDescription>
+        {{
+          sourceSettingsErrorLabel(optimization.candidateSources.error)
+        }}
+      </AlertDescription>
+    </Alert>
+
+    <div class="flex items-start gap-3 rounded-md border p-3">
+      <Checkbox
+        id="optimization-official-ranges"
+        v-model="optimizationOfficialRanges"
+      />
+      <Label
+        for="optimization-official-ranges"
+        class="grid cursor-pointer gap-1 font-normal"
+      >
+        <span class="text-sm font-medium">
+          {{
+            t(
+              "admin.cloudflareTunnel.optimization.sources.officialRanges",
+            )
+          }}
+        </span>
+        <span class="text-xs text-muted-foreground">
+          {{
+            t(
+              "admin.cloudflareTunnel.optimization.sources.officialRangesDescription",
+            )
+          }}
+        </span>
+      </Label>
+    </div>
+
+    <div>
+      <div class="mb-2 text-sm font-medium">
+        {{
+          t("admin.cloudflareTunnel.optimization.sources.builtinTitle")
+        }}
+      </div>
+      <div class="grid gap-2 sm:grid-cols-2">
+        <div
+          v-for="source in optimization?.candidateSources.builtins ||
+          []"
+          :key="source.id"
+          class="flex items-start gap-3 rounded-md border p-3"
+        >
+          <Checkbox
+            :id="`optimization-source-${source.id}`"
+            :model-value="optimizationBuiltinIds.includes(source.id)"
+            @update:model-value="
+              (value) =>
+                toggleOptimizationBuiltin(source.id, value === true)
+            "
+          />
+          <Label
+            :for="`optimization-source-${source.id}`"
+            class="grid min-w-0 cursor-pointer gap-1 font-normal"
+          >
+            <span class="text-sm font-medium">
+              {{ builtinLabel(source.id, source.hostname) }}
+            </span>
+            <code class="truncate text-xs text-muted-foreground">{{
+              source.hostname
+            }}</code>
+          </Label>
+        </div>
+      </div>
+    </div>
+
+    <div class="space-y-2">
+      <Label for="optimization-custom-hostnames">
+        {{
+          t("admin.cloudflareTunnel.optimization.sources.customTitle")
+        }}
+      </Label>
+      <Textarea
+        id="optimization-custom-hostnames"
+        v-model="optimizationCustomHostnames"
+        :rows="4"
+        :placeholder="
+          t(
+            'admin.cloudflareTunnel.optimization.sources.customPlaceholder',
+          )
+        "
+      />
+      <div class="text-xs text-muted-foreground">
+        {{
+          t(
+            "admin.cloudflareTunnel.optimization.sources.customDescription",
+            {
+              max:
+                optimization?.candidateSources.maxCustomHostnames || 16,
+            },
+          )
+        }}
+      </div>
+    </div>
+
+    <Alert class="items-start">
+      <ShieldCheck class="size-4" />
+      <AlertDescription>
+        {{ t("admin.cloudflareTunnel.optimization.sources.safety") }}
+      </AlertDescription>
+    </Alert>
+
+    <CloudflareResolverDiagnostics
+      v-if="resolverDiagnostics.length || resolverResolutionPath"
+      :diagnostics="resolverDiagnostics"
+      :resolution-path="resolverResolutionPath"
+    />
+
+    <div class="flex justify-end">
+      <Button
+        variant="outline"
+        :disabled="isSavingOptimizationSources"
+        @click="saveOptimizationSources"
+      >
+        <LoaderCircle
+          v-if="isSavingOptimizationSources"
+          class="mr-2 size-4 animate-spin"
+        />
+        {{ t("admin.cloudflareTunnel.optimization.sources.save") }}
+      </Button>
+    </div>
+  </div>
+</details>
+</template>

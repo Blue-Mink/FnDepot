@@ -1,1 +1,92 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgppbXBvcnQgewogIGdldFBhc3NrZXlFcnJvckRldGFpbHMsCiAgcmVzb2x2ZVBhc3NrZXlSZWdpc3RyYXRpb25FcnJvciwKICBzaG91bGRSZXRyeVBhc3NrZXlSZWdpc3RyYXRpb25XaXRoU3RhbmRhcmRQcm9maWxlLAp9IGZyb20gIi4uL3NyYy9saWIvcGFzc2tleS1lcnJvcnMiOwoKY29uc3QgbWVzc2FnZXMgPSB7CiAgYWxyZWFkeVJlZ2lzdGVyZWQ6ICJhbHJlYWR5IHJlZ2lzdGVyZWQiLAogIGNhbmNlbGxlZDogImNhbmNlbGxlZCIsCiAgZmFpbGVkOiAiZmFpbGVkIiwKICB1bmF2YWlsYWJsZTogInVuYXZhaWxhYmxlIiwKfTsKCmRlc2NyaWJlKCJwYXNza2V5IHJlZ2lzdHJhdGlvbiBlcnJvcnMiLCAoKSA9PiB7CiAgaXQoIm1hcHMgQW5kcm9pZCdzIGdlbmVyaWMgdHJhbnNpZW50IGVycm9yIHRvIGFuIGFjdGlvbmFibGUgbWVzc2FnZSIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgcmVzb2x2ZVBhc3NrZXlSZWdpc3RyYXRpb25FcnJvcigKICAgICAgICB7CiAgICAgICAgICBuYW1lOiAiVW5rbm93bkVycm9yIiwKICAgICAgICAgIG1lc3NhZ2U6ICJUaGUgb3BlcmF0aW9uIGZhaWxlZCBmb3IgYW4gdW5rbm93biB0cmFuc2llbnQgcmVhc29uIiwKICAgICAgICB9LAogICAgICAgIG1lc3NhZ2VzLAogICAgICApLAogICAgICAidW5hdmFpbGFibGUiLAogICAgKTsKICB9KTsKCiAgaXQoImRpc3Rpbmd1aXNoZXMgZXhwbGljaXQgY2FuY2VsbGF0aW9uLCBjYXRjaC1hbGwgcmVqZWN0aW9uLCBhbmQgYW4gZXhpc3RpbmcgY3JlZGVudGlhbCIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgcmVzb2x2ZVBhc3NrZXlSZWdpc3RyYXRpb25FcnJvcih7IG5hbWU6ICJBYm9ydEVycm9yIiB9LCBtZXNzYWdlcyksCiAgICAgICJjYW5jZWxsZWQiLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgcmVzb2x2ZVBhc3NrZXlSZWdpc3RyYXRpb25FcnJvcih7IG5hbWU6ICJOb3RBbGxvd2VkRXJyb3IiIH0sIG1lc3NhZ2VzKSwKICAgICAgInVuYXZhaWxhYmxlIiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHJlc29sdmVQYXNza2V5UmVnaXN0cmF0aW9uRXJyb3IoeyBuYW1lOiAiSW52YWxpZFN0YXRlRXJyb3IiIH0sIG1lc3NhZ2VzKSwKICAgICAgImFscmVhZHkgcmVnaXN0ZXJlZCIsCiAgICApOwogIH0pOwoKICBpdCgiZG9lcyBub3QgZXhwb3NlIHVua25vd24gcGxhdGZvcm0gZXJyb3IgbWVzc2FnZXMiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHJlc29sdmVQYXNza2V5UmVnaXN0cmF0aW9uRXJyb3IoCiAgICAgICAgeyBuYW1lOiAiVmVuZG9yRXJyb3IiLCBtZXNzYWdlOiAiaW50ZXJuYWwgcHJvdmlkZXIgZGV0YWlscyIgfSwKICAgICAgICBtZXNzYWdlcywKICAgICAgKSwKICAgICAgImZhaWxlZCIsCiAgICApOwogICAgYXNzZXJ0LmRlZXBFcXVhbChnZXRQYXNza2V5RXJyb3JEZXRhaWxzKCJwbGFpbiBlcnJvciIpLCB7CiAgICAgIG5hbWU6ICIiLAogICAgICBtZXNzYWdlOiAicGxhaW4gZXJyb3IiLAogICAgfSk7CiAgfSk7CgogIGl0KCJyZXRyaWVzIG9ubHkgQW5kcm9pZCBwcm92aWRlciBmYWlsdXJlcyB3aXRoIHRoZSBzdGFuZGFyZCBwcm9maWxlIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKAogICAgICBzaG91bGRSZXRyeVBhc3NrZXlSZWdpc3RyYXRpb25XaXRoU3RhbmRhcmRQcm9maWxlKAogICAgICAgIHsgbmFtZTogIlVua25vd25FcnJvciIgfSwKICAgICAgICB0cnVlLAogICAgICApLAogICAgICB0cnVlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgc2hvdWxkUmV0cnlQYXNza2V5UmVnaXN0cmF0aW9uV2l0aFN0YW5kYXJkUHJvZmlsZSgKICAgICAgICB7IG5hbWU6ICJOb3RTdXBwb3J0ZWRFcnJvciIgfSwKICAgICAgICB0cnVlLAogICAgICApLAogICAgICB0cnVlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgc2hvdWxkUmV0cnlQYXNza2V5UmVnaXN0cmF0aW9uV2l0aFN0YW5kYXJkUHJvZmlsZSgKICAgICAgICB7IG5hbWU6ICJOb3RBbGxvd2VkRXJyb3IiIH0sCiAgICAgICAgdHJ1ZSwKICAgICAgKSwKICAgICAgZmFsc2UsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBzaG91bGRSZXRyeVBhc3NrZXlSZWdpc3RyYXRpb25XaXRoU3RhbmRhcmRQcm9maWxlKAogICAgICAgIHsgbmFtZTogIlVua25vd25FcnJvciIgfSwKICAgICAgICBmYWxzZSwKICAgICAgKSwKICAgICAgZmFsc2UsCiAgICApOwogIH0pOwp9KTsK
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import {
+  getPasskeyErrorDetails,
+  resolvePasskeyRegistrationError,
+  shouldRetryPasskeyRegistrationWithStandardProfile,
+} from "../src/lib/passkey-errors";
+
+const messages = {
+  alreadyRegistered: "already registered",
+  cancelled: "cancelled",
+  failed: "failed",
+  unavailable: "unavailable",
+};
+
+describe("passkey registration errors", () => {
+  it("maps Android's generic transient error to an actionable message", () => {
+    assert.equal(
+      resolvePasskeyRegistrationError(
+        {
+          name: "UnknownError",
+          message: "The operation failed for an unknown transient reason",
+        },
+        messages,
+      ),
+      "unavailable",
+    );
+  });
+
+  it("distinguishes explicit cancellation, catch-all rejection, and an existing credential", () => {
+    assert.equal(
+      resolvePasskeyRegistrationError({ name: "AbortError" }, messages),
+      "cancelled",
+    );
+    assert.equal(
+      resolvePasskeyRegistrationError({ name: "NotAllowedError" }, messages),
+      "unavailable",
+    );
+    assert.equal(
+      resolvePasskeyRegistrationError({ name: "InvalidStateError" }, messages),
+      "already registered",
+    );
+  });
+
+  it("does not expose unknown platform error messages", () => {
+    assert.equal(
+      resolvePasskeyRegistrationError(
+        { name: "VendorError", message: "internal provider details" },
+        messages,
+      ),
+      "failed",
+    );
+    assert.deepEqual(getPasskeyErrorDetails("plain error"), {
+      name: "",
+      message: "plain error",
+    });
+  });
+
+  it("retries only Android provider failures with the standard profile", () => {
+    assert.equal(
+      shouldRetryPasskeyRegistrationWithStandardProfile(
+        { name: "UnknownError" },
+        true,
+      ),
+      true,
+    );
+    assert.equal(
+      shouldRetryPasskeyRegistrationWithStandardProfile(
+        { name: "NotSupportedError" },
+        true,
+      ),
+      true,
+    );
+    assert.equal(
+      shouldRetryPasskeyRegistrationWithStandardProfile(
+        { name: "NotAllowedError" },
+        true,
+      ),
+      false,
+    );
+    assert.equal(
+      shouldRetryPasskeyRegistrationWithStandardProfile(
+        { name: "UnknownError" },
+        false,
+      ),
+      false,
+    );
+  });
+});

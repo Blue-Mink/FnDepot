@@ -1,1 +1,21 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB0eXBlIHsgQWxlcnRWYXJpYW50cyB9IGZyb20gIi4iCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCmltcG9ydCB7IGFsZXJ0VmFyaWFudHMgfSBmcm9tICIuIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXQogIHZhcmlhbnQ/OiBBbGVydFZhcmlhbnRzWyJ2YXJpYW50Il0KfT4oKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICBkYXRhLXNsb3Q9ImFsZXJ0IgogICAgOmNsYXNzPSJjbihhbGVydFZhcmlhbnRzKHsgdmFyaWFudCB9KSwgcHJvcHMuY2xhc3MpIgogICAgcm9sZT0iYWxlcnQiCiAgPgogICAgPHNsb3QgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import type { AlertVariants } from "."
+import { cn } from "@/lib/utils"
+import { alertVariants } from "."
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+  variant?: AlertVariants["variant"]
+}>()
+</script>
+
+<template>
+  <div
+    data-slot="alert"
+    :class="cn(alertVariants({ variant }), props.class)"
+    role="alert"
+  >
+    <slot />
+  </div>
+</template>

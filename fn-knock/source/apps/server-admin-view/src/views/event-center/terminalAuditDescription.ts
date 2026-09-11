@@ -1,1 +1,51 @@
-aW1wb3J0IHR5cGUgeyBTeXN0ZW1FdmVudFJlY29yZCB9IGZyb20gIi4uLy4uL3R5cGVzIjsKaW1wb3J0IHR5cGUgeyBTeXN0ZW1FdmVudFRyYW5zbGF0ZSB9IGZyb20gIi4vc3lzdGVtRXZlbnRWYWx1ZUZvcm1hdHRlcnMiOwoKY29uc3QgdGVybWluYWxBdWRpdEFjdGlvbnMgPSBuZXcgU2V0KFsKICAidGFyZ2V0X2NyZWF0ZWQiLAogICJ0YXJnZXRfdXBkYXRlZCIsCiAgInRhcmdldF9kZWxldGVkIiwKICAiaG9zdF9rZXlfY29uZmlybWVkIiwKICAiY29ubmVjdGlvbl90ZXN0X3N1Y2NlZWRlZCIsCiAgImNvbm5lY3Rpb25fdGVzdF9mYWlsZWQiLAogICJsb2NhbF90ZXJtaW5hbF9lbmFibGVkIiwKICAibG9jYWxfdGVybWluYWxfZGlzYWJsZWQiLAogICJzZXNzaW9uX2NyZWF0aW9uX3N0YXJ0ZWQiLAogICJzZXNzaW9uX2NyZWF0aW9uX2ZhaWxlZCIsCiAgInNlc3Npb25fZW5kZWQiLAogICJzZXNzaW9uX2V4aXRlZCIsCiAgInNlc3Npb25fbG9zdCIsCl0pOwoKZXhwb3J0IGNvbnN0IGRlc2NyaWJlVGVybWluYWxBdWRpdEV2ZW50ID0gKAogIGV2ZW50OiBTeXN0ZW1FdmVudFJlY29yZCwKICB0cmFuc2xhdGU6IFN5c3RlbUV2ZW50VHJhbnNsYXRlLAogIHNob3J0SWQ6ICh2YWx1ZTogc3RyaW5nLCBsZW5ndGg/OiBudW1iZXIpID0+IHN0cmluZywKKSA9PiB7CiAgY29uc3QgcGF5bG9hZCA9IGV2ZW50LnBheWxvYWQgPz8ge307CiAgY29uc3QgYWN0aW9uS2V5ID0gU3RyaW5nKHBheWxvYWQuYWN0aW9uIHx8ICJ1bmtub3duIik7CiAgY29uc3QgYWN0aW9uID0gdGVybWluYWxBdWRpdEFjdGlvbnMuaGFzKGFjdGlvbktleSkKICAgID8gdHJhbnNsYXRlKGBhZG1pbi5ldmVudENlbnRlci5ldmVudHMudGVybWluYWxBdWRpdEFjdGlvbnMuJHthY3Rpb25LZXl9YCkKICAgIDogYWN0aW9uS2V5OwogIGNvbnN0IHNlc3Npb25JZCA9IFN0cmluZyhwYXlsb2FkLnNlc3Npb25faWQgfHwgIiIpLnRyaW0oKTsKICBjb25zdCB0YXJnZXRJZCA9IFN0cmluZyhwYXlsb2FkLnRhcmdldF9pZCB8fCAiIikudHJpbSgpOwogIGNvbnN0IHJlc291cmNlID0gc2Vzc2lvbklkCiAgICA/IHRyYW5zbGF0ZSgiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLnRlcm1pbmFsQXVkaXRTZXNzaW9uIiwgewogICAgICAgIHNlc3Npb246IHNob3J0SWQoc2Vzc2lvbklkLCAxNCksCiAgICAgIH0pCiAgICA6IHRhcmdldElkCiAgICAgID8gdHJhbnNsYXRlKCJhZG1pbi5ldmVudENlbnRlci5ldmVudHMudGVybWluYWxBdWRpdFRhcmdldCIsIHsKICAgICAgICAgIHRhcmdldDogc2hvcnRJZCh0YXJnZXRJZCwgMTQpLAogICAgICAgIH0pCiAgICAgIDogU3RyaW5nKGV2ZW50LnN1YmplY3Q/LmlkIHx8ICItIik7CiAgY29uc3QgZXJyb3JDb2RlID0gU3RyaW5nKHBheWxvYWQuZXJyb3JfY29kZSB8fCAiIikudHJpbSgpOwogIHJldHVybiB0cmFuc2xhdGUoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy50ZXJtaW5hbEF1ZGl0RGVzY3JpcHRpb24iLCB7CiAgICBhY3Rpb24sCiAgICByZXNvdXJjZSwKICAgIGVycm9yOiBlcnJvckNvZGUKICAgICAgPyB0cmFuc2xhdGUoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy50ZXJtaW5hbEF1ZGl0RXJyb3IiLCB7CiAgICAgICAgICBlcnJvcjogZXJyb3JDb2RlLAogICAgICAgIH0pCiAgICAgIDogIiIsCiAgfSk7Cn07Cg==
+import type { SystemEventRecord } from "../../types";
+import type { SystemEventTranslate } from "./systemEventValueFormatters";
+
+const terminalAuditActions = new Set([
+  "target_created",
+  "target_updated",
+  "target_deleted",
+  "host_key_confirmed",
+  "connection_test_succeeded",
+  "connection_test_failed",
+  "local_terminal_enabled",
+  "local_terminal_disabled",
+  "session_creation_started",
+  "session_creation_failed",
+  "session_ended",
+  "session_exited",
+  "session_lost",
+]);
+
+export const describeTerminalAuditEvent = (
+  event: SystemEventRecord,
+  translate: SystemEventTranslate,
+  shortId: (value: string, length?: number) => string,
+) => {
+  const payload = event.payload ?? {};
+  const actionKey = String(payload.action || "unknown");
+  const action = terminalAuditActions.has(actionKey)
+    ? translate(`admin.eventCenter.events.terminalAuditActions.${actionKey}`)
+    : actionKey;
+  const sessionId = String(payload.session_id || "").trim();
+  const targetId = String(payload.target_id || "").trim();
+  const resource = sessionId
+    ? translate("admin.eventCenter.events.terminalAuditSession", {
+        session: shortId(sessionId, 14),
+      })
+    : targetId
+      ? translate("admin.eventCenter.events.terminalAuditTarget", {
+          target: shortId(targetId, 14),
+        })
+      : String(event.subject?.id || "-");
+  const errorCode = String(payload.error_code || "").trim();
+  return translate("admin.eventCenter.events.terminalAuditDescription", {
+    action,
+    resource,
+    error: errorCode
+      ? translate("admin.eventCenter.events.terminalAuditError", {
+          error: errorCode,
+        })
+      : "",
+  });
+};

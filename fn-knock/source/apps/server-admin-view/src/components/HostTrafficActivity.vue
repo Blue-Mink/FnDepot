@@ -1,1 +1,398 @@
-PHRlbXBsYXRlPgogIDxQb3BvdmVyIDpvcGVuPSJvcGVuIiBAdXBkYXRlOm9wZW49ImhhbmRsZU9wZW5DaGFuZ2UiPgogICAgPFBvcG92ZXJBbmNob3IgYXMtY2hpbGQ+CiAgICAgIDxidXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgY2xhc3M9ImlubGluZS1mbGV4IG1pbi1oLTYgbWF4LXctZnVsbCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC14LTIgZ2FwLXktMSBweC0xLjUgdGV4dC1sZWZ0IHRleHQteHMgbGVhZGluZy1ub25lIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLW11dGVkLzUwIGZvY3VzLXZpc2libGU6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0yIGZvY3VzLXZpc2libGU6cmluZy1yaW5nIgogICAgICAgIDpjbGFzcz0ieyAnYm9yZGVyLXByaW1hcnkvMzAgYmctcHJpbWFyeS81Jzogb3BlbiB8fCBkaWFsb2dPcGVuIH0iCiAgICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgICAgdCgnYWRtaW4uaG9zdFRyYWZmaWMuZGV0YWlsc0FyaWEnLCB7CiAgICAgICAgICAgIHRpdGxlOiBkaXNwbGF5VGl0bGUsCiAgICAgICAgICAgIGhvc3QsCiAgICAgICAgICB9KQogICAgICAgICIKICAgICAgICBAcG9pbnRlcmRvd249ImhhbmRsZVRyaWdnZXJQb2ludGVyRG93biIKICAgICAgICBAcG9pbnRlcmVudGVyPSJoYW5kbGVUcmlnZ2VyUG9pbnRlckVudGVyIgogICAgICAgIEBwb2ludGVybGVhdmU9ImhhbmRsZVRyaWdnZXJQb2ludGVyTGVhdmUiCiAgICAgICAgQGZvY3VzPSJoYW5kbGVUcmlnZ2VyRm9jdXMiCiAgICAgICAgQGJsdXI9ImhhbmRsZVRyaWdnZXJCbHVyIgogICAgICAgIEBjbGljay5wcmV2ZW50PSJoYW5kbGVUcmlnZ2VyQ2xpY2siCiAgICAgID4KICAgICAgICA8c3BhbgogICAgICAgICAgdi1pZj0iaGFzUmVhbHRpbWVJblRyYWZmaWMiCiAgICAgICAgICBjbGFzcz0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xIgogICAgICAgID4KICAgICAgICAgIDxBcnJvd0Rvd25MZWZ0IGNsYXNzPSJoLTMgdy0zIHNocmluay0wIHRleHQtZW1lcmFsZC03MDAiIC8+CiAgICAgICAgICA8c3Bhbj57eyBjb21wYWN0SW5UZXh0IH19PC9zcGFuPgogICAgICAgIDwvc3Bhbj4KICAgICAgICA8c3BhbgogICAgICAgICAgdi1pZj0iaGFzUmVhbHRpbWVPdXRUcmFmZmljIgogICAgICAgICAgY2xhc3M9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSIKICAgICAgICA+CiAgICAgICAgICA8QXJyb3dVcFJpZ2h0IGNsYXNzPSJoLTMgdy0zIHNocmluay0wIHRleHQtYmx1ZS03MDAiIC8+CiAgICAgICAgICA8c3Bhbj57eyBjb21wYWN0T3V0VGV4dCB9fTwvc3Bhbj4KICAgICAgICA8L3NwYW4+CiAgICAgICAgPHNwYW4gdi1pZj0iIWhhc0NvbXBhY3RUcmFmZmljIj57eyB0KCJhZG1pbi5ob3N0VHJhZmZpYy52aWV3IikgfX08L3NwYW4+CiAgICAgIDwvYnV0dG9uPgogICAgPC9Qb3BvdmVyQW5jaG9yPgoKICAgIDxQb3BvdmVyQ29udGVudAogICAgICB2LWlmPSIhaXNUb3VjaEludGVyYWN0aW9uIgogICAgICBzaWRlPSJsZWZ0IgogICAgICBhbGlnbj0iY2VudGVyIgogICAgICBjbGFzcz0idy1bMjhyZW1dIG1heC13LVs5MnZ3XSByb3VuZGVkLW1kIHAtMCB0ZXh0LWxlZnQiCiAgICAgIEBwb2ludGVyZW50ZXI9ImhhbmRsZUNvbnRlbnRQb2ludGVyRW50ZXIiCiAgICAgIEBwb2ludGVybGVhdmU9ImhhbmRsZUNvbnRlbnRQb2ludGVyTGVhdmUiCiAgICA+CiAgICAgIDxkaXYgY2xhc3M9ImJvcmRlci1iIHB4LTQgcHktMyI+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0cnVuY2F0ZSB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQiIDp0aXRsZT0iZGlzcGxheVRpdGxlIj4KICAgICAgICAgICAgICB7eyBkaXNwbGF5VGl0bGUgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICBjbGFzcz0ibXQtMSBicmVhay1hbGwgdGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgOnRpdGxlPSJob3N0IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgaG9zdCB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAge3sgc2FtcGxlU3RhdHVzVGV4dCB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgY2xhc3M9ImgtNyBzaHJpbmstMCBweC0yIHRleHQteHMiCiAgICAgICAgICAgIEBjbGljay5zdG9wLnByZXZlbnQ9Im9wZW5BY3RpdmVJcERpYWxvZyIKICAgICAgICAgID4KICAgICAgICAgICAgPE5ldHdvcmsgY2xhc3M9ImgtMy41IHctMy41IiAvPgogICAgICAgICAgICB7eyBhY3RpdmVJcEJ1dHRvblRleHQgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktNCBwLTQiPgogICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTIgc206Z3JpZC1jb2xzLTIiPgogICAgICAgICAgPGRpdiBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgYmctbXV0ZWQvMjAgcHgtMyBweS0yLjUiPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgdGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8QXJyb3dEb3duTGVmdCBjbGFzcz0iaC0zLjUgdy0zLjUgdGV4dC1lbWVyYWxkLTcwMCIgLz4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5ob3N0VHJhZmZpYy5yZWFsdGltZUluIikgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9Im10LTEgdGV4dC1iYXNlIGZvbnQtc2VtaWJvbGQiPgogICAgICAgICAgICAgIHt7IHJlYWx0aW1lSW5UZXh0IH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJyb3VuZGVkLW1kIGJvcmRlciBiZy1tdXRlZC8yMCBweC0zIHB5LTIuNSI+CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxBcnJvd1VwUmlnaHQgY2xhc3M9ImgtMy41IHctMy41IHRleHQtYmx1ZS03MDAiIC8+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaG9zdFRyYWZmaWMucmVhbHRpbWVPdXQiKSB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMSB0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICAgICAge3sgcmVhbHRpbWVPdXRUZXh0IH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxUYWJzIHYtbW9kZWw9InJhbmdlS2V5IiBjbGFzcz0idy1mdWxsIj4KICAgICAgICAgIDxUYWJzTGlzdCBjbGFzcz0iZ3JpZCB3LWZ1bGwgZ3JpZC1jb2xzLTUiPgogICAgICAgICAgICA8VGFic1RyaWdnZXIKICAgICAgICAgICAgICB2LWZvcj0icmFuZ2UgaW4gcmFuZ2VzIgogICAgICAgICAgICAgIDprZXk9InJhbmdlLmtleSIKICAgICAgICAgICAgICA6dmFsdWU9InJhbmdlLmtleSIKICAgICAgICAgICAgICBjbGFzcz0icHgtMiB0ZXh0LXhzIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgcmFuZ2UubGFiZWwgfX0KICAgICAgICAgICAgPC9UYWJzVHJpZ2dlcj4KICAgICAgICAgIDwvVGFic0xpc3Q+CiAgICAgICAgPC9UYWJzPgoKICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0yIHNtOmdyaWQtY29scy0yIj4KICAgICAgICAgIDxkaXYgY2xhc3M9InJvdW5kZWQtbWQgYm9yZGVyIHB4LTMgcHktMi41Ij4KICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmhvc3RUcmFmZmljLmN1bXVsYXRpdmVJbiIsIHsgcmFuZ2U6IHJhbmdlVGV4dCB9KSB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMSB0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICAgICAge3sgZm9ybWF0Qnl0ZXMoc3RhdHM/LnRvdGFscy5pbkJ5dGVzKSB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgcHgtMyBweS0yLjUiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaG9zdFRyYWZmaWMuY3VtdWxhdGl2ZU91dCIsIHsgcmFuZ2U6IHJhbmdlVGV4dCB9KSB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMSB0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICAgICAge3sgZm9ybWF0Qnl0ZXMoc3RhdHM/LnRvdGFscy5vdXRCeXRlcykgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0iaC1bMTQwcHhdIHctZnVsbCBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1tZCBib3JkZXIiPgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSJpc1N0YXRzTG9hZGluZyIKICAgICAgICAgICAgY2xhc3M9ImZsZXggaC1mdWxsIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBwLTQiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC1mdWxsIHctZnVsbCByb3VuZGVkLW1kIiAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIHYtZWxzZS1pZj0ic3RhdHNFcnJvciIKICAgICAgICAgICAgY2xhc3M9ImZsZXggaC1mdWxsIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBweC00IHRleHQtY2VudGVyIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgPgogICAgICAgICAgICB7eyBzdGF0c0Vycm9yIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxUaW1lU2VyaWVzQ2hhcnQKICAgICAgICAgICAgdi1lbHNlCiAgICAgICAgICAgIDpzZXJpZXM9InRyYWZmaWNTZXJpZXMiCiAgICAgICAgICAgIDp2YWx1ZS1mb3JtYXR0ZXI9ImZvcm1hdEJwcyIKICAgICAgICAgICAgY2xhc3M9ImgtZnVsbCB3LWZ1bGwiCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvUG9wb3ZlckNvbnRlbnQ+CiAgPC9Qb3BvdmVyPgoKICA8RGlhbG9nIDpvcGVuPSJkaWFsb2dPcGVuIiBAdXBkYXRlOm9wZW49ImhhbmRsZURpYWxvZ09wZW5DaGFuZ2UiPgogICAgPERpYWxvZ0NvbnRlbnQKICAgICAgY2xhc3M9Im1heC1oLVs4OHZoXSBvdmVyZmxvdy15LWF1dG8gcC0wIHRleHQtbGVmdCBzbTptYXgtdy1bMjhyZW1dIgogICAgPgogICAgICA8RGlhbG9nSGVhZGVyIGNsYXNzPSJib3JkZXItYiBweC00IHB5LTMgcHItMTAgdGV4dC1sZWZ0Ij4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCI+CiAgICAgICAgICAgIDxEaWFsb2dUaXRsZSBjbGFzcz0idHJ1bmNhdGUgdGV4dC1iYXNlIiA6dGl0bGU9ImRpc3BsYXlUaXRsZSI+CiAgICAgICAgICAgICAge3sgZGlzcGxheVRpdGxlIH19CiAgICAgICAgICAgIDwvRGlhbG9nVGl0bGU+CiAgICAgICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbiBjbGFzcz0ic3BhY2UteS0xIHRleHQtbGVmdCI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImJsb2NrIGJyZWFrLWFsbCBmb250LW1lZGl1bSI+e3sgaG9zdCB9fTwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iYmxvY2sgdGV4dC14cyI+e3sgc2FtcGxlU3RhdHVzVGV4dCB9fTwvc3Bhbj4KICAgICAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgY2xhc3M9ImgtNyBzaHJpbmstMCBweC0yIHRleHQteHMiCiAgICAgICAgICAgIEBjbGljay5zdG9wLnByZXZlbnQ9Im9wZW5BY3RpdmVJcERpYWxvZyIKICAgICAgICAgID4KICAgICAgICAgICAgPE5ldHdvcmsgY2xhc3M9ImgtMy41IHctMy41IiAvPgogICAgICAgICAgICB7eyBhY3RpdmVJcEJ1dHRvblRleHQgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L0RpYWxvZ0hlYWRlcj4KCiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktNCBwLTQiPgogICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTIgc206Z3JpZC1jb2xzLTIiPgogICAgICAgICAgPGRpdiBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgYmctbXV0ZWQvMjAgcHgtMyBweS0yLjUiPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgdGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8QXJyb3dEb3duTGVmdCBjbGFzcz0iaC0zLjUgdy0zLjUgdGV4dC1lbWVyYWxkLTcwMCIgLz4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5ob3N0VHJhZmZpYy5yZWFsdGltZUluIikgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9Im10LTEgdGV4dC1iYXNlIGZvbnQtc2VtaWJvbGQiPgogICAgICAgICAgICAgIHt7IHJlYWx0aW1lSW5UZXh0IH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJyb3VuZGVkLW1kIGJvcmRlciBiZy1tdXRlZC8yMCBweC0zIHB5LTIuNSI+CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxBcnJvd1VwUmlnaHQgY2xhc3M9ImgtMy41IHctMy41IHRleHQtYmx1ZS03MDAiIC8+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaG9zdFRyYWZmaWMucmVhbHRpbWVPdXQiKSB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMSB0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICAgICAge3sgcmVhbHRpbWVPdXRUZXh0IH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxUYWJzIHYtbW9kZWw9InJhbmdlS2V5IiBjbGFzcz0idy1mdWxsIj4KICAgICAgICAgIDxUYWJzTGlzdCBjbGFzcz0iZ3JpZCB3LWZ1bGwgZ3JpZC1jb2xzLTUiPgogICAgICAgICAgICA8VGFic1RyaWdnZXIKICAgICAgICAgICAgICB2LWZvcj0icmFuZ2UgaW4gcmFuZ2VzIgogICAgICAgICAgICAgIDprZXk9InJhbmdlLmtleSIKICAgICAgICAgICAgICA6dmFsdWU9InJhbmdlLmtleSIKICAgICAgICAgICAgICBjbGFzcz0icHgtMiB0ZXh0LXhzIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgcmFuZ2UubGFiZWwgfX0KICAgICAgICAgICAgPC9UYWJzVHJpZ2dlcj4KICAgICAgICAgIDwvVGFic0xpc3Q+CiAgICAgICAgPC9UYWJzPgoKICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0yIHNtOmdyaWQtY29scy0yIj4KICAgICAgICAgIDxkaXYgY2xhc3M9InJvdW5kZWQtbWQgYm9yZGVyIHB4LTMgcHktMi41Ij4KICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmhvc3RUcmFmZmljLmN1bXVsYXRpdmVJbiIsIHsgcmFuZ2U6IHJhbmdlVGV4dCB9KSB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMSB0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICAgICAge3sgZm9ybWF0Qnl0ZXMoc3RhdHM/LnRvdGFscy5pbkJ5dGVzKSB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgcHgtMyBweS0yLjUiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaG9zdFRyYWZmaWMuY3VtdWxhdGl2ZU91dCIsIHsgcmFuZ2U6IHJhbmdlVGV4dCB9KSB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMSB0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICAgICAge3sgZm9ybWF0Qnl0ZXMoc3RhdHM/LnRvdGFscy5vdXRCeXRlcykgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0iaC1bMTQwcHhdIHctZnVsbCBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1tZCBib3JkZXIiPgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSJpc1N0YXRzTG9hZGluZyIKICAgICAgICAgICAgY2xhc3M9ImZsZXggaC1mdWxsIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBwLTQiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC1mdWxsIHctZnVsbCByb3VuZGVkLW1kIiAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIHYtZWxzZS1pZj0ic3RhdHNFcnJvciIKICAgICAgICAgICAgY2xhc3M9ImZsZXggaC1mdWxsIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBweC00IHRleHQtY2VudGVyIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgPgogICAgICAgICAgICB7eyBzdGF0c0Vycm9yIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxUaW1lU2VyaWVzQ2hhcnQKICAgICAgICAgICAgdi1lbHNlCiAgICAgICAgICAgIDpzZXJpZXM9InRyYWZmaWNTZXJpZXMiCiAgICAgICAgICAgIDp2YWx1ZS1mb3JtYXR0ZXI9ImZvcm1hdEJwcyIKICAgICAgICAgICAgY2xhc3M9ImgtZnVsbCB3LWZ1bGwiCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvRGlhbG9nQ29udGVudD4KICA8L0RpYWxvZz4KCiAgPEhvc3RBY3RpdmVJcERpYWxvZwogICAgdi1tb2RlbDpvcGVuPSJhY3RpdmVJcERpYWxvZ09wZW4iCiAgICA6dGl0bGU9ImRpc3BsYXlUaXRsZSIKICAgIDpob3N0PSJob3N0IgogICAgOml0ZW1zPSJhY3RpdmVJcEl0ZW1zIgogICAgOmxvYWRpbmc9ImFjdGl2ZUlwTG9hZGluZyIKICAgIDplcnJvcj0iYWN0aXZlSXBFcnJvciIKICAgIDp1cGRhdGVkLWF0PSJhY3RpdmVJcFVwZGF0ZWRBdCIKICAgIDp3aW5kb3ctc2Vjb25kcz0iYWN0aXZlSXBXaW5kb3dTZWNvbmRzIgogICAgQHJlZnJlc2g9InJlZnJlc2hBY3RpdmVJcHMiCiAgLz4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXAgbGFuZz0idHMiPgppbXBvcnQgeyBjb21wdXRlZCwgcmVmLCB0b1JlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEFycm93RG93bkxlZnQsIEFycm93VXBSaWdodCwgTmV0d29yayB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7CiAgUG9wb3ZlciwKICBQb3BvdmVyQW5jaG9yLAogIFBvcG92ZXJDb250ZW50LAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9wb3BvdmVyIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBTa2VsZXRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9za2VsZXRvbiI7CmltcG9ydCB7IFRhYnMsIFRhYnNMaXN0LCBUYWJzVHJpZ2dlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJzIjsKaW1wb3J0IEhvc3RBY3RpdmVJcERpYWxvZyBmcm9tICJAL2NvbXBvbmVudHMvaG9zdC10cmFmZmljL0hvc3RBY3RpdmVJcERpYWxvZy52dWUiOwppbXBvcnQgVGltZVNlcmllc0NoYXJ0IGZyb20gIkAvY29tcG9uZW50cy9jaGFydHMvVGltZVNlcmllc0NoYXJ0LnZ1ZSI7CmltcG9ydCB7IHVzZUhvc3RBY3RpdmVJcHMgfSBmcm9tICJAL2NvbXBvc2FibGVzL3VzZUhvc3RBY3RpdmVJcHMiOwppbXBvcnQgdHlwZSB7IEhvc3RUcmFmZmljU3RhdHMgfSBmcm9tICIuLi90eXBlcyI7CmltcG9ydCB7IHVzZUhvc3RUcmFmZmljT3ZlcmxheUludGVyYWN0aW9uIH0gZnJvbSAiLi9ob3N0LXRyYWZmaWMvdXNlSG9zdFRyYWZmaWNPdmVybGF5SW50ZXJhY3Rpb24iOwppbXBvcnQgeyB1c2VIb3N0VHJhZmZpY1N0YXRzIH0gZnJvbSAiLi9ob3N0LXRyYWZmaWMvdXNlSG9zdFRyYWZmaWNTdGF0cyI7Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cygKICBkZWZpbmVQcm9wczx7CiAgICBob3N0OiBzdHJpbmc7CiAgICB0aXRsZT86IHN0cmluZyB8IG51bGw7CiAgICBzYW1wbGU/OiBIb3N0VHJhZmZpY1N0YXRzIHwgbnVsbDsKICAgIHRpbWVzdGFtcD86IG51bWJlciB8IG51bGw7CiAgfT4oKSwKICB7CiAgICB0aXRsZTogIiIsCiAgICBzYW1wbGU6IG51bGwsCiAgICB0aW1lc3RhbXA6IG51bGwsCiAgfSwKKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBhY3RpdmVJcERpYWxvZ09wZW4gPSByZWYoZmFsc2UpOwoKY29uc3QgewogIGRpc3BsYXlJdGVtczogYWN0aXZlSXBJdGVtcywKICBsb2FkaW5nOiBhY3RpdmVJcExvYWRpbmcsCiAgZXJyb3I6IGFjdGl2ZUlwRXJyb3IsCiAgdXBkYXRlZEF0OiBhY3RpdmVJcFVwZGF0ZWRBdCwKICB3aW5kb3dTZWNvbmRzOiBhY3RpdmVJcFdpbmRvd1NlY29uZHMsCiAgcmVmcmVzaDogcmVmcmVzaEFjdGl2ZUlwcywKfSA9IHVzZUhvc3RBY3RpdmVJcHMoCiAgY29tcHV0ZWQoKCkgPT4gcHJvcHMuaG9zdCksCiAgYWN0aXZlSXBEaWFsb2dPcGVuLAopOwoKY29uc3QgewogIGNsb3NlT3ZlcmxheXMsCiAgZGlhbG9nT3BlbiwKICBoYW5kbGVDb250ZW50UG9pbnRlckVudGVyLAogIGhhbmRsZUNvbnRlbnRQb2ludGVyTGVhdmUsCiAgaGFuZGxlRGlhbG9nT3BlbkNoYW5nZSwKICBoYW5kbGVPcGVuQ2hhbmdlLAogIGhhbmRsZVRyaWdnZXJCbHVyLAogIGhhbmRsZVRyaWdnZXJDbGljaywKICBoYW5kbGVUcmlnZ2VyRm9jdXMsCiAgaGFuZGxlVHJpZ2dlclBvaW50ZXJEb3duLAogIGhhbmRsZVRyaWdnZXJQb2ludGVyRW50ZXIsCiAgaGFuZGxlVHJpZ2dlclBvaW50ZXJMZWF2ZSwKICBpc1RvdWNoSW50ZXJhY3Rpb24sCiAgb3BlbiwKfSA9IHVzZUhvc3RUcmFmZmljT3ZlcmxheUludGVyYWN0aW9uKCk7Cgpjb25zdCB7CiAgY29tcGFjdEluVGV4dCwKICBjb21wYWN0T3V0VGV4dCwKICBmb3JtYXRCcHMsCiAgZm9ybWF0Qnl0ZXMsCiAgaGFzQ29tcGFjdFRyYWZmaWMsCiAgaGFzUmVhbHRpbWVJblRyYWZmaWMsCiAgaGFzUmVhbHRpbWVPdXRUcmFmZmljLAogIGlzU3RhdHNMb2FkaW5nLAogIHJhbmdlcywKICByYW5nZUtleSwKICByYW5nZVRleHQsCiAgcmVhbHRpbWVJblRleHQsCiAgcmVhbHRpbWVPdXRUZXh0LAogIHN0YXRzLAogIHN0YXRzRXJyb3IsCiAgdHJhZmZpY1NlcmllcywKfSA9IHVzZUhvc3RUcmFmZmljU3RhdHMoewogIGFjdGl2ZTogY29tcHV0ZWQoKCkgPT4gb3Blbi52YWx1ZSB8fCBkaWFsb2dPcGVuLnZhbHVlKSwKICBob3N0OiB0b1JlZihwcm9wcywgImhvc3QiKSwKICBzYW1wbGU6IHRvUmVmKHByb3BzLCAic2FtcGxlIiksCiAgdGltZXN0YW1wOiB0b1JlZihwcm9wcywgInRpbWVzdGFtcCIpLAp9KTsKCmNvbnN0IGhhc1JlYWx0aW1lU2FtcGxlID0gY29tcHV0ZWQoKCkgPT4gQm9vbGVhbihwcm9wcy5zYW1wbGUpKTsKY29uc3QgZGlzcGxheVRpdGxlID0gY29tcHV0ZWQoCiAgKCkgPT4gcHJvcHMudGl0bGU/LnRyaW0oKSB8fCB0KCJhZG1pbi5ob3N0VHJhZmZpYy51bmtub3duVGl0bGUiKSwKKTsKY29uc3Qgc2FtcGxlU3RhdHVzVGV4dCA9IGNvbXB1dGVkKCgpID0+CiAgaGFzUmVhbHRpbWVTYW1wbGUudmFsdWUKICAgID8gdCgiYWRtaW4uaG9zdFRyYWZmaWMuc2FtcGxpbmciKQogICAgOiB0KCJhZG1pbi5ob3N0VHJhZmZpYy53YWl0aW5nU2FtcGxlIiksCik7Cgpjb25zdCBhY3RpdmVJcEJ1dHRvblRleHQgPSBjb21wdXRlZCgoKSA9PiB7CiAgY29uc3QgY291bnQgPSBOdW1iZXIoCiAgICBwcm9wcy5zYW1wbGU/LmFjdGl2ZV9pcF9jb3VudCA/PyBhY3RpdmVJcEl0ZW1zLnZhbHVlLmxlbmd0aCwKICApOwogIHJldHVybiBjb3VudCA+IDAKICAgID8gdCgiYWRtaW4uaG9zdFRyYWZmaWMuYWN0aXZlSXBXaXRoQ291bnQiLCB7IGNvdW50IH0pCiAgICA6IHQoImFkbWluLmhvc3RUcmFmZmljLmFjdGl2ZUlwIik7Cn0pOwoKZnVuY3Rpb24gb3BlbkFjdGl2ZUlwRGlhbG9nKCkgewogIGNsb3NlT3ZlcmxheXMoKTsKICBhY3RpdmVJcERpYWxvZ09wZW4udmFsdWUgPSB0cnVlOwp9Cjwvc2NyaXB0Pgo=
+<template>
+  <Popover :open="open" @update:open="handleOpenChange">
+    <PopoverAnchor as-child>
+      <button
+        type="button"
+        class="inline-flex min-h-6 max-w-full flex-wrap items-center gap-x-2 gap-y-1 px-1.5 text-left text-xs leading-none transition-colors hover:bg-muted/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+        :class="{ 'border-primary/30 bg-primary/5': open || dialogOpen }"
+        :aria-label="
+          t('admin.hostTraffic.detailsAria', {
+            title: displayTitle,
+            host,
+          })
+        "
+        @pointerdown="handleTriggerPointerDown"
+        @pointerenter="handleTriggerPointerEnter"
+        @pointerleave="handleTriggerPointerLeave"
+        @focus="handleTriggerFocus"
+        @blur="handleTriggerBlur"
+        @click.prevent="handleTriggerClick"
+      >
+        <span
+          v-if="hasRealtimeInTraffic"
+          class="inline-flex items-center gap-1"
+        >
+          <ArrowDownLeft class="h-3 w-3 shrink-0 text-emerald-700" />
+          <span>{{ compactInText }}</span>
+        </span>
+        <span
+          v-if="hasRealtimeOutTraffic"
+          class="inline-flex items-center gap-1"
+        >
+          <ArrowUpRight class="h-3 w-3 shrink-0 text-blue-700" />
+          <span>{{ compactOutText }}</span>
+        </span>
+        <span v-if="!hasCompactTraffic">{{ t("admin.hostTraffic.view") }}</span>
+      </button>
+    </PopoverAnchor>
+
+    <PopoverContent
+      v-if="!isTouchInteraction"
+      side="left"
+      align="center"
+      class="w-[28rem] max-w-[92vw] rounded-md p-0 text-left"
+      @pointerenter="handleContentPointerEnter"
+      @pointerleave="handleContentPointerLeave"
+    >
+      <div class="border-b px-4 py-3">
+        <div class="flex items-center justify-between gap-3">
+          <div class="min-w-0">
+            <div class="truncate text-sm font-semibold" :title="displayTitle">
+              {{ displayTitle }}
+            </div>
+            <div
+              class="mt-1 break-all text-xs font-medium text-muted-foreground"
+              :title="host"
+            >
+              {{ host }}
+            </div>
+            <div class="mt-1 text-xs text-muted-foreground">
+              {{ sampleStatusText }}
+            </div>
+          </div>
+          <Button
+            variant="outline"
+            size="sm"
+            class="h-7 shrink-0 px-2 text-xs"
+            @click.stop.prevent="openActiveIpDialog"
+          >
+            <Network class="h-3.5 w-3.5" />
+            {{ activeIpButtonText }}
+          </Button>
+        </div>
+      </div>
+
+      <div class="space-y-4 p-4">
+        <div class="grid gap-2 sm:grid-cols-2">
+          <div class="rounded-md border bg-muted/20 px-3 py-2.5">
+            <div
+              class="flex items-center gap-1.5 text-xs font-medium text-muted-foreground"
+            >
+              <ArrowDownLeft class="h-3.5 w-3.5 text-emerald-700" />
+              {{ t("admin.hostTraffic.realtimeIn") }}
+            </div>
+            <div class="mt-1 text-base font-semibold">
+              {{ realtimeInText }}
+            </div>
+          </div>
+          <div class="rounded-md border bg-muted/20 px-3 py-2.5">
+            <div
+              class="flex items-center gap-1.5 text-xs font-medium text-muted-foreground"
+            >
+              <ArrowUpRight class="h-3.5 w-3.5 text-blue-700" />
+              {{ t("admin.hostTraffic.realtimeOut") }}
+            </div>
+            <div class="mt-1 text-base font-semibold">
+              {{ realtimeOutText }}
+            </div>
+          </div>
+        </div>
+
+        <Tabs v-model="rangeKey" class="w-full">
+          <TabsList class="grid w-full grid-cols-5">
+            <TabsTrigger
+              v-for="range in ranges"
+              :key="range.key"
+              :value="range.key"
+              class="px-2 text-xs"
+            >
+              {{ range.label }}
+            </TabsTrigger>
+          </TabsList>
+        </Tabs>
+
+        <div class="grid gap-2 sm:grid-cols-2">
+          <div class="rounded-md border px-3 py-2.5">
+            <div class="text-xs text-muted-foreground">
+              {{ t("admin.hostTraffic.cumulativeIn", { range: rangeText }) }}
+            </div>
+            <div class="mt-1 text-base font-semibold">
+              {{ formatBytes(stats?.totals.inBytes) }}
+            </div>
+          </div>
+          <div class="rounded-md border px-3 py-2.5">
+            <div class="text-xs text-muted-foreground">
+              {{ t("admin.hostTraffic.cumulativeOut", { range: rangeText }) }}
+            </div>
+            <div class="mt-1 text-base font-semibold">
+              {{ formatBytes(stats?.totals.outBytes) }}
+            </div>
+          </div>
+        </div>
+
+        <div class="h-[140px] w-full overflow-hidden rounded-md border">
+          <div
+            v-if="isStatsLoading"
+            class="flex h-full items-center justify-center p-4"
+          >
+            <Skeleton class="h-full w-full rounded-md" />
+          </div>
+          <div
+            v-else-if="statsError"
+            class="flex h-full items-center justify-center px-4 text-center text-xs text-muted-foreground"
+          >
+            {{ statsError }}
+          </div>
+          <TimeSeriesChart
+            v-else
+            :series="trafficSeries"
+            :value-formatter="formatBps"
+            class="h-full w-full"
+          />
+        </div>
+      </div>
+    </PopoverContent>
+  </Popover>
+
+  <Dialog :open="dialogOpen" @update:open="handleDialogOpenChange">
+    <DialogContent
+      class="max-h-[88vh] overflow-y-auto p-0 text-left sm:max-w-[28rem]"
+    >
+      <DialogHeader class="border-b px-4 py-3 pr-10 text-left">
+        <div class="flex items-center justify-between gap-3">
+          <div class="min-w-0">
+            <DialogTitle class="truncate text-base" :title="displayTitle">
+              {{ displayTitle }}
+            </DialogTitle>
+            <DialogDescription class="space-y-1 text-left">
+              <span class="block break-all font-medium">{{ host }}</span>
+              <span class="block text-xs">{{ sampleStatusText }}</span>
+            </DialogDescription>
+          </div>
+          <Button
+            variant="outline"
+            size="sm"
+            class="h-7 shrink-0 px-2 text-xs"
+            @click.stop.prevent="openActiveIpDialog"
+          >
+            <Network class="h-3.5 w-3.5" />
+            {{ activeIpButtonText }}
+          </Button>
+        </div>
+      </DialogHeader>
+
+      <div class="space-y-4 p-4">
+        <div class="grid gap-2 sm:grid-cols-2">
+          <div class="rounded-md border bg-muted/20 px-3 py-2.5">
+            <div
+              class="flex items-center gap-1.5 text-xs font-medium text-muted-foreground"
+            >
+              <ArrowDownLeft class="h-3.5 w-3.5 text-emerald-700" />
+              {{ t("admin.hostTraffic.realtimeIn") }}
+            </div>
+            <div class="mt-1 text-base font-semibold">
+              {{ realtimeInText }}
+            </div>
+          </div>
+          <div class="rounded-md border bg-muted/20 px-3 py-2.5">
+            <div
+              class="flex items-center gap-1.5 text-xs font-medium text-muted-foreground"
+            >
+              <ArrowUpRight class="h-3.5 w-3.5 text-blue-700" />
+              {{ t("admin.hostTraffic.realtimeOut") }}
+            </div>
+            <div class="mt-1 text-base font-semibold">
+              {{ realtimeOutText }}
+            </div>
+          </div>
+        </div>
+
+        <Tabs v-model="rangeKey" class="w-full">
+          <TabsList class="grid w-full grid-cols-5">
+            <TabsTrigger
+              v-for="range in ranges"
+              :key="range.key"
+              :value="range.key"
+              class="px-2 text-xs"
+            >
+              {{ range.label }}
+            </TabsTrigger>
+          </TabsList>
+        </Tabs>
+
+        <div class="grid gap-2 sm:grid-cols-2">
+          <div class="rounded-md border px-3 py-2.5">
+            <div class="text-xs text-muted-foreground">
+              {{ t("admin.hostTraffic.cumulativeIn", { range: rangeText }) }}
+            </div>
+            <div class="mt-1 text-base font-semibold">
+              {{ formatBytes(stats?.totals.inBytes) }}
+            </div>
+          </div>
+          <div class="rounded-md border px-3 py-2.5">
+            <div class="text-xs text-muted-foreground">
+              {{ t("admin.hostTraffic.cumulativeOut", { range: rangeText }) }}
+            </div>
+            <div class="mt-1 text-base font-semibold">
+              {{ formatBytes(stats?.totals.outBytes) }}
+            </div>
+          </div>
+        </div>
+
+        <div class="h-[140px] w-full overflow-hidden rounded-md border">
+          <div
+            v-if="isStatsLoading"
+            class="flex h-full items-center justify-center p-4"
+          >
+            <Skeleton class="h-full w-full rounded-md" />
+          </div>
+          <div
+            v-else-if="statsError"
+            class="flex h-full items-center justify-center px-4 text-center text-xs text-muted-foreground"
+          >
+            {{ statsError }}
+          </div>
+          <TimeSeriesChart
+            v-else
+            :series="trafficSeries"
+            :value-formatter="formatBps"
+            class="h-full w-full"
+          />
+        </div>
+      </div>
+    </DialogContent>
+  </Dialog>
+
+  <HostActiveIpDialog
+    v-model:open="activeIpDialogOpen"
+    :title="displayTitle"
+    :host="host"
+    :items="activeIpItems"
+    :loading="activeIpLoading"
+    :error="activeIpError"
+    :updated-at="activeIpUpdatedAt"
+    :window-seconds="activeIpWindowSeconds"
+    @refresh="refreshActiveIps"
+  />
+</template>
+
+<script setup lang="ts">
+import { computed, ref, toRef } from "vue";
+import { useI18n } from "vue-i18n";
+import { ArrowDownLeft, ArrowUpRight, Network } from "lucide-vue-next";
+import {
+  Popover,
+  PopoverAnchor,
+  PopoverContent,
+} from "@/components/ui/popover";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import HostActiveIpDialog from "@/components/host-traffic/HostActiveIpDialog.vue";
+import TimeSeriesChart from "@/components/charts/TimeSeriesChart.vue";
+import { useHostActiveIps } from "@/composables/useHostActiveIps";
+import type { HostTrafficStats } from "../types";
+import { useHostTrafficOverlayInteraction } from "./host-traffic/useHostTrafficOverlayInteraction";
+import { useHostTrafficStats } from "./host-traffic/useHostTrafficStats";
+
+const props = withDefaults(
+  defineProps<{
+    host: string;
+    title?: string | null;
+    sample?: HostTrafficStats | null;
+    timestamp?: number | null;
+  }>(),
+  {
+    title: "",
+    sample: null,
+    timestamp: null,
+  },
+);
+
+const { t } = useI18n();
+const activeIpDialogOpen = ref(false);
+
+const {
+  displayItems: activeIpItems,
+  loading: activeIpLoading,
+  error: activeIpError,
+  updatedAt: activeIpUpdatedAt,
+  windowSeconds: activeIpWindowSeconds,
+  refresh: refreshActiveIps,
+} = useHostActiveIps(
+  computed(() => props.host),
+  activeIpDialogOpen,
+);
+
+const {
+  closeOverlays,
+  dialogOpen,
+  handleContentPointerEnter,
+  handleContentPointerLeave,
+  handleDialogOpenChange,
+  handleOpenChange,
+  handleTriggerBlur,
+  handleTriggerClick,
+  handleTriggerFocus,
+  handleTriggerPointerDown,
+  handleTriggerPointerEnter,
+  handleTriggerPointerLeave,
+  isTouchInteraction,
+  open,
+} = useHostTrafficOverlayInteraction();
+
+const {
+  compactInText,
+  compactOutText,
+  formatBps,
+  formatBytes,
+  hasCompactTraffic,
+  hasRealtimeInTraffic,
+  hasRealtimeOutTraffic,
+  isStatsLoading,
+  ranges,
+  rangeKey,
+  rangeText,
+  realtimeInText,
+  realtimeOutText,
+  stats,
+  statsError,
+  trafficSeries,
+} = useHostTrafficStats({
+  active: computed(() => open.value || dialogOpen.value),
+  host: toRef(props, "host"),
+  sample: toRef(props, "sample"),
+  timestamp: toRef(props, "timestamp"),
+});
+
+const hasRealtimeSample = computed(() => Boolean(props.sample));
+const displayTitle = computed(
+  () => props.title?.trim() || t("admin.hostTraffic.unknownTitle"),
+);
+const sampleStatusText = computed(() =>
+  hasRealtimeSample.value
+    ? t("admin.hostTraffic.sampling")
+    : t("admin.hostTraffic.waitingSample"),
+);
+
+const activeIpButtonText = computed(() => {
+  const count = Number(
+    props.sample?.active_ip_count ?? activeIpItems.value.length,
+  );
+  return count > 0
+    ? t("admin.hostTraffic.activeIpWithCount", { count })
+    : t("admin.hostTraffic.activeIp");
+});
+
+function openActiveIpDialog() {
+  closeOverlays();
+  activeIpDialogOpen.value = true;
+}
+</script>

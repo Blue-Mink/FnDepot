@@ -1,1 +1,260 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7CiAgQ2hldnJvbkRvd24sCiAgRG93bmxvYWQsCiAgRm9sZGVycywKICBJbWFnZSwKICBMaXN0VHJlZSwKICBMaXN0Q2hlY2tzLAogIFBsdXMsCiAgUmVmcmVzaEN3LAogIFNlYXJjaCwKICBTaGllbGRDaGVjaywKICBTbGlkZXJzSG9yaXpvbnRhbCwKICBUcmFzaDIsCn0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHR5cGUgeyBCdXR0b25WYXJpYW50cyB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQ2FyZERlc2NyaXB0aW9uLCBDYXJkVGl0bGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7CiAgRHJvcGRvd25NZW51LAogIERyb3Bkb3duTWVudUNvbnRlbnQsCiAgRHJvcGRvd25NZW51SXRlbSwKICBEcm9wZG93bk1lbnVTZXBhcmF0b3IsCiAgRHJvcGRvd25NZW51VHJpZ2dlciwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZHJvcGRvd24tbWVudSI7CmltcG9ydCBEb2NzTGlua0J1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvRG9jc0xpbmtCdXR0b24udnVlIjsKaW1wb3J0IHR5cGUgeyBIb3N0TWFwcGluZyB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgUGFuZWxTeW5jTWVudUl0ZW0gZnJvbSAiLi9QYW5lbFN5bmNNZW51SXRlbS52dWUiOwppbXBvcnQgU3ViZG9tYWluTWFwcGluZ3NNYWludGVuYW5jZU1lbnVJdGVtcyBmcm9tICIuL1N1YmRvbWFpbk1hcHBpbmdzTWFpbnRlbmFuY2VNZW51SXRlbXMudnVlIjsKCmRlZmluZVByb3BzPHsKICBhdXRoU2VydmljZU1hcHBpbmc6IEhvc3RNYXBwaW5nIHwgbnVsbDsKICBjYW5NYW5hZ2VOZXdNYXBwaW5nczogYm9vbGVhbjsKICBkaXNjb3ZlckJ1dHRvbkRpdmlkZXJDbGFzczogc3RyaW5nOwogIGRpc2NvdmVyQnV0dG9uVmFyaWFudDogQnV0dG9uVmFyaWFudHNbInZhcmlhbnQiXTsKICBkb2NzSHJlZjogc3RyaW5nOwogIGdyb3VwZWRWaWV3OiBib29sZWFuOwogIGhhc1JlZ3VsYXJIb3N0TWFwcGluZ3M6IGJvb2xlYW47CiAgaXNDbGVhcmluZ0FsbFN1YmRvbWFpbkNvbmZpZzogYm9vbGVhbjsKICBpc0NvbmZpZ0xvYWRpbmc6IGJvb2xlYW47CiAgaXNEaXNjb3ZlcmluZzogYm9vbGVhbjsKICBpc0V4cG9ydGluZ0Jvb2ttYXJrczogYm9vbGVhbjsKICBpc1JlZnJlc2hpbmdUaXRsZXM6IGJvb2xlYW47CiAgaXNTYXZpbmdNYXBwaW5nczogYm9vbGVhbjsKICBwcm94eU1hcHBpbmdzQ291bnQ6IG51bWJlcjsKICBzZWxlY3Rpb25Nb2RlPzogYm9vbGVhbjsKICBpc1N5bmNpbmc6IGJvb2xlYW47CiAgdmlzaWJsZU1hcHBpbmdzQ291bnQ6IG51bWJlcjsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgImFkZC1hdXRoLXNlcnZpY2UiOiBbXTsKICAiZXhwb3J0LWJvb2ttYXJrcyI6IFtdOwogICJtYW5hZ2UtZ3JvdXBzIjogW107CiAgIm9wZW4tY2xlYXItYWxsLWNvbmZpZyI6IFtdOwogICJvcGVuLWNyZWF0ZSI6IFtdOwogICJvcGVuLWRpc2NvdmVyIjogW107CiAgIm9wZW4tZGlzY292ZXItc2V0dGluZ3MiOiBbXTsKICAib3Blbi1zdGFsZS1jbGVhbnVwIjogW107CiAgIm9wZW4tdGFyZ2V0LW9wdGltaXphdGlvbiI6IFtdOwogICJyZWZyZXNoLWFsbC10aXRsZXMiOiBbXTsKICAic3luYy1yb3V0ZXMiOiBbXTsKICAidXBkYXRlLXNlbGVjdGlvbi1tb2RlIjogW3ZhbHVlOiBib29sZWFuXTsKICAidXBkYXRlLWdyb3VwZWQtdmlldyI6IFt2YWx1ZTogYm9vbGVhbl07Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgY2xhc3M9ImZsZXggZmxleC1jb2wgaXRlbXMtc3RyZXRjaCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQgc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIgogID4KICAgIDxDYXJkVGl0bGU+e3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkubWFwcGluZ3NUaXRsZSIpIH19PC9DYXJkVGl0bGU+CiAgICA8ZGl2CiAgICAgIGNsYXNzPSJncmlkIHctZnVsbCBncmlkLWNvbHMtMyBpdGVtcy1jZW50ZXIgZ2FwLTIgc206ZmxleCBzbTp3LWF1dG8gc206ZmxleC13cmFwIHNtOmp1c3RpZnktZW5kIgogICAgPgogICAgICA8RG9jc0xpbmtCdXR0b24KICAgICAgICA6aHJlZj0iZG9jc0hyZWYiCiAgICAgICAgc2l6ZT0iZGVmYXVsdCIKICAgICAgICBjbGFzcz0iaC0xMCB3LWZ1bGwganVzdGlmeS1jZW50ZXIgZ2FwLTEuNSBib3JkZXIgYmctYmFja2dyb3VuZCBweC0yIHNoYWRvdy1zbSBzbTpoLTkgc206dy1hdXRvIHNtOmJvcmRlci0wIHNtOmJnLXRyYW5zcGFyZW50IHNtOnB4LTMgc206c2hhZG93LW5vbmUiCiAgICAgIC8+CiAgICAgIDxCdXR0b24KICAgICAgICA6dmFyaWFudD0iZ3JvdXBlZFZpZXcgPyAnc2Vjb25kYXJ5JyA6ICdvdXRsaW5lJyIKICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nTWFwcGluZ3MiCiAgICAgICAgOmFyaWEtcHJlc3NlZD0iZ3JvdXBlZFZpZXciCiAgICAgICAgY2xhc3M9ImgtMTAgbWluLXctMCB3LWZ1bGwganVzdGlmeS1jZW50ZXIgcHgtMiBzbTpoLTkgc206dy1hdXRvIHNtOnB4LTMiCiAgICAgICAgQGNsaWNrPSJlbWl0KCd1cGRhdGUtZ3JvdXBlZC12aWV3JywgIWdyb3VwZWRWaWV3KSIKICAgICAgPgogICAgICAgIDxMaXN0VHJlZSBjbGFzcz0iaC00IHctNCBzaHJpbmstMCIgLz4KICAgICAgICA8c3BhbiBjbGFzcz0idHJ1bmNhdGUiPnt7CiAgICAgICAgICB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5ncm91cGVkVmlldyIpCiAgICAgICAgfX08L3NwYW4+CiAgICAgIDwvQnV0dG9uPgogICAgICA8QnV0dG9uCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nTWFwcGluZ3MgfHwgIWhhc1JlZ3VsYXJIb3N0TWFwcGluZ3MiCiAgICAgICAgOmFyaWEtcHJlc3NlZD0ic2VsZWN0aW9uTW9kZSIKICAgICAgICBjbGFzcz0iaC0xMCBtaW4tdy0wIHctZnVsbCBqdXN0aWZ5LWNlbnRlciBweC0yIHNtOmgtOSBzbTp3LWF1dG8gc206cHgtMyIKICAgICAgICBAY2xpY2s9ImVtaXQoJ3VwZGF0ZS1zZWxlY3Rpb24tbW9kZScsICFzZWxlY3Rpb25Nb2RlKSIKICAgICAgPgogICAgICAgIDxMaXN0Q2hlY2tzIGNsYXNzPSJoLTQgdy00IHNocmluay0wIiAvPgogICAgICAgIDxzcGFuIGNsYXNzPSJ0cnVuY2F0ZSI+e3sKICAgICAgICAgIHQoCiAgICAgICAgICAgIHNlbGVjdGlvbk1vZGUKICAgICAgICAgICAgICA/ICJhZG1pbi5zdWJkb21haW5Qcm94eS5leGl0U2VsZWN0aW9uTW9kZSIKICAgICAgICAgICAgICA6ICJhZG1pbi5zdWJkb21haW5Qcm94eS5zZWxlY3Rpb25Nb2RlIiwKICAgICAgICAgICkKICAgICAgICB9fTwvc3Bhbj4KICAgICAgPC9CdXR0b24+CiAgICAgIDxCdXR0b24KICAgICAgICB2LWlmPSJncm91cGVkVmlldyIKICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmdNYXBwaW5ncyIKICAgICAgICBjbGFzcz0iaGlkZGVuIHNtOmlubGluZS1mbGV4IgogICAgICAgIEBjbGljaz0iZW1pdCgnbWFuYWdlLWdyb3VwcycpIgogICAgICA+CiAgICAgICAgPEZvbGRlcnMgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5tYW5hZ2VHcm91cHMiKSB9fQogICAgICA8L0J1dHRvbj4KICAgICAgPEJ1dHRvbgogICAgICAgIHYtaWY9IiFhdXRoU2VydmljZU1hcHBpbmciCiAgICAgICAgOmRpc2FibGVkPSIhY2FuTWFuYWdlTmV3TWFwcGluZ3MgfHwgaXNTYXZpbmdNYXBwaW5ncyIKICAgICAgICB2YXJpYW50PSJkZWZhdWx0IgogICAgICAgIGNsYXNzPSJjb2wtc3Bhbi0zIHctZnVsbCBzbTp3LWF1dG8iCiAgICAgICAgQGNsaWNrPSJlbWl0KCdhZGQtYXV0aC1zZXJ2aWNlJykiCiAgICAgID4KICAgICAgICA8U2hpZWxkQ2hlY2sgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5hZGRBdXRoU2VydmljZSIpIH19CiAgICAgIDwvQnV0dG9uPgogICAgICA8ZGl2CiAgICAgICAgdi1pZj0iYXV0aFNlcnZpY2VNYXBwaW5nIgogICAgICAgIGNsYXNzPSJjb2wtc3Bhbi0zIGZsZXggbWluLXctMCB3LWZ1bGwgaXRlbXMtY2VudGVyIHNtOmNvbC1hdXRvIHNtOnctYXV0byIKICAgICAgPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIDp2YXJpYW50PSJkaXNjb3ZlckJ1dHRvblZhcmlhbnQiCiAgICAgICAgICA6ZGlzYWJsZWQ9IiFjYW5NYW5hZ2VOZXdNYXBwaW5ncyB8fCBpc0Rpc2NvdmVyaW5nIHx8IGlzU2F2aW5nTWFwcGluZ3MiCiAgICAgICAgICBjbGFzcz0iaC0xMCBtaW4tdy0wIGZsZXgtMSByb3VuZGVkLXItbm9uZSBweC0yIHRleHQteHMgc206aC05IHNtOmZsZXgtbm9uZSBzbTpweC0zIHNtOnRleHQtc20iCiAgICAgICAgICBAY2xpY2s9ImVtaXQoJ29wZW4tZGlzY292ZXInKSIKICAgICAgICA+CiAgICAgICAgICA8U2VhcmNoIGNsYXNzPSJoLTQgdy00IHNocmluay0wIiAvPgogICAgICAgICAgPHNwYW4gY2xhc3M9InRydW5jYXRlIj4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICBpc0Rpc2NvdmVyaW5nCiAgICAgICAgICAgICAgICA/IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmRpc2NvdmVyaW5nIikKICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuZGlzY292ZXIiKQogICAgICAgICAgICB9fQogICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxEcm9wZG93bk1lbnU+CiAgICAgICAgICA8RHJvcGRvd25NZW51VHJpZ2dlciBhcy1jaGlsZD4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIGRhdGEtdGVzdGlkPSJzdWJkb21haW4tZGlzY292ZXItbWVudS10cmlnZ2VyIgogICAgICAgICAgICAgIDp2YXJpYW50PSJkaXNjb3ZlckJ1dHRvblZhcmlhbnQiCiAgICAgICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnY29tbW9uLm1vcmVBY3Rpb25zJykiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZ01hcHBpbmdzIgogICAgICAgICAgICAgIDpjbGFzcz0iWwogICAgICAgICAgICAgICAgJ2gtMTAgdy0xMCByb3VuZGVkLWwtbm9uZSBib3JkZXItbCBweC0xIHNtOmgtOSBzbTp3LTkgc206cHgtMicsCiAgICAgICAgICAgICAgICBkaXNjb3ZlckJ1dHRvbkRpdmlkZXJDbGFzcywKICAgICAgICAgICAgICBdIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPENoZXZyb25Eb3duIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvRHJvcGRvd25NZW51VHJpZ2dlcj4KICAgICAgICAgIDxEcm9wZG93bk1lbnVDb250ZW50IGFsaWduPSJlbmQiPgogICAgICAgICAgICA8RHJvcGRvd25NZW51SXRlbQogICAgICAgICAgICAgIHYtaWY9Imdyb3VwZWRWaWV3IgogICAgICAgICAgICAgIGRhdGEtdGVzdGlkPSJtb2JpbGUtbWFuYWdlLWdyb3Vwcy1tZW51LWl0ZW0iCiAgICAgICAgICAgICAgY2xhc3M9InNtOmhpZGRlbiIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nTWFwcGluZ3MiCiAgICAgICAgICAgICAgQHNlbGVjdD0iZW1pdCgnbWFuYWdlLWdyb3VwcycpIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPEZvbGRlcnMgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5tYW5hZ2VHcm91cHMiKSB9fQogICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgICAgIDxEcm9wZG93bk1lbnVTZXBhcmF0b3Igdi1pZj0iZ3JvdXBlZFZpZXciIGNsYXNzPSJzbTpoaWRkZW4iIC8+CiAgICAgICAgICAgIDxEcm9wZG93bk1lbnVJdGVtCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc0Rpc2NvdmVyaW5nIgogICAgICAgICAgICAgIEBzZWxlY3Q9ImVtaXQoJ29wZW4tZGlzY292ZXItc2V0dGluZ3MnKSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxTbGlkZXJzSG9yaXpvbnRhbCBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLnNjYW5JbnRlbnNpdHkudGl0bGUiKSB9fQogICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgICAgIDxEcm9wZG93bk1lbnVJdGVtCiAgICAgICAgICAgICAgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZ01hcHBpbmdzIHx8IGlzQ2xlYXJpbmdBbGxTdWJkb21haW5Db25maWciCiAgICAgICAgICAgICAgQHNlbGVjdD0iZW1pdCgnb3Blbi1jbGVhci1hbGwtY29uZmlnJykiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8VHJhc2gyIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuY2xlYXJBbGxDb25maWciKSB9fQogICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgICAgIDxTdWJkb21haW5NYXBwaW5nc01haW50ZW5hbmNlTWVudUl0ZW1zCiAgICAgICAgICAgICAgOmNsZWFyaW5nPSJpc0NsZWFyaW5nQWxsU3ViZG9tYWluQ29uZmlnIgogICAgICAgICAgICAgIDpoYXMtbWFwcGluZ3M9InByb3h5TWFwcGluZ3NDb3VudCA+IDAiCiAgICAgICAgICAgICAgOnNhdmluZz0iaXNTYXZpbmdNYXBwaW5ncyIKICAgICAgICAgICAgICBAY2xlYW51cD0iZW1pdCgnb3Blbi1zdGFsZS1jbGVhbnVwJykiCiAgICAgICAgICAgICAgQG9wdGltaXplPSJlbWl0KCdvcGVuLXRhcmdldC1vcHRpbWl6YXRpb24nKSIKICAgICAgICAgICAgLz4KICAgICAgICAgICAgPERyb3Bkb3duTWVudUl0ZW0KICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzQ29uZmlnTG9hZGluZyIKICAgICAgICAgICAgICBAY2xpY2s9ImVtaXQoJ29wZW4tY3JlYXRlJykiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8UGx1cyBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmFkZE1hcHBpbmciKSB9fQogICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgICAgIDxEcm9wZG93bk1lbnVJdGVtCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc1N5bmNpbmciCiAgICAgICAgICAgICAgQGNsaWNrPSJlbWl0KCdzeW5jLXJvdXRlcycpIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFJlZnJlc2hDdwogICAgICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCIKICAgICAgICAgICAgICAgIDpjbGFzcz0ieyAnYW5pbWF0ZS1zcGluJzogaXNTeW5jaW5nIH0iCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgaXNTeW5jaW5nCiAgICAgICAgICAgICAgICAgID8gdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3luY2luZyIpCiAgICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3luY1JvdXRlcyIpCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9Ecm9wZG93bk1lbnVJdGVtPgogICAgICAgICAgICA8UGFuZWxTeW5jTWVudUl0ZW0gLz4KICAgICAgICAgICAgPERyb3Bkb3duTWVudVNlcGFyYXRvciAvPgogICAgICAgICAgICA8RHJvcGRvd25NZW51SXRlbQogICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNSZWZyZXNoaW5nVGl0bGVzIHx8IHByb3h5TWFwcGluZ3NDb3VudCA9PT0gMCIKICAgICAgICAgICAgICBAc2VsZWN0PSJlbWl0KCdyZWZyZXNoLWFsbC10aXRsZXMnKSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxJbWFnZQogICAgICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCIKICAgICAgICAgICAgICAgIDpjbGFzcz0ieyAnYW5pbWF0ZS1wdWxzZSc6IGlzUmVmcmVzaGluZ1RpdGxlcyB9IgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgIGlzUmVmcmVzaGluZ1RpdGxlcwogICAgICAgICAgICAgICAgICA/IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnJlZnJlc2hpbmciKQogICAgICAgICAgICAgICAgICA6IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnJlZnJlc2hJY29uc1RpdGxlcyIpCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9Ecm9wZG93bk1lbnVJdGVtPgogICAgICAgICAgICA8RHJvcGRvd25NZW51SXRlbQogICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNFeHBvcnRpbmdCb29rbWFya3MgfHwgdmlzaWJsZU1hcHBpbmdzQ291bnQgPT09IDAiCiAgICAgICAgICAgICAgQHNlbGVjdD0iZW1pdCgnZXhwb3J0LWJvb2ttYXJrcycpIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPERvd25sb2FkCiAgICAgICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IgogICAgICAgICAgICAgICAgOmNsYXNzPSJ7ICdhbmltYXRlLXB1bHNlJzogaXNFeHBvcnRpbmdCb29rbWFya3MgfSIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICBpc0V4cG9ydGluZ0Jvb2ttYXJrcwogICAgICAgICAgICAgICAgICA/IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmV4cG9ydGluZyIpCiAgICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuZXhwb3J0Qm9va21hcmtzIikKICAgICAgICAgICAgICB9fQogICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgICA8L0Ryb3Bkb3duTWVudUNvbnRlbnQ+CiAgICAgICAgPC9Ecm9wZG93bk1lbnU+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9kaXY+CiAgPENhcmREZXNjcmlwdGlvbj4KICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5Lm1hcHBpbmdzRGVzY3JpcHRpb24iKSB9fQogIDwvQ2FyZERlc2NyaXB0aW9uPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import {
+  ChevronDown,
+  Download,
+  Folders,
+  Image,
+  ListTree,
+  ListChecks,
+  Plus,
+  RefreshCw,
+  Search,
+  ShieldCheck,
+  SlidersHorizontal,
+  Trash2,
+} from "lucide-vue-next";
+import type { ButtonVariants } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
+import { CardDescription, CardTitle } from "@/components/ui/card";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import DocsLinkButton from "@/components/DocsLinkButton.vue";
+import type { HostMapping } from "@/types";
+import PanelSyncMenuItem from "./PanelSyncMenuItem.vue";
+import SubdomainMappingsMaintenanceMenuItems from "./SubdomainMappingsMaintenanceMenuItems.vue";
+
+defineProps<{
+  authServiceMapping: HostMapping | null;
+  canManageNewMappings: boolean;
+  discoverButtonDividerClass: string;
+  discoverButtonVariant: ButtonVariants["variant"];
+  docsHref: string;
+  groupedView: boolean;
+  hasRegularHostMappings: boolean;
+  isClearingAllSubdomainConfig: boolean;
+  isConfigLoading: boolean;
+  isDiscovering: boolean;
+  isExportingBookmarks: boolean;
+  isRefreshingTitles: boolean;
+  isSavingMappings: boolean;
+  proxyMappingsCount: number;
+  selectionMode?: boolean;
+  isSyncing: boolean;
+  visibleMappingsCount: number;
+}>();
+
+const emit = defineEmits<{
+  "add-auth-service": [];
+  "export-bookmarks": [];
+  "manage-groups": [];
+  "open-clear-all-config": [];
+  "open-create": [];
+  "open-discover": [];
+  "open-discover-settings": [];
+  "open-stale-cleanup": [];
+  "open-target-optimization": [];
+  "refresh-all-titles": [];
+  "sync-routes": [];
+  "update-selection-mode": [value: boolean];
+  "update-grouped-view": [value: boolean];
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <div
+    class="flex flex-col items-stretch justify-between gap-4 sm:flex-row sm:items-center"
+  >
+    <CardTitle>{{ t("admin.subdomainProxy.mappingsTitle") }}</CardTitle>
+    <div
+      class="grid w-full grid-cols-3 items-center gap-2 sm:flex sm:w-auto sm:flex-wrap sm:justify-end"
+    >
+      <DocsLinkButton
+        :href="docsHref"
+        size="default"
+        class="h-10 w-full justify-center gap-1.5 border bg-background px-2 shadow-sm sm:h-9 sm:w-auto sm:border-0 sm:bg-transparent sm:px-3 sm:shadow-none"
+      />
+      <Button
+        :variant="groupedView ? 'secondary' : 'outline'"
+        :disabled="isSavingMappings"
+        :aria-pressed="groupedView"
+        class="h-10 min-w-0 w-full justify-center px-2 sm:h-9 sm:w-auto sm:px-3"
+        @click="emit('update-grouped-view', !groupedView)"
+      >
+        <ListTree class="h-4 w-4 shrink-0" />
+        <span class="truncate">{{
+          t("admin.subdomainProxy.groupedView")
+        }}</span>
+      </Button>
+      <Button
+        variant="outline"
+        :disabled="isSavingMappings || !hasRegularHostMappings"
+        :aria-pressed="selectionMode"
+        class="h-10 min-w-0 w-full justify-center px-2 sm:h-9 sm:w-auto sm:px-3"
+        @click="emit('update-selection-mode', !selectionMode)"
+      >
+        <ListChecks class="h-4 w-4 shrink-0" />
+        <span class="truncate">{{
+          t(
+            selectionMode
+              ? "admin.subdomainProxy.exitSelectionMode"
+              : "admin.subdomainProxy.selectionMode",
+          )
+        }}</span>
+      </Button>
+      <Button
+        v-if="groupedView"
+        variant="outline"
+        :disabled="isSavingMappings"
+        class="hidden sm:inline-flex"
+        @click="emit('manage-groups')"
+      >
+        <Folders class="mr-2 h-4 w-4" />
+        {{ t("admin.subdomainProxy.manageGroups") }}
+      </Button>
+      <Button
+        v-if="!authServiceMapping"
+        :disabled="!canManageNewMappings || isSavingMappings"
+        variant="default"
+        class="col-span-3 w-full sm:w-auto"
+        @click="emit('add-auth-service')"
+      >
+        <ShieldCheck class="mr-2 h-4 w-4" />
+        {{ t("admin.subdomainProxy.addAuthService") }}
+      </Button>
+      <div
+        v-if="authServiceMapping"
+        class="col-span-3 flex min-w-0 w-full items-center sm:col-auto sm:w-auto"
+      >
+        <Button
+          :variant="discoverButtonVariant"
+          :disabled="!canManageNewMappings || isDiscovering || isSavingMappings"
+          class="h-10 min-w-0 flex-1 rounded-r-none px-2 text-xs sm:h-9 sm:flex-none sm:px-3 sm:text-sm"
+          @click="emit('open-discover')"
+        >
+          <Search class="h-4 w-4 shrink-0" />
+          <span class="truncate">
+            {{
+              isDiscovering
+                ? t("admin.subdomainProxy.discovering")
+                : t("admin.subdomainProxy.discover")
+            }}
+          </span>
+        </Button>
+        <DropdownMenu>
+          <DropdownMenuTrigger as-child>
+            <Button
+              data-testid="subdomain-discover-menu-trigger"
+              :variant="discoverButtonVariant"
+              size="icon"
+              :aria-label="t('common.moreActions')"
+              :disabled="isSavingMappings"
+              :class="[
+                'h-10 w-10 rounded-l-none border-l px-1 sm:h-9 sm:w-9 sm:px-2',
+                discoverButtonDividerClass,
+              ]"
+            >
+              <ChevronDown class="h-4 w-4" />
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent align="end">
+            <DropdownMenuItem
+              v-if="groupedView"
+              data-testid="mobile-manage-groups-menu-item"
+              class="sm:hidden"
+              :disabled="isSavingMappings"
+              @select="emit('manage-groups')"
+            >
+              <Folders class="mr-2 h-4 w-4" />
+              {{ t("admin.subdomainProxy.manageGroups") }}
+            </DropdownMenuItem>
+            <DropdownMenuSeparator v-if="groupedView" class="sm:hidden" />
+            <DropdownMenuItem
+              :disabled="isDiscovering"
+              @select="emit('open-discover-settings')"
+            >
+              <SlidersHorizontal class="mr-2 h-4 w-4" />
+              {{ t("admin.scanIntensity.title") }}
+            </DropdownMenuItem>
+            <DropdownMenuItem
+              variant="destructive"
+              :disabled="isSavingMappings || isClearingAllSubdomainConfig"
+              @select="emit('open-clear-all-config')"
+            >
+              <Trash2 class="mr-2 h-4 w-4" />
+              {{ t("admin.subdomainProxy.clearAllConfig") }}
+            </DropdownMenuItem>
+            <SubdomainMappingsMaintenanceMenuItems
+              :clearing="isClearingAllSubdomainConfig"
+              :has-mappings="proxyMappingsCount > 0"
+              :saving="isSavingMappings"
+              @cleanup="emit('open-stale-cleanup')"
+              @optimize="emit('open-target-optimization')"
+            />
+            <DropdownMenuItem
+              :disabled="isConfigLoading"
+              @click="emit('open-create')"
+            >
+              <Plus class="mr-2 h-4 w-4" />
+              {{ t("admin.subdomainProxy.addMapping") }}
+            </DropdownMenuItem>
+            <DropdownMenuItem
+              :disabled="isSyncing"
+              @click="emit('sync-routes')"
+            >
+              <RefreshCw
+                class="mr-2 h-4 w-4"
+                :class="{ 'animate-spin': isSyncing }"
+              />
+              {{
+                isSyncing
+                  ? t("admin.subdomainProxy.syncing")
+                  : t("admin.subdomainProxy.syncRoutes")
+              }}
+            </DropdownMenuItem>
+            <PanelSyncMenuItem />
+            <DropdownMenuSeparator />
+            <DropdownMenuItem
+              :disabled="isRefreshingTitles || proxyMappingsCount === 0"
+              @select="emit('refresh-all-titles')"
+            >
+              <Image
+                class="mr-2 h-4 w-4"
+                :class="{ 'animate-pulse': isRefreshingTitles }"
+              />
+              {{
+                isRefreshingTitles
+                  ? t("admin.subdomainProxy.refreshing")
+                  : t("admin.subdomainProxy.refreshIconsTitles")
+              }}
+            </DropdownMenuItem>
+            <DropdownMenuItem
+              :disabled="isExportingBookmarks || visibleMappingsCount === 0"
+              @select="emit('export-bookmarks')"
+            >
+              <Download
+                class="mr-2 h-4 w-4"
+                :class="{ 'animate-pulse': isExportingBookmarks }"
+              />
+              {{
+                isExportingBookmarks
+                  ? t("admin.subdomainProxy.exporting")
+                  : t("admin.subdomainProxy.exportBookmarks")
+              }}
+            </DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
+      </div>
+    </div>
+  </div>
+  <CardDescription>
+    {{ t("admin.subdomainProxy.mappingsDescription") }}
+  </CardDescription>
+</template>

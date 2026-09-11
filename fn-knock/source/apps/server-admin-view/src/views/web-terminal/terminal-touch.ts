@@ -1,1 +1,248 @@
-aW1wb3J0IHR5cGUgeyBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgewogIGNsYW1wVGVybWluYWxGb250U2l6ZSwKICBnZXRUb3VjaERpc3RhbmNlLAogIHRvdWNoTGlzdEluY2x1ZGVzSWRlbnRpZmllciwKfSBmcm9tICIuL3Rlcm1pbmFsLWRvbSI7CmltcG9ydCB7CiAgREVGQVVMVF9URVJNSU5BTF9GT05UX1NJWkUsCiAgREVGQVVMVF9URVJNSU5BTF9GT05UX1NJWkVfTU9CSUxFLAogIFRFUk1JTkFMX1RPVUNIX0RSQUdfVEhSRVNIT0xEX1BYLAp9IGZyb20gIi4vdGVybWluYWwtcnVudGltZSI7Cgp0eXBlIFRlcm1pbmFsVG91Y2hJbnN0YW5jZSA9IHsKICByb3dzOiBudW1iZXI7CiAgc2Nyb2xsTGluZXM6IChsaW5lczogbnVtYmVyKSA9PiB2b2lkOwp9OwoKdHlwZSBBcHBseVRlcm1pbmFsRm9udFNpemUgPSAoCiAgdmFsdWU6IG51bWJlciwKICBvcHRpb25zPzogeyBwZXJzaXN0PzogYm9vbGVhbiB9LAopID0+IHZvaWQ7CgpleHBvcnQgY29uc3QgY3JlYXRlVGVybWluYWxUb3VjaEdlc3R1cmVzID0gKHsKICBhcHBseUZvbnRTaXplLAogIGNvbXBhY3RWaWV3cG9ydCwKICBnZXRNb3VudEVsZW1lbnQsCiAgZ2V0VGVybWluYWwsCiAgaXNQaW5jaFpvb21pbmcsCiAgcGVyc2lzdEZvbnRTaXplLAogIHRlcm1pbmFsRm9udFNpemUsCn06IHsKICBhcHBseUZvbnRTaXplOiBBcHBseVRlcm1pbmFsRm9udFNpemU7CiAgY29tcGFjdFZpZXdwb3J0OiBSZWY8Ym9vbGVhbj47CiAgZ2V0TW91bnRFbGVtZW50OiAoKSA9PiBIVE1MRWxlbWVudCB8IG51bGw7CiAgZ2V0VGVybWluYWw6ICgpID0+IFRlcm1pbmFsVG91Y2hJbnN0YW5jZSB8IG51bGw7CiAgaXNQaW5jaFpvb21pbmc6IFJlZjxib29sZWFuPjsKICBwZXJzaXN0Rm9udFNpemU6ICgpID0+IHZvaWQ7CiAgdGVybWluYWxGb250U2l6ZTogUmVmPG51bWJlcj47Cn0pID0+IHsKICBsZXQgYm91bmRFbGVtZW50OiBIVE1MRWxlbWVudCB8IG51bGwgPSBudWxsOwogIGxldCBwaW5jaFN0YXJ0RGlzdGFuY2UgPSAwOwogIGxldCBwaW5jaFN0YXJ0Rm9udFNpemUgPSBERUZBVUxUX1RFUk1JTkFMX0ZPTlRfU0laRTsKICBsZXQgcGluY2hab29tRGlydHkgPSBmYWxzZTsKICBsZXQgdHJhY2tlZFRvdWNoSWQ6IG51bWJlciB8IG51bGwgPSBudWxsOwogIGxldCB0cmFja2VkVG91Y2hTdGFydFggPSAwOwogIGxldCB0cmFja2VkVG91Y2hTdGFydFkgPSAwOwogIGxldCB0cmFja2VkVG91Y2hMYXN0WSA9IDA7CiAgbGV0IHRyYWNrZWRUb3VjaFJlbWFpbmRlciA9IDA7CiAgbGV0IHRyYWNrZWRUb3VjaE1vdmVkID0gZmFsc2U7CiAgbGV0IHRyYWNrZWRUb3VjaFNjcm9sbGluZyA9IGZhbHNlOwoKICBjb25zdCBnZXRUcmFja2VkVG91Y2ggPSAodG91Y2hlczogVG91Y2hMaXN0KTogVG91Y2ggfCBudWxsID0+IHsKICAgIGlmICh0cmFja2VkVG91Y2hJZCA9PT0gbnVsbCkgcmV0dXJuIG51bGw7CiAgICBmb3IgKGxldCBpbmRleCA9IDA7IGluZGV4IDwgdG91Y2hlcy5sZW5ndGg7IGluZGV4ICs9IDEpIHsKICAgICAgY29uc3QgdG91Y2ggPSB0b3VjaGVzLml0ZW0oaW5kZXgpOwogICAgICBpZiAodG91Y2g/LmlkZW50aWZpZXIgPT09IHRyYWNrZWRUb3VjaElkKSB7CiAgICAgICAgcmV0dXJuIHRvdWNoOwogICAgICB9CiAgICB9CiAgICByZXR1cm4gbnVsbDsKICB9OwoKICBjb25zdCByZXNldFRyYWNrZWRUb3VjaCA9ICgpID0+IHsKICAgIHRyYWNrZWRUb3VjaElkID0gbnVsbDsKICAgIHRyYWNrZWRUb3VjaFN0YXJ0WCA9IDA7CiAgICB0cmFja2VkVG91Y2hTdGFydFkgPSAwOwogICAgdHJhY2tlZFRvdWNoTGFzdFkgPSAwOwogICAgdHJhY2tlZFRvdWNoUmVtYWluZGVyID0gMDsKICAgIHRyYWNrZWRUb3VjaE1vdmVkID0gZmFsc2U7CiAgICB0cmFja2VkVG91Y2hTY3JvbGxpbmcgPSBmYWxzZTsKICB9OwoKICBjb25zdCBnZXRSb3dIZWlnaHQgPSAoKTogbnVtYmVyID0+IHsKICAgIGNvbnN0IHRlcm1pbmFsID0gZ2V0VGVybWluYWwoKTsKICAgIGNvbnN0IG1vdW50RWxlbWVudCA9IGdldE1vdW50RWxlbWVudCgpOwogICAgaWYgKCF0ZXJtaW5hbCB8fCAhbW91bnRFbGVtZW50KSB7CiAgICAgIHJldHVybiBERUZBVUxUX1RFUk1JTkFMX0ZPTlRfU0laRV9NT0JJTEUgKiAxLjY7CiAgICB9CgogICAgcmV0dXJuIE1hdGgubWF4KDEsIG1vdW50RWxlbWVudC5jbGllbnRIZWlnaHQgLyBNYXRoLm1heCh0ZXJtaW5hbC5yb3dzLCAxKSk7CiAgfTsKCiAgY29uc3QgZmluaXNoUGluY2hab29tID0gKCkgPT4gewogICAgaWYgKCFpc1BpbmNoWm9vbWluZy52YWx1ZSkgcmV0dXJuOwogICAgaXNQaW5jaFpvb21pbmcudmFsdWUgPSBmYWxzZTsKICAgIHBpbmNoU3RhcnREaXN0YW5jZSA9IDA7CiAgICBwaW5jaFN0YXJ0Rm9udFNpemUgPSB0ZXJtaW5hbEZvbnRTaXplLnZhbHVlOwogICAgaWYgKHBpbmNoWm9vbURpcnR5KSB7CiAgICAgIHBlcnNpc3RGb250U2l6ZSgpOwogICAgfQogICAgcGluY2hab29tRGlydHkgPSBmYWxzZTsKICB9OwoKICBjb25zdCBoYW5kbGVUb3VjaFN0YXJ0ID0gKGV2ZW50OiBUb3VjaEV2ZW50KSA9PiB7CiAgICBpZiAoIWNvbXBhY3RWaWV3cG9ydC52YWx1ZSkgcmV0dXJuOwoKICAgIGlmIChldmVudC50b3VjaGVzLmxlbmd0aCA9PT0gMikgewogICAgICByZXNldFRyYWNrZWRUb3VjaCgpOwogICAgICBjb25zdCBkaXN0YW5jZSA9IGdldFRvdWNoRGlzdGFuY2UoZXZlbnQudG91Y2hlcyk7CiAgICAgIGlmICghZGlzdGFuY2UpIHJldHVybjsKICAgICAgcGluY2hTdGFydERpc3RhbmNlID0gZGlzdGFuY2U7CiAgICAgIHBpbmNoU3RhcnRGb250U2l6ZSA9IHRlcm1pbmFsRm9udFNpemUudmFsdWU7CiAgICAgIHBpbmNoWm9vbURpcnR5ID0gZmFsc2U7CiAgICAgIGlzUGluY2hab29taW5nLnZhbHVlID0gdHJ1ZTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGlmIChldmVudC50b3VjaGVzLmxlbmd0aCAhPT0gMSB8fCBpc1BpbmNoWm9vbWluZy52YWx1ZSkgcmV0dXJuOwoKICAgIGNvbnN0IHRvdWNoID0gZXZlbnQudG91Y2hlcy5pdGVtKDApOwogICAgaWYgKCF0b3VjaCkgcmV0dXJuOwogICAgdHJhY2tlZFRvdWNoSWQgPSB0b3VjaC5pZGVudGlmaWVyOwogICAgdHJhY2tlZFRvdWNoU3RhcnRYID0gdG91Y2guY2xpZW50WDsKICAgIHRyYWNrZWRUb3VjaFN0YXJ0WSA9IHRvdWNoLmNsaWVudFk7CiAgICB0cmFja2VkVG91Y2hMYXN0WSA9IHRvdWNoLmNsaWVudFk7CiAgICB0cmFja2VkVG91Y2hSZW1haW5kZXIgPSAwOwogICAgdHJhY2tlZFRvdWNoTW92ZWQgPSBmYWxzZTsKICAgIHRyYWNrZWRUb3VjaFNjcm9sbGluZyA9IGZhbHNlOwogIH07CgogIGNvbnN0IGhhbmRsZVRvdWNoTW92ZSA9IChldmVudDogVG91Y2hFdmVudCkgPT4gewogICAgaWYgKGlzUGluY2hab29taW5nLnZhbHVlICYmIGV2ZW50LnRvdWNoZXMubGVuZ3RoID09PSAyKSB7CiAgICAgIGNvbnN0IGRpc3RhbmNlID0gZ2V0VG91Y2hEaXN0YW5jZShldmVudC50b3VjaGVzKTsKICAgICAgaWYgKCFkaXN0YW5jZSB8fCBwaW5jaFN0YXJ0RGlzdGFuY2UgPD0gMCkgcmV0dXJuOwoKICAgICAgZXZlbnQucHJldmVudERlZmF1bHQoKTsKICAgICAgY29uc3QgbmV4dEZvbnRTaXplID0gY2xhbXBUZXJtaW5hbEZvbnRTaXplKAogICAgICAgIHBpbmNoU3RhcnRGb250U2l6ZSAqIChkaXN0YW5jZSAvIHBpbmNoU3RhcnREaXN0YW5jZSksCiAgICAgICk7CiAgICAgIGlmIChuZXh0Rm9udFNpemUgPT09IHRlcm1pbmFsRm9udFNpemUudmFsdWUpIHJldHVybjsKCiAgICAgIHBpbmNoWm9vbURpcnR5ID0gdHJ1ZTsKICAgICAgYXBwbHlGb250U2l6ZShuZXh0Rm9udFNpemUsIHsgcGVyc2lzdDogZmFsc2UgfSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBjb25zdCB0ZXJtaW5hbCA9IGdldFRlcm1pbmFsKCk7CiAgICBpZiAoCiAgICAgICFjb21wYWN0Vmlld3BvcnQudmFsdWUgfHwKICAgICAgIXRlcm1pbmFsIHx8CiAgICAgIHRyYWNrZWRUb3VjaElkID09PSBudWxsIHx8CiAgICAgIGV2ZW50LnRvdWNoZXMubGVuZ3RoICE9PSAxCiAgICApIHsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGNvbnN0IHRvdWNoID0gZ2V0VHJhY2tlZFRvdWNoKGV2ZW50LnRvdWNoZXMpOwogICAgaWYgKCF0b3VjaCkgcmV0dXJuOwoKICAgIGNvbnN0IHRvdGFsRGVsdGFYID0gdG91Y2guY2xpZW50WCAtIHRyYWNrZWRUb3VjaFN0YXJ0WDsKICAgIGNvbnN0IHRvdGFsRGVsdGFZID0gdG91Y2guY2xpZW50WSAtIHRyYWNrZWRUb3VjaFN0YXJ0WTsKICAgIGlmICgKICAgICAgIXRyYWNrZWRUb3VjaE1vdmVkICYmCiAgICAgIChNYXRoLmFicyh0b3RhbERlbHRhWCkgPj0gVEVSTUlOQUxfVE9VQ0hfRFJBR19USFJFU0hPTERfUFggfHwKICAgICAgICBNYXRoLmFicyh0b3RhbERlbHRhWSkgPj0gVEVSTUlOQUxfVE9VQ0hfRFJBR19USFJFU0hPTERfUFgpCiAgICApIHsKICAgICAgdHJhY2tlZFRvdWNoTW92ZWQgPSB0cnVlOwogICAgfQoKICAgIGlmICghdHJhY2tlZFRvdWNoU2Nyb2xsaW5nKSB7CiAgICAgIGlmICgKICAgICAgICBNYXRoLmFicyh0b3RhbERlbHRhWSkgPCBURVJNSU5BTF9UT1VDSF9EUkFHX1RIUkVTSE9MRF9QWCB8fAogICAgICAgIE1hdGguYWJzKHRvdGFsRGVsdGFZKSA8PSBNYXRoLmFicyh0b3RhbERlbHRhWCkKICAgICAgKSB7CiAgICAgICAgdHJhY2tlZFRvdWNoTGFzdFkgPSB0b3VjaC5jbGllbnRZOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICB0cmFja2VkVG91Y2hTY3JvbGxpbmcgPSB0cnVlOwogICAgfQoKICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KCk7CiAgICBjb25zdCBkZWx0YVkgPSB0b3VjaC5jbGllbnRZIC0gdHJhY2tlZFRvdWNoTGFzdFk7CiAgICB0cmFja2VkVG91Y2hMYXN0WSA9IHRvdWNoLmNsaWVudFk7CiAgICB0cmFja2VkVG91Y2hSZW1haW5kZXIgKz0gZGVsdGFZOwoKICAgIGNvbnN0IHJvd0hlaWdodCA9IGdldFJvd0hlaWdodCgpOwogICAgY29uc3QgbGluZXMgPQogICAgICB0cmFja2VkVG91Y2hSZW1haW5kZXIgPiAwCiAgICAgICAgPyBNYXRoLmZsb29yKHRyYWNrZWRUb3VjaFJlbWFpbmRlciAvIHJvd0hlaWdodCkKICAgICAgICA6IE1hdGguY2VpbCh0cmFja2VkVG91Y2hSZW1haW5kZXIgLyByb3dIZWlnaHQpOwogICAgaWYgKGxpbmVzID09PSAwKSByZXR1cm47CgogICAgdGVybWluYWwuc2Nyb2xsTGluZXMoLWxpbmVzKTsKICAgIHRyYWNrZWRUb3VjaFJlbWFpbmRlciAtPSBsaW5lcyAqIHJvd0hlaWdodDsKICB9OwoKICBjb25zdCBoYW5kbGVUb3VjaEVuZCA9IChldmVudDogVG91Y2hFdmVudCkgPT4gewogICAgY29uc3Qgd2FzUGluY2hab29taW5nID0gaXNQaW5jaFpvb21pbmcudmFsdWU7CiAgICBjb25zdCB0cmFja2VkVG91Y2hFbmRlZCA9CiAgICAgIHRyYWNrZWRUb3VjaElkICE9PSBudWxsICYmCiAgICAgIHRvdWNoTGlzdEluY2x1ZGVzSWRlbnRpZmllcihldmVudC5jaGFuZ2VkVG91Y2hlcywgdHJhY2tlZFRvdWNoSWQpOwogICAgY29uc3Qgc2hvdWxkU3VwcHJlc3NUZXJtaW5hbEZvY3VzID0KICAgICAgd2FzUGluY2hab29taW5nIHx8ICh0cmFja2VkVG91Y2hFbmRlZCAmJiB0cmFja2VkVG91Y2hNb3ZlZCk7CgogICAgaWYgKHNob3VsZFN1cHByZXNzVGVybWluYWxGb2N1cykgewogICAgICBldmVudC5wcmV2ZW50RGVmYXVsdCgpOwogICAgICBldmVudC5zdG9wUHJvcGFnYXRpb24oKTsKICAgICAgZXZlbnQuc3RvcEltbWVkaWF0ZVByb3BhZ2F0aW9uPy4oKTsKICAgIH0KCiAgICBpZiAodHJhY2tlZFRvdWNoRW5kZWQpIHsKICAgICAgcmVzZXRUcmFja2VkVG91Y2goKTsKICAgIH0KCiAgICBmaW5pc2hQaW5jaFpvb20oKTsKICB9OwoKICBjb25zdCBiaW5kID0gKCkgPT4gewogICAgY29uc3QgZWxlbWVudCA9IGdldE1vdW50RWxlbWVudCgpOwogICAgaWYgKCFlbGVtZW50IHx8IGVsZW1lbnQgPT09IGJvdW5kRWxlbWVudCkgcmV0dXJuOwoKICAgIGlmIChib3VuZEVsZW1lbnQpIHsKICAgICAgdW5iaW5kKCk7CiAgICB9CgogICAgZWxlbWVudC5hZGRFdmVudExpc3RlbmVyKCJ0b3VjaHN0YXJ0IiwgaGFuZGxlVG91Y2hTdGFydCwgewogICAgICBjYXB0dXJlOiB0cnVlLAogICAgfSk7CiAgICBlbGVtZW50LmFkZEV2ZW50TGlzdGVuZXIoInRvdWNobW92ZSIsIGhhbmRsZVRvdWNoTW92ZSwgewogICAgICBjYXB0dXJlOiB0cnVlLAogICAgICBwYXNzaXZlOiBmYWxzZSwKICAgIH0pOwogICAgZWxlbWVudC5hZGRFdmVudExpc3RlbmVyKCJ0b3VjaGVuZCIsIGhhbmRsZVRvdWNoRW5kLCB7CiAgICAgIGNhcHR1cmU6IHRydWUsCiAgICB9KTsKICAgIGVsZW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigidG91Y2hjYW5jZWwiLCBoYW5kbGVUb3VjaEVuZCwgewogICAgICBjYXB0dXJlOiB0cnVlLAogICAgfSk7CiAgICBib3VuZEVsZW1lbnQgPSBlbGVtZW50OwogIH07CgogIGNvbnN0IHVuYmluZCA9ICgpID0+IHsKICAgIGlmICghYm91bmRFbGVtZW50KSByZXR1cm47CiAgICBib3VuZEVsZW1lbnQucmVtb3ZlRXZlbnRMaXN0ZW5lcigidG91Y2hzdGFydCIsIGhhbmRsZVRvdWNoU3RhcnQsIHRydWUpOwogICAgYm91bmRFbGVtZW50LnJlbW92ZUV2ZW50TGlzdGVuZXIoInRvdWNobW92ZSIsIGhhbmRsZVRvdWNoTW92ZSwgdHJ1ZSk7CiAgICBib3VuZEVsZW1lbnQucmVtb3ZlRXZlbnRMaXN0ZW5lcigidG91Y2hlbmQiLCBoYW5kbGVUb3VjaEVuZCwgdHJ1ZSk7CiAgICBib3VuZEVsZW1lbnQucmVtb3ZlRXZlbnRMaXN0ZW5lcigidG91Y2hjYW5jZWwiLCBoYW5kbGVUb3VjaEVuZCwgdHJ1ZSk7CiAgICBib3VuZEVsZW1lbnQgPSBudWxsOwogICAgcmVzZXRUcmFja2VkVG91Y2goKTsKICAgIGZpbmlzaFBpbmNoWm9vbSgpOwogIH07CgogIHJldHVybiB7CiAgICBiaW5kLAogICAgZ2V0Um93SGVpZ2h0LAogICAgdW5iaW5kLAogIH07Cn07Cg==
+import type { Ref } from "vue";
+import {
+  clampTerminalFontSize,
+  getTouchDistance,
+  touchListIncludesIdentifier,
+} from "./terminal-dom";
+import {
+  DEFAULT_TERMINAL_FONT_SIZE,
+  DEFAULT_TERMINAL_FONT_SIZE_MOBILE,
+  TERMINAL_TOUCH_DRAG_THRESHOLD_PX,
+} from "./terminal-runtime";
+
+type TerminalTouchInstance = {
+  rows: number;
+  scrollLines: (lines: number) => void;
+};
+
+type ApplyTerminalFontSize = (
+  value: number,
+  options?: { persist?: boolean },
+) => void;
+
+export const createTerminalTouchGestures = ({
+  applyFontSize,
+  compactViewport,
+  getMountElement,
+  getTerminal,
+  isPinchZooming,
+  persistFontSize,
+  terminalFontSize,
+}: {
+  applyFontSize: ApplyTerminalFontSize;
+  compactViewport: Ref<boolean>;
+  getMountElement: () => HTMLElement | null;
+  getTerminal: () => TerminalTouchInstance | null;
+  isPinchZooming: Ref<boolean>;
+  persistFontSize: () => void;
+  terminalFontSize: Ref<number>;
+}) => {
+  let boundElement: HTMLElement | null = null;
+  let pinchStartDistance = 0;
+  let pinchStartFontSize = DEFAULT_TERMINAL_FONT_SIZE;
+  let pinchZoomDirty = false;
+  let trackedTouchId: number | null = null;
+  let trackedTouchStartX = 0;
+  let trackedTouchStartY = 0;
+  let trackedTouchLastY = 0;
+  let trackedTouchRemainder = 0;
+  let trackedTouchMoved = false;
+  let trackedTouchScrolling = false;
+
+  const getTrackedTouch = (touches: TouchList): Touch | null => {
+    if (trackedTouchId === null) return null;
+    for (let index = 0; index < touches.length; index += 1) {
+      const touch = touches.item(index);
+      if (touch?.identifier === trackedTouchId) {
+        return touch;
+      }
+    }
+    return null;
+  };
+
+  const resetTrackedTouch = () => {
+    trackedTouchId = null;
+    trackedTouchStartX = 0;
+    trackedTouchStartY = 0;
+    trackedTouchLastY = 0;
+    trackedTouchRemainder = 0;
+    trackedTouchMoved = false;
+    trackedTouchScrolling = false;
+  };
+
+  const getRowHeight = (): number => {
+    const terminal = getTerminal();
+    const mountElement = getMountElement();
+    if (!terminal || !mountElement) {
+      return DEFAULT_TERMINAL_FONT_SIZE_MOBILE * 1.6;
+    }
+
+    return Math.max(1, mountElement.clientHeight / Math.max(terminal.rows, 1));
+  };
+
+  const finishPinchZoom = () => {
+    if (!isPinchZooming.value) return;
+    isPinchZooming.value = false;
+    pinchStartDistance = 0;
+    pinchStartFontSize = terminalFontSize.value;
+    if (pinchZoomDirty) {
+      persistFontSize();
+    }
+    pinchZoomDirty = false;
+  };
+
+  const handleTouchStart = (event: TouchEvent) => {
+    if (!compactViewport.value) return;
+
+    if (event.touches.length === 2) {
+      resetTrackedTouch();
+      const distance = getTouchDistance(event.touches);
+      if (!distance) return;
+      pinchStartDistance = distance;
+      pinchStartFontSize = terminalFontSize.value;
+      pinchZoomDirty = false;
+      isPinchZooming.value = true;
+      return;
+    }
+
+    if (event.touches.length !== 1 || isPinchZooming.value) return;
+
+    const touch = event.touches.item(0);
+    if (!touch) return;
+    trackedTouchId = touch.identifier;
+    trackedTouchStartX = touch.clientX;
+    trackedTouchStartY = touch.clientY;
+    trackedTouchLastY = touch.clientY;
+    trackedTouchRemainder = 0;
+    trackedTouchMoved = false;
+    trackedTouchScrolling = false;
+  };
+
+  const handleTouchMove = (event: TouchEvent) => {
+    if (isPinchZooming.value && event.touches.length === 2) {
+      const distance = getTouchDistance(event.touches);
+      if (!distance || pinchStartDistance <= 0) return;
+
+      event.preventDefault();
+      const nextFontSize = clampTerminalFontSize(
+        pinchStartFontSize * (distance / pinchStartDistance),
+      );
+      if (nextFontSize === terminalFontSize.value) return;
+
+      pinchZoomDirty = true;
+      applyFontSize(nextFontSize, { persist: false });
+      return;
+    }
+
+    const terminal = getTerminal();
+    if (
+      !compactViewport.value ||
+      !terminal ||
+      trackedTouchId === null ||
+      event.touches.length !== 1
+    ) {
+      return;
+    }
+
+    const touch = getTrackedTouch(event.touches);
+    if (!touch) return;
+
+    const totalDeltaX = touch.clientX - trackedTouchStartX;
+    const totalDeltaY = touch.clientY - trackedTouchStartY;
+    if (
+      !trackedTouchMoved &&
+      (Math.abs(totalDeltaX) >= TERMINAL_TOUCH_DRAG_THRESHOLD_PX ||
+        Math.abs(totalDeltaY) >= TERMINAL_TOUCH_DRAG_THRESHOLD_PX)
+    ) {
+      trackedTouchMoved = true;
+    }
+
+    if (!trackedTouchScrolling) {
+      if (
+        Math.abs(totalDeltaY) < TERMINAL_TOUCH_DRAG_THRESHOLD_PX ||
+        Math.abs(totalDeltaY) <= Math.abs(totalDeltaX)
+      ) {
+        trackedTouchLastY = touch.clientY;
+        return;
+      }
+      trackedTouchScrolling = true;
+    }
+
+    event.preventDefault();
+    const deltaY = touch.clientY - trackedTouchLastY;
+    trackedTouchLastY = touch.clientY;
+    trackedTouchRemainder += deltaY;
+
+    const rowHeight = getRowHeight();
+    const lines =
+      trackedTouchRemainder > 0
+        ? Math.floor(trackedTouchRemainder / rowHeight)
+        : Math.ceil(trackedTouchRemainder / rowHeight);
+    if (lines === 0) return;
+
+    terminal.scrollLines(-lines);
+    trackedTouchRemainder -= lines * rowHeight;
+  };
+
+  const handleTouchEnd = (event: TouchEvent) => {
+    const wasPinchZooming = isPinchZooming.value;
+    const trackedTouchEnded =
+      trackedTouchId !== null &&
+      touchListIncludesIdentifier(event.changedTouches, trackedTouchId);
+    const shouldSuppressTerminalFocus =
+      wasPinchZooming || (trackedTouchEnded && trackedTouchMoved);
+
+    if (shouldSuppressTerminalFocus) {
+      event.preventDefault();
+      event.stopPropagation();
+      event.stopImmediatePropagation?.();
+    }
+
+    if (trackedTouchEnded) {
+      resetTrackedTouch();
+    }
+
+    finishPinchZoom();
+  };
+
+  const bind = () => {
+    const element = getMountElement();
+    if (!element || element === boundElement) return;
+
+    if (boundElement) {
+      unbind();
+    }
+
+    element.addEventListener("touchstart", handleTouchStart, {
+      capture: true,
+    });
+    element.addEventListener("touchmove", handleTouchMove, {
+      capture: true,
+      passive: false,
+    });
+    element.addEventListener("touchend", handleTouchEnd, {
+      capture: true,
+    });
+    element.addEventListener("touchcancel", handleTouchEnd, {
+      capture: true,
+    });
+    boundElement = element;
+  };
+
+  const unbind = () => {
+    if (!boundElement) return;
+    boundElement.removeEventListener("touchstart", handleTouchStart, true);
+    boundElement.removeEventListener("touchmove", handleTouchMove, true);
+    boundElement.removeEventListener("touchend", handleTouchEnd, true);
+    boundElement.removeEventListener("touchcancel", handleTouchEnd, true);
+    boundElement = null;
+    resetTrackedTouch();
+    finishPinchZoom();
+  };
+
+  return {
+    bind,
+    getRowHeight,
+    unbind,
+  };
+};

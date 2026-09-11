@@ -1,1 +1,264 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvblVubW91bnRlZCwgcmVmLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7CiAgUG9wb3ZlciwKICBQb3BvdmVyQW5jaG9yLAogIFBvcG92ZXJDb250ZW50LAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9wb3BvdmVyIjsKaW1wb3J0IGZub3NJY29uVXJsIGZyb20gIkAvYXNzZXRzL2Zub3MucG5nIjsKaW1wb3J0IHR5cGUgeyBTZXNzaW9uQXBwQXR0YWNobWVudFJlY29yZCB9IGZyb20gIi4uLy4uL3R5cGVzIjsKaW1wb3J0IHsgZm9ybWF0SHVtYW5GcmllbmRseVRpbWUgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL2Zvcm1hdEh1bWFuRnJpZW5kbHlUaW1lIjsKaW1wb3J0IHsgdXNlTWVkaWFRdWVyeU1hdGNoIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VNZWRpYVF1ZXJ5TWF0Y2giOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgYXR0YWNobWVudHM6IFNlc3Npb25BcHBBdHRhY2htZW50UmVjb3JkW107CiAgaWNvblVybD86IHN0cmluZzsKICBpY29uQWx0Pzogc3RyaW5nOwogIHRpdGxlPzogc3RyaW5nOwogIHRyaWdnZXJMYWJlbD86IHN0cmluZzsKICBpdGVtTGFiZWw/OiBzdHJpbmc7CiAgZm9vdGVyVGV4dD86IHN0cmluZzsKfT4oKTsKCmNvbnN0IHsgdCwgbG9jYWxlIH0gPSB1c2VJMThuKCk7Cgpjb25zdCBvcGVuID0gcmVmKGZhbHNlKTsKY29uc3QgaXNUb3VjaEludGVyYWN0aW9uID0gdXNlTWVkaWFRdWVyeU1hdGNoKAogICIoaG92ZXI6IG5vbmUpLCAocG9pbnRlcjogY29hcnNlKSIsCik7CmNvbnN0IGlzUG9pbnRlck9uVHJpZ2dlciA9IHJlZihmYWxzZSk7CmNvbnN0IGlzUG9pbnRlck9uQ29udGVudCA9IHJlZihmYWxzZSk7CgpsZXQgY2xvc2VUaW1lcjogbnVtYmVyIHwgbnVsbCA9IG51bGw7Cgpjb25zdCBvcmRlcmVkQXR0YWNobWVudHMgPSBjb21wdXRlZCgoKSA9PiB7CiAgcmV0dXJuIFsuLi5wcm9wcy5hdHRhY2htZW50c10uc29ydCgoYSwgYikgPT4gewogICAgcmV0dXJuIChEYXRlLnBhcnNlKGIubGFzdFNlZW5BdCkgfHwgMCkgLSAoRGF0ZS5wYXJzZShhLmxhc3RTZWVuQXQpIHx8IDApOwogIH0pOwp9KTsKCmNvbnN0IGF0dGFjaG1lbnRDb3VudCA9IGNvbXB1dGVkKCgpID0+IG9yZGVyZWRBdHRhY2htZW50cy52YWx1ZS5sZW5ndGgpOwoKY29uc3QgcmVzb2x2ZWRJY29uVXJsID0gY29tcHV0ZWQoKCkgPT4gcHJvcHMuaWNvblVybCB8fCBmbm9zSWNvblVybCk7CmNvbnN0IHJlc29sdmVkSWNvbkFsdCA9IGNvbXB1dGVkKAogICgpID0+IHByb3BzLmljb25BbHQgfHwgdCgiYWRtaW4uc2Vzc2lvbnMuYXR0YWNobWVudHMuZm5vc0ljb25BbHQiKSwKKTsKY29uc3QgcmVzb2x2ZWRUaXRsZSA9IGNvbXB1dGVkKAogICgpID0+IHByb3BzLnRpdGxlIHx8IHQoImFkbWluLnNlc3Npb25zLmF0dGFjaG1lbnRzLmZub3NUaXRsZSIpLAopOwpjb25zdCByZXNvbHZlZFRyaWdnZXJMYWJlbCA9IGNvbXB1dGVkKAogICgpID0+IHByb3BzLnRyaWdnZXJMYWJlbCB8fCB0KCJhZG1pbi5zZXNzaW9ucy5hdHRhY2htZW50cy5mbm9zVHJpZ2dlckxhYmVsIiksCik7CmNvbnN0IHJlc29sdmVkSXRlbUxhYmVsID0gY29tcHV0ZWQoCiAgKCkgPT4gcHJvcHMuaXRlbUxhYmVsIHx8IHQoImFkbWluLnNlc3Npb25zLmF0dGFjaG1lbnRzLnRva2VuSXRlbUxhYmVsIiksCik7CmNvbnN0IHJlc29sdmVkRm9vdGVyVGV4dCA9IGNvbXB1dGVkKAogICgpID0+IHByb3BzLmZvb3RlclRleHQgfHwgdCgiYWRtaW4uc2Vzc2lvbnMuYXR0YWNobWVudHMuZm5vc0Zvb3RlciIpLAopOwoKY29uc3QgY2xlYXJDbG9zZVRpbWVyID0gKCkgPT4gewogIGlmIChjbG9zZVRpbWVyICE9PSBudWxsKSB7CiAgICB3aW5kb3cuY2xlYXJUaW1lb3V0KGNsb3NlVGltZXIpOwogICAgY2xvc2VUaW1lciA9IG51bGw7CiAgfQp9OwoKY29uc3Qgc2NoZWR1bGVDbG9zZSA9ICgpID0+IHsKICBjbGVhckNsb3NlVGltZXIoKTsKICBjbG9zZVRpbWVyID0gd2luZG93LnNldFRpbWVvdXQoKCkgPT4gewogICAgaWYgKCFpc1BvaW50ZXJPblRyaWdnZXIudmFsdWUgJiYgIWlzUG9pbnRlck9uQ29udGVudC52YWx1ZSkgewogICAgICBvcGVuLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgICBjbG9zZVRpbWVyID0gbnVsbDsKICB9LCAxODApOwp9OwoKY29uc3QgaGFuZGxlT3BlbkNoYW5nZSA9IChuZXh0T3BlbjogYm9vbGVhbikgPT4gewogIGlmIChuZXh0T3BlbikgewogICAgb3Blbi52YWx1ZSA9IHRydWU7CiAgICByZXR1cm47CiAgfQoKICBpZiAoaXNUb3VjaEludGVyYWN0aW9uLnZhbHVlKSB7CiAgICBvcGVuLnZhbHVlID0gZmFsc2U7CiAgICByZXR1cm47CiAgfQoKICBpZiAoIWlzUG9pbnRlck9uVHJpZ2dlci52YWx1ZSAmJiAhaXNQb2ludGVyT25Db250ZW50LnZhbHVlKSB7CiAgICBvcGVuLnZhbHVlID0gZmFsc2U7CiAgfQp9OwoKY29uc3QgaGFuZGxlVHJpZ2dlckVudGVyID0gKCkgPT4gewogIGlmIChpc1RvdWNoSW50ZXJhY3Rpb24udmFsdWUpIHsKICAgIHJldHVybjsKICB9CgogIGlzUG9pbnRlck9uVHJpZ2dlci52YWx1ZSA9IHRydWU7CiAgY2xlYXJDbG9zZVRpbWVyKCk7CiAgb3Blbi52YWx1ZSA9IHRydWU7Cn07Cgpjb25zdCBoYW5kbGVUcmlnZ2VyTGVhdmUgPSAoKSA9PiB7CiAgaWYgKGlzVG91Y2hJbnRlcmFjdGlvbi52YWx1ZSkgewogICAgcmV0dXJuOwogIH0KCiAgaXNQb2ludGVyT25UcmlnZ2VyLnZhbHVlID0gZmFsc2U7CiAgc2NoZWR1bGVDbG9zZSgpOwp9OwoKY29uc3QgaGFuZGxlQ29udGVudEVudGVyID0gKCkgPT4gewogIGlmIChpc1RvdWNoSW50ZXJhY3Rpb24udmFsdWUpIHsKICAgIHJldHVybjsKICB9CgogIGlzUG9pbnRlck9uQ29udGVudC52YWx1ZSA9IHRydWU7CiAgY2xlYXJDbG9zZVRpbWVyKCk7CiAgb3Blbi52YWx1ZSA9IHRydWU7Cn07Cgpjb25zdCBoYW5kbGVDb250ZW50TGVhdmUgPSAoKSA9PiB7CiAgaWYgKGlzVG91Y2hJbnRlcmFjdGlvbi52YWx1ZSkgewogICAgcmV0dXJuOwogIH0KCiAgaXNQb2ludGVyT25Db250ZW50LnZhbHVlID0gZmFsc2U7CiAgc2NoZWR1bGVDbG9zZSgpOwp9OwoKY29uc3QgaGFuZGxlVHJpZ2dlckNsaWNrID0gKCkgPT4gewogIGlmICghaXNUb3VjaEludGVyYWN0aW9uLnZhbHVlKSB7CiAgICBvcGVuLnZhbHVlID0gdHJ1ZTsKICAgIHJldHVybjsKICB9CgogIG9wZW4udmFsdWUgPSAhb3Blbi52YWx1ZTsKfTsKCmNvbnN0IGZvcm1hdFJlbGF0aXZlVGltZSA9ICgKICB2YWx1ZTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCwKICBlbXB0eVRleHQgPSAiLSIsCikgPT4gewogIHJldHVybiBmb3JtYXRIdW1hbkZyaWVuZGx5VGltZSh2YWx1ZSwgewogICAgbG9jYWxlOiBsb2NhbGUudmFsdWUsCiAgICBlbXB0eVRleHQsCiAgfSk7Cn07Cgp3YXRjaCgKICAoKSA9PiBwcm9wcy5hdHRhY2htZW50cy5sZW5ndGgsCiAgKGxlbmd0aCkgPT4gewogICAgaWYgKGxlbmd0aCA9PT0gMCkgewogICAgICBvcGVuLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfSwKKTsKCm9uVW5tb3VudGVkKCgpID0+IHsKICBjbGVhckNsb3NlVGltZXIoKTsKfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxQb3BvdmVyIDpvcGVuPSJvcGVuIiBAdXBkYXRlOm9wZW49ImhhbmRsZU9wZW5DaGFuZ2UiPgogICAgPFBvcG92ZXJBbmNob3IgYXMtY2hpbGQ+CiAgICAgIDxidXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgY2xhc3M9InJlbGF0aXZlIGlubGluZS1mbGV4IGgtNyB3LTcgc2hyaW5rLTAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHRyYW5zaXRpb24gaG92ZXI6YmctbXV0ZWQvNjAgZm9jdXMtdmlzaWJsZTpvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpyaW5nLTIgZm9jdXMtdmlzaWJsZTpyaW5nLXJpbmcvNzAgdG91Y2gtbWFuaXB1bGF0aW9uIgogICAgICAgIDphcmlhLWxhYmVsPSIKICAgICAgICAgIHQoJ2FkbWluLnNlc3Npb25zLmF0dGFjaG1lbnRzLnZpZXdBdHRhY2hlZEFyaWEnLCB7CiAgICAgICAgICAgIGxhYmVsOiByZXNvbHZlZFRyaWdnZXJMYWJlbCwKICAgICAgICAgICAgY291bnQ6IGF0dGFjaG1lbnRDb3VudCwKICAgICAgICAgIH0pCiAgICAgICAgIgogICAgICAgIDphcmlhLWV4cGFuZGVkPSJvcGVuIgogICAgICAgIEBtb3VzZWVudGVyPSJoYW5kbGVUcmlnZ2VyRW50ZXIiCiAgICAgICAgQG1vdXNlbGVhdmU9ImhhbmRsZVRyaWdnZXJMZWF2ZSIKICAgICAgICBAZm9jdXM9ImhhbmRsZVRyaWdnZXJFbnRlciIKICAgICAgICBAYmx1cj0iaGFuZGxlVHJpZ2dlckxlYXZlIgogICAgICAgIEBjbGljaz0iaGFuZGxlVHJpZ2dlckNsaWNrIgogICAgICA+CiAgICAgICAgPGltZwogICAgICAgICAgOnNyYz0icmVzb2x2ZWRJY29uVXJsIgogICAgICAgICAgOmFsdD0icmVzb2x2ZWRJY29uQWx0IgogICAgICAgICAgY2xhc3M9ImgtNCB3LTQgcm91bmRlZC1bNHB4XSBvYmplY3QtY29udGFpbiIKICAgICAgICAvPgogICAgICAgIDxzcGFuCiAgICAgICAgICB2LWlmPSJhdHRhY2htZW50Q291bnQgPiAxIgogICAgICAgICAgY2xhc3M9ImFic29sdXRlIC1yaWdodC0xIC10b3AtMSBpbmxpbmUtZmxleCBtaW4tdy00IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgYmctZm9yZWdyb3VuZCBweC0xIHRleHQtWzEwcHhdIGZvbnQtc2VtaWJvbGQgbGVhZGluZy00IHRleHQtYmFja2dyb3VuZCIKICAgICAgICA+CiAgICAgICAgICB7eyBhdHRhY2htZW50Q291bnQgfX0KICAgICAgICA8L3NwYW4+CiAgICAgIDwvYnV0dG9uPgogICAgPC9Qb3BvdmVyQW5jaG9yPgoKICAgIDxQb3BvdmVyQ29udGVudAogICAgICBzaWRlPSJib3R0b20iCiAgICAgIGFsaWduPSJzdGFydCIKICAgICAgY2xhc3M9InctW21pbigyMHJlbSxjYWxjKDEwMHZ3LTFyZW0pKV0gcHgtMyBweS0yLjUiCiAgICAgIEBtb3VzZWVudGVyPSJoYW5kbGVDb250ZW50RW50ZXIiCiAgICAgIEBtb3VzZWxlYXZlPSJoYW5kbGVDb250ZW50TGVhdmUiCiAgICAgIEBmb2N1c2luPSJoYW5kbGVDb250ZW50RW50ZXIiCiAgICAgIEBmb2N1c291dD0iaGFuZGxlQ29udGVudExlYXZlIgogICAgPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgPGltZwogICAgICAgICAgOnNyYz0icmVzb2x2ZWRJY29uVXJsIgogICAgICAgICAgOmFsdD0icmVzb2x2ZWRJY29uQWx0IgogICAgICAgICAgY2xhc3M9ImgtNCB3LTQgcm91bmRlZC1bNHB4XSBvYmplY3QtY29udGFpbiIKICAgICAgICAvPgogICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPnt7IHJlc29sdmVkVGl0bGUgfX08L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJtbC1hdXRvIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHQoImFkbWluLnNlc3Npb25zLmF0dGFjaG1lbnRzLmNvdW50IiwgeyBjb3VudDogYXR0YWNobWVudENvdW50IH0pCiAgICAgICAgICB9fQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3M9Im10LTIgc3BhY2UteS0yIj4KICAgICAgICA8ZGl2CiAgICAgICAgICB2LWZvcj0iKGF0dGFjaG1lbnQsIGluZGV4KSBpbiBvcmRlcmVkQXR0YWNobWVudHMiCiAgICAgICAgICA6a2V5PSJhdHRhY2htZW50LnN1YmplY3RIYXNoIgogICAgICAgICAgY2xhc3M9ImJvcmRlci10IGJvcmRlci1ib3JkZXIvNjAgcHQtMiBmaXJzdDpib3JkZXItdC0wIGZpcnN0OnB0LTAiCiAgICAgICAgPgogICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAge3sgcmVzb2x2ZWRJdGVtTGFiZWwgfX0ge3sgaW5kZXggKyAxIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LVsxMXB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICB0KCJhZG1pbi5zZXNzaW9ucy5hdHRhY2htZW50cy5hY3RpdmVUaW1lIiwgewogICAgICAgICAgICAgICAgICB0aW1lOiBmb3JtYXRSZWxhdGl2ZVRpbWUoYXR0YWNobWVudC5sYXN0U2VlbkF0KSwKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzPSJtdC0xIGJyZWFrLWFsbCBmb250LW1vbm8gdGV4dC1bMTFweF0gbGVhZGluZy00IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgYXR0YWNobWVudC5zdWJqZWN0SGFzaCB9fQogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMS41IGdyaWQgZ2FwLTEgdGV4dC1bMTFweF0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1zdGFydCBnYXAtMiI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InNocmluay0wIj5JUDwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iYnJlYWstYWxsIGZvbnQtbW9ubyB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgYXR0YWNobWVudC5jdXJyZW50SXAgfX0KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdgogICAgICAgIHYtaWY9InJlc29sdmVkRm9vdGVyVGV4dCIKICAgICAgICBjbGFzcz0ibXQtMiBib3JkZXItdCBib3JkZXItYm9yZGVyLzYwIHB0LTIgdGV4dC1bMTFweF0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICA+CiAgICAgICAge3sgcmVzb2x2ZWRGb290ZXJUZXh0IH19CiAgICAgIDwvZGl2PgogICAgPC9Qb3BvdmVyQ29udGVudD4KICA8L1BvcG92ZXI+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, onUnmounted, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  Popover,
+  PopoverAnchor,
+  PopoverContent,
+} from "@/components/ui/popover";
+import fnosIconUrl from "@/assets/fnos.png";
+import type { SessionAppAttachmentRecord } from "../../types";
+import { formatHumanFriendlyTime } from "@admin-shared/utils/formatHumanFriendlyTime";
+import { useMediaQueryMatch } from "@admin-shared/composables/useMediaQueryMatch";
+
+const props = defineProps<{
+  attachments: SessionAppAttachmentRecord[];
+  iconUrl?: string;
+  iconAlt?: string;
+  title?: string;
+  triggerLabel?: string;
+  itemLabel?: string;
+  footerText?: string;
+}>();
+
+const { t, locale } = useI18n();
+
+const open = ref(false);
+const isTouchInteraction = useMediaQueryMatch(
+  "(hover: none), (pointer: coarse)",
+);
+const isPointerOnTrigger = ref(false);
+const isPointerOnContent = ref(false);
+
+let closeTimer: number | null = null;
+
+const orderedAttachments = computed(() => {
+  return [...props.attachments].sort((a, b) => {
+    return (Date.parse(b.lastSeenAt) || 0) - (Date.parse(a.lastSeenAt) || 0);
+  });
+});
+
+const attachmentCount = computed(() => orderedAttachments.value.length);
+
+const resolvedIconUrl = computed(() => props.iconUrl || fnosIconUrl);
+const resolvedIconAlt = computed(
+  () => props.iconAlt || t("admin.sessions.attachments.fnosIconAlt"),
+);
+const resolvedTitle = computed(
+  () => props.title || t("admin.sessions.attachments.fnosTitle"),
+);
+const resolvedTriggerLabel = computed(
+  () => props.triggerLabel || t("admin.sessions.attachments.fnosTriggerLabel"),
+);
+const resolvedItemLabel = computed(
+  () => props.itemLabel || t("admin.sessions.attachments.tokenItemLabel"),
+);
+const resolvedFooterText = computed(
+  () => props.footerText || t("admin.sessions.attachments.fnosFooter"),
+);
+
+const clearCloseTimer = () => {
+  if (closeTimer !== null) {
+    window.clearTimeout(closeTimer);
+    closeTimer = null;
+  }
+};
+
+const scheduleClose = () => {
+  clearCloseTimer();
+  closeTimer = window.setTimeout(() => {
+    if (!isPointerOnTrigger.value && !isPointerOnContent.value) {
+      open.value = false;
+    }
+    closeTimer = null;
+  }, 180);
+};
+
+const handleOpenChange = (nextOpen: boolean) => {
+  if (nextOpen) {
+    open.value = true;
+    return;
+  }
+
+  if (isTouchInteraction.value) {
+    open.value = false;
+    return;
+  }
+
+  if (!isPointerOnTrigger.value && !isPointerOnContent.value) {
+    open.value = false;
+  }
+};
+
+const handleTriggerEnter = () => {
+  if (isTouchInteraction.value) {
+    return;
+  }
+
+  isPointerOnTrigger.value = true;
+  clearCloseTimer();
+  open.value = true;
+};
+
+const handleTriggerLeave = () => {
+  if (isTouchInteraction.value) {
+    return;
+  }
+
+  isPointerOnTrigger.value = false;
+  scheduleClose();
+};
+
+const handleContentEnter = () => {
+  if (isTouchInteraction.value) {
+    return;
+  }
+
+  isPointerOnContent.value = true;
+  clearCloseTimer();
+  open.value = true;
+};
+
+const handleContentLeave = () => {
+  if (isTouchInteraction.value) {
+    return;
+  }
+
+  isPointerOnContent.value = false;
+  scheduleClose();
+};
+
+const handleTriggerClick = () => {
+  if (!isTouchInteraction.value) {
+    open.value = true;
+    return;
+  }
+
+  open.value = !open.value;
+};
+
+const formatRelativeTime = (
+  value: string | null | undefined,
+  emptyText = "-",
+) => {
+  return formatHumanFriendlyTime(value, {
+    locale: locale.value,
+    emptyText,
+  });
+};
+
+watch(
+  () => props.attachments.length,
+  (length) => {
+    if (length === 0) {
+      open.value = false;
+    }
+  },
+);
+
+onUnmounted(() => {
+  clearCloseTimer();
+});
+</script>
+
+<template>
+  <Popover :open="open" @update:open="handleOpenChange">
+    <PopoverAnchor as-child>
+      <button
+        type="button"
+        class="relative inline-flex h-7 w-7 shrink-0 items-center justify-center transition hover:bg-muted/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/70 touch-manipulation"
+        :aria-label="
+          t('admin.sessions.attachments.viewAttachedAria', {
+            label: resolvedTriggerLabel,
+            count: attachmentCount,
+          })
+        "
+        :aria-expanded="open"
+        @mouseenter="handleTriggerEnter"
+        @mouseleave="handleTriggerLeave"
+        @focus="handleTriggerEnter"
+        @blur="handleTriggerLeave"
+        @click="handleTriggerClick"
+      >
+        <img
+          :src="resolvedIconUrl"
+          :alt="resolvedIconAlt"
+          class="h-4 w-4 rounded-[4px] object-contain"
+        />
+        <span
+          v-if="attachmentCount > 1"
+          class="absolute -right-1 -top-1 inline-flex min-w-4 items-center justify-center rounded-full bg-foreground px-1 text-[10px] font-semibold leading-4 text-background"
+        >
+          {{ attachmentCount }}
+        </span>
+      </button>
+    </PopoverAnchor>
+
+    <PopoverContent
+      side="bottom"
+      align="start"
+      class="w-[min(20rem,calc(100vw-1rem))] px-3 py-2.5"
+      @mouseenter="handleContentEnter"
+      @mouseleave="handleContentLeave"
+      @focusin="handleContentEnter"
+      @focusout="handleContentLeave"
+    >
+      <div class="flex items-center gap-2">
+        <img
+          :src="resolvedIconUrl"
+          :alt="resolvedIconAlt"
+          class="h-4 w-4 rounded-[4px] object-contain"
+        />
+        <div class="text-sm font-medium">{{ resolvedTitle }}</div>
+        <div class="ml-auto text-xs text-muted-foreground">
+          {{
+            t("admin.sessions.attachments.count", { count: attachmentCount })
+          }}
+        </div>
+      </div>
+
+      <div class="mt-2 space-y-2">
+        <div
+          v-for="(attachment, index) in orderedAttachments"
+          :key="attachment.subjectHash"
+          class="border-t border-border/60 pt-2 first:border-t-0 first:pt-0"
+        >
+          <div class="flex items-center justify-between gap-2">
+            <div class="text-xs font-medium">
+              {{ resolvedItemLabel }} {{ index + 1 }}
+            </div>
+            <div class="text-[11px] text-muted-foreground">
+              {{
+                t("admin.sessions.attachments.activeTime", {
+                  time: formatRelativeTime(attachment.lastSeenAt),
+                })
+              }}
+            </div>
+          </div>
+
+          <div
+            class="mt-1 break-all font-mono text-[11px] leading-4 text-muted-foreground"
+          >
+            {{ attachment.subjectHash }}
+          </div>
+
+          <div class="mt-1.5 grid gap-1 text-[11px] text-muted-foreground">
+            <div class="flex items-start gap-2">
+              <span class="shrink-0">IP</span>
+              <span class="break-all font-mono text-foreground">
+                {{ attachment.currentIp }}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        v-if="resolvedFooterText"
+        class="mt-2 border-t border-border/60 pt-2 text-[11px] text-muted-foreground"
+      >
+        {{ resolvedFooterText }}
+      </div>
+    </PopoverContent>
+  </Popover>
+</template>

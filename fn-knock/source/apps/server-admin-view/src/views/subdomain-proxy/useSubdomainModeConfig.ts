@@ -1,1 +1,259 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlYWN0aXZlLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHR5cGUgeyBTdWJkb21haW5Nb2RlQ29uZmlnIH0gZnJvbSAiQC90eXBlcyI7CmltcG9ydCB7CiAgY3JlYXRlRGVmYXVsdE1vZGVGb3JtLAogIGhhc1N1YmRvbWFpblJvb3REb21haW5XaWxkY2FyZCwKICBub3JtYWxpemVQdWJsaWNQb3J0LAogIG5vcm1hbGl6ZVJvb3REb21haW5WYWx1ZSwKICB0eXBlIEVkZ2VDbGllbnRJcFByb3ZpZGVyLAogIHR5cGUgVHJhbnNsYXRpb25QYXJhbXMsCn0gZnJvbSAiLi9tb2RlbCI7Cgp0eXBlIE1vZGVDb25maWdTb3VyY2UgPSB7CiAgc3ViZG9tYWluX21vZGU/OiBTdWJkb21haW5Nb2RlQ29uZmlnOwp9OwoKdHlwZSBTYXZlU3ViZG9tYWluTW9kZVJlc3VsdCA9IHsKICBzc2xfYXV0b19zZWxlY3Rpb24/OiB7CiAgICBhcHBsaWVkPzogYm9vbGVhbjsKICAgIGxhYmVsPzogc3RyaW5nIHwgbnVsbDsKICAgIG1lc3NhZ2U/OiBzdHJpbmc7CiAgfSB8IG51bGw7Cn0gfCB2b2lkOwoKZXhwb3J0IGNvbnN0IHVzZVN1YmRvbWFpbk1vZGVDb25maWcgPSAoewogIGdldENvbmZpZywKICBzYXZlU3ViZG9tYWluTW9kZSwKICB0cmFuc2xhdGUsCn06IHsKICBnZXRDb25maWc6ICgpID0+IE1vZGVDb25maWdTb3VyY2UgfCBudWxsIHwgdW5kZWZpbmVkOwogIHNhdmVTdWJkb21haW5Nb2RlOiAoCiAgICBjb25maWc6IFN1YmRvbWFpbk1vZGVDb25maWcsCiAgKSA9PiBQcm9taXNlPFNhdmVTdWJkb21haW5Nb2RlUmVzdWx0PjsKICB0cmFuc2xhdGU6IChrZXk6IHN0cmluZywgcGFyYW1zPzogVHJhbnNsYXRpb25QYXJhbXMpID0+IHN0cmluZzsKfSkgPT4gewogIGNvbnN0IG1vZGVGb3JtID0gcmVhY3RpdmU8U3ViZG9tYWluTW9kZUNvbmZpZz4oY3JlYXRlRGVmYXVsdE1vZGVGb3JtKCkpOwogIGNvbnN0IGN1cnJlbnRNb2RlQ29uZmlnID0gY29tcHV0ZWQoCiAgICAoKSA9PiBnZXRDb25maWcoKT8uc3ViZG9tYWluX21vZGUgPz8gY3JlYXRlRGVmYXVsdE1vZGVGb3JtKCksCiAgKTsKICBjb25zdCBlZGdlQ2xpZW50SXBQcm92aWRlck9wdGlvbnMgPSBjb21wdXRlZDwKICAgIEFycmF5PHsKICAgICAgdmFsdWU6IEVkZ2VDbGllbnRJcFByb3ZpZGVyOwogICAgICBsYWJlbDogc3RyaW5nOwogICAgICBkZXNjcmlwdGlvbjogc3RyaW5nOwogICAgICBoZWFkZXJIaW50OiBzdHJpbmc7CiAgICB9PgogID4oKCkgPT4gWwogICAgewogICAgICB2YWx1ZTogInRlbmNlbnRfZWRnZW9uZSIsCiAgICAgIGxhYmVsOiB0cmFuc2xhdGUoCiAgICAgICAgImFkbWluLnN1YmRvbWFpblByb3h5LmVkZ2VQcm92aWRlcnMudGVuY2VudEVkZ2VPbmUubGFiZWwiLAogICAgICApLAogICAgICBkZXNjcmlwdGlvbjogdHJhbnNsYXRlKAogICAgICAgICJhZG1pbi5zdWJkb21haW5Qcm94eS5lZGdlUHJvdmlkZXJzLnRlbmNlbnRFZGdlT25lLmRlc2NyaXB0aW9uIiwKICAgICAgKSwKICAgICAgaGVhZGVySGludDogdHJhbnNsYXRlKAogICAgICAgICJhZG1pbi5zdWJkb21haW5Qcm94eS5lZGdlUHJvdmlkZXJzLnRlbmNlbnRFZGdlT25lLmhlYWRlckhpbnQiLAogICAgICApLAogICAgfSwKICAgIHsKICAgICAgdmFsdWU6ICJhbGl5dW5fZXNhIiwKICAgICAgbGFiZWw6IHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuZWRnZVByb3ZpZGVycy5hbGl5dW5Fc2EubGFiZWwiKSwKICAgICAgZGVzY3JpcHRpb246IHRyYW5zbGF0ZSgKICAgICAgICAiYWRtaW4uc3ViZG9tYWluUHJveHkuZWRnZVByb3ZpZGVycy5hbGl5dW5Fc2EuZGVzY3JpcHRpb24iLAogICAgICApLAogICAgICBoZWFkZXJIaW50OiB0cmFuc2xhdGUoCiAgICAgICAgImFkbWluLnN1YmRvbWFpblByb3h5LmVkZ2VQcm92aWRlcnMuYWxpeXVuRXNhLmhlYWRlckhpbnQiLAogICAgICApLAogICAgfSwKICBdKTsKCiAgY29uc3QgZ2V0RWRnZUNsaWVudElwUHJvdmlkZXJMYWJlbCA9ICgKICAgIHByb3ZpZGVyOiBFZGdlQ2xpZW50SXBQcm92aWRlciB8IG51bGwsCiAgKTogc3RyaW5nID0+IHsKICAgIGlmIChwcm92aWRlciA9PT0gInRlbmNlbnRfZWRnZW9uZSIpIHsKICAgICAgcmV0dXJuIHRyYW5zbGF0ZSgKICAgICAgICAiYWRtaW4uc3ViZG9tYWluUHJveHkuZWRnZVByb3ZpZGVycy50ZW5jZW50RWRnZU9uZS5sYWJlbCIsCiAgICAgICk7CiAgICB9CiAgICBpZiAocHJvdmlkZXIgPT09ICJhbGl5dW5fZXNhIikgewogICAgICByZXR1cm4gdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5lZGdlUHJvdmlkZXJzLmFsaXl1bkVzYS5sYWJlbCIpOwogICAgfQogICAgcmV0dXJuICIiOwogIH07CgogIGNvbnN0IHNhdmVkUm9vdERvbWFpbiA9IGNvbXB1dGVkKCgpID0+CiAgICBub3JtYWxpemVSb290RG9tYWluVmFsdWUoY3VycmVudE1vZGVDb25maWcudmFsdWUucm9vdF9kb21haW4pLAogICk7CiAgY29uc3QgY3VycmVudERyYWZ0Um9vdERvbWFpbiA9IGNvbXB1dGVkKCgpID0+CiAgICBub3JtYWxpemVSb290RG9tYWluVmFsdWUobW9kZUZvcm0ucm9vdF9kb21haW4pLAogICk7CiAgY29uc3QgaXNSb290RG9tYWluUGVuZGluZ1NhdmUgPSBjb21wdXRlZCgKICAgICgpID0+IGN1cnJlbnREcmFmdFJvb3REb21haW4udmFsdWUgIT09IHNhdmVkUm9vdERvbWFpbi52YWx1ZSwKICApOwogIGNvbnN0IHJvb3REb21haW5WYWxpZGF0aW9uTWVzc2FnZSA9IGNvbXB1dGVkKCgpID0+CiAgICBoYXNTdWJkb21haW5Sb290RG9tYWluV2lsZGNhcmQobW9kZUZvcm0ucm9vdF9kb21haW4pCiAgICAgID8gdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5yb290RG9tYWluV2lsZGNhcmRGb3JiaWRkZW4iKQogICAgICA6ICIiLAogICk7CiAgY29uc3QgaXNNb2RlVmFsaWQgPSBjb21wdXRlZCgoKSA9PiAhcm9vdERvbWFpblZhbGlkYXRpb25NZXNzYWdlLnZhbHVlKTsKICBjb25zdCBjYW5Vc2VSb290RG9tYWluU3VmZml4ID0gY29tcHV0ZWQoCiAgICAoKSA9PgogICAgICBCb29sZWFuKHNhdmVkUm9vdERvbWFpbi52YWx1ZSkgJiYKICAgICAgIWlzUm9vdERvbWFpblBlbmRpbmdTYXZlLnZhbHVlICYmCiAgICAgIGlzTW9kZVZhbGlkLnZhbHVlLAogICk7CiAgY29uc3QgY2FuTWFuYWdlTmV3TWFwcGluZ3MgPSBjb21wdXRlZCgKICAgICgpID0+CiAgICAgIEJvb2xlYW4oc2F2ZWRSb290RG9tYWluLnZhbHVlKSAmJgogICAgICAhaXNSb290RG9tYWluUGVuZGluZ1NhdmUudmFsdWUgJiYKICAgICAgaXNNb2RlVmFsaWQudmFsdWUsCiAgKTsKICBjb25zdCBpc01vZGVEaXJ0eSA9IGNvbXB1dGVkKAogICAgKCkgPT4gSlNPTi5zdHJpbmdpZnkobW9kZUZvcm0pICE9PSBKU09OLnN0cmluZ2lmeShjdXJyZW50TW9kZUNvbmZpZy52YWx1ZSksCiAgKTsKCiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzU2F2aW5nTW9kZSwgcnVuOiBydW5TYXZlTW9kZSB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuc2F2ZUZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuc2F2ZU1vZGVGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IGFwcGx5TW9kZUZvcm0gPSAobmV4dDogU3ViZG9tYWluTW9kZUNvbmZpZykgPT4gewogICAgbW9kZUZvcm0ucm9vdF9kb21haW4gPSBuZXh0LnJvb3RfZG9tYWluOwogICAgbW9kZUZvcm0uYXV0aF9ob3N0ID0gbmV4dC5hdXRoX2hvc3Q7CiAgICBtb2RlRm9ybS5hdXRoX3RhcmdldCA9IG5leHQuYXV0aF90YXJnZXQ7CiAgICBtb2RlRm9ybS5jb29raWVfZG9tYWluID0gbmV4dC5jb29raWVfZG9tYWluOwogICAgbW9kZUZvcm0uZWRnZV9jbGllbnRfaXBfZW5hYmxlZCA9IG5leHQuZWRnZV9jbGllbnRfaXBfZW5hYmxlZDsKICAgIG1vZGVGb3JtLmFsaXl1bl9lc2FfZW5hYmxlZCA9IG5leHQuYWxpeXVuX2VzYV9lbmFibGVkOwogICAgbW9kZUZvcm0udGVuY2VudF9lZGdlb25lX2VuYWJsZWQgPSBuZXh0LnRlbmNlbnRfZWRnZW9uZV9lbmFibGVkOwogICAgbW9kZUZvcm0ucHVibGljX2F1dGhfYmFzZV91cmwgPSBuZXh0LnB1YmxpY19hdXRoX2Jhc2VfdXJsOwogICAgbW9kZUZvcm0ucHVibGljX2h0dHBfcG9ydCA9IG5vcm1hbGl6ZVB1YmxpY1BvcnQobmV4dC5wdWJsaWNfaHR0cF9wb3J0KTsKICAgIG1vZGVGb3JtLnB1YmxpY19odHRwc19wb3J0ID0gbm9ybWFsaXplUHVibGljUG9ydChuZXh0LnB1YmxpY19odHRwc19wb3J0KTsKICAgIG1vZGVGb3JtLmF1dGhfY2FjaGVfdHRsX3NlY29uZHMgPSBuZXh0LmF1dGhfY2FjaGVfdHRsX3NlY29uZHM7CiAgICBtb2RlRm9ybS5hdXRoX2NhY2hlX3VuYXV0aG9yaXplZF90dGxfc2Vjb25kcyA9CiAgICAgIG5leHQuYXV0aF9jYWNoZV91bmF1dGhvcml6ZWRfdHRsX3NlY29uZHM7CiAgICBtb2RlRm9ybS5kZWZhdWx0X2FjY2Vzc19tb2RlID0gbmV4dC5kZWZhdWx0X2FjY2Vzc19tb2RlOwogICAgbW9kZUZvcm0uYXV0b19hZGRfd2hpdGVsaXN0X29uX2xvZ2luID0gbmV4dC5hdXRvX2FkZF93aGl0ZWxpc3Rfb25fbG9naW47CiAgICBtb2RlRm9ybS5wYXNza2V5X3JwX21vZGUgPSBuZXh0LnBhc3NrZXlfcnBfbW9kZTsKICAgIG1vZGVGb3JtLnBhc3NrZXlfcnBfaWQgPSBuZXh0LnBhc3NrZXlfcnBfaWQgfHwgIiI7CiAgfTsKCiAgY29uc3QgcmVzZXRNb2RlRm9ybSA9ICgpID0+IHsKICAgIGFwcGx5TW9kZUZvcm0oY3VycmVudE1vZGVDb25maWcudmFsdWUpOwogIH07CgogIGNvbnN0IHNhdmVNb2RlID0gYXN5bmMgKCkgPT4gewogICAgaWYgKCFpc01vZGVWYWxpZC52YWx1ZSB8fCAhaXNNb2RlRGlydHkudmFsdWUpIHJldHVybjsKICAgIGF3YWl0IHJ1blNhdmVNb2RlKGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgc2F2ZVN1YmRvbWFpbk1vZGUoewogICAgICAgIC4uLm1vZGVGb3JtLAogICAgICAgIHJvb3RfZG9tYWluOiBtb2RlRm9ybS5yb290X2RvbWFpbi50cmltKCkudG9Mb3dlckNhc2UoKSwKICAgICAgICBhdXRoX2hvc3Q6IG1vZGVGb3JtLmF1dGhfaG9zdC50cmltKCkudG9Mb3dlckNhc2UoKSwKICAgICAgICBhdXRoX3RhcmdldDogbW9kZUZvcm0uYXV0aF90YXJnZXQudHJpbSgpLAogICAgICAgIGNvb2tpZV9kb21haW46IG1vZGVGb3JtLmNvb2tpZV9kb21haW4udHJpbSgpLAogICAgICAgIGVkZ2VfY2xpZW50X2lwX2VuYWJsZWQ6IG1vZGVGb3JtLmVkZ2VfY2xpZW50X2lwX2VuYWJsZWQsCiAgICAgICAgYWxpeXVuX2VzYV9lbmFibGVkOiBtb2RlRm9ybS5hbGl5dW5fZXNhX2VuYWJsZWQsCiAgICAgICAgdGVuY2VudF9lZGdlb25lX2VuYWJsZWQ6IG1vZGVGb3JtLnRlbmNlbnRfZWRnZW9uZV9lbmFibGVkLAogICAgICAgIHB1YmxpY19hdXRoX2Jhc2VfdXJsOiBtb2RlRm9ybS5wdWJsaWNfYXV0aF9iYXNlX3VybC50cmltKCksCiAgICAgICAgcHVibGljX2h0dHBfcG9ydDogbm9ybWFsaXplUHVibGljUG9ydChtb2RlRm9ybS5wdWJsaWNfaHR0cF9wb3J0KSwKICAgICAgICBwdWJsaWNfaHR0cHNfcG9ydDogbm9ybWFsaXplUHVibGljUG9ydChtb2RlRm9ybS5wdWJsaWNfaHR0cHNfcG9ydCksCiAgICAgICAgYXV0aF9jYWNoZV90dGxfc2Vjb25kczogTWF0aC5tYXgoCiAgICAgICAgICAwLAogICAgICAgICAgTWF0aC5mbG9vcihOdW1iZXIobW9kZUZvcm0uYXV0aF9jYWNoZV90dGxfc2Vjb25kcykgfHwgMCksCiAgICAgICAgKSwKICAgICAgICBhdXRoX2NhY2hlX3VuYXV0aG9yaXplZF90dGxfc2Vjb25kczogTWF0aC5tYXgoCiAgICAgICAgICAwLAogICAgICAgICAgTWF0aC5mbG9vcihOdW1iZXIobW9kZUZvcm0uYXV0aF9jYWNoZV91bmF1dGhvcml6ZWRfdHRsX3NlY29uZHMpIHx8IDApLAogICAgICAgICksCiAgICAgICAgcGFzc2tleV9ycF9pZDogKG1vZGVGb3JtLnBhc3NrZXlfcnBfaWQgfHwgIiIpLnRyaW0oKS50b0xvd2VyQ2FzZSgpLAogICAgICB9KTsKICAgICAgdG9hc3Quc3VjY2Vzcyh0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5Lm1vZGVTYXZlZCIpKTsKICAgICAgaWYgKHJlc3VsdD8uc3NsX2F1dG9fc2VsZWN0aW9uPy5tZXNzYWdlKSB7CiAgICAgICAgaWYgKHJlc3VsdC5zc2xfYXV0b19zZWxlY3Rpb24uYXBwbGllZCkgewogICAgICAgICAgdG9hc3Quc3VjY2VzcyhyZXN1bHQuc3NsX2F1dG9fc2VsZWN0aW9uLm1lc3NhZ2UsIHsKICAgICAgICAgICAgZGVzY3JpcHRpb246IHJlc3VsdC5zc2xfYXV0b19zZWxlY3Rpb24ubGFiZWwKICAgICAgICAgICAgICA/IHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3dpdGNoZWRDZXJ0aWZpY2F0ZSIsIHsKICAgICAgICAgICAgICAgICAgbGFiZWw6IHJlc3VsdC5zc2xfYXV0b19zZWxlY3Rpb24ubGFiZWwsCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgIDogdW5kZWZpbmVkLAogICAgICAgICAgfSk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIHRvYXN0LmVycm9yKAogICAgICAgICAgICB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LnNzbEF1dG9Td2l0Y2hJbmNvbXBsZXRlIiksCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogcmVzdWx0LnNzbF9hdXRvX3NlbGVjdGlvbi5tZXNzYWdlLAogICAgICAgICAgICB9LAogICAgICAgICAgKTsKICAgICAgICB9CiAgICAgIH0KICAgIH0pOwogIH07CgogIHdhdGNoKAogICAgKCkgPT4gZ2V0Q29uZmlnKCk/LnN1YmRvbWFpbl9tb2RlLAogICAgKG5leHQpID0+IHsKICAgICAgaWYgKG5leHQpIHsKICAgICAgICBhcHBseU1vZGVGb3JtKG5leHQpOwogICAgICB9CiAgICB9LAogICAgeyBpbW1lZGlhdGU6IHRydWUgfSwKICApOwoKICB3YXRjaCgKICAgICgpID0+CiAgICAgIFsKICAgICAgICBtb2RlRm9ybS5lZGdlX2NsaWVudF9pcF9lbmFibGVkLAogICAgICAgIG1vZGVGb3JtLmFsaXl1bl9lc2FfZW5hYmxlZCwKICAgICAgICBtb2RlRm9ybS50ZW5jZW50X2VkZ2VvbmVfZW5hYmxlZCwKICAgICAgXSBhcyBjb25zdCwKICAgIChbZW5hYmxlZCwgYWxpeXVuRW5hYmxlZCwgdGVuY2VudEVuYWJsZWRdKSA9PiB7CiAgICAgIGlmICghZW5hYmxlZCkgewogICAgICAgIGlmIChtb2RlRm9ybS5hbGl5dW5fZXNhX2VuYWJsZWQpIHsKICAgICAgICAgIG1vZGVGb3JtLmFsaXl1bl9lc2FfZW5hYmxlZCA9IGZhbHNlOwogICAgICAgIH0KICAgICAgICBpZiAobW9kZUZvcm0udGVuY2VudF9lZGdlb25lX2VuYWJsZWQpIHsKICAgICAgICAgIG1vZGVGb3JtLnRlbmNlbnRfZWRnZW9uZV9lbmFibGVkID0gZmFsc2U7CiAgICAgICAgfQogICAgICAgIHJldHVybjsKICAgICAgfQoKICAgICAgaWYgKHRlbmNlbnRFbmFibGVkICYmIGFsaXl1bkVuYWJsZWQpIHsKICAgICAgICBtb2RlRm9ybS5hbGl5dW5fZXNhX2VuYWJsZWQgPSBmYWxzZTsKICAgICAgICByZXR1cm47CiAgICAgIH0KCiAgICAgIGlmICghYWxpeXVuRW5hYmxlZCAmJiAhdGVuY2VudEVuYWJsZWQpIHsKICAgICAgICBtb2RlRm9ybS5hbGl5dW5fZXNhX2VuYWJsZWQgPSB0cnVlOwogICAgICB9CiAgICB9LAogICk7CgogIHJldHVybiB7CiAgICBjYW5NYW5hZ2VOZXdNYXBwaW5ncywKICAgIGNhblVzZVJvb3REb21haW5TdWZmaXgsCiAgICBjdXJyZW50RHJhZnRSb290RG9tYWluLAogICAgY3VycmVudE1vZGVDb25maWcsCiAgICBlZGdlQ2xpZW50SXBQcm92aWRlck9wdGlvbnMsCiAgICBnZXRFZGdlQ2xpZW50SXBQcm92aWRlckxhYmVsLAogICAgaXNNb2RlRGlydHksCiAgICBpc01vZGVWYWxpZCwKICAgIGlzUm9vdERvbWFpblBlbmRpbmdTYXZlLAogICAgaXNTYXZpbmdNb2RlLAogICAgbW9kZUZvcm0sCiAgICByZXNldE1vZGVGb3JtLAogICAgcm9vdERvbWFpblZhbGlkYXRpb25NZXNzYWdlLAogICAgc2F2ZU1vZGUsCiAgICBzYXZlZFJvb3REb21haW4sCiAgfTsKfTsK
+import { computed, reactive, watch } from "vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import type { SubdomainModeConfig } from "@/types";
+import {
+  createDefaultModeForm,
+  hasSubdomainRootDomainWildcard,
+  normalizePublicPort,
+  normalizeRootDomainValue,
+  type EdgeClientIpProvider,
+  type TranslationParams,
+} from "./model";
+
+type ModeConfigSource = {
+  subdomain_mode?: SubdomainModeConfig;
+};
+
+type SaveSubdomainModeResult = {
+  ssl_auto_selection?: {
+    applied?: boolean;
+    label?: string | null;
+    message?: string;
+  } | null;
+} | void;
+
+export const useSubdomainModeConfig = ({
+  getConfig,
+  saveSubdomainMode,
+  translate,
+}: {
+  getConfig: () => ModeConfigSource | null | undefined;
+  saveSubdomainMode: (
+    config: SubdomainModeConfig,
+  ) => Promise<SaveSubdomainModeResult>;
+  translate: (key: string, params?: TranslationParams) => string;
+}) => {
+  const modeForm = reactive<SubdomainModeConfig>(createDefaultModeForm());
+  const currentModeConfig = computed(
+    () => getConfig()?.subdomain_mode ?? createDefaultModeForm(),
+  );
+  const edgeClientIpProviderOptions = computed<
+    Array<{
+      value: EdgeClientIpProvider;
+      label: string;
+      description: string;
+      headerHint: string;
+    }>
+  >(() => [
+    {
+      value: "tencent_edgeone",
+      label: translate(
+        "admin.subdomainProxy.edgeProviders.tencentEdgeOne.label",
+      ),
+      description: translate(
+        "admin.subdomainProxy.edgeProviders.tencentEdgeOne.description",
+      ),
+      headerHint: translate(
+        "admin.subdomainProxy.edgeProviders.tencentEdgeOne.headerHint",
+      ),
+    },
+    {
+      value: "aliyun_esa",
+      label: translate("admin.subdomainProxy.edgeProviders.aliyunEsa.label"),
+      description: translate(
+        "admin.subdomainProxy.edgeProviders.aliyunEsa.description",
+      ),
+      headerHint: translate(
+        "admin.subdomainProxy.edgeProviders.aliyunEsa.headerHint",
+      ),
+    },
+  ]);
+
+  const getEdgeClientIpProviderLabel = (
+    provider: EdgeClientIpProvider | null,
+  ): string => {
+    if (provider === "tencent_edgeone") {
+      return translate(
+        "admin.subdomainProxy.edgeProviders.tencentEdgeOne.label",
+      );
+    }
+    if (provider === "aliyun_esa") {
+      return translate("admin.subdomainProxy.edgeProviders.aliyunEsa.label");
+    }
+    return "";
+  };
+
+  const savedRootDomain = computed(() =>
+    normalizeRootDomainValue(currentModeConfig.value.root_domain),
+  );
+  const currentDraftRootDomain = computed(() =>
+    normalizeRootDomainValue(modeForm.root_domain),
+  );
+  const isRootDomainPendingSave = computed(
+    () => currentDraftRootDomain.value !== savedRootDomain.value,
+  );
+  const rootDomainValidationMessage = computed(() =>
+    hasSubdomainRootDomainWildcard(modeForm.root_domain)
+      ? translate("admin.subdomainProxy.rootDomainWildcardForbidden")
+      : "",
+  );
+  const isModeValid = computed(() => !rootDomainValidationMessage.value);
+  const canUseRootDomainSuffix = computed(
+    () =>
+      Boolean(savedRootDomain.value) &&
+      !isRootDomainPendingSave.value &&
+      isModeValid.value,
+  );
+  const canManageNewMappings = computed(
+    () =>
+      Boolean(savedRootDomain.value) &&
+      !isRootDomainPendingSave.value &&
+      isModeValid.value,
+  );
+  const isModeDirty = computed(
+    () => JSON.stringify(modeForm) !== JSON.stringify(currentModeConfig.value),
+  );
+
+  const { isPending: isSavingMode, run: runSaveMode } = useAsyncAction({
+    onError: (error) => {
+      toast.error(translate("admin.subdomainProxy.saveFailed"), {
+        description: extractErrorMessage(
+          error,
+          translate("admin.subdomainProxy.saveModeFailed"),
+        ),
+      });
+    },
+  });
+
+  const applyModeForm = (next: SubdomainModeConfig) => {
+    modeForm.root_domain = next.root_domain;
+    modeForm.auth_host = next.auth_host;
+    modeForm.auth_target = next.auth_target;
+    modeForm.cookie_domain = next.cookie_domain;
+    modeForm.edge_client_ip_enabled = next.edge_client_ip_enabled;
+    modeForm.aliyun_esa_enabled = next.aliyun_esa_enabled;
+    modeForm.tencent_edgeone_enabled = next.tencent_edgeone_enabled;
+    modeForm.public_auth_base_url = next.public_auth_base_url;
+    modeForm.public_http_port = normalizePublicPort(next.public_http_port);
+    modeForm.public_https_port = normalizePublicPort(next.public_https_port);
+    modeForm.auth_cache_ttl_seconds = next.auth_cache_ttl_seconds;
+    modeForm.auth_cache_unauthorized_ttl_seconds =
+      next.auth_cache_unauthorized_ttl_seconds;
+    modeForm.default_access_mode = next.default_access_mode;
+    modeForm.auto_add_whitelist_on_login = next.auto_add_whitelist_on_login;
+    modeForm.passkey_rp_mode = next.passkey_rp_mode;
+    modeForm.passkey_rp_id = next.passkey_rp_id || "";
+  };
+
+  const resetModeForm = () => {
+    applyModeForm(currentModeConfig.value);
+  };
+
+  const saveMode = async () => {
+    if (!isModeValid.value || !isModeDirty.value) return;
+    await runSaveMode(async () => {
+      const result = await saveSubdomainMode({
+        ...modeForm,
+        root_domain: modeForm.root_domain.trim().toLowerCase(),
+        auth_host: modeForm.auth_host.trim().toLowerCase(),
+        auth_target: modeForm.auth_target.trim(),
+        cookie_domain: modeForm.cookie_domain.trim(),
+        edge_client_ip_enabled: modeForm.edge_client_ip_enabled,
+        aliyun_esa_enabled: modeForm.aliyun_esa_enabled,
+        tencent_edgeone_enabled: modeForm.tencent_edgeone_enabled,
+        public_auth_base_url: modeForm.public_auth_base_url.trim(),
+        public_http_port: normalizePublicPort(modeForm.public_http_port),
+        public_https_port: normalizePublicPort(modeForm.public_https_port),
+        auth_cache_ttl_seconds: Math.max(
+          0,
+          Math.floor(Number(modeForm.auth_cache_ttl_seconds) || 0),
+        ),
+        auth_cache_unauthorized_ttl_seconds: Math.max(
+          0,
+          Math.floor(Number(modeForm.auth_cache_unauthorized_ttl_seconds) || 0),
+        ),
+        passkey_rp_id: (modeForm.passkey_rp_id || "").trim().toLowerCase(),
+      });
+      toast.success(translate("admin.subdomainProxy.modeSaved"));
+      if (result?.ssl_auto_selection?.message) {
+        if (result.ssl_auto_selection.applied) {
+          toast.success(result.ssl_auto_selection.message, {
+            description: result.ssl_auto_selection.label
+              ? translate("admin.subdomainProxy.switchedCertificate", {
+                  label: result.ssl_auto_selection.label,
+                })
+              : undefined,
+          });
+        } else {
+          toast.error(
+            translate("admin.subdomainProxy.sslAutoSwitchIncomplete"),
+            {
+              description: result.ssl_auto_selection.message,
+            },
+          );
+        }
+      }
+    });
+  };
+
+  watch(
+    () => getConfig()?.subdomain_mode,
+    (next) => {
+      if (next) {
+        applyModeForm(next);
+      }
+    },
+    { immediate: true },
+  );
+
+  watch(
+    () =>
+      [
+        modeForm.edge_client_ip_enabled,
+        modeForm.aliyun_esa_enabled,
+        modeForm.tencent_edgeone_enabled,
+      ] as const,
+    ([enabled, aliyunEnabled, tencentEnabled]) => {
+      if (!enabled) {
+        if (modeForm.aliyun_esa_enabled) {
+          modeForm.aliyun_esa_enabled = false;
+        }
+        if (modeForm.tencent_edgeone_enabled) {
+          modeForm.tencent_edgeone_enabled = false;
+        }
+        return;
+      }
+
+      if (tencentEnabled && aliyunEnabled) {
+        modeForm.aliyun_esa_enabled = false;
+        return;
+      }
+
+      if (!aliyunEnabled && !tencentEnabled) {
+        modeForm.aliyun_esa_enabled = true;
+      }
+    },
+  );
+
+  return {
+    canManageNewMappings,
+    canUseRootDomainSuffix,
+    currentDraftRootDomain,
+    currentModeConfig,
+    edgeClientIpProviderOptions,
+    getEdgeClientIpProviderLabel,
+    isModeDirty,
+    isModeValid,
+    isRootDomainPendingSave,
+    isSavingMode,
+    modeForm,
+    resetModeForm,
+    rootDomainValidationMessage,
+    saveMode,
+    savedRootDomain,
+  };
+};

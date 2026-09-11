@@ -1,1 +1,107 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCldPUktfRElSPSIkKG1rdGVtcCAtZCAiJHtUTVBESVI6LS90bXB9L2ZuLWtub2NrLXByZWZsaWdodC10ZXN0LlhYWFhYWCIpIgpGSVhUVVJFPSIke1dPUktfRElSfS9maXh0dXJlIgpWRVJTSU9OPSIkKGpxIC1yICcudmVyc2lvbicgIiR7Uk9PVF9ESVJ9L3ZlcnNpb24uanNvbiIpIgpUQUc9InYke1ZFUlNJT059IgoKY2xlYW51cCgpIHsKICBybSAtcmYgIiR7V09SS19ESVJ9Igp9CnRyYXAgY2xlYW51cCBFWElUCgpmYWlsKCkgewogIHByaW50ZiAnW3Rlc3QtcmVsZWFzZS1wcmVmbGlnaHRdIEVSUk9SOiAlc1xuJyAiJCoiID4mMgogIGV4aXQgMQp9Cgp3cml0ZV9maXh0dXJlKCkgewogIHJtIC1yZiAiJHtGSVhUVVJFfSIKICBta2RpciAtcCBcCiAgICAiJHtGSVhUVVJFfS9hcHBzL2ZuLWtub2NrIiBcCiAgICAiJHtGSVhUVVJFfS9hcHBzL3NlcnZlci1hZG1pbi1ycyIgXAogICAgIiR7RklYVFVSRX0vYXBwcy9mbi1rbm9jay1kZXNrdG9wL25hdGl2ZSIgXAogICAgIiR7RklYVFVSRX0vYXBwcy9mbi1rbm9jay1kZXNrdG9wIiBcCiAgICAiJHtGSVhUVVJFfS9wYWNrYWdlcy9hcGktY29udHJhY3QiIFwKICAgICIke0ZJWFRVUkV9L3BhY2thZ2VzL2dycGMtY29udHJhY3RzL3Byb3RvL2Zua25vY2svdjEiIFwKICAgICIke0ZJWFRVUkV9L3JlbGVhc2Utbm90ZXMiIFwKICAgICIke0ZJWFRVUkV9L3NjcmlwdHMiCiAgY3AgIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvY29udHJvbC1hcGktdmVyc2lvbi5zaCIgIiR7RklYVFVSRX0vc2NyaXB0cy9jb250cm9sLWFwaS12ZXJzaW9uLnNoIgogIGNwICIke1JPT1RfRElSfS9wYWNrYWdlcy9ncnBjLWNvbnRyYWN0cy9wcm90by9mbmtub2NrL3YxL2dhdGV3YXkucHJvdG8iIFwKICAgICIke0ZJWFRVUkV9L3BhY2thZ2VzL2dycGMtY29udHJhY3RzL3Byb3RvL2Zua25vY2svdjEvZ2F0ZXdheS5wcm90byIKICBwcmludGYgJ3sidmVyc2lvbiI6IiVzIiwiZ2F0ZXdheUNvbW1pdCI6IiUwNDBkIn1cbicgIiR7VkVSU0lPTn0iIDAgPiAiJHtGSVhUVVJFfS92ZXJzaW9uLmpzb24iCiAgcHJpbnRmICdhcHBuYW1lPWZuLWtub2NrXG52ZXJzaW9uPSVzXG5wbGF0Zm9ybT14ODZcbicgIiR7VkVSU0lPTn0iID4gIiR7RklYVFVSRX0vYXBwcy9mbi1rbm9jay9tYW5pZmVzdCIKICBwcmludGYgJ1twYWNrYWdlXVxubmFtZSA9ICJzZXJ2ZXItYWRtaW4tcnMiXG52ZXJzaW9uID0gIiVzIlxuJyAiJHtWRVJTSU9OfSIgPiAiJHtGSVhUVVJFfS9hcHBzL3NlcnZlci1hZG1pbi1ycy9DYXJnby50b21sIgogIHByaW50ZiAnW1twYWNrYWdlXV1cbm5hbWUgPSAic2VydmVyLWFkbWluLXJzIlxudmVyc2lvbiA9ICIlcyJcbicgIiR7VkVSU0lPTn0iID4gIiR7RklYVFVSRX0vYXBwcy9zZXJ2ZXItYWRtaW4tcnMvQ2FyZ28ubG9jayIKICBwcmludGYgJ3sibmFtZSI6ImZuLWtub2NrLWRlc2t0b3AiLCJ2ZXJzaW9uIjoiJXMifVxuJyAiJHtWRVJTSU9OfSIgPiAiJHtGSVhUVVJFfS9hcHBzL2ZuLWtub2NrLWRlc2t0b3AvcGFja2FnZS5qc29uIgogIHByaW50ZiAneyJuYW1lIjoiQGZuLWtub2NrL2FwaS1jb250cmFjdCIsInZlcnNpb24iOiIlcyJ9XG4nICIke1ZFUlNJT059IiA+ICIke0ZJWFRVUkV9L3BhY2thZ2VzL2FwaS1jb250cmFjdC9wYWNrYWdlLmpzb24iCiAgcHJpbnRmICd7InBhY2thZ2VzIjp7ImFwcHMvZm4ta25vY2stZGVza3RvcCI6eyJ2ZXJzaW9uIjoiJXMifSwicGFja2FnZXMvYXBpLWNvbnRyYWN0Ijp7InZlcnNpb24iOiIlcyJ9fX1cbicgIiR7VkVSU0lPTn0iICIke1ZFUlNJT059IiA+ICIke0ZJWFRVUkV9L3BhY2thZ2UtbG9jay5qc29uIgogIHByaW50ZiAnW3BhY2thZ2VdXG5uYW1lID0gImZuLWtub2NrLWRlc2t0b3AiXG52ZXJzaW9uID0gIiVzIlxuJyAiJHtWRVJTSU9OfSIgPiAiJHtGSVhUVVJFfS9hcHBzL2ZuLWtub2NrLWRlc2t0b3AvbmF0aXZlL0NhcmdvLnRvbWwiCiAgcHJpbnRmICdbW3BhY2thZ2VdXVxubmFtZSA9ICJmbi1rbm9jay1kZXNrdG9wIlxudmVyc2lvbiA9ICIlcyJcbicgIiR7VkVSU0lPTn0iID4gIiR7RklYVFVSRX0vYXBwcy9mbi1rbm9jay1kZXNrdG9wL25hdGl2ZS9DYXJnby5sb2NrIgogIHByaW50ZiAnIyAlc1xuXG5SZWxlYXNlIG5vdGVzLlxuJyAiJHtWRVJTSU9OfSIgPiAiJHtGSVhUVVJFfS9yZWxlYXNlLW5vdGVzLyR7VkVSU0lPTn0ubWQiCn0KCnJ1bl9wcmVmbGlnaHQoKSB7CiAgRk5fS05PQ0tfUk9PVF9ESVI9IiR7RklYVFVSRX0iIFwKICBGTl9LTk9DS19QUkVGTElHSFRfU0tJUF9DQVJHT19NRVRBREFUQT0xIFwKICAgIGJhc2ggIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvcmVsZWFzZS1wcmVmbGlnaHQuc2giICIkQCIKfQoKZXhwZWN0X2ZhaWx1cmUoKSB7CiAgbG9jYWwgZXhwZWN0ZWQ9IiQxIgogIHNoaWZ0CiAgbG9jYWwgb3V0cHV0CiAgaWYgb3V0cHV0PSIkKCIkQCIgMj4mMSkiOyB0aGVuCiAgICBmYWlsICJjb21tYW5kIHVuZXhwZWN0ZWRseSBzdWNjZWVkZWQ6ICQqIgogIGZpCiAgcHJpbnRmICclc1xuJyAiJHtvdXRwdXR9IiB8IGdyZXAgLUZxICIke2V4cGVjdGVkfSIgfHwgXAogICAgZmFpbCAiZmFpbHVyZSBkaWQgbm90IGNvbnRhaW4gJyR7ZXhwZWN0ZWR9JzogJHtvdXRwdXR9Igp9Cgp3cml0ZV9maXh0dXJlCnJ1bl9wcmVmbGlnaHQgIiR7VEFHfSIgPi9kZXYvbnVsbAoKd3JpdGVfZml4dHVyZQpqcSAnLnJlbGVhc2VDaGFubmVsID0gImJldGEiJyAiJHtGSVhUVVJFfS92ZXJzaW9uLmpzb24iID4gIiR7RklYVFVSRX0vdmVyc2lvbi5qc29uLnRtcCIKbXYgIiR7RklYVFVSRX0vdmVyc2lvbi5qc29uLnRtcCIgIiR7RklYVFVSRX0vdmVyc2lvbi5qc29uIgpHSVRIVUJfT1VUUFVUPSIke1dPUktfRElSfS9wcmVmbGlnaHQtb3V0cHV0LnR4dCIgcnVuX3ByZWZsaWdodCAiJHtUQUd9IiA+L2Rldi9udWxsCmdyZXAgLUZxeCAncmVsZWFzZV9jaGFubmVsPWJldGEnICIke1dPUktfRElSfS9wcmVmbGlnaHQtb3V0cHV0LnR4dCIgfHwgXAogIGZhaWwgImJldGEgcmVsZWFzZSBjaGFubmVsIHdhcyBub3QgZXhwb3J0ZWQiCmdyZXAgLUZxeCAncHJlcmVsZWFzZT10cnVlJyAiJHtXT1JLX0RJUn0vcHJlZmxpZ2h0LW91dHB1dC50eHQiIHx8IFwKICBmYWlsICJiZXRhIHJlbGVhc2Ugd2FzIG5vdCBtYXJrZWQgYXMgYSBwcmVyZWxlYXNlIgoKd3JpdGVfZml4dHVyZQpleHBlY3RfZmFpbHVyZSAicmVsZWFzZSB0YWcgbXVzdCBtYXRjaCB2WC5ZLloiIHJ1bl9wcmVmbGlnaHQgInJlbGVhc2UtJHtWRVJTSU9OfSIKCndyaXRlX2ZpeHR1cmUKZXhwZWN0X2ZhaWx1cmUgInRhZy92ZXJzaW9uIG1pc21hdGNoIiBydW5fcHJlZmxpZ2h0IHYwLjAuMAoKd3JpdGVfZml4dHVyZQpzZWQgLUUgLWkuYmFrICdzLyhDT05UUk9MX0FQSV9WRVJTSU9OX0NVUlJFTlQgPSApWzAtOV0rL1wxIDAvJyBcCiAgIiR7RklYVFVSRX0vcGFja2FnZXMvZ3JwYy1jb250cmFjdHMvcHJvdG8vZm5rbm9jay92MS9nYXRld2F5LnByb3RvIgpleHBlY3RfZmFpbHVyZSAiQ09OVFJPTF9BUElfVkVSU0lPTl9DVVJSRU5UIG11c3QgYmUgYSBzaW5nbGUgcG9zaXRpdmUgaW50ZWdlciIgXAogIHJ1bl9wcmVmbGlnaHQgIiR7VEFHfSIKCndyaXRlX2ZpeHR1cmUKc2VkIC1pLmJhayAicy92ZXJzaW9uPSR7VkVSU0lPTn0vdmVyc2lvbj0wLjAuMC8iICIke0ZJWFRVUkV9L2FwcHMvZm4ta25vY2svbWFuaWZlc3QiCmV4cGVjdF9mYWlsdXJlICJmbk9TIG1hbmlmZXN0IHZlcnNpb24gbWlzbWF0Y2giIHJ1bl9wcmVmbGlnaHQgIiR7VEFHfSIKCndyaXRlX2ZpeHR1cmUKcHJpbnRmICcnID4gIiR7RklYVFVSRX0vcmVsZWFzZS1ub3Rlcy8ke1ZFUlNJT059Lm1kIgpleHBlY3RfZmFpbHVyZSAicmVsZWFzZSBub3RlcyBhcmUgbWlzc2luZyBvciBlbXB0eSIgcnVuX3ByZWZsaWdodCAiJHtUQUd9IgoKd3JpdGVfZml4dHVyZQpqcSAnLnBhY2thZ2VzWyJhcHBzL2ZuLWtub2NrLWRlc2t0b3AiXS52ZXJzaW9uID0gIjAuMC4wIicgXAogICIke0ZJWFRVUkV9L3BhY2thZ2UtbG9jay5qc29uIiA+ICIke0ZJWFRVUkV9L3BhY2thZ2UtbG9jay5qc29uLnRtcCIKbXYgIiR7RklYVFVSRX0vcGFja2FnZS1sb2NrLmpzb24udG1wIiAiJHtGSVhUVVJFfS9wYWNrYWdlLWxvY2suanNvbiIKZXhwZWN0X2ZhaWx1cmUgImRlc2t0b3AgcGFja2FnZS1sb2NrIHZlcnNpb24gbWlzbWF0Y2giIHJ1bl9wcmVmbGlnaHQgIiR7VEFHfSIKCndyaXRlX2ZpeHR1cmUKanEgJy5wYWNrYWdlc1sicGFja2FnZXMvYXBpLWNvbnRyYWN0Il0udmVyc2lvbiA9ICIwLjAuMCInIFwKICAiJHtGSVhUVVJFfS9wYWNrYWdlLWxvY2suanNvbiIgPiAiJHtGSVhUVVJFfS9wYWNrYWdlLWxvY2suanNvbi50bXAiCm12ICIke0ZJWFRVUkV9L3BhY2thZ2UtbG9jay5qc29uLnRtcCIgIiR7RklYVFVSRX0vcGFja2FnZS1sb2NrLmpzb24iCmV4cGVjdF9mYWlsdXJlICJBUEkgY29udHJhY3QgcGFja2FnZS1sb2NrIHZlcnNpb24gbWlzbWF0Y2giIHJ1bl9wcmVmbGlnaHQgIiR7VEFHfSIKCnByaW50ZiAnW3Rlc3QtcmVsZWFzZS1wcmVmbGlnaHRdIGFsbCBjb250cmFjdCB0ZXN0cyBwYXNzZWRcbicK
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+WORK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/fn-knock-preflight-test.XXXXXX")"
+FIXTURE="${WORK_DIR}/fixture"
+VERSION="$(jq -r '.version' "${ROOT_DIR}/version.json")"
+TAG="v${VERSION}"
+
+cleanup() {
+  rm -rf "${WORK_DIR}"
+}
+trap cleanup EXIT
+
+fail() {
+  printf '[test-release-preflight] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+write_fixture() {
+  rm -rf "${FIXTURE}"
+  mkdir -p \
+    "${FIXTURE}/apps/fn-knock" \
+    "${FIXTURE}/apps/server-admin-rs" \
+    "${FIXTURE}/apps/fn-knock-desktop/native" \
+    "${FIXTURE}/apps/fn-knock-desktop" \
+    "${FIXTURE}/packages/api-contract" \
+    "${FIXTURE}/packages/grpc-contracts/proto/fnknock/v1" \
+    "${FIXTURE}/release-notes" \
+    "${FIXTURE}/scripts"
+  cp "${ROOT_DIR}/scripts/control-api-version.sh" "${FIXTURE}/scripts/control-api-version.sh"
+  cp "${ROOT_DIR}/packages/grpc-contracts/proto/fnknock/v1/gateway.proto" \
+    "${FIXTURE}/packages/grpc-contracts/proto/fnknock/v1/gateway.proto"
+  printf '{"version":"%s","gatewayCommit":"%040d"}\n' "${VERSION}" 0 > "${FIXTURE}/version.json"
+  printf 'appname=fn-knock\nversion=%s\nplatform=x86\n' "${VERSION}" > "${FIXTURE}/apps/fn-knock/manifest"
+  printf '[package]\nname = "server-admin-rs"\nversion = "%s"\n' "${VERSION}" > "${FIXTURE}/apps/server-admin-rs/Cargo.toml"
+  printf '[[package]]\nname = "server-admin-rs"\nversion = "%s"\n' "${VERSION}" > "${FIXTURE}/apps/server-admin-rs/Cargo.lock"
+  printf '{"name":"fn-knock-desktop","version":"%s"}\n' "${VERSION}" > "${FIXTURE}/apps/fn-knock-desktop/package.json"
+  printf '{"name":"@fn-knock/api-contract","version":"%s"}\n' "${VERSION}" > "${FIXTURE}/packages/api-contract/package.json"
+  printf '{"packages":{"apps/fn-knock-desktop":{"version":"%s"},"packages/api-contract":{"version":"%s"}}}\n' "${VERSION}" "${VERSION}" > "${FIXTURE}/package-lock.json"
+  printf '[package]\nname = "fn-knock-desktop"\nversion = "%s"\n' "${VERSION}" > "${FIXTURE}/apps/fn-knock-desktop/native/Cargo.toml"
+  printf '[[package]]\nname = "fn-knock-desktop"\nversion = "%s"\n' "${VERSION}" > "${FIXTURE}/apps/fn-knock-desktop/native/Cargo.lock"
+  printf '# %s\n\nRelease notes.\n' "${VERSION}" > "${FIXTURE}/release-notes/${VERSION}.md"
+}
+
+run_preflight() {
+  FN_KNOCK_ROOT_DIR="${FIXTURE}" \
+  FN_KNOCK_PREFLIGHT_SKIP_CARGO_METADATA=1 \
+    bash "${ROOT_DIR}/scripts/release-preflight.sh" "$@"
+}
+
+expect_failure() {
+  local expected="$1"
+  shift
+  local output
+  if output="$("$@" 2>&1)"; then
+    fail "command unexpectedly succeeded: $*"
+  fi
+  printf '%s\n' "${output}" | grep -Fq "${expected}" || \
+    fail "failure did not contain '${expected}': ${output}"
+}
+
+write_fixture
+run_preflight "${TAG}" >/dev/null
+
+write_fixture
+jq '.releaseChannel = "beta"' "${FIXTURE}/version.json" > "${FIXTURE}/version.json.tmp"
+mv "${FIXTURE}/version.json.tmp" "${FIXTURE}/version.json"
+GITHUB_OUTPUT="${WORK_DIR}/preflight-output.txt" run_preflight "${TAG}" >/dev/null
+grep -Fqx 'release_channel=beta' "${WORK_DIR}/preflight-output.txt" || \
+  fail "beta release channel was not exported"
+grep -Fqx 'prerelease=true' "${WORK_DIR}/preflight-output.txt" || \
+  fail "beta release was not marked as a prerelease"
+
+write_fixture
+expect_failure "release tag must match vX.Y.Z" run_preflight "release-${VERSION}"
+
+write_fixture
+expect_failure "tag/version mismatch" run_preflight v0.0.0
+
+write_fixture
+sed -E -i.bak 's/(CONTROL_API_VERSION_CURRENT = )[0-9]+/\1 0/' \
+  "${FIXTURE}/packages/grpc-contracts/proto/fnknock/v1/gateway.proto"
+expect_failure "CONTROL_API_VERSION_CURRENT must be a single positive integer" \
+  run_preflight "${TAG}"
+
+write_fixture
+sed -i.bak "s/version=${VERSION}/version=0.0.0/" "${FIXTURE}/apps/fn-knock/manifest"
+expect_failure "fnOS manifest version mismatch" run_preflight "${TAG}"
+
+write_fixture
+printf '' > "${FIXTURE}/release-notes/${VERSION}.md"
+expect_failure "release notes are missing or empty" run_preflight "${TAG}"
+
+write_fixture
+jq '.packages["apps/fn-knock-desktop"].version = "0.0.0"' \
+  "${FIXTURE}/package-lock.json" > "${FIXTURE}/package-lock.json.tmp"
+mv "${FIXTURE}/package-lock.json.tmp" "${FIXTURE}/package-lock.json"
+expect_failure "desktop package-lock version mismatch" run_preflight "${TAG}"
+
+write_fixture
+jq '.packages["packages/api-contract"].version = "0.0.0"' \
+  "${FIXTURE}/package-lock.json" > "${FIXTURE}/package-lock.json.tmp"
+mv "${FIXTURE}/package-lock.json.tmp" "${FIXTURE}/package-lock.json"
+expect_failure "API contract package-lock version mismatch" run_preflight "${TAG}"
+
+printf '[test-release-preflight] all contract tests passed\n'

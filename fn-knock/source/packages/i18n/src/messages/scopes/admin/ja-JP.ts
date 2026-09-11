@@ -1,1 +1,13 @@
-aW1wb3J0IHsgamFKUEFkbWluIH0gZnJvbSAiLi4vLi4vYWRtaW4vamEtSlAiOwppbXBvcnQgeyBqYUpQQXV0aCB9IGZyb20gIi4uLy4uL2F1dGgvamEtSlAiOwppbXBvcnQgeyBqYUpQQ29tbW9uIH0gZnJvbSAiLi4vLi4vY29tbW9uL2phLUpQIjsKaW1wb3J0IHsgamFKUExvY2FsZSB9IGZyb20gIi4uLy4uL2xvY2FsZS9qYS1KUCI7CmltcG9ydCB7IGphSlBTaGFyZWQgfSBmcm9tICIuLi8uLi9zaGFyZWQvamEtSlAiOwoKZXhwb3J0IGRlZmF1bHQgewogIGNvbW1vbjogamFKUENvbW1vbiwKICBsb2NhbGU6IGphSlBMb2NhbGUsCiAgc2hhcmVkOiBqYUpQU2hhcmVkLAogIGFkbWluOiBqYUpQQWRtaW4sCiAgYXV0aDogamFKUEF1dGgsCn07Cg==
+import { jaJPAdmin } from "../../admin/ja-JP";
+import { jaJPAuth } from "../../auth/ja-JP";
+import { jaJPCommon } from "../../common/ja-JP";
+import { jaJPLocale } from "../../locale/ja-JP";
+import { jaJPShared } from "../../shared/ja-JP";
+
+export default {
+  common: jaJPCommon,
+  locale: jaJPLocale,
+  shared: jaJPShared,
+  admin: jaJPAdmin,
+  auth: jaJPAuth,
+};

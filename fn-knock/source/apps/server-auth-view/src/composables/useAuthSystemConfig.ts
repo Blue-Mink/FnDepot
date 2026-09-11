@@ -1,1 +1,29 @@
-aW1wb3J0IHsgYXBwbHlBcHBlYXJhbmNlQ29uZmlnIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBcHBlYXJhbmNlU3RhdGUiOwppbXBvcnQgeyBzZXRGbktub2NrTG9jYWxlIH0gZnJvbSAiQGZuLWtub2NrL2kxOG4vdnVlL2F1dGgiOwoKdHlwZSBBdXRoTG9jYWxlQ29uZmlnID0gewogIGRlZmF1bHRfbG9jYWxlPzogc3RyaW5nIHwgbnVsbDsKfTsKCnR5cGUgQXV0aFN5c3RlbUNvbmZpZyA9IHsKICBhcHBlYXJhbmNlPzogUGFyYW1ldGVyczx0eXBlb2YgYXBwbHlBcHBlYXJhbmNlQ29uZmlnPlswXTsKICBsb2NhbGU/OiBBdXRoTG9jYWxlQ29uZmlnIHwgbnVsbDsKfTsKCmV4cG9ydCBjb25zdCB1c2VBdXRoU3lzdGVtQ29uZmlnID0gKGkxOG46IHVua25vd24pID0+IHsKICBjb25zdCBhcHBseUF1dGhMb2NhbGUgPSBhc3luYyAodmFsdWU6IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQpID0+IHsKICAgIGF3YWl0IHNldEZuS25vY2tMb2NhbGUoaTE4biwgdmFsdWUpOwogIH07CgogIGNvbnN0IGFwcGx5QXV0aFN5c3RlbUNvbmZpZyA9IGFzeW5jICgKICAgIGNvbmZpZzogQXV0aFN5c3RlbUNvbmZpZyB8IG51bGwgfCB1bmRlZmluZWQsCiAgKSA9PiB7CiAgICBhd2FpdCBhcHBseUF1dGhMb2NhbGUoY29uZmlnPy5sb2NhbGU/LmRlZmF1bHRfbG9jYWxlKTsKICAgIGFwcGx5QXBwZWFyYW5jZUNvbmZpZyhjb25maWc/LmFwcGVhcmFuY2UpOwogIH07CgogIHJldHVybiB7CiAgICBhcHBseUF1dGhMb2NhbGUsCiAgICBhcHBseUF1dGhTeXN0ZW1Db25maWcsCiAgfTsKfTsK
+import { applyAppearanceConfig } from "@admin-shared/composables/useAppearanceState";
+import { setFnKnockLocale } from "@fn-knock/i18n/vue/auth";
+
+type AuthLocaleConfig = {
+  default_locale?: string | null;
+};
+
+type AuthSystemConfig = {
+  appearance?: Parameters<typeof applyAppearanceConfig>[0];
+  locale?: AuthLocaleConfig | null;
+};
+
+export const useAuthSystemConfig = (i18n: unknown) => {
+  const applyAuthLocale = async (value: string | null | undefined) => {
+    await setFnKnockLocale(i18n, value);
+  };
+
+  const applyAuthSystemConfig = async (
+    config: AuthSystemConfig | null | undefined,
+  ) => {
+    await applyAuthLocale(config?.locale?.default_locale);
+    applyAppearanceConfig(config?.appearance);
+  };
+
+  return {
+    applyAuthLocale,
+    applyAuthSystemConfig,
+  };
+};

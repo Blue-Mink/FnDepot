@@ -1,1 +1,76 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CmltcG9ydCBDcnlwdG9KUyBmcm9tICJjcnlwdG8tanMiOwoKaW1wb3J0IHsgYnVpbGRSZXF1ZXN0U2lnbmF0dXJlIH0gZnJvbSAiLi4vc3JjL2FwaS9jcmVhdGVTaWduZWRBcGlDbGllbnQiOwoKZGVzY3JpYmUoInNpZ25lZCBBUEkgcmVxdWVzdHMiLCAoKSA9PiB7CiAgaXQoImJpbmRzIHRoZSBtZXRob2QsIG5vcm1hbGl6ZWQgVVJJIGFuZCBib2R5IGRpZ2VzdCIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IG9yaWdpbmFsTm93ID0gRGF0ZS5ub3c7CiAgICBEYXRlLm5vdyA9ICgpID0+IDFfNzAwXzAwMF8wMDBfMDAwOwogICAgdHJ5IHsKICAgICAgY29uc3Qgc2lnbmVkID0gYXdhaXQgYnVpbGRSZXF1ZXN0U2lnbmF0dXJlKAogICAgICAgICJzZXJ2ZXItb25seS1zZWNyZXQiLAogICAgICAgICJwb3N0IiwKICAgICAgICAiaHR0cHM6Ly9hdXRoLmV4YW1wbGUuY29tL2FwaS9hdXRoL3dvbC90YXJnZXRzL2RldmljZS0xL3dha2U/YXVkaXQ9MSIsCiAgICAgICAgJ3sidGFyZ2V0IjoiZGV2aWNlLTEifScsCiAgICAgICk7CiAgICAgIGNvbnN0IGJvZHlEaWdlc3QgPSBDcnlwdG9KUy5TSEEyNTYoJ3sidGFyZ2V0IjoiZGV2aWNlLTEifScpLnRvU3RyaW5nKAogICAgICAgIENyeXB0b0pTLmVuYy5IZXgsCiAgICAgICk7CiAgICAgIGNvbnN0IG1lc3NhZ2UgPSBbCiAgICAgICAgImZuLWtub2NrLXYxIiwKICAgICAgICAiUE9TVCIsCiAgICAgICAgIi9hcGkvYXV0aC93b2wvdGFyZ2V0cy9kZXZpY2UtMS93YWtlP2F1ZGl0PTEiLAogICAgICAgIGJvZHlEaWdlc3QsCiAgICAgICAgc2lnbmVkLnRpbWVzdGFtcCwKICAgICAgICBzaWduZWQubm9uY2UsCiAgICAgIF0uam9pbigiXG4iKTsKICAgICAgYXNzZXJ0LmVxdWFsKAogICAgICAgIHNpZ25lZC5zaWduYXR1cmUsCiAgICAgICAgQ3J5cHRvSlMuSG1hY1NIQTI1NihtZXNzYWdlLCAic2VydmVyLW9ubHktc2VjcmV0IikudG9TdHJpbmcoCiAgICAgICAgICBDcnlwdG9KUy5lbmMuSGV4LAogICAgICAgICksCiAgICAgICk7CiAgICAgIGFzc2VydC5tYXRjaChzaWduZWQubm9uY2UsIC9eWzAtOWEtZl17MzJ9JC8pOwoKICAgICAgYXNzZXJ0Lm5vdEVxdWFsKAogICAgICAgIHNpZ25lZC5zaWduYXR1cmUsCiAgICAgICAgKAogICAgICAgICAgYXdhaXQgYnVpbGRSZXF1ZXN0U2lnbmF0dXJlKAogICAgICAgICAgICAic2VydmVyLW9ubHktc2VjcmV0IiwKICAgICAgICAgICAgImdldCIsCiAgICAgICAgICAgICJodHRwczovL2F1dGguZXhhbXBsZS5jb20vYXBpL2F1dGgvd29sL3RhcmdldHMvZGV2aWNlLTEvd2FrZT9hdWRpdD0xIiwKICAgICAgICAgICAgJ3sidGFyZ2V0IjoiZGV2aWNlLTEifScsCiAgICAgICAgICApCiAgICAgICAgKS5zaWduYXR1cmUsCiAgICAgICk7CiAgICAgIGFzc2VydC5ub3RFcXVhbCgKICAgICAgICBzaWduZWQuc2lnbmF0dXJlLAogICAgICAgICgKICAgICAgICAgIGF3YWl0IGJ1aWxkUmVxdWVzdFNpZ25hdHVyZSgKICAgICAgICAgICAgInNlcnZlci1vbmx5LXNlY3JldCIsCiAgICAgICAgICAgICJwb3N0IiwKICAgICAgICAgICAgImh0dHBzOi8vYXV0aC5leGFtcGxlLmNvbS9hcGkvYXV0aC93b2wvdGFyZ2V0cy9kZXZpY2UtMi93YWtlP2F1ZGl0PTEiLAogICAgICAgICAgICAneyJ0YXJnZXQiOiJkZXZpY2UtMSJ9JywKICAgICAgICAgICkKICAgICAgICApLnNpZ25hdHVyZSwKICAgICAgKTsKICAgICAgYXNzZXJ0Lm5vdEVxdWFsKAogICAgICAgIHNpZ25lZC5zaWduYXR1cmUsCiAgICAgICAgKAogICAgICAgICAgYXdhaXQgYnVpbGRSZXF1ZXN0U2lnbmF0dXJlKAogICAgICAgICAgICAic2VydmVyLW9ubHktc2VjcmV0IiwKICAgICAgICAgICAgInBvc3QiLAogICAgICAgICAgICAiaHR0cHM6Ly9hdXRoLmV4YW1wbGUuY29tL2FwaS9hdXRoL3dvbC90YXJnZXRzL2RldmljZS0xL3dha2U/YXVkaXQ9MSIsCiAgICAgICAgICAgICd7InRhcmdldCI6ImRldmljZS0yIn0nLAogICAgICAgICAgKQogICAgICAgICkuc2lnbmF0dXJlLAogICAgICApOwogICAgfSBmaW5hbGx5IHsKICAgICAgRGF0ZS5ub3cgPSBvcmlnaW5hbE5vdzsKICAgIH0KICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import CryptoJS from "crypto-js";
+
+import { buildRequestSignature } from "../src/api/createSignedApiClient";
+
+describe("signed API requests", () => {
+  it("binds the method, normalized URI and body digest", async () => {
+    const originalNow = Date.now;
+    Date.now = () => 1_700_000_000_000;
+    try {
+      const signed = await buildRequestSignature(
+        "server-only-secret",
+        "post",
+        "https://auth.example.com/api/auth/wol/targets/device-1/wake?audit=1",
+        '{"target":"device-1"}',
+      );
+      const bodyDigest = CryptoJS.SHA256('{"target":"device-1"}').toString(
+        CryptoJS.enc.Hex,
+      );
+      const message = [
+        "fn-knock-v1",
+        "POST",
+        "/api/auth/wol/targets/device-1/wake?audit=1",
+        bodyDigest,
+        signed.timestamp,
+        signed.nonce,
+      ].join("\n");
+      assert.equal(
+        signed.signature,
+        CryptoJS.HmacSHA256(message, "server-only-secret").toString(
+          CryptoJS.enc.Hex,
+        ),
+      );
+      assert.match(signed.nonce, /^[0-9a-f]{32}$/);
+
+      assert.notEqual(
+        signed.signature,
+        (
+          await buildRequestSignature(
+            "server-only-secret",
+            "get",
+            "https://auth.example.com/api/auth/wol/targets/device-1/wake?audit=1",
+            '{"target":"device-1"}',
+          )
+        ).signature,
+      );
+      assert.notEqual(
+        signed.signature,
+        (
+          await buildRequestSignature(
+            "server-only-secret",
+            "post",
+            "https://auth.example.com/api/auth/wol/targets/device-2/wake?audit=1",
+            '{"target":"device-1"}',
+          )
+        ).signature,
+      );
+      assert.notEqual(
+        signed.signature,
+        (
+          await buildRequestSignature(
+            "server-only-secret",
+            "post",
+            "https://auth.example.com/api/auth/wol/targets/device-1/wake?audit=1",
+            '{"target":"device-2"}',
+          )
+        ).signature,
+      );
+    } finally {
+      Date.now = originalNow;
+    }
+  });
+});

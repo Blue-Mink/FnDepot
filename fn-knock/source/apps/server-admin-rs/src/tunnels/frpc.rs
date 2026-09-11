@@ -1,1 +1,191 @@
-dXNlIHN0ZDo6ewogICAgcGF0aDo6e1BhdGgsIFBhdGhCdWZ9LAogICAgcHJvY2Vzczo6U3RkaW8sCiAgICBzeW5jOjpBcmMsCn07Cgp1c2UgYXh1bTo6ewogICAgSnNvbiwgUm91dGVyLAogICAgZXh0cmFjdDo6e1BhdGggYXMgQXh1bVBhdGgsIFF1ZXJ5LCBTdGF0ZX0sCiAgICBodHRwOjpTdGF0dXNDb2RlLAogICAgcmVzcG9uc2U6OntJbnRvUmVzcG9uc2UsIFJlc3BvbnNlfSwKfTsKdXNlIHNlcmRlOjp7RGVzZXJpYWxpemUsIFNlcmlhbGl6ZX07CnVzZSBzZXJkZV9qc29uOjp7VmFsdWUsIGpzb259Owp1c2UgdG9raW86OntmcywgcHJvY2Vzczo6Q29tbWFuZCwgc3luYzo6TXV0ZXh9Owp1c2UgdXRvaXBhX2F4dW06OnJvdXRlcjo6T3BlbkFwaVJvdXRlcjsKdXNlIHV1aWQ6OlV1aWQ7Cgp1c2UgY3JhdGU6OnsKICAgIGkxOG46OntERUZBVUxUX0xPQ0FMRSwgVHJhbnNsYXRvcn0sCiAgICByZXNwb25zZSwKICAgIHN0YXRlOjpBcHBTdGF0ZSwKICAgIHN0b3JlOjpTdG9yZSwKICAgIHN5c3RlbV9ldmVudHMsIHRpbWVfdXRpbHMsCiAgICB0dW5uZWxzOjp7CiAgICAgICAgVFVOTkVMX1JVTlRJTUVfS0VZLAogICAgICAgIHN1cGVydmlzb3I6OntTdXBlcnZpc29yRmFpbHVyZSwgU3VwZXJ2aXNvclBoYXNlLCBTdXBlcnZpc29yU25hcHNob3R9LAogICAgfSwKfTsKCmNvbnN0IEZSUENfUFJJTUFSWV9JTlNUQU5DRV9JRDogJnN0ciA9ICJwcmltYXJ5IjsKY29uc3QgS0VZX1BSRUZJWDogJnN0ciA9ICJmbl9rbm9jazpmcnBjOnYyIjsKY29uc3QgSU5TVEFOQ0VfSURTX0tFWTogJnN0ciA9ICJmbl9rbm9jazpmcnBjOnYyOmluc3RhbmNlX2lkcyI7CmNvbnN0IFBSSU1BUllfSU5TVEFOQ0VfSURfS0VZOiAmc3RyID0gImZuX2tub2NrOmZycGM6djI6cHJpbWFyeV9pbnN0YW5jZV9pZCI7CmNvbnN0IExPR19UVExfU0VDOiB1c2l6ZSA9IDI0ICogMzYwMDsKY29uc3QgUFJJTUFSWV9MT0dfTUFYX0xFTjogdXNpemUgPSAxMDAwOwpjb25zdCBFWFRSQV9MT0dfTUFYX0xFTjogdXNpemUgPSA1MDA7CmNvbnN0IEVYVFJBX0lOU1RBTkNFX0xJTUlUOiB1c2l6ZSA9IDIwOwpjb25zdCBGUlBDX0NPTk5FQ1RFRF9QQVRURVJOUzogJlsmc3RyXSA9ICZbImxvZ2luIHRvIHNlcnZlciBzdWNjZXNzIiwgInN0YXJ0IHByb3h5IHN1Y2Nlc3MiXTsKY29uc3QgRlJQQ19ESVNDT05ORUNURURfUEFUVEVSTlM6ICZbJnN0cl0gPSAmWwogICAgImNvbm5lY3QgdG8gc2VydmVyIGVycm9yIiwKICAgICJsb2dpbiB0byB0aGUgc2VydmVyIGZhaWxlZCIsCiAgICAic2Vzc2lvbiBzaHV0ZG93biIsCl07CgojW2Rlcml2ZShEZWJ1ZyldCnN0cnVjdCBGcnBjSHR0cEVycm9yIHsKICAgIHN0YXR1czogU3RhdHVzQ29kZSwKICAgIG1lc3NhZ2U6IFN0cmluZywKfQoKaW1wbCBzdGQ6OmZtdDo6RGlzcGxheSBmb3IgRnJwY0h0dHBFcnJvciB7CiAgICBmbiBmbXQoJnNlbGYsIGZvcm1hdHRlcjogJm11dCBzdGQ6OmZtdDo6Rm9ybWF0dGVyPCdfPikgLT4gc3RkOjpmbXQ6OlJlc3VsdCB7CiAgICAgICAgd3JpdGUhKGZvcm1hdHRlciwgInt9Iiwgc2VsZi5tZXNzYWdlKQogICAgfQp9Cgp0eXBlIEZycGNSZXN1bHQ8VD4gPSBSZXN1bHQ8VCwgRnJwY0h0dHBFcnJvcj47CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnN0cnVjdCBGcnBjSW5zdGFuY2VNZXRhIHsKICAgIGlkOiBTdHJpbmcsCiAgICBuYW1lOiBTdHJpbmcsCiAgICBpc19wcmltYXJ5OiBib29sLAogICAgY29uZmlnX3BhdGg6IFN0cmluZywKICAgIHdvcmtfZGlyOiBTdHJpbmcsCiAgICBjcmVhdGVkX2F0OiBTdHJpbmcsCiAgICB1cGRhdGVkX2F0OiBTdHJpbmcsCiAgICBzb3J0X29yZGVyOiBpNjQsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgU2VyaWFsaXplLCBEZXNlcmlhbGl6ZSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0Kc3RydWN0IEZycGNJbnN0YW5jZVJ1bnRpbWUgewogICAgZGVzaXJlZF9ydW5uaW5nOiBib29sLAogICAgcGlkOiBPcHRpb248dTMyPiwKICAgIHN0YXJ0ZWRfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgc3RvcHBlZF9hdDogT3B0aW9uPFN0cmluZz4sCiAgICBsYXN0X2V4aXRfY29kZTogT3B0aW9uPGkzMj4sCiAgICBsYXN0X21lc3NhZ2U6IE9wdGlvbjxTdHJpbmc+LAogICAgc3VwZXJ2aXNvcjogU3VwZXJ2aXNvclNuYXBzaG90LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0Kc3RydWN0IEZycGNJbnN0YW5jZVN1bW1hcnkgewogICAgc2VydmVyX2FkZHI6IFN0cmluZywKICAgIHNlcnZlcl9wb3J0OiBTdHJpbmcsCiAgICBsb2NhbF9wb3J0OiBTdHJpbmcsCiAgICByZW1vdGVfcG9ydDogU3RyaW5nLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0Kc3RydWN0IEZycGNJbnN0YW5jZVN0YXR1cyB7CiAgICBpZDogU3RyaW5nLAogICAgbmFtZTogU3RyaW5nLAogICAgaXNfcHJpbWFyeTogYm9vbCwKICAgIGNvbmZpZ19wYXRoOiBTdHJpbmcsCiAgICB3b3JrX2RpcjogU3RyaW5nLAogICAgY3JlYXRlZF9hdDogU3RyaW5nLAogICAgdXBkYXRlZF9hdDogU3RyaW5nLAogICAgc29ydF9vcmRlcjogaTY0LAogICAgZGVzaXJlZF9ydW5uaW5nOiBib29sLAogICAgcnVubmluZzogYm9vbCwKICAgIGF0dGFjaGVkOiBib29sLAogICAgcGlkOiBPcHRpb248dTMyPiwKICAgIHN0YXJ0ZWRfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgc3RvcHBlZF9hdDogT3B0aW9uPFN0cmluZz4sCiAgICBsYXN0X2V4aXRfY29kZTogT3B0aW9uPGkzMj4sCiAgICBsYXN0X21lc3NhZ2U6IE9wdGlvbjxTdHJpbmc+LAogICAgc3VwZXJ2aXNvcjogU3VwZXJ2aXNvclNuYXBzaG90LAogICAgc3VtbWFyeTogRnJwY0luc3RhbmNlU3VtbWFyeSwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBTZXJpYWxpemUpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnN0cnVjdCBGcnBjSW5zdGFuY2VzT3ZlcnZpZXcgewogICAgaW5pdGlhbGl6ZWQ6IGJvb2wsCiAgICBwbGF0Zm9ybTogU3RyaW5nLAogICAgcHJpbWFyeV9pbnN0YW5jZV9pZDogU3RyaW5nLAogICAgdG90YWw6IHVzaXplLAogICAgZXh0cmFfY291bnQ6IHVzaXplLAogICAgcnVubmluZ19jb3VudDogdXNpemUsCiAgICBvdXRkYXRlZF9ydW5uaW5nX2NvdW50OiB1c2l6ZSwKICAgIGRlZmF1bHRzOiBWYWx1ZSwKICAgIGl0ZW1zOiBWZWM8RnJwY0luc3RhbmNlU3RhdHVzPiwKfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUpXQpzdHJ1Y3QgQ29uZmlnQm9keSB7CiAgICBjb250ZW50OiBTdHJpbmcsCn0KCiNbZGVyaXZlKERlc2VyaWFsaXplKV0Kc3RydWN0IEluc3RhbmNlQm9keSB7CiAgICBuYW1lOiBPcHRpb248U3RyaW5nPiwKICAgIGNvbnRlbnQ6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShEZXNlcmlhbGl6ZSldCnN0cnVjdCBMaW1pdFF1ZXJ5IHsKICAgIGxpbWl0OiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUpXQpzdHJ1Y3QgUG9sbFF1ZXJ5IHsKICAgIGN1cnNvcjogT3B0aW9uPFN0cmluZz4sCn0KCm1vZCBiaW5hcnk7Cm1vZCBlcnJvcnM7Cm1vZCBoYW5kbGVyczsKbW9kIGkxOG47Cm1vZCBwYXJzaW5nOwptb2QgcHJvY2VzczsKbW9kIHJ1bnRpbWU7Cm1vZCBzdG9yYWdlOwptb2Qgc3VtbWFyeTsKbW9kIHN1cGVydmlzb3I7Cgp1c2UgYmluYXJ5OjoqOwp1c2UgZXJyb3JzOjoqOwp1c2UgaTE4bjo6KjsKdXNlIHBhcnNpbmc6Oio7CnVzZSBwcm9jZXNzOjoqOwp1c2UgcnVudGltZTo6KjsKdXNlIHN0b3JhZ2U6Oio7CnVzZSBzdW1tYXJ5OjoqOwp1c2Ugc3VwZXJ2aXNvcjo6KjsKCnB1YiBmbiBmcnBjX3JvdXRlcygpIC0+IFJvdXRlcjxBcHBTdGF0ZT4gewogICAgZnJwY19vcGVuYXBpX3JvdXRlcygpLmludG8oKQp9CgpwdWIoY3JhdGUpIGZuIGZycGNfb3BlbmFwaV9yb3V0ZXMoKSAtPiBPcGVuQXBpUm91dGVyPEFwcFN0YXRlPiB7CiAgICBoYW5kbGVyczo6b3BlbmFwaV9yb3V0ZXMoKQp9CgpwdWIgZm4gc3RhcnRfZnJwY190YXNrcyhzdGF0ZTogQXBwU3RhdGUpIHsKICAgIGxldCB0YXNrX3N0YXRlID0gc3RhdGUuY2xvbmUoKTsKICAgIHN0YXRlLnNwYXduX2JhY2tncm91bmQoImZycGMtcmVzdG9yZSIsIGFzeW5jIG1vdmUgewogICAgICAgIGlmIGxldCBFcnIoZXJyb3IpID0gcmVzdG9yZV9vbl9ib290KCZ0YXNrX3N0YXRlKS5hd2FpdCB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byByZXN0b3JlIGZycGMgcnVudGltZSBvbiBib290Iik7CiAgICAgICAgfQogICAgfSk7Cn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHM7Cg==
+use std::{
+    path::{Path, PathBuf},
+    process::Stdio,
+    sync::Arc,
+};
+
+use axum::{
+    Json, Router,
+    extract::{Path as AxumPath, Query, State},
+    http::StatusCode,
+    response::{IntoResponse, Response},
+};
+use serde::{Deserialize, Serialize};
+use serde_json::{Value, json};
+use tokio::{fs, process::Command, sync::Mutex};
+use utoipa_axum::router::OpenApiRouter;
+use uuid::Uuid;
+
+use crate::{
+    i18n::{DEFAULT_LOCALE, Translator},
+    response,
+    state::AppState,
+    store::Store,
+    system_events, time_utils,
+    tunnels::{
+        TUNNEL_RUNTIME_KEY,
+        supervisor::{SupervisorFailure, SupervisorPhase, SupervisorSnapshot},
+    },
+};
+
+const FRPC_PRIMARY_INSTANCE_ID: &str = "primary";
+const KEY_PREFIX: &str = "fn_knock:frpc:v2";
+const INSTANCE_IDS_KEY: &str = "fn_knock:frpc:v2:instance_ids";
+const PRIMARY_INSTANCE_ID_KEY: &str = "fn_knock:frpc:v2:primary_instance_id";
+const LOG_TTL_SEC: usize = 24 * 3600;
+const PRIMARY_LOG_MAX_LEN: usize = 1000;
+const EXTRA_LOG_MAX_LEN: usize = 500;
+const EXTRA_INSTANCE_LIMIT: usize = 20;
+const FRPC_CONNECTED_PATTERNS: &[&str] = &["login to server success", "start proxy success"];
+const FRPC_DISCONNECTED_PATTERNS: &[&str] = &[
+    "connect to server error",
+    "login to the server failed",
+    "session shutdown",
+];
+
+#[derive(Debug)]
+struct FrpcHttpError {
+    status: StatusCode,
+    message: String,
+}
+
+impl std::fmt::Display for FrpcHttpError {
+    fn fmt(&self, formatter: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(formatter, "{}", self.message)
+    }
+}
+
+type FrpcResult<T> = Result<T, FrpcHttpError>;
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+struct FrpcInstanceMeta {
+    id: String,
+    name: String,
+    is_primary: bool,
+    config_path: String,
+    work_dir: String,
+    created_at: String,
+    updated_at: String,
+    sort_order: i64,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+struct FrpcInstanceRuntime {
+    desired_running: bool,
+    pid: Option<u32>,
+    started_at: Option<String>,
+    stopped_at: Option<String>,
+    last_exit_code: Option<i32>,
+    last_message: Option<String>,
+    supervisor: SupervisorSnapshot,
+}
+
+#[derive(Clone, Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+struct FrpcInstanceSummary {
+    server_addr: String,
+    server_port: String,
+    local_port: String,
+    remote_port: String,
+}
+
+#[derive(Clone, Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+struct FrpcInstanceStatus {
+    id: String,
+    name: String,
+    is_primary: bool,
+    config_path: String,
+    work_dir: String,
+    created_at: String,
+    updated_at: String,
+    sort_order: i64,
+    desired_running: bool,
+    running: bool,
+    attached: bool,
+    pid: Option<u32>,
+    started_at: Option<String>,
+    stopped_at: Option<String>,
+    last_exit_code: Option<i32>,
+    last_message: Option<String>,
+    supervisor: SupervisorSnapshot,
+    summary: FrpcInstanceSummary,
+}
+
+#[derive(Clone, Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+struct FrpcInstancesOverview {
+    initialized: bool,
+    platform: String,
+    primary_instance_id: String,
+    total: usize,
+    extra_count: usize,
+    running_count: usize,
+    outdated_running_count: usize,
+    defaults: Value,
+    items: Vec<FrpcInstanceStatus>,
+}
+
+#[derive(Deserialize)]
+struct ConfigBody {
+    content: String,
+}
+
+#[derive(Deserialize)]
+struct InstanceBody {
+    name: Option<String>,
+    content: Option<String>,
+}
+
+#[derive(Deserialize)]
+struct LimitQuery {
+    limit: Option<String>,
+}
+
+#[derive(Deserialize)]
+struct PollQuery {
+    cursor: Option<String>,
+}
+
+mod binary;
+mod errors;
+mod handlers;
+mod i18n;
+mod parsing;
+mod process;
+mod runtime;
+mod storage;
+mod summary;
+mod supervisor;
+
+use binary::*;
+use errors::*;
+use i18n::*;
+use parsing::*;
+use process::*;
+use runtime::*;
+use storage::*;
+use summary::*;
+use supervisor::*;
+
+pub fn frpc_routes() -> Router<AppState> {
+    frpc_openapi_routes().into()
+}
+
+pub(crate) fn frpc_openapi_routes() -> OpenApiRouter<AppState> {
+    handlers::openapi_routes()
+}
+
+pub fn start_frpc_tasks(state: AppState) {
+    let task_state = state.clone();
+    state.spawn_background("frpc-restore", async move {
+        if let Err(error) = restore_on_boot(&task_state).await {
+            tracing::warn!(%error, "failed to restore frpc runtime on boot");
+        }
+    });
+}
+
+#[cfg(test)]
+mod tests;

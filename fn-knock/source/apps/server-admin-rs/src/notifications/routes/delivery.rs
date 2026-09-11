@@ -1,1 +1,71 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBzdHJ1Y3QgRGVsaXZlcnlCdWlsZEFyZ3MgewogICAgcHViKHN1cGVyKSBpZDogU3RyaW5nLAogICAgcHViKHN1cGVyKSB0cmFjZV9pZDogU3RyaW5nLAogICAgcHViKHN1cGVyKSB0cmlnZ2VyX2lkOiBTdHJpbmcsCiAgICBwdWIoc3VwZXIpIHJ1bGVfaWQ6IFN0cmluZywKICAgIHB1YihzdXBlcikgdGFyZ2V0X2lkOiBTdHJpbmcsCiAgICBwdWIoc3VwZXIpIHByb3ZpZGVyX2lkOiBTdHJpbmcsCiAgICBwdWIoc3VwZXIpIGV2ZW50X2lkOiBTdHJpbmcsCiAgICBwdWIoc3VwZXIpIHN0YXR1czogU3RyaW5nLAogICAgcHViKHN1cGVyKSByZWFzb246IE9wdGlvbjxTdHJpbmc+LAogICAgcHViKHN1cGVyKSBwcm92aWRlcl90eXBlOiBTdHJpbmcsCiAgICBwdWIoc3VwZXIpIG1lc3NhZ2Vfc25hcHNob3Q6IFZhbHVlLAogICAgcHViKHN1cGVyKSB0YXJnZXRfc25hcHNob3Q6IFZhbHVlLAogICAgcHViKHN1cGVyKSBwcm92aWRlcl9zbmFwc2hvdDogVmFsdWUsCiAgICBwdWIoc3VwZXIpIHdlYmhvb2tfZXZlbnRfc25hcHNob3Q6IE9wdGlvbjxWYWx1ZT4sCiAgICBwdWIoc3VwZXIpIGF0dGVtcHRfY291bnQ6IGk2NCwKICAgIHB1YihzdXBlcikgdHJpZ2dlcmVkX2F0OiBTdHJpbmcsCiAgICBwdWIoc3VwZXIpIG5leHRfcmV0cnlfYXQ6IE9wdGlvbjxTdHJpbmc+LAp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX2RlbGl2ZXJ5X3ZhbHVlKGFyZ3M6IERlbGl2ZXJ5QnVpbGRBcmdzKSAtPiBWYWx1ZSB7CiAgICBsZXQgbXV0IGRlbGl2ZXJ5ID0ganNvbiEoewogICAgICAgICJpZCI6IGFyZ3MuaWQsCiAgICAgICAgInRyaWdnZXJfaWQiOiBhcmdzLnRyaWdnZXJfaWQsCiAgICAgICAgInJ1bGVfaWQiOiBhcmdzLnJ1bGVfaWQsCiAgICAgICAgInRhcmdldF9pZCI6IGFyZ3MudGFyZ2V0X2lkLAogICAgICAgICJwcm92aWRlcl9pZCI6IGFyZ3MucHJvdmlkZXJfaWQsCiAgICAgICAgImV2ZW50X2lkIjogYXJncy5ldmVudF9pZCwKICAgICAgICAic3RhdHVzIjogYXJncy5zdGF0dXMsCiAgICAgICAgInJlYXNvbiI6IGFyZ3MucmVhc29uLAogICAgICAgICJwcm92aWRlcl90eXBlIjogYXJncy5wcm92aWRlcl90eXBlLAogICAgICAgICJtZXNzYWdlX3NuYXBzaG90IjogYXJncy5tZXNzYWdlX3NuYXBzaG90LAogICAgICAgICJ0YXJnZXRfc25hcHNob3QiOiBhcmdzLnRhcmdldF9zbmFwc2hvdCwKICAgICAgICAicHJvdmlkZXJfc25hcHNob3QiOiBhcmdzLnByb3ZpZGVyX3NuYXBzaG90LAogICAgICAgICJyZXF1ZXN0X3N1bW1hcnkiOiBWYWx1ZTo6TnVsbCwKICAgICAgICAicmVzcG9uc2Vfc3VtbWFyeSI6IFZhbHVlOjpOdWxsLAogICAgICAgICJhdHRlbXB0X2NvdW50IjogYXJncy5hdHRlbXB0X2NvdW50LAogICAgICAgICJ0cmlnZ2VyZWRfYXQiOiBhcmdzLnRyaWdnZXJlZF9hdCwKICAgICAgICAic2VudF9hdCI6IFZhbHVlOjpOdWxsLAogICAgICAgICJuZXh0X3JldHJ5X2F0IjogYXJncy5uZXh0X3JldHJ5X2F0CiAgICB9KTsKICAgIGlmICFhcmdzLnRyYWNlX2lkLmlzX2VtcHR5KCkgewogICAgICAgIGRlbGl2ZXJ5WyJ0cmFjZV9pZCJdID0gVmFsdWU6OlN0cmluZyhhcmdzLnRyYWNlX2lkKTsKICAgIH0KICAgIGlmIGxldCBTb21lKGV2ZW50X3NuYXBzaG90KSA9IGFyZ3Mud2ViaG9va19ldmVudF9zbmFwc2hvdCB7CiAgICAgICAgZGVsaXZlcnlbIndlYmhvb2tfZXZlbnRfc25hcHNob3QiXSA9IGV2ZW50X3NuYXBzaG90OwogICAgfQogICAgZGVsaXZlcnkKfQoKcHViKHN1cGVyKSBmbiBkZWxldGVkX3Byb3ZpZGVyX3NuYXBzaG90KAogICAgcHJvdmlkZXJfaWQ6ICZzdHIsCiAgICB0aW1lc3RhbXA6ICZzdHIsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBWYWx1ZSB7CiAgICBqc29uISh7CiAgICAgICAgImlkIjogcHJvdmlkZXJfaWQsCiAgICAgICAgIm5hbWUiOiBub3RpZmljYXRpb25fc2VydmljZV90ZXh0KHRyYW5zbGF0b3IsICJkZWxldGVkUHJvdmlkZXIiLCAmW10pLAogICAgICAgICJ0eXBlIjogIndlYmhvb2siLAogICAgICAgICJlbmFibGVkIjogZmFsc2UsCiAgICAgICAgImNyZWF0ZWRfYXQiOiB0aW1lc3RhbXAsCiAgICAgICAgInVwZGF0ZWRfYXQiOiB0aW1lc3RhbXAsCiAgICAgICAgImNvbm5lY3Rpb25fY29uZmlnX21hc2tlZCI6IHt9CiAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIGlzX3Rlcm1pbmFsX2RlbGl2ZXJ5X3N0YXR1cyhzdGF0dXM6IE9wdGlvbjwmc3RyPikgLT4gYm9vbCB7CiAgICBtYXRjaGVzIShzdGF0dXMsIFNvbWUoInN1Y2Nlc3MiIHwgImdhdmVfdXAiIHwgInNraXBwZWQiKSkKfQo=
+use super::*;
+
+pub(super) struct DeliveryBuildArgs {
+    pub(super) id: String,
+    pub(super) trace_id: String,
+    pub(super) trigger_id: String,
+    pub(super) rule_id: String,
+    pub(super) target_id: String,
+    pub(super) provider_id: String,
+    pub(super) event_id: String,
+    pub(super) status: String,
+    pub(super) reason: Option<String>,
+    pub(super) provider_type: String,
+    pub(super) message_snapshot: Value,
+    pub(super) target_snapshot: Value,
+    pub(super) provider_snapshot: Value,
+    pub(super) webhook_event_snapshot: Option<Value>,
+    pub(super) attempt_count: i64,
+    pub(super) triggered_at: String,
+    pub(super) next_retry_at: Option<String>,
+}
+
+pub(super) fn build_delivery_value(args: DeliveryBuildArgs) -> Value {
+    let mut delivery = json!({
+        "id": args.id,
+        "trigger_id": args.trigger_id,
+        "rule_id": args.rule_id,
+        "target_id": args.target_id,
+        "provider_id": args.provider_id,
+        "event_id": args.event_id,
+        "status": args.status,
+        "reason": args.reason,
+        "provider_type": args.provider_type,
+        "message_snapshot": args.message_snapshot,
+        "target_snapshot": args.target_snapshot,
+        "provider_snapshot": args.provider_snapshot,
+        "request_summary": Value::Null,
+        "response_summary": Value::Null,
+        "attempt_count": args.attempt_count,
+        "triggered_at": args.triggered_at,
+        "sent_at": Value::Null,
+        "next_retry_at": args.next_retry_at
+    });
+    if !args.trace_id.is_empty() {
+        delivery["trace_id"] = Value::String(args.trace_id);
+    }
+    if let Some(event_snapshot) = args.webhook_event_snapshot {
+        delivery["webhook_event_snapshot"] = event_snapshot;
+    }
+    delivery
+}
+
+pub(super) fn deleted_provider_snapshot(
+    provider_id: &str,
+    timestamp: &str,
+    translator: &Translator,
+) -> Value {
+    json!({
+        "id": provider_id,
+        "name": notification_service_text(translator, "deletedProvider", &[]),
+        "type": "webhook",
+        "enabled": false,
+        "created_at": timestamp,
+        "updated_at": timestamp,
+        "connection_config_masked": {}
+    })
+}
+
+pub(super) fn is_terminal_delivery_status(status: Option<&str>) -> bool {
+    matches!(status, Some("success" | "gave_up" | "skipped"))
+}

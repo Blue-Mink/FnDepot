@@ -1,1 +1,88 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIHdlY29tX2RlZmluaXRpb24oKSAtPiBQcm92aWRlckRlZmluaXRpb24gewogICAgd2ViaG9va19saWtlX2RlZmluaXRpb24oCiAgICAgICAgIndlY29tIiwKICAgICAgICAiV2VDb20iLAogICAgICAgICJTZW5kIG5vdGlmaWNhdGlvbnMgdGhyb3VnaCBXZUNvbSByb2JvdCB3ZWJob29rLiIsCiAgICAgICAgJlsid2ViaG9va191cmwiXSwKICAgICAgICB2ZWMhWwogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJtZW50aW9uZWRfbGlzdCIsICJNZW50aW9uZWQgdXNlcnMiLCBmYWxzZSwgZmFsc2UsIE5vbmUpCiAgICAgICAgICAgICAgICAucGxhY2Vob2xkZXIoInpoYW5nc2FuLEBhbGwiKSwKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgKICAgICAgICAgICAgICAgICJtZW50aW9uZWRfbW9iaWxlX2xpc3QiLAogICAgICAgICAgICAgICAgIk1lbnRpb25lZCBtb2JpbGUgbGlzdCIsCiAgICAgICAgICAgICAgICBmYWxzZSwKICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICAgICAgTm9uZSwKICAgICAgICAgICAgKQogICAgICAgICAgICAucGxhY2Vob2xkZXIoIjEzODAwMDAxMTExLEBhbGwiKSwKICAgICAgICBdLAogICAgKQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgYXN5bmMgZm4gc2VuZF93ZWNvbSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBwcm92aWRlcjogJlZhbHVlLAogICAgdGFyZ2V0OiAmVmFsdWUsCiAgICBtZXNzYWdlOiAmVmFsdWUsCiAgICB0aW1lb3V0X3NlY29uZHM6IGk2NCwKKSAtPiBQcm92aWRlclRlc3RSZXN1bHQgewogICAgbGV0IGNvbmZpZyA9IHByb3ZpZGVyX2NvbmZpZyhwcm92aWRlcik7CiAgICBsZXQgdGFyZ2V0X2NvbmZpZyA9IHRhcmdldF9jb25maWcodGFyZ2V0KTsKICAgIGxldCB3ZWJob29rX3VybCA9IGNvbmZpZ190ZXh0KCZjb25maWcsICJ3ZWJob29rX3VybCIpOwogICAgaWYgd2ViaG9va191cmwuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIG1pc3NpbmdfY29uZmlnX3Jlc3VsdCgmbm90aWZpY2F0aW9uX3Byb3ZpZGVyX2Vycm9yX2RlZmF1bHQoCiAgICAgICAgICAgICJ3ZWNvbSIsCiAgICAgICAgICAgICJtaXNzaW5nV2ViaG9va1VybCIsCiAgICAgICAgICAgICZbXSwKICAgICAgICApKTsKICAgIH0KCiAgICBsZXQgbWVudGlvbmVkX2xpc3QgPSBzcGxpdF92YWx1ZXModGFyZ2V0X2NvbmZpZy5nZXQoIm1lbnRpb25lZF9saXN0IikpOwogICAgbGV0IG1lbnRpb25lZF9tb2JpbGVfbGlzdCA9IHNwbGl0X3ZhbHVlcyh0YXJnZXRfY29uZmlnLmdldCgibWVudGlvbmVkX21vYmlsZV9saXN0IikpOwogICAgbGV0IG1hcmtkb3duX2NvbnRlbnQgPSBidWlsZF93ZWNvbV9tYXJrZG93bl9jb250ZW50KG1lc3NhZ2UsICZtZW50aW9uZWRfbGlzdCk7CiAgICBsZXQgdXNlX3RleHRfcGF5bG9hZCA9ICFtZW50aW9uZWRfbW9iaWxlX2xpc3QuaXNfZW1wdHkoKSB8fCBtYXJrZG93bl9jb250ZW50LmxlbigpID4gNDA5NjsKICAgIGxldCBib2R5ID0gaWYgdXNlX3RleHRfcGF5bG9hZCB7CiAgICAgICAganNvbiEoewogICAgICAgICAgICAibXNndHlwZSI6ICJ0ZXh0IiwKICAgICAgICAgICAgInRleHQiOiB7CiAgICAgICAgICAgICAgICAiY29udGVudCI6IGRlZmF1bHRfc3RyaW5nKAogICAgICAgICAgICAgICAgICAgIHRydW5jYXRlX3V0ZjhfYnl0ZXMoJmJ1aWxkX3dlY29tX3RleHRfY29udGVudChtZXNzYWdlKSwgMjA0OCksCiAgICAgICAgICAgICAgICAgICAgREVGQVVMVF9OT1RJRklDQVRJT05fTUVTU0FHRV9USVRMRSwKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAibWVudGlvbmVkX2xpc3QiOiBtZW50aW9uZWRfbGlzdCwKICAgICAgICAgICAgICAgICJtZW50aW9uZWRfbW9iaWxlX2xpc3QiOiBtZW50aW9uZWRfbW9iaWxlX2xpc3QKICAgICAgICAgICAgfQogICAgICAgIH0pCiAgICB9IGVsc2UgewogICAgICAgIGpzb24hKHsKICAgICAgICAgICAgIm1zZ3R5cGUiOiAibWFya2Rvd24iLAogICAgICAgICAgICAibWFya2Rvd24iOiB7CiAgICAgICAgICAgICAgICAiY29udGVudCI6IGRlZmF1bHRfc3RyaW5nKAogICAgICAgICAgICAgICAgICAgIHRydW5jYXRlX3V0ZjhfYnl0ZXMoJm1hcmtkb3duX2NvbnRlbnQsIDQwOTYpLAogICAgICAgICAgICAgICAgICAgIERFRkFVTFRfTk9USUZJQ0FUSU9OX01FU1NBR0VfVElUTEUsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9KQogICAgfTsKICAgIGxldCByZXF1ZXN0X3N1bW1hcnkgPSBqc29uISh7CiAgICAgICAgIm1ldGhvZCI6ICJQT1NUIiwKICAgICAgICAidXJsIjogcmVkYWN0X3F1ZXJ5X3ZhbHVlKCZ3ZWJob29rX3VybCwgImtleSIpLAogICAgICAgICJtc2d0eXBlIjogYm9keS5nZXQoIm1zZ3R5cGUiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgICJtZW50aW9uZWRfY291bnQiOiBzcGxpdF92YWx1ZXModGFyZ2V0X2NvbmZpZy5nZXQoIm1lbnRpb25lZF9saXN0IikpLmxlbigpLAogICAgICAgICJtZW50aW9uZWRfbW9iaWxlX2NvdW50Ijogc3BsaXRfdmFsdWVzKHRhcmdldF9jb25maWcuZ2V0KCJtZW50aW9uZWRfbW9iaWxlX2xpc3QiKSkubGVuKCkKICAgIH0pOwoKICAgIGxldCAoc3RhdHVzLCBvaywgdGV4dCwgcGFyc2VkKSA9IHBvc3RfanNvbihzdGF0ZSwgJndlYmhvb2tfdXJsLCAmYm9keSwgdGltZW91dF9zZWNvbmRzKS5hd2FpdDsKICAgIHByb3ZpZGVyX3Jlc3VsdF9mcm9tX2FwaSgKICAgICAgICAiV2VDb20iLAogICAgICAgIHJlcXVlc3Rfc3VtbWFyeSwKICAgICAgICBzdGF0dXMsCiAgICAgICAgb2ssCiAgICAgICAgdGV4dCwKICAgICAgICBwYXJzZWQsCiAgICAgICAgfHZhbHVlfCBqc29uX2k2NCh2YWx1ZSwgImVycmNvZGUiKS51bndyYXBfb3IoMCkgPT0gMCwKICAgICAgICB8dmFsdWV8IGpzb25fdGV4dCh2YWx1ZSwgImVycm1zZyIpLAogICAgKQp9Cg==
+use super::*;
+
+pub(in crate::notifications::routes) fn wecom_definition() -> ProviderDefinition {
+    webhook_like_definition(
+        "wecom",
+        "WeCom",
+        "Send notifications through WeCom robot webhook.",
+        &["webhook_url"],
+        vec![
+            string_schema("mentioned_list", "Mentioned users", false, false, None)
+                .placeholder("zhangsan,@all"),
+            string_schema(
+                "mentioned_mobile_list",
+                "Mentioned mobile list",
+                false,
+                false,
+                None,
+            )
+            .placeholder("13800001111,@all"),
+        ],
+    )
+}
+
+pub(in crate::notifications::routes) async fn send_wecom(
+    state: &AppState,
+    provider: &Value,
+    target: &Value,
+    message: &Value,
+    timeout_seconds: i64,
+) -> ProviderTestResult {
+    let config = provider_config(provider);
+    let target_config = target_config(target);
+    let webhook_url = config_text(&config, "webhook_url");
+    if webhook_url.is_empty() {
+        return missing_config_result(&notification_provider_error_default(
+            "wecom",
+            "missingWebhookUrl",
+            &[],
+        ));
+    }
+
+    let mentioned_list = split_values(target_config.get("mentioned_list"));
+    let mentioned_mobile_list = split_values(target_config.get("mentioned_mobile_list"));
+    let markdown_content = build_wecom_markdown_content(message, &mentioned_list);
+    let use_text_payload = !mentioned_mobile_list.is_empty() || markdown_content.len() > 4096;
+    let body = if use_text_payload {
+        json!({
+            "msgtype": "text",
+            "text": {
+                "content": default_string(
+                    truncate_utf8_bytes(&build_wecom_text_content(message), 2048),
+                    DEFAULT_NOTIFICATION_MESSAGE_TITLE,
+                ),
+                "mentioned_list": mentioned_list,
+                "mentioned_mobile_list": mentioned_mobile_list
+            }
+        })
+    } else {
+        json!({
+            "msgtype": "markdown",
+            "markdown": {
+                "content": default_string(
+                    truncate_utf8_bytes(&markdown_content, 4096),
+                    DEFAULT_NOTIFICATION_MESSAGE_TITLE,
+                )
+            }
+        })
+    };
+    let request_summary = json!({
+        "method": "POST",
+        "url": redact_query_value(&webhook_url, "key"),
+        "msgtype": body.get("msgtype").cloned().unwrap_or(Value::Null),
+        "mentioned_count": split_values(target_config.get("mentioned_list")).len(),
+        "mentioned_mobile_count": split_values(target_config.get("mentioned_mobile_list")).len()
+    });
+
+    let (status, ok, text, parsed) = post_json(state, &webhook_url, &body, timeout_seconds).await;
+    provider_result_from_api(
+        "WeCom",
+        request_summary,
+        status,
+        ok,
+        text,
+        parsed,
+        |value| json_i64(value, "errcode").unwrap_or(0) == 0,
+        |value| json_text(value, "errmsg"),
+    )
+}

@@ -1,1 +1,228 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7CiAgQ2FibGUsCiAgQ2xvY2ssCiAgR2xvYmUsCiAgTmV0d29yaywKICBSb3V0ZSBhcyBSb3V0ZUljb24sCiAgV2lmaSwKfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBDYXJkLCBDYXJkQ29udGVudCwgQ2FyZEhlYWRlciwgQ2FyZFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgTGl2ZVN0YXR1c0JhZGdlIGZyb20gIkAvY29tcG9uZW50cy9MaXZlU3RhdHVzQmFkZ2UudnVlIjsKaW1wb3J0IEh1bWFuRnJpZW5kbHlUaW1lIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vSHVtYW5GcmllbmRseVRpbWUudnVlIjsKaW1wb3J0IE92ZXJmbG93VG9vbHRpcFRleHQgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9PdmVyZmxvd1Rvb2x0aXBUZXh0LnZ1ZSI7CmltcG9ydCB0eXBlIHsgTGFzdENoZWNrLCBMYXN0SVAgfSBmcm9tICIuL21vZGVsIjsKCmRlZmluZVByb3BzPHsKICBjb3B5SXBBZGRyZXNzOiAoCiAgICBsYWJlbDogIklQdjQiIHwgIklQdjYiLAogICAgdmFsdWU6IHN0cmluZyB8IG51bGwsCiAgKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPjsKICBjdXJyZW50SXBTb3VyY2VMYWJlbDogc3RyaW5nOwogIGN1cnJlbnROZXR3b3JrSW50ZXJmYWNlTGFiZWw6IHN0cmluZzsKICBjdXJyZW50VXBkYXRlU2NvcGVMYWJlbDogc3RyaW5nOwogIGVuYWJsZWQ6IGJvb2xlYW47CiAgbGFzdENoZWNrOiBMYXN0Q2hlY2s7CiAgbGFzdENoZWNrVG9vbHRpcExpbmVzOiBzdHJpbmdbXTsKICBsYXN0SXA6IExhc3RJUDsKICBvcGVuVXBkYXRlSW50ZXJ2YWxEaWFsb2c6ICgpID0+IHZvaWQ7CiAgc2hvd0lwdjRTdGF0dXM6IGJvb2xlYW47CiAgc2hvd0lwdjZTdGF0dXM6IGJvb2xlYW47CiAgdXBkYXRlSW50ZXJ2YWxMYWJlbDogc3RyaW5nOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxDYXJkIGNsYXNzPSJvdmVyZmxvdy1oaWRkZW4gcHktNSBtYi02Ij4KICAgIDxDYXJkSGVhZGVyPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgIDxDYXJkVGl0bGUgY2xhc3M9InRleHQtYmFzZSBmb250LW1lZGl1bSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLnN0YXR1c1RpdGxlIikgfX0KICAgICAgICAgIDxMaXZlU3RhdHVzQmFkZ2UKICAgICAgICAgICAgOmFjdGl2ZT0iZW5hYmxlZCIKICAgICAgICAgICAgOmFjdGl2ZS1sYWJlbD0idCgnYWRtaW4uZGRucy5hY3RpdmVMYWJlbCcpIgogICAgICAgICAgICA6aW5hY3RpdmUtbGFiZWw9InQoJ2FkbWluLmRkbnMucGF1c2VkTGFiZWwnKSIKICAgICAgICAgICAgY2xhc3M9Im10LXB4IgogICAgICAgICAgLz4KICAgICAgICA8L0NhcmRUaXRsZT4KCiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgdi1pZj0iZW5hYmxlZCIKICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIGNsYXNzPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSByb3VuZGVkLW1kIGJnLW11dGVkLzUwIHB4LTIgcHktMSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy1tdXRlZCBob3Zlcjp0ZXh0LWZvcmVncm91bmQgZm9jdXMtdmlzaWJsZTpvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpyaW5nLTIgZm9jdXMtdmlzaWJsZTpyaW5nLXJpbmcgZm9jdXMtdmlzaWJsZTpyaW5nLW9mZnNldC0yIgogICAgICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgICAgICB0KCdhZG1pbi5kZG5zLnNldEludGVydmFsQXJpYScsIHsgbGFiZWw6IHVwZGF0ZUludGVydmFsTGFiZWwgfSkKICAgICAgICAgICIKICAgICAgICAgIEBjbGljaz0ib3BlblVwZGF0ZUludGVydmFsRGlhbG9nIgogICAgICAgID4KICAgICAgICAgIDxDbG9jayBjbGFzcz0iaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgICA8c3Bhbj57eyB1cGRhdGVJbnRlcnZhbExhYmVsIH19PC9zcGFuPgogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvQ2FyZEhlYWRlcj4KCiAgICA8Q2FyZENvbnRlbnQ+CiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0iZ3JpZCBnYXAtNCB4bDpncmlkLWNvbHMtW21pbm1heCgxMHJlbSwxZnIpX2F1dG9dIHhsOml0ZW1zLWNlbnRlciB4bDpnYXAtNiIKICAgICAgPgogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzPSJmbGV4IG1pbi13LTAgZmxleC1jb2wgZ2FwLTQgbWQ6bWluLXctW21pbigxMDAlLDEwcmVtKV0gbWQ6ZmxleC1yb3cgbWQ6aXRlbXMtY2VudGVyIG1kOmdhcC02IgogICAgICAgID4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgdi1pZj0ic2hvd0lwdjRTdGF0dXMiCiAgICAgICAgICAgIGNsYXNzPSJmbGV4IG1pbi13LTAgaXRlbXMtY2VudGVyIGdhcC00IG1kOnNocmluay0wIgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJwLTIuNSByb3VuZGVkLXhsIj4KICAgICAgICAgICAgICA8V2lmaSBjbGFzcz0iaC01IHctNSIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgICAgICAgPHAKICAgICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LVsxMHB4XSB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgZm9udC1zZW1pYm9sZCB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZGRucy5pcHY0QWRkcmVzcyIpIH19CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgIGNsYXNzPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgcm91bmRlZC1zbSB0ZXh0LWxlZnQgdGV4dC1zbSBmb250LW1vbm8gZm9udC1tZWRpdW0gdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6dGV4dC1wcmltYXJ5IGZvY3VzLXZpc2libGU6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0yIGZvY3VzLXZpc2libGU6cmluZy1yaW5nIGZvY3VzLXZpc2libGU6cmluZy1vZmZzZXQtMiBkaXNhYmxlZDpwb2ludGVyLWV2ZW50cy1ub25lIGRpc2FibGVkOnRleHQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iIWxhc3RJcC5pcHY0IgogICAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgICAgICAgICAgICBsYXN0SXAuaXB2NAogICAgICAgICAgICAgICAgICAgID8gdCgnYWRtaW4uZGRucy5jb3B5QWRkcmVzc0FyaWEnLCB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZlcnNpb246ICdJUHY0JywKICAgICAgICAgICAgICAgICAgICAgICAgYWRkcmVzczogbGFzdElwLmlwdjQsCiAgICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICAgIDogdCgnYWRtaW4uZGRucy5jb3B5VW5hdmFpbGFibGUnLCB7IHZlcnNpb246ICdJUHY0JyB9KQogICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgQGNsaWNrPSJjb3B5SXBBZGRyZXNzKCdJUHY0JywgbGFzdElwLmlwdjQpIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IGxhc3RJcC5pcHY0IHx8ICItLS0uLS0tLi0tLS4tLS0iIH19CiAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSJzaG93SXB2NlN0YXR1cyIKICAgICAgICAgICAgY2xhc3M9ImZsZXggbWluLXctMCBmbGV4LTEgaXRlbXMtY2VudGVyIGdhcC00IgogICAgICAgICAgICA6Y2xhc3M9InNob3dJcHY0U3RhdHVzID8gJ21kOmJvcmRlci1sIG1kOnBsLTYnIDogJyciCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InAtMi41IHJvdW5kZWQteGwgc2hyaW5rLTAiPgogICAgICAgICAgICAgIDxHbG9iZSBjbGFzcz0iaC01IHctNSIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAgZmxleC0xIHNwYWNlLXktMSBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgICAgICAgIDxwCiAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC1bMTBweF0gdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIGZvbnQtc2VtaWJvbGQgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmRkbnMuaXB2NkFkZHJlc3MiKSB9fQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICBjbGFzcz0iaW5saW5lLWZsZXggdy1mdWxsIG1pbi13LTAgaXRlbXMtY2VudGVyIHJvdW5kZWQtc20gdGV4dC1sZWZ0IHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOnRleHQtcHJpbWFyeSBmb2N1cy12aXNpYmxlOm91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMiBmb2N1cy12aXNpYmxlOnJpbmctcmluZyBmb2N1cy12aXNpYmxlOnJpbmctb2Zmc2V0LTIgZGlzYWJsZWQ6cG9pbnRlci1ldmVudHMtbm9uZSBkaXNhYmxlZDp0ZXh0LWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9IiFsYXN0SXAuaXB2NiIKICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSIKICAgICAgICAgICAgICAgICAgbGFzdElwLmlwdjYKICAgICAgICAgICAgICAgICAgICA/IHQoJ2FkbWluLmRkbnMuY29weUFkZHJlc3NBcmlhJywgewogICAgICAgICAgICAgICAgICAgICAgICB2ZXJzaW9uOiAnSVB2NicsCiAgICAgICAgICAgICAgICAgICAgICAgIGFkZHJlc3M6IGxhc3RJcC5pcHY2LAogICAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgICA6IHQoJ2FkbWluLmRkbnMuY29weVVuYXZhaWxhYmxlJywgeyB2ZXJzaW9uOiAnSVB2NicgfSkKICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgIEBjbGljaz0iY29weUlwQWRkcmVzcygnSVB2NicsIGxhc3RJcC5pcHY2KSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8T3ZlcmZsb3dUb29sdGlwVGV4dAogICAgICAgICAgICAgICAgICBhcz0ic3BhbiIKICAgICAgICAgICAgICAgICAgOnRleHQ9Imxhc3RJcC5pcHY2IHx8IHQoJ2FkbWluLmRkbnMuYWRkcmVzc05vdERldGVjdGVkJykiCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbW9ubyBmb250LW1lZGl1bSIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzPSJmbGV4IG1pbi13LTAgZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtNCB4bDptbC1hdXRvIHhsOm1pbi13LW1heCB4bDpmbGV4LW5vd3JhcCB4bDpib3JkZXItbCB4bDpwbC02IDJ4bDpnYXAtNSIKICAgICAgICA+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzPSJmbGV4IG1pbi13LVs3LjVyZW1dIGZsZXgtWzFfMV83LjVyZW1dIGl0ZW1zLWNlbnRlciBnYXAtNCBsZzpmbGV4LW5vbmUiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InAtMi41IHJvdW5kZWQteGwiPgogICAgICAgICAgICAgIDxDbG9jayBjbGFzcz0iaC01IHctNSIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgICAgICAgPHAKICAgICAgICAgICAgICAgIGNsYXNzPSJ3aGl0ZXNwYWNlLW5vd3JhcCB0ZXh0LVsxMHB4XSB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgZm9udC1zZW1pYm9sZCB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZGRucy5sYXN0Q2hlY2siKSB9fQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICA8SHVtYW5GcmllbmRseVRpbWUKICAgICAgICAgICAgICAgICAgOnZhbHVlPSJsYXN0Q2hlY2suY2hlY2tlZF9hdCIKICAgICAgICAgICAgICAgICAgOmVtcHR5LXRleHQ9InQoJ2FkbWluLmRkbnMubmV2ZXInKSIKICAgICAgICAgICAgICAgICAgOnRvb2x0aXAtbGluZXM9Imxhc3RDaGVja1Rvb2x0aXBMaW5lcyIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXYKICAgICAgICAgICAgY2xhc3M9ImZsZXggbWluLXctWzguNXJlbV0gZmxleC1bMV8xXzguNXJlbV0gaXRlbXMtY2VudGVyIGdhcC00IGxnOmZsZXgtbm9uZSIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdiBjbGFzcz0icC0yLjUgcm91bmRlZC14bCI+CiAgICAgICAgICAgICAgPFJvdXRlSWNvbiBjbGFzcz0iaC01IHctNSIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgICAgICAgPHAKICAgICAgICAgICAgICAgIGNsYXNzPSJ3aGl0ZXNwYWNlLW5vd3JhcCB0ZXh0LVsxMHB4XSB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgZm9udC1zZW1pYm9sZCB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZGRucy51cGRhdGVTY29wZUxhYmVsIikgfX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPHAgY2xhc3M9IndoaXRlc3BhY2Utbm93cmFwIHRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAge3sgY3VycmVudFVwZGF0ZVNjb3BlTGFiZWwgfX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzcz0iZmxleCBtaW4tdy1bOC41cmVtXSBmbGV4LVsxXzFfOC41cmVtXSBpdGVtcy1jZW50ZXIgZ2FwLTQgbGc6ZmxleC1ub25lIgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJwLTIuNSByb3VuZGVkLXhsIj4KICAgICAgICAgICAgICA8TmV0d29yayBjbGFzcz0iaC01IHctNSIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgICAgICAgPHAKICAgICAgICAgICAgICAgIGNsYXNzPSJ3aGl0ZXNwYWNlLW5vd3JhcCB0ZXh0LVsxMHB4XSB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgZm9udC1zZW1pYm9sZCB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZGRucy5pcFNvdXJjZUxhYmVsIikgfX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPHAgY2xhc3M9IndoaXRlc3BhY2Utbm93cmFwIHRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAge3sgY3VycmVudElwU291cmNlTGFiZWwgfX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzcz0iZmxleCBtaW4tdy1bOXJlbV0gZmxleC1bMV8xXzEwcmVtXSBpdGVtcy1jZW50ZXIgZ2FwLTQgbGc6ZmxleC1ub25lIgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJwLTIuNSByb3VuZGVkLXhsIj4KICAgICAgICAgICAgICA8Q2FibGUgY2xhc3M9ImgtNSB3LTUiIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIG1heC13LVsxODBweF0gc3BhY2UteS0xIj4KICAgICAgICAgICAgICA8cAogICAgICAgICAgICAgICAgY2xhc3M9IndoaXRlc3BhY2Utbm93cmFwIHRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciBmb250LXNlbWlib2xkIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLm91dGJvdW5kSW50ZXJmYWNlIikgfX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPE92ZXJmbG93VG9vbHRpcFRleHQKICAgICAgICAgICAgICAgIGFzPSJwIgogICAgICAgICAgICAgICAgOnRleHQ9ImN1cnJlbnROZXR3b3JrSW50ZXJmYWNlTGFiZWwiCiAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvQ2FyZENvbnRlbnQ+CiAgPC9DYXJkPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import {
+  Cable,
+  Clock,
+  Globe,
+  Network,
+  Route as RouteIcon,
+  Wifi,
+} from "lucide-vue-next";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import LiveStatusBadge from "@/components/LiveStatusBadge.vue";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import OverflowTooltipText from "@admin-shared/components/common/OverflowTooltipText.vue";
+import type { LastCheck, LastIP } from "./model";
+
+defineProps<{
+  copyIpAddress: (
+    label: "IPv4" | "IPv6",
+    value: string | null,
+  ) => void | Promise<void>;
+  currentIpSourceLabel: string;
+  currentNetworkInterfaceLabel: string;
+  currentUpdateScopeLabel: string;
+  enabled: boolean;
+  lastCheck: LastCheck;
+  lastCheckTooltipLines: string[];
+  lastIp: LastIP;
+  openUpdateIntervalDialog: () => void;
+  showIpv4Status: boolean;
+  showIpv6Status: boolean;
+  updateIntervalLabel: string;
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <Card class="overflow-hidden py-5 mb-6">
+    <CardHeader>
+      <div class="flex items-center justify-between">
+        <CardTitle class="text-base font-medium flex items-center gap-2">
+          {{ t("admin.ddns.statusTitle") }}
+          <LiveStatusBadge
+            :active="enabled"
+            :active-label="t('admin.ddns.activeLabel')"
+            :inactive-label="t('admin.ddns.pausedLabel')"
+            class="mt-px"
+          />
+        </CardTitle>
+
+        <button
+          v-if="enabled"
+          type="button"
+          class="inline-flex items-center gap-1.5 rounded-md bg-muted/50 px-2 py-1 text-xs text-muted-foreground transition-colors hover:bg-muted hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+          :aria-label="
+            t('admin.ddns.setIntervalAria', { label: updateIntervalLabel })
+          "
+          @click="openUpdateIntervalDialog"
+        >
+          <Clock class="h-3.5 w-3.5" />
+          <span>{{ updateIntervalLabel }}</span>
+        </button>
+      </div>
+    </CardHeader>
+
+    <CardContent>
+      <div
+        class="grid gap-4 xl:grid-cols-[minmax(10rem,1fr)_auto] xl:items-center xl:gap-6"
+      >
+        <div
+          class="flex min-w-0 flex-col gap-4 md:min-w-[min(100%,10rem)] md:flex-row md:items-center md:gap-6"
+        >
+          <div
+            v-if="showIpv4Status"
+            class="flex min-w-0 items-center gap-4 md:shrink-0"
+          >
+            <div class="p-2.5 rounded-xl">
+              <Wifi class="h-5 w-5" />
+            </div>
+            <div class="space-y-1">
+              <p
+                class="text-[10px] uppercase tracking-wider font-semibold text-muted-foreground"
+              >
+                {{ t("admin.ddns.ipv4Address") }}
+              </p>
+              <button
+                type="button"
+                class="inline-flex items-center rounded-sm text-left text-sm font-mono font-medium transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:text-foreground"
+                :disabled="!lastIp.ipv4"
+                :aria-label="
+                  lastIp.ipv4
+                    ? t('admin.ddns.copyAddressAria', {
+                        version: 'IPv4',
+                        address: lastIp.ipv4,
+                      })
+                    : t('admin.ddns.copyUnavailable', { version: 'IPv4' })
+                "
+                @click="copyIpAddress('IPv4', lastIp.ipv4)"
+              >
+                {{ lastIp.ipv4 || "---.---.---.---" }}
+              </button>
+            </div>
+          </div>
+
+          <div
+            v-if="showIpv6Status"
+            class="flex min-w-0 flex-1 items-center gap-4"
+            :class="showIpv4Status ? 'md:border-l md:pl-6' : ''"
+          >
+            <div class="p-2.5 rounded-xl shrink-0">
+              <Globe class="h-5 w-5" />
+            </div>
+            <div class="min-w-0 flex-1 space-y-1 overflow-hidden">
+              <p
+                class="text-[10px] uppercase tracking-wider font-semibold text-muted-foreground"
+              >
+                {{ t("admin.ddns.ipv6Address") }}
+              </p>
+              <button
+                type="button"
+                class="inline-flex w-full min-w-0 items-center rounded-sm text-left transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:text-foreground"
+                :disabled="!lastIp.ipv6"
+                :aria-label="
+                  lastIp.ipv6
+                    ? t('admin.ddns.copyAddressAria', {
+                        version: 'IPv6',
+                        address: lastIp.ipv6,
+                      })
+                    : t('admin.ddns.copyUnavailable', { version: 'IPv6' })
+                "
+                @click="copyIpAddress('IPv6', lastIp.ipv6)"
+              >
+                <OverflowTooltipText
+                  as="span"
+                  :text="lastIp.ipv6 || t('admin.ddns.addressNotDetected')"
+                  class="text-sm font-mono font-medium"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex min-w-0 flex-wrap items-center gap-4 xl:ml-auto xl:min-w-max xl:flex-nowrap xl:border-l xl:pl-6 2xl:gap-5"
+        >
+          <div
+            class="flex min-w-[7.5rem] flex-[1_1_7.5rem] items-center gap-4 lg:flex-none"
+          >
+            <div class="p-2.5 rounded-xl">
+              <Clock class="h-5 w-5" />
+            </div>
+            <div class="space-y-1">
+              <p
+                class="whitespace-nowrap text-[10px] uppercase tracking-wider font-semibold text-muted-foreground"
+              >
+                {{ t("admin.ddns.lastCheck") }}
+              </p>
+              <p class="text-sm font-medium">
+                <HumanFriendlyTime
+                  :value="lastCheck.checked_at"
+                  :empty-text="t('admin.ddns.never')"
+                  :tooltip-lines="lastCheckTooltipLines"
+                />
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="flex min-w-[8.5rem] flex-[1_1_8.5rem] items-center gap-4 lg:flex-none"
+          >
+            <div class="p-2.5 rounded-xl">
+              <RouteIcon class="h-5 w-5" />
+            </div>
+            <div class="space-y-1">
+              <p
+                class="whitespace-nowrap text-[10px] uppercase tracking-wider font-semibold text-muted-foreground"
+              >
+                {{ t("admin.ddns.updateScopeLabel") }}
+              </p>
+              <p class="whitespace-nowrap text-sm font-medium">
+                {{ currentUpdateScopeLabel }}
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="flex min-w-[8.5rem] flex-[1_1_8.5rem] items-center gap-4 lg:flex-none"
+          >
+            <div class="p-2.5 rounded-xl">
+              <Network class="h-5 w-5" />
+            </div>
+            <div class="space-y-1">
+              <p
+                class="whitespace-nowrap text-[10px] uppercase tracking-wider font-semibold text-muted-foreground"
+              >
+                {{ t("admin.ddns.ipSourceLabel") }}
+              </p>
+              <p class="whitespace-nowrap text-sm font-medium">
+                {{ currentIpSourceLabel }}
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="flex min-w-[9rem] flex-[1_1_10rem] items-center gap-4 lg:flex-none"
+          >
+            <div class="p-2.5 rounded-xl">
+              <Cable class="h-5 w-5" />
+            </div>
+            <div class="min-w-0 max-w-[180px] space-y-1">
+              <p
+                class="whitespace-nowrap text-[10px] uppercase tracking-wider font-semibold text-muted-foreground"
+              >
+                {{ t("admin.ddns.outboundInterface") }}
+              </p>
+              <OverflowTooltipText
+                as="p"
+                :text="currentNetworkInterfaceLabel"
+                class="text-sm font-medium"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</template>

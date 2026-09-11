@@ -1,1 +1,92 @@
-ZXhwb3J0IHR5cGUgU2Vzc2lvbkR1cmF0aW9uVW5pdCA9CiAgfCAic2Vjb25kIgogIHwgIm1pbnV0ZSIKICB8ICJob3VyIgogIHwgImRheSIKICB8ICJ3ZWVrIgogIHwgIm1vbnRoIgogIHwgInllYXIiOwoKZXhwb3J0IHR5cGUgU2Vzc2lvbkR1cmF0aW9uRmllbGQgPSB7CiAgdmFsdWU6IG51bWJlcjsKICB1bml0OiBTZXNzaW9uRHVyYXRpb25Vbml0Owp9OwoKZXhwb3J0IHR5cGUgU2Vzc2lvbkR1cmF0aW9uVW5pdE9wdGlvbiA9IHsKICB2YWx1ZTogU2Vzc2lvbkR1cmF0aW9uVW5pdDsKICBsYWJlbEtleTogc3RyaW5nOwogIHNlY29uZHM6IG51bWJlcjsKfTsKCmV4cG9ydCBjb25zdCBkdXJhdGlvblVuaXRzOiBTZXNzaW9uRHVyYXRpb25Vbml0T3B0aW9uW10gPSBbCiAgewogICAgdmFsdWU6ICJzZWNvbmQiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5zZXNzaW9uU2V0dGluZ3MudW5pdHMuc2Vjb25kIiwKICAgIHNlY29uZHM6IDEsCiAgfSwKICB7CiAgICB2YWx1ZTogIm1pbnV0ZSIsCiAgICBsYWJlbEtleTogImFkbWluLnNlc3Npb25TZXR0aW5ncy51bml0cy5taW51dGUiLAogICAgc2Vjb25kczogNjAsCiAgfSwKICB7CiAgICB2YWx1ZTogImhvdXIiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5zZXNzaW9uU2V0dGluZ3MudW5pdHMuaG91ciIsCiAgICBzZWNvbmRzOiAzNjAwLAogIH0sCiAgewogICAgdmFsdWU6ICJkYXkiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5zZXNzaW9uU2V0dGluZ3MudW5pdHMuZGF5IiwKICAgIHNlY29uZHM6IDI0ICogMzYwMCwKICB9LAogIHsKICAgIHZhbHVlOiAid2VlayIsCiAgICBsYWJlbEtleTogImFkbWluLnNlc3Npb25TZXR0aW5ncy51bml0cy53ZWVrIiwKICAgIHNlY29uZHM6IDcgKiAyNCAqIDM2MDAsCiAgfSwKICB7CiAgICB2YWx1ZTogIm1vbnRoIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uc2Vzc2lvblNldHRpbmdzLnVuaXRzLm1vbnRoIiwKICAgIHNlY29uZHM6IDMwICogMjQgKiAzNjAwLAogIH0sCiAgewogICAgdmFsdWU6ICJ5ZWFyIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uc2Vzc2lvblNldHRpbmdzLnVuaXRzLnllYXIiLAogICAgc2Vjb25kczogMzY1ICogMjQgKiAzNjAwLAogIH0sCl07CgpleHBvcnQgY29uc3QgaXBHcmFudER1cmF0aW9uVW5pdHMgPSBkdXJhdGlvblVuaXRzLmZpbHRlcigKICAodW5pdCkgPT4KICAgIHVuaXQudmFsdWUgPT09ICJzZWNvbmQiIHx8IHVuaXQudmFsdWUgPT09ICJtaW51dGUiIHx8IHVuaXQudmFsdWUgPT09ICJob3VyIiwKKTsKCmV4cG9ydCBjb25zdCBtb2JpbGl0eVdpbmRvd0R1cmF0aW9uVW5pdHMgPSBkdXJhdGlvblVuaXRzLmZpbHRlcigKICAodW5pdCkgPT4gdW5pdC52YWx1ZSA9PT0gIm1pbnV0ZSIgfHwgdW5pdC52YWx1ZSA9PT0gImhvdXIiLAopOwoKY29uc3QgZHVyYXRpb25Vbml0TWFwID0gT2JqZWN0LmZyb21FbnRyaWVzKAogIGR1cmF0aW9uVW5pdHMubWFwKChpdGVtKSA9PiBbaXRlbS52YWx1ZSwgaXRlbS5zZWNvbmRzXSksCikgYXMgUmVjb3JkPFNlc3Npb25EdXJhdGlvblVuaXQsIG51bWJlcj47Cgpjb25zdCBjbGFtcER1cmF0aW9uVmFsdWUgPSAodmFsdWU6IHVua25vd24pID0+CiAgTWF0aC5tYXgoMSwgTWF0aC5mbG9vcihOdW1iZXIodmFsdWUpIHx8IDApKTsKCmV4cG9ydCBjb25zdCB0b0R1cmF0aW9uU2Vjb25kcyA9IChmaWVsZDogU2Vzc2lvbkR1cmF0aW9uRmllbGQpOiBudW1iZXIgPT4KICBjbGFtcER1cmF0aW9uVmFsdWUoZmllbGQudmFsdWUpICogZHVyYXRpb25Vbml0TWFwW2ZpZWxkLnVuaXRdOwoKZXhwb3J0IGNvbnN0IHNwbGl0RHVyYXRpb24gPSAoCiAgc2Vjb25kczogbnVtYmVyLAogIHVuaXRzID0gZHVyYXRpb25Vbml0cywKKTogU2Vzc2lvbkR1cmF0aW9uRmllbGQgPT4gewogIGNvbnN0IHNhZmVTZWNvbmRzID0gTWF0aC5tYXgoMSwgTWF0aC5mbG9vcihOdW1iZXIoc2Vjb25kcykgfHwgMSkpOwogIGNvbnN0IG1hdGNoZWRVbml0ID0KICAgIFsuLi51bml0c10ucmV2ZXJzZSgpLmZpbmQoKHVuaXQpID0+IHNhZmVTZWNvbmRzICUgdW5pdC5zZWNvbmRzID09PSAwKSA/PwogICAgdW5pdHNbMF0gPz8KICAgIGR1cmF0aW9uVW5pdHNbMF0hOwoKICByZXR1cm4gewogICAgdmFsdWU6IE1hdGgubWF4KDEsIHNhZmVTZWNvbmRzIC8gbWF0Y2hlZFVuaXQuc2Vjb25kcyksCiAgICB1bml0OiBtYXRjaGVkVW5pdC52YWx1ZSwKICB9Owp9Owo=
+export type SessionDurationUnit =
+  | "second"
+  | "minute"
+  | "hour"
+  | "day"
+  | "week"
+  | "month"
+  | "year";
+
+export type SessionDurationField = {
+  value: number;
+  unit: SessionDurationUnit;
+};
+
+export type SessionDurationUnitOption = {
+  value: SessionDurationUnit;
+  labelKey: string;
+  seconds: number;
+};
+
+export const durationUnits: SessionDurationUnitOption[] = [
+  {
+    value: "second",
+    labelKey: "admin.sessionSettings.units.second",
+    seconds: 1,
+  },
+  {
+    value: "minute",
+    labelKey: "admin.sessionSettings.units.minute",
+    seconds: 60,
+  },
+  {
+    value: "hour",
+    labelKey: "admin.sessionSettings.units.hour",
+    seconds: 3600,
+  },
+  {
+    value: "day",
+    labelKey: "admin.sessionSettings.units.day",
+    seconds: 24 * 3600,
+  },
+  {
+    value: "week",
+    labelKey: "admin.sessionSettings.units.week",
+    seconds: 7 * 24 * 3600,
+  },
+  {
+    value: "month",
+    labelKey: "admin.sessionSettings.units.month",
+    seconds: 30 * 24 * 3600,
+  },
+  {
+    value: "year",
+    labelKey: "admin.sessionSettings.units.year",
+    seconds: 365 * 24 * 3600,
+  },
+];
+
+export const ipGrantDurationUnits = durationUnits.filter(
+  (unit) =>
+    unit.value === "second" || unit.value === "minute" || unit.value === "hour",
+);
+
+export const mobilityWindowDurationUnits = durationUnits.filter(
+  (unit) => unit.value === "minute" || unit.value === "hour",
+);
+
+const durationUnitMap = Object.fromEntries(
+  durationUnits.map((item) => [item.value, item.seconds]),
+) as Record<SessionDurationUnit, number>;
+
+const clampDurationValue = (value: unknown) =>
+  Math.max(1, Math.floor(Number(value) || 0));
+
+export const toDurationSeconds = (field: SessionDurationField): number =>
+  clampDurationValue(field.value) * durationUnitMap[field.unit];
+
+export const splitDuration = (
+  seconds: number,
+  units = durationUnits,
+): SessionDurationField => {
+  const safeSeconds = Math.max(1, Math.floor(Number(seconds) || 1));
+  const matchedUnit =
+    [...units].reverse().find((unit) => safeSeconds % unit.seconds === 0) ??
+    units[0] ??
+    durationUnits[0]!;
+
+  return {
+    value: Math.max(1, safeSeconds / matchedUnit.seconds),
+    unit: matchedUnit.value,
+  };
+};

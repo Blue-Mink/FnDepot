@@ -1,1 +1,44 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IGNvbnRyYWN0ID0gSlNPTi5wYXJzZSgKICByZWFkRmlsZVN5bmMoCiAgICBuZXcgVVJMKCIuLi8uLi8uLi9wYWNrYWdlcy9hcGktY29udHJhY3Qvb3BlbmFwaS5qc29uIiwgaW1wb3J0Lm1ldGEudXJsKSwKICAgICJ1dGY4IiwKICApLAopIGFzIHsKICBwYXRoczogUmVjb3JkPHN0cmluZywgUmVjb3JkPHN0cmluZywgewogICAgIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIj86IHN0cmluZzsKICAgIHBhcmFtZXRlcnM/OiBBcnJheTx7IG5hbWU/OiBzdHJpbmc7IHNjaGVtYT86IHsgZm9ybWF0Pzogc3RyaW5nOyBlbnVtPzogc3RyaW5nW107IHBhdHRlcm4/OiBzdHJpbmcgfSB9PjsKICAgIHJlcXVlc3RCb2R5PzogeyBjb250ZW50PzogUmVjb3JkPHN0cmluZywgeyBzY2hlbWE/OiB7ICRyZWY/OiBzdHJpbmcgfSB9PiB9OwogIH0+PjsKfTsKCmRlc2NyaWJlKCJnYXRld2F5IGxvZ3MgQVBJIGNvbnRyYWN0IiwgKCkgPT4gewogIGl0KCJiaW5kcyBldmVyeSBnYXRld2F5LWxvZyBvcGVyYXRpb24gdG8gYW4gYWN0dWFsIHR5cGVkIHJvdXRlIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBbbWV0aG9kLCBwYXRoXSBvZiBbCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vZ2F0ZXdheS1sb2dzL2NvbmZpZyJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9nYXRld2F5LWxvZ3MvY29uZmlnIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vZ2F0ZXdheS1sb2dzL2RpcmVjdG9yeSJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL2dhdGV3YXktbG9ncy9kYXRlcyJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL2dhdGV3YXktbG9ncy9lbnRyaWVzIl0sCiAgICAgIFsiZGVsZXRlIiwgIi9hcGkvYWRtaW4vZ2F0ZXdheS1sb2dzL2VudHJpZXMiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9nYXRld2F5LWxvZ3MvYW5hbHl0aWNzIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2dhdGV3YXktbG9ncy9hbmFseXRpY3MiXSwKICAgIF0gYXMgY29uc3QpIHsKICAgICAgYXNzZXJ0LmVxdWFsKGNvbnRyYWN0LnBhdGhzW3BhdGhdPy5bbWV0aG9kXT8uWyJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSJdLCAidXRvaXBhIik7CiAgICB9CiAgfSk7CgogIGl0KCJyZXRhaW5zIGZpbHRlcmluZyBhbmQgZGVsZXRpb24gY29tcGF0aWJpbGl0eSIsICgpID0+IHsKICAgIGNvbnN0IGVudHJpZXMgPSBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9nYXRld2F5LWxvZ3MvZW50cmllcyJdLmdldDsKICAgIGFzc2VydC5lcXVhbChlbnRyaWVzLnBhcmFtZXRlcnM/LmZpbmQoKHBhcmFtZXRlcikgPT4gcGFyYW1ldGVyLm5hbWUgPT09ICJkYXRlIik/LnNjaGVtYT8uZm9ybWF0LCAiZGF0ZSIpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChlbnRyaWVzLnBhcmFtZXRlcnM/LmZpbmQoKHBhcmFtZXRlcikgPT4gcGFyYW1ldGVyLm5hbWUgPT09ICJ3YWZfc3RhdHVzIik/LnNjaGVtYT8uZW51bSwgWyJoYXNfd2FmIiwgIm5vbmUiXSk7CiAgICBhc3NlcnQuZXF1YWwoZW50cmllcy5wYXJhbWV0ZXJzPy5maW5kKChwYXJhbWV0ZXIpID0+IHBhcmFtZXRlci5uYW1lID09PSAibGltaXQiKT8uc2NoZW1hPy5wYXR0ZXJuLCAiXlsxLTldWzAtOV0qJCIpOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9nYXRld2F5LWxvZ3MvZW50cmllcyJdLmRlbGV0ZS5yZXF1ZXN0Qm9keT8uY29udGVudD8uWyJhcHBsaWNhdGlvbi9qc29uIl0/LnNjaGVtYT8uJHJlZiwKICAgICAgIiMvY29tcG9uZW50cy9zY2hlbWFzL0dhdGV3YXlMb2dEZWxldGVCb2R5RGF0YSIsCiAgICApOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const contract = JSON.parse(
+  readFileSync(
+    new URL("../../../packages/api-contract/openapi.json", import.meta.url),
+    "utf8",
+  ),
+) as {
+  paths: Record<string, Record<string, {
+    "x-fn-knock-contract-source"?: string;
+    parameters?: Array<{ name?: string; schema?: { format?: string; enum?: string[]; pattern?: string } }>;
+    requestBody?: { content?: Record<string, { schema?: { $ref?: string } }> };
+  }>>;
+};
+
+describe("gateway logs API contract", () => {
+  it("binds every gateway-log operation to an actual typed route", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/gateway-logs/config"],
+      ["post", "/api/admin/gateway-logs/config"],
+      ["get", "/api/admin/gateway-logs/directory"],
+      ["get", "/api/admin/gateway-logs/dates"],
+      ["get", "/api/admin/gateway-logs/entries"],
+      ["delete", "/api/admin/gateway-logs/entries"],
+      ["get", "/api/admin/gateway-logs/analytics"],
+      ["post", "/api/admin/gateway-logs/analytics"],
+    ] as const) {
+      assert.equal(contract.paths[path]?.[method]?.["x-fn-knock-contract-source"], "utoipa");
+    }
+  });
+
+  it("retains filtering and deletion compatibility", () => {
+    const entries = contract.paths["/api/admin/gateway-logs/entries"].get;
+    assert.equal(entries.parameters?.find((parameter) => parameter.name === "date")?.schema?.format, "date");
+    assert.deepEqual(entries.parameters?.find((parameter) => parameter.name === "waf_status")?.schema?.enum, ["has_waf", "none"]);
+    assert.equal(entries.parameters?.find((parameter) => parameter.name === "limit")?.schema?.pattern, "^[1-9][0-9]*$");
+    assert.equal(
+      contract.paths["/api/admin/gateway-logs/entries"].delete.requestBody?.content?.["application/json"]?.schema?.$ref,
+      "#/components/schemas/GatewayLogDeleteBodyData",
+    );
+  });
+});

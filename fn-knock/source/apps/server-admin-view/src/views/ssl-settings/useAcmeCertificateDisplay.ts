@@ -1,1 +1,127 @@
-aW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdHlwZSBBY21lQXBwbGljYXRpb25PdmVydmlld0l0ZW0gfSBmcm9tICJAL2xpYi9hcGkvYWNtZSI7Cgp0eXBlIENlcnRpZmljYXRlU3RhdHVzS2V5ID0KICAibm9uZSIgfCAiaW52YWxpZCIgfCAiZXhwaXJlZCIgfCAiZXhwaXJpbmciIHwgInZhbGlkIjsKCnR5cGUgVXNlQWNtZUNlcnRpZmljYXRlRGlzcGxheU9wdGlvbnMgPSB7CiAgaXNDb25maWd1cmF0aW9uRWRpdEJsb2NrZWQ6ICgpID0+IGJvb2xlYW47Cn07CgpleHBvcnQgZnVuY3Rpb24gdXNlQWNtZUNlcnRpZmljYXRlRGlzcGxheSh7CiAgaXNDb25maWd1cmF0aW9uRWRpdEJsb2NrZWQsCn06IFVzZUFjbWVDZXJ0aWZpY2F0ZURpc3BsYXlPcHRpb25zKSB7CiAgY29uc3QgeyBsb2NhbGUsIHQgfSA9IHVzZUkxOG4oKTsKCiAgY29uc3QgcHJpbWFyeUFjdGlvbkxhYmVsID0gKGFwcGxpY2F0aW9uOiBBY21lQXBwbGljYXRpb25PdmVydmlld0l0ZW0pID0+IHsKICAgIHJldHVybiBhcHBsaWNhdGlvbi5jZXJ0aWZpY2F0ZT8uZXhpc3RzCiAgICAgID8gdCgiYWRtaW4uYWNtZUNlcnQucmVhcHBseSIpCiAgICAgIDogdCgiYWRtaW4uYWNtZUNlcnQuYXBwbHkiKTsKICB9OwoKICBjb25zdCBpc1NlY29uZGFyeUFjdGlvbkRpc2FibGVkID0gKAogICAgYXBwbGljYXRpb246IEFjbWVBcHBsaWNhdGlvbk92ZXJ2aWV3SXRlbSwKICApID0+IHsKICAgIHJldHVybiBpc0NvbmZpZ3VyYXRpb25FZGl0QmxvY2tlZCgpICYmICFhcHBsaWNhdGlvbi5sYXRlc3RKb2I/LmlkOwogIH07CgogIGNvbnN0IGNlcnRpZmljYXRlU3RhdHVzS2V5ID0gKAogICAgYXBwbGljYXRpb246IEFjbWVBcHBsaWNhdGlvbk92ZXJ2aWV3SXRlbSwKICApOiBDZXJ0aWZpY2F0ZVN0YXR1c0tleSA9PiB7CiAgICBpZiAoIWFwcGxpY2F0aW9uLmNlcnRpZmljYXRlPy5leGlzdHMpIHJldHVybiAibm9uZSI7CiAgICBjb25zdCB2YWxpZFRvID0gRGF0ZS5wYXJzZShhcHBsaWNhdGlvbi5jZXJ0aWZpY2F0ZS52YWxpZFRvIHx8ICIiKTsKICAgIGlmICghTnVtYmVyLmlzRmluaXRlKHZhbGlkVG8pKSByZXR1cm4gImludmFsaWQiOwogICAgaWYgKHZhbGlkVG8gPD0gRGF0ZS5ub3coKSkgcmV0dXJuICJleHBpcmVkIjsKICAgIGlmICh2YWxpZFRvIC0gRGF0ZS5ub3coKSA8PSAzMCAqIDI0ICogNjAgKiA2MCAqIDEwMDApIHJldHVybiAiZXhwaXJpbmciOwogICAgcmV0dXJuICJ2YWxpZCI7CiAgfTsKCiAgY29uc3QgY2VydGlmaWNhdGVTdGF0dXNMYWJlbCA9IChhcHBsaWNhdGlvbjogQWNtZUFwcGxpY2F0aW9uT3ZlcnZpZXdJdGVtKSA9PiB7CiAgICBjb25zdCBrZXkgPSBjZXJ0aWZpY2F0ZVN0YXR1c0tleShhcHBsaWNhdGlvbik7CiAgICByZXR1cm4gdChgYWRtaW4uYWNtZUNlcnQuY2VydGlmaWNhdGVTdGF0dXMuJHtrZXl9YCk7CiAgfTsKCiAgY29uc3QgY2VydGlmaWNhdGVCYWRnZVZhcmlhbnQgPSAoCiAgICBhcHBsaWNhdGlvbjogQWNtZUFwcGxpY2F0aW9uT3ZlcnZpZXdJdGVtLAogICkgPT4gewogICAgY29uc3Qga2V5ID0gY2VydGlmaWNhdGVTdGF0dXNLZXkoYXBwbGljYXRpb24pOwogICAgaWYgKGtleSA9PT0gIm5vbmUiKSByZXR1cm4gIm91dGxpbmUiOwogICAgaWYgKGtleSA9PT0gInZhbGlkIikgcmV0dXJuICJzZWNvbmRhcnkiOwogICAgcmV0dXJuICJkZXN0cnVjdGl2ZSI7CiAgfTsKCiAgY29uc3QgZm9ybWF0Q2VydGlmaWNhdGVSYW5nZSA9IChhcHBsaWNhdGlvbjogQWNtZUFwcGxpY2F0aW9uT3ZlcnZpZXdJdGVtKSA9PiB7CiAgICBpZiAoIWFwcGxpY2F0aW9uLmNlcnRpZmljYXRlPy5leGlzdHMpIHJldHVybiB0KCJhZG1pbi5hY21lQ2VydC5ub3RJc3N1ZWQiKTsKICAgIGNvbnN0IHZhbGlkRnJvbSA9IGFwcGxpY2F0aW9uLmNlcnRpZmljYXRlLnZhbGlkRnJvbSB8fCAiIjsKICAgIGNvbnN0IHZhbGlkVG8gPSBhcHBsaWNhdGlvbi5jZXJ0aWZpY2F0ZS52YWxpZFRvIHx8ICIiOwogICAgaWYgKCF2YWxpZEZyb20gfHwgIXZhbGlkVG8pIHsKICAgICAgcmV0dXJuIHQoImFkbWluLmFjbWVDZXJ0LmNlcnRpZmljYXRlSW5mb0ludmFsaWQiKTsKICAgIH0KICAgIHJldHVybiBgJHtmb3JtYXREYXRlKHZhbGlkRnJvbSl9IH4gJHtmb3JtYXREYXRlKHZhbGlkVG8pfWA7CiAgfTsKCiAgY29uc3QgbGF0ZXN0Sm9iTGFiZWwgPSAoYXBwbGljYXRpb246IEFjbWVBcHBsaWNhdGlvbk92ZXJ2aWV3SXRlbSkgPT4gewogICAgY29uc3Qgc3RhdHVzID0gYXBwbGljYXRpb24ubGF0ZXN0Sm9iPy5zdGF0dXM7CiAgICBpZiAoIXN0YXR1cyB8fCBzdGF0dXMgPT09ICJpZGxlIikgcmV0dXJuIHQoImFkbWluLmFjbWVDZXJ0LmpvYlN0YXR1cy5pZGxlIik7CiAgICBpZiAoc3RhdHVzID09PSAicXVldWVkIikgcmV0dXJuIHQoImFkbWluLmFjbWVDZXJ0LmpvYlN0YXR1cy5xdWV1ZWQiKTsKICAgIGlmIChzdGF0dXMgPT09ICJydW5uaW5nIikgcmV0dXJuIHQoImFkbWluLmFjbWVDZXJ0LmpvYlN0YXR1cy5ydW5uaW5nIik7CiAgICBpZiAoc3RhdHVzID09PSAic3VjY2VlZGVkIikgcmV0dXJuIHQoImFkbWluLmFjbWVDZXJ0LmpvYlN0YXR1cy5zdWNjZWVkZWQiKTsKICAgIGlmIChzdGF0dXMgPT09ICJmYWlsZWQiKSByZXR1cm4gdCgiYWRtaW4uYWNtZUNlcnQuam9iU3RhdHVzLmZhaWxlZCIpOwogICAgaWYgKHN0YXR1cyA9PT0gInN0b3BwZWQiKSByZXR1cm4gdCgiYWRtaW4uYWNtZUNlcnQuam9iU3RhdHVzLnN0b3BwZWQiKTsKICAgIHJldHVybiBzdGF0dXM7CiAgfTsKCiAgY29uc3Qgam9iQmFkZ2VWYXJpYW50ID0gKHN0YXR1cz86IHN0cmluZyB8IG51bGwpID0+IHsKICAgIGlmICghc3RhdHVzIHx8IHN0YXR1cyA9PT0gImlkbGUiKSByZXR1cm4gIm91dGxpbmUiOwogICAgaWYgKHN0YXR1cyA9PT0gInF1ZXVlZCIpIHJldHVybiAib3V0bGluZSI7CiAgICBpZiAoc3RhdHVzID09PSAicnVubmluZyIpIHJldHVybiAiZGVmYXVsdCI7CiAgICBpZiAoc3RhdHVzID09PSAic3VjY2VlZGVkIikgcmV0dXJuICJzZWNvbmRhcnkiOwogICAgaWYgKHN0YXR1cyA9PT0gImZhaWxlZCIpIHJldHVybiAib3V0bGluZSI7CiAgICBpZiAoc3RhdHVzID09PSAic3RvcHBlZCIpIHJldHVybiAib3V0bGluZSI7CiAgICByZXR1cm4gIm91dGxpbmUiOwogIH07CgogIGNvbnN0IGxpYnJhcnlTdGF0dXNMYWJlbCA9IChhcHBsaWNhdGlvbjogQWNtZUFwcGxpY2F0aW9uT3ZlcnZpZXdJdGVtKSA9PiB7CiAgICBpZiAoYXBwbGljYXRpb24ubGlicmFyeT8uaXNBY3RpdmUpCiAgICAgIHJldHVybiB0KCJhZG1pbi5hY21lQ2VydC5saWJyYXJ5LmFjdGl2ZSIpOwogICAgaWYgKGFwcGxpY2F0aW9uLmxpYnJhcnk/LmxpbmtlZCkgcmV0dXJuIHQoImFkbWluLmFjbWVDZXJ0LmxpYnJhcnkubGlua2VkIik7CiAgICByZXR1cm4gdCgiYWRtaW4uYWNtZUNlcnQubGlicmFyeS51bmxpbmtlZCIpOwogIH07CgogIGNvbnN0IGxpYnJhcnlCYWRnZVZhcmlhbnQgPSAoYXBwbGljYXRpb246IEFjbWVBcHBsaWNhdGlvbk92ZXJ2aWV3SXRlbSkgPT4gewogICAgaWYgKGFwcGxpY2F0aW9uLmxpYnJhcnk/LmlzQWN0aXZlKSByZXR1cm4gImRlZmF1bHQiOwogICAgaWYgKGFwcGxpY2F0aW9uLmxpYnJhcnk/LmxpbmtlZCkgcmV0dXJuICJzZWNvbmRhcnkiOwogICAgcmV0dXJuICJvdXRsaW5lIjsKICB9OwoKICBjb25zdCBkZWxldGVBcHBsaWNhdGlvbkRlc2NyaXB0aW9uID0gKAogICAgYXBwbGljYXRpb246IEFjbWVBcHBsaWNhdGlvbk92ZXJ2aWV3SXRlbSwKICApID0+IHsKICAgIGNvbnN0IHRhcmdldCA9IGFwcGxpY2F0aW9uLm5hbWUgfHwgYXBwbGljYXRpb24ucHJpbWFyeURvbWFpbjsKICAgIGlmIChhcHBsaWNhdGlvbi5jZXJ0aWZpY2F0ZT8uZXhpc3RzIHx8IGFwcGxpY2F0aW9uLmxpYnJhcnk/LmxpbmtlZCkgewogICAgICByZXR1cm4gdCgiYWRtaW4uYWNtZUNlcnQuZGVsZXRlQXBwbGljYXRpb25XaXRoQ2VydGlmaWNhdGVEZXNjcmlwdGlvbiIsIHsKICAgICAgICB0YXJnZXQsCiAgICAgIH0pOwogICAgfQogICAgcmV0dXJuIHQoImFkbWluLmFjbWVDZXJ0LmRlbGV0ZUFwcGxpY2F0aW9uRGVzY3JpcHRpb24iLCB7IHRhcmdldCB9KTsKICB9OwoKICBjb25zdCBmb3JtYXREYXRlID0gKHZhbHVlOiBzdHJpbmcpID0+IHsKICAgIGNvbnN0IGRhdGUgPSBuZXcgRGF0ZSh2YWx1ZSk7CiAgICBpZiAoTnVtYmVyLmlzTmFOKGRhdGUuZ2V0VGltZSgpKSkgcmV0dXJuIHZhbHVlOwogICAgcmV0dXJuIGRhdGUudG9Mb2NhbGVTdHJpbmcobG9jYWxlLnZhbHVlKTsKICB9OwoKICByZXR1cm4gewogICAgY2VydGlmaWNhdGVCYWRnZVZhcmlhbnQsCiAgICBjZXJ0aWZpY2F0ZVN0YXR1c0xhYmVsLAogICAgZGVsZXRlQXBwbGljYXRpb25EZXNjcmlwdGlvbiwKICAgIGZvcm1hdENlcnRpZmljYXRlUmFuZ2UsCiAgICBqb2JCYWRnZVZhcmlhbnQsCiAgICBsYXRlc3RKb2JMYWJlbCwKICAgIGxpYnJhcnlCYWRnZVZhcmlhbnQsCiAgICBsaWJyYXJ5U3RhdHVzTGFiZWwsCiAgICBwcmltYXJ5QWN0aW9uTGFiZWwsCiAgICBpc1NlY29uZGFyeUFjdGlvbkRpc2FibGVkLAogIH07Cn0K
+import { useI18n } from "vue-i18n";
+import { type AcmeApplicationOverviewItem } from "@/lib/api/acme";
+
+type CertificateStatusKey =
+  "none" | "invalid" | "expired" | "expiring" | "valid";
+
+type UseAcmeCertificateDisplayOptions = {
+  isConfigurationEditBlocked: () => boolean;
+};
+
+export function useAcmeCertificateDisplay({
+  isConfigurationEditBlocked,
+}: UseAcmeCertificateDisplayOptions) {
+  const { locale, t } = useI18n();
+
+  const primaryActionLabel = (application: AcmeApplicationOverviewItem) => {
+    return application.certificate?.exists
+      ? t("admin.acmeCert.reapply")
+      : t("admin.acmeCert.apply");
+  };
+
+  const isSecondaryActionDisabled = (
+    application: AcmeApplicationOverviewItem,
+  ) => {
+    return isConfigurationEditBlocked() && !application.latestJob?.id;
+  };
+
+  const certificateStatusKey = (
+    application: AcmeApplicationOverviewItem,
+  ): CertificateStatusKey => {
+    if (!application.certificate?.exists) return "none";
+    const validTo = Date.parse(application.certificate.validTo || "");
+    if (!Number.isFinite(validTo)) return "invalid";
+    if (validTo <= Date.now()) return "expired";
+    if (validTo - Date.now() <= 30 * 24 * 60 * 60 * 1000) return "expiring";
+    return "valid";
+  };
+
+  const certificateStatusLabel = (application: AcmeApplicationOverviewItem) => {
+    const key = certificateStatusKey(application);
+    return t(`admin.acmeCert.certificateStatus.${key}`);
+  };
+
+  const certificateBadgeVariant = (
+    application: AcmeApplicationOverviewItem,
+  ) => {
+    const key = certificateStatusKey(application);
+    if (key === "none") return "outline";
+    if (key === "valid") return "secondary";
+    return "destructive";
+  };
+
+  const formatCertificateRange = (application: AcmeApplicationOverviewItem) => {
+    if (!application.certificate?.exists) return t("admin.acmeCert.notIssued");
+    const validFrom = application.certificate.validFrom || "";
+    const validTo = application.certificate.validTo || "";
+    if (!validFrom || !validTo) {
+      return t("admin.acmeCert.certificateInfoInvalid");
+    }
+    return `${formatDate(validFrom)} ~ ${formatDate(validTo)}`;
+  };
+
+  const latestJobLabel = (application: AcmeApplicationOverviewItem) => {
+    const status = application.latestJob?.status;
+    if (!status || status === "idle") return t("admin.acmeCert.jobStatus.idle");
+    if (status === "queued") return t("admin.acmeCert.jobStatus.queued");
+    if (status === "running") return t("admin.acmeCert.jobStatus.running");
+    if (status === "succeeded") return t("admin.acmeCert.jobStatus.succeeded");
+    if (status === "failed") return t("admin.acmeCert.jobStatus.failed");
+    if (status === "stopped") return t("admin.acmeCert.jobStatus.stopped");
+    return status;
+  };
+
+  const jobBadgeVariant = (status?: string | null) => {
+    if (!status || status === "idle") return "outline";
+    if (status === "queued") return "outline";
+    if (status === "running") return "default";
+    if (status === "succeeded") return "secondary";
+    if (status === "failed") return "outline";
+    if (status === "stopped") return "outline";
+    return "outline";
+  };
+
+  const libraryStatusLabel = (application: AcmeApplicationOverviewItem) => {
+    if (application.library?.isActive)
+      return t("admin.acmeCert.library.active");
+    if (application.library?.linked) return t("admin.acmeCert.library.linked");
+    return t("admin.acmeCert.library.unlinked");
+  };
+
+  const libraryBadgeVariant = (application: AcmeApplicationOverviewItem) => {
+    if (application.library?.isActive) return "default";
+    if (application.library?.linked) return "secondary";
+    return "outline";
+  };
+
+  const deleteApplicationDescription = (
+    application: AcmeApplicationOverviewItem,
+  ) => {
+    const target = application.name || application.primaryDomain;
+    if (application.certificate?.exists || application.library?.linked) {
+      return t("admin.acmeCert.deleteApplicationWithCertificateDescription", {
+        target,
+      });
+    }
+    return t("admin.acmeCert.deleteApplicationDescription", { target });
+  };
+
+  const formatDate = (value: string) => {
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return value;
+    return date.toLocaleString(locale.value);
+  };
+
+  return {
+    certificateBadgeVariant,
+    certificateStatusLabel,
+    deleteApplicationDescription,
+    formatCertificateRange,
+    jobBadgeVariant,
+    latestJobLabel,
+    libraryBadgeVariant,
+    libraryStatusLabel,
+    primaryActionLabel,
+    isSecondaryActionDisabled,
+  };
+}

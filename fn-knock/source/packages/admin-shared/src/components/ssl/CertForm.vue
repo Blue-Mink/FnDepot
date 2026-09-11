@@ -1,1 +1,78 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTUiPgogICAgPENlcnRTb3VyY2VGaWVsZAogICAgICBpZD0iY2VydC1pbnB1dCIKICAgICAgZmllbGQta2V5PSJjZXJ0IgogICAgICA6bGFiZWw9InQoJ3NoYXJlZC5jZXJ0Rm9ybS5zc2xDZXJ0JykiCiAgICAgIDp2YWx1ZT0iY2VydCIKICAgICAgYWNjZXB0PSIuY3J0LC5wZW0iCiAgICAgIDpzdXBwb3J0ZWQtZmlsZS10eXBlcz0iWycuY3J0JywgJy5wZW0nXSIKICAgICAgcGxhY2Vob2xkZXI9Ii0tLS0tQkVHSU4gQ0VSVElGSUNBVEUtLS0tLVxuLi4uIgogICAgICA6c2hhcmUtbmFtZT0ic2hhcmVOYW1lIgogICAgICA6c2hhcmVkLWZpbGVzPSJzaGFyZWRGaWxlcyIKICAgICAgOnNoYXJlZC1maWxlcy1hdmFpbGFibGU9InNoYXJlZEZpbGVzQXZhaWxhYmxlIgogICAgICA6c2hhcmVkLWZpbGVzLWxvYWRpbmc9InNoYXJlZEZpbGVzTG9hZGluZyIKICAgICAgOnNoYXJlZC1maWxlcy1lcnJvcj0ic2hhcmVkRmlsZXNFcnJvciIKICAgICAgOnNoYXJlZC1maWxlLXNlbGVjdGluZz0ic2hhcmVkRmlsZVNlbGVjdGluZyIKICAgICAgQHVwZGF0ZTp2YWx1ZT0iKHZhbHVlKSA9PiBlbWl0KCd1cGRhdGU6Y2VydCcsIHZhbHVlKSIKICAgICAgQHJlcXVlc3Qtc2hhcmVkLWZpbGVzPSIocGF5bG9hZCkgPT4gZW1pdCgncmVxdWVzdC1zaGFyZWQtZmlsZXMnLCBwYXlsb2FkKSIKICAgICAgQHNlbGVjdC1zaGFyZWQtZmlsZT0iKHBheWxvYWQpID0+IGVtaXQoJ3NlbGVjdC1zaGFyZWQtZmlsZScsIHBheWxvYWQpIgogICAgLz4KCiAgICA8Q2VydFNvdXJjZUZpZWxkCiAgICAgIGlkPSJrZXktaW5wdXQiCiAgICAgIGZpZWxkLWtleT0ic3NsS2V5IgogICAgICA6bGFiZWw9InQoJ3NoYXJlZC5jZXJ0Rm9ybS5wcml2YXRlS2V5JykiCiAgICAgIDp2YWx1ZT0ic3NsS2V5IgogICAgICBhY2NlcHQ9Ii5rZXksLnBlbSIKICAgICAgOnN1cHBvcnRlZC1maWxlLXR5cGVzPSJbJy5rZXknLCAnLnBlbSddIgogICAgICBwbGFjZWhvbGRlcj0iLS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tXG4uLi4iCiAgICAgIDpzaGFyZS1uYW1lPSJzaGFyZU5hbWUiCiAgICAgIDpzaGFyZWQtZmlsZXM9InNoYXJlZEZpbGVzIgogICAgICA6c2hhcmVkLWZpbGVzLWF2YWlsYWJsZT0ic2hhcmVkRmlsZXNBdmFpbGFibGUiCiAgICAgIDpzaGFyZWQtZmlsZXMtbG9hZGluZz0ic2hhcmVkRmlsZXNMb2FkaW5nIgogICAgICA6c2hhcmVkLWZpbGVzLWVycm9yPSJzaGFyZWRGaWxlc0Vycm9yIgogICAgICA6c2hhcmVkLWZpbGUtc2VsZWN0aW5nPSJzaGFyZWRGaWxlU2VsZWN0aW5nIgogICAgICBAdXBkYXRlOnZhbHVlPSIodmFsdWUpID0+IGVtaXQoJ3VwZGF0ZTpzc2xLZXknLCB2YWx1ZSkiCiAgICAgIEByZXF1ZXN0LXNoYXJlZC1maWxlcz0iKHBheWxvYWQpID0+IGVtaXQoJ3JlcXVlc3Qtc2hhcmVkLWZpbGVzJywgcGF5bG9hZCkiCiAgICAgIEBzZWxlY3Qtc2hhcmVkLWZpbGU9IihwYXlsb2FkKSA9PiBlbWl0KCdzZWxlY3Qtc2hhcmVkLWZpbGUnLCBwYXlsb2FkKSIKICAgIC8+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IENlcnRTb3VyY2VGaWVsZCBmcm9tICIuL0NlcnRTb3VyY2VGaWVsZC52dWUiOwoKaW50ZXJmYWNlIFNoYXJlZERhdGFGaWxlRW50cnkgewogIG5hbWU6IHN0cmluZzsKICByZWxhdGl2ZVBhdGg6IHN0cmluZzsKICBleHRlbnNpb246IHN0cmluZzsKICBzaXplOiBudW1iZXI7CiAgbW9kaWZpZWRBdDogc3RyaW5nOwp9CgpkZWZpbmVQcm9wczx7CiAgY2VydDogc3RyaW5nOwogIHNzbEtleTogc3RyaW5nOwogIHNoYXJlTmFtZT86IHN0cmluZzsKICBzaGFyZWRGaWxlcz86IFNoYXJlZERhdGFGaWxlRW50cnlbXTsKICBzaGFyZWRGaWxlc0F2YWlsYWJsZT86IGJvb2xlYW47CiAgc2hhcmVkRmlsZXNMb2FkaW5nPzogYm9vbGVhbjsKICBzaGFyZWRGaWxlc0Vycm9yPzogc3RyaW5nOwogIHNoYXJlZEZpbGVTZWxlY3Rpbmc/OiBib29sZWFuOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICJ1cGRhdGU6Y2VydCI6IFt2YWx1ZTogc3RyaW5nXTsKICAidXBkYXRlOnNzbEtleSI6IFt2YWx1ZTogc3RyaW5nXTsKICAicmVxdWVzdC1zaGFyZWQtZmlsZXMiOiBbCiAgICBwYXlsb2FkOiB7IGZpZWxkOiAiY2VydCIgfCAic3NsS2V5IjsgZm9yY2U/OiBib29sZWFuIH0sCiAgXTsKICAic2VsZWN0LXNoYXJlZC1maWxlIjogWwogICAgcGF5bG9hZDogeyBmaWVsZDogImNlcnQiIHwgInNzbEtleSI7IHJlbGF0aXZlUGF0aDogc3RyaW5nIH0sCiAgXTsKfT4oKTsKPC9zY3JpcHQ+Cg==
+<template>
+  <div class="grid gap-5">
+    <CertSourceField
+      id="cert-input"
+      field-key="cert"
+      :label="t('shared.certForm.sslCert')"
+      :value="cert"
+      accept=".crt,.pem"
+      :supported-file-types="['.crt', '.pem']"
+      placeholder="-----BEGIN CERTIFICATE-----\n..."
+      :share-name="shareName"
+      :shared-files="sharedFiles"
+      :shared-files-available="sharedFilesAvailable"
+      :shared-files-loading="sharedFilesLoading"
+      :shared-files-error="sharedFilesError"
+      :shared-file-selecting="sharedFileSelecting"
+      @update:value="(value) => emit('update:cert', value)"
+      @request-shared-files="(payload) => emit('request-shared-files', payload)"
+      @select-shared-file="(payload) => emit('select-shared-file', payload)"
+    />
+
+    <CertSourceField
+      id="key-input"
+      field-key="sslKey"
+      :label="t('shared.certForm.privateKey')"
+      :value="sslKey"
+      accept=".key,.pem"
+      :supported-file-types="['.key', '.pem']"
+      placeholder="-----BEGIN PRIVATE KEY-----\n..."
+      :share-name="shareName"
+      :shared-files="sharedFiles"
+      :shared-files-available="sharedFilesAvailable"
+      :shared-files-loading="sharedFilesLoading"
+      :shared-files-error="sharedFilesError"
+      :shared-file-selecting="sharedFileSelecting"
+      @update:value="(value) => emit('update:sslKey', value)"
+      @request-shared-files="(payload) => emit('request-shared-files', payload)"
+      @select-shared-file="(payload) => emit('select-shared-file', payload)"
+    />
+  </div>
+</template>
+
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import CertSourceField from "./CertSourceField.vue";
+
+interface SharedDataFileEntry {
+  name: string;
+  relativePath: string;
+  extension: string;
+  size: number;
+  modifiedAt: string;
+}
+
+defineProps<{
+  cert: string;
+  sslKey: string;
+  shareName?: string;
+  sharedFiles?: SharedDataFileEntry[];
+  sharedFilesAvailable?: boolean;
+  sharedFilesLoading?: boolean;
+  sharedFilesError?: string;
+  sharedFileSelecting?: boolean;
+}>();
+
+const { t } = useI18n();
+
+const emit = defineEmits<{
+  "update:cert": [value: string];
+  "update:sslKey": [value: string];
+  "request-shared-files": [
+    payload: { field: "cert" | "sslKey"; force?: boolean },
+  ];
+  "select-shared-file": [
+    payload: { field: "cert" | "sslKey"; relativePath: string },
+  ];
+}>();
+</script>

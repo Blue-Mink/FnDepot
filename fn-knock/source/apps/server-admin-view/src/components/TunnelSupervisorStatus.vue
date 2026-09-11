@@ -1,1 +1,66 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IEh1bWFuRnJpZW5kbHlUaW1lIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vSHVtYW5GcmllbmRseVRpbWUudnVlIjsKaW1wb3J0IHsgdHlwZSBUdW5uZWxTdXBlcnZpc29yU3RhdHVzIH0gZnJvbSAiQC9saWIvYXBpL3R1bm5lbCI7CmltcG9ydCB7IHN1cGVydmlzb3JUb25lIH0gZnJvbSAiQC9saWIvdHVubmVsU3VwZXJ2aXNvck1vZGVsIjsKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKAogIGRlZmluZVByb3BzPHsKICAgIHN1cGVydmlzb3I6IFR1bm5lbFN1cGVydmlzb3JTdGF0dXM7CiAgICBjb21wYWN0PzogYm9vbGVhbjsKICB9PigpLAogIHsgY29tcGFjdDogZmFsc2UgfSwKKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBsYWJlbCA9IGNvbXB1dGVkKCgpID0+CiAgdChgYWRtaW4udHVubmVsU3VwZXJ2aXNvci5zdGF0ZXMuJHtwcm9wcy5zdXBlcnZpc29yLnN0YXRlfWApLAopOwpjb25zdCBjb2xvckNsYXNzID0gY29tcHV0ZWQoKCkgPT4gewogIHN3aXRjaCAoc3VwZXJ2aXNvclRvbmUocHJvcHMuc3VwZXJ2aXNvcikpIHsKICAgIGNhc2UgInN1Y2Nlc3MiOgogICAgICByZXR1cm4gInRleHQtZ3JlZW4tNjAwIjsKICAgIGNhc2UgImluZm8iOgogICAgICByZXR1cm4gInRleHQtYmx1ZS02MDAiOwogICAgY2FzZSAid2FybmluZyI6CiAgICAgIHJldHVybiAidGV4dC1hbWJlci02MDAiOwogICAgZGVmYXVsdDoKICAgICAgcmV0dXJuICJ0ZXh0LW11dGVkLWZvcmVncm91bmQiOwogIH0KfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktMS41Ij4KICAgIDxkaXYgY2xhc3M9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHRleHQtc20iIDpjbGFzcz0iY29sb3JDbGFzcyI+CiAgICAgIDxzcGFuCiAgICAgICAgY2xhc3M9ImgtMiB3LTIgcm91bmRlZC1mdWxsIGJnLWN1cnJlbnQiCiAgICAgICAgOmNsYXNzPSJ7ICdhbmltYXRlLXB1bHNlJzogc3VwZXJ2aXNvci5zdGF0ZSA9PT0gJ3N0YXJ0aW5nJyB9IgogICAgICAvPgogICAgICA8c3Bhbj57eyBsYWJlbCB9fTwvc3Bhbj4KICAgIDwvZGl2PgogICAgPHRlbXBsYXRlIHYtaWY9IiFjb21wYWN0Ij4KICAgICAgPHAKICAgICAgICB2LWlmPSJzdXBlcnZpc29yLnN0YXRlID09PSAnYmFja29mZicgJiYgc3VwZXJ2aXNvci5uZXh0UmVzdGFydEF0IgogICAgICAgIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgPgogICAgICAgIHt7CiAgICAgICAgICB0KCJhZG1pbi50dW5uZWxTdXBlcnZpc29yLm5leHRSZXN0YXJ0IiwgewogICAgICAgICAgICBjb3VudDogc3VwZXJ2aXNvci5jb25zZWN1dGl2ZUZhaWx1cmVzLAogICAgICAgICAgfSkKICAgICAgICB9fQogICAgICAgIDxIdW1hbkZyaWVuZGx5VGltZQogICAgICAgICAgOnZhbHVlPSJzdXBlcnZpc29yLm5leHRSZXN0YXJ0QXQiCiAgICAgICAgICA6cmVmcmVzaC1pbnRlcnZhbC1tcz0iMTAwMCIKICAgICAgICAvPgogICAgICA8L3A+CiAgICAgIDxwCiAgICAgICAgdi1pZj0ic3VwZXJ2aXNvci5sYXN0RmFpbHVyZSIKICAgICAgICBjbGFzcz0iYnJlYWstd29yZHMgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgID4KICAgICAgICB7eyBzdXBlcnZpc29yLmxhc3RGYWlsdXJlLmRpYWdub3NpcyB8fCBzdXBlcnZpc29yLmxhc3RGYWlsdXJlLnJlYXNvbiB9fQogICAgICA8L3A+CiAgICA8L3RlbXBsYXRlPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import { type TunnelSupervisorStatus } from "@/lib/api/tunnel";
+import { supervisorTone } from "@/lib/tunnelSupervisorModel";
+
+const props = withDefaults(
+  defineProps<{
+    supervisor: TunnelSupervisorStatus;
+    compact?: boolean;
+  }>(),
+  { compact: false },
+);
+
+const { t } = useI18n();
+const label = computed(() =>
+  t(`admin.tunnelSupervisor.states.${props.supervisor.state}`),
+);
+const colorClass = computed(() => {
+  switch (supervisorTone(props.supervisor)) {
+    case "success":
+      return "text-green-600";
+    case "info":
+      return "text-blue-600";
+    case "warning":
+      return "text-amber-600";
+    default:
+      return "text-muted-foreground";
+  }
+});
+</script>
+
+<template>
+  <div class="space-y-1.5">
+    <div class="inline-flex items-center gap-1.5 text-sm" :class="colorClass">
+      <span
+        class="h-2 w-2 rounded-full bg-current"
+        :class="{ 'animate-pulse': supervisor.state === 'starting' }"
+      />
+      <span>{{ label }}</span>
+    </div>
+    <template v-if="!compact">
+      <p
+        v-if="supervisor.state === 'backoff' && supervisor.nextRestartAt"
+        class="text-xs text-muted-foreground"
+      >
+        {{
+          t("admin.tunnelSupervisor.nextRestart", {
+            count: supervisor.consecutiveFailures,
+          })
+        }}
+        <HumanFriendlyTime
+          :value="supervisor.nextRestartAt"
+          :refresh-interval-ms="1000"
+        />
+      </p>
+      <p
+        v-if="supervisor.lastFailure"
+        class="break-words text-xs text-muted-foreground"
+      >
+        {{ supervisor.lastFailure.diagnosis || supervisor.lastFailure.reason }}
+      </p>
+    </template>
+  </div>
+</template>

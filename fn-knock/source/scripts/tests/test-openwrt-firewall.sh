@@ -1,1 +1,9 @@
-IyEvYmluL2Jhc2gKIyBSdW4gYWdhaW5zdCByZWFsIE9wZW5XcnQgdWJ1cy9ycGNkL1VDSS9qc2huL0J1c3lCb3gsIGlzb2xhdGVkIGZyb20gdGhlIGhvc3QuCnNldCAtZXVvIHBpcGVmYWlsClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCm5vZGUgLS10ZXN0ICIke1JPT1RfRElSfS9zY3JpcHRzL3Rlc3RzL29wZW53cnQtZmlyZXdhbGwtbHVjaS50ZXN0Lm1qcyIKZG9ja2VyIHJ1biAtLXJtIC0tcGxhdGZvcm0gbGludXgvYW1kNjQgLS1lbnRyeXBvaW50IC9iaW4vc2ggXAogIC12ICIke1JPT1RfRElSfTovd29ya3NwYWNlOnJvIiBcCiAgIiR7Rk5fS05PQ0tfVEVTVF9PUEVOV1JUX0lNQUdFOi1vcGVud3J0L3Jvb3Rmczp4ODYtNjQtMjMuMDUuNX0iIFwKICAvd29ya3NwYWNlL3NjcmlwdHMvdGVzdHMvZml4dHVyZXMvb3BlbndydC1maXJld2FsbC9ydW4uc2gK
+#!/bin/bash
+# Run against real OpenWrt ubus/rpcd/UCI/jshn/BusyBox, isolated from the host.
+set -euo pipefail
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+node --test "${ROOT_DIR}/scripts/tests/openwrt-firewall-luci.test.mjs"
+docker run --rm --platform linux/amd64 --entrypoint /bin/sh \
+  -v "${ROOT_DIR}:/workspace:ro" \
+  "${FN_KNOCK_TEST_OPENWRT_IMAGE:-openwrt/rootfs:x86-64-23.05.5}" \
+  /workspace/scripts/tests/fixtures/openwrt-firewall/run.sh

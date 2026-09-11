@@ -1,1 +1,32 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgVGFic1RyaWdnZXJQcm9wcyB9IGZyb20gInJla2EtdWkiOwppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgcmVhY3RpdmVPbWl0IH0gZnJvbSAiQHZ1ZXVzZS9jb3JlIjsKaW1wb3J0IHsKICBUYWJzVHJpZ2dlciBhcyBSZWthVGFic1RyaWdnZXJQcmltaXRpdmUsCiAgdXNlRm9yd2FyZFByb3BzLAp9IGZyb20gInJla2EtdWkiOwppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8CiAgVGFic1RyaWdnZXJQcm9wcyAmIHsgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXSB9Cj4oKTsKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKTsKY29uc3QgZm9yd2FyZGVkUHJvcHMgPSB1c2VGb3J3YXJkUHJvcHMoZGVsZWdhdGVkUHJvcHMpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UmVrYVRhYnNUcmlnZ2VyUHJpbWl0aXZlCiAgICBkYXRhLXNsb3Q9InJla2EtdGFicy10cmlnZ2VyIgogICAgdi1iaW5kPSJmb3J3YXJkZWRQcm9wcyIKICAgIDpjbGFzcz0iCiAgICAgIGNuKAogICAgICAgICdyZWxhdGl2ZSB6LTEwIGlubGluZS1mbGV4IHNlbGVjdC1ub25lIFstd2Via2l0LXVzZXItc2VsZWN0Om5vbmVdIFstd2Via2l0LXRvdWNoLWNhbGxvdXQ6bm9uZV0gbWluLWgtMTEgbWluLXctWzEyMHB4XSBmbGV4LW5vbmUgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHdoaXRlc3BhY2Utbm93cmFwIHJvdW5kZWQtbm9uZSBib3JkZXItYi0yIGJvcmRlci10cmFuc3BhcmVudCBweC02IHB5LTIgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQgdHJhbnNpdGlvbi1bY29sb3JdIGR1cmF0aW9uLTIwMCBvdXRsaW5lLW5vbmUgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIGZvY3VzLXZpc2libGU6cmluZy0yIGZvY3VzLXZpc2libGU6cmluZy1lbWVyYWxkLTUwMC8yNSBmb2N1cy12aXNpYmxlOnJpbmctb2Zmc2V0LTIgZm9jdXMtdmlzaWJsZTpyaW5nLW9mZnNldC1iYWNrZ3JvdW5kIGRpc2FibGVkOnBvaW50ZXItZXZlbnRzLW5vbmUgZGlzYWJsZWQ6b3BhY2l0eS01MCBkYXRhLVtzdGF0ZT1hY3RpdmVdOnRleHQtZW1lcmFsZC02MDAnLAogICAgICAgIHByb3BzLmNsYXNzLAogICAgICApCiAgICAiCiAgPgogICAgPHNsb3QgLz4KICA8L1Jla2FUYWJzVHJpZ2dlclByaW1pdGl2ZT4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { TabsTriggerProps } from "reka-ui";
+import type { HTMLAttributes } from "vue";
+import { reactiveOmit } from "@vueuse/core";
+import {
+  TabsTrigger as RekaTabsTriggerPrimitive,
+  useForwardProps,
+} from "reka-ui";
+import { cn } from "@/lib/utils";
+
+const props = defineProps<
+  TabsTriggerProps & { class?: HTMLAttributes["class"] }
+>();
+
+const delegatedProps = reactiveOmit(props, "class");
+const forwardedProps = useForwardProps(delegatedProps);
+</script>
+
+<template>
+  <RekaTabsTriggerPrimitive
+    data-slot="reka-tabs-trigger"
+    v-bind="forwardedProps"
+    :class="
+      cn(
+        'relative z-10 inline-flex select-none [-webkit-user-select:none] [-webkit-touch-callout:none] min-h-11 min-w-[120px] flex-none items-center justify-center whitespace-nowrap rounded-none border-b-2 border-transparent px-6 py-2 text-sm font-medium text-muted-foreground transition-[color] duration-200 outline-none hover:text-foreground focus-visible:ring-2 focus-visible:ring-emerald-500/25 focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:pointer-events-none disabled:opacity-50 data-[state=active]:text-emerald-600',
+        props.class,
+      )
+    "
+  >
+    <slot />
+  </RekaTabsTriggerPrimitive>
+</template>

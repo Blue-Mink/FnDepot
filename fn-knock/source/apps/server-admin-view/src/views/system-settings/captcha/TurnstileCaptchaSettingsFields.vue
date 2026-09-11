@@ -1,1 +1,140 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEV4dGVybmFsTGluaywgRXllLCBFeWVPZmYgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB0eXBlIHsgVHVybnN0aWxlQ2FwdGNoYUNvbmZpZyB9IGZyb20gIkBmcm9udGVuZC1jb3JlL2NhcHRjaGEvdHlwZXMiOwppbXBvcnQgQ2FwdGNoYUNvbmZpZ0ZpZWxkIGZyb20gIi4vQ2FwdGNoYUNvbmZpZ0ZpZWxkLnZ1ZSI7CgpkZWZpbmVQcm9wczx7IGRpc2FibGVkOiBib29sZWFuIH0+KCk7CmNvbnN0IG1vZGVsID0gZGVmaW5lTW9kZWw8VHVybnN0aWxlQ2FwdGNoYUNvbmZpZz4oeyByZXF1aXJlZDogdHJ1ZSB9KTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHNpdGVGaWVsZElkID0gImNhcHRjaGEtdHVybnN0aWxlLXB1YmxpYy10b2tlbiI7CmNvbnN0IHNlY3JldEZpZWxkSWQgPSAiY2FwdGNoYS10dXJuc3RpbGUtcHJpdmF0ZS10b2tlbiI7CmNvbnN0IGdldHRpbmdTdGFydGVkVXJsID0KICAiaHR0cHM6Ly93d3cuY2xvdWRmbGFyZS1jbi5jb20vYXBwbGljYXRpb24tc2VydmljZXMvcHJvZHVjdHMvdHVybnN0aWxlLyI7CmNvbnN0IGlzU2l0ZVZpc2libGUgPSByZWYoZmFsc2UpOwpjb25zdCBpc1NlY3JldFZpc2libGUgPSByZWYoZmFsc2UpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJkaXZpZGUteSBhbmltYXRlLWluIGZhZGUtaW4gc2xpZGUtaW4tZnJvbS10b3AtMiBkdXJhdGlvbi0zMDAiPgogICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtNCBiZy1tdXRlZC8xMCBwLTYiPgogICAgICA8ZGl2CiAgICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTMgc206ZmxleC1yb3cgc206aXRlbXMtc3RhcnQgc206anVzdGlmeS1iZXR3ZWVuIgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtYmFzZSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy50dXJuc3RpbGVTZXR1cFRpdGxlIikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5jYXB0Y2hhU2V0dGluZ3MudHVybnN0aWxlU2V0dXBEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8QnV0dG9uIGFzLWNoaWxkIHZhcmlhbnQ9Im91dGxpbmUiIGNsYXNzPSJzaHJpbmstMCI+CiAgICAgICAgICA8YQogICAgICAgICAgICA6aHJlZj0iZ2V0dGluZ1N0YXJ0ZWRVcmwiCiAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICByZWw9Im5vcmVmZXJyZXIgbm9vcGVuZXIiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxFeHRlcm5hbExpbmsgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgICAge3sgdCgiYWRtaW4uY2FwdGNoYVNldHRpbmdzLm9wZW5UdXJuc3RpbGUiKSB9fQogICAgICAgICAgPC9hPgogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgPGRpdj57eyB0KCJhZG1pbi5jYXB0Y2hhU2V0dGluZ3Muc3RlcExvZ2luIikgfX08L2Rpdj4KICAgICAgICA8ZGl2Pnt7IHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy5zdGVwQ3JlYXRlIikgfX08L2Rpdj4KICAgICAgICA8ZGl2Pnt7IHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy5zdGVwQ29weSIpIH19PC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CgogICAgPENhcHRjaGFDb25maWdGaWVsZD4KICAgICAgPHRlbXBsYXRlICNjb3B5PgogICAgICAgIDxMYWJlbCBjbGFzcz0idGV4dC1iYXNlIiA6Zm9yPSJzaXRlRmllbGRJZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5jYXB0Y2hhU2V0dGluZ3Muc2l0ZUtleSIpIH19CiAgICAgICAgPC9MYWJlbD4KICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIGxlYWRpbmctcmVsYXhlZCB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sgdCgiYWRtaW4uY2FwdGNoYVNldHRpbmdzLnNpdGVLZXlEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9kaXY+CiAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDxkaXYgY2xhc3M9InJlbGF0aXZlIj4KICAgICAgICA8SW5wdXQKICAgICAgICAgIDppZD0ic2l0ZUZpZWxkSWQiCiAgICAgICAgICB2LW1vZGVsPSJtb2RlbC5zaXRlX2tleSIKICAgICAgICAgIDp0eXBlPSJpc1NpdGVWaXNpYmxlID8gJ3RleHQnIDogJ3Bhc3N3b3JkJyIKICAgICAgICAgIG5hbWU9ImNhcHRjaGFQdWJsaWNUb2tlbiIKICAgICAgICAgIGF1dG9jb21wbGV0ZT0ib2ZmIgogICAgICAgICAgYXV0b2NhcGl0YWxpemU9Im9mZiIKICAgICAgICAgIGF1dG9jb3JyZWN0PSJvZmYiCiAgICAgICAgICBzcGVsbGNoZWNrPSJmYWxzZSIKICAgICAgICAgIGRhdGEtZm9ybS10eXBlPSJvdGhlciIKICAgICAgICAgIGRhdGEtMXAtaWdub3JlPSJ0cnVlIgogICAgICAgICAgZGF0YS1scGlnbm9yZT0idHJ1ZSIKICAgICAgICAgIGRhdGEtYndpZ25vcmU9InRydWUiCiAgICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLmNhcHRjaGFTZXR0aW5ncy5zaXRlS2V5UGxhY2Vob2xkZXInKSIKICAgICAgICAgIGNsYXNzPSJwci0xMCIKICAgICAgICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQiCiAgICAgICAgLz4KICAgICAgICA8YnV0dG9uCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICBjbGFzcz0iYWJzb2x1dGUgcmlnaHQtMyB0b3AtMS8yIC10cmFuc2xhdGUteS0xLzIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOnRleHQtZm9yZWdyb3VuZCBkaXNhYmxlZDpjdXJzb3Itbm90LWFsbG93ZWQgZGlzYWJsZWQ6b3BhY2l0eS01MCIKICAgICAgICAgIDphcmlhLWxhYmVsPSIKICAgICAgICAgICAgaXNTaXRlVmlzaWJsZQogICAgICAgICAgICAgID8gdCgnYWRtaW4uY2FwdGNoYVNldHRpbmdzLmhpZGVTaXRlS2V5JykKICAgICAgICAgICAgICA6IHQoJ2FkbWluLmNhcHRjaGFTZXR0aW5ncy5zaG93U2l0ZUtleScpCiAgICAgICAgICAiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImRpc2FibGVkIgogICAgICAgICAgQGNsaWNrPSJpc1NpdGVWaXNpYmxlID0gIWlzU2l0ZVZpc2libGUiCiAgICAgICAgPgogICAgICAgICAgPGNvbXBvbmVudCA6aXM9ImlzU2l0ZVZpc2libGUgPyBFeWVPZmYgOiBFeWUiIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvQ2FwdGNoYUNvbmZpZ0ZpZWxkPgoKICAgIDxDYXB0Y2hhQ29uZmlnRmllbGQ+CiAgICAgIDx0ZW1wbGF0ZSAjY29weT4KICAgICAgICA8TGFiZWwgY2xhc3M9InRleHQtYmFzZSIgOmZvcj0ic2VjcmV0RmllbGRJZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5jYXB0Y2hhU2V0dGluZ3Muc2VjcmV0S2V5IikgfX0KICAgICAgICA8L0xhYmVsPgogICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gbGVhZGluZy1yZWxheGVkIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5jYXB0Y2hhU2V0dGluZ3Muc2VjcmV0S2V5RGVzY3JpcHRpb24iKSB9fQogICAgICAgIDwvZGl2PgogICAgICA8L3RlbXBsYXRlPgogICAgICA8ZGl2IGNsYXNzPSJyZWxhdGl2ZSI+CiAgICAgICAgPElucHV0CiAgICAgICAgICA6aWQ9InNlY3JldEZpZWxkSWQiCiAgICAgICAgICB2LW1vZGVsPSJtb2RlbC5zZWNyZXRfa2V5IgogICAgICAgICAgOnR5cGU9ImlzU2VjcmV0VmlzaWJsZSA/ICd0ZXh0JyA6ICdwYXNzd29yZCciCiAgICAgICAgICBuYW1lPSJjYXB0Y2hhUHJpdmF0ZVRva2VuIgogICAgICAgICAgYXV0b2NvbXBsZXRlPSJuZXctcGFzc3dvcmQiCiAgICAgICAgICBhdXRvY2FwaXRhbGl6ZT0ib2ZmIgogICAgICAgICAgYXV0b2NvcnJlY3Q9Im9mZiIKICAgICAgICAgIHNwZWxsY2hlY2s9ImZhbHNlIgogICAgICAgICAgZGF0YS1mb3JtLXR5cGU9Im90aGVyIgogICAgICAgICAgZGF0YS0xcC1pZ25vcmU9InRydWUiCiAgICAgICAgICBkYXRhLWxwaWdub3JlPSJ0cnVlIgogICAgICAgICAgZGF0YS1id2lnbm9yZT0idHJ1ZSIKICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uY2FwdGNoYVNldHRpbmdzLnNlY3JldEtleVBsYWNlaG9sZGVyJykiCiAgICAgICAgICBjbGFzcz0icHItMTAiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImRpc2FibGVkIgogICAgICAgIC8+CiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgY2xhc3M9ImFic29sdXRlIHJpZ2h0LTMgdG9wLTEvMiAtdHJhbnNsYXRlLXktMS8yIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCB0cmFuc2l0aW9uLWNvbG9ycyBob3Zlcjp0ZXh0LWZvcmVncm91bmQgZGlzYWJsZWQ6Y3Vyc29yLW5vdC1hbGxvd2VkIGRpc2FibGVkOm9wYWNpdHktNTAiCiAgICAgICAgICA6YXJpYS1sYWJlbD0iCiAgICAgICAgICAgIGlzU2VjcmV0VmlzaWJsZQogICAgICAgICAgICAgID8gdCgnYWRtaW4uY2FwdGNoYVNldHRpbmdzLmhpZGVTZWNyZXRLZXknKQogICAgICAgICAgICAgIDogdCgnYWRtaW4uY2FwdGNoYVNldHRpbmdzLnNob3dTZWNyZXRLZXknKQogICAgICAgICAgIgogICAgICAgICAgOmRpc2FibGVkPSJkaXNhYmxlZCIKICAgICAgICAgIEBjbGljaz0iaXNTZWNyZXRWaXNpYmxlID0gIWlzU2VjcmV0VmlzaWJsZSIKICAgICAgICA+CiAgICAgICAgICA8Y29tcG9uZW50IDppcz0iaXNTZWNyZXRWaXNpYmxlID8gRXllT2ZmIDogRXllIiBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICA8L2J1dHRvbj4KICAgICAgPC9kaXY+CiAgICA8L0NhcHRjaGFDb25maWdGaWVsZD4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { ExternalLink, Eye, EyeOff } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import type { TurnstileCaptchaConfig } from "@frontend-core/captcha/types";
+import CaptchaConfigField from "./CaptchaConfigField.vue";
+
+defineProps<{ disabled: boolean }>();
+const model = defineModel<TurnstileCaptchaConfig>({ required: true });
+const { t } = useI18n();
+const siteFieldId = "captcha-turnstile-public-token";
+const secretFieldId = "captcha-turnstile-private-token";
+const gettingStartedUrl =
+  "https://www.cloudflare-cn.com/application-services/products/turnstile/";
+const isSiteVisible = ref(false);
+const isSecretVisible = ref(false);
+</script>
+
+<template>
+  <div class="divide-y animate-in fade-in slide-in-from-top-2 duration-300">
+    <div class="grid gap-4 bg-muted/10 p-6">
+      <div
+        class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+      >
+        <div class="space-y-1">
+          <div class="text-base font-medium">
+            {{ t("admin.captchaSettings.turnstileSetupTitle") }}
+          </div>
+          <div class="text-sm text-muted-foreground">
+            {{ t("admin.captchaSettings.turnstileSetupDescription") }}
+          </div>
+        </div>
+        <Button as-child variant="outline" class="shrink-0">
+          <a
+            :href="gettingStartedUrl"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <ExternalLink class="mr-2 h-4 w-4" />
+            {{ t("admin.captchaSettings.openTurnstile") }}
+          </a>
+        </Button>
+      </div>
+      <div class="grid gap-2 text-sm text-muted-foreground">
+        <div>{{ t("admin.captchaSettings.stepLogin") }}</div>
+        <div>{{ t("admin.captchaSettings.stepCreate") }}</div>
+        <div>{{ t("admin.captchaSettings.stepCopy") }}</div>
+      </div>
+    </div>
+
+    <CaptchaConfigField>
+      <template #copy>
+        <Label class="text-base" :for="siteFieldId">
+          {{ t("admin.captchaSettings.siteKey") }}
+        </Label>
+        <div class="text-sm leading-relaxed text-muted-foreground">
+          {{ t("admin.captchaSettings.siteKeyDescription") }}
+        </div>
+      </template>
+      <div class="relative">
+        <Input
+          :id="siteFieldId"
+          v-model="model.site_key"
+          :type="isSiteVisible ? 'text' : 'password'"
+          name="captchaPublicToken"
+          autocomplete="off"
+          autocapitalize="off"
+          autocorrect="off"
+          spellcheck="false"
+          data-form-type="other"
+          data-1p-ignore="true"
+          data-lpignore="true"
+          data-bwignore="true"
+          :placeholder="t('admin.captchaSettings.siteKeyPlaceholder')"
+          class="pr-10"
+          :disabled="disabled"
+        />
+        <button
+          type="button"
+          class="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground transition-colors hover:text-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          :aria-label="
+            isSiteVisible
+              ? t('admin.captchaSettings.hideSiteKey')
+              : t('admin.captchaSettings.showSiteKey')
+          "
+          :disabled="disabled"
+          @click="isSiteVisible = !isSiteVisible"
+        >
+          <component :is="isSiteVisible ? EyeOff : Eye" class="h-4 w-4" />
+        </button>
+      </div>
+    </CaptchaConfigField>
+
+    <CaptchaConfigField>
+      <template #copy>
+        <Label class="text-base" :for="secretFieldId">
+          {{ t("admin.captchaSettings.secretKey") }}
+        </Label>
+        <div class="text-sm leading-relaxed text-muted-foreground">
+          {{ t("admin.captchaSettings.secretKeyDescription") }}
+        </div>
+      </template>
+      <div class="relative">
+        <Input
+          :id="secretFieldId"
+          v-model="model.secret_key"
+          :type="isSecretVisible ? 'text' : 'password'"
+          name="captchaPrivateToken"
+          autocomplete="new-password"
+          autocapitalize="off"
+          autocorrect="off"
+          spellcheck="false"
+          data-form-type="other"
+          data-1p-ignore="true"
+          data-lpignore="true"
+          data-bwignore="true"
+          :placeholder="t('admin.captchaSettings.secretKeyPlaceholder')"
+          class="pr-10"
+          :disabled="disabled"
+        />
+        <button
+          type="button"
+          class="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground transition-colors hover:text-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          :aria-label="
+            isSecretVisible
+              ? t('admin.captchaSettings.hideSecretKey')
+              : t('admin.captchaSettings.showSecretKey')
+          "
+          :disabled="disabled"
+          @click="isSecretVisible = !isSecretVisible"
+        >
+          <component :is="isSecretVisible ? EyeOff : Eye" class="h-4 w-4" />
+        </button>
+      </div>
+    </CaptchaConfigField>
+  </div>
+</template>

@@ -1,1 +1,43 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUF0dHJzLCB0eXBlIEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyB1c2VWTW9kZWwgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpkZWZpbmVPcHRpb25zKHsKICBpbmhlcml0QXR0cnM6IGZhbHNlLAp9KQoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXQogIGRlZmF1bHRWYWx1ZT86IHN0cmluZyB8IG51bWJlcgogIG1vZGVsVmFsdWU/OiBzdHJpbmcgfCBudW1iZXIKfT4oKQoKY29uc3QgZW1pdHMgPSBkZWZpbmVFbWl0czx7CiAgKGU6ICJ1cGRhdGU6bW9kZWxWYWx1ZSIsIHBheWxvYWQ6IHN0cmluZyB8IG51bWJlcik6IHZvaWQKfT4oKQoKY29uc3QgbW9kZWxWYWx1ZSA9IHVzZVZNb2RlbChwcm9wcywgIm1vZGVsVmFsdWUiLCBlbWl0cywgewogIHBhc3NpdmU6IHRydWUsCiAgZGVmYXVsdFZhbHVlOiBwcm9wcy5kZWZhdWx0VmFsdWUsCn0pCgpjb25zdCBhdHRycyA9IHVzZUF0dHJzKCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPHRleHRhcmVhCiAgICB2LW1vZGVsPSJtb2RlbFZhbHVlIgogICAgdi1iaW5kPSJhdHRycyIKICAgIGRhdGEtc2xvdD0idGV4dGFyZWEiCiAgICBhdXRvY29tcGxldGU9Im9mZiIKICAgIGF1dG9jYXBpdGFsaXplPSJvZmYiCiAgICBhdXRvY29ycmVjdD0ib2ZmIgogICAgOnNwZWxsY2hlY2s9ImZhbHNlIgogICAgZGF0YS1mb3JtLXR5cGU9Im90aGVyIgogICAgZGF0YS0xcC1pZ25vcmU9InRydWUiCiAgICBkYXRhLWxwaWdub3JlPSJ0cnVlIgogICAgZGF0YS1id2lnbm9yZT0idHJ1ZSIKICAgIDpjbGFzcz0iY24oJ2JvcmRlci1pbnB1dCBwbGFjZWhvbGRlcjp0ZXh0LW11dGVkLWZvcmVncm91bmQgZm9jdXMtdmlzaWJsZTpib3JkZXItcmluZyBmb2N1cy12aXNpYmxlOnJpbmctcmluZy81MCBhcmlhLWludmFsaWQ6cmluZy1kZXN0cnVjdGl2ZS8yMCBkYXJrOmFyaWEtaW52YWxpZDpyaW5nLWRlc3RydWN0aXZlLzQwIGFyaWEtaW52YWxpZDpib3JkZXItZGVzdHJ1Y3RpdmUgZGFyazpiZy1pbnB1dC8zMCBmbGV4IGZpZWxkLXNpemluZy1jb250ZW50IG1pbi1oLTE2IHctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBiZy10cmFuc3BhcmVudCBweC0zIHB5LTIgdGV4dC1iYXNlIHNoYWRvdy14cyB0cmFuc2l0aW9uLVtjb2xvcixib3gtc2hhZG93XSBvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpyaW5nLVszcHhdIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBkaXNhYmxlZDpvcGFjaXR5LTUwIG1kOnRleHQtc20nLCBwcm9wcy5jbGFzcykiCiAgLz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useAttrs, type HTMLAttributes } from "vue"
+import { useVModel } from "@vueuse/core"
+import { cn } from "@/lib/utils"
+
+defineOptions({
+  inheritAttrs: false,
+})
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+  defaultValue?: string | number
+  modelValue?: string | number
+}>()
+
+const emits = defineEmits<{
+  (e: "update:modelValue", payload: string | number): void
+}>()
+
+const modelValue = useVModel(props, "modelValue", emits, {
+  passive: true,
+  defaultValue: props.defaultValue,
+})
+
+const attrs = useAttrs()
+</script>
+
+<template>
+  <textarea
+    v-model="modelValue"
+    v-bind="attrs"
+    data-slot="textarea"
+    autocomplete="off"
+    autocapitalize="off"
+    autocorrect="off"
+    :spellcheck="false"
+    data-form-type="other"
+    data-1p-ignore="true"
+    data-lpignore="true"
+    data-bwignore="true"
+    :class="cn('border-input placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 flex field-sizing-content min-h-16 w-full rounded-md border bg-transparent px-3 py-2 text-base shadow-xs transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 md:text-sm', props.class)"
+  />
+</template>

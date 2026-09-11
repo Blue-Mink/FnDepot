@@ -1,1 +1,4 @@
-ZXhwb3J0IHsgZGVmYXVsdCBhcyBBY2NvcmRpb24gfSBmcm9tICIuL0FjY29yZGlvbi52dWUiCmV4cG9ydCB7IGRlZmF1bHQgYXMgQWNjb3JkaW9uQ29udGVudCB9IGZyb20gIi4vQWNjb3JkaW9uQ29udGVudC52dWUiCmV4cG9ydCB7IGRlZmF1bHQgYXMgQWNjb3JkaW9uSXRlbSB9IGZyb20gIi4vQWNjb3JkaW9uSXRlbS52dWUiCmV4cG9ydCB7IGRlZmF1bHQgYXMgQWNjb3JkaW9uVHJpZ2dlciB9IGZyb20gIi4vQWNjb3JkaW9uVHJpZ2dlci52dWUiCg==
+export { default as Accordion } from "./Accordion.vue"
+export { default as AccordionContent } from "./AccordionContent.vue"
+export { default as AccordionItem } from "./AccordionItem.vue"
+export { default as AccordionTrigger } from "./AccordionTrigger.vue"

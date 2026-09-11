@@ -1,1 +1,118 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IENpcmNsZVVzZXJSb3VuZCwgQ2xvdWQsIEdpdGh1YiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB0eXBlIHsgQXV0aE9pZGNQcm92aWRlciB9IGZyb20gIkBmcm9udGVuZC1jb3JlL2F1dGgvdHlwZXMiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IFFxSWNvbiBmcm9tICJAL2NvbXBvbmVudHMvUXFJY29uLnZ1ZSI7CgpkZWZpbmVQcm9wczx7CiAgYWN0aXZlUHJvdmlkZXJJZDogc3RyaW5nOwogIGRpc2FibGVkOiBib29sZWFuOwogIGlzTG9hZGluZzogYm9vbGVhbjsKICBwcm92aWRlcnM6IEF1dGhPaWRjUHJvdmlkZXJbXTsKICBzaG93RGl2aWRlcj86IGJvb2xlYW47Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIGxvZ2luOiBbcHJvdmlkZXJJZDogc3RyaW5nXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwoKdHlwZSBQcm92aWRlckljb25LaW5kID0KICAicXEiIHwgImdpdGh1YiIgfCAiZ29vZ2xlIiB8ICJtaWNyb3NvZnQiIHwgImN1c3RvbV9vaWRjIiB8ICJnZW5lcmljIjsKCmNvbnN0IHByb3ZpZGVySWNvbktpbmQgPSAocHJvdmlkZXI6IEF1dGhPaWRjUHJvdmlkZXIpOiBQcm92aWRlckljb25LaW5kID0+IHsKICBjb25zdCB0b2tlbiA9IGAke3Byb3ZpZGVyLnR5cGUgfHwgIiJ9ICR7cHJvdmlkZXIubmFtZSB8fCAiIn0gJHsKICAgIHByb3ZpZGVyLnByb3RvY29sIHx8ICIiCiAgfWAudG9Mb3dlckNhc2UoKTsKICBpZiAocHJvdmlkZXIudHlwZSA9PT0gImZua25vY2tfcXEiIHx8IHRva2VuLmluY2x1ZGVzKCIgdGVuY2VudCBxcSIpKSB7CiAgICByZXR1cm4gInFxIjsKICB9CiAgaWYgKHRva2VuLmluY2x1ZGVzKCJnaXRodWIiKSkgcmV0dXJuICJnaXRodWIiOwogIGlmICh0b2tlbi5pbmNsdWRlcygiZ29vZ2xlIikpIHJldHVybiAiZ29vZ2xlIjsKICBpZiAodG9rZW4uaW5jbHVkZXMoIm1pY3Jvc29mdCIpIHx8IHRva2VuLmluY2x1ZGVzKCJhenVyZSIpKSB7CiAgICByZXR1cm4gIm1pY3Jvc29mdCI7CiAgfQogIGlmICh0b2tlbi5pbmNsdWRlcygiY3VzdG9tIikgfHwgdG9rZW4uaW5jbHVkZXMoIm9pZGMiKSkgcmV0dXJuICJjdXN0b21fb2lkYyI7CiAgcmV0dXJuICJnZW5lcmljIjsKfTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0idy1mdWxsIHNwYWNlLXktMiI+CiAgICA8ZGl2CiAgICAgIHYtaWY9InNob3dEaXZpZGVyIgogICAgICBjbGFzcz0iZmxleCB3LWZ1bGwgaXRlbXMtY2VudGVyIGdhcC0zIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgID4KICAgICAgPGRpdiBjbGFzcz0iaC1weCBmbGV4LTEgYmctYm9yZGVyIiAvPgogICAgICA8c3BhbiBjbGFzcz0ic2hyaW5rLTAiPnt7IHQoImF1dGgub3IiKSB9fTwvc3Bhbj4KICAgICAgPGRpdiBjbGFzcz0iaC1weCBmbGV4LTEgYmctYm9yZGVyIiAvPgogICAgPC9kaXY+CiAgICA8QnV0dG9uCiAgICAgIHYtZm9yPSJwcm92aWRlciBpbiBwcm92aWRlcnMiCiAgICAgIDprZXk9InByb3ZpZGVyLmlkIgogICAgICB0eXBlPSJidXR0b24iCiAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgIGNsYXNzPSJ3LWZ1bGwiCiAgICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQiCiAgICAgIEBjbGljaz0iZW1pdCgnbG9naW4nLCBwcm92aWRlci5pZCkiCiAgICA+CiAgICAgIDxzcGFuCiAgICAgICAgdi1pZj0iYWN0aXZlUHJvdmlkZXJJZCA9PT0gcHJvdmlkZXIuaWQgJiYgaXNMb2FkaW5nIgogICAgICAgIGNsYXNzPSJtci0yIGgtNCB3LTQgYW5pbWF0ZS1zcGluIHJvdW5kZWQtZnVsbCBib3JkZXItMiBib3JkZXItcHJpbWFyeSBib3JkZXItdC10cmFuc3BhcmVudCIKICAgICAgLz4KICAgICAgPEdpdGh1YgogICAgICAgIHYtZWxzZS1pZj0icHJvdmlkZXJJY29uS2luZChwcm92aWRlcikgPT09ICdnaXRodWInIgogICAgICAgIGNsYXNzPSJzaXplLTQiCiAgICAgICAgYXJpYS1oaWRkZW49InRydWUiCiAgICAgIC8+CiAgICAgIDxRcUljb24KICAgICAgICB2LWVsc2UtaWY9InByb3ZpZGVySWNvbktpbmQocHJvdmlkZXIpID09PSAncXEnIgogICAgICAgIGNsYXNzPSJzaXplLTQgdGV4dC1bIzFlYmFmY10iCiAgICAgICAgYXJpYS1oaWRkZW49InRydWUiCiAgICAgIC8+CiAgICAgIDxzdmcKICAgICAgICB2LWVsc2UtaWY9InByb3ZpZGVySWNvbktpbmQocHJvdmlkZXIpID09PSAnZ29vZ2xlJyIKICAgICAgICBjbGFzcz0ic2l6ZS00IgogICAgICAgIHZpZXdCb3g9IjAgMCAyNCAyNCIKICAgICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgPgogICAgICAgIDxwYXRoCiAgICAgICAgICBmaWxsPSIjNDI4NUY0IgogICAgICAgICAgZD0iTTIzLjc3IDEyLjI4YzAtLjgyLS4wNy0xLjYzLS4yMS0yLjQ0SDEyLjI0djQuNjJoNi40OGE1LjU0IDUuNTQgMCAwIDEtMi40IDMuNjR2My4wMmgzLjg5YzIuMjgtMi4xIDMuNTYtNS4xOSAzLjU2LTguODRaIgogICAgICAgIC8+CiAgICAgICAgPHBhdGgKICAgICAgICAgIGZpbGw9IiMzNEE4NTMiCiAgICAgICAgICBkPSJNMTIuMjQgMjRjMy4yNCAwIDUuOTctMS4wNiA3Ljk1LTIuODhMMTYuMyAxOC4xYy0xLjA4LjczLTIuNDcgMS4xNS00LjA2IDEuMTUtMy4xMyAwLTUuNzgtMi4xMS02LjczLTQuOTVIMS40OXYzLjExQTEyIDEyIDAgMCAwIDEyLjI0IDI0WiIKICAgICAgICAvPgogICAgICAgIDxwYXRoCiAgICAgICAgICBmaWxsPSIjRkJCQzA1IgogICAgICAgICAgZD0iTTUuNTEgMTQuM2E3LjE5IDcuMTkgMCAwIDEgMC00LjZWNi41OUgxLjQ5YTEyLjAxIDEyLjAxIDAgMCAwIDAgMTAuODJMNS41MSAxNC4zWiIKICAgICAgICAvPgogICAgICAgIDxwYXRoCiAgICAgICAgICBmaWxsPSIjRUE0MzM1IgogICAgICAgICAgZD0iTTEyLjI0IDQuNzVhNi41MiA2LjUyIDAgMCAxIDQuNiAxLjhsMy40NS0zLjQ1QTExLjU4IDExLjU4IDAgMCAwIDEyLjI0IDAgMTIgMTIgMCAwIDAgMS40OSA2LjU5TDUuNTEgOS43Yy45NS0yLjg0IDMuNi00Ljk1IDYuNzMtNC45NVoiCiAgICAgICAgLz4KICAgICAgPC9zdmc+CiAgICAgIDxzcGFuCiAgICAgICAgdi1lbHNlLWlmPSJwcm92aWRlckljb25LaW5kKHByb3ZpZGVyKSA9PT0gJ21pY3Jvc29mdCciCiAgICAgICAgY2xhc3M9ImdyaWQgc2l6ZS00IGdyaWQtY29scy0yIGdhcC0wLjUiCiAgICAgICAgYXJpYS1oaWRkZW49InRydWUiCiAgICAgID4KICAgICAgICA8c3BhbiBjbGFzcz0iYmctWyNmMjUwMjJdIiAvPgogICAgICAgIDxzcGFuIGNsYXNzPSJiZy1bIzdmYmEwMF0iIC8+CiAgICAgICAgPHNwYW4gY2xhc3M9ImJnLVsjMDBhNGVmXSIgLz4KICAgICAgICA8c3BhbiBjbGFzcz0iYmctWyNmZmI5MDBdIiAvPgogICAgICA8L3NwYW4+CiAgICAgIDxDbG91ZAogICAgICAgIHYtZWxzZS1pZj0icHJvdmlkZXJJY29uS2luZChwcm92aWRlcikgPT09ICdjdXN0b21fb2lkYyciCiAgICAgICAgY2xhc3M9InNpemUtNCIKICAgICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgLz4KICAgICAgPENpcmNsZVVzZXJSb3VuZCB2LWVsc2UgY2xhc3M9InNpemUtNCIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgIHt7IHQoImF1dGgubG9naW5XaXRoUHJvdmlkZXIiLCB7IHByb3ZpZGVyOiBwcm92aWRlci5uYW1lIH0pIH19CiAgICA8L0J1dHRvbj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { CircleUserRound, Cloud, Github } from "lucide-vue-next";
+import type { AuthOidcProvider } from "@frontend-core/auth/types";
+import { Button } from "@/components/ui/button";
+import QqIcon from "@/components/QqIcon.vue";
+
+defineProps<{
+  activeProviderId: string;
+  disabled: boolean;
+  isLoading: boolean;
+  providers: AuthOidcProvider[];
+  showDivider?: boolean;
+}>();
+
+const emit = defineEmits<{
+  login: [providerId: string];
+}>();
+
+const { t } = useI18n();
+
+type ProviderIconKind =
+  "qq" | "github" | "google" | "microsoft" | "custom_oidc" | "generic";
+
+const providerIconKind = (provider: AuthOidcProvider): ProviderIconKind => {
+  const token = `${provider.type || ""} ${provider.name || ""} ${
+    provider.protocol || ""
+  }`.toLowerCase();
+  if (provider.type === "fnknock_qq" || token.includes(" tencent qq")) {
+    return "qq";
+  }
+  if (token.includes("github")) return "github";
+  if (token.includes("google")) return "google";
+  if (token.includes("microsoft") || token.includes("azure")) {
+    return "microsoft";
+  }
+  if (token.includes("custom") || token.includes("oidc")) return "custom_oidc";
+  return "generic";
+};
+</script>
+
+<template>
+  <div class="w-full space-y-2">
+    <div
+      v-if="showDivider"
+      class="flex w-full items-center gap-3 text-sm text-muted-foreground"
+      aria-hidden="true"
+    >
+      <div class="h-px flex-1 bg-border" />
+      <span class="shrink-0">{{ t("auth.or") }}</span>
+      <div class="h-px flex-1 bg-border" />
+    </div>
+    <Button
+      v-for="provider in providers"
+      :key="provider.id"
+      type="button"
+      variant="outline"
+      class="w-full"
+      :disabled="disabled"
+      @click="emit('login', provider.id)"
+    >
+      <span
+        v-if="activeProviderId === provider.id && isLoading"
+        class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-primary border-t-transparent"
+      />
+      <Github
+        v-else-if="providerIconKind(provider) === 'github'"
+        class="size-4"
+        aria-hidden="true"
+      />
+      <QqIcon
+        v-else-if="providerIconKind(provider) === 'qq'"
+        class="size-4 text-[#1ebafc]"
+        aria-hidden="true"
+      />
+      <svg
+        v-else-if="providerIconKind(provider) === 'google'"
+        class="size-4"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        <path
+          fill="#4285F4"
+          d="M23.77 12.28c0-.82-.07-1.63-.21-2.44H12.24v4.62h6.48a5.54 5.54 0 0 1-2.4 3.64v3.02h3.89c2.28-2.1 3.56-5.19 3.56-8.84Z"
+        />
+        <path
+          fill="#34A853"
+          d="M12.24 24c3.24 0 5.97-1.06 7.95-2.88L16.3 18.1c-1.08.73-2.47 1.15-4.06 1.15-3.13 0-5.78-2.11-6.73-4.95H1.49v3.11A12 12 0 0 0 12.24 24Z"
+        />
+        <path
+          fill="#FBBC05"
+          d="M5.51 14.3a7.19 7.19 0 0 1 0-4.6V6.59H1.49a12.01 12.01 0 0 0 0 10.82L5.51 14.3Z"
+        />
+        <path
+          fill="#EA4335"
+          d="M12.24 4.75a6.52 6.52 0 0 1 4.6 1.8l3.45-3.45A11.58 11.58 0 0 0 12.24 0 12 12 0 0 0 1.49 6.59L5.51 9.7c.95-2.84 3.6-4.95 6.73-4.95Z"
+        />
+      </svg>
+      <span
+        v-else-if="providerIconKind(provider) === 'microsoft'"
+        class="grid size-4 grid-cols-2 gap-0.5"
+        aria-hidden="true"
+      >
+        <span class="bg-[#f25022]" />
+        <span class="bg-[#7fba00]" />
+        <span class="bg-[#00a4ef]" />
+        <span class="bg-[#ffb900]" />
+      </span>
+      <Cloud
+        v-else-if="providerIconKind(provider) === 'custom_oidc'"
+        class="size-4"
+        aria-hidden="true"
+      />
+      <CircleUserRound v-else class="size-4" aria-hidden="true" />
+      {{ t("auth.loginWithProvider", { provider: provider.name }) }}
+    </Button>
+  </div>
+</template>

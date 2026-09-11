@@ -1,1 +1,102 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGdvZGFkZHlfY2F0YWxvZ19lbnRyeSgpIC0+IFZhbHVlIHsKICAgIHByb3ZpZGVyKAogICAgICAgICJnb2RhZGR5IiwKICAgICAgICAiR29EYWRkeSIsCiAgICAgICAgdmVjIVsKICAgICAgICAgICAgZmllbGQoImFwaV9rZXkiLCAiQVBJIEtleSIsICJ0ZXh0IiwgIkdvRGFkZHkgQVBJIEtleSIsIHRydWUpLAogICAgICAgICAgICBmaWVsZCgKICAgICAgICAgICAgICAgICJhcGlfc2VjcmV0IiwKICAgICAgICAgICAgICAgICJBUEkgU2VjcmV0IiwKICAgICAgICAgICAgICAgICJwYXNzd29yZCIsCiAgICAgICAgICAgICAgICAiR29EYWRkeSBBUEkgU2VjcmV0IiwKICAgICAgICAgICAgICAgIHRydWUsCiAgICAgICAgICAgICksCiAgICAgICAgICAgIGZpZWxkKCJyb290X2RvbWFpbiIsICJSb290IERvbWFpbiIsICJ0ZXh0IiwgImV4YW1wbGUuY29tIiwgdHJ1ZSksCiAgICAgICAgICAgIGZpZWxkKCJkb21haW4iLCAiRG9tYWluIiwgInRleHQiLCAiaG9tZS5leGFtcGxlLmNvbSIsIHRydWUpLAogICAgICAgICAgICBmaWVsZCgidHRsIiwgIlRUTCIsICJ0ZXh0IiwgIjYwMCIsIGZhbHNlKSwKICAgICAgICBdLAogICAgKQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgYXN5bmMgZm4gdXBkYXRlX2dvZGFkZHkoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIGNvbmZpZzogJkhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgaHR0cF9vcHRpb25zOiAmREROU0h0dHBDbGllbnRPcHRpb25zLAogICAgaXB2NDogT3B0aW9uPCZzdHI+LAogICAgaXB2NjogT3B0aW9uPCZzdHI+LAopIC0+IGFueWhvdzo6UmVzdWx0PERETlNQcm92aWRlclVwZGF0ZVJlc3VsdD4gewogICAgbGV0IGFwaV9rZXkgPSBjb25maWdfdmFsdWUoY29uZmlnLCAiYXBpX2tleSIpOwogICAgbGV0IGFwaV9zZWNyZXQgPSBjb25maWdfdmFsdWUoY29uZmlnLCAiYXBpX3NlY3JldCIpOwogICAgbGV0IHJvb3RfZG9tYWluID0gY29uZmlnX3ZhbHVlKGNvbmZpZywgInJvb3RfZG9tYWluIik7CiAgICBsZXQgZG9tYWluID0gY29uZmlnX3ZhbHVlKGNvbmZpZywgImRvbWFpbiIpOwogICAgaWYgYXBpX2tleS5pc19lbXB0eSgpIHx8IGFwaV9zZWNyZXQuaXNfZW1wdHkoKSB8fCByb290X2RvbWFpbi5pc19lbXB0eSgpIHx8IGRvbWFpbi5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gT2socHJvdmlkZXJfZmFpbHVyZShkZG5zX3RleHQoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJwcm92aWRlcnMuZ29kYWRkeS5jb25maWdJbmNvbXBsZXRlIiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpKTsKICAgIH0KICAgIGxldCB0dGwgPSBwb3NpdGl2ZV9pNjQoY29uZmlnLmdldCgidHRsIiksIDYwMCk7CiAgICBsZXQgcGFyc2VkID0gc3BsaXRfZG9tYWluKHRyYW5zbGF0b3IsICZkb21haW4sICZyb290X2RvbWFpbik/OwogICAgbGV0IGNsaWVudCA9IGRkbnNfaHR0cF9jbGllbnQodHJhbnNsYXRvciwgaHR0cF9vcHRpb25zKT87CiAgICBsZXQgcHJvdmlkZXJfbGFiZWxfdGV4dCA9IHByb3ZpZGVyX2xhYmVsKFNvbWUoImdvZGFkZHkiKSwgdHJhbnNsYXRvcik7CgogICAgdXBkYXRlX2R1YWxfc3RhY2soCiAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAmcHJvdmlkZXJfbGFiZWxfdGV4dCwKICAgICAgICBpcHY0LAogICAgICAgIGlwdjYsCiAgICAgICAgfHJlY29yZF90eXBlLCBpcHwgewogICAgICAgICAgICBsZXQgY2xpZW50ID0gY2xpZW50LmNsb25lKCk7CiAgICAgICAgICAgIGxldCBhcGlfa2V5ID0gYXBpX2tleS5jbG9uZSgpOwogICAgICAgICAgICBsZXQgYXBpX3NlY3JldCA9IGFwaV9zZWNyZXQuY2xvbmUoKTsKICAgICAgICAgICAgbGV0IHJvb3RfZG9tYWluID0gcGFyc2VkLnJvb3RfZG9tYWluLmNsb25lKCk7CiAgICAgICAgICAgIGxldCByZWNvcmRfbmFtZSA9IHBhcnNlZC5yZWNvcmRfbmFtZS5jbG9uZSgpOwogICAgICAgICAgICBhc3luYyBtb3ZlIHsKICAgICAgICAgICAgICAgIGxldCByZXNwb25zZSA9IGNsaWVudAogICAgICAgICAgICAgICAgICAgIC5wdXQoZm9ybWF0ISgKICAgICAgICAgICAgICAgICAgICAgICAgImh0dHBzOi8vYXBpLmdvZGFkZHkuY29tL3YxL2RvbWFpbnMve30vcmVjb3Jkcy97fS97fSIsCiAgICAgICAgICAgICAgICAgICAgICAgIHVybF9lbmNvZGVfY29tcG9uZW50KCZyb290X2RvbWFpbiksCiAgICAgICAgICAgICAgICAgICAgICAgIHJlY29yZF90eXBlLAogICAgICAgICAgICAgICAgICAgICAgICB1cmxfZW5jb2RlX2NvbXBvbmVudCgmcmVjb3JkX25hbWUpCiAgICAgICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgICAgICAgICAuaGVhZGVyKAogICAgICAgICAgICAgICAgICAgICAgICByZXF3ZXN0OjpoZWFkZXI6OkFVVEhPUklaQVRJT04sCiAgICAgICAgICAgICAgICAgICAgICAgIGZvcm1hdCEoInNzby1rZXkge2FwaV9rZXl9OnthcGlfc2VjcmV0fSIpLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAuanNvbigmanNvbiEoW3sKICAgICAgICAgICAgICAgICAgICAgICAgImRhdGEiOiBpcCwKICAgICAgICAgICAgICAgICAgICAgICAgIm5hbWUiOiByZWNvcmRfbmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgInR0bCI6IHR0bCwKICAgICAgICAgICAgICAgICAgICAgICAgInR5cGUiOiByZWNvcmRfdHlwZQogICAgICAgICAgICAgICAgICAgIH1dKSkKICAgICAgICAgICAgICAgICAgICAuc2VuZCgpCiAgICAgICAgICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICAgICAgICAgIGxldCBzdGF0dXMgPSByZXNwb25zZS5zdGF0dXMoKTsKICAgICAgICAgICAgICAgIGxldCB0ZXh0ID0gcmVzcG9uc2VfdGV4dChyZXNwb25zZSkuYXdhaXQ/OwogICAgICAgICAgICAgICAgaWYgc3RhdHVzLmlzX3N1Y2Nlc3MoKSB7CiAgICAgICAgICAgICAgICAgICAgT2soKCkpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIEVycihhbnlob3c6OmFueWhvdyEoZGRuc190ZXh0KAogICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgICAgICAgICAicHJvdmlkZXJzLmdvZGFkZHkudXBkYXRlRmFpbGVkV2l0aFN0YXR1cyIsCiAgICAgICAgICAgICAgICAgICAgICAgICZbCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAoInN0YXR1cyIsIHN0YXR1cy5hc191MTYoKS50b19zdHJpbmcoKSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgImRldGFpbCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgdGV4dC5pc19lbXB0eSgpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGRuc190ZXh0KHRyYW5zbGF0b3IsICJwcm92aWRlcnMuZ29kYWRkeS51cGRhdGVGYWlsZWQiLCAmW10pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAgICkpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICkKICAgIC5hd2FpdAp9Cg==
+use super::*;
+
+pub(in crate::ddns::routes) fn godaddy_catalog_entry() -> Value {
+    provider(
+        "godaddy",
+        "GoDaddy",
+        vec![
+            field("api_key", "API Key", "text", "GoDaddy API Key", true),
+            field(
+                "api_secret",
+                "API Secret",
+                "password",
+                "GoDaddy API Secret",
+                true,
+            ),
+            field("root_domain", "Root Domain", "text", "example.com", true),
+            field("domain", "Domain", "text", "home.example.com", true),
+            field("ttl", "TTL", "text", "600", false),
+        ],
+    )
+}
+
+pub(in crate::ddns::routes) async fn update_godaddy(
+    translator: &Translator,
+    config: &HashMap<String, String>,
+    http_options: &DDNSHttpClientOptions,
+    ipv4: Option<&str>,
+    ipv6: Option<&str>,
+) -> anyhow::Result<DDNSProviderUpdateResult> {
+    let api_key = config_value(config, "api_key");
+    let api_secret = config_value(config, "api_secret");
+    let root_domain = config_value(config, "root_domain");
+    let domain = config_value(config, "domain");
+    if api_key.is_empty() || api_secret.is_empty() || root_domain.is_empty() || domain.is_empty() {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.godaddy.configIncomplete",
+            &[],
+        )));
+    }
+    let ttl = positive_i64(config.get("ttl"), 600);
+    let parsed = split_domain(translator, &domain, &root_domain)?;
+    let client = ddns_http_client(translator, http_options)?;
+    let provider_label_text = provider_label(Some("godaddy"), translator);
+
+    update_dual_stack(
+        translator,
+        &provider_label_text,
+        ipv4,
+        ipv6,
+        |record_type, ip| {
+            let client = client.clone();
+            let api_key = api_key.clone();
+            let api_secret = api_secret.clone();
+            let root_domain = parsed.root_domain.clone();
+            let record_name = parsed.record_name.clone();
+            async move {
+                let response = client
+                    .put(format!(
+                        "https://api.godaddy.com/v1/domains/{}/records/{}/{}",
+                        url_encode_component(&root_domain),
+                        record_type,
+                        url_encode_component(&record_name)
+                    ))
+                    .header(
+                        reqwest::header::AUTHORIZATION,
+                        format!("sso-key {api_key}:{api_secret}"),
+                    )
+                    .json(&json!([{
+                        "data": ip,
+                        "name": record_name,
+                        "ttl": ttl,
+                        "type": record_type
+                    }]))
+                    .send()
+                    .await?;
+                let status = response.status();
+                let text = response_text(response).await?;
+                if status.is_success() {
+                    Ok(())
+                } else {
+                    Err(anyhow::anyhow!(ddns_text(
+                        translator,
+                        "providers.godaddy.updateFailedWithStatus",
+                        &[
+                            ("status", status.as_u16().to_string()),
+                            (
+                                "detail",
+                                if text.is_empty() {
+                                    ddns_text(translator, "providers.godaddy.updateFailed", &[])
+                                } else {
+                                    text
+                                },
+                            ),
+                        ],
+                    )))
+                }
+            }
+        },
+    )
+    .await
+}

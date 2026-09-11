@@ -1,1 +1,167 @@
-VW5pY29kZSB0cnVlClJlcXVlc3RFeGVjdXRpb25MZXZlbCBhZG1pbgpNYW5pZmVzdERQSUF3YXJlIHRydWUKU2V0Q29tcHJlc3NvciAvU09MSUQgbHptYQpTZXRDb21wcmVzc29yRGljdFNpemUgMzIKCiFpbmNsdWRlICJNVUkyLm5zaCIKIWluY2x1ZGUgIkxvZ2ljTGliLm5zaCIKIWluY2x1ZGUgIng2NC5uc2giCgohaWZuZGVmIFZFUlNJT04KICAhZXJyb3IgIlZFUlNJT04gaXMgcmVxdWlyZWQiCiFlbmRpZgohaWZuZGVmIE5VTUVSSUNfVkVSU0lPTgogICFlcnJvciAiTlVNRVJJQ19WRVJTSU9OIGlzIHJlcXVpcmVkIgohZW5kaWYKIWlmbmRlZiBPVVRQVVRfRklMRQogICFlcnJvciAiT1VUUFVUX0ZJTEUgaXMgcmVxdWlyZWQiCiFlbmRpZgohaWZuZGVmIERFU0tUT1BfRVhFCiAgIWVycm9yICJERVNLVE9QX0VYRSBpcyByZXF1aXJlZCIKIWVuZGlmCiFpZm5kZWYgQlVORExFX1JPT1QKICAhZXJyb3IgIkJVTkRMRV9ST09UIGlzIHJlcXVpcmVkIgohZW5kaWYKIWlmbmRlZiBSVU5USU1FX1JPT1QKICAhZXJyb3IgIlJVTlRJTUVfUk9PVCBpcyByZXF1aXJlZCIKIWVuZGlmCiFpZm5kZWYgSUNPTl9GSUxFCiAgIWVycm9yICJJQ09OX0ZJTEUgaXMgcmVxdWlyZWQiCiFlbmRpZgoKIW1hY3JvIENoZWNrSWZBcHBJc1J1bm5pbmcgQVBQX05BTUUgUFJPRFVDVF9OQU1FCiAgbnNFeGVjOjpFeGVjVG9TdGFjayAnIiRTWVNESVJcV2luZG93c1Bvd2VyU2hlbGxcdjEuMFxwb3dlcnNoZWxsLmV4ZSIgLU5vUHJvZmlsZSAtTm9uSW50ZXJhY3RpdmUgLUV4ZWN1dGlvblBvbGljeSBCeXBhc3MgLUNvbW1hbmQgImlmIChHZXQtUHJvY2VzcyAtTmFtZSAkXCdmbi1rbm9jayRcJyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkgeyBleGl0IDIgfSInCiAgUG9wICQwCiAgUG9wICQxCiAgJHtJZn0gJDAgPT0gMgogICAgTWVzc2FnZUJveCBNQl9ZRVNOT3xNQl9JQ09OUVVFU1RJT04gIktub2NrIOaVsumXqOeuoeeQhueoi+W6j+ato+WcqOi/kOihjOOAguaYr+WQpueri+WNs+WFs+mXreW5tue7p+e7re+8nyIgSURZRVMgKzIKICAgIEFib3J0ICLnlKjmiLflj5bmtojkuobmk43kvZzvvIzmnKrmm7TmlLnku7vkvZXmlofku7bjgIIiCiAgICBuc0V4ZWM6OkV4ZWNUb1N0YWNrICciJFNZU0RJUlxXaW5kb3dzUG93ZXJTaGVsbFx2MS4wXHBvd2Vyc2hlbGwuZXhlIiAtTm9Qcm9maWxlIC1Ob25JbnRlcmFjdGl2ZSAtRXhlY3V0aW9uUG9saWN5IEJ5cGFzcyAtQ29tbWFuZCAiR2V0LVByb2Nlc3MgLU5hbWUgJFwnZm4ta25vY2skXCcgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfCBTdG9wLVByb2Nlc3MgLUZvcmNlIC1FcnJvckFjdGlvbiBTdG9wOyBTdGFydC1TbGVlcCAtTWlsbGlzZWNvbmRzIDMwMDsgaWYgKEdldC1Qcm9jZXNzIC1OYW1lICRcJ2ZuLWtub2NrJFwnIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKSB7IGV4aXQgMSB9IicKICAgIFBvcCAkMAogICAgUG9wICQxCiAgICAke0lmfSAkMCAhPSAwCiAgICAgIEFib3J0ICLml6Dms5XlhbPpl60gS25vY2sg5pWy6Zeo566h55CG56iL5bqP77yM5pyq57un57ut5pu05pS557O757uf44CCIgogICAgJHtFbmRJZn0KICAke0Vsc2VJZn0gJDAgIT0gMAogICAgQWJvcnQgIuaXoOazleehruiupCBLbm9jayDmlbLpl6jmmK/lkKbmraPlnKjov5DooYzvvIzmnKrmm7TmlLnku7vkvZXmlofku7bjgIIiCiAgJHtFbmRJZn0KIW1hY3JvZW5kCgohaW5jbHVkZSAiaG9va3MubnNoIgoKTmFtZSAiS25vY2sg5pWy6ZeoIgpCcmFuZGluZ1RleHQgIktDSS1MTksgQ29ycG9yYXRpb24iCk91dEZpbGUgIiR7T1VUUFVUX0ZJTEV9IgpJbnN0YWxsRGlyICIkUFJPR1JBTUZJTEVTNjRcS25vY2sg5pWy6ZeoIgpJbnN0YWxsRGlyUmVnS2V5IEhLTE0gIlNvZnR3YXJlXE1pY3Jvc29mdFxXaW5kb3dzXEN1cnJlbnRWZXJzaW9uXFVuaW5zdGFsbFxLbm9jayDmlbLpl6giICJJbnN0YWxsTG9jYXRpb24iCkljb24gIiR7SUNPTl9GSUxFfSIKVW5pbnN0YWxsSWNvbiAiJHtJQ09OX0ZJTEV9IgpTaG93SW5zdERldGFpbHMgc2hvdwpTaG93VW5pbnN0RGV0YWlscyBzaG93CgpWSVByb2R1Y3RWZXJzaW9uICIke05VTUVSSUNfVkVSU0lPTn0iClZJQWRkVmVyc2lvbktleSAvTEFORz0yMDUyICJQcm9kdWN0TmFtZSIgIktub2NrIOaVsumXqCIKVklBZGRWZXJzaW9uS2V5IC9MQU5HPTIwNTIgIkNvbXBhbnlOYW1lIiAiS0NJLUxOSyBDb3Jwb3JhdGlvbiIKVklBZGRWZXJzaW9uS2V5IC9MQU5HPTIwNTIgIkZpbGVEZXNjcmlwdGlvbiIgIktub2NrIOaVsumXqCDlronoo4XnqIvluo8iClZJQWRkVmVyc2lvbktleSAvTEFORz0yMDUyICJGaWxlVmVyc2lvbiIgIiR7VkVSU0lPTn0iClZJQWRkVmVyc2lvbktleSAvTEFORz0yMDUyICJQcm9kdWN0VmVyc2lvbiIgIiR7VkVSU0lPTn0iClZJQWRkVmVyc2lvbktleSAvTEFORz0yMDUyICJMZWdhbENvcHlyaWdodCIgIkNvcHlyaWdodCDCqSBLQ0ktTE5LIENvcnBvcmF0aW9uIgoKIWluc2VydG1hY3JvIE1VSV9QQUdFX1dFTENPTUUKIWluc2VydG1hY3JvIE1VSV9QQUdFX0RJUkVDVE9SWQohaW5zZXJ0bWFjcm8gTVVJX1BBR0VfSU5TVEZJTEVTCiFkZWZpbmUgTVVJX0ZJTklTSFBBR0VfUlVOICIkSU5TVERJUlxmbi1rbm9jay5leGUiCiFkZWZpbmUgTVVJX0ZJTklTSFBBR0VfUlVOX1RFWFQgIueri+WNs+WQr+WKqCBLbm9jayDmlbLpl6giCiFkZWZpbmUgTVVJX0ZJTklTSFBBR0VfUlVOX0ZVTkNUSU9OIEZuS25vY2tMYXVuY2gKIWRlZmluZSBNVUlfRklOSVNIUEFHRV9TSE9XUkVBRE1FICIkSU5TVERJUlxmbi1rbm9jay5leGUiCiFkZWZpbmUgTVVJX0ZJTklTSFBBR0VfU0hPV1JFQURNRV9URVhUICLliJvlu7rmoYzpnaLlv6vmjbfmlrnlvI8iCiFkZWZpbmUgTVVJX0ZJTklTSFBBR0VfU0hPV1JFQURNRV9GVU5DVElPTiBGbktub2NrQ3JlYXRlRGVza3RvcFNob3J0Y3V0CiFpbnNlcnRtYWNybyBNVUlfUEFHRV9GSU5JU0gKCiFpbnNlcnRtYWNybyBNVUlfVU5QQUdFX1dFTENPTUUKIWluc2VydG1hY3JvIE1VSV9VTlBBR0VfQ09ORklSTQohaW5zZXJ0bWFjcm8gTVVJX1VOUEFHRV9JTlNURklMRVMKIWluc2VydG1hY3JvIE1VSV9VTlBBR0VfRklOSVNICgohaW5zZXJ0bWFjcm8gTVVJX0xBTkdVQUdFICJTaW1wQ2hpbmVzZSIKIWluc2VydG1hY3JvIE1VSV9MQU5HVUFHRSAiRW5nbGlzaCIKCkZ1bmN0aW9uIC5vbkluaXQKICBTZXRTaGVsbFZhckNvbnRleHQgYWxsCiAgU2V0UmVnVmlldyA2NAogICR7SWZOb3R9ICR7UnVubmluZ1g2NH0KICAgIEFib3J0ICJLbm9jayDmlbLpl6jku4XmlK/mjIEgNjQg5L2NIFdpbmRvd3PjgIIiCiAgJHtFbmRJZn0KRnVuY3Rpb25FbmQKCkZ1bmN0aW9uIHVuLm9uSW5pdAogIFNldFNoZWxsVmFyQ29udGV4dCBhbGwKICBTZXRSZWdWaWV3IDY0CkZ1bmN0aW9uRW5kCgpGdW5jdGlvbiBGbktub2NrTGF1bmNoCiAgRXhlYyAnIiRJTlNURElSXGZuLWtub2NrLmV4ZSInCkZ1bmN0aW9uRW5kCgpGdW5jdGlvbiBGbktub2NrQ3JlYXRlRGVza3RvcFNob3J0Y3V0CiAgU2V0U2hlbGxWYXJDb250ZXh0IGFsbAogIENyZWF0ZVNob3J0Q3V0ICIkREVTS1RPUFxLbm9jayDmlbLpl6gubG5rIiAiJElOU1RESVJcZm4ta25vY2suZXhlIgpGdW5jdGlvbkVuZAoKU2VjdGlvbiAiS25vY2sg5pWy6ZeoIiBTRUNfTUFJTgogIFNlY3Rpb25JbiBSTwogIFNldFNoZWxsVmFyQ29udGV4dCBhbGwKICBTZXRSZWdWaWV3IDY0CiAgIWluc2VydG1hY3JvIE5TSVNfSE9PS19QUkVJTlNUQUxMCgogIFNldE91dFBhdGggIiRJTlNURElSIgogIEZpbGUgL29uYW1lPWZuLWtub2NrLmV4ZSAiJHtERVNLVE9QX0VYRX0iCiAgRmlsZSAvb25hbWU9Zm4ta25vY2stc2VydmljZS5leGUgIiR7QlVORExFX1JPT1R9XGZuLWtub2NrLXNlcnZpY2UuZXhlIgogIEZpbGUgL29uYW1lPWZuLWtub2NrLWdhdGV3YXkuZXhlICIke0JVTkRMRV9ST09UfVxmbi1rbm9jay1nYXRld2F5LmV4ZSIKICBGaWxlIC9vbmFtZT1ydXN0LWFjbWVzaC5leGUgIiR7QlVORExFX1JPT1R9XHJ1c3QtYWNtZXNoLmV4ZSIKCiAgU2V0T3V0UGF0aCAiJElOU1RESVJcdWkiCiAgRmlsZSAvciAiJHtSVU5USU1FX1JPT1R9XHVpXCoiCiAgU2V0T3V0UGF0aCAiJElOU1RESVJcc2VydmVyLWF1dGgtdmlldyIKICBGaWxlIC9yICIke1JVTlRJTUVfUk9PVH1cc2VydmVyLWF1dGgtdmlld1wqIgogIFNldE91dFBhdGggIiRJTlNURElSIgogIEZpbGUgL29uYW1lPWJ1bmRsZS5qc29uICIke1JVTlRJTUVfUk9PVH1cYnVuZGxlLmpzb24iCiAgV3JpdGVVbmluc3RhbGxlciAiJElOU1RESVJcdW5pbnN0YWxsLmV4ZSIKCiAgV3JpdGVSZWdTdHIgSEtMTSAiU29mdHdhcmVcS0NJLUxOSyBDb3Jwb3JhdGlvblxLbm9jayDmlbLpl6giICJJbnN0YWxsTG9jYXRpb24iICIkSU5TVERJUiIKICBXcml0ZVJlZ1N0ciBIS0xNICJTb2Z0d2FyZVxLQ0ktTE5LIENvcnBvcmF0aW9uXEtub2NrIOaVsumXqCIgIlZlcnNpb24iICIke1ZFUlNJT059IgogIFdyaXRlUmVnU3RyIEhLTE0gIlNvZnR3YXJlXE1pY3Jvc29mdFxXaW5kb3dzXEN1cnJlbnRWZXJzaW9uXFVuaW5zdGFsbFxLbm9jayDmlbLpl6giICJEaXNwbGF5TmFtZSIgIktub2NrIOaVsumXqCIKICBXcml0ZVJlZ1N0ciBIS0xNICJTb2Z0d2FyZVxNaWNyb3NvZnRcV2luZG93c1xDdXJyZW50VmVyc2lvblxVbmluc3RhbGxcS25vY2sg5pWy6ZeoIiAiRGlzcGxheVZlcnNpb24iICIke1ZFUlNJT059IgogIFdyaXRlUmVnU3RyIEhLTE0gIlNvZnR3YXJlXE1pY3Jvc29mdFxXaW5kb3dzXEN1cnJlbnRWZXJzaW9uXFVuaW5zdGFsbFxLbm9jayDmlbLpl6giICJQdWJsaXNoZXIiICJLQ0ktTE5LIENvcnBvcmF0aW9uIgogIFdyaXRlUmVnU3RyIEhLTE0gIlNvZnR3YXJlXE1pY3Jvc29mdFxXaW5kb3dzXEN1cnJlbnRWZXJzaW9uXFVuaW5zdGFsbFxLbm9jayDmlbLpl6giICJJbnN0YWxsTG9jYXRpb24iICIkSU5TVERJUiIKICBXcml0ZVJlZ1N0ciBIS0xNICJTb2Z0d2FyZVxNaWNyb3NvZnRcV2luZG93c1xDdXJyZW50VmVyc2lvblxVbmluc3RhbGxcS25vY2sg5pWy6ZeoIiAiRGlzcGxheUljb24iICIkSU5TVERJUlxmbi1rbm9jay5leGUiCiAgV3JpdGVSZWdTdHIgSEtMTSAiU29mdHdhcmVcTWljcm9zb2Z0XFdpbmRvd3NcQ3VycmVudFZlcnNpb25cVW5pbnN0YWxsXEtub2NrIOaVsumXqCIgIlVuaW5zdGFsbFN0cmluZyIgJyRcIiRJTlNURElSXHVuaW5zdGFsbC5leGUkXCInCiAgV3JpdGVSZWdTdHIgSEtMTSAiU29mdHdhcmVcTWljcm9zb2Z0XFdpbmRvd3NcQ3VycmVudFZlcnNpb25cVW5pbnN0YWxsXEtub2NrIOaVsumXqCIgIlF1aWV0VW5pbnN0YWxsU3RyaW5nIiAnJFwiJElOU1RESVJcdW5pbnN0YWxsLmV4ZSRcIiAvUycKICBXcml0ZVJlZ0RXT1JEIEhLTE0gIlNvZnR3YXJlXE1pY3Jvc29mdFxXaW5kb3dzXEN1cnJlbnRWZXJzaW9uXFVuaW5zdGFsbFxLbm9jayDmlbLpl6giICJOb01vZGlmeSIgMQogIFdyaXRlUmVnRFdPUkQgSEtMTSAiU29mdHdhcmVcTWljcm9zb2Z0XFdpbmRvd3NcQ3VycmVudFZlcnNpb25cVW5pbnN0YWxsXEtub2NrIOaVsumXqCIgIk5vUmVwYWlyIiAxCgogICFpbnNlcnRtYWNybyBOU0lTX0hPT0tfUE9TVElOU1RBTEwKU2VjdGlvbkVuZAoKU2VjdGlvbiAiVW5pbnN0YWxsIgogIFNldFNoZWxsVmFyQ29udGV4dCBhbGwKICBTZXRSZWdWaWV3IDY0CiAgIWluc2VydG1hY3JvIE5TSVNfSE9PS19QUkVVTklOU1RBTEwKCiAgRGVsZXRlICIkU01QUk9HUkFNU1xLbm9jayDmlbLpl6gubG5rIgogIERlbGV0ZSAiJERFU0tUT1BcS25vY2sg5pWy6ZeoLmxuayIKICBEZWxldGUgIiRJTlNURElSXGZuLWtub2NrLmV4ZSIKICBEZWxldGUgIiRJTlNURElSXGZuLWtub2NrLXNlcnZpY2UuZXhlIgogIERlbGV0ZSAiJElOU1RESVJcZm4ta25vY2stZ2F0ZXdheS5leGUiCiAgRGVsZXRlICIkSU5TVERJUlxydXN0LWFjbWVzaC5leGUiCiAgRGVsZXRlICIkSU5TVERJUlxidW5kbGUuanNvbiIKICBSTURpciAvciAiJElOU1RESVJcdWkiCiAgUk1EaXIgL3IgIiRJTlNURElSXHNlcnZlci1hdXRoLXZpZXciCiAgRGVsZXRlICIkSU5TVERJUlx1bmluc3RhbGwuZXhlIgogIERlbGV0ZVJlZ0tleSBIS0xNICJTb2Z0d2FyZVxLQ0ktTE5LIENvcnBvcmF0aW9uXEtub2NrIOaVsumXqCIKICBEZWxldGVSZWdLZXkgSEtMTSAiU29mdHdhcmVcTWljcm9zb2Z0XFdpbmRvd3NcQ3VycmVudFZlcnNpb25cVW5pbnN0YWxsXEtub2NrIOaVsumXqCIKCiAgIWluc2VydG1hY3JvIE5TSVNfSE9PS19QT1NUVU5JTlNUQUxMCiAgUk1EaXIgIiRJTlNURElSIgpTZWN0aW9uRW5kCg==
+Unicode true
+RequestExecutionLevel admin
+ManifestDPIAware true
+SetCompressor /SOLID lzma
+SetCompressorDictSize 32
+
+!include "MUI2.nsh"
+!include "LogicLib.nsh"
+!include "x64.nsh"
+
+!ifndef VERSION
+  !error "VERSION is required"
+!endif
+!ifndef NUMERIC_VERSION
+  !error "NUMERIC_VERSION is required"
+!endif
+!ifndef OUTPUT_FILE
+  !error "OUTPUT_FILE is required"
+!endif
+!ifndef DESKTOP_EXE
+  !error "DESKTOP_EXE is required"
+!endif
+!ifndef BUNDLE_ROOT
+  !error "BUNDLE_ROOT is required"
+!endif
+!ifndef RUNTIME_ROOT
+  !error "RUNTIME_ROOT is required"
+!endif
+!ifndef ICON_FILE
+  !error "ICON_FILE is required"
+!endif
+
+!macro CheckIfAppIsRunning APP_NAME PRODUCT_NAME
+  nsExec::ExecToStack '"$SYSDIR\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command "if (Get-Process -Name $\'fn-knock$\' -ErrorAction SilentlyContinue) { exit 2 }"'
+  Pop $0
+  Pop $1
+  ${If} $0 == 2
+    MessageBox MB_YESNO|MB_ICONQUESTION "Knock 敲门管理程序正在运行。是否立即关闭并继续？" IDYES +2
+    Abort "用户取消了操作，未更改任何文件。"
+    nsExec::ExecToStack '"$SYSDIR\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command "Get-Process -Name $\'fn-knock$\' -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction Stop; Start-Sleep -Milliseconds 300; if (Get-Process -Name $\'fn-knock$\' -ErrorAction SilentlyContinue) { exit 1 }"'
+    Pop $0
+    Pop $1
+    ${If} $0 != 0
+      Abort "无法关闭 Knock 敲门管理程序，未继续更改系统。"
+    ${EndIf}
+  ${ElseIf} $0 != 0
+    Abort "无法确认 Knock 敲门是否正在运行，未更改任何文件。"
+  ${EndIf}
+!macroend
+
+!include "hooks.nsh"
+
+Name "Knock 敲门"
+BrandingText "KCI-LNK Corporation"
+OutFile "${OUTPUT_FILE}"
+InstallDir "$PROGRAMFILES64\Knock 敲门"
+InstallDirRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Knock 敲门" "InstallLocation"
+Icon "${ICON_FILE}"
+UninstallIcon "${ICON_FILE}"
+ShowInstDetails show
+ShowUninstDetails show
+
+VIProductVersion "${NUMERIC_VERSION}"
+VIAddVersionKey /LANG=2052 "ProductName" "Knock 敲门"
+VIAddVersionKey /LANG=2052 "CompanyName" "KCI-LNK Corporation"
+VIAddVersionKey /LANG=2052 "FileDescription" "Knock 敲门 安装程序"
+VIAddVersionKey /LANG=2052 "FileVersion" "${VERSION}"
+VIAddVersionKey /LANG=2052 "ProductVersion" "${VERSION}"
+VIAddVersionKey /LANG=2052 "LegalCopyright" "Copyright © KCI-LNK Corporation"
+
+!insertmacro MUI_PAGE_WELCOME
+!insertmacro MUI_PAGE_DIRECTORY
+!insertmacro MUI_PAGE_INSTFILES
+!define MUI_FINISHPAGE_RUN "$INSTDIR\fn-knock.exe"
+!define MUI_FINISHPAGE_RUN_TEXT "立即启动 Knock 敲门"
+!define MUI_FINISHPAGE_RUN_FUNCTION FnKnockLaunch
+!define MUI_FINISHPAGE_SHOWREADME "$INSTDIR\fn-knock.exe"
+!define MUI_FINISHPAGE_SHOWREADME_TEXT "创建桌面快捷方式"
+!define MUI_FINISHPAGE_SHOWREADME_FUNCTION FnKnockCreateDesktopShortcut
+!insertmacro MUI_PAGE_FINISH
+
+!insertmacro MUI_UNPAGE_WELCOME
+!insertmacro MUI_UNPAGE_CONFIRM
+!insertmacro MUI_UNPAGE_INSTFILES
+!insertmacro MUI_UNPAGE_FINISH
+
+!insertmacro MUI_LANGUAGE "SimpChinese"
+!insertmacro MUI_LANGUAGE "English"
+
+Function .onInit
+  SetShellVarContext all
+  SetRegView 64
+  ${IfNot} ${RunningX64}
+    Abort "Knock 敲门仅支持 64 位 Windows。"
+  ${EndIf}
+FunctionEnd
+
+Function un.onInit
+  SetShellVarContext all
+  SetRegView 64
+FunctionEnd
+
+Function FnKnockLaunch
+  Exec '"$INSTDIR\fn-knock.exe"'
+FunctionEnd
+
+Function FnKnockCreateDesktopShortcut
+  SetShellVarContext all
+  CreateShortCut "$DESKTOP\Knock 敲门.lnk" "$INSTDIR\fn-knock.exe"
+FunctionEnd
+
+Section "Knock 敲门" SEC_MAIN
+  SectionIn RO
+  SetShellVarContext all
+  SetRegView 64
+  !insertmacro NSIS_HOOK_PREINSTALL
+
+  SetOutPath "$INSTDIR"
+  File /oname=fn-knock.exe "${DESKTOP_EXE}"
+  File /oname=fn-knock-service.exe "${BUNDLE_ROOT}\fn-knock-service.exe"
+  File /oname=fn-knock-gateway.exe "${BUNDLE_ROOT}\fn-knock-gateway.exe"
+  File /oname=rust-acmesh.exe "${BUNDLE_ROOT}\rust-acmesh.exe"
+
+  SetOutPath "$INSTDIR\ui"
+  File /r "${RUNTIME_ROOT}\ui\*"
+  SetOutPath "$INSTDIR\server-auth-view"
+  File /r "${RUNTIME_ROOT}\server-auth-view\*"
+  SetOutPath "$INSTDIR"
+  File /oname=bundle.json "${RUNTIME_ROOT}\bundle.json"
+  WriteUninstaller "$INSTDIR\uninstall.exe"
+
+  WriteRegStr HKLM "Software\KCI-LNK Corporation\Knock 敲门" "InstallLocation" "$INSTDIR"
+  WriteRegStr HKLM "Software\KCI-LNK Corporation\Knock 敲门" "Version" "${VERSION}"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Knock 敲门" "DisplayName" "Knock 敲门"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Knock 敲门" "DisplayVersion" "${VERSION}"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Knock 敲门" "Publisher" "KCI-LNK Corporation"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Knock 敲门" "InstallLocation" "$INSTDIR"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Knock 敲门" "DisplayIcon" "$INSTDIR\fn-knock.exe"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Knock 敲门" "UninstallString" '$\"$INSTDIR\uninstall.exe$\"'
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Knock 敲门" "QuietUninstallString" '$\"$INSTDIR\uninstall.exe$\" /S'
+  WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Knock 敲门" "NoModify" 1
+  WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Knock 敲门" "NoRepair" 1
+
+  !insertmacro NSIS_HOOK_POSTINSTALL
+SectionEnd
+
+Section "Uninstall"
+  SetShellVarContext all
+  SetRegView 64
+  !insertmacro NSIS_HOOK_PREUNINSTALL
+
+  Delete "$SMPROGRAMS\Knock 敲门.lnk"
+  Delete "$DESKTOP\Knock 敲门.lnk"
+  Delete "$INSTDIR\fn-knock.exe"
+  Delete "$INSTDIR\fn-knock-service.exe"
+  Delete "$INSTDIR\fn-knock-gateway.exe"
+  Delete "$INSTDIR\rust-acmesh.exe"
+  Delete "$INSTDIR\bundle.json"
+  RMDir /r "$INSTDIR\ui"
+  RMDir /r "$INSTDIR\server-auth-view"
+  Delete "$INSTDIR\uninstall.exe"
+  DeleteRegKey HKLM "Software\KCI-LNK Corporation\Knock 敲门"
+  DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Knock 敲门"
+
+  !insertmacro NSIS_HOOK_POSTUNINSTALL
+  RMDir "$INSTDIR"
+SectionEnd

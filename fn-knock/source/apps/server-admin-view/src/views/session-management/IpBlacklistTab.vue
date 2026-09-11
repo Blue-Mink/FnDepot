@@ -1,1 +1,16 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBJcEJsYWNrbGlzdERldGFpbERpYWxvZyBmcm9tICIuL0lwQmxhY2tsaXN0RGV0YWlsRGlhbG9nLnZ1ZSI7CmltcG9ydCBJcEJsYWNrbGlzdE92ZXJ2aWV3IGZyb20gIi4vSXBCbGFja2xpc3RPdmVydmlldy52dWUiOwppbXBvcnQgSXBCbGFja2xpc3RSZWNvcmRzUGFuZWwgZnJvbSAiLi9JcEJsYWNrbGlzdFJlY29yZHNQYW5lbC52dWUiOwppbXBvcnQgeyB1c2VJcEJsYWNrbGlzdFBhZ2UgfSBmcm9tICIuL3VzZUlwQmxhY2tsaXN0UGFnZSI7Cgpjb25zdCBjb250cm9sbGVyID0gdXNlSXBCbGFja2xpc3RQYWdlKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImZsZXggaC1mdWxsIGZsZXgtY29sIGdhcC00Ij4KICAgIDxJcEJsYWNrbGlzdE92ZXJ2aWV3IDpjb250cm9sbGVyPSJjb250cm9sbGVyIiAvPgogICAgPElwQmxhY2tsaXN0UmVjb3Jkc1BhbmVsIDpjb250cm9sbGVyPSJjb250cm9sbGVyIiAvPgogICAgPElwQmxhY2tsaXN0RGV0YWlsRGlhbG9nIDpjb250cm9sbGVyPSJjb250cm9sbGVyIiAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import IpBlacklistDetailDialog from "./IpBlacklistDetailDialog.vue";
+import IpBlacklistOverview from "./IpBlacklistOverview.vue";
+import IpBlacklistRecordsPanel from "./IpBlacklistRecordsPanel.vue";
+import { useIpBlacklistPage } from "./useIpBlacklistPage";
+
+const controller = useIpBlacklistPage();
+</script>
+
+<template>
+  <div class="flex h-full flex-col gap-4">
+    <IpBlacklistOverview :controller="controller" />
+    <IpBlacklistRecordsPanel :controller="controller" />
+    <IpBlacklistDetailDialog :controller="controller" />
+  </div>
+</template>

@@ -1,1 +1,235 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiClJPVVRFUj0iJHtST09UX0RJUn0vYXBwcy9zZXJ2ZXItYWRtaW4tcnMvc3JjL2FwcC9yb3V0ZXIucnMiCkFETUlOX0NMSUVOVD0iJHtST09UX0RJUn0vYXBwcy9zZXJ2ZXItYWRtaW4tdmlldy9zcmMvbGliL2FwaS9jbGllbnQudHMiCkZQS19DR0k9IiR7Uk9PVF9ESVJ9L2FwcHMvZm4ta25vY2svYXBwL3VpL2luZGV4LmNnaSIKR09fUkVQT1NJVE9SWT0iJHtGTl9LTk9DS19HT19SRUFVVEhfUFJPWFlfRElSOi0ke1JPT1RfRElSfS8uLi9Hby1SZWF1dGgtUHJveHl9IgpXT1JLX0RJUj0iJChta3RlbXAgLWQgIiR7VE1QRElSOi0vdG1wfS9mbi1rbm9jay1jZ2ktY29tcHJlc3Npb24uWFhYWFhYIikiCnRyYXAgJ3JtIC1yZiAiJHtXT1JLX0RJUn0iJyBFWElUCgpmYWlsKCkgewogIHByaW50ZiAnW3Rlc3QtY2dpLXByb3h5LWNvbnRyYWN0XSBFUlJPUjogJXNcbicgIiQqIiA+JjIKICBleGl0IDEKfQoKYXNzZXJ0X2NvbnRhaW5zKCkgewogIGxvY2FsIGZpbGU9IiQxIiBleHBlY3RlZD0iJDIiIGxhYmVsPSIkMyIKICBncmVwIC1GcSAtLSAiJHtleHBlY3RlZH0iICIke2ZpbGV9IiB8fCBmYWlsICIke2xhYmVsfTogJHtmaWxlfSBpcyBtaXNzaW5nICR7ZXhwZWN0ZWR9Igp9Cgphc3NlcnRfbm90X2NvbnRhaW5zKCkgewogIGxvY2FsIGZpbGU9IiQxIiB1bmV4cGVjdGVkPSIkMiIgbGFiZWw9IiQzIgogIGlmIGdyZXAgLUZxIC0tICIke3VuZXhwZWN0ZWR9IiAiJHtmaWxlfSI7IHRoZW4KICAgIGZhaWwgIiR7bGFiZWx9OiAke2ZpbGV9IHVuZXhwZWN0ZWRseSBjb250YWlucyAke3VuZXhwZWN0ZWR9IgogIGZpCn0KCmZvciBjZ2kgaW4gXAogICIke1JPT1RfRElSfS9hcHBzL2ZuLWtub2NrL2FwcC91aS9pbmRleC5jZ2kiIFwKICAiJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay1saXRlL2FwcC91aS9pbmRleC5jZ2kiIFwKICAiJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay1zeW5vbG9neS9wYWNrYWdlL3VpL2luZGV4LmNnaSIKZG8KICBzaCAtbiAiJHtjZ2l9IiB8fCBmYWlsICJpbnZhbGlkIENHSSBzaGVsbCBzeW50YXg6ICR7Y2dpfSIKICBhc3NlcnRfY29udGFpbnMgIiR7Y2dpfSIgJ0hUVFBfT1JJR0lOJyAnYnJvd3NlciBPcmlnaW4gZm9yd2FyZGluZycKICBhc3NlcnRfY29udGFpbnMgIiR7Y2dpfSIgJ0NvbnRlbnQtTGVuZ3RoJyAncmVzcG9uc2UgbGVuZ3RoIGZvcndhcmRpbmcnCiAgYXNzZXJ0X25vdF9jb250YWlucyAiJHtjZ2l9IiAnSFRUUF9IT1NUJyAncmV0aXJlZCBDR0kgYXV0aG9yaXR5IGZvcndhcmRpbmcnCiAgYXNzZXJ0X25vdF9jb250YWlucyAiJHtjZ2l9IiAnUFVCTElDX1NDSEVNRScgJ3JldGlyZWQgQ0dJIHNjaGVtZSByZXNvbHV0aW9uJwogIGFzc2VydF9ub3RfY29udGFpbnMgIiR7Y2dpfSIgJ0hUVFBfU0VDX0ZFVENIX1NJVEUnICdyZXRpcmVkIEZldGNoIE1ldGFkYXRhIGZvcndhcmRpbmcnCiAgYXNzZXJ0X25vdF9jb250YWlucyAiJHtjZ2l9IiAnSFRUUF9YX0ZOX0tOT0NLX0JST1dTRVJfT1JJR0lOJyAncmV0aXJlZCBicm93c2VyLW9yaWdpbiBwcm9vZicKICBhc3NlcnRfbm90X2NvbnRhaW5zICIke2NnaX0iICdzfHNyYz0iL3xzcmM9Ii4vfGcnICdjb21wcmVzc2VkIHJlc3BvbnNlIGJvZHkgbXV0YXRpb24nCmRvbmUKCmZvciBjZ2kgaW4gXAogICIke1JPT1RfRElSfS9hcHBzL2ZuLWtub2NrL2FwcC91aS9pbmRleC5jZ2kiIFwKICAiJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay1saXRlL2FwcC91aS9pbmRleC5jZ2kiCmRvCiAgYXNzZXJ0X25vdF9jb250YWlucyAiJHtjZ2l9IiAnSFRUUF9BQ0NFUFRfRU5DT0RJTkcnICdmbk9TIFdlYlZpZXcgY29tcHJlc3Npb24gbmVnb3RpYXRpb24nCiAgYXNzZXJ0X25vdF9jb250YWlucyAiJHtjZ2l9IiAnLUggImFjY2VwdC1lbmNvZGluZzonICdmbk9TIFdlYlZpZXcgQWNjZXB0LUVuY29kaW5nIHVwc3RyZWFtIGhlYWRlcicKICBhc3NlcnRfbm90X2NvbnRhaW5zICIke2NnaX0iICdlbWl0X3Vwc3RyZWFtX2hlYWRlciAiQ29udGVudC1FbmNvZGluZyInICdmbk9TIFdlYlZpZXcgcmVzcG9uc2UgZW5jb2RpbmcgZm9yd2FyZGluZycKZG9uZQoKU1lOT0xPR1lfQ0dJPSIke1JPT1RfRElSfS9hcHBzL2ZuLWtub2NrLXN5bm9sb2d5L3BhY2thZ2UvdWkvaW5kZXguY2dpIgphc3NlcnRfY29udGFpbnMgIiR7U1lOT0xPR1lfQ0dJfSIgJ0hUVFBfQUNDRVBUX0VOQ09ESU5HJyAnU3lub2xvZ3kgY29tcHJlc3Npb24gbmVnb3RpYXRpb24gZm9yd2FyZGluZycKYXNzZXJ0X2NvbnRhaW5zICIke1NZTk9MT0dZX0NHSX0iICctSCAiYWNjZXB0LWVuY29kaW5nOicgJ1N5bm9sb2d5IEFjY2VwdC1FbmNvZGluZyB1cHN0cmVhbSBoZWFkZXInCmFzc2VydF9jb250YWlucyAiJHtTWU5PTE9HWV9DR0l9IiAnQ29udGVudC1FbmNvZGluZycgJ1N5bm9sb2d5IGNvbXByZXNzZWQgcmVzcG9uc2UgZW5jb2RpbmcgZm9yd2FyZGluZycKCmFzc2VydF9ub3RfY29udGFpbnMgIiR7Uk9VVEVSfSIgJ3NhbWVfb3JpZ2luX21pZGRsZXdhcmUnICdyZXRpcmVkIHJlcXVlc3Qtb3JpZ2luIG1pZGRsZXdhcmUnCmFzc2VydF9ub3RfY29udGFpbnMgIiR7Uk9VVEVSfSIgJ2Jyb3dzZXJfcmVxdWVzdF9vcmlnaW5fYWxsb3dlZCcgJ3JldGlyZWQgcmVxdWVzdC1vcmlnaW4gZmlsdGVyJwphc3NlcnRfbm90X2NvbnRhaW5zICIke0FETUlOX0NMSUVOVH0iICdYLUZuLUtub2NrLUJyb3dzZXItT3JpZ2luJyAncmV0aXJlZCBicm93c2VyLW9yaWdpbiBwcm9vZiBoZWFkZXInCmFzc2VydF9jb250YWlucyAiJHtGUEtfQ0dJfSIgJ1RBUkdFVF9IT1NUPSR7QURNSU5fVEFSR0VUX0hPU1Q6LSIxMjcuMC4wLjEifScgJ0ZQSyBsb29wYmFjayBSdXN0IHRhcmdldCcKCnRlcm1pbmFsX3JvdXRlX3Jvb3RzPSgiJHtST09UX0RJUn0vYXBwcyIgIiR7Uk9PVF9ESVJ9L3Byb3RvIikKWyAhIC1kICIke0dPX1JFUE9TSVRPUll9IiBdIHx8IHRlcm1pbmFsX3JvdXRlX3Jvb3RzKz0oIiR7R09fUkVQT1NJVE9SWX0iKQppZiByZyAtRiAnL2FwaS9hZG1pbi90ZXJtaW5hbC9sb2NhbCcgIiR7dGVybWluYWxfcm91dGVfcm9vdHNbQF19IiBcCiAgLS1nbG9iICcqLmdvJyAtLWdsb2IgJyoucHJvdG8nID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGZhaWwgJ2xvY2FsIHRlcm1pbmFsIEFQSSBtdXN0IG5vdCBiZSByb3V0ZWQgdGhyb3VnaCB0aGUgR28gZ2F0ZXdheSBvciBnUlBDL3Byb3RvJwpmaQoKbWtkaXIgLXAgIiR7V09SS19ESVJ9L2JpbiIKY2F0ID4gIiR7V09SS19ESVJ9L2Jpbi9jdXJsIiA8PCdGQUtFX0NVUkwnCiMhL2Jpbi9zaApoZWFkZXJfZmlsZT0iIgpib2R5X2ZpbGU9IiIKYWNjZXB0X2VuY29kaW5nPSIiCnRhcmdldF91cmw9IiIKcmVxdWVzdF9tZXRob2Q9IkdFVCIKZm9yd2FyZF9ib2R5PSJmYWxzZSIKd2hpbGUgWyAiJCMiIC1ndCAwIF07IGRvCiAgY2FzZSAiJDEiIGluCiAgICAtRCkKICAgICAgaGVhZGVyX2ZpbGU9IiQyIgogICAgICBzaGlmdCAyCiAgICAgIDs7CiAgICAtbykKICAgICAgYm9keV9maWxlPSIkMiIKICAgICAgc2hpZnQgMgogICAgICA7OwogICAgLUgpCiAgICAgIGNhc2UgIiQyIiBpbgogICAgICAgIGFjY2VwdC1lbmNvZGluZzoqKSBhY2NlcHRfZW5jb2Rpbmc9IiR7MiNhY2NlcHQtZW5jb2Rpbmc6IH0iIDs7CiAgICAgIGVzYWMKICAgICAgc2hpZnQgMgogICAgICA7OwogICAgLVgpCiAgICAgIHJlcXVlc3RfbWV0aG9kPSIkMiIKICAgICAgc2hpZnQgMgogICAgICA7OwogICAgLS1kYXRhLWJpbmFyeSkKICAgICAgZm9yd2FyZF9ib2R5PSJ0cnVlIgogICAgICBzaGlmdCAyCiAgICAgIDs7CiAgICAqKQogICAgICB0YXJnZXRfdXJsPSIkMSIKICAgICAgc2hpZnQKICAgICAgOzsKICBlc2FjCmRvbmUKWyAiJHthY2NlcHRfZW5jb2Rpbmd9IiA9ICIke0VYUEVDVEVEX0FDQ0VQVF9FTkNPRElOR30iIF0gfHwgZXhpdCA2NQppZiBbICIke2ZvcndhcmRfYm9keX0iID0gInRydWUiIF07IHRoZW4KICBmb3J3YXJkZWRfYm9keT0iJChjYXQpIgplbHNlCiAgZm9yd2FyZGVkX2JvZHk9IiIKZmkKaWYgWyAtbiAiJHtDQVBUVVJFX0ZJTEU6LX0iIF07IHRoZW4KICB7CiAgICBwcmludGYgJ21ldGhvZD0lc1xuJyAiJHtyZXF1ZXN0X21ldGhvZH0iCiAgICBwcmludGYgJ3VybD0lc1xuJyAiJHt0YXJnZXRfdXJsfSIKICAgIHByaW50ZiAnYm9keT0lc1xuJyAiJHtmb3J3YXJkZWRfYm9keX0iCiAgfSA+ICIke0NBUFRVUkVfRklMRX0iCmZpCmJvZHk9J3Jhdy1zcmM9Ii9maXh0dXJlLmpzIicKY2FzZSAiJHt0YXJnZXRfdXJsfSIgaW4KICAqL2Fzc2V0cy8qKSBjb250ZW50X3R5cGU9J3RleHQvamF2YXNjcmlwdDsgY2hhcnNldD11dGYtOCcgOzsKICAqKSBjb250ZW50X3R5cGU9J3RleHQvaHRtbDsgY2hhcnNldD11dGYtOCcgOzsKZXNhYwpwcmludGYgJ0hUVFAvMS4xIDIwMCBPS1xyXG5Db250ZW50LVR5cGU6ICVzXHJcbkNhY2hlLUNvbnRyb2w6IHB1YmxpYywgbWF4LWFnZT0zMTUzNjAwMCwgaW1tdXRhYmxlXHJcbkNvbnRlbnQtTGVuZ3RoOiAlc1xyXG5WYXJ5OiBBY2NlcHQtRW5jb2RpbmdcclxuWC1Db250ZW50LVR5cGUtT3B0aW9uczogbm9zbmlmZlxyXG4nIFwKICAiJHtjb250ZW50X3R5cGV9IiAiJHsjYm9keX0iID4gIiR7aGVhZGVyX2ZpbGV9IgpwcmludGYgJ1xyXG4nID4+ICIke2hlYWRlcl9maWxlfSIKcHJpbnRmICclcycgIiR7Ym9keX0iID4gIiR7Ym9keV9maWxlfSIKRkFLRV9DVVJMCmNobW9kIDc1NSAiJHtXT1JLX0RJUn0vYmluL2N1cmwiCgpmb3IgY2dpIGluIFwKICAiJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay9hcHAvdWkvaW5kZXguY2dpIiBcCiAgIiR7Uk9PVF9ESVJ9L2FwcHMvZm4ta25vY2stbGl0ZS9hcHAvdWkvaW5kZXguY2dpIgpkbwogIG91dHB1dD0iJCgKICAgIFBBVEg9IiR7V09SS19ESVJ9L2Jpbjoke1BBVEh9IiBcCiAgICBFWFBFQ1RFRF9BQ0NFUFRfRU5DT0RJTkc9JycgXAogICAgSFRUUF9BQ0NFUFRfRU5DT0RJTkc9J2d6aXAsIGRlZmxhdGUsIGJyJyBcCiAgICBSRVFVRVNUX01FVEhPRD1HRVQgXAogICAgUkVRVUVTVF9VUkk9Jy9jZ2kvVGhpcmRQYXJ0eS9mbi1rbm9jay9pbmRleC5jZ2kvJyBcCiAgICAgIHNoICIke2NnaX0iCiAgKSIKICBub3JtYWxpemVkX291dHB1dD0iJChwcmludGYgJyVzJyAiJHtvdXRwdXR9IiB8IHRyIC1kICdccicpIgogIGlmIHByaW50ZiAnJXMnICIke25vcm1hbGl6ZWRfb3V0cHV0fSIgfCBncmVwIC1GcSAnQ29udGVudC1FbmNvZGluZzonOyB0aGVuCiAgICBmYWlsICJmbk9TIENHSSBmb3J3YXJkZWQgYSBjb21wcmVzc2VkIHJlcHJlc2VudGF0aW9uOiAke2NnaX0iCiAgZmkKICBwcmludGYgJyVzJyAiJHtub3JtYWxpemVkX291dHB1dH0iIHwgZ3JlcCAtRnEgJ1Zhcnk6IEFjY2VwdC1FbmNvZGluZycgfHwgXAogICAgZmFpbCAicmF3IHJlc3BvbnNlIGxvc3QgVmFyeTogJHtjZ2l9IgogIHByaW50ZiAnJXMnICIke25vcm1hbGl6ZWRfb3V0cHV0fSIgfCBncmVwIC1GcSBcCiAgICAnQ2FjaGUtQ29udHJvbDogcHJpdmF0ZSwgbm8tc3RvcmUsIG5vLWNhY2hlLCBtYXgtYWdlPTAsIG11c3QtcmV2YWxpZGF0ZScgfHwgXAogICAgZmFpbCAiaW5kZXggcmVzcG9uc2UgaXMgc3RvcmFibGU6ICR7Y2dpfSIKICBwcmludGYgJyVzJyAiJHtub3JtYWxpemVkX291dHB1dH0iIHwgZ3JlcCAtRnEgJ0NETi1DYWNoZS1Db250cm9sOiBuby1zdG9yZScgfHwgXAogICAgZmFpbCAiaW5kZXggcmVzcG9uc2UgYWxsb3dzIENETiBzdG9yYWdlOiAke2NnaX0iCiAgaWYgcHJpbnRmICclcycgIiR7bm9ybWFsaXplZF9vdXRwdXR9IiB8IGdyZXAgLUZxIFwKICAgICdDYWNoZS1Db250cm9sOiBwdWJsaWMsIG1heC1hZ2U9MzE1MzYwMDAsIGltbXV0YWJsZSc7IHRoZW4KICAgIGZhaWwgImluZGV4IHJlc3BvbnNlIHJldGFpbmVkIHRoZSBhc3NldCBjYWNoZSBwb2xpY3k6ICR7Y2dpfSIKICBmaQogIHByaW50ZiAnJXMnICIke25vcm1hbGl6ZWRfb3V0cHV0fSIgfCBncmVwIC1GcSAncmF3LXNyYz0iL2ZpeHR1cmUuanMiJyB8fCBcCiAgICBmYWlsICJyYXcgcmVzcG9uc2UgYm9keSB3YXMgY2hhbmdlZDogJHtjZ2l9IgoKICBmYWxsYmFja19vdXRwdXQ9IiQoCiAgICBQQVRIPSIke1dPUktfRElSfS9iaW46JHtQQVRIfSIgXAogICAgRVhQRUNURURfQUNDRVBUX0VOQ09ESU5HPScnIFwKICAgIEhUVFBfQUNDRVBUX0VOQ09ESU5HPSdnemlwLCBkZWZsYXRlLCBicicgXAogICAgUkVRVUVTVF9NRVRIT0Q9R0VUIFwKICAgIFJFUVVFU1RfVVJJPScvY2dpL1RoaXJkUGFydHkvZm4ta25vY2svaW5kZXguY2dpL3NldHRpbmdzJyBcCiAgICAgIHNoICIke2NnaX0iCiAgKSIKICBwcmludGYgJyVzJyAiJHtmYWxsYmFja19vdXRwdXR9IiB8IHRyIC1kICdccicgfCBncmVwIC1GcSBcCiAgICAnQ2FjaGUtQ29udHJvbDogcHJpdmF0ZSwgbm8tc3RvcmUsIG5vLWNhY2hlLCBtYXgtYWdlPTAsIG11c3QtcmV2YWxpZGF0ZScgfHwgXAogICAgZmFpbCAiSFRNTCBTUEEgZmFsbGJhY2sgaXMgc3RvcmFibGU6ICR7Y2dpfSIKCiAgYXNzZXRfb3V0cHV0PSIkKAogICAgUEFUSD0iJHtXT1JLX0RJUn0vYmluOiR7UEFUSH0iIFwKICAgIEVYUEVDVEVEX0FDQ0VQVF9FTkNPRElORz0nJyBcCiAgICBIVFRQX0FDQ0VQVF9FTkNPRElORz0nZ3ppcCwgZGVmbGF0ZSwgYnInIFwKICAgIFJFUVVFU1RfTUVUSE9EPUdFVCBcCiAgICBSRVFVRVNUX1VSST0nL2NnaS9UaGlyZFBhcnR5L2ZuLWtub2NrL2luZGV4LmNnaS9hc3NldHMvYXBwLUFCQ0RFRkcuanMnIFwKICAgICAgc2ggIiR7Y2dpfSIKICApIgogIHByaW50ZiAnJXMnICIke2Fzc2V0X291dHB1dH0iIHwgdHIgLWQgJ1xyJyB8IGdyZXAgLUZxIFwKICAgICdDYWNoZS1Db250cm9sOiBwdWJsaWMsIG1heC1hZ2U9MzE1MzYwMDAsIGltbXV0YWJsZScgfHwgXAogICAgZmFpbCAiZmluZ2VycHJpbnRlZCBhc3NldCBjYWNoZSBwb2xpY3kgd2FzIG5vdCBwcmVzZXJ2ZWQ6ICR7Y2dpfSIKICBwcmludGYgJyVzJyAiJHthc3NldF9vdXRwdXR9IiB8IHRyIC1kICdccicgfCBncmVwIC1GcSBcCiAgICAnWC1Db250ZW50LVR5cGUtT3B0aW9uczogbm9zbmlmZicgfHwgXAogICAgZmFpbCAic3RhdGljIGFzc2V0IGxvc3Qgbm9zbmlmZiBwcm90ZWN0aW9uOiAke2NnaX0iCmRvbmUKCmFzc2VydF9mcGtfdGVybWluYWxfZm9yd2FyZGluZygpIHsKICBsb2NhbCBtZXRob2Q9IiQxIiByZXF1ZXN0X3VyaT0iJDIiIHF1ZXJ5PSIkMyIgYm9keT0iJDQiIGV4cGVjdGVkX3VybD0iJDUiCiAgbG9jYWwgY2FwdHVyZV9maWxlPSIke1dPUktfRElSfS90ZXJtaW5hbC1mb3J3YXJkaW5nLmNhcHR1cmUiCiAgcHJpbnRmICclcycgIiR7Ym9keX0iIHwgXAogICAgUEFUSD0iJHtXT1JLX0RJUn0vYmluOiR7UEFUSH0iIFwKICAgIEVYUEVDVEVEX0FDQ0VQVF9FTkNPRElORz0nJyBcCiAgICBDQVBUVVJFX0ZJTEU9IiR7Y2FwdHVyZV9maWxlfSIgXAogICAgQURNSU5fVEFSR0VUX0hPU1Q9JzEyNy4wLjAuMScgXAogICAgQURNSU5fVEFSR0VUX1BPUlQ9Jzc5OTgnIFwKICAgIFJFUVVFU1RfTUVUSE9EPSIke21ldGhvZH0iIFwKICAgIFJFUVVFU1RfVVJJPSIke3JlcXVlc3RfdXJpfSIgXAogICAgUVVFUllfU1RSSU5HPSIke3F1ZXJ5fSIgXAogICAgICBzaCAiJHtGUEtfQ0dJfSIgPi9kZXYvbnVsbAogIGFzc2VydF9jb250YWlucyAiJHtjYXB0dXJlX2ZpbGV9IiAibWV0aG9kPSR7bWV0aG9kfSIgIkZQSyB0ZXJtaW5hbCBtZXRob2QgZm9yd2FyZGluZyIKICBhc3NlcnRfY29udGFpbnMgIiR7Y2FwdHVyZV9maWxlfSIgInVybD0ke2V4cGVjdGVkX3VybH0iICJGUEsgdGVybWluYWwgcXVlcnkgZm9yd2FyZGluZyIKICBhc3NlcnRfY29udGFpbnMgIiR7Y2FwdHVyZV9maWxlfSIgImJvZHk9JHtib2R5fSIgIkZQSyB0ZXJtaW5hbCBKU09OIGJvZHkgZm9yd2FyZGluZyIKfQoKYXNzZXJ0X2Zwa190ZXJtaW5hbF9mb3J3YXJkaW5nIFwKICBHRVQgXAogICcvY2dpL1RoaXJkUGFydHkvZm4ta25vY2svaW5kZXguY2dpL2FwaS9hZG1pbi90ZXJtaW5hbC9sb2NhbCcgXAogICcnIFwKICAnJyBcCiAgJ2h0dHA6Ly8xMjcuMC4wLjE6Nzk5OC9hcGkvYWRtaW4vdGVybWluYWwvbG9jYWwnCmFzc2VydF9mcGtfdGVybWluYWxfZm9yd2FyZGluZyBcCiAgUEFUQ0ggXAogICcvY2dpL1RoaXJkUGFydHkvZm4ta25vY2svaW5kZXguY2dpL2FwaS9hZG1pbi90ZXJtaW5hbC9sb2NhbD9mb3JjZT10cnVlJmNvbmZpcm1hdGlvblRva2VuPXRlcm1pbmFsLWNvbmZpcm1hdGlvbicgXAogICdmb3JjZT10cnVlJmNvbmZpcm1hdGlvblRva2VuPXRlcm1pbmFsLWNvbmZpcm1hdGlvbicgXAogICd7ImVuYWJsZWQiOmZhbHNlLCJyZXZpc2lvbiI6MSwiYWNrbm93bGVkZ2VSaXNrIjpmYWxzZX0nIFwKICAnaHR0cDovLzEyNy4wLjAuMTo3OTk4L2FwaS9hZG1pbi90ZXJtaW5hbC9sb2NhbD9mb3JjZT10cnVlJmNvbmZpcm1hdGlvblRva2VuPXRlcm1pbmFsLWNvbmZpcm1hdGlvbicKYXNzZXJ0X2Zwa190ZXJtaW5hbF9mb3J3YXJkaW5nIFwKICBQT1NUIFwKICAnL2NnaS9UaGlyZFBhcnR5L2ZuLWtub2NrL2luZGV4LmNnaS9hcGkvYWRtaW4vdGVybWluYWwvbG9jYWwvc2Vzc2lvbnMnIFwKICAnJyBcCiAgJ3siY29scyI6MTIwLCJyb3dzIjozMn0nIFwKICAnaHR0cDovLzEyNy4wLjAuMTo3OTk4L2FwaS9hZG1pbi90ZXJtaW5hbC9sb2NhbC9zZXNzaW9ucycKYXNzZXJ0X2Zwa190ZXJtaW5hbF9mb3J3YXJkaW5nIFwKICBHRVQgXAogICcvY2dpL1RoaXJkUGFydHkvZm4ta25vY2svaW5kZXguY2dpL2FwaS9hZG1pbi90ZXJtaW5hbC9hdHRhY2htZW50cy9hdHRhY2htZW50LTEvZXZlbnRzP2FmdGVyPTQmdGltZW91dE1zPTI1MDAwJyBcCiAgJ2FmdGVyPTQmdGltZW91dE1zPTI1MDAwJyBcCiAgJycgXAogICdodHRwOi8vMTI3LjAuMC4xOjc5OTgvYXBpL2FkbWluL3Rlcm1pbmFsL2F0dGFjaG1lbnRzL2F0dGFjaG1lbnQtMS9ldmVudHM/YWZ0ZXI9NCZ0aW1lb3V0TXM9MjUwMDAnCgpwcmludGYgJ1t0ZXN0LWNnaS1wcm94eS1jb250cmFjdF0gQ0dJIGZvcndhcmRpbmcsIGxvY2FsIHRlcm1pbmFsLCBhbmQgZm5PUyBXZWJWaWV3IGNvbXByZXNzaW9uIGNvbnRyYWN0IHBhc3NlZFxuJwo=
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+ROUTER="${ROOT_DIR}/apps/server-admin-rs/src/app/router.rs"
+ADMIN_CLIENT="${ROOT_DIR}/apps/server-admin-view/src/lib/api/client.ts"
+FPK_CGI="${ROOT_DIR}/apps/fn-knock/app/ui/index.cgi"
+GO_REPOSITORY="${FN_KNOCK_GO_REAUTH_PROXY_DIR:-${ROOT_DIR}/../Go-Reauth-Proxy}"
+WORK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/fn-knock-cgi-compression.XXXXXX")"
+trap 'rm -rf "${WORK_DIR}"' EXIT
+
+fail() {
+  printf '[test-cgi-proxy-contract] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+assert_contains() {
+  local file="$1" expected="$2" label="$3"
+  grep -Fq -- "${expected}" "${file}" || fail "${label}: ${file} is missing ${expected}"
+}
+
+assert_not_contains() {
+  local file="$1" unexpected="$2" label="$3"
+  if grep -Fq -- "${unexpected}" "${file}"; then
+    fail "${label}: ${file} unexpectedly contains ${unexpected}"
+  fi
+}
+
+for cgi in \
+  "${ROOT_DIR}/apps/fn-knock/app/ui/index.cgi" \
+  "${ROOT_DIR}/apps/fn-knock-lite/app/ui/index.cgi" \
+  "${ROOT_DIR}/apps/fn-knock-synology/package/ui/index.cgi"
+do
+  sh -n "${cgi}" || fail "invalid CGI shell syntax: ${cgi}"
+  assert_contains "${cgi}" 'HTTP_ORIGIN' 'browser Origin forwarding'
+  assert_contains "${cgi}" 'Content-Length' 'response length forwarding'
+  assert_not_contains "${cgi}" 'HTTP_HOST' 'retired CGI authority forwarding'
+  assert_not_contains "${cgi}" 'PUBLIC_SCHEME' 'retired CGI scheme resolution'
+  assert_not_contains "${cgi}" 'HTTP_SEC_FETCH_SITE' 'retired Fetch Metadata forwarding'
+  assert_not_contains "${cgi}" 'HTTP_X_FN_KNOCK_BROWSER_ORIGIN' 'retired browser-origin proof'
+  assert_not_contains "${cgi}" 's|src="/|src="./|g' 'compressed response body mutation'
+done
+
+for cgi in \
+  "${ROOT_DIR}/apps/fn-knock/app/ui/index.cgi" \
+  "${ROOT_DIR}/apps/fn-knock-lite/app/ui/index.cgi"
+do
+  assert_not_contains "${cgi}" 'HTTP_ACCEPT_ENCODING' 'fnOS WebView compression negotiation'
+  assert_not_contains "${cgi}" '-H "accept-encoding:' 'fnOS WebView Accept-Encoding upstream header'
+  assert_not_contains "${cgi}" 'emit_upstream_header "Content-Encoding"' 'fnOS WebView response encoding forwarding'
+done
+
+SYNOLOGY_CGI="${ROOT_DIR}/apps/fn-knock-synology/package/ui/index.cgi"
+assert_contains "${SYNOLOGY_CGI}" 'HTTP_ACCEPT_ENCODING' 'Synology compression negotiation forwarding'
+assert_contains "${SYNOLOGY_CGI}" '-H "accept-encoding:' 'Synology Accept-Encoding upstream header'
+assert_contains "${SYNOLOGY_CGI}" 'Content-Encoding' 'Synology compressed response encoding forwarding'
+
+assert_not_contains "${ROUTER}" 'same_origin_middleware' 'retired request-origin middleware'
+assert_not_contains "${ROUTER}" 'browser_request_origin_allowed' 'retired request-origin filter'
+assert_not_contains "${ADMIN_CLIENT}" 'X-Fn-Knock-Browser-Origin' 'retired browser-origin proof header'
+assert_contains "${FPK_CGI}" 'TARGET_HOST=${ADMIN_TARGET_HOST:-"127.0.0.1"}' 'FPK loopback Rust target'
+
+terminal_route_roots=("${ROOT_DIR}/apps" "${ROOT_DIR}/proto")
+[ ! -d "${GO_REPOSITORY}" ] || terminal_route_roots+=("${GO_REPOSITORY}")
+if rg -F '/api/admin/terminal/local' "${terminal_route_roots[@]}" \
+  --glob '*.go' --glob '*.proto' >/dev/null 2>&1; then
+  fail 'local terminal API must not be routed through the Go gateway or gRPC/proto'
+fi
+
+mkdir -p "${WORK_DIR}/bin"
+cat > "${WORK_DIR}/bin/curl" <<'FAKE_CURL'
+#!/bin/sh
+header_file=""
+body_file=""
+accept_encoding=""
+target_url=""
+request_method="GET"
+forward_body="false"
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    -D)
+      header_file="$2"
+      shift 2
+      ;;
+    -o)
+      body_file="$2"
+      shift 2
+      ;;
+    -H)
+      case "$2" in
+        accept-encoding:*) accept_encoding="${2#accept-encoding: }" ;;
+      esac
+      shift 2
+      ;;
+    -X)
+      request_method="$2"
+      shift 2
+      ;;
+    --data-binary)
+      forward_body="true"
+      shift 2
+      ;;
+    *)
+      target_url="$1"
+      shift
+      ;;
+  esac
+done
+[ "${accept_encoding}" = "${EXPECTED_ACCEPT_ENCODING}" ] || exit 65
+if [ "${forward_body}" = "true" ]; then
+  forwarded_body="$(cat)"
+else
+  forwarded_body=""
+fi
+if [ -n "${CAPTURE_FILE:-}" ]; then
+  {
+    printf 'method=%s\n' "${request_method}"
+    printf 'url=%s\n' "${target_url}"
+    printf 'body=%s\n' "${forwarded_body}"
+  } > "${CAPTURE_FILE}"
+fi
+body='raw-src="/fixture.js"'
+case "${target_url}" in
+  */assets/*) content_type='text/javascript; charset=utf-8' ;;
+  *) content_type='text/html; charset=utf-8' ;;
+esac
+printf 'HTTP/1.1 200 OK\r\nContent-Type: %s\r\nCache-Control: public, max-age=31536000, immutable\r\nContent-Length: %s\r\nVary: Accept-Encoding\r\nX-Content-Type-Options: nosniff\r\n' \
+  "${content_type}" "${#body}" > "${header_file}"
+printf '\r\n' >> "${header_file}"
+printf '%s' "${body}" > "${body_file}"
+FAKE_CURL
+chmod 755 "${WORK_DIR}/bin/curl"
+
+for cgi in \
+  "${ROOT_DIR}/apps/fn-knock/app/ui/index.cgi" \
+  "${ROOT_DIR}/apps/fn-knock-lite/app/ui/index.cgi"
+do
+  output="$(
+    PATH="${WORK_DIR}/bin:${PATH}" \
+    EXPECTED_ACCEPT_ENCODING='' \
+    HTTP_ACCEPT_ENCODING='gzip, deflate, br' \
+    REQUEST_METHOD=GET \
+    REQUEST_URI='/cgi/ThirdParty/fn-knock/index.cgi/' \
+      sh "${cgi}"
+  )"
+  normalized_output="$(printf '%s' "${output}" | tr -d '\r')"
+  if printf '%s' "${normalized_output}" | grep -Fq 'Content-Encoding:'; then
+    fail "fnOS CGI forwarded a compressed representation: ${cgi}"
+  fi
+  printf '%s' "${normalized_output}" | grep -Fq 'Vary: Accept-Encoding' || \
+    fail "raw response lost Vary: ${cgi}"
+  printf '%s' "${normalized_output}" | grep -Fq \
+    'Cache-Control: private, no-store, no-cache, max-age=0, must-revalidate' || \
+    fail "index response is storable: ${cgi}"
+  printf '%s' "${normalized_output}" | grep -Fq 'CDN-Cache-Control: no-store' || \
+    fail "index response allows CDN storage: ${cgi}"
+  if printf '%s' "${normalized_output}" | grep -Fq \
+    'Cache-Control: public, max-age=31536000, immutable'; then
+    fail "index response retained the asset cache policy: ${cgi}"
+  fi
+  printf '%s' "${normalized_output}" | grep -Fq 'raw-src="/fixture.js"' || \
+    fail "raw response body was changed: ${cgi}"
+
+  fallback_output="$(
+    PATH="${WORK_DIR}/bin:${PATH}" \
+    EXPECTED_ACCEPT_ENCODING='' \
+    HTTP_ACCEPT_ENCODING='gzip, deflate, br' \
+    REQUEST_METHOD=GET \
+    REQUEST_URI='/cgi/ThirdParty/fn-knock/index.cgi/settings' \
+      sh "${cgi}"
+  )"
+  printf '%s' "${fallback_output}" | tr -d '\r' | grep -Fq \
+    'Cache-Control: private, no-store, no-cache, max-age=0, must-revalidate' || \
+    fail "HTML SPA fallback is storable: ${cgi}"
+
+  asset_output="$(
+    PATH="${WORK_DIR}/bin:${PATH}" \
+    EXPECTED_ACCEPT_ENCODING='' \
+    HTTP_ACCEPT_ENCODING='gzip, deflate, br' \
+    REQUEST_METHOD=GET \
+    REQUEST_URI='/cgi/ThirdParty/fn-knock/index.cgi/assets/app-ABCDEFG.js' \
+      sh "${cgi}"
+  )"
+  printf '%s' "${asset_output}" | tr -d '\r' | grep -Fq \
+    'Cache-Control: public, max-age=31536000, immutable' || \
+    fail "fingerprinted asset cache policy was not preserved: ${cgi}"
+  printf '%s' "${asset_output}" | tr -d '\r' | grep -Fq \
+    'X-Content-Type-Options: nosniff' || \
+    fail "static asset lost nosniff protection: ${cgi}"
+done
+
+assert_fpk_terminal_forwarding() {
+  local method="$1" request_uri="$2" query="$3" body="$4" expected_url="$5"
+  local capture_file="${WORK_DIR}/terminal-forwarding.capture"
+  printf '%s' "${body}" | \
+    PATH="${WORK_DIR}/bin:${PATH}" \
+    EXPECTED_ACCEPT_ENCODING='' \
+    CAPTURE_FILE="${capture_file}" \
+    ADMIN_TARGET_HOST='127.0.0.1' \
+    ADMIN_TARGET_PORT='7998' \
+    REQUEST_METHOD="${method}" \
+    REQUEST_URI="${request_uri}" \
+    QUERY_STRING="${query}" \
+      sh "${FPK_CGI}" >/dev/null
+  assert_contains "${capture_file}" "method=${method}" "FPK terminal method forwarding"
+  assert_contains "${capture_file}" "url=${expected_url}" "FPK terminal query forwarding"
+  assert_contains "${capture_file}" "body=${body}" "FPK terminal JSON body forwarding"
+}
+
+assert_fpk_terminal_forwarding \
+  GET \
+  '/cgi/ThirdParty/fn-knock/index.cgi/api/admin/terminal/local' \
+  '' \
+  '' \
+  'http://127.0.0.1:7998/api/admin/terminal/local'
+assert_fpk_terminal_forwarding \
+  PATCH \
+  '/cgi/ThirdParty/fn-knock/index.cgi/api/admin/terminal/local?force=true&confirmationToken=terminal-confirmation' \
+  'force=true&confirmationToken=terminal-confirmation' \
+  '{"enabled":false,"revision":1,"acknowledgeRisk":false}' \
+  'http://127.0.0.1:7998/api/admin/terminal/local?force=true&confirmationToken=terminal-confirmation'
+assert_fpk_terminal_forwarding \
+  POST \
+  '/cgi/ThirdParty/fn-knock/index.cgi/api/admin/terminal/local/sessions' \
+  '' \
+  '{"cols":120,"rows":32}' \
+  'http://127.0.0.1:7998/api/admin/terminal/local/sessions'
+assert_fpk_terminal_forwarding \
+  GET \
+  '/cgi/ThirdParty/fn-knock/index.cgi/api/admin/terminal/attachments/attachment-1/events?after=4&timeoutMs=25000' \
+  'after=4&timeoutMs=25000' \
+  '' \
+  'http://127.0.0.1:7998/api/admin/terminal/attachments/attachment-1/events?after=4&timeoutMs=25000'
+
+printf '[test-cgi-proxy-contract] CGI forwarding, local terminal, and fnOS WebView compression contract passed\n'

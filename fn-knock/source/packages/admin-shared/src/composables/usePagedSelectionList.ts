@@ -1,1 +1,150 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uU2NvcGVEaXNwb3NlLCByZWYsIHNoYWxsb3dSZWYsIHdhdGNoIH0gZnJvbSAndnVlJzsKCmV4cG9ydCB0eXBlIFBhZ2VkUXVlcnlQYXJhbXMgPSB7CiAgcGFnZTogbnVtYmVyOwogIGxpbWl0OiBzdHJpbmc7CiAgcXVlcnk6IHN0cmluZzsKfTsKCmV4cG9ydCB0eXBlIFBhZ2VkUXVlcnlSZXN1bHQ8VEl0ZW0+ID0gewogIGl0ZW1zOiBUSXRlbVtdOwogIHRvdGFsOiBudW1iZXI7Cn07CgppbnRlcmZhY2UgVXNlUGFnZWRTZWxlY3Rpb25MaXN0T3B0aW9uczxUSXRlbSwgVEtleSBleHRlbmRzIHN0cmluZz4gewogIGZldGNoUGFnZTogKHBhcmFtczogUGFnZWRRdWVyeVBhcmFtcykgPT4gUHJvbWlzZTxQYWdlZFF1ZXJ5UmVzdWx0PFRJdGVtPj47CiAgZ2V0S2V5OiAoaXRlbTogVEl0ZW0pID0+IFRLZXk7CiAgb25FcnJvcjogKGVycm9yOiB1bmtub3duKSA9PiB2b2lkOwogIGluaXRpYWxMaW1pdD86IHN0cmluZzsKICBkZWJvdW5jZT86IG51bWJlcjsKICBjbGFtcFBhZ2VPbk92ZXJmbG93PzogYm9vbGVhbjsKfQoKZXhwb3J0IGZ1bmN0aW9uIHVzZVBhZ2VkU2VsZWN0aW9uTGlzdDxUSXRlbSwgVEtleSBleHRlbmRzIHN0cmluZz4oCiAgb3B0aW9uczogVXNlUGFnZWRTZWxlY3Rpb25MaXN0T3B0aW9uczxUSXRlbSwgVEtleT4sCikgewogIGNvbnN0IGl0ZW1zID0gc2hhbGxvd1JlZjxUSXRlbVtdPihbXSk7CiAgY29uc3QgdG90YWwgPSByZWYoMCk7CiAgY29uc3QgbG9hZGluZyA9IHJlZihmYWxzZSk7CiAgY29uc3Qgc2VhcmNoUXVlcnkgPSByZWYoJycpOwogIGNvbnN0IGN1cnJlbnRQYWdlID0gcmVmKDEpOwogIGNvbnN0IGxpbWl0ID0gcmVmKG9wdGlvbnMuaW5pdGlhbExpbWl0ID8/ICcyMCcpOwogIGNvbnN0IHNlbGVjdGVkS2V5cyA9IHNoYWxsb3dSZWY8U2V0PFRLZXk+PihuZXcgU2V0KCkpOwoKICBjb25zdCBwYXJzZWRMaW1pdCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IHZhbHVlID0gTnVtYmVyLnBhcnNlSW50KGxpbWl0LnZhbHVlLCAxMCk7CiAgICByZXR1cm4gTnVtYmVyLmlzRmluaXRlKHZhbHVlKSAmJiB2YWx1ZSA+IDAgPyB2YWx1ZSA6IDIwOwogIH0pOwoKICBjb25zdCB0b3RhbFBhZ2VzID0gY29tcHV0ZWQoKCkgPT4gTWF0aC5tYXgoMSwgTWF0aC5jZWlsKHRvdGFsLnZhbHVlIC8gcGFyc2VkTGltaXQudmFsdWUpKSk7CgogIGNvbnN0IGNsZWFyU2VsZWN0aW9uID0gKCkgPT4gewogICAgc2VsZWN0ZWRLZXlzLnZhbHVlID0gbmV3IFNldCgpOwogIH07CgogIGNvbnN0IHRvZ2dsZVNlbGVjdCA9IChrZXk6IFRLZXkpID0+IHsKICAgIGlmIChzZWxlY3RlZEtleXMudmFsdWUuaGFzKGtleSkpIHsKICAgICAgc2VsZWN0ZWRLZXlzLnZhbHVlLmRlbGV0ZShrZXkpOwogICAgfSBlbHNlIHsKICAgICAgc2VsZWN0ZWRLZXlzLnZhbHVlLmFkZChrZXkpOwogICAgfQogICAgc2VsZWN0ZWRLZXlzLnZhbHVlID0gbmV3IFNldChzZWxlY3RlZEtleXMudmFsdWUpOwogIH07CgogIGNvbnN0IGlzQWxsU2VsZWN0ZWQgPSBjb21wdXRlZCh7CiAgICBnZXQ6ICgpID0+CiAgICAgIGl0ZW1zLnZhbHVlLmxlbmd0aCA+IDAgJiYKICAgICAgaXRlbXMudmFsdWUuZXZlcnkoKGl0ZW0pID0+IHNlbGVjdGVkS2V5cy52YWx1ZS5oYXMob3B0aW9ucy5nZXRLZXkoaXRlbSkpKSwKICAgIHNldDogKGNoZWNrZWQ6IGJvb2xlYW4pID0+IHsKICAgICAgaWYgKGNoZWNrZWQpIHsKICAgICAgICBpdGVtcy52YWx1ZS5mb3JFYWNoKChpdGVtKSA9PiB7CiAgICAgICAgICBzZWxlY3RlZEtleXMudmFsdWUuYWRkKG9wdGlvbnMuZ2V0S2V5KGl0ZW0pKTsKICAgICAgICB9KTsKICAgICAgfSBlbHNlIHsKICAgICAgICBpdGVtcy52YWx1ZS5mb3JFYWNoKChpdGVtKSA9PiB7CiAgICAgICAgICBzZWxlY3RlZEtleXMudmFsdWUuZGVsZXRlKG9wdGlvbnMuZ2V0S2V5KGl0ZW0pKTsKICAgICAgICB9KTsKICAgICAgfQogICAgICBzZWxlY3RlZEtleXMudmFsdWUgPSBuZXcgU2V0KHNlbGVjdGVkS2V5cy52YWx1ZSk7CiAgICB9LAogIH0pOwoKICBjb25zdCBmZXRjaExpc3QgPSBhc3luYyAoKTogUHJvbWlzZTx2b2lkPiA9PiB7CiAgICBsb2FkaW5nLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IG9wdGlvbnMuZmV0Y2hQYWdlKHsKICAgICAgICBwYWdlOiBjdXJyZW50UGFnZS52YWx1ZSwKICAgICAgICBsaW1pdDogbGltaXQudmFsdWUsCiAgICAgICAgcXVlcnk6IHNlYXJjaFF1ZXJ5LnZhbHVlLAogICAgICB9KTsKICAgICAgaXRlbXMudmFsdWUgPSByZXN1bHQuaXRlbXM7CiAgICAgIHRvdGFsLnZhbHVlID0gcmVzdWx0LnRvdGFsOwoKICAgICAgaWYgKChvcHRpb25zLmNsYW1wUGFnZU9uT3ZlcmZsb3cgPz8gdHJ1ZSkgJiYgY3VycmVudFBhZ2UudmFsdWUgPiB0b3RhbFBhZ2VzLnZhbHVlKSB7CiAgICAgICAgY3VycmVudFBhZ2UudmFsdWUgPSB0b3RhbFBhZ2VzLnZhbHVlOwogICAgICAgIHJldHVybiBmZXRjaExpc3QoKTsKICAgICAgfQogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgb3B0aW9ucy5vbkVycm9yKGVycm9yKTsKICAgIH0gZmluYWxseSB7CiAgICAgIGxvYWRpbmcudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9OwoKICBjb25zdCBoYW5kbGVTZWFyY2ggPSAoKSA9PiB7CiAgICBjdXJyZW50UGFnZS52YWx1ZSA9IDE7CiAgICBmZXRjaExpc3QoKTsKICB9OwoKICBjb25zdCBoYW5kbGVQYWdlQ2hhbmdlID0gKHBhZ2U6IG51bWJlcikgPT4gewogICAgaWYgKHBhZ2UgPCAxIHx8IHBhZ2UgPiB0b3RhbFBhZ2VzLnZhbHVlKSByZXR1cm47CiAgICBjdXJyZW50UGFnZS52YWx1ZSA9IHBhZ2U7CiAgICBmZXRjaExpc3QoKTsKICB9OwoKICBjb25zdCBoYW5kbGVMaW1pdENoYW5nZSA9IChuZXdMaW1pdDogdW5rbm93bikgPT4gewogICAgaWYgKG5ld0xpbWl0ID09PSBudWxsIHx8IG5ld0xpbWl0ID09PSB1bmRlZmluZWQpIHJldHVybjsKICAgIGxpbWl0LnZhbHVlID0gU3RyaW5nKG5ld0xpbWl0KTsKICAgIGN1cnJlbnRQYWdlLnZhbHVlID0gMTsKICAgIGZldGNoTGlzdCgpOwogIH07CgogIGxldCBzZWFyY2hEZWJvdW5jZVRpbWVyOiBSZXR1cm5UeXBlPHR5cGVvZiBzZXRUaW1lb3V0PiB8IG51bGwgPSBudWxsOwoKICBjb25zdCBjbGVhclNlYXJjaERlYm91bmNlVGltZXIgPSAoKSA9PiB7CiAgICBpZiAoc2VhcmNoRGVib3VuY2VUaW1lciA9PT0gbnVsbCkgcmV0dXJuOwogICAgY2xlYXJUaW1lb3V0KHNlYXJjaERlYm91bmNlVGltZXIpOwogICAgc2VhcmNoRGVib3VuY2VUaW1lciA9IG51bGw7CiAgfTsKCiAgd2F0Y2goc2VhcmNoUXVlcnksICgpID0+IHsKICAgIGNsZWFyU2VhcmNoRGVib3VuY2VUaW1lcigpOwogICAgc2VhcmNoRGVib3VuY2VUaW1lciA9IHNldFRpbWVvdXQoKCkgPT4gewogICAgICBzZWFyY2hEZWJvdW5jZVRpbWVyID0gbnVsbDsKICAgICAgaGFuZGxlU2VhcmNoKCk7CiAgICB9LCBvcHRpb25zLmRlYm91bmNlID8/IDUwMCk7CiAgfSk7CgogIG9uU2NvcGVEaXNwb3NlKCgpID0+IHsKICAgIGNsZWFyU2VhcmNoRGVib3VuY2VUaW1lcigpOwogIH0pOwoKICByZXR1cm4gewogICAgaXRlbXMsCiAgICB0b3RhbCwKICAgIGxvYWRpbmcsCiAgICBzZWFyY2hRdWVyeSwKICAgIGN1cnJlbnRQYWdlLAogICAgbGltaXQsCiAgICBwYXJzZWRMaW1pdCwKICAgIHRvdGFsUGFnZXMsCiAgICBzZWxlY3RlZEtleXMsCiAgICBpc0FsbFNlbGVjdGVkLAogICAgZmV0Y2hMaXN0LAogICAgaGFuZGxlU2VhcmNoLAogICAgaGFuZGxlUGFnZUNoYW5nZSwKICAgIGhhbmRsZUxpbWl0Q2hhbmdlLAogICAgdG9nZ2xlU2VsZWN0LAogICAgY2xlYXJTZWxlY3Rpb24sCiAgfTsKfQo=
+import { computed, onScopeDispose, ref, shallowRef, watch } from 'vue';
+
+export type PagedQueryParams = {
+  page: number;
+  limit: string;
+  query: string;
+};
+
+export type PagedQueryResult<TItem> = {
+  items: TItem[];
+  total: number;
+};
+
+interface UsePagedSelectionListOptions<TItem, TKey extends string> {
+  fetchPage: (params: PagedQueryParams) => Promise<PagedQueryResult<TItem>>;
+  getKey: (item: TItem) => TKey;
+  onError: (error: unknown) => void;
+  initialLimit?: string;
+  debounce?: number;
+  clampPageOnOverflow?: boolean;
+}
+
+export function usePagedSelectionList<TItem, TKey extends string>(
+  options: UsePagedSelectionListOptions<TItem, TKey>,
+) {
+  const items = shallowRef<TItem[]>([]);
+  const total = ref(0);
+  const loading = ref(false);
+  const searchQuery = ref('');
+  const currentPage = ref(1);
+  const limit = ref(options.initialLimit ?? '20');
+  const selectedKeys = shallowRef<Set<TKey>>(new Set());
+
+  const parsedLimit = computed(() => {
+    const value = Number.parseInt(limit.value, 10);
+    return Number.isFinite(value) && value > 0 ? value : 20;
+  });
+
+  const totalPages = computed(() => Math.max(1, Math.ceil(total.value / parsedLimit.value)));
+
+  const clearSelection = () => {
+    selectedKeys.value = new Set();
+  };
+
+  const toggleSelect = (key: TKey) => {
+    if (selectedKeys.value.has(key)) {
+      selectedKeys.value.delete(key);
+    } else {
+      selectedKeys.value.add(key);
+    }
+    selectedKeys.value = new Set(selectedKeys.value);
+  };
+
+  const isAllSelected = computed({
+    get: () =>
+      items.value.length > 0 &&
+      items.value.every((item) => selectedKeys.value.has(options.getKey(item))),
+    set: (checked: boolean) => {
+      if (checked) {
+        items.value.forEach((item) => {
+          selectedKeys.value.add(options.getKey(item));
+        });
+      } else {
+        items.value.forEach((item) => {
+          selectedKeys.value.delete(options.getKey(item));
+        });
+      }
+      selectedKeys.value = new Set(selectedKeys.value);
+    },
+  });
+
+  const fetchList = async (): Promise<void> => {
+    loading.value = true;
+    try {
+      const result = await options.fetchPage({
+        page: currentPage.value,
+        limit: limit.value,
+        query: searchQuery.value,
+      });
+      items.value = result.items;
+      total.value = result.total;
+
+      if ((options.clampPageOnOverflow ?? true) && currentPage.value > totalPages.value) {
+        currentPage.value = totalPages.value;
+        return fetchList();
+      }
+    } catch (error) {
+      options.onError(error);
+    } finally {
+      loading.value = false;
+    }
+  };
+
+  const handleSearch = () => {
+    currentPage.value = 1;
+    fetchList();
+  };
+
+  const handlePageChange = (page: number) => {
+    if (page < 1 || page > totalPages.value) return;
+    currentPage.value = page;
+    fetchList();
+  };
+
+  const handleLimitChange = (newLimit: unknown) => {
+    if (newLimit === null || newLimit === undefined) return;
+    limit.value = String(newLimit);
+    currentPage.value = 1;
+    fetchList();
+  };
+
+  let searchDebounceTimer: ReturnType<typeof setTimeout> | null = null;
+
+  const clearSearchDebounceTimer = () => {
+    if (searchDebounceTimer === null) return;
+    clearTimeout(searchDebounceTimer);
+    searchDebounceTimer = null;
+  };
+
+  watch(searchQuery, () => {
+    clearSearchDebounceTimer();
+    searchDebounceTimer = setTimeout(() => {
+      searchDebounceTimer = null;
+      handleSearch();
+    }, options.debounce ?? 500);
+  });
+
+  onScopeDispose(() => {
+    clearSearchDebounceTimer();
+  });
+
+  return {
+    items,
+    total,
+    loading,
+    searchQuery,
+    currentPage,
+    limit,
+    parsedLimit,
+    totalPages,
+    selectedKeys,
+    isAllSelected,
+    fetchList,
+    handleSearch,
+    handlePageChange,
+    handleLimitChange,
+    toggleSelect,
+    clearSelection,
+  };
+}

@@ -1,1 +1,48 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IENoZXZyb25SaWdodCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CgpkZWZpbmVQcm9wczx7CiAgdGl0bGU6IHN0cmluZzsKICBkZXNjcmlwdGlvbjogc3RyaW5nOwogIGF2YWlsYWJsZTogYm9vbGVhbjsKICBkaXNhYmxlZFJlYXNvbjogc3RyaW5nOwp9PigpOwoKZGVmaW5lRW1pdHM8eyBvcGVuOiBbXSB9PigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8YnV0dG9uCiAgICB0eXBlPSJidXR0b24iCiAgICBjbGFzcz0iZmxleCB3LWZ1bGwgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBwLTYgdGV4dC1sZWZ0IHRyYW5zaXRpb24tY29sb3JzIgogICAgOmNsYXNzPSIKICAgICAgYXZhaWxhYmxlCiAgICAgICAgPyAnYmctbXV0ZWQvNSBob3ZlcjpiZy1tdXRlZC8xNScKICAgICAgICA6ICdjdXJzb3Itbm90LWFsbG93ZWQgYmctbXV0ZWQvNScKICAgICIKICAgIDpkaXNhYmxlZD0iIWF2YWlsYWJsZSIKICAgIEBjbGljaz0iJGVtaXQoJ29wZW4nKSIKICA+CiAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEgcHItNiI+CiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0idGV4dC1iYXNlIGZvbnQtbWVkaXVtIgogICAgICAgIDpjbGFzcz0iYXZhaWxhYmxlID8gJ3RleHQtZm9yZWdyb3VuZCcgOiAndGV4dC16aW5jLTUwMCciCiAgICAgID4KICAgICAgICB7eyB0aXRsZSB9fQogICAgICA8L2Rpdj4KICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJ0ZXh0LXNtIgogICAgICAgIDpjbGFzcz0iYXZhaWxhYmxlID8gJ3RleHQtbXV0ZWQtZm9yZWdyb3VuZCcgOiAndGV4dC16aW5jLTUwMCciCiAgICAgID4KICAgICAgICB7eyBkZXNjcmlwdGlvbiB9fQogICAgICA8L2Rpdj4KICAgICAgPGRpdiB2LWlmPSIhYXZhaWxhYmxlIiBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC16aW5jLTUwMCI+CiAgICAgICAge3sgZGlzYWJsZWRSZWFzb24gfX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICAgIDxDaGV2cm9uUmlnaHQKICAgICAgY2xhc3M9ImgtNSB3LTUgc2hyaW5rLTAiCiAgICAgIDpjbGFzcz0iYXZhaWxhYmxlID8gJ3RleHQtbXV0ZWQtZm9yZWdyb3VuZCcgOiAndGV4dC16aW5jLTQwMCciCiAgICAvPgogIDwvYnV0dG9uPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { ChevronRight } from "lucide-vue-next";
+
+defineProps<{
+  title: string;
+  description: string;
+  available: boolean;
+  disabledReason: string;
+}>();
+
+defineEmits<{ open: [] }>();
+</script>
+
+<template>
+  <button
+    type="button"
+    class="flex w-full items-center justify-between p-6 text-left transition-colors"
+    :class="
+      available
+        ? 'bg-muted/5 hover:bg-muted/15'
+        : 'cursor-not-allowed bg-muted/5'
+    "
+    :disabled="!available"
+    @click="$emit('open')"
+  >
+    <div class="space-y-1 pr-6">
+      <div
+        class="text-base font-medium"
+        :class="available ? 'text-foreground' : 'text-zinc-500'"
+      >
+        {{ title }}
+      </div>
+      <div
+        class="text-sm"
+        :class="available ? 'text-muted-foreground' : 'text-zinc-500'"
+      >
+        {{ description }}
+      </div>
+      <div v-if="!available" class="text-xs leading-5 text-zinc-500">
+        {{ disabledReason }}
+      </div>
+    </div>
+    <ChevronRight
+      class="h-5 w-5 shrink-0"
+      :class="available ? 'text-muted-foreground' : 'text-zinc-400'"
+    />
+  </button>
+</template>

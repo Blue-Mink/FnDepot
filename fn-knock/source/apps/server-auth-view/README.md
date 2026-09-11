@@ -1,1 +1,5 @@
-IyBWdWUgMyArIFR5cGVTY3JpcHQgKyBWaXRlCgpUaGlzIHRlbXBsYXRlIHNob3VsZCBoZWxwIGdldCB5b3Ugc3RhcnRlZCBkZXZlbG9waW5nIHdpdGggVnVlIDMgYW5kIFR5cGVTY3JpcHQgaW4gVml0ZS4gVGhlIHRlbXBsYXRlIHVzZXMgVnVlIDMgYDxzY3JpcHQgc2V0dXA+YCBTRkNzLCBjaGVjayBvdXQgdGhlIFtzY3JpcHQgc2V0dXAgZG9jc10oaHR0cHM6Ly92My52dWVqcy5vcmcvYXBpL3NmYy1zY3JpcHQtc2V0dXAuaHRtbCNzZmMtc2NyaXB0LXNldHVwKSB0byBsZWFybiBtb3JlLgoKTGVhcm4gbW9yZSBhYm91dCB0aGUgcmVjb21tZW5kZWQgUHJvamVjdCBTZXR1cCBhbmQgSURFIFN1cHBvcnQgaW4gdGhlIFtWdWUgRG9jcyBUeXBlU2NyaXB0IEd1aWRlXShodHRwczovL3Z1ZWpzLm9yZy9ndWlkZS90eXBlc2NyaXB0L292ZXJ2aWV3Lmh0bWwjcHJvamVjdC1zZXR1cCkuCg==
+# Vue 3 + TypeScript + Vite
+
+This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+
+Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).

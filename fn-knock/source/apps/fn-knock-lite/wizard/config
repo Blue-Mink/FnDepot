@@ -1,1 +1,75 @@
-WwogIHsKICAgICJzdGVwVGl0bGUiOiAi6L+Q6KGM56uv5Y+j6K6+572uIiwKICAgICJpdGVtcyI6IFsKICAgICAgewogICAgICAgICJ0eXBlIjogInRpcHMiLAogICAgICAgICJoZWxwVGV4dCI6ICLkv67mlLnlkI7kvJrlhpnlhaXnjq/looPlj5jph4/lubboh6rliqjph43lkK/jgILpnZ4gUm9vdCDniYjmnKzku4XlhYHorrggMTAyNC02NTUzNe+8jOS4lOWbm+S4querr+WPo+S4jeiDvemHjeWkjeOAgiIKICAgICAgfSwKICAgICAgewogICAgICAgICJ0eXBlIjogInRleHQiLAogICAgICAgICJmaWVsZCI6ICJ3aXphcmRfYmFja2VuZF9wb3J0IiwKICAgICAgICAibGFiZWwiOiAi566h55CG5ZCO56uv56uv5Y+jIChCQUNLRU5EX1BPUlQpIiwKICAgICAgICAiaW5pdFZhbHVlIjogIjg5OTgiLAogICAgICAgICJydWxlcyI6IFsKICAgICAgICAgIHsKICAgICAgICAgICAgInJlcXVpcmVkIjogdHJ1ZSwKICAgICAgICAgICAgIm1lc3NhZ2UiOiAi6K+36L6T5YWl566h55CG5ZCO56uv56uv5Y+jIgogICAgICAgICAgfSwKICAgICAgICAgIHsKICAgICAgICAgICAgInBhdHRlcm4iOiAiXigxMDJbNC05XXwxMFszLTldWzAtOV18MVsxLTldWzAtOV17Mn18WzItOV1bMC05XXszfXxbMS01XVswLTldezR9fDZbMC00XVswLTldezN9fDY1WzAtNF1bMC05XXsyfXw2NTVbMC0yXVswLTldfDY1NTNbMC01XSkkIiwKICAgICAgICAgICAgIm1lc3NhZ2UiOiAiTGl0ZSDnq6/lj6Plv4XpobvmmK8gMTAyNC02NTUzNSDnmoTmlbDlrZciCiAgICAgICAgICB9CiAgICAgICAgXQogICAgICB9LAogICAgICB7CiAgICAgICAgInR5cGUiOiAidGV4dCIsCiAgICAgICAgImZpZWxkIjogIndpemFyZF9hdXRoX3BvcnQiLAogICAgICAgICJsYWJlbCI6ICLorqTor4Hnq6/lj6MgKEFVVEhfUE9SVCkiLAogICAgICAgICJpbml0VmFsdWUiOiAiODk5NyIsCiAgICAgICAgInJ1bGVzIjogWwogICAgICAgICAgewogICAgICAgICAgICAicmVxdWlyZWQiOiB0cnVlLAogICAgICAgICAgICAibWVzc2FnZSI6ICLor7fovpPlhaXorqTor4Hnq6/lj6MiCiAgICAgICAgICB9LAogICAgICAgICAgewogICAgICAgICAgICAicGF0dGVybiI6ICJeKDEwMls0LTldfDEwWzMtOV1bMC05XXwxWzEtOV1bMC05XXsyfXxbMi05XVswLTldezN9fFsxLTVdWzAtOV17NH18NlswLTRdWzAtOV17M318NjVbMC00XVswLTldezJ9fDY1NVswLTJdWzAtOV18NjU1M1swLTVdKSQiLAogICAgICAgICAgICAibWVzc2FnZSI6ICJMaXRlIOerr+WPo+W/hemhu+aYryAxMDI0LTY1NTM1IOeahOaVsOWtlyIKICAgICAgICAgIH0KICAgICAgICBdCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAidHlwZSI6ICJ0ZXh0IiwKICAgICAgICAiZmllbGQiOiAid2l6YXJkX2dvX2JhY2tlbmRfcG9ydCIsCiAgICAgICAgImxhYmVsIjogIkdvIOeuoeeQhuerr+WPoyAoR09fQkFDS0VORF9QT1JUKSIsCiAgICAgICAgImluaXRWYWx1ZSI6ICI4OTk2IiwKICAgICAgICAicnVsZXMiOiBbCiAgICAgICAgICB7CiAgICAgICAgICAgICJyZXF1aXJlZCI6IHRydWUsCiAgICAgICAgICAgICJtZXNzYWdlIjogIuivt+i+k+WFpSBHbyDnrqHnkIbnq6/lj6MiCiAgICAgICAgICB9LAogICAgICAgICAgewogICAgICAgICAgICAicGF0dGVybiI6ICJeKDEwMls0LTldfDEwWzMtOV1bMC05XXwxWzEtOV1bMC05XXsyfXxbMi05XVswLTldezN9fFsxLTVdWzAtOV17NH18NlswLTRdWzAtOV17M318NjVbMC00XVswLTldezJ9fDY1NVswLTJdWzAtOV18NjU1M1swLTVdKSQiLAogICAgICAgICAgICAibWVzc2FnZSI6ICJMaXRlIOerr+WPo+W/hemhu+aYryAxMDI0LTY1NTM1IOeahOaVsOWtlyIKICAgICAgICAgIH0KICAgICAgICBdCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAidHlwZSI6ICJ0ZXh0IiwKICAgICAgICAiZmllbGQiOiAid2l6YXJkX2dvX3JlcHJveHlfcG9ydCIsCiAgICAgICAgImxhYmVsIjogIkdvIOS7o+eQhuerr+WPoyAoR09fUkVQUk9YWV9QT1JUKSIsCiAgICAgICAgImluaXRWYWx1ZSI6ICI4OTk5IiwKICAgICAgICAicnVsZXMiOiBbCiAgICAgICAgICB7CiAgICAgICAgICAgICJyZXF1aXJlZCI6IHRydWUsCiAgICAgICAgICAgICJtZXNzYWdlIjogIuivt+i+k+WFpSBHbyDku6PnkIbnq6/lj6MiCiAgICAgICAgICB9LAogICAgICAgICAgewogICAgICAgICAgICAicGF0dGVybiI6ICJeKDEwMls0LTldfDEwWzMtOV1bMC05XXwxWzEtOV1bMC05XXsyfXxbMi05XVswLTldezN9fFsxLTVdWzAtOV17NH18NlswLTRdWzAtOV17M318NjVbMC00XVswLTldezJ9fDY1NVswLTJdWzAtOV18NjU1M1swLTVdKSQiLAogICAgICAgICAgICAibWVzc2FnZSI6ICJMaXRlIOerr+WPo+W/hemhu+aYryAxMDI0LTY1NTM1IOeahOaVsOWtlyIKICAgICAgICAgIH0KICAgICAgICBdCiAgICAgIH0KICAgIF0KICB9Cl0K
+[
+  {
+    "stepTitle": "运行端口设置",
+    "items": [
+      {
+        "type": "tips",
+        "helpText": "修改后会写入环境变量并自动重启。非 Root 版本仅允许 1024-65535，且四个端口不能重复。"
+      },
+      {
+        "type": "text",
+        "field": "wizard_backend_port",
+        "label": "管理后端端口 (BACKEND_PORT)",
+        "initValue": "8998",
+        "rules": [
+          {
+            "required": true,
+            "message": "请输入管理后端端口"
+          },
+          {
+            "pattern": "^(102[4-9]|10[3-9][0-9]|1[1-9][0-9]{2}|[2-9][0-9]{3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])$",
+            "message": "Lite 端口必须是 1024-65535 的数字"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "field": "wizard_auth_port",
+        "label": "认证端口 (AUTH_PORT)",
+        "initValue": "8997",
+        "rules": [
+          {
+            "required": true,
+            "message": "请输入认证端口"
+          },
+          {
+            "pattern": "^(102[4-9]|10[3-9][0-9]|1[1-9][0-9]{2}|[2-9][0-9]{3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])$",
+            "message": "Lite 端口必须是 1024-65535 的数字"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "field": "wizard_go_backend_port",
+        "label": "Go 管理端口 (GO_BACKEND_PORT)",
+        "initValue": "8996",
+        "rules": [
+          {
+            "required": true,
+            "message": "请输入 Go 管理端口"
+          },
+          {
+            "pattern": "^(102[4-9]|10[3-9][0-9]|1[1-9][0-9]{2}|[2-9][0-9]{3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])$",
+            "message": "Lite 端口必须是 1024-65535 的数字"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "field": "wizard_go_reproxy_port",
+        "label": "Go 代理端口 (GO_REPROXY_PORT)",
+        "initValue": "8999",
+        "rules": [
+          {
+            "required": true,
+            "message": "请输入 Go 代理端口"
+          },
+          {
+            "pattern": "^(102[4-9]|10[3-9][0-9]|1[1-9][0-9]{2}|[2-9][0-9]{3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])$",
+            "message": "Lite 端口必须是 1024-65535 的数字"
+          }
+        ]
+      }
+    ]
+  }
+]

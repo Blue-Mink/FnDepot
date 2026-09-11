@@ -1,1 +1,228 @@
-aW1wb3J0IGF4aW9zIGZyb20gImF4aW9zIjsKaW1wb3J0IHsgaXNJbnZhbGlkQXBpUmVzcG9uc2VFcnJvciB9IGZyb20gIkBmcm9udGVuZC1jb3JlL2FwaS9jcmVhdGVBcGlDbGllbnQiOwoKY29uc3QgQVVUSF9CT09UU1RSQVBfUEFUSCA9ICIvX19hdXRoX18vYXBpL2F1dGgvYm9vdHN0cmFwIjsKY29uc3QgREVGQVVMVF9BVVRIX1BST0JFX1RJTUVPVVRfTVMgPSAzXzAwMDsKY29uc3QgREVGQVVMVF9OQVZJR0FUSU9OX0NPTkZJUk1fVElNRU9VVF9NUyA9IDNfMDAwOwoKdHlwZSBKc29uUmVjb3JkID0gUmVjb3JkPHN0cmluZywgdW5rbm93bj47CgpleHBvcnQgaW50ZXJmYWNlIEdhdGV3YXlBdXRoUmVjb3ZlcnlMb2NhdGlvbiB7CiAgaHJlZjogc3RyaW5nOwogIG9yaWdpbjogc3RyaW5nOwogIHJlcGxhY2UodXJsOiBzdHJpbmcpOiB2b2lkOwp9CgpleHBvcnQgaW50ZXJmYWNlIEdhdGV3YXlBdXRoUmVjb3ZlcnlPcHRpb25zIHsKICBmZXRjaEltcGw6IHR5cGVvZiBmZXRjaDsKICBsb2NhdGlvbjogR2F0ZXdheUF1dGhSZWNvdmVyeUxvY2F0aW9uOwogIG5hdmlnYXRpb25UYXJnZXQ/OiBQaWNrPFdpbmRvdywgImFkZEV2ZW50TGlzdGVuZXIiIHwgInJlbW92ZUV2ZW50TGlzdGVuZXIiPjsKICBuYXZpZ2F0aW9uVGltZW91dE1zPzogbnVtYmVyOwogIHRpbWVvdXRNcz86IG51bWJlcjsKICBub3c/OiAoKSA9PiBudW1iZXI7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgR2F0ZXdheUF1dGhSZWNvdmVyeSB7CiAgcmVjb3ZlcihlcnJvcjogdW5rbm93bik6IFByb21pc2U8Ym9vbGVhbj47Cn0KCmNvbnN0IGlzUmVjb3JkID0gKHZhbHVlOiB1bmtub3duKTogdmFsdWUgaXMgSnNvblJlY29yZCA9PgogIHR5cGVvZiB2YWx1ZSA9PT0gIm9iamVjdCIgJiYgdmFsdWUgIT09IG51bGwgJiYgIUFycmF5LmlzQXJyYXkodmFsdWUpOwoKaW50ZXJmYWNlIE5vcm1hbGl6ZWRHYXRld2F5QXV0aFJlY292ZXJ5T3B0aW9ucyB7CiAgZmV0Y2hJbXBsOiB0eXBlb2YgZmV0Y2g7CiAgbG9jYXRpb246IEdhdGV3YXlBdXRoUmVjb3ZlcnlMb2NhdGlvbjsKICBuYXZpZ2F0aW9uVGFyZ2V0PzogR2F0ZXdheUF1dGhSZWNvdmVyeU9wdGlvbnNbIm5hdmlnYXRpb25UYXJnZXQiXTsKICBuYXZpZ2F0aW9uVGltZW91dE1zOiBudW1iZXI7CiAgdGltZW91dE1zOiBudW1iZXI7CiAgbm93OiAoKSA9PiBudW1iZXI7Cn0KCmV4cG9ydCBjb25zdCBpc0F4aW9zTmV0d29ya0Vycm9yV2l0aG91dFJlc3BvbnNlID0gKGVycm9yOiB1bmtub3duKTogYm9vbGVhbiA9PiB7CiAgaWYgKCFheGlvcy5pc0F4aW9zRXJyb3IoZXJyb3IpIHx8IGVycm9yLnJlc3BvbnNlICE9IG51bGwpIHJldHVybiBmYWxzZTsKCiAgcmV0dXJuICgKICAgIGVycm9yLmNvZGUgPT09ICJFUlJfTkVUV09SSyIgfHwKICAgIGVycm9yLm1lc3NhZ2UudHJpbSgpLnRvTG93ZXJDYXNlKCkgPT09ICJuZXR3b3JrIGVycm9yIgogICk7Cn07CgpleHBvcnQgY29uc3QgaXNHYXRld2F5QXV0aFJlY292ZXJ5Q2FuZGlkYXRlID0gKGVycm9yOiB1bmtub3duKTogYm9vbGVhbiA9PgogIGlzQXhpb3NOZXR3b3JrRXJyb3JXaXRob3V0UmVzcG9uc2UoZXJyb3IpIHx8IGlzSW52YWxpZEFwaVJlc3BvbnNlRXJyb3IoZXJyb3IpOwoKY29uc3QgcmVhZFVuYXV0aGVudGljYXRlZFJlZGlyZWN0ID0gKHBheWxvYWQ6IHVua25vd24pOiBzdHJpbmcgfCBudWxsID0+IHsKICBpZiAoIWlzUmVjb3JkKHBheWxvYWQpIHx8IHBheWxvYWQuc3VjY2VzcyAhPT0gdHJ1ZSkgcmV0dXJuIG51bGw7CiAgY29uc3QgZGF0YSA9IHBheWxvYWQuZGF0YTsKICBpZiAoIWlzUmVjb3JkKGRhdGEpIHx8ICFpc1JlY29yZChkYXRhLmF1dGgpKSByZXR1cm4gbnVsbDsKICBpZiAoZGF0YS5hdXRoLmF1dGhlbnRpY2F0ZWQgIT09IGZhbHNlKSByZXR1cm4gbnVsbDsKCiAgcmV0dXJuIHR5cGVvZiBkYXRhLnJlZGlyZWN0X3RvID09PSAic3RyaW5nIiA/IGRhdGEucmVkaXJlY3RfdG8udHJpbSgpIDogIiI7Cn07Cgpjb25zdCBidWlsZExvZ2luUmVkaXJlY3QgPSAoCiAgcmVkaXJlY3RUbzogc3RyaW5nLAogIGxvY2F0aW9uOiBHYXRld2F5QXV0aFJlY292ZXJ5TG9jYXRpb24sCik6IHN0cmluZyB8IG51bGwgPT4gewogIGlmIChyZWRpcmVjdFRvKSB7CiAgICB0cnkgewogICAgICBjb25zdCBjYW5kaWRhdGUgPSBuZXcgVVJMKHJlZGlyZWN0VG8sIGxvY2F0aW9uLm9yaWdpbik7CiAgICAgIGlmICgKICAgICAgICAoY2FuZGlkYXRlLnByb3RvY29sID09PSAiaHR0cDoiIHx8IGNhbmRpZGF0ZS5wcm90b2NvbCA9PT0gImh0dHBzOiIpICYmCiAgICAgICAgY2FuZGlkYXRlLnVzZXJuYW1lID09PSAiIiAmJgogICAgICAgIGNhbmRpZGF0ZS5wYXNzd29yZCA9PT0gIiIgJiYKICAgICAgICBjYW5kaWRhdGUuaHJlZiAhPT0gbG9jYXRpb24uaHJlZgogICAgICApIHsKICAgICAgICByZXR1cm4gY2FuZGlkYXRlLmhyZWY7CiAgICAgIH0KICAgIH0gY2F0Y2ggewogICAgICAvLyBGYWxsIHRocm91Z2ggdG8gdGhlIGdhdGV3YXkncyBzYW1lLW9yaWdpbiBsb2dpbiByb3V0ZS4KICAgIH0KICB9CgogIHRyeSB7CiAgICBjb25zdCBmYWxsYmFjayA9IG5ldyBVUkwoIi9fX2F1dGhfXy9sb2dpbiIsIGxvY2F0aW9uLm9yaWdpbik7CiAgICBmYWxsYmFjay5zZWFyY2hQYXJhbXMuc2V0KCJyZWRpcmVjdF91cmkiLCBsb2NhdGlvbi5ocmVmKTsKICAgIHJldHVybiBmYWxsYmFjay5ocmVmOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIG51bGw7CiAgfQp9OwoKY29uc3QgcHJvYmVHYXRld2F5QXV0aCA9IGFzeW5jICh7CiAgZmV0Y2hJbXBsLAogIGxvY2F0aW9uLAogIHRpbWVvdXRNcywKICBub3csCn06IE5vcm1hbGl6ZWRHYXRld2F5QXV0aFJlY292ZXJ5T3B0aW9ucyk6IFByb21pc2U8c3RyaW5nIHwgbnVsbD4gPT4gewogIGNvbnN0IGNvbnRyb2xsZXIgPSBuZXcgQWJvcnRDb250cm9sbGVyKCk7CiAgY29uc3QgdGltZW91dCA9IGdsb2JhbFRoaXMuc2V0VGltZW91dCgKICAgICgpID0+IGNvbnRyb2xsZXIuYWJvcnQoKSwKICAgIE1hdGgubWF4KDEsIHRpbWVvdXRNcyksCiAgKTsKCiAgdHJ5IHsKICAgIGNvbnN0IHByb2JlVXJsID0gbmV3IFVSTChBVVRIX0JPT1RTVFJBUF9QQVRILCBsb2NhdGlvbi5vcmlnaW4pOwogICAgcHJvYmVVcmwuc2VhcmNoUGFyYW1zLnNldCgicmVkaXJlY3RfdXJpIiwgbG9jYXRpb24uaHJlZik7CiAgICBwcm9iZVVybC5zZWFyY2hQYXJhbXMuc2V0KCJfdHMiLCBub3coKS50b1N0cmluZygpKTsKCiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoSW1wbChwcm9iZVVybCwgewogICAgICBtZXRob2Q6ICJHRVQiLAogICAgICBjcmVkZW50aWFsczogImluY2x1ZGUiLAogICAgICBjYWNoZTogIm5vLXN0b3JlIiwKICAgICAgaGVhZGVyczogewogICAgICAgIEFjY2VwdDogImFwcGxpY2F0aW9uL2pzb24iLAogICAgICAgICJDYWNoZS1Db250cm9sIjogIm5vLWNhY2hlIiwKICAgICAgICBQcmFnbWE6ICJuby1jYWNoZSIsCiAgICAgIH0sCiAgICAgIHNpZ25hbDogY29udHJvbGxlci5zaWduYWwsCiAgICB9KTsKICAgIGlmICghcmVzcG9uc2Uub2spIHJldHVybiBudWxsOwoKICAgIGNvbnN0IG1lZGlhVHlwZSA9IHJlc3BvbnNlLmhlYWRlcnMKICAgICAgLmdldCgiY29udGVudC10eXBlIikKICAgICAgPy5zcGxpdCgiOyIsIDEpWzBdCiAgICAgID8udHJpbSgpCiAgICAgIC50b0xvd2VyQ2FzZSgpOwogICAgaWYgKG1lZGlhVHlwZSAhPT0gImFwcGxpY2F0aW9uL2pzb24iKSByZXR1cm4gbnVsbDsKCiAgICBjb25zdCByZWRpcmVjdFRvID0gcmVhZFVuYXV0aGVudGljYXRlZFJlZGlyZWN0KGF3YWl0IHJlc3BvbnNlLmpzb24oKSk7CiAgICBpZiAocmVkaXJlY3RUbyA9PT0gbnVsbCkgcmV0dXJuIG51bGw7CiAgICByZXR1cm4gYnVpbGRMb2dpblJlZGlyZWN0KHJlZGlyZWN0VG8sIGxvY2F0aW9uKTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBudWxsOwogIH0gZmluYWxseSB7CiAgICBnbG9iYWxUaGlzLmNsZWFyVGltZW91dCh0aW1lb3V0KTsKICB9Cn07CgppbnRlcmZhY2UgTmF2aWdhdGlvbkNvbmZpcm1hdGlvbiB7CiAgcmVzdWx0OiBQcm9taXNlPGJvb2xlYW4+OwogIGNhbmNlbCgpOiB2b2lkOwp9Cgpjb25zdCBiZWdpbk5hdmlnYXRpb25Db25maXJtYXRpb24gPSAoCiAgdGFyZ2V0OiBHYXRld2F5QXV0aFJlY292ZXJ5T3B0aW9uc1sibmF2aWdhdGlvblRhcmdldCJdLAogIHRpbWVvdXRNczogbnVtYmVyLAopOiBOYXZpZ2F0aW9uQ29uZmlybWF0aW9uID0+IHsKICBpZiAoIXRhcmdldCkgewogICAgcmV0dXJuIHsKICAgICAgcmVzdWx0OiBQcm9taXNlLnJlc29sdmUodHJ1ZSksCiAgICAgIGNhbmNlbCgpIHt9LAogICAgfTsKICB9CgogIGxldCBmaW5pc2g6IChjb25maXJtZWQ6IGJvb2xlYW4pID0+IHZvaWQgPSAoKSA9PiB1bmRlZmluZWQ7CiAgY29uc3QgcmVzdWx0ID0gbmV3IFByb21pc2U8Ym9vbGVhbj4oKHJlc29sdmUpID0+IHsKICAgIGxldCBjb21wbGV0ZWQgPSBmYWxzZTsKICAgIGNvbnN0IG9uUGFnZUhpZGUgPSAoKSA9PiBmaW5pc2godHJ1ZSk7CiAgICBjb25zdCB0aW1lb3V0ID0gZ2xvYmFsVGhpcy5zZXRUaW1lb3V0KAogICAgICAoKSA9PiBmaW5pc2goZmFsc2UpLAogICAgICBNYXRoLm1heCgxLCB0aW1lb3V0TXMpLAogICAgKTsKCiAgICBmaW5pc2ggPSAoY29uZmlybWVkKSA9PiB7CiAgICAgIGlmIChjb21wbGV0ZWQpIHJldHVybjsKICAgICAgY29tcGxldGVkID0gdHJ1ZTsKICAgICAgZ2xvYmFsVGhpcy5jbGVhclRpbWVvdXQodGltZW91dCk7CiAgICAgIHRhcmdldC5yZW1vdmVFdmVudExpc3RlbmVyKCJwYWdlaGlkZSIsIG9uUGFnZUhpZGUpOwogICAgICByZXNvbHZlKGNvbmZpcm1lZCk7CiAgICB9OwogICAgdGFyZ2V0LmFkZEV2ZW50TGlzdGVuZXIoInBhZ2VoaWRlIiwgb25QYWdlSGlkZSwgeyBvbmNlOiB0cnVlIH0pOwogIH0pOwoKICByZXR1cm4gewogICAgcmVzdWx0LAogICAgY2FuY2VsOiAoKSA9PiBmaW5pc2goZmFsc2UpLAogIH07Cn07CgpleHBvcnQgY29uc3QgY3JlYXRlR2F0ZXdheUF1dGhSZWNvdmVyeSA9ICgKICBvcHRpb25zOiBHYXRld2F5QXV0aFJlY292ZXJ5T3B0aW9ucywKKTogR2F0ZXdheUF1dGhSZWNvdmVyeSA9PiB7CiAgY29uc3Qgbm9ybWFsaXplZE9wdGlvbnM6IE5vcm1hbGl6ZWRHYXRld2F5QXV0aFJlY292ZXJ5T3B0aW9ucyA9IHsKICAgIC4uLm9wdGlvbnMsCiAgICBuYXZpZ2F0aW9uVGltZW91dE1zOgogICAgICBvcHRpb25zLm5hdmlnYXRpb25UaW1lb3V0TXMgPz8gREVGQVVMVF9OQVZJR0FUSU9OX0NPTkZJUk1fVElNRU9VVF9NUywKICAgIHRpbWVvdXRNczogb3B0aW9ucy50aW1lb3V0TXMgPz8gREVGQVVMVF9BVVRIX1BST0JFX1RJTUVPVVRfTVMsCiAgICBub3c6IG9wdGlvbnMubm93ID8/IERhdGUubm93LAogIH07CiAgbGV0IGFjdGl2ZVByb2JlOiBQcm9taXNlPGJvb2xlYW4+IHwgbnVsbCA9IG51bGw7CiAgbGV0IHJlZGlyZWN0U3RhcnRlZCA9IGZhbHNlOwoKICBjb25zdCBwcm9iZUFuZFJlZGlyZWN0ID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgcmVkaXJlY3RVcmwgPSBhd2FpdCBwcm9iZUdhdGV3YXlBdXRoKG5vcm1hbGl6ZWRPcHRpb25zKTsKICAgIGlmICghcmVkaXJlY3RVcmwpIHJldHVybiBmYWxzZTsKCiAgICBjb25zdCBjb25maXJtYXRpb24gPSBiZWdpbk5hdmlnYXRpb25Db25maXJtYXRpb24oCiAgICAgIG5vcm1hbGl6ZWRPcHRpb25zLm5hdmlnYXRpb25UYXJnZXQsCiAgICAgIG5vcm1hbGl6ZWRPcHRpb25zLm5hdmlnYXRpb25UaW1lb3V0TXMsCiAgICApOwogICAgdHJ5IHsKICAgICAgcmVkaXJlY3RTdGFydGVkID0gdHJ1ZTsKICAgICAgbm9ybWFsaXplZE9wdGlvbnMubG9jYXRpb24ucmVwbGFjZShyZWRpcmVjdFVybCk7CiAgICAgIGNvbnN0IGNvbmZpcm1lZCA9IGF3YWl0IGNvbmZpcm1hdGlvbi5yZXN1bHQ7CiAgICAgIGlmICghY29uZmlybWVkKSByZWRpcmVjdFN0YXJ0ZWQgPSBmYWxzZTsKICAgICAgcmV0dXJuIGNvbmZpcm1lZDsKICAgIH0gY2F0Y2ggewogICAgICBjb25maXJtYXRpb24uY2FuY2VsKCk7CiAgICAgIHJlZGlyZWN0U3RhcnRlZCA9IGZhbHNlOwogICAgICByZXR1cm4gZmFsc2U7CiAgICB9CiAgfTsKCiAgcmV0dXJuIHsKICAgIHJlY292ZXIoZXJyb3I6IHVua25vd24pIHsKICAgICAgaWYgKCFpc0dhdGV3YXlBdXRoUmVjb3ZlcnlDYW5kaWRhdGUoZXJyb3IpKSB7CiAgICAgICAgcmV0dXJuIFByb21pc2UucmVzb2x2ZShmYWxzZSk7CiAgICAgIH0KICAgICAgaWYgKGFjdGl2ZVByb2JlKSByZXR1cm4gYWN0aXZlUHJvYmU7CiAgICAgIGlmIChyZWRpcmVjdFN0YXJ0ZWQpIHJldHVybiBQcm9taXNlLnJlc29sdmUodHJ1ZSk7CgogICAgICBjb25zdCBwcm9iZSA9IHByb2JlQW5kUmVkaXJlY3QoKS5maW5hbGx5KCgpID0+IHsKICAgICAgICBpZiAoYWN0aXZlUHJvYmUgPT09IHByb2JlKSBhY3RpdmVQcm9iZSA9IG51bGw7CiAgICAgIH0pOwogICAgICBhY3RpdmVQcm9iZSA9IHByb2JlOwogICAgICByZXR1cm4gcHJvYmU7CiAgICB9LAogIH07Cn07Cg==
+import axios from "axios";
+import { isInvalidApiResponseError } from "@frontend-core/api/createApiClient";
+
+const AUTH_BOOTSTRAP_PATH = "/__auth__/api/auth/bootstrap";
+const DEFAULT_AUTH_PROBE_TIMEOUT_MS = 3_000;
+const DEFAULT_NAVIGATION_CONFIRM_TIMEOUT_MS = 3_000;
+
+type JsonRecord = Record<string, unknown>;
+
+export interface GatewayAuthRecoveryLocation {
+  href: string;
+  origin: string;
+  replace(url: string): void;
+}
+
+export interface GatewayAuthRecoveryOptions {
+  fetchImpl: typeof fetch;
+  location: GatewayAuthRecoveryLocation;
+  navigationTarget?: Pick<Window, "addEventListener" | "removeEventListener">;
+  navigationTimeoutMs?: number;
+  timeoutMs?: number;
+  now?: () => number;
+}
+
+export interface GatewayAuthRecovery {
+  recover(error: unknown): Promise<boolean>;
+}
+
+const isRecord = (value: unknown): value is JsonRecord =>
+  typeof value === "object" && value !== null && !Array.isArray(value);
+
+interface NormalizedGatewayAuthRecoveryOptions {
+  fetchImpl: typeof fetch;
+  location: GatewayAuthRecoveryLocation;
+  navigationTarget?: GatewayAuthRecoveryOptions["navigationTarget"];
+  navigationTimeoutMs: number;
+  timeoutMs: number;
+  now: () => number;
+}
+
+export const isAxiosNetworkErrorWithoutResponse = (error: unknown): boolean => {
+  if (!axios.isAxiosError(error) || error.response != null) return false;
+
+  return (
+    error.code === "ERR_NETWORK" ||
+    error.message.trim().toLowerCase() === "network error"
+  );
+};
+
+export const isGatewayAuthRecoveryCandidate = (error: unknown): boolean =>
+  isAxiosNetworkErrorWithoutResponse(error) || isInvalidApiResponseError(error);
+
+const readUnauthenticatedRedirect = (payload: unknown): string | null => {
+  if (!isRecord(payload) || payload.success !== true) return null;
+  const data = payload.data;
+  if (!isRecord(data) || !isRecord(data.auth)) return null;
+  if (data.auth.authenticated !== false) return null;
+
+  return typeof data.redirect_to === "string" ? data.redirect_to.trim() : "";
+};
+
+const buildLoginRedirect = (
+  redirectTo: string,
+  location: GatewayAuthRecoveryLocation,
+): string | null => {
+  if (redirectTo) {
+    try {
+      const candidate = new URL(redirectTo, location.origin);
+      if (
+        (candidate.protocol === "http:" || candidate.protocol === "https:") &&
+        candidate.username === "" &&
+        candidate.password === "" &&
+        candidate.href !== location.href
+      ) {
+        return candidate.href;
+      }
+    } catch {
+      // Fall through to the gateway's same-origin login route.
+    }
+  }
+
+  try {
+    const fallback = new URL("/__auth__/login", location.origin);
+    fallback.searchParams.set("redirect_uri", location.href);
+    return fallback.href;
+  } catch {
+    return null;
+  }
+};
+
+const probeGatewayAuth = async ({
+  fetchImpl,
+  location,
+  timeoutMs,
+  now,
+}: NormalizedGatewayAuthRecoveryOptions): Promise<string | null> => {
+  const controller = new AbortController();
+  const timeout = globalThis.setTimeout(
+    () => controller.abort(),
+    Math.max(1, timeoutMs),
+  );
+
+  try {
+    const probeUrl = new URL(AUTH_BOOTSTRAP_PATH, location.origin);
+    probeUrl.searchParams.set("redirect_uri", location.href);
+    probeUrl.searchParams.set("_ts", now().toString());
+
+    const response = await fetchImpl(probeUrl, {
+      method: "GET",
+      credentials: "include",
+      cache: "no-store",
+      headers: {
+        Accept: "application/json",
+        "Cache-Control": "no-cache",
+        Pragma: "no-cache",
+      },
+      signal: controller.signal,
+    });
+    if (!response.ok) return null;
+
+    const mediaType = response.headers
+      .get("content-type")
+      ?.split(";", 1)[0]
+      ?.trim()
+      .toLowerCase();
+    if (mediaType !== "application/json") return null;
+
+    const redirectTo = readUnauthenticatedRedirect(await response.json());
+    if (redirectTo === null) return null;
+    return buildLoginRedirect(redirectTo, location);
+  } catch {
+    return null;
+  } finally {
+    globalThis.clearTimeout(timeout);
+  }
+};
+
+interface NavigationConfirmation {
+  result: Promise<boolean>;
+  cancel(): void;
+}
+
+const beginNavigationConfirmation = (
+  target: GatewayAuthRecoveryOptions["navigationTarget"],
+  timeoutMs: number,
+): NavigationConfirmation => {
+  if (!target) {
+    return {
+      result: Promise.resolve(true),
+      cancel() {},
+    };
+  }
+
+  let finish: (confirmed: boolean) => void = () => undefined;
+  const result = new Promise<boolean>((resolve) => {
+    let completed = false;
+    const onPageHide = () => finish(true);
+    const timeout = globalThis.setTimeout(
+      () => finish(false),
+      Math.max(1, timeoutMs),
+    );
+
+    finish = (confirmed) => {
+      if (completed) return;
+      completed = true;
+      globalThis.clearTimeout(timeout);
+      target.removeEventListener("pagehide", onPageHide);
+      resolve(confirmed);
+    };
+    target.addEventListener("pagehide", onPageHide, { once: true });
+  });
+
+  return {
+    result,
+    cancel: () => finish(false),
+  };
+};
+
+export const createGatewayAuthRecovery = (
+  options: GatewayAuthRecoveryOptions,
+): GatewayAuthRecovery => {
+  const normalizedOptions: NormalizedGatewayAuthRecoveryOptions = {
+    ...options,
+    navigationTimeoutMs:
+      options.navigationTimeoutMs ?? DEFAULT_NAVIGATION_CONFIRM_TIMEOUT_MS,
+    timeoutMs: options.timeoutMs ?? DEFAULT_AUTH_PROBE_TIMEOUT_MS,
+    now: options.now ?? Date.now,
+  };
+  let activeProbe: Promise<boolean> | null = null;
+  let redirectStarted = false;
+
+  const probeAndRedirect = async () => {
+    const redirectUrl = await probeGatewayAuth(normalizedOptions);
+    if (!redirectUrl) return false;
+
+    const confirmation = beginNavigationConfirmation(
+      normalizedOptions.navigationTarget,
+      normalizedOptions.navigationTimeoutMs,
+    );
+    try {
+      redirectStarted = true;
+      normalizedOptions.location.replace(redirectUrl);
+      const confirmed = await confirmation.result;
+      if (!confirmed) redirectStarted = false;
+      return confirmed;
+    } catch {
+      confirmation.cancel();
+      redirectStarted = false;
+      return false;
+    }
+  };
+
+  return {
+    recover(error: unknown) {
+      if (!isGatewayAuthRecoveryCandidate(error)) {
+        return Promise.resolve(false);
+      }
+      if (activeProbe) return activeProbe;
+      if (redirectStarted) return Promise.resolve(true);
+
+      const probe = probeAndRedirect().finally(() => {
+        if (activeProbe === probe) activeProbe = null;
+      });
+      activeProbe = probe;
+      return probe;
+    },
+  };
+};

@@ -1,1 +1,161 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiwgd2F0Y2gsIHR5cGUgVW53cmFwTmVzdGVkUmVmcyB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEltYWdlSWNvbiwgUmVmcmVzaEN3LCBVcGxvYWQgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIG1hcHBpbmdJY29uTmVlZHNEYXJrUHJldmlld0JhY2tncm91bmQsCiAgTUFQUElOR19JQ09OX0ZJTEVfQUNDRVBULAp9IGZyb20gIi4vbWFwcGluZy1pY29uIjsKaW1wb3J0IHR5cGUgeyB1c2VNYXBwaW5nSWNvbiB9IGZyb20gIi4vdXNlTWFwcGluZ0ljb24iOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgaWNvbkVkaXRvcjogVW53cmFwTmVzdGVkUmVmczxSZXR1cm5UeXBlPHR5cGVvZiB1c2VNYXBwaW5nSWNvbj4+OwogIGlzU2F2aW5nTWFwcGluZ3M6IGJvb2xlYW47Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgZmlsZUlucHV0ID0gcmVmPEhUTUxJbnB1dEVsZW1lbnQgfCBudWxsPihudWxsKTsKY29uc3QgcHJldmlld0Jyb2tlbiA9IHJlZihmYWxzZSk7CmNvbnN0IHByZXZpZXdOZWVkc0RhcmtCYWNrZ3JvdW5kID0gcmVmKGZhbHNlKTsKCmNvbnN0IGNob29zZUZpbGUgPSAoKSA9PiBmaWxlSW5wdXQudmFsdWU/LmNsaWNrKCk7CmNvbnN0IGhhbmRsZUZpbGVDaGFuZ2UgPSBhc3luYyAoZXZlbnQ6IEV2ZW50KSA9PiB7CiAgY29uc3QgaW5wdXQgPSBldmVudC50YXJnZXQgYXMgSFRNTElucHV0RWxlbWVudDsKICBjb25zdCBmaWxlID0gaW5wdXQuZmlsZXM/LlswXTsKICBpbnB1dC52YWx1ZSA9ICIiOwogIGlmIChmaWxlKSBhd2FpdCBwcm9wcy5pY29uRWRpdG9yLnVwbG9hZEN1c3RvbUZhdmljb24oZmlsZSk7Cn07CmNvbnN0IGhhbmRsZVByZXZpZXdMb2FkID0gKGV2ZW50OiBFdmVudCkgPT4gewogIHByZXZpZXdOZWVkc0RhcmtCYWNrZ3JvdW5kLnZhbHVlID0gbWFwcGluZ0ljb25OZWVkc0RhcmtQcmV2aWV3QmFja2dyb3VuZCgKICAgIGV2ZW50LmN1cnJlbnRUYXJnZXQgYXMgSFRNTEltYWdlRWxlbWVudCwKICApOwp9Owpjb25zdCBoYW5kbGVQcmV2aWV3RXJyb3IgPSAoKSA9PiB7CiAgcHJldmlld0Jyb2tlbi52YWx1ZSA9IHRydWU7CiAgcHJldmlld05lZWRzRGFya0JhY2tncm91bmQudmFsdWUgPSBmYWxzZTsKfTsKCndhdGNoKAogICgpID0+IHByb3BzLmljb25FZGl0b3IuZWZmZWN0aXZlRmF2aWNvblNyYywKICAoKSA9PiB7CiAgICBwcmV2aWV3QnJva2VuLnZhbHVlID0gZmFsc2U7CiAgICBwcmV2aWV3TmVlZHNEYXJrQmFja2dyb3VuZC52YWx1ZSA9IGZhbHNlOwogIH0sCik7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTYgcGItNiBwdC02Ij4KICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGdhcC0zIHRleHQtY2VudGVyIj4KICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJmbGV4IGgtMjAgdy0yMCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtMnhsIGJvcmRlciBzaGFkb3ctc20gdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgOmNsYXNzPSJwcmV2aWV3TmVlZHNEYXJrQmFja2dyb3VuZCA/ICdiZy1zbGF0ZS03MDAnIDogJ2JnLW11dGVkLzQwJyIKICAgICAgPgogICAgICAgIDxpbWcKICAgICAgICAgIHYtaWY9Imljb25FZGl0b3IuZWZmZWN0aXZlRmF2aWNvblNyYyAmJiAhcHJldmlld0Jyb2tlbiIKICAgICAgICAgIDpzcmM9Imljb25FZGl0b3IuZWZmZWN0aXZlRmF2aWNvblNyYyIKICAgICAgICAgIDphbHQ9InQoJ2FkbWluLnN1YmRvbWFpblByb3h5Lmljb25QcmV2aWV3QWx0JykiCiAgICAgICAgICBjbGFzcz0iaC1mdWxsIHctZnVsbCBvYmplY3QtY29udGFpbiIKICAgICAgICAgIEBsb2FkPSJoYW5kbGVQcmV2aWV3TG9hZCIKICAgICAgICAgIEBlcnJvcj0iaGFuZGxlUHJldmlld0Vycm9yIgogICAgICAgIC8+CiAgICAgICAgPEltYWdlSWNvbiB2LWVsc2UgY2xhc3M9ImgtOCB3LTggdGV4dC1tdXRlZC1mb3JlZ3JvdW5kLzYwIiAvPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICA8QmFkZ2UgdmFyaWFudD0ic2Vjb25kYXJ5Ij4KICAgICAgICAgIHt7IGljb25FZGl0b3IuZmF2aWNvblN1bW1hcnkgfX0KICAgICAgICA8L0JhZGdlPgogICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuaWNvblByZXZpZXdEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMyByb3VuZGVkLWxnIGJvcmRlciBweC00IHB5LTQiPgogICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEiPgogICAgICAgIDxoMyBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5jdXN0b21JY29uIikgfX0KICAgICAgICA8L2gzPgogICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuY3VzdG9tSWNvbkhlbHAiKSB9fQogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0yIHNtOmZsZXgtcm93Ij4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICBjbGFzcz0ic206ZmxleC0xIgogICAgICAgICAgOmRpc2FibGVkPSJpY29uRWRpdG9yLmlzSWNvbkJ1c3kgfHwgaXNTYXZpbmdNYXBwaW5ncyIKICAgICAgICAgIEBjbGljaz0iY2hvb3NlRmlsZSIKICAgICAgICA+CiAgICAgICAgICA8UmVmcmVzaEN3CiAgICAgICAgICAgIHYtaWY9Imljb25FZGl0b3IuaXNQcm9jZXNzaW5nRmF2aWNvbiIKICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4iCiAgICAgICAgICAvPgogICAgICAgICAgPFVwbG9hZCB2LWVsc2UgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgIHt7CiAgICAgICAgICAgIGljb25FZGl0b3IuZmF2aWNvblNvdXJjZSA9PT0gImN1c3RvbSIKICAgICAgICAgICAgICA/IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnJlcGxhY2VJY29uIikKICAgICAgICAgICAgICA6IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnVwbG9hZEljb24iKQogICAgICAgICAgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2LWlmPSJpY29uRWRpdG9yLmZhdmljb25Tb3VyY2UgPT09ICdjdXN0b20nIgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIGNsYXNzPSJzbTpmbGV4LTEiCiAgICAgICAgICA6ZGlzYWJsZWQ9Imljb25FZGl0b3IuaXNJY29uQnVzeSB8fCBpc1NhdmluZ01hcHBpbmdzIgogICAgICAgICAgQGNsaWNrPSJpY29uRWRpdG9yLnJlc3RvcmVBdXRvbWF0aWNGYXZpY29uIgogICAgICAgID4KICAgICAgICAgIDxSZWZyZXNoQ3cKICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCIKICAgICAgICAgICAgOmNsYXNzPSJ7ICdhbmltYXRlLXNwaW4nOiBpY29uRWRpdG9yLmlzUmVmcmVzaGluZ0Zhdmljb24gfSIKICAgICAgICAgIC8+CiAgICAgICAgICB7ewogICAgICAgICAgICB0KAogICAgICAgICAgICAgIGljb25FZGl0b3IuY2FuUmVmcmVzaE1ldGFkYXRhCiAgICAgICAgICAgICAgICA/ICJhZG1pbi5zdWJkb21haW5Qcm94eS5yZXN0b3JlQXV0b21hdGljSWNvbiIKICAgICAgICAgICAgICAgIDogImFkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLnJlbW92ZUN1c3RvbUljb24iLAogICAgICAgICAgICApCiAgICAgICAgICB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHYtZWxzZS1pZj0iaWNvbkVkaXRvci5jYW5SZWZyZXNoTWV0YWRhdGEiCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgY2xhc3M9InNtOmZsZXgtMSIKICAgICAgICAgIDpkaXNhYmxlZD0iCiAgICAgICAgICAgIGljb25FZGl0b3IuaXNJY29uQnVzeSB8fAogICAgICAgICAgICBpc1NhdmluZ01hcHBpbmdzIHx8CiAgICAgICAgICAgICFpY29uRWRpdG9yLmNhblJlZnJlc2hNZXRhZGF0YQogICAgICAgICAgIgogICAgICAgICAgQGNsaWNrPSJpY29uRWRpdG9yLnJlZnJlc2hBdXRvbWF0aWNGYXZpY29uIgogICAgICAgID4KICAgICAgICAgIDxSZWZyZXNoQ3cKICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCIKICAgICAgICAgICAgOmNsYXNzPSJ7ICdhbmltYXRlLXNwaW4nOiBpY29uRWRpdG9yLmlzUmVmcmVzaGluZ0Zhdmljb24gfSIKICAgICAgICAgIC8+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5yZWNvbGxlY3RJY29uIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CgogICAgICA8aW5wdXQKICAgICAgICByZWY9ImZpbGVJbnB1dCIKICAgICAgICBjbGFzcz0iaGlkZGVuIgogICAgICAgIHR5cGU9ImZpbGUiCiAgICAgICAgOmFjY2VwdD0iTUFQUElOR19JQ09OX0ZJTEVfQUNDRVBUIgogICAgICAgIEBjaGFuZ2U9ImhhbmRsZUZpbGVDaGFuZ2UiCiAgICAgIC8+CgogICAgICA8cAogICAgICAgIHYtaWY9Imljb25FZGl0b3IuaWNvbkVycm9yTWVzc2FnZSIKICAgICAgICBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICByb2xlPSJhbGVydCIKICAgICAgPgogICAgICAgIHt7IGljb25FZGl0b3IuaWNvbkVycm9yTWVzc2FnZSB9fQogICAgICA8L3A+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { ref, watch, type UnwrapNestedRefs } from "vue";
+import { useI18n } from "vue-i18n";
+import { ImageIcon, RefreshCw, Upload } from "lucide-vue-next";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  mappingIconNeedsDarkPreviewBackground,
+  MAPPING_ICON_FILE_ACCEPT,
+} from "./mapping-icon";
+import type { useMappingIcon } from "./useMappingIcon";
+
+const props = defineProps<{
+  iconEditor: UnwrapNestedRefs<ReturnType<typeof useMappingIcon>>;
+  isSavingMappings: boolean;
+}>();
+
+const { t } = useI18n();
+const fileInput = ref<HTMLInputElement | null>(null);
+const previewBroken = ref(false);
+const previewNeedsDarkBackground = ref(false);
+
+const chooseFile = () => fileInput.value?.click();
+const handleFileChange = async (event: Event) => {
+  const input = event.target as HTMLInputElement;
+  const file = input.files?.[0];
+  input.value = "";
+  if (file) await props.iconEditor.uploadCustomFavicon(file);
+};
+const handlePreviewLoad = (event: Event) => {
+  previewNeedsDarkBackground.value = mappingIconNeedsDarkPreviewBackground(
+    event.currentTarget as HTMLImageElement,
+  );
+};
+const handlePreviewError = () => {
+  previewBroken.value = true;
+  previewNeedsDarkBackground.value = false;
+};
+
+watch(
+  () => props.iconEditor.effectiveFaviconSrc,
+  () => {
+    previewBroken.value = false;
+    previewNeedsDarkBackground.value = false;
+  },
+);
+</script>
+
+<template>
+  <div class="grid gap-6 pb-6 pt-6">
+    <div class="flex flex-col items-center gap-3 text-center">
+      <div
+        class="flex h-20 w-20 items-center justify-center overflow-hidden rounded-2xl border shadow-sm transition-colors"
+        :class="previewNeedsDarkBackground ? 'bg-slate-700' : 'bg-muted/40'"
+      >
+        <img
+          v-if="iconEditor.effectiveFaviconSrc && !previewBroken"
+          :src="iconEditor.effectiveFaviconSrc"
+          :alt="t('admin.subdomainProxy.iconPreviewAlt')"
+          class="h-full w-full object-contain"
+          @load="handlePreviewLoad"
+          @error="handlePreviewError"
+        />
+        <ImageIcon v-else class="h-8 w-8 text-muted-foreground/60" />
+      </div>
+      <div class="space-y-1">
+        <Badge variant="secondary">
+          {{ iconEditor.faviconSummary }}
+        </Badge>
+        <p class="text-xs leading-5 text-muted-foreground">
+          {{ t("admin.subdomainProxy.iconPreviewDescription") }}
+        </p>
+      </div>
+    </div>
+
+    <div class="space-y-3 rounded-lg border px-4 py-4">
+      <div class="space-y-1">
+        <h3 class="text-sm font-medium">
+          {{ t("admin.subdomainProxy.customIcon") }}
+        </h3>
+        <p class="text-xs leading-5 text-muted-foreground">
+          {{ t("admin.subdomainProxy.customIconHelp") }}
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-2 sm:flex-row">
+        <Button
+          type="button"
+          class="sm:flex-1"
+          :disabled="iconEditor.isIconBusy || isSavingMappings"
+          @click="chooseFile"
+        >
+          <RefreshCw
+            v-if="iconEditor.isProcessingFavicon"
+            class="mr-2 h-4 w-4 animate-spin"
+          />
+          <Upload v-else class="mr-2 h-4 w-4" />
+          {{
+            iconEditor.faviconSource === "custom"
+              ? t("admin.subdomainProxy.replaceIcon")
+              : t("admin.subdomainProxy.uploadIcon")
+          }}
+        </Button>
+        <Button
+          v-if="iconEditor.faviconSource === 'custom'"
+          type="button"
+          variant="outline"
+          class="sm:flex-1"
+          :disabled="iconEditor.isIconBusy || isSavingMappings"
+          @click="iconEditor.restoreAutomaticFavicon"
+        >
+          <RefreshCw
+            class="mr-2 h-4 w-4"
+            :class="{ 'animate-spin': iconEditor.isRefreshingFavicon }"
+          />
+          {{
+            t(
+              iconEditor.canRefreshMetadata
+                ? "admin.subdomainProxy.restoreAutomaticIcon"
+                : "admin.subdomainProxy.staticServe.removeCustomIcon",
+            )
+          }}
+        </Button>
+        <Button
+          v-else-if="iconEditor.canRefreshMetadata"
+          type="button"
+          variant="outline"
+          class="sm:flex-1"
+          :disabled="
+            iconEditor.isIconBusy ||
+            isSavingMappings ||
+            !iconEditor.canRefreshMetadata
+          "
+          @click="iconEditor.refreshAutomaticFavicon"
+        >
+          <RefreshCw
+            class="mr-2 h-4 w-4"
+            :class="{ 'animate-spin': iconEditor.isRefreshingFavicon }"
+          />
+          {{ t("admin.subdomainProxy.recollectIcon") }}
+        </Button>
+      </div>
+
+      <input
+        ref="fileInput"
+        class="hidden"
+        type="file"
+        :accept="MAPPING_ICON_FILE_ACCEPT"
+        @change="handleFileChange"
+      />
+
+      <p
+        v-if="iconEditor.iconErrorMessage"
+        class="text-xs leading-5 text-destructive"
+        role="alert"
+      >
+        {{ iconEditor.iconErrorMessage }}
+      </p>
+    </div>
+  </div>
+</template>

@@ -1,1 +1,166 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgpjb25zdCBjb250cmFjdCA9IEpTT04ucGFyc2UoCiAgcmVhZFNvdXJjZSgiLi4vLi4vLi4vcGFja2FnZXMvYXBpLWNvbnRyYWN0L29wZW5hcGkuanNvbiIpLAopIGFzIHsKICBjb21wb25lbnRzOiB7CiAgICBzY2hlbWFzOiBSZWNvcmQ8CiAgICAgIHN0cmluZywKICAgICAgewogICAgICAgIHByb3BlcnRpZXM/OiBSZWNvcmQ8CiAgICAgICAgICBzdHJpbmcsCiAgICAgICAgICB7CiAgICAgICAgICAgIGVudW0/OiBzdHJpbmdbXTsKICAgICAgICAgICAgbWF4aW11bT86IG51bWJlcjsKICAgICAgICAgICAgbWluaW11bT86IG51bWJlcjsKICAgICAgICAgIH0KICAgICAgICA+OwogICAgICAgIHJlcXVpcmVkPzogc3RyaW5nW107CiAgICAgIH0KICAgID47CiAgfTsKICBwYXRoczogUmVjb3JkPAogICAgc3RyaW5nLAogICAgUmVjb3JkPHN0cmluZywgeyAieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiPzogc3RyaW5nIH0+CiAgPjsKfTsKCmRlc2NyaWJlKCJGTk9TIGFuZCBTbWFydCBDb25uZWN0IEFQSSBjb250cmFjdCIsICgpID0+IHsKICBpdCgia2VlcHMgYWxsIG1pZ3JhdGVkIEZOT1MgY2FwYWJpbGl0eSBvcGVyYXRpb25zIHR5cGVkIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBbbWV0aG9kLCBwYXRoXSBvZiBbCiAgICBdIGFzIGNvbnN0KSB7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICBjb250cmFjdC5wYXRoc1twYXRoXT8uW21ldGhvZF0/LlsieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiXSwKICAgICAgICAidXRvaXBhLWRvbWFpbiIsCiAgICAgICAgYCR7bWV0aG9kLnRvVXBwZXJDYXNlKCl9ICR7cGF0aH1gLAogICAgICApOwogICAgfQogIH0pOwoKICBpdCgia2VlcHMgZm5PUyBwb3J0IGljb24gY29uZmlndXJhdGlvbiBib3VuZCB0byBpdHMgYWN0dWFsIHR5cGVkIHJvdXRlciIsICgpID0+IHsKICAgIGZvciAoY29uc3QgbWV0aG9kIG9mIFsiZ2V0IiwgInBvc3QiXSBhcyBjb25zdCkgewogICAgICBhc3NlcnQuZXF1YWwoCiAgICAgICAgY29udHJhY3QucGF0aHNbIi9hcGkvYWRtaW4vY29uZmlnL2Zub3NfcG9ydF9pY29uX2hpamFjayJdPy5bbWV0aG9kXT8uWwogICAgICAgICAgIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIgogICAgICAgIF0sCiAgICAgICAgInV0b2lwYSIsCiAgICAgICAgbWV0aG9kLnRvVXBwZXJDYXNlKCksCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJrZWVwcyBmbk9TIG5ldHdvcmsgdHVuaW5nIGJvdW5kIHRvIGl0cyBhY3R1YWwgdHlwZWQgcm91dGVyIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBtZXRob2Qgb2YgWyJnZXQiLCAicG9zdCJdIGFzIGNvbnN0KSB7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9jb25maWcvZm5vc19uZXR3b3JrX3R1bmluZyJdPy5bbWV0aG9kXT8uWwogICAgICAgICAgIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIgogICAgICAgIF0sCiAgICAgICAgInV0b2lwYSIsCiAgICAgICAgbWV0aG9kLnRvVXBwZXJDYXNlKCksCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJrZWVwcyBGTiBDb25uZWN0IFdBRiBib3VuZCB0byBpdHMgYWN0dWFsIHR5cGVkIHJvdXRlciIsICgpID0+IHsKICAgIGZvciAoY29uc3QgbWV0aG9kIG9mIFsiZ2V0IiwgInBvc3QiXSBhcyBjb25zdCkgewogICAgICBhc3NlcnQuZXF1YWwoCiAgICAgICAgY29udHJhY3QucGF0aHNbIi9hcGkvYWRtaW4vY29uZmlnL2Zub3NfY29ubmVjdF93YWYiXT8uW21ldGhvZF0/LlsKICAgICAgICAgICJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSIKICAgICAgICBdLAogICAgICAgICJ1dG9pcGEiLAogICAgICAgIG1ldGhvZC50b1VwcGVyQ2FzZSgpLAogICAgICApOwogICAgfQogIH0pOwoKICBpdCgia2VlcHMgZm5PUyBzaGFyZSBieXBhc3MgYm91bmQgdG8gaXRzIGFjdHVhbCB0eXBlZCByb3V0ZXIiLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IG1ldGhvZCBvZiBbImdldCIsICJwb3N0Il0gYXMgY29uc3QpIHsKICAgICAgYXNzZXJ0LmVxdWFsKAogICAgICAgIGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL2NvbmZpZy9mbm9zX3NoYXJlX2J5cGFzcyJdPy5bbWV0aG9kXT8uWwogICAgICAgICAgIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIgogICAgICAgIF0sCiAgICAgICAgInV0b2lwYSIsCiAgICAgICAgbWV0aG9kLnRvVXBwZXJDYXNlKCksCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJrZWVwcyBTbWFydCBDb25uZWN0IGJvdW5kIHRvIGl0cyBhY3R1YWwgdHlwZWQgcm91dGVyIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBbbWV0aG9kLCBwYXRoXSBvZiBbCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vY29uZmlnL3NtYXJ0X2Nvbm5lY3QvZGV0YWlscyJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9jb25maWcvc21hcnRfY29ubmVjdCJdLAogICAgXSBhcyBjb25zdCkgewogICAgICBhc3NlcnQuZXF1YWwoCiAgICAgICAgY29udHJhY3QucGF0aHNbcGF0aF0/LlttZXRob2RdPy5bIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIl0sCiAgICAgICAgInV0b2lwYSIsCiAgICAgICAgYCR7bWV0aG9kLnRvVXBwZXJDYXNlKCl9ICR7cGF0aH1gLAogICAgICApOwogICAgfQogIH0pOwoKICBpdCgicHJlc2VydmVzIGxvY2FsIG5ldHdvcmsgbWV0YWRhdGEgYW5kIG5vcm1hbGl6ZWQgdGltZW91dCBib3VuZHMiLCAoKSA9PiB7CiAgICBjb25zdCBsb2NhbElwUmVxdWlyZWQgPQogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuU21hcnRDb25uZWN0TG9jYWxJcERhdGEucmVxdWlyZWQgPz8gW107CiAgICBmb3IgKGNvbnN0IGZpZWxkIG9mIFsiaW50ZXJmYWNlIiwgIm5ldG1hc2siLCAicHJlZml4Il0pIHsKICAgICAgYXNzZXJ0Lm9rKGxvY2FsSXBSZXF1aXJlZC5pbmNsdWRlcyhmaWVsZCksIGZpZWxkKTsKICAgIH0KCiAgICBjb25zdCBzaGFyZSA9IGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5Gbm9zU2hhcmVCeXBhc3NEYXRhLnByb3BlcnRpZXM7CiAgICBhc3NlcnQuZXF1YWwoc2hhcmU/LnVwc3RyZWFtX3RpbWVvdXRfbXM/Lm1pbmltdW0sIDUwMCk7CiAgICBhc3NlcnQuZXF1YWwoc2hhcmU/LnVwc3RyZWFtX3RpbWVvdXRfbXM/Lm1heGltdW0sIDE1XzAwMCk7CiAgICBhc3NlcnQuZXF1YWwoc2hhcmU/LnNlc3Npb25fdHRsX3NlY29uZHM/Lm1pbmltdW0sIDMwKTsKICAgIGFzc2VydC5lcXVhbChzaGFyZT8uc2Vzc2lvbl90dGxfc2Vjb25kcz8ubWF4aW11bSwgM182MDApOwogIH0pOwoKICBpdCgiY2FwdHVyZXMgTGl0ZSBibG9ja2luZyBhbmQgc2VydmVyLW93bmVkIHJ1bnRpbWUgZmllbGRzIiwgKCkgPT4gewogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLkZub3NOZXR3b3JrVHVuaW5nRGF0YS5wcm9wZXJ0aWVzCiAgICAgICAgPy5ibG9ja2VkX3JlYXNvbl9jb2RlPy5lbnVtLAogICAgICBbImxpdGUiLCAiZGVwbG95bWVudCIsICJwbGF0Zm9ybSIsICJwZXJtaXNzaW9uIl0sCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuRm5vc1BvcnRJY29uSGlqYWNrVXBkYXRlRGF0YS5wcm9wZXJ0aWVzCiAgICAgICAgPy51cGRhdGVkX2F0LAogICAgICB1bmRlZmluZWQsCiAgICApOwogICAgY29uc3QgcnVudGltZVJlcXVpcmVkID0KICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLkZub3NDb25uZWN0V2FmUnVudGltZURhdGEucmVxdWlyZWQgPz8gW107CiAgICBmb3IgKGNvbnN0IGZpZWxkIG9mIFsKICAgICAgImRldGVjdGVkX2h0dHBfcG9ydCIsCiAgICAgICJsaXN0ZW5lcl9wb3J0IiwKICAgICAgImxvY2FsX25ldHdvcmtzIiwKICAgICAgInNvdXJjZSIsCiAgICAgICJsYXN0X3N5bmNfYXQiLAogICAgICAibGFzdF9lcnJvciIsCiAgICBdKSB7CiAgICAgIGFzc2VydC5vayhydW50aW1lUmVxdWlyZWQuaW5jbHVkZXMoZmllbGQpLCBmaWVsZCk7CiAgICB9CiAgfSk7CgogIGl0KCJkZXJpdmVzIHRoZSBmcm9udGVuZCBGTk9TIGFuZCBTbWFydCBDb25uZWN0IG1vZGVscyBmcm9tIE9wZW5BUEkiLCAoKSA9PiB7CiAgICBjb25zdCB0eXBlcyA9IHJlYWRTb3VyY2UoIi4uL3NyYy90eXBlcy9jb3JlLnRzIik7CiAgICBjb25zdCBzeXN0ZW1BcGkgPSByZWFkU291cmNlKCIuLi9zcmMvbGliL2FwaS9zeXN0ZW0udHMiKTsKICAgIGNvbnN0IHNtYXJ0Vmlld01vZGVsID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3Mvc21hcnQtY29ubmVjdC91c2VTbWFydENvbm5lY3RWaWV3TW9kZWwudHMiLAogICAgKTsKCiAgICBmb3IgKGNvbnN0IHNjaGVtYSBvZiBbCiAgICAgICJTbWFydENvbm5lY3REZXRhaWxzRGF0YSIsCiAgICAgICJGbm9zU2hhcmVCeXBhc3NEYXRhIiwKICAgICAgIkZub3NQb3J0SWNvbkhpamFja0RhdGEiLAogICAgICAiRm5vc05ldHdvcmtUdW5pbmdEYXRhIiwKICAgICAgIkZub3NDb25uZWN0V2FmRGF0YSIsCiAgICBdKSB7CiAgICAgIGFzc2VydC5tYXRjaCh0eXBlcywgbmV3IFJlZ0V4cChgXFxbIiR7c2NoZW1hfSJcXF1gLCAidSIpLCBzY2hlbWEpOwogICAgfQogICAgYXNzZXJ0Lm1hdGNoKHN5c3RlbUFwaSwgL1xbIkZub3NOZXR3b3JrVHVuaW5nVXBkYXRlRGF0YSJcXS91KTsKICAgIGFzc2VydC5tYXRjaChzeXN0ZW1BcGksIC9zYXRpc2ZpZXMgRm5vc0Nvbm5lY3RXYWZVcGRhdGUvdSk7CiAgICBhc3NlcnQubWF0Y2goc21hcnRWaWV3TW9kZWwsIC9uZXRtYXNrOiAiIi91KTsKICAgIGFzc2VydC5tYXRjaChzbWFydFZpZXdNb2RlbCwgL3ByZWZpeDogbnVsbC91KTsKICB9KTsKfSk7Cg==
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  components: {
+    schemas: Record<
+      string,
+      {
+        properties?: Record<
+          string,
+          {
+            enum?: string[];
+            maximum?: number;
+            minimum?: number;
+          }
+        >;
+        required?: string[];
+      }
+    >;
+  };
+  paths: Record<
+    string,
+    Record<string, { "x-fn-knock-contract-source"?: string }>
+  >;
+};
+
+describe("FNOS and Smart Connect API contract", () => {
+  it("keeps all migrated FNOS capability operations typed", () => {
+    for (const [method, path] of [
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa-domain",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("keeps fnOS port icon configuration bound to its actual typed router", () => {
+    for (const method of ["get", "post"] as const) {
+      assert.equal(
+        contract.paths["/api/admin/config/fnos_port_icon_hijack"]?.[method]?.[
+          "x-fn-knock-contract-source"
+        ],
+        "utoipa",
+        method.toUpperCase(),
+      );
+    }
+  });
+
+  it("keeps fnOS network tuning bound to its actual typed router", () => {
+    for (const method of ["get", "post"] as const) {
+      assert.equal(
+        contract.paths["/api/admin/config/fnos_network_tuning"]?.[method]?.[
+          "x-fn-knock-contract-source"
+        ],
+        "utoipa",
+        method.toUpperCase(),
+      );
+    }
+  });
+
+  it("keeps FN Connect WAF bound to its actual typed router", () => {
+    for (const method of ["get", "post"] as const) {
+      assert.equal(
+        contract.paths["/api/admin/config/fnos_connect_waf"]?.[method]?.[
+          "x-fn-knock-contract-source"
+        ],
+        "utoipa",
+        method.toUpperCase(),
+      );
+    }
+  });
+
+  it("keeps fnOS share bypass bound to its actual typed router", () => {
+    for (const method of ["get", "post"] as const) {
+      assert.equal(
+        contract.paths["/api/admin/config/fnos_share_bypass"]?.[method]?.[
+          "x-fn-knock-contract-source"
+        ],
+        "utoipa",
+        method.toUpperCase(),
+      );
+    }
+  });
+
+  it("keeps Smart Connect bound to its actual typed router", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/config/smart_connect/details"],
+      ["post", "/api/admin/config/smart_connect"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("preserves local network metadata and normalized timeout bounds", () => {
+    const localIpRequired =
+      contract.components.schemas.SmartConnectLocalIpData.required ?? [];
+    for (const field of ["interface", "netmask", "prefix"]) {
+      assert.ok(localIpRequired.includes(field), field);
+    }
+
+    const share = contract.components.schemas.FnosShareBypassData.properties;
+    assert.equal(share?.upstream_timeout_ms?.minimum, 500);
+    assert.equal(share?.upstream_timeout_ms?.maximum, 15_000);
+    assert.equal(share?.session_ttl_seconds?.minimum, 30);
+    assert.equal(share?.session_ttl_seconds?.maximum, 3_600);
+  });
+
+  it("captures Lite blocking and server-owned runtime fields", () => {
+    assert.deepEqual(
+      contract.components.schemas.FnosNetworkTuningData.properties
+        ?.blocked_reason_code?.enum,
+      ["lite", "deployment", "platform", "permission"],
+    );
+    assert.equal(
+      contract.components.schemas.FnosPortIconHijackUpdateData.properties
+        ?.updated_at,
+      undefined,
+    );
+    const runtimeRequired =
+      contract.components.schemas.FnosConnectWafRuntimeData.required ?? [];
+    for (const field of [
+      "detected_http_port",
+      "listener_port",
+      "local_networks",
+      "source",
+      "last_sync_at",
+      "last_error",
+    ]) {
+      assert.ok(runtimeRequired.includes(field), field);
+    }
+  });
+
+  it("derives the frontend FNOS and Smart Connect models from OpenAPI", () => {
+    const types = readSource("../src/types/core.ts");
+    const systemApi = readSource("../src/lib/api/system.ts");
+    const smartViewModel = readSource(
+      "../src/views/system-settings/smart-connect/useSmartConnectViewModel.ts",
+    );
+
+    for (const schema of [
+      "SmartConnectDetailsData",
+      "FnosShareBypassData",
+      "FnosPortIconHijackData",
+      "FnosNetworkTuningData",
+      "FnosConnectWafData",
+    ]) {
+      assert.match(types, new RegExp(`\\["${schema}"\\]`, "u"), schema);
+    }
+    assert.match(systemApi, /\["FnosNetworkTuningUpdateData"\]/u);
+    assert.match(systemApi, /satisfies FnosConnectWafUpdate/u);
+    assert.match(smartViewModel, /netmask: ""/u);
+    assert.match(smartViewModel, /prefix: null/u);
+  });
+});

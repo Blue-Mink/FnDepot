@@ -1,1 +1,453 @@
-dXNlIHN1cGVyOjoqOwoKY29uc3QgQkFDS1VQX0NIVU5LX1NJWkU6IHVzaXplID0gNjQgKiAxMDI0OwoKLy8gS2VlcCB0aGUgdG90YWwgYXJjaGl2ZSBib3VuZGVkIHdpdGhvdXQgZXZlciBncm93aW5nIGEgY29udGlndW91cyBhbGxvY2F0aW9uCi8vIHRvIGl0cyBmdWxsIHNpemUuIEZyZWVkIG11bHRpLW1lZ2FieXRlIFZlYyBjYXBhY2l0aWVzIGNhbiByZW1haW4gcmVzaWRlbnQgaW4KLy8gc3lzdGVtIGFsbG9jYXRvcnMgbG9uZyBhZnRlciBhIGNvbXBsZXRlZCBleHBvcnQuCnB1YihzdXBlcikgc3RydWN0IEJhY2t1cEFyY2hpdmVCdWZmZXIgewogICAgY2h1bmtzOiBWZWM8VmVjPHU4Pj4sCiAgICBsZW46IHVzaXplLAogICAgbGltaXQ6IHVzaXplLAp9CgppbXBsIEJhY2t1cEFyY2hpdmVCdWZmZXIgewogICAgZm4gbmV3KGxpbWl0OiB1c2l6ZSkgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7CiAgICAgICAgICAgIGNodW5rczogVmVjOjpuZXcoKSwKICAgICAgICAgICAgbGVuOiAwLAogICAgICAgICAgICBsaW1pdCwKICAgICAgICB9CiAgICB9CgogICAgcHViKHN1cGVyKSBmbiBsZW4oJnNlbGYpIC0+IHVzaXplIHsKICAgICAgICBzZWxmLmxlbgogICAgfQoKICAgIHB1YihzdXBlcikgZm4gY2h1bmtzKCZzZWxmKSAtPiAmW1ZlYzx1OD5dIHsKICAgICAgICAmc2VsZi5jaHVua3MKICAgIH0KCiAgICBwdWIoc3VwZXIpIGZuIGludG9fY2h1bmtzKHNlbGYpIC0+IFZlYzxWZWM8dTg+PiB7CiAgICAgICAgc2VsZi5jaHVua3MKICAgIH0KCiAgICBmbiBwYXRjaF91MzIoJm11dCBzZWxmLCBvZmZzZXQ6IHVzaXplLCB2YWx1ZTogdTMyKSB7CiAgICAgICAgZm9yIChpbmRleCwgYnl0ZSkgaW4gdmFsdWUudG9fbGVfYnl0ZXMoKS5pbnRvX2l0ZXIoKS5lbnVtZXJhdGUoKSB7CiAgICAgICAgICAgIHNlbGYuY2h1bmtzWyhvZmZzZXQgKyBpbmRleCkgLyBCQUNLVVBfQ0hVTktfU0laRV0KICAgICAgICAgICAgICAgIFsob2Zmc2V0ICsgaW5kZXgpICUgQkFDS1VQX0NIVU5LX1NJWkVdID0gYnl0ZTsKICAgICAgICB9CiAgICB9CgogICAgI1tjZmcodGVzdCldCiAgICBwdWIoc3VwZXIpIGZuIGludG9fYnl0ZXMoc2VsZikgLT4gVmVjPHU4PiB7CiAgICAgICAgc2VsZi5jaHVua3MuaW50b19pdGVyKCkuZmxhdHRlbigpLmNvbGxlY3QoKQogICAgfQoKICAgICNbY2ZnKHRlc3QpXQogICAgcHViKHN1cGVyKSBmbiBmcm9tX2J5dGVzKGJ5dGVzOiAmW3U4XSkgLT4gU2VsZiB7CiAgICAgICAgbGV0IG11dCBidWZmZXIgPSBTZWxmOjpuZXcoTUFYX0JBQ0tVUF9BUkNISVZFX1NJWkUpOwogICAgICAgIGJ1ZmZlci53cml0ZV9hbGwoYnl0ZXMpLnVud3JhcCgpOwogICAgICAgIGJ1ZmZlcgogICAgfQp9CgppbXBsIFdyaXRlIGZvciBCYWNrdXBBcmNoaXZlQnVmZmVyIHsKICAgIGZuIHdyaXRlKCZtdXQgc2VsZiwgbXV0IGJ5dGVzOiAmW3U4XSkgLT4gaW86OlJlc3VsdDx1c2l6ZT4gewogICAgICAgIGxldCBjb3VudCA9IGJ5dGVzLmxlbigpOwogICAgICAgIGlmIGNvdW50ID4gc2VsZi5saW1pdC5zYXR1cmF0aW5nX3N1YihzZWxmLmxlbikgewogICAgICAgICAgICByZXR1cm4gRXJyKGlvOjpFcnJvcjo6b3RoZXIoIkJhY2t1cCBleHBvcnQgaXMgdG9vIGxhcmdlIikpOwogICAgICAgIH0KICAgICAgICB3aGlsZSAhYnl0ZXMuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIGlmIHNlbGYKICAgICAgICAgICAgICAgIC5jaHVua3MKICAgICAgICAgICAgICAgIC5sYXN0KCkKICAgICAgICAgICAgICAgIC5pc19ub25lX29yKHxjaHVua3wgY2h1bmsubGVuKCkgPT0gQkFDS1VQX0NIVU5LX1NJWkUpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHNlbGYuY2h1bmtzLnB1c2goVmVjOjp3aXRoX2NhcGFjaXR5KAogICAgICAgICAgICAgICAgICAgIEJBQ0tVUF9DSFVOS19TSVpFLm1pbihzZWxmLmxpbWl0IC0gc2VsZi5sZW4pLAogICAgICAgICAgICAgICAgKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgbGV0IGNodW5rID0gc2VsZi5jaHVua3MubGFzdF9tdXQoKS51bndyYXAoKTsKICAgICAgICAgICAgbGV0IGNvcGllZCA9IGJ5dGVzLmxlbigpLm1pbihCQUNLVVBfQ0hVTktfU0laRSAtIGNodW5rLmxlbigpKTsKICAgICAgICAgICAgY2h1bmsuZXh0ZW5kX2Zyb21fc2xpY2UoJmJ5dGVzWy4uY29waWVkXSk7CiAgICAgICAgICAgIHNlbGYubGVuICs9IGNvcGllZDsKICAgICAgICAgICAgYnl0ZXMgPSAmYnl0ZXNbY29waWVkLi5dOwogICAgICAgIH0KICAgICAgICBPayhjb3VudCkKICAgIH0KCiAgICBmbiBmbHVzaCgmbXV0IHNlbGYpIC0+IGlvOjpSZXN1bHQ8KCk+IHsKICAgICAgICBPaygoKSkKICAgIH0KfQoKc3RydWN0IEJhY2t1cENyY1dyaXRlciB7CiAgICBsZW46IHVzaXplLAogICAgY3JjOiB1MzIsCiAgICBsaW1pdDogdXNpemUsCn0KCmltcGwgV3JpdGUgZm9yIEJhY2t1cENyY1dyaXRlciB7CiAgICBmbiB3cml0ZSgmbXV0IHNlbGYsIGJ5dGVzOiAmW3U4XSkgLT4gaW86OlJlc3VsdDx1c2l6ZT4gewogICAgICAgIGlmIGJ5dGVzLmxlbigpID4gc2VsZi5saW1pdC5zYXR1cmF0aW5nX3N1YihzZWxmLmxlbikgewogICAgICAgICAgICByZXR1cm4gRXJyKGlvOjpFcnJvcjo6b3RoZXIoIkJhY2t1cCBleHBvcnQgaXMgdG9vIGxhcmdlIikpOwogICAgICAgIH0KICAgICAgICBmb3IgJmJ5dGUgaW4gYnl0ZXMgewogICAgICAgICAgICBzZWxmLmNyYyA9IGNyYzMyX3VwZGF0ZShzZWxmLmNyYywgYnl0ZSk7CiAgICAgICAgfQogICAgICAgIHNlbGYubGVuICs9IGJ5dGVzLmxlbigpOwogICAgICAgIE9rKGJ5dGVzLmxlbigpKQogICAgfQoKICAgIGZuIGZsdXNoKCZtdXQgc2VsZikgLT4gaW86OlJlc3VsdDwoKT4gewogICAgICAgIE9rKCgpKQogICAgfQp9CgpzdHJ1Y3QgQmFja3VwRW5jcnlwdFdyaXRlcjwnYT4gewogICAgb3V0cHV0OiAmJ2EgbXV0IEJhY2t1cEFyY2hpdmVCdWZmZXIsCiAgICBlbmNyeXB0b3I6IFppcENyeXB0b0VuY3J5cHRvciwKICAgIHNjcmF0Y2g6IFt1ODsgQkFDS1VQX0NIVU5LX1NJWkVdLAp9CgppbXBsIFdyaXRlIGZvciBCYWNrdXBFbmNyeXB0V3JpdGVyPCdfPiB7CiAgICBmbiB3cml0ZSgmbXV0IHNlbGYsIGJ5dGVzOiAmW3U4XSkgLT4gaW86OlJlc3VsdDx1c2l6ZT4gewogICAgICAgIGZvciBzb3VyY2UgaW4gYnl0ZXMuY2h1bmtzKEJBQ0tVUF9DSFVOS19TSVpFKSB7CiAgICAgICAgICAgIGxldCBlbmNyeXB0ZWQgPSAmbXV0IHNlbGYuc2NyYXRjaFsuLnNvdXJjZS5sZW4oKV07CiAgICAgICAgICAgIGVuY3J5cHRlZC5jb3B5X2Zyb21fc2xpY2Uoc291cmNlKTsKICAgICAgICAgICAgc2VsZi5lbmNyeXB0b3IuZW5jcnlwdF9pbl9wbGFjZShlbmNyeXB0ZWQpOwogICAgICAgICAgICBzZWxmLm91dHB1dC53cml0ZV9hbGwoZW5jcnlwdGVkKT87CiAgICAgICAgfQogICAgICAgIE9rKGJ5dGVzLmxlbigpKQogICAgfQoKICAgIGZuIGZsdXNoKCZtdXQgc2VsZikgLT4gaW86OlJlc3VsdDwoKT4gewogICAgICAgIHNlbGYub3V0cHV0LmZsdXNoKCkKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBjcmVhdGVfcGFzc3dvcmRfcHJvdGVjdGVkX2pzb25femlwKAogICAgZmlsZV9uYW1lOiAmc3RyLAogICAgcGF5bG9hZDogJlZhbHVlLAogICAgcGFzc3dvcmQ6ICZzdHIsCiAgICBtb2RpZmllZF9hdF9tczogaTY0LAopIC0+IGFueWhvdzo6UmVzdWx0PEJhY2t1cEFyY2hpdmVCdWZmZXI+IHsKICAgIGNyZWF0ZV9wYXNzd29yZF9wcm90ZWN0ZWRfemlwX3N0cmVhbWluZygKICAgICAgICBmaWxlX25hbWUsCiAgICAgICAgfHdyaXRlcnwgewogICAgICAgICAgICBzZXJkZV9qc29uOjp0b193cml0ZXJfcHJldHR5KHdyaXRlciwgcGF5bG9hZCk/OwogICAgICAgICAgICBPaygoKSkKICAgICAgICB9LAogICAgICAgIHBhc3N3b3JkLAogICAgICAgIG1vZGlmaWVkX2F0X21zLAogICAgICAgIE1BWF9CQUNLVVBfQVJDSElWRV9TSVpFLAogICAgKQp9CgpmbiBjcmVhdGVfcGFzc3dvcmRfcHJvdGVjdGVkX3ppcF9zdHJlYW1pbmcoCiAgICBmaWxlX25hbWU6ICZzdHIsCiAgICB3cml0ZV9jb250ZW50OiBpbXBsIEZuKCZtdXQgZHluIFdyaXRlKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4sCiAgICBwYXNzd29yZDogJnN0ciwKICAgIG1vZGlmaWVkX2F0X21zOiBpNjQsCiAgICBsaW1pdDogdXNpemUsCikgLT4gYW55aG93OjpSZXN1bHQ8QmFja3VwQXJjaGl2ZUJ1ZmZlcj4gewogICAgbGV0IGZpbGVfbmFtZV9ieXRlcyA9IGZpbGVfbmFtZS5hc19ieXRlcygpOwogICAgYW55aG93OjplbnN1cmUhKAogICAgICAgIGZpbGVfbmFtZV9ieXRlcy5sZW4oKSA8PSB1MTY6Ok1BWCBhcyB1c2l6ZSwKICAgICAgICAiQmFja3VwIGZpbGVuYW1lIGlzIHRvbyBsYXJnZSIKICAgICk7CiAgICAvLyBaaXBDcnlwdG8ncyBoZWFkZXIgbmVlZHMgQ1JDIGJlZm9yZSBjb21wcmVzc2lvbi4gQ291bnQgYW5kIGNoZWNrc3VtIGEKICAgIC8vIHNlcmlhbGl6YXRpb24gcGFzcywgdGhlbiBzZXJpYWxpemUgYWdhaW4gZGlyZWN0bHkgaW50byB0aGUgY29tcHJlc3Nvci4KICAgIGxldCBtdXQgY2hlY2tzdW0gPSBCYWNrdXBDcmNXcml0ZXIgewogICAgICAgIGxlbjogMCwKICAgICAgICBjcmM6IDB4ZmZmZmZmZmYsCiAgICAgICAgbGltaXQsCiAgICB9OwogICAgd3JpdGVfY29udGVudCgmbXV0IGNoZWNrc3VtKT87CiAgICBsZXQgY3JjID0gY2hlY2tzdW0uY3JjIF4gMHhmZmZmZmZmZjsKICAgIGxldCB1bmNvbXByZXNzZWRfc2l6ZSA9IHUzMjo6dHJ5X2Zyb20oY2hlY2tzdW0ubGVuKT87CiAgICBsZXQgKGRvc190aW1lLCBkb3NfZGF0ZSkgPSBkb3NfZGF0ZXRpbWUobW9kaWZpZWRfYXRfbXMpOwogICAgbGV0IGZsYWdzID0gMHgwMDAxX3UxNjsKICAgIGxldCBjb21wcmVzc2lvbl9tZXRob2QgPSA4X3UxNjsKCiAgICBsZXQgbXV0IGhlYWRlciA9IFZlYzo6bmV3KCk7CiAgICB3cml0ZV91MzIoJm11dCBoZWFkZXIsIDB4MDQwMzRiNTApOwogICAgd3JpdGVfdTE2KCZtdXQgaGVhZGVyLCAyMCk7CiAgICB3cml0ZV91MTYoJm11dCBoZWFkZXIsIGZsYWdzKTsKICAgIHdyaXRlX3UxNigmbXV0IGhlYWRlciwgY29tcHJlc3Npb25fbWV0aG9kKTsKICAgIHdyaXRlX3UxNigmbXV0IGhlYWRlciwgZG9zX3RpbWUpOwogICAgd3JpdGVfdTE2KCZtdXQgaGVhZGVyLCBkb3NfZGF0ZSk7CiAgICB3cml0ZV91MzIoJm11dCBoZWFkZXIsIGNyYyk7CiAgICAvLyBQYXRjaGVkIGFmdGVyIGNvbXByZXNzaW9uOyB3cml0ZSBkaXJlY3RseSBpbnRvIHRoZSBmaW5hbCBhcmNoaXZlIGJ1ZmZlci4KICAgIHdyaXRlX3UzMigmbXV0IGhlYWRlciwgMCk7CiAgICB3cml0ZV91MzIoJm11dCBoZWFkZXIsIHVuY29tcHJlc3NlZF9zaXplKTsKICAgIHdyaXRlX3UxNigmbXV0IGhlYWRlciwgZmlsZV9uYW1lX2J5dGVzLmxlbigpIGFzIHUxNik7CiAgICB3cml0ZV91MTYoJm11dCBoZWFkZXIsIDApOwogICAgaGVhZGVyLmV4dGVuZF9mcm9tX3NsaWNlKGZpbGVfbmFtZV9ieXRlcyk7CiAgICBsZXQgbXV0IG91dHB1dCA9IEJhY2t1cEFyY2hpdmVCdWZmZXI6Om5ldyhsaW1pdCk7CiAgICBvdXRwdXQud3JpdGVfYWxsKCZoZWFkZXIpPzsKCiAgICBsZXQgZGF0YV9zdGFydCA9IG91dHB1dC5sZW4oKTsKICAgIGxldCBtdXQgZW5jcnlwdGlvbl9oZWFkZXIgPSByYW5kOjpyYW5kb206OjxbdTg7IDEyXT4oKTsKICAgIGVuY3J5cHRpb25faGVhZGVyWzExXSA9IChjcmMgPj4gMjQpIGFzIHU4OwogICAgbGV0IG11dCBlbmNyeXB0b3IgPSBaaXBDcnlwdG9FbmNyeXB0b3I6Om5ldyhwYXNzd29yZCk7CiAgICBlbmNyeXB0b3IuZW5jcnlwdF9pbl9wbGFjZSgmbXV0IGVuY3J5cHRpb25faGVhZGVyKTsKICAgIG91dHB1dC53cml0ZV9hbGwoJmVuY3J5cHRpb25faGVhZGVyKT87CiAgICBsZXQgd3JpdGVyID0gQmFja3VwRW5jcnlwdFdyaXRlciB7CiAgICAgICAgb3V0cHV0OiAmbXV0IG91dHB1dCwKICAgICAgICBlbmNyeXB0b3IsCiAgICAgICAgc2NyYXRjaDogWzA7IEJBQ0tVUF9DSFVOS19TSVpFXSwKICAgIH07CiAgICBsZXQgZW5jb2RlciA9IERlZmxhdGVFbmNvZGVyOjpuZXcod3JpdGVyLCBDb21wcmVzc2lvbjo6YmVzdCgpKTsKICAgIC8vIFNlcmRlIG1heSBlbWl0IHZlcnkgc21hbGwgd3JpdGVzIGFyb3VuZCBKU09OIGVzY2FwZXMgYW5kIHB1bmN0dWF0aW9uLgogICAgLy8gQmF0Y2ggdGhlbSB3aXRob3V0IGNyZWF0aW5nIGEgYnVmZmVyIHByb3BvcnRpb25hbCB0byB0aGUgd2hvbGUgZG9jdW1lbnQuCiAgICBsZXQgbXV0IGJ1ZmZlcmVkID0gaW86OkJ1ZldyaXRlcjo6d2l0aF9jYXBhY2l0eShCQUNLVVBfQ0hVTktfU0laRSwgZW5jb2Rlcik7CiAgICB3cml0ZV9jb250ZW50KCZtdXQgYnVmZmVyZWQpPzsKICAgIGJ1ZmZlcmVkCiAgICAgICAgLmludG9faW5uZXIoKQogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IuaW50b19lcnJvcigpKT8KICAgICAgICAuZmluaXNoKCk/CiAgICAgICAgLmZsdXNoKCk/OwogICAgbGV0IGNvbXByZXNzZWRfc2l6ZSA9IChvdXRwdXQubGVuKCkgLSBkYXRhX3N0YXJ0KSBhcyB1MzI7CiAgICBvdXRwdXQucGF0Y2hfdTMyKDE4LCBjb21wcmVzc2VkX3NpemUpOwoKICAgIGxldCBjZW50cmFsX2RpcmVjdG9yeV9vZmZzZXQgPSBvdXRwdXQubGVuKCkgYXMgdTMyOwogICAgbGV0IG11dCBjZW50cmFsX2RpcmVjdG9yeSA9IFZlYzo6bmV3KCk7CiAgICB3cml0ZV91MzIoJm11dCBjZW50cmFsX2RpcmVjdG9yeSwgMHgwMjAxNGI1MCk7CiAgICB3cml0ZV91MTYoJm11dCBjZW50cmFsX2RpcmVjdG9yeSwgMjApOwogICAgd3JpdGVfdTE2KCZtdXQgY2VudHJhbF9kaXJlY3RvcnksIDIwKTsKICAgIHdyaXRlX3UxNigmbXV0IGNlbnRyYWxfZGlyZWN0b3J5LCBmbGFncyk7CiAgICB3cml0ZV91MTYoJm11dCBjZW50cmFsX2RpcmVjdG9yeSwgY29tcHJlc3Npb25fbWV0aG9kKTsKICAgIHdyaXRlX3UxNigmbXV0IGNlbnRyYWxfZGlyZWN0b3J5LCBkb3NfdGltZSk7CiAgICB3cml0ZV91MTYoJm11dCBjZW50cmFsX2RpcmVjdG9yeSwgZG9zX2RhdGUpOwogICAgd3JpdGVfdTMyKCZtdXQgY2VudHJhbF9kaXJlY3RvcnksIGNyYyk7CiAgICB3cml0ZV91MzIoJm11dCBjZW50cmFsX2RpcmVjdG9yeSwgY29tcHJlc3NlZF9zaXplKTsKICAgIHdyaXRlX3UzMigmbXV0IGNlbnRyYWxfZGlyZWN0b3J5LCB1bmNvbXByZXNzZWRfc2l6ZSk7CiAgICB3cml0ZV91MTYoJm11dCBjZW50cmFsX2RpcmVjdG9yeSwgZmlsZV9uYW1lX2J5dGVzLmxlbigpIGFzIHUxNik7CiAgICB3cml0ZV91MTYoJm11dCBjZW50cmFsX2RpcmVjdG9yeSwgMCk7CiAgICB3cml0ZV91MTYoJm11dCBjZW50cmFsX2RpcmVjdG9yeSwgMCk7CiAgICB3cml0ZV91MTYoJm11dCBjZW50cmFsX2RpcmVjdG9yeSwgMCk7CiAgICB3cml0ZV91MTYoJm11dCBjZW50cmFsX2RpcmVjdG9yeSwgMCk7CiAgICB3cml0ZV91MzIoJm11dCBjZW50cmFsX2RpcmVjdG9yeSwgMCk7CiAgICB3cml0ZV91MzIoJm11dCBjZW50cmFsX2RpcmVjdG9yeSwgMCk7CiAgICBjZW50cmFsX2RpcmVjdG9yeS5leHRlbmRfZnJvbV9zbGljZShmaWxlX25hbWVfYnl0ZXMpOwoKICAgIGxldCBtdXQgZW5kID0gVmVjOjpuZXcoKTsKICAgIHdyaXRlX3UzMigmbXV0IGVuZCwgMHgwNjA1NGI1MCk7CiAgICB3cml0ZV91MTYoJm11dCBlbmQsIDApOwogICAgd3JpdGVfdTE2KCZtdXQgZW5kLCAwKTsKICAgIHdyaXRlX3UxNigmbXV0IGVuZCwgMSk7CiAgICB3cml0ZV91MTYoJm11dCBlbmQsIDEpOwogICAgd3JpdGVfdTMyKCZtdXQgZW5kLCBjZW50cmFsX2RpcmVjdG9yeS5sZW4oKSBhcyB1MzIpOwogICAgd3JpdGVfdTMyKCZtdXQgZW5kLCBjZW50cmFsX2RpcmVjdG9yeV9vZmZzZXQpOwogICAgd3JpdGVfdTE2KCZtdXQgZW5kLCAwKTsKCiAgICBvdXRwdXQud3JpdGVfYWxsKCZjZW50cmFsX2RpcmVjdG9yeSk/OwogICAgb3V0cHV0LndyaXRlX2FsbCgmZW5kKT87CiAgICBPayhvdXRwdXQpCn0KCiNbY2ZnKHRlc3QpXQpwdWIoc3VwZXIpIGZuIGNyZWF0ZV9wYXNzd29yZF9wcm90ZWN0ZWRfemlwKAogICAgZmlsZV9uYW1lOiAmc3RyLAogICAgY29udGVudDogJlt1OF0sCiAgICBwYXNzd29yZDogJnN0ciwKICAgIG1vZGlmaWVkX2F0X21zOiBpNjQsCikgLT4gYW55aG93OjpSZXN1bHQ8VmVjPHU4Pj4gewogICAgT2soY3JlYXRlX3Bhc3N3b3JkX3Byb3RlY3RlZF96aXBfc3RyZWFtaW5nKAogICAgICAgIGZpbGVfbmFtZSwKICAgICAgICB8d3JpdGVyfCB7CiAgICAgICAgICAgIHdyaXRlci53cml0ZV9hbGwoY29udGVudCk/OwogICAgICAgICAgICBPaygoKSkKICAgICAgICB9LAogICAgICAgIHBhc3N3b3JkLAogICAgICAgIG1vZGlmaWVkX2F0X21zLAogICAgICAgIE1BWF9CQUNLVVBfQVJDSElWRV9TSVpFLAogICAgKT8KICAgIC5pbnRvX2J5dGVzKCkpCn0KCnN0cnVjdCBaaXBDcnlwdG9FbmNyeXB0b3IgewogICAga2V5MDogdTMyLAogICAga2V5MTogdTMyLAogICAga2V5MjogdTMyLAp9CgppbXBsIFppcENyeXB0b0VuY3J5cHRvciB7CiAgICBmbiBuZXcocGFzc3dvcmQ6ICZzdHIpIC0+IFNlbGYgewogICAgICAgIGxldCBtdXQgdGhpcyA9IFNlbGYgewogICAgICAgICAgICBrZXkwOiAweDEyMzQ1Njc4LAogICAgICAgICAgICBrZXkxOiAweDIzNDU2Nzg5LAogICAgICAgICAgICBrZXkyOiAweDM0NTY3ODkwLAogICAgICAgIH07CiAgICAgICAgZm9yIGJ5dGUgaW4gcGFzc3dvcmQuYXNfYnl0ZXMoKSB7CiAgICAgICAgICAgIHRoaXMudXBkYXRlX2tleXMoKmJ5dGUpOwogICAgICAgIH0KICAgICAgICB0aGlzCiAgICB9CgogICAgZm4gZW5jcnlwdF9pbl9wbGFjZSgmbXV0IHNlbGYsIGRhdGE6ICZtdXQgW3U4XSkgewogICAgICAgIGZvciBieXRlIGluIGRhdGEgewogICAgICAgICAgICBsZXQgcGxhaW4gPSAqYnl0ZTsKICAgICAgICAgICAgKmJ5dGUgXj0gc2VsZi5kZWNyeXB0X2J5dGUoKTsKICAgICAgICAgICAgc2VsZi51cGRhdGVfa2V5cyhwbGFpbik7CiAgICAgICAgfQogICAgfQoKICAgIGZuIHVwZGF0ZV9rZXlzKCZtdXQgc2VsZiwgYnl0ZTogdTgpIHsKICAgICAgICBzZWxmLmtleTAgPSBjcmMzMl91cGRhdGUoc2VsZi5rZXkwLCBieXRlKTsKICAgICAgICBzZWxmLmtleTEgPSBzZWxmCiAgICAgICAgICAgIC5rZXkxCiAgICAgICAgICAgIC53cmFwcGluZ19hZGQoc2VsZi5rZXkwICYgMHhmZikKICAgICAgICAgICAgLndyYXBwaW5nX211bCgxMzQ3NzU4MTMpCiAgICAgICAgICAgIC53cmFwcGluZ19hZGQoMSk7CiAgICAgICAgc2VsZi5rZXkyID0gY3JjMzJfdXBkYXRlKHNlbGYua2V5MiwgKHNlbGYua2V5MSA+PiAyNCkgYXMgdTgpOwogICAgfQoKICAgIGZuIGRlY3J5cHRfYnl0ZSgmc2VsZikgLT4gdTggewogICAgICAgIGxldCB0ZW1wID0gKHNlbGYua2V5MiB8IDIpICYgMHhmZmZmOwogICAgICAgICgoKHRlbXAud3JhcHBpbmdfbXVsKHRlbXAgXiAxKSkgPj4gOCkgJiAweGZmKSBhcyB1OAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGNyYzMyX3VwZGF0ZShjcmM6IHUzMiwgYnl0ZTogdTgpIC0+IHUzMiB7CiAgICBsZXQgbXV0IHZhbHVlID0gKGNyYyBeIHUzMjo6ZnJvbShieXRlKSkgJiAweGZmOwogICAgZm9yIF8gaW4gMC4uOCB7CiAgICAgICAgdmFsdWUgPSBpZiB2YWx1ZSAmIDEgIT0gMCB7CiAgICAgICAgICAgIDB4ZWRiODgzMjAgXiAodmFsdWUgPj4gMSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB2YWx1ZSA+PiAxCiAgICAgICAgfTsKICAgIH0KICAgIHZhbHVlIF4gKGNyYyA+PiA4KQp9CgpwdWIoc3VwZXIpIGZuIGRvc19kYXRldGltZShtczogaTY0KSAtPiAodTE2LCB1MTYpIHsKICAgIGxldCB0aW1lc3RhbXAgPSBtcy5kaXZfZXVjbGlkKDEwMDApOwogICAgbGV0IHV0YyA9IHRpbWU6Ok9mZnNldERhdGVUaW1lOjpmcm9tX3VuaXhfdGltZXN0YW1wKHRpbWVzdGFtcCkKICAgICAgICAudW53cmFwX29yKHRpbWU6Ok9mZnNldERhdGVUaW1lOjpVTklYX0VQT0NIKTsKICAgIGxldCBsb2NhbCA9IHRpbWU6OlV0Y09mZnNldDo6Y3VycmVudF9sb2NhbF9vZmZzZXQoKQogICAgICAgIC5tYXAofG9mZnNldHwgdXRjLnRvX29mZnNldChvZmZzZXQpKQogICAgICAgIC51bndyYXBfb3IodXRjKTsKICAgIGxldCB5ZWFyID0gbG9jYWwueWVhcigpLmNsYW1wKDE5ODAsIDIxMDcpOwogICAgbGV0IG1vbnRoID0gdTg6OmZyb20obG9jYWwubW9udGgoKSkgYXMgdTE2OwogICAgbGV0IGRheSA9IGxvY2FsLmRheSgpIGFzIHUxNjsKICAgIGxldCBob3VycyA9IGxvY2FsLmhvdXIoKSBhcyB1MTY7CiAgICBsZXQgbWludXRlcyA9IGxvY2FsLm1pbnV0ZSgpIGFzIHUxNjsKICAgIGxldCBzZWNvbmRzID0gKGxvY2FsLnNlY29uZCgpIC8gMikgYXMgdTE2OwogICAgbGV0IHRpbWUgPSAoKGhvdXJzICYgMHgxZikgPDwgMTEpIHwgKChtaW51dGVzICYgMHgzZikgPDwgNSkgfCAoc2Vjb25kcyAmIDB4MWYpOwogICAgbGV0IGRhdGUgPSAoKCh5ZWFyIC0gMTk4MCkgYXMgdTE2KSA8PCA5KSB8ICgobW9udGggJiAweGYpIDw8IDUpIHwgKGRheSAmIDB4MWYpOwogICAgKHRpbWUsIGRhdGUpCn0KCnB1YihzdXBlcikgZm4gd3JpdGVfdTE2KG91dHB1dDogJm11dCBWZWM8dTg+LCB2YWx1ZTogdTE2KSB7CiAgICBvdXRwdXQuZXh0ZW5kX2Zyb21fc2xpY2UoJnZhbHVlLnRvX2xlX2J5dGVzKCkpOwp9CgpwdWIoc3VwZXIpIGZuIHdyaXRlX3UzMihvdXRwdXQ6ICZtdXQgVmVjPHU4PiwgdmFsdWU6IHUzMikgewogICAgb3V0cHV0LmV4dGVuZF9mcm9tX3NsaWNlKCZ2YWx1ZS50b19sZV9ieXRlcygpKTsKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CgogICAgI1t0ZXN0XQogICAgZm4gc2VnbWVudGVkX2JhY2t1cF9idWZmZXJfZW5mb3JjZXNfdG90YWxfYW5kX2NodW5rX2JvdW5kcygpIHsKICAgICAgICBsZXQgbXV0IG91dHB1dCA9IEJhY2t1cEFyY2hpdmVCdWZmZXI6Om5ldyhCQUNLVVBfQ0hVTktfU0laRSArIDE3KTsKICAgICAgICBvdXRwdXQud3JpdGVfYWxsKCZ2ZWMhWzc7IEJBQ0tVUF9DSFVOS19TSVpFXSkudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0IShvdXRwdXQud3JpdGVfYWxsKCZbODsgMThdKS5pc19lcnIoKSk7CiAgICAgICAgYXNzZXJ0X2VxIShvdXRwdXQubGVuKCksIEJBQ0tVUF9DSFVOS19TSVpFKTsKICAgICAgICBvdXRwdXQud3JpdGVfYWxsKCZbODsgMTddKS51bndyYXAoKTsKICAgICAgICBhc3NlcnRfZXEhKG91dHB1dC5sZW4oKSwgQkFDS1VQX0NIVU5LX1NJWkUgKyAxNyk7CiAgICAgICAgYXNzZXJ0X2VxIShvdXRwdXQuY2h1bmtzKCkubGVuKCksIDIpOwogICAgICAgIGFzc2VydCEoCiAgICAgICAgICAgIG91dHB1dAogICAgICAgICAgICAgICAgLmNodW5rcygpCiAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAuYWxsKHxjaHVua3wgY2h1bmsuY2FwYWNpdHkoKSA8PSBCQUNLVVBfQ0hVTktfU0laRSkKICAgICAgICApOwogICAgICAgIGFzc2VydCEob3V0cHV0LndyaXRlX2FsbCgmWzldKS5pc19lcnIoKSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gcmVwZWF0ZWRfc3RyZWFtZWRfanNvbl9leHBvcnRzX3ByZXNlcnZlX2NvbnRlbnRfYW5kX3NtYWxsX2FsbG9jYXRpb25zKCkgewogICAgICAgIGxldCBtdXQgcmFuZG9tID0gMHgxMjM0XzU2NzhfOWFiY19kZWYwX3U2NDsKICAgICAgICBsZXQgdmFsdWUgPSAoMC4uMjU2ICogMTAyNCkKICAgICAgICAgICAgLm1hcCh8X3wgewogICAgICAgICAgICAgICAgcmFuZG9tIF49IHJhbmRvbSA8PCAxMzsKICAgICAgICAgICAgICAgIHJhbmRvbSBePSByYW5kb20gPj4gNzsKICAgICAgICAgICAgICAgIHJhbmRvbSBePSByYW5kb20gPDwgMTc7CiAgICAgICAgICAgICAgICBjaGFyOjpmcm9tKGInICcgKyAocmFuZG9tICUgOTUpIGFzIHU4KQogICAgICAgICAgICB9KQogICAgICAgICAgICAuY29sbGVjdDo6PFN0cmluZz4oKTsKICAgICAgICBsZXQgcGF5bG9hZCA9IGpzb24hKHsgImVudHJpZXMiOiBbeyAidmFsdWUiOiB2YWx1ZSB9XSwgImVudHJ5X2NvdW50IjogMSB9KTsKICAgICAgICBsZXQgZXhwZWN0ZWQgPSBzZXJkZV9qc29uOjp0b192ZWNfcHJldHR5KCZwYXlsb2FkKS51bndyYXAoKTsKICAgICAgICBmb3IgXyBpbiAwLi40IHsKICAgICAgICAgICAgbGV0IGFyY2hpdmUgPSBjcmVhdGVfcGFzc3dvcmRfcHJvdGVjdGVkX2pzb25femlwKAogICAgICAgICAgICAgICAgS05PQ0tfQkFDS1VQX0pTT05fRklMRU5BTUUsCiAgICAgICAgICAgICAgICAmcGF5bG9hZCwKICAgICAgICAgICAgICAgIEtOT0NLX0JBQ0tVUF9QQVNTV09SRCwKICAgICAgICAgICAgICAgIDFfNzA0XzA2N18yMDBfMDAwLAogICAgICAgICAgICApCiAgICAgICAgICAgIC51bndyYXAoKTsKICAgICAgICAgICAgYXNzZXJ0IShhcmNoaXZlLmNodW5rcygpLmxlbigpID4gMSk7CiAgICAgICAgICAgIGFzc2VydCEoYXJjaGl2ZS5sZW4oKSA8PSBNQVhfQkFDS1VQX0FSQ0hJVkVfU0laRSk7CiAgICAgICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgICAgICBhcmNoaXZlLmxlbigpLAogICAgICAgICAgICAgICAgYXJjaGl2ZS5jaHVua3MoKS5pdGVyKCkubWFwKFZlYzo6bGVuKS5zdW06Ojx1c2l6ZT4oKQogICAgICAgICAgICApOwogICAgICAgICAgICBhc3NlcnQhKAogICAgICAgICAgICAgICAgYXJjaGl2ZQogICAgICAgICAgICAgICAgICAgIC5jaHVua3MoKQogICAgICAgICAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgICAgICAgICAuYWxsKHxjaHVua3wgY2h1bmsubGVuKCkgPD0gQkFDS1VQX0NIVU5LX1NJWkUKICAgICAgICAgICAgICAgICAgICAgICAgJiYgY2h1bmsuY2FwYWNpdHkoKSA8PSBCQUNLVVBfQ0hVTktfU0laRSkKICAgICAgICAgICAgKTsKICAgICAgICAgICAgbGV0IGJ5dGVzID0gYXJjaGl2ZS5pbnRvX2J5dGVzKCk7CiAgICAgICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgICAgICByZWFkX2JhY2t1cF9qc29uX2Zyb21fYXJjaGl2ZV9uYXRpdmUoJmJ5dGVzKQogICAgICAgICAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAgICAgICAgIC5hc19ieXRlcygpLAogICAgICAgICAgICAgICAgZXhwZWN0ZWQKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gc3RyZWFtZWRfemlwX2xpbWl0c19ib3RoX3NvdXJjZV9qc29uX2FuZF9maW5hbF9hcmNoaXZlKCkgewogICAgICAgIGxldCBvdmVyc2l6ZWRfc291cmNlID0gY3JlYXRlX3Bhc3N3b3JkX3Byb3RlY3RlZF96aXBfc3RyZWFtaW5nKAogICAgICAgICAgICBLTk9DS19CQUNLVVBfSlNPTl9GSUxFTkFNRSwKICAgICAgICAgICAgfHdyaXRlcnwgewogICAgICAgICAgICAgICAgd3JpdGVyLndyaXRlX2FsbCgmW2IneCc7IDEwMjRdKT87CiAgICAgICAgICAgICAgICBPaygoKSkKICAgICAgICAgICAgfSwKICAgICAgICAgICAgS05PQ0tfQkFDS1VQX1BBU1NXT1JELAogICAgICAgICAgICAxXzcwNF8wNjdfMjAwXzAwMCwKICAgICAgICAgICAgMTAyMywKICAgICAgICApOwogICAgICAgIGFzc2VydCEoCiAgICAgICAgICAgIG92ZXJzaXplZF9zb3VyY2UKICAgICAgICAgICAgICAgIC5lcnIoKQogICAgICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgICAgICAudG9fc3RyaW5nKCkKICAgICAgICAgICAgICAgIC5jb250YWlucygidG9vIGxhcmdlIikKICAgICAgICApOwogICAgICAgIC8vIEV2ZW4gYW4gZW1wdHkgc291cmNlIG5lZWRzIFpJUCBoZWFkZXJzLCBlbmNyeXB0aW9uIGFuZCBhIGRpcmVjdG9yeS4KICAgICAgICBsZXQgb3ZlcnNpemVkX2FyY2hpdmUgPSBjcmVhdGVfcGFzc3dvcmRfcHJvdGVjdGVkX3ppcF9zdHJlYW1pbmcoCiAgICAgICAgICAgIEtOT0NLX0JBQ0tVUF9KU09OX0ZJTEVOQU1FLAogICAgICAgICAgICB8X3wgT2soKCkpLAogICAgICAgICAgICBLTk9DS19CQUNLVVBfUEFTU1dPUkQsCiAgICAgICAgICAgIDFfNzA0XzA2N18yMDBfMDAwLAogICAgICAgICAgICA2NCwKICAgICAgICApOwogICAgICAgIGFzc2VydCEoCiAgICAgICAgICAgIG92ZXJzaXplZF9hcmNoaXZlCiAgICAgICAgICAgICAgICAuZXJyKCkKICAgICAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAgICAgLnRvX3N0cmluZygpCiAgICAgICAgICAgICAgICAuY29udGFpbnMoInRvbyBsYXJnZSIpCiAgICAgICAgKTsKICAgIH0KfQo=
+use super::*;
+
+const BACKUP_CHUNK_SIZE: usize = 64 * 1024;
+
+// Keep the total archive bounded without ever growing a contiguous allocation
+// to its full size. Freed multi-megabyte Vec capacities can remain resident in
+// system allocators long after a completed export.
+pub(super) struct BackupArchiveBuffer {
+    chunks: Vec<Vec<u8>>,
+    len: usize,
+    limit: usize,
+}
+
+impl BackupArchiveBuffer {
+    fn new(limit: usize) -> Self {
+        Self {
+            chunks: Vec::new(),
+            len: 0,
+            limit,
+        }
+    }
+
+    pub(super) fn len(&self) -> usize {
+        self.len
+    }
+
+    pub(super) fn chunks(&self) -> &[Vec<u8>] {
+        &self.chunks
+    }
+
+    pub(super) fn into_chunks(self) -> Vec<Vec<u8>> {
+        self.chunks
+    }
+
+    fn patch_u32(&mut self, offset: usize, value: u32) {
+        for (index, byte) in value.to_le_bytes().into_iter().enumerate() {
+            self.chunks[(offset + index) / BACKUP_CHUNK_SIZE]
+                [(offset + index) % BACKUP_CHUNK_SIZE] = byte;
+        }
+    }
+
+    #[cfg(test)]
+    pub(super) fn into_bytes(self) -> Vec<u8> {
+        self.chunks.into_iter().flatten().collect()
+    }
+
+    #[cfg(test)]
+    pub(super) fn from_bytes(bytes: &[u8]) -> Self {
+        let mut buffer = Self::new(MAX_BACKUP_ARCHIVE_SIZE);
+        buffer.write_all(bytes).unwrap();
+        buffer
+    }
+}
+
+impl Write for BackupArchiveBuffer {
+    fn write(&mut self, mut bytes: &[u8]) -> io::Result<usize> {
+        let count = bytes.len();
+        if count > self.limit.saturating_sub(self.len) {
+            return Err(io::Error::other("Backup export is too large"));
+        }
+        while !bytes.is_empty() {
+            if self
+                .chunks
+                .last()
+                .is_none_or(|chunk| chunk.len() == BACKUP_CHUNK_SIZE)
+            {
+                self.chunks.push(Vec::with_capacity(
+                    BACKUP_CHUNK_SIZE.min(self.limit - self.len),
+                ));
+            }
+            let chunk = self.chunks.last_mut().unwrap();
+            let copied = bytes.len().min(BACKUP_CHUNK_SIZE - chunk.len());
+            chunk.extend_from_slice(&bytes[..copied]);
+            self.len += copied;
+            bytes = &bytes[copied..];
+        }
+        Ok(count)
+    }
+
+    fn flush(&mut self) -> io::Result<()> {
+        Ok(())
+    }
+}
+
+struct BackupCrcWriter {
+    len: usize,
+    crc: u32,
+    limit: usize,
+}
+
+impl Write for BackupCrcWriter {
+    fn write(&mut self, bytes: &[u8]) -> io::Result<usize> {
+        if bytes.len() > self.limit.saturating_sub(self.len) {
+            return Err(io::Error::other("Backup export is too large"));
+        }
+        for &byte in bytes {
+            self.crc = crc32_update(self.crc, byte);
+        }
+        self.len += bytes.len();
+        Ok(bytes.len())
+    }
+
+    fn flush(&mut self) -> io::Result<()> {
+        Ok(())
+    }
+}
+
+struct BackupEncryptWriter<'a> {
+    output: &'a mut BackupArchiveBuffer,
+    encryptor: ZipCryptoEncryptor,
+    scratch: [u8; BACKUP_CHUNK_SIZE],
+}
+
+impl Write for BackupEncryptWriter<'_> {
+    fn write(&mut self, bytes: &[u8]) -> io::Result<usize> {
+        for source in bytes.chunks(BACKUP_CHUNK_SIZE) {
+            let encrypted = &mut self.scratch[..source.len()];
+            encrypted.copy_from_slice(source);
+            self.encryptor.encrypt_in_place(encrypted);
+            self.output.write_all(encrypted)?;
+        }
+        Ok(bytes.len())
+    }
+
+    fn flush(&mut self) -> io::Result<()> {
+        self.output.flush()
+    }
+}
+
+pub(super) fn create_password_protected_json_zip(
+    file_name: &str,
+    payload: &Value,
+    password: &str,
+    modified_at_ms: i64,
+) -> anyhow::Result<BackupArchiveBuffer> {
+    create_password_protected_zip_streaming(
+        file_name,
+        |writer| {
+            serde_json::to_writer_pretty(writer, payload)?;
+            Ok(())
+        },
+        password,
+        modified_at_ms,
+        MAX_BACKUP_ARCHIVE_SIZE,
+    )
+}
+
+fn create_password_protected_zip_streaming(
+    file_name: &str,
+    write_content: impl Fn(&mut dyn Write) -> anyhow::Result<()>,
+    password: &str,
+    modified_at_ms: i64,
+    limit: usize,
+) -> anyhow::Result<BackupArchiveBuffer> {
+    let file_name_bytes = file_name.as_bytes();
+    anyhow::ensure!(
+        file_name_bytes.len() <= u16::MAX as usize,
+        "Backup filename is too large"
+    );
+    // ZipCrypto's header needs CRC before compression. Count and checksum a
+    // serialization pass, then serialize again directly into the compressor.
+    let mut checksum = BackupCrcWriter {
+        len: 0,
+        crc: 0xffffffff,
+        limit,
+    };
+    write_content(&mut checksum)?;
+    let crc = checksum.crc ^ 0xffffffff;
+    let uncompressed_size = u32::try_from(checksum.len)?;
+    let (dos_time, dos_date) = dos_datetime(modified_at_ms);
+    let flags = 0x0001_u16;
+    let compression_method = 8_u16;
+
+    let mut header = Vec::new();
+    write_u32(&mut header, 0x04034b50);
+    write_u16(&mut header, 20);
+    write_u16(&mut header, flags);
+    write_u16(&mut header, compression_method);
+    write_u16(&mut header, dos_time);
+    write_u16(&mut header, dos_date);
+    write_u32(&mut header, crc);
+    // Patched after compression; write directly into the final archive buffer.
+    write_u32(&mut header, 0);
+    write_u32(&mut header, uncompressed_size);
+    write_u16(&mut header, file_name_bytes.len() as u16);
+    write_u16(&mut header, 0);
+    header.extend_from_slice(file_name_bytes);
+    let mut output = BackupArchiveBuffer::new(limit);
+    output.write_all(&header)?;
+
+    let data_start = output.len();
+    let mut encryption_header = rand::random::<[u8; 12]>();
+    encryption_header[11] = (crc >> 24) as u8;
+    let mut encryptor = ZipCryptoEncryptor::new(password);
+    encryptor.encrypt_in_place(&mut encryption_header);
+    output.write_all(&encryption_header)?;
+    let writer = BackupEncryptWriter {
+        output: &mut output,
+        encryptor,
+        scratch: [0; BACKUP_CHUNK_SIZE],
+    };
+    let encoder = DeflateEncoder::new(writer, Compression::best());
+    // Serde may emit very small writes around JSON escapes and punctuation.
+    // Batch them without creating a buffer proportional to the whole document.
+    let mut buffered = io::BufWriter::with_capacity(BACKUP_CHUNK_SIZE, encoder);
+    write_content(&mut buffered)?;
+    buffered
+        .into_inner()
+        .map_err(|error| error.into_error())?
+        .finish()?
+        .flush()?;
+    let compressed_size = (output.len() - data_start) as u32;
+    output.patch_u32(18, compressed_size);
+
+    let central_directory_offset = output.len() as u32;
+    let mut central_directory = Vec::new();
+    write_u32(&mut central_directory, 0x02014b50);
+    write_u16(&mut central_directory, 20);
+    write_u16(&mut central_directory, 20);
+    write_u16(&mut central_directory, flags);
+    write_u16(&mut central_directory, compression_method);
+    write_u16(&mut central_directory, dos_time);
+    write_u16(&mut central_directory, dos_date);
+    write_u32(&mut central_directory, crc);
+    write_u32(&mut central_directory, compressed_size);
+    write_u32(&mut central_directory, uncompressed_size);
+    write_u16(&mut central_directory, file_name_bytes.len() as u16);
+    write_u16(&mut central_directory, 0);
+    write_u16(&mut central_directory, 0);
+    write_u16(&mut central_directory, 0);
+    write_u16(&mut central_directory, 0);
+    write_u32(&mut central_directory, 0);
+    write_u32(&mut central_directory, 0);
+    central_directory.extend_from_slice(file_name_bytes);
+
+    let mut end = Vec::new();
+    write_u32(&mut end, 0x06054b50);
+    write_u16(&mut end, 0);
+    write_u16(&mut end, 0);
+    write_u16(&mut end, 1);
+    write_u16(&mut end, 1);
+    write_u32(&mut end, central_directory.len() as u32);
+    write_u32(&mut end, central_directory_offset);
+    write_u16(&mut end, 0);
+
+    output.write_all(&central_directory)?;
+    output.write_all(&end)?;
+    Ok(output)
+}
+
+#[cfg(test)]
+pub(super) fn create_password_protected_zip(
+    file_name: &str,
+    content: &[u8],
+    password: &str,
+    modified_at_ms: i64,
+) -> anyhow::Result<Vec<u8>> {
+    Ok(create_password_protected_zip_streaming(
+        file_name,
+        |writer| {
+            writer.write_all(content)?;
+            Ok(())
+        },
+        password,
+        modified_at_ms,
+        MAX_BACKUP_ARCHIVE_SIZE,
+    )?
+    .into_bytes())
+}
+
+struct ZipCryptoEncryptor {
+    key0: u32,
+    key1: u32,
+    key2: u32,
+}
+
+impl ZipCryptoEncryptor {
+    fn new(password: &str) -> Self {
+        let mut this = Self {
+            key0: 0x12345678,
+            key1: 0x23456789,
+            key2: 0x34567890,
+        };
+        for byte in password.as_bytes() {
+            this.update_keys(*byte);
+        }
+        this
+    }
+
+    fn encrypt_in_place(&mut self, data: &mut [u8]) {
+        for byte in data {
+            let plain = *byte;
+            *byte ^= self.decrypt_byte();
+            self.update_keys(plain);
+        }
+    }
+
+    fn update_keys(&mut self, byte: u8) {
+        self.key0 = crc32_update(self.key0, byte);
+        self.key1 = self
+            .key1
+            .wrapping_add(self.key0 & 0xff)
+            .wrapping_mul(134775813)
+            .wrapping_add(1);
+        self.key2 = crc32_update(self.key2, (self.key1 >> 24) as u8);
+    }
+
+    fn decrypt_byte(&self) -> u8 {
+        let temp = (self.key2 | 2) & 0xffff;
+        (((temp.wrapping_mul(temp ^ 1)) >> 8) & 0xff) as u8
+    }
+}
+
+pub(super) fn crc32_update(crc: u32, byte: u8) -> u32 {
+    let mut value = (crc ^ u32::from(byte)) & 0xff;
+    for _ in 0..8 {
+        value = if value & 1 != 0 {
+            0xedb88320 ^ (value >> 1)
+        } else {
+            value >> 1
+        };
+    }
+    value ^ (crc >> 8)
+}
+
+pub(super) fn dos_datetime(ms: i64) -> (u16, u16) {
+    let timestamp = ms.div_euclid(1000);
+    let utc = time::OffsetDateTime::from_unix_timestamp(timestamp)
+        .unwrap_or(time::OffsetDateTime::UNIX_EPOCH);
+    let local = time::UtcOffset::current_local_offset()
+        .map(|offset| utc.to_offset(offset))
+        .unwrap_or(utc);
+    let year = local.year().clamp(1980, 2107);
+    let month = u8::from(local.month()) as u16;
+    let day = local.day() as u16;
+    let hours = local.hour() as u16;
+    let minutes = local.minute() as u16;
+    let seconds = (local.second() / 2) as u16;
+    let time = ((hours & 0x1f) << 11) | ((minutes & 0x3f) << 5) | (seconds & 0x1f);
+    let date = (((year - 1980) as u16) << 9) | ((month & 0xf) << 5) | (day & 0x1f);
+    (time, date)
+}
+
+pub(super) fn write_u16(output: &mut Vec<u8>, value: u16) {
+    output.extend_from_slice(&value.to_le_bytes());
+}
+
+pub(super) fn write_u32(output: &mut Vec<u8>, value: u32) {
+    output.extend_from_slice(&value.to_le_bytes());
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn segmented_backup_buffer_enforces_total_and_chunk_bounds() {
+        let mut output = BackupArchiveBuffer::new(BACKUP_CHUNK_SIZE + 17);
+        output.write_all(&vec![7; BACKUP_CHUNK_SIZE]).unwrap();
+        assert!(output.write_all(&[8; 18]).is_err());
+        assert_eq!(output.len(), BACKUP_CHUNK_SIZE);
+        output.write_all(&[8; 17]).unwrap();
+        assert_eq!(output.len(), BACKUP_CHUNK_SIZE + 17);
+        assert_eq!(output.chunks().len(), 2);
+        assert!(
+            output
+                .chunks()
+                .iter()
+                .all(|chunk| chunk.capacity() <= BACKUP_CHUNK_SIZE)
+        );
+        assert!(output.write_all(&[9]).is_err());
+    }
+
+    #[test]
+    fn repeated_streamed_json_exports_preserve_content_and_small_allocations() {
+        let mut random = 0x1234_5678_9abc_def0_u64;
+        let value = (0..256 * 1024)
+            .map(|_| {
+                random ^= random << 13;
+                random ^= random >> 7;
+                random ^= random << 17;
+                char::from(b' ' + (random % 95) as u8)
+            })
+            .collect::<String>();
+        let payload = json!({ "entries": [{ "value": value }], "entry_count": 1 });
+        let expected = serde_json::to_vec_pretty(&payload).unwrap();
+        for _ in 0..4 {
+            let archive = create_password_protected_json_zip(
+                KNOCK_BACKUP_JSON_FILENAME,
+                &payload,
+                KNOCK_BACKUP_PASSWORD,
+                1_704_067_200_000,
+            )
+            .unwrap();
+            assert!(archive.chunks().len() > 1);
+            assert!(archive.len() <= MAX_BACKUP_ARCHIVE_SIZE);
+            assert_eq!(
+                archive.len(),
+                archive.chunks().iter().map(Vec::len).sum::<usize>()
+            );
+            assert!(
+                archive
+                    .chunks()
+                    .iter()
+                    .all(|chunk| chunk.len() <= BACKUP_CHUNK_SIZE
+                        && chunk.capacity() <= BACKUP_CHUNK_SIZE)
+            );
+            let bytes = archive.into_bytes();
+            assert_eq!(
+                read_backup_json_from_archive_native(&bytes)
+                    .unwrap()
+                    .as_bytes(),
+                expected
+            );
+        }
+    }
+
+    #[test]
+    fn streamed_zip_limits_both_source_json_and_final_archive() {
+        let oversized_source = create_password_protected_zip_streaming(
+            KNOCK_BACKUP_JSON_FILENAME,
+            |writer| {
+                writer.write_all(&[b'x'; 1024])?;
+                Ok(())
+            },
+            KNOCK_BACKUP_PASSWORD,
+            1_704_067_200_000,
+            1023,
+        );
+        assert!(
+            oversized_source
+                .err()
+                .unwrap()
+                .to_string()
+                .contains("too large")
+        );
+        // Even an empty source needs ZIP headers, encryption and a directory.
+        let oversized_archive = create_password_protected_zip_streaming(
+            KNOCK_BACKUP_JSON_FILENAME,
+            |_| Ok(()),
+            KNOCK_BACKUP_PASSWORD,
+            1_704_067_200_000,
+            64,
+        );
+        assert!(
+            oversized_archive
+                .err()
+                .unwrap()
+                .to_string()
+                .contains("too large")
+        );
+    }
+}

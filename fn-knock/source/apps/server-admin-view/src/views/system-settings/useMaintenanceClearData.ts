@@ -1,1 +1,75 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgTWFpbnRlbmFuY2VBUEkgfSBmcm9tICJAL2xpYi9hcGkvY29uZmlnIjsKCmV4cG9ydCBjb25zdCB1c2VNYWludGVuYW5jZUNsZWFyRGF0YSA9ICgpID0+IHsKICBjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKICBjb25zdCBpc0NsZWFyRGF0YURpYWxvZ09wZW4gPSByZWYoZmFsc2UpOwogIGNvbnN0IGNsZWFyRGF0YUNvbmZpcm1hdGlvbiA9IHJlZigiIik7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzQ2xlYXJpbmdEYXRhLCBydW46IHJ1bkNsZWFyRGF0YSB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuY2xlYXJBbGxEYXRhRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5jbGVhckFsbERhdGFGYWlsZWREZXNjcmlwdGlvbiIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSwKICB9KTsKCiAgY29uc3QgZXhwZWN0ZWRDbGVhckRhdGFDb25maXJtYXRpb24gPSBjb21wdXRlZCgoKSA9PgogICAgdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5jbGVhckFsbERhdGFDb25maXJtYXRpb25QaHJhc2UiKSwKICApOwogIGNvbnN0IGNhbkNsZWFyQWxsRGF0YSA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgIWlzQ2xlYXJpbmdEYXRhLnZhbHVlICYmCiAgICAgIGNsZWFyRGF0YUNvbmZpcm1hdGlvbi52YWx1ZSA9PT0gZXhwZWN0ZWRDbGVhckRhdGFDb25maXJtYXRpb24udmFsdWUsCiAgKTsKCiAgY29uc3Qgb3BlbkNsZWFyRGF0YURpYWxvZyA9ICgpID0+IHsKICAgIGlmIChpc0NsZWFyaW5nRGF0YS52YWx1ZSkgcmV0dXJuOwogICAgY2xlYXJEYXRhQ29uZmlybWF0aW9uLnZhbHVlID0gIiI7CiAgICBpc0NsZWFyRGF0YURpYWxvZ09wZW4udmFsdWUgPSB0cnVlOwogIH07CgogIGNvbnN0IGhhbmRsZUNsZWFyRGF0YURpYWxvZ09wZW5DaGFuZ2UgPSAob3BlbjogYm9vbGVhbikgPT4gewogICAgaWYgKGlzQ2xlYXJpbmdEYXRhLnZhbHVlKSByZXR1cm47CiAgICBpc0NsZWFyRGF0YURpYWxvZ09wZW4udmFsdWUgPSBvcGVuOwogICAgaWYgKCFvcGVuKSBjbGVhckRhdGFDb25maXJtYXRpb24udmFsdWUgPSAiIjsKICB9OwoKICBjb25zdCBjbGVhckFsbERhdGEgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoIWNhbkNsZWFyQWxsRGF0YS52YWx1ZSkgcmV0dXJuOwogICAgYXdhaXQgcnVuQ2xlYXJEYXRhKAogICAgICAoKSA9PiBNYWludGVuYW5jZUFQSS5jbGVhckFsbERhdGEoY2xlYXJEYXRhQ29uZmlybWF0aW9uLnZhbHVlKSwKICAgICAgewogICAgICAgIG9uU3VjY2VzczogKCkgPT4gewogICAgICAgICAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm47CiAgICAgICAgICB3aW5kb3cubG9jYWxTdG9yYWdlLmNsZWFyKCk7CiAgICAgICAgICB3aW5kb3cubG9jYXRpb24ucmVsb2FkKCk7CiAgICAgICAgfSwKICAgICAgfSwKICAgICk7CiAgfTsKCiAgY29uc3QgaGFuZGxlQ2xlYXJEYXRhRW50ZXIgPSAoKSA9PiB7CiAgICBpZiAoY2FuQ2xlYXJBbGxEYXRhLnZhbHVlKSB2b2lkIGNsZWFyQWxsRGF0YSgpOwogIH07CgogIHJldHVybiB7CiAgICBjYW5DbGVhckFsbERhdGEsCiAgICBjbGVhckFsbERhdGEsCiAgICBjbGVhckRhdGFDb25maXJtYXRpb24sCiAgICBleHBlY3RlZENsZWFyRGF0YUNvbmZpcm1hdGlvbiwKICAgIGhhbmRsZUNsZWFyRGF0YURpYWxvZ09wZW5DaGFuZ2UsCiAgICBoYW5kbGVDbGVhckRhdGFFbnRlciwKICAgIGlzQ2xlYXJEYXRhRGlhbG9nT3BlbiwKICAgIGlzQ2xlYXJpbmdEYXRhLAogICAgb3BlbkNsZWFyRGF0YURpYWxvZywKICB9Owp9Owo=
+import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { MaintenanceAPI } from "@/lib/api/config";
+
+export const useMaintenanceClearData = () => {
+  const { t } = useI18n();
+  const isClearDataDialogOpen = ref(false);
+  const clearDataConfirmation = ref("");
+  const { isPending: isClearingData, run: runClearData } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.maintenanceSettings.clearAllDataFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.maintenanceSettings.clearAllDataFailedDescription"),
+        ),
+      });
+    },
+  });
+
+  const expectedClearDataConfirmation = computed(() =>
+    t("admin.maintenanceSettings.clearAllDataConfirmationPhrase"),
+  );
+  const canClearAllData = computed(
+    () =>
+      !isClearingData.value &&
+      clearDataConfirmation.value === expectedClearDataConfirmation.value,
+  );
+
+  const openClearDataDialog = () => {
+    if (isClearingData.value) return;
+    clearDataConfirmation.value = "";
+    isClearDataDialogOpen.value = true;
+  };
+
+  const handleClearDataDialogOpenChange = (open: boolean) => {
+    if (isClearingData.value) return;
+    isClearDataDialogOpen.value = open;
+    if (!open) clearDataConfirmation.value = "";
+  };
+
+  const clearAllData = async () => {
+    if (!canClearAllData.value) return;
+    await runClearData(
+      () => MaintenanceAPI.clearAllData(clearDataConfirmation.value),
+      {
+        onSuccess: () => {
+          if (typeof window === "undefined") return;
+          window.localStorage.clear();
+          window.location.reload();
+        },
+      },
+    );
+  };
+
+  const handleClearDataEnter = () => {
+    if (canClearAllData.value) void clearAllData();
+  };
+
+  return {
+    canClearAllData,
+    clearAllData,
+    clearDataConfirmation,
+    expectedClearDataConfirmation,
+    handleClearDataDialogOpenChange,
+    handleClearDataEnter,
+    isClearDataDialogOpen,
+    isClearingData,
+    openClearDataDialog,
+  };
+};

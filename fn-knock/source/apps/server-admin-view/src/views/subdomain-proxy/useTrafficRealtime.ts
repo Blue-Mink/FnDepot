@@ -1,1 +1,43 @@
-aW1wb3J0IHsgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHR5cGUgeyBUcmFmZmljU3RhdHMgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsgY3JlYXRlVmlzaWJpbGl0eVBvbGxlciB9IGZyb20gIkAvY29tcG9zYWJsZXMvdXNlVmlzaWJpbGl0eVBvbGxpbmciOwoKZXhwb3J0IGNvbnN0IHVzZVRyYWZmaWNSZWFsdGltZSA9ICh7CiAgaW50ZXJ2YWxNcyA9IDEwMDAsCiAgbG9hZCwKICBvbkVycm9yLAp9OiB7CiAgaW50ZXJ2YWxNcz86IG51bWJlcjsKICBsb2FkOiAoKSA9PiBQcm9taXNlPFRyYWZmaWNTdGF0cz47CiAgb25FcnJvcj86IChlcnJvcjogdW5rbm93bikgPT4gdm9pZDsKfSkgPT4gewogIGNvbnN0IHRyYWZmaWNSZWFsdGltZVN0YXRzID0gcmVmPFRyYWZmaWNTdGF0cyB8IG51bGw+KG51bGwpOwoKICBjb25zdCBsb2FkVHJhZmZpY1JlYWx0aW1lID0gYXN5bmMgKCkgPT4gewogICAgdHJ5IHsKICAgICAgdHJhZmZpY1JlYWx0aW1lU3RhdHMudmFsdWUgPSBhd2FpdCBsb2FkKCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBvbkVycm9yPy4oZXJyb3IpOwogICAgfQogIH07CgogIGNvbnN0IHBvbGxlciA9IGNyZWF0ZVZpc2liaWxpdHlQb2xsZXIoewogICAgaW50ZXJ2YWxNcywKICAgIHRhc2s6IGxvYWRUcmFmZmljUmVhbHRpbWUsCiAgfSk7CgogIGNvbnN0IHN0b3BUcmFmZmljUmVhbHRpbWVQb2xsaW5nID0gKCkgPT4gewogICAgcG9sbGVyLnN0b3AoKTsKICB9OwoKICBjb25zdCBzdGFydFRyYWZmaWNSZWFsdGltZVBvbGxpbmcgPSAoKSA9PiB7CiAgICBwb2xsZXIuc3RhcnQoKTsKICB9OwoKICByZXR1cm4gewogICAgbG9hZFRyYWZmaWNSZWFsdGltZSwKICAgIHN0YXJ0VHJhZmZpY1JlYWx0aW1lUG9sbGluZywKICAgIHN0b3BUcmFmZmljUmVhbHRpbWVQb2xsaW5nLAogICAgdHJhZmZpY1JlYWx0aW1lU3RhdHMsCiAgfTsKfTsK
+import { ref } from "vue";
+import type { TrafficStats } from "@/types";
+import { createVisibilityPoller } from "@/composables/useVisibilityPolling";
+
+export const useTrafficRealtime = ({
+  intervalMs = 1000,
+  load,
+  onError,
+}: {
+  intervalMs?: number;
+  load: () => Promise<TrafficStats>;
+  onError?: (error: unknown) => void;
+}) => {
+  const trafficRealtimeStats = ref<TrafficStats | null>(null);
+
+  const loadTrafficRealtime = async () => {
+    try {
+      trafficRealtimeStats.value = await load();
+    } catch (error) {
+      onError?.(error);
+    }
+  };
+
+  const poller = createVisibilityPoller({
+    intervalMs,
+    task: loadTrafficRealtime,
+  });
+
+  const stopTrafficRealtimePolling = () => {
+    poller.stop();
+  };
+
+  const startTrafficRealtimePolling = () => {
+    poller.start();
+  };
+
+  return {
+    loadTrafficRealtime,
+    startTrafficRealtimePolling,
+    stopTrafficRealtimePolling,
+    trafficRealtimeStats,
+  };
+};

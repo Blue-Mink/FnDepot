@@ -1,1 +1,61 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IFNhdmUgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgQ29uZmlnQ29sbGFwc2libGVDYXJkIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9Db25maWdDb2xsYXBzaWJsZUNhcmQudnVlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCBTU0hTZWN1cml0eUFjdGlvbnNNZW51IGZyb20gIi4vU1NIU2VjdXJpdHlBY3Rpb25zTWVudS52dWUiOwppbXBvcnQgU1NIU2VjdXJpdHlGb3JtRmllbGRzIGZyb20gIi4vU1NIU2VjdXJpdHlGb3JtRmllbGRzLnZ1ZSI7CmltcG9ydCB0eXBlIHsgU1NIU2VjdXJpdHlDb250cm9sbGVyIH0gZnJvbSAiLi9zc2gtc2VjdXJpdHktY29udHJhY3QiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7IGNvbnRyb2xsZXI6IFNTSFNlY3VyaXR5Q29udHJvbGxlciB9PigpOwpjb25zdCB7CiAgZGV0YWlscywKICBpc0xvYWRpbmcsCiAgaXNTYXZpbmcsCiAgaXNTeW5jaW5nRmlyZXdhbGwsCiAgc2F2ZUJsb2NrZWRSZWFzb24sCiAgc2F2ZUNvbmZpZywKICBzdW1tYXJ5VGV4dCwKICB0LAp9ID0gcHJvcHMuY29udHJvbGxlcjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPENvbmZpZ0NvbGxhcHNpYmxlQ2FyZAogICAgOnRpdGxlPSJ0KCdhZG1pbi5zc2hTZWN1cml0eS50aXRsZScpIgogICAgOmNvbmZpZ3VyZWQ9ImRldGFpbHM/LnN1bW1hcnkuY29uZmlndXJlZCA9PT0gdHJ1ZSIKICAgIDpyZWFkeT0iZGV0YWlscyAhPT0gbnVsbCAmJiAhaXNMb2FkaW5nIgogICAgOmVkaXQtbGFiZWw9InQoJ2FkbWluLnNzaFNlY3VyaXR5LmVkaXRDb25maWcnKSIKICAgIGNvbGxhcHNlZC1jb250ZW50LWNsYXNzPSJtaW4taC1bNzZweF0gZmxleCBmbGV4LWNvbCBpdGVtcy1zdGFydCBnYXAtMyBzbTpoLVs0MHB4XSBzbTpmbGV4LXJvdyBzbTppdGVtcy1jZW50ZXIgc206anVzdGlmeS1iZXR3ZWVuIgogICAgc3VtbWFyeS1jbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICBleHBhbmRlZC1jb250ZW50LWNsYXNzPSJwLTAgc206cC0wIgogICAgYWN0aW9ucy1jbGFzcz0iYm9yZGVyLXQgYmctbXV0ZWQvMzAgcHgtNCBweS00IHNtOnB4LTYgZmxleCBmbGV4LWNvbC1yZXZlcnNlIGl0ZW1zLXN0cmV0Y2ggZ2FwLTIgcm91bmRlZC1iLWxnIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWVuZCIKICA+CiAgICA8dGVtcGxhdGUgI3N1bW1hcnk+e3sgc3VtbWFyeVRleHQgfX08L3RlbXBsYXRlPgoKICAgIDx0ZW1wbGF0ZSAjY29sbGFwc2VkLWFjdGlvbnM+CiAgICAgIDxTU0hTZWN1cml0eUFjdGlvbnNNZW51IGNvbXBhY3QgOmNvbnRyb2xsZXI9ImNvbnRyb2xsZXIiIC8+CiAgICA8L3RlbXBsYXRlPgoKICAgIDx0ZW1wbGF0ZSAjZGVmYXVsdD4KICAgICAgPFNTSFNlY3VyaXR5Rm9ybUZpZWxkcyA6Y29udHJvbGxlcj0iY29udHJvbGxlciIgLz4KICAgIDwvdGVtcGxhdGU+CgogICAgPHRlbXBsYXRlICNhY3Rpb25zPSJ7IGNvbGxhcHNlIH0iPgogICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0iY29sbGFwc2UiPgogICAgICAgIHt7IHQoImFkbWluLnNzaFNlY3VyaXR5LmNvbGxhcHNlIikgfX0KICAgICAgPC9CdXR0b24+CiAgICAgIDxTU0hTZWN1cml0eUFjdGlvbnNNZW51IDpjb250cm9sbGVyPSJjb250cm9sbGVyIiAvPgogICAgICA8QnV0dG9uCiAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZyB8fCBpc1N5bmNpbmdGaXJld2FsbCB8fCBCb29sZWFuKHNhdmVCbG9ja2VkUmVhc29uKSIKICAgICAgICBAY2xpY2s9InNhdmVDb25maWciCiAgICAgID4KICAgICAgICA8U2F2ZSBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICB7ewogICAgICAgICAgaXNTYXZpbmcKICAgICAgICAgICAgPyB0KCJhZG1pbi5zc2hTZWN1cml0eS5zYXZpbmciKQogICAgICAgICAgICA6IHQoImFkbWluLnNzaFNlY3VyaXR5LnNhdmVDb25maWciKQogICAgICAgIH19CiAgICAgIDwvQnV0dG9uPgogICAgPC90ZW1wbGF0ZT4KICA8L0NvbmZpZ0NvbGxhcHNpYmxlQ2FyZD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { Save } from "lucide-vue-next";
+import ConfigCollapsibleCard from "@admin-shared/components/ConfigCollapsibleCard.vue";
+import { Button } from "@/components/ui/button";
+import SSHSecurityActionsMenu from "./SSHSecurityActionsMenu.vue";
+import SSHSecurityFormFields from "./SSHSecurityFormFields.vue";
+import type { SSHSecurityController } from "./ssh-security-contract";
+
+const props = defineProps<{ controller: SSHSecurityController }>();
+const {
+  details,
+  isLoading,
+  isSaving,
+  isSyncingFirewall,
+  saveBlockedReason,
+  saveConfig,
+  summaryText,
+  t,
+} = props.controller;
+</script>
+
+<template>
+  <ConfigCollapsibleCard
+    :title="t('admin.sshSecurity.title')"
+    :configured="details?.summary.configured === true"
+    :ready="details !== null && !isLoading"
+    :edit-label="t('admin.sshSecurity.editConfig')"
+    collapsed-content-class="min-h-[76px] flex flex-col items-start gap-3 sm:h-[40px] sm:flex-row sm:items-center sm:justify-between"
+    summary-class="text-xs text-muted-foreground"
+    expanded-content-class="p-0 sm:p-0"
+    actions-class="border-t bg-muted/30 px-4 py-4 sm:px-6 flex flex-col-reverse items-stretch gap-2 rounded-b-lg sm:flex-row sm:items-center sm:justify-end"
+  >
+    <template #summary>{{ summaryText }}</template>
+
+    <template #collapsed-actions>
+      <SSHSecurityActionsMenu compact :controller="controller" />
+    </template>
+
+    <template #default>
+      <SSHSecurityFormFields :controller="controller" />
+    </template>
+
+    <template #actions="{ collapse }">
+      <Button variant="outline" @click="collapse">
+        {{ t("admin.sshSecurity.collapse") }}
+      </Button>
+      <SSHSecurityActionsMenu :controller="controller" />
+      <Button
+        :disabled="isSaving || isSyncingFirewall || Boolean(saveBlockedReason)"
+        @click="saveConfig"
+      >
+        <Save class="h-4 w-4" />
+        {{
+          isSaving
+            ? t("admin.sshSecurity.saving")
+            : t("admin.sshSecurity.saveConfig")
+        }}
+      </Button>
+    </template>
+  </ConfigCollapsibleCard>
+</template>

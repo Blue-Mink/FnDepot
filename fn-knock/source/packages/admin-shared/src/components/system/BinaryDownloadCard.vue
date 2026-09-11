@@ -1,1 +1,311 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIFBvcG92ZXIsCiAgUG9wb3ZlckNvbnRlbnQsCiAgUG9wb3ZlclRyaWdnZXIsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3BvcG92ZXIiOwppbXBvcnQgeyBQcm9ncmVzcyB9IGZyb20gIkAvY29tcG9uZW50cy91aS9wcm9ncmVzcyI7CmltcG9ydCB7IFNrZWxldG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NrZWxldG9uIjsKaW1wb3J0IFJlc291cmNlU3RhdHVzQ2FyZCBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvc3lzdGVtL1Jlc291cmNlU3RhdHVzQ2FyZC52dWUiOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cygKICBkZWZpbmVQcm9wczx7CiAgICB0aXRsZTogc3RyaW5nOwogICAgZGVzY3JpcHRpb246IHN0cmluZzsKICAgIGlzSW5pdGlhbGl6aW5nOiBib29sZWFuOwogICAgc3VwcG9ydGVkOiBib29sZWFuOwogICAgcGxhdGZvcm06IHN0cmluZzsKICAgIGRvd25sb2FkZWQ6IGJvb2xlYW47CiAgICBpbnN0YWxsYXRpb25TdGF0dXM/OiAibWlzc2luZyIgfCAib3V0ZGF0ZWQiIHwgImN1cnJlbnQiOwogICAgc3RhdHVzOiAiaWRsZSIgfCAiZG93bmxvYWRpbmciIHwgImNvbXBsZXRlZCIgfCAiZXJyb3IiOwogICAgcGVyY2VudDogbnVtYmVyOwogICAgZXJyb3I/OiBzdHJpbmc7CiAgICBpc0NhbmNlbGxpbmc/OiBib29sZWFuOwogICAgYWxsb3dNYW5hZ2U/OiBib29sZWFuOwogICAgcmVhZHlMYWJlbD86IHN0cmluZzsKICAgIHBlbmRpbmdMYWJlbD86IHN0cmluZzsKICAgIGRvd25sb2FkQnV0dG9uVGV4dD86IHN0cmluZzsKICAgIGRvd25sb2FkaW5nVGV4dD86IHN0cmluZzsKICAgIG91dGRhdGVkTGFiZWw/OiBzdHJpbmc7CiAgICBvdXRkYXRlZFRpdGxlPzogc3RyaW5nOwogICAgb3V0ZGF0ZWREZXNjcmlwdGlvbj86IHN0cmluZzsKICAgIHVwZGF0ZUJ1dHRvblRleHQ/OiBzdHJpbmc7CiAgICB1cGRhdGVDb25maXJtVGl0bGU/OiBzdHJpbmc7CiAgICB1cGRhdGVDb25maXJtRGVzY3JpcHRpb24/OiBzdHJpbmc7CiAgICByZWRvd25sb2FkQ29uZmlybVRpdGxlPzogc3RyaW5nOwogICAgcmVkb3dubG9hZENvbmZpcm1EZXNjcmlwdGlvbj86IHN0cmluZzsKICAgIGRlbGV0ZUNvbmZpcm1UaXRsZT86IHN0cmluZzsKICAgIGRlbGV0ZUNvbmZpcm1EZXNjcmlwdGlvbj86IHN0cmluZzsKICB9PigpLAogIHsKICAgIGVycm9yOiAiIiwKICAgIGlzQ2FuY2VsbGluZzogZmFsc2UsCiAgICBhbGxvd01hbmFnZTogdHJ1ZSwKICAgIGluc3RhbGxhdGlvblN0YXR1czogIm1pc3NpbmciLAogIH0sCik7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIHN0YXJ0OiBbXTsKICB1cGRhdGU6IFtdOwogIGNhbmNlbDogW107CiAgcmVkb3dubG9hZDogW107CiAgZGVsZXRlOiBbXTsKfT4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFJlc291cmNlU3RhdHVzQ2FyZAogICAgOnRpdGxlPSJwcm9wcy50aXRsZSIKICAgIDpkZXNjcmlwdGlvbj0icHJvcHMuZGVzY3JpcHRpb24iCiAgICA6aXMtaW5pdGlhbGl6aW5nPSJwcm9wcy5pc0luaXRpYWxpemluZyIKICA+CiAgICA8dGVtcGxhdGUgI2luaXRpYWw+CiAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ3JpZC1jb2xzLTEgbWQ6Z3JpZC1jb2xzLTMgZ2FwLTQiPgogICAgICAgIDxkaXYgY2xhc3M9ImJvcmRlciBwLTQgcm91bmRlZC1sZyI+CiAgICAgICAgICA8U2tlbGV0b24gY2xhc3M9ImgtNCB3LTIwIG1iLTIiIC8+CiAgICAgICAgICA8U2tlbGV0b24gY2xhc3M9ImgtNSB3LTI4IiAvPgogICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTMgdy0xNiBtdC0yIiAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImJvcmRlciBwLTQgcm91bmRlZC1sZyBtZDpjb2wtc3Bhbi0yIj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXgganVzdGlmeS1iZXR3ZWVuIGl0ZW1zLWNlbnRlciI+CiAgICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC00IHctMjQiIC8+CiAgICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC01IHctMTYiIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9Im10LTQiPgogICAgICAgICAgICA8U2tlbGV0b24gY2xhc3M9ImgtMyB3LWZ1bGwiIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3RlbXBsYXRlPgoKICAgIDxkaXYgY2xhc3M9ImdyaWQgZ3JpZC1jb2xzLTEgbWQ6Z3JpZC1jb2xzLTMgZ2FwLTQiPgogICAgICA8ZGl2IGNsYXNzPSJib3JkZXIgcC00IHJvdW5kZWQtbGciPgogICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1iLTIiPgogICAgICAgICAge3sgdCgic2hhcmVkLmJpbmFyeURvd25sb2FkLmN1cnJlbnRQbGF0Zm9ybSIpIH19CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iZm9udC1tZWRpdW0iPnt7IHByb3BzLnBsYXRmb3JtIH19PC9kaXY+CiAgICAgICAgPGRpdgogICAgICAgICAgY2xhc3M9Im10LTIgdGV4dC14cyIKICAgICAgICAgIDpjbGFzcz0icHJvcHMuc3VwcG9ydGVkID8gJ3RleHQtZ3JlZW4tNjAwJyA6ICd0ZXh0LXJlZC01MDAnIgogICAgICAgID4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHByb3BzLnN1cHBvcnRlZAogICAgICAgICAgICAgID8gdCgic2hhcmVkLmJpbmFyeURvd25sb2FkLnN1cHBvcnRlZCIpCiAgICAgICAgICAgICAgOiB0KCJzaGFyZWQuYmluYXJ5RG93bmxvYWQudW5zdXBwb3J0ZWQiKQogICAgICAgICAgfX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImJvcmRlciBwLTQgcm91bmRlZC1sZyBtZDpjb2wtc3Bhbi0yIj4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBpdGVtcy1jZW50ZXIiPgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJzaGFyZWQuYmluYXJ5RG93bmxvYWQucmVzb3VyY2VTdGF0dXMiKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIDpjbGFzcz0iWwogICAgICAgICAgICAgICdweC0yIHB5LTAuNSByb3VuZGVkIHRleHQteHMgZm9udC1tZWRpdW0nLAogICAgICAgICAgICAgIHByb3BzLmluc3RhbGxhdGlvblN0YXR1cyA9PT0gJ291dGRhdGVkJwogICAgICAgICAgICAgICAgPyAnYmctYW1iZXItMTAwIHRleHQtYW1iZXItODAwIGJvcmRlciBib3JkZXItYW1iZXItMjAwJwogICAgICAgICAgICAgICAgOiBwcm9wcy5kb3dubG9hZGVkCiAgICAgICAgICAgICAgICAgID8gJ2JnLWdyZWVuLTEwMCB0ZXh0LWdyZWVuLTcwMCBib3JkZXIgYm9yZGVyLWdyZWVuLTIwMCcKICAgICAgICAgICAgICAgICAgOiAnYmcteWVsbG93LTEwMCB0ZXh0LXllbGxvdy03MDAgYm9yZGVyIGJvcmRlci15ZWxsb3ctMjAwJywKICAgICAgICAgICAgXSIKICAgICAgICAgID4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICBwcm9wcy5pbnN0YWxsYXRpb25TdGF0dXMgPT09ICJvdXRkYXRlZCIKICAgICAgICAgICAgICAgID8gKHByb3BzLm91dGRhdGVkTGFiZWwgPz8gcHJvcHMucGVuZGluZ0xhYmVsKQogICAgICAgICAgICAgICAgOiBwcm9wcy5kb3dubG9hZGVkCiAgICAgICAgICAgICAgICAgID8gKHByb3BzLnJlYWR5TGFiZWwgPz8gdCgic2hhcmVkLmJpbmFyeURvd25sb2FkLnJlYWR5TGFiZWwiKSkKICAgICAgICAgICAgICAgICAgOiAocHJvcHMucGVuZGluZ0xhYmVsID8/CiAgICAgICAgICAgICAgICAgICAgdCgic2hhcmVkLmJpbmFyeURvd25sb2FkLnBlbmRpbmdMYWJlbCIpKQogICAgICAgICAgICB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdgogICAgICAgICAgdi1pZj0icHJvcHMuaW5zdGFsbGF0aW9uU3RhdHVzID09PSAnb3V0ZGF0ZWQnIgogICAgICAgICAgY2xhc3M9Im10LTMgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWFtYmVyLTIwMCBiZy1hbWJlci01MCBwLTMgdGV4dC1hbWJlci05NTAgZGFyazpib3JkZXItYW1iZXItODAwIGRhcms6YmctYW1iZXItOTUwLzMwIGRhcms6dGV4dC1hbWJlci0xMDAiCiAgICAgICAgICByb2xlPSJhbGVydCIKICAgICAgICAgIGRhdGEtdGVzdGlkPSJiaW5hcnktb3V0ZGF0ZWQtd2FybmluZyIKICAgICAgICA+CiAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+e3sgcHJvcHMub3V0ZGF0ZWRUaXRsZSB9fTwvcD4KICAgICAgICAgIDxwIGNsYXNzPSJtdC0xIHRleHQteHMiPnt7IHByb3BzLm91dGRhdGVkRGVzY3JpcHRpb24gfX08L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiB2LWlmPSJwcm9wcy5zdGF0dXMgPT09ICdkb3dubG9hZGluZyciIGNsYXNzPSJtdC00Ij4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgY2xhc3M9ImZsZXgganVzdGlmeS1iZXR3ZWVuIHRleHQtc20gbWItMiB0ZXh0LW11dGVkLWZvcmVncm91bmQgZm9udC1tZWRpdW0iCiAgICAgICAgICA+CiAgICAgICAgICAgIDxzcGFuPnt7IHQoInNoYXJlZC5iaW5hcnlEb3dubG9hZC5kb3dubG9hZFByb2dyZXNzIikgfX08L3NwYW4+CiAgICAgICAgICAgIDxzcGFuPnt7IHByb3BzLnBlcmNlbnQgfX0lPC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8UHJvZ3Jlc3MKICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJwcm9wcy5wZXJjZW50IgogICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnc2hhcmVkLmJpbmFyeURvd25sb2FkLmRvd25sb2FkUHJvZ3Jlc3MnKSIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdgogICAgICAgICAgdi1pZj0icHJvcHMuZXJyb3IiCiAgICAgICAgICBjbGFzcz0idGV4dC1zbSBiZy1kZXN0cnVjdGl2ZS8xMCB0ZXh0LWRlc3RydWN0aXZlIHAtMyByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItZGVzdHJ1Y3RpdmUvMjAgbXQtMyIKICAgICAgICAgIHJvbGU9ImFsZXJ0IgogICAgICAgID4KICAgICAgICAgIHt7IHQoInNoYXJlZC5iaW5hcnlEb3dubG9hZC5lcnJvclByZWZpeCIpIH19e3sgcHJvcHMuZXJyb3IgfX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8dGVtcGxhdGUgI2Zvb3Rlcj4KICAgICAgPHRlbXBsYXRlIHYtaWY9InByb3BzLnN0YXR1cyAhPT0gJ2Rvd25sb2FkaW5nJyI+CiAgICAgICAgPFBvcG92ZXIKICAgICAgICAgIHYtaWY9InByb3BzLmluc3RhbGxhdGlvblN0YXR1cyA9PT0gJ291dGRhdGVkJyAmJiBwcm9wcy5hbGxvd01hbmFnZSIKICAgICAgICAgIHYtc2xvdD0ieyBjbG9zZSB9IgogICAgICAgID4KICAgICAgICAgIDxQb3BvdmVyVHJpZ2dlciBhcy1jaGlsZD4KICAgICAgICAgICAgPEJ1dHRvbiA6ZGlzYWJsZWQ9IiFwcm9wcy5zdXBwb3J0ZWQiPgogICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICBwcm9wcy51cGRhdGVCdXR0b25UZXh0ID8/CiAgICAgICAgICAgICAgICB0KCJzaGFyZWQuYmluYXJ5RG93bmxvYWQuZG93bmxvYWRCdXR0b24iKQogICAgICAgICAgICAgIH19CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9Qb3BvdmVyVHJpZ2dlcj4KICAgICAgICAgIDxQb3BvdmVyQ29udGVudCBjbGFzcz0idy04MCB0ZXh0LWxlZnQiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0zIj4KICAgICAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICB7eyBwcm9wcy51cGRhdGVDb25maXJtVGl0bGUgfX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt7IHByb3BzLnVwZGF0ZUNvbmZpcm1EZXNjcmlwdGlvbiB9fQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktZW5kIGdhcC0yIj4KICAgICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgc2l6ZT0ic20iIEBjbGljaz0iY2xvc2UiPgogICAgICAgICAgICAgICAgICB7eyB0KCJjb21tb24uY2FuY2VsIikgfX0KICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgICAgQGNsaWNrPSIKICAgICAgICAgICAgICAgICAgICBhc3luYyAoKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICBlbWl0KCd1cGRhdGUnKTsKICAgICAgICAgICAgICAgICAgICAgIGNsb3NlKCk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgICAgcHJvcHMudXBkYXRlQnV0dG9uVGV4dCA/PwogICAgICAgICAgICAgICAgICAgIHQoInNoYXJlZC5iaW5hcnlEb3dubG9hZC5kb3dubG9hZEJ1dHRvbiIpCiAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L1BvcG92ZXJDb250ZW50PgogICAgICAgIDwvUG9wb3Zlcj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2LWVsc2UtaWY9IiFwcm9wcy5kb3dubG9hZGVkICYmIHByb3BzLmFsbG93TWFuYWdlIgogICAgICAgICAgQGNsaWNrPSJlbWl0KCdzdGFydCcpIgogICAgICAgICAgOmRpc2FibGVkPSIhcHJvcHMuc3VwcG9ydGVkIgogICAgICAgID4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHByb3BzLmRvd25sb2FkQnV0dG9uVGV4dCA/PwogICAgICAgICAgICB0KCJzaGFyZWQuYmluYXJ5RG93bmxvYWQuZG93bmxvYWRCdXR0b24iKQogICAgICAgICAgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8ZGl2IHYtZWxzZS1pZj0icHJvcHMuYWxsb3dNYW5hZ2UiIGNsYXNzPSJmbGV4IGdhcC0zIj4KICAgICAgICAgIDxQb3BvdmVyIHYtc2xvdD0ieyBjbG9zZSB9Ij4KICAgICAgICAgICAgPFBvcG92ZXJUcmlnZ2VyIGFzLWNoaWxkPgogICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSI+CiAgICAgICAgICAgICAgICB7eyB0KCJzaGFyZWQuYmluYXJ5RG93bmxvYWQucmVkb3dubG9hZCIpIH19CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDwvUG9wb3ZlclRyaWdnZXI+CiAgICAgICAgICAgIDxQb3BvdmVyQ29udGVudCBjbGFzcz0idy03MiB0ZXh0LWxlZnQiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTMiPgogICAgICAgICAgICAgICAgPHAgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICAgIHByb3BzLnJlZG93bmxvYWRDb25maXJtVGl0bGUgPz8KICAgICAgICAgICAgICAgICAgICB0KCJzaGFyZWQuYmluYXJ5RG93bmxvYWQucmVkb3dubG9hZENvbmZpcm1UaXRsZSIpCiAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICAgIHByb3BzLnJlZG93bmxvYWRDb25maXJtRGVzY3JpcHRpb24gPz8KICAgICAgICAgICAgICAgICAgICB0KCJzaGFyZWQuYmluYXJ5RG93bmxvYWQucmVkb3dubG9hZENvbmZpcm1EZXNjcmlwdGlvbiIpCiAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktZW5kIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBzaXplPSJzbSIgQGNsaWNrPSJjbG9zZSI+CiAgICAgICAgICAgICAgICAgICAge3sgdCgiY29tbW9uLmNhbmNlbCIpIH19CiAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICAgICAgQGNsaWNrPSIKICAgICAgICAgICAgICAgICAgICAgIGFzeW5jICgpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgZW1pdCgncmVkb3dubG9hZCcpOwogICAgICAgICAgICAgICAgICAgICAgICBjbG9zZSgpOwogICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHt7IHQoInNoYXJlZC5iaW5hcnlEb3dubG9hZC5jb25maXJtUmVkb3dubG9hZCIpIH19CiAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvUG9wb3ZlckNvbnRlbnQ+CiAgICAgICAgICA8L1BvcG92ZXI+CiAgICAgICAgICA8UG9wb3ZlciB2LXNsb3Q9InsgY2xvc2UgfSI+CiAgICAgICAgICAgIDxQb3BvdmVyVHJpZ2dlciBhcy1jaGlsZD4KICAgICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9ImRlc3RydWN0aXZlIj4KICAgICAgICAgICAgICAgIHt7IHQoInNoYXJlZC5iaW5hcnlEb3dubG9hZC5kZWxldGUiKSB9fQogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8L1BvcG92ZXJUcmlnZ2VyPgogICAgICAgICAgICA8UG9wb3ZlckNvbnRlbnQgY2xhc3M9InctNzIgdGV4dC1sZWZ0Ij4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0zIj4KICAgICAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgICBwcm9wcy5kZWxldGVDb25maXJtVGl0bGUgPz8KICAgICAgICAgICAgICAgICAgICB0KCJzaGFyZWQuYmluYXJ5RG93bmxvYWQuZGVsZXRlQ29uZmlybVRpdGxlIikKICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgICAgcHJvcHMuZGVsZXRlQ29uZmlybURlc2NyaXB0aW9uID8/CiAgICAgICAgICAgICAgICAgICAgdCgic2hhcmVkLmJpbmFyeURvd25sb2FkLmRlbGV0ZUNvbmZpcm1EZXNjcmlwdGlvbiIpCiAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktZW5kIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBzaXplPSJzbSIgQGNsaWNrPSJjbG9zZSI+CiAgICAgICAgICAgICAgICAgICAge3sgdCgiY29tbW9uLmNhbmNlbCIpIH19CiAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICAgICAgQGNsaWNrPSIKICAgICAgICAgICAgICAgICAgICAgIGFzeW5jICgpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgZW1pdCgnZGVsZXRlJyk7CiAgICAgICAgICAgICAgICAgICAgICAgIGNsb3NlKCk7CiAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAge3sgdCgic2hhcmVkLmJpbmFyeURvd25sb2FkLmNvbmZpcm1EZWxldGUiKSB9fQogICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L1BvcG92ZXJDb250ZW50PgogICAgICAgICAgPC9Qb3BvdmVyPgogICAgICAgIDwvZGl2PgogICAgICA8L3RlbXBsYXRlPgogICAgICA8dGVtcGxhdGUgdi1lbHNlPgogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBhbmltYXRlLXB1bHNlIGZsZXggaXRlbXMtY2VudGVyIGgtMTAgbXItYXV0byIKICAgICAgICA+CiAgICAgICAgICB7eyBwcm9wcy5kb3dubG9hZGluZ1RleHQgPz8gdCgic2hhcmVkLmJpbmFyeURvd25sb2FkLmRvd25sb2FkaW5nIikgfX0KICAgICAgICA8L2Rpdj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJkZXN0cnVjdGl2ZSIKICAgICAgICAgIEBjbGljaz0iZW1pdCgnY2FuY2VsJykiCiAgICAgICAgICA6ZGlzYWJsZWQ9InByb3BzLmlzQ2FuY2VsbGluZyIKICAgICAgICA+CiAgICAgICAgICB7eyB0KCJzaGFyZWQuYmluYXJ5RG93bmxvYWQuY2FuY2VsVGFzayIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvdGVtcGxhdGU+CiAgICA8L3RlbXBsYXRlPgogIDwvUmVzb3VyY2VTdGF0dXNDYXJkPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import { Progress } from "@/components/ui/progress";
+import { Skeleton } from "@/components/ui/skeleton";
+import ResourceStatusCard from "@admin-shared/components/system/ResourceStatusCard.vue";
+
+const { t } = useI18n();
+
+const props = withDefaults(
+  defineProps<{
+    title: string;
+    description: string;
+    isInitializing: boolean;
+    supported: boolean;
+    platform: string;
+    downloaded: boolean;
+    installationStatus?: "missing" | "outdated" | "current";
+    status: "idle" | "downloading" | "completed" | "error";
+    percent: number;
+    error?: string;
+    isCancelling?: boolean;
+    allowManage?: boolean;
+    readyLabel?: string;
+    pendingLabel?: string;
+    downloadButtonText?: string;
+    downloadingText?: string;
+    outdatedLabel?: string;
+    outdatedTitle?: string;
+    outdatedDescription?: string;
+    updateButtonText?: string;
+    updateConfirmTitle?: string;
+    updateConfirmDescription?: string;
+    redownloadConfirmTitle?: string;
+    redownloadConfirmDescription?: string;
+    deleteConfirmTitle?: string;
+    deleteConfirmDescription?: string;
+  }>(),
+  {
+    error: "",
+    isCancelling: false,
+    allowManage: true,
+    installationStatus: "missing",
+  },
+);
+
+const emit = defineEmits<{
+  start: [];
+  update: [];
+  cancel: [];
+  redownload: [];
+  delete: [];
+}>();
+</script>
+
+<template>
+  <ResourceStatusCard
+    :title="props.title"
+    :description="props.description"
+    :is-initializing="props.isInitializing"
+  >
+    <template #initial>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="border p-4 rounded-lg">
+          <Skeleton class="h-4 w-20 mb-2" />
+          <Skeleton class="h-5 w-28" />
+          <Skeleton class="h-3 w-16 mt-2" />
+        </div>
+        <div class="border p-4 rounded-lg md:col-span-2">
+          <div class="flex justify-between items-center">
+            <Skeleton class="h-4 w-24" />
+            <Skeleton class="h-5 w-16" />
+          </div>
+          <div class="mt-4">
+            <Skeleton class="h-3 w-full" />
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="border p-4 rounded-lg">
+        <div class="text-sm text-muted-foreground mb-2">
+          {{ t("shared.binaryDownload.currentPlatform") }}
+        </div>
+        <div class="font-medium">{{ props.platform }}</div>
+        <div
+          class="mt-2 text-xs"
+          :class="props.supported ? 'text-green-600' : 'text-red-500'"
+        >
+          {{
+            props.supported
+              ? t("shared.binaryDownload.supported")
+              : t("shared.binaryDownload.unsupported")
+          }}
+        </div>
+      </div>
+      <div class="border p-4 rounded-lg md:col-span-2">
+        <div class="flex justify-between items-center">
+          <div class="text-sm text-muted-foreground">
+            {{ t("shared.binaryDownload.resourceStatus") }}
+          </div>
+          <div
+            :class="[
+              'px-2 py-0.5 rounded text-xs font-medium',
+              props.installationStatus === 'outdated'
+                ? 'bg-amber-100 text-amber-800 border border-amber-200'
+                : props.downloaded
+                  ? 'bg-green-100 text-green-700 border border-green-200'
+                  : 'bg-yellow-100 text-yellow-700 border border-yellow-200',
+            ]"
+          >
+            {{
+              props.installationStatus === "outdated"
+                ? (props.outdatedLabel ?? props.pendingLabel)
+                : props.downloaded
+                  ? (props.readyLabel ?? t("shared.binaryDownload.readyLabel"))
+                  : (props.pendingLabel ??
+                    t("shared.binaryDownload.pendingLabel"))
+            }}
+          </div>
+        </div>
+        <div
+          v-if="props.installationStatus === 'outdated'"
+          class="mt-3 rounded-md border border-amber-200 bg-amber-50 p-3 text-amber-950 dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-100"
+          role="alert"
+          data-testid="binary-outdated-warning"
+        >
+          <p class="text-sm font-medium">{{ props.outdatedTitle }}</p>
+          <p class="mt-1 text-xs">{{ props.outdatedDescription }}</p>
+        </div>
+        <div v-if="props.status === 'downloading'" class="mt-4">
+          <div
+            class="flex justify-between text-sm mb-2 text-muted-foreground font-medium"
+          >
+            <span>{{ t("shared.binaryDownload.downloadProgress") }}</span>
+            <span>{{ props.percent }}%</span>
+          </div>
+          <Progress
+            :model-value="props.percent"
+            :aria-label="t('shared.binaryDownload.downloadProgress')"
+          />
+        </div>
+        <div
+          v-if="props.error"
+          class="text-sm bg-destructive/10 text-destructive p-3 rounded-md border border-destructive/20 mt-3"
+          role="alert"
+        >
+          {{ t("shared.binaryDownload.errorPrefix") }}{{ props.error }}
+        </div>
+      </div>
+    </div>
+
+    <template #footer>
+      <template v-if="props.status !== 'downloading'">
+        <Popover
+          v-if="props.installationStatus === 'outdated' && props.allowManage"
+          v-slot="{ close }"
+        >
+          <PopoverTrigger as-child>
+            <Button :disabled="!props.supported">
+              {{
+                props.updateButtonText ??
+                t("shared.binaryDownload.downloadButton")
+              }}
+            </Button>
+          </PopoverTrigger>
+          <PopoverContent class="w-80 text-left">
+            <div class="grid gap-3">
+              <p class="text-sm font-medium">
+                {{ props.updateConfirmTitle }}
+              </p>
+              <p class="text-xs text-muted-foreground">
+                {{ props.updateConfirmDescription }}
+              </p>
+              <div class="flex justify-end gap-2">
+                <Button variant="outline" size="sm" @click="close">
+                  {{ t("common.cancel") }}
+                </Button>
+                <Button
+                  size="sm"
+                  @click="
+                    async () => {
+                      emit('update');
+                      close();
+                    }
+                  "
+                >
+                  {{
+                    props.updateButtonText ??
+                    t("shared.binaryDownload.downloadButton")
+                  }}
+                </Button>
+              </div>
+            </div>
+          </PopoverContent>
+        </Popover>
+        <Button
+          v-else-if="!props.downloaded && props.allowManage"
+          @click="emit('start')"
+          :disabled="!props.supported"
+        >
+          {{
+            props.downloadButtonText ??
+            t("shared.binaryDownload.downloadButton")
+          }}
+        </Button>
+        <div v-else-if="props.allowManage" class="flex gap-3">
+          <Popover v-slot="{ close }">
+            <PopoverTrigger as-child>
+              <Button variant="outline">
+                {{ t("shared.binaryDownload.redownload") }}
+              </Button>
+            </PopoverTrigger>
+            <PopoverContent class="w-72 text-left">
+              <div class="grid gap-3">
+                <p class="text-sm font-medium">
+                  {{
+                    props.redownloadConfirmTitle ??
+                    t("shared.binaryDownload.redownloadConfirmTitle")
+                  }}
+                </p>
+                <p class="text-xs text-muted-foreground">
+                  {{
+                    props.redownloadConfirmDescription ??
+                    t("shared.binaryDownload.redownloadConfirmDescription")
+                  }}
+                </p>
+                <div class="flex justify-end gap-2">
+                  <Button variant="outline" size="sm" @click="close">
+                    {{ t("common.cancel") }}
+                  </Button>
+                  <Button
+                    size="sm"
+                    @click="
+                      async () => {
+                        emit('redownload');
+                        close();
+                      }
+                    "
+                  >
+                    {{ t("shared.binaryDownload.confirmRedownload") }}
+                  </Button>
+                </div>
+              </div>
+            </PopoverContent>
+          </Popover>
+          <Popover v-slot="{ close }">
+            <PopoverTrigger as-child>
+              <Button variant="destructive">
+                {{ t("shared.binaryDownload.delete") }}
+              </Button>
+            </PopoverTrigger>
+            <PopoverContent class="w-72 text-left">
+              <div class="grid gap-3">
+                <p class="text-sm font-medium">
+                  {{
+                    props.deleteConfirmTitle ??
+                    t("shared.binaryDownload.deleteConfirmTitle")
+                  }}
+                </p>
+                <p class="text-xs text-muted-foreground">
+                  {{
+                    props.deleteConfirmDescription ??
+                    t("shared.binaryDownload.deleteConfirmDescription")
+                  }}
+                </p>
+                <div class="flex justify-end gap-2">
+                  <Button variant="outline" size="sm" @click="close">
+                    {{ t("common.cancel") }}
+                  </Button>
+                  <Button
+                    variant="destructive"
+                    size="sm"
+                    @click="
+                      async () => {
+                        emit('delete');
+                        close();
+                      }
+                    "
+                  >
+                    {{ t("shared.binaryDownload.confirmDelete") }}
+                  </Button>
+                </div>
+              </div>
+            </PopoverContent>
+          </Popover>
+        </div>
+      </template>
+      <template v-else>
+        <div
+          class="text-sm text-muted-foreground animate-pulse flex items-center h-10 mr-auto"
+        >
+          {{ props.downloadingText ?? t("shared.binaryDownload.downloading") }}
+        </div>
+        <Button
+          variant="destructive"
+          @click="emit('cancel')"
+          :disabled="props.isCancelling"
+        >
+          {{ t("shared.binaryDownload.cancelTask") }}
+        </Button>
+      </template>
+    </template>
+  </ResourceStatusCard>
+</template>

@@ -1,1 +1,194 @@
-aW1wb3J0IHsKICBjb21wdXRlZCwKICBvbkJlZm9yZVVubW91bnQsCiAgcmVmLAogIHRvVmFsdWUsCiAgdHlwZSBNYXliZVJlZk9yR2V0dGVyLAp9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7CiAgU2NhbkFQSSwKICB0eXBlIFNjYW5EaXNjb3ZlcnlTZXR0aW5ncywKICB0eXBlIFNjYW5JbnRlbnNpdHlMZXZlbCwKfSBmcm9tICJAL2xpYi9hcGkvc2NhbiI7Cgp0eXBlIFVzZVNjYW5EaXNjb3ZlcnlJbnRlbnNpdHlTZXR0aW5nc09wdGlvbnMgPSB7CiAgZGlzYWJsZWQ6IE1heWJlUmVmT3JHZXR0ZXI8Ym9vbGVhbj47CiAgb25TYXZlZD86IChzZXR0aW5nczogU2NhbkRpc2NvdmVyeVNldHRpbmdzKSA9PiB2b2lkOwp9OwoKY29uc3QgbGV2ZWxPcmRlcjogU2NhbkludGVuc2l0eUxldmVsW10gPSBbImxvdyIsICJtZWRpdW0iLCAiaGlnaCIsICJleHRyZW1lIl07CmNvbnN0IGNvbmN1cnJlbmN5QnlMZXZlbDogUmVjb3JkPFNjYW5JbnRlbnNpdHlMZXZlbCwgbnVtYmVyPiA9IHsKICBsb3c6IDMyLAogIG1lZGl1bTogMTE1LAogIGhpZ2g6IDI1NiwKICBleHRyZW1lOiA1MTIsCn07CmNvbnN0IGxldmVsUG9zaXRpb25zID0gWzE2LCA1MCwgNzAsIDEwMF0gYXMgY29uc3Q7CgpmdW5jdGlvbiBsZXZlbEluZGV4RnJvbVBvc2l0aW9uKHBvc2l0aW9uOiBudW1iZXIpIHsKICBpZiAocG9zaXRpb24gPCAzMykgcmV0dXJuIDA7CiAgaWYgKHBvc2l0aW9uIDwgNjYpIHJldHVybiAxOwogIGlmIChwb3NpdGlvbiA8IDEwMCkgcmV0dXJuIDI7CiAgcmV0dXJuIDM7Cn0KCmV4cG9ydCBmdW5jdGlvbiB1c2VTY2FuRGlzY292ZXJ5SW50ZW5zaXR5U2V0dGluZ3MoewogIGRpc2FibGVkLAogIG9uU2F2ZWQsCn06IFVzZVNjYW5EaXNjb3ZlcnlJbnRlbnNpdHlTZXR0aW5nc09wdGlvbnMpIHsKICBjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKICBjb25zdCBsb2FkaW5nID0gcmVmKGZhbHNlKTsKICBjb25zdCBzYXZpbmcgPSByZWYoZmFsc2UpOwogIGNvbnN0IGF1dG9tYXRpYyA9IHJlZih0cnVlKTsKICBjb25zdCBtYW51YWxJbmRleCA9IHJlZigxKTsKICBjb25zdCByZWNvbW1lbmRlZEluZGV4ID0gcmVmKDEpOwogIGNvbnN0IHNsaWRlclBvc2l0aW9uID0gcmVmKDUwKTsKICBjb25zdCBzYWZlQ29uY3VycmVuY3kgPSByZWY8bnVtYmVyIHwgbnVsbD4obnVsbCk7CgogIGNvbnN0IGRpc3BsYXllZEluZGV4ID0gY29tcHV0ZWQoKCkgPT4KICAgIGxldmVsSW5kZXhGcm9tUG9zaXRpb24oc2xpZGVyUG9zaXRpb24udmFsdWUpLAogICk7CiAgY29uc3QgZGlzcGxheWVkT3B0aW9uID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3QgdmFsdWUgPSBsZXZlbE9yZGVyW2Rpc3BsYXllZEluZGV4LnZhbHVlXSA/PyAibWVkaXVtIjsKICAgIHJldHVybiB7CiAgICAgIHZhbHVlLAogICAgICBjb25jdXJyZW5jeTogY29uY3VycmVuY3lCeUxldmVsW3ZhbHVlXSwKICAgICAgbGFiZWw6IHQoYGFkbWluLnNjYW5JbnRlbnNpdHkubGV2ZWxzLiR7dmFsdWV9YCksCiAgICB9OwogIH0pOwogIGNvbnN0IGN1cnJlbnRFZmZlY3RpdmVDb25jdXJyZW5jeSA9IGNvbXB1dGVkKCgpID0+CiAgICBNYXRoLm1pbigKICAgICAgZGlzcGxheWVkT3B0aW9uLnZhbHVlLmNvbmN1cnJlbmN5LAogICAgICBzYWZlQ29uY3VycmVuY3kudmFsdWUgPz8gZGlzcGxheWVkT3B0aW9uLnZhbHVlLmNvbmN1cnJlbmN5LAogICAgKSwKICApOwogIGNvbnN0IGN1cnJlbnRDb25jdXJyZW5jeVRleHQgPSBjb21wdXRlZCgoKSA9PgogICAgdCgiYWRtaW4uc2NhbkludGVuc2l0eS5lZmZlY3RpdmVDb25jdXJyZW5jeSIsIHsKICAgICAgY291bnQ6IGN1cnJlbnRFZmZlY3RpdmVDb25jdXJyZW5jeS52YWx1ZSwKICAgIH0pLAogICk7CgogIGxldCBwZW5kaW5nU2F2ZVRpbWVyOiBudW1iZXIgfCBudWxsID0gbnVsbDsKICBsZXQgc2F2ZVJldmlzaW9uID0gMDsKCiAgYXN5bmMgZnVuY3Rpb24gbG9hZFNldHRpbmdzKCkgewogICAgbG9hZGluZy52YWx1ZSA9IHRydWU7CiAgICB0cnkgewogICAgICBjb25zdCBwYXlsb2FkID0gYXdhaXQgU2NhbkFQSS5nZXREaXNjb3ZlclNldHRpbmdzKCk7CiAgICAgIGF1dG9tYXRpYy52YWx1ZSA9IHBheWxvYWQuaW50ZW5zaXR5TW9kZSA9PT0gImF1dG8iOwogICAgICBtYW51YWxJbmRleC52YWx1ZSA9IE1hdGgubWF4KAogICAgICAgIDAsCiAgICAgICAgbGV2ZWxPcmRlci5pbmRleE9mKHBheWxvYWQuY29uZmlndXJlZExldmVsKSwKICAgICAgKTsKICAgICAgcmVjb21tZW5kZWRJbmRleC52YWx1ZSA9IE1hdGgubWF4KAogICAgICAgIDAsCiAgICAgICAgbGV2ZWxPcmRlci5pbmRleE9mKHBheWxvYWQucmVjb21tZW5kZWRMZXZlbCksCiAgICAgICk7CiAgICAgIHNhZmVDb25jdXJyZW5jeS52YWx1ZSA9IHBheWxvYWQuY2FwYWJpbGl0eS5zYWZlQ29uY3VycmVuY3k7CiAgICAgIHNsaWRlclBvc2l0aW9uLnZhbHVlID0KICAgICAgICBsZXZlbFBvc2l0aW9uc1sKICAgICAgICAgIGF1dG9tYXRpYy52YWx1ZSA/IHJlY29tbWVuZGVkSW5kZXgudmFsdWUgOiBtYW51YWxJbmRleC52YWx1ZQogICAgICAgIF0gPz8gNTA7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5zY2FuSW50ZW5zaXR5LmxvYWRGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBlcnJvciBpbnN0YW5jZW9mIEVycm9yID8gZXJyb3IubWVzc2FnZSA6IHVuZGVmaW5lZCwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBsb2FkaW5nLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBwZXJzaXN0U2V0dGluZ3MobW9kZTogImF1dG8iIHwgIm1hbnVhbCIpIHsKICAgIGNvbnN0IHJldmlzaW9uID0gKytzYXZlUmV2aXNpb247CiAgICBzYXZpbmcudmFsdWUgPSB0cnVlOwogICAgdHJ5IHsKICAgICAgY29uc3QgcGF5bG9hZCA9IGF3YWl0IFNjYW5BUEkuc2F2ZURpc2NvdmVyU2V0dGluZ3MoewogICAgICAgIGludGVuc2l0eV9tb2RlOiBtb2RlLAogICAgICAgIGludGVuc2l0eV9sZXZlbDogbGV2ZWxPcmRlclttYW51YWxJbmRleC52YWx1ZV0gPz8gIm1lZGl1bSIsCiAgICAgIH0pOwogICAgICBpZiAocmV2aXNpb24gIT09IHNhdmVSZXZpc2lvbikgcmV0dXJuOwogICAgICBhdXRvbWF0aWMudmFsdWUgPSBwYXlsb2FkLmludGVuc2l0eU1vZGUgPT09ICJhdXRvIjsKICAgICAgbWFudWFsSW5kZXgudmFsdWUgPSBNYXRoLm1heCgKICAgICAgICAwLAogICAgICAgIGxldmVsT3JkZXIuaW5kZXhPZihwYXlsb2FkLmNvbmZpZ3VyZWRMZXZlbCksCiAgICAgICk7CiAgICAgIHJlY29tbWVuZGVkSW5kZXgudmFsdWUgPSBNYXRoLm1heCgKICAgICAgICAwLAogICAgICAgIGxldmVsT3JkZXIuaW5kZXhPZihwYXlsb2FkLnJlY29tbWVuZGVkTGV2ZWwpLAogICAgICApOwogICAgICBzYWZlQ29uY3VycmVuY3kudmFsdWUgPSBwYXlsb2FkLmNhcGFiaWxpdHkuc2FmZUNvbmN1cnJlbmN5OwogICAgICBpZiAoYXV0b21hdGljLnZhbHVlKSB7CiAgICAgICAgc2xpZGVyUG9zaXRpb24udmFsdWUgPSBsZXZlbFBvc2l0aW9uc1tyZWNvbW1lbmRlZEluZGV4LnZhbHVlXSA/PyA1MDsKICAgICAgfQogICAgICBvblNhdmVkPy4ocGF5bG9hZCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBpZiAocmV2aXNpb24gIT09IHNhdmVSZXZpc2lvbikgcmV0dXJuOwogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5zY2FuSW50ZW5zaXR5LnNhdmVGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBlcnJvciBpbnN0YW5jZW9mIEVycm9yID8gZXJyb3IubWVzc2FnZSA6IHVuZGVmaW5lZCwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBpZiAocmV2aXNpb24gPT09IHNhdmVSZXZpc2lvbikgc2F2aW5nLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfQoKICBmdW5jdGlvbiBoYW5kbGVTbGlkZXJJbnB1dChldmVudDogRXZlbnQpIHsKICAgIGNvbnN0IHZhbHVlID0gTnVtYmVyKChldmVudC50YXJnZXQgYXMgSFRNTElucHV0RWxlbWVudCkudmFsdWUpOwogICAgc2xpZGVyUG9zaXRpb24udmFsdWUgPSBOdW1iZXIuaXNGaW5pdGUodmFsdWUpCiAgICAgID8gTWF0aC5taW4oMTAwLCBNYXRoLm1heCgwLCBNYXRoLnJvdW5kKHZhbHVlKSkpCiAgICAgIDogNTA7CiAgICBtYW51YWxJbmRleC52YWx1ZSA9IGxldmVsSW5kZXhGcm9tUG9zaXRpb24oc2xpZGVyUG9zaXRpb24udmFsdWUpOwogICAgYXV0b21hdGljLnZhbHVlID0gZmFsc2U7CiAgICBzY2hlZHVsZU1hbnVhbFNhdmUoKTsKICB9CgogIGZ1bmN0aW9uIHNjaGVkdWxlTWFudWFsU2F2ZSgpIHsKICAgIGNsZWFyUGVuZGluZ1NhdmUoKTsKICAgIHBlbmRpbmdTYXZlVGltZXIgPSB3aW5kb3cuc2V0VGltZW91dCgoKSA9PiB7CiAgICAgIHBlbmRpbmdTYXZlVGltZXIgPSBudWxsOwogICAgICB2b2lkIHBlcnNpc3RTZXR0aW5ncygibWFudWFsIik7CiAgICB9LCAyMjApOwogIH0KCiAgZnVuY3Rpb24gZmx1c2hNYW51YWxTYXZlKCkgewogICAgaWYgKHBlbmRpbmdTYXZlVGltZXIgPT0gbnVsbCkgcmV0dXJuOwogICAgY2xlYXJQZW5kaW5nU2F2ZSgpOwogICAgdm9pZCBwZXJzaXN0U2V0dGluZ3MoIm1hbnVhbCIpOwogIH0KCiAgZnVuY3Rpb24gY2xlYXJQZW5kaW5nU2F2ZSgpIHsKICAgIGlmIChwZW5kaW5nU2F2ZVRpbWVyID09IG51bGwpIHJldHVybjsKICAgIHdpbmRvdy5jbGVhclRpbWVvdXQocGVuZGluZ1NhdmVUaW1lcik7CiAgICBwZW5kaW5nU2F2ZVRpbWVyID0gbnVsbDsKICB9CgogIGZ1bmN0aW9uIHJlc3RvcmVBdXRvbWF0aWNNb2RlKCkgewogICAgaWYgKGF1dG9tYXRpYy52YWx1ZSB8fCBsb2FkaW5nLnZhbHVlIHx8IHNhdmluZy52YWx1ZSB8fCB0b1ZhbHVlKGRpc2FibGVkKSkgewogICAgICByZXR1cm47CiAgICB9CiAgICBjbGVhclBlbmRpbmdTYXZlKCk7CiAgICBhdXRvbWF0aWMudmFsdWUgPSB0cnVlOwogICAgc2xpZGVyUG9zaXRpb24udmFsdWUgPSBsZXZlbFBvc2l0aW9uc1tyZWNvbW1lbmRlZEluZGV4LnZhbHVlXSA/PyA1MDsKICAgIHZvaWQgcGVyc2lzdFNldHRpbmdzKCJhdXRvIik7CiAgfQoKICBvbkJlZm9yZVVubW91bnQoY2xlYXJQZW5kaW5nU2F2ZSk7CgogIHJldHVybiB7CiAgICBsb2FkaW5nLAogICAgc2F2aW5nLAogICAgYXV0b21hdGljLAogICAgc2xpZGVyUG9zaXRpb24sCiAgICBzYWZlQ29uY3VycmVuY3ksCiAgICBkaXNwbGF5ZWRJbmRleCwKICAgIGRpc3BsYXllZE9wdGlvbiwKICAgIGN1cnJlbnRFZmZlY3RpdmVDb25jdXJyZW5jeSwKICAgIGN1cnJlbnRDb25jdXJyZW5jeVRleHQsCiAgICBsb2FkU2V0dGluZ3MsCiAgICBoYW5kbGVTbGlkZXJJbnB1dCwKICAgIGZsdXNoTWFudWFsU2F2ZSwKICAgIGNsZWFyUGVuZGluZ1NhdmUsCiAgICByZXN0b3JlQXV0b21hdGljTW9kZSwKICB9Owp9Cg==
+import {
+  computed,
+  onBeforeUnmount,
+  ref,
+  toValue,
+  type MaybeRefOrGetter,
+} from "vue";
+import { useI18n } from "vue-i18n";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  ScanAPI,
+  type ScanDiscoverySettings,
+  type ScanIntensityLevel,
+} from "@/lib/api/scan";
+
+type UseScanDiscoveryIntensitySettingsOptions = {
+  disabled: MaybeRefOrGetter<boolean>;
+  onSaved?: (settings: ScanDiscoverySettings) => void;
+};
+
+const levelOrder: ScanIntensityLevel[] = ["low", "medium", "high", "extreme"];
+const concurrencyByLevel: Record<ScanIntensityLevel, number> = {
+  low: 32,
+  medium: 115,
+  high: 256,
+  extreme: 512,
+};
+const levelPositions = [16, 50, 70, 100] as const;
+
+function levelIndexFromPosition(position: number) {
+  if (position < 33) return 0;
+  if (position < 66) return 1;
+  if (position < 100) return 2;
+  return 3;
+}
+
+export function useScanDiscoveryIntensitySettings({
+  disabled,
+  onSaved,
+}: UseScanDiscoveryIntensitySettingsOptions) {
+  const { t } = useI18n();
+  const loading = ref(false);
+  const saving = ref(false);
+  const automatic = ref(true);
+  const manualIndex = ref(1);
+  const recommendedIndex = ref(1);
+  const sliderPosition = ref(50);
+  const safeConcurrency = ref<number | null>(null);
+
+  const displayedIndex = computed(() =>
+    levelIndexFromPosition(sliderPosition.value),
+  );
+  const displayedOption = computed(() => {
+    const value = levelOrder[displayedIndex.value] ?? "medium";
+    return {
+      value,
+      concurrency: concurrencyByLevel[value],
+      label: t(`admin.scanIntensity.levels.${value}`),
+    };
+  });
+  const currentEffectiveConcurrency = computed(() =>
+    Math.min(
+      displayedOption.value.concurrency,
+      safeConcurrency.value ?? displayedOption.value.concurrency,
+    ),
+  );
+  const currentConcurrencyText = computed(() =>
+    t("admin.scanIntensity.effectiveConcurrency", {
+      count: currentEffectiveConcurrency.value,
+    }),
+  );
+
+  let pendingSaveTimer: number | null = null;
+  let saveRevision = 0;
+
+  async function loadSettings() {
+    loading.value = true;
+    try {
+      const payload = await ScanAPI.getDiscoverSettings();
+      automatic.value = payload.intensityMode === "auto";
+      manualIndex.value = Math.max(
+        0,
+        levelOrder.indexOf(payload.configuredLevel),
+      );
+      recommendedIndex.value = Math.max(
+        0,
+        levelOrder.indexOf(payload.recommendedLevel),
+      );
+      safeConcurrency.value = payload.capability.safeConcurrency;
+      sliderPosition.value =
+        levelPositions[
+          automatic.value ? recommendedIndex.value : manualIndex.value
+        ] ?? 50;
+    } catch (error) {
+      toast.error(t("admin.scanIntensity.loadFailed"), {
+        description: error instanceof Error ? error.message : undefined,
+      });
+    } finally {
+      loading.value = false;
+    }
+  }
+
+  async function persistSettings(mode: "auto" | "manual") {
+    const revision = ++saveRevision;
+    saving.value = true;
+    try {
+      const payload = await ScanAPI.saveDiscoverSettings({
+        intensity_mode: mode,
+        intensity_level: levelOrder[manualIndex.value] ?? "medium",
+      });
+      if (revision !== saveRevision) return;
+      automatic.value = payload.intensityMode === "auto";
+      manualIndex.value = Math.max(
+        0,
+        levelOrder.indexOf(payload.configuredLevel),
+      );
+      recommendedIndex.value = Math.max(
+        0,
+        levelOrder.indexOf(payload.recommendedLevel),
+      );
+      safeConcurrency.value = payload.capability.safeConcurrency;
+      if (automatic.value) {
+        sliderPosition.value = levelPositions[recommendedIndex.value] ?? 50;
+      }
+      onSaved?.(payload);
+    } catch (error) {
+      if (revision !== saveRevision) return;
+      toast.error(t("admin.scanIntensity.saveFailed"), {
+        description: error instanceof Error ? error.message : undefined,
+      });
+    } finally {
+      if (revision === saveRevision) saving.value = false;
+    }
+  }
+
+  function handleSliderInput(event: Event) {
+    const value = Number((event.target as HTMLInputElement).value);
+    sliderPosition.value = Number.isFinite(value)
+      ? Math.min(100, Math.max(0, Math.round(value)))
+      : 50;
+    manualIndex.value = levelIndexFromPosition(sliderPosition.value);
+    automatic.value = false;
+    scheduleManualSave();
+  }
+
+  function scheduleManualSave() {
+    clearPendingSave();
+    pendingSaveTimer = window.setTimeout(() => {
+      pendingSaveTimer = null;
+      void persistSettings("manual");
+    }, 220);
+  }
+
+  function flushManualSave() {
+    if (pendingSaveTimer == null) return;
+    clearPendingSave();
+    void persistSettings("manual");
+  }
+
+  function clearPendingSave() {
+    if (pendingSaveTimer == null) return;
+    window.clearTimeout(pendingSaveTimer);
+    pendingSaveTimer = null;
+  }
+
+  function restoreAutomaticMode() {
+    if (automatic.value || loading.value || saving.value || toValue(disabled)) {
+      return;
+    }
+    clearPendingSave();
+    automatic.value = true;
+    sliderPosition.value = levelPositions[recommendedIndex.value] ?? 50;
+    void persistSettings("auto");
+  }
+
+  onBeforeUnmount(clearPendingSave);
+
+  return {
+    loading,
+    saving,
+    automatic,
+    sliderPosition,
+    safeConcurrency,
+    displayedIndex,
+    displayedOption,
+    currentEffectiveConcurrency,
+    currentConcurrencyText,
+    loadSettings,
+    handleSliderInput,
+    flushManualSave,
+    clearPendingSave,
+    restoreAutomaticMode,
+  };
+}

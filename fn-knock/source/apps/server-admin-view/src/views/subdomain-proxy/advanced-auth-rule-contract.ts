@@ -1,1 +1,18 @@
-ZXhwb3J0IGludGVyZmFjZSBBZHZhbmNlZEF1dGhSZWdpb25TZWxlY3RvclRleHQgewogIGFkZDogc3RyaW5nOwogIGFkZFJlZ2lvbjogc3RyaW5nOwogIGNhbmNlbDogc3RyaW5nOwogIGRpYWxvZ0Rlc2NyaXB0aW9uOiBzdHJpbmc7CiAgbG9hZEZhaWxlZDogc3RyaW5nOwogIGxvYWRGYWlsZWREZXNjcmlwdGlvbjogc3RyaW5nOwogIGxvYWRpbmc6IHN0cmluZzsKICBub1JlZ2lvbnM6IHN0cmluZzsKICBwcm92aW5jZTogc3RyaW5nOwogIHJldHJ5OiBzdHJpbmc7CiAgc2VsZWN0ZWRDb3VudDogKGNvdW50OiBudW1iZXIpID0+IHN0cmluZzsKICBzY29wZTogc3RyaW5nOwogIHNlbGVjdENpdHk6IHN0cmluZzsKICBzZWxlY3RQcm92aW5jZTogc3RyaW5nOwogIHNlbGVjdFByb3ZpbmNlRmlyc3Q6IHN0cmluZzsKICB1bmF2YWlsYWJsZTogc3RyaW5nOwp9Cg==
+export interface AdvancedAuthRegionSelectorText {
+  add: string;
+  addRegion: string;
+  cancel: string;
+  dialogDescription: string;
+  loadFailed: string;
+  loadFailedDescription: string;
+  loading: string;
+  noRegions: string;
+  province: string;
+  retry: string;
+  selectedCount: (count: number) => string;
+  scope: string;
+  selectCity: string;
+  selectProvince: string;
+  selectProvinceFirst: string;
+  unavailable: string;
+}

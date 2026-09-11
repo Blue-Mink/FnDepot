@@ -1,1 +1,115 @@
-aW1wb3J0IHsgbW91bnQsIGZsdXNoUHJvbWlzZXMgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBjcmVhdGVJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBhZnRlckVhY2gsIGRlc2NyaWJlLCBleHBlY3QsIGl0LCB2aSB9IGZyb20gInZpdGVzdCI7CmltcG9ydCBHYXRld2F5SHR0cDNTZXR0aW5ncyBmcm9tICIuLi9zcmMvdmlld3Mvc3lzdGVtLXNldHRpbmdzL0dhdGV3YXlIdHRwM1NldHRpbmdzLnZ1ZSI7CmltcG9ydCB7IGdhdGV3YXlIdHRwM0FwaSB9IGZyb20gIi4uL3NyYy9saWIvYXBpL2dhdGV3YXktaHR0cDMiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyBlbkFkbWluIH0gZnJvbSAiLi4vLi4vLi4vcGFja2FnZXMvaTE4bi9zcmMvbWVzc2FnZXMvYWRtaW4vZW4iOwoKY29uc3QgaW5pdGlhbCA9IHsKICBlbmFibGVkOiBmYWxzZSwKICBhZHZlcnRpc2VkX3BvcnQ6IDAsCiAgc3RhdGU6ICJkaXNhYmxlZCIsCiAgbGlzdGVuX2FkZHJlc3NlczogW10sCiAgZXJyb3I6ICIiLAogIGFjdGl2ZV9jb25uZWN0aW9uczogMCwKICBoYW5kc2hha2VfZmFpbHVyZXM6IDAsCn07CmFmdGVyRWFjaCgoKSA9PiB2aS5yZXN0b3JlQWxsTW9ja3MoKSk7CmFzeW5jIGZ1bmN0aW9uIHNldHVwKCkgewogIHZpLnNweU9uKHRvYXN0LCAic3VjY2VzcyIpLm1vY2tJbXBsZW1lbnRhdGlvbigoKSA9PiB1bmRlZmluZWQpOwogIHZpLnNweU9uKGdhdGV3YXlIdHRwM0FwaSwgImdldCIpLm1vY2tSZXNvbHZlZFZhbHVlKHsgLi4uaW5pdGlhbCB9KTsKICBjb25zdCB3cmFwcGVyID0gbW91bnQoR2F0ZXdheUh0dHAzU2V0dGluZ3MsIHsKICAgIGdsb2JhbDogewogICAgICBwbHVnaW5zOiBbCiAgICAgICAgY3JlYXRlSTE4bih7CiAgICAgICAgICBsZWdhY3k6IGZhbHNlLAogICAgICAgICAgbG9jYWxlOiAiZW4iLAogICAgICAgICAgbWVzc2FnZXM6IHsgZW46IHsgYWRtaW46IGVuQWRtaW4gfSB9LAogICAgICAgIH0pLAogICAgICBdLAogICAgfSwKICB9KTsKICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgcmV0dXJuIHdyYXBwZXI7Cn0KZGVzY3JpYmUoIkhUVFAvMyBnYXRld2F5IHNldHRpbmdzIiwgKCkgPT4gewogIGl0KCJkZWZhdWx0cyBvZmYgYW5kIHN1Ym1pdHMgbnVtZXJpYyBhZHZlcnRpc2VkIHBvcnQiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCB1cGRhdGUgPSB2aS5zcHlPbihnYXRld2F5SHR0cDNBcGksICJzZXQiKS5tb2NrUmVzb2x2ZWRWYWx1ZSh7CiAgICAgIC4uLmluaXRpYWwsCiAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgIGFkdmVydGlzZWRfcG9ydDogNDQzLAogICAgICBzdGF0ZTogInJ1bm5pbmciLAogICAgICBsaXN0ZW5fYWRkcmVzc2VzOiBbIjAuMC4wLjA6Nzk5OSJdLAogICAgfSk7CiAgICBjb25zdCB3cmFwcGVyID0gYXdhaXQgc2V0dXAoKTsKICAgIGV4cGVjdCh3cmFwcGVyLmdldCgnW3JvbGU9InN3aXRjaCJdJykuYXR0cmlidXRlcygiYXJpYS1jaGVja2VkIikpLnRvQmUoCiAgICAgICJmYWxzZSIsCiAgICApOwogICAgYXdhaXQgd3JhcHBlci5nZXQoJ1tyb2xlPSJzd2l0Y2giXScpLnRyaWdnZXIoImNsaWNrIik7CiAgICBhd2FpdCB3cmFwcGVyLmdldCgnaW5wdXRbdHlwZT0ibnVtYmVyIl0nKS5zZXRWYWx1ZSgiNDQzIik7CiAgICBhd2FpdCB3cmFwcGVyCiAgICAgIC5maW5kQWxsKCJidXR0b24iKQogICAgICAuZmluZCgoYnV0dG9uKSA9PiBidXR0b24udGV4dCgpID09PSAiU2F2ZSIpIQogICAgICAudHJpZ2dlcigiY2xpY2siKTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgIGV4cGVjdCh1cGRhdGUpLnRvSGF2ZUJlZW5DYWxsZWRXaXRoKHsKICAgICAgZW5hYmxlZDogdHJ1ZSwKICAgICAgYWR2ZXJ0aXNlZF9wb3J0OiA0NDMsCiAgICB9KTsKICAgIGV4cGVjdCh0b2FzdC5zdWNjZXNzKS50b0hhdmVCZWVuQ2FsbGVkV2l0aCgiSFRUUC8zIHNldHRpbmdzIHNhdmVkIik7CiAgICBleHBlY3Qod3JhcHBlci5nZXQoJ2FbaHJlZj0iIy9zeXN0ZW0/dGFiPWdhdGV3YXkiXScpLnRleHQoKSkudG9CZSgKICAgICAgIkdhdGV3YXkiLAogICAgKTsKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKCJMaXN0ZW5pbmcgbG9jYWxseSIpOwogICAgZXhwZWN0KHdyYXBwZXIudGV4dCgpKS50b0NvbnRhaW4oIm9ubHkgY29uZmlybXMgdGhlIGxvY2FsIGxpc3RlbmVyIik7CiAgICB3cmFwcGVyLnVubW91bnQoKTsKICB9KTsKICBpdCgiYmxvY2tzIGludmFsaWQgcG9ydHMgYW5kIHByZXNlcnZlcyB1bnNhdmVkIGNoYW5nZXMgb24gZmFpbHVyZSIsIGFzeW5jICgpID0+IHsKICAgIHZpLnNweU9uKGdhdGV3YXlIdHRwM0FwaSwgInNldCIpLm1vY2tSZWplY3RlZFZhbHVlKAogICAgICBuZXcgRXJyb3IoIlVEUCBwb3J0IG9jY3VwaWVkIiksCiAgICApOwogICAgY29uc3Qgd3JhcHBlciA9IGF3YWl0IHNldHVwKCk7CiAgICBhd2FpdCB3cmFwcGVyLmdldCgnW3JvbGU9InN3aXRjaCJdJykudHJpZ2dlcigiY2xpY2siKTsKICAgIGF3YWl0IHdyYXBwZXIuZ2V0KCdpbnB1dFt0eXBlPSJudW1iZXIiXScpLnNldFZhbHVlKCI2NTUzNiIpOwogICAgY29uc3Qgc2F2ZSA9IHdyYXBwZXIKICAgICAgLmZpbmRBbGwoImJ1dHRvbiIpCiAgICAgIC5maW5kKChidXR0b24pID0+IGJ1dHRvbi50ZXh0KCkgPT09ICJTYXZlIikhOwogICAgZXhwZWN0KHNhdmUuYXR0cmlidXRlcygiZGlzYWJsZWQiKSkudG9CZURlZmluZWQoKTsKICAgIGF3YWl0IHdyYXBwZXIuZ2V0KCdpbnB1dFt0eXBlPSJudW1iZXIiXScpLnNldFZhbHVlKCI0NDMiKTsKICAgIGF3YWl0IHNhdmUudHJpZ2dlcigiY2xpY2siKTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgIGV4cGVjdCh3cmFwcGVyLmdldCgnW3JvbGU9ImFsZXJ0Il0nKS50ZXh0KCkpLnRvQ29udGFpbigiVURQIHBvcnQgb2NjdXBpZWQiKTsKICAgIGV4cGVjdCh0b2FzdC5zdWNjZXNzKS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogICAgZXhwZWN0KHdyYXBwZXIuZ2V0KCdbcm9sZT0ic3dpdGNoIl0nKS5hdHRyaWJ1dGVzKCJhcmlhLWNoZWNrZWQiKSkudG9CZSgKICAgICAgInRydWUiLAogICAgKTsKICAgIHdyYXBwZXIudW5tb3VudCgpOwogIH0pOwogIGl0KCJyZWZyZXNoZXMgc3RhdHVzIHdpdGhvdXQgZGlzY2FyZGluZyBlZGl0cyBhbmQgcmVzZXRzIG9ubHkgZXhwbGljaXRseSIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHdyYXBwZXIgPSBhd2FpdCBzZXR1cCgpOwogICAgYXdhaXQgd3JhcHBlci5nZXQoJ1tyb2xlPSJzd2l0Y2giXScpLnRyaWdnZXIoImNsaWNrIik7CiAgICBhd2FpdCB3cmFwcGVyLmdldCgnaW5wdXRbdHlwZT0ibnVtYmVyIl0nKS5zZXRWYWx1ZSgiODQ0MyIpOwogICAgdmkubW9ja2VkKGdhdGV3YXlIdHRwM0FwaS5nZXQpLm1vY2tSZXNvbHZlZFZhbHVlKHsKICAgICAgLi4uaW5pdGlhbCwKICAgICAgYWN0aXZlX2Nvbm5lY3Rpb25zOiAyLAogICAgfSk7CiAgICBjb25zdCByZWZyZXNoID0gd3JhcHBlci5nZXQoJ2J1dHRvblthcmlhLWxhYmVsPSJSZWZyZXNoIHN0YXR1cyJdJyk7CiAgICBhd2FpdCByZWZyZXNoLnRyaWdnZXIoImNsaWNrIik7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICBleHBlY3Qod3JhcHBlci5nZXQoJ2lucHV0W3R5cGU9Im51bWJlciJdJykuZWxlbWVudC52YWx1ZSkudG9CZSgiODQ0MyIpOwogICAgZXhwZWN0KHdyYXBwZXIuZ2V0KCdbcm9sZT0ic3dpdGNoIl0nKS5hdHRyaWJ1dGVzKCJhcmlhLWNoZWNrZWQiKSkudG9CZSgKICAgICAgInRydWUiLAogICAgKTsKICAgIGV4cGVjdCh0b2FzdC5zdWNjZXNzKS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogICAgYXdhaXQgd3JhcHBlcgogICAgICAuZmluZEFsbCgiYnV0dG9uIikKICAgICAgLmZpbmQoKGJ1dHRvbikgPT4gYnV0dG9uLnRleHQoKSA9PT0gIkRpc2NhcmQgY2hhbmdlcyIpIQogICAgICAudHJpZ2dlcigiY2xpY2siKTsKICAgIGV4cGVjdCh3cmFwcGVyLmdldCgnaW5wdXRbdHlwZT0ibnVtYmVyIl0nKS5lbGVtZW50LnZhbHVlKS50b0JlKCIwIik7CiAgICBleHBlY3Qod3JhcHBlci5nZXQoJ1tyb2xlPSJzd2l0Y2giXScpLmF0dHJpYnV0ZXMoImFyaWEtY2hlY2tlZCIpKS50b0JlKAogICAgICAiZmFsc2UiLAogICAgKTsKICAgIHdyYXBwZXIudW5tb3VudCgpOwogIH0pOwp9KTsK
+import { mount, flushPromises } from "@vue/test-utils";
+import { createI18n } from "vue-i18n";
+import { afterEach, describe, expect, it, vi } from "vitest";
+import GatewayHttp3Settings from "../src/views/system-settings/GatewayHttp3Settings.vue";
+import { gatewayHttp3Api } from "../src/lib/api/gateway-http3";
+import { toast } from "@admin-shared/utils/toast";
+import { enAdmin } from "../../../packages/i18n/src/messages/admin/en";
+
+const initial = {
+  enabled: false,
+  advertised_port: 0,
+  state: "disabled",
+  listen_addresses: [],
+  error: "",
+  active_connections: 0,
+  handshake_failures: 0,
+};
+afterEach(() => vi.restoreAllMocks());
+async function setup() {
+  vi.spyOn(toast, "success").mockImplementation(() => undefined);
+  vi.spyOn(gatewayHttp3Api, "get").mockResolvedValue({ ...initial });
+  const wrapper = mount(GatewayHttp3Settings, {
+    global: {
+      plugins: [
+        createI18n({
+          legacy: false,
+          locale: "en",
+          messages: { en: { admin: enAdmin } },
+        }),
+      ],
+    },
+  });
+  await flushPromises();
+  return wrapper;
+}
+describe("HTTP/3 gateway settings", () => {
+  it("defaults off and submits numeric advertised port", async () => {
+    const update = vi.spyOn(gatewayHttp3Api, "set").mockResolvedValue({
+      ...initial,
+      enabled: true,
+      advertised_port: 443,
+      state: "running",
+      listen_addresses: ["0.0.0.0:7999"],
+    });
+    const wrapper = await setup();
+    expect(wrapper.get('[role="switch"]').attributes("aria-checked")).toBe(
+      "false",
+    );
+    await wrapper.get('[role="switch"]').trigger("click");
+    await wrapper.get('input[type="number"]').setValue("443");
+    await wrapper
+      .findAll("button")
+      .find((button) => button.text() === "Save")!
+      .trigger("click");
+    await flushPromises();
+    expect(update).toHaveBeenCalledWith({
+      enabled: true,
+      advertised_port: 443,
+    });
+    expect(toast.success).toHaveBeenCalledWith("HTTP/3 settings saved");
+    expect(wrapper.get('a[href="#/system?tab=gateway"]').text()).toBe(
+      "Gateway",
+    );
+    expect(wrapper.text()).toContain("Listening locally");
+    expect(wrapper.text()).toContain("only confirms the local listener");
+    wrapper.unmount();
+  });
+  it("blocks invalid ports and preserves unsaved changes on failure", async () => {
+    vi.spyOn(gatewayHttp3Api, "set").mockRejectedValue(
+      new Error("UDP port occupied"),
+    );
+    const wrapper = await setup();
+    await wrapper.get('[role="switch"]').trigger("click");
+    await wrapper.get('input[type="number"]').setValue("65536");
+    const save = wrapper
+      .findAll("button")
+      .find((button) => button.text() === "Save")!;
+    expect(save.attributes("disabled")).toBeDefined();
+    await wrapper.get('input[type="number"]').setValue("443");
+    await save.trigger("click");
+    await flushPromises();
+    expect(wrapper.get('[role="alert"]').text()).toContain("UDP port occupied");
+    expect(toast.success).not.toHaveBeenCalled();
+    expect(wrapper.get('[role="switch"]').attributes("aria-checked")).toBe(
+      "true",
+    );
+    wrapper.unmount();
+  });
+  it("refreshes status without discarding edits and resets only explicitly", async () => {
+    const wrapper = await setup();
+    await wrapper.get('[role="switch"]').trigger("click");
+    await wrapper.get('input[type="number"]').setValue("8443");
+    vi.mocked(gatewayHttp3Api.get).mockResolvedValue({
+      ...initial,
+      active_connections: 2,
+    });
+    const refresh = wrapper.get('button[aria-label="Refresh status"]');
+    await refresh.trigger("click");
+    await flushPromises();
+    expect(wrapper.get('input[type="number"]').element.value).toBe("8443");
+    expect(wrapper.get('[role="switch"]').attributes("aria-checked")).toBe(
+      "true",
+    );
+    expect(toast.success).not.toHaveBeenCalled();
+    await wrapper
+      .findAll("button")
+      .find((button) => button.text() === "Discard changes")!
+      .trigger("click");
+    expect(wrapper.get('input[type="number"]').element.value).toBe("0");
+    expect(wrapper.get('[role="switch"]').attributes("aria-checked")).toBe(
+      "false",
+    );
+    wrapper.unmount();
+  });
+});

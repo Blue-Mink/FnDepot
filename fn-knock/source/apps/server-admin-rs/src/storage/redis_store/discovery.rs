@@ -1,1 +1,689 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBjb25zdCBTQ0FOTkVSX1NVU1BJQ0lPVVNfUFJFRklYOiAmc3RyID0gImZuX2tub2NrOnNjYW5uZXI6c3VzcGljaW91czoiOwpwdWIoc3VwZXIpIGNvbnN0IFNDQU5ORVJfQkxBQ0tMSVNUX0lOREVYX0tFWTogJnN0ciA9ICJmbl9rbm9jazpzY2FubmVyOmJsYWNrbGlzdDppbmRleCI7CnB1YihzdXBlcikgY29uc3QgU0NBTk5FUl9CTEFDS0xJU1RfREFUQV9QUkVGSVg6ICZzdHIgPSAiZm5fa25vY2s6c2Nhbm5lcjpibGFja2xpc3Q6ZGF0YToiOwpwdWIoc3VwZXIpIGNvbnN0IFNDQU5ORVJfU0VUVElOR1NfS0VZOiAmc3RyID0gImZuX2tub2NrOnNjYW5uZXI6c2V0dGluZ3MiOwpwdWIoc3VwZXIpIGNvbnN0IElQX0xPQ0FUSU9OX1BSRUZJWDogJnN0ciA9ICJmbl9rbm9jazppcF9sb2NhdGlvbiI7CnB1YihzdXBlcikgY29uc3QgSVBfTE9DQVRJT05fUVVFVUVfS0VZOiAmc3RyID0gImZuX2tub2NrOmlwX2xvY2F0aW9uOnF1ZXVlIjsKcHViKHN1cGVyKSBjb25zdCBSRUNFTlRfQVVUSF9JUFNfWlNFVF9LRVk6ICZzdHIgPSAiZm5fa25vY2s6cmVjZW50X2F1dGhfaXBzOnpzZXQiOwpwdWIoc3VwZXIpIGNvbnN0IFJFQ0VOVF9BVVRIX0lQU19ERVRBSUxTX0tFWTogJnN0ciA9ICJmbl9rbm9jazpyZWNlbnRfYXV0aF9pcHM6ZGV0YWlscyI7CnB1YihzdXBlcikgY29uc3QgUkVDRU5UX0FVVEhfSVBTX1RUTF9TRUNPTkRTOiBpNjQgPSAzMCAqIDI0ICogMzYwMDsKcHViKHN1cGVyKSBmbiBzY2FubmVyX3N1c3BpY2lvdXNfa2V5KGlwOiAmc3RyKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgie1NDQU5ORVJfU1VTUElDSU9VU19QUkVGSVh9e2lwfSIpCn0KCnB1YihzdXBlcikgZm4gc2Nhbm5lcl9ibGFja2xpc3RfZGF0YV9rZXkoaXA6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7U0NBTk5FUl9CTEFDS0xJU1RfREFUQV9QUkVGSVh9e2lwfSIpCn0KCnB1YihzdXBlcikgZm4gc2FuaXRpemVfc2Nhbm5lcl9pcHMoaXBzOiAmW1N0cmluZ10pIC0+IFZlYzxTdHJpbmc+IHsKICAgIGxldCBtdXQgc2VlbiA9IEJUcmVlU2V0OjpuZXcoKTsKICAgIGxldCBtdXQgY2xlYW5faXBzID0gVmVjOjpuZXcoKTsKICAgIGZvciBpcCBpbiBpcHMgewogICAgICAgIGxldCBjbGVhbiA9IGlwLnRyaW0oKTsKICAgICAgICBpZiBjbGVhbi5pc19lbXB0eSgpIHx8ICFzZWVuLmluc2VydChjbGVhbi50b19zdHJpbmcoKSkgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgY2xlYW5faXBzLnB1c2goY2xlYW4udG9fc3RyaW5nKCkpOwogICAgfQogICAgY2xlYW5faXBzCn0KCnB1YihzdXBlcikgZm4gc2Nhbm5lcl9ibGFja2xpc3RfcmVjb3JkX2Zyb21fcmF3KGlwOiAmc3RyLCByYXc6ICZzdHIpIC0+IE9wdGlvbjxWYWx1ZT4gewogICAgbGV0IG11dCByZWNvcmQgPSBzZXJkZV9qc29uOjpmcm9tX3N0cjo6PFZhbHVlPihyYXcpLm9rKCk/OwogICAgbGV0IG9iamVjdCA9IHJlY29yZC5hc19vYmplY3RfbXV0KCk/OwogICAgbGV0IG1pc3NpbmdfaXAgPSBvYmplY3QKICAgICAgICAuZ2V0KCJpcCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLmlzX25vbmVfb3IofHZhbHVlfCB2YWx1ZS50cmltKCkuaXNfZW1wdHkoKSk7CiAgICBpZiBtaXNzaW5nX2lwIHsKICAgICAgICBvYmplY3QuaW5zZXJ0KCJpcCIudG9fc3RyaW5nKCksIFZhbHVlOjpTdHJpbmcoaXAudG9fc3RyaW5nKCkpKTsKICAgIH0KICAgIFNvbWUocmVjb3JkKQp9CgpwdWIoc3VwZXIpIGZuIGlwX2xvY2F0aW9uX2NhY2hlX2tleShpcDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntJUF9MT0NBVElPTl9QUkVGSVh9OmNhY2hlOntpcH0iKQp9CgpwdWIoc3VwZXIpIGZuIGlwX2xvY2F0aW9uX3N0YXRlX2tleShpcDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntJUF9MT0NBVElPTl9QUkVGSVh9OnN0YXRlOntpcH0iKQp9CgpwdWIoc3VwZXIpIGZuIGlwX2xvY2F0aW9uX3JlZnNfa2V5KGlwOiAmc3RyKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgie0lQX0xPQ0FUSU9OX1BSRUZJWH06cmVmczp7aXB9IikKfQoKcHViKHN1cGVyKSBmbiBpcF9sb2NhdGlvbl9sb2NrX2tleShpcDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntJUF9MT0NBVElPTl9QUkVGSVh9OmxvY2s6e2lwfSIpCn0KCmltcGwgU3RvcmUgewogICAgcHViIGFzeW5jIGZuIHNjYW5uZXJfc2V0dGluZ3NfcmF3KCZzZWxmKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxPcHRpb248VmFsdWU+PiB7CiAgICAgICAgc2VsZi5nZXRfanNvbl92YWx1ZShTQ0FOTkVSX1NFVFRJTkdTX0tFWSkuYXdhaXQKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gc2F2ZV9zY2FubmVyX3NldHRpbmdzKCZzZWxmLCB2YWx1ZTogJlZhbHVlKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIHNlbGYuc2V0X2pzb25fdmFsdWUoU0NBTk5FUl9TRVRUSU5HU19LRVksIHZhbHVlKS5hd2FpdAogICAgfQoKICAgIHB1YiBhc3luYyBmbiBzYXZlX3NjYW5uZXJfc2V0dGluZ3NfYW5kX3JlbW92ZV9ibGFja2xpc3QoCiAgICAgICAgJnNlbGYsCiAgICAgICAgdmFsdWU6ICZWYWx1ZSwKICAgICAgICBpcDogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCBtdXQgcGlwZSA9IHJlZGlzOjpwaXBlKCk7CiAgICAgICAgcGlwZS5zZXQoCiAgICAgICAgICAgIFNDQU5ORVJfU0VUVElOR1NfS0VZLAogICAgICAgICAgICBzZXJkZV9qc29uOjp0b19zdHJpbmcodmFsdWUpLnVud3JhcF9vcl9lbHNlKHxffCAie30iLnRvX3N0cmluZygpKSwKICAgICAgICApCiAgICAgICAgLmlnbm9yZSgpOwogICAgICAgIHBpcGUuZGVsKHNjYW5uZXJfYmxhY2tsaXN0X2RhdGFfa2V5KGlwKSk7CiAgICAgICAgcGlwZS5kZWwoc2Nhbm5lcl9zdXNwaWNpb3VzX2tleShpcCkpLmlnbm9yZSgpOwogICAgICAgIHBpcGUuenJlbShTQ0FOTkVSX0JMQUNLTElTVF9JTkRFWF9LRVksIGlwKS5pZ25vcmUoKTsKICAgICAgICBsZXQgZGVsZXRlZDogVmVjPGk2ND4gPSBwaXBlLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikuYXdhaXQ/OwogICAgICAgIE9rKGRlbGV0ZWQuZmlyc3QoKS5jb3BpZWQoKS51bndyYXBfb3JfZGVmYXVsdCgpID4gMCkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gbGlzdF9zY2FubmVyX2JsYWNrbGlzdCgKICAgICAgICAmc2VsZiwKICAgICAgICBwYWdlOiBpNjQsCiAgICAgICAgbGltaXQ6IGk2NCwKICAgICAgICBzZWFyY2g6ICZzdHIsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PFZhbHVlPiB7CiAgICAgICAgbGV0IHNhZmVfcGFnZSA9IHBhZ2UubWF4KDEpOwogICAgICAgIGxldCBzYWZlX2xpbWl0ID0gbGltaXQuY2xhbXAoMSwgMjAwKTsKICAgICAgICBsZXQgc3RhcnQgPSAoc2FmZV9wYWdlIC0gMSkgKiBzYWZlX2xpbWl0OwogICAgICAgIGxldCBlbmQgPSBzdGFydCArIHNhZmVfbGltaXQgLSAxOwogICAgICAgIGxldCBzZWFyY2ggPSBzZWFyY2gudHJpbSgpOwogICAgICAgIGxldCB0b3RhbDsKICAgICAgICBsZXQgbXV0IGlwcyA9IFZlYzo6PFN0cmluZz46Om5ldygpOwoKICAgICAgICBpZiBzZWFyY2guaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgICAgICB0b3RhbCA9IGNvbm4uemNhcmQoU0NBTk5FUl9CTEFDS0xJU1RfSU5ERVhfS0VZKS5hd2FpdD87CiAgICAgICAgICAgIGlmIHRvdGFsID4gMCB7CiAgICAgICAgICAgICAgICBpcHMgPSBjb25uCiAgICAgICAgICAgICAgICAgICAgLnpyZXZyYW5nZShTQ0FOTkVSX0JMQUNLTElTVF9JTkRFWF9LRVksIHN0YXJ0IGFzIGlzaXplLCBlbmQgYXMgaXNpemUpCiAgICAgICAgICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGxldCBjaHVua19zaXplID0gMjAwX2k2NC5tYXgoc2FmZV9saW1pdCAqIDUpOwogICAgICAgICAgICBsZXQgbXV0IG1hdGNoZWRfY291bnQgPSAwX2k2NDsKICAgICAgICAgICAgbGV0IG11dCBvZmZzZXQgPSAwX2k2NDsKCiAgICAgICAgICAgIGxvb3AgewogICAgICAgICAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgICAgICAgICBsZXQgY2h1bms6IFZlYzxTdHJpbmc+ID0gY29ubgogICAgICAgICAgICAgICAgICAgIC56cmV2cmFuZ2UoCiAgICAgICAgICAgICAgICAgICAgICAgIFNDQU5ORVJfQkxBQ0tMSVNUX0lOREVYX0tFWSwKICAgICAgICAgICAgICAgICAgICAgICAgb2Zmc2V0IGFzIGlzaXplLAogICAgICAgICAgICAgICAgICAgICAgICAob2Zmc2V0ICsgY2h1bmtfc2l6ZSAtIDEpIGFzIGlzaXplLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgICAgICAgICAgaWYgY2h1bmsuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBvZmZzZXQgKz0gY2h1bmsubGVuKCkgYXMgaTY0OwoKICAgICAgICAgICAgICAgIGZvciBpcCBpbiBjaHVuayB7CiAgICAgICAgICAgICAgICAgICAgaWYgIWlwLmNvbnRhaW5zKHNlYXJjaCkgewogICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgaWYgbWF0Y2hlZF9jb3VudCA+PSBzdGFydCAmJiBpcHMubGVuKCkgPCBzYWZlX2xpbWl0IGFzIHVzaXplIHsKICAgICAgICAgICAgICAgICAgICAgICAgaXBzLnB1c2goaXApOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBtYXRjaGVkX2NvdW50ICs9IDE7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHRvdGFsID0gbWF0Y2hlZF9jb3VudDsKICAgICAgICB9CgogICAgICAgIGxldCBpdGVtcyA9IHNlbGYuc2Nhbm5lcl9ibGFja2xpc3RfcmVjb3Jkc19ieV9pcHMoJmlwcykuYXdhaXQ/OwogICAgICAgIE9rKGpzb24hKHsgInRvdGFsIjogdG90YWwsICJpdGVtcyI6IGl0ZW1zIH0pKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBnZXRfc2Nhbm5lcl9ibGFja2xpc3RfcmVjb3JkKAogICAgICAgICZzZWxmLAogICAgICAgIGlwOiAmc3RyLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxPcHRpb248VmFsdWU+PiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IHJhdzogT3B0aW9uPFN0cmluZz4gPSBjb25uLmdldChzY2FubmVyX2JsYWNrbGlzdF9kYXRhX2tleShpcCkpLmF3YWl0PzsKICAgICAgICBPayhyYXcuYW5kX3RoZW4ofHZhbHVlfCBzY2FubmVyX2JsYWNrbGlzdF9yZWNvcmRfZnJvbV9yYXcoaXAsICZ2YWx1ZSkpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBzY2FubmVyX2JsYWNrbGlzdF9leGlzdHMoJnNlbGYsIGlwOiAmc3RyKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxib29sPiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IGV4aXN0czogaTY0ID0gY29ubi5leGlzdHMoc2Nhbm5lcl9ibGFja2xpc3RfZGF0YV9rZXkoaXApKS5hd2FpdD87CiAgICAgICAgT2soZXhpc3RzID09IDEpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIHJlY29yZF9zY2FubmVyX3N1c3BpY2lvdXNfaGl0KAogICAgICAgICZzZWxmLAogICAgICAgIGlwOiAmc3RyLAogICAgICAgIGhpdDogJlZhbHVlLAogICAgICAgIG5vd19tczogaTY0LAogICAgICAgIG1pbl9zY29yZV9tczogaTY0LAogICAgICAgIHdpbmRvd19taW5fc2NvcmVfbXM6IGk2NCwKICAgICAgICB0dGxfc2Vjb25kczogaTY0LAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxpNjQ+IHsKICAgICAgICBsZXQga2V5ID0gc2Nhbm5lcl9zdXNwaWNpb3VzX2tleShpcCk7CiAgICAgICAgbGV0IHNlcmlhbGl6ZWQgPSBzZXJkZV9qc29uOjp0b19zdHJpbmcoaGl0KS51bndyYXBfb3JfZWxzZSh8X3wgInt9Ii50b19zdHJpbmcoKSk7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IG11dCBwaXBlID0gcmVkaXM6OnBpcGUoKTsKICAgICAgICBwaXBlLnphZGQoJmtleSwgc2VyaWFsaXplZCwgbm93X21zKS5pZ25vcmUoKTsKICAgICAgICBwaXBlLnpyZW1ieXNjb3JlKCZrZXksIDAsIG1pbl9zY29yZV9tcykuaWdub3JlKCk7CiAgICAgICAgcGlwZS5leHBpcmUoJmtleSwgdHRsX3NlY29uZHMubWF4KDEpKS5pZ25vcmUoKTsKICAgICAgICBsZXQgXzogKCkgPSBwaXBlLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikuYXdhaXQ/OwogICAgICAgIHJlZGlzOjpjbWQoIlpDT1VOVCIpCiAgICAgICAgICAgIC5hcmcoJmtleSkKICAgICAgICAgICAgLmFyZyh3aW5kb3dfbWluX3Njb3JlX21zKQogICAgICAgICAgICAuYXJnKCIraW5mIikKICAgICAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAgICAgLmF3YWl0CiAgICB9CgogICAgcHViIGFzeW5jIGZuIHNjYW5uZXJfc3VzcGljaW91c19oaXRzX3NpbmNlKAogICAgICAgICZzZWxmLAogICAgICAgIGlwOiAmc3RyLAogICAgICAgIG1pbl9zY29yZV9tczogaTY0LAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxWZWM8VmFsdWU+PiB7CiAgICAgICAgbGV0IGtleSA9IHNjYW5uZXJfc3VzcGljaW91c19rZXkoaXApOwogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCByYXdzOiBWZWM8U3RyaW5nPiA9IHJlZGlzOjpjbWQoIlpSQU5HRUJZU0NPUkUiKQogICAgICAgICAgICAuYXJnKCZrZXkpCiAgICAgICAgICAgIC5hcmcobWluX3Njb3JlX21zKQogICAgICAgICAgICAuYXJnKCIraW5mIikKICAgICAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBPayhyYXdzCiAgICAgICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgICAgICAuZmlsdGVyX21hcCh8cmF3fCBzZXJkZV9qc29uOjpmcm9tX3N0cjo6PFZhbHVlPigmcmF3KS5vaygpKQogICAgICAgICAgICAuY29sbGVjdCgpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBhZGRfc2Nhbm5lcl9ibGFja2xpc3RfcmVjb3JkKAogICAgICAgICZzZWxmLAogICAgICAgIGlwOiAmc3RyLAogICAgICAgIHJlY29yZDogJlZhbHVlLAogICAgICAgIGJsb2NrZWRfYXRfbXM6IGk2NCwKICAgICAgICB0dGxfc2Vjb25kczogaTY0LAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGxldCB0dGxfc2Vjb25kcyA9IHR0bF9zZWNvbmRzLm1heCgxKTsKICAgICAgICBsZXQgaW5kZXhfbWluX3Njb3JlID0gYmxvY2tlZF9hdF9tcyAtIHR0bF9zZWNvbmRzICogMTAwMDsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBsZXQgbXV0IHBpcGUgPSByZWRpczo6cGlwZSgpOwogICAgICAgIHBpcGUuc2V0X2V4KAogICAgICAgICAgICBzY2FubmVyX2JsYWNrbGlzdF9kYXRhX2tleShpcCksCiAgICAgICAgICAgIHNlcmRlX2pzb246OnRvX3N0cmluZyhyZWNvcmQpLnVud3JhcF9vcl9lbHNlKHxffCAie30iLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgdHRsX3NlY29uZHMgYXMgdTY0LAogICAgICAgICkKICAgICAgICAuaWdub3JlKCk7CiAgICAgICAgcGlwZS56YWRkKFNDQU5ORVJfQkxBQ0tMSVNUX0lOREVYX0tFWSwgaXAsIGJsb2NrZWRfYXRfbXMpCiAgICAgICAgICAgIC5pZ25vcmUoKTsKICAgICAgICBwaXBlLnpyZW1ieXNjb3JlKFNDQU5ORVJfQkxBQ0tMSVNUX0lOREVYX0tFWSwgMCwgaW5kZXhfbWluX3Njb3JlKQogICAgICAgICAgICAuaWdub3JlKCk7CiAgICAgICAgbGV0IF86ICgpID0gcGlwZS5xdWVyeV9hc3luYygmbXV0IGNvbm4pLmF3YWl0PzsKCiAgICAgICAgbGV0IGN1cnJlbnRfdHRsOiBpNjQgPSBjb25uLnR0bChTQ0FOTkVSX0JMQUNLTElTVF9JTkRFWF9LRVkpLmF3YWl0PzsKICAgICAgICBpZiBjdXJyZW50X3R0bCA9PSAtMiB8fCBjdXJyZW50X3R0bCA9PSAtMSB8fCBjdXJyZW50X3R0bCA8IHR0bF9zZWNvbmRzIHsKICAgICAgICAgICAgbGV0IF86ICgpID0gY29ubgogICAgICAgICAgICAgICAgLmV4cGlyZShTQ0FOTkVSX0JMQUNLTElTVF9JTkRFWF9LRVksIHR0bF9zZWNvbmRzKQogICAgICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICB9CiAgICAgICAgT2soKCkpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIHJlbW92ZV9zY2FubmVyX2JsYWNrbGlzdCgKICAgICAgICAmc2VsZiwKICAgICAgICBpcHM6ICZbU3RyaW5nXSwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBsZXQgY2xlYW5faXBzID0gc2FuaXRpemVfc2Nhbm5lcl9pcHMoaXBzKTsKICAgICAgICBpZiBjbGVhbl9pcHMuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiBPaygoKSk7CiAgICAgICAgfQoKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBsZXQgbXV0IHBpcGUgPSByZWRpczo6cGlwZSgpOwogICAgICAgIGZvciBpcCBpbiAmY2xlYW5faXBzIHsKICAgICAgICAgICAgcGlwZS5kZWwoc2Nhbm5lcl9ibGFja2xpc3RfZGF0YV9rZXkoaXApKS5pZ25vcmUoKTsKICAgICAgICAgICAgcGlwZS5kZWwoc2Nhbm5lcl9zdXNwaWNpb3VzX2tleShpcCkpLmlnbm9yZSgpOwogICAgICAgIH0KICAgICAgICBwaXBlLnpyZW0oU0NBTk5FUl9CTEFDS0xJU1RfSU5ERVhfS0VZLCBjbGVhbl9pcHMpLmlnbm9yZSgpOwogICAgICAgIGxldCBfOiAoKSA9IHBpcGUucXVlcnlfYXN5bmMoJm11dCBjb25uKS5hd2FpdD87CiAgICAgICAgT2soKCkpCiAgICB9CgogICAgYXN5bmMgZm4gc2Nhbm5lcl9ibGFja2xpc3RfcmVjb3Jkc19ieV9pcHMoCiAgICAgICAgJnNlbGYsCiAgICAgICAgaXBzOiAmW1N0cmluZ10sCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PFZlYzxWYWx1ZT4+IHsKICAgICAgICBpZiBpcHMuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiBPayhWZWM6Om5ldygpKTsKICAgICAgICB9CgogICAgICAgIGxldCBrZXlzID0gaXBzCiAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgLm1hcCh8aXB8IHNjYW5uZXJfYmxhY2tsaXN0X2RhdGFfa2V5KGlwKSkKICAgICAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IHJhd3M6IFZlYzxPcHRpb248U3RyaW5nPj4gPSByZWRpczo6Y21kKCJNR0VUIikuYXJnKGtleXMpLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikuYXdhaXQ/OwogICAgICAgIGxldCBtdXQgcmVjb3JkcyA9IFZlYzo6bmV3KCk7CiAgICAgICAgbGV0IG11dCBzdGFsZV9pcHMgPSBWZWM6Om5ldygpOwoKICAgICAgICBmb3IgKGlwLCByYXcpIGluIGlwcy5pdGVyKCkuemlwKHJhd3MpIHsKICAgICAgICAgICAgbGV0IFNvbWUocmF3KSA9IHJhdyBlbHNlIHsKICAgICAgICAgICAgICAgIHN0YWxlX2lwcy5wdXNoKGlwLmNsb25lKCkpOwogICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgIH07CiAgICAgICAgICAgIG1hdGNoIHNjYW5uZXJfYmxhY2tsaXN0X3JlY29yZF9mcm9tX3JhdyhpcCwgJnJhdykgewogICAgICAgICAgICAgICAgU29tZShyZWNvcmQpID0+IHJlY29yZHMucHVzaChyZWNvcmQpLAogICAgICAgICAgICAgICAgTm9uZSA9PiBzdGFsZV9pcHMucHVzaChpcC5jbG9uZSgpKSwKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgaWYgIXN0YWxlX2lwcy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgbGV0IG11dCBwaXBlID0gcmVkaXM6OnBpcGUoKTsKICAgICAgICAgICAgcGlwZS56cmVtKFNDQU5ORVJfQkxBQ0tMSVNUX0lOREVYX0tFWSwgc3RhbGVfaXBzKS5pZ25vcmUoKTsKICAgICAgICAgICAgbGV0IF86ICgpID0gcGlwZS5xdWVyeV9hc3luYygmbXV0IGNvbm4pLmF3YWl0PzsKICAgICAgICB9CgogICAgICAgIE9rKHJlY29yZHMpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIGdldF9pcF9sb2NhdGlvbl9jYWNoZSgKICAgICAgICAmc2VsZiwKICAgICAgICBpcDogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFZhbHVlPj4gewogICAgICAgIHNlbGYuZ2V0X2pzb25fdmFsdWUoJmlwX2xvY2F0aW9uX2NhY2hlX2tleShpcCkpLmF3YWl0CiAgICB9CgogICAgcHViIGFzeW5jIGZuIGdldF9pcF9sb2NhdGlvbl9zdGF0ZSgKICAgICAgICAmc2VsZiwKICAgICAgICBpcDogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFZhbHVlPj4gewogICAgICAgIHNlbGYuZ2V0X2pzb25fdmFsdWUoJmlwX2xvY2F0aW9uX3N0YXRlX2tleShpcCkpLmF3YWl0CiAgICB9CgogICAgLy8vIENhY2hlIGFuZCBwZW5kaW5nIHN0YXRlIGluIGlucHV0IG9yZGVyLCBpbmNsdWRpbmcgZHVwbGljYXRlIElQcy4KICAgIC8vLyBUaGUgYW5hbHl0aWNzIHJlYWRlciBmaWx0ZXJzIGV4cGlyZWQgZG9jdW1lbnRzIHdpdGhvdXQgZGVsZXRpbmcgdGhlbS4KICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gZ2V0X2lwX2xvY2F0aW9uX3JlY29yZHNfYW5hbHl0aWNzKAogICAgICAgICZzZWxmLAogICAgICAgIGlwczogJltTdHJpbmddLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxWZWM8KE9wdGlvbjxWYWx1ZT4sIE9wdGlvbjxWYWx1ZT4pPj4gewogICAgICAgIGxldCBrZXlzID0gaXBzCiAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgLmZsYXRfbWFwKHxpcHwgW2lwX2xvY2F0aW9uX2NhY2hlX2tleShpcCksIGlwX2xvY2F0aW9uX3N0YXRlX2tleShpcCldKQogICAgICAgICAgICAuY29sbGVjdCgpOwogICAgICAgIGxldCByYXcgPSBzZWxmLm1hbmFnZXIuZ2V0X2xpdmVfc3RyaW5nc19hbmFseXRpY3Moa2V5cykuYXdhaXQ/OwogICAgICAgIGxldCBtdXQgdmFsdWVzID0gcmF3CiAgICAgICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgICAgICAubWFwKHxyYXd8IHJhdy5hbmRfdGhlbih8cmF3fCBzZXJkZV9qc29uOjpmcm9tX3N0cigmcmF3KS5vaygpKSk7CiAgICAgICAgT2soKDAuLmlwcy5sZW4oKSkKICAgICAgICAgICAgLm1hcCh8X3wgKHZhbHVlcy5uZXh0KCkuZmxhdHRlbigpLCB2YWx1ZXMubmV4dCgpLmZsYXR0ZW4oKSkpCiAgICAgICAgICAgIC5jb2xsZWN0KCkpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIHNldF9pcF9sb2NhdGlvbl9zdGF0ZSgKICAgICAgICAmc2VsZiwKICAgICAgICBpcDogJnN0ciwKICAgICAgICBzdGF0ZTogJlZhbHVlLAogICAgICAgIHR0bF9zZWNvbmRzOiB1c2l6ZSwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBzZWxmLnNldF9qc29uX3ZhbHVlX2V4KCZpcF9sb2NhdGlvbl9zdGF0ZV9rZXkoaXApLCBzdGF0ZSwgdHRsX3NlY29uZHMpCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgIHB1YiBhc3luYyBmbiBlbnF1ZXVlX2lwX2xvY2F0aW9uKAogICAgICAgICZzZWxmLAogICAgICAgIGlwOiAmc3RyLAogICAgICAgIHN0YXRlOiAmVmFsdWUsCiAgICAgICAgbmV4dF9hdHRlbXB0X2F0X21zOiBpNjQsCiAgICAgICAgdHRsX3NlY29uZHM6IHVzaXplLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCBtdXQgcGlwZSA9IHJlZGlzOjpwaXBlKCk7CiAgICAgICAgcGlwZS5zZXRfZXgoCiAgICAgICAgICAgIGlwX2xvY2F0aW9uX3N0YXRlX2tleShpcCksCiAgICAgICAgICAgIHNlcmRlX2pzb246OnRvX3N0cmluZyhzdGF0ZSkudW53cmFwX29yX2Vsc2UofF98ICJ7fSIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICB0dGxfc2Vjb25kcy5tYXgoMSkgYXMgdTY0LAogICAgICAgICkKICAgICAgICAuaWdub3JlKCk7CiAgICAgICAgcGlwZS56YWRkKElQX0xPQ0FUSU9OX1FVRVVFX0tFWSwgaXAsIG5leHRfYXR0ZW1wdF9hdF9tcykKICAgICAgICAgICAgLmlnbm9yZSgpOwogICAgICAgIGxldCBfOiAoKSA9IHBpcGUucXVlcnlfYXN5bmMoJm11dCBjb25uKS5hd2FpdD87CiAgICAgICAgT2soKCkpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIGR1ZV9pcF9sb2NhdGlvbl9pcHMoCiAgICAgICAgJnNlbGYsCiAgICAgICAgbm93X21zOiBpNjQsCiAgICAgICAgbGltaXQ6IHVzaXplLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxWZWM8U3RyaW5nPj4gewogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIHJlZGlzOjpjbWQoIlpSQU5HRUJZU0NPUkUiKQogICAgICAgICAgICAuYXJnKElQX0xPQ0FUSU9OX1FVRVVFX0tFWSkKICAgICAgICAgICAgLmFyZygwKQogICAgICAgICAgICAuYXJnKG5vd19tcykKICAgICAgICAgICAgLmFyZygiTElNSVQiKQogICAgICAgICAgICAuYXJnKDApCiAgICAgICAgICAgIC5hcmcobGltaXQubWF4KDEpKQogICAgICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgICAgICAuYXdhaXQKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gbmV4dF9pcF9sb2NhdGlvbl9kdWVfYXRfbXMoJnNlbGYpIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PE9wdGlvbjxpNjQ+PiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IHZhbHVlczogVmVjPChTdHJpbmcsIGY2NCk+ID0gcmVkaXM6OmNtZCgiWlJBTkdFIikKICAgICAgICAgICAgLmFyZyhJUF9MT0NBVElPTl9RVUVVRV9LRVkpCiAgICAgICAgICAgIC5hcmcoMCkKICAgICAgICAgICAgLmFyZygwKQogICAgICAgICAgICAuYXJnKCJXSVRIU0NPUkVTIikKICAgICAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBPayh2YWx1ZXMuZmlyc3QoKS5hbmRfdGhlbih8KF8sIHNjb3JlKXwgewogICAgICAgICAgICBzY29yZQogICAgICAgICAgICAgICAgLmlzX2Zpbml0ZSgpCiAgICAgICAgICAgICAgICAudGhlbl9zb21lKCpzY29yZSBhcyBpNjQpCiAgICAgICAgICAgICAgICAuZmlsdGVyKHxffCBzY29yZS5mcmFjdCgpID09IDAuMCkKICAgICAgICB9KSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gYWNxdWlyZV9pcF9sb2NhdGlvbl9sb2NrKAogICAgICAgICZzZWxmLAogICAgICAgIGlwOiAmc3RyLAogICAgICAgIG93bmVyX3Rva2VuOiAmc3RyLAogICAgICAgIHR0bF9zZWNvbmRzOiB1c2l6ZSwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCByZXN1bHQ6IE9wdGlvbjxTdHJpbmc+ID0gcmVkaXM6OmNtZCgiU0VUIikKICAgICAgICAgICAgLmFyZyhpcF9sb2NhdGlvbl9sb2NrX2tleShpcCkpCiAgICAgICAgICAgIC5hcmcob3duZXJfdG9rZW4pCiAgICAgICAgICAgIC5hcmcoIkVYIikKICAgICAgICAgICAgLmFyZyh0dGxfc2Vjb25kcy5tYXgoMSkpCiAgICAgICAgICAgIC5hcmcoIk5YIikKICAgICAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBPayhyZXN1bHQuYXNfZGVyZWYoKSA9PSBTb21lKCJPSyIpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBpcF9sb2NhdGlvbl9sb2NrX3R0bF9tcygmc2VsZiwgaXA6ICZzdHIpIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PGk2ND4gewogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIHJlZGlzOjpjbWQoIlBUVEwiKQogICAgICAgICAgICAuYXJnKGlwX2xvY2F0aW9uX2xvY2tfa2V5KGlwKSkKICAgICAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAgICAgLmF3YWl0CiAgICB9CgogICAgcHViIGFzeW5jIGZuIHJlbGVhc2VfaXBfbG9jYXRpb25fbG9jaygKICAgICAgICAmc2VsZiwKICAgICAgICBpcDogJnN0ciwKICAgICAgICBvd25lcl90b2tlbjogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBzZWxmLmRlbGV0ZV9rZXlfaWZfdmFsdWUoJmlwX2xvY2F0aW9uX2xvY2tfa2V5KGlwKSwgb3duZXJfdG9rZW4pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgIHB1YiBhc3luYyBmbiByZW1vdmVfaXBfbG9jYXRpb25fcXVldWVfZW50cnkoCiAgICAgICAgJnNlbGYsCiAgICAgICAgaXA6ICZzdHIsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgY29ubi56cmVtKElQX0xPQ0FUSU9OX1FVRVVFX0tFWSwgaXApLmF3YWl0CiAgICB9CgogICAgcHViIGFzeW5jIGZuIGNvbXBsZXRlX2lwX2xvY2F0aW9uX2xvb2t1cCgKICAgICAgICAmc2VsZiwKICAgICAgICBpcDogJnN0ciwKICAgICAgICByZXN1bHQ6ICZWYWx1ZSwKICAgICAgICBzdGF0ZTogJlZhbHVlLAogICAgICAgIHR0bF9zZWNvbmRzOiB1c2l6ZSwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBsZXQgbXV0IHBpcGUgPSByZWRpczo6cGlwZSgpOwogICAgICAgIHBpcGUuc2V0X2V4KAogICAgICAgICAgICBpcF9sb2NhdGlvbl9jYWNoZV9rZXkoaXApLAogICAgICAgICAgICBzZXJkZV9qc29uOjp0b19zdHJpbmcocmVzdWx0KS51bndyYXBfb3JfZWxzZSh8X3wgInt9Ii50b19zdHJpbmcoKSksCiAgICAgICAgICAgIHR0bF9zZWNvbmRzLm1heCgxKSBhcyB1NjQsCiAgICAgICAgKQogICAgICAgIC5pZ25vcmUoKTsKICAgICAgICBwaXBlLnNldF9leCgKICAgICAgICAgICAgaXBfbG9jYXRpb25fc3RhdGVfa2V5KGlwKSwKICAgICAgICAgICAgc2VyZGVfanNvbjo6dG9fc3RyaW5nKHN0YXRlKS51bndyYXBfb3JfZWxzZSh8X3wgInt9Ii50b19zdHJpbmcoKSksCiAgICAgICAgICAgIHR0bF9zZWNvbmRzLm1heCgxKSBhcyB1NjQsCiAgICAgICAgKQogICAgICAgIC5pZ25vcmUoKTsKICAgICAgICBwaXBlLnpyZW0oSVBfTE9DQVRJT05fUVVFVUVfS0VZLCBpcCkuaWdub3JlKCk7CiAgICAgICAgbGV0IF86ICgpID0gcGlwZS5xdWVyeV9hc3luYygmbXV0IGNvbm4pLmF3YWl0PzsKICAgICAgICBPaygoKSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gaXBfbG9jYXRpb25fcmVmZXJlbmNlcygKICAgICAgICAmc2VsZiwKICAgICAgICBpcDogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8VmVjPFN0cmluZz4+IHsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBjb25uLnNtZW1iZXJzKGlwX2xvY2F0aW9uX3JlZnNfa2V5KGlwKSkuYXdhaXQKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gYWRkX2lwX2xvY2F0aW9uX3JlZmVyZW5jZXMoCiAgICAgICAgJnNlbGYsCiAgICAgICAgaXA6ICZzdHIsCiAgICAgICAgcmVmczogJltTdHJpbmddLAogICAgICAgIHR0bF9zZWNvbmRzOiB1c2l6ZSwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBpZiByZWZzLmlzX2VtcHR5KCkgewogICAgICAgICAgICByZXR1cm4gT2soKCkpOwogICAgICAgIH0KICAgICAgICBsZXQga2V5ID0gaXBfbG9jYXRpb25fcmVmc19rZXkoaXApOwogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCBtdXQgcGlwZSA9IHJlZGlzOjpwaXBlKCk7CiAgICAgICAgcGlwZS5zYWRkKCZrZXksIHJlZnMpLmlnbm9yZSgpOwogICAgICAgIHBpcGUudHRsKCZrZXkpOwogICAgICAgIGxldCB2YWx1ZXM6IFZlYzxpNjQ+ID0gcGlwZS5xdWVyeV9hc3luYygmbXV0IGNvbm4pLmF3YWl0PzsKICAgICAgICBsZXQgdHRsID0gdmFsdWVzLmludG9faXRlcigpLm5leHQoKS51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgICAgIGlmIHR0bCA9PSAtMSB8fCB0dGwgPiB0dGxfc2Vjb25kcyBhcyBpNjQgewogICAgICAgICAgICBsZXQgXzogKCkgPSBjb25uLmV4cGlyZShrZXksIHR0bF9zZWNvbmRzLm1heCgxKSBhcyBpNjQpLmF3YWl0PzsKICAgICAgICB9CiAgICAgICAgT2soKCkpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIHJlbW92ZV9pcF9sb2NhdGlvbl9yZWZlcmVuY2VzKAogICAgICAgICZzZWxmLAogICAgICAgIGlwOiAmc3RyLAogICAgICAgIHJlZnM6ICZbU3RyaW5nXSwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBpZiByZWZzLmlzX2VtcHR5KCkgewogICAgICAgICAgICByZXR1cm4gT2soKCkpOwogICAgICAgIH0KICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBjb25uLnNyZW0oaXBfbG9jYXRpb25fcmVmc19rZXkoaXApLCByZWZzKS5hd2FpdAogICAgfQoKICAgIHB1YiBhc3luYyBmbiByZWNvcmRfcmVjZW50X2F1dGhfaXAoCiAgICAgICAgJnNlbGYsCiAgICAgICAgaXA6ICZzdHIsCiAgICAgICAgbm93OiBpNjQsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgbGV0IGV4cGlyZV9hdCA9IG5vdyArIFJFQ0VOVF9BVVRIX0lQU19UVExfU0VDT05EUzsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBsZXQgZXhwaXJlZF9pcHM6IFZlYzxTdHJpbmc+ID0gcmVkaXM6OmNtZCgiWlJBTkdFQllTQ09SRSIpCiAgICAgICAgICAgIC5hcmcoUkVDRU5UX0FVVEhfSVBTX1pTRVRfS0VZKQogICAgICAgICAgICAuYXJnKDApCiAgICAgICAgICAgIC5hcmcobm93KQogICAgICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIGxldCByYXdfZGV0YWlsOiBPcHRpb248U3RyaW5nPiA9IGNvbm4uaGdldChSRUNFTlRfQVVUSF9JUFNfREVUQUlMU19LRVksIGlwKS5hd2FpdD87CiAgICAgICAgbGV0IGRldGFpbCA9IHJhd19kZXRhaWwKICAgICAgICAgICAgLmFuZF90aGVuKHxyYXd8IHNlcmRlX2pzb246OmZyb21fc3RyOjo8VmFsdWU+KCZyYXcpLm9rKCkpCiAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCBqc29uISh7fSkpOwogICAgICAgIGxldCBmaXJzdF9zZWVuX2F0ID0gZGV0YWlsCiAgICAgICAgICAgIC5nZXQoImZpcnN0U2VlbkF0IikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19pNjQpCiAgICAgICAgICAgIC51bndyYXBfb3Iobm93KTsKICAgICAgICBsZXQgc2Vlbl9jb3VudCA9IGRldGFpbAogICAgICAgICAgICAuZ2V0KCJzZWVuQ291bnQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkKICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICAgICAgLm1heCgwKQogICAgICAgICAgICArIDE7CiAgICAgICAgbGV0IG5leHRfZGV0YWlsID0ganNvbiEoewogICAgICAgICAgICAiZmlyc3RTZWVuQXQiOiBmaXJzdF9zZWVuX2F0LAogICAgICAgICAgICAibGFzdFNlZW5BdCI6IG5vdywKICAgICAgICAgICAgInNlZW5Db3VudCI6IHNlZW5fY291bnQubWF4KDEpLAogICAgICAgIH0pOwogICAgICAgIGxldCBtdXQgcGlwZSA9IHJlZGlzOjpwaXBlKCk7CiAgICAgICAgcGlwZS56YWRkKFJFQ0VOVF9BVVRIX0lQU19aU0VUX0tFWSwgaXAsIGV4cGlyZV9hdCkuaWdub3JlKCk7CiAgICAgICAgcGlwZS56cmVtYnlzY29yZShSRUNFTlRfQVVUSF9JUFNfWlNFVF9LRVksIDAsIG5vdykuaWdub3JlKCk7CiAgICAgICAgcGlwZS5oc2V0KAogICAgICAgICAgICBSRUNFTlRfQVVUSF9JUFNfREVUQUlMU19LRVksCiAgICAgICAgICAgIGlwLAogICAgICAgICAgICBzZXJkZV9qc29uOjp0b19zdHJpbmcoJm5leHRfZGV0YWlsKS51bndyYXBfb3JfZWxzZSh8X3wgInt9Ii50b19zdHJpbmcoKSksCiAgICAgICAgKQogICAgICAgIC5pZ25vcmUoKTsKICAgICAgICBsZXQgZXhwaXJlZF9pcHMgPSBleHBpcmVkX2lwcwogICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgLmZpbHRlcih8ZXhwaXJlZF9pcHwgZXhwaXJlZF9pcCAhPSBpcCkKICAgICAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICAgICAgaWYgIWV4cGlyZWRfaXBzLmlzX2VtcHR5KCkgewogICAgICAgICAgICBwaXBlLmhkZWwoUkVDRU5UX0FVVEhfSVBTX0RFVEFJTFNfS0VZLCBleHBpcmVkX2lwcykuaWdub3JlKCk7CiAgICAgICAgfQogICAgICAgIGxldCBfOiAoKSA9IHBpcGUucXVlcnlfYXN5bmMoJm11dCBjb25uKS5hd2FpdD87CiAgICAgICAgT2soKCkpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIGlzX3JlY2VudF9hdXRoX2lwX2FjdGl2ZSgKICAgICAgICAmc2VsZiwKICAgICAgICBpcDogJnN0ciwKICAgICAgICBub3c6IGk2NCwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCBzY29yZTogT3B0aW9uPGk2ND4gPSBjb25uLnpzY29yZShSRUNFTlRfQVVUSF9JUFNfWlNFVF9LRVksIGlwKS5hd2FpdC5vaygpOwogICAgICAgIE9rKHNjb3JlLmlzX3NvbWVfYW5kKHxleHBpcmVzX2F0fCBleHBpcmVzX2F0ID4gbm93KSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gbGlzdF9yZWNlbnRfYXV0aF9pcHNfd2l0aF9zY29yZXMoCiAgICAgICAgJnNlbGYsCiAgICAgICAgbm93OiBpNjQsCiAgICAgICAgbGltaXQ6IHVzaXplLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxWZWM8VmFsdWU+PiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IHJhdzogVmVjPFN0cmluZz4gPSByZWRpczo6Y21kKCJaUkVWUkFOR0VCWVNDT1JFIikKICAgICAgICAgICAgLmFyZyhSRUNFTlRfQVVUSF9JUFNfWlNFVF9LRVkpCiAgICAgICAgICAgIC5hcmcoIitpbmYiKQogICAgICAgICAgICAuYXJnKG5vdyArIDEpCiAgICAgICAgICAgIC5hcmcoIldJVEhTQ09SRVMiKQogICAgICAgICAgICAuYXJnKCJMSU1JVCIpCiAgICAgICAgICAgIC5hcmcoMCkKICAgICAgICAgICAgLmFyZyhsaW1pdC5tYXgoMSkpCiAgICAgICAgICAgIC5xdWVyeV9hc3luYygmbXV0IGNvbm4pCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgbGV0IG11dCBlbnRyaWVzID0gVmVjOjpuZXcoKTsKICAgICAgICBsZXQgbXV0IHNlZW4gPSBCVHJlZVNldDo6bmV3KCk7CiAgICAgICAgZm9yIHBhaXIgaW4gcmF3LmNodW5rcygyKSB7CiAgICAgICAgICAgIGxldCBTb21lKGlwKSA9IHBhaXIuZmlyc3QoKS5tYXAoU3RyaW5nOjphc19zdHIpIGVsc2UgewogICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgIH07CiAgICAgICAgICAgIGxldCBleHBpcmVzX2F0ID0gcGFpcgogICAgICAgICAgICAgICAgLmdldCgxKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUucGFyc2U6OjxpNjQ+KCkub2soKSkKICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgICAgICAgICBpZiBpcC50cmltKCkuaXNfZW1wdHkoKSB8fCBleHBpcmVzX2F0IDw9IG5vdyB8fCAhc2Vlbi5pbnNlcnQoaXAudG9fc3RyaW5nKCkpIHsKICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGVudHJpZXMucHVzaCgoaXAudG9fc3RyaW5nKCksIGV4cGlyZXNfYXQpKTsKICAgICAgICB9CiAgICAgICAgaWYgZW50cmllcy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgcmV0dXJuIE9rKFZlYzo6bmV3KCkpOwogICAgICAgIH0KICAgICAgICBsZXQgZGV0YWlsX3ZhbHVlczogVmVjPE9wdGlvbjxTdHJpbmc+PiA9IHJlZGlzOjpjbWQoIkhNR0VUIikKICAgICAgICAgICAgLmFyZyhSRUNFTlRfQVVUSF9JUFNfREVUQUlMU19LRVkpCiAgICAgICAgICAgIC5hcmcoZW50cmllcy5pdGVyKCkubWFwKHwoaXAsIF8pfCBpcCkuY29sbGVjdDo6PFZlYzxfPj4oKSkKICAgICAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBPayhlbnRyaWVzCiAgICAgICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgICAgICAuemlwKGRldGFpbF92YWx1ZXMpCiAgICAgICAgICAgIC5tYXAofCgoaXAsIGV4cGlyZXNfYXQpLCByYXdfZGV0YWlsKXwgewogICAgICAgICAgICAgICAgbGV0IGRldGFpbCA9IHJhd19kZXRhaWwKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofHJhd3wgc2VyZGVfanNvbjo6ZnJvbV9zdHI6OjxWYWx1ZT4oJnJhdykub2soKSkKICAgICAgICAgICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofHwganNvbiEoe30pKTsKICAgICAgICAgICAgICAgIGxldCBmYWxsYmFja19sYXN0X3NlZW5fYXQgPSAoZXhwaXJlc19hdCAtIFJFQ0VOVF9BVVRIX0lQU19UVExfU0VDT05EUykubWF4KDApOwogICAgICAgICAgICAgICAgbGV0IGxhc3Rfc2Vlbl9hdCA9IGRldGFpbAogICAgICAgICAgICAgICAgICAgIC5nZXQoImxhc3RTZWVuQXQiKQogICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KQogICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3IoZmFsbGJhY2tfbGFzdF9zZWVuX2F0KTsKICAgICAgICAgICAgICAgIGpzb24hKHsKICAgICAgICAgICAgICAgICAgICAiaXAiOiBpcCwKICAgICAgICAgICAgICAgICAgICAiZXhwaXJlc0F0IjogZXhwaXJlc19hdCwKICAgICAgICAgICAgICAgICAgICAibGFzdFNlZW5BdCI6IGxhc3Rfc2Vlbl9hdCwKICAgICAgICAgICAgICAgICAgICAiZmlyc3RTZWVuQXQiOiBkZXRhaWwKICAgICAgICAgICAgICAgICAgICAgICAgLmdldCgiZmlyc3RTZWVuQXQiKQogICAgICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkKICAgICAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcihsYXN0X3NlZW5fYXQpLAogICAgICAgICAgICAgICAgICAgICJzZWVuQ291bnQiOiBkZXRhaWwKICAgICAgICAgICAgICAgICAgICAgICAgLmdldCgic2VlbkNvdW50IikKICAgICAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19pNjQpCiAgICAgICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3IoMSkKICAgICAgICAgICAgICAgICAgICAgICAgLm1heCgxKSwKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5jb2xsZWN0KCkpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIGdldF9qc29uX3ZhbHVlX3dpdGhfdHRsKAogICAgICAgICZzZWxmLAogICAgICAgIGtleTogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KE9wdGlvbjxWYWx1ZT4sIGk2NCk+IHsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBsZXQgcmF3OiBPcHRpb248U3RyaW5nPiA9IGNvbm4uZ2V0KGtleSkuYXdhaXQ/OwogICAgICAgIGxldCB0dGw6IGk2NCA9IGNvbm4udHRsKGtleSkuYXdhaXQ/OwogICAgICAgIE9rKChyYXcuYW5kX3RoZW4ofHZhbHVlfCBzZXJkZV9qc29uOjpmcm9tX3N0cigmdmFsdWUpLm9rKCkpLCB0dGwpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBzZXRfanNvbl92YWx1ZV9wcmVzZXJ2ZV90dGwoCiAgICAgICAgJnNlbGYsCiAgICAgICAga2V5OiAmc3RyLAogICAgICAgIHZhbHVlOiAmVmFsdWUsCiAgICAgICAgdHRsOiBpNjQsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgbGV0IHNlcmlhbGl6ZWQgPSBzZXJkZV9qc29uOjp0b19zdHJpbmcodmFsdWUpLnVud3JhcF9vcl9lbHNlKHxffCAie30iLnRvX3N0cmluZygpKTsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBpZiB0dGwgPiAwIHsKICAgICAgICAgICAgbGV0IF86ICgpID0gY29ubi5zZXRfZXgoa2V5LCBzZXJpYWxpemVkLCB0dGwgYXMgdTY0KS5hd2FpdD87CiAgICAgICAgfSBlbHNlIGlmIHR0bCA9PSAtMSB7CiAgICAgICAgICAgIGxldCBfOiAoKSA9IGNvbm4uc2V0KGtleSwgc2VyaWFsaXplZCkuYXdhaXQ/OwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGxldCBfOiAoKSA9IGNvbm4uZGVsKGtleSkuYXdhaXQ/OwogICAgICAgIH0KICAgICAgICBPaygoKSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gaGdldF9qc29uX3ZhbHVlKAogICAgICAgICZzZWxmLAogICAgICAgIGtleTogJnN0ciwKICAgICAgICBmaWVsZDogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFZhbHVlPj4gewogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCByYXc6IE9wdGlvbjxTdHJpbmc+ID0gY29ubi5oZ2V0KGtleSwgZmllbGQpLmF3YWl0PzsKICAgICAgICBPayhyYXcuYW5kX3RoZW4ofHZhbHVlfCBzZXJkZV9qc29uOjpmcm9tX3N0cigmdmFsdWUpLm9rKCkpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBoc2V0X2pzb25fdmFsdWUoCiAgICAgICAgJnNlbGYsCiAgICAgICAga2V5OiAmc3RyLAogICAgICAgIGZpZWxkOiAmc3RyLAogICAgICAgIHZhbHVlOiAmVmFsdWUsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgY29ubi5oc2V0KAogICAgICAgICAgICBrZXksCiAgICAgICAgICAgIGZpZWxkLAogICAgICAgICAgICBzZXJkZV9qc29uOjp0b19zdHJpbmcodmFsdWUpLnVud3JhcF9vcl9lbHNlKHxffCAie30iLnRvX3N0cmluZygpKSwKICAgICAgICApCiAgICAgICAgLmF3YWl0CiAgICB9Cn0K
+use super::*;
+
+pub(super) const SCANNER_SUSPICIOUS_PREFIX: &str = "fn_knock:scanner:suspicious:";
+pub(super) const SCANNER_BLACKLIST_INDEX_KEY: &str = "fn_knock:scanner:blacklist:index";
+pub(super) const SCANNER_BLACKLIST_DATA_PREFIX: &str = "fn_knock:scanner:blacklist:data:";
+pub(super) const SCANNER_SETTINGS_KEY: &str = "fn_knock:scanner:settings";
+pub(super) const IP_LOCATION_PREFIX: &str = "fn_knock:ip_location";
+pub(super) const IP_LOCATION_QUEUE_KEY: &str = "fn_knock:ip_location:queue";
+pub(super) const RECENT_AUTH_IPS_ZSET_KEY: &str = "fn_knock:recent_auth_ips:zset";
+pub(super) const RECENT_AUTH_IPS_DETAILS_KEY: &str = "fn_knock:recent_auth_ips:details";
+pub(super) const RECENT_AUTH_IPS_TTL_SECONDS: i64 = 30 * 24 * 3600;
+pub(super) fn scanner_suspicious_key(ip: &str) -> String {
+    format!("{SCANNER_SUSPICIOUS_PREFIX}{ip}")
+}
+
+pub(super) fn scanner_blacklist_data_key(ip: &str) -> String {
+    format!("{SCANNER_BLACKLIST_DATA_PREFIX}{ip}")
+}
+
+pub(super) fn sanitize_scanner_ips(ips: &[String]) -> Vec<String> {
+    let mut seen = BTreeSet::new();
+    let mut clean_ips = Vec::new();
+    for ip in ips {
+        let clean = ip.trim();
+        if clean.is_empty() || !seen.insert(clean.to_string()) {
+            continue;
+        }
+        clean_ips.push(clean.to_string());
+    }
+    clean_ips
+}
+
+pub(super) fn scanner_blacklist_record_from_raw(ip: &str, raw: &str) -> Option<Value> {
+    let mut record = serde_json::from_str::<Value>(raw).ok()?;
+    let object = record.as_object_mut()?;
+    let missing_ip = object
+        .get("ip")
+        .and_then(Value::as_str)
+        .is_none_or(|value| value.trim().is_empty());
+    if missing_ip {
+        object.insert("ip".to_string(), Value::String(ip.to_string()));
+    }
+    Some(record)
+}
+
+pub(super) fn ip_location_cache_key(ip: &str) -> String {
+    format!("{IP_LOCATION_PREFIX}:cache:{ip}")
+}
+
+pub(super) fn ip_location_state_key(ip: &str) -> String {
+    format!("{IP_LOCATION_PREFIX}:state:{ip}")
+}
+
+pub(super) fn ip_location_refs_key(ip: &str) -> String {
+    format!("{IP_LOCATION_PREFIX}:refs:{ip}")
+}
+
+pub(super) fn ip_location_lock_key(ip: &str) -> String {
+    format!("{IP_LOCATION_PREFIX}:lock:{ip}")
+}
+
+impl Store {
+    pub async fn scanner_settings_raw(&self) -> crate::storage::StorageResult<Option<Value>> {
+        self.get_json_value(SCANNER_SETTINGS_KEY).await
+    }
+
+    pub async fn save_scanner_settings(&self, value: &Value) -> crate::storage::StorageResult<()> {
+        self.set_json_value(SCANNER_SETTINGS_KEY, value).await
+    }
+
+    pub async fn save_scanner_settings_and_remove_blacklist(
+        &self,
+        value: &Value,
+        ip: &str,
+    ) -> crate::storage::StorageResult<bool> {
+        let mut conn = self.conn();
+        let mut pipe = redis::pipe();
+        pipe.set(
+            SCANNER_SETTINGS_KEY,
+            serde_json::to_string(value).unwrap_or_else(|_| "{}".to_string()),
+        )
+        .ignore();
+        pipe.del(scanner_blacklist_data_key(ip));
+        pipe.del(scanner_suspicious_key(ip)).ignore();
+        pipe.zrem(SCANNER_BLACKLIST_INDEX_KEY, ip).ignore();
+        let deleted: Vec<i64> = pipe.query_async(&mut conn).await?;
+        Ok(deleted.first().copied().unwrap_or_default() > 0)
+    }
+
+    pub async fn list_scanner_blacklist(
+        &self,
+        page: i64,
+        limit: i64,
+        search: &str,
+    ) -> crate::storage::StorageResult<Value> {
+        let safe_page = page.max(1);
+        let safe_limit = limit.clamp(1, 200);
+        let start = (safe_page - 1) * safe_limit;
+        let end = start + safe_limit - 1;
+        let search = search.trim();
+        let total;
+        let mut ips = Vec::<String>::new();
+
+        if search.is_empty() {
+            let mut conn = self.conn();
+            total = conn.zcard(SCANNER_BLACKLIST_INDEX_KEY).await?;
+            if total > 0 {
+                ips = conn
+                    .zrevrange(SCANNER_BLACKLIST_INDEX_KEY, start as isize, end as isize)
+                    .await?;
+            }
+        } else {
+            let chunk_size = 200_i64.max(safe_limit * 5);
+            let mut matched_count = 0_i64;
+            let mut offset = 0_i64;
+
+            loop {
+                let mut conn = self.conn();
+                let chunk: Vec<String> = conn
+                    .zrevrange(
+                        SCANNER_BLACKLIST_INDEX_KEY,
+                        offset as isize,
+                        (offset + chunk_size - 1) as isize,
+                    )
+                    .await?;
+                if chunk.is_empty() {
+                    break;
+                }
+                offset += chunk.len() as i64;
+
+                for ip in chunk {
+                    if !ip.contains(search) {
+                        continue;
+                    }
+                    if matched_count >= start && ips.len() < safe_limit as usize {
+                        ips.push(ip);
+                    }
+                    matched_count += 1;
+                }
+            }
+
+            total = matched_count;
+        }
+
+        let items = self.scanner_blacklist_records_by_ips(&ips).await?;
+        Ok(json!({ "total": total, "items": items }))
+    }
+
+    pub async fn get_scanner_blacklist_record(
+        &self,
+        ip: &str,
+    ) -> crate::storage::StorageResult<Option<Value>> {
+        let mut conn = self.conn();
+        let raw: Option<String> = conn.get(scanner_blacklist_data_key(ip)).await?;
+        Ok(raw.and_then(|value| scanner_blacklist_record_from_raw(ip, &value)))
+    }
+
+    pub async fn scanner_blacklist_exists(&self, ip: &str) -> crate::storage::StorageResult<bool> {
+        let mut conn = self.conn();
+        let exists: i64 = conn.exists(scanner_blacklist_data_key(ip)).await?;
+        Ok(exists == 1)
+    }
+
+    pub async fn record_scanner_suspicious_hit(
+        &self,
+        ip: &str,
+        hit: &Value,
+        now_ms: i64,
+        min_score_ms: i64,
+        window_min_score_ms: i64,
+        ttl_seconds: i64,
+    ) -> crate::storage::StorageResult<i64> {
+        let key = scanner_suspicious_key(ip);
+        let serialized = serde_json::to_string(hit).unwrap_or_else(|_| "{}".to_string());
+        let mut conn = self.conn();
+        let mut pipe = redis::pipe();
+        pipe.zadd(&key, serialized, now_ms).ignore();
+        pipe.zrembyscore(&key, 0, min_score_ms).ignore();
+        pipe.expire(&key, ttl_seconds.max(1)).ignore();
+        let _: () = pipe.query_async(&mut conn).await?;
+        redis::cmd("ZCOUNT")
+            .arg(&key)
+            .arg(window_min_score_ms)
+            .arg("+inf")
+            .query_async(&mut conn)
+            .await
+    }
+
+    pub async fn scanner_suspicious_hits_since(
+        &self,
+        ip: &str,
+        min_score_ms: i64,
+    ) -> crate::storage::StorageResult<Vec<Value>> {
+        let key = scanner_suspicious_key(ip);
+        let mut conn = self.conn();
+        let raws: Vec<String> = redis::cmd("ZRANGEBYSCORE")
+            .arg(&key)
+            .arg(min_score_ms)
+            .arg("+inf")
+            .query_async(&mut conn)
+            .await?;
+        Ok(raws
+            .into_iter()
+            .filter_map(|raw| serde_json::from_str::<Value>(&raw).ok())
+            .collect())
+    }
+
+    pub async fn add_scanner_blacklist_record(
+        &self,
+        ip: &str,
+        record: &Value,
+        blocked_at_ms: i64,
+        ttl_seconds: i64,
+    ) -> crate::storage::StorageResult<()> {
+        let ttl_seconds = ttl_seconds.max(1);
+        let index_min_score = blocked_at_ms - ttl_seconds * 1000;
+        let mut conn = self.conn();
+        let mut pipe = redis::pipe();
+        pipe.set_ex(
+            scanner_blacklist_data_key(ip),
+            serde_json::to_string(record).unwrap_or_else(|_| "{}".to_string()),
+            ttl_seconds as u64,
+        )
+        .ignore();
+        pipe.zadd(SCANNER_BLACKLIST_INDEX_KEY, ip, blocked_at_ms)
+            .ignore();
+        pipe.zrembyscore(SCANNER_BLACKLIST_INDEX_KEY, 0, index_min_score)
+            .ignore();
+        let _: () = pipe.query_async(&mut conn).await?;
+
+        let current_ttl: i64 = conn.ttl(SCANNER_BLACKLIST_INDEX_KEY).await?;
+        if current_ttl == -2 || current_ttl == -1 || current_ttl < ttl_seconds {
+            let _: () = conn
+                .expire(SCANNER_BLACKLIST_INDEX_KEY, ttl_seconds)
+                .await?;
+        }
+        Ok(())
+    }
+
+    pub async fn remove_scanner_blacklist(
+        &self,
+        ips: &[String],
+    ) -> crate::storage::StorageResult<()> {
+        let clean_ips = sanitize_scanner_ips(ips);
+        if clean_ips.is_empty() {
+            return Ok(());
+        }
+
+        let mut conn = self.conn();
+        let mut pipe = redis::pipe();
+        for ip in &clean_ips {
+            pipe.del(scanner_blacklist_data_key(ip)).ignore();
+            pipe.del(scanner_suspicious_key(ip)).ignore();
+        }
+        pipe.zrem(SCANNER_BLACKLIST_INDEX_KEY, clean_ips).ignore();
+        let _: () = pipe.query_async(&mut conn).await?;
+        Ok(())
+    }
+
+    async fn scanner_blacklist_records_by_ips(
+        &self,
+        ips: &[String],
+    ) -> crate::storage::StorageResult<Vec<Value>> {
+        if ips.is_empty() {
+            return Ok(Vec::new());
+        }
+
+        let keys = ips
+            .iter()
+            .map(|ip| scanner_blacklist_data_key(ip))
+            .collect::<Vec<_>>();
+        let mut conn = self.conn();
+        let raws: Vec<Option<String>> = redis::cmd("MGET").arg(keys).query_async(&mut conn).await?;
+        let mut records = Vec::new();
+        let mut stale_ips = Vec::new();
+
+        for (ip, raw) in ips.iter().zip(raws) {
+            let Some(raw) = raw else {
+                stale_ips.push(ip.clone());
+                continue;
+            };
+            match scanner_blacklist_record_from_raw(ip, &raw) {
+                Some(record) => records.push(record),
+                None => stale_ips.push(ip.clone()),
+            }
+        }
+
+        if !stale_ips.is_empty() {
+            let mut pipe = redis::pipe();
+            pipe.zrem(SCANNER_BLACKLIST_INDEX_KEY, stale_ips).ignore();
+            let _: () = pipe.query_async(&mut conn).await?;
+        }
+
+        Ok(records)
+    }
+
+    pub async fn get_ip_location_cache(
+        &self,
+        ip: &str,
+    ) -> crate::storage::StorageResult<Option<Value>> {
+        self.get_json_value(&ip_location_cache_key(ip)).await
+    }
+
+    pub async fn get_ip_location_state(
+        &self,
+        ip: &str,
+    ) -> crate::storage::StorageResult<Option<Value>> {
+        self.get_json_value(&ip_location_state_key(ip)).await
+    }
+
+    /// Cache and pending state in input order, including duplicate IPs.
+    /// The analytics reader filters expired documents without deleting them.
+    pub(crate) async fn get_ip_location_records_analytics(
+        &self,
+        ips: &[String],
+    ) -> crate::storage::StorageResult<Vec<(Option<Value>, Option<Value>)>> {
+        let keys = ips
+            .iter()
+            .flat_map(|ip| [ip_location_cache_key(ip), ip_location_state_key(ip)])
+            .collect();
+        let raw = self.manager.get_live_strings_analytics(keys).await?;
+        let mut values = raw
+            .into_iter()
+            .map(|raw| raw.and_then(|raw| serde_json::from_str(&raw).ok()));
+        Ok((0..ips.len())
+            .map(|_| (values.next().flatten(), values.next().flatten()))
+            .collect())
+    }
+
+    pub async fn set_ip_location_state(
+        &self,
+        ip: &str,
+        state: &Value,
+        ttl_seconds: usize,
+    ) -> crate::storage::StorageResult<()> {
+        self.set_json_value_ex(&ip_location_state_key(ip), state, ttl_seconds)
+            .await
+    }
+
+    pub async fn enqueue_ip_location(
+        &self,
+        ip: &str,
+        state: &Value,
+        next_attempt_at_ms: i64,
+        ttl_seconds: usize,
+    ) -> crate::storage::StorageResult<()> {
+        let mut conn = self.conn();
+        let mut pipe = redis::pipe();
+        pipe.set_ex(
+            ip_location_state_key(ip),
+            serde_json::to_string(state).unwrap_or_else(|_| "{}".to_string()),
+            ttl_seconds.max(1) as u64,
+        )
+        .ignore();
+        pipe.zadd(IP_LOCATION_QUEUE_KEY, ip, next_attempt_at_ms)
+            .ignore();
+        let _: () = pipe.query_async(&mut conn).await?;
+        Ok(())
+    }
+
+    pub async fn due_ip_location_ips(
+        &self,
+        now_ms: i64,
+        limit: usize,
+    ) -> crate::storage::StorageResult<Vec<String>> {
+        let mut conn = self.conn();
+        redis::cmd("ZRANGEBYSCORE")
+            .arg(IP_LOCATION_QUEUE_KEY)
+            .arg(0)
+            .arg(now_ms)
+            .arg("LIMIT")
+            .arg(0)
+            .arg(limit.max(1))
+            .query_async(&mut conn)
+            .await
+    }
+
+    pub async fn next_ip_location_due_at_ms(&self) -> crate::storage::StorageResult<Option<i64>> {
+        let mut conn = self.conn();
+        let values: Vec<(String, f64)> = redis::cmd("ZRANGE")
+            .arg(IP_LOCATION_QUEUE_KEY)
+            .arg(0)
+            .arg(0)
+            .arg("WITHSCORES")
+            .query_async(&mut conn)
+            .await?;
+        Ok(values.first().and_then(|(_, score)| {
+            score
+                .is_finite()
+                .then_some(*score as i64)
+                .filter(|_| score.fract() == 0.0)
+        }))
+    }
+
+    pub async fn acquire_ip_location_lock(
+        &self,
+        ip: &str,
+        owner_token: &str,
+        ttl_seconds: usize,
+    ) -> crate::storage::StorageResult<bool> {
+        let mut conn = self.conn();
+        let result: Option<String> = redis::cmd("SET")
+            .arg(ip_location_lock_key(ip))
+            .arg(owner_token)
+            .arg("EX")
+            .arg(ttl_seconds.max(1))
+            .arg("NX")
+            .query_async(&mut conn)
+            .await?;
+        Ok(result.as_deref() == Some("OK"))
+    }
+
+    pub async fn ip_location_lock_ttl_ms(&self, ip: &str) -> crate::storage::StorageResult<i64> {
+        let mut conn = self.conn();
+        redis::cmd("PTTL")
+            .arg(ip_location_lock_key(ip))
+            .query_async(&mut conn)
+            .await
+    }
+
+    pub async fn release_ip_location_lock(
+        &self,
+        ip: &str,
+        owner_token: &str,
+    ) -> crate::storage::StorageResult<()> {
+        self.delete_key_if_value(&ip_location_lock_key(ip), owner_token)
+            .await
+    }
+
+    pub async fn remove_ip_location_queue_entry(
+        &self,
+        ip: &str,
+    ) -> crate::storage::StorageResult<()> {
+        let mut conn = self.conn();
+        conn.zrem(IP_LOCATION_QUEUE_KEY, ip).await
+    }
+
+    pub async fn complete_ip_location_lookup(
+        &self,
+        ip: &str,
+        result: &Value,
+        state: &Value,
+        ttl_seconds: usize,
+    ) -> crate::storage::StorageResult<()> {
+        let mut conn = self.conn();
+        let mut pipe = redis::pipe();
+        pipe.set_ex(
+            ip_location_cache_key(ip),
+            serde_json::to_string(result).unwrap_or_else(|_| "{}".to_string()),
+            ttl_seconds.max(1) as u64,
+        )
+        .ignore();
+        pipe.set_ex(
+            ip_location_state_key(ip),
+            serde_json::to_string(state).unwrap_or_else(|_| "{}".to_string()),
+            ttl_seconds.max(1) as u64,
+        )
+        .ignore();
+        pipe.zrem(IP_LOCATION_QUEUE_KEY, ip).ignore();
+        let _: () = pipe.query_async(&mut conn).await?;
+        Ok(())
+    }
+
+    pub async fn ip_location_references(
+        &self,
+        ip: &str,
+    ) -> crate::storage::StorageResult<Vec<String>> {
+        let mut conn = self.conn();
+        conn.smembers(ip_location_refs_key(ip)).await
+    }
+
+    pub async fn add_ip_location_references(
+        &self,
+        ip: &str,
+        refs: &[String],
+        ttl_seconds: usize,
+    ) -> crate::storage::StorageResult<()> {
+        if refs.is_empty() {
+            return Ok(());
+        }
+        let key = ip_location_refs_key(ip);
+        let mut conn = self.conn();
+        let mut pipe = redis::pipe();
+        pipe.sadd(&key, refs).ignore();
+        pipe.ttl(&key);
+        let values: Vec<i64> = pipe.query_async(&mut conn).await?;
+        let ttl = values.into_iter().next().unwrap_or_default();
+        if ttl == -1 || ttl > ttl_seconds as i64 {
+            let _: () = conn.expire(key, ttl_seconds.max(1) as i64).await?;
+        }
+        Ok(())
+    }
+
+    pub async fn remove_ip_location_references(
+        &self,
+        ip: &str,
+        refs: &[String],
+    ) -> crate::storage::StorageResult<()> {
+        if refs.is_empty() {
+            return Ok(());
+        }
+        let mut conn = self.conn();
+        conn.srem(ip_location_refs_key(ip), refs).await
+    }
+
+    pub async fn record_recent_auth_ip(
+        &self,
+        ip: &str,
+        now: i64,
+    ) -> crate::storage::StorageResult<()> {
+        let expire_at = now + RECENT_AUTH_IPS_TTL_SECONDS;
+        let mut conn = self.conn();
+        let expired_ips: Vec<String> = redis::cmd("ZRANGEBYSCORE")
+            .arg(RECENT_AUTH_IPS_ZSET_KEY)
+            .arg(0)
+            .arg(now)
+            .query_async(&mut conn)
+            .await?;
+        let raw_detail: Option<String> = conn.hget(RECENT_AUTH_IPS_DETAILS_KEY, ip).await?;
+        let detail = raw_detail
+            .and_then(|raw| serde_json::from_str::<Value>(&raw).ok())
+            .unwrap_or_else(|| json!({}));
+        let first_seen_at = detail
+            .get("firstSeenAt")
+            .and_then(Value::as_i64)
+            .unwrap_or(now);
+        let seen_count = detail
+            .get("seenCount")
+            .and_then(Value::as_i64)
+            .unwrap_or_default()
+            .max(0)
+            + 1;
+        let next_detail = json!({
+            "firstSeenAt": first_seen_at,
+            "lastSeenAt": now,
+            "seenCount": seen_count.max(1),
+        });
+        let mut pipe = redis::pipe();
+        pipe.zadd(RECENT_AUTH_IPS_ZSET_KEY, ip, expire_at).ignore();
+        pipe.zrembyscore(RECENT_AUTH_IPS_ZSET_KEY, 0, now).ignore();
+        pipe.hset(
+            RECENT_AUTH_IPS_DETAILS_KEY,
+            ip,
+            serde_json::to_string(&next_detail).unwrap_or_else(|_| "{}".to_string()),
+        )
+        .ignore();
+        let expired_ips = expired_ips
+            .into_iter()
+            .filter(|expired_ip| expired_ip != ip)
+            .collect::<Vec<_>>();
+        if !expired_ips.is_empty() {
+            pipe.hdel(RECENT_AUTH_IPS_DETAILS_KEY, expired_ips).ignore();
+        }
+        let _: () = pipe.query_async(&mut conn).await?;
+        Ok(())
+    }
+
+    pub async fn is_recent_auth_ip_active(
+        &self,
+        ip: &str,
+        now: i64,
+    ) -> crate::storage::StorageResult<bool> {
+        let mut conn = self.conn();
+        let score: Option<i64> = conn.zscore(RECENT_AUTH_IPS_ZSET_KEY, ip).await.ok();
+        Ok(score.is_some_and(|expires_at| expires_at > now))
+    }
+
+    pub async fn list_recent_auth_ips_with_scores(
+        &self,
+        now: i64,
+        limit: usize,
+    ) -> crate::storage::StorageResult<Vec<Value>> {
+        let mut conn = self.conn();
+        let raw: Vec<String> = redis::cmd("ZREVRANGEBYSCORE")
+            .arg(RECENT_AUTH_IPS_ZSET_KEY)
+            .arg("+inf")
+            .arg(now + 1)
+            .arg("WITHSCORES")
+            .arg("LIMIT")
+            .arg(0)
+            .arg(limit.max(1))
+            .query_async(&mut conn)
+            .await?;
+        let mut entries = Vec::new();
+        let mut seen = BTreeSet::new();
+        for pair in raw.chunks(2) {
+            let Some(ip) = pair.first().map(String::as_str) else {
+                continue;
+            };
+            let expires_at = pair
+                .get(1)
+                .and_then(|value| value.parse::<i64>().ok())
+                .unwrap_or_default();
+            if ip.trim().is_empty() || expires_at <= now || !seen.insert(ip.to_string()) {
+                continue;
+            }
+            entries.push((ip.to_string(), expires_at));
+        }
+        if entries.is_empty() {
+            return Ok(Vec::new());
+        }
+        let detail_values: Vec<Option<String>> = redis::cmd("HMGET")
+            .arg(RECENT_AUTH_IPS_DETAILS_KEY)
+            .arg(entries.iter().map(|(ip, _)| ip).collect::<Vec<_>>())
+            .query_async(&mut conn)
+            .await?;
+        Ok(entries
+            .into_iter()
+            .zip(detail_values)
+            .map(|((ip, expires_at), raw_detail)| {
+                let detail = raw_detail
+                    .and_then(|raw| serde_json::from_str::<Value>(&raw).ok())
+                    .unwrap_or_else(|| json!({}));
+                let fallback_last_seen_at = (expires_at - RECENT_AUTH_IPS_TTL_SECONDS).max(0);
+                let last_seen_at = detail
+                    .get("lastSeenAt")
+                    .and_then(Value::as_i64)
+                    .unwrap_or(fallback_last_seen_at);
+                json!({
+                    "ip": ip,
+                    "expiresAt": expires_at,
+                    "lastSeenAt": last_seen_at,
+                    "firstSeenAt": detail
+                        .get("firstSeenAt")
+                        .and_then(Value::as_i64)
+                        .unwrap_or(last_seen_at),
+                    "seenCount": detail
+                        .get("seenCount")
+                        .and_then(Value::as_i64)
+                        .unwrap_or(1)
+                        .max(1),
+                })
+            })
+            .collect())
+    }
+
+    pub async fn get_json_value_with_ttl(
+        &self,
+        key: &str,
+    ) -> crate::storage::StorageResult<(Option<Value>, i64)> {
+        let mut conn = self.conn();
+        let raw: Option<String> = conn.get(key).await?;
+        let ttl: i64 = conn.ttl(key).await?;
+        Ok((raw.and_then(|value| serde_json::from_str(&value).ok()), ttl))
+    }
+
+    pub async fn set_json_value_preserve_ttl(
+        &self,
+        key: &str,
+        value: &Value,
+        ttl: i64,
+    ) -> crate::storage::StorageResult<()> {
+        let serialized = serde_json::to_string(value).unwrap_or_else(|_| "{}".to_string());
+        let mut conn = self.conn();
+        if ttl > 0 {
+            let _: () = conn.set_ex(key, serialized, ttl as u64).await?;
+        } else if ttl == -1 {
+            let _: () = conn.set(key, serialized).await?;
+        } else {
+            let _: () = conn.del(key).await?;
+        }
+        Ok(())
+    }
+
+    pub async fn hget_json_value(
+        &self,
+        key: &str,
+        field: &str,
+    ) -> crate::storage::StorageResult<Option<Value>> {
+        let mut conn = self.conn();
+        let raw: Option<String> = conn.hget(key, field).await?;
+        Ok(raw.and_then(|value| serde_json::from_str(&value).ok()))
+    }
+
+    pub async fn hset_json_value(
+        &self,
+        key: &str,
+        field: &str,
+        value: &Value,
+    ) -> crate::storage::StorageResult<()> {
+        let mut conn = self.conn();
+        conn.hset(
+            key,
+            field,
+            serde_json::to_string(value).unwrap_or_else(|_| "{}".to_string()),
+        )
+        .await
+    }
+}

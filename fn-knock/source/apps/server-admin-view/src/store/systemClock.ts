@@ -1,1 +1,160 @@
-aW1wb3J0IHsgZGVmaW5lU3RvcmUgfSBmcm9tICJwaW5pYSI7CmltcG9ydCB7IGNvbXB1dGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyBleHRyYWN0RXJyb3JNZXNzYWdlIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7IGJyb3dzZXJUIH0gZnJvbSAiQGZuLWtub2NrL2kxOG4vdnVlL2FkbWluIjsKaW1wb3J0IHsgU3lzdGVtQVBJLCB0eXBlIFN5c3RlbUNsb2NrU3RhdHVzIH0gZnJvbSAiQC9saWIvYXBpL3N5c3RlbSI7CmltcG9ydCB7IGNyZWF0ZVBvbGxpbmdMaWZlY3ljbGUgfSBmcm9tICJAL2xpYi9wb2xsaW5nTGlmZWN5Y2xlIjsKCmNvbnN0IFBPTExfSEVBTFRIWV9NUyA9IDEwICogNjAgKiAxMDAwOwpjb25zdCBQT0xMX0FUVEVOVElPTl9NUyA9IDMwICogMTAwMDsKCmV4cG9ydCBjb25zdCB1c2VTeXN0ZW1DbG9ja1N0b3JlID0gZGVmaW5lU3RvcmUoInN5c3RlbS1jbG9jayIsICgpID0+IHsKICBjb25zdCBzdGF0dXMgPSByZWY8U3lzdGVtQ2xvY2tTdGF0dXMgfCBudWxsPihudWxsKTsKICBjb25zdCBpc0xvYWRpbmcgPSByZWYoZmFsc2UpOwogIGNvbnN0IGlzUmVmcmVzaGluZ0xvY2FsID0gcmVmKGZhbHNlKTsKICBjb25zdCBpc1N5bmNpbmdMb2NhbCA9IHJlZihmYWxzZSk7CiAgbGV0IHBvbGxUaW1lcjogbnVtYmVyIHwgbnVsbCA9IG51bGw7CiAgbGV0IHBvbGxpbmdTdGFydGVkID0gZmFsc2U7CgogIGNvbnN0IHNob3VsZFNob3dCYW5uZXIgPSBjb21wdXRlZCgKICAgICgpID0+IHN0YXR1cy52YWx1ZT8ubmVlZHNBdHRlbnRpb24gPT09IHRydWUsCiAgKTsKICBjb25zdCBpc1JlZnJlc2hpbmcgPSBjb21wdXRlZCgKICAgICgpID0+IGlzUmVmcmVzaGluZ0xvY2FsLnZhbHVlIHx8IHN0YXR1cy52YWx1ZT8uY2hlY2tpbmcgPT09IHRydWUsCiAgKTsKICBjb25zdCBpc1N5bmNpbmcgPSBjb21wdXRlZCgKICAgICgpID0+IGlzU3luY2luZ0xvY2FsLnZhbHVlIHx8IHN0YXR1cy52YWx1ZT8uc3luY0luUHJvZ3Jlc3MgPT09IHRydWUsCiAgKTsKCiAgY29uc3QgY2xlYXJUaW1lciA9ICgpID0+IHsKICAgIGlmIChwb2xsVGltZXIgIT09IG51bGwpIHsKICAgICAgd2luZG93LmNsZWFyVGltZW91dChwb2xsVGltZXIpOwogICAgICBwb2xsVGltZXIgPSBudWxsOwogICAgfQogIH07CgogIGNvbnN0IHNjaGVkdWxlUG9sbCA9ICgpID0+IHsKICAgIGNsZWFyVGltZXIoKTsKICAgIGlmICghcG9sbGluZ1N0YXJ0ZWQpIHJldHVybjsKCiAgICBjb25zdCBkZWxheSA9IHN0YXR1cy52YWx1ZT8ubmVlZHNBdHRlbnRpb24KICAgICAgPyBQT0xMX0FUVEVOVElPTl9NUwogICAgICA6IFBPTExfSEVBTFRIWV9NUzsKCiAgICBwb2xsVGltZXIgPSB3aW5kb3cuc2V0VGltZW91dChhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IGN1cnJlbnQgPSBhd2FpdCBsb2FkU3RhdHVzKHRydWUpOwogICAgICBpZiAoIWN1cnJlbnQ/LmNoZWNrZWRBdCB8fCBjdXJyZW50Lmxhc3RDaGVja0Vycm9yKSB7CiAgICAgICAgYXdhaXQgcmVmcmVzaChmYWxzZSk7CiAgICAgIH0KICAgICAgc2NoZWR1bGVQb2xsKCk7CiAgICB9LCBkZWxheSk7CiAgfTsKCiAgYXN5bmMgZnVuY3Rpb24gbG9hZFN0YXR1cyhzaWxlbnQgPSBmYWxzZSkgewogICAgaWYgKCFzaWxlbnQpIGlzTG9hZGluZy52YWx1ZSA9IHRydWU7CiAgICB0cnkgewogICAgICBzdGF0dXMudmFsdWUgPSBhd2FpdCBTeXN0ZW1BUEkuZ2V0Q2xvY2tTdGF0dXMoKTsKICAgICAgcmV0dXJuIHN0YXR1cy52YWx1ZTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGlmICghc2lsZW50KSB7CiAgICAgICAgdG9hc3QuZXJyb3IoYnJvd3NlclQoImFkbWluLnN5c3RlbUNsb2NrLmxvYWRGYWlsZWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoZXJyb3IsIGJyb3dzZXJUKCJjb21tb24udHJ5TGF0ZXIiKSksCiAgICAgICAgfSk7CiAgICAgIH0KICAgICAgcmV0dXJuIG51bGw7CiAgICB9IGZpbmFsbHkgewogICAgICBpZiAoIXNpbGVudCkgaXNMb2FkaW5nLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiByZWZyZXNoKHNob3dUb2FzdCA9IHRydWUpIHsKICAgIGlmIChpc1JlZnJlc2hpbmdMb2NhbC52YWx1ZSkgcmV0dXJuIGZhbHNlOwoKICAgIGlzUmVmcmVzaGluZ0xvY2FsLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIHN0YXR1cy52YWx1ZSA9IGF3YWl0IFN5c3RlbUFQSS5yZWZyZXNoQ2xvY2tTdGF0dXMoKTsKICAgICAgaWYgKHNob3dUb2FzdCkgewogICAgICAgIGlmIChzdGF0dXMudmFsdWUubmVlZHNBdHRlbnRpb24pIHsKICAgICAgICAgIHRvYXN0LmVycm9yKGJyb3dzZXJUKCJhZG1pbi5zeXN0ZW1DbG9jay5zdGlsbEFibm9ybWFsIikpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICB0b2FzdC5zdWNjZXNzKGJyb3dzZXJUKCJhZG1pbi5zeXN0ZW1DbG9jay5yZWNvdmVyZWQiKSk7CiAgICAgICAgfQogICAgICB9CiAgICAgIHJldHVybiB0cnVlOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgaWYgKHNob3dUb2FzdCkgewogICAgICAgIHRvYXN0LmVycm9yKGJyb3dzZXJUKCJhZG1pbi5zeXN0ZW1DbG9jay5yZWZyZXNoRmFpbGVkIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCBicm93c2VyVCgiY29tbW9uLnRyeUxhdGVyIikpLAogICAgICAgIH0pOwogICAgICB9CiAgICAgIHJldHVybiBmYWxzZTsKICAgIH0gZmluYWxseSB7CiAgICAgIGlzUmVmcmVzaGluZ0xvY2FsLnZhbHVlID0gZmFsc2U7CiAgICAgIHNjaGVkdWxlUG9sbCgpOwogICAgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gc3luYygpIHsKICAgIGlmIChpc1N5bmNpbmdMb2NhbC52YWx1ZSkgcmV0dXJuIGZhbHNlOwoKICAgIGlzU3luY2luZ0xvY2FsLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IFN5c3RlbUFQSS5zeW5jQ2xvY2soKTsKICAgICAgc3RhdHVzLnZhbHVlID0gcmVzdWx0LmRhdGE7CiAgICAgIHRvYXN0LnN1Y2Nlc3MocmVzdWx0Lm1lc3NhZ2UpOwogICAgICBpZiAoc3RhdHVzLnZhbHVlLm5lZWRzQXR0ZW50aW9uKSB7CiAgICAgICAgdG9hc3QuZXJyb3IoYnJvd3NlclQoImFkbWluLnN5c3RlbUNsb2NrLnN0aWxsTmVlZHNSZWZyZXNoIikpOwogICAgICB9CiAgICAgIHJldHVybiB0cnVlOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdG9hc3QuZXJyb3IoYnJvd3NlclQoImFkbWluLnN5c3RlbUNsb2NrLnN5bmNGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCBicm93c2VyVCgiY29tbW9uLnRyeUxhdGVyIikpLAogICAgICB9KTsKICAgICAgcmV0dXJuIGZhbHNlOwogICAgfSBmaW5hbGx5IHsKICAgICAgaXNTeW5jaW5nTG9jYWwudmFsdWUgPSBmYWxzZTsKICAgICAgc2NoZWR1bGVQb2xsKCk7CiAgICB9CiAgfQoKICBjb25zdCBwb2xsaW5nTGlmZWN5Y2xlID0gY3JlYXRlUG9sbGluZ0xpZmVjeWNsZSh7CiAgICBpbml0aWFsaXplOiBhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IGN1cnJlbnQgPSBhd2FpdCBsb2FkU3RhdHVzKHRydWUpOwogICAgICBpZiAoIWN1cnJlbnQ/LmNoZWNrZWRBdCB8fCBjdXJyZW50Lmxhc3RDaGVja0Vycm9yKSB7CiAgICAgICAgYXdhaXQgcmVmcmVzaChmYWxzZSk7CiAgICAgIH0KICAgIH0sCiAgICBzdGFydDogc3RhcnRQb2xsaW5nLAogIH0pOwoKICBhc3luYyBmdW5jdGlvbiBpbml0aWFsaXplKCkgewogICAgYXdhaXQgcG9sbGluZ0xpZmVjeWNsZS5hY3RpdmF0ZSgpOwogIH0KCiAgZnVuY3Rpb24gc3RhcnRQb2xsaW5nKCkgewogICAgaWYgKHBvbGxpbmdTdGFydGVkKSByZXR1cm47CiAgICBwb2xsaW5nU3RhcnRlZCA9IHRydWU7CiAgICBzY2hlZHVsZVBvbGwoKTsKICB9CgogIGZ1bmN0aW9uIHN0b3BQb2xsaW5nKCkgewogICAgcG9sbGluZ0xpZmVjeWNsZS5kZWFjdGl2YXRlKCk7CiAgICBwb2xsaW5nU3RhcnRlZCA9IGZhbHNlOwogICAgY2xlYXJUaW1lcigpOwogIH0KCiAgcmV0dXJuIHsKICAgIHN0YXR1cywKICAgIGlzTG9hZGluZywKICAgIGlzUmVmcmVzaGluZywKICAgIGlzU3luY2luZywKICAgIHNob3VsZFNob3dCYW5uZXIsCiAgICBsb2FkU3RhdHVzLAogICAgcmVmcmVzaCwKICAgIHN5bmMsCiAgICBpbml0aWFsaXplLAogICAgc3RhcnRQb2xsaW5nLAogICAgc3RvcFBvbGxpbmcsCiAgfTsKfSk7Cg==
+import { defineStore } from "pinia";
+import { computed, ref } from "vue";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import { browserT } from "@fn-knock/i18n/vue/admin";
+import { SystemAPI, type SystemClockStatus } from "@/lib/api/system";
+import { createPollingLifecycle } from "@/lib/pollingLifecycle";
+
+const POLL_HEALTHY_MS = 10 * 60 * 1000;
+const POLL_ATTENTION_MS = 30 * 1000;
+
+export const useSystemClockStore = defineStore("system-clock", () => {
+  const status = ref<SystemClockStatus | null>(null);
+  const isLoading = ref(false);
+  const isRefreshingLocal = ref(false);
+  const isSyncingLocal = ref(false);
+  let pollTimer: number | null = null;
+  let pollingStarted = false;
+
+  const shouldShowBanner = computed(
+    () => status.value?.needsAttention === true,
+  );
+  const isRefreshing = computed(
+    () => isRefreshingLocal.value || status.value?.checking === true,
+  );
+  const isSyncing = computed(
+    () => isSyncingLocal.value || status.value?.syncInProgress === true,
+  );
+
+  const clearTimer = () => {
+    if (pollTimer !== null) {
+      window.clearTimeout(pollTimer);
+      pollTimer = null;
+    }
+  };
+
+  const schedulePoll = () => {
+    clearTimer();
+    if (!pollingStarted) return;
+
+    const delay = status.value?.needsAttention
+      ? POLL_ATTENTION_MS
+      : POLL_HEALTHY_MS;
+
+    pollTimer = window.setTimeout(async () => {
+      const current = await loadStatus(true);
+      if (!current?.checkedAt || current.lastCheckError) {
+        await refresh(false);
+      }
+      schedulePoll();
+    }, delay);
+  };
+
+  async function loadStatus(silent = false) {
+    if (!silent) isLoading.value = true;
+    try {
+      status.value = await SystemAPI.getClockStatus();
+      return status.value;
+    } catch (error) {
+      if (!silent) {
+        toast.error(browserT("admin.systemClock.loadFailed"), {
+          description: extractErrorMessage(error, browserT("common.tryLater")),
+        });
+      }
+      return null;
+    } finally {
+      if (!silent) isLoading.value = false;
+    }
+  }
+
+  async function refresh(showToast = true) {
+    if (isRefreshingLocal.value) return false;
+
+    isRefreshingLocal.value = true;
+    try {
+      status.value = await SystemAPI.refreshClockStatus();
+      if (showToast) {
+        if (status.value.needsAttention) {
+          toast.error(browserT("admin.systemClock.stillAbnormal"));
+        } else {
+          toast.success(browserT("admin.systemClock.recovered"));
+        }
+      }
+      return true;
+    } catch (error) {
+      if (showToast) {
+        toast.error(browserT("admin.systemClock.refreshFailed"), {
+          description: extractErrorMessage(error, browserT("common.tryLater")),
+        });
+      }
+      return false;
+    } finally {
+      isRefreshingLocal.value = false;
+      schedulePoll();
+    }
+  }
+
+  async function sync() {
+    if (isSyncingLocal.value) return false;
+
+    isSyncingLocal.value = true;
+    try {
+      const result = await SystemAPI.syncClock();
+      status.value = result.data;
+      toast.success(result.message);
+      if (status.value.needsAttention) {
+        toast.error(browserT("admin.systemClock.stillNeedsRefresh"));
+      }
+      return true;
+    } catch (error) {
+      toast.error(browserT("admin.systemClock.syncFailed"), {
+        description: extractErrorMessage(error, browserT("common.tryLater")),
+      });
+      return false;
+    } finally {
+      isSyncingLocal.value = false;
+      schedulePoll();
+    }
+  }
+
+  const pollingLifecycle = createPollingLifecycle({
+    initialize: async () => {
+      const current = await loadStatus(true);
+      if (!current?.checkedAt || current.lastCheckError) {
+        await refresh(false);
+      }
+    },
+    start: startPolling,
+  });
+
+  async function initialize() {
+    await pollingLifecycle.activate();
+  }
+
+  function startPolling() {
+    if (pollingStarted) return;
+    pollingStarted = true;
+    schedulePoll();
+  }
+
+  function stopPolling() {
+    pollingLifecycle.deactivate();
+    pollingStarted = false;
+    clearTimer();
+  }
+
+  return {
+    status,
+    isLoading,
+    isRefreshing,
+    isSyncing,
+    shouldShowBanner,
+    loadStatus,
+    refresh,
+    sync,
+    initialize,
+    startPolling,
+    stopPolling,
+  };
+});

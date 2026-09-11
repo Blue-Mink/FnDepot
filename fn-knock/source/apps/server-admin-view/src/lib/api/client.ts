@@ -1,1 +1,82 @@
-aW1wb3J0IHsgY3JlYXRlQXBpQ2xpZW50IH0gZnJvbSAiQGZyb250ZW5kLWNvcmUvYXBpL2NyZWF0ZUFwaUNsaWVudCI7CmltcG9ydCB7IGJyb3dzZXJUIH0gZnJvbSAiQGZuLWtub2NrL2kxOG4vdnVlL2FkbWluIjsKaW1wb3J0IHsgaXNEb2NrZXJBZG1pbkF1dGhSZXF1aXJlZFJlc3BvbnNlIH0gZnJvbSAiLi4vZG9ja2VyLWFkbWluLWF1dGgtcmVzcG9uc2UiOwppbXBvcnQgeyBjcmVhdGVHYXRld2F5QXV0aFJlY292ZXJ5IH0gZnJvbSAiLi4vZ2F0ZXdheS1hdXRoLXJlY292ZXJ5IjsKaW1wb3J0IHsgaXNTeW5vbG9neUNnaUFwaVBhdGggfSBmcm9tICIuL3N5bm9sb2d5LWNnaSI7CgpleHBvcnQgY29uc3QgcmVzb2x2ZUFwcFJlbGF0aXZlUGF0aEZyb21VcmwgPSAoCiAgcmVsYXRpdmVQYXRoOiBzdHJpbmcsCiAgZG9jdW1lbnRVcmw6IHN0cmluZywKKSA9PiBuZXcgVVJMKHJlbGF0aXZlUGF0aCwgZG9jdW1lbnRVcmwpLnBhdGhuYW1lOwoKZXhwb3J0IGNvbnN0IHJlc29sdmVBcHBSZWxhdGl2ZVBhdGggPSAocmVsYXRpdmVQYXRoOiBzdHJpbmcpID0+IHsKICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHJldHVybiByZWxhdGl2ZVBhdGg7CiAgcmV0dXJuIHJlc29sdmVBcHBSZWxhdGl2ZVBhdGhGcm9tVXJsKAogICAgcmVsYXRpdmVQYXRoLAogICAgdHlwZW9mIGRvY3VtZW50ID09PSAidW5kZWZpbmVkIiA/IHdpbmRvdy5sb2NhdGlvbi5ocmVmIDogZG9jdW1lbnQuYmFzZVVSSSwKICApOwp9OwoKZXhwb3J0IGNvbnN0IGFkbWluQXBpQmFzZVBhdGggPSByZXNvbHZlQXBwUmVsYXRpdmVQYXRoKCIuL2FwaS9hZG1pbiIpOwoKZXhwb3J0IGNvbnN0IGFwaUNsaWVudCA9IGNyZWF0ZUFwaUNsaWVudCh7CiAgYmFzZVVSTDogYWRtaW5BcGlCYXNlUGF0aCwKICBpbnZhbGlkUmVzcG9uc2VNZXNzYWdlOiAoKSA9PiBicm93c2VyVCgiY29tbW9uLmludmFsaWRBcGlSZXNwb25zZSIpLAogIHdpdGhDcmVkZW50aWFsczogdHJ1ZSwKfSk7Cgpjb25zdCBpc1N5bm9sb2d5Q2dpQXBpID0gaXNTeW5vbG9neUNnaUFwaVBhdGgoYWRtaW5BcGlCYXNlUGF0aCk7CmNvbnN0IGNnaU1ldGhvZE92ZXJyaWRlcyA9IG5ldyBTZXQoWyJwdXQiLCAicGF0Y2giLCAiZGVsZXRlIl0pOwpjb25zdCBnYXRld2F5QXV0aFJlY292ZXJ5ID0KICB0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIgogICAgPyBudWxsCiAgICA6IGNyZWF0ZUdhdGV3YXlBdXRoUmVjb3ZlcnkoewogICAgICAgIGZldGNoSW1wbDogd2luZG93LmZldGNoLmJpbmQod2luZG93KSwKICAgICAgICBsb2NhdGlvbjogd2luZG93LmxvY2F0aW9uLAogICAgICAgIG5hdmlnYXRpb25UYXJnZXQ6IHdpbmRvdywKICAgICAgfSk7CgphcGlDbGllbnQuaW50ZXJjZXB0b3JzLnJlcXVlc3QudXNlKChjb25maWcpID0+IHsKICBjb25zdCBtZXRob2QgPSBjb25maWcubWV0aG9kPy50b0xvd2VyQ2FzZSgpOwogIGlmIChtZXRob2QgPT09ICJnZXQiIHx8IG1ldGhvZCA9PT0gImhlYWQiKSB7CiAgICBjb25maWcuaGVhZGVycy5zZXQoIkNhY2hlLUNvbnRyb2wiLCAibm8tY2FjaGUiKTsKICAgIGNvbmZpZy5oZWFkZXJzLnNldCgiUHJhZ21hIiwgIm5vLWNhY2hlIik7CiAgfQogIGlmIChpc1N5bm9sb2d5Q2dpQXBpICYmIG1ldGhvZCAmJiBjZ2lNZXRob2RPdmVycmlkZXMuaGFzKG1ldGhvZCkpIHsKICAgIGNvbmZpZy5oZWFkZXJzLnNldCgiWC1IVFRQLU1ldGhvZC1PdmVycmlkZSIsIG1ldGhvZC50b1VwcGVyQ2FzZSgpKTsKICAgIGNvbmZpZy5tZXRob2QgPSAicG9zdCI7CiAgfQogIHJldHVybiBjb25maWc7Cn0pOwoKYXBpQ2xpZW50LmludGVyY2VwdG9ycy5yZXNwb25zZS51c2UoCiAgKHJlc3BvbnNlKSA9PiByZXNwb25zZSwKICBhc3luYyAoZXJyb3IpID0+IHsKICAgIGNvbnN0IHRlcm1pbmFsQ29kZSA9IGVycm9yPy5yZXNwb25zZT8uZGF0YT8uZXJyb3JDb2RlOwogICAgaWYgKHRlcm1pbmFsQ29kZSA9PT0gImZlYXR1cmVfZGlzYWJsZWQiKSB7CiAgICAgIGlmICh0eXBlb2Ygd2luZG93ICE9PSAidW5kZWZpbmVkIikgewogICAgICAgIHdpbmRvdy5kaXNwYXRjaEV2ZW50KAogICAgICAgICAgbmV3IEN1c3RvbUV2ZW50KCJmbi1rbm9jazp0ZXJtaW5hbC1hY2Nlc3MtY2hhbmdlZCIpLAogICAgICAgICk7CiAgICAgIH0KICAgICAgcmV0dXJuIFByb21pc2UucmVqZWN0KGVycm9yKTsKICAgIH0KICAgIGlmICgKICAgICAgdHlwZW9mIHdpbmRvdyAhPT0gInVuZGVmaW5lZCIgJiYKICAgICAgaXNEb2NrZXJBZG1pbkF1dGhSZXF1aXJlZFJlc3BvbnNlKGVycm9yKQogICAgKSB7CiAgICAgIHdpbmRvdy5kaXNwYXRjaEV2ZW50KAogICAgICAgIG5ldyBDdXN0b21FdmVudCgiZm4ta25vY2s6ZG9ja2VyLWFkbWluLWF1dGgtcmVxdWlyZWQiKSwKICAgICAgKTsKICAgICAgcmV0dXJuIFByb21pc2UucmVqZWN0KGVycm9yKTsKICAgIH0KCiAgICBpZiAoZ2F0ZXdheUF1dGhSZWNvdmVyeSAmJiAoYXdhaXQgZ2F0ZXdheUF1dGhSZWNvdmVyeS5yZWNvdmVyKGVycm9yKSkpIHsKICAgICAgLy8gS2VlcCBjYWxsZXJzIHBlbmRpbmcgd2hpbGUgdGhlIGRvY3VtZW50IG5hdmlnYXRlcyBzbyBmZWF0dXJlLWxldmVsCiAgICAgIC8vIGVycm9yIGhhbmRsZXJzIGRvIG5vdCByZW5kZXIgYSB0cmFuc2llbnQgTmV0d29yayBFcnJvciBub3RpZmljYXRpb24uCiAgICAgIHJldHVybiBuZXcgUHJvbWlzZTxuZXZlcj4oKCkgPT4gdW5kZWZpbmVkKTsKICAgIH0KCiAgICByZXR1cm4gUHJvbWlzZS5yZWplY3QoZXJyb3IpOwogIH0sCik7Cg==
+import { createApiClient } from "@frontend-core/api/createApiClient";
+import { browserT } from "@fn-knock/i18n/vue/admin";
+import { isDockerAdminAuthRequiredResponse } from "../docker-admin-auth-response";
+import { createGatewayAuthRecovery } from "../gateway-auth-recovery";
+import { isSynologyCgiApiPath } from "./synology-cgi";
+
+export const resolveAppRelativePathFromUrl = (
+  relativePath: string,
+  documentUrl: string,
+) => new URL(relativePath, documentUrl).pathname;
+
+export const resolveAppRelativePath = (relativePath: string) => {
+  if (typeof window === "undefined") return relativePath;
+  return resolveAppRelativePathFromUrl(
+    relativePath,
+    typeof document === "undefined" ? window.location.href : document.baseURI,
+  );
+};
+
+export const adminApiBasePath = resolveAppRelativePath("./api/admin");
+
+export const apiClient = createApiClient({
+  baseURL: adminApiBasePath,
+  invalidResponseMessage: () => browserT("common.invalidApiResponse"),
+  withCredentials: true,
+});
+
+const isSynologyCgiApi = isSynologyCgiApiPath(adminApiBasePath);
+const cgiMethodOverrides = new Set(["put", "patch", "delete"]);
+const gatewayAuthRecovery =
+  typeof window === "undefined"
+    ? null
+    : createGatewayAuthRecovery({
+        fetchImpl: window.fetch.bind(window),
+        location: window.location,
+        navigationTarget: window,
+      });
+
+apiClient.interceptors.request.use((config) => {
+  const method = config.method?.toLowerCase();
+  if (method === "get" || method === "head") {
+    config.headers.set("Cache-Control", "no-cache");
+    config.headers.set("Pragma", "no-cache");
+  }
+  if (isSynologyCgiApi && method && cgiMethodOverrides.has(method)) {
+    config.headers.set("X-HTTP-Method-Override", method.toUpperCase());
+    config.method = "post";
+  }
+  return config;
+});
+
+apiClient.interceptors.response.use(
+  (response) => response,
+  async (error) => {
+    const terminalCode = error?.response?.data?.errorCode;
+    if (terminalCode === "feature_disabled") {
+      if (typeof window !== "undefined") {
+        window.dispatchEvent(
+          new CustomEvent("fn-knock:terminal-access-changed"),
+        );
+      }
+      return Promise.reject(error);
+    }
+    if (
+      typeof window !== "undefined" &&
+      isDockerAdminAuthRequiredResponse(error)
+    ) {
+      window.dispatchEvent(
+        new CustomEvent("fn-knock:docker-admin-auth-required"),
+      );
+      return Promise.reject(error);
+    }
+
+    if (gatewayAuthRecovery && (await gatewayAuthRecovery.recover(error))) {
+      // Keep callers pending while the document navigates so feature-level
+      // error handlers do not render a transient Network Error notification.
+      return new Promise<never>(() => undefined);
+    }
+
+    return Promise.reject(error);
+  },
+);

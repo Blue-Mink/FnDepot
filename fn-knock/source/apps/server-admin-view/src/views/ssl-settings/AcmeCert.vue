@@ -1,1 +1,16 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBBY21lQ2VydGlmaWNhdGVBcHBsaWNhdGlvbnNUYWJsZSBmcm9tICIuL0FjbWVDZXJ0aWZpY2F0ZUFwcGxpY2F0aW9uc1RhYmxlLnZ1ZSI7CmltcG9ydCBBY21lQ2VydGlmaWNhdGVIZWFkZXIgZnJvbSAiLi9BY21lQ2VydGlmaWNhdGVIZWFkZXIudnVlIjsKaW1wb3J0IEFjbWVDZXJ0aWZpY2F0ZVdvcmtmbG93UGFuZWxzIGZyb20gIi4vQWNtZUNlcnRpZmljYXRlV29ya2Zsb3dQYW5lbHMudnVlIjsKaW1wb3J0IHsgdXNlQWNtZUNlcnRpZmljYXRlQ29udHJvbGxlciB9IGZyb20gIi4vdXNlQWNtZUNlcnRpZmljYXRlQ29udHJvbGxlciI7Cgpjb25zdCBjb250cm9sbGVyID0gdXNlQWNtZUNlcnRpZmljYXRlQ29udHJvbGxlcigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJncmlkIGdhcC00Ij4KICAgIDxBY21lQ2VydGlmaWNhdGVIZWFkZXIgOmNvbnRyb2xsZXI9ImNvbnRyb2xsZXIiIC8+CiAgICA8QWNtZUNlcnRpZmljYXRlQXBwbGljYXRpb25zVGFibGUgOmNvbnRyb2xsZXI9ImNvbnRyb2xsZXIiIC8+CiAgICA8QWNtZUNlcnRpZmljYXRlV29ya2Zsb3dQYW5lbHMgOmNvbnRyb2xsZXI9ImNvbnRyb2xsZXIiIC8+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import AcmeCertificateApplicationsTable from "./AcmeCertificateApplicationsTable.vue";
+import AcmeCertificateHeader from "./AcmeCertificateHeader.vue";
+import AcmeCertificateWorkflowPanels from "./AcmeCertificateWorkflowPanels.vue";
+import { useAcmeCertificateController } from "./useAcmeCertificateController";
+
+const controller = useAcmeCertificateController();
+</script>
+
+<template>
+  <div class="grid gap-4">
+    <AcmeCertificateHeader :controller="controller" />
+    <AcmeCertificateApplicationsTable :controller="controller" />
+    <AcmeCertificateWorkflowPanels :controller="controller" />
+  </div>
+</template>

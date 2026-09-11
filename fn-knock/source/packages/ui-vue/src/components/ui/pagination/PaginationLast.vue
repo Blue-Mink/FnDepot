@@ -1,1 +1,36 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUGFnaW5hdGlvbkxhc3RQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB0eXBlIHsgQnV0dG9uVmFyaWFudHMgfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvYnV0dG9uJwppbXBvcnQgeyByZWFjdGl2ZU9taXQgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7IENoZXZyb25SaWdodEljb24gfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiCmltcG9ydCB7IFBhZ2luYXRpb25MYXN0LCB1c2VGb3J3YXJkUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgppbXBvcnQgeyBidXR0b25WYXJpYW50cyB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9idXR0b24nCmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biIKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpCgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cyhkZWZpbmVQcm9wczxQYWdpbmF0aW9uTGFzdFByb3BzICYgewogIHNpemU/OiBCdXR0b25WYXJpYW50c1sic2l6ZSJdCiAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXQp9PigpLCB7CiAgc2l6ZTogImRlZmF1bHQiLAp9KQoKY29uc3QgZGVsZWdhdGVkUHJvcHMgPSByZWFjdGl2ZU9taXQocHJvcHMsICJjbGFzcyIsICJzaXplIikKY29uc3QgZm9yd2FyZGVkID0gdXNlRm9yd2FyZFByb3BzKGRlbGVnYXRlZFByb3BzKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UGFnaW5hdGlvbkxhc3QKICAgIGRhdGEtc2xvdD0icGFnaW5hdGlvbi1sYXN0IgogICAgOmNsYXNzPSJjbihidXR0b25WYXJpYW50cyh7IHZhcmlhbnQ6ICdnaG9zdCcsIHNpemUgfSksICdnYXAtMSBweC0yLjUgc206cHItMi41JywgcHJvcHMuY2xhc3MpIgogICAgdi1iaW5kPSJmb3J3YXJkZWQiCiAgPgogICAgPHNsb3Q+CiAgICAgIDxzcGFuIGNsYXNzPSJoaWRkZW4gc206YmxvY2siPnt7IHQoImNvbW1vbi5sYXN0UGFnZSIpIH19PC9zcGFuPgogICAgICA8Q2hldnJvblJpZ2h0SWNvbiAvPgogICAgPC9zbG90PgogIDwvUGFnaW5hdGlvbkxhc3Q+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { PaginationLastProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import type { ButtonVariants } from '@/components/ui/button'
+import { reactiveOmit } from "@vueuse/core"
+import { ChevronRightIcon } from "lucide-vue-next"
+import { PaginationLast, useForwardProps } from "reka-ui"
+import { cn } from "@/lib/utils"
+import { buttonVariants } from '@/components/ui/button'
+import { useI18n } from "vue-i18n"
+
+const { t } = useI18n()
+
+const props = withDefaults(defineProps<PaginationLastProps & {
+  size?: ButtonVariants["size"]
+  class?: HTMLAttributes["class"]
+}>(), {
+  size: "default",
+})
+
+const delegatedProps = reactiveOmit(props, "class", "size")
+const forwarded = useForwardProps(delegatedProps)
+</script>
+
+<template>
+  <PaginationLast
+    data-slot="pagination-last"
+    :class="cn(buttonVariants({ variant: 'ghost', size }), 'gap-1 px-2.5 sm:pr-2.5', props.class)"
+    v-bind="forwarded"
+  >
+    <slot>
+      <span class="hidden sm:block">{{ t("common.lastPage") }}</span>
+      <ChevronRightIcon />
+    </slot>
+  </PaginationLast>
+</template>

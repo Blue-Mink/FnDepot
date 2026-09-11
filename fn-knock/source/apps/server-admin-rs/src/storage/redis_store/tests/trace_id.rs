@@ -1,1 +1,121 @@
-dXNlIHN1cGVyOjoqOwoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gc3lzdGVtX2V2ZW50X3RyYWNlX2xvb2t1cF9zY2Fuc19hbGxfcmV0YWluZWRfbGVnYWN5X3JlY29yZHMoKSB7CiAgICBsZXQgKF9kaXIsIHN0b3JlKSA9IG9wZW5fdGVzdF9zdG9yZSgpLmF3YWl0OwogICAgbGV0IHRyYWNlX2lkID0gInRyY18zZjkzZDQwYS04OWVhLTRkYmUtYTA0Zi02NzY5Mjc3OGQ5NzMiOwogICAgbGV0IGJhc2UgPSBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCk7CiAgICBmb3IgaW5kZXggaW4gMC4uMTAxIHsKICAgICAgICBzdG9yZQogICAgICAgICAgICAuYXBwZW5kX3N5c3RlbV9ldmVudCgKICAgICAgICAgICAgICAgICZqc29uISh7CiAgICAgICAgICAgICAgICAgICAgImlkIjogZm9ybWF0ISgidHJhY2UtZXZlbnQte2luZGV4OjAzfSIpLAogICAgICAgICAgICAgICAgICAgICJ0cmFjZV9pZCI6IHRyYWNlX2lkLAogICAgICAgICAgICAgICAgICAgICJ0eXBlIjogIkZOX0VWRU5UX1JVTlRJTUVfU1RBUlRFRCIsCiAgICAgICAgICAgICAgICAgICAgInNvdXJjZSI6ICJSVU5USU1FX01PTklUT1IiLAogICAgICAgICAgICAgICAgICAgICJsZXZlbCI6ICJJTkZPIiwKICAgICAgICAgICAgICAgICAgICAiaGFwcGVuZWRfYXQiOiBjcmF0ZTo6dGltZV91dGlsczo6aXNvX2Zyb21fbXMoYmFzZSArIGluZGV4KSwKICAgICAgICAgICAgICAgIH0pLAogICAgICAgICAgICAgICAgMzAsCiAgICAgICAgICAgICAgICAxXzAwMCwKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgiYXBwZW5kIHRyYWNlZCBldmVudCIpOwogICAgfQoKICAgIGxldCBldmVudHMgPSBzdG9yZQogICAgICAgIC5maW5kX3N5c3RlbV9ldmVudHNfYnlfdHJhY2UodHJhY2VfaWQpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgiZmluZCBldmVyeSB0cmFjZWQgZXZlbnQiKTsKICAgIGFzc2VydF9lcSEoZXZlbnRzLmxlbigpLCAxMDEpOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBzeXN0ZW1fZXZlbnRfdHJhY2VfbG9va3VwX3JlcGFpcnNfdmFsaWRfc2FtZV9pZF9zaGFkb3dfbWlzbWF0Y2goKSB7CiAgICBsZXQgZGlyID0gdGVtcGZpbGU6OnRlbXBkaXIoKS5leHBlY3QoImNyZWF0ZSB0ZW1wIGRpciIpOwogICAgbGV0IHBhdGggPSBkaXIucGF0aCgpLmpvaW4oImZuLWtub2NrLnNxbGl0ZTMiKTsKICAgIGxldCBzdG9yZSA9IFN0b3JlOjpjb25uZWN0KCZwYXRoKS5hd2FpdC5leHBlY3QoIm9wZW4gc3RvcmUiKTsKICAgIGxldCB0cmFjZV9pZCA9ICJ0cmNfM2Y5M2Q0MGEtODllYS00ZGJlLWEwNGYtNjc2OTI3NzhkOTczIjsKICAgIGxldCBldmVudCA9IGpzb24hKHsKICAgICAgICAiaWQiOiAidHJhY2Utc2hhZG93LWV2ZW50IiwKICAgICAgICAidHJhY2VfaWQiOiB0cmFjZV9pZCwKICAgICAgICAidHlwZSI6ICJGTl9FVkVOVF9SVU5USU1FX1NUQVJURUQiLAogICAgICAgICJzb3VyY2UiOiAiUlVOVElNRV9NT05JVE9SIiwKICAgICAgICAibGV2ZWwiOiAiSU5GTyIsCiAgICAgICAgImhhcHBlbmVkX2F0IjogY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19pc28oKSwKICAgIH0pOwogICAgc3RvcmUKICAgICAgICAuYXBwZW5kX3N5c3RlbV9ldmVudCgmZXZlbnQsIDMwLCAxXzAwMCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJzZWVkIHRyYWNlZCBldmVudCIpOwogICAgbGV0IG11dCBjb3JydXB0ZWQgPSBldmVudC5jbG9uZSgpOwogICAgY29ycnVwdGVkWyJzb3VyY2UiXSA9IGpzb24hKCJDT1JSVVBURURfVFlQRURfU0hBRE9XIik7CiAgICBsZXQgY29ubmVjdGlvbiA9IG9wZW5fZml4dHVyZV9jb25uZWN0aW9uKCZwYXRoKTsKICAgIGNvbm5lY3Rpb24KICAgICAgICAuZXhlY3V0ZSgKICAgICAgICAgICAgIlVQREFURSBzeXN0ZW1fZXZlbnRfZG9jdW1lbnRzIFNFVCBldmVudF9qc29uID0gPzIgV0hFUkUgaWQgPSA/MSIsCiAgICAgICAgICAgIHRva2lvX3J1c3FsaXRlOjpydXNxbGl0ZTo6cGFyYW1zIVsidHJhY2Utc2hhZG93LWV2ZW50IiwgY29ycnVwdGVkLnRvX3N0cmluZygpXSwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgZHJvcChjb25uZWN0aW9uKTsKCiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlLmZpbmRfc3lzdGVtX2V2ZW50c19ieV90cmFjZSh0cmFjZV9pZCkuYXdhaXQudW53cmFwKCksCiAgICAgICAgdmVjIVtldmVudC5jbG9uZSgpXQogICAgKTsKICAgIGxldCByZXBhaXJlZCA9IHN0b3JlCiAgICAgICAgLnR5cGVkCiAgICAgICAgLnR5cGVkX2V2ZW50cwogICAgICAgIC5sb2FkX2J5X3RyYWNlKHRyYWNlX2lkKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIGFzc2VydF9lcSEocmVwYWlyZWQsIHZlYyFbZXZlbnRdKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gdHlwZWRfdHJhY2VfaW5kZXhlc19rZWVwX2xlZ2FjeV9taXNzaW5nX2lkc19udWxsKCkgewogICAgbGV0IGRpciA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgdGVtcCBkaXIiKTsKICAgIGxldCBwYXRoID0gZGlyLnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIik7CiAgICBsZXQgc3RvcmUgPSBTdG9yZTo6Y29ubmVjdCgmcGF0aCkuYXdhaXQuZXhwZWN0KCJvcGVuIHN0b3JlIik7CiAgICBsZXQgZXZlbnQgPSBqc29uISh7CiAgICAgICAgImlkIjogImxlZ2FjeS1ldmVudC13aXRob3V0LXRyYWNlIiwKICAgICAgICAidHlwZSI6ICJGTl9FVkVOVF9SVU5USU1FX1NUQVJURUQiLAogICAgICAgICJzb3VyY2UiOiAiUlVOVElNRV9NT05JVE9SIiwKICAgICAgICAibGV2ZWwiOiAiSU5GTyIsCiAgICAgICAgImhhcHBlbmVkX2F0IjogY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19pc28oKSwKICAgIH0pOwogICAgbGV0IHRyaWdnZXIgPSBqc29uISh7CiAgICAgICAgImlkIjogImxlZ2FjeS10cmlnZ2VyLXdpdGhvdXQtdHJhY2UiLAogICAgICAgICJjcmVhdGVkX2F0IjogY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19pc28oKSwKICAgICAgICAic3RhdHVzIjogImNyZWF0ZWQiLAogICAgfSk7CiAgICBzdG9yZS5hcHBlbmRfc3lzdGVtX2V2ZW50KCZldmVudCwgMzAsIDFfMDAwKS5hd2FpdC51bndyYXAoKTsKICAgIHN0b3JlCiAgICAgICAgLnNhdmVfbm90aWZpY2F0aW9uX3RyaWdnZXIoCiAgICAgICAgICAgICJsZWdhY3ktdHJpZ2dlci13aXRob3V0LXRyYWNlIiwKICAgICAgICAgICAgJnRyaWdnZXIsCiAgICAgICAgICAgIGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfbXMoKSwKICAgICAgICAgICAgNjAsCiAgICAgICAgICAgIGZhbHNlLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CgogICAgbGV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmcGF0aCk7CiAgICBsZXQgZXZlbnRfdHJhY2U6IE9wdGlvbjxTdHJpbmc+ID0gY29ubmVjdGlvbgogICAgICAgIC5xdWVyeV9yb3coCiAgICAgICAgICAgICJTRUxFQ1QgdHJhY2VfaWQgRlJPTSBzeXN0ZW1fZXZlbnRfZG9jdW1lbnRzIFdIRVJFIGlkID0gPzEiLAogICAgICAgICAgICBbImxlZ2FjeS1ldmVudC13aXRob3V0LXRyYWNlIl0sCiAgICAgICAgICAgIHxyb3d8IHJvdy5nZXQoMCksCiAgICAgICAgKQogICAgICAgIC51bndyYXAoKTsKICAgIGxldCB0cmlnZ2VyX3RyYWNlOiBPcHRpb248U3RyaW5nPiA9IGNvbm5lY3Rpb24KICAgICAgICAucXVlcnlfcm93KAogICAgICAgICAgICAiU0VMRUNUIHRyYWNlX2lkIEZST00gbm90aWZpY2F0aW9uX2hpc3RvcnlfZG9jdW1lbnRzIFdIRVJFIGtpbmQgPSAndHJpZ2dlcicgQU5EIGlkID0gPzEiLAogICAgICAgICAgICBbImxlZ2FjeS10cmlnZ2VyLXdpdGhvdXQtdHJhY2UiXSwKICAgICAgICAgICAgfHJvd3wgcm93LmdldCgwKSwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxIShldmVudF90cmFjZSwgTm9uZSk7CiAgICBhc3NlcnRfZXEhKHRyaWdnZXJfdHJhY2UsIE5vbmUpOwp9Cg==
+use super::*;
+
+#[tokio::test]
+async fn system_event_trace_lookup_scans_all_retained_legacy_records() {
+    let (_dir, store) = open_test_store().await;
+    let trace_id = "trc_3f93d40a-89ea-4dbe-a04f-67692778d973";
+    let base = crate::time_utils::now_ms();
+    for index in 0..101 {
+        store
+            .append_system_event(
+                &json!({
+                    "id": format!("trace-event-{index:03}"),
+                    "trace_id": trace_id,
+                    "type": "FN_EVENT_RUNTIME_STARTED",
+                    "source": "RUNTIME_MONITOR",
+                    "level": "INFO",
+                    "happened_at": crate::time_utils::iso_from_ms(base + index),
+                }),
+                30,
+                1_000,
+            )
+            .await
+            .expect("append traced event");
+    }
+
+    let events = store
+        .find_system_events_by_trace(trace_id)
+        .await
+        .expect("find every traced event");
+    assert_eq!(events.len(), 101);
+}
+
+#[tokio::test]
+async fn system_event_trace_lookup_repairs_valid_same_id_shadow_mismatch() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let trace_id = "trc_3f93d40a-89ea-4dbe-a04f-67692778d973";
+    let event = json!({
+        "id": "trace-shadow-event",
+        "trace_id": trace_id,
+        "type": "FN_EVENT_RUNTIME_STARTED",
+        "source": "RUNTIME_MONITOR",
+        "level": "INFO",
+        "happened_at": crate::time_utils::now_iso(),
+    });
+    store
+        .append_system_event(&event, 30, 1_000)
+        .await
+        .expect("seed traced event");
+    let mut corrupted = event.clone();
+    corrupted["source"] = json!("CORRUPTED_TYPED_SHADOW");
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute(
+            "UPDATE system_event_documents SET event_json = ?2 WHERE id = ?1",
+            tokio_rusqlite::rusqlite::params!["trace-shadow-event", corrupted.to_string()],
+        )
+        .unwrap();
+    drop(connection);
+
+    assert_eq!(
+        store.find_system_events_by_trace(trace_id).await.unwrap(),
+        vec![event.clone()]
+    );
+    let repaired = store
+        .typed
+        .typed_events
+        .load_by_trace(trace_id)
+        .await
+        .unwrap();
+    assert_eq!(repaired, vec![event]);
+}
+
+#[tokio::test]
+async fn typed_trace_indexes_keep_legacy_missing_ids_null() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let event = json!({
+        "id": "legacy-event-without-trace",
+        "type": "FN_EVENT_RUNTIME_STARTED",
+        "source": "RUNTIME_MONITOR",
+        "level": "INFO",
+        "happened_at": crate::time_utils::now_iso(),
+    });
+    let trigger = json!({
+        "id": "legacy-trigger-without-trace",
+        "created_at": crate::time_utils::now_iso(),
+        "status": "created",
+    });
+    store.append_system_event(&event, 30, 1_000).await.unwrap();
+    store
+        .save_notification_trigger(
+            "legacy-trigger-without-trace",
+            &trigger,
+            crate::time_utils::now_ms(),
+            60,
+            false,
+        )
+        .await
+        .unwrap();
+
+    let connection = open_fixture_connection(&path);
+    let event_trace: Option<String> = connection
+        .query_row(
+            "SELECT trace_id FROM system_event_documents WHERE id = ?1",
+            ["legacy-event-without-trace"],
+            |row| row.get(0),
+        )
+        .unwrap();
+    let trigger_trace: Option<String> = connection
+        .query_row(
+            "SELECT trace_id FROM notification_history_documents WHERE kind = 'trigger' AND id = ?1",
+            ["legacy-trigger-without-trace"],
+            |row| row.get(0),
+        )
+        .unwrap();
+    assert_eq!(event_trace, None);
+    assert_eq!(trigger_trace, None);
+}

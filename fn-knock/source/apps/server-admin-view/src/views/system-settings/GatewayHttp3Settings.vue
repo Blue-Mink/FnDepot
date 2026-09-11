@@ -1,1 +1,212 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvbk1vdW50ZWQsIHJlYWN0aXZlLCByZWYsIHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgZXh0cmFjdEVycm9yTWVzc2FnZSB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgewogIEJyZWFkY3J1bWIsCiAgQnJlYWRjcnVtYkl0ZW0sCiAgQnJlYWRjcnVtYkxpbmssCiAgQnJlYWRjcnVtYkxpc3QsCiAgQnJlYWRjcnVtYlBhZ2UsCiAgQnJlYWRjcnVtYlNlcGFyYXRvciwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnJlYWRjcnVtYiI7CmltcG9ydCB7CiAgQ2FyZCwKICBDYXJkQ29udGVudCwKICBDYXJkRGVzY3JpcHRpb24sCiAgQ2FyZEhlYWRlciwKICBDYXJkVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IFN3aXRjaCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9zd2l0Y2giOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB7IFJlZnJlc2hDdyB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7CiAgZ2F0ZXdheUh0dHAzQXBpLAogIHR5cGUgR2F0ZXdheUh0dHAzU3RhdHVzLAp9IGZyb20gIkAvbGliL2FwaS9nYXRld2F5LWh0dHAzIjsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBpZCA9IHVzZUlkKCk7CmNvbnN0IHN0YXR1cyA9IHJlZjxHYXRld2F5SHR0cDNTdGF0dXMgfCBudWxsPihudWxsKTsKY29uc3QgYnVzeSA9IHJlZihmYWxzZSk7CmNvbnN0IGVycm9yID0gcmVmKCIiKTsKY29uc3QgZm9ybSA9IHJlYWN0aXZlKHsgZW5hYmxlZDogZmFsc2UsIGFkdmVydGlzZWRfcG9ydDogMCB9KTsKY29uc3QgdmFsaWQgPSBjb21wdXRlZCgKICAoKSA9PgogICAgTnVtYmVyLmlzSW50ZWdlcihOdW1iZXIoZm9ybS5hZHZlcnRpc2VkX3BvcnQpKSAmJgogICAgTnVtYmVyKGZvcm0uYWR2ZXJ0aXNlZF9wb3J0KSA+PSAwICYmCiAgICBOdW1iZXIoZm9ybS5hZHZlcnRpc2VkX3BvcnQpIDw9IDY1NTM1LAopOwpjb25zdCBkaXJ0eSA9IGNvbXB1dGVkKAogICgpID0+CiAgICBzdGF0dXMudmFsdWUgIT09IG51bGwgJiYKICAgIChmb3JtLmVuYWJsZWQgIT09IHN0YXR1cy52YWx1ZS5lbmFibGVkIHx8CiAgICAgIE51bWJlcihmb3JtLmFkdmVydGlzZWRfcG9ydCkgIT09IHN0YXR1cy52YWx1ZS5hZHZlcnRpc2VkX3BvcnQpLAopOwpjb25zdCBzdGF0ZUxhYmVsID0gY29tcHV0ZWQoKCkgPT4gewogIGNvbnN0IHN0YXRlID0gc3RhdHVzLnZhbHVlPy5zdGF0ZSA/PyAidW5rbm93biI7CiAgY29uc3Qgc3VwcG9ydGVkID0gWwogICAgInJ1bm5pbmciLAogICAgImRpc2FibGVkIiwKICAgICJzdXNwZW5kZWRfZnJwIiwKICAgICJ3YWl0aW5nX2NlcnRpZmljYXRlIiwKICAgICJ3YWl0aW5nX2JyaWRnZSIsCiAgICAiZXJyb3IiLAogIF07CiAgcmV0dXJuIHQoCiAgICBgYWRtaW4uZ2F0ZXdheVNldHRpbmdzLmh0dHAzLnN0YXRlcy4ke3N1cHBvcnRlZC5pbmNsdWRlcyhzdGF0ZSkgPyBzdGF0ZSA6ICJ1bmtub3duIn1gLAogICk7Cn0pOwpmdW5jdGlvbiByZXNldEZvcm0oKSB7CiAgaWYgKCFzdGF0dXMudmFsdWUpIHJldHVybjsKICBmb3JtLmVuYWJsZWQgPSBzdGF0dXMudmFsdWUuZW5hYmxlZDsKICBmb3JtLmFkdmVydGlzZWRfcG9ydCA9IHN0YXR1cy52YWx1ZS5hZHZlcnRpc2VkX3BvcnQ7CiAgZXJyb3IudmFsdWUgPSAiIjsKfQphc3luYyBmdW5jdGlvbiBydW4oc2F2ZTogYm9vbGVhbikgewogIGlmIChidXN5LnZhbHVlIHx8IChzYXZlICYmICghZGlydHkudmFsdWUgfHwgIXZhbGlkLnZhbHVlKSkpIHJldHVybjsKICBjb25zdCBwcmVzZXJ2ZUVkaXRzID0gIXNhdmUgJiYgZGlydHkudmFsdWU7CiAgYnVzeS52YWx1ZSA9IHRydWU7CiAgZXJyb3IudmFsdWUgPSAiIjsKICB0cnkgewogICAgY29uc3QgbmV4dCA9IHNhdmUKICAgICAgPyBhd2FpdCBnYXRld2F5SHR0cDNBcGkuc2V0KHsKICAgICAgICAgIGVuYWJsZWQ6IGZvcm0uZW5hYmxlZCwKICAgICAgICAgIGFkdmVydGlzZWRfcG9ydDogTnVtYmVyKGZvcm0uYWR2ZXJ0aXNlZF9wb3J0KSwKICAgICAgICB9KQogICAgICA6IGF3YWl0IGdhdGV3YXlIdHRwM0FwaS5nZXQoKTsKICAgIHN0YXR1cy52YWx1ZSA9IG5leHQ7CiAgICBpZiAoIXByZXNlcnZlRWRpdHMpIHJlc2V0Rm9ybSgpOwogICAgaWYgKHNhdmUpIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uZ2F0ZXdheVNldHRpbmdzLmh0dHAzLnNhdmVkIikpOwogIH0gY2F0Y2ggKGNhdXNlKSB7CiAgICBlcnJvci52YWx1ZSA9IGV4dHJhY3RFcnJvck1lc3NhZ2UoY2F1c2UpOwogIH0gZmluYWxseSB7CiAgICBidXN5LnZhbHVlID0gZmFsc2U7CiAgfQp9Cm9uTW91bnRlZCgoKSA9PiB7CiAgdm9pZCBydW4oZmFsc2UpOwp9KTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0ic3BhY2UteS02Ij4KICAgIDxCcmVhZGNydW1iPgogICAgICA8QnJlYWRjcnVtYkxpc3Q+CiAgICAgICAgPEJyZWFkY3J1bWJJdGVtPgogICAgICAgICAgPEJyZWFkY3J1bWJMaW5rIGhyZWY9IiMvc3lzdGVtIj57ewogICAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5UG9ydGFsU2V0dGluZ3Muc3lzdGVtU2V0dGluZ3MiKQogICAgICAgICAgfX08L0JyZWFkY3J1bWJMaW5rPgogICAgICAgIDwvQnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgPEJyZWFkY3J1bWJTZXBhcmF0b3IgLz4KICAgICAgICA8QnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgICA8QnJlYWRjcnVtYkxpbmsgaHJlZj0iIy9zeXN0ZW0/dGFiPWdhdGV3YXkiPnt7CiAgICAgICAgICAgIHQoImFkbWluLmdhdGV3YXlQb3J0YWxTZXR0aW5ncy5nYXRld2F5IikKICAgICAgICAgIH19PC9CcmVhZGNydW1iTGluaz4KICAgICAgICA8L0JyZWFkY3J1bWJJdGVtPgogICAgICAgIDxCcmVhZGNydW1iU2VwYXJhdG9yIC8+CiAgICAgICAgPEJyZWFkY3J1bWJJdGVtCiAgICAgICAgICA+PEJyZWFkY3J1bWJQYWdlPnt7CiAgICAgICAgICAgIHQoImFkbWluLmdhdGV3YXlTZXR0aW5ncy5odHRwMy50aXRsZSIpCiAgICAgICAgICB9fTwvQnJlYWRjcnVtYlBhZ2U+PC9CcmVhZGNydW1iSXRlbQogICAgICAgID4KICAgICAgPC9CcmVhZGNydW1iTGlzdD4KICAgIDwvQnJlYWRjcnVtYj4KICAgIDxDYXJkIGNsYXNzPSJ3LWZ1bGwgYm9yZGVyLWJvcmRlci82MCBzaGFkb3ctbm9uZSI+CiAgICAgIDxDYXJkSGVhZGVyCiAgICAgICAgY2xhc3M9ImZsZXggZmxleC1yb3cgaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC02IHNwYWNlLXktMCIKICAgICAgPgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICA8Q2FyZFRpdGxlIDppZD0iYCR7aWR9LXRpdGxlYCIgY2xhc3M9InRleHQteGwiPkhUVFAvMzwvQ2FyZFRpdGxlPgogICAgICAgICAgPENhcmREZXNjcmlwdGlvbj57ewogICAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5U2V0dGluZ3MuaHR0cDMuZGVzY3JpcHRpb24iKQogICAgICAgICAgfX08L0NhcmREZXNjcmlwdGlvbj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8U3dpdGNoCiAgICAgICAgICB2LW1vZGVsPSJmb3JtLmVuYWJsZWQiCiAgICAgICAgICA6YXJpYS1sYWJlbGxlZGJ5PSJgJHtpZH0tdGl0bGVgIgogICAgICAgICAgOmRpc2FibGVkPSJidXN5IHx8ICFzdGF0dXMiCiAgICAgICAgICBjbGFzcz0ibXQtMSBzaHJpbmstMCIKICAgICAgICAvPgogICAgICA8L0NhcmRIZWFkZXI+CiAgICAgIDxDYXJkQ29udGVudCBjbGFzcz0ic3BhY2UteS01IGJvcmRlci10IHB0LTUiPgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgICAgICA8TGFiZWwgOmZvcj0iaWQiPnt7IHQoImFkbWluLmdhdGV3YXlTZXR0aW5ncy5odHRwMy5wb3J0IikgfX08L0xhYmVsPgogICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICA6aWQ9ImlkIgogICAgICAgICAgICAgIHYtbW9kZWw9ImZvcm0uYWR2ZXJ0aXNlZF9wb3J0IgogICAgICAgICAgICAgIHR5cGU9Im51bWJlciIKICAgICAgICAgICAgICBtaW49IjAiCiAgICAgICAgICAgICAgbWF4PSI2NTUzNSIKICAgICAgICAgICAgICBzdGVwPSIxIgogICAgICAgICAgICAgIGNsYXNzPSJ3LTI4IgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iYnVzeSB8fCAhc3RhdHVzIgogICAgICAgICAgICAgIDphcmlhLWRlc2NyaWJlZGJ5PSJgJHtpZH0taGludGAiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxwIDppZD0iYCR7aWR9LWhpbnRgIiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5U2V0dGluZ3MuaHR0cDMucG9ydEhpbnQiKSB9fQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxwCiAgICAgICAgICB2LWlmPSJlcnJvciB8fCBzdGF0dXM/LmVycm9yIgogICAgICAgICAgcm9sZT0iYWxlcnQiCiAgICAgICAgICBjbGFzcz0idGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgID4KICAgICAgICAgIHt7IGVycm9yIHx8IHN0YXR1cz8uZXJyb3IgfX0KICAgICAgICA8L3A+CiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIGJvcmRlci10IHB0LTQiPgogICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9InNlY29uZGFyeSI+e3sgc3RhdGVMYWJlbCB9fTwvQmFkZ2U+CiAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgdi1pZj0ic3RhdHVzPy5saXN0ZW5fYWRkcmVzc2VzLmxlbmd0aCIKICAgICAgICAgICAgICBjbGFzcz0iYnJlYWstYWxsIGZvbnQtbW9ubyB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICA+e3sgc3RhdHVzLmxpc3Rlbl9hZGRyZXNzZXMuam9pbigiLCAiKSB9fTwvc3BhbgogICAgICAgICAgICA+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICBzaXplPSJpY29uIgogICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgIGNsYXNzPSJoLTcgdy03IgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iYnVzeSIKICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uZ2F0ZXdheVNldHRpbmdzLmh0dHAzLnJlZnJlc2gnKSIKICAgICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLmdhdGV3YXlTZXR0aW5ncy5odHRwMy5yZWZyZXNoJykiCiAgICAgICAgICAgICAgQGNsaWNrPSJydW4oZmFsc2UpIgogICAgICAgICAgICAgID48UmVmcmVzaEN3CiAgICAgICAgICAgICAgICBjbGFzcz0iaC0zLjUgdy0zLjUiCiAgICAgICAgICAgICAgICA6Y2xhc3M9InsgJ2FuaW1hdGUtc3Bpbic6IGJ1c3kgfSIKICAgICAgICAgICAgICAgIGFyaWEtaGlkZGVuPSJ0cnVlIgogICAgICAgICAgICAvPjwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8cCB2LWlmPSJzdGF0dXMiIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheVNldHRpbmdzLmh0dHAzLm1ldHJpY3MiLCB7CiAgICAgICAgICAgICAgICBhY3RpdmU6IHN0YXR1cy5hY3RpdmVfY29ubmVjdGlvbnMsCiAgICAgICAgICAgICAgICBmYWlsZWQ6IHN0YXR1cy5oYW5kc2hha2VfZmFpbHVyZXMsCiAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgfX0KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlTZXR0aW5ncy5odHRwMy5yZWFjaGFiaWxpdHkiKSB9fQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImZsZXgganVzdGlmeS1lbmQgZ2FwLTIgYm9yZGVyLXQgcHQtNCI+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIHYtaWY9ImRpcnR5IgogICAgICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICAgICAgOmRpc2FibGVkPSJidXN5IgogICAgICAgICAgICBAY2xpY2s9InJlc2V0Rm9ybSIKICAgICAgICAgICAgPnt7IHQoImFkbWluLmdhdGV3YXlTZXR0aW5ncy5odHRwMy5yZXNldCIpIH19PC9CdXR0b24KICAgICAgICAgID4KICAgICAgICAgIDxCdXR0b24gOmRpc2FibGVkPSJidXN5IHx8ICFkaXJ0eSB8fCAhdmFsaWQiIEBjbGljaz0icnVuKHRydWUpIj57ewogICAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5U2V0dGluZ3MuaHR0cDMuc2F2ZSIpCiAgICAgICAgICB9fTwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L0NhcmRDb250ZW50PgogICAgPC9DYXJkPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, onMounted, reactive, ref, useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import { Badge } from "@/components/ui/badge";
+import { RefreshCw } from "lucide-vue-next";
+import {
+  gatewayHttp3Api,
+  type GatewayHttp3Status,
+} from "@/lib/api/gateway-http3";
+
+const { t } = useI18n();
+const id = useId();
+const status = ref<GatewayHttp3Status | null>(null);
+const busy = ref(false);
+const error = ref("");
+const form = reactive({ enabled: false, advertised_port: 0 });
+const valid = computed(
+  () =>
+    Number.isInteger(Number(form.advertised_port)) &&
+    Number(form.advertised_port) >= 0 &&
+    Number(form.advertised_port) <= 65535,
+);
+const dirty = computed(
+  () =>
+    status.value !== null &&
+    (form.enabled !== status.value.enabled ||
+      Number(form.advertised_port) !== status.value.advertised_port),
+);
+const stateLabel = computed(() => {
+  const state = status.value?.state ?? "unknown";
+  const supported = [
+    "running",
+    "disabled",
+    "suspended_frp",
+    "waiting_certificate",
+    "waiting_bridge",
+    "error",
+  ];
+  return t(
+    `admin.gatewaySettings.http3.states.${supported.includes(state) ? state : "unknown"}`,
+  );
+});
+function resetForm() {
+  if (!status.value) return;
+  form.enabled = status.value.enabled;
+  form.advertised_port = status.value.advertised_port;
+  error.value = "";
+}
+async function run(save: boolean) {
+  if (busy.value || (save && (!dirty.value || !valid.value))) return;
+  const preserveEdits = !save && dirty.value;
+  busy.value = true;
+  error.value = "";
+  try {
+    const next = save
+      ? await gatewayHttp3Api.set({
+          enabled: form.enabled,
+          advertised_port: Number(form.advertised_port),
+        })
+      : await gatewayHttp3Api.get();
+    status.value = next;
+    if (!preserveEdits) resetForm();
+    if (save) toast.success(t("admin.gatewaySettings.http3.saved"));
+  } catch (cause) {
+    error.value = extractErrorMessage(cause);
+  } finally {
+    busy.value = false;
+  }
+}
+onMounted(() => {
+  void run(false);
+});
+</script>
+
+<template>
+  <div class="space-y-6">
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system">{{
+            t("admin.gatewayPortalSettings.systemSettings")
+          }}</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system?tab=gateway">{{
+            t("admin.gatewayPortalSettings.gateway")
+          }}</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem
+          ><BreadcrumbPage>{{
+            t("admin.gatewaySettings.http3.title")
+          }}</BreadcrumbPage></BreadcrumbItem
+        >
+      </BreadcrumbList>
+    </Breadcrumb>
+    <Card class="w-full border-border/60 shadow-none">
+      <CardHeader
+        class="flex flex-row items-start justify-between gap-6 space-y-0"
+      >
+        <div class="space-y-2">
+          <CardTitle :id="`${id}-title`" class="text-xl">HTTP/3</CardTitle>
+          <CardDescription>{{
+            t("admin.gatewaySettings.http3.description")
+          }}</CardDescription>
+        </div>
+        <Switch
+          v-model="form.enabled"
+          :aria-labelledby="`${id}-title`"
+          :disabled="busy || !status"
+          class="mt-1 shrink-0"
+        />
+      </CardHeader>
+      <CardContent class="space-y-5 border-t pt-5">
+        <div class="space-y-2">
+          <div class="flex flex-wrap items-center gap-3">
+            <Label :for="id">{{ t("admin.gatewaySettings.http3.port") }}</Label>
+            <Input
+              :id="id"
+              v-model="form.advertised_port"
+              type="number"
+              min="0"
+              max="65535"
+              step="1"
+              class="w-28"
+              :disabled="busy || !status"
+              :aria-describedby="`${id}-hint`"
+            />
+          </div>
+          <p :id="`${id}-hint`" class="text-xs text-muted-foreground">
+            {{ t("admin.gatewaySettings.http3.portHint") }}
+          </p>
+        </div>
+        <p
+          v-if="error || status?.error"
+          role="alert"
+          class="text-sm text-destructive"
+        >
+          {{ error || status?.error }}
+        </p>
+        <div class="space-y-2 border-t pt-4">
+          <div class="flex flex-wrap items-center gap-2">
+            <Badge variant="secondary">{{ stateLabel }}</Badge>
+            <span
+              v-if="status?.listen_addresses.length"
+              class="break-all font-mono text-xs text-muted-foreground"
+              >{{ status.listen_addresses.join(", ") }}</span
+            >
+            <Button
+              size="icon"
+              variant="ghost"
+              class="h-7 w-7"
+              :disabled="busy"
+              :aria-label="t('admin.gatewaySettings.http3.refresh')"
+              :title="t('admin.gatewaySettings.http3.refresh')"
+              @click="run(false)"
+              ><RefreshCw
+                class="h-3.5 w-3.5"
+                :class="{ 'animate-spin': busy }"
+                aria-hidden="true"
+            /></Button>
+          </div>
+          <p v-if="status" class="text-xs text-muted-foreground">
+            {{
+              t("admin.gatewaySettings.http3.metrics", {
+                active: status.active_connections,
+                failed: status.handshake_failures,
+              })
+            }}
+          </p>
+          <p class="text-xs text-muted-foreground">
+            {{ t("admin.gatewaySettings.http3.reachability") }}
+          </p>
+        </div>
+        <div class="flex justify-end gap-2 border-t pt-4">
+          <Button
+            v-if="dirty"
+            variant="ghost"
+            :disabled="busy"
+            @click="resetForm"
+            >{{ t("admin.gatewaySettings.http3.reset") }}</Button
+          >
+          <Button :disabled="busy || !dirty || !valid" @click="run(true)">{{
+            t("admin.gatewaySettings.http3.save")
+          }}</Button>
+        </div>
+      </CardContent>
+    </Card>
+  </div>
+</template>

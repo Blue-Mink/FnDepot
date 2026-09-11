@@ -1,1 +1,29 @@
-ZGVjbGFyZSBtb2R1bGUgIm5wcm9ncmVzcyIgewogIGV4cG9ydCBpbnRlcmZhY2UgTlByb2dyZXNzT3B0aW9ucyB7CiAgICBtaW5pbXVtPzogbnVtYmVyOwogICAgZWFzaW5nPzogc3RyaW5nOwogICAgcG9zaXRpb25Vc2luZz86IHN0cmluZzsKICAgIHNwZWVkPzogbnVtYmVyOwogICAgdHJpY2tsZT86IGJvb2xlYW47CiAgICB0cmlja2xlU3BlZWQ/OiBudW1iZXI7CiAgICBzaG93U3Bpbm5lcj86IGJvb2xlYW47CiAgICBiYXJTZWxlY3Rvcj86IHN0cmluZzsKICAgIHNwaW5uZXJTZWxlY3Rvcj86IHN0cmluZzsKICAgIHBhcmVudD86IHN0cmluZzsKICAgIHRlbXBsYXRlPzogc3RyaW5nOwogIH0KCiAgZXhwb3J0IGludGVyZmFjZSBOUHJvZ3Jlc3NTdGF0aWMgewogICAgY29uZmlndXJlKG9wdGlvbnM6IE5Qcm9ncmVzc09wdGlvbnMpOiBOUHJvZ3Jlc3NTdGF0aWM7CiAgICBzdGFydCgpOiBOUHJvZ3Jlc3NTdGF0aWM7CiAgICBkb25lKGZvcmNlPzogYm9vbGVhbik6IE5Qcm9ncmVzc1N0YXRpYzsKICAgIGluYyhhbW91bnQ/OiBudW1iZXIpOiBOUHJvZ3Jlc3NTdGF0aWM7CiAgICBzZXQodmFsdWU6IG51bWJlcik6IE5Qcm9ncmVzc1N0YXRpYzsKICAgIHJlbW92ZSgpOiB2b2lkOwogICAgaXNTdGFydGVkKCk6IGJvb2xlYW47CiAgICBzdGF0dXM6IG51bWJlciB8IG51bGw7CiAgfQoKICBjb25zdCBOUHJvZ3Jlc3M6IE5Qcm9ncmVzc1N0YXRpYzsKICBleHBvcnQgZGVmYXVsdCBOUHJvZ3Jlc3M7Cn0K
+declare module "nprogress" {
+  export interface NProgressOptions {
+    minimum?: number;
+    easing?: string;
+    positionUsing?: string;
+    speed?: number;
+    trickle?: boolean;
+    trickleSpeed?: number;
+    showSpinner?: boolean;
+    barSelector?: string;
+    spinnerSelector?: string;
+    parent?: string;
+    template?: string;
+  }
+
+  export interface NProgressStatic {
+    configure(options: NProgressOptions): NProgressStatic;
+    start(): NProgressStatic;
+    done(force?: boolean): NProgressStatic;
+    inc(amount?: number): NProgressStatic;
+    set(value: number): NProgressStatic;
+    remove(): void;
+    isStarted(): boolean;
+    status: number | null;
+  }
+
+  const NProgress: NProgressStatic;
+  export default NProgress;
+}

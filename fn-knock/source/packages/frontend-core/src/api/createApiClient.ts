@@ -1,1 +1,214 @@
-aW1wb3J0IGF4aW9zLCB7CiAgQXhpb3NFcnJvciwKICB0eXBlIEF4aW9zSW5zdGFuY2UsCiAgdHlwZSBBeGlvc1Jlc3BvbnNlLAp9IGZyb20gImF4aW9zIjsKCmltcG9ydCB7IGV4dHJhY3RFcnJvck1lc3NhZ2UgfSBmcm9tICIuLi9lcnJvcnMvZXh0cmFjdEVycm9yTWVzc2FnZSI7CgpkZWNsYXJlIG1vZHVsZSAiYXhpb3MiIHsKICBpbnRlcmZhY2UgQXhpb3NSZXF1ZXN0Q29uZmlnPEQgPSBhbnk+IHsKICAgIC8qKiBBbGxvdyBhbiBleHBsaWNpdGx5IHJlcXVlc3RlZCBCbG9iIGRvd25sb2FkIHRvIGNvbnRhaW4gYW4gSFRNTCBkb2N1bWVudC4gKi8KICAgIGZuS25vY2tBbGxvd0RvY3VtZW50UmVzcG9uc2U/OiBib29sZWFuOwogIH0KfQoKZXhwb3J0IGludGVyZmFjZSBBcGlDbGllbnRPcHRpb25zIHsKICBiYXNlVVJMOiBzdHJpbmc7CiAgaW52YWxpZFJlc3BvbnNlTWVzc2FnZT86IHN0cmluZyB8ICgoKSA9PiBzdHJpbmcpOwogIHdpdGhDcmVkZW50aWFscz86IGJvb2xlYW47Cn0KCmV4cG9ydCBjb25zdCBJTlZBTElEX0FQSV9SRVNQT05TRV9FUlJPUl9DT0RFID0KICAiRVJSX0ZOX0tOT0NLX0lOVkFMSURfQVBJX1JFU1BPTlNFIjsKCmNvbnN0IERFRkFVTFRfSU5WQUxJRF9SRVNQT05TRV9NRVNTQUdFID0KICAiVGhlIHNlcnZlciByZXR1cm5lZCBhbiBpbnZhbGlkIHJlc3BvbnNlLiBSZWZyZXNoIG9yIHJlb3BlbiB0aGlzIHBhZ2UgYW5kIHRyeSBhZ2Fpbi4iOwoKY29uc3QgZG9jdW1lbnRNZWRpYVR5cGVzID0gbmV3IFNldChbInRleHQvaHRtbCIsICJhcHBsaWNhdGlvbi94aHRtbCt4bWwiXSk7Cgpjb25zdCBpc0pzb25NZWRpYVR5cGUgPSAodmFsdWU6IHN0cmluZyk6IGJvb2xlYW4gPT4KICB2YWx1ZSA9PT0gImFwcGxpY2F0aW9uL2pzb24iIHx8IHZhbHVlLmVuZHNXaXRoKCIranNvbiIpOwoKY29uc3QgcmVzcG9uc2VIZWFkZXJWYWx1ZSA9ICgKICByZXNwb25zZTogQXhpb3NSZXNwb25zZTx1bmtub3duPiwKICBuYW1lOiBzdHJpbmcsCik6IHN0cmluZyA9PiB7CiAgY29uc3QgaGVhZGVycyA9IHJlc3BvbnNlLmhlYWRlcnMgYXMgewogICAgZ2V0PzogKG5hbWU6IHN0cmluZykgPT4gdW5rbm93bjsKICAgIFtuYW1lOiBzdHJpbmddOiB1bmtub3duOwogIH07CiAgY29uc3QgdmFsdWUgPQogICAgdHlwZW9mIGhlYWRlcnMuZ2V0ID09PSAiZnVuY3Rpb24iCiAgICAgID8gaGVhZGVycy5nZXQobmFtZSkKICAgICAgOiBoZWFkZXJzW25hbWUudG9Mb3dlckNhc2UoKV07CiAgcmV0dXJuIFN0cmluZyh2YWx1ZSA/PyAiIik7Cn07Cgpjb25zdCByZXNwb25zZU1lZGlhVHlwZSA9IChyZXNwb25zZTogQXhpb3NSZXNwb25zZTx1bmtub3duPik6IHN0cmluZyA9PgogIHJlc3BvbnNlSGVhZGVyVmFsdWUocmVzcG9uc2UsICJjb250ZW50LXR5cGUiKQogICAgLnNwbGl0KCI7IiwgMSlbMF0hCiAgICAudHJpbSgpCiAgICAudG9Mb3dlckNhc2UoKTsKCmNvbnN0IGlzQXR0YWNobWVudFJlc3BvbnNlID0gKHJlc3BvbnNlOiBBeGlvc1Jlc3BvbnNlPHVua25vd24+KTogYm9vbGVhbiA9PgogIC9eYXR0YWNobWVudCg/OlxzKjt8XHMqJCkvaXUudGVzdCgKICAgIHJlc3BvbnNlSGVhZGVyVmFsdWUocmVzcG9uc2UsICJjb250ZW50LWRpc3Bvc2l0aW9uIikudHJpbSgpLAogICk7Cgpjb25zdCBsb29rc0xpa2VIdG1sID0gKHZhbHVlOiBzdHJpbmcpOiBib29sZWFuID0+CiAgL15ccyooPzo8IWRvY3R5cGVccytodG1sXGJ8PGh0bWxcYnw8aGVhZFxifDxib2R5XGIpL2l1LnRlc3QodmFsdWUpOwoKY29uc3QgbG9va3NMaWtlSHRtbEJ5dGVzID0gKHZhbHVlOiBBcnJheUJ1ZmZlciB8IEFycmF5QnVmZmVyVmlldyk6IGJvb2xlYW4gPT4gewogIGNvbnN0IGJ5dGVzID0KICAgIHZhbHVlIGluc3RhbmNlb2YgQXJyYXlCdWZmZXIKICAgICAgPyBuZXcgVWludDhBcnJheSh2YWx1ZSwgMCwgTWF0aC5taW4odmFsdWUuYnl0ZUxlbmd0aCwgNTEyKSkKICAgICAgOiBuZXcgVWludDhBcnJheSgKICAgICAgICAgIHZhbHVlLmJ1ZmZlciwKICAgICAgICAgIHZhbHVlLmJ5dGVPZmZzZXQsCiAgICAgICAgICBNYXRoLm1pbih2YWx1ZS5ieXRlTGVuZ3RoLCA1MTIpLAogICAgICAgICk7CiAgcmV0dXJuIGxvb2tzTGlrZUh0bWwobmV3IFRleHREZWNvZGVyKCkuZGVjb2RlKGJ5dGVzKSk7Cn07Cgpjb25zdCBpc0V4cGxpY2l0Tm9uSnNvblJlc3BvbnNlID0gKAogIHJlc3BvbnNlOiBBeGlvc1Jlc3BvbnNlPHVua25vd24+LAopOiBib29sZWFuID0+IHsKICBjb25zdCByZXNwb25zZVR5cGUgPSByZXNwb25zZS5jb25maWcucmVzcG9uc2VUeXBlOwogIHJldHVybiByZXNwb25zZVR5cGUgIT0gbnVsbCAmJiByZXNwb25zZVR5cGUgIT09ICJqc29uIjsKfTsKCmNvbnN0IGlzSW52YWxpZFN1Y2Nlc3NmdWxSZXNwb25zZSA9IGFzeW5jICgKICByZXNwb25zZTogQXhpb3NSZXNwb25zZTx1bmtub3duPiwKKTogUHJvbWlzZTxib29sZWFuPiA9PiB7CiAgY29uc3QgYWxsb3dEb2N1bWVudFJlc3BvbnNlID0KICAgIHJlc3BvbnNlLmNvbmZpZy5yZXNwb25zZVR5cGUgPT09ICJibG9iIiAmJgogICAgcmVzcG9uc2UuY29uZmlnLmZuS25vY2tBbGxvd0RvY3VtZW50UmVzcG9uc2UgPT09IHRydWUgJiYKICAgIGlzQXR0YWNobWVudFJlc3BvbnNlKHJlc3BvbnNlKTsKICBjb25zdCBtZWRpYVR5cGUgPSByZXNwb25zZU1lZGlhVHlwZShyZXNwb25zZSk7CiAgaWYgKCFhbGxvd0RvY3VtZW50UmVzcG9uc2UgJiYgZG9jdW1lbnRNZWRpYVR5cGVzLmhhcyhtZWRpYVR5cGUpKSByZXR1cm4gdHJ1ZTsKICBpZiAoCiAgICAocmVzcG9uc2UuY29uZmlnLnJlc3BvbnNlVHlwZSA9PT0gImJsb2IiIHx8CiAgICAgIHJlc3BvbnNlLmNvbmZpZy5yZXNwb25zZVR5cGUgPT09ICJhcnJheWJ1ZmZlciIpICYmCiAgICBpc0pzb25NZWRpYVR5cGUobWVkaWFUeXBlKQogICkgewogICAgcmV0dXJuIHRydWU7CiAgfQoKICBjb25zdCB7IGRhdGEgfSA9IHJlc3BvbnNlOwogIGlmICghYWxsb3dEb2N1bWVudFJlc3BvbnNlICYmIHR5cGVvZiBkYXRhID09PSAic3RyaW5nIiAmJiBsb29rc0xpa2VIdG1sKGRhdGEpKQogICAgcmV0dXJuIHRydWU7CiAgaWYgKAogICAgIWFsbG93RG9jdW1lbnRSZXNwb25zZSAmJgogICAgZGF0YSBpbnN0YW5jZW9mIEFycmF5QnVmZmVyICYmCiAgICBsb29rc0xpa2VIdG1sQnl0ZXMoZGF0YSkKICApCiAgICByZXR1cm4gdHJ1ZTsKICBpZiAoCiAgICAhYWxsb3dEb2N1bWVudFJlc3BvbnNlICYmCiAgICBBcnJheUJ1ZmZlci5pc1ZpZXcoZGF0YSkgJiYKICAgIGxvb2tzTGlrZUh0bWxCeXRlcyhkYXRhKQogICkKICAgIHJldHVybiB0cnVlOwogIGlmICh0eXBlb2YgQmxvYiAhPT0gInVuZGVmaW5lZCIgJiYgZGF0YSBpbnN0YW5jZW9mIEJsb2IpIHsKICAgIGNvbnN0IGJsb2JNZWRpYVR5cGUgPSBkYXRhLnR5cGUuc3BsaXQoIjsiLCAxKVswXSEudHJpbSgpLnRvTG93ZXJDYXNlKCk7CiAgICBpZiAoIWFsbG93RG9jdW1lbnRSZXNwb25zZSAmJiBkb2N1bWVudE1lZGlhVHlwZXMuaGFzKGJsb2JNZWRpYVR5cGUpKQogICAgICByZXR1cm4gdHJ1ZTsKICAgIGlmICgKICAgICAgIWFsbG93RG9jdW1lbnRSZXNwb25zZSAmJgogICAgICBsb29rc0xpa2VIdG1sKGF3YWl0IGRhdGEuc2xpY2UoMCwgNTEyKS50ZXh0KCkpCiAgICApCiAgICAgIHJldHVybiB0cnVlOwogIH0KCiAgY29uc3QgbWV0aG9kID0gcmVzcG9uc2UuY29uZmlnLm1ldGhvZD8udG9Mb3dlckNhc2UoKTsKICBpZiAobWV0aG9kID09PSAiaGVhZCIgfHwgcmVzcG9uc2Uuc3RhdHVzID09PSAyMDQgfHwgcmVzcG9uc2Uuc3RhdHVzID09PSAyMDUpIHsKICAgIHJldHVybiBmYWxzZTsKICB9CiAgaWYgKGlzRXhwbGljaXROb25Kc29uUmVzcG9uc2UocmVzcG9uc2UpKSByZXR1cm4gZmFsc2U7CgogIHJldHVybiAoCiAgICB0eXBlb2YgZGF0YSAhPT0gIm9iamVjdCIgfHwKICAgIGRhdGEgPT09IG51bGwgfHwKICAgIEFycmF5LmlzQXJyYXkoZGF0YSkgfHwKICAgIE9iamVjdC5rZXlzKGRhdGEpLmxlbmd0aCA9PT0gMAogICk7Cn07Cgpjb25zdCByZXNvbHZlSW52YWxpZFJlc3BvbnNlTWVzc2FnZSA9ICgKICB2YWx1ZTogQXBpQ2xpZW50T3B0aW9uc1siaW52YWxpZFJlc3BvbnNlTWVzc2FnZSJdLAopOiBzdHJpbmcgPT4gewogIHRyeSB7CiAgICBjb25zdCBtZXNzYWdlID0gdHlwZW9mIHZhbHVlID09PSAiZnVuY3Rpb24iID8gdmFsdWUoKSA6IHZhbHVlOwogICAgcmV0dXJuIG1lc3NhZ2U/LnRyaW0oKSB8fCBERUZBVUxUX0lOVkFMSURfUkVTUE9OU0VfTUVTU0FHRTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBERUZBVUxUX0lOVkFMSURfUkVTUE9OU0VfTUVTU0FHRTsKICB9Cn07Cgpjb25zdCBpbnZhbGlkUmVzcG9uc2VFcnJvciA9ICgKICByZXNwb25zZTogQXhpb3NSZXNwb25zZTx1bmtub3duPiwKICBtZXNzYWdlOiBzdHJpbmcsCikgPT4KICBuZXcgQXhpb3NFcnJvcigKICAgIG1lc3NhZ2UsCiAgICBJTlZBTElEX0FQSV9SRVNQT05TRV9FUlJPUl9DT0RFLAogICAgcmVzcG9uc2UuY29uZmlnLAogICAgcmVzcG9uc2UucmVxdWVzdCwKICAgIHsKICAgICAgLi4ucmVzcG9uc2UsCiAgICAgIC8vIERvIG5vdCBsZWFrIGFuIEhUTUwgbG9naW4vaW5kZXggZG9jdW1lbnQgdGhyb3VnaCBnZW5lcmljIGVycm9yCiAgICAgIC8vIGV4dHJhY3RvcnMuIENhbGxlcnMgcmVjZWl2ZSBhIHN0YWJsZSBBUEktc2hhcGVkIGVycm9yIGluc3RlYWQuCiAgICAgIGRhdGE6IHsgc3VjY2VzczogZmFsc2UsIG1lc3NhZ2UgfSwKICAgIH0sCiAgKTsKCmV4cG9ydCBjb25zdCBpc0ludmFsaWRBcGlSZXNwb25zZUVycm9yID0gKGVycm9yOiB1bmtub3duKTogYm9vbGVhbiA9PgogIGF4aW9zLmlzQXhpb3NFcnJvcihlcnJvcikgJiYgZXJyb3IuY29kZSA9PT0gSU5WQUxJRF9BUElfUkVTUE9OU0VfRVJST1JfQ09ERTsKCmV4cG9ydCBjb25zdCBhdHRhY2hBcGlSZXNwb25zZVZhbGlkYXRpb25JbnRlcmNlcHRvciA9ICgKICBhcGlDbGllbnQ6IEF4aW9zSW5zdGFuY2UsCiAgaW52YWxpZFJlc3BvbnNlTWVzc2FnZT86IEFwaUNsaWVudE9wdGlvbnNbImludmFsaWRSZXNwb25zZU1lc3NhZ2UiXSwKKSA9PiB7CiAgYXBpQ2xpZW50LmludGVyY2VwdG9ycy5yZXNwb25zZS51c2UoYXN5bmMgKHJlc3BvbnNlKSA9PiB7CiAgICBpZiAoYXdhaXQgaXNJbnZhbGlkU3VjY2Vzc2Z1bFJlc3BvbnNlKHJlc3BvbnNlKSkgewogICAgICB0aHJvdyBpbnZhbGlkUmVzcG9uc2VFcnJvcigKICAgICAgICByZXNwb25zZSwKICAgICAgICByZXNvbHZlSW52YWxpZFJlc3BvbnNlTWVzc2FnZShpbnZhbGlkUmVzcG9uc2VNZXNzYWdlKSwKICAgICAgKTsKICAgIH0KICAgIHJldHVybiByZXNwb25zZTsKICB9KTsKCiAgcmV0dXJuIGFwaUNsaWVudDsKfTsKCmV4cG9ydCBjb25zdCBhdHRhY2hBcGlFcnJvck1lc3NhZ2VJbnRlcmNlcHRvciA9IChhcGlDbGllbnQ6IEF4aW9zSW5zdGFuY2UpID0+IHsKICBhcGlDbGllbnQuaW50ZXJjZXB0b3JzLnJlc3BvbnNlLnVzZSgKICAgIChyZXNwb25zZSkgPT4gcmVzcG9uc2UsCiAgICAoZXJyb3IpID0+IHsKICAgICAgaWYgKGF4aW9zLmlzQXhpb3NFcnJvcihlcnJvcikpIHsKICAgICAgICBjb25zdCBtZXNzYWdlID0gZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgIiIpOwogICAgICAgIGlmIChtZXNzYWdlKSB7CiAgICAgICAgICBlcnJvci5tZXNzYWdlID0gbWVzc2FnZTsKICAgICAgICB9CiAgICAgIH0KCiAgICAgIHJldHVybiBQcm9taXNlLnJlamVjdChlcnJvcik7CiAgICB9LAogICk7CgogIHJldHVybiBhcGlDbGllbnQ7Cn07CgpleHBvcnQgZnVuY3Rpb24gY3JlYXRlQXBpQ2xpZW50KG9wdGlvbnM6IEFwaUNsaWVudE9wdGlvbnMpIHsKICBjb25zdCBhcGlDbGllbnQgPSBheGlvcy5jcmVhdGUoewogICAgYmFzZVVSTDogb3B0aW9ucy5iYXNlVVJMLAogICAgd2l0aENyZWRlbnRpYWxzOiBvcHRpb25zLndpdGhDcmVkZW50aWFscywKICB9KTsKICBhdHRhY2hBcGlSZXNwb25zZVZhbGlkYXRpb25JbnRlcmNlcHRvcigKICAgIGFwaUNsaWVudCwKICAgIG9wdGlvbnMuaW52YWxpZFJlc3BvbnNlTWVzc2FnZSwKICApOwogIHJldHVybiBhdHRhY2hBcGlFcnJvck1lc3NhZ2VJbnRlcmNlcHRvcihhcGlDbGllbnQpOwp9Cg==
+import axios, {
+  AxiosError,
+  type AxiosInstance,
+  type AxiosResponse,
+} from "axios";
+
+import { extractErrorMessage } from "../errors/extractErrorMessage";
+
+declare module "axios" {
+  interface AxiosRequestConfig<D = any> {
+    /** Allow an explicitly requested Blob download to contain an HTML document. */
+    fnKnockAllowDocumentResponse?: boolean;
+  }
+}
+
+export interface ApiClientOptions {
+  baseURL: string;
+  invalidResponseMessage?: string | (() => string);
+  withCredentials?: boolean;
+}
+
+export const INVALID_API_RESPONSE_ERROR_CODE =
+  "ERR_FN_KNOCK_INVALID_API_RESPONSE";
+
+const DEFAULT_INVALID_RESPONSE_MESSAGE =
+  "The server returned an invalid response. Refresh or reopen this page and try again.";
+
+const documentMediaTypes = new Set(["text/html", "application/xhtml+xml"]);
+
+const isJsonMediaType = (value: string): boolean =>
+  value === "application/json" || value.endsWith("+json");
+
+const responseHeaderValue = (
+  response: AxiosResponse<unknown>,
+  name: string,
+): string => {
+  const headers = response.headers as {
+    get?: (name: string) => unknown;
+    [name: string]: unknown;
+  };
+  const value =
+    typeof headers.get === "function"
+      ? headers.get(name)
+      : headers[name.toLowerCase()];
+  return String(value ?? "");
+};
+
+const responseMediaType = (response: AxiosResponse<unknown>): string =>
+  responseHeaderValue(response, "content-type")
+    .split(";", 1)[0]!
+    .trim()
+    .toLowerCase();
+
+const isAttachmentResponse = (response: AxiosResponse<unknown>): boolean =>
+  /^attachment(?:\s*;|\s*$)/iu.test(
+    responseHeaderValue(response, "content-disposition").trim(),
+  );
+
+const looksLikeHtml = (value: string): boolean =>
+  /^\s*(?:<!doctype\s+html\b|<html\b|<head\b|<body\b)/iu.test(value);
+
+const looksLikeHtmlBytes = (value: ArrayBuffer | ArrayBufferView): boolean => {
+  const bytes =
+    value instanceof ArrayBuffer
+      ? new Uint8Array(value, 0, Math.min(value.byteLength, 512))
+      : new Uint8Array(
+          value.buffer,
+          value.byteOffset,
+          Math.min(value.byteLength, 512),
+        );
+  return looksLikeHtml(new TextDecoder().decode(bytes));
+};
+
+const isExplicitNonJsonResponse = (
+  response: AxiosResponse<unknown>,
+): boolean => {
+  const responseType = response.config.responseType;
+  return responseType != null && responseType !== "json";
+};
+
+const isInvalidSuccessfulResponse = async (
+  response: AxiosResponse<unknown>,
+): Promise<boolean> => {
+  const allowDocumentResponse =
+    response.config.responseType === "blob" &&
+    response.config.fnKnockAllowDocumentResponse === true &&
+    isAttachmentResponse(response);
+  const mediaType = responseMediaType(response);
+  if (!allowDocumentResponse && documentMediaTypes.has(mediaType)) return true;
+  if (
+    (response.config.responseType === "blob" ||
+      response.config.responseType === "arraybuffer") &&
+    isJsonMediaType(mediaType)
+  ) {
+    return true;
+  }
+
+  const { data } = response;
+  if (!allowDocumentResponse && typeof data === "string" && looksLikeHtml(data))
+    return true;
+  if (
+    !allowDocumentResponse &&
+    data instanceof ArrayBuffer &&
+    looksLikeHtmlBytes(data)
+  )
+    return true;
+  if (
+    !allowDocumentResponse &&
+    ArrayBuffer.isView(data) &&
+    looksLikeHtmlBytes(data)
+  )
+    return true;
+  if (typeof Blob !== "undefined" && data instanceof Blob) {
+    const blobMediaType = data.type.split(";", 1)[0]!.trim().toLowerCase();
+    if (!allowDocumentResponse && documentMediaTypes.has(blobMediaType))
+      return true;
+    if (
+      !allowDocumentResponse &&
+      looksLikeHtml(await data.slice(0, 512).text())
+    )
+      return true;
+  }
+
+  const method = response.config.method?.toLowerCase();
+  if (method === "head" || response.status === 204 || response.status === 205) {
+    return false;
+  }
+  if (isExplicitNonJsonResponse(response)) return false;
+
+  return (
+    typeof data !== "object" ||
+    data === null ||
+    Array.isArray(data) ||
+    Object.keys(data).length === 0
+  );
+};
+
+const resolveInvalidResponseMessage = (
+  value: ApiClientOptions["invalidResponseMessage"],
+): string => {
+  try {
+    const message = typeof value === "function" ? value() : value;
+    return message?.trim() || DEFAULT_INVALID_RESPONSE_MESSAGE;
+  } catch {
+    return DEFAULT_INVALID_RESPONSE_MESSAGE;
+  }
+};
+
+const invalidResponseError = (
+  response: AxiosResponse<unknown>,
+  message: string,
+) =>
+  new AxiosError(
+    message,
+    INVALID_API_RESPONSE_ERROR_CODE,
+    response.config,
+    response.request,
+    {
+      ...response,
+      // Do not leak an HTML login/index document through generic error
+      // extractors. Callers receive a stable API-shaped error instead.
+      data: { success: false, message },
+    },
+  );
+
+export const isInvalidApiResponseError = (error: unknown): boolean =>
+  axios.isAxiosError(error) && error.code === INVALID_API_RESPONSE_ERROR_CODE;
+
+export const attachApiResponseValidationInterceptor = (
+  apiClient: AxiosInstance,
+  invalidResponseMessage?: ApiClientOptions["invalidResponseMessage"],
+) => {
+  apiClient.interceptors.response.use(async (response) => {
+    if (await isInvalidSuccessfulResponse(response)) {
+      throw invalidResponseError(
+        response,
+        resolveInvalidResponseMessage(invalidResponseMessage),
+      );
+    }
+    return response;
+  });
+
+  return apiClient;
+};
+
+export const attachApiErrorMessageInterceptor = (apiClient: AxiosInstance) => {
+  apiClient.interceptors.response.use(
+    (response) => response,
+    (error) => {
+      if (axios.isAxiosError(error)) {
+        const message = extractErrorMessage(error, "");
+        if (message) {
+          error.message = message;
+        }
+      }
+
+      return Promise.reject(error);
+    },
+  );
+
+  return apiClient;
+};
+
+export function createApiClient(options: ApiClientOptions) {
+  const apiClient = axios.create({
+    baseURL: options.baseURL,
+    withCredentials: options.withCredentials,
+  });
+  attachApiResponseValidationInterceptor(
+    apiClient,
+    options.invalidResponseMessage,
+  );
+  return attachApiErrorMessageInterceptor(apiClient);
+}

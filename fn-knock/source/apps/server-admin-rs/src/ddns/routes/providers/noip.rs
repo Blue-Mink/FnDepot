@@ -1,1 +1,195 @@
-dXNlIHN1cGVyOjoqOwp1c2UgY3JhdGU6OmFwcF92ZXJzaW9uOjp7QVBQX0dJVEhVQl9VUkwsIEFQUF9MT0NBTF9WRVJTSU9OfTsKCnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBmbiBub2lwX2NhdGFsb2dfZW50cnkoKSAtPiBWYWx1ZSB7CiAgICBwcm92aWRlcigKICAgICAgICAibm9pcCIsCiAgICAgICAgIk5PLUlQIiwKICAgICAgICB2ZWMhWwogICAgICAgICAgICBmaWVsZCgiaG9zdG5hbWUiLCAiSG9zdG5hbWUiLCAidGV4dCIsICJob21lLmRkbnMubmV0IiwgdHJ1ZSksCiAgICAgICAgICAgIGZpZWxkKCJ1c2VybmFtZSIsICJVc2VybmFtZSIsICJ0ZXh0IiwgIkRETlMgS2V5IFVzZXJuYW1lIiwgdHJ1ZSksCiAgICAgICAgICAgIGZpZWxkKAogICAgICAgICAgICAgICAgInBhc3N3b3JkIiwKICAgICAgICAgICAgICAgICJQYXNzd29yZCIsCiAgICAgICAgICAgICAgICAicGFzc3dvcmQiLAogICAgICAgICAgICAgICAgIkRETlMgS2V5IFBhc3N3b3JkIiwKICAgICAgICAgICAgICAgIHRydWUsCiAgICAgICAgICAgICksCiAgICAgICAgXSwKICAgICkKfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGFzeW5jIGZuIHVwZGF0ZV9ub2lwKAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICBjb25maWc6ICZIYXNoTWFwPFN0cmluZywgU3RyaW5nPiwKICAgIGh0dHBfb3B0aW9uczogJkRETlNIdHRwQ2xpZW50T3B0aW9ucywKICAgIGlwdjQ6IE9wdGlvbjwmc3RyPiwKICAgIGlwdjY6IE9wdGlvbjwmc3RyPiwKKSAtPiBhbnlob3c6OlJlc3VsdDxERE5TUHJvdmlkZXJVcGRhdGVSZXN1bHQ+IHsKICAgIGxldCBob3N0bmFtZSA9IGNvbmZpZ192YWx1ZShjb25maWcsICJob3N0bmFtZSIpOwogICAgbGV0IHVzZXJuYW1lID0gY29uZmlnX3ZhbHVlKGNvbmZpZywgInVzZXJuYW1lIik7CiAgICBsZXQgcGFzc3dvcmQgPSBjb25maWdfdmFsdWUoY29uZmlnLCAicGFzc3dvcmQiKTsKICAgIGlmIGhvc3RuYW1lLmlzX2VtcHR5KCkgfHwgdXNlcm5hbWUuaXNfZW1wdHkoKSB8fCBwYXNzd29yZC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gT2socHJvdmlkZXJfZmFpbHVyZShkZG5zX3RleHQoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJwcm92aWRlcnMubm9pcC5jb25maWdJbmNvbXBsZXRlIiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpKTsKICAgIH0KICAgIGlmIGlwdjQuaXNfbm9uZSgpICYmIGlwdjYuaXNfbm9uZSgpIHsKICAgICAgICByZXR1cm4gT2socHJvdmlkZXJfZmFpbHVyZShkZG5zX3RleHQoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJwcm92aWRlcnMubm9pcC5ub0lwQXZhaWxhYmxlIiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpKTsKICAgIH0KICAgIGxldCBtdXQgcXVlcnkgPSB2ZWMhWygiaG9zdG5hbWUiLCBob3N0bmFtZSldOwogICAgbGV0IGNvbWJpbmVkOwogICAgaWYgbGV0IChTb21lKGlwdjQpLCBTb21lKGlwdjYpKSA9IChpcHY0LCBpcHY2KSB7CiAgICAgICAgY29tYmluZWQgPSBmb3JtYXQhKCJ7aXB2NH0se2lwdjZ9Iik7CiAgICAgICAgcXVlcnkucHVzaCgoIm15aXAiLCBjb21iaW5lZC5jbG9uZSgpKSk7CiAgICB9IGVsc2UgaWYgbGV0IFNvbWUoaXB2NCkgPSBpcHY0IHsKICAgICAgICBxdWVyeS5wdXNoKCgibXlpcCIsIGlwdjQudG9fc3RyaW5nKCkpKTsKICAgIH0gZWxzZSBpZiBsZXQgU29tZShpcHY2KSA9IGlwdjYgewogICAgICAgIHF1ZXJ5LnB1c2goKCJteWlwdjYiLCBpcHY2LnRvX3N0cmluZygpKSk7CiAgICB9CiAgICBsZXQgY2xpZW50ID0gZGRuc19odHRwX2NsaWVudCh0cmFuc2xhdG9yLCBodHRwX29wdGlvbnMpCiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBwcm92aWRlcl9yZXF1ZXN0X2Vycm9yKHRyYW5zbGF0b3IsICJub2lwIiwgZXJyb3IpKT87CiAgICBsZXQgYXV0aG9yaXphdGlvbiA9IEJBU0U2NF9TVEFOREFSRC5lbmNvZGUoZm9ybWF0ISgie3VzZXJuYW1lfTp7cGFzc3dvcmR9IikpOwogICAgbGV0IHJlc3BvbnNlID0gY2xpZW50CiAgICAgICAgLmdldChidWlsZF9xdWVyeV91cmwoCiAgICAgICAgICAgICJodHRwczovL2R5bnVwZGF0ZS5uby1pcC5jb20vbmljL3VwZGF0ZSIsCiAgICAgICAgICAgICZxdWVyeSwKICAgICAgICApKQogICAgICAgIC5oZWFkZXIocmVxd2VzdDo6aGVhZGVyOjpBQ0NFUFQsICJ0ZXh0L3BsYWluIikKICAgICAgICAuaGVhZGVyKHJlcXdlc3Q6OmhlYWRlcjo6VVNFUl9BR0VOVCwgbm9pcF91c2VyX2FnZW50KCkpCiAgICAgICAgLmhlYWRlcigKICAgICAgICAgICAgcmVxd2VzdDo6aGVhZGVyOjpBVVRIT1JJWkFUSU9OLAogICAgICAgICAgICBmb3JtYXQhKCJCYXNpYyB7YXV0aG9yaXphdGlvbn0iKSwKICAgICAgICApCiAgICAgICAgLnNlbmQoKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgcHJvdmlkZXJfcmVxdWVzdF9lcnJvcih0cmFuc2xhdG9yLCAibm9pcCIsIGVycm9yKSk/OwogICAgbGV0IHN0YXR1cyA9IHJlc3BvbnNlLnN0YXR1cygpOwogICAgbGV0IHRleHQgPSByZXNwb25zZV90ZXh0KHJlc3BvbnNlKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgcHJvdmlkZXJfcmVxdWVzdF9lcnJvcih0cmFuc2xhdG9yLCAibm9pcCIsIGVycm9yKSk/OwogICAgaWYgIXN0YXR1cy5pc19zdWNjZXNzKCkgewogICAgICAgIHJldHVybiBPayhwcm92aWRlcl9mYWlsdXJlKGRkbnNfdGV4dCgKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgInByb3ZpZGVycy5ub2lwLnVwZGF0ZUZhaWxlZFdpdGhTdGF0dXMiLAogICAgICAgICAgICAmWwogICAgICAgICAgICAgICAgKCJzdGF0dXMiLCBzdGF0dXMuYXNfdTE2KCkudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAgICAgKAogICAgICAgICAgICAgICAgICAgICJkZXRhaWwiLAogICAgICAgICAgICAgICAgICAgIGlmIHRleHQuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRkbnNfdGV4dCh0cmFuc2xhdG9yLCAicHJvdmlkZXJzLm5vaXAucmVxdWVzdEZhaWxlZCIsICZbXSkKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICB0ZXh0CiAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgIF0sCiAgICAgICAgKSkpOwogICAgfQogICAgbGV0IHN0YXR1c2VzID0gdGV4dAogICAgICAgIC5saW5lcygpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8bGluZXwgIWxpbmUuaXNfZW1wdHkoKSkKICAgICAgICAubWFwKHxsaW5lfCB7CiAgICAgICAgICAgIGxldCBtdXQgcGFydHMgPSBsaW5lLnNwbGl0X3doaXRlc3BhY2UoKTsKICAgICAgICAgICAgbGV0IGNvZGUgPSBwYXJ0cy5uZXh0KCkudW53cmFwX29yKCIiKS50b19zdHJpbmcoKTsKICAgICAgICAgICAgbGV0IGRldGFpbCA9IHBhcnRzLmNvbGxlY3Q6OjxWZWM8Xz4+KCkuam9pbigiICIpOwogICAgICAgICAgICAoY29kZSwgZGV0YWlsKQogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBpZiBzdGF0dXNlcy5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gT2socHJvdmlkZXJfZmFpbHVyZShkZG5zX3RleHQoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJwcm92aWRlcnMubm9pcC5lbXB0eVJlc3BvbnNlIiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpKTsKICAgIH0KICAgIGxldCBmYWlsdXJlcyA9IHN0YXR1c2VzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXIofChjb2RlLCBfKXwgY29kZSAhPSAiZ29vZCIgJiYgY29kZSAhPSAibm9jaGciKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgaWYgIWZhaWx1cmVzLmlzX2VtcHR5KCkgewogICAgICAgIGxldCBkZXRhaWwgPSBmYWlsdXJlcwogICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgLm1hcCh8KGNvZGUsIGRldGFpbCl8IG5vaXBfc3RhdHVzX21lc3NhZ2UodHJhbnNsYXRvciwgY29kZSwgZGV0YWlsKSkKICAgICAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCkKICAgICAgICAgICAgLmpvaW4oIjsgIik7CiAgICAgICAgcmV0dXJuIE9rKHByb3ZpZGVyX2ZhaWx1cmUoZGRuc190ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAicHJvdmlkZXJzLm5vaXAudXBkYXRlRmFpbGVkIiwKICAgICAgICAgICAgJlsoImRldGFpbCIsIGRldGFpbCldLAogICAgICAgICkpKTsKICAgIH0KICAgIGxldCBjaGFuZ2VkID0gc3RhdHVzZXMuaXRlcigpLmFueSh8KGNvZGUsIF8pfCBjb2RlID09ICJnb29kIik7CiAgICBPayhERE5TUHJvdmlkZXJVcGRhdGVSZXN1bHQgewogICAgICAgIHN1Y2Nlc3M6IHRydWUsCiAgICAgICAgbWVzc2FnZTogaWYgY2hhbmdlZCB7CiAgICAgICAgICAgIGRkbnNfdGV4dCgKICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAicHJvdmlkZXJzLm5vaXAudXBkYXRlU3VjY2VzcyIsCiAgICAgICAgICAgICAgICAmWygiZGV0YWlsIiwgbm9pcF9kZXRhaWxfc3VmZml4KCZzdGF0dXNlcykpXSwKICAgICAgICAgICAgKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGRkbnNfdGV4dCgKICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAicHJvdmlkZXJzLm5vaXAuaXBVbmNoYW5nZWQiLAogICAgICAgICAgICAgICAgJlsoImRldGFpbCIsIG5vaXBfZGV0YWlsX3N1ZmZpeCgmc3RhdHVzZXMpKV0sCiAgICAgICAgICAgICkKICAgICAgICB9LAogICAgfSkKfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIG5vaXBfc3RhdHVzX21lc3NhZ2UoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIGNvZGU6ICZzdHIsCiAgICByYXdfZGV0YWlsOiAmc3RyLAopIC0+IFN0cmluZyB7CiAgICBsZXQga25vd24gPSBtYXRjaGVzISgKICAgICAgICBjb2RlLAogICAgICAgICJub2hvc3QiIHwgImJhZGF1dGgiIHwgImJhZGFnZW50IiB8ICIhZG9uYXRvciIgfCAiYWJ1c2UiIHwgIjkxMSIKICAgICk7CiAgICBsZXQgcmVhc29uID0gaWYga25vd24gewogICAgICAgIGRkbnNfdGV4dCgKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgJmZvcm1hdCEoInByb3ZpZGVycy5ub2lwLnN0YXR1c01lc3NhZ2VzLntjb2RlfSIpLAogICAgICAgICAgICAmW10sCiAgICAgICAgKQogICAgfSBlbHNlIGlmIHJhd19kZXRhaWwuaXNfZW1wdHkoKSB7CiAgICAgICAgZGRuc190ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAicHJvdmlkZXJzLm5vaXAudW5rbm93blN0YXR1cyIsCiAgICAgICAgICAgICZbKCJjb2RlIiwgY29kZS50b19zdHJpbmcoKSldLAogICAgICAgICkKICAgIH0gZWxzZSB7CiAgICAgICAgcmF3X2RldGFpbC50b19zdHJpbmcoKQogICAgfTsKICAgIGlmIGtub3duICYmICFyYXdfZGV0YWlsLmlzX2VtcHR5KCkgewogICAgICAgIGZvcm1hdCEoIntjb2RlfSAoe3JlYXNvbn07IHtyYXdfZGV0YWlsfSkiKQogICAgfSBlbHNlIHsKICAgICAgICBmb3JtYXQhKCJ7Y29kZX0gKHtyZWFzb259KSIpCiAgICB9Cn0KCnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBmbiBub2lwX2RldGFpbF9zdWZmaXgoc3RhdHVzZXM6ICZbKFN0cmluZywgU3RyaW5nKV0pIC0+IFN0cmluZyB7CiAgICBsZXQgZGV0YWlscyA9IHN0YXR1c2VzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXJfbWFwKHwoXywgZGV0YWlsKXwgewogICAgICAgICAgICBsZXQgZGV0YWlsID0gZGV0YWlsLnRyaW0oKTsKICAgICAgICAgICAgKCFkZXRhaWwuaXNfZW1wdHkoKSkudGhlbih8fCBkZXRhaWwudG9fc3RyaW5nKCkpCiAgICAgICAgfSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGlmIGRldGFpbHMuaXNfZW1wdHkoKSB7CiAgICAgICAgU3RyaW5nOjpuZXcoKQogICAgfSBlbHNlIHsKICAgICAgICBmb3JtYXQhKCIgKHt9KSIsIGRldGFpbHMuam9pbigiOyAiKSkKICAgIH0KfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIG5vaXBfdXNlcl9hZ2VudCgpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJmbi1rbm9jay97QVBQX0xPQ0FMX1ZFUlNJT059ICh7QVBQX0dJVEhVQl9VUkx9KSIpCn0K
+use super::*;
+use crate::app_version::{APP_GITHUB_URL, APP_LOCAL_VERSION};
+
+pub(in crate::ddns::routes) fn noip_catalog_entry() -> Value {
+    provider(
+        "noip",
+        "NO-IP",
+        vec![
+            field("hostname", "Hostname", "text", "home.ddns.net", true),
+            field("username", "Username", "text", "DDNS Key Username", true),
+            field(
+                "password",
+                "Password",
+                "password",
+                "DDNS Key Password",
+                true,
+            ),
+        ],
+    )
+}
+
+pub(in crate::ddns::routes) async fn update_noip(
+    translator: &Translator,
+    config: &HashMap<String, String>,
+    http_options: &DDNSHttpClientOptions,
+    ipv4: Option<&str>,
+    ipv6: Option<&str>,
+) -> anyhow::Result<DDNSProviderUpdateResult> {
+    let hostname = config_value(config, "hostname");
+    let username = config_value(config, "username");
+    let password = config_value(config, "password");
+    if hostname.is_empty() || username.is_empty() || password.is_empty() {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.noip.configIncomplete",
+            &[],
+        )));
+    }
+    if ipv4.is_none() && ipv6.is_none() {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.noip.noIpAvailable",
+            &[],
+        )));
+    }
+    let mut query = vec![("hostname", hostname)];
+    let combined;
+    if let (Some(ipv4), Some(ipv6)) = (ipv4, ipv6) {
+        combined = format!("{ipv4},{ipv6}");
+        query.push(("myip", combined.clone()));
+    } else if let Some(ipv4) = ipv4 {
+        query.push(("myip", ipv4.to_string()));
+    } else if let Some(ipv6) = ipv6 {
+        query.push(("myipv6", ipv6.to_string()));
+    }
+    let client = ddns_http_client(translator, http_options)
+        .map_err(|error| provider_request_error(translator, "noip", error))?;
+    let authorization = BASE64_STANDARD.encode(format!("{username}:{password}"));
+    let response = client
+        .get(build_query_url(
+            "https://dynupdate.no-ip.com/nic/update",
+            &query,
+        ))
+        .header(reqwest::header::ACCEPT, "text/plain")
+        .header(reqwest::header::USER_AGENT, noip_user_agent())
+        .header(
+            reqwest::header::AUTHORIZATION,
+            format!("Basic {authorization}"),
+        )
+        .send()
+        .await
+        .map_err(|error| provider_request_error(translator, "noip", error))?;
+    let status = response.status();
+    let text = response_text(response)
+        .await
+        .map_err(|error| provider_request_error(translator, "noip", error))?;
+    if !status.is_success() {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.noip.updateFailedWithStatus",
+            &[
+                ("status", status.as_u16().to_string()),
+                (
+                    "detail",
+                    if text.is_empty() {
+                        ddns_text(translator, "providers.noip.requestFailed", &[])
+                    } else {
+                        text
+                    },
+                ),
+            ],
+        )));
+    }
+    let statuses = text
+        .lines()
+        .map(str::trim)
+        .filter(|line| !line.is_empty())
+        .map(|line| {
+            let mut parts = line.split_whitespace();
+            let code = parts.next().unwrap_or("").to_string();
+            let detail = parts.collect::<Vec<_>>().join(" ");
+            (code, detail)
+        })
+        .collect::<Vec<_>>();
+    if statuses.is_empty() {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.noip.emptyResponse",
+            &[],
+        )));
+    }
+    let failures = statuses
+        .iter()
+        .filter(|(code, _)| code != "good" && code != "nochg")
+        .collect::<Vec<_>>();
+    if !failures.is_empty() {
+        let detail = failures
+            .into_iter()
+            .map(|(code, detail)| noip_status_message(translator, code, detail))
+            .collect::<Vec<_>>()
+            .join("; ");
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.noip.updateFailed",
+            &[("detail", detail)],
+        )));
+    }
+    let changed = statuses.iter().any(|(code, _)| code == "good");
+    Ok(DDNSProviderUpdateResult {
+        success: true,
+        message: if changed {
+            ddns_text(
+                translator,
+                "providers.noip.updateSuccess",
+                &[("detail", noip_detail_suffix(&statuses))],
+            )
+        } else {
+            ddns_text(
+                translator,
+                "providers.noip.ipUnchanged",
+                &[("detail", noip_detail_suffix(&statuses))],
+            )
+        },
+    })
+}
+
+pub(in crate::ddns::routes) fn noip_status_message(
+    translator: &Translator,
+    code: &str,
+    raw_detail: &str,
+) -> String {
+    let known = matches!(
+        code,
+        "nohost" | "badauth" | "badagent" | "!donator" | "abuse" | "911"
+    );
+    let reason = if known {
+        ddns_text(
+            translator,
+            &format!("providers.noip.statusMessages.{code}"),
+            &[],
+        )
+    } else if raw_detail.is_empty() {
+        ddns_text(
+            translator,
+            "providers.noip.unknownStatus",
+            &[("code", code.to_string())],
+        )
+    } else {
+        raw_detail.to_string()
+    };
+    if known && !raw_detail.is_empty() {
+        format!("{code} ({reason}; {raw_detail})")
+    } else {
+        format!("{code} ({reason})")
+    }
+}
+
+pub(in crate::ddns::routes) fn noip_detail_suffix(statuses: &[(String, String)]) -> String {
+    let details = statuses
+        .iter()
+        .filter_map(|(_, detail)| {
+            let detail = detail.trim();
+            (!detail.is_empty()).then(|| detail.to_string())
+        })
+        .collect::<Vec<_>>();
+    if details.is_empty() {
+        String::new()
+    } else {
+        format!(" ({})", details.join("; "))
+    }
+}
+
+pub(in crate::ddns::routes) fn noip_user_agent() -> String {
+    format!("fn-knock/{APP_LOCAL_VERSION} ({APP_GITHUB_URL})")
+}

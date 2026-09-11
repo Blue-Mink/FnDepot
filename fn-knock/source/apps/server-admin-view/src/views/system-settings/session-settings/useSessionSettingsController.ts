@@ -1,1 +1,283 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgcmVhY3RpdmUsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IENvbmZpZ0FQSSB9IGZyb20gIkAvbGliL2FwaS9jb25maWciOwppbXBvcnQgdHlwZSB7CiAgQXV0aENyZWRlbnRpYWxTZXR0aW5ncywKICBQb3N0TG9naW5JcEdyYW50TW9kZSwKfSBmcm9tICIuLi8uLi8uLi90eXBlcyI7CmltcG9ydCB7IHVzZUNvbmZpZ1N0b3JlIH0gZnJvbSAiLi4vLi4vLi4vc3RvcmUvY29uZmlnIjsKaW1wb3J0IHsKICBleHRyYWN0RXJyb3JNZXNzYWdlLAogIHVzZUFzeW5jQWN0aW9uLAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB1c2VEZWxheWVkTG9hZGluZyB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlRGVsYXllZExvYWRpbmciOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgewogIGR1cmF0aW9uVW5pdHMsCiAgaXBHcmFudER1cmF0aW9uVW5pdHMsCiAgbW9iaWxpdHlXaW5kb3dEdXJhdGlvblVuaXRzLAogIHNwbGl0RHVyYXRpb24sCiAgdG9EdXJhdGlvblNlY29uZHMsCiAgdHlwZSBTZXNzaW9uRHVyYXRpb25GaWVsZCwKfSBmcm9tICIuL3Nlc3Npb25EdXJhdGlvbk1vZGVsIjsKaW1wb3J0IHsgdXNlU2Vzc2lvbkNvb2tpZVNjb3BlIH0gZnJvbSAiLi91c2VTZXNzaW9uQ29va2llU2NvcGUiOwoKdHlwZSBTZXNzaW9uU2V0dGluZ3NGb3JtID0gewogIHNlc3Npb246IFNlc3Npb25EdXJhdGlvbkZpZWxkOwogIHJlbWVtYmVyTWU6IFNlc3Npb25EdXJhdGlvbkZpZWxkOwogIHBvc3RMb2dpbklwR3JhbnRNb2RlOiBQb3N0TG9naW5JcEdyYW50TW9kZTsKICBjdXN0b21HcmFudDogU2Vzc2lvbkR1cmF0aW9uRmllbGQ7CiAgc2Vzc2lvbklwTW9iaWxpdHlFbmFibGVkOiBib29sZWFuOwogIHNlc3Npb25JcE1vYmlsaXR5V2luZG93OiBTZXNzaW9uRHVyYXRpb25GaWVsZDsKfTsKCmV4cG9ydCBmdW5jdGlvbiB1c2VTZXNzaW9uU2V0dGluZ3NDb250cm9sbGVyKCkgewogIGNvbnN0IGNvbmZpZ1N0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKICBjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKICBjb25zdCBzZXR0aW5ncyA9IHJlZjxBdXRoQ3JlZGVudGlhbFNldHRpbmdzIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgZm9ybSA9IHJlYWN0aXZlPFNlc3Npb25TZXR0aW5nc0Zvcm0+KHsKICAgIHNlc3Npb246IHsgdmFsdWU6IDI0LCB1bml0OiAiaG91ciIgfSwKICAgIHJlbWVtYmVyTWU6IHsgdmFsdWU6IDEsIHVuaXQ6ICJ5ZWFyIiB9LAogICAgcG9zdExvZ2luSXBHcmFudE1vZGU6ICJmb2xsb3dfc2Vzc2lvbiIsCiAgICBjdXN0b21HcmFudDogeyB2YWx1ZTogMSwgdW5pdDogImhvdXIiIH0sCiAgICBzZXNzaW9uSXBNb2JpbGl0eUVuYWJsZWQ6IGZhbHNlLAogICAgc2Vzc2lvbklwTW9iaWxpdHlXaW5kb3c6IHsgdmFsdWU6IDIwLCB1bml0OiAibWludXRlIiB9LAogIH0pOwoKICBjb25zdCBwb3N0TG9naW5JcEdyYW50TW9kZU9wdGlvbnMgPSBjb21wdXRlZCgoKSA9PiBbCiAgICB7CiAgICAgIHZhbHVlOiAiZm9sbG93X3Nlc3Npb24iIGFzIGNvbnN0LAogICAgICB0aXRsZTogdCgiYWRtaW4uc2Vzc2lvblNldHRpbmdzLmdyYW50TW9kZXMuZm9sbG93U2Vzc2lvbi50aXRsZSIpLAogICAgICBkZXNjcmlwdGlvbjogdCgKICAgICAgICAiYWRtaW4uc2Vzc2lvblNldHRpbmdzLmdyYW50TW9kZXMuZm9sbG93U2Vzc2lvbi5kZXNjcmlwdGlvbiIsCiAgICAgICksCiAgICB9LAogICAgewogICAgICB2YWx1ZTogImRpc2FibGVkIiBhcyBjb25zdCwKICAgICAgdGl0bGU6IHQoImFkbWluLnNlc3Npb25TZXR0aW5ncy5ncmFudE1vZGVzLmRpc2FibGVkLnRpdGxlIiksCiAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5zZXNzaW9uU2V0dGluZ3MuZ3JhbnRNb2Rlcy5kaXNhYmxlZC5kZXNjcmlwdGlvbiIpLAogICAgfSwKICAgIHsKICAgICAgdmFsdWU6ICJjdXN0b20iIGFzIGNvbnN0LAogICAgICB0aXRsZTogdCgiYWRtaW4uc2Vzc2lvblNldHRpbmdzLmdyYW50TW9kZXMuY3VzdG9tLnRpdGxlIiksCiAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5zZXNzaW9uU2V0dGluZ3MuZ3JhbnRNb2Rlcy5jdXN0b20uZGVzY3JpcHRpb24iKSwKICAgIH0sCiAgXSk7CgogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc0xvYWRpbmcsIHJ1bjogcnVuTG9hZFNldHRpbmdzIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uc2Vzc2lvblNldHRpbmdzLmxvYWRGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5zZXNzaW9uU2V0dGluZ3MubG9hZERlc2NyaXB0aW9uIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwogIGNvbnN0IHNob3dMb2FkaW5nU2tlbGV0b24gPSB1c2VEZWxheWVkTG9hZGluZyhpc0xvYWRpbmcpOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1NhdmluZywgcnVuOiBydW5TYXZlU2V0dGluZ3MgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5zZXNzaW9uU2V0dGluZ3Muc2F2ZUZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLnNlc3Npb25TZXR0aW5ncy5zYXZlRGVzY3JpcHRpb24iKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IGZvcm1hdER1cmF0aW9uID0gKHNlY29uZHM6IG51bWJlciwgdW5pdHMgPSBkdXJhdGlvblVuaXRzKTogc3RyaW5nID0+IHsKICAgIGNvbnN0IG5vcm1hbGl6ZWQgPSBzcGxpdER1cmF0aW9uKHNlY29uZHMsIHVuaXRzKTsKICAgIGNvbnN0IGxhYmVsID0KICAgICAgdW5pdHMuZmluZCgoaXRlbSkgPT4gaXRlbS52YWx1ZSA9PT0gbm9ybWFsaXplZC51bml0KT8ubGFiZWxLZXkgfHwgIiI7CiAgICBjb25zdCB1bml0TGFiZWwgPSBsYWJlbCA/IHQobGFiZWwpIDogbm9ybWFsaXplZC51bml0OwogICAgcmV0dXJuIGAke25vcm1hbGl6ZWQudmFsdWV9ICR7dW5pdExhYmVsfWA7CiAgfTsKCiAgY29uc3QgY29va2llU2NvcGUgPSB1c2VTZXNzaW9uQ29va2llU2NvcGUoKTsKICBjb25zdCBzZXNzaW9uVHRsU2Vjb25kcyA9IGNvbXB1dGVkKCgpID0+IHRvRHVyYXRpb25TZWNvbmRzKGZvcm0uc2Vzc2lvbikpOwogIGNvbnN0IHJlbWVtYmVyTWVUdGxTZWNvbmRzID0gY29tcHV0ZWQoKCkgPT4KICAgIHRvRHVyYXRpb25TZWNvbmRzKGZvcm0ucmVtZW1iZXJNZSksCiAgKTsKICBjb25zdCBjdXN0b21HcmFudFR0bFNlY29uZHMgPSBjb21wdXRlZCgoKSA9PgogICAgdG9EdXJhdGlvblNlY29uZHMoZm9ybS5jdXN0b21HcmFudCksCiAgKTsKICBjb25zdCBzZXNzaW9uSXBNb2JpbGl0eVdpbmRvd1NlY29uZHMgPSBjb21wdXRlZCgoKSA9PgogICAgdG9EdXJhdGlvblNlY29uZHMoZm9ybS5zZXNzaW9uSXBNb2JpbGl0eVdpbmRvdyksCiAgKTsKCiAgY29uc3QgaXNEaXJ0eSA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGlmICghc2V0dGluZ3MudmFsdWUpIHJldHVybiBmYWxzZTsKICAgIGNvbnN0IHN0b3JlZEdyYW50VHRsID0KICAgICAgc2V0dGluZ3MudmFsdWUucG9zdF9sb2dpbl9pcF9ncmFudF90dGxfc2Vjb25kcyA/PyAzXzYwMDsKICAgIGNvbnN0IHNob3VsZENvbXBhcmVDdXN0b21HcmFudFR0bCA9CiAgICAgIHNldHRpbmdzLnZhbHVlLnBvc3RfbG9naW5faXBfZ3JhbnRfbW9kZSA9PT0gImN1c3RvbSIgfHwKICAgICAgZm9ybS5wb3N0TG9naW5JcEdyYW50TW9kZSA9PT0gImN1c3RvbSI7CiAgICByZXR1cm4gKAogICAgICBzZXR0aW5ncy52YWx1ZS5zZXNzaW9uX3R0bF9zZWNvbmRzICE9PSBzZXNzaW9uVHRsU2Vjb25kcy52YWx1ZSB8fAogICAgICBzZXR0aW5ncy52YWx1ZS5yZW1lbWJlcl9tZV90dGxfc2Vjb25kcyAhPT0gcmVtZW1iZXJNZVR0bFNlY29uZHMudmFsdWUgfHwKICAgICAgc2V0dGluZ3MudmFsdWUucG9zdF9sb2dpbl9pcF9ncmFudF9tb2RlICE9PSBmb3JtLnBvc3RMb2dpbklwR3JhbnRNb2RlIHx8CiAgICAgIHNldHRpbmdzLnZhbHVlLnNlc3Npb25faXBfbW9iaWxpdHlfZW5hYmxlZCAhPT0KICAgICAgICBmb3JtLnNlc3Npb25JcE1vYmlsaXR5RW5hYmxlZCB8fAogICAgICBzZXR0aW5ncy52YWx1ZS5zZXNzaW9uX2lwX21vYmlsaXR5X3dpbmRvd19zZWNvbmRzICE9PQogICAgICAgIHNlc3Npb25JcE1vYmlsaXR5V2luZG93U2Vjb25kcy52YWx1ZSB8fAogICAgICAoc2hvdWxkQ29tcGFyZUN1c3RvbUdyYW50VHRsICYmCiAgICAgICAgc3RvcmVkR3JhbnRUdGwgIT09IGN1c3RvbUdyYW50VHRsU2Vjb25kcy52YWx1ZSkKICAgICk7CiAgfSk7CgogIGNvbnN0IGdyYW50TW9kZVN1bW1hcnkgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBzd2l0Y2ggKGZvcm0ucG9zdExvZ2luSXBHcmFudE1vZGUpIHsKICAgICAgY2FzZSAiZm9sbG93X3Nlc3Npb24iOgogICAgICAgIHJldHVybiB0KCJhZG1pbi5zZXNzaW9uU2V0dGluZ3MuZ3JhbnRTdW1tYXJ5LmZvbGxvd1Nlc3Npb24iKTsKICAgICAgY2FzZSAiZGlzYWJsZWQiOgogICAgICAgIHJldHVybiB0KCJhZG1pbi5zZXNzaW9uU2V0dGluZ3MuZ3JhbnRTdW1tYXJ5LmRpc2FibGVkIik7CiAgICAgIGNhc2UgImN1c3RvbSI6CiAgICAgICAgcmV0dXJuIHQoImFkbWluLnNlc3Npb25TZXR0aW5ncy5ncmFudFN1bW1hcnkuY3VzdG9tIiwgewogICAgICAgICAgZHVyYXRpb246IGZvcm1hdER1cmF0aW9uKAogICAgICAgICAgICBjdXN0b21HcmFudFR0bFNlY29uZHMudmFsdWUsCiAgICAgICAgICAgIGlwR3JhbnREdXJhdGlvblVuaXRzLAogICAgICAgICAgKSwKICAgICAgICB9KTsKICAgICAgZGVmYXVsdDoKICAgICAgICByZXR1cm4gIiI7CiAgICB9CiAgfSk7CgogIGNvbnN0IHNlc3Npb25JcE1vYmlsaXR5U3VtbWFyeSA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGlmICghZm9ybS5zZXNzaW9uSXBNb2JpbGl0eUVuYWJsZWQpIHsKICAgICAgcmV0dXJuIHQoImFkbWluLnNlc3Npb25TZXR0aW5ncy5tb2JpbGl0eVN1bW1hcnkuZGlzYWJsZWQiKTsKICAgIH0KICAgIHJldHVybiB0KCJhZG1pbi5zZXNzaW9uU2V0dGluZ3MubW9iaWxpdHlTdW1tYXJ5LmVuYWJsZWQiLCB7CiAgICAgIGR1cmF0aW9uOiBmb3JtYXREdXJhdGlvbigKICAgICAgICBzZXNzaW9uSXBNb2JpbGl0eVdpbmRvd1NlY29uZHMudmFsdWUsCiAgICAgICAgbW9iaWxpdHlXaW5kb3dEdXJhdGlvblVuaXRzLAogICAgICApLAogICAgfSk7CiAgfSk7CgogIGNvbnN0IGFwcGx5RnJvbVNldHRpbmdzID0gKGRhdGE6IEF1dGhDcmVkZW50aWFsU2V0dGluZ3MpID0+IHsKICAgIHNldHRpbmdzLnZhbHVlID0gZGF0YTsKICAgIE9iamVjdC5hc3NpZ24oZm9ybS5zZXNzaW9uLCBzcGxpdER1cmF0aW9uKGRhdGEuc2Vzc2lvbl90dGxfc2Vjb25kcykpOwogICAgT2JqZWN0LmFzc2lnbihmb3JtLnJlbWVtYmVyTWUsIHNwbGl0RHVyYXRpb24oZGF0YS5yZW1lbWJlcl9tZV90dGxfc2Vjb25kcykpOwogICAgZm9ybS5wb3N0TG9naW5JcEdyYW50TW9kZSA9IGRhdGEucG9zdF9sb2dpbl9pcF9ncmFudF9tb2RlOwogICAgT2JqZWN0LmFzc2lnbigKICAgICAgZm9ybS5jdXN0b21HcmFudCwKICAgICAgc3BsaXREdXJhdGlvbigKICAgICAgICBkYXRhLnBvc3RfbG9naW5faXBfZ3JhbnRfdHRsX3NlY29uZHMgPz8gM182MDAsCiAgICAgICAgaXBHcmFudER1cmF0aW9uVW5pdHMsCiAgICAgICksCiAgICApOwogICAgZm9ybS5zZXNzaW9uSXBNb2JpbGl0eUVuYWJsZWQgPSBkYXRhLnNlc3Npb25faXBfbW9iaWxpdHlfZW5hYmxlZCA9PT0gdHJ1ZTsKICAgIE9iamVjdC5hc3NpZ24oCiAgICAgIGZvcm0uc2Vzc2lvbklwTW9iaWxpdHlXaW5kb3csCiAgICAgIHNwbGl0RHVyYXRpb24oCiAgICAgICAgZGF0YS5zZXNzaW9uX2lwX21vYmlsaXR5X3dpbmRvd19zZWNvbmRzID8/IDIwICogNjAsCiAgICAgICAgbW9iaWxpdHlXaW5kb3dEdXJhdGlvblVuaXRzLAogICAgICApLAogICAgKTsKICB9OwoKICBjb25zdCBmZXRjaFNldHRpbmdzID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuTG9hZFNldHRpbmdzKGFzeW5jICgpID0+IHsKICAgICAgYXBwbHlGcm9tU2V0dGluZ3MoYXdhaXQgQ29uZmlnQVBJLmdldEF1dGhDcmVkZW50aWFsU2V0dGluZ3MoKSk7CiAgICB9KTsKICB9OwogIGNvbnN0IHJlc2V0Rm9ybSA9ICgpID0+IHsKICAgIGlmIChzZXR0aW5ncy52YWx1ZSkgYXBwbHlGcm9tU2V0dGluZ3Moc2V0dGluZ3MudmFsdWUpOwogIH07CgogIGNvbnN0IHNob3dWYWxpZGF0aW9uRXJyb3IgPSAoZGVzY3JpcHRpb25LZXk6IHN0cmluZykgPT4gewogICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uc2Vzc2lvblNldHRpbmdzLmludmFsaWRTZXR0aW5ncyIpLCB7CiAgICAgIGRlc2NyaXB0aW9uOiB0KGRlc2NyaXB0aW9uS2V5KSwKICAgIH0pOwogIH07CgogIGNvbnN0IHNhdmVTZXR0aW5ncyA9IGFzeW5jICgpID0+IHsKICAgIGNvbnN0IG5leHRTZXNzaW9uVHRsID0gc2Vzc2lvblR0bFNlY29uZHMudmFsdWU7CiAgICBjb25zdCBuZXh0UmVtZW1iZXJNZVR0bCA9IHJlbWVtYmVyTWVUdGxTZWNvbmRzLnZhbHVlOwogICAgY29uc3QgbmV4dEN1c3RvbUdyYW50VHRsID0gY3VzdG9tR3JhbnRUdGxTZWNvbmRzLnZhbHVlOwogICAgY29uc3QgbmV4dE1vYmlsaXR5V2luZG93U2Vjb25kcyA9IHNlc3Npb25JcE1vYmlsaXR5V2luZG93U2Vjb25kcy52YWx1ZTsKCiAgICBpZiAobmV4dFNlc3Npb25UdGwgPCA2MCB8fCBuZXh0UmVtZW1iZXJNZVR0bCA8IDYwKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnNlc3Npb25TZXR0aW5ncy50b29TaG9ydCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IHQoImFkbWluLnNlc3Npb25TZXR0aW5ncy5zZXNzaW9uVG9vU2hvcnREZXNjcmlwdGlvbiIpLAogICAgICB9KTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKG5leHRSZW1lbWJlck1lVHRsIDwgbmV4dFNlc3Npb25UdGwpIHsKICAgICAgc2hvd1ZhbGlkYXRpb25FcnJvcigKICAgICAgICAiYWRtaW4uc2Vzc2lvblNldHRpbmdzLnJlbWVtYmVyTWVTaG9ydGVyRGVzY3JpcHRpb24iLAogICAgICApOwogICAgICByZXR1cm47CiAgICB9CiAgICBpZiAoZm9ybS5wb3N0TG9naW5JcEdyYW50TW9kZSA9PT0gImN1c3RvbSIgJiYgbmV4dEN1c3RvbUdyYW50VHRsIDwgNjApIHsKICAgICAgc2hvd1ZhbGlkYXRpb25FcnJvcigKICAgICAgICAiYWRtaW4uc2Vzc2lvblNldHRpbmdzLmN1c3RvbUdyYW50VG9vU2hvcnREZXNjcmlwdGlvbiIsCiAgICAgICk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGlmICgKICAgICAgZm9ybS5zZXNzaW9uSXBNb2JpbGl0eUVuYWJsZWQgJiYKICAgICAgKG5leHRNb2JpbGl0eVdpbmRvd1NlY29uZHMgPCA2MCB8fAogICAgICAgIG5leHRNb2JpbGl0eVdpbmRvd1NlY29uZHMgPiAyNCAqIDNfNjAwKQogICAgKSB7CiAgICAgIHNob3dWYWxpZGF0aW9uRXJyb3IoCiAgICAgICAgImFkbWluLnNlc3Npb25TZXR0aW5ncy5tb2JpbGl0eVdpbmRvd0ludmFsaWREZXNjcmlwdGlvbiIsCiAgICAgICk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBhd2FpdCBydW5TYXZlU2V0dGluZ3MoCiAgICAgICgpID0+CiAgICAgICAgQ29uZmlnQVBJLnVwZGF0ZUF1dGhDcmVkZW50aWFsU2V0dGluZ3MoewogICAgICAgICAgc2Vzc2lvbl90dGxfc2Vjb25kczogbmV4dFNlc3Npb25UdGwsCiAgICAgICAgICByZW1lbWJlcl9tZV90dGxfc2Vjb25kczogbmV4dFJlbWVtYmVyTWVUdGwsCiAgICAgICAgICBwb3N0X2xvZ2luX2lwX2dyYW50X21vZGU6IGZvcm0ucG9zdExvZ2luSXBHcmFudE1vZGUsCiAgICAgICAgICBwb3N0X2xvZ2luX2lwX2dyYW50X3R0bF9zZWNvbmRzOgogICAgICAgICAgICBmb3JtLnBvc3RMb2dpbklwR3JhbnRNb2RlID09PSAiY3VzdG9tIgogICAgICAgICAgICAgID8gbmV4dEN1c3RvbUdyYW50VHRsCiAgICAgICAgICAgICAgOiBudWxsLAogICAgICAgICAgc2Vzc2lvbl9pcF9tb2JpbGl0eV9lbmFibGVkOiBmb3JtLnNlc3Npb25JcE1vYmlsaXR5RW5hYmxlZCwKICAgICAgICAgIHNlc3Npb25faXBfbW9iaWxpdHlfd2luZG93X3NlY29uZHM6IG5leHRNb2JpbGl0eVdpbmRvd1NlY29uZHMsCiAgICAgICAgfSksCiAgICAgIHsKICAgICAgICBvblN1Y2Nlc3M6IGFzeW5jIChkYXRhKSA9PiB7CiAgICAgICAgICBhcHBseUZyb21TZXR0aW5ncyhkYXRhKTsKICAgICAgICAgIGF3YWl0IGNvbmZpZ1N0b3JlLmxvYWRDb25maWcoKTsKICAgICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uc2Vzc2lvblNldHRpbmdzLnVwZGF0ZWQiKSk7CiAgICAgICAgfSwKICAgICAgfSwKICAgICk7CiAgfTsKCiAgb25Nb3VudGVkKCgpID0+IHsKICAgIHZvaWQgZmV0Y2hTZXR0aW5ncygpOwogIH0pOwoKICByZXR1cm4gewogICAgLi4uY29va2llU2NvcGUsCiAgICBjdXN0b21HcmFudFR0bFNlY29uZHMsCiAgICBkdXJhdGlvblVuaXRzLAogICAgZm9ybSwKICAgIGZvcm1hdER1cmF0aW9uLAogICAgZ3JhbnRNb2RlU3VtbWFyeSwKICAgIGlwR3JhbnREdXJhdGlvblVuaXRzLAogICAgaXNEaXJ0eSwKICAgIGlzTG9hZGluZywKICAgIGlzU2F2aW5nLAogICAgbW9iaWxpdHlXaW5kb3dEdXJhdGlvblVuaXRzLAogICAgcG9zdExvZ2luSXBHcmFudE1vZGVPcHRpb25zLAogICAgcmVtZW1iZXJNZVR0bFNlY29uZHMsCiAgICByZXNldEZvcm0sCiAgICBzYXZlU2V0dGluZ3MsCiAgICBzZXNzaW9uSXBNb2JpbGl0eVN1bW1hcnksCiAgICBzZXNzaW9uSXBNb2JpbGl0eVdpbmRvd1NlY29uZHMsCiAgICBzZXNzaW9uVHRsU2Vjb25kcywKICAgIHNob3dMb2FkaW5nU2tlbGV0b24sCiAgfTsKfQoKZXhwb3J0IHR5cGUgU2Vzc2lvblNldHRpbmdzQ29udHJvbGxlciA9IFJldHVyblR5cGU8CiAgdHlwZW9mIHVzZVNlc3Npb25TZXR0aW5nc0NvbnRyb2xsZXIKPjsK
+import { computed, onMounted, reactive, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { ConfigAPI } from "@/lib/api/config";
+import type {
+  AuthCredentialSettings,
+  PostLoginIpGrantMode,
+} from "../../../types";
+import { useConfigStore } from "../../../store/config";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  durationUnits,
+  ipGrantDurationUnits,
+  mobilityWindowDurationUnits,
+  splitDuration,
+  toDurationSeconds,
+  type SessionDurationField,
+} from "./sessionDurationModel";
+import { useSessionCookieScope } from "./useSessionCookieScope";
+
+type SessionSettingsForm = {
+  session: SessionDurationField;
+  rememberMe: SessionDurationField;
+  postLoginIpGrantMode: PostLoginIpGrantMode;
+  customGrant: SessionDurationField;
+  sessionIpMobilityEnabled: boolean;
+  sessionIpMobilityWindow: SessionDurationField;
+};
+
+export function useSessionSettingsController() {
+  const configStore = useConfigStore();
+  const { t } = useI18n();
+  const settings = ref<AuthCredentialSettings | null>(null);
+  const form = reactive<SessionSettingsForm>({
+    session: { value: 24, unit: "hour" },
+    rememberMe: { value: 1, unit: "year" },
+    postLoginIpGrantMode: "follow_session",
+    customGrant: { value: 1, unit: "hour" },
+    sessionIpMobilityEnabled: false,
+    sessionIpMobilityWindow: { value: 20, unit: "minute" },
+  });
+
+  const postLoginIpGrantModeOptions = computed(() => [
+    {
+      value: "follow_session" as const,
+      title: t("admin.sessionSettings.grantModes.followSession.title"),
+      description: t(
+        "admin.sessionSettings.grantModes.followSession.description",
+      ),
+    },
+    {
+      value: "disabled" as const,
+      title: t("admin.sessionSettings.grantModes.disabled.title"),
+      description: t("admin.sessionSettings.grantModes.disabled.description"),
+    },
+    {
+      value: "custom" as const,
+      title: t("admin.sessionSettings.grantModes.custom.title"),
+      description: t("admin.sessionSettings.grantModes.custom.description"),
+    },
+  ]);
+
+  const { isPending: isLoading, run: runLoadSettings } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.sessionSettings.loadFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.sessionSettings.loadDescription"),
+        ),
+      });
+    },
+  });
+  const showLoadingSkeleton = useDelayedLoading(isLoading);
+  const { isPending: isSaving, run: runSaveSettings } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.sessionSettings.saveFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.sessionSettings.saveDescription"),
+        ),
+      });
+    },
+  });
+
+  const formatDuration = (seconds: number, units = durationUnits): string => {
+    const normalized = splitDuration(seconds, units);
+    const label =
+      units.find((item) => item.value === normalized.unit)?.labelKey || "";
+    const unitLabel = label ? t(label) : normalized.unit;
+    return `${normalized.value} ${unitLabel}`;
+  };
+
+  const cookieScope = useSessionCookieScope();
+  const sessionTtlSeconds = computed(() => toDurationSeconds(form.session));
+  const rememberMeTtlSeconds = computed(() =>
+    toDurationSeconds(form.rememberMe),
+  );
+  const customGrantTtlSeconds = computed(() =>
+    toDurationSeconds(form.customGrant),
+  );
+  const sessionIpMobilityWindowSeconds = computed(() =>
+    toDurationSeconds(form.sessionIpMobilityWindow),
+  );
+
+  const isDirty = computed(() => {
+    if (!settings.value) return false;
+    const storedGrantTtl =
+      settings.value.post_login_ip_grant_ttl_seconds ?? 3_600;
+    const shouldCompareCustomGrantTtl =
+      settings.value.post_login_ip_grant_mode === "custom" ||
+      form.postLoginIpGrantMode === "custom";
+    return (
+      settings.value.session_ttl_seconds !== sessionTtlSeconds.value ||
+      settings.value.remember_me_ttl_seconds !== rememberMeTtlSeconds.value ||
+      settings.value.post_login_ip_grant_mode !== form.postLoginIpGrantMode ||
+      settings.value.session_ip_mobility_enabled !==
+        form.sessionIpMobilityEnabled ||
+      settings.value.session_ip_mobility_window_seconds !==
+        sessionIpMobilityWindowSeconds.value ||
+      (shouldCompareCustomGrantTtl &&
+        storedGrantTtl !== customGrantTtlSeconds.value)
+    );
+  });
+
+  const grantModeSummary = computed(() => {
+    switch (form.postLoginIpGrantMode) {
+      case "follow_session":
+        return t("admin.sessionSettings.grantSummary.followSession");
+      case "disabled":
+        return t("admin.sessionSettings.grantSummary.disabled");
+      case "custom":
+        return t("admin.sessionSettings.grantSummary.custom", {
+          duration: formatDuration(
+            customGrantTtlSeconds.value,
+            ipGrantDurationUnits,
+          ),
+        });
+      default:
+        return "";
+    }
+  });
+
+  const sessionIpMobilitySummary = computed(() => {
+    if (!form.sessionIpMobilityEnabled) {
+      return t("admin.sessionSettings.mobilitySummary.disabled");
+    }
+    return t("admin.sessionSettings.mobilitySummary.enabled", {
+      duration: formatDuration(
+        sessionIpMobilityWindowSeconds.value,
+        mobilityWindowDurationUnits,
+      ),
+    });
+  });
+
+  const applyFromSettings = (data: AuthCredentialSettings) => {
+    settings.value = data;
+    Object.assign(form.session, splitDuration(data.session_ttl_seconds));
+    Object.assign(form.rememberMe, splitDuration(data.remember_me_ttl_seconds));
+    form.postLoginIpGrantMode = data.post_login_ip_grant_mode;
+    Object.assign(
+      form.customGrant,
+      splitDuration(
+        data.post_login_ip_grant_ttl_seconds ?? 3_600,
+        ipGrantDurationUnits,
+      ),
+    );
+    form.sessionIpMobilityEnabled = data.session_ip_mobility_enabled === true;
+    Object.assign(
+      form.sessionIpMobilityWindow,
+      splitDuration(
+        data.session_ip_mobility_window_seconds ?? 20 * 60,
+        mobilityWindowDurationUnits,
+      ),
+    );
+  };
+
+  const fetchSettings = async () => {
+    await runLoadSettings(async () => {
+      applyFromSettings(await ConfigAPI.getAuthCredentialSettings());
+    });
+  };
+  const resetForm = () => {
+    if (settings.value) applyFromSettings(settings.value);
+  };
+
+  const showValidationError = (descriptionKey: string) => {
+    toast.error(t("admin.sessionSettings.invalidSettings"), {
+      description: t(descriptionKey),
+    });
+  };
+
+  const saveSettings = async () => {
+    const nextSessionTtl = sessionTtlSeconds.value;
+    const nextRememberMeTtl = rememberMeTtlSeconds.value;
+    const nextCustomGrantTtl = customGrantTtlSeconds.value;
+    const nextMobilityWindowSeconds = sessionIpMobilityWindowSeconds.value;
+
+    if (nextSessionTtl < 60 || nextRememberMeTtl < 60) {
+      toast.error(t("admin.sessionSettings.tooShort"), {
+        description: t("admin.sessionSettings.sessionTooShortDescription"),
+      });
+      return;
+    }
+    if (nextRememberMeTtl < nextSessionTtl) {
+      showValidationError(
+        "admin.sessionSettings.rememberMeShorterDescription",
+      );
+      return;
+    }
+    if (form.postLoginIpGrantMode === "custom" && nextCustomGrantTtl < 60) {
+      showValidationError(
+        "admin.sessionSettings.customGrantTooShortDescription",
+      );
+      return;
+    }
+    if (
+      form.sessionIpMobilityEnabled &&
+      (nextMobilityWindowSeconds < 60 ||
+        nextMobilityWindowSeconds > 24 * 3_600)
+    ) {
+      showValidationError(
+        "admin.sessionSettings.mobilityWindowInvalidDescription",
+      );
+      return;
+    }
+
+    await runSaveSettings(
+      () =>
+        ConfigAPI.updateAuthCredentialSettings({
+          session_ttl_seconds: nextSessionTtl,
+          remember_me_ttl_seconds: nextRememberMeTtl,
+          post_login_ip_grant_mode: form.postLoginIpGrantMode,
+          post_login_ip_grant_ttl_seconds:
+            form.postLoginIpGrantMode === "custom"
+              ? nextCustomGrantTtl
+              : null,
+          session_ip_mobility_enabled: form.sessionIpMobilityEnabled,
+          session_ip_mobility_window_seconds: nextMobilityWindowSeconds,
+        }),
+      {
+        onSuccess: async (data) => {
+          applyFromSettings(data);
+          await configStore.loadConfig();
+          toast.success(t("admin.sessionSettings.updated"));
+        },
+      },
+    );
+  };
+
+  onMounted(() => {
+    void fetchSettings();
+  });
+
+  return {
+    ...cookieScope,
+    customGrantTtlSeconds,
+    durationUnits,
+    form,
+    formatDuration,
+    grantModeSummary,
+    ipGrantDurationUnits,
+    isDirty,
+    isLoading,
+    isSaving,
+    mobilityWindowDurationUnits,
+    postLoginIpGrantModeOptions,
+    rememberMeTtlSeconds,
+    resetForm,
+    saveSettings,
+    sessionIpMobilitySummary,
+    sessionIpMobilityWindowSeconds,
+    sessionTtlSeconds,
+    showLoadingSkeleton,
+  };
+}
+
+export type SessionSettingsController = ReturnType<
+  typeof useSessionSettingsController
+>;

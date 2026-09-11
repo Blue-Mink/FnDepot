@@ -1,1 +1,408 @@
-dXNlIHN0ZDo6e2NvbnZlcnQ6OkluZmFsbGlibGUsIGlvfTsKCnVzZSBheHVtOjp7CiAgICBKc29uLCBSb3V0ZXIsCiAgICBib2R5Ojp7Qm9keSwgQnl0ZXN9LAogICAgZXh0cmFjdDo6e1BhdGgsIFF1ZXJ5LCBTdGF0ZX0sCiAgICBodHRwOjp7SGVhZGVyTWFwLCBIZWFkZXJWYWx1ZSwgU3RhdHVzQ29kZSwgaGVhZGVyfSwKICAgIG1pZGRsZXdhcmU6OntzZWxmLCBOZXh0fSwKICAgIHJlc3BvbnNlOjp7CiAgICAgICAgSW50b1Jlc3BvbnNlLCBSZXNwb25zZSwKICAgICAgICBzc2U6OntFdmVudCwgS2VlcEFsaXZlLCBTc2V9LAogICAgfSwKfTsKdXNlIHNlcmRlOjpEZXNlcmlhbGl6ZTsKdXNlIHNlcmRlX2pzb246OntWYWx1ZSwganNvbn07CnVzZSB0b2tpbzo6c3luYzo6bXBzYzsKdXNlIHRva2lvX3N0cmVhbTo6e1N0cmVhbUV4dCwgd3JhcHBlcnM6OlJlY2VpdmVyU3RyZWFtfTsKdXNlIHV0b2lwYV9heHVtOjp7cm91dGVyOjpPcGVuQXBpUm91dGVyLCByb3V0ZXN9OwoKdXNlIGNyYXRlOjp7Z3JwY19wcm90bzo6RGVlcE1vbml0b3JRdWVyeSwgcmVzcG9uc2UsIHN0YXRlOjpBcHBTdGF0ZX07Cgpjb25zdCBERUZBVUxUX0RVUkFUSU9OX1NFQ09ORFM6IGkzMiA9IDMwICogNjA7CgojW2Rlcml2ZShEZXNlcmlhbGl6ZSldCnN0cnVjdCBTdGFydEJvZHkgewogICAgaG9zdDogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0ID0gImRlZmF1bHRfZHVyYXRpb24iKV0KICAgIGR1cmF0aW9uX3NlY29uZHM6IGkzMiwKfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUpXQpzdHJ1Y3QgRXh0ZW5kQm9keSB7CiAgICBkdXJhdGlvbl9zZWNvbmRzOiBpMzIsCn0KCiNbZGVyaXZlKERlc2VyaWFsaXplLCBEZWZhdWx0KV0Kc3RydWN0IExpc3RRdWVyeSB7CiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgaW5jbHVkZV9leHBpcmVkOiBib29sLAp9CgojW2Rlcml2ZShEZXNlcmlhbGl6ZSwgRGVmYXVsdCldCnN0cnVjdCBFdmVudHNRdWVyeSB7CiAgICBjdXJzb3I6IE9wdGlvbjxTdHJpbmc+LAogICAgbGltaXQ6IE9wdGlvbjxpMzI+LAogICAgI1tzZXJkZShyZW5hbWUgPSAidHlwZSIpXQogICAgZXZlbnRfdHlwZTogT3B0aW9uPFN0cmluZz4sCiAgICBzZWFyY2g6IE9wdGlvbjxTdHJpbmc+LAogICAgZGlyZWN0aW9uOiBPcHRpb248U3RyaW5nPiwKICAgIG1ldGhvZDogT3B0aW9uPFN0cmluZz4sCiAgICBzdGF0dXM6IE9wdGlvbjxpMzI+LAogICAgY2xpZW50X2lwOiBPcHRpb248U3RyaW5nPiwKICAgIGlkZW50aXR5OiBPcHRpb248U3RyaW5nPiwKICAgIHBhdGg6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShEZXNlcmlhbGl6ZSldCnN0cnVjdCBQYXlsb2FkUXVlcnkgewogICAgcGFydDogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIG9mZnNldDogdTY0LAogICAgbGltaXQ6IE9wdGlvbjx1c2l6ZT4sCn0KCiNbZGVyaXZlKERlc2VyaWFsaXplLCBEZWZhdWx0KV0Kc3RydWN0IExpdmVRdWVyeSB7CiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgYWZ0ZXJfc2VxdWVuY2U6IHU2NCwKfQoKZm4gZGVmYXVsdF9kdXJhdGlvbigpIC0+IGkzMiB7CiAgICBERUZBVUxUX0RVUkFUSU9OX1NFQ09ORFMKfQoKcHViIGZuIGRlZXBfbW9uaXRvcl9yb3V0ZXMoKSAtPiBSb3V0ZXI8QXBwU3RhdGU+IHsKICAgIGxldCByb3V0ZXM6IFJvdXRlcjxBcHBTdGF0ZT4gPSBkZWVwX21vbml0b3Jfb3BlbmFwaV9yb3V0ZXMoKS5pbnRvKCk7CiAgICByb3V0ZXMubGF5ZXIobWlkZGxld2FyZTo6ZnJvbV9mbihub19zdG9yZSkpCn0KCnB1YihjcmF0ZSkgZm4gZGVlcF9tb25pdG9yX29wZW5hcGlfcm91dGVzKCkgLT4gT3BlbkFwaVJvdXRlcjxBcHBTdGF0ZT4gewogICAgT3BlbkFwaVJvdXRlcjo6bmV3KCkKICAgICAgICAucm91dGVzKHJvdXRlcyEobGlzdF9zZXNzaW9ucykpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHN0YXJ0X3Nlc3Npb24pKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShnZXRfc2Vzc2lvbikpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGRlbGV0ZV9zZXNzaW9uKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoZXh0ZW5kX3Nlc3Npb24pKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShzdG9wX3Nlc3Npb24pKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShsaXN0X2V2ZW50cykpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF9ldmVudCkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHBheWxvYWQpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShsaXZlKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoZG93bmxvYWRfc2Vzc2lvbikpCn0KCmFzeW5jIGZuIG5vX3N0b3JlKHJlcXVlc3Q6IGF4dW06OmV4dHJhY3Q6OlJlcXVlc3QsIG5leHQ6IE5leHQpIC0+IFJlc3BvbnNlIHsKICAgIGxldCBtdXQgcmVzcG9uc2UgPSBuZXh0LnJ1bihyZXF1ZXN0KS5hd2FpdDsKICAgIHJlc3BvbnNlLmhlYWRlcnNfbXV0KCkuaW5zZXJ0KAogICAgICAgIGhlYWRlcjo6Q0FDSEVfQ09OVFJPTCwKICAgICAgICBIZWFkZXJWYWx1ZTo6ZnJvbV9zdGF0aWMoIm5vLXN0b3JlLCBtYXgtYWdlPTAiKSwKICAgICk7CiAgICByZXNwb25zZQogICAgICAgIC5oZWFkZXJzX211dCgpCiAgICAgICAgLmluc2VydChoZWFkZXI6OlBSQUdNQSwgSGVhZGVyVmFsdWU6OmZyb21fc3RhdGljKCJuby1jYWNoZSIpKTsKICAgIHJlc3BvbnNlCn0KCiNbdXRvaXBhOjpwYXRoKHBvc3QsIHBhdGggPSAiL2FwaS9hZG1pbi9kZWVwLW1vbml0b3Ivc2Vzc2lvbnMiLCB0YWcgPSAiZGVlcC1tb25pdG9yIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX2RlZXBfbW9uaXRvcl9zZXNzaW9ucyIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJTdGFydGVkIGRlZXAtbW9uaXRvciBzZXNzaW9uIikpKV0KYXN5bmMgZm4gc3RhcnRfc2Vzc2lvbihTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwgSnNvbihib2R5KTogSnNvbjxTdGFydEJvZHk+KSAtPiBSZXNwb25zZSB7CiAgICBnb19qc29uKAogICAgICAgIHN0YXRlCiAgICAgICAgICAgIC5nYXRld2F5CiAgICAgICAgICAgIC5jbGllbnQKICAgICAgICAgICAgLnN0YXJ0X2RlZXBfbW9uaXRvcihib2R5Lmhvc3QsIGJvZHkuZHVyYXRpb25fc2Vjb25kcykKICAgICAgICAgICAgLmF3YWl0LAogICAgKQp9CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi9kZWVwLW1vbml0b3Ivc2Vzc2lvbnMiLCB0YWcgPSAiZGVlcC1tb25pdG9yIiwgb3BlcmF0aW9uX2lkID0gImdldF9hcGlfYWRtaW5fZGVlcF9tb25pdG9yX3Nlc3Npb25zIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkRlZXAtbW9uaXRvciBzZXNzaW9ucyIpKSldCmFzeW5jIGZuIGxpc3Rfc2Vzc2lvbnMoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sIFF1ZXJ5KHF1ZXJ5KTogUXVlcnk8TGlzdFF1ZXJ5PikgLT4gUmVzcG9uc2UgewogICAgZ29fanNvbigKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAuY2xpZW50CiAgICAgICAgICAgIC5saXN0X2RlZXBfbW9uaXRvcnMocXVlcnkuaW5jbHVkZV9leHBpcmVkKQogICAgICAgICAgICAuYXdhaXQsCiAgICApCn0KCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL2RlZXAtbW9uaXRvci9zZXNzaW9ucy97c2Vzc2lvbl9pZH0iLCB0YWcgPSAiZGVlcC1tb25pdG9yIiwgb3BlcmF0aW9uX2lkID0gImdldF9hcGlfYWRtaW5fZGVlcF9tb25pdG9yX3Nlc3Npb25zX2lkIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkRlZXAtbW9uaXRvciBzZXNzaW9uIikpKV0KYXN5bmMgZm4gZ2V0X3Nlc3Npb24oU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sIFBhdGgoc2Vzc2lvbl9pZCk6IFBhdGg8U3RyaW5nPikgLT4gUmVzcG9uc2UgewogICAgbWF0Y2ggc3RhdGUKICAgICAgICAuZ2F0ZXdheQogICAgICAgIC5jbGllbnQKICAgICAgICAubGlzdF9kZWVwX21vbml0b3JzKHRydWUpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmFuZF90aGVuKGRhdGEpCiAgICB7CiAgICAgICAgT2sodmFsdWUpID0+IHsKICAgICAgICAgICAgbGV0IGZvdW5kID0gdmFsdWUKICAgICAgICAgICAgICAgIC5nZXQoIml0ZW1zIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofGl0ZW1zfCB7CiAgICAgICAgICAgICAgICAgICAgaXRlbXMKICAgICAgICAgICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgICAgICAgICAuZmluZCh8aXRlbXwgaXRlbS5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSgmc2Vzc2lvbl9pZCkpCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgLmNsb25lZCgpOwogICAgICAgICAgICBtYXRjaCBmb3VuZCB7CiAgICAgICAgICAgICAgICBTb21lKGl0ZW0pID0+IHJlc3BvbnNlOjpvayhpdGVtKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgICAgICAgICBOb25lID0+IHJlc3BvbnNlOjplcnJvcihTdGF0dXNDb2RlOjpOT1RfRk9VTkQsICJkZWVwIG1vbml0b3Igc2Vzc2lvbiBub3QgZm91bmQiKSwKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBFcnIoZXJyb3IpID0+IGJhY2tlbmRfZXJyb3IoZXJyb3IpLAogICAgfQp9CgojW3V0b2lwYTo6cGF0aChwb3N0LCBwYXRoID0gIi9hcGkvYWRtaW4vZGVlcC1tb25pdG9yL3Nlc3Npb25zL3tzZXNzaW9uX2lkfS9leHRlbmQiLCB0YWcgPSAiZGVlcC1tb25pdG9yIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX2RlZXBfbW9uaXRvcl9zZXNzaW9uc19pZF9leHRlbmQiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiRXh0ZW5kZWQgZGVlcC1tb25pdG9yIHNlc3Npb24iKSkpXQphc3luYyBmbiBleHRlbmRfc2Vzc2lvbigKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgUGF0aChzZXNzaW9uX2lkKTogUGF0aDxTdHJpbmc+LAogICAgSnNvbihib2R5KTogSnNvbjxFeHRlbmRCb2R5PiwKKSAtPiBSZXNwb25zZSB7CiAgICBnb19qc29uKAogICAgICAgIHN0YXRlCiAgICAgICAgICAgIC5nYXRld2F5CiAgICAgICAgICAgIC5jbGllbnQKICAgICAgICAgICAgLmV4dGVuZF9kZWVwX21vbml0b3Ioc2Vzc2lvbl9pZCwgYm9keS5kdXJhdGlvbl9zZWNvbmRzKQogICAgICAgICAgICAuYXdhaXQsCiAgICApCn0KCiNbdXRvaXBhOjpwYXRoKHBvc3QsIHBhdGggPSAiL2FwaS9hZG1pbi9kZWVwLW1vbml0b3Ivc2Vzc2lvbnMve3Nlc3Npb25faWR9L3N0b3AiLCB0YWcgPSAiZGVlcC1tb25pdG9yIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX2RlZXBfbW9uaXRvcl9zZXNzaW9uc19pZF9zdG9wIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlN0b3BwZWQgZGVlcC1tb25pdG9yIHNlc3Npb24iKSkpXQphc3luYyBmbiBzdG9wX3Nlc3Npb24oU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sIFBhdGgoc2Vzc2lvbl9pZCk6IFBhdGg8U3RyaW5nPikgLT4gUmVzcG9uc2UgewogICAgZ29fanNvbihzdGF0ZS5nYXRld2F5LmNsaWVudC5zdG9wX2RlZXBfbW9uaXRvcihzZXNzaW9uX2lkKS5hd2FpdCkKfQoKI1t1dG9pcGE6OnBhdGgoZGVsZXRlLCBwYXRoID0gIi9hcGkvYWRtaW4vZGVlcC1tb25pdG9yL3Nlc3Npb25zL3tzZXNzaW9uX2lkfSIsIHRhZyA9ICJkZWVwLW1vbml0b3IiLCBvcGVyYXRpb25faWQgPSAiZGVsZXRlX2FwaV9hZG1pbl9kZWVwX21vbml0b3Jfc2Vzc2lvbnNfaWQiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiRGVsZXRlZCBkZWVwLW1vbml0b3Igc2Vzc2lvbiIpKSldCmFzeW5jIGZuIGRlbGV0ZV9zZXNzaW9uKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LCBQYXRoKHNlc3Npb25faWQpOiBQYXRoPFN0cmluZz4pIC0+IFJlc3BvbnNlIHsKICAgIGdvX2pzb24oc3RhdGUuZ2F0ZXdheS5jbGllbnQuZGVsZXRlX2RlZXBfbW9uaXRvcihzZXNzaW9uX2lkKS5hd2FpdCkKfQoKI1t1dG9pcGE6OnBhdGgoZ2V0LCBwYXRoID0gIi9hcGkvYWRtaW4vZGVlcC1tb25pdG9yL3Nlc3Npb25zL3tzZXNzaW9uX2lkfS9ldmVudHMiLCB0YWcgPSAiZGVlcC1tb25pdG9yIiwgb3BlcmF0aW9uX2lkID0gImdldF9hcGlfYWRtaW5fZGVlcF9tb25pdG9yX3Nlc3Npb25zX19zZXNzaW9uX2lkX19ldmVudHMiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiRGVlcC1tb25pdG9yIGV2ZW50cyIpKSldCmFzeW5jIGZuIGxpc3RfZXZlbnRzKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBQYXRoKHNlc3Npb25faWQpOiBQYXRoPFN0cmluZz4sCiAgICBRdWVyeShxdWVyeSk6IFF1ZXJ5PEV2ZW50c1F1ZXJ5PiwKKSAtPiBSZXNwb25zZSB7CiAgICBnb19qc29uKAogICAgICAgIHN0YXRlCiAgICAgICAgICAgIC5nYXRld2F5CiAgICAgICAgICAgIC5jbGllbnQKICAgICAgICAgICAgLnF1ZXJ5X2RlZXBfbW9uaXRvcl9ldmVudHMoRGVlcE1vbml0b3JRdWVyeSB7CiAgICAgICAgICAgICAgICBzZXNzaW9uX2lkLAogICAgICAgICAgICAgICAgY3Vyc29yOiBxdWVyeS5jdXJzb3IudW53cmFwX29yX2RlZmF1bHQoKSwKICAgICAgICAgICAgICAgIGxpbWl0OiBxdWVyeS5saW1pdC51bndyYXBfb3IoMTAwKS5jbGFtcCgxLCAyMDApLAogICAgICAgICAgICAgICAgciN0eXBlOiBxdWVyeS5ldmVudF90eXBlLnVud3JhcF9vcl9kZWZhdWx0KCksCiAgICAgICAgICAgICAgICBzZWFyY2g6IHF1ZXJ5LnNlYXJjaC51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICAgICAgICAgZGlyZWN0aW9uOiBxdWVyeS5kaXJlY3Rpb24udW53cmFwX29yX2RlZmF1bHQoKSwKICAgICAgICAgICAgICAgIG1ldGhvZDogcXVlcnkubWV0aG9kLnVud3JhcF9vcl9kZWZhdWx0KCksCiAgICAgICAgICAgICAgICBzdGF0dXM6IHF1ZXJ5LnN0YXR1cy51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICAgICAgICAgY2xpZW50X2lwOiBxdWVyeS5jbGllbnRfaXAudW53cmFwX29yX2RlZmF1bHQoKSwKICAgICAgICAgICAgICAgIGlkZW50aXR5OiBxdWVyeS5pZGVudGl0eS51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICAgICAgICAgcGF0aDogcXVlcnkucGF0aC51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICAgICB9KQogICAgICAgICAgICAuYXdhaXQsCiAgICApCn0KCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL2RlZXAtbW9uaXRvci9zZXNzaW9ucy97c2Vzc2lvbl9pZH0vZXZlbnRzL3tldmVudF9pZH0iLCB0YWcgPSAiZGVlcC1tb25pdG9yIiwgb3BlcmF0aW9uX2lkID0gImdldF9hcGlfYWRtaW5fZGVlcF9tb25pdG9yX3Nlc3Npb25zX2lkX2V2ZW50c19ldmVudF9pZCIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJEZWVwLW1vbml0b3IgZXZlbnQiKSkpXQphc3luYyBmbiBnZXRfZXZlbnQoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIFBhdGgoKHNlc3Npb25faWQsIGV2ZW50X2lkKSk6IFBhdGg8KFN0cmluZywgU3RyaW5nKT4sCikgLT4gUmVzcG9uc2UgewogICAgZ29fanNvbigKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAuY2xpZW50CiAgICAgICAgICAgIC5nZXRfZGVlcF9tb25pdG9yX2V2ZW50KHNlc3Npb25faWQsIGV2ZW50X2lkKQogICAgICAgICAgICAuYXdhaXQsCiAgICApCn0KCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL2RlZXAtbW9uaXRvci9zZXNzaW9ucy97c2Vzc2lvbl9pZH0vZXZlbnRzL3tldmVudF9pZH0vcGF5bG9hZCIsIHRhZyA9ICJkZWVwLW1vbml0b3IiLCBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9kZWVwX21vbml0b3Jfc2Vzc2lvbnNfX3Nlc3Npb25faWRfX2V2ZW50c19fZXZlbnRfaWRfX3BheWxvYWQiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiQ2FwdHVyZWQgZXZlbnQgcGF5bG9hZCIpKSldCmFzeW5jIGZuIHBheWxvYWQoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIFBhdGgoKHNlc3Npb25faWQsIGV2ZW50X2lkKSk6IFBhdGg8KFN0cmluZywgU3RyaW5nKT4sCiAgICBRdWVyeShxdWVyeSk6IFF1ZXJ5PFBheWxvYWRRdWVyeT4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IG11dCBzdHJlYW0gPSBtYXRjaCBzdGF0ZQogICAgICAgIC5nYXRld2F5CiAgICAgICAgLmNsaWVudAogICAgICAgIC5zdHJlYW1fZGVlcF9tb25pdG9yX3BheWxvYWQoc2Vzc2lvbl9pZCwgZXZlbnRfaWQsIHF1ZXJ5LnBhcnQsIHF1ZXJ5Lm9mZnNldCkKICAgICAgICAuYXdhaXQKICAgIHsKICAgICAgICBPayhzdHJlYW0pID0+IHN0cmVhbSwKICAgICAgICBFcnIoZXJyb3IpID0+IHJldHVybiBiYWNrZW5kX2Vycm9yKGVycm9yKSwKICAgIH07CiAgICBsZXQgZmlyc3QgPSBtYXRjaCBzdHJlYW0ubWVzc2FnZSgpLmF3YWl0IHsKICAgICAgICBPayhTb21lKGNodW5rKSkgPT4gY2h1bmssCiAgICAgICAgT2soTm9uZSkgPT4gcmV0dXJuIFN0YXR1c0NvZGU6Ok5PX0NPTlRFTlQuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gcmV0dXJuIGJhY2tlbmRfZXJyb3IoZXJyb3IuaW50bygpKSwKICAgIH07CiAgICBsZXQgY29udGVudF90eXBlID0gSGVhZGVyVmFsdWU6OmZyb21fc3RyKCZmaXJzdC5jb250ZW50X3R5cGUpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHxffCBIZWFkZXJWYWx1ZTo6ZnJvbV9zdGF0aWMoImFwcGxpY2F0aW9uL29jdGV0LXN0cmVhbSIpKTsKICAgIGlmIGxldCBTb21lKGxpbWl0KSA9IHF1ZXJ5LmxpbWl0Lm1hcCh8dmFsdWV8IHZhbHVlLmNsYW1wKDEsIDI1NiAqIDEwMjQpKSB7CiAgICAgICAgbGV0IG11dCBkYXRhID0gZmlyc3QuZGF0YTsKICAgICAgICB3aGlsZSBkYXRhLmxlbigpIDwgbGltaXQgewogICAgICAgICAgICBtYXRjaCBzdHJlYW0ubWVzc2FnZSgpLmF3YWl0IHsKICAgICAgICAgICAgICAgIE9rKFNvbWUoY2h1bmspKSA9PiBkYXRhLmV4dGVuZF9mcm9tX3NsaWNlKCZjaHVuay5kYXRhKSwKICAgICAgICAgICAgICAgIE9rKE5vbmUpID0+IGJyZWFrLAogICAgICAgICAgICAgICAgRXJyKGVycm9yKSA9PiByZXR1cm4gYmFja2VuZF9lcnJvcihlcnJvci5pbnRvKCkpLAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGRhdGEudHJ1bmNhdGUobGltaXQpOwogICAgICAgIGxldCBtdXQgcmVzcG9uc2UgPSBCb2R5Ojpmcm9tKGRhdGEpLmludG9fcmVzcG9uc2UoKTsKICAgICAgICByZXNwb25zZQogICAgICAgICAgICAuaGVhZGVyc19tdXQoKQogICAgICAgICAgICAuaW5zZXJ0KGhlYWRlcjo6Q09OVEVOVF9UWVBFLCBjb250ZW50X3R5cGUpOwogICAgICAgIHJldHVybiByZXNwb25zZTsKICAgIH0KICAgIGxldCBmaXJzdF9ieXRlcyA9IEJ5dGVzOjpmcm9tKGZpcnN0LmRhdGEpOwogICAgbGV0IG91dHB1dCA9CiAgICAgICAgdG9raW9fc3RyZWFtOjpvbmNlKE9rOjo8Qnl0ZXMsIGlvOjpFcnJvcj4oZmlyc3RfYnl0ZXMpKS5jaGFpbihzdHJlYW0ubWFwKHxpdGVtfCB7CiAgICAgICAgICAgIGl0ZW0ubWFwKHxjaHVua3wgQnl0ZXM6OmZyb20oY2h1bmsuZGF0YSkpCiAgICAgICAgICAgICAgICAubWFwX2Vycihpbzo6RXJyb3I6Om90aGVyKQogICAgICAgIH0pKTsKICAgIGxldCBtdXQgcmVzcG9uc2UgPSBCb2R5Ojpmcm9tX3N0cmVhbShvdXRwdXQpLmludG9fcmVzcG9uc2UoKTsKICAgIHJlc3BvbnNlCiAgICAgICAgLmhlYWRlcnNfbXV0KCkKICAgICAgICAuaW5zZXJ0KGhlYWRlcjo6Q09OVEVOVF9UWVBFLCBjb250ZW50X3R5cGUpOwogICAgcmVzcG9uc2UuaGVhZGVyc19tdXQoKS5pbnNlcnQoCiAgICAgICAgaGVhZGVyOjpDT05URU5UX0RJU1BPU0lUSU9OLAogICAgICAgIEhlYWRlclZhbHVlOjpmcm9tX3N0YXRpYygiYXR0YWNobWVudCIpLAogICAgKTsKICAgIHJlc3BvbnNlCn0KCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL2RlZXAtbW9uaXRvci9zZXNzaW9ucy97c2Vzc2lvbl9pZH0vbGl2ZSIsIHRhZyA9ICJkZWVwLW1vbml0b3IiLCBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9kZWVwX21vbml0b3Jfc2Vzc2lvbnNfaWRfbGl2ZSIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJMaXZlIGRlZXAtbW9uaXRvciBldmVudHMiKSkpXQphc3luYyBmbiBsaXZlKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBQYXRoKHNlc3Npb25faWQpOiBQYXRoPFN0cmluZz4sCiAgICBRdWVyeShxdWVyeSk6IFF1ZXJ5PExpdmVRdWVyeT4sCiAgICBoZWFkZXJzOiBIZWFkZXJNYXAsCikgLT4gUmVzcG9uc2UgewogICAgbGV0IGhlYWRlcl9zZXF1ZW5jZSA9IGhlYWRlcnMKICAgICAgICAuZ2V0KCJsYXN0LWV2ZW50LWlkIikKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS50b19zdHIoKS5vaygpKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnBhcnNlOjo8dTY0PigpLm9rKCkpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgYWZ0ZXIgPSBxdWVyeS5hZnRlcl9zZXF1ZW5jZS5tYXgoaGVhZGVyX3NlcXVlbmNlKTsKICAgIGxldCBtdXQgZ3JwYyA9IG1hdGNoIHN0YXRlCiAgICAgICAgLmdhdGV3YXkKICAgICAgICAuY2xpZW50CiAgICAgICAgLndhdGNoX2RlZXBfbW9uaXRvcl9ldmVudHMoc2Vzc2lvbl9pZCwgYWZ0ZXIpCiAgICAgICAgLmF3YWl0CiAgICB7CiAgICAgICAgT2soc3RyZWFtKSA9PiBzdHJlYW0sCiAgICAgICAgRXJyKGVycm9yKSA9PiByZXR1cm4gYmFja2VuZF9lcnJvcihlcnJvciksCiAgICB9OwogICAgbGV0ICh0eCwgcngpID0gbXBzYzo6Y2hhbm5lbDo6PFJlc3VsdDxFdmVudCwgSW5mYWxsaWJsZT4+KDEyOCk7CiAgICBsZXQgc2h1dGRvd24gPSBzdGF0ZS5zaHV0ZG93bi5jbG9uZSgpOwogICAgc3RhdGUuc3Bhd25fYmFja2dyb3VuZCgiZGVlcC1tb25pdG9yLXNzZSIsIGFzeW5jIG1vdmUgewogICAgICAgIGxvb3AgewogICAgICAgICAgICBsZXQgbWVzc2FnZSA9IHRva2lvOjpzZWxlY3QhIHsKICAgICAgICAgICAgICAgIF8gPSBzaHV0ZG93bi5jYW5jZWxsZWQoKSA9PiBicmVhaywKICAgICAgICAgICAgICAgIG1lc3NhZ2UgPSBncnBjLm1lc3NhZ2UoKSA9PiBtZXNzYWdlLAogICAgICAgICAgICB9OwogICAgICAgICAgICBtYXRjaCBtZXNzYWdlIHsKICAgICAgICAgICAgICAgIE9rKFNvbWUoaXRlbSkpID0+IHsKICAgICAgICAgICAgICAgICAgICBsZXQgc2VxdWVuY2UgPSBpdGVtLnNlcXVlbmNlOwogICAgICAgICAgICAgICAgICAgIGxldCBkYXRhID0gY3JhdGU6OmdvX2JhY2tlbmQ6OmRlZXBfbW9uaXRvcjo6c3VtbWFyeV9qc29uKGl0ZW0pLnRvX3N0cmluZygpOwogICAgICAgICAgICAgICAgICAgIGxldCBldmVudCA9IEV2ZW50OjpkZWZhdWx0KCkKICAgICAgICAgICAgICAgICAgICAgICAgLmV2ZW50KCJ0cmFmZmljIikKICAgICAgICAgICAgICAgICAgICAgICAgLmlkKHNlcXVlbmNlLnRvX3N0cmluZygpKQogICAgICAgICAgICAgICAgICAgICAgICAuZGF0YShkYXRhKTsKICAgICAgICAgICAgICAgICAgICBpZiB0eC5zZW5kKE9rKGV2ZW50KSkuYXdhaXQuaXNfZXJyKCkgewogICAgICAgICAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBPayhOb25lKSA9PiBicmVhaywKICAgICAgICAgICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICAgICAgICAgIGxldCBldmVudCA9IEV2ZW50OjpkZWZhdWx0KCkKICAgICAgICAgICAgICAgICAgICAgICAgLmV2ZW50KCJtb25pdG9yX2Vycm9yIikKICAgICAgICAgICAgICAgICAgICAgICAgLmRhdGEoanNvbiEoeyJtZXNzYWdlIjogZXJyb3IubWVzc2FnZSgpfSkudG9fc3RyaW5nKCkpOwogICAgICAgICAgICAgICAgICAgIGxldCBfID0gdHguc2VuZChPayhldmVudCkpLmF3YWl0OwogICAgICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfSk7CiAgICBTc2U6Om5ldyhSZWNlaXZlclN0cmVhbTo6bmV3KHJ4KSkKICAgICAgICAua2VlcF9hbGl2ZShLZWVwQWxpdmU6OmRlZmF1bHQoKSkKICAgICAgICAuaW50b19yZXNwb25zZSgpCn0KCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL2RlZXAtbW9uaXRvci9zZXNzaW9ucy97c2Vzc2lvbl9pZH0vZG93bmxvYWQiLCB0YWcgPSAiZGVlcC1tb25pdG9yIiwgb3BlcmF0aW9uX2lkID0gImdldF9hcGlfYWRtaW5fZGVlcF9tb25pdG9yX3Nlc3Npb25zX2lkX2Rvd25sb2FkIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkRlZXAtbW9uaXRvciBhcmNoaXZlIikpKV0KYXN5bmMgZm4gZG93bmxvYWRfc2Vzc2lvbigKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgUGF0aChzZXNzaW9uX2lkKTogUGF0aDxTdHJpbmc+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCBtdXQgc3RyZWFtID0gbWF0Y2ggc3RhdGUKICAgICAgICAuZ2F0ZXdheQogICAgICAgIC5jbGllbnQKICAgICAgICAuc3RyZWFtX2RlZXBfbW9uaXRvcl9hcmNoaXZlKHNlc3Npb25faWQuY2xvbmUoKSkKICAgICAgICAuYXdhaXQKICAgIHsKICAgICAgICBPayhzdHJlYW0pID0+IHN0cmVhbSwKICAgICAgICBFcnIoZXJyb3IpID0+IHJldHVybiBiYWNrZW5kX2Vycm9yKGVycm9yKSwKICAgIH07CiAgICBsZXQgZmlyc3QgPSBtYXRjaCBzdHJlYW0ubWVzc2FnZSgpLmF3YWl0IHsKICAgICAgICBPayhTb21lKGNodW5rKSkgPT4gY2h1bmssCiAgICAgICAgT2soTm9uZSkgPT4gcmV0dXJuIFN0YXR1c0NvZGU6Ok5PX0NPTlRFTlQuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gcmV0dXJuIGJhY2tlbmRfZXJyb3IoZXJyb3IuaW50bygpKSwKICAgIH07CiAgICBsZXQgZmlyc3RfYnl0ZXMgPSBCeXRlczo6ZnJvbShmaXJzdC5kYXRhKTsKICAgIGxldCBvdXRwdXQgPQogICAgICAgIHRva2lvX3N0cmVhbTo6b25jZShPazo6PEJ5dGVzLCBpbzo6RXJyb3I+KGZpcnN0X2J5dGVzKSkuY2hhaW4oc3RyZWFtLm1hcCh8aXRlbXwgewogICAgICAgICAgICBpdGVtLm1hcCh8Y2h1bmt8IEJ5dGVzOjpmcm9tKGNodW5rLmRhdGEpKQogICAgICAgICAgICAgICAgLm1hcF9lcnIoaW86OkVycm9yOjpvdGhlcikKICAgICAgICB9KSk7CiAgICBsZXQgc2FmZV9pZDogU3RyaW5nID0gc2Vzc2lvbl9pZAogICAgICAgIC5jaGFycygpCiAgICAgICAgLmZpbHRlcih8Y2hhcmFjdGVyfCBjaGFyYWN0ZXIuaXNfYXNjaWlfYWxwaGFudW1lcmljKCkgfHwgbWF0Y2hlcyEoY2hhcmFjdGVyLCAnLScgfCAnXycpKQogICAgICAgIC50YWtlKDY0KQogICAgICAgIC5jb2xsZWN0KCk7CiAgICBsZXQgZmlsZW5hbWUgPSBpZiBzYWZlX2lkLmlzX2VtcHR5KCkgewogICAgICAgICJkZWVwLW1vbml0b3IuemlwIi50b19zdHJpbmcoKQogICAgfSBlbHNlIHsKICAgICAgICBmb3JtYXQhKCJkZWVwLW1vbml0b3Ite3NhZmVfaWR9LnppcCIpCiAgICB9OwogICAgbGV0IG11dCByZXNwb25zZSA9IEJvZHk6OmZyb21fc3RyZWFtKG91dHB1dCkuaW50b19yZXNwb25zZSgpOwogICAgcmVzcG9uc2UuaGVhZGVyc19tdXQoKS5pbnNlcnQoCiAgICAgICAgaGVhZGVyOjpDT05URU5UX1RZUEUsCiAgICAgICAgSGVhZGVyVmFsdWU6OmZyb21fc3RhdGljKCJhcHBsaWNhdGlvbi96aXAiKSwKICAgICk7CiAgICBpZiBsZXQgT2sodmFsdWUpID0gSGVhZGVyVmFsdWU6OmZyb21fc3RyKCZmb3JtYXQhKCJhdHRhY2htZW50OyBmaWxlbmFtZT1cIntmaWxlbmFtZX1cIiIpKSB7CiAgICAgICAgcmVzcG9uc2UKICAgICAgICAgICAgLmhlYWRlcnNfbXV0KCkKICAgICAgICAgICAgLmluc2VydChoZWFkZXI6OkNPTlRFTlRfRElTUE9TSVRJT04sIHZhbHVlKTsKICAgIH0KICAgIHJlc3BvbnNlCn0KCmZuIGdvX2pzb24ocmVzdWx0OiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4pIC0+IFJlc3BvbnNlIHsKICAgIG1hdGNoIHJlc3VsdC5hbmRfdGhlbihkYXRhKSB7CiAgICAgICAgT2sodmFsdWUpID0+IHJlc3BvbnNlOjpvayh2YWx1ZSkuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gYmFja2VuZF9lcnJvcihlcnJvciksCiAgICB9Cn0KCmZuIGRhdGEodmFsdWU6IFZhbHVlKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgaWYgdmFsdWUuZ2V0KCJzdWNjZXNzIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpID09IFNvbWUodHJ1ZSkgewogICAgICAgIE9rKHZhbHVlLmdldCgiZGF0YSIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCkpCiAgICB9IGVsc2UgewogICAgICAgIGFueWhvdzo6YmFpbCEoCiAgICAgICAgICAgICJ7fSIsCiAgICAgICAgICAgIHZhbHVlCiAgICAgICAgICAgICAgICAuZ2V0KCJtZXNzYWdlIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcigiZ2F0ZXdheSByZXF1ZXN0IGZhaWxlZCIpCiAgICAgICAgKQogICAgfQp9CgpmbiBiYWNrZW5kX2Vycm9yKGVycm9yOiBhbnlob3c6OkVycm9yKSAtPiBSZXNwb25zZSB7CiAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJkZWVwIG1vbml0b3IgYmFja2VuZCByZXF1ZXN0IGZhaWxlZCIpOwogICAgcmVzcG9uc2U6OmVycm9yKFN0YXR1c0NvZGU6OkJBRF9HQVRFV0FZLCBlcnJvci50b19zdHJpbmcoKSkKfQo=
+use std::{convert::Infallible, io};
+
+use axum::{
+    Json, Router,
+    body::{Body, Bytes},
+    extract::{Path, Query, State},
+    http::{HeaderMap, HeaderValue, StatusCode, header},
+    middleware::{self, Next},
+    response::{
+        IntoResponse, Response,
+        sse::{Event, KeepAlive, Sse},
+    },
+};
+use serde::Deserialize;
+use serde_json::{Value, json};
+use tokio::sync::mpsc;
+use tokio_stream::{StreamExt, wrappers::ReceiverStream};
+use utoipa_axum::{router::OpenApiRouter, routes};
+
+use crate::{grpc_proto::DeepMonitorQuery, response, state::AppState};
+
+const DEFAULT_DURATION_SECONDS: i32 = 30 * 60;
+
+#[derive(Deserialize)]
+struct StartBody {
+    host: String,
+    #[serde(default = "default_duration")]
+    duration_seconds: i32,
+}
+
+#[derive(Deserialize)]
+struct ExtendBody {
+    duration_seconds: i32,
+}
+
+#[derive(Deserialize, Default)]
+struct ListQuery {
+    #[serde(default)]
+    include_expired: bool,
+}
+
+#[derive(Deserialize, Default)]
+struct EventsQuery {
+    cursor: Option<String>,
+    limit: Option<i32>,
+    #[serde(rename = "type")]
+    event_type: Option<String>,
+    search: Option<String>,
+    direction: Option<String>,
+    method: Option<String>,
+    status: Option<i32>,
+    client_ip: Option<String>,
+    identity: Option<String>,
+    path: Option<String>,
+}
+
+#[derive(Deserialize)]
+struct PayloadQuery {
+    part: String,
+    #[serde(default)]
+    offset: u64,
+    limit: Option<usize>,
+}
+
+#[derive(Deserialize, Default)]
+struct LiveQuery {
+    #[serde(default)]
+    after_sequence: u64,
+}
+
+fn default_duration() -> i32 {
+    DEFAULT_DURATION_SECONDS
+}
+
+pub fn deep_monitor_routes() -> Router<AppState> {
+    let routes: Router<AppState> = deep_monitor_openapi_routes().into();
+    routes.layer(middleware::from_fn(no_store))
+}
+
+pub(crate) fn deep_monitor_openapi_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(list_sessions))
+        .routes(routes!(start_session))
+        .routes(routes!(get_session))
+        .routes(routes!(delete_session))
+        .routes(routes!(extend_session))
+        .routes(routes!(stop_session))
+        .routes(routes!(list_events))
+        .routes(routes!(get_event))
+        .routes(routes!(payload))
+        .routes(routes!(live))
+        .routes(routes!(download_session))
+}
+
+async fn no_store(request: axum::extract::Request, next: Next) -> Response {
+    let mut response = next.run(request).await;
+    response.headers_mut().insert(
+        header::CACHE_CONTROL,
+        HeaderValue::from_static("no-store, max-age=0"),
+    );
+    response
+        .headers_mut()
+        .insert(header::PRAGMA, HeaderValue::from_static("no-cache"));
+    response
+}
+
+#[utoipa::path(post, path = "/api/admin/deep-monitor/sessions", tag = "deep-monitor", operation_id = "post_api_admin_deep_monitor_sessions", responses((status = 200, description = "Started deep-monitor session")))]
+async fn start_session(State(state): State<AppState>, Json(body): Json<StartBody>) -> Response {
+    go_json(
+        state
+            .gateway
+            .client
+            .start_deep_monitor(body.host, body.duration_seconds)
+            .await,
+    )
+}
+
+#[utoipa::path(get, path = "/api/admin/deep-monitor/sessions", tag = "deep-monitor", operation_id = "get_api_admin_deep_monitor_sessions", responses((status = 200, description = "Deep-monitor sessions")))]
+async fn list_sessions(State(state): State<AppState>, Query(query): Query<ListQuery>) -> Response {
+    go_json(
+        state
+            .gateway
+            .client
+            .list_deep_monitors(query.include_expired)
+            .await,
+    )
+}
+
+#[utoipa::path(get, path = "/api/admin/deep-monitor/sessions/{session_id}", tag = "deep-monitor", operation_id = "get_api_admin_deep_monitor_sessions_id", responses((status = 200, description = "Deep-monitor session")))]
+async fn get_session(State(state): State<AppState>, Path(session_id): Path<String>) -> Response {
+    match state
+        .gateway
+        .client
+        .list_deep_monitors(true)
+        .await
+        .and_then(data)
+    {
+        Ok(value) => {
+            let found = value
+                .get("items")
+                .and_then(Value::as_array)
+                .and_then(|items| {
+                    items
+                        .iter()
+                        .find(|item| item.get("id").and_then(Value::as_str) == Some(&session_id))
+                })
+                .cloned();
+            match found {
+                Some(item) => response::ok(item).into_response(),
+                None => response::error(StatusCode::NOT_FOUND, "deep monitor session not found"),
+            }
+        }
+        Err(error) => backend_error(error),
+    }
+}
+
+#[utoipa::path(post, path = "/api/admin/deep-monitor/sessions/{session_id}/extend", tag = "deep-monitor", operation_id = "post_api_admin_deep_monitor_sessions_id_extend", responses((status = 200, description = "Extended deep-monitor session")))]
+async fn extend_session(
+    State(state): State<AppState>,
+    Path(session_id): Path<String>,
+    Json(body): Json<ExtendBody>,
+) -> Response {
+    go_json(
+        state
+            .gateway
+            .client
+            .extend_deep_monitor(session_id, body.duration_seconds)
+            .await,
+    )
+}
+
+#[utoipa::path(post, path = "/api/admin/deep-monitor/sessions/{session_id}/stop", tag = "deep-monitor", operation_id = "post_api_admin_deep_monitor_sessions_id_stop", responses((status = 200, description = "Stopped deep-monitor session")))]
+async fn stop_session(State(state): State<AppState>, Path(session_id): Path<String>) -> Response {
+    go_json(state.gateway.client.stop_deep_monitor(session_id).await)
+}
+
+#[utoipa::path(delete, path = "/api/admin/deep-monitor/sessions/{session_id}", tag = "deep-monitor", operation_id = "delete_api_admin_deep_monitor_sessions_id", responses((status = 200, description = "Deleted deep-monitor session")))]
+async fn delete_session(State(state): State<AppState>, Path(session_id): Path<String>) -> Response {
+    go_json(state.gateway.client.delete_deep_monitor(session_id).await)
+}
+
+#[utoipa::path(get, path = "/api/admin/deep-monitor/sessions/{session_id}/events", tag = "deep-monitor", operation_id = "get_api_admin_deep_monitor_sessions__session_id__events", responses((status = 200, description = "Deep-monitor events")))]
+async fn list_events(
+    State(state): State<AppState>,
+    Path(session_id): Path<String>,
+    Query(query): Query<EventsQuery>,
+) -> Response {
+    go_json(
+        state
+            .gateway
+            .client
+            .query_deep_monitor_events(DeepMonitorQuery {
+                session_id,
+                cursor: query.cursor.unwrap_or_default(),
+                limit: query.limit.unwrap_or(100).clamp(1, 200),
+                r#type: query.event_type.unwrap_or_default(),
+                search: query.search.unwrap_or_default(),
+                direction: query.direction.unwrap_or_default(),
+                method: query.method.unwrap_or_default(),
+                status: query.status.unwrap_or_default(),
+                client_ip: query.client_ip.unwrap_or_default(),
+                identity: query.identity.unwrap_or_default(),
+                path: query.path.unwrap_or_default(),
+            })
+            .await,
+    )
+}
+
+#[utoipa::path(get, path = "/api/admin/deep-monitor/sessions/{session_id}/events/{event_id}", tag = "deep-monitor", operation_id = "get_api_admin_deep_monitor_sessions_id_events_event_id", responses((status = 200, description = "Deep-monitor event")))]
+async fn get_event(
+    State(state): State<AppState>,
+    Path((session_id, event_id)): Path<(String, String)>,
+) -> Response {
+    go_json(
+        state
+            .gateway
+            .client
+            .get_deep_monitor_event(session_id, event_id)
+            .await,
+    )
+}
+
+#[utoipa::path(get, path = "/api/admin/deep-monitor/sessions/{session_id}/events/{event_id}/payload", tag = "deep-monitor", operation_id = "get_api_admin_deep_monitor_sessions__session_id__events__event_id__payload", responses((status = 200, description = "Captured event payload")))]
+async fn payload(
+    State(state): State<AppState>,
+    Path((session_id, event_id)): Path<(String, String)>,
+    Query(query): Query<PayloadQuery>,
+) -> Response {
+    let mut stream = match state
+        .gateway
+        .client
+        .stream_deep_monitor_payload(session_id, event_id, query.part, query.offset)
+        .await
+    {
+        Ok(stream) => stream,
+        Err(error) => return backend_error(error),
+    };
+    let first = match stream.message().await {
+        Ok(Some(chunk)) => chunk,
+        Ok(None) => return StatusCode::NO_CONTENT.into_response(),
+        Err(error) => return backend_error(error.into()),
+    };
+    let content_type = HeaderValue::from_str(&first.content_type)
+        .unwrap_or_else(|_| HeaderValue::from_static("application/octet-stream"));
+    if let Some(limit) = query.limit.map(|value| value.clamp(1, 256 * 1024)) {
+        let mut data = first.data;
+        while data.len() < limit {
+            match stream.message().await {
+                Ok(Some(chunk)) => data.extend_from_slice(&chunk.data),
+                Ok(None) => break,
+                Err(error) => return backend_error(error.into()),
+            }
+        }
+        data.truncate(limit);
+        let mut response = Body::from(data).into_response();
+        response
+            .headers_mut()
+            .insert(header::CONTENT_TYPE, content_type);
+        return response;
+    }
+    let first_bytes = Bytes::from(first.data);
+    let output =
+        tokio_stream::once(Ok::<Bytes, io::Error>(first_bytes)).chain(stream.map(|item| {
+            item.map(|chunk| Bytes::from(chunk.data))
+                .map_err(io::Error::other)
+        }));
+    let mut response = Body::from_stream(output).into_response();
+    response
+        .headers_mut()
+        .insert(header::CONTENT_TYPE, content_type);
+    response.headers_mut().insert(
+        header::CONTENT_DISPOSITION,
+        HeaderValue::from_static("attachment"),
+    );
+    response
+}
+
+#[utoipa::path(get, path = "/api/admin/deep-monitor/sessions/{session_id}/live", tag = "deep-monitor", operation_id = "get_api_admin_deep_monitor_sessions_id_live", responses((status = 200, description = "Live deep-monitor events")))]
+async fn live(
+    State(state): State<AppState>,
+    Path(session_id): Path<String>,
+    Query(query): Query<LiveQuery>,
+    headers: HeaderMap,
+) -> Response {
+    let header_sequence = headers
+        .get("last-event-id")
+        .and_then(|value| value.to_str().ok())
+        .and_then(|value| value.parse::<u64>().ok())
+        .unwrap_or_default();
+    let after = query.after_sequence.max(header_sequence);
+    let mut grpc = match state
+        .gateway
+        .client
+        .watch_deep_monitor_events(session_id, after)
+        .await
+    {
+        Ok(stream) => stream,
+        Err(error) => return backend_error(error),
+    };
+    let (tx, rx) = mpsc::channel::<Result<Event, Infallible>>(128);
+    let shutdown = state.shutdown.clone();
+    state.spawn_background("deep-monitor-sse", async move {
+        loop {
+            let message = tokio::select! {
+                _ = shutdown.cancelled() => break,
+                message = grpc.message() => message,
+            };
+            match message {
+                Ok(Some(item)) => {
+                    let sequence = item.sequence;
+                    let data = crate::go_backend::deep_monitor::summary_json(item).to_string();
+                    let event = Event::default()
+                        .event("traffic")
+                        .id(sequence.to_string())
+                        .data(data);
+                    if tx.send(Ok(event)).await.is_err() {
+                        break;
+                    }
+                }
+                Ok(None) => break,
+                Err(error) => {
+                    let event = Event::default()
+                        .event("monitor_error")
+                        .data(json!({"message": error.message()}).to_string());
+                    let _ = tx.send(Ok(event)).await;
+                    break;
+                }
+            }
+        }
+    });
+    Sse::new(ReceiverStream::new(rx))
+        .keep_alive(KeepAlive::default())
+        .into_response()
+}
+
+#[utoipa::path(get, path = "/api/admin/deep-monitor/sessions/{session_id}/download", tag = "deep-monitor", operation_id = "get_api_admin_deep_monitor_sessions_id_download", responses((status = 200, description = "Deep-monitor archive")))]
+async fn download_session(
+    State(state): State<AppState>,
+    Path(session_id): Path<String>,
+) -> Response {
+    let mut stream = match state
+        .gateway
+        .client
+        .stream_deep_monitor_archive(session_id.clone())
+        .await
+    {
+        Ok(stream) => stream,
+        Err(error) => return backend_error(error),
+    };
+    let first = match stream.message().await {
+        Ok(Some(chunk)) => chunk,
+        Ok(None) => return StatusCode::NO_CONTENT.into_response(),
+        Err(error) => return backend_error(error.into()),
+    };
+    let first_bytes = Bytes::from(first.data);
+    let output =
+        tokio_stream::once(Ok::<Bytes, io::Error>(first_bytes)).chain(stream.map(|item| {
+            item.map(|chunk| Bytes::from(chunk.data))
+                .map_err(io::Error::other)
+        }));
+    let safe_id: String = session_id
+        .chars()
+        .filter(|character| character.is_ascii_alphanumeric() || matches!(character, '-' | '_'))
+        .take(64)
+        .collect();
+    let filename = if safe_id.is_empty() {
+        "deep-monitor.zip".to_string()
+    } else {
+        format!("deep-monitor-{safe_id}.zip")
+    };
+    let mut response = Body::from_stream(output).into_response();
+    response.headers_mut().insert(
+        header::CONTENT_TYPE,
+        HeaderValue::from_static("application/zip"),
+    );
+    if let Ok(value) = HeaderValue::from_str(&format!("attachment; filename=\"{filename}\"")) {
+        response
+            .headers_mut()
+            .insert(header::CONTENT_DISPOSITION, value);
+    }
+    response
+}
+
+fn go_json(result: anyhow::Result<Value>) -> Response {
+    match result.and_then(data) {
+        Ok(value) => response::ok(value).into_response(),
+        Err(error) => backend_error(error),
+    }
+}
+
+fn data(value: Value) -> anyhow::Result<Value> {
+    if value.get("success").and_then(Value::as_bool) == Some(true) {
+        Ok(value.get("data").cloned().unwrap_or(Value::Null))
+    } else {
+        anyhow::bail!(
+            "{}",
+            value
+                .get("message")
+                .and_then(Value::as_str)
+                .unwrap_or("gateway request failed")
+        )
+    }
+}
+
+fn backend_error(error: anyhow::Error) -> Response {
+    tracing::warn!(%error, "deep monitor backend request failed");
+    response::error(StatusCode::BAD_GATEWAY, error.to_string())
+}

@@ -1,1 +1,182 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGVkZ2VvbmVfY2F0YWxvZ19lbnRyeSgpIC0+IFZhbHVlIHsKICAgIHByb3ZpZGVyKAogICAgICAgICJlZGdlb25lIiwKICAgICAgICAiVGVuY2VudCBFZGdlT25lIiwKICAgICAgICB2ZWMhWwogICAgICAgICAgICBmaWVsZCgic2VjcmV0X2lkIiwgIlNlY3JldElkIiwgInRleHQiLCAiQUtJRC4uLiIsIHRydWUpLAogICAgICAgICAgICBmaWVsZCgic2VjcmV0X2tleSIsICJTZWNyZXRLZXkiLCAicGFzc3dvcmQiLCAiU2VjcmV0S2V5IiwgdHJ1ZSksCiAgICAgICAgICAgIGZpZWxkKCJ6b25lX2lkIiwgIlpvbmUgSUQiLCAidGV4dCIsICJ6b25lLXh4eHh4eHh4IiwgdHJ1ZSksCiAgICAgICAgICAgIGZpZWxkKCJkb21haW4iLCAiRG9tYWluIiwgInRleHQiLCAiaG9tZS5leGFtcGxlLmNvbSIsIHRydWUpLAogICAgICAgICAgICBmaWVsZCgibG9jYXRpb24iLCAiTG9jYXRpb24iLCAidGV4dCIsICIiLCBmYWxzZSksCiAgICAgICAgICAgIGZpZWxkKCJ0dGwiLCAiVFRMIiwgInRleHQiLCAiMzAwIiwgZmFsc2UpLAogICAgICAgICAgICBzZWxlY3RfZmllbGQoCiAgICAgICAgICAgICAgICBERE5TX0VER0VPTkVfT1ZFUlNFQVNfQUNDRVNTX0ZJRUxELAogICAgICAgICAgICAgICAgIk92ZXJzZWFzIGFjY2VzcyBjb250cm9sIiwKICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICAgICAgdmVjIVsoIk9mZiIsICJvZmYiKSwgKCJCbG9jayBvdmVyc2VhcyBJUHMiLCAiYmxvY2tfb3ZlcnNlYXMiKV0sCiAgICAgICAgICAgICksCiAgICAgICAgICAgIGZpZWxkKAogICAgICAgICAgICAgICAgImVuZHBvaW50IiwKICAgICAgICAgICAgICAgICJBUEkgRW5kcG9pbnQiLAogICAgICAgICAgICAgICAgInRleHQiLAogICAgICAgICAgICAgICAgImh0dHBzOi8vdGVvLnRlbmNlbnRjbG91ZGFwaS5jb20iLAogICAgICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgICksCiAgICAgICAgICAgIGZpZWxkKCJyZWdpb24iLCAiUmVnaW9uIiwgInRleHQiLCAiIiwgZmFsc2UpLAogICAgICAgIF0sCiAgICApCn0KCnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBhc3luYyBmbiB1cGRhdGVfZWRnZW9uZSgKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgY29uZmlnOiAmSGFzaE1hcDxTdHJpbmcsIFN0cmluZz4sCiAgICBodHRwX29wdGlvbnM6ICZERE5TSHR0cENsaWVudE9wdGlvbnMsCiAgICBpcHY0OiBPcHRpb248JnN0cj4sCiAgICBpcHY2OiBPcHRpb248JnN0cj4sCikgLT4gYW55aG93OjpSZXN1bHQ8REROU1Byb3ZpZGVyVXBkYXRlUmVzdWx0PiB7CiAgICBsZXQgc2VjcmV0X2lkID0gY29uZmlnX3ZhbHVlKGNvbmZpZywgInNlY3JldF9pZCIpOwogICAgbGV0IHNlY3JldF9rZXkgPSBjb25maWdfdmFsdWUoY29uZmlnLCAic2VjcmV0X2tleSIpOwogICAgbGV0IHpvbmVfaWQgPSBjb25maWdfdmFsdWUoY29uZmlnLCAiem9uZV9pZCIpOwogICAgbGV0IGRvbWFpbiA9IG5vcm1hbGl6ZV9kb21haW4oJmNvbmZpZ192YWx1ZShjb25maWcsICJkb21haW4iKSk7CiAgICBpZiBzZWNyZXRfaWQuaXNfZW1wdHkoKSB8fCBzZWNyZXRfa2V5LmlzX2VtcHR5KCkgfHwgem9uZV9pZC5pc19lbXB0eSgpIHx8IGRvbWFpbi5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gT2socHJvdmlkZXJfZmFpbHVyZShkZG5zX3RleHQoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJwcm92aWRlcnMuZWRnZW9uZS5jb25maWdJbmNvbXBsZXRlIiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpKTsKICAgIH0KICAgIGxldCB0dGwgPSBwb3NpdGl2ZV9pNjQoY29uZmlnLmdldCgidHRsIiksIDMwMCk7CiAgICBsZXQgZGVzaXJlZF9sb2NhdGlvbiA9IG5vcm1hbGl6ZV9lZGdlb25lX2xvY2F0aW9uKGNvbmZpZy5nZXQoImxvY2F0aW9uIikubWFwKFN0cmluZzo6YXNfc3RyKSk7CiAgICBsZXQgY2xpZW50ID0gZGRuc19odHRwX2NsaWVudCh0cmFuc2xhdG9yLCBodHRwX29wdGlvbnMpPzsKICAgIGxldCBtaXNzaW5nX3JlY29yZF9pZCA9IGRkbnNfdGV4dCh0cmFuc2xhdG9yLCAicHJvdmlkZXJzLmVkZ2VvbmUubWlzc2luZ1JlY29yZElkIiwgJltdKTsKICAgIGxldCBtaXNzaW5nX2NyZWF0ZWRfcmVjb3JkX2lkID0KICAgICAgICBkZG5zX3RleHQodHJhbnNsYXRvciwgInByb3ZpZGVycy5lZGdlb25lLm1pc3NpbmdDcmVhdGVkUmVjb3JkSWQiLCAmW10pOwogICAgbGV0IHByb3ZpZGVyX2xhYmVsX3RleHQgPSBwcm92aWRlcl9sYWJlbChTb21lKCJlZGdlb25lIiksIHRyYW5zbGF0b3IpOwogICAgdXBkYXRlX2R1YWxfc3RhY2soCiAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAmcHJvdmlkZXJfbGFiZWxfdGV4dCwKICAgICAgICBpcHY0LAogICAgICAgIGlwdjYsCiAgICAgICAgfHJlY29yZF90eXBlLCBpcHwgewogICAgICAgICAgICBsZXQgY2xpZW50ID0gY2xpZW50LmNsb25lKCk7CiAgICAgICAgICAgIGxldCBjb25maWcgPSBjb25maWcuY2xvbmUoKTsKICAgICAgICAgICAgbGV0IHNlY3JldF9pZCA9IHNlY3JldF9pZC5jbG9uZSgpOwogICAgICAgICAgICBsZXQgc2VjcmV0X2tleSA9IHNlY3JldF9rZXkuY2xvbmUoKTsKICAgICAgICAgICAgbGV0IHpvbmVfaWQgPSB6b25lX2lkLmNsb25lKCk7CiAgICAgICAgICAgIGxldCBkb21haW4gPSBkb21haW4uY2xvbmUoKTsKICAgICAgICAgICAgbGV0IGRlc2lyZWRfbG9jYXRpb24gPSBkZXNpcmVkX2xvY2F0aW9uLmNsb25lKCk7CiAgICAgICAgICAgIGxldCBtaXNzaW5nX3JlY29yZF9pZCA9IG1pc3NpbmdfcmVjb3JkX2lkLmNsb25lKCk7CiAgICAgICAgICAgIGxldCBtaXNzaW5nX2NyZWF0ZWRfcmVjb3JkX2lkID0gbWlzc2luZ19jcmVhdGVkX3JlY29yZF9pZC5jbG9uZSgpOwogICAgICAgICAgICBhc3luYyBtb3ZlIHsKICAgICAgICAgICAgICAgIGxldCBsaXN0ID0gZWRnZW9uZV9yZXF1ZXN0KAogICAgICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAgICAgJmNsaWVudCwKICAgICAgICAgICAgICAgICAgICAmY29uZmlnLAogICAgICAgICAgICAgICAgICAgICZzZWNyZXRfaWQsCiAgICAgICAgICAgICAgICAgICAgJnNlY3JldF9rZXksCiAgICAgICAgICAgICAgICAgICAgIkRlc2NyaWJlRG5zUmVjb3JkcyIsCiAgICAgICAgICAgICAgICAgICAganNvbiEoewogICAgICAgICAgICAgICAgICAgICAgICAiWm9uZUlkIjogem9uZV9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgIk9mZnNldCI6IDAsCiAgICAgICAgICAgICAgICAgICAgICAgICJMaW1pdCI6IDEwMCwKICAgICAgICAgICAgICAgICAgICAgICAgIk1hdGNoIjogImFsbCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJGaWx0ZXJzIjogW3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJOYW1lIjogIm5hbWUiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIlZhbHVlcyI6IFtkb21haW5dLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIkZ1enp5IjogZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgfV0KICAgICAgICAgICAgICAgICAgICB9KSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgICAgICAgICBsZXQgZXhpc3RpbmcgPSBsaXN0CiAgICAgICAgICAgICAgICAgICAgLmdldCgiRG5zUmVjb3JkcyIpCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAgICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgICAgICAgICAuZmxhdHRlbigpCiAgICAgICAgICAgICAgICAgICAgLmZpbmQofHJlY29yZHwgewogICAgICAgICAgICAgICAgICAgICAgICBub3JtYWxpemVfZG9tYWluKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVjb3JkCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmdldCgiTmFtZSIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCksCiAgICAgICAgICAgICAgICAgICAgICAgICkgPT0gZG9tYWluCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAmJiByZWNvcmQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZ2V0KCJUeXBlIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaXNfc29tZV9hbmQofHZhbHVlfCB2YWx1ZS5lcV9pZ25vcmVfYXNjaWlfY2FzZShyZWNvcmRfdHlwZSkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAmJiBub3JtYWxpemVfZWRnZW9uZV9sb2NhdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWNvcmQuZ2V0KCJMb2NhdGlvbiIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSA9PSBkZXNpcmVkX2xvY2F0aW9uCiAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgICAuY2xvbmVkKCk7CiAgICAgICAgICAgICAgICBpZiBsZXQgU29tZShleGlzdGluZykgPSBleGlzdGluZyB7CiAgICAgICAgICAgICAgICAgICAgaWYgZXhpc3RpbmcuZ2V0KCJDb250ZW50IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZShpcC5hc19zdHIoKSkgewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gT2soKCkpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBsZXQgcmVjb3JkX2lkID0gZXhpc3RpbmcKICAgICAgICAgICAgICAgICAgICAgICAgLmdldCgiUmVjb3JkSWQiKQogICAgICAgICAgICAgICAgICAgICAgICAuZmlsdGVyKHx2YWx1ZXwganNvbl92YWx1ZV9qc190cnV0aHkoU29tZSh2YWx1ZSkpKQogICAgICAgICAgICAgICAgICAgICAgICAuY2xvbmVkKCkKICAgICAgICAgICAgICAgICAgICAgICAgLm9rX29yX2Vsc2UofHwgYW55aG93Ojphbnlob3chKG1pc3NpbmdfcmVjb3JkX2lkLmNsb25lKCkpKT87CiAgICAgICAgICAgICAgICAgICAgbGV0IG11dCByZWNvcmQgPSBqc29uISh7CiAgICAgICAgICAgICAgICAgICAgICAgICJSZWNvcmRJZCI6IHJlY29yZF9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgIk5hbWUiOiBkb21haW4sCiAgICAgICAgICAgICAgICAgICAgICAgICJUeXBlIjogcmVjb3JkX3R5cGUsCiAgICAgICAgICAgICAgICAgICAgICAgICJDb250ZW50IjogaXAsCiAgICAgICAgICAgICAgICAgICAgICAgICJUVEwiOiB0dGwKICAgICAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgICAgICBpZiBkZXNpcmVkX2xvY2F0aW9uICE9ICJkZWZhdWx0IiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGluc2VydF9qc29uX2ZpZWxkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJm11dCByZWNvcmQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiTG9jYXRpb24iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAganNvbiEoY29uZmlnX3ZhbHVlKCZjb25maWcsICJsb2NhdGlvbiIpKSwKICAgICAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgZWRnZW9uZV9yZXF1ZXN0KAogICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgICAgICAgICAmY2xpZW50LAogICAgICAgICAgICAgICAgICAgICAgICAmY29uZmlnLAogICAgICAgICAgICAgICAgICAgICAgICAmc2VjcmV0X2lkLAogICAgICAgICAgICAgICAgICAgICAgICAmc2VjcmV0X2tleSwKICAgICAgICAgICAgICAgICAgICAgICAgIk1vZGlmeURuc1JlY29yZHMiLAogICAgICAgICAgICAgICAgICAgICAgICBqc29uISh7ICJab25lSWQiOiB6b25lX2lkLCAiRG5zUmVjb3JkcyI6IFtyZWNvcmRdIH0pLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgICAgICAgICAgICAgIHJldHVybiBPaygoKSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBsZXQgbXV0IHBheWxvYWQgPSBqc29uISh7CiAgICAgICAgICAgICAgICAgICAgIlpvbmVJZCI6IHpvbmVfaWQsCiAgICAgICAgICAgICAgICAgICAgIk5hbWUiOiBkb21haW4sCiAgICAgICAgICAgICAgICAgICAgIlR5cGUiOiByZWNvcmRfdHlwZSwKICAgICAgICAgICAgICAgICAgICAiQ29udGVudCI6IGlwLAogICAgICAgICAgICAgICAgICAgICJUVEwiOiB0dGwKICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgaWYgZGVzaXJlZF9sb2NhdGlvbiAhPSAiZGVmYXVsdCIgewogICAgICAgICAgICAgICAgICAgIGluc2VydF9qc29uX2ZpZWxkKAogICAgICAgICAgICAgICAgICAgICAgICAmbXV0IHBheWxvYWQsCiAgICAgICAgICAgICAgICAgICAgICAgICJMb2NhdGlvbiIsCiAgICAgICAgICAgICAgICAgICAgICAgIGpzb24hKGNvbmZpZ192YWx1ZSgmY29uZmlnLCAibG9jYXRpb24iKSksCiAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGxldCByZXN1bHQgPSBlZGdlb25lX3JlcXVlc3QoCiAgICAgICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICAgICAmY2xpZW50LAogICAgICAgICAgICAgICAgICAgICZjb25maWcsCiAgICAgICAgICAgICAgICAgICAgJnNlY3JldF9pZCwKICAgICAgICAgICAgICAgICAgICAmc2VjcmV0X2tleSwKICAgICAgICAgICAgICAgICAgICAiQ3JlYXRlRG5zUmVjb3JkIiwKICAgICAgICAgICAgICAgICAgICBwYXlsb2FkLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICAgICAgICAgIGlmIGpzb25fdmFsdWVfanNfdHJ1dGh5KHJlc3VsdC5nZXQoIlJlY29yZElkIikpIHsKICAgICAgICAgICAgICAgICAgICBPaygoKSkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgRXJyKGFueWhvdzo6YW55aG93IShtaXNzaW5nX2NyZWF0ZWRfcmVjb3JkX2lkKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICApCiAgICAuYXdhaXQKfQo=
+use super::*;
+
+pub(in crate::ddns::routes) fn edgeone_catalog_entry() -> Value {
+    provider(
+        "edgeone",
+        "Tencent EdgeOne",
+        vec![
+            field("secret_id", "SecretId", "text", "AKID...", true),
+            field("secret_key", "SecretKey", "password", "SecretKey", true),
+            field("zone_id", "Zone ID", "text", "zone-xxxxxxxx", true),
+            field("domain", "Domain", "text", "home.example.com", true),
+            field("location", "Location", "text", "", false),
+            field("ttl", "TTL", "text", "300", false),
+            select_field(
+                DDNS_EDGEONE_OVERSEAS_ACCESS_FIELD,
+                "Overseas access control",
+                false,
+                vec![("Off", "off"), ("Block overseas IPs", "block_overseas")],
+            ),
+            field(
+                "endpoint",
+                "API Endpoint",
+                "text",
+                "https://teo.tencentcloudapi.com",
+                false,
+            ),
+            field("region", "Region", "text", "", false),
+        ],
+    )
+}
+
+pub(in crate::ddns::routes) async fn update_edgeone(
+    translator: &Translator,
+    config: &HashMap<String, String>,
+    http_options: &DDNSHttpClientOptions,
+    ipv4: Option<&str>,
+    ipv6: Option<&str>,
+) -> anyhow::Result<DDNSProviderUpdateResult> {
+    let secret_id = config_value(config, "secret_id");
+    let secret_key = config_value(config, "secret_key");
+    let zone_id = config_value(config, "zone_id");
+    let domain = normalize_domain(&config_value(config, "domain"));
+    if secret_id.is_empty() || secret_key.is_empty() || zone_id.is_empty() || domain.is_empty() {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.edgeone.configIncomplete",
+            &[],
+        )));
+    }
+    let ttl = positive_i64(config.get("ttl"), 300);
+    let desired_location = normalize_edgeone_location(config.get("location").map(String::as_str));
+    let client = ddns_http_client(translator, http_options)?;
+    let missing_record_id = ddns_text(translator, "providers.edgeone.missingRecordId", &[]);
+    let missing_created_record_id =
+        ddns_text(translator, "providers.edgeone.missingCreatedRecordId", &[]);
+    let provider_label_text = provider_label(Some("edgeone"), translator);
+    update_dual_stack(
+        translator,
+        &provider_label_text,
+        ipv4,
+        ipv6,
+        |record_type, ip| {
+            let client = client.clone();
+            let config = config.clone();
+            let secret_id = secret_id.clone();
+            let secret_key = secret_key.clone();
+            let zone_id = zone_id.clone();
+            let domain = domain.clone();
+            let desired_location = desired_location.clone();
+            let missing_record_id = missing_record_id.clone();
+            let missing_created_record_id = missing_created_record_id.clone();
+            async move {
+                let list = edgeone_request(
+                    translator,
+                    &client,
+                    &config,
+                    &secret_id,
+                    &secret_key,
+                    "DescribeDnsRecords",
+                    json!({
+                        "ZoneId": zone_id,
+                        "Offset": 0,
+                        "Limit": 100,
+                        "Match": "all",
+                        "Filters": [{
+                            "Name": "name",
+                            "Values": [domain],
+                            "Fuzzy": false
+                        }]
+                    }),
+                )
+                .await?;
+                let existing = list
+                    .get("DnsRecords")
+                    .and_then(Value::as_array)
+                    .into_iter()
+                    .flatten()
+                    .find(|record| {
+                        normalize_domain(
+                            record
+                                .get("Name")
+                                .and_then(Value::as_str)
+                                .unwrap_or_default(),
+                        ) == domain
+                            && record
+                                .get("Type")
+                                .and_then(Value::as_str)
+                                .is_some_and(|value| value.eq_ignore_ascii_case(record_type))
+                            && normalize_edgeone_location(
+                                record.get("Location").and_then(Value::as_str),
+                            ) == desired_location
+                    })
+                    .cloned();
+                if let Some(existing) = existing {
+                    if existing.get("Content").and_then(Value::as_str) == Some(ip.as_str()) {
+                        return Ok(());
+                    }
+                    let record_id = existing
+                        .get("RecordId")
+                        .filter(|value| json_value_js_truthy(Some(value)))
+                        .cloned()
+                        .ok_or_else(|| anyhow::anyhow!(missing_record_id.clone()))?;
+                    let mut record = json!({
+                        "RecordId": record_id,
+                        "Name": domain,
+                        "Type": record_type,
+                        "Content": ip,
+                        "TTL": ttl
+                    });
+                    if desired_location != "default" {
+                        insert_json_field(
+                            &mut record,
+                            "Location",
+                            json!(config_value(&config, "location")),
+                        );
+                    }
+                    edgeone_request(
+                        translator,
+                        &client,
+                        &config,
+                        &secret_id,
+                        &secret_key,
+                        "ModifyDnsRecords",
+                        json!({ "ZoneId": zone_id, "DnsRecords": [record] }),
+                    )
+                    .await?;
+                    return Ok(());
+                }
+                let mut payload = json!({
+                    "ZoneId": zone_id,
+                    "Name": domain,
+                    "Type": record_type,
+                    "Content": ip,
+                    "TTL": ttl
+                });
+                if desired_location != "default" {
+                    insert_json_field(
+                        &mut payload,
+                        "Location",
+                        json!(config_value(&config, "location")),
+                    );
+                }
+                let result = edgeone_request(
+                    translator,
+                    &client,
+                    &config,
+                    &secret_id,
+                    &secret_key,
+                    "CreateDnsRecord",
+                    payload,
+                )
+                .await?;
+                if json_value_js_truthy(result.get("RecordId")) {
+                    Ok(())
+                } else {
+                    Err(anyhow::anyhow!(missing_created_record_id))
+                }
+            }
+        },
+    )
+    .await
+}

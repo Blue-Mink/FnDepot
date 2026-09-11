@@ -1,1 +1,30 @@
-dXNlIHN1cGVyOjoqOwoKI1thbGxvdyhkZWFkX2NvZGUpXQpwdWIgZm4gbmV3X2xvZ2luX3Nlc3Npb24oCiAgICB0b3RwX2lkOiAmc3RyLAogICAgY3JlZGVudGlhbF9uYW1lOiAmc3RyLAogICAgaXA6ICZzdHIsCiAgICB1c2VyX2FnZW50OiAmc3RyLAogICAgdHRsX3NlY29uZHM6IGk2NCwKKSAtPiBMb2dpblNlc3Npb24gewogICAgTG9naW5TZXNzaW9uIHsKICAgICAgICB0b3RwX2lkOiB0b3RwX2lkLnRvX3N0cmluZygpLAogICAgICAgIG1ldGhvZDogIlRPVFAiLnRvX3N0cmluZygpLAogICAgICAgIGNyZWRlbnRpYWxfaWQ6IHRvdHBfaWQudG9fc3RyaW5nKCksCiAgICAgICAgY3JlZGVudGlhbF9uYW1lOiBjcmVkZW50aWFsX25hbWUudG9fc3RyaW5nKCksCiAgICAgICAgbGlua2VkX3RvdHBfbmFtZTogTm9uZSwKICAgICAgICBhY2Nlc3Nfc2NvcGVzOiBOb25lLAogICAgICAgIHN1YmRvbWFpbl9hY2Nlc3M6IE5vbmUsCiAgICAgICAgZ3JhbnRfdHlwZTogU29tZSgiYnJvd3Nlcl9zZXNzaW9uIi50b19zdHJpbmcoKSksCiAgICAgICAgcG9zdF9sb2dpbl9pcF9ncmFudF9tb2RlOiBOb25lLAogICAgICAgIHBvc3RfbG9naW5faXBfZ3JhbnRfcmVjb3JkX2lkOiBOb25lLAogICAgICAgIHN0cmVhbV9hY2Nlc3NfZXhwaXJlc19hdDogTm9uZSwKICAgICAgICBjb21tZW50OiBOb25lLAogICAgICAgIGlwOiBpcC50b19zdHJpbmcoKSwKICAgICAgICB1c2VyX2FnZW50OiB1c2VyX2FnZW50LnRvX3N0cmluZygpLAogICAgICAgIGxvZ2luX3RpbWU6IG5vd19pc28oKSwKICAgICAgICBleHBpcmVzX2F0OiBTb21lKGlzb19hZnRlcl9zZWNvbmRzKHR0bF9zZWNvbmRzKSksCiAgICAgICAgaXBfbG9jYXRpb246IE5vbmUsCiAgICB9Cn0K
+use super::*;
+
+#[allow(dead_code)]
+pub fn new_login_session(
+    totp_id: &str,
+    credential_name: &str,
+    ip: &str,
+    user_agent: &str,
+    ttl_seconds: i64,
+) -> LoginSession {
+    LoginSession {
+        totp_id: totp_id.to_string(),
+        method: "TOTP".to_string(),
+        credential_id: totp_id.to_string(),
+        credential_name: credential_name.to_string(),
+        linked_totp_name: None,
+        access_scopes: None,
+        subdomain_access: None,
+        grant_type: Some("browser_session".to_string()),
+        post_login_ip_grant_mode: None,
+        post_login_ip_grant_record_id: None,
+        stream_access_expires_at: None,
+        comment: None,
+        ip: ip.to_string(),
+        user_agent: user_agent.to_string(),
+        login_time: now_iso(),
+        expires_at: Some(iso_after_seconds(ttl_seconds)),
+        ip_location: None,
+    }
+}

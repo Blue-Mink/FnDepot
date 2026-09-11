@@ -1,1 +1,10 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBERE5TTWFuYWdlbWVudENvbnRlbnQgZnJvbSAiLi9kZG5zLW1hbmFnZW1lbnQvREROU01hbmFnZW1lbnRDb250ZW50LnZ1ZSI7CmltcG9ydCB7IHVzZURETlNNYW5hZ2VtZW50UGFnZSB9IGZyb20gIi4vZGRucy1tYW5hZ2VtZW50L3VzZURETlNNYW5hZ2VtZW50UGFnZSI7Cgpjb25zdCBjb250cm9sbGVyID0gdXNlREROU01hbmFnZW1lbnRQYWdlKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxERE5TTWFuYWdlbWVudENvbnRlbnQgOmNvbnRyb2xsZXI9ImNvbnRyb2xsZXIiIC8+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import DDNSManagementContent from "./ddns-management/DDNSManagementContent.vue";
+import { useDDNSManagementPage } from "./ddns-management/useDDNSManagementPage";
+
+const controller = useDDNSManagementPage();
+</script>
+
+<template>
+  <DDNSManagementContent :controller="controller" />
+</template>

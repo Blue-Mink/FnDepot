@@ -1,1 +1,5 @@
-PHRlbXBsYXRlPgogIDxSb3V0ZXJWaWV3IC8+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj48L3NjcmlwdD4K
+<template>
+  <RouterView />
+</template>
+
+<script setup lang="ts"></script>

@@ -1,1 +1,36 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUHJpbWl0aXZlUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyBQcmltaXRpdmUgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoZGVmaW5lUHJvcHM8UHJpbWl0aXZlUHJvcHMgJiB7CiAgc2l6ZT86ICJzbSIgfCAibWQiCiAgaXNBY3RpdmU/OiBib29sZWFuCiAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXQp9PigpLCB7CiAgYXM6ICJhIiwKICBzaXplOiAibWQiLAp9KQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UHJpbWl0aXZlCiAgICBkYXRhLXNsb3Q9InNpZGViYXItbWVudS1zdWItYnV0dG9uIgogICAgZGF0YS1zaWRlYmFyPSJtZW51LXN1Yi1idXR0b24iCiAgICA6YXM9ImFzIgogICAgOmFzLWNoaWxkPSJhc0NoaWxkIgogICAgOmRhdGEtc2l6ZT0ic2l6ZSIKICAgIDpkYXRhLWFjdGl2ZT0iaXNBY3RpdmUiCiAgICA6Y2xhc3M9ImNuKAogICAgICAndGV4dC1zaWRlYmFyLWZvcmVncm91bmQgcmluZy1zaWRlYmFyLXJpbmcgaG92ZXI6Ymctc2lkZWJhci1hY2NlbnQgaG92ZXI6dGV4dC1zaWRlYmFyLWFjY2VudC1mb3JlZ3JvdW5kIGFjdGl2ZTpiZy1zaWRlYmFyLWFjY2VudCBhY3RpdmU6dGV4dC1zaWRlYmFyLWFjY2VudC1mb3JlZ3JvdW5kIFsmPnN2Z106dGV4dC1zaWRlYmFyLWFjY2VudC1mb3JlZ3JvdW5kIGZsZXggaC03IG1pbi13LTAgLXRyYW5zbGF0ZS14LXB4IGl0ZW1zLWNlbnRlciBnYXAtMiBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1tZCBweC0yIG91dGxpbmUtaGlkZGVuIGZvY3VzLXZpc2libGU6cmluZy0yIGRpc2FibGVkOnBvaW50ZXItZXZlbnRzLW5vbmUgZGlzYWJsZWQ6b3BhY2l0eS01MCBhcmlhLWRpc2FibGVkOnBvaW50ZXItZXZlbnRzLW5vbmUgYXJpYS1kaXNhYmxlZDpvcGFjaXR5LTUwIFsmPnNwYW46bGFzdC1jaGlsZF06dHJ1bmNhdGUgWyY+c3ZnXTpzaXplLTQgWyY+c3ZnXTpzaHJpbmstMCcsCiAgICAgICdkYXRhLVthY3RpdmU9dHJ1ZV06Ymctc2lkZWJhci1hY2NlbnQgZGF0YS1bYWN0aXZlPXRydWVdOnRleHQtc2lkZWJhci1hY2NlbnQtZm9yZWdyb3VuZCcsCiAgICAgIHNpemUgPT09ICdzbScgJiYgJ3RleHQteHMnLAogICAgICBzaXplID09PSAnbWQnICYmICd0ZXh0LXNtJywKICAgICAgJ2dyb3VwLWRhdGEtW2NvbGxhcHNpYmxlPWljb25dOmhpZGRlbicsCiAgICAgIHByb3BzLmNsYXNzLAogICAgKSIKICA+CiAgICA8c2xvdCAvPgogIDwvUHJpbWl0aXZlPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { PrimitiveProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { Primitive } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = withDefaults(defineProps<PrimitiveProps & {
+  size?: "sm" | "md"
+  isActive?: boolean
+  class?: HTMLAttributes["class"]
+}>(), {
+  as: "a",
+  size: "md",
+})
+</script>
+
+<template>
+  <Primitive
+    data-slot="sidebar-menu-sub-button"
+    data-sidebar="menu-sub-button"
+    :as="as"
+    :as-child="asChild"
+    :data-size="size"
+    :data-active="isActive"
+    :class="cn(
+      'text-sidebar-foreground ring-sidebar-ring hover:bg-sidebar-accent hover:text-sidebar-accent-foreground active:bg-sidebar-accent active:text-sidebar-accent-foreground [&>svg]:text-sidebar-accent-foreground flex h-7 min-w-0 -translate-x-px items-center gap-2 overflow-hidden rounded-md px-2 outline-hidden focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 [&>span:last-child]:truncate [&>svg]:size-4 [&>svg]:shrink-0',
+      'data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground',
+      size === 'sm' && 'text-xs',
+      size === 'md' && 'text-sm',
+      'group-data-[collapsible=icon]:hidden',
+      props.class,
+    )"
+  >
+    <slot />
+  </Primitive>
+</template>

@@ -1,1 +1,53 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IExvYWRlcjIgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgdHlwZSB7IFNTSFNlY3VyaXR5Q29udHJvbGxlciB9IGZyb20gIi4vc3NoLXNlY3VyaXR5LWNvbnRyYWN0IjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8eyBjb250cm9sbGVyOiBTU0hTZWN1cml0eUNvbnRyb2xsZXIgfT4oKTsKY29uc3QgewogIGNsZWFyRmlyZXdhbGwsCiAgaXNDbGVhckZpcmV3YWxsRGlhbG9nT3BlbiwKICBpc1N5bmNpbmdGaXJld2FsbCwKICB0LAp9ID0gcHJvcHMuY29udHJvbGxlcjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CjxEaWFsb2cgdi1tb2RlbDpvcGVuPSJpc0NsZWFyRmlyZXdhbGxEaWFsb2dPcGVuIj4KICA8RGlhbG9nQ29udGVudCBjbGFzcz0ic206bWF4LXctbWQiPgogICAgPERpYWxvZ0hlYWRlcj4KICAgICAgPERpYWxvZ1RpdGxlPgogICAgICAgIHt7IHQoImFkbWluLnNzaFNlY3VyaXR5LmNsZWFyRmlyZXdhbGxUaXRsZSIpIH19CiAgICAgIDwvRGlhbG9nVGl0bGU+CiAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICB7eyB0KCJhZG1pbi5zc2hTZWN1cml0eS5jbGVhckZpcmV3YWxsRGVzY3JpcHRpb24iKSB9fQogICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgPC9EaWFsb2dIZWFkZXI+CiAgICA8RGlhbG9nRm9vdGVyPgogICAgICA8QnV0dG9uCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICA6ZGlzYWJsZWQ9ImlzU3luY2luZ0ZpcmV3YWxsIgogICAgICAgIEBjbGljaz0iaXNDbGVhckZpcmV3YWxsRGlhbG9nT3BlbiA9IGZhbHNlIgogICAgICA+CiAgICAgICAge3sgdCgiY29tbW9uLmNhbmNlbCIpIH19CiAgICAgIDwvQnV0dG9uPgogICAgICA8QnV0dG9uCiAgICAgICAgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiCiAgICAgICAgOmRpc2FibGVkPSJpc1N5bmNpbmdGaXJld2FsbCIKICAgICAgICBAY2xpY2s9ImNsZWFyRmlyZXdhbGwiCiAgICAgID4KICAgICAgICA8TG9hZGVyMiB2LWlmPSJpc1N5bmNpbmdGaXJld2FsbCIgY2xhc3M9ImgtNCB3LTQgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgIHt7IHQoImFkbWluLnNzaFNlY3VyaXR5LmNsZWFyIikgfX0KICAgICAgPC9CdXR0b24+CiAgICA8L0RpYWxvZ0Zvb3Rlcj4KICA8L0RpYWxvZ0NvbnRlbnQ+CjwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { Loader2 } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import type { SSHSecurityController } from "./ssh-security-contract";
+
+const props = defineProps<{ controller: SSHSecurityController }>();
+const {
+  clearFirewall,
+  isClearFirewallDialogOpen,
+  isSyncingFirewall,
+  t,
+} = props.controller;
+</script>
+
+<template>
+<Dialog v-model:open="isClearFirewallDialogOpen">
+  <DialogContent class="sm:max-w-md">
+    <DialogHeader>
+      <DialogTitle>
+        {{ t("admin.sshSecurity.clearFirewallTitle") }}
+      </DialogTitle>
+      <DialogDescription>
+        {{ t("admin.sshSecurity.clearFirewallDescription") }}
+      </DialogDescription>
+    </DialogHeader>
+    <DialogFooter>
+      <Button
+        variant="outline"
+        :disabled="isSyncingFirewall"
+        @click="isClearFirewallDialogOpen = false"
+      >
+        {{ t("common.cancel") }}
+      </Button>
+      <Button
+        variant="destructive"
+        :disabled="isSyncingFirewall"
+        @click="clearFirewall"
+      >
+        <Loader2 v-if="isSyncingFirewall" class="h-4 w-4 animate-spin" />
+        {{ t("admin.sshSecurity.clear") }}
+      </Button>
+    </DialogFooter>
+  </DialogContent>
+</Dialog>
+</template>

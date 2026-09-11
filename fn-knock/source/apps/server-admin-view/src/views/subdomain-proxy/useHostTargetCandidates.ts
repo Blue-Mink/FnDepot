@@ -1,1 +1,54 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHR5cGUgQ29tcHV0ZWRSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgewogIGJ1aWxkSG9zdFRhcmdldFBsYWNlaG9sZGVyLAogIGJ1aWxkSG9zdFRhcmdldFN1Z2dlc3Rpb25zLAp9IGZyb20gIi4vaG9zdC10YXJnZXQtY2FuZGlkYXRlcyI7CmltcG9ydCB7IHVzZUhvc3RUYXJnZXRDYW5kaWRhdGVDYXRhbG9nIH0gZnJvbSAiLi91c2VIb3N0VGFyZ2V0Q2FuZGlkYXRlQ2F0YWxvZyI7CgpleHBvcnQgewogIGJ1aWxkSG9zdFRhcmdldFBsYWNlaG9sZGVyLAogIGJ1aWxkSG9zdFRhcmdldFN1Z2dlc3Rpb25zLAp9IGZyb20gIi4vaG9zdC10YXJnZXQtY2FuZGlkYXRlcyI7Cgp0eXBlIFRyYW5zbGF0ZSA9IChrZXk6IHN0cmluZykgPT4gc3RyaW5nOwoKZXhwb3J0IGNvbnN0IHVzZUhvc3RUYXJnZXRDYW5kaWRhdGVzID0gKHsKICBpc0RvY2tlckRlcGxveW1lbnQsCiAgb3BlbiwKICB0cmFuc2xhdGUsCn06IHsKICBpc0RvY2tlckRlcGxveW1lbnQ6IENvbXB1dGVkUmVmPGJvb2xlYW4+OwogIG9wZW46IENvbXB1dGVkUmVmPGJvb2xlYW4+OwogIHRyYW5zbGF0ZTogVHJhbnNsYXRlOwp9KSA9PiB7CiAgY29uc3QgeyBjYW5kaWRhdGVzLCBpc0xvYWRpbmcgfSA9IHVzZUhvc3RUYXJnZXRDYW5kaWRhdGVDYXRhbG9nKHsKICAgIGlzRG9ja2VyRGVwbG95bWVudCwKICAgIG9wZW4sCiAgfSk7CgogIGNvbnN0IHRhcmdldFN1Z2dlc3Rpb25zID0gY29tcHV0ZWQoKCkgPT4KICAgIGJ1aWxkSG9zdFRhcmdldFN1Z2dlc3Rpb25zKGNhbmRpZGF0ZXMudmFsdWUsIGlzRG9ja2VyRGVwbG95bWVudC52YWx1ZSksCiAgKTsKICBjb25zdCB0YXJnZXRQbGFjZWhvbGRlciA9IGNvbXB1dGVkKCgpID0+CiAgICBidWlsZEhvc3RUYXJnZXRQbGFjZWhvbGRlcigKICAgICAgY2FuZGlkYXRlcy52YWx1ZSwKICAgICAgaXNEb2NrZXJEZXBsb3ltZW50LnZhbHVlLAogICAgICB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LmRvY2tlclRhcmdldFBsYWNlaG9sZGVyIiksCiAgICApLAogICk7CiAgY29uc3QgdGFyZ2V0Q2FuZGlkYXRlSGludCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGlmICghaXNEb2NrZXJEZXBsb3ltZW50LnZhbHVlKSByZXR1cm4gIiI7CiAgICBpZiAoaXNMb2FkaW5nLnZhbHVlKSB7CiAgICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LmRvY2tlclRhcmdldENhbmRpZGF0ZXNMb2FkaW5nIik7CiAgICB9CiAgICByZXR1cm4gdGFyZ2V0U3VnZ2VzdGlvbnMudmFsdWUubGVuZ3RoID4gMAogICAgICA/IHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuZG9ja2VyVGFyZ2V0Q2FuZGlkYXRlc0hpbnQiKQogICAgICA6IHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuZG9ja2VyVGFyZ2V0Q2FuZGlkYXRlc0VtcHR5Iik7CiAgfSk7CgogIHJldHVybiB7CiAgICB0YXJnZXRDYW5kaWRhdGVIaW50LAogICAgdGFyZ2V0UGxhY2Vob2xkZXIsCiAgICB0YXJnZXRTdWdnZXN0aW9ucywKICB9Owp9Owo=
+import { computed, type ComputedRef } from "vue";
+import {
+  buildHostTargetPlaceholder,
+  buildHostTargetSuggestions,
+} from "./host-target-candidates";
+import { useHostTargetCandidateCatalog } from "./useHostTargetCandidateCatalog";
+
+export {
+  buildHostTargetPlaceholder,
+  buildHostTargetSuggestions,
+} from "./host-target-candidates";
+
+type Translate = (key: string) => string;
+
+export const useHostTargetCandidates = ({
+  isDockerDeployment,
+  open,
+  translate,
+}: {
+  isDockerDeployment: ComputedRef<boolean>;
+  open: ComputedRef<boolean>;
+  translate: Translate;
+}) => {
+  const { candidates, isLoading } = useHostTargetCandidateCatalog({
+    isDockerDeployment,
+    open,
+  });
+
+  const targetSuggestions = computed(() =>
+    buildHostTargetSuggestions(candidates.value, isDockerDeployment.value),
+  );
+  const targetPlaceholder = computed(() =>
+    buildHostTargetPlaceholder(
+      candidates.value,
+      isDockerDeployment.value,
+      translate("admin.subdomainProxy.dockerTargetPlaceholder"),
+    ),
+  );
+  const targetCandidateHint = computed(() => {
+    if (!isDockerDeployment.value) return "";
+    if (isLoading.value) {
+      return translate("admin.subdomainProxy.dockerTargetCandidatesLoading");
+    }
+    return targetSuggestions.value.length > 0
+      ? translate("admin.subdomainProxy.dockerTargetCandidatesHint")
+      : translate("admin.subdomainProxy.dockerTargetCandidatesEmpty");
+  });
+
+  return {
+    targetCandidateHint,
+    targetPlaceholder,
+    targetSuggestions,
+  };
+};

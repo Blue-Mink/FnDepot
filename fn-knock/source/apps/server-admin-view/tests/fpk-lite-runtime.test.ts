@@ -1,1 +1,135 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgppbXBvcnQgewogIEZVTExfVkVSU0lPTl9XRUJTSVRFX1VSTCwKICBPRkZJQ0lBTF9ET0NVTUVOVEFUSU9OX1VSTCwKICBPRkZJQ0lBTF9XRUJTSVRFX1VSTCwKICByZXNvbHZlVXBkYXRlRGV0YWlsc0FjdGlvbiwKICBzaG91bGRTaG93T25lQ2xpY2tVcGRhdGUsCn0gZnJvbSAiLi4vc3JjL2xpYi91cGRhdGUtcHJlc2VudGF0aW9uIjsKaW1wb3J0IHsgcmVuZGVyUmVsZWFzZU5vdGVzSHRtbCB9IGZyb20gIi4uL3NyYy9saWIvcmVsZWFzZS1ub3RlcyI7CmltcG9ydCB7IHJlc29sdmVSdW50aW1lQ2FwYWJpbGl0eVJlZGlyZWN0IH0gZnJvbSAiLi4vc3JjL3JvdXRlci9ydW50aW1lLWFjY2VzcyI7CmltcG9ydCB7IHByaXZpbGVnZWROYXZpZ2F0aW9uVmlzaWJpbGl0eSB9IGZyb20gIi4uL3NyYy92aWV3cy9sYXlvdXQvcnVudGltZS1uYXZpZ2F0aW9uIjsKCmRlc2NyaWJlKCJGUEsgTGl0ZSBydW50aW1lIGJlaGF2aW9yIiwgKCkgPT4gewogIGNvbnN0IGxpdGVSb3V0ZUFjY2VzcyA9IHsKICAgIGNhblVzZVNzaFNlY3VyaXR5OiBmYWxzZSwKICAgIHNzaFNlY3VyaXR5RW5hYmxlZDogZmFsc2UsCiAgICBjYW5Vc2VTbWFydENvbm5lY3Q6IGZhbHNlLAogICAgY2FuVXNlRm5vc0NlcnRpZmljYXRlU3luYzogZmFsc2UsCiAgfTsKCiAgaXQoImtlZXBzIHRoZSBTU0ggdGVybWluYWwgcm91dGUgd2hpbGUgcmVkaXJlY3RpbmcgaG9zdC1wcml2aWxlZ2VkIHJvdXRlcyIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgcmVzb2x2ZVJ1bnRpbWVDYXBhYmlsaXR5UmVkaXJlY3QoIi90ZXJtaW5hbCIsIGxpdGVSb3V0ZUFjY2VzcyksCiAgICAgIG51bGwsCiAgICApOwogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgcmVzb2x2ZVJ1bnRpbWVDYXBhYmlsaXR5UmVkaXJlY3QoIi9zc2gtc2VjdXJpdHkiLCBsaXRlUm91dGVBY2Nlc3MpLAogICAgICB7IHBhdGg6ICIvc3lzdGVtIiwgcXVlcnk6IHsgdGFiOiAiZmVhdHVyZXMiIH0gfSwKICAgICk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICByZXNvbHZlUnVudGltZUNhcGFiaWxpdHlSZWRpcmVjdCgKICAgICAgICAiL3N5c3RlbS9zbWFydC1jb25uZWN0IiwKICAgICAgICBsaXRlUm91dGVBY2Nlc3MsCiAgICAgICksCiAgICAgIHsgcGF0aDogIi9zeXN0ZW0iLCBxdWVyeTogeyB0YWI6ICJmZWF0dXJlcyIgfSB9LAogICAgKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIHJlc29sdmVSdW50aW1lQ2FwYWJpbGl0eVJlZGlyZWN0KAogICAgICAgICIvc3lzdGVtL2Zub3MtY2VydGlmaWNhdGUtc3luYyIsCiAgICAgICAgbGl0ZVJvdXRlQWNjZXNzLAogICAgICApLAogICAgICB7IHBhdGg6ICIvc3lzdGVtIiwgcXVlcnk6IHsgdGFiOiAiZm5vcyIgfSB9LAogICAgKTsKICB9KTsKCiAgaXQoInJlbW92ZXMgdW5hdmFpbGFibGUgU1NIIHNlY3VyaXR5IGZyb20gbmF2aWdhdGlvbiIsICgpID0+IHsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIHByaXZpbGVnZWROYXZpZ2F0aW9uVmlzaWJpbGl0eSh7CiAgICAgICAgY2FuVXNlU3NoU2VjdXJpdHk6IGZhbHNlLAogICAgICAgIHNzaFNlY3VyaXR5RW5hYmxlZDogdHJ1ZSwKICAgICAgfSksCiAgICAgIHsgc3NoU2VjdXJpdHk6IGZhbHNlIH0sCiAgICApOwogIH0pOwoKICBpdCgia2VlcHMgcmVsZWFzZSBub3RlcyBidXQgbmV2ZXIgZXhwb3NlcyBvbmUtY2xpY2sgdXBkYXRlIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKAogICAgICBzaG91bGRTaG93T25lQ2xpY2tVcGRhdGUoewogICAgICAgIGhhc1VwZGF0ZTogdHJ1ZSwKICAgICAgICBjYW5TZWxmVXBkYXRlOiB0cnVlLAogICAgICAgIGlzRnBrTGl0ZTogdHJ1ZSwKICAgICAgfSksCiAgICAgIGZhbHNlLAogICAgKTsKICAgIGNvbnN0IHJlbGVhc2VOb3RlcyA9IHJlbmRlclJlbGVhc2VOb3Rlc0h0bWwoCiAgICAgIFsKICAgICAgICAiWyoq55So5oi35Y2P6K6u5LiO6ZqQ56eB5pS/562WKipdKGh0dHBzOi8vd3d3LmZua25vY2suY24vbGVnYWwpIiwKICAgICAgICAiIiwKICAgICAgICAiIyBmbi1rbm9jayAyLjEuNiIsCiAgICAgICAgIiIsCiAgICAgICAgIj4gWyFJTVBPUlRBTlRdIiwKICAgICAgICAiPiAqKui/meaYr+S4gOS4que0p+aApeS/ruWkjeeJiOacrOOAgioqIOW7uuiuruWwveW/q+WNh+e6p+OAgiIsCiAgICAgICAgIiIsCiAgICAgICAgIi0g5L+u5aSNIDzlronlhag+IiwKICAgICAgICAiLSDmn6XnnIsgW+aWh+aho10oaHR0cHM6Ly9kb2NzLmZua25vY2suY24vKSIsCiAgICAgICAgIiIsCiAgICAgICAgIi0tLSIsCiAgICAgIF0uam9pbigiXG4iKSwKICAgICAgIuaaguaXoOaXpeW/lyIsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHJlbGVhc2VOb3RlcywgLzxoND5mbi1rbm9jayAyXC4xXC42PFwvaDQ+L3UpOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICByZWxlYXNlTm90ZXMsCiAgICAgIC88YXNpZGUgY2xhc3M9InJlbGVhc2Utbm90ZS1hbGVydCByZWxlYXNlLW5vdGUtYWxlcnQtLWltcG9ydGFudCIgYXJpYS1sYWJlbD0iSW1wb3J0YW50Ij4vdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIHJlbGVhc2VOb3RlcywKICAgICAgLzxwIGNsYXNzPSJyZWxlYXNlLW5vdGUtYWxlcnRfX3RpdGxlIj5JbXBvcnRhbnQ8XC9wPi91LAogICAgKTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgcmVsZWFzZU5vdGVzLAogICAgICAvPHA+PHN0cm9uZz7ov5nmmK/kuIDkuKrntKfmgKXkv67lpI3niYjmnKzjgII8XC9zdHJvbmc+IOW7uuiuruWwveW/q+WNh+e6p+OAgjxcL3A+L3UsCiAgICApOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChyZWxlYXNlTm90ZXMsIC8mZ3Q7IFxbIUlNUE9SVEFOVFxdL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHJlbGVhc2VOb3RlcywgLzx1bD48bGk+5L+u5aSNICZsdDvlronlhagmZ3Q7PFwvbGk+L3UpOwogICAgYXNzZXJ0Lm1hdGNoKHJlbGVhc2VOb3RlcywgLzxocj4vdSk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIHJlbGVhc2VOb3RlcywKICAgICAgLzxhIGhyZWY9Imh0dHBzOlwvXC93d3dcLmZua25vY2tcLmNuXC9sZWdhbCJbXj5dKj48c3Ryb25nPueUqOaIt+WNj+iuruS4jumakOengeaUv+etljxcL3N0cm9uZz48XC9hPi91LAogICAgKTsKICAgIGFzc2VydC5tYXRjaChyZWxlYXNlTm90ZXMsIC9ocmVmPSJodHRwczpcL1wvZG9jc1wuZm5rbm9ja1wuY25cLyIvdSk7CiAgfSk7CgogIGl0KCJlc2NhcGVzIHJhdyBIVE1MIGFuZCBsZWF2ZXMgdW5zdXBwb3J0ZWQgbGlua3MgYW5kIGltYWdlcyBhcyBwbGFpbiB0ZXh0IiwgKCkgPT4gewogICAgY29uc3QgcmVsZWFzZU5vdGVzID0gcmVuZGVyUmVsZWFzZU5vdGVzSHRtbCgKICAgICAgWwogICAgICAgICI8c2NyaXB0PmFsZXJ0KCd4c3MnKTwvc2NyaXB0PiIsCiAgICAgICAgIlvljbHpmanpk77mjqVdKGphdmFzY3JpcHQ6YWxlcnQoJ3hzcycpKSIsCiAgICAgICAgIiFb6L+c56iL5Zu+54mHXShodHRwczovL2V4YW1wbGUuY29tL3RyYWNrZXIucG5nKSIsCiAgICAgIF0uam9pbigiXG5cbiIpLAogICAgICAi5pqC5peg5pel5b+XIiwKICAgICk7CgogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChyZWxlYXNlTm90ZXMsIC88c2NyaXB0Pi91KTsKICAgIGFzc2VydC5tYXRjaChyZWxlYXNlTm90ZXMsIC8mbHQ7c2NyaXB0Jmd0Oy91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2gocmVsZWFzZU5vdGVzLCAvaHJlZj0vdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKHJlbGVhc2VOb3RlcywgLzxpbWcvdSk7CiAgfSk7CgogIGl0KCJzZW5kcyBMaXRlIHVwZGF0ZSBkZXRhaWxzIHRvIHRoZSBmdWxsLXZlcnNpb24gd2Vic2l0ZSIsICgpID0+IHsKICAgIGFzc2VydC5kZWVwRXF1YWwocmVzb2x2ZVVwZGF0ZURldGFpbHNBY3Rpb24odHJ1ZSksIHsKICAgICAgdHlwZTogImV4dGVybmFsIiwKICAgICAgdXJsOiBGVUxMX1ZFUlNJT05fV0VCU0lURV9VUkwsCiAgICB9KTsKICB9KTsKCiAgaXQoImtlZXBzIHN0YWJsZSBvZmZpY2lhbCB3ZWJzaXRlIGFuZCBkb2N1bWVudGF0aW9uIGxpbmtzIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKE9GRklDSUFMX1dFQlNJVEVfVVJMLCAiaHR0cHM6Ly93d3cuZm5rbm9jay5jbi8iKTsKICAgIGFzc2VydC5lcXVhbChPRkZJQ0lBTF9ET0NVTUVOVEFUSU9OX1VSTCwgImh0dHBzOi8vZG9jcy5mbmtub2NrLmNuLyIpOwogIH0pOwp9KTsK
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import {
+  FULL_VERSION_WEBSITE_URL,
+  OFFICIAL_DOCUMENTATION_URL,
+  OFFICIAL_WEBSITE_URL,
+  resolveUpdateDetailsAction,
+  shouldShowOneClickUpdate,
+} from "../src/lib/update-presentation";
+import { renderReleaseNotesHtml } from "../src/lib/release-notes";
+import { resolveRuntimeCapabilityRedirect } from "../src/router/runtime-access";
+import { privilegedNavigationVisibility } from "../src/views/layout/runtime-navigation";
+
+describe("FPK Lite runtime behavior", () => {
+  const liteRouteAccess = {
+    canUseSshSecurity: false,
+    sshSecurityEnabled: false,
+    canUseSmartConnect: false,
+    canUseFnosCertificateSync: false,
+  };
+
+  it("keeps the SSH terminal route while redirecting host-privileged routes", () => {
+    assert.equal(
+      resolveRuntimeCapabilityRedirect("/terminal", liteRouteAccess),
+      null,
+    );
+    assert.deepEqual(
+      resolveRuntimeCapabilityRedirect("/ssh-security", liteRouteAccess),
+      { path: "/system", query: { tab: "features" } },
+    );
+    assert.deepEqual(
+      resolveRuntimeCapabilityRedirect(
+        "/system/smart-connect",
+        liteRouteAccess,
+      ),
+      { path: "/system", query: { tab: "features" } },
+    );
+    assert.deepEqual(
+      resolveRuntimeCapabilityRedirect(
+        "/system/fnos-certificate-sync",
+        liteRouteAccess,
+      ),
+      { path: "/system", query: { tab: "fnos" } },
+    );
+  });
+
+  it("removes unavailable SSH security from navigation", () => {
+    assert.deepEqual(
+      privilegedNavigationVisibility({
+        canUseSshSecurity: false,
+        sshSecurityEnabled: true,
+      }),
+      { sshSecurity: false },
+    );
+  });
+
+  it("keeps release notes but never exposes one-click update", () => {
+    assert.equal(
+      shouldShowOneClickUpdate({
+        hasUpdate: true,
+        canSelfUpdate: true,
+        isFpkLite: true,
+      }),
+      false,
+    );
+    const releaseNotes = renderReleaseNotesHtml(
+      [
+        "[**用户协议与隐私政策**](https://www.fnknock.cn/legal)",
+        "",
+        "# fn-knock 2.1.6",
+        "",
+        "> [!IMPORTANT]",
+        "> **这是一个紧急修复版本。** 建议尽快升级。",
+        "",
+        "- 修复 <安全>",
+        "- 查看 [文档](https://docs.fnknock.cn/)",
+        "",
+        "---",
+      ].join("\n"),
+      "暂无日志",
+    );
+    assert.match(releaseNotes, /<h4>fn-knock 2\.1\.6<\/h4>/u);
+    assert.match(
+      releaseNotes,
+      /<aside class="release-note-alert release-note-alert--important" aria-label="Important">/u,
+    );
+    assert.match(
+      releaseNotes,
+      /<p class="release-note-alert__title">Important<\/p>/u,
+    );
+    assert.match(
+      releaseNotes,
+      /<p><strong>这是一个紧急修复版本。<\/strong> 建议尽快升级。<\/p>/u,
+    );
+    assert.doesNotMatch(releaseNotes, /&gt; \[!IMPORTANT\]/u);
+    assert.match(releaseNotes, /<ul><li>修复 &lt;安全&gt;<\/li>/u);
+    assert.match(releaseNotes, /<hr>/u);
+    assert.match(
+      releaseNotes,
+      /<a href="https:\/\/www\.fnknock\.cn\/legal"[^>]*><strong>用户协议与隐私政策<\/strong><\/a>/u,
+    );
+    assert.match(releaseNotes, /href="https:\/\/docs\.fnknock\.cn\/"/u);
+  });
+
+  it("escapes raw HTML and leaves unsupported links and images as plain text", () => {
+    const releaseNotes = renderReleaseNotesHtml(
+      [
+        "<script>alert('xss')</script>",
+        "[危险链接](javascript:alert('xss'))",
+        "![远程图片](https://example.com/tracker.png)",
+      ].join("\n\n"),
+      "暂无日志",
+    );
+
+    assert.doesNotMatch(releaseNotes, /<script>/u);
+    assert.match(releaseNotes, /&lt;script&gt;/u);
+    assert.doesNotMatch(releaseNotes, /href=/u);
+    assert.doesNotMatch(releaseNotes, /<img/u);
+  });
+
+  it("sends Lite update details to the full-version website", () => {
+    assert.deepEqual(resolveUpdateDetailsAction(true), {
+      type: "external",
+      url: FULL_VERSION_WEBSITE_URL,
+    });
+  });
+
+  it("keeps stable official website and documentation links", () => {
+    assert.equal(OFFICIAL_WEBSITE_URL, "https://www.fnknock.cn/");
+    assert.equal(OFFICIAL_DOCUMENTATION_URL, "https://docs.fnknock.cn/");
+  });
+});

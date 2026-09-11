@@ -1,1 +1,23 @@
-ewogICJuYW1lIjogIkByZXBvL2VzbGludC1jb25maWciLAogICJ2ZXJzaW9uIjogIjAuMC4wIiwKICAidHlwZSI6ICJtb2R1bGUiLAogICJwcml2YXRlIjogdHJ1ZSwKICAiZXhwb3J0cyI6IHsKICAgICIuL2Jhc2UiOiAiLi9iYXNlLmpzIiwKICAgICIuL3Z1ZSI6ICIuL3Z1ZS5qcyIKICB9LAogICJkZXZEZXBlbmRlbmNpZXMiOiB7CiAgICAiQGVzbGludC9qcyI6ICJeMTAuMC4xIiwKICAgICJlc2xpbnQiOiAiXjEwLjguMCIsCiAgICAiZXNsaW50LWNvbmZpZy1wcmV0dGllciI6ICJeMTAuMS4xIiwKICAgICJlc2xpbnQtcGx1Z2luLW9ubHktd2FybiI6ICJeMS4xLjAiLAogICAgImVzbGludC1wbHVnaW4tdHVyYm8iOiAiXjIuNy4xIiwKICAgICJlc2xpbnQtcGx1Z2luLXZ1ZSI6ICJeMTAuOS4yIiwKICAgICJlc2xpbnQtcGx1Z2luLXZ1ZWpzLWFjY2Vzc2liaWxpdHkiOiAiXjIuNS4wIiwKICAgICJnbG9iYWxzIjogIl4xNi41LjAiLAogICAgInR5cGVzY3JpcHQiOiAiXjUuOS4yIiwKICAgICJ0eXBlc2NyaXB0LWVzbGludCI6ICJeOC41MC4wIiwKICAgICJ2dWUtZXNsaW50LXBhcnNlciI6ICJeMTAuNC4xIgogIH0KfQo=
+{
+  "name": "@repo/eslint-config",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./base": "./base.js",
+    "./vue": "./vue.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "eslint-plugin-turbo": "^2.7.1",
+    "eslint-plugin-vue": "^10.9.2",
+    "eslint-plugin-vuejs-accessibility": "^2.5.0",
+    "globals": "^16.5.0",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.50.0",
+    "vue-eslint-parser": "^10.4.1"
+  }
+}

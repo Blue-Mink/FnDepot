@@ -1,1 +1,57 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCB1c2VBdHRycywgdHlwZSBIVE1MQXR0cmlidXRlcyB9IGZyb20gInZ1ZSIKaW1wb3J0IHsgdXNlVk1vZGVsIH0gZnJvbSAiQHZ1ZXVzZS9jb3JlIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKZGVmaW5lT3B0aW9ucyh7CiAgaW5oZXJpdEF0dHJzOiBmYWxzZSwKfSkKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIGRlZmF1bHRWYWx1ZT86IHN0cmluZyB8IG51bWJlcgogIG1vZGVsVmFsdWU/OiBzdHJpbmcgfCBudW1iZXIKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKCmNvbnN0IGVtaXRzID0gZGVmaW5lRW1pdHM8ewogIChlOiAidXBkYXRlOm1vZGVsVmFsdWUiLCBwYXlsb2FkOiBzdHJpbmcgfCBudW1iZXIpOiB2b2lkCn0+KCkKCmNvbnN0IG1vZGVsVmFsdWUgPSB1c2VWTW9kZWwocHJvcHMsICJtb2RlbFZhbHVlIiwgZW1pdHMsIHsKICBwYXNzaXZlOiB0cnVlLAogIGRlZmF1bHRWYWx1ZTogcHJvcHMuZGVmYXVsdFZhbHVlLAp9KQoKY29uc3QgYXR0cnMgPSB1c2VBdHRycygpCgpjb25zdCByZXNvbHZlZEF1dG9jb21wbGV0ZSA9IGNvbXB1dGVkKCgpID0+IHsKICBjb25zdCBhdXRvY29tcGxldGUgPSBhdHRycy5hdXRvY29tcGxldGUKICBpZiAodHlwZW9mIGF1dG9jb21wbGV0ZSA9PT0gInN0cmluZyIgJiYgYXV0b2NvbXBsZXRlLmxlbmd0aCA+IDApIHsKICAgIHJldHVybiBhdXRvY29tcGxldGUKICB9CgogIHJldHVybiBhdHRycy50eXBlID09PSAicGFzc3dvcmQiID8gIm5ldy1wYXNzd29yZCIgOiAib2ZmIgp9KQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8aW5wdXQKICAgIHYtbW9kZWw9Im1vZGVsVmFsdWUiCiAgICB2LWJpbmQ9ImF0dHJzIgogICAgZGF0YS1zbG90PSJpbnB1dCIKICAgIDphdXRvY29tcGxldGU9InJlc29sdmVkQXV0b2NvbXBsZXRlIgogICAgYXV0b2NhcGl0YWxpemU9Im9mZiIKICAgIGF1dG9jb3JyZWN0PSJvZmYiCiAgICA6c3BlbGxjaGVjaz0iZmFsc2UiCiAgICBkYXRhLWZvcm0tdHlwZT0ib3RoZXIiCiAgICBkYXRhLTFwLWlnbm9yZT0idHJ1ZSIKICAgIGRhdGEtbHBpZ25vcmU9InRydWUiCiAgICBkYXRhLWJ3aWdub3JlPSJ0cnVlIgogICAgOmNsYXNzPSJjbigKICAgICAgJ2ZpbGU6dGV4dC1mb3JlZ3JvdW5kIHBsYWNlaG9sZGVyOnRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzZWxlY3Rpb246YmctcHJpbWFyeSBzZWxlY3Rpb246dGV4dC1wcmltYXJ5LWZvcmVncm91bmQgZGFyazpiZy1pbnB1dC8zMCBib3JkZXItaW5wdXQgaC05IHctZnVsbCBtaW4tdy0wIHJvdW5kZWQtbWQgYm9yZGVyIGJnLXRyYW5zcGFyZW50IHB4LTMgcHktMSB0ZXh0LWJhc2Ugc2hhZG93LXhzIHRyYW5zaXRpb24tW2NvbG9yLGJveC1zaGFkb3ddIG91dGxpbmUtbm9uZSBmaWxlOmlubGluZS1mbGV4IGZpbGU6aC03IGZpbGU6Ym9yZGVyLTAgZmlsZTpiZy10cmFuc3BhcmVudCBmaWxlOnRleHQtc20gZmlsZTpmb250LW1lZGl1bSBkaXNhYmxlZDpwb2ludGVyLWV2ZW50cy1ub25lIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBkaXNhYmxlZDpvcGFjaXR5LTUwIG1kOnRleHQtc20nLAogICAgICAnZm9jdXMtdmlzaWJsZTpib3JkZXItcmluZyBmb2N1cy12aXNpYmxlOnJpbmctcmluZy81MCBmb2N1cy12aXNpYmxlOnJpbmctWzNweF0nLAogICAgICAnYXJpYS1pbnZhbGlkOnJpbmctZGVzdHJ1Y3RpdmUvMjAgZGFyazphcmlhLWludmFsaWQ6cmluZy1kZXN0cnVjdGl2ZS80MCBhcmlhLWludmFsaWQ6Ym9yZGVyLWRlc3RydWN0aXZlJywKICAgICAgcHJvcHMuY2xhc3MsCiAgICApIgogID4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed, useAttrs, type HTMLAttributes } from "vue"
+import { useVModel } from "@vueuse/core"
+import { cn } from "@/lib/utils"
+
+defineOptions({
+  inheritAttrs: false,
+})
+
+const props = defineProps<{
+  defaultValue?: string | number
+  modelValue?: string | number
+  class?: HTMLAttributes["class"]
+}>()
+
+const emits = defineEmits<{
+  (e: "update:modelValue", payload: string | number): void
+}>()
+
+const modelValue = useVModel(props, "modelValue", emits, {
+  passive: true,
+  defaultValue: props.defaultValue,
+})
+
+const attrs = useAttrs()
+
+const resolvedAutocomplete = computed(() => {
+  const autocomplete = attrs.autocomplete
+  if (typeof autocomplete === "string" && autocomplete.length > 0) {
+    return autocomplete
+  }
+
+  return attrs.type === "password" ? "new-password" : "off"
+})
+</script>
+
+<template>
+  <input
+    v-model="modelValue"
+    v-bind="attrs"
+    data-slot="input"
+    :autocomplete="resolvedAutocomplete"
+    autocapitalize="off"
+    autocorrect="off"
+    :spellcheck="false"
+    data-form-type="other"
+    data-1p-ignore="true"
+    data-lpignore="true"
+    data-bwignore="true"
+    :class="cn(
+      'file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input h-9 w-full min-w-0 rounded-md border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm',
+      'focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]',
+      'aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive',
+      props.class,
+    )"
+  >
+</template>

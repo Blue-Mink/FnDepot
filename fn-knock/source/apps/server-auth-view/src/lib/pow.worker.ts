@@ -1,1 +1,36 @@
-aW1wb3J0IFNIQTI1NiBmcm9tICJjcnlwdG8tanMvc2hhMjU2IjsKaW1wb3J0IFNIQTM4NCBmcm9tICJjcnlwdG8tanMvc2hhMzg0IjsKaW1wb3J0IFNIQTUxMiBmcm9tICJjcnlwdG8tanMvc2hhNTEyIjsKaW1wb3J0IEhleCBmcm9tICJjcnlwdG8tanMvZW5jLWhleCI7Cgp0eXBlIFBvd0NoYWxsZW5nZSA9IHsKICBhbGdvcml0aG06ICJTSEEtMjU2IiB8ICJTSEEtMzg0IiB8ICJTSEEtNTEyIjsKICBjaGFsbGVuZ2U6IHN0cmluZzsKICBtYXhudW1iZXI6IG51bWJlcjsKICBzYWx0OiBzdHJpbmc7Cn07Cgpjb25zdCBoYXNoID0gKGFsZ29yaXRobTogUG93Q2hhbGxlbmdlWyJhbGdvcml0aG0iXSwgaW5wdXQ6IHN0cmluZykgPT4gewogIHN3aXRjaCAoYWxnb3JpdGhtKSB7CiAgICBjYXNlICJTSEEtMjU2IjoKICAgICAgcmV0dXJuIFNIQTI1NihpbnB1dCkudG9TdHJpbmcoSGV4KTsKICAgIGNhc2UgIlNIQS0zODQiOgogICAgICByZXR1cm4gU0hBMzg0KGlucHV0KS50b1N0cmluZyhIZXgpOwogICAgY2FzZSAiU0hBLTUxMiI6CiAgICAgIHJldHVybiBTSEE1MTIoaW5wdXQpLnRvU3RyaW5nKEhleCk7CiAgfQp9OwoKc2VsZi5vbm1lc3NhZ2UgPSAoZXZlbnQ6IE1lc3NhZ2VFdmVudDxQb3dDaGFsbGVuZ2U+KSA9PiB7CiAgY29uc3QgY2hhbGxlbmdlID0gZXZlbnQuZGF0YTsKICBmb3IgKGxldCBudW1iZXIgPSAwOyBudW1iZXIgPD0gY2hhbGxlbmdlLm1heG51bWJlcjsgbnVtYmVyICs9IDEpIHsKICAgIGlmICgKICAgICAgaGFzaChjaGFsbGVuZ2UuYWxnb3JpdGhtLCBgJHtjaGFsbGVuZ2Uuc2FsdH0ke251bWJlcn1gKS50b0xvd2VyQ2FzZSgpID09PQogICAgICBjaGFsbGVuZ2UuY2hhbGxlbmdlCiAgICApIHsKICAgICAgc2VsZi5wb3N0TWVzc2FnZSh7IG51bWJlciB9KTsKICAgICAgcmV0dXJuOwogICAgfQogIH0KICBzZWxmLnBvc3RNZXNzYWdlKHsgZXJyb3I6ICJwb3dTb2x2ZUZhaWxlZCIgfSk7Cn07Cg==
+import SHA256 from "crypto-js/sha256";
+import SHA384 from "crypto-js/sha384";
+import SHA512 from "crypto-js/sha512";
+import Hex from "crypto-js/enc-hex";
+
+type PowChallenge = {
+  algorithm: "SHA-256" | "SHA-384" | "SHA-512";
+  challenge: string;
+  maxnumber: number;
+  salt: string;
+};
+
+const hash = (algorithm: PowChallenge["algorithm"], input: string) => {
+  switch (algorithm) {
+    case "SHA-256":
+      return SHA256(input).toString(Hex);
+    case "SHA-384":
+      return SHA384(input).toString(Hex);
+    case "SHA-512":
+      return SHA512(input).toString(Hex);
+  }
+};
+
+self.onmessage = (event: MessageEvent<PowChallenge>) => {
+  const challenge = event.data;
+  for (let number = 0; number <= challenge.maxnumber; number += 1) {
+    if (
+      hash(challenge.algorithm, `${challenge.salt}${number}`).toLowerCase() ===
+      challenge.challenge
+    ) {
+      self.postMessage({ number });
+      return;
+    }
+  }
+  self.postMessage({ error: "powSolveFailed" });
+};

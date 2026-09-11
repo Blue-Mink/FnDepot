@@ -1,1 +1,15 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgU2VsZWN0SXRlbVRleHRQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IFNlbGVjdEl0ZW1UZXh0IH0gZnJvbSAicmVrYS11aSIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8U2VsZWN0SXRlbVRleHRQcm9wcz4oKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8U2VsZWN0SXRlbVRleHQKICAgIGRhdGEtc2xvdD0ic2VsZWN0LWl0ZW0tdGV4dCIKICAgIHYtYmluZD0icHJvcHMiCiAgPgogICAgPHNsb3QgLz4KICA8L1NlbGVjdEl0ZW1UZXh0Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { SelectItemTextProps } from "reka-ui"
+import { SelectItemText } from "reka-ui"
+
+const props = defineProps<SelectItemTextProps>()
+</script>
+
+<template>
+  <SelectItemText
+    data-slot="select-item-text"
+    v-bind="props"
+  >
+    <slot />
+  </SelectItemText>
+</template>

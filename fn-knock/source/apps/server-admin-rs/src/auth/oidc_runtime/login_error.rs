@@ -1,1 +1,234 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGNyYXRlKSBhc3luYyBmbiBjb25zdW1lX2xvZ2luX2Vycm9yX2Zvcl9ib290c3RyYXAoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaGVhZGVyczogJkhlYWRlck1hcCwKICAgIHVyaTogJlVyaSwKICAgIGNvbmZpZzogJlZhbHVlLAopIC0+IE9wdGlvbjwoU3RyaW5nLCBTdHJpbmcpPiB7CiAgICBsZXQgdG9rZW4gPSBjb29raWVzOjpyZWFkX2Nvb2tpZShoZWFkZXJzLCBjb29raWVzOjpPSURDX0xPR0lOX0VSUk9SX0NPT0tJRV9OQU1FKT87CiAgICBsZXQgbm90aWNlID0gb2lkY19jb25zdW1lX2xvZ2luX2Vycm9yX25vdGljZShzdGF0ZSwgJmhhc2hfb2lkY190b2tlbigmdG9rZW4pKQogICAgICAgIC5hd2FpdAogICAgICAgIC5vaygpCiAgICAgICAgLmZsYXR0ZW4oKT87CiAgICBsZXQgbWVzc2FnZSA9IG5vdGljZQogICAgICAgIC5nZXQoIm1lc3NhZ2UiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSk/CiAgICAgICAgLnRvX3N0cmluZygpOwogICAgbGV0IGRvbWFpbiA9IHJlc29sdmVfY29va2llX2RvbWFpbihjb25maWcsIGhlYWRlcnMpOwogICAgbGV0IHByZWZpeCA9IGNyYXRlOjphdXRoOjpyZXNvbHZlX2F1dGhfdWlfYmFzZV9wcmVmaXgoaGVhZGVycywgdXJpKTsKICAgIGxldCBwYXRoID0gaWYgcHJlZml4LmlzX2VtcHR5KCkgeyAiLyIgfSBlbHNlIHsgcHJlZml4IH07CiAgICBsZXQgY2xlYXJfY29va2llID0gY29va2llczo6b2lkY19sb2dpbl9lcnJvcl9jbGVhcl9jb29raWUoZG9tYWluLmFzX2RlcmVmKCksIHBhdGgpOwogICAgU29tZSgobWVzc2FnZSwgY2xlYXJfY29va2llKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBjb25zdW1lX2NhbGxiYWNrX3N0YXRlX2Zvcl9ub3RpY2UoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgcHJvdmlkZXJfaWQ6ICZzdHIsCiAgICBzdGF0ZV90b2tlbjogT3B0aW9uPCZzdHI+LAogICAgZmxvd190b2tlbjogT3B0aW9uPCZzdHI+LAopIC0+IE9wdGlvbjxWYWx1ZT4gewogICAgbGV0IHN0YXRlX3Rva2VuID0gc3RhdGVfdG9rZW4/OwogICAgaWYgIW9pZGNfZmxvd190b2tlbl92YWxpZChzdGF0ZV90b2tlbiwgZmxvd190b2tlbikgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgb2lkY19jb25zdW1lX3N0YXRlKHN0YXRlLCAmaGFzaF9vaWRjX3Rva2VuKHN0YXRlX3Rva2VuKSkKICAgICAgICAuYXdhaXQKICAgICAgICAub2soKQogICAgICAgIC5mbGF0dGVuKCkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgdmFsdWUuZ2V0KCJwcm92aWRlcl9pZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUocHJvdmlkZXJfaWQpKQp9CgojW2FsbG93KGNsaXBweTo6dG9vX21hbnlfYXJndW1lbnRzKV0KcHViKHN1cGVyKSBhc3luYyBmbiBsb2dpbl9lcnJvcl9yZWRpcmVjdF9yZXNwb25zZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBoZWFkZXJzOiAmSGVhZGVyTWFwLAogICAgdXJpOiAmVXJpLAogICAgY29uZmlnOiAmVmFsdWUsCiAgICBtZXNzYWdlOiBTdHJpbmcsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIHJlZGlyZWN0X3VyaTogT3B0aW9uPCZzdHI+LAogICAgcGVyc2lzdF9ub3RpY2U6IGJvb2wsCiAgICBmbG93X2NsZWFyX2Nvb2tpZTogT3B0aW9uPFN0cmluZz4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IG11dCBjb29raWVzID0gVmVjOjpuZXcoKTsKICAgIGlmIHBlcnNpc3Rfbm90aWNlIHsKICAgICAgICBsZXQgdG9rZW4gPSBjcmVhdGVfcHVibGljX3Rva2VuKCk7CiAgICAgICAgbGV0IHRva2VuX2hhc2ggPSBoYXNoX29pZGNfdG9rZW4oJnRva2VuKTsKICAgICAgICBsZXQgbm90aWNlID0ganNvbiEoewogICAgICAgICAgICAidG9rZW5faGFzaCI6IHRva2VuX2hhc2gsCiAgICAgICAgICAgICJtZXNzYWdlIjogbm9ybWFsaXplX2xvZ2luX2Vycm9yX21lc3NhZ2UoJm1lc3NhZ2UsIHRyYW5zbGF0b3IpLAogICAgICAgICAgICAiY3JlYXRlZF9hdCI6IHRpbWVfdXRpbHM6Om5vd19pc28oKSwKICAgICAgICAgICAgImV4cGlyZXNfYXQiOiB0aW1lX3V0aWxzOjppc29fYWZ0ZXJfc2Vjb25kcyhMT0dJTl9FUlJPUl9UVExfU0VDT05EUyBhcyBpNjQpCiAgICAgICAgfSk7CiAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPQogICAgICAgICAgICBvaWRjX3NhdmVfbG9naW5fZXJyb3Jfbm90aWNlKHN0YXRlLCAmbm90aWNlLCBMT0dJTl9FUlJPUl9UVExfU0VDT05EUykuYXdhaXQKICAgICAgICB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBzYXZlIE9JREMgbG9naW4gZXJyb3Igbm90aWNlIik7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgbGV0IGRvbWFpbiA9IHJlc29sdmVfY29va2llX2RvbWFpbihjb25maWcsIGhlYWRlcnMpOwogICAgICAgICAgICBsZXQgcGF0aCA9IHJlc29sdmVfb2lkY19jb29raWVfcGF0aChjb25maWcsIGhlYWRlcnMsIHVyaS5wYXRoKCkpOwogICAgICAgICAgICBjb29raWVzLnB1c2goY29va2llczo6b2lkY19sb2dpbl9lcnJvcl9jb29raWUoCiAgICAgICAgICAgICAgICAmdG9rZW4sCiAgICAgICAgICAgICAgICBMT0dJTl9FUlJPUl9UVExfU0VDT05EUyBhcyBpNjQsCiAgICAgICAgICAgICAgICBkb21haW4uYXNfZGVyZWYoKSwKICAgICAgICAgICAgICAgICZwYXRoLAogICAgICAgICAgICApKTsKICAgICAgICB9CiAgICB9CiAgICBpZiBsZXQgU29tZShjb29raWUpID0gZmxvd19jbGVhcl9jb29raWUgewogICAgICAgIGNvb2tpZXMucHVzaChjb29raWUpOwogICAgfQogICAgbGV0IGxvY2F0aW9uID0gYnVpbGRfbG9naW5fcmVkaXJlY3QoY29uZmlnLCBoZWFkZXJzLCB1cmkucGF0aCgpLCByZWRpcmVjdF91cmkpOwogICAgcmVkaXJlY3RfcmVzcG9uc2UoJmxvY2F0aW9uLCBjb29raWVzKQp9CgpwdWIoc3VwZXIpIGZuIHByb3ZpZGVyX2Vycm9yX21lc3NhZ2UoZXJyb3I6ICZzdHIsIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yKSAtPiBTdHJpbmcgewogICAgbWF0Y2ggZXJyb3IudHJpbSgpLnRvX2FzY2lpX2xvd2VyY2FzZSgpLmFzX3N0cigpIHsKICAgICAgICAiYWNjZXNzX2RlbmllZCIgPT4gb2lkY190ZXh0KHRyYW5zbGF0b3IsICJwcm92aWRlckVycm9ycy5hY2Nlc3NEZW5pZWQiKSwKICAgICAgICAidGVtcG9yYXJpbHlfdW5hdmFpbGFibGUiID0+IG9pZGNfdGV4dCh0cmFuc2xhdG9yLCAicHJvdmlkZXJFcnJvcnMudGVtcG9yYXJpbHlVbmF2YWlsYWJsZSIpLAogICAgICAgICJzZXJ2ZXJfZXJyb3IiID0+IG9pZGNfdGV4dCh0cmFuc2xhdG9yLCAicHJvdmlkZXJFcnJvcnMuc2VydmVyRXJyb3IiKSwKICAgICAgICAiaW52YWxpZF9zY29wZSIgPT4gb2lkY190ZXh0KHRyYW5zbGF0b3IsICJwcm92aWRlckVycm9ycy5pbnZhbGlkU2NvcGUiKSwKICAgICAgICAiaW52YWxpZF9yZXF1ZXN0IiB8ICJ1bmF1dGhvcml6ZWRfY2xpZW50IiB8ICJ1bnN1cHBvcnRlZF9yZXNwb25zZV90eXBlIiA9PiB7CiAgICAgICAgICAgIG9pZGNfdGV4dCh0cmFuc2xhdG9yLCAicHJvdmlkZXJFcnJvcnMucmVqZWN0ZWQiKQogICAgICAgIH0KICAgICAgICBfID0+IG9pZGNfdGV4dCh0cmFuc2xhdG9yLCAicHJvdmlkZXJFcnJvcnMuaW5jb21wbGV0ZSIpLAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGlzX29pZGNfb3BlcmF0aW9uX2Fib3J0ZWRfZXJyb3IoZXJyb3I6ICZzdHIpIC0+IGJvb2wgewogICAgbGV0IG1lc3NhZ2UgPSBlcnJvci50b19hc2NpaV9sb3dlcmNhc2UoKTsKICAgIG1lc3NhZ2UuY29udGFpbnMoIm9wZXJhdGlvbiB3YXMgYWJvcnRlZCIpCiAgICAgICAgfHwgKG1lc3NhZ2UuY29udGFpbnMoImFib3J0ZXJyb3IiKSAmJiBtZXNzYWdlLmNvbnRhaW5zKCJhYm9ydGVkIikpCn0KCnB1YihzdXBlcikgZm4gb2lkY19sb2dpbl9mYWlsZWRfcmV0cnlfYWZ0ZXJfbWVzc2FnZSgKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgbWVzc2FnZTogJnN0ciwKICAgIHJldHJ5X2FmdGVyOiBpNjQsCikgLT4gU3RyaW5nIHsKICAgIG9pZGNfdGV4dF9wYXJhbXMoCiAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAibG9naW5GYWlsZWRSZXRyeUFmdGVyIiwKICAgICAgICAmWwogICAgICAgICAgICAoIm1lc3NhZ2UiLCBtZXNzYWdlLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgKCJzZWNvbmRzIiwgcmV0cnlfYWZ0ZXIubWF4KDEpLnRvX3N0cmluZygpKSwKICAgICAgICBdLAogICAgKQp9CgpwdWIoc3VwZXIpIGZuIHJlZGlyZWN0X3Jlc3BvbnNlKGxvY2F0aW9uOiAmc3RyLCBjb29raWVzOiBWZWM8U3RyaW5nPikgLT4gUmVzcG9uc2UgewogICAgbGV0IG11dCByZXNwb25zZSA9IFJlc3BvbnNlOjpidWlsZGVyKCkKICAgICAgICAuc3RhdHVzKFN0YXR1c0NvZGU6OkZPVU5EKQogICAgICAgIC5oZWFkZXIoaGVhZGVyOjpMT0NBVElPTiwgbG9jYXRpb24pCiAgICAgICAgLmJvZHkoYXh1bTo6Ym9keTo6Qm9keTo6ZW1wdHkoKSkKICAgICAgICAudW53cmFwX29yX2Vsc2UofF98IFJlc3BvbnNlOjpuZXcoYXh1bTo6Ym9keTo6Qm9keTo6ZW1wdHkoKSkpOwogICAgYXBwbHlfbm9fc3RvcmVfaGVhZGVycyhyZXNwb25zZS5oZWFkZXJzX211dCgpKTsKICAgIGZvciBjb29raWUgaW4gY29va2llcyB7CiAgICAgICAgYXBwZW5kX3NldF9jb29raWUocmVzcG9uc2UuaGVhZGVyc19tdXQoKSwgJmNvb2tpZSk7CiAgICB9CiAgICByZXNwb25zZQp9CgpwdWIoc3VwZXIpIGZuIGJpbmRfcHJvdmlkZXJfc2VsZWN0aW9uX3Jlc3BvbnNlKAogICAgdXJpOiAmVXJpLAogICAgdG9rZW46ICZzdHIsCiAgICBpbnZpdGU6ICZWYWx1ZSwKICAgIHByb3ZpZGVyczogJltWYWx1ZV0sCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIGxvY2FsZTogJnN0ciwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdG90cF9uYW1lID0gaW52aXRlCiAgICAgICAgLnBvaW50ZXIoIi90b3RwL2NvbW1lbnQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICAudW53cmFwX29yKCJUT1RQIik7CiAgICBsZXQgYWN0aW9ucyA9IHByb3ZpZGVycwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyX21hcCh8cHJvdmlkZXJ8IHsKICAgICAgICAgICAgbGV0IGlkID0gcHJvdmlkZXIuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpPzsKICAgICAgICAgICAgbGV0IG5hbWUgPSBwcm92aWRlci5nZXQoIm5hbWUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoaWQpOwogICAgICAgICAgICBsZXQgcXVlcnkgPSBmb3JtYXQhKAogICAgICAgICAgICAgICAgInRva2VuPXt9JnByb3ZpZGVyX2lkPXt9IiwKICAgICAgICAgICAgICAgIGVuY29kZV9xdWVyeSh0b2tlbiksCiAgICAgICAgICAgICAgICBlbmNvZGVfcXVlcnkoaWQpCiAgICAgICAgICAgICk7CiAgICAgICAgICAgIFNvbWUoZm9ybWF0ISgKICAgICAgICAgICAgICAgIHIjIjxhIGhyZWY9Int9P3t9Ij57fTwvYT4iIywKICAgICAgICAgICAgICAgIGh0bWxfZXNjYXBlKHVyaS5wYXRoKCkpLAogICAgICAgICAgICAgICAgcXVlcnksCiAgICAgICAgICAgICAgICBodG1sX2VzY2FwZSgmb2lkY190ZXh0X3BhcmFtcygKICAgICAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgICAgICJiaW5kV2l0aFByb3ZpZGVyIiwKICAgICAgICAgICAgICAgICAgICAmWygicHJvdmlkZXIiLCBuYW1lLnRvX3N0cmluZygpKV0sCiAgICAgICAgICAgICAgICApKQogICAgICAgICAgICApKQogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3Q6OjxTdHJpbmc+KCk7CiAgICBiaW5kX2h0bWxfcmVzcG9uc2UoCiAgICAgICAgU3RhdHVzQ29kZTo6T0ssCiAgICAgICAgJm9pZGNfdGV4dCh0cmFuc2xhdG9yLCAic2VsZWN0UHJvdmlkZXJUaXRsZSIpLAogICAgICAgICZvaWRjX3RleHRfcGFyYW1zKHRyYW5zbGF0b3IsICJiaW5kVG9Ub3RwIiwgJlsoInRvdHAiLCB0b3RwX25hbWUudG9fc3RyaW5nKCkpXSksCiAgICAgICAgbG9jYWxlLAogICAgICAgIFNvbWUoZm9ybWF0IShyIyI8ZGl2IGNsYXNzPSJhY3Rpb25zIj57YWN0aW9uc308L2Rpdj4iIykpLAogICAgKQp9CgpwdWIoc3VwZXIpIGZuIGJpbmRfaHRtbF9yZXNwb25zZSgKICAgIHN0YXR1czogU3RhdHVzQ29kZSwKICAgIHRpdGxlOiAmc3RyLAogICAgYm9keTogJnN0ciwKICAgIGxvY2FsZTogJnN0ciwKICAgIGFjdGlvbnM6IE9wdGlvbjxTdHJpbmc+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCBodG1sID0gZm9ybWF0ISgKICAgICAgICByIyI8IWRvY3R5cGUgaHRtbD4KPGh0bWwgbGFuZz0ie2xvY2FsZX0iPgogIDxoZWFkPgogICAgPG1ldGEgY2hhcnNldD0idXRmLTgiIC8+CiAgICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEiIC8+CiAgICA8dGl0bGU+e3RpdGxlfTwvdGl0bGU+CiAgICA8c3R5bGU+CiAgICAgIGJvZHl7e21hcmdpbjowO21pbi1oZWlnaHQ6MTAwdmg7ZGlzcGxheTpncmlkO3BsYWNlLWl0ZW1zOmNlbnRlcjtiYWNrZ3JvdW5kOiNmNmY3Zjk7Y29sb3I6IzExMTgyNztmb250LWZhbWlseTotYXBwbGUtc3lzdGVtLEJsaW5rTWFjU3lzdGVtRm9udCwiU2Vnb2UgVUkiLHNhbnMtc2VyaWZ9fQogICAgICBtYWlue3t3aWR0aDptaW4oOTJ2dyw0MjBweCk7Ym94LXNpemluZzpib3JkZXItYm94O2JvcmRlcjoxcHggc29saWQgI2U1ZTdlYjtib3JkZXItcmFkaXVzOjEycHg7YmFja2dyb3VuZDojZmZmO3BhZGRpbmc6MjhweDtib3gtc2hhZG93OjAgMThweCA0OHB4IHJnYmEoMTUsMjMsNDIsLjA4KX19CiAgICAgIGgxe3ttYXJnaW46MCAwIDEwcHg7Zm9udC1zaXplOjIycHg7bGluZS1oZWlnaHQ6MS4yNX19CiAgICAgIHB7e21hcmdpbjowO2NvbG9yOiM0YjU1NjM7bGluZS1oZWlnaHQ6MS43O2ZvbnQtc2l6ZToxNHB4fX0KICAgICAgLmFjdGlvbnN7e2Rpc3BsYXk6Z3JpZDtnYXA6MTBweDttYXJnaW4tdG9wOjIycHh9fQogICAgICBhe3tkaXNwbGF5OmZsZXg7YWxpZ24taXRlbXM6Y2VudGVyO2p1c3RpZnktY29udGVudDpjZW50ZXI7aGVpZ2h0OjQwcHg7Ym9yZGVyLXJhZGl1czo4cHg7YmFja2dyb3VuZDojMTExODI3O2NvbG9yOiNmZmY7dGV4dC1kZWNvcmF0aW9uOm5vbmU7Zm9udC1zaXplOjE0cHg7Zm9udC13ZWlnaHQ6NjAwfX0KICAgIDwvc3R5bGU+CiAgPC9oZWFkPgogIDxib2R5PgogICAgPG1haW4+CiAgICAgIDxoMT57dGl0bGV9PC9oMT4KICAgICAgPHA+e2JvZHl9PC9wPgogICAgICB7YWN0aW9uc30KICAgIDwvbWFpbj4KICA8L2JvZHk+CjwvaHRtbD4iIywKICAgICAgICBsb2NhbGUgPSBodG1sX2VzY2FwZShsb2NhbGUpLAogICAgICAgIHRpdGxlID0gaHRtbF9lc2NhcGUodGl0bGUpLAogICAgICAgIGJvZHkgPSBodG1sX2VzY2FwZShib2R5KSwKICAgICAgICBhY3Rpb25zID0gYWN0aW9ucy51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgKTsKICAgIGxldCBtdXQgcmVzcG9uc2UgPSAoCiAgICAgICAgc3RhdHVzLAogICAgICAgIFsKICAgICAgICAgICAgKCJjb250ZW50LXR5cGUiLCAidGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04IiksCiAgICAgICAgICAgICgieC1jb250ZW50LXR5cGUtb3B0aW9ucyIsICJub3NuaWZmIiksCiAgICAgICAgICAgICgieC1mcmFtZS1vcHRpb25zIiwgIkRFTlkiKSwKICAgICAgICAgICAgKCJyZWZlcnJlci1wb2xpY3kiLCAibm8tcmVmZXJyZXIiKSwKICAgICAgICBdLAogICAgICAgIGh0bWwsCiAgICApCiAgICAgICAgLmludG9fcmVzcG9uc2UoKTsKICAgIHJlc3BvbnNlLmhlYWRlcnNfbXV0KCkuaW5zZXJ0KAogICAgICAgICJjb250ZW50LXNlY3VyaXR5LXBvbGljeSIsCiAgICAgICAgSGVhZGVyVmFsdWU6OmZyb21fc3RhdGljKAogICAgICAgICAgICAiZGVmYXVsdC1zcmMgJ25vbmUnOyBzdHlsZS1zcmMgJ3Vuc2FmZS1pbmxpbmUnOyBmb3JtLWFjdGlvbiAnc2VsZic7IGJhc2UtdXJpICdub25lJzsgZnJhbWUtYW5jZXN0b3JzICdub25lJyIsCiAgICAgICAgKSwKICAgICk7CiAgICBhcHBseV9ub19zdG9yZV9oZWFkZXJzKHJlc3BvbnNlLmhlYWRlcnNfbXV0KCkpOwogICAgcmVzcG9uc2UKfQo=
+use super::*;
+
+pub(crate) async fn consume_login_error_for_bootstrap(
+    state: &AppState,
+    headers: &HeaderMap,
+    uri: &Uri,
+    config: &Value,
+) -> Option<(String, String)> {
+    let token = cookies::read_cookie(headers, cookies::OIDC_LOGIN_ERROR_COOKIE_NAME)?;
+    let notice = oidc_consume_login_error_notice(state, &hash_oidc_token(&token))
+        .await
+        .ok()
+        .flatten()?;
+    let message = notice
+        .get("message")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .filter(|value| !value.is_empty())?
+        .to_string();
+    let domain = resolve_cookie_domain(config, headers);
+    let prefix = crate::auth::resolve_auth_ui_base_prefix(headers, uri);
+    let path = if prefix.is_empty() { "/" } else { prefix };
+    let clear_cookie = cookies::oidc_login_error_clear_cookie(domain.as_deref(), path);
+    Some((message, clear_cookie))
+}
+
+pub(super) async fn consume_callback_state_for_notice(
+    state: &AppState,
+    provider_id: &str,
+    state_token: Option<&str>,
+    flow_token: Option<&str>,
+) -> Option<Value> {
+    let state_token = state_token?;
+    if !oidc_flow_token_valid(state_token, flow_token) {
+        return None;
+    }
+    oidc_consume_state(state, &hash_oidc_token(state_token))
+        .await
+        .ok()
+        .flatten()
+        .filter(|value| value.get("provider_id").and_then(Value::as_str) == Some(provider_id))
+}
+
+#[allow(clippy::too_many_arguments)]
+pub(super) async fn login_error_redirect_response(
+    state: &AppState,
+    headers: &HeaderMap,
+    uri: &Uri,
+    config: &Value,
+    message: String,
+    translator: &Translator,
+    redirect_uri: Option<&str>,
+    persist_notice: bool,
+    flow_clear_cookie: Option<String>,
+) -> Response {
+    let mut cookies = Vec::new();
+    if persist_notice {
+        let token = create_public_token();
+        let token_hash = hash_oidc_token(&token);
+        let notice = json!({
+            "token_hash": token_hash,
+            "message": normalize_login_error_message(&message, translator),
+            "created_at": time_utils::now_iso(),
+            "expires_at": time_utils::iso_after_seconds(LOGIN_ERROR_TTL_SECONDS as i64)
+        });
+        if let Err(error) =
+            oidc_save_login_error_notice(state, &notice, LOGIN_ERROR_TTL_SECONDS).await
+        {
+            tracing::warn!(%error, "failed to save OIDC login error notice");
+        } else {
+            let domain = resolve_cookie_domain(config, headers);
+            let path = resolve_oidc_cookie_path(config, headers, uri.path());
+            cookies.push(cookies::oidc_login_error_cookie(
+                &token,
+                LOGIN_ERROR_TTL_SECONDS as i64,
+                domain.as_deref(),
+                &path,
+            ));
+        }
+    }
+    if let Some(cookie) = flow_clear_cookie {
+        cookies.push(cookie);
+    }
+    let location = build_login_redirect(config, headers, uri.path(), redirect_uri);
+    redirect_response(&location, cookies)
+}
+
+pub(super) fn provider_error_message(error: &str, translator: &Translator) -> String {
+    match error.trim().to_ascii_lowercase().as_str() {
+        "access_denied" => oidc_text(translator, "providerErrors.accessDenied"),
+        "temporarily_unavailable" => oidc_text(translator, "providerErrors.temporarilyUnavailable"),
+        "server_error" => oidc_text(translator, "providerErrors.serverError"),
+        "invalid_scope" => oidc_text(translator, "providerErrors.invalidScope"),
+        "invalid_request" | "unauthorized_client" | "unsupported_response_type" => {
+            oidc_text(translator, "providerErrors.rejected")
+        }
+        _ => oidc_text(translator, "providerErrors.incomplete"),
+    }
+}
+
+pub(super) fn is_oidc_operation_aborted_error(error: &str) -> bool {
+    let message = error.to_ascii_lowercase();
+    message.contains("operation was aborted")
+        || (message.contains("aborterror") && message.contains("aborted"))
+}
+
+pub(super) fn oidc_login_failed_retry_after_message(
+    translator: &Translator,
+    message: &str,
+    retry_after: i64,
+) -> String {
+    oidc_text_params(
+        translator,
+        "loginFailedRetryAfter",
+        &[
+            ("message", message.to_string()),
+            ("seconds", retry_after.max(1).to_string()),
+        ],
+    )
+}
+
+pub(super) fn redirect_response(location: &str, cookies: Vec<String>) -> Response {
+    let mut response = Response::builder()
+        .status(StatusCode::FOUND)
+        .header(header::LOCATION, location)
+        .body(axum::body::Body::empty())
+        .unwrap_or_else(|_| Response::new(axum::body::Body::empty()));
+    apply_no_store_headers(response.headers_mut());
+    for cookie in cookies {
+        append_set_cookie(response.headers_mut(), &cookie);
+    }
+    response
+}
+
+pub(super) fn bind_provider_selection_response(
+    uri: &Uri,
+    token: &str,
+    invite: &Value,
+    providers: &[Value],
+    translator: &Translator,
+    locale: &str,
+) -> Response {
+    let totp_name = invite
+        .pointer("/totp/comment")
+        .and_then(Value::as_str)
+        .filter(|value| !value.is_empty())
+        .unwrap_or("TOTP");
+    let actions = providers
+        .iter()
+        .filter_map(|provider| {
+            let id = provider.get("id").and_then(Value::as_str)?;
+            let name = provider.get("name").and_then(Value::as_str).unwrap_or(id);
+            let query = format!(
+                "token={}&provider_id={}",
+                encode_query(token),
+                encode_query(id)
+            );
+            Some(format!(
+                r#"<a href="{}?{}">{}</a>"#,
+                html_escape(uri.path()),
+                query,
+                html_escape(&oidc_text_params(
+                    translator,
+                    "bindWithProvider",
+                    &[("provider", name.to_string())],
+                ))
+            ))
+        })
+        .collect::<String>();
+    bind_html_response(
+        StatusCode::OK,
+        &oidc_text(translator, "selectProviderTitle"),
+        &oidc_text_params(translator, "bindToTotp", &[("totp", totp_name.to_string())]),
+        locale,
+        Some(format!(r#"<div class="actions">{actions}</div>"#)),
+    )
+}
+
+pub(super) fn bind_html_response(
+    status: StatusCode,
+    title: &str,
+    body: &str,
+    locale: &str,
+    actions: Option<String>,
+) -> Response {
+    let html = format!(
+        r#"<!doctype html>
+<html lang="{locale}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <style>
+      body{{margin:0;min-height:100vh;display:grid;place-items:center;background:#f6f7f9;color:#111827;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}}
+      main{{width:min(92vw,420px);box-sizing:border-box;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:28px;box-shadow:0 18px 48px rgba(15,23,42,.08)}}
+      h1{{margin:0 0 10px;font-size:22px;line-height:1.25}}
+      p{{margin:0;color:#4b5563;line-height:1.7;font-size:14px}}
+      .actions{{display:grid;gap:10px;margin-top:22px}}
+      a{{display:flex;align-items:center;justify-content:center;height:40px;border-radius:8px;background:#111827;color:#fff;text-decoration:none;font-size:14px;font-weight:600}}
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>{title}</h1>
+      <p>{body}</p>
+      {actions}
+    </main>
+  </body>
+</html>"#,
+        locale = html_escape(locale),
+        title = html_escape(title),
+        body = html_escape(body),
+        actions = actions.unwrap_or_default(),
+    );
+    let mut response = (
+        status,
+        [
+            ("content-type", "text/html; charset=utf-8"),
+            ("x-content-type-options", "nosniff"),
+            ("x-frame-options", "DENY"),
+            ("referrer-policy", "no-referrer"),
+        ],
+        html,
+    )
+        .into_response();
+    response.headers_mut().insert(
+        "content-security-policy",
+        HeaderValue::from_static(
+            "default-src 'none'; style-src 'unsafe-inline'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'",
+        ),
+    );
+    apply_no_store_headers(response.headers_mut());
+    response
+}

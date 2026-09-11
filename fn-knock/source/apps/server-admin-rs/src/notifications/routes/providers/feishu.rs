@@ -1,1 +1,76 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIGZlaXNodV9kZWZpbml0aW9uKCkgLT4gUHJvdmlkZXJEZWZpbml0aW9uIHsKICAgIHdlYmhvb2tfbGlrZV9kZWZpbml0aW9uKAogICAgICAgICJmZWlzaHUiLAogICAgICAgICJGZWlzaHUiLAogICAgICAgICJTZW5kIG5vdGlmaWNhdGlvbnMgdGhyb3VnaCBGZWlzaHUgcm9ib3Qgd2ViaG9vay4iLAogICAgICAgICZbIndlYmhvb2tfdXJsIiwgInNlY3JldCJdLAogICAgICAgIHZlYyFbCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoIm1lbnRpb25fdXNlcl9pZHMiLCAiTWVudGlvbiB1c2VyIElEcyIsIGZhbHNlLCBmYWxzZSwgTm9uZSkKICAgICAgICAgICAgICAgIC5wbGFjZWhvbGRlcigib3VfeHh4LGFsbCIpLAogICAgICAgIF0sCiAgICApCn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBhc3luYyBmbiBzZW5kX2ZlaXNodSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBwcm92aWRlcjogJlZhbHVlLAogICAgdGFyZ2V0OiAmVmFsdWUsCiAgICBtZXNzYWdlOiAmVmFsdWUsCiAgICB0aW1lb3V0X3NlY29uZHM6IGk2NCwKKSAtPiBQcm92aWRlclRlc3RSZXN1bHQgewogICAgbGV0IGNvbmZpZyA9IHByb3ZpZGVyX2NvbmZpZyhwcm92aWRlcik7CiAgICBsZXQgdGFyZ2V0X2NvbmZpZyA9IHRhcmdldF9jb25maWcodGFyZ2V0KTsKICAgIGxldCB3ZWJob29rX3VybCA9IGNvbmZpZ190ZXh0KCZjb25maWcsICJ3ZWJob29rX3VybCIpOwogICAgaWYgd2ViaG9va191cmwuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIG1pc3NpbmdfY29uZmlnX3Jlc3VsdCgmbm90aWZpY2F0aW9uX3Byb3ZpZGVyX2Vycm9yX2RlZmF1bHQoCiAgICAgICAgICAgICJmZWlzaHUiLAogICAgICAgICAgICAibWlzc2luZ1dlYmhvb2tVcmwiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSk7CiAgICB9CiAgICBsZXQgc2VjcmV0ID0gY29uZmlnX3RleHQoJmNvbmZpZywgInNlY3JldCIpOwogICAgbGV0IGtleXdvcmRfcHJlZml4ID0gY29uZmlnX3RleHQoJmNvbmZpZywgImtleXdvcmRfcHJlZml4Iik7CiAgICBsZXQgbWVudGlvbl91c2VyX2lkcyA9IHNwbGl0X3ZhbHVlcyh0YXJnZXRfY29uZmlnLmdldCgibWVudGlvbl91c2VyX2lkcyIpKTsKICAgIGxldCB0aXRsZSA9IGFwcGx5X2tleXdvcmRfcHJlZml4KCZtZXNzYWdlX3RpdGxlKG1lc3NhZ2UpLCAma2V5d29yZF9wcmVmaXgpOwogICAgbGV0IG11dCBib2R5ID0ganNvbiEoewogICAgICAgICJtc2dfdHlwZSI6ICJwb3N0IiwKICAgICAgICAiY29udGVudCI6IHsKICAgICAgICAgICAgInBvc3QiOiB7CiAgICAgICAgICAgICAgICAiemhfY24iOiB7CiAgICAgICAgICAgICAgICAgICAgInRpdGxlIjogdGl0bGUsCiAgICAgICAgICAgICAgICAgICAgImNvbnRlbnQiOiBidWlsZF9mZWlzaHVfcG9zdF9jb250ZW50KG1lc3NhZ2UsICZtZW50aW9uX3VzZXJfaWRzKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfSk7CiAgICBpZiAhc2VjcmV0LmlzX2VtcHR5KCkgewogICAgICAgIGxldCB0aW1lc3RhbXAgPSAodGltZV91dGlsczo6bm93X21zKCkgLyAxMDAwKS50b19zdHJpbmcoKTsKICAgICAgICBsZXQga2V5ID0gZm9ybWF0ISgie3RpbWVzdGFtcH1cbntzZWNyZXR9Iik7CiAgICAgICAgbGV0IHNpZ24gPSBobWFjX3NoYTI1Nl9iYXNlNjQoa2V5LmFzX2J5dGVzKCksIGIiIik7CiAgICAgICAgaWYgbGV0IFNvbWUob2JqZWN0KSA9IGJvZHkuYXNfb2JqZWN0X211dCgpIHsKICAgICAgICAgICAgb2JqZWN0Lmluc2VydCgidGltZXN0YW1wIi50b19zdHJpbmcoKSwgVmFsdWU6OlN0cmluZyh0aW1lc3RhbXApKTsKICAgICAgICAgICAgb2JqZWN0Lmluc2VydCgic2lnbiIudG9fc3RyaW5nKCksIFZhbHVlOjpTdHJpbmcoc2lnbikpOwogICAgICAgIH0KICAgIH0KICAgIGxldCByZXF1ZXN0X3N1bW1hcnkgPSBqc29uISh7CiAgICAgICAgIm1ldGhvZCI6ICJQT1NUIiwKICAgICAgICAidXJsIjogcmVkYWN0X3BhdGhfdGFpbCgmd2ViaG9va191cmwpLAogICAgICAgICJtc2dfdHlwZSI6ICJwb3N0IiwKICAgICAgICAic2lnbmVkIjogIXNlY3JldC5pc19lbXB0eSgpLAogICAgICAgICJtZW50aW9uZWRfdXNlcl9jb3VudCI6IG1lbnRpb25fdXNlcl9pZHMubGVuKCksCiAgICAgICAgInRpdGxlX3ByZXZpZXciOiB0cnVuY2F0ZV90ZXh0KGJvZHkucG9pbnRlcigiL2NvbnRlbnQvcG9zdC96aF9jbi90aXRsZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIiksIDEyMCkKICAgIH0pOwogICAgbGV0IChzdGF0dXMsIG9rLCB0ZXh0LCBwYXJzZWQpID0gcG9zdF9qc29uKHN0YXRlLCAmd2ViaG9va191cmwsICZib2R5LCB0aW1lb3V0X3NlY29uZHMpLmF3YWl0OwogICAgcHJvdmlkZXJfcmVzdWx0X2Zyb21fYXBpKAogICAgICAgICJGZWlzaHUiLAogICAgICAgIHJlcXVlc3Rfc3VtbWFyeSwKICAgICAgICBzdGF0dXMsCiAgICAgICAgb2ssCiAgICAgICAgdGV4dCwKICAgICAgICBwYXJzZWQsCiAgICAgICAgfHZhbHVlfCBqc29uX2k2NCh2YWx1ZSwgImNvZGUiKS51bndyYXBfb3IoMCkgPT0gMCwKICAgICAgICB8dmFsdWV8IGpzb25fdGV4dCh2YWx1ZSwgIm1zZyIpLAogICAgKQp9Cg==
+use super::*;
+
+pub(in crate::notifications::routes) fn feishu_definition() -> ProviderDefinition {
+    webhook_like_definition(
+        "feishu",
+        "Feishu",
+        "Send notifications through Feishu robot webhook.",
+        &["webhook_url", "secret"],
+        vec![
+            string_schema("mention_user_ids", "Mention user IDs", false, false, None)
+                .placeholder("ou_xxx,all"),
+        ],
+    )
+}
+
+pub(in crate::notifications::routes) async fn send_feishu(
+    state: &AppState,
+    provider: &Value,
+    target: &Value,
+    message: &Value,
+    timeout_seconds: i64,
+) -> ProviderTestResult {
+    let config = provider_config(provider);
+    let target_config = target_config(target);
+    let webhook_url = config_text(&config, "webhook_url");
+    if webhook_url.is_empty() {
+        return missing_config_result(&notification_provider_error_default(
+            "feishu",
+            "missingWebhookUrl",
+            &[],
+        ));
+    }
+    let secret = config_text(&config, "secret");
+    let keyword_prefix = config_text(&config, "keyword_prefix");
+    let mention_user_ids = split_values(target_config.get("mention_user_ids"));
+    let title = apply_keyword_prefix(&message_title(message), &keyword_prefix);
+    let mut body = json!({
+        "msg_type": "post",
+        "content": {
+            "post": {
+                "zh_cn": {
+                    "title": title,
+                    "content": build_feishu_post_content(message, &mention_user_ids)
+                }
+            }
+        }
+    });
+    if !secret.is_empty() {
+        let timestamp = (time_utils::now_ms() / 1000).to_string();
+        let key = format!("{timestamp}\n{secret}");
+        let sign = hmac_sha256_base64(key.as_bytes(), b"");
+        if let Some(object) = body.as_object_mut() {
+            object.insert("timestamp".to_string(), Value::String(timestamp));
+            object.insert("sign".to_string(), Value::String(sign));
+        }
+    }
+    let request_summary = json!({
+        "method": "POST",
+        "url": redact_path_tail(&webhook_url),
+        "msg_type": "post",
+        "signed": !secret.is_empty(),
+        "mentioned_user_count": mention_user_ids.len(),
+        "title_preview": truncate_text(body.pointer("/content/post/zh_cn/title").and_then(Value::as_str).unwrap_or(""), 120)
+    });
+    let (status, ok, text, parsed) = post_json(state, &webhook_url, &body, timeout_seconds).await;
+    provider_result_from_api(
+        "Feishu",
+        request_summary,
+        status,
+        ok,
+        text,
+        parsed,
+        |value| json_i64(value, "code").unwrap_or(0) == 0,
+        |value| json_text(value, "msg"),
+    )
+}

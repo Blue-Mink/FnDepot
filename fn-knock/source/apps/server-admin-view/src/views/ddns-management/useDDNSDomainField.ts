@@ -1,1 +1,112 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHRvVmFsdWUsIHR5cGUgTWF5YmVSZWZPckdldHRlciwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgewogIG5vcm1hbGl6ZURETlNEb21haW5UYXJnZXRJbnB1dCwKICB2YWxpZGF0ZURETlNEb21haW5UYXJnZXRzLAogIHR5cGUgREROU0RvbWFpblRhcmdldFBhcnNlUmVzdWx0LAp9IGZyb20gIkAvbGliL2RkbnMtZG9tYWluIjsKaW1wb3J0IHsgZmluZFByb3ZpZGVyRGVmLCB0eXBlIFByb3ZpZGVyLCB0eXBlIFByb3ZpZGVyRmllbGQgfSBmcm9tICIuL21vZGVsIjsKCnR5cGUgVHJhbnNsYXRlID0gKGtleTogc3RyaW5nLCBwYXJhbXM/OiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPikgPT4gc3RyaW5nOwoKZXhwb3J0IGNvbnN0IHVzZURETlNEb21haW5GaWVsZCA9ICh7CiAgY29uZmlnLAogIGluY2x1ZGVXaWxkY2FyZEhpbnQgPSBmYWxzZSwKICBwcm92aWRlck5hbWUsCiAgcHJvdmlkZXJzLAogIHRyYW5zbGF0ZSwKfTogewogIGNvbmZpZzogUmVmPFJlY29yZDxzdHJpbmcsIHN0cmluZz4+OwogIGluY2x1ZGVXaWxkY2FyZEhpbnQ/OiBNYXliZVJlZk9yR2V0dGVyPGJvb2xlYW4+OwogIHByb3ZpZGVyTmFtZTogTWF5YmVSZWZPckdldHRlcjxzdHJpbmc+OwogIHByb3ZpZGVyczogUmVmPFByb3ZpZGVyW10+OwogIHRyYW5zbGF0ZTogVHJhbnNsYXRlOwp9KSA9PiB7CiAgY29uc3QgcHJvdmlkZXJEZWYgPSBjb21wdXRlZCgoKSA9PgogICAgZmluZFByb3ZpZGVyRGVmKHByb3ZpZGVycy52YWx1ZSwgdG9WYWx1ZShwcm92aWRlck5hbWUpKSwKICApOwoKICBjb25zdCBkb21haW5UYXJnZXRzID0gY29tcHV0ZWQoCiAgICAoKSA9PiBwcm92aWRlckRlZi52YWx1ZT8uY2FwYWJpbGl0aWVzPy5kb21haW5UYXJnZXRzLAogICk7CgogIGNvbnN0IGhhc0RvbWFpbkZpZWxkID0gY29tcHV0ZWQoKCkgPT4KICAgIHByb3ZpZGVyRGVmLnZhbHVlPy5maWVsZHMuc29tZSgoZmllbGQpID0+IGZpZWxkLmtleSA9PT0gImRvbWFpbiIpLAogICk7CgogIGNvbnN0IHN1cHBvcnRzV2lsZGNhcmRSb290UGFpciA9IGNvbXB1dGVkKAogICAgKCkgPT4gZG9tYWluVGFyZ2V0cy52YWx1ZT8ubW9kZSA9PT0gInNpbmdsZV9vcl93aWxkY2FyZF9yb290X3BhaXIiLAogICk7CgogIGNvbnN0IG5vcm1hbGl6ZURvbWFpbiA9ICgpID0+IHsKICAgIGlmICgKICAgICAgIWhhc0RvbWFpbkZpZWxkLnZhbHVlICYmCiAgICAgICFPYmplY3QucHJvdG90eXBlLmhhc093blByb3BlcnR5LmNhbGwoY29uZmlnLnZhbHVlLCAiZG9tYWluIikKICAgICkgewogICAgICByZXR1cm47CiAgICB9CgogICAgY29uc3QgZG9tYWluID0gbm9ybWFsaXplREROU0RvbWFpblRhcmdldElucHV0KGNvbmZpZy52YWx1ZS5kb21haW4pOwogICAgaWYgKGRvbWFpbiAhPT0gKGNvbmZpZy52YWx1ZS5kb21haW4gPz8gIiIpKSB7CiAgICAgIGNvbmZpZy52YWx1ZSA9IHsgLi4uY29uZmlnLnZhbHVlLCBkb21haW4gfTsKICAgIH0KICB9OwoKICBjb25zdCB2YWxpZGF0ZURvbWFpbiA9ICgpOiBERE5TRG9tYWluVGFyZ2V0UGFyc2VSZXN1bHQgfCBudWxsID0+IHsKICAgIGlmICghaGFzRG9tYWluRmllbGQudmFsdWUpIHsKICAgICAgcmV0dXJuIG51bGw7CiAgICB9CgogICAgY29uc3QgZG9tYWluID0gY29uZmlnLnZhbHVlLmRvbWFpbiA/PyAiIjsKICAgIGlmICghZG9tYWluIHx8IC9eXHB7V2hpdGVfU3BhY2V9KiQvdS50ZXN0KGRvbWFpbikpIHsKICAgICAgcmV0dXJuIG51bGw7CiAgICB9CgogICAgY29uc3QgY2FwYWJpbGl0eSA9IGRvbWFpblRhcmdldHMudmFsdWU7CiAgICByZXR1cm4gdmFsaWRhdGVERE5TRG9tYWluVGFyZ2V0cyhkb21haW4sIHsKICAgICAgY2FwYWJpbGl0eSwKICAgICAgcm9vdERvbWFpbjogY2FwYWJpbGl0eT8ucm9vdEZpZWxkCiAgICAgICAgPyBjb25maWcudmFsdWVbY2FwYWJpbGl0eS5yb290RmllbGRdCiAgICAgICAgOiB1bmRlZmluZWQsCiAgICB9KTsKICB9OwoKICBjb25zdCBub3JtYWxpemVGb3JTdWJtaXQgPSAoKSA9PiB7CiAgICBub3JtYWxpemVEb21haW4oKTsKICAgIHJldHVybiB2YWxpZGF0ZURvbWFpbigpOwogIH07CgogIGNvbnN0IGZvcm1hdE9uQmx1ciA9IG5vcm1hbGl6ZURvbWFpbjsKCiAgY29uc3QgZ2V0RmllbGREZXNjcmlwdGlvbiA9IChmaWVsZDogUHJvdmlkZXJGaWVsZCkgPT4gewogICAgY29uc3QgZGVzY3JpcHRpb24gPSBmaWVsZC5kZXNjcmlwdGlvbj8udHJpbSgpIHx8ICIiOwogICAgaWYgKGZpZWxkLmtleSAhPT0gImRvbWFpbiIpIHsKICAgICAgcmV0dXJuIGRlc2NyaXB0aW9uOwogICAgfQoKICAgIGNvbnN0IHBhcnRzID0gW2Rlc2NyaXB0aW9uXTsKICAgIGlmICh0b1ZhbHVlKGluY2x1ZGVXaWxkY2FyZEhpbnQpICYmICFzdXBwb3J0c1dpbGRjYXJkUm9vdFBhaXIudmFsdWUpIHsKICAgICAgcGFydHMucHVzaCh0cmFuc2xhdGUoImFkbWluLmRkbnMud2lsZGNhcmRIaW50IikpOwogICAgfQogICAgcGFydHMucHVzaCgKICAgICAgdHJhbnNsYXRlKAogICAgICAgIHN1cHBvcnRzV2lsZGNhcmRSb290UGFpci52YWx1ZQogICAgICAgICAgPyAiYWRtaW4uZGRucy5kb21haW5UYXJnZXRzUGFpckhpbnQiCiAgICAgICAgICA6ICJhZG1pbi5kZG5zLmRvbWFpblRhcmdldHNTaW5nbGVIaW50IiwKICAgICAgKSwKICAgICk7CgogICAgcmV0dXJuIFsuLi5uZXcgU2V0KHBhcnRzLm1hcCgocGFydCkgPT4gcGFydC50cmltKCkpLmZpbHRlcihCb29sZWFuKSldLmpvaW4oCiAgICAgICIgIiwKICAgICk7CiAgfTsKCiAgcmV0dXJuIHsKICAgIGRvbWFpblRhcmdldHMsCiAgICBmb3JtYXRPbkJsdXIsCiAgICBnZXRGaWVsZERlc2NyaXB0aW9uLAogICAgbm9ybWFsaXplRm9yU3VibWl0LAogICAgcHJvdmlkZXJEZWYsCiAgICBzdXBwb3J0c1dpbGRjYXJkUm9vdFBhaXIsCiAgICB2YWxpZGF0ZURvbWFpbiwKICB9Owp9Owo=
+import { computed, toValue, type MaybeRefOrGetter, type Ref } from "vue";
+import {
+  normalizeDDNSDomainTargetInput,
+  validateDDNSDomainTargets,
+  type DDNSDomainTargetParseResult,
+} from "@/lib/ddns-domain";
+import { findProviderDef, type Provider, type ProviderField } from "./model";
+
+type Translate = (key: string, params?: Record<string, unknown>) => string;
+
+export const useDDNSDomainField = ({
+  config,
+  includeWildcardHint = false,
+  providerName,
+  providers,
+  translate,
+}: {
+  config: Ref<Record<string, string>>;
+  includeWildcardHint?: MaybeRefOrGetter<boolean>;
+  providerName: MaybeRefOrGetter<string>;
+  providers: Ref<Provider[]>;
+  translate: Translate;
+}) => {
+  const providerDef = computed(() =>
+    findProviderDef(providers.value, toValue(providerName)),
+  );
+
+  const domainTargets = computed(
+    () => providerDef.value?.capabilities?.domainTargets,
+  );
+
+  const hasDomainField = computed(() =>
+    providerDef.value?.fields.some((field) => field.key === "domain"),
+  );
+
+  const supportsWildcardRootPair = computed(
+    () => domainTargets.value?.mode === "single_or_wildcard_root_pair",
+  );
+
+  const normalizeDomain = () => {
+    if (
+      !hasDomainField.value &&
+      !Object.prototype.hasOwnProperty.call(config.value, "domain")
+    ) {
+      return;
+    }
+
+    const domain = normalizeDDNSDomainTargetInput(config.value.domain);
+    if (domain !== (config.value.domain ?? "")) {
+      config.value = { ...config.value, domain };
+    }
+  };
+
+  const validateDomain = (): DDNSDomainTargetParseResult | null => {
+    if (!hasDomainField.value) {
+      return null;
+    }
+
+    const domain = config.value.domain ?? "";
+    if (!domain || /^\p{White_Space}*$/u.test(domain)) {
+      return null;
+    }
+
+    const capability = domainTargets.value;
+    return validateDDNSDomainTargets(domain, {
+      capability,
+      rootDomain: capability?.rootField
+        ? config.value[capability.rootField]
+        : undefined,
+    });
+  };
+
+  const normalizeForSubmit = () => {
+    normalizeDomain();
+    return validateDomain();
+  };
+
+  const formatOnBlur = normalizeDomain;
+
+  const getFieldDescription = (field: ProviderField) => {
+    const description = field.description?.trim() || "";
+    if (field.key !== "domain") {
+      return description;
+    }
+
+    const parts = [description];
+    if (toValue(includeWildcardHint) && !supportsWildcardRootPair.value) {
+      parts.push(translate("admin.ddns.wildcardHint"));
+    }
+    parts.push(
+      translate(
+        supportsWildcardRootPair.value
+          ? "admin.ddns.domainTargetsPairHint"
+          : "admin.ddns.domainTargetsSingleHint",
+      ),
+    );
+
+    return [...new Set(parts.map((part) => part.trim()).filter(Boolean))].join(
+      " ",
+    );
+  };
+
+  return {
+    domainTargets,
+    formatOnBlur,
+    getFieldDescription,
+    normalizeForSubmit,
+    providerDef,
+    supportsWildcardRootPair,
+    validateDomain,
+  };
+};

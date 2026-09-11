@@ -1,1 +1,173 @@
-Ly8hIEdsb2JhbCBXZWIgVGVybWluYWwgZmVhdHVyZSBzd2l0Y2gsIGluZGVwZW5kZW50IG9mIFNTSCB0YXJnZXQgY3JlZGVudGlhbHMuCnVzZSBzdGQ6OnN5bmM6OkFyYzsKCnVzZSBheHVtOjp7ZXh0cmFjdDo6RnJvbVJlcXVlc3RQYXJ0cywgaHR0cDo6cmVxdWVzdDo6UGFydHMsIHJlc3BvbnNlOjpSZXNwb25zZX07CnVzZSBzZXJkZTo6e0Rlc2VyaWFsaXplLCBTZXJpYWxpemV9Owp1c2UgdG9raW86OnN5bmM6OntPd25lZFJ3TG9ja1JlYWRHdWFyZCwgUndMb2NrfTsKdXNlIHV0b2lwYTo6VG9TY2hlbWE7CnVzZSB1dWlkOjpVdWlkOwoKdXNlIHN1cGVyOjp7CiAgICBkb21haW46OntUZXJtaW5hbEVycm9yLCBUZXJtaW5hbEVycm9yQ29kZSwgVGVybWluYWxSZXN1bHR9LAogICAgaHR0cDo6dGVybWluYWxfZXJyb3IsCn07CnVzZSBjcmF0ZTo6c3RhdGU6OkFwcFN0YXRlOwoKY29uc3QgU0VUVElOR1NfS0VZOiAmc3RyID0gImZuX2tub2NrOnRlcm1pbmFsOmZlYXR1cmUtc2V0dGluZ3MtdjIiOwoKI1tkZXJpdmUoRGVmYXVsdCldCnB1YihzdXBlcikgc3RydWN0IEFjY2Vzc1J1bnRpbWUgewogICAgcHViIHBvbGljeTogQXJjPFJ3TG9jazwoKT4+LAp9CgojW2Rlcml2ZShDbG9uZSwgU2VyaWFsaXplLCBEZXNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIgc3RydWN0IFdlYlRlcm1pbmFsU2V0dGluZ3MgewogICAgcHViIGVuYWJsZWQ6IGJvb2wsCiAgICBwdWIgcmV2aXNpb246IFN0cmluZywKfQoKaW1wbCBEZWZhdWx0IGZvciBXZWJUZXJtaW5hbFNldHRpbmdzIHsKICAgIGZuIGRlZmF1bHQoKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsKICAgICAgICAgICAgZW5hYmxlZDogdHJ1ZSwKICAgICAgICAgICAgcmV2aXNpb246ICJpbml0aWFsIi5pbnRvKCksCiAgICAgICAgfQogICAgfQp9CgojW2Rlcml2ZShEZXNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIgc3RydWN0IFdlYlRlcm1pbmFsU2V0dGluZ3NJbnB1dCB7CiAgICBwdWIgZW5hYmxlZDogYm9vbCwKICAgIHB1YiByZXZpc2lvbjogU3RyaW5nLAp9CgpmbiBpbnRlcm5hbChlcnJvcjogaW1wbCBzdGQ6OmZtdDo6RGlzcGxheSkgLT4gVGVybWluYWxFcnJvciB7CiAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJ0ZXJtaW5hbCBmZWF0dXJlIHN0b3JhZ2Ugb3BlcmF0aW9uIGZhaWxlZCIpOwogICAgVGVybWluYWxFcnJvcjo6aW50ZXJuYWwoInRlcm1pbmFsIGZlYXR1cmUgb3BlcmF0aW9uIGZhaWxlZCIpCn0KCnB1YiBhc3luYyBmbiBzZXR0aW5ncyhzdGF0ZTogJkFwcFN0YXRlKSAtPiBUZXJtaW5hbFJlc3VsdDxXZWJUZXJtaW5hbFNldHRpbmdzPiB7CiAgICBsZXQgdmFsdWUgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmdldF9qc29uX3ZhbHVlKFNFVFRJTkdTX0tFWSkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2VycihpbnRlcm5hbCk/OwogICAgLy8gVW5rbm93biBsZWdhY3kgcGFzc3dvcmQgZmllbGRzIGFyZSBkZWxpYmVyYXRlbHkgaWdub3JlZCwgaW5jbHVkaW5nIGludmFsaWQKICAgIC8vIG9sZCBoYXNoZXM6IHRoZXkgbXVzdCBuZXZlciBwcmV2ZW50IHVzZSBvZiBhbiBlbmFibGVkIHRlcm1pbmFsLgogICAgbGV0IHNldHRpbmdzID0gbWF0Y2ggdmFsdWUgewogICAgICAgIFNvbWUodmFsdWUpID0+IHNlcmRlX2pzb246OmZyb21fdmFsdWU6OjxXZWJUZXJtaW5hbFNldHRpbmdzPih2YWx1ZSkubWFwX2VycihpbnRlcm5hbCk/LAogICAgICAgIE5vbmUgPT4gV2ViVGVybWluYWxTZXR0aW5nczo6ZGVmYXVsdCgpLAogICAgfTsKICAgIGlmIHNldHRpbmdzLnJldmlzaW9uLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBFcnIoVGVybWluYWxFcnJvcjo6aW50ZXJuYWwoCiAgICAgICAgICAgICJ0ZXJtaW5hbCBmZWF0dXJlIHNldHRpbmdzIGFyZSBpbnZhbGlkIiwKICAgICAgICApKTsKICAgIH0KICAgIE9rKHNldHRpbmdzKQp9CgpwdWIgYXN5bmMgZm4gdXBkYXRlKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGlucHV0OiBXZWJUZXJtaW5hbFNldHRpbmdzSW5wdXQsCikgLT4gVGVybWluYWxSZXN1bHQ8V2ViVGVybWluYWxTZXR0aW5ncz4gewogICAgLy8gT25jZSBhY2NlcHRlZCwgcGVyc2lzdGVuY2UgYW5kIHJ1bnRpbWUgY2xlYW51cCBoYXZlIG9uZSBhcHBsaWNhdGlvbi1vd25lZAogICAgLy8gbGlmZXRpbWUuIERyb3BwaW5nIHRoZSBIVFRQIHJlc3BvbnNlIG11c3Qgbm90IGludGVycnVwdCBhIGRpc2FibGUgb3BlcmF0aW9uLgogICAgbGV0IGd1YXJkID0gc3RhdGUudGVybWluYWwuYWNjZXNzLnBvbGljeS5jbG9uZSgpLndyaXRlX293bmVkKCkuYXdhaXQ7CiAgICBsZXQgdGFza19zdGF0ZSA9IHN0YXRlLmNsb25lKCk7CiAgICBsZXQgKHNlbmRlciwgcmVjZWl2ZXIpID0gdG9raW86OnN5bmM6Om9uZXNob3Q6OmNoYW5uZWwoKTsKICAgIHN0YXRlLnNwYXduX2JhY2tncm91bmQoInRlcm1pbmFsLWZlYXR1cmUtdXBkYXRlIiwgYXN5bmMgbW92ZSB7CiAgICAgICAgbGV0IF9ndWFyZCA9IGd1YXJkOwogICAgICAgIGxldCByZXN1bHQgPSB1cGRhdGVfbG9ja2VkKCZ0YXNrX3N0YXRlLCBpbnB1dCkuYXdhaXQ7CiAgICAgICAgbGV0IF8gPSBzZW5kZXIuc2VuZChyZXN1bHQpOwogICAgfSk7CiAgICByZWNlaXZlci5hd2FpdC5tYXBfZXJyKGludGVybmFsKT8KfQoKYXN5bmMgZm4gdXBkYXRlX2xvY2tlZCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBpbnB1dDogV2ViVGVybWluYWxTZXR0aW5nc0lucHV0LAopIC0+IFRlcm1pbmFsUmVzdWx0PFdlYlRlcm1pbmFsU2V0dGluZ3M+IHsKICAgIGxldCBtdXQgdmFsdWUgPSBzZXR0aW5ncyhzdGF0ZSkuYXdhaXQ/OwogICAgaWYgaW5wdXQucmV2aXNpb24gIT0gdmFsdWUucmV2aXNpb24gewogICAgICAgIHJldHVybiBFcnIoVGVybWluYWxFcnJvcjo6bmV3KAogICAgICAgICAgICBUZXJtaW5hbEVycm9yQ29kZTo6Q29uZmxpY3QsCiAgICAgICAgICAgICJ0ZXJtaW5hbCBzZXR0aW5ncyBjaGFuZ2VkOyByZWZyZXNoIGFuZCByZXRyeSIsCiAgICAgICAgKSk7CiAgICB9CiAgICBpZiB2YWx1ZS5lbmFibGVkICE9IGlucHV0LmVuYWJsZWQgewogICAgICAgIHZhbHVlLnJldmlzaW9uID0gVXVpZDo6bmV3X3Y0KCkudG9fc3RyaW5nKCk7CiAgICB9CiAgICB2YWx1ZS5lbmFibGVkID0gaW5wdXQuZW5hYmxlZDsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2V0X2pzb25fdmFsdWUoCiAgICAgICAgICAgIFNFVFRJTkdTX0tFWSwKICAgICAgICAgICAgJnNlcmRlX2pzb246OnRvX3ZhbHVlKCZ2YWx1ZSkubWFwX2VycihpbnRlcm5hbCk/LAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2VycihpbnRlcm5hbCk/OwogICAgaWYgIXZhbHVlLmVuYWJsZWQgewogICAgICAgIHN0YXRlLnRlcm1pbmFsLnNodXRkb3duX2FsbCgpLmF3YWl0OwogICAgfQogICAgT2sodmFsdWUpCn0KCi8vLyBSZW1vdmUgcmV0aXJlZCBjcmVkZW50aWFscyB3aGlsZSByZXRhaW5pbmcgdGhlIHNhdmVkIHN3aXRjaCBhbmQgcmV2aXNpb24uCi8vLyBNYWludGVuYW5jZSByZXRyaWVzIHRoaXMgYWZ0ZXIgc3RvcmFnZSBmYWlsdXJlcyBhbmQgYWxzbyBoYW5kbGVzIG9sZCBiYWNrdXBzLgpwdWIoc3VwZXIpIGFzeW5jIGZuIGNsZWFudXBfcmV0aXJlZF9wYXNzd29yZChzdGF0ZTogJkFwcFN0YXRlKSAtPiBUZXJtaW5hbFJlc3VsdDwoKT4gewogICAgaWYgbGV0IFNvbWUocmF3KSA9IHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZ2V0X2pzb25fdmFsdWUoU0VUVElOR1NfS0VZKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKGludGVybmFsKT8KICAgICAgICAmJiByYXcuZ2V0KCJwYXNzd29yZCIpLmlzX3NvbWUoKQogICAgewogICAgICAgIGxldCBfZ3VhcmQgPSBzdGF0ZS50ZXJtaW5hbC5hY2Nlc3MucG9saWN5LndyaXRlKCkuYXdhaXQ7CiAgICAgICAgbGV0IHZhbHVlID0gc2V0dGluZ3Moc3RhdGUpLmF3YWl0PzsKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnNldF9qc29uX3ZhbHVlKAogICAgICAgICAgICAgICAgU0VUVElOR1NfS0VZLAogICAgICAgICAgICAgICAgJnNlcmRlX2pzb246OnRvX3ZhbHVlKHZhbHVlKS5tYXBfZXJyKGludGVybmFsKT8sCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKGludGVybmFsKT87CiAgICB9CiAgICBsZXQgZ3JhbnRzID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5zY2FuX2tleXMoImZuX2tub2NrOnRlcm1pbmFsOmFjY2Vzcy1ncmFudDoiLCAyMDApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIoaW50ZXJuYWwpPzsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZGVsZXRlX2tleXMoJmdyYW50cykKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2VycihpbnRlcm5hbCkKfQoKLy8vIEhlbGQgdW50aWwgdGhlIGhhbmRsZXIgcmV0dXJucywgaW5jbHVkaW5nIG91dHB1dCBwb2xscyBhbmQgY29ubmVjdGlvbiBjcmVhdGlvbi4KcHViKHN1cGVyKSBzdHJ1Y3QgVGVybWluYWxBY2Nlc3MgewogICAgX2d1YXJkOiBPd25lZFJ3TG9ja1JlYWRHdWFyZDwoKT4sCn0KaW1wbCBGcm9tUmVxdWVzdFBhcnRzPEFwcFN0YXRlPiBmb3IgVGVybWluYWxBY2Nlc3MgewogICAgdHlwZSBSZWplY3Rpb24gPSBSZXNwb25zZTsKICAgIGFzeW5jIGZuIGZyb21fcmVxdWVzdF9wYXJ0cyhfcGFydHM6ICZtdXQgUGFydHMsIHN0YXRlOiAmQXBwU3RhdGUpIC0+IFJlc3VsdDxTZWxmLCBSZXNwb25zZT4gewogICAgICAgIGxldCBndWFyZCA9IHN0YXRlLnRlcm1pbmFsLmFjY2Vzcy5wb2xpY3kuY2xvbmUoKS5yZWFkX293bmVkKCkuYXdhaXQ7CiAgICAgICAgaWYgIXNldHRpbmdzKHN0YXRlKS5hd2FpdC5tYXBfZXJyKHRlcm1pbmFsX2Vycm9yKT8uZW5hYmxlZCB7CiAgICAgICAgICAgIHJldHVybiBFcnIodGVybWluYWxfZXJyb3IoVGVybWluYWxFcnJvcjo6bmV3KAogICAgICAgICAgICAgICAgVGVybWluYWxFcnJvckNvZGU6OkZlYXR1cmVEaXNhYmxlZCwKICAgICAgICAgICAgICAgICJ3ZWIgdGVybWluYWwgaXMgZGlzYWJsZWQiLAogICAgICAgICAgICApKSk7CiAgICAgICAgfQogICAgICAgIE9rKFNlbGYgeyBfZ3VhcmQ6IGd1YXJkIH0pCiAgICB9Cn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHM7Cg==
+//! Global Web Terminal feature switch, independent of SSH target credentials.
+use std::sync::Arc;
+
+use axum::{extract::FromRequestParts, http::request::Parts, response::Response};
+use serde::{Deserialize, Serialize};
+use tokio::sync::{OwnedRwLockReadGuard, RwLock};
+use utoipa::ToSchema;
+use uuid::Uuid;
+
+use super::{
+    domain::{TerminalError, TerminalErrorCode, TerminalResult},
+    http::terminal_error,
+};
+use crate::state::AppState;
+
+const SETTINGS_KEY: &str = "fn_knock:terminal:feature-settings-v2";
+
+#[derive(Default)]
+pub(super) struct AccessRuntime {
+    pub policy: Arc<RwLock<()>>,
+}
+
+#[derive(Clone, Serialize, Deserialize, ToSchema)]
+pub struct WebTerminalSettings {
+    pub enabled: bool,
+    pub revision: String,
+}
+
+impl Default for WebTerminalSettings {
+    fn default() -> Self {
+        Self {
+            enabled: true,
+            revision: "initial".into(),
+        }
+    }
+}
+
+#[derive(Deserialize, ToSchema)]
+pub struct WebTerminalSettingsInput {
+    pub enabled: bool,
+    pub revision: String,
+}
+
+fn internal(error: impl std::fmt::Display) -> TerminalError {
+    tracing::warn!(%error, "terminal feature storage operation failed");
+    TerminalError::internal("terminal feature operation failed")
+}
+
+pub async fn settings(state: &AppState) -> TerminalResult<WebTerminalSettings> {
+    let value = state
+        .storage
+        .store
+        .get_json_value(SETTINGS_KEY)
+        .await
+        .map_err(internal)?;
+    // Unknown legacy password fields are deliberately ignored, including invalid
+    // old hashes: they must never prevent use of an enabled terminal.
+    let settings = match value {
+        Some(value) => serde_json::from_value::<WebTerminalSettings>(value).map_err(internal)?,
+        None => WebTerminalSettings::default(),
+    };
+    if settings.revision.is_empty() {
+        return Err(TerminalError::internal(
+            "terminal feature settings are invalid",
+        ));
+    }
+    Ok(settings)
+}
+
+pub async fn update(
+    state: &AppState,
+    input: WebTerminalSettingsInput,
+) -> TerminalResult<WebTerminalSettings> {
+    // Once accepted, persistence and runtime cleanup have one application-owned
+    // lifetime. Dropping the HTTP response must not interrupt a disable operation.
+    let guard = state.terminal.access.policy.clone().write_owned().await;
+    let task_state = state.clone();
+    let (sender, receiver) = tokio::sync::oneshot::channel();
+    state.spawn_background("terminal-feature-update", async move {
+        let _guard = guard;
+        let result = update_locked(&task_state, input).await;
+        let _ = sender.send(result);
+    });
+    receiver.await.map_err(internal)?
+}
+
+async fn update_locked(
+    state: &AppState,
+    input: WebTerminalSettingsInput,
+) -> TerminalResult<WebTerminalSettings> {
+    let mut value = settings(state).await?;
+    if input.revision != value.revision {
+        return Err(TerminalError::new(
+            TerminalErrorCode::Conflict,
+            "terminal settings changed; refresh and retry",
+        ));
+    }
+    if value.enabled != input.enabled {
+        value.revision = Uuid::new_v4().to_string();
+    }
+    value.enabled = input.enabled;
+    state
+        .storage
+        .store
+        .set_json_value(
+            SETTINGS_KEY,
+            &serde_json::to_value(&value).map_err(internal)?,
+        )
+        .await
+        .map_err(internal)?;
+    if !value.enabled {
+        state.terminal.shutdown_all().await;
+    }
+    Ok(value)
+}
+
+/// Remove retired credentials while retaining the saved switch and revision.
+/// Maintenance retries this after storage failures and also handles old backups.
+pub(super) async fn cleanup_retired_password(state: &AppState) -> TerminalResult<()> {
+    if let Some(raw) = state
+        .storage
+        .store
+        .get_json_value(SETTINGS_KEY)
+        .await
+        .map_err(internal)?
+        && raw.get("password").is_some()
+    {
+        let _guard = state.terminal.access.policy.write().await;
+        let value = settings(state).await?;
+        state
+            .storage
+            .store
+            .set_json_value(
+                SETTINGS_KEY,
+                &serde_json::to_value(value).map_err(internal)?,
+            )
+            .await
+            .map_err(internal)?;
+    }
+    let grants = state
+        .storage
+        .store
+        .scan_keys("fn_knock:terminal:access-grant:", 200)
+        .await
+        .map_err(internal)?;
+    state
+        .storage
+        .store
+        .delete_keys(&grants)
+        .await
+        .map_err(internal)
+}
+
+/// Held until the handler returns, including output polls and connection creation.
+pub(super) struct TerminalAccess {
+    _guard: OwnedRwLockReadGuard<()>,
+}
+impl FromRequestParts<AppState> for TerminalAccess {
+    type Rejection = Response;
+    async fn from_request_parts(_parts: &mut Parts, state: &AppState) -> Result<Self, Response> {
+        let guard = state.terminal.access.policy.clone().read_owned().await;
+        if !settings(state).await.map_err(terminal_error)?.enabled {
+            return Err(terminal_error(TerminalError::new(
+                TerminalErrorCode::FeatureDisabled,
+                "web terminal is disabled",
+            )));
+        }
+        Ok(Self { _guard: guard })
+    }
+}
+
+#[cfg(test)]
+mod tests;

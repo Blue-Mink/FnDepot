@@ -1,1 +1,49 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgVGFic0xpc3RQcm9wcyB9IGZyb20gInJla2EtdWkiOwppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgcmVhY3RpdmVPbWl0IH0gZnJvbSAiQHZ1ZXVzZS9jb3JlIjsKaW1wb3J0IHsKICBUYWJzSW5kaWNhdG9yIGFzIFJla2FUYWJzSW5kaWNhdG9yUHJpbWl0aXZlLAogIFRhYnNMaXN0IGFzIFJla2FUYWJzTGlzdFByaW1pdGl2ZSwKICB1c2VGb3J3YXJkUHJvcHMsCn0gZnJvbSAicmVrYS11aSI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczwKICBUYWJzTGlzdFByb3BzICYgewogICAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXTsKICAgIGluZGljYXRvckNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl07CiAgfQo+KCk7Cgpjb25zdCBkZWxlZ2F0ZWRQcm9wcyA9IHJlYWN0aXZlT21pdChwcm9wcywgImNsYXNzIiwgImluZGljYXRvckNsYXNzIik7CmNvbnN0IGZvcndhcmRlZFByb3BzID0gdXNlRm9yd2FyZFByb3BzKGRlbGVnYXRlZFByb3BzKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFJla2FUYWJzTGlzdFByaW1pdGl2ZQogICAgZGF0YS1zbG90PSJyZWthLXRhYnMtbGlzdCIKICAgIHYtYmluZD0iZm9yd2FyZGVkUHJvcHMiCiAgICA6Y2xhc3M9IgogICAgICBjbigKICAgICAgICAncmVsYXRpdmUgaW5saW5lLWZsZXggbWF4LXctZnVsbCBpdGVtcy1zdHJldGNoIG92ZXJmbG93LXgtYXV0byBbc2Nyb2xsYmFyLXdpZHRoOm5vbmVdIFstbXMtb3ZlcmZsb3ctc3R5bGU6bm9uZV0gWyY6Oi13ZWJraXQtc2Nyb2xsYmFyXTpoaWRkZW4gcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlci84MCBiZy1iYWNrZ3JvdW5kIHB4LTMgcHQtMCBzaGFkb3ctbm9uZSBhZnRlcjpwb2ludGVyLWV2ZW50cy1ub25lIGFmdGVyOmFic29sdXRlIGFmdGVyOnJpZ2h0LTMgYWZ0ZXI6Ym90dG9tLTAgYWZ0ZXI6bGVmdC0zIGFmdGVyOmgtcHggYWZ0ZXI6YmctYm9yZGVyLzgwJywKICAgICAgICBwcm9wcy5jbGFzcywKICAgICAgKQogICAgIgogID4KICAgIDxSZWthVGFic0luZGljYXRvclByaW1pdGl2ZQogICAgICBkYXRhLXNsb3Q9InJla2EtdGFicy1pbmRpY2F0b3IiCiAgICAgIDpjbGFzcz0iCiAgICAgICAgY24oCiAgICAgICAgICAnYWJzb2x1dGUgYm90dG9tLTAgbGVmdC0wIHotMCBoLTAuNSByb3VuZGVkLWZ1bGwgYmctZW1lcmFsZC01MDAgdHJhbnNpdGlvbi1bd2lkdGgsdHJhbnNmb3JtXSBkdXJhdGlvbi0zMDAgZWFzZS1vdXQnLAogICAgICAgICAgcHJvcHMuaW5kaWNhdG9yQ2xhc3MsCiAgICAgICAgKQogICAgICAiCiAgICAgIDpzdHlsZT0iewogICAgICAgIHdpZHRoOiAndmFyKC0tcmVrYS10YWJzLWluZGljYXRvci1zaXplKScsCiAgICAgICAgdHJhbnNmb3JtOiAndHJhbnNsYXRlWCh2YXIoLS1yZWthLXRhYnMtaW5kaWNhdG9yLXBvc2l0aW9uKSknLAogICAgICB9IgogICAgLz4KICAgIDxzbG90IC8+CiAgPC9SZWthVGFic0xpc3RQcmltaXRpdmU+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { TabsListProps } from "reka-ui";
+import type { HTMLAttributes } from "vue";
+import { reactiveOmit } from "@vueuse/core";
+import {
+  TabsIndicator as RekaTabsIndicatorPrimitive,
+  TabsList as RekaTabsListPrimitive,
+  useForwardProps,
+} from "reka-ui";
+import { cn } from "@/lib/utils";
+
+const props = defineProps<
+  TabsListProps & {
+    class?: HTMLAttributes["class"];
+    indicatorClass?: HTMLAttributes["class"];
+  }
+>();
+
+const delegatedProps = reactiveOmit(props, "class", "indicatorClass");
+const forwardedProps = useForwardProps(delegatedProps);
+</script>
+
+<template>
+  <RekaTabsListPrimitive
+    data-slot="reka-tabs-list"
+    v-bind="forwardedProps"
+    :class="
+      cn(
+        'relative inline-flex max-w-full items-stretch overflow-x-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden rounded-lg border border-border/80 bg-background px-3 pt-0 shadow-none after:pointer-events-none after:absolute after:right-3 after:bottom-0 after:left-3 after:h-px after:bg-border/80',
+        props.class,
+      )
+    "
+  >
+    <RekaTabsIndicatorPrimitive
+      data-slot="reka-tabs-indicator"
+      :class="
+        cn(
+          'absolute bottom-0 left-0 z-0 h-0.5 rounded-full bg-emerald-500 transition-[width,transform] duration-300 ease-out',
+          props.indicatorClass,
+        )
+      "
+      :style="{
+        width: 'var(--reka-tabs-indicator-size)',
+        transform: 'translateX(var(--reka-tabs-indicator-position))',
+      }"
+    />
+    <slot />
+  </RekaTabsListPrimitive>
+</template>

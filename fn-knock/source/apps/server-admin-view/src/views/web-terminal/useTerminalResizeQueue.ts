@@ -1,1 +1,118 @@
-aW1wb3J0IHR5cGUgeyBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgdHlwZSB7IFRlcm1pbmFsQXR0YWNobWVudFJlY29yZCB9IGZyb20gIkAvbGliL2FwaS90ZXJtaW5hbCI7CmltcG9ydCB7IFJFU0laRV9CQVRDSF9XSU5ET1dfTVMgfSBmcm9tICIuL3Rlcm1pbmFsLXJ1bnRpbWUiOwppbXBvcnQgeyBidWlsZFRlcm1pbmFsU2l6ZUtleSB9IGZyb20gIi4vdGVybWluYWwtaW5wdXQiOwppbXBvcnQgeyBub3JtYWxpemVUZXJtaW5hbERpbWVuc2lvbnMgfSBmcm9tICIuL3Rlcm1pbmFsLWRpbWVuc2lvbnMiOwoKdHlwZSBUZXJtaW5hbFNpemVTb3VyY2UgPSB7CiAgY29sczogbnVtYmVyOwogIHJvd3M6IG51bWJlcjsKfTsKCmV4cG9ydCBjb25zdCB1c2VUZXJtaW5hbFJlc2l6ZVF1ZXVlID0gKHsKICBhY3RpdmVBdHRhY2htZW50LAogIGdldFRlcm1pbmFsLAogIG9uUmVzaXplU3luY2VkLAogIHJlc2l6ZUF0dGFjaG1lbnQsCn06IHsKICBhY3RpdmVBdHRhY2htZW50OiBSZWY8VGVybWluYWxBdHRhY2htZW50UmVjb3JkIHwgbnVsbD47CiAgZ2V0VGVybWluYWw6ICgpID0+IFRlcm1pbmFsU2l6ZVNvdXJjZSB8IG51bGw7CiAgcmVzaXplQXR0YWNobWVudDogKAogICAgYXR0YWNobWVudElkOiBzdHJpbmcsCiAgICBjb2xzOiBudW1iZXIsCiAgICByb3dzOiBudW1iZXIsCiAgKSA9PiBQcm9taXNlPHZvaWQ+OwogIG9uUmVzaXplU3luY2VkOiAoc2Vzc2lvbklkOiBzdHJpbmcsIGNvbHM6IG51bWJlciwgcm93czogbnVtYmVyKSA9PiB2b2lkOwp9KSA9PiB7CiAgbGV0IHJlc2l6ZVRpbWVyOiBudW1iZXIgfCBudWxsID0gbnVsbDsKICBsZXQgcGVuZGluZ1Jlc2l6ZVRhcmdldDogVGVybWluYWxTaXplU291cmNlIHwgbnVsbCA9IG51bGw7CiAgbGV0IGxhc3RTeW5jZWRSZXNpemVLZXkgPSAiIjsKICBsZXQgbGFzdFJlcXVlc3RlZFJlc2l6ZUtleSA9ICIiOwogIGxldCByZXNpemVTZW5kUXVldWU6IFByb21pc2U8dm9pZD4gPSBQcm9taXNlLnJlc29sdmUoKTsKCiAgY29uc3QgbWFya1N5bmNlZFJlc2l6ZSA9IChzZXNzaW9uSWQ6IHN0cmluZywgY29sczogbnVtYmVyLCByb3dzOiBudW1iZXIpID0+IHsKICAgIGxhc3RTeW5jZWRSZXNpemVLZXkgPSBidWlsZFRlcm1pbmFsU2l6ZUtleShjb2xzLCByb3dzKTsKICAgIGxhc3RSZXF1ZXN0ZWRSZXNpemVLZXkgPSBsYXN0U3luY2VkUmVzaXplS2V5OwogICAgb25SZXNpemVTeW5jZWQoc2Vzc2lvbklkLCBjb2xzLCByb3dzKTsKICB9OwoKICBjb25zdCByZXNldFJlc2l6ZVN0YXRlID0gKCkgPT4gewogICAgaWYgKHJlc2l6ZVRpbWVyKSB7CiAgICAgIHdpbmRvdy5jbGVhclRpbWVvdXQocmVzaXplVGltZXIpOwogICAgICByZXNpemVUaW1lciA9IG51bGw7CiAgICB9CiAgICBwZW5kaW5nUmVzaXplVGFyZ2V0ID0gbnVsbDsKICAgIGxhc3RTeW5jZWRSZXNpemVLZXkgPSAiIjsKICAgIGxhc3RSZXF1ZXN0ZWRSZXNpemVLZXkgPSAiIjsKICAgIHJlc2l6ZVNlbmRRdWV1ZSA9IFByb21pc2UucmVzb2x2ZSgpOwogIH07CgogIGNvbnN0IGZsdXNoUGVuZGluZ1Jlc2l6ZSA9IGFzeW5jICgpID0+IHsKICAgIGlmIChyZXNpemVUaW1lcikgewogICAgICB3aW5kb3cuY2xlYXJUaW1lb3V0KHJlc2l6ZVRpbWVyKTsKICAgICAgcmVzaXplVGltZXIgPSBudWxsOwogICAgfQoKICAgIGNvbnN0IGF0dGFjaG1lbnQgPSBhY3RpdmVBdHRhY2htZW50LnZhbHVlOwogICAgY29uc3QgbmV4dFRhcmdldCA9IHBlbmRpbmdSZXNpemVUYXJnZXQ7CiAgICBpZiAoIWF0dGFjaG1lbnQgfHwgIW5leHRUYXJnZXQpIHJldHVybjsKCiAgICBjb25zdCByZXNpemVLZXkgPSBidWlsZFRlcm1pbmFsU2l6ZUtleShuZXh0VGFyZ2V0LmNvbHMsIG5leHRUYXJnZXQucm93cyk7CiAgICBpZiAoCiAgICAgIHJlc2l6ZUtleSA9PT0gbGFzdFN5bmNlZFJlc2l6ZUtleSB8fAogICAgICByZXNpemVLZXkgPT09IGxhc3RSZXF1ZXN0ZWRSZXNpemVLZXkKICAgICkgewogICAgICBwZW5kaW5nUmVzaXplVGFyZ2V0ID0gbnVsbDsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIHBlbmRpbmdSZXNpemVUYXJnZXQgPSBudWxsOwogICAgbGFzdFJlcXVlc3RlZFJlc2l6ZUtleSA9IHJlc2l6ZUtleTsKCiAgICByZXNpemVTZW5kUXVldWUgPSByZXNpemVTZW5kUXVldWUKICAgICAgLmNhdGNoKCgpID0+IHVuZGVmaW5lZCkKICAgICAgLnRoZW4oYXN5bmMgKCkgPT4gewogICAgICAgIGlmIChhY3RpdmVBdHRhY2htZW50LnZhbHVlPy5pZCAhPT0gYXR0YWNobWVudC5pZCkgcmV0dXJuOwogICAgICAgIGF3YWl0IHJlc2l6ZUF0dGFjaG1lbnQoYXR0YWNobWVudC5pZCwgbmV4dFRhcmdldC5jb2xzLCBuZXh0VGFyZ2V0LnJvd3MpOwogICAgICAgIGlmIChhY3RpdmVBdHRhY2htZW50LnZhbHVlPy5pZCAhPT0gYXR0YWNobWVudC5pZCkgcmV0dXJuOwogICAgICAgIG1hcmtTeW5jZWRSZXNpemUoCiAgICAgICAgICBhdHRhY2htZW50LnNlc3Npb25JZCwKICAgICAgICAgIG5leHRUYXJnZXQuY29scywKICAgICAgICAgIG5leHRUYXJnZXQucm93cywKICAgICAgICApOwogICAgICB9KQogICAgICAuY2F0Y2goKCkgPT4gewogICAgICAgIGlmIChhY3RpdmVBdHRhY2htZW50LnZhbHVlPy5pZCAhPT0gYXR0YWNobWVudC5pZCkgcmV0dXJuOwogICAgICAgIGxhc3RSZXF1ZXN0ZWRSZXNpemVLZXkgPSBsYXN0U3luY2VkUmVzaXplS2V5OwogICAgICB9KTsKCiAgICBhd2FpdCByZXNpemVTZW5kUXVldWU7CiAgfTsKCiAgY29uc3Qgc2NoZWR1bGVSZXNpemUgPSAoKSA9PiB7CiAgICBjb25zdCB0ZXJtaW5hbCA9IGdldFRlcm1pbmFsKCk7CiAgICBpZiAoIXRlcm1pbmFsIHx8ICFhY3RpdmVBdHRhY2htZW50LnZhbHVlKSByZXR1cm47CgogICAgY29uc3QgbmV4dFRhcmdldCA9IG5vcm1hbGl6ZVRlcm1pbmFsRGltZW5zaW9ucyh0ZXJtaW5hbCk7CiAgICBjb25zdCByZXNpemVLZXkgPSBidWlsZFRlcm1pbmFsU2l6ZUtleShuZXh0VGFyZ2V0LmNvbHMsIG5leHRUYXJnZXQucm93cyk7CiAgICBpZiAoCiAgICAgIHJlc2l6ZUtleSA9PT0gbGFzdFN5bmNlZFJlc2l6ZUtleSB8fAogICAgICByZXNpemVLZXkgPT09IGxhc3RSZXF1ZXN0ZWRSZXNpemVLZXkKICAgICkgewogICAgICByZXR1cm47CiAgICB9CgogICAgcGVuZGluZ1Jlc2l6ZVRhcmdldCA9IG5leHRUYXJnZXQ7CiAgICBpZiAocmVzaXplVGltZXIpIHdpbmRvdy5jbGVhclRpbWVvdXQocmVzaXplVGltZXIpOwogICAgcmVzaXplVGltZXIgPSB3aW5kb3cuc2V0VGltZW91dCgoKSA9PiB7CiAgICAgIHZvaWQgZmx1c2hQZW5kaW5nUmVzaXplKCk7CiAgICB9LCBSRVNJWkVfQkFUQ0hfV0lORE9XX01TKTsKICB9OwoKICByZXR1cm4gewogICAgZmx1c2hQZW5kaW5nUmVzaXplLAogICAgbWFya1N5bmNlZFJlc2l6ZSwKICAgIHJlc2V0UmVzaXplU3RhdGUsCiAgICBzY2hlZHVsZVJlc2l6ZSwKICB9Owp9Owo=
+import type { Ref } from "vue";
+import type { TerminalAttachmentRecord } from "@/lib/api/terminal";
+import { RESIZE_BATCH_WINDOW_MS } from "./terminal-runtime";
+import { buildTerminalSizeKey } from "./terminal-input";
+import { normalizeTerminalDimensions } from "./terminal-dimensions";
+
+type TerminalSizeSource = {
+  cols: number;
+  rows: number;
+};
+
+export const useTerminalResizeQueue = ({
+  activeAttachment,
+  getTerminal,
+  onResizeSynced,
+  resizeAttachment,
+}: {
+  activeAttachment: Ref<TerminalAttachmentRecord | null>;
+  getTerminal: () => TerminalSizeSource | null;
+  resizeAttachment: (
+    attachmentId: string,
+    cols: number,
+    rows: number,
+  ) => Promise<void>;
+  onResizeSynced: (sessionId: string, cols: number, rows: number) => void;
+}) => {
+  let resizeTimer: number | null = null;
+  let pendingResizeTarget: TerminalSizeSource | null = null;
+  let lastSyncedResizeKey = "";
+  let lastRequestedResizeKey = "";
+  let resizeSendQueue: Promise<void> = Promise.resolve();
+
+  const markSyncedResize = (sessionId: string, cols: number, rows: number) => {
+    lastSyncedResizeKey = buildTerminalSizeKey(cols, rows);
+    lastRequestedResizeKey = lastSyncedResizeKey;
+    onResizeSynced(sessionId, cols, rows);
+  };
+
+  const resetResizeState = () => {
+    if (resizeTimer) {
+      window.clearTimeout(resizeTimer);
+      resizeTimer = null;
+    }
+    pendingResizeTarget = null;
+    lastSyncedResizeKey = "";
+    lastRequestedResizeKey = "";
+    resizeSendQueue = Promise.resolve();
+  };
+
+  const flushPendingResize = async () => {
+    if (resizeTimer) {
+      window.clearTimeout(resizeTimer);
+      resizeTimer = null;
+    }
+
+    const attachment = activeAttachment.value;
+    const nextTarget = pendingResizeTarget;
+    if (!attachment || !nextTarget) return;
+
+    const resizeKey = buildTerminalSizeKey(nextTarget.cols, nextTarget.rows);
+    if (
+      resizeKey === lastSyncedResizeKey ||
+      resizeKey === lastRequestedResizeKey
+    ) {
+      pendingResizeTarget = null;
+      return;
+    }
+
+    pendingResizeTarget = null;
+    lastRequestedResizeKey = resizeKey;
+
+    resizeSendQueue = resizeSendQueue
+      .catch(() => undefined)
+      .then(async () => {
+        if (activeAttachment.value?.id !== attachment.id) return;
+        await resizeAttachment(attachment.id, nextTarget.cols, nextTarget.rows);
+        if (activeAttachment.value?.id !== attachment.id) return;
+        markSyncedResize(
+          attachment.sessionId,
+          nextTarget.cols,
+          nextTarget.rows,
+        );
+      })
+      .catch(() => {
+        if (activeAttachment.value?.id !== attachment.id) return;
+        lastRequestedResizeKey = lastSyncedResizeKey;
+      });
+
+    await resizeSendQueue;
+  };
+
+  const scheduleResize = () => {
+    const terminal = getTerminal();
+    if (!terminal || !activeAttachment.value) return;
+
+    const nextTarget = normalizeTerminalDimensions(terminal);
+    const resizeKey = buildTerminalSizeKey(nextTarget.cols, nextTarget.rows);
+    if (
+      resizeKey === lastSyncedResizeKey ||
+      resizeKey === lastRequestedResizeKey
+    ) {
+      return;
+    }
+
+    pendingResizeTarget = nextTarget;
+    if (resizeTimer) window.clearTimeout(resizeTimer);
+    resizeTimer = window.setTimeout(() => {
+      void flushPendingResize();
+    }, RESIZE_BATCH_WINDOW_MS);
+  };
+
+  return {
+    flushPendingResize,
+    markSyncedResize,
+    resetResizeState,
+    scheduleResize,
+  };
+};

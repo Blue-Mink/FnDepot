@@ -1,1 +1,257 @@
-aW1wb3J0IHsgRE9NV3JhcHBlciwgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBuZXh0VGljayB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IGNyZWF0ZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IGFmdGVyRWFjaCwgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgdHlwZSB7IE5vdGlmaWNhdGlvblByb3ZpZGVyRGVmaW5pdGlvbiB9IGZyb20gIi4uL3NyYy90eXBlcyI7CmltcG9ydCBQcm92aWRlckVkaXRvckRpYWxvZyBmcm9tICIuLi9zcmMvdmlld3MvZXZlbnQtY2VudGVyL25vdGlmaWNhdGlvbnMvUHJvdmlkZXJFZGl0b3JEaWFsb2cudnVlIjsKaW1wb3J0IFdlYmhvb2tIZWFkZXJzRWRpdG9yIGZyb20gIi4uL3NyYy92aWV3cy9ldmVudC1jZW50ZXIvbm90aWZpY2F0aW9ucy9XZWJob29rSGVhZGVyc0VkaXRvci52dWUiOwppbXBvcnQgewogIGJ1aWxkU2NoZW1hUGF5bG9hZCwKICBjcmVhdGVFZGl0YWJsZVNjaGVtYVJlY29yZCwKfSBmcm9tICIuLi9zcmMvdmlld3MvZXZlbnQtY2VudGVyL25vdGlmaWNhdGlvbnMvZm9ybS11dGlscyI7Cgpjb25zdCBpMThuID0gY3JlYXRlSTE4bih7CiAgbGVnYWN5OiBmYWxzZSwKICBsb2NhbGU6ICJlbiIsCiAgbWlzc2luZ1dhcm46IGZhbHNlLAogIG1lc3NhZ2VzOiB7CiAgICBlbjogewogICAgICBjb21tb246IHsgY2FuY2VsOiAiQ2FuY2VsIiwgc2F2ZTogIlNhdmUiIH0sCiAgICAgIGFkbWluOiB7CiAgICAgICAgbm90aWZpY2F0aW9uczogewogICAgICAgICAgc2NoZW1hOiB7CiAgICAgICAgICAgIGVuYWJsZWQ6ICJFbmFibGVkIiwKICAgICAgICAgICAgZGlzYWJsZWQ6ICJEaXNhYmxlZCIsCiAgICAgICAgICAgIHNlbnNpdGl2ZUNvbmZpZ3VyZWQ6ICJDb25maWd1cmVkIiwKICAgICAgICAgIH0sCiAgICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICAgIGVtcHR5OiAiTm8gY3VzdG9tIHJlcXVlc3QgaGVhZGVycyBjb25maWd1cmVkLiIsCiAgICAgICAgICAgIG5hbWU6ICJIZWFkZXIgbmFtZSIsCiAgICAgICAgICAgIHZhbHVlOiAiSGVhZGVyIHZhbHVlIiwKICAgICAgICAgICAgbmFtZVBsYWNlaG9sZGVyOiAiQXV0aG9yaXphdGlvbiIsCiAgICAgICAgICAgIHZhbHVlUGxhY2Vob2xkZXI6ICJCZWFyZXIgdG9rZW4iLAogICAgICAgICAgICBhZGQ6ICJBZGQgaGVhZGVyIiwKICAgICAgICAgICAgcmVtb3ZlOiAiUmVtb3ZlIGhlYWRlciIsCiAgICAgICAgICAgIG1pZ3JhdGlvblRpdGxlOiAiTGVnYWN5IHJ1bGUgaGVhZGVycyBhcmUgc3RpbGwgaW4gdXNlIiwKICAgICAgICAgICAgbWlncmF0aW9uRGVzY3JpcHRpb246CiAgICAgICAgICAgICAgIlJlLWVudGVyIGV4aXN0aW5nIHJ1bGUgaGVhZGVycyBoZXJlIGJlZm9yZSBzYXZpbmcuIiwKICAgICAgICAgICAgZXJyb3JzOiB7CiAgICAgICAgICAgICAgdG9vTWFueTogIlRvbyBtYW55IGhlYWRlcnMgKHttYXh9KSIsCiAgICAgICAgICAgICAgbmFtZVJlcXVpcmVkOiAiSGVhZGVyIG5hbWUgcmVxdWlyZWQiLAogICAgICAgICAgICAgIG5hbWVUb29Mb25nOiAiSGVhZGVyIHtuYW1lfSBuYW1lIHRvbyBsb25nICh7bWF4fSkiLAogICAgICAgICAgICAgIGludmFsaWROYW1lOiAiSW52YWxpZCBoZWFkZXIgbmFtZSB7bmFtZX0iLAogICAgICAgICAgICAgIHJlc2VydmVkTmFtZTogIlJlc2VydmVkIGhlYWRlciB7bmFtZX0iLAogICAgICAgICAgICAgIGR1cGxpY2F0ZU5hbWU6ICJEdXBsaWNhdGUgaGVhZGVyIHtuYW1lfSIsCiAgICAgICAgICAgICAgdmFsdWVUb29Mb25nOiAiSGVhZGVyIHtuYW1lfSB2YWx1ZSB0b28gbG9uZyAoe21heH0pIiwKICAgICAgICAgICAgICBpbnZhbGlkVmFsdWU6ICJJbnZhbGlkIGhlYWRlciB2YWx1ZSB7bmFtZX0iLAogICAgICAgICAgICAgIHRvdGFsVG9vTGFyZ2U6ICJIZWFkZXJzIHRvbyBsYXJnZSAoe21heH0pIiwKICAgICAgICAgICAgfSwKICAgICAgICAgIH0sCiAgICAgICAgICBwcm92aWRlcnM6IHsKICAgICAgICAgICAgY3JlYXRlRGlhbG9nVGl0bGU6ICJDcmVhdGUgcHJvdmlkZXIiLAogICAgICAgICAgICBlZGl0RGlhbG9nVGl0bGU6ICJFZGl0IHByb3ZpZGVyIiwKICAgICAgICAgICAgZGlhbG9nRGVzY3JpcHRpb246ICJDb25maWd1cmUgcHJvdmlkZXIiLAogICAgICAgICAgICBuYW1lOiAiTmFtZSIsCiAgICAgICAgICAgIHByb3ZpZGVyVHlwZTogIlByb3ZpZGVyIHR5cGUiLAogICAgICAgICAgICBzZWxlY3RQcm92aWRlclR5cGU6ICJTZWxlY3QgcHJvdmlkZXIgdHlwZSIsCiAgICAgICAgICAgIGNyZWF0ZU5hbWVIZWxwOiAiRGVmYXVsdDoge25hbWV9IiwKICAgICAgICAgICAgZWRpdE5hbWVIZWxwOiAiRWRpdCB0aGUgcHJvdmlkZXIiLAogICAgICAgICAgICBlbmFibGVkU3RhdHVzOiAiRW5hYmxlZCIsCiAgICAgICAgICAgIGNvbm5lY3Rpb25Db25maWc6ICJDb25uZWN0aW9uIGNvbmZpZyIsCiAgICAgICAgICAgIHRlc3RQcm92aWRlcjogIlRlc3QgcHJvdmlkZXIiLAogICAgICAgICAgfSwKICAgICAgICB9LAogICAgICB9LAogICAgfSwKICB9LAp9KTsKCmNvbnN0IGN1c3RvbUhlYWRlckZpZWxkID0gewogIGtleTogImN1c3RvbV9oZWFkZXJzIiwKICBsYWJlbDogIkN1c3RvbSBoZWFkZXJzIiwKICB0eXBlOiAiaGVhZGVycyIgYXMgY29uc3QsCiAgc2Vuc2l0aXZlOiB0cnVlLAogIGNvbnN0cmFpbnRzOiB7CiAgICBtYXhfaXRlbXM6IDMyLAogICAgbWF4X25hbWVfYnl0ZXM6IDEyOCwKICAgIG1heF92YWx1ZV9ieXRlczogODE5MiwKICAgIG1heF90b3RhbF9ieXRlczogMTYzODQsCiAgICByZXNlcnZlZF9uYW1lczogWyJob3N0IiwgImNvbnRlbnQtdHlwZSIsICJ4LWZuLWtub2NrLXNpZ25hdHVyZSJdLAogIH0sCn07CgphZnRlckVhY2goKCkgPT4gewogIGRvY3VtZW50LmJvZHkucmVwbGFjZUNoaWxkcmVuKCk7Cn0pOwoKZGVzY3JpYmUoIldlYmhvb2tIZWFkZXJzRWRpdG9yIiwgKCkgPT4gewogIGl0KCJhZGRzLCBlZGl0cywgcmVtb3ZlcywgYW5kIHByZXNlcnZlcyBvcmRlcmVkIHBsYWludGV4dCByb3dzIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KFdlYmhvb2tIZWFkZXJzRWRpdG9yLCB7CiAgICAgIHByb3BzOiB7IG1vZGVsVmFsdWU6IFtdLCBjb25zdHJhaW50czogY3VzdG9tSGVhZGVyRmllbGQuY29uc3RyYWludHMgfSwKICAgICAgZ2xvYmFsOiB7IHBsdWdpbnM6IFtpMThuXSB9LAogICAgfSk7CgogICAgZXhwZWN0KHdyYXBwZXIudGV4dCgpKS50b0NvbnRhaW4oIk5vIGN1c3RvbSByZXF1ZXN0IGhlYWRlcnMgY29uZmlndXJlZC4iKTsKICAgIGF3YWl0IHdyYXBwZXIuZ2V0KCJidXR0b24iKS50cmlnZ2VyKCJjbGljayIpOwogICAgZXhwZWN0KHdyYXBwZXIuZW1pdHRlZCgidXBkYXRlOm1vZGVsVmFsdWUiKT8uYXQoLTEpKS50b0VxdWFsKFsKICAgICAgW3sgbmFtZTogIiIsIHZhbHVlOiAiIiB9XSwKICAgIF0pOwoKICAgIGF3YWl0IHdyYXBwZXIuc2V0UHJvcHMoewogICAgICBtb2RlbFZhbHVlOiBbCiAgICAgICAgeyBuYW1lOiAiQXV0aG9yaXphdGlvbiIsIHZhbHVlOiAiQmVhcmVyIG9uZSIgfSwKICAgICAgICB7IG5hbWU6ICJYLUFQSS1LZXkiLCB2YWx1ZTogInR3byIgfSwKICAgICAgXSwKICAgIH0pOwogICAgY29uc3QgaW5wdXRzID0gd3JhcHBlci5maW5kQWxsKCJpbnB1dCIpOwogICAgZXhwZWN0KGlucHV0cy5tYXAoKGlucHV0KSA9PiBpbnB1dC5lbGVtZW50LnR5cGUpKS50b0VxdWFsKFsKICAgICAgInRleHQiLAogICAgICAidGV4dCIsCiAgICAgICJ0ZXh0IiwKICAgICAgInRleHQiLAogICAgXSk7CiAgICBleHBlY3QoaW5wdXRzLm1hcCgoaW5wdXQpID0+IGlucHV0LmVsZW1lbnQudmFsdWUpKS50b0VxdWFsKFsKICAgICAgIkF1dGhvcml6YXRpb24iLAogICAgICAiQmVhcmVyIG9uZSIsCiAgICAgICJYLUFQSS1LZXkiLAogICAgICAidHdvIiwKICAgIF0pOwoKICAgIGF3YWl0IGlucHV0c1szXSEuc2V0VmFsdWUoInVwZGF0ZWQiKTsKICAgIGV4cGVjdCh3cmFwcGVyLmVtaXR0ZWQoInVwZGF0ZTptb2RlbFZhbHVlIik/LmF0KC0xKSkudG9FcXVhbChbCiAgICAgIFsKICAgICAgICB7IG5hbWU6ICJBdXRob3JpemF0aW9uIiwgdmFsdWU6ICJCZWFyZXIgb25lIiB9LAogICAgICAgIHsgbmFtZTogIlgtQVBJLUtleSIsIHZhbHVlOiAidXBkYXRlZCIgfSwKICAgICAgXSwKICAgIF0pOwoKICAgIGF3YWl0IHdyYXBwZXIKICAgICAgLmZpbmRBbGwoJ2J1dHRvblthcmlhLWxhYmVsPSJSZW1vdmUgaGVhZGVyIl0nKVswXSEKICAgICAgLnRyaWdnZXIoImNsaWNrIik7CiAgICBleHBlY3Qod3JhcHBlci5lbWl0dGVkKCJ1cGRhdGU6bW9kZWxWYWx1ZSIpPy5hdCgtMSkpLnRvRXF1YWwoWwogICAgICBbeyBuYW1lOiAiWC1BUEktS2V5IiwgdmFsdWU6ICJ0d28iIH1dLAogICAgXSk7CiAgfSk7CgogIGl0KCJzaG93cyBpbmxpbmUgdmFsaWRhdGlvbiBmb3IgZW1wdHksIGR1cGxpY2F0ZSwgcmVzZXJ2ZWQsIGFuZCBpbmplY3RlZCBoZWFkZXJzIiwgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KFdlYmhvb2tIZWFkZXJzRWRpdG9yLCB7CiAgICAgIHByb3BzOiB7CiAgICAgICAgY29uc3RyYWludHM6IGN1c3RvbUhlYWRlckZpZWxkLmNvbnN0cmFpbnRzLAogICAgICAgIG1vZGVsVmFsdWU6IFsKICAgICAgICAgIHsgbmFtZTogIiIsIHZhbHVlOiAiIiB9LAogICAgICAgICAgeyBuYW1lOiAiSG9zdCIsIHZhbHVlOiAiZXhhbXBsZS5jb20iIH0sCiAgICAgICAgICB7IG5hbWU6ICJob3N0IiwgdmFsdWU6ICJkdXBsaWNhdGUiIH0sCiAgICAgICAgICB7IG5hbWU6ICJYLVRva2VuIiwgdmFsdWU6ICJsaW5lXHJcbmJyZWFrIiB9LAogICAgICAgICAgeyBuYW1lOiAiWC1UYWIiLCB2YWx1ZTogIlx0dHJpbS1ieXBhc3MiIH0sCiAgICAgICAgICB7IG5hbWU6ICJYLUNvbnRyb2wiLCB2YWx1ZTogImNvbnRyb2xcdTAwODUiIH0sCiAgICAgICAgICB7IG5hbWU6ICJcdFgtTmFtZSIsIHZhbHVlOiAidmFsdWUiIH0sCiAgICAgICAgXSwKICAgICAgfSwKICAgICAgZ2xvYmFsOiB7IHBsdWdpbnM6IFtpMThuXSB9LAogICAgfSk7CgogICAgZXhwZWN0KHdyYXBwZXIudGV4dCgpKS50b0NvbnRhaW4oIkhlYWRlciBuYW1lIHJlcXVpcmVkIik7CiAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLnRvQ29udGFpbigiUmVzZXJ2ZWQgaGVhZGVyIEhvc3QiKTsKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKCJEdXBsaWNhdGUgaGVhZGVyIGhvc3QiKTsKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKCJJbnZhbGlkIGhlYWRlciB2YWx1ZSBYLVRva2VuIik7CiAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLnRvQ29udGFpbigiSW52YWxpZCBoZWFkZXIgdmFsdWUgWC1UYWIiKTsKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKCJJbnZhbGlkIGhlYWRlciB2YWx1ZSBYLUNvbnRyb2wiKTsKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKCJJbnZhbGlkIGhlYWRlciBuYW1lIFgtTmFtZSIpOwogICAgZXhwZWN0KHdyYXBwZXIuZmluZEFsbCgnW3JvbGU9ImFsZXJ0Il0nKSkubm90LnRvSGF2ZUxlbmd0aCgwKTsKICAgIGNvbnN0IGlucHV0cyA9IHdyYXBwZXIuZmluZEFsbCgiaW5wdXQiKTsKICAgIGV4cGVjdChpbnB1dHNbMF0hLmF0dHJpYnV0ZXMoImFyaWEtaW52YWxpZCIpKS50b0JlKCJ0cnVlIik7CiAgICBleHBlY3QoaW5wdXRzWzFdIS5hdHRyaWJ1dGVzKCJhcmlhLWludmFsaWQiKSkudG9CZSgiZmFsc2UiKTsKICAgIGV4cGVjdChpbnB1dHNbNl0hLmF0dHJpYnV0ZXMoImFyaWEtaW52YWxpZCIpKS50b0JlKCJmYWxzZSIpOwogICAgZXhwZWN0KGlucHV0c1s3XSEuYXR0cmlidXRlcygiYXJpYS1pbnZhbGlkIikpLnRvQmUoInRydWUiKTsKICAgIGV4cGVjdChpbnB1dHNbN10hLmF0dHJpYnV0ZXMoImFyaWEtZGVzY3JpYmVkYnkiKSkudG9CZVRydXRoeSgpOwogIH0pOwoKICBpdCgicm91bmQtdHJpcHMgZGV0YWlsIHZhbHVlcyBhbmQgYnVpbGRzIHRoZSBub3JtYWxpemVkIHByb3ZpZGVyIHBheWxvYWQiLCAoKSA9PiB7CiAgICBjb25zdCBlZGl0YWJsZSA9IGNyZWF0ZUVkaXRhYmxlU2NoZW1hUmVjb3JkKFtjdXN0b21IZWFkZXJGaWVsZF0sIHsKICAgICAgY3VzdG9tX2hlYWRlcnM6IFsKICAgICAgICB7IG5hbWU6ICIgQXV0aG9yaXphdGlvbiAiLCB2YWx1ZTogIiBCZWFyZXIgdG9rZW4gIiB9LAogICAgICAgIHsgbmFtZTogIlgtRW1wdHkiLCB2YWx1ZTogIiIgfSwKICAgICAgXSwKICAgIH0pOwogICAgZXhwZWN0KGVkaXRhYmxlLmN1c3RvbV9oZWFkZXJzKS50b0VxdWFsKFsKICAgICAgeyBuYW1lOiAiIEF1dGhvcml6YXRpb24gIiwgdmFsdWU6ICIgQmVhcmVyIHRva2VuICIgfSwKICAgICAgeyBuYW1lOiAiWC1FbXB0eSIsIHZhbHVlOiAiIiB9LAogICAgXSk7CiAgICBleHBlY3QoCiAgICAgIGJ1aWxkU2NoZW1hUGF5bG9hZCh7CiAgICAgICAgZmllbGRzOiBbY3VzdG9tSGVhZGVyRmllbGRdLAogICAgICAgIHZhbHVlOiBlZGl0YWJsZSwKICAgICAgICBlZGl0aW5nOiB0cnVlLAogICAgICAgIGNvbmZpZ3VyZWRTZW5zaXRpdmVGaWVsZHM6IFsiY3VzdG9tX2hlYWRlcnMiXSwKICAgICAgfSksCiAgICApLnRvRXF1YWwoewogICAgICBjdXN0b21faGVhZGVyczogWwogICAgICAgIHsgbmFtZTogIkF1dGhvcml6YXRpb24iLCB2YWx1ZTogIkJlYXJlciB0b2tlbiIgfSwKICAgICAgICB7IG5hbWU6ICJYLUVtcHR5IiwgdmFsdWU6ICIiIH0sCiAgICAgIF0sCiAgICB9KTsKICB9KTsKfSk7CgpkZXNjcmliZSgiUHJvdmlkZXJFZGl0b3JEaWFsb2cgd2ViaG9vayBoZWFkZXJzIiwgKCkgPT4gewogIGl0KCJzaG93cyB0aGUgbWlncmF0aW9uIG5vdGljZSBhbmQgZGlzYWJsZXMgYm90aCBzYXZlIGFuZCB0ZXN0IHdoaWxlIGludmFsaWQiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBkZWZpbml0aW9uID0gewogICAgICB0eXBlOiAid2ViaG9vayIsCiAgICAgIGxhYmVsOiAiV2ViaG9vayIsCiAgICAgIGRlc2NyaXB0aW9uOiAiV2ViaG9vayIsCiAgICAgIGNvbm5lY3Rpb25fc2NoZW1hOiBbY3VzdG9tSGVhZGVyRmllbGRdLAogICAgICB0YXJnZXRfc2NoZW1hOiBbXSwKICAgICAgc2Vuc2l0aXZlX2ZpZWxkczogWyJjdXN0b21faGVhZGVycyJdLAogICAgICBjYXBhYmlsaXRpZXM6IHsKICAgICAgICBzdXBwb3J0c190ZXh0OiB0cnVlLAogICAgICAgIHN1cHBvcnRzX21hcmtkb3duOiB0cnVlLAogICAgICAgIHN1cHBvcnRzX3JpY2hfYmxvY2tzOiBmYWxzZSwKICAgICAgICBzdXBwb3J0c19hY3Rpb25zOiB0cnVlLAogICAgICAgIHN1cHBvcnRzX21lbnRpb25zOiB0cnVlLAogICAgICAgIHN1cHBvcnRzX2F0dGFjaG1lbnRzOiBmYWxzZSwKICAgICAgICBzdXBwb3J0c19wcm92aWRlcl9kZWR1cGVfa2V5OiB0cnVlLAogICAgICB9LAogICAgfSBzYXRpc2ZpZXMgTm90aWZpY2F0aW9uUHJvdmlkZXJEZWZpbml0aW9uOwogICAgbW91bnQoUHJvdmlkZXJFZGl0b3JEaWFsb2csIHsKICAgICAgcHJvcHM6IHsKICAgICAgICBjYXRhbG9nOiBbZGVmaW5pdGlvbl0sCiAgICAgICAgY29ubmVjdGlvbkNvbmZpZ0ludmFsaWQ6IHRydWUsCiAgICAgICAgY29uZmlndXJlZFNlbnNpdGl2ZUZpZWxkczogW10sCiAgICAgICAgZm9ybTogewogICAgICAgICAgbmFtZTogIldlYmhvb2sgMSIsCiAgICAgICAgICB0eXBlOiAid2ViaG9vayIsCiAgICAgICAgICBlbmFibGVkOiB0cnVlLAogICAgICAgICAgY29ubmVjdGlvbl9jb25maWc6IHsKICAgICAgICAgICAgY3VzdG9tX2hlYWRlcnM6IFt7IG5hbWU6ICIiLCB2YWx1ZTogIiIgfV0sCiAgICAgICAgICB9LAogICAgICAgIH0sCiAgICAgICAgZ2VuZXJhdGVkUHJvdmlkZXJOYW1lOiAiV2ViaG9vayAxIiwKICAgICAgICBtb2RlOiAiZWRpdCIsCiAgICAgICAgb3BlbjogdHJ1ZSwKICAgICAgICBzYXZpbmc6IGZhbHNlLAogICAgICAgIHNlbGVjdGVkRGVmaW5pdGlvbjogZGVmaW5pdGlvbiwKICAgICAgICBzaG93TGVnYWN5V2ViaG9va0hlYWRlck1pZ3JhdGlvbjogdHJ1ZSwKICAgICAgICBzaG93V3hQdXNoZXJBbGVydDogZmFsc2UsCiAgICAgICAgdGVzdGluZ0RyYWZ0OiBmYWxzZSwKICAgICAgfSwKICAgICAgZ2xvYmFsOiB7IHBsdWdpbnM6IFtpMThuXSB9LAogICAgfSk7CiAgICBhd2FpdCBuZXh0VGljaygpOwoKICAgIGV4cGVjdChkb2N1bWVudC5ib2R5LnRleHRDb250ZW50KS50b0NvbnRhaW4oCiAgICAgICJMZWdhY3kgcnVsZSBoZWFkZXJzIGFyZSBzdGlsbCBpbiB1c2UiLAogICAgKTsKICAgIGNvbnN0IGRpYWxvZ0NvbnRlbnQgPSBkb2N1bWVudC5ib2R5LnF1ZXJ5U2VsZWN0b3IoCiAgICAgICdbZGF0YS1zbG90PSJkaWFsb2ctY29udGVudCJdJywKICAgICk7CiAgICBleHBlY3QoZGlhbG9nQ29udGVudD8uY2xhc3NMaXN0KS50b0NvbnRhaW4oInNtOm1heC13LVs5NjBweF0iKTsKICAgIGV4cGVjdChkaWFsb2dDb250ZW50Py5jbGFzc0xpc3QpLnRvQ29udGFpbigib3ZlcmZsb3cteC1oaWRkZW4iKTsKICAgIGZvciAoY29uc3QgbGFiZWwgb2YgWyJUZXN0IHByb3ZpZGVyIiwgIlNhdmUiXSkgewogICAgICBjb25zdCBidXR0b24gPSBbLi4uZG9jdW1lbnQuYm9keS5xdWVyeVNlbGVjdG9yQWxsKCJidXR0b24iKV0uZmluZCgKICAgICAgICAoY2FuZGlkYXRlKSA9PiBjYW5kaWRhdGUudGV4dENvbnRlbnQ/LnRyaW0oKSA9PT0gbGFiZWwsCiAgICAgICk7CiAgICAgIGV4cGVjdChidXR0b24sIGBtaXNzaW5nICR7bGFiZWx9IGJ1dHRvbmApLnRvQmVEZWZpbmVkKCk7CiAgICAgIGV4cGVjdChuZXcgRE9NV3JhcHBlcihidXR0b24hKS5hdHRyaWJ1dGVzKCJkaXNhYmxlZCIpKS50b0JlRGVmaW5lZCgpOwogICAgfQogIH0pOwp9KTsK
+import { DOMWrapper, mount } from "@vue/test-utils";
+import { nextTick } from "vue";
+import { createI18n } from "vue-i18n";
+import { afterEach, describe, expect, it } from "vitest";
+import type { NotificationProviderDefinition } from "../src/types";
+import ProviderEditorDialog from "../src/views/event-center/notifications/ProviderEditorDialog.vue";
+import WebhookHeadersEditor from "../src/views/event-center/notifications/WebhookHeadersEditor.vue";
+import {
+  buildSchemaPayload,
+  createEditableSchemaRecord,
+} from "../src/views/event-center/notifications/form-utils";
+
+const i18n = createI18n({
+  legacy: false,
+  locale: "en",
+  missingWarn: false,
+  messages: {
+    en: {
+      common: { cancel: "Cancel", save: "Save" },
+      admin: {
+        notifications: {
+          schema: {
+            enabled: "Enabled",
+            disabled: "Disabled",
+            sensitiveConfigured: "Configured",
+          },
+          headers: {
+            empty: "No custom request headers configured.",
+            name: "Header name",
+            value: "Header value",
+            namePlaceholder: "Authorization",
+            valuePlaceholder: "Bearer token",
+            add: "Add header",
+            remove: "Remove header",
+            migrationTitle: "Legacy rule headers are still in use",
+            migrationDescription:
+              "Re-enter existing rule headers here before saving.",
+            errors: {
+              tooMany: "Too many headers ({max})",
+              nameRequired: "Header name required",
+              nameTooLong: "Header {name} name too long ({max})",
+              invalidName: "Invalid header name {name}",
+              reservedName: "Reserved header {name}",
+              duplicateName: "Duplicate header {name}",
+              valueTooLong: "Header {name} value too long ({max})",
+              invalidValue: "Invalid header value {name}",
+              totalTooLarge: "Headers too large ({max})",
+            },
+          },
+          providers: {
+            createDialogTitle: "Create provider",
+            editDialogTitle: "Edit provider",
+            dialogDescription: "Configure provider",
+            name: "Name",
+            providerType: "Provider type",
+            selectProviderType: "Select provider type",
+            createNameHelp: "Default: {name}",
+            editNameHelp: "Edit the provider",
+            enabledStatus: "Enabled",
+            connectionConfig: "Connection config",
+            testProvider: "Test provider",
+          },
+        },
+      },
+    },
+  },
+});
+
+const customHeaderField = {
+  key: "custom_headers",
+  label: "Custom headers",
+  type: "headers" as const,
+  sensitive: true,
+  constraints: {
+    max_items: 32,
+    max_name_bytes: 128,
+    max_value_bytes: 8192,
+    max_total_bytes: 16384,
+    reserved_names: ["host", "content-type", "x-fn-knock-signature"],
+  },
+};
+
+afterEach(() => {
+  document.body.replaceChildren();
+});
+
+describe("WebhookHeadersEditor", () => {
+  it("adds, edits, removes, and preserves ordered plaintext rows", async () => {
+    const wrapper = mount(WebhookHeadersEditor, {
+      props: { modelValue: [], constraints: customHeaderField.constraints },
+      global: { plugins: [i18n] },
+    });
+
+    expect(wrapper.text()).toContain("No custom request headers configured.");
+    await wrapper.get("button").trigger("click");
+    expect(wrapper.emitted("update:modelValue")?.at(-1)).toEqual([
+      [{ name: "", value: "" }],
+    ]);
+
+    await wrapper.setProps({
+      modelValue: [
+        { name: "Authorization", value: "Bearer one" },
+        { name: "X-API-Key", value: "two" },
+      ],
+    });
+    const inputs = wrapper.findAll("input");
+    expect(inputs.map((input) => input.element.type)).toEqual([
+      "text",
+      "text",
+      "text",
+      "text",
+    ]);
+    expect(inputs.map((input) => input.element.value)).toEqual([
+      "Authorization",
+      "Bearer one",
+      "X-API-Key",
+      "two",
+    ]);
+
+    await inputs[3]!.setValue("updated");
+    expect(wrapper.emitted("update:modelValue")?.at(-1)).toEqual([
+      [
+        { name: "Authorization", value: "Bearer one" },
+        { name: "X-API-Key", value: "updated" },
+      ],
+    ]);
+
+    await wrapper
+      .findAll('button[aria-label="Remove header"]')[0]!
+      .trigger("click");
+    expect(wrapper.emitted("update:modelValue")?.at(-1)).toEqual([
+      [{ name: "X-API-Key", value: "two" }],
+    ]);
+  });
+
+  it("shows inline validation for empty, duplicate, reserved, and injected headers", () => {
+    const wrapper = mount(WebhookHeadersEditor, {
+      props: {
+        constraints: customHeaderField.constraints,
+        modelValue: [
+          { name: "", value: "" },
+          { name: "Host", value: "example.com" },
+          { name: "host", value: "duplicate" },
+          { name: "X-Token", value: "line\r\nbreak" },
+          { name: "X-Tab", value: "\ttrim-bypass" },
+          { name: "X-Control", value: "control\u0085" },
+          { name: "\tX-Name", value: "value" },
+        ],
+      },
+      global: { plugins: [i18n] },
+    });
+
+    expect(wrapper.text()).toContain("Header name required");
+    expect(wrapper.text()).toContain("Reserved header Host");
+    expect(wrapper.text()).toContain("Duplicate header host");
+    expect(wrapper.text()).toContain("Invalid header value X-Token");
+    expect(wrapper.text()).toContain("Invalid header value X-Tab");
+    expect(wrapper.text()).toContain("Invalid header value X-Control");
+    expect(wrapper.text()).toContain("Invalid header name X-Name");
+    expect(wrapper.findAll('[role="alert"]')).not.toHaveLength(0);
+    const inputs = wrapper.findAll("input");
+    expect(inputs[0]!.attributes("aria-invalid")).toBe("true");
+    expect(inputs[1]!.attributes("aria-invalid")).toBe("false");
+    expect(inputs[6]!.attributes("aria-invalid")).toBe("false");
+    expect(inputs[7]!.attributes("aria-invalid")).toBe("true");
+    expect(inputs[7]!.attributes("aria-describedby")).toBeTruthy();
+  });
+
+  it("round-trips detail values and builds the normalized provider payload", () => {
+    const editable = createEditableSchemaRecord([customHeaderField], {
+      custom_headers: [
+        { name: " Authorization ", value: " Bearer token " },
+        { name: "X-Empty", value: "" },
+      ],
+    });
+    expect(editable.custom_headers).toEqual([
+      { name: " Authorization ", value: " Bearer token " },
+      { name: "X-Empty", value: "" },
+    ]);
+    expect(
+      buildSchemaPayload({
+        fields: [customHeaderField],
+        value: editable,
+        editing: true,
+        configuredSensitiveFields: ["custom_headers"],
+      }),
+    ).toEqual({
+      custom_headers: [
+        { name: "Authorization", value: "Bearer token" },
+        { name: "X-Empty", value: "" },
+      ],
+    });
+  });
+});
+
+describe("ProviderEditorDialog webhook headers", () => {
+  it("shows the migration notice and disables both save and test while invalid", async () => {
+    const definition = {
+      type: "webhook",
+      label: "Webhook",
+      description: "Webhook",
+      connection_schema: [customHeaderField],
+      target_schema: [],
+      sensitive_fields: ["custom_headers"],
+      capabilities: {
+        supports_text: true,
+        supports_markdown: true,
+        supports_rich_blocks: false,
+        supports_actions: true,
+        supports_mentions: true,
+        supports_attachments: false,
+        supports_provider_dedupe_key: true,
+      },
+    } satisfies NotificationProviderDefinition;
+    mount(ProviderEditorDialog, {
+      props: {
+        catalog: [definition],
+        connectionConfigInvalid: true,
+        configuredSensitiveFields: [],
+        form: {
+          name: "Webhook 1",
+          type: "webhook",
+          enabled: true,
+          connection_config: {
+            custom_headers: [{ name: "", value: "" }],
+          },
+        },
+        generatedProviderName: "Webhook 1",
+        mode: "edit",
+        open: true,
+        saving: false,
+        selectedDefinition: definition,
+        showLegacyWebhookHeaderMigration: true,
+        showWxPusherAlert: false,
+        testingDraft: false,
+      },
+      global: { plugins: [i18n] },
+    });
+    await nextTick();
+
+    expect(document.body.textContent).toContain(
+      "Legacy rule headers are still in use",
+    );
+    const dialogContent = document.body.querySelector(
+      '[data-slot="dialog-content"]',
+    );
+    expect(dialogContent?.classList).toContain("sm:max-w-[960px]");
+    expect(dialogContent?.classList).toContain("overflow-x-hidden");
+    for (const label of ["Test provider", "Save"]) {
+      const button = [...document.body.querySelectorAll("button")].find(
+        (candidate) => candidate.textContent?.trim() === label,
+      );
+      expect(button, `missing ${label} button`).toBeDefined();
+      expect(new DOMWrapper(button!).attributes("disabled")).toBeDefined();
+    }
+  });
+});

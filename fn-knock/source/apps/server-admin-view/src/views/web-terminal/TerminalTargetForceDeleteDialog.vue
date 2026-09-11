@@ -1,1 +1,75 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IExvYWRlckNpcmNsZSwgVHJpYW5nbGVBbGVydCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CgpkZWZpbmVQcm9wczx7CiAgYWN0aXZlU2Vzc2lvbkNvdW50OiBudW1iZXI7CiAgY2FuQ29uZmlybTogYm9vbGVhbjsKICBkZWxldGluZzogYm9vbGVhbjsKICBtZXNzYWdlOiBzdHJpbmc7CiAgb3BlbjogYm9vbGVhbjsKICB0YXJnZXROYW1lOiBzdHJpbmc7Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIGNsb3NlOiBbXTsKICBjb25maXJtOiBbXTsKfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iJGV2ZW50ID8gdW5kZWZpbmVkIDogZW1pdCgnY2xvc2UnKSI+CiAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ic206bWF4LXctWzQ2MHB4XSI+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LWRlc3RydWN0aXZlIj4KICAgICAgICAgIDxUcmlhbmdsZUFsZXJ0IGNsYXNzPSJoLTUgdy01IiAvPgogICAgICAgICAge3sgdCgiYWRtaW4ud2ViVGVybWluYWwuZm9yY2VEZWxldGVUYXJnZXRUaXRsZSIpIH19CiAgICAgICAgPC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICB7ewogICAgICAgICAgICB0KCJhZG1pbi53ZWJUZXJtaW5hbC5mb3JjZURlbGV0ZVRhcmdldERlc2NyaXB0aW9uIiwgewogICAgICAgICAgICAgIHRhcmdldDogdGFyZ2V0TmFtZSwKICAgICAgICAgICAgfSkKICAgICAgICAgIH19CiAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgPC9EaWFsb2dIZWFkZXI+CgogICAgICA8ZGl2CiAgICAgICAgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1kZXN0cnVjdGl2ZS8yNSBiZy1kZXN0cnVjdGl2ZS81IHAtMyB0ZXh0LXNtIgogICAgICA+CiAgICAgICAgPHA+e3sgbWVzc2FnZSB9fTwvcD4KICAgICAgICA8cCB2LWlmPSJhY3RpdmVTZXNzaW9uQ291bnQgPiAwIiBjbGFzcz0ibXQtMiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgiYWRtaW4ud2ViVGVybWluYWwuZm9yY2VEZWxldGVTZXNzaW9uQ291bnQiLCB7CiAgICAgICAgICAgICAgY291bnQ6IGFjdGl2ZVNlc3Npb25Db3VudCwKICAgICAgICAgICAgfSkKICAgICAgICAgIH19CiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KCiAgICAgIDxEaWFsb2dGb290ZXI+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiA6ZGlzYWJsZWQ9ImRlbGV0aW5nIiBAY2xpY2s9ImVtaXQoJ2Nsb3NlJykiPgogICAgICAgICAge3sgdCgiY29tbW9uLmNhbmNlbCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImRlbGV0aW5nIHx8ICFjYW5Db25maXJtIgogICAgICAgICAgQGNsaWNrPSJlbWl0KCdjb25maXJtJykiCiAgICAgICAgPgogICAgICAgICAgPExvYWRlckNpcmNsZSB2LWlmPSJkZWxldGluZyIgY2xhc3M9Im1yLTEuNSBoLTQgdy00IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLndlYlRlcm1pbmFsLmZvcmNlRGVsZXRlVGFyZ2V0QWN0aW9uIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { LoaderCircle, TriangleAlert } from "lucide-vue-next";
+
+defineProps<{
+  activeSessionCount: number;
+  canConfirm: boolean;
+  deleting: boolean;
+  message: string;
+  open: boolean;
+  targetName: string;
+}>();
+
+const emit = defineEmits<{
+  close: [];
+  confirm: [];
+}>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="$event ? undefined : emit('close')">
+    <DialogContent class="sm:max-w-[460px]">
+      <DialogHeader>
+        <DialogTitle class="flex items-center gap-2 text-destructive">
+          <TriangleAlert class="h-5 w-5" />
+          {{ t("admin.webTerminal.forceDeleteTargetTitle") }}
+        </DialogTitle>
+        <DialogDescription>
+          {{
+            t("admin.webTerminal.forceDeleteTargetDescription", {
+              target: targetName,
+            })
+          }}
+        </DialogDescription>
+      </DialogHeader>
+
+      <div
+        class="rounded-lg border border-destructive/25 bg-destructive/5 p-3 text-sm"
+      >
+        <p>{{ message }}</p>
+        <p v-if="activeSessionCount > 0" class="mt-2 text-muted-foreground">
+          {{
+            t("admin.webTerminal.forceDeleteSessionCount", {
+              count: activeSessionCount,
+            })
+          }}
+        </p>
+      </div>
+
+      <DialogFooter>
+        <Button variant="outline" :disabled="deleting" @click="emit('close')">
+          {{ t("common.cancel") }}
+        </Button>
+        <Button
+          variant="destructive"
+          :disabled="deleting || !canConfirm"
+          @click="emit('confirm')"
+        >
+          <LoaderCircle v-if="deleting" class="mr-1.5 h-4 w-4 animate-spin" />
+          {{ t("admin.webTerminal.forceDeleteTargetAction") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

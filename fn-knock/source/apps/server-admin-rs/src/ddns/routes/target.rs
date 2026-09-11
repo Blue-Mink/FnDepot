@@ -1,1 +1,514 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiB0YXJnZXRzX292ZXJ2aWV3KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IGFueWhvdzo6UmVzdWx0PFZhbHVlPiB7CiAgICBsZXQgdGFyZ2V0cyA9IGxpc3RfdGFyZ2V0cyhzdGF0ZSkuYXdhaXQ/OwogICAgbGV0IGl0ZW1zID0gdGFyZ2V0cwogICAgICAgIC5pdGVyKCkKICAgICAgICAubWFwKHx0YXJnZXR8IHRhcmdldF9zdW1tYXJ5KHRhcmdldCwgdHJhbnNsYXRvcikpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgcHJpbWFyeV90YXJnZXRfaWQgPSBpdGVtcwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmluZCh8aXRlbXwgaXRlbS5nZXQoImlzUHJpbWFyeSIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSA9PSBTb21lKHRydWUpKQogICAgICAgIC5hbmRfdGhlbih8aXRlbXwgaXRlbS5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpCiAgICAgICAgLm1hcChzdHI6OnRvX3N0cmluZyk7CiAgICBsZXQgZXh0cmFfY291bnQgPSBpdGVtcwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyKHxpdGVtfCBpdGVtLmdldCgiaXNQcmltYXJ5IikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpICE9IFNvbWUodHJ1ZSkpCiAgICAgICAgLmNvdW50KCk7CiAgICBsZXQgZW5hYmxlZF9leHRyYV9jb3VudCA9IGl0ZW1zCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXIofGl0ZW18IHsKICAgICAgICAgICAgaXRlbS5nZXQoImlzUHJpbWFyeSIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSAhPSBTb21lKHRydWUpCiAgICAgICAgICAgICAgICAmJiBpdGVtLmdldCgiZW5hYmxlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSA9PSBTb21lKHRydWUpCiAgICAgICAgfSkKICAgICAgICAuY291bnQoKTsKICAgIE9rKGpzb24hKHsKICAgICAgICAicHJpbWFyeVRhcmdldElkIjogcHJpbWFyeV90YXJnZXRfaWQsCiAgICAgICAgInRvdGFsIjogaXRlbXMubGVuKCksCiAgICAgICAgImV4dHJhQ291bnQiOiBleHRyYV9jb3VudCwKICAgICAgICAiZW5hYmxlZEV4dHJhQ291bnQiOiBlbmFibGVkX2V4dHJhX2NvdW50LAogICAgICAgICJpdGVtcyI6IGl0ZW1zCiAgICB9KSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiB0YXJnZXRfZGV0YWlsKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGlkOiAmc3RyLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gYW55aG93OjpSZXN1bHQ8T3B0aW9uPFZhbHVlPj4gewogICAgbGV0IHRhcmdldCA9IGxpc3RfdGFyZ2V0cyhzdGF0ZSkKICAgICAgICAuYXdhaXQ/CiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLmZpbmQofHRhcmdldHwgdGFyZ2V0Lm1ldGEuaWQgPT0gaWQpOwogICAgT2sodGFyZ2V0Lm1hcCh8dGFyZ2V0fCB7CiAgICAgICAgbGV0IG11dCBzdW1tYXJ5ID0gdGFyZ2V0X3N1bW1hcnkoJnRhcmdldCwgdHJhbnNsYXRvcik7CiAgICAgICAgaWYgbGV0IFNvbWUob2JqZWN0KSA9IHN1bW1hcnkuYXNfb2JqZWN0X211dCgpIHsKICAgICAgICAgICAgb2JqZWN0Lmluc2VydCgicmF3TmFtZSIudG9fc3RyaW5nKCksIGpzb24hKHRhcmdldC5tZXRhLm5hbWUpKTsKICAgICAgICAgICAgb2JqZWN0Lmluc2VydCgiY29uZmlnIi50b19zdHJpbmcoKSwganNvbiEodGFyZ2V0LmNvbmZpZykpOwogICAgICAgIH0KICAgICAgICBzdW1tYXJ5CiAgICB9KSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBjcmVhdGVfZGRuc190YXJnZXQoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgYm9keTogVGFyZ2V0Qm9keSwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IGFueWhvdzo6UmVzdWx0PFZhbHVlPiB7CiAgICBsZXQgcHJvdmlkZXIgPSBub3JtYWxpemVfcHJvdmlkZXJfbmFtZSgmYm9keS5wcm92aWRlcikKICAgICAgICAub2tfb3JfZWxzZSh8fCBhbnlob3c6OmFueWhvdyEoIlVua25vd24gREROUyBwcm92aWRlcjoge30iLCBib2R5LnByb3ZpZGVyKSk/OwogICAgbGV0IGNvbmZpZyA9IG5vcm1hbGl6ZV9hbmRfdmFsaWRhdGVfY29uZmlnKCZwcm92aWRlciwgYm9keS5jb25maWcudW53cmFwX29yX2RlZmF1bHQoKSk/OwogICAgYXNzZXJ0X25vX2R1cGxpY2F0ZV90YXJnZXQoc3RhdGUsICZwcm92aWRlciwgJmNvbmZpZywgTm9uZSkuYXdhaXQ/OwogICAgZW5zdXJlX3ByaW1hcnlfaW5pdGlhbGl6ZWQoc3RhdGUpLmF3YWl0PzsKICAgIGxldCB0YXJnZXRzID0gbGlzdF90YXJnZXRzKHN0YXRlKS5hd2FpdD87CiAgICBsZXQgc29ydF9vcmRlciA9IHRhcmdldHMKICAgICAgICAuaXRlcigpCiAgICAgICAgLm1hcCh8dGFyZ2V0fCB0YXJnZXQubWV0YS5zb3J0X29yZGVyKQogICAgICAgIC5tYXgoKQogICAgICAgIC51bndyYXBfb3IoMCkKICAgICAgICArIDE7CiAgICBsZXQgbm93ID0gdGltZV91dGlsczo6bm93X2lzbygpOwogICAgbGV0IHJlY29yZCA9IERETlNUYXJnZXRSZWNvcmQgewogICAgICAgIG1ldGE6IERETlNUYXJnZXRNZXRhIHsKICAgICAgICAgICAgaWQ6IHV1aWQ6OlV1aWQ6Om5ld192NCgpLnRvX3N0cmluZygpLAogICAgICAgICAgICBuYW1lOiBib2R5Lm5hbWUudW53cmFwX29yX2RlZmF1bHQoKS50cmltKCkudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGlzX3ByaW1hcnk6IGZhbHNlLAogICAgICAgICAgICBlbmFibGVkOiBib2R5LmVuYWJsZWQudW53cmFwX29yKHRydWUpLAogICAgICAgICAgICBwcm92aWRlcjogU29tZShwcm92aWRlci5jbG9uZSgpKSwKICAgICAgICAgICAgY3JlYXRlZF9hdDogbm93LmNsb25lKCksCiAgICAgICAgICAgIHVwZGF0ZWRfYXQ6IG5vdywKICAgICAgICAgICAgc29ydF9vcmRlciwKICAgICAgICB9LAogICAgICAgIGNvbmZpZywKICAgICAgICBsYXN0X2lwOiBlbXB0eV9sYXN0X2lwKCksCiAgICAgICAgc2VsZWN0aW9uX2FuY2hvcjogZW1wdHlfbGFzdF9pcCgpLAogICAgICAgIGxhc3RfY2hlY2s6IGVtcHR5X2xhc3RfY2hlY2soKSwKICAgIH07CiAgICBzYXZlX3RhcmdldF9yZWNvcmQoc3RhdGUsICZyZWNvcmQpLmF3YWl0PzsKICAgIE9rKGRldGFpbF9mcm9tX3JlY29yZChyZWNvcmQsIHRyYW5zbGF0b3IpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHVwZGF0ZV9kZG5zX3RhcmdldCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBpZDogJnN0ciwKICAgIGJvZHk6IFRhcmdldEJvZHksCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgbGV0IHByb3ZpZGVyID0gbm9ybWFsaXplX3Byb3ZpZGVyX25hbWUoJmJvZHkucHJvdmlkZXIpCiAgICAgICAgLm9rX29yX2Vsc2UofHwgYW55aG93Ojphbnlob3chKCJVbmtub3duIERETlMgcHJvdmlkZXI6IHt9IiwgYm9keS5wcm92aWRlcikpPzsKICAgIGxldCBjb25maWcgPSBub3JtYWxpemVfYW5kX3ZhbGlkYXRlX2NvbmZpZygmcHJvdmlkZXIsIGJvZHkuY29uZmlnLnVud3JhcF9vcl9kZWZhdWx0KCkpPzsKICAgIGxldCBtdXQgdGFyZ2V0ID0gZmluZF90YXJnZXRfb3JfZXJyKHN0YXRlLCBpZCkuYXdhaXQ/OwogICAgYXNzZXJ0X25vX2R1cGxpY2F0ZV90YXJnZXQoc3RhdGUsICZwcm92aWRlciwgJmNvbmZpZywgU29tZShpZCkpLmF3YWl0PzsKICAgIGxldCBzaG91bGRfcmVzZXQgPSBjb21wYXJhYmxlX2NvbmZpZ19rZXkodGFyZ2V0Lm1ldGEucHJvdmlkZXIuYXNfZGVyZWYoKSwgJnRhcmdldC5jb25maWcpCiAgICAgICAgIT0gY29tcGFyYWJsZV9jb25maWdfa2V5KFNvbWUoJnByb3ZpZGVyKSwgJmNvbmZpZyk7CiAgICB0YXJnZXQubWV0YS5uYW1lID0gYm9keQogICAgICAgIC5uYW1lCiAgICAgICAgLm1hcCh8dmFsdWV8IHZhbHVlLnRyaW0oKS50b19zdHJpbmcoKSkKICAgICAgICAudW53cmFwX29yKHRhcmdldC5tZXRhLm5hbWUpOwogICAgdGFyZ2V0Lm1ldGEucHJvdmlkZXIgPSBTb21lKHByb3ZpZGVyLmNsb25lKCkpOwogICAgdGFyZ2V0Lm1ldGEuZW5hYmxlZCA9IGlmIHRhcmdldC5tZXRhLmlzX3ByaW1hcnkgewogICAgICAgIHRydWUKICAgIH0gZWxzZSB7CiAgICAgICAgYm9keS5lbmFibGVkLnVud3JhcF9vcih0YXJnZXQubWV0YS5lbmFibGVkKQogICAgfTsKICAgIHRhcmdldC5tZXRhLnVwZGF0ZWRfYXQgPSB0aW1lX3V0aWxzOjpub3dfaXNvKCk7CiAgICB0YXJnZXQuY29uZmlnID0gY29uZmlnOwogICAgd3JpdGVfY29uZmlnX2FmdGVyX3J1bnRpbWVfcmVzZXQoCiAgICAgICAgc2hvdWxkX3Jlc2V0LAogICAgICAgIHJlc2V0X3RhcmdldF9ydW50aW1lX3N0YXRlKHN0YXRlLCAmdGFyZ2V0Lm1ldGEpLAogICAgICAgIHNhdmVfdGFyZ2V0X3JlY29yZChzdGF0ZSwgJnRhcmdldCksCiAgICApCiAgICAuYXdhaXQ/OwogICAgaWYgdGFyZ2V0Lm1ldGEuaXNfcHJpbWFyeSB7CiAgICAgICAgc2F2ZV9sZWdhY3lfY29uZmlnX2RyYWZ0KHN0YXRlLCAmcHJvdmlkZXIsICZ0YXJnZXQuY29uZmlnKS5hd2FpdD87CiAgICAgICAgbWlycm9yX3ByaW1hcnlfcHJvdmlkZXIoc3RhdGUsIFNvbWUoJnByb3ZpZGVyKSkuYXdhaXQ/OwogICAgfQogICAgT2soZGV0YWlsX2Zyb21fcmVjb3JkKAogICAgICAgIGZpbmRfdGFyZ2V0X29yX2VycihzdGF0ZSwgaWQpLmF3YWl0PywKICAgICAgICB0cmFuc2xhdG9yLAogICAgKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBkZWxldGVfZGRuc190YXJnZXQoc3RhdGU6ICZBcHBTdGF0ZSwgaWQ6ICZzdHIpIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgdGFyZ2V0ID0gZmluZF90YXJnZXRfb3JfZXJyKHN0YXRlLCBpZCkuYXdhaXQ/OwogICAgaWYgdGFyZ2V0Lm1ldGEuaXNfcHJpbWFyeSB7CiAgICAgICAgcmV0dXJuIEVycihhbnlob3c6OmFueWhvdyEoIlByaW1hcnkgREROUyB0YXJnZXQgY2Fubm90IGJlIGRlbGV0ZWQiKSk7CiAgICB9CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNyZW1fc3RyaW5nX21lbWJlcihERE5TX1RBUkdFVF9JRFMsIGlkKQogICAgICAgIC5hd2FpdD87CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmRlbGV0ZV9rZXlzKCZbCiAgICAgICAgICAgIHRhcmdldF9tZXRhX2tleShpZCksCiAgICAgICAgICAgIHRhcmdldF9jb25maWdfa2V5KGlkKSwKICAgICAgICAgICAgdGFyZ2V0X2xhc3RfaXBfa2V5KGlkKSwKICAgICAgICAgICAgdGFyZ2V0X3NlbGVjdGlvbl9hbmNob3Jfa2V5KGlkKSwKICAgICAgICAgICAgdGFyZ2V0X2ludGVyZmFjZV9yZWNvdmVyeV9rZXkoaWQpLAogICAgICAgICAgICB0YXJnZXRfbGFzdF9jaGVja19rZXkoaWQpLAogICAgICAgIF0pCiAgICAgICAgLmF3YWl0PzsKICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHNldF9kZG5zX3RhcmdldF9lbmFibGVkKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGlkOiAmc3RyLAogICAgZW5hYmxlZDogYm9vbCwKKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgbGV0IG11dCB0YXJnZXQgPSBmaW5kX3RhcmdldF9vcl9lcnIoc3RhdGUsIGlkKS5hd2FpdD87CiAgICBpZiB0YXJnZXQubWV0YS5pc19wcmltYXJ5ICYmICFlbmFibGVkIHsKICAgICAgICByZXR1cm4gRXJyKGFueWhvdzo6YW55aG93ISgiUHJpbWFyeSBERE5TIHRhcmdldCBjYW5ub3QgYmUgZGlzYWJsZWQiKSk7CiAgICB9CiAgICBpZiBlbmFibGVkICYmIGxldCBTb21lKHByb3ZpZGVyKSA9IHRhcmdldC5tZXRhLnByb3ZpZGVyLmFzX2RlcmVmKCkgewogICAgICAgIHZhbGlkYXRlZF9kZG5zX2RvbWFpbl90YXJnZXRzKHByb3ZpZGVyLCAmdGFyZ2V0LmNvbmZpZyk/OwogICAgfQogICAgdGFyZ2V0Lm1ldGEuZW5hYmxlZCA9IGlmIHRhcmdldC5tZXRhLmlzX3ByaW1hcnkgewogICAgICAgIHRydWUKICAgIH0gZWxzZSB7CiAgICAgICAgZW5hYmxlZAogICAgfTsKICAgIHRhcmdldC5tZXRhLnVwZGF0ZWRfYXQgPSB0aW1lX3V0aWxzOjpub3dfaXNvKCk7CiAgICBzYXZlX3RhcmdldF9tZXRhKHN0YXRlLCAmdGFyZ2V0Lm1ldGEpLmF3YWl0Cn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc2V0X3ByaW1hcnlfcHJvdmlkZXIoc3RhdGU6ICZBcHBTdGF0ZSwgcHJvdmlkZXI6ICZzdHIpIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgcHJvdmlkZXIgPSBub3JtYWxpemVfcHJvdmlkZXJfbmFtZShwcm92aWRlcikKICAgICAgICAub2tfb3JfZWxzZSh8fCBhbnlob3c6OmFueWhvdyEoIlVua25vd24gREROUyBwcm92aWRlcjoge3Byb3ZpZGVyfSIpKT87CiAgICBsZXQgbXV0IHByaW1hcnkgPSBwcmltYXJ5X3RhcmdldChzdGF0ZSkuYXdhaXQ/OwogICAgaWYgcHJpbWFyeS5tZXRhLnByb3ZpZGVyLmFzX2RlcmVmKCkgPT0gU29tZShwcm92aWRlci5hc19zdHIoKSkgewogICAgICAgIHZhbGlkYXRlZF9kZG5zX2RvbWFpbl90YXJnZXRzKCZwcm92aWRlciwgJnByaW1hcnkuY29uZmlnKT87CiAgICAgICAgbWlycm9yX3ByaW1hcnlfcHJvdmlkZXIoc3RhdGUsIFNvbWUoJnByb3ZpZGVyKSkuYXdhaXQ/OwogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CiAgICBsZXQgbmV4dF9jb25maWcgPSBub3JtYWxpemVfYW5kX3ZhbGlkYXRlX2NvbmZpZygKICAgICAgICAmcHJvdmlkZXIsCiAgICAgICAgcmVhZF9sZWdhY3lfY29uZmlnX2RyYWZ0KHN0YXRlLCAmcHJvdmlkZXIpLmF3YWl0PywKICAgICk/OwogICAgYXNzZXJ0X25vX2R1cGxpY2F0ZV90YXJnZXQoc3RhdGUsICZwcm92aWRlciwgJm5leHRfY29uZmlnLCBTb21lKCZwcmltYXJ5Lm1ldGEuaWQpKS5hd2FpdD87CiAgICBpZiBsZXQgU29tZShwcmV2aW91cykgPSBwcmltYXJ5Lm1ldGEucHJvdmlkZXIuYXNfZGVyZWYoKQogICAgICAgICYmIHByZXZpb3VzICE9IHByb3ZpZGVyCiAgICB7CiAgICAgICAgc2F2ZV9sZWdhY3lfY29uZmlnX2RyYWZ0KHN0YXRlLCBwcmV2aW91cywgJnByaW1hcnkuY29uZmlnKS5hd2FpdD87CiAgICB9CiAgICBsZXQgc2hvdWxkX3Jlc2V0ID0gY29tcGFyYWJsZV9jb25maWdfa2V5KHByaW1hcnkubWV0YS5wcm92aWRlci5hc19kZXJlZigpLCAmcHJpbWFyeS5jb25maWcpCiAgICAgICAgIT0gY29tcGFyYWJsZV9jb25maWdfa2V5KFNvbWUoJnByb3ZpZGVyKSwgJm5leHRfY29uZmlnKTsKICAgIHByaW1hcnkubWV0YS5wcm92aWRlciA9IFNvbWUocHJvdmlkZXIuY2xvbmUoKSk7CiAgICBwcmltYXJ5Lm1ldGEuZW5hYmxlZCA9IHRydWU7CiAgICBwcmltYXJ5Lm1ldGEudXBkYXRlZF9hdCA9IHRpbWVfdXRpbHM6Om5vd19pc28oKTsKICAgIHByaW1hcnkuY29uZmlnID0gbmV4dF9jb25maWc7CiAgICB3cml0ZV9jb25maWdfYWZ0ZXJfcnVudGltZV9yZXNldCgKICAgICAgICBzaG91bGRfcmVzZXQsCiAgICAgICAgcmVzZXRfdGFyZ2V0X3J1bnRpbWVfc3RhdGUoc3RhdGUsICZwcmltYXJ5Lm1ldGEpLAogICAgICAgIHNhdmVfdGFyZ2V0X3JlY29yZChzdGF0ZSwgJnByaW1hcnkpLAogICAgKQogICAgLmF3YWl0PzsKICAgIG1pcnJvcl9wcmltYXJ5X3Byb3ZpZGVyKHN0YXRlLCBTb21lKCZwcm92aWRlcikpLmF3YWl0Cn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc2F2ZV9wcmltYXJ5X2NvbmZpZygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBwcm92aWRlcjogJnN0ciwKICAgIGNvbmZpZzogSGFzaE1hcDxTdHJpbmcsIFN0cmluZz4sCikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIGxldCBwcm92aWRlciA9IG5vcm1hbGl6ZV9wcm92aWRlcl9uYW1lKHByb3ZpZGVyKQogICAgICAgIC5va19vcl9lbHNlKHx8IGFueWhvdzo6YW55aG93ISgiVW5rbm93biBERE5TIHByb3ZpZGVyOiB7cHJvdmlkZXJ9IikpPzsKICAgIGxldCBub3JtYWxpemVkID0gbm9ybWFsaXplX2FuZF92YWxpZGF0ZV9jb25maWcoJnByb3ZpZGVyLCBjb25maWcpPzsKICAgIGxldCBtdXQgcHJpbWFyeSA9IHByaW1hcnlfdGFyZ2V0KHN0YXRlKS5hd2FpdD87CiAgICBpZiBwcmltYXJ5Lm1ldGEucHJvdmlkZXIuYXNfZGVyZWYoKSA9PSBTb21lKHByb3ZpZGVyLmFzX3N0cigpKSB7CiAgICAgICAgYXNzZXJ0X25vX2R1cGxpY2F0ZV90YXJnZXQoc3RhdGUsICZwcm92aWRlciwgJm5vcm1hbGl6ZWQsIFNvbWUoJnByaW1hcnkubWV0YS5pZCkpLmF3YWl0PzsKICAgICAgICBsZXQgc2hvdWxkX3Jlc2V0ID0gY29tcGFyYWJsZV9jb25maWdfa2V5KHByaW1hcnkubWV0YS5wcm92aWRlci5hc19kZXJlZigpLCAmcHJpbWFyeS5jb25maWcpCiAgICAgICAgICAgICE9IGNvbXBhcmFibGVfY29uZmlnX2tleShTb21lKCZwcm92aWRlciksICZub3JtYWxpemVkKTsKICAgICAgICBwcmltYXJ5LmNvbmZpZyA9IG5vcm1hbGl6ZWQuY2xvbmUoKTsKICAgICAgICB3cml0ZV9jb25maWdfYWZ0ZXJfcnVudGltZV9yZXNldCgKICAgICAgICAgICAgc2hvdWxkX3Jlc2V0LAogICAgICAgICAgICByZXNldF90YXJnZXRfcnVudGltZV9zdGF0ZShzdGF0ZSwgJnByaW1hcnkubWV0YSksCiAgICAgICAgICAgIHNhdmVfdGFyZ2V0X2NvbmZpZyhzdGF0ZSwgJnByaW1hcnkubWV0YSwgJm5vcm1hbGl6ZWQpLAogICAgICAgICkKICAgICAgICAuYXdhaXQ/OwogICAgICAgIHNhdmVfbGVnYWN5X2NvbmZpZ19kcmFmdChzdGF0ZSwgJnByb3ZpZGVyLCAmbm9ybWFsaXplZCkuYXdhaXQ/OwogICAgfSBlbHNlIHsKICAgICAgICBzYXZlX2xlZ2FjeV9jb25maWdfZHJhZnQoc3RhdGUsICZwcm92aWRlciwgJm5vcm1hbGl6ZWQpLmF3YWl0PzsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHByaW1hcnlfdGFyZ2V0KHN0YXRlOiAmQXBwU3RhdGUpIC0+IGFueWhvdzo6UmVzdWx0PERETlNUYXJnZXRSZWNvcmQ+IHsKICAgIGVuc3VyZV9wcmltYXJ5X2luaXRpYWxpemVkKHN0YXRlKS5hd2FpdD87CiAgICBsaXN0X3RhcmdldHMoc3RhdGUpCiAgICAgICAgLmF3YWl0PwogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5maW5kKHx0YXJnZXR8IHRhcmdldC5tZXRhLmlzX3ByaW1hcnkpCiAgICAgICAgLm9rX29yX2Vsc2UofHwgYW55aG93Ojphbnlob3chKCJGYWlsZWQgdG8gaW5pdGlhbGl6ZSBwcmltYXJ5IERETlMgdGFyZ2V0IikpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gZW5zdXJlX3ByaW1hcnlfaW5pdGlhbGl6ZWQoc3RhdGU6ICZBcHBTdGF0ZSkgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIGxldCBwcmltYXJ5X2lkID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfc3RyaW5nX3ZhbHVlKERETlNfUFJJTUFSWV9UQVJHRVRfSUQpCiAgICAgICAgLmF3YWl0PwogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUudHJpbSgpLmlzX2VtcHR5KCkpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IFBSSU1BUllfVEFSR0VUX0lELnRvX3N0cmluZygpKTsKICAgIGlmICFzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmhnZXRhbGxfc3RyaW5nX21hcCgmdGFyZ2V0X21ldGFfa2V5KCZwcmltYXJ5X2lkKSkKICAgICAgICAuYXdhaXQ/CiAgICAgICAgLmlzX2VtcHR5KCkKICAgIHsKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnNhZGRfc3RyaW5nX21lbWJlcihERE5TX1RBUkdFVF9JRFMsICZwcmltYXJ5X2lkKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CiAgICBsZXQgbGVnYWN5ID0gcmVhZF9sZWdhY3lfcHJpbWFyeV90YXJnZXQoc3RhdGUpLmF3YWl0PzsKICAgIHNhdmVfdGFyZ2V0X3JlY29yZChzdGF0ZSwgJmxlZ2FjeSkuYXdhaXQ/OwogICAgbGV0IG11dCBhbmNob3IgPSBIYXNoTWFwOjpuZXcoKTsKICAgIGZvciBmaWVsZCBpbiBbImlwdjQiLCAiaXB2NiIsICJ1cGRhdGVkX2F0Il0gewogICAgICAgIGlmIGxldCBTb21lKHZhbHVlKSA9IGxlZ2FjeS5zZWxlY3Rpb25fYW5jaG9yLmdldChmaWVsZCkuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgewogICAgICAgICAgICBhbmNob3IuaW5zZXJ0KGZpZWxkLnRvX3N0cmluZygpLCB2YWx1ZS50b19zdHJpbmcoKSk7CiAgICAgICAgfQogICAgfQogICAgaWYgIWFuY2hvci5pc19lbXB0eSgpIHsKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnJlcGxhY2VfaGFzaF9zdHJpbmdfbWFwKCZ0YXJnZXRfc2VsZWN0aW9uX2FuY2hvcl9rZXkoJmxlZ2FjeS5tZXRhLmlkKSwgJmFuY2hvcikKICAgICAgICAgICAgLmF3YWl0PzsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGZpbmRfdGFyZ2V0X29yX2VycigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBpZDogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDxERE5TVGFyZ2V0UmVjb3JkPiB7CiAgICBlbnN1cmVfcHJpbWFyeV9pbml0aWFsaXplZChzdGF0ZSkuYXdhaXQ/OwogICAgbGlzdF90YXJnZXRzKHN0YXRlKQogICAgICAgIC5hd2FpdD8KICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAuZmluZCh8dGFyZ2V0fCB0YXJnZXQubWV0YS5pZCA9PSBpZCkKICAgICAgICAub2tfb3JfZWxzZSh8fCBhbnlob3c6OmFueWhvdyEoIkRETlMgdGFyZ2V0IG5vdCBmb3VuZCIpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHNhdmVfdGFyZ2V0X3JlY29yZCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICByZWNvcmQ6ICZERE5TVGFyZ2V0UmVjb3JkLAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBzYXZlX3RhcmdldF9tZXRhKHN0YXRlLCAmcmVjb3JkLm1ldGEpLmF3YWl0PzsKICAgIHNhdmVfdGFyZ2V0X2NvbmZpZyhzdGF0ZSwgJnJlY29yZC5tZXRhLCAmcmVjb3JkLmNvbmZpZykuYXdhaXQKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzYXZlX3RhcmdldF9tZXRhKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIG1ldGE6ICZERE5TVGFyZ2V0TWV0YSwKKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgbGV0IG11dCBwYXlsb2FkID0gSGFzaE1hcDo6bmV3KCk7CiAgICBwYXlsb2FkLmluc2VydCgibmFtZSIudG9fc3RyaW5nKCksIG1ldGEubmFtZS50cmltKCkudG9fc3RyaW5nKCkpOwogICAgcGF5bG9hZC5pbnNlcnQoCiAgICAgICAgImlzX3ByaW1hcnkiLnRvX3N0cmluZygpLAogICAgICAgIGlmIG1ldGEuaXNfcHJpbWFyeSB7ICJ0cnVlIiB9IGVsc2UgeyAiZmFsc2UiIH0udG9fc3RyaW5nKCksCiAgICApOwogICAgcGF5bG9hZC5pbnNlcnQoCiAgICAgICAgImVuYWJsZWQiLnRvX3N0cmluZygpLAogICAgICAgIGlmIG1ldGEuZW5hYmxlZCB7ICJ0cnVlIiB9IGVsc2UgeyAiZmFsc2UiIH0udG9fc3RyaW5nKCksCiAgICApOwogICAgcGF5bG9hZC5pbnNlcnQoCiAgICAgICAgInByb3ZpZGVyIi50b19zdHJpbmcoKSwKICAgICAgICBtZXRhLnByb3ZpZGVyLmNsb25lKCkudW53cmFwX29yX2RlZmF1bHQoKSwKICAgICk7CiAgICBwYXlsb2FkLmluc2VydCgiY3JlYXRlZF9hdCIudG9fc3RyaW5nKCksIG1ldGEuY3JlYXRlZF9hdC5jbG9uZSgpKTsKICAgIHBheWxvYWQuaW5zZXJ0KCJ1cGRhdGVkX2F0Ii50b19zdHJpbmcoKSwgbWV0YS51cGRhdGVkX2F0LmNsb25lKCkpOwogICAgcGF5bG9hZC5pbnNlcnQoInNvcnRfb3JkZXIiLnRvX3N0cmluZygpLCBtZXRhLnNvcnRfb3JkZXIudG9fc3RyaW5nKCkpOwogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5yZXBsYWNlX2hhc2hfc3RyaW5nX21hcCgmdGFyZ2V0X21ldGFfa2V5KCZtZXRhLmlkKSwgJnBheWxvYWQpCiAgICAgICAgLmF3YWl0PzsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2FkZF9zdHJpbmdfbWVtYmVyKERETlNfVEFSR0VUX0lEUywgJm1ldGEuaWQpCiAgICAgICAgLmF3YWl0PzsKICAgIGlmIG1ldGEuaXNfcHJpbWFyeSB7CiAgICAgICAgc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5zZXRfc3RyaW5nX3ZhbHVlKERETlNfUFJJTUFSWV9UQVJHRVRfSUQsICZtZXRhLmlkKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgfQogICAgT2soKCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc2F2ZV90YXJnZXRfY29uZmlnKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIG1ldGE6ICZERE5TVGFyZ2V0TWV0YSwKICAgIGNvbmZpZzogJkhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+LAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgcHJvdmlkZXIgPSBtZXRhLnByb3ZpZGVyLmFzX2RlcmVmKCk7CiAgICBsZXQgcHJlcGFyZWQgPSBwcmVwYXJlX2NvbmZpZ19mb3Jfc3RvcmFnZShwcm92aWRlciwgbm9ybWFsaXplX2NvbmZpZ19tYXAocHJvdmlkZXIsIGNvbmZpZykpOwogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5yZXBsYWNlX2hhc2hfc3RyaW5nX21hcCgmdGFyZ2V0X2NvbmZpZ19rZXkoJm1ldGEuaWQpLCAmcHJlcGFyZWQpCiAgICAgICAgLmF3YWl0PzsKICAgIGlmIG1ldGEuaXNfcHJpbWFyeQogICAgICAgICYmIGxldCBTb21lKHByb3ZpZGVyKSA9IHByb3ZpZGVyCiAgICB7CiAgICAgICAgc2F2ZV9sZWdhY3lfY29uZmlnX2RyYWZ0KHN0YXRlLCBwcm92aWRlciwgJnByZXBhcmVkKS5hd2FpdD87CiAgICB9CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzYXZlX2xlZ2FjeV9jb25maWdfZHJhZnQoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgcHJvdmlkZXI6ICZzdHIsCiAgICBjb25maWc6ICZIYXNoTWFwPFN0cmluZywgU3RyaW5nPiwKKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgbGV0IHByZXBhcmVkID0KICAgICAgICBwcmVwYXJlX2NvbmZpZ19mb3Jfc3RvcmFnZShTb21lKHByb3ZpZGVyKSwgbm9ybWFsaXplX2NvbmZpZ19tYXAoU29tZShwcm92aWRlciksIGNvbmZpZykpOwogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5yZXBsYWNlX2hhc2hfc3RyaW5nX21hcCgKICAgICAgICAgICAgJihERE5TX0xFR0FDWV9DT05GSUdfUFJFRklYLnRvX3N0cmluZygpICsgcHJvdmlkZXIpLAogICAgICAgICAgICAmcHJlcGFyZWQsCiAgICAgICAgKQogICAgICAgIC5hd2FpdD87CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiByZWFkX2xlZ2FjeV9jb25maWdfZHJhZnQoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgcHJvdmlkZXI6ICZzdHIsCikgLT4gYW55aG93OjpSZXN1bHQ8SGFzaE1hcDxTdHJpbmcsIFN0cmluZz4+IHsKICAgIGxldCByYXcgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmhnZXRhbGxfc3RyaW5nX21hcCgmKERETlNfTEVHQUNZX0NPTkZJR19QUkVGSVgudG9fc3RyaW5nKCkgKyBwcm92aWRlcikpCiAgICAgICAgLmF3YWl0PzsKICAgIE9rKG5vcm1hbGl6ZV9jb25maWcocHJvdmlkZXIsIHJhdykpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gbWlycm9yX3ByaW1hcnlfcHJvdmlkZXIoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgcHJvdmlkZXI6IE9wdGlvbjwmc3RyPiwKKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgaWYgbGV0IFNvbWUocHJvdmlkZXIpID0gcHJvdmlkZXIuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLnRyaW0oKS5pc19lbXB0eSgpKSB7CiAgICAgICAgc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5zZXRfc3RyaW5nX3ZhbHVlKERETlNfTEVHQUNZX1BST1ZJREVSLCBwcm92aWRlcikKICAgICAgICAgICAgLmF3YWl0PzsKICAgIH0gZWxzZSB7CiAgICAgICAgc3RhdGUuc3RvcmFnZS5zdG9yZS5kZWxldGVfa2V5KERETlNfTEVHQUNZX1BST1ZJREVSKS5hd2FpdD87CiAgICB9CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiByZXNldF90YXJnZXRfcnVudGltZV9zdGF0ZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBtZXRhOiAmREROU1RhcmdldE1ldGEsCikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAucmVwbGFjZV9oYXNoX3N0cmluZ19tYXAoJnRhcmdldF9sYXN0X2lwX2tleSgmbWV0YS5pZCksICZIYXNoTWFwOjpuZXcoKSkKICAgICAgICAuYXdhaXQ/OwogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5yZXBsYWNlX2hhc2hfc3RyaW5nX21hcCgmdGFyZ2V0X2xhc3RfY2hlY2tfa2V5KCZtZXRhLmlkKSwgJkhhc2hNYXA6Om5ldygpKQogICAgICAgIC5hd2FpdD87CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnJlcGxhY2VfaGFzaF9zdHJpbmdfbWFwKCZ0YXJnZXRfaW50ZXJmYWNlX3JlY292ZXJ5X2tleSgmbWV0YS5pZCksICZIYXNoTWFwOjpuZXcoKSkKICAgICAgICAuYXdhaXQ/OwogICAgaWYgbWV0YS5pc19wcmltYXJ5IHsKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnJlcGxhY2VfaGFzaF9zdHJpbmdfbWFwKERETlNfTEVHQUNZX0xBU1RfSVAsICZIYXNoTWFwOjpuZXcoKSkKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnJlcGxhY2VfaGFzaF9zdHJpbmdfbWFwKERETlNfTEVHQUNZX0xBU1RfQ0hFQ0ssICZIYXNoTWFwOjpuZXcoKSkKICAgICAgICAgICAgLmF3YWl0PzsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHdyaXRlX2NvbmZpZ19hZnRlcl9ydW50aW1lX3Jlc2V0PFQsIFJlc2V0LCBXcml0ZT4oCiAgICBzaG91bGRfcmVzZXQ6IGJvb2wsCiAgICByZXNldDogUmVzZXQsCiAgICB3cml0ZTogV3JpdGUsCikgLT4gYW55aG93OjpSZXN1bHQ8VD4Kd2hlcmUKICAgIFJlc2V0OiBGdXR1cmU8T3V0cHV0ID0gYW55aG93OjpSZXN1bHQ8KCk+PiwKICAgIFdyaXRlOiBGdXR1cmU8T3V0cHV0ID0gYW55aG93OjpSZXN1bHQ8VD4+LAp7CiAgICBpZiBzaG91bGRfcmVzZXQgewogICAgICAgIHJlc2V0LmF3YWl0PzsKICAgIH0KICAgIHdyaXRlLmF3YWl0Cn0KCnB1YihzdXBlcikgYXN5bmMgZm4gYXNzZXJ0X25vX2R1cGxpY2F0ZV90YXJnZXQoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgcHJvdmlkZXI6ICZzdHIsCiAgICBjb25maWc6ICZIYXNoTWFwPFN0cmluZywgU3RyaW5nPiwKICAgIGV4Y2VwdF9pZDogT3B0aW9uPCZzdHI+LAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgbmV4dCA9IGR1cGxpY2F0ZV9rZXkocHJvdmlkZXIsIGNvbmZpZyk7CiAgICBsZXQgbmV4dF9kb21haW5zID0gZGRuc19kb21haW5fdGFyZ2V0X3NldChwcm92aWRlciwgY29uZmlnKTsKICAgIGlmIG5leHQuaXNfZW1wdHkoKSAmJiBuZXh0X2RvbWFpbnMuaXNfbm9uZSgpIHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQogICAgZm9yIHRhcmdldCBpbiBsaXN0X3RhcmdldHMoc3RhdGUpLmF3YWl0PyB7CiAgICAgICAgaWYgZXhjZXB0X2lkID09IFNvbWUodGFyZ2V0Lm1ldGEuaWQuYXNfc3RyKCkpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCB0YXJnZXRfcHJvdmlkZXIgPSB0YXJnZXQubWV0YS5wcm92aWRlci5hc19kZXJlZigpLnVud3JhcF9vcigiIik7CiAgICAgICAgaWYgdGFyZ2V0X3Byb3ZpZGVyICE9IHByb3ZpZGVyIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBkb21haW5zX292ZXJsYXAgPSBuZXh0X2RvbWFpbnMuYXNfcmVmKCkuaXNfc29tZV9hbmQofG5leHRfZG9tYWluc3wgewogICAgICAgICAgICBkZG5zX2RvbWFpbl90YXJnZXRfc2V0KHRhcmdldF9wcm92aWRlciwgJnRhcmdldC5jb25maWcpCiAgICAgICAgICAgICAgICAuaXNfc29tZV9hbmQofGV4aXN0aW5nfCAhbmV4dF9kb21haW5zLmlzX2Rpc2pvaW50KCZleGlzdGluZykpCiAgICAgICAgfSk7CiAgICAgICAgbGV0IGxlZ2FjeV9kdXBsaWNhdGUgPQogICAgICAgICAgICAhbmV4dC5pc19lbXB0eSgpICYmIGR1cGxpY2F0ZV9rZXkodGFyZ2V0X3Byb3ZpZGVyLCAmdGFyZ2V0LmNvbmZpZykgPT0gbmV4dDsKICAgICAgICBpZiBkb21haW5zX292ZXJsYXAgfHwgbGVnYWN5X2R1cGxpY2F0ZSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoYW55aG93Ojphbnlob3chKCJEdXBsaWNhdGUgREROUyB0YXJnZXQiKSk7CiAgICAgICAgfQogICAgfQogICAgT2soKCkpCn0KCnB1YihzdXBlcikgZm4gZGV0YWlsX2Zyb21fcmVjb3JkKHJlY29yZDogREROU1RhcmdldFJlY29yZCwgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IpIC0+IFZhbHVlIHsKICAgIGxldCBtdXQgc3VtbWFyeSA9IHRhcmdldF9zdW1tYXJ5KCZyZWNvcmQsIHRyYW5zbGF0b3IpOwogICAgaWYgbGV0IFNvbWUob2JqZWN0KSA9IHN1bW1hcnkuYXNfb2JqZWN0X211dCgpIHsKICAgICAgICBvYmplY3QuaW5zZXJ0KCJyYXdOYW1lIi50b19zdHJpbmcoKSwganNvbiEocmVjb3JkLm1ldGEubmFtZSkpOwogICAgICAgIG9iamVjdC5pbnNlcnQoImNvbmZpZyIudG9fc3RyaW5nKCksIGpzb24hKHJlY29yZC5jb25maWcpKTsKICAgIH0KICAgIHN1bW1hcnkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBkZG5zX2Vycm9yX3Jlc3BvbnNlX2Zyb21fc3RhdGUoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgZXJyb3I6IGFueWhvdzo6RXJyb3IsCikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKHN0YXRlKS5hd2FpdDsKICAgIGRkbnNfZXJyb3JfcmVzcG9uc2UoJnRyYW5zbGF0b3IsIGVycm9yKQp9Cg==
+use super::*;
+
+pub(super) async fn targets_overview(
+    state: &AppState,
+    translator: &Translator,
+) -> anyhow::Result<Value> {
+    let targets = list_targets(state).await?;
+    let items = targets
+        .iter()
+        .map(|target| target_summary(target, translator))
+        .collect::<Vec<_>>();
+    let primary_target_id = items
+        .iter()
+        .find(|item| item.get("isPrimary").and_then(Value::as_bool) == Some(true))
+        .and_then(|item| item.get("id").and_then(Value::as_str))
+        .map(str::to_string);
+    let extra_count = items
+        .iter()
+        .filter(|item| item.get("isPrimary").and_then(Value::as_bool) != Some(true))
+        .count();
+    let enabled_extra_count = items
+        .iter()
+        .filter(|item| {
+            item.get("isPrimary").and_then(Value::as_bool) != Some(true)
+                && item.get("enabled").and_then(Value::as_bool) == Some(true)
+        })
+        .count();
+    Ok(json!({
+        "primaryTargetId": primary_target_id,
+        "total": items.len(),
+        "extraCount": extra_count,
+        "enabledExtraCount": enabled_extra_count,
+        "items": items
+    }))
+}
+
+pub(super) async fn target_detail(
+    state: &AppState,
+    id: &str,
+    translator: &Translator,
+) -> anyhow::Result<Option<Value>> {
+    let target = list_targets(state)
+        .await?
+        .into_iter()
+        .find(|target| target.meta.id == id);
+    Ok(target.map(|target| {
+        let mut summary = target_summary(&target, translator);
+        if let Some(object) = summary.as_object_mut() {
+            object.insert("rawName".to_string(), json!(target.meta.name));
+            object.insert("config".to_string(), json!(target.config));
+        }
+        summary
+    }))
+}
+
+pub(super) async fn create_ddns_target(
+    state: &AppState,
+    body: TargetBody,
+    translator: &Translator,
+) -> anyhow::Result<Value> {
+    let provider = normalize_provider_name(&body.provider)
+        .ok_or_else(|| anyhow::anyhow!("Unknown DDNS provider: {}", body.provider))?;
+    let config = normalize_and_validate_config(&provider, body.config.unwrap_or_default())?;
+    assert_no_duplicate_target(state, &provider, &config, None).await?;
+    ensure_primary_initialized(state).await?;
+    let targets = list_targets(state).await?;
+    let sort_order = targets
+        .iter()
+        .map(|target| target.meta.sort_order)
+        .max()
+        .unwrap_or(0)
+        + 1;
+    let now = time_utils::now_iso();
+    let record = DDNSTargetRecord {
+        meta: DDNSTargetMeta {
+            id: uuid::Uuid::new_v4().to_string(),
+            name: body.name.unwrap_or_default().trim().to_string(),
+            is_primary: false,
+            enabled: body.enabled.unwrap_or(true),
+            provider: Some(provider.clone()),
+            created_at: now.clone(),
+            updated_at: now,
+            sort_order,
+        },
+        config,
+        last_ip: empty_last_ip(),
+        selection_anchor: empty_last_ip(),
+        last_check: empty_last_check(),
+    };
+    save_target_record(state, &record).await?;
+    Ok(detail_from_record(record, translator))
+}
+
+pub(super) async fn update_ddns_target(
+    state: &AppState,
+    id: &str,
+    body: TargetBody,
+    translator: &Translator,
+) -> anyhow::Result<Value> {
+    let provider = normalize_provider_name(&body.provider)
+        .ok_or_else(|| anyhow::anyhow!("Unknown DDNS provider: {}", body.provider))?;
+    let config = normalize_and_validate_config(&provider, body.config.unwrap_or_default())?;
+    let mut target = find_target_or_err(state, id).await?;
+    assert_no_duplicate_target(state, &provider, &config, Some(id)).await?;
+    let should_reset = comparable_config_key(target.meta.provider.as_deref(), &target.config)
+        != comparable_config_key(Some(&provider), &config);
+    target.meta.name = body
+        .name
+        .map(|value| value.trim().to_string())
+        .unwrap_or(target.meta.name);
+    target.meta.provider = Some(provider.clone());
+    target.meta.enabled = if target.meta.is_primary {
+        true
+    } else {
+        body.enabled.unwrap_or(target.meta.enabled)
+    };
+    target.meta.updated_at = time_utils::now_iso();
+    target.config = config;
+    write_config_after_runtime_reset(
+        should_reset,
+        reset_target_runtime_state(state, &target.meta),
+        save_target_record(state, &target),
+    )
+    .await?;
+    if target.meta.is_primary {
+        save_legacy_config_draft(state, &provider, &target.config).await?;
+        mirror_primary_provider(state, Some(&provider)).await?;
+    }
+    Ok(detail_from_record(
+        find_target_or_err(state, id).await?,
+        translator,
+    ))
+}
+
+pub(super) async fn delete_ddns_target(state: &AppState, id: &str) -> anyhow::Result<()> {
+    let target = find_target_or_err(state, id).await?;
+    if target.meta.is_primary {
+        return Err(anyhow::anyhow!("Primary DDNS target cannot be deleted"));
+    }
+    state
+        .storage
+        .store
+        .srem_string_member(DDNS_TARGET_IDS, id)
+        .await?;
+    state
+        .storage
+        .store
+        .delete_keys(&[
+            target_meta_key(id),
+            target_config_key(id),
+            target_last_ip_key(id),
+            target_selection_anchor_key(id),
+            target_interface_recovery_key(id),
+            target_last_check_key(id),
+        ])
+        .await?;
+    Ok(())
+}
+
+pub(super) async fn set_ddns_target_enabled(
+    state: &AppState,
+    id: &str,
+    enabled: bool,
+) -> anyhow::Result<()> {
+    let mut target = find_target_or_err(state, id).await?;
+    if target.meta.is_primary && !enabled {
+        return Err(anyhow::anyhow!("Primary DDNS target cannot be disabled"));
+    }
+    if enabled && let Some(provider) = target.meta.provider.as_deref() {
+        validated_ddns_domain_targets(provider, &target.config)?;
+    }
+    target.meta.enabled = if target.meta.is_primary {
+        true
+    } else {
+        enabled
+    };
+    target.meta.updated_at = time_utils::now_iso();
+    save_target_meta(state, &target.meta).await
+}
+
+pub(super) async fn set_primary_provider(state: &AppState, provider: &str) -> anyhow::Result<()> {
+    let provider = normalize_provider_name(provider)
+        .ok_or_else(|| anyhow::anyhow!("Unknown DDNS provider: {provider}"))?;
+    let mut primary = primary_target(state).await?;
+    if primary.meta.provider.as_deref() == Some(provider.as_str()) {
+        validated_ddns_domain_targets(&provider, &primary.config)?;
+        mirror_primary_provider(state, Some(&provider)).await?;
+        return Ok(());
+    }
+    let next_config = normalize_and_validate_config(
+        &provider,
+        read_legacy_config_draft(state, &provider).await?,
+    )?;
+    assert_no_duplicate_target(state, &provider, &next_config, Some(&primary.meta.id)).await?;
+    if let Some(previous) = primary.meta.provider.as_deref()
+        && previous != provider
+    {
+        save_legacy_config_draft(state, previous, &primary.config).await?;
+    }
+    let should_reset = comparable_config_key(primary.meta.provider.as_deref(), &primary.config)
+        != comparable_config_key(Some(&provider), &next_config);
+    primary.meta.provider = Some(provider.clone());
+    primary.meta.enabled = true;
+    primary.meta.updated_at = time_utils::now_iso();
+    primary.config = next_config;
+    write_config_after_runtime_reset(
+        should_reset,
+        reset_target_runtime_state(state, &primary.meta),
+        save_target_record(state, &primary),
+    )
+    .await?;
+    mirror_primary_provider(state, Some(&provider)).await
+}
+
+pub(super) async fn save_primary_config(
+    state: &AppState,
+    provider: &str,
+    config: HashMap<String, String>,
+) -> anyhow::Result<()> {
+    let provider = normalize_provider_name(provider)
+        .ok_or_else(|| anyhow::anyhow!("Unknown DDNS provider: {provider}"))?;
+    let normalized = normalize_and_validate_config(&provider, config)?;
+    let mut primary = primary_target(state).await?;
+    if primary.meta.provider.as_deref() == Some(provider.as_str()) {
+        assert_no_duplicate_target(state, &provider, &normalized, Some(&primary.meta.id)).await?;
+        let should_reset = comparable_config_key(primary.meta.provider.as_deref(), &primary.config)
+            != comparable_config_key(Some(&provider), &normalized);
+        primary.config = normalized.clone();
+        write_config_after_runtime_reset(
+            should_reset,
+            reset_target_runtime_state(state, &primary.meta),
+            save_target_config(state, &primary.meta, &normalized),
+        )
+        .await?;
+        save_legacy_config_draft(state, &provider, &normalized).await?;
+    } else {
+        save_legacy_config_draft(state, &provider, &normalized).await?;
+    }
+    Ok(())
+}
+
+pub(super) async fn primary_target(state: &AppState) -> anyhow::Result<DDNSTargetRecord> {
+    ensure_primary_initialized(state).await?;
+    list_targets(state)
+        .await?
+        .into_iter()
+        .find(|target| target.meta.is_primary)
+        .ok_or_else(|| anyhow::anyhow!("Failed to initialize primary DDNS target"))
+}
+
+pub(super) async fn ensure_primary_initialized(state: &AppState) -> anyhow::Result<()> {
+    let primary_id = state
+        .storage
+        .store
+        .get_string_value(DDNS_PRIMARY_TARGET_ID)
+        .await?
+        .filter(|value| !value.trim().is_empty())
+        .unwrap_or_else(|| PRIMARY_TARGET_ID.to_string());
+    if !state
+        .storage
+        .store
+        .hgetall_string_map(&target_meta_key(&primary_id))
+        .await?
+        .is_empty()
+    {
+        state
+            .storage
+            .store
+            .sadd_string_member(DDNS_TARGET_IDS, &primary_id)
+            .await?;
+        return Ok(());
+    }
+    let legacy = read_legacy_primary_target(state).await?;
+    save_target_record(state, &legacy).await?;
+    let mut anchor = HashMap::new();
+    for field in ["ipv4", "ipv6", "updated_at"] {
+        if let Some(value) = legacy.selection_anchor.get(field).and_then(Value::as_str) {
+            anchor.insert(field.to_string(), value.to_string());
+        }
+    }
+    if !anchor.is_empty() {
+        state
+            .storage
+            .store
+            .replace_hash_string_map(&target_selection_anchor_key(&legacy.meta.id), &anchor)
+            .await?;
+    }
+    Ok(())
+}
+
+pub(super) async fn find_target_or_err(
+    state: &AppState,
+    id: &str,
+) -> anyhow::Result<DDNSTargetRecord> {
+    ensure_primary_initialized(state).await?;
+    list_targets(state)
+        .await?
+        .into_iter()
+        .find(|target| target.meta.id == id)
+        .ok_or_else(|| anyhow::anyhow!("DDNS target not found"))
+}
+
+pub(super) async fn save_target_record(
+    state: &AppState,
+    record: &DDNSTargetRecord,
+) -> anyhow::Result<()> {
+    save_target_meta(state, &record.meta).await?;
+    save_target_config(state, &record.meta, &record.config).await
+}
+
+pub(super) async fn save_target_meta(
+    state: &AppState,
+    meta: &DDNSTargetMeta,
+) -> anyhow::Result<()> {
+    let mut payload = HashMap::new();
+    payload.insert("name".to_string(), meta.name.trim().to_string());
+    payload.insert(
+        "is_primary".to_string(),
+        if meta.is_primary { "true" } else { "false" }.to_string(),
+    );
+    payload.insert(
+        "enabled".to_string(),
+        if meta.enabled { "true" } else { "false" }.to_string(),
+    );
+    payload.insert(
+        "provider".to_string(),
+        meta.provider.clone().unwrap_or_default(),
+    );
+    payload.insert("created_at".to_string(), meta.created_at.clone());
+    payload.insert("updated_at".to_string(), meta.updated_at.clone());
+    payload.insert("sort_order".to_string(), meta.sort_order.to_string());
+    state
+        .storage
+        .store
+        .replace_hash_string_map(&target_meta_key(&meta.id), &payload)
+        .await?;
+    state
+        .storage
+        .store
+        .sadd_string_member(DDNS_TARGET_IDS, &meta.id)
+        .await?;
+    if meta.is_primary {
+        state
+            .storage
+            .store
+            .set_string_value(DDNS_PRIMARY_TARGET_ID, &meta.id)
+            .await?;
+    }
+    Ok(())
+}
+
+pub(super) async fn save_target_config(
+    state: &AppState,
+    meta: &DDNSTargetMeta,
+    config: &HashMap<String, String>,
+) -> anyhow::Result<()> {
+    let provider = meta.provider.as_deref();
+    let prepared = prepare_config_for_storage(provider, normalize_config_map(provider, config));
+    state
+        .storage
+        .store
+        .replace_hash_string_map(&target_config_key(&meta.id), &prepared)
+        .await?;
+    if meta.is_primary
+        && let Some(provider) = provider
+    {
+        save_legacy_config_draft(state, provider, &prepared).await?;
+    }
+    Ok(())
+}
+
+pub(super) async fn save_legacy_config_draft(
+    state: &AppState,
+    provider: &str,
+    config: &HashMap<String, String>,
+) -> anyhow::Result<()> {
+    let prepared =
+        prepare_config_for_storage(Some(provider), normalize_config_map(Some(provider), config));
+    state
+        .storage
+        .store
+        .replace_hash_string_map(
+            &(DDNS_LEGACY_CONFIG_PREFIX.to_string() + provider),
+            &prepared,
+        )
+        .await?;
+    Ok(())
+}
+
+pub(super) async fn read_legacy_config_draft(
+    state: &AppState,
+    provider: &str,
+) -> anyhow::Result<HashMap<String, String>> {
+    let raw = state
+        .storage
+        .store
+        .hgetall_string_map(&(DDNS_LEGACY_CONFIG_PREFIX.to_string() + provider))
+        .await?;
+    Ok(normalize_config(provider, raw))
+}
+
+pub(super) async fn mirror_primary_provider(
+    state: &AppState,
+    provider: Option<&str>,
+) -> anyhow::Result<()> {
+    if let Some(provider) = provider.filter(|value| !value.trim().is_empty()) {
+        state
+            .storage
+            .store
+            .set_string_value(DDNS_LEGACY_PROVIDER, provider)
+            .await?;
+    } else {
+        state.storage.store.delete_key(DDNS_LEGACY_PROVIDER).await?;
+    }
+    Ok(())
+}
+
+pub(super) async fn reset_target_runtime_state(
+    state: &AppState,
+    meta: &DDNSTargetMeta,
+) -> anyhow::Result<()> {
+    state
+        .storage
+        .store
+        .replace_hash_string_map(&target_last_ip_key(&meta.id), &HashMap::new())
+        .await?;
+    state
+        .storage
+        .store
+        .replace_hash_string_map(&target_last_check_key(&meta.id), &HashMap::new())
+        .await?;
+    state
+        .storage
+        .store
+        .replace_hash_string_map(&target_interface_recovery_key(&meta.id), &HashMap::new())
+        .await?;
+    if meta.is_primary {
+        state
+            .storage
+            .store
+            .replace_hash_string_map(DDNS_LEGACY_LAST_IP, &HashMap::new())
+            .await?;
+        state
+            .storage
+            .store
+            .replace_hash_string_map(DDNS_LEGACY_LAST_CHECK, &HashMap::new())
+            .await?;
+    }
+    Ok(())
+}
+
+pub(super) async fn write_config_after_runtime_reset<T, Reset, Write>(
+    should_reset: bool,
+    reset: Reset,
+    write: Write,
+) -> anyhow::Result<T>
+where
+    Reset: Future<Output = anyhow::Result<()>>,
+    Write: Future<Output = anyhow::Result<T>>,
+{
+    if should_reset {
+        reset.await?;
+    }
+    write.await
+}
+
+pub(super) async fn assert_no_duplicate_target(
+    state: &AppState,
+    provider: &str,
+    config: &HashMap<String, String>,
+    except_id: Option<&str>,
+) -> anyhow::Result<()> {
+    let next = duplicate_key(provider, config);
+    let next_domains = ddns_domain_target_set(provider, config);
+    if next.is_empty() && next_domains.is_none() {
+        return Ok(());
+    }
+    for target in list_targets(state).await? {
+        if except_id == Some(target.meta.id.as_str()) {
+            continue;
+        }
+        let target_provider = target.meta.provider.as_deref().unwrap_or("");
+        if target_provider != provider {
+            continue;
+        }
+        let domains_overlap = next_domains.as_ref().is_some_and(|next_domains| {
+            ddns_domain_target_set(target_provider, &target.config)
+                .is_some_and(|existing| !next_domains.is_disjoint(&existing))
+        });
+        let legacy_duplicate =
+            !next.is_empty() && duplicate_key(target_provider, &target.config) == next;
+        if domains_overlap || legacy_duplicate {
+            return Err(anyhow::anyhow!("Duplicate DDNS target"));
+        }
+    }
+    Ok(())
+}
+
+pub(super) fn detail_from_record(record: DDNSTargetRecord, translator: &Translator) -> Value {
+    let mut summary = target_summary(&record, translator);
+    if let Some(object) = summary.as_object_mut() {
+        object.insert("rawName".to_string(), json!(record.meta.name));
+        object.insert("config".to_string(), json!(record.config));
+    }
+    summary
+}
+
+pub(super) async fn ddns_error_response_from_state(
+    state: &AppState,
+    error: anyhow::Error,
+) -> Response {
+    let translator = Translator::from_state(state).await;
+    ddns_error_response(&translator, error)
+}

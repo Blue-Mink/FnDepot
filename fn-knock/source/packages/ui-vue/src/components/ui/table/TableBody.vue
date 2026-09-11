@@ -1,1 +1,17 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPHRib2R5CiAgICBkYXRhLXNsb3Q9InRhYmxlLWJvZHkiCiAgICA6Y2xhc3M9ImNuKCdbJl90cjpsYXN0LWNoaWxkXTpib3JkZXItMCcsIHByb3BzLmNsYXNzKSIKICA+CiAgICA8c2xvdCAvPgogIDwvdGJvZHk+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <tbody
+    data-slot="table-body"
+    :class="cn('[&_tr:last-child]:border-0', props.class)"
+  >
+    <slot />
+  </tbody>
+</template>

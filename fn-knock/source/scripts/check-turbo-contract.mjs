@@ -1,1 +1,102 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQoKaW1wb3J0IHsgc3Bhd25TeW5jIH0gZnJvbSAibm9kZTpjaGlsZF9wcm9jZXNzIjsKaW1wb3J0IHsgcmVhZEZpbGVTeW5jIH0gZnJvbSAibm9kZTpmcyI7CmltcG9ydCBwYXRoIGZyb20gIm5vZGU6cGF0aCI7CmltcG9ydCB7IGZpbGVVUkxUb1BhdGggfSBmcm9tICJub2RlOnVybCI7Cgpjb25zdCByb290ID0gcGF0aC5yZXNvbHZlKHBhdGguZGlybmFtZShmaWxlVVJMVG9QYXRoKGltcG9ydC5tZXRhLnVybCkpLCAiLi4iKTsKCmZ1bmN0aW9uIGZhaWwobWVzc2FnZSkgewogIHRocm93IG5ldyBFcnJvcihgW3R1cmJvLWNvbnRyYWN0XSAke21lc3NhZ2V9YCk7Cn0KCmNvbnN0IHJlc3VsdCA9IHNwYXduU3luYygKICBwcm9jZXNzLnBsYXRmb3JtID09PSAid2luMzIiID8gIm5weC5jbWQiIDogIm5weCIsCiAgWwogICAgInR1cmJvIiwKICAgICJydW4iLAogICAgImJ1aWxkIiwKICAgICJjaGVjay10eXBlcyIsCiAgICAidGVzdCIsCiAgICAiLS1maWx0ZXI9c2VydmVyLWFkbWluLXJzIiwKICAgICItLWZpbHRlcj1mbi1rbm9jay1kZXNrdG9wIiwKICAgICItLWZpbHRlcj1zZXJ2ZXItYWRtaW4tdmlldyIsCiAgICAiLS1maWx0ZXI9c2VydmVyLWF1dGgtdmlldyIsCiAgICAiLS1kcnk9anNvbiIsCiAgXSwKICB7IGN3ZDogcm9vdCwgZW5jb2Rpbmc6ICJ1dGY4IiB9LAopOwppZiAocmVzdWx0LnN0YXR1cyAhPT0gMCkgewogIGZhaWwoW3Jlc3VsdC5zdGRvdXQsIHJlc3VsdC5zdGRlcnJdLmZpbHRlcihCb29sZWFuKS5qb2luKCJcbiIpLnRyaW0oKSk7Cn0KCmxldCBkcnlSdW47CnRyeSB7CiAgZHJ5UnVuID0gSlNPTi5wYXJzZShyZXN1bHQuc3Rkb3V0KTsKfSBjYXRjaCAoZXJyb3IpIHsKICBmYWlsKGBUdXJibyBkcnktcnVuIGRpZCBub3QgcmV0dXJuIEpTT046ICR7ZXJyb3IubWVzc2FnZX1gKTsKfQoKY29uc3QgdGFza3MgPSBuZXcgTWFwKGRyeVJ1bi50YXNrcy5tYXAoKHRhc2spID0+IFt0YXNrLnRhc2tJZCwgdGFza10pKTsKCmZ1bmN0aW9uIGFzc2VydElucHV0cyh0YXNrSWQsIHJlcXVpcmVkSW5wdXRzKSB7CiAgY29uc3QgdGFzayA9IHRhc2tzLmdldCh0YXNrSWQpOwogIGlmICghdGFzaykgZmFpbChgbWlzc2luZyBkcnktcnVuIHRhc2sgJHt0YXNrSWR9YCk7CiAgY29uc3QgaW5wdXRzID0gT2JqZWN0LmtleXModGFzay5pbnB1dHMgPz8ge30pOwogIGZvciAoY29uc3QgcmVxdWlyZWRJbnB1dCBvZiByZXF1aXJlZElucHV0cykgewogICAgaWYgKAogICAgICAhaW5wdXRzLnNvbWUoCiAgICAgICAgKGlucHV0KSA9PgogICAgICAgICAgaW5wdXQgPT09IHJlcXVpcmVkSW5wdXQgfHwgaW5wdXQuc3RhcnRzV2l0aChgJHtyZXF1aXJlZElucHV0fS9gKSwKICAgICAgKQogICAgKSB7CiAgICAgIGZhaWwoYCR7dGFza0lkfSBkb2VzIG5vdCBoYXNoICR7cmVxdWlyZWRJbnB1dH1gKTsKICAgIH0KICB9Cn0KCmZvciAoY29uc3QgdGFza0lkIG9mIFsic2VydmVyLWFkbWluLXZpZXcjYnVpbGQiLCAic2VydmVyLWF1dGgtdmlldyNidWlsZCJdKSB7CiAgYXNzZXJ0SW5wdXRzKHRhc2tJZCwgWyIuLi8uLi9zY3JpcHRzL2NyZWF0ZS1wcmVjb21wcmVzc2VkLWFzc2V0cy5tanMiXSk7Cn0KCmNvbnN0IHJ1c3RJbnB1dHMgPSBbCiAgIi4uLy4uL3ZlcnNpb24uanNvbiIsCiAgIi4uLy4uL3BhY2thZ2VzL2dycGMtY29udHJhY3RzIiwKICAiLi4vLi4vcGFja2FnZXMvd29sLXByb3RvY29sLXJzL0NhcmdvLnRvbWwiLAogICIuLi8uLi9wYWNrYWdlcy93b2wtcHJvdG9jb2wtcnMvc3JjIiwKXTsKZm9yIChjb25zdCB0YXNrTmFtZSBvZiBbImJ1aWxkIiwgImNoZWNrLXR5cGVzIiwgInRlc3QiXSkgewogIGFzc2VydElucHV0cyhgc2VydmVyLWFkbWluLXJzIyR7dGFza05hbWV9YCwgcnVzdElucHV0cyk7Cn0KCmNvbnN0IHJ1c3RCdWlsZCA9IHRhc2tzLmdldCgic2VydmVyLWFkbWluLXJzI2J1aWxkIik7CmlmIChydXN0QnVpbGQuY2FjaGU/LmxvY2FsIHx8IHJ1c3RCdWlsZC5jYWNoZT8ucmVtb3RlKSB7CiAgZmFpbCgic2VydmVyLWFkbWluLXJzI2J1aWxkIG11c3Qgbm90IHVzZSBUdXJibyBhcnRpZmFjdCBjYWNoaW5nIik7Cn0KaWYgKChydXN0QnVpbGQub3V0cHV0cyA/PyBbXSkubGVuZ3RoICE9PSAwKSB7CiAgZmFpbCgic2VydmVyLWFkbWluLXJzI2J1aWxkIG11c3Qgbm90IGNsYWltIGZyb250ZW5kIGRpc3Qgb3V0cHV0cyIpOwp9Cgpmb3IgKGNvbnN0IHRhc2tOYW1lIG9mIFsiYnVpbGQiLCAiY2hlY2stdHlwZXMiXSkgewogIGFzc2VydElucHV0cyhgZm4ta25vY2stZGVza3RvcCMke3Rhc2tOYW1lfWAsIFsKICAgICIuLi8uLi92ZXJzaW9uLmpzb24iLAogICAgIi4uLy4uL3BhY2thZ2VzL2dycGMtY29udHJhY3RzIiwKICBdKTsKfQoKY29uc3QgdHVyYm9Db25maWcgPSBKU09OLnBhcnNlKAogIHJlYWRGaWxlU3luYyhwYXRoLmpvaW4ocm9vdCwgInR1cmJvLmpzb24iKSwgInV0ZjgiKSwKKTsKZm9yIChjb25zdCB0YXNrTmFtZSBvZiBbImJ1aWxkIiwgImNoZWNrLXR5cGVzIl0pIHsKICBjb25zdCB0YXNrID0gdHVyYm9Db25maWcudGFza3NbYGZuLWtub2NrLWRlc2t0b3AjJHt0YXNrTmFtZX1gXTsKICBpZiAoIXRhc2s/LmlucHV0cz8uaW5jbHVkZXMoImJ1bmRsZS93aW5kb3dzL3J1bnRpbWUvYnVuZGxlLmpzb24iKSkgewogICAgZmFpbCgKICAgICAgYGZuLWtub2NrLWRlc2t0b3AjJHt0YXNrTmFtZX0gZG9lcyBub3QgZGVjbGFyZSB0aGUgV2luZG93cyBidW5kbGUgaWRlbnRpdHlgLAogICAgKTsKICB9Cn0KCmNvbnNvbGUubG9nKAogICJbdHVyYm8tY29udHJhY3RdIGV4dGVybmFsIGlucHV0cyBhbmQgbmF0aXZlIGNhY2hlIHBvbGljeSBhcmUgdmFsaWQiLAopOwo=
+#!/usr/bin/env node
+
+import { spawnSync } from "node:child_process";
+import { readFileSync } from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+
+function fail(message) {
+  throw new Error(`[turbo-contract] ${message}`);
+}
+
+const result = spawnSync(
+  process.platform === "win32" ? "npx.cmd" : "npx",
+  [
+    "turbo",
+    "run",
+    "build",
+    "check-types",
+    "test",
+    "--filter=server-admin-rs",
+    "--filter=fn-knock-desktop",
+    "--filter=server-admin-view",
+    "--filter=server-auth-view",
+    "--dry=json",
+  ],
+  { cwd: root, encoding: "utf8" },
+);
+if (result.status !== 0) {
+  fail([result.stdout, result.stderr].filter(Boolean).join("\n").trim());
+}
+
+let dryRun;
+try {
+  dryRun = JSON.parse(result.stdout);
+} catch (error) {
+  fail(`Turbo dry-run did not return JSON: ${error.message}`);
+}
+
+const tasks = new Map(dryRun.tasks.map((task) => [task.taskId, task]));
+
+function assertInputs(taskId, requiredInputs) {
+  const task = tasks.get(taskId);
+  if (!task) fail(`missing dry-run task ${taskId}`);
+  const inputs = Object.keys(task.inputs ?? {});
+  for (const requiredInput of requiredInputs) {
+    if (
+      !inputs.some(
+        (input) =>
+          input === requiredInput || input.startsWith(`${requiredInput}/`),
+      )
+    ) {
+      fail(`${taskId} does not hash ${requiredInput}`);
+    }
+  }
+}
+
+for (const taskId of ["server-admin-view#build", "server-auth-view#build"]) {
+  assertInputs(taskId, ["../../scripts/create-precompressed-assets.mjs"]);
+}
+
+const rustInputs = [
+  "../../version.json",
+  "../../packages/grpc-contracts",
+  "../../packages/wol-protocol-rs/Cargo.toml",
+  "../../packages/wol-protocol-rs/src",
+];
+for (const taskName of ["build", "check-types", "test"]) {
+  assertInputs(`server-admin-rs#${taskName}`, rustInputs);
+}
+
+const rustBuild = tasks.get("server-admin-rs#build");
+if (rustBuild.cache?.local || rustBuild.cache?.remote) {
+  fail("server-admin-rs#build must not use Turbo artifact caching");
+}
+if ((rustBuild.outputs ?? []).length !== 0) {
+  fail("server-admin-rs#build must not claim frontend dist outputs");
+}
+
+for (const taskName of ["build", "check-types"]) {
+  assertInputs(`fn-knock-desktop#${taskName}`, [
+    "../../version.json",
+    "../../packages/grpc-contracts",
+  ]);
+}
+
+const turboConfig = JSON.parse(
+  readFileSync(path.join(root, "turbo.json"), "utf8"),
+);
+for (const taskName of ["build", "check-types"]) {
+  const task = turboConfig.tasks[`fn-knock-desktop#${taskName}`];
+  if (!task?.inputs?.includes("bundle/windows/runtime/bundle.json")) {
+    fail(
+      `fn-knock-desktop#${taskName} does not declare the Windows bundle identity`,
+    );
+  }
+}
+
+console.log(
+  "[turbo-contract] external inputs and native cache policy are valid",
+);

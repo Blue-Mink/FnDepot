@@ -1,1 +1,241 @@
-dXNlIHN1cGVyOjoqOwoKI1t1dG9pcGE6OnBhdGgoZ2V0LCBwYXRoID0gIi9hcGkvYWRtaW4vc2Nhbi9kaXNjb3Zlci10YXJnZXRzIiwgdGFnID0gInNjYW4iLCBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9zY2FuX2Rpc2NvdmVyX3RhcmdldHMiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiU2NhbiB0YXJnZXRzIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfZGlzY292ZXJfdGFyZ2V0cygKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgaGVhZGVyczogSGVhZGVyTWFwLAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQgewogICAgICAgIE9rKGNvbmZpZykgPT4gcmVzcG9uc2U6Om9rKGJ1aWxkX2Rpc2NvdmVyX3RhcmdldHNfcGF5bG9hZCgKICAgICAgICAgICAgJnN0YXRlLAogICAgICAgICAgICAmaGVhZGVycywKICAgICAgICAgICAgJmNvbmZpZywKICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgKSkKICAgICAgICAuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gcmVhZCBzY2FuIGRpc2NvdmVyIHRhcmdldHMgY29uZmlnIik7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IudCgic2VydmVyLnNjYW5EaXNjb3ZlcnkubG9hZFRhcmdldHNGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgocG9zdCwgcGF0aCA9ICIvYXBpL2FkbWluL3NjYW4vZGlzY292ZXItdGFyZ2V0cyIsIHRhZyA9ICJzY2FuIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX3NjYW5fZGlzY292ZXJfdGFyZ2V0cyIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJTYXZlZCBzY2FuIHRhcmdldHMiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHNhdmVfZGlzY292ZXJfdGFyZ2V0cygKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgaGVhZGVyczogSGVhZGVyTWFwLAogICAgSnNvbihib2R5KTogSnNvbjxEaXNjb3ZlclRhcmdldHNCb2R5PiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGxldCBjdXN0b21fY2lkcnMgPSBub3JtYWxpemVfYWxsb3dlZF9zY2FuX2NpZHJzKGJvZHkuY3VzdG9tX2NpZHJzKTsKICAgIGxldCBzZWxlY3RlZF9jaWRycyA9IG5vcm1hbGl6ZV9hbGxvd2VkX3NjYW5fY2lkcnMoYm9keS5zZWxlY3RlZF9jaWRycyk7CiAgICBpZiBsZXQgRXJyKG1lc3NhZ2UpID0gdmFsaWRhdGVfc2Nhbl9jaWRycygmc2VsZWN0ZWRfY2lkcnMpIHsKICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwKICAgICAgICAgICAgbG9jYWxpemVfc2Nhbl9kaXNjb3ZlcnlfZXJyb3IoJnRyYW5zbGF0b3IsICZtZXNzYWdlKSwKICAgICAgICApOwogICAgfQoKICAgIGxldCBjb25maWcgPSBtYXRjaCBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLm1lcmdlX2NvbmZpZ19vYmplY3RfZmllbGRzKAogICAgICAgICAgICAic2Nhbl9kaXNjb3ZlcnkiLAogICAgICAgICAgICBbCiAgICAgICAgICAgICAgICAoImN1c3RvbV9jaWRycyIudG9fc3RyaW5nKCksIGpzb24hKGN1c3RvbV9jaWRycykpLAogICAgICAgICAgICAgICAgKCJzZWxlY3RlZF9jaWRycyIudG9fc3RyaW5nKCksIGpzb24hKHNlbGVjdGVkX2NpZHJzKSksCiAgICAgICAgICAgIF0KICAgICAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgICAgIC5jb2xsZWN0KCksCiAgICAgICAgKQogICAgICAgIC5hd2FpdAogICAgewogICAgICAgIE9rKGNvbmZpZykgPT4gY29uZmlnLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gc2F2ZSBzY2FuIGRpc2NvdmVyIHRhcmdldHMgY29uZmlnIik7CiAgICAgICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLnQoInNlcnZlci5zY2FuRGlzY292ZXJ5LnNhdmVUYXJnZXRzRmFpbGVkIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfTsKICAgIHJlc3BvbnNlOjpvayhidWlsZF9kaXNjb3Zlcl90YXJnZXRzX3BheWxvYWQoCiAgICAgICAgJnN0YXRlLAogICAgICAgICZoZWFkZXJzLAogICAgICAgICZjb25maWcsCiAgICAgICAgJnRyYW5zbGF0b3IsCiAgICApKQogICAgLmludG9fcmVzcG9uc2UoKQp9CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi9zY2FuL2Rpc2NvdmVyLXNldHRpbmdzIiwgdGFnID0gInNjYW4iLCBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9zY2FuX2Rpc2NvdmVyX3NldHRpbmdzIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlNjYW4gZGlzY292ZXJ5IHNldHRpbmdzIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfZGlzY292ZXJfc2V0dGluZ3MoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQgewogICAgICAgIE9rKGNvbmZpZykgPT4gcmVzcG9uc2U6Om9rKGJ1aWxkX2Rpc2NvdmVyX3NldHRpbmdzX3BheWxvYWQoJmNvbmZpZykpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIHJlYWQgc2NhbiBkaXNjb3ZlciBzZXR0aW5ncyIpOwogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLnQoInNlcnZlci5zY2FuRGlzY292ZXJ5LmxvYWRTZXR0aW5nc0ZhaWxlZCIpLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9CgojW3V0b2lwYTo6cGF0aChwb3N0LCBwYXRoID0gIi9hcGkvYWRtaW4vc2Nhbi9kaXNjb3Zlci1zZXR0aW5ncyIsIHRhZyA9ICJzY2FuIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX3NjYW5fZGlzY292ZXJfc2V0dGluZ3MiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiU2F2ZWQgc2NhbiBkaXNjb3Zlcnkgc2V0dGluZ3MiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHNhdmVfZGlzY292ZXJfc2V0dGluZ3MoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIEpzb24oYm9keSk6IEpzb248RGlzY292ZXJTZXR0aW5nc0JvZHk+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbGV0IFNvbWUobW9kZSkgPSBTY2FuSW50ZW5zaXR5TW9kZTo6cGFyc2UoJmJvZHkuaW50ZW5zaXR5X21vZGUpIGVsc2UgewogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgICAgICB0cmFuc2xhdG9yLnQoInNlcnZlci5zY2FuRGlzY292ZXJ5LmludmFsaWRJbnRlbnNpdHlNb2RlIiksCiAgICAgICAgKTsKICAgIH07CiAgICBsZXQgU29tZShsZXZlbCkgPSBTY2FuSW50ZW5zaXR5TGV2ZWw6OnBhcnNlKCZib2R5LmludGVuc2l0eV9sZXZlbCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgICAgIHRyYW5zbGF0b3IudCgic2VydmVyLnNjYW5EaXNjb3ZlcnkuaW52YWxpZEludGVuc2l0eUxldmVsIiksCiAgICAgICAgKTsKICAgIH07CiAgICBsZXQgY29uZmlnID0gbWF0Y2ggc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5tZXJnZV9jb25maWdfb2JqZWN0X2ZpZWxkcygKICAgICAgICAgICAgInNjYW5fZGlzY292ZXJ5IiwKICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgKCJpbnRlbnNpdHlfbW9kZSIudG9fc3RyaW5nKCksIGpzb24hKG1vZGUuYXNfc3RyKCkpKSwKICAgICAgICAgICAgICAgICgiaW50ZW5zaXR5X2xldmVsIi50b19zdHJpbmcoKSwganNvbiEobGV2ZWwuYXNfc3RyKCkpKSwKICAgICAgICAgICAgXQogICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgLmNvbGxlY3QoKSwKICAgICAgICApCiAgICAgICAgLmF3YWl0CiAgICB7CiAgICAgICAgT2soY29uZmlnKSA9PiBjb25maWcsCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBzYXZlIHNjYW4gZGlzY292ZXIgc2V0dGluZ3MiKTsKICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IudCgic2VydmVyLnNjYW5EaXNjb3Zlcnkuc2F2ZVNldHRpbmdzRmFpbGVkIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfTsKICAgIHJlc3BvbnNlOjpvayhidWlsZF9kaXNjb3Zlcl9zZXR0aW5nc19wYXlsb2FkKCZjb25maWcpKS5pbnRvX3Jlc3BvbnNlKCkKfQoKI1t1dG9pcGE6OnBhdGgocG9zdCwgcGF0aCA9ICIvYXBpL2FkbWluL3NjYW4vZGlzY292ZXIvam9icyIsIHRhZyA9ICJzY2FuIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX3NjYW5fZGlzY292ZXJfam9icyIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJTdGFydGVkIHNjYW4gZGlzY292ZXJ5IGpvYiIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gc3RhcnRfZGlzY292ZXJfam9iKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBoZWFkZXJzOiBIZWFkZXJNYXAsCiAgICBKc29uKGJvZHkpOiBKc29uPERpc2NvdmVySm9iQm9keT4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBjcmF0ZTo6aTE4bjo6VHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbGV0IHNjYW5fY2lkcnMgPSBtYXRjaCB2YWxpZGF0ZV9zY2FuX2NpZHJzKCZib2R5LnRhcmdldF9jaWRycykgewogICAgICAgIE9rKGNpZHJzKSBpZiAhY2lkcnMuaXNfZW1wdHkoKSA9PiBjaWRycywKICAgICAgICBPayhfKSA9PiB7CiAgICAgICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwKICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IudCgic2VydmVyLnNjYW5EaXNjb3Zlcnkuc2VsZWN0QXRMZWFzdE9uZUNpZHIiKSwKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICAgICAgRXJyKG1lc3NhZ2UpID0+IHsKICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgICAgICAgICAgbG9jYWxpemVfc2Nhbl9kaXNjb3ZlcnlfZXJyb3IoJnRyYW5zbGF0b3IsICZtZXNzYWdlKSwKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICB9OwogICAgbGV0IGNvbmZpZyA9IG1hdGNoIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0IHsKICAgICAgICBPayhjb25maWcpID0+IGNvbmZpZywKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgY29uZmlnIGJlZm9yZSBzY2FuIGRpc2NvdmVyIGpvYiIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgdHJhbnNsYXRvci50KCJzZXJ2ZXIuc2NhbkRpc2NvdmVyeS5sb2FkQ29uZmlnRmFpbGVkIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfTsKICAgIGxldCBzZWxmX3NjYW5faG9zdHMgPSByZXNvbHZlX2Rpc2NvdmVyX3NlbGZfaG9zdHMoJnN0YXRlLCAmaGVhZGVycyk7CiAgICBsZXQgZXhjbHVkZV9wb3J0cyA9IGNvbGxlY3RfZXhjbHVkZWRfcG9ydHMoJnN0YXRlKTsKICAgIGxldCBydW50aW1lX3NldHRpbmdzID0gcmVzb2x2ZV9zY2FuX3J1bnRpbWVfc2V0dGluZ3MoJmNvbmZpZyk7CiAgICBsZXQgam9iID0gY3JlYXRlX2Rpc2NvdmVyX2pvYigKICAgICAgICAmc3RhdGUsCiAgICAgICAgc2Nhbl9jaWRycywKICAgICAgICBzZWxmX3NjYW5faG9zdHMsCiAgICAgICAgZXhjbHVkZV9wb3J0cywKICAgICAgICBydW50aW1lX3NldHRpbmdzLAogICAgICAgIHRyYW5zbGF0b3IsCiAgICApOwogICAgbGV0IGRhdGEgPSBzZXJpYWxpemVfZGlzY292ZXJfam9iKCZqb2IsIE5vbmUpOwogICAgcmVzcG9uc2U6Om9rKGRhdGEpLmludG9fcmVzcG9uc2UoKQp9CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi9zY2FuL2Rpc2NvdmVyL2pvYnMve2pvYl9pZH0iLCB0YWcgPSAic2NhbiIsIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX3NjYW5fZGlzY292ZXJfam9ic19ieV9qb2JfaWQiLCBwYXJhbXMoKCJqb2JfaWQiID0gU3RyaW5nLCBQYXRoLCBkZXNjcmlwdGlvbiA9ICJTY2FuIGpvYiBpZGVudGlmaWVyIikpLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiU2NhbiBkaXNjb3Zlcnkgam9iIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfZGlzY292ZXJfam9iKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBQYXRoKGpvYl9pZCk6IFBhdGg8U3RyaW5nPiwKICAgIFF1ZXJ5KHF1ZXJ5KTogUXVlcnk8RGlzY292ZXJKb2JRdWVyeT4sCikgLT4gUmVzcG9uc2UgewogICAgY2xlYW51cF9kaXNjb3Zlcl9qb2JzKCk7CiAgICBsZXQgU29tZShqb2IpID0gZ2V0X2Rpc2NvdmVyX2pvYl9oYW5kbGUoJmpvYl9pZCkgZWxzZSB7CiAgICAgICAgbGV0IHRyYW5zbGF0b3IgPSBjcmF0ZTo6aTE4bjo6VHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6Ok5PVF9GT1VORCwKICAgICAgICAgICAgdHJhbnNsYXRvci50KCJzZXJ2ZXIuc2NhbkRpc2NvdmVyeS5zY2FuSm9iTm90Rm91bmQiKSwKICAgICAgICApOwogICAgfTsKICAgIHJlc3BvbnNlOjpvayhzZXJpYWxpemVfZGlzY292ZXJfam9iKCZqb2IsIHF1ZXJ5LmN1cnNvci5hc19kZXJlZigpKSkuaW50b19yZXNwb25zZSgpCn0KCiNbdXRvaXBhOjpwYXRoKGRlbGV0ZSwgcGF0aCA9ICIvYXBpL2FkbWluL3NjYW4vZGlzY292ZXIvam9icy97am9iX2lkfSIsIHRhZyA9ICJzY2FuIiwgb3BlcmF0aW9uX2lkID0gImRlbGV0ZV9hcGlfYWRtaW5fc2Nhbl9kaXNjb3Zlcl9qb2JzX2J5X2pvYl9pZCIsIHBhcmFtcygoImpvYl9pZCIgPSBTdHJpbmcsIFBhdGgsIGRlc2NyaXB0aW9uID0gIlNjYW4gam9iIGlkZW50aWZpZXIiKSksIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJDYW5jZWxsZWQgc2NhbiBkaXNjb3Zlcnkgam9iIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBjYW5jZWxfZGlzY292ZXJfam9iX3JvdXRlKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBQYXRoKGpvYl9pZCk6IFBhdGg8U3RyaW5nPiwKKSAtPiBSZXNwb25zZSB7CiAgICBjbGVhbnVwX2Rpc2NvdmVyX2pvYnMoKTsKICAgIGxldCBTb21lKGpvYikgPSBnZXRfZGlzY292ZXJfam9iX2hhbmRsZSgmam9iX2lkKSBlbHNlIHsKICAgICAgICBsZXQgdHJhbnNsYXRvciA9IGNyYXRlOjppMThuOjpUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgU3RhdHVzQ29kZTo6Tk9UX0ZPVU5ELAogICAgICAgICAgICB0cmFuc2xhdG9yLnQoInNlcnZlci5zY2FuRGlzY292ZXJ5LnNjYW5Kb2JOb3RGb3VuZCIpLAogICAgICAgICk7CiAgICB9OwogICAgY2FuY2VsX2Rpc2NvdmVyX2pvYigmam9iKTsKICAgIHJlc3BvbnNlOjpvayhzZXJpYWxpemVfZGlzY292ZXJfam9iKCZqb2IsIE5vbmUpKS5pbnRvX3Jlc3BvbnNlKCkKfQoKI1t1dG9pcGE6OnBhdGgocG9zdCwgcGF0aCA9ICIvYXBpL2FkbWluL3NjYW4vaG9zdC1tYXBwaW5ncy9wcm9iZSIsIHRhZyA9ICJzY2FuIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX3NjYW5faG9zdF9tYXBwaW5nc19wcm9iZSIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJIb3N0IG1hcHBpbmcgcHJvYmUgcmVzdWx0cyIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gcHJvYmVfaG9zdF9tYXBwaW5ncygKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgSnNvbihib2R5KTogSnNvbjxIb3N0TWFwcGluZ1Byb2JlQm9keT4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICBsZXQgY29uZmlnID0gbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQgewogICAgICAgIE9rKGNvbmZpZykgPT4gY29uZmlnLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gcmVhZCBob3N0IG1hcHBpbmdzIGZvciBwcm9iZSIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgdHJhbnNsYXRvci50KCJzZXJ2ZXIuc2NhbkRpc2NvdmVyeS5sb2FkQ29uZmlnRmFpbGVkIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfTsKICAgIGxldCByZXN1bHRzID0gcHJvYmVfY29uZmlndXJlZF9ob3N0X21hcHBpbmdzKAogICAgICAgIGNvbmZpZwogICAgICAgICAgICAuZ2V0KCJob3N0X21hcHBpbmdzIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAgICAgLmNsb25lZCgpCiAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgIGJvZHkuaG9zdHMudW53cmFwX29yX2RlZmF1bHQoKSwKICAgICkKICAgIC5hd2FpdDsKICAgIHJlc3BvbnNlOjpvayhqc29uISh7ICJyZXN1bHRzIjogcmVzdWx0cyB9KSkuaW50b19yZXNwb25zZSgpCn0K
+use super::*;
+
+#[utoipa::path(get, path = "/api/admin/scan/discover-targets", tag = "scan", operation_id = "get_api_admin_scan_discover_targets", responses((status = 200, description = "Scan targets")))]
+pub(super) async fn get_discover_targets(
+    State(state): State<AppState>,
+    headers: HeaderMap,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match state.storage.store.get_config().await {
+        Ok(config) => response::ok(build_discover_targets_payload(
+            &state,
+            &headers,
+            &config,
+            &translator,
+        ))
+        .into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to read scan discover targets config");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                translator.t("server.scanDiscovery.loadTargetsFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(post, path = "/api/admin/scan/discover-targets", tag = "scan", operation_id = "post_api_admin_scan_discover_targets", responses((status = 200, description = "Saved scan targets")))]
+pub(super) async fn save_discover_targets(
+    State(state): State<AppState>,
+    headers: HeaderMap,
+    Json(body): Json<DiscoverTargetsBody>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let custom_cidrs = normalize_allowed_scan_cidrs(body.custom_cidrs);
+    let selected_cidrs = normalize_allowed_scan_cidrs(body.selected_cidrs);
+    if let Err(message) = validate_scan_cidrs(&selected_cidrs) {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            localize_scan_discovery_error(&translator, &message),
+        );
+    }
+
+    let config = match state
+        .storage
+        .store
+        .merge_config_object_fields(
+            "scan_discovery",
+            [
+                ("custom_cidrs".to_string(), json!(custom_cidrs)),
+                ("selected_cidrs".to_string(), json!(selected_cidrs)),
+            ]
+            .into_iter()
+            .collect(),
+        )
+        .await
+    {
+        Ok(config) => config,
+        Err(error) => {
+            tracing::warn!(%error, "failed to save scan discover targets config");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                translator.t("server.scanDiscovery.saveTargetsFailed"),
+            );
+        }
+    };
+    response::ok(build_discover_targets_payload(
+        &state,
+        &headers,
+        &config,
+        &translator,
+    ))
+    .into_response()
+}
+
+#[utoipa::path(get, path = "/api/admin/scan/discover-settings", tag = "scan", operation_id = "get_api_admin_scan_discover_settings", responses((status = 200, description = "Scan discovery settings")))]
+pub(super) async fn get_discover_settings(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match state.storage.store.get_config().await {
+        Ok(config) => response::ok(build_discover_settings_payload(&config)).into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to read scan discover settings");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                translator.t("server.scanDiscovery.loadSettingsFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(post, path = "/api/admin/scan/discover-settings", tag = "scan", operation_id = "post_api_admin_scan_discover_settings", responses((status = 200, description = "Saved scan discovery settings")))]
+pub(super) async fn save_discover_settings(
+    State(state): State<AppState>,
+    Json(body): Json<DiscoverSettingsBody>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let Some(mode) = ScanIntensityMode::parse(&body.intensity_mode) else {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            translator.t("server.scanDiscovery.invalidIntensityMode"),
+        );
+    };
+    let Some(level) = ScanIntensityLevel::parse(&body.intensity_level) else {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            translator.t("server.scanDiscovery.invalidIntensityLevel"),
+        );
+    };
+    let config = match state
+        .storage
+        .store
+        .merge_config_object_fields(
+            "scan_discovery",
+            [
+                ("intensity_mode".to_string(), json!(mode.as_str())),
+                ("intensity_level".to_string(), json!(level.as_str())),
+            ]
+            .into_iter()
+            .collect(),
+        )
+        .await
+    {
+        Ok(config) => config,
+        Err(error) => {
+            tracing::warn!(%error, "failed to save scan discover settings");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                translator.t("server.scanDiscovery.saveSettingsFailed"),
+            );
+        }
+    };
+    response::ok(build_discover_settings_payload(&config)).into_response()
+}
+
+#[utoipa::path(post, path = "/api/admin/scan/discover/jobs", tag = "scan", operation_id = "post_api_admin_scan_discover_jobs", responses((status = 200, description = "Started scan discovery job")))]
+pub(super) async fn start_discover_job(
+    State(state): State<AppState>,
+    headers: HeaderMap,
+    Json(body): Json<DiscoverJobBody>,
+) -> Response {
+    let translator = crate::i18n::Translator::from_state(&state).await;
+    let scan_cidrs = match validate_scan_cidrs(&body.target_cidrs) {
+        Ok(cidrs) if !cidrs.is_empty() => cidrs,
+        Ok(_) => {
+            return response::error(
+                StatusCode::BAD_REQUEST,
+                translator.t("server.scanDiscovery.selectAtLeastOneCidr"),
+            );
+        }
+        Err(message) => {
+            return response::error(
+                StatusCode::BAD_REQUEST,
+                localize_scan_discovery_error(&translator, &message),
+            );
+        }
+    };
+    let config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => {
+            tracing::warn!(%error, "failed to load config before scan discover job");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                translator.t("server.scanDiscovery.loadConfigFailed"),
+            );
+        }
+    };
+    let self_scan_hosts = resolve_discover_self_hosts(&state, &headers);
+    let exclude_ports = collect_excluded_ports(&state);
+    let runtime_settings = resolve_scan_runtime_settings(&config);
+    let job = create_discover_job(
+        &state,
+        scan_cidrs,
+        self_scan_hosts,
+        exclude_ports,
+        runtime_settings,
+        translator,
+    );
+    let data = serialize_discover_job(&job, None);
+    response::ok(data).into_response()
+}
+
+#[utoipa::path(get, path = "/api/admin/scan/discover/jobs/{job_id}", tag = "scan", operation_id = "get_api_admin_scan_discover_jobs_by_job_id", params(("job_id" = String, Path, description = "Scan job identifier")), responses((status = 200, description = "Scan discovery job")))]
+pub(super) async fn get_discover_job(
+    State(state): State<AppState>,
+    Path(job_id): Path<String>,
+    Query(query): Query<DiscoverJobQuery>,
+) -> Response {
+    cleanup_discover_jobs();
+    let Some(job) = get_discover_job_handle(&job_id) else {
+        let translator = crate::i18n::Translator::from_state(&state).await;
+        return response::error(
+            StatusCode::NOT_FOUND,
+            translator.t("server.scanDiscovery.scanJobNotFound"),
+        );
+    };
+    response::ok(serialize_discover_job(&job, query.cursor.as_deref())).into_response()
+}
+
+#[utoipa::path(delete, path = "/api/admin/scan/discover/jobs/{job_id}", tag = "scan", operation_id = "delete_api_admin_scan_discover_jobs_by_job_id", params(("job_id" = String, Path, description = "Scan job identifier")), responses((status = 200, description = "Cancelled scan discovery job")))]
+pub(super) async fn cancel_discover_job_route(
+    State(state): State<AppState>,
+    Path(job_id): Path<String>,
+) -> Response {
+    cleanup_discover_jobs();
+    let Some(job) = get_discover_job_handle(&job_id) else {
+        let translator = crate::i18n::Translator::from_state(&state).await;
+        return response::error(
+            StatusCode::NOT_FOUND,
+            translator.t("server.scanDiscovery.scanJobNotFound"),
+        );
+    };
+    cancel_discover_job(&job);
+    response::ok(serialize_discover_job(&job, None)).into_response()
+}
+
+#[utoipa::path(post, path = "/api/admin/scan/host-mappings/probe", tag = "scan", operation_id = "post_api_admin_scan_host_mappings_probe", responses((status = 200, description = "Host mapping probe results")))]
+pub(super) async fn probe_host_mappings(
+    State(state): State<AppState>,
+    Json(body): Json<HostMappingProbeBody>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => {
+            tracing::warn!(%error, "failed to read host mappings for probe");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                translator.t("server.scanDiscovery.loadConfigFailed"),
+            );
+        }
+    };
+    let results = probe_configured_host_mappings(
+        config
+            .get("host_mappings")
+            .and_then(Value::as_array)
+            .cloned()
+            .unwrap_or_default(),
+        body.hosts.unwrap_or_default(),
+    )
+    .await;
+    response::ok(json!({ "results": results })).into_response()
+}

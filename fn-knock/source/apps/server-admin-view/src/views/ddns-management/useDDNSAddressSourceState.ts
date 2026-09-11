@@ -1,1 +1,268 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdHlwZSBERE5TTmV0d29ya0ludGVyZmFjZVBheWxvYWQgfSBmcm9tICJAL2xpYi9hcGkvZGRucyI7CmltcG9ydCB7CiAgSU5URVJGQUNFX0lQVjRfSU5ERVhfS0VZLAogIElOVEVSRkFDRV9JUFY0X1NFTEVDVE9SX0tFWSwKICBJTlRFUkZBQ0VfSVBWNl9JTkRFWF9LRVksCiAgSU5URVJGQUNFX0lQVjZfU0VMRUNUT1JfS0VZLAogIElQX1NPVVJDRV9LRVksCiAgSVBfU09VUkNFX09QVElPTlMsCiAgTkVUV09SS19JTlRFUkZBQ0VfS0VZLAogIFVQREFURV9TQ09QRV9LRVksCiAgVVBEQVRFX1NDT1BFX09QVElPTlMsCiAgYWxsb3dzUHJpdmF0ZUFkZHJlc3NlcywKICBidWlsZE5ldHdvcmtJbnRlcmZhY2VBZGRyZXNzT3B0aW9ucywKICBpc0lwU291cmNlT3B0aW9uRGlzYWJsZWQsCiAgaXNVcGRhdGVTY29wZU9wdGlvbkRpc2FibGVkLAogIG5vcm1hbGl6ZUlwU291cmNlLAogIG5vcm1hbGl6ZU5ldHdvcmtJbnRlcmZhY2UsCiAgbm9ybWFsaXplVXBkYXRlU2NvcGUsCiAgcmVzb2x2ZU5ldHdvcmtJbnRlcmZhY2VPcHRpb25zLAogIHNob3VsZFNob3dJUHY0Rm9yU2NvcGUsCiAgc2hvdWxkU2hvd0lQdjZGb3JTY29wZSwKICB0eXBlIERETlNJcFNvdXJjZSwKICB0eXBlIERETlNVcGRhdGVTY29wZSwKICB0eXBlIFByb3ZpZGVyLAp9IGZyb20gIi4vbW9kZWwiOwoKdHlwZSBUcmFuc2xhdGVQYXJhbXMgPSBSZWNvcmQ8c3RyaW5nLCBzdHJpbmcgfCBudW1iZXI+OwoKZXhwb3J0IGNvbnN0IHVzZURETlNBZGRyZXNzU291cmNlU3RhdGUgPSAoewogIG5ldHdvcmtJbnRlcmZhY2VzLAogIHByb3ZpZGVyQ29uZmlnLAogIHByb3ZpZGVycywKICBzZWxlY3RlZFByb3ZpZGVyLAogIHN0YXR1c0lwU291cmNlLAogIHN0YXR1c05ldHdvcmtJbnRlcmZhY2UsCiAgc3RhdHVzVXBkYXRlU2NvcGUsCiAgdHJhbnNsYXRlLAp9OiB7CiAgbmV0d29ya0ludGVyZmFjZXM6IFJlZjxERE5TTmV0d29ya0ludGVyZmFjZVBheWxvYWRbXT47CiAgcHJvdmlkZXJDb25maWc6IFJlZjxSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+PjsKICBwcm92aWRlcnM6IFJlZjxQcm92aWRlcltdPjsKICBzZWxlY3RlZFByb3ZpZGVyOiBSZWY8c3RyaW5nPjsKICBzdGF0dXNJcFNvdXJjZTogUmVmPERETlNJcFNvdXJjZT47CiAgc3RhdHVzTmV0d29ya0ludGVyZmFjZTogUmVmPHN0cmluZz47CiAgc3RhdHVzVXBkYXRlU2NvcGU6IFJlZjxERE5TVXBkYXRlU2NvcGU+OwogIHRyYW5zbGF0ZTogKGtleTogc3RyaW5nLCBwYXJhbXM/OiBUcmFuc2xhdGVQYXJhbXMpID0+IHN0cmluZzsKfSkgPT4gewogIGNvbnN0IGZvcm1hdE9wdGlvbkxhYmVsID0gKG9wdGlvbjogeyBsYWJlbEtleTogc3RyaW5nIH0pID0+CiAgICB0cmFuc2xhdGUob3B0aW9uLmxhYmVsS2V5KTsKCiAgY29uc3QgZ2V0VXBkYXRlU2NvcGVMYWJlbCA9ICh2YWx1ZTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCkgPT4gewogICAgY29uc3QgdXBkYXRlU2NvcGUgPSBub3JtYWxpemVVcGRhdGVTY29wZSh2YWx1ZSk7CiAgICBjb25zdCBvcHRpb24gPSBVUERBVEVfU0NPUEVfT1BUSU9OUy5maW5kKAogICAgICAoaXRlbSkgPT4gaXRlbS52YWx1ZSA9PT0gdXBkYXRlU2NvcGUsCiAgICApOwogICAgcmV0dXJuIG9wdGlvbgogICAgICA/IGZvcm1hdE9wdGlvbkxhYmVsKG9wdGlvbikKICAgICAgOiB0cmFuc2xhdGUoImFkbWluLmRkbnMudXBkYXRlU2NvcGUuZHVhbFN0YWNrIik7CiAgfTsKCiAgY29uc3QgaXNQcm92aWRlclVwZGF0ZVNjb3BlT3B0aW9uRGlzYWJsZWQgPSAoCiAgICBwcm92aWRlck5hbWU6IHN0cmluZywKICAgIG9wdGlvbjogREROU1VwZGF0ZVNjb3BlLAogICkgPT4gaXNVcGRhdGVTY29wZU9wdGlvbkRpc2FibGVkKHByb3ZpZGVycy52YWx1ZSwgcHJvdmlkZXJOYW1lLCBvcHRpb24pOwoKICBjb25zdCBpc1Byb3ZpZGVySXBTb3VyY2VPcHRpb25EaXNhYmxlZCA9ICgKICAgIHByb3ZpZGVyTmFtZTogc3RyaW5nLAogICAgb3B0aW9uOiBERE5TSXBTb3VyY2UsCiAgKSA9PiBpc0lwU291cmNlT3B0aW9uRGlzYWJsZWQocHJvdmlkZXJzLnZhbHVlLCBwcm92aWRlck5hbWUsIG9wdGlvbik7CgogIGNvbnN0IGZvcm1hdEFkZHJlc3NPcHRpb25MYWJlbCA9ICgKICAgIGl0ZW06IHsgYWRkcmVzczogc3RyaW5nOyBmYW1pbHk6ICJpcHY0IiB8ICJpcHY2IiB9LAogICAgaW5kZXg6IG51bWJlciwKICApID0+CiAgICB0cmFuc2xhdGUoImFkbWluLmRkbnMuYWRkcmVzc09wdGlvbkxhYmVsIiwgewogICAgICBpbmRleDogaW5kZXggKyAxLAogICAgICBmYW1pbHk6IGl0ZW0uZmFtaWx5ID09PSAiaXB2NCIgPyAiSVB2NCIgOiAiSVB2NiIsCiAgICAgIGFkZHJlc3M6IGl0ZW0uYWRkcmVzcywKICAgIH0pOwoKICBjb25zdCBjdXJyZW50VXBkYXRlU2NvcGVMYWJlbCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIHJldHVybiBnZXRVcGRhdGVTY29wZUxhYmVsKAogICAgICBwcm92aWRlckNvbmZpZy52YWx1ZVtVUERBVEVfU0NPUEVfS0VZXSB8fCBzdGF0dXNVcGRhdGVTY29wZS52YWx1ZSwKICAgICk7CiAgfSk7CgogIGNvbnN0IGN1cnJlbnRJcFNvdXJjZUxhYmVsID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3QgaXBTb3VyY2UgPSBub3JtYWxpemVJcFNvdXJjZSgKICAgICAgcHJvdmlkZXJDb25maWcudmFsdWVbSVBfU09VUkNFX0tFWV0gfHwgc3RhdHVzSXBTb3VyY2UudmFsdWUsCiAgICApOwogICAgY29uc3Qgb3B0aW9uID0gSVBfU09VUkNFX09QVElPTlMuZmluZCgoaXRlbSkgPT4gaXRlbS52YWx1ZSA9PT0gaXBTb3VyY2UpOwogICAgcmV0dXJuIG9wdGlvbgogICAgICA/IGZvcm1hdE9wdGlvbkxhYmVsKG9wdGlvbikKICAgICAgOiB0cmFuc2xhdGUoImFkbWluLmRkbnMuaXBTb3VyY2UucHVibGljIik7CiAgfSk7CgogIGNvbnN0IHNlbGVjdGVkTmV0d29ya0ludGVyZmFjZSA9IGNvbXB1dGVkKCgpID0+IHsKICAgIHJldHVybiBub3JtYWxpemVOZXR3b3JrSW50ZXJmYWNlKAogICAgICBwcm92aWRlckNvbmZpZy52YWx1ZVtORVRXT1JLX0lOVEVSRkFDRV9LRVldIHx8CiAgICAgICAgc3RhdHVzTmV0d29ya0ludGVyZmFjZS52YWx1ZSwKICAgICk7CiAgfSk7CgogIGNvbnN0IGNvbmZpZ3VyZWROZXR3b3JrSW50ZXJmYWNlID0gY29tcHV0ZWQoKCkgPT4gewogICAgcmV0dXJuIG5vcm1hbGl6ZU5ldHdvcmtJbnRlcmZhY2UoCiAgICAgIHByb3ZpZGVyQ29uZmlnLnZhbHVlW05FVFdPUktfSU5URVJGQUNFX0tFWV0sCiAgICApOwogIH0pOwoKICBjb25zdCByZXNvbHZlZE5ldHdvcmtJbnRlcmZhY2VzID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3Qgc2VsZWN0ZWQgPSBzZWxlY3RlZE5ldHdvcmtJbnRlcmZhY2UudmFsdWU7CiAgICByZXR1cm4gcmVzb2x2ZU5ldHdvcmtJbnRlcmZhY2VPcHRpb25zKG5ldHdvcmtJbnRlcmZhY2VzLnZhbHVlLCBzZWxlY3RlZCwgewogICAgICBsYWJlbDogdHJhbnNsYXRlKCJhZG1pbi5kZG5zLnVuYXZhaWxhYmxlSW50ZXJmYWNlTGFiZWwiLCB7CiAgICAgICAgbmFtZTogc2VsZWN0ZWQsCiAgICAgIH0pLAogICAgICBzdW1tYXJ5OiB0cmFuc2xhdGUoImFkbWluLmRkbnMudW5hdmFpbGFibGVJbnRlcmZhY2VTdW1tYXJ5IiksCiAgICB9KTsKICB9KTsKCiAgY29uc3QgY3VycmVudE5ldHdvcmtJbnRlcmZhY2VMYWJlbCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IHNlbGVjdGVkID0gc2VsZWN0ZWROZXR3b3JrSW50ZXJmYWNlLnZhbHVlOwogICAgaWYgKCFzZWxlY3RlZCkgewogICAgICByZXR1cm4gdHJhbnNsYXRlKCJhZG1pbi5kZG5zLmF1dG9TZWxlY3QiKTsKICAgIH0KICAgIHJldHVybiAoCiAgICAgIHJlc29sdmVkTmV0d29ya0ludGVyZmFjZXMudmFsdWUuZmluZCgoaXRlbSkgPT4gaXRlbS5uYW1lID09PSBzZWxlY3RlZCkKICAgICAgICA/LmxhYmVsIHx8IHNlbGVjdGVkCiAgICApOwogIH0pOwoKICBjb25zdCBjb25maWd1cmVkTmV0d29ya0ludGVyZmFjZUxhYmVsID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3Qgc2VsZWN0ZWQgPSBjb25maWd1cmVkTmV0d29ya0ludGVyZmFjZS52YWx1ZTsKICAgIGlmICghc2VsZWN0ZWQpIHsKICAgICAgcmV0dXJuIHRyYW5zbGF0ZSgiYWRtaW4uZGRucy5hdXRvU2VsZWN0Iik7CiAgICB9CiAgICByZXR1cm4gKAogICAgICByZXNvbHZlZE5ldHdvcmtJbnRlcmZhY2VzLnZhbHVlLmZpbmQoKGl0ZW0pID0+IGl0ZW0ubmFtZSA9PT0gc2VsZWN0ZWQpCiAgICAgICAgPy5sYWJlbCB8fCBzZWxlY3RlZAogICAgKTsKICB9KTsKCiAgY29uc3Qgc2VsZWN0ZWROZXR3b3JrSW50ZXJmYWNlRGV0YWlsID0gY29tcHV0ZWQoKCkgPT4gewogICAgcmV0dXJuIGNvbmZpZ3VyZWROZXR3b3JrSW50ZXJmYWNlLnZhbHVlCiAgICAgID8gY29uZmlndXJlZE5ldHdvcmtJbnRlcmZhY2VMYWJlbC52YWx1ZQogICAgICA6ICIiOwogIH0pOwoKICBjb25zdCBlZmZlY3RpdmVVcGRhdGVTY29wZSA9IGNvbXB1dGVkPERETlNVcGRhdGVTY29wZT4oKCkgPT4gewogICAgcmV0dXJuIG5vcm1hbGl6ZVVwZGF0ZVNjb3BlKAogICAgICBwcm92aWRlckNvbmZpZy52YWx1ZVtVUERBVEVfU0NPUEVfS0VZXSB8fCBzdGF0dXNVcGRhdGVTY29wZS52YWx1ZSwKICAgICk7CiAgfSk7CgogIGNvbnN0IGVmZmVjdGl2ZUlwU291cmNlID0gY29tcHV0ZWQ8REROU0lwU291cmNlPigoKSA9PiB7CiAgICByZXR1cm4gbm9ybWFsaXplSXBTb3VyY2UoCiAgICAgIHByb3ZpZGVyQ29uZmlnLnZhbHVlW0lQX1NPVVJDRV9LRVldIHx8IHN0YXR1c0lwU291cmNlLnZhbHVlLAogICAgKTsKICB9KTsKCiAgY29uc3Qgc2VsZWN0ZWROZXR3b3JrSW50ZXJmYWNlT3B0aW9uID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3Qgc2VsZWN0ZWQgPSBjb25maWd1cmVkTmV0d29ya0ludGVyZmFjZS52YWx1ZTsKICAgIGlmICghc2VsZWN0ZWQpIHsKICAgICAgcmV0dXJuIG51bGw7CiAgICB9CgogICAgcmV0dXJuICgKICAgICAgcmVzb2x2ZWROZXR3b3JrSW50ZXJmYWNlcy52YWx1ZS5maW5kKChpdGVtKSA9PiBpdGVtLm5hbWUgPT09IHNlbGVjdGVkKSB8fAogICAgICBudWxsCiAgICApOwogIH0pOwoKICBjb25zdCBpbnRlcmZhY2VJUHY0T3B0aW9ucyA9IGNvbXB1dGVkKCgpID0+IHsKICAgIHJldHVybiBidWlsZE5ldHdvcmtJbnRlcmZhY2VBZGRyZXNzT3B0aW9ucygKICAgICAgc2VsZWN0ZWROZXR3b3JrSW50ZXJmYWNlT3B0aW9uLnZhbHVlLAogICAgICAiaXB2NCIsCiAgICAgIGZvcm1hdEFkZHJlc3NPcHRpb25MYWJlbCwKICAgICAgYWxsb3dzUHJpdmF0ZUFkZHJlc3Nlcyhwcm92aWRlckNvbmZpZy52YWx1ZSksCiAgICApOwogIH0pOwoKICBjb25zdCBpbnRlcmZhY2VJUHY2T3B0aW9ucyA9IGNvbXB1dGVkKCgpID0+IHsKICAgIHJldHVybiBidWlsZE5ldHdvcmtJbnRlcmZhY2VBZGRyZXNzT3B0aW9ucygKICAgICAgc2VsZWN0ZWROZXR3b3JrSW50ZXJmYWNlT3B0aW9uLnZhbHVlLAogICAgICAiaXB2NiIsCiAgICAgIGZvcm1hdEFkZHJlc3NPcHRpb25MYWJlbCwKICAgICAgYWxsb3dzUHJpdmF0ZUFkZHJlc3Nlcyhwcm92aWRlckNvbmZpZy52YWx1ZSksCiAgICApOwogIH0pOwoKICBjb25zdCBzaG91bGRTaG93SW50ZXJmYWNlQWRkcmVzc0Jsb2NrID0gY29tcHV0ZWQoCiAgICAoKSA9PiAhIXNlbGVjdGVkUHJvdmlkZXIudmFsdWUgJiYgZWZmZWN0aXZlSXBTb3VyY2UudmFsdWUgPT09ICJpbnRlcmZhY2UiLAogICk7CiAgY29uc3Qgc2hvdWxkU2hvd1N0YXRpY0FkZHJlc3NCbG9jayA9IGNvbXB1dGVkKAogICAgKCkgPT4gISFzZWxlY3RlZFByb3ZpZGVyLnZhbHVlICYmIGVmZmVjdGl2ZUlwU291cmNlLnZhbHVlID09PSAic3RhdGljIiwKICApOwogIGNvbnN0IHNob3VsZFNob3dTb3VyY2VEb21haW5CbG9jayA9IGNvbXB1dGVkKAogICAgKCkgPT4gISFzZWxlY3RlZFByb3ZpZGVyLnZhbHVlICYmIGVmZmVjdGl2ZUlwU291cmNlLnZhbHVlID09PSAiZG9tYWluIiwKICApOwogIGNvbnN0IHNob3dTdGF0aWNJUHY0SW5wdXQgPSBjb21wdXRlZCgKICAgICgpID0+CiAgICAgIHNob3VsZFNob3dTdGF0aWNBZGRyZXNzQmxvY2sudmFsdWUgJiYKICAgICAgZWZmZWN0aXZlVXBkYXRlU2NvcGUudmFsdWUgIT09ICJpcHY2X29ubHkiLAogICk7CiAgY29uc3Qgc2hvd1N0YXRpY0lQdjZJbnB1dCA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgc2hvdWxkU2hvd1N0YXRpY0FkZHJlc3NCbG9jay52YWx1ZSAmJgogICAgICBlZmZlY3RpdmVVcGRhdGVTY29wZS52YWx1ZSAhPT0gImlwdjRfb25seSIsCiAgKTsKICBjb25zdCBzaG93SW50ZXJmYWNlSVB2NFNlbGVjdCA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgc2hvdWxkU2hvd0ludGVyZmFjZUFkZHJlc3NCbG9jay52YWx1ZSAmJgogICAgICBlZmZlY3RpdmVVcGRhdGVTY29wZS52YWx1ZSAhPT0gImlwdjZfb25seSIsCiAgKTsKICBjb25zdCBzaG93SW50ZXJmYWNlSVB2NlNlbGVjdCA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgc2hvdWxkU2hvd0ludGVyZmFjZUFkZHJlc3NCbG9jay52YWx1ZSAmJgogICAgICBlZmZlY3RpdmVVcGRhdGVTY29wZS52YWx1ZSAhPT0gImlwdjRfb25seSIsCiAgKTsKCiAgY29uc3Qgc2hvd0lQdjRTdGF0dXMgPSBjb21wdXRlZCgoKSA9PgogICAgc2hvdWxkU2hvd0lQdjRGb3JTY29wZShlZmZlY3RpdmVVcGRhdGVTY29wZS52YWx1ZSksCiAgKTsKICBjb25zdCBzaG93SVB2NlN0YXR1cyA9IGNvbXB1dGVkKCgpID0+CiAgICBzaG91bGRTaG93SVB2NkZvclNjb3BlKGVmZmVjdGl2ZVVwZGF0ZVNjb3BlLnZhbHVlKSwKICApOwoKICBjb25zdCB1cGRhdGVDb25maWd1cmVkTmV0d29ya0ludGVyZmFjZSA9ICh2YWx1ZTogc3RyaW5nKSA9PiB7CiAgICBwcm92aWRlckNvbmZpZy52YWx1ZVtORVRXT1JLX0lOVEVSRkFDRV9LRVldID0gdmFsdWU7CiAgICBwcm92aWRlckNvbmZpZy52YWx1ZVtJTlRFUkZBQ0VfSVBWNF9JTkRFWF9LRVldID0gIiI7CiAgICBwcm92aWRlckNvbmZpZy52YWx1ZVtJTlRFUkZBQ0VfSVBWNl9JTkRFWF9LRVldID0gIiI7CiAgICBwcm92aWRlckNvbmZpZy52YWx1ZVtJTlRFUkZBQ0VfSVBWNF9TRUxFQ1RPUl9LRVldID0gIiI7CiAgICBwcm92aWRlckNvbmZpZy52YWx1ZVtJTlRFUkZBQ0VfSVBWNl9TRUxFQ1RPUl9LRVldID0gIiI7CiAgfTsKCiAgY29uc3QgdXBkYXRlQ29uZmlndXJlZElwU291cmNlID0gKHZhbHVlOiBzdHJpbmcpID0+IHsKICAgIHByb3ZpZGVyQ29uZmlnLnZhbHVlW0lQX1NPVVJDRV9LRVldID0gbm9ybWFsaXplSXBTb3VyY2UodmFsdWUpOwogIH07CgogIHJldHVybiB7CiAgICBjb25maWd1cmVkTmV0d29ya0ludGVyZmFjZSwKICAgIGNvbmZpZ3VyZWROZXR3b3JrSW50ZXJmYWNlTGFiZWwsCiAgICBjdXJyZW50SXBTb3VyY2VMYWJlbCwKICAgIGN1cnJlbnROZXR3b3JrSW50ZXJmYWNlTGFiZWwsCiAgICBjdXJyZW50VXBkYXRlU2NvcGVMYWJlbCwKICAgIGVmZmVjdGl2ZUlwU291cmNlLAogICAgZWZmZWN0aXZlVXBkYXRlU2NvcGUsCiAgICBmb3JtYXRBZGRyZXNzT3B0aW9uTGFiZWwsCiAgICBmb3JtYXRPcHRpb25MYWJlbCwKICAgIGludGVyZmFjZUlQdjRPcHRpb25zLAogICAgaW50ZXJmYWNlSVB2Nk9wdGlvbnMsCiAgICBpc1Byb3ZpZGVySXBTb3VyY2VPcHRpb25EaXNhYmxlZCwKICAgIGlzUHJvdmlkZXJVcGRhdGVTY29wZU9wdGlvbkRpc2FibGVkLAogICAgcmVzb2x2ZWROZXR3b3JrSW50ZXJmYWNlcywKICAgIHNlbGVjdGVkTmV0d29ya0ludGVyZmFjZURldGFpbCwKICAgIHNob3VsZFNob3dJbnRlcmZhY2VBZGRyZXNzQmxvY2ssCiAgICBzaG91bGRTaG93U291cmNlRG9tYWluQmxvY2ssCiAgICBzaG91bGRTaG93U3RhdGljQWRkcmVzc0Jsb2NrLAogICAgc2hvd0lQdjRTdGF0dXMsCiAgICBzaG93SVB2NlN0YXR1cywKICAgIHNob3dJbnRlcmZhY2VJUHY0U2VsZWN0LAogICAgc2hvd0ludGVyZmFjZUlQdjZTZWxlY3QsCiAgICBzaG93U3RhdGljSVB2NElucHV0LAogICAgc2hvd1N0YXRpY0lQdjZJbnB1dCwKICAgIHVwZGF0ZUNvbmZpZ3VyZWRJcFNvdXJjZSwKICAgIHVwZGF0ZUNvbmZpZ3VyZWROZXR3b3JrSW50ZXJmYWNlLAogIH07Cn07Cg==
+import { computed, type Ref } from "vue";
+import { type DDNSNetworkInterfacePayload } from "@/lib/api/ddns";
+import {
+  INTERFACE_IPV4_INDEX_KEY,
+  INTERFACE_IPV4_SELECTOR_KEY,
+  INTERFACE_IPV6_INDEX_KEY,
+  INTERFACE_IPV6_SELECTOR_KEY,
+  IP_SOURCE_KEY,
+  IP_SOURCE_OPTIONS,
+  NETWORK_INTERFACE_KEY,
+  UPDATE_SCOPE_KEY,
+  UPDATE_SCOPE_OPTIONS,
+  allowsPrivateAddresses,
+  buildNetworkInterfaceAddressOptions,
+  isIpSourceOptionDisabled,
+  isUpdateScopeOptionDisabled,
+  normalizeIpSource,
+  normalizeNetworkInterface,
+  normalizeUpdateScope,
+  resolveNetworkInterfaceOptions,
+  shouldShowIPv4ForScope,
+  shouldShowIPv6ForScope,
+  type DDNSIpSource,
+  type DDNSUpdateScope,
+  type Provider,
+} from "./model";
+
+type TranslateParams = Record<string, string | number>;
+
+export const useDDNSAddressSourceState = ({
+  networkInterfaces,
+  providerConfig,
+  providers,
+  selectedProvider,
+  statusIpSource,
+  statusNetworkInterface,
+  statusUpdateScope,
+  translate,
+}: {
+  networkInterfaces: Ref<DDNSNetworkInterfacePayload[]>;
+  providerConfig: Ref<Record<string, string>>;
+  providers: Ref<Provider[]>;
+  selectedProvider: Ref<string>;
+  statusIpSource: Ref<DDNSIpSource>;
+  statusNetworkInterface: Ref<string>;
+  statusUpdateScope: Ref<DDNSUpdateScope>;
+  translate: (key: string, params?: TranslateParams) => string;
+}) => {
+  const formatOptionLabel = (option: { labelKey: string }) =>
+    translate(option.labelKey);
+
+  const getUpdateScopeLabel = (value: string | null | undefined) => {
+    const updateScope = normalizeUpdateScope(value);
+    const option = UPDATE_SCOPE_OPTIONS.find(
+      (item) => item.value === updateScope,
+    );
+    return option
+      ? formatOptionLabel(option)
+      : translate("admin.ddns.updateScope.dualStack");
+  };
+
+  const isProviderUpdateScopeOptionDisabled = (
+    providerName: string,
+    option: DDNSUpdateScope,
+  ) => isUpdateScopeOptionDisabled(providers.value, providerName, option);
+
+  const isProviderIpSourceOptionDisabled = (
+    providerName: string,
+    option: DDNSIpSource,
+  ) => isIpSourceOptionDisabled(providers.value, providerName, option);
+
+  const formatAddressOptionLabel = (
+    item: { address: string; family: "ipv4" | "ipv6" },
+    index: number,
+  ) =>
+    translate("admin.ddns.addressOptionLabel", {
+      index: index + 1,
+      family: item.family === "ipv4" ? "IPv4" : "IPv6",
+      address: item.address,
+    });
+
+  const currentUpdateScopeLabel = computed(() => {
+    return getUpdateScopeLabel(
+      providerConfig.value[UPDATE_SCOPE_KEY] || statusUpdateScope.value,
+    );
+  });
+
+  const currentIpSourceLabel = computed(() => {
+    const ipSource = normalizeIpSource(
+      providerConfig.value[IP_SOURCE_KEY] || statusIpSource.value,
+    );
+    const option = IP_SOURCE_OPTIONS.find((item) => item.value === ipSource);
+    return option
+      ? formatOptionLabel(option)
+      : translate("admin.ddns.ipSource.public");
+  });
+
+  const selectedNetworkInterface = computed(() => {
+    return normalizeNetworkInterface(
+      providerConfig.value[NETWORK_INTERFACE_KEY] ||
+        statusNetworkInterface.value,
+    );
+  });
+
+  const configuredNetworkInterface = computed(() => {
+    return normalizeNetworkInterface(
+      providerConfig.value[NETWORK_INTERFACE_KEY],
+    );
+  });
+
+  const resolvedNetworkInterfaces = computed(() => {
+    const selected = selectedNetworkInterface.value;
+    return resolveNetworkInterfaceOptions(networkInterfaces.value, selected, {
+      label: translate("admin.ddns.unavailableInterfaceLabel", {
+        name: selected,
+      }),
+      summary: translate("admin.ddns.unavailableInterfaceSummary"),
+    });
+  });
+
+  const currentNetworkInterfaceLabel = computed(() => {
+    const selected = selectedNetworkInterface.value;
+    if (!selected) {
+      return translate("admin.ddns.autoSelect");
+    }
+    return (
+      resolvedNetworkInterfaces.value.find((item) => item.name === selected)
+        ?.label || selected
+    );
+  });
+
+  const configuredNetworkInterfaceLabel = computed(() => {
+    const selected = configuredNetworkInterface.value;
+    if (!selected) {
+      return translate("admin.ddns.autoSelect");
+    }
+    return (
+      resolvedNetworkInterfaces.value.find((item) => item.name === selected)
+        ?.label || selected
+    );
+  });
+
+  const selectedNetworkInterfaceDetail = computed(() => {
+    return configuredNetworkInterface.value
+      ? configuredNetworkInterfaceLabel.value
+      : "";
+  });
+
+  const effectiveUpdateScope = computed<DDNSUpdateScope>(() => {
+    return normalizeUpdateScope(
+      providerConfig.value[UPDATE_SCOPE_KEY] || statusUpdateScope.value,
+    );
+  });
+
+  const effectiveIpSource = computed<DDNSIpSource>(() => {
+    return normalizeIpSource(
+      providerConfig.value[IP_SOURCE_KEY] || statusIpSource.value,
+    );
+  });
+
+  const selectedNetworkInterfaceOption = computed(() => {
+    const selected = configuredNetworkInterface.value;
+    if (!selected) {
+      return null;
+    }
+
+    return (
+      resolvedNetworkInterfaces.value.find((item) => item.name === selected) ||
+      null
+    );
+  });
+
+  const interfaceIPv4Options = computed(() => {
+    return buildNetworkInterfaceAddressOptions(
+      selectedNetworkInterfaceOption.value,
+      "ipv4",
+      formatAddressOptionLabel,
+      allowsPrivateAddresses(providerConfig.value),
+    );
+  });
+
+  const interfaceIPv6Options = computed(() => {
+    return buildNetworkInterfaceAddressOptions(
+      selectedNetworkInterfaceOption.value,
+      "ipv6",
+      formatAddressOptionLabel,
+      allowsPrivateAddresses(providerConfig.value),
+    );
+  });
+
+  const shouldShowInterfaceAddressBlock = computed(
+    () => !!selectedProvider.value && effectiveIpSource.value === "interface",
+  );
+  const shouldShowStaticAddressBlock = computed(
+    () => !!selectedProvider.value && effectiveIpSource.value === "static",
+  );
+  const shouldShowSourceDomainBlock = computed(
+    () => !!selectedProvider.value && effectiveIpSource.value === "domain",
+  );
+  const showStaticIPv4Input = computed(
+    () =>
+      shouldShowStaticAddressBlock.value &&
+      effectiveUpdateScope.value !== "ipv6_only",
+  );
+  const showStaticIPv6Input = computed(
+    () =>
+      shouldShowStaticAddressBlock.value &&
+      effectiveUpdateScope.value !== "ipv4_only",
+  );
+  const showInterfaceIPv4Select = computed(
+    () =>
+      shouldShowInterfaceAddressBlock.value &&
+      effectiveUpdateScope.value !== "ipv6_only",
+  );
+  const showInterfaceIPv6Select = computed(
+    () =>
+      shouldShowInterfaceAddressBlock.value &&
+      effectiveUpdateScope.value !== "ipv4_only",
+  );
+
+  const showIPv4Status = computed(() =>
+    shouldShowIPv4ForScope(effectiveUpdateScope.value),
+  );
+  const showIPv6Status = computed(() =>
+    shouldShowIPv6ForScope(effectiveUpdateScope.value),
+  );
+
+  const updateConfiguredNetworkInterface = (value: string) => {
+    providerConfig.value[NETWORK_INTERFACE_KEY] = value;
+    providerConfig.value[INTERFACE_IPV4_INDEX_KEY] = "";
+    providerConfig.value[INTERFACE_IPV6_INDEX_KEY] = "";
+    providerConfig.value[INTERFACE_IPV4_SELECTOR_KEY] = "";
+    providerConfig.value[INTERFACE_IPV6_SELECTOR_KEY] = "";
+  };
+
+  const updateConfiguredIpSource = (value: string) => {
+    providerConfig.value[IP_SOURCE_KEY] = normalizeIpSource(value);
+  };
+
+  return {
+    configuredNetworkInterface,
+    configuredNetworkInterfaceLabel,
+    currentIpSourceLabel,
+    currentNetworkInterfaceLabel,
+    currentUpdateScopeLabel,
+    effectiveIpSource,
+    effectiveUpdateScope,
+    formatAddressOptionLabel,
+    formatOptionLabel,
+    interfaceIPv4Options,
+    interfaceIPv6Options,
+    isProviderIpSourceOptionDisabled,
+    isProviderUpdateScopeOptionDisabled,
+    resolvedNetworkInterfaces,
+    selectedNetworkInterfaceDetail,
+    shouldShowInterfaceAddressBlock,
+    shouldShowSourceDomainBlock,
+    shouldShowStaticAddressBlock,
+    showIPv4Status,
+    showIPv6Status,
+    showInterfaceIPv4Select,
+    showInterfaceIPv6Select,
+    showStaticIPv4Input,
+    showStaticIPv6Input,
+    updateConfiguredIpSource,
+    updateConfiguredNetworkInterface,
+  };
+};

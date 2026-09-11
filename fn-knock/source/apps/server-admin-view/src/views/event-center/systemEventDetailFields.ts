@@ -1,1 +1,282 @@
-ZXhwb3J0IGNvbnN0IGRldGFpbEZpZWxkRGVmaW5pdGlvbnMgPSBbCiAgeyBrZXk6ICJpZCIsIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5pZCIgfSwKICB7IGtleTogInR5cGUiLCBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMudHlwZSIgfSwKICB7IGtleTogImxldmVsIiwgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLmxldmVsIiB9LAogIHsga2V5OiAic291cmNlIiwgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLnNvdXJjZSIgfSwKICB7CiAgICBrZXk6ICJoYXBwZW5lZF9hdCIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuaGFwcGVuZWRfYXQiLAogIH0sCiAgewogICAga2V5OiAiZGVkdXBlX2tleSIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuZGVkdXBlX2tleSIsCiAgfSwKICB7IGtleTogInN1YmplY3QiLCBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuc3ViamVjdCIgfSwKICB7CiAgICBrZXk6ICJjcmVkZW50aWFsX25hbWUiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLmNyZWRlbnRpYWxfbmFtZSIsCiAgfSwKICB7CiAgICBrZXk6ICJsaW5rZWRfdG90cF9uYW1lIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5saW5rZWRfdG90cF9uYW1lIiwKICB9LAogIHsKICAgIGtleTogInNlc3Npb25fY29tbWVudCIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuc2Vzc2lvbl9jb21tZW50IiwKICB9LAogIHsKICAgIGtleTogImNyZWRlbnRpYWxfaWQiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLmNyZWRlbnRpYWxfaWQiLAogIH0sCiAgewogICAga2V5OiAiYXV0aF9tZXRob2QiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLmF1dGhfbWV0aG9kIiwKICB9LAogIHsKICAgIGtleTogImF1dGhfcHJvdmlkZXJfbmFtZSIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuYXV0aF9wcm92aWRlcl9uYW1lIiwKICB9LAogIHsKICAgIGtleTogImdyYW50X3R5cGUiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLmdyYW50X3R5cGUiLAogIH0sCiAgewogICAga2V5OiAicG9zdF9sb2dpbl9pcF9ncmFudF9tb2RlIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5wb3N0X2xvZ2luX2lwX2dyYW50X21vZGUiLAogIH0sCiAgewogICAga2V5OiAicmVtZW1iZXJfbWUiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLnJlbWVtYmVyX21lIiwKICB9LAogIHsKICAgIGtleTogInNlc3Npb25faWQiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLnNlc3Npb25faWQiLAogIH0sCiAgewogICAga2V5OiAidGFyZ2V0X2lkIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy50YXJnZXRfaWQiLAogIH0sCiAgewogICAga2V5OiAicmV2aXNpb24iLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLnJldmlzaW9uIiwKICB9LAogIHsKICAgIGtleTogImVycm9yX2NvZGUiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLmVycm9yX2NvZGUiLAogIH0sCiAgeyBrZXk6ICJpcCIsIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5pcCIgfSwKICB7CiAgICBrZXk6ICJpcF9sb2NhdGlvbiIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuaXBfbG9jYXRpb24iLAogIH0sCiAgewogICAga2V5OiAidXNlcl9hZ2VudCIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMudXNlcl9hZ2VudCIsCiAgfSwKICB7CiAgICBrZXk6ICJleHBpcmVzX2F0IiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5leHBpcmVzX2F0IiwKICB9LAogIHsKICAgIGtleTogImxvZ2luX3RpbWUiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLmxvZ2luX3RpbWUiLAogIH0sCiAgewogICAga2V5OiAibG9nb3V0X3NvdXJjZSIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMubG9nb3V0X3NvdXJjZSIsCiAgfSwKICB7CiAgICBrZXk6ICJhdHRlbXB0cyIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuYXR0ZW1wdHMiLAogIH0sCiAgewogICAga2V5OiAidGhyZXNob2xkIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy50aHJlc2hvbGQiLAogIH0sCiAgewogICAga2V5OiAicmV0cnlfYWZ0ZXJfc2Vjb25kcyIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMucmV0cnlfYWZ0ZXJfc2Vjb25kcyIsCiAgfSwKICB7CiAgICBrZXk6ICJibG9ja2VkX3VudGlsIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5ibG9ja2VkX3VudGlsIiwKICB9LAogIHsga2V5OiAibWV0aG9kIiwgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLm1ldGhvZCIgfSwKICB7IGtleTogInNjaGVtZSIsIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5zY2hlbWUiIH0sCiAgewogICAga2V5OiAidmlzaWJpbGl0eV9zY29wZSIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMudmlzaWJpbGl0eV9zY29wZSIsCiAgfSwKICB7CiAgICBrZXk6ICJ2aXNpYmlsaXR5X21vZGUiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLnZpc2liaWxpdHlfbW9kZSIsCiAgfSwKICB7CiAgICBrZXk6ICJkcmlmdF9zb3VyY2UiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLmRyaWZ0X3NvdXJjZSIsCiAgfSwKICB7IGtleTogImZyb21faXAiLCBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuZnJvbV9pcCIgfSwKICB7CiAgICBrZXk6ICJmcm9tX2lwX2xvY2F0aW9uIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5mcm9tX2lwX2xvY2F0aW9uIiwKICB9LAogIHsga2V5OiAidG9faXAiLCBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMudG9faXAiIH0sCiAgewogICAga2V5OiAidG9faXBfbG9jYXRpb24iLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLnRvX2lwX2xvY2F0aW9uIiwKICB9LAogIHsKICAgIGtleTogImJsb2NrZWRfYXQiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLmJsb2NrZWRfYXQiLAogIH0sCiAgewogICAga2V5OiAid2luZG93X21pbnV0ZXMiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLndpbmRvd19taW51dGVzIiwKICB9LAogIHsKICAgIGtleTogImhpdF9jb3VudCIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuaGl0X2NvdW50IiwKICB9LAogIHsKICAgIGtleTogInByb3ZpZGVyIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5wcm92aWRlciIsCiAgfSwKICB7IGtleTogInN1Y2Nlc3MiLCBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuc3VjY2VzcyIgfSwKICB7IGtleTogIm1lc3NhZ2UiLCBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMubWVzc2FnZSIgfSwKICB7CiAgICBrZXk6ICJ1cGRhdGVfc2NvcGUiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLnVwZGF0ZV9zY29wZSIsCiAgfSwKICB7CiAgICBrZXk6ICJpcF9zb3VyY2UiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLmlwX3NvdXJjZSIsCiAgfSwKICB7CiAgICBrZXk6ICJsb2NhbF92ZXJzaW9uIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5sb2NhbF92ZXJzaW9uIiwKICB9LAogIHsKICAgIGtleTogImxhdGVzdF92ZXJzaW9uIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5sYXRlc3RfdmVyc2lvbiIsCiAgfSwKICB7CiAgICBrZXk6ICJmb3JjZV91cGRhdGUiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLmZvcmNlX3VwZGF0ZSIsCiAgfSwKICB7CiAgICBrZXk6ICJyZWxlYXNlX25vdGVzIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5yZWxlYXNlX25vdGVzIiwKICB9LAogIHsKICAgIGtleTogImNoZWNrX3JlYXNvbiIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuY2hlY2tfcmVhc29uIiwKICB9LAogIHsga2V5OiAidHVubmVsIiwgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLnR1bm5lbCIgfSwKICB7IGtleTogInN0YXR1cyIsIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5zdGF0dXMiIH0sCiAgeyBrZXk6ICJwaWQiLCBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMucGlkIiB9LAogIHsKICAgIGtleTogImNvbXBvbmVudCIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuY29tcG9uZW50IiwKICB9LAogIHsKICAgIGtleTogImluY2lkZW50X2lkIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5pbmNpZGVudF9pZCIsCiAgfSwKICB7CiAgICBrZXk6ICJpbnN0YW5jZV9pZCIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuaW5zdGFuY2VfaWQiLAogIH0sCiAgewogICAga2V5OiAicmVhc29uX2NvZGUiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLnJlYXNvbl9jb2RlIiwKICB9LAogIHsKICAgIGtleTogImR1cmF0aW9uX21zIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5kdXJhdGlvbl9tcyIsCiAgfSwKICB7CiAgICBrZXk6ICJwcm9jZXNzX3N0YXRlIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5wcm9jZXNzX3N0YXRlIiwKICB9LAogIHsKICAgIGtleTogInByZXZpb3VzX2lwdjQiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLnByZXZpb3VzX2lwdjQiLAogIH0sCiAgewogICAga2V5OiAibmV4dF9pcHY0IiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5uZXh0X2lwdjQiLAogIH0sCiAgewogICAga2V5OiAicHJldmlvdXNfaXB2NiIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMucHJldmlvdXNfaXB2NiIsCiAgfSwKICB7CiAgICBrZXk6ICJuZXh0X2lwdjYiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLm5leHRfaXB2NiIsCiAgfSwKICB7CiAgICBrZXk6ICJibG9ja19zZWNvbmRzIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5ibG9ja19zZWNvbmRzIiwKICB9LAogIHsKICAgIGtleTogInJlcXVlc3RzX3Blcl9zZWNvbmQiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLnJlcXVlc3RzX3Blcl9zZWNvbmQiLAogIH0sCiAgeyBrZXk6ICJidXJzdCIsIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5idXJzdCIgfSwKICB7CiAgICBrZXk6ICJ0cmFjZV9pZCIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMudHJhY2VfaWQiLAogIH0sCiAgeyBrZXk6ICJtb2RlIiwgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLm1vZGUiIH0sCiAgeyBrZXk6ICJhY3Rpb24iLCBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuYWN0aW9uIiB9LAogIHsKICAgIGtleTogInJlcXVlc3RfdXJpIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5yZXF1ZXN0X3VyaSIsCiAgfSwKICB7CiAgICBrZXk6ICJidW5kbGVfaWQiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLmJ1bmRsZV9pZCIsCiAgfSwKICB7CiAgICBrZXk6ICJydWxlX2lkcyIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMucnVsZV9pZHMiLAogIH0sCiAgewogICAga2V5OiAicm91dGVfdHlwZSIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMucm91dGVfdHlwZSIsCiAgfSwKICB7CiAgICBrZXk6ICJyb3V0ZV9rZXkiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLnJvdXRlX2tleSIsCiAgfSwKICB7IGtleTogImhvc3QiLCBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuaG9zdCIgfSwKICB7IGtleTogInBhdGgiLCBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMucGF0aCIgfSwKICB7CiAgICBrZXk6ICJpc19hdXRoX3JvdXRlIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5pc19hdXRoX3JvdXRlIiwKICB9LAogIHsKICAgIGtleTogImhvc3RuYW1lIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5ob3N0bmFtZSIsCiAgfSwKICB7CiAgICBrZXk6ICJ1c2FnZV9wZXJjZW50IiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy51c2FnZV9wZXJjZW50IiwKICB9LAogIHsKICAgIGtleTogInRocmVzaG9sZF9wZXJjZW50IiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy50aHJlc2hvbGRfcGVyY2VudCIsCiAgfSwKICB7CiAgICBrZXk6ICJyZWNvdmVyX3BlcmNlbnQiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLnJlY292ZXJfcGVyY2VudCIsCiAgfSwKICB7CiAgICBrZXk6ICJzYW1wbGVfaW50ZXJ2YWxfc2Vjb25kcyIsCiAgICBsYWJlbEtleTogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZXRhaWxGaWVsZHMuc2FtcGxlX2ludGVydmFsX3NlY29uZHMiLAogIH0sCiAgewogICAga2V5OiAic3VzdGFpbl9zZWNvbmRzIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy5zdXN0YWluX3NlY29uZHMiLAogIH0sCl0gYXMgY29uc3Q7Cg==
+export const detailFieldDefinitions = [
+  { key: "id", labelKey: "admin.eventCenter.events.detailFields.id" },
+  { key: "type", labelKey: "admin.eventCenter.events.detailFields.type" },
+  { key: "level", labelKey: "admin.eventCenter.events.detailFields.level" },
+  { key: "source", labelKey: "admin.eventCenter.events.detailFields.source" },
+  {
+    key: "happened_at",
+    labelKey: "admin.eventCenter.events.detailFields.happened_at",
+  },
+  {
+    key: "dedupe_key",
+    labelKey: "admin.eventCenter.events.detailFields.dedupe_key",
+  },
+  { key: "subject", labelKey: "admin.eventCenter.events.detailFields.subject" },
+  {
+    key: "credential_name",
+    labelKey: "admin.eventCenter.events.detailFields.credential_name",
+  },
+  {
+    key: "linked_totp_name",
+    labelKey: "admin.eventCenter.events.detailFields.linked_totp_name",
+  },
+  {
+    key: "session_comment",
+    labelKey: "admin.eventCenter.events.detailFields.session_comment",
+  },
+  {
+    key: "credential_id",
+    labelKey: "admin.eventCenter.events.detailFields.credential_id",
+  },
+  {
+    key: "auth_method",
+    labelKey: "admin.eventCenter.events.detailFields.auth_method",
+  },
+  {
+    key: "auth_provider_name",
+    labelKey: "admin.eventCenter.events.detailFields.auth_provider_name",
+  },
+  {
+    key: "grant_type",
+    labelKey: "admin.eventCenter.events.detailFields.grant_type",
+  },
+  {
+    key: "post_login_ip_grant_mode",
+    labelKey: "admin.eventCenter.events.detailFields.post_login_ip_grant_mode",
+  },
+  {
+    key: "remember_me",
+    labelKey: "admin.eventCenter.events.detailFields.remember_me",
+  },
+  {
+    key: "session_id",
+    labelKey: "admin.eventCenter.events.detailFields.session_id",
+  },
+  {
+    key: "target_id",
+    labelKey: "admin.eventCenter.events.detailFields.target_id",
+  },
+  {
+    key: "revision",
+    labelKey: "admin.eventCenter.events.detailFields.revision",
+  },
+  {
+    key: "error_code",
+    labelKey: "admin.eventCenter.events.detailFields.error_code",
+  },
+  { key: "ip", labelKey: "admin.eventCenter.events.detailFields.ip" },
+  {
+    key: "ip_location",
+    labelKey: "admin.eventCenter.events.detailFields.ip_location",
+  },
+  {
+    key: "user_agent",
+    labelKey: "admin.eventCenter.events.detailFields.user_agent",
+  },
+  {
+    key: "expires_at",
+    labelKey: "admin.eventCenter.events.detailFields.expires_at",
+  },
+  {
+    key: "login_time",
+    labelKey: "admin.eventCenter.events.detailFields.login_time",
+  },
+  {
+    key: "logout_source",
+    labelKey: "admin.eventCenter.events.detailFields.logout_source",
+  },
+  {
+    key: "attempts",
+    labelKey: "admin.eventCenter.events.detailFields.attempts",
+  },
+  {
+    key: "threshold",
+    labelKey: "admin.eventCenter.events.detailFields.threshold",
+  },
+  {
+    key: "retry_after_seconds",
+    labelKey: "admin.eventCenter.events.detailFields.retry_after_seconds",
+  },
+  {
+    key: "blocked_until",
+    labelKey: "admin.eventCenter.events.detailFields.blocked_until",
+  },
+  { key: "method", labelKey: "admin.eventCenter.events.detailFields.method" },
+  { key: "scheme", labelKey: "admin.eventCenter.events.detailFields.scheme" },
+  {
+    key: "visibility_scope",
+    labelKey: "admin.eventCenter.events.detailFields.visibility_scope",
+  },
+  {
+    key: "visibility_mode",
+    labelKey: "admin.eventCenter.events.detailFields.visibility_mode",
+  },
+  {
+    key: "drift_source",
+    labelKey: "admin.eventCenter.events.detailFields.drift_source",
+  },
+  { key: "from_ip", labelKey: "admin.eventCenter.events.detailFields.from_ip" },
+  {
+    key: "from_ip_location",
+    labelKey: "admin.eventCenter.events.detailFields.from_ip_location",
+  },
+  { key: "to_ip", labelKey: "admin.eventCenter.events.detailFields.to_ip" },
+  {
+    key: "to_ip_location",
+    labelKey: "admin.eventCenter.events.detailFields.to_ip_location",
+  },
+  {
+    key: "blocked_at",
+    labelKey: "admin.eventCenter.events.detailFields.blocked_at",
+  },
+  {
+    key: "window_minutes",
+    labelKey: "admin.eventCenter.events.detailFields.window_minutes",
+  },
+  {
+    key: "hit_count",
+    labelKey: "admin.eventCenter.events.detailFields.hit_count",
+  },
+  {
+    key: "provider",
+    labelKey: "admin.eventCenter.events.detailFields.provider",
+  },
+  { key: "success", labelKey: "admin.eventCenter.events.detailFields.success" },
+  { key: "message", labelKey: "admin.eventCenter.events.detailFields.message" },
+  {
+    key: "update_scope",
+    labelKey: "admin.eventCenter.events.detailFields.update_scope",
+  },
+  {
+    key: "ip_source",
+    labelKey: "admin.eventCenter.events.detailFields.ip_source",
+  },
+  {
+    key: "local_version",
+    labelKey: "admin.eventCenter.events.detailFields.local_version",
+  },
+  {
+    key: "latest_version",
+    labelKey: "admin.eventCenter.events.detailFields.latest_version",
+  },
+  {
+    key: "force_update",
+    labelKey: "admin.eventCenter.events.detailFields.force_update",
+  },
+  {
+    key: "release_notes",
+    labelKey: "admin.eventCenter.events.detailFields.release_notes",
+  },
+  {
+    key: "check_reason",
+    labelKey: "admin.eventCenter.events.detailFields.check_reason",
+  },
+  { key: "tunnel", labelKey: "admin.eventCenter.events.detailFields.tunnel" },
+  { key: "status", labelKey: "admin.eventCenter.events.detailFields.status" },
+  { key: "pid", labelKey: "admin.eventCenter.events.detailFields.pid" },
+  {
+    key: "component",
+    labelKey: "admin.eventCenter.events.detailFields.component",
+  },
+  {
+    key: "incident_id",
+    labelKey: "admin.eventCenter.events.detailFields.incident_id",
+  },
+  {
+    key: "instance_id",
+    labelKey: "admin.eventCenter.events.detailFields.instance_id",
+  },
+  {
+    key: "reason_code",
+    labelKey: "admin.eventCenter.events.detailFields.reason_code",
+  },
+  {
+    key: "duration_ms",
+    labelKey: "admin.eventCenter.events.detailFields.duration_ms",
+  },
+  {
+    key: "process_state",
+    labelKey: "admin.eventCenter.events.detailFields.process_state",
+  },
+  {
+    key: "previous_ipv4",
+    labelKey: "admin.eventCenter.events.detailFields.previous_ipv4",
+  },
+  {
+    key: "next_ipv4",
+    labelKey: "admin.eventCenter.events.detailFields.next_ipv4",
+  },
+  {
+    key: "previous_ipv6",
+    labelKey: "admin.eventCenter.events.detailFields.previous_ipv6",
+  },
+  {
+    key: "next_ipv6",
+    labelKey: "admin.eventCenter.events.detailFields.next_ipv6",
+  },
+  {
+    key: "block_seconds",
+    labelKey: "admin.eventCenter.events.detailFields.block_seconds",
+  },
+  {
+    key: "requests_per_second",
+    labelKey: "admin.eventCenter.events.detailFields.requests_per_second",
+  },
+  { key: "burst", labelKey: "admin.eventCenter.events.detailFields.burst" },
+  {
+    key: "trace_id",
+    labelKey: "admin.eventCenter.events.detailFields.trace_id",
+  },
+  { key: "mode", labelKey: "admin.eventCenter.events.detailFields.mode" },
+  { key: "action", labelKey: "admin.eventCenter.events.detailFields.action" },
+  {
+    key: "request_uri",
+    labelKey: "admin.eventCenter.events.detailFields.request_uri",
+  },
+  {
+    key: "bundle_id",
+    labelKey: "admin.eventCenter.events.detailFields.bundle_id",
+  },
+  {
+    key: "rule_ids",
+    labelKey: "admin.eventCenter.events.detailFields.rule_ids",
+  },
+  {
+    key: "route_type",
+    labelKey: "admin.eventCenter.events.detailFields.route_type",
+  },
+  {
+    key: "route_key",
+    labelKey: "admin.eventCenter.events.detailFields.route_key",
+  },
+  { key: "host", labelKey: "admin.eventCenter.events.detailFields.host" },
+  { key: "path", labelKey: "admin.eventCenter.events.detailFields.path" },
+  {
+    key: "is_auth_route",
+    labelKey: "admin.eventCenter.events.detailFields.is_auth_route",
+  },
+  {
+    key: "hostname",
+    labelKey: "admin.eventCenter.events.detailFields.hostname",
+  },
+  {
+    key: "usage_percent",
+    labelKey: "admin.eventCenter.events.detailFields.usage_percent",
+  },
+  {
+    key: "threshold_percent",
+    labelKey: "admin.eventCenter.events.detailFields.threshold_percent",
+  },
+  {
+    key: "recover_percent",
+    labelKey: "admin.eventCenter.events.detailFields.recover_percent",
+  },
+  {
+    key: "sample_interval_seconds",
+    labelKey: "admin.eventCenter.events.detailFields.sample_interval_seconds",
+  },
+  {
+    key: "sustain_seconds",
+    labelKey: "admin.eventCenter.events.detailFields.sustain_seconds",
+  },
+] as const;

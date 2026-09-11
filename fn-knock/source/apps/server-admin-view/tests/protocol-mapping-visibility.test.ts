@@ -1,1 +1,62 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwoKaW1wb3J0IHsgaXNQcm90b2NvbE1hcHBpbmdWaXNpYmxlIH0gZnJvbSAiLi4vc3JjL2xpYi9wcm90b2NvbC1tYXBwaW5nLXZpc2liaWxpdHkiOwppbXBvcnQgdHlwZSB7IEFwcENvbmZpZyB9IGZyb20gIi4uL3NyYy90eXBlcyI7Cgpjb25zdCBjb25maWcgPSAob3ZlcnJpZGVzOiBQYXJ0aWFsPEFwcENvbmZpZz4gPSB7fSk6IEFwcENvbmZpZyA9PgogICh7CiAgICBob3N0X21hcHBpbmdfZ3JvdXBlZF92aWV3OiBmYWxzZSwKICAgIGhvc3RfbWFwcGluZ19ncm91cHM6IFtdLAogICAgaG9zdF9tYXBwaW5nczogW10sCiAgICBwcm90b2NvbF9tYXBwaW5nX2ZlYXR1cmU6IHsKICAgICAgYXZhaWxhYmlsaXR5OiBudWxsLAogICAgICBlbmFibGVkOiBmYWxzZSwKICAgIH0sCiAgICBydW5fdHlwZTogMywKICAgIHN0cmVhbV9tYXBwaW5nczogW10sCiAgICAuLi5vdmVycmlkZXMsCiAgfSkgYXMgQXBwQ29uZmlnOwoKZGVzY3JpYmUoInByb3RvY29sIG1hcHBpbmcgcmVwYWlyIHZpc2liaWxpdHkiLCAoKSA9PiB7CiAgaXQoImtlZXBzIHRoZSByZXBhaXIgcGFnZSB2aXNpYmxlIGZvciBhIHBlcnNpc3RlZCBzdGFydHVwIGlzc3VlIHdpdGhvdXQgbWFwcGluZ3MiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGlzUHJvdG9jb2xNYXBwaW5nVmlzaWJsZSgKICAgICAgICBjb25maWcoewogICAgICAgICAgcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlOiB7CiAgICAgICAgICAgIGF2YWlsYWJpbGl0eTogbnVsbCwKICAgICAgICAgICAgZW5hYmxlZDogZmFsc2UsCiAgICAgICAgICAgIHJ1bnRpbWVfaXNzdWU6IHsKICAgICAgICAgICAgICBjb2RlOiAicnVudGltZV9zeW5jX2ZhaWxlZCIsCiAgICAgICAgICAgICAgbGlzdGVuX3BvcnQ6IG51bGwsCiAgICAgICAgICAgICAgbWVzc2FnZTogImxlZ2FjeSBzdHJlYW0gcG9saWN5IHJlamVjdGVkIiwKICAgICAgICAgICAgICBwcm90b2NvbDogbnVsbCwKICAgICAgICAgICAgICB0YXJnZXQ6IG51bGwsCiAgICAgICAgICAgIH0sCiAgICAgICAgICB9LAogICAgICAgIH0pLAogICAgICApLAogICAgICB0cnVlLAogICAgKTsKICB9KTsKCiAgaXQoInN0aWxsIGhpZGVzIGFuIHVudXNlZCBkaXNhYmxlZCBmZWF0dXJlIGFuZCBldmVyeSBub24tc3ViZG9tYWluIG1vZGUiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoaXNQcm90b2NvbE1hcHBpbmdWaXNpYmxlKGNvbmZpZygpKSwgZmFsc2UpOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBpc1Byb3RvY29sTWFwcGluZ1Zpc2libGUoCiAgICAgICAgY29uZmlnKHsKICAgICAgICAgIHJ1bl90eXBlOiAxLAogICAgICAgICAgc3RyZWFtX21hcHBpbmdzOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICBsaXN0ZW5fcG9ydDogOTAwMCwKICAgICAgICAgICAgICBwcm90b2NvbDogInRjcCIsCiAgICAgICAgICAgICAgdGFyZ2V0OiAiMTI3LjAuMC4xOjkwMDEiLAogICAgICAgICAgICAgIHVzZV9hdXRoOiB0cnVlLAogICAgICAgICAgICB9LAogICAgICAgICAgXSwKICAgICAgICB9KSwKICAgICAgKSwKICAgICAgZmFsc2UsCiAgICApOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import { isProtocolMappingVisible } from "../src/lib/protocol-mapping-visibility";
+import type { AppConfig } from "../src/types";
+
+const config = (overrides: Partial<AppConfig> = {}): AppConfig =>
+  ({
+    host_mapping_grouped_view: false,
+    host_mapping_groups: [],
+    host_mappings: [],
+    protocol_mapping_feature: {
+      availability: null,
+      enabled: false,
+    },
+    run_type: 3,
+    stream_mappings: [],
+    ...overrides,
+  }) as AppConfig;
+
+describe("protocol mapping repair visibility", () => {
+  it("keeps the repair page visible for a persisted startup issue without mappings", () => {
+    assert.equal(
+      isProtocolMappingVisible(
+        config({
+          protocol_mapping_feature: {
+            availability: null,
+            enabled: false,
+            runtime_issue: {
+              code: "runtime_sync_failed",
+              listen_port: null,
+              message: "legacy stream policy rejected",
+              protocol: null,
+              target: null,
+            },
+          },
+        }),
+      ),
+      true,
+    );
+  });
+
+  it("still hides an unused disabled feature and every non-subdomain mode", () => {
+    assert.equal(isProtocolMappingVisible(config()), false);
+    assert.equal(
+      isProtocolMappingVisible(
+        config({
+          run_type: 1,
+          stream_mappings: [
+            {
+              listen_port: 9000,
+              protocol: "tcp",
+              target: "127.0.0.1:9001",
+              use_auth: true,
+            },
+          ],
+        }),
+      ),
+      false,
+    );
+  });
+});

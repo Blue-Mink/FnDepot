@@ -1,1 +1,52 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIgppbXBvcnQgeyBNb29uLCBTdW4gfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiCmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biIKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKaW1wb3J0IHsgdXNlVGhlbWVNb2RlIH0gZnJvbSAiLi91c2VUaGVtZU1vZGUiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBidXR0b25DbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpCmNvbnN0IHsgbW9kZSwgdG9nZ2xlVGhlbWVNb2RlIH0gPSB1c2VUaGVtZU1vZGUoKQoKY29uc3QgaXNEYXJrID0gY29tcHV0ZWQoKCkgPT4gbW9kZS52YWx1ZSA9PT0gImRhcmsiKQoKY29uc3QgY3VycmVudEljb24gPSBjb21wdXRlZCgoKSA9PiAoaXNEYXJrLnZhbHVlID8gTW9vbiA6IFN1bikpCgpjb25zdCBidXR0b25MYWJlbCA9IGNvbXB1dGVkKCgpID0+CiAgaXNEYXJrLnZhbHVlCiAgICA/IHQoImNvbW1vbi5zd2l0Y2hUb0xpZ2h0QXBwZWFyYW5jZSIpCiAgICA6IHQoImNvbW1vbi5zd2l0Y2hUb0RhcmtBcHBlYXJhbmNlIiksCikKCmNvbnN0IGhhbmRsZUNsaWNrID0gKGV2ZW50OiBNb3VzZUV2ZW50KSA9PiB7CiAgdm9pZCB0b2dnbGVUaGVtZU1vZGUoZXZlbnQpCn0KPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPEJ1dHRvbgogICAgdmFyaWFudD0iZ2hvc3QiCiAgICBzaXplPSJpY29uIgogICAgOmNsYXNzPSIKICAgICAgY24oCiAgICAgICAgJ2gtOCB3LTggcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlci82MCBiZy1iYWNrZ3JvdW5kLzcwIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzaGFkb3ctbm9uZSB0cmFuc2l0aW9uLVtiYWNrZ3JvdW5kLWNvbG9yLGJvcmRlci1jb2xvcixjb2xvcix0cmFuc2Zvcm1dIGR1cmF0aW9uLTIwMCBob3ZlcjpiZy1tdXRlZCBob3Zlcjp0ZXh0LWZvcmVncm91bmQgaG92ZXI6LXRyYW5zbGF0ZS15LXB4JywKICAgICAgICBwcm9wcy5idXR0b25DbGFzcywKICAgICAgKQogICAgIgogICAgOmFyaWEtbGFiZWw9ImJ1dHRvbkxhYmVsIgogICAgOnRpdGxlPSJidXR0b25MYWJlbCIKICAgIEBjbGljaz0iaGFuZGxlQ2xpY2siCiAgPgogICAgPGNvbXBvbmVudAogICAgICA6aXM9ImN1cnJlbnRJY29uIgogICAgICBjbGFzcz0iaC00IHctNCB0cmFuc2l0aW9uLVt0cmFuc2Zvcm0sb3BhY2l0eV0gZHVyYXRpb24tMjAwIgogICAgLz4KICAgIDxzcGFuIGNsYXNzPSJzci1vbmx5Ij57eyBidXR0b25MYWJlbCB9fTwvc3Bhbj4KICA8L0J1dHRvbj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { computed } from "vue"
+import { Moon, Sun } from "lucide-vue-next"
+import { useI18n } from "vue-i18n"
+import { Button } from "@/components/ui/button"
+import { cn } from "@/lib/utils"
+import { useThemeMode } from "./useThemeMode"
+
+const props = defineProps<{
+  buttonClass?: HTMLAttributes["class"]
+}>()
+
+const { t } = useI18n()
+const { mode, toggleThemeMode } = useThemeMode()
+
+const isDark = computed(() => mode.value === "dark")
+
+const currentIcon = computed(() => (isDark.value ? Moon : Sun))
+
+const buttonLabel = computed(() =>
+  isDark.value
+    ? t("common.switchToLightAppearance")
+    : t("common.switchToDarkAppearance"),
+)
+
+const handleClick = (event: MouseEvent) => {
+  void toggleThemeMode(event)
+}
+</script>
+
+<template>
+  <Button
+    variant="ghost"
+    size="icon"
+    :class="
+      cn(
+        'h-8 w-8 rounded-md border border-border/60 bg-background/70 text-muted-foreground shadow-none transition-[background-color,border-color,color,transform] duration-200 hover:bg-muted hover:text-foreground hover:-translate-y-px',
+        props.buttonClass,
+      )
+    "
+    :aria-label="buttonLabel"
+    :title="buttonLabel"
+    @click="handleClick"
+  >
+    <component
+      :is="currentIcon"
+      class="h-4 w-4 transition-[transform,opacity] duration-200"
+    />
+    <span class="sr-only">{{ buttonLabel }}</span>
+  </Button>
+</template>

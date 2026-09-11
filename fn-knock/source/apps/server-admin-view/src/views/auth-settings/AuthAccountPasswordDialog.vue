@@ -1,1 +1,151 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCB1c2VJZCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEV5ZSwgRXllT2ZmIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7Cgpjb25zdCBhMTF5SWQgPSB1c2VJZCgpOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgZGVzY3JpcHRpb246IHN0cmluZzsKICBpc1Bhc3N3b3JkVmlzaWJsZTogYm9vbGVhbjsKICBpc1NhdmluZzogYm9vbGVhbjsKICBpc1NldHVwTW9kZTogYm9vbGVhbjsKICBvcGVuOiBib29sZWFuOwogIHBhc3N3b3JkOiBzdHJpbmc7CiAgcGFzc3dvcmRTZWN1cml0eVdhcm5pbmc6ICh2YWx1ZTogc3RyaW5nKSA9PiBzdHJpbmc7CiAgdGl0bGU6IHN0cmluZzsKICB1c2VybmFtZTogc3RyaW5nOwogIHVzZXJuYW1lU2VjdXJpdHlXYXJuaW5nOiAodmFsdWU6IHN0cmluZykgPT4gc3RyaW5nOwp9PigpOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICBjbG9zZTogW107CiAgc2F2ZTogW107CiAgInVwZGF0ZTppc1Bhc3N3b3JkVmlzaWJsZSI6IFt2YWx1ZTogYm9vbGVhbl07CiAgInVwZGF0ZTpvcGVuIjogW3ZhbHVlOiBib29sZWFuXTsKICAidXBkYXRlOnBhc3N3b3JkIjogW3ZhbHVlOiBzdHJpbmddOwogICJ1cGRhdGU6dXNlcm5hbWUiOiBbdmFsdWU6IHN0cmluZ107Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgdXNlcm5hbWVXYXJuaW5nID0gY29tcHV0ZWQoKCkgPT4KICBwcm9wcy51c2VybmFtZVNlY3VyaXR5V2FybmluZyhwcm9wcy51c2VybmFtZSksCik7CmNvbnN0IHBhc3N3b3JkV2FybmluZyA9IGNvbXB1dGVkKCgpID0+CiAgcHJvcHMucGFzc3dvcmRTZWN1cml0eVdhcm5pbmcocHJvcHMucGFzc3dvcmQpLAopOwoKY29uc3QgaGFuZGxlT3BlbkNoYW5nZSA9IChvcGVuOiBib29sZWFuKSA9PiB7CiAgZW1pdCgidXBkYXRlOm9wZW4iLCBvcGVuKTsKICBpZiAoIW9wZW4pIGVtaXQoImNsb3NlIik7Cn07Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iaGFuZGxlT3BlbkNoYW5nZSI+CiAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ibWF4LWgtWzg4dmhdIG92ZXJmbG93LXktYXV0byBzbTptYXgtdy1bNDQwcHhdIj4KICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICA8RGlhbG9nVGl0bGU+e3sgdGl0bGUgfX08L0RpYWxvZ1RpdGxlPgogICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj57eyBkZXNjcmlwdGlvbiB9fTwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgoKICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS00Ij4KICAgICAgICA8ZGl2IHYtaWY9ImlzU2V0dXBNb2RlIiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgIDxMYWJlbCBmb3I9ImF1dGgtYWNjb3VudC1zZXR1cC11c2VybmFtZSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5hY2NvdW50VXNlcm5hbWUiKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICBpZD0iYXV0aC1hY2NvdW50LXNldHVwLXVzZXJuYW1lIgogICAgICAgICAgICA6bW9kZWwtdmFsdWU9InVzZXJuYW1lIgogICAgICAgICAgICBhdXRvY29tcGxldGU9Im9mZiIKICAgICAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZyIKICAgICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgndXBkYXRlOnVzZXJuYW1lJywgU3RyaW5nKCRldmVudCkpIgogICAgICAgICAgICBAa2V5dXAuZW50ZXI9ImVtaXQoJ3NhdmUnKSIKICAgICAgICAgIC8+CiAgICAgICAgICA8cAogICAgICAgICAgICB2LWlmPSJ1c2VybmFtZVdhcm5pbmciCiAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LXhzIHRleHQtYW1iZXItNjAwIGRhcms6dGV4dC1hbWJlci00MDAiCiAgICAgICAgICAgIHJvbGU9InN0YXR1cyIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdXNlcm5hbWVXYXJuaW5nIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICA8TGFiZWwgOmZvcj0iYCR7YTExeUlkfS1hdXRoYWNjb3VudHBhc3N3b3JkZGlhbG9nLTFgIj57ewogICAgICAgICAgICB0KCJhZG1pbi5hdXRoU2V0dGluZ3MucGFzc3dvcmQiKQogICAgICAgICAgfX08L0xhYmVsPgogICAgICAgICAgPGRpdiBjbGFzcz0icmVsYXRpdmUiPgogICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICA6aWQ9ImAke2ExMXlJZH0tYXV0aGFjY291bnRwYXNzd29yZGRpYWxvZy0xYCIKICAgICAgICAgICAgICA6bW9kZWwtdmFsdWU9InBhc3N3b3JkIgogICAgICAgICAgICAgIDp0eXBlPSJpc1Bhc3N3b3JkVmlzaWJsZSA/ICd0ZXh0JyA6ICdwYXNzd29yZCciCiAgICAgICAgICAgICAgYXV0b2NvbXBsZXRlPSJuZXctcGFzc3dvcmQiCiAgICAgICAgICAgICAgY2xhc3M9InByLTEwIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmciCiAgICAgICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgndXBkYXRlOnBhc3N3b3JkJywgU3RyaW5nKCRldmVudCkpIgogICAgICAgICAgICAgIEBrZXl1cC5lbnRlcj0iZW1pdCgnc2F2ZScpIgogICAgICAgICAgICAvPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgIHNpemU9Imljb24tc20iCiAgICAgICAgICAgICAgY2xhc3M9ImFic29sdXRlIHJpZ2h0LTEgdG9wLTEvMiAtdHJhbnNsYXRlLXktMS8yIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LWZvcmVncm91bmQiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZyIKICAgICAgICAgICAgICA6dGl0bGU9IgogICAgICAgICAgICAgICAgaXNQYXNzd29yZFZpc2libGUKICAgICAgICAgICAgICAgICAgPyB0KCdhZG1pbi5hdXRoU2V0dGluZ3MuaGlkZVBhc3N3b3JkJykKICAgICAgICAgICAgICAgICAgOiB0KCdhZG1pbi5hdXRoU2V0dGluZ3Muc2hvd1Bhc3N3b3JkJykKICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgICAgICAgICAgaXNQYXNzd29yZFZpc2libGUKICAgICAgICAgICAgICAgICAgPyB0KCdhZG1pbi5hdXRoU2V0dGluZ3MuaGlkZVBhc3N3b3JkJykKICAgICAgICAgICAgICAgICAgOiB0KCdhZG1pbi5hdXRoU2V0dGluZ3Muc2hvd1Bhc3N3b3JkJykKICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgQGNsaWNrPSJlbWl0KCd1cGRhdGU6aXNQYXNzd29yZFZpc2libGUnLCAhaXNQYXNzd29yZFZpc2libGUpIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGNvbXBvbmVudAogICAgICAgICAgICAgICAgOmlzPSJpc1Bhc3N3b3JkVmlzaWJsZSA/IEV5ZU9mZiA6IEV5ZSIKICAgICAgICAgICAgICAgIGNsYXNzPSJoLTQgdy00IgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MucGFzc3dvcmRSdWxlSGludCIpIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgICA8cAogICAgICAgICAgICB2LWlmPSJwYXNzd29yZFdhcm5pbmciCiAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LXhzIHRleHQtYW1iZXItNjAwIGRhcms6dGV4dC1hbWJlci00MDAiCiAgICAgICAgICAgIHJvbGU9InN0YXR1cyIKICAgICAgICAgID4KICAgICAgICAgICAge3sgcGFzc3dvcmRXYXJuaW5nIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPERpYWxvZ0Zvb3RlciBjbGFzcz0iZ2FwLTIiPgogICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgOmRpc2FibGVkPSJpc1NhdmluZyIgQGNsaWNrPSJlbWl0KCdjbG9zZScpIj4KICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5jYW5jZWwiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24gOmRpc2FibGVkPSJpc1NhdmluZyIgQGNsaWNrPSJlbWl0KCdzYXZlJykiPgogICAgICAgICAgPHNwYW4KICAgICAgICAgICAgdi1pZj0iaXNTYXZpbmciCiAgICAgICAgICAgIGNsYXNzPSJtci0yIGgtNCB3LTQgYW5pbWF0ZS1zcGluIHJvdW5kZWQtZnVsbCBib3JkZXItMiBib3JkZXItYmFja2dyb3VuZCBib3JkZXItdC1mb3JlZ3JvdW5kIgogICAgICAgICAgLz4KICAgICAgICAgIHt7IHQoImNvbW1vbi5zYXZlIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { Eye, EyeOff } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+
+const a11yId = useId();
+
+const props = defineProps<{
+  description: string;
+  isPasswordVisible: boolean;
+  isSaving: boolean;
+  isSetupMode: boolean;
+  open: boolean;
+  password: string;
+  passwordSecurityWarning: (value: string) => string;
+  title: string;
+  username: string;
+  usernameSecurityWarning: (value: string) => string;
+}>();
+
+const emit = defineEmits<{
+  close: [];
+  save: [];
+  "update:isPasswordVisible": [value: boolean];
+  "update:open": [value: boolean];
+  "update:password": [value: string];
+  "update:username": [value: string];
+}>();
+
+const { t } = useI18n();
+const usernameWarning = computed(() =>
+  props.usernameSecurityWarning(props.username),
+);
+const passwordWarning = computed(() =>
+  props.passwordSecurityWarning(props.password),
+);
+
+const handleOpenChange = (open: boolean) => {
+  emit("update:open", open);
+  if (!open) emit("close");
+};
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="handleOpenChange">
+    <DialogContent class="max-h-[88vh] overflow-y-auto sm:max-w-[440px]">
+      <DialogHeader>
+        <DialogTitle>{{ title }}</DialogTitle>
+        <DialogDescription>{{ description }}</DialogDescription>
+      </DialogHeader>
+
+      <div class="space-y-4">
+        <div v-if="isSetupMode" class="space-y-2">
+          <Label for="auth-account-setup-username">
+            {{ t("admin.authSettings.accountUsername") }}
+          </Label>
+          <Input
+            id="auth-account-setup-username"
+            :model-value="username"
+            autocomplete="off"
+            :disabled="isSaving"
+            @update:model-value="emit('update:username', String($event))"
+            @keyup.enter="emit('save')"
+          />
+          <p
+            v-if="usernameWarning"
+            class="text-xs text-amber-600 dark:text-amber-400"
+            role="status"
+          >
+            {{ usernameWarning }}
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <Label :for="`${a11yId}-authaccountpassworddialog-1`">{{
+            t("admin.authSettings.password")
+          }}</Label>
+          <div class="relative">
+            <Input
+              :id="`${a11yId}-authaccountpassworddialog-1`"
+              :model-value="password"
+              :type="isPasswordVisible ? 'text' : 'password'"
+              autocomplete="new-password"
+              class="pr-10"
+              :disabled="isSaving"
+              @update:model-value="emit('update:password', String($event))"
+              @keyup.enter="emit('save')"
+            />
+            <Button
+              type="button"
+              variant="ghost"
+              size="icon-sm"
+              class="absolute right-1 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+              :disabled="isSaving"
+              :title="
+                isPasswordVisible
+                  ? t('admin.authSettings.hidePassword')
+                  : t('admin.authSettings.showPassword')
+              "
+              :aria-label="
+                isPasswordVisible
+                  ? t('admin.authSettings.hidePassword')
+                  : t('admin.authSettings.showPassword')
+              "
+              @click="emit('update:isPasswordVisible', !isPasswordVisible)"
+            >
+              <component
+                :is="isPasswordVisible ? EyeOff : Eye"
+                class="h-4 w-4"
+              />
+            </Button>
+          </div>
+          <p class="text-xs text-muted-foreground">
+            {{ t("admin.authSettings.passwordRuleHint") }}
+          </p>
+          <p
+            v-if="passwordWarning"
+            class="text-xs text-amber-600 dark:text-amber-400"
+            role="status"
+          >
+            {{ passwordWarning }}
+          </p>
+        </div>
+      </div>
+
+      <DialogFooter class="gap-2">
+        <Button variant="outline" :disabled="isSaving" @click="emit('close')">
+          {{ t("admin.authSettings.cancel") }}
+        </Button>
+        <Button :disabled="isSaving" @click="emit('save')">
+          <span
+            v-if="isSaving"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          />
+          {{ t("common.save") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

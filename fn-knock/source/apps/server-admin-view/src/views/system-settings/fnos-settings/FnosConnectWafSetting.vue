@@ -1,1 +1,122 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvbk1vdW50ZWQsIHJlZiwgdXNlSWQgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IFN3aXRjaCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9zd2l0Y2giOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IFN5c3RlbUFQSSB9IGZyb20gIkAvbGliL2FwaS9zeXN0ZW0iOwppbXBvcnQgdHlwZSB7IEZub3NDb25uZWN0V2FmRGV0YWlscyB9IGZyb20gIi4uLy4uLy4uL3R5cGVzIjsKCmNvbnN0IGExMXlJZCA9IHVzZUlkKCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBkZXRhaWxzID0gcmVmPEZub3NDb25uZWN0V2FmRGV0YWlscyB8IG51bGw+KG51bGwpOwoKY29uc3QgeyBpc1BlbmRpbmc6IGlzTG9hZGluZywgcnVuOiBydW5Mb2FkIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5mbm9zU2V0dGluZ3MuY29ubmVjdFdhZkxvYWRGYWlsZWQiKSwgewogICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciksCiAgICB9KTsKICB9LAp9KTsKY29uc3QgeyBpc1BlbmRpbmc6IGlzU2F2aW5nLCBydW46IHJ1blNhdmUgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmZub3NTZXR0aW5ncy5zYXZlRmFpbGVkIiksIHsKICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgZXJyb3IsCiAgICAgICAgdCgiYWRtaW4uZm5vc1NldHRpbmdzLmNvbm5lY3RXYWZTYXZlRmFpbGVkIiksCiAgICAgICksCiAgICB9KTsKICB9LAp9KTsKCmNvbnN0IGVuYWJsZWQgPSBjb21wdXRlZCgoKSA9PiBkZXRhaWxzLnZhbHVlPy5jb25maWcuZW5hYmxlZCA9PT0gdHJ1ZSk7CmNvbnN0IHN0YXR1c0tleSA9IGNvbXB1dGVkKCgpID0+IHsKICBpZiAoIWVuYWJsZWQudmFsdWUpIHJldHVybiAiY29ubmVjdFdhZlN0YXR1c0Rpc2FibGVkIjsKICBpZiAoZGV0YWlscy52YWx1ZT8ucnVudGltZS5wcm90ZWN0ZWQpIHJldHVybiAiY29ubmVjdFdhZlN0YXR1c1Byb3RlY3RlZCI7CiAgaWYgKGRldGFpbHMudmFsdWU/LnJ1bnRpbWUuZWZmZWN0aXZlICYmIGRldGFpbHMudmFsdWUucnVudGltZS53YWZfYWN0aXZlKSB7CiAgICByZXR1cm4gImNvbm5lY3RXYWZTdGF0dXNEZXRlY3Rpb24iOwogIH0KICBpZiAoZGV0YWlscy52YWx1ZT8ucnVudGltZS5lZmZlY3RpdmUpIHJldHVybiAiY29ubmVjdFdhZlN0YXR1c1dhZkluYWN0aXZlIjsKICByZXR1cm4gImNvbm5lY3RXYWZTdGF0dXNEZWdyYWRlZCI7Cn0pOwpjb25zdCBzdGF0dXNDbGFzcyA9IGNvbXB1dGVkKCgpID0+CiAgZGV0YWlscy52YWx1ZT8ucnVudGltZS5wcm90ZWN0ZWQKICAgID8gInRleHQtZW1lcmFsZC02MDAiCiAgICA6IGVuYWJsZWQudmFsdWUKICAgICAgPyAidGV4dC1hbWJlci02MDAiCiAgICAgIDogInRleHQtemluYy01MDAiLAopOwoKY29uc3QgbG9hZCA9IGFzeW5jICgpID0+IHsKICBhd2FpdCBydW5Mb2FkKGFzeW5jICgpID0+IHsKICAgIGRldGFpbHMudmFsdWUgPSBhd2FpdCBTeXN0ZW1BUEkuZ2V0Rm5vc0Nvbm5lY3RXYWZEZXRhaWxzKCk7CiAgfSk7Cn07Cgpjb25zdCBzYXZlID0gYXN5bmMgKG5leHQ6IGJvb2xlYW4pID0+IHsKICBpZiAoaXNTYXZpbmcudmFsdWUpIHJldHVybjsKICBjb25zdCBwcmV2aW91cyA9IGRldGFpbHMudmFsdWU7CiAgaWYgKGRldGFpbHMudmFsdWUpIHsKICAgIGRldGFpbHMudmFsdWUgPSB7CiAgICAgIC4uLmRldGFpbHMudmFsdWUsCiAgICAgIGNvbmZpZzogeyAuLi5kZXRhaWxzLnZhbHVlLmNvbmZpZywgZW5hYmxlZDogbmV4dCB9LAogICAgfTsKICB9CiAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcnVuU2F2ZSgKICAgICgpID0+IFN5c3RlbUFQSS51cGRhdGVGbm9zQ29ubmVjdFdhZkNvbmZpZyhuZXh0KSwKICAgIHsKICAgICAgb25TdWNjZXNzOiAodmFsdWUpID0+IHsKICAgICAgICBkZXRhaWxzLnZhbHVlID0gdmFsdWU7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5mbm9zU2V0dGluZ3MuY29ubmVjdFdhZlVwZGF0ZWQiKSk7CiAgICAgIH0sCiAgICB9LAogICk7CiAgaWYgKCFyZXN1bHQpIGRldGFpbHMudmFsdWUgPSBwcmV2aW91czsKfTsKCm9uTW91bnRlZChsb2FkKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGJnLW11dGVkLzEwIHAtNiI+CiAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEgcHItNiI+CiAgICAgIDxMYWJlbAogICAgICAgIDpmb3I9ImAke2ExMXlJZH0tZm5vcy1jb25uZWN0LXdhZmAiCiAgICAgICAgY2xhc3M9ImN1cnNvci1wb2ludGVyIHRleHQtYmFzZSBmb250LW1lZGl1bSIKICAgICAgPgogICAgICAgIHt7IHQoImFkbWluLmZub3NTZXR0aW5ncy5jb25uZWN0V2FmVGl0bGUiKSB9fQogICAgICA8L0xhYmVsPgogICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uZm5vc1NldHRpbmdzLmNvbm5lY3RXYWZEZXNjcmlwdGlvbiIpIH19CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IHYtaWY9ImRldGFpbHMiIGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSIgOmNsYXNzPSJzdGF0dXNDbGFzcyI+CiAgICAgICAge3sKICAgICAgICAgIHQoYGFkbWluLmZub3NTZXR0aW5ncy4ke3N0YXR1c0tleX1gLCB7CiAgICAgICAgICAgIHNvdXJjZTogZGV0YWlscy5ydW50aW1lLmRldGVjdGVkX2h0dHBfcG9ydCA/PyAiLSIsCiAgICAgICAgICAgIGxpc3RlbmVyOiBkZXRhaWxzLnJ1bnRpbWUubGlzdGVuZXJfcG9ydCA/PyAiLSIsCiAgICAgICAgICB9KQogICAgICAgIH19CiAgICAgIDwvZGl2PgogICAgICA8ZGl2CiAgICAgICAgdi1pZj0iZGV0YWlscz8ucnVudGltZS5sYXN0X2Vycm9yIgogICAgICAgIGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LWRlc3RydWN0aXZlIgogICAgICA+CiAgICAgICAge3sKICAgICAgICAgIHQoImFkbWluLmZub3NTZXR0aW5ncy5jb25uZWN0V2FmTGFzdEVycm9yIiwgewogICAgICAgICAgICBtZXNzYWdlOiBkZXRhaWxzLnJ1bnRpbWUubGFzdF9lcnJvciwKICAgICAgICAgIH0pCiAgICAgICAgfX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICAgIDxTd2l0Y2gKICAgICAgOmlkPSJgJHthMTF5SWR9LWZub3MtY29ubmVjdC13YWZgIgogICAgICA6bW9kZWwtdmFsdWU9ImVuYWJsZWQiCiAgICAgIDpkaXNhYmxlZD0iaXNMb2FkaW5nIHx8IGlzU2F2aW5nIHx8ICFkZXRhaWxzPy5hdmFpbGFiaWxpdHkuYXZhaWxhYmxlIgogICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJzYXZlKCRldmVudCA9PT0gdHJ1ZSkiCiAgICAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, onMounted, ref, useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { SystemAPI } from "@/lib/api/system";
+import type { FnosConnectWafDetails } from "../../../types";
+
+const a11yId = useId();
+const { t } = useI18n();
+const details = ref<FnosConnectWafDetails | null>(null);
+
+const { isPending: isLoading, run: runLoad } = useAsyncAction({
+  onError: (error) => {
+    toast.error(t("admin.fnosSettings.connectWafLoadFailed"), {
+      description: extractErrorMessage(error),
+    });
+  },
+});
+const { isPending: isSaving, run: runSave } = useAsyncAction({
+  onError: (error) => {
+    toast.error(t("admin.fnosSettings.saveFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.fnosSettings.connectWafSaveFailed"),
+      ),
+    });
+  },
+});
+
+const enabled = computed(() => details.value?.config.enabled === true);
+const statusKey = computed(() => {
+  if (!enabled.value) return "connectWafStatusDisabled";
+  if (details.value?.runtime.protected) return "connectWafStatusProtected";
+  if (details.value?.runtime.effective && details.value.runtime.waf_active) {
+    return "connectWafStatusDetection";
+  }
+  if (details.value?.runtime.effective) return "connectWafStatusWafInactive";
+  return "connectWafStatusDegraded";
+});
+const statusClass = computed(() =>
+  details.value?.runtime.protected
+    ? "text-emerald-600"
+    : enabled.value
+      ? "text-amber-600"
+      : "text-zinc-500",
+);
+
+const load = async () => {
+  await runLoad(async () => {
+    details.value = await SystemAPI.getFnosConnectWafDetails();
+  });
+};
+
+const save = async (next: boolean) => {
+  if (isSaving.value) return;
+  const previous = details.value;
+  if (details.value) {
+    details.value = {
+      ...details.value,
+      config: { ...details.value.config, enabled: next },
+    };
+  }
+  const result = await runSave(
+    () => SystemAPI.updateFnosConnectWafConfig(next),
+    {
+      onSuccess: (value) => {
+        details.value = value;
+        toast.success(t("admin.fnosSettings.connectWafUpdated"));
+      },
+    },
+  );
+  if (!result) details.value = previous;
+};
+
+onMounted(load);
+</script>
+
+<template>
+  <div class="flex items-center justify-between bg-muted/10 p-6">
+    <div class="space-y-1 pr-6">
+      <Label
+        :for="`${a11yId}-fnos-connect-waf`"
+        class="cursor-pointer text-base font-medium"
+      >
+        {{ t("admin.fnosSettings.connectWafTitle") }}
+      </Label>
+      <div class="text-sm text-muted-foreground">
+        {{ t("admin.fnosSettings.connectWafDescription") }}
+      </div>
+      <div v-if="details" class="text-xs leading-5" :class="statusClass">
+        {{
+          t(`admin.fnosSettings.${statusKey}`, {
+            source: details.runtime.detected_http_port ?? "-",
+            listener: details.runtime.listener_port ?? "-",
+          })
+        }}
+      </div>
+      <div
+        v-if="details?.runtime.last_error"
+        class="text-xs leading-5 text-destructive"
+      >
+        {{
+          t("admin.fnosSettings.connectWafLastError", {
+            message: details.runtime.last_error,
+          })
+        }}
+      </div>
+    </div>
+    <Switch
+      :id="`${a11yId}-fnos-connect-waf`"
+      :model-value="enabled"
+      :disabled="isLoading || isSaving || !details?.availability.available"
+      @update:model-value="save($event === true)"
+    />
+  </div>
+</template>

@@ -1,1 +1,250 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBjb21tYW5kX2F2YWlsYWJsZShjb21tYW5kOiAmc3RyKSAtPiBib29sIHsKICAgIENvbW1hbmQ6Om5ldyhjb21tYW5kKQogICAgICAgIC5hcmcoIi0tdmVyc2lvbiIpCiAgICAgICAgLm91dHB1dCgpCiAgICAgICAgLm1hcCh8b3V0cHV0fCBvdXRwdXQuc3RhdHVzLnN1Y2Nlc3MoKSkKICAgICAgICAudW53cmFwX29yKGZhbHNlKQp9CgpwdWIoc3VwZXIpIGZuIHJlc29sdmVfc3NoX3BvcnRzKCkgLT4gVmVjPGk2ND4gewogICAgbGV0IHBhdGggPQogICAgICAgIHN0ZDo6ZW52Ojp2YXIoIlNTSERfQ09ORklHX1BBVEgiKS51bndyYXBfb3JfZWxzZSh8X3wgIi9ldGMvc3NoL3NzaGRfY29uZmlnIi50b19zdHJpbmcoKSk7CiAgICBsZXQgT2soY29udGVudCkgPSBmczo6cmVhZF90b19zdHJpbmcocGF0aCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIHZlYyFbMjJdOwogICAgfTsKICAgIGxldCBtdXQgcG9ydHMgPSBjb250ZW50CiAgICAgICAgLmxpbmVzKCkKICAgICAgICAuZmlsdGVyX21hcCh8bGluZXwgewogICAgICAgICAgICBsZXQgbGluZSA9IGxpbmUuc3BsaXQoJyMnKS5uZXh0KCk/LnRyaW0oKTsKICAgICAgICAgICAgbGV0IG11dCBwYXJ0cyA9IGxpbmUuc3BsaXRfd2hpdGVzcGFjZSgpOwogICAgICAgICAgICBpZiBwYXJ0cy5uZXh0KCk/LmVxX2lnbm9yZV9hc2NpaV9jYXNlKCJwb3J0IikgewogICAgICAgICAgICAgICAgcGFydHMubmV4dCgpPy5wYXJzZTo6PGk2ND4oKS5vaygpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBOb25lCiAgICAgICAgICAgIH0KICAgICAgICB9KQogICAgICAgIC5maWx0ZXIofHBvcnR8ICpwb3J0ID4gMCAmJiAqcG9ydCA8PSA2NTUzNSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIHBvcnRzLnNvcnRfdW5zdGFibGUoKTsKICAgIHBvcnRzLmRlZHVwKCk7CiAgICBpZiBwb3J0cy5pc19lbXB0eSgpIHsgdmVjIVsyMl0gfSBlbHNlIHsgcG9ydHMgfQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9hbGxvd2VkX3JlZ2lvbnModmFsdWU6IE9wdGlvbjwmVmFsdWU+KSAtPiBWYWx1ZSB7CiAgICBsZXQgU29tZShpdGVtcykgPSB2YWx1ZS5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpIGVsc2UgewogICAgICAgIHJldHVybiBqc29uIShbXSk7CiAgICB9OwogICAgbGV0IG11dCBzZWVuID0gSGFzaFNldDo6bmV3KCk7CiAgICBsZXQgcmVnaW9ucyA9IGl0ZW1zCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXJfbWFwKHxpdGVtfCB7CiAgICAgICAgICAgIGxldCBwcm92aW5jZSA9IGl0ZW0uZ2V0KCJwcm92aW5jZSIpPy5hc19zdHIoKT8udHJpbSgpOwogICAgICAgICAgICBpZiBwcm92aW5jZS5pc19lbXB0eSgpIHsKICAgICAgICAgICAgICAgIHJldHVybiBOb25lOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGxldCBxdWVyeV9jaXR5ID0gaXRlbQogICAgICAgICAgICAgICAgLmdldCgicXVlcnlfY2l0eSIpCiAgICAgICAgICAgICAgICAub3JfZWxzZSh8fCBpdGVtLmdldCgicXVlcnlDaXR5IikpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgICAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKTsKICAgICAgICAgICAgbGV0IG9wZXJhdG9yID0gQ2lkck9wZXJhdG9yOjpwYXJzZV92YWx1ZShpdGVtLmdldCgib3BlcmF0b3IiKSkKICAgICAgICAgICAgLm9rKCkKICAgICAgICAgICAgLmZsYXR0ZW4oKTsKICAgICAgICAgICAgbGV0IGtleSA9IENpZHJSZWdpb25RdWVyeTo6bmV3KHByb3ZpbmNlLCBxdWVyeV9jaXR5LCBvcGVyYXRvcikua2V5KCk7CiAgICAgICAgICAgIGlmICFzZWVuLmluc2VydChrZXkpIHsKICAgICAgICAgICAgICAgIHJldHVybiBOb25lOwogICAgICAgICAgICB9CiAgICAgICAgICAgIFNvbWUoanNvbiEoewogICAgICAgICAgICAgICAgInByb3ZpbmNlIjogcHJvdmluY2UsCiAgICAgICAgICAgICAgICAiY2l0eSI6IGl0ZW0uZ2V0KCJjaXR5IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKSwKICAgICAgICAgICAgICAgICJsYWJlbCI6IGl0ZW0uZ2V0KCJsYWJlbCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcihwcm92aW5jZSksCiAgICAgICAgICAgICAgICAidmFsdWUiOiBpdGVtLmdldCgidmFsdWUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IocHJvdmluY2UpLAogICAgICAgICAgICAgICAgInF1ZXJ5X2NpdHkiOiBxdWVyeV9jaXR5LAogICAgICAgICAgICAgICAgIm9wZXJhdG9yIjogb3BlcmF0b3IsCiAgICAgICAgICAgICAgICAiaXNfcHJvdmluY2Vfd2lkZSI6IGl0ZW0uZ2V0KCJpc19wcm92aW5jZV93aWRlIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpLnVud3JhcF9vcihxdWVyeV9jaXR5LmlzX25vbmUoKSksCiAgICAgICAgICAgICAgICAiaXNfbXVuaWNpcGFsaXR5IjogaXRlbS5nZXQoImlzX211bmljaXBhbGl0eSIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKS51bndyYXBfb3IoZmFsc2UpCiAgICAgICAgICAgIH0pKQogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBWYWx1ZTo6QXJyYXkocmVnaW9ucykKfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfY2lkcnModmFsdWU6IE9wdGlvbjwmVmFsdWU+KSAtPiBWYWx1ZSB7CiAgICBsZXQgU29tZShpdGVtcykgPSB2YWx1ZS5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpIGVsc2UgewogICAgICAgIHJldHVybiBqc29uIShbXSk7CiAgICB9OwogICAgVmFsdWU6OkFycmF5KAogICAgICAgIG5vcm1hbGl6ZV9jaWRyX3N0cmluZ3MoaXRlbXMuaXRlcigpLmZpbHRlcl9tYXAoVmFsdWU6OmFzX3N0cikubWFwKHN0cjo6dG9fc3RyaW5nKSkKICAgICAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgICAgIC5tYXAoVmFsdWU6OlN0cmluZykKICAgICAgICAgICAgLmNvbGxlY3QoKSwKICAgICkKfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfY2lkcl9zdHJpbmdzKHZhbHVlczogaW1wbCBJbnRvSXRlcmF0b3I8SXRlbSA9IFN0cmluZz4pIC0+IFZlYzxTdHJpbmc+IHsKICAgIGxldCBtdXQgc2VlbiA9IEhhc2hTZXQ6Om5ldygpOwogICAgdmFsdWVzCiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLmZpbHRlcl9tYXAofHZhbHVlfCB7CiAgICAgICAgICAgIGxldCB0cmltbWVkID0gdmFsdWUudHJpbSgpOwogICAgICAgICAgICBpZiB0cmltbWVkLmlzX2VtcHR5KCkgewogICAgICAgICAgICAgICAgcmV0dXJuIE5vbmU7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgdHJpbW1lZC5wYXJzZTo6PElwTmV0PigpLm9rKCkKICAgICAgICB9KQogICAgICAgIC5tYXAofGNpZHJ8IGNpZHIudG9fc3RyaW5nKCkpCiAgICAgICAgLmZpbHRlcih8Y2lkcnwgc2Vlbi5pbnNlcnQoY2lkci5jbG9uZSgpKSkKICAgICAgICAuY29sbGVjdCgpCn0KCnB1YihzdXBlcikgZm4gdmFsaWRhdGVfY2lkcnMoCiAgICB2YWx1ZTogT3B0aW9uPCZWYWx1ZT4sCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBSZXN1bHQ8KCksIFNzaEVycm9yPiB7CiAgICBsZXQgU29tZSh2YWx1ZSkgPSB2YWx1ZSBlbHNlIHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfTsKICAgIGxldCBTb21lKGl0ZW1zKSA9IHZhbHVlLmFzX2FycmF5KCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIEVycihTc2hFcnJvcjo6QmFkUmVxdWVzdChzc2hfc2VjdXJpdHlfdGV4dCgKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgImN1c3RvbUNpZHJzTXVzdEJlQXJyYXkiLAogICAgICAgICkpKTsKICAgIH07CiAgICBsZXQgaW52YWxpZCA9IGl0ZW1zCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXJfbWFwKHxpdGVtfCBtYXRjaCBpdGVtLmFzX3N0cigpIHsKICAgICAgICAgICAgU29tZSh2YWx1ZSkgaWYgdmFsdWUudHJpbSgpLmlzX2VtcHR5KCkgPT4gTm9uZSwKICAgICAgICAgICAgU29tZSh2YWx1ZSkgaWYgdmFsdWUudHJpbSgpLnBhcnNlOjo8SXBOZXQ+KCkuaXNfZXJyKCkgPT4gU29tZSh2YWx1ZS50cmltKCkpLAogICAgICAgICAgICBTb21lKF8pID0+IE5vbmUsCiAgICAgICAgICAgIE5vbmUgPT4gU29tZSgiPG5vbi1zdHJpbmc+IiksCiAgICAgICAgfSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGlmIGludmFsaWQuaXNfZW1wdHkoKSB7CiAgICAgICAgT2soKCkpCiAgICB9IGVsc2UgewogICAgICAgIEVycihTc2hFcnJvcjo6QmFkUmVxdWVzdChzc2hfc2VjdXJpdHlfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJjdXN0b21DaWRySW52YWxpZCIsCiAgICAgICAgICAgICZbKCJjaWRycyIsIGludmFsaWQuam9pbigiLCAiKSldLAogICAgICAgICkpKQogICAgfQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9kdXJhdGlvbl91bml0KHZhbHVlOiBPcHRpb248JnN0cj4pIC0+IFN0cmluZyB7CiAgICBtYXRjaCB2YWx1ZSB7CiAgICAgICAgU29tZSh2YWx1ZSBAICgibWludXRlIiB8ICJob3VyIiB8ICJkYXkiIHwgIm1vbnRoIikpID0+IHZhbHVlLnRvX3N0cmluZygpLAogICAgICAgIF8gPT4gImRheSIudG9fc3RyaW5nKCksCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gaW50X2ZpZWxkKAogICAgcmF3OiAmTWFwPFN0cmluZywgVmFsdWU+LAogICAga2V5OiAmc3RyLAogICAgZmFsbGJhY2s6IGk2NCwKICAgIG1pbjogaTY0LAogICAgbWF4OiBpNjQsCikgLT4gaTY0IHsKICAgIHJhdy5nZXQoa2V5KQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHsKICAgICAgICAgICAgdmFsdWUKICAgICAgICAgICAgICAgIC5hc19pNjQoKQogICAgICAgICAgICAgICAgLm9yX2Vsc2UofHwgdmFsdWUuYXNfc3RyKCkuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5wYXJzZTo6PGk2ND4oKS5vaygpKSkKICAgICAgICB9KQogICAgICAgIC51bndyYXBfb3IoZmFsbGJhY2spCiAgICAgICAgLmNsYW1wKG1pbiwgbWF4KQp9CgpwdWIoc3VwZXIpIGZuIGludF9maWVsZF9vcl9wcmV2aW91cygKICAgIHJhdzogJk1hcDxTdHJpbmcsIFZhbHVlPiwKICAgIHByZXZpb3VzOiAmVmFsdWUsCiAgICBrZXk6ICZzdHIsCiAgICBmYWxsYmFjazogaTY0LAogICAgbWluOiBpNjQsCiAgICBtYXg6IGk2NCwKKSAtPiBpNjQgewogICAgcmF3LmdldChrZXkpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgewogICAgICAgICAgICB2YWx1ZQogICAgICAgICAgICAgICAgLmFzX2k2NCgpCiAgICAgICAgICAgICAgICAub3JfZWxzZSh8fCB2YWx1ZS5hc19zdHIoKS5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnBhcnNlOjo8aTY0PigpLm9rKCkpKQogICAgICAgIH0pCiAgICAgICAgLm9yX2Vsc2UofHwgcHJldmlvdXMuZ2V0KGtleSkuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkpCiAgICAgICAgLnVud3JhcF9vcihmYWxsYmFjaykKICAgICAgICAuY2xhbXAobWluLCBtYXgpCn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX3RpbWVzdGFtcCh2YWx1ZTogT3B0aW9uPCZWYWx1ZT4pIC0+IE9wdGlvbjxWYWx1ZT4gewogICAgbGV0IHZhbHVlID0gdmFsdWUuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cik/OwogICAgdGltZV91dGlsczo6cGFyc2VfaXNvX21zKHZhbHVlKS5tYXAofF98IFZhbHVlOjpTdHJpbmcodmFsdWUudG9fc3RyaW5nKCkpKQp9CgpwdWIoc3VwZXIpIGZuIGlzb19zY29yZSh2YWx1ZTogT3B0aW9uPCZzdHI+KSAtPiBpNjQgewogICAgdmFsdWUuYW5kX3RoZW4odGltZV91dGlsczo6cGFyc2VfaXNvX21zKS51bndyYXBfb3JfZGVmYXVsdCgpCn0KCnB1YihzdXBlcikgZm4gcGFyc2VfcG9zaXRpdmUodmFsdWU6IE9wdGlvbjwmc3RyPiwgZmFsbGJhY2s6IGk2NCwgbWF4OiBpNjQpIC0+IGk2NCB7CiAgICB2YWx1ZQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IGNyYXRlOjpub2RlX2NvbXBhdDo6cGFyc2VfaTY0X3ByZWZpeCh2YWx1ZS50cmltX3N0YXJ0KCkpKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAqdmFsdWUgPiAwKQogICAgICAgIC51bndyYXBfb3IoZmFsbGJhY2spCiAgICAgICAgLm1pbihtYXgpCn0KCnB1YihzdXBlcikgZm4gcGFyc2VfanNvbl9ib2R5KGJvZHk6ICZCeXRlcykgLT4gVmFsdWUgewogICAgaWYgYm9keS5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4ganNvbiEoe30pOwogICAgfQogICAgc2VyZGVfanNvbjo6ZnJvbV9zbGljZShib2R5KS51bndyYXBfb3JfZWxzZSh8X3wganNvbiEoe30pKQp9CgpwdWIoc3VwZXIpIGZuIGRlbGV0ZV9pcF92YWx1ZV90b19zdHJpbmcodmFsdWU6ICZWYWx1ZSkgLT4gU3RyaW5nIHsKICAgIG1hdGNoIHZhbHVlIHsKICAgICAgICBWYWx1ZTo6TnVsbCA9PiBTdHJpbmc6Om5ldygpLAogICAgICAgIFZhbHVlOjpTdHJpbmcodmFsdWUpID0+IHZhbHVlLmNsb25lKCksCiAgICAgICAgVmFsdWU6OkJvb2wodmFsdWUpID0+IHZhbHVlLnRvX3N0cmluZygpLAogICAgICAgIFZhbHVlOjpOdW1iZXIodmFsdWUpID0+IHZhbHVlLnRvX3N0cmluZygpLAogICAgICAgIFZhbHVlOjpBcnJheShpdGVtcykgPT4gaXRlbXMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAubWFwKGRlbGV0ZV9pcF92YWx1ZV90b19zdHJpbmcpCiAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpCiAgICAgICAgICAgIC5qb2luKCIsIiksCiAgICAgICAgVmFsdWU6Ok9iamVjdChfKSA9PiAiW29iamVjdCBPYmplY3RdIi50b19zdHJpbmcoKSwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBwb3NpdGl2ZV9pNjRfZnJvbV92YWx1ZSh2YWx1ZTogT3B0aW9uPCZWYWx1ZT4pIC0+IE9wdGlvbjxpNjQ+IHsKICAgIHBhcnNlX2k2NF9mcm9tX2pzb25fbGlrZV9ub2RlKHZhbHVlPykuZmlsdGVyKHx2YWx1ZXwgKnZhbHVlID4gMCkKfQoKcHViKHN1cGVyKSBmbiBwYXJzZV9pNjRfZnJvbV9qc29uX2xpa2Vfbm9kZSh2YWx1ZTogJlZhbHVlKSAtPiBPcHRpb248aTY0PiB7CiAgICBjcmF0ZTo6bm9kZV9jb21wYXQ6OnBhcnNlX2k2NF9mcm9tX2pzb25fbGlrZV9ub2RlKHZhbHVlKQp9CgpwdWIoc3VwZXIpIGZuIGV4dHJhY3RfYmV0d2VlbjwnYT4odmFsdWU6ICYnYSBzdHIsIHN0YXJ0OiAmc3RyLCBlbmQ6ICZzdHIpIC0+IE9wdGlvbjwmJ2Egc3RyPiB7CiAgICBsZXQgKF8sIHJlc3QpID0gdmFsdWUuc3BsaXRfb25jZShzdGFydCk/OwogICAgbGV0IChwYXJ0LCBfKSA9IHJlc3Quc3BsaXRfb25jZShlbmQpPzsKICAgIFNvbWUocGFydCkKfQoKcHViKHN1cGVyKSBmbiBleHRyYWN0X2FmdGVyPCdhPih2YWx1ZTogJidhIHN0ciwgbWFya2VyOiAmc3RyKSAtPiBPcHRpb248JidhIHN0cj4gewogICAgdmFsdWUuc3BsaXRfb25jZShtYXJrZXIpLm1hcCh8KF8sIHJlc3QpfCByZXN0KQp9CgpwdWIoc3VwZXIpIGZuIGZpbmdlcnByaW50KHZhbHVlOiAmc3RyKSAtPiBTdHJpbmcgewogICAgbGV0IG11dCBoYXNoZXIgPSBTaGEyNTY6Om5ldygpOwogICAgaGFzaGVyLnVwZGF0ZSh2YWx1ZS5hc19ieXRlcygpKTsKICAgIGhleDo6ZW5jb2RlKGhhc2hlci5maW5hbGl6ZSgpKVsuLjI0XS50b19zdHJpbmcoKQp9CgpwdWIoc3VwZXIpIGZuIG1pbGxpc190b19pc28obXM6IGk2NCkgLT4gU3RyaW5nIHsKICAgIHRpbWU6Ok9mZnNldERhdGVUaW1lOjpmcm9tX3VuaXhfdGltZXN0YW1wKG1zLmRpdl9ldWNsaWQoMTAwMCkpCiAgICAgICAgLm9rKCkKICAgICAgICAuYW5kX3RoZW4ofHRpbWV8IHsKICAgICAgICAgICAgdGltZS5mb3JtYXQoJnRpbWU6OmZvcm1hdF9kZXNjcmlwdGlvbjo6d2VsbF9rbm93bjo6UmZjMzMzOSkKICAgICAgICAgICAgICAgIC5vaygpCiAgICAgICAgfSkKICAgICAgICAudW53cmFwX29yX2Vsc2UodGltZV91dGlsczo6bm93X2lzbykKfQo=
+use super::*;
+
+pub(super) fn command_available(command: &str) -> bool {
+    Command::new(command)
+        .arg("--version")
+        .output()
+        .map(|output| output.status.success())
+        .unwrap_or(false)
+}
+
+pub(super) fn resolve_ssh_ports() -> Vec<i64> {
+    let path =
+        std::env::var("SSHD_CONFIG_PATH").unwrap_or_else(|_| "/etc/ssh/sshd_config".to_string());
+    let Ok(content) = fs::read_to_string(path) else {
+        return vec![22];
+    };
+    let mut ports = content
+        .lines()
+        .filter_map(|line| {
+            let line = line.split('#').next()?.trim();
+            let mut parts = line.split_whitespace();
+            if parts.next()?.eq_ignore_ascii_case("port") {
+                parts.next()?.parse::<i64>().ok()
+            } else {
+                None
+            }
+        })
+        .filter(|port| *port > 0 && *port <= 65535)
+        .collect::<Vec<_>>();
+    ports.sort_unstable();
+    ports.dedup();
+    if ports.is_empty() { vec![22] } else { ports }
+}
+
+pub(super) fn normalize_allowed_regions(value: Option<&Value>) -> Value {
+    let Some(items) = value.and_then(Value::as_array) else {
+        return json!([]);
+    };
+    let mut seen = HashSet::new();
+    let regions = items
+        .iter()
+        .filter_map(|item| {
+            let province = item.get("province")?.as_str()?.trim();
+            if province.is_empty() {
+                return None;
+            }
+            let query_city = item
+                .get("query_city")
+                .or_else(|| item.get("queryCity"))
+                .and_then(Value::as_str)
+                .map(str::trim)
+                .filter(|value| !value.is_empty());
+            let operator = CidrOperator::parse_value(item.get("operator"))
+            .ok()
+            .flatten();
+            let key = CidrRegionQuery::new(province, query_city, operator).key();
+            if !seen.insert(key) {
+                return None;
+            }
+            Some(json!({
+                "province": province,
+                "city": item.get("city").and_then(Value::as_str).unwrap_or(""),
+                "label": item.get("label").and_then(Value::as_str).unwrap_or(province),
+                "value": item.get("value").and_then(Value::as_str).unwrap_or(province),
+                "query_city": query_city,
+                "operator": operator,
+                "is_province_wide": item.get("is_province_wide").and_then(Value::as_bool).unwrap_or(query_city.is_none()),
+                "is_municipality": item.get("is_municipality").and_then(Value::as_bool).unwrap_or(false)
+            }))
+        })
+        .collect::<Vec<_>>();
+    Value::Array(regions)
+}
+
+pub(super) fn normalize_cidrs(value: Option<&Value>) -> Value {
+    let Some(items) = value.and_then(Value::as_array) else {
+        return json!([]);
+    };
+    Value::Array(
+        normalize_cidr_strings(items.iter().filter_map(Value::as_str).map(str::to_string))
+            .into_iter()
+            .map(Value::String)
+            .collect(),
+    )
+}
+
+pub(super) fn normalize_cidr_strings(values: impl IntoIterator<Item = String>) -> Vec<String> {
+    let mut seen = HashSet::new();
+    values
+        .into_iter()
+        .filter_map(|value| {
+            let trimmed = value.trim();
+            if trimmed.is_empty() {
+                return None;
+            }
+            trimmed.parse::<IpNet>().ok()
+        })
+        .map(|cidr| cidr.to_string())
+        .filter(|cidr| seen.insert(cidr.clone()))
+        .collect()
+}
+
+pub(super) fn validate_cidrs(
+    value: Option<&Value>,
+    translator: &Translator,
+) -> Result<(), SshError> {
+    let Some(value) = value else {
+        return Ok(());
+    };
+    let Some(items) = value.as_array() else {
+        return Err(SshError::BadRequest(ssh_security_text(
+            translator,
+            "customCidrsMustBeArray",
+        )));
+    };
+    let invalid = items
+        .iter()
+        .filter_map(|item| match item.as_str() {
+            Some(value) if value.trim().is_empty() => None,
+            Some(value) if value.trim().parse::<IpNet>().is_err() => Some(value.trim()),
+            Some(_) => None,
+            None => Some("<non-string>"),
+        })
+        .collect::<Vec<_>>();
+    if invalid.is_empty() {
+        Ok(())
+    } else {
+        Err(SshError::BadRequest(ssh_security_text_params(
+            translator,
+            "customCidrInvalid",
+            &[("cidrs", invalid.join(", "))],
+        )))
+    }
+}
+
+pub(super) fn normalize_duration_unit(value: Option<&str>) -> String {
+    match value {
+        Some(value @ ("minute" | "hour" | "day" | "month")) => value.to_string(),
+        _ => "day".to_string(),
+    }
+}
+
+pub(super) fn int_field(
+    raw: &Map<String, Value>,
+    key: &str,
+    fallback: i64,
+    min: i64,
+    max: i64,
+) -> i64 {
+    raw.get(key)
+        .and_then(|value| {
+            value
+                .as_i64()
+                .or_else(|| value.as_str().and_then(|value| value.parse::<i64>().ok()))
+        })
+        .unwrap_or(fallback)
+        .clamp(min, max)
+}
+
+pub(super) fn int_field_or_previous(
+    raw: &Map<String, Value>,
+    previous: &Value,
+    key: &str,
+    fallback: i64,
+    min: i64,
+    max: i64,
+) -> i64 {
+    raw.get(key)
+        .and_then(|value| {
+            value
+                .as_i64()
+                .or_else(|| value.as_str().and_then(|value| value.parse::<i64>().ok()))
+        })
+        .or_else(|| previous.get(key).and_then(Value::as_i64))
+        .unwrap_or(fallback)
+        .clamp(min, max)
+}
+
+pub(super) fn normalize_timestamp(value: Option<&Value>) -> Option<Value> {
+    let value = value.and_then(Value::as_str)?;
+    time_utils::parse_iso_ms(value).map(|_| Value::String(value.to_string()))
+}
+
+pub(super) fn iso_score(value: Option<&str>) -> i64 {
+    value.and_then(time_utils::parse_iso_ms).unwrap_or_default()
+}
+
+pub(super) fn parse_positive(value: Option<&str>, fallback: i64, max: i64) -> i64 {
+    value
+        .and_then(|value| crate::node_compat::parse_i64_prefix(value.trim_start()))
+        .filter(|value| *value > 0)
+        .unwrap_or(fallback)
+        .min(max)
+}
+
+pub(super) fn parse_json_body(body: &Bytes) -> Value {
+    if body.is_empty() {
+        return json!({});
+    }
+    serde_json::from_slice(body).unwrap_or_else(|_| json!({}))
+}
+
+pub(super) fn delete_ip_value_to_string(value: &Value) -> String {
+    match value {
+        Value::Null => String::new(),
+        Value::String(value) => value.clone(),
+        Value::Bool(value) => value.to_string(),
+        Value::Number(value) => value.to_string(),
+        Value::Array(items) => items
+            .iter()
+            .map(delete_ip_value_to_string)
+            .collect::<Vec<_>>()
+            .join(","),
+        Value::Object(_) => "[object Object]".to_string(),
+    }
+}
+
+pub(super) fn positive_i64_from_value(value: Option<&Value>) -> Option<i64> {
+    parse_i64_from_json_like_node(value?).filter(|value| *value > 0)
+}
+
+pub(super) fn parse_i64_from_json_like_node(value: &Value) -> Option<i64> {
+    crate::node_compat::parse_i64_from_json_like_node(value)
+}
+
+pub(super) fn extract_between<'a>(value: &'a str, start: &str, end: &str) -> Option<&'a str> {
+    let (_, rest) = value.split_once(start)?;
+    let (part, _) = rest.split_once(end)?;
+    Some(part)
+}
+
+pub(super) fn extract_after<'a>(value: &'a str, marker: &str) -> Option<&'a str> {
+    value.split_once(marker).map(|(_, rest)| rest)
+}
+
+pub(super) fn fingerprint(value: &str) -> String {
+    let mut hasher = Sha256::new();
+    hasher.update(value.as_bytes());
+    hex::encode(hasher.finalize())[..24].to_string()
+}
+
+pub(super) fn millis_to_iso(ms: i64) -> String {
+    time::OffsetDateTime::from_unix_timestamp(ms.div_euclid(1000))
+        .ok()
+        .and_then(|time| {
+            time.format(&time::format_description::well_known::Rfc3339)
+                .ok()
+        })
+        .unwrap_or_else(time_utils::now_iso)
+}

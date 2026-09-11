@@ -1,1 +1,36 @@
-IyB2dDEwMAoKVGhpcyBjcmF0ZSBwYXJzZXMgYSB0ZXJtaW5hbCBieXRlIHN0cmVhbSBhbmQgcHJvdmlkZXMgYW4gaW4tbWVtb3J5CnJlcHJlc2VudGF0aW9uIG9mIHRoZSByZW5kZXJlZCBjb250ZW50cy4KCiMjIE92ZXJ2aWV3CgpUaGlzIGlzIGVzc2VudGlhbGx5IHRoZSB0ZXJtaW5hbCBwYXJzZXIgY29tcG9uZW50IG9mIGEgZ3JhcGhpY2FsIHRlcm1pbmFsCmVtdWxhdG9yIHB1bGxlZCBvdXQgaW50byBhIHNlcGFyYXRlIGNyYXRlLiBBbHRob3VnaCB5b3UgY2FuIHVzZSB0aGlzIGNyYXRlCnRvIGJ1aWxkIGEgZ3JhcGhpY2FsIHRlcm1pbmFsIGVtdWxhdG9yLCBpdCBhbHNvIGNvbnRhaW5zIGZ1bmN0aW9uYWxpdHkKbmVjZXNzYXJ5IGZvciBpbXBsZW1lbnRpbmcgdGVybWluYWwgYXBwbGljYXRpb25zIHRoYXQgd2FudCB0byBydW4gb3RoZXIKdGVybWluYWwgYXBwbGljYXRpb25zIC0gcHJvZ3JhbXMgbGlrZSBgc2NyZWVuYCBvciBgdG11eGAgZm9yIGV4YW1wbGUuCgojIyBTeW5vcHNpcwoKYGBgcnVzdApsZXQgbXV0IHBhcnNlciA9IHZ0MTAwOjpQYXJzZXI6Om5ldygyNCwgODAsIDApOwoKbGV0IHNjcmVlbiA9IHBhcnNlci5zY3JlZW4oKS5jbG9uZSgpOwpwYXJzZXIucHJvY2VzcyhiInRoaXMgdGV4dCBpcyBceDFiWzMxbVJFRFx4MWJbbSIpOwphc3NlcnRfZXEhKAogICAgcGFyc2VyLnNjcmVlbigpLmNlbGwoMCwgMTMpLnVud3JhcCgpLmZnY29sb3IoKSwKICAgIHZ0MTAwOjpDb2xvcjo6SWR4KDEpLAopOwoKbGV0IHNjcmVlbiA9IHBhcnNlci5zY3JlZW4oKS5jbG9uZSgpOwpwYXJzZXIucHJvY2VzcyhiIlx4MWJbM0RceDFiWzMybUdSRUVOIik7CmFzc2VydF9lcSEoCiAgICBwYXJzZXIuc2NyZWVuKCkuY29udGVudHNfZm9ybWF0dGVkKCksCiAgICAmYiJceDFiWz8yNWhceDFiW21ceDFiW0hceDFiW0p0aGlzIHRleHQgaXMgXHgxYlszMm1HUkVFTiJbLi5dLAopOwphc3NlcnRfZXEhKAogICAgcGFyc2VyLnNjcmVlbigpLmNvbnRlbnRzX2RpZmYoJnNjcmVlbiksCiAgICAmYiJceDFiWzE7MTRIXHgxYlszMm1HUkVFTiJbLi5dLAopOwpgYGAK
+# vt100
+
+This crate parses a terminal byte stream and provides an in-memory
+representation of the rendered contents.
+
+## Overview
+
+This is essentially the terminal parser component of a graphical terminal
+emulator pulled out into a separate crate. Although you can use this crate
+to build a graphical terminal emulator, it also contains functionality
+necessary for implementing terminal applications that want to run other
+terminal applications - programs like `screen` or `tmux` for example.
+
+## Synopsis
+
+```rust
+let mut parser = vt100::Parser::new(24, 80, 0);
+
+let screen = parser.screen().clone();
+parser.process(b"this text is \x1b[31mRED\x1b[m");
+assert_eq!(
+    parser.screen().cell(0, 13).unwrap().fgcolor(),
+    vt100::Color::Idx(1),
+);
+
+let screen = parser.screen().clone();
+parser.process(b"\x1b[3D\x1b[32mGREEN");
+assert_eq!(
+    parser.screen().contents_formatted(),
+    &b"\x1b[?25h\x1b[m\x1b[H\x1b[Jthis text is \x1b[32mGREEN"[..],
+);
+assert_eq!(
+    parser.screen().contents_diff(&screen),
+    &b"\x1b[1;14H\x1b[32mGREEN"[..],
+);
+```

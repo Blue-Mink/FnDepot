@@ -1,1 +1,480 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBleGVjRmlsZSB9IGZyb20gIm5vZGU6Y2hpbGRfcHJvY2VzcyI7CmltcG9ydCB7IG1rZHRlbXAsIHJtLCB3cml0ZUZpbGUgfSBmcm9tICJub2RlOmZzL3Byb21pc2VzIjsKaW1wb3J0IG9zIGZyb20gIm5vZGU6b3MiOwppbXBvcnQgcGF0aCBmcm9tICJub2RlOnBhdGgiOwppbXBvcnQgdGVzdCBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgeyBwcm9taXNpZnkgfSBmcm9tICJub2RlOnV0aWwiOwppbXBvcnQgewogIGNvbXBhcmVSdW50aW1lU3VtbWFyaWVzLAogIHBlcmNlbnRpbGUsCiAgc3VtbWFyaXplUnVudGltZVNhbXBsZXMsCn0gZnJvbSAiLi4vcnVudGltZS1wZXJmb3JtYW5jZS1saWIubWpzIjsKCmNvbnN0IGV4ZWNGaWxlQXN5bmMgPSBwcm9taXNpZnkoZXhlY0ZpbGUpOwpjb25zdCByb290RGlyID0gcGF0aC5yZXNvbHZlKGltcG9ydC5tZXRhLmRpcm5hbWUsICIuLi8uLiIpOwpjb25zdCBjaGVja1NjcmlwdCA9IHBhdGguam9pbihyb290RGlyLCAic2NyaXB0cy9jaGVjay1ydW50aW1lLXBlcmZvcm1hbmNlLm1qcyIpOwoKY29uc3QgcGVyZm9ybWFuY2VSZXN1bHQgPSAoc3VtbWFyeSkgPT4KICBKU09OLnN0cmluZ2lmeSh7IHNjaGVtYV92ZXJzaW9uOiAxLCBzdW1tYXJ5IH0pOwoKY29uc3QgZ2F0ZXdheUxvYWRSc3NGaWVsZHMgPSBbCiAgImdhdGV3YXlfbG9hZF9wZWFrX3Jzc19wOTVfYnl0ZXMiLAogICJnYXRld2F5X3Bvc3RfbG9hZF9yc3NfcDk1X2J5dGVzIiwKICAiZ2F0ZXdheV9wb3N0X3JlY2xhaW1fcnNzX3A5NV9ieXRlcyIsCl07CmNvbnN0IGdhdGV3YXlMb2FkQmFzZWxpbmUgPSB7CiAgcmVhZGluZXNzX3A5NV9tczogMTAwLAogIG1hbmFnZW1lbnRfcnNzX3A5NV9ieXRlczogMV8wMDAsCiAgLi4uT2JqZWN0LmZyb21FbnRyaWVzKGdhdGV3YXlMb2FkUnNzRmllbGRzLm1hcCgoZmllbGQpID0+IFtmaWVsZCwgMTBfMDAwXSkpLAp9OwoKdGVzdCgicnVudGltZSBwZXJmb3JtYW5jZSBzdW1tYXJ5IHVzZXMgbmVhcmVzdC1yYW5rIHA5NSIsICgpID0+IHsKICBjb25zdCBzdW1tYXJ5ID0gc3VtbWFyaXplUnVudGltZVNhbXBsZXMoWwogICAgeyByZWFkaW5lc3NfbXM6IDIwLCBtYW5hZ2VtZW50X3Jzc19ieXRlczogMTAwLCBnYXRld2F5X3Jzc19ieXRlczogMjAwIH0sCiAgICB7IHJlYWRpbmVzc19tczogMTAsIG1hbmFnZW1lbnRfcnNzX2J5dGVzOiAxMTAsIGdhdGV3YXlfcnNzX2J5dGVzOiAyMTAgfSwKICAgIHsgcmVhZGluZXNzX21zOiA0MCwgbWFuYWdlbWVudF9yc3NfYnl0ZXM6IDEyMCwgZ2F0ZXdheV9yc3NfYnl0ZXM6IDIyMCB9LAogICAgeyByZWFkaW5lc3NfbXM6IDMwLCBtYW5hZ2VtZW50X3Jzc19ieXRlczogMTMwLCBnYXRld2F5X3Jzc19ieXRlczogMjMwIH0sCiAgXSk7CiAgYXNzZXJ0LmRlZXBFcXVhbChzdW1tYXJ5LCB7CiAgICByZWFkaW5lc3NfcDk1X21zOiA0MCwKICAgIG1hbmFnZW1lbnRfcnNzX3A5NV9ieXRlczogMTMwLAogICAgbWFuYWdlbWVudF9saWZldGltZV9wZWFrX3Jzc19wOTVfYnl0ZXM6IG51bGwsCiAgICBtYW5hZ2VtZW50X2xvYWRfcGVha19yc3NfcDk1X2J5dGVzOiBudWxsLAogICAgbWFuYWdlbWVudF9wb3N0X2xvYWRfcnNzX3A5NV9ieXRlczogbnVsbCwKICAgIG1hbmFnZW1lbnRfcG9zdF9yZWNsYWltX3Jzc19wOTVfYnl0ZXM6IG51bGwsCiAgICBtYW5hZ2VtZW50X2xvY2FsZV9ycHNfcDUwOiBudWxsLAogICAgZ2F0ZXdheV9yc3NfcDk1X2J5dGVzOiAyMzAsCiAgICBnYXRld2F5X2xvYWRfcGVha19yc3NfcDk1X2J5dGVzOiBudWxsLAogICAgZ2F0ZXdheV9wb3N0X2xvYWRfcnNzX3A5NV9ieXRlczogbnVsbCwKICAgIGdhdGV3YXlfcG9zdF9yZWNsYWltX3Jzc19wOTVfYnl0ZXM6IG51bGwsCiAgICBwcm94eV8ybWliX3Jwc19wNTA6IG51bGwsCiAgfSk7CiAgYXNzZXJ0LmVxdWFsKHBlcmNlbnRpbGUoWzEsIDIsIDMsIDQsIDVdLCAwLjk1KSwgNSk7Cn0pOwoKdGVzdCgicnVudGltZSBwZXJmb3JtYW5jZSBzY2hlbWEgdjIgc3VtbWFyaXplcyBzdGFibGUgYW5kIGxvYWQgY2hlY2twb2ludHMiLCAoKSA9PiB7CiAgY29uc3Qgc2FtcGxlID0gKHN0YWJsZSwgcGVhaywgcmV0YWluZWQsIHJlY2xhaW1lZCwgdGhyb3VnaHB1dCkgPT4gKHsKICAgIHJlYWRpbmVzc19tczogMTAsCiAgICBjaGVja3BvaW50czogewogICAgICBzdGFibGVfMTBzOiB7CiAgICAgICAgbWFuYWdlbWVudF9yc3NfYnl0ZXM6IHN0YWJsZSwKICAgICAgICBnYXRld2F5X3Jzc19ieXRlczogc3RhYmxlICogMiwKICAgICAgfSwKICAgICAgbG9hZF9wZWFrOiB7IGdhdGV3YXlfcnNzX2J5dGVzOiBwZWFrLCBtYW5hZ2VtZW50X3Jzc19ieXRlczogcGVhayAvIDIgfSwKICAgICAgcG9zdF9sb2FkXzMwczogewogICAgICAgIGdhdGV3YXlfcnNzX2J5dGVzOiByZXRhaW5lZCwKICAgICAgICBtYW5hZ2VtZW50X3Jzc19ieXRlczogcmV0YWluZWQgLyAyLAogICAgICB9LAogICAgICBwb3N0X3JlY2xhaW06IHsKICAgICAgICBnYXRld2F5X3Jzc19ieXRlczogcmVjbGFpbWVkLAogICAgICAgIG1hbmFnZW1lbnRfcnNzX2J5dGVzOiByZWNsYWltZWQgLyAyLAogICAgICB9LAogICAgfSwKICAgIGxvYWRzOiBbCiAgICAgIHsgbmFtZTogInByb3h5XzJtaWIiLCByZXF1ZXN0c19wZXJfc2Vjb25kOiB0aHJvdWdocHV0IH0sCiAgICAgIHsgbmFtZTogIm1hbmFnZW1lbnRfbG9jYWxlIiwgcmVxdWVzdHNfcGVyX3NlY29uZDogdGhyb3VnaHB1dCAqIDEwIH0sCiAgICBdLAogIH0pOwogIGNvbnN0IHN1bW1hcnkgPSBzdW1tYXJpemVSdW50aW1lU2FtcGxlcyhbCiAgICBzYW1wbGUoMTAwLCA1MDAsIDQwMCwgMzAwLCA5MCksCiAgICBzYW1wbGUoMTEwLCA1NTAsIDQ0MCwgMzMwLCAxMDApLAogIF0pOwogIGFzc2VydC5kZWVwRXF1YWwoc3VtbWFyeSwgewogICAgcmVhZGluZXNzX3A5NV9tczogMTAsCiAgICBtYW5hZ2VtZW50X3Jzc19wOTVfYnl0ZXM6IDExMCwKICAgIG1hbmFnZW1lbnRfbGlmZXRpbWVfcGVha19yc3NfcDk1X2J5dGVzOiBudWxsLAogICAgbWFuYWdlbWVudF9sb2FkX3BlYWtfcnNzX3A5NV9ieXRlczogMjc1LAogICAgbWFuYWdlbWVudF9wb3N0X2xvYWRfcnNzX3A5NV9ieXRlczogMjIwLAogICAgbWFuYWdlbWVudF9wb3N0X3JlY2xhaW1fcnNzX3A5NV9ieXRlczogMTY1LAogICAgbWFuYWdlbWVudF9sb2NhbGVfcnBzX3A1MDogOTAwLAogICAgZ2F0ZXdheV9yc3NfcDk1X2J5dGVzOiAyMjAsCiAgICBnYXRld2F5X2xvYWRfcGVha19yc3NfcDk1X2J5dGVzOiA1NTAsCiAgICBnYXRld2F5X3Bvc3RfbG9hZF9yc3NfcDk1X2J5dGVzOiA0NDAsCiAgICBnYXRld2F5X3Bvc3RfcmVjbGFpbV9yc3NfcDk1X2J5dGVzOiAzMzAsCiAgICBwcm94eV8ybWliX3Jwc19wNTA6IDkwLAogIH0pOwp9KTsKCnRlc3QoIlJ1c3QgbG9hZCBhbmQgcmV0YWluZWQgUlNTIHJlZ3Jlc3Npb25zIGNhbm5vdCBoaWRlIGJlaGluZCB1bmNoYW5nZWQgaWRsZSBSU1MiLCAoKSA9PiB7CiAgY29uc3Qgc2FtcGxlID0gKHBlYWssIHJldGFpbmVkKSA9PiAoewogICAgcmVhZGluZXNzX21zOiAxMDAsCiAgICBjaGVja3BvaW50czogewogICAgICBzdGFibGVfMTBzOiB7IG1hbmFnZW1lbnRfcnNzX2J5dGVzOiAzMiwgZ2F0ZXdheV9yc3NfYnl0ZXM6IDY0IH0sCiAgICAgIGxvYWRfcGVhazogeyBtYW5hZ2VtZW50X3Jzc19ieXRlczogcGVhayB9LAogICAgICBwb3N0X2xvYWRfMzBzOiB7IG1hbmFnZW1lbnRfcnNzX2J5dGVzOiByZXRhaW5lZCB9LAogICAgICBwb3N0X3JlY2xhaW06IHsgbWFuYWdlbWVudF9yc3NfYnl0ZXM6IHJldGFpbmVkIH0sCiAgICB9LAogIH0pOwogIGNvbnN0IGJhc2UgPSBzdW1tYXJpemVSdW50aW1lU2FtcGxlcyhbc2FtcGxlKDQ4LCAzMildKTsKICBjb25zdCBjdXJyZW50ID0gc3VtbWFyaXplUnVudGltZVNhbXBsZXMoW3NhbXBsZSgxMDI0LCA3NjgpXSk7CiAgY29uc3QgZmFpbHVyZXMgPSBjb21wYXJlUnVudGltZVN1bW1hcmllcyhiYXNlLCBjdXJyZW50LCB7CiAgICByZWFkaW5lc3M6IDAuMSwKICAgIHJzczogMC4wNSwKICB9KTsKICBhc3NlcnQuZXF1YWwoZmFpbHVyZXMubGVuZ3RoLCAzKTsKICBmb3IgKGNvbnN0IHN0YWdlIG9mIFsibG9hZF9wZWFrIiwgInBvc3RfbG9hZCIsICJwb3N0X3JlY2xhaW0iXSkgewogICAgYXNzZXJ0Lm9rKAogICAgICBmYWlsdXJlcy5zb21lKChmYWlsdXJlKSA9PgogICAgICAgIGZhaWx1cmUuc3RhcnRzV2l0aChgbWFuYWdlbWVudF8ke3N0YWdlfV9yc3NfcDk1X2J5dGVzIHJlZ3Jlc3NlZGApLAogICAgICApLAogICAgKTsKICB9Cn0pOwoKdGVzdCgiTGludXggaGlnaC13YXRlciBSU1MgY2F0Y2hlcyBidXJzdHMgYmV0d2VlbiBwZXJpb2RpYyBzYW1wbGVzIiwgKCkgPT4gewogIGNvbnN0IHNhbXBsZSA9IChwZWFrKSA9PiAoewogICAgcmVhZGluZXNzX21zOiAxMDAsCiAgICBjaGVja3BvaW50czogewogICAgICBzdGFibGVfMTBzOiB7IG1hbmFnZW1lbnRfcnNzX2J5dGVzOiAzMiwgbWFuYWdlbWVudF9wZWFrX3Jzc19ieXRlczogMzIgfSwKICAgICAgbG9hZF9wZWFrOiB7IG1hbmFnZW1lbnRfcnNzX2J5dGVzOiAzMiwgbWFuYWdlbWVudF9wZWFrX3Jzc19ieXRlczogcGVhayB9LAogICAgICBwb3N0X3JlY2xhaW06IHsKICAgICAgICBtYW5hZ2VtZW50X3Jzc19ieXRlczogMzIsCiAgICAgICAgbWFuYWdlbWVudF9wZWFrX3Jzc19ieXRlczogcGVhaywKICAgICAgfSwKICAgIH0sCiAgfSk7CiAgY29uc3QgYmFzZSA9IHN1bW1hcml6ZVJ1bnRpbWVTYW1wbGVzKFtzYW1wbGUoMzIpXSk7CiAgY29uc3QgY3VycmVudCA9IHN1bW1hcml6ZVJ1bnRpbWVTYW1wbGVzKFtzYW1wbGUoNTEyKV0pOwogIGFzc2VydC5lcXVhbChjdXJyZW50Lm1hbmFnZW1lbnRfbG9hZF9wZWFrX3Jzc19wOTVfYnl0ZXMsIDMyKTsKICBhc3NlcnQuZXF1YWwoY3VycmVudC5tYW5hZ2VtZW50X2xpZmV0aW1lX3BlYWtfcnNzX3A5NV9ieXRlcywgNTEyKTsKICBjb25zdCBmYWlsdXJlcyA9IGNvbXBhcmVSdW50aW1lU3VtbWFyaWVzKGJhc2UsIGN1cnJlbnQsIHsgcnNzOiAwLjA1IH0pOwogIGFzc2VydC5lcXVhbChmYWlsdXJlcy5sZW5ndGgsIDEpOwogIGFzc2VydC5tYXRjaCgKICAgIGZhaWx1cmVzWzBdLAogICAgL15tYW5hZ2VtZW50X2xpZmV0aW1lX3BlYWtfcnNzX3A5NV9ieXRlcyByZWdyZXNzZWQvLAogICk7Cn0pOwoKdGVzdCgibWlzc2luZyBSdXN0IGxvYWQgbWV0cmljcyBhbmQgbWFuYWdlbWVudCB0aHJvdWdocHV0IHJlZ3Jlc3Npb24gZmFpbCB0aGUgZ2F0ZSIsICgpID0+IHsKICBjb25zdCBiYXNlID0gewogICAgcmVhZGluZXNzX3A5NV9tczogMTAwLAogICAgbWFuYWdlbWVudF9yc3NfcDk1X2J5dGVzOiAxMDAsCiAgICBtYW5hZ2VtZW50X2xvYWRfcGVha19yc3NfcDk1X2J5dGVzOiAxMDAsCiAgICBtYW5hZ2VtZW50X3Bvc3RfbG9hZF9yc3NfcDk1X2J5dGVzOiA4MCwKICAgIG1hbmFnZW1lbnRfbG9jYWxlX3Jwc19wNTA6IDEwMDAsCiAgfTsKICBjb25zdCBmYWlsdXJlcyA9IGNvbXBhcmVSdW50aW1lU3VtbWFyaWVzKAogICAgYmFzZSwKICAgIHsKICAgICAgcmVhZGluZXNzX3A5NV9tczogMTAwLAogICAgICBtYW5hZ2VtZW50X3Jzc19wOTVfYnl0ZXM6IDEwMCwKICAgICAgbWFuYWdlbWVudF9sb2NhbGVfcnBzX3A1MDogODAwLAogICAgfSwKICAgIHsgcnNzOiAwLjA1LCB0aHJvdWdocHV0OiAwLjA1IH0sCiAgKTsKICBhc3NlcnQuZXF1YWwoZmFpbHVyZXMubGVuZ3RoLCAzKTsKICBhc3NlcnQub2soCiAgICBmYWlsdXJlcy5zb21lKChmYWlsdXJlKSA9PgogICAgICBmYWlsdXJlLmluY2x1ZGVzKCJtYW5hZ2VtZW50X2xvYWRfcGVha19yc3NfcDk1X2J5dGVzIGlzIG1pc3NpbmciKSwKICAgICksCiAgKTsKICBhc3NlcnQub2soCiAgICBmYWlsdXJlcy5zb21lKChmYWlsdXJlKSA9PgogICAgICBmYWlsdXJlLmluY2x1ZGVzKCJtYW5hZ2VtZW50X3Bvc3RfbG9hZF9yc3NfcDk1X2J5dGVzIGlzIG1pc3NpbmciKSwKICAgICksCiAgKTsKICBhc3NlcnQub2soCiAgICBmYWlsdXJlcy5zb21lKChmYWlsdXJlKSA9PgogICAgICBmYWlsdXJlLmluY2x1ZGVzKCJtYW5hZ2VtZW50X2xvY2FsZV9ycHNfcDUwIHJlZ3Jlc3NlZCIpLAogICAgKSwKICApOwp9KTsKCnRlc3QoInVuY2hhbmdlZCBHbyBsb2FkIFJTUyBwYXNzZXMgdGhlIGRlZmF1bHQgcmVncmVzc2lvbiBnYXRlIiwgKCkgPT4gewogIGFzc2VydC5kZWVwRXF1YWwoCiAgICBjb21wYXJlUnVudGltZVN1bW1hcmllcyhnYXRld2F5TG9hZEJhc2VsaW5lLCBnYXRld2F5TG9hZEJhc2VsaW5lKSwKICAgIFtdLAogICk7CiAgZm9yIChjb25zdCBmaWVsZCBvZiBnYXRld2F5TG9hZFJzc0ZpZWxkcykgewogICAgY29uc3QgYXRMaW1pdCA9IHsgLi4uZ2F0ZXdheUxvYWRCYXNlbGluZSwgW2ZpZWxkXTogMTBfNTAwIH07CiAgICBhc3NlcnQuZGVlcEVxdWFsKGNvbXBhcmVSdW50aW1lU3VtbWFyaWVzKGdhdGV3YXlMb2FkQmFzZWxpbmUsIGF0TGltaXQpLCBbXSk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBjb21wYXJlUnVudGltZVN1bW1hcmllcyhnYXRld2F5TG9hZEJhc2VsaW5lLCBhdExpbWl0LCB7CiAgICAgICAgbG9hZFJzc0ltcHJvdmVtZW50OiAwLAogICAgICB9KSwKICAgICAgW10sCiAgICApOwogICAgY29uc3QgZmFpbHVyZXMgPSBjb21wYXJlUnVudGltZVN1bW1hcmllcyhnYXRld2F5TG9hZEJhc2VsaW5lLCB7CiAgICAgIC4uLmdhdGV3YXlMb2FkQmFzZWxpbmUsCiAgICAgIFtmaWVsZF06IDEwXzUwMSwKICAgIH0pOwogICAgYXNzZXJ0LmVxdWFsKGZhaWx1cmVzLmxlbmd0aCwgMSk7CiAgICBhc3NlcnQub2soZmFpbHVyZXNbMF0uc3RhcnRzV2l0aChgJHtmaWVsZH0gcmVncmVzc2VkYCkpOwogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgY29tcGFyZVJ1bnRpbWVTdW1tYXJpZXMoCiAgICAgICAgZ2F0ZXdheUxvYWRCYXNlbGluZSwKICAgICAgICB7IC4uLmdhdGV3YXlMb2FkQmFzZWxpbmUsIFtmaWVsZF06IDExXzAwMCB9LAogICAgICAgIHsgcnNzOiAwLjEgfSwKICAgICAgKSwKICAgICAgW10sCiAgICApOwogIH0KfSk7Cgp0ZXN0KCJhbiBleHBsaWNpdCBsb2FkIFJTUyBpbXByb3ZlbWVudCB0YXJnZXQgcmVqZWN0cyB1bmNoYW5nZWQgR28gbWV0cmljcyIsICgpID0+IHsKICBjb25zdCBmYWlsdXJlcyA9IGNvbXBhcmVSdW50aW1lU3VtbWFyaWVzKAogICAgZ2F0ZXdheUxvYWRCYXNlbGluZSwKICAgIGdhdGV3YXlMb2FkQmFzZWxpbmUsCiAgICB7IGxvYWRSc3NJbXByb3ZlbWVudDogMC4yIH0sCiAgKTsKICBhc3NlcnQuZXF1YWwoZmFpbHVyZXMubGVuZ3RoLCAzKTsKICBmb3IgKGNvbnN0IFtpbmRleCwgZmllbGRdIG9mIGdhdGV3YXlMb2FkUnNzRmllbGRzLmVudHJpZXMoKSkgewogICAgYXNzZXJ0Lm9rKGZhaWx1cmVzW2luZGV4XS5zdGFydHNXaXRoKGAke2ZpZWxkfSBpbXByb3ZlZCAwLjAlYCkpOwogICAgYXNzZXJ0Lm1hdGNoKGZhaWx1cmVzW2luZGV4XSwgL3JlcXVpcmVkIDIwXC4wJS8pOwogIH0KfSk7Cgp0ZXN0KCJsb2FkIFJTUyBpbXByb3ZlbWVudCByZXF1aXJlbWVudHMgbXVzdCBiZSBmaW5pdGUgZnJhY3Rpb25zIiwgKCkgPT4gewogIGNvbnN0IGJhc2UgPSB7IHJlYWRpbmVzc19wOTVfbXM6IDEwMCwgbWFuYWdlbWVudF9yc3NfcDk1X2J5dGVzOiAxMDAgfTsKICBmb3IgKGNvbnN0IHZhbHVlIG9mIFstMC4wMSwgMS4wMSwgTmFOLCBJbmZpbml0eSwgIjAuMiIsIG51bGxdKSB7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBjb21wYXJlUnVudGltZVN1bW1hcmllcyhiYXNlLCBiYXNlLCB7IGxvYWRSc3NJbXByb3ZlbWVudDogdmFsdWUgfSksCiAgICAgIFsibG9hZCBSU1MgaGFzIGFuIGludmFsaWQgaW1wcm92ZW1lbnQgcmVxdWlyZW1lbnQiXSwKICAgICk7CiAgfQogIGFzc2VydC5kZWVwRXF1YWwoCiAgICBjb21wYXJlUnVudGltZVN1bW1hcmllcygKICAgICAgZ2F0ZXdheUxvYWRCYXNlbGluZSwKICAgICAgewogICAgICAgIC4uLmdhdGV3YXlMb2FkQmFzZWxpbmUsCiAgICAgICAgLi4uT2JqZWN0LmZyb21FbnRyaWVzKGdhdGV3YXlMb2FkUnNzRmllbGRzLm1hcCgoZmllbGQpID0+IFtmaWVsZCwgMF0pKSwKICAgICAgfSwKICAgICAgeyBsb2FkUnNzSW1wcm92ZW1lbnQ6IDEgfSwKICAgICksCiAgICBbXSwKICApOwp9KTsKCnRlc3QoInJ1bnRpbWUgY29tcGFyaXNvbiBlbmZvcmNlcyB0aHJvdWdocHV0IGFuZCBleHBsaWNpdCBsb2FkIFJTUyBpbXByb3ZlbWVudHMiLCAoKSA9PiB7CiAgY29uc3QgZmFpbHVyZXMgPSBjb21wYXJlUnVudGltZVN1bW1hcmllcygKICAgIHsKICAgICAgcmVhZGluZXNzX3A5NV9tczogMTAwLAogICAgICBtYW5hZ2VtZW50X3Jzc19wOTVfYnl0ZXM6IDFfMDAwLAogICAgICBnYXRld2F5X3Jzc19wOTVfYnl0ZXM6IDJfMDAwLAogICAgICBnYXRld2F5X2xvYWRfcGVha19yc3NfcDk1X2J5dGVzOiAxMF8wMDAsCiAgICAgIGdhdGV3YXlfcG9zdF9sb2FkX3Jzc19wOTVfYnl0ZXM6IDhfMDAwLAogICAgICBnYXRld2F5X3Bvc3RfcmVjbGFpbV9yc3NfcDk1X2J5dGVzOiA1XzAwMCwKICAgICAgcHJveHlfMm1pYl9ycHNfcDUwOiAxMDAsCiAgICB9LAogICAgewogICAgICByZWFkaW5lc3NfcDk1X21zOiAxMDAsCiAgICAgIG1hbmFnZW1lbnRfcnNzX3A5NV9ieXRlczogMV8wMDAsCiAgICAgIGdhdGV3YXlfcnNzX3A5NV9ieXRlczogMl8wMDAsCiAgICAgIGdhdGV3YXlfbG9hZF9wZWFrX3Jzc19wOTVfYnl0ZXM6IDhfMDAwLAogICAgICBnYXRld2F5X3Bvc3RfbG9hZF9yc3NfcDk1X2J5dGVzOiA2XzQwMCwKICAgICAgZ2F0ZXdheV9wb3N0X3JlY2xhaW1fcnNzX3A5NV9ieXRlczogNF8wMDAsCiAgICAgIHByb3h5XzJtaWJfcnBzX3A1MDogOTUsCiAgICB9LAogICAgewogICAgICByZWFkaW5lc3M6IDAuMSwKICAgICAgcnNzOiAwLjA1LAogICAgICB0aHJvdWdocHV0OiAwLjA1LAogICAgICBsb2FkUnNzSW1wcm92ZW1lbnQ6IDAuMiwKICAgIH0sCiAgKTsKICBhc3NlcnQuZGVlcEVxdWFsKGZhaWx1cmVzLCBbXSk7Cn0pOwoKdGVzdCgicnVudGltZSBwZXJmb3JtYW5jZSBjb21wYXJpc29uIHBlcm1pdHMgY29uZmlndXJlZCByZWdyZXNzaW9ucyIsICgpID0+IHsKICBjb25zdCBmYWlsdXJlcyA9IGNvbXBhcmVSdW50aW1lU3VtbWFyaWVzKAogICAgewogICAgICByZWFkaW5lc3NfcDk1X21zOiAxMDAsCiAgICAgIG1hbmFnZW1lbnRfcnNzX3A5NV9ieXRlczogMV8wMDAsCiAgICAgIGdhdGV3YXlfcnNzX3A5NV9ieXRlczogbnVsbCwKICAgIH0sCiAgICB7CiAgICAgIHJlYWRpbmVzc19wOTVfbXM6IDExMCwKICAgICAgbWFuYWdlbWVudF9yc3NfcDk1X2J5dGVzOiAxXzA1MCwKICAgICAgZ2F0ZXdheV9yc3NfcDk1X2J5dGVzOiBudWxsLAogICAgfSwKICAgIHsgcmVhZGluZXNzOiAwLjEsIHJzczogMC4wNSB9LAogICk7CiAgYXNzZXJ0LmRlZXBFcXVhbChmYWlsdXJlcywgW10pOwp9KTsKCnRlc3QoInJ1bnRpbWUgcGVyZm9ybWFuY2UgY29tcGFyaXNvbiByZXBvcnRzIG1pc3NpbmcgYW5kIHJlZ3Jlc3NlZCBtZXRyaWNzIiwgKCkgPT4gewogIGNvbnN0IGZhaWx1cmVzID0gY29tcGFyZVJ1bnRpbWVTdW1tYXJpZXMoCiAgICB7CiAgICAgIHJlYWRpbmVzc19wOTVfbXM6IDEwMCwKICAgICAgbWFuYWdlbWVudF9yc3NfcDk1X2J5dGVzOiAxXzAwMCwKICAgICAgZ2F0ZXdheV9yc3NfcDk1X2J5dGVzOiAyXzAwMCwKICAgIH0sCiAgICB7CiAgICAgIHJlYWRpbmVzc19wOTVfbXM6IDExMSwKICAgICAgbWFuYWdlbWVudF9yc3NfcDk1X2J5dGVzOiBudWxsLAogICAgICBnYXRld2F5X3Jzc19wOTVfYnl0ZXM6IDJfMTAxLAogICAgfSwKICAgIHsgcmVhZGluZXNzOiAwLjEsIHJzczogMC4wNSB9LAogICk7CiAgYXNzZXJ0LmVxdWFsKGZhaWx1cmVzLmxlbmd0aCwgMyk7CiAgYXNzZXJ0Lm1hdGNoKGZhaWx1cmVzWzBdLCAvcmVhZGluZXNzX3A5NV9tcyByZWdyZXNzZWQvKTsKICBhc3NlcnQubWF0Y2goZmFpbHVyZXNbMV0sIC9tYW5hZ2VtZW50X3Jzc19wOTVfYnl0ZXMgaXMgbWlzc2luZy8pOwogIGFzc2VydC5tYXRjaChmYWlsdXJlc1syXSwgL2dhdGV3YXlfcnNzX3A5NV9ieXRlcyByZWdyZXNzZWQvKTsKfSk7Cgp0ZXN0KCJydW50aW1lIHBlcmZvcm1hbmNlIENMSSBlbmZvcmNlcyBleHBsaWNpdGx5IGNvbmZpZ3VyZWQgUFIgdG9sZXJhbmNlcyIsIGFzeW5jICgpID0+IHsKICBjb25zdCBkaXJlY3RvcnkgPSBhd2FpdCBta2R0ZW1wKAogICAgcGF0aC5qb2luKG9zLnRtcGRpcigpLCAiZm4ta25vY2stcnVudGltZS1wZXJmLSIpLAogICk7CiAgY29uc3QgYmFzZVBhdGggPSBwYXRoLmpvaW4oZGlyZWN0b3J5LCAiYmFzZS5qc29uIik7CiAgY29uc3QgY3VycmVudFBhdGggPSBwYXRoLmpvaW4oZGlyZWN0b3J5LCAiY3VycmVudC5qc29uIik7CiAgY29uc3QgYmFzZSA9IHsKICAgIHJlYWRpbmVzc19wOTVfbXM6IDEwMCwKICAgIG1hbmFnZW1lbnRfcnNzX3A5NV9ieXRlczogMV8wMDAsCiAgICBnYXRld2F5X3Jzc19wOTVfYnl0ZXM6IDJfMDAwLAogIH07CgogIHRyeSB7CiAgICBhd2FpdCB3cml0ZUZpbGUoYmFzZVBhdGgsIHBlcmZvcm1hbmNlUmVzdWx0KGJhc2UpKTsKICAgIGF3YWl0IHdyaXRlRmlsZSgKICAgICAgY3VycmVudFBhdGgsCiAgICAgIHBlcmZvcm1hbmNlUmVzdWx0KHsKICAgICAgICByZWFkaW5lc3NfcDk1X21zOiAxMTAsCiAgICAgICAgbWFuYWdlbWVudF9yc3NfcDk1X2J5dGVzOiAxXzA1MCwKICAgICAgICBnYXRld2F5X3Jzc19wOTVfYnl0ZXM6IDJfMTAwLAogICAgICB9KSwKICAgICk7CiAgICBjb25zdCBwYXNzZWQgPSBhd2FpdCBleGVjRmlsZUFzeW5jKHByb2Nlc3MuZXhlY1BhdGgsIFsKICAgICAgY2hlY2tTY3JpcHQsCiAgICAgICItLWJhc2UiLAogICAgICBiYXNlUGF0aCwKICAgICAgIi0tY3VycmVudCIsCiAgICAgIGN1cnJlbnRQYXRoLAogICAgICAiLS1tYXgtcmVhZGluZXNzLXJlZ3Jlc3Npb24iLAogICAgICAiMC4xMCIsCiAgICAgICItLW1heC1yc3MtcmVncmVzc2lvbiIsCiAgICAgICIwLjA1IiwKICAgIF0pOwogICAgYXNzZXJ0Lm1hdGNoKHBhc3NlZC5zdGRvdXQsIC9cW3J1bnRpbWUtcGVyZm9ybWFuY2VcXSBwYXNzZWQvKTsKCiAgICBhd2FpdCB3cml0ZUZpbGUoCiAgICAgIGN1cnJlbnRQYXRoLAogICAgICBwZXJmb3JtYW5jZVJlc3VsdCh7CiAgICAgICAgLi4uYmFzZSwKICAgICAgICByZWFkaW5lc3NfcDk1X21zOiAxMTEsCiAgICAgIH0pLAogICAgKTsKICAgIGF3YWl0IGFzc2VydC5yZWplY3RzKAogICAgICBleGVjRmlsZUFzeW5jKHByb2Nlc3MuZXhlY1BhdGgsIFsKICAgICAgICBjaGVja1NjcmlwdCwKICAgICAgICAiLS1iYXNlIiwKICAgICAgICBiYXNlUGF0aCwKICAgICAgICAiLS1jdXJyZW50IiwKICAgICAgICBjdXJyZW50UGF0aCwKICAgICAgICAiLS1tYXgtcmVhZGluZXNzLXJlZ3Jlc3Npb24iLAogICAgICAgICIwLjEwIiwKICAgICAgICAiLS1tYXgtcnNzLXJlZ3Jlc3Npb24iLAogICAgICAgICIwLjA1IiwKICAgICAgXSksCiAgICAgIC9ydW50aW1lIHBlcmZvcm1hbmNlIHJlZ3Jlc3Npb246IHJlYWRpbmVzc19wOTVfbXMgcmVncmVzc2VkLywKICAgICk7CiAgfSBmaW5hbGx5IHsKICAgIGF3YWl0IHJtKGRpcmVjdG9yeSwgeyByZWN1cnNpdmU6IHRydWUsIGZvcmNlOiB0cnVlIH0pOwogIH0KfSk7Cgp0ZXN0KCJydW50aW1lIGdhdGUgcmVqZWN0cyBlbXB0eSBzdW1tYXJpZXMsIG5vbi1maW5pdGUgbWV0cmljcyBhbmQgaW52YWxpZCB0b2xlcmFuY2VzIiwgKCkgPT4gewogIGFzc2VydC5lcXVhbChjb21wYXJlUnVudGltZVN1bW1hcmllcyh7fSwge30pLmxlbmd0aCwgMik7CiAgY29uc3QgdmFsaWQgPSB7IHJlYWRpbmVzc19wOTVfbXM6IDEwMCwgbWFuYWdlbWVudF9yc3NfcDk1X2J5dGVzOiAxMDAgfTsKICBhc3NlcnQubWF0Y2goCiAgICBjb21wYXJlUnVudGltZVN1bW1hcmllcyh2YWxpZCwgewogICAgICAuLi52YWxpZCwKICAgICAgbWFuYWdlbWVudF9yc3NfcDk1X2J5dGVzOiBJbmZpbml0eSwKICAgIH0pWzBdLAogICAgL21hbmFnZW1lbnRfcnNzX3A5NV9ieXRlcyBpcyBtaXNzaW5nIGZyb20gdGhlIGN1cnJlbnQvLAogICk7CiAgYXNzZXJ0Lm1hdGNoKAogICAgY29tcGFyZVJ1bnRpbWVTdW1tYXJpZXMoCiAgICAgIHZhbGlkLAogICAgICB7IC4uLnZhbGlkLCBtYW5hZ2VtZW50X3Jzc19wOTVfYnl0ZXM6IDUwMCB9LAogICAgICB7IHJzczogTmFOIH0sCiAgICApWzBdLAogICAgL2ludmFsaWQgcmVncmVzc2lvbiB0b2xlcmFuY2UvLAogICk7CiAgYXNzZXJ0LnRocm93cygoKSA9PiBwZXJjZW50aWxlKFsxLCBJbmZpbml0eV0sIDAuOTUpLCAvZmluaXRlIG5vbi1uZWdhdGl2ZS8pOwogIGFzc2VydC50aHJvd3MoCiAgICAoKSA9PgogICAgICBzdW1tYXJpemVSdW50aW1lU2FtcGxlcyhbeyByZWFkaW5lc3NfbXM6IC0xLCBtYW5hZ2VtZW50X3Jzc19ieXRlczogMTAgfV0pLAogICAgL2Zpbml0ZSBub24tbmVnYXRpdmUvLAogICk7Cn0pOwoKdGVzdCgicnVudGltZSBwZXJmb3JtYW5jZSBDTEkgY2Fubm90IHBhc3Mgd2l0aCB0d28gZW1wdHkgc3VtbWFyaWVzIiwgYXN5bmMgKCkgPT4gewogIGNvbnN0IGRpcmVjdG9yeSA9IGF3YWl0IG1rZHRlbXAoCiAgICBwYXRoLmpvaW4ob3MudG1wZGlyKCksICJmbi1rbm9jay1ydW50aW1lLWVtcHR5LSIpLAogICk7CiAgY29uc3QgZmlsZSA9IHBhdGguam9pbihkaXJlY3RvcnksICJlbXB0eS5qc29uIik7CiAgdHJ5IHsKICAgIGF3YWl0IHdyaXRlRmlsZShmaWxlLCBwZXJmb3JtYW5jZVJlc3VsdCh7fSkpOwogICAgYXdhaXQgYXNzZXJ0LnJlamVjdHMoCiAgICAgIGV4ZWNGaWxlQXN5bmMocHJvY2Vzcy5leGVjUGF0aCwgWwogICAgICAgIGNoZWNrU2NyaXB0LAogICAgICAgICItLWJhc2UiLAogICAgICAgIGZpbGUsCiAgICAgICAgIi0tY3VycmVudCIsCiAgICAgICAgZmlsZSwKICAgICAgXSksCiAgICAgIC9ydW50aW1lIHBlcmZvcm1hbmNlIHJlZ3Jlc3Npb246IHJlYWRpbmVzc19wOTVfbXMgaXMgbWlzc2luZy8sCiAgICApOwogIH0gZmluYWxseSB7CiAgICBhd2FpdCBybShkaXJlY3RvcnksIHsgcmVjdXJzaXZlOiB0cnVlLCBmb3JjZTogdHJ1ZSB9KTsKICB9Cn0pOwoKdGVzdCgicnVudGltZSBwZXJmb3JtYW5jZSBDTEkgdXNlcyBhIHJlZ3Jlc3Npb24gZ2F0ZSB1bmxlc3MgaW1wcm92ZW1lbnQgaXMgcmVxdWVzdGVkIiwgYXN5bmMgKCkgPT4gewogIGNvbnN0IGRpcmVjdG9yeSA9IGF3YWl0IG1rZHRlbXAoCiAgICBwYXRoLmpvaW4ob3MudG1wZGlyKCksICJmbi1rbm9jay1ydW50aW1lLWxvYWQtZ2F0ZS0iKSwKICApOwogIGNvbnN0IGJhc2VQYXRoID0gcGF0aC5qb2luKGRpcmVjdG9yeSwgImJhc2UuanNvbiIpOwogIGNvbnN0IGN1cnJlbnRQYXRoID0gcGF0aC5qb2luKGRpcmVjdG9yeSwgImN1cnJlbnQuanNvbiIpOwogIGNvbnN0IGFyZ3MgPSBbY2hlY2tTY3JpcHQsICItLWJhc2UiLCBiYXNlUGF0aCwgIi0tY3VycmVudCIsIGN1cnJlbnRQYXRoXTsKICB0cnkgewogICAgYXdhaXQgd3JpdGVGaWxlKGJhc2VQYXRoLCBwZXJmb3JtYW5jZVJlc3VsdChnYXRld2F5TG9hZEJhc2VsaW5lKSk7CiAgICBmb3IgKGNvbnN0IGN1cnJlbnRSc3Mgb2YgWzEwXzAwMCwgMTBfNTAwXSkgewogICAgICBhd2FpdCB3cml0ZUZpbGUoCiAgICAgICAgY3VycmVudFBhdGgsCiAgICAgICAgcGVyZm9ybWFuY2VSZXN1bHQoewogICAgICAgICAgLi4uZ2F0ZXdheUxvYWRCYXNlbGluZSwKICAgICAgICAgIC4uLk9iamVjdC5mcm9tRW50cmllcygKICAgICAgICAgICAgZ2F0ZXdheUxvYWRSc3NGaWVsZHMubWFwKChmaWVsZCkgPT4gW2ZpZWxkLCBjdXJyZW50UnNzXSksCiAgICAgICAgICApLAogICAgICAgIH0pLAogICAgICApOwogICAgICBjb25zdCBwYXNzZWQgPSBhd2FpdCBleGVjRmlsZUFzeW5jKHByb2Nlc3MuZXhlY1BhdGgsIGFyZ3MpOwogICAgICBhc3NlcnQubWF0Y2gocGFzc2VkLnN0ZG91dCwgL1xbcnVudGltZS1wZXJmb3JtYW5jZVxdIHBhc3NlZC8pOwogICAgfQogICAgYXdhaXQgd3JpdGVGaWxlKAogICAgICBjdXJyZW50UGF0aCwKICAgICAgcGVyZm9ybWFuY2VSZXN1bHQoewogICAgICAgIC4uLmdhdGV3YXlMb2FkQmFzZWxpbmUsCiAgICAgICAgZ2F0ZXdheV9wb3N0X3JlY2xhaW1fcnNzX3A5NV9ieXRlczogMTBfNTAxLAogICAgICB9KSwKICAgICk7CiAgICBhd2FpdCBhc3NlcnQucmVqZWN0cygKICAgICAgZXhlY0ZpbGVBc3luYyhwcm9jZXNzLmV4ZWNQYXRoLCBhcmdzKSwKICAgICAgL2dhdGV3YXlfcG9zdF9yZWNsYWltX3Jzc19wOTVfYnl0ZXMgcmVncmVzc2VkLywKICAgICk7CiAgICBhd2FpdCB3cml0ZUZpbGUoY3VycmVudFBhdGgsIHBlcmZvcm1hbmNlUmVzdWx0KGdhdGV3YXlMb2FkQmFzZWxpbmUpKTsKICAgIGF3YWl0IGFzc2VydC5yZWplY3RzKAogICAgICBleGVjRmlsZUFzeW5jKHByb2Nlc3MuZXhlY1BhdGgsIFsKICAgICAgICAuLi5hcmdzLAogICAgICAgICItLW1pbi1sb2FkLXJzcy1pbXByb3ZlbWVudCIsCiAgICAgICAgIjAuMiIsCiAgICAgIF0pLAogICAgICAvcmVxdWlyZWQgMjBcLjAlLywKICAgICk7CiAgICBmb3IgKGNvbnN0IHZhbHVlIG9mIFsiIiwgIiAiLCAiLTAuMDEiLCAiMS4wMSIsICJOYU4iLCAiSW5maW5pdHkiLCAiYWJjIl0pIHsKICAgICAgYXdhaXQgYXNzZXJ0LnJlamVjdHMoCiAgICAgICAgZXhlY0ZpbGVBc3luYyhwcm9jZXNzLmV4ZWNQYXRoLCBbCiAgICAgICAgICAuLi5hcmdzLAogICAgICAgICAgIi0tbWluLWxvYWQtcnNzLWltcHJvdmVtZW50IiwKICAgICAgICAgIHZhbHVlLAogICAgICAgIF0pLAogICAgICAgIC8tLW1pbi1sb2FkLXJzcy1pbXByb3ZlbWVudCBtdXN0IGJlIGEgZnJhY3Rpb24gZnJvbSAwIHRvIDEvLAogICAgICApOwogICAgfQogIH0gZmluYWxseSB7CiAgICBhd2FpdCBybShkaXJlY3RvcnksIHsgcmVjdXJzaXZlOiB0cnVlLCBmb3JjZTogdHJ1ZSB9KTsKICB9Cn0pOwo=
+import assert from "node:assert/strict";
+import { execFile } from "node:child_process";
+import { mkdtemp, rm, writeFile } from "node:fs/promises";
+import os from "node:os";
+import path from "node:path";
+import test from "node:test";
+import { promisify } from "node:util";
+import {
+  compareRuntimeSummaries,
+  percentile,
+  summarizeRuntimeSamples,
+} from "../runtime-performance-lib.mjs";
+
+const execFileAsync = promisify(execFile);
+const rootDir = path.resolve(import.meta.dirname, "../..");
+const checkScript = path.join(rootDir, "scripts/check-runtime-performance.mjs");
+
+const performanceResult = (summary) =>
+  JSON.stringify({ schema_version: 1, summary });
+
+const gatewayLoadRssFields = [
+  "gateway_load_peak_rss_p95_bytes",
+  "gateway_post_load_rss_p95_bytes",
+  "gateway_post_reclaim_rss_p95_bytes",
+];
+const gatewayLoadBaseline = {
+  readiness_p95_ms: 100,
+  management_rss_p95_bytes: 1_000,
+  ...Object.fromEntries(gatewayLoadRssFields.map((field) => [field, 10_000])),
+};
+
+test("runtime performance summary uses nearest-rank p95", () => {
+  const summary = summarizeRuntimeSamples([
+    { readiness_ms: 20, management_rss_bytes: 100, gateway_rss_bytes: 200 },
+    { readiness_ms: 10, management_rss_bytes: 110, gateway_rss_bytes: 210 },
+    { readiness_ms: 40, management_rss_bytes: 120, gateway_rss_bytes: 220 },
+    { readiness_ms: 30, management_rss_bytes: 130, gateway_rss_bytes: 230 },
+  ]);
+  assert.deepEqual(summary, {
+    readiness_p95_ms: 40,
+    management_rss_p95_bytes: 130,
+    management_lifetime_peak_rss_p95_bytes: null,
+    management_load_peak_rss_p95_bytes: null,
+    management_post_load_rss_p95_bytes: null,
+    management_post_reclaim_rss_p95_bytes: null,
+    management_locale_rps_p50: null,
+    gateway_rss_p95_bytes: 230,
+    gateway_load_peak_rss_p95_bytes: null,
+    gateway_post_load_rss_p95_bytes: null,
+    gateway_post_reclaim_rss_p95_bytes: null,
+    proxy_2mib_rps_p50: null,
+  });
+  assert.equal(percentile([1, 2, 3, 4, 5], 0.95), 5);
+});
+
+test("runtime performance schema v2 summarizes stable and load checkpoints", () => {
+  const sample = (stable, peak, retained, reclaimed, throughput) => ({
+    readiness_ms: 10,
+    checkpoints: {
+      stable_10s: {
+        management_rss_bytes: stable,
+        gateway_rss_bytes: stable * 2,
+      },
+      load_peak: { gateway_rss_bytes: peak, management_rss_bytes: peak / 2 },
+      post_load_30s: {
+        gateway_rss_bytes: retained,
+        management_rss_bytes: retained / 2,
+      },
+      post_reclaim: {
+        gateway_rss_bytes: reclaimed,
+        management_rss_bytes: reclaimed / 2,
+      },
+    },
+    loads: [
+      { name: "proxy_2mib", requests_per_second: throughput },
+      { name: "management_locale", requests_per_second: throughput * 10 },
+    ],
+  });
+  const summary = summarizeRuntimeSamples([
+    sample(100, 500, 400, 300, 90),
+    sample(110, 550, 440, 330, 100),
+  ]);
+  assert.deepEqual(summary, {
+    readiness_p95_ms: 10,
+    management_rss_p95_bytes: 110,
+    management_lifetime_peak_rss_p95_bytes: null,
+    management_load_peak_rss_p95_bytes: 275,
+    management_post_load_rss_p95_bytes: 220,
+    management_post_reclaim_rss_p95_bytes: 165,
+    management_locale_rps_p50: 900,
+    gateway_rss_p95_bytes: 220,
+    gateway_load_peak_rss_p95_bytes: 550,
+    gateway_post_load_rss_p95_bytes: 440,
+    gateway_post_reclaim_rss_p95_bytes: 330,
+    proxy_2mib_rps_p50: 90,
+  });
+});
+
+test("Rust load and retained RSS regressions cannot hide behind unchanged idle RSS", () => {
+  const sample = (peak, retained) => ({
+    readiness_ms: 100,
+    checkpoints: {
+      stable_10s: { management_rss_bytes: 32, gateway_rss_bytes: 64 },
+      load_peak: { management_rss_bytes: peak },
+      post_load_30s: { management_rss_bytes: retained },
+      post_reclaim: { management_rss_bytes: retained },
+    },
+  });
+  const base = summarizeRuntimeSamples([sample(48, 32)]);
+  const current = summarizeRuntimeSamples([sample(1024, 768)]);
+  const failures = compareRuntimeSummaries(base, current, {
+    readiness: 0.1,
+    rss: 0.05,
+  });
+  assert.equal(failures.length, 3);
+  for (const stage of ["load_peak", "post_load", "post_reclaim"]) {
+    assert.ok(
+      failures.some((failure) =>
+        failure.startsWith(`management_${stage}_rss_p95_bytes regressed`),
+      ),
+    );
+  }
+});
+
+test("Linux high-water RSS catches bursts between periodic samples", () => {
+  const sample = (peak) => ({
+    readiness_ms: 100,
+    checkpoints: {
+      stable_10s: { management_rss_bytes: 32, management_peak_rss_bytes: 32 },
+      load_peak: { management_rss_bytes: 32, management_peak_rss_bytes: peak },
+      post_reclaim: {
+        management_rss_bytes: 32,
+        management_peak_rss_bytes: peak,
+      },
+    },
+  });
+  const base = summarizeRuntimeSamples([sample(32)]);
+  const current = summarizeRuntimeSamples([sample(512)]);
+  assert.equal(current.management_load_peak_rss_p95_bytes, 32);
+  assert.equal(current.management_lifetime_peak_rss_p95_bytes, 512);
+  const failures = compareRuntimeSummaries(base, current, { rss: 0.05 });
+  assert.equal(failures.length, 1);
+  assert.match(
+    failures[0],
+    /^management_lifetime_peak_rss_p95_bytes regressed/,
+  );
+});
+
+test("missing Rust load metrics and management throughput regression fail the gate", () => {
+  const base = {
+    readiness_p95_ms: 100,
+    management_rss_p95_bytes: 100,
+    management_load_peak_rss_p95_bytes: 100,
+    management_post_load_rss_p95_bytes: 80,
+    management_locale_rps_p50: 1000,
+  };
+  const failures = compareRuntimeSummaries(
+    base,
+    {
+      readiness_p95_ms: 100,
+      management_rss_p95_bytes: 100,
+      management_locale_rps_p50: 800,
+    },
+    { rss: 0.05, throughput: 0.05 },
+  );
+  assert.equal(failures.length, 3);
+  assert.ok(
+    failures.some((failure) =>
+      failure.includes("management_load_peak_rss_p95_bytes is missing"),
+    ),
+  );
+  assert.ok(
+    failures.some((failure) =>
+      failure.includes("management_post_load_rss_p95_bytes is missing"),
+    ),
+  );
+  assert.ok(
+    failures.some((failure) =>
+      failure.includes("management_locale_rps_p50 regressed"),
+    ),
+  );
+});
+
+test("unchanged Go load RSS passes the default regression gate", () => {
+  assert.deepEqual(
+    compareRuntimeSummaries(gatewayLoadBaseline, gatewayLoadBaseline),
+    [],
+  );
+  for (const field of gatewayLoadRssFields) {
+    const atLimit = { ...gatewayLoadBaseline, [field]: 10_500 };
+    assert.deepEqual(compareRuntimeSummaries(gatewayLoadBaseline, atLimit), []);
+    assert.deepEqual(
+      compareRuntimeSummaries(gatewayLoadBaseline, atLimit, {
+        loadRssImprovement: 0,
+      }),
+      [],
+    );
+    const failures = compareRuntimeSummaries(gatewayLoadBaseline, {
+      ...gatewayLoadBaseline,
+      [field]: 10_501,
+    });
+    assert.equal(failures.length, 1);
+    assert.ok(failures[0].startsWith(`${field} regressed`));
+    assert.deepEqual(
+      compareRuntimeSummaries(
+        gatewayLoadBaseline,
+        { ...gatewayLoadBaseline, [field]: 11_000 },
+        { rss: 0.1 },
+      ),
+      [],
+    );
+  }
+});
+
+test("an explicit load RSS improvement target rejects unchanged Go metrics", () => {
+  const failures = compareRuntimeSummaries(
+    gatewayLoadBaseline,
+    gatewayLoadBaseline,
+    { loadRssImprovement: 0.2 },
+  );
+  assert.equal(failures.length, 3);
+  for (const [index, field] of gatewayLoadRssFields.entries()) {
+    assert.ok(failures[index].startsWith(`${field} improved 0.0%`));
+    assert.match(failures[index], /required 20\.0%/);
+  }
+});
+
+test("load RSS improvement requirements must be finite fractions", () => {
+  const base = { readiness_p95_ms: 100, management_rss_p95_bytes: 100 };
+  for (const value of [-0.01, 1.01, NaN, Infinity, "0.2", null]) {
+    assert.deepEqual(
+      compareRuntimeSummaries(base, base, { loadRssImprovement: value }),
+      ["load RSS has an invalid improvement requirement"],
+    );
+  }
+  assert.deepEqual(
+    compareRuntimeSummaries(
+      gatewayLoadBaseline,
+      {
+        ...gatewayLoadBaseline,
+        ...Object.fromEntries(gatewayLoadRssFields.map((field) => [field, 0])),
+      },
+      { loadRssImprovement: 1 },
+    ),
+    [],
+  );
+});
+
+test("runtime comparison enforces throughput and explicit load RSS improvements", () => {
+  const failures = compareRuntimeSummaries(
+    {
+      readiness_p95_ms: 100,
+      management_rss_p95_bytes: 1_000,
+      gateway_rss_p95_bytes: 2_000,
+      gateway_load_peak_rss_p95_bytes: 10_000,
+      gateway_post_load_rss_p95_bytes: 8_000,
+      gateway_post_reclaim_rss_p95_bytes: 5_000,
+      proxy_2mib_rps_p50: 100,
+    },
+    {
+      readiness_p95_ms: 100,
+      management_rss_p95_bytes: 1_000,
+      gateway_rss_p95_bytes: 2_000,
+      gateway_load_peak_rss_p95_bytes: 8_000,
+      gateway_post_load_rss_p95_bytes: 6_400,
+      gateway_post_reclaim_rss_p95_bytes: 4_000,
+      proxy_2mib_rps_p50: 95,
+    },
+    {
+      readiness: 0.1,
+      rss: 0.05,
+      throughput: 0.05,
+      loadRssImprovement: 0.2,
+    },
+  );
+  assert.deepEqual(failures, []);
+});
+
+test("runtime performance comparison permits configured regressions", () => {
+  const failures = compareRuntimeSummaries(
+    {
+      readiness_p95_ms: 100,
+      management_rss_p95_bytes: 1_000,
+      gateway_rss_p95_bytes: null,
+    },
+    {
+      readiness_p95_ms: 110,
+      management_rss_p95_bytes: 1_050,
+      gateway_rss_p95_bytes: null,
+    },
+    { readiness: 0.1, rss: 0.05 },
+  );
+  assert.deepEqual(failures, []);
+});
+
+test("runtime performance comparison reports missing and regressed metrics", () => {
+  const failures = compareRuntimeSummaries(
+    {
+      readiness_p95_ms: 100,
+      management_rss_p95_bytes: 1_000,
+      gateway_rss_p95_bytes: 2_000,
+    },
+    {
+      readiness_p95_ms: 111,
+      management_rss_p95_bytes: null,
+      gateway_rss_p95_bytes: 2_101,
+    },
+    { readiness: 0.1, rss: 0.05 },
+  );
+  assert.equal(failures.length, 3);
+  assert.match(failures[0], /readiness_p95_ms regressed/);
+  assert.match(failures[1], /management_rss_p95_bytes is missing/);
+  assert.match(failures[2], /gateway_rss_p95_bytes regressed/);
+});
+
+test("runtime performance CLI enforces explicitly configured PR tolerances", async () => {
+  const directory = await mkdtemp(
+    path.join(os.tmpdir(), "fn-knock-runtime-perf-"),
+  );
+  const basePath = path.join(directory, "base.json");
+  const currentPath = path.join(directory, "current.json");
+  const base = {
+    readiness_p95_ms: 100,
+    management_rss_p95_bytes: 1_000,
+    gateway_rss_p95_bytes: 2_000,
+  };
+
+  try {
+    await writeFile(basePath, performanceResult(base));
+    await writeFile(
+      currentPath,
+      performanceResult({
+        readiness_p95_ms: 110,
+        management_rss_p95_bytes: 1_050,
+        gateway_rss_p95_bytes: 2_100,
+      }),
+    );
+    const passed = await execFileAsync(process.execPath, [
+      checkScript,
+      "--base",
+      basePath,
+      "--current",
+      currentPath,
+      "--max-readiness-regression",
+      "0.10",
+      "--max-rss-regression",
+      "0.05",
+    ]);
+    assert.match(passed.stdout, /\[runtime-performance\] passed/);
+
+    await writeFile(
+      currentPath,
+      performanceResult({
+        ...base,
+        readiness_p95_ms: 111,
+      }),
+    );
+    await assert.rejects(
+      execFileAsync(process.execPath, [
+        checkScript,
+        "--base",
+        basePath,
+        "--current",
+        currentPath,
+        "--max-readiness-regression",
+        "0.10",
+        "--max-rss-regression",
+        "0.05",
+      ]),
+      /runtime performance regression: readiness_p95_ms regressed/,
+    );
+  } finally {
+    await rm(directory, { recursive: true, force: true });
+  }
+});
+
+test("runtime gate rejects empty summaries, non-finite metrics and invalid tolerances", () => {
+  assert.equal(compareRuntimeSummaries({}, {}).length, 2);
+  const valid = { readiness_p95_ms: 100, management_rss_p95_bytes: 100 };
+  assert.match(
+    compareRuntimeSummaries(valid, {
+      ...valid,
+      management_rss_p95_bytes: Infinity,
+    })[0],
+    /management_rss_p95_bytes is missing from the current/,
+  );
+  assert.match(
+    compareRuntimeSummaries(
+      valid,
+      { ...valid, management_rss_p95_bytes: 500 },
+      { rss: NaN },
+    )[0],
+    /invalid regression tolerance/,
+  );
+  assert.throws(() => percentile([1, Infinity], 0.95), /finite non-negative/);
+  assert.throws(
+    () =>
+      summarizeRuntimeSamples([{ readiness_ms: -1, management_rss_bytes: 10 }]),
+    /finite non-negative/,
+  );
+});
+
+test("runtime performance CLI cannot pass with two empty summaries", async () => {
+  const directory = await mkdtemp(
+    path.join(os.tmpdir(), "fn-knock-runtime-empty-"),
+  );
+  const file = path.join(directory, "empty.json");
+  try {
+    await writeFile(file, performanceResult({}));
+    await assert.rejects(
+      execFileAsync(process.execPath, [
+        checkScript,
+        "--base",
+        file,
+        "--current",
+        file,
+      ]),
+      /runtime performance regression: readiness_p95_ms is missing/,
+    );
+  } finally {
+    await rm(directory, { recursive: true, force: true });
+  }
+});
+
+test("runtime performance CLI uses a regression gate unless improvement is requested", async () => {
+  const directory = await mkdtemp(
+    path.join(os.tmpdir(), "fn-knock-runtime-load-gate-"),
+  );
+  const basePath = path.join(directory, "base.json");
+  const currentPath = path.join(directory, "current.json");
+  const args = [checkScript, "--base", basePath, "--current", currentPath];
+  try {
+    await writeFile(basePath, performanceResult(gatewayLoadBaseline));
+    for (const currentRss of [10_000, 10_500]) {
+      await writeFile(
+        currentPath,
+        performanceResult({
+          ...gatewayLoadBaseline,
+          ...Object.fromEntries(
+            gatewayLoadRssFields.map((field) => [field, currentRss]),
+          ),
+        }),
+      );
+      const passed = await execFileAsync(process.execPath, args);
+      assert.match(passed.stdout, /\[runtime-performance\] passed/);
+    }
+    await writeFile(
+      currentPath,
+      performanceResult({
+        ...gatewayLoadBaseline,
+        gateway_post_reclaim_rss_p95_bytes: 10_501,
+      }),
+    );
+    await assert.rejects(
+      execFileAsync(process.execPath, args),
+      /gateway_post_reclaim_rss_p95_bytes regressed/,
+    );
+    await writeFile(currentPath, performanceResult(gatewayLoadBaseline));
+    await assert.rejects(
+      execFileAsync(process.execPath, [
+        ...args,
+        "--min-load-rss-improvement",
+        "0.2",
+      ]),
+      /required 20\.0%/,
+    );
+    for (const value of ["", " ", "-0.01", "1.01", "NaN", "Infinity", "abc"]) {
+      await assert.rejects(
+        execFileAsync(process.execPath, [
+          ...args,
+          "--min-load-rss-improvement",
+          value,
+        ]),
+        /--min-load-rss-improvement must be a fraction from 0 to 1/,
+      );
+    }
+  } finally {
+    await rm(directory, { recursive: true, force: true });
+  }
+});

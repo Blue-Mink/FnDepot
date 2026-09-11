@@ -1,1 +1,309 @@
-aW1wb3J0IHR5cGUgeyBTdHJlYW1CeXBhc3NQb2xpY3kgfSBmcm9tICIuLi8uLi9saWIvYXBpL2NvbmZpZyI7CmltcG9ydCB0eXBlIHsgR2F0ZXdheVZpc2liaWxpdHlTZWxlY3Rpb24gfSBmcm9tICIuLi8uLi90eXBlcyI7CmltcG9ydCB7CiAgQ0lEUl9PUEVSQVRPUlMsCiAgZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbktleSwKICBnZXRDaWRyUmVnaW9uU2VsZWN0aW9uTGFiZWwsCiAgdHlwZSBDaWRyT3BlcmF0b3IsCn0gZnJvbSAiLi4vLi4vdHlwZXMvY2lkciI7CmltcG9ydCB7CiAgZm9ybWF0QWR2YW5jZWRBdXRoVmFsdWVMaXN0LAogIGdldFNvdXJjZU5ldHdvcmtWYWxpZGF0aW9uSXNzdWUsCiAgcGFyc2VTb3VyY2VOZXR3b3JrVGV4dGFyZWEsCiAgc291cmNlTmV0d29ya0lucHV0S2luZCwKfSBmcm9tICIuLi9zdWJkb21haW4tcHJveHkvYWR2YW5jZWQtYXV0aC1zb3VyY2UtbmV0d29yayI7CgpleHBvcnQgY29uc3QgTUFYX1NUUkVBTV9CWVBBU1NfR1JPVVBTID0gMTY7CmV4cG9ydCBjb25zdCBNQVhfU1RSRUFNX0JZUEFTU19DT05ESVRJT05TID0gMTY7CgpleHBvcnQgdHlwZSBTdHJlYW1CeXBhc3NUYXJnZXQgPSAic291cmNlX2lwIiB8ICJzb3VyY2VfcmVnaW9uIjsKZXhwb3J0IHR5cGUgU3RyZWFtQnlwYXNzT3BlcmF0b3IgPQogICJlcXVhbHMiIHwgIm5vdF9lcXVhbHMiIHwgImluX2NpZHIiIHwgIm5vdF9pbl9jaWRyIiB8ICJpbiIgfCAibm90X2luIjsKCnR5cGUgU3RyZWFtQnlwYXNzUG9saWN5Q29udHJhY3QgPSBTdHJlYW1CeXBhc3NQb2xpY3k7CnR5cGUgU3RyZWFtQnlwYXNzR3JvdXBDb250cmFjdCA9IFN0cmVhbUJ5cGFzc1BvbGljeUNvbnRyYWN0WyJncm91cHMiXVtudW1iZXJdOwp0eXBlIFN0cmVhbUJ5cGFzc0NvbmRpdGlvbkNvbnRyYWN0ID0KICBTdHJlYW1CeXBhc3NHcm91cENvbnRyYWN0WyJjb25kaXRpb25zIl1bbnVtYmVyXTsKCmV4cG9ydCB0eXBlIFN0cmVhbUJ5cGFzc0NvbmRpdGlvbiA9IE9taXQ8CiAgU3RyZWFtQnlwYXNzQ29uZGl0aW9uQ29udHJhY3QsCiAgIm9wZXJhdG9yIiB8ICJzZWxlY3Rpb25zIiB8ICJ0YXJnZXQiCj4gJiB7CiAgb3BlcmF0b3I6IFN0cmVhbUJ5cGFzc09wZXJhdG9yOwogIHNlbGVjdGlvbnM6IEdhdGV3YXlWaXNpYmlsaXR5U2VsZWN0aW9uW107CiAgdGFyZ2V0OiBTdHJlYW1CeXBhc3NUYXJnZXQ7Cn07CgpleHBvcnQgdHlwZSBTdHJlYW1CeXBhc3NHcm91cCA9IE9taXQ8CiAgU3RyZWFtQnlwYXNzR3JvdXBDb250cmFjdCwKICAiY29uZGl0aW9ucyIKPiAmIHsKICBjb25kaXRpb25zOiBTdHJlYW1CeXBhc3NDb25kaXRpb25bXTsKfTsKCmV4cG9ydCB0eXBlIFN0cmVhbUJ5cGFzc1BvbGljeUZvcm0gPSBPbWl0PAogIFN0cmVhbUJ5cGFzc1BvbGljeUNvbnRyYWN0LAogICJncm91cHMiCj4gJiB7CiAgZ3JvdXBzOiBTdHJlYW1CeXBhc3NHcm91cFtdOwp9OwoKZXhwb3J0IGNvbnN0IHN0cmVhbUJ5cGFzc09wZXJhdG9yczogUmVjb3JkPAogIFN0cmVhbUJ5cGFzc1RhcmdldCwKICBBcnJheTx7IGxhYmVsS2V5OiBzdHJpbmc7IHZhbHVlOiBTdHJlYW1CeXBhc3NPcGVyYXRvciB9Pgo+ID0gewogIHNvdXJjZV9pcDogWwogICAgeyBsYWJlbEtleTogImFkbWluLmFkdmFuY2VkQXV0aC5vcGVyYXRvckVxdWFscyIsIHZhbHVlOiAiZXF1YWxzIiB9LAogICAgewogICAgICBsYWJlbEtleTogImFkbWluLmFkdmFuY2VkQXV0aC5vcGVyYXRvck5vdEVxdWFscyIsCiAgICAgIHZhbHVlOiAibm90X2VxdWFscyIsCiAgICB9LAogICAgeyBsYWJlbEtleTogImFkbWluLmFkdmFuY2VkQXV0aC5vcGVyYXRvckluQ2lkciIsIHZhbHVlOiAiaW5fY2lkciIgfSwKICAgIHsKICAgICAgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgub3BlcmF0b3JOb3RJbkNpZHIiLAogICAgICB2YWx1ZTogIm5vdF9pbl9jaWRyIiwKICAgIH0sCiAgXSwKICBzb3VyY2VfcmVnaW9uOiBbCiAgICB7IGxhYmVsS2V5OiAiYWRtaW4uYWR2YW5jZWRBdXRoLm9wZXJhdG9ySW5SZWdpb24iLCB2YWx1ZTogImluIiB9LAogICAgeyBsYWJlbEtleTogImFkbWluLmFkdmFuY2VkQXV0aC5vcGVyYXRvck5vdEluUmVnaW9uIiwgdmFsdWU6ICJub3RfaW4iIH0sCiAgXSwKfTsKCmNvbnN0IG5ld0lkID0gKHByZWZpeDogc3RyaW5nKSA9PgogIGAke3ByZWZpeH0tJHtNYXRoLnJhbmRvbSgpLnRvU3RyaW5nKDM2KS5zbGljZSgyLCAxMCl9LSR7RGF0ZS5ub3coKS50b1N0cmluZygzNil9YDsKCmV4cG9ydCBjb25zdCBjcmVhdGVCbGFua1N0cmVhbUJ5cGFzc0NvbmRpdGlvbiA9ICgpOiBTdHJlYW1CeXBhc3NDb25kaXRpb24gPT4gKHsKICBpZDogbmV3SWQoImNvbmRpdGlvbiIpLAogIG9wZXJhdG9yOiAiZXF1YWxzIiwKICBwb2xpY3lfaWQ6ICIiLAogIHNlbGVjdGlvbnM6IFtdLAogIHRhcmdldDogInNvdXJjZV9pcCIsCiAgdmFsdWVzOiBbIiJdLAp9KTsKCmV4cG9ydCBjb25zdCBjcmVhdGVCbGFua1N0cmVhbUJ5cGFzc0dyb3VwID0gKCk6IFN0cmVhbUJ5cGFzc0dyb3VwID0+ICh7CiAgY29uZGl0aW9uczogW2NyZWF0ZUJsYW5rU3RyZWFtQnlwYXNzQ29uZGl0aW9uKCldLAogIGlkOiBuZXdJZCgiZ3JvdXAiKSwKfSk7Cgpjb25zdCBub3JtYWxpemVUYXJnZXQgPSAodmFsdWU6IHN0cmluZyk6IFN0cmVhbUJ5cGFzc1RhcmdldCA9PgogIHZhbHVlID09PSAic291cmNlX3JlZ2lvbiIgPyAic291cmNlX3JlZ2lvbiIgOiAic291cmNlX2lwIjsKCmNvbnN0IG5vcm1hbGl6ZU9wZXJhdG9yID0gKAogIHRhcmdldDogU3RyZWFtQnlwYXNzVGFyZ2V0LAogIHZhbHVlOiBzdHJpbmcsCik6IFN0cmVhbUJ5cGFzc09wZXJhdG9yID0+IHsKICBjb25zdCBhbGxvd2VkID0gc3RyZWFtQnlwYXNzT3BlcmF0b3JzW3RhcmdldF0ubWFwKChpdGVtKSA9PiBpdGVtLnZhbHVlKTsKICByZXR1cm4gYWxsb3dlZC5pbmNsdWRlcyh2YWx1ZSBhcyBTdHJlYW1CeXBhc3NPcGVyYXRvcikKICAgID8gKHZhbHVlIGFzIFN0cmVhbUJ5cGFzc09wZXJhdG9yKQogICAgOiAoc3RyZWFtQnlwYXNzT3BlcmF0b3JzW3RhcmdldF1bMF0/LnZhbHVlID8/ICJlcXVhbHMiKTsKfTsKCmNvbnN0IGNsb25lUmVnaW9uU2VsZWN0aW9uID0gKAogIHNlbGVjdGlvbjogU3RyZWFtQnlwYXNzQ29uZGl0aW9uQ29udHJhY3RbInNlbGVjdGlvbnMiXVtudW1iZXJdLAopOiBHYXRld2F5VmlzaWJpbGl0eVNlbGVjdGlvbiA9PiB7CiAgY29uc3Qgb3BlcmF0b3IgPSBDSURSX09QRVJBVE9SUy5pbmNsdWRlcyhzZWxlY3Rpb24ub3BlcmF0b3IgYXMgQ2lkck9wZXJhdG9yKQogICAgPyAoc2VsZWN0aW9uLm9wZXJhdG9yIGFzIENpZHJPcGVyYXRvcikKICAgIDogbnVsbDsKICBjb25zdCBub3JtYWxpemVkOiBHYXRld2F5VmlzaWJpbGl0eVNlbGVjdGlvbiA9IHsKICAgIGNpdHk6IHNlbGVjdGlvbi5jaXR5ID8/IG51bGwsCiAgICBpc19tdW5pY2lwYWxpdHk6IGZhbHNlLAogICAgaXNfcHJvdmluY2Vfd2lkZTogIXNlbGVjdGlvbi5xdWVyeV9jaXR5LAogICAgbGFiZWw6ICIiLAogICAgb3BlcmF0b3IsCiAgICBwcm92aW5jZTogc2VsZWN0aW9uLnByb3ZpbmNlLAogICAgcXVlcnlfY2l0eTogc2VsZWN0aW9uLnF1ZXJ5X2NpdHkgPz8gbnVsbCwKICAgIHZhbHVlOiAiIiwKICB9OwogIG5vcm1hbGl6ZWQubGFiZWwgPSBnZXRDaWRyUmVnaW9uU2VsZWN0aW9uTGFiZWwobm9ybWFsaXplZCk7CiAgbm9ybWFsaXplZC52YWx1ZSA9IGdldENpZHJSZWdpb25TZWxlY3Rpb25LZXkobm9ybWFsaXplZCk7CiAgcmV0dXJuIG5vcm1hbGl6ZWQ7Cn07CgpleHBvcnQgY29uc3QgY2xvbmVTdHJlYW1CeXBhc3NQb2xpY3kgPSAoCiAgcG9saWN5OiBTdHJlYW1CeXBhc3NQb2xpY3lDb250cmFjdCwKKTogU3RyZWFtQnlwYXNzUG9saWN5Rm9ybSA9PiAoewogIGJyb2FkX3J1bGVfY29uZmlybWVkOiBmYWxzZSwKICBlbmFibGVkOiBwb2xpY3kuZW5hYmxlZCA9PT0gdHJ1ZSwKICBncm91cHM6IChwb2xpY3kuZ3JvdXBzID8/IFtdKS5tYXAoKGdyb3VwKSA9PiAoewogICAgY29uZGl0aW9uczogKGdyb3VwLmNvbmRpdGlvbnMgPz8gW10pLm1hcCgoY29uZGl0aW9uKSA9PiB7CiAgICAgIGNvbnN0IHRhcmdldCA9IG5vcm1hbGl6ZVRhcmdldChjb25kaXRpb24udGFyZ2V0KTsKICAgICAgcmV0dXJuIHsKICAgICAgICAuLi5jb25kaXRpb24sCiAgICAgICAgb3BlcmF0b3I6IG5vcm1hbGl6ZU9wZXJhdG9yKHRhcmdldCwgY29uZGl0aW9uLm9wZXJhdG9yKSwKICAgICAgICBzZWxlY3Rpb25zOiAoY29uZGl0aW9uLnNlbGVjdGlvbnMgPz8gW10pLm1hcChjbG9uZVJlZ2lvblNlbGVjdGlvbiksCiAgICAgICAgdGFyZ2V0LAogICAgICAgIHZhbHVlczogWy4uLihjb25kaXRpb24udmFsdWVzID8/IFtdKV0sCiAgICAgIH07CiAgICB9KSwKICAgIGlkOiBncm91cC5pZCwKICB9KSksCiAgcG9saWN5X3ZlcnNpb246IHBvbGljeS5wb2xpY3lfdmVyc2lvbiA/PyAiIiwKfSk7CgpleHBvcnQgY29uc3QgdG9TdHJlYW1CeXBhc3NQb2xpY3lQYXlsb2FkID0gKAogIGZvcm06IFN0cmVhbUJ5cGFzc1BvbGljeUZvcm0sCiAgYnJvYWRSdWxlQ29uZmlybWVkOiBib29sZWFuLAopOiBTdHJlYW1CeXBhc3NQb2xpY3kgPT4gKHsKICBicm9hZF9ydWxlX2NvbmZpcm1lZDogYnJvYWRSdWxlQ29uZmlybWVkLAogIGVuYWJsZWQ6IGZvcm0uZW5hYmxlZCwKICBncm91cHM6IGZvcm0uZ3JvdXBzLm1hcCgoZ3JvdXApID0+ICh7CiAgICBjb25kaXRpb25zOiBncm91cC5jb25kaXRpb25zLm1hcCgoY29uZGl0aW9uKSA9PiAoewogICAgICBpZDogY29uZGl0aW9uLmlkLAogICAgICBvcGVyYXRvcjogY29uZGl0aW9uLm9wZXJhdG9yLAogICAgICBwb2xpY3lfaWQ6IGNvbmRpdGlvbi5wb2xpY3lfaWQsCiAgICAgIHNlbGVjdGlvbnM6IGNvbmRpdGlvbi5zZWxlY3Rpb25zLm1hcCgoc2VsZWN0aW9uKSA9PiAoewogICAgICAgIGNpdHk6IHNlbGVjdGlvbi5jaXR5ID8/IG51bGwsCiAgICAgICAgb3BlcmF0b3I6IHNlbGVjdGlvbi5vcGVyYXRvciA/PyBudWxsLAogICAgICAgIHByb3ZpbmNlOiBzZWxlY3Rpb24ucHJvdmluY2UsCiAgICAgICAgcXVlcnlfY2l0eTogc2VsZWN0aW9uLnF1ZXJ5X2NpdHkgPz8gbnVsbCwKICAgICAgfSkpLAogICAgICB0YXJnZXQ6IGNvbmRpdGlvbi50YXJnZXQsCiAgICAgIHZhbHVlczogWy4uLmNvbmRpdGlvbi52YWx1ZXNdLAogICAgfSkpLAogICAgaWQ6IGdyb3VwLmlkLAogIH0pKSwKICBwb2xpY3lfdmVyc2lvbjogZm9ybS5wb2xpY3lfdmVyc2lvbiwKfSk7CgpleHBvcnQgY29uc3Qgc25hcHNob3RTdHJlYW1CeXBhc3NQb2xpY3kgPSAoZm9ybTogU3RyZWFtQnlwYXNzUG9saWN5Rm9ybSkgPT4KICBKU09OLnN0cmluZ2lmeSh7IGVuYWJsZWQ6IGZvcm0uZW5hYmxlZCwgZ3JvdXBzOiBmb3JtLmdyb3VwcyB9KTsKCmNvbnN0IGlzQnJvYWRDaWRyID0gKHZhbHVlOiBzdHJpbmcpID0+IHsKICBjb25zdCBtYXRjaCA9IHZhbHVlLnRyaW0oKS5tYXRjaCgvXi4rXC8oXGR7MSwzfSkkL3UpOwogIGlmICghbWF0Y2gpIHJldHVybiBmYWxzZTsKICBjb25zdCBwcmVmaXggPSBOdW1iZXIobWF0Y2hbMV0pOwogIHJldHVybiBOdW1iZXIuaXNJbnRlZ2VyKHByZWZpeCkgJiYgcHJlZml4IDw9IDE7Cn07CgpleHBvcnQgY29uc3QgaXNCcm9hZFN0cmVhbUJ5cGFzc1BvbGljeSA9IChmb3JtOiBTdHJlYW1CeXBhc3NQb2xpY3lGb3JtKSA9PgogIGZvcm0uZ3JvdXBzLnNvbWUoKGdyb3VwKSA9PiB7CiAgICBpZiAoZ3JvdXAuY29uZGl0aW9ucy5sZW5ndGggPT09IDApIHJldHVybiBmYWxzZTsKICAgIGlmICgKICAgICAgZ3JvdXAuY29uZGl0aW9ucy5ldmVyeSgoY29uZGl0aW9uKSA9PgogICAgICAgIFsibm90X2VxdWFscyIsICJub3RfaW5fY2lkciIsICJub3RfaW4iXS5pbmNsdWRlcyhjb25kaXRpb24ub3BlcmF0b3IpLAogICAgICApCiAgICApIHsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9CiAgICByZXR1cm4gZ3JvdXAuY29uZGl0aW9ucy5zb21lKAogICAgICAoY29uZGl0aW9uKSA9PgogICAgICAgIGNvbmRpdGlvbi50YXJnZXQgPT09ICJzb3VyY2VfaXAiICYmIGNvbmRpdGlvbi52YWx1ZXMuc29tZShpc0Jyb2FkQ2lkciksCiAgICApOwogIH0pOwoKZXhwb3J0IHR5cGUgU3RyZWFtQnlwYXNzVmFsaWRhdGlvbklzc3VlID0KICB8IHsga2luZDogImVtcHR5LWdyb3VwIiB9CiAgfCB7IGtpbmQ6ICJpbnZhbGlkLWNvbmRpdGlvbiIgfQogIHwgeyBraW5kOiAiaW52YWxpZC1zb3VyY2UtYWRkcmVzcyI7IGxpbmU6IG51bWJlciB9CiAgfCB7IGtpbmQ6ICJpbnZhbGlkLXNvdXJjZS1jaWRyIjsgbGluZTogbnVtYmVyIH0KICB8IHsga2luZDogIm1pc3NpbmctcnVsZXMiIH07CgpleHBvcnQgY29uc3QgZ2V0U3RyZWFtQnlwYXNzVmFsaWRhdGlvbklzc3VlID0gKAogIGZvcm06IFN0cmVhbUJ5cGFzc1BvbGljeUZvcm0sCik6IFN0cmVhbUJ5cGFzc1ZhbGlkYXRpb25Jc3N1ZSB8IG51bGwgPT4gewogIGlmICghZm9ybS5lbmFibGVkKSByZXR1cm4gbnVsbDsKICBpZiAoZm9ybS5ncm91cHMubGVuZ3RoID09PSAwKSByZXR1cm4geyBraW5kOiAibWlzc2luZy1ydWxlcyIgfTsKICBpZiAoZm9ybS5ncm91cHMuc29tZSgoZ3JvdXApID0+IGdyb3VwLmNvbmRpdGlvbnMubGVuZ3RoID09PSAwKSkgewogICAgcmV0dXJuIHsga2luZDogImVtcHR5LWdyb3VwIiB9OwogIH0KICBmb3IgKGNvbnN0IGNvbmRpdGlvbiBvZiBmb3JtLmdyb3Vwcy5mbGF0TWFwKChncm91cCkgPT4gZ3JvdXAuY29uZGl0aW9ucykpIHsKICAgIGlmIChjb25kaXRpb24udGFyZ2V0ID09PSAic291cmNlX3JlZ2lvbiIpIHsKICAgICAgaWYgKGNvbmRpdGlvbi5zZWxlY3Rpb25zLmxlbmd0aCA9PT0gMCkgewogICAgICAgIHJldHVybiB7IGtpbmQ6ICJpbnZhbGlkLWNvbmRpdGlvbiIgfTsKICAgICAgfQogICAgICBjb250aW51ZTsKICAgIH0KICAgIGlmICgKICAgICAgY29uZGl0aW9uLnZhbHVlcy5sZW5ndGggPT09IDAgfHwKICAgICAgY29uZGl0aW9uLnZhbHVlcy5zb21lKCh2YWx1ZSkgPT4gIXZhbHVlLnRyaW0oKSkKICAgICkgewogICAgICByZXR1cm4geyBraW5kOiAiaW52YWxpZC1jb25kaXRpb24iIH07CiAgICB9CiAgICBjb25zdCBpc3N1ZSA9IGdldFNvdXJjZU5ldHdvcmtWYWxpZGF0aW9uSXNzdWUoCiAgICAgIGNvbmRpdGlvbi52YWx1ZXMsCiAgICAgIGNvbmRpdGlvbi5vcGVyYXRvciwKICAgICk7CiAgICBpZiAoaXNzdWUpIHsKICAgICAgcmV0dXJuIHsKICAgICAgICBraW5kOgogICAgICAgICAgaXNzdWUua2luZCA9PT0gImFkZHJlc3MiCiAgICAgICAgICAgID8gImludmFsaWQtc291cmNlLWFkZHJlc3MiCiAgICAgICAgICAgIDogImludmFsaWQtc291cmNlLWNpZHIiLAogICAgICAgIGxpbmU6IGlzc3VlLmxpbmUsCiAgICAgIH07CiAgICB9CiAgfQogIHJldHVybiBudWxsOwp9OwoKZXhwb3J0IGNvbnN0IGNyZWF0ZVN0cmVhbUJ5cGFzc1J1bGVFZGl0b3IgPSAoCiAgZm9ybTogU3RyZWFtQnlwYXNzUG9saWN5Rm9ybSwKICB2YWx1ZURyYWZ0czogUmVjb3JkPHN0cmluZywgc3RyaW5nPiwKKSA9PiB7CiAgY29uc3Qgc291cmNlVmFsdWUgPSAoY29uZGl0aW9uOiBTdHJlYW1CeXBhc3NDb25kaXRpb24pID0+CiAgICBmb3JtYXRBZHZhbmNlZEF1dGhWYWx1ZUxpc3QoY29uZGl0aW9uLnZhbHVlcyk7CiAgY29uc3QgY2xlYXJEcmFmdCA9IChjb25kaXRpb246IFN0cmVhbUJ5cGFzc0NvbmRpdGlvbikgPT4gewogICAgZGVsZXRlIHZhbHVlRHJhZnRzW2NvbmRpdGlvbi5pZF07CiAgfTsKCiAgcmV0dXJuIHsKICAgIGFkZENvbmRpdGlvbjogKGdyb3VwOiBTdHJlYW1CeXBhc3NHcm91cCkgPT4gewogICAgICBpZiAoZ3JvdXAuY29uZGl0aW9ucy5sZW5ndGggPCBNQVhfU1RSRUFNX0JZUEFTU19DT05ESVRJT05TKSB7CiAgICAgICAgZ3JvdXAuY29uZGl0aW9ucy5wdXNoKGNyZWF0ZUJsYW5rU3RyZWFtQnlwYXNzQ29uZGl0aW9uKCkpOwogICAgICB9CiAgICB9LAogICAgYWRkR3JvdXA6ICgpID0+IHsKICAgICAgaWYgKGZvcm0uZ3JvdXBzLmxlbmd0aCA8IE1BWF9TVFJFQU1fQllQQVNTX0dST1VQUykgewogICAgICAgIGZvcm0uZ3JvdXBzLnB1c2goY3JlYXRlQmxhbmtTdHJlYW1CeXBhc3NHcm91cCgpKTsKICAgICAgfQogICAgfSwKICAgIG5vcm1hbGl6ZVZhbHVlRHJhZnQ6IChjb25kaXRpb246IFN0cmVhbUJ5cGFzc0NvbmRpdGlvbikgPT4gewogICAgICB2YWx1ZURyYWZ0c1tjb25kaXRpb24uaWRdID0gc291cmNlVmFsdWUoY29uZGl0aW9uKTsKICAgIH0sCiAgICBvcGVyYXRvcnNGb3I6ICh0YXJnZXQ6IFN0cmVhbUJ5cGFzc1RhcmdldCkgPT4gc3RyZWFtQnlwYXNzT3BlcmF0b3JzW3RhcmdldF0sCiAgICByZW1vdmVDb25kaXRpb246IChncm91cDogU3RyZWFtQnlwYXNzR3JvdXAsIGluZGV4OiBudW1iZXIpID0+IHsKICAgICAgY29uc3QgY29uZGl0aW9uID0gZ3JvdXAuY29uZGl0aW9uc1tpbmRleF07CiAgICAgIGlmIChjb25kaXRpb24pIGNsZWFyRHJhZnQoY29uZGl0aW9uKTsKICAgICAgZ3JvdXAuY29uZGl0aW9ucy5zcGxpY2UoaW5kZXgsIDEpOwogICAgfSwKICAgIHJlbW92ZUdyb3VwOiAoaW5kZXg6IG51bWJlcikgPT4gewogICAgICBmb3JtLmdyb3Vwc1tpbmRleF0/LmNvbmRpdGlvbnMuZm9yRWFjaChjbGVhckRyYWZ0KTsKICAgICAgZm9ybS5ncm91cHMuc3BsaWNlKGluZGV4LCAxKTsKICAgIH0sCiAgICBzZXRTb3VyY2VWYWx1ZTogKGNvbmRpdGlvbjogU3RyZWFtQnlwYXNzQ29uZGl0aW9uLCB2YWx1ZTogc3RyaW5nKSA9PiB7CiAgICAgIHZhbHVlRHJhZnRzW2NvbmRpdGlvbi5pZF0gPSB2YWx1ZTsKICAgICAgY29uZGl0aW9uLnZhbHVlcyA9IHBhcnNlU291cmNlTmV0d29ya1RleHRhcmVhKHZhbHVlKTsKICAgIH0sCiAgICBzb3VyY2VOZXR3b3JrVHJhbnNsYXRpb25LZXk6ICgKICAgICAgY29uZGl0aW9uOiBTdHJlYW1CeXBhc3NDb25kaXRpb24sCiAgICAgIHN1ZmZpeDogIkhpbnQiIHwgIkxhYmVsIiB8ICJQbGFjZWhvbGRlciIsCiAgICApID0+CiAgICAgIGBhZG1pbi5hZHZhbmNlZEF1dGguc291cmNlJHtzb3VyY2VOZXR3b3JrSW5wdXRLaW5kKGNvbmRpdGlvbi5vcGVyYXRvcikgPT09ICJhZGRyZXNzIiA/ICJJcCIgOiAiQ2lkciJ9JHtzdWZmaXh9YCwKICAgIHVwZGF0ZU9wZXJhdG9yOiAoCiAgICAgIGNvbmRpdGlvbjogU3RyZWFtQnlwYXNzQ29uZGl0aW9uLAogICAgICBvcGVyYXRvcjogU3RyZWFtQnlwYXNzT3BlcmF0b3IsCiAgICApID0+IHsKICAgICAgY2xlYXJEcmFmdChjb25kaXRpb24pOwogICAgICBjb25kaXRpb24ub3BlcmF0b3IgPSBvcGVyYXRvcjsKICAgIH0sCiAgICB1cGRhdGVUYXJnZXQ6ICgKICAgICAgY29uZGl0aW9uOiBTdHJlYW1CeXBhc3NDb25kaXRpb24sCiAgICAgIHRhcmdldDogU3RyZWFtQnlwYXNzVGFyZ2V0LAogICAgKSA9PiB7CiAgICAgIGNsZWFyRHJhZnQoY29uZGl0aW9uKTsKICAgICAgY29uZGl0aW9uLnRhcmdldCA9IHRhcmdldDsKICAgICAgY29uZGl0aW9uLm9wZXJhdG9yID0gc3RyZWFtQnlwYXNzT3BlcmF0b3JzW3RhcmdldF1bMF0/LnZhbHVlID8/ICJlcXVhbHMiOwogICAgICBjb25kaXRpb24uc2VsZWN0aW9ucyA9IFtdOwogICAgICBjb25kaXRpb24udmFsdWVzID0gdGFyZ2V0ID09PSAic291cmNlX2lwIiA/IFsiIl0gOiBbXTsKICAgICAgY29uZGl0aW9uLnBvbGljeV9pZCA9ICIiOwogICAgfSwKICAgIHZhbHVlSW5wdXRUZXh0OiAoY29uZGl0aW9uOiBTdHJlYW1CeXBhc3NDb25kaXRpb24pID0+CiAgICAgIHZhbHVlRHJhZnRzW2NvbmRpdGlvbi5pZF0gPz8gc291cmNlVmFsdWUoY29uZGl0aW9uKSwKICB9Owp9OwoKZXhwb3J0IHR5cGUgU3RyZWFtQnlwYXNzUnVsZUVkaXRvciA9IFJldHVyblR5cGU8CiAgdHlwZW9mIGNyZWF0ZVN0cmVhbUJ5cGFzc1J1bGVFZGl0b3IKPjsK
+import type { StreamBypassPolicy } from "../../lib/api/config";
+import type { GatewayVisibilitySelection } from "../../types";
+import {
+  CIDR_OPERATORS,
+  getCidrRegionSelectionKey,
+  getCidrRegionSelectionLabel,
+  type CidrOperator,
+} from "../../types/cidr";
+import {
+  formatAdvancedAuthValueList,
+  getSourceNetworkValidationIssue,
+  parseSourceNetworkTextarea,
+  sourceNetworkInputKind,
+} from "../subdomain-proxy/advanced-auth-source-network";
+
+export const MAX_STREAM_BYPASS_GROUPS = 16;
+export const MAX_STREAM_BYPASS_CONDITIONS = 16;
+
+export type StreamBypassTarget = "source_ip" | "source_region";
+export type StreamBypassOperator =
+  "equals" | "not_equals" | "in_cidr" | "not_in_cidr" | "in" | "not_in";
+
+type StreamBypassPolicyContract = StreamBypassPolicy;
+type StreamBypassGroupContract = StreamBypassPolicyContract["groups"][number];
+type StreamBypassConditionContract =
+  StreamBypassGroupContract["conditions"][number];
+
+export type StreamBypassCondition = Omit<
+  StreamBypassConditionContract,
+  "operator" | "selections" | "target"
+> & {
+  operator: StreamBypassOperator;
+  selections: GatewayVisibilitySelection[];
+  target: StreamBypassTarget;
+};
+
+export type StreamBypassGroup = Omit<
+  StreamBypassGroupContract,
+  "conditions"
+> & {
+  conditions: StreamBypassCondition[];
+};
+
+export type StreamBypassPolicyForm = Omit<
+  StreamBypassPolicyContract,
+  "groups"
+> & {
+  groups: StreamBypassGroup[];
+};
+
+export const streamBypassOperators: Record<
+  StreamBypassTarget,
+  Array<{ labelKey: string; value: StreamBypassOperator }>
+> = {
+  source_ip: [
+    { labelKey: "admin.advancedAuth.operatorEquals", value: "equals" },
+    {
+      labelKey: "admin.advancedAuth.operatorNotEquals",
+      value: "not_equals",
+    },
+    { labelKey: "admin.advancedAuth.operatorInCidr", value: "in_cidr" },
+    {
+      labelKey: "admin.advancedAuth.operatorNotInCidr",
+      value: "not_in_cidr",
+    },
+  ],
+  source_region: [
+    { labelKey: "admin.advancedAuth.operatorInRegion", value: "in" },
+    { labelKey: "admin.advancedAuth.operatorNotInRegion", value: "not_in" },
+  ],
+};
+
+const newId = (prefix: string) =>
+  `${prefix}-${Math.random().toString(36).slice(2, 10)}-${Date.now().toString(36)}`;
+
+export const createBlankStreamBypassCondition = (): StreamBypassCondition => ({
+  id: newId("condition"),
+  operator: "equals",
+  policy_id: "",
+  selections: [],
+  target: "source_ip",
+  values: [""],
+});
+
+export const createBlankStreamBypassGroup = (): StreamBypassGroup => ({
+  conditions: [createBlankStreamBypassCondition()],
+  id: newId("group"),
+});
+
+const normalizeTarget = (value: string): StreamBypassTarget =>
+  value === "source_region" ? "source_region" : "source_ip";
+
+const normalizeOperator = (
+  target: StreamBypassTarget,
+  value: string,
+): StreamBypassOperator => {
+  const allowed = streamBypassOperators[target].map((item) => item.value);
+  return allowed.includes(value as StreamBypassOperator)
+    ? (value as StreamBypassOperator)
+    : (streamBypassOperators[target][0]?.value ?? "equals");
+};
+
+const cloneRegionSelection = (
+  selection: StreamBypassConditionContract["selections"][number],
+): GatewayVisibilitySelection => {
+  const operator = CIDR_OPERATORS.includes(selection.operator as CidrOperator)
+    ? (selection.operator as CidrOperator)
+    : null;
+  const normalized: GatewayVisibilitySelection = {
+    city: selection.city ?? null,
+    is_municipality: false,
+    is_province_wide: !selection.query_city,
+    label: "",
+    operator,
+    province: selection.province,
+    query_city: selection.query_city ?? null,
+    value: "",
+  };
+  normalized.label = getCidrRegionSelectionLabel(normalized);
+  normalized.value = getCidrRegionSelectionKey(normalized);
+  return normalized;
+};
+
+export const cloneStreamBypassPolicy = (
+  policy: StreamBypassPolicyContract,
+): StreamBypassPolicyForm => ({
+  broad_rule_confirmed: false,
+  enabled: policy.enabled === true,
+  groups: (policy.groups ?? []).map((group) => ({
+    conditions: (group.conditions ?? []).map((condition) => {
+      const target = normalizeTarget(condition.target);
+      return {
+        ...condition,
+        operator: normalizeOperator(target, condition.operator),
+        selections: (condition.selections ?? []).map(cloneRegionSelection),
+        target,
+        values: [...(condition.values ?? [])],
+      };
+    }),
+    id: group.id,
+  })),
+  policy_version: policy.policy_version ?? "",
+});
+
+export const toStreamBypassPolicyPayload = (
+  form: StreamBypassPolicyForm,
+  broadRuleConfirmed: boolean,
+): StreamBypassPolicy => ({
+  broad_rule_confirmed: broadRuleConfirmed,
+  enabled: form.enabled,
+  groups: form.groups.map((group) => ({
+    conditions: group.conditions.map((condition) => ({
+      id: condition.id,
+      operator: condition.operator,
+      policy_id: condition.policy_id,
+      selections: condition.selections.map((selection) => ({
+        city: selection.city ?? null,
+        operator: selection.operator ?? null,
+        province: selection.province,
+        query_city: selection.query_city ?? null,
+      })),
+      target: condition.target,
+      values: [...condition.values],
+    })),
+    id: group.id,
+  })),
+  policy_version: form.policy_version,
+});
+
+export const snapshotStreamBypassPolicy = (form: StreamBypassPolicyForm) =>
+  JSON.stringify({ enabled: form.enabled, groups: form.groups });
+
+const isBroadCidr = (value: string) => {
+  const match = value.trim().match(/^.+\/(\d{1,3})$/u);
+  if (!match) return false;
+  const prefix = Number(match[1]);
+  return Number.isInteger(prefix) && prefix <= 1;
+};
+
+export const isBroadStreamBypassPolicy = (form: StreamBypassPolicyForm) =>
+  form.groups.some((group) => {
+    if (group.conditions.length === 0) return false;
+    if (
+      group.conditions.every((condition) =>
+        ["not_equals", "not_in_cidr", "not_in"].includes(condition.operator),
+      )
+    ) {
+      return true;
+    }
+    return group.conditions.some(
+      (condition) =>
+        condition.target === "source_ip" && condition.values.some(isBroadCidr),
+    );
+  });
+
+export type StreamBypassValidationIssue =
+  | { kind: "empty-group" }
+  | { kind: "invalid-condition" }
+  | { kind: "invalid-source-address"; line: number }
+  | { kind: "invalid-source-cidr"; line: number }
+  | { kind: "missing-rules" };
+
+export const getStreamBypassValidationIssue = (
+  form: StreamBypassPolicyForm,
+): StreamBypassValidationIssue | null => {
+  if (!form.enabled) return null;
+  if (form.groups.length === 0) return { kind: "missing-rules" };
+  if (form.groups.some((group) => group.conditions.length === 0)) {
+    return { kind: "empty-group" };
+  }
+  for (const condition of form.groups.flatMap((group) => group.conditions)) {
+    if (condition.target === "source_region") {
+      if (condition.selections.length === 0) {
+        return { kind: "invalid-condition" };
+      }
+      continue;
+    }
+    if (
+      condition.values.length === 0 ||
+      condition.values.some((value) => !value.trim())
+    ) {
+      return { kind: "invalid-condition" };
+    }
+    const issue = getSourceNetworkValidationIssue(
+      condition.values,
+      condition.operator,
+    );
+    if (issue) {
+      return {
+        kind:
+          issue.kind === "address"
+            ? "invalid-source-address"
+            : "invalid-source-cidr",
+        line: issue.line,
+      };
+    }
+  }
+  return null;
+};
+
+export const createStreamBypassRuleEditor = (
+  form: StreamBypassPolicyForm,
+  valueDrafts: Record<string, string>,
+) => {
+  const sourceValue = (condition: StreamBypassCondition) =>
+    formatAdvancedAuthValueList(condition.values);
+  const clearDraft = (condition: StreamBypassCondition) => {
+    delete valueDrafts[condition.id];
+  };
+
+  return {
+    addCondition: (group: StreamBypassGroup) => {
+      if (group.conditions.length < MAX_STREAM_BYPASS_CONDITIONS) {
+        group.conditions.push(createBlankStreamBypassCondition());
+      }
+    },
+    addGroup: () => {
+      if (form.groups.length < MAX_STREAM_BYPASS_GROUPS) {
+        form.groups.push(createBlankStreamBypassGroup());
+      }
+    },
+    normalizeValueDraft: (condition: StreamBypassCondition) => {
+      valueDrafts[condition.id] = sourceValue(condition);
+    },
+    operatorsFor: (target: StreamBypassTarget) => streamBypassOperators[target],
+    removeCondition: (group: StreamBypassGroup, index: number) => {
+      const condition = group.conditions[index];
+      if (condition) clearDraft(condition);
+      group.conditions.splice(index, 1);
+    },
+    removeGroup: (index: number) => {
+      form.groups[index]?.conditions.forEach(clearDraft);
+      form.groups.splice(index, 1);
+    },
+    setSourceValue: (condition: StreamBypassCondition, value: string) => {
+      valueDrafts[condition.id] = value;
+      condition.values = parseSourceNetworkTextarea(value);
+    },
+    sourceNetworkTranslationKey: (
+      condition: StreamBypassCondition,
+      suffix: "Hint" | "Label" | "Placeholder",
+    ) =>
+      `admin.advancedAuth.source${sourceNetworkInputKind(condition.operator) === "address" ? "Ip" : "Cidr"}${suffix}`,
+    updateOperator: (
+      condition: StreamBypassCondition,
+      operator: StreamBypassOperator,
+    ) => {
+      clearDraft(condition);
+      condition.operator = operator;
+    },
+    updateTarget: (
+      condition: StreamBypassCondition,
+      target: StreamBypassTarget,
+    ) => {
+      clearDraft(condition);
+      condition.target = target;
+      condition.operator = streamBypassOperators[target][0]?.value ?? "equals";
+      condition.selections = [];
+      condition.values = target === "source_ip" ? [""] : [];
+      condition.policy_id = "";
+    },
+    valueInputText: (condition: StreamBypassCondition) =>
+      valueDrafts[condition.id] ?? sourceValue(condition),
+  };
+};
+
+export type StreamBypassRuleEditor = ReturnType<
+  typeof createStreamBypassRuleEditor
+>;

@@ -1,1 +1,22 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUGFnaW5hdGlvbkxpc3RQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgUGFnaW5hdGlvbkxpc3QgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxQYWdpbmF0aW9uTGlzdFByb3BzICYgeyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdIH0+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UGFnaW5hdGlvbkxpc3QKICAgIHYtc2xvdD0ic2xvdFByb3BzIgogICAgZGF0YS1zbG90PSJwYWdpbmF0aW9uLWNvbnRlbnQiCiAgICB2LWJpbmQ9ImRlbGVnYXRlZFByb3BzIgogICAgOmNsYXNzPSJjbignZmxleCBmbGV4LXJvdyBpdGVtcy1jZW50ZXIgZ2FwLTEnLCBwcm9wcy5jbGFzcykiCiAgPgogICAgPHNsb3Qgdi1iaW5kPSJzbG90UHJvcHMiIC8+CiAgPC9QYWdpbmF0aW9uTGlzdD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { PaginationListProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { PaginationList } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<PaginationListProps & { class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+</script>
+
+<template>
+  <PaginationList
+    v-slot="slotProps"
+    data-slot="pagination-content"
+    v-bind="delegatedProps"
+    :class="cn('flex flex-row items-center gap-1', props.class)"
+  >
+    <slot v-bind="slotProps" />
+  </PaginationList>
+</template>

@@ -1,1 +1,257 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgVG9vbHRpcCwKICBUb29sdGlwQ29udGVudCwKICBUb29sdGlwUHJvdmlkZXIsCiAgVG9vbHRpcFRyaWdnZXIsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3Rvb2x0aXAiOwppbXBvcnQgQ29uZmlnQ29sbGFwc2libGVDYXJkIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9Db25maWdDb2xsYXBzaWJsZUNhcmQudnVlIjsKaW1wb3J0IENvbmZpcm1EYW5nZXJQb3BvdmVyIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vQ29uZmlybURhbmdlclBvcG92ZXIudnVlIjsKaW1wb3J0IHsKICBDaGV2cm9uVXAsCiAgRG93bmxvYWQsCiAgTG9hZGVyMiwKICBTaGllbGRDaGVjaywKICBUcmFzaDIsCn0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHR5cGUgewogIFNTTENlcnRpZmljYXRlU291cmNlLAogIFNTTENlcnRpZmljYXRlU3VtbWFyeSwKICBTdWJkb21haW5DZXJ0aWZpY2F0ZUNvdmVyYWdlLAp9IGZyb20gIkAvdHlwZXMiOwoKZGVmaW5lUHJvcHM8ewogIGFjdGl2YXRlQnV0dG9uTGFiZWw6IHN0cmluZzsKICBhY3RpdmF0ZUNlcnRpZmljYXRlOiAoaWQ6IHN0cmluZykgPT4gUHJvbWlzZTx2b2lkPiB8IHZvaWQ7CiAgYWN0aXZhdGluZ0NlcnRpZmljYXRlSWQ6IHN0cmluZyB8IG51bGw7CiAgY2VydGlmaWNhdGVEaXNwbGF5TGFiZWw6IChjZXJ0aWZpY2F0ZTogU1NMQ2VydGlmaWNhdGVTdW1tYXJ5KSA9PiBzdHJpbmc7CiAgY2VydGlmaWNhdGVSb2xlTGFiZWw6IChjZXJ0aWZpY2F0ZTogU1NMQ2VydGlmaWNhdGVTdW1tYXJ5KSA9PiBzdHJpbmc7CiAgY2VydGlmaWNhdGVzOiBTU0xDZXJ0aWZpY2F0ZVN1bW1hcnlbXTsKICBjbGVhckxpYnJhcnk6ICgpID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwogIGNvdmVyYWdlQmFkZ2VDbGFzczogKGNvdmVyYWdlOiBTdWJkb21haW5DZXJ0aWZpY2F0ZUNvdmVyYWdlKSA9PiBzdHJpbmc7CiAgY292ZXJhZ2VCYWRnZUxhYmVsOiAoY292ZXJhZ2U6IFN1YmRvbWFpbkNlcnRpZmljYXRlQ292ZXJhZ2UpID0+IHN0cmluZzsKICBjb3ZlcmFnZUJhZGdlVmFyaWFudDogKAogICAgY292ZXJhZ2U6IFN1YmRvbWFpbkNlcnRpZmljYXRlQ292ZXJhZ2UsCiAgKSA9PiAiZGVmYXVsdCIgfCAiZGVzdHJ1Y3RpdmUiIHwgIm91dGxpbmUiIHwgInNlY29uZGFyeSI7CiAgZGVsZXRlQ2VydGlmaWNhdGU6IChpZDogc3RyaW5nKSA9PiBQcm9taXNlPHZvaWQ+IHwgdm9pZDsKICBkZWxldGluZ0NlcnRpZmljYXRlSWQ6IHN0cmluZyB8IG51bGw7CiAgZG93bmxvYWRDZXJ0aWZpY2F0ZTogKAogICAgY2VydGlmaWNhdGU6IFNTTENlcnRpZmljYXRlU3VtbWFyeSwKICApID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwogIGRvd25sb2FkaW5nQ2VydGlmaWNhdGVJZDogc3RyaW5nIHwgbnVsbDsKICBmb3JtYXREYXRlOiAoZGF0ZTogc3RyaW5nKSA9PiBzdHJpbmc7CiAgaXNBY3RpdmF0aW5nOiBib29sZWFuOwogIGlzQ2xlYXJpbmdMaWJyYXJ5OiBib29sZWFuOwogIGlzRGVsZXRpbmc6IGJvb2xlYW47CiAgaXNEb3dubG9hZGluZzogYm9vbGVhbjsKICBpc011dGF0aW9uUGVuZGluZzogYm9vbGVhbjsKICByZWFkeTogYm9vbGVhbjsKICBzb3VyY2VMYWJlbDogKHNvdXJjZTogU1NMQ2VydGlmaWNhdGVTb3VyY2UpID0+IHN0cmluZzsKICBzdW1tYXJ5OiBzdHJpbmc7Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFRvb2x0aXBQcm92aWRlcj4KICAgIDxDb25maWdDb2xsYXBzaWJsZUNhcmQKICAgICAgdi1pZj0iY2VydGlmaWNhdGVzLmxlbmd0aCIKICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5jZXJ0Q29uZmlnLmxpYnJhcnlUaXRsZScpIgogICAgICA6Y29uZmlndXJlZD0idHJ1ZSIKICAgICAgOnJlYWR5PSJyZWFkeSIKICAgICAgOmVkaXQtbGFiZWw9InQoJ2FkbWluLmNlcnRDb25maWcudmlld0NlcnRpZmljYXRlcycpIgogICAgICBjb2xsYXBzZWQtY29udGVudC1jbGFzcz0ibWluLWgtWzc2cHhdIGZsZXggZmxleC1jb2wgaXRlbXMtc3RhcnQgZ2FwLTMgc206aC1bNDBweF0gc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIHNtOmp1c3RpZnktYmV0d2VlbiIKICAgICAgc3VtbWFyeS1jbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgbWF4LXctZnVsbCB3aGl0ZXNwYWNlLW5vcm1hbCBicmVhay13b3JkcyBzbTp0cnVuY2F0ZSIKICAgICAgZXhwYW5kZWQtY29udGVudC1jbGFzcz0icC0wIHNtOnAtMCIKICAgICAgYWN0aW9ucy1jbGFzcz0iYm9yZGVyLXQgYmctdHJhbnNwYXJlbnQgcHgtNCBweS0zIHNtOnB4LTYgZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGp1c3RpZnktZW5kIGdhcC0xIHJvdW5kZWQtYi1sZyIKICAgICAgY2FyZC1jbGFzcz0iZHluYW1pYy13aGl0ZS1jZXJ0LWNhcmQiCiAgICA+CiAgICAgIDx0ZW1wbGF0ZSAjc3VtbWFyeT4KICAgICAgICB7eyBzdW1tYXJ5IH19CiAgICAgIDwvdGVtcGxhdGU+CgogICAgICA8dGVtcGxhdGUgI2RlZmF1bHQ+CiAgICAgICAgPGRpdiBjbGFzcz0icC00IHNtOnAtNiBncmlkIGdhcC0zIHhsOmdyaWQtY29scy0yIj4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgdi1mb3I9ImNlcnRpZmljYXRlIGluIGNlcnRpZmljYXRlcyIKICAgICAgICAgICAgOmtleT0iY2VydGlmaWNhdGUuaWQiCiAgICAgICAgICAgIGNsYXNzPSJkeW5hbWljLXdoaXRlLWNlcnQtc3Vic3VyZmFjZSBncmlkIGdhcC0zIHJvdW5kZWQtbGcgYm9yZGVyIGJnLW11dGVkLzEwIHAtMy41IgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgbWluLXctMCBmbGV4LTEgZ2FwLTEiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZm9udC1tZWRpdW0gYnJlYWstYWxsIj4KICAgICAgICAgICAgICAgICAgICB7eyBjZXJ0aWZpY2F0ZURpc3BsYXlMYWJlbChjZXJ0aWZpY2F0ZSkgfX0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxCYWRnZQogICAgICAgICAgICAgICAgICAgIHYtaWY9ImNlcnRpZmljYXRlLmlzX2FjdGl2ZSIKICAgICAgICAgICAgICAgICAgICB2YXJpYW50PSJkZWZhdWx0IgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJkeW5hbWljLXdoaXRlLWdsYXNzLWNoaXAgZHluYW1pYy13aGl0ZS1nbGFzcy1jaGlwLXN1Y2Nlc3MgYmctZ3JlZW4tNjAwIGhvdmVyOmJnLWdyZWVuLTYwMCIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHt7IGNlcnRpZmljYXRlUm9sZUxhYmVsKGNlcnRpZmljYXRlKSB9fQogICAgICAgICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgICAgICAgICA8QmFkZ2UgdmFyaWFudD0ib3V0bGluZSI+CiAgICAgICAgICAgICAgICAgICAge3sgc291cmNlTGFiZWwoY2VydGlmaWNhdGUuc291cmNlKSB9fQogICAgICAgICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgICAgICAgICA8QmFkZ2UKICAgICAgICAgICAgICAgICAgICB2LWlmPSJjZXJ0aWZpY2F0ZS5jb3ZlcmFnZSIKICAgICAgICAgICAgICAgICAgICA6dmFyaWFudD0iY292ZXJhZ2VCYWRnZVZhcmlhbnQoY2VydGlmaWNhdGUuY292ZXJhZ2UpIgogICAgICAgICAgICAgICAgICAgIDpjbGFzcz0iY292ZXJhZ2VCYWRnZUNsYXNzKGNlcnRpZmljYXRlLmNvdmVyYWdlKSIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHt7IGNvdmVyYWdlQmFkZ2VMYWJlbChjZXJ0aWZpY2F0ZS5jb3ZlcmFnZSkgfX0KICAgICAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgZm9udC1tb25vIGJyZWFrLWFsbCI+CiAgICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgICAgY2VydGlmaWNhdGUuY2VydEluZm8/LmRuc05hbWVzPy5qb2luKCIsICIpIHx8CiAgICAgICAgICAgICAgICAgICAgY2VydGlmaWNhdGUucHJpbWFyeV9kb21haW4gfHwKICAgICAgICAgICAgICAgICAgICB0KCJhZG1pbi5jZXJ0Q29uZmlnLm5vRG9tYWluSW5mbyIpCiAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBzaHJpbmstMCBpdGVtcy1jZW50ZXIgZ2FwLTAuNSI+CiAgICAgICAgICAgICAgICA8VG9vbHRpcCB2LWlmPSIhY2VydGlmaWNhdGUuaXNfYWN0aXZlIj4KICAgICAgICAgICAgICAgICAgPFRvb2x0aXBUcmlnZ2VyIGFzLWNoaWxkPgogICAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgICAgICAgICAgc2l6ZT0iaWNvbi1zbSIKICAgICAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJhY3RpdmF0ZUJ1dHRvbkxhYmVsIgogICAgICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc011dGF0aW9uUGVuZGluZyIKICAgICAgICAgICAgICAgICAgICAgIEBjbGljaz0iYWN0aXZhdGVDZXJ0aWZpY2F0ZShjZXJ0aWZpY2F0ZS5pZCkiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPExvYWRlcjIKICAgICAgICAgICAgICAgICAgICAgICAgdi1pZj0iCiAgICAgICAgICAgICAgICAgICAgICAgICAgaXNBY3RpdmF0aW5nICYmCiAgICAgICAgICAgICAgICAgICAgICAgICAgYWN0aXZhdGluZ0NlcnRpZmljYXRlSWQgPT09IGNlcnRpZmljYXRlLmlkCiAgICAgICAgICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3M9ImgtNCB3LTQgYW5pbWF0ZS1zcGluIgogICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICAgIDxTaGllbGRDaGVjayB2LWVsc2UgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgIDwvVG9vbHRpcFRyaWdnZXI+CiAgICAgICAgICAgICAgICAgIDxUb29sdGlwQ29udGVudD57eyBhY3RpdmF0ZUJ1dHRvbkxhYmVsIH19PC9Ub29sdGlwQ29udGVudD4KICAgICAgICAgICAgICAgIDwvVG9vbHRpcD4KICAgICAgICAgICAgICAgIDxUb29sdGlwPgogICAgICAgICAgICAgICAgICA8VG9vbHRpcFRyaWdnZXIgYXMtY2hpbGQ+CiAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICAgICAgICBzaXplPSJpY29uLXNtIgogICAgICAgICAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLmNlcnRDb25maWcuZG93bmxvYWQnKSIKICAgICAgICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNEb3dubG9hZGluZyB8fCBpc011dGF0aW9uUGVuZGluZyIKICAgICAgICAgICAgICAgICAgICAgIEBjbGljaz0iZG93bmxvYWRDZXJ0aWZpY2F0ZShjZXJ0aWZpY2F0ZSkiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPExvYWRlcjIKICAgICAgICAgICAgICAgICAgICAgICAgdi1pZj0iCiAgICAgICAgICAgICAgICAgICAgICAgICAgaXNEb3dubG9hZGluZyAmJgogICAgICAgICAgICAgICAgICAgICAgICAgIGRvd25sb2FkaW5nQ2VydGlmaWNhdGVJZCA9PT0gY2VydGlmaWNhdGUuaWQKICAgICAgICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0iaC00IHctNCBhbmltYXRlLXNwaW4iCiAgICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgICAgPERvd25sb2FkIHYtZWxzZSBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgPC9Ub29sdGlwVHJpZ2dlcj4KICAgICAgICAgICAgICAgICAgPFRvb2x0aXBDb250ZW50PgogICAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcuZG93bmxvYWQiKSB9fQogICAgICAgICAgICAgICAgICA8L1Rvb2x0aXBDb250ZW50PgogICAgICAgICAgICAgICAgPC9Ub29sdGlwPgogICAgICAgICAgICAgICAgPENvbmZpcm1EYW5nZXJQb3BvdmVyCiAgICAgICAgICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4uY2VydENvbmZpZy5kZWxldGVUaXRsZScpIgogICAgICAgICAgICAgICAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLmNlcnRDb25maWcuZGVsZXRlRGVzY3JpcHRpb24nKSIKICAgICAgICAgICAgICAgICAgOmNvbmZpcm0tdGV4dD0idCgnYWRtaW4uY2VydENvbmZpZy5kZWxldGVDb25maXJtJykiCiAgICAgICAgICAgICAgICAgIDpsb2FkaW5nPSIKICAgICAgICAgICAgICAgICAgICBpc0RlbGV0aW5nICYmIGRlbGV0aW5nQ2VydGlmaWNhdGVJZCA9PT0gY2VydGlmaWNhdGUuaWQKICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzTXV0YXRpb25QZW5kaW5nIgogICAgICAgICAgICAgICAgICA6b24tY29uZmlybT0iKCkgPT4gZGVsZXRlQ2VydGlmaWNhdGUoY2VydGlmaWNhdGUuaWQpIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8dGVtcGxhdGUgI3RyaWdnZXI+CiAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICAgICAgICBzaXplPSJpY29uLXNtIgogICAgICAgICAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLmNlcnRDb25maWcuZGVsZXRlJykiCiAgICAgICAgICAgICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLmNlcnRDb25maWcuZGVsZXRlJykiCiAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC1kZXN0cnVjdGl2ZSBob3ZlcjpiZy1kZXN0cnVjdGl2ZS8xMCBob3Zlcjp0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc011dGF0aW9uUGVuZGluZyIKICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICA8TG9hZGVyMgogICAgICAgICAgICAgICAgICAgICAgICB2LWlmPSIKICAgICAgICAgICAgICAgICAgICAgICAgICBpc0RlbGV0aW5nICYmIGRlbGV0aW5nQ2VydGlmaWNhdGVJZCA9PT0gY2VydGlmaWNhdGUuaWQKICAgICAgICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0iaC00IHctNCBhbmltYXRlLXNwaW4iCiAgICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgICAgPFRyYXNoMiB2LWVsc2UgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgICAgICA8L0NvbmZpcm1EYW5nZXJQb3BvdmVyPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTIgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIHYtaWY9IgogICAgICAgICAgICAgICAgICBjZXJ0aWZpY2F0ZS5jZXJ0SW5mbz8udmFsaWRGcm9tIHx8CiAgICAgICAgICAgICAgICAgIGNlcnRpZmljYXRlLmNlcnRJbmZvPy52YWxpZFRvCiAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy52YWxpZGl0eUxhYmVsIikgfX0KICAgICAgICAgICAgICAgIHt7IGZvcm1hdERhdGUoY2VydGlmaWNhdGUuY2VydEluZm8/LnZhbGlkRnJvbSB8fCAiIikgfX0KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJteC0xIj57eyB0KCJhZG1pbi5jZXJ0Q29uZmlnLnRvIikgfX08L3NwYW4+CiAgICAgICAgICAgICAgICB7eyBmb3JtYXREYXRlKGNlcnRpZmljYXRlLmNlcnRJbmZvPy52YWxpZFRvIHx8ICIiKSB9fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICB0KCJhZG1pbi5jZXJ0Q29uZmlnLnVwZGF0ZWRBdExhYmVsIiwgewogICAgICAgICAgICAgICAgICAgIHZhbHVlOiBmb3JtYXREYXRlKGNlcnRpZmljYXRlLnVwZGF0ZWRfYXQpLAogICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IHYtaWY9ImNlcnRpZmljYXRlLmNvdmVyYWdlPy5zdW1tYXJ5Ij4KICAgICAgICAgICAgICAgIHt7IGNlcnRpZmljYXRlLmNvdmVyYWdlLnN1bW1hcnkgfX0KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC90ZW1wbGF0ZT4KCiAgICAgIDx0ZW1wbGF0ZSAjYWN0aW9ucz0ieyBjb2xsYXBzZSB9Ij4KICAgICAgICA8Q29uZmlybURhbmdlclBvcG92ZXIKICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4uY2VydENvbmZpZy5jbGVhckxpYnJhcnlUaXRsZScpIgogICAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5jZXJ0Q29uZmlnLmNsZWFyTGlicmFyeURlc2NyaXB0aW9uJykiCiAgICAgICAgICA6Y29uZmlybS10ZXh0PSJ0KCdhZG1pbi5jZXJ0Q29uZmlnLmNsZWFyTGlicmFyeUNvbmZpcm0nKSIKICAgICAgICAgIDpsb2FkaW5nPSJpc0NsZWFyaW5nTGlicmFyeSIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNNdXRhdGlvblBlbmRpbmciCiAgICAgICAgICA6b24tY29uZmlybT0iY2xlYXJMaWJyYXJ5IgogICAgICAgID4KICAgICAgICAgIDx0ZW1wbGF0ZSAjdHJpZ2dlcj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHZhcmlhbnQ9ImRlc3RydWN0aXZlLW91dGxpbmUiCiAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc011dGF0aW9uUGVuZGluZyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxUcmFzaDIgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5jbGVhckxpYnJhcnkiKSB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICAgICAgICA8VG9vbHRpcD4KICAgICAgICAgIDxUb29sdGlwVHJpZ2dlciBhcy1jaGlsZD4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgIHNpemU9Imljb24tc20iCiAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLmNlcnRDb25maWcuY29sbGFwc2UnKSIKICAgICAgICAgICAgICBAY2xpY2s9ImNvbGxhcHNlIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPENoZXZyb25VcCBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L1Rvb2x0aXBUcmlnZ2VyPgogICAgICAgICAgPFRvb2x0aXBDb250ZW50Pnt7IHQoImFkbWluLmNlcnRDb25maWcuY29sbGFwc2UiKSB9fTwvVG9vbHRpcENvbnRlbnQ+CiAgICAgICAgPC9Ub29sdGlwPgogICAgICA8L3RlbXBsYXRlPgogICAgPC9Db25maWdDb2xsYXBzaWJsZUNhcmQ+CiAgPC9Ub29sdGlwUHJvdmlkZXI+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import ConfigCollapsibleCard from "@admin-shared/components/ConfigCollapsibleCard.vue";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import {
+  ChevronUp,
+  Download,
+  Loader2,
+  ShieldCheck,
+  Trash2,
+} from "lucide-vue-next";
+import type {
+  SSLCertificateSource,
+  SSLCertificateSummary,
+  SubdomainCertificateCoverage,
+} from "@/types";
+
+defineProps<{
+  activateButtonLabel: string;
+  activateCertificate: (id: string) => Promise<void> | void;
+  activatingCertificateId: string | null;
+  certificateDisplayLabel: (certificate: SSLCertificateSummary) => string;
+  certificateRoleLabel: (certificate: SSLCertificateSummary) => string;
+  certificates: SSLCertificateSummary[];
+  clearLibrary: () => Promise<void> | void;
+  coverageBadgeClass: (coverage: SubdomainCertificateCoverage) => string;
+  coverageBadgeLabel: (coverage: SubdomainCertificateCoverage) => string;
+  coverageBadgeVariant: (
+    coverage: SubdomainCertificateCoverage,
+  ) => "default" | "destructive" | "outline" | "secondary";
+  deleteCertificate: (id: string) => Promise<void> | void;
+  deletingCertificateId: string | null;
+  downloadCertificate: (
+    certificate: SSLCertificateSummary,
+  ) => Promise<void> | void;
+  downloadingCertificateId: string | null;
+  formatDate: (date: string) => string;
+  isActivating: boolean;
+  isClearingLibrary: boolean;
+  isDeleting: boolean;
+  isDownloading: boolean;
+  isMutationPending: boolean;
+  ready: boolean;
+  sourceLabel: (source: SSLCertificateSource) => string;
+  summary: string;
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <TooltipProvider>
+    <ConfigCollapsibleCard
+      v-if="certificates.length"
+      :title="t('admin.certConfig.libraryTitle')"
+      :configured="true"
+      :ready="ready"
+      :edit-label="t('admin.certConfig.viewCertificates')"
+      collapsed-content-class="min-h-[76px] flex flex-col items-start gap-3 sm:h-[40px] sm:flex-row sm:items-center sm:justify-between"
+      summary-class="text-xs text-muted-foreground max-w-full whitespace-normal break-words sm:truncate"
+      expanded-content-class="p-0 sm:p-0"
+      actions-class="border-t bg-transparent px-4 py-3 sm:px-6 flex flex-wrap items-center justify-end gap-1 rounded-b-lg"
+      card-class="dynamic-white-cert-card"
+    >
+      <template #summary>
+        {{ summary }}
+      </template>
+
+      <template #default>
+        <div class="p-4 sm:p-6 grid gap-3 xl:grid-cols-2">
+          <div
+            v-for="certificate in certificates"
+            :key="certificate.id"
+            class="dynamic-white-cert-subsurface grid gap-3 rounded-lg border bg-muted/10 p-3.5"
+          >
+            <div class="flex flex-wrap items-start justify-between gap-3">
+              <div class="grid min-w-0 flex-1 gap-1">
+                <div class="flex flex-wrap items-center gap-2">
+                  <div class="font-medium break-all">
+                    {{ certificateDisplayLabel(certificate) }}
+                  </div>
+                  <Badge
+                    v-if="certificate.is_active"
+                    variant="default"
+                    class="dynamic-white-glass-chip dynamic-white-glass-chip-success bg-green-600 hover:bg-green-600"
+                  >
+                    {{ certificateRoleLabel(certificate) }}
+                  </Badge>
+                  <Badge variant="outline">
+                    {{ sourceLabel(certificate.source) }}
+                  </Badge>
+                  <Badge
+                    v-if="certificate.coverage"
+                    :variant="coverageBadgeVariant(certificate.coverage)"
+                    :class="coverageBadgeClass(certificate.coverage)"
+                  >
+                    {{ coverageBadgeLabel(certificate.coverage) }}
+                  </Badge>
+                </div>
+                <div class="text-xs text-muted-foreground font-mono break-all">
+                  {{
+                    certificate.certInfo?.dnsNames?.join(", ") ||
+                    certificate.primary_domain ||
+                    t("admin.certConfig.noDomainInfo")
+                  }}
+                </div>
+              </div>
+
+              <div class="flex shrink-0 items-center gap-0.5">
+                <Tooltip v-if="!certificate.is_active">
+                  <TooltipTrigger as-child>
+                    <Button
+                      variant="ghost"
+                      size="icon-sm"
+                      :aria-label="activateButtonLabel"
+                      :disabled="isMutationPending"
+                      @click="activateCertificate(certificate.id)"
+                    >
+                      <Loader2
+                        v-if="
+                          isActivating &&
+                          activatingCertificateId === certificate.id
+                        "
+                        class="h-4 w-4 animate-spin"
+                      />
+                      <ShieldCheck v-else class="h-4 w-4" />
+                    </Button>
+                  </TooltipTrigger>
+                  <TooltipContent>{{ activateButtonLabel }}</TooltipContent>
+                </Tooltip>
+                <Tooltip>
+                  <TooltipTrigger as-child>
+                    <Button
+                      variant="ghost"
+                      size="icon-sm"
+                      :aria-label="t('admin.certConfig.download')"
+                      :disabled="isDownloading || isMutationPending"
+                      @click="downloadCertificate(certificate)"
+                    >
+                      <Loader2
+                        v-if="
+                          isDownloading &&
+                          downloadingCertificateId === certificate.id
+                        "
+                        class="h-4 w-4 animate-spin"
+                      />
+                      <Download v-else class="h-4 w-4" />
+                    </Button>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    {{ t("admin.certConfig.download") }}
+                  </TooltipContent>
+                </Tooltip>
+                <ConfirmDangerPopover
+                  :title="t('admin.certConfig.deleteTitle')"
+                  :description="t('admin.certConfig.deleteDescription')"
+                  :confirm-text="t('admin.certConfig.deleteConfirm')"
+                  :loading="
+                    isDeleting && deletingCertificateId === certificate.id
+                  "
+                  :disabled="isMutationPending"
+                  :on-confirm="() => deleteCertificate(certificate.id)"
+                >
+                  <template #trigger>
+                    <Button
+                      variant="ghost"
+                      size="icon-sm"
+                      :aria-label="t('admin.certConfig.delete')"
+                      :title="t('admin.certConfig.delete')"
+                      class="text-destructive hover:bg-destructive/10 hover:text-destructive"
+                      :disabled="isMutationPending"
+                    >
+                      <Loader2
+                        v-if="
+                          isDeleting && deletingCertificateId === certificate.id
+                        "
+                        class="h-4 w-4 animate-spin"
+                      />
+                      <Trash2 v-else class="h-4 w-4" />
+                    </Button>
+                  </template>
+                </ConfirmDangerPopover>
+              </div>
+            </div>
+
+            <div class="grid gap-2 text-xs text-muted-foreground">
+              <div
+                v-if="
+                  certificate.certInfo?.validFrom ||
+                  certificate.certInfo?.validTo
+                "
+              >
+                {{ t("admin.certConfig.validityLabel") }}
+                {{ formatDate(certificate.certInfo?.validFrom || "") }}
+                <span class="mx-1">{{ t("admin.certConfig.to") }}</span>
+                {{ formatDate(certificate.certInfo?.validTo || "") }}
+              </div>
+              <div>
+                {{
+                  t("admin.certConfig.updatedAtLabel", {
+                    value: formatDate(certificate.updated_at),
+                  })
+                }}
+              </div>
+              <div v-if="certificate.coverage?.summary">
+                {{ certificate.coverage.summary }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </template>
+
+      <template #actions="{ collapse }">
+        <ConfirmDangerPopover
+          :title="t('admin.certConfig.clearLibraryTitle')"
+          :description="t('admin.certConfig.clearLibraryDescription')"
+          :confirm-text="t('admin.certConfig.clearLibraryConfirm')"
+          :loading="isClearingLibrary"
+          :disabled="isMutationPending"
+          :on-confirm="clearLibrary"
+        >
+          <template #trigger>
+            <Button
+              variant="destructive-outline"
+              size="sm"
+              :disabled="isMutationPending"
+            >
+              <Trash2 class="h-4 w-4" />
+              {{ t("admin.certConfig.clearLibrary") }}
+            </Button>
+          </template>
+        </ConfirmDangerPopover>
+        <Tooltip>
+          <TooltipTrigger as-child>
+            <Button
+              variant="ghost"
+              size="icon-sm"
+              :aria-label="t('admin.certConfig.collapse')"
+              @click="collapse"
+            >
+              <ChevronUp class="h-4 w-4" />
+            </Button>
+          </TooltipTrigger>
+          <TooltipContent>{{ t("admin.certConfig.collapse") }}</TooltipContent>
+        </Tooltip>
+      </template>
+    </ConfigCollapsibleCard>
+  </TooltipProvider>
+</template>

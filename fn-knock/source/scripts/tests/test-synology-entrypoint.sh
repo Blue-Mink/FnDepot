@@ -1,1 +1,162 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCkVOVFJZUE9JTlQ9IiR7Uk9PVF9ESVJ9L2FwcHMvZm4ta25vY2stc3lub2xvZ3kvcGFja2FnZS9iaW4vZm4ta25vY2stZW50cnlwb2ludCIKV09SS19ESVI9IiQobWt0ZW1wIC1kICIke1JPT1RfRElSfS9kaXN0L3N5bm9sb2d5LWVudHJ5cG9pbnQtdGVzdC5YWFhYWFgiKSIKQVBQX0hPTUU9IiR7V09SS19ESVJ9L3RhcmdldCIKREFUQV9ESVI9IiR7V09SS19ESVJ9L3ZhciIKTE9HX0ZJTEU9IiR7V09SS19ESVJ9L2VudHJ5cG9pbnQubG9nIgpTVVBFUlZJU09SX1BJRD0iIgpHQVRFV0FZX1BJRD0iIgpNQU5BR0VNRU5UX1BJRD0iIgoKcHJvY2Vzc19pc19hbGl2ZSgpIHsKICBsb2NhbCBwaWQ9IiQxIgogIGtpbGwgLTAgIiR7cGlkfSIgMj4vZGV2L251bGwKfQoKcHJvY2Vzc19jbWRsaW5lX2NvbnRhaW5zKCkgewogIGxvY2FsIHBpZD0iJDEiIGV4cGVjdGVkPSIkMiIKICBpZiBbIC1yICIvcHJvYy8ke3BpZH0vY21kbGluZSIgXTsgdGhlbgogICAgdHIgJ1wwMDAnICcgJyA8ICIvcHJvYy8ke3BpZH0vY21kbGluZSIgfCBncmVwIC1GcSAiJHtleHBlY3RlZH0iCiAgZWxzZQogICAgcHMgLW8gY29tbWFuZD0gLXAgIiR7cGlkfSIgMj4vZGV2L251bGwgfCBncmVwIC1GcSAiJHtleHBlY3RlZH0iCiAgZmkKfQoKdGVybWluYXRlX2lmX3J1bm5pbmcoKSB7CiAgbG9jYWwgcGlkPSIkezE6LX0iCiAgaWYgWyAtbiAiJHtwaWR9IiBdICYmIHByb2Nlc3NfaXNfYWxpdmUgIiR7cGlkfSI7IHRoZW4KICAgIGtpbGwgLVRFUk0gIiR7cGlkfSIgMj4vZGV2L251bGwgfHwgdHJ1ZQogIGZpCn0KCmNsZWFudXAoKSB7CiAgdHJhcCAtIEVYSVQgSU5UIFRFUk0KICB0ZXJtaW5hdGVfaWZfcnVubmluZyAiJHtTVVBFUlZJU09SX1BJRH0iCiAgdGVybWluYXRlX2lmX3J1bm5pbmcgIiR7TUFOQUdFTUVOVF9QSUR9IgogIHRlcm1pbmF0ZV9pZl9ydW5uaW5nICIke0dBVEVXQVlfUElEfSIKICBbIC1uICIke1NVUEVSVklTT1JfUElEfSIgXSAmJiB3YWl0ICIke1NVUEVSVklTT1JfUElEfSIgMj4vZGV2L251bGwgfHwgdHJ1ZQogIHJtIC1yZiAiJHtXT1JLX0RJUn0iCn0KdHJhcCBjbGVhbnVwIEVYSVQgSU5UIFRFUk0KCmZhaWwoKSB7CiAgcHJpbnRmICdbdGVzdC1zeW5vbG9neS1lbnRyeXBvaW50XSBFUlJPUjogJXNcbicgIiQqIiA+JjIKICBpZiBbIC1mICIke0xPR19GSUxFfSIgXTsgdGhlbgogICAgc2VkIC1uICcxLDE2MHAnICIke0xPR19GSUxFfSIgPiYyCiAgZmkKICBleGl0IDEKfQoKcmVhZF9ydW5uaW5nX3BpZCgpIHsKICBsb2NhbCBwYXRoPSIkMSIKICBsb2NhbCBsYWJlbD0iJDIiCiAgbG9jYWwgcGlkCgogIFsgLXMgIiR7cGF0aH0iIF0gfHwgZmFpbCAiJHtsYWJlbH0gUElEIGZpbGUgd2FzIG5vdCBjcmVhdGVkIgogIHBpZD0iJCh0ciAtZCAnXHJcbicgPCAiJHtwYXRofSIpIgogIGNhc2UgIiR7cGlkfSIgaW4KICAgICcnfCpbITAtOV0qKSBmYWlsICIke2xhYmVsfSBQSUQgZmlsZSBpcyBpbnZhbGlkOiAke3BpZDotPGVtcHR5Pn0iIDs7CiAgZXNhYwogIHByb2Nlc3NfaXNfYWxpdmUgIiR7cGlkfSIgfHwgZmFpbCAiJHtsYWJlbH0gcHJvY2VzcyAke3BpZH0gaXMgbm90IHJ1bm5pbmciCiAgcHJpbnRmICclc1xuJyAiJHtwaWR9Igp9Cgp3YWl0X2Zvcl9wcm9jZXNzZXNfc3RhcnRlZCgpIHsKICBsb2NhbCBhdHRlbXB0cz0wCiAgd2hpbGUgWyAiJHthdHRlbXB0c30iIC1sdCA4MCBdOyBkbwogICAgaWYgZ3JlcCAtRnEgJ1tmbi1rbm9ja10gc2VydmljZSBwcm9jZXNzZXMgc3RhcnRlZDsgd2FpdGluZyBmb3IgYXBwbGljYXRpb24gcmVhZGluZXNzJyAiJHtMT0dfRklMRX0iIDI+L2Rldi9udWxsOyB0aGVuCiAgICAgIHJldHVybiAwCiAgICBmaQogICAgcHJvY2Vzc19pc19hbGl2ZSAiJHtTVVBFUlZJU09SX1BJRH0iIHx8IGZhaWwgJ2VudHJ5cG9pbnQgZXhpdGVkIGJlZm9yZSByZXBvcnRpbmcgY2hpbGQgc3RhcnR1cCcKICAgIGF0dGVtcHRzPSQoKGF0dGVtcHRzICsgMSkpCiAgICBzbGVlcCAwLjEKICBkb25lCiAgZmFpbCAnZW50cnlwb2ludCBkaWQgbm90IHJlcG9ydCBjaGlsZCBzdGFydHVwIHdpdGhpbiA4IHNlY29uZHMnCn0KCndhaXRfZm9yX2FwcGxpY2F0aW9uX3JlYWR5KCkgewogIGxvY2FsIGF0dGVtcHRzPTAKICB3aGlsZSBbICIke2F0dGVtcHRzfSIgLWx0IDQwIF07IGRvCiAgICBpZiBncmVwIC1GcSAnW2ZuLWtub2NrXSBzZXJ2aWNlcyBhcmUgcmVhZHknICIke0xPR19GSUxFfSIgMj4vZGV2L251bGw7IHRoZW4KICAgICAgcmV0dXJuIDAKICAgIGZpCiAgICBwcm9jZXNzX2lzX2FsaXZlICIke1NVUEVSVklTT1JfUElEfSIgfHwgZmFpbCAnZW50cnlwb2ludCBleGl0ZWQgYmVmb3JlIGFwcGxpY2F0aW9uIHJlYWRpbmVzcycKICAgIGF0dGVtcHRzPSQoKGF0dGVtcHRzICsgMSkpCiAgICBzbGVlcCAwLjEKICBkb25lCiAgZmFpbCAnZW50cnlwb2ludCBkaWQgbm90IHJlcG9ydCBtYXJrZXItYmFja2VkIHJlYWRpbmVzcycKfQoKd2FpdF9mb3JfZXhpdCgpIHsKICBsb2NhbCBwaWQ9IiQxIgogIGxvY2FsIGxhYmVsPSIkMiIKICBsb2NhbCBhdHRlbXB0cz0wCiAgd2hpbGUgcHJvY2Vzc19pc19hbGl2ZSAiJHtwaWR9IiAmJiBbICIke2F0dGVtcHRzfSIgLWx0IDgwIF07IGRvCiAgICBhdHRlbXB0cz0kKChhdHRlbXB0cyArIDEpKQogICAgc2xlZXAgMC4xCiAgZG9uZQogICEgcHJvY2Vzc19pc19hbGl2ZSAiJHtwaWR9IiB8fCBmYWlsICIke2xhYmVsfSBwcm9jZXNzICR7cGlkfSBkaWQgbm90IHN0b3AiCn0KCm1rZGlyIC1wIFwKICAiJHtBUFBfSE9NRX0vYmluIiBcCiAgIiR7QVBQX0hPTUV9L3VpL3d3dyIgXAogICIke0FQUF9IT01FfS9zZXJ2ZXItYXV0aC12aWV3L2Rpc3QiIFwKICAiJHtBUFBfSE9NRX0vc2VydmVyL3NlcnZlci1hZG1pbi9yZXNvdXJjZXMiIFwKICAiJHtEQVRBX0RJUn0iCjogPiAiJHtBUFBfSE9NRX0vc2VydmVyL3NlcnZlci1hZG1pbi9yZXNvdXJjZXMvYWNtZXNoLnppcCIKCmNhdCA+ICIke1dPUktfRElSfS9mYWtlLXNlcnZpY2UiIDw8J1NIJwojIS9iaW4vc2gKdHJhcCAnZXhpdCAwJyBJTlQgVEVSTQp3aGlsZSA6OyBkbwogIHNsZWVwIDEKZG9uZQpTSApjaG1vZCA3NTUgIiR7V09SS19ESVJ9L2Zha2Utc2VydmljZSIKY3AgIiR7V09SS19ESVJ9L2Zha2Utc2VydmljZSIgIiR7QVBQX0hPTUV9L2Jpbi9nby1yZWF1dGgtcHJveHkiCmNwICIke1dPUktfRElSfS9mYWtlLXNlcnZpY2UiICIke0FQUF9IT01FfS9iaW4vc2VydmVyLWFkbWluLXJzIgoKRk5fS05PQ0tfQVBQX0hPTUU9IiR7QVBQX0hPTUV9IiBcCkZOX0tOT0NLX0RBVEFfRElSPSIke0RBVEFfRElSfSIgXApGTl9LTk9DS19HQVRFV0FZX0NPTkZJR19ESVI9IiR7REFUQV9ESVJ9L2dhdGV3YXkiIFwKICBiYXNoICIke0VOVFJZUE9JTlR9IiA+ICIke0xPR19GSUxFfSIgMj4mMSAmClNVUEVSVklTT1JfUElEPSQhCgp3YWl0X2Zvcl9wcm9jZXNzZXNfc3RhcnRlZAppZiBncmVwIC1GcSAnW2ZuLWtub2NrXSBzZXJ2aWNlcyBhcmUgcmVhZHknICIke0xPR19GSUxFfSI7IHRoZW4KICBmYWlsICdlbnRyeXBvaW50IHJlcG9ydGVkIGFwcGxpY2F0aW9uIHJlYWRpbmVzcyBmcm9tIHByb2Nlc3MgbGl2ZW5lc3MgYWxvbmUnCmZpCkdBVEVXQVlfUElEPSIkKHJlYWRfcnVubmluZ19waWQgIiR7REFUQV9ESVJ9L3J1bnRpbWUvcGlkcy9nYXRld2F5LnBpZCIgJ2dhdGV3YXknKSIKTUFOQUdFTUVOVF9QSUQ9IiQocmVhZF9ydW5uaW5nX3BpZCAiJHtEQVRBX0RJUn0vcnVudGltZS9waWRzL21hbmFnZW1lbnQucGlkIiAnbWFuYWdlbWVudCcpIgpwcm9jZXNzX2NtZGxpbmVfY29udGFpbnMgIiR7TUFOQUdFTUVOVF9QSUR9IiAnc2VydmVyLWFkbWluLXJzJyB8fCBcCiAgZmFpbCAnbWFuYWdlbWVudCBQSUQgZG9lcyBub3QgaWRlbnRpZnkgdGhlIG5hdGl2ZSBiYWNrZW5kIHByb2Nlc3MnClsgIiQoY2F0ICIke0RBVEFfRElSfS9mbi1rbm9jay5waWQiKSIgPSAiJHtTVVBFUlZJU09SX1BJRH0iIF0gfHwgXAogIGZhaWwgJ2VudHJ5cG9pbnQgZGlkIG5vdCByZWdpc3RlciBpdHMgYWN0dWFsIHN1cGVydmlzb3IgUElEJwo6ID4gIiR7REFUQV9ESVJ9L3J1bnRpbWUucmVhZHkiCndhaXRfZm9yX2FwcGxpY2F0aW9uX3JlYWR5CgpraWxsIC1URVJNICIke1NVUEVSVklTT1JfUElEfSIKc2V0ICtlCndhaXQgIiR7U1VQRVJWSVNPUl9QSUR9IgpleGl0X3N0YXR1cz0kPwpzZXQgLWUKU1VQRVJWSVNPUl9QSUQ9IiIKClsgIiR7ZXhpdF9zdGF0dXN9IiAtZXEgMCBdIHx8IGZhaWwgImVudHJ5cG9pbnQgZXhpdGVkIHdpdGggc3RhdHVzICR7ZXhpdF9zdGF0dXN9IGFmdGVyIFNJR1RFUk0iCndhaXRfZm9yX2V4aXQgIiR7R0FURVdBWV9QSUR9IiAnZ2F0ZXdheScKd2FpdF9mb3JfZXhpdCAiJHtNQU5BR0VNRU5UX1BJRH0iICdtYW5hZ2VtZW50JwpbICEgLWUgIiR7REFUQV9ESVJ9L3J1bnRpbWUvcGlkcy9nYXRld2F5LnBpZCIgXSB8fCBmYWlsICdnYXRld2F5IFBJRCBmaWxlIHJlbWFpbmVkIGFmdGVyIHNodXRkb3duJwpbICEgLWUgIiR7REFUQV9ESVJ9L3J1bnRpbWUvcGlkcy9tYW5hZ2VtZW50LnBpZCIgXSB8fCBmYWlsICdtYW5hZ2VtZW50IFBJRCBmaWxlIHJlbWFpbmVkIGFmdGVyIHNodXRkb3duJwpbICEgLWUgIiR7REFUQV9ESVJ9L2ZuLWtub2NrLnBpZCIgXSB8fCBmYWlsICdzdXBlcnZpc29yIFBJRCBmaWxlIHJlbWFpbmVkIGFmdGVyIHNodXRkb3duJwpbICEgLWUgIiR7REFUQV9ESVJ9L3J1bnRpbWUucmVhZHkiIF0gfHwgZmFpbCAncmVhZGluZXNzIG1hcmtlciByZW1haW5lZCBhZnRlciBzaHV0ZG93bicKZ3JlcCAtRnEgJyJldmVudCI6InN0b3BfcmVxdWVzdGVkIicgIiR7REFUQV9ESVJ9L3J1bnRpbWUvbG9ncy9zdXBlcnZpc29yLmpzb25sIiB8fCBcCiAgZmFpbCAnc3VwZXJ2aXNvciBzdG9wIGV2ZW50IHdhcyBub3QgcmVjb3JkZWQnCmlmIGdyZXAgLUVxICd1bmJvdW5kIHZhcmlhYmxlfG1pc3NpbmcgYXJndW1lbnQgdG8gLj8tZXhlY3xubyB0ZXJtaW5hdGluZycgIiR7TE9HX0ZJTEV9IjsgdGhlbgogIGZhaWwgJ2VudHJ5cG9pbnQgbG9nIGNvbnRhaW5zIGEgc2hlbGwgb3IgZmluZCBleGVjdXRpb24gZXJyb3InCmZpCgpwcmludGYgJ1t0ZXN0LXN5bm9sb2d5LWVudHJ5cG9pbnRdIHJlYWwgZW50cnlwb2ludCBzdGFydHVwLCBQSUQgdHJhY2tpbmcsIGFuZCBzaHV0ZG93biBwYXNzZWRcbicK
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+ENTRYPOINT="${ROOT_DIR}/apps/fn-knock-synology/package/bin/fn-knock-entrypoint"
+WORK_DIR="$(mktemp -d "${ROOT_DIR}/dist/synology-entrypoint-test.XXXXXX")"
+APP_HOME="${WORK_DIR}/target"
+DATA_DIR="${WORK_DIR}/var"
+LOG_FILE="${WORK_DIR}/entrypoint.log"
+SUPERVISOR_PID=""
+GATEWAY_PID=""
+MANAGEMENT_PID=""
+
+process_is_alive() {
+  local pid="$1"
+  kill -0 "${pid}" 2>/dev/null
+}
+
+process_cmdline_contains() {
+  local pid="$1" expected="$2"
+  if [ -r "/proc/${pid}/cmdline" ]; then
+    tr '\000' ' ' < "/proc/${pid}/cmdline" | grep -Fq "${expected}"
+  else
+    ps -o command= -p "${pid}" 2>/dev/null | grep -Fq "${expected}"
+  fi
+}
+
+terminate_if_running() {
+  local pid="${1:-}"
+  if [ -n "${pid}" ] && process_is_alive "${pid}"; then
+    kill -TERM "${pid}" 2>/dev/null || true
+  fi
+}
+
+cleanup() {
+  trap - EXIT INT TERM
+  terminate_if_running "${SUPERVISOR_PID}"
+  terminate_if_running "${MANAGEMENT_PID}"
+  terminate_if_running "${GATEWAY_PID}"
+  [ -n "${SUPERVISOR_PID}" ] && wait "${SUPERVISOR_PID}" 2>/dev/null || true
+  rm -rf "${WORK_DIR}"
+}
+trap cleanup EXIT INT TERM
+
+fail() {
+  printf '[test-synology-entrypoint] ERROR: %s\n' "$*" >&2
+  if [ -f "${LOG_FILE}" ]; then
+    sed -n '1,160p' "${LOG_FILE}" >&2
+  fi
+  exit 1
+}
+
+read_running_pid() {
+  local path="$1"
+  local label="$2"
+  local pid
+
+  [ -s "${path}" ] || fail "${label} PID file was not created"
+  pid="$(tr -d '\r\n' < "${path}")"
+  case "${pid}" in
+    ''|*[!0-9]*) fail "${label} PID file is invalid: ${pid:-<empty>}" ;;
+  esac
+  process_is_alive "${pid}" || fail "${label} process ${pid} is not running"
+  printf '%s\n' "${pid}"
+}
+
+wait_for_processes_started() {
+  local attempts=0
+  while [ "${attempts}" -lt 80 ]; do
+    if grep -Fq '[fn-knock] service processes started; waiting for application readiness' "${LOG_FILE}" 2>/dev/null; then
+      return 0
+    fi
+    process_is_alive "${SUPERVISOR_PID}" || fail 'entrypoint exited before reporting child startup'
+    attempts=$((attempts + 1))
+    sleep 0.1
+  done
+  fail 'entrypoint did not report child startup within 8 seconds'
+}
+
+wait_for_application_ready() {
+  local attempts=0
+  while [ "${attempts}" -lt 40 ]; do
+    if grep -Fq '[fn-knock] services are ready' "${LOG_FILE}" 2>/dev/null; then
+      return 0
+    fi
+    process_is_alive "${SUPERVISOR_PID}" || fail 'entrypoint exited before application readiness'
+    attempts=$((attempts + 1))
+    sleep 0.1
+  done
+  fail 'entrypoint did not report marker-backed readiness'
+}
+
+wait_for_exit() {
+  local pid="$1"
+  local label="$2"
+  local attempts=0
+  while process_is_alive "${pid}" && [ "${attempts}" -lt 80 ]; do
+    attempts=$((attempts + 1))
+    sleep 0.1
+  done
+  ! process_is_alive "${pid}" || fail "${label} process ${pid} did not stop"
+}
+
+mkdir -p \
+  "${APP_HOME}/bin" \
+  "${APP_HOME}/ui/www" \
+  "${APP_HOME}/server-auth-view/dist" \
+  "${APP_HOME}/server/server-admin/resources" \
+  "${DATA_DIR}"
+: > "${APP_HOME}/server/server-admin/resources/acmesh.zip"
+
+cat > "${WORK_DIR}/fake-service" <<'SH'
+#!/bin/sh
+trap 'exit 0' INT TERM
+while :; do
+  sleep 1
+done
+SH
+chmod 755 "${WORK_DIR}/fake-service"
+cp "${WORK_DIR}/fake-service" "${APP_HOME}/bin/go-reauth-proxy"
+cp "${WORK_DIR}/fake-service" "${APP_HOME}/bin/server-admin-rs"
+
+FN_KNOCK_APP_HOME="${APP_HOME}" \
+FN_KNOCK_DATA_DIR="${DATA_DIR}" \
+FN_KNOCK_GATEWAY_CONFIG_DIR="${DATA_DIR}/gateway" \
+  bash "${ENTRYPOINT}" > "${LOG_FILE}" 2>&1 &
+SUPERVISOR_PID=$!
+
+wait_for_processes_started
+if grep -Fq '[fn-knock] services are ready' "${LOG_FILE}"; then
+  fail 'entrypoint reported application readiness from process liveness alone'
+fi
+GATEWAY_PID="$(read_running_pid "${DATA_DIR}/runtime/pids/gateway.pid" 'gateway')"
+MANAGEMENT_PID="$(read_running_pid "${DATA_DIR}/runtime/pids/management.pid" 'management')"
+process_cmdline_contains "${MANAGEMENT_PID}" 'server-admin-rs' || \
+  fail 'management PID does not identify the native backend process'
+[ "$(cat "${DATA_DIR}/fn-knock.pid")" = "${SUPERVISOR_PID}" ] || \
+  fail 'entrypoint did not register its actual supervisor PID'
+: > "${DATA_DIR}/runtime.ready"
+wait_for_application_ready
+
+kill -TERM "${SUPERVISOR_PID}"
+set +e
+wait "${SUPERVISOR_PID}"
+exit_status=$?
+set -e
+SUPERVISOR_PID=""
+
+[ "${exit_status}" -eq 0 ] || fail "entrypoint exited with status ${exit_status} after SIGTERM"
+wait_for_exit "${GATEWAY_PID}" 'gateway'
+wait_for_exit "${MANAGEMENT_PID}" 'management'
+[ ! -e "${DATA_DIR}/runtime/pids/gateway.pid" ] || fail 'gateway PID file remained after shutdown'
+[ ! -e "${DATA_DIR}/runtime/pids/management.pid" ] || fail 'management PID file remained after shutdown'
+[ ! -e "${DATA_DIR}/fn-knock.pid" ] || fail 'supervisor PID file remained after shutdown'
+[ ! -e "${DATA_DIR}/runtime.ready" ] || fail 'readiness marker remained after shutdown'
+grep -Fq '"event":"stop_requested"' "${DATA_DIR}/runtime/logs/supervisor.jsonl" || \
+  fail 'supervisor stop event was not recorded'
+if grep -Eq 'unbound variable|missing argument to .?-exec|no terminating' "${LOG_FILE}"; then
+  fail 'entrypoint log contains a shell or find execution error'
+fi
+
+printf '[test-synology-entrypoint] real entrypoint startup, PID tracking, and shutdown passed\n'

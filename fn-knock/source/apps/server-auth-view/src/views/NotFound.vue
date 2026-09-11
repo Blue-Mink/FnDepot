@@ -1,1 +1,8 @@
-PHRlbXBsYXRlPgogIDxtYWluIGNsYXNzPSJhdXRoLXNhZmUtc2hlbGwgZ3JpZCBwbGFjZS1pdGVtcy1jZW50ZXIgYmctYmFja2dyb3VuZCI+CiAgICA8ZGl2IGNsYXNzPSJ0ZXh0LWNlbnRlciI+CiAgICAgIDxoMSBjbGFzcz0idGV4dC01eGwgZm9udC1zZW1pYm9sZCB0cmFja2luZy10aWdodCI+NDA0PC9oMT4KICAgICAgPHAgY2xhc3M9Im10LTMgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPlBhZ2Ugbm90IGZvdW5kPC9wPgogICAgPC9kaXY+CiAgPC9tYWluPgo8L3RlbXBsYXRlPgo=
+<template>
+  <main class="auth-safe-shell grid place-items-center bg-background">
+    <div class="text-center">
+      <h1 class="text-5xl font-semibold tracking-tight">404</h1>
+      <p class="mt-3 text-sm text-muted-foreground">Page not found</p>
+    </div>
+  </main>
+</template>

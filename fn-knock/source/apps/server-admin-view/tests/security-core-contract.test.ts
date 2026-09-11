@@ -1,1 +1,126 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7CmNvbnN0IGlzR2VuZXJhdGVkQ29udHJhY3RTb3VyY2UgPSAoc291cmNlOiB1bmtub3duKSA9PgogIHNvdXJjZSA9PT0gInV0b2lwYSIgfHwgc291cmNlID09PSAidXRvaXBhLWRvbWFpbiI7Cgpjb25zdCBjb250cmFjdCA9IEpTT04ucGFyc2UoCiAgcmVhZFNvdXJjZSgiLi4vLi4vLi4vcGFja2FnZXMvYXBpLWNvbnRyYWN0L29wZW5hcGkuanNvbiIpLAopIGFzIHsKICBjb21wb25lbnRzOiB7CiAgICBzY2hlbWFzOiBSZWNvcmQ8CiAgICAgIHN0cmluZywKICAgICAgewogICAgICAgIHByb3BlcnRpZXM/OiBSZWNvcmQ8CiAgICAgICAgICBzdHJpbmcsCiAgICAgICAgICB7CiAgICAgICAgICAgIGl0ZW1zPzogeyBpdGVtcz86IGJvb2xlYW47IHByZWZpeEl0ZW1zPzogdW5rbm93bltdIH07CiAgICAgICAgICB9CiAgICAgICAgPjsKICAgICAgICByZXF1aXJlZD86IHN0cmluZ1tdOwogICAgICB9CiAgICA+OwogIH07CiAgcGF0aHM6IFJlY29yZDwKICAgIHN0cmluZywKICAgIFJlY29yZDxzdHJpbmcsIHsgIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIj86IHN0cmluZyB9PgogID47Cn07CgpkZXNjcmliZSgiY29yZSBzZWN1cml0eSBBUEkgY29udHJhY3QiLCAoKSA9PiB7CiAgaXQoImtlZXBzIG92ZXJ2aWV3LCBzY2FubmVyLCBhbmQgZ2VuZXJhbCBibGFja2xpc3Qgb3BlcmF0aW9ucyB0eXBlZCIsICgpID0+IHsKICAgIGZvciAoY29uc3QgW21ldGhvZCwgcGF0aF0gb2YgWwogICAgICBbImdldCIsICIvYXBpL2FkbWluL3NlY3VyaXR5L292ZXJ2aWV3Il0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vc2Nhbm5lci9zZXR0aW5ncyJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9zY2FubmVyL3NldHRpbmdzIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vc2Nhbm5lci9wYXRoLXdoaXRlbGlzdCJdLAogICAgICBbInB1dCIsICIvYXBpL2FkbWluL3NjYW5uZXIvcGF0aC13aGl0ZWxpc3QiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vc2Nhbm5lci9wYXRoLXdoaXRlbGlzdC9mYWxzZS1wb3NpdGl2ZSJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL3NjYW5uZXIvYmxhY2tsaXN0Il0sCiAgICAgIFsiZGVsZXRlIiwgIi9hcGkvYWRtaW4vc2Nhbm5lci9ibGFja2xpc3QiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9zY2FubmVyL2JsYWNrbGlzdC97aXB9Il0sCiAgICAgIFsiZGVsZXRlIiwgIi9hcGkvYWRtaW4vc2Nhbm5lci9ibGFja2xpc3Qve2lwfSJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL2dlbmVyYWwtYmxhY2tsaXN0Il0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2dlbmVyYWwtYmxhY2tsaXN0Il0sCiAgICAgIFsiZGVsZXRlIiwgIi9hcGkvYWRtaW4vZ2VuZXJhbC1ibGFja2xpc3QiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vZ2VuZXJhbC1ibGFja2xpc3Qvc3RhdHVzIl0sCiAgICAgIFsiZGVsZXRlIiwgIi9hcGkvYWRtaW4vZ2VuZXJhbC1ibGFja2xpc3Qve2lwfSJdLAogICAgXSBhcyBjb25zdCkgewogICAgICBhc3NlcnQub2soCiAgICAgICAgaXNHZW5lcmF0ZWRDb250cmFjdFNvdXJjZSgKICAgICAgICAgIGNvbnRyYWN0LnBhdGhzW3BhdGhdPy5bbWV0aG9kXT8uWyJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSJdLAogICAgICAgICksCiAgICAgICAgYCR7bWV0aG9kLnRvVXBwZXJDYXNlKCl9ICR7cGF0aH1gLAogICAgICApOwogICAgfQogIH0pOwoKICBpdCgic2VwYXJhdGVzIHNjYW5uZXIgd3JpdGVzIGFuZCBtb2RlbHMgc3RhYmxlIHJlc3BvbnNlIGZpZWxkcyIsICgpID0+IHsKICAgIGNvbnN0IHNjYW5uZXIgPSBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuU2Nhbm5lclNldHRpbmdzRGF0YS5wcm9wZXJ0aWVzOwogICAgZm9yIChjb25zdCBmaWVsZCBvZiBbCiAgICAgICJjaWRyRXhlbXB0aW9uUG9saWN5SWQiLAogICAgICAiY2lkckV4ZW1wdGlvblNvdXJjZUNpZHJDb3VudCIsCiAgICAgICJjaWRyRXhlbXB0aW9uUmFuZ2VDb3VudCIsCiAgICBdKSB7CiAgICAgIGFzc2VydC5vayhzY2FubmVyPy5bZmllbGRdLCBmaWVsZCk7CiAgICB9CgogICAgY29uc3QgdXBkYXRlID0KICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLlNjYW5uZXJTZXR0aW5nc1VwZGF0ZURhdGEucHJvcGVydGllczsKICAgIGZvciAoY29uc3QgZmllbGQgb2YgWwogICAgICAid2luZG93U2Vjb25kcyIsCiAgICAgICJjaWRyRXhlbXB0aW9uUG9saWN5SWQiLAogICAgICAiY2lkckV4ZW1wdGlvblNvdXJjZUNpZHJDb3VudCIsCiAgICAgICJjaWRyRXhlbXB0aW9uUmFuZ2VDb3VudCIsCiAgICBdKSB7CiAgICAgIGFzc2VydC5lcXVhbCh1cGRhdGU/LltmaWVsZF0sIHVuZGVmaW5lZCwgZmllbGQpOwogICAgfQoKICAgIGNvbnN0IHJlcXVpcmVkID0KICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLkdlbmVyYWxCbGFja2xpc3RSZWNvcmREYXRhLnJlcXVpcmVkID8/IFtdOwogICAgZm9yIChjb25zdCBmaWVsZCBvZiBbInNvdXJjZSIsICJjb21tZW50IiwgImNyZWF0ZWRfYXQiLCAidXBkYXRlZF9hdCJdKSB7CiAgICAgIGFzc2VydC5vayhyZXF1aXJlZC5pbmNsdWRlcyhmaWVsZCksIGZpZWxkKTsKICAgIH0KCiAgICBjb25zdCBwYXRoV2hpdGVsaXN0UmVxdWlyZWQgPQogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuU2Nhbm5lclBhdGhXaGl0ZWxpc3REYXRhLnJlcXVpcmVkID8/IFtdOwogICAgZm9yIChjb25zdCBmaWVsZCBvZiBbInBhdGhzIiwgImRlZmF1bHRQYXRocyJdKSB7CiAgICAgIGFzc2VydC5vayhwYXRoV2hpdGVsaXN0UmVxdWlyZWQuaW5jbHVkZXMoZmllbGQpLCBmaWVsZCk7CiAgICB9CgogICAgY29uc3QgZmFsc2VQb3NpdGl2ZVJlcXVpcmVkID0KICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLlNjYW5uZXJGYWxzZVBvc2l0aXZlUmVzdWx0RGF0YS5yZXF1aXJlZCA/PyBbXTsKICAgIGZvciAoY29uc3QgZmllbGQgb2YgWyJpcCIsICJwYXRoIiwgImFkZGVkIiwgInVuYmxvY2tlZCJdKSB7CiAgICAgIGFzc2VydC5vayhmYWxzZVBvc2l0aXZlUmVxdWlyZWQuaW5jbHVkZXMoZmllbGQpLCBmaWVsZCk7CiAgICB9CgogICAgY29uc3QgcG9pbnQgPQogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuU2VjdXJpdHlPdmVydmlld1Nlcmllc0RhdGEucHJvcGVydGllcwogICAgICAgID8uZmFpbGVkTG9naW5zLml0ZW1zOwogICAgYXNzZXJ0LmVxdWFsKHBvaW50Py5pdGVtcywgZmFsc2UpOwogICAgYXNzZXJ0LmVxdWFsKHBvaW50Py5wcmVmaXhJdGVtcz8ubGVuZ3RoLCAyKTsKICB9KTsKCiAgaXQoImRlcml2ZXMgZnJvbnRlbmQgbW9kZWxzIGFuZCByZXF1ZXN0IGJvdW5kYXJpZXMgZnJvbSBnZW5lcmF0ZWQgdHlwZXMiLCAoKSA9PiB7CiAgICBjb25zdCBhcGkgPSByZWFkU291cmNlKCIuLi9zcmMvbGliL2FwaS9zZWN1cml0eS50cyIpOwogICAgY29uc3QgdHlwZXMgPSByZWFkU291cmNlKCIuLi9zcmMvdHlwZXMvZ2F0ZXdheS50cyIpOwogICAgY29uc3QgZ2VuZXJhbFZpZXcgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3Nlc3Npb24tbWFuYWdlbWVudC9HZW5lcmFsQmxhY2tsaXN0VGFiLnZ1ZSIsCiAgICApOwoKICAgIGFzc2VydC5tYXRjaChhcGksIC9TY2FubmVyU2V0dGluZ3NEYXRhL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL1NjYW5uZXJQYXRoV2hpdGVsaXN0RGF0YS91KTsKICAgIGFzc2VydC5tYXRjaChhcGksIC9TY2FubmVyRmFsc2VQb3NpdGl2ZVJlc3VsdERhdGEvdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvR2VuZXJhbEJsYWNrbGlzdFJlY29yZERhdGEvdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvb3BlcmF0aW9ucyBhcyBBcGlDb250cmFjdE9wZXJhdGlvbnMvdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvc2F0aXNmaWVzIFNjYW5uZXJCbGFja2xpc3RRdWVyeS91KTsKICAgIGFzc2VydC5tYXRjaChhcGksIC9zYXRpc2ZpZXMgR2VuZXJhbEJsYWNrbGlzdEFkZEJvZHkvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKGFwaSwgL2V4cG9ydCB0eXBlIFNjYW5uZXJTZXR0aW5ncyA9IFx7L3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChhcGksIC9leHBvcnQgdHlwZSBHZW5lcmFsQmxhY2tsaXN0UmVjb3JkID0gXHsvdSk7CiAgICBhc3NlcnQubWF0Y2godHlwZXMsIC9TZWN1cml0eU92ZXJ2aWV3RGF0YSJcXS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goZ2VuZXJhbFZpZXcsIC9yZWNvcmRcLmlwTG9jYXRpb24vdSk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+const isGeneratedContractSource = (source: unknown) =>
+  source === "utoipa" || source === "utoipa-domain";
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  components: {
+    schemas: Record<
+      string,
+      {
+        properties?: Record<
+          string,
+          {
+            items?: { items?: boolean; prefixItems?: unknown[] };
+          }
+        >;
+        required?: string[];
+      }
+    >;
+  };
+  paths: Record<
+    string,
+    Record<string, { "x-fn-knock-contract-source"?: string }>
+  >;
+};
+
+describe("core security API contract", () => {
+  it("keeps overview, scanner, and general blacklist operations typed", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/security/overview"],
+      ["get", "/api/admin/scanner/settings"],
+      ["post", "/api/admin/scanner/settings"],
+      ["get", "/api/admin/scanner/path-whitelist"],
+      ["put", "/api/admin/scanner/path-whitelist"],
+      ["post", "/api/admin/scanner/path-whitelist/false-positive"],
+      ["get", "/api/admin/scanner/blacklist"],
+      ["delete", "/api/admin/scanner/blacklist"],
+      ["get", "/api/admin/scanner/blacklist/{ip}"],
+      ["delete", "/api/admin/scanner/blacklist/{ip}"],
+      ["get", "/api/admin/general-blacklist"],
+      ["post", "/api/admin/general-blacklist"],
+      ["delete", "/api/admin/general-blacklist"],
+      ["post", "/api/admin/general-blacklist/status"],
+      ["delete", "/api/admin/general-blacklist/{ip}"],
+    ] as const) {
+      assert.ok(
+        isGeneratedContractSource(
+          contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        ),
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("separates scanner writes and models stable response fields", () => {
+    const scanner = contract.components.schemas.ScannerSettingsData.properties;
+    for (const field of [
+      "cidrExemptionPolicyId",
+      "cidrExemptionSourceCidrCount",
+      "cidrExemptionRangeCount",
+    ]) {
+      assert.ok(scanner?.[field], field);
+    }
+
+    const update =
+      contract.components.schemas.ScannerSettingsUpdateData.properties;
+    for (const field of [
+      "windowSeconds",
+      "cidrExemptionPolicyId",
+      "cidrExemptionSourceCidrCount",
+      "cidrExemptionRangeCount",
+    ]) {
+      assert.equal(update?.[field], undefined, field);
+    }
+
+    const required =
+      contract.components.schemas.GeneralBlacklistRecordData.required ?? [];
+    for (const field of ["source", "comment", "created_at", "updated_at"]) {
+      assert.ok(required.includes(field), field);
+    }
+
+    const pathWhitelistRequired =
+      contract.components.schemas.ScannerPathWhitelistData.required ?? [];
+    for (const field of ["paths", "defaultPaths"]) {
+      assert.ok(pathWhitelistRequired.includes(field), field);
+    }
+
+    const falsePositiveRequired =
+      contract.components.schemas.ScannerFalsePositiveResultData.required ?? [];
+    for (const field of ["ip", "path", "added", "unblocked"]) {
+      assert.ok(falsePositiveRequired.includes(field), field);
+    }
+
+    const point =
+      contract.components.schemas.SecurityOverviewSeriesData.properties
+        ?.failedLogins.items;
+    assert.equal(point?.items, false);
+    assert.equal(point?.prefixItems?.length, 2);
+  });
+
+  it("derives frontend models and request boundaries from generated types", () => {
+    const api = readSource("../src/lib/api/security.ts");
+    const types = readSource("../src/types/gateway.ts");
+    const generalView = readSource(
+      "../src/views/session-management/GeneralBlacklistTab.vue",
+    );
+
+    assert.match(api, /ScannerSettingsData/u);
+    assert.match(api, /ScannerPathWhitelistData/u);
+    assert.match(api, /ScannerFalsePositiveResultData/u);
+    assert.match(api, /GeneralBlacklistRecordData/u);
+    assert.match(api, /operations as ApiContractOperations/u);
+    assert.match(api, /satisfies ScannerBlacklistQuery/u);
+    assert.match(api, /satisfies GeneralBlacklistAddBody/u);
+    assert.doesNotMatch(api, /export type ScannerSettings = \{/u);
+    assert.doesNotMatch(api, /export type GeneralBlacklistRecord = \{/u);
+    assert.match(types, /SecurityOverviewData"\]/u);
+    assert.doesNotMatch(generalView, /record\.ipLocation/u);
+  });
+});

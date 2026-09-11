@@ -1,1 +1,160 @@
-aW1wb3J0IHR5cGUgewogIE5vdGlmaWNhdGlvblByb3ZpZGVyVHlwZSwKICBOb3RpZmljYXRpb25TY2hlbWFGaWVsZCwKfSBmcm9tICIuLi8uLi8uLi90eXBlcyI7CmltcG9ydCB7CiAgY29lcmNlV2ViaG9va0hlYWRlckVudHJpZXMsCiAgbm9ybWFsaXplV2ViaG9va0hlYWRlckVudHJpZXMsCn0gZnJvbSAiLi93ZWJob29rLWhlYWRlcnMiOwppbXBvcnQgewogIGNvZXJjZVdlYmhvb2tCb2R5Q29uZmlnLAogIG5vcm1hbGl6ZVdlYmhvb2tCb2R5Q29uZmlnLAogIHR5cGUgV2ViaG9va0JvZHlDb25zdHJhaW50cywKICB0eXBlIFdlYmhvb2tCb2R5U2NvcGUsCn0gZnJvbSAiLi93ZWJob29rLWJvZHkiOwoKY29uc3Qgd2ViaG9va0JvZHlTY29wZSA9IChmaWVsZDogTm90aWZpY2F0aW9uU2NoZW1hRmllbGQpOiBXZWJob29rQm9keVNjb3BlID0+CiAgKGZpZWxkLmNvbnN0cmFpbnRzIGFzIFdlYmhvb2tCb2R5Q29uc3RyYWludHMgfCB1bmRlZmluZWQpPy5zY29wZSA9PT0gInRhcmdldCIKICAgID8gInRhcmdldCIKICAgIDogInByb3ZpZGVyIjsKCmV4cG9ydCB0eXBlIFByb3ZpZGVyRGlhbG9nTW9kZSA9ICJjcmVhdGUiIHwgImVkaXQiOwoKZXhwb3J0IHR5cGUgRWRpdGFibGVQcm92aWRlckZvcm0gPSB7CiAgbmFtZTogc3RyaW5nOwogIHR5cGU6IE5vdGlmaWNhdGlvblByb3ZpZGVyVHlwZSB8ICIiOwogIGVuYWJsZWQ6IGJvb2xlYW47CiAgY29ubmVjdGlvbl9jb25maWc6IFJlY29yZDxzdHJpbmcsIHVua25vd24+Owp9OwoKZXhwb3J0IHR5cGUgUHJvdmlkZXJGb3JtUGF5bG9hZCA9IHsKICBuYW1lPzogc3RyaW5nOwogIHR5cGU6IE5vdGlmaWNhdGlvblByb3ZpZGVyVHlwZTsKICBlbmFibGVkOiBib29sZWFuOwogIGNvbm5lY3Rpb25fY29uZmlnOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPjsKfTsKCmNvbnN0IGVzY2FwZVJlZ0V4cCA9ICh2YWx1ZTogc3RyaW5nKSA9PgogIHZhbHVlLnJlcGxhY2UoL1suKis/XiR7fSgpfFtcXVxcXS9nLCAiXFwkJiIpOwoKZXhwb3J0IGNvbnN0IGNyZWF0ZUVkaXRhYmxlU2NoZW1hUmVjb3JkID0gKAogIGZpZWxkczogTm90aWZpY2F0aW9uU2NoZW1hRmllbGRbXSwKICBzb3VyY2U6IFJlY29yZDxzdHJpbmcsIHVua25vd24+ID0ge30sCikgPT4KICBmaWVsZHMucmVkdWNlPFJlY29yZDxzdHJpbmcsIHVua25vd24+PigoYWNjLCBmaWVsZCkgPT4gewogICAgY29uc3QgdmFsdWUgPSBzb3VyY2VbZmllbGQua2V5XTsKICAgIGlmIChmaWVsZC50eXBlID09PSAiaGVhZGVycyIpIHsKICAgICAgYWNjW2ZpZWxkLmtleV0gPSBjb2VyY2VXZWJob29rSGVhZGVyRW50cmllcyh2YWx1ZSk7CiAgICAgIHJldHVybiBhY2M7CiAgICB9CiAgICBpZiAoZmllbGQudHlwZSA9PT0gIndlYmhvb2tfYm9keSIpIHsKICAgICAgYWNjW2ZpZWxkLmtleV0gPSBjb2VyY2VXZWJob29rQm9keUNvbmZpZyh2YWx1ZSwgd2ViaG9va0JvZHlTY29wZShmaWVsZCkpOwogICAgICByZXR1cm4gYWNjOwogICAgfQogICAgaWYgKHZhbHVlID09PSB1bmRlZmluZWQgfHwgdmFsdWUgPT09IG51bGwpIHsKICAgICAgYWNjW2ZpZWxkLmtleV0gPQogICAgICAgIGZpZWxkLnR5cGUgPT09ICJib29sZWFuIgogICAgICAgICAgPyBCb29sZWFuKGZpZWxkLmRlZmF1bHRfdmFsdWUgPz8gZmFsc2UpCiAgICAgICAgICA6IChmaWVsZC5kZWZhdWx0X3ZhbHVlID8/ICIiKTsKICAgICAgcmV0dXJuIGFjYzsKICAgIH0KCiAgICBpZiAoZmllbGQudHlwZSA9PT0gImpzb24iICYmIHR5cGVvZiB2YWx1ZSA9PT0gIm9iamVjdCIpIHsKICAgICAgYWNjW2ZpZWxkLmtleV0gPSBKU09OLnN0cmluZ2lmeSh2YWx1ZSwgbnVsbCwgMik7CiAgICAgIHJldHVybiBhY2M7CiAgICB9CgogICAgYWNjW2ZpZWxkLmtleV0gPSB2YWx1ZTsKICAgIHJldHVybiBhY2M7CiAgfSwge30pOwoKZXhwb3J0IGNvbnN0IGJ1aWxkU2NoZW1hUGF5bG9hZCA9IChhcmdzOiB7CiAgZmllbGRzOiBOb3RpZmljYXRpb25TY2hlbWFGaWVsZFtdOwogIHZhbHVlOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPjsKICBlZGl0aW5nPzogYm9vbGVhbjsKICBjb25maWd1cmVkU2Vuc2l0aXZlRmllbGRzPzogc3RyaW5nW107Cn0pID0+IHsKICBjb25zdCBjb25maWd1cmVkU2Vuc2l0aXZlRmllbGRzID0gbmV3IFNldCgKICAgIGFyZ3MuY29uZmlndXJlZFNlbnNpdGl2ZUZpZWxkcyB8fCBbXSwKICApOwogIGNvbnN0IHBheWxvYWQ6IFJlY29yZDxzdHJpbmcsIHVua25vd24+ID0ge307CgogIGZvciAoY29uc3QgZmllbGQgb2YgYXJncy5maWVsZHMpIHsKICAgIGNvbnN0IHJhdyA9IGFyZ3MudmFsdWVbZmllbGQua2V5XTsKICAgIGlmIChmaWVsZC50eXBlID09PSAiaGVhZGVycyIpIHsKICAgICAgcGF5bG9hZFtmaWVsZC5rZXldID0gbm9ybWFsaXplV2ViaG9va0hlYWRlckVudHJpZXMocmF3KTsKICAgICAgY29udGludWU7CiAgICB9CiAgICBpZiAoZmllbGQudHlwZSA9PT0gIndlYmhvb2tfYm9keSIpIHsKICAgICAgcGF5bG9hZFtmaWVsZC5rZXldID0gbm9ybWFsaXplV2ViaG9va0JvZHlDb25maWcoCiAgICAgICAgcmF3LAogICAgICAgIHdlYmhvb2tCb2R5U2NvcGUoZmllbGQpLAogICAgICApOwogICAgICBjb250aW51ZTsKICAgIH0KICAgIGlmIChmaWVsZC5zZW5zaXRpdmUpIHsKICAgICAgY29uc3QgdGV4dCA9IFN0cmluZyhyYXcgPz8gIiIpLnRyaW0oKTsKICAgICAgaWYgKGFyZ3MuZWRpdGluZyAmJiBjb25maWd1cmVkU2Vuc2l0aXZlRmllbGRzLmhhcyhmaWVsZC5rZXkpICYmICF0ZXh0KSB7CiAgICAgICAgY29udGludWU7CiAgICAgIH0KICAgICAgaWYgKCF0ZXh0KSB7CiAgICAgICAgaWYgKGZpZWxkLnJlcXVpcmVkKSB7CiAgICAgICAgICBwYXlsb2FkW2ZpZWxkLmtleV0gPSAiIjsKICAgICAgICB9CiAgICAgICAgY29udGludWU7CiAgICAgIH0KICAgICAgcGF5bG9hZFtmaWVsZC5rZXldID0gdGV4dDsKICAgICAgY29udGludWU7CiAgICB9CgogICAgaWYgKHR5cGVvZiByYXcgPT09ICJzdHJpbmciKSB7CiAgICAgIGNvbnN0IHRyaW1tZWQgPSByYXcudHJpbSgpOwogICAgICBpZiAoIXRyaW1tZWQpIHsKICAgICAgICBpZiAoZmllbGQucmVxdWlyZWQpIHsKICAgICAgICAgIHBheWxvYWRbZmllbGQua2V5XSA9ICIiOwogICAgICAgIH0KICAgICAgICBjb250aW51ZTsKICAgICAgfQogICAgICBwYXlsb2FkW2ZpZWxkLmtleV0gPSB0cmltbWVkOwogICAgICBjb250aW51ZTsKICAgIH0KCiAgICBpZiAocmF3ID09PSB1bmRlZmluZWQgfHwgcmF3ID09PSBudWxsKSB7CiAgICAgIGlmIChmaWVsZC5yZXF1aXJlZCkgewogICAgICAgIHBheWxvYWRbZmllbGQua2V5XSA9ICIiOwogICAgICB9CiAgICAgIGNvbnRpbnVlOwogICAgfQoKICAgIHBheWxvYWRbZmllbGQua2V5XSA9IHJhdzsKICB9CgogIHJldHVybiBwYXlsb2FkOwp9OwoKZXhwb3J0IGNvbnN0IGJ1aWxkTmV4dFNlcXVlbnRpYWxOYW1lID0gKAogIGJhc2VMYWJlbDogc3RyaW5nLAogIGV4aXN0aW5nTmFtZXM6IHN0cmluZ1tdLAogIGZhbGxiYWNrTGFiZWwgPSAiVW50aXRsZWQiLAopID0+IHsKICBjb25zdCBub3JtYWxpemVkQmFzZSA9IGJhc2VMYWJlbC50cmltKCkgfHwgZmFsbGJhY2tMYWJlbDsKICBjb25zdCBwYXR0ZXJuID0gbmV3IFJlZ0V4cChgXiR7ZXNjYXBlUmVnRXhwKG5vcm1hbGl6ZWRCYXNlKX1cXHMrKFxcZCspJGApOwogIGNvbnN0IHVzZWRJbmRleGVzID0gbmV3IFNldDxudW1iZXI+KCk7CgogIGZvciAoY29uc3QgbmFtZSBvZiBleGlzdGluZ05hbWVzKSB7CiAgICBjb25zdCBtYXRjaCA9IG5hbWUudHJpbSgpLm1hdGNoKHBhdHRlcm4pOwogICAgaWYgKCFtYXRjaCkgY29udGludWU7CgogICAgY29uc3QgaW5kZXggPSBOdW1iZXIucGFyc2VJbnQobWF0Y2hbMV0gfHwgIiIsIDEwKTsKICAgIGlmIChOdW1iZXIuaXNGaW5pdGUoaW5kZXgpICYmIGluZGV4ID4gMCkgewogICAgICB1c2VkSW5kZXhlcy5hZGQoaW5kZXgpOwogICAgfQogIH0KCiAgbGV0IG5leHRJbmRleCA9IDE7CiAgd2hpbGUgKHVzZWRJbmRleGVzLmhhcyhuZXh0SW5kZXgpKSB7CiAgICBuZXh0SW5kZXggKz0gMTsKICB9CgogIHJldHVybiBgJHtub3JtYWxpemVkQmFzZX0gJHtuZXh0SW5kZXh9YDsKfTsK
+import type {
+  NotificationProviderType,
+  NotificationSchemaField,
+} from "../../../types";
+import {
+  coerceWebhookHeaderEntries,
+  normalizeWebhookHeaderEntries,
+} from "./webhook-headers";
+import {
+  coerceWebhookBodyConfig,
+  normalizeWebhookBodyConfig,
+  type WebhookBodyConstraints,
+  type WebhookBodyScope,
+} from "./webhook-body";
+
+const webhookBodyScope = (field: NotificationSchemaField): WebhookBodyScope =>
+  (field.constraints as WebhookBodyConstraints | undefined)?.scope === "target"
+    ? "target"
+    : "provider";
+
+export type ProviderDialogMode = "create" | "edit";
+
+export type EditableProviderForm = {
+  name: string;
+  type: NotificationProviderType | "";
+  enabled: boolean;
+  connection_config: Record<string, unknown>;
+};
+
+export type ProviderFormPayload = {
+  name?: string;
+  type: NotificationProviderType;
+  enabled: boolean;
+  connection_config: Record<string, unknown>;
+};
+
+const escapeRegExp = (value: string) =>
+  value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+export const createEditableSchemaRecord = (
+  fields: NotificationSchemaField[],
+  source: Record<string, unknown> = {},
+) =>
+  fields.reduce<Record<string, unknown>>((acc, field) => {
+    const value = source[field.key];
+    if (field.type === "headers") {
+      acc[field.key] = coerceWebhookHeaderEntries(value);
+      return acc;
+    }
+    if (field.type === "webhook_body") {
+      acc[field.key] = coerceWebhookBodyConfig(value, webhookBodyScope(field));
+      return acc;
+    }
+    if (value === undefined || value === null) {
+      acc[field.key] =
+        field.type === "boolean"
+          ? Boolean(field.default_value ?? false)
+          : (field.default_value ?? "");
+      return acc;
+    }
+
+    if (field.type === "json" && typeof value === "object") {
+      acc[field.key] = JSON.stringify(value, null, 2);
+      return acc;
+    }
+
+    acc[field.key] = value;
+    return acc;
+  }, {});
+
+export const buildSchemaPayload = (args: {
+  fields: NotificationSchemaField[];
+  value: Record<string, unknown>;
+  editing?: boolean;
+  configuredSensitiveFields?: string[];
+}) => {
+  const configuredSensitiveFields = new Set(
+    args.configuredSensitiveFields || [],
+  );
+  const payload: Record<string, unknown> = {};
+
+  for (const field of args.fields) {
+    const raw = args.value[field.key];
+    if (field.type === "headers") {
+      payload[field.key] = normalizeWebhookHeaderEntries(raw);
+      continue;
+    }
+    if (field.type === "webhook_body") {
+      payload[field.key] = normalizeWebhookBodyConfig(
+        raw,
+        webhookBodyScope(field),
+      );
+      continue;
+    }
+    if (field.sensitive) {
+      const text = String(raw ?? "").trim();
+      if (args.editing && configuredSensitiveFields.has(field.key) && !text) {
+        continue;
+      }
+      if (!text) {
+        if (field.required) {
+          payload[field.key] = "";
+        }
+        continue;
+      }
+      payload[field.key] = text;
+      continue;
+    }
+
+    if (typeof raw === "string") {
+      const trimmed = raw.trim();
+      if (!trimmed) {
+        if (field.required) {
+          payload[field.key] = "";
+        }
+        continue;
+      }
+      payload[field.key] = trimmed;
+      continue;
+    }
+
+    if (raw === undefined || raw === null) {
+      if (field.required) {
+        payload[field.key] = "";
+      }
+      continue;
+    }
+
+    payload[field.key] = raw;
+  }
+
+  return payload;
+};
+
+export const buildNextSequentialName = (
+  baseLabel: string,
+  existingNames: string[],
+  fallbackLabel = "Untitled",
+) => {
+  const normalizedBase = baseLabel.trim() || fallbackLabel;
+  const pattern = new RegExp(`^${escapeRegExp(normalizedBase)}\\s+(\\d+)$`);
+  const usedIndexes = new Set<number>();
+
+  for (const name of existingNames) {
+    const match = name.trim().match(pattern);
+    if (!match) continue;
+
+    const index = Number.parseInt(match[1] || "", 10);
+    if (Number.isFinite(index) && index > 0) {
+      usedIndexes.add(index);
+    }
+  }
+
+  let nextIndex = 1;
+  while (usedIndexes.has(nextIndex)) {
+    nextIndex += 1;
+  }
+
+  return `${normalizedBase} ${nextIndex}`;
+};

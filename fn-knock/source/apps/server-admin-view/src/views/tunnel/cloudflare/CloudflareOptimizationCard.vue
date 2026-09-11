@@ -1,1 +1,86 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgQ29uZmlnQ29sbGFwc2libGVDYXJkIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9Db25maWdDb2xsYXBzaWJsZUNhcmQudnVlIjsKaW1wb3J0IENsb3VkZmxhcmVPcHRpbWl6YXRpb25Eb21haW5zIGZyb20gIi4vQ2xvdWRmbGFyZU9wdGltaXphdGlvbkRvbWFpbnMudnVlIjsKaW1wb3J0IENsb3VkZmxhcmVPcHRpbWl6YXRpb25PdmVydmlldyBmcm9tICIuL0Nsb3VkZmxhcmVPcHRpbWl6YXRpb25PdmVydmlldy52dWUiOwppbXBvcnQgQ2xvdWRmbGFyZU9wdGltaXphdGlvblNjYW5SZXN1bHRzIGZyb20gIi4vQ2xvdWRmbGFyZU9wdGltaXphdGlvblNjYW5SZXN1bHRzLnZ1ZSI7CmltcG9ydCBDbG91ZGZsYXJlT3B0aW1pemF0aW9uU291cmNlU2V0dGluZ3MgZnJvbSAiLi9DbG91ZGZsYXJlT3B0aW1pemF0aW9uU291cmNlU2V0dGluZ3MudnVlIjsKaW1wb3J0IENsb3VkZmxhcmVPcHRpbWl6YXRpb25UZWNobmljYWxTdGF0dXMgZnJvbSAiLi9DbG91ZGZsYXJlT3B0aW1pemF0aW9uVGVjaG5pY2FsU3RhdHVzLnZ1ZSI7CmltcG9ydCB7IHVzZUNsb3VkZmxhcmVPcHRpbWl6YXRpb25DYXJkUHJlc2VudGF0aW9uIH0gZnJvbSAiLi91c2VDbG91ZGZsYXJlT3B0aW1pemF0aW9uQ2FyZFByZXNlbnRhdGlvbiI7CmltcG9ydCB0eXBlIHsgQ2xvdWRmbGFyZVR1bm5lbENvbnRyb2xsZXIgfSBmcm9tICIuL3VzZUNsb3VkZmxhcmVUdW5uZWxDb250cm9sbGVyIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8eyBjb250cm9sbGVyOiBDbG91ZGZsYXJlVHVubmVsQ29udHJvbGxlciB9PigpOwpjb25zdCB7CiAgYXBpVG9rZW5Db25maWd1cmVkLAogIGNvbmZpZ0xvYWRlZCwKICBpc0xvYWRpbmdNYW5hZ2VkU3RhdGUsCiAgb3B0aW1pemF0aW9uLAogIG9wdGltaXphdGlvbkFwcGxpZWQsCiAgb3B0aW1pemF0aW9uRW5hYmxlZCwKICB0LAp9ID0gcHJvcHMuY29udHJvbGxlcjsKY29uc3QgcHJlc2VudGF0aW9uID0gdXNlQ2xvdWRmbGFyZU9wdGltaXphdGlvbkNhcmRQcmVzZW50YXRpb24oCiAgcHJvcHMuY29udHJvbGxlciwKKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPENvbmZpZ0NvbGxhcHNpYmxlQ2FyZAogICAgdi1pZj0iCiAgICAgIGFwaVRva2VuQ29uZmlndXJlZCAmJgogICAgICAob3B0aW1pemF0aW9uRW5hYmxlZCB8fAogICAgICAgIG9wdGltaXphdGlvbkFwcGxpZWQgfHwKICAgICAgICBvcHRpbWl6YXRpb24/LmNhcGFiaWxpdHlQcm9iZT8uc3RhdHVzID09PSAndW5zdXBwb3J0ZWQnKQogICAgIgogICAgOnRpdGxlPSJ0KCdhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi50aXRsZScpIgogICAgOmNvbmZpZ3VyZWQ9Im9wdGltaXphdGlvbkFwcGxpZWQiCiAgICA6cmVhZHk9ImNvbmZpZ0xvYWRlZCAmJiAhaXNMb2FkaW5nTWFuYWdlZFN0YXRlIgogICAgOmVkaXQtbGFiZWw9InQoJ2FkbWluLmNsb3VkZmxhcmVUdW5uZWwubWFuYWdlZC52aWV3T3JDaGFuZ2UnKSIKICAgIGNvbGxhcHNlZC1jb250ZW50LWNsYXNzPSJtaW4taC1bNzZweF0gZmxleCBmbGV4LWNvbCBpdGVtcy1zdGFydCBnYXAtMyBzbTpoLVs0MHB4XSBzbTpmbGV4LXJvdyBzbTppdGVtcy1jZW50ZXIgc206anVzdGlmeS1iZXR3ZWVuIgogICAgc3VtbWFyeS1jbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgbWF4LXctZnVsbCB3aGl0ZXNwYWNlLW5vcm1hbCBicmVhay13b3JkcyBzbTp0cnVuY2F0ZSIKICAgIGV4cGFuZGVkLWNvbnRlbnQtY2xhc3M9InAtMCBzbTpwLTAiCiAgPgogICAgPHRlbXBsYXRlICNzdW1tYXJ5PgogICAgICB7ewogICAgICAgIG9wdGltaXphdGlvbkFwcGxpZWQKICAgICAgICAgID8gb3B0aW1pemF0aW9uPy5mYWxsYmFja0FjdGl2ZQogICAgICAgICAgICA/IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnN1bW1hcnlGYWxsYmFjayIpCiAgICAgICAgICAgIDogdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uc3VtbWFyeUFjdGl2ZSIsIHsKICAgICAgICAgICAgICAgIGNvdW50OiBwcmVzZW50YXRpb24ub3B0aW1pemVkRG9tYWluQ291bnQsCiAgICAgICAgICAgICAgICB0b3RhbDogcHJlc2VudGF0aW9uLm9wdGltaXphdGlvbk1hbmFnZWREb21haW5Db3VudCwKICAgICAgICAgICAgICAgIGlwOiBvcHRpbWl6YXRpb24/LnNlbGVjdGVkPy5pcCB8fCAiLSIsCiAgICAgICAgICAgICAgfSkKICAgICAgICAgIDogdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uc3VtbWFyeU5vdEFwcGxpZWQiKQogICAgICB9fQogICAgPC90ZW1wbGF0ZT4KCiAgICA8dGVtcGxhdGUgI2RlZmF1bHQ+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktNSBwLTQgc206cC02Ij4KICAgICAgICA8Q2xvdWRmbGFyZU9wdGltaXphdGlvbk92ZXJ2aWV3CiAgICAgICAgICA6Y29udHJvbGxlcj0iY29udHJvbGxlciIKICAgICAgICAgIDpwcmVzZW50YXRpb249InByZXNlbnRhdGlvbiIKICAgICAgICA+CiAgICAgICAgICA8dGVtcGxhdGUgI3NvdXJjZS1zZXR0aW5ncz4KICAgICAgICAgICAgPENsb3VkZmxhcmVPcHRpbWl6YXRpb25Tb3VyY2VTZXR0aW5ncyA6Y29udHJvbGxlcj0iY29udHJvbGxlciIgLz4KICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgPC9DbG91ZGZsYXJlT3B0aW1pemF0aW9uT3ZlcnZpZXc+CiAgICAgICAgPENsb3VkZmxhcmVPcHRpbWl6YXRpb25TY2FuUmVzdWx0cyA6Y29udHJvbGxlcj0iY29udHJvbGxlciIgLz4KICAgICAgICA8Q2xvdWRmbGFyZU9wdGltaXphdGlvbkRvbWFpbnMgOmNvbnRyb2xsZXI9ImNvbnRyb2xsZXIiIC8+CiAgICAgICAgPENsb3VkZmxhcmVPcHRpbWl6YXRpb25UZWNobmljYWxTdGF0dXMKICAgICAgICAgIDpjb250cm9sbGVyPSJjb250cm9sbGVyIgogICAgICAgICAgOnByZXNlbnRhdGlvbj0icHJlc2VudGF0aW9uIgogICAgICAgIC8+CiAgICAgIDwvZGl2PgogICAgPC90ZW1wbGF0ZT4KCiAgICA8dGVtcGxhdGUgI2FjdGlvbnM9InsgY29sbGFwc2UgfSI+CiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0iZmxleCBqdXN0aWZ5LWVuZCByb3VuZGVkLWItbGcgYm9yZGVyLXQgYmctbXV0ZWQvMzAgcC00IHNtOnB4LTYiCiAgICAgID4KICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0iY29sbGFwc2UiPgogICAgICAgICAge3sgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5jb2xsYXBzZSIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvZGl2PgogICAgPC90ZW1wbGF0ZT4KICA8L0NvbmZpZ0NvbGxhcHNpYmxlQ2FyZD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { Button } from "@/components/ui/button";
+import ConfigCollapsibleCard from "@admin-shared/components/ConfigCollapsibleCard.vue";
+import CloudflareOptimizationDomains from "./CloudflareOptimizationDomains.vue";
+import CloudflareOptimizationOverview from "./CloudflareOptimizationOverview.vue";
+import CloudflareOptimizationScanResults from "./CloudflareOptimizationScanResults.vue";
+import CloudflareOptimizationSourceSettings from "./CloudflareOptimizationSourceSettings.vue";
+import CloudflareOptimizationTechnicalStatus from "./CloudflareOptimizationTechnicalStatus.vue";
+import { useCloudflareOptimizationCardPresentation } from "./useCloudflareOptimizationCardPresentation";
+import type { CloudflareTunnelController } from "./useCloudflareTunnelController";
+
+const props = defineProps<{ controller: CloudflareTunnelController }>();
+const {
+  apiTokenConfigured,
+  configLoaded,
+  isLoadingManagedState,
+  optimization,
+  optimizationApplied,
+  optimizationEnabled,
+  t,
+} = props.controller;
+const presentation = useCloudflareOptimizationCardPresentation(
+  props.controller,
+);
+</script>
+
+<template>
+  <ConfigCollapsibleCard
+    v-if="
+      apiTokenConfigured &&
+      (optimizationEnabled ||
+        optimizationApplied ||
+        optimization?.capabilityProbe?.status === 'unsupported')
+    "
+    :title="t('admin.cloudflareTunnel.optimization.title')"
+    :configured="optimizationApplied"
+    :ready="configLoaded && !isLoadingManagedState"
+    :edit-label="t('admin.cloudflareTunnel.managed.viewOrChange')"
+    collapsed-content-class="min-h-[76px] flex flex-col items-start gap-3 sm:h-[40px] sm:flex-row sm:items-center sm:justify-between"
+    summary-class="text-xs text-muted-foreground max-w-full whitespace-normal break-words sm:truncate"
+    expanded-content-class="p-0 sm:p-0"
+  >
+    <template #summary>
+      {{
+        optimizationApplied
+          ? optimization?.fallbackActive
+            ? t("admin.cloudflareTunnel.optimization.summaryFallback")
+            : t("admin.cloudflareTunnel.optimization.summaryActive", {
+                count: presentation.optimizedDomainCount,
+                total: presentation.optimizationManagedDomainCount,
+                ip: optimization?.selected?.ip || "-",
+              })
+          : t("admin.cloudflareTunnel.optimization.summaryNotApplied")
+      }}
+    </template>
+
+    <template #default>
+      <div class="space-y-5 p-4 sm:p-6">
+        <CloudflareOptimizationOverview
+          :controller="controller"
+          :presentation="presentation"
+        >
+          <template #source-settings>
+            <CloudflareOptimizationSourceSettings :controller="controller" />
+          </template>
+        </CloudflareOptimizationOverview>
+        <CloudflareOptimizationScanResults :controller="controller" />
+        <CloudflareOptimizationDomains :controller="controller" />
+        <CloudflareOptimizationTechnicalStatus
+          :controller="controller"
+          :presentation="presentation"
+        />
+      </div>
+    </template>
+
+    <template #actions="{ collapse }">
+      <div
+        class="flex justify-end rounded-b-lg border-t bg-muted/30 p-4 sm:px-6"
+      >
+        <Button variant="outline" @click="collapse">
+          {{ t("admin.cloudflareTunnel.collapse") }}
+        </Button>
+      </div>
+    </template>
+  </ConfigCollapsibleCard>
+</template>

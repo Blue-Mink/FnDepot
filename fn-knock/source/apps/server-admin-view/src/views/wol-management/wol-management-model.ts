@@ -1,1 +1,170 @@
-aW1wb3J0IHsKICB0eXBlIFdPTERpc2NvdmVyeVBvbGxFdmVudCwKICB0eXBlIFdPTERpc2NvdmVyeVByb2dyZXNzLAogIHR5cGUgV09MRGlzY292ZXJ5UmVzdWx0LAogIHR5cGUgV09MTG9jYWxSZWxheSwKICB0eXBlIFdPTExvY2FsUmVsYXlJbnB1dCwKICB0eXBlIFdPTFJlbGF5SW5wdXQsCiAgdHlwZSBXT0xUYXJnZXQsCiAgdHlwZSBXT0xUYXJnZXRJbnB1dCwKICB0eXBlIFdPTFRhcmdldFNzaElucHV0LAp9IGZyb20gIkAvbGliL2FwaS93b2wiOwoKZXhwb3J0IGNvbnN0IGNyZWF0ZVdvbFJlbGF5SW5wdXQgPSAoKTogV09MUmVsYXlJbnB1dCA9PiAoewogIG5hbWU6ICIiLAogIGFkZHJlc3M6ICIiLAogIHBvcnQ6IDQwMDA5LAogIGVuYWJsZWQ6IHRydWUsCn0pOwoKZXhwb3J0IGNvbnN0IGNyZWF0ZVdvbFRhcmdldElucHV0ID0gKG5hbWUgPSAiIik6IFdPTFRhcmdldElucHV0ID0+ICh7CiAgbmFtZSwKICBtYWM6ICIiLAogIHJlbGF5SWQ6IG51bGwsCiAgYnJvYWRjYXN0QWRkcmVzczogbnVsbCwKICBpcEFkZHJlc3M6IG51bGwsCiAgZW5hYmxlZDogdHJ1ZSwKICBpbnRlZ3JhdGlvbnM6IHVuZGVmaW5lZCwKICBzc2g6IHVuZGVmaW5lZCwKfSk7CgpleHBvcnQgY29uc3QgY3JlYXRlV29sTG9jYWxSZWxheUlucHV0ID0gKCk6IFdPTExvY2FsUmVsYXlJbnB1dCA9PiAoewogIGVuYWJsZWQ6IGZhbHNlLAogIHJlbGF5SWQ6ICIiLAogIGtleVZlcnNpb246IDEsCiAgbGlzdGVuQWRkcmVzczogIjAuMC4wLjAiLAogIHBvcnQ6IDQwMDA5LAogIGJyb2FkY2FzdERlc3RpbmF0aW9uczogWyIyNTUuMjU1LjI1NS4yNTU6OSJdLAogIGFsbG93ZWRTb3VyY2VzOiBbXSwKICBwc2s6ICIiLAp9KTsKCmV4cG9ydCBjb25zdCB3b2xMb2NhbFJlbGF5VG9JbnB1dCA9ICgKICByZXN1bHQ6IFdPTExvY2FsUmVsYXksCik6IFdPTExvY2FsUmVsYXlJbnB1dCA9PiAoewogIGVuYWJsZWQ6IHJlc3VsdC5jb25maWcuZW5hYmxlZCwKICByZWxheUlkOiByZXN1bHQuY29uZmlnLnJlbGF5SWQsCiAga2V5VmVyc2lvbjogcmVzdWx0LmNvbmZpZy5rZXlWZXJzaW9uLAogIGxpc3RlbkFkZHJlc3M6IHJlc3VsdC5jb25maWcubGlzdGVuQWRkcmVzcywKICBwb3J0OiByZXN1bHQuY29uZmlnLnBvcnQsCiAgYnJvYWRjYXN0RGVzdGluYXRpb25zOiBbLi4ucmVzdWx0LmNvbmZpZy5icm9hZGNhc3REZXN0aW5hdGlvbnNdLAogIGFsbG93ZWRTb3VyY2VzOiBbLi4ucmVzdWx0LmNvbmZpZy5hbGxvd2VkU291cmNlc10sCiAgcHNrOiAiIiwKfSk7CgpleHBvcnQgY29uc3Qgd29sVGFyZ2V0VG9FZGl0SW5wdXQgPSAodGFyZ2V0OiBXT0xUYXJnZXQpOiBXT0xUYXJnZXRJbnB1dCA9PiAoewogIG5hbWU6IHRhcmdldC5uYW1lLAogIG1hYzogdGFyZ2V0Lm1hYywKICByZWxheUlkOiB0YXJnZXQucmVsYXlJZCwKICBicm9hZGNhc3RBZGRyZXNzOiB0YXJnZXQuYnJvYWRjYXN0QWRkcmVzcywKICBpcEFkZHJlc3M6IHRhcmdldC5pcEFkZHJlc3MsCiAgZW5hYmxlZDogdGFyZ2V0LmVuYWJsZWQsCiAgaW50ZWdyYXRpb25zOiB7CiAgICBibGlua2VyOiB7CiAgICAgIGVuYWJsZWQ6IHRhcmdldC5pbnRlZ3JhdGlvbnMuYmxpbmtlci5lbmFibGVkLAogICAgICBkZXZpY2VLZXk6ICIiLAogICAgICBiaW5kQ29tcG9uZW50OiB0YXJnZXQuaW50ZWdyYXRpb25zLmJsaW5rZXIuYmluZENvbXBvbmVudCwKICAgICAgc2tpcFRsc1ZlcmlmeTogdHJ1ZSwKICAgIH0sCiAgICBiZW1mYTogewogICAgICAvLyBMZWdhY3kgZGV2ZWxvcG1lbnQgYnVpbGRzIGNvdWxkIGVuYWJsZSBib3RoIHByb3ZpZGVycy4gUHJlZmVyIEJsaW5rZXIKICAgICAgLy8gc28gdGhlIG5leHQgc2F2ZSBjb252ZXJnZXMgdG8gdGhlIG9uZS1wcm92aWRlciBpbnZhcmlhbnQuCiAgICAgIGVuYWJsZWQ6CiAgICAgICAgIXRhcmdldC5pbnRlZ3JhdGlvbnMuYmxpbmtlci5lbmFibGVkICYmCiAgICAgICAgdGFyZ2V0LmludGVncmF0aW9ucy5iZW1mYS5lbmFibGVkLAogICAgICBwcml2YXRlS2V5OiAiIiwKICAgICAgdG9waWM6IHRhcmdldC5pbnRlZ3JhdGlvbnMuYmVtZmEudG9waWMsCiAgICAgIHNraXBUbHNWZXJpZnk6IHRydWUsCiAgICB9LAogIH0sCiAgc3NoOiB7CiAgICBlbmFibGVkOiB0YXJnZXQuc3NoLmVuYWJsZWQsCiAgICBob3N0OiB0YXJnZXQuc3NoLmhvc3QgfHwgdGFyZ2V0LmlwQWRkcmVzcyB8fCAiIiwKICAgIHBvcnQ6IHRhcmdldC5zc2gucG9ydCB8fCAyMiwKICAgIHVzZXJuYW1lOiB0YXJnZXQuc3NoLnVzZXJuYW1lLAogICAgcGxhdGZvcm06IHRhcmdldC5zc2gucGxhdGZvcm0sCiAgICBhdXRoTWV0aG9kOiB0YXJnZXQuc3NoLmF1dGhNZXRob2QsCiAgICBob3N0S2V5QWxnb3JpdGhtOiB0YXJnZXQuc3NoLmhvc3RLZXlBbGdvcml0aG0sCiAgICBob3N0S2V5RmluZ2VycHJpbnQ6IHRhcmdldC5zc2guaG9zdEtleUZpbmdlcnByaW50LAogICAgcGFzc3dvcmQ6ICIiLAogICAgcHJpdmF0ZUtleTogIiIsCiAgICBwcml2YXRlS2V5UGFzc3BocmFzZTogIiIsCiAgICBjbGVhckNyZWRlbnRpYWw6IGZhbHNlLAogIH0sCn0pOwoKZXhwb3J0IGNvbnN0IGNoYW5nZVdvbFNzaEF1dGhNZXRob2QgPSAoCiAgc3NoOiBXT0xUYXJnZXRTc2hJbnB1dCwKICBhdXRoTWV0aG9kOiBXT0xUYXJnZXRTc2hJbnB1dFsiYXV0aE1ldGhvZCJdLAopID0+IHsKICBpZiAoc3NoLmF1dGhNZXRob2QgPT09IGF1dGhNZXRob2QpIHJldHVybjsKICBzc2guYXV0aE1ldGhvZCA9IGF1dGhNZXRob2Q7CiAgc3NoLnBhc3N3b3JkID0gIiI7CiAgc3NoLnByaXZhdGVLZXkgPSAiIjsKICBzc2gucHJpdmF0ZUtleVBhc3NwaHJhc2UgPSAiIjsKICBzc2guY2xlYXJDcmVkZW50aWFsID0gZmFsc2U7CiAgc3NoLmhvc3RLZXlBbGdvcml0aG0gPSAiIjsKICBzc2guaG9zdEtleUZpbmdlcnByaW50ID0gIiI7Cn07CgpleHBvcnQgY29uc3QgY2FuU2h1dGRvd25Xb2xUYXJnZXQgPSAodGFyZ2V0OiBXT0xUYXJnZXQpID0+CiAgQm9vbGVhbigKICAgIHRhcmdldC5lbmFibGVkICYmCiAgICB0YXJnZXQuc3NoLmVuYWJsZWQgJiYKICAgIHRhcmdldC5zc2guaG9zdCAmJgogICAgdGFyZ2V0LnNzaC51c2VybmFtZSAmJgogICAgdGFyZ2V0LnNzaC5ob3N0S2V5QWxnb3JpdGhtICYmCiAgICB0YXJnZXQuc3NoLmhvc3RLZXlGaW5nZXJwcmludCAmJgogICAgdGFyZ2V0LnNzaC5jcmVkZW50aWFsQ29uZmlndXJlZCwKICApOwoKZXhwb3J0IGNvbnN0IHVwZGF0ZVBlbmRpbmdJZHMgPSAoCiAgY3VycmVudDogUmVhZG9ubHlTZXQ8c3RyaW5nPiwKICBpZDogc3RyaW5nLAogIHBlbmRpbmc6IGJvb2xlYW4sCikgPT4gewogIGNvbnN0IG5leHQgPSBuZXcgU2V0KGN1cnJlbnQpOwogIGlmIChwZW5kaW5nKSBuZXh0LmFkZChpZCk7CiAgZWxzZSBuZXh0LmRlbGV0ZShpZCk7CiAgcmV0dXJuIG5leHQ7Cn07CgpleHBvcnQgaW50ZXJmYWNlIFdvbERpc2NvdmVyeVZpZXdTdGF0ZSB7CiAgcHJvZ3Jlc3M6IFdPTERpc2NvdmVyeVByb2dyZXNzIHwgbnVsbDsKICByZXN1bHQ6IFdPTERpc2NvdmVyeVJlc3VsdCB8IG51bGw7Cn0KCmV4cG9ydCBjb25zdCByZWR1Y2VXb2xEaXNjb3ZlcnlFdmVudCA9ICgKICBzdGF0ZTogV29sRGlzY292ZXJ5Vmlld1N0YXRlLAogIGV2ZW50OiBXT0xEaXNjb3ZlcnlQb2xsRXZlbnQsCik6IFdvbERpc2NvdmVyeVZpZXdTdGF0ZSA9PiB7CiAgaWYgKGV2ZW50LnR5cGUgPT09ICJtZXRhIikgewogICAgcmV0dXJuIHsKICAgICAgcHJvZ3Jlc3M6IGV2ZW50LmRhdGEucHJvZ3Jlc3MsCiAgICAgIHJlc3VsdDogewogICAgICAgIGRldmljZXM6IFtdLAogICAgICAgIG5ldHdvcmtzOiBldmVudC5kYXRhLm5ldHdvcmtzLAogICAgICAgIGR1cmF0aW9uTXM6IDAsCiAgICAgICAgbWV0aG9kOiAiaWNtcC1uZWlnaGJvciIsCiAgICAgIH0sCiAgICB9OwogIH0KICBpZiAoZXZlbnQudHlwZSA9PT0gInByb2dyZXNzIikgewogICAgcmV0dXJuIHsgLi4uc3RhdGUsIHByb2dyZXNzOiBldmVudC5kYXRhIH07CiAgfQogIGlmIChldmVudC50eXBlID09PSAiZGV2aWNlIikgewogICAgaWYgKCFzdGF0ZS5yZXN1bHQpIHJldHVybiBzdGF0ZTsKICAgIGNvbnN0IGRldmljZXMgPSBzdGF0ZS5yZXN1bHQuZGV2aWNlcy5maWx0ZXIoCiAgICAgIChkZXZpY2UpID0+IGRldmljZS5tYWMgIT09IGV2ZW50LmRhdGEubWFjLAogICAgKTsKICAgIGRldmljZXMucHVzaChldmVudC5kYXRhKTsKICAgIGRldmljZXMuc29ydCgobGVmdCwgcmlnaHQpID0+CiAgICAgIGxlZnQuaXAubG9jYWxlQ29tcGFyZShyaWdodC5pcCwgdW5kZWZpbmVkLCB7IG51bWVyaWM6IHRydWUgfSksCiAgICApOwogICAgcmV0dXJuIHsgLi4uc3RhdGUsIHJlc3VsdDogeyAuLi5zdGF0ZS5yZXN1bHQsIGRldmljZXMgfSB9OwogIH0KICBpZiAoZXZlbnQudHlwZSA9PT0gImRvbmUiKSB7CiAgICByZXR1cm4geyAuLi5zdGF0ZSwgcmVzdWx0OiBldmVudC5kYXRhIH07CiAgfQogIHJldHVybiBzdGF0ZTsKfTsK
+import {
+  type WOLDiscoveryPollEvent,
+  type WOLDiscoveryProgress,
+  type WOLDiscoveryResult,
+  type WOLLocalRelay,
+  type WOLLocalRelayInput,
+  type WOLRelayInput,
+  type WOLTarget,
+  type WOLTargetInput,
+  type WOLTargetSshInput,
+} from "@/lib/api/wol";
+
+export const createWolRelayInput = (): WOLRelayInput => ({
+  name: "",
+  address: "",
+  port: 40009,
+  enabled: true,
+});
+
+export const createWolTargetInput = (name = ""): WOLTargetInput => ({
+  name,
+  mac: "",
+  relayId: null,
+  broadcastAddress: null,
+  ipAddress: null,
+  enabled: true,
+  integrations: undefined,
+  ssh: undefined,
+});
+
+export const createWolLocalRelayInput = (): WOLLocalRelayInput => ({
+  enabled: false,
+  relayId: "",
+  keyVersion: 1,
+  listenAddress: "0.0.0.0",
+  port: 40009,
+  broadcastDestinations: ["255.255.255.255:9"],
+  allowedSources: [],
+  psk: "",
+});
+
+export const wolLocalRelayToInput = (
+  result: WOLLocalRelay,
+): WOLLocalRelayInput => ({
+  enabled: result.config.enabled,
+  relayId: result.config.relayId,
+  keyVersion: result.config.keyVersion,
+  listenAddress: result.config.listenAddress,
+  port: result.config.port,
+  broadcastDestinations: [...result.config.broadcastDestinations],
+  allowedSources: [...result.config.allowedSources],
+  psk: "",
+});
+
+export const wolTargetToEditInput = (target: WOLTarget): WOLTargetInput => ({
+  name: target.name,
+  mac: target.mac,
+  relayId: target.relayId,
+  broadcastAddress: target.broadcastAddress,
+  ipAddress: target.ipAddress,
+  enabled: target.enabled,
+  integrations: {
+    blinker: {
+      enabled: target.integrations.blinker.enabled,
+      deviceKey: "",
+      bindComponent: target.integrations.blinker.bindComponent,
+      skipTlsVerify: true,
+    },
+    bemfa: {
+      // Legacy development builds could enable both providers. Prefer Blinker
+      // so the next save converges to the one-provider invariant.
+      enabled:
+        !target.integrations.blinker.enabled &&
+        target.integrations.bemfa.enabled,
+      privateKey: "",
+      topic: target.integrations.bemfa.topic,
+      skipTlsVerify: true,
+    },
+  },
+  ssh: {
+    enabled: target.ssh.enabled,
+    host: target.ssh.host || target.ipAddress || "",
+    port: target.ssh.port || 22,
+    username: target.ssh.username,
+    platform: target.ssh.platform,
+    authMethod: target.ssh.authMethod,
+    hostKeyAlgorithm: target.ssh.hostKeyAlgorithm,
+    hostKeyFingerprint: target.ssh.hostKeyFingerprint,
+    password: "",
+    privateKey: "",
+    privateKeyPassphrase: "",
+    clearCredential: false,
+  },
+});
+
+export const changeWolSshAuthMethod = (
+  ssh: WOLTargetSshInput,
+  authMethod: WOLTargetSshInput["authMethod"],
+) => {
+  if (ssh.authMethod === authMethod) return;
+  ssh.authMethod = authMethod;
+  ssh.password = "";
+  ssh.privateKey = "";
+  ssh.privateKeyPassphrase = "";
+  ssh.clearCredential = false;
+  ssh.hostKeyAlgorithm = "";
+  ssh.hostKeyFingerprint = "";
+};
+
+export const canShutdownWolTarget = (target: WOLTarget) =>
+  Boolean(
+    target.enabled &&
+    target.ssh.enabled &&
+    target.ssh.host &&
+    target.ssh.username &&
+    target.ssh.hostKeyAlgorithm &&
+    target.ssh.hostKeyFingerprint &&
+    target.ssh.credentialConfigured,
+  );
+
+export const updatePendingIds = (
+  current: ReadonlySet<string>,
+  id: string,
+  pending: boolean,
+) => {
+  const next = new Set(current);
+  if (pending) next.add(id);
+  else next.delete(id);
+  return next;
+};
+
+export interface WolDiscoveryViewState {
+  progress: WOLDiscoveryProgress | null;
+  result: WOLDiscoveryResult | null;
+}
+
+export const reduceWolDiscoveryEvent = (
+  state: WolDiscoveryViewState,
+  event: WOLDiscoveryPollEvent,
+): WolDiscoveryViewState => {
+  if (event.type === "meta") {
+    return {
+      progress: event.data.progress,
+      result: {
+        devices: [],
+        networks: event.data.networks,
+        durationMs: 0,
+        method: "icmp-neighbor",
+      },
+    };
+  }
+  if (event.type === "progress") {
+    return { ...state, progress: event.data };
+  }
+  if (event.type === "device") {
+    if (!state.result) return state;
+    const devices = state.result.devices.filter(
+      (device) => device.mac !== event.data.mac,
+    );
+    devices.push(event.data);
+    devices.sort((left, right) =>
+      left.ip.localeCompare(right.ip, undefined, { numeric: true }),
+    );
+    return { ...state, result: { ...state.result, devices } };
+  }
+  if (event.type === "done") {
+    return { ...state, result: event.data };
+  }
+  return state;
+};

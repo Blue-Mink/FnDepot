@@ -1,1 +1,225 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgdG9WYWx1ZSwgd2F0Y2gsIHR5cGUgTWF5YmVSZWZPckdldHRlciB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7IEV2ZW50Q2VudGVyQVBJIH0gZnJvbSAiQC9saWIvYXBpL2V2ZW50cyI7CmltcG9ydCB0eXBlIHsKICBOb3RpZmljYXRpb25Hcm91cEJ5LAogIE5vdGlmaWNhdGlvblByb3ZpZGVyRGVmaW5pdGlvbiwKICBOb3RpZmljYXRpb25Qcm92aWRlclZpZXcsCiAgTm90aWZpY2F0aW9uUnVsZSwKICBTeXN0ZW1FdmVudFR5cGUsCn0gZnJvbSAiLi4vLi4vLi4vdHlwZXMiOwoKZXhwb3J0IGZ1bmN0aW9uIHVzZU5vdGlmaWNhdGlvblJ1bGVzUmVzb3VyY2UoCiAgYWN0aXZlOiBNYXliZVJlZk9yR2V0dGVyPGJvb2xlYW4+LAopIHsKICBjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKICBjb25zdCBjYXRhbG9nID0gcmVmPE5vdGlmaWNhdGlvblByb3ZpZGVyRGVmaW5pdGlvbltdPihbXSk7CiAgY29uc3QgcHJvdmlkZXJzID0gcmVmPE5vdGlmaWNhdGlvblByb3ZpZGVyVmlld1tdPihbXSk7CiAgY29uc3QgcnVsZXMgPSByZWY8Tm90aWZpY2F0aW9uUnVsZVtdPihbXSk7CiAgY29uc3QgbG9hZGluZyA9IHJlZihmYWxzZSk7CiAgY29uc3QgZGVsZXRpbmdJZCA9IHJlZjxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBjbGVhckFsbERpYWxvZ09wZW4gPSByZWYoZmFsc2UpOwogIGNvbnN0IGNsZWFyaW5nQWxsID0gcmVmKGZhbHNlKTsKCiAgY29uc3QgaGFzUHJvdmlkZXJzID0gY29tcHV0ZWQoKCkgPT4gcHJvdmlkZXJzLnZhbHVlLmxlbmd0aCA+IDApOwoKICBjb25zdCBmb3JtYXRFdmVudFR5cGVMYWJlbCA9ICh0eXBlOiBTeXN0ZW1FdmVudFR5cGUpID0+CiAgICB0KGBhZG1pbi5ldmVudENlbnRlci5ldmVudFR5cGVzLiR7dHlwZX1gKTsKCiAgY29uc3QgZm9ybWF0R3JvdXBCeUxhYmVsID0gKHZhbHVlOiBOb3RpZmljYXRpb25Hcm91cEJ5KSA9PgogICAgdChgYWRtaW4uZXZlbnRDZW50ZXIuZ3JvdXBCeS4ke3ZhbHVlfWApOwoKICBjb25zdCBidWlsZFJ1bGVEaXNwbGF5TmFtZSA9IChldmVudFR5cGU6IFN5c3RlbUV2ZW50VHlwZSkgPT4KICAgIHQoImFkbWluLm5vdGlmaWNhdGlvbnMucnVsZXMucnVsZURpc3BsYXlOYW1lIiwgewogICAgICBldmVudDogZm9ybWF0RXZlbnRUeXBlTGFiZWwoZXZlbnRUeXBlKSwKICAgIH0pOwoKICBjb25zdCBsb2FkRGF0YSA9IGFzeW5jICgpID0+IHsKICAgIGxvYWRpbmcudmFsdWUgPSB0cnVlOwogICAgdHJ5IHsKICAgICAgY29uc3QgW2NhdGFsb2dSZXN1bHQsIHByb3ZpZGVyc1Jlc3VsdCwgcnVsZXNSZXN1bHRdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgICAgIEV2ZW50Q2VudGVyQVBJLmdldE5vdGlmaWNhdGlvblByb3ZpZGVyQ2F0YWxvZygpLAogICAgICAgIEV2ZW50Q2VudGVyQVBJLmdldE5vdGlmaWNhdGlvblByb3ZpZGVycygpLAogICAgICAgIEV2ZW50Q2VudGVyQVBJLmdldE5vdGlmaWNhdGlvblJ1bGVzKCksCiAgICAgIF0pOwoKICAgICAgaWYgKCFjYXRhbG9nUmVzdWx0LnN1Y2Nlc3MpIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICAgICBjYXRhbG9nUmVzdWx0Lm1lc3NhZ2UgfHwKICAgICAgICAgICAgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMuY2F0YWxvZ0xvYWRGYWlsZWQiKSwKICAgICAgICApOwogICAgICB9CiAgICAgIGlmICghcHJvdmlkZXJzUmVzdWx0LnN1Y2Nlc3MpIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICAgICBwcm92aWRlcnNSZXN1bHQubWVzc2FnZSB8fAogICAgICAgICAgICB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy5wcm92aWRlcnNMb2FkRmFpbGVkIiksCiAgICAgICAgKTsKICAgICAgfQogICAgICBpZiAoIXJ1bGVzUmVzdWx0LnN1Y2Nlc3MpIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICAgICBydWxlc1Jlc3VsdC5tZXNzYWdlIHx8IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucnVsZXMucnVsZXNMb2FkRmFpbGVkIiksCiAgICAgICAgKTsKICAgICAgfQoKICAgICAgY2F0YWxvZy52YWx1ZSA9IGNhdGFsb2dSZXN1bHQuZGF0YS5wcm92aWRlcnMgfHwgW107CiAgICAgIHByb3ZpZGVycy52YWx1ZSA9IHByb3ZpZGVyc1Jlc3VsdC5kYXRhLnByb3ZpZGVycyB8fCBbXTsKICAgICAgcnVsZXMudmFsdWUgPSBydWxlc1Jlc3VsdC5kYXRhLnJ1bGVzIHx8IFtdOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ydWxlcy5sb2FkRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjoKICAgICAgICAgIGVycm9yIGluc3RhbmNlb2YgRXJyb3IgPyBlcnJvci5tZXNzYWdlIDogdCgiY29tbW9uLnRyeUxhdGVyIiksCiAgICAgIH0pOwogICAgfSBmaW5hbGx5IHsKICAgICAgbG9hZGluZy52YWx1ZSA9IGZhbHNlOwogICAgfQogIH07CgogIGNvbnN0IHJlc29sdmVQcm92aWRlckJ5SWQgPSAocHJvdmlkZXJJZDogc3RyaW5nKSA9PgogICAgcHJvdmlkZXJzLnZhbHVlLmZpbmQoKHByb3ZpZGVyKSA9PiBwcm92aWRlci5pZCA9PT0gcHJvdmlkZXJJZCkgfHwgbnVsbDsKCiAgY29uc3QgcmVzb2x2ZVByb3ZpZGVyRGVmaW5pdGlvbkJ5SWQgPSAocHJvdmlkZXJJZDogc3RyaW5nKSA9PiB7CiAgICBjb25zdCBwcm92aWRlciA9IHJlc29sdmVQcm92aWRlckJ5SWQocHJvdmlkZXJJZCk7CiAgICBpZiAoIXByb3ZpZGVyKSByZXR1cm4gbnVsbDsKICAgIHJldHVybiBjYXRhbG9nLnZhbHVlLmZpbmQoKGl0ZW0pID0+IGl0ZW0udHlwZSA9PT0gcHJvdmlkZXIudHlwZSkgfHwgbnVsbDsKICB9OwoKICBjb25zdCBkZWxldGVSdWxlID0gYXN5bmMgKHJ1bGU6IE5vdGlmaWNhdGlvblJ1bGUpID0+IHsKICAgIGRlbGV0aW5nSWQudmFsdWUgPSBydWxlLmlkOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgRXZlbnRDZW50ZXJBUEkuZGVsZXRlTm90aWZpY2F0aW9uUnVsZShydWxlLmlkKTsKICAgICAgaWYgKCFyZXN1bHQuc3VjY2VzcykgewogICAgICAgIHRocm93IG5ldyBFcnJvcigKICAgICAgICAgIHJlc3VsdC5tZXNzYWdlIHx8IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucnVsZXMuZGVsZXRlUnVsZUZhaWxlZCIpLAogICAgICAgICk7CiAgICAgIH0KICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLmRlbGV0ZWQiKSk7CiAgICAgIGF3YWl0IGxvYWREYXRhKCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLmRlbGV0ZVJ1bGVGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICAgZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yLm1lc3NhZ2UgOiB0KCJjb21tb24udHJ5TGF0ZXIiKSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBkZWxldGluZ0lkLnZhbHVlID0gbnVsbDsKICAgIH0KICB9OwoKICBjb25zdCBjbGVhckFsbFJ1bGVzID0gYXN5bmMgKCkgPT4gewogICAgaWYgKHJ1bGVzLnZhbHVlLmxlbmd0aCA9PT0gMCkgewogICAgICBjbGVhckFsbERpYWxvZ09wZW4udmFsdWUgPSBmYWxzZTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGNsZWFyaW5nQWxsLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlc3VsdHMgPSBhd2FpdCBQcm9taXNlLmFsbFNldHRsZWQoCiAgICAgICAgcnVsZXMudmFsdWUubWFwKGFzeW5jIChydWxlKSA9PiB7CiAgICAgICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBFdmVudENlbnRlckFQSS5kZWxldGVOb3RpZmljYXRpb25SdWxlKHJ1bGUuaWQpOwogICAgICAgICAgaWYgKCFyZXN1bHQuc3VjY2VzcykgewogICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICAgICAgICAgcmVzdWx0Lm1lc3NhZ2UgfHwKICAgICAgICAgICAgICAgIHQoImFkbWluLm5vdGlmaWNhdGlvbnMucnVsZXMuZGVsZXRlUnVsZU5hbWVkRmFpbGVkIiwgewogICAgICAgICAgICAgICAgICBuYW1lOiBydWxlLm5hbWUsCiAgICAgICAgICAgICAgICB9KSwKICAgICAgICAgICAgKTsKICAgICAgICAgIH0KICAgICAgICAgIHJldHVybiBydWxlLm5hbWU7CiAgICAgICAgfSksCiAgICAgICk7CgogICAgICBjb25zdCBzdWNjZWVkZWQgPSByZXN1bHRzCiAgICAgICAgLmZpbHRlcigKICAgICAgICAgIChpdGVtKTogaXRlbSBpcyBQcm9taXNlRnVsZmlsbGVkUmVzdWx0PHN0cmluZz4gPT4KICAgICAgICAgICAgaXRlbS5zdGF0dXMgPT09ICJmdWxmaWxsZWQiLAogICAgICAgICkKICAgICAgICAubWFwKChpdGVtKSA9PiBpdGVtLnZhbHVlKTsKICAgICAgY29uc3QgZmFpbGVkID0gcmVzdWx0cwogICAgICAgIC5maWx0ZXIoCiAgICAgICAgICAoaXRlbSk6IGl0ZW0gaXMgUHJvbWlzZVJlamVjdGVkUmVzdWx0ID0+IGl0ZW0uc3RhdHVzID09PSAicmVqZWN0ZWQiLAogICAgICAgICkKICAgICAgICAubWFwKChpdGVtKSA9PgogICAgICAgICAgaXRlbS5yZWFzb24gaW5zdGFuY2VvZiBFcnJvcgogICAgICAgICAgICA/IGl0ZW0ucmVhc29uLm1lc3NhZ2UKICAgICAgICAgICAgOiB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLmRlbGV0ZVJ1bGVzRmFpbGVkIiksCiAgICAgICAgKTsKCiAgICAgIGlmIChmYWlsZWQubGVuZ3RoID09PSByZXN1bHRzLmxlbmd0aCkgewogICAgICAgIHRocm93IG5ldyBFcnJvcigKICAgICAgICAgIGZhaWxlZFswXSB8fCB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLmNsZWFyUnVsZXNGYWlsZWQiKSwKICAgICAgICApOwogICAgICB9CgogICAgICBpZiAoZmFpbGVkLmxlbmd0aCA+IDApIHsKICAgICAgICB0b2FzdC5pbmZvKAogICAgICAgICAgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ydWxlcy5jbGVhclBhcnRpYWwiLCB7CiAgICAgICAgICAgIHN1Y2Nlc3M6IHN1Y2NlZWRlZC5sZW5ndGgsCiAgICAgICAgICAgIGZhaWxlZDogZmFpbGVkLmxlbmd0aCwKICAgICAgICAgIH0pLAogICAgICAgICAgewogICAgICAgICAgICBkZXNjcmlwdGlvbjogZmFpbGVkWzBdLAogICAgICAgICAgfSwKICAgICAgICApOwogICAgICB9IGVsc2UgewogICAgICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgICAgICB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLmNsZWFyU3VjY2VzcyIsIHsKICAgICAgICAgICAgY291bnQ6IHN1Y2NlZWRlZC5sZW5ndGgsCiAgICAgICAgICB9KSwKICAgICAgICApOwogICAgICB9CgogICAgICBjbGVhckFsbERpYWxvZ09wZW4udmFsdWUgPSBmYWxzZTsKICAgICAgYXdhaXQgbG9hZERhdGEoKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLm5vdGlmaWNhdGlvbnMucnVsZXMuY2xlYXJGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICAgZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yLm1lc3NhZ2UgOiB0KCJjb21tb24udHJ5TGF0ZXIiKSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBjbGVhcmluZ0FsbC52YWx1ZSA9IGZhbHNlOwogICAgfQogIH07CgogIGNvbnN0IHJlc29sdmVQcm92aWRlck5hbWUgPSAocHJvdmlkZXJJZDogc3RyaW5nKSA9PgogICAgcmVzb2x2ZVByb3ZpZGVyQnlJZChwcm92aWRlcklkKT8ubmFtZSB8fCBwcm92aWRlcklkOwoKICBjb25zdCByZXNvbHZlUHJvdmlkZXJUeXBlTGFiZWwgPSAocHJvdmlkZXJJZDogc3RyaW5nKSA9PiB7CiAgICBjb25zdCBkZWZpbml0aW9uID0gcmVzb2x2ZVByb3ZpZGVyRGVmaW5pdGlvbkJ5SWQocHJvdmlkZXJJZCk7CiAgICBpZiAoZGVmaW5pdGlvbikgewogICAgICByZXR1cm4gZGVmaW5pdGlvbi5sYWJlbDsKICAgIH0KCiAgICByZXR1cm4gKAogICAgICByZXNvbHZlUHJvdmlkZXJCeUlkKHByb3ZpZGVySWQpPy50eXBlIHx8CiAgICAgIHQoImFkbWluLm5vdGlmaWNhdGlvbnMucnVsZXMudW5rbm93blR5cGUiKQogICAgKTsKICB9OwoKICB3YXRjaCgKICAgICgpID0+IHRvVmFsdWUoYWN0aXZlKSwKICAgIChhY3RpdmUpID0+IHsKICAgICAgaWYgKCFhY3RpdmUpIHJldHVybjsKICAgICAgdm9pZCBsb2FkRGF0YSgpOwogICAgfSwKICAgIHsgaW1tZWRpYXRlOiB0cnVlIH0sCiAgKTsKCiAgcmV0dXJuIHsKICAgIHByb3ZpZGVycywKICAgIHJ1bGVzLAogICAgbG9hZGluZywKICAgIGRlbGV0aW5nSWQsCiAgICBjbGVhckFsbERpYWxvZ09wZW4sCiAgICBjbGVhcmluZ0FsbCwKICAgIGhhc1Byb3ZpZGVycywKICAgIGZvcm1hdEV2ZW50VHlwZUxhYmVsLAogICAgZm9ybWF0R3JvdXBCeUxhYmVsLAogICAgYnVpbGRSdWxlRGlzcGxheU5hbWUsCiAgICBsb2FkRGF0YSwKICAgIGRlbGV0ZVJ1bGUsCiAgICBjbGVhckFsbFJ1bGVzLAogICAgcmVzb2x2ZVByb3ZpZGVyTmFtZSwKICAgIHJlc29sdmVQcm92aWRlclR5cGVMYWJlbCwKICAgIHJlc29sdmVQcm92aWRlckRlZmluaXRpb25CeUlkLAogIH07Cn0K
+import { computed, ref, toValue, watch, type MaybeRefOrGetter } from "vue";
+import { useI18n } from "vue-i18n";
+import { toast } from "@admin-shared/utils/toast";
+import { EventCenterAPI } from "@/lib/api/events";
+import type {
+  NotificationGroupBy,
+  NotificationProviderDefinition,
+  NotificationProviderView,
+  NotificationRule,
+  SystemEventType,
+} from "../../../types";
+
+export function useNotificationRulesResource(
+  active: MaybeRefOrGetter<boolean>,
+) {
+  const { t } = useI18n();
+  const catalog = ref<NotificationProviderDefinition[]>([]);
+  const providers = ref<NotificationProviderView[]>([]);
+  const rules = ref<NotificationRule[]>([]);
+  const loading = ref(false);
+  const deletingId = ref<string | null>(null);
+  const clearAllDialogOpen = ref(false);
+  const clearingAll = ref(false);
+
+  const hasProviders = computed(() => providers.value.length > 0);
+
+  const formatEventTypeLabel = (type: SystemEventType) =>
+    t(`admin.eventCenter.eventTypes.${type}`);
+
+  const formatGroupByLabel = (value: NotificationGroupBy) =>
+    t(`admin.eventCenter.groupBy.${value}`);
+
+  const buildRuleDisplayName = (eventType: SystemEventType) =>
+    t("admin.notifications.rules.ruleDisplayName", {
+      event: formatEventTypeLabel(eventType),
+    });
+
+  const loadData = async () => {
+    loading.value = true;
+    try {
+      const [catalogResult, providersResult, rulesResult] = await Promise.all([
+        EventCenterAPI.getNotificationProviderCatalog(),
+        EventCenterAPI.getNotificationProviders(),
+        EventCenterAPI.getNotificationRules(),
+      ]);
+
+      if (!catalogResult.success) {
+        throw new Error(
+          catalogResult.message ||
+            t("admin.notifications.providers.catalogLoadFailed"),
+        );
+      }
+      if (!providersResult.success) {
+        throw new Error(
+          providersResult.message ||
+            t("admin.notifications.providers.providersLoadFailed"),
+        );
+      }
+      if (!rulesResult.success) {
+        throw new Error(
+          rulesResult.message || t("admin.notifications.rules.rulesLoadFailed"),
+        );
+      }
+
+      catalog.value = catalogResult.data.providers || [];
+      providers.value = providersResult.data.providers || [];
+      rules.value = rulesResult.data.rules || [];
+    } catch (error) {
+      toast.error(t("admin.notifications.rules.loadFailed"), {
+        description:
+          error instanceof Error ? error.message : t("common.tryLater"),
+      });
+    } finally {
+      loading.value = false;
+    }
+  };
+
+  const resolveProviderById = (providerId: string) =>
+    providers.value.find((provider) => provider.id === providerId) || null;
+
+  const resolveProviderDefinitionById = (providerId: string) => {
+    const provider = resolveProviderById(providerId);
+    if (!provider) return null;
+    return catalog.value.find((item) => item.type === provider.type) || null;
+  };
+
+  const deleteRule = async (rule: NotificationRule) => {
+    deletingId.value = rule.id;
+    try {
+      const result = await EventCenterAPI.deleteNotificationRule(rule.id);
+      if (!result.success) {
+        throw new Error(
+          result.message || t("admin.notifications.rules.deleteRuleFailed"),
+        );
+      }
+      toast.success(t("admin.notifications.rules.deleted"));
+      await loadData();
+    } catch (error) {
+      toast.error(t("admin.notifications.rules.deleteRuleFailed"), {
+        description:
+          error instanceof Error ? error.message : t("common.tryLater"),
+      });
+    } finally {
+      deletingId.value = null;
+    }
+  };
+
+  const clearAllRules = async () => {
+    if (rules.value.length === 0) {
+      clearAllDialogOpen.value = false;
+      return;
+    }
+
+    clearingAll.value = true;
+    try {
+      const results = await Promise.allSettled(
+        rules.value.map(async (rule) => {
+          const result = await EventCenterAPI.deleteNotificationRule(rule.id);
+          if (!result.success) {
+            throw new Error(
+              result.message ||
+                t("admin.notifications.rules.deleteRuleNamedFailed", {
+                  name: rule.name,
+                }),
+            );
+          }
+          return rule.name;
+        }),
+      );
+
+      const succeeded = results
+        .filter(
+          (item): item is PromiseFulfilledResult<string> =>
+            item.status === "fulfilled",
+        )
+        .map((item) => item.value);
+      const failed = results
+        .filter(
+          (item): item is PromiseRejectedResult => item.status === "rejected",
+        )
+        .map((item) =>
+          item.reason instanceof Error
+            ? item.reason.message
+            : t("admin.notifications.rules.deleteRulesFailed"),
+        );
+
+      if (failed.length === results.length) {
+        throw new Error(
+          failed[0] || t("admin.notifications.rules.clearRulesFailed"),
+        );
+      }
+
+      if (failed.length > 0) {
+        toast.info(
+          t("admin.notifications.rules.clearPartial", {
+            success: succeeded.length,
+            failed: failed.length,
+          }),
+          {
+            description: failed[0],
+          },
+        );
+      } else {
+        toast.success(
+          t("admin.notifications.rules.clearSuccess", {
+            count: succeeded.length,
+          }),
+        );
+      }
+
+      clearAllDialogOpen.value = false;
+      await loadData();
+    } catch (error) {
+      toast.error(t("admin.notifications.rules.clearFailed"), {
+        description:
+          error instanceof Error ? error.message : t("common.tryLater"),
+      });
+    } finally {
+      clearingAll.value = false;
+    }
+  };
+
+  const resolveProviderName = (providerId: string) =>
+    resolveProviderById(providerId)?.name || providerId;
+
+  const resolveProviderTypeLabel = (providerId: string) => {
+    const definition = resolveProviderDefinitionById(providerId);
+    if (definition) {
+      return definition.label;
+    }
+
+    return (
+      resolveProviderById(providerId)?.type ||
+      t("admin.notifications.rules.unknownType")
+    );
+  };
+
+  watch(
+    () => toValue(active),
+    (active) => {
+      if (!active) return;
+      void loadData();
+    },
+    { immediate: true },
+  );
+
+  return {
+    providers,
+    rules,
+    loading,
+    deletingId,
+    clearAllDialogOpen,
+    clearingAll,
+    hasProviders,
+    formatEventTypeLabel,
+    formatGroupByLabel,
+    buildRuleDisplayName,
+    loadData,
+    deleteRule,
+    clearAllRules,
+    resolveProviderName,
+    resolveProviderTypeLabel,
+    resolveProviderDefinitionById,
+  };
+}

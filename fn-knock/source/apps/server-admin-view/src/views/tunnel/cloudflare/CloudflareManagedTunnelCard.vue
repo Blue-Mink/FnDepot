@@ -1,1 +1,279 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IG5leHRUaWNrLCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQ2hlY2tib3ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2hlY2tib3giOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7CiAgU2VsZWN0LAogIFNlbGVjdENvbnRlbnQsCiAgU2VsZWN0SXRlbSwKICBTZWxlY3RUcmlnZ2VyLAogIFNlbGVjdFZhbHVlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9zZWxlY3QiOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IENvbmZpZ0NvbGxhcHNpYmxlQ2FyZCBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvQ29uZmlnQ29sbGFwc2libGVDYXJkLnZ1ZSI7CmltcG9ydCBDb25maXJtYXRpb25EaWFsb2cgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtYXRpb25EaWFsb2cudnVlIjsKaW1wb3J0IHsgdXNlQ29uZmlybWF0aW9uRGlhbG9nIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VDb25maXJtYXRpb25EaWFsb2ciOwppbXBvcnQgeyBSZWZyZXNoQ3cgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgdHlwZSB7IENsb3VkZmxhcmVSZWNvbmNpbGVDb25mbGljdCB9IGZyb20gIkAvbGliL2FwaS90dW5uZWwiOwppbXBvcnQgewogIG1hbmFnZWRUdW5uZWxTdGF0dXNMYWJlbCwKICBvcHRpbWl6YXRpb25Db25mbGljdEhvc3RuYW1lLAp9IGZyb20gIi4vY2xvdWRmbGFyZU1hbmFnZWRQcmVzZW50YXRpb24iOwppbXBvcnQgQ2xvdWRmbGFyZVJlY29uY2lsZVBsYW4gZnJvbSAiLi9DbG91ZGZsYXJlUmVjb25jaWxlUGxhbi52dWUiOwppbXBvcnQgdHlwZSB7IENsb3VkZmxhcmVUdW5uZWxDb250cm9sbGVyIH0gZnJvbSAiLi91c2VDbG91ZGZsYXJlVHVubmVsQ29udHJvbGxlciI7Cgpjb25zdCB7IGNvbnRyb2xsZXIgfSA9IGRlZmluZVByb3BzPHsKICBjb250cm9sbGVyOiBDbG91ZGZsYXJlVHVubmVsQ29udHJvbGxlcjsKfT4oKTsKY29uc3QgewogIGFwaVRva2VuQ29uZmlndXJlZCwKICBjbG91ZGZsYXJlZE9yaWdpblNlcnZpY2VVcmwsCiAgY29uZmlnTG9hZGVkLAogIGRlbGV0ZURlZGljYXRlZFR1bm5lbCwKICBpc0FwcGx5aW5nUmVjb25jaWxlLAogIGlzTG9hZGluZ01hbmFnZWRTdGF0ZSwKICBpc1ByZXZpZXdpbmdSZWNvbmNpbGUsCiAgbWFuYWdlZFN0YXRlLAogIG9wdGltaXphdGlvbkVuYWJsZWQsCiAgcHJldmlld0NsZWFudXAsCiAgcHJldmlld1JlY29uY2lsZSwKICBwdWJsaWNXaWxkY2FyZEhvc3RuYW1lLAogIHJlY29uY2lsZUF0dGVudGlvblRva2VuLAogIHNlbGVjdGVkVHVubmVsSWQsCiAgc2V0T3B0aW1pemF0aW9uRG9tYWluTW9kZSwKICB0LAogIHR1bm5lbE1vZGUsCn0gPSBjb250cm9sbGVyOwoKY29uc3QgbWFuYWdlZENhcmQgPSByZWY8eyBleHBhbmQ6ICgpID0+IHZvaWQgfSB8IG51bGw+KG51bGwpOwpjb25zdCB7CiAgY29uZmlybWF0aW9uRGlhbG9nT3BlbiwKICBjb25maXJtYXRpb25EaWFsb2dPcHRpb25zLAogIGNvbmZpcm1QZW5kaW5nQWN0aW9uLAogIGhhbmRsZUNvbmZpcm1hdGlvbkRpYWxvZ09wZW5DaGFuZ2UsCiAgcmVxdWVzdENvbmZpcm1hdGlvbiwKfSA9IHVzZUNvbmZpcm1hdGlvbkRpYWxvZygpOwoKd2F0Y2gocmVjb25jaWxlQXR0ZW50aW9uVG9rZW4sIGFzeW5jICgpID0+IHsKICBtYW5hZ2VkQ2FyZC52YWx1ZT8uZXhwYW5kKCk7CiAgYXdhaXQgbmV4dFRpY2soKTsKICBkb2N1bWVudAogICAgLmdldEVsZW1lbnRCeUlkKCJjbG91ZGZsYXJlLW1hbmFnZWQtdHVubmVsLWNhcmQiKQogICAgPy5zY3JvbGxJbnRvVmlldyh7IGJlaGF2aW9yOiAic21vb3RoIiwgYmxvY2s6ICJzdGFydCIgfSk7Cn0pOwoKY29uc3QgdHVubmVsU3RhdHVzTGFiZWwgPSAoc3RhdHVzPzogc3RyaW5nIHwgbnVsbCkgPT4KICBtYW5hZ2VkVHVubmVsU3RhdHVzTGFiZWwoc3RhdHVzLCB0KTsKY29uc3QgcHJlc2VydmVFeGlzdGluZ0RucyA9IGFzeW5jIChjb25mbGljdDogQ2xvdWRmbGFyZVJlY29uY2lsZUNvbmZsaWN0KSA9PiB7CiAgY29uc3QgaG9zdG5hbWUgPSBvcHRpbWl6YXRpb25Db25mbGljdEhvc3RuYW1lKGNvbmZsaWN0KTsKICBpZiAoIWhvc3RuYW1lKSByZXR1cm47CiAgY29uc3QgY29uZmlybWVkID0gYXdhaXQgcmVxdWVzdENvbmZpcm1hdGlvbih7CiAgICB0aXRsZTogdCgKICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLmRvbWFpbkFjdGlvbnMua2VlcEV4dGVybmFsVGl0bGUiLAogICAgKSwKICAgIGRlc2NyaXB0aW9uOiB0KAogICAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uZG9tYWluQWN0aW9ucy5rZWVwRXh0ZXJuYWxEZXNjcmlwdGlvbiIsCiAgICAgIHsgaG9zdG5hbWUgfSwKICAgICksCiAgICBjb25maXJtVGV4dDogdCgKICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLmRvbWFpbkFjdGlvbnMua2VlcEV4dGVybmFsQ29uZmlybSIsCiAgICApLAogIH0pOwogIGlmIChjb25maXJtZWQpIGF3YWl0IHNldE9wdGltaXphdGlvbkRvbWFpbk1vZGUoaG9zdG5hbWUsICJleHRlcm5hbCIpOwp9Owo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8Q29uZmlnQ29sbGFwc2libGVDYXJkCiAgICB2LWlmPSJhcGlUb2tlbkNvbmZpZ3VyZWQiCiAgICBpZD0iY2xvdWRmbGFyZS1tYW5hZ2VkLXR1bm5lbC1jYXJkIgogICAgcmVmPSJtYW5hZ2VkQ2FyZCIKICAgIDp0aXRsZT0idCgnYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5tYW5hZ2VkLnR1bm5lbFRpdGxlJykiCiAgICA6Y29uZmlndXJlZD0iQm9vbGVhbihtYW5hZ2VkU3RhdGU/Lm1hbmFnZWQudHVubmVsKSIKICAgIDpyZWFkeT0iY29uZmlnTG9hZGVkICYmICFpc0xvYWRpbmdNYW5hZ2VkU3RhdGUiCiAgICA6ZWRpdC1sYWJlbD0idCgnYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5tYW5hZ2VkLnZpZXdPckNoYW5nZScpIgogICAgY29sbGFwc2VkLWNvbnRlbnQtY2xhc3M9Im1pbi1oLVs3NnB4XSBmbGV4IGZsZXgtY29sIGl0ZW1zLXN0YXJ0IGdhcC0zIHNtOmgtWzQwcHhdIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICBzdW1tYXJ5LWNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtYXgtdy1mdWxsIHdoaXRlc3BhY2Utbm9ybWFsIGJyZWFrLXdvcmRzIHNtOnRydW5jYXRlIgogICAgZXhwYW5kZWQtY29udGVudC1jbGFzcz0icC0wIHNtOnAtMCIKICA+CiAgICA8dGVtcGxhdGUgI3N1bW1hcnk+CiAgICAgIHt7CiAgICAgICAgbWFuYWdlZFN0YXRlPy5tYW5hZ2VkLnR1bm5lbAogICAgICAgICAgPyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm1hbmFnZWQudHVubmVsU3VtbWFyeUNvbmZpZ3VyZWQiLCB7CiAgICAgICAgICAgICAgaG9zdG5hbWU6IHB1YmxpY1dpbGRjYXJkSG9zdG5hbWUsCiAgICAgICAgICAgIH0pCiAgICAgICAgICA6IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwubWFuYWdlZC50dW5uZWxTdW1tYXJ5Tm90Q29uZmlndXJlZCIpCiAgICAgIH19CiAgICA8L3RlbXBsYXRlPgoKICAgIDx0ZW1wbGF0ZSAjZGVmYXVsdD4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS01IHAtNCBzbTpwLTYiPgogICAgICAgIDxkaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwubWFuYWdlZC50dW5uZWxIZWFkaW5nIikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPHAgY2xhc3M9Im10LTEgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm1hbmFnZWQudHVubmVsSW50cm8iKSB9fQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTQgbGc6Z3JpZC1jb2xzLTIiPgogICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgICAgPExhYmVsIGZvcj0iY2xvdWRmbGFyZS10dW5uZWwtbW9kZSI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5tYW5hZ2VkLnR1bm5lbE1vZGUiKSB9fQogICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICA8U2VsZWN0IHYtbW9kZWw9InR1bm5lbE1vZGUiPgogICAgICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyIGlkPSJjbG91ZGZsYXJlLXR1bm5lbC1tb2RlIj48U2VsZWN0VmFsdWUgLz48L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0iZGVkaWNhdGVkIj4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5tYW5hZ2VkLmRlZGljYXRlZFR1bm5lbCIpIH19CiAgICAgICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0iZXhpc3RpbmciPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm1hbmFnZWQuZXhpc3RpbmdUdW5uZWwiKSB9fQogICAgICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgICAgICAgPC9TZWxlY3Q+CiAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgIHR1bm5lbE1vZGUgPT09ICJkZWRpY2F0ZWQiCiAgICAgICAgICAgICAgICAgID8gdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5tYW5hZ2VkLmRlZGljYXRlZERlc2NyaXB0aW9uIikKICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm1hbmFnZWQuZXhpc3RpbmdEZXNjcmlwdGlvbiIpCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiB2LWlmPSJ0dW5uZWxNb2RlID09PSAnZXhpc3RpbmcnIiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgICAgPExhYmVsIGZvcj0iY2xvdWRmbGFyZS1leGlzdGluZy10dW5uZWwiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwubWFuYWdlZC5zZWxlY3RUdW5uZWwiKSB9fQogICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICA8U2VsZWN0IHYtbW9kZWw9InNlbGVjdGVkVHVubmVsSWQiPgogICAgICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyIGlkPSJjbG91ZGZsYXJlLWV4aXN0aW5nLXR1bm5lbCI+CiAgICAgICAgICAgICAgICA8U2VsZWN0VmFsdWUgOnBsYWNlaG9sZGVyPSJ0KCdhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm1hbmFnZWQuc2VsZWN0VHVubmVsJykiIC8+CiAgICAgICAgICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICAgICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgICAgICAgPFNlbGVjdEl0ZW0KICAgICAgICAgICAgICAgICAgdi1mb3I9Iml0ZW0gaW4gbWFuYWdlZFN0YXRlPy50dW5uZWxzIHx8IFtdIgogICAgICAgICAgICAgICAgICA6a2V5PSJpdGVtLmlkIgogICAgICAgICAgICAgICAgICA6dmFsdWU9Iml0ZW0uaWQiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IGl0ZW0ubmFtZSB9fSDCtyB7eyB0dW5uZWxTdGF0dXNMYWJlbChpdGVtLnN0YXR1cykgfX0KICAgICAgICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgIDwvU2VsZWN0PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC00IHJvdW5kZWQtbGcgYm9yZGVyIHAtNCI+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8TGFiZWwgZm9yPSJjbG91ZGZsYXJlLW9wdGltaXphdGlvbi1lbmFibGVkIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi50aXRsZSIpIH19CiAgICAgICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9InNlY29uZGFyeSIgY2xhc3M9Im1sLTEiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uYmV0YUJhZGdlIikgfX0KICAgICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICA8cCBjbGFzcz0ibXQtMSBtYXgtdy0zeGwgdGV4dC14cyBsZWFkaW5nLXJlbGF4ZWQgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5kZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPFN3aXRjaCBpZD0iY2xvdWRmbGFyZS1vcHRpbWl6YXRpb24tZW5hYmxlZCIgdi1tb2RlbD0ib3B0aW1pemF0aW9uRW5hYmxlZCIgLz4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBqdXN0aWZ5LWVuZCI+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIDpkaXNhYmxlZD0iCiAgICAgICAgICAgICAgaXNQcmV2aWV3aW5nUmVjb25jaWxlIHx8CiAgICAgICAgICAgICAgaXNBcHBseWluZ1JlY29uY2lsZSB8fAogICAgICAgICAgICAgICh0dW5uZWxNb2RlID09PSAnZXhpc3RpbmcnICYmICFzZWxlY3RlZFR1bm5lbElkKQogICAgICAgICAgICAiCiAgICAgICAgICAgIEBjbGljaz0icHJldmlld1JlY29uY2lsZSIKICAgICAgICAgID4KICAgICAgICAgICAgPFJlZnJlc2hDdwogICAgICAgICAgICAgIGNsYXNzPSJtci0yIHNpemUtNCIKICAgICAgICAgICAgICA6Y2xhc3M9InsgJ2FuaW1hdGUtc3Bpbic6IGlzUHJldmlld2luZ1JlY29uY2lsZSB9IgogICAgICAgICAgICAvPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm1hbmFnZWQucHJldmlldyIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPENsb3VkZmxhcmVSZWNvbmNpbGVQbGFuCiAgICAgICAgICA6Y29udHJvbGxlcj0iY29udHJvbGxlciIKICAgICAgICAgIDpwcmVzZXJ2ZS1leGlzdGluZy1kbnM9InByZXNlcnZlRXhpc3RpbmdEbnMiCiAgICAgICAgLz4KCiAgICAgICAgPGRpdgogICAgICAgICAgdi1pZj0ibWFuYWdlZFN0YXRlPy5tYW5hZ2VkLnR1bm5lbCIKICAgICAgICAgIGNsYXNzPSJncmlkIGdhcC0zIHNtOmdyaWQtY29scy0zIgogICAgICAgID4KICAgICAgICAgIDxkaXYgY2xhc3M9InJvdW5kZWQtbWQgYm9yZGVyIGJnLW11dGVkLzIwIHAtMyI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm1hbmFnZWQudHVubmVsTGFiZWwiKSB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMSBmb250LW1lZGl1bSI+e3sgbWFuYWdlZFN0YXRlLm1hbmFnZWQudHVubmVsLm5hbWUgfX08L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgYmctbXV0ZWQvMjAgcC0zIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwubWFuYWdlZC5wdWJsaWNIb3N0bmFtZSIpIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8Y29kZSBjbGFzcz0ibXQtMSBibG9jayBicmVhay1hbGwgdGV4dC1zbSI+e3sgcHVibGljV2lsZGNhcmRIb3N0bmFtZSB9fTwvY29kZT4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgYmctbXV0ZWQvMjAgcC0zIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwubWFuYWdlZC5vcmlnaW5TZXJ2aWNlIikgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxjb2RlIGNsYXNzPSJtdC0xIGJsb2NrIGJyZWFrLWFsbCB0ZXh0LXNtIj57eyBjbG91ZGZsYXJlZE9yaWdpblNlcnZpY2VVcmwgfX08L2NvZGU+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRldGFpbHMKICAgICAgICAgIHYtaWY9Im1hbmFnZWRTdGF0ZT8ubWFuYWdlZC50dW5uZWwiCiAgICAgICAgICBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWRlc3RydWN0aXZlLzMwIgogICAgICAgID4KICAgICAgICAgIDxzdW1tYXJ5CiAgICAgICAgICAgIGNsYXNzPSJjdXJzb3ItcG9pbnRlciBsaXN0LW5vbmUgcHgtNCBweS0zIHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5tYW5hZ2VkLnJlbW92ZU1hbmFnZWQiKSB9fQogICAgICAgICAgPC9zdW1tYXJ5PgogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyBib3JkZXItdCBweC00IHB5LTMiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwubWFuYWdlZC5jbGVhbnVwRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8bGFiZWwKICAgICAgICAgICAgICAgIHYtaWY9Im1hbmFnZWRTdGF0ZS5tYW5hZ2VkLnR1bm5lbC5vd25lcnNoaXAgPT09ICdkZWRpY2F0ZWQnIgogICAgICAgICAgICAgICAgY2xhc3M9Im10LTMgZmxleCBjdXJzb3ItcG9pbnRlciBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC14cyIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8Q2hlY2tib3ggdi1tb2RlbD0iZGVsZXRlRGVkaWNhdGVkVHVubmVsIiAvPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5tYW5hZ2VkLmRlbGV0ZURlZGljYXRlZFR1bm5lbCIpIH19CiAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNQcmV2aWV3aW5nUmVjb25jaWxlIHx8IGlzQXBwbHlpbmdSZWNvbmNpbGUiCiAgICAgICAgICAgICAgQGNsaWNrPSJwcmV2aWV3Q2xlYW51cCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwubWFuYWdlZC5wcmV2aWV3Q2xlYW51cCIpIH19CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kZXRhaWxzPgogICAgICA8L2Rpdj4KICAgIDwvdGVtcGxhdGU+CgogICAgPHRlbXBsYXRlICNhY3Rpb25zPSJ7IGNvbGxhcHNlIH0iPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktZW5kIHJvdW5kZWQtYi1sZyBib3JkZXItdCBiZy1tdXRlZC8zMCBwLTQgc206cHgtNiI+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBAY2xpY2s9ImNvbGxhcHNlIj4KICAgICAgICAgIHt7IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwuY29sbGFwc2UiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvdGVtcGxhdGU+CiAgPC9Db25maWdDb2xsYXBzaWJsZUNhcmQ+CgogIDxDb25maXJtYXRpb25EaWFsb2cKICAgIDpvcGVuPSJjb25maXJtYXRpb25EaWFsb2dPcGVuIgogICAgdi1iaW5kPSJjb25maXJtYXRpb25EaWFsb2dPcHRpb25zIgogICAgQHVwZGF0ZTpvcGVuPSJoYW5kbGVDb25maXJtYXRpb25EaWFsb2dPcGVuQ2hhbmdlIgogICAgQGNvbmZpcm09ImNvbmZpcm1QZW5kaW5nQWN0aW9uIgogIC8+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { nextTick, ref, watch } from "vue";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Switch } from "@/components/ui/switch";
+import ConfigCollapsibleCard from "@admin-shared/components/ConfigCollapsibleCard.vue";
+import ConfirmationDialog from "@admin-shared/components/common/ConfirmationDialog.vue";
+import { useConfirmationDialog } from "@admin-shared/composables/useConfirmationDialog";
+import { RefreshCw } from "lucide-vue-next";
+import type { CloudflareReconcileConflict } from "@/lib/api/tunnel";
+import {
+  managedTunnelStatusLabel,
+  optimizationConflictHostname,
+} from "./cloudflareManagedPresentation";
+import CloudflareReconcilePlan from "./CloudflareReconcilePlan.vue";
+import type { CloudflareTunnelController } from "./useCloudflareTunnelController";
+
+const { controller } = defineProps<{
+  controller: CloudflareTunnelController;
+}>();
+const {
+  apiTokenConfigured,
+  cloudflaredOriginServiceUrl,
+  configLoaded,
+  deleteDedicatedTunnel,
+  isApplyingReconcile,
+  isLoadingManagedState,
+  isPreviewingReconcile,
+  managedState,
+  optimizationEnabled,
+  previewCleanup,
+  previewReconcile,
+  publicWildcardHostname,
+  reconcileAttentionToken,
+  selectedTunnelId,
+  setOptimizationDomainMode,
+  t,
+  tunnelMode,
+} = controller;
+
+const managedCard = ref<{ expand: () => void } | null>(null);
+const {
+  confirmationDialogOpen,
+  confirmationDialogOptions,
+  confirmPendingAction,
+  handleConfirmationDialogOpenChange,
+  requestConfirmation,
+} = useConfirmationDialog();
+
+watch(reconcileAttentionToken, async () => {
+  managedCard.value?.expand();
+  await nextTick();
+  document
+    .getElementById("cloudflare-managed-tunnel-card")
+    ?.scrollIntoView({ behavior: "smooth", block: "start" });
+});
+
+const tunnelStatusLabel = (status?: string | null) =>
+  managedTunnelStatusLabel(status, t);
+const preserveExistingDns = async (conflict: CloudflareReconcileConflict) => {
+  const hostname = optimizationConflictHostname(conflict);
+  if (!hostname) return;
+  const confirmed = await requestConfirmation({
+    title: t(
+      "admin.cloudflareTunnel.optimization.domainActions.keepExternalTitle",
+    ),
+    description: t(
+      "admin.cloudflareTunnel.optimization.domainActions.keepExternalDescription",
+      { hostname },
+    ),
+    confirmText: t(
+      "admin.cloudflareTunnel.optimization.domainActions.keepExternalConfirm",
+    ),
+  });
+  if (confirmed) await setOptimizationDomainMode(hostname, "external");
+};
+</script>
+
+<template>
+  <ConfigCollapsibleCard
+    v-if="apiTokenConfigured"
+    id="cloudflare-managed-tunnel-card"
+    ref="managedCard"
+    :title="t('admin.cloudflareTunnel.managed.tunnelTitle')"
+    :configured="Boolean(managedState?.managed.tunnel)"
+    :ready="configLoaded && !isLoadingManagedState"
+    :edit-label="t('admin.cloudflareTunnel.managed.viewOrChange')"
+    collapsed-content-class="min-h-[76px] flex flex-col items-start gap-3 sm:h-[40px] sm:flex-row sm:items-center sm:justify-between"
+    summary-class="text-xs text-muted-foreground max-w-full whitespace-normal break-words sm:truncate"
+    expanded-content-class="p-0 sm:p-0"
+  >
+    <template #summary>
+      {{
+        managedState?.managed.tunnel
+          ? t("admin.cloudflareTunnel.managed.tunnelSummaryConfigured", {
+              hostname: publicWildcardHostname,
+            })
+          : t("admin.cloudflareTunnel.managed.tunnelSummaryNotConfigured")
+      }}
+    </template>
+
+    <template #default>
+      <div class="space-y-5 p-4 sm:p-6">
+        <div>
+          <div class="text-base font-semibold">
+            {{ t("admin.cloudflareTunnel.managed.tunnelHeading") }}
+          </div>
+          <p class="mt-1 text-sm text-muted-foreground">
+            {{ t("admin.cloudflareTunnel.managed.tunnelIntro") }}
+          </p>
+        </div>
+        <div class="grid gap-4 lg:grid-cols-2">
+          <div class="space-y-2">
+            <Label for="cloudflare-tunnel-mode">
+              {{ t("admin.cloudflareTunnel.managed.tunnelMode") }}
+            </Label>
+            <Select v-model="tunnelMode">
+              <SelectTrigger id="cloudflare-tunnel-mode"><SelectValue /></SelectTrigger>
+              <SelectContent>
+                <SelectItem value="dedicated">
+                  {{ t("admin.cloudflareTunnel.managed.dedicatedTunnel") }}
+                </SelectItem>
+                <SelectItem value="existing">
+                  {{ t("admin.cloudflareTunnel.managed.existingTunnel") }}
+                </SelectItem>
+              </SelectContent>
+            </Select>
+            <p class="text-xs text-muted-foreground">
+              {{
+                tunnelMode === "dedicated"
+                  ? t("admin.cloudflareTunnel.managed.dedicatedDescription")
+                  : t("admin.cloudflareTunnel.managed.existingDescription")
+              }}
+            </p>
+          </div>
+
+          <div v-if="tunnelMode === 'existing'" class="space-y-2">
+            <Label for="cloudflare-existing-tunnel">
+              {{ t("admin.cloudflareTunnel.managed.selectTunnel") }}
+            </Label>
+            <Select v-model="selectedTunnelId">
+              <SelectTrigger id="cloudflare-existing-tunnel">
+                <SelectValue :placeholder="t('admin.cloudflareTunnel.managed.selectTunnel')" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem
+                  v-for="item in managedState?.tunnels || []"
+                  :key="item.id"
+                  :value="item.id"
+                >
+                  {{ item.name }} · {{ tunnelStatusLabel(item.status) }}
+                </SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+        </div>
+
+        <div class="flex items-start justify-between gap-4 rounded-lg border p-4">
+          <div>
+            <Label for="cloudflare-optimization-enabled">
+              {{ t("admin.cloudflareTunnel.optimization.title") }}
+              <Badge variant="secondary" class="ml-1">
+                {{ t("admin.cloudflareTunnel.optimization.betaBadge") }}
+              </Badge>
+            </Label>
+            <p class="mt-1 max-w-3xl text-xs leading-relaxed text-muted-foreground">
+              {{ t("admin.cloudflareTunnel.optimization.description") }}
+            </p>
+          </div>
+          <Switch id="cloudflare-optimization-enabled" v-model="optimizationEnabled" />
+        </div>
+
+        <div class="flex justify-end">
+          <Button
+            :disabled="
+              isPreviewingReconcile ||
+              isApplyingReconcile ||
+              (tunnelMode === 'existing' && !selectedTunnelId)
+            "
+            @click="previewReconcile"
+          >
+            <RefreshCw
+              class="mr-2 size-4"
+              :class="{ 'animate-spin': isPreviewingReconcile }"
+            />
+            {{ t("admin.cloudflareTunnel.managed.preview") }}
+          </Button>
+        </div>
+
+        <CloudflareReconcilePlan
+          :controller="controller"
+          :preserve-existing-dns="preserveExistingDns"
+        />
+
+        <div
+          v-if="managedState?.managed.tunnel"
+          class="grid gap-3 sm:grid-cols-3"
+        >
+          <div class="rounded-md border bg-muted/20 p-3">
+            <div class="text-xs text-muted-foreground">
+              {{ t("admin.cloudflareTunnel.managed.tunnelLabel") }}
+            </div>
+            <div class="mt-1 font-medium">{{ managedState.managed.tunnel.name }}</div>
+          </div>
+          <div class="rounded-md border bg-muted/20 p-3">
+            <div class="text-xs text-muted-foreground">
+              {{ t("admin.cloudflareTunnel.managed.publicHostname") }}
+            </div>
+            <code class="mt-1 block break-all text-sm">{{ publicWildcardHostname }}</code>
+          </div>
+          <div class="rounded-md border bg-muted/20 p-3">
+            <div class="text-xs text-muted-foreground">
+              {{ t("admin.cloudflareTunnel.managed.originService") }}
+            </div>
+            <code class="mt-1 block break-all text-sm">{{ cloudflaredOriginServiceUrl }}</code>
+          </div>
+        </div>
+
+        <details
+          v-if="managedState?.managed.tunnel"
+          class="rounded-lg border border-destructive/30"
+        >
+          <summary
+            class="cursor-pointer list-none px-4 py-3 text-sm font-medium text-destructive"
+          >
+            {{ t("admin.cloudflareTunnel.managed.removeManaged") }}
+          </summary>
+          <div
+            class="flex flex-wrap items-center justify-between gap-3 border-t px-4 py-3"
+          >
+            <div>
+              <p class="text-xs text-muted-foreground">
+                {{ t("admin.cloudflareTunnel.managed.cleanupDescription") }}
+              </p>
+              <label
+                v-if="managedState.managed.tunnel.ownership === 'dedicated'"
+                class="mt-3 flex cursor-pointer items-center gap-2 text-xs"
+              >
+                <Checkbox v-model="deleteDedicatedTunnel" />
+                {{ t("admin.cloudflareTunnel.managed.deleteDedicatedTunnel") }}
+              </label>
+            </div>
+            <Button
+              variant="outline"
+              :disabled="isPreviewingReconcile || isApplyingReconcile"
+              @click="previewCleanup"
+            >
+              {{ t("admin.cloudflareTunnel.managed.previewCleanup") }}
+            </Button>
+          </div>
+        </details>
+      </div>
+    </template>
+
+    <template #actions="{ collapse }">
+      <div class="flex justify-end rounded-b-lg border-t bg-muted/30 p-4 sm:px-6">
+        <Button variant="outline" @click="collapse">
+          {{ t("admin.cloudflareTunnel.collapse") }}
+        </Button>
+      </div>
+    </template>
+  </ConfigCollapsibleCard>
+
+  <ConfirmationDialog
+    :open="confirmationDialogOpen"
+    v-bind="confirmationDialogOptions"
+    @update:open="handleConfirmationDialogOpenChange"
+    @confirm="confirmPendingAction"
+  />
+</template>

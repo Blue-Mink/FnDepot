@@ -1,1 +1,188 @@
-dXNlIGF4dW06OnsKICAgIGV4dHJhY3Q6OntRdWVyeSwgU3RhdGV9LAogICAgaHR0cDo6U3RhdHVzQ29kZSwKICAgIHJlc3BvbnNlOjp7SW50b1Jlc3BvbnNlLCBSZXNwb25zZX0sCn07CnVzZSBzZXJkZTo6RGVzZXJpYWxpemU7CnVzZSBzZXJkZV9qc29uOjp7VmFsdWUsIGpzb259Owp1c2UgdXRvaXBhX2F4dW06Ontyb3V0ZXI6Ok9wZW5BcGlSb3V0ZXIsIHJvdXRlc307Cgp1c2UgY3JhdGU6OntpMThuOjpUcmFuc2xhdG9yLCByZXNwb25zZSwgc3RhdGU6OkFwcFN0YXRlLCB0aW1lX3V0aWxzfTsKCmZuIHNlY3VyaXR5X292ZXJ2aWV3X3JvdXRlX3RleHQodHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsIGtleTogJnN0cikgLT4gU3RyaW5nIHsKICAgIHRyYW5zbGF0b3IudCgmZm9ybWF0ISgic2VydmVyLnNlY3VyaXR5T3ZlcnZpZXdSb3V0ZXMue2tleX0iKSkKfQoKY29uc3QgRk5fRVZFTlRfQVVUSF9MT0dJTl9GQUlMVVJFOiAmc3RyID0gIkZOX0VWRU5UX0FVVEhfTE9HSU5fRkFJTFVSRSI7CmNvbnN0IEZOX0VWRU5UX1NFQ1VSSVRZX1NDQU5ORVJfQkxPQ0tFRDogJnN0ciA9ICJGTl9FVkVOVF9TRUNVUklUWV9TQ0FOTkVSX0JMT0NLRUQiOwoKI1tkZXJpdmUoRGVzZXJpYWxpemUpXQpzdHJ1Y3QgT3ZlcnZpZXdRdWVyeSB7CiAgICAjW3NlcmRlKHJlbmFtZSA9ICJyYW5nZVNlYyIpXQogICAgcmFuZ2Vfc2VjOiBPcHRpb248U3RyaW5nPiwKfQoKcHViIGZuIHNlY3VyaXR5X292ZXJ2aWV3X3JvdXRlcygpIC0+IE9wZW5BcGlSb3V0ZXI8QXBwU3RhdGU+IHsKICAgIE9wZW5BcGlSb3V0ZXI6Om5ldygpLnJvdXRlcyhyb3V0ZXMhKG92ZXJ2aWV3KSkKfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBnZXQsCiAgICBwYXRoID0gIi9hcGkvYWRtaW4vc2VjdXJpdHkvb3ZlcnZpZXciLAogICAgdGFnID0gInNlY3VyaXR5IiwKICAgIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX3NlY3VyaXR5X292ZXJ2aWV3IiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJTZWN1cml0eSBvdmVydmlldyBmb3IgdGhlIHJlcXVlc3RlZCB0aW1lIHJhbmdlIikpCildCmFzeW5jIGZuIG92ZXJ2aWV3KFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LCBRdWVyeShxdWVyeSk6IFF1ZXJ5PE92ZXJ2aWV3UXVlcnk+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgcmFuZ2Vfc2VjID0gY3JhdGU6Om5vZGVfY29tcGF0OjpwYXJzZV9pNjRfb3IocXVlcnkucmFuZ2Vfc2VjLmFzX2RlcmVmKCksIDM2MDApCiAgICAgICAgLmNsYW1wKDYwLCAzMCAqIDI0ICogMzYwMCk7CiAgICBsZXQgbm93X21zID0gdGltZV91dGlsczo6bm93X21zKCk7CiAgICBsZXQgZnJvbV9tcyA9IG5vd19tcyAtIHJhbmdlX3NlYyAqIDEwMDA7CiAgICBsZXQgYnVja2V0X2NvdW50ID0gKChyYW5nZV9zZWMgYXMgZjY0IC8gOTAwLjApLnJvdW5kKCkgYXMgaTY0KS5jbGFtcCgxMiwgNDgpOwoKICAgIGxldCBldmVudHMgPSBtYXRjaCBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmxpc3Rfc3lzdGVtX2V2ZW50c19ieV9yYW5nZSgKICAgICAgICAgICAgZnJvbV9tcywKICAgICAgICAgICAgbm93X21zLAogICAgICAgICAgICAmWwogICAgICAgICAgICAgICAgRk5fRVZFTlRfQVVUSF9MT0dJTl9GQUlMVVJFLAogICAgICAgICAgICAgICAgRk5fRVZFTlRfU0VDVVJJVFlfU0NBTk5FUl9CTE9DS0VELAogICAgICAgICAgICBdLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgIHsKICAgICAgICBPayhldmVudHMpID0+IGV2ZW50cywKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBsb2FkIHNlY3VyaXR5IG92ZXJ2aWV3IHN5c3RlbSBldmVudHMiKTsKICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIHNlY3VyaXR5X292ZXJ2aWV3X3JvdXRlX3RleHQoJnRyYW5zbGF0b3IsICJsb2FkRmFpbGVkIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfTsKCiAgICBsZXQgZmFpbGVkX3RpbWVzdGFtcHMgPSBldmVudF90aW1lc3RhbXBzKCZldmVudHMsIEZOX0VWRU5UX0FVVEhfTE9HSU5fRkFJTFVSRSk7CiAgICBsZXQgYmxvY2tlZF90aW1lc3RhbXBzID0gZXZlbnRfdGltZXN0YW1wcygmZXZlbnRzLCBGTl9FVkVOVF9TRUNVUklUWV9TQ0FOTkVSX0JMT0NLRUQpOwogICAgbGV0IHdhZl9zZXJpZXNfYmFzZSA9IGJ1aWxkX2J1Y2tldF9zZXJpZXMoZnJvbV9tcywgbm93X21zLCBidWNrZXRfY291bnQpOwogICAgbGV0IGJ1Y2tldF9zdGFydHMgPSB3YWZfc2VyaWVzX2Jhc2UKICAgICAgICAuaXRlcigpCiAgICAgICAgLm1hcCh8cG9pbnR8IHBvaW50LjApCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgKHdhZl90b3RhbCwgd2FmX2NvdW50cykgPSBtYXRjaCBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmNvdW50X3dhZl9sb2dzX2Zvcl9idWNrZXRzKCZidWNrZXRfc3RhcnRzLCBub3dfbXMpCiAgICAgICAgLmF3YWl0CiAgICB7CiAgICAgICAgT2sodmFsdWUpID0+IHZhbHVlLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gbG9hZCBXQUYgb3ZlcnZpZXcgYnVja2V0cyIpOwogICAgICAgICAgICAoMCwgdmVjIVswOyBidWNrZXRfc3RhcnRzLmxlbigpXSkKICAgICAgICB9CiAgICB9OwogICAgbGV0IHdhZl9zZXJpZXMgPSBidWNrZXRfc3RhcnRzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5lbnVtZXJhdGUoKQogICAgICAgIC5tYXAofChpbmRleCwgc3RhcnQpfCBqc29uIShbc3RhcnQsICp3YWZfY291bnRzLmdldChpbmRleCkudW53cmFwX29yKCYwKV0pKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwoKICAgIHJlc3BvbnNlOjpvayhqc29uISh7CiAgICAgICAgInJhbmdlU2VjIjogcmFuZ2Vfc2VjLAogICAgICAgICJ0b3RhbHMiOiB7CiAgICAgICAgICAgICJmYWlsZWRMb2dpbnMiOiBmYWlsZWRfdGltZXN0YW1wcy5sZW4oKSwKICAgICAgICAgICAgImJsb2NrZWRTY2FubmVycyI6IGJsb2NrZWRfdGltZXN0YW1wcy5sZW4oKSwKICAgICAgICAgICAgIndhZkV2ZW50cyI6IHdhZl90b3RhbAogICAgICAgIH0sCiAgICAgICAgInNlcmllcyI6IHsKICAgICAgICAgICAgImZhaWxlZExvZ2lucyI6IGJ1aWxkX2NvdW50X3NlcmllcygmZmFpbGVkX3RpbWVzdGFtcHMsIGZyb21fbXMsIG5vd19tcywgYnVja2V0X2NvdW50KSwKICAgICAgICAgICAgImJsb2NrZWRTY2FubmVycyI6IGJ1aWxkX2NvdW50X3NlcmllcygmYmxvY2tlZF90aW1lc3RhbXBzLCBmcm9tX21zLCBub3dfbXMsIGJ1Y2tldF9jb3VudCksCiAgICAgICAgICAgICJ3YWZFdmVudHMiOiB3YWZfc2VyaWVzCiAgICAgICAgfQogICAgfSkpCiAgICAuaW50b19yZXNwb25zZSgpCn0KCmZuIGV2ZW50X3RpbWVzdGFtcHMoZXZlbnRzOiAmWyhWYWx1ZSwgaTY0KV0sIGV2ZW50X3R5cGU6ICZzdHIpIC0+IFZlYzxpNjQ+IHsKICAgIGV2ZW50cwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyKHwoZXZlbnQsIF8pfCBldmVudC5nZXQoInR5cGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKGV2ZW50X3R5cGUpKQogICAgICAgIC5tYXAofChfLCB0aW1lc3RhbXApfCAqdGltZXN0YW1wKQogICAgICAgIC5jb2xsZWN0KCkKfQoKZm4gYnVpbGRfY291bnRfc2VyaWVzKAogICAgdGltZXN0YW1wczogJltpNjRdLAogICAgZnJvbV9tczogaTY0LAogICAgdG9fbXM6IGk2NCwKICAgIGJ1Y2tldF9jb3VudDogaTY0LAopIC0+IFZlYzxWYWx1ZT4gewogICAgbGV0IHNwYW4gPSAodG9fbXMgLSBmcm9tX21zKS5tYXgoMSk7CiAgICBsZXQgc3RlcCA9ICgoc3BhbiArIGJ1Y2tldF9jb3VudCAtIDEpIC8gYnVja2V0X2NvdW50KS5tYXgoMSk7CiAgICBsZXQgbXV0IGJ1Y2tldHMgPSB2ZWMhWzBfaTY0OyBidWNrZXRfY291bnQubWF4KDEpIGFzIHVzaXplXTsKICAgIGZvciB0aW1lc3RhbXAgaW4gdGltZXN0YW1wcyB7CiAgICAgICAgbGV0IGluZGV4ID0KICAgICAgICAgICAgKCgqdGltZXN0YW1wIC0gZnJvbV9tcykuZGl2X2V1Y2xpZChzdGVwKSkuY2xhbXAoMCwgYnVja2V0cy5sZW4oKSBhcyBpNjQgLSAxKSBhcyB1c2l6ZTsKICAgICAgICBidWNrZXRzW2luZGV4XSArPSAxOwogICAgfQogICAgYnVja2V0cwogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5lbnVtZXJhdGUoKQogICAgICAgIC5tYXAofChpbmRleCwgY291bnQpfCBqc29uIShbZnJvbV9tcyArIGluZGV4IGFzIGk2NCAqIHN0ZXAsIGNvdW50XSkpCiAgICAgICAgLmNvbGxlY3QoKQp9CgpmbiBidWlsZF9idWNrZXRfc2VyaWVzKGZyb21fbXM6IGk2NCwgdG9fbXM6IGk2NCwgYnVja2V0X2NvdW50OiBpNjQpIC0+IFZlYzwoaTY0LCBpNjQpPiB7CiAgICBsZXQgYnVja2V0X2NvdW50ID0gYnVja2V0X2NvdW50Lm1heCgxKTsKICAgIGxldCBzcGFuID0gKHRvX21zIC0gZnJvbV9tcykubWF4KDEpOwogICAgbGV0IHN0ZXAgPSAoKHNwYW4gKyBidWNrZXRfY291bnQgLSAxKSAvIGJ1Y2tldF9jb3VudCkubWF4KDEpOwogICAgKDAuLmJ1Y2tldF9jb3VudCkKICAgICAgICAubWFwKHxpbmRleHwgKGZyb21fbXMgKyBpbmRleCAqIHN0ZXAsIDApKQogICAgICAgIC5jb2xsZWN0KCkKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CgogICAgI1t0ZXN0XQogICAgZm4gYnVpbGRzX2NvdW50X3Nlcmllc193aXRoX2NsYW1wZWRfYnVja2V0cygpIHsKICAgICAgICBsZXQgc2VyaWVzID0gYnVpbGRfY291bnRfc2VyaWVzKCZbMTAwLCAxNTAsIDFfMDAwXSwgMTAwLCAxXzAwMCwgMyk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc2VyaWVzLAogICAgICAgICAgICB2ZWMhW2pzb24hKFsxMDAsIDJdKSwganNvbiEoWzQwMCwgMF0pLCBqc29uIShbNzAwLCAxXSldCiAgICAgICAgKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBmaWx0ZXJzX2V2ZW50X3RpbWVzdGFtcHNfYnlfdHlwZSgpIHsKICAgICAgICBsZXQgZXZlbnRzID0gdmVjIVsKICAgICAgICAgICAgKGpzb24hKHsgInR5cGUiOiBGTl9FVkVOVF9BVVRIX0xPR0lOX0ZBSUxVUkUgfSksIDEwKSwKICAgICAgICAgICAgKGpzb24hKHsgInR5cGUiOiBGTl9FVkVOVF9TRUNVUklUWV9TQ0FOTkVSX0JMT0NLRUQgfSksIDIwKSwKICAgICAgICBdOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGV2ZW50X3RpbWVzdGFtcHMoJmV2ZW50cywgRk5fRVZFTlRfQVVUSF9MT0dJTl9GQUlMVVJFKSwKICAgICAgICAgICAgdmVjIVsxMF0KICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHJhbmdlX3NlY19wYXJzZXJfbWF0Y2hlc19ub2RlX3BhcnNlX2ludF9zYWZlKCkgewogICAgICAgIGFzc2VydF9lcSEoY3JhdGU6Om5vZGVfY29tcGF0OjpwYXJzZV9pNjRfb3IoTm9uZSwgMzYwMCksIDM2MDApOwogICAgICAgIGFzc2VydF9lcSEoY3JhdGU6Om5vZGVfY29tcGF0OjpwYXJzZV9pNjRfb3IoU29tZSgiOTAweCIpLCAzNjAwKSwgOTAwKTsKICAgICAgICBhc3NlcnRfZXEhKGNyYXRlOjpub2RlX2NvbXBhdDo6cGFyc2VfaTY0X29yKFNvbWUoIiAgKzMuOSIpLCAzNjAwKSwgMyk7CiAgICAgICAgYXNzZXJ0X2VxIShjcmF0ZTo6bm9kZV9jb21wYXQ6OnBhcnNlX2k2NF9vcihTb21lKCIweDEwIiksIDM2MDApLCAwKTsKICAgICAgICBhc3NlcnRfZXEhKGNyYXRlOjpub2RlX2NvbXBhdDo6cGFyc2VfaTY0X29yKFNvbWUoIm5vcGUiKSwgMzYwMCksIDM2MDApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGxvY2FsaXplc19zZWN1cml0eV9vdmVydmlld19yb3V0ZV90ZXh0KCkgewogICAgICAgIGxldCB6aCA9IFRyYW5zbGF0b3I6Om5ldygiemgtQ04iKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBzZWN1cml0eV9vdmVydmlld19yb3V0ZV90ZXh0KCZ6aCwgImxvYWRGYWlsZWQiKSwKICAgICAgICAgICAgIuWKoOi9veWuieWFqOamguiniOWksei0pSIKICAgICAgICApOwogICAgfQp9Cg==
+use axum::{
+    extract::{Query, State},
+    http::StatusCode,
+    response::{IntoResponse, Response},
+};
+use serde::Deserialize;
+use serde_json::{Value, json};
+use utoipa_axum::{router::OpenApiRouter, routes};
+
+use crate::{i18n::Translator, response, state::AppState, time_utils};
+
+fn security_overview_route_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.securityOverviewRoutes.{key}"))
+}
+
+const FN_EVENT_AUTH_LOGIN_FAILURE: &str = "FN_EVENT_AUTH_LOGIN_FAILURE";
+const FN_EVENT_SECURITY_SCANNER_BLOCKED: &str = "FN_EVENT_SECURITY_SCANNER_BLOCKED";
+
+#[derive(Deserialize)]
+struct OverviewQuery {
+    #[serde(rename = "rangeSec")]
+    range_sec: Option<String>,
+}
+
+pub fn security_overview_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new().routes(routes!(overview))
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/security/overview",
+    tag = "security",
+    operation_id = "get_api_admin_security_overview",
+    responses((status = 200, description = "Security overview for the requested time range"))
+)]
+async fn overview(State(state): State<AppState>, Query(query): Query<OverviewQuery>) -> Response {
+    let range_sec = crate::node_compat::parse_i64_or(query.range_sec.as_deref(), 3600)
+        .clamp(60, 30 * 24 * 3600);
+    let now_ms = time_utils::now_ms();
+    let from_ms = now_ms - range_sec * 1000;
+    let bucket_count = ((range_sec as f64 / 900.0).round() as i64).clamp(12, 48);
+
+    let events = match state
+        .storage
+        .store
+        .list_system_events_by_range(
+            from_ms,
+            now_ms,
+            &[
+                FN_EVENT_AUTH_LOGIN_FAILURE,
+                FN_EVENT_SECURITY_SCANNER_BLOCKED,
+            ],
+        )
+        .await
+    {
+        Ok(events) => events,
+        Err(error) => {
+            let translator = Translator::from_state(&state).await;
+            tracing::warn!(%error, "failed to load security overview system events");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                security_overview_route_text(&translator, "loadFailed"),
+            );
+        }
+    };
+
+    let failed_timestamps = event_timestamps(&events, FN_EVENT_AUTH_LOGIN_FAILURE);
+    let blocked_timestamps = event_timestamps(&events, FN_EVENT_SECURITY_SCANNER_BLOCKED);
+    let waf_series_base = build_bucket_series(from_ms, now_ms, bucket_count);
+    let bucket_starts = waf_series_base
+        .iter()
+        .map(|point| point.0)
+        .collect::<Vec<_>>();
+    let (waf_total, waf_counts) = match state
+        .storage
+        .store
+        .count_waf_logs_for_buckets(&bucket_starts, now_ms)
+        .await
+    {
+        Ok(value) => value,
+        Err(error) => {
+            tracing::warn!(%error, "failed to load WAF overview buckets");
+            (0, vec![0; bucket_starts.len()])
+        }
+    };
+    let waf_series = bucket_starts
+        .iter()
+        .enumerate()
+        .map(|(index, start)| json!([start, *waf_counts.get(index).unwrap_or(&0)]))
+        .collect::<Vec<_>>();
+
+    response::ok(json!({
+        "rangeSec": range_sec,
+        "totals": {
+            "failedLogins": failed_timestamps.len(),
+            "blockedScanners": blocked_timestamps.len(),
+            "wafEvents": waf_total
+        },
+        "series": {
+            "failedLogins": build_count_series(&failed_timestamps, from_ms, now_ms, bucket_count),
+            "blockedScanners": build_count_series(&blocked_timestamps, from_ms, now_ms, bucket_count),
+            "wafEvents": waf_series
+        }
+    }))
+    .into_response()
+}
+
+fn event_timestamps(events: &[(Value, i64)], event_type: &str) -> Vec<i64> {
+    events
+        .iter()
+        .filter(|(event, _)| event.get("type").and_then(Value::as_str) == Some(event_type))
+        .map(|(_, timestamp)| *timestamp)
+        .collect()
+}
+
+fn build_count_series(
+    timestamps: &[i64],
+    from_ms: i64,
+    to_ms: i64,
+    bucket_count: i64,
+) -> Vec<Value> {
+    let span = (to_ms - from_ms).max(1);
+    let step = ((span + bucket_count - 1) / bucket_count).max(1);
+    let mut buckets = vec![0_i64; bucket_count.max(1) as usize];
+    for timestamp in timestamps {
+        let index =
+            ((*timestamp - from_ms).div_euclid(step)).clamp(0, buckets.len() as i64 - 1) as usize;
+        buckets[index] += 1;
+    }
+    buckets
+        .into_iter()
+        .enumerate()
+        .map(|(index, count)| json!([from_ms + index as i64 * step, count]))
+        .collect()
+}
+
+fn build_bucket_series(from_ms: i64, to_ms: i64, bucket_count: i64) -> Vec<(i64, i64)> {
+    let bucket_count = bucket_count.max(1);
+    let span = (to_ms - from_ms).max(1);
+    let step = ((span + bucket_count - 1) / bucket_count).max(1);
+    (0..bucket_count)
+        .map(|index| (from_ms + index * step, 0))
+        .collect()
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn builds_count_series_with_clamped_buckets() {
+        let series = build_count_series(&[100, 150, 1_000], 100, 1_000, 3);
+        assert_eq!(
+            series,
+            vec![json!([100, 2]), json!([400, 0]), json!([700, 1])]
+        );
+    }
+
+    #[test]
+    fn filters_event_timestamps_by_type() {
+        let events = vec![
+            (json!({ "type": FN_EVENT_AUTH_LOGIN_FAILURE }), 10),
+            (json!({ "type": FN_EVENT_SECURITY_SCANNER_BLOCKED }), 20),
+        ];
+        assert_eq!(
+            event_timestamps(&events, FN_EVENT_AUTH_LOGIN_FAILURE),
+            vec![10]
+        );
+    }
+
+    #[test]
+    fn range_sec_parser_matches_node_parse_int_safe() {
+        assert_eq!(crate::node_compat::parse_i64_or(None, 3600), 3600);
+        assert_eq!(crate::node_compat::parse_i64_or(Some("900x"), 3600), 900);
+        assert_eq!(crate::node_compat::parse_i64_or(Some("  +3.9"), 3600), 3);
+        assert_eq!(crate::node_compat::parse_i64_or(Some("0x10"), 3600), 0);
+        assert_eq!(crate::node_compat::parse_i64_or(Some("nope"), 3600), 3600);
+    }
+
+    #[test]
+    fn localizes_security_overview_route_text() {
+        let zh = Translator::new("zh-CN");
+        assert_eq!(
+            security_overview_route_text(&zh, "loadFailed"),
+            "加载安全概览失败"
+        );
+    }
+}

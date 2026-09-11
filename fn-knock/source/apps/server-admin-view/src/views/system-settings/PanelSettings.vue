@@ -1,1 +1,243 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBBbGVydCwgQWxlcnREZXNjcmlwdGlvbiwgQWxlcnRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9hbGVydCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIENhcmQsCiAgQ2FyZENvbnRlbnQsCiAgQ2FyZERlc2NyaXB0aW9uLAogIENhcmRIZWFkZXIsCiAgQ2FyZFRpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBTaGllbGRBbGVydCwgU2hpZWxkQ2hlY2sgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgRG9ja2VyQWRtaW5QYXNzd29yZElucHV0IGZyb20gIi4uLy4uL2NvbXBvbmVudHMvRG9ja2VyQWRtaW5QYXNzd29yZElucHV0LnZ1ZSI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgQ29uZmlnQVBJIH0gZnJvbSAiQC9saWIvYXBpL2NvbmZpZyI7CmltcG9ydCB7IHJlc29sdmVBZG1pblBhbmVsUmVzZXRHdWlkZSB9IGZyb20gIi4uLy4uL2xpYi9kb2NrZXItYWRtaW4tcGFuZWwtcmVzZXQiOwppbXBvcnQgewogIGRvY2tlckFkbWluUGFzc3dvcmRWYWxpZGF0aW9uTWVzc2FnZUtleXMsCiAgdmFsaWRhdGVEb2NrZXJBZG1pblBhc3N3b3JkLAp9IGZyb20gIi4uLy4uL2xpYi9kb2NrZXItYWRtaW4tcGFzc3dvcmQiOwppbXBvcnQgeyB1c2VDb25maWdTdG9yZSB9IGZyb20gIi4uLy4uL3N0b3JlL2NvbmZpZyI7CmltcG9ydCB7IHVzZURvY2tlckFkbWluQXV0aFN0b3JlIH0gZnJvbSAiLi4vLi4vc3RvcmUvZG9ja2VyQWRtaW5BdXRoIjsKCmNvbnN0IGNvbmZpZ1N0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKY29uc3QgZG9ja2VyQWRtaW5BdXRoU3RvcmUgPSB1c2VEb2NrZXJBZG1pbkF1dGhTdG9yZSgpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IG5ld1Bhc3N3b3JkID0gcmVmKCIiKTsKY29uc3QgY29uZmlybVBhc3N3b3JkID0gcmVmKCIiKTsKCmNvbnN0IHJlc2V0R3VpZGUgPSBjb21wdXRlZCgoKSA9PgogIHJlc29sdmVBZG1pblBhbmVsUmVzZXRHdWlkZShjb25maWdTdG9yZS5ydW50aW1lUHJvZmlsZT8uZGVwbG95bWVudF90YXJnZXQpLAopOwoKY29uc3QgaXNQYW5lbEF1dGhNb2RlID0gY29tcHV0ZWQoCiAgKCkgPT4gY29uZmlnU3RvcmUuaXNQcm90ZWN0ZWRBZG1pblBhbmVsRGVwbG95bWVudCwKKTsKY29uc3QgcGFzc3dvcmRWYWxpZGF0aW9uRXJyb3IgPSBjb21wdXRlZCgoKSA9PgogIG5ld1Bhc3N3b3JkLnZhbHVlID8gdmFsaWRhdGVEb2NrZXJBZG1pblBhc3N3b3JkKG5ld1Bhc3N3b3JkLnZhbHVlKSA6IG51bGwsCik7CmNvbnN0IG5ld1Bhc3N3b3JkRXJyb3IgPSBjb21wdXRlZCgoKSA9PiB7CiAgY29uc3QgZXJyb3IgPSBwYXNzd29yZFZhbGlkYXRpb25FcnJvci52YWx1ZTsKICByZXR1cm4gZXJyb3IgPyB0KGRvY2tlckFkbWluUGFzc3dvcmRWYWxpZGF0aW9uTWVzc2FnZUtleXNbZXJyb3JdKSA6ICIiOwp9KTsKY29uc3QgY29uZmlybVBhc3N3b3JkRXJyb3IgPSBjb21wdXRlZCgoKSA9PgogIGNvbmZpcm1QYXNzd29yZC52YWx1ZSAmJiBjb25maXJtUGFzc3dvcmQudmFsdWUgIT09IG5ld1Bhc3N3b3JkLnZhbHVlCiAgICA/IHQoImFkbWluLnBhbmVsU2V0dGluZ3MucGFzc3dvcmRNaXNtYXRjaCIpCiAgICA6ICIiLAopOwpjb25zdCBpc0Zvcm1WYWxpZCA9IGNvbXB1dGVkKAogICgpID0+CiAgICBuZXdQYXNzd29yZC52YWx1ZS5sZW5ndGggPiAwICYmCiAgICBjb25maXJtUGFzc3dvcmQudmFsdWUubGVuZ3RoID4gMCAmJgogICAgIXBhc3N3b3JkVmFsaWRhdGlvbkVycm9yLnZhbHVlICYmCiAgICBuZXdQYXNzd29yZC52YWx1ZSA9PT0gY29uZmlybVBhc3N3b3JkLnZhbHVlLAopOwoKY29uc3QgeyBpc1BlbmRpbmc6IGlzU2F2aW5nLCBydW46IHJ1blNhdmVQYXNzd29yZCB9ID0gdXNlQXN5bmNBY3Rpb24oewogIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ucGFuZWxTZXR0aW5ncy51cGRhdGVGYWlsZWQiKSwgewogICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICBlcnJvciwKICAgICAgICB0KCJhZG1pbi5wYW5lbFNldHRpbmdzLnVwZGF0ZVBhc3N3b3JkRmFpbGVkIiksCiAgICAgICksCiAgICB9KTsKICB9LAp9KTsKCmNvbnN0IHJlc2V0Rm9ybSA9ICgpID0+IHsKICBuZXdQYXNzd29yZC52YWx1ZSA9ICIiOwogIGNvbmZpcm1QYXNzd29yZC52YWx1ZSA9ICIiOwp9OwoKY29uc3Qgc2F2ZVBhc3N3b3JkID0gYXN5bmMgKCkgPT4gewogIGNvbnN0IHBhc3N3b3JkID0gbmV3UGFzc3dvcmQudmFsdWU7CiAgY29uc3QgY29uZmlybSA9IGNvbmZpcm1QYXNzd29yZC52YWx1ZTsKCiAgaWYgKCFwYXNzd29yZCkgewogICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ucGFuZWxTZXR0aW5ncy5wYXNzd29yZFJlcXVpcmVkIikpOwogICAgcmV0dXJuOwogIH0KICBjb25zdCB2YWxpZGF0aW9uRXJyb3IgPSB2YWxpZGF0ZURvY2tlckFkbWluUGFzc3dvcmQocGFzc3dvcmQpOwogIGlmICh2YWxpZGF0aW9uRXJyb3IpIHsKICAgIHRvYXN0LmVycm9yKHQoZG9ja2VyQWRtaW5QYXNzd29yZFZhbGlkYXRpb25NZXNzYWdlS2V5c1t2YWxpZGF0aW9uRXJyb3JdKSk7CiAgICByZXR1cm47CiAgfQogIGlmIChwYXNzd29yZCAhPT0gY29uZmlybSkgewogICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ucGFuZWxTZXR0aW5ncy5wYXNzd29yZE1pc21hdGNoIikpOwogICAgcmV0dXJuOwogIH0KCiAgY29uc3QgY2hhbmdlZCA9IGF3YWl0IHJ1blNhdmVQYXNzd29yZChhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBDb25maWdBUEkuY2hhbmdlRG9ja2VyQWRtaW5QYXNzd29yZChwYXNzd29yZCk7CiAgICBhd2FpdCBkb2NrZXJBZG1pbkF1dGhTdG9yZS5ib290c3RyYXAoeyBmb3JjZTogdHJ1ZSB9KTsKICAgIHJldHVybiB0cnVlOwogIH0pOwogIGlmICghY2hhbmdlZCkgcmV0dXJuOwoKICByZXNldEZvcm0oKTsKICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLnBhbmVsU2V0dGluZ3MucGFzc3dvcmRVcGRhdGVkIiksIHsKICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5wYW5lbFNldHRpbmdzLnBhc3N3b3JkVXBkYXRlZERlc2NyaXB0aW9uIiksCiAgfSk7Cn07Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgdi1pZj0iaXNQYW5lbEF1dGhNb2RlIiBjbGFzcz0ic3BhY2UteS00Ij4KICAgIDxDYXJkPgogICAgICA8Q2FyZEhlYWRlcj4KICAgICAgICA8Q2FyZFRpdGxlPnt7IHQoImFkbWluLnBhbmVsU2V0dGluZ3MudGl0bGUiKSB9fTwvQ2FyZFRpdGxlPgogICAgICAgIDxDYXJkRGVzY3JpcHRpb24+CiAgICAgICAgICB7eyB0KCJhZG1pbi5wYW5lbFNldHRpbmdzLmRlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L0NhcmREZXNjcmlwdGlvbj4KICAgICAgPC9DYXJkSGVhZGVyPgogICAgICA8Q2FyZENvbnRlbnQ+CiAgICAgICAgPGZvcm0KICAgICAgICAgIGNsYXNzPSJzcGFjZS15LTQiCiAgICAgICAgICBhdXRvY29tcGxldGU9Im9mZiIKICAgICAgICAgIEBzdWJtaXQucHJldmVudD0ic2F2ZVBhc3N3b3JkIgogICAgICAgID4KICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICAgIDxMYWJlbCBmb3I9ImRvY2tlci1wYW5lbC1wYXNzd29yZCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucGFuZWxTZXR0aW5ncy5uZXdQYXNzd29yZCIpIH19CiAgICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICAgIDxEb2NrZXJBZG1pblBhc3N3b3JkSW5wdXQKICAgICAgICAgICAgICBpZD0iZG9ja2VyLXBhbmVsLXBhc3N3b3JkIgogICAgICAgICAgICAgIHYtbW9kZWw9Im5ld1Bhc3N3b3JkIgogICAgICAgICAgICAgIGF1dG9jb21wbGV0ZT0ibmV3LXBhc3N3b3JkIgogICAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4ucGFuZWxTZXR0aW5ncy5uZXdQYXNzd29yZFBsYWNlaG9sZGVyJykiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZyIKICAgICAgICAgICAgICA6YXJpYS1pbnZhbGlkPSJCb29sZWFuKG5ld1Bhc3N3b3JkRXJyb3IpIgogICAgICAgICAgICAgIDphcmlhLWRlc2NyaWJlZGJ5PSIKICAgICAgICAgICAgICAgIG5ld1Bhc3N3b3JkRXJyb3IgPyAnZG9ja2VyLXBhbmVsLXBhc3N3b3JkLWVycm9yJyA6IHVuZGVmaW5lZAogICAgICAgICAgICAgICIKICAgICAgICAgICAgLz4KICAgICAgICAgICAgPHAKICAgICAgICAgICAgICB2LWlmPSJuZXdQYXNzd29yZEVycm9yIgogICAgICAgICAgICAgIGlkPSJkb2NrZXItcGFuZWwtcGFzc3dvcmQtZXJyb3IiCiAgICAgICAgICAgICAgY2xhc3M9InRleHQteHMgbGVhZGluZy01IHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgcm9sZT0iYWxlcnQiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyBuZXdQYXNzd29yZEVycm9yIH19CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICAgIDxMYWJlbCBmb3I9ImRvY2tlci1wYW5lbC1wYXNzd29yZC1jb25maXJtIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5wYW5lbFNldHRpbmdzLmNvbmZpcm1QYXNzd29yZCIpIH19CiAgICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICAgIDxEb2NrZXJBZG1pblBhc3N3b3JkSW5wdXQKICAgICAgICAgICAgICBpZD0iZG9ja2VyLXBhbmVsLXBhc3N3b3JkLWNvbmZpcm0iCiAgICAgICAgICAgICAgdi1tb2RlbD0iY29uZmlybVBhc3N3b3JkIgogICAgICAgICAgICAgIGF1dG9jb21wbGV0ZT0ibmV3LXBhc3N3b3JkIgogICAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4ucGFuZWxTZXR0aW5ncy5jb25maXJtUGFzc3dvcmRQbGFjZWhvbGRlcicpIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmciCiAgICAgICAgICAgICAgOmFyaWEtaW52YWxpZD0iQm9vbGVhbihjb25maXJtUGFzc3dvcmRFcnJvcikiCiAgICAgICAgICAgICAgOmFyaWEtZGVzY3JpYmVkYnk9IgogICAgICAgICAgICAgICAgY29uZmlybVBhc3N3b3JkRXJyb3IKICAgICAgICAgICAgICAgICAgPyAnZG9ja2VyLXBhbmVsLXBhc3N3b3JkLWNvbmZpcm0tZXJyb3InCiAgICAgICAgICAgICAgICAgIDogdW5kZWZpbmVkCiAgICAgICAgICAgICAgIgogICAgICAgICAgICAvPgogICAgICAgICAgICA8cAogICAgICAgICAgICAgIHYtaWY9ImNvbmZpcm1QYXNzd29yZEVycm9yIgogICAgICAgICAgICAgIGlkPSJkb2NrZXItcGFuZWwtcGFzc3dvcmQtY29uZmlybS1lcnJvciIKICAgICAgICAgICAgICBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgICAgICByb2xlPSJhbGVydCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IGNvbmZpcm1QYXNzd29yZEVycm9yIH19CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxBbGVydD4KICAgICAgICAgICAgPFNoaWVsZENoZWNrIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICA8QWxlcnRUaXRsZT57ewogICAgICAgICAgICAgIHQoImFkbWluLnBhbmVsU2V0dGluZ3MucGFzc3dvcmRSdWxlc1RpdGxlIikKICAgICAgICAgICAgfX08L0FsZXJ0VGl0bGU+CiAgICAgICAgICAgIDxBbGVydERlc2NyaXB0aW9uPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLnBhbmVsU2V0dGluZ3MucGFzc3dvcmRSdWxlc0Rlc2NyaXB0aW9uIikgfX0KICAgICAgICAgICAgPC9BbGVydERlc2NyaXB0aW9uPgogICAgICAgICAgPC9BbGVydD4KCiAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgICAgIDxCdXR0b24gdHlwZT0ic3VibWl0IiA6ZGlzYWJsZWQ9ImlzU2F2aW5nIHx8ICFpc0Zvcm1WYWxpZCI+CiAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgIHYtaWY9ImlzU2F2aW5nIgogICAgICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiCiAgICAgICAgICAgICAgPjwvc3Bhbj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5wYW5lbFNldHRpbmdzLmNoYW5nZVBhc3N3b3JkIikgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nIgogICAgICAgICAgICAgIEBjbGljaz0icmVzZXRGb3JtIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucGFuZWxTZXR0aW5ncy5jbGVhciIpIH19CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9mb3JtPgogICAgICA8L0NhcmRDb250ZW50PgogICAgPC9DYXJkPgoKICAgIDxDYXJkIHYtaWY9InJlc2V0R3VpZGUiPgogICAgICA8Q2FyZEhlYWRlcj4KICAgICAgICA8Q2FyZFRpdGxlPnt7IHQoImFkbWluLnBhbmVsU2V0dGluZ3MuZm9yZ290VGl0bGUiKSB9fTwvQ2FyZFRpdGxlPgogICAgICAgIDxDYXJkRGVzY3JpcHRpb24+CiAgICAgICAgICB7eyB0KHJlc2V0R3VpZGUuZGVzY3JpcHRpb25LZXkpIH19CiAgICAgICAgPC9DYXJkRGVzY3JpcHRpb24+CiAgICAgIDwvQ2FyZEhlYWRlcj4KICAgICAgPENhcmRDb250ZW50IGNsYXNzPSJzcGFjZS15LTQiPgogICAgICAgIDxBbGVydD4KICAgICAgICAgIDxTaGllbGRBbGVydCBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgIDxBbGVydFRpdGxlPnt7CiAgICAgICAgICAgIHQoImFkbWluLnBhbmVsU2V0dGluZ3MucmVzZXRSZXN1bHRUaXRsZSIpCiAgICAgICAgICB9fTwvQWxlcnRUaXRsZT4KICAgICAgICAgIDxBbGVydERlc2NyaXB0aW9uPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5wYW5lbFNldHRpbmdzLnJlc2V0UmVzdWx0RGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgPC9BbGVydERlc2NyaXB0aW9uPgogICAgICAgIDwvQWxlcnQ+CgogICAgICAgIDxkaXYKICAgICAgICAgIHYtZm9yPSJzdGVwIGluIHJlc2V0R3VpZGUuc3RlcHMiCiAgICAgICAgICA6a2V5PSJzdGVwLmxhYmVsS2V5IgogICAgICAgICAgY2xhc3M9InNwYWNlLXktMiIKICAgICAgICA+CiAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgIHt7IHQoc3RlcC5sYWJlbEtleSkgfX0KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxwcmUKICAgICAgICAgICAgY2xhc3M9InctZnVsbCBtYXgtdy1mdWxsIG92ZXJmbG93LXgtYXV0byB3aGl0ZXNwYWNlLXByZS13cmFwIGJyZWFrLXdvcmRzIHJvdW5kZWQtbGcgYm9yZGVyIGJnLW11dGVkLzQwIHB4LTMgcHktMyB0ZXh0LXNtIGxlYWRpbmctNiIKICAgICAgICAgID48Y29kZT57eyBzdGVwLmNvbW1hbmQgfX08L2NvZGU+PC9wcmU+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICA8L0NhcmQ+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
+import { ShieldAlert, ShieldCheck } from "lucide-vue-next";
+import DockerAdminPasswordInput from "../../components/DockerAdminPasswordInput.vue";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { ConfigAPI } from "@/lib/api/config";
+import { resolveAdminPanelResetGuide } from "../../lib/docker-admin-panel-reset";
+import {
+  dockerAdminPasswordValidationMessageKeys,
+  validateDockerAdminPassword,
+} from "../../lib/docker-admin-password";
+import { useConfigStore } from "../../store/config";
+import { useDockerAdminAuthStore } from "../../store/dockerAdminAuth";
+
+const configStore = useConfigStore();
+const dockerAdminAuthStore = useDockerAdminAuthStore();
+const { t } = useI18n();
+
+const newPassword = ref("");
+const confirmPassword = ref("");
+
+const resetGuide = computed(() =>
+  resolveAdminPanelResetGuide(configStore.runtimeProfile?.deployment_target),
+);
+
+const isPanelAuthMode = computed(
+  () => configStore.isProtectedAdminPanelDeployment,
+);
+const passwordValidationError = computed(() =>
+  newPassword.value ? validateDockerAdminPassword(newPassword.value) : null,
+);
+const newPasswordError = computed(() => {
+  const error = passwordValidationError.value;
+  return error ? t(dockerAdminPasswordValidationMessageKeys[error]) : "";
+});
+const confirmPasswordError = computed(() =>
+  confirmPassword.value && confirmPassword.value !== newPassword.value
+    ? t("admin.panelSettings.passwordMismatch")
+    : "",
+);
+const isFormValid = computed(
+  () =>
+    newPassword.value.length > 0 &&
+    confirmPassword.value.length > 0 &&
+    !passwordValidationError.value &&
+    newPassword.value === confirmPassword.value,
+);
+
+const { isPending: isSaving, run: runSavePassword } = useAsyncAction({
+  onError: (error) => {
+    toast.error(t("admin.panelSettings.updateFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.panelSettings.updatePasswordFailed"),
+      ),
+    });
+  },
+});
+
+const resetForm = () => {
+  newPassword.value = "";
+  confirmPassword.value = "";
+};
+
+const savePassword = async () => {
+  const password = newPassword.value;
+  const confirm = confirmPassword.value;
+
+  if (!password) {
+    toast.error(t("admin.panelSettings.passwordRequired"));
+    return;
+  }
+  const validationError = validateDockerAdminPassword(password);
+  if (validationError) {
+    toast.error(t(dockerAdminPasswordValidationMessageKeys[validationError]));
+    return;
+  }
+  if (password !== confirm) {
+    toast.error(t("admin.panelSettings.passwordMismatch"));
+    return;
+  }
+
+  const changed = await runSavePassword(async () => {
+    await ConfigAPI.changeDockerAdminPassword(password);
+    await dockerAdminAuthStore.bootstrap({ force: true });
+    return true;
+  });
+  if (!changed) return;
+
+  resetForm();
+  toast.success(t("admin.panelSettings.passwordUpdated"), {
+    description: t("admin.panelSettings.passwordUpdatedDescription"),
+  });
+};
+</script>
+
+<template>
+  <div v-if="isPanelAuthMode" class="space-y-4">
+    <Card>
+      <CardHeader>
+        <CardTitle>{{ t("admin.panelSettings.title") }}</CardTitle>
+        <CardDescription>
+          {{ t("admin.panelSettings.description") }}
+        </CardDescription>
+      </CardHeader>
+      <CardContent>
+        <form
+          class="space-y-4"
+          autocomplete="off"
+          @submit.prevent="savePassword"
+        >
+          <div class="space-y-2">
+            <Label for="docker-panel-password">
+              {{ t("admin.panelSettings.newPassword") }}
+            </Label>
+            <DockerAdminPasswordInput
+              id="docker-panel-password"
+              v-model="newPassword"
+              autocomplete="new-password"
+              :placeholder="t('admin.panelSettings.newPasswordPlaceholder')"
+              :disabled="isSaving"
+              :aria-invalid="Boolean(newPasswordError)"
+              :aria-describedby="
+                newPasswordError ? 'docker-panel-password-error' : undefined
+              "
+            />
+            <p
+              v-if="newPasswordError"
+              id="docker-panel-password-error"
+              class="text-xs leading-5 text-destructive"
+              role="alert"
+            >
+              {{ newPasswordError }}
+            </p>
+          </div>
+
+          <div class="space-y-2">
+            <Label for="docker-panel-password-confirm">
+              {{ t("admin.panelSettings.confirmPassword") }}
+            </Label>
+            <DockerAdminPasswordInput
+              id="docker-panel-password-confirm"
+              v-model="confirmPassword"
+              autocomplete="new-password"
+              :placeholder="t('admin.panelSettings.confirmPasswordPlaceholder')"
+              :disabled="isSaving"
+              :aria-invalid="Boolean(confirmPasswordError)"
+              :aria-describedby="
+                confirmPasswordError
+                  ? 'docker-panel-password-confirm-error'
+                  : undefined
+              "
+            />
+            <p
+              v-if="confirmPasswordError"
+              id="docker-panel-password-confirm-error"
+              class="text-xs leading-5 text-destructive"
+              role="alert"
+            >
+              {{ confirmPasswordError }}
+            </p>
+          </div>
+
+          <Alert>
+            <ShieldCheck class="h-4 w-4" />
+            <AlertTitle>{{
+              t("admin.panelSettings.passwordRulesTitle")
+            }}</AlertTitle>
+            <AlertDescription>
+              {{ t("admin.panelSettings.passwordRulesDescription") }}
+            </AlertDescription>
+          </Alert>
+
+          <div class="flex items-center gap-3">
+            <Button type="submit" :disabled="isSaving || !isFormValid">
+              <span
+                v-if="isSaving"
+                class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+              ></span>
+              {{ t("admin.panelSettings.changePassword") }}
+            </Button>
+            <Button
+              type="button"
+              variant="outline"
+              :disabled="isSaving"
+              @click="resetForm"
+            >
+              {{ t("admin.panelSettings.clear") }}
+            </Button>
+          </div>
+        </form>
+      </CardContent>
+    </Card>
+
+    <Card v-if="resetGuide">
+      <CardHeader>
+        <CardTitle>{{ t("admin.panelSettings.forgotTitle") }}</CardTitle>
+        <CardDescription>
+          {{ t(resetGuide.descriptionKey) }}
+        </CardDescription>
+      </CardHeader>
+      <CardContent class="space-y-4">
+        <Alert>
+          <ShieldAlert class="h-4 w-4" />
+          <AlertTitle>{{
+            t("admin.panelSettings.resetResultTitle")
+          }}</AlertTitle>
+          <AlertDescription>
+            {{ t("admin.panelSettings.resetResultDescription") }}
+          </AlertDescription>
+        </Alert>
+
+        <div
+          v-for="step in resetGuide.steps"
+          :key="step.labelKey"
+          class="space-y-2"
+        >
+          <p class="text-sm font-medium">
+            {{ t(step.labelKey) }}
+          </p>
+          <pre
+            class="w-full max-w-full overflow-x-auto whitespace-pre-wrap break-words rounded-lg border bg-muted/40 px-3 py-3 text-sm leading-6"
+          ><code>{{ step.command }}</code></pre>
+        </div>
+      </CardContent>
+    </Card>
+  </div>
+</template>

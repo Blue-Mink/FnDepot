@@ -1,1 +1,44 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uQmVmb3JlVW5tb3VudCwgcmVmLCB0b1ZhbHVlLCB3YXRjaCwgdHlwZSBNYXliZVJlZk9yR2V0dGVyIH0gZnJvbSAndnVlJzsKCmludGVyZmFjZSBVc2VEZWxheWVkTG9hZGluZ09wdGlvbnMgewogIGRlbGF5PzogbnVtYmVyOwp9CgpleHBvcnQgZnVuY3Rpb24gdXNlRGVsYXllZExvYWRpbmcoCiAgc291cmNlOiBNYXliZVJlZk9yR2V0dGVyPGJvb2xlYW4+LAogIG9wdGlvbnM6IFVzZURlbGF5ZWRMb2FkaW5nT3B0aW9ucyA9IHt9LAopIHsKICBjb25zdCBkZWxheSA9IG9wdGlvbnMuZGVsYXkgPz8gMjIwOwogIGNvbnN0IHZpc2libGUgPSByZWYoZmFsc2UpOwogIGxldCB0aW1lcjogUmV0dXJuVHlwZTx0eXBlb2Ygc2V0VGltZW91dD4gfCBudWxsID0gbnVsbDsKCiAgY29uc3QgY2xlYXJUaW1lciA9ICgpID0+IHsKICAgIGlmICh0aW1lcikgewogICAgICBjbGVhclRpbWVvdXQodGltZXIpOwogICAgICB0aW1lciA9IG51bGw7CiAgICB9CiAgfTsKCiAgd2F0Y2goCiAgICAoKSA9PiB0b1ZhbHVlKHNvdXJjZSksCiAgICAobG9hZGluZykgPT4gewogICAgICBjbGVhclRpbWVyKCk7CiAgICAgIGlmICghbG9hZGluZykgewogICAgICAgIHZpc2libGUudmFsdWUgPSBmYWxzZTsKICAgICAgICByZXR1cm47CiAgICAgIH0KCiAgICAgIHRpbWVyID0gc2V0VGltZW91dCgoKSA9PiB7CiAgICAgICAgdmlzaWJsZS52YWx1ZSA9IHRydWU7CiAgICAgICAgdGltZXIgPSBudWxsOwogICAgICB9LCBkZWxheSk7CiAgICB9LAogICAgeyBpbW1lZGlhdGU6IHRydWUgfSwKICApOwoKICBvbkJlZm9yZVVubW91bnQoKCkgPT4gewogICAgY2xlYXJUaW1lcigpOwogIH0pOwoKICByZXR1cm4gY29tcHV0ZWQoKCkgPT4gdmlzaWJsZS52YWx1ZSk7Cn0K
+import { computed, onBeforeUnmount, ref, toValue, watch, type MaybeRefOrGetter } from 'vue';
+
+interface UseDelayedLoadingOptions {
+  delay?: number;
+}
+
+export function useDelayedLoading(
+  source: MaybeRefOrGetter<boolean>,
+  options: UseDelayedLoadingOptions = {},
+) {
+  const delay = options.delay ?? 220;
+  const visible = ref(false);
+  let timer: ReturnType<typeof setTimeout> | null = null;
+
+  const clearTimer = () => {
+    if (timer) {
+      clearTimeout(timer);
+      timer = null;
+    }
+  };
+
+  watch(
+    () => toValue(source),
+    (loading) => {
+      clearTimer();
+      if (!loading) {
+        visible.value = false;
+        return;
+      }
+
+      timer = setTimeout(() => {
+        visible.value = true;
+        timer = null;
+      }, delay);
+    },
+    { immediate: true },
+  );
+
+  onBeforeUnmount(() => {
+    clearTimer();
+  });
+
+  return computed(() => visible.value);
+}

@@ -1,1 +1,194 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgcmVhY3RpdmUsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gInZ1ZS1yb3V0ZXIiOwppbXBvcnQgeyBTY2FubmVyQVBJLCB0eXBlIFNjYW5uZXJTZXR0aW5ncyB9IGZyb20gIkAvbGliL2FwaS9zZWN1cml0eSI7CmltcG9ydCB0eXBlIHsgR2F0ZXdheVZpc2liaWxpdHlTZWxlY3Rpb24gfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsgZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbktleSB9IGZyb20gIkAvdHlwZXMvY2lkciI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdXNlRGVsYXllZExvYWRpbmcgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZURlbGF5ZWRMb2FkaW5nIjsKaW1wb3J0IHsgcGFyc2VDaWRyVGV4dGFyZWEgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL2NpZHIiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwoKZXhwb3J0IHR5cGUgU2Nhbm5lckZpcmV3YWxsRm9ybSA9IHsKICBlbmFibGVkOiBib29sZWFuOwogIGNvbW1vbkxvY2F0aW9uRXhlbXB0RW5hYmxlZDogYm9vbGVhbjsKICB3aW5kb3dNaW51dGVzOiBudW1iZXI7CiAgdGhyZXNob2xkOiBudW1iZXI7CiAgYmxhY2tsaXN0VHRsRGF5czogbnVtYmVyOwogIGNpZHJFeGVtcHRpb25SZWdpb25zOiBHYXRld2F5VmlzaWJpbGl0eVNlbGVjdGlvbltdOwogIGNpZHJFeGVtcHRpb25zVGV4dDogc3RyaW5nOwp9OwoKY29uc3QgQkFTRV9XSU5ET1dfTUlOVVRFUyA9IDU7CgpleHBvcnQgY29uc3QgdXNlU2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MgPSAoKSA9PiB7CiAgY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7CiAgY29uc3Qgc2V0dGluZ3MgPSByZWY8U2Nhbm5lclNldHRpbmdzIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgZm9ybSA9IHJlYWN0aXZlPFNjYW5uZXJGaXJld2FsbEZvcm0+KHsKICAgIGVuYWJsZWQ6IHRydWUsCiAgICBjb21tb25Mb2NhdGlvbkV4ZW1wdEVuYWJsZWQ6IGZhbHNlLAogICAgd2luZG93TWludXRlczogQkFTRV9XSU5ET1dfTUlOVVRFUywKICAgIHRocmVzaG9sZDogMywKICAgIGJsYWNrbGlzdFR0bERheXM6IDkwLAogICAgY2lkckV4ZW1wdGlvblJlZ2lvbnM6IFtdLAogICAgY2lkckV4ZW1wdGlvbnNUZXh0OiAiIiwKICB9KTsKCiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzTG9hZGluZywgcnVuOiBydW5Mb2FkU2V0dGluZ3MgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy5sb2FkRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MubG9hZERlc2NyaXB0aW9uIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwogIGNvbnN0IHNob3dMb2FkaW5nU2tlbGV0b24gPSB1c2VEZWxheWVkTG9hZGluZyhpc0xvYWRpbmcpOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1NhdmluZywgcnVuOiBydW5TYXZlU2V0dGluZ3MgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy5zYXZlRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3Muc2F2ZURlc2NyaXB0aW9uIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwoKICBjb25zdCBkZXJpdmVkV2luZG93TWludXRlcyA9IGNvbXB1dGVkKCgpID0+CiAgICBNYXRoLm1heChCQVNFX1dJTkRPV19NSU5VVEVTLCBOdW1iZXIoZm9ybS53aW5kb3dNaW51dGVzKSB8fCAwKSwKICApOwogIGNvbnN0IGNpZHJFeGVtcHRpb25zU3RhdGUgPSBjb21wdXRlZCgoKSA9PgogICAgcGFyc2VDaWRyVGV4dGFyZWEoZm9ybS5jaWRyRXhlbXB0aW9uc1RleHQpLAogICk7CiAgY29uc3QgaW52YWxpZENpZHJFeGVtcHRpb25zID0gY29tcHV0ZWQoCiAgICAoKSA9PiBjaWRyRXhlbXB0aW9uc1N0YXRlLnZhbHVlLmludmFsaWQsCiAgKTsKICBjb25zdCByZWdpb25JbnB1dHNEaXNhYmxlZCA9IGNvbXB1dGVkKAogICAgKCkgPT4gaXNTYXZpbmcudmFsdWUgfHwgIWZvcm0uZW5hYmxlZCwKICApOwogIGNvbnN0IGlzRGlydHkgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoIXNldHRpbmdzLnZhbHVlKSByZXR1cm4gZmFsc2U7CiAgICBjb25zdCBzYXZlZFJlZ2lvbktleXMgPSAoc2V0dGluZ3MudmFsdWUuY2lkckV4ZW1wdGlvblJlZ2lvbnMgPz8gW10pLm1hcCgKICAgICAgZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbktleSwKICAgICk7CiAgICBjb25zdCBmb3JtUmVnaW9uS2V5cyA9IGZvcm0uY2lkckV4ZW1wdGlvblJlZ2lvbnMubWFwKAogICAgICBnZXRDaWRyUmVnaW9uU2VsZWN0aW9uS2V5LAogICAgKTsKICAgIHJldHVybiAoCiAgICAgIHNldHRpbmdzLnZhbHVlLmVuYWJsZWQgIT09IGZvcm0uZW5hYmxlZCB8fAogICAgICBzZXR0aW5ncy52YWx1ZS5jb21tb25Mb2NhdGlvbkV4ZW1wdEVuYWJsZWQgIT09CiAgICAgICAgZm9ybS5jb21tb25Mb2NhdGlvbkV4ZW1wdEVuYWJsZWQgfHwKICAgICAgc2V0dGluZ3MudmFsdWUud2luZG93TWludXRlcyAhPT0gTnVtYmVyKGZvcm0ud2luZG93TWludXRlcykgfHwKICAgICAgc2V0dGluZ3MudmFsdWUudGhyZXNob2xkICE9PSBOdW1iZXIoZm9ybS50aHJlc2hvbGQpIHx8CiAgICAgIE1hdGguY2VpbChzZXR0aW5ncy52YWx1ZS5ibGFja2xpc3RUdGxTZWNvbmRzIC8gODY0MDApICE9PQogICAgICAgIE51bWJlcihmb3JtLmJsYWNrbGlzdFR0bERheXMpIHx8CiAgICAgIEpTT04uc3RyaW5naWZ5KHNhdmVkUmVnaW9uS2V5cykgIT09IEpTT04uc3RyaW5naWZ5KGZvcm1SZWdpb25LZXlzKSB8fAogICAgICBKU09OLnN0cmluZ2lmeShzZXR0aW5ncy52YWx1ZS5jaWRyRXhlbXB0aW9ucyA/PyBbXSkgIT09CiAgICAgICAgSlNPTi5zdHJpbmdpZnkoY2lkckV4ZW1wdGlvbnNTdGF0ZS52YWx1ZS5jaWRycykKICAgICk7CiAgfSk7CiAgY29uc3Qgc2F2ZUJsb2NrZWRSZWFzb24gPSBjb21wdXRlZCgoKSA9PgogICAgaW52YWxpZENpZHJFeGVtcHRpb25zLnZhbHVlLmxlbmd0aCA+IDAKICAgICAgPyB0KCJhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy5maXhDaWRyRXhlbXB0aW9ucyIpCiAgICAgIDogIiIsCiAgKTsKCiAgY29uc3QgYXBwbHlGcm9tU2V0dGluZ3MgPSAoZGF0YTogU2Nhbm5lclNldHRpbmdzKSA9PiB7CiAgICBzZXR0aW5ncy52YWx1ZSA9IGRhdGE7CiAgICBPYmplY3QuYXNzaWduKGZvcm0sIHsKICAgICAgZW5hYmxlZDogZGF0YS5lbmFibGVkLAogICAgICBjb21tb25Mb2NhdGlvbkV4ZW1wdEVuYWJsZWQ6CiAgICAgICAgZGF0YS5jb21tb25Mb2NhdGlvbkV4ZW1wdEVuYWJsZWQgPT09IHRydWUsCiAgICAgIHdpbmRvd01pbnV0ZXM6IGRhdGEud2luZG93TWludXRlcywKICAgICAgdGhyZXNob2xkOiBkYXRhLnRocmVzaG9sZCwKICAgICAgYmxhY2tsaXN0VHRsRGF5czogTWF0aC5tYXgoCiAgICAgICAgMSwKICAgICAgICBNYXRoLmNlaWwoZGF0YS5ibGFja2xpc3RUdGxTZWNvbmRzIC8gODY0MDApLAogICAgICApLAogICAgICBjaWRyRXhlbXB0aW9uUmVnaW9uczogKGRhdGEuY2lkckV4ZW1wdGlvblJlZ2lvbnMgPz8gW10pLm1hcCgoaXRlbSkgPT4gKHsKICAgICAgICAuLi5pdGVtLAogICAgICB9KSksCiAgICAgIGNpZHJFeGVtcHRpb25zVGV4dDogKGRhdGEuY2lkckV4ZW1wdGlvbnMgPz8gW10pLmpvaW4oIlxuIiksCiAgICB9KTsKICB9OwogIGNvbnN0IGZldGNoU2V0dGluZ3MgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBydW5Mb2FkU2V0dGluZ3MoYXN5bmMgKCkgPT4gewogICAgICBhcHBseUZyb21TZXR0aW5ncyhhd2FpdCBTY2FubmVyQVBJLmdldFNldHRpbmdzKCkpOwogICAgfSk7CiAgfTsKICBjb25zdCByZXNldEZvcm0gPSAoKSA9PiB7CiAgICBpZiAoc2V0dGluZ3MudmFsdWUpIGFwcGx5RnJvbVNldHRpbmdzKHNldHRpbmdzLnZhbHVlKTsKICB9OwogIGNvbnN0IHNhdmVTZXR0aW5ncyA9IGFzeW5jICgpID0+IHsKICAgIGlmIChpbnZhbGlkQ2lkckV4ZW1wdGlvbnMudmFsdWUubGVuZ3RoID4gMCkgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy5jaWRyVmFsaWRhdGlvbkZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IHQoCiAgICAgICAgICAiYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MuY2lkckV4ZW1wdGlvbnNJbnZhbGlkIiwKICAgICAgICAgIHsgaXRlbXM6IGludmFsaWRDaWRyRXhlbXB0aW9ucy52YWx1ZS5qb2luKCLjgIEiKSB9LAogICAgICAgICksCiAgICAgIH0pOwogICAgICByZXR1cm47CiAgICB9CiAgICBhd2FpdCBydW5TYXZlU2V0dGluZ3MoCiAgICAgICgpID0+CiAgICAgICAgU2Nhbm5lckFQSS5zYXZlU2V0dGluZ3MoewogICAgICAgICAgZW5hYmxlZDogZm9ybS5lbmFibGVkLAogICAgICAgICAgY29tbW9uTG9jYXRpb25FeGVtcHRFbmFibGVkOiBmb3JtLmNvbW1vbkxvY2F0aW9uRXhlbXB0RW5hYmxlZCwKICAgICAgICAgIHdpbmRvd01pbnV0ZXM6IE1hdGgubWF4KDEsIE51bWJlcihmb3JtLndpbmRvd01pbnV0ZXMpIHx8IDEpLAogICAgICAgICAgdGhyZXNob2xkOiBNYXRoLm1heCgxLCBOdW1iZXIoZm9ybS50aHJlc2hvbGQpIHx8IDEpLAogICAgICAgICAgYmxhY2tsaXN0VHRsU2Vjb25kczogTWF0aC5tYXgoCiAgICAgICAgICAgIDYwLAogICAgICAgICAgICBNYXRoLmZsb29yKChOdW1iZXIoZm9ybS5ibGFja2xpc3RUdGxEYXlzKSB8fCAxKSAqIDg2NDAwKSwKICAgICAgICAgICksCiAgICAgICAgICBjaWRyRXhlbXB0aW9uUmVnaW9uczogZm9ybS5jaWRyRXhlbXB0aW9uUmVnaW9ucy5tYXAoKGl0ZW0pID0+ICh7CiAgICAgICAgICAgIHByb3ZpbmNlOiBpdGVtLnByb3ZpbmNlLAogICAgICAgICAgICBxdWVyeV9jaXR5OiBpdGVtLnF1ZXJ5X2NpdHksCiAgICAgICAgICAgIG9wZXJhdG9yOiBpdGVtLm9wZXJhdG9yLAogICAgICAgICAgfSkpLAogICAgICAgICAgY2lkckV4ZW1wdGlvbnM6IGNpZHJFeGVtcHRpb25zU3RhdGUudmFsdWUuY2lkcnMsCiAgICAgICAgfSksCiAgICAgIHsKICAgICAgICBvblN1Y2Nlc3M6IChkYXRhKSA9PiB7CiAgICAgICAgICBhcHBseUZyb21TZXR0aW5ncyhkYXRhKTsKICAgICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MudXBkYXRlZCIpKTsKICAgICAgICB9LAogICAgICB9LAogICAgKTsKICB9OwogIGNvbnN0IGdvVG9CbGFja2xpc3QgPSAoKSA9PiB7CiAgICB2b2lkIHJvdXRlci5wdXNoKHsgcGF0aDogIi9zZXNzaW9ucyIsIHF1ZXJ5OiB7IHRhYjogImlwLWJsYWNrbGlzdCIgfSB9KTsKICB9OwogIGNvbnN0IGdvVG9QYXRoV2hpdGVsaXN0ID0gKCkgPT4gewogICAgdm9pZCByb3V0ZXIucHVzaCh7IHBhdGg6ICIvc3lzdGVtL3NjYW5uZXItcGF0aC13aGl0ZWxpc3QiIH0pOwogIH07CgogIG9uTW91bnRlZCgoKSA9PiB2b2lkIGZldGNoU2V0dGluZ3MoKSk7CgogIHJldHVybiByZWFjdGl2ZSh7CiAgICBiYXNlV2luZG93TWludXRlczogQkFTRV9XSU5ET1dfTUlOVVRFUywKICAgIGNpZHJFeGVtcHRpb25zU3RhdGUsCiAgICBkZXJpdmVkV2luZG93TWludXRlcywKICAgIGZvcm0sCiAgICBnb1RvQmxhY2tsaXN0LAogICAgZ29Ub1BhdGhXaGl0ZWxpc3QsCiAgICBpbnZhbGlkQ2lkckV4ZW1wdGlvbnMsCiAgICBpc0RpcnR5LAogICAgaXNMb2FkaW5nLAogICAgaXNTYXZpbmcsCiAgICByZWdpb25JbnB1dHNEaXNhYmxlZCwKICAgIHJlc2V0Rm9ybSwKICAgIHNhdmVCbG9ja2VkUmVhc29uLAogICAgc2F2ZVNldHRpbmdzLAogICAgc2hvd0xvYWRpbmdTa2VsZXRvbiwKICB9KTsKfTsKCmV4cG9ydCB0eXBlIFNjYW5uZXJGaXJld2FsbFNldHRpbmdzTW9kZWwgPSBSZXR1cm5UeXBlPAogIHR5cGVvZiB1c2VTY2FubmVyRmlyZXdhbGxTZXR0aW5ncwo+Owo=
+import { computed, onMounted, reactive, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRouter } from "vue-router";
+import { ScannerAPI, type ScannerSettings } from "@/lib/api/security";
+import type { GatewayVisibilitySelection } from "@/types";
+import { getCidrRegionSelectionKey } from "@/types/cidr";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import { parseCidrTextarea } from "@admin-shared/utils/cidr";
+import { toast } from "@admin-shared/utils/toast";
+
+export type ScannerFirewallForm = {
+  enabled: boolean;
+  commonLocationExemptEnabled: boolean;
+  windowMinutes: number;
+  threshold: number;
+  blacklistTtlDays: number;
+  cidrExemptionRegions: GatewayVisibilitySelection[];
+  cidrExemptionsText: string;
+};
+
+const BASE_WINDOW_MINUTES = 5;
+
+export const useScannerFirewallSettings = () => {
+  const { t } = useI18n();
+  const router = useRouter();
+  const settings = ref<ScannerSettings | null>(null);
+  const form = reactive<ScannerFirewallForm>({
+    enabled: true,
+    commonLocationExemptEnabled: false,
+    windowMinutes: BASE_WINDOW_MINUTES,
+    threshold: 3,
+    blacklistTtlDays: 90,
+    cidrExemptionRegions: [],
+    cidrExemptionsText: "",
+  });
+
+  const { isPending: isLoading, run: runLoadSettings } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.scannerFirewallSettings.loadFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.scannerFirewallSettings.loadDescription"),
+        ),
+      });
+    },
+  });
+  const showLoadingSkeleton = useDelayedLoading(isLoading);
+  const { isPending: isSaving, run: runSaveSettings } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.scannerFirewallSettings.saveFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.scannerFirewallSettings.saveDescription"),
+        ),
+      });
+    },
+  });
+
+  const derivedWindowMinutes = computed(() =>
+    Math.max(BASE_WINDOW_MINUTES, Number(form.windowMinutes) || 0),
+  );
+  const cidrExemptionsState = computed(() =>
+    parseCidrTextarea(form.cidrExemptionsText),
+  );
+  const invalidCidrExemptions = computed(
+    () => cidrExemptionsState.value.invalid,
+  );
+  const regionInputsDisabled = computed(
+    () => isSaving.value || !form.enabled,
+  );
+  const isDirty = computed(() => {
+    if (!settings.value) return false;
+    const savedRegionKeys = (settings.value.cidrExemptionRegions ?? []).map(
+      getCidrRegionSelectionKey,
+    );
+    const formRegionKeys = form.cidrExemptionRegions.map(
+      getCidrRegionSelectionKey,
+    );
+    return (
+      settings.value.enabled !== form.enabled ||
+      settings.value.commonLocationExemptEnabled !==
+        form.commonLocationExemptEnabled ||
+      settings.value.windowMinutes !== Number(form.windowMinutes) ||
+      settings.value.threshold !== Number(form.threshold) ||
+      Math.ceil(settings.value.blacklistTtlSeconds / 86400) !==
+        Number(form.blacklistTtlDays) ||
+      JSON.stringify(savedRegionKeys) !== JSON.stringify(formRegionKeys) ||
+      JSON.stringify(settings.value.cidrExemptions ?? []) !==
+        JSON.stringify(cidrExemptionsState.value.cidrs)
+    );
+  });
+  const saveBlockedReason = computed(() =>
+    invalidCidrExemptions.value.length > 0
+      ? t("admin.scannerFirewallSettings.fixCidrExemptions")
+      : "",
+  );
+
+  const applyFromSettings = (data: ScannerSettings) => {
+    settings.value = data;
+    Object.assign(form, {
+      enabled: data.enabled,
+      commonLocationExemptEnabled:
+        data.commonLocationExemptEnabled === true,
+      windowMinutes: data.windowMinutes,
+      threshold: data.threshold,
+      blacklistTtlDays: Math.max(
+        1,
+        Math.ceil(data.blacklistTtlSeconds / 86400),
+      ),
+      cidrExemptionRegions: (data.cidrExemptionRegions ?? []).map((item) => ({
+        ...item,
+      })),
+      cidrExemptionsText: (data.cidrExemptions ?? []).join("\n"),
+    });
+  };
+  const fetchSettings = async () => {
+    await runLoadSettings(async () => {
+      applyFromSettings(await ScannerAPI.getSettings());
+    });
+  };
+  const resetForm = () => {
+    if (settings.value) applyFromSettings(settings.value);
+  };
+  const saveSettings = async () => {
+    if (invalidCidrExemptions.value.length > 0) {
+      toast.error(t("admin.scannerFirewallSettings.cidrValidationFailed"), {
+        description: t(
+          "admin.scannerFirewallSettings.cidrExemptionsInvalid",
+          { items: invalidCidrExemptions.value.join("、") },
+        ),
+      });
+      return;
+    }
+    await runSaveSettings(
+      () =>
+        ScannerAPI.saveSettings({
+          enabled: form.enabled,
+          commonLocationExemptEnabled: form.commonLocationExemptEnabled,
+          windowMinutes: Math.max(1, Number(form.windowMinutes) || 1),
+          threshold: Math.max(1, Number(form.threshold) || 1),
+          blacklistTtlSeconds: Math.max(
+            60,
+            Math.floor((Number(form.blacklistTtlDays) || 1) * 86400),
+          ),
+          cidrExemptionRegions: form.cidrExemptionRegions.map((item) => ({
+            province: item.province,
+            query_city: item.query_city,
+            operator: item.operator,
+          })),
+          cidrExemptions: cidrExemptionsState.value.cidrs,
+        }),
+      {
+        onSuccess: (data) => {
+          applyFromSettings(data);
+          toast.success(t("admin.scannerFirewallSettings.updated"));
+        },
+      },
+    );
+  };
+  const goToBlacklist = () => {
+    void router.push({ path: "/sessions", query: { tab: "ip-blacklist" } });
+  };
+  const goToPathWhitelist = () => {
+    void router.push({ path: "/system/scanner-path-whitelist" });
+  };
+
+  onMounted(() => void fetchSettings());
+
+  return reactive({
+    baseWindowMinutes: BASE_WINDOW_MINUTES,
+    cidrExemptionsState,
+    derivedWindowMinutes,
+    form,
+    goToBlacklist,
+    goToPathWhitelist,
+    invalidCidrExemptions,
+    isDirty,
+    isLoading,
+    isSaving,
+    regionInputsDisabled,
+    resetForm,
+    saveBlockedReason,
+    saveSettings,
+    showLoadingSkeleton,
+  });
+};
+
+export type ScannerFirewallSettingsModel = ReturnType<
+  typeof useScannerFirewallSettings
+>;

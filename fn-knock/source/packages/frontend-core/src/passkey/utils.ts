@@ -1,1 +1,85 @@
-ZnVuY3Rpb24gYmFzZTY0VXJsVG9VaW50OEFycmF5KHZhbHVlOiBzdHJpbmcpIHsKICBjb25zdCBwYWRkaW5nID0gIj0iLnJlcGVhdCgoNCAtICh2YWx1ZS5sZW5ndGggJSA0KSkgJSA0KTsKICBjb25zdCBiYXNlNjQgPSAodmFsdWUgKyBwYWRkaW5nKS5yZXBsYWNlKC8tL2csICIrIikucmVwbGFjZSgvXy9nLCAiLyIpOwogIGNvbnN0IHJhdyA9IGF0b2IoYmFzZTY0KTsKICBjb25zdCBhcnJheSA9IG5ldyBVaW50OEFycmF5KHJhdy5sZW5ndGgpOwoKICBmb3IgKGxldCBpID0gMDsgaSA8IHJhdy5sZW5ndGg7IGkgKz0gMSkgewogICAgYXJyYXlbaV0gPSByYXcuY2hhckNvZGVBdChpKTsKICB9CgogIHJldHVybiBhcnJheTsKfQoKZnVuY3Rpb24gYXJyYXlCdWZmZXJUb0Jhc2U2NFVybChidWZmZXI6IEFycmF5QnVmZmVyKSB7CiAgY29uc3QgYnl0ZXMgPSBuZXcgVWludDhBcnJheShidWZmZXIpOwogIGxldCBiaW5hcnkgPSAiIjsKICBieXRlcy5mb3JFYWNoKCh2YWx1ZSkgPT4gewogICAgYmluYXJ5ICs9IFN0cmluZy5mcm9tQ2hhckNvZGUodmFsdWUpOwogIH0pOwogIHJldHVybiBidG9hKGJpbmFyeSkKICAgIC5yZXBsYWNlKC9cKy9nLCAiLSIpCiAgICAucmVwbGFjZSgvXC8vZywgIl8iKQogICAgLnJlcGxhY2UoLz0rJC9nLCAiIik7Cn0KCmV4cG9ydCBmdW5jdGlvbiBub3JtYWxpemVDcmVhdGlvbk9wdGlvbnMob3B0aW9uczogYW55KSB7CiAgcmV0dXJuIHsKICAgIC4uLm9wdGlvbnMsCiAgICBjaGFsbGVuZ2U6IGJhc2U2NFVybFRvVWludDhBcnJheShvcHRpb25zLmNoYWxsZW5nZSksCiAgICB1c2VyOiB7CiAgICAgIC4uLm9wdGlvbnMudXNlciwKICAgICAgaWQ6IGJhc2U2NFVybFRvVWludDhBcnJheShvcHRpb25zLnVzZXIuaWQpLAogICAgfSwKICAgIGV4Y2x1ZGVDcmVkZW50aWFsczogb3B0aW9ucy5leGNsdWRlQ3JlZGVudGlhbHM/Lm1hcCgoY3JlZGVudGlhbDogYW55KSA9PiAoewogICAgICAuLi5jcmVkZW50aWFsLAogICAgICBpZDogYmFzZTY0VXJsVG9VaW50OEFycmF5KGNyZWRlbnRpYWwuaWQpLAogICAgfSkpLAogIH07Cn0KCmV4cG9ydCBmdW5jdGlvbiBub3JtYWxpemVSZXF1ZXN0T3B0aW9ucyhvcHRpb25zOiBhbnkpIHsKICByZXR1cm4gewogICAgLi4ub3B0aW9ucywKICAgIGNoYWxsZW5nZTogYmFzZTY0VXJsVG9VaW50OEFycmF5KG9wdGlvbnMuY2hhbGxlbmdlKSwKICAgIGFsbG93Q3JlZGVudGlhbHM6IG9wdGlvbnMuYWxsb3dDcmVkZW50aWFscz8ubWFwKChjcmVkZW50aWFsOiBhbnkpID0+ICh7CiAgICAgIC4uLmNyZWRlbnRpYWwsCiAgICAgIGlkOiBiYXNlNjRVcmxUb1VpbnQ4QXJyYXkoY3JlZGVudGlhbC5pZCksCiAgICB9KSksCiAgfTsKfQoKZXhwb3J0IGZ1bmN0aW9uIHNlcmlhbGl6ZUNyZWRlbnRpYWwoY3JlZGVudGlhbDogUHVibGljS2V5Q3JlZGVudGlhbCkgewogIGNvbnN0IHJlc3BvbnNlID0gY3JlZGVudGlhbC5yZXNwb25zZSBhcwogICAgQXV0aGVudGljYXRvckF0dGVzdGF0aW9uUmVzcG9uc2UgfCBBdXRoZW50aWNhdG9yQXNzZXJ0aW9uUmVzcG9uc2U7CiAgY29uc3QgYmFzZSA9IHsKICAgIGlkOiBjcmVkZW50aWFsLmlkLAogICAgcmF3SWQ6IGFycmF5QnVmZmVyVG9CYXNlNjRVcmwoY3JlZGVudGlhbC5yYXdJZCksCiAgICB0eXBlOiBjcmVkZW50aWFsLnR5cGUsCiAgICBjbGllbnRFeHRlbnNpb25SZXN1bHRzOiBjcmVkZW50aWFsLmdldENsaWVudEV4dGVuc2lvblJlc3VsdHMoKSwKICB9OwoKICBpZiAoImF0dGVzdGF0aW9uT2JqZWN0IiBpbiByZXNwb25zZSkgewogICAgcmV0dXJuIHsKICAgICAgLi4uYmFzZSwKICAgICAgcmVzcG9uc2U6IHsKICAgICAgICBhdHRlc3RhdGlvbk9iamVjdDogYXJyYXlCdWZmZXJUb0Jhc2U2NFVybChyZXNwb25zZS5hdHRlc3RhdGlvbk9iamVjdCksCiAgICAgICAgY2xpZW50RGF0YUpTT046IGFycmF5QnVmZmVyVG9CYXNlNjRVcmwocmVzcG9uc2UuY2xpZW50RGF0YUpTT04pLAogICAgICAgIHRyYW5zcG9ydHM6IHJlc3BvbnNlLmdldFRyYW5zcG9ydHM/LigpLAogICAgICB9LAogICAgfTsKICB9CgogIGNvbnN0IGFzc2VydGlvbiA9IHJlc3BvbnNlIGFzIEF1dGhlbnRpY2F0b3JBc3NlcnRpb25SZXNwb25zZTsKICByZXR1cm4gewogICAgLi4uYmFzZSwKICAgIHJlc3BvbnNlOiB7CiAgICAgIGF1dGhlbnRpY2F0b3JEYXRhOiBhcnJheUJ1ZmZlclRvQmFzZTY0VXJsKGFzc2VydGlvbi5hdXRoZW50aWNhdG9yRGF0YSksCiAgICAgIGNsaWVudERhdGFKU09OOiBhcnJheUJ1ZmZlclRvQmFzZTY0VXJsKGFzc2VydGlvbi5jbGllbnREYXRhSlNPTiksCiAgICAgIHNpZ25hdHVyZTogYXJyYXlCdWZmZXJUb0Jhc2U2NFVybChhc3NlcnRpb24uc2lnbmF0dXJlKSwKICAgICAgdXNlckhhbmRsZTogYXNzZXJ0aW9uLnVzZXJIYW5kbGUKICAgICAgICA/IGFycmF5QnVmZmVyVG9CYXNlNjRVcmwoYXNzZXJ0aW9uLnVzZXJIYW5kbGUpCiAgICAgICAgOiBudWxsLAogICAgfSwKICB9Owp9Cg==
+function base64UrlToUint8Array(value: string) {
+  const padding = "=".repeat((4 - (value.length % 4)) % 4);
+  const base64 = (value + padding).replace(/-/g, "+").replace(/_/g, "/");
+  const raw = atob(base64);
+  const array = new Uint8Array(raw.length);
+
+  for (let i = 0; i < raw.length; i += 1) {
+    array[i] = raw.charCodeAt(i);
+  }
+
+  return array;
+}
+
+function arrayBufferToBase64Url(buffer: ArrayBuffer) {
+  const bytes = new Uint8Array(buffer);
+  let binary = "";
+  bytes.forEach((value) => {
+    binary += String.fromCharCode(value);
+  });
+  return btoa(binary)
+    .replace(/\+/g, "-")
+    .replace(/\//g, "_")
+    .replace(/=+$/g, "");
+}
+
+export function normalizeCreationOptions(options: any) {
+  return {
+    ...options,
+    challenge: base64UrlToUint8Array(options.challenge),
+    user: {
+      ...options.user,
+      id: base64UrlToUint8Array(options.user.id),
+    },
+    excludeCredentials: options.excludeCredentials?.map((credential: any) => ({
+      ...credential,
+      id: base64UrlToUint8Array(credential.id),
+    })),
+  };
+}
+
+export function normalizeRequestOptions(options: any) {
+  return {
+    ...options,
+    challenge: base64UrlToUint8Array(options.challenge),
+    allowCredentials: options.allowCredentials?.map((credential: any) => ({
+      ...credential,
+      id: base64UrlToUint8Array(credential.id),
+    })),
+  };
+}
+
+export function serializeCredential(credential: PublicKeyCredential) {
+  const response = credential.response as
+    AuthenticatorAttestationResponse | AuthenticatorAssertionResponse;
+  const base = {
+    id: credential.id,
+    rawId: arrayBufferToBase64Url(credential.rawId),
+    type: credential.type,
+    clientExtensionResults: credential.getClientExtensionResults(),
+  };
+
+  if ("attestationObject" in response) {
+    return {
+      ...base,
+      response: {
+        attestationObject: arrayBufferToBase64Url(response.attestationObject),
+        clientDataJSON: arrayBufferToBase64Url(response.clientDataJSON),
+        transports: response.getTransports?.(),
+      },
+    };
+  }
+
+  const assertion = response as AuthenticatorAssertionResponse;
+  return {
+    ...base,
+    response: {
+      authenticatorData: arrayBufferToBase64Url(assertion.authenticatorData),
+      clientDataJSON: arrayBufferToBase64Url(assertion.clientDataJSON),
+      signature: arrayBufferToBase64Url(assertion.signature),
+      userHandle: assertion.userHandle
+        ? arrayBufferToBase64Url(assertion.userHandle)
+        : null,
+    },
+  };
+}

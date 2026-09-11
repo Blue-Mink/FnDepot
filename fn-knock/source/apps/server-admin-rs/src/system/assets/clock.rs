@@ -1,1 +1,479 @@
-I1tjZmcodW5peCldCnVzZSBzdGQ6OntmcywgcGF0aDo6UGF0aH07CnVzZSBzdGQ6OnsKICAgIHN5bmM6OntNdXRleCwgTXV0ZXhHdWFyZH0sCiAgICB0aW1lOjpJbnN0YW50LAp9OwoKdXNlIDo6dGltZTo6e09mZnNldERhdGVUaW1lLCBVdGNPZmZzZXQsIGZvcm1hdF9kZXNjcmlwdGlvbjo6d2VsbF9rbm93bjo6UmZjMjgyMn07CnVzZSBheHVtOjpodHRwOjpoZWFkZXI7CnVzZSBzZXJkZV9qc29uOjp7VmFsdWUsIGpzb259OwoKdXNlIGNyYXRlOjp7aTE4bjo6VHJhbnNsYXRvciwgc3RhdGU6OkFwcFN0YXRlLCB0aW1lX3V0aWxzfTsKCnVzZSBzdXBlcjo6ewogICAgQ0xPQ0tfU1RBVFVTLCBFWFBFQ1RFRF9USU1FX1pPTkUsIE5FVFdPUktfVElNRV9TT1VSQ0VTLCBUSU1FX0RSSUZUX1RIUkVTSE9MRF9NUywKICAgIHByb2Nlc3M6OnJ1bl9wcm9jZXNzX3N1Y2Nlc3MsIHJ1bnRpbWU6OmRldGVjdF9zeXN0ZW1fdGltZXpvbmUsCn07CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGNhY2hlZF9jbG9ja19zdGF0dXMoc3RhdGU6ICZBcHBTdGF0ZSwgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IpIC0+IFZhbHVlIHsKICAgIGlmIGxldCBTb21lKHN0YXR1cykgPSBjbG9ja19zdGF0dXNfZ3VhcmQoKS5jbG9uZSgpIHsKICAgICAgICByZXR1cm4gbG9jYWxpemVfY2xvY2tfc3RhdHVzKHN0YXR1cywgdHJhbnNsYXRvcik7CiAgICB9CiAgICBidWlsZF9jbG9ja19zdGF0dXMoc3RhdGUsIGZhbHNlLCB0cmFuc2xhdG9yKS5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHJlZnJlc2hfY2xvY2tfc3RhdHVzKHN0YXRlOiAmQXBwU3RhdGUsIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yKSAtPiBWYWx1ZSB7CiAgICBsZXQgc3RhdHVzID0gYnVpbGRfY2xvY2tfc3RhdHVzKHN0YXRlLCB0cnVlLCB0cmFuc2xhdG9yKS5hd2FpdDsKICAgICpjbG9ja19zdGF0dXNfZ3VhcmQoKSA9IFNvbWUoc3RhdHVzLmNsb25lKCkpOwogICAgc3RhdHVzCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gYnVpbGRfY2xvY2tfc3RhdHVzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGNoZWNrZWQ6IGJvb2wsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBWYWx1ZSB7CiAgICBsZXQgc3lzdGVtX3RpbWVfbXMgPSB0aW1lX3V0aWxzOjpub3dfbXMoKTsKICAgIGxldCBzeXN0ZW1fdGltZV96b25lID0gZGV0ZWN0X3N5c3RlbV90aW1lem9uZSgpOwogICAgbGV0IHRpbWV6b25lX21pc21hdGNoID0gc3lzdGVtX3RpbWVfem9uZS5hc19kZXJlZigpICE9IFNvbWUoRVhQRUNURURfVElNRV9aT05FKTsKICAgIGxldCByZW1vdGUgPSBpZiBjaGVja2VkIHsKICAgICAgICBmZXRjaF9uZXR3b3JrX3RpbWUoc3RhdGUsIHRyYW5zbGF0b3IpLmF3YWl0CiAgICB9IGVsc2UgewogICAgICAgIE9rKE5vbmUpCiAgICB9OwogICAgbGV0IChuZXR3b3JrX3NvdXJjZSwgcmVtb3RlX3RpbWVfbXMsIGxhc3RfY2hlY2tfZXJyb3IpID0gbWF0Y2ggcmVtb3RlIHsKICAgICAgICBPayhTb21lKHJlbW90ZSkpID0+IChTb21lKHJlbW90ZS5zb3VyY2UpLCBTb21lKHJlbW90ZS5lcG9jaF9tcyksIE5vbmUpLAogICAgICAgIE9rKE5vbmUpID0+IChOb25lLCBOb25lLCBOb25lKSwKICAgICAgICBFcnIoZXJyb3IpID0+IChOb25lLCBOb25lLCBTb21lKGVycm9yKSksCiAgICB9OwogICAgbGV0IGRyaWZ0X21zID0gcmVtb3RlX3RpbWVfbXMubWFwKHxyZW1vdGV8IHN5c3RlbV90aW1lX21zIC0gcmVtb3RlKTsKICAgIGxldCB0aW1lX21pc21hdGNoID0gZHJpZnRfbXMuaXNfc29tZV9hbmQofHZhbHVlfCB2YWx1ZS5hYnMoKSA+IFRJTUVfRFJJRlRfVEhSRVNIT0xEX01TKTsKICAgIGxldCBtdXQgc3RhdHVzID0ganNvbiEoewogICAgICAgICJleHBlY3RlZFRpbWVab25lIjogRVhQRUNURURfVElNRV9aT05FLAogICAgICAgICJzeXN0ZW1UaW1lWm9uZSI6IHN5c3RlbV90aW1lX3pvbmUsCiAgICAgICAgImNoZWNrZWRBdCI6IGlmIGNoZWNrZWQgeyBWYWx1ZTo6U3RyaW5nKHRpbWVfdXRpbHM6Om5vd19pc28oKSkgfSBlbHNlIHsgVmFsdWU6Ok51bGwgfSwKICAgICAgICAibmV0d29ya1NvdXJjZSI6IG5ldHdvcmtfc291cmNlLAogICAgICAgICJoYXNSZW1vdGVUaW1lIjogcmVtb3RlX3RpbWVfbXMuaXNfc29tZSgpLAogICAgICAgICJsYXN0Q2hlY2tFcnJvciI6IGxhc3RfY2hlY2tfZXJyb3IsCiAgICAgICAgInN5c3RlbVRpbWVNcyI6IHN5c3RlbV90aW1lX21zLAogICAgICAgICJyZW1vdGVUaW1lTXMiOiByZW1vdGVfdGltZV9tcywKICAgICAgICAic3lzdGVtQmVpamluZ1RpbWUiOiBmb3JtYXRfYmVpamluZ190aW1lKHN5c3RlbV90aW1lX21zLCB0cmFuc2xhdG9yLmxvY2FsZSgpKSwKICAgICAgICAicmVtb3RlQmVpamluZ1RpbWUiOiByZW1vdGVfdGltZV9tcy5hbmRfdGhlbih8dmFsdWV8IHsKICAgICAgICAgICAgZm9ybWF0X2JlaWppbmdfdGltZSh2YWx1ZSwgdHJhbnNsYXRvci5sb2NhbGUoKSkKICAgICAgICB9KSwKICAgICAgICAiZHJpZnRNcyI6IGRyaWZ0X21zLAogICAgICAgICJkcmlmdFRocmVzaG9sZE1zIjogVElNRV9EUklGVF9USFJFU0hPTERfTVMsCiAgICAgICAgInRpbWVNaXNtYXRjaCI6IHRpbWVfbWlzbWF0Y2gsCiAgICAgICAgInRpbWV6b25lTWlzbWF0Y2giOiB0aW1lem9uZV9taXNtYXRjaCwKICAgICAgICAibmVlZHNBdHRlbnRpb24iOiB0aW1lem9uZV9taXNtYXRjaCB8fCB0aW1lX21pc21hdGNoLAogICAgICAgICJpc3N1ZXMiOiBbXSwKICAgICAgICAiY2hlY2tpbmciOiBmYWxzZSwKICAgICAgICAic3luY0luUHJvZ3Jlc3MiOiBmYWxzZSwKICAgICAgICAibGFzdFN5bmNBdCI6IFZhbHVlOjpOdWxsLAogICAgICAgICJsYXN0U3luY0Vycm9yIjogVmFsdWU6Ok51bGwsCiAgICAgICAgInN5bmNTdW1tYXJ5IjogVmFsdWU6Ok51bGwKICAgIH0pOwogICAgcHJlc2VydmVfY2xvY2tfc3luY19tZXRhZGF0YSgmbXV0IHN0YXR1cyk7CiAgICBsb2NhbGl6ZV9jbG9ja19zdGF0dXMoc3RhdHVzLCB0cmFuc2xhdG9yKQp9CgpwdWIoc3VwZXIpIGZuIGxvY2FsaXplX2Nsb2NrX3N0YXR1cyhtdXQgc3RhdHVzOiBWYWx1ZSwgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IpIC0+IFZhbHVlIHsKICAgIGxldCB0aW1lem9uZV9taXNtYXRjaCA9IHN0YXR1cwogICAgICAgIC5nZXQoInRpbWV6b25lTWlzbWF0Y2giKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAudW53cmFwX29yKGZhbHNlKTsKICAgIGxldCB0aW1lX21pc21hdGNoID0gc3RhdHVzCiAgICAgICAgLmdldCgidGltZU1pc21hdGNoIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgLnVud3JhcF9vcihmYWxzZSk7CiAgICBsZXQgc3lzdGVtX3RpbWVfem9uZSA9IHN0YXR1cwogICAgICAgIC5nZXQoInN5c3RlbVRpbWVab25lIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCB0cmFuc2xhdG9yLnQoInNlcnZlci5zeXN0ZW1DbG9jay51bmtub3duIikpOwogICAgbGV0IGRyaWZ0X21zID0gc3RhdHVzLmdldCgiZHJpZnRNcyIpLmFuZF90aGVuKFZhbHVlOjphc19pNjQpOwoKICAgIGxldCBtdXQgaXNzdWVzID0gVmVjOjpuZXcoKTsKICAgIGlmIHRpbWV6b25lX21pc21hdGNoIHsKICAgICAgICBpc3N1ZXMucHVzaChqc29uISh7CiAgICAgICAgICAgICJjb2RlIjogInRpbWV6b25lX21pc21hdGNoIiwKICAgICAgICAgICAgInRpdGxlIjogdHJhbnNsYXRvci50KCJzZXJ2ZXIuc3lzdGVtQ2xvY2suaXNzdWVzLnRpbWV6b25lLnRpdGxlIiksCiAgICAgICAgICAgICJtZXNzYWdlIjogdHJhbnNsYXRvci50X3BhcmFtcygKICAgICAgICAgICAgICAgICJzZXJ2ZXIuc3lzdGVtQ2xvY2suaXNzdWVzLnRpbWV6b25lLm1lc3NhZ2UiLAogICAgICAgICAgICAgICAgJlsKICAgICAgICAgICAgICAgICAgICAoInRpbWV6b25lIiwgc3lzdGVtX3RpbWVfem9uZSksCiAgICAgICAgICAgICAgICAgICAgKCJleHBlY3RlZCIsIEVYUEVDVEVEX1RJTUVfWk9ORS50b19zdHJpbmcoKSkKICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgKQogICAgICAgIH0pKTsKICAgIH0KICAgIGlmIHRpbWVfbWlzbWF0Y2ggJiYgbGV0IFNvbWUoZHJpZnRfbXMpID0gZHJpZnRfbXMgewogICAgICAgIGlzc3Vlcy5wdXNoKGpzb24hKHsKICAgICAgICAgICAgImNvZGUiOiAidGltZV9taXNtYXRjaCIsCiAgICAgICAgICAgICJ0aXRsZSI6IHRyYW5zbGF0b3IudCgic2VydmVyLnN5c3RlbUNsb2NrLmlzc3Vlcy50aW1lTWlzbWF0Y2gudGl0bGUiKSwKICAgICAgICAgICAgIm1lc3NhZ2UiOiB0cmFuc2xhdG9yLnRfcGFyYW1zKAogICAgICAgICAgICAgICAgInNlcnZlci5zeXN0ZW1DbG9jay5pc3N1ZXMudGltZU1pc21hdGNoLm1lc3NhZ2UiLAogICAgICAgICAgICAgICAgJlsoImRyaWZ0IiwgZm9ybWF0X2RyaWZ0KGRyaWZ0X21zLCB0cmFuc2xhdG9yKSldCiAgICAgICAgICAgICkKICAgICAgICB9KSk7CiAgICB9CgogICAgaWYgbGV0IFNvbWUob2JqZWN0KSA9IHN0YXR1cy5hc19vYmplY3RfbXV0KCkgewogICAgICAgIG9iamVjdC5pbnNlcnQoImlzc3VlcyIudG9fc3RyaW5nKCksIFZhbHVlOjpBcnJheShpc3N1ZXMpKTsKICAgIH0KICAgIHN0YXR1cwp9CgpwdWIoc3VwZXIpIGZuIGZvcm1hdF9kcmlmdChkcmlmdF9tczogaTY0LCB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvcikgLT4gU3RyaW5nIHsKICAgIGxldCB0b3RhbF9zZWNvbmRzID0gKChkcmlmdF9tcy5hYnMoKSArIDUwMCkgLyAxMDAwKS5tYXgoMSk7CiAgICBsZXQgbWludXRlcyA9IHRvdGFsX3NlY29uZHMgLyA2MDsKICAgIGxldCBzZWNvbmRzID0gdG90YWxfc2Vjb25kcyAlIDYwOwogICAgaWYgbWludXRlcyA8PSAwIHsKICAgICAgICByZXR1cm4gdHJhbnNsYXRvci50X3BhcmFtcygKICAgICAgICAgICAgInNlcnZlci5zeXN0ZW1DbG9jay5kdXJhdGlvbi5zZWNvbmRzIiwKICAgICAgICAgICAgJlsoInNlY29uZHMiLCBzZWNvbmRzLnRvX3N0cmluZygpKV0sCiAgICAgICAgKTsKICAgIH0KICAgIGlmIHNlY29uZHMgPT0gMCB7CiAgICAgICAgcmV0dXJuIHRyYW5zbGF0b3IudF9wYXJhbXMoCiAgICAgICAgICAgICJzZXJ2ZXIuc3lzdGVtQ2xvY2suZHVyYXRpb24ubWludXRlcyIsCiAgICAgICAgICAgICZbKCJtaW51dGVzIiwgbWludXRlcy50b19zdHJpbmcoKSldLAogICAgICAgICk7CiAgICB9CiAgICB0cmFuc2xhdG9yLnRfcGFyYW1zKAogICAgICAgICJzZXJ2ZXIuc3lzdGVtQ2xvY2suZHVyYXRpb24ubWludXRlc1NlY29uZHMiLAogICAgICAgICZbCiAgICAgICAgICAgICgibWludXRlcyIsIG1pbnV0ZXMudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAoInNlY29uZHMiLCBzZWNvbmRzLnRvX3N0cmluZygpKSwKICAgICAgICBdLAogICAgKQp9CgpzdHJ1Y3QgTmV0d29ya1RpbWVSZXN1bHQgewogICAgZXBvY2hfbXM6IGk2NCwKICAgIHNvdXJjZTogU3RyaW5nLAp9Cgphc3luYyBmbiBmZXRjaF9uZXR3b3JrX3RpbWUoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gUmVzdWx0PE9wdGlvbjxOZXR3b3JrVGltZVJlc3VsdD4sIFN0cmluZz4gewogICAgbGV0IG11dCBsYXN0X2Vycm9yID0gdHJhbnNsYXRvci50KCJzZXJ2ZXIuc3lzdGVtQ2xvY2submV0d29ya1RpbWVVbmF2YWlsYWJsZSIpOwogICAgZm9yIChsYWJlbCwgdXJsKSBpbiBORVRXT1JLX1RJTUVfU09VUkNFUyB7CiAgICAgICAgbWF0Y2ggZmV0Y2hfbmV0d29ya190aW1lX2Zyb21fc291cmNlKHN0YXRlLCB0cmFuc2xhdG9yLCBsYWJlbCwgdXJsKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKHJlc3VsdCkgPT4gcmV0dXJuIE9rKFNvbWUocmVzdWx0KSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gbGFzdF9lcnJvciA9IGVycm9yLAogICAgICAgIH0KICAgIH0KICAgIEVycihsYXN0X2Vycm9yKQp9Cgphc3luYyBmbiBmZXRjaF9uZXR3b3JrX3RpbWVfZnJvbV9zb3VyY2UoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICBsYWJlbDogJnN0ciwKICAgIHVybDogJnN0ciwKKSAtPiBSZXN1bHQ8TmV0d29ya1RpbWVSZXN1bHQsIFN0cmluZz4gewogICAgbGV0IHN0YXJ0ZWQgPSBJbnN0YW50Ojpub3coKTsKICAgIGxldCBtdXQgZGF0ZV9oZWFkZXIgPSBzdGF0ZQogICAgICAgIC5mYWxsYmFja19jbGllbnQKICAgICAgICAuaGVhZCh1cmwpCiAgICAgICAgLmhlYWRlcihoZWFkZXI6OkNBQ0hFX0NPTlRST0wsICJuby1jYWNoZSIpCiAgICAgICAgLmhlYWRlcihoZWFkZXI6OlBSQUdNQSwgIm5vLWNhY2hlIikKICAgICAgICAuc2VuZCgpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm9rKCkKICAgICAgICAuYW5kX3RoZW4ofHJlc3BvbnNlfCB7CiAgICAgICAgICAgIHJlc3BvbnNlCiAgICAgICAgICAgICAgICAuaGVhZGVycygpCiAgICAgICAgICAgICAgICAuZ2V0KGhlYWRlcjo6REFURSkKICAgICAgICAgICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnRvX3N0cigpLm9rKCkpCiAgICAgICAgICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgICAgIH0pOwoKICAgIGlmIGRhdGVfaGVhZGVyLmlzX25vbmUoKSB7CiAgICAgICAgZGF0ZV9oZWFkZXIgPSBzdGF0ZQogICAgICAgICAgICAuZmFsbGJhY2tfY2xpZW50CiAgICAgICAgICAgIC5nZXQodXJsKQogICAgICAgICAgICAuaGVhZGVyKGhlYWRlcjo6Q0FDSEVfQ09OVFJPTCwgIm5vLWNhY2hlIikKICAgICAgICAgICAgLmhlYWRlcihoZWFkZXI6OlBSQUdNQSwgIm5vLWNhY2hlIikKICAgICAgICAgICAgLnNlbmQoKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcF9lcnIofF98IHsKICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IudF9wYXJhbXMoCiAgICAgICAgICAgICAgICAgICAgInNlcnZlci5zeXN0ZW1DbG9jay5zb3VyY2VGZXRjaEZhaWxlZCIsCiAgICAgICAgICAgICAgICAgICAgJlsoInNvdXJjZSIsIGxhYmVsLnRvX3N0cmluZygpKV0sCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0pPwogICAgICAgICAgICAuaGVhZGVycygpCiAgICAgICAgICAgIC5nZXQoaGVhZGVyOjpEQVRFKQogICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS50b19zdHIoKS5vaygpKQogICAgICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKTsKICAgIH0KCiAgICBsZXQgZGF0ZV9oZWFkZXIgPSBkYXRlX2hlYWRlci5va19vcl9lbHNlKHx8IHsKICAgICAgICB0cmFuc2xhdG9yLnRfcGFyYW1zKAogICAgICAgICAgICAic2VydmVyLnN5c3RlbUNsb2NrLm1pc3NpbmdEYXRlSGVhZGVyIiwKICAgICAgICAgICAgJlsoInNvdXJjZSIsIGxhYmVsLnRvX3N0cmluZygpKV0sCiAgICAgICAgKQogICAgfSk/OwogICAgbGV0IHBhcnNlZCA9IE9mZnNldERhdGVUaW1lOjpwYXJzZSgmZGF0ZV9oZWFkZXIsICZSZmMyODIyKS5tYXBfZXJyKHxffCB7CiAgICAgICAgdHJhbnNsYXRvci50X3BhcmFtcygKICAgICAgICAgICAgInNlcnZlci5zeXN0ZW1DbG9jay5pbnZhbGlkRGF0ZUhlYWRlciIsCiAgICAgICAgICAgICZbKCJzb3VyY2UiLCBsYWJlbC50b19zdHJpbmcoKSldLAogICAgICAgICkKICAgIH0pPzsKICAgIGxldCBsYXRlbmN5X21zID0gc3RhcnRlZC5lbGFwc2VkKCkuYXNfbWlsbGlzKCkubWluKGk2NDo6TUFYIGFzIHUxMjgpIGFzIGk2NDsKICAgIE9rKE5ldHdvcmtUaW1lUmVzdWx0IHsKICAgICAgICBlcG9jaF9tczogcGFyc2VkLnVuaXhfdGltZXN0YW1wKCkgKiAxMDAwICsgbmV0d29ya19sYXRlbmN5X2NvbXBlbnNhdGlvbl9tcyhsYXRlbmN5X21zKSwKICAgICAgICBzb3VyY2U6IGxhYmVsLnRvX3N0cmluZygpLAogICAgfSkKfQoKcHViKHN1cGVyKSBmbiBuZXR3b3JrX2xhdGVuY3lfY29tcGVuc2F0aW9uX21zKGxhdGVuY3lfbXM6IGk2NCkgLT4gaTY0IHsKICAgIGxhdGVuY3lfbXMubWF4KDApLnNhdHVyYXRpbmdfYWRkKDEpIC8gMgp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHN5bmNfc3lzdGVtX2Nsb2NrKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IFJlc3VsdDwoU3RyaW5nLCBWYWx1ZSksIFN0cmluZz4gewogICAgc2V0X2Nsb2NrX3N5bmNfaW5fcHJvZ3Jlc3MoKTsKICAgIG1hdGNoIHN5bmNfc3lzdGVtX2Nsb2NrX2lubmVyKHN0YXRlLCB0cmFuc2xhdG9yKS5hd2FpdCB7CiAgICAgICAgT2socmVzdWx0KSA9PiBPayhyZXN1bHQpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICBzZXRfY2xvY2tfc3luY19lcnJvcihlcnJvci5jbG9uZSgpKTsKICAgICAgICAgICAgRXJyKGVycm9yKQogICAgICAgIH0KICAgIH0KfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzeW5jX3N5c3RlbV9jbG9ja19pbm5lcigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBSZXN1bHQ8KFN0cmluZywgVmFsdWUpLCBTdHJpbmc+IHsKICAgIGxldCBiZWZvcmUgPSBidWlsZF9jbG9ja19zdGF0dXMoc3RhdGUsIHRydWUsIHRyYW5zbGF0b3IpLmF3YWl0OwogICAgbGV0IG11dCBhY3Rpb25zID0gVmVjOjpuZXcoKTsKCiAgICBpZiBiZWZvcmUuZ2V0KCJzeXN0ZW1UaW1lWm9uZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpICE9IFNvbWUoRVhQRUNURURfVElNRV9aT05FKSB7CiAgICAgICAgYWN0aW9ucy5wdXNoKHNldF9zeXN0ZW1fdGltZXpvbmUodHJhbnNsYXRvcik/KTsKICAgIH0KCiAgICBpZiBsZXQgU29tZShyZW1vdGVfdGltZV9tcykgPSBiZWZvcmUuZ2V0KCJyZW1vdGVUaW1lTXMiKS5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KSB7CiAgICAgICAgbGV0IGNoZWNrZWRfYXRfbXMgPSBiZWZvcmUKICAgICAgICAgICAgLmdldCgiY2hlY2tlZEF0IikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgIC5hbmRfdGhlbih0aW1lX3V0aWxzOjpwYXJzZV9pc29fbXMpCiAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh0aW1lX3V0aWxzOjpub3dfbXMpOwogICAgICAgIGFjdGlvbnMucHVzaChzZXRfc3lzdGVtX2Nsb2NrKAogICAgICAgICAgICBjbG9ja19zeW5jX3RhcmdldF9lcG9jaF9tcyhyZW1vdGVfdGltZV9tcywgY2hlY2tlZF9hdF9tcywgdGltZV91dGlsczo6bm93X21zKCkpLAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICk/KTsKICAgIH0KCiAgICBpZiBsZXQgU29tZShtZXNzYWdlKSA9IGVuYWJsZV9uZXR3b3JrX3RpbWVfc3luYyh0cmFuc2xhdG9yKSB7CiAgICAgICAgYWN0aW9ucy5wdXNoKG1lc3NhZ2UpOwogICAgfQoKICAgIHRva2lvOjp0aW1lOjpzbGVlcChzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX21pbGxpcygxNTAwKSkuYXdhaXQ7CiAgICBsZXQgbXV0IG5leHQgPSBidWlsZF9jbG9ja19zdGF0dXMoc3RhdGUsIHRydWUsIHRyYW5zbGF0b3IpLmF3YWl0OwogICAgbGV0IG1lc3NhZ2UgPSBpZiBhY3Rpb25zLmlzX2VtcHR5KCkgewogICAgICAgIHRyYW5zbGF0b3IudCgic2VydmVyLnN5c3RlbUNsb2NrLnN0YXR1c1JlZnJlc2hlZCIpCiAgICB9IGVsc2UgewogICAgICAgIGFjdGlvbnMuam9pbigmdHJhbnNsYXRvci50KCJzZXJ2ZXIuc3lzdGVtQ2xvY2suYWN0aW9uU2VwYXJhdG9yIikpCiAgICB9OwogICAgbmV4dFsic3luY0luUHJvZ3Jlc3MiXSA9IFZhbHVlOjpCb29sKGZhbHNlKTsKICAgIG5leHRbImxhc3RTeW5jQXQiXSA9IGpzb24hKHRpbWVfdXRpbHM6Om5vd19pc28oKSk7CiAgICBuZXh0WyJsYXN0U3luY0Vycm9yIl0gPSBWYWx1ZTo6TnVsbDsKICAgIG5leHRbInN5bmNTdW1tYXJ5Il0gPSBqc29uIShtZXNzYWdlLmNsb25lKCkpOwogICAgKmNsb2NrX3N0YXR1c19ndWFyZCgpID0gU29tZShuZXh0LmNsb25lKCkpOwogICAgT2soKG1lc3NhZ2UsIG5leHQpKQp9CgpwdWIoc3VwZXIpIGZuIHByZXNlcnZlX2Nsb2NrX3N5bmNfbWV0YWRhdGEoc3RhdHVzOiAmbXV0IFZhbHVlKSB7CiAgICBsZXQgcHJldmlvdXMgPSBjbG9ja19zdGF0dXNfZ3VhcmQoKS5jbG9uZSgpOwogICAgcHJlc2VydmVfY2xvY2tfc3luY19tZXRhZGF0YV9mcm9tKHN0YXR1cywgcHJldmlvdXMuYXNfcmVmKCkpOwp9CgpwdWIoc3VwZXIpIGZuIHByZXNlcnZlX2Nsb2NrX3N5bmNfbWV0YWRhdGFfZnJvbShzdGF0dXM6ICZtdXQgVmFsdWUsIHByZXZpb3VzOiBPcHRpb248JlZhbHVlPikgewogICAgbGV0IFNvbWUocHJldmlvdXMpID0gcHJldmlvdXMgZWxzZSB7CiAgICAgICAgcmV0dXJuOwogICAgfTsKICAgIGxldCBTb21lKG9iamVjdCkgPSBzdGF0dXMuYXNfb2JqZWN0X211dCgpIGVsc2UgewogICAgICAgIHJldHVybjsKICAgIH07CiAgICBmb3Iga2V5IGluIFsKICAgICAgICAic3luY0luUHJvZ3Jlc3MiLAogICAgICAgICJsYXN0U3luY0F0IiwKICAgICAgICAibGFzdFN5bmNFcnJvciIsCiAgICAgICAgInN5bmNTdW1tYXJ5IiwKICAgIF0gewogICAgICAgIGlmIGxldCBTb21lKHZhbHVlKSA9IHByZXZpb3VzLmdldChrZXkpIHsKICAgICAgICAgICAgb2JqZWN0Lmluc2VydChrZXkudG9fc3RyaW5nKCksIHZhbHVlLmNsb25lKCkpOwogICAgICAgIH0KICAgIH0KfQoKcHViKHN1cGVyKSBmbiBzZXRfY2xvY2tfc3luY19pbl9wcm9ncmVzcygpIHsKICAgIHVwZGF0ZV9jYWNoZWRfY2xvY2tfc3luY19tZXRhZGF0YSh8c3RhdHVzfCB7CiAgICAgICAgc3RhdHVzWyJzeW5jSW5Qcm9ncmVzcyJdID0gVmFsdWU6OkJvb2wodHJ1ZSk7CiAgICAgICAgc3RhdHVzWyJsYXN0U3luY0Vycm9yIl0gPSBWYWx1ZTo6TnVsbDsKICAgIH0pOwp9CgpwdWIoc3VwZXIpIGZuIHNldF9jbG9ja19zeW5jX2Vycm9yKG1lc3NhZ2U6IFN0cmluZykgewogICAgdXBkYXRlX2NhY2hlZF9jbG9ja19zeW5jX21ldGFkYXRhKHxzdGF0dXN8IHsKICAgICAgICBzdGF0dXNbInN5bmNJblByb2dyZXNzIl0gPSBWYWx1ZTo6Qm9vbChmYWxzZSk7CiAgICAgICAgc3RhdHVzWyJsYXN0U3luY0F0Il0gPSBqc29uISh0aW1lX3V0aWxzOjpub3dfaXNvKCkpOwogICAgICAgIHN0YXR1c1sibGFzdFN5bmNFcnJvciJdID0ganNvbiEobWVzc2FnZSk7CiAgICAgICAgc3RhdHVzWyJzeW5jU3VtbWFyeSJdID0gVmFsdWU6Ok51bGw7CiAgICB9KTsKfQoKcHViKHN1cGVyKSBmbiB1cGRhdGVfY2FjaGVkX2Nsb2NrX3N5bmNfbWV0YWRhdGEodXBkYXRlOiBpbXBsIEZuT25jZSgmbXV0IFZhbHVlKSkgewogICAgbGV0IG11dCBndWFyZCA9IGNsb2NrX3N0YXR1c19ndWFyZCgpOwogICAgbGV0IG11dCBzdGF0dXMgPSBndWFyZC50YWtlKCkudW53cmFwX29yX2Vsc2UoaW5pdGlhbF9jbG9ja19zdGF0dXMpOwogICAgdXBkYXRlKCZtdXQgc3RhdHVzKTsKICAgICpndWFyZCA9IFNvbWUoc3RhdHVzKTsKfQoKcHViKHN1cGVyKSBmbiBpbml0aWFsX2Nsb2NrX3N0YXR1cygpIC0+IFZhbHVlIHsKICAgIGpzb24hKHsKICAgICAgICAiZXhwZWN0ZWRUaW1lWm9uZSI6IEVYUEVDVEVEX1RJTUVfWk9ORSwKICAgICAgICAic3lzdGVtVGltZVpvbmUiOiBWYWx1ZTo6TnVsbCwKICAgICAgICAiY2hlY2tlZEF0IjogVmFsdWU6Ok51bGwsCiAgICAgICAgIm5ldHdvcmtTb3VyY2UiOiBWYWx1ZTo6TnVsbCwKICAgICAgICAiaGFzUmVtb3RlVGltZSI6IGZhbHNlLAogICAgICAgICJsYXN0Q2hlY2tFcnJvciI6IFZhbHVlOjpOdWxsLAogICAgICAgICJzeXN0ZW1UaW1lTXMiOiBWYWx1ZTo6TnVsbCwKICAgICAgICAicmVtb3RlVGltZU1zIjogVmFsdWU6Ok51bGwsCiAgICAgICAgInN5c3RlbUJlaWppbmdUaW1lIjogVmFsdWU6Ok51bGwsCiAgICAgICAgInJlbW90ZUJlaWppbmdUaW1lIjogVmFsdWU6Ok51bGwsCiAgICAgICAgImRyaWZ0TXMiOiBWYWx1ZTo6TnVsbCwKICAgICAgICAiZHJpZnRUaHJlc2hvbGRNcyI6IFRJTUVfRFJJRlRfVEhSRVNIT0xEX01TLAogICAgICAgICJ0aW1lTWlzbWF0Y2giOiBmYWxzZSwKICAgICAgICAidGltZXpvbmVNaXNtYXRjaCI6IGZhbHNlLAogICAgICAgICJuZWVkc0F0dGVudGlvbiI6IGZhbHNlLAogICAgICAgICJpc3N1ZXMiOiBbXSwKICAgICAgICAiY2hlY2tpbmciOiBmYWxzZSwKICAgICAgICAic3luY0luUHJvZ3Jlc3MiOiBmYWxzZSwKICAgICAgICAibGFzdFN5bmNBdCI6IFZhbHVlOjpOdWxsLAogICAgICAgICJsYXN0U3luY0Vycm9yIjogVmFsdWU6Ok51bGwsCiAgICAgICAgInN5bmNTdW1tYXJ5IjogVmFsdWU6Ok51bGwKICAgIH0pCn0KCmZuIGNsb2NrX3N0YXR1c19ndWFyZCgpIC0+IE11dGV4R3VhcmQ8J3N0YXRpYywgT3B0aW9uPFZhbHVlPj4gewogICAgY2xvY2tfc3RhdHVzX2xvY2soKQogICAgICAgIC5sb2NrKCkKICAgICAgICAudW53cmFwX29yX2Vsc2UofGVycm9yfCBlcnJvci5pbnRvX2lubmVyKCkpCn0KCnB1YihzdXBlcikgZm4gY2xvY2tfc3luY190YXJnZXRfZXBvY2hfbXMoCiAgICByZW1vdGVfdGltZV9tczogaTY0LAogICAgY2hlY2tlZF9hdF9tczogaTY0LAogICAgbm93X21zOiBpNjQsCikgLT4gaTY0IHsKICAgIHJlbW90ZV90aW1lX21zICsgKG5vd19tcyAtIGNoZWNrZWRfYXRfbXMpLm1heCgwKQp9CgpwdWIoc3VwZXIpIGZuIHNldF9zeXN0ZW1fdGltZXpvbmUodHJhbnNsYXRvcjogJlRyYW5zbGF0b3IpIC0+IFJlc3VsdDxTdHJpbmcsIFN0cmluZz4gewogICAgI1tjZmcobm90KHVuaXgpKV0KICAgIHsKICAgICAgICBsZXQgXyA9IHRyYW5zbGF0b3I7CiAgICAgICAgcmV0dXJuIEVycigic3lzdGVtIHRpbWV6b25lIG11dGF0aW9uIGlzIHVuc3VwcG9ydGVkIG9uIHRoaXMgcGxhdGZvcm0iLnRvX3N0cmluZygpKTsKICAgIH0KCiAgICAjW2NmZyh1bml4KV0KICAgIHsKICAgICAgICBpZiBydW5fcHJvY2Vzc19zdWNjZXNzKCJ0aW1lZGF0ZWN0bCIsICZbInNldC10aW1lem9uZSIsIEVYUEVDVEVEX1RJTUVfWk9ORV0pLmlzX29rKCkgewogICAgICAgICAgICByZXR1cm4gT2sodHJhbnNsYXRvci50X3BhcmFtcygKICAgICAgICAgICAgICAgICJzZXJ2ZXIuc3lzdGVtQ2xvY2sudGltZXpvbmVTZXQiLAogICAgICAgICAgICAgICAgJlsoInRpbWV6b25lIiwgRVhQRUNURURfVElNRV9aT05FLnRvX3N0cmluZygpKV0sCiAgICAgICAgICAgICkpOwogICAgICAgIH0KCiAgICAgICAgbGV0IHpvbmVpbmZvX3BhdGggPSBmb3JtYXQhKCIvdXNyL3NoYXJlL3pvbmVpbmZvL3tFWFBFQ1RFRF9USU1FX1pPTkV9Iik7CiAgICAgICAgaWYgIVBhdGg6Om5ldygmem9uZWluZm9fcGF0aCkuZXhpc3RzKCkgewogICAgICAgICAgICByZXR1cm4gRXJyKHRyYW5zbGF0b3IudF9wYXJhbXMoCiAgICAgICAgICAgICAgICAic2VydmVyLnN5c3RlbUNsb2NrLm1pc3Npbmdab25laW5mb0ZpbGUiLAogICAgICAgICAgICAgICAgJlsoInBhdGgiLCB6b25laW5mb19wYXRoKV0sCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgICAgICBsZXQgXyA9IGZzOjpyZW1vdmVfZmlsZSgiL2V0Yy9sb2NhbHRpbWUiKTsKICAgICAgICBtYXRjaCBzdGQ6Om9zOjp1bml4Ojpmczo6c3ltbGluaygmem9uZWluZm9fcGF0aCwgIi9ldGMvbG9jYWx0aW1lIikgewogICAgICAgICAgICBPaygoKSkgPT4ge30KICAgICAgICAgICAgRXJyKF8pID0+IGZzOjpjb3B5KCZ6b25laW5mb19wYXRoLCAiL2V0Yy9sb2NhbHRpbWUiKQogICAgICAgICAgICAgICAgLm1hcCh8X3wgKCkpCiAgICAgICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT8sCiAgICAgICAgfQogICAgICAgIGZzOjp3cml0ZSgiL2V0Yy90aW1lem9uZSIsIGZvcm1hdCEoIntFWFBFQ1RFRF9USU1FX1pPTkV9XG4iKSkKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgICAgIE9rKHRyYW5zbGF0b3IudF9wYXJhbXMoCiAgICAgICAgICAgICJzZXJ2ZXIuc3lzdGVtQ2xvY2sudGltZXpvbmVXcml0dGVuIiwKICAgICAgICAgICAgJlsoInRpbWV6b25lIiwgRVhQRUNURURfVElNRV9aT05FLnRvX3N0cmluZygpKV0sCiAgICAgICAgKSkKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBzZXRfc3lzdGVtX2Nsb2NrKAogICAgdGFyZ2V0X2Vwb2NoX21zOiBpNjQsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBSZXN1bHQ8U3RyaW5nLCBTdHJpbmc+IHsKICAgIGxldCB0YXJnZXRfc2Vjb25kcyA9IHRhcmdldF9lcG9jaF9tcyAvIDEwMDA7CiAgICBydW5fcHJvY2Vzc19zdWNjZXNzKCJkYXRlIiwgJlsiLXUiLCAiLXMiLCAmZm9ybWF0ISgiQHt0YXJnZXRfc2Vjb25kc30iKV0pPzsKICAgIGxldCBfID0gcnVuX3Byb2Nlc3Nfc3VjY2VzcygiaHdjbG9jayIsICZbIi0tc3lzdG9oYyJdKTsKICAgIE9rKHRyYW5zbGF0b3IudCgic2VydmVyLnN5c3RlbUNsb2NrLmNsb2NrQWRqdXN0ZWQiKSkKfQoKcHViKHN1cGVyKSBmbiBlbmFibGVfbmV0d29ya190aW1lX3N5bmModHJhbnNsYXRvcjogJlRyYW5zbGF0b3IpIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIGxldCBtdXQgYWN0aW9ucyA9IFZlYzo6bmV3KCk7CiAgICBpZiBydW5fcHJvY2Vzc19zdWNjZXNzKCJ0aW1lZGF0ZWN0bCIsICZbInNldC1udHAiLCAidHJ1ZSJdKS5pc19vaygpIHsKICAgICAgICBhY3Rpb25zLnB1c2godHJhbnNsYXRvci50KCJzZXJ2ZXIuc3lzdGVtQ2xvY2subnRwRW5hYmxlZCIpKTsKICAgIH0KICAgIGZvciBzZXJ2aWNlIGluIFsic3lzdGVtZC10aW1lc3luY2QiLCAiY2hyb255IiwgImNocm9ueWQiLCAibnRwIl0gewogICAgICAgIGlmIHJ1bl9wcm9jZXNzX3N1Y2Nlc3MoInN5c3RlbWN0bCIsICZbInJlc3RhcnQiLCBzZXJ2aWNlXSkuaXNfb2soKSB7CiAgICAgICAgICAgIGFjdGlvbnMucHVzaCh0cmFuc2xhdG9yLnRfcGFyYW1zKAogICAgICAgICAgICAgICAgInNlcnZlci5zeXN0ZW1DbG9jay5zZXJ2aWNlUmVzdGFydGVkIiwKICAgICAgICAgICAgICAgICZbKCJzZXJ2aWNlIiwgc2VydmljZS50b19zdHJpbmcoKSldLAogICAgICAgICAgICApKTsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgfQogICAgfQogICAgKCFhY3Rpb25zLmlzX2VtcHR5KCkpLnRoZW4ofHwgYWN0aW9ucy5qb2luKCZ0cmFuc2xhdG9yLnQoInNlcnZlci5zeXN0ZW1DbG9jay5saXN0U2VwYXJhdG9yIikpKQp9CgpwdWIoc3VwZXIpIGZuIGZvcm1hdF9iZWlqaW5nX3RpbWUoZXBvY2hfbXM6IGk2NCwgbG9jYWxlOiAmc3RyKSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBsZXQgc2Vjb25kcyA9IGVwb2NoX21zLmRpdl9ldWNsaWQoMTAwMCk7CiAgICBsZXQgb2Zmc2V0ID0gVXRjT2Zmc2V0Ojpmcm9tX2htcyg4LCAwLCAwKS5vaygpPzsKICAgIE9mZnNldERhdGVUaW1lOjpmcm9tX3VuaXhfdGltZXN0YW1wKHNlY29uZHMpCiAgICAgICAgLm9rKCkKICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUudG9fb2Zmc2V0KG9mZnNldCkpCiAgICAgICAgLm1hcCh8dmFsdWV8IHsKICAgICAgICAgICAgbGV0IHllYXIgPSB2YWx1ZS55ZWFyKCk7CiAgICAgICAgICAgIGxldCBtb250aCA9IHU4Ojpmcm9tKHZhbHVlLm1vbnRoKCkpOwogICAgICAgICAgICBsZXQgZGF5ID0gdmFsdWUuZGF5KCk7CiAgICAgICAgICAgIGxldCBob3VyID0gdmFsdWUuaG91cigpOwogICAgICAgICAgICBsZXQgbWludXRlID0gdmFsdWUubWludXRlKCk7CiAgICAgICAgICAgIGxldCBzZWNvbmQgPSB2YWx1ZS5zZWNvbmQoKTsKICAgICAgICAgICAgbWF0Y2ggbG9jYWxlIHsKICAgICAgICAgICAgICAgICJlbiIgPT4gewogICAgICAgICAgICAgICAgICAgIGZvcm1hdCEoInttb250aDowMn0ve2RheTowMn0ve3llYXI6MDR9LCB7aG91cjowMn06e21pbnV0ZTowMn06e3NlY29uZDowMn0iKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgImtvLUtSIiA9PiB7CiAgICAgICAgICAgICAgICAgICAgZm9ybWF0ISgie3llYXI6MDR9LiB7bW9udGg6MDJ9LiB7ZGF5OjAyfS4ge2hvdXI6MDJ9OnttaW51dGU6MDJ9OntzZWNvbmQ6MDJ9IikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICJ6aC1IYW50IiA9PiB7CiAgICAgICAgICAgICAgICAgICAgZm9ybWF0ISgKICAgICAgICAgICAgICAgICAgICAgICAgInt5ZWFyOjA0fS97bW9udGg6MDJ9L3tkYXk6MDJ9XHV7MjAwOX17aG91cjowMn06e21pbnV0ZTowMn06e3NlY29uZDowMn0iCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgXyA9PiBmb3JtYXQhKCJ7eWVhcjowNH0ve21vbnRoOjAyfS97ZGF5OjAyfSB7aG91cjowMn06e21pbnV0ZTowMn06e3NlY29uZDowMn0iKSwKICAgICAgICAgICAgfQogICAgICAgIH0pCn0KCnB1YihzdXBlcikgZm4gY2xvY2tfc3RhdHVzX2xvY2soKSAtPiAmJ3N0YXRpYyBNdXRleDxPcHRpb248VmFsdWU+PiB7CiAgICBDTE9DS19TVEFUVVMuZ2V0X29yX2luaXQofHwgTXV0ZXg6Om5ldyhOb25lKSkKfQo=
+#[cfg(unix)]
+use std::{fs, path::Path};
+use std::{
+    sync::{Mutex, MutexGuard},
+    time::Instant,
+};
+
+use ::time::{OffsetDateTime, UtcOffset, format_description::well_known::Rfc2822};
+use axum::http::header;
+use serde_json::{Value, json};
+
+use crate::{i18n::Translator, state::AppState, time_utils};
+
+use super::{
+    CLOCK_STATUS, EXPECTED_TIME_ZONE, NETWORK_TIME_SOURCES, TIME_DRIFT_THRESHOLD_MS,
+    process::run_process_success, runtime::detect_system_timezone,
+};
+
+pub(super) async fn cached_clock_status(state: &AppState, translator: &Translator) -> Value {
+    if let Some(status) = clock_status_guard().clone() {
+        return localize_clock_status(status, translator);
+    }
+    build_clock_status(state, false, translator).await
+}
+
+pub(super) async fn refresh_clock_status(state: &AppState, translator: &Translator) -> Value {
+    let status = build_clock_status(state, true, translator).await;
+    *clock_status_guard() = Some(status.clone());
+    status
+}
+
+pub(super) async fn build_clock_status(
+    state: &AppState,
+    checked: bool,
+    translator: &Translator,
+) -> Value {
+    let system_time_ms = time_utils::now_ms();
+    let system_time_zone = detect_system_timezone();
+    let timezone_mismatch = system_time_zone.as_deref() != Some(EXPECTED_TIME_ZONE);
+    let remote = if checked {
+        fetch_network_time(state, translator).await
+    } else {
+        Ok(None)
+    };
+    let (network_source, remote_time_ms, last_check_error) = match remote {
+        Ok(Some(remote)) => (Some(remote.source), Some(remote.epoch_ms), None),
+        Ok(None) => (None, None, None),
+        Err(error) => (None, None, Some(error)),
+    };
+    let drift_ms = remote_time_ms.map(|remote| system_time_ms - remote);
+    let time_mismatch = drift_ms.is_some_and(|value| value.abs() > TIME_DRIFT_THRESHOLD_MS);
+    let mut status = json!({
+        "expectedTimeZone": EXPECTED_TIME_ZONE,
+        "systemTimeZone": system_time_zone,
+        "checkedAt": if checked { Value::String(time_utils::now_iso()) } else { Value::Null },
+        "networkSource": network_source,
+        "hasRemoteTime": remote_time_ms.is_some(),
+        "lastCheckError": last_check_error,
+        "systemTimeMs": system_time_ms,
+        "remoteTimeMs": remote_time_ms,
+        "systemBeijingTime": format_beijing_time(system_time_ms, translator.locale()),
+        "remoteBeijingTime": remote_time_ms.and_then(|value| {
+            format_beijing_time(value, translator.locale())
+        }),
+        "driftMs": drift_ms,
+        "driftThresholdMs": TIME_DRIFT_THRESHOLD_MS,
+        "timeMismatch": time_mismatch,
+        "timezoneMismatch": timezone_mismatch,
+        "needsAttention": timezone_mismatch || time_mismatch,
+        "issues": [],
+        "checking": false,
+        "syncInProgress": false,
+        "lastSyncAt": Value::Null,
+        "lastSyncError": Value::Null,
+        "syncSummary": Value::Null
+    });
+    preserve_clock_sync_metadata(&mut status);
+    localize_clock_status(status, translator)
+}
+
+pub(super) fn localize_clock_status(mut status: Value, translator: &Translator) -> Value {
+    let timezone_mismatch = status
+        .get("timezoneMismatch")
+        .and_then(Value::as_bool)
+        .unwrap_or(false);
+    let time_mismatch = status
+        .get("timeMismatch")
+        .and_then(Value::as_bool)
+        .unwrap_or(false);
+    let system_time_zone = status
+        .get("systemTimeZone")
+        .and_then(Value::as_str)
+        .map(str::to_string)
+        .unwrap_or_else(|| translator.t("server.systemClock.unknown"));
+    let drift_ms = status.get("driftMs").and_then(Value::as_i64);
+
+    let mut issues = Vec::new();
+    if timezone_mismatch {
+        issues.push(json!({
+            "code": "timezone_mismatch",
+            "title": translator.t("server.systemClock.issues.timezone.title"),
+            "message": translator.t_params(
+                "server.systemClock.issues.timezone.message",
+                &[
+                    ("timezone", system_time_zone),
+                    ("expected", EXPECTED_TIME_ZONE.to_string())
+                ]
+            )
+        }));
+    }
+    if time_mismatch && let Some(drift_ms) = drift_ms {
+        issues.push(json!({
+            "code": "time_mismatch",
+            "title": translator.t("server.systemClock.issues.timeMismatch.title"),
+            "message": translator.t_params(
+                "server.systemClock.issues.timeMismatch.message",
+                &[("drift", format_drift(drift_ms, translator))]
+            )
+        }));
+    }
+
+    if let Some(object) = status.as_object_mut() {
+        object.insert("issues".to_string(), Value::Array(issues));
+    }
+    status
+}
+
+pub(super) fn format_drift(drift_ms: i64, translator: &Translator) -> String {
+    let total_seconds = ((drift_ms.abs() + 500) / 1000).max(1);
+    let minutes = total_seconds / 60;
+    let seconds = total_seconds % 60;
+    if minutes <= 0 {
+        return translator.t_params(
+            "server.systemClock.duration.seconds",
+            &[("seconds", seconds.to_string())],
+        );
+    }
+    if seconds == 0 {
+        return translator.t_params(
+            "server.systemClock.duration.minutes",
+            &[("minutes", minutes.to_string())],
+        );
+    }
+    translator.t_params(
+        "server.systemClock.duration.minutesSeconds",
+        &[
+            ("minutes", minutes.to_string()),
+            ("seconds", seconds.to_string()),
+        ],
+    )
+}
+
+struct NetworkTimeResult {
+    epoch_ms: i64,
+    source: String,
+}
+
+async fn fetch_network_time(
+    state: &AppState,
+    translator: &Translator,
+) -> Result<Option<NetworkTimeResult>, String> {
+    let mut last_error = translator.t("server.systemClock.networkTimeUnavailable");
+    for (label, url) in NETWORK_TIME_SOURCES {
+        match fetch_network_time_from_source(state, translator, label, url).await {
+            Ok(result) => return Ok(Some(result)),
+            Err(error) => last_error = error,
+        }
+    }
+    Err(last_error)
+}
+
+async fn fetch_network_time_from_source(
+    state: &AppState,
+    translator: &Translator,
+    label: &str,
+    url: &str,
+) -> Result<NetworkTimeResult, String> {
+    let started = Instant::now();
+    let mut date_header = state
+        .fallback_client
+        .head(url)
+        .header(header::CACHE_CONTROL, "no-cache")
+        .header(header::PRAGMA, "no-cache")
+        .send()
+        .await
+        .ok()
+        .and_then(|response| {
+            response
+                .headers()
+                .get(header::DATE)
+                .and_then(|value| value.to_str().ok())
+                .map(str::to_string)
+        });
+
+    if date_header.is_none() {
+        date_header = state
+            .fallback_client
+            .get(url)
+            .header(header::CACHE_CONTROL, "no-cache")
+            .header(header::PRAGMA, "no-cache")
+            .send()
+            .await
+            .map_err(|_| {
+                translator.t_params(
+                    "server.systemClock.sourceFetchFailed",
+                    &[("source", label.to_string())],
+                )
+            })?
+            .headers()
+            .get(header::DATE)
+            .and_then(|value| value.to_str().ok())
+            .map(str::to_string);
+    }
+
+    let date_header = date_header.ok_or_else(|| {
+        translator.t_params(
+            "server.systemClock.missingDateHeader",
+            &[("source", label.to_string())],
+        )
+    })?;
+    let parsed = OffsetDateTime::parse(&date_header, &Rfc2822).map_err(|_| {
+        translator.t_params(
+            "server.systemClock.invalidDateHeader",
+            &[("source", label.to_string())],
+        )
+    })?;
+    let latency_ms = started.elapsed().as_millis().min(i64::MAX as u128) as i64;
+    Ok(NetworkTimeResult {
+        epoch_ms: parsed.unix_timestamp() * 1000 + network_latency_compensation_ms(latency_ms),
+        source: label.to_string(),
+    })
+}
+
+pub(super) fn network_latency_compensation_ms(latency_ms: i64) -> i64 {
+    latency_ms.max(0).saturating_add(1) / 2
+}
+
+pub(super) async fn sync_system_clock(
+    state: &AppState,
+    translator: &Translator,
+) -> Result<(String, Value), String> {
+    set_clock_sync_in_progress();
+    match sync_system_clock_inner(state, translator).await {
+        Ok(result) => Ok(result),
+        Err(error) => {
+            set_clock_sync_error(error.clone());
+            Err(error)
+        }
+    }
+}
+
+pub(super) async fn sync_system_clock_inner(
+    state: &AppState,
+    translator: &Translator,
+) -> Result<(String, Value), String> {
+    let before = build_clock_status(state, true, translator).await;
+    let mut actions = Vec::new();
+
+    if before.get("systemTimeZone").and_then(Value::as_str) != Some(EXPECTED_TIME_ZONE) {
+        actions.push(set_system_timezone(translator)?);
+    }
+
+    if let Some(remote_time_ms) = before.get("remoteTimeMs").and_then(Value::as_i64) {
+        let checked_at_ms = before
+            .get("checkedAt")
+            .and_then(Value::as_str)
+            .and_then(time_utils::parse_iso_ms)
+            .unwrap_or_else(time_utils::now_ms);
+        actions.push(set_system_clock(
+            clock_sync_target_epoch_ms(remote_time_ms, checked_at_ms, time_utils::now_ms()),
+            translator,
+        )?);
+    }
+
+    if let Some(message) = enable_network_time_sync(translator) {
+        actions.push(message);
+    }
+
+    tokio::time::sleep(std::time::Duration::from_millis(1500)).await;
+    let mut next = build_clock_status(state, true, translator).await;
+    let message = if actions.is_empty() {
+        translator.t("server.systemClock.statusRefreshed")
+    } else {
+        actions.join(&translator.t("server.systemClock.actionSeparator"))
+    };
+    next["syncInProgress"] = Value::Bool(false);
+    next["lastSyncAt"] = json!(time_utils::now_iso());
+    next["lastSyncError"] = Value::Null;
+    next["syncSummary"] = json!(message.clone());
+    *clock_status_guard() = Some(next.clone());
+    Ok((message, next))
+}
+
+pub(super) fn preserve_clock_sync_metadata(status: &mut Value) {
+    let previous = clock_status_guard().clone();
+    preserve_clock_sync_metadata_from(status, previous.as_ref());
+}
+
+pub(super) fn preserve_clock_sync_metadata_from(status: &mut Value, previous: Option<&Value>) {
+    let Some(previous) = previous else {
+        return;
+    };
+    let Some(object) = status.as_object_mut() else {
+        return;
+    };
+    for key in [
+        "syncInProgress",
+        "lastSyncAt",
+        "lastSyncError",
+        "syncSummary",
+    ] {
+        if let Some(value) = previous.get(key) {
+            object.insert(key.to_string(), value.clone());
+        }
+    }
+}
+
+pub(super) fn set_clock_sync_in_progress() {
+    update_cached_clock_sync_metadata(|status| {
+        status["syncInProgress"] = Value::Bool(true);
+        status["lastSyncError"] = Value::Null;
+    });
+}
+
+pub(super) fn set_clock_sync_error(message: String) {
+    update_cached_clock_sync_metadata(|status| {
+        status["syncInProgress"] = Value::Bool(false);
+        status["lastSyncAt"] = json!(time_utils::now_iso());
+        status["lastSyncError"] = json!(message);
+        status["syncSummary"] = Value::Null;
+    });
+}
+
+pub(super) fn update_cached_clock_sync_metadata(update: impl FnOnce(&mut Value)) {
+    let mut guard = clock_status_guard();
+    let mut status = guard.take().unwrap_or_else(initial_clock_status);
+    update(&mut status);
+    *guard = Some(status);
+}
+
+pub(super) fn initial_clock_status() -> Value {
+    json!({
+        "expectedTimeZone": EXPECTED_TIME_ZONE,
+        "systemTimeZone": Value::Null,
+        "checkedAt": Value::Null,
+        "networkSource": Value::Null,
+        "hasRemoteTime": false,
+        "lastCheckError": Value::Null,
+        "systemTimeMs": Value::Null,
+        "remoteTimeMs": Value::Null,
+        "systemBeijingTime": Value::Null,
+        "remoteBeijingTime": Value::Null,
+        "driftMs": Value::Null,
+        "driftThresholdMs": TIME_DRIFT_THRESHOLD_MS,
+        "timeMismatch": false,
+        "timezoneMismatch": false,
+        "needsAttention": false,
+        "issues": [],
+        "checking": false,
+        "syncInProgress": false,
+        "lastSyncAt": Value::Null,
+        "lastSyncError": Value::Null,
+        "syncSummary": Value::Null
+    })
+}
+
+fn clock_status_guard() -> MutexGuard<'static, Option<Value>> {
+    clock_status_lock()
+        .lock()
+        .unwrap_or_else(|error| error.into_inner())
+}
+
+pub(super) fn clock_sync_target_epoch_ms(
+    remote_time_ms: i64,
+    checked_at_ms: i64,
+    now_ms: i64,
+) -> i64 {
+    remote_time_ms + (now_ms - checked_at_ms).max(0)
+}
+
+pub(super) fn set_system_timezone(translator: &Translator) -> Result<String, String> {
+    #[cfg(not(unix))]
+    {
+        let _ = translator;
+        return Err("system timezone mutation is unsupported on this platform".to_string());
+    }
+
+    #[cfg(unix)]
+    {
+        if run_process_success("timedatectl", &["set-timezone", EXPECTED_TIME_ZONE]).is_ok() {
+            return Ok(translator.t_params(
+                "server.systemClock.timezoneSet",
+                &[("timezone", EXPECTED_TIME_ZONE.to_string())],
+            ));
+        }
+
+        let zoneinfo_path = format!("/usr/share/zoneinfo/{EXPECTED_TIME_ZONE}");
+        if !Path::new(&zoneinfo_path).exists() {
+            return Err(translator.t_params(
+                "server.systemClock.missingZoneinfoFile",
+                &[("path", zoneinfo_path)],
+            ));
+        }
+        let _ = fs::remove_file("/etc/localtime");
+        match std::os::unix::fs::symlink(&zoneinfo_path, "/etc/localtime") {
+            Ok(()) => {}
+            Err(_) => fs::copy(&zoneinfo_path, "/etc/localtime")
+                .map(|_| ())
+                .map_err(|error| error.to_string())?,
+        }
+        fs::write("/etc/timezone", format!("{EXPECTED_TIME_ZONE}\n"))
+            .map_err(|error| error.to_string())?;
+        Ok(translator.t_params(
+            "server.systemClock.timezoneWritten",
+            &[("timezone", EXPECTED_TIME_ZONE.to_string())],
+        ))
+    }
+}
+
+pub(super) fn set_system_clock(
+    target_epoch_ms: i64,
+    translator: &Translator,
+) -> Result<String, String> {
+    let target_seconds = target_epoch_ms / 1000;
+    run_process_success("date", &["-u", "-s", &format!("@{target_seconds}")])?;
+    let _ = run_process_success("hwclock", &["--systohc"]);
+    Ok(translator.t("server.systemClock.clockAdjusted"))
+}
+
+pub(super) fn enable_network_time_sync(translator: &Translator) -> Option<String> {
+    let mut actions = Vec::new();
+    if run_process_success("timedatectl", &["set-ntp", "true"]).is_ok() {
+        actions.push(translator.t("server.systemClock.ntpEnabled"));
+    }
+    for service in ["systemd-timesyncd", "chrony", "chronyd", "ntp"] {
+        if run_process_success("systemctl", &["restart", service]).is_ok() {
+            actions.push(translator.t_params(
+                "server.systemClock.serviceRestarted",
+                &[("service", service.to_string())],
+            ));
+            break;
+        }
+    }
+    (!actions.is_empty()).then(|| actions.join(&translator.t("server.systemClock.listSeparator")))
+}
+
+pub(super) fn format_beijing_time(epoch_ms: i64, locale: &str) -> Option<String> {
+    let seconds = epoch_ms.div_euclid(1000);
+    let offset = UtcOffset::from_hms(8, 0, 0).ok()?;
+    OffsetDateTime::from_unix_timestamp(seconds)
+        .ok()
+        .map(|value| value.to_offset(offset))
+        .map(|value| {
+            let year = value.year();
+            let month = u8::from(value.month());
+            let day = value.day();
+            let hour = value.hour();
+            let minute = value.minute();
+            let second = value.second();
+            match locale {
+                "en" => {
+                    format!("{month:02}/{day:02}/{year:04}, {hour:02}:{minute:02}:{second:02}")
+                }
+                "ko-KR" => {
+                    format!("{year:04}. {month:02}. {day:02}. {hour:02}:{minute:02}:{second:02}")
+                }
+                "zh-Hant" => {
+                    format!(
+                        "{year:04}/{month:02}/{day:02}\u{2009}{hour:02}:{minute:02}:{second:02}"
+                    )
+                }
+                _ => format!("{year:04}/{month:02}/{day:02} {hour:02}:{minute:02}:{second:02}"),
+            }
+        })
+}
+
+pub(super) fn clock_status_lock() -> &'static Mutex<Option<Value>> {
+    CLOCK_STATUS.get_or_init(|| Mutex::new(None))
+}

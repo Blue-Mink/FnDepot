@@ -1,1 +1,18 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgZGF0YS1zbG90PSJzaWRlYmFyLWNvbnRlbnQiCiAgICBkYXRhLXNpZGViYXI9ImNvbnRlbnQiCiAgICA6Y2xhc3M9ImNuKCdmbGV4IG1pbi1oLTAgZmxleC0xIGZsZXgtY29sIGdhcC0yIG92ZXJmbG93LWF1dG8gZ3JvdXAtZGF0YS1bY29sbGFwc2libGU9aWNvbl06b3ZlcmZsb3ctaGlkZGVuJywgcHJvcHMuY2xhc3MpIgogID4KICAgIDxzbG90IC8+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <div
+    data-slot="sidebar-content"
+    data-sidebar="content"
+    :class="cn('flex min-h-0 flex-1 flex-col gap-2 overflow-auto group-data-[collapsible=icon]:overflow-hidden', props.class)"
+  >
+    <slot />
+  </div>
+</template>

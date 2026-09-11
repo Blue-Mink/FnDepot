@@ -1,1 +1,218 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IENoZXZyb25MZWZ0LCBDaGV2cm9uUmlnaHQsIENoZXZyb25zTGVmdCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCBGbG9hdGluZ0FjdGlvbkRvY2sgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9GbG9hdGluZ0FjdGlvbkRvY2sudnVlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgU2VsZWN0LAogIFNlbGVjdENvbnRlbnQsCiAgU2VsZWN0SXRlbSwKICBTZWxlY3RUcmlnZ2VyLAogIFNlbGVjdFZhbHVlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9zZWxlY3QiOwppbXBvcnQgdHlwZSB7IEN1cnNvclBhZ2luYXRpb25MYWJlbHMgfSBmcm9tICIuL2N1cnNvci1wYWdpbmF0aW9uLWNvbnRyYWN0IjsKCmRlZmluZVByb3BzPHsKICBjYW5Mb2FkTmV3ZXI6IGJvb2xlYW47CiAgY2FuTG9hZE9sZGVyOiBib29sZWFuOwogIGN1cnNvclBhZ2VMYWJlbDogc3RyaW5nOwogIGhhbmRsZUxpbWl0Q2hhbmdlOiAodmFsdWU6IHVua25vd24pID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwogIGhhbmRsZUxvYWRGaXJzdDogKCkgPT4gUHJvbWlzZTx2b2lkPiB8IHZvaWQ7CiAgaGFuZGxlTG9hZE5ld2VyOiAoKSA9PiBQcm9taXNlPHZvaWQ+IHwgdm9pZDsKICBoYW5kbGVMb2FkT2xkZXI6ICgpID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwogIGxhYmVsczogQ3Vyc29yUGFnaW5hdGlvbkxhYmVsczsKICBsaW1pdDogc3RyaW5nOwogIGxpbWl0T3B0aW9uczogcmVhZG9ubHkgc3RyaW5nW107CiAgbG9hZGluZzogYm9vbGVhbjsKICBzaG91bGRGbG9hdDogYm9vbGVhbjsKfT4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPEZsb2F0aW5nQWN0aW9uRG9jawogICAgOmFjdGl2ZT0ic2hvdWxkRmxvYXQiCiAgICA6a2VlcC12aXNpYmxlPSJsb2FkaW5nICYmIHNob3VsZEZsb2F0IgogICAgOmtlZXAtdmlzaWJsZS1yZWxlYXNlLWRlbGF5PSI2MDAiCiAgICBhbGlnbj0iY2VudGVyIgogICAgdmFyaWFudD0ic3VyZmFjZSIKICAgIDp2aXNpYmxlLXRocmVzaG9sZD0iMC40IgogICAgOmFyaWEtbGFiZWw9ImxhYmVscy5hcmlhTGFiZWwiCiAgICBmbG9hdGluZy1jbGFzcz0ibWluLXctMCBtYXgtdy1bY2FsYygxMDB2dy0ycmVtKV0gcm91bmRlZC1bMS4yNXJlbV0gcC0yIgogID4KICAgIDx0ZW1wbGF0ZSAjaW5saW5lPgogICAgICA8ZGl2IGNsYXNzPSJib3JkZXItdCBweC0zIHB5LTMgc206cHgtNCI+CiAgICAgICAgPGRpdgogICAgICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTIgc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIHNtOmp1c3RpZnktYmV0d2VlbiIKICAgICAgICA+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLXgtMyBnYXAteS0xIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgPgogICAgICAgICAgICA8c3Bhbj57eyBjdXJzb3JQYWdlTGFiZWwgfX08L3NwYW4+CiAgICAgICAgICAgIDxzcGFuPnt7IGNhbkxvYWRPbGRlciA/IGxhYmVscy5jYW5Mb2FkT2xkZXIgOiBsYWJlbHMubGFzdFBhZ2UgfX08L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1lbmQgZ2FwLTIiPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICBjbGFzcz0iaC04IHB4LTIuNSBzbTpweC0zIgogICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJsYWJlbHMuZmlyc3RQYWdlIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0ibG9hZGluZyB8fCAhY2FuTG9hZE5ld2VyIgogICAgICAgICAgICAgIEBjbGljaz0iaGFuZGxlTG9hZEZpcnN0IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPENoZXZyb25zTGVmdCBjbGFzcz0iaC00IHctNCBzbTptci0xLjUiIC8+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImhpZGRlbiBzbTppbmxpbmUiPnt7IGxhYmVscy5maXJzdFBhZ2UgfX08L3NwYW4+CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICBjbGFzcz0iaC04IHB4LTIuNSBzbTpweC0zIgogICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJsYWJlbHMucHJldmlvdXNQYWdlIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0ibG9hZGluZyB8fCAhY2FuTG9hZE5ld2VyIgogICAgICAgICAgICAgIEBjbGljaz0iaGFuZGxlTG9hZE5ld2VyIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPENoZXZyb25MZWZ0IGNsYXNzPSJoLTQgdy00IHNtOm1yLTEuNSIgLz4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iaGlkZGVuIHNtOmlubGluZSI+e3sgbGFiZWxzLnByZXZpb3VzUGFnZSB9fTwvc3Bhbj4KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICBjbGFzcz0iaC04IHB4LTMiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJsb2FkaW5nIHx8ICFjYW5Mb2FkT2xkZXIiCiAgICAgICAgICAgICAgQGNsaWNrPSJoYW5kbGVMb2FkT2xkZXIiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyBsYWJlbHMubmV4dFBhZ2UgfX0KICAgICAgICAgICAgICA8Q2hldnJvblJpZ2h0IGNsYXNzPSJtbC0xLjUgaC00IHctNCIgLz4KICAgICAgICAgICAgPC9CdXR0b24+CgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHNtOm1sLTEiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8c3Bhbj57eyBsYWJlbHMucGFnZVNpemUgfX08L3NwYW4+CiAgICAgICAgICAgICAgPFNlbGVjdCA6bW9kZWwtdmFsdWU9ImxpbWl0IiBAdXBkYXRlOm1vZGVsLXZhbHVlPSJoYW5kbGVMaW1pdENoYW5nZSI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJ3LVs5NnB4XSI+CiAgICAgICAgICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyIDphcmlhLWxhYmVsPSJsYWJlbHMucGFnZVNpemUiPgogICAgICAgICAgICAgICAgICAgIDxTZWxlY3RWYWx1ZSAvPgogICAgICAgICAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgICAgICAgICA8U2VsZWN0SXRlbQogICAgICAgICAgICAgICAgICAgIHYtZm9yPSJvcHRpb24gaW4gbGltaXRPcHRpb25zIgogICAgICAgICAgICAgICAgICAgIDprZXk9Im9wdGlvbiIKICAgICAgICAgICAgICAgICAgICA6dmFsdWU9Im9wdGlvbiIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHt7IGxhYmVscy5wYWdlU2l6ZU9wdGlvbihvcHRpb24pIH19CiAgICAgICAgICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICAgICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgICAgICAgICA8L1NlbGVjdD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3RlbXBsYXRlPgoKICAgIDx0ZW1wbGF0ZSAjZmxvYXRpbmc+CiAgICAgIDxkaXYgY2xhc3M9ImZsb2F0aW5nLWN1cnNvci1wYWdpbmF0aW9uIj4KICAgICAgICA8ZGl2IGNsYXNzPSJmbG9hdGluZy1jdXJzb3ItcGFnaW5hdGlvbl9fY29udHJvbHMiPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICAgICAgY2xhc3M9ImZsb2F0aW5nLWN1cnNvci1wYWdpbmF0aW9uX19idXR0b24iCiAgICAgICAgICAgIDphcmlhLWxhYmVsPSJsYWJlbHMuZmlyc3RQYWdlIgogICAgICAgICAgICA6ZGlzYWJsZWQ9ImxvYWRpbmcgfHwgIWNhbkxvYWROZXdlciIKICAgICAgICAgICAgQGNsaWNrPSJoYW5kbGVMb2FkRmlyc3QiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxDaGV2cm9uc0xlZnQgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJoaWRkZW4gc206aW5saW5lIj57eyBsYWJlbHMuZmlyc3RQYWdlIH19PC9zcGFuPgogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICBjbGFzcz0iZmxvYXRpbmctY3Vyc29yLXBhZ2luYXRpb25fX2J1dHRvbiIKICAgICAgICAgICAgOmFyaWEtbGFiZWw9ImxhYmVscy5wcmV2aW91c1BhZ2UiCiAgICAgICAgICAgIDpkaXNhYmxlZD0ibG9hZGluZyB8fCAhY2FuTG9hZE5ld2VyIgogICAgICAgICAgICBAY2xpY2s9ImhhbmRsZUxvYWROZXdlciIKICAgICAgICAgID4KICAgICAgICAgICAgPENoZXZyb25MZWZ0IGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iaGlkZGVuIHNtOmlubGluZSI+e3sgbGFiZWxzLnByZXZpb3VzUGFnZSB9fTwvc3Bhbj4KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICAgICAgY2xhc3M9ImZsb2F0aW5nLWN1cnNvci1wYWdpbmF0aW9uX19idXR0b24gaXMtcHJpbWFyeSIKICAgICAgICAgICAgOmRpc2FibGVkPSJsb2FkaW5nIHx8ICFjYW5Mb2FkT2xkZXIiCiAgICAgICAgICAgIEBjbGljaz0iaGFuZGxlTG9hZE9sZGVyIgogICAgICAgICAgPgogICAgICAgICAgICA8c3Bhbj57eyBsYWJlbHMubmV4dFBhZ2UgfX08L3NwYW4+CiAgICAgICAgICAgIDxDaGV2cm9uUmlnaHQgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICA8L0J1dHRvbj4KCiAgICAgICAgICA8U2VsZWN0IDptb2RlbC12YWx1ZT0ibGltaXQiIEB1cGRhdGU6bW9kZWwtdmFsdWU9ImhhbmRsZUxpbWl0Q2hhbmdlIj4KICAgICAgICAgICAgPFNlbGVjdFRyaWdnZXIKICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0ibGFiZWxzLnBhZ2VTaXplIgogICAgICAgICAgICAgIGNsYXNzPSJoLTkgdy1bODRweF0gcm91bmRlZC14bCBib3JkZXItd2hpdGUvMTAgYmctd2hpdGUvMTAgdGV4dC13aGl0ZSBzaGFkb3ctbm9uZSBob3ZlcjpiZy13aGl0ZS8xNSBmb2N1cy12aXNpYmxlOmJvcmRlci13aGl0ZS8zMCBmb2N1cy12aXNpYmxlOnJpbmctd2hpdGUvMjAgWyZfc3ZnXTp0ZXh0LXdoaXRlIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFNlbGVjdFZhbHVlIC8+CiAgICAgICAgICAgIDwvU2VsZWN0VHJpZ2dlcj4KICAgICAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgICAgPFNlbGVjdEl0ZW0KICAgICAgICAgICAgICAgIHYtZm9yPSJvcHRpb24gaW4gbGltaXRPcHRpb25zIgogICAgICAgICAgICAgICAgOmtleT0ib3B0aW9uIgogICAgICAgICAgICAgICAgOnZhbHVlPSJvcHRpb24iCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgbGFiZWxzLnBhZ2VTaXplT3B0aW9uKG9wdGlvbikgfX0KICAgICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgICAgIDwvU2VsZWN0PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvdGVtcGxhdGU+CiAgPC9GbG9hdGluZ0FjdGlvbkRvY2s+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkPgouZmxvYXRpbmctY3Vyc29yLXBhZ2luYXRpb24gewogIGRpc3BsYXk6IGZsZXg7CiAgbWF4LXdpZHRoOiBjYWxjKDEwMHZ3IC0gM3JlbSk7CiAgZmxleC13cmFwOiB3cmFwOwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7CiAgZ2FwOiAwLjZyZW0gMC44cmVtOwp9CgouZmxvYXRpbmctY3Vyc29yLXBhZ2luYXRpb25fX2NvbnRyb2xzIHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtd3JhcDogd3JhcDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGp1c3RpZnktY29udGVudDogY2VudGVyOwogIGdhcDogMC4zNXJlbTsKfQoKOmRlZXAoLmZsb2F0aW5nLWN1cnNvci1wYWdpbmF0aW9uX19idXR0b24pIHsKICBoZWlnaHQ6IDIuMjVyZW07CiAgbWluLXdpZHRoOiAyLjI1cmVtOwogIGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQ7CiAgYm9yZGVyLXJhZGl1czogMC44cmVtOwogIGJhY2tncm91bmQ6IHRyYW5zcGFyZW50OwogIHBhZGRpbmctaW5saW5lOiAwLjdyZW07CiAgY29sb3I6IHJnYigyNTUgMjU1IDI1NSAvIDgyJSk7CiAgYm94LXNoYWRvdzogbm9uZTsKfQoKOmRlZXAoLmZsb2F0aW5nLWN1cnNvci1wYWdpbmF0aW9uX19idXR0b246aG92ZXIpIHsKICBiYWNrZ3JvdW5kOiByZ2IoMjU1IDI1NSAyNTUgLyAxMiUpOwogIGNvbG9yOiAjZmZmOwp9Cgo6ZGVlcCguZmxvYXRpbmctY3Vyc29yLXBhZ2luYXRpb25fX2J1dHRvbi5pcy1wcmltYXJ5KSB7CiAgYmFja2dyb3VuZDogI2ZmZjsKICBjb2xvcjogIzA5MDkwYjsKfQoKOmRlZXAoLmZsb2F0aW5nLWN1cnNvci1wYWdpbmF0aW9uX19idXR0b24uaXMtcHJpbWFyeTpob3ZlcikgewogIGJhY2tncm91bmQ6IHJnYigyNTUgMjU1IDI1NSAvIDkyJSk7CiAgY29sb3I6ICMwOTA5MGI7Cn0KCjpkZWVwKC5mbG9hdGluZy1jdXJzb3ItcGFnaW5hdGlvbl9fYnV0dG9uOmRpc2FibGVkKSB7CiAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7CiAgY29sb3I6IHJnYigyNTUgMjU1IDI1NSAvIDI4JSk7Cn0KCjpkZWVwKC5mbG9hdGluZy1jdXJzb3ItcGFnaW5hdGlvbl9fYnV0dG9uLmlzLXByaW1hcnk6ZGlzYWJsZWQpIHsKICBiYWNrZ3JvdW5kOiByZ2IoMjU1IDI1NSAyNTUgLyAxOCUpOwogIGNvbG9yOiByZ2IoMjU1IDI1NSAyNTUgLyAzOCUpOwp9Cjwvc3R5bGU+Cg==
+<script setup lang="ts">
+import { ChevronLeft, ChevronRight, ChevronsLeft } from "lucide-vue-next";
+import FloatingActionDock from "@admin-shared/components/common/FloatingActionDock.vue";
+import { Button } from "@/components/ui/button";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import type { CursorPaginationLabels } from "./cursor-pagination-contract";
+
+defineProps<{
+  canLoadNewer: boolean;
+  canLoadOlder: boolean;
+  cursorPageLabel: string;
+  handleLimitChange: (value: unknown) => Promise<void> | void;
+  handleLoadFirst: () => Promise<void> | void;
+  handleLoadNewer: () => Promise<void> | void;
+  handleLoadOlder: () => Promise<void> | void;
+  labels: CursorPaginationLabels;
+  limit: string;
+  limitOptions: readonly string[];
+  loading: boolean;
+  shouldFloat: boolean;
+}>();
+</script>
+
+<template>
+  <FloatingActionDock
+    :active="shouldFloat"
+    :keep-visible="loading && shouldFloat"
+    :keep-visible-release-delay="600"
+    align="center"
+    variant="surface"
+    :visible-threshold="0.4"
+    :aria-label="labels.ariaLabel"
+    floating-class="min-w-0 max-w-[calc(100vw-2rem)] rounded-[1.25rem] p-2"
+  >
+    <template #inline>
+      <div class="border-t px-3 py-3 sm:px-4">
+        <div
+          class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between"
+        >
+          <div
+            class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground"
+          >
+            <span>{{ cursorPageLabel }}</span>
+            <span>{{ canLoadOlder ? labels.canLoadOlder : labels.lastPage }}</span>
+          </div>
+
+          <div class="flex flex-wrap items-center justify-end gap-2">
+            <Button
+              variant="outline"
+              class="h-8 px-2.5 sm:px-3"
+              :aria-label="labels.firstPage"
+              :disabled="loading || !canLoadNewer"
+              @click="handleLoadFirst"
+            >
+              <ChevronsLeft class="h-4 w-4 sm:mr-1.5" />
+              <span class="hidden sm:inline">{{ labels.firstPage }}</span>
+            </Button>
+            <Button
+              variant="outline"
+              class="h-8 px-2.5 sm:px-3"
+              :aria-label="labels.previousPage"
+              :disabled="loading || !canLoadNewer"
+              @click="handleLoadNewer"
+            >
+              <ChevronLeft class="h-4 w-4 sm:mr-1.5" />
+              <span class="hidden sm:inline">{{ labels.previousPage }}</span>
+            </Button>
+            <Button
+              class="h-8 px-3"
+              :disabled="loading || !canLoadOlder"
+              @click="handleLoadOlder"
+            >
+              {{ labels.nextPage }}
+              <ChevronRight class="ml-1.5 h-4 w-4" />
+            </Button>
+
+            <div
+              class="flex items-center gap-2 text-xs text-muted-foreground sm:ml-1"
+            >
+              <span>{{ labels.pageSize }}</span>
+              <Select :model-value="limit" @update:model-value="handleLimitChange">
+                <div class="w-[96px]">
+                  <SelectTrigger :aria-label="labels.pageSize">
+                    <SelectValue />
+                  </SelectTrigger>
+                </div>
+                <SelectContent>
+                  <SelectItem
+                    v-for="option in limitOptions"
+                    :key="option"
+                    :value="option"
+                  >
+                    {{ labels.pageSizeOption(option) }}
+                  </SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <template #floating>
+      <div class="floating-cursor-pagination">
+        <div class="floating-cursor-pagination__controls">
+          <Button
+            variant="ghost"
+            class="floating-cursor-pagination__button"
+            :aria-label="labels.firstPage"
+            :disabled="loading || !canLoadNewer"
+            @click="handleLoadFirst"
+          >
+            <ChevronsLeft class="h-4 w-4" />
+            <span class="hidden sm:inline">{{ labels.firstPage }}</span>
+          </Button>
+          <Button
+            variant="ghost"
+            class="floating-cursor-pagination__button"
+            :aria-label="labels.previousPage"
+            :disabled="loading || !canLoadNewer"
+            @click="handleLoadNewer"
+          >
+            <ChevronLeft class="h-4 w-4" />
+            <span class="hidden sm:inline">{{ labels.previousPage }}</span>
+          </Button>
+          <Button
+            variant="ghost"
+            class="floating-cursor-pagination__button is-primary"
+            :disabled="loading || !canLoadOlder"
+            @click="handleLoadOlder"
+          >
+            <span>{{ labels.nextPage }}</span>
+            <ChevronRight class="h-4 w-4" />
+          </Button>
+
+          <Select :model-value="limit" @update:model-value="handleLimitChange">
+            <SelectTrigger
+              :aria-label="labels.pageSize"
+              class="h-9 w-[84px] rounded-xl border-white/10 bg-white/10 text-white shadow-none hover:bg-white/15 focus-visible:border-white/30 focus-visible:ring-white/20 [&_svg]:text-white"
+            >
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem
+                v-for="option in limitOptions"
+                :key="option"
+                :value="option"
+              >
+                {{ labels.pageSizeOption(option) }}
+              </SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+      </div>
+    </template>
+  </FloatingActionDock>
+</template>
+
+<style scoped>
+.floating-cursor-pagination {
+  display: flex;
+  max-width: calc(100vw - 3rem);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem 0.8rem;
+}
+
+.floating-cursor-pagination__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+}
+
+:deep(.floating-cursor-pagination__button) {
+  height: 2.25rem;
+  min-width: 2.25rem;
+  border-color: transparent;
+  border-radius: 0.8rem;
+  background: transparent;
+  padding-inline: 0.7rem;
+  color: rgb(255 255 255 / 82%);
+  box-shadow: none;
+}
+
+:deep(.floating-cursor-pagination__button:hover) {
+  background: rgb(255 255 255 / 12%);
+  color: #fff;
+}
+
+:deep(.floating-cursor-pagination__button.is-primary) {
+  background: #fff;
+  color: #09090b;
+}
+
+:deep(.floating-cursor-pagination__button.is-primary:hover) {
+  background: rgb(255 255 255 / 92%);
+  color: #09090b;
+}
+
+:deep(.floating-cursor-pagination__button:disabled) {
+  background: transparent;
+  color: rgb(255 255 255 / 28%);
+}
+
+:deep(.floating-cursor-pagination__button.is-primary:disabled) {
+  background: rgb(255 255 255 / 18%);
+  color: rgb(255 255 255 / 38%);
+}
+</style>

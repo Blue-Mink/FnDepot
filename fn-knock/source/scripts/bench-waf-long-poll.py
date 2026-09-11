@@ -1,1 +1,128 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJSdW4gaXNvbGF0ZWQgUnVzdCB3b3JrZXJzIGFnYWluc3QgdGhlIHJlYWwgR28gV0FGIHF1ZXVlIG92ZXIgbG9vcGJhY2sgZ1JQQy4KCkJ1aWxkIHRoZSBHbyBpbnRlcm5hbC93YWZ3YWl0Zml4dHVyZSBiaW5hcnkgYW5kIFJ1c3QgcnVudGltZS10ZXN0IHRlc3QgYmluYXJpZXMKZmlyc3QuIE5vIHByb2R1Y3Rpb24gcHJvY2VzcyBvciBjb25maWd1cmF0aW9uIGlzIHRvdWNoZWQuIFBhcmFsbGVsIG1vZGUgcnVucwpib3RoIGFybXMgY29uY3VycmVudGx5OyB1c2Ugc2VxdWVudGlhbCBtb2RlIGZvciBsZXNzIGhvc3QtbG9hZCBpbnRlcmZlcmVuY2UuCiIiIgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGNzdgppbXBvcnQganNvbgppbXBvcnQgb3MKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmltcG9ydCBzdWJwcm9jZXNzCmltcG9ydCB0aW1lCgoKZGVmIG1haW4oKToKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKGRlc2NyaXB0aW9uPV9fZG9jX18pCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXJ1c3QtdGVzdC1iaW4iLCByZXF1aXJlZD1UcnVlKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1nby1maXh0dXJlIiwgcmVxdWlyZWQ9VHJ1ZSkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tb3V0cHV0LWRpciIsIHJlcXVpcmVkPVRydWUpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLWlkbGUtc2Vjb25kcyIsIHR5cGU9aW50LCBkZWZhdWx0PTYwMCkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tcGFyYWxsZWwiLCBhY3Rpb249InN0b3JlX3RydWUiKQogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKCkKICAgIG91dHB1dCA9IFBhdGgoYXJncy5vdXRwdXRfZGlyKS5yZXNvbHZlKCkKICAgIG91dHB1dC5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICAob3V0cHV0IC8gInJ1bi5qc29uIikud3JpdGVfdGV4dChqc29uLmR1bXBzKHsKICAgICAgICAiYXJncyI6IHZhcnMoYXJncyksICJzeXN0ZW0iOiBsaXN0KG9zLnVuYW1lKCkpLAogICAgICAgICJzYW1wbGluZyI6ICJwcyBldmVyeSA1IHNlY29uZHM7IFJTUyBpbiBLaUI7IENQVSB0aW1lIGlzIGN1bXVsYXRpdmUgYW5kIGluY2x1ZGVzIHN0YXJ0dXAiLAogICAgICAgICJzY29wZSI6ICJpc29sYXRlZCByZWFsIFJ1c3Qgc2NoZWR1bGVyICsgU1FMaXRlIGFuZCBHbyBFdmVudFN0b3JlOyBzeW50aGV0aWMgZXZlbnRzOyBubyBkZXBsb3llZCBnYXRld2F5IiwKICAgIH0sIGluZGVudD0yKSkKICAgIHByb2Nlc3NlcyA9IFtdCiAgICBmaWxlcyA9IFtdCiAgICBhcm1fc3RhcnRlZCA9IHt9CiAgICBzdGFydGVkID0gdGltZS5tb25vdG9uaWMoKQogICAgdHJ5OgogICAgICAgIHdpdGggKG91dHB1dCAvICJwcm9jZXNzLXNhbXBsZXMuY3N2Iikub3BlbigidyIsIG5ld2xpbmU9IiIpIGFzIHN0cmVhbSwgKG91dHB1dCAvICJwaGFzZS1yZXNvdXJjZXMuanNvbmwiKS5vcGVuKCJ3IikgYXMgcGhhc2Vfc3RyZWFtOgogICAgICAgICAgICBzYW1wbGVzID0gY3N2LndyaXRlcihzdHJlYW0pCiAgICAgICAgICAgIHNhbXBsZXMud3JpdGVyb3coWyJlbGFwc2VkX3NlY29uZHMiLCAibW9kZSIsICJjb21wb25lbnQiLCAicGlkIiwgInJzc19raWIiLCAiY3B1X3BlcmNlbnQiLCAiY3B1X3RpbWUiXSkKCiAgICAgICAgICAgIGRlZiBzdGFydChtb2RlKToKICAgICAgICAgICAgICAgIGdvX2xvZyA9IChvdXRwdXQgLyBmInttb2RlfS1nby5zdGRlcnIiKS5vcGVuKCJ3IikKICAgICAgICAgICAgICAgIHJ1c3RfbG9nID0gKG91dHB1dCAvIGYie21vZGV9LXJ1c3QubG9nIikub3BlbigidyIpCiAgICAgICAgICAgICAgICBmaWxlcy5leHRlbmQoW2dvX2xvZywgcnVzdF9sb2ddKQogICAgICAgICAgICAgICAgZ28gPSBzdWJwcm9jZXNzLlBvcGVuKFthcmdzLmdvX2ZpeHR1cmVdLCBzdGRvdXQ9c3VicHJvY2Vzcy5QSVBFLCBzdGRlcnI9Z29fbG9nLCB0ZXh0PVRydWUpCiAgICAgICAgICAgICAgICBwcm9jZXNzZXMuYXBwZW5kKGdvKQogICAgICAgICAgICAgICAgZW5kcG9pbnRzID0ganNvbi5sb2Fkcyhnby5zdGRvdXQucmVhZGxpbmUoKSkKICAgICAgICAgICAgICAgIGVudiA9IG9zLmVudmlyb24uY29weSgpCiAgICAgICAgICAgICAgICBlbnYudXBkYXRlKEZOX0tOT0NLX1dBRl9GSVhUVVJFX1JQQz1lbmRwb2ludHNbInJwYyJdLAogICAgICAgICAgICAgICAgICAgICAgICAgICBGTl9LTk9DS19XQUZfRklYVFVSRV9DT05UUk9MPWVuZHBvaW50c1siY29udHJvbCJdLAogICAgICAgICAgICAgICAgICAgICAgICAgICBGTl9LTk9DS19XQUZfQUJfTU9ERT1tb2RlLAogICAgICAgICAgICAgICAgICAgICAgICAgICBGTl9LTk9DS19XQUZfQUJfSURMRV9TRUNPTkRTPXN0cihhcmdzLmlkbGVfc2Vjb25kcykpCiAgICAgICAgICAgICAgICBydXN0ID0gc3VicHJvY2Vzcy5Qb3BlbihbYXJncy5ydXN0X3Rlc3RfYmluLCAiLS1pZ25vcmVkIiwgIi0tZXhhY3QiLAogICAgICAgICAgICAgICAgICAgICJ3YWY6OnJvdXRlczo6dGVzdHM6Ondvcmtlcjo6d2FmX2xvbmdfcG9sbGluZ19hYiIsICItLW5vY2FwdHVyZSJdLAogICAgICAgICAgICAgICAgICAgIGVudj1lbnYsIHN0ZG91dD1ydXN0X2xvZywgc3RkZXJyPXN1YnByb2Nlc3MuU1RET1VUKQogICAgICAgICAgICAgICAgcHJvY2Vzc2VzLmFwcGVuZChydXN0KQogICAgICAgICAgICAgICAgYXJtX3N0YXJ0ZWRbbW9kZV0gPSB0aW1lLm1vbm90b25pYygpCiAgICAgICAgICAgICAgICBwcmludChqc29uLmR1bXBzKHsibW9kZSI6IG1vZGUsICJydXN0X3BpZCI6IHJ1c3QucGlkLCAiZ29fcGlkIjogZ28ucGlkfSksIGZsdXNoPVRydWUpCiAgICAgICAgICAgICAgICByZXR1cm4gbW9kZSwgZ28sIHJ1c3QKCiAgICAgICAgICAgIGRlZiBtb25pdG9yKGFybXMpOgogICAgICAgICAgICAgICAgc2VlbiA9IHttb2RlOiAwIGZvciBtb2RlLCBfLCBfIGluIGFybXN9CiAgICAgICAgICAgICAgICBuZXh0X3NhbXBsZSA9IDAuMAogICAgICAgICAgICAgICAgd2hpbGUgYW55KHJ1c3QucG9sbCgpIGlzIE5vbmUgZm9yIF8sIF8sIHJ1c3QgaW4gYXJtcyk6CiAgICAgICAgICAgICAgICAgICAgbm93ID0gdGltZS5tb25vdG9uaWMoKQogICAgICAgICAgICAgICAgICAgIGZvciBtb2RlLCBnbywgcnVzdCBpbiBhcm1zOgogICAgICAgICAgICAgICAgICAgICAgICBpZiBub3cgPj0gbmV4dF9zYW1wbGU6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3IgY29tcG9uZW50LCBwcm9jIGluIFsoImdvIiwgZ28pLCAoInJ1c3QiLCBydXN0KV06CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgcHJvYy5wb2xsKCkgaXMgbm90IE5vbmU6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gc3VicHJvY2Vzcy5ydW4oWyJwcyIsICItcCIsIHN0cihwcm9jLnBpZCksICItbyIsICJwaWQ9LHJzcz0scGNwdT0sdGltZT0iXSwgY2FwdHVyZV9vdXRwdXQ9VHJ1ZSwgdGV4dD1UcnVlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpZWxkcyA9IHJlc3VsdC5zdGRvdXQuc3BsaXQoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIGxlbihmaWVsZHMpID09IDQ6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNhbXBsZXMud3JpdGVyb3coW3JvdW5kKHRpbWUubW9ub3RvbmljKCktc3RhcnRlZCwgMyksIG1vZGUsIGNvbXBvbmVudCwgKmZpZWxkc10pCiAgICAgICAgICAgICAgICAgICAgICAgIGxpbmVzID0gKG91dHB1dCAvIGYie21vZGV9LXJ1c3QubG9nIikucmVhZF90ZXh0KCkuc3BsaXRsaW5lcyhrZWVwZW5kcz1UcnVlKQogICAgICAgICAgICAgICAgICAgICAgICBmb3IgbGluZSBpbiBsaW5lc1tzZWVuW21vZGVdOl06CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiBub3QgbGluZS5lbmRzd2l0aCgiXG4iKToKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2Vlblttb2RlXSArPSAxCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAiV0FGX0FCICIgbm90IGluIGxpbmU6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlY29yZCA9IGpzb24ubG9hZHMobGluZS5zcGxpdCgiV0FGX0FCICIsIDEpWzFdKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgcmVjb3JkWyJwaGFzZSJdIG5vdCBpbiAoImlkbGVfZG9uZSIsICJldmVudHMiLCAic3RvcHBlZCIpOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXNvdXJjZXMgPSB7fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9yIGNvbXBvbmVudCwgcHJvYyBpbiBbKCJnbyIsIGdvKSwgKCJydXN0IiwgcnVzdCldOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc3VsdCA9IHN1YnByb2Nlc3MucnVuKFsicHMiLCAiLXAiLCBzdHIocHJvYy5waWQpLCAiLW8iLCAicnNzPSx0aW1lPSJdLCBjYXB0dXJlX291dHB1dD1UcnVlLCB0ZXh0PVRydWUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmllbGRzID0gcmVzdWx0LnN0ZG91dC5zcGxpdCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgbGVuKGZpZWxkcykgPT0gMjoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzb3VyY2VzW2NvbXBvbmVudF0gPSB7InJzc19raWIiOiBpbnQoZmllbGRzWzBdKSwgImNwdV90aW1lIjogZmllbGRzWzFdfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGhhc2Vfc3RyZWFtLndyaXRlKGpzb24uZHVtcHMoeyJtb2RlIjogbW9kZSwgInJlY29yZCI6IHJlY29yZCwgInJlc291cmNlcyI6IHJlc291cmNlc30pICsgIlxuIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBoYXNlX3N0cmVhbS5mbHVzaCgpCiAgICAgICAgICAgICAgICAgICAgaWYgbm93ID49IG5leHRfc2FtcGxlOgogICAgICAgICAgICAgICAgICAgICAgICBzdHJlYW0uZmx1c2goKQogICAgICAgICAgICAgICAgICAgICAgICBuZXh0X3NhbXBsZSA9IG5vdyArIDUKICAgICAgICAgICAgICAgICAgICBpZiBub3cgLSBzdGFydGVkID4gYXJncy5pZGxlX3NlY29uZHMgKiAyICsgMTgwOgogICAgICAgICAgICAgICAgICAgICAgICByYWlzZSBUaW1lb3V0RXJyb3IoIldBRiBBL0IgZXhjZWVkZWQgaXRzIGRlYWRsaW5lIikKICAgICAgICAgICAgICAgICAgICAjIENsb3NlbHkgb2JzZXJ2ZSB3b3JrbG9hZCBib3VuZGFyaWVzIGFmdGVyIHRoZSBpZGxlIHBoYXNlOwogICAgICAgICAgICAgICAgICAgICMgcGVyaW9kaWMgcHMgc2FtcGxpbmcgcmVtYWlucyBhdCBmaXZlLXNlY29uZCBpbnRlcnZhbHMuCiAgICAgICAgICAgICAgICAgICAgbmVhcl9ldmVudHMgPSBhbnkobm93IC0gYXJtX3N0YXJ0ZWRbbW9kZV0gPj0gYXJncy5pZGxlX3NlY29uZHMgLSA1IGZvciBtb2RlLCBfLCBydXN0IGluIGFybXMgaWYgcnVzdC5wb2xsKCkgaXMgTm9uZSkKICAgICAgICAgICAgICAgICAgICB0aW1lLnNsZWVwKC4wNSBpZiBuZWFyX2V2ZW50cyBlbHNlIDUpCiAgICAgICAgICAgICAgICBmb3IgbW9kZSwgZ28sIHJ1c3QgaW4gYXJtczoKICAgICAgICAgICAgICAgICAgICBpZiBydXN0LnJldHVybmNvZGUgIT0gMDoKICAgICAgICAgICAgICAgICAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKGYie21vZGV9IGFybSBmYWlsZWQ7IHNlZSB7bW9kZX0tcnVzdC5sb2ciKQogICAgICAgICAgICAgICAgICAgIGdvLnRlcm1pbmF0ZSgpCiAgICAgICAgICAgICAgICAgICAgZ28ud2FpdCh0aW1lb3V0PTEwKQoKICAgICAgICAgICAgaWYgYXJncy5wYXJhbGxlbDoKICAgICAgICAgICAgICAgIG1vbml0b3IoW3N0YXJ0KCJvbGQiKSwgc3RhcnQoIm5ldyIpXSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGZvciBtb2RlIGluIFsib2xkIiwgIm5ldyJdOgogICAgICAgICAgICAgICAgICAgIG1vbml0b3IoW3N0YXJ0KG1vZGUpXSkKICAgICAgICBwcmludChmIkEvQiBjb21wbGV0ZWQ6IHtvdXRwdXR9IiwgZmx1c2g9VHJ1ZSkKICAgIGZpbmFsbHk6CiAgICAgICAgZm9yIHByb2MgaW4gcHJvY2Vzc2VzOgogICAgICAgICAgICBpZiBwcm9jLnBvbGwoKSBpcyBOb25lOgogICAgICAgICAgICAgICAgcHJvYy50ZXJtaW5hdGUoKQogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIHByb2Mud2FpdCh0aW1lb3V0PTEwKQogICAgICAgICAgICAgICAgZXhjZXB0IHN1YnByb2Nlc3MuVGltZW91dEV4cGlyZWQ6CiAgICAgICAgICAgICAgICAgICAgcHJvYy5raWxsKCkKICAgICAgICAgICAgICAgICAgICBwcm9jLndhaXQoKQogICAgICAgIGZvciBmaWxlIGluIGZpbGVzOgogICAgICAgICAgICBmaWxlLmNsb3NlKCkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+"""Run isolated Rust workers against the real Go WAF queue over loopback gRPC.
+
+Build the Go internal/wafwaitfixture binary and Rust runtime-test test binaries
+first. No production process or configuration is touched. Parallel mode runs
+both arms concurrently; use sequential mode for less host-load interference.
+"""
+import argparse
+import csv
+import json
+import os
+from pathlib import Path
+import subprocess
+import time
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--rust-test-bin", required=True)
+    parser.add_argument("--go-fixture", required=True)
+    parser.add_argument("--output-dir", required=True)
+    parser.add_argument("--idle-seconds", type=int, default=600)
+    parser.add_argument("--parallel", action="store_true")
+    args = parser.parse_args()
+    output = Path(args.output_dir).resolve()
+    output.mkdir(parents=True, exist_ok=True)
+    (output / "run.json").write_text(json.dumps({
+        "args": vars(args), "system": list(os.uname()),
+        "sampling": "ps every 5 seconds; RSS in KiB; CPU time is cumulative and includes startup",
+        "scope": "isolated real Rust scheduler + SQLite and Go EventStore; synthetic events; no deployed gateway",
+    }, indent=2))
+    processes = []
+    files = []
+    arm_started = {}
+    started = time.monotonic()
+    try:
+        with (output / "process-samples.csv").open("w", newline="") as stream, (output / "phase-resources.jsonl").open("w") as phase_stream:
+            samples = csv.writer(stream)
+            samples.writerow(["elapsed_seconds", "mode", "component", "pid", "rss_kib", "cpu_percent", "cpu_time"])
+
+            def start(mode):
+                go_log = (output / f"{mode}-go.stderr").open("w")
+                rust_log = (output / f"{mode}-rust.log").open("w")
+                files.extend([go_log, rust_log])
+                go = subprocess.Popen([args.go_fixture], stdout=subprocess.PIPE, stderr=go_log, text=True)
+                processes.append(go)
+                endpoints = json.loads(go.stdout.readline())
+                env = os.environ.copy()
+                env.update(FN_KNOCK_WAF_FIXTURE_RPC=endpoints["rpc"],
+                           FN_KNOCK_WAF_FIXTURE_CONTROL=endpoints["control"],
+                           FN_KNOCK_WAF_AB_MODE=mode,
+                           FN_KNOCK_WAF_AB_IDLE_SECONDS=str(args.idle_seconds))
+                rust = subprocess.Popen([args.rust_test_bin, "--ignored", "--exact",
+                    "waf::routes::tests::worker::waf_long_polling_ab", "--nocapture"],
+                    env=env, stdout=rust_log, stderr=subprocess.STDOUT)
+                processes.append(rust)
+                arm_started[mode] = time.monotonic()
+                print(json.dumps({"mode": mode, "rust_pid": rust.pid, "go_pid": go.pid}), flush=True)
+                return mode, go, rust
+
+            def monitor(arms):
+                seen = {mode: 0 for mode, _, _ in arms}
+                next_sample = 0.0
+                while any(rust.poll() is None for _, _, rust in arms):
+                    now = time.monotonic()
+                    for mode, go, rust in arms:
+                        if now >= next_sample:
+                            for component, proc in [("go", go), ("rust", rust)]:
+                                if proc.poll() is not None:
+                                    continue
+                                result = subprocess.run(["ps", "-p", str(proc.pid), "-o", "pid=,rss=,pcpu=,time="], capture_output=True, text=True)
+                                fields = result.stdout.split()
+                                if len(fields) == 4:
+                                    samples.writerow([round(time.monotonic()-started, 3), mode, component, *fields])
+                        lines = (output / f"{mode}-rust.log").read_text().splitlines(keepends=True)
+                        for line in lines[seen[mode]:]:
+                            if not line.endswith("\n"):
+                                break
+                            seen[mode] += 1
+                            if "WAF_AB " not in line:
+                                continue
+                            record = json.loads(line.split("WAF_AB ", 1)[1])
+                            if record["phase"] not in ("idle_done", "events", "stopped"):
+                                continue
+                            resources = {}
+                            for component, proc in [("go", go), ("rust", rust)]:
+                                result = subprocess.run(["ps", "-p", str(proc.pid), "-o", "rss=,time="], capture_output=True, text=True)
+                                fields = result.stdout.split()
+                                if len(fields) == 2:
+                                    resources[component] = {"rss_kib": int(fields[0]), "cpu_time": fields[1]}
+                            phase_stream.write(json.dumps({"mode": mode, "record": record, "resources": resources}) + "\n")
+                            phase_stream.flush()
+                    if now >= next_sample:
+                        stream.flush()
+                        next_sample = now + 5
+                    if now - started > args.idle_seconds * 2 + 180:
+                        raise TimeoutError("WAF A/B exceeded its deadline")
+                    # Closely observe workload boundaries after the idle phase;
+                    # periodic ps sampling remains at five-second intervals.
+                    near_events = any(now - arm_started[mode] >= args.idle_seconds - 5 for mode, _, rust in arms if rust.poll() is None)
+                    time.sleep(.05 if near_events else 5)
+                for mode, go, rust in arms:
+                    if rust.returncode != 0:
+                        raise RuntimeError(f"{mode} arm failed; see {mode}-rust.log")
+                    go.terminate()
+                    go.wait(timeout=10)
+
+            if args.parallel:
+                monitor([start("old"), start("new")])
+            else:
+                for mode in ["old", "new"]:
+                    monitor([start(mode)])
+        print(f"A/B completed: {output}", flush=True)
+    finally:
+        for proc in processes:
+            if proc.poll() is None:
+                proc.terminate()
+                try:
+                    proc.wait(timeout=10)
+                except subprocess.TimeoutExpired:
+                    proc.kill()
+                    proc.wait()
+        for file in files:
+            file.close()
+
+
+if __name__ == "__main__":
+    main()

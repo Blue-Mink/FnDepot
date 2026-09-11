@@ -1,1 +1,15 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRGlhbG9nVHJpZ2dlclByb3BzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgRGlhbG9nVHJpZ2dlciB9IGZyb20gInJla2EtdWkiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPERpYWxvZ1RyaWdnZXJQcm9wcz4oKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nVHJpZ2dlcgogICAgZGF0YS1zbG90PSJkaWFsb2ctdHJpZ2dlciIKICAgIHYtYmluZD0icHJvcHMiCiAgPgogICAgPHNsb3QgLz4KICA8L0RpYWxvZ1RyaWdnZXI+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { DialogTriggerProps } from "reka-ui"
+import { DialogTrigger } from "reka-ui"
+
+const props = defineProps<DialogTriggerProps>()
+</script>
+
+<template>
+  <DialogTrigger
+    data-slot="dialog-trigger"
+    v-bind="props"
+  >
+    <slot />
+  </DialogTrigger>
+</template>

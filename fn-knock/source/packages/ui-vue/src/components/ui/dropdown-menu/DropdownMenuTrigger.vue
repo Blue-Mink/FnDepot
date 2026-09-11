@@ -1,1 +1,17 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRHJvcGRvd25NZW51VHJpZ2dlclByb3BzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgRHJvcGRvd25NZW51VHJpZ2dlciwgdXNlRm9yd2FyZFByb3BzIH0gZnJvbSAicmVrYS11aSIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8RHJvcGRvd25NZW51VHJpZ2dlclByb3BzPigpCgpjb25zdCBmb3J3YXJkZWRQcm9wcyA9IHVzZUZvcndhcmRQcm9wcyhwcm9wcykKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERyb3Bkb3duTWVudVRyaWdnZXIKICAgIGRhdGEtc2xvdD0iZHJvcGRvd24tbWVudS10cmlnZ2VyIgogICAgdi1iaW5kPSJmb3J3YXJkZWRQcm9wcyIKICA+CiAgICA8c2xvdCAvPgogIDwvRHJvcGRvd25NZW51VHJpZ2dlcj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { DropdownMenuTriggerProps } from "reka-ui"
+import { DropdownMenuTrigger, useForwardProps } from "reka-ui"
+
+const props = defineProps<DropdownMenuTriggerProps>()
+
+const forwardedProps = useForwardProps(props)
+</script>
+
+<template>
+  <DropdownMenuTrigger
+    data-slot="dropdown-menu-trigger"
+    v-bind="forwardedProps"
+  >
+    <slot />
+  </DropdownMenuTrigger>
+</template>

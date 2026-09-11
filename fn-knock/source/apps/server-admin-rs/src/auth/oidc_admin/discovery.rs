@@ -1,1 +1,126 @@
-dXNlIHN0ZDo6dGltZTo6RHVyYXRpb247Cgp1c2Ugc2VyZGVfanNvbjo6e1ZhbHVlLCBqc29ufTsKCnVzZSBjcmF0ZTo6aTE4bjo6VHJhbnNsYXRvcjsKCnVzZSBzdXBlcjo6ewogICAgT0lEQ19IVFRQX1VTRVJfQUdFTlQsCiAgICBwcm92aWRlcjo6e21pc3NpbmdfcmVxdWlyZWRfcHJvdmlkZXJfZmllbGRzLCBub3JtYWxpemVfc3RyaW5nfSwKICAgIHRleHQ6OntvaWRjX3RleHQsIG9pZGNfdGV4dF9wYXJhbXN9LAp9OwoKY29uc3QgTUFYX09JRENfRElTQ09WRVJZX1JFU1BPTlNFX0JZVEVTOiB1c2l6ZSA9IDEwMjQgKiAxMDI0OwoKcHViKHN1cGVyKSBhc3luYyBmbiBydW5fcHJvdmlkZXJfdGVzdCgKICAgIHByb3ZpZGVyOiAmVmFsdWUsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgbGV0IG1pc3NpbmcgPSBtaXNzaW5nX3JlcXVpcmVkX3Byb3ZpZGVyX2ZpZWxkcyhwcm92aWRlcik7CiAgICBpZiAhbWlzc2luZy5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gRXJyKG9pZGNfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJwcm92aWRlck1pc3NpbmdSZXF1aXJlZEZpZWxkcyIsCiAgICAgICAgICAgICZbKCJmaWVsZHMiLCBtaXNzaW5nLmpvaW4oIiwgIikpXSwKICAgICAgICApKTsKICAgIH0KICAgIGlmIHByb3ZpZGVyLmdldCgicHJvdG9jb2wiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKCJvaWRjIikgewogICAgICAgIHJlc29sdmVfZGlzY292ZXJ5X3dpdGhfdHJhbnNsYXRvcihwcm92aWRlciwgdHJhbnNsYXRvcikuYXdhaXQ/OwogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CiAgICBsZXQgY29uZmlnID0gcHJvdmlkZXIKICAgICAgICAuZ2V0KCJjb25uZWN0aW9uX2NvbmZpZyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3QpCiAgICAgICAgLm9rX29yX2Vsc2UofHwgb2lkY190ZXh0KHRyYW5zbGF0b3IsICJjb25uZWN0aW9uQ29uZmlnSW52YWxpZCIpKT87CiAgICBmb3Iga2V5IGluIFsiYXV0aG9yaXphdGlvbl9lbmRwb2ludCIsICJ0b2tlbl9lbmRwb2ludCJdIHsKICAgICAgICBpZiBub3JtYWxpemVfc3RyaW5nKGNvbmZpZy5nZXQoa2V5KSkuaXNfbm9uZSgpIHsKICAgICAgICAgICAgcmV0dXJuIEVycihvaWRjX3RleHRfcGFyYW1zKAogICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJvYXV0aEVuZHBvaW50SW5jb21wbGV0ZVdpdGhGaWVsZCIsCiAgICAgICAgICAgICAgICAmWygiZmllbGQiLCBrZXkudG9fc3RyaW5nKCkpXSwKICAgICAgICAgICAgKSk7CiAgICAgICAgfQogICAgfQogICAgT2soKCkpCn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gcmVzb2x2ZV9kaXNjb3Zlcnlfd2l0aF90cmFuc2xhdG9yKAogICAgcHJvdmlkZXI6ICZWYWx1ZSwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IFJlc3VsdDxWYWx1ZSwgU3RyaW5nPiB7CiAgICBsZXQgY29uZmlnID0gcHJvdmlkZXIKICAgICAgICAuZ2V0KCJjb25uZWN0aW9uX2NvbmZpZyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3QpCiAgICAgICAgLm9rX29yX2Vsc2UofHwgb2lkY190ZXh0KHRyYW5zbGF0b3IsICJjb25uZWN0aW9uQ29uZmlnSW52YWxpZCIpKT87CiAgICBsZXQgZGlyZWN0ID0gWwogICAgICAgICJpc3N1ZXIiLAogICAgICAgICJhdXRob3JpemF0aW9uX2VuZHBvaW50IiwKICAgICAgICAidG9rZW5fZW5kcG9pbnQiLAogICAgICAgICJqd2tzX3VyaSIsCiAgICBdCiAgICAuaW50b19pdGVyKCkKICAgIC5hbGwofGtleXwgbm9ybWFsaXplX3N0cmluZyhjb25maWcuZ2V0KGtleSkpLmlzX3NvbWUoKSk7CiAgICBpZiBkaXJlY3QgewogICAgICAgIHJldHVybiBPayhqc29uISh7CiAgICAgICAgICAgICJpc3N1ZXIiOiBub3JtYWxpemVfc3RyaW5nKGNvbmZpZy5nZXQoImlzc3VlciIpKS51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICAgICAiYXV0aG9yaXphdGlvbl9lbmRwb2ludCI6IG5vcm1hbGl6ZV9zdHJpbmcoY29uZmlnLmdldCgiYXV0aG9yaXphdGlvbl9lbmRwb2ludCIpKS51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICAgICAidG9rZW5fZW5kcG9pbnQiOiBub3JtYWxpemVfc3RyaW5nKGNvbmZpZy5nZXQoInRva2VuX2VuZHBvaW50IikpLnVud3JhcF9vcl9kZWZhdWx0KCksCiAgICAgICAgICAgICJ1c2VyaW5mb19lbmRwb2ludCI6IG5vcm1hbGl6ZV9zdHJpbmcoY29uZmlnLmdldCgidXNlcmluZm9fZW5kcG9pbnQiKSksCiAgICAgICAgICAgICJqd2tzX3VyaSI6IG5vcm1hbGl6ZV9zdHJpbmcoY29uZmlnLmdldCgiandrc191cmkiKSkudW53cmFwX29yX2RlZmF1bHQoKSwKICAgICAgICB9KSk7CiAgICB9CgogICAgbGV0IGlzc3VlciA9IG5vcm1hbGl6ZV9zdHJpbmcoY29uZmlnLmdldCgiaXNzdWVyIikpCiAgICAgICAgLm9rX29yX2Vsc2UofHwgb2lkY190ZXh0KHRyYW5zbGF0b3IsICJpc3N1ZXJNaXNzaW5nIikpPzsKICAgIGxldCBkaXNjb3ZlcnlfdXJsID0gZm9ybWF0ISgKICAgICAgICAie30vLndlbGwta25vd24vb3BlbmlkLWNvbmZpZ3VyYXRpb24iLAogICAgICAgIGlzc3Vlci50cmltX2VuZF9tYXRjaGVzKCcvJykKICAgICk7CiAgICBsZXQgY2xpZW50ID0gcmVxd2VzdDo6Q2xpZW50OjpidWlsZGVyKCkKICAgICAgICAudGltZW91dChEdXJhdGlvbjo6ZnJvbV9zZWNzKDcpKQogICAgICAgIC5idWlsZCgpCiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgbGV0IHJlc3BvbnNlID0gY2xpZW50CiAgICAgICAgLmdldCgmZGlzY292ZXJ5X3VybCkKICAgICAgICAuaGVhZGVyKHJlcXdlc3Q6OmhlYWRlcjo6QUNDRVBULCAiYXBwbGljYXRpb24vanNvbiIpCiAgICAgICAgLmhlYWRlcihyZXF3ZXN0OjpoZWFkZXI6OlVTRVJfQUdFTlQsIE9JRENfSFRUUF9VU0VSX0FHRU5UKQogICAgICAgIC5zZW5kKCkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICBsZXQgc3RhdHVzID0gcmVzcG9uc2Uuc3RhdHVzKCk7CiAgICBsZXQgdGV4dCA9CiAgICAgICAgY3JhdGU6Omh0dHBfYm9keTo6cmVhZF9yZXNwb25zZV90ZXh0X2xpbWl0ZWQocmVzcG9uc2UsIE1BWF9PSURDX0RJU0NPVkVSWV9SRVNQT05TRV9CWVRFUykKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIGlmICFzdGF0dXMuaXNfc3VjY2VzcygpIHsKICAgICAgICByZXR1cm4gRXJyKG9pZGNfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJkaXNjb3ZlcnlIdHRwRmFpbGVkIiwKICAgICAgICAgICAgJlsKICAgICAgICAgICAgICAgICgic3RhdHVzIiwgc3RhdHVzLmFzX3UxNigpLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgICAgICgiZGV0YWlsIiwgdGV4dC5jaGFycygpLnRha2UoMTYwKS5jb2xsZWN0Ojo8U3RyaW5nPigpKSwKICAgICAgICAgICAgXSwKICAgICAgICApKTsKICAgIH0KICAgIGxldCBwYXlsb2FkID0gc2VyZGVfanNvbjo6ZnJvbV9zdHI6OjxWYWx1ZT4oJnRleHQpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgbGV0IFNvbWUob2JqZWN0KSA9IHBheWxvYWQuYXNfb2JqZWN0KCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIEVycihvaWRjX3RleHQodHJhbnNsYXRvciwgImRpc2NvdmVyeUludmFsaWQiKSk7CiAgICB9OwogICAgbGV0IG1pc3NpbmcgPSBbCiAgICAgICAgImlzc3VlciIsCiAgICAgICAgImF1dGhvcml6YXRpb25fZW5kcG9pbnQiLAogICAgICAgICJ0b2tlbl9lbmRwb2ludCIsCiAgICAgICAgImp3a3NfdXJpIiwKICAgIF0KICAgIC5pbnRvX2l0ZXIoKQogICAgLmZpbHRlcih8a2V5fCBub3JtYWxpemVfc3RyaW5nKG9iamVjdC5nZXQoKmtleSkpLmlzX25vbmUoKSkKICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgaWYgIW1pc3NpbmcuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIEVycihvaWRjX3RleHRfcGFyYW1zKAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAiZGlzY292ZXJ5TWlzc2luZ0ZpZWxkc1dpdGhMaXN0IiwKICAgICAgICAgICAgJlsoImZpZWxkcyIsIG1pc3Npbmcuam9pbigiLCAiKSldLAogICAgICAgICkpOwogICAgfQogICAgT2socGF5bG9hZCkKfQo=
+use std::time::Duration;
+
+use serde_json::{Value, json};
+
+use crate::i18n::Translator;
+
+use super::{
+    OIDC_HTTP_USER_AGENT,
+    provider::{missing_required_provider_fields, normalize_string},
+    text::{oidc_text, oidc_text_params},
+};
+
+const MAX_OIDC_DISCOVERY_RESPONSE_BYTES: usize = 1024 * 1024;
+
+pub(super) async fn run_provider_test(
+    provider: &Value,
+    translator: &Translator,
+) -> Result<(), String> {
+    let missing = missing_required_provider_fields(provider);
+    if !missing.is_empty() {
+        return Err(oidc_text_params(
+            translator,
+            "providerMissingRequiredFields",
+            &[("fields", missing.join(", "))],
+        ));
+    }
+    if provider.get("protocol").and_then(Value::as_str) == Some("oidc") {
+        resolve_discovery_with_translator(provider, translator).await?;
+        return Ok(());
+    }
+    let config = provider
+        .get("connection_config")
+        .and_then(Value::as_object)
+        .ok_or_else(|| oidc_text(translator, "connectionConfigInvalid"))?;
+    for key in ["authorization_endpoint", "token_endpoint"] {
+        if normalize_string(config.get(key)).is_none() {
+            return Err(oidc_text_params(
+                translator,
+                "oauthEndpointIncompleteWithField",
+                &[("field", key.to_string())],
+            ));
+        }
+    }
+    Ok(())
+}
+
+pub(crate) async fn resolve_discovery_with_translator(
+    provider: &Value,
+    translator: &Translator,
+) -> Result<Value, String> {
+    let config = provider
+        .get("connection_config")
+        .and_then(Value::as_object)
+        .ok_or_else(|| oidc_text(translator, "connectionConfigInvalid"))?;
+    let direct = [
+        "issuer",
+        "authorization_endpoint",
+        "token_endpoint",
+        "jwks_uri",
+    ]
+    .into_iter()
+    .all(|key| normalize_string(config.get(key)).is_some());
+    if direct {
+        return Ok(json!({
+            "issuer": normalize_string(config.get("issuer")).unwrap_or_default(),
+            "authorization_endpoint": normalize_string(config.get("authorization_endpoint")).unwrap_or_default(),
+            "token_endpoint": normalize_string(config.get("token_endpoint")).unwrap_or_default(),
+            "userinfo_endpoint": normalize_string(config.get("userinfo_endpoint")),
+            "jwks_uri": normalize_string(config.get("jwks_uri")).unwrap_or_default(),
+        }));
+    }
+
+    let issuer = normalize_string(config.get("issuer"))
+        .ok_or_else(|| oidc_text(translator, "issuerMissing"))?;
+    let discovery_url = format!(
+        "{}/.well-known/openid-configuration",
+        issuer.trim_end_matches('/')
+    );
+    let client = reqwest::Client::builder()
+        .timeout(Duration::from_secs(7))
+        .build()
+        .map_err(|error| error.to_string())?;
+    let response = client
+        .get(&discovery_url)
+        .header(reqwest::header::ACCEPT, "application/json")
+        .header(reqwest::header::USER_AGENT, OIDC_HTTP_USER_AGENT)
+        .send()
+        .await
+        .map_err(|error| error.to_string())?;
+    let status = response.status();
+    let text =
+        crate::http_body::read_response_text_limited(response, MAX_OIDC_DISCOVERY_RESPONSE_BYTES)
+            .await
+            .map_err(|error| error.to_string())?;
+    if !status.is_success() {
+        return Err(oidc_text_params(
+            translator,
+            "discoveryHttpFailed",
+            &[
+                ("status", status.as_u16().to_string()),
+                ("detail", text.chars().take(160).collect::<String>()),
+            ],
+        ));
+    }
+    let payload = serde_json::from_str::<Value>(&text).map_err(|error| error.to_string())?;
+    let Some(object) = payload.as_object() else {
+        return Err(oidc_text(translator, "discoveryInvalid"));
+    };
+    let missing = [
+        "issuer",
+        "authorization_endpoint",
+        "token_endpoint",
+        "jwks_uri",
+    ]
+    .into_iter()
+    .filter(|key| normalize_string(object.get(*key)).is_none())
+    .collect::<Vec<_>>();
+    if !missing.is_empty() {
+        return Err(oidc_text_params(
+            translator,
+            "discoveryMissingFieldsWithList",
+            &[("fields", missing.join(", "))],
+        ));
+    }
+    Ok(payload)
+}

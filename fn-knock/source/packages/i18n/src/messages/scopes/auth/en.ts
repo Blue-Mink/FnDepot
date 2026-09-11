@@ -1,1 +1,11 @@
-aW1wb3J0IHsgZW5BdXRoIH0gZnJvbSAiLi4vLi4vYXV0aC9lbiI7CmltcG9ydCB7IGVuQ29tbW9uIH0gZnJvbSAiLi4vLi4vY29tbW9uL2VuIjsKaW1wb3J0IHsgZW5Mb2NhbGUgfSBmcm9tICIuLi8uLi9sb2NhbGUvZW4iOwppbXBvcnQgeyBlblNoYXJlZCB9IGZyb20gIi4uLy4uL3NoYXJlZC9lbiI7CgpleHBvcnQgZGVmYXVsdCB7CiAgY29tbW9uOiBlbkNvbW1vbiwKICBsb2NhbGU6IGVuTG9jYWxlLAogIHNoYXJlZDogZW5TaGFyZWQsCiAgYXV0aDogZW5BdXRoLAp9Owo=
+import { enAuth } from "../../auth/en";
+import { enCommon } from "../../common/en";
+import { enLocale } from "../../locale/en";
+import { enShared } from "../../shared/en";
+
+export default {
+  common: enCommon,
+  locale: enLocale,
+  shared: enShared,
+  auth: enAuth,
+};

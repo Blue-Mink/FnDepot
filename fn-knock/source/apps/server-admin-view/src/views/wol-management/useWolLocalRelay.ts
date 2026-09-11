@@ -1,1 +1,85 @@
-aW1wb3J0IHsgcmVmLCB0eXBlIFJlYWN0aXZlIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgZXh0cmFjdEVycm9yTWVzc2FnZSB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgewogIFdPTEFQSSwKICB0eXBlIFdPTExvY2FsUmVsYXksCiAgdHlwZSBXT0xMb2NhbFJlbGF5SW5wdXQsCn0gZnJvbSAiQC9saWIvYXBpL3dvbCI7CmltcG9ydCB0eXBlIHsgV29sVHJhbnNsYXRlIH0gZnJvbSAiLi93b2wtbWFuYWdlbWVudC10eXBlcyI7CgpleHBvcnQgY29uc3QgdXNlV29sTG9jYWxSZWxheSA9ICh7CiAgYXBwbHlMb2NhbFJlbGF5LAogIGxvY2FsUmVsYXlGb3JtLAogIHQsCn06IHsKICBhcHBseUxvY2FsUmVsYXk6IChyZXN1bHQ6IFdPTExvY2FsUmVsYXkpID0+IHZvaWQ7CiAgbG9jYWxSZWxheUZvcm06IFJlYWN0aXZlPFdPTExvY2FsUmVsYXlJbnB1dD47CiAgdDogV29sVHJhbnNsYXRlOwp9KSA9PiB7CiAgY29uc3Qgc2F2aW5nTG9jYWxSZWxheSA9IHJlZihmYWxzZSk7CgogIGNvbnN0IHJlZnJlc2hMb2NhbFJlbGF5UnVudGltZSA9IGFzeW5jICgpID0+IHsKICAgIGZvciAoY29uc3QgZGVsYXkgb2YgWzEwMCwgMjUwLCA1MDBdKSB7CiAgICAgIGF3YWl0IG5ldyBQcm9taXNlPHZvaWQ+KChyZXNvbHZlKSA9PiBnbG9iYWxUaGlzLnNldFRpbWVvdXQocmVzb2x2ZSwgZGVsYXkpKTsKICAgICAgdHJ5IHsKICAgICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBXT0xBUEkuZ2V0TG9jYWxSZWxheSgpOwogICAgICAgIGFwcGx5TG9jYWxSZWxheShyZXN1bHQpOwogICAgICAgIGlmICgKICAgICAgICAgIHJlc3VsdC5ydW50aW1lLmxhc3RFcnJvciB8fAogICAgICAgICAgcmVzdWx0LnJ1bnRpbWUuYWN0aXZlID09PSByZXN1bHQuY29uZmlnLmVuYWJsZWQKICAgICAgICApIHsKICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgICAgfSBjYXRjaCB7CiAgICAgICAgYnJlYWs7CiAgICAgIH0KICAgIH0KICB9OwoKICBjb25zdCBzYXZlTG9jYWxSZWxheSA9IGFzeW5jICgpID0+IHsKICAgIHNhdmluZ0xvY2FsUmVsYXkudmFsdWUgPSB0cnVlOwogICAgdHJ5IHsKICAgICAgY29uc3QgcHNrID0gbG9jYWxSZWxheUZvcm0ucHNrPy50cmltKCk7CiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IFdPTEFQSS51cGRhdGVMb2NhbFJlbGF5KHsKICAgICAgICAuLi5sb2NhbFJlbGF5Rm9ybSwKICAgICAgICBicm9hZGNhc3REZXN0aW5hdGlvbnM6IFsuLi5sb2NhbFJlbGF5Rm9ybS5icm9hZGNhc3REZXN0aW5hdGlvbnNdLAogICAgICAgIGFsbG93ZWRTb3VyY2VzOiBbLi4ubG9jYWxSZWxheUZvcm0uYWxsb3dlZFNvdXJjZXNdLAogICAgICAgIHBzazogcHNrIHx8IHVuZGVmaW5lZCwKICAgICAgfSk7CiAgICAgIGFwcGx5TG9jYWxSZWxheShyZXN1bHQpOwogICAgICBhd2FpdCByZWZyZXNoTG9jYWxSZWxheVJ1bnRpbWUoKTsKICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi53b2wubG9jYWxSZWxheS5zYXZlZCIpKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLndvbC5sb2NhbFJlbGF5LnNhdmVGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi53b2wubG9jYWxSZWxheS5zYXZlRmFpbGVkIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBzYXZpbmdMb2NhbFJlbGF5LnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3QgcGFpckxvY2FsUmVsYXkgPSBhc3luYyAocGFpcmluZ0NvZGU6IHN0cmluZykgPT4gewogICAgc2F2aW5nTG9jYWxSZWxheS52YWx1ZSA9IHRydWU7CiAgICB0cnkgewogICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBXT0xBUEkucGFpckxvY2FsUmVsYXkocGFpcmluZ0NvZGUpOwogICAgICBhcHBseUxvY2FsUmVsYXkocmVzdWx0KTsKICAgICAgYXdhaXQgcmVmcmVzaExvY2FsUmVsYXlSdW50aW1lKCk7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4ud29sLmxvY2FsUmVsYXkucGFpcmVkIikpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ud29sLmxvY2FsUmVsYXkucGFpckZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLndvbC5sb2NhbFJlbGF5LnBhaXJGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNhdmluZ0xvY2FsUmVsYXkudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9OwoKICByZXR1cm4geyBwYWlyTG9jYWxSZWxheSwgc2F2ZUxvY2FsUmVsYXksIHNhdmluZ0xvY2FsUmVsYXkgfTsKfTsK
+import { ref, type Reactive } from "vue";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  WOLAPI,
+  type WOLLocalRelay,
+  type WOLLocalRelayInput,
+} from "@/lib/api/wol";
+import type { WolTranslate } from "./wol-management-types";
+
+export const useWolLocalRelay = ({
+  applyLocalRelay,
+  localRelayForm,
+  t,
+}: {
+  applyLocalRelay: (result: WOLLocalRelay) => void;
+  localRelayForm: Reactive<WOLLocalRelayInput>;
+  t: WolTranslate;
+}) => {
+  const savingLocalRelay = ref(false);
+
+  const refreshLocalRelayRuntime = async () => {
+    for (const delay of [100, 250, 500]) {
+      await new Promise<void>((resolve) => globalThis.setTimeout(resolve, delay));
+      try {
+        const result = await WOLAPI.getLocalRelay();
+        applyLocalRelay(result);
+        if (
+          result.runtime.lastError ||
+          result.runtime.active === result.config.enabled
+        ) {
+          break;
+        }
+      } catch {
+        break;
+      }
+    }
+  };
+
+  const saveLocalRelay = async () => {
+    savingLocalRelay.value = true;
+    try {
+      const psk = localRelayForm.psk?.trim();
+      const result = await WOLAPI.updateLocalRelay({
+        ...localRelayForm,
+        broadcastDestinations: [...localRelayForm.broadcastDestinations],
+        allowedSources: [...localRelayForm.allowedSources],
+        psk: psk || undefined,
+      });
+      applyLocalRelay(result);
+      await refreshLocalRelayRuntime();
+      toast.success(t("admin.wol.localRelay.saved"));
+    } catch (error) {
+      toast.error(t("admin.wol.localRelay.saveFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.wol.localRelay.saveFailed"),
+        ),
+      });
+    } finally {
+      savingLocalRelay.value = false;
+    }
+  };
+
+  const pairLocalRelay = async (pairingCode: string) => {
+    savingLocalRelay.value = true;
+    try {
+      const result = await WOLAPI.pairLocalRelay(pairingCode);
+      applyLocalRelay(result);
+      await refreshLocalRelayRuntime();
+      toast.success(t("admin.wol.localRelay.paired"));
+    } catch (error) {
+      toast.error(t("admin.wol.localRelay.pairFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.wol.localRelay.pairFailed"),
+        ),
+      });
+    } finally {
+      savingLocalRelay.value = false;
+    }
+  };
+
+  return { pairLocalRelay, saveLocalRelay, savingLocalRelay };
+};

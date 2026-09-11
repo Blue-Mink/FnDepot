@@ -1,1 +1,79 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGRlZmluZUFzeW5jQ29tcG9uZW50IH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdXNlUm91dGUsIHVzZVJvdXRlciB9IGZyb20gInZ1ZS1yb3V0ZXIiOwppbXBvcnQgeyBUYWJzLCBUYWJzQ29udGVudCwgVGFic0xpc3QsIFRhYnNUcmlnZ2VyIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RhYnMiOwppbXBvcnQgeyB1c2VTeW5jZWRRdWVyeVRhYiB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlU3luY2VkUXVlcnlUYWIiOwppbXBvcnQgVHJhY2VMb29rdXBCdXR0b24gZnJvbSAiQC9jb21wb25lbnRzL1RyYWNlTG9va3VwQnV0dG9uLnZ1ZSI7Cgpjb25zdCBFdmVudHNUYWIgPSBkZWZpbmVBc3luY0NvbXBvbmVudCgKICAoKSA9PiBpbXBvcnQoIi4vZXZlbnQtY2VudGVyL0V2ZW50c1RhYi52dWUiKSwKKTsKY29uc3QgTm90aWZpY2F0aW9uc1RhYiA9IGRlZmluZUFzeW5jQ29tcG9uZW50KAogICgpID0+IGltcG9ydCgiLi9ldmVudC1jZW50ZXIvTm90aWZpY2F0aW9uc1RhYi52dWUiKSwKKTsKY29uc3QgUnVudGltZVRhYiA9IGRlZmluZUFzeW5jQ29tcG9uZW50KAogICgpID0+IGltcG9ydCgiLi9ldmVudC1jZW50ZXIvUnVudGltZVRhYi52dWUiKSwKKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTsKY29uc3Qgcm91dGUgPSB1c2VSb3V0ZSgpOwoKY29uc3QgeyBjdXJyZW50VGFiLCBuYXZpZ2F0ZVRvIH0gPSB1c2VTeW5jZWRRdWVyeVRhYih7CiAgcm91dGUsCiAgcm91dGVyLAogIGRlZmF1bHRUYWI6ICJldmVudHMiLAogIGFsbG93ZWRUYWJzOiBbImV2ZW50cyIsICJydW50aW1lIiwgIm5vdGlmaWNhdGlvbnMiXSwKfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYKICAgIGNsYXNzPSJkeW5hbWljLXdoaXRlLXBhZ2UtY2FyZCBkeW5hbWljLXdoaXRlLXNldHRpbmdzLXN1cmZhY2UgZmxleCBoLWZ1bGwgZmxleC1jb2wgZ2FwLTQiCiAgPgogICAgPGRpdgogICAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtMyBzbTpmbGV4LXJvdyBzbTppdGVtcy1zdGFydCBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICA+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14bCBmb250LXNlbWlib2xkIHRyYWNraW5nLXRpZ2h0IHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5ldmVudENlbnRlci50aXRsZSIpIH19CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7IHQoImFkbWluLmV2ZW50Q2VudGVyLmRlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxUcmFjZUxvb2t1cEJ1dHRvbiAvPgogICAgPC9kaXY+CgogICAgPFRhYnMKICAgICAgOm1vZGVsLXZhbHVlPSJjdXJyZW50VGFiIgogICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJuYXZpZ2F0ZVRvIgogICAgICBjbGFzcz0iZmxleCBmbGV4LTEgZmxleC1jb2wiCiAgICA+CiAgICAgIDxUYWJzTGlzdCBjbGFzcz0idy1maXQiPgogICAgICAgIDxUYWJzVHJpZ2dlciB2YWx1ZT0iZXZlbnRzIj4KICAgICAgICAgIHt7IHQoImFkbWluLmV2ZW50Q2VudGVyLnRhYnMuZXZlbnRzIikgfX0KICAgICAgICA8L1RhYnNUcmlnZ2VyPgogICAgICAgIDxUYWJzVHJpZ2dlciB2YWx1ZT0ibm90aWZpY2F0aW9ucyI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5ldmVudENlbnRlci50YWJzLm5vdGlmaWNhdGlvbnMiKSB9fQogICAgICAgIDwvVGFic1RyaWdnZXI+CiAgICAgICAgPFRhYnNUcmlnZ2VyIHZhbHVlPSJydW50aW1lIj4KICAgICAgICAgIHt7IHQoImFkbWluLmV2ZW50Q2VudGVyLnRhYnMucnVudGltZSIpIH19CiAgICAgICAgPC9UYWJzVHJpZ2dlcj4KICAgICAgPC9UYWJzTGlzdD4KCiAgICAgIDxUYWJzQ29udGVudCB2YWx1ZT0iZXZlbnRzIiBjbGFzcz0ibWluLWgtMCBmbGV4LTEgcHQtMiI+CiAgICAgICAgPEV2ZW50c1RhYiA6YWN0aXZlPSJjdXJyZW50VGFiID09PSAnZXZlbnRzJyIgLz4KICAgICAgPC9UYWJzQ29udGVudD4KCiAgICAgIDxUYWJzQ29udGVudCB2YWx1ZT0ibm90aWZpY2F0aW9ucyIgY2xhc3M9Im1pbi1oLTAgZmxleC0xIHB0LTIiPgogICAgICAgIDxOb3RpZmljYXRpb25zVGFiIC8+CiAgICAgIDwvVGFic0NvbnRlbnQ+CgogICAgICA8VGFic0NvbnRlbnQgdmFsdWU9InJ1bnRpbWUiIGNsYXNzPSJtaW4taC0wIGZsZXgtMSBwdC0yIj4KICAgICAgICA8UnVudGltZVRhYiA6YWN0aXZlPSJjdXJyZW50VGFiID09PSAncnVudGltZSciIC8+CiAgICAgIDwvVGFic0NvbnRlbnQ+CiAgICA8L1RhYnM+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { defineAsyncComponent } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRoute, useRouter } from "vue-router";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useSyncedQueryTab } from "@admin-shared/composables/useSyncedQueryTab";
+import TraceLookupButton from "@/components/TraceLookupButton.vue";
+
+const EventsTab = defineAsyncComponent(
+  () => import("./event-center/EventsTab.vue"),
+);
+const NotificationsTab = defineAsyncComponent(
+  () => import("./event-center/NotificationsTab.vue"),
+);
+const RuntimeTab = defineAsyncComponent(
+  () => import("./event-center/RuntimeTab.vue"),
+);
+
+const { t } = useI18n();
+const router = useRouter();
+const route = useRoute();
+
+const { currentTab, navigateTo } = useSyncedQueryTab({
+  route,
+  router,
+  defaultTab: "events",
+  allowedTabs: ["events", "runtime", "notifications"],
+});
+</script>
+
+<template>
+  <div
+    class="dynamic-white-page-card dynamic-white-settings-surface flex h-full flex-col gap-4"
+  >
+    <div
+      class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+    >
+      <div class="space-y-1">
+        <div class="text-xl font-semibold tracking-tight text-foreground">
+          {{ t("admin.eventCenter.title") }}
+        </div>
+        <div class="text-sm leading-6 text-muted-foreground">
+          {{ t("admin.eventCenter.description") }}
+        </div>
+      </div>
+      <TraceLookupButton />
+    </div>
+
+    <Tabs
+      :model-value="currentTab"
+      @update:model-value="navigateTo"
+      class="flex flex-1 flex-col"
+    >
+      <TabsList class="w-fit">
+        <TabsTrigger value="events">
+          {{ t("admin.eventCenter.tabs.events") }}
+        </TabsTrigger>
+        <TabsTrigger value="notifications">
+          {{ t("admin.eventCenter.tabs.notifications") }}
+        </TabsTrigger>
+        <TabsTrigger value="runtime">
+          {{ t("admin.eventCenter.tabs.runtime") }}
+        </TabsTrigger>
+      </TabsList>
+
+      <TabsContent value="events" class="min-h-0 flex-1 pt-2">
+        <EventsTab :active="currentTab === 'events'" />
+      </TabsContent>
+
+      <TabsContent value="notifications" class="min-h-0 flex-1 pt-2">
+        <NotificationsTab />
+      </TabsContent>
+
+      <TabsContent value="runtime" class="min-h-0 flex-1 pt-2">
+        <RuntimeTab :active="currentTab === 'runtime'" />
+      </TabsContent>
+    </Tabs>
+  </div>
+</template>

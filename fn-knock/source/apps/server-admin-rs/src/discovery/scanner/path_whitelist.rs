@@ -1,1 +1,163 @@
-dXNlIHN1cGVyOjpwcmVmbGlnaHQ6Ontub3JtYWxpemVfc2Nhbm5lcl9pcCwgbm9ybWFsaXplX3NjYW5uZXJfcGF0aH07CnVzZSBzdXBlcjo6KjsKCmNvbnN0IFBBVEhfV0hJVEVMSVNUX0ZJRUxEOiAmc3RyID0gInBhdGhXaGl0ZWxpc3QiOwoKY29uc3QgREVGQVVMVF9TQ0FOTkVSX1BBVEhfV0hJVEVMSVNUOiAmWyZzdHJdID0gJlsKICAgICIvIiwKICAgICIvaW5kZXguaHRtbCIsCiAgICAiL3JvYm90cy50eHQiLAogICAgIi9zaXRlbWFwLnhtbCIsCiAgICAiL2Zhdmljb24uaWNvIiwKICAgICIvZmF2aWNvbi5zdmciLAogICAgIi9hcGkvYXV0aC9ib290c3RyYXAiLAogICAgIi9hcGkvYXV0aC9jYXB0Y2hhL2NvbmZpZyIsCiAgICAiL2FwaS9hdXRoL2NoYWxsZW5nZSIsCiAgICAiL2FwaS9hdXRoL2xvZ2luIiwKICAgICIvYXBpL2F1dGgvaXAiLAogICAgIi9hcGkvYXV0aC9pcC9sb2NhdGlvbiIsCiAgICAiL2FwaS9hdXRoL3Nlc3Npb24iLAogICAgIi9hcGkvYXV0aC92ZXJpZnkiLAogICAgIi9hcGkvYXV0aC9wYXNza2V5L3N0YXR1cyIsCiAgICAiL3RyaW1jb24iLAogICAgIi8ud2VsbC1rbm93bi9haS1wbHVnaW4uanNvbiIsCiAgICAiL2FwcGxlLXRvdWNoLWljb24ucG5nIiwKICAgICIvbWFuaWZlc3QuanNvbiIsCiAgICAiL2xvZ2luIiwKICAgICIvbG9jYWxlcy96aC1DTi9vcy5qc29uIiwKICAgICIvbGljZW5zZS92MS9kZXZpY2UvYmFzZUluZm8iLAogICAgIi9sb2NhbGVzL3poLUNOL2FwcHMvc2V0dGluZy5qc29uIiwKICAgICIvYXBwLWNlbnRlci92MS9jaGVjay11cGRhdGUiLAogICAgIi9zYWMvcnBjcHJveHkvdjEvbmV3LXVzZXItZ3VpZGUvc3RhdHVzIiwKICAgICIvbG9jYWxlcy96aC1DTi9wYWdlcy9sb2dpbi5qc29uIiwKICAgICIvc3RhdGljL2JnL3dhbGxwYXBlci0xLndlYnAiLAogICAgIi9hcGkvY29uZmlnIiwKICAgICIvaWRlbnRpdHkvY29ubmVjdC90b2tlbiIsCiAgICAiL3N5bmMvZXZlbnQvcmVnaXN0ZXIiLApdOwoKcHViKHN1cGVyKSBmbiBkZWZhdWx0X3NjYW5uZXJfcGF0aF93aGl0ZWxpc3QoKSAtPiBWZWM8U3RyaW5nPiB7CiAgICBERUZBVUxUX1NDQU5ORVJfUEFUSF9XSElURUxJU1QKICAgICAgICAuaXRlcigpCiAgICAgICAgLm1hcCh8cGF0aHwgKCpwYXRoKS50b19zdHJpbmcoKSkKICAgICAgICAuY29sbGVjdCgpCn0KCnB1YihzdXBlcikgZm4gc2Nhbm5lcl9wYXRoX3doaXRlbGlzdF9mcm9tX3JhdygKICAgIHJhdzogT3B0aW9uPCZWYWx1ZT4sCikgLT4gUmVzdWx0PFZlYzxTdHJpbmc+LCBTY2FubmVyRXJyb3I+IHsKICAgIGxldCBTb21lKHZhbHVlKSA9IHJhdy5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLmdldChQQVRIX1dISVRFTElTVF9GSUVMRCkpIGVsc2UgewogICAgICAgIHJldHVybiBPayhkZWZhdWx0X3NjYW5uZXJfcGF0aF93aGl0ZWxpc3QoKSk7CiAgICB9OwogICAgbGV0IHZhbHVlcyA9IHZhbHVlCiAgICAgICAgLmFzX2FycmF5KCkKICAgICAgICAub2tfb3JfZWxzZSh8fCBTY2FubmVyRXJyb3I6OkJhZFJlcXVlc3QoIkludmFsaWQgc2Nhbm5lciBwYXRoIHdoaXRlbGlzdCIudG9fc3RyaW5nKCkpKT87CiAgICBsZXQgcGF0aHMgPSB2YWx1ZXMKICAgICAgICAuaXRlcigpCiAgICAgICAgLm1hcCh8dmFsdWV8IHsKICAgICAgICAgICAgdmFsdWUuYXNfc3RyKCkubWFwKFRvU3RyaW5nOjp0b19zdHJpbmcpLm9rX29yX2Vsc2UofHwgewogICAgICAgICAgICAgICAgU2Nhbm5lckVycm9yOjpCYWRSZXF1ZXN0KCJJbnZhbGlkIHNjYW5uZXIgcGF0aCB3aGl0ZWxpc3QiLnRvX3N0cmluZygpKQogICAgICAgICAgICB9KQogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3Q6OjxSZXN1bHQ8VmVjPF8+LCBfPj4oKT87CiAgICBub3JtYWxpemVfc2Nhbm5lcl9wYXRoX3doaXRlbGlzdChwYXRocykKfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfc2Nhbm5lcl9wYXRoX3doaXRlbGlzdCgKICAgIHBhdGhzOiBWZWM8U3RyaW5nPiwKKSAtPiBSZXN1bHQ8VmVjPFN0cmluZz4sIFNjYW5uZXJFcnJvcj4gewogICAgbGV0IG11dCBub3JtYWxpemVkID0gVmVjOjp3aXRoX2NhcGFjaXR5KHBhdGhzLmxlbigpKTsKICAgIGxldCBtdXQgc2VlbiA9IEhhc2hTZXQ6OndpdGhfY2FwYWNpdHkocGF0aHMubGVuKCkpOwogICAgZm9yIHBhdGggaW4gcGF0aHMgewogICAgICAgIGxldCBwYXRoID0gbm9ybWFsaXplX3NjYW5uZXJfd2hpdGVsaXN0X2VudHJ5KCZwYXRoKT87CiAgICAgICAgaWYgc2Vlbi5pbnNlcnQocGF0aC5jbG9uZSgpKSB7CiAgICAgICAgICAgIG5vcm1hbGl6ZWQucHVzaChwYXRoKTsKICAgICAgICB9CiAgICB9CiAgICBPayhub3JtYWxpemVkKQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9zY2FubmVyX3doaXRlbGlzdF9lbnRyeShwYXRoOiAmc3RyKSAtPiBSZXN1bHQ8U3RyaW5nLCBTY2FubmVyRXJyb3I+IHsKICAgIGlmIHBhdGguY2hhcnMoKS5hbnkoY2hhcjo6aXNfY29udHJvbCkgewogICAgICAgIHJldHVybiBFcnIoU2Nhbm5lckVycm9yOjpCYWRSZXF1ZXN0KAogICAgICAgICAgICAiUGF0aCBjb250YWlucyBjb250cm9sIGNoYXJhY3RlcnMiLnRvX3N0cmluZygpLAogICAgICAgICkpOwogICAgfQogICAgbGV0IHBhdGggPSBwYXRoLnRyaW0oKTsKICAgIGlmIHBhdGguaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIEVycihTY2FubmVyRXJyb3I6OkJhZFJlcXVlc3QoCiAgICAgICAgICAgICJQYXRoIG11c3Qgbm90IGJlIGVtcHR5Ii50b19zdHJpbmcoKSwKICAgICAgICApKTsKICAgIH0KICAgIGlmICFwYXRoLnN0YXJ0c193aXRoKCcvJykgewogICAgICAgIHJldHVybiBFcnIoU2Nhbm5lckVycm9yOjpCYWRSZXF1ZXN0KAogICAgICAgICAgICAiUGF0aCBtdXN0IGJlIGFic29sdXRlIi50b19zdHJpbmcoKSwKICAgICAgICApKTsKICAgIH0KICAgIE9rKG5vcm1hbGl6ZV9zY2FubmVyX3BhdGgocGF0aCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gbG9hZF9zY2FubmVyX3BhdGhfd2hpdGVsaXN0KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKKSAtPiBSZXN1bHQ8U2Nhbm5lclBhdGhXaGl0ZWxpc3QsIFNjYW5uZXJFcnJvcj4gewogICAgbGV0IHJhdyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuc2Nhbm5lcl9zZXR0aW5nc19yYXcoKS5hd2FpdD87CiAgICBPayhzY2FubmVyX3BhdGhfd2hpdGVsaXN0X3BheWxvYWQoCiAgICAgICAgc2Nhbm5lcl9wYXRoX3doaXRlbGlzdF9mcm9tX3JhdyhyYXcuYXNfcmVmKCkpPywKICAgICkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gcmVwbGFjZV9zY2FubmVyX3BhdGhfd2hpdGVsaXN0KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHBhdGhzOiBWZWM8U3RyaW5nPiwKKSAtPiBSZXN1bHQ8U2Nhbm5lclBhdGhXaGl0ZWxpc3QsIFNjYW5uZXJFcnJvcj4gewogICAgbGV0IHBhdGhzID0gbm9ybWFsaXplX3NjYW5uZXJfcGF0aF93aGl0ZWxpc3QocGF0aHMpPzsKICAgIGxldCBfZ3VhcmQgPSBzdGF0ZS5zZWN1cml0eS5zY2FubmVyX3NldHRpbmdzX3VwZGF0ZV9sb2NrLmxvY2soKS5hd2FpdDsKICAgIGxldCByYXcgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLnNjYW5uZXJfc2V0dGluZ3NfcmF3KCkuYXdhaXQ/OwogICAgbGV0IHN0b3JlZCA9IHdpdGhfcGF0aF93aGl0ZWxpc3QocmF3LmFzX3JlZigpLCAmcGF0aHMpOwogICAgc3RhdGUuc3RvcmFnZS5zdG9yZS5zYXZlX3NjYW5uZXJfc2V0dGluZ3MoJnN0b3JlZCkuYXdhaXQ/OwogICAgT2soc2Nhbm5lcl9wYXRoX3doaXRlbGlzdF9wYXlsb2FkKHBhdGhzKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiByZXNvbHZlX3NjYW5uZXJfZmFsc2VfcG9zaXRpdmUoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaXA6ICZzdHIsCiAgICBwYXRoOiAmc3RyLAopIC0+IFJlc3VsdDxTY2FubmVyRmFsc2VQb3NpdGl2ZVJlc3VsdCwgU2Nhbm5lckVycm9yPiB7CiAgICBsZXQgaXAgPSBub3JtYWxpemVfc2Nhbm5lcl9pcChpcCk7CiAgICBpZiBpcC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gRXJyKFNjYW5uZXJFcnJvcjo6QmFkUmVxdWVzdCgiSVAgaXMgcmVxdWlyZWQiLnRvX3N0cmluZygpKSk7CiAgICB9CiAgICBsZXQgcGF0aCA9IG5vcm1hbGl6ZV9zY2FubmVyX3doaXRlbGlzdF9lbnRyeShwYXRoKT87CiAgICBsZXQgX2d1YXJkID0gc3RhdGUuc2VjdXJpdHkuc2Nhbm5lcl9zZXR0aW5nc191cGRhdGVfbG9jay5sb2NrKCkuYXdhaXQ7CiAgICBsZXQgcmF3ID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5zY2FubmVyX3NldHRpbmdzX3JhdygpLmF3YWl0PzsKICAgIGxldCBtdXQgcGF0aHMgPSBzY2FubmVyX3BhdGhfd2hpdGVsaXN0X2Zyb21fcmF3KHJhdy5hc19yZWYoKSk/OwogICAgbGV0IGFkZGVkID0gIXBhdGhzLmNvbnRhaW5zKCZwYXRoKTsKICAgIGlmIGFkZGVkIHsKICAgICAgICBwYXRocy5wdXNoKHBhdGguY2xvbmUoKSk7CiAgICB9CiAgICBsZXQgc3RvcmVkID0gd2l0aF9wYXRoX3doaXRlbGlzdChyYXcuYXNfcmVmKCksICZwYXRocyk7CiAgICBsZXQgdW5ibG9ja2VkID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5zYXZlX3NjYW5uZXJfc2V0dGluZ3NfYW5kX3JlbW92ZV9ibGFja2xpc3QoJnN0b3JlZCwgJmlwKQogICAgICAgIC5hd2FpdD87CiAgICBPayhTY2FubmVyRmFsc2VQb3NpdGl2ZVJlc3VsdCB7CiAgICAgICAgaXAsCiAgICAgICAgcGF0aCwKICAgICAgICBhZGRlZCwKICAgICAgICB1bmJsb2NrZWQsCiAgICB9KQp9CgpmbiB3aXRoX3BhdGhfd2hpdGVsaXN0KHJhdzogT3B0aW9uPCZWYWx1ZT4sIHBhdGhzOiAmW1N0cmluZ10pIC0+IFZhbHVlIHsKICAgIGxldCBtdXQgc3RvcmVkID0gcmF3LmFuZF90aGVuKFZhbHVlOjphc19vYmplY3QpLmNsb25lZCgpLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBzdG9yZWQuaW5zZXJ0KFBBVEhfV0hJVEVMSVNUX0ZJRUxELnRvX3N0cmluZygpLCBqc29uIShwYXRocykpOwogICAgVmFsdWU6Ok9iamVjdChzdG9yZWQpCn0KCmZuIHNjYW5uZXJfcGF0aF93aGl0ZWxpc3RfcGF5bG9hZChwYXRoczogVmVjPFN0cmluZz4pIC0+IFNjYW5uZXJQYXRoV2hpdGVsaXN0IHsKICAgIFNjYW5uZXJQYXRoV2hpdGVsaXN0IHsKICAgICAgICBwYXRocywKICAgICAgICBkZWZhdWx0X3BhdGhzOiBkZWZhdWx0X3NjYW5uZXJfcGF0aF93aGl0ZWxpc3QoKSwKICAgIH0KfQo=
+use super::preflight::{normalize_scanner_ip, normalize_scanner_path};
+use super::*;
+
+const PATH_WHITELIST_FIELD: &str = "pathWhitelist";
+
+const DEFAULT_SCANNER_PATH_WHITELIST: &[&str] = &[
+    "/",
+    "/index.html",
+    "/robots.txt",
+    "/sitemap.xml",
+    "/favicon.ico",
+    "/favicon.svg",
+    "/api/auth/bootstrap",
+    "/api/auth/captcha/config",
+    "/api/auth/challenge",
+    "/api/auth/login",
+    "/api/auth/ip",
+    "/api/auth/ip/location",
+    "/api/auth/session",
+    "/api/auth/verify",
+    "/api/auth/passkey/status",
+    "/trimcon",
+    "/.well-known/ai-plugin.json",
+    "/apple-touch-icon.png",
+    "/manifest.json",
+    "/login",
+    "/locales/zh-CN/os.json",
+    "/license/v1/device/baseInfo",
+    "/locales/zh-CN/apps/setting.json",
+    "/app-center/v1/check-update",
+    "/sac/rpcproxy/v1/new-user-guide/status",
+    "/locales/zh-CN/pages/login.json",
+    "/static/bg/wallpaper-1.webp",
+    "/api/config",
+    "/identity/connect/token",
+    "/sync/event/register",
+];
+
+pub(super) fn default_scanner_path_whitelist() -> Vec<String> {
+    DEFAULT_SCANNER_PATH_WHITELIST
+        .iter()
+        .map(|path| (*path).to_string())
+        .collect()
+}
+
+pub(super) fn scanner_path_whitelist_from_raw(
+    raw: Option<&Value>,
+) -> Result<Vec<String>, ScannerError> {
+    let Some(value) = raw.and_then(|value| value.get(PATH_WHITELIST_FIELD)) else {
+        return Ok(default_scanner_path_whitelist());
+    };
+    let values = value
+        .as_array()
+        .ok_or_else(|| ScannerError::BadRequest("Invalid scanner path whitelist".to_string()))?;
+    let paths = values
+        .iter()
+        .map(|value| {
+            value.as_str().map(ToString::to_string).ok_or_else(|| {
+                ScannerError::BadRequest("Invalid scanner path whitelist".to_string())
+            })
+        })
+        .collect::<Result<Vec<_>, _>>()?;
+    normalize_scanner_path_whitelist(paths)
+}
+
+pub(super) fn normalize_scanner_path_whitelist(
+    paths: Vec<String>,
+) -> Result<Vec<String>, ScannerError> {
+    let mut normalized = Vec::with_capacity(paths.len());
+    let mut seen = HashSet::with_capacity(paths.len());
+    for path in paths {
+        let path = normalize_scanner_whitelist_entry(&path)?;
+        if seen.insert(path.clone()) {
+            normalized.push(path);
+        }
+    }
+    Ok(normalized)
+}
+
+pub(super) fn normalize_scanner_whitelist_entry(path: &str) -> Result<String, ScannerError> {
+    if path.chars().any(char::is_control) {
+        return Err(ScannerError::BadRequest(
+            "Path contains control characters".to_string(),
+        ));
+    }
+    let path = path.trim();
+    if path.is_empty() {
+        return Err(ScannerError::BadRequest(
+            "Path must not be empty".to_string(),
+        ));
+    }
+    if !path.starts_with('/') {
+        return Err(ScannerError::BadRequest(
+            "Path must be absolute".to_string(),
+        ));
+    }
+    Ok(normalize_scanner_path(path))
+}
+
+pub(super) async fn load_scanner_path_whitelist(
+    state: &AppState,
+) -> Result<ScannerPathWhitelist, ScannerError> {
+    let raw = state.storage.store.scanner_settings_raw().await?;
+    Ok(scanner_path_whitelist_payload(
+        scanner_path_whitelist_from_raw(raw.as_ref())?,
+    ))
+}
+
+pub(super) async fn replace_scanner_path_whitelist(
+    state: &AppState,
+    paths: Vec<String>,
+) -> Result<ScannerPathWhitelist, ScannerError> {
+    let paths = normalize_scanner_path_whitelist(paths)?;
+    let _guard = state.security.scanner_settings_update_lock.lock().await;
+    let raw = state.storage.store.scanner_settings_raw().await?;
+    let stored = with_path_whitelist(raw.as_ref(), &paths);
+    state.storage.store.save_scanner_settings(&stored).await?;
+    Ok(scanner_path_whitelist_payload(paths))
+}
+
+pub(super) async fn resolve_scanner_false_positive(
+    state: &AppState,
+    ip: &str,
+    path: &str,
+) -> Result<ScannerFalsePositiveResult, ScannerError> {
+    let ip = normalize_scanner_ip(ip);
+    if ip.is_empty() {
+        return Err(ScannerError::BadRequest("IP is required".to_string()));
+    }
+    let path = normalize_scanner_whitelist_entry(path)?;
+    let _guard = state.security.scanner_settings_update_lock.lock().await;
+    let raw = state.storage.store.scanner_settings_raw().await?;
+    let mut paths = scanner_path_whitelist_from_raw(raw.as_ref())?;
+    let added = !paths.contains(&path);
+    if added {
+        paths.push(path.clone());
+    }
+    let stored = with_path_whitelist(raw.as_ref(), &paths);
+    let unblocked = state
+        .storage
+        .store
+        .save_scanner_settings_and_remove_blacklist(&stored, &ip)
+        .await?;
+    Ok(ScannerFalsePositiveResult {
+        ip,
+        path,
+        added,
+        unblocked,
+    })
+}
+
+fn with_path_whitelist(raw: Option<&Value>, paths: &[String]) -> Value {
+    let mut stored = raw.and_then(Value::as_object).cloned().unwrap_or_default();
+    stored.insert(PATH_WHITELIST_FIELD.to_string(), json!(paths));
+    Value::Object(stored)
+}
+
+fn scanner_path_whitelist_payload(paths: Vec<String>) -> ScannerPathWhitelist {
+    ScannerPathWhitelist {
+        paths,
+        default_paths: default_scanner_path_whitelist(),
+    }
+}

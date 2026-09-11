@@ -1,1 +1,316 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQmFkZ2UsIHR5cGUgQmFkZ2VWYXJpYW50cyB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IFByb2dyZXNzIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3Byb2dyZXNzIjsKaW1wb3J0IHsKICBTZWxlY3QsCiAgU2VsZWN0Q29udGVudCwKICBTZWxlY3RJdGVtLAogIFNlbGVjdFRyaWdnZXIsCiAgU2VsZWN0VmFsdWUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NlbGVjdCI7CmltcG9ydCB7IFN3aXRjaCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9zd2l0Y2giOwppbXBvcnQgRmxvYXRpbmdBY3Rpb25Eb2NrIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vRmxvYXRpbmdBY3Rpb25Eb2NrLnZ1ZSI7CmltcG9ydCB0eXBlIHsKICBTbWFydENvbm5lY3RDb25maWcsCiAgU21hcnRDb25uZWN0RGV0YWlscywKICBTbWFydENvbm5lY3RMb2NhbElwT3B0aW9uLAp9IGZyb20gIkAvdHlwZXMiOwoKZGVmaW5lUHJvcHM8ewogIGNhblVzZVNtYXJ0Q29ubmVjdDogYm9vbGVhbjsKICBjYXBhYmlsaXR5QmxvY2tlZFJlYXNvbjogc3RyaW5nOwogIGRldGFpbHM6IFNtYXJ0Q29ubmVjdERldGFpbHM7CiAgZG5zbWFzcUFjdGlvbkxhYmVsOiBzdHJpbmc7CiAgZG5zbWFzcVByb2dyZXNzOiBudW1iZXI7CiAgZG5zbWFzcVN0YXR1c0xhYmVsOiBzdHJpbmc7CiAgZG5zbWFzcVN0YXR1c1ZhcmlhbnQ6IEJhZGdlVmFyaWFudHNbInZhcmlhbnQiXTsKICBkbnNtYXNxU3VtbWFyeVRleHQ6IHN0cmluZzsKICBpc0RpcnR5OiBib29sZWFuOwogIGlzU2F2aW5nOiBib29sZWFuOwogIGlzU21hcnRDb25uZWN0QXZhaWxhYmxlOiBib29sZWFuOwogIGlzU3RhcnRpbmdJbnN0YWxsOiBib29sZWFuOwogIHJlc29sdmVkSXBPcHRpb25zOiBTbWFydENvbm5lY3RMb2NhbElwT3B0aW9uW107CiAgc2F2ZUJsb2NrZWRSZWFzb246IHN0cmluZzsKICBzaG93QWR2YW5jZWRDYXJkczogYm9vbGVhbjsKICBzaG93RG5zbWFzcUFjdGlvbjogYm9vbGVhbjsKICBzaG93RG5zbWFzcUNhcmQ6IGJvb2xlYW47CiAgc2hvd0Ruc21hc3FTZXR1cENhcmQ6IGJvb2xlYW47Cn0+KCk7CmNvbnN0IGZvcm0gPSBkZWZpbmVNb2RlbDxTbWFydENvbm5lY3RDb25maWc+KHsgcmVxdWlyZWQ6IHRydWUgfSk7CmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgY2FuY2VsOiBbXTsKICBzYXZlOiBbXTsKICBzdGFydEluc3RhbGw6IFtdOwp9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgYTExeUlkID0gdXNlSWQoKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgdi1pZj0iIWlzU21hcnRDb25uZWN0QXZhaWxhYmxlIHx8ICFjYW5Vc2VTbWFydENvbm5lY3QiCiAgICBjbGFzcz0icm91bmRlZC14bCBib3JkZXIgYm9yZGVyLXppbmMtMjAwIGJnLXppbmMtNTAgcHgtNCBweS0zIHRleHQtc20gbGVhZGluZy02IHRleHQtemluYy03MDAiCiAgPgogICAge3sKICAgICAgIWNhblVzZVNtYXJ0Q29ubmVjdAogICAgICAgID8gY2FwYWJpbGl0eUJsb2NrZWRSZWFzb24KICAgICAgICA6IHQoImFkbWluLnNtYXJ0Q29ubmVjdFNldHRpbmdzLmN1cnJlbnRNb2RlVW5hdmFpbGFibGVXaXRoUmVhc29uIiwgewogICAgICAgICAgICByZWFzb246IGRldGFpbHMuYXZhaWxhYmlsaXR5LnJlYXNvbiwKICAgICAgICAgIH0pCiAgICB9fQogIDwvZGl2PgoKICA8ZGl2IGNsYXNzPSJyb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWJvcmRlci82MCBiZy1tdXRlZC8xMCBweC00IHB5LTQiPgogICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQiPgogICAgICA8TGFiZWwKICAgICAgICA6Zm9yPSJgJHthMTF5SWR9LWVuYWJsZWRgIgogICAgICAgIGNsYXNzPSJ0ZXh0LWJhc2UgZm9udC1tZWRpdW0iCiAgICAgID4KICAgICAgICB7eyB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy50aXRsZSIpIH19CiAgICAgIDwvTGFiZWw+CiAgICAgIDxTd2l0Y2gKICAgICAgICA6aWQ9ImAke2ExMXlJZH0tZW5hYmxlZGAiCiAgICAgICAgY2xhc3M9Im10LTAuNSBzaHJpbmstMCIKICAgICAgICA6bW9kZWwtdmFsdWU9ImZvcm0uZW5hYmxlZCIKICAgICAgICA6ZGlzYWJsZWQ9IiFjYW5Vc2VTbWFydENvbm5lY3QgfHwgaXNTYXZpbmcgfHwgaXNTdGFydGluZ0luc3RhbGwiCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZm9ybS5lbmFibGVkID0gJGV2ZW50ID09PSB0cnVlIgogICAgICAvPgogICAgPC9kaXY+CiAgPC9kaXY+CgogIDxkaXYgY2xhc3M9Im92ZXJmbG93LWhpZGRlbiByb3VuZGVkLXhsIGJvcmRlciBib3JkZXItYm9yZGVyLzYwIj4KICAgIDx0ZW1wbGF0ZSB2LWlmPSJzaG93RG5zbWFzcUNhcmQiPgogICAgICA8c2VjdGlvbiB2LWlmPSJzaG93RG5zbWFzcVNldHVwQ2FyZCIgY2xhc3M9InNwYWNlLXktNCBwLTUiPgogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLXN0YXJ0IHNtOmp1c3RpZnktYmV0d2VlbiIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtYmFzZSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5ydW50aW1lRW52aXJvbm1lbnQiKSB9fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxCYWRnZSA6dmFyaWFudD0iZG5zbWFzcVN0YXR1c1ZhcmlhbnQiPgogICAgICAgICAgICAgICAge3sgZG5zbWFzcVN0YXR1c0xhYmVsIH19CiAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIGxlYWRpbmctNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IGRldGFpbHMuZG5zbWFzcS5pbnN0YWxsX3N0YXRlLm1lc3NhZ2UgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyBkbnNtYXNxU3VtbWFyeVRleHQgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB2LWlmPSJzaG93RG5zbWFzcUFjdGlvbiIKICAgICAgICAgICAgY2xhc3M9InctZnVsbCBzbTp3LWF1dG8iCiAgICAgICAgICAgIDpkaXNhYmxlZD0iCiAgICAgICAgICAgICAgaXNTYXZpbmcgfHwKICAgICAgICAgICAgICBpc1N0YXJ0aW5nSW5zdGFsbCB8fAogICAgICAgICAgICAgIGRldGFpbHMuZG5zbWFzcS5pbnN0YWxsX3N0YXRlLnN0YXR1cyA9PT0gJ2luc3RhbGxpbmcnCiAgICAgICAgICAgICIKICAgICAgICAgICAgQGNsaWNrPSJlbWl0KCdzdGFydEluc3RhbGwnKSIKICAgICAgICAgID4KICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICB2LWlmPSIKICAgICAgICAgICAgICAgIGlzU3RhcnRpbmdJbnN0YWxsIHx8CiAgICAgICAgICAgICAgICBkZXRhaWxzLmRuc21hc3EuaW5zdGFsbF9zdGF0ZS5zdGF0dXMgPT09ICdpbnN0YWxsaW5nJwogICAgICAgICAgICAgICIKICAgICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLWJhY2tncm91bmQgYm9yZGVyLXQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPjwvc3Bhbj4KICAgICAgICAgICAge3sgZG5zbWFzcUFjdGlvbkxhYmVsIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPFByb2dyZXNzCiAgICAgICAgICB2LWlmPSJkZXRhaWxzLmRuc21hc3EuaW5zdGFsbF9zdGF0ZS5zdGF0dXMgPT09ICdpbnN0YWxsaW5nJyIKICAgICAgICAgIDptb2RlbC12YWx1ZT0iZG5zbWFzcVByb2dyZXNzIgogICAgICAgIC8+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIDx0ZW1wbGF0ZSB2LWlmPSJzaG93QWR2YW5jZWRDYXJkcyI+CiAgICAgICAgPHNlY3Rpb24KICAgICAgICAgIDpjbGFzcz0iWwogICAgICAgICAgICAnc3BhY2UteS00IHAtNScsCiAgICAgICAgICAgIHNob3dEbnNtYXNxU2V0dXBDYXJkID8gJ2JvcmRlci10IGJvcmRlci1ib3JkZXIvNjAnIDogJycsCiAgICAgICAgICBdIgogICAgICAgID4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgY2xhc3M9ImdyaWQgZ2FwLTQgbGc6Z3JpZC1jb2xzLVttaW5tYXgoMCwxZnIpX21pbm1heCgyODBweCwzNjBweCldIGxnOml0ZW1zLXN0YXJ0IGxnOmdhcC02IgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEiPgogICAgICAgICAgICAgIDxMYWJlbCA6Zm9yPSJgJHthMTF5SWR9LWxvY2FsLWlwYCIgY2xhc3M9InRleHQtYmFzZSI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5sb2NhbExhbklwIikgfX0KICAgICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIGxlYWRpbmctNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3MubG9jYWxMYW5JcEhpbnQiKSB9fQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgICAgIDxTZWxlY3QKICAgICAgICAgICAgICAgIDptb2RlbC12YWx1ZT0iZm9ybS5zZWxlY3RlZF9pcHY0IHx8IHVuZGVmaW5lZCIKICAgICAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9ImZvcm0uc2VsZWN0ZWRfaXB2NCA9IFN0cmluZygkZXZlbnQgPz8gJycpIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyCiAgICAgICAgICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1sb2NhbC1pcGAiCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJoLTEwIHctZnVsbCByb3VuZGVkLWxnIGJvcmRlci1ib3JkZXIvNzAgYmctYmFja2dyb3VuZCBweC0zIHRleHQtc20gc2hhZG93LW5vbmUiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxTZWxlY3RWYWx1ZQogICAgICAgICAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3Muc2VsZWN0TG9jYWxJcHY0JykiCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICAgICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICAgICAgICAgICAgPFNlbGVjdEl0ZW0KICAgICAgICAgICAgICAgICAgICB2LWZvcj0ib3B0aW9uIGluIHJlc29sdmVkSXBPcHRpb25zIgogICAgICAgICAgICAgICAgICAgIDprZXk9ImAke29wdGlvbi5pbnRlcmZhY2V9LSR7b3B0aW9uLnZhbHVlfWAiCiAgICAgICAgICAgICAgICAgICAgOnZhbHVlPSJvcHRpb24udmFsdWUiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7eyBvcHRpb24ubGFiZWwgfX0KICAgICAgICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICAgICAgICAgIDwvU2VsZWN0PgogICAgICAgICAgICAgIDxwCiAgICAgICAgICAgICAgICB2LWlmPSJyZXNvbHZlZElwT3B0aW9ucy5sZW5ndGggPT09IDAiCiAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnNtYXJ0Q29ubmVjdFNldHRpbmdzLm5vUHJpdmF0ZUlwdjQiKSB9fQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgIDxzZWN0aW9uIGNsYXNzPSJzcGFjZS15LTQgYm9yZGVyLXQgYm9yZGVyLWJvcmRlci82MCBwLTUiPgogICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1iYXNlIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5zeW5jZWREb21haW5zIikgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIGxlYWRpbmctNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLnNtYXJ0Q29ubmVjdFNldHRpbmdzLnN5bmNlZERvbWFpbnNIaW50IikgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzcz0icm91bmRlZC14bCBiZy1tdXRlZC8yMCBweC00IHB5LTQiPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgdi1pZj0iZGV0YWlscy5kb21haW5zLmxlbmd0aCA9PT0gMCIKICAgICAgICAgICAgICBjbGFzcz0idGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3Mubm9TeW5jZWREb21haW5zIikgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgdi1lbHNlIGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICAgICAgICAgICAgPEJhZGdlCiAgICAgICAgICAgICAgICB2LWZvcj0iZG9tYWluIGluIGRldGFpbHMuZG9tYWlucyIKICAgICAgICAgICAgICAgIDprZXk9ImRvbWFpbiIKICAgICAgICAgICAgICAgIHZhcmlhbnQ9InNlY29uZGFyeSIKICAgICAgICAgICAgICAgIGNsYXNzPSJtYXgtdy1mdWxsIGJyZWFrLWFsbCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7eyBkb21haW4gfX0KICAgICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgPHNlY3Rpb24gY2xhc3M9InNwYWNlLXktNCBib3JkZXItdCBib3JkZXItYm9yZGVyLzYwIHAtNSI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LWJhc2UgZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLnNtYXJ0Q29ubmVjdFNldHRpbmdzLm5vdGVzIikgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIGxlYWRpbmctNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5kbnNJbnN0cnVjdGlvbiIsIHsKICAgICAgICAgICAgICAgICAgaXA6CiAgICAgICAgICAgICAgICAgICAgZm9ybS5zZWxlY3RlZF9pcHY0IHx8CiAgICAgICAgICAgICAgICAgICAgdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3MubG9jYWxMYW5JcEZhbGxiYWNrIiksCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgPHNwYW4+e3sgdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3MuYW5kcm9pZFdhcm5pbmciKSB9fTwvc3Bhbj4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9zZWN0aW9uPgogICAgICA8L3RlbXBsYXRlPgogICAgPC90ZW1wbGF0ZT4KCiAgICA8RmxvYXRpbmdBY3Rpb25Eb2NrCiAgICAgIDphY3RpdmU9ImlzRGlydHkiCiAgICAgIDppbmxpbmUtY2xhc3M9IlsKICAgICAgICAnc3BhY2UteS00IHAtNScsCiAgICAgICAgc2hvd0Ruc21hc3FDYXJkID8gJ2JvcmRlci10IGJvcmRlci1ib3JkZXIvNjAnIDogJycsCiAgICAgIF0iCiAgICA+CiAgICAgIDx0ZW1wbGF0ZSAjaW5saW5lPgogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgICAgPgogICAgICAgICAgPHAgY2xhc3M9InRleHQtc20gbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgc2F2ZUJsb2NrZWRSZWFzb24gfHwKICAgICAgICAgICAgICB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5zYXZlU3luY0hpbnQiKQogICAgICAgICAgICB9fQogICAgICAgICAgPC9wPgoKICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZ2FwLTMgc206bWwtYXV0byI+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmciCiAgICAgICAgICAgICAgQGNsaWNrPSJlbWl0KCdjYW5jZWwnKSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHQoImNvbW1vbi5jYW5jZWwiKSB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iCiAgICAgICAgICAgICAgICAhaXNEaXJ0eSB8fAogICAgICAgICAgICAgICAgaXNTYXZpbmcgfHwKICAgICAgICAgICAgICAgIGlzU3RhcnRpbmdJbnN0YWxsIHx8CiAgICAgICAgICAgICAgICBCb29sZWFuKHNhdmVCbG9ja2VkUmVhc29uKQogICAgICAgICAgICAgICIKICAgICAgICAgICAgICBAY2xpY2s9ImVtaXQoJ3NhdmUnKSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICB2LWlmPSJpc1NhdmluZyIKICAgICAgICAgICAgICAgIGNsYXNzPSJtci0yIGgtNCB3LTQgYW5pbWF0ZS1zcGluIHJvdW5kZWQtZnVsbCBib3JkZXItMiBib3JkZXItYmFja2dyb3VuZCBib3JkZXItdC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgID48L3NwYW4+CiAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgIGlzU2F2aW5nCiAgICAgICAgICAgICAgICAgID8gdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3Muc2F2aW5nIikKICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5zYXZlQW5kU3luYyIpCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC90ZW1wbGF0ZT4KCiAgICAgIDx0ZW1wbGF0ZSAjZmxvYXRpbmc+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmciCiAgICAgICAgICBAY2xpY2s9ImVtaXQoJ2NhbmNlbCcpIgogICAgICAgID4KICAgICAgICAgIHt7IHQoImNvbW1vbi5jYW5jZWwiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIDpkaXNhYmxlZD0iCiAgICAgICAgICAgICFpc0RpcnR5IHx8CiAgICAgICAgICAgIGlzU2F2aW5nIHx8CiAgICAgICAgICAgIGlzU3RhcnRpbmdJbnN0YWxsIHx8CiAgICAgICAgICAgIEJvb2xlYW4oc2F2ZUJsb2NrZWRSZWFzb24pCiAgICAgICAgICAiCiAgICAgICAgICBAY2xpY2s9ImVtaXQoJ3NhdmUnKSIKICAgICAgICA+CiAgICAgICAgICA8c3BhbgogICAgICAgICAgICB2LWlmPSJpc1NhdmluZyIKICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiCiAgICAgICAgICA+PC9zcGFuPgogICAgICAgICAge3sKICAgICAgICAgICAgaXNTYXZpbmcKICAgICAgICAgICAgICA/IHQoImFkbWluLnNtYXJ0Q29ubmVjdFNldHRpbmdzLnNhdmluZyIpCiAgICAgICAgICAgICAgOiB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5zYXZlQW5kU3luYyIpCiAgICAgICAgICB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L3RlbXBsYXRlPgogICAgPC9GbG9hdGluZ0FjdGlvbkRvY2s+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { Badge, type BadgeVariants } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Label } from "@/components/ui/label";
+import { Progress } from "@/components/ui/progress";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Switch } from "@/components/ui/switch";
+import FloatingActionDock from "@admin-shared/components/common/FloatingActionDock.vue";
+import type {
+  SmartConnectConfig,
+  SmartConnectDetails,
+  SmartConnectLocalIpOption,
+} from "@/types";
+
+defineProps<{
+  canUseSmartConnect: boolean;
+  capabilityBlockedReason: string;
+  details: SmartConnectDetails;
+  dnsmasqActionLabel: string;
+  dnsmasqProgress: number;
+  dnsmasqStatusLabel: string;
+  dnsmasqStatusVariant: BadgeVariants["variant"];
+  dnsmasqSummaryText: string;
+  isDirty: boolean;
+  isSaving: boolean;
+  isSmartConnectAvailable: boolean;
+  isStartingInstall: boolean;
+  resolvedIpOptions: SmartConnectLocalIpOption[];
+  saveBlockedReason: string;
+  showAdvancedCards: boolean;
+  showDnsmasqAction: boolean;
+  showDnsmasqCard: boolean;
+  showDnsmasqSetupCard: boolean;
+}>();
+const form = defineModel<SmartConnectConfig>({ required: true });
+const emit = defineEmits<{
+  cancel: [];
+  save: [];
+  startInstall: [];
+}>();
+const { t } = useI18n();
+const a11yId = useId();
+</script>
+
+<template>
+  <div
+    v-if="!isSmartConnectAvailable || !canUseSmartConnect"
+    class="rounded-xl border border-zinc-200 bg-zinc-50 px-4 py-3 text-sm leading-6 text-zinc-700"
+  >
+    {{
+      !canUseSmartConnect
+        ? capabilityBlockedReason
+        : t("admin.smartConnectSettings.currentModeUnavailableWithReason", {
+            reason: details.availability.reason,
+          })
+    }}
+  </div>
+
+  <div class="rounded-2xl border border-border/60 bg-muted/10 px-4 py-4">
+    <div class="flex items-start justify-between gap-4">
+      <Label
+        :for="`${a11yId}-enabled`"
+        class="text-base font-medium"
+      >
+        {{ t("admin.smartConnectSettings.title") }}
+      </Label>
+      <Switch
+        :id="`${a11yId}-enabled`"
+        class="mt-0.5 shrink-0"
+        :model-value="form.enabled"
+        :disabled="!canUseSmartConnect || isSaving || isStartingInstall"
+        @update:model-value="form.enabled = $event === true"
+      />
+    </div>
+  </div>
+
+  <div class="overflow-hidden rounded-xl border border-border/60">
+    <template v-if="showDnsmasqCard">
+      <section v-if="showDnsmasqSetupCard" class="space-y-4 p-5">
+        <div
+          class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+        >
+          <div class="space-y-1">
+            <div class="flex flex-wrap items-center gap-2">
+              <div class="text-base font-medium">
+                {{ t("admin.smartConnectSettings.runtimeEnvironment") }}
+              </div>
+              <Badge :variant="dnsmasqStatusVariant">
+                {{ dnsmasqStatusLabel }}
+              </Badge>
+            </div>
+            <p class="text-sm leading-6 text-muted-foreground">
+              {{ details.dnsmasq.install_state.message }}
+            </p>
+            <p class="text-xs leading-5 text-muted-foreground">
+              {{ dnsmasqSummaryText }}
+            </p>
+          </div>
+
+          <Button
+            v-if="showDnsmasqAction"
+            class="w-full sm:w-auto"
+            :disabled="
+              isSaving ||
+              isStartingInstall ||
+              details.dnsmasq.install_state.status === 'installing'
+            "
+            @click="emit('startInstall')"
+          >
+            <span
+              v-if="
+                isStartingInstall ||
+                details.dnsmasq.install_state.status === 'installing'
+              "
+              class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+            ></span>
+            {{ dnsmasqActionLabel }}
+          </Button>
+        </div>
+
+        <Progress
+          v-if="details.dnsmasq.install_state.status === 'installing'"
+          :model-value="dnsmasqProgress"
+        />
+      </section>
+
+      <template v-if="showAdvancedCards">
+        <section
+          :class="[
+            'space-y-4 p-5',
+            showDnsmasqSetupCard ? 'border-t border-border/60' : '',
+          ]"
+        >
+          <div
+            class="grid gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(280px,360px)] lg:items-start lg:gap-6"
+          >
+            <div class="space-y-1">
+              <Label :for="`${a11yId}-local-ip`" class="text-base">
+                {{ t("admin.smartConnectSettings.localLanIp") }}
+              </Label>
+              <p class="text-sm leading-6 text-muted-foreground">
+                {{ t("admin.smartConnectSettings.localLanIpHint") }}
+              </p>
+            </div>
+
+            <div class="space-y-2">
+              <Select
+                :model-value="form.selected_ipv4 || undefined"
+                @update:model-value="form.selected_ipv4 = String($event ?? '')"
+              >
+                <SelectTrigger
+                  :id="`${a11yId}-local-ip`"
+                  class="h-10 w-full rounded-lg border-border/70 bg-background px-3 text-sm shadow-none"
+                >
+                  <SelectValue
+                    :placeholder="t('admin.smartConnectSettings.selectLocalIpv4')"
+                  />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem
+                    v-for="option in resolvedIpOptions"
+                    :key="`${option.interface}-${option.value}`"
+                    :value="option.value"
+                  >
+                    {{ option.label }}
+                  </SelectItem>
+                </SelectContent>
+              </Select>
+              <p
+                v-if="resolvedIpOptions.length === 0"
+                class="text-sm leading-6 text-muted-foreground"
+              >
+                {{ t("admin.smartConnectSettings.noPrivateIpv4") }}
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="space-y-4 border-t border-border/60 p-5">
+          <div class="space-y-1">
+            <div class="text-base font-medium">
+              {{ t("admin.smartConnectSettings.syncedDomains") }}
+            </div>
+            <p class="text-sm leading-6 text-muted-foreground">
+              {{ t("admin.smartConnectSettings.syncedDomainsHint") }}
+            </p>
+          </div>
+
+          <div class="rounded-xl bg-muted/20 px-4 py-4">
+            <div
+              v-if="details.domains.length === 0"
+              class="text-sm leading-6 text-muted-foreground"
+            >
+              {{ t("admin.smartConnectSettings.noSyncedDomains") }}
+            </div>
+            <div v-else class="flex flex-wrap gap-2">
+              <Badge
+                v-for="domain in details.domains"
+                :key="domain"
+                variant="secondary"
+                class="max-w-full break-all"
+              >
+                {{ domain }}
+              </Badge>
+            </div>
+          </div>
+        </section>
+
+        <section class="space-y-4 border-t border-border/60 p-5">
+          <div class="space-y-1">
+            <div class="text-base font-medium">
+              {{ t("admin.smartConnectSettings.notes") }}
+            </div>
+            <p class="text-sm leading-6 text-muted-foreground">
+              {{
+                t("admin.smartConnectSettings.dnsInstruction", {
+                  ip:
+                    form.selected_ipv4 ||
+                    t("admin.smartConnectSettings.localLanIpFallback"),
+                })
+              }}
+              <span>{{ t("admin.smartConnectSettings.androidWarning") }}</span>
+            </p>
+          </div>
+        </section>
+      </template>
+    </template>
+
+    <FloatingActionDock
+      :active="isDirty"
+      :inline-class="[
+        'space-y-4 p-5',
+        showDnsmasqCard ? 'border-t border-border/60' : '',
+      ]"
+    >
+      <template #inline>
+        <div
+          class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"
+        >
+          <p class="text-sm leading-6 text-muted-foreground">
+            {{
+              saveBlockedReason ||
+              t("admin.smartConnectSettings.saveSyncHint")
+            }}
+          </p>
+
+          <div class="flex gap-3 sm:ml-auto">
+            <Button
+              variant="outline"
+              :disabled="isSaving"
+              @click="emit('cancel')"
+            >
+              {{ t("common.cancel") }}
+            </Button>
+            <Button
+              :disabled="
+                !isDirty ||
+                isSaving ||
+                isStartingInstall ||
+                Boolean(saveBlockedReason)
+              "
+              @click="emit('save')"
+            >
+              <span
+                v-if="isSaving"
+                class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+              ></span>
+              {{
+                isSaving
+                  ? t("admin.smartConnectSettings.saving")
+                  : t("admin.smartConnectSettings.saveAndSync")
+              }}
+            </Button>
+          </div>
+        </div>
+      </template>
+
+      <template #floating>
+        <Button
+          variant="outline"
+          :disabled="isSaving"
+          @click="emit('cancel')"
+        >
+          {{ t("common.cancel") }}
+        </Button>
+        <Button
+          :disabled="
+            !isDirty ||
+            isSaving ||
+            isStartingInstall ||
+            Boolean(saveBlockedReason)
+          "
+          @click="emit('save')"
+        >
+          <span
+            v-if="isSaving"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          ></span>
+          {{
+            isSaving
+              ? t("admin.smartConnectSettings.saving")
+              : t("admin.smartConnectSettings.saveAndSync")
+          }}
+        </Button>
+      </template>
+    </FloatingActionDock>
+  </div>
+</template>

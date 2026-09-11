@@ -1,1 +1,125 @@
-ZXhwb3J0IHR5cGUgUGFyc2VkSG9zdFBvcnQgPSB7CiAgaG9zdDogc3RyaW5nOwogIHBvcnQ6IG51bWJlcjsKICBpc0lQdjY6IGJvb2xlYW47Cn07Cgpjb25zdCBJTlZBTElEX0hPU1RfQ0hBUkFDVEVSX1BBVFRFUk4gPSAvW1xzL1xcPyNAXS87CmNvbnN0IElQVjRfU0VHTUVOVF9QQVRURVJOID0KICAvXigyNVswLTVdfDJbMC00XVxkfDFcZFxkfFsxLTldP1xkKSQvOwpjb25zdCBJUFY2X1NFR01FTlRfUEFUVEVSTiA9IC9eW1xkYS1mXXsxLDR9JC9pOwoKY29uc3QgaXNWYWxpZEhvc3RuYW1lID0gKGhvc3Q6IHN0cmluZyk6IGJvb2xlYW4gPT4gewogIGlmICghaG9zdCkgcmV0dXJuIGZhbHNlOwogIGlmIChJTlZBTElEX0hPU1RfQ0hBUkFDVEVSX1BBVFRFUk4udGVzdChob3N0KSkgcmV0dXJuIGZhbHNlOwogIGlmIChob3N0LmluY2x1ZGVzKCI6IikgfHwgaG9zdC5pbmNsdWRlcygiWyIpIHx8IGhvc3QuaW5jbHVkZXMoIl0iKSkgewogICAgcmV0dXJuIGZhbHNlOwogIH0KICByZXR1cm4gdHJ1ZTsKfTsKCmNvbnN0IGlzVmFsaWRJUHY0QWRkcmVzcyA9ICh2YWx1ZTogc3RyaW5nKTogYm9vbGVhbiA9PiB7CiAgY29uc3Qgc2VnbWVudHMgPSB2YWx1ZS5zcGxpdCgiLiIpOwogIHJldHVybiAoCiAgICBzZWdtZW50cy5sZW5ndGggPT09IDQgJiYKICAgIHNlZ21lbnRzLmV2ZXJ5KChzZWdtZW50KSA9PiBJUFY0X1NFR01FTlRfUEFUVEVSTi50ZXN0KHNlZ21lbnQpKQogICk7Cn07Cgpjb25zdCBjb3VudElQdjZTZWdtZW50cyA9IChzZWdtZW50czogc3RyaW5nW10pOiBudW1iZXIgPT4gewogIGxldCBjb3VudCA9IDA7CgogIGZvciAoY29uc3QgW2luZGV4LCBzZWdtZW50XSBvZiBzZWdtZW50cy5lbnRyaWVzKCkpIHsKICAgIGlmICghc2VnbWVudCkgcmV0dXJuIC0xOwoKICAgIGlmIChzZWdtZW50LmluY2x1ZGVzKCIuIikpIHsKICAgICAgaWYgKGluZGV4ICE9PSBzZWdtZW50cy5sZW5ndGggLSAxIHx8ICFpc1ZhbGlkSVB2NEFkZHJlc3Moc2VnbWVudCkpIHsKICAgICAgICByZXR1cm4gLTE7CiAgICAgIH0KICAgICAgY291bnQgKz0gMjsKICAgICAgY29udGludWU7CiAgICB9CgogICAgaWYgKCFJUFY2X1NFR01FTlRfUEFUVEVSTi50ZXN0KHNlZ21lbnQpKSB7CiAgICAgIHJldHVybiAtMTsKICAgIH0KCiAgICBjb3VudCArPSAxOwogIH0KCiAgcmV0dXJuIGNvdW50Owp9OwoKY29uc3QgaXNWYWxpZElQdjZBZGRyZXNzID0gKHZhbHVlOiBzdHJpbmcpOiBib29sZWFuID0+IHsKICBpZiAoIXZhbHVlIHx8IElOVkFMSURfSE9TVF9DSEFSQUNURVJfUEFUVEVSTi50ZXN0KHZhbHVlKSkgcmV0dXJuIGZhbHNlOwogIGlmICghdmFsdWUuaW5jbHVkZXMoIjoiKSB8fCB2YWx1ZS5pbmNsdWRlcygiOjo6IikpIHJldHVybiBmYWxzZTsKCiAgY29uc3QgY29tcHJlc3Npb25Db3VudCA9IHZhbHVlLm1hdGNoKC86Oi9nKT8ubGVuZ3RoID8/IDA7CiAgaWYgKGNvbXByZXNzaW9uQ291bnQgPiAxKSByZXR1cm4gZmFsc2U7CgogIGNvbnN0IFtsZWZ0UmF3ID0gIiIsIHJpZ2h0UmF3ID0gIiJdID0gdmFsdWUuc3BsaXQoIjo6Iik7CiAgY29uc3QgbGVmdFNlZ21lbnRzID0gbGVmdFJhdyA/IGxlZnRSYXcuc3BsaXQoIjoiKSA6IFtdOwogIGNvbnN0IHJpZ2h0U2VnbWVudHMgPSByaWdodFJhdyA/IHJpZ2h0UmF3LnNwbGl0KCI6IikgOiBbXTsKCiAgY29uc3QgbGVmdENvdW50ID0gY291bnRJUHY2U2VnbWVudHMobGVmdFNlZ21lbnRzKTsKICBpZiAobGVmdENvdW50IDwgMCkgcmV0dXJuIGZhbHNlOwoKICBjb25zdCByaWdodENvdW50ID0gY291bnRJUHY2U2VnbWVudHMocmlnaHRTZWdtZW50cyk7CiAgaWYgKHJpZ2h0Q291bnQgPCAwKSByZXR1cm4gZmFsc2U7CgogIGNvbnN0IHRvdGFsU2VnbWVudHMgPSBsZWZ0Q291bnQgKyByaWdodENvdW50OwogIGlmIChjb21wcmVzc2lvbkNvdW50ID09PSAxKSB7CiAgICByZXR1cm4gdG90YWxTZWdtZW50cyA8IDg7CiAgfQoKICByZXR1cm4gdG90YWxTZWdtZW50cyA9PT0gODsKfTsKCmV4cG9ydCBjb25zdCBwYXJzZUhvc3RQb3J0ID0gKHZhbHVlOiBzdHJpbmcpOiBQYXJzZWRIb3N0UG9ydCB8IG51bGwgPT4gewogIGNvbnN0IHRyaW1tZWQgPSB2YWx1ZS50cmltKCk7CiAgaWYgKCF0cmltbWVkKSByZXR1cm4gbnVsbDsKCiAgbGV0IGhvc3Q6IHN0cmluZzsKICBsZXQgcG9ydFRleHQ6IHN0cmluZzsKICBsZXQgaXNJUHY2OiBib29sZWFuOwoKICBpZiAodHJpbW1lZC5zdGFydHNXaXRoKCJbIikpIHsKICAgIGNvbnN0IGNsb3NpbmdCcmFja2V0SW5kZXggPSB0cmltbWVkLmluZGV4T2YoIl0iKTsKICAgIGlmIChjbG9zaW5nQnJhY2tldEluZGV4IDw9IDEpIHJldHVybiBudWxsOwoKICAgIGhvc3QgPSB0cmltbWVkLnNsaWNlKDEsIGNsb3NpbmdCcmFja2V0SW5kZXgpOwogICAgcG9ydFRleHQgPSB0cmltbWVkLnNsaWNlKGNsb3NpbmdCcmFja2V0SW5kZXggKyAxKTsKICAgIGlmICghcG9ydFRleHQuc3RhcnRzV2l0aCgiOiIpKSByZXR1cm4gbnVsbDsKCiAgICBwb3J0VGV4dCA9IHBvcnRUZXh0LnNsaWNlKDEpOwogICAgaXNJUHY2ID0gdHJ1ZTsKCiAgICBpZiAoIWlzVmFsaWRJUHY2QWRkcmVzcyhob3N0KSkgcmV0dXJuIG51bGw7CiAgfSBlbHNlIHsKICAgIGNvbnN0IHNlcGFyYXRvckluZGV4ID0gdHJpbW1lZC5sYXN0SW5kZXhPZigiOiIpOwogICAgaWYgKHNlcGFyYXRvckluZGV4IDw9IDApIHJldHVybiBudWxsOwogICAgaWYgKHRyaW1tZWQuaW5kZXhPZigiOiIpICE9PSBzZXBhcmF0b3JJbmRleCkgcmV0dXJuIG51bGw7CgogICAgaG9zdCA9IHRyaW1tZWQuc2xpY2UoMCwgc2VwYXJhdG9ySW5kZXgpOwogICAgcG9ydFRleHQgPSB0cmltbWVkLnNsaWNlKHNlcGFyYXRvckluZGV4ICsgMSk7CiAgICBpc0lQdjYgPSBmYWxzZTsKCiAgICBpZiAoIWlzVmFsaWRIb3N0bmFtZShob3N0KSkgcmV0dXJuIG51bGw7CiAgfQoKICBpZiAoIS9eXGQrJC8udGVzdChwb3J0VGV4dCkpIHJldHVybiBudWxsOwoKICBjb25zdCBwb3J0ID0gTnVtYmVyLnBhcnNlSW50KHBvcnRUZXh0LCAxMCk7CiAgaWYgKCFOdW1iZXIuaXNGaW5pdGUocG9ydCkgfHwgcG9ydCA8PSAwIHx8IHBvcnQgPiA2NTUzNSkgewogICAgcmV0dXJuIG51bGw7CiAgfQoKICByZXR1cm4gewogICAgaG9zdCwKICAgIHBvcnQsCiAgICBpc0lQdjYsCiAgfTsKfTsKCmV4cG9ydCBjb25zdCBpc1ZhbGlkSG9zdFBvcnQgPSAodmFsdWU6IHN0cmluZyk6IGJvb2xlYW4gPT4KICBwYXJzZUhvc3RQb3J0KHZhbHVlKSAhPT0gbnVsbDsK
+export type ParsedHostPort = {
+  host: string;
+  port: number;
+  isIPv6: boolean;
+};
+
+const INVALID_HOST_CHARACTER_PATTERN = /[\s/\\?#@]/;
+const IPV4_SEGMENT_PATTERN =
+  /^(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)$/;
+const IPV6_SEGMENT_PATTERN = /^[\da-f]{1,4}$/i;
+
+const isValidHostname = (host: string): boolean => {
+  if (!host) return false;
+  if (INVALID_HOST_CHARACTER_PATTERN.test(host)) return false;
+  if (host.includes(":") || host.includes("[") || host.includes("]")) {
+    return false;
+  }
+  return true;
+};
+
+const isValidIPv4Address = (value: string): boolean => {
+  const segments = value.split(".");
+  return (
+    segments.length === 4 &&
+    segments.every((segment) => IPV4_SEGMENT_PATTERN.test(segment))
+  );
+};
+
+const countIPv6Segments = (segments: string[]): number => {
+  let count = 0;
+
+  for (const [index, segment] of segments.entries()) {
+    if (!segment) return -1;
+
+    if (segment.includes(".")) {
+      if (index !== segments.length - 1 || !isValidIPv4Address(segment)) {
+        return -1;
+      }
+      count += 2;
+      continue;
+    }
+
+    if (!IPV6_SEGMENT_PATTERN.test(segment)) {
+      return -1;
+    }
+
+    count += 1;
+  }
+
+  return count;
+};
+
+const isValidIPv6Address = (value: string): boolean => {
+  if (!value || INVALID_HOST_CHARACTER_PATTERN.test(value)) return false;
+  if (!value.includes(":") || value.includes(":::")) return false;
+
+  const compressionCount = value.match(/::/g)?.length ?? 0;
+  if (compressionCount > 1) return false;
+
+  const [leftRaw = "", rightRaw = ""] = value.split("::");
+  const leftSegments = leftRaw ? leftRaw.split(":") : [];
+  const rightSegments = rightRaw ? rightRaw.split(":") : [];
+
+  const leftCount = countIPv6Segments(leftSegments);
+  if (leftCount < 0) return false;
+
+  const rightCount = countIPv6Segments(rightSegments);
+  if (rightCount < 0) return false;
+
+  const totalSegments = leftCount + rightCount;
+  if (compressionCount === 1) {
+    return totalSegments < 8;
+  }
+
+  return totalSegments === 8;
+};
+
+export const parseHostPort = (value: string): ParsedHostPort | null => {
+  const trimmed = value.trim();
+  if (!trimmed) return null;
+
+  let host: string;
+  let portText: string;
+  let isIPv6: boolean;
+
+  if (trimmed.startsWith("[")) {
+    const closingBracketIndex = trimmed.indexOf("]");
+    if (closingBracketIndex <= 1) return null;
+
+    host = trimmed.slice(1, closingBracketIndex);
+    portText = trimmed.slice(closingBracketIndex + 1);
+    if (!portText.startsWith(":")) return null;
+
+    portText = portText.slice(1);
+    isIPv6 = true;
+
+    if (!isValidIPv6Address(host)) return null;
+  } else {
+    const separatorIndex = trimmed.lastIndexOf(":");
+    if (separatorIndex <= 0) return null;
+    if (trimmed.indexOf(":") !== separatorIndex) return null;
+
+    host = trimmed.slice(0, separatorIndex);
+    portText = trimmed.slice(separatorIndex + 1);
+    isIPv6 = false;
+
+    if (!isValidHostname(host)) return null;
+  }
+
+  if (!/^\d+$/.test(portText)) return null;
+
+  const port = Number.parseInt(portText, 10);
+  if (!Number.isFinite(port) || port <= 0 || port > 65535) {
+    return null;
+  }
+
+  return {
+    host,
+    port,
+    isIPv6,
+  };
+};
+
+export const isValidHostPort = (value: string): boolean =>
+  parseHostPort(value) !== null;

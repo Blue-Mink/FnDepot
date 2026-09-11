@@ -1,1 +1,14 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBHZW5lcmFsQmxhY2tsaXN0QWRkRGlhbG9nIGZyb20gIi4vR2VuZXJhbEJsYWNrbGlzdEFkZERpYWxvZy52dWUiOwppbXBvcnQgR2VuZXJhbEJsYWNrbGlzdFJlY29yZHNQYW5lbCBmcm9tICIuL0dlbmVyYWxCbGFja2xpc3RSZWNvcmRzUGFuZWwudnVlIjsKaW1wb3J0IHsgdXNlR2VuZXJhbEJsYWNrbGlzdFBhZ2UgfSBmcm9tICIuL3VzZUdlbmVyYWxCbGFja2xpc3RQYWdlIjsKCmNvbnN0IGNvbnRyb2xsZXIgPSB1c2VHZW5lcmFsQmxhY2tsaXN0UGFnZSgpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJmbGV4IGgtZnVsbCBmbGV4LWNvbCBnYXAtNCI+CiAgICA8R2VuZXJhbEJsYWNrbGlzdFJlY29yZHNQYW5lbCA6Y29udHJvbGxlcj0iY29udHJvbGxlciIgLz4KICAgIDxHZW5lcmFsQmxhY2tsaXN0QWRkRGlhbG9nIDpjb250cm9sbGVyPSJjb250cm9sbGVyIiAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import GeneralBlacklistAddDialog from "./GeneralBlacklistAddDialog.vue";
+import GeneralBlacklistRecordsPanel from "./GeneralBlacklistRecordsPanel.vue";
+import { useGeneralBlacklistPage } from "./useGeneralBlacklistPage";
+
+const controller = useGeneralBlacklistPage();
+</script>
+
+<template>
+  <div class="flex h-full flex-col gap-4">
+    <GeneralBlacklistRecordsPanel :controller="controller" />
+    <GeneralBlacklistAddDialog :controller="controller" />
+  </div>
+</template>

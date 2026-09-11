@@ -1,1 +1,141 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQ2hlY2tib3ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2hlY2tib3giOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB0eXBlIHsKICBQYW5lbENvbm5lY3Rpb24sCiAgUGFuZWxTeW5jUHJldmlldywKfSBmcm9tICJAL2xpYi9hcGkvcGFuZWwtc3luYy1hcGkiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgY2xlYW51cFByZXZpZXc6IFBhbmVsU3luY1ByZXZpZXcgfCBudWxsOwogIGNvbm5lY3Rpb246IFBhbmVsQ29ubmVjdGlvbiB8IG51bGw7CiAgZGVsZXRpbmc6IGJvb2xlYW47CiAgb3BlbjogYm9vbGVhbjsKICBwcmV2aWV3aW5nQ2xlYW51cDogYm9vbGVhbjsKfT4oKTsKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICBjb25maXJtOiBbY2xlYW51cFJlbW90ZTogYm9vbGVhbl07CiAgInByZXZpZXctY2xlYW51cCI6IFtdOwogICJ1cGRhdGU6b3BlbiI6IFt2YWx1ZTogYm9vbGVhbl07Cn0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBjbGVhbnVwUmVtb3RlID0gcmVmKGZhbHNlKTsKCndhdGNoKAogICgpID0+IFtwcm9wcy5vcGVuLCBwcm9wcy5jb25uZWN0aW9uPy5pZF0gYXMgY29uc3QsCiAgKCkgPT4gewogICAgY2xlYW51cFJlbW90ZS52YWx1ZSA9IGZhbHNlOwogIH0sCik7Cgpjb25zdCB1cGRhdGVDbGVhbnVwID0gKHZhbHVlOiBib29sZWFuIHwgImluZGV0ZXJtaW5hdGUiKSA9PiB7CiAgY2xlYW51cFJlbW90ZS52YWx1ZSA9IHZhbHVlID09PSB0cnVlOwogIGlmIChjbGVhbnVwUmVtb3RlLnZhbHVlKSBlbWl0KCJwcmV2aWV3LWNsZWFudXAiKTsKfTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERpYWxvZyA6b3Blbj0ib3BlbiIgQHVwZGF0ZTpvcGVuPSJlbWl0KCd1cGRhdGU6b3BlbicsICRldmVudCkiPgogICAgPERpYWxvZ0NvbnRlbnQ+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPnt7IHQoImFkbWluLnBhbmVsU3luYy5kZWxldGVUaXRsZSIpIH19PC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICB7ewogICAgICAgICAgICB0KCJhZG1pbi5wYW5lbFN5bmMuZGVsZXRlQ29uZmlybSIsIHsKICAgICAgICAgICAgICBuYW1lOiBjb25uZWN0aW9uPy5uYW1lID8/ICIiLAogICAgICAgICAgICB9KQogICAgICAgICAgfX0KICAgICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICA8L0RpYWxvZ0hlYWRlcj4KICAgICAgPGRpdgogICAgICAgIHYtaWY9ImNvbm5lY3Rpb24/LnByb3ZpZGVyICE9PSAnc3VuX3BhbmVsJyIKICAgICAgICBjbGFzcz0ic3BhY2UteS0zIHJvdW5kZWQtbWQgYm9yZGVyIHAtMyIKICAgICAgPgogICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTIiPgogICAgICAgICAgPENoZWNrYm94CiAgICAgICAgICAgIGlkPSJwYW5lbC1zeW5jLWNsZWFudXAtcmVtb3RlIgogICAgICAgICAgICA6bW9kZWwtdmFsdWU9ImNsZWFudXBSZW1vdGUiCiAgICAgICAgICAgIDpkaXNhYmxlZD0iZGVsZXRpbmcgfHwgcHJldmlld2luZ0NsZWFudXAiCiAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9InVwZGF0ZUNsZWFudXAiCiAgICAgICAgICAvPgogICAgICAgICAgPGxhYmVsCiAgICAgICAgICAgIGZvcj0icGFuZWwtc3luYy1jbGVhbnVwLXJlbW90ZSIKICAgICAgICAgICAgY2xhc3M9ImN1cnNvci1wb2ludGVyIHRleHQtc20gbGVhZGluZy01IgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5wYW5lbFN5bmMuY2xlYW51cFJlbW90ZSIpIH19CiAgICAgICAgICA8L2xhYmVsPgogICAgICAgIDwvZGl2PgogICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5wYW5lbFN5bmMuY2xlYW51cFJlbW90ZURlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L3A+CiAgICAgICAgPHAgdi1pZj0icHJldmlld2luZ0NsZWFudXAiIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5wYW5lbFN5bmMuY2xlYW51cFByZXZpZXdpbmciKSB9fQogICAgICAgIDwvcD4KICAgICAgICA8ZGl2CiAgICAgICAgICB2LWVsc2UtaWY9ImNsZWFudXBSZW1vdGUgJiYgY2xlYW51cFByZXZpZXciCiAgICAgICAgICBjbGFzcz0ic3BhY2UteS0yIHJvdW5kZWQtbWQgYmctbXV0ZWQvNjAgcC0zIHRleHQtc20iCiAgICAgICAgPgogICAgICAgICAgPHAgY2xhc3M9ImZvbnQtbWVkaXVtIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4ucGFuZWxTeW5jLmNsZWFudXBQcmV2aWV3UmVhZHkiKSB9fQogICAgICAgICAgPC9wPgogICAgICAgICAgPHAgY2xhc3M9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgdCgiYWRtaW4ucGFuZWxTeW5jLmNsZWFudXBQcmV2aWV3Q291bnRzIiwgewogICAgICAgICAgICAgICAgZ3JvdXBzOiBjbGVhbnVwUHJldmlldy5hY3Rpb25zLmZpbHRlcigKICAgICAgICAgICAgICAgICAgKGl0ZW0pID0+CiAgICAgICAgICAgICAgICAgICAgaXRlbS5raW5kID09PSAiZGVsZXRlIiAmJiBpdGVtLm9iamVjdF90eXBlID09PSAiZ3JvdXAiLAogICAgICAgICAgICAgICAgKS5sZW5ndGgsCiAgICAgICAgICAgICAgICBsaW5rczogY2xlYW51cFByZXZpZXcuYWN0aW9ucy5maWx0ZXIoCiAgICAgICAgICAgICAgICAgIChpdGVtKSA9PgogICAgICAgICAgICAgICAgICAgIGl0ZW0ua2luZCA9PT0gImRlbGV0ZSIgJiYgaXRlbS5vYmplY3RfdHlwZSA9PT0gImxpbmsiLAogICAgICAgICAgICAgICAgKS5sZW5ndGgsCiAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgfX0KICAgICAgICAgIDwvcD4KICAgICAgICAgIDx1bCBjbGFzcz0ibWF4LWgtMzIgc3BhY2UteS0xIG92ZXJmbG93LWF1dG8gdGV4dC14cyI+CiAgICAgICAgICAgIDxsaQogICAgICAgICAgICAgIHYtZm9yPSJhY3Rpb24gaW4gY2xlYW51cFByZXZpZXcuYWN0aW9ucy5maWx0ZXIoCiAgICAgICAgICAgICAgICAoaXRlbSkgPT4gaXRlbS5raW5kID09PSAnZGVsZXRlJywKICAgICAgICAgICAgICApIgogICAgICAgICAgICAgIDprZXk9ImAke2FjdGlvbi5vYmplY3RfdHlwZX0tJHthY3Rpb24uc291cmNlX2lkfWAiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyBhY3Rpb24udGl0bGUgfX0KICAgICAgICAgICAgPC9saT4KICAgICAgICAgIDwvdWw+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8cAogICAgICAgIHYtZWxzZQogICAgICAgIGNsYXNzPSJyb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYW1iZXItNTAwLzQwIGJnLWFtYmVyLTUwMC8xMCBwLTMgdGV4dC1zbSIKICAgICAgPgogICAgICAgIHt7IHQoImFkbWluLnBhbmVsU3luYy5zdW5QYW5lbERldGFjaE9ubHkiKSB9fQogICAgICA8L3A+CiAgICAgIDxEaWFsb2dGb290ZXI+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBAY2xpY2s9ImVtaXQoJ3VwZGF0ZTpvcGVuJywgZmFsc2UpIj4KICAgICAgICAgIHt7IHQoImNvbW1vbi5jYW5jZWwiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9ImRlc3RydWN0aXZlIgogICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgZGVsZXRpbmcgfHwKICAgICAgICAgICAgcHJldmlld2luZ0NsZWFudXAgfHwKICAgICAgICAgICAgKGNsZWFudXBSZW1vdGUgJiYgY2xlYW51cFByZXZpZXcgPT09IG51bGwpCiAgICAgICAgICAiCiAgICAgICAgICBAY2xpY2s9ImVtaXQoJ2NvbmZpcm0nLCBjbGVhbnVwUmVtb3RlKSIKICAgICAgICA+CiAgICAgICAgICB7eyB0KCJhZG1pbi5wYW5lbFN5bmMuYWN0aW9ucy5kZWxldGUiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgIDwvRGlhbG9nQ29udGVudD4KICA8L0RpYWxvZz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import type {
+  PanelConnection,
+  PanelSyncPreview,
+} from "@/lib/api/panel-sync-api";
+
+const props = defineProps<{
+  cleanupPreview: PanelSyncPreview | null;
+  connection: PanelConnection | null;
+  deleting: boolean;
+  open: boolean;
+  previewingCleanup: boolean;
+}>();
+const emit = defineEmits<{
+  confirm: [cleanupRemote: boolean];
+  "preview-cleanup": [];
+  "update:open": [value: boolean];
+}>();
+const { t } = useI18n();
+const cleanupRemote = ref(false);
+
+watch(
+  () => [props.open, props.connection?.id] as const,
+  () => {
+    cleanupRemote.value = false;
+  },
+);
+
+const updateCleanup = (value: boolean | "indeterminate") => {
+  cleanupRemote.value = value === true;
+  if (cleanupRemote.value) emit("preview-cleanup");
+};
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent>
+      <DialogHeader>
+        <DialogTitle>{{ t("admin.panelSync.deleteTitle") }}</DialogTitle>
+        <DialogDescription>
+          {{
+            t("admin.panelSync.deleteConfirm", {
+              name: connection?.name ?? "",
+            })
+          }}
+        </DialogDescription>
+      </DialogHeader>
+      <div
+        v-if="connection?.provider !== 'sun_panel'"
+        class="space-y-3 rounded-md border p-3"
+      >
+        <div class="flex items-start gap-2">
+          <Checkbox
+            id="panel-sync-cleanup-remote"
+            :model-value="cleanupRemote"
+            :disabled="deleting || previewingCleanup"
+            @update:model-value="updateCleanup"
+          />
+          <label
+            for="panel-sync-cleanup-remote"
+            class="cursor-pointer text-sm leading-5"
+          >
+            {{ t("admin.panelSync.cleanupRemote") }}
+          </label>
+        </div>
+        <p class="text-xs text-muted-foreground">
+          {{ t("admin.panelSync.cleanupRemoteDescription") }}
+        </p>
+        <p v-if="previewingCleanup" class="text-sm text-muted-foreground">
+          {{ t("admin.panelSync.cleanupPreviewing") }}
+        </p>
+        <div
+          v-else-if="cleanupRemote && cleanupPreview"
+          class="space-y-2 rounded-md bg-muted/60 p-3 text-sm"
+        >
+          <p class="font-medium">
+            {{ t("admin.panelSync.cleanupPreviewReady") }}
+          </p>
+          <p class="text-muted-foreground">
+            {{
+              t("admin.panelSync.cleanupPreviewCounts", {
+                groups: cleanupPreview.actions.filter(
+                  (item) =>
+                    item.kind === "delete" && item.object_type === "group",
+                ).length,
+                links: cleanupPreview.actions.filter(
+                  (item) =>
+                    item.kind === "delete" && item.object_type === "link",
+                ).length,
+              })
+            }}
+          </p>
+          <ul class="max-h-32 space-y-1 overflow-auto text-xs">
+            <li
+              v-for="action in cleanupPreview.actions.filter(
+                (item) => item.kind === 'delete',
+              )"
+              :key="`${action.object_type}-${action.source_id}`"
+            >
+              {{ action.title }}
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p
+        v-else
+        class="rounded-md border border-amber-500/40 bg-amber-500/10 p-3 text-sm"
+      >
+        {{ t("admin.panelSync.sunPanelDetachOnly") }}
+      </p>
+      <DialogFooter>
+        <Button variant="outline" @click="emit('update:open', false)">
+          {{ t("common.cancel") }}
+        </Button>
+        <Button
+          variant="destructive"
+          :disabled="
+            deleting ||
+            previewingCleanup ||
+            (cleanupRemote && cleanupPreview === null)
+          "
+          @click="emit('confirm', cleanupRemote)"
+        >
+          {{ t("admin.panelSync.actions.delete") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

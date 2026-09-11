@@ -1,1 +1,80 @@
-aW1wb3J0IHR5cGUgeyBBcHBDb25maWcsIFJldmVyc2VQcm94eVN1Ym1vZGUgfSBmcm9tICIuLi90eXBlcyI7CgpleHBvcnQgY29uc3QgREVGQVVMVF9SRVZFUlNFX1BST1hZX1NVQk1PREU6IFJldmVyc2VQcm94eVN1Ym1vZGUgPSAicGF0aCI7CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplUmV2ZXJzZVByb3h5U3VibW9kZSA9ICgKICB2YWx1ZTogdW5rbm93biwKKTogUmV2ZXJzZVByb3h5U3VibW9kZSA9PgogIHZhbHVlID09PSAic3ViZG9tYWluIiA/ICJzdWJkb21haW4iIDogREVGQVVMVF9SRVZFUlNFX1BST1hZX1NVQk1PREU7CgpleHBvcnQgY29uc3QgcmVzb2x2ZVJldmVyc2VQcm94eVN1Ym1vZGUgPSAoCiAgY29uZmlnPzogUGljazxBcHBDb25maWcsICJyZXZlcnNlX3Byb3h5X3N1Ym1vZGUiPiB8IG51bGwsCik6IFJldmVyc2VQcm94eVN1Ym1vZGUgPT4KICBub3JtYWxpemVSZXZlcnNlUHJveHlTdWJtb2RlKGNvbmZpZz8ucmV2ZXJzZV9wcm94eV9zdWJtb2RlKTsKCmV4cG9ydCBjb25zdCBpc1JldmVyc2VQcm94eVN1YmRvbWFpbk1vZGUgPSAoCiAgY29uZmlnPzogUGljazxBcHBDb25maWcsICJydW5fdHlwZSIgfCAicmV2ZXJzZV9wcm94eV9zdWJtb2RlIj4gfCBudWxsLAopOiBib29sZWFuID0+CiAgY29uZmlnPy5ydW5fdHlwZSA9PT0gMSAmJiByZXNvbHZlUmV2ZXJzZVByb3h5U3VibW9kZShjb25maWcpID09PSAic3ViZG9tYWluIjsKCmV4cG9ydCBjb25zdCBpc0FueVN1YmRvbWFpblJvdXRpbmdNb2RlID0gKAogIGNvbmZpZz86IFBpY2s8QXBwQ29uZmlnLCAicnVuX3R5cGUiIHwgInJldmVyc2VfcHJveHlfc3VibW9kZSI+IHwgbnVsbCwKKTogYm9vbGVhbiA9PiBjb25maWc/LnJ1bl90eXBlID09PSAzIHx8IGlzUmV2ZXJzZVByb3h5U3ViZG9tYWluTW9kZShjb25maWcpOwoKZXhwb3J0IGNvbnN0IGlzQ2xvdWRmbGFyZWRSZXZlcnNlUHJveHlTdWJkb21haW5Nb2RlID0gKAogIGNvbmZpZz86CiAgICB8IFBpY2s8QXBwQ29uZmlnLCAicnVuX3R5cGUiIHwgInJldmVyc2VfcHJveHlfc3VibW9kZSIgfCAiZGVmYXVsdF90dW5uZWwiPgogICAgfCBudWxsLAopOiBib29sZWFuID0+CiAgaXNSZXZlcnNlUHJveHlTdWJkb21haW5Nb2RlKGNvbmZpZykgJiYgY29uZmlnPy5kZWZhdWx0X3R1bm5lbCA9PT0gImNsb3VkZmxhcmVkIjsKCmV4cG9ydCBjb25zdCBzaG91bGRPbWl0UHVibGljQWNjZXNzRW50cnlQb3J0ID0gKAogIGNvbmZpZz86CiAgICB8IFBpY2s8CiAgICAgICAgQXBwQ29uZmlnLAogICAgICAgICJydW5fdHlwZSIgfCAicmV2ZXJzZV9wcm94eV9zdWJtb2RlIiB8ICJkZWZhdWx0X3R1bm5lbCIgfCAic3ViZG9tYWluX21vZGUiCiAgICAgID4KICAgIHwgbnVsbCwKKTogYm9vbGVhbiA9PgogIGlzQ2xvdWRmbGFyZWRSZXZlcnNlUHJveHlTdWJkb21haW5Nb2RlKGNvbmZpZykgfHwKICAoY29uZmlnPy5ydW5fdHlwZSA9PT0gMyAmJgogICAgY29uZmlnLnN1YmRvbWFpbl9tb2RlPy5lZGdlX2NsaWVudF9pcF9lbmFibGVkID09PSB0cnVlICYmCiAgICAoY29uZmlnLnN1YmRvbWFpbl9tb2RlPy5hbGl5dW5fZXNhX2VuYWJsZWQgPT09IHRydWUgfHwKICAgICAgY29uZmlnLnN1YmRvbWFpbl9tb2RlPy50ZW5jZW50X2VkZ2VvbmVfZW5hYmxlZCA9PT0gdHJ1ZSkpOwoKY29uc3Qgbm9ybWFsaXplUHVibGljUG9ydCA9ICh2YWx1ZTogdW5rbm93bik6IG51bWJlciB8IG51bGwgPT4gewogIGNvbnN0IHBhcnNlZCA9CiAgICB0eXBlb2YgdmFsdWUgPT09ICJudW1iZXIiCiAgICAgID8gdmFsdWUKICAgICAgOiBOdW1iZXIucGFyc2VJbnQoU3RyaW5nKHZhbHVlID8/ICIiKS50cmltKCksIDEwKTsKICBpZiAoIU51bWJlci5pc0Zpbml0ZShwYXJzZWQpIHx8IHBhcnNlZCA8PSAwIHx8IHBhcnNlZCA+IDY1NTM1KSByZXR1cm4gbnVsbDsKICByZXR1cm4gTWF0aC5mbG9vcihwYXJzZWQpOwp9OwoKY29uc3QgcGFyc2VQdWJsaWNCYXNlVXJsUG9ydCA9ICgKICByYXdVcmw6IHN0cmluZyB8IHVuZGVmaW5lZCB8IG51bGwsCik6IG51bWJlciB8IG51bGwgPT4gewogIGNvbnN0IHJhdyA9IHJhd1VybD8udHJpbSgpOwogIGlmICghcmF3KSByZXR1cm4gbnVsbDsKCiAgdHJ5IHsKICAgIHJldHVybiBub3JtYWxpemVQdWJsaWNQb3J0KG5ldyBVUkwocmF3KS5wb3J0KTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBudWxsOwogIH0KfTsKCmV4cG9ydCBjb25zdCByZXNvbHZlRXhwbGljaXRQdWJsaWNBY2Nlc3NFbnRyeVBvcnQgPSAoCiAgY29uZmlnPzogUGljazxBcHBDb25maWcsICJzdWJkb21haW5fbW9kZSI+IHwgbnVsbCwKKTogbnVtYmVyIHwgbnVsbCA9PgogIHBhcnNlUHVibGljQmFzZVVybFBvcnQoY29uZmlnPy5zdWJkb21haW5fbW9kZT8ucHVibGljX2F1dGhfYmFzZV91cmwpIHx8CiAgbm9ybWFsaXplUHVibGljUG9ydChjb25maWc/LnN1YmRvbWFpbl9tb2RlPy5wdWJsaWNfaHR0cHNfcG9ydCkgfHwKICBub3JtYWxpemVQdWJsaWNQb3J0KGNvbmZpZz8uc3ViZG9tYWluX21vZGU/LnB1YmxpY19odHRwX3BvcnQpOwoKZXhwb3J0IGNvbnN0IGlzQ2xvdWRmbGFyZWRUdW5uZWxBdmFpbGFibGUgPSAoCiAgY29uZmlnPzogUGljazxBcHBDb25maWcsICJydW5fdHlwZSIgfCAicmV2ZXJzZV9wcm94eV9zdWJtb2RlIj4gfCBudWxsLAopOiBib29sZWFuID0+IHsKICBpZiAoY29uZmlnPy5ydW5fdHlwZSAhPT0gMSkgcmV0dXJuIGZhbHNlOwogIGNvbnN0IHN1Ym1vZGUgPSByZXNvbHZlUmV2ZXJzZVByb3h5U3VibW9kZShjb25maWcpOwogIHJldHVybiBzdWJtb2RlID09PSAicGF0aCIgfHwgc3VibW9kZSA9PT0gInN1YmRvbWFpbiI7Cn07Cg==
+import type { AppConfig, ReverseProxySubmode } from "../types";
+
+export const DEFAULT_REVERSE_PROXY_SUBMODE: ReverseProxySubmode = "path";
+
+export const normalizeReverseProxySubmode = (
+  value: unknown,
+): ReverseProxySubmode =>
+  value === "subdomain" ? "subdomain" : DEFAULT_REVERSE_PROXY_SUBMODE;
+
+export const resolveReverseProxySubmode = (
+  config?: Pick<AppConfig, "reverse_proxy_submode"> | null,
+): ReverseProxySubmode =>
+  normalizeReverseProxySubmode(config?.reverse_proxy_submode);
+
+export const isReverseProxySubdomainMode = (
+  config?: Pick<AppConfig, "run_type" | "reverse_proxy_submode"> | null,
+): boolean =>
+  config?.run_type === 1 && resolveReverseProxySubmode(config) === "subdomain";
+
+export const isAnySubdomainRoutingMode = (
+  config?: Pick<AppConfig, "run_type" | "reverse_proxy_submode"> | null,
+): boolean => config?.run_type === 3 || isReverseProxySubdomainMode(config);
+
+export const isCloudflaredReverseProxySubdomainMode = (
+  config?:
+    | Pick<AppConfig, "run_type" | "reverse_proxy_submode" | "default_tunnel">
+    | null,
+): boolean =>
+  isReverseProxySubdomainMode(config) && config?.default_tunnel === "cloudflared";
+
+export const shouldOmitPublicAccessEntryPort = (
+  config?:
+    | Pick<
+        AppConfig,
+        "run_type" | "reverse_proxy_submode" | "default_tunnel" | "subdomain_mode"
+      >
+    | null,
+): boolean =>
+  isCloudflaredReverseProxySubdomainMode(config) ||
+  (config?.run_type === 3 &&
+    config.subdomain_mode?.edge_client_ip_enabled === true &&
+    (config.subdomain_mode?.aliyun_esa_enabled === true ||
+      config.subdomain_mode?.tencent_edgeone_enabled === true));
+
+const normalizePublicPort = (value: unknown): number | null => {
+  const parsed =
+    typeof value === "number"
+      ? value
+      : Number.parseInt(String(value ?? "").trim(), 10);
+  if (!Number.isFinite(parsed) || parsed <= 0 || parsed > 65535) return null;
+  return Math.floor(parsed);
+};
+
+const parsePublicBaseUrlPort = (
+  rawUrl: string | undefined | null,
+): number | null => {
+  const raw = rawUrl?.trim();
+  if (!raw) return null;
+
+  try {
+    return normalizePublicPort(new URL(raw).port);
+  } catch {
+    return null;
+  }
+};
+
+export const resolveExplicitPublicAccessEntryPort = (
+  config?: Pick<AppConfig, "subdomain_mode"> | null,
+): number | null =>
+  parsePublicBaseUrlPort(config?.subdomain_mode?.public_auth_base_url) ||
+  normalizePublicPort(config?.subdomain_mode?.public_https_port) ||
+  normalizePublicPort(config?.subdomain_mode?.public_http_port);
+
+export const isCloudflaredTunnelAvailable = (
+  config?: Pick<AppConfig, "run_type" | "reverse_proxy_submode"> | null,
+): boolean => {
+  if (config?.run_type !== 1) return false;
+  const submode = resolveReverseProxySubmode(config);
+  return submode === "path" || submode === "subdomain";
+};

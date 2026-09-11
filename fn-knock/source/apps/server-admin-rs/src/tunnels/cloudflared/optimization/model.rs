@@ -1,1 +1,239 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBjb25zdCBPUFRJTUlaQVRJT05fUlVOVElNRV9LRVk6ICZzdHIgPSAiZm5fa25vY2s6Y2xvdWRmbGFyZWQ6b3B0aW1pemF0aW9uOnJ1bnRpbWU6djEiOwpwdWIoc3VwZXIpIGNvbnN0IE9QVElNSVpBVElPTl9TRVRUSU5HU19LRVk6ICZzdHIgPSAiZm5fa25vY2s6Y2xvdWRmbGFyZWQ6b3B0aW1pemF0aW9uOnNldHRpbmdzOnYxIjsKcHViKHN1cGVyKSBjb25zdCBPUFRJTUlaQVRJT05fRE9NQUlOX1NFVFRJTkdTX0tFWTogJnN0ciA9CiAgICAiZm5fa25vY2s6Y2xvdWRmbGFyZWQ6b3B0aW1pemF0aW9uOmRvbWFpbi1zZXR0aW5nczp2MSI7CnB1YihzdXBlcikgY29uc3QgQ0xPVURGTEFSRV9TQUFTX1JFUVVJUkVEX0VSUk9SX0NPREU6ICZzdHIgPSAiY2xvdWRmbGFyZS1zYWFzLXJlcXVpcmVkIjsKcHViKHN1cGVyKSBjb25zdCBDTE9VREZMQVJFX1NBQVNfUkVRVUlSRURfU0NBTl9FUlJPUjogJnN0ciA9CiAgICAiQ2xvdWRmbGFyZSBmb3IgU2FhUyBpcyBub3QgZW5hYmxlZCBvciBhdmFpbGFibGUgZm9yIHRoZSBzZWxlY3RlZCB6b25lIjsKcHViKHN1cGVyKSBjb25zdCBDTE9VREZMQVJFX1NBQVNfVkFMSURBVElPTl9QRU5ESU5HX0VSUk9SX0NPREU6ICZzdHIgPQogICAgImNsb3VkZmxhcmUtc2Fhcy12YWxpZGF0aW9uLXBlbmRpbmciOwpwdWIoc3VwZXIpIGNvbnN0IENMT1VERkxBUkVfU0FBU19WQUxJREFUSU9OX1BFTkRJTkdfU0NBTl9FUlJPUjogJnN0ciA9CiAgICAiQ2xvdWRmbGFyZSBmb3IgU2FhUyBpcyBlbmFibGVkLCBidXQgaG9zdG5hbWUgYW5kIGNlcnRpZmljYXRlIHZhbGlkYXRpb24gaXMgc3RpbGwgaW4gcHJvZ3Jlc3MiOwpwdWIoc3VwZXIpIGNvbnN0IENMT1VERkxBUkVfUkVTT1VSQ0VfQ09ORkxJQ1RfRVJST1JfQ09ERTogJnN0ciA9ICJjbG91ZGZsYXJlLXJlc291cmNlLWNvbmZsaWN0IjsKcHViKHN1cGVyKSBjb25zdCBDTE9VREZMQVJFX1JFU09VUkNFX0NPTkZMSUNUX1NDQU5fRVJST1I6ICZzdHIgPQogICAgIkNsb3VkZmxhcmUgQ3VzdG9tIEhvc3RuYW1lIG9yIEROUyBvd25lcnNoaXAgY29uZmxpY3RzIG11c3QgYmUgcmVjb25jaWxlZCI7CnB1YihzdXBlcikgY29uc3QgT1BUSU1JWkFUSU9OX05PVF9SRUFEWV9FUlJPUl9DT0RFOiAmc3RyID0gImNsb3VkZmxhcmUtb3B0aW1pemF0aW9uLW5vdC1yZWFkeSI7CnB1YihzdXBlcikgY29uc3QgT1BUSU1JWkFUSU9OX05PVF9SRUFEWV9TQ0FOX0VSUk9SOiAmc3RyID0KICAgICJDbG91ZGZsYXJlIG9wdGltaXphdGlvbiBpcyBub3QgcmVhZHkgZm9yIFRMUyBhbmQgU05JIHZhbGlkYXRpb24iOwpwdWIoc3VwZXIpIGNvbnN0IENBTkRJREFURV9SRVNPTFVUSU9OX1VOQVZBSUxBQkxFX0VSUk9SX0NPREU6ICZzdHIgPQogICAgImNsb3VkZmxhcmUtY2FuZGlkYXRlLXJlc29sdXRpb24tdW5hdmFpbGFibGUiOwpwdWIoc3VwZXIpIGNvbnN0IENBTkRJREFURV9SRVNPTFVUSU9OX1VOQVZBSUxBQkxFX1NDQU5fRVJST1I6ICZzdHIgPQogICAgIk5vIHZlcmlmaWVkIENsb3VkZmxhcmUgY2FuZGlkYXRlIGFkZHJlc3MgY291bGQgYmUgcmVzb2x2ZWQiOwpwdWIoc3VwZXIpIGNvbnN0IFNQRUVEVEVTVF9IT1NUOiAmc3RyID0gInNwZWVkLmNsb3VkZmxhcmUuY29tIjsKcHViKHN1cGVyKSBjb25zdCBTUEVFRFRFU1RfUEFUSDogJnN0ciA9ICIvX19kb3duIjsKcHViKHN1cGVyKSBjb25zdCBNQVhfQ0FORElEQVRFUzogdXNpemUgPSAxMjg7CnB1YihzdXBlcikgY29uc3QgQ0FORElEQVRFU19QRVJfUFJFRklYOiB1c2l6ZSA9IDg7CnB1YihzdXBlcikgY29uc3QgUFJPQkVfQ09OQ1VSUkVOQ1k6IHVzaXplID0gMzI7CnB1YihzdXBlcikgY29uc3QgU05JX1ZBTElEQVRJT05fQ09OQ1VSUkVOQ1k6IHVzaXplID0gMTY7CnB1YihzdXBlcikgY29uc3QgTEFURU5DWV9QUk9CRVM6IHVzaXplID0gMzsKcHViKHN1cGVyKSBjb25zdCBET1dOTE9BRF9TSE9SVExJU1Q6IHVzaXplID0gODsKcHViKHN1cGVyKSBjb25zdCBET1dOTE9BRF9CWVRFUzogdXNpemUgPSAxMDI0ICogMTAyNDsKcHViKHN1cGVyKSBjb25zdCBNQVhfRE9XTkxPQURfQlVER0VUOiB1c2l6ZSA9IDIwICogMTAyNCAqIDEwMjQ7CmNvbnN0IF86ICgpID0gewogICAgYXNzZXJ0IShNQVhfQ0FORElEQVRFUyA8PSAxMjgpOwogICAgYXNzZXJ0IShQUk9CRV9DT05DVVJSRU5DWSA8PSAzMik7CiAgICBhc3NlcnQhKExBVEVOQ1lfUFJPQkVTID09IDMpOwogICAgYXNzZXJ0IShET1dOTE9BRF9TSE9SVExJU1QgKiAyICogRE9XTkxPQURfQllURVMgPD0gTUFYX0RPV05MT0FEX0JVREdFVCk7Cn07CnB1YihzdXBlcikgY29uc3QgTUFYX0NVU1RPTV9IT1NUTkFNRVM6IHVzaXplID0gMTAwOwpwdWIoc3VwZXIpIGNvbnN0IE1BWF9DVVNUT01fSE9TVE5BTUVfQ1JFQVRFU19QRVJfUkVDT05DSUxFOiB1c2l6ZSA9IDEwOwpwdWIoc3VwZXIpIGNvbnN0IE1BWF9DVVNUT01fU09VUkNFX0hPU1ROQU1FUzogdXNpemUgPSAxNjsKcHViKHN1cGVyKSBjb25zdCBXRUVLX01TOiBpNjQgPSA3ICogMjQgKiA2MCAqIDYwICogMTAwMDsKcHViKHN1cGVyKSBjb25zdCBIRUFMVEhfSU5URVJWQUxfTVM6IGk2NCA9IDE1ICogNjAgKiAxMDAwOwpwdWIoc3VwZXIpIGNvbnN0IENPTkZJUk1BVElPTl9ERUxBWV9NUzogaTY0ID0gMTAgKiA2MCAqIDEwMDA7CnB1YihzdXBlcikgY29uc3QgU0NBTl9BUFBMWV9UVExfTVM6IGk2NCA9IDEwICogNjAgKiAxMDAwOwoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBFcSwgUGFydGlhbEVxKV0KcHViKHN1cGVyKSBlbnVtIENhcGFiaWxpdHlQcm9iZVJlc3VsdCB7CiAgICBSZWFkeSwKICAgIFBlbmRpbmcsCiAgICBVbnN1cHBvcnRlZCwKfQoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBFcSwgUGFydGlhbEVxKV0KcHViKHN1cGVyKSBlbnVtIEZhbGxiYWNrT3JpZ2luUmVzdWx0IHsKICAgIFJlYWR5LAogICAgUGVuZGluZywKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnKV0KcHViKHN1cGVyKSBzdHJ1Y3QgUmVjb3ZlcmFibGVDdXN0b21Ib3N0bmFtZSB7CiAgICBwdWIoc3VwZXIpIGxlZ2FjeV9pbnN0YW5jZV9pZDogU3RyaW5nLAogICAgcHViKHN1cGVyKSBvcmlnaW5faG9zdG5hbWU6IFN0cmluZywKICAgIHB1YihzdXBlcikgb3JpZ2luX2RuczogVmFsdWUsCiAgICBwdWIoc3VwZXIpIGV4YWN0X2RuczogVmFsdWUsCn0KCnB1YihzdXBlcikgY29uc3QgQ0xPVURGTEFSRV9JUFY0X0ZBTExCQUNLOiAmWyZzdHJdID0gJlsKICAgICIxMDMuMjEuMjQ0LjAvMjIiLAogICAgIjEwMy4yMi4yMDAuMC8yMiIsCiAgICAiMTAzLjMxLjQuMC8yMiIsCiAgICAiMTA0LjE2LjAuMC8xMyIsCiAgICAiMTA0LjI0LjAuMC8xNCIsCiAgICAiMTA4LjE2Mi4xOTIuMC8xOCIsCiAgICAiMTMxLjAuNzIuMC8yMiIsCiAgICAiMTQxLjEwMS42NC4wLzE4IiwKICAgICIxNjIuMTU4LjAuMC8xNSIsCiAgICAiMTcyLjY0LjAuMC8xMyIsCiAgICAiMTczLjI0NS40OC4wLzIwIiwKICAgICIxODguMTE0Ljk2LjAvMjAiLAogICAgIjE5MC45My4yNDAuMC8yMCIsCiAgICAiMTk3LjIzNC4yNDAuMC8yMiIsCiAgICAiMTk4LjQxLjEyOC4wLzE3IiwKXTsKCiNbZGVyaXZlKENsb25lLCBDb3B5LCBEZWJ1ZyldCnB1YihzdXBlcikgc3RydWN0IEJ1aWx0aW5DYW5kaWRhdGVTb3VyY2UgewogICAgcHViKHN1cGVyKSBpZDogJidzdGF0aWMgc3RyLAogICAgcHViKHN1cGVyKSBob3N0bmFtZTogJidzdGF0aWMgc3RyLAogICAgcHViKHN1cGVyKSBjYXRlZ29yeTogJidzdGF0aWMgc3RyLAp9CgovLyBUaGVzZSBob3N0bmFtZXMgYXJlIG9ubHkgcmVzb2x2ZWQgaW50byBjYW5kaWRhdGUgQ2xvdWRmbGFyZSBJUHY0IGFkZHJlc3Nlcy4KLy8gZm4ta25vY2sgbmV2ZXIgcHVibGlzaGVzIGEgY3VzdG9tZXIgQ05BTUUgdG8sIG9yIHNlbmRzIEhUVFAgdHJhZmZpYyB3aXRoIHRoZQovLyB0aGlyZC1wYXJ0eSBob3N0bmFtZS9TTkkgdG8sIGFueSBzb3VyY2UgaW4gdGhpcyBjYXRhbG9nLgpwdWIoc3VwZXIpIGNvbnN0IEJVSUxUSU5fQ0FORElEQVRFX1NPVVJDRVM6ICZbQnVpbHRpbkNhbmRpZGF0ZVNvdXJjZV0gPSAmWwogICAgQnVpbHRpbkNhbmRpZGF0ZVNvdXJjZSB7CiAgICAgICAgaWQ6ICJzd2VkZW4tZ292ZXJubWVudCIsCiAgICAgICAgaG9zdG5hbWU6ICJ3d3cuZ292LnNlIiwKICAgICAgICBjYXRlZ29yeTogImdvdmVybm1lbnQiLAogICAgfSwKICAgIEJ1aWx0aW5DYW5kaWRhdGVTb3VyY2UgewogICAgICAgIGlkOiAidXMtbGlicmFyeS1vZi1jb25ncmVzcyIsCiAgICAgICAgaG9zdG5hbWU6ICJ3d3cubG9jLmdvdiIsCiAgICAgICAgY2F0ZWdvcnk6ICJwdWJsaWMtaW5zdGl0dXRpb24iLAogICAgfSwKICAgIEJ1aWx0aW5DYW5kaWRhdGVTb3VyY2UgewogICAgICAgIGlkOiAiaWNhbm4iLAogICAgICAgIGhvc3RuYW1lOiAid3d3LmljYW5uLm9yZyIsCiAgICAgICAgY2F0ZWdvcnk6ICJpbnRlcm5ldC1pbmZyYXN0cnVjdHVyZSIsCiAgICB9LAogICAgQnVpbHRpbkNhbmRpZGF0ZVNvdXJjZSB7CiAgICAgICAgaWQ6ICJ2aXNhIiwKICAgICAgICBob3N0bmFtZTogInd3dy52aXNhLmNvbSIsCiAgICAgICAgY2F0ZWdvcnk6ICJwYXltZW50LWluZnJhc3RydWN0dXJlIiwKICAgIH0sCl07CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplLCBTZXJpYWxpemUpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IE9wdGltaXphdGlvblNvdXJjZVNldHRpbmdzIHsKICAgICNbc2VyZGUoZGVmYXVsdCA9ICJkZWZhdWx0X3RydWUiKV0KICAgIHB1YihzdXBlcikgb2ZmaWNpYWxfcmFuZ2VzOiBib29sLAogICAgI1tzZXJkZShkZWZhdWx0ID0gImRlZmF1bHRfYnVpbHRpbl9zb3VyY2VfaWRzIildCiAgICBwdWIoc3VwZXIpIGJ1aWx0aW5faWRzOiBWZWM8U3RyaW5nPiwKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIoc3VwZXIpIGN1c3RvbV9ob3N0bmFtZXM6IFZlYzxTdHJpbmc+LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlZmF1bHQsIERlc2VyaWFsaXplLCBTZXJpYWxpemUpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IE9wdGltaXphdGlvbkRvbWFpblNldHRpbmdzIHsKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIoc3VwZXIpIGV4dGVybmFsX2hvc3RuYW1lczogVmVjPFN0cmluZz4sCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVmYXVsdCwgRGVzZXJpYWxpemUpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IFN0YXJ0T3B0aW1pemF0aW9uU2NhblJlcXVlc3QgewogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YihzdXBlcikgcHJlZmVycmVkX2lwOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoRGVidWcsIERlc2VyaWFsaXplKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBVcGRhdGVPcHRpbWl6YXRpb25Eb21haW5SZXF1ZXN0IHsKICAgIHB1YihzdXBlcikgbW9kZTogU3RyaW5nLAp9CgppbXBsIERlZmF1bHQgZm9yIE9wdGltaXphdGlvblNvdXJjZVNldHRpbmdzIHsKICAgIGZuIGRlZmF1bHQoKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsKICAgICAgICAgICAgb2ZmaWNpYWxfcmFuZ2VzOiB0cnVlLAogICAgICAgICAgICBidWlsdGluX2lkczogZGVmYXVsdF9idWlsdGluX3NvdXJjZV9pZHMoKSwKICAgICAgICAgICAgY3VzdG9tX2hvc3RuYW1lczogVmVjOjpuZXcoKSwKICAgICAgICB9CiAgICB9Cn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZyldCnB1YihzdXBlcikgc3RydWN0IENhbmRpZGF0ZVNlZWQgewogICAgcHViKHN1cGVyKSBpcDogSXB2NEFkZHIsCiAgICBwdWIoc3VwZXIpIHNvdXJjZV90eXBlczogVmVjPFN0cmluZz4sCiAgICBwdWIoc3VwZXIpIHNvdXJjZV9ob3N0bmFtZXM6IFZlYzxTdHJpbmc+LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcpXQpwdWIoc3VwZXIpIHN0cnVjdCBMYXRlbmN5UHJvYmVNZXRyaWNzIHsKICAgIHB1YihzdXBlcikgbWVkaWFuX2xhdGVuY3lfbXM6IGY2NCwKICAgIHB1YihzdXBlcikgaml0dGVyX21zOiBmNjQsCiAgICBwdWIoc3VwZXIpIGxvc3NfcmF0aW86IGY2NCwKICAgIHB1YihzdXBlcikgY29sbzogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIoc3VwZXIpIGNmX3JheTogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZyldCnB1YihzdXBlcikgc3RydWN0IEJ1c2luZXNzUHJvYmVSZXN1bHQgewogICAgcHViKHN1cGVyKSBzdGF0dXM6IHUxNiwKICAgIHB1YihzdXBlcikgY29sbzogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIoc3VwZXIpIGNmX3JheTogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKERlYnVnKV0KcHViKHN1cGVyKSBzdHJ1Y3QgT3B0aW1pemF0aW9uU2NhblJlc3VsdCB7CiAgICBwdWIoc3VwZXIpIGNhbmRpZGF0ZXM6IFZlYzxPcHRpbWl6YXRpb25DYW5kaWRhdGU+LAogICAgcHViKHN1cGVyKSB2YW50YWdlOiBWYWx1ZSwKICAgIHB1YihzdXBlcikgc291cmNlX3dhcm5pbmdzOiBWZWM8U3RyaW5nPiwKICAgIHB1YihzdXBlcikgcmVzb2x2ZXJfZGlhZ25vc3RpY3M6IFZlYzxSZXNvbHZlckRpYWdub3N0aWM+LAogICAgcHViKHN1cGVyKSByZXNvbHV0aW9uX3BhdGg6IFN0cmluZywKICAgIHB1YihzdXBlcikgc291cmNlX2ZpbmdlcnByaW50OiBTdHJpbmcsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZyldCnB1YihzdXBlcikgc3RydWN0IENvbmZpcm1hdGlvblNuYXBzaG90IHsKICAgIHB1YihzdXBlcikgcGVuZGluZzogT3B0aW1pemF0aW9uQ2FuZGlkYXRlLAogICAgcHViKHN1cGVyKSBjdXJyZW50OiBPcHRpbWl6YXRpb25DYW5kaWRhdGUsCiAgICBwdWIoc3VwZXIpIGhvc3RuYW1lOiBTdHJpbmcsCiAgICBwdWIoc3VwZXIpIHNlbGVjdGVkX2F0OiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBPcHRpbWl6YXRpb25DYW5kaWRhdGUgewogICAgcHViKHN1cGVyKSBpcDogU3RyaW5nLAogICAgcHViKHN1cGVyKSBtZWRpYW5fbGF0ZW5jeV9tczogZjY0LAogICAgcHViKHN1cGVyKSBqaXR0ZXJfbXM6IGY2NCwKICAgIHB1YihzdXBlcikgbG9zc19yYXRpbzogZjY0LAogICAgcHViKHN1cGVyKSBkb3dubG9hZF9tYnBzOiBmNjQsCiAgICBwdWIoc3VwZXIpIHNjb3JlOiBmNjQsCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgcHViKHN1cGVyKSB2ZXJpZmllZF9hdDogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgcHViKHN1cGVyKSBzb3VyY2VfdHlwZXM6IFZlYzxTdHJpbmc+LAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YihzdXBlcikgc291cmNlX2hvc3RuYW1lczogVmVjPFN0cmluZz4sCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgcHViKHN1cGVyKSBjb2xvOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIoc3VwZXIpIGNmX3JheTogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgcHViKHN1cGVyKSBidXNpbmVzc19ob3N0bmFtZTogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgcHViKHN1cGVyKSBidXNpbmVzc19zdGF0dXM6IE9wdGlvbjx1MTY+LAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YihzdXBlcikgYnVzaW5lc3NfY29sbzogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgcHViKHN1cGVyKSBidXNpbmVzc19jZl9yYXk6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YihzdXBlcikgYnVzaW5lc3NfdmFsaWRhdGVkOiBib29sLAp9CgojW2Rlcml2ZShEZWJ1ZywgRGVzZXJpYWxpemUpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IEFwcGx5T3B0aW1pemF0aW9uUmVxdWVzdCB7CiAgICBwdWIoc3VwZXIpIHNjYW5faWQ6IFN0cmluZywKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIoc3VwZXIpIGNhbmRpZGF0ZV9pcDogT3B0aW9uPFN0cmluZz4sCn0K
+use super::*;
+
+pub(super) const OPTIMIZATION_RUNTIME_KEY: &str = "fn_knock:cloudflared:optimization:runtime:v1";
+pub(super) const OPTIMIZATION_SETTINGS_KEY: &str = "fn_knock:cloudflared:optimization:settings:v1";
+pub(super) const OPTIMIZATION_DOMAIN_SETTINGS_KEY: &str =
+    "fn_knock:cloudflared:optimization:domain-settings:v1";
+pub(super) const CLOUDFLARE_SAAS_REQUIRED_ERROR_CODE: &str = "cloudflare-saas-required";
+pub(super) const CLOUDFLARE_SAAS_REQUIRED_SCAN_ERROR: &str =
+    "Cloudflare for SaaS is not enabled or available for the selected zone";
+pub(super) const CLOUDFLARE_SAAS_VALIDATION_PENDING_ERROR_CODE: &str =
+    "cloudflare-saas-validation-pending";
+pub(super) const CLOUDFLARE_SAAS_VALIDATION_PENDING_SCAN_ERROR: &str =
+    "Cloudflare for SaaS is enabled, but hostname and certificate validation is still in progress";
+pub(super) const CLOUDFLARE_RESOURCE_CONFLICT_ERROR_CODE: &str = "cloudflare-resource-conflict";
+pub(super) const CLOUDFLARE_RESOURCE_CONFLICT_SCAN_ERROR: &str =
+    "Cloudflare Custom Hostname or DNS ownership conflicts must be reconciled";
+pub(super) const OPTIMIZATION_NOT_READY_ERROR_CODE: &str = "cloudflare-optimization-not-ready";
+pub(super) const OPTIMIZATION_NOT_READY_SCAN_ERROR: &str =
+    "Cloudflare optimization is not ready for TLS and SNI validation";
+pub(super) const CANDIDATE_RESOLUTION_UNAVAILABLE_ERROR_CODE: &str =
+    "cloudflare-candidate-resolution-unavailable";
+pub(super) const CANDIDATE_RESOLUTION_UNAVAILABLE_SCAN_ERROR: &str =
+    "No verified Cloudflare candidate address could be resolved";
+pub(super) const SPEEDTEST_HOST: &str = "speed.cloudflare.com";
+pub(super) const SPEEDTEST_PATH: &str = "/__down";
+pub(super) const MAX_CANDIDATES: usize = 128;
+pub(super) const CANDIDATES_PER_PREFIX: usize = 8;
+pub(super) const PROBE_CONCURRENCY: usize = 32;
+pub(super) const SNI_VALIDATION_CONCURRENCY: usize = 16;
+pub(super) const LATENCY_PROBES: usize = 3;
+pub(super) const DOWNLOAD_SHORTLIST: usize = 8;
+pub(super) const DOWNLOAD_BYTES: usize = 1024 * 1024;
+pub(super) const MAX_DOWNLOAD_BUDGET: usize = 20 * 1024 * 1024;
+const _: () = {
+    assert!(MAX_CANDIDATES <= 128);
+    assert!(PROBE_CONCURRENCY <= 32);
+    assert!(LATENCY_PROBES == 3);
+    assert!(DOWNLOAD_SHORTLIST * 2 * DOWNLOAD_BYTES <= MAX_DOWNLOAD_BUDGET);
+};
+pub(super) const MAX_CUSTOM_HOSTNAMES: usize = 100;
+pub(super) const MAX_CUSTOM_HOSTNAME_CREATES_PER_RECONCILE: usize = 10;
+pub(super) const MAX_CUSTOM_SOURCE_HOSTNAMES: usize = 16;
+pub(super) const WEEK_MS: i64 = 7 * 24 * 60 * 60 * 1000;
+pub(super) const HEALTH_INTERVAL_MS: i64 = 15 * 60 * 1000;
+pub(super) const CONFIRMATION_DELAY_MS: i64 = 10 * 60 * 1000;
+pub(super) const SCAN_APPLY_TTL_MS: i64 = 10 * 60 * 1000;
+
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+pub(super) enum CapabilityProbeResult {
+    Ready,
+    Pending,
+    Unsupported,
+}
+
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+pub(super) enum FallbackOriginResult {
+    Ready,
+    Pending,
+}
+
+#[derive(Clone, Debug)]
+pub(super) struct RecoverableCustomHostname {
+    pub(super) legacy_instance_id: String,
+    pub(super) origin_hostname: String,
+    pub(super) origin_dns: Value,
+    pub(super) exact_dns: Value,
+}
+
+pub(super) const CLOUDFLARE_IPV4_FALLBACK: &[&str] = &[
+    "103.21.244.0/22",
+    "103.22.200.0/22",
+    "103.31.4.0/22",
+    "104.16.0.0/13",
+    "104.24.0.0/14",
+    "108.162.192.0/18",
+    "131.0.72.0/22",
+    "141.101.64.0/18",
+    "162.158.0.0/15",
+    "172.64.0.0/13",
+    "173.245.48.0/20",
+    "188.114.96.0/20",
+    "190.93.240.0/20",
+    "197.234.240.0/22",
+    "198.41.128.0/17",
+];
+
+#[derive(Clone, Copy, Debug)]
+pub(super) struct BuiltinCandidateSource {
+    pub(super) id: &'static str,
+    pub(super) hostname: &'static str,
+    pub(super) category: &'static str,
+}
+
+// These hostnames are only resolved into candidate Cloudflare IPv4 addresses.
+// fn-knock never publishes a customer CNAME to, or sends HTTP traffic with the
+// third-party hostname/SNI to, any source in this catalog.
+pub(super) const BUILTIN_CANDIDATE_SOURCES: &[BuiltinCandidateSource] = &[
+    BuiltinCandidateSource {
+        id: "sweden-government",
+        hostname: "www.gov.se",
+        category: "government",
+    },
+    BuiltinCandidateSource {
+        id: "us-library-of-congress",
+        hostname: "www.loc.gov",
+        category: "public-institution",
+    },
+    BuiltinCandidateSource {
+        id: "icann",
+        hostname: "www.icann.org",
+        category: "internet-infrastructure",
+    },
+    BuiltinCandidateSource {
+        id: "visa",
+        hostname: "www.visa.com",
+        category: "payment-infrastructure",
+    },
+];
+
+#[derive(Clone, Debug, Deserialize, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct OptimizationSourceSettings {
+    #[serde(default = "default_true")]
+    pub(super) official_ranges: bool,
+    #[serde(default = "default_builtin_source_ids")]
+    pub(super) builtin_ids: Vec<String>,
+    #[serde(default)]
+    pub(super) custom_hostnames: Vec<String>,
+}
+
+#[derive(Clone, Debug, Default, Deserialize, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct OptimizationDomainSettings {
+    #[serde(default)]
+    pub(super) external_hostnames: Vec<String>,
+}
+
+#[derive(Clone, Debug, Default, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct StartOptimizationScanRequest {
+    #[serde(default)]
+    pub(super) preferred_ip: Option<String>,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct UpdateOptimizationDomainRequest {
+    pub(super) mode: String,
+}
+
+impl Default for OptimizationSourceSettings {
+    fn default() -> Self {
+        Self {
+            official_ranges: true,
+            builtin_ids: default_builtin_source_ids(),
+            custom_hostnames: Vec::new(),
+        }
+    }
+}
+
+#[derive(Clone, Debug)]
+pub(super) struct CandidateSeed {
+    pub(super) ip: Ipv4Addr,
+    pub(super) source_types: Vec<String>,
+    pub(super) source_hostnames: Vec<String>,
+}
+
+#[derive(Clone, Debug)]
+pub(super) struct LatencyProbeMetrics {
+    pub(super) median_latency_ms: f64,
+    pub(super) jitter_ms: f64,
+    pub(super) loss_ratio: f64,
+    pub(super) colo: Option<String>,
+    pub(super) cf_ray: Option<String>,
+}
+
+#[derive(Clone, Debug)]
+pub(super) struct BusinessProbeResult {
+    pub(super) status: u16,
+    pub(super) colo: Option<String>,
+    pub(super) cf_ray: Option<String>,
+}
+
+#[derive(Debug)]
+pub(super) struct OptimizationScanResult {
+    pub(super) candidates: Vec<OptimizationCandidate>,
+    pub(super) vantage: Value,
+    pub(super) source_warnings: Vec<String>,
+    pub(super) resolver_diagnostics: Vec<ResolverDiagnostic>,
+    pub(super) resolution_path: String,
+    pub(super) source_fingerprint: String,
+}
+
+#[derive(Clone, Debug)]
+pub(super) struct ConfirmationSnapshot {
+    pub(super) pending: OptimizationCandidate,
+    pub(super) current: OptimizationCandidate,
+    pub(super) hostname: String,
+    pub(super) selected_at: Option<String>,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct OptimizationCandidate {
+    pub(super) ip: String,
+    pub(super) median_latency_ms: f64,
+    pub(super) jitter_ms: f64,
+    pub(super) loss_ratio: f64,
+    pub(super) download_mbps: f64,
+    pub(super) score: f64,
+    #[serde(default)]
+    pub(super) verified_at: Option<String>,
+    #[serde(default)]
+    pub(super) source_types: Vec<String>,
+    #[serde(default)]
+    pub(super) source_hostnames: Vec<String>,
+    #[serde(default)]
+    pub(super) colo: Option<String>,
+    #[serde(default)]
+    pub(super) cf_ray: Option<String>,
+    #[serde(default)]
+    pub(super) business_hostname: Option<String>,
+    #[serde(default)]
+    pub(super) business_status: Option<u16>,
+    #[serde(default)]
+    pub(super) business_colo: Option<String>,
+    #[serde(default)]
+    pub(super) business_cf_ray: Option<String>,
+    #[serde(default)]
+    pub(super) business_validated: bool,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct ApplyOptimizationRequest {
+    pub(super) scan_id: String,
+    #[serde(default)]
+    pub(super) candidate_ip: Option<String>,
+}

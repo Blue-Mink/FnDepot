@@ -1,1 +1,607 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIGVmZmVjdFNjb3BlLCBuZXh0VGljaywgcmVhY3RpdmUsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IGZsdXNoUHJvbWlzZXMsIG1vdW50IH0gZnJvbSAiQHZ1ZS90ZXN0LXV0aWxzIjsKaW1wb3J0IHsgY3JlYXRlUGluaWEgfSBmcm9tICJwaW5pYSI7CmltcG9ydCB7IGNyZWF0ZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IGFmdGVyRWFjaCwgZGVzY3JpYmUsIGV4cGVjdCwgaXQsIHZpIH0gZnJvbSAidml0ZXN0IjsKCmltcG9ydCB7CiAgQ29uZmlnQVBJLAogIHR5cGUgU3RhdGljUGF0aEJyb3dzZUVudHJ5LAogIHR5cGUgU3RhdGljUGF0aEJyb3dzZVJlc3VsdCwKICB0eXBlIFN0YXRpY1BhdGhQcm9iZVJlc3VsdCwKICB0eXBlIFN0YXRpY1BhdGhQcm9iZVRhcmdldFR5cGUsCn0gZnJvbSAiLi4vc3JjL2xpYi9hcGkvY29uZmlnIjsKaW1wb3J0IHsgdXNlU3RhdGljUGF0aEJyb3dzZXIgfSBmcm9tICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L3VzZVN0YXRpY1BhdGhCcm93c2VyIjsKaW1wb3J0IFN1YmRvbWFpbk1hcHBpbmdTdGF0aWNQYXRoQnJvd3NlciBmcm9tICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L1N1YmRvbWFpbk1hcHBpbmdTdGF0aWNQYXRoQnJvd3Nlci52dWUiOwoKY29uc3QgZGlyZWN0b3J5RW50cnkgPSAoCiAgcGF0aDogc3RyaW5nLAogIG5hbWUgPSBwYXRoLnNwbGl0KCIvIikuYXQoLTEpIHx8IHBhdGgsCik6IFN0YXRpY1BhdGhCcm93c2VFbnRyeSA9PiAoewogIGVudHJ5X3R5cGU6ICJkaXJlY3RvcnkiLAogIG1vZGlmaWVkX2F0OiAiMjAyNi0wOC0zMFQxMzo0ODoxMVoiLAogIG5hbWUsCiAgbmF2aWdhYmxlOiB0cnVlLAogIHBhdGgsCiAgc2VsZWN0YWJsZTogZmFsc2UsCiAgc2l6ZV9ieXRlczogbnVsbCwKfSk7Cgpjb25zdCBmaWxlRW50cnkgPSAocGF0aDogc3RyaW5nKTogU3RhdGljUGF0aEJyb3dzZUVudHJ5ID0+ICh7CiAgZW50cnlfdHlwZTogImZpbGUiLAogIG1vZGlmaWVkX2F0OiAiMjAyNi0wOC0zMFQxMzo0ODoxMVoiLAogIG5hbWU6IHBhdGguc3BsaXQoIi8iKS5hdCgtMSkgfHwgcGF0aCwKICBuYXZpZ2FibGU6IGZhbHNlLAogIHBhdGgsCiAgc2VsZWN0YWJsZTogdHJ1ZSwKICBzaXplX2J5dGVzOiA0MDk2LAp9KTsKCmNvbnN0IGJyb3dzZVJlc3VsdCA9ICgKICB0YXJnZXRUeXBlOiBTdGF0aWNQYXRoUHJvYmVUYXJnZXRUeXBlLAogIG92ZXJyaWRlczogUGFydGlhbDxTdGF0aWNQYXRoQnJvd3NlUmVzdWx0PiA9IHt9LAopOiBTdGF0aWNQYXRoQnJvd3NlUmVzdWx0ID0+ICh7CiAgYnJlYWRjcnVtYnM6IFt7IG5hbWU6ICJzcnYiLCBwYXRoOiAiL3NydiIgfV0sCiAgY3VycmVudF9wYXRoOiAiL3NydiIsCiAgY3VycmVudF9zZWxlY3RhYmxlOiB0YXJnZXRUeXBlID09PSAiZGlyZWN0b3J5IiwKICBlbnRyaWVzOiBbXSwKICBlcnJvcl9jb2RlOiBudWxsLAogIG5leHRfY3Vyc29yOiBudWxsLAogIHBhcmVudF9wYXRoOiAiLyIsCiAgcGxhdGZvcm06ICJwb3NpeCIsCiAgcHJldmlvdXNfY3Vyc29yOiBudWxsLAogIHNlbGVjdGVkX3BhdGg6IG51bGwsCiAgdGFyZ2V0X3R5cGU6IHRhcmdldFR5cGUsCiAgLi4ub3ZlcnJpZGVzLAp9KTsKCmNvbnN0IHN1Y2Nlc3NmdWxQcm9iZSA9ICgKICB0YXJnZXRUeXBlOiBTdGF0aWNQYXRoUHJvYmVUYXJnZXRUeXBlLAogIHBhdGg6IHN0cmluZywKKTogU3RhdGljUGF0aFByb2JlUmVzdWx0ID0+ICh7CiAgYWN0dWFsX3R5cGU6IHRhcmdldFR5cGUsCiAgZXJyb3JfY29kZTogbnVsbCwKICBleGlzdHM6IHRydWUsCiAgbm9ybWFsaXplZF9wYXRoOiBwYXRoLAogIHJlYWRhYmxlOiB0cnVlLAogIHRhcmdldF90eXBlOiB0YXJnZXRUeXBlLAp9KTsKCmNvbnN0IGNyZWF0ZUhhcm5lc3MgPSAoCiAgaW5pdGlhbFRhcmdldFR5cGU6IFN0YXRpY1BhdGhQcm9iZVRhcmdldFR5cGUgPSAiZGlyZWN0b3J5IiwKKSA9PiB7CiAgY29uc3Qgc2NvcGUgPSBlZmZlY3RTY29wZSgpOwogIGNvbnN0IHRhcmdldFR5cGUgPSByZWY8U3RhdGljUGF0aFByb2JlVGFyZ2V0VHlwZSB8IG51bGw+KGluaXRpYWxUYXJnZXRUeXBlKTsKICBjb25zdCBpc0RpYWxvZ09wZW4gPSByZWYodHJ1ZSk7CiAgY29uc3QgdmlldyA9IHJlZjwiYmFzaWMiIHwgInBhdGgtYnJvd3NlciI+KCJiYXNpYyIpOwogIGNvbnN0IGFwcGxpZWRQYXRoczogc3RyaW5nW10gPSBbXTsKICBjb25zdCBicm93c2VyID0gc2NvcGUucnVuKCgpID0+CiAgICB1c2VTdGF0aWNQYXRoQnJvd3Nlcih7CiAgICAgIGFjdGl2ZTogY29tcHV0ZWQoKCkgPT4gdmlldy52YWx1ZSA9PT0gInBhdGgtYnJvd3NlciIpLAogICAgICBhcHBseVBhdGg6IChwYXRoKSA9PiBhcHBsaWVkUGF0aHMucHVzaChwYXRoKSwKICAgICAgY3VycmVudFRhcmdldFR5cGU6IGNvbXB1dGVkKCgpID0+IHRhcmdldFR5cGUudmFsdWUpLAogICAgICBpc0RpYWxvZ09wZW4sCiAgICAgIG9wZW5WaWV3OiAoKSA9PiB7CiAgICAgICAgdmlldy52YWx1ZSA9ICJwYXRoLWJyb3dzZXIiOwogICAgICB9LAogICAgICByZXR1cm5CYXNpY1ZpZXc6ICgpID0+IHsKICAgICAgICB2aWV3LnZhbHVlID0gImJhc2ljIjsKICAgICAgfSwKICAgICAgdHJhbnNsYXRlOiAoa2V5KSA9PiBrZXksCiAgICB9KSwKICApOwogIGlmICghYnJvd3NlcikgdGhyb3cgbmV3IEVycm9yKCJwYXRoIGJyb3dzZXIgaGFybmVzcyBmYWlsZWQiKTsKICByZXR1cm4geyBhcHBsaWVkUGF0aHMsIGJyb3dzZXIsIGlzRGlhbG9nT3Blbiwgc2NvcGUsIHRhcmdldFR5cGUsIHZpZXcgfTsKfTsKCmFmdGVyRWFjaCgoKSA9PiB7CiAgdmkucmVzdG9yZUFsbE1vY2tzKCk7Cn0pOwoKZGVzY3JpYmUoInN0YXRpYyBwYXRoIGJyb3dzZXIiLCAoKSA9PiB7CiAgaXQoInN1Ym1pdHMgdGhlIGVkaXRhYmxlIGFkZHJlc3Mgd2l0aCBFbnRlciBidXQgaWdub3JlcyBJTUUgY29tcG9zaXRpb24iLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBicm93c2UgPSB2aQogICAgICAuc3B5T24oQ29uZmlnQVBJLCAiYnJvd3NlSG9zdE1hcHBpbmdTdGF0aWNQYXRoIikKICAgICAgLm1vY2tSZXNvbHZlZFZhbHVlT25jZShicm93c2VSZXN1bHQoImRpcmVjdG9yeSIpKQogICAgICAubW9ja1Jlc29sdmVkVmFsdWVPbmNlKAogICAgICAgIGJyb3dzZVJlc3VsdCgiZGlyZWN0b3J5IiwgeyBjdXJyZW50X3BhdGg6ICIvc3J2L2RvY3MiIH0pLAogICAgICApOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUhhcm5lc3MoKTsKICAgIGhhcm5lc3MuYnJvd3Nlci5vcGVuUGF0aEJyb3dzZXIoImRpcmVjdG9yeSIsICIvc3J2Iik7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CgogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KFN1YmRvbWFpbk1hcHBpbmdTdGF0aWNQYXRoQnJvd3NlciwgewogICAgICBwcm9wczogeyBlZGl0b3I6IHJlYWN0aXZlKGhhcm5lc3MuYnJvd3NlcikgfSwKICAgICAgZ2xvYmFsOiB7CiAgICAgICAgcGx1Z2luczogWwogICAgICAgICAgY3JlYXRlUGluaWEoKSwKICAgICAgICAgIGNyZWF0ZUkxOG4oewogICAgICAgICAgICBsZWdhY3k6IGZhbHNlLAogICAgICAgICAgICBsb2NhbGU6ICJlbiIsCiAgICAgICAgICAgIG1pc3NpbmdXYXJuOiBmYWxzZSwKICAgICAgICAgICAgZmFsbGJhY2tXYXJuOiBmYWxzZSwKICAgICAgICAgICAgbWVzc2FnZXM6IHsgZW46IHt9IH0sCiAgICAgICAgICB9KSwKICAgICAgICBdLAogICAgICB9LAogICAgfSk7CiAgICBjb25zdCBhZGRyZXNzID0gd3JhcHBlci5nZXQoIiNzdGF0aWMtcGF0aC1icm93c2VyLWFkZHJlc3MiKTsKICAgIGF3YWl0IGFkZHJlc3Muc2V0VmFsdWUoIi9zcnYvZG9jcyIpOwoKICAgIGNvbnN0IGNvbXBvc2luZ0VudGVyID0gbmV3IEtleWJvYXJkRXZlbnQoImtleWRvd24iLCB7CiAgICAgIGJ1YmJsZXM6IHRydWUsCiAgICAgIGNhbmNlbGFibGU6IHRydWUsCiAgICAgIGlzQ29tcG9zaW5nOiB0cnVlLAogICAgICBrZXk6ICJFbnRlciIsCiAgICB9KTsKICAgIGFkZHJlc3MuZWxlbWVudC5kaXNwYXRjaEV2ZW50KGNvbXBvc2luZ0VudGVyKTsKICAgIGV4cGVjdChicm93c2UpLnRvSGF2ZUJlZW5DYWxsZWRUaW1lcygxKTsKICAgIGV4cGVjdChjb21wb3NpbmdFbnRlci5kZWZhdWx0UHJldmVudGVkKS50b0JlKGZhbHNlKTsKCiAgICBjb25zdCBuYXZpZ2F0aW9uRW50ZXIgPSBuZXcgS2V5Ym9hcmRFdmVudCgia2V5ZG93biIsIHsKICAgICAgYnViYmxlczogdHJ1ZSwKICAgICAgY2FuY2VsYWJsZTogdHJ1ZSwKICAgICAga2V5OiAiRW50ZXIiLAogICAgfSk7CiAgICBhZGRyZXNzLmVsZW1lbnQuZGlzcGF0Y2hFdmVudChuYXZpZ2F0aW9uRW50ZXIpOwogICAgYXdhaXQgZmx1c2hQcm9taXNlcygpOwogICAgZXhwZWN0KG5hdmlnYXRpb25FbnRlci5kZWZhdWx0UHJldmVudGVkKS50b0JlKHRydWUpOwogICAgZXhwZWN0KGJyb3dzZSkudG9IYXZlQmVlbk50aENhbGxlZFdpdGgoMiwgImRpcmVjdG9yeSIsICIvc3J2L2RvY3MiLCBudWxsKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIucGF0aERyYWZ0LnZhbHVlKS50b0JlKCIvc3J2L2RvY3MiKTsKCiAgICB3cmFwcGVyLnVubW91bnQoKTsKICAgIGhhcm5lc3Muc2NvcGUuc3RvcCgpOwogIH0pOwoKICBpdCgibmF2aWdhdGVzIGFuIGVkaXRlZCBwYXRoIGV4YWN0bHkgYW5kIGtlZXBzIGZhaWxlZCBpbnB1dCBhdmFpbGFibGUgZm9yIGNvcnJlY3Rpb24iLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCByZXF1ZXN0ZWRQYXRoID0gIi9zcnYvbWlzc2luZyAiOwogICAgY29uc3QgYnJvd3NlID0gdmkKICAgICAgLnNweU9uKENvbmZpZ0FQSSwgImJyb3dzZUhvc3RNYXBwaW5nU3RhdGljUGF0aCIpCiAgICAgIC5tb2NrUmVzb2x2ZWRWYWx1ZU9uY2UoYnJvd3NlUmVzdWx0KCJkaXJlY3RvcnkiKSkKICAgICAgLm1vY2tSZXNvbHZlZFZhbHVlT25jZSgKICAgICAgICBicm93c2VSZXN1bHQoImRpcmVjdG9yeSIsIHsKICAgICAgICAgIGJyZWFkY3J1bWJzOiBbXSwKICAgICAgICAgIGN1cnJlbnRfcGF0aDogbnVsbCwKICAgICAgICAgIGN1cnJlbnRfc2VsZWN0YWJsZTogZmFsc2UsCiAgICAgICAgICBlcnJvcl9jb2RlOiAibm90X2ZvdW5kIiwKICAgICAgICAgIHBhcmVudF9wYXRoOiBudWxsLAogICAgICAgIH0pLAogICAgICApOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUhhcm5lc3MoKTsKCiAgICBoYXJuZXNzLmJyb3dzZXIub3BlblBhdGhCcm93c2VyKCJkaXJlY3RvcnkiLCAiL3NydiIpOwogICAgYXdhaXQgZmx1c2hQcm9taXNlcygpOwogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5wYXRoRHJhZnQudmFsdWUpLnRvQmUoIi9zcnYiKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIuY2FuQ29uZmlybS52YWx1ZSkudG9CZSh0cnVlKTsKCiAgICBoYXJuZXNzLmJyb3dzZXIudXBkYXRlUGF0aERyYWZ0KHJlcXVlc3RlZFBhdGgpOwogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5jYW5Db25maXJtLnZhbHVlKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIuc2VsZWN0aW9uUGF0aC52YWx1ZSkudG9CZU51bGwoKTsKICAgIGF3YWl0IGhhcm5lc3MuYnJvd3Nlci5uYXZpZ2F0ZVRvUGF0aCgpOwoKICAgIGV4cGVjdChicm93c2UpLnRvSGF2ZUJlZW5OdGhDYWxsZWRXaXRoKDIsICJkaXJlY3RvcnkiLCByZXF1ZXN0ZWRQYXRoLCBudWxsKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIucGF0aERyYWZ0LnZhbHVlKS50b0JlKHJlcXVlc3RlZFBhdGgpOwogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5sb2FkRXJyb3IudmFsdWUpLnRvQmUoCiAgICAgICJhZG1pbi5zdWJkb21haW5Qcm94eS5zdGF0aWNTZXJ2ZS5icm93c2VyLmVycm9ycy5ub3RfZm91bmQiLAogICAgKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIuY2FuQ29uZmlybS52YWx1ZSkudG9CZShmYWxzZSk7CiAgICBoYXJuZXNzLnNjb3BlLnN0b3AoKTsKICB9KTsKCiAgaXQoIm9wZW5zIGEgZmlsZSBwYXRoIGluIGl0cyBwYXJlbnQgZm9sZGVyIGFuZCBzZWxlY3RzIGl0IG91dHNpZGUgdGhlIGN1cnJlbnQgcGFnZSIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHNlbGVjdGVkRmlsZSA9ICIvc3J2L21hbnVhbC5wZGYiOwogICAgdmkuc3B5T24oQ29uZmlnQVBJLCAiYnJvd3NlSG9zdE1hcHBpbmdTdGF0aWNQYXRoIikubW9ja1Jlc29sdmVkVmFsdWUoCiAgICAgIGJyb3dzZVJlc3VsdCgiZmlsZSIsIHsKICAgICAgICBjdXJyZW50X3BhdGg6ICIvc3J2IiwKICAgICAgICBlbnRyaWVzOiBbXSwKICAgICAgICBzZWxlY3RlZF9wYXRoOiBzZWxlY3RlZEZpbGUsCiAgICAgIH0pLAogICAgKTsKICAgIGNvbnN0IGhhcm5lc3MgPSBjcmVhdGVIYXJuZXNzKCJmaWxlIik7CgogICAgaGFybmVzcy5icm93c2VyLm9wZW5QYXRoQnJvd3NlcigiZmlsZSIsIHNlbGVjdGVkRmlsZSk7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CgogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5wYXRoRHJhZnQudmFsdWUpLnRvQmUoIi9zcnYiKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIuc2VsZWN0ZWRQYXRoLnZhbHVlKS50b0JlKHNlbGVjdGVkRmlsZSk7CiAgICBleHBlY3QoaGFybmVzcy5icm93c2VyLnNlbGVjdGlvblBhdGgudmFsdWUpLnRvQmUoc2VsZWN0ZWRGaWxlKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIuY2FuQ29uZmlybS52YWx1ZSkudG9CZSh0cnVlKTsKCiAgICBoYXJuZXNzLmJyb3dzZXIudXBkYXRlUGF0aERyYWZ0KCIvc3J2L2Fub3RoZXItZmlsZS5wZGYiKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIuc2VsZWN0ZWRQYXRoLnZhbHVlKS50b0JlKHNlbGVjdGVkRmlsZSk7CiAgICBleHBlY3QoaGFybmVzcy5icm93c2VyLnNlbGVjdGlvblBhdGgudmFsdWUpLnRvQmVOdWxsKCk7CiAgICBleHBlY3QoaGFybmVzcy5icm93c2VyLmNhbkNvbmZpcm0udmFsdWUpLnRvQmUoZmFsc2UpOwogICAgaGFybmVzcy5zY29wZS5zdG9wKCk7CiAgfSk7CgogIGl0KCJpZ25vcmVzIGEgc2xvd2VyIEVudGVyIG5hdmlnYXRpb24gYWZ0ZXIgYSBuZXdlciBlZGl0ZWQgcGF0aCB3aW5zIiwgYXN5bmMgKCkgPT4gewogICAgbGV0IHJlc29sdmVTbG93ITogKHZhbHVlOiBTdGF0aWNQYXRoQnJvd3NlUmVzdWx0KSA9PiB2b2lkOwogICAgbGV0IHJlc29sdmVGYXN0ITogKHZhbHVlOiBTdGF0aWNQYXRoQnJvd3NlUmVzdWx0KSA9PiB2b2lkOwogICAgY29uc3QgYnJvd3NlID0gdmkKICAgICAgLnNweU9uKENvbmZpZ0FQSSwgImJyb3dzZUhvc3RNYXBwaW5nU3RhdGljUGF0aCIpCiAgICAgIC5tb2NrUmVzb2x2ZWRWYWx1ZU9uY2UoYnJvd3NlUmVzdWx0KCJkaXJlY3RvcnkiKSkKICAgICAgLm1vY2tSZXR1cm5WYWx1ZU9uY2UoCiAgICAgICAgbmV3IFByb21pc2U8U3RhdGljUGF0aEJyb3dzZVJlc3VsdD4oKHJlc29sdmUpID0+IHsKICAgICAgICAgIHJlc29sdmVTbG93ID0gcmVzb2x2ZTsKICAgICAgICB9KSwKICAgICAgKQogICAgICAubW9ja1JldHVyblZhbHVlT25jZSgKICAgICAgICBuZXcgUHJvbWlzZTxTdGF0aWNQYXRoQnJvd3NlUmVzdWx0PigocmVzb2x2ZSkgPT4gewogICAgICAgICAgcmVzb2x2ZUZhc3QgPSByZXNvbHZlOwogICAgICAgIH0pLAogICAgICApOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUhhcm5lc3MoKTsKCiAgICBoYXJuZXNzLmJyb3dzZXIub3BlblBhdGhCcm93c2VyKCJkaXJlY3RvcnkiLCAiL3NydiIpOwogICAgYXdhaXQgZmx1c2hQcm9taXNlcygpOwogICAgaGFybmVzcy5icm93c2VyLnVwZGF0ZVBhdGhEcmFmdCgiL3Nydi9zbG93Iik7CiAgICBjb25zdCBzbG93TmF2aWdhdGlvbiA9IGhhcm5lc3MuYnJvd3Nlci5uYXZpZ2F0ZVRvUGF0aCgpOwogICAgaGFybmVzcy5icm93c2VyLnVwZGF0ZVBhdGhEcmFmdCgiL3Nydi9mYXN0Iik7CiAgICBjb25zdCBmYXN0TmF2aWdhdGlvbiA9IGhhcm5lc3MuYnJvd3Nlci5uYXZpZ2F0ZVRvUGF0aCgpOwoKICAgIHJlc29sdmVGYXN0KAogICAgICBicm93c2VSZXN1bHQoImRpcmVjdG9yeSIsIHsKICAgICAgICBjdXJyZW50X3BhdGg6ICIvc3J2L2Zhc3QiLAogICAgICB9KSwKICAgICk7CiAgICBhd2FpdCBmYXN0TmF2aWdhdGlvbjsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIuY3VycmVudFBhdGgudmFsdWUpLnRvQmUoIi9zcnYvZmFzdCIpOwogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5wYXRoRHJhZnQudmFsdWUpLnRvQmUoIi9zcnYvZmFzdCIpOwoKICAgIHJlc29sdmVTbG93KAogICAgICBicm93c2VSZXN1bHQoImRpcmVjdG9yeSIsIHsKICAgICAgICBjdXJyZW50X3BhdGg6ICIvc3J2L3Nsb3ciLAogICAgICB9KSwKICAgICk7CiAgICBhd2FpdCBzbG93TmF2aWdhdGlvbjsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIuY3VycmVudFBhdGgudmFsdWUpLnRvQmUoIi9zcnYvZmFzdCIpOwogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5wYXRoRHJhZnQudmFsdWUpLnRvQmUoIi9zcnYvZmFzdCIpOwogICAgZXhwZWN0KGJyb3dzZSkudG9IYXZlQmVlbk50aENhbGxlZFdpdGgoMiwgImRpcmVjdG9yeSIsICIvc3J2L3Nsb3ciLCBudWxsKTsKICAgIGV4cGVjdChicm93c2UpLnRvSGF2ZUJlZW5OdGhDYWxsZWRXaXRoKDMsICJkaXJlY3RvcnkiLCAiL3Nydi9mYXN0IiwgbnVsbCk7CiAgICBoYXJuZXNzLnNjb3BlLnN0b3AoKTsKICB9KTsKCiAgaXQoImtlZXBzIHRoZSBsYXN0IHN1Y2Nlc3NmdWwgbGlzdGluZyB3aGVuIGFuIGluLWZsaWdodCBicm93c2UgaXMgcmVwbGFjZWQgYnkgZWRpdGluZyIsIGFzeW5jICgpID0+IHsKICAgIGxldCByZXNvbHZlQnJvd3NlITogKHZhbHVlOiBTdGF0aWNQYXRoQnJvd3NlUmVzdWx0KSA9PiB2b2lkOwogICAgY29uc3QgYnJvd3NlID0gdmkKICAgICAgLnNweU9uKENvbmZpZ0FQSSwgImJyb3dzZUhvc3RNYXBwaW5nU3RhdGljUGF0aCIpCiAgICAgIC5tb2NrUmVzb2x2ZWRWYWx1ZU9uY2UoYnJvd3NlUmVzdWx0KCJkaXJlY3RvcnkiKSkKICAgICAgLm1vY2tSZXR1cm5WYWx1ZU9uY2UoCiAgICAgICAgbmV3IFByb21pc2U8U3RhdGljUGF0aEJyb3dzZVJlc3VsdD4oKHJlc29sdmUpID0+IHsKICAgICAgICAgIHJlc29sdmVCcm93c2UgPSByZXNvbHZlOwogICAgICAgIH0pLAogICAgICApOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUhhcm5lc3MoKTsKCiAgICBoYXJuZXNzLmJyb3dzZXIub3BlblBhdGhCcm93c2VyKCJkaXJlY3RvcnkiLCAiL3NydiIpOwogICAgYXdhaXQgZmx1c2hQcm9taXNlcygpOwogICAgaGFybmVzcy5icm93c2VyLnVwZGF0ZVBhdGhEcmFmdCgiL3Nydi9zbG93Iik7CiAgICBjb25zdCBuYXZpZ2F0aW9uID0gaGFybmVzcy5icm93c2VyLm5hdmlnYXRlVG9QYXRoKCk7CiAgICBleHBlY3QoaGFybmVzcy5icm93c2VyLmlzTG9hZGluZy52YWx1ZSkudG9CZSh0cnVlKTsKCiAgICBoYXJuZXNzLmJyb3dzZXIudXBkYXRlUGF0aERyYWZ0KCIvc3J2L25ldy1kcmFmdCIpOwogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5pc0xvYWRpbmcudmFsdWUpLnRvQmUoZmFsc2UpOwogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5sb2FkRXJyb3IudmFsdWUpLnRvQmUoIiIpOwogICAgcmVzb2x2ZUJyb3dzZSgKICAgICAgYnJvd3NlUmVzdWx0KCJkaXJlY3RvcnkiLCB7CiAgICAgICAgYnJlYWRjcnVtYnM6IFtdLAogICAgICAgIGN1cnJlbnRfcGF0aDogbnVsbCwKICAgICAgICBjdXJyZW50X3NlbGVjdGFibGU6IGZhbHNlLAogICAgICAgIGVycm9yX2NvZGU6ICJub3RfZm91bmQiLAogICAgICAgIHBhcmVudF9wYXRoOiBudWxsLAogICAgICB9KSwKICAgICk7CiAgICBhd2FpdCBuYXZpZ2F0aW9uOwoKICAgIGV4cGVjdChicm93c2UpLnRvSGF2ZUJlZW5OdGhDYWxsZWRXaXRoKDIsICJkaXJlY3RvcnkiLCAiL3Nydi9zbG93IiwgbnVsbCk7CiAgICBleHBlY3QoaGFybmVzcy5icm93c2VyLmN1cnJlbnRQYXRoLnZhbHVlKS50b0JlKCIvc3J2Iik7CiAgICBleHBlY3QoaGFybmVzcy5icm93c2VyLnBhdGhEcmFmdC52YWx1ZSkudG9CZSgiL3Nydi9uZXctZHJhZnQiKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIubG9hZEVycm9yLnZhbHVlKS50b0JlKCIiKTsKICAgIGhhcm5lc3Muc2NvcGUuc3RvcCgpOwogIH0pOwoKICBpdCgic2VsZWN0cyB0aGUgY3VycmVudCBkaXJlY3Rvcnkgb25seSBhZnRlciBhIHN1Y2Nlc3NmdWwgcGF0aCBwcm9iZSIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGJyb3dzZSA9IHZpCiAgICAgIC5zcHlPbihDb25maWdBUEksICJicm93c2VIb3N0TWFwcGluZ1N0YXRpY1BhdGgiKQogICAgICAubW9ja1Jlc29sdmVkVmFsdWUoCiAgICAgICAgYnJvd3NlUmVzdWx0KCJkaXJlY3RvcnkiLCB7CiAgICAgICAgICBjdXJyZW50X3BhdGg6ICIvc3J2L2RvY3MiLAogICAgICAgICAgY3VycmVudF9zZWxlY3RhYmxlOiB0cnVlLAogICAgICAgIH0pLAogICAgICApOwogICAgY29uc3QgcHJvYmUgPSB2aQogICAgICAuc3B5T24oQ29uZmlnQVBJLCAicHJvYmVIb3N0TWFwcGluZ1N0YXRpY1BhdGgiKQogICAgICAubW9ja1Jlc29sdmVkVmFsdWUoc3VjY2Vzc2Z1bFByb2JlKCJkaXJlY3RvcnkiLCAiL3Nydi9kb2NzIikpOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUhhcm5lc3MoKTsKCiAgICBoYXJuZXNzLmJyb3dzZXIub3BlblBhdGhCcm93c2VyKCJkaXJlY3RvcnkiLCAiL3Nydi9kb2NzIik7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CgogICAgZXhwZWN0KGJyb3dzZSkudG9IYXZlQmVlbkNhbGxlZFdpdGgoImRpcmVjdG9yeSIsICIvc3J2L2RvY3MiLCBudWxsKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIuc2VsZWN0aW9uUGF0aC52YWx1ZSkudG9CZSgiL3Nydi9kb2NzIik7CiAgICBleHBlY3QoaGFybmVzcy5hcHBsaWVkUGF0aHMpLnRvRXF1YWwoW10pOwoKICAgIGF3YWl0IGhhcm5lc3MuYnJvd3Nlci5jb25maXJtU2VsZWN0aW9uKCk7CgogICAgZXhwZWN0KHByb2JlKS50b0hhdmVCZWVuQ2FsbGVkV2l0aCgiZGlyZWN0b3J5IiwgIi9zcnYvZG9jcyIpOwogICAgZXhwZWN0KGhhcm5lc3MuYXBwbGllZFBhdGhzKS50b0VxdWFsKFsiL3Nydi9kb2NzIl0pOwogICAgZXhwZWN0KGhhcm5lc3Mudmlldy52YWx1ZSkudG9CZSgiYmFzaWMiKTsKICAgIGhhcm5lc3Muc2NvcGUuc3RvcCgpOwogIH0pOwoKICBpdCgic2VsZWN0cyBmaWxlcywgbmF2aWdhdGVzIGZvbGRlcnMsIGFuZCBiaW5kcyBjdXJzb3IgcmVxdWVzdHMgdG8gdGhlIGN1cnJlbnQgcGF0aCIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IG1hbnVhbCA9IGZpbGVFbnRyeSgiL3Nydi9tYW51YWwucGRmIik7CiAgICBjb25zdCBkb2NzID0gZGlyZWN0b3J5RW50cnkoIi9zcnYvZG9jcyIsICJkb2NzIik7CiAgICBjb25zdCBicm93c2UgPSB2aQogICAgICAuc3B5T24oQ29uZmlnQVBJLCAiYnJvd3NlSG9zdE1hcHBpbmdTdGF0aWNQYXRoIikKICAgICAgLm1vY2tSZXNvbHZlZFZhbHVlT25jZSgKICAgICAgICBicm93c2VSZXN1bHQoImZpbGUiLCB7CiAgICAgICAgICBlbnRyaWVzOiBbZG9jcywgbWFudWFsXSwKICAgICAgICAgIG5leHRfY3Vyc29yOiAibmV4dC1wYWdlIiwKICAgICAgICB9KSwKICAgICAgKQogICAgICAubW9ja1Jlc29sdmVkVmFsdWVPbmNlKAogICAgICAgIGJyb3dzZVJlc3VsdCgiZmlsZSIsIHsKICAgICAgICAgIGN1cnJlbnRfcGF0aDogIi9zcnYiLAogICAgICAgICAgcHJldmlvdXNfY3Vyc29yOiAicHJldmlvdXMtcGFnZSIsCiAgICAgICAgfSksCiAgICAgICkKICAgICAgLm1vY2tSZXNvbHZlZFZhbHVlT25jZSgKICAgICAgICBicm93c2VSZXN1bHQoImZpbGUiLCB7IGN1cnJlbnRfcGF0aDogIi9zcnYvZG9jcyIgfSksCiAgICAgICk7CiAgICBjb25zdCBoYXJuZXNzID0gY3JlYXRlSGFybmVzcygiZmlsZSIpOwoKICAgIGhhcm5lc3MuYnJvd3Nlci5vcGVuUGF0aEJyb3dzZXIoImZpbGUiLCAiIik7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICBoYXJuZXNzLmJyb3dzZXIuYWN0aXZhdGVFbnRyeShtYW51YWwpOwogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5zZWxlY3RlZFBhdGgudmFsdWUpLnRvQmUoIi9zcnYvbWFudWFsLnBkZiIpOwoKICAgIGhhcm5lc3MuYnJvd3Nlci5sb2FkTmV4dFBhZ2UoKTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgIGV4cGVjdChicm93c2UpLnRvSGF2ZUJlZW5OdGhDYWxsZWRXaXRoKDIsICJmaWxlIiwgIi9zcnYiLCAibmV4dC1wYWdlIik7CiAgICBleHBlY3QoaGFybmVzcy5icm93c2VyLnNlbGVjdGVkUGF0aC52YWx1ZSkudG9CZSgiL3Nydi9tYW51YWwucGRmIik7CgogICAgaGFybmVzcy5icm93c2VyLmFjdGl2YXRlRW50cnkoZG9jcyk7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICBleHBlY3QoYnJvd3NlKS50b0hhdmVCZWVuTnRoQ2FsbGVkV2l0aCgzLCAiZmlsZSIsICIvc3J2L2RvY3MiLCBudWxsKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIuc2VsZWN0ZWRQYXRoLnZhbHVlKS50b0JlTnVsbCgpOwogICAgaGFybmVzcy5zY29wZS5zdG9wKCk7CiAgfSk7CgogIGl0KCJpZ25vcmVzIHN0YWxlIG5hdmlnYXRpb24gcmVzcG9uc2VzIGFuZCBjYW5jZWxzIHdoZW4gdGhlIHRhcmdldCB0eXBlIGNoYW5nZXMiLCBhc3luYyAoKSA9PiB7CiAgICBsZXQgcmVzb2x2ZUluaXRpYWwhOiAodmFsdWU6IFN0YXRpY1BhdGhCcm93c2VSZXN1bHQpID0+IHZvaWQ7CiAgICBjb25zdCBpbml0aWFsID0gbmV3IFByb21pc2U8U3RhdGljUGF0aEJyb3dzZVJlc3VsdD4oKHJlc29sdmUpID0+IHsKICAgICAgcmVzb2x2ZUluaXRpYWwgPSByZXNvbHZlOwogICAgfSk7CiAgICB2aS5zcHlPbihDb25maWdBUEksICJicm93c2VIb3N0TWFwcGluZ1N0YXRpY1BhdGgiKQogICAgICAubW9ja1JldHVyblZhbHVlT25jZShpbml0aWFsKQogICAgICAubW9ja1Jlc29sdmVkVmFsdWVPbmNlKAogICAgICAgIGJyb3dzZVJlc3VsdCgiZGlyZWN0b3J5IiwgeyBjdXJyZW50X3BhdGg6ICIvbmV3ZXIiIH0pLAogICAgICApOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUhhcm5lc3MoKTsKCiAgICBoYXJuZXNzLmJyb3dzZXIub3BlblBhdGhCcm93c2VyKCJkaXJlY3RvcnkiLCAiL29sZGVyIik7CiAgICBhd2FpdCBoYXJuZXNzLmJyb3dzZXIubmF2aWdhdGVSb290KCk7CiAgICBleHBlY3QoaGFybmVzcy5icm93c2VyLmN1cnJlbnRQYXRoLnZhbHVlKS50b0JlKCIvbmV3ZXIiKTsKCiAgICByZXNvbHZlSW5pdGlhbCgKICAgICAgYnJvd3NlUmVzdWx0KCJkaXJlY3RvcnkiLCB7IGN1cnJlbnRfcGF0aDogIi9zdGFsZS1yZXNwb25zZSIgfSksCiAgICApOwogICAgYXdhaXQgZmx1c2hQcm9taXNlcygpOwogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5jdXJyZW50UGF0aC52YWx1ZSkudG9CZSgiL25ld2VyIik7CgogICAgaGFybmVzcy50YXJnZXRUeXBlLnZhbHVlID0gImZpbGUiOwogICAgYXdhaXQgbmV4dFRpY2soKTsKICAgIGV4cGVjdChoYXJuZXNzLnZpZXcudmFsdWUpLnRvQmUoImJhc2ljIik7CiAgICBleHBlY3QoaGFybmVzcy5icm93c2VyLnJlc3VsdC52YWx1ZSkudG9CZU51bGwoKTsKICAgIGhhcm5lc3Muc2NvcGUuc3RvcCgpOwogIH0pOwoKICBpdCgidHJlYXRzIGFuIGVtcHR5IFdpbmRvd3MgZHJpdmUgcGFyZW50IGFzIHRoZSB2aXJ0dWFsIHJvb3QiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBicm93c2UgPSB2aQogICAgICAuc3B5T24oQ29uZmlnQVBJLCAiYnJvd3NlSG9zdE1hcHBpbmdTdGF0aWNQYXRoIikKICAgICAgLm1vY2tSZXNvbHZlZFZhbHVlT25jZSgKICAgICAgICBicm93c2VSZXN1bHQoImRpcmVjdG9yeSIsIHsKICAgICAgICAgIGN1cnJlbnRfcGF0aDogIkM6XFwiLAogICAgICAgICAgcGFyZW50X3BhdGg6ICIiLAogICAgICAgICAgcGxhdGZvcm06ICJ3aW5kb3dzIiwKICAgICAgICB9KSwKICAgICAgKQogICAgICAubW9ja1Jlc29sdmVkVmFsdWVPbmNlKAogICAgICAgIGJyb3dzZVJlc3VsdCgiZGlyZWN0b3J5IiwgewogICAgICAgICAgYnJlYWRjcnVtYnM6IFtdLAogICAgICAgICAgY3VycmVudF9wYXRoOiBudWxsLAogICAgICAgICAgY3VycmVudF9zZWxlY3RhYmxlOiBmYWxzZSwKICAgICAgICAgIHBhcmVudF9wYXRoOiBudWxsLAogICAgICAgICAgcGxhdGZvcm06ICJ3aW5kb3dzIiwKICAgICAgICB9KSwKICAgICAgKTsKICAgIGNvbnN0IGhhcm5lc3MgPSBjcmVhdGVIYXJuZXNzKCk7CgogICAgaGFybmVzcy5icm93c2VyLm9wZW5QYXRoQnJvd3NlcigiZGlyZWN0b3J5IiwgIkM6XFwiKTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIucGFyZW50UGF0aC52YWx1ZSkudG9CZSgiIik7CgogICAgaGFybmVzcy5icm93c2VyLm5hdmlnYXRlUGFyZW50KCk7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICBleHBlY3QoYnJvd3NlKS50b0hhdmVCZWVuTnRoQ2FsbGVkV2l0aCgyLCAiZGlyZWN0b3J5IiwgIiIsIG51bGwpOwogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5jdXJyZW50UGF0aC52YWx1ZSkudG9CZU51bGwoKTsKICAgIGhhcm5lc3Muc2NvcGUuc3RvcCgpOwogIH0pOwoKICBpdCgiZHJvcHMgYW4gaW4tZmxpZ2h0IHJlc3BvbnNlIGFmdGVyIHRoZSBtYXBwaW5nIGRpYWxvZyBjbG9zZXMiLCBhc3luYyAoKSA9PiB7CiAgICBsZXQgcmVzb2x2ZUJyb3dzZSE6ICh2YWx1ZTogU3RhdGljUGF0aEJyb3dzZVJlc3VsdCkgPT4gdm9pZDsKICAgIHZpLnNweU9uKENvbmZpZ0FQSSwgImJyb3dzZUhvc3RNYXBwaW5nU3RhdGljUGF0aCIpLm1vY2tSZXR1cm5WYWx1ZSgKICAgICAgbmV3IFByb21pc2U8U3RhdGljUGF0aEJyb3dzZVJlc3VsdD4oKHJlc29sdmUpID0+IHsKICAgICAgICByZXNvbHZlQnJvd3NlID0gcmVzb2x2ZTsKICAgICAgfSksCiAgICApOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUhhcm5lc3MoKTsKCiAgICBoYXJuZXNzLmJyb3dzZXIub3BlblBhdGhCcm93c2VyKCJkaXJlY3RvcnkiLCAiL3Nydi9zbG93Iik7CiAgICBoYXJuZXNzLmlzRGlhbG9nT3Blbi52YWx1ZSA9IGZhbHNlOwogICAgYXdhaXQgbmV4dFRpY2soKTsKICAgIHJlc29sdmVCcm93c2UoCiAgICAgIGJyb3dzZVJlc3VsdCgiZGlyZWN0b3J5IiwgeyBjdXJyZW50X3BhdGg6ICIvc3J2L3N0YWxlLWFmdGVyLWNsb3NlIiB9KSwKICAgICk7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CgogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5yZXN1bHQudmFsdWUpLnRvQmVOdWxsKCk7CiAgICBleHBlY3QoaGFybmVzcy5icm93c2VyLmlzTG9hZGluZy52YWx1ZSkudG9CZShmYWxzZSk7CiAgICBoYXJuZXNzLnNjb3BlLnN0b3AoKTsKICB9KTsKCiAgaXQoInN1cmZhY2VzIHN0YWJsZSBicm93c2UgZXJyb3JzIHdpdGhvdXQgbWFraW5nIGEgcGF0aCBzZWxlY3RhYmxlIiwgYXN5bmMgKCkgPT4gewogICAgdmkuc3B5T24oQ29uZmlnQVBJLCAiYnJvd3NlSG9zdE1hcHBpbmdTdGF0aWNQYXRoIikubW9ja1Jlc29sdmVkVmFsdWUoCiAgICAgIGJyb3dzZVJlc3VsdCgiZGlyZWN0b3J5IiwgewogICAgICAgIGN1cnJlbnRfcGF0aDogIi9vdmVyc2l6ZWQiLAogICAgICAgIGN1cnJlbnRfc2VsZWN0YWJsZTogZmFsc2UsCiAgICAgICAgZXJyb3JfY29kZTogImRpcmVjdG9yeV90b29fbGFyZ2UiLAogICAgICB9KSwKICAgICk7CiAgICBjb25zdCBoYXJuZXNzID0gY3JlYXRlSGFybmVzcygpOwoKICAgIGhhcm5lc3MuYnJvd3Nlci5vcGVuUGF0aEJyb3dzZXIoImRpcmVjdG9yeSIsICIvb3ZlcnNpemVkIik7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CgogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5jYW5Db25maXJtLnZhbHVlKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIubG9hZEVycm9yLnZhbHVlKS50b0JlKAogICAgICAiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUuYnJvd3Nlci5lcnJvcnMuZGlyZWN0b3J5X3Rvb19sYXJnZSIsCiAgICApOwogICAgaGFybmVzcy5zY29wZS5zdG9wKCk7CiAgfSk7CgogIGl0KCJrZWVwcyB0aGUgbWFwcGluZyBkcmFmdCB1bmNoYW5nZWQgd2hlbiB0aGUgY29uZmlybWF0aW9uIHByb2JlIGZhaWxzIiwgYXN5bmMgKCkgPT4gewogICAgdmkuc3B5T24oQ29uZmlnQVBJLCAiYnJvd3NlSG9zdE1hcHBpbmdTdGF0aWNQYXRoIikubW9ja1Jlc29sdmVkVmFsdWUoCiAgICAgIGJyb3dzZVJlc3VsdCgiZmlsZSIsIHsKICAgICAgICBlbnRyaWVzOiBbZmlsZUVudHJ5KCIvc3J2L21hbnVhbC5wZGYiKV0sCiAgICAgIH0pLAogICAgKTsKICAgIHZpLnNweU9uKENvbmZpZ0FQSSwgInByb2JlSG9zdE1hcHBpbmdTdGF0aWNQYXRoIikubW9ja1Jlc29sdmVkVmFsdWUoewogICAgICBhY3R1YWxfdHlwZTogbnVsbCwKICAgICAgZXJyb3JfY29kZTogIm5vdF9mb3VuZCIsCiAgICAgIGV4aXN0czogZmFsc2UsCiAgICAgIG5vcm1hbGl6ZWRfcGF0aDogIiIsCiAgICAgIHJlYWRhYmxlOiBmYWxzZSwKICAgICAgdGFyZ2V0X3R5cGU6ICJmaWxlIiwKICAgIH0pOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUhhcm5lc3MoImZpbGUiKTsKCiAgICBoYXJuZXNzLmJyb3dzZXIub3BlblBhdGhCcm93c2VyKCJmaWxlIiwgIiIpOwogICAgYXdhaXQgZmx1c2hQcm9taXNlcygpOwogICAgaGFybmVzcy5icm93c2VyLmFjdGl2YXRlRW50cnkoZmlsZUVudHJ5KCIvc3J2L21hbnVhbC5wZGYiKSk7CiAgICBhd2FpdCBoYXJuZXNzLmJyb3dzZXIuY29uZmlybVNlbGVjdGlvbigpOwoKICAgIGV4cGVjdChoYXJuZXNzLmFwcGxpZWRQYXRocykudG9FcXVhbChbXSk7CiAgICBleHBlY3QoaGFybmVzcy52aWV3LnZhbHVlKS50b0JlKCJwYXRoLWJyb3dzZXIiKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIuY29uZmlybUVycm9yLnZhbHVlKS50b0JlKAogICAgICAiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUucHJvYmVFcnJvcnMubm90X2ZvdW5kIiwKICAgICk7CiAgICBoYXJuZXNzLnNjb3BlLnN0b3AoKTsKICB9KTsKCiAgaXQoInByZXNlcnZlcyBQT1NJWCB0cmFpbGluZyBzcGFjZXMgYW5kIHJlamVjdHMgYSBwcm9iZSByZXBsYWNlbWVudCBwYXRoIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgc2VsZWN0ZWQgPSAiL3Nydi9wdWJsaWMgIjsKICAgIGNvbnN0IGFkamFjZW50ID0gIi9zcnYvcHVibGljIjsKICAgIGNvbnN0IGJyb3dzZSA9IHZpCiAgICAgIC5zcHlPbihDb25maWdBUEksICJicm93c2VIb3N0TWFwcGluZ1N0YXRpY1BhdGgiKQogICAgICAubW9ja1Jlc29sdmVkVmFsdWUoCiAgICAgICAgYnJvd3NlUmVzdWx0KCJkaXJlY3RvcnkiLCB7CiAgICAgICAgICBjdXJyZW50X3BhdGg6IHNlbGVjdGVkLAogICAgICAgICAgY3VycmVudF9zZWxlY3RhYmxlOiB0cnVlLAogICAgICAgIH0pLAogICAgICApOwogICAgY29uc3QgcHJvYmUgPSB2aQogICAgICAuc3B5T24oQ29uZmlnQVBJLCAicHJvYmVIb3N0TWFwcGluZ1N0YXRpY1BhdGgiKQogICAgICAubW9ja1Jlc29sdmVkVmFsdWUoc3VjY2Vzc2Z1bFByb2JlKCJkaXJlY3RvcnkiLCBhZGphY2VudCkpOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUhhcm5lc3MoKTsKCiAgICBoYXJuZXNzLmJyb3dzZXIub3BlblBhdGhCcm93c2VyKCJkaXJlY3RvcnkiLCBzZWxlY3RlZCk7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CgogICAgZXhwZWN0KGJyb3dzZSkudG9IYXZlQmVlbkNhbGxlZFdpdGgoImRpcmVjdG9yeSIsIHNlbGVjdGVkLCBudWxsKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIuc2VsZWN0aW9uUGF0aC52YWx1ZSkudG9CZShzZWxlY3RlZCk7CgogICAgYXdhaXQgaGFybmVzcy5icm93c2VyLmNvbmZpcm1TZWxlY3Rpb24oKTsKCiAgICBleHBlY3QocHJvYmUpLnRvSGF2ZUJlZW5DYWxsZWRXaXRoKCJkaXJlY3RvcnkiLCBzZWxlY3RlZCk7CiAgICBleHBlY3QoaGFybmVzcy5hcHBsaWVkUGF0aHMpLnRvRXF1YWwoW10pOwogICAgZXhwZWN0KGhhcm5lc3Mudmlldy52YWx1ZSkudG9CZSgicGF0aC1icm93c2VyIik7CiAgICBleHBlY3QoaGFybmVzcy5icm93c2VyLmNvbmZpcm1FcnJvci52YWx1ZSkudG9CZSgKICAgICAgImFkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLmJyb3dzZXIuZXJyb3JzLmludmFsaWRfcmVzcG9uc2UiLAogICAgKTsKICAgIGhhcm5lc3Muc2NvcGUuc3RvcCgpOwogIH0pOwoKICBpdCgiaWdub3JlcyBhIGNvbmZpcm1hdGlvbiBwcm9iZSBhZnRlciBuYXZpZ2F0aW5nIHRvIGFub3RoZXIgZGlyZWN0b3J5IiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgbWFudWFsID0gZmlsZUVudHJ5KCIvc3J2L21hbnVhbC5wZGYiKTsKICAgIGNvbnN0IGRvY3MgPSBkaXJlY3RvcnlFbnRyeSgiL3Nydi9kb2NzIiwgImRvY3MiKTsKICAgIHZpLnNweU9uKENvbmZpZ0FQSSwgImJyb3dzZUhvc3RNYXBwaW5nU3RhdGljUGF0aCIpCiAgICAgIC5tb2NrUmVzb2x2ZWRWYWx1ZU9uY2UoCiAgICAgICAgYnJvd3NlUmVzdWx0KCJmaWxlIiwgewogICAgICAgICAgZW50cmllczogW2RvY3MsIG1hbnVhbF0sCiAgICAgICAgfSksCiAgICAgICkKICAgICAgLm1vY2tSZXNvbHZlZFZhbHVlT25jZSgKICAgICAgICBicm93c2VSZXN1bHQoImZpbGUiLCB7IGN1cnJlbnRfcGF0aDogIi9zcnYvZG9jcyIgfSksCiAgICAgICk7CiAgICBsZXQgcmVzb2x2ZVByb2JlITogKHZhbHVlOiBTdGF0aWNQYXRoUHJvYmVSZXN1bHQpID0+IHZvaWQ7CiAgICB2aS5zcHlPbihDb25maWdBUEksICJwcm9iZUhvc3RNYXBwaW5nU3RhdGljUGF0aCIpLm1vY2tSZXR1cm5WYWx1ZSgKICAgICAgbmV3IFByb21pc2U8U3RhdGljUGF0aFByb2JlUmVzdWx0PigocmVzb2x2ZSkgPT4gewogICAgICAgIHJlc29sdmVQcm9iZSA9IHJlc29sdmU7CiAgICAgIH0pLAogICAgKTsKICAgIGNvbnN0IGhhcm5lc3MgPSBjcmVhdGVIYXJuZXNzKCJmaWxlIik7CgogICAgaGFybmVzcy5icm93c2VyLm9wZW5QYXRoQnJvd3NlcigiZmlsZSIsICIiKTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgIGhhcm5lc3MuYnJvd3Nlci5hY3RpdmF0ZUVudHJ5KG1hbnVhbCk7CiAgICBjb25zdCBjb25maXJtYXRpb24gPSBoYXJuZXNzLmJyb3dzZXIuY29uZmlybVNlbGVjdGlvbigpOwogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5pc0NvbmZpcm1pbmcudmFsdWUpLnRvQmUodHJ1ZSk7CgogICAgaGFybmVzcy5icm93c2VyLmFjdGl2YXRlRW50cnkoZG9jcyk7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICBleHBlY3QoaGFybmVzcy5icm93c2VyLmN1cnJlbnRQYXRoLnZhbHVlKS50b0JlKCIvc3J2L2RvY3MiKTsKICAgIGV4cGVjdChoYXJuZXNzLmJyb3dzZXIuaXNDb25maXJtaW5nLnZhbHVlKS50b0JlKGZhbHNlKTsKCiAgICByZXNvbHZlUHJvYmUoc3VjY2Vzc2Z1bFByb2JlKCJmaWxlIiwgIi9zcnYvbWFudWFsLnBkZiIpKTsKICAgIGF3YWl0IGNvbmZpcm1hdGlvbjsKCiAgICBleHBlY3QoaGFybmVzcy5hcHBsaWVkUGF0aHMpLnRvRXF1YWwoW10pOwogICAgZXhwZWN0KGhhcm5lc3Mudmlldy52YWx1ZSkudG9CZSgicGF0aC1icm93c2VyIik7CiAgICBleHBlY3QoaGFybmVzcy5icm93c2VyLmN1cnJlbnRQYXRoLnZhbHVlKS50b0JlKCIvc3J2L2RvY3MiKTsKICAgIGhhcm5lc3Muc2NvcGUuc3RvcCgpOwogIH0pOwoKICBpdCgiaWdub3JlcyBhIGNvbmZpcm1hdGlvbiBwcm9iZSBhZnRlciB0aGUgYWRkcmVzcyBpcyBlZGl0ZWQiLCBhc3luYyAoKSA9PiB7CiAgICB2aS5zcHlPbihDb25maWdBUEksICJicm93c2VIb3N0TWFwcGluZ1N0YXRpY1BhdGgiKS5tb2NrUmVzb2x2ZWRWYWx1ZSgKICAgICAgYnJvd3NlUmVzdWx0KCJkaXJlY3RvcnkiLCB7CiAgICAgICAgY3VycmVudF9wYXRoOiAiL3Nydi9kb2NzIiwKICAgICAgICBjdXJyZW50X3NlbGVjdGFibGU6IHRydWUsCiAgICAgIH0pLAogICAgKTsKICAgIGxldCByZXNvbHZlUHJvYmUhOiAodmFsdWU6IFN0YXRpY1BhdGhQcm9iZVJlc3VsdCkgPT4gdm9pZDsKICAgIHZpLnNweU9uKENvbmZpZ0FQSSwgInByb2JlSG9zdE1hcHBpbmdTdGF0aWNQYXRoIikubW9ja1JldHVyblZhbHVlKAogICAgICBuZXcgUHJvbWlzZTxTdGF0aWNQYXRoUHJvYmVSZXN1bHQ+KChyZXNvbHZlKSA9PiB7CiAgICAgICAgcmVzb2x2ZVByb2JlID0gcmVzb2x2ZTsKICAgICAgfSksCiAgICApOwogICAgY29uc3QgaGFybmVzcyA9IGNyZWF0ZUhhcm5lc3MoKTsKCiAgICBoYXJuZXNzLmJyb3dzZXIub3BlblBhdGhCcm93c2VyKCJkaXJlY3RvcnkiLCAiL3Nydi9kb2NzIik7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICBjb25zdCBjb25maXJtYXRpb24gPSBoYXJuZXNzLmJyb3dzZXIuY29uZmlybVNlbGVjdGlvbigpOwogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5pc0NvbmZpcm1pbmcudmFsdWUpLnRvQmUodHJ1ZSk7CgogICAgaGFybmVzcy5icm93c2VyLnVwZGF0ZVBhdGhEcmFmdCgiL3Nydi9vdGhlciIpOwogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5pc0NvbmZpcm1pbmcudmFsdWUpLnRvQmUoZmFsc2UpOwogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5jYW5Db25maXJtLnZhbHVlKS50b0JlKGZhbHNlKTsKICAgIHJlc29sdmVQcm9iZShzdWNjZXNzZnVsUHJvYmUoImRpcmVjdG9yeSIsICIvc3J2L2RvY3MiKSk7CiAgICBhd2FpdCBjb25maXJtYXRpb247CgogICAgZXhwZWN0KGhhcm5lc3MuYXBwbGllZFBhdGhzKS50b0VxdWFsKFtdKTsKICAgIGV4cGVjdChoYXJuZXNzLnZpZXcudmFsdWUpLnRvQmUoInBhdGgtYnJvd3NlciIpOwogICAgZXhwZWN0KGhhcm5lc3MuYnJvd3Nlci5wYXRoRHJhZnQudmFsdWUpLnRvQmUoIi9zcnYvb3RoZXIiKTsKICAgIGhhcm5lc3Muc2NvcGUuc3RvcCgpOwogIH0pOwp9KTsK
+import { computed, effectScope, nextTick, reactive, ref } from "vue";
+import { flushPromises, mount } from "@vue/test-utils";
+import { createPinia } from "pinia";
+import { createI18n } from "vue-i18n";
+import { afterEach, describe, expect, it, vi } from "vitest";
+
+import {
+  ConfigAPI,
+  type StaticPathBrowseEntry,
+  type StaticPathBrowseResult,
+  type StaticPathProbeResult,
+  type StaticPathProbeTargetType,
+} from "../src/lib/api/config";
+import { useStaticPathBrowser } from "../src/views/subdomain-proxy/useStaticPathBrowser";
+import SubdomainMappingStaticPathBrowser from "../src/views/subdomain-proxy/SubdomainMappingStaticPathBrowser.vue";
+
+const directoryEntry = (
+  path: string,
+  name = path.split("/").at(-1) || path,
+): StaticPathBrowseEntry => ({
+  entry_type: "directory",
+  modified_at: "2026-08-30T13:48:11Z",
+  name,
+  navigable: true,
+  path,
+  selectable: false,
+  size_bytes: null,
+});
+
+const fileEntry = (path: string): StaticPathBrowseEntry => ({
+  entry_type: "file",
+  modified_at: "2026-08-30T13:48:11Z",
+  name: path.split("/").at(-1) || path,
+  navigable: false,
+  path,
+  selectable: true,
+  size_bytes: 4096,
+});
+
+const browseResult = (
+  targetType: StaticPathProbeTargetType,
+  overrides: Partial<StaticPathBrowseResult> = {},
+): StaticPathBrowseResult => ({
+  breadcrumbs: [{ name: "srv", path: "/srv" }],
+  current_path: "/srv",
+  current_selectable: targetType === "directory",
+  entries: [],
+  error_code: null,
+  next_cursor: null,
+  parent_path: "/",
+  platform: "posix",
+  previous_cursor: null,
+  selected_path: null,
+  target_type: targetType,
+  ...overrides,
+});
+
+const successfulProbe = (
+  targetType: StaticPathProbeTargetType,
+  path: string,
+): StaticPathProbeResult => ({
+  actual_type: targetType,
+  error_code: null,
+  exists: true,
+  normalized_path: path,
+  readable: true,
+  target_type: targetType,
+});
+
+const createHarness = (
+  initialTargetType: StaticPathProbeTargetType = "directory",
+) => {
+  const scope = effectScope();
+  const targetType = ref<StaticPathProbeTargetType | null>(initialTargetType);
+  const isDialogOpen = ref(true);
+  const view = ref<"basic" | "path-browser">("basic");
+  const appliedPaths: string[] = [];
+  const browser = scope.run(() =>
+    useStaticPathBrowser({
+      active: computed(() => view.value === "path-browser"),
+      applyPath: (path) => appliedPaths.push(path),
+      currentTargetType: computed(() => targetType.value),
+      isDialogOpen,
+      openView: () => {
+        view.value = "path-browser";
+      },
+      returnBasicView: () => {
+        view.value = "basic";
+      },
+      translate: (key) => key,
+    }),
+  );
+  if (!browser) throw new Error("path browser harness failed");
+  return { appliedPaths, browser, isDialogOpen, scope, targetType, view };
+};
+
+afterEach(() => {
+  vi.restoreAllMocks();
+});
+
+describe("static path browser", () => {
+  it("submits the editable address with Enter but ignores IME composition", async () => {
+    const browse = vi
+      .spyOn(ConfigAPI, "browseHostMappingStaticPath")
+      .mockResolvedValueOnce(browseResult("directory"))
+      .mockResolvedValueOnce(
+        browseResult("directory", { current_path: "/srv/docs" }),
+      );
+    const harness = createHarness();
+    harness.browser.openPathBrowser("directory", "/srv");
+    await flushPromises();
+
+    const wrapper = mount(SubdomainMappingStaticPathBrowser, {
+      props: { editor: reactive(harness.browser) },
+      global: {
+        plugins: [
+          createPinia(),
+          createI18n({
+            legacy: false,
+            locale: "en",
+            missingWarn: false,
+            fallbackWarn: false,
+            messages: { en: {} },
+          }),
+        ],
+      },
+    });
+    const address = wrapper.get("#static-path-browser-address");
+    await address.setValue("/srv/docs");
+
+    const composingEnter = new KeyboardEvent("keydown", {
+      bubbles: true,
+      cancelable: true,
+      isComposing: true,
+      key: "Enter",
+    });
+    address.element.dispatchEvent(composingEnter);
+    expect(browse).toHaveBeenCalledTimes(1);
+    expect(composingEnter.defaultPrevented).toBe(false);
+
+    const navigationEnter = new KeyboardEvent("keydown", {
+      bubbles: true,
+      cancelable: true,
+      key: "Enter",
+    });
+    address.element.dispatchEvent(navigationEnter);
+    await flushPromises();
+    expect(navigationEnter.defaultPrevented).toBe(true);
+    expect(browse).toHaveBeenNthCalledWith(2, "directory", "/srv/docs", null);
+    expect(harness.browser.pathDraft.value).toBe("/srv/docs");
+
+    wrapper.unmount();
+    harness.scope.stop();
+  });
+
+  it("navigates an edited path exactly and keeps failed input available for correction", async () => {
+    const requestedPath = "/srv/missing ";
+    const browse = vi
+      .spyOn(ConfigAPI, "browseHostMappingStaticPath")
+      .mockResolvedValueOnce(browseResult("directory"))
+      .mockResolvedValueOnce(
+        browseResult("directory", {
+          breadcrumbs: [],
+          current_path: null,
+          current_selectable: false,
+          error_code: "not_found",
+          parent_path: null,
+        }),
+      );
+    const harness = createHarness();
+
+    harness.browser.openPathBrowser("directory", "/srv");
+    await flushPromises();
+    expect(harness.browser.pathDraft.value).toBe("/srv");
+    expect(harness.browser.canConfirm.value).toBe(true);
+
+    harness.browser.updatePathDraft(requestedPath);
+    expect(harness.browser.canConfirm.value).toBe(false);
+    expect(harness.browser.selectionPath.value).toBeNull();
+    await harness.browser.navigateToPath();
+
+    expect(browse).toHaveBeenNthCalledWith(2, "directory", requestedPath, null);
+    expect(harness.browser.pathDraft.value).toBe(requestedPath);
+    expect(harness.browser.loadError.value).toBe(
+      "admin.subdomainProxy.staticServe.browser.errors.not_found",
+    );
+    expect(harness.browser.canConfirm.value).toBe(false);
+    harness.scope.stop();
+  });
+
+  it("opens a file path in its parent folder and selects it outside the current page", async () => {
+    const selectedFile = "/srv/manual.pdf";
+    vi.spyOn(ConfigAPI, "browseHostMappingStaticPath").mockResolvedValue(
+      browseResult("file", {
+        current_path: "/srv",
+        entries: [],
+        selected_path: selectedFile,
+      }),
+    );
+    const harness = createHarness("file");
+
+    harness.browser.openPathBrowser("file", selectedFile);
+    await flushPromises();
+
+    expect(harness.browser.pathDraft.value).toBe("/srv");
+    expect(harness.browser.selectedPath.value).toBe(selectedFile);
+    expect(harness.browser.selectionPath.value).toBe(selectedFile);
+    expect(harness.browser.canConfirm.value).toBe(true);
+
+    harness.browser.updatePathDraft("/srv/another-file.pdf");
+    expect(harness.browser.selectedPath.value).toBe(selectedFile);
+    expect(harness.browser.selectionPath.value).toBeNull();
+    expect(harness.browser.canConfirm.value).toBe(false);
+    harness.scope.stop();
+  });
+
+  it("ignores a slower Enter navigation after a newer edited path wins", async () => {
+    let resolveSlow!: (value: StaticPathBrowseResult) => void;
+    let resolveFast!: (value: StaticPathBrowseResult) => void;
+    const browse = vi
+      .spyOn(ConfigAPI, "browseHostMappingStaticPath")
+      .mockResolvedValueOnce(browseResult("directory"))
+      .mockReturnValueOnce(
+        new Promise<StaticPathBrowseResult>((resolve) => {
+          resolveSlow = resolve;
+        }),
+      )
+      .mockReturnValueOnce(
+        new Promise<StaticPathBrowseResult>((resolve) => {
+          resolveFast = resolve;
+        }),
+      );
+    const harness = createHarness();
+
+    harness.browser.openPathBrowser("directory", "/srv");
+    await flushPromises();
+    harness.browser.updatePathDraft("/srv/slow");
+    const slowNavigation = harness.browser.navigateToPath();
+    harness.browser.updatePathDraft("/srv/fast");
+    const fastNavigation = harness.browser.navigateToPath();
+
+    resolveFast(
+      browseResult("directory", {
+        current_path: "/srv/fast",
+      }),
+    );
+    await fastNavigation;
+    expect(harness.browser.currentPath.value).toBe("/srv/fast");
+    expect(harness.browser.pathDraft.value).toBe("/srv/fast");
+
+    resolveSlow(
+      browseResult("directory", {
+        current_path: "/srv/slow",
+      }),
+    );
+    await slowNavigation;
+    expect(harness.browser.currentPath.value).toBe("/srv/fast");
+    expect(harness.browser.pathDraft.value).toBe("/srv/fast");
+    expect(browse).toHaveBeenNthCalledWith(2, "directory", "/srv/slow", null);
+    expect(browse).toHaveBeenNthCalledWith(3, "directory", "/srv/fast", null);
+    harness.scope.stop();
+  });
+
+  it("keeps the last successful listing when an in-flight browse is replaced by editing", async () => {
+    let resolveBrowse!: (value: StaticPathBrowseResult) => void;
+    const browse = vi
+      .spyOn(ConfigAPI, "browseHostMappingStaticPath")
+      .mockResolvedValueOnce(browseResult("directory"))
+      .mockReturnValueOnce(
+        new Promise<StaticPathBrowseResult>((resolve) => {
+          resolveBrowse = resolve;
+        }),
+      );
+    const harness = createHarness();
+
+    harness.browser.openPathBrowser("directory", "/srv");
+    await flushPromises();
+    harness.browser.updatePathDraft("/srv/slow");
+    const navigation = harness.browser.navigateToPath();
+    expect(harness.browser.isLoading.value).toBe(true);
+
+    harness.browser.updatePathDraft("/srv/new-draft");
+    expect(harness.browser.isLoading.value).toBe(false);
+    expect(harness.browser.loadError.value).toBe("");
+    resolveBrowse(
+      browseResult("directory", {
+        breadcrumbs: [],
+        current_path: null,
+        current_selectable: false,
+        error_code: "not_found",
+        parent_path: null,
+      }),
+    );
+    await navigation;
+
+    expect(browse).toHaveBeenNthCalledWith(2, "directory", "/srv/slow", null);
+    expect(harness.browser.currentPath.value).toBe("/srv");
+    expect(harness.browser.pathDraft.value).toBe("/srv/new-draft");
+    expect(harness.browser.loadError.value).toBe("");
+    harness.scope.stop();
+  });
+
+  it("selects the current directory only after a successful path probe", async () => {
+    const browse = vi
+      .spyOn(ConfigAPI, "browseHostMappingStaticPath")
+      .mockResolvedValue(
+        browseResult("directory", {
+          current_path: "/srv/docs",
+          current_selectable: true,
+        }),
+      );
+    const probe = vi
+      .spyOn(ConfigAPI, "probeHostMappingStaticPath")
+      .mockResolvedValue(successfulProbe("directory", "/srv/docs"));
+    const harness = createHarness();
+
+    harness.browser.openPathBrowser("directory", "/srv/docs");
+    await flushPromises();
+
+    expect(browse).toHaveBeenCalledWith("directory", "/srv/docs", null);
+    expect(harness.browser.selectionPath.value).toBe("/srv/docs");
+    expect(harness.appliedPaths).toEqual([]);
+
+    await harness.browser.confirmSelection();
+
+    expect(probe).toHaveBeenCalledWith("directory", "/srv/docs");
+    expect(harness.appliedPaths).toEqual(["/srv/docs"]);
+    expect(harness.view.value).toBe("basic");
+    harness.scope.stop();
+  });
+
+  it("selects files, navigates folders, and binds cursor requests to the current path", async () => {
+    const manual = fileEntry("/srv/manual.pdf");
+    const docs = directoryEntry("/srv/docs", "docs");
+    const browse = vi
+      .spyOn(ConfigAPI, "browseHostMappingStaticPath")
+      .mockResolvedValueOnce(
+        browseResult("file", {
+          entries: [docs, manual],
+          next_cursor: "next-page",
+        }),
+      )
+      .mockResolvedValueOnce(
+        browseResult("file", {
+          current_path: "/srv",
+          previous_cursor: "previous-page",
+        }),
+      )
+      .mockResolvedValueOnce(
+        browseResult("file", { current_path: "/srv/docs" }),
+      );
+    const harness = createHarness("file");
+
+    harness.browser.openPathBrowser("file", "");
+    await flushPromises();
+    harness.browser.activateEntry(manual);
+    expect(harness.browser.selectedPath.value).toBe("/srv/manual.pdf");
+
+    harness.browser.loadNextPage();
+    await flushPromises();
+    expect(browse).toHaveBeenNthCalledWith(2, "file", "/srv", "next-page");
+    expect(harness.browser.selectedPath.value).toBe("/srv/manual.pdf");
+
+    harness.browser.activateEntry(docs);
+    await flushPromises();
+    expect(browse).toHaveBeenNthCalledWith(3, "file", "/srv/docs", null);
+    expect(harness.browser.selectedPath.value).toBeNull();
+    harness.scope.stop();
+  });
+
+  it("ignores stale navigation responses and cancels when the target type changes", async () => {
+    let resolveInitial!: (value: StaticPathBrowseResult) => void;
+    const initial = new Promise<StaticPathBrowseResult>((resolve) => {
+      resolveInitial = resolve;
+    });
+    vi.spyOn(ConfigAPI, "browseHostMappingStaticPath")
+      .mockReturnValueOnce(initial)
+      .mockResolvedValueOnce(
+        browseResult("directory", { current_path: "/newer" }),
+      );
+    const harness = createHarness();
+
+    harness.browser.openPathBrowser("directory", "/older");
+    await harness.browser.navigateRoot();
+    expect(harness.browser.currentPath.value).toBe("/newer");
+
+    resolveInitial(
+      browseResult("directory", { current_path: "/stale-response" }),
+    );
+    await flushPromises();
+    expect(harness.browser.currentPath.value).toBe("/newer");
+
+    harness.targetType.value = "file";
+    await nextTick();
+    expect(harness.view.value).toBe("basic");
+    expect(harness.browser.result.value).toBeNull();
+    harness.scope.stop();
+  });
+
+  it("treats an empty Windows drive parent as the virtual root", async () => {
+    const browse = vi
+      .spyOn(ConfigAPI, "browseHostMappingStaticPath")
+      .mockResolvedValueOnce(
+        browseResult("directory", {
+          current_path: "C:\\",
+          parent_path: "",
+          platform: "windows",
+        }),
+      )
+      .mockResolvedValueOnce(
+        browseResult("directory", {
+          breadcrumbs: [],
+          current_path: null,
+          current_selectable: false,
+          parent_path: null,
+          platform: "windows",
+        }),
+      );
+    const harness = createHarness();
+
+    harness.browser.openPathBrowser("directory", "C:\\");
+    await flushPromises();
+    expect(harness.browser.parentPath.value).toBe("");
+
+    harness.browser.navigateParent();
+    await flushPromises();
+    expect(browse).toHaveBeenNthCalledWith(2, "directory", "", null);
+    expect(harness.browser.currentPath.value).toBeNull();
+    harness.scope.stop();
+  });
+
+  it("drops an in-flight response after the mapping dialog closes", async () => {
+    let resolveBrowse!: (value: StaticPathBrowseResult) => void;
+    vi.spyOn(ConfigAPI, "browseHostMappingStaticPath").mockReturnValue(
+      new Promise<StaticPathBrowseResult>((resolve) => {
+        resolveBrowse = resolve;
+      }),
+    );
+    const harness = createHarness();
+
+    harness.browser.openPathBrowser("directory", "/srv/slow");
+    harness.isDialogOpen.value = false;
+    await nextTick();
+    resolveBrowse(
+      browseResult("directory", { current_path: "/srv/stale-after-close" }),
+    );
+    await flushPromises();
+
+    expect(harness.browser.result.value).toBeNull();
+    expect(harness.browser.isLoading.value).toBe(false);
+    harness.scope.stop();
+  });
+
+  it("surfaces stable browse errors without making a path selectable", async () => {
+    vi.spyOn(ConfigAPI, "browseHostMappingStaticPath").mockResolvedValue(
+      browseResult("directory", {
+        current_path: "/oversized",
+        current_selectable: false,
+        error_code: "directory_too_large",
+      }),
+    );
+    const harness = createHarness();
+
+    harness.browser.openPathBrowser("directory", "/oversized");
+    await flushPromises();
+
+    expect(harness.browser.canConfirm.value).toBe(false);
+    expect(harness.browser.loadError.value).toBe(
+      "admin.subdomainProxy.staticServe.browser.errors.directory_too_large",
+    );
+    harness.scope.stop();
+  });
+
+  it("keeps the mapping draft unchanged when the confirmation probe fails", async () => {
+    vi.spyOn(ConfigAPI, "browseHostMappingStaticPath").mockResolvedValue(
+      browseResult("file", {
+        entries: [fileEntry("/srv/manual.pdf")],
+      }),
+    );
+    vi.spyOn(ConfigAPI, "probeHostMappingStaticPath").mockResolvedValue({
+      actual_type: null,
+      error_code: "not_found",
+      exists: false,
+      normalized_path: "",
+      readable: false,
+      target_type: "file",
+    });
+    const harness = createHarness("file");
+
+    harness.browser.openPathBrowser("file", "");
+    await flushPromises();
+    harness.browser.activateEntry(fileEntry("/srv/manual.pdf"));
+    await harness.browser.confirmSelection();
+
+    expect(harness.appliedPaths).toEqual([]);
+    expect(harness.view.value).toBe("path-browser");
+    expect(harness.browser.confirmError.value).toBe(
+      "admin.subdomainProxy.staticServe.probeErrors.not_found",
+    );
+    harness.scope.stop();
+  });
+
+  it("preserves POSIX trailing spaces and rejects a probe replacement path", async () => {
+    const selected = "/srv/public ";
+    const adjacent = "/srv/public";
+    const browse = vi
+      .spyOn(ConfigAPI, "browseHostMappingStaticPath")
+      .mockResolvedValue(
+        browseResult("directory", {
+          current_path: selected,
+          current_selectable: true,
+        }),
+      );
+    const probe = vi
+      .spyOn(ConfigAPI, "probeHostMappingStaticPath")
+      .mockResolvedValue(successfulProbe("directory", adjacent));
+    const harness = createHarness();
+
+    harness.browser.openPathBrowser("directory", selected);
+    await flushPromises();
+
+    expect(browse).toHaveBeenCalledWith("directory", selected, null);
+    expect(harness.browser.selectionPath.value).toBe(selected);
+
+    await harness.browser.confirmSelection();
+
+    expect(probe).toHaveBeenCalledWith("directory", selected);
+    expect(harness.appliedPaths).toEqual([]);
+    expect(harness.view.value).toBe("path-browser");
+    expect(harness.browser.confirmError.value).toBe(
+      "admin.subdomainProxy.staticServe.browser.errors.invalid_response",
+    );
+    harness.scope.stop();
+  });
+
+  it("ignores a confirmation probe after navigating to another directory", async () => {
+    const manual = fileEntry("/srv/manual.pdf");
+    const docs = directoryEntry("/srv/docs", "docs");
+    vi.spyOn(ConfigAPI, "browseHostMappingStaticPath")
+      .mockResolvedValueOnce(
+        browseResult("file", {
+          entries: [docs, manual],
+        }),
+      )
+      .mockResolvedValueOnce(
+        browseResult("file", { current_path: "/srv/docs" }),
+      );
+    let resolveProbe!: (value: StaticPathProbeResult) => void;
+    vi.spyOn(ConfigAPI, "probeHostMappingStaticPath").mockReturnValue(
+      new Promise<StaticPathProbeResult>((resolve) => {
+        resolveProbe = resolve;
+      }),
+    );
+    const harness = createHarness("file");
+
+    harness.browser.openPathBrowser("file", "");
+    await flushPromises();
+    harness.browser.activateEntry(manual);
+    const confirmation = harness.browser.confirmSelection();
+    expect(harness.browser.isConfirming.value).toBe(true);
+
+    harness.browser.activateEntry(docs);
+    await flushPromises();
+    expect(harness.browser.currentPath.value).toBe("/srv/docs");
+    expect(harness.browser.isConfirming.value).toBe(false);
+
+    resolveProbe(successfulProbe("file", "/srv/manual.pdf"));
+    await confirmation;
+
+    expect(harness.appliedPaths).toEqual([]);
+    expect(harness.view.value).toBe("path-browser");
+    expect(harness.browser.currentPath.value).toBe("/srv/docs");
+    harness.scope.stop();
+  });
+
+  it("ignores a confirmation probe after the address is edited", async () => {
+    vi.spyOn(ConfigAPI, "browseHostMappingStaticPath").mockResolvedValue(
+      browseResult("directory", {
+        current_path: "/srv/docs",
+        current_selectable: true,
+      }),
+    );
+    let resolveProbe!: (value: StaticPathProbeResult) => void;
+    vi.spyOn(ConfigAPI, "probeHostMappingStaticPath").mockReturnValue(
+      new Promise<StaticPathProbeResult>((resolve) => {
+        resolveProbe = resolve;
+      }),
+    );
+    const harness = createHarness();
+
+    harness.browser.openPathBrowser("directory", "/srv/docs");
+    await flushPromises();
+    const confirmation = harness.browser.confirmSelection();
+    expect(harness.browser.isConfirming.value).toBe(true);
+
+    harness.browser.updatePathDraft("/srv/other");
+    expect(harness.browser.isConfirming.value).toBe(false);
+    expect(harness.browser.canConfirm.value).toBe(false);
+    resolveProbe(successfulProbe("directory", "/srv/docs"));
+    await confirmation;
+
+    expect(harness.appliedPaths).toEqual([]);
+    expect(harness.view.value).toBe("path-browser");
+    expect(harness.browser.pathDraft.value).toBe("/srv/other");
+    harness.scope.stop();
+  });
+});

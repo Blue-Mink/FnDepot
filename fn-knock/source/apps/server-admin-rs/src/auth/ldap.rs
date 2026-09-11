@@ -1,1 +1,36 @@
-bW9kIGFkbWluOwptb2QgY2xpZW50Owptb2QgcHJvdmlkZXI7Cm1vZCBydW50aW1lOwptb2Qgc3RvcmFnZTsKCnB1YihjcmF0ZSkgdXNlIGFkbWluOjp7bGRhcF9hZG1pbl9vcGVuYXBpX3JvdXRlcywgbGRhcF9hZG1pbl9yb3V0ZXN9OwpwdWIoY3JhdGUpIHVzZSBydW50aW1lOjp7bGRhcF9wdWJsaWNfcHJvdmlkZXJzLCBsZGFwX3J1bnRpbWVfcm91dGVzLCBsb2dpbn07CnB1YihjcmF0ZSkgdXNlIHN0b3JhZ2U6OmxkYXBfZGVsZXRlX2JpbmRpbmdzX2J5X3RvdHA7Cgpjb25zdCBQUk9WSURFUlNfSU5ERVhfS0VZOiAmc3RyID0gImZuX2tub2NrOmxkYXA6cHJvdmlkZXJzOmluZGV4IjsKY29uc3QgUFJPVklERVJTX0RBVEFfS0VZX1BSRUZJWDogJnN0ciA9ICJmbl9rbm9jazpsZGFwOnByb3ZpZGVyczpkYXRhOiI7CmNvbnN0IEJJTkRJTkdTX0lOREVYX0tFWTogJnN0ciA9ICJmbl9rbm9jazpsZGFwOmJpbmRpbmdzOmluZGV4IjsKY29uc3QgQklORElOR1NfREFUQV9LRVlfUFJFRklYOiAmc3RyID0gImZuX2tub2NrOmxkYXA6YmluZGluZ3M6ZGF0YToiOwpjb25zdCBCSU5ESU5HU19TVUJKRUNUX0tFWV9QUkVGSVg6ICZzdHIgPSAiZm5fa25vY2s6bGRhcDpiaW5kaW5nczpzdWJqZWN0OiI7CmNvbnN0IElOVklURV9LRVlfUFJFRklYOiAmc3RyID0gImZuX2tub2NrOmxkYXA6aW52aXRlOiI7CmNvbnN0IERFRkFVTFRfSU5WSVRFX1RUTF9TRUNPTkRTOiB1c2l6ZSA9IDMwICogNjA7CgpmbiBwcm92aWRlcl9rZXkoaWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7UFJPVklERVJTX0RBVEFfS0VZX1BSRUZJWH17aWR9IikKfQoKZm4gYmluZGluZ19rZXkoaWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7QklORElOR1NfREFUQV9LRVlfUFJFRklYfXtpZH0iKQp9CgpmbiBzdWJqZWN0X2JpbmRpbmdfa2V5KHN1YmplY3Rfa2V5OiAmc3RyKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgie0JJTkRJTkdTX1NVQkpFQ1RfS0VZX1BSRUZJWH17c3ViamVjdF9rZXl9IikKfQoKZm4gaW52aXRlX2tleSh0b2tlbl9oYXNoOiAmc3RyKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgie0lOVklURV9LRVlfUFJFRklYfXt0b2tlbl9oYXNofSIpCn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHM7Cg==
+mod admin;
+mod client;
+mod provider;
+mod runtime;
+mod storage;
+
+pub(crate) use admin::{ldap_admin_openapi_routes, ldap_admin_routes};
+pub(crate) use runtime::{ldap_public_providers, ldap_runtime_routes, login};
+pub(crate) use storage::ldap_delete_bindings_by_totp;
+
+const PROVIDERS_INDEX_KEY: &str = "fn_knock:ldap:providers:index";
+const PROVIDERS_DATA_KEY_PREFIX: &str = "fn_knock:ldap:providers:data:";
+const BINDINGS_INDEX_KEY: &str = "fn_knock:ldap:bindings:index";
+const BINDINGS_DATA_KEY_PREFIX: &str = "fn_knock:ldap:bindings:data:";
+const BINDINGS_SUBJECT_KEY_PREFIX: &str = "fn_knock:ldap:bindings:subject:";
+const INVITE_KEY_PREFIX: &str = "fn_knock:ldap:invite:";
+const DEFAULT_INVITE_TTL_SECONDS: usize = 30 * 60;
+
+fn provider_key(id: &str) -> String {
+    format!("{PROVIDERS_DATA_KEY_PREFIX}{id}")
+}
+
+fn binding_key(id: &str) -> String {
+    format!("{BINDINGS_DATA_KEY_PREFIX}{id}")
+}
+
+fn subject_binding_key(subject_key: &str) -> String {
+    format!("{BINDINGS_SUBJECT_KEY_PREFIX}{subject_key}")
+}
+
+fn invite_key(token_hash: &str) -> String {
+    format!("{INVITE_KEY_PREFIX}{token_hash}")
+}
+
+#[cfg(test)]
+mod tests;

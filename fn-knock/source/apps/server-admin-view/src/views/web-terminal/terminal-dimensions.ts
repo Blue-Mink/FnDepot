@@ -1,1 +1,25 @@
-ZXhwb3J0IGNvbnN0IFRFUk1JTkFMX01JTl9DT0xTID0gNDA7CmV4cG9ydCBjb25zdCBURVJNSU5BTF9NQVhfQ09MUyA9IDQwMDsKZXhwb3J0IGNvbnN0IFRFUk1JTkFMX01JTl9ST1dTID0gMTI7CmV4cG9ydCBjb25zdCBURVJNSU5BTF9NQVhfUk9XUyA9IDIwMDsKCmNvbnN0IG5vcm1hbGl6ZURpbWVuc2lvbiA9ICgKICB2YWx1ZTogbnVtYmVyLAogIG1pbmltdW06IG51bWJlciwKICBtYXhpbXVtOiBudW1iZXIsCiAgZmFsbGJhY2s6IG51bWJlciwKKSA9PiB7CiAgY29uc3Qgcm91bmRlZCA9IE51bWJlci5pc0Zpbml0ZSh2YWx1ZSkgPyBNYXRoLnJvdW5kKHZhbHVlKSA6IGZhbGxiYWNrOwogIHJldHVybiBNYXRoLm1pbihtYXhpbXVtLCBNYXRoLm1heChtaW5pbXVtLCByb3VuZGVkKSk7Cn07CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplVGVybWluYWxEaW1lbnNpb25zID0gKHsKICBjb2xzLAogIHJvd3MsCn06IHsKICBjb2xzOiBudW1iZXI7CiAgcm93czogbnVtYmVyOwp9KSA9PiAoewogIGNvbHM6IG5vcm1hbGl6ZURpbWVuc2lvbihjb2xzLCBURVJNSU5BTF9NSU5fQ09MUywgVEVSTUlOQUxfTUFYX0NPTFMsIDEyMCksCiAgcm93czogbm9ybWFsaXplRGltZW5zaW9uKHJvd3MsIFRFUk1JTkFMX01JTl9ST1dTLCBURVJNSU5BTF9NQVhfUk9XUywgMzIpLAp9KTsK
+export const TERMINAL_MIN_COLS = 40;
+export const TERMINAL_MAX_COLS = 400;
+export const TERMINAL_MIN_ROWS = 12;
+export const TERMINAL_MAX_ROWS = 200;
+
+const normalizeDimension = (
+  value: number,
+  minimum: number,
+  maximum: number,
+  fallback: number,
+) => {
+  const rounded = Number.isFinite(value) ? Math.round(value) : fallback;
+  return Math.min(maximum, Math.max(minimum, rounded));
+};
+
+export const normalizeTerminalDimensions = ({
+  cols,
+  rows,
+}: {
+  cols: number;
+  rows: number;
+}) => ({
+  cols: normalizeDimension(cols, TERMINAL_MIN_COLS, TERMINAL_MAX_COLS, 120),
+  rows: normalizeDimension(rows, TERMINAL_MIN_ROWS, TERMINAL_MAX_ROWS, 32),
+});

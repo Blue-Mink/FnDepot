@@ -1,1 +1,597 @@
-dXNlIHN1cGVyOjoqOwoKZm4gc3ViZG9tYWluX3JhdGVfbGltaXRfa2V5KHNjb3BlOiAmc3RyLCBmaWxsOiBjaGFyKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgKICAgICAgICAie317c2NvcGV9Ont9IiwKICAgICAgICBjcmF0ZTo6c3RvcmFnZTo6dHlwZWRfc3ViZG9tYWluX3JhdGVfbGltaXQ6OlJBVEVfTElNSVRfUFJFRklYLAogICAgICAgIGZpbGwudG9fc3RyaW5nKCkucmVwZWF0KDY0KQogICAgKQp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBzdWJkb21haW5fcmF0ZV9saW1pdF9pc19hdG9taWNfaW5fbGVnYWN5X2FuZF90eXBlZF9zdG9yZXMoKSB7CiAgICBsZXQgKF9kaXIsIHN0b3JlKSA9IG9wZW5fdGVzdF9zdG9yZSgpLmF3YWl0OwogICAgbGV0IGtleSA9IHN1YmRvbWFpbl9yYXRlX2xpbWl0X2tleSgiY2xpZW50IiwgJ2EnKTsKICAgIGxldCBtdXQgdGFza3MgPSBWZWM6Om5ldygpOwogICAgZm9yIF8gaW4gMC4uMTYgewogICAgICAgIGxldCBzdG9yZSA9IHN0b3JlLmNsb25lKCk7CiAgICAgICAgbGV0IGtleSA9IGtleS5jbG9uZSgpOwogICAgICAgIHRhc2tzLnB1c2godG9raW86OnNwYXduKGFzeW5jIG1vdmUgewogICAgICAgICAgICBzdG9yZS5pbmNyZW1lbnRfY291bnRlcl93aXRoX3R0bCgma2V5LCA2MCkuYXdhaXQKICAgICAgICB9KSk7CiAgICB9CiAgICBsZXQgbXV0IGNvdW50cyA9IFZlYzo6bmV3KCk7CiAgICBmb3IgdGFzayBpbiB0YXNrcyB7CiAgICAgICAgY291bnRzLnB1c2goCiAgICAgICAgICAgIHRhc2suYXdhaXQKICAgICAgICAgICAgICAgIC5leHBlY3QoImpvaW4gY291bnRlciBpbmNyZW1lbnQiKQogICAgICAgICAgICAgICAgLmV4cGVjdCgiaW5jcmVtZW50IGNvdW50ZXIiKSwKICAgICAgICApOwogICAgfQogICAgY291bnRzLnNvcnRfdW5zdGFibGUoKTsKICAgIGFzc2VydF9lcSEoY291bnRzLCAoMS4uPTE2KS5jb2xsZWN0Ojo8VmVjPF8+PigpKTsKCiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlLmdldF9zdHJpbmdfdmFsdWUoJmtleSkuYXdhaXQudW53cmFwKCkuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKCIxNiIpCiAgICApOwogICAgbGV0IHR5cGVkID0gc3RvcmUKICAgICAgICAudHlwZWQKICAgICAgICAudHlwZWRfc3ViZG9tYWluX3JhdGVfbGltaXQKICAgICAgICAubG9hZCgma2V5KQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKQogICAgICAgIC5leHBlY3QoInR5cGVkIHJhdGUtbGltaXQgY291bnRlciIpOwogICAgYXNzZXJ0X2VxISh0eXBlZC5zY29wZSwgImNsaWVudCIpOwogICAgYXNzZXJ0X2VxISh0eXBlZC5jb3VudGVyX3ZhbHVlLCAxNik7CiAgICBhc3NlcnQhKHR5cGVkLmV4cGlyZXNfYXRfbXMgPiBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCkpOwogICAgYXNzZXJ0IShzdG9yZS50eXBlZF9zdWJkb21haW5fcmF0ZV9saW1pdF9zaGFkb3dfc3RhdHVzKCkuaGVhbHRoeSk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHN1YmRvbWFpbl9yYXRlX2xpbWl0X3VzZXNfbGVnYWN5X2F1dGhvcml0eV9hbmRfcmVwb3J0c19yZXBhaXIoKSB7CiAgICBsZXQgZGlyID0gdGVtcGZpbGU6OnRlbXBkaXIoKS5leHBlY3QoImNyZWF0ZSB0ZW1wIGRpciIpOwogICAgbGV0IHBhdGggPSBkaXIucGF0aCgpLmpvaW4oImZuLWtub2NrLnNxbGl0ZTMiKTsKICAgIGxldCBzdG9yZSA9IFN0b3JlOjpjb25uZWN0KCZwYXRoKS5hd2FpdC5leHBlY3QoIm9wZW4gc3RvcmUiKTsKICAgIGxldCBrZXkgPSBzdWJkb21haW5fcmF0ZV9saW1pdF9rZXkoImhvc3QiLCAnYicpOwogICAgYXNzZXJ0X2VxIShzdG9yZS5pbmNyZW1lbnRfY291bnRlcl93aXRoX3R0bCgma2V5LCA2MCkuYXdhaXQudW53cmFwKCksIDEpOwoKICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnBhdGgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlKAogICAgICAgICAgICAiVVBEQVRFIHN1YmRvbWFpbl9ydWxlX3JhdGVfbGltaXRfY291bnRlcnMgU0VUIGNvdW50ZXJfdmFsdWUgPSA5OTkiLAogICAgICAgICAgICBbXSwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgZHJvcChjb25uZWN0aW9uKTsKCiAgICBhc3NlcnRfZXEhKHN0b3JlLmluY3JlbWVudF9jb3VudGVyX3dpdGhfdHRsKCZrZXksIDYwKS5hd2FpdC51bndyYXAoKSwgMik7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlLmdldF9zdHJpbmdfdmFsdWUoJmtleSkuYXdhaXQudW53cmFwKCkuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKCIyIikKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfc3ViZG9tYWluX3JhdGVfbGltaXQKICAgICAgICAgICAgLmxvYWQoJmtleSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmNvdW50ZXJfdmFsdWUsCiAgICAgICAgMgogICAgKTsKICAgIGxldCBzdGF0dXMgPSBzdG9yZS50eXBlZF9zdWJkb21haW5fcmF0ZV9saW1pdF9zaGFkb3dfc3RhdHVzKCk7CiAgICBhc3NlcnQhKCFzdGF0dXMuaGVhbHRoeSk7CiAgICBhc3NlcnRfZXEhKHN0YXR1cy5taXNtYXRjaF9jb3VudCwgMSk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHN1YmRvbWFpbl9yYXRlX2xpbWl0X3R5cGVkX2ZhaWx1cmVfcm9sbHNfYmFja19hbmRfbWFsZm9ybWVkX3ZhbHVlc19mYWlsX2Nsb3NlZCgpIHsKICAgIGxldCBkaXIgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHRlbXAgZGlyIik7CiAgICBsZXQgcGF0aCA9IGRpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpOwogICAgbGV0IHN0b3JlID0gU3RvcmU6OmNvbm5lY3QoJnBhdGgpLmF3YWl0LmV4cGVjdCgib3BlbiBzdG9yZSIpOwogICAgbGV0IHJvbGxiYWNrX2tleSA9IHN1YmRvbWFpbl9yYXRlX2xpbWl0X2tleSgiY2xpZW50IiwgJ2MnKTsKICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnBhdGgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlX2JhdGNoKAogICAgICAgICAgICAiQ1JFQVRFIFRSSUdHRVIgZmFpbF90eXBlZF9zdWJkb21haW5fcmF0ZV9saW1pdF9pbnNlcnQKICAgICAgICAgICAgIEJFRk9SRSBJTlNFUlQgT04gc3ViZG9tYWluX3J1bGVfcmF0ZV9saW1pdF9jb3VudGVycwogICAgICAgICAgICAgQkVHSU4KICAgICAgICAgICAgICAgU0VMRUNUIFJBSVNFKEZBSUwsICdmb3JjZWQgdHlwZWQgc3ViZG9tYWluIHJhdGUtbGltaXQgZmFpbHVyZScpOwogICAgICAgICAgICAgRU5EOyIsCiAgICAgICAgKQogICAgICAgIC51bndyYXAoKTsKICAgIGRyb3AoY29ubmVjdGlvbik7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5pbmNyZW1lbnRfY291bnRlcl93aXRoX3R0bCgmcm9sbGJhY2tfa2V5LCA2MCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5pc19lcnIoKQogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLmdldF9zdHJpbmdfdmFsdWUoJnJvbGxiYWNrX2tleSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfbm9uZSgpCiAgICApOwoKICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnBhdGgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlKCJEUk9QIFRSSUdHRVIgZmFpbF90eXBlZF9zdWJkb21haW5fcmF0ZV9saW1pdF9pbnNlcnQiLCBbXSkKICAgICAgICAudW53cmFwKCk7CiAgICBkcm9wKGNvbm5lY3Rpb24pOwogICAgbGV0IG1hbGZvcm1lZF9rZXkgPSBzdWJkb21haW5fcmF0ZV9saW1pdF9rZXkoImhvc3QiLCAnZCcpOwogICAgc3RvcmUKICAgICAgICAuc2V0X3N0cmluZ192YWx1ZV93aXRoX29wdGlvbmFsX3R0bCgmbWFsZm9ybWVkX2tleSwgIm5vdC1hbi1pbnRlZ2VyIiwgU29tZSg2MCkpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgic2VlZCBtYWxmb3JtZWQgY29tcGF0aWJpbGl0eSBjb3VudGVyIik7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5pbmNyZW1lbnRfY291bnRlcl93aXRoX3R0bCgmbWFsZm9ybWVkX2tleSwgNjApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuaXNfZXJyKCkKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5nZXRfc3RyaW5nX3ZhbHVlKCZtYWxmb3JtZWRfa2V5KQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5hc19kZXJlZigpLAogICAgICAgIFNvbWUoIm5vdC1hbi1pbnRlZ2VyIikKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfc3ViZG9tYWluX3JhdGVfbGltaXQKICAgICAgICAgICAgLmxvYWQoJm1hbGZvcm1lZF9rZXkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmlzX25vbmUoKQogICAgKTsKICAgIGFzc2VydCEoIXN0b3JlLnR5cGVkX3N1YmRvbWFpbl9yYXRlX2xpbWl0X3NoYWRvd19zdGF0dXMoKS5oZWFsdGh5KTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gc3ViZG9tYWluX3JhdGVfbGltaXRfc2hhZG93X3JlYnVpbGRzX2FmdGVyX2V4cGlyeV9iYWNrdXBfYW5kX2NsZWFyKCkgewogICAgbGV0IHNvdXJjZV9kaXIgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHNvdXJjZSB0ZW1wIGRpciIpOwogICAgbGV0IHNvdXJjZV9wYXRoID0gc291cmNlX2Rpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpOwogICAgbGV0IHNvdXJjZSA9IFN0b3JlOjpjb25uZWN0KCZzb3VyY2VfcGF0aCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJvcGVuIHNvdXJjZSBzdG9yZSIpOwogICAgbGV0IGV4cGlyZWRfa2V5ID0gc3ViZG9tYWluX3JhdGVfbGltaXRfa2V5KCJjbGllbnQiLCAnZScpOwogICAgc291cmNlCiAgICAgICAgLmluY3JlbWVudF9jb3VudGVyX3dpdGhfdHRsKCZleHBpcmVkX2tleSwgNjApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgic2VlZCBleHBpcmluZyBjb3VudGVyIik7CiAgICBsZXQgY29ubmVjdGlvbiA9IG9wZW5fZml4dHVyZV9jb25uZWN0aW9uKCZzb3VyY2VfcGF0aCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGUoCiAgICAgICAgICAgICJVUERBVEUga3Zfa2V5cyBTRVQgZXhwaXJlc19hdF9tcyA9IDAgV0hFUkUga2V5ID0gPzEiLAogICAgICAgICAgICBbJmV4cGlyZWRfa2V5XSwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgZHJvcChjb25uZWN0aW9uKTsKICAgIGFzc2VydCEoCiAgICAgICAgIXNvdXJjZQogICAgICAgICAgICAudHlwZWQKICAgICAgICAgICAgLnR5cGVkX3N1YmRvbWFpbl9yYXRlX2xpbWl0CiAgICAgICAgICAgIC52ZXJpZnlfYW5kX3JlcGFpcigmZXhwaXJlZF9rZXkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHNvdXJjZQogICAgICAgICAgICAudHlwZWQKICAgICAgICAgICAgLnR5cGVkX3N1YmRvbWFpbl9yYXRlX2xpbWl0CiAgICAgICAgICAgIC5sb2FkKCZleHBpcmVkX2tleSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfbm9uZSgpCiAgICApOwoKICAgIGxldCBiYWNrdXBfa2V5ID0gc3ViZG9tYWluX3JhdGVfbGltaXRfa2V5KCJob3N0IiwgJ2YnKTsKICAgIHNvdXJjZQogICAgICAgIC5pbmNyZW1lbnRfY291bnRlcl93aXRoX3R0bCgmYmFja3VwX2tleSwgNjApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgic2VlZCBiYWNrdXAgY291bnRlciIpOwogICAgbGV0IGVudHJpZXMgPSBzb3VyY2UKICAgICAgICAuZXhwb3J0X2JhY2t1cF9lbnRyaWVzX2J5X3ByZWZpeF9saW1pdGVkKAogICAgICAgICAgICBjcmF0ZTo6c3RvcmFnZTo6dHlwZWRfc3ViZG9tYWluX3JhdGVfbGltaXQ6OlJBVEVfTElNSVRfUFJFRklYLAogICAgICAgICAgICAxXzAwMF8wMDAsCiAgICAgICAgICAgIHxffCB0cnVlLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJleHBvcnQgcmF0ZS1saW1pdCBiYWNrdXAiKTsKICAgIGxldCB0YXJnZXRfZGlyID0gdGVtcGZpbGU6OnRlbXBkaXIoKS5leHBlY3QoImNyZWF0ZSB0YXJnZXQgdGVtcCBkaXIiKTsKICAgIGxldCB0YXJnZXQgPSBTdG9yZTo6Y29ubmVjdCh0YXJnZXRfZGlyLnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIikpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgib3BlbiB0YXJnZXQgc3RvcmUiKTsKICAgIHRhcmdldAogICAgICAgIC5yZXBsYWNlX2JhY2t1cF9lbnRyaWVzX2J5X3ByZWZpeCgiZm5fa25vY2s6IiwgJmVudHJpZXMsIDIwMCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJyZXN0b3JlIHJhdGUtbGltaXQgYmFja3VwIik7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHRhcmdldAogICAgICAgICAgICAudHlwZWQKICAgICAgICAgICAgLnR5cGVkX3N1YmRvbWFpbl9yYXRlX2xpbWl0CiAgICAgICAgICAgIC5sb2FkKCZiYWNrdXBfa2V5KQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuY291bnRlcl92YWx1ZSwKICAgICAgICAxCiAgICApOwogICAgdGFyZ2V0LmNsZWFyX2FsbF9rZXlzKCkuYXdhaXQuZXhwZWN0KCJjbGVhciByZXN0b3JlZCBzdG9yZSIpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICB0YXJnZXQKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9zdWJkb21haW5fcmF0ZV9saW1pdAogICAgICAgICAgICAuY291bnQoKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpLAogICAgICAgIDAKICAgICk7Cn0KCmZuIHdvbF9jb29sZG93bl9rZXkodGFyZ2V0X2lkOiAmc3RyKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgKICAgICAgICAie317dGFyZ2V0X2lkfSIsCiAgICAgICAgY3JhdGU6OnN0b3JhZ2U6OnR5cGVkX3dvbF9jb29sZG93bjo6Q09PTERPV05fUFJFRklYCiAgICApCn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHdvbF9jb29sZG93bl9hbGxvd3Nfb25lX2NvbmN1cnJlbnRfd2lubmVyX2luX2JvdGhfc3RvcmVzKCkgewogICAgbGV0IChfZGlyLCBzdG9yZSkgPSBvcGVuX3Rlc3Rfc3RvcmUoKS5hd2FpdDsKICAgIGxldCBrZXkgPSB3b2xfY29vbGRvd25fa2V5KCJjb25jdXJyZW50LXRhcmdldCIpOwogICAgbGV0IG11dCB0YXNrcyA9IFZlYzo6bmV3KCk7CiAgICBmb3IgXyBpbiAwLi4xNiB7CiAgICAgICAgbGV0IHN0b3JlID0gc3RvcmUuY2xvbmUoKTsKICAgICAgICBsZXQga2V5ID0ga2V5LmNsb25lKCk7CiAgICAgICAgdGFza3MucHVzaCh0b2tpbzo6c3Bhd24oYXN5bmMgbW92ZSB7CiAgICAgICAgICAgIHN0b3JlLnNldF9rZXlfaWZfbm90X2V4aXN0c193aXRoX3R0bCgma2V5LCAiMSIsIDMpLmF3YWl0CiAgICAgICAgfSkpOwogICAgfQogICAgbGV0IG11dCB3aW5uZXJzID0gMDsKICAgIGZvciB0YXNrIGluIHRhc2tzIHsKICAgICAgICBpZiB0YXNrLmF3YWl0LnVud3JhcCgpLnVud3JhcCgpIHsKICAgICAgICAgICAgd2lubmVycyArPSAxOwogICAgICAgIH0KICAgIH0KICAgIGFzc2VydF9lcSEod2lubmVycywgMSk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlLmdldF9zdHJpbmdfdmFsdWUoJmtleSkuYXdhaXQudW53cmFwKCkuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKCIxIikKICAgICk7CiAgICBsZXQgdHlwZWQgPSBzdG9yZQogICAgICAgIC50eXBlZAogICAgICAgIC50eXBlZF93b2xfY29vbGRvd24KICAgICAgICAubG9hZCgiY29uY3VycmVudC10YXJnZXQiKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKQogICAgICAgIC5leHBlY3QoInR5cGVkIFdPTCBjb29sZG93biIpOwogICAgYXNzZXJ0ISh0eXBlZC5leHBpcmVzX2F0X21zID4gY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gd29sX2Nvb2xkb3duX3VzZXNfbGVnYWN5X2F1dGhvcml0eV9yZXBhaXJzX2FuZF9yb2xsc19iYWNrX3R5cGVkX2ZhaWx1cmUoKSB7CiAgICBsZXQgZGlyID0gdGVtcGZpbGU6OnRlbXBkaXIoKS5leHBlY3QoImNyZWF0ZSB0ZW1wIGRpciIpOwogICAgbGV0IHBhdGggPSBkaXIucGF0aCgpLmpvaW4oImZuLWtub2NrLnNxbGl0ZTMiKTsKICAgIGxldCBzdG9yZSA9IFN0b3JlOjpjb25uZWN0KCZwYXRoKS5hd2FpdC5leHBlY3QoIm9wZW4gc3RvcmUiKTsKICAgIGxldCByZXBhaXJfa2V5ID0gd29sX2Nvb2xkb3duX2tleSgicmVwYWlyLXRhcmdldCIpOwogICAgYXNzZXJ0ISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuc2V0X2tleV9pZl9ub3RfZXhpc3RzX3dpdGhfdHRsKCZyZXBhaXJfa2V5LCAiMSIsIDYwKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICApOwogICAgbGV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmcGF0aCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGUoCiAgICAgICAgICAgICJVUERBVEUgd29sX3dha2VfY29vbGRvd25zIFNFVCBleHBpcmVzX2F0X21zID0gMSBXSEVSRSB0YXJnZXRfaWQgPSAncmVwYWlyLXRhcmdldCciLAogICAgICAgICAgICBbXSwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgZHJvcChjb25uZWN0aW9uKTsKICAgIGFzc2VydCEoCiAgICAgICAgIXN0b3JlCiAgICAgICAgICAgIC5zZXRfa2V5X2lmX25vdF9leGlzdHNfd2l0aF90dGwoJnJlcGFpcl9rZXksICIxIiwgNjApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfd29sX2Nvb2xkb3duCiAgICAgICAgICAgIC5sb2FkKCJyZXBhaXItdGFyZ2V0IikKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmV4cGlyZXNfYXRfbXMKICAgICAgICAgICAgPiBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCkKICAgICk7CiAgICBsZXQgc3RhdHVzID0gc3RvcmUudHlwZWRfd29sX2Nvb2xkb3duX3NoYWRvd19zdGF0dXMoKTsKICAgIGFzc2VydCEoIXN0YXR1cy5oZWFsdGh5KTsKICAgIGFzc2VydF9lcSEoc3RhdHVzLm1pc21hdGNoX2NvdW50LCAxKTsKCiAgICBsZXQgY29ubmVjdGlvbiA9IG9wZW5fZml4dHVyZV9jb25uZWN0aW9uKCZwYXRoKTsKICAgIGNvbm5lY3Rpb24KICAgICAgICAuZXhlY3V0ZV9iYXRjaCgKICAgICAgICAgICAgIkNSRUFURSBUUklHR0VSIGZhaWxfdHlwZWRfd29sX2Nvb2xkb3duX2luc2VydAogICAgICAgICAgICAgQkVGT1JFIElOU0VSVCBPTiB3b2xfd2FrZV9jb29sZG93bnMKICAgICAgICAgICAgIEJFR0lOCiAgICAgICAgICAgICAgIFNFTEVDVCBSQUlTRShGQUlMLCAnZm9yY2VkIHR5cGVkIFdPTCBjb29sZG93biBmYWlsdXJlJyk7CiAgICAgICAgICAgICBFTkQ7IiwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgZHJvcChjb25uZWN0aW9uKTsKICAgIGxldCByb2xsYmFja19rZXkgPSB3b2xfY29vbGRvd25fa2V5KCJyb2xsYmFjay10YXJnZXQiKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnNldF9rZXlfaWZfbm90X2V4aXN0c193aXRoX3R0bCgmcm9sbGJhY2tfa2V5LCAiMSIsIDYwKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmlzX2VycigpCiAgICApOwogICAgYXNzZXJ0ISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuZ2V0X3N0cmluZ192YWx1ZSgmcm9sbGJhY2tfa2V5KQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pc19ub25lKCkKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfd29sX2Nvb2xkb3duCiAgICAgICAgICAgIC5sb2FkKCJyb2xsYmFjay10YXJnZXQiKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pc19ub25lKCkKICAgICk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHdvbF9jb29sZG93bl9leHBpcnlfYmFja3VwX2FuZF9jbGVhcl9rZWVwX3R5cGVkX3NoYWRvd19leGFjdCgpIHsKICAgIGxldCBzb3VyY2VfZGlyID0gdGVtcGZpbGU6OnRlbXBkaXIoKS5leHBlY3QoImNyZWF0ZSBzb3VyY2UgdGVtcCBkaXIiKTsKICAgIGxldCBzb3VyY2VfcGF0aCA9IHNvdXJjZV9kaXIucGF0aCgpLmpvaW4oImZuLWtub2NrLnNxbGl0ZTMiKTsKICAgIGxldCBzb3VyY2UgPSBTdG9yZTo6Y29ubmVjdCgmc291cmNlX3BhdGgpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgib3BlbiBzb3VyY2Ugc3RvcmUiKTsKICAgIGxldCBrZXkgPSB3b2xfY29vbGRvd25fa2V5KCJiYWNrdXAtdGFyZ2V0Iik7CiAgICBzb3VyY2UKICAgICAgICAuc2V0X2tleV9pZl9ub3RfZXhpc3RzX3dpdGhfdHRsKCZrZXksICIxIiwgNjApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgic2VlZCBXT0wgY29vbGRvd24iKTsKICAgIGxldCBlbnRyaWVzID0gc291cmNlCiAgICAgICAgLmV4cG9ydF9iYWNrdXBfZW50cmllc19ieV9wcmVmaXhfbGltaXRlZCgKICAgICAgICAgICAgY3JhdGU6OnN0b3JhZ2U6OnR5cGVkX3dvbF9jb29sZG93bjo6Q09PTERPV05fUFJFRklYLAogICAgICAgICAgICAxXzAwMF8wMDAsCiAgICAgICAgICAgIHxffCB0cnVlLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJleHBvcnQgV09MIGNvb2xkb3duIik7CiAgICBsZXQgdGFyZ2V0X2RpciA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgdGFyZ2V0IHRlbXAgZGlyIik7CiAgICBsZXQgdGFyZ2V0ID0gU3RvcmU6OmNvbm5lY3QodGFyZ2V0X2Rpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoIm9wZW4gdGFyZ2V0IHN0b3JlIik7CiAgICB0YXJnZXQKICAgICAgICAucmVwbGFjZV9iYWNrdXBfZW50cmllc19ieV9wcmVmaXgoImZuX2tub2NrOiIsICZlbnRyaWVzLCAyMDApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgicmVzdG9yZSBXT0wgY29vbGRvd24iKTsKICAgIGFzc2VydCEoCiAgICAgICAgdGFyZ2V0CiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfd29sX2Nvb2xkb3duCiAgICAgICAgICAgIC5sb2FkKCJiYWNrdXAtdGFyZ2V0IikKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfc29tZSgpCiAgICApOwoKICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnNvdXJjZV9wYXRoKTsKICAgIGNvbm5lY3Rpb24KICAgICAgICAuZXhlY3V0ZSgKICAgICAgICAgICAgIlVQREFURSBrdl9rZXlzIFNFVCBleHBpcmVzX2F0X21zID0gMCBXSEVSRSBrZXkgPSA/MSIsCiAgICAgICAgICAgIFsma2V5XSwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgZHJvcChjb25uZWN0aW9uKTsKICAgIGFzc2VydCEoCiAgICAgICAgIXNvdXJjZQogICAgICAgICAgICAudHlwZWQKICAgICAgICAgICAgLnR5cGVkX3dvbF9jb29sZG93bgogICAgICAgICAgICAudmVyaWZ5X2FuZF9yZXBhaXIoImJhY2t1cC10YXJnZXQiKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICApOwogICAgYXNzZXJ0ISgKICAgICAgICBzb3VyY2UKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF93b2xfY29vbGRvd24KICAgICAgICAgICAgLmxvYWQoImJhY2t1cC10YXJnZXQiKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pc19ub25lKCkKICAgICk7CiAgICB0YXJnZXQKICAgICAgICAuY2xlYXJfYWxsX2tleXMoKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoImNsZWFyIHRhcmdldCBrZXlzcGFjZSIpOwogICAgYXNzZXJ0X2VxISh0YXJnZXQudHlwZWQudHlwZWRfd29sX2Nvb2xkb3duLmNvdW50KCkuYXdhaXQudW53cmFwKCksIDApOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBobWFjX25vbmNlX2FsbG93c19vbmVfY29uY3VycmVudF93aW5uZXJfYW5kX3N0b3Jlc19vbmx5X2FfdHlwZWRfZGlnZXN0KCkgewogICAgbGV0IChfZGlyLCBzdG9yZSkgPSBvcGVuX3Rlc3Rfc3RvcmUoKS5hd2FpdDsKICAgIGxldCBub25jZSA9ICJjb25jdXJyZW50LXNlbnNpdGl2ZS1ub25jZSI7CiAgICBsZXQgbXV0IHRhc2tzID0gVmVjOjpuZXcoKTsKICAgIGZvciBfIGluIDAuLjE2IHsKICAgICAgICBsZXQgc3RvcmUgPSBzdG9yZS5jbG9uZSgpOwogICAgICAgIHRhc2tzLnB1c2godG9raW86OnNwYXduKGFzeW5jIG1vdmUgewogICAgICAgICAgICBzdG9yZS5zZXRfbm9uY2VfaWZfbm90X2V4aXN0cyhub25jZSwgNjApLmF3YWl0CiAgICAgICAgfSkpOwogICAgfQogICAgbGV0IG11dCB3aW5uZXJzID0gMDsKICAgIGZvciB0YXNrIGluIHRhc2tzIHsKICAgICAgICBpZiB0YXNrLmF3YWl0LnVud3JhcCgpLnVud3JhcCgpIHsKICAgICAgICAgICAgd2lubmVycyArPSAxOwogICAgICAgIH0KICAgIH0KICAgIGFzc2VydF9lcSEod2lubmVycywgMSk7CiAgICBsZXQgdHlwZWQgPSBzdG9yZQogICAgICAgIC50eXBlZAogICAgICAgIC50eXBlZF9obWFjX25vbmNlCiAgICAgICAgLmxvYWQobm9uY2UpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpCiAgICAgICAgLmV4cGVjdCgidHlwZWQgSE1BQyBub25jZSIpOwogICAgYXNzZXJ0X2VxISh0eXBlZC5ub25jZV9kaWdlc3QubGVuKCksIDY0KTsKICAgIGFzc2VydF9uZSEodHlwZWQubm9uY2VfZGlnZXN0LCBub25jZSk7CiAgICBhc3NlcnQhKHR5cGVkLmV4cGlyZXNfYXRfbXMgPiBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCkpOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBobWFjX25vbmNlX3JlcGFpcnNfbGVnYWN5X2F1dGhvcml0eV9hbmRfdHlwZWRfZmFpbHVyZV9yb2xsc19iYWNrKCkgewogICAgbGV0IGRpciA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgdGVtcCBkaXIiKTsKICAgIGxldCBwYXRoID0gZGlyLnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIik7CiAgICBsZXQgc3RvcmUgPSBTdG9yZTo6Y29ubmVjdCgmcGF0aCkuYXdhaXQuZXhwZWN0KCJvcGVuIHN0b3JlIik7CiAgICBsZXQgbm9uY2UgPSAicmVwYWlyLXNlbnNpdGl2ZS1ub25jZSI7CiAgICBhc3NlcnQhKHN0b3JlLnNldF9ub25jZV9pZl9ub3RfZXhpc3RzKG5vbmNlLCA2MCkuYXdhaXQudW53cmFwKCkpOwoKICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnBhdGgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlKCJVUERBVEUgaG1hY19yZXBsYXlfbm9uY2VzIFNFVCBleHBpcmVzX2F0X21zID0gMSIsIFtdKQogICAgICAgIC51bndyYXAoKTsKICAgIGRyb3AoY29ubmVjdGlvbik7CiAgICBhc3NlcnQhKCFzdG9yZS5zZXRfbm9uY2VfaWZfbm90X2V4aXN0cyhub25jZSwgNjApLmF3YWl0LnVud3JhcCgpKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9obWFjX25vbmNlCiAgICAgICAgICAgIC5sb2FkKG5vbmNlKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuZXhwaXJlc19hdF9tcwogICAgICAgICAgICA+IGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfbXMoKQogICAgKTsKICAgIGxldCBzdGF0dXMgPSBzdG9yZS50eXBlZF9obWFjX25vbmNlX3NoYWRvd19zdGF0dXMoKTsKICAgIGFzc2VydCEoIXN0YXR1cy5oZWFsdGh5KTsKICAgIGFzc2VydF9lcSEoc3RhdHVzLm1pc21hdGNoX2NvdW50LCAxKTsKCiAgICBsZXQgY29ubmVjdGlvbiA9IG9wZW5fZml4dHVyZV9jb25uZWN0aW9uKCZwYXRoKTsKICAgIGNvbm5lY3Rpb24KICAgICAgICAuZXhlY3V0ZV9iYXRjaCgKICAgICAgICAgICAgIkNSRUFURSBUUklHR0VSIGZhaWxfdHlwZWRfaG1hY19ub25jZV9pbnNlcnQKICAgICAgICAgICAgIEJFRk9SRSBJTlNFUlQgT04gaG1hY19yZXBsYXlfbm9uY2VzCiAgICAgICAgICAgICBCRUdJTgogICAgICAgICAgICAgICBTRUxFQ1QgUkFJU0UoRkFJTCwgJ2ZvcmNlZCB0eXBlZCBITUFDIG5vbmNlIGZhaWx1cmUnKTsKICAgICAgICAgICAgIEVORDsiLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICBkcm9wKGNvbm5lY3Rpb24pOwogICAgbGV0IHJvbGxiYWNrX25vbmNlID0gInJvbGxiYWNrLXNlbnNpdGl2ZS1ub25jZSI7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5zZXRfbm9uY2VfaWZfbm90X2V4aXN0cyhyb2xsYmFja19ub25jZSwgNjApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuaXNfZXJyKCkKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5nZXRfc3RyaW5nX3ZhbHVlKCZmb3JtYXQhKAogICAgICAgICAgICAgICAgInt9e30iLAogICAgICAgICAgICAgICAgY3JhdGU6OnN0b3JhZ2U6OnR5cGVkX2htYWNfbm9uY2U6Ok5PTkNFX1BSRUZJWCwKICAgICAgICAgICAgICAgIHJvbGxiYWNrX25vbmNlCiAgICAgICAgICAgICkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmlzX25vbmUoKQogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9obWFjX25vbmNlCiAgICAgICAgICAgIC5sb2FkKHJvbGxiYWNrX25vbmNlKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pc19ub25lKCkKICAgICk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIGhtYWNfbm9uY2VfZXhwaXJ5X2JhY2t1cF9hbmRfY2xlYXJfa2VlcF90eXBlZF9zaGFkb3dfZXhhY3QoKSB7CiAgICBsZXQgc291cmNlX2RpciA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgc291cmNlIHRlbXAgZGlyIik7CiAgICBsZXQgc291cmNlX3BhdGggPSBzb3VyY2VfZGlyLnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIik7CiAgICBsZXQgc291cmNlID0gU3RvcmU6OmNvbm5lY3QoJnNvdXJjZV9wYXRoKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoIm9wZW4gc291cmNlIHN0b3JlIik7CiAgICBsZXQgbm9uY2UgPSAiYmFja3VwLXNlbnNpdGl2ZS1ub25jZSI7CiAgICBzb3VyY2UKICAgICAgICAuc2V0X25vbmNlX2lmX25vdF9leGlzdHMobm9uY2UsIDYwKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInNlZWQgSE1BQyBub25jZSIpOwogICAgbGV0IGVudHJpZXMgPSBzb3VyY2UKICAgICAgICAuZXhwb3J0X2JhY2t1cF9lbnRyaWVzX2J5X3ByZWZpeF9saW1pdGVkKAogICAgICAgICAgICBjcmF0ZTo6c3RvcmFnZTo6dHlwZWRfaG1hY19ub25jZTo6Tk9OQ0VfUFJFRklYLAogICAgICAgICAgICAxXzAwMF8wMDAsCiAgICAgICAgICAgIHxffCB0cnVlLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJleHBvcnQgSE1BQyBub25jZSIpOwogICAgbGV0IHRhcmdldF9kaXIgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHRhcmdldCB0ZW1wIGRpciIpOwogICAgbGV0IHRhcmdldCA9IFN0b3JlOjpjb25uZWN0KHRhcmdldF9kaXIucGF0aCgpLmpvaW4oImZuLWtub2NrLnNxbGl0ZTMiKSkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJvcGVuIHRhcmdldCBzdG9yZSIpOwogICAgdGFyZ2V0CiAgICAgICAgLnJlcGxhY2VfYmFja3VwX2VudHJpZXNfYnlfcHJlZml4KCJmbl9rbm9jazoiLCAmZW50cmllcywgMjAwKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInJlc3RvcmUgSE1BQyBub25jZSIpOwogICAgYXNzZXJ0ISgKICAgICAgICB0YXJnZXQKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9obWFjX25vbmNlCiAgICAgICAgICAgIC5sb2FkKG5vbmNlKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pc19zb21lKCkKICAgICk7CgogICAgbGV0IGtleSA9IGZvcm1hdCEoCiAgICAgICAgInt9e30iLAogICAgICAgIGNyYXRlOjpzdG9yYWdlOjp0eXBlZF9obWFjX25vbmNlOjpOT05DRV9QUkVGSVgsCiAgICAgICAgbm9uY2UKICAgICk7CiAgICBsZXQgY29ubmVjdGlvbiA9IG9wZW5fZml4dHVyZV9jb25uZWN0aW9uKCZzb3VyY2VfcGF0aCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGUoCiAgICAgICAgICAgICJVUERBVEUga3Zfa2V5cyBTRVQgZXhwaXJlc19hdF9tcyA9IDAgV0hFUkUga2V5ID0gPzEiLAogICAgICAgICAgICBbJmtleV0sCiAgICAgICAgKQogICAgICAgIC51bndyYXAoKTsKICAgIGRyb3AoY29ubmVjdGlvbik7CiAgICBhc3NlcnQhKAogICAgICAgICFzb3VyY2UKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9obWFjX25vbmNlCiAgICAgICAgICAgIC52ZXJpZnlfYW5kX3JlcGFpcihub25jZSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgc291cmNlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfaG1hY19ub25jZQogICAgICAgICAgICAubG9hZChub25jZSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfbm9uZSgpCiAgICApOwogICAgdGFyZ2V0CiAgICAgICAgLmNsZWFyX2FsbF9rZXlzKCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJjbGVhciB0YXJnZXQga2V5c3BhY2UiKTsKICAgIGFzc2VydF9lcSEodGFyZ2V0LnR5cGVkLnR5cGVkX2htYWNfbm9uY2UuY291bnQoKS5hd2FpdC51bndyYXAoKSwgMCk7Cn0K
+use super::*;
+
+fn subdomain_rate_limit_key(scope: &str, fill: char) -> String {
+    format!(
+        "{}{scope}:{}",
+        crate::storage::typed_subdomain_rate_limit::RATE_LIMIT_PREFIX,
+        fill.to_string().repeat(64)
+    )
+}
+
+#[tokio::test]
+async fn subdomain_rate_limit_is_atomic_in_legacy_and_typed_stores() {
+    let (_dir, store) = open_test_store().await;
+    let key = subdomain_rate_limit_key("client", 'a');
+    let mut tasks = Vec::new();
+    for _ in 0..16 {
+        let store = store.clone();
+        let key = key.clone();
+        tasks.push(tokio::spawn(async move {
+            store.increment_counter_with_ttl(&key, 60).await
+        }));
+    }
+    let mut counts = Vec::new();
+    for task in tasks {
+        counts.push(
+            task.await
+                .expect("join counter increment")
+                .expect("increment counter"),
+        );
+    }
+    counts.sort_unstable();
+    assert_eq!(counts, (1..=16).collect::<Vec<_>>());
+
+    assert_eq!(
+        store.get_string_value(&key).await.unwrap().as_deref(),
+        Some("16")
+    );
+    let typed = store
+        .typed
+        .typed_subdomain_rate_limit
+        .load(&key)
+        .await
+        .unwrap()
+        .expect("typed rate-limit counter");
+    assert_eq!(typed.scope, "client");
+    assert_eq!(typed.counter_value, 16);
+    assert!(typed.expires_at_ms > crate::time_utils::now_ms());
+    assert!(store.typed_subdomain_rate_limit_shadow_status().healthy);
+}
+
+#[tokio::test]
+async fn subdomain_rate_limit_uses_legacy_authority_and_reports_repair() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let key = subdomain_rate_limit_key("host", 'b');
+    assert_eq!(store.increment_counter_with_ttl(&key, 60).await.unwrap(), 1);
+
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute(
+            "UPDATE subdomain_rule_rate_limit_counters SET counter_value = 999",
+            [],
+        )
+        .unwrap();
+    drop(connection);
+
+    assert_eq!(store.increment_counter_with_ttl(&key, 60).await.unwrap(), 2);
+    assert_eq!(
+        store.get_string_value(&key).await.unwrap().as_deref(),
+        Some("2")
+    );
+    assert_eq!(
+        store
+            .typed
+            .typed_subdomain_rate_limit
+            .load(&key)
+            .await
+            .unwrap()
+            .unwrap()
+            .counter_value,
+        2
+    );
+    let status = store.typed_subdomain_rate_limit_shadow_status();
+    assert!(!status.healthy);
+    assert_eq!(status.mismatch_count, 1);
+}
+
+#[tokio::test]
+async fn subdomain_rate_limit_typed_failure_rolls_back_and_malformed_values_fail_closed() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let rollback_key = subdomain_rate_limit_key("client", 'c');
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute_batch(
+            "CREATE TRIGGER fail_typed_subdomain_rate_limit_insert
+             BEFORE INSERT ON subdomain_rule_rate_limit_counters
+             BEGIN
+               SELECT RAISE(FAIL, 'forced typed subdomain rate-limit failure');
+             END;",
+        )
+        .unwrap();
+    drop(connection);
+    assert!(
+        store
+            .increment_counter_with_ttl(&rollback_key, 60)
+            .await
+            .is_err()
+    );
+    assert!(
+        store
+            .get_string_value(&rollback_key)
+            .await
+            .unwrap()
+            .is_none()
+    );
+
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute("DROP TRIGGER fail_typed_subdomain_rate_limit_insert", [])
+        .unwrap();
+    drop(connection);
+    let malformed_key = subdomain_rate_limit_key("host", 'd');
+    store
+        .set_string_value_with_optional_ttl(&malformed_key, "not-an-integer", Some(60))
+        .await
+        .expect("seed malformed compatibility counter");
+    assert!(
+        store
+            .increment_counter_with_ttl(&malformed_key, 60)
+            .await
+            .is_err()
+    );
+    assert_eq!(
+        store
+            .get_string_value(&malformed_key)
+            .await
+            .unwrap()
+            .as_deref(),
+        Some("not-an-integer")
+    );
+    assert!(
+        store
+            .typed
+            .typed_subdomain_rate_limit
+            .load(&malformed_key)
+            .await
+            .unwrap()
+            .is_none()
+    );
+    assert!(!store.typed_subdomain_rate_limit_shadow_status().healthy);
+}
+
+#[tokio::test]
+async fn subdomain_rate_limit_shadow_rebuilds_after_expiry_backup_and_clear() {
+    let source_dir = tempfile::tempdir().expect("create source temp dir");
+    let source_path = source_dir.path().join("fn-knock.sqlite3");
+    let source = Store::connect(&source_path)
+        .await
+        .expect("open source store");
+    let expired_key = subdomain_rate_limit_key("client", 'e');
+    source
+        .increment_counter_with_ttl(&expired_key, 60)
+        .await
+        .expect("seed expiring counter");
+    let connection = open_fixture_connection(&source_path);
+    connection
+        .execute(
+            "UPDATE kv_keys SET expires_at_ms = 0 WHERE key = ?1",
+            [&expired_key],
+        )
+        .unwrap();
+    drop(connection);
+    assert!(
+        !source
+            .typed
+            .typed_subdomain_rate_limit
+            .verify_and_repair(&expired_key)
+            .await
+            .unwrap()
+    );
+    assert!(
+        source
+            .typed
+            .typed_subdomain_rate_limit
+            .load(&expired_key)
+            .await
+            .unwrap()
+            .is_none()
+    );
+
+    let backup_key = subdomain_rate_limit_key("host", 'f');
+    source
+        .increment_counter_with_ttl(&backup_key, 60)
+        .await
+        .expect("seed backup counter");
+    let entries = source
+        .export_backup_entries_by_prefix_limited(
+            crate::storage::typed_subdomain_rate_limit::RATE_LIMIT_PREFIX,
+            1_000_000,
+            |_| true,
+        )
+        .await
+        .expect("export rate-limit backup");
+    let target_dir = tempfile::tempdir().expect("create target temp dir");
+    let target = Store::connect(target_dir.path().join("fn-knock.sqlite3"))
+        .await
+        .expect("open target store");
+    target
+        .replace_backup_entries_by_prefix("fn_knock:", &entries, 200)
+        .await
+        .expect("restore rate-limit backup");
+    assert_eq!(
+        target
+            .typed
+            .typed_subdomain_rate_limit
+            .load(&backup_key)
+            .await
+            .unwrap()
+            .unwrap()
+            .counter_value,
+        1
+    );
+    target.clear_all_keys().await.expect("clear restored store");
+    assert_eq!(
+        target
+            .typed
+            .typed_subdomain_rate_limit
+            .count()
+            .await
+            .unwrap(),
+        0
+    );
+}
+
+fn wol_cooldown_key(target_id: &str) -> String {
+    format!(
+        "{}{target_id}",
+        crate::storage::typed_wol_cooldown::COOLDOWN_PREFIX
+    )
+}
+
+#[tokio::test]
+async fn wol_cooldown_allows_one_concurrent_winner_in_both_stores() {
+    let (_dir, store) = open_test_store().await;
+    let key = wol_cooldown_key("concurrent-target");
+    let mut tasks = Vec::new();
+    for _ in 0..16 {
+        let store = store.clone();
+        let key = key.clone();
+        tasks.push(tokio::spawn(async move {
+            store.set_key_if_not_exists_with_ttl(&key, "1", 3).await
+        }));
+    }
+    let mut winners = 0;
+    for task in tasks {
+        if task.await.unwrap().unwrap() {
+            winners += 1;
+        }
+    }
+    assert_eq!(winners, 1);
+    assert_eq!(
+        store.get_string_value(&key).await.unwrap().as_deref(),
+        Some("1")
+    );
+    let typed = store
+        .typed
+        .typed_wol_cooldown
+        .load("concurrent-target")
+        .await
+        .unwrap()
+        .expect("typed WOL cooldown");
+    assert!(typed.expires_at_ms > crate::time_utils::now_ms());
+}
+
+#[tokio::test]
+async fn wol_cooldown_uses_legacy_authority_repairs_and_rolls_back_typed_failure() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let repair_key = wol_cooldown_key("repair-target");
+    assert!(
+        store
+            .set_key_if_not_exists_with_ttl(&repair_key, "1", 60)
+            .await
+            .unwrap()
+    );
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute(
+            "UPDATE wol_wake_cooldowns SET expires_at_ms = 1 WHERE target_id = 'repair-target'",
+            [],
+        )
+        .unwrap();
+    drop(connection);
+    assert!(
+        !store
+            .set_key_if_not_exists_with_ttl(&repair_key, "1", 60)
+            .await
+            .unwrap()
+    );
+    assert!(
+        store
+            .typed
+            .typed_wol_cooldown
+            .load("repair-target")
+            .await
+            .unwrap()
+            .unwrap()
+            .expires_at_ms
+            > crate::time_utils::now_ms()
+    );
+    let status = store.typed_wol_cooldown_shadow_status();
+    assert!(!status.healthy);
+    assert_eq!(status.mismatch_count, 1);
+
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute_batch(
+            "CREATE TRIGGER fail_typed_wol_cooldown_insert
+             BEFORE INSERT ON wol_wake_cooldowns
+             BEGIN
+               SELECT RAISE(FAIL, 'forced typed WOL cooldown failure');
+             END;",
+        )
+        .unwrap();
+    drop(connection);
+    let rollback_key = wol_cooldown_key("rollback-target");
+    assert!(
+        store
+            .set_key_if_not_exists_with_ttl(&rollback_key, "1", 60)
+            .await
+            .is_err()
+    );
+    assert!(
+        store
+            .get_string_value(&rollback_key)
+            .await
+            .unwrap()
+            .is_none()
+    );
+    assert!(
+        store
+            .typed
+            .typed_wol_cooldown
+            .load("rollback-target")
+            .await
+            .unwrap()
+            .is_none()
+    );
+}
+
+#[tokio::test]
+async fn wol_cooldown_expiry_backup_and_clear_keep_typed_shadow_exact() {
+    let source_dir = tempfile::tempdir().expect("create source temp dir");
+    let source_path = source_dir.path().join("fn-knock.sqlite3");
+    let source = Store::connect(&source_path)
+        .await
+        .expect("open source store");
+    let key = wol_cooldown_key("backup-target");
+    source
+        .set_key_if_not_exists_with_ttl(&key, "1", 60)
+        .await
+        .expect("seed WOL cooldown");
+    let entries = source
+        .export_backup_entries_by_prefix_limited(
+            crate::storage::typed_wol_cooldown::COOLDOWN_PREFIX,
+            1_000_000,
+            |_| true,
+        )
+        .await
+        .expect("export WOL cooldown");
+    let target_dir = tempfile::tempdir().expect("create target temp dir");
+    let target = Store::connect(target_dir.path().join("fn-knock.sqlite3"))
+        .await
+        .expect("open target store");
+    target
+        .replace_backup_entries_by_prefix("fn_knock:", &entries, 200)
+        .await
+        .expect("restore WOL cooldown");
+    assert!(
+        target
+            .typed
+            .typed_wol_cooldown
+            .load("backup-target")
+            .await
+            .unwrap()
+            .is_some()
+    );
+
+    let connection = open_fixture_connection(&source_path);
+    connection
+        .execute(
+            "UPDATE kv_keys SET expires_at_ms = 0 WHERE key = ?1",
+            [&key],
+        )
+        .unwrap();
+    drop(connection);
+    assert!(
+        !source
+            .typed
+            .typed_wol_cooldown
+            .verify_and_repair("backup-target")
+            .await
+            .unwrap()
+    );
+    assert!(
+        source
+            .typed
+            .typed_wol_cooldown
+            .load("backup-target")
+            .await
+            .unwrap()
+            .is_none()
+    );
+    target
+        .clear_all_keys()
+        .await
+        .expect("clear target keyspace");
+    assert_eq!(target.typed.typed_wol_cooldown.count().await.unwrap(), 0);
+}
+
+#[tokio::test]
+async fn hmac_nonce_allows_one_concurrent_winner_and_stores_only_a_typed_digest() {
+    let (_dir, store) = open_test_store().await;
+    let nonce = "concurrent-sensitive-nonce";
+    let mut tasks = Vec::new();
+    for _ in 0..16 {
+        let store = store.clone();
+        tasks.push(tokio::spawn(async move {
+            store.set_nonce_if_not_exists(nonce, 60).await
+        }));
+    }
+    let mut winners = 0;
+    for task in tasks {
+        if task.await.unwrap().unwrap() {
+            winners += 1;
+        }
+    }
+    assert_eq!(winners, 1);
+    let typed = store
+        .typed
+        .typed_hmac_nonce
+        .load(nonce)
+        .await
+        .unwrap()
+        .expect("typed HMAC nonce");
+    assert_eq!(typed.nonce_digest.len(), 64);
+    assert_ne!(typed.nonce_digest, nonce);
+    assert!(typed.expires_at_ms > crate::time_utils::now_ms());
+}
+
+#[tokio::test]
+async fn hmac_nonce_repairs_legacy_authority_and_typed_failure_rolls_back() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let nonce = "repair-sensitive-nonce";
+    assert!(store.set_nonce_if_not_exists(nonce, 60).await.unwrap());
+
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute("UPDATE hmac_replay_nonces SET expires_at_ms = 1", [])
+        .unwrap();
+    drop(connection);
+    assert!(!store.set_nonce_if_not_exists(nonce, 60).await.unwrap());
+    assert!(
+        store
+            .typed
+            .typed_hmac_nonce
+            .load(nonce)
+            .await
+            .unwrap()
+            .unwrap()
+            .expires_at_ms
+            > crate::time_utils::now_ms()
+    );
+    let status = store.typed_hmac_nonce_shadow_status();
+    assert!(!status.healthy);
+    assert_eq!(status.mismatch_count, 1);
+
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute_batch(
+            "CREATE TRIGGER fail_typed_hmac_nonce_insert
+             BEFORE INSERT ON hmac_replay_nonces
+             BEGIN
+               SELECT RAISE(FAIL, 'forced typed HMAC nonce failure');
+             END;",
+        )
+        .unwrap();
+    drop(connection);
+    let rollback_nonce = "rollback-sensitive-nonce";
+    assert!(
+        store
+            .set_nonce_if_not_exists(rollback_nonce, 60)
+            .await
+            .is_err()
+    );
+    assert!(
+        store
+            .get_string_value(&format!(
+                "{}{}",
+                crate::storage::typed_hmac_nonce::NONCE_PREFIX,
+                rollback_nonce
+            ))
+            .await
+            .unwrap()
+            .is_none()
+    );
+    assert!(
+        store
+            .typed
+            .typed_hmac_nonce
+            .load(rollback_nonce)
+            .await
+            .unwrap()
+            .is_none()
+    );
+}
+
+#[tokio::test]
+async fn hmac_nonce_expiry_backup_and_clear_keep_typed_shadow_exact() {
+    let source_dir = tempfile::tempdir().expect("create source temp dir");
+    let source_path = source_dir.path().join("fn-knock.sqlite3");
+    let source = Store::connect(&source_path)
+        .await
+        .expect("open source store");
+    let nonce = "backup-sensitive-nonce";
+    source
+        .set_nonce_if_not_exists(nonce, 60)
+        .await
+        .expect("seed HMAC nonce");
+    let entries = source
+        .export_backup_entries_by_prefix_limited(
+            crate::storage::typed_hmac_nonce::NONCE_PREFIX,
+            1_000_000,
+            |_| true,
+        )
+        .await
+        .expect("export HMAC nonce");
+    let target_dir = tempfile::tempdir().expect("create target temp dir");
+    let target = Store::connect(target_dir.path().join("fn-knock.sqlite3"))
+        .await
+        .expect("open target store");
+    target
+        .replace_backup_entries_by_prefix("fn_knock:", &entries, 200)
+        .await
+        .expect("restore HMAC nonce");
+    assert!(
+        target
+            .typed
+            .typed_hmac_nonce
+            .load(nonce)
+            .await
+            .unwrap()
+            .is_some()
+    );
+
+    let key = format!(
+        "{}{}",
+        crate::storage::typed_hmac_nonce::NONCE_PREFIX,
+        nonce
+    );
+    let connection = open_fixture_connection(&source_path);
+    connection
+        .execute(
+            "UPDATE kv_keys SET expires_at_ms = 0 WHERE key = ?1",
+            [&key],
+        )
+        .unwrap();
+    drop(connection);
+    assert!(
+        !source
+            .typed
+            .typed_hmac_nonce
+            .verify_and_repair(nonce)
+            .await
+            .unwrap()
+    );
+    assert!(
+        source
+            .typed
+            .typed_hmac_nonce
+            .load(nonce)
+            .await
+            .unwrap()
+            .is_none()
+    );
+    target
+        .clear_all_keys()
+        .await
+        .expect("clear target keyspace");
+    assert_eq!(target.typed.typed_hmac_nonce.count().await.unwrap(), 0);
+}

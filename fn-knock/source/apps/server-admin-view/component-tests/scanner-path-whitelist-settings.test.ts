@@ -1,1 +1,240 @@
-aW1wb3J0IHsgZmx1c2hQcm9taXNlcywgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBkZWZpbmVDb21wb25lbnQsIGgsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IGNyZWF0ZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IGJlZm9yZUVhY2gsIGRlc2NyaWJlLCBleHBlY3QsIGl0LCB2aSB9IGZyb20gInZpdGVzdCI7Cgpjb25zdCBhcGkgPSB2aS5ob2lzdGVkKCgpID0+ICh7CiAgZ2V0UGF0aFdoaXRlbGlzdDogdmkuZm4oKSwKICB1cGRhdGVQYXRoV2hpdGVsaXN0OiB2aS5mbigpLAogIHJlc29sdmVGYWxzZVBvc2l0aXZlOiB2aS5mbigpLAp9KSk7CmNvbnN0IHRvYXN0ID0gdmkuaG9pc3RlZCgoKSA9PiAoeyBlcnJvcjogdmkuZm4oKSwgc3VjY2VzczogdmkuZm4oKSB9KSk7Cgp2aS5tb2NrKCJAL2xpYi9hcGkvc2VjdXJpdHkiLCAoKSA9PiAoewogIFNjYW5uZXJBUEk6IHsKICAgIGdldFBhdGhXaGl0ZWxpc3Q6IGFwaS5nZXRQYXRoV2hpdGVsaXN0LAogICAgdXBkYXRlUGF0aFdoaXRlbGlzdDogYXBpLnVwZGF0ZVBhdGhXaGl0ZWxpc3QsCiAgICByZXNvbHZlRmFsc2VQb3NpdGl2ZTogYXBpLnJlc29sdmVGYWxzZVBvc2l0aXZlLAogIH0sCn0pKTsKdmkubW9jaygiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCIsICgpID0+ICh7IHRvYXN0IH0pKTsKCmltcG9ydCB0eXBlIHsgU2Nhbm5lckJsYWNrbGlzdFJlY29yZCB9IGZyb20gIi4uL3NyYy9saWIvYXBpL3NlY3VyaXR5IjsKaW1wb3J0IEJsYWNrbGlzdEhpdHNUYWJsZSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvc2Vzc2lvbi9CbGFja2xpc3RIaXRzVGFibGUudnVlIjsKaW1wb3J0IHsgdXNlU2Nhbm5lckZhbHNlUG9zaXRpdmUgfSBmcm9tICIuLi9zcmMvdmlld3Mvc2Vzc2lvbi1tYW5hZ2VtZW50L3VzZVNjYW5uZXJGYWxzZVBvc2l0aXZlIjsKaW1wb3J0IHsgdXNlU2Nhbm5lclBhdGhXaGl0ZWxpc3RTZXR0aW5ncyB9IGZyb20gIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3Mvc2Nhbm5lci1wYXRoLXdoaXRlbGlzdC91c2VTY2FubmVyUGF0aFdoaXRlbGlzdFNldHRpbmdzIjsKCmNvbnN0IGkxOG4gPSAoKSA9PgogIGNyZWF0ZUkxOG4oewogICAgbGVnYWN5OiBmYWxzZSwKICAgIGxvY2FsZTogImVuIiwKICAgIG1pc3NpbmdXYXJuOiBmYWxzZSwKICAgIGZhbGxiYWNrV2FybjogZmFsc2UsCiAgICBtZXNzYWdlczogeyBlbjoge30gfSwKICB9KTsKCmNvbnN0IG1vdW50V2hpdGVsaXN0SG9vayA9ICgpID0+IHsKICBsZXQgbW9kZWwhOiBSZXR1cm5UeXBlPHR5cGVvZiB1c2VTY2FubmVyUGF0aFdoaXRlbGlzdFNldHRpbmdzPjsKICBjb25zdCBoYXJuZXNzID0gZGVmaW5lQ29tcG9uZW50KHsKICAgIHNldHVwKCkgewogICAgICBtb2RlbCA9IHVzZVNjYW5uZXJQYXRoV2hpdGVsaXN0U2V0dGluZ3MoKTsKICAgICAgcmV0dXJuICgpID0+IGgoImRpdiIpOwogICAgfSwKICB9KTsKICBjb25zdCB3cmFwcGVyID0gbW91bnQoaGFybmVzcywgeyBnbG9iYWw6IHsgcGx1Z2luczogW2kxOG4oKV0gfSB9KTsKICByZXR1cm4geyBtb2RlbCwgd3JhcHBlciB9Owp9OwoKZGVzY3JpYmUoInNjYW5uZXIgcGF0aCB3aGl0ZWxpc3Qgc2V0dGluZ3MgaG9vayIsICgpID0+IHsKICBiZWZvcmVFYWNoKCgpID0+IHsKICAgIHZpLmNsZWFyQWxsTW9ja3MoKTsKICAgIGFwaS5nZXRQYXRoV2hpdGVsaXN0Lm1vY2tSZXNvbHZlZFZhbHVlKHsKICAgICAgcGF0aHM6IFsiL3NhdmVkIl0sCiAgICAgIGRlZmF1bHRQYXRoczogWyIvIiwgIi9kZWZhdWx0Il0sCiAgICB9KTsKICAgIGFwaS51cGRhdGVQYXRoV2hpdGVsaXN0Lm1vY2tJbXBsZW1lbnRhdGlvbigKICAgICAgYXN5bmMgKHsgcGF0aHMgfTogeyBwYXRoczogc3RyaW5nW10gfSkgPT4gKHsKICAgICAgICBwYXRocywKICAgICAgICBkZWZhdWx0UGF0aHM6IFsiLyIsICIvZGVmYXVsdCJdLAogICAgICB9KSwKICAgICk7CiAgfSk7CgogIGl0KCJsb2FkcywgZWRpdHMsIHZhbGlkYXRlcywgc2F2ZXMsIHJlc3RvcmVzLCBhbmQgZGlzY2FyZHMgb25lIGRyYWZ0IiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgeyBtb2RlbCwgd3JhcHBlciB9ID0gbW91bnRXaGl0ZWxpc3RIb29rKCk7CiAgICBleHBlY3QobW9kZWwuaXNMb2FkaW5nKS50b0JlKHRydWUpOwogICAgYXdhaXQgZmx1c2hQcm9taXNlcygpOwogICAgZXhwZWN0KG1vZGVsLmVudHJpZXMubWFwKChlbnRyeSkgPT4gZW50cnkudmFsdWUpKS50b0VxdWFsKFsiL3NhdmVkIl0pOwogICAgZXhwZWN0KG1vZGVsLmlzRGlydHkpLnRvQmUoZmFsc2UpOwoKICAgIG1vZGVsLmFkZEVudHJ5KCk7CiAgICBjb25zdCBhZGRlZCA9IG1vZGVsLmVudHJpZXMuYXQoLTEpITsKICAgIGV4cGVjdChtb2RlbC5lbnRyeUVycm9yc1thZGRlZC5pZF0pLnRvQmVUcnV0aHkoKTsKICAgIGF3YWl0IG1vZGVsLnNhdmVTZXR0aW5ncygpOwogICAgZXhwZWN0KGFwaS51cGRhdGVQYXRoV2hpdGVsaXN0KS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwoKICAgIG1vZGVsLnNldEVudHJ5UGF0aChhZGRlZC5pZCwgIi9jdXN0b20vP3NvdXJjZT10ZXN0I3NlY3Rpb24iKTsKICAgIGV4cGVjdChtb2RlbC5pc0RpcnR5KS50b0JlKHRydWUpOwogICAgYXdhaXQgbW9kZWwuc2F2ZVNldHRpbmdzKCk7CiAgICBleHBlY3QoYXBpLnVwZGF0ZVBhdGhXaGl0ZWxpc3QpLnRvSGF2ZUJlZW5DYWxsZWRXaXRoKHsKICAgICAgcGF0aHM6IFsiL3NhdmVkIiwgIi9jdXN0b20iXSwKICAgIH0pOwogICAgZXhwZWN0KG1vZGVsLmlzRGlydHkpLnRvQmUoZmFsc2UpOwoKICAgIG1vZGVsLnJlc3RvcmVEZWZhdWx0cygpOwogICAgZXhwZWN0KG1vZGVsLmVudHJpZXMubWFwKChlbnRyeSkgPT4gZW50cnkudmFsdWUpKS50b0VxdWFsKFsKICAgICAgIi8iLAogICAgICAiL2RlZmF1bHQiLAogICAgXSk7CiAgICBleHBlY3QobW9kZWwuaXNEaXJ0eSkudG9CZSh0cnVlKTsKICAgIGV4cGVjdChhcGkudXBkYXRlUGF0aFdoaXRlbGlzdCkudG9IYXZlQmVlbkNhbGxlZFRpbWVzKDEpOwogICAgbW9kZWwuZGlzY2FyZENoYW5nZXMoKTsKICAgIGV4cGVjdChtb2RlbC5lbnRyaWVzLm1hcCgoZW50cnkpID0+IGVudHJ5LnZhbHVlKSkudG9FcXVhbChbCiAgICAgICIvc2F2ZWQiLAogICAgICAiL2N1c3RvbSIsCiAgICBdKTsKICAgIGV4cGVjdChtb2RlbC5pc0RpcnR5KS50b0JlKGZhbHNlKTsKICAgIHdyYXBwZXIudW5tb3VudCgpOwogIH0pOwoKICBpdCgiZXhwb3NlcyBhIHJlY292ZXJhYmxlIGxvYWQgZXJyb3IgaW5zdGVhZCBvZiBhbiBlbXB0eSBlZGl0YWJsZSBkcmFmdCIsIGFzeW5jICgpID0+IHsKICAgIGFwaS5nZXRQYXRoV2hpdGVsaXN0Lm1vY2tSZWplY3RlZFZhbHVlT25jZShuZXcgRXJyb3IoImxvYWQgZmFpbGVkIikpOwogICAgY29uc3QgeyBtb2RlbCwgd3JhcHBlciB9ID0gbW91bnRXaGl0ZWxpc3RIb29rKCk7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CgogICAgZXhwZWN0KG1vZGVsLmhhc1NldHRpbmdzKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChtb2RlbC5sb2FkRXJyb3IpLnRvQmUoImxvYWQgZmFpbGVkIik7CiAgICBleHBlY3QobW9kZWwuZW50cmllcykudG9FcXVhbChbXSk7CgogICAgYXBpLmdldFBhdGhXaGl0ZWxpc3QubW9ja1Jlc29sdmVkVmFsdWVPbmNlKHsKICAgICAgcGF0aHM6IFsiL3JlY292ZXJlZCJdLAogICAgICBkZWZhdWx0UGF0aHM6IFsiLyJdLAogICAgfSk7CiAgICBhd2FpdCBtb2RlbC5mZXRjaFNldHRpbmdzKCk7CiAgICBleHBlY3QobW9kZWwubG9hZEVycm9yKS50b0JlKCIiKTsKICAgIGV4cGVjdChtb2RlbC5oYXNTZXR0aW5ncykudG9CZSh0cnVlKTsKICAgIGV4cGVjdChtb2RlbC5lbnRyaWVzLm1hcCgoZW50cnkpID0+IGVudHJ5LnZhbHVlKSkudG9FcXVhbChbIi9yZWNvdmVyZWQiXSk7CiAgICB3cmFwcGVyLnVubW91bnQoKTsKICB9KTsKfSk7Cgp0eXBlIEZhbHNlUG9zaXRpdmVIYXJuZXNzID0gUmV0dXJuVHlwZTx0eXBlb2YgdXNlU2Nhbm5lckZhbHNlUG9zaXRpdmU+OwoKY29uc3QgbW91bnRGYWxzZVBvc2l0aXZlSG9vayA9IChmZXRjaEJsYWNrbGlzdCA9IHZpLmZuKGFzeW5jICgpID0+IHt9KSkgPT4gewogIGNvbnN0IHJlY29yZCA9IHJlZjxTY2FubmVyQmxhY2tsaXN0UmVjb3JkIHwgbnVsbD4oewogICAgaXA6ICIyMDMuMC4xMTMuMjAiLAogICAgYmxvY2tlZEF0OiBEYXRlLm5vdygpLAogICAgd2luZG93TWludXRlczogNSwKICAgIHRocmVzaG9sZDogMywKICAgIGhpdHM6IFtdLAogIH0pOwogIGNvbnN0IG9wZW4gPSByZWYodHJ1ZSk7CiAgY29uc3Qgc2VsZWN0ZWRJcHMgPSByZWYobmV3IFNldChbIjIwMy4wLjExMy4yMCIsICIyMDMuMC4xMTMuMjEiXSkpOwogIGNvbnN0IGNsZWFyU2VsZWN0aW9uID0gdmkuZm4oKCkgPT4gewogICAgc2VsZWN0ZWRJcHMudmFsdWUgPSBuZXcgU2V0KCk7CiAgfSk7CiAgbGV0IG1vZGVsITogRmFsc2VQb3NpdGl2ZUhhcm5lc3M7CiAgY29uc3QgaGFybmVzcyA9IGRlZmluZUNvbXBvbmVudCh7CiAgICBzZXR1cCgpIHsKICAgICAgbW9kZWwgPSB1c2VTY2FubmVyRmFsc2VQb3NpdGl2ZSh7CiAgICAgICAgY2xlYXJTZWxlY3Rpb24sCiAgICAgICAgZGV0YWlsUmVjb3JkOiByZWNvcmQsCiAgICAgICAgaXNEZXRhaWxzTW9kYWxPcGVuOiBvcGVuLAogICAgICAgIGZldGNoQmxhY2tsaXN0LAogICAgICB9KTsKICAgICAgcmV0dXJuICgpID0+IGgoImRpdiIpOwogICAgfSwKICB9KTsKICBjb25zdCB3cmFwcGVyID0gbW91bnQoaGFybmVzcywgeyBnbG9iYWw6IHsgcGx1Z2luczogW2kxOG4oKV0gfSB9KTsKICByZXR1cm4gewogICAgY2xlYXJTZWxlY3Rpb24sCiAgICBmZXRjaEJsYWNrbGlzdCwKICAgIG1vZGVsLAogICAgb3BlbiwKICAgIHJlY29yZCwKICAgIHNlbGVjdGVkSXBzLAogICAgd3JhcHBlciwKICB9Owp9OwoKZGVzY3JpYmUoInNjYW5uZXIgZmFsc2UtcG9zaXRpdmUgaG9vayIsICgpID0+IHsKICBiZWZvcmVFYWNoKCgpID0+IHZpLmNsZWFyQWxsTW9ja3MoKSk7CgogIGl0KCJwcmV2ZW50cyBkdXBsaWNhdGUgcmVxdWVzdHMgYW5kIGNsZWFycyB0aGUgZGV0YWlsIGFmdGVyIHVuYmxvY2tpbmciLCBhc3luYyAoKSA9PiB7CiAgICBsZXQgZmluaXNoITogKHZhbHVlOiB1bmtub3duKSA9PiB2b2lkOwogICAgYXBpLnJlc29sdmVGYWxzZVBvc2l0aXZlLm1vY2tSZXR1cm5WYWx1ZSgKICAgICAgbmV3IFByb21pc2UoKHJlc29sdmUpID0+IHsKICAgICAgICBmaW5pc2ggPSByZXNvbHZlOwogICAgICB9KSwKICAgICk7CiAgICBjb25zdCBjb250ZXh0ID0gbW91bnRGYWxzZVBvc2l0aXZlSG9vaygpOwoKICAgIGNvbnN0IHBlbmRpbmcgPSBjb250ZXh0Lm1vZGVsLnJlc29sdmVGYWxzZVBvc2l0aXZlKCIvbGVnaXRpbWF0ZS8iKTsKICAgIHZvaWQgY29udGV4dC5tb2RlbC5yZXNvbHZlRmFsc2VQb3NpdGl2ZSgiL2xlZ2l0aW1hdGUvIik7CiAgICBleHBlY3QoYXBpLnJlc29sdmVGYWxzZVBvc2l0aXZlKS50b0hhdmVCZWVuQ2FsbGVkVGltZXMoMSk7CiAgICBleHBlY3QoYXBpLnJlc29sdmVGYWxzZVBvc2l0aXZlKS50b0hhdmVCZWVuQ2FsbGVkV2l0aCh7CiAgICAgIGlwOiAiMjAzLjAuMTEzLjIwIiwKICAgICAgcGF0aDogIi9sZWdpdGltYXRlLyIsCiAgICB9KTsKICAgIGV4cGVjdChjb250ZXh0Lm1vZGVsLmlzUmVzb2x2aW5nRmFsc2VQb3NpdGl2ZS52YWx1ZSkudG9CZSh0cnVlKTsKCiAgICBmaW5pc2goewogICAgICBpcDogIjIwMy4wLjExMy4yMCIsCiAgICAgIHBhdGg6ICIvbGVnaXRpbWF0ZSIsCiAgICAgIGFkZGVkOiB0cnVlLAogICAgICB1bmJsb2NrZWQ6IHRydWUsCiAgICB9KTsKICAgIGF3YWl0IHBlbmRpbmc7CiAgICBleHBlY3QoY29udGV4dC5vcGVuLnZhbHVlKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChjb250ZXh0LnJlY29yZC52YWx1ZSkudG9CZU51bGwoKTsKICAgIGV4cGVjdChjb250ZXh0LnNlbGVjdGVkSXBzLnZhbHVlLnNpemUpLnRvQmUoMCk7CiAgICBleHBlY3QoY29udGV4dC5jbGVhclNlbGVjdGlvbikudG9IYXZlQmVlbkNhbGxlZE9uY2UoKTsKICAgIGV4cGVjdChjb250ZXh0LmZldGNoQmxhY2tsaXN0KS50b0hhdmVCZWVuQ2FsbGVkT25jZSgpOwogICAgY29udGV4dC53cmFwcGVyLnVubW91bnQoKTsKICB9KTsKCiAgaXQoInJldGFpbnMgdGhlIGRldGFpbCB3aGVuIHRoZSByZXF1ZXN0IGZhaWxzIiwgYXN5bmMgKCkgPT4gewogICAgYXBpLnJlc29sdmVGYWxzZVBvc2l0aXZlLm1vY2tSZWplY3RlZFZhbHVlKG5ldyBFcnJvcigiZmFpbGVkIikpOwogICAgY29uc3QgY29udGV4dCA9IG1vdW50RmFsc2VQb3NpdGl2ZUhvb2soKTsKICAgIGF3YWl0IGNvbnRleHQubW9kZWwucmVzb2x2ZUZhbHNlUG9zaXRpdmUoIi9sZWdpdGltYXRlIik7CiAgICBleHBlY3QoY29udGV4dC5vcGVuLnZhbHVlKS50b0JlKHRydWUpOwogICAgZXhwZWN0KGNvbnRleHQucmVjb3JkLnZhbHVlPy5pcCkudG9CZSgiMjAzLjAuMTEzLjIwIik7CiAgICBleHBlY3QoY29udGV4dC5mZXRjaEJsYWNrbGlzdCkubm90LnRvSGF2ZUJlZW5DYWxsZWQoKTsKICAgIGV4cGVjdCh0b2FzdC5lcnJvcikudG9IYXZlQmVlbkNhbGxlZE9uY2UoKTsKICAgIGNvbnRleHQud3JhcHBlci51bm1vdW50KCk7CiAgfSk7Cn0pOwoKZGVzY3JpYmUoImJsYWNrbGlzdCBoaXQgdGFibGUgYWN0aW9ucyIsICgpID0+IHsKICBjb25zdCByb3dzID0gWwogICAgewogICAgICBrZXk6ICJvbmUiLAogICAgICB0aW1lOiAiMjAyNi0wOC0xOSAwMjowMCIsCiAgICAgIHBhdGg6ICIvbGVnaXRpbWF0ZSIsCiAgICAgIGludGVydmFsOiAiMXMiLAogICAgfSwKICBdOwoKICBpdCgiYWRkcyBhbiBhY3Rpb24gY29sdW1uIG9ubHkgd2hlbiB0aGUgY2FsbGVyIHN1cHBsaWVzIHRoZSBzbG90IiwgKCkgPT4gewogICAgY29uc3QgcGxhaW4gPSBtb3VudChCbGFja2xpc3RIaXRzVGFibGUsIHsKICAgICAgcHJvcHM6IHsgcm93cyB9LAogICAgICBnbG9iYWw6IHsgcGx1Z2luczogW2kxOG4oKV0gfSwKICAgIH0pOwogICAgZXhwZWN0KHBsYWluLmZpbmRBbGwoInRoIikpLnRvSGF2ZUxlbmd0aCgzKTsKICAgIHBsYWluLnVubW91bnQoKTsKCiAgICBjb25zdCBhY3Rpb25hYmxlID0gbW91bnQoQmxhY2tsaXN0SGl0c1RhYmxlLCB7CiAgICAgIHByb3BzOiB7IHJvd3MgfSwKICAgICAgc2xvdHM6IHsKICAgICAgICBhY3Rpb246ICh7IHJvdyB9OiB7IHJvdzogKHR5cGVvZiByb3dzKVtudW1iZXJdIH0pID0+CiAgICAgICAgICBoKCJidXR0b24iLCB7ICJkYXRhLXBhdGgiOiByb3cucGF0aCB9LCAiQWxsb3ciKSwKICAgICAgfSwKICAgICAgZ2xvYmFsOiB7IHBsdWdpbnM6IFtpMThuKCldIH0sCiAgICB9KTsKICAgIGV4cGVjdChhY3Rpb25hYmxlLmZpbmRBbGwoInRoIikpLnRvSGF2ZUxlbmd0aCg0KTsKICAgIGV4cGVjdChhY3Rpb25hYmxlLmdldCgiYnV0dG9uIikuYXR0cmlidXRlcygiZGF0YS1wYXRoIikpLnRvQmUoCiAgICAgICIvbGVnaXRpbWF0ZSIsCiAgICApOwogICAgYWN0aW9uYWJsZS51bm1vdW50KCk7CiAgfSk7Cn0pOwo=
+import { flushPromises, mount } from "@vue/test-utils";
+import { defineComponent, h, ref } from "vue";
+import { createI18n } from "vue-i18n";
+import { beforeEach, describe, expect, it, vi } from "vitest";
+
+const api = vi.hoisted(() => ({
+  getPathWhitelist: vi.fn(),
+  updatePathWhitelist: vi.fn(),
+  resolveFalsePositive: vi.fn(),
+}));
+const toast = vi.hoisted(() => ({ error: vi.fn(), success: vi.fn() }));
+
+vi.mock("@/lib/api/security", () => ({
+  ScannerAPI: {
+    getPathWhitelist: api.getPathWhitelist,
+    updatePathWhitelist: api.updatePathWhitelist,
+    resolveFalsePositive: api.resolveFalsePositive,
+  },
+}));
+vi.mock("@admin-shared/utils/toast", () => ({ toast }));
+
+import type { ScannerBlacklistRecord } from "../src/lib/api/security";
+import BlacklistHitsTable from "@admin-shared/components/session/BlacklistHitsTable.vue";
+import { useScannerFalsePositive } from "../src/views/session-management/useScannerFalsePositive";
+import { useScannerPathWhitelistSettings } from "../src/views/system-settings/scanner-path-whitelist/useScannerPathWhitelistSettings";
+
+const i18n = () =>
+  createI18n({
+    legacy: false,
+    locale: "en",
+    missingWarn: false,
+    fallbackWarn: false,
+    messages: { en: {} },
+  });
+
+const mountWhitelistHook = () => {
+  let model!: ReturnType<typeof useScannerPathWhitelistSettings>;
+  const harness = defineComponent({
+    setup() {
+      model = useScannerPathWhitelistSettings();
+      return () => h("div");
+    },
+  });
+  const wrapper = mount(harness, { global: { plugins: [i18n()] } });
+  return { model, wrapper };
+};
+
+describe("scanner path whitelist settings hook", () => {
+  beforeEach(() => {
+    vi.clearAllMocks();
+    api.getPathWhitelist.mockResolvedValue({
+      paths: ["/saved"],
+      defaultPaths: ["/", "/default"],
+    });
+    api.updatePathWhitelist.mockImplementation(
+      async ({ paths }: { paths: string[] }) => ({
+        paths,
+        defaultPaths: ["/", "/default"],
+      }),
+    );
+  });
+
+  it("loads, edits, validates, saves, restores, and discards one draft", async () => {
+    const { model, wrapper } = mountWhitelistHook();
+    expect(model.isLoading).toBe(true);
+    await flushPromises();
+    expect(model.entries.map((entry) => entry.value)).toEqual(["/saved"]);
+    expect(model.isDirty).toBe(false);
+
+    model.addEntry();
+    const added = model.entries.at(-1)!;
+    expect(model.entryErrors[added.id]).toBeTruthy();
+    await model.saveSettings();
+    expect(api.updatePathWhitelist).not.toHaveBeenCalled();
+
+    model.setEntryPath(added.id, "/custom/?source=test#section");
+    expect(model.isDirty).toBe(true);
+    await model.saveSettings();
+    expect(api.updatePathWhitelist).toHaveBeenCalledWith({
+      paths: ["/saved", "/custom"],
+    });
+    expect(model.isDirty).toBe(false);
+
+    model.restoreDefaults();
+    expect(model.entries.map((entry) => entry.value)).toEqual([
+      "/",
+      "/default",
+    ]);
+    expect(model.isDirty).toBe(true);
+    expect(api.updatePathWhitelist).toHaveBeenCalledTimes(1);
+    model.discardChanges();
+    expect(model.entries.map((entry) => entry.value)).toEqual([
+      "/saved",
+      "/custom",
+    ]);
+    expect(model.isDirty).toBe(false);
+    wrapper.unmount();
+  });
+
+  it("exposes a recoverable load error instead of an empty editable draft", async () => {
+    api.getPathWhitelist.mockRejectedValueOnce(new Error("load failed"));
+    const { model, wrapper } = mountWhitelistHook();
+    await flushPromises();
+
+    expect(model.hasSettings).toBe(false);
+    expect(model.loadError).toBe("load failed");
+    expect(model.entries).toEqual([]);
+
+    api.getPathWhitelist.mockResolvedValueOnce({
+      paths: ["/recovered"],
+      defaultPaths: ["/"],
+    });
+    await model.fetchSettings();
+    expect(model.loadError).toBe("");
+    expect(model.hasSettings).toBe(true);
+    expect(model.entries.map((entry) => entry.value)).toEqual(["/recovered"]);
+    wrapper.unmount();
+  });
+});
+
+type FalsePositiveHarness = ReturnType<typeof useScannerFalsePositive>;
+
+const mountFalsePositiveHook = (fetchBlacklist = vi.fn(async () => {})) => {
+  const record = ref<ScannerBlacklistRecord | null>({
+    ip: "203.0.113.20",
+    blockedAt: Date.now(),
+    windowMinutes: 5,
+    threshold: 3,
+    hits: [],
+  });
+  const open = ref(true);
+  const selectedIps = ref(new Set(["203.0.113.20", "203.0.113.21"]));
+  const clearSelection = vi.fn(() => {
+    selectedIps.value = new Set();
+  });
+  let model!: FalsePositiveHarness;
+  const harness = defineComponent({
+    setup() {
+      model = useScannerFalsePositive({
+        clearSelection,
+        detailRecord: record,
+        isDetailsModalOpen: open,
+        fetchBlacklist,
+      });
+      return () => h("div");
+    },
+  });
+  const wrapper = mount(harness, { global: { plugins: [i18n()] } });
+  return {
+    clearSelection,
+    fetchBlacklist,
+    model,
+    open,
+    record,
+    selectedIps,
+    wrapper,
+  };
+};
+
+describe("scanner false-positive hook", () => {
+  beforeEach(() => vi.clearAllMocks());
+
+  it("prevents duplicate requests and clears the detail after unblocking", async () => {
+    let finish!: (value: unknown) => void;
+    api.resolveFalsePositive.mockReturnValue(
+      new Promise((resolve) => {
+        finish = resolve;
+      }),
+    );
+    const context = mountFalsePositiveHook();
+
+    const pending = context.model.resolveFalsePositive("/legitimate/");
+    void context.model.resolveFalsePositive("/legitimate/");
+    expect(api.resolveFalsePositive).toHaveBeenCalledTimes(1);
+    expect(api.resolveFalsePositive).toHaveBeenCalledWith({
+      ip: "203.0.113.20",
+      path: "/legitimate/",
+    });
+    expect(context.model.isResolvingFalsePositive.value).toBe(true);
+
+    finish({
+      ip: "203.0.113.20",
+      path: "/legitimate",
+      added: true,
+      unblocked: true,
+    });
+    await pending;
+    expect(context.open.value).toBe(false);
+    expect(context.record.value).toBeNull();
+    expect(context.selectedIps.value.size).toBe(0);
+    expect(context.clearSelection).toHaveBeenCalledOnce();
+    expect(context.fetchBlacklist).toHaveBeenCalledOnce();
+    context.wrapper.unmount();
+  });
+
+  it("retains the detail when the request fails", async () => {
+    api.resolveFalsePositive.mockRejectedValue(new Error("failed"));
+    const context = mountFalsePositiveHook();
+    await context.model.resolveFalsePositive("/legitimate");
+    expect(context.open.value).toBe(true);
+    expect(context.record.value?.ip).toBe("203.0.113.20");
+    expect(context.fetchBlacklist).not.toHaveBeenCalled();
+    expect(toast.error).toHaveBeenCalledOnce();
+    context.wrapper.unmount();
+  });
+});
+
+describe("blacklist hit table actions", () => {
+  const rows = [
+    {
+      key: "one",
+      time: "2026-08-19 02:00",
+      path: "/legitimate",
+      interval: "1s",
+    },
+  ];
+
+  it("adds an action column only when the caller supplies the slot", () => {
+    const plain = mount(BlacklistHitsTable, {
+      props: { rows },
+      global: { plugins: [i18n()] },
+    });
+    expect(plain.findAll("th")).toHaveLength(3);
+    plain.unmount();
+
+    const actionable = mount(BlacklistHitsTable, {
+      props: { rows },
+      slots: {
+        action: ({ row }: { row: (typeof rows)[number] }) =>
+          h("button", { "data-path": row.path }, "Allow"),
+      },
+      global: { plugins: [i18n()] },
+    });
+    expect(actionable.findAll("th")).toHaveLength(4);
+    expect(actionable.get("button").attributes("data-path")).toBe(
+      "/legitimate",
+    );
+    actionable.unmount();
+  });
+});

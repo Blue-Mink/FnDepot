@@ -1,1 +1,551 @@
-Ly8gVE9ETzogcmVhZCBhbGwgb2YgdGhpcyBmcm9tIHRlcm1pbmZvCgpwdWIgdHJhaXQgQnVmV3JpdGUgewogICAgZm4gd3JpdGVfYnVmKCZzZWxmLCBidWY6ICZtdXQgVmVjPHU4Pik7Cn0KCiNbZGVyaXZlKERlZmF1bHQsIERlYnVnKV0KI1ttdXN0X3VzZSA9ICJ0aGlzIHN0cnVjdCBkb2VzIG5vdGhpbmcgdW5sZXNzIHlvdSBjYWxsIHdyaXRlX2J1ZiJdCnB1YiBzdHJ1Y3QgQ2xlYXJTY3JlZW47CgppbXBsIEJ1ZldyaXRlIGZvciBDbGVhclNjcmVlbiB7CiAgICBmbiB3cml0ZV9idWYoJnNlbGYsIGJ1ZjogJm11dCBWZWM8dTg+KSB7CiAgICAgICAgYnVmLmV4dGVuZF9mcm9tX3NsaWNlKGIiXHgxYltIXHgxYltKIik7CiAgICB9Cn0KCiNbZGVyaXZlKERlZmF1bHQsIERlYnVnKV0KI1ttdXN0X3VzZSA9ICJ0aGlzIHN0cnVjdCBkb2VzIG5vdGhpbmcgdW5sZXNzIHlvdSBjYWxsIHdyaXRlX2J1ZiJdCnB1YiBzdHJ1Y3QgQ2xlYXJSb3dGb3J3YXJkOwoKaW1wbCBCdWZXcml0ZSBmb3IgQ2xlYXJSb3dGb3J3YXJkIHsKICAgIGZuIHdyaXRlX2J1Zigmc2VsZiwgYnVmOiAmbXV0IFZlYzx1OD4pIHsKICAgICAgICBidWYuZXh0ZW5kX2Zyb21fc2xpY2UoYiJceDFiW0siKTsKICAgIH0KfQoKI1tkZXJpdmUoRGVmYXVsdCwgRGVidWcpXQojW211c3RfdXNlID0gInRoaXMgc3RydWN0IGRvZXMgbm90aGluZyB1bmxlc3MgeW91IGNhbGwgd3JpdGVfYnVmIl0KcHViIHN0cnVjdCBDcmxmOwoKaW1wbCBCdWZXcml0ZSBmb3IgQ3JsZiB7CiAgICBmbiB3cml0ZV9idWYoJnNlbGYsIGJ1ZjogJm11dCBWZWM8dTg+KSB7CiAgICAgICAgYnVmLmV4dGVuZF9mcm9tX3NsaWNlKGIiXHJcbiIpOwogICAgfQp9CgojW2Rlcml2ZShEZWZhdWx0LCBEZWJ1ZyldCiNbbXVzdF91c2UgPSAidGhpcyBzdHJ1Y3QgZG9lcyBub3RoaW5nIHVubGVzcyB5b3UgY2FsbCB3cml0ZV9idWYiXQpwdWIgc3RydWN0IEJhY2tzcGFjZTsKCmltcGwgQnVmV3JpdGUgZm9yIEJhY2tzcGFjZSB7CiAgICBmbiB3cml0ZV9idWYoJnNlbGYsIGJ1ZjogJm11dCBWZWM8dTg+KSB7CiAgICAgICAgYnVmLmV4dGVuZF9mcm9tX3NsaWNlKGIiXHgwOCIpOwogICAgfQp9CgojW2Rlcml2ZShEZWZhdWx0LCBEZWJ1ZyldCiNbbXVzdF91c2UgPSAidGhpcyBzdHJ1Y3QgZG9lcyBub3RoaW5nIHVubGVzcyB5b3UgY2FsbCB3cml0ZV9idWYiXQpwdWIgc3RydWN0IFNhdmVDdXJzb3I7CgppbXBsIEJ1ZldyaXRlIGZvciBTYXZlQ3Vyc29yIHsKICAgIGZuIHdyaXRlX2J1Zigmc2VsZiwgYnVmOiAmbXV0IFZlYzx1OD4pIHsKICAgICAgICBidWYuZXh0ZW5kX2Zyb21fc2xpY2UoYiJceDFiNyIpOwogICAgfQp9CgojW2Rlcml2ZShEZWZhdWx0LCBEZWJ1ZyldCiNbbXVzdF91c2UgPSAidGhpcyBzdHJ1Y3QgZG9lcyBub3RoaW5nIHVubGVzcyB5b3UgY2FsbCB3cml0ZV9idWYiXQpwdWIgc3RydWN0IFJlc3RvcmVDdXJzb3I7CgppbXBsIEJ1ZldyaXRlIGZvciBSZXN0b3JlQ3Vyc29yIHsKICAgIGZuIHdyaXRlX2J1Zigmc2VsZiwgYnVmOiAmbXV0IFZlYzx1OD4pIHsKICAgICAgICBidWYuZXh0ZW5kX2Zyb21fc2xpY2UoYiJceDFiOCIpOwogICAgfQp9CgojW2Rlcml2ZShEZWZhdWx0LCBEZWJ1ZyldCiNbbXVzdF91c2UgPSAidGhpcyBzdHJ1Y3QgZG9lcyBub3RoaW5nIHVubGVzcyB5b3UgY2FsbCB3cml0ZV9idWYiXQpwdWIgc3RydWN0IE1vdmVUbyB7CiAgICByb3c6IHUxNiwKICAgIGNvbDogdTE2LAp9CgppbXBsIE1vdmVUbyB7CiAgICBwdWIgZm4gbmV3KHBvczogY3JhdGU6OmdyaWQ6OlBvcykgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7CiAgICAgICAgICAgIHJvdzogcG9zLnJvdywKICAgICAgICAgICAgY29sOiBwb3MuY29sLAogICAgICAgIH0KICAgIH0KfQoKaW1wbCBCdWZXcml0ZSBmb3IgTW92ZVRvIHsKICAgIGZuIHdyaXRlX2J1Zigmc2VsZiwgYnVmOiAmbXV0IFZlYzx1OD4pIHsKICAgICAgICBpZiBzZWxmLnJvdyA9PSAwICYmIHNlbGYuY29sID09IDAgewogICAgICAgICAgICBidWYuZXh0ZW5kX2Zyb21fc2xpY2UoYiJceDFiW0giKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBidWYuZXh0ZW5kX2Zyb21fc2xpY2UoYiJceDFiWyIpOwogICAgICAgICAgICBleHRlbmRfaXRvYShidWYsIHNlbGYucm93ICsgMSk7CiAgICAgICAgICAgIGJ1Zi5wdXNoKGInOycpOwogICAgICAgICAgICBleHRlbmRfaXRvYShidWYsIHNlbGYuY29sICsgMSk7CiAgICAgICAgICAgIGJ1Zi5wdXNoKGInSCcpOwogICAgICAgIH0KICAgIH0KfQoKI1tkZXJpdmUoRGVmYXVsdCwgRGVidWcpXQojW211c3RfdXNlID0gInRoaXMgc3RydWN0IGRvZXMgbm90aGluZyB1bmxlc3MgeW91IGNhbGwgd3JpdGVfYnVmIl0KcHViIHN0cnVjdCBDbGVhckF0dHJzOwoKaW1wbCBCdWZXcml0ZSBmb3IgQ2xlYXJBdHRycyB7CiAgICBmbiB3cml0ZV9idWYoJnNlbGYsIGJ1ZjogJm11dCBWZWM8dTg+KSB7CiAgICAgICAgYnVmLmV4dGVuZF9mcm9tX3NsaWNlKGIiXHgxYlttIik7CiAgICB9Cn0KCiNbZGVyaXZlKERlYnVnLCBDbG9uZSwgQ29weSldCnB1YiBlbnVtIEludGVuc2l0eSB7CiAgICBOb3JtYWwsCiAgICBCb2xkLAogICAgRGltLAp9CgojW2Rlcml2ZShEZWZhdWx0LCBEZWJ1ZyldCiNbbXVzdF91c2UgPSAidGhpcyBzdHJ1Y3QgZG9lcyBub3RoaW5nIHVubGVzcyB5b3UgY2FsbCB3cml0ZV9idWYiXQpwdWIgc3RydWN0IEF0dHJzIHsKICAgIGZnY29sb3I6IE9wdGlvbjxjcmF0ZTo6Q29sb3I+LAogICAgYmdjb2xvcjogT3B0aW9uPGNyYXRlOjpDb2xvcj4sCiAgICBpbnRlbnNpdHk6IE9wdGlvbjxJbnRlbnNpdHk+LAogICAgaXRhbGljOiBPcHRpb248Ym9vbD4sCiAgICB1bmRlcmxpbmU6IE9wdGlvbjxib29sPiwKICAgIGludmVyc2U6IE9wdGlvbjxib29sPiwKfQoKaW1wbCBBdHRycyB7CiAgICBwdWIgZm4gZmdjb2xvcihtdXQgc2VsZiwgZmdjb2xvcjogY3JhdGU6OkNvbG9yKSAtPiBTZWxmIHsKICAgICAgICBzZWxmLmZnY29sb3IgPSBTb21lKGZnY29sb3IpOwogICAgICAgIHNlbGYKICAgIH0KCiAgICBwdWIgZm4gYmdjb2xvcihtdXQgc2VsZiwgYmdjb2xvcjogY3JhdGU6OkNvbG9yKSAtPiBTZWxmIHsKICAgICAgICBzZWxmLmJnY29sb3IgPSBTb21lKGJnY29sb3IpOwogICAgICAgIHNlbGYKICAgIH0KCiAgICBwdWIgZm4gaW50ZW5zaXR5KG11dCBzZWxmLCBpbnRlbnNpdHk6IEludGVuc2l0eSkgLT4gU2VsZiB7CiAgICAgICAgc2VsZi5pbnRlbnNpdHkgPSBTb21lKGludGVuc2l0eSk7CiAgICAgICAgc2VsZgogICAgfQoKICAgIHB1YiBmbiBpdGFsaWMobXV0IHNlbGYsIGl0YWxpYzogYm9vbCkgLT4gU2VsZiB7CiAgICAgICAgc2VsZi5pdGFsaWMgPSBTb21lKGl0YWxpYyk7CiAgICAgICAgc2VsZgogICAgfQoKICAgIHB1YiBmbiB1bmRlcmxpbmUobXV0IHNlbGYsIHVuZGVybGluZTogYm9vbCkgLT4gU2VsZiB7CiAgICAgICAgc2VsZi51bmRlcmxpbmUgPSBTb21lKHVuZGVybGluZSk7CiAgICAgICAgc2VsZgogICAgfQoKICAgIHB1YiBmbiBpbnZlcnNlKG11dCBzZWxmLCBpbnZlcnNlOiBib29sKSAtPiBTZWxmIHsKICAgICAgICBzZWxmLmludmVyc2UgPSBTb21lKGludmVyc2UpOwogICAgICAgIHNlbGYKICAgIH0KfQoKaW1wbCBCdWZXcml0ZSBmb3IgQXR0cnMgewogICAgI1thbGxvdyh1bnVzZWRfYXNzaWdubWVudHMpXQogICAgI1thbGxvdyhjbGlwcHk6OmJyYW5jaGVzX3NoYXJpbmdfY29kZSldCiAgICBmbiB3cml0ZV9idWYoJnNlbGYsIGJ1ZjogJm11dCBWZWM8dTg+KSB7CiAgICAgICAgaWYgc2VsZi5mZ2NvbG9yLmlzX25vbmUoKQogICAgICAgICAgICAmJiBzZWxmLmJnY29sb3IuaXNfbm9uZSgpCiAgICAgICAgICAgICYmIHNlbGYuaW50ZW5zaXR5LmlzX25vbmUoKQogICAgICAgICAgICAmJiBzZWxmLml0YWxpYy5pc19ub25lKCkKICAgICAgICAgICAgJiYgc2VsZi51bmRlcmxpbmUuaXNfbm9uZSgpCiAgICAgICAgICAgICYmIHNlbGYuaW52ZXJzZS5pc19ub25lKCkKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CgogICAgICAgIGJ1Zi5leHRlbmRfZnJvbV9zbGljZShiIlx4MWJbIik7CiAgICAgICAgbGV0IG11dCBmaXJzdCA9IHRydWU7CgogICAgICAgIG1hY3JvX3J1bGVzISB3cml0ZV9wYXJhbSB7CiAgICAgICAgICAgICgkaTpleHByKSA9PiB7ewogICAgICAgICAgICAgICAgaWYgZmlyc3QgewogICAgICAgICAgICAgICAgICAgIGZpcnN0ID0gZmFsc2U7CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGJ1Zi5wdXNoKGInOycpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZXh0ZW5kX2l0b2EoYnVmLCAkaSk7CiAgICAgICAgICAgIH19OwogICAgICAgIH0KCiAgICAgICAgaWYgbGV0IFNvbWUoZmdjb2xvcikgPSBzZWxmLmZnY29sb3IgewogICAgICAgICAgICBtYXRjaCBmZ2NvbG9yIHsKICAgICAgICAgICAgICAgIGNyYXRlOjpDb2xvcjo6RGVmYXVsdCA9PiB7CiAgICAgICAgICAgICAgICAgICAgd3JpdGVfcGFyYW0hKDM5KTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNyYXRlOjpDb2xvcjo6SWR4KGkpID0+IHsKICAgICAgICAgICAgICAgICAgICBpZiBpIDwgOCB7CiAgICAgICAgICAgICAgICAgICAgICAgIHdyaXRlX3BhcmFtIShpICsgMzApOwogICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiBpIDwgMTYgewogICAgICAgICAgICAgICAgICAgICAgICB3cml0ZV9wYXJhbSEoaSArIDgyKTsKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICB3cml0ZV9wYXJhbSEoMzgpOwogICAgICAgICAgICAgICAgICAgICAgICB3cml0ZV9wYXJhbSEoNSk7CiAgICAgICAgICAgICAgICAgICAgICAgIHdyaXRlX3BhcmFtIShpKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjcmF0ZTo6Q29sb3I6OlJnYihyLCBnLCBiKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgd3JpdGVfcGFyYW0hKDM4KTsKICAgICAgICAgICAgICAgICAgICB3cml0ZV9wYXJhbSEoMik7CiAgICAgICAgICAgICAgICAgICAgd3JpdGVfcGFyYW0hKHIpOwogICAgICAgICAgICAgICAgICAgIHdyaXRlX3BhcmFtIShnKTsKICAgICAgICAgICAgICAgICAgICB3cml0ZV9wYXJhbSEoYik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGlmIGxldCBTb21lKGJnY29sb3IpID0gc2VsZi5iZ2NvbG9yIHsKICAgICAgICAgICAgbWF0Y2ggYmdjb2xvciB7CiAgICAgICAgICAgICAgICBjcmF0ZTo6Q29sb3I6OkRlZmF1bHQgPT4gewogICAgICAgICAgICAgICAgICAgIHdyaXRlX3BhcmFtISg0OSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjcmF0ZTo6Q29sb3I6OklkeChpKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgaWYgaSA8IDggewogICAgICAgICAgICAgICAgICAgICAgICB3cml0ZV9wYXJhbSEoaSArIDQwKTsKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgaWYgaSA8IDE2IHsKICAgICAgICAgICAgICAgICAgICAgICAgd3JpdGVfcGFyYW0hKGkgKyA5Mik7CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgd3JpdGVfcGFyYW0hKDQ4KTsKICAgICAgICAgICAgICAgICAgICAgICAgd3JpdGVfcGFyYW0hKDUpOwogICAgICAgICAgICAgICAgICAgICAgICB3cml0ZV9wYXJhbSEoaSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY3JhdGU6OkNvbG9yOjpSZ2IociwgZywgYikgPT4gewogICAgICAgICAgICAgICAgICAgIHdyaXRlX3BhcmFtISg0OCk7CiAgICAgICAgICAgICAgICAgICAgd3JpdGVfcGFyYW0hKDIpOwogICAgICAgICAgICAgICAgICAgIHdyaXRlX3BhcmFtIShyKTsKICAgICAgICAgICAgICAgICAgICB3cml0ZV9wYXJhbSEoZyk7CiAgICAgICAgICAgICAgICAgICAgd3JpdGVfcGFyYW0hKGIpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBpZiBsZXQgU29tZShpbnRlbnNpdHkpID0gc2VsZi5pbnRlbnNpdHkgewogICAgICAgICAgICBtYXRjaCBpbnRlbnNpdHkgewogICAgICAgICAgICAgICAgSW50ZW5zaXR5OjpOb3JtYWwgPT4gd3JpdGVfcGFyYW0hKDIyKSwKICAgICAgICAgICAgICAgIEludGVuc2l0eTo6Qm9sZCA9PiB3cml0ZV9wYXJhbSEoMSksCiAgICAgICAgICAgICAgICBJbnRlbnNpdHk6OkRpbSA9PiB3cml0ZV9wYXJhbSEoMiksCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGlmIGxldCBTb21lKGl0YWxpYykgPSBzZWxmLml0YWxpYyB7CiAgICAgICAgICAgIGlmIGl0YWxpYyB7CiAgICAgICAgICAgICAgICB3cml0ZV9wYXJhbSEoMyk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB3cml0ZV9wYXJhbSEoMjMpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBpZiBsZXQgU29tZSh1bmRlcmxpbmUpID0gc2VsZi51bmRlcmxpbmUgewogICAgICAgICAgICBpZiB1bmRlcmxpbmUgewogICAgICAgICAgICAgICAgd3JpdGVfcGFyYW0hKDQpOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgd3JpdGVfcGFyYW0hKDI0KTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgaWYgbGV0IFNvbWUoaW52ZXJzZSkgPSBzZWxmLmludmVyc2UgewogICAgICAgICAgICBpZiBpbnZlcnNlIHsKICAgICAgICAgICAgICAgIHdyaXRlX3BhcmFtISg3KTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHdyaXRlX3BhcmFtISgyNyk7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGJ1Zi5wdXNoKGInbScpOwogICAgfQp9CgojW2Rlcml2ZShEZWJ1ZyldCiNbbXVzdF91c2UgPSAidGhpcyBzdHJ1Y3QgZG9lcyBub3RoaW5nIHVubGVzcyB5b3UgY2FsbCB3cml0ZV9idWYiXQpwdWIgc3RydWN0IE1vdmVSaWdodCB7CiAgICBjb3VudDogdTE2LAp9CgppbXBsIE1vdmVSaWdodCB7CiAgICBwdWIgZm4gbmV3KGNvdW50OiB1MTYpIC0+IFNlbGYgewogICAgICAgIFNlbGYgeyBjb3VudCB9CiAgICB9Cn0KCmltcGwgRGVmYXVsdCBmb3IgTW92ZVJpZ2h0IHsKICAgIGZuIGRlZmF1bHQoKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsgY291bnQ6IDEgfQogICAgfQp9CgppbXBsIEJ1ZldyaXRlIGZvciBNb3ZlUmlnaHQgewogICAgZm4gd3JpdGVfYnVmKCZzZWxmLCBidWY6ICZtdXQgVmVjPHU4PikgewogICAgICAgIG1hdGNoIHNlbGYuY291bnQgewogICAgICAgICAgICAwID0+IHt9CiAgICAgICAgICAgIDEgPT4gYnVmLmV4dGVuZF9mcm9tX3NsaWNlKGIiXHgxYltDIiksCiAgICAgICAgICAgIG4gPT4gewogICAgICAgICAgICAgICAgYnVmLmV4dGVuZF9mcm9tX3NsaWNlKGIiXHgxYlsiKTsKICAgICAgICAgICAgICAgIGV4dGVuZF9pdG9hKGJ1Ziwgbik7CiAgICAgICAgICAgICAgICBidWYucHVzaChiJ0MnKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKI1tkZXJpdmUoRGVidWcpXQojW211c3RfdXNlID0gInRoaXMgc3RydWN0IGRvZXMgbm90aGluZyB1bmxlc3MgeW91IGNhbGwgd3JpdGVfYnVmIl0KcHViIHN0cnVjdCBFcmFzZUNoYXIgewogICAgY291bnQ6IHUxNiwKfQoKaW1wbCBFcmFzZUNoYXIgewogICAgcHViIGZuIG5ldyhjb3VudDogdTE2KSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsgY291bnQgfQogICAgfQp9CgppbXBsIERlZmF1bHQgZm9yIEVyYXNlQ2hhciB7CiAgICBmbiBkZWZhdWx0KCkgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7IGNvdW50OiAxIH0KICAgIH0KfQoKaW1wbCBCdWZXcml0ZSBmb3IgRXJhc2VDaGFyIHsKICAgIGZuIHdyaXRlX2J1Zigmc2VsZiwgYnVmOiAmbXV0IFZlYzx1OD4pIHsKICAgICAgICBtYXRjaCBzZWxmLmNvdW50IHsKICAgICAgICAgICAgMCA9PiB7fQogICAgICAgICAgICAxID0+IGJ1Zi5leHRlbmRfZnJvbV9zbGljZShiIlx4MWJbWCIpLAogICAgICAgICAgICBuID0+IHsKICAgICAgICAgICAgICAgIGJ1Zi5leHRlbmRfZnJvbV9zbGljZShiIlx4MWJbIik7CiAgICAgICAgICAgICAgICBleHRlbmRfaXRvYShidWYsIG4pOwogICAgICAgICAgICAgICAgYnVmLnB1c2goYidYJyk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCiNbZGVyaXZlKERlZmF1bHQsIERlYnVnKV0KI1ttdXN0X3VzZSA9ICJ0aGlzIHN0cnVjdCBkb2VzIG5vdGhpbmcgdW5sZXNzIHlvdSBjYWxsIHdyaXRlX2J1ZiJdCnB1YiBzdHJ1Y3QgSGlkZUN1cnNvciB7CiAgICBzdGF0ZTogYm9vbCwKfQoKaW1wbCBIaWRlQ3Vyc29yIHsKICAgIHB1YiBmbiBuZXcoc3RhdGU6IGJvb2wpIC0+IFNlbGYgewogICAgICAgIFNlbGYgeyBzdGF0ZSB9CiAgICB9Cn0KCmltcGwgQnVmV3JpdGUgZm9yIEhpZGVDdXJzb3IgewogICAgZm4gd3JpdGVfYnVmKCZzZWxmLCBidWY6ICZtdXQgVmVjPHU4PikgewogICAgICAgIGlmIHNlbGYuc3RhdGUgewogICAgICAgICAgICBidWYuZXh0ZW5kX2Zyb21fc2xpY2UoYiJceDFiWz8yNWwiKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBidWYuZXh0ZW5kX2Zyb21fc2xpY2UoYiJceDFiWz8yNWgiKTsKICAgICAgICB9CiAgICB9Cn0KCiNbZGVyaXZlKERlYnVnKV0KI1ttdXN0X3VzZSA9ICJ0aGlzIHN0cnVjdCBkb2VzIG5vdGhpbmcgdW5sZXNzIHlvdSBjYWxsIHdyaXRlX2J1ZiJdCnB1YiBzdHJ1Y3QgTW92ZUZyb21UbyB7CiAgICBmcm9tOiBjcmF0ZTo6Z3JpZDo6UG9zLAogICAgdG86IGNyYXRlOjpncmlkOjpQb3MsCn0KCmltcGwgTW92ZUZyb21UbyB7CiAgICBwdWIgZm4gbmV3KGZyb206IGNyYXRlOjpncmlkOjpQb3MsIHRvOiBjcmF0ZTo6Z3JpZDo6UG9zKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsgZnJvbSwgdG8gfQogICAgfQp9CgppbXBsIEJ1ZldyaXRlIGZvciBNb3ZlRnJvbVRvIHsKICAgIGZuIHdyaXRlX2J1Zigmc2VsZiwgYnVmOiAmbXV0IFZlYzx1OD4pIHsKICAgICAgICBpZiBzZWxmLnRvLnJvdyA9PSBzZWxmLmZyb20ucm93ICsgMSAmJiBzZWxmLnRvLmNvbCA9PSAwIHsKICAgICAgICAgICAgY3JhdGU6OnRlcm06OkNybGYud3JpdGVfYnVmKGJ1Zik7CiAgICAgICAgfSBlbHNlIGlmIHNlbGYuZnJvbS5yb3cgPT0gc2VsZi50by5yb3cgJiYgc2VsZi5mcm9tLmNvbCA8IHNlbGYudG8uY29sCiAgICAgICAgewogICAgICAgICAgICBjcmF0ZTo6dGVybTo6TW92ZVJpZ2h0OjpuZXcoc2VsZi50by5jb2wgLSBzZWxmLmZyb20uY29sKQogICAgICAgICAgICAgICAgLndyaXRlX2J1ZihidWYpOwogICAgICAgIH0gZWxzZSBpZiBzZWxmLnRvICE9IHNlbGYuZnJvbSB7CiAgICAgICAgICAgIGNyYXRlOjp0ZXJtOjpNb3ZlVG86Om5ldyhzZWxmLnRvKS53cml0ZV9idWYoYnVmKTsKICAgICAgICB9CiAgICB9Cn0KCiNbZGVyaXZlKERlZmF1bHQsIERlYnVnKV0KI1ttdXN0X3VzZSA9ICJ0aGlzIHN0cnVjdCBkb2VzIG5vdGhpbmcgdW5sZXNzIHlvdSBjYWxsIHdyaXRlX2J1ZiJdCnB1YiBzdHJ1Y3QgQXBwbGljYXRpb25LZXlwYWQgewogICAgc3RhdGU6IGJvb2wsCn0KCmltcGwgQXBwbGljYXRpb25LZXlwYWQgewogICAgcHViIGZuIG5ldyhzdGF0ZTogYm9vbCkgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7IHN0YXRlIH0KICAgIH0KfQoKaW1wbCBCdWZXcml0ZSBmb3IgQXBwbGljYXRpb25LZXlwYWQgewogICAgZm4gd3JpdGVfYnVmKCZzZWxmLCBidWY6ICZtdXQgVmVjPHU4PikgewogICAgICAgIGlmIHNlbGYuc3RhdGUgewogICAgICAgICAgICBidWYuZXh0ZW5kX2Zyb21fc2xpY2UoYiJceDFiPSIpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGJ1Zi5leHRlbmRfZnJvbV9zbGljZShiIlx4MWI+Iik7CiAgICAgICAgfQogICAgfQp9CgojW2Rlcml2ZShEZWZhdWx0LCBEZWJ1ZyldCiNbbXVzdF91c2UgPSAidGhpcyBzdHJ1Y3QgZG9lcyBub3RoaW5nIHVubGVzcyB5b3UgY2FsbCB3cml0ZV9idWYiXQpwdWIgc3RydWN0IEFwcGxpY2F0aW9uQ3Vyc29yIHsKICAgIHN0YXRlOiBib29sLAp9CgppbXBsIEFwcGxpY2F0aW9uQ3Vyc29yIHsKICAgIHB1YiBmbiBuZXcoc3RhdGU6IGJvb2wpIC0+IFNlbGYgewogICAgICAgIFNlbGYgeyBzdGF0ZSB9CiAgICB9Cn0KCmltcGwgQnVmV3JpdGUgZm9yIEFwcGxpY2F0aW9uQ3Vyc29yIHsKICAgIGZuIHdyaXRlX2J1Zigmc2VsZiwgYnVmOiAmbXV0IFZlYzx1OD4pIHsKICAgICAgICBpZiBzZWxmLnN0YXRlIHsKICAgICAgICAgICAgYnVmLmV4dGVuZF9mcm9tX3NsaWNlKGIiXHgxYls/MWgiKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBidWYuZXh0ZW5kX2Zyb21fc2xpY2UoYiJceDFiWz8xbCIpOwogICAgICAgIH0KICAgIH0KfQoKI1tkZXJpdmUoRGVmYXVsdCwgRGVidWcpXQojW211c3RfdXNlID0gInRoaXMgc3RydWN0IGRvZXMgbm90aGluZyB1bmxlc3MgeW91IGNhbGwgd3JpdGVfYnVmIl0KcHViIHN0cnVjdCBCcmFja2V0ZWRQYXN0ZSB7CiAgICBzdGF0ZTogYm9vbCwKfQoKaW1wbCBCcmFja2V0ZWRQYXN0ZSB7CiAgICBwdWIgZm4gbmV3KHN0YXRlOiBib29sKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsgc3RhdGUgfQogICAgfQp9CgppbXBsIEJ1ZldyaXRlIGZvciBCcmFja2V0ZWRQYXN0ZSB7CiAgICBmbiB3cml0ZV9idWYoJnNlbGYsIGJ1ZjogJm11dCBWZWM8dTg+KSB7CiAgICAgICAgaWYgc2VsZi5zdGF0ZSB7CiAgICAgICAgICAgIGJ1Zi5leHRlbmRfZnJvbV9zbGljZShiIlx4MWJbPzIwMDRoIik7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgYnVmLmV4dGVuZF9mcm9tX3NsaWNlKGIiXHgxYls/MjAwNGwiKTsKICAgICAgICB9CiAgICB9Cn0KCiNbZGVyaXZlKERlZmF1bHQsIERlYnVnKV0KI1ttdXN0X3VzZSA9ICJ0aGlzIHN0cnVjdCBkb2VzIG5vdGhpbmcgdW5sZXNzIHlvdSBjYWxsIHdyaXRlX2J1ZiJdCnB1YiBzdHJ1Y3QgTW91c2VQcm90b2NvbE1vZGUgewogICAgbW9kZTogY3JhdGU6Ok1vdXNlUHJvdG9jb2xNb2RlLAogICAgcHJldjogY3JhdGU6Ok1vdXNlUHJvdG9jb2xNb2RlLAp9CgppbXBsIE1vdXNlUHJvdG9jb2xNb2RlIHsKICAgIHB1YiBmbiBuZXcoCiAgICAgICAgbW9kZTogY3JhdGU6Ok1vdXNlUHJvdG9jb2xNb2RlLAogICAgICAgIHByZXY6IGNyYXRlOjpNb3VzZVByb3RvY29sTW9kZSwKICAgICkgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7IG1vZGUsIHByZXYgfQogICAgfQp9CgppbXBsIEJ1ZldyaXRlIGZvciBNb3VzZVByb3RvY29sTW9kZSB7CiAgICBmbiB3cml0ZV9idWYoJnNlbGYsIGJ1ZjogJm11dCBWZWM8dTg+KSB7CiAgICAgICAgaWYgc2VsZi5tb2RlID09IHNlbGYucHJldiB7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CgogICAgICAgIG1hdGNoIHNlbGYubW9kZSB7CiAgICAgICAgICAgIGNyYXRlOjpNb3VzZVByb3RvY29sTW9kZTo6Tm9uZSA9PiBtYXRjaCBzZWxmLnByZXYgewogICAgICAgICAgICAgICAgY3JhdGU6Ok1vdXNlUHJvdG9jb2xNb2RlOjpOb25lID0+IHt9CiAgICAgICAgICAgICAgICBjcmF0ZTo6TW91c2VQcm90b2NvbE1vZGU6OlByZXNzID0+IHsKICAgICAgICAgICAgICAgICAgICBidWYuZXh0ZW5kX2Zyb21fc2xpY2UoYiJceDFiWz85bCIpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY3JhdGU6Ok1vdXNlUHJvdG9jb2xNb2RlOjpQcmVzc1JlbGVhc2UgPT4gewogICAgICAgICAgICAgICAgICAgIGJ1Zi5leHRlbmRfZnJvbV9zbGljZShiIlx4MWJbPzEwMDBsIik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjcmF0ZTo6TW91c2VQcm90b2NvbE1vZGU6OkJ1dHRvbk1vdGlvbiA9PiB7CiAgICAgICAgICAgICAgICAgICAgYnVmLmV4dGVuZF9mcm9tX3NsaWNlKGIiXHgxYls/MTAwMmwiKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNyYXRlOjpNb3VzZVByb3RvY29sTW9kZTo6QW55TW90aW9uID0+IHsKICAgICAgICAgICAgICAgICAgICBidWYuZXh0ZW5kX2Zyb21fc2xpY2UoYiJceDFiWz8xMDAzbCIpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICAgICBjcmF0ZTo6TW91c2VQcm90b2NvbE1vZGU6OlByZXNzID0+IHsKICAgICAgICAgICAgICAgIGJ1Zi5leHRlbmRfZnJvbV9zbGljZShiIlx4MWJbPzloIik7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY3JhdGU6Ok1vdXNlUHJvdG9jb2xNb2RlOjpQcmVzc1JlbGVhc2UgPT4gewogICAgICAgICAgICAgICAgYnVmLmV4dGVuZF9mcm9tX3NsaWNlKGIiXHgxYls/MTAwMGgiKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBjcmF0ZTo6TW91c2VQcm90b2NvbE1vZGU6OkJ1dHRvbk1vdGlvbiA9PiB7CiAgICAgICAgICAgICAgICBidWYuZXh0ZW5kX2Zyb21fc2xpY2UoYiJceDFiWz8xMDAyaCIpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGNyYXRlOjpNb3VzZVByb3RvY29sTW9kZTo6QW55TW90aW9uID0+IHsKICAgICAgICAgICAgICAgIGJ1Zi5leHRlbmRfZnJvbV9zbGljZShiIlx4MWJbPzEwMDNoIik7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCiNbZGVyaXZlKERlZmF1bHQsIERlYnVnKV0KI1ttdXN0X3VzZSA9ICJ0aGlzIHN0cnVjdCBkb2VzIG5vdGhpbmcgdW5sZXNzIHlvdSBjYWxsIHdyaXRlX2J1ZiJdCnB1YiBzdHJ1Y3QgTW91c2VQcm90b2NvbEVuY29kaW5nIHsKICAgIGVuY29kaW5nOiBjcmF0ZTo6TW91c2VQcm90b2NvbEVuY29kaW5nLAogICAgcHJldjogY3JhdGU6Ok1vdXNlUHJvdG9jb2xFbmNvZGluZywKfQoKaW1wbCBNb3VzZVByb3RvY29sRW5jb2RpbmcgewogICAgcHViIGZuIG5ldygKICAgICAgICBlbmNvZGluZzogY3JhdGU6Ok1vdXNlUHJvdG9jb2xFbmNvZGluZywKICAgICAgICBwcmV2OiBjcmF0ZTo6TW91c2VQcm90b2NvbEVuY29kaW5nLAogICAgKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsgZW5jb2RpbmcsIHByZXYgfQogICAgfQp9CgppbXBsIEJ1ZldyaXRlIGZvciBNb3VzZVByb3RvY29sRW5jb2RpbmcgewogICAgZm4gd3JpdGVfYnVmKCZzZWxmLCBidWY6ICZtdXQgVmVjPHU4PikgewogICAgICAgIGlmIHNlbGYuZW5jb2RpbmcgPT0gc2VsZi5wcmV2IHsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KCiAgICAgICAgbWF0Y2ggc2VsZi5lbmNvZGluZyB7CiAgICAgICAgICAgIGNyYXRlOjpNb3VzZVByb3RvY29sRW5jb2Rpbmc6OkRlZmF1bHQgPT4gbWF0Y2ggc2VsZi5wcmV2IHsKICAgICAgICAgICAgICAgIGNyYXRlOjpNb3VzZVByb3RvY29sRW5jb2Rpbmc6OkRlZmF1bHQgPT4ge30KICAgICAgICAgICAgICAgIGNyYXRlOjpNb3VzZVByb3RvY29sRW5jb2Rpbmc6OlV0ZjggPT4gewogICAgICAgICAgICAgICAgICAgIGJ1Zi5leHRlbmRfZnJvbV9zbGljZShiIlx4MWJbPzEwMDVsIik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjcmF0ZTo6TW91c2VQcm90b2NvbEVuY29kaW5nOjpTZ3IgPT4gewogICAgICAgICAgICAgICAgICAgIGJ1Zi5leHRlbmRfZnJvbV9zbGljZShiIlx4MWJbPzEwMDZsIik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIGNyYXRlOjpNb3VzZVByb3RvY29sRW5jb2Rpbmc6OlV0ZjggPT4gewogICAgICAgICAgICAgICAgYnVmLmV4dGVuZF9mcm9tX3NsaWNlKGIiXHgxYls/MTAwNWgiKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBjcmF0ZTo6TW91c2VQcm90b2NvbEVuY29kaW5nOjpTZ3IgPT4gewogICAgICAgICAgICAgICAgYnVmLmV4dGVuZF9mcm9tX3NsaWNlKGIiXHgxYls/MTAwNmgiKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKZm4gZXh0ZW5kX2l0b2E8STogaXRvYTo6SW50ZWdlcj4oYnVmOiAmbXV0IFZlYzx1OD4sIGk6IEkpIHsKICAgIGxldCBtdXQgaXRvYV9idWYgPSBpdG9hOjpCdWZmZXI6Om5ldygpOwogICAgYnVmLmV4dGVuZF9mcm9tX3NsaWNlKGl0b2FfYnVmLmZvcm1hdChpKS5hc19ieXRlcygpKTsKfQo=
+// TODO: read all of this from terminfo
+
+pub trait BufWrite {
+    fn write_buf(&self, buf: &mut Vec<u8>);
+}
+
+#[derive(Default, Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct ClearScreen;
+
+impl BufWrite for ClearScreen {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        buf.extend_from_slice(b"\x1b[H\x1b[J");
+    }
+}
+
+#[derive(Default, Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct ClearRowForward;
+
+impl BufWrite for ClearRowForward {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        buf.extend_from_slice(b"\x1b[K");
+    }
+}
+
+#[derive(Default, Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct Crlf;
+
+impl BufWrite for Crlf {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        buf.extend_from_slice(b"\r\n");
+    }
+}
+
+#[derive(Default, Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct Backspace;
+
+impl BufWrite for Backspace {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        buf.extend_from_slice(b"\x08");
+    }
+}
+
+#[derive(Default, Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct SaveCursor;
+
+impl BufWrite for SaveCursor {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        buf.extend_from_slice(b"\x1b7");
+    }
+}
+
+#[derive(Default, Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct RestoreCursor;
+
+impl BufWrite for RestoreCursor {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        buf.extend_from_slice(b"\x1b8");
+    }
+}
+
+#[derive(Default, Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct MoveTo {
+    row: u16,
+    col: u16,
+}
+
+impl MoveTo {
+    pub fn new(pos: crate::grid::Pos) -> Self {
+        Self {
+            row: pos.row,
+            col: pos.col,
+        }
+    }
+}
+
+impl BufWrite for MoveTo {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        if self.row == 0 && self.col == 0 {
+            buf.extend_from_slice(b"\x1b[H");
+        } else {
+            buf.extend_from_slice(b"\x1b[");
+            extend_itoa(buf, self.row + 1);
+            buf.push(b';');
+            extend_itoa(buf, self.col + 1);
+            buf.push(b'H');
+        }
+    }
+}
+
+#[derive(Default, Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct ClearAttrs;
+
+impl BufWrite for ClearAttrs {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        buf.extend_from_slice(b"\x1b[m");
+    }
+}
+
+#[derive(Debug, Clone, Copy)]
+pub enum Intensity {
+    Normal,
+    Bold,
+    Dim,
+}
+
+#[derive(Default, Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct Attrs {
+    fgcolor: Option<crate::Color>,
+    bgcolor: Option<crate::Color>,
+    intensity: Option<Intensity>,
+    italic: Option<bool>,
+    underline: Option<bool>,
+    inverse: Option<bool>,
+}
+
+impl Attrs {
+    pub fn fgcolor(mut self, fgcolor: crate::Color) -> Self {
+        self.fgcolor = Some(fgcolor);
+        self
+    }
+
+    pub fn bgcolor(mut self, bgcolor: crate::Color) -> Self {
+        self.bgcolor = Some(bgcolor);
+        self
+    }
+
+    pub fn intensity(mut self, intensity: Intensity) -> Self {
+        self.intensity = Some(intensity);
+        self
+    }
+
+    pub fn italic(mut self, italic: bool) -> Self {
+        self.italic = Some(italic);
+        self
+    }
+
+    pub fn underline(mut self, underline: bool) -> Self {
+        self.underline = Some(underline);
+        self
+    }
+
+    pub fn inverse(mut self, inverse: bool) -> Self {
+        self.inverse = Some(inverse);
+        self
+    }
+}
+
+impl BufWrite for Attrs {
+    #[allow(unused_assignments)]
+    #[allow(clippy::branches_sharing_code)]
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        if self.fgcolor.is_none()
+            && self.bgcolor.is_none()
+            && self.intensity.is_none()
+            && self.italic.is_none()
+            && self.underline.is_none()
+            && self.inverse.is_none()
+        {
+            return;
+        }
+
+        buf.extend_from_slice(b"\x1b[");
+        let mut first = true;
+
+        macro_rules! write_param {
+            ($i:expr) => {{
+                if first {
+                    first = false;
+                } else {
+                    buf.push(b';');
+                }
+                extend_itoa(buf, $i);
+            }};
+        }
+
+        if let Some(fgcolor) = self.fgcolor {
+            match fgcolor {
+                crate::Color::Default => {
+                    write_param!(39);
+                }
+                crate::Color::Idx(i) => {
+                    if i < 8 {
+                        write_param!(i + 30);
+                    } else if i < 16 {
+                        write_param!(i + 82);
+                    } else {
+                        write_param!(38);
+                        write_param!(5);
+                        write_param!(i);
+                    }
+                }
+                crate::Color::Rgb(r, g, b) => {
+                    write_param!(38);
+                    write_param!(2);
+                    write_param!(r);
+                    write_param!(g);
+                    write_param!(b);
+                }
+            }
+        }
+
+        if let Some(bgcolor) = self.bgcolor {
+            match bgcolor {
+                crate::Color::Default => {
+                    write_param!(49);
+                }
+                crate::Color::Idx(i) => {
+                    if i < 8 {
+                        write_param!(i + 40);
+                    } else if i < 16 {
+                        write_param!(i + 92);
+                    } else {
+                        write_param!(48);
+                        write_param!(5);
+                        write_param!(i);
+                    }
+                }
+                crate::Color::Rgb(r, g, b) => {
+                    write_param!(48);
+                    write_param!(2);
+                    write_param!(r);
+                    write_param!(g);
+                    write_param!(b);
+                }
+            }
+        }
+
+        if let Some(intensity) = self.intensity {
+            match intensity {
+                Intensity::Normal => write_param!(22),
+                Intensity::Bold => write_param!(1),
+                Intensity::Dim => write_param!(2),
+            }
+        }
+
+        if let Some(italic) = self.italic {
+            if italic {
+                write_param!(3);
+            } else {
+                write_param!(23);
+            }
+        }
+
+        if let Some(underline) = self.underline {
+            if underline {
+                write_param!(4);
+            } else {
+                write_param!(24);
+            }
+        }
+
+        if let Some(inverse) = self.inverse {
+            if inverse {
+                write_param!(7);
+            } else {
+                write_param!(27);
+            }
+        }
+
+        buf.push(b'm');
+    }
+}
+
+#[derive(Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct MoveRight {
+    count: u16,
+}
+
+impl MoveRight {
+    pub fn new(count: u16) -> Self {
+        Self { count }
+    }
+}
+
+impl Default for MoveRight {
+    fn default() -> Self {
+        Self { count: 1 }
+    }
+}
+
+impl BufWrite for MoveRight {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        match self.count {
+            0 => {}
+            1 => buf.extend_from_slice(b"\x1b[C"),
+            n => {
+                buf.extend_from_slice(b"\x1b[");
+                extend_itoa(buf, n);
+                buf.push(b'C');
+            }
+        }
+    }
+}
+
+#[derive(Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct EraseChar {
+    count: u16,
+}
+
+impl EraseChar {
+    pub fn new(count: u16) -> Self {
+        Self { count }
+    }
+}
+
+impl Default for EraseChar {
+    fn default() -> Self {
+        Self { count: 1 }
+    }
+}
+
+impl BufWrite for EraseChar {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        match self.count {
+            0 => {}
+            1 => buf.extend_from_slice(b"\x1b[X"),
+            n => {
+                buf.extend_from_slice(b"\x1b[");
+                extend_itoa(buf, n);
+                buf.push(b'X');
+            }
+        }
+    }
+}
+
+#[derive(Default, Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct HideCursor {
+    state: bool,
+}
+
+impl HideCursor {
+    pub fn new(state: bool) -> Self {
+        Self { state }
+    }
+}
+
+impl BufWrite for HideCursor {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        if self.state {
+            buf.extend_from_slice(b"\x1b[?25l");
+        } else {
+            buf.extend_from_slice(b"\x1b[?25h");
+        }
+    }
+}
+
+#[derive(Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct MoveFromTo {
+    from: crate::grid::Pos,
+    to: crate::grid::Pos,
+}
+
+impl MoveFromTo {
+    pub fn new(from: crate::grid::Pos, to: crate::grid::Pos) -> Self {
+        Self { from, to }
+    }
+}
+
+impl BufWrite for MoveFromTo {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        if self.to.row == self.from.row + 1 && self.to.col == 0 {
+            crate::term::Crlf.write_buf(buf);
+        } else if self.from.row == self.to.row && self.from.col < self.to.col
+        {
+            crate::term::MoveRight::new(self.to.col - self.from.col)
+                .write_buf(buf);
+        } else if self.to != self.from {
+            crate::term::MoveTo::new(self.to).write_buf(buf);
+        }
+    }
+}
+
+#[derive(Default, Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct ApplicationKeypad {
+    state: bool,
+}
+
+impl ApplicationKeypad {
+    pub fn new(state: bool) -> Self {
+        Self { state }
+    }
+}
+
+impl BufWrite for ApplicationKeypad {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        if self.state {
+            buf.extend_from_slice(b"\x1b=");
+        } else {
+            buf.extend_from_slice(b"\x1b>");
+        }
+    }
+}
+
+#[derive(Default, Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct ApplicationCursor {
+    state: bool,
+}
+
+impl ApplicationCursor {
+    pub fn new(state: bool) -> Self {
+        Self { state }
+    }
+}
+
+impl BufWrite for ApplicationCursor {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        if self.state {
+            buf.extend_from_slice(b"\x1b[?1h");
+        } else {
+            buf.extend_from_slice(b"\x1b[?1l");
+        }
+    }
+}
+
+#[derive(Default, Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct BracketedPaste {
+    state: bool,
+}
+
+impl BracketedPaste {
+    pub fn new(state: bool) -> Self {
+        Self { state }
+    }
+}
+
+impl BufWrite for BracketedPaste {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        if self.state {
+            buf.extend_from_slice(b"\x1b[?2004h");
+        } else {
+            buf.extend_from_slice(b"\x1b[?2004l");
+        }
+    }
+}
+
+#[derive(Default, Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct MouseProtocolMode {
+    mode: crate::MouseProtocolMode,
+    prev: crate::MouseProtocolMode,
+}
+
+impl MouseProtocolMode {
+    pub fn new(
+        mode: crate::MouseProtocolMode,
+        prev: crate::MouseProtocolMode,
+    ) -> Self {
+        Self { mode, prev }
+    }
+}
+
+impl BufWrite for MouseProtocolMode {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        if self.mode == self.prev {
+            return;
+        }
+
+        match self.mode {
+            crate::MouseProtocolMode::None => match self.prev {
+                crate::MouseProtocolMode::None => {}
+                crate::MouseProtocolMode::Press => {
+                    buf.extend_from_slice(b"\x1b[?9l");
+                }
+                crate::MouseProtocolMode::PressRelease => {
+                    buf.extend_from_slice(b"\x1b[?1000l");
+                }
+                crate::MouseProtocolMode::ButtonMotion => {
+                    buf.extend_from_slice(b"\x1b[?1002l");
+                }
+                crate::MouseProtocolMode::AnyMotion => {
+                    buf.extend_from_slice(b"\x1b[?1003l");
+                }
+            },
+            crate::MouseProtocolMode::Press => {
+                buf.extend_from_slice(b"\x1b[?9h");
+            }
+            crate::MouseProtocolMode::PressRelease => {
+                buf.extend_from_slice(b"\x1b[?1000h");
+            }
+            crate::MouseProtocolMode::ButtonMotion => {
+                buf.extend_from_slice(b"\x1b[?1002h");
+            }
+            crate::MouseProtocolMode::AnyMotion => {
+                buf.extend_from_slice(b"\x1b[?1003h");
+            }
+        }
+    }
+}
+
+#[derive(Default, Debug)]
+#[must_use = "this struct does nothing unless you call write_buf"]
+pub struct MouseProtocolEncoding {
+    encoding: crate::MouseProtocolEncoding,
+    prev: crate::MouseProtocolEncoding,
+}
+
+impl MouseProtocolEncoding {
+    pub fn new(
+        encoding: crate::MouseProtocolEncoding,
+        prev: crate::MouseProtocolEncoding,
+    ) -> Self {
+        Self { encoding, prev }
+    }
+}
+
+impl BufWrite for MouseProtocolEncoding {
+    fn write_buf(&self, buf: &mut Vec<u8>) {
+        if self.encoding == self.prev {
+            return;
+        }
+
+        match self.encoding {
+            crate::MouseProtocolEncoding::Default => match self.prev {
+                crate::MouseProtocolEncoding::Default => {}
+                crate::MouseProtocolEncoding::Utf8 => {
+                    buf.extend_from_slice(b"\x1b[?1005l");
+                }
+                crate::MouseProtocolEncoding::Sgr => {
+                    buf.extend_from_slice(b"\x1b[?1006l");
+                }
+            },
+            crate::MouseProtocolEncoding::Utf8 => {
+                buf.extend_from_slice(b"\x1b[?1005h");
+            }
+            crate::MouseProtocolEncoding::Sgr => {
+                buf.extend_from_slice(b"\x1b[?1006h");
+            }
+        }
+    }
+}
+
+fn extend_itoa<I: itoa::Integer>(buf: &mut Vec<u8>, i: I) {
+    let mut itoa_buf = itoa::Buffer::new();
+    buf.extend_from_slice(itoa_buf.format(i).as_bytes());
+}

@@ -1,1 +1,425 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvbkJlZm9yZVVubW91bnQsIHJlZiwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyB1c2VSb3V0ZSwgdXNlUm91dGVyIH0gZnJvbSAidnVlLXJvdXRlciI7CmltcG9ydCB7CiAgQWxlcnRUcmlhbmdsZSwKICBBcnJvd0xlZnQsCiAgQmVsbCwKICBMb2FkZXIyLAogIFJlZnJlc2hDdywKICBSb3V0ZSBhcyBSb3V0ZUljb24sCiAgU2hpZWxkQ2hlY2ssCiAgV2ViaG9vaywKfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBBbGVydCwgQWxlcnREZXNjcmlwdGlvbiwgQWxlcnRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9hbGVydCI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50LCBDYXJkSGVhZGVyLCBDYXJkVGl0bGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IFRyYWNlSWRMaW5rIGZyb20gIkAvY29tcG9uZW50cy9UcmFjZUlkTGluay52dWUiOwppbXBvcnQgeyBUcmFjZUFQSSwgdHlwZSBUcmFjZUxvb2t1cFBheWxvYWQgfSBmcm9tICJAL2xpYi9hcGkvdHJhY2VzIjsKaW1wb3J0IHsgaXNUcmFjZUlkLCBub3JtYWxpemVUcmFjZUlkIH0gZnJvbSAiQC9saWIvdHJhY2UtaWQiOwoKdHlwZSBKc29uUmVjb3JkID0gUmVjb3JkPHN0cmluZywgdW5rbm93bj47CnR5cGUgVGltZWxpbmVLaW5kID0gInJlcXVlc3QiIHwgIndhZiIgfCAiZXZlbnQiIHwgInRyaWdnZXIiIHwgImRlbGl2ZXJ5IjsKaW50ZXJmYWNlIFRpbWVsaW5lSXRlbSB7CiAgaWQ6IHN0cmluZzsKICBraW5kOiBUaW1lbGluZUtpbmQ7CiAgdGltZTogc3RyaW5nOwogIHRpdGxlOiBzdHJpbmc7CiAgZGV0YWlsOiBzdHJpbmc7Cn0KCmNvbnN0IHJvdXRlID0gdXNlUm91dGUoKTsKY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7CmNvbnN0IHsgdCwgbG9jYWxlIH0gPSB1c2VJMThuKCk7CmNvbnN0IGxvYWRpbmcgPSByZWYoZmFsc2UpOwpjb25zdCBsb2FkRXJyb3IgPSByZWYoZmFsc2UpOwpjb25zdCBpbnZhbGlkVHJhY2VJZCA9IHJlZihmYWxzZSk7CmNvbnN0IHBheWxvYWQgPSByZWY8VHJhY2VMb29rdXBQYXlsb2FkIHwgbnVsbD4obnVsbCk7CmNvbnN0IHF1ZXJ5ID0gcmVmKCIiKTsKbGV0IGNvbnRyb2xsZXI6IEFib3J0Q29udHJvbGxlciB8IG51bGwgPSBudWxsOwoKY29uc3QgdHJhY2VJZCA9IGNvbXB1dGVkKCgpID0+IFN0cmluZyhyb3V0ZS5wYXJhbXMudHJhY2VfaWQgfHwgIiIpLnRyaW0oKSk7CmNvbnN0IHJlcXVlc3QgPSBjb21wdXRlZCgKICAoKSA9PiAocGF5bG9hZC52YWx1ZT8ucmVxdWVzdCB8fCBudWxsKSBhcyBKc29uUmVjb3JkIHwgbnVsbCwKKTsKY29uc3Qgd2FmRXZlbnQgPSBjb21wdXRlZCgKICAoKSA9PiAocGF5bG9hZC52YWx1ZT8ud2FmX2V2ZW50IHx8IG51bGwpIGFzIEpzb25SZWNvcmQgfCBudWxsLAopOwpjb25zdCB0cmlnZ2VycyA9IGNvbXB1dGVkKAogICgpID0+IChwYXlsb2FkLnZhbHVlPy5ub3RpZmljYXRpb25fdHJpZ2dlcnMgfHwgW10pIGFzIEpzb25SZWNvcmRbXSwKKTsKY29uc3QgZGVsaXZlcmllcyA9IGNvbXB1dGVkKAogICgpID0+IChwYXlsb2FkLnZhbHVlPy5ub3RpZmljYXRpb25fZGVsaXZlcmllcyB8fCBbXSkgYXMgSnNvblJlY29yZFtdLAopOwpjb25zdCB1bmF2YWlsYWJsZVNvdXJjZXMgPSBjb21wdXRlZCgoKSA9PgogIHBheWxvYWQudmFsdWUKICAgID8gT2JqZWN0LmVudHJpZXMocGF5bG9hZC52YWx1ZS5zb3VyY2VzKQogICAgICAgIC5maWx0ZXIoKFssIHN0YXR1c10pID0+IHN0YXR1cyA9PT0gInVuYXZhaWxhYmxlIikKICAgICAgICAubWFwKChbc291cmNlXSkgPT4gdChgYWRtaW4udHJhY2Uuc291cmNlcy4ke3NvdXJjZX1gKSkKICAgIDogW10sCik7Cgpjb25zdCBzdHJpbmdWYWx1ZSA9IChyZWNvcmQ6IEpzb25SZWNvcmQsIC4uLmtleXM6IHN0cmluZ1tdKSA9PiB7CiAgZm9yIChjb25zdCBrZXkgb2Yga2V5cykgewogICAgY29uc3QgdmFsdWUgPSByZWNvcmRba2V5XTsKICAgIGlmICh0eXBlb2YgdmFsdWUgPT09ICJzdHJpbmciICYmIHZhbHVlKSByZXR1cm4gdmFsdWU7CiAgICBpZiAodHlwZW9mIHZhbHVlID09PSAibnVtYmVyIikgcmV0dXJuIFN0cmluZyh2YWx1ZSk7CiAgfQogIHJldHVybiAiIjsKfTsKCmNvbnN0IHRpbWVsaW5lID0gY29tcHV0ZWQ8VGltZWxpbmVJdGVtW10+KCgpID0+IHsKICBjb25zdCBpdGVtczogVGltZWxpbmVJdGVtW10gPSBbXTsKICBpZiAocmVxdWVzdC52YWx1ZSkgewogICAgaXRlbXMucHVzaCh7CiAgICAgIGlkOiAicmVxdWVzdCIsCiAgICAgIGtpbmQ6ICJyZXF1ZXN0IiwKICAgICAgdGltZTogc3RyaW5nVmFsdWUocmVxdWVzdC52YWx1ZSwgInRpbWUiKSwKICAgICAgdGl0bGU6IHQoImFkbWluLnRyYWNlLnRpbWVsaW5lLnJlcXVlc3QiKSwKICAgICAgZGV0YWlsOgogICAgICAgIGAke3N0cmluZ1ZhbHVlKHJlcXVlc3QudmFsdWUsICJtZXRob2QiKX0gJHtzdHJpbmdWYWx1ZShyZXF1ZXN0LnZhbHVlLCAicmVxdWVzdF91cmkiLCAicGF0aCIpfWAudHJpbSgpLAogICAgfSk7CiAgfQogIGlmICh3YWZFdmVudC52YWx1ZSkgewogICAgaXRlbXMucHVzaCh7CiAgICAgIGlkOiAid2FmIiwKICAgICAga2luZDogIndhZiIsCiAgICAgIHRpbWU6IHN0cmluZ1ZhbHVlKHdhZkV2ZW50LnZhbHVlLCAidGltZSIpLAogICAgICB0aXRsZTogdCgiYWRtaW4udHJhY2UudGltZWxpbmUud2FmIiksCiAgICAgIGRldGFpbDogc3RyaW5nVmFsdWUod2FmRXZlbnQudmFsdWUsICJhY3Rpb24iLCAibW9kZSIpLAogICAgfSk7CiAgfQogIGZvciAoY29uc3QgZXZlbnQgb2YgcGF5bG9hZC52YWx1ZT8uc3lzdGVtX2V2ZW50cyB8fCBbXSkgewogICAgaXRlbXMucHVzaCh7CiAgICAgIGlkOiBgZXZlbnQtJHtldmVudC5pZH1gLAogICAgICBraW5kOiAiZXZlbnQiLAogICAgICB0aW1lOiBldmVudC5oYXBwZW5lZF9hdCwKICAgICAgdGl0bGU6IHQoImFkbWluLnRyYWNlLnRpbWVsaW5lLmV2ZW50IiksCiAgICAgIGRldGFpbDogZXZlbnQudHlwZSwKICAgIH0pOwogIH0KICBmb3IgKGNvbnN0IHRyaWdnZXIgb2YgdHJpZ2dlcnMudmFsdWUpIHsKICAgIGl0ZW1zLnB1c2goewogICAgICBpZDogYHRyaWdnZXItJHtzdHJpbmdWYWx1ZSh0cmlnZ2VyLCAiaWQiKX1gLAogICAgICBraW5kOiAidHJpZ2dlciIsCiAgICAgIHRpbWU6IHN0cmluZ1ZhbHVlKHRyaWdnZXIsICJjcmVhdGVkX2F0IiksCiAgICAgIHRpdGxlOiB0KCJhZG1pbi50cmFjZS50aW1lbGluZS50cmlnZ2VyIiksCiAgICAgIGRldGFpbDogc3RyaW5nVmFsdWUodHJpZ2dlciwgInJ1bGVfaWQiLCAiaWQiKSwKICAgIH0pOwogIH0KICBmb3IgKGNvbnN0IGRlbGl2ZXJ5IG9mIGRlbGl2ZXJpZXMudmFsdWUpIHsKICAgIGl0ZW1zLnB1c2goewogICAgICBpZDogYGRlbGl2ZXJ5LSR7c3RyaW5nVmFsdWUoZGVsaXZlcnksICJpZCIpfWAsCiAgICAgIGtpbmQ6ICJkZWxpdmVyeSIsCiAgICAgIHRpbWU6IHN0cmluZ1ZhbHVlKGRlbGl2ZXJ5LCAic2VudF9hdCIsICJ0cmlnZ2VyZWRfYXQiKSwKICAgICAgdGl0bGU6IHQoImFkbWluLnRyYWNlLnRpbWVsaW5lLmRlbGl2ZXJ5IiksCiAgICAgIGRldGFpbDogc3RyaW5nVmFsdWUoZGVsaXZlcnksICJzdGF0dXMiLCAicHJvdmlkZXJfdHlwZSIpLAogICAgfSk7CiAgfQogIHJldHVybiBpdGVtcy5zb3J0KChsZWZ0LCByaWdodCkgPT4gewogICAgY29uc3QgbGVmdFRpbWUgPSBEYXRlLnBhcnNlKGxlZnQudGltZSk7CiAgICBjb25zdCByaWdodFRpbWUgPSBEYXRlLnBhcnNlKHJpZ2h0LnRpbWUpOwogICAgaWYgKE51bWJlci5pc05hTihsZWZ0VGltZSkgJiYgTnVtYmVyLmlzTmFOKHJpZ2h0VGltZSkpIHsKICAgICAgcmV0dXJuIGxlZnQuaWQubG9jYWxlQ29tcGFyZShyaWdodC5pZCk7CiAgICB9CiAgICBpZiAoTnVtYmVyLmlzTmFOKGxlZnRUaW1lKSkgcmV0dXJuIDE7CiAgICBpZiAoTnVtYmVyLmlzTmFOKHJpZ2h0VGltZSkpIHJldHVybiAtMTsKICAgIHJldHVybiBsZWZ0VGltZSAtIHJpZ2h0VGltZTsKICB9KTsKfSk7Cgpjb25zdCBpY29uRm9yID0gKGtpbmQ6IFRpbWVsaW5lS2luZCkgPT4KICAoewogICAgcmVxdWVzdDogUm91dGVJY29uLAogICAgd2FmOiBTaGllbGRDaGVjaywKICAgIGV2ZW50OiBXZWJob29rLAogICAgdHJpZ2dlcjogQmVsbCwKICAgIGRlbGl2ZXJ5OiBCZWxsLAogIH0pW2tpbmRdOwoKY29uc3QgZm9ybWF0VGltZSA9ICh2YWx1ZTogc3RyaW5nKSA9PiB7CiAgY29uc3QgZGF0ZSA9IG5ldyBEYXRlKHZhbHVlKTsKICByZXR1cm4gTnVtYmVyLmlzTmFOKGRhdGUuZ2V0VGltZSgpKQogICAgPyB2YWx1ZSB8fCAiLSIKICAgIDogbmV3IEludGwuRGF0ZVRpbWVGb3JtYXQoU3RyaW5nKGxvY2FsZS52YWx1ZSksIHsKICAgICAgICBkYXRlU3R5bGU6ICJtZWRpdW0iLAogICAgICAgIHRpbWVTdHlsZTogIm1lZGl1bSIsCiAgICAgIH0pLmZvcm1hdChkYXRlKTsKfTsKCmNvbnN0IHByZXR0eSA9ICh2YWx1ZTogdW5rbm93bikgPT4gSlNPTi5zdHJpbmdpZnkodmFsdWUsIG51bGwsIDIpOwpjb25zdCBzdGF0dXNMYWJlbCA9IChzdGF0dXM6IHN0cmluZykgPT4gdChgYWRtaW4udHJhY2Uuc3RhdHVzLiR7c3RhdHVzfWApOwoKY29uc3QgbG9hZCA9IGFzeW5jICgpID0+IHsKICBjb250cm9sbGVyPy5hYm9ydCgpOwogIGNvbnN0IGN1cnJlbnRUcmFjZUlkID0gbm9ybWFsaXplVHJhY2VJZCh0cmFjZUlkLnZhbHVlKTsKICBxdWVyeS52YWx1ZSA9IGN1cnJlbnRUcmFjZUlkOwogIGludmFsaWRUcmFjZUlkLnZhbHVlID0gIWlzVHJhY2VJZChjdXJyZW50VHJhY2VJZCk7CiAgaWYgKGludmFsaWRUcmFjZUlkLnZhbHVlKSB7CiAgICBjb250cm9sbGVyID0gbnVsbDsKICAgIGxvYWRpbmcudmFsdWUgPSBmYWxzZTsKICAgIGxvYWRFcnJvci52YWx1ZSA9IGZhbHNlOwogICAgcGF5bG9hZC52YWx1ZSA9IG51bGw7CiAgICByZXR1cm47CiAgfQoKICBjb25zdCByZXF1ZXN0Q29udHJvbGxlciA9IG5ldyBBYm9ydENvbnRyb2xsZXIoKTsKICBjb250cm9sbGVyID0gcmVxdWVzdENvbnRyb2xsZXI7CiAgbG9hZGluZy52YWx1ZSA9IHRydWU7CiAgbG9hZEVycm9yLnZhbHVlID0gZmFsc2U7CiAgcGF5bG9hZC52YWx1ZSA9IG51bGw7CiAgdHJ5IHsKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgVHJhY2VBUEkuZ2V0KAogICAgICBjdXJyZW50VHJhY2VJZCwKICAgICAgcmVxdWVzdENvbnRyb2xsZXIuc2lnbmFsLAogICAgKTsKICAgIGlmIChjb250cm9sbGVyICE9PSByZXF1ZXN0Q29udHJvbGxlciB8fCByZXF1ZXN0Q29udHJvbGxlci5zaWduYWwuYWJvcnRlZCkgewogICAgICByZXR1cm47CiAgICB9CiAgICBwYXlsb2FkLnZhbHVlID0gcmVzcG9uc2UuZGF0YTsKICB9IGNhdGNoIChfZXJyb3IpIHsKICAgIGlmIChjb250cm9sbGVyICE9PSByZXF1ZXN0Q29udHJvbGxlciB8fCByZXF1ZXN0Q29udHJvbGxlci5zaWduYWwuYWJvcnRlZCkgewogICAgICByZXR1cm47CiAgICB9CiAgICBsb2FkRXJyb3IudmFsdWUgPSB0cnVlOwogIH0gZmluYWxseSB7CiAgICBpZiAoY29udHJvbGxlciA9PT0gcmVxdWVzdENvbnRyb2xsZXIpIHsKICAgICAgY29udHJvbGxlciA9IG51bGw7CiAgICAgIGxvYWRpbmcudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9Cn07Cgpjb25zdCBzZWFyY2ggPSAoKSA9PiB7CiAgY29uc3QgdmFsdWUgPSBub3JtYWxpemVUcmFjZUlkKHF1ZXJ5LnZhbHVlKTsKICBpbnZhbGlkVHJhY2VJZC52YWx1ZSA9ICFpc1RyYWNlSWQodmFsdWUpOwogIGlmIChpbnZhbGlkVHJhY2VJZC52YWx1ZSkgcmV0dXJuOwogIGlmICh2YWx1ZSAhPT0gdHJhY2VJZC52YWx1ZSkgewogICAgdm9pZCByb3V0ZXIucHVzaChgL3RyYWNlcy8ke2VuY29kZVVSSUNvbXBvbmVudCh2YWx1ZSl9YCk7CiAgICByZXR1cm47CiAgfQogIHZvaWQgbG9hZCgpOwp9OwoKd2F0Y2godHJhY2VJZCwgbG9hZCwgeyBpbW1lZGlhdGU6IHRydWUgfSk7Cm9uQmVmb3JlVW5tb3VudCgoKSA9PiBjb250cm9sbGVyPy5hYm9ydCgpKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgY2xhc3M9ImR5bmFtaWMtd2hpdGUtcGFnZS1jYXJkIGR5bmFtaWMtd2hpdGUtc2V0dGluZ3Mtc3VyZmFjZSBtaW4taC1mdWxsIHNwYWNlLXktNCIKICA+CiAgICA8ZGl2CiAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIGxnOmZsZXgtcm93IGxnOml0ZW1zLXN0YXJ0IGxnOmp1c3RpZnktYmV0d2VlbiIKICAgID4KICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTIiPgogICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIGNsYXNzPSItbWwtMyBoLTgiIEBjbGljaz0icm91dGVyLmJhY2soKSI+CiAgICAgICAgICA8QXJyb3dMZWZ0IGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICB7eyB0KCJhZG1pbi50cmFjZS5iYWNrIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8ZGl2PgogICAgICAgICAgPGgxIGNsYXNzPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi50cmFjZS50aXRsZSIpIH19CiAgICAgICAgICA8L2gxPgogICAgICAgICAgPHAgY2xhc3M9Im10LTEgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi50cmFjZS5kZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPFRyYWNlSWRMaW5rIHYtaWY9ImlzVHJhY2VJZCh0cmFjZUlkKSIgOnRyYWNlLWlkPSJ0cmFjZUlkIiAvPgogICAgICA8L2Rpdj4KICAgICAgPGZvcm0gY2xhc3M9ImZsZXggdy1mdWxsIGdhcC0yIGxnOm1heC13LXhsIiBAc3VibWl0LnByZXZlbnQ9InNlYXJjaCI+CiAgICAgICAgPElucHV0CiAgICAgICAgICB2LW1vZGVsPSJxdWVyeSIKICAgICAgICAgIGNsYXNzPSJtaW4tdy0wIGZvbnQtbW9ubyIKICAgICAgICAgIHNwZWxsY2hlY2s9ImZhbHNlIgogICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLnRyYWNlLmxvb2t1cCcpIgogICAgICAgICAgOmFyaWEtaW52YWxpZD0iaW52YWxpZFRyYWNlSWQiCiAgICAgICAgICBAaW5wdXQ9ImludmFsaWRUcmFjZUlkID0gZmFsc2UiCiAgICAgICAgLz4KICAgICAgICA8QnV0dG9uIHR5cGU9InN1Ym1pdCIgdmFyaWFudD0ib3V0bGluZSIgOmRpc2FibGVkPSJsb2FkaW5nIj4KICAgICAgICAgIDxSZWZyZXNoQ3cKICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCIKICAgICAgICAgICAgOmNsYXNzPSJ7ICdhbmltYXRlLXNwaW4nOiBsb2FkaW5nIH0iCiAgICAgICAgICAvPgogICAgICAgICAge3sgdCgiYWRtaW4udHJhY2Uuc2VhcmNoIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9mb3JtPgogICAgPC9kaXY+CgogICAgPEFsZXJ0IHYtaWY9ImludmFsaWRUcmFjZUlkIiB2YXJpYW50PSJkZXN0cnVjdGl2ZSI+CiAgICAgIDxBbGVydFRyaWFuZ2xlIC8+CiAgICAgIDxBbGVydFRpdGxlPnt7IHQoImFkbWluLnRyYWNlLmludmFsaWQiKSB9fTwvQWxlcnRUaXRsZT4KICAgICAgPEFsZXJ0RGVzY3JpcHRpb24+e3sKICAgICAgICB0KCJhZG1pbi50cmFjZS5pbnB1dFBsYWNlaG9sZGVyIikKICAgICAgfX08L0FsZXJ0RGVzY3JpcHRpb24+CiAgICA8L0FsZXJ0PgoKICAgIDxkaXYgdi1lbHNlLWlmPSJsb2FkaW5nIiBjbGFzcz0iZmxleCBtaW4taC01MiBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICA8TG9hZGVyMiBjbGFzcz0iaC02IHctNiBhbmltYXRlLXNwaW4gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogICAgPC9kaXY+CgogICAgPEFsZXJ0IHYtZWxzZS1pZj0ibG9hZEVycm9yIiB2YXJpYW50PSJkZXN0cnVjdGl2ZSI+CiAgICAgIDxBbGVydFRyaWFuZ2xlIC8+CiAgICAgIDxBbGVydFRpdGxlPnt7IHQoImFkbWluLnRyYWNlLmxvYWRGYWlsZWQiKSB9fTwvQWxlcnRUaXRsZT4KICAgICAgPEFsZXJ0RGVzY3JpcHRpb24+e3sKICAgICAgICB0KCJhZG1pbi50cmFjZS5sb2FkRmFpbGVkRGVzY3JpcHRpb24iKQogICAgICB9fTwvQWxlcnREZXNjcmlwdGlvbj4KICAgIDwvQWxlcnQ+CgogICAgPHRlbXBsYXRlIHYtZWxzZS1pZj0icGF5bG9hZCI+CiAgICAgIDxBbGVydCB2LWlmPSJ1bmF2YWlsYWJsZVNvdXJjZXMubGVuZ3RoIj4KICAgICAgICA8QWxlcnRUcmlhbmdsZSAvPgogICAgICAgIDxBbGVydFRpdGxlPnt7IHQoImFkbWluLnRyYWNlLnBhcnRpYWxUaXRsZSIpIH19PC9BbGVydFRpdGxlPgogICAgICAgIDxBbGVydERlc2NyaXB0aW9uPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgiYWRtaW4udHJhY2UucGFydGlhbERlc2NyaXB0aW9uIiwgewogICAgICAgICAgICAgIHNvdXJjZXM6IHVuYXZhaWxhYmxlU291cmNlcy5qb2luKCIsICIpLAogICAgICAgICAgICB9KQogICAgICAgICAgfX0KICAgICAgICA8L0FsZXJ0RGVzY3JpcHRpb24+CiAgICAgIDwvQWxlcnQ+CgogICAgICA8QWxlcnQgdi1pZj0iIXBheWxvYWQuZm91bmQiPgogICAgICAgIDxBbGVydFRyaWFuZ2xlIC8+CiAgICAgICAgPEFsZXJ0VGl0bGU+e3sgdCgiYWRtaW4udHJhY2Uubm90Rm91bmQiKSB9fTwvQWxlcnRUaXRsZT4KICAgICAgICA8QWxlcnREZXNjcmlwdGlvbj57eyB0KCJhZG1pbi50cmFjZS5taXNzaW5nIikgfX08L0FsZXJ0RGVzY3JpcHRpb24+CiAgICAgIDwvQWxlcnQ+CgogICAgICA8Q2FyZD4KICAgICAgICA8Q2FyZEhlYWRlcj4KICAgICAgICAgIDxDYXJkVGl0bGU+e3sgdCgiYWRtaW4udHJhY2UudGltZWxpbmUudGl0bGUiKSB9fTwvQ2FyZFRpdGxlPgogICAgICAgIDwvQ2FyZEhlYWRlcj4KICAgICAgICA8Q2FyZENvbnRlbnQ+CiAgICAgICAgICA8cCB2LWlmPSJ0aW1lbGluZS5sZW5ndGggPT09IDAiIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnRyYWNlLnRpbWVsaW5lLmVtcHR5IikgfX0KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxvbCB2LWVsc2UgY2xhc3M9InJlbGF0aXZlIG1sLTQgYm9yZGVyLWwiPgogICAgICAgICAgICA8bGkKICAgICAgICAgICAgICB2LWZvcj0iaXRlbSBpbiB0aW1lbGluZSIKICAgICAgICAgICAgICA6a2V5PSJpdGVtLmlkIgogICAgICAgICAgICAgIGNsYXNzPSJyZWxhdGl2ZSBwYi02IHBsLTcgbGFzdDpwYi0wIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgIGNsYXNzPSJhYnNvbHV0ZSAtbGVmdC1bMTdweF0gdG9wLTAgZmxleCBoLTggdy04IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgYm9yZGVyIGJnLWJhY2tncm91bmQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGNvbXBvbmVudCA6aXM9Imljb25Gb3IoaXRlbS5raW5kKSIgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0xIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImZvbnQtbWVkaXVtIj57eyBpdGVtLnRpdGxlIH19PC9zcGFuPgogICAgICAgICAgICAgICAgPHRpbWUgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57ewogICAgICAgICAgICAgICAgICBmb3JtYXRUaW1lKGl0ZW0udGltZSkKICAgICAgICAgICAgICAgIH19PC90aW1lPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxwIGNsYXNzPSJtdC0xIGJyZWFrLWFsbCBmb250LW1vbm8gdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgaXRlbS5kZXRhaWwgfHwgIi0iIH19CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2xpPgogICAgICAgICAgPC9vbD4KICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICA8L0NhcmQ+CgogICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC00IHhsOmdyaWQtY29scy0yIj4KICAgICAgICA8Q2FyZD4KICAgICAgICAgIDxDYXJkSGVhZGVyIGNsYXNzPSJmbGV4LXJvdyBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICAgICAgPENhcmRUaXRsZT57eyB0KCJhZG1pbi50cmFjZS5zZWN0aW9ucy5yZXF1ZXN0IikgfX08L0NhcmRUaXRsZT4KICAgICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9Im91dGxpbmUiPnt7CiAgICAgICAgICAgICAgc3RhdHVzTGFiZWwocGF5bG9hZC5zb3VyY2VzLmdhdGV3YXlfbG9ncykKICAgICAgICAgICAgfX08L0JhZGdlPgogICAgICAgICAgPC9DYXJkSGVhZGVyPgogICAgICAgICAgPENhcmRDb250ZW50PgogICAgICAgICAgICA8cHJlCiAgICAgICAgICAgICAgdi1pZj0icmVxdWVzdCIKICAgICAgICAgICAgICBjbGFzcz0ibWF4LWgtWzQyMHB4XSBvdmVyZmxvdy1hdXRvIHdoaXRlc3BhY2UtcHJlLXdyYXAgYnJlYWstYWxsIHJvdW5kZWQtbWQgYmctbXV0ZWQgcC00IHRleHQteHMiCiAgICAgICAgICAgICAgPnt7IHByZXR0eShyZXF1ZXN0KSB9fTwvcHJlPgogICAgICAgICAgICA8cCB2LWVsc2UgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi50cmFjZS5taXNzaW5nIikgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgICA8L0NhcmQ+CgogICAgICAgIDxDYXJkPgogICAgICAgICAgPENhcmRIZWFkZXIgY2xhc3M9ImZsZXgtcm93IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgICAgICA8Q2FyZFRpdGxlPnt7IHQoImFkbWluLnRyYWNlLnNlY3Rpb25zLndhZiIpIH19PC9DYXJkVGl0bGU+CiAgICAgICAgICAgIDxCYWRnZSB2YXJpYW50PSJvdXRsaW5lIj57ewogICAgICAgICAgICAgIHN0YXR1c0xhYmVsKHBheWxvYWQuc291cmNlcy53YWZfbG9ncykKICAgICAgICAgICAgfX08L0JhZGdlPgogICAgICAgICAgPC9DYXJkSGVhZGVyPgogICAgICAgICAgPENhcmRDb250ZW50PgogICAgICAgICAgICA8cHJlCiAgICAgICAgICAgICAgdi1pZj0id2FmRXZlbnQiCiAgICAgICAgICAgICAgY2xhc3M9Im1heC1oLVs0MjBweF0gb3ZlcmZsb3ctYXV0byB3aGl0ZXNwYWNlLXByZS13cmFwIGJyZWFrLWFsbCByb3VuZGVkLW1kIGJnLW11dGVkIHAtNCB0ZXh0LXhzIgogICAgICAgICAgICAgID57eyBwcmV0dHkod2FmRXZlbnQpIH19PC9wcmU+CiAgICAgICAgICAgIDxwIHYtZWxzZSBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLnRyYWNlLm1pc3NpbmciKSB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICAgIDwvQ2FyZD4KCiAgICAgICAgPENhcmQ+CiAgICAgICAgICA8Q2FyZEhlYWRlciBjbGFzcz0iZmxleC1yb3cgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiI+CiAgICAgICAgICAgIDxDYXJkVGl0bGU+e3sgdCgiYWRtaW4udHJhY2Uuc2VjdGlvbnMuZXZlbnRzIikgfX08L0NhcmRUaXRsZT4KICAgICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9Im91dGxpbmUiPnt7CiAgICAgICAgICAgICAgc3RhdHVzTGFiZWwocGF5bG9hZC5zb3VyY2VzLnN5c3RlbV9ldmVudHMpCiAgICAgICAgICAgIH19PC9CYWRnZT4KICAgICAgICAgIDwvQ2FyZEhlYWRlcj4KICAgICAgICAgIDxDYXJkQ29udGVudCBjbGFzcz0ic3BhY2UteS0zIj4KICAgICAgICAgICAgPHAKICAgICAgICAgICAgICB2LWlmPSJwYXlsb2FkLnN5c3RlbV9ldmVudHMubGVuZ3RoID09PSAwIgogICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLnRyYWNlLm1pc3NpbmciKSB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxwcmUKICAgICAgICAgICAgICB2LWZvcj0iZXZlbnQgaW4gcGF5bG9hZC5zeXN0ZW1fZXZlbnRzIgogICAgICAgICAgICAgIHYtZWxzZQogICAgICAgICAgICAgIDprZXk9ImV2ZW50LmlkIgogICAgICAgICAgICAgIGNsYXNzPSJtYXgtaC1bMzIwcHhdIG92ZXJmbG93LWF1dG8gd2hpdGVzcGFjZS1wcmUtd3JhcCBicmVhay1hbGwgcm91bmRlZC1tZCBiZy1tdXRlZCBwLTQgdGV4dC14cyIKICAgICAgICAgICAgICA+e3sgcHJldHR5KGV2ZW50KSB9fTwvcHJlPgogICAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgICA8L0NhcmQ+CgogICAgICAgIDxDYXJkPgogICAgICAgICAgPENhcmRIZWFkZXIgY2xhc3M9ImZsZXgtcm93IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgICAgICA8Q2FyZFRpdGxlPnt7IHQoImFkbWluLnRyYWNlLnNlY3Rpb25zLm5vdGlmaWNhdGlvbnMiKSB9fTwvQ2FyZFRpdGxlPgogICAgICAgICAgICA8QmFkZ2UgdmFyaWFudD0ib3V0bGluZSI+e3sKICAgICAgICAgICAgICBzdGF0dXNMYWJlbChwYXlsb2FkLnNvdXJjZXMubm90aWZpY2F0aW9ucykKICAgICAgICAgICAgfX08L0JhZGdlPgogICAgICAgICAgPC9DYXJkSGVhZGVyPgogICAgICAgICAgPENhcmRDb250ZW50IGNsYXNzPSJzcGFjZS15LTMiPgogICAgICAgICAgICA8cAogICAgICAgICAgICAgIHYtaWY9InRyaWdnZXJzLmxlbmd0aCA9PT0gMCAmJiBkZWxpdmVyaWVzLmxlbmd0aCA9PT0gMCIKICAgICAgICAgICAgICBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi50cmFjZS5taXNzaW5nIikgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8ZGl2IHYtaWY9InRyaWdnZXJzLmxlbmd0aCIgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICAgICAgPGgzIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnRyYWNlLnNlY3Rpb25zLnRyaWdnZXJzIikgfX0KICAgICAgICAgICAgICA8L2gzPgogICAgICAgICAgICAgIDxwcmUKICAgICAgICAgICAgICAgIHYtZm9yPSJ0cmlnZ2VyIGluIHRyaWdnZXJzIgogICAgICAgICAgICAgICAgOmtleT0iU3RyaW5nKHRyaWdnZXIuaWQpIgogICAgICAgICAgICAgICAgY2xhc3M9Im1heC1oLVszMDBweF0gb3ZlcmZsb3ctYXV0byB3aGl0ZXNwYWNlLXByZS13cmFwIGJyZWFrLWFsbCByb3VuZGVkLW1kIGJnLW11dGVkIHAtNCB0ZXh0LXhzIgogICAgICAgICAgICAgICAgPnt7IHByZXR0eSh0cmlnZ2VyKSB9fTwvcHJlPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiB2LWlmPSJkZWxpdmVyaWVzLmxlbmd0aCIgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICAgICAgPGgzIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnRyYWNlLnNlY3Rpb25zLmRlbGl2ZXJpZXMiKSB9fQogICAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgICAgPHByZQogICAgICAgICAgICAgICAgdi1mb3I9ImRlbGl2ZXJ5IGluIGRlbGl2ZXJpZXMiCiAgICAgICAgICAgICAgICA6a2V5PSJTdHJpbmcoZGVsaXZlcnkuaWQpIgogICAgICAgICAgICAgICAgY2xhc3M9Im1heC1oLVszMDBweF0gb3ZlcmZsb3ctYXV0byB3aGl0ZXNwYWNlLXByZS13cmFwIGJyZWFrLWFsbCByb3VuZGVkLW1kIGJnLW11dGVkIHAtNCB0ZXh0LXhzIgogICAgICAgICAgICAgICAgPnt7IHByZXR0eShkZWxpdmVyeSkgfX08L3ByZT4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICAgIDwvQ2FyZD4KICAgICAgPC9kaXY+CiAgICA8L3RlbXBsYXRlPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, onBeforeUnmount, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRoute, useRouter } from "vue-router";
+import {
+  AlertTriangle,
+  ArrowLeft,
+  Bell,
+  Loader2,
+  RefreshCw,
+  Route as RouteIcon,
+  ShieldCheck,
+  Webhook,
+} from "lucide-vue-next";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import TraceIdLink from "@/components/TraceIdLink.vue";
+import { TraceAPI, type TraceLookupPayload } from "@/lib/api/traces";
+import { isTraceId, normalizeTraceId } from "@/lib/trace-id";
+
+type JsonRecord = Record<string, unknown>;
+type TimelineKind = "request" | "waf" | "event" | "trigger" | "delivery";
+interface TimelineItem {
+  id: string;
+  kind: TimelineKind;
+  time: string;
+  title: string;
+  detail: string;
+}
+
+const route = useRoute();
+const router = useRouter();
+const { t, locale } = useI18n();
+const loading = ref(false);
+const loadError = ref(false);
+const invalidTraceId = ref(false);
+const payload = ref<TraceLookupPayload | null>(null);
+const query = ref("");
+let controller: AbortController | null = null;
+
+const traceId = computed(() => String(route.params.trace_id || "").trim());
+const request = computed(
+  () => (payload.value?.request || null) as JsonRecord | null,
+);
+const wafEvent = computed(
+  () => (payload.value?.waf_event || null) as JsonRecord | null,
+);
+const triggers = computed(
+  () => (payload.value?.notification_triggers || []) as JsonRecord[],
+);
+const deliveries = computed(
+  () => (payload.value?.notification_deliveries || []) as JsonRecord[],
+);
+const unavailableSources = computed(() =>
+  payload.value
+    ? Object.entries(payload.value.sources)
+        .filter(([, status]) => status === "unavailable")
+        .map(([source]) => t(`admin.trace.sources.${source}`))
+    : [],
+);
+
+const stringValue = (record: JsonRecord, ...keys: string[]) => {
+  for (const key of keys) {
+    const value = record[key];
+    if (typeof value === "string" && value) return value;
+    if (typeof value === "number") return String(value);
+  }
+  return "";
+};
+
+const timeline = computed<TimelineItem[]>(() => {
+  const items: TimelineItem[] = [];
+  if (request.value) {
+    items.push({
+      id: "request",
+      kind: "request",
+      time: stringValue(request.value, "time"),
+      title: t("admin.trace.timeline.request"),
+      detail:
+        `${stringValue(request.value, "method")} ${stringValue(request.value, "request_uri", "path")}`.trim(),
+    });
+  }
+  if (wafEvent.value) {
+    items.push({
+      id: "waf",
+      kind: "waf",
+      time: stringValue(wafEvent.value, "time"),
+      title: t("admin.trace.timeline.waf"),
+      detail: stringValue(wafEvent.value, "action", "mode"),
+    });
+  }
+  for (const event of payload.value?.system_events || []) {
+    items.push({
+      id: `event-${event.id}`,
+      kind: "event",
+      time: event.happened_at,
+      title: t("admin.trace.timeline.event"),
+      detail: event.type,
+    });
+  }
+  for (const trigger of triggers.value) {
+    items.push({
+      id: `trigger-${stringValue(trigger, "id")}`,
+      kind: "trigger",
+      time: stringValue(trigger, "created_at"),
+      title: t("admin.trace.timeline.trigger"),
+      detail: stringValue(trigger, "rule_id", "id"),
+    });
+  }
+  for (const delivery of deliveries.value) {
+    items.push({
+      id: `delivery-${stringValue(delivery, "id")}`,
+      kind: "delivery",
+      time: stringValue(delivery, "sent_at", "triggered_at"),
+      title: t("admin.trace.timeline.delivery"),
+      detail: stringValue(delivery, "status", "provider_type"),
+    });
+  }
+  return items.sort((left, right) => {
+    const leftTime = Date.parse(left.time);
+    const rightTime = Date.parse(right.time);
+    if (Number.isNaN(leftTime) && Number.isNaN(rightTime)) {
+      return left.id.localeCompare(right.id);
+    }
+    if (Number.isNaN(leftTime)) return 1;
+    if (Number.isNaN(rightTime)) return -1;
+    return leftTime - rightTime;
+  });
+});
+
+const iconFor = (kind: TimelineKind) =>
+  ({
+    request: RouteIcon,
+    waf: ShieldCheck,
+    event: Webhook,
+    trigger: Bell,
+    delivery: Bell,
+  })[kind];
+
+const formatTime = (value: string) => {
+  const date = new Date(value);
+  return Number.isNaN(date.getTime())
+    ? value || "-"
+    : new Intl.DateTimeFormat(String(locale.value), {
+        dateStyle: "medium",
+        timeStyle: "medium",
+      }).format(date);
+};
+
+const pretty = (value: unknown) => JSON.stringify(value, null, 2);
+const statusLabel = (status: string) => t(`admin.trace.status.${status}`);
+
+const load = async () => {
+  controller?.abort();
+  const currentTraceId = normalizeTraceId(traceId.value);
+  query.value = currentTraceId;
+  invalidTraceId.value = !isTraceId(currentTraceId);
+  if (invalidTraceId.value) {
+    controller = null;
+    loading.value = false;
+    loadError.value = false;
+    payload.value = null;
+    return;
+  }
+
+  const requestController = new AbortController();
+  controller = requestController;
+  loading.value = true;
+  loadError.value = false;
+  payload.value = null;
+  try {
+    const response = await TraceAPI.get(
+      currentTraceId,
+      requestController.signal,
+    );
+    if (controller !== requestController || requestController.signal.aborted) {
+      return;
+    }
+    payload.value = response.data;
+  } catch (_error) {
+    if (controller !== requestController || requestController.signal.aborted) {
+      return;
+    }
+    loadError.value = true;
+  } finally {
+    if (controller === requestController) {
+      controller = null;
+      loading.value = false;
+    }
+  }
+};
+
+const search = () => {
+  const value = normalizeTraceId(query.value);
+  invalidTraceId.value = !isTraceId(value);
+  if (invalidTraceId.value) return;
+  if (value !== traceId.value) {
+    void router.push(`/traces/${encodeURIComponent(value)}`);
+    return;
+  }
+  void load();
+};
+
+watch(traceId, load, { immediate: true });
+onBeforeUnmount(() => controller?.abort());
+</script>
+
+<template>
+  <div
+    class="dynamic-white-page-card dynamic-white-settings-surface min-h-full space-y-4"
+  >
+    <div
+      class="flex flex-col gap-3 lg:flex-row lg:items-start lg:justify-between"
+    >
+      <div class="min-w-0 space-y-2">
+        <Button variant="ghost" class="-ml-3 h-8" @click="router.back()">
+          <ArrowLeft class="mr-2 h-4 w-4" />
+          {{ t("admin.trace.back") }}
+        </Button>
+        <div>
+          <h1 class="text-xl font-semibold tracking-tight">
+            {{ t("admin.trace.title") }}
+          </h1>
+          <p class="mt-1 text-sm text-muted-foreground">
+            {{ t("admin.trace.description") }}
+          </p>
+        </div>
+        <TraceIdLink v-if="isTraceId(traceId)" :trace-id="traceId" />
+      </div>
+      <form class="flex w-full gap-2 lg:max-w-xl" @submit.prevent="search">
+        <Input
+          v-model="query"
+          class="min-w-0 font-mono"
+          spellcheck="false"
+          :aria-label="t('admin.trace.lookup')"
+          :aria-invalid="invalidTraceId"
+          @input="invalidTraceId = false"
+        />
+        <Button type="submit" variant="outline" :disabled="loading">
+          <RefreshCw
+            class="mr-2 h-4 w-4"
+            :class="{ 'animate-spin': loading }"
+          />
+          {{ t("admin.trace.search") }}
+        </Button>
+      </form>
+    </div>
+
+    <Alert v-if="invalidTraceId" variant="destructive">
+      <AlertTriangle />
+      <AlertTitle>{{ t("admin.trace.invalid") }}</AlertTitle>
+      <AlertDescription>{{
+        t("admin.trace.inputPlaceholder")
+      }}</AlertDescription>
+    </Alert>
+
+    <div v-else-if="loading" class="flex min-h-52 items-center justify-center">
+      <Loader2 class="h-6 w-6 animate-spin text-muted-foreground" />
+    </div>
+
+    <Alert v-else-if="loadError" variant="destructive">
+      <AlertTriangle />
+      <AlertTitle>{{ t("admin.trace.loadFailed") }}</AlertTitle>
+      <AlertDescription>{{
+        t("admin.trace.loadFailedDescription")
+      }}</AlertDescription>
+    </Alert>
+
+    <template v-else-if="payload">
+      <Alert v-if="unavailableSources.length">
+        <AlertTriangle />
+        <AlertTitle>{{ t("admin.trace.partialTitle") }}</AlertTitle>
+        <AlertDescription>
+          {{
+            t("admin.trace.partialDescription", {
+              sources: unavailableSources.join(", "),
+            })
+          }}
+        </AlertDescription>
+      </Alert>
+
+      <Alert v-if="!payload.found">
+        <AlertTriangle />
+        <AlertTitle>{{ t("admin.trace.notFound") }}</AlertTitle>
+        <AlertDescription>{{ t("admin.trace.missing") }}</AlertDescription>
+      </Alert>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>{{ t("admin.trace.timeline.title") }}</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p v-if="timeline.length === 0" class="text-sm text-muted-foreground">
+            {{ t("admin.trace.timeline.empty") }}
+          </p>
+          <ol v-else class="relative ml-4 border-l">
+            <li
+              v-for="item in timeline"
+              :key="item.id"
+              class="relative pb-6 pl-7 last:pb-0"
+            >
+              <span
+                class="absolute -left-[17px] top-0 flex h-8 w-8 items-center justify-center rounded-full border bg-background"
+              >
+                <component :is="iconFor(item.kind)" class="h-4 w-4" />
+              </span>
+              <div
+                class="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between"
+              >
+                <span class="font-medium">{{ item.title }}</span>
+                <time class="text-xs text-muted-foreground">{{
+                  formatTime(item.time)
+                }}</time>
+              </div>
+              <p class="mt-1 break-all font-mono text-xs text-muted-foreground">
+                {{ item.detail || "-" }}
+              </p>
+            </li>
+          </ol>
+        </CardContent>
+      </Card>
+
+      <div class="grid gap-4 xl:grid-cols-2">
+        <Card>
+          <CardHeader class="flex-row items-center justify-between">
+            <CardTitle>{{ t("admin.trace.sections.request") }}</CardTitle>
+            <Badge variant="outline">{{
+              statusLabel(payload.sources.gateway_logs)
+            }}</Badge>
+          </CardHeader>
+          <CardContent>
+            <pre
+              v-if="request"
+              class="max-h-[420px] overflow-auto whitespace-pre-wrap break-all rounded-md bg-muted p-4 text-xs"
+              >{{ pretty(request) }}</pre>
+            <p v-else class="text-sm text-muted-foreground">
+              {{ t("admin.trace.missing") }}
+            </p>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader class="flex-row items-center justify-between">
+            <CardTitle>{{ t("admin.trace.sections.waf") }}</CardTitle>
+            <Badge variant="outline">{{
+              statusLabel(payload.sources.waf_logs)
+            }}</Badge>
+          </CardHeader>
+          <CardContent>
+            <pre
+              v-if="wafEvent"
+              class="max-h-[420px] overflow-auto whitespace-pre-wrap break-all rounded-md bg-muted p-4 text-xs"
+              >{{ pretty(wafEvent) }}</pre>
+            <p v-else class="text-sm text-muted-foreground">
+              {{ t("admin.trace.missing") }}
+            </p>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader class="flex-row items-center justify-between">
+            <CardTitle>{{ t("admin.trace.sections.events") }}</CardTitle>
+            <Badge variant="outline">{{
+              statusLabel(payload.sources.system_events)
+            }}</Badge>
+          </CardHeader>
+          <CardContent class="space-y-3">
+            <p
+              v-if="payload.system_events.length === 0"
+              class="text-sm text-muted-foreground"
+            >
+              {{ t("admin.trace.missing") }}
+            </p>
+            <pre
+              v-for="event in payload.system_events"
+              v-else
+              :key="event.id"
+              class="max-h-[320px] overflow-auto whitespace-pre-wrap break-all rounded-md bg-muted p-4 text-xs"
+              >{{ pretty(event) }}</pre>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader class="flex-row items-center justify-between">
+            <CardTitle>{{ t("admin.trace.sections.notifications") }}</CardTitle>
+            <Badge variant="outline">{{
+              statusLabel(payload.sources.notifications)
+            }}</Badge>
+          </CardHeader>
+          <CardContent class="space-y-3">
+            <p
+              v-if="triggers.length === 0 && deliveries.length === 0"
+              class="text-sm text-muted-foreground"
+            >
+              {{ t("admin.trace.missing") }}
+            </p>
+            <div v-if="triggers.length" class="space-y-2">
+              <h3 class="text-sm font-medium">
+                {{ t("admin.trace.sections.triggers") }}
+              </h3>
+              <pre
+                v-for="trigger in triggers"
+                :key="String(trigger.id)"
+                class="max-h-[300px] overflow-auto whitespace-pre-wrap break-all rounded-md bg-muted p-4 text-xs"
+                >{{ pretty(trigger) }}</pre>
+            </div>
+            <div v-if="deliveries.length" class="space-y-2">
+              <h3 class="text-sm font-medium">
+                {{ t("admin.trace.sections.deliveries") }}
+              </h3>
+              <pre
+                v-for="delivery in deliveries"
+                :key="String(delivery.id)"
+                class="max-h-[300px] overflow-auto whitespace-pre-wrap break-all rounded-md bg-muted p-4 text-xs"
+                >{{ pretty(delivery) }}</pre>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+    </template>
+  </div>
+</template>

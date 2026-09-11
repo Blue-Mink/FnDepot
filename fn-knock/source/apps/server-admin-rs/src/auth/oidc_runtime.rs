@@ -1,1 +1,144 @@
-dXNlIGF4dW06OnsKICAgIEpzb24sIFJvdXRlciwKICAgIGV4dHJhY3Q6OntQYXRoLCBRdWVyeSwgU3RhdGV9LAogICAgaHR0cDo6e0hlYWRlck1hcCwgSGVhZGVyVmFsdWUsIFN0YXR1c0NvZGUsIFVyaSwgaGVhZGVyfSwKICAgIHJlc3BvbnNlOjp7SW50b1Jlc3BvbnNlLCBSZXNwb25zZX0sCiAgICByb3V0aW5nOjp7Z2V0LCBwb3N0fSwKfTsKdXNlIGpzb253ZWJ0b2tlbjo6ewogICAgRGVjb2RpbmdLZXksIFZhbGlkYXRpb24sIGRlY29kZSwgZGVjb2RlX2hlYWRlciwKICAgIGp3azo6e0p3aywgSndrU2V0fSwKfTsKdXNlIHNlcmRlOjpEZXNlcmlhbGl6ZTsKdXNlIHNlcmRlX2pzb246OntNYXAsIFZhbHVlLCBqc29ufTsKdXNlIHN1YnRsZTo6Q29uc3RhbnRUaW1lRXE7CnVzZSB1cmw6OlVybDsKCnVzZSBjcmF0ZTo6ewogICAgYXV0aDo6bW9kZTo6e0F1dGhMb2dpbk1vZGUsIEF1dGhNZXRob2R9LAogICAgYXV0aF9tb2JpbGl0eTo6e3NlbGYsIENyZWF0ZUxvZ2luU2Vzc2lvbklucHV0fSwKICAgIGJhY2tvZmY6Om5vcm1hbGl6ZV9hdXRoX2ZhaWx1cmVfdHJhY2tpbmdfaXAsCiAgICBjb29raWVzLAogICAgaHR0cF91dGlsczo6Z2V0X2NsaWVudF9pcCwKICAgIGkxOG46OntERUZBVUxUX0xPQ0FMRSwgVHJhbnNsYXRvcn0sCiAgICBvaWRjX2FkbWluOjp7CiAgICAgICAgT0lEQ19IVFRQX1VTRVJfQUdFTlQsIG9pZGNfY2xhaW1fYmluZGluZ19hbmRfY29uc3VtZV9pbnZpdGUsCiAgICAgICAgb2lkY19jb25zdW1lX2xvZ2luX2Vycm9yX25vdGljZSwgb2lkY19jb25zdW1lX3N0YXRlLCBvaWRjX2dldF9iaW5kaW5nX2J5X3N1YmplY3QsCiAgICAgICAgb2lkY19nZXRfcHJvdmlkZXIsIG9pZGNfaW5zcGVjdF9pbnZpdGUsIG9pZGNfcHJvdmlkZXJfcmVhZHlfd2l0aF90cmFuc2xhdG9yLAogICAgICAgIG9pZGNfc2F2ZV9sb2dpbl9lcnJvcl9ub3RpY2UsIG9pZGNfc2F2ZV9zdGF0ZSwgb2lkY191cGRhdGVfYmluZGluZ19pZl9vd25lZCwKICAgICAgICByZXNvbHZlX2Rpc2NvdmVyeV93aXRoX3RyYW5zbGF0b3IsCiAgICB9LAogICAgcmVzcG9uc2U6OntzZWxmLCBBcGlFbnZlbG9wZX0sCiAgICBzdGF0ZTo6QXBwU3RhdGUsCiAgICBzeXN0ZW1fZXZlbnRzLCB0aW1lX3V0aWxzLAp9OwoKY29uc3QgT0lEQ19TVEFURV9UVExfU0VDT05EUzogdXNpemUgPSAxMCAqIDYwOwpjb25zdCBMT0dJTl9FUlJPUl9UVExfU0VDT05EUzogdXNpemUgPSA1ICogNjA7Cgphc3luYyBmbiBlbnN1cmVfb2lkY19sb2dpbl9tb2RlKHN0YXRlOiAmQXBwU3RhdGUsIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfYXV0aF9sb2dpbl9tb2RlKCkuYXdhaXQgewogICAgICAgIE9rKEF1dGhMb2dpbk1vZGU6OlRvdHApID0+IE9rKCgpKSwKICAgICAgICBPayhfKSA9PiBFcnIob2lkY190ZXh0KHRyYW5zbGF0b3IsICJsb2dpbk1ldGhvZFVuYXZhaWxhYmxlIikpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gbG9hZCBhdXRoIGxvZ2luIG1vZGUgZm9yIE9JREMiKTsKICAgICAgICAgICAgRXJyKG9pZGNfdGV4dCh0cmFuc2xhdG9yLCAibG9hZENvbmZpZ0ZhaWxlZCIpKQogICAgICAgIH0KICAgIH0KfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUpXQpzdHJ1Y3QgQmluZFF1ZXJ5IHsKICAgIHRva2VuOiBPcHRpb248U3RyaW5nPiwKICAgIHByb3ZpZGVyX2lkOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUpXQpzdHJ1Y3QgU3RhcnRCb2R5IHsKICAgIHByb3ZpZGVyX2lkOiBTdHJpbmcsCiAgICBtb2RlOiBPcHRpb248U3RyaW5nPiwKICAgIGludml0ZV90b2tlbjogT3B0aW9uPFN0cmluZz4sCiAgICByZWRpcmVjdF91cmk6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzZXJkZShkZWZhdWx0LCByZW5hbWUgPSAicmVtZW1iZXJNZSIpXQogICAgcmVtZW1iZXJfbWU6IGJvb2wsCn0KCiNbZGVyaXZlKERlc2VyaWFsaXplKV0Kc3RydWN0IENhbGxiYWNrUXVlcnkgewogICAgY29kZTogT3B0aW9uPFN0cmluZz4sCiAgICBzdGF0ZTogT3B0aW9uPFN0cmluZz4sCiAgICBlcnJvcjogT3B0aW9uPFN0cmluZz4sCiAgICAjW2FsbG93KGRlYWRfY29kZSldCiAgICBlcnJvcl9kZXNjcmlwdGlvbjogT3B0aW9uPFN0cmluZz4sCn0KCnN0cnVjdCBBdXRob3JpemF0aW9uQnVpbGQgewogICAgYXV0aG9yaXphdGlvbl91cmw6IFN0cmluZywKICAgIGZsb3dfdG9rZW46IFN0cmluZywKICAgIG1heF9hZ2U6IHVzaXplLAp9CgpzdHJ1Y3QgRXh0ZXJuYWxQcm9maWxlIHsKICAgIGlzc3VlcjogU3RyaW5nLAogICAgc3ViamVjdDogU3RyaW5nLAogICAgZGlzcGxheV9uYW1lOiBPcHRpb248U3RyaW5nPiwKICAgIGVtYWlsOiBPcHRpb248U3RyaW5nPiwKICAgIGVtYWlsX3ZlcmlmaWVkOiBPcHRpb248Ym9vbD4sCiAgICBhdmF0YXJfdXJsOiBPcHRpb248U3RyaW5nPiwKfQoKc3RydWN0IENhbGxiYWNrUmVzb2x2ZWQgewogICAgc3RhdGU6IFZhbHVlLAogICAgcHJvdmlkZXI6IFZhbHVlLAogICAgYmluZGluZzogVmFsdWUsCiAgICBwcm9maWxlOiBFeHRlcm5hbFByb2ZpbGUsCn0KCnB1YiBmbiBvaWRjX3J1bnRpbWVfcm91dGVzKCkgLT4gUm91dGVyPEFwcFN0YXRlPiB7CiAgICBSb3V0ZXI6Om5ldygpCiAgICAgICAgLnJvdXRlKCIvb2lkYy9iaW5kIiwgZ2V0KGJpbmQpKQogICAgICAgIC5yb3V0ZSgiL29pZGMvc3RhcnQiLCBwb3N0KHN0YXJ0KSkKICAgICAgICAucm91dGUoIi9vaWRjL2NhbGxiYWNrL3twcm92aWRlcl9pZH0iLCBnZXQoY2FsbGJhY2spKQp9CgpmbiBvaWRjX3RleHQodHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsIGtleTogJnN0cikgLT4gU3RyaW5nIHsKICAgIHRyYW5zbGF0b3IudCgmZm9ybWF0ISgic2VydmVyLm9pZGMue2tleX0iKSkKfQoKZm4gb2lkY190ZXh0X3BhcmFtcyh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwga2V5OiAmc3RyLCBwYXJhbXM6ICZbKCZzdHIsIFN0cmluZyldKSAtPiBTdHJpbmcgewogICAgdHJhbnNsYXRvci50X3BhcmFtcygmZm9ybWF0ISgic2VydmVyLm9pZGMue2tleX0iKSwgcGFyYW1zKQp9CgpmbiBzZXJ2ZXJfdGV4dCh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwga2V5OiAmc3RyKSAtPiBTdHJpbmcgewogICAgdHJhbnNsYXRvci50KCZmb3JtYXQhKCJzZXJ2ZXIue2tleX0iKSkKfQoKZm4gc2VydmVyX3RleHRfcGFyYW1zKHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLCBrZXk6ICZzdHIsIHBhcmFtczogJlsoJnN0ciwgU3RyaW5nKV0pIC0+IFN0cmluZyB7CiAgICB0cmFuc2xhdG9yLnRfcGFyYW1zKCZmb3JtYXQhKCJzZXJ2ZXIue2tleX0iKSwgcGFyYW1zKQp9CgpmbiB0cmFuc2xhdG9yX2Zyb21fY29uZmlnKGNvbmZpZzogJlZhbHVlKSAtPiBUcmFuc2xhdG9yIHsKICAgIFRyYW5zbGF0b3I6Om5ldyhsb2NhbGVfY29kZShjb25maWcpKQp9Cgptb2QgYXV0aG9yaXphdGlvbjsKbW9kIGhhbmRsZXJzOwptb2QgaGVscGVyczsKbW9kIGxvZ2luX2Vycm9yOwptb2QgcHJvdmlkZXJzOwptb2Qgc2Vzc2lvbjsKCnVzZSBhdXRob3JpemF0aW9uOjoqOwp1c2UgaGFuZGxlcnM6OntiaW5kLCBjYWxsYmFjaywgc3RhcnR9Owp1c2UgaGVscGVyczo6KjsKcHViKGNyYXRlKSB1c2UgbG9naW5fZXJyb3I6OmNvbnN1bWVfbG9naW5fZXJyb3JfZm9yX2Jvb3RzdHJhcDsKdXNlIGxvZ2luX2Vycm9yOjp7CiAgICBiaW5kX2h0bWxfcmVzcG9uc2UsIGJpbmRfcHJvdmlkZXJfc2VsZWN0aW9uX3Jlc3BvbnNlLCBjb25zdW1lX2NhbGxiYWNrX3N0YXRlX2Zvcl9ub3RpY2UsCiAgICBpc19vaWRjX29wZXJhdGlvbl9hYm9ydGVkX2Vycm9yLCBsb2dpbl9lcnJvcl9yZWRpcmVjdF9yZXNwb25zZSwKICAgIG9pZGNfbG9naW5fZmFpbGVkX3JldHJ5X2FmdGVyX21lc3NhZ2UsIHByb3ZpZGVyX2Vycm9yX21lc3NhZ2UsIHJlZGlyZWN0X3Jlc3BvbnNlLAp9Owp1c2UgcHJvdmlkZXJzOjoqOwp1c2Ugc2Vzc2lvbjo6KjsKCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHM7Cg==
+use axum::{
+    Json, Router,
+    extract::{Path, Query, State},
+    http::{HeaderMap, HeaderValue, StatusCode, Uri, header},
+    response::{IntoResponse, Response},
+    routing::{get, post},
+};
+use jsonwebtoken::{
+    DecodingKey, Validation, decode, decode_header,
+    jwk::{Jwk, JwkSet},
+};
+use serde::Deserialize;
+use serde_json::{Map, Value, json};
+use subtle::ConstantTimeEq;
+use url::Url;
+
+use crate::{
+    auth::mode::{AuthLoginMode, AuthMethod},
+    auth_mobility::{self, CreateLoginSessionInput},
+    backoff::normalize_auth_failure_tracking_ip,
+    cookies,
+    http_utils::get_client_ip,
+    i18n::{DEFAULT_LOCALE, Translator},
+    oidc_admin::{
+        OIDC_HTTP_USER_AGENT, oidc_claim_binding_and_consume_invite,
+        oidc_consume_login_error_notice, oidc_consume_state, oidc_get_binding_by_subject,
+        oidc_get_provider, oidc_inspect_invite, oidc_provider_ready_with_translator,
+        oidc_save_login_error_notice, oidc_save_state, oidc_update_binding_if_owned,
+        resolve_discovery_with_translator,
+    },
+    response::{self, ApiEnvelope},
+    state::AppState,
+    system_events, time_utils,
+};
+
+const OIDC_STATE_TTL_SECONDS: usize = 10 * 60;
+const LOGIN_ERROR_TTL_SECONDS: usize = 5 * 60;
+
+async fn ensure_oidc_login_mode(state: &AppState, translator: &Translator) -> Result<(), String> {
+    match state.storage.store.get_auth_login_mode().await {
+        Ok(AuthLoginMode::Totp) => Ok(()),
+        Ok(_) => Err(oidc_text(translator, "loginMethodUnavailable")),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load auth login mode for OIDC");
+            Err(oidc_text(translator, "loadConfigFailed"))
+        }
+    }
+}
+
+#[derive(Deserialize)]
+struct BindQuery {
+    token: Option<String>,
+    provider_id: Option<String>,
+}
+
+#[derive(Deserialize)]
+struct StartBody {
+    provider_id: String,
+    mode: Option<String>,
+    invite_token: Option<String>,
+    redirect_uri: Option<String>,
+    #[serde(default, rename = "rememberMe")]
+    remember_me: bool,
+}
+
+#[derive(Deserialize)]
+struct CallbackQuery {
+    code: Option<String>,
+    state: Option<String>,
+    error: Option<String>,
+    #[allow(dead_code)]
+    error_description: Option<String>,
+}
+
+struct AuthorizationBuild {
+    authorization_url: String,
+    flow_token: String,
+    max_age: usize,
+}
+
+struct ExternalProfile {
+    issuer: String,
+    subject: String,
+    display_name: Option<String>,
+    email: Option<String>,
+    email_verified: Option<bool>,
+    avatar_url: Option<String>,
+}
+
+struct CallbackResolved {
+    state: Value,
+    provider: Value,
+    binding: Value,
+    profile: ExternalProfile,
+}
+
+pub fn oidc_runtime_routes() -> Router<AppState> {
+    Router::new()
+        .route("/oidc/bind", get(bind))
+        .route("/oidc/start", post(start))
+        .route("/oidc/callback/{provider_id}", get(callback))
+}
+
+fn oidc_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.oidc.{key}"))
+}
+
+fn oidc_text_params(translator: &Translator, key: &str, params: &[(&str, String)]) -> String {
+    translator.t_params(&format!("server.oidc.{key}"), params)
+}
+
+fn server_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.{key}"))
+}
+
+fn server_text_params(translator: &Translator, key: &str, params: &[(&str, String)]) -> String {
+    translator.t_params(&format!("server.{key}"), params)
+}
+
+fn translator_from_config(config: &Value) -> Translator {
+    Translator::new(locale_code(config))
+}
+
+mod authorization;
+mod handlers;
+mod helpers;
+mod login_error;
+mod providers;
+mod session;
+
+use authorization::*;
+use handlers::{bind, callback, start};
+use helpers::*;
+pub(crate) use login_error::consume_login_error_for_bootstrap;
+use login_error::{
+    bind_html_response, bind_provider_selection_response, consume_callback_state_for_notice,
+    is_oidc_operation_aborted_error, login_error_redirect_response,
+    oidc_login_failed_retry_after_message, provider_error_message, redirect_response,
+};
+use providers::*;
+use session::*;
+
+#[cfg(test)]
+mod tests;

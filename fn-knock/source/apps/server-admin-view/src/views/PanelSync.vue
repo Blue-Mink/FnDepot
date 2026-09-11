@@ -1,1 +1,177 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgUGx1cywgUmVmcmVzaEN3IH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsKICBCcmVhZGNydW1iLAogIEJyZWFkY3J1bWJJdGVtLAogIEJyZWFkY3J1bWJMaW5rLAogIEJyZWFkY3J1bWJMaXN0LAogIEJyZWFkY3J1bWJQYWdlLAogIEJyZWFkY3J1bWJTZXBhcmF0b3IsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JyZWFkY3J1bWIiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHR5cGUgewogIFBhbmVsQ29ubmVjdGlvbiwKICBQYW5lbFN5bmNQcmV2aWV3LAp9IGZyb20gIkAvbGliL2FwaS9wYW5lbC1zeW5jLWFwaSI7CmltcG9ydCBDb25uZWN0aW9uRWRpdG9yIGZyb20gIi4vcGFuZWwtc3luYy9Db25uZWN0aW9uRWRpdG9yLnZ1ZSI7CmltcG9ydCBDb25uZWN0aW9uTGlzdCBmcm9tICIuL3BhbmVsLXN5bmMvQ29ubmVjdGlvbkxpc3QudnVlIjsKaW1wb3J0IERlbGV0ZUNvbm5lY3Rpb25EaWFsb2cgZnJvbSAiLi9wYW5lbC1zeW5jL0RlbGV0ZUNvbm5lY3Rpb25EaWFsb2cudnVlIjsKaW1wb3J0IFJ1bkhpc3RvcnkgZnJvbSAiLi9wYW5lbC1zeW5jL1J1bkhpc3RvcnkudnVlIjsKaW1wb3J0IFN5bmNQcmV2aWV3IGZyb20gIi4vcGFuZWwtc3luYy9TeW5jUHJldmlldy52dWUiOwppbXBvcnQgeyB1c2VQYW5lbFN5bmNQYWdlIH0gZnJvbSAiLi9wYW5lbC1zeW5jL3VzZVBhbmVsU3luY1BhZ2UiOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHBhZ2UgPSB1c2VQYW5lbFN5bmNQYWdlKCk7CmNvbnN0IGRlbGV0ZVRhcmdldCA9IHJlZjxQYW5lbENvbm5lY3Rpb24gfCBudWxsPihudWxsKTsKY29uc3QgZGVsZXRlUHJldmlldyA9IHJlZjxQYW5lbFN5bmNQcmV2aWV3IHwgbnVsbD4obnVsbCk7CmNvbnN0IGRlbGV0ZU9wZW4gPSBjb21wdXRlZCh7CiAgZ2V0OiAoKSA9PiBkZWxldGVUYXJnZXQudmFsdWUgIT09IG51bGwsCiAgc2V0OiAodmFsdWU6IGJvb2xlYW4pID0+IHsKICAgIGlmICghdmFsdWUpIGRlbGV0ZVRhcmdldC52YWx1ZSA9IG51bGw7CiAgfSwKfSk7Cgp3YXRjaChkZWxldGVUYXJnZXQsICgpID0+IHsKICBkZWxldGVQcmV2aWV3LnZhbHVlID0gbnVsbDsKfSk7Cgpjb25zdCBwcmV2aWV3RGVsZXRlQ2xlYW51cCA9IGFzeW5jICgpID0+IHsKICBpZiAoIWRlbGV0ZVRhcmdldC52YWx1ZSkgcmV0dXJuOwogIGRlbGV0ZVByZXZpZXcudmFsdWUgPSBhd2FpdCBwYWdlLmNvbm5lY3Rpb25zLnByZXZpZXdDbGVhbnVwKAogICAgZGVsZXRlVGFyZ2V0LnZhbHVlLAogICk7Cn07Cgpjb25zdCBjb25maXJtRGVsZXRlID0gYXN5bmMgKGNsZWFudXBSZW1vdGU6IGJvb2xlYW4pID0+IHsKICBpZiAoIWRlbGV0ZVRhcmdldC52YWx1ZSkgcmV0dXJuOwogIGlmIChjbGVhbnVwUmVtb3RlICYmICFkZWxldGVQcmV2aWV3LnZhbHVlKSByZXR1cm47CiAgYXdhaXQgcGFnZS5jb25uZWN0aW9ucy5yZW1vdmUoCiAgICBkZWxldGVUYXJnZXQudmFsdWUsCiAgICBjbGVhbnVwUmVtb3RlID8gKGRlbGV0ZVByZXZpZXcudmFsdWUgPz8gdW5kZWZpbmVkKSA6IHVuZGVmaW5lZCwKICApOwogIGRlbGV0ZVRhcmdldC52YWx1ZSA9IG51bGw7Cn07Cgpjb25zdCB0b2dnbGVBdXRvID0gYXN5bmMgKGNvbm5lY3Rpb246IFBhbmVsQ29ubmVjdGlvbiwgZW5hYmxlZDogYm9vbGVhbikgPT4gewogIGF3YWl0IHBhZ2UuY29ubmVjdGlvbnMudXBkYXRlKGNvbm5lY3Rpb24uaWQsIHsKICAgIG5hbWU6IGNvbm5lY3Rpb24ubmFtZSwKICAgIGJhc2VfdXJsOiBjb25uZWN0aW9uLmJhc2VfdXJsLAogICAgYXBpX3BhdGg6IGNvbm5lY3Rpb24uYXBpX3BhdGgsCiAgICBhbGxvd19pbnZhbGlkX3RsczogY29ubmVjdGlvbi5hbGxvd19pbnZhbGlkX3RscyA/PyBmYWxzZSwKICAgIGdyb3VwaW5nOiB7CiAgICAgIG1vZGU6IGNvbm5lY3Rpb24uZ3JvdXBpbmc/Lm1vZGUgPz8gIm1pcnJvciIsCiAgICAgIG5hbWVzcGFjZTogY29ubmVjdGlvbi5ncm91cGluZz8ubmFtZXNwYWNlID8/ICJmbi1rbm9jayIsCiAgICAgIHNpbmdsZV9ncm91cF9uYW1lOiBjb25uZWN0aW9uLmdyb3VwaW5nPy5zaW5nbGVfZ3JvdXBfbmFtZSA/PyAiIiwKICAgIH0sCiAgICBhdXRvX3N5bmM6IHsKICAgICAgZW5hYmxlZCwKICAgICAgaW50ZXJ2YWxfbWludXRlczogY29ubmVjdGlvbi5hdXRvX3N5bmM/LmludGVydmFsX21pbnV0ZXMgPz8gNjAsCiAgICB9LAogICAgY2xlYXJfY3JlZGVudGlhbDogZmFsc2UsCiAgfSk7Cn07Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktNiI+CiAgICA8QnJlYWRjcnVtYj4KICAgICAgPEJyZWFkY3J1bWJMaXN0PgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iTGluayBocmVmPSIjL21hcHBpbmdzP3RhYj1zdWJkb21haW4iPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5uYXYubWFwcGluZ01hbmFnZW1lbnQiKSB9fQogICAgICAgICAgPC9CcmVhZGNydW1iTGluaz4KICAgICAgICA8L0JyZWFkY3J1bWJJdGVtPgogICAgICAgIDxCcmVhZGNydW1iU2VwYXJhdG9yIC8+CiAgICAgICAgPEJyZWFkY3J1bWJJdGVtPgogICAgICAgICAgPEJyZWFkY3J1bWJQYWdlPnt7IHQoImFkbWluLnBhbmVsU3luYy50aXRsZSIpIH19PC9CcmVhZGNydW1iUGFnZT4KICAgICAgICA8L0JyZWFkY3J1bWJJdGVtPgogICAgICA8L0JyZWFkY3J1bWJMaXN0PgogICAgPC9CcmVhZGNydW1iPgogICAgPGRpdgogICAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtNCBzbTpmbGV4LXJvdyBzbTppdGVtcy1zdGFydCBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICA+CiAgICAgIDxkaXY+CiAgICAgICAgPGgxIGNsYXNzPSJ0ZXh0LTJ4bCBmb250LXNlbWlib2xkIHRyYWNraW5nLXRpZ2h0Ij4KICAgICAgICAgIHt7IHQoImFkbWluLnBhbmVsU3luYy50aXRsZSIpIH19CiAgICAgICAgPC9oMT4KICAgICAgICA8cCBjbGFzcz0ibXQtMSBtYXgtdy0zeGwgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sgdCgiYWRtaW4ucGFuZWxTeW5jLmRlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGdhcC0yIj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgOmRpc2FibGVkPSJwYWdlLmNvbm5lY3Rpb25zLmxvYWRpbmcudmFsdWUiCiAgICAgICAgICBAY2xpY2s9InBhZ2UuY29ubmVjdGlvbnMubG9hZCIKICAgICAgICA+CiAgICAgICAgICA8UmVmcmVzaEN3IGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+e3sgdCgiY29tbW9uLnJlZnJlc2hTdGF0dXMiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24gQGNsaWNrPSJwYWdlLmVkaXRvci5vcGVuQ3JlYXRlIgogICAgICAgICAgPjxQbHVzIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+e3sKICAgICAgICAgICAgdCgiYWRtaW4ucGFuZWxTeW5jLmFkZENvbm5lY3Rpb24iKQogICAgICAgICAgfX08L0J1dHRvbgogICAgICAgID4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8Q29ubmVjdGlvbkxpc3QKICAgICAgOmNvbm5lY3Rpb25zPSJwYWdlLmNvbm5lY3Rpb25zLmNvbm5lY3Rpb25zLnZhbHVlIgogICAgICA6ZGVsZXRpbmctaWRzPSJwYWdlLmNvbm5lY3Rpb25zLmRlbGV0aW5nSWRzLnZhbHVlIgogICAgICA6bG9hZGluZz0icGFnZS5jb25uZWN0aW9ucy5sb2FkaW5nLnZhbHVlIgogICAgICA6cHJldmlld2luZy1pZD0icGFnZS5ydW4ucHJldmlld2luZ0lkLnZhbHVlIgogICAgICA6dGVzdGluZy1pZHM9InBhZ2UuY29ubmVjdGlvbnMudGVzdGluZ0lkcy52YWx1ZSIKICAgICAgQGRlbGV0ZT0iZGVsZXRlVGFyZ2V0ID0gJGV2ZW50IgogICAgICBAZWRpdD0icGFnZS5lZGl0b3Iub3BlbkVkaXQiCiAgICAgIEBoaXN0b3J5PSJwYWdlLnJ1bi5vcGVuSGlzdG9yeSIKICAgICAgQHByZXZpZXc9InBhZ2UucnVuLm9wZW5QcmV2aWV3IgogICAgICBAdGVzdD0icGFnZS5jb25uZWN0aW9ucy50ZXN0U2F2ZWQiCiAgICAgIEB0b2dnbGUtYXV0bz0idG9nZ2xlQXV0byIKICAgIC8+CgogICAgPENvbm5lY3Rpb25FZGl0b3IKICAgICAgdi1tb2RlbDpvcGVuPSJwYWdlLmVkaXRvci5vcGVuLnZhbHVlIgogICAgICA6YXV0by1zeW5jLXJlYWR5PSJwYWdlLmVkaXRvci5hdXRvU3luY1JlYWR5LnZhbHVlIgogICAgICA6ZHJhZnQtdmVyaWZpZWQ9InBhZ2UuZWRpdG9yLmRyYWZ0VmVyaWZpZWQudmFsdWUiCiAgICAgIDpmb3JtPSJwYWdlLmVkaXRvci5mb3JtIgogICAgICA6aXMtZWRpdGluZz0icGFnZS5lZGl0b3IuaXNFZGl0aW5nLnZhbHVlIgogICAgICA6cHJvdmlkZXJzPSJwYWdlLmNvbm5lY3Rpb25zLnByb3ZpZGVycy52YWx1ZSIKICAgICAgOnNhdmluZz0icGFnZS5jb25uZWN0aW9ucy5zYXZpbmcudmFsdWUiCiAgICAgIDp0ZXN0aW5nPSJwYWdlLmVkaXRvci50ZXN0aW5nLnZhbHVlIgogICAgICBAc2F2ZT0icGFnZS5lZGl0b3Iuc2F2ZSIKICAgICAgQHNlbGVjdC1wcm92aWRlcj0icGFnZS5lZGl0b3Iuc2VsZWN0UHJvdmlkZXIiCiAgICAgIEB0ZXN0PSJwYWdlLmVkaXRvci50ZXN0RHJhZnQiCiAgICAvPgogICAgPFN5bmNQcmV2aWV3CiAgICAgIHYtbW9kZWw6b3Blbj0icGFnZS5ydW4ucHJldmlld09wZW4udmFsdWUiCiAgICAgIDpjb25uZWN0aW9uPSJwYWdlLnJ1bi5wcmV2aWV3Q29ubmVjdGlvbi52YWx1ZSIKICAgICAgOnByZXZpZXc9InBhZ2UucnVuLnByZXZpZXcudmFsdWUiCiAgICAgIDpzeW5jaW5nPSJwYWdlLnJ1bi5zeW5jaW5nLnZhbHVlIgogICAgICBAY29uZmlybT0icGFnZS5ydW4uY29uZmlybVN5bmMiCiAgICAvPgogICAgPFJ1bkhpc3RvcnkKICAgICAgdi1tb2RlbDpvcGVuPSJwYWdlLnJ1bi5oaXN0b3J5T3Blbi52YWx1ZSIKICAgICAgOmNvbm5lY3Rpb249InBhZ2UucnVuLmhpc3RvcnlDb25uZWN0aW9uLnZhbHVlIgogICAgICA6bG9hZGluZz0icGFnZS5ydW4ubG9hZGluZ0hpc3RvcnkudmFsdWUiCiAgICAgIDpydW5zPSJwYWdlLnJ1bi5oaXN0b3J5LnZhbHVlIgogICAgLz4KICAgIDxEZWxldGVDb25uZWN0aW9uRGlhbG9nCiAgICAgIHYtbW9kZWw6b3Blbj0iZGVsZXRlT3BlbiIKICAgICAgOmNvbm5lY3Rpb249ImRlbGV0ZVRhcmdldCIKICAgICAgOmRlbGV0aW5nPSIKICAgICAgICBkZWxldGVUYXJnZXQKICAgICAgICAgID8gcGFnZS5jb25uZWN0aW9ucy5kZWxldGluZ0lkcy52YWx1ZS5oYXMoZGVsZXRlVGFyZ2V0LmlkKQogICAgICAgICAgOiBmYWxzZQogICAgICAiCiAgICAgIDpjbGVhbnVwLXByZXZpZXc9ImRlbGV0ZVByZXZpZXciCiAgICAgIDpwcmV2aWV3aW5nLWNsZWFudXA9IgogICAgICAgIGRlbGV0ZVRhcmdldAogICAgICAgICAgPyBwYWdlLmNvbm5lY3Rpb25zLnByZXZpZXdpbmdDbGVhbnVwSWRzLnZhbHVlLmhhcyhkZWxldGVUYXJnZXQuaWQpCiAgICAgICAgICA6IGZhbHNlCiAgICAgICIKICAgICAgQGNvbmZpcm09ImNvbmZpcm1EZWxldGUiCiAgICAgIEBwcmV2aWV3LWNsZWFudXA9InByZXZpZXdEZWxldGVDbGVhbnVwIgogICAgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed, ref, watch } from "vue";
+import { Plus, RefreshCw } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import { Button } from "@/components/ui/button";
+import type {
+  PanelConnection,
+  PanelSyncPreview,
+} from "@/lib/api/panel-sync-api";
+import ConnectionEditor from "./panel-sync/ConnectionEditor.vue";
+import ConnectionList from "./panel-sync/ConnectionList.vue";
+import DeleteConnectionDialog from "./panel-sync/DeleteConnectionDialog.vue";
+import RunHistory from "./panel-sync/RunHistory.vue";
+import SyncPreview from "./panel-sync/SyncPreview.vue";
+import { usePanelSyncPage } from "./panel-sync/usePanelSyncPage";
+
+const { t } = useI18n();
+const page = usePanelSyncPage();
+const deleteTarget = ref<PanelConnection | null>(null);
+const deletePreview = ref<PanelSyncPreview | null>(null);
+const deleteOpen = computed({
+  get: () => deleteTarget.value !== null,
+  set: (value: boolean) => {
+    if (!value) deleteTarget.value = null;
+  },
+});
+
+watch(deleteTarget, () => {
+  deletePreview.value = null;
+});
+
+const previewDeleteCleanup = async () => {
+  if (!deleteTarget.value) return;
+  deletePreview.value = await page.connections.previewCleanup(
+    deleteTarget.value,
+  );
+};
+
+const confirmDelete = async (cleanupRemote: boolean) => {
+  if (!deleteTarget.value) return;
+  if (cleanupRemote && !deletePreview.value) return;
+  await page.connections.remove(
+    deleteTarget.value,
+    cleanupRemote ? (deletePreview.value ?? undefined) : undefined,
+  );
+  deleteTarget.value = null;
+};
+
+const toggleAuto = async (connection: PanelConnection, enabled: boolean) => {
+  await page.connections.update(connection.id, {
+    name: connection.name,
+    base_url: connection.base_url,
+    api_path: connection.api_path,
+    allow_invalid_tls: connection.allow_invalid_tls ?? false,
+    grouping: {
+      mode: connection.grouping?.mode ?? "mirror",
+      namespace: connection.grouping?.namespace ?? "fn-knock",
+      single_group_name: connection.grouping?.single_group_name ?? "",
+    },
+    auto_sync: {
+      enabled,
+      interval_minutes: connection.auto_sync?.interval_minutes ?? 60,
+    },
+    clear_credential: false,
+  });
+};
+</script>
+
+<template>
+  <div class="space-y-6">
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/mappings?tab=subdomain">
+            {{ t("admin.nav.mappingManagement") }}
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbPage>{{ t("admin.panelSync.title") }}</BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+    <div
+      class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between"
+    >
+      <div>
+        <h1 class="text-2xl font-semibold tracking-tight">
+          {{ t("admin.panelSync.title") }}
+        </h1>
+        <p class="mt-1 max-w-3xl text-sm text-muted-foreground">
+          {{ t("admin.panelSync.description") }}
+        </p>
+      </div>
+      <div class="flex gap-2">
+        <Button
+          variant="outline"
+          :disabled="page.connections.loading.value"
+          @click="page.connections.load"
+        >
+          <RefreshCw class="mr-2 h-4 w-4" />{{ t("common.refreshStatus") }}
+        </Button>
+        <Button @click="page.editor.openCreate"
+          ><Plus class="mr-2 h-4 w-4" />{{
+            t("admin.panelSync.addConnection")
+          }}</Button
+        >
+      </div>
+    </div>
+
+    <ConnectionList
+      :connections="page.connections.connections.value"
+      :deleting-ids="page.connections.deletingIds.value"
+      :loading="page.connections.loading.value"
+      :previewing-id="page.run.previewingId.value"
+      :testing-ids="page.connections.testingIds.value"
+      @delete="deleteTarget = $event"
+      @edit="page.editor.openEdit"
+      @history="page.run.openHistory"
+      @preview="page.run.openPreview"
+      @test="page.connections.testSaved"
+      @toggle-auto="toggleAuto"
+    />
+
+    <ConnectionEditor
+      v-model:open="page.editor.open.value"
+      :auto-sync-ready="page.editor.autoSyncReady.value"
+      :draft-verified="page.editor.draftVerified.value"
+      :form="page.editor.form"
+      :is-editing="page.editor.isEditing.value"
+      :providers="page.connections.providers.value"
+      :saving="page.connections.saving.value"
+      :testing="page.editor.testing.value"
+      @save="page.editor.save"
+      @select-provider="page.editor.selectProvider"
+      @test="page.editor.testDraft"
+    />
+    <SyncPreview
+      v-model:open="page.run.previewOpen.value"
+      :connection="page.run.previewConnection.value"
+      :preview="page.run.preview.value"
+      :syncing="page.run.syncing.value"
+      @confirm="page.run.confirmSync"
+    />
+    <RunHistory
+      v-model:open="page.run.historyOpen.value"
+      :connection="page.run.historyConnection.value"
+      :loading="page.run.loadingHistory.value"
+      :runs="page.run.history.value"
+    />
+    <DeleteConnectionDialog
+      v-model:open="deleteOpen"
+      :connection="deleteTarget"
+      :deleting="
+        deleteTarget
+          ? page.connections.deletingIds.value.has(deleteTarget.id)
+          : false
+      "
+      :cleanup-preview="deletePreview"
+      :previewing-cleanup="
+        deleteTarget
+          ? page.connections.previewingCleanupIds.value.has(deleteTarget.id)
+          : false
+      "
+      @confirm="confirmDelete"
+      @preview-cleanup="previewDeleteCleanup"
+    />
+  </div>
+</template>

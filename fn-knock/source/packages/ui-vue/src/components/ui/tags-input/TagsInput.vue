@@ -1,1 +1,26 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgVGFnc0lucHV0Um9vdEVtaXRzLCBUYWdzSW5wdXRSb290UHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyByZWFjdGl2ZU9taXQgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7IFRhZ3NJbnB1dFJvb3QsIHVzZUZvcndhcmRQcm9wc0VtaXRzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8VGFnc0lucHV0Um9vdFByb3BzICYgeyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdIH0+KCkKY29uc3QgZW1pdHMgPSBkZWZpbmVFbWl0czxUYWdzSW5wdXRSb290RW1pdHM+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQoKY29uc3QgZm9yd2FyZGVkID0gdXNlRm9yd2FyZFByb3BzRW1pdHMoZGVsZWdhdGVkUHJvcHMsIGVtaXRzKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8VGFnc0lucHV0Um9vdAogICAgdi1zbG90PSJzbG90UHJvcHMiIHYtYmluZD0iZm9yd2FyZGVkIiA6Y2xhc3M9ImNuKAogICAgICAnZmxleCBmbGV4LXdyYXAgZ2FwLTIgaXRlbXMtY2VudGVyIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1pbnB1dCBiZy1iYWNrZ3JvdW5kIHB4LTIgcHktMSB0ZXh0LXNtIHNoYWRvdy14cyB0cmFuc2l0aW9uLVtjb2xvcixib3gtc2hhZG93XSBvdXRsaW5lLW5vbmUnLAogICAgICAnZm9jdXMtd2l0aGluOmJvcmRlci1yaW5nIGZvY3VzLXdpdGhpbjpyaW5nLXJpbmcvNTAgZm9jdXMtd2l0aGluOnJpbmctWzNweF0nLAogICAgICAnYXJpYS1pbnZhbGlkOnJpbmctZGVzdHJ1Y3RpdmUvMjAgZGFyazphcmlhLWludmFsaWQ6cmluZy1kZXN0cnVjdGl2ZS80MCBhcmlhLWludmFsaWQ6Ym9yZGVyLWRlc3RydWN0aXZlJywKICAgICAgcHJvcHMuY2xhc3MpIgogID4KICAgIDxzbG90IHYtYmluZD0ic2xvdFByb3BzIiAvPgogIDwvVGFnc0lucHV0Um9vdD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { TagsInputRootEmits, TagsInputRootProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { TagsInputRoot, useForwardPropsEmits } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<TagsInputRootProps & { class?: HTMLAttributes["class"] }>()
+const emits = defineEmits<TagsInputRootEmits>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwarded = useForwardPropsEmits(delegatedProps, emits)
+</script>
+
+<template>
+  <TagsInputRoot
+    v-slot="slotProps" v-bind="forwarded" :class="cn(
+      'flex flex-wrap gap-2 items-center rounded-md border border-input bg-background px-2 py-1 text-sm shadow-xs transition-[color,box-shadow] outline-none',
+      'focus-within:border-ring focus-within:ring-ring/50 focus-within:ring-[3px]',
+      'aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive',
+      props.class)"
+  >
+    <slot v-bind="slotProps" />
+  </TagsInputRoot>
+</template>

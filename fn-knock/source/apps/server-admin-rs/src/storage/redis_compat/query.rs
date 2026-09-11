@@ -1,1 +1,353 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBlc2NhcGVfbGlrZV9wYXR0ZXJuKHZhbHVlOiAmc3RyKSAtPiBTdHJpbmcgewogICAgbGV0IG11dCBlc2NhcGVkID0gU3RyaW5nOjp3aXRoX2NhcGFjaXR5KHZhbHVlLmxlbigpKTsKICAgIGZvciBjaGFyYWN0ZXIgaW4gdmFsdWUuY2hhcnMoKSB7CiAgICAgICAgbWF0Y2ggY2hhcmFjdGVyIHsKICAgICAgICAgICAgJ1xcJyB8ICclJyB8ICdfJyA9PiB7CiAgICAgICAgICAgICAgICBlc2NhcGVkLnB1c2goJ1xcJyk7CiAgICAgICAgICAgICAgICBlc2NhcGVkLnB1c2goY2hhcmFjdGVyKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBfID0+IGVzY2FwZWQucHVzaChjaGFyYWN0ZXIpLAogICAgICAgIH0KICAgIH0KICAgIGVzY2FwZWQKfQoKcHViKHN1cGVyKSBmbiBjb3VudF9yb3dzKAogICAgY29ubjogJnJ1c3FsaXRlOjpDb25uZWN0aW9uLAogICAgc3FsOiAmc3RyLAogICAgYXJnczogJlsmZHluIFRvU3FsXSwKKSAtPiBSZWRpc1Jlc3VsdDxpNjQ+IHsKICAgIGNvbm4ucXVlcnlfcm93KHNxbCwgcGFyYW1zX2Zyb21faXRlcihhcmdzLml0ZXIoKS5jb3BpZWQoKSksIHxyb3d8IHsKICAgICAgICByb3cuZ2V0KDApCiAgICB9KQogICAgLm1hcF9lcnIoSW50bzo6aW50bykKfQoKcHViKHN1cGVyKSBmbiBjb3VudF9yb3dzX3R4KAogICAgdHg6ICZydXNxbGl0ZTo6VHJhbnNhY3Rpb248J18+LAogICAgc3FsOiAmc3RyLAogICAgYXJnczogJlsmZHluIFRvU3FsXSwKKSAtPiBSZWRpc1Jlc3VsdDxpNjQ+IHsKICAgIHR4LnF1ZXJ5X3JvdyhzcWwsIHBhcmFtc19mcm9tX2l0ZXIoYXJncy5pdGVyKCkuY29waWVkKCkpLCB8cm93fCB7CiAgICAgICAgcm93LmdldCgwKQogICAgfSkKICAgIC5tYXBfZXJyKEludG86OmludG8pCn0KCnB1YihzdXBlcikgZm4gcXVlcnlfc3RyaW5ncygKICAgIGNvbm46ICZydXNxbGl0ZTo6Q29ubmVjdGlvbiwKICAgIHNxbDogJnN0ciwKICAgIGFyZ3M6ICZbJmR5biBUb1NxbF0sCikgLT4gUmVkaXNSZXN1bHQ8VmVjPFN0cmluZz4+IHsKICAgIGxldCBtdXQgc3RtdCA9IGNvbm4ucHJlcGFyZShzcWwpPzsKICAgIGxldCByb3dzID0gc3RtdC5xdWVyeV9tYXAocGFyYW1zX2Zyb21faXRlcihhcmdzLml0ZXIoKS5jb3BpZWQoKSksIHxyb3d8IHJvdy5nZXQoMCkpPzsKICAgIHJvd3MuY29sbGVjdDo6PFJlc3VsdDxWZWM8U3RyaW5nPiwgXz4+KCkubWFwX2VycihJbnRvOjppbnRvKQp9CgpwdWIoc3VwZXIpIGZuIHN0cmVhbV9pZF9mcm9tX3JvdygKICAgIGlkOiBTdHJpbmcsCiAgICBmaWVsZHNfanNvbjogU3RyaW5nLAopIC0+IHJ1c3FsaXRlOjpSZXN1bHQ8c3RyZWFtczo6U3RyZWFtSWQ+IHsKICAgIGxldCBmaWVsZHMgPSBzdHJlYW1fZmllbGRzX3ZlYygmZmllbGRzX2pzb24pPzsKICAgIGxldCBtdXQgb2JqZWN0ID0gSGFzaE1hcDo6bmV3KCk7CiAgICBmb3IgcGFpciBpbiBmaWVsZHMuY2h1bmtzKDIpIHsKICAgICAgICBpZiBsZXQgW2ZpZWxkLCB2YWx1ZV0gPSBwYWlyIHsKICAgICAgICAgICAgb2JqZWN0Lmluc2VydChmaWVsZC5jbG9uZSgpLCB2YWx1ZS5jbG9uZSgpKTsKICAgICAgICB9CiAgICB9CiAgICBPayhzdHJlYW1zOjpTdHJlYW1JZDo6bmV3KGlkLCBvYmplY3QpKQp9CgpwdWIoc3VwZXIpIGZuIHN0cmVhbV9maWVsZHNfdmVjKGZpZWxkc19qc29uOiAmc3RyKSAtPiBydXNxbGl0ZTo6UmVzdWx0PFZlYzxTdHJpbmc+PiB7CiAgICBsZXQgdmFsdWUgPSBzZXJkZV9qc29uOjpmcm9tX3N0cjo6PHNlcmRlX2pzb246OlZhbHVlPihmaWVsZHNfanNvbikKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IHJ1c3FsaXRlOjpFcnJvcjo6VG9TcWxDb252ZXJzaW9uRmFpbHVyZShCb3g6Om5ldyhlcnJvcikpKT87CiAgICBtYXRjaCB2YWx1ZSB7CiAgICAgICAgc2VyZGVfanNvbjo6VmFsdWU6OkFycmF5KGl0ZW1zKSA9PiB7CiAgICAgICAgICAgIGxldCBtdXQgZmllbGRzID0gVmVjOjp3aXRoX2NhcGFjaXR5KGl0ZW1zLmxlbigpKTsKICAgICAgICAgICAgZm9yIGl0ZW0gaW4gaXRlbXMgewogICAgICAgICAgICAgICAgbGV0IFNvbWUodGV4dCkgPSBpdGVtLmFzX3N0cigpIGVsc2UgewogICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoaW52YWxpZF9zdHJlYW1fZmllbGRzX2pzb24oKSk7CiAgICAgICAgICAgICAgICB9OwogICAgICAgICAgICAgICAgZmllbGRzLnB1c2godGV4dC50b19zdHJpbmcoKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgZmllbGRzLmlzX2VtcHR5KCkgfHwgZmllbGRzLmxlbigpICUgMiAhPSAwIHsKICAgICAgICAgICAgICAgIHJldHVybiBFcnIoaW52YWxpZF9zdHJlYW1fZmllbGRzX2pzb24oKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgT2soZmllbGRzKQogICAgICAgIH0KICAgICAgICBzZXJkZV9qc29uOjpWYWx1ZTo6T2JqZWN0KG9iamVjdCkgPT4gewogICAgICAgICAgICBsZXQgb3JkZXJlZCA9IG9iamVjdC5pbnRvX2l0ZXIoKS5jb2xsZWN0Ojo8QlRyZWVNYXA8XywgXz4+KCk7CiAgICAgICAgICAgIGxldCBtdXQgZmllbGRzID0gVmVjOjp3aXRoX2NhcGFjaXR5KG9yZGVyZWQubGVuKCkgKiAyKTsKICAgICAgICAgICAgZm9yIChrZXksIHZhbHVlKSBpbiBvcmRlcmVkIHsKICAgICAgICAgICAgICAgIGxldCBTb21lKHRleHQpID0gdmFsdWUuYXNfc3RyKCkgZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihpbnZhbGlkX3N0cmVhbV9maWVsZHNfanNvbigpKTsKICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICBmaWVsZHMucHVzaChrZXkpOwogICAgICAgICAgICAgICAgZmllbGRzLnB1c2godGV4dC50b19zdHJpbmcoKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgT2soZmllbGRzKQogICAgICAgIH0KICAgICAgICBfID0+IEVycihpbnZhbGlkX3N0cmVhbV9maWVsZHNfanNvbigpKSwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBpbnZhbGlkX3N0cmVhbV9maWVsZHNfanNvbigpIC0+IHJ1c3FsaXRlOjpFcnJvciB7CiAgICBydXNxbGl0ZTo6RXJyb3I6OlRvU3FsQ29udmVyc2lvbkZhaWx1cmUoQm94OjpuZXcoc3RkOjppbzo6RXJyb3I6Om5ldygKICAgICAgICBzdGQ6OmlvOjpFcnJvcktpbmQ6OkludmFsaWREYXRhLAogICAgICAgICJpbnZhbGlkIHN0cmVhbSBmaWVsZHMgSlNPTiIsCiAgICApKSkKfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfcmFuZ2UobGVuOiBpNjQsIHN0YXJ0OiBpc2l6ZSwgZW5kOiBpc2l6ZSkgLT4gT3B0aW9uPChpNjQsIGk2NCk+IHsKICAgIGlmIGxlbiA8PSAwIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIGxldCBsZW4gPSBsZW4gYXMgaXNpemU7CiAgICBsZXQgc3RhcnQgPSBpZiBzdGFydCA8IDAgewogICAgICAgIChsZW4gKyBzdGFydCkubWF4KDApCiAgICB9IGVsc2UgewogICAgICAgIHN0YXJ0CiAgICB9OwogICAgbGV0IGVuZCA9IGlmIGVuZCA8IDAgeyBsZW4gKyBlbmQgfSBlbHNlIHsgZW5kLm1pbihsZW4gLSAxKSB9OwogICAgaWYgc3RhcnQgPj0gbGVuIHx8IGVuZCA8IDAgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgaWYgc3RhcnQgPiBlbmQgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgU29tZSgoc3RhcnQgYXMgaTY0LCAoZW5kIC0gc3RhcnQgKyAxKSBhcyBpNjQpKQp9CgpwdWIoc3VwZXIpIGZuIGFyZyhhcmdzOiAmW1N0cmluZ10sIGluZGV4OiB1c2l6ZSkgLT4gUmVkaXNSZXN1bHQ8JnN0cj4gewogICAgYXJncy5nZXQoaW5kZXgpCiAgICAgICAgLm1hcChTdHJpbmc6OmFzX3N0cikKICAgICAgICAub2tfb3JfZWxzZSh8fCBzdG9yYWdlX2Vycm9yKGZvcm1hdCEoIm1pc3NpbmcgY29tbWFuZCBhcmd1bWVudCB7aW5kZXh9IikpKQp9CgpwdWIoc3VwZXIpIGZuIHBhcnNlX2k2NCh2YWx1ZTogJnN0cikgLT4gUmVkaXNSZXN1bHQ8aTY0PiB7CiAgICB2YWx1ZQogICAgICAgIC5wYXJzZTo6PGk2ND4oKQogICAgICAgIC5tYXBfZXJyKHxffCBzdG9yYWdlX2Vycm9yKGZvcm1hdCEoImludmFsaWQgaW50ZWdlciBhcmd1bWVudDoge3ZhbHVlfSIpKSkKfQoKcHViKHN1cGVyKSBmbiBwYXJzZV9mNjQodmFsdWU6ICZzdHIpIC0+IFJlZGlzUmVzdWx0PGY2ND4gewogICAgdmFsdWUKICAgICAgICAucGFyc2U6OjxmNjQ+KCkKICAgICAgICAubWFwX2Vycih8X3wgc3RvcmFnZV9lcnJvcihmb3JtYXQhKCJpbnZhbGlkIGZsb2F0IGFyZ3VtZW50OiB7dmFsdWV9IikpKQp9CgojW2Rlcml2ZShDbG9uZSwgQ29weSwgRGVidWcpXQpwdWIoc3VwZXIpIHN0cnVjdCBTY29yZUJvdW5kIHsKICAgIHB1YihzdXBlcikgdmFsdWU6IGY2NCwKICAgIHB1YihzdXBlcikgZXhjbHVzaXZlOiBib29sLAp9CgppbXBsIFNjb3JlQm91bmQgewogICAgcHViKHN1cGVyKSBmbiBpbmNsdXNpdmUodmFsdWU6IGY2NCkgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7CiAgICAgICAgICAgIHZhbHVlLAogICAgICAgICAgICBleGNsdXNpdmU6IGZhbHNlLAogICAgICAgIH0KICAgIH0KfQoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBEZWZhdWx0LCBFcSwgUGFydGlhbEVxLCBPcmQsIFBhcnRpYWxPcmQpXQpwdWIoc3VwZXIpIHN0cnVjdCBQYXJzZWRTdHJlYW1JZCB7CiAgICBwdWIoc3VwZXIpIG1pbGxpc2Vjb25kczogdTEyOCwKICAgIHB1YihzdXBlcikgc2VxdWVuY2U6IHUxMjgsCn0KCnB1YihzdXBlcikgZm4gcGFyc2Vfc2NvcmVfYm91bmQodmFsdWU6ICZzdHIpIC0+IFJlZGlzUmVzdWx0PFNjb3JlQm91bmQ+IHsKICAgIGxldCAoZXhjbHVzaXZlLCByYXdfdmFsdWUpID0gdmFsdWUKICAgICAgICAuc3RyaXBfcHJlZml4KCcoJykKICAgICAgICAubWFwKHx2YWx1ZXwgKHRydWUsIHZhbHVlKSkKICAgICAgICAudW53cmFwX29yKChmYWxzZSwgdmFsdWUpKTsKICAgIGlmIHJhd192YWx1ZS5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gRXJyKHN0b3JhZ2VfZXJyb3IoImludmFsaWQgc2NvcmUgYm91bmQ6IGVtcHR5IGV4Y2x1c2l2ZSBib3VuZCIpKTsKICAgIH0KICAgIE9rKFNjb3JlQm91bmQgewogICAgICAgIHZhbHVlOiBwYXJzZV9zY29yZV92YWx1ZShyYXdfdmFsdWUpPywKICAgICAgICBleGNsdXNpdmUsCiAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIHBhcnNlX3Njb3JlX3ZhbHVlKHZhbHVlOiAmc3RyKSAtPiBSZWRpc1Jlc3VsdDxmNjQ+IHsKICAgIG1hdGNoIHZhbHVlIHsKICAgICAgICAiLWluZiIgPT4gT2soZjY0OjpORUdfSU5GSU5JVFkpLAogICAgICAgICIraW5mIiB8ICJpbmYiID0+IE9rKGY2NDo6SU5GSU5JVFkpLAogICAgICAgIF8gPT4gcGFyc2VfZjY0KHZhbHVlKSwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBwYXJzZV9zdHJlYW1faWQodmFsdWU6ICZzdHIpIC0+IE9wdGlvbjxQYXJzZWRTdHJlYW1JZD4gewogICAgaWYgdmFsdWUgPT0gIjAiIHsKICAgICAgICByZXR1cm4gU29tZShQYXJzZWRTdHJlYW1JZDo6ZGVmYXVsdCgpKTsKICAgIH0KICAgIGxldCAobWlsbGlzZWNvbmRzLCBzZXF1ZW5jZSkgPSB2YWx1ZS5zcGxpdF9vbmNlKCctJyk/OwogICAgU29tZShQYXJzZWRTdHJlYW1JZCB7CiAgICAgICAgbWlsbGlzZWNvbmRzOiBtaWxsaXNlY29uZHMucGFyc2UoKS5vaygpPywKICAgICAgICBzZXF1ZW5jZTogc2VxdWVuY2UucGFyc2UoKS5vaygpPywKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gcGFyc2Vfc3RyZWFtX2JvdW5kKHZhbHVlOiAmc3RyLCBpc19taW46IGJvb2wpIC0+IFJlZGlzUmVzdWx0PE9wdGlvbjxQYXJzZWRTdHJlYW1JZD4+IHsKICAgIGlmIChpc19taW4gJiYgdmFsdWUgPT0gIi0iKSB8fCAoIWlzX21pbiAmJiB2YWx1ZSA9PSAiKyIpIHsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9CiAgICBwYXJzZV9zdHJlYW1faWQodmFsdWUpCiAgICAgICAgLm1hcChTb21lKQogICAgICAgIC5va19vcl9lbHNlKHx8IHN0b3JhZ2VfZXJyb3IoZm9ybWF0ISgiaW52YWxpZCBzdHJlYW0gSUQgYm91bmQ6IHt2YWx1ZX0iKSkpCn0KCnB1YihzdXBlcikgZm4gc3RyZWFtX2lkX3NxbF90dXBsZShpZDogUGFyc2VkU3RyZWFtSWQpIC0+IFJlZGlzUmVzdWx0PChpNjQsIGk2NCk+IHsKICAgIE9rKCgKICAgICAgICBpNjQ6OnRyeV9mcm9tKGlkLm1pbGxpc2Vjb25kcykKICAgICAgICAgICAgLm1hcF9lcnIofF98IHN0b3JhZ2VfZXJyb3IoInN0cmVhbSBJRCBtaWxsaXNlY29uZHMgZXhjZWVkIFNRTGl0ZSByYW5nZSIpKT8sCiAgICAgICAgaTY0Ojp0cnlfZnJvbShpZC5zZXF1ZW5jZSkKICAgICAgICAgICAgLm1hcF9lcnIofF98IHN0b3JhZ2VfZXJyb3IoInN0cmVhbSBJRCBzZXF1ZW5jZSBleGNlZWRzIFNRTGl0ZSByYW5nZSIpKT8sCiAgICApKQp9CgpwdWIoc3VwZXIpIGZuIHF1ZXJ5X3N0cmVhbV9yb3dzKAogICAgY29ubjogJnJ1c3FsaXRlOjpDb25uZWN0aW9uLAogICAga2V5OiAmc3RyLAogICAgbWluOiBPcHRpb248UGFyc2VkU3RyZWFtSWQ+LAogICAgbWluX2V4Y2x1c2l2ZTogYm9vbCwKICAgIG1heDogT3B0aW9uPFBhcnNlZFN0cmVhbUlkPiwKICAgIHJldmVyc2U6IGJvb2wsCiAgICBjb3VudDogdXNpemUsCikgLT4gUmVkaXNSZXN1bHQ8VmVjPChTdHJpbmcsIFN0cmluZyk+PiB7CiAgICBsZXQgKG1pbl9tcywgbWluX3NlcXVlbmNlKSA9IHN0cmVhbV9pZF9zcWxfdHVwbGUobWluLnVud3JhcF9vcl9kZWZhdWx0KCkpPzsKICAgIGxldCAobWF4X21zLCBtYXhfc2VxdWVuY2UpID0gc3RyZWFtX2lkX3NxbF90dXBsZShtYXgudW53cmFwX29yKFBhcnNlZFN0cmVhbUlkIHsKICAgICAgICBtaWxsaXNlY29uZHM6IGk2NDo6TUFYIGFzIHUxMjgsCiAgICAgICAgc2VxdWVuY2U6IGk2NDo6TUFYIGFzIHUxMjgsCiAgICB9KSk/OwogICAgbGV0IG1pbl9vcGVyYXRvciA9IGlmIG1pbl9leGNsdXNpdmUgeyAiPiIgfSBlbHNlIHsgIj49IiB9OwogICAgbGV0IG9yZGVyID0gaWYgcmV2ZXJzZSB7ICJERVNDIiB9IGVsc2UgeyAiQVNDIiB9OwogICAgbGV0IHNxbCA9IGZvcm1hdCEoCiAgICAgICAgIlNFTEVDVCBpZCwgZmllbGRzX2pzb24KICAgICAgICAgRlJPTSBrdl9zdHJlYW0KICAgICAgICAgV0hFUkUga2V5ID0gPzEKICAgICAgICAgICBBTkQgKGlkX21zLCBpZF9zZXF1ZW5jZSkge21pbl9vcGVyYXRvcn0gKD8yLCA/MykKICAgICAgICAgICBBTkQgKGlkX21zLCBpZF9zZXF1ZW5jZSkgPD0gKD80LCA/NSkKICAgICAgICAgT1JERVIgQlkgaWRfbXMge29yZGVyfSwgaWRfc2VxdWVuY2Uge29yZGVyfQogICAgICAgICBMSU1JVCA/NiIKICAgICk7CiAgICBsZXQgbGltaXQgPSBpNjQ6OnRyeV9mcm9tKGNvdW50KS51bndyYXBfb3IoaTY0OjpNQVgpOwogICAgbGV0IG11dCBzdG10ID0gY29ubi5wcmVwYXJlKCZzcWwpPzsKICAgIGxldCByb3dzID0gc3RtdC5xdWVyeV9tYXAoCiAgICAgICAgcGFyYW1zIVtrZXksIG1pbl9tcywgbWluX3NlcXVlbmNlLCBtYXhfbXMsIG1heF9zZXF1ZW5jZSwgbGltaXRdLAogICAgICAgIHxyb3d8IE9rKChyb3cuZ2V0Ojo8XywgU3RyaW5nPigwKT8sIHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDEpPykpLAogICAgKT87CiAgICByb3dzLmNvbGxlY3Q6OjxSZXN1bHQ8VmVjPF8+LCBfPj4oKS5tYXBfZXJyKEludG86OmludG8pCn0KCnB1YihzdXBlcikgZm4gc3RyZWFtX2xhc3RfZ2VuZXJhdGVkX2lkX3R4KAogICAgdHg6ICZydXNxbGl0ZTo6VHJhbnNhY3Rpb248J18+LAogICAga2V5OiAmc3RyLAopIC0+IFJlZGlzUmVzdWx0PFBhcnNlZFN0cmVhbUlkPiB7CiAgICBpZiBsZXQgU29tZSgobWlsbGlzZWNvbmRzLCBzZXF1ZW5jZSkpID0gdHgKICAgICAgICAucXVlcnlfcm93KAogICAgICAgICAgICAiU0VMRUNUIGxhc3RfZ2VuZXJhdGVkX21zLCBsYXN0X2dlbmVyYXRlZF9zZXEgRlJPTSBrdl9zdHJlYW1fbWV0YSBXSEVSRSBrZXkgPSA/MSIsCiAgICAgICAgICAgIHBhcmFtcyFba2V5XSwKICAgICAgICAgICAgfHJvd3wgT2soKHJvdy5nZXQ6OjxfLCBpNjQ+KDApPywgcm93LmdldDo6PF8sIGk2ND4oMSk/KSksCiAgICAgICAgKQogICAgICAgIC5vcHRpb25hbCgpPwogICAgewogICAgICAgIHJldHVybiBPayhQYXJzZWRTdHJlYW1JZCB7CiAgICAgICAgICAgIG1pbGxpc2Vjb25kczogbWlsbGlzZWNvbmRzLm1heCgwKSBhcyB1MTI4LAogICAgICAgICAgICBzZXF1ZW5jZTogc2VxdWVuY2UubWF4KDApIGFzIHUxMjgsCiAgICAgICAgfSk7CiAgICB9CgogICAgdHgucXVlcnlfcm93KAogICAgICAgICJTRUxFQ1QgaWRfbXMsIGlkX3NlcXVlbmNlCiAgICAgICAgIEZST00ga3Zfc3RyZWFtCiAgICAgICAgIFdIRVJFIGtleSA9ID8xCiAgICAgICAgIE9SREVSIEJZIGlkX21zIERFU0MsIGlkX3NlcXVlbmNlIERFU0MKICAgICAgICAgTElNSVQgMSIsCiAgICAgICAgcGFyYW1zIVtrZXldLAogICAgICAgIHxyb3d8IHsKICAgICAgICAgICAgT2soUGFyc2VkU3RyZWFtSWQgewogICAgICAgICAgICAgICAgbWlsbGlzZWNvbmRzOiByb3cuZ2V0Ojo8XywgaTY0PigwKT8ubWF4KDApIGFzIHUxMjgsCiAgICAgICAgICAgICAgICBzZXF1ZW5jZTogcm93LmdldDo6PF8sIGk2ND4oMSk/Lm1heCgwKSBhcyB1MTI4LAogICAgICAgICAgICB9KQogICAgICAgIH0sCiAgICApCiAgICAub3B0aW9uYWwoKQogICAgLm1hcChPcHRpb246OnVud3JhcF9vcl9kZWZhdWx0KQogICAgLm1hcF9lcnIoSW50bzo6aW50bykKfQoKcHViKHN1cGVyKSBmbiBzZXRfc3RyZWFtX2xhc3RfZ2VuZXJhdGVkX2lkX3R4KAogICAgdHg6ICZydXNxbGl0ZTo6VHJhbnNhY3Rpb248J18+LAogICAga2V5OiAmc3RyLAogICAgaWQ6IFBhcnNlZFN0cmVhbUlkLAopIC0+IFJlZGlzUmVzdWx0PCgpPiB7CiAgICBsZXQgbWlsbGlzZWNvbmRzID0gaTY0Ojp0cnlfZnJvbShpZC5taWxsaXNlY29uZHMpCiAgICAgICAgLm1hcF9lcnIofF98IHN0b3JhZ2VfZXJyb3IoInN0cmVhbSBJRCBtaWxsaXNlY29uZHMgZXhjZWVkIFNRTGl0ZSByYW5nZSIpKT87CiAgICBsZXQgc2VxdWVuY2UgPSBpNjQ6OnRyeV9mcm9tKGlkLnNlcXVlbmNlKQogICAgICAgIC5tYXBfZXJyKHxffCBzdG9yYWdlX2Vycm9yKCJzdHJlYW0gSUQgc2VxdWVuY2UgZXhjZWVkcyBTUUxpdGUgcmFuZ2UiKSk/OwogICAgdHguZXhlY3V0ZSgKICAgICAgICAiSU5TRVJUIElOVE8ga3Zfc3RyZWFtX21ldGEoa2V5LCBsYXN0X2dlbmVyYXRlZF9tcywgbGFzdF9nZW5lcmF0ZWRfc2VxKQogICAgICAgICBWQUxVRVMgKD8xLCA/MiwgPzMpCiAgICAgICAgIE9OIENPTkZMSUNUKGtleSkgRE8gVVBEQVRFIFNFVAogICAgICAgICAgIGxhc3RfZ2VuZXJhdGVkX21zID0gZXhjbHVkZWQubGFzdF9nZW5lcmF0ZWRfbXMsCiAgICAgICAgICAgbGFzdF9nZW5lcmF0ZWRfc2VxID0gZXhjbHVkZWQubGFzdF9nZW5lcmF0ZWRfc2VxIiwKICAgICAgICBwYXJhbXMhW2tleSwgbWlsbGlzZWNvbmRzLCBzZXF1ZW5jZV0sCiAgICApPzsKICAgIE9rKCgpKQp9CgojW2NmZyh1bml4KV0KcHViKHN1cGVyKSBhc3luYyBmbiBzZWN1cmVfZGlyZWN0b3J5X3Blcm1pc3Npb25zKHBhdGg6ICZQYXRoKSAtPiBSZWRpc1Jlc3VsdDwoKT4gewogICAgdG9raW86OmZzOjpzZXRfcGVybWlzc2lvbnMocGF0aCwgc3RkOjpmczo6UGVybWlzc2lvbnM6OmZyb21fbW9kZSgwbzcwMCkpLmF3YWl0PzsKICAgIE9rKCgpKQp9CgojW2NmZyhub3QodW5peCkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHNlY3VyZV9kaXJlY3RvcnlfcGVybWlzc2lvbnMoX3BhdGg6ICZQYXRoKSAtPiBSZWRpc1Jlc3VsdDwoKT4gewogICAgT2soKCkpCn0KCiNbY2ZnKHVuaXgpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHNlY3VyZV9zcWxpdGVfZmlsZV9wZXJtaXNzaW9ucyhwYXRoOiAmUGF0aCkgLT4gUmVkaXNSZXN1bHQ8KCk+IHsKICAgIHNldF9maWxlX21vZGVfaWZfZXhpc3RzKHBhdGgsIDBvNjAwKS5hd2FpdD87CiAgICBzZXRfZmlsZV9tb2RlX2lmX2V4aXN0cygmc3FsaXRlX2NvbXBhbmlvbl9wYXRoKHBhdGgsICItd2FsIiksIDBvNjAwKS5hd2FpdD87CiAgICBzZXRfZmlsZV9tb2RlX2lmX2V4aXN0cygmc3FsaXRlX2NvbXBhbmlvbl9wYXRoKHBhdGgsICItc2htIiksIDBvNjAwKS5hd2FpdD87CiAgICBPaygoKSkKfQoKI1tjZmcobm90KHVuaXgpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBzZWN1cmVfc3FsaXRlX2ZpbGVfcGVybWlzc2lvbnMoX3BhdGg6ICZQYXRoKSAtPiBSZWRpc1Jlc3VsdDwoKT4gewogICAgT2soKCkpCn0KCiNbY2ZnKHVuaXgpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHNldF9maWxlX21vZGVfaWZfZXhpc3RzKHBhdGg6ICZQYXRoLCBtb2RlOiB1MzIpIC0+IFJlZGlzUmVzdWx0PCgpPiB7CiAgICBtYXRjaCB0b2tpbzo6ZnM6Om1ldGFkYXRhKHBhdGgpLmF3YWl0IHsKICAgICAgICBPayhfKSA9PiB7CiAgICAgICAgICAgIHRva2lvOjpmczo6c2V0X3Blcm1pc3Npb25zKHBhdGgsIHN0ZDo6ZnM6OlBlcm1pc3Npb25zOjpmcm9tX21vZGUobW9kZSkpLmF3YWl0PzsKICAgICAgICAgICAgT2soKCkpCiAgICAgICAgfQogICAgICAgIEVycihlcnJvcikgaWYgZXJyb3Iua2luZCgpID09IHN0ZDo6aW86OkVycm9yS2luZDo6Tm90Rm91bmQgPT4gT2soKCkpLAogICAgICAgIEVycihlcnJvcikgPT4gRXJyKGVycm9yLmludG8oKSksCiAgICB9Cn0KCiNbY2ZnKHVuaXgpXQpwdWIoc3VwZXIpIGZuIHNxbGl0ZV9jb21wYW5pb25fcGF0aChwYXRoOiAmUGF0aCwgc3VmZml4OiAmc3RyKSAtPiBQYXRoQnVmIHsKICAgIGxldCBtdXQgdmFsdWUgPSBwYXRoLmFzX29zX3N0cigpLnRvX29zX3N0cmluZygpOwogICAgdmFsdWUucHVzaChzdWZmaXgpOwogICAgUGF0aEJ1Zjo6ZnJvbSh2YWx1ZSkKfQoKcHViKHN1cGVyKSBmbiBub3dfbXMoKSAtPiBpNjQgewogICAgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpCn0KCnB1YihzdXBlcikgZm4gbm9kZV9sb2NhbGVfY29tcGFyZV9vcmRlcmluZyhsZWZ0OiAmc3RyLCByaWdodDogJnN0cikgLT4gT3JkZXJpbmcgewogICAgY3JhdGU6OnN0b3JlOjpub2RlX2xvY2FsZV9jb21wYXJlX29yZGVyaW5nKGxlZnQsIHJpZ2h0KQp9Cg==
+use super::*;
+
+pub(super) fn escape_like_pattern(value: &str) -> String {
+    let mut escaped = String::with_capacity(value.len());
+    for character in value.chars() {
+        match character {
+            '\\' | '%' | '_' => {
+                escaped.push('\\');
+                escaped.push(character);
+            }
+            _ => escaped.push(character),
+        }
+    }
+    escaped
+}
+
+pub(super) fn count_rows(
+    conn: &rusqlite::Connection,
+    sql: &str,
+    args: &[&dyn ToSql],
+) -> RedisResult<i64> {
+    conn.query_row(sql, params_from_iter(args.iter().copied()), |row| {
+        row.get(0)
+    })
+    .map_err(Into::into)
+}
+
+pub(super) fn count_rows_tx(
+    tx: &rusqlite::Transaction<'_>,
+    sql: &str,
+    args: &[&dyn ToSql],
+) -> RedisResult<i64> {
+    tx.query_row(sql, params_from_iter(args.iter().copied()), |row| {
+        row.get(0)
+    })
+    .map_err(Into::into)
+}
+
+pub(super) fn query_strings(
+    conn: &rusqlite::Connection,
+    sql: &str,
+    args: &[&dyn ToSql],
+) -> RedisResult<Vec<String>> {
+    let mut stmt = conn.prepare(sql)?;
+    let rows = stmt.query_map(params_from_iter(args.iter().copied()), |row| row.get(0))?;
+    rows.collect::<Result<Vec<String>, _>>().map_err(Into::into)
+}
+
+pub(super) fn stream_id_from_row(
+    id: String,
+    fields_json: String,
+) -> rusqlite::Result<streams::StreamId> {
+    let fields = stream_fields_vec(&fields_json)?;
+    let mut object = HashMap::new();
+    for pair in fields.chunks(2) {
+        if let [field, value] = pair {
+            object.insert(field.clone(), value.clone());
+        }
+    }
+    Ok(streams::StreamId::new(id, object))
+}
+
+pub(super) fn stream_fields_vec(fields_json: &str) -> rusqlite::Result<Vec<String>> {
+    let value = serde_json::from_str::<serde_json::Value>(fields_json)
+        .map_err(|error| rusqlite::Error::ToSqlConversionFailure(Box::new(error)))?;
+    match value {
+        serde_json::Value::Array(items) => {
+            let mut fields = Vec::with_capacity(items.len());
+            for item in items {
+                let Some(text) = item.as_str() else {
+                    return Err(invalid_stream_fields_json());
+                };
+                fields.push(text.to_string());
+            }
+            if fields.is_empty() || fields.len() % 2 != 0 {
+                return Err(invalid_stream_fields_json());
+            }
+            Ok(fields)
+        }
+        serde_json::Value::Object(object) => {
+            let ordered = object.into_iter().collect::<BTreeMap<_, _>>();
+            let mut fields = Vec::with_capacity(ordered.len() * 2);
+            for (key, value) in ordered {
+                let Some(text) = value.as_str() else {
+                    return Err(invalid_stream_fields_json());
+                };
+                fields.push(key);
+                fields.push(text.to_string());
+            }
+            Ok(fields)
+        }
+        _ => Err(invalid_stream_fields_json()),
+    }
+}
+
+pub(super) fn invalid_stream_fields_json() -> rusqlite::Error {
+    rusqlite::Error::ToSqlConversionFailure(Box::new(std::io::Error::new(
+        std::io::ErrorKind::InvalidData,
+        "invalid stream fields JSON",
+    )))
+}
+
+pub(super) fn normalize_range(len: i64, start: isize, end: isize) -> Option<(i64, i64)> {
+    if len <= 0 {
+        return None;
+    }
+    let len = len as isize;
+    let start = if start < 0 {
+        (len + start).max(0)
+    } else {
+        start
+    };
+    let end = if end < 0 { len + end } else { end.min(len - 1) };
+    if start >= len || end < 0 {
+        return None;
+    }
+    if start > end {
+        return None;
+    }
+    Some((start as i64, (end - start + 1) as i64))
+}
+
+pub(super) fn arg(args: &[String], index: usize) -> RedisResult<&str> {
+    args.get(index)
+        .map(String::as_str)
+        .ok_or_else(|| storage_error(format!("missing command argument {index}")))
+}
+
+pub(super) fn parse_i64(value: &str) -> RedisResult<i64> {
+    value
+        .parse::<i64>()
+        .map_err(|_| storage_error(format!("invalid integer argument: {value}")))
+}
+
+pub(super) fn parse_f64(value: &str) -> RedisResult<f64> {
+    value
+        .parse::<f64>()
+        .map_err(|_| storage_error(format!("invalid float argument: {value}")))
+}
+
+#[derive(Clone, Copy, Debug)]
+pub(super) struct ScoreBound {
+    pub(super) value: f64,
+    pub(super) exclusive: bool,
+}
+
+impl ScoreBound {
+    pub(super) fn inclusive(value: f64) -> Self {
+        Self {
+            value,
+            exclusive: false,
+        }
+    }
+}
+
+#[derive(Clone, Copy, Debug, Default, Eq, PartialEq, Ord, PartialOrd)]
+pub(super) struct ParsedStreamId {
+    pub(super) milliseconds: u128,
+    pub(super) sequence: u128,
+}
+
+pub(super) fn parse_score_bound(value: &str) -> RedisResult<ScoreBound> {
+    let (exclusive, raw_value) = value
+        .strip_prefix('(')
+        .map(|value| (true, value))
+        .unwrap_or((false, value));
+    if raw_value.is_empty() {
+        return Err(storage_error("invalid score bound: empty exclusive bound"));
+    }
+    Ok(ScoreBound {
+        value: parse_score_value(raw_value)?,
+        exclusive,
+    })
+}
+
+pub(super) fn parse_score_value(value: &str) -> RedisResult<f64> {
+    match value {
+        "-inf" => Ok(f64::NEG_INFINITY),
+        "+inf" | "inf" => Ok(f64::INFINITY),
+        _ => parse_f64(value),
+    }
+}
+
+pub(super) fn parse_stream_id(value: &str) -> Option<ParsedStreamId> {
+    if value == "0" {
+        return Some(ParsedStreamId::default());
+    }
+    let (milliseconds, sequence) = value.split_once('-')?;
+    Some(ParsedStreamId {
+        milliseconds: milliseconds.parse().ok()?,
+        sequence: sequence.parse().ok()?,
+    })
+}
+
+pub(super) fn parse_stream_bound(value: &str, is_min: bool) -> RedisResult<Option<ParsedStreamId>> {
+    if (is_min && value == "-") || (!is_min && value == "+") {
+        return Ok(None);
+    }
+    parse_stream_id(value)
+        .map(Some)
+        .ok_or_else(|| storage_error(format!("invalid stream ID bound: {value}")))
+}
+
+pub(super) fn stream_id_sql_tuple(id: ParsedStreamId) -> RedisResult<(i64, i64)> {
+    Ok((
+        i64::try_from(id.milliseconds)
+            .map_err(|_| storage_error("stream ID milliseconds exceed SQLite range"))?,
+        i64::try_from(id.sequence)
+            .map_err(|_| storage_error("stream ID sequence exceeds SQLite range"))?,
+    ))
+}
+
+pub(super) fn query_stream_rows(
+    conn: &rusqlite::Connection,
+    key: &str,
+    min: Option<ParsedStreamId>,
+    min_exclusive: bool,
+    max: Option<ParsedStreamId>,
+    reverse: bool,
+    count: usize,
+) -> RedisResult<Vec<(String, String)>> {
+    let (min_ms, min_sequence) = stream_id_sql_tuple(min.unwrap_or_default())?;
+    let (max_ms, max_sequence) = stream_id_sql_tuple(max.unwrap_or(ParsedStreamId {
+        milliseconds: i64::MAX as u128,
+        sequence: i64::MAX as u128,
+    }))?;
+    let min_operator = if min_exclusive { ">" } else { ">=" };
+    let order = if reverse { "DESC" } else { "ASC" };
+    let sql = format!(
+        "SELECT id, fields_json
+         FROM kv_stream
+         WHERE key = ?1
+           AND (id_ms, id_sequence) {min_operator} (?2, ?3)
+           AND (id_ms, id_sequence) <= (?4, ?5)
+         ORDER BY id_ms {order}, id_sequence {order}
+         LIMIT ?6"
+    );
+    let limit = i64::try_from(count).unwrap_or(i64::MAX);
+    let mut stmt = conn.prepare(&sql)?;
+    let rows = stmt.query_map(
+        params![key, min_ms, min_sequence, max_ms, max_sequence, limit],
+        |row| Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?)),
+    )?;
+    rows.collect::<Result<Vec<_>, _>>().map_err(Into::into)
+}
+
+pub(super) fn stream_last_generated_id_tx(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+) -> RedisResult<ParsedStreamId> {
+    if let Some((milliseconds, sequence)) = tx
+        .query_row(
+            "SELECT last_generated_ms, last_generated_seq FROM kv_stream_meta WHERE key = ?1",
+            params![key],
+            |row| Ok((row.get::<_, i64>(0)?, row.get::<_, i64>(1)?)),
+        )
+        .optional()?
+    {
+        return Ok(ParsedStreamId {
+            milliseconds: milliseconds.max(0) as u128,
+            sequence: sequence.max(0) as u128,
+        });
+    }
+
+    tx.query_row(
+        "SELECT id_ms, id_sequence
+         FROM kv_stream
+         WHERE key = ?1
+         ORDER BY id_ms DESC, id_sequence DESC
+         LIMIT 1",
+        params![key],
+        |row| {
+            Ok(ParsedStreamId {
+                milliseconds: row.get::<_, i64>(0)?.max(0) as u128,
+                sequence: row.get::<_, i64>(1)?.max(0) as u128,
+            })
+        },
+    )
+    .optional()
+    .map(Option::unwrap_or_default)
+    .map_err(Into::into)
+}
+
+pub(super) fn set_stream_last_generated_id_tx(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+    id: ParsedStreamId,
+) -> RedisResult<()> {
+    let milliseconds = i64::try_from(id.milliseconds)
+        .map_err(|_| storage_error("stream ID milliseconds exceed SQLite range"))?;
+    let sequence = i64::try_from(id.sequence)
+        .map_err(|_| storage_error("stream ID sequence exceeds SQLite range"))?;
+    tx.execute(
+        "INSERT INTO kv_stream_meta(key, last_generated_ms, last_generated_seq)
+         VALUES (?1, ?2, ?3)
+         ON CONFLICT(key) DO UPDATE SET
+           last_generated_ms = excluded.last_generated_ms,
+           last_generated_seq = excluded.last_generated_seq",
+        params![key, milliseconds, sequence],
+    )?;
+    Ok(())
+}
+
+#[cfg(unix)]
+pub(super) async fn secure_directory_permissions(path: &Path) -> RedisResult<()> {
+    tokio::fs::set_permissions(path, std::fs::Permissions::from_mode(0o700)).await?;
+    Ok(())
+}
+
+#[cfg(not(unix))]
+pub(super) async fn secure_directory_permissions(_path: &Path) -> RedisResult<()> {
+    Ok(())
+}
+
+#[cfg(unix)]
+pub(super) async fn secure_sqlite_file_permissions(path: &Path) -> RedisResult<()> {
+    set_file_mode_if_exists(path, 0o600).await?;
+    set_file_mode_if_exists(&sqlite_companion_path(path, "-wal"), 0o600).await?;
+    set_file_mode_if_exists(&sqlite_companion_path(path, "-shm"), 0o600).await?;
+    Ok(())
+}
+
+#[cfg(not(unix))]
+pub(super) async fn secure_sqlite_file_permissions(_path: &Path) -> RedisResult<()> {
+    Ok(())
+}
+
+#[cfg(unix)]
+pub(super) async fn set_file_mode_if_exists(path: &Path, mode: u32) -> RedisResult<()> {
+    match tokio::fs::metadata(path).await {
+        Ok(_) => {
+            tokio::fs::set_permissions(path, std::fs::Permissions::from_mode(mode)).await?;
+            Ok(())
+        }
+        Err(error) if error.kind() == std::io::ErrorKind::NotFound => Ok(()),
+        Err(error) => Err(error.into()),
+    }
+}
+
+#[cfg(unix)]
+pub(super) fn sqlite_companion_path(path: &Path, suffix: &str) -> PathBuf {
+    let mut value = path.as_os_str().to_os_string();
+    value.push(suffix);
+    PathBuf::from(value)
+}
+
+pub(super) fn now_ms() -> i64 {
+    crate::time_utils::now_ms()
+}
+
+pub(super) fn node_locale_compare_ordering(left: &str, right: &str) -> Ordering {
+    crate::store::node_locale_compare_ordering(left, right)
+}

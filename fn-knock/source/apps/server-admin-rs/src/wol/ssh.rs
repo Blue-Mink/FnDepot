@@ -1,1 +1,660 @@
-dXNlIHJ1c3NoOjp7CiAgICBDaGFubmVsTXNnLCBEaXNjb25uZWN0LCBjbGllbnQsCiAgICBrZXlzOjp7SGFzaEFsZywgUHJpdmF0ZUtleVdpdGhIYXNoQWxnLCBkZWNvZGVfc2VjcmV0X2tleSwgc3NoX2tleX0sCn07CnVzZSBzZXJkZTo6U2VyaWFsaXplOwp1c2Ugc3RkOjp7CiAgICBjb2xsZWN0aW9uczo6SGFzaFNldCwKICAgIG5ldDo6e0lwQWRkciwgU29ja2V0QWRkcn0sCiAgICBzeW5jOjp7QXJjLCBNdXRleH0sCiAgICB0aW1lOjp7RHVyYXRpb24sIEluc3RhbnR9LAp9Owp1c2UgdG9raW86OntuZXQ6Omxvb2t1cF9ob3N0LCB0aW1lfTsKCnVzZSBzdXBlcjo6c3RvcmU6OlRhcmdldFNzaENvbmZpZzsKCmNvbnN0IENPTk5FQ1RfVElNRU9VVDogRHVyYXRpb24gPSBEdXJhdGlvbjo6ZnJvbV9zZWNzKDgpOwpjb25zdCBBVVRIX1RJTUVPVVQ6IER1cmF0aW9uID0gRHVyYXRpb246OmZyb21fc2Vjcyg4KTsKY29uc3QgQ09NTUFORF9USU1FT1VUOiBEdXJhdGlvbiA9IER1cmF0aW9uOjpmcm9tX3NlY3MoMTApOwpjb25zdCBNQVhfUkVNT1RFX09VVFBVVDogdXNpemUgPSA4ICogMTAyNDsKCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgU2VyaWFsaXplKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBIb3N0S2V5SW5mbyB7CiAgICBwdWIgYWxnb3JpdGhtOiBTdHJpbmcsCiAgICBwdWIgZmluZ2VycHJpbnQ6IFN0cmluZywKICAgICNbc2VyZGUoc2tpcCldCiAgICBwdWIgZW5kcG9pbnQ6IFNvY2tldEFkZHIsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgU2VyaWFsaXplKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBDb25uZWN0aW9uVGVzdFJlc3VsdCB7CiAgICBwdWIgYXV0aGVudGljYXRlZDogYm9vbCwKICAgIHB1YiBwcml2aWxlZ2VfcmVhZHk6IGJvb2wsCiAgICBwdWIgbGF0ZW5jeV9tczogdTY0LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgU2h1dGRvd25SZXN1bHQgewogICAgcHViIHN0YXR1czogJidzdGF0aWMgc3RyLAogICAgcHViIHBsYXRmb3JtOiBTdHJpbmcsCiAgICBwdWIgbGF0ZW5jeV9tczogdTY0LAp9CgpwdWIoc3VwZXIpIGVudW0gQ3JlZGVudGlhbHMgewogICAgUGFzc3dvcmQoU3RyaW5nKSwKICAgIFByaXZhdGVLZXkgewogICAgICAgIGtleTogU3RyaW5nLAogICAgICAgIHBhc3NwaHJhc2U6IE9wdGlvbjxTdHJpbmc+LAogICAgfSwKfQoKI1tkZXJpdmUoRGVidWcsIHRoaXNlcnJvcjo6RXJyb3IpXQpwdWIoc3VwZXIpIGVudW0gU3NoRXJyb3IgewogICAgI1tlcnJvcigiU1NIIGhvc3Qgb3IgcG9ydCBpcyBpbnZhbGlkIildCiAgICBJbnZhbGlkRW5kcG9pbnQsCiAgICAjW2Vycm9yKCJTU0ggZW5kcG9pbnQgcmVzb2x2ZXMgdG8gYSBwcm90ZWN0ZWQgbG9jYWwgYWRkcmVzcyIpXQogICAgUHJvdGVjdGVkQWRkcmVzcywKICAgICNbZXJyb3IoIlNTSCBob3N0IGtleSBkb2VzIG5vdCBtYXRjaCB0aGUgdHJ1c3RlZCBmaW5nZXJwcmludCIpXQogICAgSG9zdEtleU1pc21hdGNoLAogICAgI1tlcnJvcigiU1NIIGhvc3Qga2V5IGlzIHVuYXZhaWxhYmxlIildCiAgICBIb3N0S2V5VW5hdmFpbGFibGUsCiAgICAjW2Vycm9yKCJTU0ggY3JlZGVudGlhbCBpcyBpbnZhbGlkIildCiAgICBJbnZhbGlkQ3JlZGVudGlhbCwKICAgICNbZXJyb3IoIlNTSCBhdXRoZW50aWNhdGlvbiBmYWlsZWQiKV0KICAgIEF1dGhlbnRpY2F0aW9uRmFpbGVkLAogICAgI1tlcnJvcigiU1NIIGNvbm5lY3Rpb24gZmFpbGVkIildCiAgICBDb25uZWN0aW9uRmFpbGVkLAogICAgI1tlcnJvcigiU1NIIGNvbW1hbmQgZmFpbGVkIildCiAgICBDb21tYW5kRmFpbGVkLAogICAgI1tlcnJvcigiU1NIIGNvbW1hbmQgcmVzdWx0IGlzIHVua25vd24iKV0KICAgIENvbW1hbmRVbmtub3duLAp9CgojW2Rlcml2ZShDbG9uZSldCnN0cnVjdCBIb3N0S2V5SGFuZGxlciB7CiAgICBleHBlY3RlZDogT3B0aW9uPChTdHJpbmcsIFN0cmluZyk+LAogICAgb2JzZXJ2ZWQ6IEFyYzxNdXRleDxPcHRpb248KFN0cmluZywgU3RyaW5nKT4+PiwKfQoKaW1wbCBjbGllbnQ6OkhhbmRsZXIgZm9yIEhvc3RLZXlIYW5kbGVyIHsKICAgIHR5cGUgRXJyb3IgPSBydXNzaDo6RXJyb3I7CgogICAgYXN5bmMgZm4gY2hlY2tfc2VydmVyX2tleSgKICAgICAgICAmbXV0IHNlbGYsCiAgICAgICAgc2VydmVyX3B1YmxpY19rZXk6ICZzc2hfa2V5OjpQdWJsaWNLZXksCiAgICApIC0+IFJlc3VsdDxib29sLCBTZWxmOjpFcnJvcj4gewogICAgICAgIGxldCBhbGdvcml0aG0gPSBzZXJ2ZXJfcHVibGljX2tleS5hbGdvcml0aG0oKS50b19zdHJpbmcoKTsKICAgICAgICBsZXQgZmluZ2VycHJpbnQgPSBzZXJ2ZXJfcHVibGljX2tleS5maW5nZXJwcmludChIYXNoQWxnOjpTaGEyNTYpLnRvX3N0cmluZygpOwogICAgICAgICpzZWxmCiAgICAgICAgICAgIC5vYnNlcnZlZAogICAgICAgICAgICAubG9jaygpCiAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8cG9pc29uZWR8IHBvaXNvbmVkLmludG9faW5uZXIoKSkgPQogICAgICAgICAgICBTb21lKChhbGdvcml0aG0uY2xvbmUoKSwgZmluZ2VycHJpbnQuY2xvbmUoKSkpOwogICAgICAgIE9rKHNlbGYKICAgICAgICAgICAgLmV4cGVjdGVkCiAgICAgICAgICAgIC5hc19yZWYoKQogICAgICAgICAgICAuaXNfbm9uZV9vcih8ZXhwZWN0ZWR8IGV4cGVjdGVkID09ICYoYWxnb3JpdGhtLCBmaW5nZXJwcmludCkpKQogICAgfQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHByb2JlX2hvc3Rfa2V5KGhvc3Q6ICZzdHIsIHBvcnQ6IHUxNikgLT4gUmVzdWx0PEhvc3RLZXlJbmZvLCBTc2hFcnJvcj4gewogICAgbGV0IGVuZHBvaW50ID0gcmVzb2x2ZV9lbmRwb2ludChob3N0LCBwb3J0KS5hd2FpdD87CiAgICBsZXQgb2JzZXJ2ZWQgPSBBcmM6Om5ldyhNdXRleDo6bmV3KE5vbmUpKTsKICAgIGxldCBoYW5kbGVyID0gSG9zdEtleUhhbmRsZXIgewogICAgICAgIGV4cGVjdGVkOiBOb25lLAogICAgICAgIG9ic2VydmVkOiBBcmM6OmNsb25lKCZvYnNlcnZlZCksCiAgICB9OwogICAgbGV0IHNlc3Npb24gPSBjb25uZWN0KGVuZHBvaW50LCBoYW5kbGVyKS5hd2FpdD87CiAgICBsZXQgXyA9IHNlc3Npb24KICAgICAgICAuZGlzY29ubmVjdChEaXNjb25uZWN0OjpCeUFwcGxpY2F0aW9uLCAiIiwgIkVuZ2xpc2giKQogICAgICAgIC5hd2FpdDsKICAgIGxldCBrZXkgPSBvYnNlcnZlZAogICAgICAgIC5sb2NrKCkKICAgICAgICAudW53cmFwX29yX2Vsc2UofHBvaXNvbmVkfCBwb2lzb25lZC5pbnRvX2lubmVyKCkpCiAgICAgICAgLmNsb25lKCkKICAgICAgICAub2tfb3IoU3NoRXJyb3I6Okhvc3RLZXlVbmF2YWlsYWJsZSk/OwogICAgT2soSG9zdEtleUluZm8gewogICAgICAgIGFsZ29yaXRobToga2V5LjAsCiAgICAgICAgZmluZ2VycHJpbnQ6IGtleS4xLAogICAgICAgIGVuZHBvaW50LAogICAgfSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiB0ZXN0X2Nvbm5lY3Rpb24oCiAgICBjb25maWc6ICZUYXJnZXRTc2hDb25maWcsCiAgICBjcmVkZW50aWFsczogQ3JlZGVudGlhbHMsCiAgICBlbmRwb2ludDogU29ja2V0QWRkciwKKSAtPiBSZXN1bHQ8Q29ubmVjdGlvblRlc3RSZXN1bHQsIFNzaEVycm9yPiB7CiAgICBsZXQgc3RhcnRlZCA9IEluc3RhbnQ6Om5vdygpOwogICAgbGV0IG11dCBzZXNzaW9uID0gYXV0aGVudGljYXRlZF9zZXNzaW9uX2F0KGNvbmZpZywgY3JlZGVudGlhbHMsIGVuZHBvaW50KS5hd2FpdD87CiAgICBsZXQgZXhpdF9zdGF0dXMgPSBleGVjdXRlKCZtdXQgc2Vzc2lvbiwgdGVzdF9jb21tYW5kKCZjb25maWcucGxhdGZvcm0pKS5hd2FpdD87CiAgICBsZXQgXyA9IHNlc3Npb24KICAgICAgICAuZGlzY29ubmVjdChEaXNjb25uZWN0OjpCeUFwcGxpY2F0aW9uLCAiIiwgIkVuZ2xpc2giKQogICAgICAgIC5hd2FpdDsKICAgIE9rKENvbm5lY3Rpb25UZXN0UmVzdWx0IHsKICAgICAgICBhdXRoZW50aWNhdGVkOiB0cnVlLAogICAgICAgIHByaXZpbGVnZV9yZWFkeTogZXhpdF9zdGF0dXMgPT0gMCwKICAgICAgICBsYXRlbmN5X21zOiBlbGFwc2VkX21zKHN0YXJ0ZWQpLAogICAgfSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzaHV0ZG93bigKICAgIGNvbmZpZzogJlRhcmdldFNzaENvbmZpZywKICAgIGNyZWRlbnRpYWxzOiBDcmVkZW50aWFscywKKSAtPiBSZXN1bHQ8U2h1dGRvd25SZXN1bHQsIFNzaEVycm9yPiB7CiAgICBsZXQgc3RhcnRlZCA9IEluc3RhbnQ6Om5vdygpOwogICAgbGV0IG11dCBzZXNzaW9uID0gYXV0aGVudGljYXRlZF9zZXNzaW9uKGNvbmZpZywgY3JlZGVudGlhbHMpLmF3YWl0PzsKICAgIGxldCBleGl0X3N0YXR1cyA9IGV4ZWN1dGUoJm11dCBzZXNzaW9uLCBzaHV0ZG93bl9jb21tYW5kKCZjb25maWcucGxhdGZvcm0pKS5hd2FpdD87CiAgICBsZXQgXyA9IHNlc3Npb24KICAgICAgICAuZGlzY29ubmVjdChEaXNjb25uZWN0OjpCeUFwcGxpY2F0aW9uLCAiIiwgIkVuZ2xpc2giKQogICAgICAgIC5hd2FpdDsKICAgIGlmIGV4aXRfc3RhdHVzICE9IDAgewogICAgICAgIHJldHVybiBFcnIoU3NoRXJyb3I6OkNvbW1hbmRGYWlsZWQpOwogICAgfQogICAgT2soU2h1dGRvd25SZXN1bHQgewogICAgICAgIHN0YXR1czogImFjY2VwdGVkIiwKICAgICAgICBwbGF0Zm9ybTogY29uZmlnLnBsYXRmb3JtLmNsb25lKCksCiAgICAgICAgbGF0ZW5jeV9tczogZWxhcHNlZF9tcyhzdGFydGVkKSwKICAgIH0pCn0KCmFzeW5jIGZuIGF1dGhlbnRpY2F0ZWRfc2Vzc2lvbigKICAgIGNvbmZpZzogJlRhcmdldFNzaENvbmZpZywKICAgIGNyZWRlbnRpYWxzOiBDcmVkZW50aWFscywKKSAtPiBSZXN1bHQ8Y2xpZW50OjpIYW5kbGU8SG9zdEtleUhhbmRsZXI+LCBTc2hFcnJvcj4gewogICAgbGV0IGVuZHBvaW50ID0gcmVzb2x2ZV9lbmRwb2ludCgmY29uZmlnLmhvc3QsIGNvbmZpZy5wb3J0KS5hd2FpdD87CiAgICBhdXRoZW50aWNhdGVkX3Nlc3Npb25fYXQoY29uZmlnLCBjcmVkZW50aWFscywgZW5kcG9pbnQpLmF3YWl0Cn0KCmFzeW5jIGZuIGF1dGhlbnRpY2F0ZWRfc2Vzc2lvbl9hdCgKICAgIGNvbmZpZzogJlRhcmdldFNzaENvbmZpZywKICAgIGNyZWRlbnRpYWxzOiBDcmVkZW50aWFscywKICAgIGVuZHBvaW50OiBTb2NrZXRBZGRyLAopIC0+IFJlc3VsdDxjbGllbnQ6OkhhbmRsZTxIb3N0S2V5SGFuZGxlcj4sIFNzaEVycm9yPiB7CiAgICBsZXQgZXhwZWN0ZWQgPSB0cnVzdGVkX2hvc3Rfa2V5KGNvbmZpZyk/OwogICAgbGV0IG9ic2VydmVkID0gQXJjOjpuZXcoTXV0ZXg6Om5ldyhOb25lKSk7CiAgICBsZXQgaGFuZGxlciA9IEhvc3RLZXlIYW5kbGVyIHsKICAgICAgICBleHBlY3RlZDogU29tZShleHBlY3RlZC5jbG9uZSgpKSwKICAgICAgICBvYnNlcnZlZDogQXJjOjpjbG9uZSgmb2JzZXJ2ZWQpLAogICAgfTsKICAgIGxldCBtdXQgc2Vzc2lvbiA9IG1hdGNoIGNvbm5lY3QoZW5kcG9pbnQsIGhhbmRsZXIpLmF3YWl0IHsKICAgICAgICBPayhzZXNzaW9uKSA9PiBzZXNzaW9uLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICBpZiBvYnNlcnZlZAogICAgICAgICAgICAgICAgLmxvY2soKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHxwb2lzb25lZHwgcG9pc29uZWQuaW50b19pbm5lcigpKQogICAgICAgICAgICAgICAgLmFzX3JlZigpCiAgICAgICAgICAgICAgICAuaXNfc29tZV9hbmQofHZhbHVlfCB2YWx1ZSAhPSAmZXhwZWN0ZWQpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHJldHVybiBFcnIoU3NoRXJyb3I6Okhvc3RLZXlNaXNtYXRjaCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIEVycihlcnJvcik7CiAgICAgICAgfQogICAgfTsKICAgIGxldCBhdXRoZW50aWNhdGVkID0gdGltZTo6dGltZW91dChBVVRIX1RJTUVPVVQsIGFzeW5jIHsKICAgICAgICBsZXQgc3VjY2VzcyA9IG1hdGNoIGNyZWRlbnRpYWxzIHsKICAgICAgICAgICAgQ3JlZGVudGlhbHM6OlBhc3N3b3JkKHBhc3N3b3JkKSA9PiBzZXNzaW9uCiAgICAgICAgICAgICAgICAuYXV0aGVudGljYXRlX3Bhc3N3b3JkKCZjb25maWcudXNlcm5hbWUsIHBhc3N3b3JkKQogICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICAubWFwX2Vycih8X3wgU3NoRXJyb3I6OkNvbm5lY3Rpb25GYWlsZWQpPwogICAgICAgICAgICAgICAgLnN1Y2Nlc3MoKSwKICAgICAgICAgICAgQ3JlZGVudGlhbHM6OlByaXZhdGVLZXkgeyBrZXksIHBhc3NwaHJhc2UgfSA9PiB7CiAgICAgICAgICAgICAgICBsZXQga2V5ID0gZGVjb2RlX3NlY3JldF9rZXkoJmtleSwgcGFzc3BocmFzZS5hc19kZXJlZigpKQogICAgICAgICAgICAgICAgICAgIC5tYXBfZXJyKHxffCBTc2hFcnJvcjo6SW52YWxpZENyZWRlbnRpYWwpPzsKICAgICAgICAgICAgICAgIGxldCBoYXNoID0gc2Vzc2lvbgogICAgICAgICAgICAgICAgICAgIC5iZXN0X3N1cHBvcnRlZF9yc2FfaGFzaCgpCiAgICAgICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICAgICAgLm1hcF9lcnIofF98IFNzaEVycm9yOjpDb25uZWN0aW9uRmFpbGVkKT8KICAgICAgICAgICAgICAgICAgICAuZmxhdHRlbigpOwogICAgICAgICAgICAgICAgc2Vzc2lvbgogICAgICAgICAgICAgICAgICAgIC5hdXRoZW50aWNhdGVfcHVibGlja2V5KAogICAgICAgICAgICAgICAgICAgICAgICAmY29uZmlnLnVzZXJuYW1lLAogICAgICAgICAgICAgICAgICAgICAgICBQcml2YXRlS2V5V2l0aEhhc2hBbGc6Om5ldyhBcmM6Om5ldyhrZXkpLCBoYXNoKSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICAgICAgLm1hcF9lcnIofF98IFNzaEVycm9yOjpDb25uZWN0aW9uRmFpbGVkKT8KICAgICAgICAgICAgICAgICAgICAuc3VjY2VzcygpCiAgICAgICAgICAgIH0KICAgICAgICB9OwogICAgICAgIE9rOjo8Ym9vbCwgU3NoRXJyb3I+KHN1Y2Nlc3MpCiAgICB9KQogICAgLmF3YWl0CiAgICAubWFwX2Vycih8X3wgU3NoRXJyb3I6OkNvbm5lY3Rpb25GYWlsZWQpPz87CiAgICBpZiAhYXV0aGVudGljYXRlZCB7CiAgICAgICAgcmV0dXJuIEVycihTc2hFcnJvcjo6QXV0aGVudGljYXRpb25GYWlsZWQpOwogICAgfQogICAgT2soc2Vzc2lvbikKfQoKYXN5bmMgZm4gY29ubmVjdCgKICAgIGVuZHBvaW50OiBTb2NrZXRBZGRyLAogICAgaGFuZGxlcjogSG9zdEtleUhhbmRsZXIsCikgLT4gUmVzdWx0PGNsaWVudDo6SGFuZGxlPEhvc3RLZXlIYW5kbGVyPiwgU3NoRXJyb3I+IHsKICAgIGxldCBjb25maWcgPSBBcmM6Om5ldyhjbGllbnQ6OkNvbmZpZyB7CiAgICAgICAgaW5hY3Rpdml0eV90aW1lb3V0OiBTb21lKENPTU1BTkRfVElNRU9VVCksCiAgICAgICAgLi5EZWZhdWx0OjpkZWZhdWx0KCkKICAgIH0pOwogICAgdGltZTo6dGltZW91dChDT05ORUNUX1RJTUVPVVQsIGNsaWVudDo6Y29ubmVjdChjb25maWcsIGVuZHBvaW50LCBoYW5kbGVyKSkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8X3wgU3NoRXJyb3I6OkNvbm5lY3Rpb25GYWlsZWQpPwogICAgICAgIC5tYXBfZXJyKHxffCBTc2hFcnJvcjo6Q29ubmVjdGlvbkZhaWxlZCkKfQoKYXN5bmMgZm4gZXhlY3V0ZSgKICAgIHNlc3Npb246ICZtdXQgY2xpZW50OjpIYW5kbGU8SG9zdEtleUhhbmRsZXI+LAogICAgY29tbWFuZDogJnN0ciwKKSAtPiBSZXN1bHQ8dTMyLCBTc2hFcnJvcj4gewogICAgbGV0IGZ1dHVyZSA9IGFzeW5jIHsKICAgICAgICBsZXQgbXV0IGNoYW5uZWwgPSBzZXNzaW9uCiAgICAgICAgICAgIC5jaGFubmVsX29wZW5fc2Vzc2lvbigpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8X3wgU3NoRXJyb3I6OkNvbW1hbmRGYWlsZWQpPzsKICAgICAgICBjaGFubmVsCiAgICAgICAgICAgIC5leGVjKHRydWUsIGNvbW1hbmQpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8X3wgU3NoRXJyb3I6OkNvbW1hbmRVbmtub3duKT87CiAgICAgICAgbGV0IG11dCBvdXRwdXRfc2l6ZSA9IDBfdXNpemU7CiAgICAgICAgbGV0IG11dCBleGl0X3N0YXR1cyA9IE5vbmU7CiAgICAgICAgd2hpbGUgbGV0IFNvbWUobWVzc2FnZSkgPSBjaGFubmVsLndhaXQoKS5hd2FpdCB7CiAgICAgICAgICAgIG1hdGNoIG1lc3NhZ2UgewogICAgICAgICAgICAgICAgQ2hhbm5lbE1zZzo6RGF0YSB7IGRhdGEgfSB8IENoYW5uZWxNc2c6OkV4dGVuZGVkRGF0YSB7IGRhdGEsIC4uIH0gPT4gewogICAgICAgICAgICAgICAgICAgIG91dHB1dF9zaXplID0gb3V0cHV0X3NpemUuc2F0dXJhdGluZ19hZGQoZGF0YS5sZW4oKSk7CiAgICAgICAgICAgICAgICAgICAgaWYgb3V0cHV0X3NpemUgPiBNQVhfUkVNT1RFX09VVFBVVCB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoU3NoRXJyb3I6OkNvbW1hbmRVbmtub3duKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBDaGFubmVsTXNnOjpFeGl0U3RhdHVzIHsgZXhpdF9zdGF0dXM6IHZhbHVlIH0gPT4gZXhpdF9zdGF0dXMgPSBTb21lKHZhbHVlKSwKICAgICAgICAgICAgICAgIF8gPT4ge30KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBleGl0X3N0YXR1cy5va19vcihTc2hFcnJvcjo6Q29tbWFuZFVua25vd24pCiAgICB9OwogICAgdGltZTo6dGltZW91dChDT01NQU5EX1RJTUVPVVQsIGZ1dHVyZSkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8X3wgU3NoRXJyb3I6OkNvbW1hbmRVbmtub3duKT8KfQoKYXN5bmMgZm4gcmVzb2x2ZV9lbmRwb2ludChob3N0OiAmc3RyLCBwb3J0OiB1MTYpIC0+IFJlc3VsdDxTb2NrZXRBZGRyLCBTc2hFcnJvcj4gewogICAgbGV0IGhvc3QgPSBob3N0LnRyaW0oKTsKICAgIGlmIGhvc3QuaXNfZW1wdHkoKSB8fCBob3N0LmxlbigpID4gMjUzIHx8IHBvcnQgPT0gMCB8fCBob3N0LmNoYXJzKCkuYW55KGNoYXI6OmlzX2NvbnRyb2wpIHsKICAgICAgICByZXR1cm4gRXJyKFNzaEVycm9yOjpJbnZhbGlkRW5kcG9pbnQpOwogICAgfQogICAgbGV0IGxvY2FsX2FkZHJlc3NlcyA9IGdldF9pZl9hZGRyczo6Z2V0X2lmX2FkZHJzKCkKICAgICAgICAubWFwX2Vycih8X3wgU3NoRXJyb3I6OkNvbm5lY3Rpb25GYWlsZWQpPwogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5tYXAofGludGVyZmFjZXwgaW50ZXJmYWNlLmlwKCkpCiAgICAgICAgLmNvbGxlY3Q6OjxIYXNoU2V0PF8+PigpOwogICAgbGV0IGFkZHJlc3NlcyA9IHRpbWU6OnRpbWVvdXQoQ09OTkVDVF9USU1FT1VULCBsb29rdXBfaG9zdCgoaG9zdCwgcG9ydCkpKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxffCBTc2hFcnJvcjo6Q29ubmVjdGlvbkZhaWxlZCk/CiAgICAgICAgLm1hcF9lcnIofF98IFNzaEVycm9yOjpJbnZhbGlkRW5kcG9pbnQpPwogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgbGV0IGVuZHBvaW50ID0gYWRkcmVzc2VzCiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLmZpbmQofGFkZHJlc3N8ICFwcm90ZWN0ZWRfYWRkcmVzcyhhZGRyZXNzLmlwKCksICZsb2NhbF9hZGRyZXNzZXMpKQogICAgICAgIC5va19vcihTc2hFcnJvcjo6UHJvdGVjdGVkQWRkcmVzcyk/OwogICAgT2soZW5kcG9pbnQpCn0KCmZuIHByb3RlY3RlZF9hZGRyZXNzKGFkZHJlc3M6IElwQWRkciwgbG9jYWxfYWRkcmVzc2VzOiAmSGFzaFNldDxJcEFkZHI+KSAtPiBib29sIHsKICAgIGlmIGxldCBJcEFkZHI6OlY2KHZhbHVlKSA9IGFkZHJlc3MKICAgICAgICAmJiBsZXQgU29tZShtYXBwZWQpID0gdmFsdWUudG9faXB2NF9tYXBwZWQoKQogICAgewogICAgICAgIHJldHVybiBwcm90ZWN0ZWRfYWRkcmVzcyhJcEFkZHI6OlY0KG1hcHBlZCksIGxvY2FsX2FkZHJlc3Nlcyk7CiAgICB9CiAgICBhZGRyZXNzLmlzX2xvb3BiYWNrKCkKICAgICAgICB8fCBhZGRyZXNzLmlzX3Vuc3BlY2lmaWVkKCkKICAgICAgICB8fCBhZGRyZXNzLmlzX211bHRpY2FzdCgpCiAgICAgICAgfHwgbWF0Y2hlcyEoYWRkcmVzcywgSXBBZGRyOjpWNCh2YWx1ZSkgaWYgdmFsdWUuaXNfYnJvYWRjYXN0KCkpCiAgICAgICAgfHwgbG9jYWxfYWRkcmVzc2VzLmNvbnRhaW5zKCZhZGRyZXNzKQp9CgpmbiB0cnVzdGVkX2hvc3Rfa2V5KGNvbmZpZzogJlRhcmdldFNzaENvbmZpZykgLT4gUmVzdWx0PChTdHJpbmcsIFN0cmluZyksIFNzaEVycm9yPiB7CiAgICBsZXQgYWxnb3JpdGhtID0gY29uZmlnLmhvc3Rfa2V5X2FsZ29yaXRobS50cmltKCk7CiAgICBsZXQgZmluZ2VycHJpbnQgPSBjb25maWcuaG9zdF9rZXlfZmluZ2VycHJpbnQudHJpbSgpOwogICAgaWYgYWxnb3JpdGhtLmlzX2VtcHR5KCkKICAgICAgICB8fCBhbGdvcml0aG0ubGVuKCkgPiA2NAogICAgICAgIHx8IGZpbmdlcnByaW50LmxlbigpID4gMTI4CiAgICAgICAgfHwgIWZpbmdlcnByaW50LnN0YXJ0c193aXRoKCJTSEEyNTY6IikKICAgIHsKICAgICAgICByZXR1cm4gRXJyKFNzaEVycm9yOjpIb3N0S2V5VW5hdmFpbGFibGUpOwogICAgfQogICAgT2soKGFsZ29yaXRobS50b19zdHJpbmcoKSwgZmluZ2VycHJpbnQudG9fc3RyaW5nKCkpKQp9CgpwdWIoc3VwZXIpIGZuIHNodXRkb3duX2NvbW1hbmQocGxhdGZvcm06ICZzdHIpIC0+ICYnc3RhdGljIHN0ciB7CiAgICBtYXRjaCBwbGF0Zm9ybSB7CiAgICAgICAgIm1hY29zIiA9PiAic3VkbyAtbiAvc2Jpbi9zaHV0ZG93biAtaCBub3ciLAogICAgICAgICJ3aW5kb3dzIiA9PiAic2h1dGRvd24uZXhlIC9zIC90IDAiLAogICAgICAgIF8gPT4gInN1ZG8gLW4gL3Vzci9iaW4vc3lzdGVtY3RsIHBvd2Vyb2ZmIC0tbm8tYmxvY2siLAogICAgfQp9CgpmbiB0ZXN0X2NvbW1hbmQocGxhdGZvcm06ICZzdHIpIC0+ICYnc3RhdGljIHN0ciB7CiAgICBtYXRjaCBwbGF0Zm9ybSB7CiAgICAgICAgIm1hY29zIiA9PiAic3VkbyAtbiAtbCAtLSAvc2Jpbi9zaHV0ZG93biAtaCBub3ciLAogICAgICAgICJ3aW5kb3dzIiA9PiAiY21kLmV4ZSAvZCAvcyAvYyBcInZlciA+TlVMXCIiLAogICAgICAgIF8gPT4gInN1ZG8gLW4gLWwgLS0gL3Vzci9iaW4vc3lzdGVtY3RsIHBvd2Vyb2ZmIC0tbm8tYmxvY2siLAogICAgfQp9CgpmbiBlbGFwc2VkX21zKHN0YXJ0ZWQ6IEluc3RhbnQpIC0+IHU2NCB7CiAgICBzdGFydGVkLmVsYXBzZWQoKS5hc19taWxsaXMoKS50cnlfaW50bygpLnVud3JhcF9vcih1NjQ6Ok1BWCkKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CiAgICB1c2UgcnVzc2g6OnsKICAgICAgICBDaGFubmVsLCBDaGFubmVsSWQsCiAgICAgICAgc2VydmVyOjp7c2VsZiwgQXV0aCwgTXNnLCBTZXJ2ZXIgYXMgXywgU2Vzc2lvbn0sCiAgICB9OwogICAgdXNlIHRva2lvOjp7bmV0OjpUY3BMaXN0ZW5lciwgdGFzazo6Sm9pbkhhbmRsZX07CgogICAgY29uc3QgVEVTVF9QUklWQVRFX0tFWTogJnN0ciA9ICItLS0tLUJFR0lOIE9QRU5TU0ggUFJJVkFURSBLRVktLS0tLVxuXApiM0JsYm5OemFDMXJaWGt0ZGpFQUFBQUFCRzV2Ym1VQUFBQUVibTl1WlFBQUFBQUFBQUFCQUFBQU13QUFBQXR6YzJndFpXXG5cClF5TlRVeE9RQUFBQ0N6UHE3emZxTGZmS29CRGUvZW8wNGtIMlh4dFNtazlEN1JReWYxeFVxcllnQUFBSmdBSUF4ZEFDQU1cblwKWFFBQUFBdHpjMmd0WldReU5UVXhPUUFBQUNDelBxN3pmcUxmZktvQkRlL2VvMDRrSDJYeHRTbWs5RDdSUXlmMXhVcXJZZ1xuXApBQUFFQzJCc0lpMFF3VzJ1RnNjS1RVVVhOSExzWVg0RnhsYVNEU2JsYkFqN1dSN2JNK3J2TitvdDk4cWdFTjc5NmpUaVFmXG5cClpmRzFLYVQwUHRGREovWEZTcXRpQUFBQUVIVnpaWEpBWlhoaGJYQnNaUzVqYjIwQkFnTUVCUT09XG5cCi0tLS0tRU5EIE9QRU5TU0ggUFJJVkFURSBLRVktLS0tLSI7CiAgICBjb25zdCBURVNUX0VOQ1JZUFRFRF9QUklWQVRFX0tFWTogJnN0ciA9ICItLS0tLUJFR0lOIE9QRU5TU0ggUFJJVkFURSBLRVktLS0tLVxuXApiM0JsYm5OemFDMXJaWGt0ZGpFQUFBQUFDbUZsY3pJMU5pMWpkSElBQUFBR1ltTnllWEIwQUFBQUdBQUFBQkJLSDk2dWpXXG5cCnVtQjYvV25UTlBqVGVhQUFBQUVBQUFBQUVBQUFBekFBQUFDM056YUMxbFpESTFOVEU1QUFBQUlMTStydk4rb3Q5OHFnRU5cblwKNzk2alRpUWZaZkcxS2FUMFB0RkRKL1hGU3F0aUFBQUFvRnp2YnZ5Rk1oQWl3Qk9YRjBtaFVVYWNQVUNNWlhpdkcydXAyY1xuXApoRW5BdzFiNkJMUlB5V2JZNWNDMm45Z2dENGl2SjF6U3RzNnNCZ2p5aVhRQVJleXJQMzVteVl2VC9PSUIvTnB3Wk0veElKXG5cCk43TUhTVXpsa1g0YWRCcmdhM2Y3R1M0dXY0Q2hPb3hDNFhzRTVIc3h0R3NxMVg4anpxTGxaVG1PY3hrY0VuZVlRZXhyVWNcblwKYlFQMG8rZ0w1YUtLOGNRZ2lJbFhlRGJSanFoYzQraDRFRjZsWT1cblwKLS0tLS1FTkQgT1BFTlNTSCBQUklWQVRFIEtFWS0tLS0tIjsKCiAgICAjW2Rlcml2ZShDbG9uZSldCiAgICBzdHJ1Y3QgTW9ja1NzaFNlcnZlciB7CiAgICAgICAgY29tbWFuZHM6IEFyYzxNdXRleDxWZWM8U3RyaW5nPj4+LAogICAgICAgIGV4aXRfc3RhdHVzOiBPcHRpb248dTMyPiwKICAgICAgICBvdXRwdXRfc2l6ZTogdXNpemUsCiAgICB9CgogICAgaW1wbCBzZXJ2ZXI6OlNlcnZlciBmb3IgTW9ja1NzaFNlcnZlciB7CiAgICAgICAgdHlwZSBIYW5kbGVyID0gU2VsZjsKCiAgICAgICAgZm4gbmV3X2NsaWVudCgmbXV0IHNlbGYsIF9wZWVyX2FkZHI6IE9wdGlvbjxTb2NrZXRBZGRyPikgLT4gU2VsZjo6SGFuZGxlciB7CiAgICAgICAgICAgIHNlbGYuY2xvbmUoKQogICAgICAgIH0KICAgIH0KCiAgICBpbXBsIHNlcnZlcjo6SGFuZGxlciBmb3IgTW9ja1NzaFNlcnZlciB7CiAgICAgICAgdHlwZSBFcnJvciA9IHJ1c3NoOjpFcnJvcjsKCiAgICAgICAgYXN5bmMgZm4gYXV0aF9wYXNzd29yZCgmbXV0IHNlbGYsIHVzZXI6ICZzdHIsIHBhc3N3b3JkOiAmc3RyKSAtPiBSZXN1bHQ8QXV0aCwgU2VsZjo6RXJyb3I+IHsKICAgICAgICAgICAgT2soaWYgdXNlciA9PSAib3BlcmF0b3IiICYmIHBhc3N3b3JkID09ICJzZWNyZXQiIHsKICAgICAgICAgICAgICAgIEF1dGg6OkFjY2VwdAogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgQXV0aDo6cmVqZWN0KCkKICAgICAgICAgICAgfSkKICAgICAgICB9CgogICAgICAgIGFzeW5jIGZuIGF1dGhfcHVibGlja2V5KAogICAgICAgICAgICAmbXV0IHNlbGYsCiAgICAgICAgICAgIHVzZXI6ICZzdHIsCiAgICAgICAgICAgIF9rZXk6ICZzc2hfa2V5OjpQdWJsaWNLZXksCiAgICAgICAgKSAtPiBSZXN1bHQ8QXV0aCwgU2VsZjo6RXJyb3I+IHsKICAgICAgICAgICAgT2soaWYgdXNlciA9PSAib3BlcmF0b3IiIHsKICAgICAgICAgICAgICAgIEF1dGg6OkFjY2VwdAogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgQXV0aDo6cmVqZWN0KCkKICAgICAgICAgICAgfSkKICAgICAgICB9CgogICAgICAgIGFzeW5jIGZuIGNoYW5uZWxfb3Blbl9zZXNzaW9uKAogICAgICAgICAgICAmbXV0IHNlbGYsCiAgICAgICAgICAgIF9jaGFubmVsOiBDaGFubmVsPE1zZz4sCiAgICAgICAgICAgIHJlcGx5OiBzZXJ2ZXI6OkNoYW5uZWxPcGVuSGFuZGxlLAogICAgICAgICAgICBfc2Vzc2lvbjogJm11dCBTZXNzaW9uLAogICAgICAgICkgLT4gUmVzdWx0PCgpLCBTZWxmOjpFcnJvcj4gewogICAgICAgICAgICByZXBseS5hY2NlcHQoKS5hd2FpdDsKICAgICAgICAgICAgT2soKCkpCiAgICAgICAgfQoKICAgICAgICBhc3luYyBmbiBleGVjX3JlcXVlc3QoCiAgICAgICAgICAgICZtdXQgc2VsZiwKICAgICAgICAgICAgY2hhbm5lbDogQ2hhbm5lbElkLAogICAgICAgICAgICBkYXRhOiAmW3U4XSwKICAgICAgICAgICAgc2Vzc2lvbjogJm11dCBTZXNzaW9uLAogICAgICAgICkgLT4gUmVzdWx0PCgpLCBTZWxmOjpFcnJvcj4gewogICAgICAgICAgICBzZWxmLmNvbW1hbmRzCiAgICAgICAgICAgICAgICAubG9jaygpCiAgICAgICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofHBvaXNvbmVkfCBwb2lzb25lZC5pbnRvX2lubmVyKCkpCiAgICAgICAgICAgICAgICAucHVzaChTdHJpbmc6OmZyb21fdXRmOF9sb3NzeShkYXRhKS5pbnRvX293bmVkKCkpOwogICAgICAgICAgICBzZXNzaW9uLmNoYW5uZWxfc3VjY2VzcyhjaGFubmVsKT87CiAgICAgICAgICAgIGlmIHNlbGYub3V0cHV0X3NpemUgPiAwIHsKICAgICAgICAgICAgICAgIHNlc3Npb24uZGF0YShjaGFubmVsLCB2ZWMhW2IneCc7IHNlbGYub3V0cHV0X3NpemVdKT87CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgbGV0IFNvbWUoZXhpdF9zdGF0dXMpID0gc2VsZi5leGl0X3N0YXR1cyB7CiAgICAgICAgICAgICAgICBzZXNzaW9uLmV4aXRfc3RhdHVzX3JlcXVlc3QoY2hhbm5lbCwgZXhpdF9zdGF0dXMpPzsKICAgICAgICAgICAgfQogICAgICAgICAgICBzZXNzaW9uLmVvZihjaGFubmVsKT87CiAgICAgICAgICAgIHNlc3Npb24uY2xvc2UoY2hhbm5lbCk/OwogICAgICAgICAgICBPaygoKSkKICAgICAgICB9CiAgICB9CgogICAgYXN5bmMgZm4gc3RhcnRfbW9ja19zZXJ2ZXJfd2l0aCgKICAgICAgICBleGl0X3N0YXR1czogT3B0aW9uPHUzMj4sCiAgICAgICAgb3V0cHV0X3NpemU6IHVzaXplLAogICAgKSAtPiAoCiAgICAgICAgU29ja2V0QWRkciwKICAgICAgICBUYXJnZXRTc2hDb25maWcsCiAgICAgICAgQXJjPE11dGV4PFZlYzxTdHJpbmc+Pj4sCiAgICAgICAgSm9pbkhhbmRsZTwoKT4sCiAgICApIHsKICAgICAgICBsZXQgbGlzdGVuZXIgPSBUY3BMaXN0ZW5lcjo6YmluZCgoIjEyNy4wLjAuMSIsIDApKS5hd2FpdC51bndyYXAoKTsKICAgICAgICBsZXQgZW5kcG9pbnQgPSBsaXN0ZW5lci5sb2NhbF9hZGRyKCkudW53cmFwKCk7CiAgICAgICAgbGV0IGhvc3Rfa2V5ID0gZGVjb2RlX3NlY3JldF9rZXkoVEVTVF9QUklWQVRFX0tFWSwgTm9uZSkudW53cmFwKCk7CiAgICAgICAgbGV0IHB1YmxpY19rZXkgPSBob3N0X2tleS5wdWJsaWNfa2V5KCk7CiAgICAgICAgbGV0IGNvbmZpZyA9IFRhcmdldFNzaENvbmZpZyB7CiAgICAgICAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgICAgICAgIGhvc3Q6IGVuZHBvaW50LmlwKCkudG9fc3RyaW5nKCksCiAgICAgICAgICAgIHBvcnQ6IGVuZHBvaW50LnBvcnQoKSwKICAgICAgICAgICAgdXNlcm5hbWU6ICJvcGVyYXRvciIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIHBsYXRmb3JtOiAibGludXgiLnRvX3N0cmluZygpLAogICAgICAgICAgICBhdXRoX21ldGhvZDogInBhc3N3b3JkIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgaG9zdF9rZXlfYWxnb3JpdGhtOiBwdWJsaWNfa2V5LmFsZ29yaXRobSgpLnRvX3N0cmluZygpLAogICAgICAgICAgICBob3N0X2tleV9maW5nZXJwcmludDogcHVibGljX2tleS5maW5nZXJwcmludChIYXNoQWxnOjpTaGEyNTYpLnRvX3N0cmluZygpLAogICAgICAgIH07CiAgICAgICAgbGV0IGNvbW1hbmRzID0gQXJjOjpuZXcoTXV0ZXg6Om5ldyhWZWM6Om5ldygpKSk7CiAgICAgICAgbGV0IG11dCBzZXJ2ZXIgPSBNb2NrU3NoU2VydmVyIHsKICAgICAgICAgICAgY29tbWFuZHM6IEFyYzo6Y2xvbmUoJmNvbW1hbmRzKSwKICAgICAgICAgICAgZXhpdF9zdGF0dXMsCiAgICAgICAgICAgIG91dHB1dF9zaXplLAogICAgICAgIH07CiAgICAgICAgbGV0IHNlcnZlcl9jb25maWcgPSBBcmM6Om5ldyhzZXJ2ZXI6OkNvbmZpZyB7CiAgICAgICAgICAgIGF1dGhfcmVqZWN0aW9uX3RpbWU6IER1cmF0aW9uOjpaRVJPLAogICAgICAgICAgICBhdXRoX3JlamVjdGlvbl90aW1lX2luaXRpYWw6IFNvbWUoRHVyYXRpb246OlpFUk8pLAogICAgICAgICAgICBrZXlzOiB2ZWMhW2hvc3Rfa2V5XSwKICAgICAgICAgICAgLi5EZWZhdWx0OjpkZWZhdWx0KCkKICAgICAgICB9KTsKICAgICAgICBsZXQgdGFzayA9IHRva2lvOjpzcGF3bihhc3luYyBtb3ZlIHsKICAgICAgICAgICAgbGV0IF8gPSBzZXJ2ZXIucnVuX29uX3NvY2tldChzZXJ2ZXJfY29uZmlnLCAmbGlzdGVuZXIpLmF3YWl0OwogICAgICAgIH0pOwogICAgICAgIChlbmRwb2ludCwgY29uZmlnLCBjb21tYW5kcywgdGFzaykKICAgIH0KCiAgICBhc3luYyBmbiBzdGFydF9tb2NrX3NlcnZlcigpIC0+ICgKICAgICAgICBTb2NrZXRBZGRyLAogICAgICAgIFRhcmdldFNzaENvbmZpZywKICAgICAgICBBcmM8TXV0ZXg8VmVjPFN0cmluZz4+PiwKICAgICAgICBKb2luSGFuZGxlPCgpPiwKICAgICkgewogICAgICAgIHN0YXJ0X21vY2tfc2VydmVyX3dpdGgoU29tZSgwKSwgMCkuYXdhaXQKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiB1c2VzX2ZpeGVkX3BsYXRmb3JtX3NodXRkb3duX2NvbW1hbmRzKCkgewogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHNodXRkb3duX2NvbW1hbmQoImxpbnV4IiksCiAgICAgICAgICAgICJzdWRvIC1uIC91c3IvYmluL3N5c3RlbWN0bCBwb3dlcm9mZiAtLW5vLWJsb2NrIgogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxIShzaHV0ZG93bl9jb21tYW5kKCJtYWNvcyIpLCAic3VkbyAtbiAvc2Jpbi9zaHV0ZG93biAtaCBub3ciKTsKICAgICAgICBhc3NlcnRfZXEhKHNodXRkb3duX2NvbW1hbmQoIndpbmRvd3MiKSwgInNodXRkb3duLmV4ZSAvcyAvdCAwIik7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgdGVzdF9jb21tYW5kKCJsaW51eCIpLAogICAgICAgICAgICAic3VkbyAtbiAtbCAtLSAvdXNyL2Jpbi9zeXN0ZW1jdGwgcG93ZXJvZmYgLS1uby1ibG9jayIKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEodGVzdF9jb21tYW5kKCJtYWNvcyIpLCAic3VkbyAtbiAtbCAtLSAvc2Jpbi9zaHV0ZG93biAtaCBub3ciKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiByZWplY3RzX2xvY2FsX2FuZF9ub25fcm91dGFibGVfYWRkcmVzc2VzKCkgewogICAgICAgIGxldCBsb2NhbCA9IEhhc2hTZXQ6OmZyb20oWyIxOTIuMC4yLjEwIi5wYXJzZSgpLnVud3JhcCgpXSk7CiAgICAgICAgYXNzZXJ0IShwcm90ZWN0ZWRfYWRkcmVzcygiMTI3LjAuMC4xIi5wYXJzZSgpLnVud3JhcCgpLCAmbG9jYWwpKTsKICAgICAgICBhc3NlcnQhKHByb3RlY3RlZF9hZGRyZXNzKCIwLjAuMC4wIi5wYXJzZSgpLnVud3JhcCgpLCAmbG9jYWwpKTsKICAgICAgICBhc3NlcnQhKHByb3RlY3RlZF9hZGRyZXNzKCIyMjQuMC4wLjEiLnBhcnNlKCkudW53cmFwKCksICZsb2NhbCkpOwogICAgICAgIGFzc2VydCEocHJvdGVjdGVkX2FkZHJlc3MoCiAgICAgICAgICAgICIyNTUuMjU1LjI1NS4yNTUiLnBhcnNlKCkudW53cmFwKCksCiAgICAgICAgICAgICZsb2NhbAogICAgICAgICkpOwogICAgICAgIGFzc2VydCEocHJvdGVjdGVkX2FkZHJlc3MoCiAgICAgICAgICAgICI6OmZmZmY6MTI3LjAuMC4xIi5wYXJzZSgpLnVud3JhcCgpLAogICAgICAgICAgICAmbG9jYWwKICAgICAgICApKTsKICAgICAgICBhc3NlcnQhKHByb3RlY3RlZF9hZGRyZXNzKCIxOTIuMC4yLjEwIi5wYXJzZSgpLnVud3JhcCgpLCAmbG9jYWwpKTsKICAgICAgICBhc3NlcnQhKCFwcm90ZWN0ZWRfYWRkcmVzcygiMTkyLjAuMi4yMCIucGFyc2UoKS51bndyYXAoKSwgJmxvY2FsKSk7CiAgICB9CgogICAgI1t0b2tpbzo6dGVzdF0KICAgIGFzeW5jIGZuIGF1dGhlbnRpY2F0ZXNfYmVmb3JlX2V4ZWN1dGluZ19maXhlZF9jb21tYW5kc19hbmRfY2hlY2tzX2hvc3Rfa2V5KCkgewogICAgICAgIGxldCAoZW5kcG9pbnQsIG11dCBjb25maWcsIGNvbW1hbmRzLCB0YXNrKSA9IHN0YXJ0X21vY2tfc2VydmVyKCkuYXdhaXQ7CgogICAgICAgIGxldCBtdXQgc2Vzc2lvbiA9IGF1dGhlbnRpY2F0ZWRfc2Vzc2lvbl9hdCgKICAgICAgICAgICAgJmNvbmZpZywKICAgICAgICAgICAgQ3JlZGVudGlhbHM6OlBhc3N3b3JkKCJzZWNyZXQiLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgZW5kcG9pbnQsCiAgICAgICAgKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBleGVjdXRlKCZtdXQgc2Vzc2lvbiwgc2h1dGRvd25fY29tbWFuZCgibGludXgiKSkKICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgLnVud3JhcCgpLAogICAgICAgICAgICAwCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBjb21tYW5kcwogICAgICAgICAgICAgICAgLmxvY2soKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHxwb2lzb25lZHwgcG9pc29uZWQuaW50b19pbm5lcigpKQogICAgICAgICAgICAgICAgLmFzX3NsaWNlKCksCiAgICAgICAgICAgIFsic3VkbyAtbiAvdXNyL2Jpbi9zeXN0ZW1jdGwgcG93ZXJvZmYgLS1uby1ibG9jayJdCiAgICAgICAgKTsKCiAgICAgICAgY29uZmlnLmF1dGhfbWV0aG9kID0gInByaXZhdGVLZXkiLnRvX3N0cmluZygpOwogICAgICAgIGFzc2VydCEoCiAgICAgICAgICAgIGF1dGhlbnRpY2F0ZWRfc2Vzc2lvbl9hdCgKICAgICAgICAgICAgICAgICZjb25maWcsCiAgICAgICAgICAgICAgICBDcmVkZW50aWFsczo6UHJpdmF0ZUtleSB7CiAgICAgICAgICAgICAgICAgICAga2V5OiBURVNUX1BSSVZBVEVfS0VZLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgICAgIHBhc3NwaHJhc2U6IE5vbmUsCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgZW5kcG9pbnQsCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5pc19vaygpCiAgICAgICAgKTsKICAgICAgICBhc3NlcnQhKAogICAgICAgICAgICBhdXRoZW50aWNhdGVkX3Nlc3Npb25fYXQoCiAgICAgICAgICAgICAgICAmY29uZmlnLAogICAgICAgICAgICAgICAgQ3JlZGVudGlhbHM6OlByaXZhdGVLZXkgewogICAgICAgICAgICAgICAgICAgIGtleTogVEVTVF9FTkNSWVBURURfUFJJVkFURV9LRVkudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICAgICAgcGFzc3BocmFzZTogU29tZSgiaHVudGVyNDIiLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICBlbmRwb2ludCwKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmlzX29rKCkKICAgICAgICApOwoKICAgICAgICBjb25maWcuaG9zdF9rZXlfZmluZ2VycHJpbnQgPSAiU0hBMjU2Ondyb25nIi50b19zdHJpbmcoKTsKICAgICAgICBhc3NlcnQhKG1hdGNoZXMhKAogICAgICAgICAgICBhdXRoZW50aWNhdGVkX3Nlc3Npb25fYXQoCiAgICAgICAgICAgICAgICAmY29uZmlnLAogICAgICAgICAgICAgICAgQ3JlZGVudGlhbHM6OlBhc3N3b3JkKCJzZWNyZXQiLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgICAgIGVuZHBvaW50LAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdCwKICAgICAgICAgICAgRXJyKFNzaEVycm9yOjpIb3N0S2V5TWlzbWF0Y2gpCiAgICAgICAgKSk7CgogICAgICAgIHRhc2suYWJvcnQoKTsKICAgIH0KCiAgICAjW3Rva2lvOjp0ZXN0XQogICAgYXN5bmMgZm4gcmVqZWN0c19pbnZhbGlkX3Bhc3N3b3JkX3dpdGhvdXRfZXhlY3V0aW5nX2FfY29tbWFuZCgpIHsKICAgICAgICBsZXQgKGVuZHBvaW50LCBjb25maWcsIGNvbW1hbmRzLCB0YXNrKSA9IHN0YXJ0X21vY2tfc2VydmVyKCkuYXdhaXQ7CiAgICAgICAgYXNzZXJ0IShtYXRjaGVzISgKICAgICAgICAgICAgYXV0aGVudGljYXRlZF9zZXNzaW9uX2F0KAogICAgICAgICAgICAgICAgJmNvbmZpZywKICAgICAgICAgICAgICAgIENyZWRlbnRpYWxzOjpQYXNzd29yZCgid3JvbmciLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgICAgIGVuZHBvaW50LAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdCwKICAgICAgICAgICAgRXJyKFNzaEVycm9yOjpBdXRoZW50aWNhdGlvbkZhaWxlZCkKICAgICAgICApKTsKICAgICAgICBhc3NlcnQhKAogICAgICAgICAgICBjb21tYW5kcwogICAgICAgICAgICAgICAgLmxvY2soKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHxwb2lzb25lZHwgcG9pc29uZWQuaW50b19pbm5lcigpKQogICAgICAgICAgICAgICAgLmlzX2VtcHR5KCkKICAgICAgICApOwogICAgICAgIHRhc2suYWJvcnQoKTsKICAgIH0KCiAgICAjW3Rva2lvOjp0ZXN0XQogICAgYXN5bmMgZm4gZGlzdGluZ3Vpc2hlc19ub256ZXJvX2V4aXRfZnJvbV91bmtub3duX3Bvc3RfZGlzcGF0Y2hfcmVzdWx0cygpIHsKICAgICAgICBsZXQgKGVuZHBvaW50LCBjb25maWcsIF8sIHRhc2spID0gc3RhcnRfbW9ja19zZXJ2ZXJfd2l0aChTb21lKDcpLCAwKS5hd2FpdDsKICAgICAgICBsZXQgbXV0IHNlc3Npb24gPSBhdXRoZW50aWNhdGVkX3Nlc3Npb25fYXQoCiAgICAgICAgICAgICZjb25maWcsCiAgICAgICAgICAgIENyZWRlbnRpYWxzOjpQYXNzd29yZCgic2VjcmV0Ii50b19zdHJpbmcoKSksCiAgICAgICAgICAgIGVuZHBvaW50LAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZXhlY3V0ZSgmbXV0IHNlc3Npb24sIHNodXRkb3duX2NvbW1hbmQoImxpbnV4IikpCiAgICAgICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgICAgIC51bndyYXAoKSwKICAgICAgICAgICAgNwogICAgICAgICk7CiAgICAgICAgdGFzay5hYm9ydCgpOwoKICAgICAgICBsZXQgKGVuZHBvaW50LCBjb25maWcsIF8sIHRhc2spID0gc3RhcnRfbW9ja19zZXJ2ZXJfd2l0aChOb25lLCAwKS5hd2FpdDsKICAgICAgICBsZXQgbXV0IHNlc3Npb24gPSBhdXRoZW50aWNhdGVkX3Nlc3Npb25fYXQoCiAgICAgICAgICAgICZjb25maWcsCiAgICAgICAgICAgIENyZWRlbnRpYWxzOjpQYXNzd29yZCgic2VjcmV0Ii50b19zdHJpbmcoKSksCiAgICAgICAgICAgIGVuZHBvaW50LAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0IShtYXRjaGVzISgKICAgICAgICAgICAgZXhlY3V0ZSgmbXV0IHNlc3Npb24sIHNodXRkb3duX2NvbW1hbmQoImxpbnV4IikpLmF3YWl0LAogICAgICAgICAgICBFcnIoU3NoRXJyb3I6OkNvbW1hbmRVbmtub3duKQogICAgICAgICkpOwogICAgICAgIHRhc2suYWJvcnQoKTsKCiAgICAgICAgbGV0IChlbmRwb2ludCwgY29uZmlnLCBfLCB0YXNrKSA9CiAgICAgICAgICAgIHN0YXJ0X21vY2tfc2VydmVyX3dpdGgoU29tZSgwKSwgTUFYX1JFTU9URV9PVVRQVVQgKyAxKS5hd2FpdDsKICAgICAgICBsZXQgbXV0IHNlc3Npb24gPSBhdXRoZW50aWNhdGVkX3Nlc3Npb25fYXQoCiAgICAgICAgICAgICZjb25maWcsCiAgICAgICAgICAgIENyZWRlbnRpYWxzOjpQYXNzd29yZCgic2VjcmV0Ii50b19zdHJpbmcoKSksCiAgICAgICAgICAgIGVuZHBvaW50LAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0IShtYXRjaGVzISgKICAgICAgICAgICAgZXhlY3V0ZSgmbXV0IHNlc3Npb24sIHNodXRkb3duX2NvbW1hbmQoImxpbnV4IikpLmF3YWl0LAogICAgICAgICAgICBFcnIoU3NoRXJyb3I6OkNvbW1hbmRVbmtub3duKQogICAgICAgICkpOwogICAgICAgIHRhc2suYWJvcnQoKTsKICAgIH0KfQo=
+use russh::{
+    ChannelMsg, Disconnect, client,
+    keys::{HashAlg, PrivateKeyWithHashAlg, decode_secret_key, ssh_key},
+};
+use serde::Serialize;
+use std::{
+    collections::HashSet,
+    net::{IpAddr, SocketAddr},
+    sync::{Arc, Mutex},
+    time::{Duration, Instant},
+};
+use tokio::{net::lookup_host, time};
+
+use super::store::TargetSshConfig;
+
+const CONNECT_TIMEOUT: Duration = Duration::from_secs(8);
+const AUTH_TIMEOUT: Duration = Duration::from_secs(8);
+const COMMAND_TIMEOUT: Duration = Duration::from_secs(10);
+const MAX_REMOTE_OUTPUT: usize = 8 * 1024;
+
+#[derive(Clone, Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct HostKeyInfo {
+    pub algorithm: String,
+    pub fingerprint: String,
+    #[serde(skip)]
+    pub endpoint: SocketAddr,
+}
+
+#[derive(Clone, Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct ConnectionTestResult {
+    pub authenticated: bool,
+    pub privilege_ready: bool,
+    pub latency_ms: u64,
+}
+
+#[derive(Clone, Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct ShutdownResult {
+    pub status: &'static str,
+    pub platform: String,
+    pub latency_ms: u64,
+}
+
+pub(super) enum Credentials {
+    Password(String),
+    PrivateKey {
+        key: String,
+        passphrase: Option<String>,
+    },
+}
+
+#[derive(Debug, thiserror::Error)]
+pub(super) enum SshError {
+    #[error("SSH host or port is invalid")]
+    InvalidEndpoint,
+    #[error("SSH endpoint resolves to a protected local address")]
+    ProtectedAddress,
+    #[error("SSH host key does not match the trusted fingerprint")]
+    HostKeyMismatch,
+    #[error("SSH host key is unavailable")]
+    HostKeyUnavailable,
+    #[error("SSH credential is invalid")]
+    InvalidCredential,
+    #[error("SSH authentication failed")]
+    AuthenticationFailed,
+    #[error("SSH connection failed")]
+    ConnectionFailed,
+    #[error("SSH command failed")]
+    CommandFailed,
+    #[error("SSH command result is unknown")]
+    CommandUnknown,
+}
+
+#[derive(Clone)]
+struct HostKeyHandler {
+    expected: Option<(String, String)>,
+    observed: Arc<Mutex<Option<(String, String)>>>,
+}
+
+impl client::Handler for HostKeyHandler {
+    type Error = russh::Error;
+
+    async fn check_server_key(
+        &mut self,
+        server_public_key: &ssh_key::PublicKey,
+    ) -> Result<bool, Self::Error> {
+        let algorithm = server_public_key.algorithm().to_string();
+        let fingerprint = server_public_key.fingerprint(HashAlg::Sha256).to_string();
+        *self
+            .observed
+            .lock()
+            .unwrap_or_else(|poisoned| poisoned.into_inner()) =
+            Some((algorithm.clone(), fingerprint.clone()));
+        Ok(self
+            .expected
+            .as_ref()
+            .is_none_or(|expected| expected == &(algorithm, fingerprint)))
+    }
+}
+
+pub(super) async fn probe_host_key(host: &str, port: u16) -> Result<HostKeyInfo, SshError> {
+    let endpoint = resolve_endpoint(host, port).await?;
+    let observed = Arc::new(Mutex::new(None));
+    let handler = HostKeyHandler {
+        expected: None,
+        observed: Arc::clone(&observed),
+    };
+    let session = connect(endpoint, handler).await?;
+    let _ = session
+        .disconnect(Disconnect::ByApplication, "", "English")
+        .await;
+    let key = observed
+        .lock()
+        .unwrap_or_else(|poisoned| poisoned.into_inner())
+        .clone()
+        .ok_or(SshError::HostKeyUnavailable)?;
+    Ok(HostKeyInfo {
+        algorithm: key.0,
+        fingerprint: key.1,
+        endpoint,
+    })
+}
+
+pub(super) async fn test_connection(
+    config: &TargetSshConfig,
+    credentials: Credentials,
+    endpoint: SocketAddr,
+) -> Result<ConnectionTestResult, SshError> {
+    let started = Instant::now();
+    let mut session = authenticated_session_at(config, credentials, endpoint).await?;
+    let exit_status = execute(&mut session, test_command(&config.platform)).await?;
+    let _ = session
+        .disconnect(Disconnect::ByApplication, "", "English")
+        .await;
+    Ok(ConnectionTestResult {
+        authenticated: true,
+        privilege_ready: exit_status == 0,
+        latency_ms: elapsed_ms(started),
+    })
+}
+
+pub(super) async fn shutdown(
+    config: &TargetSshConfig,
+    credentials: Credentials,
+) -> Result<ShutdownResult, SshError> {
+    let started = Instant::now();
+    let mut session = authenticated_session(config, credentials).await?;
+    let exit_status = execute(&mut session, shutdown_command(&config.platform)).await?;
+    let _ = session
+        .disconnect(Disconnect::ByApplication, "", "English")
+        .await;
+    if exit_status != 0 {
+        return Err(SshError::CommandFailed);
+    }
+    Ok(ShutdownResult {
+        status: "accepted",
+        platform: config.platform.clone(),
+        latency_ms: elapsed_ms(started),
+    })
+}
+
+async fn authenticated_session(
+    config: &TargetSshConfig,
+    credentials: Credentials,
+) -> Result<client::Handle<HostKeyHandler>, SshError> {
+    let endpoint = resolve_endpoint(&config.host, config.port).await?;
+    authenticated_session_at(config, credentials, endpoint).await
+}
+
+async fn authenticated_session_at(
+    config: &TargetSshConfig,
+    credentials: Credentials,
+    endpoint: SocketAddr,
+) -> Result<client::Handle<HostKeyHandler>, SshError> {
+    let expected = trusted_host_key(config)?;
+    let observed = Arc::new(Mutex::new(None));
+    let handler = HostKeyHandler {
+        expected: Some(expected.clone()),
+        observed: Arc::clone(&observed),
+    };
+    let mut session = match connect(endpoint, handler).await {
+        Ok(session) => session,
+        Err(error) => {
+            if observed
+                .lock()
+                .unwrap_or_else(|poisoned| poisoned.into_inner())
+                .as_ref()
+                .is_some_and(|value| value != &expected)
+            {
+                return Err(SshError::HostKeyMismatch);
+            }
+            return Err(error);
+        }
+    };
+    let authenticated = time::timeout(AUTH_TIMEOUT, async {
+        let success = match credentials {
+            Credentials::Password(password) => session
+                .authenticate_password(&config.username, password)
+                .await
+                .map_err(|_| SshError::ConnectionFailed)?
+                .success(),
+            Credentials::PrivateKey { key, passphrase } => {
+                let key = decode_secret_key(&key, passphrase.as_deref())
+                    .map_err(|_| SshError::InvalidCredential)?;
+                let hash = session
+                    .best_supported_rsa_hash()
+                    .await
+                    .map_err(|_| SshError::ConnectionFailed)?
+                    .flatten();
+                session
+                    .authenticate_publickey(
+                        &config.username,
+                        PrivateKeyWithHashAlg::new(Arc::new(key), hash),
+                    )
+                    .await
+                    .map_err(|_| SshError::ConnectionFailed)?
+                    .success()
+            }
+        };
+        Ok::<bool, SshError>(success)
+    })
+    .await
+    .map_err(|_| SshError::ConnectionFailed)??;
+    if !authenticated {
+        return Err(SshError::AuthenticationFailed);
+    }
+    Ok(session)
+}
+
+async fn connect(
+    endpoint: SocketAddr,
+    handler: HostKeyHandler,
+) -> Result<client::Handle<HostKeyHandler>, SshError> {
+    let config = Arc::new(client::Config {
+        inactivity_timeout: Some(COMMAND_TIMEOUT),
+        ..Default::default()
+    });
+    time::timeout(CONNECT_TIMEOUT, client::connect(config, endpoint, handler))
+        .await
+        .map_err(|_| SshError::ConnectionFailed)?
+        .map_err(|_| SshError::ConnectionFailed)
+}
+
+async fn execute(
+    session: &mut client::Handle<HostKeyHandler>,
+    command: &str,
+) -> Result<u32, SshError> {
+    let future = async {
+        let mut channel = session
+            .channel_open_session()
+            .await
+            .map_err(|_| SshError::CommandFailed)?;
+        channel
+            .exec(true, command)
+            .await
+            .map_err(|_| SshError::CommandUnknown)?;
+        let mut output_size = 0_usize;
+        let mut exit_status = None;
+        while let Some(message) = channel.wait().await {
+            match message {
+                ChannelMsg::Data { data } | ChannelMsg::ExtendedData { data, .. } => {
+                    output_size = output_size.saturating_add(data.len());
+                    if output_size > MAX_REMOTE_OUTPUT {
+                        return Err(SshError::CommandUnknown);
+                    }
+                }
+                ChannelMsg::ExitStatus { exit_status: value } => exit_status = Some(value),
+                _ => {}
+            }
+        }
+        exit_status.ok_or(SshError::CommandUnknown)
+    };
+    time::timeout(COMMAND_TIMEOUT, future)
+        .await
+        .map_err(|_| SshError::CommandUnknown)?
+}
+
+async fn resolve_endpoint(host: &str, port: u16) -> Result<SocketAddr, SshError> {
+    let host = host.trim();
+    if host.is_empty() || host.len() > 253 || port == 0 || host.chars().any(char::is_control) {
+        return Err(SshError::InvalidEndpoint);
+    }
+    let local_addresses = get_if_addrs::get_if_addrs()
+        .map_err(|_| SshError::ConnectionFailed)?
+        .into_iter()
+        .map(|interface| interface.ip())
+        .collect::<HashSet<_>>();
+    let addresses = time::timeout(CONNECT_TIMEOUT, lookup_host((host, port)))
+        .await
+        .map_err(|_| SshError::ConnectionFailed)?
+        .map_err(|_| SshError::InvalidEndpoint)?
+        .collect::<Vec<_>>();
+    let endpoint = addresses
+        .into_iter()
+        .find(|address| !protected_address(address.ip(), &local_addresses))
+        .ok_or(SshError::ProtectedAddress)?;
+    Ok(endpoint)
+}
+
+fn protected_address(address: IpAddr, local_addresses: &HashSet<IpAddr>) -> bool {
+    if let IpAddr::V6(value) = address
+        && let Some(mapped) = value.to_ipv4_mapped()
+    {
+        return protected_address(IpAddr::V4(mapped), local_addresses);
+    }
+    address.is_loopback()
+        || address.is_unspecified()
+        || address.is_multicast()
+        || matches!(address, IpAddr::V4(value) if value.is_broadcast())
+        || local_addresses.contains(&address)
+}
+
+fn trusted_host_key(config: &TargetSshConfig) -> Result<(String, String), SshError> {
+    let algorithm = config.host_key_algorithm.trim();
+    let fingerprint = config.host_key_fingerprint.trim();
+    if algorithm.is_empty()
+        || algorithm.len() > 64
+        || fingerprint.len() > 128
+        || !fingerprint.starts_with("SHA256:")
+    {
+        return Err(SshError::HostKeyUnavailable);
+    }
+    Ok((algorithm.to_string(), fingerprint.to_string()))
+}
+
+pub(super) fn shutdown_command(platform: &str) -> &'static str {
+    match platform {
+        "macos" => "sudo -n /sbin/shutdown -h now",
+        "windows" => "shutdown.exe /s /t 0",
+        _ => "sudo -n /usr/bin/systemctl poweroff --no-block",
+    }
+}
+
+fn test_command(platform: &str) -> &'static str {
+    match platform {
+        "macos" => "sudo -n -l -- /sbin/shutdown -h now",
+        "windows" => "cmd.exe /d /s /c \"ver >NUL\"",
+        _ => "sudo -n -l -- /usr/bin/systemctl poweroff --no-block",
+    }
+}
+
+fn elapsed_ms(started: Instant) -> u64 {
+    started.elapsed().as_millis().try_into().unwrap_or(u64::MAX)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use russh::{
+        Channel, ChannelId,
+        server::{self, Auth, Msg, Server as _, Session},
+    };
+    use tokio::{net::TcpListener, task::JoinHandle};
+
+    const TEST_PRIVATE_KEY: &str = "-----BEGIN OPENSSH PRIVATE KEY-----\n\
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n\
+QyNTUxOQAAACCzPq7zfqLffKoBDe/eo04kH2XxtSmk9D7RQyf1xUqrYgAAAJgAIAxdACAM\n\
+XQAAAAtzc2gtZWQyNTUxOQAAACCzPq7zfqLffKoBDe/eo04kH2XxtSmk9D7RQyf1xUqrYg\n\
+AAAEC2BsIi0QwW2uFscKTUUXNHLsYX4FxlaSDSblbAj7WR7bM+rvN+ot98qgEN796jTiQf\n\
+ZfG1KaT0PtFDJ/XFSqtiAAAAEHVzZXJAZXhhbXBsZS5jb20BAgMEBQ==\n\
+-----END OPENSSH PRIVATE KEY-----";
+    const TEST_ENCRYPTED_PRIVATE_KEY: &str = "-----BEGIN OPENSSH PRIVATE KEY-----\n\
+b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABBKH96ujW\n\
+umB6/WnTNPjTeaAAAAEAAAAAEAAAAzAAAAC3NzaC1lZDI1NTE5AAAAILM+rvN+ot98qgEN\n\
+796jTiQfZfG1KaT0PtFDJ/XFSqtiAAAAoFzvbvyFMhAiwBOXF0mhUUacPUCMZXivG2up2c\n\
+hEnAw1b6BLRPyWbY5cC2n9ggD4ivJ1zSts6sBgjyiXQAReyrP35myYvT/OIB/NpwZM/xIJ\n\
+N7MHSUzlkX4adBrga3f7GS4uv4ChOoxC4XsE5HsxtGsq1X8jzqLlZTmOcxkcEneYQexrUc\n\
+bQP0o+gL5aKK8cQgiIlXeDbRjqhc4+h4EF6lY=\n\
+-----END OPENSSH PRIVATE KEY-----";
+
+    #[derive(Clone)]
+    struct MockSshServer {
+        commands: Arc<Mutex<Vec<String>>>,
+        exit_status: Option<u32>,
+        output_size: usize,
+    }
+
+    impl server::Server for MockSshServer {
+        type Handler = Self;
+
+        fn new_client(&mut self, _peer_addr: Option<SocketAddr>) -> Self::Handler {
+            self.clone()
+        }
+    }
+
+    impl server::Handler for MockSshServer {
+        type Error = russh::Error;
+
+        async fn auth_password(&mut self, user: &str, password: &str) -> Result<Auth, Self::Error> {
+            Ok(if user == "operator" && password == "secret" {
+                Auth::Accept
+            } else {
+                Auth::reject()
+            })
+        }
+
+        async fn auth_publickey(
+            &mut self,
+            user: &str,
+            _key: &ssh_key::PublicKey,
+        ) -> Result<Auth, Self::Error> {
+            Ok(if user == "operator" {
+                Auth::Accept
+            } else {
+                Auth::reject()
+            })
+        }
+
+        async fn channel_open_session(
+            &mut self,
+            _channel: Channel<Msg>,
+            reply: server::ChannelOpenHandle,
+            _session: &mut Session,
+        ) -> Result<(), Self::Error> {
+            reply.accept().await;
+            Ok(())
+        }
+
+        async fn exec_request(
+            &mut self,
+            channel: ChannelId,
+            data: &[u8],
+            session: &mut Session,
+        ) -> Result<(), Self::Error> {
+            self.commands
+                .lock()
+                .unwrap_or_else(|poisoned| poisoned.into_inner())
+                .push(String::from_utf8_lossy(data).into_owned());
+            session.channel_success(channel)?;
+            if self.output_size > 0 {
+                session.data(channel, vec![b'x'; self.output_size])?;
+            }
+            if let Some(exit_status) = self.exit_status {
+                session.exit_status_request(channel, exit_status)?;
+            }
+            session.eof(channel)?;
+            session.close(channel)?;
+            Ok(())
+        }
+    }
+
+    async fn start_mock_server_with(
+        exit_status: Option<u32>,
+        output_size: usize,
+    ) -> (
+        SocketAddr,
+        TargetSshConfig,
+        Arc<Mutex<Vec<String>>>,
+        JoinHandle<()>,
+    ) {
+        let listener = TcpListener::bind(("127.0.0.1", 0)).await.unwrap();
+        let endpoint = listener.local_addr().unwrap();
+        let host_key = decode_secret_key(TEST_PRIVATE_KEY, None).unwrap();
+        let public_key = host_key.public_key();
+        let config = TargetSshConfig {
+            enabled: true,
+            host: endpoint.ip().to_string(),
+            port: endpoint.port(),
+            username: "operator".to_string(),
+            platform: "linux".to_string(),
+            auth_method: "password".to_string(),
+            host_key_algorithm: public_key.algorithm().to_string(),
+            host_key_fingerprint: public_key.fingerprint(HashAlg::Sha256).to_string(),
+        };
+        let commands = Arc::new(Mutex::new(Vec::new()));
+        let mut server = MockSshServer {
+            commands: Arc::clone(&commands),
+            exit_status,
+            output_size,
+        };
+        let server_config = Arc::new(server::Config {
+            auth_rejection_time: Duration::ZERO,
+            auth_rejection_time_initial: Some(Duration::ZERO),
+            keys: vec![host_key],
+            ..Default::default()
+        });
+        let task = tokio::spawn(async move {
+            let _ = server.run_on_socket(server_config, &listener).await;
+        });
+        (endpoint, config, commands, task)
+    }
+
+    async fn start_mock_server() -> (
+        SocketAddr,
+        TargetSshConfig,
+        Arc<Mutex<Vec<String>>>,
+        JoinHandle<()>,
+    ) {
+        start_mock_server_with(Some(0), 0).await
+    }
+
+    #[test]
+    fn uses_fixed_platform_shutdown_commands() {
+        assert_eq!(
+            shutdown_command("linux"),
+            "sudo -n /usr/bin/systemctl poweroff --no-block"
+        );
+        assert_eq!(shutdown_command("macos"), "sudo -n /sbin/shutdown -h now");
+        assert_eq!(shutdown_command("windows"), "shutdown.exe /s /t 0");
+        assert_eq!(
+            test_command("linux"),
+            "sudo -n -l -- /usr/bin/systemctl poweroff --no-block"
+        );
+        assert_eq!(test_command("macos"), "sudo -n -l -- /sbin/shutdown -h now");
+    }
+
+    #[test]
+    fn rejects_local_and_non_routable_addresses() {
+        let local = HashSet::from(["192.0.2.10".parse().unwrap()]);
+        assert!(protected_address("127.0.0.1".parse().unwrap(), &local));
+        assert!(protected_address("0.0.0.0".parse().unwrap(), &local));
+        assert!(protected_address("224.0.0.1".parse().unwrap(), &local));
+        assert!(protected_address(
+            "255.255.255.255".parse().unwrap(),
+            &local
+        ));
+        assert!(protected_address(
+            "::ffff:127.0.0.1".parse().unwrap(),
+            &local
+        ));
+        assert!(protected_address("192.0.2.10".parse().unwrap(), &local));
+        assert!(!protected_address("192.0.2.20".parse().unwrap(), &local));
+    }
+
+    #[tokio::test]
+    async fn authenticates_before_executing_fixed_commands_and_checks_host_key() {
+        let (endpoint, mut config, commands, task) = start_mock_server().await;
+
+        let mut session = authenticated_session_at(
+            &config,
+            Credentials::Password("secret".to_string()),
+            endpoint,
+        )
+        .await
+        .unwrap();
+        assert_eq!(
+            execute(&mut session, shutdown_command("linux"))
+                .await
+                .unwrap(),
+            0
+        );
+        assert_eq!(
+            commands
+                .lock()
+                .unwrap_or_else(|poisoned| poisoned.into_inner())
+                .as_slice(),
+            ["sudo -n /usr/bin/systemctl poweroff --no-block"]
+        );
+
+        config.auth_method = "privateKey".to_string();
+        assert!(
+            authenticated_session_at(
+                &config,
+                Credentials::PrivateKey {
+                    key: TEST_PRIVATE_KEY.to_string(),
+                    passphrase: None,
+                },
+                endpoint,
+            )
+            .await
+            .is_ok()
+        );
+        assert!(
+            authenticated_session_at(
+                &config,
+                Credentials::PrivateKey {
+                    key: TEST_ENCRYPTED_PRIVATE_KEY.to_string(),
+                    passphrase: Some("hunter42".to_string()),
+                },
+                endpoint,
+            )
+            .await
+            .is_ok()
+        );
+
+        config.host_key_fingerprint = "SHA256:wrong".to_string();
+        assert!(matches!(
+            authenticated_session_at(
+                &config,
+                Credentials::Password("secret".to_string()),
+                endpoint,
+            )
+            .await,
+            Err(SshError::HostKeyMismatch)
+        ));
+
+        task.abort();
+    }
+
+    #[tokio::test]
+    async fn rejects_invalid_password_without_executing_a_command() {
+        let (endpoint, config, commands, task) = start_mock_server().await;
+        assert!(matches!(
+            authenticated_session_at(
+                &config,
+                Credentials::Password("wrong".to_string()),
+                endpoint,
+            )
+            .await,
+            Err(SshError::AuthenticationFailed)
+        ));
+        assert!(
+            commands
+                .lock()
+                .unwrap_or_else(|poisoned| poisoned.into_inner())
+                .is_empty()
+        );
+        task.abort();
+    }
+
+    #[tokio::test]
+    async fn distinguishes_nonzero_exit_from_unknown_post_dispatch_results() {
+        let (endpoint, config, _, task) = start_mock_server_with(Some(7), 0).await;
+        let mut session = authenticated_session_at(
+            &config,
+            Credentials::Password("secret".to_string()),
+            endpoint,
+        )
+        .await
+        .unwrap();
+        assert_eq!(
+            execute(&mut session, shutdown_command("linux"))
+                .await
+                .unwrap(),
+            7
+        );
+        task.abort();
+
+        let (endpoint, config, _, task) = start_mock_server_with(None, 0).await;
+        let mut session = authenticated_session_at(
+            &config,
+            Credentials::Password("secret".to_string()),
+            endpoint,
+        )
+        .await
+        .unwrap();
+        assert!(matches!(
+            execute(&mut session, shutdown_command("linux")).await,
+            Err(SshError::CommandUnknown)
+        ));
+        task.abort();
+
+        let (endpoint, config, _, task) =
+            start_mock_server_with(Some(0), MAX_REMOTE_OUTPUT + 1).await;
+        let mut session = authenticated_session_at(
+            &config,
+            Credentials::Password("secret".to_string()),
+            endpoint,
+        )
+        .await
+        .unwrap();
+        assert!(matches!(
+            execute(&mut session, shutdown_command("linux")).await,
+            Err(SshError::CommandUnknown)
+        ));
+        task.abort();
+    }
+}

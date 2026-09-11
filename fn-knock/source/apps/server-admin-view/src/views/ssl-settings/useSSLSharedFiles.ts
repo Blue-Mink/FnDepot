@@ -1,1 +1,119 @@
-aW1wb3J0IHsgcmVmLCB0eXBlIFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgQ29uZmlnQVBJIH0gZnJvbSAiQC9saWIvYXBpL2NvbmZpZyI7CmltcG9ydCB0eXBlIHsgU1NMU2hhcmVkRmlsZXNQYXlsb2FkIH0gZnJvbSAiQC90eXBlcyI7Cgp0eXBlIFRyYW5zbGF0aW9uUGFyYW1zID0gUmVjb3JkPHN0cmluZywgc3RyaW5nIHwgbnVtYmVyPjsKCnR5cGUgQ2VydEZvcm1EYXRhID0gewogIGNlcnQ6IHN0cmluZzsKICBrZXk6IHN0cmluZzsKfTsKCmNvbnN0IGRlZmF1bHRTU0xTaGFyZWRGaWxlczogU1NMU2hhcmVkRmlsZXNQYXlsb2FkID0gewogIHNoYXJlTmFtZTogImZuLWtub2NrIiwKICBhdmFpbGFibGU6IGZhbHNlLAogIGZpbGVzOiBbXSwKfTsKCmV4cG9ydCBjb25zdCB1c2VTU0xTaGFyZWRGaWxlcyA9ICh7CiAgZm9ybURhdGEsCiAgdHJhbnNsYXRlLAp9OiB7CiAgZm9ybURhdGE6IFJlZjxDZXJ0Rm9ybURhdGE+OwogIHRyYW5zbGF0ZTogKGtleTogc3RyaW5nLCBwYXJhbXM/OiBUcmFuc2xhdGlvblBhcmFtcykgPT4gc3RyaW5nOwp9KSA9PiB7CiAgY29uc3Qgc2hhcmVkRmlsZXNFcnJvciA9IHJlZigiIik7CiAgY29uc3Qgc3NsU2hhcmVkRmlsZXMgPSByZWY8U1NMU2hhcmVkRmlsZXNQYXlsb2FkPihkZWZhdWx0U1NMU2hhcmVkRmlsZXMpOwogIGNvbnN0IGhhc0xvYWRlZFNoYXJlZEZpbGVzID0gcmVmKGZhbHNlKTsKCiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzTG9hZGluZ1NoYXJlZEZpbGVzLCBydW46IHJ1bkxvYWRTaGFyZWRGaWxlcyB9ID0KICAgIHVzZUFzeW5jQWN0aW9uKHsKICAgICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgICAgY29uc3QgbWVzc2FnZSA9IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uY2VydENvbmZpZy5sb2FkU2hhcmVkRGlyRmFpbGVkIiksCiAgICAgICAgKTsKICAgICAgICBzaGFyZWRGaWxlc0Vycm9yLnZhbHVlID0gbWVzc2FnZTsKICAgICAgICB0b2FzdC5lcnJvcihtZXNzYWdlKTsKICAgICAgfSwKICAgIH0pOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1JlYWRpbmdTaGFyZWRGaWxlLCBydW46IHJ1blJlYWRTaGFyZWRGaWxlIH0gPQogICAgdXNlQXN5bmNBY3Rpb24oewogICAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgICB0b2FzdC5lcnJvcigKICAgICAgICAgIGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICAgIGVycm9yLAogICAgICAgICAgICB0cmFuc2xhdGUoImFkbWluLmNlcnRDb25maWcubG9hZFNoYXJlZEZpbGVGYWlsZWQiKSwKICAgICAgICAgICksCiAgICAgICAgKTsKICAgICAgfSwKICAgIH0pOwoKICBjb25zdCBsb2FkU2hhcmVkRmlsZXMgPSBhc3luYyAoZm9yY2UgPSBmYWxzZSkgPT4gewogICAgaWYgKGhhc0xvYWRlZFNoYXJlZEZpbGVzLnZhbHVlICYmICFmb3JjZSkgcmV0dXJuOwoKICAgIHNoYXJlZEZpbGVzRXJyb3IudmFsdWUgPSAiIjsKICAgIGNvbnN0IG5leHRGaWxlcyA9IGF3YWl0IHJ1bkxvYWRTaGFyZWRGaWxlcyhhc3luYyAoKSA9PgogICAgICBDb25maWdBUEkuZ2V0U1NMU2hhcmVkRmlsZXMoKSwKICAgICk7CiAgICBpZiAoIW5leHRGaWxlcykgcmV0dXJuOwoKICAgIHNzbFNoYXJlZEZpbGVzLnZhbHVlID0gbmV4dEZpbGVzOwogICAgaGFzTG9hZGVkU2hhcmVkRmlsZXMudmFsdWUgPSB0cnVlOwogIH07CgogIGNvbnN0IGhhbmRsZVNoYXJlZEZpbGVzUmVxdWVzdCA9IGFzeW5jIChwYXlsb2FkOiB7CiAgICBmaWVsZDogImNlcnQiIHwgInNzbEtleSI7CiAgICBmb3JjZT86IGJvb2xlYW47CiAgfSkgPT4gewogICAgYXdhaXQgbG9hZFNoYXJlZEZpbGVzKEJvb2xlYW4ocGF5bG9hZC5mb3JjZSkpOwogIH07CgogIGNvbnN0IGFwcGx5U2hhcmVkRmlsZVNlbGVjdGlvbiA9IGFzeW5jICgKICAgIHRhcmdldDogQ2VydEZvcm1EYXRhLAogICAgcGF5bG9hZDogeyBmaWVsZDogImNlcnQiIHwgInNzbEtleSI7IHJlbGF0aXZlUGF0aDogc3RyaW5nIH0sCiAgKSA9PiB7CiAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBydW5SZWFkU2hhcmVkRmlsZShhc3luYyAoKSA9PgogICAgICBDb25maWdBUEkucmVhZFNTTFNoYXJlZEZpbGUocGF5bG9hZC5yZWxhdGl2ZVBhdGgpLAogICAgKTsKICAgIGlmICghcmVzdWx0KSByZXR1cm47CgogICAgaWYgKHBheWxvYWQuZmllbGQgPT09ICJjZXJ0IikgewogICAgICB0YXJnZXQuY2VydCA9IHJlc3VsdC5jb250ZW50OwogICAgfSBlbHNlIHsKICAgICAgdGFyZ2V0LmtleSA9IHJlc3VsdC5jb250ZW50OwogICAgfQoKICAgIGNvbnN0IGxhYmVsID0KICAgICAgcGF5bG9hZC5maWVsZCA9PT0gImNlcnQiCiAgICAgICAgPyB0cmFuc2xhdGUoImFkbWluLmNlcnRDb25maWcuY2VydGlmaWNhdGVGaWxlIikKICAgICAgICA6IHRyYW5zbGF0ZSgiYWRtaW4uY2VydENvbmZpZy5wcml2YXRlS2V5RmlsZSIpOwogICAgdG9hc3Quc3VjY2VzcygKICAgICAgdHJhbnNsYXRlKCJhZG1pbi5jZXJ0Q29uZmlnLnNoYXJlZEZpbGVMb2FkZWQiLCB7CiAgICAgICAgbGFiZWwsCiAgICAgICAgZmlsZTogcmVzdWx0LmZpbGUubmFtZSwKICAgICAgfSksCiAgICApOwogIH07CgogIGNvbnN0IGhhbmRsZUNyZWF0ZVNoYXJlZEZpbGVTZWxlY3QgPSBhc3luYyAocGF5bG9hZDogewogICAgZmllbGQ6ICJjZXJ0IiB8ICJzc2xLZXkiOwogICAgcmVsYXRpdmVQYXRoOiBzdHJpbmc7CiAgfSkgPT4gewogICAgYXdhaXQgYXBwbHlTaGFyZWRGaWxlU2VsZWN0aW9uKGZvcm1EYXRhLnZhbHVlLCBwYXlsb2FkKTsKICB9OwoKICByZXR1cm4gewogICAgaGFuZGxlQ3JlYXRlU2hhcmVkRmlsZVNlbGVjdCwKICAgIGhhbmRsZVNoYXJlZEZpbGVzUmVxdWVzdCwKICAgIGlzTG9hZGluZ1NoYXJlZEZpbGVzLAogICAgaXNSZWFkaW5nU2hhcmVkRmlsZSwKICAgIHNoYXJlZEZpbGVzRXJyb3IsCiAgICBzc2xTaGFyZWRGaWxlcywKICB9Owp9Owo=
+import { ref, type Ref } from "vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import { ConfigAPI } from "@/lib/api/config";
+import type { SSLSharedFilesPayload } from "@/types";
+
+type TranslationParams = Record<string, string | number>;
+
+type CertFormData = {
+  cert: string;
+  key: string;
+};
+
+const defaultSSLSharedFiles: SSLSharedFilesPayload = {
+  shareName: "fn-knock",
+  available: false,
+  files: [],
+};
+
+export const useSSLSharedFiles = ({
+  formData,
+  translate,
+}: {
+  formData: Ref<CertFormData>;
+  translate: (key: string, params?: TranslationParams) => string;
+}) => {
+  const sharedFilesError = ref("");
+  const sslSharedFiles = ref<SSLSharedFilesPayload>(defaultSSLSharedFiles);
+  const hasLoadedSharedFiles = ref(false);
+
+  const { isPending: isLoadingSharedFiles, run: runLoadSharedFiles } =
+    useAsyncAction({
+      onError: (error) => {
+        const message = extractErrorMessage(
+          error,
+          translate("admin.certConfig.loadSharedDirFailed"),
+        );
+        sharedFilesError.value = message;
+        toast.error(message);
+      },
+    });
+  const { isPending: isReadingSharedFile, run: runReadSharedFile } =
+    useAsyncAction({
+      onError: (error) => {
+        toast.error(
+          extractErrorMessage(
+            error,
+            translate("admin.certConfig.loadSharedFileFailed"),
+          ),
+        );
+      },
+    });
+
+  const loadSharedFiles = async (force = false) => {
+    if (hasLoadedSharedFiles.value && !force) return;
+
+    sharedFilesError.value = "";
+    const nextFiles = await runLoadSharedFiles(async () =>
+      ConfigAPI.getSSLSharedFiles(),
+    );
+    if (!nextFiles) return;
+
+    sslSharedFiles.value = nextFiles;
+    hasLoadedSharedFiles.value = true;
+  };
+
+  const handleSharedFilesRequest = async (payload: {
+    field: "cert" | "sslKey";
+    force?: boolean;
+  }) => {
+    await loadSharedFiles(Boolean(payload.force));
+  };
+
+  const applySharedFileSelection = async (
+    target: CertFormData,
+    payload: { field: "cert" | "sslKey"; relativePath: string },
+  ) => {
+    const result = await runReadSharedFile(async () =>
+      ConfigAPI.readSSLSharedFile(payload.relativePath),
+    );
+    if (!result) return;
+
+    if (payload.field === "cert") {
+      target.cert = result.content;
+    } else {
+      target.key = result.content;
+    }
+
+    const label =
+      payload.field === "cert"
+        ? translate("admin.certConfig.certificateFile")
+        : translate("admin.certConfig.privateKeyFile");
+    toast.success(
+      translate("admin.certConfig.sharedFileLoaded", {
+        label,
+        file: result.file.name,
+      }),
+    );
+  };
+
+  const handleCreateSharedFileSelect = async (payload: {
+    field: "cert" | "sslKey";
+    relativePath: string;
+  }) => {
+    await applySharedFileSelection(formData.value, payload);
+  };
+
+  return {
+    handleCreateSharedFileSelect,
+    handleSharedFilesRequest,
+    isLoadingSharedFiles,
+    isReadingSharedFile,
+    sharedFilesError,
+    sslSharedFiles,
+  };
+};

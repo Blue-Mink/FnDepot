@@ -1,1 +1,54 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCBEYXRhU2hhcmVGaWxlUGlja2VyIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vRGF0YVNoYXJlRmlsZVBpY2tlci52dWUiOwppbXBvcnQgeyBLTk9DS19CQUNLVVBfRVhURU5TSU9OIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9tYWludGVuYW5jZUJhY2t1cCI7CmltcG9ydCB0eXBlIHsKICBBdXRvbWF0aWNCYWNrdXBGaWxlc1BheWxvYWQsCiAgU2hhcmVkRGF0YUZpbGVFbnRyeSwKfSBmcm9tICJAL3R5cGVzIjsKCmRlZmluZVByb3BzPHsKICBmaWxlczogQXV0b21hdGljQmFja3VwRmlsZXNQYXlsb2FkOwogIGxvYWRpbmc6IGJvb2xlYW47CiAgc2VsZWN0aW5nOiBib29sZWFuOwogIGVycm9yTWVzc2FnZTogc3RyaW5nOwp9PigpOwoKY29uc3Qgb3BlbiA9IGRlZmluZU1vZGVsPGJvb2xlYW4+KCJvcGVuIiwgeyByZXF1aXJlZDogdHJ1ZSB9KTsKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICByZWZyZXNoOiBbXTsKICBzZWxlY3Q6IFtmaWxlOiBTaGFyZWREYXRhRmlsZUVudHJ5XTsKfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEYXRhU2hhcmVGaWxlUGlja2VyCiAgICB2LW1vZGVsOm9wZW49Im9wZW4iCiAgICA6dGl0bGU9InQoJ2FkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuYXV0b21hdGljUGlja2VyVGl0bGUnKSIKICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5hdXRvbWF0aWNQaWNrZXJEZXNjcmlwdGlvbicpIgogICAgOmRpcmVjdG9yeS1sYWJlbD0idCgnYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5hdXRvbWF0aWNQaWNrZXJEaXJlY3RvcnknKSIKICAgIDpmaWxlcz0iZmlsZXMuZmlsZXMiCiAgICA6c3VwcG9ydGVkLWZpbGUtdHlwZXM9IltLTk9DS19CQUNLVVBfRVhURU5TSU9OXSIKICAgIDphdmFpbGFibGU9ImZpbGVzLmF2YWlsYWJsZSIKICAgIDpsb2FkaW5nPSJsb2FkaW5nIgogICAgOnNlbGVjdGluZz0ic2VsZWN0aW5nIgogICAgOmVycm9yLW1lc3NhZ2U9ImVycm9yTWVzc2FnZSIKICAgIDphbGVydC10aXRsZT0idCgnYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5hdXRvbWF0aWNQaWNrZXJBbGVydFRpdGxlJykiCiAgICA6YXZhaWxhYmxlLWRlc2NyaXB0aW9uPSIKICAgICAgdCgnYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5hdXRvbWF0aWNQaWNrZXJBdmFpbGFibGVEZXNjcmlwdGlvbicsIHsKICAgICAgICBwYXRoOiBmaWxlcy5kaXJlY3RvcnlQYXRoLAogICAgICB9KQogICAgIgogICAgOnVuYXZhaWxhYmxlLWRlc2NyaXB0aW9uPSIKICAgICAgdCgnYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5hdXRvbWF0aWNQaWNrZXJVbmF2YWlsYWJsZURlc2NyaXB0aW9uJykKICAgICIKICAgIDplbXB0eS10aXRsZT0idCgnYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5hdXRvbWF0aWNQaWNrZXJFbXB0eVRpdGxlJykiCiAgICA6ZW1wdHktZGVzY3JpcHRpb249IgogICAgICB0KCdhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmF1dG9tYXRpY1BpY2tlckVtcHR5RGVzY3JpcHRpb24nKQogICAgIgogICAgOmNvbmZpcm0tdGV4dD0idCgnYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5waWNrZXJDb25maXJtVGV4dCcpIgogICAgQHJlZnJlc2g9ImVtaXQoJ3JlZnJlc2gnKSIKICAgIEBzZWxlY3Q9ImVtaXQoJ3NlbGVjdCcsICRldmVudCkiCiAgLz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import DataShareFilePicker from "@admin-shared/components/common/DataShareFilePicker.vue";
+import { KNOCK_BACKUP_EXTENSION } from "@admin-shared/utils/maintenanceBackup";
+import type {
+  AutomaticBackupFilesPayload,
+  SharedDataFileEntry,
+} from "@/types";
+
+defineProps<{
+  files: AutomaticBackupFilesPayload;
+  loading: boolean;
+  selecting: boolean;
+  errorMessage: string;
+}>();
+
+const open = defineModel<boolean>("open", { required: true });
+const emit = defineEmits<{
+  refresh: [];
+  select: [file: SharedDataFileEntry];
+}>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <DataShareFilePicker
+    v-model:open="open"
+    :title="t('admin.maintenanceSettings.automaticPickerTitle')"
+    :description="t('admin.maintenanceSettings.automaticPickerDescription')"
+    :directory-label="t('admin.maintenanceSettings.automaticPickerDirectory')"
+    :files="files.files"
+    :supported-file-types="[KNOCK_BACKUP_EXTENSION]"
+    :available="files.available"
+    :loading="loading"
+    :selecting="selecting"
+    :error-message="errorMessage"
+    :alert-title="t('admin.maintenanceSettings.automaticPickerAlertTitle')"
+    :available-description="
+      t('admin.maintenanceSettings.automaticPickerAvailableDescription', {
+        path: files.directoryPath,
+      })
+    "
+    :unavailable-description="
+      t('admin.maintenanceSettings.automaticPickerUnavailableDescription')
+    "
+    :empty-title="t('admin.maintenanceSettings.automaticPickerEmptyTitle')"
+    :empty-description="
+      t('admin.maintenanceSettings.automaticPickerEmptyDescription')
+    "
+    :confirm-text="t('admin.maintenanceSettings.pickerConfirmText')"
+    @refresh="emit('refresh')"
+    @select="emit('select', $event)"
+  />
+</template>

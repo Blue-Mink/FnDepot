@@ -1,1 +1,51 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBlbnN1cmVfZ29fc3VjY2VzcygKICAgIHZhbHVlOiBWYWx1ZSwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgZmFsbGJhY2tfa2V5OiAmc3RyLAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBjcmF0ZTo6Z29fYmFja2VuZDo6ZW5zdXJlX3Jlc3BvbnNlX3N1Y2Nlc3MoJnZhbHVlLCAmc3NoX3NlY3VyaXR5X3RleHQodHJhbnNsYXRvciwgZmFsbGJhY2tfa2V5KSkKICAgICAgICAubWFwX2Vycihhbnlob3c6OkVycm9yOjptc2cpCn0KCnB1YihzdXBlcikgZm4gc3NoX3NlY3VyaXR5X2F2YWlsYWJpbGl0eSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBTc2hBdmFpbGFiaWxpdHkgewogICAgbGV0IGxvZ19zb3VyY2UgPSBkZXRlY3RfbG9nX3NvdXJjZSgpOwogICAgbGV0IHRhcmdldCA9IHJ1bnRpbWVfcHJvZmlsZTo6ZGVwbG95bWVudF90YXJnZXQoc3RhdGUpOwogICAgaWYgdGFyZ2V0ID09ICJvcGVud3J0IiB7CiAgICAgICAgcmV0dXJuIFNzaEF2YWlsYWJpbGl0eSB7CiAgICAgICAgICAgIGF2YWlsYWJsZTogZmFsc2UsCiAgICAgICAgICAgIHJlYXNvbjogc3NoX3NlY3VyaXR5X3RleHQodHJhbnNsYXRvciwgIm9wZW5XcnRVbnN1cHBvcnRlZCIpLAogICAgICAgICAgICBsb2dfc291cmNlLAogICAgICAgIH07CiAgICB9CiAgICBpZiAhaG9zdF9maXJld2FsbF9hdmFpbGFibGUoc3RhdGUpIHsKICAgICAgICBsZXQgcHJvZmlsZSA9IHJ1bnRpbWVfcHJvZmlsZTo6Z2V0X3J1bnRpbWVfcHJvZmlsZShzdGF0ZSk7CiAgICAgICAgcmV0dXJuIFNzaEF2YWlsYWJpbGl0eSB7CiAgICAgICAgICAgIGF2YWlsYWJsZTogZmFsc2UsCiAgICAgICAgICAgIHJlYXNvbjogcnVudGltZV9wcm9maWxlOjpjYXBhYmlsaXR5X3VuYXZhaWxhYmxlX21lc3NhZ2UoCiAgICAgICAgICAgICAgICAiaG9zdF9maXJld2FsbF9hdmFpbGFibGUiLAogICAgICAgICAgICAgICAgJnByb2ZpbGUsCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICApLAogICAgICAgICAgICBsb2dfc291cmNlLAogICAgICAgIH07CiAgICB9CiAgICBpZiBsb2dfc291cmNlID09ICJ1bmF2YWlsYWJsZSIgewogICAgICAgIHJldHVybiBTc2hBdmFpbGFiaWxpdHkgewogICAgICAgICAgICBhdmFpbGFibGU6IGZhbHNlLAogICAgICAgICAgICByZWFzb246IHNzaF9zZWN1cml0eV90ZXh0KHRyYW5zbGF0b3IsICJsb2dTb3VyY2VVbmF2YWlsYWJsZSIpLAogICAgICAgICAgICBsb2dfc291cmNlLAogICAgICAgIH07CiAgICB9CiAgICBTc2hBdmFpbGFiaWxpdHkgewogICAgICAgIGF2YWlsYWJsZTogdHJ1ZSwKICAgICAgICByZWFzb246IFN0cmluZzo6bmV3KCksCiAgICAgICAgbG9nX3NvdXJjZSwKICAgIH0KfQoKcHViKHN1cGVyKSB1c2UgY3JhdGU6OnJ1bnRpbWVfcHJvZmlsZTo6aG9zdF9maXJld2FsbF9hdmFpbGFibGU7Cg==
+use super::*;
+
+pub(super) fn ensure_go_success(
+    value: Value,
+    translator: &Translator,
+    fallback_key: &str,
+) -> anyhow::Result<()> {
+    crate::go_backend::ensure_response_success(&value, &ssh_security_text(translator, fallback_key))
+        .map_err(anyhow::Error::msg)
+}
+
+pub(super) fn ssh_security_availability(
+    state: &AppState,
+    translator: &Translator,
+) -> SshAvailability {
+    let log_source = detect_log_source();
+    let target = runtime_profile::deployment_target(state);
+    if target == "openwrt" {
+        return SshAvailability {
+            available: false,
+            reason: ssh_security_text(translator, "openWrtUnsupported"),
+            log_source,
+        };
+    }
+    if !host_firewall_available(state) {
+        let profile = runtime_profile::get_runtime_profile(state);
+        return SshAvailability {
+            available: false,
+            reason: runtime_profile::capability_unavailable_message(
+                "host_firewall_available",
+                &profile,
+                translator,
+            ),
+            log_source,
+        };
+    }
+    if log_source == "unavailable" {
+        return SshAvailability {
+            available: false,
+            reason: ssh_security_text(translator, "logSourceUnavailable"),
+            log_source,
+        };
+    }
+    SshAvailability {
+        available: true,
+        reason: String::new(),
+        log_source,
+    }
+}
+
+pub(super) use crate::runtime_profile::host_firewall_available;

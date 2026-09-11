@@ -1,1 +1,25 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEFsZXJ0VHJpYW5nbGUgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBBbGVydCwgQWxlcnREZXNjcmlwdGlvbiwgQWxlcnRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9hbGVydCI7CgpkZWZpbmVQcm9wczx7CiAgbWVzc2FnZTogc3RyaW5nOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxBbGVydAogICAgdi1pZj0ibWVzc2FnZSIKICAgIHZhcmlhbnQ9ImRlc3RydWN0aXZlIgogICAgY2xhc3M9InNocmluay0wIGJvcmRlci1kZXN0cnVjdGl2ZS80MCIKICA+CiAgICA8QWxlcnRUcmlhbmdsZSBjbGFzcz0iaC00IHctNCIgLz4KICAgIDxBbGVydFRpdGxlPgogICAgICB7eyB0KCJhZG1pbi53ZWJUZXJtaW5hbC5jb25uZWN0aW9uRXJyb3JUaXRsZSIpIH19CiAgICA8L0FsZXJ0VGl0bGU+CiAgICA8QWxlcnREZXNjcmlwdGlvbj57eyBtZXNzYWdlIH19PC9BbGVydERlc2NyaXB0aW9uPgogIDwvQWxlcnQ+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { AlertTriangle } from "lucide-vue-next";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+
+defineProps<{
+  message: string;
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <Alert
+    v-if="message"
+    variant="destructive"
+    class="shrink-0 border-destructive/40"
+  >
+    <AlertTriangle class="h-4 w-4" />
+    <AlertTitle>
+      {{ t("admin.webTerminal.connectionErrorTitle") }}
+    </AlertTitle>
+    <AlertDescription>{{ message }}</AlertDescription>
+  </Alert>
+</template>

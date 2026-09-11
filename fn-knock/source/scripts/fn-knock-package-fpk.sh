@@ -1,1 +1,180 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4iICYmIHB3ZCkiCnNvdXJjZSAiJHtST09UX0RJUn0vc2NyaXB0cy92ZXJzaW9uLnNoIgoKQVJUSUZBQ1RTX0RJUj0iJHtGTl9LTk9DS19BUlRJRkFDVFNfRElSOi0ke1JPT1RfRElSfS9kaXN0L2ZuLWtub2NrLWFydGlmYWN0c30iClJVTlRJTUVfRElSPSIke0ZOX0tOT0NLX1BSRVBBUkVEX1JVTlRJTUVfRElSOi0ke0FSVElGQUNUU19ESVJ9L3J1bnRpbWV9IgpSVVNUX0RJUj0iJHtGTl9LTk9DS19QUkVQQVJFRF9GUEtfUlVTVF9CQUNLRU5EX0RJUjotJHtBUlRJRkFDVFNfRElSfS9mcGstcnVzdC1iYWNrZW5kc30iClNPVVJDRV9ESVI9IiR7Rk5fS05PQ0tfRlBLX1NPVVJDRV9ESVI6LSR7Uk9PVF9ESVJ9L2FwcHMvZm4ta25vY2t9IgpPVVRQVVRfRElSPSIke0ZOX0tOT0NLX0ZQS19PVVRQVVRfRElSOi0ke0FSVElGQUNUU19ESVJ9L2Zwa30iCkZOUEFDS19CSU49IiR7Rk5fS05PQ0tfRk5QQUNLX0JJTjotZm5wYWNrfSIKVkVSU0lPTj0iJChmbl9rbm9ja19hcHBfdmVyc2lvbiAiJHtST09UX0RJUn0iKSIKV09SS19ESVI9IiIKCmxvZygpIHsKICBwcmludGYgJ1tmbi1rbm9jay1mcGtdICVzXG4nICIkKiIKfQoKZmFpbCgpIHsKICBwcmludGYgJ1tmbi1rbm9jay1mcGtdIEVSUk9SOiAlc1xuJyAiJCoiID4mMgogIGV4aXQgMQp9CgpjbGVhbnVwKCkgewogIGlmIFsgLW4gIiR7V09SS19ESVJ9IiBdICYmIFsgLWQgIiR7V09SS19ESVJ9IiBdOyB0aGVuCiAgICBybSAtcmYgIiR7V09SS19ESVJ9IgogIGZpCn0KCnZhbGlkYXRlX2VsZl9hcmNoKCkgewogIGxvY2FsIHBhdGg9IiQxIgogIGxvY2FsIGFyY2g9IiQyIgogIGxvY2FsIGluZm8KCiAgWyAtZiAiJHtwYXRofSIgXSB8fCBmYWlsICJtaXNzaW5nIGJpbmFyeTogJHtwYXRofSIKICBpbmZvPSIkKGZpbGUgLWIgIiR7cGF0aH0iKSIKICBjYXNlICIke2FyY2h9IiBpbgogICAgYW1kNjQpCiAgICAgIHByaW50ZiAnJXNcbicgIiR7aW5mb30iIHwgZ3JlcCAtRXEgJ0VMRiA2NC1iaXQgTFNCLip4ODYtNjQnIHx8IFwKICAgICAgICBmYWlsICIke3BhdGh9IGlzIG5vdCBMaW51eCBhbWQ2NDogJHtpbmZvfSIKICAgICAgOzsKICAgIGFybTY0KQogICAgICBwcmludGYgJyVzXG4nICIke2luZm99IiB8IGdyZXAgLUVxICdFTEYgNjQtYml0IExTQi4qKEFSTSBhYXJjaDY0fGFhcmNoNjQpJyB8fCBcCiAgICAgICAgZmFpbCAiJHtwYXRofSBpcyBub3QgTGludXggYXJtNjQ6ICR7aW5mb30iCiAgICAgIDs7CiAgICAqKQogICAgICBmYWlsICJ1bnN1cHBvcnRlZCBGUEsgYXJjaGl0ZWN0dXJlOiAke2FyY2h9IgogICAgICA7OwogIGVzYWMKfQoKcmV3cml0ZV9tYW5pZmVzdCgpIHsKICBsb2NhbCBtYW5pZmVzdD0iJDEiCiAgbG9jYWwgcGxhdGZvcm09IiQyIgogIGxvY2FsIHRlbXA9IiR7bWFuaWZlc3R9LnRtcCIKCiAgYXdrIC12IHZlcnNpb249IiR7VkVSU0lPTn0iIC12IHBsYXRmb3JtPSIke3BsYXRmb3JtfSIgJwogICAgL152ZXJzaW9uPS8geyBwcmludCAidmVyc2lvbj0iIHZlcnNpb247IG5leHQgfQogICAgL15wbGF0Zm9ybT0vIHsgcHJpbnQgInBsYXRmb3JtPSIgcGxhdGZvcm07IG5leHQgfQogICAgeyBwcmludCB9CiAgJyAiJHttYW5pZmVzdH0iID4gIiR7dGVtcH0iCiAgbXYgIiR7dGVtcH0iICIke21hbmlmZXN0fSIKfQoKdmFsaWRhdGVfZnBrKCkgewogIGxvY2FsIGZwaz0iJDEiCiAgbG9jYWwgYXJjaD0iJDIiCiAgbG9jYWwgcGxhdGZvcm09IiQzIgogIGxvY2FsIGluc3BlY3RfZGlyPSIkNCIKICBsb2NhbCBsaXN0aW5nCiAgbG9jYWwgbWFuaWZlc3QKICBsb2NhbCBnYXRld2F5CgogIFsgLXMgIiR7ZnBrfSIgXSB8fCBmYWlsICJmbnBhY2sgZGlkIG5vdCBwcm9kdWNlICR7ZnBrfSIKICBtYW5pZmVzdD0iJCh0YXIgLXhPemYgIiR7ZnBrfSIgbWFuaWZlc3QpIiB8fCBmYWlsICJjYW5ub3QgcmVhZCBGUEsgbWFuaWZlc3Q6ICR7ZnBrfSIKICBwcmludGYgJyVzXG4nICIke21hbmlmZXN0fSIgfCBncmVwIC1FcSAnXmFwcG5hbWVbWzpzcGFjZTpdXSo9W1s6c3BhY2U6XV0qZm4ta25vY2tbWzpzcGFjZTpdXSokJyB8fCBcCiAgICBmYWlsICJ1bmV4cGVjdGVkIEZQSyBhcHBuYW1lIgogIHByaW50ZiAnJXNcbicgIiR7bWFuaWZlc3R9IiB8IGdyZXAgLUVxICJedmVyc2lvbltbOnNwYWNlOl1dKj1bWzpzcGFjZTpdXSoke1ZFUlNJT04vLy4vXFwufVtbOnNwYWNlOl1dKiQiIHx8IFwKICAgIGZhaWwgInVuZXhwZWN0ZWQgRlBLIHZlcnNpb24iCiAgcHJpbnRmICclc1xuJyAiJHttYW5pZmVzdH0iIHwgZ3JlcCAtRXEgIl5wbGF0Zm9ybVtbOnNwYWNlOl1dKj1bWzpzcGFjZTpdXSoke3BsYXRmb3JtfVtbOnNwYWNlOl1dKiQiIHx8IFwKICAgIGZhaWwgInVuZXhwZWN0ZWQgRlBLIHBsYXRmb3JtIgoKICBta2RpciAtcCAiJHtpbnNwZWN0X2Rpcn0iCiAgdGFyIC14T3pmICIke2Zwa30iIGFwcC50Z3ogPiAiJHtpbnNwZWN0X2Rpcn0vYXBwLnRneiIKICB0YXIgLXh6ZiAiJHtpbnNwZWN0X2Rpcn0vYXBwLnRneiIgLUMgIiR7aW5zcGVjdF9kaXJ9IgogIGxpc3Rpbmc9IiQodGFyIC10emYgIiR7aW5zcGVjdF9kaXJ9L2FwcC50Z3oiIHwgc2VkICdzI15cLi8jIycpIgogIHByaW50ZiAnJXNcbicgIiR7bGlzdGluZ30iIHwgZ3JlcCAtcXggJ3NlcnZlci9zZXJ2ZXItYWRtaW4tcnMnIHx8IGZhaWwgIkZQSyBpcyBtaXNzaW5nIFJ1c3QgYmFja2VuZCIKICBwcmludGYgJyVzXG4nICIke2xpc3Rpbmd9IiB8IGdyZXAgLXF4ICJzZXJ2ZXIvZ28tcmVhdXRoLXByb3h5LWxpbnV4LSR7YXJjaH0iIHx8IFwKICAgIGZhaWwgIkZQSyBpcyBtaXNzaW5nIEdvIGdhdGV3YXkgJHthcmNofSIKICBpZiBbICIkKHByaW50ZiAnJXNcbicgIiR7bGlzdGluZ30iIHwgZ3JlcCAtRWMgJ15zZXJ2ZXIvZ28tcmVhdXRoLXByb3h5LWxpbnV4LScgfHwgdHJ1ZSkiIC1uZSAxIF07IHRoZW4KICAgIGZhaWwgIkZQSyBjb250YWlucyBnYXRld2F5cyBmb3IgbW9yZSB0aGFuIG9uZSBhcmNoaXRlY3R1cmUiCiAgZmkKICBpZiBwcmludGYgJyVzXG4nICIke2xpc3Rpbmd9IiB8IGdyZXAgLUVxICcoXnwvKVwuRFNfU3RvcmUkfChefC8pXC5fJzsgdGhlbgogICAgZmFpbCAiRlBLIGNvbnRhaW5zIG1hY09TIG1ldGFkYXRhIGZpbGVzIgogIGZpCiAgaWYgISBwcmludGYgJyVzXG4nICIke2xpc3Rpbmd9IiB8IFwKICAgIGdyZXAgLUVxICJedWkvd3d3L2Fzc2V0cy92JHtWRVJTSU9OLy8uL1xcLn0vW14vXSskIjsgdGhlbgogICAgZmFpbCAiRlBLIGlzIG1pc3NpbmcgdGhlIHZlcnNpb25lZCBhZG1pbiBhc3NldCBuYW1lc3BhY2UgZm9yICR7VkVSU0lPTn0iCiAgZmkKCiAgZ2F0ZXdheT0iJHtpbnNwZWN0X2Rpcn0vc2VydmVyL2dvLXJlYXV0aC1wcm94eS1saW51eC0ke2FyY2h9IgogIHZhbGlkYXRlX2VsZl9hcmNoICIke2luc3BlY3RfZGlyfS9zZXJ2ZXIvc2VydmVyLWFkbWluLXJzIiAiJHthcmNofSIKICB2YWxpZGF0ZV9lbGZfYXJjaCAiJHtnYXRld2F5fSIgIiR7YXJjaH0iCn0KCmJ1aWxkX2FyY2goKSB7CiAgbG9jYWwgYXJjaD0iJDEiCiAgbG9jYWwgcGxhdGZvcm09IiQyIgogIGxvY2FsIHN0YWdlPSIke1dPUktfRElSfS9zdGFnZS0ke2FyY2h9IgogIGxvY2FsIGluc3BlY3Q9IiR7V09SS19ESVJ9L2luc3BlY3QtJHthcmNofSIKICBsb2NhbCBidWlsdAogIGxvY2FsIG91dHB1dD0iJHtPVVRQVVRfRElSfS9mbi1rbm9jay0ke1ZFUlNJT059LWZub3MtJHthcmNofS5mcGsiCgogIG1rZGlyIC1wICIke3N0YWdlfSIKICByc3luYyAtYSBcCiAgICAtLWV4Y2x1ZGUgZGlzdCBcCiAgICAtLWV4Y2x1ZGUgJyouZnBrJyBcCiAgICAtLWV4Y2x1ZGUgJy5EU19TdG9yZScgXAogICAgLS1leGNsdWRlICcuXyonIFwKICAgIC0tZXhjbHVkZSAnYXBwL3VpL3d3dycgXAogICAgLS1leGNsdWRlICdhcHAvc2VydmVyLWF1dGgtdmlldy9kaXN0JyBcCiAgICAtLWV4Y2x1ZGUgJ2FwcC9zZXJ2ZXIvc2VydmVyLWFkbWluJyBcCiAgICAtLWV4Y2x1ZGUgJ2FwcC9zZXJ2ZXIvZ28tcmVhdXRoLXByb3h5LWxpbnV4LSonIFwKICAgIC0tZXhjbHVkZSAnYXBwL3NlcnZlci9zZXJ2ZXItYWRtaW4tcnMqJyBcCiAgICAiJHtTT1VSQ0VfRElSfS8iICIke3N0YWdlfS8iCgogIG1rZGlyIC1wIFwKICAgICIke3N0YWdlfS9hcHAvdWkvd3d3IiBcCiAgICAiJHtzdGFnZX0vYXBwL3NlcnZlci1hdXRoLXZpZXcvZGlzdCIgXAogICAgIiR7c3RhZ2V9L2FwcC9zZXJ2ZXIvc2VydmVyLWFkbWluL3Jlc291cmNlcyIgXAogICAgIiR7c3RhZ2V9L2FwcC9zZXJ2ZXIiCiAgIyBUaGUgRlBLIHBheWxvYWQgaXMgYWxyZWFkeSBnemlwLWNvbXByZXNzZWQgYXMgYXBwLnRnei4gU2hpcHBpbmcgcmF3LAogICMgQnJvdGxpLCBhbmQgZ3ppcCBjb3BpZXMgb2YgZXZlcnkgd2ViIGFzc2V0IGFkZHMgYSB0aGlyZCBsYXJnZWx5CiAgIyBpbmNvbXByZXNzaWJsZSBjb3B5LiBLZWVwIEJyb3RsaSBmb3IgbW9kZXJuIGNsaWVudHMgYW5kIHRoZSByYXcgZmlsZSBhcwogICMgdGhlIHVuaXZlcnNhbCBmYWxsYmFjazsgb21pdCBvbmx5IHRoZSByZWR1bmRhbnQgZ3ppcCBzaWRlY2FycyBmcm9tIEZQS3MuCiAgcnN5bmMgLWEgLS1leGNsdWRlICcqLmd6JyAiJHtSVU5USU1FX0RJUn0vdWkvd3d3LyIgIiR7c3RhZ2V9L2FwcC91aS93d3cvIgogIHJzeW5jIC1hIC0tZXhjbHVkZSAnKi5neicgXAogICAgIiR7UlVOVElNRV9ESVJ9L3NlcnZlci1hdXRoLXZpZXcvZGlzdC8iICIke3N0YWdlfS9hcHAvc2VydmVyLWF1dGgtdmlldy9kaXN0LyIKICBjcCAiJHtSVU5USU1FX0RJUn0vc2VydmVyL3NlcnZlci1hZG1pbi9yZXNvdXJjZXMvYWNtZXNoLnppcCIgXAogICAgIiR7c3RhZ2V9L2FwcC9zZXJ2ZXIvc2VydmVyLWFkbWluL3Jlc291cmNlcy9hY21lc2guemlwIgogIGNwICIke1JVTlRJTUVfRElSfS9zZXJ2ZXIvZ28tcmVhdXRoLXByb3h5LWxpbnV4LSR7YXJjaH0iIFwKICAgICIke3N0YWdlfS9hcHAvc2VydmVyL2dvLXJlYXV0aC1wcm94eS1saW51eC0ke2FyY2h9IgogIGNwICIke1JVU1RfRElSfS9zZXJ2ZXItYWRtaW4tcnMtbGludXgtJHthcmNofSIgIiR7c3RhZ2V9L2FwcC9zZXJ2ZXIvc2VydmVyLWFkbWluLXJzIgoKICBjaG1vZCA3NTUgXAogICAgIiR7c3RhZ2V9L2NtZC9tYWluIiBcCiAgICAiJHtzdGFnZX0vYXBwL3VpL2luZGV4LmNnaSIgXAogICAgIiR7c3RhZ2V9L2FwcC9zZXJ2ZXIvZ28tcmVhdXRoLXByb3h5LWxpbnV4LSR7YXJjaH0iIFwKICAgICIke3N0YWdlfS9hcHAvc2VydmVyL3NlcnZlci1hZG1pbi1ycyIKICB2YWxpZGF0ZV9lbGZfYXJjaCAiJHtzdGFnZX0vYXBwL3NlcnZlci9nby1yZWF1dGgtcHJveHktbGludXgtJHthcmNofSIgIiR7YXJjaH0iCiAgdmFsaWRhdGVfZWxmX2FyY2ggIiR7c3RhZ2V9L2FwcC9zZXJ2ZXIvc2VydmVyLWFkbWluLXJzIiAiJHthcmNofSIKICByZXdyaXRlX21hbmlmZXN0ICIke3N0YWdlfS9tYW5pZmVzdCIgIiR7cGxhdGZvcm19IgoKICAoCiAgICBjZCAiJHtzdGFnZX0iCiAgICAiJHtGTlBBQ0tfQklOfSIgYnVpbGQgLWQgLgogICkKICBidWlsdD0iJHtzdGFnZX0vZm4ta25vY2suZnBrIgogIFsgLWYgIiR7YnVpbHR9IiBdIHx8IGJ1aWx0PSIkKGZpbmQgIiR7c3RhZ2V9IiAtbWF4ZGVwdGggMSAtdHlwZSBmIC1uYW1lICcqLmZwaycgfCBoZWFkIC1uMSkiCiAgWyAtbiAiJHtidWlsdH0iIF0gfHwgZmFpbCAidW5hYmxlIHRvIGxvY2F0ZSBmbnBhY2sgb3V0cHV0IGZvciAke2FyY2h9IgogIG12ICIke2J1aWx0fSIgIiR7b3V0cHV0fSIKICB2YWxpZGF0ZV9mcGsgIiR7b3V0cHV0fSIgIiR7YXJjaH0iICIke3BsYXRmb3JtfSIgIiR7aW5zcGVjdH0iCiAgbG9nICJidWlsdCAke291dHB1dH0iCn0KCmNvbW1hbmQgLXYgZmlsZSA+L2Rldi9udWxsIDI+JjEgfHwgZmFpbCAibWlzc2luZyByZXF1aXJlZCBjb21tYW5kOiBmaWxlIgpjb21tYW5kIC12IHJzeW5jID4vZGV2L251bGwgMj4mMSB8fCBmYWlsICJtaXNzaW5nIHJlcXVpcmVkIGNvbW1hbmQ6IHJzeW5jIgpjb21tYW5kIC12IHRhciA+L2Rldi9udWxsIDI+JjEgfHwgZmFpbCAibWlzc2luZyByZXF1aXJlZCBjb21tYW5kOiB0YXIiCmNvbW1hbmQgLXYgIiR7Rk5QQUNLX0JJTn0iID4vZGV2L251bGwgMj4mMSB8fCBmYWlsICJtaXNzaW5nIGZucGFjayBiaW5hcnk6ICR7Rk5QQUNLX0JJTn0iClsgLWQgIiR7UlVOVElNRV9ESVJ9L3VpL3d3dyIgXSB8fCBmYWlsICJtaXNzaW5nIHByZXBhcmVkIGFkbWluIFVJOiAke1JVTlRJTUVfRElSfSIKWyAtZCAiJHtSVU5USU1FX0RJUn0vc2VydmVyLWF1dGgtdmlldy9kaXN0IiBdIHx8IGZhaWwgIm1pc3NpbmcgcHJlcGFyZWQgYXV0aCBVSTogJHtSVU5USU1FX0RJUn0iCgpta2RpciAtcCAiJHtPVVRQVVRfRElSfSIKcm0gLWYgIiR7T1VUUFVUX0RJUn0iL2ZuLWtub2NrLSotZm5vcy0qLmZwawpXT1JLX0RJUj0iJChta3RlbXAgLWQgIiR7VE1QRElSOi0vdG1wfS9mbi1rbm9jay1mcGsuWFhYWFhYIikiCnRyYXAgY2xlYW51cCBFWElUCgpidWlsZF9hcmNoIGFtZDY0IHg4NgpidWlsZF9hcmNoIGFybTY0IGFybQo=
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+source "${ROOT_DIR}/scripts/version.sh"
+
+ARTIFACTS_DIR="${FN_KNOCK_ARTIFACTS_DIR:-${ROOT_DIR}/dist/fn-knock-artifacts}"
+RUNTIME_DIR="${FN_KNOCK_PREPARED_RUNTIME_DIR:-${ARTIFACTS_DIR}/runtime}"
+RUST_DIR="${FN_KNOCK_PREPARED_FPK_RUST_BACKEND_DIR:-${ARTIFACTS_DIR}/fpk-rust-backends}"
+SOURCE_DIR="${FN_KNOCK_FPK_SOURCE_DIR:-${ROOT_DIR}/apps/fn-knock}"
+OUTPUT_DIR="${FN_KNOCK_FPK_OUTPUT_DIR:-${ARTIFACTS_DIR}/fpk}"
+FNPACK_BIN="${FN_KNOCK_FNPACK_BIN:-fnpack}"
+VERSION="$(fn_knock_app_version "${ROOT_DIR}")"
+WORK_DIR=""
+
+log() {
+  printf '[fn-knock-fpk] %s\n' "$*"
+}
+
+fail() {
+  printf '[fn-knock-fpk] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+cleanup() {
+  if [ -n "${WORK_DIR}" ] && [ -d "${WORK_DIR}" ]; then
+    rm -rf "${WORK_DIR}"
+  fi
+}
+
+validate_elf_arch() {
+  local path="$1"
+  local arch="$2"
+  local info
+
+  [ -f "${path}" ] || fail "missing binary: ${path}"
+  info="$(file -b "${path}")"
+  case "${arch}" in
+    amd64)
+      printf '%s\n' "${info}" | grep -Eq 'ELF 64-bit LSB.*x86-64' || \
+        fail "${path} is not Linux amd64: ${info}"
+      ;;
+    arm64)
+      printf '%s\n' "${info}" | grep -Eq 'ELF 64-bit LSB.*(ARM aarch64|aarch64)' || \
+        fail "${path} is not Linux arm64: ${info}"
+      ;;
+    *)
+      fail "unsupported FPK architecture: ${arch}"
+      ;;
+  esac
+}
+
+rewrite_manifest() {
+  local manifest="$1"
+  local platform="$2"
+  local temp="${manifest}.tmp"
+
+  awk -v version="${VERSION}" -v platform="${platform}" '
+    /^version=/ { print "version=" version; next }
+    /^platform=/ { print "platform=" platform; next }
+    { print }
+  ' "${manifest}" > "${temp}"
+  mv "${temp}" "${manifest}"
+}
+
+validate_fpk() {
+  local fpk="$1"
+  local arch="$2"
+  local platform="$3"
+  local inspect_dir="$4"
+  local listing
+  local manifest
+  local gateway
+
+  [ -s "${fpk}" ] || fail "fnpack did not produce ${fpk}"
+  manifest="$(tar -xOzf "${fpk}" manifest)" || fail "cannot read FPK manifest: ${fpk}"
+  printf '%s\n' "${manifest}" | grep -Eq '^appname[[:space:]]*=[[:space:]]*fn-knock[[:space:]]*$' || \
+    fail "unexpected FPK appname"
+  printf '%s\n' "${manifest}" | grep -Eq "^version[[:space:]]*=[[:space:]]*${VERSION//./\\.}[[:space:]]*$" || \
+    fail "unexpected FPK version"
+  printf '%s\n' "${manifest}" | grep -Eq "^platform[[:space:]]*=[[:space:]]*${platform}[[:space:]]*$" || \
+    fail "unexpected FPK platform"
+
+  mkdir -p "${inspect_dir}"
+  tar -xOzf "${fpk}" app.tgz > "${inspect_dir}/app.tgz"
+  tar -xzf "${inspect_dir}/app.tgz" -C "${inspect_dir}"
+  listing="$(tar -tzf "${inspect_dir}/app.tgz" | sed 's#^\./##')"
+  printf '%s\n' "${listing}" | grep -qx 'server/server-admin-rs' || fail "FPK is missing Rust backend"
+  printf '%s\n' "${listing}" | grep -qx "server/go-reauth-proxy-linux-${arch}" || \
+    fail "FPK is missing Go gateway ${arch}"
+  if [ "$(printf '%s\n' "${listing}" | grep -Ec '^server/go-reauth-proxy-linux-' || true)" -ne 1 ]; then
+    fail "FPK contains gateways for more than one architecture"
+  fi
+  if printf '%s\n' "${listing}" | grep -Eq '(^|/)\.DS_Store$|(^|/)\._'; then
+    fail "FPK contains macOS metadata files"
+  fi
+  if ! printf '%s\n' "${listing}" | \
+    grep -Eq "^ui/www/assets/v${VERSION//./\\.}/[^/]+$"; then
+    fail "FPK is missing the versioned admin asset namespace for ${VERSION}"
+  fi
+
+  gateway="${inspect_dir}/server/go-reauth-proxy-linux-${arch}"
+  validate_elf_arch "${inspect_dir}/server/server-admin-rs" "${arch}"
+  validate_elf_arch "${gateway}" "${arch}"
+}
+
+build_arch() {
+  local arch="$1"
+  local platform="$2"
+  local stage="${WORK_DIR}/stage-${arch}"
+  local inspect="${WORK_DIR}/inspect-${arch}"
+  local built
+  local output="${OUTPUT_DIR}/fn-knock-${VERSION}-fnos-${arch}.fpk"
+
+  mkdir -p "${stage}"
+  rsync -a \
+    --exclude dist \
+    --exclude '*.fpk' \
+    --exclude '.DS_Store' \
+    --exclude '._*' \
+    --exclude 'app/ui/www' \
+    --exclude 'app/server-auth-view/dist' \
+    --exclude 'app/server/server-admin' \
+    --exclude 'app/server/go-reauth-proxy-linux-*' \
+    --exclude 'app/server/server-admin-rs*' \
+    "${SOURCE_DIR}/" "${stage}/"
+
+  mkdir -p \
+    "${stage}/app/ui/www" \
+    "${stage}/app/server-auth-view/dist" \
+    "${stage}/app/server/server-admin/resources" \
+    "${stage}/app/server"
+  # The FPK payload is already gzip-compressed as app.tgz. Shipping raw,
+  # Brotli, and gzip copies of every web asset adds a third largely
+  # incompressible copy. Keep Brotli for modern clients and the raw file as
+  # the universal fallback; omit only the redundant gzip sidecars from FPKs.
+  rsync -a --exclude '*.gz' "${RUNTIME_DIR}/ui/www/" "${stage}/app/ui/www/"
+  rsync -a --exclude '*.gz' \
+    "${RUNTIME_DIR}/server-auth-view/dist/" "${stage}/app/server-auth-view/dist/"
+  cp "${RUNTIME_DIR}/server/server-admin/resources/acmesh.zip" \
+    "${stage}/app/server/server-admin/resources/acmesh.zip"
+  cp "${RUNTIME_DIR}/server/go-reauth-proxy-linux-${arch}" \
+    "${stage}/app/server/go-reauth-proxy-linux-${arch}"
+  cp "${RUST_DIR}/server-admin-rs-linux-${arch}" "${stage}/app/server/server-admin-rs"
+
+  chmod 755 \
+    "${stage}/cmd/main" \
+    "${stage}/app/ui/index.cgi" \
+    "${stage}/app/server/go-reauth-proxy-linux-${arch}" \
+    "${stage}/app/server/server-admin-rs"
+  validate_elf_arch "${stage}/app/server/go-reauth-proxy-linux-${arch}" "${arch}"
+  validate_elf_arch "${stage}/app/server/server-admin-rs" "${arch}"
+  rewrite_manifest "${stage}/manifest" "${platform}"
+
+  (
+    cd "${stage}"
+    "${FNPACK_BIN}" build -d .
+  )
+  built="${stage}/fn-knock.fpk"
+  [ -f "${built}" ] || built="$(find "${stage}" -maxdepth 1 -type f -name '*.fpk' | head -n1)"
+  [ -n "${built}" ] || fail "unable to locate fnpack output for ${arch}"
+  mv "${built}" "${output}"
+  validate_fpk "${output}" "${arch}" "${platform}" "${inspect}"
+  log "built ${output}"
+}
+
+command -v file >/dev/null 2>&1 || fail "missing required command: file"
+command -v rsync >/dev/null 2>&1 || fail "missing required command: rsync"
+command -v tar >/dev/null 2>&1 || fail "missing required command: tar"
+command -v "${FNPACK_BIN}" >/dev/null 2>&1 || fail "missing fnpack binary: ${FNPACK_BIN}"
+[ -d "${RUNTIME_DIR}/ui/www" ] || fail "missing prepared admin UI: ${RUNTIME_DIR}"
+[ -d "${RUNTIME_DIR}/server-auth-view/dist" ] || fail "missing prepared auth UI: ${RUNTIME_DIR}"
+
+mkdir -p "${OUTPUT_DIR}"
+rm -f "${OUTPUT_DIR}"/fn-knock-*-fnos-*.fpk
+WORK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/fn-knock-fpk.XXXXXX")"
+trap cleanup EXIT
+
+build_arch amd64 x86
+build_arch arm64 arm

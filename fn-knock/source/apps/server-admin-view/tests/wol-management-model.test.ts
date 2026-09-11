@@ -1,1 +1,167 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgdHlwZSB7CiAgV09MRGlzY292ZXJ5UG9sbEV2ZW50LAogIFdPTFRhcmdldCwKICBXT0xUYXJnZXRTc2hJbnB1dCwKfSBmcm9tICIuLi9zcmMvbGliL2FwaS93b2wiOwppbXBvcnQgewogIGNhblNodXRkb3duV29sVGFyZ2V0LAogIGNoYW5nZVdvbFNzaEF1dGhNZXRob2QsCiAgY3JlYXRlV29sTG9jYWxSZWxheUlucHV0LAogIGNyZWF0ZVdvbFRhcmdldElucHV0LAogIHJlZHVjZVdvbERpc2NvdmVyeUV2ZW50LAogIHVwZGF0ZVBlbmRpbmdJZHMsCiAgd29sVGFyZ2V0VG9FZGl0SW5wdXQsCn0gZnJvbSAiLi4vc3JjL3ZpZXdzL3dvbC1tYW5hZ2VtZW50L3dvbC1tYW5hZ2VtZW50LW1vZGVsIjsKCmRlc2NyaWJlKCJXYWtlLW9uLUxBTiBtYW5hZ2VtZW50IG1vZGVsIiwgKCkgPT4gewogIGl0KCJjcmVhdGVzIHNlY3JldC1mcmVlIGZvcm1zIHdpdGggZXhwbGljaXQgZGVsaXZlcnkgZGVmYXVsdHMiLCAoKSA9PiB7CiAgICBhc3NlcnQuZGVlcEVxdWFsKGNyZWF0ZVdvbFRhcmdldElucHV0KCJPZmZpY2UgUEMiKSwgewogICAgICBuYW1lOiAiT2ZmaWNlIFBDIiwKICAgICAgbWFjOiAiIiwKICAgICAgcmVsYXlJZDogbnVsbCwKICAgICAgYnJvYWRjYXN0QWRkcmVzczogbnVsbCwKICAgICAgaXBBZGRyZXNzOiBudWxsLAogICAgICBlbmFibGVkOiB0cnVlLAogICAgICBpbnRlZ3JhdGlvbnM6IHVuZGVmaW5lZCwKICAgICAgc3NoOiB1bmRlZmluZWQsCiAgICB9KTsKICAgIGFzc2VydC5lcXVhbChjcmVhdGVXb2xMb2NhbFJlbGF5SW5wdXQoKS5wc2ssICIiKTsKICB9KTsKCiAgaXQoImNvbnZlcmdlcyBsZWdhY3kgZHVhbC1wcm92aWRlciB0YXJnZXRzIHRvIG9uZSBwcm92aWRlciBvbiBlZGl0IiwgKCkgPT4gewogICAgY29uc3QgdGFyZ2V0ID0gewogICAgICBpZDogInRhcmdldC0xIiwKICAgICAgbmFtZTogIk9mZmljZSBQQyIsCiAgICAgIG1hYzogIjAwOjExOjIyOjMzOjQ0OjU1IiwKICAgICAgcmVsYXlJZDogInJlbGF5LTEiLAogICAgICBicm9hZGNhc3RBZGRyZXNzOiAiMTkyLjAuMi4yNTUiLAogICAgICBpcEFkZHJlc3M6ICIxOTIuMC4yLjEwIiwKICAgICAgZW5hYmxlZDogdHJ1ZSwKICAgICAgaW50ZWdyYXRpb25zOiB7CiAgICAgICAgYmxpbmtlcjogewogICAgICAgICAgZW5hYmxlZDogdHJ1ZSwKICAgICAgICAgIGJpbmRDb21wb25lbnQ6ICJzd2l0Y2giLAogICAgICAgICAgY3JlZGVudGlhbENvbmZpZ3VyZWQ6IHRydWUsCiAgICAgICAgICBydW50aW1lOiB7fSwKICAgICAgICB9LAogICAgICAgIGJlbWZhOiB7CiAgICAgICAgICBlbmFibGVkOiB0cnVlLAogICAgICAgICAgdG9waWM6ICJvZmZpY2UtcGMiLAogICAgICAgICAgY3JlZGVudGlhbENvbmZpZ3VyZWQ6IHRydWUsCiAgICAgICAgICBydW50aW1lOiB7fSwKICAgICAgICB9LAogICAgICB9LAogICAgICBzc2g6IHsKICAgICAgICBlbmFibGVkOiBmYWxzZSwKICAgICAgICBob3N0OiAiIiwKICAgICAgICBwb3J0OiAyMiwKICAgICAgICB1c2VybmFtZTogIiIsCiAgICAgICAgcGxhdGZvcm06ICJsaW51eCIsCiAgICAgICAgYXV0aE1ldGhvZDogInByaXZhdGVLZXkiLAogICAgICAgIGhvc3RLZXlBbGdvcml0aG06ICIiLAogICAgICAgIGhvc3RLZXlGaW5nZXJwcmludDogIiIsCiAgICAgICAgY3JlZGVudGlhbENvbmZpZ3VyZWQ6IGZhbHNlLAogICAgICAgIHBhc3NwaHJhc2VDb25maWd1cmVkOiBmYWxzZSwKICAgICAgfSwKICAgIH0gYXMgdW5rbm93biBhcyBXT0xUYXJnZXQ7CgogICAgY29uc3QgZWRpdCA9IHdvbFRhcmdldFRvRWRpdElucHV0KHRhcmdldCk7CiAgICBhc3NlcnQuZXF1YWwoZWRpdC5pbnRlZ3JhdGlvbnM/LmJsaW5rZXIuZW5hYmxlZCwgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwoZWRpdC5pbnRlZ3JhdGlvbnM/LmJlbWZhLmVuYWJsZWQsIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbChlZGl0LmludGVncmF0aW9ucz8uYmxpbmtlci5kZXZpY2VLZXksICIiKTsKICAgIGFzc2VydC5lcXVhbChlZGl0LmludGVncmF0aW9ucz8uYmVtZmEucHJpdmF0ZUtleSwgIiIpOwogIH0pOwoKICBpdCgiZGVkdXBsaWNhdGVzIHN0cmVhbWVkIGRldmljZXMgYW5kIGtlZXBzIHRoZWlyIElQcyBuYXR1cmFsbHkgc29ydGVkIiwgKCkgPT4gewogICAgY29uc3QgbWV0YSA9IHsKICAgICAgdHlwZTogIm1ldGEiLAogICAgICBkYXRhOiB7CiAgICAgICAgbmV0d29ya3M6IFt7IGNpZHI6ICIxOTIuMC4yLjAvMjQiIH1dLAogICAgICAgIHByb2dyZXNzOiB7IHNjYW5uZWQ6IDAsIHRvdGFsOiAxMCB9LAogICAgICB9LAogICAgfSBhcyB1bmtub3duIGFzIFdPTERpc2NvdmVyeVBvbGxFdmVudDsKICAgIGxldCBzdGF0ZSA9IHJlZHVjZVdvbERpc2NvdmVyeUV2ZW50KHsgcHJvZ3Jlc3M6IG51bGwsIHJlc3VsdDogbnVsbCB9LCBtZXRhKTsKICAgIGZvciAoY29uc3QgW21hYywgaXBdIG9mIFsKICAgICAgWyIwMDowMDowMDowMDowMDoxMCIsICIxOTIuMC4yLjEwIl0sCiAgICAgIFsiMDA6MDA6MDA6MDA6MDA6MDIiLCAiMTkyLjAuMi4yIl0sCiAgICAgIFsiMDA6MDA6MDA6MDA6MDA6MTAiLCAiMTkyLjAuMi4zIl0sCiAgICBdKSB7CiAgICAgIHN0YXRlID0gcmVkdWNlV29sRGlzY292ZXJ5RXZlbnQoc3RhdGUsIHsKICAgICAgICB0eXBlOiAiZGV2aWNlIiwKICAgICAgICBkYXRhOiB7IG1hYywgaXAsIGJyb2FkY2FzdEFkZHJlc3M6ICIxOTIuMC4yLjI1NSIgfSwKICAgICAgfSBhcyB1bmtub3duIGFzIFdPTERpc2NvdmVyeVBvbGxFdmVudCk7CiAgICB9CgogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgc3RhdGUucmVzdWx0Py5kZXZpY2VzLm1hcCgoZGV2aWNlKSA9PiBbZGV2aWNlLm1hYywgZGV2aWNlLmlwXSksCiAgICAgIFsKICAgICAgICBbIjAwOjAwOjAwOjAwOjAwOjAyIiwgIjE5Mi4wLjIuMiJdLAogICAgICAgIFsiMDA6MDA6MDA6MDA6MDA6MTAiLCAiMTkyLjAuMi4zIl0sCiAgICAgIF0sCiAgICApOwogICAgYXNzZXJ0LnN0cmljdEVxdWFsKAogICAgICByZWR1Y2VXb2xEaXNjb3ZlcnlFdmVudChzdGF0ZSwgeyB0eXBlOiAiY2FuY2VsbGVkIiB9KSwKICAgICAgc3RhdGUsCiAgICApOwogIH0pOwoKICBpdCgidXBkYXRlcyBwZW5kaW5nIElEcyB3aXRob3V0IG11dGF0aW5nIHRoZSBwcmlvciBzZXQiLCAoKSA9PiB7CiAgICBjb25zdCBjdXJyZW50ID0gbmV3IFNldChbIm9uZSJdKTsKICAgIGNvbnN0IGFkZGVkID0gdXBkYXRlUGVuZGluZ0lkcyhjdXJyZW50LCAidHdvIiwgdHJ1ZSk7CiAgICBjb25zdCByZW1vdmVkID0gdXBkYXRlUGVuZGluZ0lkcyhhZGRlZCwgIm9uZSIsIGZhbHNlKTsKCiAgICBhc3NlcnQuZGVlcEVxdWFsKFsuLi5jdXJyZW50XSwgWyJvbmUiXSk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKFsuLi5hZGRlZF0sIFsib25lIiwgInR3byJdKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoWy4uLnJlbW92ZWRdLCBbInR3byJdKTsKICB9KTsKCiAgaXQoInJlcXVpcmVzIGZyZXNoIGNyZWRlbnRpYWxzIGFmdGVyIGNoYW5naW5nIFNTSCBhdXRoZW50aWNhdGlvbiBtZXRob2RzIiwgKCkgPT4gewogICAgY29uc3Qgc3NoOiBXT0xUYXJnZXRTc2hJbnB1dCA9IHsKICAgICAgZW5hYmxlZDogdHJ1ZSwKICAgICAgaG9zdDogIjE5Mi4wLjIuMTAiLAogICAgICBwb3J0OiAyMiwKICAgICAgdXNlcm5hbWU6ICJvcGVyYXRvciIsCiAgICAgIHBsYXRmb3JtOiAibGludXgiLAogICAgICBhdXRoTWV0aG9kOiAicHJpdmF0ZUtleSIsCiAgICAgIGhvc3RLZXlBbGdvcml0aG06ICJzc2gtZWQyNTUxOSIsCiAgICAgIGhvc3RLZXlGaW5nZXJwcmludDogIlNIQTI1NjpleGFtcGxlIiwKICAgICAgcGFzc3dvcmQ6ICJzdGFsZS1wYXNzd29yZCIsCiAgICAgIHByaXZhdGVLZXk6ICJzdGFsZS1wcml2YXRlLWtleSIsCiAgICAgIHByaXZhdGVLZXlQYXNzcGhyYXNlOiAic3RhbGUtcGFzc3BocmFzZSIsCiAgICAgIGNsZWFyQ3JlZGVudGlhbDogdHJ1ZSwKICAgIH07CgogICAgY2hhbmdlV29sU3NoQXV0aE1ldGhvZChzc2gsICJwYXNzd29yZCIpOwogICAgYXNzZXJ0LmVxdWFsKHNzaC5hdXRoTWV0aG9kLCAicGFzc3dvcmQiKTsKICAgIGFzc2VydC5lcXVhbChzc2guZW5hYmxlZCwgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwoc3NoLnBhc3N3b3JkLCAiIik7CiAgICBhc3NlcnQuZXF1YWwoc3NoLnByaXZhdGVLZXksICIiKTsKICAgIGFzc2VydC5lcXVhbChzc2gucHJpdmF0ZUtleVBhc3NwaHJhc2UsICIiKTsKICAgIGFzc2VydC5lcXVhbChzc2guY2xlYXJDcmVkZW50aWFsLCBmYWxzZSk7CiAgICBhc3NlcnQuZXF1YWwoc3NoLmhvc3RLZXlBbGdvcml0aG0sICIiKTsKICAgIGFzc2VydC5lcXVhbChzc2guaG9zdEtleUZpbmdlcnByaW50LCAiIik7CiAgfSk7CgogIGl0KCJvZmZlcnMgc2h1dGRvd24gZm9yIGNvbXBsZXRlIFNTSCB0YXJnZXRzIHJlZ2FyZGxlc3Mgb2YgcHJvYmUgc3RhdGUiLCAoKSA9PiB7CiAgICBjb25zdCB0YXJnZXQgPSB7CiAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgIHN0YXR1czogeyBzdGF0ZTogInVua25vd24iIH0sCiAgICAgIHNzaDogewogICAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgICAgaG9zdDogIjE5Mi4wLjIuMTAiLAogICAgICAgIHVzZXJuYW1lOiAib3BlcmF0b3IiLAogICAgICAgIGhvc3RLZXlBbGdvcml0aG06ICJzc2gtZWQyNTUxOSIsCiAgICAgICAgaG9zdEtleUZpbmdlcnByaW50OiAiU0hBMjU2OmV4YW1wbGUiLAogICAgICAgIGNyZWRlbnRpYWxDb25maWd1cmVkOiB0cnVlLAogICAgICB9LAogICAgfSBhcyBXT0xUYXJnZXQ7CgogICAgYXNzZXJ0LmVxdWFsKGNhblNodXRkb3duV29sVGFyZ2V0KHRhcmdldCksIHRydWUpOwogICAgdGFyZ2V0LnN0YXR1cy5zdGF0ZSA9ICJvZmZsaW5lIjsKICAgIGFzc2VydC5lcXVhbChjYW5TaHV0ZG93bldvbFRhcmdldCh0YXJnZXQpLCB0cnVlKTsKICAgIHRhcmdldC5zc2guaG9zdEtleUZpbmdlcnByaW50ID0gIiI7CiAgICBhc3NlcnQuZXF1YWwoY2FuU2h1dGRvd25Xb2xUYXJnZXQodGFyZ2V0KSwgZmFsc2UpOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import type {
+  WOLDiscoveryPollEvent,
+  WOLTarget,
+  WOLTargetSshInput,
+} from "../src/lib/api/wol";
+import {
+  canShutdownWolTarget,
+  changeWolSshAuthMethod,
+  createWolLocalRelayInput,
+  createWolTargetInput,
+  reduceWolDiscoveryEvent,
+  updatePendingIds,
+  wolTargetToEditInput,
+} from "../src/views/wol-management/wol-management-model";
+
+describe("Wake-on-LAN management model", () => {
+  it("creates secret-free forms with explicit delivery defaults", () => {
+    assert.deepEqual(createWolTargetInput("Office PC"), {
+      name: "Office PC",
+      mac: "",
+      relayId: null,
+      broadcastAddress: null,
+      ipAddress: null,
+      enabled: true,
+      integrations: undefined,
+      ssh: undefined,
+    });
+    assert.equal(createWolLocalRelayInput().psk, "");
+  });
+
+  it("converges legacy dual-provider targets to one provider on edit", () => {
+    const target = {
+      id: "target-1",
+      name: "Office PC",
+      mac: "00:11:22:33:44:55",
+      relayId: "relay-1",
+      broadcastAddress: "192.0.2.255",
+      ipAddress: "192.0.2.10",
+      enabled: true,
+      integrations: {
+        blinker: {
+          enabled: true,
+          bindComponent: "switch",
+          credentialConfigured: true,
+          runtime: {},
+        },
+        bemfa: {
+          enabled: true,
+          topic: "office-pc",
+          credentialConfigured: true,
+          runtime: {},
+        },
+      },
+      ssh: {
+        enabled: false,
+        host: "",
+        port: 22,
+        username: "",
+        platform: "linux",
+        authMethod: "privateKey",
+        hostKeyAlgorithm: "",
+        hostKeyFingerprint: "",
+        credentialConfigured: false,
+        passphraseConfigured: false,
+      },
+    } as unknown as WOLTarget;
+
+    const edit = wolTargetToEditInput(target);
+    assert.equal(edit.integrations?.blinker.enabled, true);
+    assert.equal(edit.integrations?.bemfa.enabled, false);
+    assert.equal(edit.integrations?.blinker.deviceKey, "");
+    assert.equal(edit.integrations?.bemfa.privateKey, "");
+  });
+
+  it("deduplicates streamed devices and keeps their IPs naturally sorted", () => {
+    const meta = {
+      type: "meta",
+      data: {
+        networks: [{ cidr: "192.0.2.0/24" }],
+        progress: { scanned: 0, total: 10 },
+      },
+    } as unknown as WOLDiscoveryPollEvent;
+    let state = reduceWolDiscoveryEvent({ progress: null, result: null }, meta);
+    for (const [mac, ip] of [
+      ["00:00:00:00:00:10", "192.0.2.10"],
+      ["00:00:00:00:00:02", "192.0.2.2"],
+      ["00:00:00:00:00:10", "192.0.2.3"],
+    ]) {
+      state = reduceWolDiscoveryEvent(state, {
+        type: "device",
+        data: { mac, ip, broadcastAddress: "192.0.2.255" },
+      } as unknown as WOLDiscoveryPollEvent);
+    }
+
+    assert.deepEqual(
+      state.result?.devices.map((device) => [device.mac, device.ip]),
+      [
+        ["00:00:00:00:00:02", "192.0.2.2"],
+        ["00:00:00:00:00:10", "192.0.2.3"],
+      ],
+    );
+    assert.strictEqual(
+      reduceWolDiscoveryEvent(state, { type: "cancelled" }),
+      state,
+    );
+  });
+
+  it("updates pending IDs without mutating the prior set", () => {
+    const current = new Set(["one"]);
+    const added = updatePendingIds(current, "two", true);
+    const removed = updatePendingIds(added, "one", false);
+
+    assert.deepEqual([...current], ["one"]);
+    assert.deepEqual([...added], ["one", "two"]);
+    assert.deepEqual([...removed], ["two"]);
+  });
+
+  it("requires fresh credentials after changing SSH authentication methods", () => {
+    const ssh: WOLTargetSshInput = {
+      enabled: true,
+      host: "192.0.2.10",
+      port: 22,
+      username: "operator",
+      platform: "linux",
+      authMethod: "privateKey",
+      hostKeyAlgorithm: "ssh-ed25519",
+      hostKeyFingerprint: "SHA256:example",
+      password: "stale-password",
+      privateKey: "stale-private-key",
+      privateKeyPassphrase: "stale-passphrase",
+      clearCredential: true,
+    };
+
+    changeWolSshAuthMethod(ssh, "password");
+    assert.equal(ssh.authMethod, "password");
+    assert.equal(ssh.enabled, true);
+    assert.equal(ssh.password, "");
+    assert.equal(ssh.privateKey, "");
+    assert.equal(ssh.privateKeyPassphrase, "");
+    assert.equal(ssh.clearCredential, false);
+    assert.equal(ssh.hostKeyAlgorithm, "");
+    assert.equal(ssh.hostKeyFingerprint, "");
+  });
+
+  it("offers shutdown for complete SSH targets regardless of probe state", () => {
+    const target = {
+      enabled: true,
+      status: { state: "unknown" },
+      ssh: {
+        enabled: true,
+        host: "192.0.2.10",
+        username: "operator",
+        hostKeyAlgorithm: "ssh-ed25519",
+        hostKeyFingerprint: "SHA256:example",
+        credentialConfigured: true,
+      },
+    } as WOLTarget;
+
+    assert.equal(canShutdownWolTarget(target), true);
+    target.status.state = "offline";
+    assert.equal(canShutdownWolTarget(target), true);
+    target.ssh.hostKeyFingerprint = "";
+    assert.equal(canShutdownWolTarget(target), false);
+  });
+});

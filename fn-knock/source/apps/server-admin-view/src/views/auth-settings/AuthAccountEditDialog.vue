@@ -1,1 +1,84 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBpc1NhdmluZzogYm9vbGVhbjsKICBvcGVuOiBib29sZWFuOwogIHVzZXJuYW1lOiBzdHJpbmc7CiAgdXNlcm5hbWVTZWN1cml0eVdhcm5pbmc6ICh2YWx1ZTogc3RyaW5nKSA9PiBzdHJpbmc7Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIGNsb3NlOiBbXTsKICBzYXZlOiBbXTsKICAidXBkYXRlOm9wZW4iOiBbdmFsdWU6IGJvb2xlYW5dOwogICJ1cGRhdGU6dXNlcm5hbWUiOiBbdmFsdWU6IHN0cmluZ107Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3Qgd2FybmluZyA9IGNvbXB1dGVkKCgpID0+IHByb3BzLnVzZXJuYW1lU2VjdXJpdHlXYXJuaW5nKHByb3BzLnVzZXJuYW1lKSk7Cgpjb25zdCBoYW5kbGVPcGVuQ2hhbmdlID0gKG9wZW46IGJvb2xlYW4pID0+IHsKICBlbWl0KCJ1cGRhdGU6b3BlbiIsIG9wZW4pOwogIGlmICghb3BlbikgZW1pdCgiY2xvc2UiKTsKfTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERpYWxvZyA6b3Blbj0ib3BlbiIgQHVwZGF0ZTpvcGVuPSJoYW5kbGVPcGVuQ2hhbmdlIj4KICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJtYXgtaC1bODh2aF0gb3ZlcmZsb3cteS1hdXRvIHNtOm1heC13LVs0NDBweF0iPgogICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgIDxEaWFsb2dUaXRsZT57eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MuZWRpdEFjY291bnQiKSB9fTwvRGlhbG9nVGl0bGU+CiAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLmVkaXRBY2NvdW50RGVzY3JpcHRpb24iKSB9fQogICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgoKICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICA8TGFiZWwgZm9yPSJhdXRoLWFjY291bnQtdXNlcm5hbWUiPgogICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLmFjY291bnRVc2VybmFtZSIpIH19CiAgICAgICAgPC9MYWJlbD4KICAgICAgICA8SW5wdXQKICAgICAgICAgIGlkPSJhdXRoLWFjY291bnQtdXNlcm5hbWUiCiAgICAgICAgICA6bW9kZWwtdmFsdWU9InVzZXJuYW1lIgogICAgICAgICAgYXV0b2NvbXBsZXRlPSJvZmYiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nIgogICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgndXBkYXRlOnVzZXJuYW1lJywgU3RyaW5nKCRldmVudCkpIgogICAgICAgICAgQGtleXVwLmVudGVyPSJlbWl0KCdzYXZlJykiCiAgICAgICAgLz4KICAgICAgICA8cAogICAgICAgICAgdi1pZj0id2FybmluZyIKICAgICAgICAgIGNsYXNzPSJ0ZXh0LXhzIHRleHQtYW1iZXItNjAwIGRhcms6dGV4dC1hbWJlci00MDAiCiAgICAgICAgICByb2xlPSJzdGF0dXMiCiAgICAgICAgPgogICAgICAgICAge3sgd2FybmluZyB9fQogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CgogICAgICA8RGlhbG9nRm9vdGVyIGNsYXNzPSJnYXAtMiI+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiA6ZGlzYWJsZWQ9ImlzU2F2aW5nIiBAY2xpY2s9ImVtaXQoJ2Nsb3NlJykiPgogICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLmNhbmNlbCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbiA6ZGlzYWJsZWQ9ImlzU2F2aW5nIiBAY2xpY2s9ImVtaXQoJ3NhdmUnKSI+CiAgICAgICAgICA8c3BhbgogICAgICAgICAgICB2LWlmPSJpc1NhdmluZyIKICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiCiAgICAgICAgICAvPgogICAgICAgICAge3sgdCgiY29tbW9uLnNhdmUiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgIDwvRGlhbG9nQ29udGVudD4KICA8L0RpYWxvZz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+
+const props = defineProps<{
+  isSaving: boolean;
+  open: boolean;
+  username: string;
+  usernameSecurityWarning: (value: string) => string;
+}>();
+
+const emit = defineEmits<{
+  close: [];
+  save: [];
+  "update:open": [value: boolean];
+  "update:username": [value: string];
+}>();
+
+const { t } = useI18n();
+const warning = computed(() => props.usernameSecurityWarning(props.username));
+
+const handleOpenChange = (open: boolean) => {
+  emit("update:open", open);
+  if (!open) emit("close");
+};
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="handleOpenChange">
+    <DialogContent class="max-h-[88vh] overflow-y-auto sm:max-w-[440px]">
+      <DialogHeader>
+        <DialogTitle>{{ t("admin.authSettings.editAccount") }}</DialogTitle>
+        <DialogDescription>
+          {{ t("admin.authSettings.editAccountDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+
+      <div class="space-y-2">
+        <Label for="auth-account-username">
+          {{ t("admin.authSettings.accountUsername") }}
+        </Label>
+        <Input
+          id="auth-account-username"
+          :model-value="username"
+          autocomplete="off"
+          :disabled="isSaving"
+          @update:model-value="emit('update:username', String($event))"
+          @keyup.enter="emit('save')"
+        />
+        <p
+          v-if="warning"
+          class="text-xs text-amber-600 dark:text-amber-400"
+          role="status"
+        >
+          {{ warning }}
+        </p>
+      </div>
+
+      <DialogFooter class="gap-2">
+        <Button variant="outline" :disabled="isSaving" @click="emit('close')">
+          {{ t("admin.authSettings.cancel") }}
+        </Button>
+        <Button :disabled="isSaving" @click="emit('save')">
+          <span
+            v-if="isSaving"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          />
+          {{ t("common.save") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

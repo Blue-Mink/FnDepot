@@ -1,1 +1,84 @@
-dXNlIHN0ZDo6Zm10OwoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBFcSwgUGFydGlhbEVxKV0KcHViKGNyYXRlKSBlbnVtIEF1dGhMb2dpbk1vZGUgewogICAgVG90cCwKICAgIFBhc3N3b3JkLAp9CgppbXBsIEF1dGhMb2dpbk1vZGUgewogICAgcHViKGNyYXRlKSBmbiBmcm9tX3N0b3JhZ2UodmFsdWU6IE9wdGlvbjwmc3RyPikgLT4gU2VsZiB7CiAgICAgICAgbWF0Y2ggdmFsdWUubWFwKHN0cjo6dHJpbSkgewogICAgICAgICAgICBTb21lKCJwYXNzd29yZCIpID0+IFNlbGY6OlBhc3N3b3JkLAogICAgICAgICAgICBfID0+IFNlbGY6OlRvdHAsCiAgICAgICAgfQogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gZnJvbV9hcGkodmFsdWU6ICZzdHIpIC0+IE9wdGlvbjxTZWxmPiB7CiAgICAgICAgbWF0Y2ggdmFsdWUudHJpbSgpIHsKICAgICAgICAgICAgInRvdHAiID0+IFNvbWUoU2VsZjo6VG90cCksCiAgICAgICAgICAgICJwYXNzd29yZCIgPT4gU29tZShTZWxmOjpQYXNzd29yZCksCiAgICAgICAgICAgIF8gPT4gTm9uZSwKICAgICAgICB9CiAgICB9CgogICAgcHViKGNyYXRlKSBmbiBhc19zdHIoc2VsZikgLT4gJidzdGF0aWMgc3RyIHsKICAgICAgICBtYXRjaCBzZWxmIHsKICAgICAgICAgICAgU2VsZjo6VG90cCA9PiAidG90cCIsCiAgICAgICAgICAgIFNlbGY6OlBhc3N3b3JkID0+ICJwYXNzd29yZCIsCiAgICAgICAgfQogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gYWxsb3dzX3RvdHBfZmFtaWx5KHNlbGYpIC0+IGJvb2wgewogICAgICAgIHNlbGYgPT0gU2VsZjo6VG90cAogICAgfQp9CgppbXBsIGZtdDo6RGlzcGxheSBmb3IgQXV0aExvZ2luTW9kZSB7CiAgICBmbiBmbXQoJnNlbGYsIGZvcm1hdHRlcjogJm11dCBmbXQ6OkZvcm1hdHRlcjwnXz4pIC0+IGZtdDo6UmVzdWx0IHsKICAgICAgICBmb3JtYXR0ZXIud3JpdGVfc3RyKHNlbGYuYXNfc3RyKCkpCiAgICB9Cn0KCiNbZGVyaXZlKENsb25lLCBDb3B5LCBEZWJ1ZywgRXEsIFBhcnRpYWxFcSldCnB1YihjcmF0ZSkgZW51bSBBdXRoTWV0aG9kIHsKICAgIFRvdHAsCiAgICBQYXNzd29yZCwKICAgIFBhc3NrZXksCiAgICBPaWRjLAogICAgTGRhcCwKfQoKaW1wbCBBdXRoTWV0aG9kIHsKICAgIHB1YihjcmF0ZSkgZm4gZnJvbV9sb2dpbl9yZXF1ZXN0KHZhbHVlOiAmc3RyKSAtPiBPcHRpb248U2VsZj4gewogICAgICAgIGlmIHZhbHVlLmVxX2lnbm9yZV9hc2NpaV9jYXNlKCJ0b3RwIikgewogICAgICAgICAgICBTb21lKFNlbGY6OlRvdHApCiAgICAgICAgfSBlbHNlIGlmIHZhbHVlLmVxX2lnbm9yZV9hc2NpaV9jYXNlKCJwYXNzd29yZCIpIHsKICAgICAgICAgICAgU29tZShTZWxmOjpQYXNzd29yZCkKICAgICAgICB9IGVsc2UgaWYgdmFsdWUuZXFfaWdub3JlX2FzY2lpX2Nhc2UoImxkYXAiKSB7CiAgICAgICAgICAgIFNvbWUoU2VsZjo6TGRhcCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBOb25lCiAgICAgICAgfQogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gYXNfc2Vzc2lvbl9zdHIoc2VsZikgLT4gJidzdGF0aWMgc3RyIHsKICAgICAgICBtYXRjaCBzZWxmIHsKICAgICAgICAgICAgU2VsZjo6VG90cCA9PiAiVE9UUCIsCiAgICAgICAgICAgIFNlbGY6OlBhc3N3b3JkID0+ICJQQVNTV09SRCIsCiAgICAgICAgICAgIFNlbGY6OlBhc3NrZXkgPT4gIlBBU1NLRVkiLAogICAgICAgICAgICBTZWxmOjpPaWRjID0+ICJPSURDIiwKICAgICAgICAgICAgU2VsZjo6TGRhcCA9PiAiTERBUCIsCiAgICAgICAgfQogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gbWF0Y2hlc19zZXNzaW9uX3N0cihzZWxmLCB2YWx1ZTogJnN0cikgLT4gYm9vbCB7CiAgICAgICAgdmFsdWUuZXFfaWdub3JlX2FzY2lpX2Nhc2Uoc2VsZi5hc19zZXNzaW9uX3N0cigpKQogICAgfQp9CgppbXBsIGZtdDo6RGlzcGxheSBmb3IgQXV0aE1ldGhvZCB7CiAgICBmbiBmbXQoJnNlbGYsIGZvcm1hdHRlcjogJm11dCBmbXQ6OkZvcm1hdHRlcjwnXz4pIC0+IGZtdDo6UmVzdWx0IHsKICAgICAgICBmb3JtYXR0ZXIud3JpdGVfc3RyKHNlbGYuYXNfc2Vzc2lvbl9zdHIoKSkKICAgIH0KfQo=
+use std::fmt;
+
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+pub(crate) enum AuthLoginMode {
+    Totp,
+    Password,
+}
+
+impl AuthLoginMode {
+    pub(crate) fn from_storage(value: Option<&str>) -> Self {
+        match value.map(str::trim) {
+            Some("password") => Self::Password,
+            _ => Self::Totp,
+        }
+    }
+
+    pub(crate) fn from_api(value: &str) -> Option<Self> {
+        match value.trim() {
+            "totp" => Some(Self::Totp),
+            "password" => Some(Self::Password),
+            _ => None,
+        }
+    }
+
+    pub(crate) fn as_str(self) -> &'static str {
+        match self {
+            Self::Totp => "totp",
+            Self::Password => "password",
+        }
+    }
+
+    pub(crate) fn allows_totp_family(self) -> bool {
+        self == Self::Totp
+    }
+}
+
+impl fmt::Display for AuthLoginMode {
+    fn fmt(&self, formatter: &mut fmt::Formatter<'_>) -> fmt::Result {
+        formatter.write_str(self.as_str())
+    }
+}
+
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+pub(crate) enum AuthMethod {
+    Totp,
+    Password,
+    Passkey,
+    Oidc,
+    Ldap,
+}
+
+impl AuthMethod {
+    pub(crate) fn from_login_request(value: &str) -> Option<Self> {
+        if value.eq_ignore_ascii_case("totp") {
+            Some(Self::Totp)
+        } else if value.eq_ignore_ascii_case("password") {
+            Some(Self::Password)
+        } else if value.eq_ignore_ascii_case("ldap") {
+            Some(Self::Ldap)
+        } else {
+            None
+        }
+    }
+
+    pub(crate) fn as_session_str(self) -> &'static str {
+        match self {
+            Self::Totp => "TOTP",
+            Self::Password => "PASSWORD",
+            Self::Passkey => "PASSKEY",
+            Self::Oidc => "OIDC",
+            Self::Ldap => "LDAP",
+        }
+    }
+
+    pub(crate) fn matches_session_str(self, value: &str) -> bool {
+        value.eq_ignore_ascii_case(self.as_session_str())
+    }
+}
+
+impl fmt::Display for AuthMethod {
+    fn fmt(&self, formatter: &mut fmt::Formatter<'_>) -> fmt::Result {
+        formatter.write_str(self.as_session_str())
+    }
+}

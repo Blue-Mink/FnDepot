@@ -1,1 +1,111 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uVW5tb3VudGVkLCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsKICBleHRyYWN0RXJyb3JNZXNzYWdlLAogIHVzZUFzeW5jQWN0aW9uLAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgdHlwZSB7IFNTSExvZ2luTG9nRW50cnkgfSBmcm9tICJAL3R5cGVzIjsKCnR5cGUgTG9naW5Mb2dPdXRjb21lID0gImFsbCIgfCAic3VjY2VzcyIgfCAiZmFpbHVyZSI7CnR5cGUgVHJhbnNsYXRlID0gKGtleTogc3RyaW5nKSA9PiBzdHJpbmc7CgpleHBvcnQgY29uc3QgdXNlU1NITG9naW5Mb2dzID0gKHsKICBmZXRjaExvZ3MsCiAgdHJhbnNsYXRlLAp9OiB7CiAgZmV0Y2hMb2dzOiAocGFyYW1zOiB7CiAgICBsaW1pdDogc3RyaW5nOwogICAgb3V0Y29tZTogTG9naW5Mb2dPdXRjb21lOwogICAgcGFnZTogbnVtYmVyOwogICAgc2VhcmNoOiBzdHJpbmc7CiAgfSkgPT4gUHJvbWlzZTx7IGl0ZW1zOiBTU0hMb2dpbkxvZ0VudHJ5W107IHRvdGFsOiBudW1iZXIgfT47CiAgdHJhbnNsYXRlOiBUcmFuc2xhdGU7Cn0pID0+IHsKICBjb25zdCBsb2dJdGVtcyA9IHJlZjxTU0hMb2dpbkxvZ0VudHJ5W10+KFtdKTsKICBjb25zdCBsb2dUb3RhbCA9IHJlZigwKTsKICBjb25zdCBsb2dQYWdlID0gcmVmKDEpOwogIGNvbnN0IGxvZ0xpbWl0ID0gcmVmKCIyMCIpOwogIGNvbnN0IGxvZ1NlYXJjaCA9IHJlZigiIik7CiAgY29uc3QgbG9nT3V0Y29tZSA9IHJlZjxMb2dpbkxvZ091dGNvbWU+KCJhbGwiKTsKICBsZXQgbG9nU2VhcmNoVGltZXI6IFJldHVyblR5cGU8dHlwZW9mIHNldFRpbWVvdXQ+IHwgbnVsbCA9IG51bGw7CgogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc0xvYWRpbmdMb2dzLCBydW46IHJ1bkxvYWRMb2dzIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IodHJhbnNsYXRlKCJhZG1pbi5zc2hTZWN1cml0eS5sb2dzTG9hZEZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uc3NoU2VjdXJpdHkubG9nc0xvYWREZXNjcmlwdGlvbiIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSwKICB9KTsKCiAgY29uc3QgbG9nUGFyc2VkTGltaXQgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBwYXJzZWQgPSBOdW1iZXIucGFyc2VJbnQobG9nTGltaXQudmFsdWUsIDEwKTsKICAgIHJldHVybiBOdW1iZXIuaXNGaW5pdGUocGFyc2VkKSAmJiBwYXJzZWQgPiAwID8gcGFyc2VkIDogMjA7CiAgfSk7CgogIGNvbnN0IGxvYWRMb2dzID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuTG9hZExvZ3MoCiAgICAgICgpID0+CiAgICAgICAgZmV0Y2hMb2dzKHsKICAgICAgICAgIHBhZ2U6IGxvZ1BhZ2UudmFsdWUsCiAgICAgICAgICBsaW1pdDogbG9nTGltaXQudmFsdWUsCiAgICAgICAgICBzZWFyY2g6IGxvZ1NlYXJjaC52YWx1ZSwKICAgICAgICAgIG91dGNvbWU6IGxvZ091dGNvbWUudmFsdWUsCiAgICAgICAgfSksCiAgICAgIHsKICAgICAgICBvblN1Y2Nlc3M6IChwYXlsb2FkKSA9PiB7CiAgICAgICAgICBsb2dJdGVtcy52YWx1ZSA9IHBheWxvYWQuaXRlbXM7CiAgICAgICAgICBsb2dUb3RhbC52YWx1ZSA9IHBheWxvYWQudG90YWw7CiAgICAgICAgfSwKICAgICAgfSwKICAgICk7CiAgfTsKCiAgY29uc3QgaGFuZGxlTG9nU2VhcmNoID0gKCkgPT4gewogICAgbG9nUGFnZS52YWx1ZSA9IDE7CiAgICB2b2lkIGxvYWRMb2dzKCk7CiAgfTsKCiAgY29uc3QgaGFuZGxlTG9nUGFnZUNoYW5nZSA9IChwYWdlOiBudW1iZXIpID0+IHsKICAgIGxvZ1BhZ2UudmFsdWUgPSBwYWdlOwogICAgdm9pZCBsb2FkTG9ncygpOwogIH07CgogIGNvbnN0IGhhbmRsZUxvZ0xpbWl0Q2hhbmdlID0gKHZhbHVlOiB1bmtub3duKSA9PiB7CiAgICBsb2dMaW1pdC52YWx1ZSA9IFN0cmluZyh2YWx1ZSA/PyAiMjAiKTsKICAgIGxvZ1BhZ2UudmFsdWUgPSAxOwogICAgdm9pZCBsb2FkTG9ncygpOwogIH07CgogIHdhdGNoKGxvZ1NlYXJjaCwgKCkgPT4gewogICAgaWYgKGxvZ1NlYXJjaFRpbWVyKSBjbGVhclRpbWVvdXQobG9nU2VhcmNoVGltZXIpOwogICAgbG9nU2VhcmNoVGltZXIgPSBzZXRUaW1lb3V0KGhhbmRsZUxvZ1NlYXJjaCwgNTAwKTsKICB9KTsKCiAgd2F0Y2gobG9nT3V0Y29tZSwgKCkgPT4gewogICAgaGFuZGxlTG9nU2VhcmNoKCk7CiAgfSk7CgogIG9uVW5tb3VudGVkKCgpID0+IHsKICAgIGlmIChsb2dTZWFyY2hUaW1lcikgewogICAgICBjbGVhclRpbWVvdXQobG9nU2VhcmNoVGltZXIpOwogICAgfQogIH0pOwoKICByZXR1cm4gewogICAgaGFuZGxlTG9nTGltaXRDaGFuZ2UsCiAgICBoYW5kbGVMb2dQYWdlQ2hhbmdlLAogICAgaGFuZGxlTG9nU2VhcmNoLAogICAgaXNMb2FkaW5nTG9ncywKICAgIGxvYWRMb2dzLAogICAgbG9nSXRlbXMsCiAgICBsb2dMaW1pdCwKICAgIGxvZ091dGNvbWUsCiAgICBsb2dQYWdlLAogICAgbG9nUGFyc2VkTGltaXQsCiAgICBsb2dTZWFyY2gsCiAgICBsb2dUb3RhbCwKICB9Owp9Owo=
+import { computed, onUnmounted, ref, watch } from "vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import type { SSHLoginLogEntry } from "@/types";
+
+type LoginLogOutcome = "all" | "success" | "failure";
+type Translate = (key: string) => string;
+
+export const useSSHLoginLogs = ({
+  fetchLogs,
+  translate,
+}: {
+  fetchLogs: (params: {
+    limit: string;
+    outcome: LoginLogOutcome;
+    page: number;
+    search: string;
+  }) => Promise<{ items: SSHLoginLogEntry[]; total: number }>;
+  translate: Translate;
+}) => {
+  const logItems = ref<SSHLoginLogEntry[]>([]);
+  const logTotal = ref(0);
+  const logPage = ref(1);
+  const logLimit = ref("20");
+  const logSearch = ref("");
+  const logOutcome = ref<LoginLogOutcome>("all");
+  let logSearchTimer: ReturnType<typeof setTimeout> | null = null;
+
+  const { isPending: isLoadingLogs, run: runLoadLogs } = useAsyncAction({
+    onError: (error) => {
+      toast.error(translate("admin.sshSecurity.logsLoadFailed"), {
+        description: extractErrorMessage(
+          error,
+          translate("admin.sshSecurity.logsLoadDescription"),
+        ),
+      });
+    },
+  });
+
+  const logParsedLimit = computed(() => {
+    const parsed = Number.parseInt(logLimit.value, 10);
+    return Number.isFinite(parsed) && parsed > 0 ? parsed : 20;
+  });
+
+  const loadLogs = async () => {
+    await runLoadLogs(
+      () =>
+        fetchLogs({
+          page: logPage.value,
+          limit: logLimit.value,
+          search: logSearch.value,
+          outcome: logOutcome.value,
+        }),
+      {
+        onSuccess: (payload) => {
+          logItems.value = payload.items;
+          logTotal.value = payload.total;
+        },
+      },
+    );
+  };
+
+  const handleLogSearch = () => {
+    logPage.value = 1;
+    void loadLogs();
+  };
+
+  const handleLogPageChange = (page: number) => {
+    logPage.value = page;
+    void loadLogs();
+  };
+
+  const handleLogLimitChange = (value: unknown) => {
+    logLimit.value = String(value ?? "20");
+    logPage.value = 1;
+    void loadLogs();
+  };
+
+  watch(logSearch, () => {
+    if (logSearchTimer) clearTimeout(logSearchTimer);
+    logSearchTimer = setTimeout(handleLogSearch, 500);
+  });
+
+  watch(logOutcome, () => {
+    handleLogSearch();
+  });
+
+  onUnmounted(() => {
+    if (logSearchTimer) {
+      clearTimeout(logSearchTimer);
+    }
+  });
+
+  return {
+    handleLogLimitChange,
+    handleLogPageChange,
+    handleLogSearch,
+    isLoadingLogs,
+    loadLogs,
+    logItems,
+    logLimit,
+    logOutcome,
+    logPage,
+    logParsedLimit,
+    logSearch,
+    logTotal,
+  };
+};

@@ -1,1 +1,159 @@
-dXNlIGFzeW5jX3RyYWl0Ojphc3luY190cmFpdDsKdXNlIHN0ZDo6c3luYzo6e0FyYywgTXV0ZXh9OwoKdXNlIHN1cGVyOjptb2RlbDo6KjsKCm1vZCBjbGllbnQ7Cm1vZCBvbmVfbmF2Owptb2Qgc3VuX3BhbmVsOwptb2QgdmFuX25hdjsKCi8vLyBLZWVwcyB0aGUgbGF0ZXN0IHN1Y2Nlc3NmdWxseSBhcHBsaWVkIG93bmVyc2hpcCBzdGF0ZSBhdmFpbGFibGUgZXZlbiB3aGVuIGEKLy8vIGxhdGVyIHJlbW90ZSBvcGVyYXRpb24gZmFpbHMgb3IgYXBwbGljYXRpb24gc2h1dGRvd24gY2FuY2VscyB0aGUgYWRhcHRlci4KLy8vIFRoaXMgcHJldmVudHMgYSBwYXJ0aWFsbHkgY3JlYXRlZCByZW1vdGUgb2JqZWN0IGZyb20gYmVjb21pbmcgYW4gdW5vd25lZAovLy8gbmFtZSBjb25mbGljdCBvbiB0aGUgbmV4dCBydW4uCiNbZGVyaXZlKENsb25lKV0KcHViIHN0cnVjdCBBcHBseUNoZWNrcG9pbnQoQXJjPE11dGV4PE1hbmFnZWRTdGF0ZT4+KTsKCmltcGwgQXBwbHlDaGVja3BvaW50IHsKICAgIHB1YiBmbiBuZXcoaW5pdGlhbDogTWFuYWdlZFN0YXRlKSAtPiBTZWxmIHsKICAgICAgICBTZWxmKEFyYzo6bmV3KE11dGV4OjpuZXcoaW5pdGlhbCkpKQogICAgfQoKICAgIHB1YiBmbiByZWNvcmQoJnNlbGYsIG1hbmFnZWQ6ICZNYW5hZ2VkU3RhdGUpIHsKICAgICAgICAqc2VsZi4wLmxvY2soKS51bndyYXBfb3JfZWxzZSh8ZXJyb3J8IGVycm9yLmludG9faW5uZXIoKSkgPSBtYW5hZ2VkLmNsb25lKCk7CiAgICB9CgogICAgcHViIGZuIGxhdGVzdCgmc2VsZikgLT4gTWFuYWdlZFN0YXRlIHsKICAgICAgICBzZWxmLjAKICAgICAgICAgICAgLmxvY2soKQogICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofGVycm9yfCBlcnJvci5pbnRvX2lubmVyKCkpCiAgICAgICAgICAgIC5jbG9uZSgpCiAgICB9Cn0KCiNbYXN5bmNfdHJhaXRdCnB1YiB0cmFpdCBQYW5lbEFkYXB0ZXI6IFNlbmQgKyBTeW5jIHsKICAgIGZuIHByb3ZpZGVyKCZzZWxmKSAtPiBQYW5lbFByb3ZpZGVyOwogICAgZm4gY2FwYWJpbGl0aWVzKCZzZWxmKSAtPiBBZGFwdGVyQ2FwYWJpbGl0aWVzOwogICAgYXN5bmMgZm4gcHJvYmUoJnNlbGYsIGNvbnRleHQ6ICZBZGFwdGVyQ29udGV4dCkgLT4gUmVzdWx0PFByb2JlUmVzdWx0LCBTdHJpbmc+OwogICAgYXN5bmMgZm4gaW5zcGVjdCgKICAgICAgICAmc2VsZiwKICAgICAgICBjb250ZXh0OiAmQWRhcHRlckNvbnRleHQsCiAgICAgICAgbWFuYWdlZDogJk1hbmFnZWRTdGF0ZSwKICAgICAgICBwcm9qZWN0aW9uOiAmUGFuZWxMaW5rUHJvamVjdGlvbiwKICAgICkgLT4gUmVzdWx0PFJlbW90ZVNuYXBzaG90LCBTdHJpbmc+OwogICAgZm4gcGxhbigKICAgICAgICAmc2VsZiwKICAgICAgICBjb25uZWN0aW9uOiAmUGFuZWxDb25uZWN0aW9uLAogICAgICAgIHByb2plY3Rpb246IFBhbmVsTGlua1Byb2plY3Rpb24sCiAgICAgICAgbWFuYWdlZDogTWFuYWdlZFN0YXRlLAogICAgICAgIHJlbW90ZTogUmVtb3RlU25hcHNob3QsCiAgICApIC0+IEFkYXB0ZXJQbGFuIHsKICAgICAgICBjcmF0ZTo6cGFuZWxfc3luYzo6b3duZXJzaGlwOjpidWlsZF9wbGFuKAogICAgICAgICAgICBjb25uZWN0aW9uLAogICAgICAgICAgICBwcm9qZWN0aW9uLAogICAgICAgICAgICBtYW5hZ2VkLAogICAgICAgICAgICByZW1vdGUsCiAgICAgICAgICAgICZzZWxmLmNhcGFiaWxpdGllcygpLAogICAgICAgICkKICAgIH0KICAgIGFzeW5jIGZuIGFwcGx5KAogICAgICAgICZzZWxmLAogICAgICAgIGNvbnRleHQ6ICZBZGFwdGVyQ29udGV4dCwKICAgICAgICBwbGFuOiAmQWRhcHRlclBsYW4sCiAgICAgICAgY2hlY2twb2ludDogJkFwcGx5Q2hlY2twb2ludCwKICAgICkgLT4gUmVzdWx0PE1hbmFnZWRTdGF0ZSwgU3RyaW5nPjsKfQoKcHViIHN0cnVjdCBBZGFwdGVyUmVnaXN0cnk7CgppbXBsIEFkYXB0ZXJSZWdpc3RyeSB7CiAgICBwdWIgZm4gcmVzb2x2ZShwcm92aWRlcjogUGFuZWxQcm92aWRlcikgLT4gJidzdGF0aWMgZHluIFBhbmVsQWRhcHRlciB7CiAgICAgICAgbWF0Y2ggcHJvdmlkZXIgewogICAgICAgICAgICBQYW5lbFByb3ZpZGVyOjpTdW5QYW5lbCA9PiAmc3VuX3BhbmVsOjpTdW5QYW5lbEFkYXB0ZXIsCiAgICAgICAgICAgIFBhbmVsUHJvdmlkZXI6Ok9uZU5hdiA9PiAmb25lX25hdjo6T25lTmF2QWRhcHRlciwKICAgICAgICAgICAgUGFuZWxQcm92aWRlcjo6VmFuTmF2ID0+ICZ2YW5fbmF2OjpWYW5OYXZBZGFwdGVyLAogICAgICAgIH0KICAgIH0KfQoKcHViIGZuIHByb3ZpZGVyX2Rlc2NyaXB0b3JzKCkgLT4gVmVjPFByb3ZpZGVyRGVzY3JpcHRvcj4gewogICAgWwogICAgICAgIFBhbmVsUHJvdmlkZXI6OlN1blBhbmVsLAogICAgICAgIFBhbmVsUHJvdmlkZXI6Ok9uZU5hdiwKICAgICAgICBQYW5lbFByb3ZpZGVyOjpWYW5OYXYsCiAgICBdCiAgICAuaW50b19pdGVyKCkKICAgIC5tYXAofHByb3ZpZGVyfCB7CiAgICAgICAgbGV0IGNhcGFiaWxpdGllcyA9IEFkYXB0ZXJSZWdpc3RyeTo6cmVzb2x2ZShwcm92aWRlcikuY2FwYWJpbGl0aWVzKCk7CiAgICAgICAgUHJvdmlkZXJEZXNjcmlwdG9yIHsKICAgICAgICAgICAgcHJvdmlkZXIsCiAgICAgICAgICAgIG5hbWU6IHByb3ZpZGVyLmxhYmVsKCkudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGRlZmF1bHRfYXBpX3BhdGg6IHByb3ZpZGVyLmRlZmF1bHRfYXBpX3BhdGgoKS50b19zdHJpbmcoKSwKICAgICAgICAgICAgc3VwcG9ydHNfZGVsZXRlOiBjYXBhYmlsaXRpZXMuY2FuX2RlbGV0ZSwKICAgICAgICAgICAgc3VwcG9ydHNfaWNvbjogY2FwYWJpbGl0aWVzLnN1cHBvcnRzX2ljb24sCiAgICAgICAgICAgIG5vdGVzOiBpZiBjYXBhYmlsaXRpZXMucmVzaWR1YWxfb25fZGVsZXRlIHsKICAgICAgICAgICAgICAgIHZlYyFbIuWumOaWuSBPcGVuQVBJIOayoeacieeos+WumuWIoOmZpOWSjOWIhuexu+aUueWQjeaOpeWPo++8jOebuOWFs+WPmOabtOS8muaKpeWRiuS4uuaui+eVmSIudG9fc3RyaW5nKCldCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB2ZWMhWyLku4XnrqHnkIblvZPliY3ov57mjqXliJvlu7rlubbnmbvorrDnmoTliIbnsbvlkozpk77mjqUiLnRvX3N0cmluZygpXQogICAgICAgICAgICB9LAogICAgICAgIH0KICAgIH0pCiAgICAuY29sbGVjdCgpCn0KCmZuIGNvbGxlY3RfcmVtb3RlX29iamVjdHMoCiAgICB2YWx1ZTogJnNlcmRlX2pzb246OlZhbHVlLAopIC0+IFZlYzwmc2VyZGVfanNvbjo6TWFwPFN0cmluZywgc2VyZGVfanNvbjo6VmFsdWU+PiB7CiAgICBmbiB2aXNpdDwnYT4oCiAgICAgICAgdmFsdWU6ICYnYSBzZXJkZV9qc29uOjpWYWx1ZSwKICAgICAgICBvdXRwdXQ6ICZtdXQgVmVjPCYnYSBzZXJkZV9qc29uOjpNYXA8U3RyaW5nLCBzZXJkZV9qc29uOjpWYWx1ZT4+LAogICAgKSB7CiAgICAgICAgbWF0Y2ggdmFsdWUgewogICAgICAgICAgICBzZXJkZV9qc29uOjpWYWx1ZTo6QXJyYXkodmFsdWVzKSA9PiB7CiAgICAgICAgICAgICAgICB2YWx1ZXMuaXRlcigpLmZvcl9lYWNoKHx2YWx1ZXwgdmlzaXQodmFsdWUsIG91dHB1dCkpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgc2VyZGVfanNvbjo6VmFsdWU6Ok9iamVjdChvYmplY3QpID0+IHsKICAgICAgICAgICAgICAgIGlmIHJlbW90ZV9zdHJpbmcob2JqZWN0LCAmWyJpZCIsICJJRCIsICJjYXRlZ29yeV9pZCIsICJ0b29sX2lkIl0pLmlzX3NvbWUoKSB7CiAgICAgICAgICAgICAgICAgICAgb3V0cHV0LnB1c2gob2JqZWN0KTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIG9iamVjdC52YWx1ZXMoKS5mb3JfZWFjaCh8dmFsdWV8IHZpc2l0KHZhbHVlLCBvdXRwdXQpKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBfID0+IHt9CiAgICAgICAgfQogICAgfQogICAgbGV0IG11dCBvdXRwdXQgPSBWZWM6Om5ldygpOwogICAgdmlzaXQodmFsdWUsICZtdXQgb3V0cHV0KTsKICAgIG91dHB1dAp9CgpmbiByZW1vdGVfc3RyaW5nKAogICAgb2JqZWN0OiAmc2VyZGVfanNvbjo6TWFwPFN0cmluZywgc2VyZGVfanNvbjo6VmFsdWU+LAogICAga2V5czogJlsmc3RyXSwKKSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBrZXlzLml0ZXIoKQogICAgICAgIC5maW5kX21hcCh8a2V5fCBvYmplY3QuZ2V0KCprZXkpKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHsKICAgICAgICAgICAgdmFsdWUKICAgICAgICAgICAgICAgIC5hc19zdHIoKQogICAgICAgICAgICAgICAgLm1hcChzdHI6OnRvX3N0cmluZykKICAgICAgICAgICAgICAgIC5vcl9lbHNlKHx8IHZhbHVlLmFzX2k2NCgpLm1hcCh8dmFsdWV8IHZhbHVlLnRvX3N0cmluZygpKSkKICAgICAgICB9KQp9CgpmbiBjb25mbGljdCgKICAgIG9iamVjdF90eXBlOiAmc3RyLAogICAgc291cmNlX2lkOiAmc3RyLAogICAgcmVtb3RlX2lkOiBPcHRpb248U3RyaW5nPiwKICAgIHRpdGxlOiAmc3RyLAopIC0+IFBsYW5BY3Rpb24gewogICAgUGxhbkFjdGlvbiB7CiAgICAgICAga2luZDogUGxhbkFjdGlvbktpbmQ6OkNvbmZsaWN0LAogICAgICAgIG9iamVjdF90eXBlOiBvYmplY3RfdHlwZS50b19zdHJpbmcoKSwKICAgICAgICBzb3VyY2VfaWQ6IFNvbWUoc291cmNlX2lkLnRvX3N0cmluZygpKSwKICAgICAgICByZW1vdGVfaWQsCiAgICAgICAgdGl0bGU6IHRpdGxlLnRvX3N0cmluZygpLAogICAgICAgIGRldGFpbDogIuWPkeeOsOacqueZu+iusOeahOWQjOWQjei/nOerr+Wvueixoe+8m+S4uuS/neaKpOmdouadv+WGheWuue+8jGZuLWtub2NrIOS4jeS8muaOpeeuoSIudG9fc3RyaW5nKCksCiAgICB9Cn0K
+use async_trait::async_trait;
+use std::sync::{Arc, Mutex};
+
+use super::model::*;
+
+mod client;
+mod one_nav;
+mod sun_panel;
+mod van_nav;
+
+/// Keeps the latest successfully applied ownership state available even when a
+/// later remote operation fails or application shutdown cancels the adapter.
+/// This prevents a partially created remote object from becoming an unowned
+/// name conflict on the next run.
+#[derive(Clone)]
+pub struct ApplyCheckpoint(Arc<Mutex<ManagedState>>);
+
+impl ApplyCheckpoint {
+    pub fn new(initial: ManagedState) -> Self {
+        Self(Arc::new(Mutex::new(initial)))
+    }
+
+    pub fn record(&self, managed: &ManagedState) {
+        *self.0.lock().unwrap_or_else(|error| error.into_inner()) = managed.clone();
+    }
+
+    pub fn latest(&self) -> ManagedState {
+        self.0
+            .lock()
+            .unwrap_or_else(|error| error.into_inner())
+            .clone()
+    }
+}
+
+#[async_trait]
+pub trait PanelAdapter: Send + Sync {
+    fn provider(&self) -> PanelProvider;
+    fn capabilities(&self) -> AdapterCapabilities;
+    async fn probe(&self, context: &AdapterContext) -> Result<ProbeResult, String>;
+    async fn inspect(
+        &self,
+        context: &AdapterContext,
+        managed: &ManagedState,
+        projection: &PanelLinkProjection,
+    ) -> Result<RemoteSnapshot, String>;
+    fn plan(
+        &self,
+        connection: &PanelConnection,
+        projection: PanelLinkProjection,
+        managed: ManagedState,
+        remote: RemoteSnapshot,
+    ) -> AdapterPlan {
+        crate::panel_sync::ownership::build_plan(
+            connection,
+            projection,
+            managed,
+            remote,
+            &self.capabilities(),
+        )
+    }
+    async fn apply(
+        &self,
+        context: &AdapterContext,
+        plan: &AdapterPlan,
+        checkpoint: &ApplyCheckpoint,
+    ) -> Result<ManagedState, String>;
+}
+
+pub struct AdapterRegistry;
+
+impl AdapterRegistry {
+    pub fn resolve(provider: PanelProvider) -> &'static dyn PanelAdapter {
+        match provider {
+            PanelProvider::SunPanel => &sun_panel::SunPanelAdapter,
+            PanelProvider::OneNav => &one_nav::OneNavAdapter,
+            PanelProvider::VanNav => &van_nav::VanNavAdapter,
+        }
+    }
+}
+
+pub fn provider_descriptors() -> Vec<ProviderDescriptor> {
+    [
+        PanelProvider::SunPanel,
+        PanelProvider::OneNav,
+        PanelProvider::VanNav,
+    ]
+    .into_iter()
+    .map(|provider| {
+        let capabilities = AdapterRegistry::resolve(provider).capabilities();
+        ProviderDescriptor {
+            provider,
+            name: provider.label().to_string(),
+            default_api_path: provider.default_api_path().to_string(),
+            supports_delete: capabilities.can_delete,
+            supports_icon: capabilities.supports_icon,
+            notes: if capabilities.residual_on_delete {
+                vec!["官方 OpenAPI 没有稳定删除和分类改名接口，相关变更会报告为残留".to_string()]
+            } else {
+                vec!["仅管理当前连接创建并登记的分类和链接".to_string()]
+            },
+        }
+    })
+    .collect()
+}
+
+fn collect_remote_objects(
+    value: &serde_json::Value,
+) -> Vec<&serde_json::Map<String, serde_json::Value>> {
+    fn visit<'a>(
+        value: &'a serde_json::Value,
+        output: &mut Vec<&'a serde_json::Map<String, serde_json::Value>>,
+    ) {
+        match value {
+            serde_json::Value::Array(values) => {
+                values.iter().for_each(|value| visit(value, output))
+            }
+            serde_json::Value::Object(object) => {
+                if remote_string(object, &["id", "ID", "category_id", "tool_id"]).is_some() {
+                    output.push(object);
+                }
+                object.values().for_each(|value| visit(value, output));
+            }
+            _ => {}
+        }
+    }
+    let mut output = Vec::new();
+    visit(value, &mut output);
+    output
+}
+
+fn remote_string(
+    object: &serde_json::Map<String, serde_json::Value>,
+    keys: &[&str],
+) -> Option<String> {
+    keys.iter()
+        .find_map(|key| object.get(*key))
+        .and_then(|value| {
+            value
+                .as_str()
+                .map(str::to_string)
+                .or_else(|| value.as_i64().map(|value| value.to_string()))
+        })
+}
+
+fn conflict(
+    object_type: &str,
+    source_id: &str,
+    remote_id: Option<String>,
+    title: &str,
+) -> PlanAction {
+    PlanAction {
+        kind: PlanActionKind::Conflict,
+        object_type: object_type.to_string(),
+        source_id: Some(source_id.to_string()),
+        remote_id,
+        title: title.to_string(),
+        detail: "发现未登记的同名远端对象；为保护面板内容，fn-knock 不会接管".to_string(),
+    }
+}

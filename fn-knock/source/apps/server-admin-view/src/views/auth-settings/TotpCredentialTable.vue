@@ -1,1 +1,254 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDYXJkQ29udGVudCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgU2tlbGV0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2tlbGV0b24iOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IHsKICBUYWJsZSwKICBUYWJsZUJvZHksCiAgVGFibGVDZWxsLAogIFRhYmxlRW1wdHksCiAgVGFibGVIZWFkLAogIFRhYmxlSGVhZGVyLAogIFRhYmxlUm93LAp9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJsZSI7CmltcG9ydCB7CiAgVG9vbHRpcCwKICBUb29sdGlwQ29udGVudCwKICBUb29sdGlwUHJvdmlkZXIsCiAgVG9vbHRpcFRyaWdnZXIsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3Rvb2x0aXAiOwppbXBvcnQgQ29uZmlybURhbmdlclBvcG92ZXIgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtRGFuZ2VyUG9wb3Zlci52dWUiOwppbXBvcnQgSHVtYW5GcmllbmRseVRpbWUgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9IdW1hbkZyaWVuZGx5VGltZS52dWUiOwppbXBvcnQgSW5saW5lQ29tbWVudEVkaXRvciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvSW5saW5lQ29tbWVudEVkaXRvci52dWUiOwppbXBvcnQgdHlwZSB7IFRPVFBDcmVkZW50aWFsIH0gZnJvbSAiLi4vLi4vdHlwZXMiOwoKZGVmaW5lUHJvcHM8ewogIGNyZWRlbnRpYWxzOiBUT1RQQ3JlZGVudGlhbFtdOwogIGdldFN1YmRvbWFpbkFjY2Vzc1ByZXZpZXc6ICh0b3RwOiBUT1RQQ3JlZGVudGlhbCkgPT4gc3RyaW5nOwogIGdldFN1YmRvbWFpbkFjY2Vzc1N1bW1hcnk6ICh0b3RwOiBUT1RQQ3JlZGVudGlhbCkgPT4gc3RyaW5nOwogIGdvVG9QYXNza2V5czogKHRvdHBJZDogc3RyaW5nKSA9PiB2b2lkOwogIGhhbmRsZUFkbWluUGFuZWxBY2Nlc3NUb29sdGlwQ2xpY2s6ICh0b3RwSWQ6IHN0cmluZykgPT4gdm9pZDsKICBoYW5kbGVBZG1pblBhbmVsQWNjZXNzVG9vbHRpcE9wZW5DaGFuZ2U6ICgKICAgIHRvdHBJZDogc3RyaW5nLAogICAgb3BlbjogYm9vbGVhbiwKICApID0+IHZvaWQ7CiAgaGFuZGxlRGVsZXRlOiAodG90cElkOiBzdHJpbmcpID0+IHZvaWQgfCBQcm9taXNlPHZvaWQ+OwogIGhhbmRsZURvY2tlckFkbWluUGFuZWxBY2Nlc3NDaGFuZ2U6ICgKICAgIHRvdHA6IFRPVFBDcmVkZW50aWFsLAogICAgZW5hYmxlZDogYm9vbGVhbiwKICApID0+IHZvaWQgfCBQcm9taXNlPHZvaWQ+OwogIGhhc0RvY2tlckFkbWluUGFuZWxBY2Nlc3M6ICh0b3RwOiBUT1RQQ3JlZGVudGlhbCkgPT4gYm9vbGVhbjsKICBpc0FjY2Vzc1Njb3BlVXBkYXRpbmc6ICh0b3RwSWQ6IHN0cmluZykgPT4gYm9vbGVhbjsKICBpc0FkbWluUGFuZWxBY2Nlc3NUb29sdGlwT3BlbjogKHRvdHBJZDogc3RyaW5nKSA9PiBib29sZWFuOwogIGlzRGVsZXRpbmc6IGJvb2xlYW47CiAgaXNMb2FkaW5nOiBib29sZWFuOwogIGlzU3ViZG9tYWluQWNjZXNzVXBkYXRpbmc6ICh0b3RwSWQ6IHN0cmluZykgPT4gYm9vbGVhbjsKICBvcGVuU3ViZG9tYWluQWNjZXNzRGlhbG9nOiAodG90cDogVE9UUENyZWRlbnRpYWwpID0+IHZvaWQ7CiAgc2F2ZUNvbW1lbnQ6IChpZDogc3RyaW5nLCB2YWx1ZTogc3RyaW5nKSA9PiBQcm9taXNlPHZvaWQ+OwogIHNob3dBZG1pblBhbmVsQWNjZXNzQ29sdW1uOiBib29sZWFuOwogIHNob3dMb2FkaW5nU2tlbGV0b246IGJvb2xlYW47CiAgdGFibGVDbGFzczogc3RyaW5nOwogIHRhYmxlQ29sc3BhbjogbnVtYmVyOwogIHZhbGlkYXRlQ29tbWVudDogKHZhbHVlOiBzdHJpbmcsIGlkOiBzdHJpbmcpID0+IHN0cmluZyB8IHVuZGVmaW5lZDsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8Q2FyZENvbnRlbnQgdi1pZj0iaXNMb2FkaW5nICYmIHNob3dMb2FkaW5nU2tlbGV0b24gJiYgIWNyZWRlbnRpYWxzLmxlbmd0aCI+CiAgICA8VGFibGUgOmNsYXNzPSJ0YWJsZUNsYXNzIiBjb250YWluZXItY2xhc3M9Im92ZXJmbG93LXgtYXV0byI+CiAgICAgIDxjb2xncm91cD4KICAgICAgICA8Y29sIDpjbGFzcz0ic2hvd0FkbWluUGFuZWxBY2Nlc3NDb2x1bW4gPyAndy1bMjQlXScgOiAndy1bMjclXSciIC8+CiAgICAgICAgPGNvbCA6Y2xhc3M9InNob3dBZG1pblBhbmVsQWNjZXNzQ29sdW1uID8gJ3ctWzE2JV0nIDogJ3ctWzE4JV0nIiAvPgogICAgICAgIDxjb2wgOmNsYXNzPSJzaG93QWRtaW5QYW5lbEFjY2Vzc0NvbHVtbiA/ICd3LVsxNiVdJyA6ICd3LVsxOSVdJyIgLz4KICAgICAgICA8Y29sIDpjbGFzcz0ic2hvd0FkbWluUGFuZWxBY2Nlc3NDb2x1bW4gPyAndy1bMTglXScgOiAndy1bMjIlXSciIC8+CiAgICAgICAgPGNvbCB2LWlmPSJzaG93QWRtaW5QYW5lbEFjY2Vzc0NvbHVtbiIgY2xhc3M9InctWzE0JV0iIC8+CiAgICAgICAgPGNvbCA6Y2xhc3M9InNob3dBZG1pblBhbmVsQWNjZXNzQ29sdW1uID8gJ3ctWzEyJV0nIDogJ3ctWzE0JV0nIiAvPgogICAgICA8L2NvbGdyb3VwPgogICAgICA8VGFibGVIZWFkZXI+CiAgICAgICAgPFRhYmxlUm93PgogICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0id2hpdGVzcGFjZS1ub3JtYWwiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MuY29tbWVudCIpIH19CiAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9IndoaXRlc3BhY2Utbm9ybWFsIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLmJvdW5kQXQiKSB9fQogICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJ3aGl0ZXNwYWNlLW5vcm1hbCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5kZXZpY2VBc3NvY2lhdGlvbiIpIH19CiAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9IndoaXRlc3BhY2Utbm9ybWFsIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb24iKSB9fQogICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkCiAgICAgICAgICAgIHYtaWY9InNob3dBZG1pblBhbmVsQWNjZXNzQ29sdW1uIgogICAgICAgICAgICBjbGFzcz0id2hpdGVzcGFjZS1ub3JtYWwiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5hZG1pblBhbmVsQWNjZXNzIikgfX0KICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idGV4dC1yaWdodCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5hY3Rpb25zIikgfX0KICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgIDwvVGFibGVSb3c+CiAgICAgIDwvVGFibGVIZWFkZXI+CiAgICAgIDxUYWJsZUJvZHk+CiAgICAgICAgPFRhYmxlUm93IHYtZm9yPSJuIGluIDQiIDprZXk9Im4iPgogICAgICAgICAgPFRhYmxlQ2VsbD48U2tlbGV0b24gY2xhc3M9ImgtNCB3LTQwIG1heC13LWZ1bGwiIC8+PC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsPjxTa2VsZXRvbiBjbGFzcz0iaC00IHctMzYgbWF4LXctZnVsbCIgLz48L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGw+PFNrZWxldG9uIGNsYXNzPSJoLTQgdy01MiBtYXgtdy1mdWxsIiAvPjwvVGFibGVDZWxsPgogICAgICAgICAgPFRhYmxlQ2VsbD48U2tlbGV0b24gY2xhc3M9ImgtOCB3LTQwIG1heC13LWZ1bGwiIC8+PC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsIHYtaWY9InNob3dBZG1pblBhbmVsQWNjZXNzQ29sdW1uIj4KICAgICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTYgdy0yNCBtYXgtdy1mdWxsIiAvPgogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJ0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJtbC1hdXRvIGgtOCB3LTE2IHJvdW5kZWQtbWQgc206dy0yNCIgLz4KICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgIDwvVGFibGVSb3c+CiAgICAgIDwvVGFibGVCb2R5PgogICAgPC9UYWJsZT4KICA8L0NhcmRDb250ZW50PgogIDxDYXJkQ29udGVudCB2LWVsc2UtaWY9IiFpc0xvYWRpbmcgfHwgY3JlZGVudGlhbHMubGVuZ3RoIj4KICAgIDxUYWJsZSA6Y2xhc3M9InRhYmxlQ2xhc3MiIGNvbnRhaW5lci1jbGFzcz0ib3ZlcmZsb3cteC1hdXRvIj4KICAgICAgPGNvbGdyb3VwPgogICAgICAgIDxjb2wgOmNsYXNzPSJzaG93QWRtaW5QYW5lbEFjY2Vzc0NvbHVtbiA/ICd3LVsyNCVdJyA6ICd3LVsyNyVdJyIgLz4KICAgICAgICA8Y29sIDpjbGFzcz0ic2hvd0FkbWluUGFuZWxBY2Nlc3NDb2x1bW4gPyAndy1bMTYlXScgOiAndy1bMTglXSciIC8+CiAgICAgICAgPGNvbCA6Y2xhc3M9InNob3dBZG1pblBhbmVsQWNjZXNzQ29sdW1uID8gJ3ctWzE2JV0nIDogJ3ctWzE5JV0nIiAvPgogICAgICAgIDxjb2wgOmNsYXNzPSJzaG93QWRtaW5QYW5lbEFjY2Vzc0NvbHVtbiA/ICd3LVsxOCVdJyA6ICd3LVsyMiVdJyIgLz4KICAgICAgICA8Y29sIHYtaWY9InNob3dBZG1pblBhbmVsQWNjZXNzQ29sdW1uIiBjbGFzcz0idy1bMTQlXSIgLz4KICAgICAgICA8Y29sIDpjbGFzcz0ic2hvd0FkbWluUGFuZWxBY2Nlc3NDb2x1bW4gPyAndy1bMTIlXScgOiAndy1bMTQlXSciIC8+CiAgICAgIDwvY29sZ3JvdXA+CiAgICAgIDxUYWJsZUhlYWRlcj4KICAgICAgICA8VGFibGVSb3c+CiAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJ3aGl0ZXNwYWNlLW5vcm1hbCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5jb21tZW50IikgfX0KICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0id2hpdGVzcGFjZS1ub3JtYWwiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MuYm91bmRBdCIpIH19CiAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9IndoaXRlc3BhY2Utbm9ybWFsIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLmRldmljZUFzc29jaWF0aW9uIikgfX0KICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0id2hpdGVzcGFjZS1ub3JtYWwiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MucGVybWlzc2lvbiIpIH19CiAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgIDxUYWJsZUhlYWQKICAgICAgICAgICAgdi1pZj0ic2hvd0FkbWluUGFuZWxBY2Nlc3NDb2x1bW4iCiAgICAgICAgICAgIGNsYXNzPSJ3aGl0ZXNwYWNlLW5vcm1hbCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLmFkbWluUGFuZWxBY2Nlc3MiKSB9fQogICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJ0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLmFjdGlvbnMiKSB9fQogICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgPC9UYWJsZUhlYWRlcj4KICAgICAgPFRhYmxlQm9keT4KICAgICAgICA8VGFibGVSb3cgdi1mb3I9InRvdHAgaW4gY3JlZGVudGlhbHMiIDprZXk9InRvdHAuaWQiPgogICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0ibWluLXctMCB3aGl0ZXNwYWNlLW5vcm1hbCI+CiAgICAgICAgICAgIDxJbmxpbmVDb21tZW50RWRpdG9yCiAgICAgICAgICAgICAgOnRleHQ9InRvdHAuY29tbWVudCIKICAgICAgICAgICAgICA6YWxsb3ctZW1wdHk9ImZhbHNlIgogICAgICAgICAgICAgIDp2YWxpZGF0ZT0iKHZhbHVlKSA9PiB2YWxpZGF0ZUNvbW1lbnQodmFsdWUsIHRvdHAuaWQpIgogICAgICAgICAgICAgIDpzYXZlPSIodmFsdWUpID0+IHNhdmVDb21tZW50KHRvdHAuaWQsIHZhbHVlKSIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgPFRhYmxlQ2VsbD48SHVtYW5GcmllbmRseVRpbWUgOnZhbHVlPSJ0b3RwLmNyZWF0ZWRBdCIgLz48L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9IndoaXRlc3BhY2Utbm9ybWFsIj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHZhcmlhbnQ9ImxpbmsiCiAgICAgICAgICAgICAgZGF0YS1hZmZvcmRhbmNlPSJkZXRhaWxzIgogICAgICAgICAgICAgIGNsYXNzPSJoLWF1dG8gd2hpdGVzcGFjZS1ub3JtYWwgcC0wIHRleHQtbGVmdCIKICAgICAgICAgICAgICBAY2xpY2s9ImdvVG9QYXNza2V5cyh0b3RwLmlkKSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5tYW5hZ2VQYXNza2V5IikgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9Im1pbi13LTAgd2hpdGVzcGFjZS1ub3JtYWwiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IG1pbi13LTAgZmxleC1jb2wgZ2FwLTEiPgogICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgIHZhcmlhbnQ9ImxpbmsiCiAgICAgICAgICAgICAgICBkYXRhLWFmZm9yZGFuY2U9ImVkaXQiCiAgICAgICAgICAgICAgICBjbGFzcz0iaC1hdXRvIG1pbi13LTAganVzdGlmeS1zdGFydCB3aGl0ZXNwYWNlLW5vcm1hbCBwLTAgdGV4dC1sZWZ0IHRleHQtc20iCiAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzU3ViZG9tYWluQWNjZXNzVXBkYXRpbmcodG90cC5pZCkiCiAgICAgICAgICAgICAgICBAY2xpY2s9Im9wZW5TdWJkb21haW5BY2Nlc3NEaWFsb2codG90cCkiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgZ2V0U3ViZG9tYWluQWNjZXNzU3VtbWFyeSh0b3RwKSB9fQogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICB2LWlmPSJnZXRTdWJkb21haW5BY2Nlc3NQcmV2aWV3KHRvdHApIgogICAgICAgICAgICAgICAgY2xhc3M9InRydW5jYXRlIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgOnRpdGxlPSJnZXRTdWJkb21haW5BY2Nlc3NQcmV2aWV3KHRvdHApIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IGdldFN1YmRvbWFpbkFjY2Vzc1ByZXZpZXcodG90cCkgfX0KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsIHYtaWY9InNob3dBZG1pblBhbmVsQWNjZXNzQ29sdW1uIj4KICAgICAgICAgICAgPFRvb2x0aXBQcm92aWRlcj4KICAgICAgICAgICAgICA8VG9vbHRpcAogICAgICAgICAgICAgICAgOm9wZW49ImlzQWRtaW5QYW5lbEFjY2Vzc1Rvb2x0aXBPcGVuKHRvdHAuaWQpIgogICAgICAgICAgICAgICAgQHVwZGF0ZTpvcGVuPSIKICAgICAgICAgICAgICAgICAgaGFuZGxlQWRtaW5QYW5lbEFjY2Vzc1Rvb2x0aXBPcGVuQ2hhbmdlKHRvdHAuaWQsICRldmVudCkKICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgICA8U3dpdGNoCiAgICAgICAgICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJoYXNEb2NrZXJBZG1pblBhbmVsQWNjZXNzKHRvdHApIgogICAgICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNBY2Nlc3NTY29wZVVwZGF0aW5nKHRvdHAuaWQpIgogICAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi5hdXRoU2V0dGluZ3MuYWRtaW5QYW5lbEFjY2VzcycpIgogICAgICAgICAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9IgogICAgICAgICAgICAgICAgICAgICAgaGFuZGxlRG9ja2VyQWRtaW5QYW5lbEFjY2Vzc0NoYW5nZSh0b3RwLCAkZXZlbnQgPT09IHRydWUpCiAgICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICA8VG9vbHRpcFRyaWdnZXIgYXMtY2hpbGQ+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgICAgICAgZGF0YS1hZmZvcmRhbmNlPSJoZWxwIgogICAgICAgICAgICAgICAgICAgICAgY2xhc3M9ImN1cnNvci1oZWxwIHJvdW5kZWQtc20gdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgdW5kZXJsaW5lIGRlY29yYXRpb24tZG90dGVkIGRlY29yYXRpb24tbXV0ZWQtZm9yZWdyb3VuZC82MCB1bmRlcmxpbmUtb2Zmc2V0LTQgZm9jdXMtdmlzaWJsZTpvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpyaW5nLTIgZm9jdXMtdmlzaWJsZTpyaW5nLXJpbmcgZm9jdXMtdmlzaWJsZTpyaW5nLW9mZnNldC0yIgogICAgICAgICAgICAgICAgICAgICAgQGNsaWNrPSJoYW5kbGVBZG1pblBhbmVsQWNjZXNzVG9vbHRpcENsaWNrKHRvdHAuaWQpIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgICAgICAgIGhhc0RvY2tlckFkbWluUGFuZWxBY2Nlc3ModG90cCkKICAgICAgICAgICAgICAgICAgICAgICAgICA/IHQoImFkbWluLmF1dGhTZXR0aW5ncy5hZG1pblBhbmVsQWxsb3dlZCIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5hdXRoU2V0dGluZ3MuYWRtaW5QYW5lbERlbmllZCIpCiAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICA8L1Rvb2x0aXBUcmlnZ2VyPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8VG9vbHRpcENvbnRlbnQgY2xhc3M9Im1heC13LTcyIHRleHQtbGVmdCI+CiAgICAgICAgICAgICAgICAgIDxwPnt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5hZG1pblBhbmVsQWNjZXNzVG9vbHRpcCIpIH19PC9wPgogICAgICAgICAgICAgICAgPC9Ub29sdGlwQ29udGVudD4KICAgICAgICAgICAgICA8L1Rvb2x0aXA+CiAgICAgICAgICAgIDwvVG9vbHRpcFByb3ZpZGVyPgogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJ0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAgPENvbmZpcm1EYW5nZXJQb3BvdmVyCiAgICAgICAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5hdXRoU2V0dGluZ3MuZGVsZXRlVGl0bGUnKSIKICAgICAgICAgICAgICA6ZGVzY3JpcHRpb249IgogICAgICAgICAgICAgICAgdCgnYWRtaW4uYXV0aFNldHRpbmdzLmRlbGV0ZURlc2NyaXB0aW9uJywgewogICAgICAgICAgICAgICAgICBuYW1lOiB0b3RwLmNvbW1lbnQgfHwgdCgnYWRtaW4uYXV0aFNldHRpbmdzLnRva2VuRmFsbGJhY2snKSwKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgIgogICAgICAgICAgICAgIDpsb2FkaW5nPSJpc0RlbGV0aW5nIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNEZWxldGluZyIKICAgICAgICAgICAgICA6b24tY29uZmlybT0iKCkgPT4gaGFuZGxlRGVsZXRlKHRvdHAuaWQpIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJkZXN0cnVjdGl2ZSIgc2l6ZT0ic20iIDpkaXNhYmxlZD0iaXNEZWxldGluZyI+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5kZWxldGUiKSB9fQogICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgPFRhYmxlRW1wdHkgdi1pZj0iY3JlZGVudGlhbHMubGVuZ3RoID09PSAwIiA6Y29sc3Bhbj0idGFibGVDb2xzcGFuIj4KICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5lbXB0eSIpIH19CiAgICAgICAgPC9UYWJsZUVtcHR5PgogICAgICA8L1RhYmxlQm9keT4KICAgIDwvVGFibGU+CiAgPC9DYXJkQ29udGVudD4KICA8Q2FyZENvbnRlbnQgdi1lbHNlIGNsYXNzPSJtaW4taC1bMTgwcHhdIiBhcmlhLWhpZGRlbj0idHJ1ZSI+PC9DYXJkQ29udGVudD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import { CardContent } from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
+import { Switch } from "@/components/ui/switch";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableEmpty,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import InlineCommentEditor from "@admin-shared/components/InlineCommentEditor.vue";
+import type { TOTPCredential } from "../../types";
+
+defineProps<{
+  credentials: TOTPCredential[];
+  getSubdomainAccessPreview: (totp: TOTPCredential) => string;
+  getSubdomainAccessSummary: (totp: TOTPCredential) => string;
+  goToPasskeys: (totpId: string) => void;
+  handleAdminPanelAccessTooltipClick: (totpId: string) => void;
+  handleAdminPanelAccessTooltipOpenChange: (
+    totpId: string,
+    open: boolean,
+  ) => void;
+  handleDelete: (totpId: string) => void | Promise<void>;
+  handleDockerAdminPanelAccessChange: (
+    totp: TOTPCredential,
+    enabled: boolean,
+  ) => void | Promise<void>;
+  hasDockerAdminPanelAccess: (totp: TOTPCredential) => boolean;
+  isAccessScopeUpdating: (totpId: string) => boolean;
+  isAdminPanelAccessTooltipOpen: (totpId: string) => boolean;
+  isDeleting: boolean;
+  isLoading: boolean;
+  isSubdomainAccessUpdating: (totpId: string) => boolean;
+  openSubdomainAccessDialog: (totp: TOTPCredential) => void;
+  saveComment: (id: string, value: string) => Promise<void>;
+  showAdminPanelAccessColumn: boolean;
+  showLoadingSkeleton: boolean;
+  tableClass: string;
+  tableColspan: number;
+  validateComment: (value: string, id: string) => string | undefined;
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <CardContent v-if="isLoading && showLoadingSkeleton && !credentials.length">
+    <Table :class="tableClass" container-class="overflow-x-auto">
+      <colgroup>
+        <col :class="showAdminPanelAccessColumn ? 'w-[24%]' : 'w-[27%]'" />
+        <col :class="showAdminPanelAccessColumn ? 'w-[16%]' : 'w-[18%]'" />
+        <col :class="showAdminPanelAccessColumn ? 'w-[16%]' : 'w-[19%]'" />
+        <col :class="showAdminPanelAccessColumn ? 'w-[18%]' : 'w-[22%]'" />
+        <col v-if="showAdminPanelAccessColumn" class="w-[14%]" />
+        <col :class="showAdminPanelAccessColumn ? 'w-[12%]' : 'w-[14%]'" />
+      </colgroup>
+      <TableHeader>
+        <TableRow>
+          <TableHead class="whitespace-normal">
+            {{ t("admin.authSettings.comment") }}
+          </TableHead>
+          <TableHead class="whitespace-normal">
+            {{ t("admin.authSettings.boundAt") }}
+          </TableHead>
+          <TableHead class="whitespace-normal">
+            {{ t("admin.authSettings.deviceAssociation") }}
+          </TableHead>
+          <TableHead class="whitespace-normal">
+            {{ t("admin.authSettings.permission") }}
+          </TableHead>
+          <TableHead
+            v-if="showAdminPanelAccessColumn"
+            class="whitespace-normal"
+          >
+            {{ t("admin.authSettings.adminPanelAccess") }}
+          </TableHead>
+          <TableHead class="text-right">
+            {{ t("admin.authSettings.actions") }}
+          </TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        <TableRow v-for="n in 4" :key="n">
+          <TableCell><Skeleton class="h-4 w-40 max-w-full" /></TableCell>
+          <TableCell><Skeleton class="h-4 w-36 max-w-full" /></TableCell>
+          <TableCell><Skeleton class="h-4 w-52 max-w-full" /></TableCell>
+          <TableCell><Skeleton class="h-8 w-40 max-w-full" /></TableCell>
+          <TableCell v-if="showAdminPanelAccessColumn">
+            <Skeleton class="h-6 w-24 max-w-full" />
+          </TableCell>
+          <TableCell class="text-right">
+            <Skeleton class="ml-auto h-8 w-16 rounded-md sm:w-24" />
+          </TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+  </CardContent>
+  <CardContent v-else-if="!isLoading || credentials.length">
+    <Table :class="tableClass" container-class="overflow-x-auto">
+      <colgroup>
+        <col :class="showAdminPanelAccessColumn ? 'w-[24%]' : 'w-[27%]'" />
+        <col :class="showAdminPanelAccessColumn ? 'w-[16%]' : 'w-[18%]'" />
+        <col :class="showAdminPanelAccessColumn ? 'w-[16%]' : 'w-[19%]'" />
+        <col :class="showAdminPanelAccessColumn ? 'w-[18%]' : 'w-[22%]'" />
+        <col v-if="showAdminPanelAccessColumn" class="w-[14%]" />
+        <col :class="showAdminPanelAccessColumn ? 'w-[12%]' : 'w-[14%]'" />
+      </colgroup>
+      <TableHeader>
+        <TableRow>
+          <TableHead class="whitespace-normal">
+            {{ t("admin.authSettings.comment") }}
+          </TableHead>
+          <TableHead class="whitespace-normal">
+            {{ t("admin.authSettings.boundAt") }}
+          </TableHead>
+          <TableHead class="whitespace-normal">
+            {{ t("admin.authSettings.deviceAssociation") }}
+          </TableHead>
+          <TableHead class="whitespace-normal">
+            {{ t("admin.authSettings.permission") }}
+          </TableHead>
+          <TableHead
+            v-if="showAdminPanelAccessColumn"
+            class="whitespace-normal"
+          >
+            {{ t("admin.authSettings.adminPanelAccess") }}
+          </TableHead>
+          <TableHead class="text-right">
+            {{ t("admin.authSettings.actions") }}
+          </TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        <TableRow v-for="totp in credentials" :key="totp.id">
+          <TableCell class="min-w-0 whitespace-normal">
+            <InlineCommentEditor
+              :text="totp.comment"
+              :allow-empty="false"
+              :validate="(value) => validateComment(value, totp.id)"
+              :save="(value) => saveComment(totp.id, value)"
+            />
+          </TableCell>
+          <TableCell><HumanFriendlyTime :value="totp.createdAt" /></TableCell>
+          <TableCell class="whitespace-normal">
+            <Button
+              variant="link"
+              data-affordance="details"
+              class="h-auto whitespace-normal p-0 text-left"
+              @click="goToPasskeys(totp.id)"
+            >
+              {{ t("admin.authSettings.managePasskey") }}
+            </Button>
+          </TableCell>
+          <TableCell class="min-w-0 whitespace-normal">
+            <div class="flex min-w-0 flex-col gap-1">
+              <Button
+                type="button"
+                variant="link"
+                data-affordance="edit"
+                class="h-auto min-w-0 justify-start whitespace-normal p-0 text-left text-sm"
+                :disabled="isSubdomainAccessUpdating(totp.id)"
+                @click="openSubdomainAccessDialog(totp)"
+              >
+                {{ getSubdomainAccessSummary(totp) }}
+              </Button>
+              <span
+                v-if="getSubdomainAccessPreview(totp)"
+                class="truncate text-xs text-muted-foreground"
+                :title="getSubdomainAccessPreview(totp)"
+              >
+                {{ getSubdomainAccessPreview(totp) }}
+              </span>
+            </div>
+          </TableCell>
+          <TableCell v-if="showAdminPanelAccessColumn">
+            <TooltipProvider>
+              <Tooltip
+                :open="isAdminPanelAccessTooltipOpen(totp.id)"
+                @update:open="
+                  handleAdminPanelAccessTooltipOpenChange(totp.id, $event)
+                "
+              >
+                <div class="inline-flex items-center gap-2">
+                  <Switch
+                    :model-value="hasDockerAdminPanelAccess(totp)"
+                    :disabled="isAccessScopeUpdating(totp.id)"
+                    :aria-label="t('admin.authSettings.adminPanelAccess')"
+                    @update:model-value="
+                      handleDockerAdminPanelAccessChange(totp, $event === true)
+                    "
+                  />
+                  <TooltipTrigger as-child>
+                    <button
+                      type="button"
+                      data-affordance="help"
+                      class="cursor-help rounded-sm text-xs text-muted-foreground underline decoration-dotted decoration-muted-foreground/60 underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                      @click="handleAdminPanelAccessTooltipClick(totp.id)"
+                    >
+                      {{
+                        hasDockerAdminPanelAccess(totp)
+                          ? t("admin.authSettings.adminPanelAllowed")
+                          : t("admin.authSettings.adminPanelDenied")
+                      }}
+                    </button>
+                  </TooltipTrigger>
+                </div>
+                <TooltipContent class="max-w-72 text-left">
+                  <p>{{ t("admin.authSettings.adminPanelAccessTooltip") }}</p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
+          </TableCell>
+          <TableCell class="text-right">
+            <ConfirmDangerPopover
+              :title="t('admin.authSettings.deleteTitle')"
+              :description="
+                t('admin.authSettings.deleteDescription', {
+                  name: totp.comment || t('admin.authSettings.tokenFallback'),
+                })
+              "
+              :loading="isDeleting"
+              :disabled="isDeleting"
+              :on-confirm="() => handleDelete(totp.id)"
+            >
+              <template #trigger>
+                <Button variant="destructive" size="sm" :disabled="isDeleting">
+                  {{ t("admin.authSettings.delete") }}
+                </Button>
+              </template>
+            </ConfirmDangerPopover>
+          </TableCell>
+        </TableRow>
+        <TableEmpty v-if="credentials.length === 0" :colspan="tableColspan">
+          {{ t("admin.authSettings.empty") }}
+        </TableEmpty>
+      </TableBody>
+    </Table>
+  </CardContent>
+  <CardContent v-else class="min-h-[180px]" aria-hidden="true"></CardContent>
+</template>

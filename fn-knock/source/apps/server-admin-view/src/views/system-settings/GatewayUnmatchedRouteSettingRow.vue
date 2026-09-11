@@ -1,1 +1,69 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgdHlwZSB7IEdhdGV3YXlVbm1hdGNoZWRSb3V0ZUJlaGF2aW9yIH0gZnJvbSAiQC90eXBlcyI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBkZXNjcmlwdGlvbjogc3RyaW5nOwogIGRpc2FibGVkPzogYm9vbGVhbjsKICBlcnJvclBhZ2VMYWJlbDogc3RyaW5nOwogIG1vZGVsVmFsdWU6IEdhdGV3YXlVbm1hdGNoZWRSb3V0ZUJlaGF2aW9yOwogIHJlc2V0Q29ubmVjdGlvbkxhYmVsOiBzdHJpbmc7CiAgdGl0bGU6IHN0cmluZzsKICB3YXJuaW5nOiBzdHJpbmc7Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICJ1cGRhdGU6bW9kZWxWYWx1ZSI6IFt2YWx1ZTogR2F0ZXdheVVubWF0Y2hlZFJvdXRlQmVoYXZpb3JdOwp9PigpOwoKY29uc3Qgc2VsZWN0QmVoYXZpb3IgPSAodmFsdWU6IEdhdGV3YXlVbm1hdGNoZWRSb3V0ZUJlaGF2aW9yKSA9PiB7CiAgaWYgKCFwcm9wcy5kaXNhYmxlZCkgZW1pdCgidXBkYXRlOm1vZGVsVmFsdWUiLCB2YWx1ZSk7Cn07Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYKICAgIGNsYXNzPSJncmlkIGdhcC0zIHAtNiBzbTpncmlkLWNvbHMtW21pbm1heCgwLDFmcilfYXV0b10gc206aXRlbXMtY2VudGVyIHNtOmdhcC00IgogID4KICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSBwci02Ij4KICAgICAgPGRpdiBjbGFzcz0idGV4dC1iYXNlIGZvbnQtbWVkaXVtIj57eyB0aXRsZSB9fTwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgZGVzY3JpcHRpb24gfX0KICAgICAgPC9kaXY+CiAgICAgIDxkaXYKICAgICAgICB2LWlmPSJtb2RlbFZhbHVlID09PSAncmVzZXRfY29ubmVjdGlvbiciCiAgICAgICAgY2xhc3M9InRleHQteHMgbGVhZGluZy01IHRleHQtYW1iZXItNjAwIGRhcms6dGV4dC1hbWJlci0zMDAiCiAgICAgID4KICAgICAgICB7eyB3YXJuaW5nIH19CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8ZGl2CiAgICAgIHJvbGU9Imdyb3VwIgogICAgICA6YXJpYS1sYWJlbD0idGl0bGUiCiAgICAgIGNsYXNzPSJpbmxpbmUtZmxleCB3LWZpdCByb3VuZGVkLW1kIGJvcmRlciBiZy1iYWNrZ3JvdW5kIHAtMSIKICAgID4KICAgICAgPEJ1dHRvbgogICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICBzaXplPSJzbSIKICAgICAgICA6dmFyaWFudD0ibW9kZWxWYWx1ZSA9PT0gJ2Vycm9yX3BhZ2UnID8gJ2RlZmF1bHQnIDogJ2dob3N0JyIKICAgICAgICBjbGFzcz0iaC04IHB4LTMiCiAgICAgICAgOmRpc2FibGVkPSJkaXNhYmxlZCIKICAgICAgICA6YXJpYS1wcmVzc2VkPSJtb2RlbFZhbHVlID09PSAnZXJyb3JfcGFnZSciCiAgICAgICAgQGNsaWNrPSJzZWxlY3RCZWhhdmlvcignZXJyb3JfcGFnZScpIgogICAgICA+CiAgICAgICAge3sgZXJyb3JQYWdlTGFiZWwgfX0KICAgICAgPC9CdXR0b24+CiAgICAgIDxCdXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgOnZhcmlhbnQ9Im1vZGVsVmFsdWUgPT09ICdyZXNldF9jb25uZWN0aW9uJyA/ICdkZWZhdWx0JyA6ICdnaG9zdCciCiAgICAgICAgY2xhc3M9ImgtOCBweC0zIgogICAgICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQiCiAgICAgICAgOmFyaWEtcHJlc3NlZD0ibW9kZWxWYWx1ZSA9PT0gJ3Jlc2V0X2Nvbm5lY3Rpb24nIgogICAgICAgIEBjbGljaz0ic2VsZWN0QmVoYXZpb3IoJ3Jlc2V0X2Nvbm5lY3Rpb24nKSIKICAgICAgPgogICAgICAgIHt7IHJlc2V0Q29ubmVjdGlvbkxhYmVsIH19CiAgICAgIDwvQnV0dG9uPgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { Button } from "@/components/ui/button";
+import type { GatewayUnmatchedRouteBehavior } from "@/types";
+
+const props = defineProps<{
+  description: string;
+  disabled?: boolean;
+  errorPageLabel: string;
+  modelValue: GatewayUnmatchedRouteBehavior;
+  resetConnectionLabel: string;
+  title: string;
+  warning: string;
+}>();
+
+const emit = defineEmits<{
+  "update:modelValue": [value: GatewayUnmatchedRouteBehavior];
+}>();
+
+const selectBehavior = (value: GatewayUnmatchedRouteBehavior) => {
+  if (!props.disabled) emit("update:modelValue", value);
+};
+</script>
+
+<template>
+  <div
+    class="grid gap-3 p-6 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-4"
+  >
+    <div class="space-y-1 pr-6">
+      <div class="text-base font-medium">{{ title }}</div>
+      <div class="text-sm text-muted-foreground">
+        {{ description }}
+      </div>
+      <div
+        v-if="modelValue === 'reset_connection'"
+        class="text-xs leading-5 text-amber-600 dark:text-amber-300"
+      >
+        {{ warning }}
+      </div>
+    </div>
+    <div
+      role="group"
+      :aria-label="title"
+      class="inline-flex w-fit rounded-md border bg-background p-1"
+    >
+      <Button
+        type="button"
+        size="sm"
+        :variant="modelValue === 'error_page' ? 'default' : 'ghost'"
+        class="h-8 px-3"
+        :disabled="disabled"
+        :aria-pressed="modelValue === 'error_page'"
+        @click="selectBehavior('error_page')"
+      >
+        {{ errorPageLabel }}
+      </Button>
+      <Button
+        type="button"
+        size="sm"
+        :variant="modelValue === 'reset_connection' ? 'default' : 'ghost'"
+        class="h-8 px-3"
+        :disabled="disabled"
+        :aria-pressed="modelValue === 'reset_connection'"
+        @click="selectBehavior('reset_connection')"
+      >
+        {{ resetConnectionLabel }}
+      </Button>
+    </div>
+  </div>
+</template>

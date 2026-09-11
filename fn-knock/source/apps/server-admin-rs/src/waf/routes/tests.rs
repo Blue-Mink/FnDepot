@@ -1,1 +1,528 @@
-dXNlIHN1cGVyOjpzZXJ2aWNlOjp7CiAgICBhcHBseV9yZWNvbW1lbmRlZF9sZmlfcnVsZV9wYXRjaF9pZl9uZWVkZWQsIGFwcGx5X3JlY29tbWVuZGVkX3N5c3RlbV9ydWxlX3N0YXRlLAogICAgbm9ybWFsaXplX2ZpeGVkX3dhZl9jb25maWcsIHNob3VsZF9zeW5jX3N5c3RlbV9ydWxlc19mb3JfcmVzdG9yZSwgd2FmX2RyYWluX3NjaGVkdWxlLAogICAgd2FmX2RyYWluX3NldHRpbmdzLCB3YWl0X2Zvcl93YWZfZHJhaW4sCn07CnVzZSBzdXBlcjo6KjsKdXNlIHNlcmRlX2pzb246Ompzb247CgojW3BhdGggPSAiZHJhaW5fdGVzdHMucnMiXQptb2QgZHJhaW47CiNbcGF0aCA9ICJ3b3JrZXJfdGVzdHMucnMiXQptb2Qgd29ya2VyOwoKYXN5bmMgZm4gd2FmX3Rlc3Rfc3RhdGUoZ29fYmFja2VuZF9ncnBjX2FkZHI6ICZzdHIpIC0+ICh0ZW1wZmlsZTo6VGVtcERpciwgQXBwU3RhdGUpIHsKICAgIGxldCBkaXJlY3RvcnkgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLnVud3JhcCgpOwogICAgbGV0IG11dCBzZXR0aW5ncyA9IHsKICAgICAgICBsZXQgX2Vudmlyb25tZW50ID0gY3JhdGU6OnRlc3Rfc3VwcG9ydDo6RW52R3VhcmQ6Om5ldygmW10pOwogICAgICAgIGNyYXRlOjpzZXR0aW5nczo6U2V0dGluZ3M6OmZyb21fZW52KCkKICAgIH07CiAgICBzZXR0aW5ncy5ydW50aW1lX3RhcmdldCA9ICJsaW51eCIudG9fc3RyaW5nKCk7CiAgICBzZXR0aW5ncy5kYXRhX2RpciA9IGRpcmVjdG9yeS5wYXRoKCkuam9pbigiZGF0YSIpOwogICAgc2V0dGluZ3MuZ2F0ZXdheV9jb25maWdfZGlyID0gZGlyZWN0b3J5LnBhdGgoKS5qb2luKCJnYXRld2F5Iik7CiAgICBzZXR0aW5ncy53YWZfZGlyID0gZGlyZWN0b3J5LnBhdGgoKS5qb2luKCJ3YWYiKTsKICAgIHNldHRpbmdzLnNxbGl0ZV9wYXRoID0gZGlyZWN0b3J5LnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIik7CiAgICBzZXR0aW5ncy5sZWdhY3lfcmVkaXNfdXJsID0gU3RyaW5nOjpuZXcoKTsKICAgIHNldHRpbmdzLmdvX2JhY2tlbmRfZ3JwY19hZGRyID0gZ29fYmFja2VuZF9ncnBjX2FkZHIudG9fc3RyaW5nKCk7CiAgICBzZXR0aW5ncy5pbnRlcm5hbF9ycGNfdG9rZW4gPSAidGVzdC1pbnRlcm5hbC1ycGMtdG9rZW4iLnRvX3N0cmluZygpOwogICAgc2V0dGluZ3MucmVxdWVzdF90aW1lb3V0ID0gc3RkOjp0aW1lOjpEdXJhdGlvbjo6ZnJvbV9taWxsaXMoMTAwKTsKICAgIGxldCBzdGF0ZSA9IEFwcFN0YXRlOjpuZXcoc2V0dGluZ3MpLmF3YWl0LnVud3JhcCgpOwogICAgKGRpcmVjdG9yeSwgc3RhdGUpCn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIGRpc2FibGVkX3dhZl9oYXNfbm9fcGVyaW9kaWNfZHJhaW5fZGVhZGxpbmUoKSB7CiAgICBsZXQgKF9kaXJlY3RvcnksIHN0YXRlKSA9IHdhZl90ZXN0X3N0YXRlKCJodHRwOi8vMTI3LjAuMC4xOjEiKS5hd2FpdDsKICAgIGxldCBtdXQgY29uZmlnID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQudW53cmFwKCk7CiAgICBjb25maWdbIndhZiJdID0ganNvbiEoeyJlbmFibGVkIjogZmFsc2V9KTsKICAgIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuc2F2ZV9jb25maWcoJmNvbmZpZykuYXdhaXQudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKHdhZl9kcmFpbl9zY2hlZHVsZSgmc3RhdGUpLCBOb25lKTsKCiAgICBsZXQgbXV0IGNvbmZpZyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0LnVud3JhcCgpOwogICAgY29uZmlnWyJ3YWYiXSA9IGpzb24hKHsiZW5hYmxlZCI6IHRydWUsICJkcmFpbl9pbnRlcnZhbF9zZWNvbmRzIjogMTd9KTsKICAgIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuc2F2ZV9jb25maWcoJmNvbmZpZykuYXdhaXQudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKHdhZl9kcmFpbl9zY2hlZHVsZSgmc3RhdGUpLCBTb21lKDE3KSk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIG5vcm1hbGl6ZXNfd2FmX2Jsb2NrX2JlaGF2aW9yX3dpdGhfYmFja3dhcmRfY29tcGF0aWJsZV9kZWZhdWx0KCkgewogICAgbGV0IChfZGlyZWN0b3J5LCBzdGF0ZSkgPSB3YWZfdGVzdF9zdGF0ZSgiaHR0cDovLzEyNy4wLjAuMToxIikuYXdhaXQ7CgogICAgZm9yIGlucHV0IGluIFtqc29uISh7fSksIGpzb24hKHsiYmxvY2tfYmVoYXZpb3IiOiAiaW52YWxpZCJ9KV0gewogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIG5vcm1hbGl6ZV9maXhlZF93YWZfY29uZmlnKFNvbWUoJmlucHV0KSwgJnN0YXRlKS5nZXQoImJsb2NrX2JlaGF2aW9yIiksCiAgICAgICAgICAgIFNvbWUoJmpzb24hKCJlcnJvcl9wYWdlIikpCiAgICAgICAgKTsKICAgIH0KCiAgICBhc3NlcnRfZXEhKAogICAgICAgIG5vcm1hbGl6ZV9maXhlZF93YWZfY29uZmlnKFNvbWUoJmpzb24hKHsiYmxvY2tfYmVoYXZpb3IiOiAicmVzZXRfY29ubmVjdGlvbiJ9KSksICZzdGF0ZSwpCiAgICAgICAgICAgIC5nZXQoImJsb2NrX2JlaGF2aW9yIiksCiAgICAgICAgU29tZSgmanNvbiEoInJlc2V0X2Nvbm5lY3Rpb24iKSkKICAgICk7Cn0KCiNbdGVzdF0KZm4gc2FuaXRpemVzX2luaXRpYWxpemF0aW9uX3J1bGVzX2xpa2Vfbm9kZSgpIHsKICAgIGxldCBldmVudCA9IHNhbml0aXplX2V2ZW50KGpzb24hKHsKICAgICAgICAidHJhY2VfaWQiOiAidDEiLAogICAgICAgICJhY3Rpb24iOiAibG9nIiwKICAgICAgICAicnVsZXMiOiBbCiAgICAgICAgICAgIHsgImlkIjogOTAxLCAiZmlsZSI6ICIveC9SRVFVRVNULTkwMS1JTklUSUFMSVpBVElPTi5jb25mIiB9LAogICAgICAgICAgICB7ICJpZCI6IDEwMDEsICJmaWxlIjogIi94L3J1bGUuY29uZiIgfQogICAgICAgIF0sCiAgICAgICAgInJ1bGVfaWRzIjogWzkwMSwgMTAwMV0sCiAgICAgICAgImludGVycnVwdGlvbiI6IHsgInJ1bGVfaWQiOiA5MDEgfQogICAgfSkpCiAgICAudW53cmFwKCk7CgogICAgYXNzZXJ0X2VxIShldmVudFsicnVsZXMiXS5hc19hcnJheSgpLnVud3JhcCgpLmxlbigpLCAxKTsKICAgIGFzc2VydF9lcSEoZXZlbnRbInJ1bGVfaWRzIl0sIGpzb24hKFsxMDAxXSkpOwogICAgYXNzZXJ0IShldmVudC5nZXQoImludGVycnVwdGlvbiIpLmlzX25vbmUoKSk7Cn0KCiNbdGVzdF0KZm4gZHJvcHNfZXZlbnRzX3dpdGhvdXRfcnVsZV9vcl9ibG9ja2luZ19zaWduYWwoKSB7CiAgICBhc3NlcnQhKAogICAgICAgIHNhbml0aXplX2V2ZW50KGpzb24hKHsKICAgICAgICAgICAgInRyYWNlX2lkIjogInQxIiwKICAgICAgICAgICAgImFjdGlvbiI6ICJsb2ciLAogICAgICAgICAgICAicnVsZXMiOiBbXQogICAgICAgIH0pKQogICAgICAgIC5pc19ub25lKCkKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHNhbml0aXplX2V2ZW50KGpzb24hKHsKICAgICAgICAgICAgInRyYWNlX2lkIjogInQxIiwKICAgICAgICAgICAgImFjdGlvbiI6ICJibG9jayIKICAgICAgICB9KSkKICAgICAgICAuaXNfc29tZSgpCiAgICApOwp9CgojW3Rlc3RdCmZuIGZpbHRlcnNfd2FmX2V2ZW50c19ieV9xdWVyeSgpIHsKICAgIGxldCBldmVudCA9IGpzb24hKHsKICAgICAgICAidHJhY2VfaWQiOiAiYWJjIiwKICAgICAgICAiaG9zdCI6ICJleGFtcGxlLmNvbSIsCiAgICAgICAgImNsaWVudF9pcCI6ICIxLjEuMS4xIiwKICAgICAgICAicm91dGVfdHlwZSI6ICJob3N0IiwKICAgICAgICAibW9kZSI6ICJibG9ja2luZyIsCiAgICAgICAgInJ1bGVfaWRzIjogWzEwMDFdLAogICAgICAgICJwYXRoIjogIi9sb2dpbiIKICAgIH0pOwogICAgYXNzZXJ0IShldmVudF9tYXRjaGVzKAogICAgICAgICZldmVudCwKICAgICAgICAmV2FmTG9nUXVlcnkgewogICAgICAgICAgICBkYXRlOiBOb25lLAogICAgICAgICAgICB0cmFjZV9pZDogTm9uZSwKICAgICAgICAgICAgc2VhcmNoOiBTb21lKCJsb2dpbiIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICBob3N0OiBTb21lKCJFWEFNUExFLmNvbSIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICBjbGllbnRfaXA6IFNvbWUoIjEuMS4xLjEiLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgcnVsZV9pZDogU29tZSgiMTAwMSIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICByb3V0ZV90eXBlOiBTb21lKCJob3N0Ii50b19zdHJpbmcoKSksCiAgICAgICAgICAgIG1vZGU6IFNvbWUoImJsb2NraW5nIi50b19zdHJpbmcoKSksCiAgICAgICAgICAgIGN1cnNvcjogTm9uZSwKICAgICAgICAgICAgbGltaXQ6IE5vbmUsCiAgICAgICAgfQogICAgKSk7Cn0KCiNbdGVzdF0KZm4gd2FmX3F1ZXJ5X251bWJlcl9wYXJzZXJzX21hdGNoX25vZGVfcGFyc2VfaW50X2VkZ2VzKCkgewogICAgYXNzZXJ0X2VxIShub3JtYWxpemVfbGltaXQoU29tZSgiMTB4IikpLCAxMCk7CiAgICBhc3NlcnRfZXEhKG5vcm1hbGl6ZV9saW1pdChTb21lKCIgICszLjkiKSksIDMpOwogICAgYXNzZXJ0X2VxIShub3JtYWxpemVfbGltaXQoU29tZSgiLTEiKSksIDUwKTsKICAgIGFzc2VydF9lcSEobm9ybWFsaXplX2xpbWl0KFNvbWUoIjMwMCIpKSwgMjAwKTsKICAgIGFzc2VydF9lcSEobm9ybWFsaXplX2xpbWl0KFNvbWUoIjB4MTAiKSksIDUwKTsKCiAgICBhc3NlcnRfZXEhKG5vcm1hbGl6ZV9jdXJzb3IoU29tZSgiMTJ4IikpLCAxMik7CiAgICBhc3NlcnRfZXEhKG5vcm1hbGl6ZV9jdXJzb3IoU29tZSgiICArMy45IikpLCAzKTsKICAgIGFzc2VydF9lcSEobm9ybWFsaXplX2N1cnNvcihTb21lKCItMSIpKSwgMCk7CiAgICBhc3NlcnRfZXEhKG5vcm1hbGl6ZV9jdXJzb3IoU29tZSgiMHgxMCIpKSwgMCk7Cn0KCiNbdGVzdF0KZm4gd2FmX2V2ZW50X2ZpbHRlcnNfbWF0Y2hfbm9kZV91bmljb2RlX2FuZF9ydWxlX2lkX3ByZWZpeGVzKCkgewogICAgbGV0IGV2ZW50ID0ganNvbiEoewogICAgICAgICJ0cmFjZV9pZCI6ICJhYmMiLAogICAgICAgICJob3N0IjogIsOELmV4YW1wbGUiLAogICAgICAgICJjbGllbnRfaXAiOiAiMS4xLjEuMSIsCiAgICAgICAgInJvdXRlX3R5cGUiOiAiaG9zdCIsCiAgICAgICAgIm1vZGUiOiAiYmxvY2tpbmciLAogICAgICAgICJydWxlX2lkcyI6IFsxMDAxXSwKICAgICAgICAicGF0aCI6ICIvw4RsaWNlIgogICAgfSk7CgogICAgYXNzZXJ0IShldmVudF9tYXRjaGVzKAogICAgICAgICZldmVudCwKICAgICAgICAmV2FmTG9nUXVlcnkgewogICAgICAgICAgICBkYXRlOiBOb25lLAogICAgICAgICAgICB0cmFjZV9pZDogTm9uZSwKICAgICAgICAgICAgc2VhcmNoOiBTb21lKCLDpGxpY2UiLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgaG9zdDogU29tZSgiw6QuZXhhbXBsZSIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICBjbGllbnRfaXA6IE5vbmUsCiAgICAgICAgICAgIHJ1bGVfaWQ6IFNvbWUoIjEwMDF4Ii50b19zdHJpbmcoKSksCiAgICAgICAgICAgIHJvdXRlX3R5cGU6IE5vbmUsCiAgICAgICAgICAgIG1vZGU6IE5vbmUsCiAgICAgICAgICAgIGN1cnNvcjogTm9uZSwKICAgICAgICAgICAgbGltaXQ6IE5vbmUsCiAgICAgICAgfQogICAgKSk7CgogICAgYXNzZXJ0ISghZXZlbnRfbWF0Y2hlcygKICAgICAgICAmZXZlbnQsCiAgICAgICAgJldhZkxvZ1F1ZXJ5IHsKICAgICAgICAgICAgZGF0ZTogTm9uZSwKICAgICAgICAgICAgdHJhY2VfaWQ6IE5vbmUsCiAgICAgICAgICAgIHNlYXJjaDogTm9uZSwKICAgICAgICAgICAgaG9zdDogTm9uZSwKICAgICAgICAgICAgY2xpZW50X2lwOiBOb25lLAogICAgICAgICAgICBydWxlX2lkOiBTb21lKCJub3BlIi50b19zdHJpbmcoKSksCiAgICAgICAgICAgIHJvdXRlX3R5cGU6IE5vbmUsCiAgICAgICAgICAgIG1vZGU6IE5vbmUsCiAgICAgICAgICAgIGN1cnNvcjogTm9uZSwKICAgICAgICAgICAgbGltaXQ6IE5vbmUsCiAgICAgICAgfQogICAgKSk7Cn0KCiNbdGVzdF0KZm4gbm9ybWFsaXplc193YWZfcnVsZV9maWxlbmFtZXNfbGlrZV9ub2RlKCkgewogICAgYXNzZXJ0X2VxISgKICAgICAgICBzYWZlX3J1bGVfZmlsZW5hbWUoIi4uL2N1c3RvbSBydWxlLmNvbmYiKS51bndyYXAoKSwKICAgICAgICAiY3VzdG9tLXJ1bGUuY29uZiIKICAgICk7CiAgICBhc3NlcnQhKHNhZmVfcnVsZV9maWxlbmFtZSgiLi4vc2VjcmV0LnR4dCIpLmlzX2VycigpKTsKICAgIGFzc2VydCEoc2FmZV9ydWxlX2ZpbGVuYW1lKCIuLiIpLmlzX2VycigpKTsKfQoKI1t0ZXN0XQpmbiBsb2NhbGl6ZXNfd2FmX3JvdXRlX2FuZF9zZXJ2aWNlX2Vycm9ycygpIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6bmV3KCJ6aC1DTiIpOwoKICAgIGFzc2VydF9lcSEoCiAgICAgICAgd2FmX3RleHQoJnRyYW5zbGF0b3IsICJkZXRhaWxzTG9hZEZhaWxlZCIpLAogICAgICAgICLor7vlj5YgV0FGIOivpuaDheWksei0pSIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGxvY2FsaXplX3dhZl9lcnJvcigmdHJhbnNsYXRvciwgIldBRiBtYW5pZmVzdCBpcyBlbXB0eSIpLAogICAgICAgICLns7vnu5/op4TliJnmuIXljZXkuLrnqboiCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBsb2NhbGl6ZV93YWZfZXJyb3IoJnRyYW5zbGF0b3IsICJEdXBsaWNhdGUgV0FGIGJ1bmRsZSBmaWxlOiBSRVFVRVNULmNvbmYiKSwKICAgICAgICAi57O757uf6KeE5YiZ5YyF5YaF5a2Y5Zyo6YeN5aSN5paH5Lu2OiBSRVFVRVNULmNvbmYiCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBsb2NhbGl6ZV93YWZfZXJyb3IoJnRyYW5zbGF0b3IsICJXQUYgcnVsZSBmaWxlIGlzIHRvbyBsYXJnZTogY3VzdG9tLmNvbmYiKSwKICAgICAgICAiY3VzdG9tLmNvbmYg6LaF6L+HIDFNQiIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGxvY2FsaXplX3dhZl9lcnJvcigmdHJhbnNsYXRvciwgIkludmFsaWQgV0FGIHJ1bGUgc291cmNlIiksCiAgICAgICAgIuinhOWImeadpea6kOS4jeato+ehriIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGxvY2FsaXplX3dhZl9lcnJvcigmdHJhbnNsYXRvciwgImludmFsaWQgZGF0ZSwgZXhwZWN0ZWQgWVlZWS1NTS1ERCIpLAogICAgICAgICLml6XmnJ/moLzlvI/kuI3mraPnoa7vvIzlupTkuLogWVlZWS1NTS1ERCIKICAgICk7Cn0KCiNbdGVzdF0KZm4gYmxvY2tzX2ZpbGVzeXN0ZW1fZGlyZWN0aXZlc19pbl91cGxvYWRlZF9ydWxlcygpIHsKICAgIGFzc2VydCEoY29udGFpbnNfYmxvY2tlZF9kaXJlY3RpdmUoIiAgSW5jbHVkZSAvdG1wLyouY29uZiIpKTsKICAgIGFzc2VydCEoY29udGFpbnNfYmxvY2tlZF9kaXJlY3RpdmUoIlNlY0F1ZGl0TG9nIC90bXAvYXVkaXQubG9nIikpOwogICAgYXNzZXJ0ISghY29udGFpbnNfYmxvY2tlZF9kaXJlY3RpdmUoCiAgICAgICAgIlNlY1J1bGUgQVJHUyBhdHRhY2sgXCJpZDoxMDAxXCIiCiAgICApKTsKfQoKI1t0ZXN0XQpmbiBkZWZhdWx0c19oaWdoX25vaXNlX3N5c3RlbV9ydWxlc190b19kaXNhYmxlZCgpIHsKICAgIGFzc2VydCEoaXNfc3lzdGVtX3J1bGVfZW5hYmxlZF9ieV9kZWZhdWx0KAogICAgICAgICJSRVFVRVNULTkwMS1JTklUSUFMSVpBVElPTi5jb25mIgogICAgKSk7CiAgICBhc3NlcnQhKCFpc19zeXN0ZW1fcnVsZV9lbmFibGVkX2J5X2RlZmF1bHQoCiAgICAgICAgIlJFUVVFU1QtOTQyLUFQUExJQ0FUSU9OLUFUVEFDSy1TUUxJLmNvbmYiCiAgICApKTsKICAgIGFzc2VydCEoaXNfc3lzdGVtX3J1bGVfZW5hYmxlZF9ieV9kZWZhdWx0KAogICAgICAgICJSRVFVRVNULTkzMC1BUFBMSUNBVElPTi1BVFRBQ0stTEZJLmNvbmYiCiAgICApKTsKICAgIGFzc2VydCEoaXNfc3lzdGVtX3J1bGVfZW5hYmxlZF9ieV9kZWZhdWx0KAogICAgICAgICJSRVFVRVNULTk0OS1CTE9DS0lORy1FVkFMVUFUSU9OLmNvbmYiCiAgICApKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gcmVjb21tZW5kZWRfbGZpX3BhdGNoX2VuYWJsZXNfbGVnYWN5X3J1bGVfb25jZSgpIHsKICAgIGxldCAoX2RpcmVjdG9yeSwgc3RhdGUpID0gd2FmX3Rlc3Rfc3RhdGUoIjEyNy4wLjAuMToxIikuYXdhaXQ7CiAgICBsZXQgbGVnYWN5ID0gV2FmUnVsZXNTdGF0ZSB7CiAgICAgICAgc3lzdGVtX2VuYWJsZWQ6IEJUcmVlTWFwOjpmcm9tKFsKICAgICAgICAgICAgKElOSVRJQUxJWkFUSU9OX1JVTEVfRklMRU5BTUUudG9fc3RyaW5nKCksIHRydWUpLAogICAgICAgICAgICAoTEZJX1JVTEVfRklMRU5BTUUudG9fc3RyaW5nKCksIGZhbHNlKSwKICAgICAgICBdKSwKICAgICAgICBjdXN0b21fZW5hYmxlZDogQlRyZWVNYXA6OmZyb20oWygiY3VzdG9tLmNvbmYiLnRvX3N0cmluZygpLCB0cnVlKV0pLAogICAgfTsKICAgIHdyaXRlX3J1bGVzX3N0YXRlKCZzdGF0ZSwgJmxlZ2FjeSkuYXdhaXQudW53cmFwKCk7CgogICAgYXNzZXJ0ISgKICAgICAgICBhcHBseV9yZWNvbW1lbmRlZF9sZmlfcnVsZV9wYXRjaF9pZl9uZWVkZWQoJnN0YXRlKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICApOwogICAgbGV0IHBhdGNoZWQgPSByZWFkX3J1bGVzX3N0YXRlKCZzdGF0ZSkuYXdhaXQudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKHBhdGNoZWQuc3lzdGVtX2VuYWJsZWQuZ2V0KExGSV9SVUxFX0ZJTEVOQU1FKSwgU29tZSgmdHJ1ZSkpOwogICAgYXNzZXJ0X2VxIShwYXRjaGVkLmN1c3RvbV9lbmFibGVkLCBsZWdhY3kuY3VzdG9tX2VuYWJsZWQpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLmdldF9zdHJpbmdfdmFsdWUoUkVDT01NRU5ERURfTEZJX1JVTEVfUEFUQ0hfRkxBR19LRVkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmFzX2RlcmVmKCksCiAgICAgICAgU29tZSgiMSIpCiAgICApOwoKICAgIGxldCBtdXQgdXNlcl91cGRhdGVkID0gcGF0Y2hlZDsKICAgIHVzZXJfdXBkYXRlZAogICAgICAgIC5zeXN0ZW1fZW5hYmxlZAogICAgICAgIC5pbnNlcnQoTEZJX1JVTEVfRklMRU5BTUUudG9fc3RyaW5nKCksIGZhbHNlKTsKICAgIHdyaXRlX3J1bGVzX3N0YXRlKCZzdGF0ZSwgJnVzZXJfdXBkYXRlZCkuYXdhaXQudW53cmFwKCk7CgogICAgYXNzZXJ0ISgKICAgICAgICAhYXBwbHlfcmVjb21tZW5kZWRfbGZpX3J1bGVfcGF0Y2hfaWZfbmVlZGVkKCZzdGF0ZSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgcmVhZF9ydWxlc19zdGF0ZSgmc3RhdGUpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLnN5c3RlbV9lbmFibGVkCiAgICAgICAgICAgIC5nZXQoTEZJX1JVTEVfRklMRU5BTUUpLAogICAgICAgIFNvbWUoJmZhbHNlKQogICAgKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gcmVjb21tZW5kZWRfbGZpX3BhdGNoX21hcmtzX3ByZV9lbmFibGVkX3J1bGVfd2l0aG91dF9yZXdyaXRpbmdfY2hvaWNlKCkgewogICAgbGV0IChfZGlyZWN0b3J5LCBzdGF0ZSkgPSB3YWZfdGVzdF9zdGF0ZSgiMTI3LjAuMC4xOjEiKS5hd2FpdDsKICAgIGxldCBjdXJyZW50ID0gV2FmUnVsZXNTdGF0ZSB7CiAgICAgICAgc3lzdGVtX2VuYWJsZWQ6IEJUcmVlTWFwOjpmcm9tKFsKICAgICAgICAgICAgKElOSVRJQUxJWkFUSU9OX1JVTEVfRklMRU5BTUUudG9fc3RyaW5nKCksIHRydWUpLAogICAgICAgICAgICAoTEZJX1JVTEVfRklMRU5BTUUudG9fc3RyaW5nKCksIHRydWUpLAogICAgICAgIF0pLAogICAgICAgIGN1c3RvbV9lbmFibGVkOiBCVHJlZU1hcDo6bmV3KCksCiAgICB9OwogICAgd3JpdGVfcnVsZXNfc3RhdGUoJnN0YXRlLCAmY3VycmVudCkuYXdhaXQudW53cmFwKCk7CgogICAgYXNzZXJ0ISgKICAgICAgICAhYXBwbHlfcmVjb21tZW5kZWRfbGZpX3J1bGVfcGF0Y2hfaWZfbmVlZGVkKCZzdGF0ZSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgcmVhZF9ydWxlc19zdGF0ZSgmc3RhdGUpLmF3YWl0LnVud3JhcCgpLnN5c3RlbV9lbmFibGVkLAogICAgICAgIGN1cnJlbnQuc3lzdGVtX2VuYWJsZWQKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0YXRlCiAgICAgICAgICAgIC5zdG9yYWdlCiAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAuZ2V0X3N0cmluZ192YWx1ZShSRUNPTU1FTkRFRF9MRklfUlVMRV9QQVRDSF9GTEFHX0tFWSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKCIxIikKICAgICk7Cn0KCiNbdGVzdF0KZm4gcmVjb21tZW5kZWRfcHJlc2V0X3Jlc2V0c19zeXN0ZW1fcnVsZXNfYW5kX3ByZXNlcnZlc19jdXN0b21fcnVsZXMoKSB7CiAgICBsZXQgbXV0IHN0YXRlID0gV2FmUnVsZXNTdGF0ZSB7CiAgICAgICAgc3lzdGVtX2VuYWJsZWQ6IEJUcmVlTWFwOjpmcm9tKFsKICAgICAgICAgICAgKCJSRVFVRVNULTk0Mi1BUFBMSUNBVElPTi1BVFRBQ0stU1FMSS5jb25mIi50b19zdHJpbmcoKSwgdHJ1ZSksCiAgICAgICAgICAgICgiUkVRVUVTVC05NDktQkxPQ0tJTkctRVZBTFVBVElPTi5jb25mIi50b19zdHJpbmcoKSwgZmFsc2UpLAogICAgICAgICAgICAoIlJFTU9WRUQtU1lTVEVNLVJVTEUuY29uZiIudG9fc3RyaW5nKCksIHRydWUpLAogICAgICAgIF0pLAogICAgICAgIGN1c3RvbV9lbmFibGVkOiBCVHJlZU1hcDo6ZnJvbShbKCJjdXN0b20uY29uZiIudG9fc3RyaW5nKCksIHRydWUpXSksCiAgICB9OwoKICAgIGFwcGx5X3JlY29tbWVuZGVkX3N5c3RlbV9ydWxlX3N0YXRlKAogICAgICAgICZtdXQgc3RhdGUsCiAgICAgICAgdmVjIVsKICAgICAgICAgICAgIlJFUVVFU1QtOTQyLUFQUExJQ0FUSU9OLUFUVEFDSy1TUUxJLmNvbmYiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiUkVRVUVTVC05NDktQkxPQ0tJTkctRVZBTFVBVElPTi5jb25mIi50b19zdHJpbmcoKSwKICAgICAgICBdLAogICAgKTsKCiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0YXRlCiAgICAgICAgICAgIC5zeXN0ZW1fZW5hYmxlZAogICAgICAgICAgICAuZ2V0KCJSRVFVRVNULTk0Mi1BUFBMSUNBVElPTi1BVFRBQ0stU1FMSS5jb25mIiksCiAgICAgICAgU29tZSgmZmFsc2UpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3lzdGVtX2VuYWJsZWQKICAgICAgICAgICAgLmdldCgiUkVRVUVTVC05NDktQkxPQ0tJTkctRVZBTFVBVElPTi5jb25mIiksCiAgICAgICAgU29tZSgmdHJ1ZSkKICAgICk7CiAgICBhc3NlcnRfZXEhKHN0YXRlLmN1c3RvbV9lbmFibGVkLmdldCgiY3VzdG9tLmNvbmYiKSwgU29tZSgmdHJ1ZSkpOwogICAgYXNzZXJ0ISgKICAgICAgICAhc3RhdGUKICAgICAgICAgICAgLnN5c3RlbV9lbmFibGVkCiAgICAgICAgICAgIC5jb250YWluc19rZXkoIlJFTU9WRUQtU1lTVEVNLVJVTEUuY29uZiIpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzdGF0ZS5zeXN0ZW1fZW5hYmxlZC5nZXQoSU5JVElBTElaQVRJT05fUlVMRV9GSUxFTkFNRSksCiAgICAgICAgU29tZSgmdHJ1ZSkKICAgICk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHJlY29tbWVuZGVkX3ByZXNldF9yb2xsc19iYWNrX3N0YXRlX3doZW5fZ2F0ZXdheV9yZWxvYWRfZmFpbHMoKSB7CiAgICBsZXQgKF9kaXJlY3RvcnksIHN0YXRlKSA9IHdhZl90ZXN0X3N0YXRlKCIxMjcuMC4wLjE6MSIpLmF3YWl0OwogICAgZW5zdXJlX3dhZl9kaXJlY3Rvcmllcygmc3RhdGUpLmF3YWl0LnVud3JhcCgpOwogICAgZnM6OndyaXRlKAogICAgICAgIHN5c3RlbV9kaXIoJnN0YXRlKS5qb2luKCJSRVFVRVNULTk0OS1CTE9DS0lORy1FVkFMVUFUSU9OLmNvbmYiKSwKICAgICAgICBiIlNlY0FjdGlvbiBcImlkOjk0OTAwMSxwaGFzZToxLHBhc3NcIlxuIiwKICAgICkKICAgIC5hd2FpdAogICAgLnVud3JhcCgpOwogICAgZnM6OndyaXRlKAogICAgICAgIGN1c3RvbV9kaXIoJnN0YXRlKS5qb2luKCJjdXN0b20uY29uZiIpLAogICAgICAgIGIiU2VjQWN0aW9uIFwiaWQ6MTAwMDAxLHBoYXNlOjEscGFzc1wiXG4iLAogICAgKQogICAgLmF3YWl0CiAgICAudW53cmFwKCk7CiAgICB3cml0ZV9qc29uX2ZpbGUoCiAgICAgICAgJm1hbmlmZXN0X2NhY2hlX3BhdGgoJnN0YXRlKSwKICAgICAgICAmanNvbiEoewogICAgICAgICAgICAibWFuaWZlc3QiOiB7fSwKICAgICAgICAgICAgImNhY2hlZF9hdCI6IHRpbWVfdXRpbHM6Om5vd19pc28oKSwKICAgICAgICAgICAgImxhc3RfY2hlY2tlZF9hdCI6IHRpbWVfdXRpbHM6Om5vd19pc28oKSwKICAgICAgICAgICAgImxhc3RfZXJyb3IiOiBudWxsCiAgICAgICAgfSksCiAgICApCiAgICAuYXdhaXQKICAgIC51bndyYXAoKTsKICAgIGxldCBwcmV2aW91cyA9IFdhZlJ1bGVzU3RhdGUgewogICAgICAgIHN5c3RlbV9lbmFibGVkOiBCVHJlZU1hcDo6ZnJvbShbCiAgICAgICAgICAgIChJTklUSUFMSVpBVElPTl9SVUxFX0ZJTEVOQU1FLnRvX3N0cmluZygpLCB0cnVlKSwKICAgICAgICAgICAgKCJSRVFVRVNULTk0OS1CTE9DS0lORy1FVkFMVUFUSU9OLmNvbmYiLnRvX3N0cmluZygpLCBmYWxzZSksCiAgICAgICAgXSksCiAgICAgICAgY3VzdG9tX2VuYWJsZWQ6IEJUcmVlTWFwOjpmcm9tKFsoImN1c3RvbS5jb25mIi50b19zdHJpbmcoKSwgdHJ1ZSldKSwKICAgIH07CiAgICB3cml0ZV9ydWxlc19zdGF0ZSgmc3RhdGUsICZwcmV2aW91cykuYXdhaXQudW53cmFwKCk7CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNhdmVfY29uZmlnKCZqc29uISh7IndhZiI6IHsiZW5hYmxlZCI6IHRydWUsICJtb2RlIjogImJsb2NrIn19KSkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CgogICAgYXNzZXJ0IShzZXRfcmVjb21tZW5kZWRfc3lzdGVtX3J1bGVzKCZzdGF0ZSkuYXdhaXQuaXNfZXJyKCkpOwoKICAgIGxldCByZXN0b3JlZCA9IHJlYWRfcnVsZXNfc3RhdGUoJnN0YXRlKS5hd2FpdC51bndyYXAoKTsKICAgIGFzc2VydF9lcSEocmVzdG9yZWQuc3lzdGVtX2VuYWJsZWQsIHByZXZpb3VzLnN5c3RlbV9lbmFibGVkKTsKICAgIGFzc2VydF9lcSEocmVzdG9yZWQuY3VzdG9tX2VuYWJsZWQsIHByZXZpb3VzLmN1c3RvbV9lbmFibGVkKTsKfQoKI1t0ZXN0XQpmbiBkZXJpdmVzX2Rpc2FibGVkX3dhZl9ob3N0c19mcm9tX2J1c2luZXNzX21hcHBpbmdzKCkgewogICAgbGV0IGNvbmZpZyA9IGpzb24hKHsKICAgICAgICAiaG9zdF9tYXBwaW5ncyI6IFsKICAgICAgICAgICAgeyJob3N0IjogIlouRVhBTVBMRS5DT00iLCAic2VydmljZV9yb2xlIjogImFwcCIsICJ3YWZfZW5hYmxlZCI6IGZhbHNlfSwKICAgICAgICAgICAgeyJob3N0IjogIiBBcHAuRXhhbXBsZS5DT006NDQzICIsICJzZXJ2aWNlX3JvbGUiOiAiYXBwIiwgIndhZl9lbmFibGVkIjogZmFsc2V9LAogICAgICAgICAgICB7Imhvc3QiOiAiYXBwLmV4YW1wbGUuY29tIiwgInNlcnZpY2Vfcm9sZSI6ICJhcHAiLCAid2FmX2VuYWJsZWQiOiBmYWxzZX0sCiAgICAgICAgICAgIHsiaG9zdCI6ICJlbmFibGVkLmV4YW1wbGUuY29tIiwgInNlcnZpY2Vfcm9sZSI6ICJhcHAiLCAid2FmX2VuYWJsZWQiOiB0cnVlfSwKICAgICAgICAgICAgeyJob3N0IjogImF1dGguZXhhbXBsZS5jb20iLCAic2VydmljZV9yb2xlIjogImF1dGgiLCAid2FmX2VuYWJsZWQiOiBmYWxzZX0sCiAgICAgICAgICAgIHsiaG9zdCI6ICJsZWdhY3ktYXV0aC5leGFtcGxlLmNvbSIsICJ0YXJnZXQiOiAiaHR0cDovL2xvY2FsaG9zdDo3OTk3IiwgIndhZl9lbmFibGVkIjogZmFsc2V9CiAgICAgICAgXQogICAgfSk7CgogICAgYXNzZXJ0X2VxISgKICAgICAgICBkaXNhYmxlZF9ob3N0c19mb3JfY29uZmlnKCZjb25maWcpLAogICAgICAgIHZlYyFbImFwcC5leGFtcGxlLmNvbSIudG9fc3RyaW5nKCksICJ6LmV4YW1wbGUuY29tIi50b19zdHJpbmcoKV0KICAgICk7Cn0KCiNbdGVzdF0KZm4gZGlzYWJsZWRfd2FmX2hvc3RzX2ZvbGxvd19tYXBwaW5nX3JlbmFtZXNfYW5kX3JlbW92YWxzKCkgewogICAgbGV0IHByZXZpb3VzID0ganNvbiEoewogICAgICAgICJob3N0X21hcHBpbmdzIjogWwogICAgICAgICAgICB7Imhvc3QiOiAiQi5FeGFtcGxlLkNPTSIsICJ3YWZfZW5hYmxlZCI6IGZhbHNlfSwKICAgICAgICAgICAgeyJob3N0IjogImEuZXhhbXBsZS5jb20iLCAid2FmX2VuYWJsZWQiOiBmYWxzZX0KICAgICAgICBdCiAgICB9KTsKICAgIGxldCByZW9yZGVyZWQgPSBqc29uISh7CiAgICAgICAgImhvc3RfbWFwcGluZ3MiOiBbCiAgICAgICAgICAgIHsiaG9zdCI6ICJhLmV4YW1wbGUuY29tIiwgIndhZl9lbmFibGVkIjogZmFsc2V9LAogICAgICAgICAgICB7Imhvc3QiOiAiYi5leGFtcGxlLmNvbSIsICJ3YWZfZW5hYmxlZCI6IGZhbHNlfQogICAgICAgIF0KICAgIH0pOwogICAgbGV0IHJlbmFtZWQgPSBqc29uISh7CiAgICAgICAgImhvc3RfbWFwcGluZ3MiOiBbCiAgICAgICAgICAgIHsiaG9zdCI6ICJyZW5hbWVkLmV4YW1wbGUuY29tIiwgIndhZl9lbmFibGVkIjogZmFsc2V9LAogICAgICAgICAgICB7Imhvc3QiOiAiYS5leGFtcGxlLmNvbSIsICJ3YWZfZW5hYmxlZCI6IGZhbHNlfQogICAgICAgIF0KICAgIH0pOwogICAgbGV0IHJlbW92ZWQgPSBqc29uISh7Imhvc3RfbWFwcGluZ3MiOiBbXX0pOwoKICAgIGFzc2VydF9lcSEoCiAgICAgICAgZGlzYWJsZWRfaG9zdHNfZm9yX2NvbmZpZygmcHJldmlvdXMpLAogICAgICAgIGRpc2FibGVkX2hvc3RzX2Zvcl9jb25maWcoJnJlb3JkZXJlZCkKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGRpc2FibGVkX2hvc3RzX2Zvcl9jb25maWcoJnJlbmFtZWQpLAogICAgICAgIHZlYyFbCiAgICAgICAgICAgICJhLmV4YW1wbGUuY29tIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgInJlbmFtZWQuZXhhbXBsZS5jb20iLnRvX3N0cmluZygpCiAgICAgICAgXQogICAgKTsKICAgIGFzc2VydCEoZGlzYWJsZWRfaG9zdHNfZm9yX2NvbmZpZygmcmVtb3ZlZCkuaXNfZW1wdHkoKSk7Cn0KCiNbdGVzdF0KZm4gYmFja3VwX3Jlc3RvcmVfc3luY3NfcnVsZXNfb25seV93aGVuX2VuYWJsZWRfYW5kX21pc3NpbmcoKSB7CiAgICBhc3NlcnQhKHNob3VsZF9zeW5jX3N5c3RlbV9ydWxlc19mb3JfcmVzdG9yZSgKICAgICAgICAmanNvbiEoeyJlbmFibGVkIjogdHJ1ZX0pLAogICAgICAgIGZhbHNlCiAgICApKTsKICAgIGFzc2VydCEoIXNob3VsZF9zeW5jX3N5c3RlbV9ydWxlc19mb3JfcmVzdG9yZSgKICAgICAgICAmanNvbiEoeyJlbmFibGVkIjogdHJ1ZX0pLAogICAgICAgIHRydWUKICAgICkpOwogICAgYXNzZXJ0ISghc2hvdWxkX3N5bmNfc3lzdGVtX3J1bGVzX2Zvcl9yZXN0b3JlKAogICAgICAgICZqc29uISh7ImVuYWJsZWQiOiBmYWxzZX0pLAogICAgICAgIGZhbHNlCiAgICApKTsKfQoKI1t0ZXN0XQpmbiB2YWxpZGF0ZXNfd2FmX2J1bmRsZV9wYXRocygpIHsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc2FmZV9idW5kbGVfZW50cnlfcGF0aCgiUkVRVUVTVC05MjAtUFJPVE9DT0wtRU5GT1JDRU1FTlQuY29uZiIpLnVud3JhcCgpLAogICAgICAgICJSRVFVRVNULTkyMC1QUk9UT0NPTC1FTkZPUkNFTUVOVC5jb25mIgogICAgKTsKICAgIGFzc2VydCEoc2FmZV9idW5kbGVfZW50cnlfcGF0aCgiLi4vZXZpbC5jb25mIikuaXNfZXJyKCkpOwogICAgYXNzZXJ0IShzYWZlX2J1bmRsZV9lbnRyeV9wYXRoKCIvYWJzb2x1dGUuY29uZiIpLmlzX2VycigpKTsKICAgIGFzc2VydCEoc2FmZV9idW5kbGVfZW50cnlfcGF0aCgibmVzdGVkLy9ydWxlLmNvbmYiKS5pc19lcnIoKSk7Cn0KCiNbdGVzdF0KZm4gcmVzb2x2ZXNfd2FmX2Rvd25sb2FkX3VybHNfd2l0aG91dF9jYWNoZV9idXN0aW5nKCkgewogICAgYXNzZXJ0X2VxISgKICAgICAgICByZXNvbHZlX3dhZl91cmwoImh0dHBzOi8vY29yLmZua25vY2suY24vd2FmL21hbmlmZXN0Lmpzb24iLCBOb25lKS51bndyYXAoKSwKICAgICAgICAiaHR0cHM6Ly9jb3IuZm5rbm9jay5jbi93YWYvbWFuaWZlc3QuanNvbiIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHJlc29sdmVfd2FmX3VybCgKICAgICAgICAgICAgInJ1bGVzL3N5c3RlbS56aXAiLAogICAgICAgICAgICBTb21lKCJodHRwczovL2Nvci5mbmtub2NrLmNuL3dhZi9tYW5pZmVzdC5qc29uIikKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpLAogICAgICAgICJodHRwczovL2Nvci5mbmtub2NrLmNuL3dhZi9ydWxlcy9zeXN0ZW0uemlwIgogICAgKTsKfQo=
+use super::service::{
+    apply_recommended_lfi_rule_patch_if_needed, apply_recommended_system_rule_state,
+    normalize_fixed_waf_config, should_sync_system_rules_for_restore, waf_drain_schedule,
+    waf_drain_settings, wait_for_waf_drain,
+};
+use super::*;
+use serde_json::json;
+
+#[path = "drain_tests.rs"]
+mod drain;
+#[path = "worker_tests.rs"]
+mod worker;
+
+async fn waf_test_state(go_backend_grpc_addr: &str) -> (tempfile::TempDir, AppState) {
+    let directory = tempfile::tempdir().unwrap();
+    let mut settings = {
+        let _environment = crate::test_support::EnvGuard::new(&[]);
+        crate::settings::Settings::from_env()
+    };
+    settings.runtime_target = "linux".to_string();
+    settings.data_dir = directory.path().join("data");
+    settings.gateway_config_dir = directory.path().join("gateway");
+    settings.waf_dir = directory.path().join("waf");
+    settings.sqlite_path = directory.path().join("fn-knock.sqlite3");
+    settings.legacy_redis_url = String::new();
+    settings.go_backend_grpc_addr = go_backend_grpc_addr.to_string();
+    settings.internal_rpc_token = "test-internal-rpc-token".to_string();
+    settings.request_timeout = std::time::Duration::from_millis(100);
+    let state = AppState::new(settings).await.unwrap();
+    (directory, state)
+}
+
+#[tokio::test]
+async fn disabled_waf_has_no_periodic_drain_deadline() {
+    let (_directory, state) = waf_test_state("http://127.0.0.1:1").await;
+    let mut config = state.storage.store.get_config().await.unwrap();
+    config["waf"] = json!({"enabled": false});
+    state.storage.store.save_config(&config).await.unwrap();
+    assert_eq!(waf_drain_schedule(&state), None);
+
+    let mut config = state.storage.store.get_config().await.unwrap();
+    config["waf"] = json!({"enabled": true, "drain_interval_seconds": 17});
+    state.storage.store.save_config(&config).await.unwrap();
+    assert_eq!(waf_drain_schedule(&state), Some(17));
+}
+
+#[tokio::test]
+async fn normalizes_waf_block_behavior_with_backward_compatible_default() {
+    let (_directory, state) = waf_test_state("http://127.0.0.1:1").await;
+
+    for input in [json!({}), json!({"block_behavior": "invalid"})] {
+        assert_eq!(
+            normalize_fixed_waf_config(Some(&input), &state).get("block_behavior"),
+            Some(&json!("error_page"))
+        );
+    }
+
+    assert_eq!(
+        normalize_fixed_waf_config(Some(&json!({"block_behavior": "reset_connection"})), &state,)
+            .get("block_behavior"),
+        Some(&json!("reset_connection"))
+    );
+}
+
+#[test]
+fn sanitizes_initialization_rules_like_node() {
+    let event = sanitize_event(json!({
+        "trace_id": "t1",
+        "action": "log",
+        "rules": [
+            { "id": 901, "file": "/x/REQUEST-901-INITIALIZATION.conf" },
+            { "id": 1001, "file": "/x/rule.conf" }
+        ],
+        "rule_ids": [901, 1001],
+        "interruption": { "rule_id": 901 }
+    }))
+    .unwrap();
+
+    assert_eq!(event["rules"].as_array().unwrap().len(), 1);
+    assert_eq!(event["rule_ids"], json!([1001]));
+    assert!(event.get("interruption").is_none());
+}
+
+#[test]
+fn drops_events_without_rule_or_blocking_signal() {
+    assert!(
+        sanitize_event(json!({
+            "trace_id": "t1",
+            "action": "log",
+            "rules": []
+        }))
+        .is_none()
+    );
+    assert!(
+        sanitize_event(json!({
+            "trace_id": "t1",
+            "action": "block"
+        }))
+        .is_some()
+    );
+}
+
+#[test]
+fn filters_waf_events_by_query() {
+    let event = json!({
+        "trace_id": "abc",
+        "host": "example.com",
+        "client_ip": "1.1.1.1",
+        "route_type": "host",
+        "mode": "blocking",
+        "rule_ids": [1001],
+        "path": "/login"
+    });
+    assert!(event_matches(
+        &event,
+        &WafLogQuery {
+            date: None,
+            trace_id: None,
+            search: Some("login".to_string()),
+            host: Some("EXAMPLE.com".to_string()),
+            client_ip: Some("1.1.1.1".to_string()),
+            rule_id: Some("1001".to_string()),
+            route_type: Some("host".to_string()),
+            mode: Some("blocking".to_string()),
+            cursor: None,
+            limit: None,
+        }
+    ));
+}
+
+#[test]
+fn waf_query_number_parsers_match_node_parse_int_edges() {
+    assert_eq!(normalize_limit(Some("10x")), 10);
+    assert_eq!(normalize_limit(Some("  +3.9")), 3);
+    assert_eq!(normalize_limit(Some("-1")), 50);
+    assert_eq!(normalize_limit(Some("300")), 200);
+    assert_eq!(normalize_limit(Some("0x10")), 50);
+
+    assert_eq!(normalize_cursor(Some("12x")), 12);
+    assert_eq!(normalize_cursor(Some("  +3.9")), 3);
+    assert_eq!(normalize_cursor(Some("-1")), 0);
+    assert_eq!(normalize_cursor(Some("0x10")), 0);
+}
+
+#[test]
+fn waf_event_filters_match_node_unicode_and_rule_id_prefixes() {
+    let event = json!({
+        "trace_id": "abc",
+        "host": "Ä.example",
+        "client_ip": "1.1.1.1",
+        "route_type": "host",
+        "mode": "blocking",
+        "rule_ids": [1001],
+        "path": "/Älice"
+    });
+
+    assert!(event_matches(
+        &event,
+        &WafLogQuery {
+            date: None,
+            trace_id: None,
+            search: Some("älice".to_string()),
+            host: Some("ä.example".to_string()),
+            client_ip: None,
+            rule_id: Some("1001x".to_string()),
+            route_type: None,
+            mode: None,
+            cursor: None,
+            limit: None,
+        }
+    ));
+
+    assert!(!event_matches(
+        &event,
+        &WafLogQuery {
+            date: None,
+            trace_id: None,
+            search: None,
+            host: None,
+            client_ip: None,
+            rule_id: Some("nope".to_string()),
+            route_type: None,
+            mode: None,
+            cursor: None,
+            limit: None,
+        }
+    ));
+}
+
+#[test]
+fn normalizes_waf_rule_filenames_like_node() {
+    assert_eq!(
+        safe_rule_filename("../custom rule.conf").unwrap(),
+        "custom-rule.conf"
+    );
+    assert!(safe_rule_filename("../secret.txt").is_err());
+    assert!(safe_rule_filename("..").is_err());
+}
+
+#[test]
+fn localizes_waf_route_and_service_errors() {
+    let translator = Translator::new("zh-CN");
+
+    assert_eq!(
+        waf_text(&translator, "detailsLoadFailed"),
+        "读取 WAF 详情失败"
+    );
+    assert_eq!(
+        localize_waf_error(&translator, "WAF manifest is empty"),
+        "系统规则清单为空"
+    );
+    assert_eq!(
+        localize_waf_error(&translator, "Duplicate WAF bundle file: REQUEST.conf"),
+        "系统规则包内存在重复文件: REQUEST.conf"
+    );
+    assert_eq!(
+        localize_waf_error(&translator, "WAF rule file is too large: custom.conf"),
+        "custom.conf 超过 1MB"
+    );
+    assert_eq!(
+        localize_waf_error(&translator, "Invalid WAF rule source"),
+        "规则来源不正确"
+    );
+    assert_eq!(
+        localize_waf_error(&translator, "invalid date, expected YYYY-MM-DD"),
+        "日期格式不正确，应为 YYYY-MM-DD"
+    );
+}
+
+#[test]
+fn blocks_filesystem_directives_in_uploaded_rules() {
+    assert!(contains_blocked_directive("  Include /tmp/*.conf"));
+    assert!(contains_blocked_directive("SecAuditLog /tmp/audit.log"));
+    assert!(!contains_blocked_directive(
+        "SecRule ARGS attack \"id:1001\""
+    ));
+}
+
+#[test]
+fn defaults_high_noise_system_rules_to_disabled() {
+    assert!(is_system_rule_enabled_by_default(
+        "REQUEST-901-INITIALIZATION.conf"
+    ));
+    assert!(!is_system_rule_enabled_by_default(
+        "REQUEST-942-APPLICATION-ATTACK-SQLI.conf"
+    ));
+    assert!(is_system_rule_enabled_by_default(
+        "REQUEST-930-APPLICATION-ATTACK-LFI.conf"
+    ));
+    assert!(is_system_rule_enabled_by_default(
+        "REQUEST-949-BLOCKING-EVALUATION.conf"
+    ));
+}
+
+#[tokio::test]
+async fn recommended_lfi_patch_enables_legacy_rule_once() {
+    let (_directory, state) = waf_test_state("127.0.0.1:1").await;
+    let legacy = WafRulesState {
+        system_enabled: BTreeMap::from([
+            (INITIALIZATION_RULE_FILENAME.to_string(), true),
+            (LFI_RULE_FILENAME.to_string(), false),
+        ]),
+        custom_enabled: BTreeMap::from([("custom.conf".to_string(), true)]),
+    };
+    write_rules_state(&state, &legacy).await.unwrap();
+
+    assert!(
+        apply_recommended_lfi_rule_patch_if_needed(&state)
+            .await
+            .unwrap()
+    );
+    let patched = read_rules_state(&state).await.unwrap();
+    assert_eq!(patched.system_enabled.get(LFI_RULE_FILENAME), Some(&true));
+    assert_eq!(patched.custom_enabled, legacy.custom_enabled);
+    assert_eq!(
+        state
+            .storage
+            .store
+            .get_string_value(RECOMMENDED_LFI_RULE_PATCH_FLAG_KEY)
+            .await
+            .unwrap()
+            .as_deref(),
+        Some("1")
+    );
+
+    let mut user_updated = patched;
+    user_updated
+        .system_enabled
+        .insert(LFI_RULE_FILENAME.to_string(), false);
+    write_rules_state(&state, &user_updated).await.unwrap();
+
+    assert!(
+        !apply_recommended_lfi_rule_patch_if_needed(&state)
+            .await
+            .unwrap()
+    );
+    assert_eq!(
+        read_rules_state(&state)
+            .await
+            .unwrap()
+            .system_enabled
+            .get(LFI_RULE_FILENAME),
+        Some(&false)
+    );
+}
+
+#[tokio::test]
+async fn recommended_lfi_patch_marks_pre_enabled_rule_without_rewriting_choice() {
+    let (_directory, state) = waf_test_state("127.0.0.1:1").await;
+    let current = WafRulesState {
+        system_enabled: BTreeMap::from([
+            (INITIALIZATION_RULE_FILENAME.to_string(), true),
+            (LFI_RULE_FILENAME.to_string(), true),
+        ]),
+        custom_enabled: BTreeMap::new(),
+    };
+    write_rules_state(&state, &current).await.unwrap();
+
+    assert!(
+        !apply_recommended_lfi_rule_patch_if_needed(&state)
+            .await
+            .unwrap()
+    );
+    assert_eq!(
+        read_rules_state(&state).await.unwrap().system_enabled,
+        current.system_enabled
+    );
+    assert_eq!(
+        state
+            .storage
+            .store
+            .get_string_value(RECOMMENDED_LFI_RULE_PATCH_FLAG_KEY)
+            .await
+            .unwrap()
+            .as_deref(),
+        Some("1")
+    );
+}
+
+#[test]
+fn recommended_preset_resets_system_rules_and_preserves_custom_rules() {
+    let mut state = WafRulesState {
+        system_enabled: BTreeMap::from([
+            ("REQUEST-942-APPLICATION-ATTACK-SQLI.conf".to_string(), true),
+            ("REQUEST-949-BLOCKING-EVALUATION.conf".to_string(), false),
+            ("REMOVED-SYSTEM-RULE.conf".to_string(), true),
+        ]),
+        custom_enabled: BTreeMap::from([("custom.conf".to_string(), true)]),
+    };
+
+    apply_recommended_system_rule_state(
+        &mut state,
+        vec![
+            "REQUEST-942-APPLICATION-ATTACK-SQLI.conf".to_string(),
+            "REQUEST-949-BLOCKING-EVALUATION.conf".to_string(),
+        ],
+    );
+
+    assert_eq!(
+        state
+            .system_enabled
+            .get("REQUEST-942-APPLICATION-ATTACK-SQLI.conf"),
+        Some(&false)
+    );
+    assert_eq!(
+        state
+            .system_enabled
+            .get("REQUEST-949-BLOCKING-EVALUATION.conf"),
+        Some(&true)
+    );
+    assert_eq!(state.custom_enabled.get("custom.conf"), Some(&true));
+    assert!(
+        !state
+            .system_enabled
+            .contains_key("REMOVED-SYSTEM-RULE.conf")
+    );
+    assert_eq!(
+        state.system_enabled.get(INITIALIZATION_RULE_FILENAME),
+        Some(&true)
+    );
+}
+
+#[tokio::test]
+async fn recommended_preset_rolls_back_state_when_gateway_reload_fails() {
+    let (_directory, state) = waf_test_state("127.0.0.1:1").await;
+    ensure_waf_directories(&state).await.unwrap();
+    fs::write(
+        system_dir(&state).join("REQUEST-949-BLOCKING-EVALUATION.conf"),
+        b"SecAction \"id:949001,phase:1,pass\"\n",
+    )
+    .await
+    .unwrap();
+    fs::write(
+        custom_dir(&state).join("custom.conf"),
+        b"SecAction \"id:100001,phase:1,pass\"\n",
+    )
+    .await
+    .unwrap();
+    write_json_file(
+        &manifest_cache_path(&state),
+        &json!({
+            "manifest": {},
+            "cached_at": time_utils::now_iso(),
+            "last_checked_at": time_utils::now_iso(),
+            "last_error": null
+        }),
+    )
+    .await
+    .unwrap();
+    let previous = WafRulesState {
+        system_enabled: BTreeMap::from([
+            (INITIALIZATION_RULE_FILENAME.to_string(), true),
+            ("REQUEST-949-BLOCKING-EVALUATION.conf".to_string(), false),
+        ]),
+        custom_enabled: BTreeMap::from([("custom.conf".to_string(), true)]),
+    };
+    write_rules_state(&state, &previous).await.unwrap();
+    state
+        .storage
+        .store
+        .save_config(&json!({"waf": {"enabled": true, "mode": "block"}}))
+        .await
+        .unwrap();
+
+    assert!(set_recommended_system_rules(&state).await.is_err());
+
+    let restored = read_rules_state(&state).await.unwrap();
+    assert_eq!(restored.system_enabled, previous.system_enabled);
+    assert_eq!(restored.custom_enabled, previous.custom_enabled);
+}
+
+#[test]
+fn derives_disabled_waf_hosts_from_business_mappings() {
+    let config = json!({
+        "host_mappings": [
+            {"host": "Z.EXAMPLE.COM", "service_role": "app", "waf_enabled": false},
+            {"host": " App.Example.COM:443 ", "service_role": "app", "waf_enabled": false},
+            {"host": "app.example.com", "service_role": "app", "waf_enabled": false},
+            {"host": "enabled.example.com", "service_role": "app", "waf_enabled": true},
+            {"host": "auth.example.com", "service_role": "auth", "waf_enabled": false},
+            {"host": "legacy-auth.example.com", "target": "http://localhost:7997", "waf_enabled": false}
+        ]
+    });
+
+    assert_eq!(
+        disabled_hosts_for_config(&config),
+        vec!["app.example.com".to_string(), "z.example.com".to_string()]
+    );
+}
+
+#[test]
+fn disabled_waf_hosts_follow_mapping_renames_and_removals() {
+    let previous = json!({
+        "host_mappings": [
+            {"host": "B.Example.COM", "waf_enabled": false},
+            {"host": "a.example.com", "waf_enabled": false}
+        ]
+    });
+    let reordered = json!({
+        "host_mappings": [
+            {"host": "a.example.com", "waf_enabled": false},
+            {"host": "b.example.com", "waf_enabled": false}
+        ]
+    });
+    let renamed = json!({
+        "host_mappings": [
+            {"host": "renamed.example.com", "waf_enabled": false},
+            {"host": "a.example.com", "waf_enabled": false}
+        ]
+    });
+    let removed = json!({"host_mappings": []});
+
+    assert_eq!(
+        disabled_hosts_for_config(&previous),
+        disabled_hosts_for_config(&reordered)
+    );
+    assert_eq!(
+        disabled_hosts_for_config(&renamed),
+        vec![
+            "a.example.com".to_string(),
+            "renamed.example.com".to_string()
+        ]
+    );
+    assert!(disabled_hosts_for_config(&removed).is_empty());
+}
+
+#[test]
+fn backup_restore_syncs_rules_only_when_enabled_and_missing() {
+    assert!(should_sync_system_rules_for_restore(
+        &json!({"enabled": true}),
+        false
+    ));
+    assert!(!should_sync_system_rules_for_restore(
+        &json!({"enabled": true}),
+        true
+    ));
+    assert!(!should_sync_system_rules_for_restore(
+        &json!({"enabled": false}),
+        false
+    ));
+}
+
+#[test]
+fn validates_waf_bundle_paths() {
+    assert_eq!(
+        safe_bundle_entry_path("REQUEST-920-PROTOCOL-ENFORCEMENT.conf").unwrap(),
+        "REQUEST-920-PROTOCOL-ENFORCEMENT.conf"
+    );
+    assert!(safe_bundle_entry_path("../evil.conf").is_err());
+    assert!(safe_bundle_entry_path("/absolute.conf").is_err());
+    assert!(safe_bundle_entry_path("nested//rule.conf").is_err());
+}
+
+#[test]
+fn resolves_waf_download_urls_without_cache_busting() {
+    assert_eq!(
+        resolve_waf_url("https://cor.fnknock.cn/waf/manifest.json", None).unwrap(),
+        "https://cor.fnknock.cn/waf/manifest.json"
+    );
+    assert_eq!(
+        resolve_waf_url(
+            "rules/system.zip",
+            Some("https://cor.fnknock.cn/waf/manifest.json")
+        )
+        .unwrap(),
+        "https://cor.fnknock.cn/waf/rules/system.zip"
+    );
+}

@@ -1,1 +1,129 @@
-aW1wb3J0IHsgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgZXh0cmFjdEVycm9yTWVzc2FnZSB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgewogIFdPTEFQSSwKICB0eXBlIFdPTERpc2NvdmVyZWREZXZpY2UsCiAgdHlwZSBXT0xEaXNjb3ZlcnlQb2xsRXZlbnQsCiAgdHlwZSBXT0xEaXNjb3ZlcnlQcm9ncmVzcywKICB0eXBlIFdPTERpc2NvdmVyeVJlc3VsdCwKfSBmcm9tICJAL2xpYi9hcGkvd29sIjsKaW1wb3J0IHsgcmVkdWNlV29sRGlzY292ZXJ5RXZlbnQgfSBmcm9tICIuL3dvbC1tYW5hZ2VtZW50LW1vZGVsIjsKaW1wb3J0IHR5cGUgeyBXb2xUcmFuc2xhdGUgfSBmcm9tICIuL3dvbC1tYW5hZ2VtZW50LXR5cGVzIjsKCmV4cG9ydCBjb25zdCB1c2VXb2xEaXNjb3ZlcnkgPSAoewogIHJlbG9hZCwKICB0LAp9OiB7CiAgcmVsb2FkOiAoKSA9PiBQcm9taXNlPHZvaWQ+OwogIHQ6IFdvbFRyYW5zbGF0ZTsKfSkgPT4gewogIGNvbnN0IGRpc2NvdmVyeU9wZW4gPSByZWYoZmFsc2UpOwogIGNvbnN0IGRpc2NvdmVyeVJlc3VsdCA9IHJlZjxXT0xEaXNjb3ZlcnlSZXN1bHQgfCBudWxsPihudWxsKTsKICBjb25zdCBkaXNjb3ZlcnlQcm9ncmVzcyA9IHJlZjxXT0xEaXNjb3ZlcnlQcm9ncmVzcyB8IG51bGw+KG51bGwpOwogIGNvbnN0IGRpc2NvdmVyaW5nID0gcmVmKGZhbHNlKTsKICBjb25zdCBhZGRpbmdEaXNjb3ZlcmVkID0gcmVmKGZhbHNlKTsKICBsZXQgZGlzY292ZXJ5QWJvcnRDb250cm9sbGVyOiBBYm9ydENvbnRyb2xsZXIgfCBudWxsID0gbnVsbDsKCiAgY29uc3QgYXBwbHlEaXNjb3ZlcnlFdmVudCA9IChldmVudDogV09MRGlzY292ZXJ5UG9sbEV2ZW50KSA9PiB7CiAgICBjb25zdCBuZXh0ID0gcmVkdWNlV29sRGlzY292ZXJ5RXZlbnQoCiAgICAgIHsgcHJvZ3Jlc3M6IGRpc2NvdmVyeVByb2dyZXNzLnZhbHVlLCByZXN1bHQ6IGRpc2NvdmVyeVJlc3VsdC52YWx1ZSB9LAogICAgICBldmVudCwKICAgICk7CiAgICBkaXNjb3ZlcnlQcm9ncmVzcy52YWx1ZSA9IG5leHQucHJvZ3Jlc3M7CiAgICBkaXNjb3ZlcnlSZXN1bHQudmFsdWUgPSBuZXh0LnJlc3VsdDsKICB9OwoKICBjb25zdCBkaXNjb3ZlckRldmljZXMgPSBhc3luYyAodGFyZ2V0Q2lkcnM6IHN0cmluZ1tdID0gW10pID0+IHsKICAgIGRpc2NvdmVyeUFib3J0Q29udHJvbGxlcj8uYWJvcnQoKTsKICAgIGNvbnN0IGFib3J0Q29udHJvbGxlciA9IG5ldyBBYm9ydENvbnRyb2xsZXIoKTsKICAgIGRpc2NvdmVyeUFib3J0Q29udHJvbGxlciA9IGFib3J0Q29udHJvbGxlcjsKICAgIGRpc2NvdmVyaW5nLnZhbHVlID0gdHJ1ZTsKICAgIGRpc2NvdmVyeVByb2dyZXNzLnZhbHVlID0gbnVsbDsKICAgIGRpc2NvdmVyeVJlc3VsdC52YWx1ZSA9IG51bGw7CiAgICB0cnkgewogICAgICBkaXNjb3ZlcnlSZXN1bHQudmFsdWUgPSBhd2FpdCBXT0xBUEkuZGlzY292ZXJMb2NhbERldmljZXModGFyZ2V0Q2lkcnMsIHsKICAgICAgICBzaWduYWw6IGFib3J0Q29udHJvbGxlci5zaWduYWwsCiAgICAgICAgb25FdmVudDogYXBwbHlEaXNjb3ZlcnlFdmVudCwKICAgICAgfSk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBpZiAoKGVycm9yIGFzIEVycm9yKT8ubmFtZSA9PT0gIkFib3J0RXJyb3IiKSByZXR1cm47CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLndvbC5kaXNjb3ZlcnkuZmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4ud29sLmRpc2NvdmVyeS5mYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0gZmluYWxseSB7CiAgICAgIGlmIChkaXNjb3ZlcnlBYm9ydENvbnRyb2xsZXIgPT09IGFib3J0Q29udHJvbGxlcikgewogICAgICAgIGRpc2NvdmVyeUFib3J0Q29udHJvbGxlciA9IG51bGw7CiAgICAgICAgZGlzY292ZXJpbmcudmFsdWUgPSBmYWxzZTsKICAgICAgfQogICAgfQogIH07CgogIGNvbnN0IG9wZW5EaXNjb3ZlcnkgPSBhc3luYyAoKSA9PiB7CiAgICBkaXNjb3ZlcnlPcGVuLnZhbHVlID0gdHJ1ZTsKICAgIGF3YWl0IGRpc2NvdmVyRGV2aWNlcygpOwogIH07CgogIGNvbnN0IHNldERpc2NvdmVyeU9wZW4gPSAob3BlbjogYm9vbGVhbikgPT4gewogICAgZGlzY292ZXJ5T3Blbi52YWx1ZSA9IG9wZW47CiAgICBpZiAoIW9wZW4pIHsKICAgICAgZGlzY292ZXJ5QWJvcnRDb250cm9sbGVyPy5hYm9ydCgpOwogICAgICBkaXNjb3ZlcnlBYm9ydENvbnRyb2xsZXIgPSBudWxsOwogICAgICBkaXNjb3ZlcmluZy52YWx1ZSA9IGZhbHNlOwogICAgfQogIH07CgogIGNvbnN0IGFkZERpc2NvdmVyZWREZXZpY2VzID0gYXN5bmMgKAogICAgZGV2aWNlczogQXJyYXk8V09MRGlzY292ZXJlZERldmljZSAmIHsgbmFtZTogc3RyaW5nIH0+LAogICkgPT4gewogICAgYWRkaW5nRGlzY292ZXJlZC52YWx1ZSA9IHRydWU7CiAgICBsZXQgYWRkZWQgPSAwOwogICAgdHJ5IHsKICAgICAgZm9yIChjb25zdCBkZXZpY2Ugb2YgZGV2aWNlcykgewogICAgICAgIGF3YWl0IFdPTEFQSS5jcmVhdGVUYXJnZXQoewogICAgICAgICAgbmFtZTogZGV2aWNlLm5hbWUsCiAgICAgICAgICBtYWM6IGRldmljZS5tYWMsCiAgICAgICAgICByZWxheUlkOiBudWxsLAogICAgICAgICAgYnJvYWRjYXN0QWRkcmVzczogZGV2aWNlLmJyb2FkY2FzdEFkZHJlc3MsCiAgICAgICAgICBpcEFkZHJlc3M6IGRldmljZS5pcCwKICAgICAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgICAgfSk7CiAgICAgICAgYWRkZWQgKz0gMTsKICAgICAgfQogICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLndvbC5kaXNjb3ZlcnkuYWRkZWRDb3VudCIsIHsgY291bnQ6IGFkZGVkIH0pKTsKICAgICAgZGlzY292ZXJ5T3Blbi52YWx1ZSA9IGZhbHNlOwogICAgICBhd2FpdCByZWxvYWQoKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLndvbC5kaXNjb3ZlcnkuYWRkRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4ud29sLmRpc2NvdmVyeS5hZGRGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgICAgaWYgKGFkZGVkKSBhd2FpdCByZWxvYWQoKTsKICAgIH0gZmluYWxseSB7CiAgICAgIGFkZGluZ0Rpc2NvdmVyZWQudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9OwoKICBjb25zdCBzdG9wID0gKCkgPT4gewogICAgZGlzY292ZXJ5QWJvcnRDb250cm9sbGVyPy5hYm9ydCgpOwogICAgZGlzY292ZXJ5QWJvcnRDb250cm9sbGVyID0gbnVsbDsKICB9OwoKICByZXR1cm4gewogICAgYWRkRGlzY292ZXJlZERldmljZXMsCiAgICBhZGRpbmdEaXNjb3ZlcmVkLAogICAgZGlzY292ZXJEZXZpY2VzLAogICAgZGlzY292ZXJpbmcsCiAgICBkaXNjb3ZlcnlPcGVuLAogICAgZGlzY292ZXJ5UHJvZ3Jlc3MsCiAgICBkaXNjb3ZlcnlSZXN1bHQsCiAgICBvcGVuRGlzY292ZXJ5LAogICAgc2V0RGlzY292ZXJ5T3BlbiwKICAgIHN0b3AsCiAgfTsKfTsK
+import { ref } from "vue";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  WOLAPI,
+  type WOLDiscoveredDevice,
+  type WOLDiscoveryPollEvent,
+  type WOLDiscoveryProgress,
+  type WOLDiscoveryResult,
+} from "@/lib/api/wol";
+import { reduceWolDiscoveryEvent } from "./wol-management-model";
+import type { WolTranslate } from "./wol-management-types";
+
+export const useWolDiscovery = ({
+  reload,
+  t,
+}: {
+  reload: () => Promise<void>;
+  t: WolTranslate;
+}) => {
+  const discoveryOpen = ref(false);
+  const discoveryResult = ref<WOLDiscoveryResult | null>(null);
+  const discoveryProgress = ref<WOLDiscoveryProgress | null>(null);
+  const discovering = ref(false);
+  const addingDiscovered = ref(false);
+  let discoveryAbortController: AbortController | null = null;
+
+  const applyDiscoveryEvent = (event: WOLDiscoveryPollEvent) => {
+    const next = reduceWolDiscoveryEvent(
+      { progress: discoveryProgress.value, result: discoveryResult.value },
+      event,
+    );
+    discoveryProgress.value = next.progress;
+    discoveryResult.value = next.result;
+  };
+
+  const discoverDevices = async (targetCidrs: string[] = []) => {
+    discoveryAbortController?.abort();
+    const abortController = new AbortController();
+    discoveryAbortController = abortController;
+    discovering.value = true;
+    discoveryProgress.value = null;
+    discoveryResult.value = null;
+    try {
+      discoveryResult.value = await WOLAPI.discoverLocalDevices(targetCidrs, {
+        signal: abortController.signal,
+        onEvent: applyDiscoveryEvent,
+      });
+    } catch (error) {
+      if ((error as Error)?.name === "AbortError") return;
+      toast.error(t("admin.wol.discovery.failed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.wol.discovery.failed"),
+        ),
+      });
+    } finally {
+      if (discoveryAbortController === abortController) {
+        discoveryAbortController = null;
+        discovering.value = false;
+      }
+    }
+  };
+
+  const openDiscovery = async () => {
+    discoveryOpen.value = true;
+    await discoverDevices();
+  };
+
+  const setDiscoveryOpen = (open: boolean) => {
+    discoveryOpen.value = open;
+    if (!open) {
+      discoveryAbortController?.abort();
+      discoveryAbortController = null;
+      discovering.value = false;
+    }
+  };
+
+  const addDiscoveredDevices = async (
+    devices: Array<WOLDiscoveredDevice & { name: string }>,
+  ) => {
+    addingDiscovered.value = true;
+    let added = 0;
+    try {
+      for (const device of devices) {
+        await WOLAPI.createTarget({
+          name: device.name,
+          mac: device.mac,
+          relayId: null,
+          broadcastAddress: device.broadcastAddress,
+          ipAddress: device.ip,
+          enabled: true,
+        });
+        added += 1;
+      }
+      toast.success(t("admin.wol.discovery.addedCount", { count: added }));
+      discoveryOpen.value = false;
+      await reload();
+    } catch (error) {
+      toast.error(t("admin.wol.discovery.addFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.wol.discovery.addFailed"),
+        ),
+      });
+      if (added) await reload();
+    } finally {
+      addingDiscovered.value = false;
+    }
+  };
+
+  const stop = () => {
+    discoveryAbortController?.abort();
+    discoveryAbortController = null;
+  };
+
+  return {
+    addDiscoveredDevices,
+    addingDiscovered,
+    discoverDevices,
+    discovering,
+    discoveryOpen,
+    discoveryProgress,
+    discoveryResult,
+    openDiscovery,
+    setDiscoveryOpen,
+    stop,
+  };
+};

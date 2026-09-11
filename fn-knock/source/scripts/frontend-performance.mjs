@@ -1,1 +1,277 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBjaHJvbWl1bSB9IGZyb20gInBsYXl3cmlnaHQiOwppbXBvcnQgeyBzdW1tYXJpemVGcm9udGVuZFJ1bnMgfSBmcm9tICIuL2Zyb250ZW5kLXBlcmZvcm1hbmNlLWxpYi5tanMiOwppbXBvcnQgeyBzdGFydFJ1bnRpbWUgfSBmcm9tICIuL3J1bnRpbWUtdGVzdC1oYXJuZXNzLm1qcyI7Cgpjb25zdCBydW5Db3VudCA9IE51bWJlci5wYXJzZUludCgKICBwcm9jZXNzLmVudi5GTl9LTk9DS19GUk9OVEVORF9QRVJGX1JVTlMgPz8gIjUiLAogIDEwLAopOwpjb25zdCBlbmZvcmNlUmVzb3VyY2VTZWxlY3Rpb24gPQogIHByb2Nlc3MuZW52LkZOX0tOT0NLX0ZST05URU5EX1BFUkZfRU5GT1JDRV9SRVNPVVJDRVMgIT09ICIwIjsKaWYgKCFOdW1iZXIuaXNJbnRlZ2VyKHJ1bkNvdW50KSB8fCBydW5Db3VudCA8IDEgfHwgcnVuQ291bnQgPiAxMCkgewogIHRocm93IG5ldyBFcnJvcigKICAgICJGTl9LTk9DS19GUk9OVEVORF9QRVJGX1JVTlMgbXVzdCBiZSBhbiBpbnRlZ2VyIGZyb20gMSB0byAxMCIsCiAgKTsKfQoKY29uc3QgcmVzcG9uc2VCb2R5ID0gKGRhdGEpID0+CiAgSlNPTi5zdHJpbmdpZnkoeyBzdWNjZXNzOiB0cnVlLCBkYXRhLCBtZXNzYWdlOiBudWxsIH0pOwpjb25zdCBhdXRoQmFzZSA9IHsKICBsb2NhbGU6IHsgZGVmYXVsdF9sb2NhbGU6ICJ6aC1DTiIgfSwKICBhcHBlYXJhbmNlOiB7IHRoZW1lX2NvbG9yX3ByZXNldDogImRlZmF1bHQiIH0sCiAgYXV0aDogewogICAgYXV0aGVudGljYXRlZDogZmFsc2UsCiAgICBtZXNzYWdlOiAiIiwKICAgIGdyYW50X3R5cGU6ICJsb2dpbl9pcF9ncmFudCIsCiAgICBsb2dpbl9tb2RlOiAidG90cCIsCiAgfSwKICBjbGllbnQ6IHsgaXA6ICIxMjcuMC4wLjEiIH0sCiAgcGFzc2tleTogeyBhdmFpbGFibGU6IGZhbHNlIH0sCiAgb2lkYzogeyBwcm92aWRlcnM6IFtdIH0sCiAgbGRhcDogeyBwcm92aWRlcnM6IFtdIH0sCn07Cgpjb25zdCBpbnN0YWxsQXV0aE1vY2tzID0gYXN5bmMgKHBhZ2UsIHNjZW5hcmlvKSA9PiB7CiAgY29uc3QgY2FwdGNoYSA9IHsKICAgIHByb3ZpZGVyOiBzY2VuYXJpbyA9PT0gImxvZ2luX2Jhc2UiID8gInR1cm5zdGlsZSIgOiAicG93IiwKICAgIHdpZGdldF9tb2RlOiAibm9ybWFsIiwKICAgIGF2YWlsYWJsZTogc2NlbmFyaW8gIT09ICJsb2dpbl9iYXNlIiwKICAgIHVuYXZhaWxhYmxlX3JlYXNvbjogc2NlbmFyaW8gPT09ICJsb2dpbl9iYXNlIiA/ICJkaXNhYmxlZCIgOiBudWxsLAogICAgcG93OiB7fSwKICAgIHR1cm5zdGlsZTogeyBzaXRlX2tleTogIiIgfSwKICB9OwogIGF3YWl0IHBhZ2Uucm91dGUoIioqL2FwaS9hdXRoL2Jvb3RzdHJhcCoqIiwgKHJvdXRlKSA9PgogICAgcm91dGUuZnVsZmlsbCh7CiAgICAgIGNvbnRlbnRUeXBlOiAiYXBwbGljYXRpb24vanNvbiIsCiAgICAgIGJvZHk6IHJlc3BvbnNlQm9keSh7IC4uLmF1dGhCYXNlLCBjYXB0Y2hhIH0pLAogICAgfSksCiAgKTsKICBhd2FpdCBwYWdlLnJvdXRlKCIqKi9hcGkvYXV0aC9zZXNzaW9uKioiLCAocm91dGUpID0+CiAgICByb3V0ZS5mdWxmaWxsKHsKICAgICAgY29udGVudFR5cGU6ICJhcHBsaWNhdGlvbi9qc29uIiwKICAgICAgYm9keTogcmVzcG9uc2VCb2R5KHsKICAgICAgICAuLi5hdXRoQmFzZSwKICAgICAgICBhdXRoOiB7CiAgICAgICAgICAuLi5hdXRoQmFzZS5hdXRoLAogICAgICAgICAgYXV0aGVudGljYXRlZDogdHJ1ZSwKICAgICAgICAgIGdyYW50X3R5cGU6ICJicm93c2VyX3Nlc3Npb24iLAogICAgICAgIH0sCiAgICAgIH0pLAogICAgfSksCiAgKTsKICBhd2FpdCBwYWdlLnJvdXRlKCIqKi9hcGkvYXV0aC9pcC9sb2NhdGlvbioqIiwgKHJvdXRlKSA9PgogICAgcm91dGUuZnVsZmlsbCh7CiAgICAgIGNvbnRlbnRUeXBlOiAiYXBwbGljYXRpb24vanNvbiIsCiAgICAgIGJvZHk6IHJlc3BvbnNlQm9keSh7CiAgICAgICAgaXA6ICIxMjcuMC4wLjEiLAogICAgICAgIGxvY2F0aW9uOiAibG9jYWwiLAogICAgICAgIHN0YXR1czogInN1Y2Nlc3MiLAogICAgICAgIGF0dGVtcHRzOiAxLAogICAgICAgIG1heEF0dGVtcHRzOiAxLAogICAgICB9KSwKICAgIH0pLAogICk7CiAgYXdhaXQgcGFnZS5yb3V0ZSgiKiovYXBpL2F1dGgvcGFzc2tleS9iaW5kLXN0YXR1cyoqIiwgKHJvdXRlKSA9PgogICAgcm91dGUuZnVsZmlsbCh7CiAgICAgIGNvbnRlbnRUeXBlOiAiYXBwbGljYXRpb24vanNvbiIsCiAgICAgIGJvZHk6IHJlc3BvbnNlQm9keSh7IGNhbl9iaW5kOiBmYWxzZSwgY3JlZGVudGlhbF9pZHM6IFtdIH0pLAogICAgfSksCiAgKTsKICBhd2FpdCBwYWdlLnJvdXRlKCIqKi9jaGFsbGVuZ2U/KioiLCAocm91dGUpID0+CiAgICByb3V0ZS5mdWxmaWxsKHsKICAgICAgY29udGVudFR5cGU6ICJhcHBsaWNhdGlvbi9qc29uIiwKICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoewogICAgICAgIGFsZ29yaXRobTogIlNIQS0yNTYiLAogICAgICAgIGNoYWxsZW5nZToKICAgICAgICAgICJlYzE4ZWFjOGQ3NThiMWViYTUyZDNjMTBkMzlhZGM2ZGQ5ODA2NDcyY2I0YWUwNjk2MzVkMzgzZDkwODZhNTEzIiwKICAgICAgICBtYXhudW1iZXI6IDAsCiAgICAgICAgc2FsdDogInMiLAogICAgICAgIHNpZ25hdHVyZTogImZyb250ZW5kLXBlcmZvcm1hbmNlIiwKICAgICAgfSksCiAgICB9KSwKICApOwp9OwoKY29uc3QgYXBwbHlUaHJvdHRsaW5nID0gYXN5bmMgKGNvbnRleHQsIHBhZ2UpID0+IHsKICBjb25zdCBzZXNzaW9uID0gYXdhaXQgY29udGV4dC5uZXdDRFBTZXNzaW9uKHBhZ2UpOwogIGF3YWl0IHNlc3Npb24uc2VuZCgiRW11bGF0aW9uLnNldENQVVRocm90dGxpbmdSYXRlIiwgeyByYXRlOiA0IH0pOwogIGF3YWl0IHNlc3Npb24uc2VuZCgiTmV0d29yay5lbmFibGUiKTsKICBhd2FpdCBzZXNzaW9uLnNlbmQoIk5ldHdvcmsuc2V0Q2FjaGVEaXNhYmxlZCIsIHsgY2FjaGVEaXNhYmxlZDogdHJ1ZSB9KTsKICBhd2FpdCBzZXNzaW9uLnNlbmQoIk5ldHdvcmsuZW11bGF0ZU5ldHdvcmtDb25kaXRpb25zIiwgewogICAgb2ZmbGluZTogZmFsc2UsCiAgICBsYXRlbmN5OiAxNTAsCiAgICBkb3dubG9hZFRocm91Z2hwdXQ6ICgxLjYgKiAxMDI0ICogMTAyNCkgLyA4LAogICAgdXBsb2FkVGhyb3VnaHB1dDogKDc1MCAqIDEwMjQpIC8gOCwKICAgIGNvbm5lY3Rpb25UeXBlOiAiY2VsbHVsYXIzZyIsCiAgfSk7Cn07Cgpjb25zdCBtZWFzdXJlID0gYXN5bmMgKHsKICBicm93c2VyLAogIGluaXRTY3JpcHQsCiAgc2NlbmFyaW8sCiAgc3RvcmFnZVN0YXRlLAogIHVybCwKICByZWFkeSwKfSkgPT4gewogIGNvbnN0IGNvbnRleHQgPSBhd2FpdCBicm93c2VyLm5ld0NvbnRleHQoeyBzdG9yYWdlU3RhdGUgfSk7CiAgYXdhaXQgY29udGV4dC5hZGRJbml0U2NyaXB0KGluaXRTY3JpcHQpOwogIGlmIChzY2VuYXJpbyA9PT0gImxvZ2luX3BvdyIpIHsKICAgIGF3YWl0IGNvbnRleHQuYWRkSW5pdFNjcmlwdCgoKSA9PiB7CiAgICAgIE9iamVjdC5kZWZpbmVQcm9wZXJ0eSh3aW5kb3csICJpc1NlY3VyZUNvbnRleHQiLCB7IHZhbHVlOiBmYWxzZSB9KTsKICAgIH0pOwogIH0KICBjb25zdCBwYWdlID0gYXdhaXQgY29udGV4dC5uZXdQYWdlKCk7CiAgaWYgKHNjZW5hcmlvLnN0YXJ0c1dpdGgoImxvZ2luXyIpIHx8IHNjZW5hcmlvID09PSAiaG9tZSIpIHsKICAgIGF3YWl0IGluc3RhbGxBdXRoTW9ja3MocGFnZSwgc2NlbmFyaW8pOwogIH0KICBjb25zdCBzY3JpcHRzID0gbmV3IFNldCgpOwogIHBhZ2Uub24oInJlc3BvbnNlIiwgKHJlc3BvbnNlKSA9PiB7CiAgICBjb25zdCBwYXRobmFtZSA9IG5ldyBVUkwocmVzcG9uc2UudXJsKCkpLnBhdGhuYW1lOwogICAgaWYgKAogICAgICByZXNwb25zZS5yZXF1ZXN0KCkucmVzb3VyY2VUeXBlKCkgPT09ICJzY3JpcHQiIHx8CiAgICAgIHBhdGhuYW1lLmVuZHNXaXRoKCIuanMiKQogICAgKSB7CiAgICAgIHNjcmlwdHMuYWRkKHBhdGhuYW1lKTsKICAgIH0KICB9KTsKICBhd2FpdCBhcHBseVRocm90dGxpbmcoY29udGV4dCwgcGFnZSk7CiAgYXdhaXQgcGFnZS5nb3RvKHVybCwgeyB3YWl0VW50aWw6ICJkb21jb250ZW50bG9hZGVkIiB9KTsKICBhd2FpdCBwYWdlLmxvY2F0b3IocmVhZHkpLmZpcnN0KCkud2FpdEZvcih7IHN0YXRlOiAidmlzaWJsZSIgfSk7CiAgY29uc3Qgcm91dGVSZWFkeSA9IE1hdGgucm91bmQoYXdhaXQgcGFnZS5ldmFsdWF0ZSgoKSA9PiBwZXJmb3JtYW5jZS5ub3coKSkpOwogIGlmIChzY2VuYXJpbyA9PT0gImxvZ2luX3BvdyIpIHsKICAgIGF3YWl0IHBhZ2UubG9jYXRvcigiZm9ybSBidXR0b24iKS5maXJzdCgpLmNsaWNrKCk7CiAgfQogIGF3YWl0IHBhZ2Uud2FpdEZvclRpbWVvdXQoMjUwKTsKICBjb25zdCBsb25nVGFza3MgPSBNYXRoLnJvdW5kKAogICAgYXdhaXQgcGFnZS5ldmFsdWF0ZSgoKSA9PiB3aW5kb3cuX19mbktub2NrTG9uZ1Rhc2tUb3RhbCA/PyAwKSwKICApOwogIGNvbnN0IHNjcmlwdExpc3QgPSBbLi4uc2NyaXB0c107CiAgY29uc3QgbG9jYWxlU2NyaXB0cyA9IHNjcmlwdExpc3QuZmlsdGVyKCh2YWx1ZSkgPT4KICAgIC9cLyg/OnpoLUNOfHpoLUhhbnR8ZW58a28tS1J8amEtSlApLVteL10rXC5qcyQvdS50ZXN0KHZhbHVlKSwKICApOwogIGNvbnN0IHJlcXVlc3RlZExvY2FsZXMgPSBuZXcgU2V0KAogICAgbG9jYWxlU2NyaXB0cwogICAgICAubWFwKAogICAgICAgICh2YWx1ZSkgPT4KICAgICAgICAgIHZhbHVlLm1hdGNoKC9cLyh6aC1DTnx6aC1IYW50fGVufGtvLUtSfGphLUpQKS1bXi9dK1wuanMkL3UpPy5bMV0sCiAgICAgICkKICAgICAgLmZpbHRlcihCb29sZWFuKSwKICApOwogIGlmIChlbmZvcmNlUmVzb3VyY2VTZWxlY3Rpb24pIHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgcmVxdWVzdGVkTG9jYWxlcy5zaXplLAogICAgICAxLAogICAgICBgJHtzY2VuYXJpb30gcmVxdWVzdGVkIGxvY2FsZXMgJHtbLi4ucmVxdWVzdGVkTG9jYWxlc10uam9pbigiLCAiKX06ICR7bG9jYWxlU2NyaXB0cy5qb2luKCIsICIpfWAsCiAgICApOwogICAgYXNzZXJ0Lm9rKHJlcXVlc3RlZExvY2FsZXMuaGFzKCJ6aC1DTiIpLCBgJHtzY2VuYXJpb30gZGlkIG5vdCBsb2FkIHpoLUNOYCk7CiAgICBpZiAoc2NlbmFyaW8gPT09ICJsb2dpbl9hbHRjaGEiKSB7CiAgICAgIGFzc2VydC5vayhzY3JpcHRMaXN0LnNvbWUoKHZhbHVlKSA9PiAvXC9hbHRjaGEtW14vXStcLmpzJC91LnRlc3QodmFsdWUpKSk7CiAgICB9IGVsc2UgewogICAgICBhc3NlcnQub2soCiAgICAgICAgIXNjcmlwdExpc3Quc29tZSgodmFsdWUpID0+IC9cL2FsdGNoYS1bXi9dK1wuanMkL3UudGVzdCh2YWx1ZSkpLAogICAgICAgIGAke3NjZW5hcmlvfSB1bmV4cGVjdGVkbHkgbG9hZGVkIEFMVENIQWAsCiAgICAgICk7CiAgICB9CiAgICBpZiAoc2NlbmFyaW8gPT09ICJsb2dpbl9wb3ciKSB7CiAgICAgIGFzc2VydC5vaygKICAgICAgICBzY3JpcHRMaXN0LnNvbWUoKHZhbHVlKSA9PiAvXC9wb3dcLndvcmtlci1bXi9dK1wuanMkL3UudGVzdCh2YWx1ZSkpLAogICAgICAgICJsb2dpbl9wb3cgZGlkIG5vdCBsb2FkIHRoZSBQb1cgd29ya2VyIiwKICAgICAgKTsKICAgIH0gZWxzZSB7CiAgICAgIGFzc2VydC5vaygKICAgICAgICAhc2NyaXB0TGlzdC5zb21lKCh2YWx1ZSkgPT4gL1wvcG93XC53b3JrZXItW14vXStcLmpzJC91LnRlc3QodmFsdWUpKSwKICAgICAgICBgJHtzY2VuYXJpb30gdW5leHBlY3RlZGx5IGxvYWRlZCB0aGUgUG9XIHdvcmtlcmAsCiAgICAgICk7CiAgICB9CiAgfQogIGF3YWl0IGNvbnRleHQuY2xvc2UoKTsKICByZXR1cm4gewogICAgc2NlbmFyaW8sCiAgICByb3V0ZV9yZWFkeV9tczogcm91dGVSZWFkeSwKICAgIGxvbmdfdGFza190b3RhbF9tczogbG9uZ1Rhc2tzLAogICAgc2NyaXB0czogc2NyaXB0TGlzdCwKICB9Owp9OwoKY29uc3Qgc2V0dXBBZG1pblN0b3JhZ2UgPSBhc3luYyAoYnJvd3NlciwgYWRtaW5VcmwpID0+IHsKICBjb25zdCBjb250ZXh0ID0gYXdhaXQgYnJvd3Nlci5uZXdDb250ZXh0KCk7CiAgY29uc3QgcGFnZSA9IGF3YWl0IGNvbnRleHQubmV3UGFnZSgpOwogIGF3YWl0IHBhZ2UuZ290byhhZG1pblVybCwgeyB3YWl0VW50aWw6ICJkb21jb250ZW50bG9hZGVkIiB9KTsKICBjb25zdCBpbnB1dCA9IHBhZ2UubG9jYXRvcignaW5wdXRbYXV0b2NvbXBsZXRlPSJuZXctcGFzc3dvcmQiXScpOwogIGF3YWl0IGlucHV0LmZpbGwoInJ1bnRpbWUxMjMiKTsKICBhd2FpdCBwYWdlLmxvY2F0b3IoJ2Zvcm0gYnV0dG9uW3R5cGU9InN1Ym1pdCJdJykuY2xpY2soKTsKICBhd2FpdCBwYWdlLmxvY2F0b3IoIiNtYWluLWNvbnRlbnQiKS53YWl0Rm9yKHsgc3RhdGU6ICJ2aXNpYmxlIiB9KTsKICBjb25zdCBzdG9yYWdlID0gYXdhaXQgY29udGV4dC5zdG9yYWdlU3RhdGUoKTsKICBhd2FpdCBjb250ZXh0LmNsb3NlKCk7CiAgcmV0dXJuIHN0b3JhZ2U7Cn07Cgpjb25zdCBpbml0U2NyaXB0ID0gKCkgPT4gewogIHdpbmRvdy5fX2ZuS25vY2tMb25nVGFza1RvdGFsID0gMDsKICBuZXcgUGVyZm9ybWFuY2VPYnNlcnZlcigobGlzdCkgPT4gewogICAgZm9yIChjb25zdCBlbnRyeSBvZiBsaXN0LmdldEVudHJpZXMoKSkgewogICAgICB3aW5kb3cuX19mbktub2NrTG9uZ1Rhc2tUb3RhbCArPSBlbnRyeS5kdXJhdGlvbjsKICAgIH0KICB9KS5vYnNlcnZlKHsgdHlwZTogImxvbmd0YXNrIiwgYnVmZmVyZWQ6IHRydWUgfSk7CiAgd2luZG93LmxvY2FsU3RvcmFnZS5zZXRJdGVtKCJmbi1rbm9jazpsb2NhbGUiLCAiemgtQ04iKTsKfTsKCmxldCBydW50aW1lOwpsZXQgYnJvd3NlcjsKdHJ5IHsKICBydW50aW1lID0gYXdhaXQgc3RhcnRSdW50aW1lKHsKICAgIGdhdGV3YXlCaW5hcnk6IHByb2Nlc3MuZW52LkZOX0tOT0NLX0ZST05URU5EX1BFUkZfR0FURVdBWV9CSU4sCiAgICBzZXJ2ZXJCaW5hcnk6IHByb2Nlc3MuZW52LkZOX0tOT0NLX1JVTlRJTUVfU0VSVkVSX0JJTiwKICAgIHByb3RlY3RlZEFkbWluOiB0cnVlLAogICAgdGVtcFByZWZpeDogImZuLWtub2NrLWZyb250ZW5kLXBlcmZvcm1hbmNlLSIsCiAgfSk7CiAgYnJvd3NlciA9IGF3YWl0IGNocm9taXVtLmxhdW5jaCh7IGhlYWRsZXNzOiB0cnVlIH0pOwogIGNvbnN0IGFkbWluU3RvcmFnZSA9IGF3YWl0IHNldHVwQWRtaW5TdG9yYWdlKGJyb3dzZXIsIHJ1bnRpbWUuYWRtaW5VcmwpOwogIGNvbnN0IHNjZW5hcmlvcyA9IFsKICAgIHsKICAgICAgc2NlbmFyaW86ICJkYXNoYm9hcmQiLAogICAgICBzdG9yYWdlU3RhdGU6IGFkbWluU3RvcmFnZSwKICAgICAgdXJsOiBydW50aW1lLmFkbWluVXJsLAogICAgICByZWFkeTogJ1tkYXRhLXRlc3RpZD0idGhlbWUtcHJlc2V0LXRyaWdnZXIiXScsCiAgICB9LAogICAgeyBzY2VuYXJpbzogImhvbWUiLCB1cmw6IHJ1bnRpbWUuYXV0aFVybCwgcmVhZHk6ICJidXR0b24iIH0sCiAgICB7CiAgICAgIHNjZW5hcmlvOiAibG9naW5fYmFzZSIsCiAgICAgIHVybDogYCR7cnVudGltZS5hdXRoVXJsfS9sb2dpbmAsCiAgICAgIHJlYWR5OiAiZm9ybSIsCiAgICB9LAogICAgewogICAgICBzY2VuYXJpbzogImxvZ2luX2FsdGNoYSIsCiAgICAgIHVybDogYCR7cnVudGltZS5hdXRoVXJsfS9sb2dpbmAsCiAgICAgIHJlYWR5OiAiYWx0Y2hhLXdpZGdldCIsCiAgICB9LAogICAgewogICAgICBzY2VuYXJpbzogImxvZ2luX3BvdyIsCiAgICAgIHVybDogYCR7cnVudGltZS5hdXRoVXJsfS9sb2dpbmAsCiAgICAgIHJlYWR5OiAiZm9ybSBidXR0b24iLAogICAgfSwKICBdOwogIGNvbnN0IHJ1bnMgPSBbXTsKICBmb3IgKGNvbnN0IHNjZW5hcmlvIG9mIHNjZW5hcmlvcykgewogICAgZm9yIChsZXQgaW5kZXggPSAwOyBpbmRleCA8IHJ1bkNvdW50OyBpbmRleCArPSAxKSB7CiAgICAgIHJ1bnMucHVzaChhd2FpdCBtZWFzdXJlKHsgYnJvd3NlciwgaW5pdFNjcmlwdCwgLi4uc2NlbmFyaW8gfSkpOwogICAgfQogIH0KICBwcm9jZXNzLnN0ZG91dC53cml0ZSgKICAgIGAke0pTT04uc3RyaW5naWZ5KAogICAgICB7CiAgICAgICAgc2NoZW1hX3ZlcnNpb246IDEsCiAgICAgICAgdGhyb3R0bGU6IHsgY3B1OiA0LCBuZXR3b3JrOiAiRmFzdCAzRyIsIGNhY2hlOiAiY29sZCIgfSwKICAgICAgICBydW5zLAogICAgICAgIHN1bW1hcnk6IHN1bW1hcml6ZUZyb250ZW5kUnVucyhydW5zKSwKICAgICAgfSwKICAgICAgbnVsbCwKICAgICAgMiwKICAgICl9XG5gLAogICk7Cn0gZmluYWxseSB7CiAgYXdhaXQgYnJvd3Nlcj8uY2xvc2UoKTsKICBhd2FpdCBydW50aW1lPy5zdG9wKCk7Cn0K
+import assert from "node:assert/strict";
+import { chromium } from "playwright";
+import { summarizeFrontendRuns } from "./frontend-performance-lib.mjs";
+import { startRuntime } from "./runtime-test-harness.mjs";
+
+const runCount = Number.parseInt(
+  process.env.FN_KNOCK_FRONTEND_PERF_RUNS ?? "5",
+  10,
+);
+const enforceResourceSelection =
+  process.env.FN_KNOCK_FRONTEND_PERF_ENFORCE_RESOURCES !== "0";
+if (!Number.isInteger(runCount) || runCount < 1 || runCount > 10) {
+  throw new Error(
+    "FN_KNOCK_FRONTEND_PERF_RUNS must be an integer from 1 to 10",
+  );
+}
+
+const responseBody = (data) =>
+  JSON.stringify({ success: true, data, message: null });
+const authBase = {
+  locale: { default_locale: "zh-CN" },
+  appearance: { theme_color_preset: "default" },
+  auth: {
+    authenticated: false,
+    message: "",
+    grant_type: "login_ip_grant",
+    login_mode: "totp",
+  },
+  client: { ip: "127.0.0.1" },
+  passkey: { available: false },
+  oidc: { providers: [] },
+  ldap: { providers: [] },
+};
+
+const installAuthMocks = async (page, scenario) => {
+  const captcha = {
+    provider: scenario === "login_base" ? "turnstile" : "pow",
+    widget_mode: "normal",
+    available: scenario !== "login_base",
+    unavailable_reason: scenario === "login_base" ? "disabled" : null,
+    pow: {},
+    turnstile: { site_key: "" },
+  };
+  await page.route("**/api/auth/bootstrap**", (route) =>
+    route.fulfill({
+      contentType: "application/json",
+      body: responseBody({ ...authBase, captcha }),
+    }),
+  );
+  await page.route("**/api/auth/session**", (route) =>
+    route.fulfill({
+      contentType: "application/json",
+      body: responseBody({
+        ...authBase,
+        auth: {
+          ...authBase.auth,
+          authenticated: true,
+          grant_type: "browser_session",
+        },
+      }),
+    }),
+  );
+  await page.route("**/api/auth/ip/location**", (route) =>
+    route.fulfill({
+      contentType: "application/json",
+      body: responseBody({
+        ip: "127.0.0.1",
+        location: "local",
+        status: "success",
+        attempts: 1,
+        maxAttempts: 1,
+      }),
+    }),
+  );
+  await page.route("**/api/auth/passkey/bind-status**", (route) =>
+    route.fulfill({
+      contentType: "application/json",
+      body: responseBody({ can_bind: false, credential_ids: [] }),
+    }),
+  );
+  await page.route("**/challenge?**", (route) =>
+    route.fulfill({
+      contentType: "application/json",
+      body: JSON.stringify({
+        algorithm: "SHA-256",
+        challenge:
+          "ec18eac8d758b1eba52d3c10d39adc6dd9806472cb4ae069635d383d9086a513",
+        maxnumber: 0,
+        salt: "s",
+        signature: "frontend-performance",
+      }),
+    }),
+  );
+};
+
+const applyThrottling = async (context, page) => {
+  const session = await context.newCDPSession(page);
+  await session.send("Emulation.setCPUThrottlingRate", { rate: 4 });
+  await session.send("Network.enable");
+  await session.send("Network.setCacheDisabled", { cacheDisabled: true });
+  await session.send("Network.emulateNetworkConditions", {
+    offline: false,
+    latency: 150,
+    downloadThroughput: (1.6 * 1024 * 1024) / 8,
+    uploadThroughput: (750 * 1024) / 8,
+    connectionType: "cellular3g",
+  });
+};
+
+const measure = async ({
+  browser,
+  initScript,
+  scenario,
+  storageState,
+  url,
+  ready,
+}) => {
+  const context = await browser.newContext({ storageState });
+  await context.addInitScript(initScript);
+  if (scenario === "login_pow") {
+    await context.addInitScript(() => {
+      Object.defineProperty(window, "isSecureContext", { value: false });
+    });
+  }
+  const page = await context.newPage();
+  if (scenario.startsWith("login_") || scenario === "home") {
+    await installAuthMocks(page, scenario);
+  }
+  const scripts = new Set();
+  page.on("response", (response) => {
+    const pathname = new URL(response.url()).pathname;
+    if (
+      response.request().resourceType() === "script" ||
+      pathname.endsWith(".js")
+    ) {
+      scripts.add(pathname);
+    }
+  });
+  await applyThrottling(context, page);
+  await page.goto(url, { waitUntil: "domcontentloaded" });
+  await page.locator(ready).first().waitFor({ state: "visible" });
+  const routeReady = Math.round(await page.evaluate(() => performance.now()));
+  if (scenario === "login_pow") {
+    await page.locator("form button").first().click();
+  }
+  await page.waitForTimeout(250);
+  const longTasks = Math.round(
+    await page.evaluate(() => window.__fnKnockLongTaskTotal ?? 0),
+  );
+  const scriptList = [...scripts];
+  const localeScripts = scriptList.filter((value) =>
+    /\/(?:zh-CN|zh-Hant|en|ko-KR|ja-JP)-[^/]+\.js$/u.test(value),
+  );
+  const requestedLocales = new Set(
+    localeScripts
+      .map(
+        (value) =>
+          value.match(/\/(zh-CN|zh-Hant|en|ko-KR|ja-JP)-[^/]+\.js$/u)?.[1],
+      )
+      .filter(Boolean),
+  );
+  if (enforceResourceSelection) {
+    assert.equal(
+      requestedLocales.size,
+      1,
+      `${scenario} requested locales ${[...requestedLocales].join(", ")}: ${localeScripts.join(", ")}`,
+    );
+    assert.ok(requestedLocales.has("zh-CN"), `${scenario} did not load zh-CN`);
+    if (scenario === "login_altcha") {
+      assert.ok(scriptList.some((value) => /\/altcha-[^/]+\.js$/u.test(value)));
+    } else {
+      assert.ok(
+        !scriptList.some((value) => /\/altcha-[^/]+\.js$/u.test(value)),
+        `${scenario} unexpectedly loaded ALTCHA`,
+      );
+    }
+    if (scenario === "login_pow") {
+      assert.ok(
+        scriptList.some((value) => /\/pow\.worker-[^/]+\.js$/u.test(value)),
+        "login_pow did not load the PoW worker",
+      );
+    } else {
+      assert.ok(
+        !scriptList.some((value) => /\/pow\.worker-[^/]+\.js$/u.test(value)),
+        `${scenario} unexpectedly loaded the PoW worker`,
+      );
+    }
+  }
+  await context.close();
+  return {
+    scenario,
+    route_ready_ms: routeReady,
+    long_task_total_ms: longTasks,
+    scripts: scriptList,
+  };
+};
+
+const setupAdminStorage = async (browser, adminUrl) => {
+  const context = await browser.newContext();
+  const page = await context.newPage();
+  await page.goto(adminUrl, { waitUntil: "domcontentloaded" });
+  const input = page.locator('input[autocomplete="new-password"]');
+  await input.fill("runtime123");
+  await page.locator('form button[type="submit"]').click();
+  await page.locator("#main-content").waitFor({ state: "visible" });
+  const storage = await context.storageState();
+  await context.close();
+  return storage;
+};
+
+const initScript = () => {
+  window.__fnKnockLongTaskTotal = 0;
+  new PerformanceObserver((list) => {
+    for (const entry of list.getEntries()) {
+      window.__fnKnockLongTaskTotal += entry.duration;
+    }
+  }).observe({ type: "longtask", buffered: true });
+  window.localStorage.setItem("fn-knock:locale", "zh-CN");
+};
+
+let runtime;
+let browser;
+try {
+  runtime = await startRuntime({
+    gatewayBinary: process.env.FN_KNOCK_FRONTEND_PERF_GATEWAY_BIN,
+    serverBinary: process.env.FN_KNOCK_RUNTIME_SERVER_BIN,
+    protectedAdmin: true,
+    tempPrefix: "fn-knock-frontend-performance-",
+  });
+  browser = await chromium.launch({ headless: true });
+  const adminStorage = await setupAdminStorage(browser, runtime.adminUrl);
+  const scenarios = [
+    {
+      scenario: "dashboard",
+      storageState: adminStorage,
+      url: runtime.adminUrl,
+      ready: '[data-testid="theme-preset-trigger"]',
+    },
+    { scenario: "home", url: runtime.authUrl, ready: "button" },
+    {
+      scenario: "login_base",
+      url: `${runtime.authUrl}/login`,
+      ready: "form",
+    },
+    {
+      scenario: "login_altcha",
+      url: `${runtime.authUrl}/login`,
+      ready: "altcha-widget",
+    },
+    {
+      scenario: "login_pow",
+      url: `${runtime.authUrl}/login`,
+      ready: "form button",
+    },
+  ];
+  const runs = [];
+  for (const scenario of scenarios) {
+    for (let index = 0; index < runCount; index += 1) {
+      runs.push(await measure({ browser, initScript, ...scenario }));
+    }
+  }
+  process.stdout.write(
+    `${JSON.stringify(
+      {
+        schema_version: 1,
+        throttle: { cpu: 4, network: "Fast 3G", cache: "cold" },
+        runs,
+        summary: summarizeFrontendRuns(runs),
+      },
+      null,
+      2,
+    )}\n`,
+  );
+} finally {
+  await browser?.close();
+  await runtime?.stop();
+}

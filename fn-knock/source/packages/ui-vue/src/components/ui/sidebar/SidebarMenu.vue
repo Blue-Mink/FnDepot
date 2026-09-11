@@ -1,1 +1,18 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPHVsCiAgICBkYXRhLXNsb3Q9InNpZGViYXItbWVudSIKICAgIGRhdGEtc2lkZWJhcj0ibWVudSIKICAgIDpjbGFzcz0iY24oJ2ZsZXggdy1mdWxsIG1pbi13LTAgZmxleC1jb2wgZ2FwLTEnLCBwcm9wcy5jbGFzcykiCiAgPgogICAgPHNsb3QgLz4KICA8L3VsPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <ul
+    data-slot="sidebar-menu"
+    data-sidebar="menu"
+    :class="cn('flex w-full min-w-0 flex-col gap-1', props.class)"
+  >
+    <slot />
+  </ul>
+</template>

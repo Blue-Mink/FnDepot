@@ -1,1 +1,123 @@
-aW1wb3J0IHsKICBNQVhfVEVSTUlOQUxfRk9OVF9TSVpFLAogIE1JTl9URVJNSU5BTF9GT05UX1NJWkUsCn0gZnJvbSAiLi90ZXJtaW5hbC1ydW50aW1lIjsKZXhwb3J0IHsgY29weVRleHRUb0NsaXBib2FyZCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvY29weVRleHRUb0NsaXBib2FyZCI7CgpleHBvcnQgY29uc3QgZGV0ZWN0Q29tcGFjdFZpZXdwb3J0ID0gKCk6IGJvb2xlYW4gPT4gewogIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIikgcmV0dXJuIGZhbHNlOwogIHJldHVybiAoCiAgICB3aW5kb3cubWF0Y2hNZWRpYSgiKHBvaW50ZXI6IGNvYXJzZSkiKS5tYXRjaGVzIHx8IHdpbmRvdy5pbm5lcldpZHRoIDwgNzY4CiAgKTsKfTsKCmV4cG9ydCBjb25zdCBnZXRWaXN1YWxWaWV3cG9ydE1ldHJpY3MgPSAoKSA9PiB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSB7CiAgICByZXR1cm4gewogICAgICBoZWlnaHQ6IDAsCiAgICAgIG9mZnNldFRvcDogMCwKICAgICAgdmlzaWJsZUJvdHRvbTogMCwKICAgICAga2V5Ym9hcmRJbnNldDogMCwKICAgIH07CiAgfQoKICBjb25zdCB2aWV3cG9ydCA9IHdpbmRvdy52aXN1YWxWaWV3cG9ydDsKICBjb25zdCBoZWlnaHQgPSB2aWV3cG9ydD8uaGVpZ2h0ID8/IHdpbmRvdy5pbm5lckhlaWdodDsKICBjb25zdCBvZmZzZXRUb3AgPSB2aWV3cG9ydD8ub2Zmc2V0VG9wID8/IDA7CiAgY29uc3QgdmlzaWJsZUJvdHRvbSA9IG9mZnNldFRvcCArIGhlaWdodDsKICBjb25zdCBrZXlib2FyZEluc2V0ID0gTWF0aC5tYXgoMCwgd2luZG93LmlubmVySGVpZ2h0IC0gdmlzaWJsZUJvdHRvbSk7CgogIHJldHVybiB7CiAgICBoZWlnaHQsCiAgICBvZmZzZXRUb3AsCiAgICB2aXNpYmxlQm90dG9tLAogICAga2V5Ym9hcmRJbnNldCwKICB9Owp9OwoKZXhwb3J0IGNvbnN0IGZvY3VzRWxlbWVudFdpdGhvdXRTY3JvbGwgPSAoZWxlbWVudDogSFRNTEVsZW1lbnQpID0+IHsKICB0cnkgewogICAgZWxlbWVudC5mb2N1cyh7IHByZXZlbnRTY3JvbGw6IHRydWUgfSk7CiAgfSBjYXRjaCB7CiAgICBlbGVtZW50LmZvY3VzKCk7CiAgfQp9OwoKZXhwb3J0IGNvbnN0IGNyZWF0ZVBhZ2VTY3JvbGxMb2NrID0gKCkgPT4gewogIGxldCBsb2NrZWQgPSBmYWxzZTsKICBsZXQgcHJldmlvdXNIdG1sT3ZlcmZsb3cgPSAiIjsKICBsZXQgcHJldmlvdXNCb2R5T3ZlcmZsb3cgPSAiIjsKCiAgcmV0dXJuIHsKICAgIGxvY2s6ICgpID0+IHsKICAgICAgaWYgKHR5cGVvZiBkb2N1bWVudCA9PT0gInVuZGVmaW5lZCIgfHwgbG9ja2VkKSByZXR1cm47CgogICAgICBwcmV2aW91c0h0bWxPdmVyZmxvdyA9IGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5zdHlsZS5vdmVyZmxvdzsKICAgICAgcHJldmlvdXNCb2R5T3ZlcmZsb3cgPSBkb2N1bWVudC5ib2R5LnN0eWxlLm92ZXJmbG93OwogICAgICBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuc3R5bGUub3ZlcmZsb3cgPSAiaGlkZGVuIjsKICAgICAgZG9jdW1lbnQuYm9keS5zdHlsZS5vdmVyZmxvdyA9ICJoaWRkZW4iOwogICAgICBsb2NrZWQgPSB0cnVlOwogICAgfSwKICAgIHVubG9jazogKCkgPT4gewogICAgICBpZiAodHlwZW9mIGRvY3VtZW50ID09PSAidW5kZWZpbmVkIiB8fCAhbG9ja2VkKSByZXR1cm47CgogICAgICBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuc3R5bGUub3ZlcmZsb3cgPSBwcmV2aW91c0h0bWxPdmVyZmxvdzsKICAgICAgZG9jdW1lbnQuYm9keS5zdHlsZS5vdmVyZmxvdyA9IHByZXZpb3VzQm9keU92ZXJmbG93OwogICAgICBsb2NrZWQgPSBmYWxzZTsKICAgIH0sCiAgfTsKfTsKCmV4cG9ydCBjb25zdCByZXNvbHZlQ29uc3RyYWluZWRNZW51UG9zaXRpb24gPSAoewogIGNsaWVudFgsCiAgY2xpZW50WSwKICBtZW51SGVpZ2h0LAogIG1lbnVXaWR0aCwKICB2aWV3cG9ydEdhcCwKICB2aWV3cG9ydEhlaWdodCwKICB2aWV3cG9ydFdpZHRoLAp9OiB7CiAgY2xpZW50WDogbnVtYmVyOwogIGNsaWVudFk6IG51bWJlcjsKICBtZW51SGVpZ2h0OiBudW1iZXI7CiAgbWVudVdpZHRoOiBudW1iZXI7CiAgdmlld3BvcnRHYXA6IG51bWJlcjsKICB2aWV3cG9ydEhlaWdodDogbnVtYmVyOwogIHZpZXdwb3J0V2lkdGg6IG51bWJlcjsKfSkgPT4gewogIGNvbnN0IG1heFggPSBNYXRoLm1heCh2aWV3cG9ydEdhcCwgdmlld3BvcnRXaWR0aCAtIG1lbnVXaWR0aCAtIHZpZXdwb3J0R2FwKTsKICBjb25zdCBtYXhZID0gTWF0aC5tYXgodmlld3BvcnRHYXAsIHZpZXdwb3J0SGVpZ2h0IC0gbWVudUhlaWdodCAtIHZpZXdwb3J0R2FwKTsKCiAgcmV0dXJuIHsKICAgIHg6IE1hdGgubWluKG1heFgsIE1hdGgubWF4KHZpZXdwb3J0R2FwLCBjbGllbnRYKSksCiAgICB5OiBNYXRoLm1pbihtYXhZLCBNYXRoLm1heCh2aWV3cG9ydEdhcCwgY2xpZW50WSkpLAogIH07Cn07CgpleHBvcnQgY29uc3QgY2xhbXBUZXJtaW5hbEZvbnRTaXplID0gKHZhbHVlOiBudW1iZXIpOiBudW1iZXIgPT4KICBNYXRoLm1pbigKICAgIE1BWF9URVJNSU5BTF9GT05UX1NJWkUsCiAgICBNYXRoLm1heChNSU5fVEVSTUlOQUxfRk9OVF9TSVpFLCBNYXRoLnJvdW5kKHZhbHVlKSksCiAgKTsKCmV4cG9ydCBjb25zdCBnZXRUb3VjaERpc3RhbmNlID0gKHRvdWNoZXM6IFRvdWNoTGlzdCk6IG51bWJlciB8IG51bGwgPT4gewogIGNvbnN0IGZpcnN0ID0gdG91Y2hlcy5pdGVtKDApOwogIGNvbnN0IHNlY29uZCA9IHRvdWNoZXMuaXRlbSgxKTsKICBpZiAoIWZpcnN0IHx8ICFzZWNvbmQpIHJldHVybiBudWxsOwogIHJldHVybiBNYXRoLmh5cG90KAogICAgc2Vjb25kLmNsaWVudFggLSBmaXJzdC5jbGllbnRYLAogICAgc2Vjb25kLmNsaWVudFkgLSBmaXJzdC5jbGllbnRZLAogICk7Cn07CgpleHBvcnQgY29uc3QgdG91Y2hMaXN0SW5jbHVkZXNJZGVudGlmaWVyID0gKAogIHRvdWNoZXM6IFRvdWNoTGlzdCwKICBpZGVudGlmaWVyOiBudW1iZXIsCik6IGJvb2xlYW4gPT4gewogIGZvciAobGV0IGluZGV4ID0gMDsgaW5kZXggPCB0b3VjaGVzLmxlbmd0aDsgaW5kZXggKz0gMSkgewogICAgaWYgKHRvdWNoZXMuaXRlbShpbmRleCk/LmlkZW50aWZpZXIgPT09IGlkZW50aWZpZXIpIHsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9CiAgfQogIHJldHVybiBmYWxzZTsKfTsK
+import {
+  MAX_TERMINAL_FONT_SIZE,
+  MIN_TERMINAL_FONT_SIZE,
+} from "./terminal-runtime";
+export { copyTextToClipboard } from "@admin-shared/utils/copyTextToClipboard";
+
+export const detectCompactViewport = (): boolean => {
+  if (typeof window === "undefined") return false;
+  return (
+    window.matchMedia("(pointer: coarse)").matches || window.innerWidth < 768
+  );
+};
+
+export const getVisualViewportMetrics = () => {
+  if (typeof window === "undefined") {
+    return {
+      height: 0,
+      offsetTop: 0,
+      visibleBottom: 0,
+      keyboardInset: 0,
+    };
+  }
+
+  const viewport = window.visualViewport;
+  const height = viewport?.height ?? window.innerHeight;
+  const offsetTop = viewport?.offsetTop ?? 0;
+  const visibleBottom = offsetTop + height;
+  const keyboardInset = Math.max(0, window.innerHeight - visibleBottom);
+
+  return {
+    height,
+    offsetTop,
+    visibleBottom,
+    keyboardInset,
+  };
+};
+
+export const focusElementWithoutScroll = (element: HTMLElement) => {
+  try {
+    element.focus({ preventScroll: true });
+  } catch {
+    element.focus();
+  }
+};
+
+export const createPageScrollLock = () => {
+  let locked = false;
+  let previousHtmlOverflow = "";
+  let previousBodyOverflow = "";
+
+  return {
+    lock: () => {
+      if (typeof document === "undefined" || locked) return;
+
+      previousHtmlOverflow = document.documentElement.style.overflow;
+      previousBodyOverflow = document.body.style.overflow;
+      document.documentElement.style.overflow = "hidden";
+      document.body.style.overflow = "hidden";
+      locked = true;
+    },
+    unlock: () => {
+      if (typeof document === "undefined" || !locked) return;
+
+      document.documentElement.style.overflow = previousHtmlOverflow;
+      document.body.style.overflow = previousBodyOverflow;
+      locked = false;
+    },
+  };
+};
+
+export const resolveConstrainedMenuPosition = ({
+  clientX,
+  clientY,
+  menuHeight,
+  menuWidth,
+  viewportGap,
+  viewportHeight,
+  viewportWidth,
+}: {
+  clientX: number;
+  clientY: number;
+  menuHeight: number;
+  menuWidth: number;
+  viewportGap: number;
+  viewportHeight: number;
+  viewportWidth: number;
+}) => {
+  const maxX = Math.max(viewportGap, viewportWidth - menuWidth - viewportGap);
+  const maxY = Math.max(viewportGap, viewportHeight - menuHeight - viewportGap);
+
+  return {
+    x: Math.min(maxX, Math.max(viewportGap, clientX)),
+    y: Math.min(maxY, Math.max(viewportGap, clientY)),
+  };
+};
+
+export const clampTerminalFontSize = (value: number): number =>
+  Math.min(
+    MAX_TERMINAL_FONT_SIZE,
+    Math.max(MIN_TERMINAL_FONT_SIZE, Math.round(value)),
+  );
+
+export const getTouchDistance = (touches: TouchList): number | null => {
+  const first = touches.item(0);
+  const second = touches.item(1);
+  if (!first || !second) return null;
+  return Math.hypot(
+    second.clientX - first.clientX,
+    second.clientY - first.clientY,
+  );
+};
+
+export const touchListIncludesIdentifier = (
+  touches: TouchList,
+  identifier: number,
+): boolean => {
+  for (let index = 0; index < touches.length; index += 1) {
+    if (touches.item(index)?.identifier === identifier) {
+      return true;
+    }
+  }
+  return false;
+};

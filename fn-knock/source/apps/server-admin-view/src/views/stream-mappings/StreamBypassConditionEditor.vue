@@ -1,1 +1,174 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IFRyYXNoMiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCBDaWRyUmVnaW9uU2VsZWN0b3IgZnJvbSAiQC9jb21wb25lbnRzL0NpZHJSZWdpb25TZWxlY3Rvci52dWUiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB0eXBlIHsgQWR2YW5jZWRBdXRoUmVnaW9uU2VsZWN0b3JUZXh0IH0gZnJvbSAiLi4vc3ViZG9tYWluLXByb3h5L2FkdmFuY2VkLWF1dGgtcnVsZS1jb250cmFjdCI7CmltcG9ydCB0eXBlIHsKICBTdHJlYW1CeXBhc3NDb25kaXRpb24sCiAgU3RyZWFtQnlwYXNzR3JvdXAsCiAgU3RyZWFtQnlwYXNzT3BlcmF0b3IsCiAgU3RyZWFtQnlwYXNzUnVsZUVkaXRvciwKICBTdHJlYW1CeXBhc3NUYXJnZXQsCn0gZnJvbSAiLi9zdHJlYW0tYnlwYXNzLXBvbGljeS1mb3JtIjsKCmRlZmluZVByb3BzPHsKICBjb25kaXRpb246IFN0cmVhbUJ5cGFzc0NvbmRpdGlvbjsKICBjb25kaXRpb25JbmRleDogbnVtYmVyOwogIGVkaXRvcjogU3RyZWFtQnlwYXNzUnVsZUVkaXRvcjsKICBncm91cDogU3RyZWFtQnlwYXNzR3JvdXA7CiAgbXVsdGlwbGU6IGJvb2xlYW47CiAgcmVnaW9uVGV4dDogQWR2YW5jZWRBdXRoUmVnaW9uU2VsZWN0b3JUZXh0OwogIHNhdmluZzogYm9vbGVhbjsKfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHRhcmdldHM6IEFycmF5PHsgbGFiZWxLZXk6IHN0cmluZzsgdmFsdWU6IFN0cmVhbUJ5cGFzc1RhcmdldCB9PiA9IFsKICB7IGxhYmVsS2V5OiAiYWRtaW4uYWR2YW5jZWRBdXRoLnRhcmdldFNvdXJjZUlwIiwgdmFsdWU6ICJzb3VyY2VfaXAiIH0sCiAgewogICAgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgudGFyZ2V0U291cmNlUmVnaW9uIiwKICAgIHZhbHVlOiAic291cmNlX3JlZ2lvbiIsCiAgfSwKXTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgdi1pZj0iY29uZGl0aW9uSW5kZXggPiAwIgogICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHB5LTAuNSBzbTpoaWRkZW4iCiAgPgogICAgPHNwYW4gY2xhc3M9ImgtcHggZmxleC0xIGJnLWJvcmRlci84MCI+PC9zcGFuPgogICAgPHNwYW4KICAgICAgY2xhc3M9InJvdW5kZWQgYm9yZGVyIGJvcmRlci1ib3JkZXIvODAgYmctYmFja2dyb3VuZCBweC0xLjUgcHktMC41IHRleHQtWzEwcHhdIGZvbnQtbWVkaXVtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgID4KICAgICAgQU5ECiAgICA8L3NwYW4+CiAgICA8c3BhbiBjbGFzcz0iaC1weCBmbGV4LTEgYmctYm9yZGVyLzgwIj48L3NwYW4+CiAgPC9kaXY+CgogIDxkaXYKICAgIGNsYXNzPSJyZWxhdGl2ZSByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyLzYwIGJnLWJhY2tncm91bmQvODAgcC0zIHNoYWRvdy1ub25lIgogICAgOmNsYXNzPSIKICAgICAgbXVsdGlwbGUKICAgICAgICA/ICdzbTpiZWZvcmU6YWJzb2x1dGUgc206YmVmb3JlOnRvcC0xLzIgc206YmVmb3JlOi1sZWZ0LVsxLjM3NXJlbV0gc206YmVmb3JlOmgtcHggc206YmVmb3JlOnctWzEuMzc1cmVtXSBzbTpiZWZvcmU6YmctYm9yZGVyJwogICAgICAgIDogJycKICAgICIKICA+CiAgICA8ZGl2IGNsYXNzPSJmbGV4IG1pbi13LTAgaXRlbXMtc3RhcnQgZ2FwLTIiPgogICAgICA8ZGl2CiAgICAgICAgY2xhc3M9ImdyaWQgbWluLXctMCBmbGV4LTEgZ2FwLTMgc206Z3JpZC1jb2xzLTIgeGw6Z3JpZC1jb2xzLVttaW5tYXgoOXJlbSwwLjhmcilfbWlubWF4KDlyZW0sMC44ZnIpX21pbm1heCgxNXJlbSwxLjhmcildIgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTEuNSI+CiAgICAgICAgICA8TGFiZWwgOmZvcj0iYHN0cmVhbS1ieXBhc3MtdGFyZ2V0LSR7Y29uZGl0aW9uLmlkfWAiIGNsYXNzPSJ0ZXh0LXhzIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uYWR2YW5jZWRBdXRoLm1hdGNoVGFyZ2V0IikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8c2VsZWN0CiAgICAgICAgICAgIDppZD0iYHN0cmVhbS1ieXBhc3MtdGFyZ2V0LSR7Y29uZGl0aW9uLmlkfWAiCiAgICAgICAgICAgIGNsYXNzPSJoLTkgdy1mdWxsIG1pbi13LTAgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWlucHV0IGJnLWJhY2tncm91bmQgcHgtMyB0ZXh0LXNtIHNoYWRvdy14cyBvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpib3JkZXItcmluZyBmb2N1cy12aXNpYmxlOnJpbmctWzNweF0gZm9jdXMtdmlzaWJsZTpyaW5nLXJpbmcvNTAiCiAgICAgICAgICAgIDp2YWx1ZT0iY29uZGl0aW9uLnRhcmdldCIKICAgICAgICAgICAgOmRpc2FibGVkPSJzYXZpbmciCiAgICAgICAgICAgIEBjaGFuZ2U9IgogICAgICAgICAgICAgIGVkaXRvci51cGRhdGVUYXJnZXQoCiAgICAgICAgICAgICAgICBjb25kaXRpb24sCiAgICAgICAgICAgICAgICAoJGV2ZW50LnRhcmdldCBhcyBIVE1MU2VsZWN0RWxlbWVudCkKICAgICAgICAgICAgICAgICAgLnZhbHVlIGFzIFN0cmVhbUJ5cGFzc1RhcmdldCwKICAgICAgICAgICAgICApCiAgICAgICAgICAgICIKICAgICAgICAgID4KICAgICAgICAgICAgPG9wdGlvbgogICAgICAgICAgICAgIHYtZm9yPSJ0YXJnZXQgaW4gdGFyZ2V0cyIKICAgICAgICAgICAgICA6a2V5PSJ0YXJnZXQudmFsdWUiCiAgICAgICAgICAgICAgOnZhbHVlPSJ0YXJnZXQudmFsdWUiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KHRhcmdldC5sYWJlbEtleSkgfX0KICAgICAgICAgICAgPC9vcHRpb24+CiAgICAgICAgICA8L3NlbGVjdD4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTEuNSI+CiAgICAgICAgICA8TGFiZWwKICAgICAgICAgICAgOmZvcj0iYHN0cmVhbS1ieXBhc3Mtb3BlcmF0b3ItJHtjb25kaXRpb24uaWR9YCIKICAgICAgICAgICAgY2xhc3M9InRleHQteHMiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmFkdmFuY2VkQXV0aC5tYXRjaE9wZXJhdG9yIikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8c2VsZWN0CiAgICAgICAgICAgIDppZD0iYHN0cmVhbS1ieXBhc3Mtb3BlcmF0b3ItJHtjb25kaXRpb24uaWR9YCIKICAgICAgICAgICAgY2xhc3M9ImgtOSB3LWZ1bGwgbWluLXctMCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItaW5wdXQgYmctYmFja2dyb3VuZCBweC0zIHRleHQtc20gc2hhZG93LXhzIG91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOmJvcmRlci1yaW5nIGZvY3VzLXZpc2libGU6cmluZy1bM3B4XSBmb2N1cy12aXNpYmxlOnJpbmctcmluZy81MCIKICAgICAgICAgICAgOnZhbHVlPSJjb25kaXRpb24ub3BlcmF0b3IiCiAgICAgICAgICAgIDpkaXNhYmxlZD0ic2F2aW5nIgogICAgICAgICAgICBAY2hhbmdlPSIKICAgICAgICAgICAgICBlZGl0b3IudXBkYXRlT3BlcmF0b3IoCiAgICAgICAgICAgICAgICBjb25kaXRpb24sCiAgICAgICAgICAgICAgICAoJGV2ZW50LnRhcmdldCBhcyBIVE1MU2VsZWN0RWxlbWVudCkKICAgICAgICAgICAgICAgICAgLnZhbHVlIGFzIFN0cmVhbUJ5cGFzc09wZXJhdG9yLAogICAgICAgICAgICAgICkKICAgICAgICAgICAgIgogICAgICAgICAgPgogICAgICAgICAgICA8b3B0aW9uCiAgICAgICAgICAgICAgdi1mb3I9Im9wZXJhdG9yIGluIGVkaXRvci5vcGVyYXRvcnNGb3IoY29uZGl0aW9uLnRhcmdldCkiCiAgICAgICAgICAgICAgOmtleT0ib3BlcmF0b3IudmFsdWUiCiAgICAgICAgICAgICAgOnZhbHVlPSJvcGVyYXRvci52YWx1ZSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHQob3BlcmF0b3IubGFiZWxLZXkpIH19CiAgICAgICAgICAgIDwvb3B0aW9uPgogICAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9ImNvbmRpdGlvbi50YXJnZXQgPT09ICdzb3VyY2VfcmVnaW9uJyIKICAgICAgICAgIGNsYXNzPSJtaW4tdy0wIHNwYWNlLXktMS41IHNtOmNvbC1zcGFuLTIgeGw6Y29sLXNwYW4tMSIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXhzIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uYWR2YW5jZWRBdXRoLm1hdGNoVmFsdWUiKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8Q2lkclJlZ2lvblNlbGVjdG9yCiAgICAgICAgICAgIHYtbW9kZWw9ImNvbmRpdGlvbi5zZWxlY3Rpb25zIgogICAgICAgICAgICBsYXlvdXQ9ImNvbXBhY3QiCiAgICAgICAgICAgIDpkaXNhYmxlZD0ic2F2aW5nIgogICAgICAgICAgICA6dGV4dD0icmVnaW9uVGV4dCIKICAgICAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5zdHJlYW1NYXBwaW5ncy5wb2xpY3lSZWdpb25EZXNjcmlwdGlvbicpIgogICAgICAgICAgLz4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiB2LWVsc2UgY2xhc3M9Im1pbi13LTAgc3BhY2UteS0xLjUgc206Y29sLXNwYW4tMiB4bDpjb2wtc3Bhbi0xIj4KICAgICAgICAgIDxMYWJlbAogICAgICAgICAgICA6Zm9yPSJgc3RyZWFtLWJ5cGFzcy12YWx1ZS0ke2NvbmRpdGlvbi5pZH1gIgogICAgICAgICAgICBjbGFzcz0idGV4dC14cyIKICAgICAgICAgICAgOnRpdGxlPSJ0KGVkaXRvci5zb3VyY2VOZXR3b3JrVHJhbnNsYXRpb25LZXkoY29uZGl0aW9uLCAnSGludCcpKSIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdChlZGl0b3Iuc291cmNlTmV0d29ya1RyYW5zbGF0aW9uS2V5KGNvbmRpdGlvbiwgIkxhYmVsIikpIH19CiAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIDppZD0iYHN0cmVhbS1ieXBhc3MtdmFsdWUtJHtjb25kaXRpb24uaWR9YCIKICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJlZGl0b3IudmFsdWVJbnB1dFRleHQoY29uZGl0aW9uKSIKICAgICAgICAgICAgY2xhc3M9ImZvbnQtbW9ubyIKICAgICAgICAgICAgOnBsYWNlaG9sZGVyPSIKICAgICAgICAgICAgICB0KGVkaXRvci5zb3VyY2VOZXR3b3JrVHJhbnNsYXRpb25LZXkoY29uZGl0aW9uLCAnUGxhY2Vob2xkZXInKSkKICAgICAgICAgICAgIgogICAgICAgICAgICA6dGl0bGU9InQoZWRpdG9yLnNvdXJjZU5ldHdvcmtUcmFuc2xhdGlvbktleShjb25kaXRpb24sICdIaW50JykpIgogICAgICAgICAgICA6ZGlzYWJsZWQ9InNhdmluZyIKICAgICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iCiAgICAgICAgICAgICAgZWRpdG9yLnNldFNvdXJjZVZhbHVlKGNvbmRpdGlvbiwgU3RyaW5nKCRldmVudCkpCiAgICAgICAgICAgICIKICAgICAgICAgICAgQGJsdXI9ImVkaXRvci5ub3JtYWxpemVWYWx1ZURyYWZ0KGNvbmRpdGlvbikiCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxCdXR0b24KICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICBzaXplPSJpY29uIgogICAgICAgIGNsYXNzPSJncm91cCBhYnNvbHV0ZSB0b3AtMS41IHJpZ2h0LTEuNSBoLTcgdy03IHNocmluay0wIHNtOnN0YXRpYyBzbTptdC01LjUgc206aC04IHNtOnctOCIKICAgICAgICA6ZGlzYWJsZWQ9InNhdmluZyIKICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uYWR2YW5jZWRBdXRoLmRlbGV0ZUNvbmRpdGlvbicpIgogICAgICAgIEBjbGljaz0iZWRpdG9yLnJlbW92ZUNvbmRpdGlvbihncm91cCwgY29uZGl0aW9uSW5kZXgpIgogICAgICA+CiAgICAgICAgPFRyYXNoMgogICAgICAgICAgY2xhc3M9ImgtNCB3LTQgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRyYW5zaXRpb24tY29sb3JzIGdyb3VwLWhvdmVyOnRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgLz4KICAgICAgPC9CdXR0b24+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { Trash2 } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import CidrRegionSelector from "@/components/CidrRegionSelector.vue";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import type { AdvancedAuthRegionSelectorText } from "../subdomain-proxy/advanced-auth-rule-contract";
+import type {
+  StreamBypassCondition,
+  StreamBypassGroup,
+  StreamBypassOperator,
+  StreamBypassRuleEditor,
+  StreamBypassTarget,
+} from "./stream-bypass-policy-form";
+
+defineProps<{
+  condition: StreamBypassCondition;
+  conditionIndex: number;
+  editor: StreamBypassRuleEditor;
+  group: StreamBypassGroup;
+  multiple: boolean;
+  regionText: AdvancedAuthRegionSelectorText;
+  saving: boolean;
+}>();
+const { t } = useI18n();
+const targets: Array<{ labelKey: string; value: StreamBypassTarget }> = [
+  { labelKey: "admin.advancedAuth.targetSourceIp", value: "source_ip" },
+  {
+    labelKey: "admin.advancedAuth.targetSourceRegion",
+    value: "source_region",
+  },
+];
+</script>
+
+<template>
+  <div
+    v-if="conditionIndex > 0"
+    class="flex items-center gap-2 py-0.5 sm:hidden"
+  >
+    <span class="h-px flex-1 bg-border/80"></span>
+    <span
+      class="rounded border border-border/80 bg-background px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground"
+    >
+      AND
+    </span>
+    <span class="h-px flex-1 bg-border/80"></span>
+  </div>
+
+  <div
+    class="relative rounded-lg border border-border/60 bg-background/80 p-3 shadow-none"
+    :class="
+      multiple
+        ? 'sm:before:absolute sm:before:top-1/2 sm:before:-left-[1.375rem] sm:before:h-px sm:before:w-[1.375rem] sm:before:bg-border'
+        : ''
+    "
+  >
+    <div class="flex min-w-0 items-start gap-2">
+      <div
+        class="grid min-w-0 flex-1 gap-3 sm:grid-cols-2 xl:grid-cols-[minmax(9rem,0.8fr)_minmax(9rem,0.8fr)_minmax(15rem,1.8fr)]"
+      >
+        <div class="min-w-0 space-y-1.5">
+          <Label :for="`stream-bypass-target-${condition.id}`" class="text-xs">
+            {{ t("admin.advancedAuth.matchTarget") }}
+          </Label>
+          <select
+            :id="`stream-bypass-target-${condition.id}`"
+            class="h-9 w-full min-w-0 rounded-md border border-input bg-background px-3 text-sm shadow-xs outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50"
+            :value="condition.target"
+            :disabled="saving"
+            @change="
+              editor.updateTarget(
+                condition,
+                ($event.target as HTMLSelectElement)
+                  .value as StreamBypassTarget,
+              )
+            "
+          >
+            <option
+              v-for="target in targets"
+              :key="target.value"
+              :value="target.value"
+            >
+              {{ t(target.labelKey) }}
+            </option>
+          </select>
+        </div>
+
+        <div class="min-w-0 space-y-1.5">
+          <Label
+            :for="`stream-bypass-operator-${condition.id}`"
+            class="text-xs"
+          >
+            {{ t("admin.advancedAuth.matchOperator") }}
+          </Label>
+          <select
+            :id="`stream-bypass-operator-${condition.id}`"
+            class="h-9 w-full min-w-0 rounded-md border border-input bg-background px-3 text-sm shadow-xs outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50"
+            :value="condition.operator"
+            :disabled="saving"
+            @change="
+              editor.updateOperator(
+                condition,
+                ($event.target as HTMLSelectElement)
+                  .value as StreamBypassOperator,
+              )
+            "
+          >
+            <option
+              v-for="operator in editor.operatorsFor(condition.target)"
+              :key="operator.value"
+              :value="operator.value"
+            >
+              {{ t(operator.labelKey) }}
+            </option>
+          </select>
+        </div>
+
+        <div
+          v-if="condition.target === 'source_region'"
+          class="min-w-0 space-y-1.5 sm:col-span-2 xl:col-span-1"
+        >
+          <div class="text-xs font-medium">
+            {{ t("admin.advancedAuth.matchValue") }}
+          </div>
+          <CidrRegionSelector
+            v-model="condition.selections"
+            layout="compact"
+            :disabled="saving"
+            :text="regionText"
+            :description="t('admin.streamMappings.policyRegionDescription')"
+          />
+        </div>
+
+        <div v-else class="min-w-0 space-y-1.5 sm:col-span-2 xl:col-span-1">
+          <Label
+            :for="`stream-bypass-value-${condition.id}`"
+            class="text-xs"
+            :title="t(editor.sourceNetworkTranslationKey(condition, 'Hint'))"
+          >
+            {{ t(editor.sourceNetworkTranslationKey(condition, "Label")) }}
+          </Label>
+          <Input
+            :id="`stream-bypass-value-${condition.id}`"
+            :model-value="editor.valueInputText(condition)"
+            class="font-mono"
+            :placeholder="
+              t(editor.sourceNetworkTranslationKey(condition, 'Placeholder'))
+            "
+            :title="t(editor.sourceNetworkTranslationKey(condition, 'Hint'))"
+            :disabled="saving"
+            @update:model-value="
+              editor.setSourceValue(condition, String($event))
+            "
+            @blur="editor.normalizeValueDraft(condition)"
+          />
+        </div>
+      </div>
+
+      <Button
+        variant="ghost"
+        size="icon"
+        class="group absolute top-1.5 right-1.5 h-7 w-7 shrink-0 sm:static sm:mt-5.5 sm:h-8 sm:w-8"
+        :disabled="saving"
+        :aria-label="t('admin.advancedAuth.deleteCondition')"
+        @click="editor.removeCondition(group, conditionIndex)"
+      >
+        <Trash2
+          class="h-4 w-4 text-muted-foreground transition-colors group-hover:text-destructive"
+        />
+      </Button>
+    </div>
+  </div>
+</template>

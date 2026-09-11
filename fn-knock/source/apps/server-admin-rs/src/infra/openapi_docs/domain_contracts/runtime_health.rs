@@ -1,1 +1,200 @@
-dXNlIHN0ZDo6Y29sbGVjdGlvbnM6Okhhc2hNYXA7Cgp1c2Ugc2VyZGU6OlNlcmlhbGl6ZTsKdXNlIHNlcmRlX2pzb246OlZhbHVlOwp1c2UgdXRvaXBhOjpUb1NjaGVtYTsKCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBSdW50aW1lQ29tcG9uZW50SGVhbHRoRGF0YSB7CiAgICBpZDogU3RyaW5nLAogICAgc3RhdHVzOiBTdHJpbmcsCiAgICBwcm9jZXNzX3N0YXRlOiBTdHJpbmcsCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgdmVyc2lvbjogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgY29tbWl0OiBPcHRpb248U3RyaW5nPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBwaWQ6IE9wdGlvbjx1MzI+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIGluc3RhbmNlX2lkOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBzdGFydGVkX2F0OiBPcHRpb248U3RyaW5nPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICB1cHRpbWVfbXM6IE9wdGlvbjx1NjQ+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIGxhc3RfY2hlY2tlZF9hdDogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgbGFzdF9zdWNjZXNzX2F0OiBPcHRpb248U3RyaW5nPiwKICAgIGNvbnNlY3V0aXZlX2ZhaWx1cmVzOiB1MzIsCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgcmVhc29uX2NvZGU6IE9wdGlvbjxTdHJpbmc+LAogICAgY3B1X3BlcmNlbnQ6IE9wdGlvbjxmNjQ+LAogICAgcnNzX2J5dGVzOiBPcHRpb248dTY0PiwKICAgIGdvX3ZlcnNpb246IE9wdGlvbjxTdHJpbmc+LAogICAgZ29yb3V0aW5lczogT3B0aW9uPHU2ND4sCiAgICBoZWFwX2FsbG9jX2J5dGVzOiBPcHRpb248dTY0PiwKICAgIGhlYXBfc3lzX2J5dGVzOiBPcHRpb248dTY0PiwKICAgIG1lbW9yeV9saW1pdF9ieXRlczogT3B0aW9uPGk2ND4sCiAgICBtYW5hZ2VkX21lbW9yeV9ieXRlczogT3B0aW9uPHU2ND4sCiAgICBudW1fZ2M6IE9wdGlvbjx1NjQ+LAogICAgYWN0aXZlX3Byb3h5X3JlcXVlc3RzOiBPcHRpb248dTY0PiwKICAgIGFjdGl2ZV9jbGllbnRfY29ubmVjdGlvbnM6IE9wdGlvbjx1NjQ+LAogICAgaWRsZV9jbGllbnRfY29ubmVjdGlvbnM6IE9wdGlvbjx1NjQ+LAogICAgb3Blbl91cHN0cmVhbV9jb25uZWN0aW9uczogT3B0aW9uPHU2ND4sCiAgICB1ZHBfc2Vzc2lvbnM6IE9wdGlvbjx1NjQ+LAogICAgdWRwX3F1ZXVlZF9ieXRlczogT3B0aW9uPHU2ND4sCiAgICB1ZHBfcXVldWVkX2J5dGVzX3BlYWs6IE9wdGlvbjx1NjQ+LAogICAgdWRwX3F1ZXVlX2Ryb3BzOiBPcHRpb248dTY0PiwKICAgIGxhdGVuY3lfbXM6IE9wdGlvbjx1NjQ+LAogICAgcXVldWVfZGVwdGg6IE9wdGlvbjx1NjQ+LAogICAgcXVldWVfZGVwdGhfcGVhazogT3B0aW9uPHU2ND4sCiAgICBxdWV1ZV93YWl0X21zOiBPcHRpb248dTY0PiwKICAgIHF1ZXVlX3dhaXRfcGVha19tczogT3B0aW9uPHU2ND4sCiAgICBhY3RpdmVfb3BlcmF0aW9uX21zOiBPcHRpb248dTY0PiwKICAgIGNhbmNlbGVkX29wZXJhdGlvbnM6IE9wdGlvbjx1NjQ+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgUnVudGltZUxvZ1N0YXR1c0RhdGEgewogICAgZGlyZWN0b3J5OiBTdHJpbmcsCiAgICBieXRlc191c2VkOiB1NjQsCiAgICBkcm9wcGVkX2luZm86IHU2NCwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBvbGRlc3RfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIG5ld2VzdF9hdDogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBSdW50aW1lSGVhbHRoU25hcHNob3REYXRhIHsKICAgIHNjaGVtYV92ZXJzaW9uOiB1MzIsCiAgICBvdmVyYWxsX3N0YXR1czogU3RyaW5nLAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIGxhc3RfY2hlY2tlZF9hdDogT3B0aW9uPFN0cmluZz4sCiAgICBjb21wb25lbnRzOiBIYXNoTWFwPFN0cmluZywgUnVudGltZUNvbXBvbmVudEhlYWx0aERhdGE+LAogICAgbG9nczogUnVudGltZUxvZ1N0YXR1c0RhdGEsCiAgICBzdXBlcnZpc29yOiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBSdW50aW1lT3BlcmF0aW9uYWxMb2dFbnRyeURhdGEgewogICAgdGltZTogU3RyaW5nLAogICAgbGV2ZWw6IFN0cmluZywKICAgIGNvbXBvbmVudDogU3RyaW5nLAogICAgZXZlbnQ6IFN0cmluZywKICAgIHJlYXNvbl9jb2RlOiBPcHRpb248U3RyaW5nPiwKICAgIGZpZWxkczogT3B0aW9uPEhhc2hNYXA8U3RyaW5nLCBWYWx1ZT4+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgUnVudGltZUNvbXBvbmVudExvZ3NEYXRhIHsKICAgIHNjaGVtYV92ZXJzaW9uOiB1MzIsCiAgICBjb21wb25lbnQ6IFN0cmluZywKICAgIGdlbmVyYXRlZF9hdDogU3RyaW5nLAogICAgZW50cmllczogVmVjPFJ1bnRpbWVPcGVyYXRpb25hbExvZ0VudHJ5RGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBSdW50aW1lTG9nQ2xlYXJEYXRhIHsKICAgIGNvbXBvbmVudDogU3RyaW5nLAogICAgY2xlYXJlZF9hdDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgR2F0ZXdheU1lbW9yeUNvbmZpZ0RhdGEgewogICAgI1tzY2hlbWEobWluaW11bSA9IDI1LCBtYXhpbXVtID0gNTAwKV0KICAgIGdjX3BlcmNlbnQ6IGkzMiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSwgbWluaW11bSA9IDY0LCBtYXhpbXVtID0gNDA5NildCiAgICBtZW1vcnlfbGltaXRfbWliOiBPcHRpb248dTY0PiwKICAgIGVmZmVjdGl2ZV9tZW1vcnlfbGltaXRfYnl0ZXM6IHU2NCwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEdhdGV3YXlNZW1vcnlDb25maWdVcGRhdGVEYXRhIHsKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gZmFsc2UsIG1pbmltdW0gPSAyNSwgbWF4aW11bSA9IDUwMCldCiAgICBnY19wZXJjZW50OiBPcHRpb248aTMyPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gZmFsc2UsIG1pbmltdW0gPSA2NCwgbWF4aW11bSA9IDQwOTYpXQogICAgbWVtb3J5X2xpbWl0X21pYjogT3B0aW9uPHU2ND4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBHYXRld2F5TWVtb3J5UmVjbGFpbUJvZHlEYXRhIHt9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgR2F0ZXdheU1lbW9yeVJlY2xhaW1EYXRhIHsKICAgIGhlYXBfYWxsb2NfYnl0ZXM6IHU2NCwKICAgIGhlYXBfc3lzX2J5dGVzOiB1NjQsCiAgICByc3NfYnl0ZXM6IHU2NCwKICAgICNbc2NoZW1hKG1pbmltdW0gPSAyNSwgbWF4aW11bSA9IDUwMCldCiAgICBnY19wZXJjZW50OiBpMzIsCiAgICBtZW1vcnlfbGltaXRfYnl0ZXM6IGk2NCwKICAgIG1hbmFnZWRfbWVtb3J5X2J5dGVzOiB1NjQsCiAgICBudW1fZ2M6IHUzMiwKICAgIGFjdGl2ZV9wcm94eV9yZXF1ZXN0czogdTY0LAogICAgYWN0aXZlX2NsaWVudF9jb25uZWN0aW9uczogdTY0LAogICAgaWRsZV9jbGllbnRfY29ubmVjdGlvbnM6IHU2NCwKICAgIG9wZW5fdXBzdHJlYW1fY29ubmVjdGlvbnM6IHU2NCwKICAgIHVkcF9zZXNzaW9uczogdTY0LAogICAgdWRwX3F1ZXVlZF9ieXRlczogdTY0LAogICAgdWRwX3F1ZXVlZF9ieXRlc19wZWFrOiB1NjQsCiAgICB1ZHBfcXVldWVfZHJvcHM6IHU2NCwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFJ1bnRpbWVTeXN0ZW1FdmVudFN1YmplY3REYXRhIHsKICAgIGtpbmQ6IFN0cmluZywKICAgIGlkOiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBSdW50aW1lU3lzdGVtRXZlbnREYXRhIHsKICAgIGlkOiBTdHJpbmcsCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJ0eXBlIildCiAgICBldmVudF90eXBlOiBTdHJpbmcsCiAgICBzb3VyY2U6IFN0cmluZywKICAgIGxldmVsOiBTdHJpbmcsCiAgICBoYXBwZW5lZF9hdDogU3RyaW5nLAogICAgZGVkdXBlX2tleTogT3B0aW9uPFN0cmluZz4sCiAgICBzdWJqZWN0OiBPcHRpb248UnVudGltZVN5c3RlbUV2ZW50U3ViamVjdERhdGE+LAogICAgdGFnczogT3B0aW9uPFZlYzxTdHJpbmc+PiwKICAgIHBheWxvYWQ6IEhhc2hNYXA8U3RyaW5nLCBWYWx1ZT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBSdW50aW1lUGxhdGZvcm1EYXRhIHsKICAgIG9zOiBTdHJpbmcsCiAgICBhcmNoOiBTdHJpbmcsCiAgICBydW50aW1lX3RhcmdldDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgUnVudGltZURpYWdub3N0aWNzQ29sbGVjdGlvbkRhdGEgewogICAgaW5jbHVkZXM6IFZlYzxTdHJpbmc+LAogICAgZXhjbHVkZXM6IFZlYzxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgVHlwZWRDb25maWdTaGFkb3dTdGF0dXNEYXRhIHsKICAgIHBoYXNlOiBTdHJpbmcsCiAgICBoZWFsdGh5OiBib29sLAogICAgbWlzbWF0Y2hfY291bnQ6IHU2NCwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFJ1bnRpbWVTdG9yYWdlTWlncmF0aW9uRGF0YSB7CiAgICB0eXBlZF9jb25maWdfc2hhZG93OiBUeXBlZENvbmZpZ1NoYWRvd1N0YXR1c0RhdGEsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBSdW50aW1lRGlhZ25vc3RpY3NEYXRhIHsKICAgIHNjaGVtYV92ZXJzaW9uOiB1MzIsCiAgICBnZW5lcmF0ZWRfYXQ6IFN0cmluZywKICAgIHZlcnNpb246IFN0cmluZywKICAgIGNvbW1pdDogU3RyaW5nLAogICAgcGxhdGZvcm06IFJ1bnRpbWVQbGF0Zm9ybURhdGEsCiAgICBydW50aW1lOiBSdW50aW1lSGVhbHRoU25hcHNob3REYXRhLAogICAgcnVudGltZV9kZWJ1ZzogY3JhdGU6OnJ1bnRpbWVfaGVhbHRoOjpkZWJ1Zzo6UnVudGltZURlYnVnUmVwb3J0RGF0YSwKICAgIHJlY2VudF9ydW50aW1lX2V2ZW50czogVmVjPFJ1bnRpbWVTeXN0ZW1FdmVudERhdGE+LAogICAgc3RvcmFnZV9taWdyYXRpb246IFJ1bnRpbWVTdG9yYWdlTWlncmF0aW9uRGF0YSwKICAgIGNvbGxlY3Rpb246IFJ1bnRpbWVEaWFnbm9zdGljc0NvbGxlY3Rpb25EYXRhLAp9Cg==
+use std::collections::HashMap;
+
+use serde::Serialize;
+use serde_json::Value;
+use utoipa::ToSchema;
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct RuntimeComponentHealthData {
+    id: String,
+    status: String,
+    process_state: String,
+    #[schema(required = true)]
+    version: Option<String>,
+    #[schema(required = true)]
+    commit: Option<String>,
+    #[schema(required = true)]
+    pid: Option<u32>,
+    #[schema(required = true)]
+    instance_id: Option<String>,
+    #[schema(required = true)]
+    started_at: Option<String>,
+    #[schema(required = true)]
+    uptime_ms: Option<u64>,
+    #[schema(required = true)]
+    last_checked_at: Option<String>,
+    #[schema(required = true)]
+    last_success_at: Option<String>,
+    consecutive_failures: u32,
+    #[schema(required = true)]
+    reason_code: Option<String>,
+    cpu_percent: Option<f64>,
+    rss_bytes: Option<u64>,
+    go_version: Option<String>,
+    goroutines: Option<u64>,
+    heap_alloc_bytes: Option<u64>,
+    heap_sys_bytes: Option<u64>,
+    memory_limit_bytes: Option<i64>,
+    managed_memory_bytes: Option<u64>,
+    num_gc: Option<u64>,
+    active_proxy_requests: Option<u64>,
+    active_client_connections: Option<u64>,
+    idle_client_connections: Option<u64>,
+    open_upstream_connections: Option<u64>,
+    udp_sessions: Option<u64>,
+    udp_queued_bytes: Option<u64>,
+    udp_queued_bytes_peak: Option<u64>,
+    udp_queue_drops: Option<u64>,
+    latency_ms: Option<u64>,
+    queue_depth: Option<u64>,
+    queue_depth_peak: Option<u64>,
+    queue_wait_ms: Option<u64>,
+    queue_wait_peak_ms: Option<u64>,
+    active_operation_ms: Option<u64>,
+    canceled_operations: Option<u64>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct RuntimeLogStatusData {
+    directory: String,
+    bytes_used: u64,
+    dropped_info: u64,
+    #[schema(required = true)]
+    oldest_at: Option<String>,
+    #[schema(required = true)]
+    newest_at: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct RuntimeHealthSnapshotData {
+    schema_version: u32,
+    overall_status: String,
+    #[schema(required = true)]
+    last_checked_at: Option<String>,
+    components: HashMap<String, RuntimeComponentHealthData>,
+    logs: RuntimeLogStatusData,
+    supervisor: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct RuntimeOperationalLogEntryData {
+    time: String,
+    level: String,
+    component: String,
+    event: String,
+    reason_code: Option<String>,
+    fields: Option<HashMap<String, Value>>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct RuntimeComponentLogsData {
+    schema_version: u32,
+    component: String,
+    generated_at: String,
+    entries: Vec<RuntimeOperationalLogEntryData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct RuntimeLogClearData {
+    component: String,
+    cleared_at: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayMemoryConfigData {
+    #[schema(minimum = 25, maximum = 500)]
+    gc_percent: i32,
+    #[schema(required = true, minimum = 64, maximum = 4096)]
+    memory_limit_mib: Option<u64>,
+    effective_memory_limit_bytes: u64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayMemoryConfigUpdateData {
+    #[schema(required = false, minimum = 25, maximum = 500)]
+    gc_percent: Option<i32>,
+    #[schema(required = false, minimum = 64, maximum = 4096)]
+    memory_limit_mib: Option<u64>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayMemoryReclaimBodyData {}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayMemoryReclaimData {
+    heap_alloc_bytes: u64,
+    heap_sys_bytes: u64,
+    rss_bytes: u64,
+    #[schema(minimum = 25, maximum = 500)]
+    gc_percent: i32,
+    memory_limit_bytes: i64,
+    managed_memory_bytes: u64,
+    num_gc: u32,
+    active_proxy_requests: u64,
+    active_client_connections: u64,
+    idle_client_connections: u64,
+    open_upstream_connections: u64,
+    udp_sessions: u64,
+    udp_queued_bytes: u64,
+    udp_queued_bytes_peak: u64,
+    udp_queue_drops: u64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct RuntimeSystemEventSubjectData {
+    kind: String,
+    id: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct RuntimeSystemEventData {
+    id: String,
+    #[serde(rename = "type")]
+    event_type: String,
+    source: String,
+    level: String,
+    happened_at: String,
+    dedupe_key: Option<String>,
+    subject: Option<RuntimeSystemEventSubjectData>,
+    tags: Option<Vec<String>>,
+    payload: HashMap<String, Value>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct RuntimePlatformData {
+    os: String,
+    arch: String,
+    runtime_target: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct RuntimeDiagnosticsCollectionData {
+    includes: Vec<String>,
+    excludes: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct TypedConfigShadowStatusData {
+    phase: String,
+    healthy: bool,
+    mismatch_count: u64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct RuntimeStorageMigrationData {
+    typed_config_shadow: TypedConfigShadowStatusData,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct RuntimeDiagnosticsData {
+    schema_version: u32,
+    generated_at: String,
+    version: String,
+    commit: String,
+    platform: RuntimePlatformData,
+    runtime: RuntimeHealthSnapshotData,
+    runtime_debug: crate::runtime_health::debug::RuntimeDebugReportData,
+    recent_runtime_events: Vec<RuntimeSystemEventData>,
+    storage_migration: RuntimeStorageMigrationData,
+    collection: RuntimeDiagnosticsCollectionData,
+}

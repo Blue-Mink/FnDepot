@@ -1,1 +1,79 @@
-dXNlIGF4dW06OlJvdXRlcjsKdXNlIHV0b2lwYV9heHVtOjp7cm91dGVyOjpPcGVuQXBpUm91dGVyLCByb3V0ZXN9OwoKdXNlIGNyYXRlOjpzdGF0ZTo6QXBwU3RhdGU7Cgptb2QgZGlzY292ZXJ5Owptb2QgaGFuZGxlcnM7Cm1vZCBwcm92aWRlcjsKbW9kIHN0b3JhZ2U7Cm1vZCB0ZXh0Owptb2QgdG9rZW5zOwptb2QgdXJsczsKCnVzZSBoYW5kbGVyczo6ewogICAgX19wYXRoX2NhdGFsb2csIF9fcGF0aF9jcmVhdGVfaW52aXRhdGlvbiwgX19wYXRoX2NyZWF0ZV9wcm92aWRlciwgX19wYXRoX2RlbGV0ZV9iaW5kaW5nLAogICAgX19wYXRoX2RlbGV0ZV9wcm92aWRlciwgX19wYXRoX2xpc3RfYmluZGluZ3NfYnlfdG90cCwgX19wYXRoX2xpc3RfcHJvdmlkZXJzLAogICAgX19wYXRoX3Rlc3RfcHJvdmlkZXIsIF9fcGF0aF91cGRhdGVfcHJvdmlkZXIsIGNhdGFsb2csIGNyZWF0ZV9pbnZpdGF0aW9uLCBjcmVhdGVfcHJvdmlkZXIsCiAgICBkZWxldGVfYmluZGluZywgZGVsZXRlX3Byb3ZpZGVyLCBsaXN0X2JpbmRpbmdzX2J5X3RvdHAsIGxpc3RfcHJvdmlkZXJzLCB0ZXN0X3Byb3ZpZGVyLAogICAgdXBkYXRlX3Byb3ZpZGVyLAp9OwoKcHViKGNyYXRlKSB1c2UgZGlzY292ZXJ5OjpyZXNvbHZlX2Rpc2NvdmVyeV93aXRoX3RyYW5zbGF0b3I7CnB1YihjcmF0ZSkgdXNlIHByb3ZpZGVyOjpvaWRjX3Byb3ZpZGVyX3JlYWR5X3dpdGhfdHJhbnNsYXRvcjsKI1thbGxvdyh1bnVzZWRfaW1wb3J0cyldCnB1YihjcmF0ZSkgdXNlIHN0b3JhZ2U6Om9pZGNfbGlzdF9iaW5kaW5nczsKcHViKGNyYXRlKSB1c2Ugc3RvcmFnZTo6ewogICAgb2lkY19jbGFpbV9iaW5kaW5nX2FuZF9jb25zdW1lX2ludml0ZSwgb2lkY19jb25zdW1lX2xvZ2luX2Vycm9yX25vdGljZSwgb2lkY19jb25zdW1lX3N0YXRlLAogICAgb2lkY19kZWxldGVfYmluZGluZ3NfYnlfdG90cCwgb2lkY19nZXRfYmluZGluZ19ieV9zdWJqZWN0LCBvaWRjX2dldF9wcm92aWRlciwKICAgIG9pZGNfaW5zcGVjdF9pbnZpdGUsIG9pZGNfcHVibGljX3Byb3ZpZGVycywgb2lkY19zYXZlX2xvZ2luX2Vycm9yX25vdGljZSwgb2lkY19zYXZlX3N0YXRlLAogICAgb2lkY191cGRhdGVfYmluZGluZ19pZl9vd25lZCwKfTsKcHViKGNyYXRlKSB1c2UgdXJsczo6Y2FsbGJhY2tfYmFzZV91cmw7CgojW2NmZyh0ZXN0KV0KdXNlIGNyYXRlOjppMThuOjpUcmFuc2xhdG9yOwojW2NmZyh0ZXN0KV0KdXNlIGF4dW06Omh0dHA6OntIZWFkZXJNYXAsIFVyaX07CiNbY2ZnKHRlc3QpXQp1c2UgcHJvdmlkZXI6OnsKICAgIG1hc2tfcHJvdmlkZXIsIG1pc3NpbmdfcmVxdWlyZWRfcHJvdmlkZXJfZmllbGRzLCBub3JtYWxpemVfY29ubmVjdGlvbl9jb25maWcsIG5vcm1hbGl6ZV9zY29wZXMsCiAgICBwcm92aWRlcl9jYXRhbG9nLAp9OwojW2NmZyh0ZXN0KV0KdXNlIHNlcmRlX2pzb246OntNYXAsIFZhbHVlLCBqc29ufTsKI1tjZmcodGVzdCldCnVzZSB0ZXh0OjpvaWRjX3RleHRfcGFyYW1zOwojW2NmZyh0ZXN0KV0KdXNlIHVybHM6OntjYWxsYmFja19vcmlnaW4sIHB1YmxpY19hdXRoX2Jhc2VfdXJsfTsKCmNvbnN0IFBST1ZJREVSU19JTkRFWF9LRVk6ICZzdHIgPSAiZm5fa25vY2s6b2lkYzpwcm92aWRlcnM6aW5kZXgiOwpjb25zdCBQUk9WSURFUlNfREFUQV9LRVlfUFJFRklYOiAmc3RyID0gImZuX2tub2NrOm9pZGM6cHJvdmlkZXJzOmRhdGE6IjsKY29uc3QgQklORElOR1NfSU5ERVhfS0VZOiAmc3RyID0gImZuX2tub2NrOm9pZGM6YmluZGluZ3M6aW5kZXgiOwpjb25zdCBCSU5ESU5HU19EQVRBX0tFWV9QUkVGSVg6ICZzdHIgPSAiZm5fa25vY2s6b2lkYzpiaW5kaW5nczpkYXRhOiI7CmNvbnN0IEJJTkRJTkdTX1NVQkpFQ1RfS0VZX1BSRUZJWDogJnN0ciA9ICJmbl9rbm9jazpvaWRjOmJpbmRpbmdzOnN1YmplY3Q6IjsKY29uc3QgSU5WSVRFX0tFWV9QUkVGSVg6ICZzdHIgPSAiZm5fa25vY2s6b2lkYzppbnZpdGU6IjsKY29uc3QgU1RBVEVfS0VZX1BSRUZJWDogJnN0ciA9ICJmbl9rbm9jazpvaWRjOnN0YXRlOiI7CmNvbnN0IExPR0lOX0VSUk9SX0tFWV9QUkVGSVg6ICZzdHIgPSAiZm5fa25vY2s6b2lkYzpsb2dpbl9lcnJvcjoiOwpjb25zdCBERUZBVUxUX0lOVklURV9UVExfU0VDT05EUzogdXNpemUgPSAzMCAqIDYwOwpwdWIoY3JhdGUpIGNvbnN0IE9JRENfSFRUUF9VU0VSX0FHRU5UOiAmc3RyID0gImZuLWtub2NrLXNlcnZlci1hZG1pbi1ycy8xLjAiOwoKcHViIGZuIG9pZGNfYWRtaW5fcm91dGVzKCkgLT4gUm91dGVyPEFwcFN0YXRlPiB7CiAgICBvaWRjX2FkbWluX29wZW5hcGlfcm91dGVzKCkuaW50bygpCn0KCnB1YihjcmF0ZSkgZm4gb2lkY19hZG1pbl9vcGVuYXBpX3JvdXRlcygpIC0+IE9wZW5BcGlSb3V0ZXI8QXBwU3RhdGU+IHsKICAgIE9wZW5BcGlSb3V0ZXI6Om5ldygpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGNhdGFsb2cpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShsaXN0X3Byb3ZpZGVycykpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGNyZWF0ZV9wcm92aWRlcikpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHVwZGF0ZV9wcm92aWRlcikpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGRlbGV0ZV9wcm92aWRlcikpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHRlc3RfcHJvdmlkZXIpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShsaXN0X2JpbmRpbmdzX2J5X3RvdHApKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShkZWxldGVfYmluZGluZykpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGNyZWF0ZV9pbnZpdGF0aW9uKSkKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0czsK
+use axum::Router;
+use utoipa_axum::{router::OpenApiRouter, routes};
+
+use crate::state::AppState;
+
+mod discovery;
+mod handlers;
+mod provider;
+mod storage;
+mod text;
+mod tokens;
+mod urls;
+
+use handlers::{
+    __path_catalog, __path_create_invitation, __path_create_provider, __path_delete_binding,
+    __path_delete_provider, __path_list_bindings_by_totp, __path_list_providers,
+    __path_test_provider, __path_update_provider, catalog, create_invitation, create_provider,
+    delete_binding, delete_provider, list_bindings_by_totp, list_providers, test_provider,
+    update_provider,
+};
+
+pub(crate) use discovery::resolve_discovery_with_translator;
+pub(crate) use provider::oidc_provider_ready_with_translator;
+#[allow(unused_imports)]
+pub(crate) use storage::oidc_list_bindings;
+pub(crate) use storage::{
+    oidc_claim_binding_and_consume_invite, oidc_consume_login_error_notice, oidc_consume_state,
+    oidc_delete_bindings_by_totp, oidc_get_binding_by_subject, oidc_get_provider,
+    oidc_inspect_invite, oidc_public_providers, oidc_save_login_error_notice, oidc_save_state,
+    oidc_update_binding_if_owned,
+};
+pub(crate) use urls::callback_base_url;
+
+#[cfg(test)]
+use crate::i18n::Translator;
+#[cfg(test)]
+use axum::http::{HeaderMap, Uri};
+#[cfg(test)]
+use provider::{
+    mask_provider, missing_required_provider_fields, normalize_connection_config, normalize_scopes,
+    provider_catalog,
+};
+#[cfg(test)]
+use serde_json::{Map, Value, json};
+#[cfg(test)]
+use text::oidc_text_params;
+#[cfg(test)]
+use urls::{callback_origin, public_auth_base_url};
+
+const PROVIDERS_INDEX_KEY: &str = "fn_knock:oidc:providers:index";
+const PROVIDERS_DATA_KEY_PREFIX: &str = "fn_knock:oidc:providers:data:";
+const BINDINGS_INDEX_KEY: &str = "fn_knock:oidc:bindings:index";
+const BINDINGS_DATA_KEY_PREFIX: &str = "fn_knock:oidc:bindings:data:";
+const BINDINGS_SUBJECT_KEY_PREFIX: &str = "fn_knock:oidc:bindings:subject:";
+const INVITE_KEY_PREFIX: &str = "fn_knock:oidc:invite:";
+const STATE_KEY_PREFIX: &str = "fn_knock:oidc:state:";
+const LOGIN_ERROR_KEY_PREFIX: &str = "fn_knock:oidc:login_error:";
+const DEFAULT_INVITE_TTL_SECONDS: usize = 30 * 60;
+pub(crate) const OIDC_HTTP_USER_AGENT: &str = "fn-knock-server-admin-rs/1.0";
+
+pub fn oidc_admin_routes() -> Router<AppState> {
+    oidc_admin_openapi_routes().into()
+}
+
+pub(crate) fn oidc_admin_openapi_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(catalog))
+        .routes(routes!(list_providers))
+        .routes(routes!(create_provider))
+        .routes(routes!(update_provider))
+        .routes(routes!(delete_provider))
+        .routes(routes!(test_provider))
+        .routes(routes!(list_bindings_by_totp))
+        .routes(routes!(delete_binding))
+        .routes(routes!(create_invitation))
+}
+
+#[cfg(test)]
+mod tests;

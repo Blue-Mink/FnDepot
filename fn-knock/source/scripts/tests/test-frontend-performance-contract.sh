@@ -1,1 +1,19 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaApzZXQgLWV1byBwaXBlZmFpbAoKUk9PVF9ESVI9IiQoY2QgIiQoZGlybmFtZSAiJHtCQVNIX1NPVVJDRVswXX0iKS8uLi8uLiIgJiYgcHdkKSIKV09SS0ZMT1c9IiR7Uk9PVF9ESVJ9Ly5naXRodWIvd29ya2Zsb3dzL2NpLnltbCIKCm5vZGUgLS1pbnB1dC10eXBlPW1vZHVsZSAtICIke1JPT1RfRElSfS9wYWNrYWdlLmpzb24iIDw8J05PREUnCmltcG9ydCB7IHJlYWRGaWxlIH0gZnJvbSAibm9kZTpmcy9wcm9taXNlcyI7CmNvbnN0IG1hbmlmZXN0ID0gSlNPTi5wYXJzZShhd2FpdCByZWFkRmlsZShwcm9jZXNzLmFyZ3ZbMl0sICJ1dGY4IikpOwppZiAobWFuaWZlc3Quc2NyaXB0c1siZnJvbnRlbmQ6bWVhc3VyZSJdICE9PSAibm9kZSAuL3NjcmlwdHMvZnJvbnRlbmQtcGVyZm9ybWFuY2UubWpzIikgcHJvY2Vzcy5leGl0KDEpOwppZiAobWFuaWZlc3Quc2NyaXB0c1siZnJvbnRlbmQ6bWVhc3VyZTpjaGVjayJdICE9PSAibm9kZSAuL3NjcmlwdHMvY2hlY2stZnJvbnRlbmQtcGVyZm9ybWFuY2UubWpzIikgcHJvY2Vzcy5leGl0KDEpOwpOT0RFCgpncmVwIC1GcSAnRk5fS05PQ0tfRlJPTlRFTkRfUEVSRl9SVU5TOiAiNSInICIke1dPUktGTE9XfSIKZ3JlcCAtRnEgJ2Zyb250ZW5kLXBlcmZvcm1hbmNlLWN1cnJlbnQuanNvbicgIiR7V09SS0ZMT1d9IgpncmVwIC1GcSAtLSAnLS1tYXgtcmVncmVzc2lvbiAwLjEwJyAiJHtXT1JLRkxPV30iCm5vZGUgLS10ZXN0ICIke1JPT1RfRElSfS9zY3JpcHRzL3Rlc3RzL2Zyb250ZW5kLXBlcmZvcm1hbmNlLnRlc3QubWpzIgoKcHJpbnRmICdbdGVzdC1mcm9udGVuZC1wZXJmb3JtYW5jZS1jb250cmFjdF0gY29sZC1jYWNoZSBmcm9udGVuZCBwZXJmb3JtYW5jZSBnYXRlIHBhc3NlZFxuJwo=
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+WORKFLOW="${ROOT_DIR}/.github/workflows/ci.yml"
+
+node --input-type=module - "${ROOT_DIR}/package.json" <<'NODE'
+import { readFile } from "node:fs/promises";
+const manifest = JSON.parse(await readFile(process.argv[2], "utf8"));
+if (manifest.scripts["frontend:measure"] !== "node ./scripts/frontend-performance.mjs") process.exit(1);
+if (manifest.scripts["frontend:measure:check"] !== "node ./scripts/check-frontend-performance.mjs") process.exit(1);
+NODE
+
+grep -Fq 'FN_KNOCK_FRONTEND_PERF_RUNS: "5"' "${WORKFLOW}"
+grep -Fq 'frontend-performance-current.json' "${WORKFLOW}"
+grep -Fq -- '--max-regression 0.10' "${WORKFLOW}"
+node --test "${ROOT_DIR}/scripts/tests/frontend-performance.test.mjs"
+
+printf '[test-frontend-performance-contract] cold-cache frontend performance gate passed\n'

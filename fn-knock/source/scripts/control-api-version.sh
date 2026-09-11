@@ -1,1 +1,23 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIke0ZOX0tOT0NLX1JPT1RfRElSOi0kKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4iICYmIHB3ZCl9IgpDT05UUkFDVF9QQVRIPSIke1JPT1RfRElSfS9wYWNrYWdlcy9ncnBjLWNvbnRyYWN0cy9wcm90by9mbmtub2NrL3YxL2dhdGV3YXkucHJvdG8iCgpmYWlsKCkgewogIHByaW50ZiAnW2NvbnRyb2wtYXBpLXZlcnNpb25dIEVSUk9SOiAlc1xuJyAiJCoiID4mMgogIGV4aXQgMQp9CgpbIC1mICIke0NPTlRSQUNUX1BBVEh9IiBdIHx8IGZhaWwgIm1pc3NpbmcgY29udHJhY3Q6ICR7Q09OVFJBQ1RfUEFUSH0iClZFUlNJT049IiQoCiAgc2VkIC1uRSBcCiAgICAncy9eW1s6c3BhY2U6XV0qQ09OVFJPTF9BUElfVkVSU0lPTl9DVVJSRU5UW1s6c3BhY2U6XV0qPVtbOnNwYWNlOl1dKihbMC05XSspW1s6c3BhY2U6XV0qOy4qL1wxL3AnIFwKICAgICIke0NPTlRSQUNUX1BBVEh9IgopIgpjYXNlICIke1ZFUlNJT059IiBpbgogICcnfDB8KlshMC05XSopIGZhaWwgIkNPTlRST0xfQVBJX1ZFUlNJT05fQ1VSUkVOVCBtdXN0IGJlIGEgc2luZ2xlIHBvc2l0aXZlIGludGVnZXIiIDs7CmVzYWMKWyAiJChwcmludGYgJyVzXG4nICIke1ZFUlNJT059IiB8IHdjIC1sIHwgdHIgLWQgJ1s6c3BhY2U6XScpIiA9ICIxIiBdIHx8IFwKICBmYWlsICJDT05UUk9MX0FQSV9WRVJTSU9OX0NVUlJFTlQgbXVzdCBiZSBkZWZpbmVkIGV4YWN0bHkgb25jZSIKcHJpbnRmICclc1xuJyAiJHtWRVJTSU9OfSIK
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="${FN_KNOCK_ROOT_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}"
+CONTRACT_PATH="${ROOT_DIR}/packages/grpc-contracts/proto/fnknock/v1/gateway.proto"
+
+fail() {
+  printf '[control-api-version] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+[ -f "${CONTRACT_PATH}" ] || fail "missing contract: ${CONTRACT_PATH}"
+VERSION="$(
+  sed -nE \
+    's/^[[:space:]]*CONTROL_API_VERSION_CURRENT[[:space:]]*=[[:space:]]*([0-9]+)[[:space:]]*;.*/\1/p' \
+    "${CONTRACT_PATH}"
+)"
+case "${VERSION}" in
+  ''|0|*[!0-9]*) fail "CONTROL_API_VERSION_CURRENT must be a single positive integer" ;;
+esac
+[ "$(printf '%s\n' "${VERSION}" | wc -l | tr -d '[:space:]')" = "1" ] || \
+  fail "CONTROL_API_VERSION_CURRENT must be defined exactly once"
+printf '%s\n' "${VERSION}"

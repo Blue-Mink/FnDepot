@@ -1,1 +1,69 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgdHlwZSB7IFdBRkJsb2NrQmVoYXZpb3IgfSBmcm9tICJAL3R5cGVzIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIGRlc2NyaXB0aW9uOiBzdHJpbmc7CiAgZGlzYWJsZWQ/OiBib29sZWFuOwogIGVycm9yUGFnZUxhYmVsOiBzdHJpbmc7CiAgbW9kZWxWYWx1ZTogV0FGQmxvY2tCZWhhdmlvcjsKICByZXNldENvbm5lY3Rpb25MYWJlbDogc3RyaW5nOwogIHRpdGxlOiBzdHJpbmc7CiAgd2FybmluZzogc3RyaW5nOwp9PigpOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICAidXBkYXRlOm1vZGVsVmFsdWUiOiBbdmFsdWU6IFdBRkJsb2NrQmVoYXZpb3JdOwp9PigpOwoKY29uc3Qgc2VsZWN0QmVoYXZpb3IgPSAodmFsdWU6IFdBRkJsb2NrQmVoYXZpb3IpID0+IHsKICBpZiAoIXByb3BzLmRpc2FibGVkKSBlbWl0KCJ1cGRhdGU6bW9kZWxWYWx1ZSIsIHZhbHVlKTsKfTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgY2xhc3M9ImdyaWQgZ2FwLTMgcC02IHNtOmdyaWQtY29scy1bbWlubWF4KDAsMWZyKV9hdXRvXSBzbTppdGVtcy1jZW50ZXIgc206Z2FwLTQiCiAgPgogICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIHByLTYiPgogICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LWJhc2UgZm9udC1tZWRpdW0iPnt7IHRpdGxlIH19PC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyBkZXNjcmlwdGlvbiB9fQogICAgICA8L2Rpdj4KICAgICAgPGRpdgogICAgICAgIHYtaWY9Im1vZGVsVmFsdWUgPT09ICdyZXNldF9jb25uZWN0aW9uJyIKICAgICAgICBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1hbWJlci02MDAgZGFyazp0ZXh0LWFtYmVyLTMwMCIKICAgICAgPgogICAgICAgIHt7IHdhcm5pbmcgfX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICAgIDxkaXYKICAgICAgcm9sZT0iZ3JvdXAiCiAgICAgIDphcmlhLWxhYmVsPSJ0aXRsZSIKICAgICAgY2xhc3M9ImlubGluZS1mbGV4IHctZml0IHJvdW5kZWQtbWQgYm9yZGVyIGJnLWJhY2tncm91bmQgcC0xIgogICAgPgogICAgICA8QnV0dG9uCiAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgIHNpemU9InNtIgogICAgICAgIDp2YXJpYW50PSJtb2RlbFZhbHVlID09PSAnZXJyb3JfcGFnZScgPyAnZGVmYXVsdCcgOiAnZ2hvc3QnIgogICAgICAgIGNsYXNzPSJoLTggcHgtMyIKICAgICAgICA6ZGlzYWJsZWQ9ImRpc2FibGVkIgogICAgICAgIDphcmlhLXByZXNzZWQ9Im1vZGVsVmFsdWUgPT09ICdlcnJvcl9wYWdlJyIKICAgICAgICBAY2xpY2s9InNlbGVjdEJlaGF2aW9yKCdlcnJvcl9wYWdlJykiCiAgICAgID4KICAgICAgICB7eyBlcnJvclBhZ2VMYWJlbCB9fQogICAgICA8L0J1dHRvbj4KICAgICAgPEJ1dHRvbgogICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICBzaXplPSJzbSIKICAgICAgICA6dmFyaWFudD0ibW9kZWxWYWx1ZSA9PT0gJ3Jlc2V0X2Nvbm5lY3Rpb24nID8gJ2RlZmF1bHQnIDogJ2dob3N0JyIKICAgICAgICBjbGFzcz0iaC04IHB4LTMiCiAgICAgICAgOmRpc2FibGVkPSJkaXNhYmxlZCIKICAgICAgICA6YXJpYS1wcmVzc2VkPSJtb2RlbFZhbHVlID09PSAncmVzZXRfY29ubmVjdGlvbiciCiAgICAgICAgQGNsaWNrPSJzZWxlY3RCZWhhdmlvcigncmVzZXRfY29ubmVjdGlvbicpIgogICAgICA+CiAgICAgICAge3sgcmVzZXRDb25uZWN0aW9uTGFiZWwgfX0KICAgICAgPC9CdXR0b24+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { Button } from "@/components/ui/button";
+import type { WAFBlockBehavior } from "@/types";
+
+const props = defineProps<{
+  description: string;
+  disabled?: boolean;
+  errorPageLabel: string;
+  modelValue: WAFBlockBehavior;
+  resetConnectionLabel: string;
+  title: string;
+  warning: string;
+}>();
+
+const emit = defineEmits<{
+  "update:modelValue": [value: WAFBlockBehavior];
+}>();
+
+const selectBehavior = (value: WAFBlockBehavior) => {
+  if (!props.disabled) emit("update:modelValue", value);
+};
+</script>
+
+<template>
+  <div
+    class="grid gap-3 p-6 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-4"
+  >
+    <div class="space-y-1 pr-6">
+      <div class="text-base font-medium">{{ title }}</div>
+      <div class="text-sm text-muted-foreground">
+        {{ description }}
+      </div>
+      <div
+        v-if="modelValue === 'reset_connection'"
+        class="text-xs leading-5 text-amber-600 dark:text-amber-300"
+      >
+        {{ warning }}
+      </div>
+    </div>
+    <div
+      role="group"
+      :aria-label="title"
+      class="inline-flex w-fit rounded-md border bg-background p-1"
+    >
+      <Button
+        type="button"
+        size="sm"
+        :variant="modelValue === 'error_page' ? 'default' : 'ghost'"
+        class="h-8 px-3"
+        :disabled="disabled"
+        :aria-pressed="modelValue === 'error_page'"
+        @click="selectBehavior('error_page')"
+      >
+        {{ errorPageLabel }}
+      </Button>
+      <Button
+        type="button"
+        size="sm"
+        :variant="modelValue === 'reset_connection' ? 'default' : 'ghost'"
+        class="h-8 px-3"
+        :disabled="disabled"
+        :aria-pressed="modelValue === 'reset_connection'"
+        @click="selectBehavior('reset_connection')"
+      >
+        {{ resetConnectionLabel }}
+      </Button>
+    </div>
+  </div>
+</template>

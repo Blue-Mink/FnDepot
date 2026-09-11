@@ -1,1 +1,5 @@
-IyEvYmluL2Jhc2gKCiMjIyBUaGlzIHNjcmlwdCBpcyBjYWxsZWQgYWZ0ZXIgdGhlIHVzZXIgaW5zdGFsbHMgdGhlIGFwcGxpY2F0aW9uLgoKZXhpdCAw
+#!/bin/bash
+
+### This script is called after the user installs the application.
+
+exit 0

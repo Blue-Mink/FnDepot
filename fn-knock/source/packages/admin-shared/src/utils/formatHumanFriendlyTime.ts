@@ -1,1 +1,61 @@
-dHlwZSBIdW1hbkZyaWVuZGx5VGltZU9wdGlvbnMgPSB7CiAgbG9jYWxlPzogc3RyaW5nOwogIGVtcHR5VGV4dD86IHN0cmluZzsKICBrZWVwSW52YWxpZFJhd1RleHQ/OiBib29sZWFuOwogIG5vdz86IG51bWJlcjsKfTsKCmNvbnN0IFNFQ09ORCA9IDEwMDA7CmNvbnN0IE1JTlVURSA9IDYwICogU0VDT05EOwpjb25zdCBIT1VSID0gNjAgKiBNSU5VVEU7CmNvbnN0IERBWSA9IDI0ICogSE9VUjsKY29uc3QgTU9OVEggPSAzMCAqIERBWTsKY29uc3QgWUVBUiA9IDM2NSAqIERBWTsKCmV4cG9ydCBjb25zdCByZXNvbHZlRGF0ZVZhbHVlID0gKAogIHZhbHVlOiBzdHJpbmcgfCBudW1iZXIgfCBEYXRlIHwgbnVsbCB8IHVuZGVmaW5lZCwKKTogRGF0ZSB8IG51bGwgPT4gewogIGlmICh2YWx1ZSA9PT0gbnVsbCB8fCB2YWx1ZSA9PT0gdW5kZWZpbmVkIHx8IHZhbHVlID09PSAnJykgcmV0dXJuIG51bGw7CgogIGNvbnN0IGRhdGUgPSB2YWx1ZSBpbnN0YW5jZW9mIERhdGUgPyB2YWx1ZSA6IG5ldyBEYXRlKHZhbHVlKTsKICBpZiAoTnVtYmVyLmlzTmFOKGRhdGUuZ2V0VGltZSgpKSkgcmV0dXJuIG51bGw7CiAgcmV0dXJuIGRhdGU7Cn07CgpleHBvcnQgY29uc3QgZm9ybWF0SHVtYW5GcmllbmRseVRpbWUgPSAoCiAgdmFsdWU6IHN0cmluZyB8IG51bWJlciB8IERhdGUgfCBudWxsIHwgdW5kZWZpbmVkLAogIG9wdGlvbnM6IEh1bWFuRnJpZW5kbHlUaW1lT3B0aW9ucyA9IHt9LAopOiBzdHJpbmcgPT4gewogIGNvbnN0IHsKICAgIGxvY2FsZSA9ICd6aC1DTicsCiAgICBlbXB0eVRleHQgPSAnLScsCiAgICBrZWVwSW52YWxpZFJhd1RleHQgPSB0cnVlLAogICAgbm93ID0gRGF0ZS5ub3coKSwKICB9ID0gb3B0aW9uczsKCiAgaWYgKHZhbHVlID09PSBudWxsIHx8IHZhbHVlID09PSB1bmRlZmluZWQgfHwgdmFsdWUgPT09ICcnKSByZXR1cm4gZW1wdHlUZXh0OwoKICBjb25zdCBkYXRlID0gcmVzb2x2ZURhdGVWYWx1ZSh2YWx1ZSk7CiAgaWYgKCFkYXRlKSByZXR1cm4ga2VlcEludmFsaWRSYXdUZXh0ID8gU3RyaW5nKHZhbHVlKSA6IGVtcHR5VGV4dDsKCiAgY29uc3QgZGlmZiA9IG5vdyAtIGRhdGUuZ2V0VGltZSgpOwogIGNvbnN0IGFic0RpZmYgPSBNYXRoLmFicyhkaWZmKTsKICBjb25zdCBydGYgPSBuZXcgSW50bC5SZWxhdGl2ZVRpbWVGb3JtYXQobG9jYWxlLCB7IG51bWVyaWM6ICdhdXRvJyB9KTsKCiAgaWYgKGFic0RpZmYgPCBNSU5VVEUpIHsKICAgIHJldHVybiBydGYuZm9ybWF0KC1NYXRoLnJvdW5kKGRpZmYgLyBTRUNPTkQpLCAnc2Vjb25kJyk7CiAgfQogIGlmIChhYnNEaWZmIDwgSE9VUikgewogICAgcmV0dXJuIHJ0Zi5mb3JtYXQoLU1hdGgucm91bmQoZGlmZiAvIE1JTlVURSksICdtaW51dGUnKTsKICB9CiAgaWYgKGFic0RpZmYgPCBEQVkpIHsKICAgIHJldHVybiBydGYuZm9ybWF0KC1NYXRoLnJvdW5kKGRpZmYgLyBIT1VSKSwgJ2hvdXInKTsKICB9CiAgaWYgKGFic0RpZmYgPCBNT05USCkgewogICAgcmV0dXJuIHJ0Zi5mb3JtYXQoLU1hdGgucm91bmQoZGlmZiAvIERBWSksICdkYXknKTsKICB9CiAgaWYgKGFic0RpZmYgPCBZRUFSKSB7CiAgICByZXR1cm4gcnRmLmZvcm1hdCgtTWF0aC5yb3VuZChkaWZmIC8gTU9OVEgpLCAnbW9udGgnKTsKICB9CiAgcmV0dXJuIHJ0Zi5mb3JtYXQoLU1hdGgucm91bmQoZGlmZiAvIFlFQVIpLCAneWVhcicpOwp9Owo=
+type HumanFriendlyTimeOptions = {
+  locale?: string;
+  emptyText?: string;
+  keepInvalidRawText?: boolean;
+  now?: number;
+};
+
+const SECOND = 1000;
+const MINUTE = 60 * SECOND;
+const HOUR = 60 * MINUTE;
+const DAY = 24 * HOUR;
+const MONTH = 30 * DAY;
+const YEAR = 365 * DAY;
+
+export const resolveDateValue = (
+  value: string | number | Date | null | undefined,
+): Date | null => {
+  if (value === null || value === undefined || value === '') return null;
+
+  const date = value instanceof Date ? value : new Date(value);
+  if (Number.isNaN(date.getTime())) return null;
+  return date;
+};
+
+export const formatHumanFriendlyTime = (
+  value: string | number | Date | null | undefined,
+  options: HumanFriendlyTimeOptions = {},
+): string => {
+  const {
+    locale = 'zh-CN',
+    emptyText = '-',
+    keepInvalidRawText = true,
+    now = Date.now(),
+  } = options;
+
+  if (value === null || value === undefined || value === '') return emptyText;
+
+  const date = resolveDateValue(value);
+  if (!date) return keepInvalidRawText ? String(value) : emptyText;
+
+  const diff = now - date.getTime();
+  const absDiff = Math.abs(diff);
+  const rtf = new Intl.RelativeTimeFormat(locale, { numeric: 'auto' });
+
+  if (absDiff < MINUTE) {
+    return rtf.format(-Math.round(diff / SECOND), 'second');
+  }
+  if (absDiff < HOUR) {
+    return rtf.format(-Math.round(diff / MINUTE), 'minute');
+  }
+  if (absDiff < DAY) {
+    return rtf.format(-Math.round(diff / HOUR), 'hour');
+  }
+  if (absDiff < MONTH) {
+    return rtf.format(-Math.round(diff / DAY), 'day');
+  }
+  if (absDiff < YEAR) {
+    return rtf.format(-Math.round(diff / MONTH), 'month');
+  }
+  return rtf.format(-Math.round(diff / YEAR), 'year');
+};

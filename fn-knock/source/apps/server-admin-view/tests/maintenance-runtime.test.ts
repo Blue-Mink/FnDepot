@@ -1,1 +1,82 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CgppbXBvcnQgeyBzdXBwb3J0c1NoYXJlZEJhY2t1cEZvclJ1bnRpbWUgfSBmcm9tICIuLi9zcmMvbGliL21haW50ZW5hbmNlLXJ1bnRpbWUiOwppbXBvcnQgdHlwZSB7IFJ1bnRpbWVDYXBhYmlsaXRpZXMsIFJ1bnRpbWVQcm9maWxlIH0gZnJvbSAiLi4vc3JjL3R5cGVzIjsKCmNvbnN0IHByb2ZpbGUgPSAoCiAgZGVwbG95bWVudF90YXJnZXQ6IFJ1bnRpbWVQcm9maWxlWyJkZXBsb3ltZW50X3RhcmdldCJdLAopOiBSdW50aW1lUHJvZmlsZSA9PiAoewogIGRlcGxveW1lbnRfdGFyZ2V0LAogIGlzX2RvY2tlcjogZGVwbG95bWVudF90YXJnZXQgPT09ICJkb2NrZXIiLAogIGlzX2xpbnV4OiB0cnVlLAogIGlzX3dpbmRvd3M6IGRlcGxveW1lbnRfdGFyZ2V0ID09PSAid2luZG93cyIsCiAgaXNfcm9vdF9wcm9jZXNzOiB0cnVlLAp9KTsKCmNvbnN0IGNhcGFiaWxpdGllcyA9ICgKICBwYXRjaDogUGFydGlhbDxSdW50aW1lQ2FwYWJpbGl0aWVzPiA9IHt9LAopOiBSdW50aW1lQ2FwYWJpbGl0aWVzID0+ICh7CiAgZGlyZWN0X21vZGVfYXZhaWxhYmxlOiB0cnVlLAogIGhvc3RfZmlyZXdhbGxfYXZhaWxhYmxlOiB0cnVlLAogIHNtYXJ0X2Nvbm5lY3RfYXZhaWxhYmxlOiB0cnVlLAogIHN5c3RlbV9jbG9ja19zeW5jX2F2YWlsYWJsZTogdHJ1ZSwKICBzZWxmX3VwZGF0ZV9hdmFpbGFibGU6IGZhbHNlLAogIHNoYXJlZF9yb290X2F2YWlsYWJsZTogZmFsc2UsCiAgLi4ucGF0Y2gsCn0pOwoKZGVzY3JpYmUoIm1haW50ZW5hbmNlIHJ1bnRpbWUgaGVscGVycyIsICgpID0+IHsKICBpdCgic2hvd3Mgc2hhcmVkIGJhY2t1cCBhY3Rpb25zIGZvciBGUEsgZXZlbiBiZWZvcmUgc2hhcmVkIHJvb3QgaXMgY29uZmlybWVkIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKAogICAgICBzdXBwb3J0c1NoYXJlZEJhY2t1cEZvclJ1bnRpbWUocHJvZmlsZSgiZnBrIiksIGNhcGFiaWxpdGllcygpKSwKICAgICAgdHJ1ZSwKICAgICk7CiAgfSk7CgogIGl0KCJzaG93cyBzaGFyZWQgYmFja3VwIGFjdGlvbnMgZm9yIHRoZSBpc29sYXRlZCBGUEsgTGl0ZSBkYXRhIHNoYXJlIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKAogICAgICBzdXBwb3J0c1NoYXJlZEJhY2t1cEZvclJ1bnRpbWUocHJvZmlsZSgiZnBrLWxpdGUiKSwgY2FwYWJpbGl0aWVzKCkpLAogICAgICB0cnVlLAogICAgKTsKICB9KTsKCiAgaXQoInNob3dzIHNoYXJlZCBiYWNrdXAgYWN0aW9ucyB3aGVuIEZQSyBjYXBhYmlsaXR5IGlzIHByZXNlbnQgd2l0aG91dCBhIHByb2ZpbGUiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHN1cHBvcnRzU2hhcmVkQmFja3VwRm9yUnVudGltZSgKICAgICAgICB1bmRlZmluZWQsCiAgICAgICAgY2FwYWJpbGl0aWVzKHsgc2VsZl91cGRhdGVfYXZhaWxhYmxlOiB0cnVlIH0pLAogICAgICApLAogICAgICB0cnVlLAogICAgKTsKICB9KTsKCiAgaXQoInNob3dzIHNoYXJlZCBiYWNrdXAgYWN0aW9ucyB3aGVuIGEgc2hhcmVkIHJvb3QgaXMgYXZhaWxhYmxlIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKAogICAgICBzdXBwb3J0c1NoYXJlZEJhY2t1cEZvclJ1bnRpbWUoCiAgICAgICAgcHJvZmlsZSgiZGV2IiksCiAgICAgICAgY2FwYWJpbGl0aWVzKHsgc2hhcmVkX3Jvb3RfYXZhaWxhYmxlOiB0cnVlIH0pLAogICAgICApLAogICAgICB0cnVlLAogICAgKTsKICB9KTsKCiAgaXQoImhpZGVzIHNoYXJlZCBiYWNrdXAgYWN0aW9ucyBmb3IgRG9ja2VyIGFuZCBPcGVuV3J0IiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKAogICAgICBzdXBwb3J0c1NoYXJlZEJhY2t1cEZvclJ1bnRpbWUoCiAgICAgICAgcHJvZmlsZSgiZG9ja2VyIiksCiAgICAgICAgY2FwYWJpbGl0aWVzKHsgc2hhcmVkX3Jvb3RfYXZhaWxhYmxlOiB0cnVlIH0pLAogICAgICApLAogICAgICBmYWxzZSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHN1cHBvcnRzU2hhcmVkQmFja3VwRm9yUnVudGltZSgKICAgICAgICBwcm9maWxlKCJvcGVud3J0IiksCiAgICAgICAgY2FwYWJpbGl0aWVzKHsgc2hhcmVkX3Jvb3RfYXZhaWxhYmxlOiB0cnVlIH0pLAogICAgICApLAogICAgICBmYWxzZSwKICAgICk7CiAgfSk7Cn0pOwo=
+/// <reference types="node" />
+
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
+
+import { supportsSharedBackupForRuntime } from "../src/lib/maintenance-runtime";
+import type { RuntimeCapabilities, RuntimeProfile } from "../src/types";
+
+const profile = (
+  deployment_target: RuntimeProfile["deployment_target"],
+): RuntimeProfile => ({
+  deployment_target,
+  is_docker: deployment_target === "docker",
+  is_linux: true,
+  is_windows: deployment_target === "windows",
+  is_root_process: true,
+});
+
+const capabilities = (
+  patch: Partial<RuntimeCapabilities> = {},
+): RuntimeCapabilities => ({
+  direct_mode_available: true,
+  host_firewall_available: true,
+  smart_connect_available: true,
+  system_clock_sync_available: true,
+  self_update_available: false,
+  shared_root_available: false,
+  ...patch,
+});
+
+describe("maintenance runtime helpers", () => {
+  it("shows shared backup actions for FPK even before shared root is confirmed", () => {
+    assert.equal(
+      supportsSharedBackupForRuntime(profile("fpk"), capabilities()),
+      true,
+    );
+  });
+
+  it("shows shared backup actions for the isolated FPK Lite data share", () => {
+    assert.equal(
+      supportsSharedBackupForRuntime(profile("fpk-lite"), capabilities()),
+      true,
+    );
+  });
+
+  it("shows shared backup actions when FPK capability is present without a profile", () => {
+    assert.equal(
+      supportsSharedBackupForRuntime(
+        undefined,
+        capabilities({ self_update_available: true }),
+      ),
+      true,
+    );
+  });
+
+  it("shows shared backup actions when a shared root is available", () => {
+    assert.equal(
+      supportsSharedBackupForRuntime(
+        profile("dev"),
+        capabilities({ shared_root_available: true }),
+      ),
+      true,
+    );
+  });
+
+  it("hides shared backup actions for Docker and OpenWrt", () => {
+    assert.equal(
+      supportsSharedBackupForRuntime(
+        profile("docker"),
+        capabilities({ shared_root_available: true }),
+      ),
+      false,
+    );
+    assert.equal(
+      supportsSharedBackupForRuntime(
+        profile("openwrt"),
+        capabilities({ shared_root_available: true }),
+      ),
+      false,
+    );
+  });
+});

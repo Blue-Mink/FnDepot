@@ -1,1 +1,328 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgZm4gZGVzZXJpYWxpemVfd2hpdGVsaXN0X3JlZ2lvbl9ncm91cCgKICAgIHJhdzogJnN0ciwKKSAtPiBPcHRpb248V2hpdGVsaXN0UmVnaW9uR3JvdXBSZWNvcmQ+IHsKICAgIGxldCBwYXJzZWQgPSBzZXJkZV9qc29uOjpmcm9tX3N0cjo6PFZhbHVlPihyYXcpLm9rKCk/OwogICAgbGV0IG9iamVjdCA9IHBhcnNlZC5hc19vYmplY3QoKT87CiAgICBsZXQgaWQgPSBvYmplY3QKICAgICAgICAuZ2V0KCJpZCIpCiAgICAgICAgLm1hcChqc19zdHJpbmcpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICAudHJpbSgpCiAgICAgICAgLnRvX3N0cmluZygpOwogICAgaWYgaWQuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CgogICAgbGV0IHJlZ2lvbnMgPSBvYmplY3QKICAgICAgICAuZ2V0KCJyZWdpb25zIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5mbGF0dGVuKCkKICAgICAgICAuZmlsdGVyX21hcCh8cmVnaW9ufCB7CiAgICAgICAgICAgIGxldCBvYmplY3QgPSByZWdpb24uYXNfb2JqZWN0KCk/OwogICAgICAgICAgICBsZXQgcHJvdmluY2UgPSBvYmplY3QKICAgICAgICAgICAgICAgIC5nZXQoInByb3ZpbmNlIikKICAgICAgICAgICAgICAgIC5tYXAoanNfc3RyaW5nKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICAgICAgICAgIC50cmltKCkKICAgICAgICAgICAgICAgIC50b19zdHJpbmcoKTsKICAgICAgICAgICAgaWYgcHJvdmluY2UuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICAgICAgfQogICAgICAgICAgICBsZXQgcXVlcnlfY2l0eSA9IG9iamVjdAogICAgICAgICAgICAgICAgLmdldCgicXVlcnlfY2l0eSIpCiAgICAgICAgICAgICAgICAubWFwKGpzX3N0cmluZykKICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCiAgICAgICAgICAgICAgICAudHJpbSgpCiAgICAgICAgICAgICAgICAudG9fc3RyaW5nKCk7CiAgICAgICAgICAgIGxldCBvcGVyYXRvciA9IGNyYXRlOjpjaWRyOjpDaWRyT3BlcmF0b3I6OnBhcnNlX3ZhbHVlKG9iamVjdC5nZXQoIm9wZXJhdG9yIikpCiAgICAgICAgICAgICAgICAub2soKQogICAgICAgICAgICAgICAgLmZsYXR0ZW4oKTsKICAgICAgICAgICAgU29tZShXaGl0ZWxpc3RSZWdpb25JbnB1dCB7CiAgICAgICAgICAgICAgICBwcm92aW5jZSwKICAgICAgICAgICAgICAgIHF1ZXJ5X2NpdHk6ICghcXVlcnlfY2l0eS5pc19lbXB0eSgpKS50aGVuX3NvbWUocXVlcnlfY2l0eSksCiAgICAgICAgICAgICAgICBvcGVyYXRvciwKICAgICAgICAgICAgfSkKICAgICAgICB9KQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgbGV0IGNpZHJzID0gb2JqZWN0CiAgICAgICAgLmdldCgiY2lkcnMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLmZsYXR0ZW4oKQogICAgICAgIC5tYXAoanNfc3RyaW5nKQogICAgICAgIC5tYXAofHZhbHVlfCB2YWx1ZS50cmltKCkudG9fc3RyaW5nKCkpCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgbGV0IHBvbGljeV9pZCA9IG9iamVjdAogICAgICAgIC5nZXQoInBvbGljeUlkIikKICAgICAgICAub3JfZWxzZSh8fCBvYmplY3QuZ2V0KCJwb2xpY3lfaWQiKSkKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQogICAgICAgIC50b19zdHJpbmcoKTsKICAgIGxldCBwb2xpY3kgPSBvYmplY3QKICAgICAgICAuZ2V0KCJwb2xpY3kiKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfbnVsbCgpKQogICAgICAgIC5jbG9uZWQoKTsKICAgIGxldCBzb3VyY2VfY2lkcl9jb3VudCA9IG9iamVjdAogICAgICAgIC5nZXQoInNvdXJjZUNpZHJDb3VudCIpCiAgICAgICAgLm9yX2Vsc2UofHwgb2JqZWN0LmdldCgic291cmNlX2NpZHJfY291bnQiKSkKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3U2NCkKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB1c2l6ZTo6dHJ5X2Zyb20odmFsdWUpLm9rKCkpCiAgICAgICAgLnVud3JhcF9vcihjaWRycy5sZW4oKSk7CiAgICBsZXQgcmFuZ2VfY291bnQgPSBvYmplY3QKICAgICAgICAuZ2V0KCJyYW5nZUNvdW50IikKICAgICAgICAub3JfZWxzZSh8fCBvYmplY3QuZ2V0KCJyYW5nZV9jb3VudCIpKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfdTY0KQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHVzaXplOjp0cnlfZnJvbSh2YWx1ZSkub2soKSkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBjcmVhdGVkX2F0ID0ganNfZmluaXRlX251bWJlcihvYmplY3QuZ2V0KCJjcmVhdGVkQXQiKSkKICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUudHJ1bmMoKSBhcyBpNjQpCiAgICAgICAgLnVud3JhcF9vcigwKTsKICAgIGxldCB1cGRhdGVkX2F0ID0ganNfZmluaXRlX251bWJlcihvYmplY3QuZ2V0KCJ1cGRhdGVkQXQiKSkKICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUudHJ1bmMoKSBhcyBpNjQpCiAgICAgICAgLnVud3JhcF9vcigwKTsKICAgIGxldCBleHBpcmVfYXQgPSBtYXRjaCBvYmplY3QuZ2V0KCJleHBpcmVBdCIpIHsKICAgICAgICBOb25lIHwgU29tZShWYWx1ZTo6TnVsbCkgPT4gTm9uZSwKICAgICAgICB2YWx1ZSA9PiBqc19maW5pdGVfbnVtYmVyKHZhbHVlKS5tYXAofHZhbHVlfCB2YWx1ZS50cnVuYygpIGFzIGk2NCksCiAgICB9OwogICAgbGV0IHN0YXR1cyA9IG1hdGNoIG9iamVjdC5nZXQoInN0YXR1cyIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpIHsKICAgICAgICBTb21lKCJkZWxldGVkIikgPT4gImRlbGV0ZWQiLAogICAgICAgIFNvbWUoImV4cGlyZWQiKSA9PiAiZXhwaXJlZCIsCiAgICAgICAgXyA9PiAiYWN0aXZlIiwKICAgIH07CiAgICBsZXQgY29tbWVudCA9IG9iamVjdC5jb250YWluc19rZXkoImNvbW1lbnQiKS50aGVuKHx8IHsKICAgICAgICBvYmplY3QKICAgICAgICAgICAgLmdldCgiY29tbWVudCIpCiAgICAgICAgICAgIC5tYXAoanNfc3RyaW5nKQogICAgICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQogICAgICAgICAgICAudHJpbSgpCiAgICAgICAgICAgIC50b19zdHJpbmcoKQogICAgfSk7CgogICAgU29tZShXaGl0ZWxpc3RSZWdpb25Hcm91cFJlY29yZCB7CiAgICAgICAgaWQsCiAgICAgICAgcmVnaW9ucywKICAgICAgICBjaWRycywKICAgICAgICBwb2xpY3lfaWQsCiAgICAgICAgcG9saWN5LAogICAgICAgIHNvdXJjZV9jaWRyX2NvdW50LAogICAgICAgIHJhbmdlX2NvdW50LAogICAgICAgIGV4cGlyZV9hdCwKICAgICAgICBzb3VyY2U6ICJtYW51YWwiLnRvX3N0cmluZygpLAogICAgICAgIGNyZWF0ZWRfYXQsCiAgICAgICAgdXBkYXRlZF9hdCwKICAgICAgICBzdGF0dXM6IHN0YXR1cy50b19zdHJpbmcoKSwKICAgICAgICBjb21tZW50LAogICAgfSkKfQoKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgZm4gZGVzZXJpYWxpemVfd2hpdGVsaXN0X3JlY29yZCgKICAgIHJhdzogJnN0ciwKKSAtPiBPcHRpb248V2hpdGVsaXN0UmVjb3JkPiB7CiAgICBsZXQgcGFyc2VkID0gc2VyZGVfanNvbjo6ZnJvbV9zdHI6OjxWYWx1ZT4ocmF3KS5vaygpPzsKICAgIGxldCBvYmplY3QgPSBwYXJzZWQuYXNfb2JqZWN0KCk/OwogICAgbGV0IGlkID0gb2JqZWN0CiAgICAgICAgLmdldCgiaWQiKQogICAgICAgIC5tYXAoanNfc3RyaW5nKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCiAgICAgICAgLnRyaW0oKQogICAgICAgIC50b19zdHJpbmcoKTsKICAgIGlmIGlkLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQoKICAgIGxldCByYXdfdGFyZ2V0ID0gb2JqZWN0CiAgICAgICAgLmdldCgiaXAiKQogICAgICAgIC5tYXAoanNfc3RyaW5nKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCiAgICAgICAgLnRyaW0oKQogICAgICAgIC50b19zdHJpbmcoKTsKICAgIGxldCB0YXJnZXRfdHlwZSA9IG1hdGNoIG9iamVjdC5nZXQoInRhcmdldFR5cGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSB7CiAgICAgICAgU29tZSgiY2lkciIpID0+ICJjaWRyIiwKICAgICAgICBTb21lKCJjbmFtZSIpID0+ICJjbmFtZSIsCiAgICAgICAgXyA9PiBpbmZlcl93aGl0ZWxpc3RfdGFyZ2V0X3R5cGUoJnJhd190YXJnZXQpPywKICAgIH07CiAgICBsZXQgbm9ybWFsaXplZF90YXJnZXQgPSBub3JtYWxpemVfd2hpdGVsaXN0X3RhcmdldCgmcmF3X3RhcmdldCwgdGFyZ2V0X3R5cGUpPzsKCiAgICBsZXQgc291cmNlID0gaWYgb2JqZWN0LmdldCgic291cmNlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSgiYXV0byIpIHsKICAgICAgICAiYXV0byIKICAgIH0gZWxzZSB7CiAgICAgICAgIm1hbnVhbCIKICAgIH07CiAgICBsZXQgc3RhdHVzID0gbWF0Y2ggb2JqZWN0LmdldCgic3RhdHVzIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgewogICAgICAgIFNvbWUoInBlbmRpbmciKSA9PiAicGVuZGluZyIsCiAgICAgICAgU29tZSgiZXhwaXJlZCIpID0+ICJleHBpcmVkIiwKICAgICAgICBTb21lKCJkZWxldGVkIikgPT4gImRlbGV0ZWQiLAogICAgICAgIF8gPT4gImFjdGl2ZSIsCiAgICB9OwogICAgbGV0IGNyZWF0ZWRfYXQgPSBvYmplY3QKICAgICAgICAuZ2V0KCJjcmVhdGVkQXQiKQogICAgICAgIC5tYXAoanNfc3RyaW5nKQogICAgICAgIC5hc19kZXJlZigpCiAgICAgICAgLmFuZF90aGVuKHBhcnNlX2ludF9saWtlX2pzKQogICAgICAgIC51bndyYXBfb3IoMCk7CiAgICBsZXQgZXhwaXJlX2F0ID0gb3B0aW9uYWxfd2hpdGVsaXN0X3RpbWVzdGFtcChvYmplY3QuZ2V0KCJleHBpcmVBdCIpKTsKICAgIGxldCBjb21tZW50ID0gb2JqZWN0CiAgICAgICAgLmdldCgiY29tbWVudCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLm1hcChUb1N0cmluZzo6dG9fc3RyaW5nKTsKICAgIGxldCBpcF9sb2NhdGlvbiA9ICh0YXJnZXRfdHlwZSA9PSAiaXAiKQogICAgICAgIC50aGVuKHx8IHsKICAgICAgICAgICAgb2JqZWN0CiAgICAgICAgICAgICAgICAuZ2V0KCJpcExvY2F0aW9uIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgICAgICAgICAubWFwKFRvU3RyaW5nOjp0b19zdHJpbmcpCiAgICAgICAgfSkKICAgICAgICAuZmxhdHRlbigpOwogICAgbGV0IHJlc29sdmVkX3RhcmdldHMgPSAodGFyZ2V0X3R5cGUgPT0gImNuYW1lIikKICAgICAgICAudGhlbih8fCBub3JtYWxpemVfd2hpdGVsaXN0X3Jlc29sdmVkX3RhcmdldHMob2JqZWN0LmdldCgicmVzb2x2ZWRUYXJnZXRzIikpKTsKICAgIGxldCBjaGVja19pbnRlcnZhbF9taW51dGVzID0gKHRhcmdldF90eXBlID09ICJjbmFtZSIpCiAgICAgICAgLnRoZW4ofHwgbm9ybWFsaXplX3doaXRlbGlzdF9jbmFtZV9jaGVja19pbnRlcnZhbChvYmplY3QuZ2V0KCJjaGVja0ludGVydmFsTWludXRlcyIpKSk7CiAgICBsZXQgbGFzdF9jaGVja2VkX2F0ID0gb3B0aW9uYWxfd2hpdGVsaXN0X3RpbWVzdGFtcChvYmplY3QuZ2V0KCJsYXN0Q2hlY2tlZEF0IikpOwogICAgbGV0IGxhc3RfcmVzb2x2ZWRfYXQgPSBvcHRpb25hbF93aGl0ZWxpc3RfdGltZXN0YW1wKG9iamVjdC5nZXQoImxhc3RSZXNvbHZlZEF0IikpOwogICAgbGV0IHJlc29sdmVfc3RhdHVzID0gbWF0Y2ggb2JqZWN0LmdldCgicmVzb2x2ZVN0YXR1cyIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpIHsKICAgICAgICBTb21lKCJyZXNvbHZlZCIpID0+IFNvbWUoInJlc29sdmVkIi50b19zdHJpbmcoKSksCiAgICAgICAgU29tZSgiZW1wdHkiKSA9PiBTb21lKCJlbXB0eSIudG9fc3RyaW5nKCkpLAogICAgICAgIFNvbWUoImVycm9yIikgPT4gU29tZSgiZXJyb3IiLnRvX3N0cmluZygpKSwKICAgICAgICBTb21lKCJwZW5kaW5nIikgPT4gU29tZSgicGVuZGluZyIudG9fc3RyaW5nKCkpLAogICAgICAgIF8gaWYgdGFyZ2V0X3R5cGUgPT0gImNuYW1lIiA9PiBTb21lKCJwZW5kaW5nIi50b19zdHJpbmcoKSksCiAgICAgICAgXyA9PiBOb25lLAogICAgfTsKICAgIGxldCByZXNvbHZlX21lc3NhZ2UgPSBvYmplY3QKICAgICAgICAuZ2V0KCJyZXNvbHZlTWVzc2FnZSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIC5tYXAoVG9TdHJpbmc6OnRvX3N0cmluZyk7CgogICAgU29tZShXaGl0ZWxpc3RSZWNvcmQgewogICAgICAgIGlkLAogICAgICAgIGlwOiBub3JtYWxpemVkX3RhcmdldCwKICAgICAgICB0YXJnZXRfdHlwZTogdGFyZ2V0X3R5cGUudG9fc3RyaW5nKCksCiAgICAgICAgZXhwaXJlX2F0LAogICAgICAgIHNvdXJjZTogc291cmNlLnRvX3N0cmluZygpLAogICAgICAgIGNyZWF0ZWRfYXQsCiAgICAgICAgc3RhdHVzOiBzdGF0dXMudG9fc3RyaW5nKCksCiAgICAgICAgY29tbWVudCwKICAgICAgICBpcF9sb2NhdGlvbiwKICAgICAgICByZXNvbHZlZF90YXJnZXRzLAogICAgICAgIGNoZWNrX2ludGVydmFsX21pbnV0ZXMsCiAgICAgICAgbGFzdF9jaGVja2VkX2F0LAogICAgICAgIGxhc3RfcmVzb2x2ZWRfYXQsCiAgICAgICAgcmVzb2x2ZV9zdGF0dXMsCiAgICAgICAgcmVzb2x2ZV9tZXNzYWdlLAogICAgfSkKfQoKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgZm4gaW5mZXJfd2hpdGVsaXN0X3RhcmdldF90eXBlKAogICAgdmFsdWU6ICZzdHIsCikgLT4gT3B0aW9uPCYnc3RhdGljIHN0cj4gewogICAgaWYgbm9ybWFsaXplX3doaXRlbGlzdF9jaWRyKHZhbHVlKS5pc19zb21lKCkgewogICAgICAgIHJldHVybiBTb21lKCJjaWRyIik7CiAgICB9CiAgICBpZiAhbm9ybWFsaXplX2lwKHZhbHVlKS5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gU29tZSgiaXAiKTsKICAgIH0KICAgIGlmIG5vcm1hbGl6ZV93aGl0ZWxpc3RfZG9tYWluKHZhbHVlKS5pc19zb21lKCkgewogICAgICAgIHJldHVybiBTb21lKCJjbmFtZSIpOwogICAgfQogICAgTm9uZQp9CgpwdWIoaW4gY3JhdGU6OnN0b3JhZ2U6OnJlZGlzX3N0b3JlKSBmbiBub3JtYWxpemVfd2hpdGVsaXN0X3RhcmdldCgKICAgIHZhbHVlOiAmc3RyLAogICAgdGFyZ2V0X3R5cGU6ICZzdHIsCikgLT4gT3B0aW9uPFN0cmluZz4gewogICAgbWF0Y2ggdGFyZ2V0X3R5cGUgewogICAgICAgICJjaWRyIiA9PiBub3JtYWxpemVfd2hpdGVsaXN0X2NpZHIodmFsdWUpLAogICAgICAgICJjbmFtZSIgPT4gbm9ybWFsaXplX3doaXRlbGlzdF9kb21haW4odmFsdWUpLAogICAgICAgIF8gPT4gewogICAgICAgICAgICBsZXQgbm9ybWFsaXplZCA9IG5vcm1hbGl6ZV9pcCh2YWx1ZSk7CiAgICAgICAgICAgICghbm9ybWFsaXplZC5pc19lbXB0eSgpKS50aGVuX3NvbWUobm9ybWFsaXplZCkKICAgICAgICB9CiAgICB9Cn0KCnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGZuIG5vcm1hbGl6ZV93aGl0ZWxpc3RfY2lkcih2YWx1ZTogJnN0cikgLT4gT3B0aW9uPFN0cmluZz4gewogICAgbGV0IHBhcnNlZCA9IElwTmV0Ojpmcm9tX3N0cih2YWx1ZS50cmltKCkpLm9rKCk/OwogICAgU29tZShtYXRjaCBwYXJzZWQgewogICAgICAgIElwTmV0OjpWNChuZXR3b3JrKSA9PiBmb3JtYXQhKCJ7fS97fSIsIG5ldHdvcmsubmV0d29yaygpLCBuZXR3b3JrLnByZWZpeF9sZW4oKSksCiAgICAgICAgSXBOZXQ6OlY2KG5ldHdvcmspID0+IGZvcm1hdCEoInt9L3t9IiwgbmV0d29yay5uZXR3b3JrKCksIG5ldHdvcmsucHJlZml4X2xlbigpKSwKICAgIH0pCn0KCnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGZuIG5vcm1hbGl6ZV93aGl0ZWxpc3RfZG9tYWluKHZhbHVlOiAmc3RyKSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBsZXQgdHJpbW1lZCA9IHZhbHVlLnRyaW0oKS50cmltX2VuZF9tYXRjaGVzKCcuJykudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBpZiB0cmltbWVkLmlzX2VtcHR5KCkgfHwgdHJpbW1lZC5jb250YWlucygnLycpIHx8IHRyaW1tZWQuY29udGFpbnMoIi4uIikgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgbGV0IGFzY2lpID0gaWRuYTo6ZG9tYWluX3RvX2FzY2lpKCZ0cmltbWVkKS5vaygpPzsKICAgIGlmIGFzY2lpLmlzX2VtcHR5KCkgfHwgYXNjaWkubGVuKCkgPiAyNTMgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgbGV0IGxhYmVscyA9IGFzY2lpLnNwbGl0KCcuJykuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGlmIGxhYmVscy5sZW4oKSA8IDIgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgZm9yIGxhYmVsIGluIGxhYmVscyB7CiAgICAgICAgaWYgbGFiZWwuaXNfZW1wdHkoKQogICAgICAgICAgICB8fCBsYWJlbC5sZW4oKSA+IDYzCiAgICAgICAgICAgIHx8IGxhYmVsLnN0YXJ0c193aXRoKCctJykKICAgICAgICAgICAgfHwgbGFiZWwuZW5kc193aXRoKCctJykKICAgICAgICAgICAgfHwgIWxhYmVsCiAgICAgICAgICAgICAgICAuY2hhcnMoKQogICAgICAgICAgICAgICAgLmFsbCh8Y2hhcmFjdGVyfCBjaGFyYWN0ZXIuaXNfYXNjaWlfYWxwaGFudW1lcmljKCkgfHwgY2hhcmFjdGVyID09ICctJykKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybiBOb25lOwogICAgICAgIH0KICAgIH0KICAgIFNvbWUoYXNjaWkpCn0KCnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGZuIG5vcm1hbGl6ZV93aGl0ZWxpc3RfcmVzb2x2ZWRfdGFyZ2V0cygKICAgIHZhbHVlOiBPcHRpb248JlZhbHVlPiwKKSAtPiBWZWM8U3RyaW5nPiB7CiAgICB2YWx1ZQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLmZsYXR0ZW4oKQogICAgICAgIC5maWx0ZXJfbWFwKHxpdGVtfCB7CiAgICAgICAgICAgIGxldCBub3JtYWxpemVkID0gbm9ybWFsaXplX2lwKGpzX3N0cmluZyhpdGVtKS50cmltKCkpOwogICAgICAgICAgICAoIW5vcm1hbGl6ZWQuaXNfZW1wdHkoKSkudGhlbl9zb21lKG5vcm1hbGl6ZWQpCiAgICAgICAgfSkKICAgICAgICAuY29sbGVjdDo6PEJUcmVlU2V0PF8+PigpCiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLmNvbGxlY3QoKQp9CgpwdWIoaW4gY3JhdGU6OnN0b3JhZ2U6OnJlZGlzX3N0b3JlKSBmbiBvcHRpb25hbF93aGl0ZWxpc3RfdGltZXN0YW1wKAogICAgdmFsdWU6IE9wdGlvbjwmVmFsdWU+LAopIC0+IE9wdGlvbjxpNjQ+IHsKICAgIGxldCB2YWx1ZSA9IHZhbHVlPzsKICAgIGlmIHZhbHVlLmlzX251bGwoKSB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBsZXQgc3RyaW5nX3ZhbHVlID0ganNfc3RyaW5nKHZhbHVlKTsKICAgIGlmIHN0cmluZ192YWx1ZS5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIHBhcnNlX2ludF9saWtlX2pzKCZzdHJpbmdfdmFsdWUpCn0KCnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGZuIG5vcm1hbGl6ZV93aGl0ZWxpc3RfY25hbWVfY2hlY2tfaW50ZXJ2YWwoCiAgICB2YWx1ZTogT3B0aW9uPCZWYWx1ZT4sCikgLT4gaTY0IHsKICAgIHBhcnNlX2ludF9saWtlX2pzKCZ2YWx1ZS5tYXAoanNfc3RyaW5nKS51bndyYXBfb3JfZGVmYXVsdCgpKQogICAgICAgIC51bndyYXBfb3IoNSkKICAgICAgICAuY2xhbXAoMSwgMjQgKiA2MCkKfQoKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgZm4gcGFyc2VfaW50X2xpa2VfanModmFsdWU6ICZzdHIpIC0+IE9wdGlvbjxpNjQ+IHsKICAgIGNyYXRlOjpub2RlX2NvbXBhdDo6cGFyc2VfaTY0X3ByZWZpeF90cmltX3N0YXJ0KHZhbHVlKQp9Cg==
+use super::*;
+
+pub(in crate::storage::redis_store) fn deserialize_whitelist_region_group(
+    raw: &str,
+) -> Option<WhitelistRegionGroupRecord> {
+    let parsed = serde_json::from_str::<Value>(raw).ok()?;
+    let object = parsed.as_object()?;
+    let id = object
+        .get("id")
+        .map(js_string)
+        .unwrap_or_default()
+        .trim()
+        .to_string();
+    if id.is_empty() {
+        return None;
+    }
+
+    let regions = object
+        .get("regions")
+        .and_then(Value::as_array)
+        .into_iter()
+        .flatten()
+        .filter_map(|region| {
+            let object = region.as_object()?;
+            let province = object
+                .get("province")
+                .map(js_string)
+                .unwrap_or_default()
+                .trim()
+                .to_string();
+            if province.is_empty() {
+                return None;
+            }
+            let query_city = object
+                .get("query_city")
+                .map(js_string)
+                .unwrap_or_default()
+                .trim()
+                .to_string();
+            let operator = crate::cidr::CidrOperator::parse_value(object.get("operator"))
+                .ok()
+                .flatten();
+            Some(WhitelistRegionInput {
+                province,
+                query_city: (!query_city.is_empty()).then_some(query_city),
+                operator,
+            })
+        })
+        .collect::<Vec<_>>();
+    let cidrs = object
+        .get("cidrs")
+        .and_then(Value::as_array)
+        .into_iter()
+        .flatten()
+        .map(js_string)
+        .map(|value| value.trim().to_string())
+        .filter(|value| !value.is_empty())
+        .collect::<Vec<_>>();
+    let policy_id = object
+        .get("policyId")
+        .or_else(|| object.get("policy_id"))
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .unwrap_or_default()
+        .to_string();
+    let policy = object
+        .get("policy")
+        .filter(|value| !value.is_null())
+        .cloned();
+    let source_cidr_count = object
+        .get("sourceCidrCount")
+        .or_else(|| object.get("source_cidr_count"))
+        .and_then(Value::as_u64)
+        .and_then(|value| usize::try_from(value).ok())
+        .unwrap_or(cidrs.len());
+    let range_count = object
+        .get("rangeCount")
+        .or_else(|| object.get("range_count"))
+        .and_then(Value::as_u64)
+        .and_then(|value| usize::try_from(value).ok())
+        .unwrap_or_default();
+    let created_at = js_finite_number(object.get("createdAt"))
+        .map(|value| value.trunc() as i64)
+        .unwrap_or(0);
+    let updated_at = js_finite_number(object.get("updatedAt"))
+        .map(|value| value.trunc() as i64)
+        .unwrap_or(0);
+    let expire_at = match object.get("expireAt") {
+        None | Some(Value::Null) => None,
+        value => js_finite_number(value).map(|value| value.trunc() as i64),
+    };
+    let status = match object.get("status").and_then(Value::as_str) {
+        Some("deleted") => "deleted",
+        Some("expired") => "expired",
+        _ => "active",
+    };
+    let comment = object.contains_key("comment").then(|| {
+        object
+            .get("comment")
+            .map(js_string)
+            .unwrap_or_default()
+            .trim()
+            .to_string()
+    });
+
+    Some(WhitelistRegionGroupRecord {
+        id,
+        regions,
+        cidrs,
+        policy_id,
+        policy,
+        source_cidr_count,
+        range_count,
+        expire_at,
+        source: "manual".to_string(),
+        created_at,
+        updated_at,
+        status: status.to_string(),
+        comment,
+    })
+}
+
+pub(in crate::storage::redis_store) fn deserialize_whitelist_record(
+    raw: &str,
+) -> Option<WhitelistRecord> {
+    let parsed = serde_json::from_str::<Value>(raw).ok()?;
+    let object = parsed.as_object()?;
+    let id = object
+        .get("id")
+        .map(js_string)
+        .unwrap_or_default()
+        .trim()
+        .to_string();
+    if id.is_empty() {
+        return None;
+    }
+
+    let raw_target = object
+        .get("ip")
+        .map(js_string)
+        .unwrap_or_default()
+        .trim()
+        .to_string();
+    let target_type = match object.get("targetType").and_then(Value::as_str) {
+        Some("cidr") => "cidr",
+        Some("cname") => "cname",
+        _ => infer_whitelist_target_type(&raw_target)?,
+    };
+    let normalized_target = normalize_whitelist_target(&raw_target, target_type)?;
+
+    let source = if object.get("source").and_then(Value::as_str) == Some("auto") {
+        "auto"
+    } else {
+        "manual"
+    };
+    let status = match object.get("status").and_then(Value::as_str) {
+        Some("pending") => "pending",
+        Some("expired") => "expired",
+        Some("deleted") => "deleted",
+        _ => "active",
+    };
+    let created_at = object
+        .get("createdAt")
+        .map(js_string)
+        .as_deref()
+        .and_then(parse_int_like_js)
+        .unwrap_or(0);
+    let expire_at = optional_whitelist_timestamp(object.get("expireAt"));
+    let comment = object
+        .get("comment")
+        .and_then(Value::as_str)
+        .map(ToString::to_string);
+    let ip_location = (target_type == "ip")
+        .then(|| {
+            object
+                .get("ipLocation")
+                .and_then(Value::as_str)
+                .map(str::trim)
+                .filter(|value| !value.is_empty())
+                .map(ToString::to_string)
+        })
+        .flatten();
+    let resolved_targets = (target_type == "cname")
+        .then(|| normalize_whitelist_resolved_targets(object.get("resolvedTargets")));
+    let check_interval_minutes = (target_type == "cname")
+        .then(|| normalize_whitelist_cname_check_interval(object.get("checkIntervalMinutes")));
+    let last_checked_at = optional_whitelist_timestamp(object.get("lastCheckedAt"));
+    let last_resolved_at = optional_whitelist_timestamp(object.get("lastResolvedAt"));
+    let resolve_status = match object.get("resolveStatus").and_then(Value::as_str) {
+        Some("resolved") => Some("resolved".to_string()),
+        Some("empty") => Some("empty".to_string()),
+        Some("error") => Some("error".to_string()),
+        Some("pending") => Some("pending".to_string()),
+        _ if target_type == "cname" => Some("pending".to_string()),
+        _ => None,
+    };
+    let resolve_message = object
+        .get("resolveMessage")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .map(ToString::to_string);
+
+    Some(WhitelistRecord {
+        id,
+        ip: normalized_target,
+        target_type: target_type.to_string(),
+        expire_at,
+        source: source.to_string(),
+        created_at,
+        status: status.to_string(),
+        comment,
+        ip_location,
+        resolved_targets,
+        check_interval_minutes,
+        last_checked_at,
+        last_resolved_at,
+        resolve_status,
+        resolve_message,
+    })
+}
+
+pub(in crate::storage::redis_store) fn infer_whitelist_target_type(
+    value: &str,
+) -> Option<&'static str> {
+    if normalize_whitelist_cidr(value).is_some() {
+        return Some("cidr");
+    }
+    if !normalize_ip(value).is_empty() {
+        return Some("ip");
+    }
+    if normalize_whitelist_domain(value).is_some() {
+        return Some("cname");
+    }
+    None
+}
+
+pub(in crate::storage::redis_store) fn normalize_whitelist_target(
+    value: &str,
+    target_type: &str,
+) -> Option<String> {
+    match target_type {
+        "cidr" => normalize_whitelist_cidr(value),
+        "cname" => normalize_whitelist_domain(value),
+        _ => {
+            let normalized = normalize_ip(value);
+            (!normalized.is_empty()).then_some(normalized)
+        }
+    }
+}
+
+pub(in crate::storage::redis_store) fn normalize_whitelist_cidr(value: &str) -> Option<String> {
+    let parsed = IpNet::from_str(value.trim()).ok()?;
+    Some(match parsed {
+        IpNet::V4(network) => format!("{}/{}", network.network(), network.prefix_len()),
+        IpNet::V6(network) => format!("{}/{}", network.network(), network.prefix_len()),
+    })
+}
+
+pub(in crate::storage::redis_store) fn normalize_whitelist_domain(value: &str) -> Option<String> {
+    let trimmed = value.trim().trim_end_matches('.').to_ascii_lowercase();
+    if trimmed.is_empty() || trimmed.contains('/') || trimmed.contains("..") {
+        return None;
+    }
+    let ascii = idna::domain_to_ascii(&trimmed).ok()?;
+    if ascii.is_empty() || ascii.len() > 253 {
+        return None;
+    }
+    let labels = ascii.split('.').collect::<Vec<_>>();
+    if labels.len() < 2 {
+        return None;
+    }
+    for label in labels {
+        if label.is_empty()
+            || label.len() > 63
+            || label.starts_with('-')
+            || label.ends_with('-')
+            || !label
+                .chars()
+                .all(|character| character.is_ascii_alphanumeric() || character == '-')
+        {
+            return None;
+        }
+    }
+    Some(ascii)
+}
+
+pub(in crate::storage::redis_store) fn normalize_whitelist_resolved_targets(
+    value: Option<&Value>,
+) -> Vec<String> {
+    value
+        .and_then(Value::as_array)
+        .into_iter()
+        .flatten()
+        .filter_map(|item| {
+            let normalized = normalize_ip(js_string(item).trim());
+            (!normalized.is_empty()).then_some(normalized)
+        })
+        .collect::<BTreeSet<_>>()
+        .into_iter()
+        .collect()
+}
+
+pub(in crate::storage::redis_store) fn optional_whitelist_timestamp(
+    value: Option<&Value>,
+) -> Option<i64> {
+    let value = value?;
+    if value.is_null() {
+        return None;
+    }
+    let string_value = js_string(value);
+    if string_value.is_empty() {
+        return None;
+    }
+    parse_int_like_js(&string_value)
+}
+
+pub(in crate::storage::redis_store) fn normalize_whitelist_cname_check_interval(
+    value: Option<&Value>,
+) -> i64 {
+    parse_int_like_js(&value.map(js_string).unwrap_or_default())
+        .unwrap_or(5)
+        .clamp(1, 24 * 60)
+}
+
+pub(in crate::storage::redis_store) fn parse_int_like_js(value: &str) -> Option<i64> {
+    crate::node_compat::parse_i64_prefix_trim_start(value)
+}

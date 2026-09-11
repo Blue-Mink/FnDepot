@@ -1,1 +1,343 @@
-aW1wb3J0IHsKICB0eXBlIENsb3VkZmxhcmVPcHRpbWl6YXRpb25Eb21haW4sCiAgdHlwZSBDbG91ZGZsYXJlT3B0aW1pemF0aW9uUmVzb2x2ZXJEaWFnbm9zdGljLAogIHR5cGUgQ2xvdWRmbGFyZU9wdGltaXphdGlvblNjYW4sCiAgdHlwZSBDbG91ZGZsYXJlT3B0aW1pemF0aW9uVmFudGFnZSwKfSBmcm9tICJAL2xpYi9hcGkvdHVubmVsIjsKaW1wb3J0IHR5cGUgeyBDbG91ZGZsYXJlVHJhbnNsYXRlIGFzIFRyYW5zbGF0ZSB9IGZyb20gIi4vY2xvdWRmbGFyZVR1bm5lbFR5cGVzIjsKCmNvbnN0IHBoYXNlS2V5czogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICBxdWV1ZWQ6ICJxdWV1ZWQiLAogIGxhdGVuY3k6ICJsYXRlbmN5IiwKICBkb3dubG9hZDogImRvd25sb2FkIiwKICBjb21wbGV0ZWQ6ICJjb21wbGV0ZWQiLAogIGZhaWxlZDogImZhaWxlZCIsCiAgY2FuY2VsbGVkOiAiY2FuY2VsbGVkIiwKfTsKCmNvbnN0IGRvbWFpblN0YXR1c0tleXM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgYWN0aXZlOiAiYWN0aXZlIiwKICBwZW5kaW5nOiAicGVuZGluZyIsCiAgcmVhZHk6ICJyZWFkeSIsCiAgb3B0aW1pemVkOiAib3B0aW1pemVkIiwKICBmYWxsYmFjazogImZhbGxiYWNrIiwKICBjb25mbGljdDogImNvbmZsaWN0IiwKICBxdW90YTogInF1b3RhIiwKICBxdWV1ZWQ6ICJxdWV1ZWQiLAogICJwcm9iZS1mYWlsZWQiOiAicHJvYmVGYWlsZWQiLAogIGV4dGVybmFsOiAiZXh0ZXJuYWwiLAp9OwoKY29uc3Qgc3dpdGNoUmVhc29uS2V5czogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICAibWFudWFsLXNwZWVkLXRlc3QiOiAibWFudWFsU3BlZWRUZXN0IiwKICAibWFudWFsLWZhbGxiYWNrIjogIm1hbnVhbEZhbGxiYWNrIiwKICAiaGVhbHRoLWZhaWxvdmVyIjogImhlYWx0aEZhaWxvdmVyIiwKICAiaGVhbHRoLWZhbGxiYWNrIjogImhlYWx0aEZhbGxiYWNrIiwKfTsKCmV4cG9ydCBjb25zdCBjYXBhYmlsaXR5U3RhdHVzS2V5czogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICBwZW5kaW5nOiAicGVuZGluZyIsCiAgImF3YWl0aW5nLWNhbmRpZGF0ZSI6ICJhd2FpdGluZy1jYW5kaWRhdGUiLAogIGNvbXBhdGlibGU6ICJjb21wYXRpYmxlIiwKICB1bnN1cHBvcnRlZDogInVuc3VwcG9ydGVkIiwKfTsKCmNvbnN0IGxlZ2FjeURvbWFpbk1lc3NhZ2VDb2RlczogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICAiQ3VzdG9tIEhvc3RuYW1lIGlzIG5vdCBvd25lZCBieSBmbi1rbm9jayI6ICJjdXN0b21Ib3N0bmFtZU93bmVyc2hpcENvbmZsaWN0IiwKICAiQ3VzdG9tIEhvc3RuYW1lIHF1b3RhIGlzIGV4aGF1c3RlZCI6ICJjdXN0b21Ib3N0bmFtZVF1b3RhRXhoYXVzdGVkIiwKICAiUXVldWVkIHRvIHJlc3BlY3QgQ2xvdWRmbGFyZSBjZXJ0aWZpY2F0ZSBpc3N1YW5jZSByYXRlIGxpbWl0cyI6CiAgICAiY2VydGlmaWNhdGVSYXRlTGltaXRlZCIsCn07Cgpjb25zdCBkb21haW5NZXNzYWdlS2V5czogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICBjdXN0b21Ib3N0bmFtZU93bmVyc2hpcENvbmZsaWN0OgogICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLmRvbWFpbk1lc3NhZ2VzLmN1c3RvbUhvc3RuYW1lT3duZXJzaGlwQ29uZmxpY3QiLAogIGN1c3RvbUhvc3RuYW1lUXVvdGFFeGhhdXN0ZWQ6CiAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uZG9tYWluTWVzc2FnZXMuY3VzdG9tSG9zdG5hbWVRdW90YUV4aGF1c3RlZCIsCiAgY2VydGlmaWNhdGVSYXRlTGltaXRlZDoKICAgICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5kb21haW5NZXNzYWdlcy5jZXJ0aWZpY2F0ZVJhdGVMaW1pdGVkIiwKICBjdXN0b21Ib3N0bmFtZVF1b3RhVW5hdmFpbGFibGU6CiAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uZG9tYWluTWVzc2FnZXMuY3VzdG9tSG9zdG5hbWVRdW90YVVuYXZhaWxhYmxlIiwKICBleGFjdERuc093bmVyc2hpcENvbmZsaWN0OgogICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLmRvbWFpbk1lc3NhZ2VzLmV4YWN0RG5zT3duZXJzaGlwQ29uZmxpY3QiLAogIHZhbGlkYXRpb25EbnNPd25lcnNoaXBDb25mbGljdDoKICAgICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5kb21haW5NZXNzYWdlcy52YWxpZGF0aW9uRG5zT3duZXJzaGlwQ29uZmxpY3QiLAogIHByZWZlcnJlZEVkZ2VQcm9iZUZhaWxlZDoKICAgICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5kb21haW5NZXNzYWdlcy5wcmVmZXJyZWRFZGdlUHJvYmVGYWlsZWQiLAp9OwoKZXhwb3J0IGNvbnN0IGNsb3VkZmxhcmVTYWFzUmVxdWlyZWRFcnJvckNvZGUgPSAiY2xvdWRmbGFyZS1zYWFzLXJlcXVpcmVkIjsKZXhwb3J0IGNvbnN0IGNsb3VkZmxhcmVTYWFzVmFsaWRhdGlvblBlbmRpbmdFcnJvckNvZGUgPQogICJjbG91ZGZsYXJlLXNhYXMtdmFsaWRhdGlvbi1wZW5kaW5nIjsKZXhwb3J0IGNvbnN0IGNsb3VkZmxhcmVSZXNvdXJjZUNvbmZsaWN0RXJyb3JDb2RlID0KICAiY2xvdWRmbGFyZS1yZXNvdXJjZS1jb25mbGljdCI7CmV4cG9ydCBjb25zdCBvcHRpbWl6YXRpb25Ob3RSZWFkeUVycm9yQ29kZSA9CiAgImNsb3VkZmxhcmUtb3B0aW1pemF0aW9uLW5vdC1yZWFkeSI7CmV4cG9ydCBjb25zdCBjYW5kaWRhdGVSZXNvbHV0aW9uVW5hdmFpbGFibGVFcnJvckNvZGUgPQogICJjbG91ZGZsYXJlLWNhbmRpZGF0ZS1yZXNvbHV0aW9uLXVuYXZhaWxhYmxlIjsKZXhwb3J0IGNvbnN0IGxlZ2FjeU9wdGltaXphdGlvbk5vdFJlYWR5RXJyb3JNYXJrZXJzID0gWwogICJubyBhY3RpdmUgYnVzaW5lc3Mgb3IgY2FwYWJpbGl0eSBob3N0bmFtZSIsCl07Cgpjb25zdCBsZWdhY3lDbG91ZGZsYXJlU2Fhc0Vycm9yTWFya2VycyA9IFsKICAibm90IGVudGl0bGVkIiwKICAibm90IGVuYWJsZWQgZm9yIHRoaXMgem9uZSIsCiAgIm5vdCBhdmFpbGFibGUgb24geW91ciBwbGFuIiwKICAicGxhbiBkb2VzIG5vdCBzdXBwb3J0IiwKICAicmVxdWlyZXMgYW4gZW50ZXJwcmlzZSBwbGFuIiwKICAidXBncmFkZSB5b3VyIHBsYW4iLAogICJubyBxdW90YSBoYXMgYmVlbiBhbGxvY2F0ZWQiLAogICIoMTQwNCkiLApdOwoKZXhwb3J0IGNvbnN0IGZvcm1hdE9wdGltaXphdGlvbk51bWJlciA9ICh2YWx1ZTogbnVtYmVyLCBkaWdpdHMgPSAxKSA9PgogIE51bWJlci5pc0Zpbml0ZSh2YWx1ZSkgPyB2YWx1ZS50b0ZpeGVkKGRpZ2l0cykgOiAiLSI7CgpleHBvcnQgY29uc3QgZm9ybWF0T3B0aW1pemF0aW9uRGF0ZSA9ICgKICB2YWx1ZTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCwKICBsb2NhbGU6IHN0cmluZywKKSA9PiB7CiAgaWYgKCF2YWx1ZSkgcmV0dXJuICItIjsKICBjb25zdCBwYXJzZWQgPSBuZXcgRGF0ZSh2YWx1ZSk7CiAgcmV0dXJuIE51bWJlci5pc05hTihwYXJzZWQuZ2V0VGltZSgpKSA/IHZhbHVlIDogcGFyc2VkLnRvTG9jYWxlU3RyaW5nKGxvY2FsZSk7Cn07CgpleHBvcnQgY29uc3QgcmVxdWlyZXNDbG91ZGZsYXJlU2Fhc1NldHVwID0gKAogIGVycm9yQ29kZT86IHN0cmluZyB8IG51bGwsCiAgbWVzc2FnZT86IHN0cmluZyB8IG51bGwsCikgPT4gewogIGNvbnN0IG5vcm1hbGl6ZWQgPSBtZXNzYWdlPy50b0xvd2VyQ2FzZSgpOwogIGlmICgKICAgIG5vcm1hbGl6ZWQgIT09IHVuZGVmaW5lZCAmJgogICAgbGVnYWN5T3B0aW1pemF0aW9uTm90UmVhZHlFcnJvck1hcmtlcnMuc29tZSgobWFya2VyKSA9PgogICAgICBub3JtYWxpemVkLmluY2x1ZGVzKG1hcmtlciksCiAgICApCiAgKSB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQogIGlmIChlcnJvckNvZGUgPT09IGNsb3VkZmxhcmVTYWFzUmVxdWlyZWRFcnJvckNvZGUpIHJldHVybiB0cnVlOwogIHJldHVybiAoCiAgICBub3JtYWxpemVkICE9PSB1bmRlZmluZWQgJiYKICAgIGxlZ2FjeUNsb3VkZmxhcmVTYWFzRXJyb3JNYXJrZXJzLnNvbWUoKG1hcmtlcikgPT4KICAgICAgbm9ybWFsaXplZC5pbmNsdWRlcyhtYXJrZXIpLAogICAgKQogICk7Cn07CgpleHBvcnQgY29uc3Qgb3B0aW1pemF0aW9uU2NhbkVycm9yUHJlc2VudGF0aW9uID0gKAogIGVycm9yQ29kZTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCwKICBtZXNzYWdlOiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkLAogIHQ6IFRyYW5zbGF0ZSwKKSA9PiB7CiAgY29uc3QgcmVxdWlyZXNTYWFzID0gcmVxdWlyZXNDbG91ZGZsYXJlU2Fhc1NldHVwKGVycm9yQ29kZSwgbWVzc2FnZSk7CiAgY29uc3QgdmFsaWRhdGlvblBlbmRpbmcgPQogICAgZXJyb3JDb2RlID09PSBjbG91ZGZsYXJlU2Fhc1ZhbGlkYXRpb25QZW5kaW5nRXJyb3JDb2RlOwogIGNvbnN0IHJlc291cmNlQ29uZmxpY3QgPSBlcnJvckNvZGUgPT09IGNsb3VkZmxhcmVSZXNvdXJjZUNvbmZsaWN0RXJyb3JDb2RlOwogIGNvbnN0IG5vcm1hbGl6ZWQgPSBtZXNzYWdlPy50b0xvd2VyQ2FzZSgpOwogIGNvbnN0IG9wdGltaXphdGlvbk5vdFJlYWR5ID0KICAgIGVycm9yQ29kZSA9PT0gb3B0aW1pemF0aW9uTm90UmVhZHlFcnJvckNvZGUgfHwKICAgIChub3JtYWxpemVkICE9PSB1bmRlZmluZWQgJiYKICAgICAgbGVnYWN5T3B0aW1pemF0aW9uTm90UmVhZHlFcnJvck1hcmtlcnMuc29tZSgobWFya2VyKSA9PgogICAgICAgIG5vcm1hbGl6ZWQuaW5jbHVkZXMobWFya2VyKSwKICAgICAgKSk7CiAgY29uc3QgcmVzb2x1dGlvblVuYXZhaWxhYmxlID0KICAgIGVycm9yQ29kZSA9PT0gY2FuZGlkYXRlUmVzb2x1dGlvblVuYXZhaWxhYmxlRXJyb3JDb2RlOwoKICBsZXQgdGl0bGVLZXkgPSAiIjsKICBsZXQgZGVzY3JpcHRpb25LZXkgPSAiIjsKICBpZiAocmVxdWlyZXNTYWFzKSB7CiAgICB0aXRsZUtleSA9ICJjbG91ZGZsYXJlU2Fhc1JlcXVpcmVkVGl0bGUiOwogICAgZGVzY3JpcHRpb25LZXkgPSAiY2xvdWRmbGFyZVNhYXNSZXF1aXJlZERlc2NyaXB0aW9uIjsKICB9IGVsc2UgaWYgKHZhbGlkYXRpb25QZW5kaW5nKSB7CiAgICB0aXRsZUtleSA9ICJjbG91ZGZsYXJlU2Fhc1ZhbGlkYXRpb25QZW5kaW5nVGl0bGUiOwogICAgZGVzY3JpcHRpb25LZXkgPSAiY2xvdWRmbGFyZVNhYXNWYWxpZGF0aW9uUGVuZGluZ0Rlc2NyaXB0aW9uIjsKICB9IGVsc2UgaWYgKHJlc291cmNlQ29uZmxpY3QpIHsKICAgIHRpdGxlS2V5ID0gInJlc291cmNlQ29uZmxpY3RUaXRsZSI7CiAgICBkZXNjcmlwdGlvbktleSA9ICJyZXNvdXJjZUNvbmZsaWN0RGVzY3JpcHRpb24iOwogIH0gZWxzZSBpZiAob3B0aW1pemF0aW9uTm90UmVhZHkpIHsKICAgIHRpdGxlS2V5ID0gIm5vdFJlYWR5VGl0bGUiOwogICAgZGVzY3JpcHRpb25LZXkgPSAibm90UmVhZHlEZXNjcmlwdGlvbiI7CiAgfSBlbHNlIGlmIChyZXNvbHV0aW9uVW5hdmFpbGFibGUpIHsKICAgIHRpdGxlS2V5ID0gImNhbmRpZGF0ZVJlc29sdXRpb25VbmF2YWlsYWJsZVRpdGxlIjsKICAgIGRlc2NyaXB0aW9uS2V5ID0gImNhbmRpZGF0ZVJlc29sdXRpb25VbmF2YWlsYWJsZURlc2NyaXB0aW9uIjsKICB9CgogIGNvbnN0IGtleVByZWZpeCA9ICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbiI7CiAgcmV0dXJuIHsKICAgIG1lc3NhZ2U6IGRlc2NyaXB0aW9uS2V5CiAgICAgID8gdChgJHtrZXlQcmVmaXh9LiR7ZGVzY3JpcHRpb25LZXl9YCkKICAgICAgOiBtZXNzYWdlIHx8ICIiLAogICAgbmV1dHJhbDogdmFsaWRhdGlvblBlbmRpbmcgfHwgb3B0aW1pemF0aW9uTm90UmVhZHksCiAgICB0aXRsZTogdGl0bGVLZXkgPyB0KGAke2tleVByZWZpeH0uJHt0aXRsZUtleX1gKSA6ICIiLAogIH07Cn07CgpleHBvcnQgY29uc3Qgb3B0aW1pemF0aW9uU2NhblBoYXNlTGFiZWwgPSAocGhhc2U6IHN0cmluZywgdDogVHJhbnNsYXRlKSA9PiB7CiAgY29uc3Qga2V5ID0gcGhhc2VLZXlzW3BoYXNlXTsKICByZXR1cm4ga2V5ID8gdChgYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24ucGhhc2VzLiR7a2V5fWApIDogcGhhc2U7Cn07CgpleHBvcnQgY29uc3Qgb3B0aW1pemF0aW9uRG9tYWluU3RhdHVzTGFiZWwgPSAoc3RhdHVzOiBzdHJpbmcsIHQ6IFRyYW5zbGF0ZSkgPT4gewogIGNvbnN0IGtleSA9IGRvbWFpblN0YXR1c0tleXNbc3RhdHVzXTsKICByZXR1cm4ga2V5CiAgICA/IHQoYGFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLmRvbWFpblN0YXR1c2VzLiR7a2V5fWApCiAgICA6IHN0YXR1czsKfTsKCmV4cG9ydCBjb25zdCBvcHRpbWl6YXRpb25Eb21haW5NZXNzYWdlTGFiZWwgPSAoCiAgZG9tYWluOiBDbG91ZGZsYXJlT3B0aW1pemF0aW9uRG9tYWluLAogIHQ6IFRyYW5zbGF0ZSwKKSA9PiB7CiAgaWYgKCFkb21haW4ubWVzc2FnZSAmJiAhZG9tYWluLm1lc3NhZ2VDb2RlKSByZXR1cm4gIiI7CiAgbGV0IGNvZGUgPQogICAgZG9tYWluLm1lc3NhZ2VDb2RlIHx8CiAgICAoZG9tYWluLm1lc3NhZ2UgPyBsZWdhY3lEb21haW5NZXNzYWdlQ29kZXNbZG9tYWluLm1lc3NhZ2VdIDogdW5kZWZpbmVkKTsKICBsZXQgZGV0YWlsID0gZG9tYWluLm1lc3NhZ2VEZXRhaWwgfHwgIiI7CiAgY29uc3QgcXVvdGFVbmF2YWlsYWJsZVByZWZpeCA9ICJDdXN0b20gSG9zdG5hbWUgcXVvdGEgaXMgdW5hdmFpbGFibGU6ICI7CiAgaWYgKCFjb2RlICYmIGRvbWFpbi5tZXNzYWdlPy5zdGFydHNXaXRoKHF1b3RhVW5hdmFpbGFibGVQcmVmaXgpKSB7CiAgICBjb2RlID0gImN1c3RvbUhvc3RuYW1lUXVvdGFVbmF2YWlsYWJsZSI7CiAgICBkZXRhaWwgPSBkb21haW4ubWVzc2FnZS5zbGljZShxdW90YVVuYXZhaWxhYmxlUHJlZml4Lmxlbmd0aCk7CiAgfQogIGNvbnN0IGtleSA9IGNvZGUgPyBkb21haW5NZXNzYWdlS2V5c1tjb2RlXSA6IHVuZGVmaW5lZDsKICByZXR1cm4ga2V5ID8gdChrZXksIHsgZGV0YWlsIH0pIDogZG9tYWluLm1lc3NhZ2UgfHwgZGV0YWlsOwp9OwoKZXhwb3J0IGNvbnN0IG9wdGltaXphdGlvblN3aXRjaFJlYXNvbkxhYmVsID0gKHJlYXNvbjogc3RyaW5nLCB0OiBUcmFuc2xhdGUpID0+IHsKICBjb25zdCBrZXkgPSBzd2l0Y2hSZWFzb25LZXlzW3JlYXNvbl07CiAgcmV0dXJuIGtleQogICAgPyB0KGBhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5zd2l0Y2hSZWFzb25zLiR7a2V5fWApCiAgICA6IHJlYXNvbjsKfTsKCmV4cG9ydCBjb25zdCBvcHRpbWl6YXRpb25CdWlsdGluTGFiZWwgPSAoCiAgaWQ6IHN0cmluZywKICBob3N0bmFtZTogc3RyaW5nLAogIHQ6IFRyYW5zbGF0ZSwKKSA9PiB7CiAgY29uc3Qga2V5ID0gYGFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnNvdXJjZXMuYnVpbHRpbnMuJHtpZH1gOwogIGNvbnN0IHRyYW5zbGF0ZWQgPSB0KGtleSk7CiAgcmV0dXJuIHRyYW5zbGF0ZWQgPT09IGtleSA/IGhvc3RuYW1lIDogdHJhbnNsYXRlZDsKfTsKCmV4cG9ydCBjb25zdCBvcHRpbWl6YXRpb25DYW5kaWRhdGVTb3VyY2VMYWJlbCA9ICgKICBjYW5kaWRhdGU6IHsgc291cmNlSG9zdG5hbWVzOiBzdHJpbmdbXTsgc291cmNlVHlwZXM6IHN0cmluZ1tdIH0sCiAgdDogVHJhbnNsYXRlLAopID0+IHsKICBpZiAoY2FuZGlkYXRlLnNvdXJjZVR5cGVzLmluY2x1ZGVzKCJwcmVmZXJyZWQtaXAiKSkgewogICAgcmV0dXJuIHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnNvdXJjZXMucHJlZmVycmVkSXBTaG9ydCIpOwogIH0KICBpZiAoY2FuZGlkYXRlLnNvdXJjZUhvc3RuYW1lcy5sZW5ndGgpIHsKICAgIHJldHVybiBjYW5kaWRhdGUuc291cmNlSG9zdG5hbWVzLmpvaW4oIiwgIik7CiAgfQogIHJldHVybiBjYW5kaWRhdGUuc291cmNlVHlwZXMuaW5jbHVkZXMoIm9mZmljaWFsLXJhbmdlIikKICAgID8gdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uc291cmNlcy5vZmZpY2lhbFJhbmdlc1Nob3J0IikKICAgIDogIi0iOwp9OwoKZXhwb3J0IGNvbnN0IG9wdGltaXphdGlvblByZWZlcnJlZElwRXJyb3JMYWJlbCA9ICgKICBtZXNzYWdlOiBzdHJpbmcsCiAgdDogVHJhbnNsYXRlLAopID0+IHsKICBpZiAobWVzc2FnZSA9PT0gIlByZWZlcnJlZCBJUCBtdXN0IGJlIGEgdmFsaWQgSVB2NCBhZGRyZXNzIikgewogICAgcmV0dXJuIHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnByZWZlcnJlZElwSW52YWxpZCIpOwogIH0KICBpZiAoCiAgICBtZXNzYWdlID09PSAiUHJlZmVycmVkIElQIG11c3QgYmVsb25nIHRvIGFuIG9mZmljaWFsIENsb3VkZmxhcmUgSVB2NCByYW5nZSIKICApIHsKICAgIHJldHVybiB0KAogICAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24ucHJlZmVycmVkSXBPdXRzaWRlQ2xvdWRmbGFyZSIsCiAgICApOwogIH0KICByZXR1cm4gbWVzc2FnZTsKfTsKCmV4cG9ydCBjb25zdCBvcHRpbWl6YXRpb25Tb3VyY2VTZXR0aW5nc0Vycm9yTGFiZWwgPSAoCiAgbWVzc2FnZTogc3RyaW5nLAogIHQ6IFRyYW5zbGF0ZSwKKSA9PiB7CiAgY29uc3QgcHJlZml4ID0gIkludmFsaWQgb3B0aW1pemF0aW9uIHNvdXJjZSBzZXR0aW5nczogIjsKICByZXR1cm4gbWVzc2FnZS5zdGFydHNXaXRoKHByZWZpeCkKICAgID8gdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uc291cmNlcy5zZXR0aW5nc0ludmFsaWQiLCB7CiAgICAgICAgZGV0YWlsOiBtZXNzYWdlLnNsaWNlKHByZWZpeC5sZW5ndGgpLAogICAgICB9KQogICAgOiBtZXNzYWdlOwp9OwoKZXhwb3J0IGNvbnN0IG9wdGltaXphdGlvblNvdXJjZVdhcm5pbmdMYWJlbCA9ICgKICB3YXJuaW5nOiBzdHJpbmcsCiAgdDogVHJhbnNsYXRlLAopID0+IHsKICBjb25zdCB1bnZlcmlmaWVkID0gd2FybmluZy5tYXRjaCgKICAgIC9eKC4rKSBcKChbXigpXSopXCkgZGlkIG5vdCByZXNvbHZlIHRvIGEgdmVyaWZpZWQgQ2xvdWRmbGFyZSBJUHY0IGFkZHJlc3MkL3UsCiAgKTsKICBpZiAodW52ZXJpZmllZCkgewogICAgcmV0dXJuIHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnNvdXJjZXMudW52ZXJpZmllZEFkZHJlc3MiLCB7CiAgICAgIGhvc3RuYW1lOiB1bnZlcmlmaWVkWzFdLAogICAgICBzb3VyY2U6IHVudmVyaWZpZWRbMl0sCiAgICB9KTsKICB9CiAgY29uc3Qgc2VwYXJhdG9yID0gd2FybmluZy5pbmRleE9mKCI6ICIpOwogIGlmIChzZXBhcmF0b3IgPiAwKSB7CiAgICByZXR1cm4gdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uc291cmNlcy5yZXNvbHZlRmFpbGVkIiwgewogICAgICBob3N0bmFtZTogd2FybmluZy5zbGljZSgwLCBzZXBhcmF0b3IpLAogICAgICBkZXRhaWw6IHdhcm5pbmcuc2xpY2Uoc2VwYXJhdG9yICsgMiksCiAgICB9KTsKICB9CiAgcmV0dXJuIHdhcm5pbmc7Cn07CgpleHBvcnQgY29uc3Qgb3B0aW1pemF0aW9uUmVzb2x2ZXJQcm92aWRlckxhYmVsID0gKAogIHByb3ZpZGVyOiBDbG91ZGZsYXJlT3B0aW1pemF0aW9uUmVzb2x2ZXJEaWFnbm9zdGljWyJwcm92aWRlciJdLAogIHQ6IFRyYW5zbGF0ZSwKKSA9PiB0KGBhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5zb3VyY2VzLnJlc29sdmVycy4ke3Byb3ZpZGVyfWApOwoKZXhwb3J0IGNvbnN0IG9wdGltaXphdGlvblJlc29sdmVyU3RhdHVzTGFiZWwgPSAoCiAgc3RhdHVzOiBDbG91ZGZsYXJlT3B0aW1pemF0aW9uUmVzb2x2ZXJEaWFnbm9zdGljWyJzdGF0dXMiXSwKICB0OiBUcmFuc2xhdGUsCikgPT4KICB0KGBhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5zb3VyY2VzLnJlc29sdmVyU3RhdHVzZXMuJHtzdGF0dXN9YCk7CgpleHBvcnQgY29uc3Qgb3B0aW1pemF0aW9uUmVzb2x2ZXJQYXRoTGFiZWwgPSAoCiAgcGF0aDogQ2xvdWRmbGFyZU9wdGltaXphdGlvblNjYW5bInJlc29sdXRpb25QYXRoIl0sCiAgYXZhaWxhYmxlUHJvdmlkZXJzOiBzdHJpbmdbXSwKICB0OiBUcmFuc2xhdGUsCikgPT4gewogIGlmIChwYXRoID09PSAibXVsdGktZG9oIiAmJiBhdmFpbGFibGVQcm92aWRlcnMubGVuZ3RoKSB7CiAgICByZXR1cm4gdCgKICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnNvdXJjZXMucmVzb2x2ZXJQYXRoQXZhaWxhYmxlIiwKICAgICAgeyBwcm92aWRlcnM6IGF2YWlsYWJsZVByb3ZpZGVycy5qb2luKCIsICIpIH0sCiAgICApOwogIH0KICBpZiAocGF0aCA9PT0gIm9mZmljaWFsLXJhbmdlcyIpIHsKICAgIHJldHVybiB0KAogICAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uc291cmNlcy5yZXNvbHZlclBhdGhPZmZpY2lhbFJhbmdlcyIsCiAgICApOwogIH0KICBpZiAocGF0aCA9PT0gImN1cnJlbnQtY2FuZGlkYXRlIikgewogICAgcmV0dXJuIHQoCiAgICAgICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5zb3VyY2VzLnJlc29sdmVyUGF0aEN1cnJlbnRDYW5kaWRhdGUiLAogICAgKTsKICB9CiAgaWYgKHBhdGggPT09ICJwcmVmZXJyZWQtaXAiKSB7CiAgICByZXR1cm4gdCgKICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnNvdXJjZXMucmVzb2x2ZXJQYXRoUHJlZmVycmVkSXAiLAogICAgKTsKICB9CiAgaWYgKCFwYXRoICYmIGF2YWlsYWJsZVByb3ZpZGVycy5sZW5ndGgpIHsKICAgIHJldHVybiB0KAogICAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uc291cmNlcy5yZXNvbHZlclBhdGhBdmFpbGFibGUiLAogICAgICB7IHByb3ZpZGVyczogYXZhaWxhYmxlUHJvdmlkZXJzLmpvaW4oIiwgIikgfSwKICAgICk7CiAgfQogIHJldHVybiB0KAogICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnNvdXJjZXMucmVzb2x2ZXJQYXRoVW5hdmFpbGFibGUiLAogICk7Cn07CgpleHBvcnQgY29uc3Qgb3B0aW1pemF0aW9uVmFudGFnZUxhYmVsID0gKAogIHZhbnRhZ2U6IENsb3VkZmxhcmVPcHRpbWl6YXRpb25WYW50YWdlLAogIHQ6IFRyYW5zbGF0ZSwKKSA9PgogIHZhbnRhZ2UuaWQgPT09ICJsb2NhbC1zZXJ2ZXIiCiAgICA/IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnZhbnRhZ2VzLmxvY2FsU2VydmVyIikKICAgIDogdmFudGFnZS5sYWJlbDsK
+import {
+  type CloudflareOptimizationDomain,
+  type CloudflareOptimizationResolverDiagnostic,
+  type CloudflareOptimizationScan,
+  type CloudflareOptimizationVantage,
+} from "@/lib/api/tunnel";
+import type { CloudflareTranslate as Translate } from "./cloudflareTunnelTypes";
+
+const phaseKeys: Record<string, string> = {
+  queued: "queued",
+  latency: "latency",
+  download: "download",
+  completed: "completed",
+  failed: "failed",
+  cancelled: "cancelled",
+};
+
+const domainStatusKeys: Record<string, string> = {
+  active: "active",
+  pending: "pending",
+  ready: "ready",
+  optimized: "optimized",
+  fallback: "fallback",
+  conflict: "conflict",
+  quota: "quota",
+  queued: "queued",
+  "probe-failed": "probeFailed",
+  external: "external",
+};
+
+const switchReasonKeys: Record<string, string> = {
+  "manual-speed-test": "manualSpeedTest",
+  "manual-fallback": "manualFallback",
+  "health-failover": "healthFailover",
+  "health-fallback": "healthFallback",
+};
+
+export const capabilityStatusKeys: Record<string, string> = {
+  pending: "pending",
+  "awaiting-candidate": "awaiting-candidate",
+  compatible: "compatible",
+  unsupported: "unsupported",
+};
+
+const legacyDomainMessageCodes: Record<string, string> = {
+  "Custom Hostname is not owned by fn-knock": "customHostnameOwnershipConflict",
+  "Custom Hostname quota is exhausted": "customHostnameQuotaExhausted",
+  "Queued to respect Cloudflare certificate issuance rate limits":
+    "certificateRateLimited",
+};
+
+const domainMessageKeys: Record<string, string> = {
+  customHostnameOwnershipConflict:
+    "admin.cloudflareTunnel.optimization.domainMessages.customHostnameOwnershipConflict",
+  customHostnameQuotaExhausted:
+    "admin.cloudflareTunnel.optimization.domainMessages.customHostnameQuotaExhausted",
+  certificateRateLimited:
+    "admin.cloudflareTunnel.optimization.domainMessages.certificateRateLimited",
+  customHostnameQuotaUnavailable:
+    "admin.cloudflareTunnel.optimization.domainMessages.customHostnameQuotaUnavailable",
+  exactDnsOwnershipConflict:
+    "admin.cloudflareTunnel.optimization.domainMessages.exactDnsOwnershipConflict",
+  validationDnsOwnershipConflict:
+    "admin.cloudflareTunnel.optimization.domainMessages.validationDnsOwnershipConflict",
+  preferredEdgeProbeFailed:
+    "admin.cloudflareTunnel.optimization.domainMessages.preferredEdgeProbeFailed",
+};
+
+export const cloudflareSaasRequiredErrorCode = "cloudflare-saas-required";
+export const cloudflareSaasValidationPendingErrorCode =
+  "cloudflare-saas-validation-pending";
+export const cloudflareResourceConflictErrorCode =
+  "cloudflare-resource-conflict";
+export const optimizationNotReadyErrorCode =
+  "cloudflare-optimization-not-ready";
+export const candidateResolutionUnavailableErrorCode =
+  "cloudflare-candidate-resolution-unavailable";
+export const legacyOptimizationNotReadyErrorMarkers = [
+  "no active business or capability hostname",
+];
+
+const legacyCloudflareSaasErrorMarkers = [
+  "not entitled",
+  "not enabled for this zone",
+  "not available on your plan",
+  "plan does not support",
+  "requires an enterprise plan",
+  "upgrade your plan",
+  "no quota has been allocated",
+  "(1404)",
+];
+
+export const formatOptimizationNumber = (value: number, digits = 1) =>
+  Number.isFinite(value) ? value.toFixed(digits) : "-";
+
+export const formatOptimizationDate = (
+  value: string | null | undefined,
+  locale: string,
+) => {
+  if (!value) return "-";
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? value : parsed.toLocaleString(locale);
+};
+
+export const requiresCloudflareSaasSetup = (
+  errorCode?: string | null,
+  message?: string | null,
+) => {
+  const normalized = message?.toLowerCase();
+  if (
+    normalized !== undefined &&
+    legacyOptimizationNotReadyErrorMarkers.some((marker) =>
+      normalized.includes(marker),
+    )
+  ) {
+    return false;
+  }
+  if (errorCode === cloudflareSaasRequiredErrorCode) return true;
+  return (
+    normalized !== undefined &&
+    legacyCloudflareSaasErrorMarkers.some((marker) =>
+      normalized.includes(marker),
+    )
+  );
+};
+
+export const optimizationScanErrorPresentation = (
+  errorCode: string | null | undefined,
+  message: string | null | undefined,
+  t: Translate,
+) => {
+  const requiresSaas = requiresCloudflareSaasSetup(errorCode, message);
+  const validationPending =
+    errorCode === cloudflareSaasValidationPendingErrorCode;
+  const resourceConflict = errorCode === cloudflareResourceConflictErrorCode;
+  const normalized = message?.toLowerCase();
+  const optimizationNotReady =
+    errorCode === optimizationNotReadyErrorCode ||
+    (normalized !== undefined &&
+      legacyOptimizationNotReadyErrorMarkers.some((marker) =>
+        normalized.includes(marker),
+      ));
+  const resolutionUnavailable =
+    errorCode === candidateResolutionUnavailableErrorCode;
+
+  let titleKey = "";
+  let descriptionKey = "";
+  if (requiresSaas) {
+    titleKey = "cloudflareSaasRequiredTitle";
+    descriptionKey = "cloudflareSaasRequiredDescription";
+  } else if (validationPending) {
+    titleKey = "cloudflareSaasValidationPendingTitle";
+    descriptionKey = "cloudflareSaasValidationPendingDescription";
+  } else if (resourceConflict) {
+    titleKey = "resourceConflictTitle";
+    descriptionKey = "resourceConflictDescription";
+  } else if (optimizationNotReady) {
+    titleKey = "notReadyTitle";
+    descriptionKey = "notReadyDescription";
+  } else if (resolutionUnavailable) {
+    titleKey = "candidateResolutionUnavailableTitle";
+    descriptionKey = "candidateResolutionUnavailableDescription";
+  }
+
+  const keyPrefix = "admin.cloudflareTunnel.optimization";
+  return {
+    message: descriptionKey
+      ? t(`${keyPrefix}.${descriptionKey}`)
+      : message || "",
+    neutral: validationPending || optimizationNotReady,
+    title: titleKey ? t(`${keyPrefix}.${titleKey}`) : "",
+  };
+};
+
+export const optimizationScanPhaseLabel = (phase: string, t: Translate) => {
+  const key = phaseKeys[phase];
+  return key ? t(`admin.cloudflareTunnel.optimization.phases.${key}`) : phase;
+};
+
+export const optimizationDomainStatusLabel = (status: string, t: Translate) => {
+  const key = domainStatusKeys[status];
+  return key
+    ? t(`admin.cloudflareTunnel.optimization.domainStatuses.${key}`)
+    : status;
+};
+
+export const optimizationDomainMessageLabel = (
+  domain: CloudflareOptimizationDomain,
+  t: Translate,
+) => {
+  if (!domain.message && !domain.messageCode) return "";
+  let code =
+    domain.messageCode ||
+    (domain.message ? legacyDomainMessageCodes[domain.message] : undefined);
+  let detail = domain.messageDetail || "";
+  const quotaUnavailablePrefix = "Custom Hostname quota is unavailable: ";
+  if (!code && domain.message?.startsWith(quotaUnavailablePrefix)) {
+    code = "customHostnameQuotaUnavailable";
+    detail = domain.message.slice(quotaUnavailablePrefix.length);
+  }
+  const key = code ? domainMessageKeys[code] : undefined;
+  return key ? t(key, { detail }) : domain.message || detail;
+};
+
+export const optimizationSwitchReasonLabel = (reason: string, t: Translate) => {
+  const key = switchReasonKeys[reason];
+  return key
+    ? t(`admin.cloudflareTunnel.optimization.switchReasons.${key}`)
+    : reason;
+};
+
+export const optimizationBuiltinLabel = (
+  id: string,
+  hostname: string,
+  t: Translate,
+) => {
+  const key = `admin.cloudflareTunnel.optimization.sources.builtins.${id}`;
+  const translated = t(key);
+  return translated === key ? hostname : translated;
+};
+
+export const optimizationCandidateSourceLabel = (
+  candidate: { sourceHostnames: string[]; sourceTypes: string[] },
+  t: Translate,
+) => {
+  if (candidate.sourceTypes.includes("preferred-ip")) {
+    return t("admin.cloudflareTunnel.optimization.sources.preferredIpShort");
+  }
+  if (candidate.sourceHostnames.length) {
+    return candidate.sourceHostnames.join(", ");
+  }
+  return candidate.sourceTypes.includes("official-range")
+    ? t("admin.cloudflareTunnel.optimization.sources.officialRangesShort")
+    : "-";
+};
+
+export const optimizationPreferredIpErrorLabel = (
+  message: string,
+  t: Translate,
+) => {
+  if (message === "Preferred IP must be a valid IPv4 address") {
+    return t("admin.cloudflareTunnel.optimization.preferredIpInvalid");
+  }
+  if (
+    message === "Preferred IP must belong to an official Cloudflare IPv4 range"
+  ) {
+    return t(
+      "admin.cloudflareTunnel.optimization.preferredIpOutsideCloudflare",
+    );
+  }
+  return message;
+};
+
+export const optimizationSourceSettingsErrorLabel = (
+  message: string,
+  t: Translate,
+) => {
+  const prefix = "Invalid optimization source settings: ";
+  return message.startsWith(prefix)
+    ? t("admin.cloudflareTunnel.optimization.sources.settingsInvalid", {
+        detail: message.slice(prefix.length),
+      })
+    : message;
+};
+
+export const optimizationSourceWarningLabel = (
+  warning: string,
+  t: Translate,
+) => {
+  const unverified = warning.match(
+    /^(.+) \(([^()]*)\) did not resolve to a verified Cloudflare IPv4 address$/u,
+  );
+  if (unverified) {
+    return t("admin.cloudflareTunnel.optimization.sources.unverifiedAddress", {
+      hostname: unverified[1],
+      source: unverified[2],
+    });
+  }
+  const separator = warning.indexOf(": ");
+  if (separator > 0) {
+    return t("admin.cloudflareTunnel.optimization.sources.resolveFailed", {
+      hostname: warning.slice(0, separator),
+      detail: warning.slice(separator + 2),
+    });
+  }
+  return warning;
+};
+
+export const optimizationResolverProviderLabel = (
+  provider: CloudflareOptimizationResolverDiagnostic["provider"],
+  t: Translate,
+) => t(`admin.cloudflareTunnel.optimization.sources.resolvers.${provider}`);
+
+export const optimizationResolverStatusLabel = (
+  status: CloudflareOptimizationResolverDiagnostic["status"],
+  t: Translate,
+) =>
+  t(`admin.cloudflareTunnel.optimization.sources.resolverStatuses.${status}`);
+
+export const optimizationResolverPathLabel = (
+  path: CloudflareOptimizationScan["resolutionPath"],
+  availableProviders: string[],
+  t: Translate,
+) => {
+  if (path === "multi-doh" && availableProviders.length) {
+    return t(
+      "admin.cloudflareTunnel.optimization.sources.resolverPathAvailable",
+      { providers: availableProviders.join(", ") },
+    );
+  }
+  if (path === "official-ranges") {
+    return t(
+      "admin.cloudflareTunnel.optimization.sources.resolverPathOfficialRanges",
+    );
+  }
+  if (path === "current-candidate") {
+    return t(
+      "admin.cloudflareTunnel.optimization.sources.resolverPathCurrentCandidate",
+    );
+  }
+  if (path === "preferred-ip") {
+    return t(
+      "admin.cloudflareTunnel.optimization.sources.resolverPathPreferredIp",
+    );
+  }
+  if (!path && availableProviders.length) {
+    return t(
+      "admin.cloudflareTunnel.optimization.sources.resolverPathAvailable",
+      { providers: availableProviders.join(", ") },
+    );
+  }
+  return t(
+    "admin.cloudflareTunnel.optimization.sources.resolverPathUnavailable",
+  );
+};
+
+export const optimizationVantageLabel = (
+  vantage: CloudflareOptimizationVantage,
+  t: Translate,
+) =>
+  vantage.id === "local-server"
+    ? t("admin.cloudflareTunnel.optimization.vantages.localServer")
+    : vantage.label;

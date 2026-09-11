@@ -1,1 +1,179 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIFRhYmxlLAogIFRhYmxlQm9keSwKICBUYWJsZUNlbGwsCiAgVGFibGVIZWFkLAogIFRhYmxlSGVhZGVyLAogIFRhYmxlUm93LAp9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJsZSI7CmltcG9ydCBDb25maXJtRGFuZ2VyUG9wb3ZlciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0NvbmZpcm1EYW5nZXJQb3BvdmVyLnZ1ZSI7CmltcG9ydCBGbG9hdGluZ0FjdGlvbkRvY2sgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9GbG9hdGluZ0FjdGlvbkRvY2sudnVlIjsKaW1wb3J0IHsgaXNXZWJTb2NrZXRQcm94eVRhcmdldFVybCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvcHJveHlUYXJnZXRJbnB1dCI7CmltcG9ydCB7IFBlbmNpbCwgVHJhc2gyIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHR5cGUgeyBHYXRld2F5TG9jYXRpb25zUGFnZUNvbnRyb2xsZXIgfSBmcm9tICIuL3VzZUdhdGV3YXlMb2NhdGlvbnNQYWdlIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8eyBjb250cm9sbGVyOiBHYXRld2F5TG9jYXRpb25zUGFnZUNvbnRyb2xsZXIgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHsKICBhdmFpbGFibGVNYXBwaW5ncywKICBjYW5TYXZlLAogIGRyYWZ0TG9jYXRpb25zLAogIGZvcm1hdEFjdGlvbiwKICBmb3JtYXRBdXRoTW9kZSwKICBmb3JtYXRUYXJnZXQsCiAgaW5kZXhlZERyYWZ0TG9jYXRpb25zLAogIGlzRGlydHksCiAgaXNTYXZpbmcsCiAgb3BlbkVkaXREaWFsb2csCiAgcmVtb3ZlTG9jYXRpb24sCiAgcmVzZXREcmFmdEZyb21TZWxlY3RlZCwKICBzYXZlTG9jYXRpb25zLAp9ID0gcHJvcHMuY29udHJvbGxlcjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgdi1pZj0iYXZhaWxhYmxlTWFwcGluZ3MubGVuZ3RoID09PSAwIgogICAgY2xhc3M9InJvdW5kZWQtbWQgYm9yZGVyIHB4LTUgcHktOCB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICA+CiAgICB7eyB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3Mubm9NYXBwaW5ncyIpIH19CiAgPC9kaXY+CgogIDxkaXYgdi1lbHNlIGNsYXNzPSJvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1tZCBib3JkZXIiPgogICAgPFRhYmxlPgogICAgICA8VGFibGVIZWFkZXI+CiAgICAgICAgPFRhYmxlUm93PgogICAgICAgICAgPFRhYmxlSGVhZD57eyB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MubWF0Y2giKSB9fTwvVGFibGVIZWFkPgogICAgICAgICAgPFRhYmxlSGVhZD57eyB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MucGF0aCIpIH19PC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkPnt7CiAgICAgICAgICAgIHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5hY3Rpb24iKQogICAgICAgICAgfX08L1RhYmxlSGVhZD4KICAgICAgICAgIDxUYWJsZUhlYWQ+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5hdXRoQmVoYXZpb3IiKSB9fQogICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MudGFyZ2V0UmVzcG9uc2UiKSB9fQogICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MucHJvY2Vzc2luZyIpIH19CiAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9InRleHQtcmlnaHQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MuYWN0aW9ucyIpIH19CiAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICA8L1RhYmxlUm93PgogICAgICA8L1RhYmxlSGVhZGVyPgogICAgICA8VGFibGVCb2R5PgogICAgICAgIDxUYWJsZVJvdyB2LWlmPSJkcmFmdExvY2F0aW9ucy5sZW5ndGggPT09IDAiPgogICAgICAgICAgPFRhYmxlQ2VsbCBjb2xzcGFuPSI3IiBjbGFzcz0icHktOCB0ZXh0LWNlbnRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3Mubm9SdWxlcyIpIH19CiAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICA8L1RhYmxlUm93PgogICAgICAgIDxUYWJsZVJvdwogICAgICAgICAgdi1mb3I9InsgbG9jYXRpb24sIGluZGV4IH0gaW4gaW5kZXhlZERyYWZ0TG9jYXRpb25zIgogICAgICAgICAgOmtleT0iYCR7bG9jYXRpb24ubWF0Y2h9OiR7bG9jYXRpb24ucGF0aH06JHtpbmRleH1gIgogICAgICAgID4KICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIGxvY2F0aW9uLm1hdGNoID09PSAiZXhhY3QiCiAgICAgICAgICAgICAgICA/IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5leGFjdE1hdGNoIikKICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLnByZWZpeE1hdGNoIikKICAgICAgICAgICAgfX0KICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0iZm9udC1tZWRpdW0iPnt7IGxvY2F0aW9uLnBhdGggfX08L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGw+e3sgZm9ybWF0QWN0aW9uKGxvY2F0aW9uKSB9fTwvVGFibGVDZWxsPgogICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyBmb3JtYXRBdXRoTW9kZShsb2NhdGlvbikgfX0KICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0ibWF4LXctWzIycmVtXSB0cnVuY2F0ZSI+CiAgICAgICAgICAgIHt7IGZvcm1hdFRhcmdldChsb2NhdGlvbikgfX0KICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICA8dGVtcGxhdGUgdi1pZj0ibG9jYXRpb24uYWN0aW9uID09PSAncHJveHknIj4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgbG9jYXRpb24uc3RyaXBfcGF0aAogICAgICAgICAgICAgICAgICA/IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5zdHJpcFBhdGgiKQogICAgICAgICAgICAgICAgICA6IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5rZWVwUGF0aCIpCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICA8dGVtcGxhdGUgdi1pZj0iIWlzV2ViU29ja2V0UHJveHlUYXJnZXRVcmwobG9jYXRpb24udGFyZ2V0KSI+CiAgICAgICAgICAgICAgICDCtwogICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgbG9jYXRpb24ucmV3cml0ZV9odG1sCiAgICAgICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MucmV3cml0ZUh0bWwiKQogICAgICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLm5vUmV3cml0ZUh0bWwiKQogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgICA8dGVtcGxhdGUgdi1lbHNlPgogICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MucmVzcG9uc2VIZWFkZXJzQ291bnQiLCB7CiAgICAgICAgICAgICAgICAgIGNvdW50OiBPYmplY3Qua2V5cyhsb2NhdGlvbi5yZXNwb25zZS5oZWFkZXJzIHx8IHt9KS5sZW5ndGgsCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgIH19CiAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InRleHQtcmlnaHQiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktZW5kIGdhcC0yIj4KICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICAgICAgICAgIHNpemU9Imljb24iCiAgICAgICAgICAgICAgICBAY2xpY2s9Im9wZW5FZGl0RGlhbG9nKGluZGV4KSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8UGVuY2lsIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InNyLW9ubHkiPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MuZWRpdFJ1bGVTciIpIH19CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPENvbmZpcm1EYW5nZXJQb3BvdmVyCiAgICAgICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5kZWxldGVSdWxlVGl0bGUnKSIKICAgICAgICAgICAgICAgIDpkZXNjcmlwdGlvbj0iCiAgICAgICAgICAgICAgICAgIHQoJ2FkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5kZWxldGVSdWxlRGVzY3JpcHRpb24nLCB7CiAgICAgICAgICAgICAgICAgICAgcGF0aDogbG9jYXRpb24ucGF0aCwKICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgIDpjb25maXJtLXRleHQ9IgogICAgICAgICAgICAgICAgICB0KCdhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MuY29uZmlybURlbGV0ZScpCiAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICA6b24tY29uZmlybT0iKCkgPT4gcmVtb3ZlTG9jYXRpb24oaW5kZXgpIgogICAgICAgICAgICAgICAgY29udGVudC1jbGFzcz0idy02NCB0ZXh0LWxlZnQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC1kZXN0cnVjdGl2ZSBob3ZlcjpiZy1kZXN0cnVjdGl2ZS8xMCBob3Zlcjp0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPFRyYXNoMiBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0ic3Itb25seSI+CiAgICAgICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MuZGVsZXRlUnVsZVNyIikgfX0KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgICAgICA8L0NvbmZpcm1EYW5nZXJQb3BvdmVyPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgIDwvVGFibGVSb3c+CiAgICAgIDwvVGFibGVCb2R5PgogICAgPC9UYWJsZT4KICA8L2Rpdj4KCiAgPEZsb2F0aW5nQWN0aW9uRG9jawogICAgOmFjdGl2ZT0iaXNEaXJ0eSIKICAgIGlubGluZS1jbGFzcz0iZmxleCBmbGV4LWNvbC1yZXZlcnNlIGdhcC0yIHNtOmZsZXgtcm93IHNtOmp1c3RpZnktZW5kIgogID4KICAgIDx0ZW1wbGF0ZSAjaW5saW5lPgogICAgICA8QnV0dG9uCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICA6ZGlzYWJsZWQ9IiFpc0RpcnR5IHx8IGlzU2F2aW5nIgogICAgICAgIEBjbGljaz0icmVzZXREcmFmdEZyb21TZWxlY3RlZCIKICAgICAgPgogICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5kaXNjYXJkQ2hhbmdlcyIpIH19CiAgICAgIDwvQnV0dG9uPgogICAgICA8QnV0dG9uIDpkaXNhYmxlZD0iIWNhblNhdmUiIEBjbGljaz0ic2F2ZUxvY2F0aW9ucyI+CiAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLnNhdmVMb2NhdGlvbnMiKSB9fQogICAgICA8L0J1dHRvbj4KICAgIDwvdGVtcGxhdGU+CiAgPC9GbG9hdGluZ0FjdGlvbkRvY2s+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import FloatingActionDock from "@admin-shared/components/common/FloatingActionDock.vue";
+import { isWebSocketProxyTargetUrl } from "@admin-shared/utils/proxyTargetInput";
+import { Pencil, Trash2 } from "lucide-vue-next";
+import type { GatewayLocationsPageController } from "./useGatewayLocationsPage";
+
+const props = defineProps<{ controller: GatewayLocationsPageController }>();
+const { t } = useI18n();
+const {
+  availableMappings,
+  canSave,
+  draftLocations,
+  formatAction,
+  formatAuthMode,
+  formatTarget,
+  indexedDraftLocations,
+  isDirty,
+  isSaving,
+  openEditDialog,
+  removeLocation,
+  resetDraftFromSelected,
+  saveLocations,
+} = props.controller;
+</script>
+
+<template>
+  <div
+    v-if="availableMappings.length === 0"
+    class="rounded-md border px-5 py-8 text-center text-sm text-muted-foreground"
+  >
+    {{ t("admin.gatewayLocationsSettings.noMappings") }}
+  </div>
+
+  <div v-else class="overflow-hidden rounded-md border">
+    <Table>
+      <TableHeader>
+        <TableRow>
+          <TableHead>{{ t("admin.gatewayLocationsSettings.match") }}</TableHead>
+          <TableHead>{{ t("admin.gatewayLocationsSettings.path") }}</TableHead>
+          <TableHead>{{
+            t("admin.gatewayLocationsSettings.action")
+          }}</TableHead>
+          <TableHead>
+            {{ t("admin.gatewayLocationsSettings.authBehavior") }}
+          </TableHead>
+          <TableHead>
+            {{ t("admin.gatewayLocationsSettings.targetResponse") }}
+          </TableHead>
+          <TableHead>
+            {{ t("admin.gatewayLocationsSettings.processing") }}
+          </TableHead>
+          <TableHead class="text-right">
+            {{ t("admin.gatewayLocationsSettings.actions") }}
+          </TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        <TableRow v-if="draftLocations.length === 0">
+          <TableCell colspan="7" class="py-8 text-center text-muted-foreground">
+            {{ t("admin.gatewayLocationsSettings.noRules") }}
+          </TableCell>
+        </TableRow>
+        <TableRow
+          v-for="{ location, index } in indexedDraftLocations"
+          :key="`${location.match}:${location.path}:${index}`"
+        >
+          <TableCell class="text-sm font-medium">
+            {{
+              location.match === "exact"
+                ? t("admin.gatewayLocationsSettings.exactMatch")
+                : t("admin.gatewayLocationsSettings.prefixMatch")
+            }}
+          </TableCell>
+          <TableCell class="font-medium">{{ location.path }}</TableCell>
+          <TableCell>{{ formatAction(location) }}</TableCell>
+          <TableCell class="text-xs text-muted-foreground">
+            {{ formatAuthMode(location) }}
+          </TableCell>
+          <TableCell class="max-w-[22rem] truncate">
+            {{ formatTarget(location) }}
+          </TableCell>
+          <TableCell class="text-xs text-muted-foreground">
+            <template v-if="location.action === 'proxy'">
+              {{
+                location.strip_path
+                  ? t("admin.gatewayLocationsSettings.stripPath")
+                  : t("admin.gatewayLocationsSettings.keepPath")
+              }}
+              <template v-if="!isWebSocketProxyTargetUrl(location.target)">
+                ·
+                {{
+                  location.rewrite_html
+                    ? t("admin.gatewayLocationsSettings.rewriteHtml")
+                    : t("admin.gatewayLocationsSettings.noRewriteHtml")
+                }}
+              </template>
+            </template>
+            <template v-else>
+              {{
+                t("admin.gatewayLocationsSettings.responseHeadersCount", {
+                  count: Object.keys(location.response.headers || {}).length,
+                })
+              }}
+            </template>
+          </TableCell>
+          <TableCell class="text-right">
+            <div class="flex justify-end gap-2">
+              <Button
+                variant="ghost"
+                size="icon"
+                @click="openEditDialog(index)"
+              >
+                <Pencil class="h-4 w-4" />
+                <span class="sr-only">
+                  {{ t("admin.gatewayLocationsSettings.editRuleSr") }}
+                </span>
+              </Button>
+              <ConfirmDangerPopover
+                :title="t('admin.gatewayLocationsSettings.deleteRuleTitle')"
+                :description="
+                  t('admin.gatewayLocationsSettings.deleteRuleDescription', {
+                    path: location.path,
+                  })
+                "
+                :confirm-text="
+                  t('admin.gatewayLocationsSettings.confirmDelete')
+                "
+                :on-confirm="() => removeLocation(index)"
+                content-class="w-64 text-left"
+              >
+                <template #trigger>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    class="text-destructive hover:bg-destructive/10 hover:text-destructive"
+                  >
+                    <Trash2 class="h-4 w-4" />
+                    <span class="sr-only">
+                      {{ t("admin.gatewayLocationsSettings.deleteRuleSr") }}
+                    </span>
+                  </Button>
+                </template>
+              </ConfirmDangerPopover>
+            </div>
+          </TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+  </div>
+
+  <FloatingActionDock
+    :active="isDirty"
+    inline-class="flex flex-col-reverse gap-2 sm:flex-row sm:justify-end"
+  >
+    <template #inline>
+      <Button
+        variant="outline"
+        :disabled="!isDirty || isSaving"
+        @click="resetDraftFromSelected"
+      >
+        {{ t("admin.gatewayLocationsSettings.discardChanges") }}
+      </Button>
+      <Button :disabled="!canSave" @click="saveLocations">
+        {{ t("admin.gatewayLocationsSettings.saveLocations") }}
+      </Button>
+    </template>
+  </FloatingActionDock>
+</template>

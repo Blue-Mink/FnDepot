@@ -1,1 +1,474 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7CiAgVGVybWluYWxBUEksCiAgdHlwZSBUZXJtaW5hbEF0dGFjaG1lbnRSZWNvcmQsCiAgdHlwZSBUZXJtaW5hbEVycm9yQ29kZSwKICB0eXBlIFRlcm1pbmFsT3V0cHV0RXZlbnQsCiAgdHlwZSBUZXJtaW5hbFNlc3Npb25QaGFzZSwKICB0eXBlIFRlcm1pbmFsU2Vzc2lvblJlY29yZCwKfSBmcm9tICJAL2xpYi9hcGkvdGVybWluYWwiOwppbXBvcnQgeyBleHRyYWN0VGVybWluYWxFcnJvciB9IGZyb20gIi4vdGVybWluYWwtZXJyb3JzIjsKaW1wb3J0IHsgbm9ybWFsaXplVGVybWluYWxEaW1lbnNpb25zIH0gZnJvbSAiLi90ZXJtaW5hbC1kaW1lbnNpb25zIjsKCmV4cG9ydCB0eXBlIFRlcm1pbmFsQXR0YWNobWVudFN0YXRlID0KICB8IHsga2luZDogImlkbGUiIH0KICB8IHsga2luZDogIm9wZW5pbmciOyBzZXNzaW9uSWQ6IHN0cmluZyB9CiAgfCB7IGtpbmQ6ICJzbmFwc2hvdHRpbmciOyBzZXNzaW9uSWQ6IHN0cmluZyB9CiAgfCB7IGtpbmQ6ICJjb250cm9sbGVyIjsgc2Vzc2lvbklkOiBzdHJpbmcgfQogIHwgeyBraW5kOiAidmlld2VyIjsgc2Vzc2lvbklkOiBzdHJpbmcgfQogIHwgeyBraW5kOiAicmVjb25uZWN0aW5nIjsgc2Vzc2lvbklkOiBzdHJpbmc7IGF0dGVtcHQ6IG51bWJlciB9CiAgfCB7IGtpbmQ6ICJlcnJvciI7IHNlc3Npb25JZDogc3RyaW5nOyBtZXNzYWdlOiBzdHJpbmcgfTsKCmNvbnN0IGlzVGVybWluYWxQaGFzZSA9IChwaGFzZTogVGVybWluYWxTZXNzaW9uUGhhc2UpID0+CiAgcGhhc2UgPT09ICJjbG9zZWQiIHx8CiAgcGhhc2UgPT09ICJleGl0ZWQiIHx8CiAgcGhhc2UgPT09ICJsb3N0IiB8fAogIHBoYXNlID09PSAiZmFpbGVkIjsKCmNvbnN0IHBoYXNlT3JkZXI6IFJlY29yZDxUZXJtaW5hbFNlc3Npb25QaGFzZSwgbnVtYmVyPiA9IHsKICBjcmVhdGluZzogMCwKICBvcGVuaW5nUHR5OiAxLAogIHN0YXJ0aW5nU2hlbGw6IDIsCiAgcmVzb2x2aW5nOiAxLAogIGNvbm5lY3Rpbmc6IDIsCiAgdmVyaWZ5aW5nSG9zdEtleTogMywKICBhdXRoZW50aWNhdGluZzogNCwKICBvcGVuaW5nQ2hhbm5lbDogNSwKICByZXF1ZXN0aW5nUHR5OiA2LAogIHJ1bm5pbmc6IDcsCiAgY2xvc2luZzogOCwKICBjbG9zZWQ6IDksCiAgZXhpdGVkOiA5LAogIGxvc3Q6IDksCiAgZmFpbGVkOiA5LAp9OwoKY29uc3QgY2FuQWR2YW5jZVBoYXNlID0gKAogIGN1cnJlbnQ6IFRlcm1pbmFsU2Vzc2lvblBoYXNlIHwgbnVsbCwKICBuZXh0OiBUZXJtaW5hbFNlc3Npb25QaGFzZSwKKSA9PgogIGN1cnJlbnQgPT09IG51bGwgfHwKICBjdXJyZW50ID09PSBuZXh0IHx8CiAgKCFpc1Rlcm1pbmFsUGhhc2UoY3VycmVudCkgJiYgcGhhc2VPcmRlcltuZXh0XSA+PSBwaGFzZU9yZGVyW2N1cnJlbnRdKTsKCmNvbnN0IHdhaXQgPSAoZGVsYXk6IG51bWJlciwgc2lnbmFsOiBBYm9ydFNpZ25hbCkgPT4KICBuZXcgUHJvbWlzZTx2b2lkPigocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICBpZiAoc2lnbmFsLmFib3J0ZWQpIHsKICAgICAgcmVqZWN0KG5ldyBET01FeGNlcHRpb24oIkFib3J0ZWQiLCAiQWJvcnRFcnJvciIpKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgY29uc3Qgb25BYm9ydCA9ICgpID0+IHsKICAgICAgd2luZG93LmNsZWFyVGltZW91dCh0aW1lcik7CiAgICAgIHJlamVjdChuZXcgRE9NRXhjZXB0aW9uKCJBYm9ydGVkIiwgIkFib3J0RXJyb3IiKSk7CiAgICB9OwogICAgY29uc3QgdGltZXIgPSB3aW5kb3cuc2V0VGltZW91dCgoKSA9PiB7CiAgICAgIHNpZ25hbC5yZW1vdmVFdmVudExpc3RlbmVyKCJhYm9ydCIsIG9uQWJvcnQpOwogICAgICByZXNvbHZlKCk7CiAgICB9LCBkZWxheSk7CiAgICBzaWduYWwuYWRkRXZlbnRMaXN0ZW5lcigiYWJvcnQiLCBvbkFib3J0LCB7IG9uY2U6IHRydWUgfSk7CiAgfSk7CgpleHBvcnQgY29uc3QgdXNlVGVybWluYWxBdHRhY2htZW50ID0gKHsKICBnZXRUZXJtaW5hbFNpemUsCiAgb25PdXRwdXQsCiAgb25SZXNldCwKICBvblNlc3Npb25TdGF0ZSwKfTogewogIGdldFRlcm1pbmFsU2l6ZTogKCkgPT4geyBjb2xzOiBudW1iZXI7IHJvd3M6IG51bWJlciB9OwogIG9uT3V0cHV0OiAoZXZlbnQ6IFRlcm1pbmFsT3V0cHV0RXZlbnQpID0+IHZvaWQ7CiAgb25SZXNldDogKCkgPT4gdm9pZDsKICBvblNlc3Npb25TdGF0ZTogKAogICAgc2Vzc2lvbklkOiBzdHJpbmcsCiAgICBwaGFzZTogVGVybWluYWxTZXNzaW9uUGhhc2UsCiAgICBkZXRhaWxzOiB7CiAgICAgIGVycm9yQ29kZT86IFRlcm1pbmFsRXJyb3JDb2RlIHwgbnVsbDsKICAgICAgZXJyb3JNZXNzYWdlPzogc3RyaW5nIHwgbnVsbDsKICAgICAgZXhpdENvZGU/OiBudW1iZXIgfCBudWxsOwogICAgfSwKICApID0+IHZvaWQ7Cn0pID0+IHsKICBjb25zdCBhdHRhY2htZW50ID0gcmVmPFRlcm1pbmFsQXR0YWNobWVudFJlY29yZCB8IG51bGw+KG51bGwpOwogIGNvbnN0IHN0YXRlID0gcmVmPFRlcm1pbmFsQXR0YWNobWVudFN0YXRlPih7IGtpbmQ6ICJpZGxlIiB9KTsKICBjb25zdCBjdXJzb3IgPSByZWYoMCk7CiAgY29uc3QgbGFzdEVycm9yID0gcmVmKCIiKTsKICBjb25zdCBsYXN0RXJyb3JDb2RlID0gcmVmPFRlcm1pbmFsRXJyb3JDb2RlIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgbGl2ZVBoYXNlID0gcmVmPFRlcm1pbmFsU2Vzc2lvblBoYXNlIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgdGVybWluYWxQaGFzZSA9IGNvbXB1dGVkKAogICAgKCkgPT4gbGl2ZVBoYXNlLnZhbHVlICE9PSBudWxsICYmIGlzVGVybWluYWxQaGFzZShsaXZlUGhhc2UudmFsdWUpLAogICk7CiAgY29uc3QgY29ubmVjdGVkID0gY29tcHV0ZWQoCiAgICAoKSA9PiBzdGF0ZS52YWx1ZS5raW5kID09PSAiY29udHJvbGxlciIgfHwgc3RhdGUudmFsdWUua2luZCA9PT0gInZpZXdlciIsCiAgKTsKICBjb25zdCBpbnB1dENvbm5lY3Rpb25TdGF0ZSA9IGNvbXB1dGVkPAogICAgImlkbGUiIHwgImNvbm5lY3RpbmciIHwgImNvbm5lY3RlZCIgfCAiZXJyb3IiCiAgPigoKSA9PiB7CiAgICBjb25zdCBraW5kID0gc3RhdGUudmFsdWUua2luZDsKICAgIGlmIChraW5kID09PSAiY29udHJvbGxlciIgfHwga2luZCA9PT0gInZpZXdlciIpIHJldHVybiAiY29ubmVjdGVkIjsKICAgIGlmICgKICAgICAga2luZCA9PT0gIm9wZW5pbmciIHx8CiAgICAgIGtpbmQgPT09ICJzbmFwc2hvdHRpbmciIHx8CiAgICAgIGtpbmQgPT09ICJyZWNvbm5lY3RpbmciCiAgICApIHsKICAgICAgcmV0dXJuICJjb25uZWN0aW5nIjsKICAgIH0KICAgIHJldHVybiBraW5kID09PSAiZXJyb3IiID8gImVycm9yIiA6ICJpZGxlIjsKICB9KTsKICBjb25zdCBjYW5JbnB1dCA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgc3RhdGUudmFsdWUua2luZCA9PT0gImNvbnRyb2xsZXIiICYmCiAgICAgIGxpdmVQaGFzZS52YWx1ZSA9PT0gInJ1bm5pbmciICYmCiAgICAgIGF0dGFjaG1lbnQudmFsdWU/LnJvbGUgPT09ICJjb250cm9sbGVyIiwKICApOwogIGNvbnN0IHJlYWRPbmx5ID0gY29tcHV0ZWQoCiAgICAoKSA9PgogICAgICBsaXZlUGhhc2UudmFsdWUgIT09ICJydW5uaW5nIiB8fAogICAgICBzdGF0ZS52YWx1ZS5raW5kID09PSAidmlld2VyIiB8fAogICAgICBhdHRhY2htZW50LnZhbHVlPy5yb2xlID09PSAidmlld2VyIiwKICApOwogIGNvbnN0IGNhbkNsYWltQ29udHJvbCA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgbGl2ZVBoYXNlLnZhbHVlID09PSAicnVubmluZyIgJiYKICAgICAgc3RhdGUudmFsdWUua2luZCA9PT0gInZpZXdlciIgJiYKICAgICAgYXR0YWNobWVudC52YWx1ZT8ucm9sZSA9PT0gInZpZXdlciIsCiAgKTsKICBjb25zdCBzZXNzaW9uSWQgPSBjb21wdXRlZCgoKSA9PgogICAgc3RhdGUudmFsdWUua2luZCA9PT0gImlkbGUiID8gIiIgOiBzdGF0ZS52YWx1ZS5zZXNzaW9uSWQsCiAgKTsKICBjb25zdCBpc0F0dGFjaGVkVG8gPSAoY2FuZGlkYXRlOiBzdHJpbmcpID0+CiAgICBzZXNzaW9uSWQudmFsdWUgPT09IGNhbmRpZGF0ZSAmJgogICAgc3RhdGUudmFsdWUua2luZCAhPT0gImlkbGUiICYmCiAgICBzdGF0ZS52YWx1ZS5raW5kICE9PSAiZXJyb3IiOwogIGxldCBsaWZlY3ljbGVHZW5lcmF0aW9uID0gMDsKICBsZXQgbGlmZWN5Y2xlQ29udHJvbGxlcjogQWJvcnRDb250cm9sbGVyIHwgbnVsbCA9IG51bGw7CiAgbGV0IGRlc2lyZWRTZXNzaW9uOiBUZXJtaW5hbFNlc3Npb25SZWNvcmQgfCBudWxsID0gbnVsbDsKICBsZXQgaW5wdXRTZXF1ZW5jZSA9IDA7CiAgbGV0IHJlc2l6ZVJldmlzaW9uID0gMDsKCiAgY29uc3Qgc2V0UmVhZHlTdGF0ZSA9IChyZWNvcmQ6IFRlcm1pbmFsQXR0YWNobWVudFJlY29yZCkgPT4gewogICAgc3RhdGUudmFsdWUgPSB7CiAgICAgIGtpbmQ6CiAgICAgICAgIXRlcm1pbmFsUGhhc2UudmFsdWUgJiYgcmVjb3JkLnJvbGUgPT09ICJjb250cm9sbGVyIgogICAgICAgICAgPyAiY29udHJvbGxlciIKICAgICAgICAgIDogInZpZXdlciIsCiAgICAgIHNlc3Npb25JZDogcmVjb3JkLnNlc3Npb25JZCwKICAgIH07CiAgfTsKCiAgY29uc3QgYXBwbHlFdmVudHMgPSAoCiAgICByZWNvcmQ6IFRlcm1pbmFsQXR0YWNobWVudFJlY29yZCwKICAgIGV2ZW50czogQXdhaXRlZDxSZXR1cm5UeXBlPHR5cGVvZiBUZXJtaW5hbEFQSS5wb2xsQXR0YWNobWVudEV2ZW50cz4+LAogICkgPT4gewogICAgZm9yIChjb25zdCBldmVudCBvZiBldmVudHMuZXZlbnRzKSB7CiAgICAgIGlmIChldmVudC50eXBlID09PSAib3V0cHV0IikgewogICAgICAgIGlmIChldmVudC5yZXNldCkgb25SZXNldCgpOwogICAgICAgIG9uT3V0cHV0KGV2ZW50KTsKICAgICAgICBjb250aW51ZTsKICAgICAgfQogICAgICBpZiAoZXZlbnQudHlwZSA9PT0gImNvbnRyb2wiKSB7CiAgICAgICAgY29uc3QgY3VycmVudCA9IGF0dGFjaG1lbnQudmFsdWU7CiAgICAgICAgaWYgKAogICAgICAgICAgY3VycmVudD8uaWQgPT09IHJlY29yZC5pZCAmJgogICAgICAgICAgZXZlbnQuZ2VuZXJhdGlvbiA+PSBjdXJyZW50LmdlbmVyYXRpb24KICAgICAgICApIHsKICAgICAgICAgIGF0dGFjaG1lbnQudmFsdWUgPSB7CiAgICAgICAgICAgIC4uLmN1cnJlbnQsCiAgICAgICAgICAgIHJvbGU6IGV2ZW50LnJvbGUsCiAgICAgICAgICAgIGdlbmVyYXRpb246IGV2ZW50LmdlbmVyYXRpb24sCiAgICAgICAgICB9OwogICAgICAgICAgc2V0UmVhZHlTdGF0ZShhdHRhY2htZW50LnZhbHVlKTsKICAgICAgICB9CiAgICAgICAgY29udGludWU7CiAgICAgIH0KICAgICAgb25TZXNzaW9uU3RhdGUocmVjb3JkLnNlc3Npb25JZCwgZXZlbnQucGhhc2UsIHsKICAgICAgICBlcnJvckNvZGU6IGV2ZW50LmVycm9yQ29kZSwKICAgICAgICBlcnJvck1lc3NhZ2U6IGV2ZW50LmVycm9yTWVzc2FnZSwKICAgICAgICBleGl0Q29kZTogZXZlbnQuZXhpdENvZGUsCiAgICAgIH0pOwogICAgICBsaXZlUGhhc2UudmFsdWUgPSBldmVudC5waGFzZTsKICAgICAgaWYgKGRlc2lyZWRTZXNzaW9uPy5pZCA9PT0gcmVjb3JkLnNlc3Npb25JZCkgewogICAgICAgIGRlc2lyZWRTZXNzaW9uID0geyAuLi5kZXNpcmVkU2Vzc2lvbiwgcGhhc2U6IGV2ZW50LnBoYXNlIH07CiAgICAgIH0KICAgICAgaWYgKGlzVGVybWluYWxQaGFzZShldmVudC5waGFzZSkpIHsKICAgICAgICBzZXRSZWFkeVN0YXRlKHJlY29yZCk7CiAgICAgICAgaWYgKGV2ZW50LmVycm9yTWVzc2FnZSkgbGFzdEVycm9yLnZhbHVlID0gZXZlbnQuZXJyb3JNZXNzYWdlOwogICAgICAgIGxhc3RFcnJvckNvZGUudmFsdWUgPSBldmVudC5lcnJvckNvZGUgPz8gbnVsbDsKICAgICAgfQogICAgfQogICAgY3Vyc29yLnZhbHVlID0gZXZlbnRzLm5leHRDdXJzb3I7CiAgfTsKCiAgY29uc3Qgb3BlbkF0dGFjaG1lbnQgPSBhc3luYyAoCiAgICBzZXNzaW9uOiBUZXJtaW5hbFNlc3Npb25SZWNvcmQsCiAgICBnZW5lcmF0aW9uOiBudW1iZXIsCiAgICBzaWduYWw6IEFib3J0U2lnbmFsLAogICkgPT4gewogICAgY29uc3QgcmVjb3JkID0gYXdhaXQgVGVybWluYWxBUEkuY3JlYXRlQXR0YWNobWVudCgKICAgICAgc2Vzc2lvbi5pZCwKICAgICAgbm9ybWFsaXplVGVybWluYWxEaW1lbnNpb25zKGdldFRlcm1pbmFsU2l6ZSgpKSwKICAgICAgc2lnbmFsLAogICAgKTsKICAgIGlmIChnZW5lcmF0aW9uICE9PSBsaWZlY3ljbGVHZW5lcmF0aW9uIHx8IHNpZ25hbC5hYm9ydGVkKSB7CiAgICAgIGF3YWl0IFRlcm1pbmFsQVBJLmRldGFjaEF0dGFjaG1lbnQocmVjb3JkLmlkKS5jYXRjaCgoKSA9PiB1bmRlZmluZWQpOwogICAgICByZXR1cm4gbnVsbDsKICAgIH0KICAgIGF0dGFjaG1lbnQudmFsdWUgPSByZWNvcmQ7CiAgICBpbnB1dFNlcXVlbmNlID0gMDsKICAgIHJlc2l6ZVJldmlzaW9uID0gMDsKICAgIGN1cnNvci52YWx1ZSA9IHJlY29yZC5jdXJzb3I7CiAgICBzdGF0ZS52YWx1ZSA9IHsga2luZDogInNuYXBzaG90dGluZyIsIHNlc3Npb25JZDogc2Vzc2lvbi5pZCB9OwogICAgb25SZXNldCgpOwogICAgcmV0dXJuIHJlY29yZDsKICB9OwoKICBjb25zdCBwb2xsVW50aWxTdG9wcGVkID0gYXN5bmMgKAogICAgc2Vzc2lvbjogVGVybWluYWxTZXNzaW9uUmVjb3JkLAogICAgZmlyc3RSZWNvcmQ6IFRlcm1pbmFsQXR0YWNobWVudFJlY29yZCwKICAgIGdlbmVyYXRpb246IG51bWJlciwKICAgIHNpZ25hbDogQWJvcnRTaWduYWwsCiAgKSA9PiB7CiAgICBsZXQgcmVjb3JkID0gZmlyc3RSZWNvcmQ7CiAgICBsZXQgcmVjb25uZWN0QXR0ZW1wdCA9IDA7CgogICAgd2hpbGUgKGdlbmVyYXRpb24gPT09IGxpZmVjeWNsZUdlbmVyYXRpb24gJiYgIXNpZ25hbC5hYm9ydGVkKSB7CiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgVGVybWluYWxBUEkucG9sbEF0dGFjaG1lbnRFdmVudHMoCiAgICAgICAgICByZWNvcmQuaWQsCiAgICAgICAgICB7IGFmdGVyOiBjdXJzb3IudmFsdWUsIHRpbWVvdXRNczogNDUwMCB9LAogICAgICAgICAgc2lnbmFsLAogICAgICAgICk7CiAgICAgICAgaWYgKGdlbmVyYXRpb24gIT09IGxpZmVjeWNsZUdlbmVyYXRpb24gfHwgc2lnbmFsLmFib3J0ZWQpIHJldHVybjsKICAgICAgICByZWNvbm5lY3RBdHRlbXB0ID0gMDsKICAgICAgICBsYXN0RXJyb3IudmFsdWUgPSAiIjsKICAgICAgICBsYXN0RXJyb3JDb2RlLnZhbHVlID0gbnVsbDsKICAgICAgICBhcHBseUV2ZW50cyhyZWNvcmQsIHJlc3VsdCk7CiAgICAgICAgaWYgKHN0YXRlLnZhbHVlLmtpbmQgPT09ICJzbmFwc2hvdHRpbmciKSBzZXRSZWFkeVN0YXRlKHJlY29yZCk7CiAgICAgIH0gY2F0Y2ggKHJlYXNvbikgewogICAgICAgIGlmIChnZW5lcmF0aW9uICE9PSBsaWZlY3ljbGVHZW5lcmF0aW9uIHx8IHNpZ25hbC5hYm9ydGVkKSByZXR1cm47CiAgICAgICAgcmVjb25uZWN0QXR0ZW1wdCArPSAxOwogICAgICAgIGNvbnN0IGZhaWx1cmUgPSBleHRyYWN0VGVybWluYWxFcnJvcihyZWFzb24pOwogICAgICAgIGxhc3RFcnJvci52YWx1ZSA9IGZhaWx1cmUubWVzc2FnZTsKICAgICAgICBsYXN0RXJyb3JDb2RlLnZhbHVlID0gZmFpbHVyZS5lcnJvckNvZGU7CiAgICAgICAgc3RhdGUudmFsdWUgPSB7CiAgICAgICAgICBraW5kOiAicmVjb25uZWN0aW5nIiwKICAgICAgICAgIHNlc3Npb25JZDogc2Vzc2lvbi5pZCwKICAgICAgICAgIGF0dGVtcHQ6IHJlY29ubmVjdEF0dGVtcHQsCiAgICAgICAgfTsKICAgICAgICBhdHRhY2htZW50LnZhbHVlID0gbnVsbDsKICAgICAgICBhd2FpdCBUZXJtaW5hbEFQSS5kZXRhY2hBdHRhY2htZW50KHJlY29yZC5pZCkuY2F0Y2goKCkgPT4gdW5kZWZpbmVkKTsKICAgICAgICB0cnkgewogICAgICAgICAgYXdhaXQgd2FpdChNYXRoLm1pbig0MDAwLCA1MDAgKiAyICoqIChyZWNvbm5lY3RBdHRlbXB0IC0gMSkpLCBzaWduYWwpOwogICAgICAgICAgY29uc3QgcmVwbGFjZW1lbnQgPSBhd2FpdCBvcGVuQXR0YWNobWVudChzZXNzaW9uLCBnZW5lcmF0aW9uLCBzaWduYWwpOwogICAgICAgICAgaWYgKCFyZXBsYWNlbWVudCkgcmV0dXJuOwogICAgICAgICAgcmVjb3JkID0gcmVwbGFjZW1lbnQ7CiAgICAgICAgfSBjYXRjaCAocmVjb25uZWN0RXJyb3IpIHsKICAgICAgICAgIGlmIChnZW5lcmF0aW9uICE9PSBsaWZlY3ljbGVHZW5lcmF0aW9uIHx8IHNpZ25hbC5hYm9ydGVkKSByZXR1cm47CiAgICAgICAgICBjb25zdCBmYWlsdXJlID0gZXh0cmFjdFRlcm1pbmFsRXJyb3IocmVjb25uZWN0RXJyb3IpOwogICAgICAgICAgbGFzdEVycm9yLnZhbHVlID0gZmFpbHVyZS5tZXNzYWdlOwogICAgICAgICAgbGFzdEVycm9yQ29kZS52YWx1ZSA9IGZhaWx1cmUuZXJyb3JDb2RlOwogICAgICAgIH0KICAgICAgfQogICAgfQogIH07CgogIGNvbnN0IGF0dGFjaCA9IGFzeW5jIChzZXNzaW9uOiBUZXJtaW5hbFNlc3Npb25SZWNvcmQpID0+IHsKICAgIGNvbnN0IHByZXZpb3VzQXR0YWNobWVudCA9IGF0dGFjaG1lbnQudmFsdWU7CiAgICBsaWZlY3ljbGVHZW5lcmF0aW9uICs9IDE7CiAgICBsaWZlY3ljbGVDb250cm9sbGVyPy5hYm9ydCgpOwogICAgbGlmZWN5Y2xlQ29udHJvbGxlciA9IG5ldyBBYm9ydENvbnRyb2xsZXIoKTsKICAgIGRlc2lyZWRTZXNzaW9uID0gc2Vzc2lvbjsKICAgIGxpdmVQaGFzZS52YWx1ZSA9IHNlc3Npb24ucGhhc2U7CiAgICBhdHRhY2htZW50LnZhbHVlID0gbnVsbDsKICAgIGN1cnNvci52YWx1ZSA9IDA7CiAgICBsYXN0RXJyb3IudmFsdWUgPSAiIjsKICAgIGxhc3RFcnJvckNvZGUudmFsdWUgPSBudWxsOwogICAgc3RhdGUudmFsdWUgPSB7IGtpbmQ6ICJvcGVuaW5nIiwgc2Vzc2lvbklkOiBzZXNzaW9uLmlkIH07CiAgICBpZiAocHJldmlvdXNBdHRhY2htZW50KSB7CiAgICAgIHZvaWQgVGVybWluYWxBUEkuZGV0YWNoQXR0YWNobWVudChwcmV2aW91c0F0dGFjaG1lbnQuaWQpLmNhdGNoKAogICAgICAgICgpID0+IHVuZGVmaW5lZCwKICAgICAgKTsKICAgIH0KCiAgICBjb25zdCBnZW5lcmF0aW9uID0gbGlmZWN5Y2xlR2VuZXJhdGlvbjsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlY29yZCA9IGF3YWl0IG9wZW5BdHRhY2htZW50KAogICAgICAgIHNlc3Npb24sCiAgICAgICAgZ2VuZXJhdGlvbiwKICAgICAgICBsaWZlY3ljbGVDb250cm9sbGVyLnNpZ25hbCwKICAgICAgKTsKICAgICAgaWYgKCFyZWNvcmQpIHJldHVybjsKICAgICAgdm9pZCBwb2xsVW50aWxTdG9wcGVkKAogICAgICAgIHNlc3Npb24sCiAgICAgICAgcmVjb3JkLAogICAgICAgIGdlbmVyYXRpb24sCiAgICAgICAgbGlmZWN5Y2xlQ29udHJvbGxlci5zaWduYWwsCiAgICAgICk7CiAgICB9IGNhdGNoIChyZWFzb24pIHsKICAgICAgaWYgKAogICAgICAgIGdlbmVyYXRpb24gIT09IGxpZmVjeWNsZUdlbmVyYXRpb24gfHwKICAgICAgICBsaWZlY3ljbGVDb250cm9sbGVyLnNpZ25hbC5hYm9ydGVkCiAgICAgICkgewogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBjb25zdCBmYWlsdXJlID0gZXh0cmFjdFRlcm1pbmFsRXJyb3IocmVhc29uKTsKICAgICAgbGFzdEVycm9yLnZhbHVlID0gZmFpbHVyZS5tZXNzYWdlOwogICAgICBsYXN0RXJyb3JDb2RlLnZhbHVlID0gZmFpbHVyZS5lcnJvckNvZGU7CiAgICAgIHN0YXRlLnZhbHVlID0gewogICAgICAgIGtpbmQ6ICJlcnJvciIsCiAgICAgICAgc2Vzc2lvbklkOiBzZXNzaW9uLmlkLAogICAgICAgIG1lc3NhZ2U6IGxhc3RFcnJvci52YWx1ZSwKICAgICAgfTsKICAgICAgdGhyb3cgcmVhc29uOwogICAgfQogIH07CgogIGNvbnN0IHJlY29ubmVjdCA9IGFzeW5jICgpID0+IHsKICAgIGlmICghZGVzaXJlZFNlc3Npb24pIHJldHVybjsKICAgIGF3YWl0IGF0dGFjaChkZXNpcmVkU2Vzc2lvbik7CiAgfTsKCiAgY29uc3QgcmVwb3J0UmVxdWVzdEVycm9yID0gKHJlYXNvbjogdW5rbm93biwgZmFsbGJhY2s/OiBzdHJpbmcpID0+IHsKICAgIGNvbnN0IGZhaWx1cmUgPSBleHRyYWN0VGVybWluYWxFcnJvcihyZWFzb24sIGZhbGxiYWNrKTsKICAgIGxhc3RFcnJvci52YWx1ZSA9IGZhaWx1cmUubWVzc2FnZTsKICAgIGxhc3RFcnJvckNvZGUudmFsdWUgPSBmYWlsdXJlLmVycm9yQ29kZTsKICAgIGNvbnN0IGN1cnJlbnQgPSBhdHRhY2htZW50LnZhbHVlOwogICAgaWYgKGN1cnJlbnQgJiYgZmFpbHVyZS5lcnJvckNvZGUgPT09ICJjb250cm9sbGVyX2NvbmZsaWN0IikgewogICAgICBhdHRhY2htZW50LnZhbHVlID0geyAuLi5jdXJyZW50LCByb2xlOiAidmlld2VyIiB9OwogICAgICBzZXRSZWFkeVN0YXRlKGF0dGFjaG1lbnQudmFsdWUpOwogICAgfQogICAgcmV0dXJuIGZhaWx1cmU7CiAgfTsKCiAgY29uc3Qgc3luY1Nlc3Npb24gPSAoc2Vzc2lvbjogVGVybWluYWxTZXNzaW9uUmVjb3JkKSA9PiB7CiAgICBpZiAoZGVzaXJlZFNlc3Npb24/LmlkICE9PSBzZXNzaW9uLmlkKSByZXR1cm47CiAgICBpZiAoIWNhbkFkdmFuY2VQaGFzZShsaXZlUGhhc2UudmFsdWUsIHNlc3Npb24ucGhhc2UpKSB7CiAgICAgIGRlc2lyZWRTZXNzaW9uID0gewogICAgICAgIC4uLnNlc3Npb24sCiAgICAgICAgcGhhc2U6IGxpdmVQaGFzZS52YWx1ZSA/PyBzZXNzaW9uLnBoYXNlLAogICAgICB9OwogICAgICByZXR1cm47CiAgICB9CiAgICBkZXNpcmVkU2Vzc2lvbiA9IHNlc3Npb247CiAgICBsaXZlUGhhc2UudmFsdWUgPSBzZXNzaW9uLnBoYXNlOwogICAgY29uc3QgY3VycmVudCA9IGF0dGFjaG1lbnQudmFsdWU7CiAgICBpZiAoY3VycmVudCAmJiBpc1Rlcm1pbmFsUGhhc2Uoc2Vzc2lvbi5waGFzZSkpIHNldFJlYWR5U3RhdGUoY3VycmVudCk7CiAgfTsKCiAgY29uc3QgY2xhaW1Db250cm9sID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgY3VycmVudCA9IGF0dGFjaG1lbnQudmFsdWU7CiAgICBpZiAoIWN1cnJlbnQgfHwgIWNhbkNsYWltQ29udHJvbC52YWx1ZSkgcmV0dXJuOwogICAgY29uc3Qgc2lnbmFsID0gbGlmZWN5Y2xlQ29udHJvbGxlcj8uc2lnbmFsOwogICAgaWYgKCFzaWduYWwgfHwgc2lnbmFsLmFib3J0ZWQpIHJldHVybjsKICAgIHRyeSB7CiAgICAgIGNvbnN0IGNsYWltZWQgPSBhd2FpdCBUZXJtaW5hbEFQSS5jbGFpbUNvbnRyb2woCiAgICAgICAgY3VycmVudC5pZCwKICAgICAgICBjdXJyZW50LmdlbmVyYXRpb24sCiAgICAgICAgc2lnbmFsLAogICAgICApOwogICAgICBpZiAoYXR0YWNobWVudC52YWx1ZT8uaWQgIT09IGN1cnJlbnQuaWQpIHJldHVybjsKICAgICAgYXR0YWNobWVudC52YWx1ZSA9IGNsYWltZWQ7CiAgICAgIGxhc3RFcnJvci52YWx1ZSA9ICIiOwogICAgICBsYXN0RXJyb3JDb2RlLnZhbHVlID0gbnVsbDsKICAgICAgc2V0UmVhZHlTdGF0ZShjbGFpbWVkKTsKICAgIH0gY2F0Y2ggKHJlYXNvbikgewogICAgICBpZiAoYXR0YWNobWVudC52YWx1ZT8uaWQgIT09IGN1cnJlbnQuaWQpIHJldHVybjsKICAgICAgY29uc3QgZmFpbHVyZSA9IGV4dHJhY3RUZXJtaW5hbEVycm9yKHJlYXNvbik7CiAgICAgIGxhc3RFcnJvci52YWx1ZSA9IGZhaWx1cmUubWVzc2FnZTsKICAgICAgbGFzdEVycm9yQ29kZS52YWx1ZSA9IGZhaWx1cmUuZXJyb3JDb2RlOwogICAgfQogIH07CgogIGNvbnN0IHNlbmRJbnB1dCA9IGFzeW5jIChkYXRhQmFzZTY0OiBzdHJpbmcpID0+IHsKICAgIGNvbnN0IGN1cnJlbnQgPSBhdHRhY2htZW50LnZhbHVlOwogICAgY29uc3Qgc2lnbmFsID0gbGlmZWN5Y2xlQ29udHJvbGxlcj8uc2lnbmFsOwogICAgaWYgKCFjdXJyZW50IHx8ICFjYW5JbnB1dC52YWx1ZSB8fCAhc2lnbmFsIHx8IHNpZ25hbC5hYm9ydGVkKSB7CiAgICAgIHRocm93IG5ldyBFcnJvcigiVGhpcyB0ZXJtaW5hbCBhdHRhY2htZW50IGlzIHJlYWQtb25seSIpOwogICAgfQogICAgaW5wdXRTZXF1ZW5jZSArPSAxOwogICAgY29uc3QgcGF5bG9hZCA9IHsKICAgICAgZGF0YUJhc2U2NCwKICAgICAgc2VxdWVuY2U6IGlucHV0U2VxdWVuY2UsCiAgICAgIGdlbmVyYXRpb246IGN1cnJlbnQuZ2VuZXJhdGlvbiwKICAgIH07CiAgICB0cnkgewogICAgICBhd2FpdCBUZXJtaW5hbEFQSS5zZW5kSW5wdXQoY3VycmVudC5pZCwgcGF5bG9hZCwgc2lnbmFsKTsKICAgIH0gY2F0Y2ggKHJlYXNvbikgewogICAgICBjb25zdCBsYXRlc3QgPSBhdHRhY2htZW50LnZhbHVlOwogICAgICBpZiAoCiAgICAgICAgIWNhbklucHV0LnZhbHVlIHx8CiAgICAgICAgbGF0ZXN0Py5pZCAhPT0gY3VycmVudC5pZCB8fAogICAgICAgIGxhdGVzdC5nZW5lcmF0aW9uICE9PSBjdXJyZW50LmdlbmVyYXRpb24KICAgICAgKSB7CiAgICAgICAgdGhyb3cgcmVhc29uOwogICAgICB9CiAgICAgIGF3YWl0IFRlcm1pbmFsQVBJLnNlbmRJbnB1dChjdXJyZW50LmlkLCBwYXlsb2FkLCBzaWduYWwpOwogICAgfQogIH07CgogIGNvbnN0IHJlc2l6ZSA9IGFzeW5jIChjb2xzOiBudW1iZXIsIHJvd3M6IG51bWJlcikgPT4gewogICAgY29uc3QgY3VycmVudCA9IGF0dGFjaG1lbnQudmFsdWU7CiAgICBjb25zdCBzaWduYWwgPSBsaWZlY3ljbGVDb250cm9sbGVyPy5zaWduYWw7CiAgICBpZiAoIWN1cnJlbnQgfHwgIWNhbklucHV0LnZhbHVlIHx8ICFzaWduYWwgfHwgc2lnbmFsLmFib3J0ZWQpIHJldHVybjsKICAgIHJlc2l6ZVJldmlzaW9uICs9IDE7CiAgICBjb25zdCBkaW1lbnNpb25zID0gbm9ybWFsaXplVGVybWluYWxEaW1lbnNpb25zKHsgY29scywgcm93cyB9KTsKICAgIHRyeSB7CiAgICAgIGF3YWl0IFRlcm1pbmFsQVBJLnJlc2l6ZUF0dGFjaG1lbnQoCiAgICAgICAgY3VycmVudC5pZCwKICAgICAgICB7CiAgICAgICAgICAuLi5kaW1lbnNpb25zLAogICAgICAgICAgcmV2aXNpb246IHJlc2l6ZVJldmlzaW9uLAogICAgICAgICAgZ2VuZXJhdGlvbjogY3VycmVudC5nZW5lcmF0aW9uLAogICAgICAgIH0sCiAgICAgICAgc2lnbmFsLAogICAgICApOwogICAgfSBjYXRjaCAocmVhc29uKSB7CiAgICAgIGlmIChhdHRhY2htZW50LnZhbHVlPy5pZCA9PT0gY3VycmVudC5pZCkgewogICAgICAgIGNvbnN0IGZhaWx1cmUgPSBleHRyYWN0VGVybWluYWxFcnJvcihyZWFzb24pOwogICAgICAgIGxhc3RFcnJvci52YWx1ZSA9IGZhaWx1cmUubWVzc2FnZTsKICAgICAgICBsYXN0RXJyb3JDb2RlLnZhbHVlID0gZmFpbHVyZS5lcnJvckNvZGU7CiAgICAgIH0KICAgICAgdGhyb3cgcmVhc29uOwogICAgfQogIH07CgogIGNvbnN0IGRldGFjaCA9IGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGN1cnJlbnQgPSBhdHRhY2htZW50LnZhbHVlOwogICAgbGlmZWN5Y2xlR2VuZXJhdGlvbiArPSAxOwogICAgbGlmZWN5Y2xlQ29udHJvbGxlcj8uYWJvcnQoKTsKICAgIGxpZmVjeWNsZUNvbnRyb2xsZXIgPSBudWxsOwogICAgYXR0YWNobWVudC52YWx1ZSA9IG51bGw7CiAgICBkZXNpcmVkU2Vzc2lvbiA9IG51bGw7CiAgICBsaXZlUGhhc2UudmFsdWUgPSBudWxsOwogICAgY3Vyc29yLnZhbHVlID0gMDsKICAgIHN0YXRlLnZhbHVlID0geyBraW5kOiAiaWRsZSIgfTsKICAgIGlmIChjdXJyZW50KSB7CiAgICAgIGF3YWl0IFRlcm1pbmFsQVBJLmRldGFjaEF0dGFjaG1lbnQoY3VycmVudC5pZCkuY2F0Y2goKCkgPT4gdW5kZWZpbmVkKTsKICAgIH0KICB9OwoKICBjb25zdCBkaXNwb3NlID0gKCkgPT4gZGV0YWNoKCk7CgogIHJldHVybiB7CiAgICBhdHRhY2gsCiAgICBhdHRhY2htZW50LAogICAgY2FuQ2xhaW1Db250cm9sLAogICAgY2FuSW5wdXQsCiAgICBjbGFpbUNvbnRyb2wsCiAgICBjb25uZWN0ZWQsCiAgICBjdXJzb3IsCiAgICBkZXRhY2gsCiAgICBkaXNwb3NlLAogICAgbGFzdEVycm9yLAogICAgbGFzdEVycm9yQ29kZSwKICAgIGxpdmVQaGFzZSwKICAgIGlzQXR0YWNoZWRUbywKICAgIGlucHV0Q29ubmVjdGlvblN0YXRlLAogICAgcmVhZE9ubHksCiAgICByZWNvbm5lY3QsCiAgICByZXBvcnRSZXF1ZXN0RXJyb3IsCiAgICByZXNpemUsCiAgICBzZW5kSW5wdXQsCiAgICBzZXNzaW9uSWQsCiAgICBzdGF0ZSwKICAgIHN5bmNTZXNzaW9uLAogIH07Cn07Cg==
+import { computed, ref } from "vue";
+import {
+  TerminalAPI,
+  type TerminalAttachmentRecord,
+  type TerminalErrorCode,
+  type TerminalOutputEvent,
+  type TerminalSessionPhase,
+  type TerminalSessionRecord,
+} from "@/lib/api/terminal";
+import { extractTerminalError } from "./terminal-errors";
+import { normalizeTerminalDimensions } from "./terminal-dimensions";
+
+export type TerminalAttachmentState =
+  | { kind: "idle" }
+  | { kind: "opening"; sessionId: string }
+  | { kind: "snapshotting"; sessionId: string }
+  | { kind: "controller"; sessionId: string }
+  | { kind: "viewer"; sessionId: string }
+  | { kind: "reconnecting"; sessionId: string; attempt: number }
+  | { kind: "error"; sessionId: string; message: string };
+
+const isTerminalPhase = (phase: TerminalSessionPhase) =>
+  phase === "closed" ||
+  phase === "exited" ||
+  phase === "lost" ||
+  phase === "failed";
+
+const phaseOrder: Record<TerminalSessionPhase, number> = {
+  creating: 0,
+  openingPty: 1,
+  startingShell: 2,
+  resolving: 1,
+  connecting: 2,
+  verifyingHostKey: 3,
+  authenticating: 4,
+  openingChannel: 5,
+  requestingPty: 6,
+  running: 7,
+  closing: 8,
+  closed: 9,
+  exited: 9,
+  lost: 9,
+  failed: 9,
+};
+
+const canAdvancePhase = (
+  current: TerminalSessionPhase | null,
+  next: TerminalSessionPhase,
+) =>
+  current === null ||
+  current === next ||
+  (!isTerminalPhase(current) && phaseOrder[next] >= phaseOrder[current]);
+
+const wait = (delay: number, signal: AbortSignal) =>
+  new Promise<void>((resolve, reject) => {
+    if (signal.aborted) {
+      reject(new DOMException("Aborted", "AbortError"));
+      return;
+    }
+    const onAbort = () => {
+      window.clearTimeout(timer);
+      reject(new DOMException("Aborted", "AbortError"));
+    };
+    const timer = window.setTimeout(() => {
+      signal.removeEventListener("abort", onAbort);
+      resolve();
+    }, delay);
+    signal.addEventListener("abort", onAbort, { once: true });
+  });
+
+export const useTerminalAttachment = ({
+  getTerminalSize,
+  onOutput,
+  onReset,
+  onSessionState,
+}: {
+  getTerminalSize: () => { cols: number; rows: number };
+  onOutput: (event: TerminalOutputEvent) => void;
+  onReset: () => void;
+  onSessionState: (
+    sessionId: string,
+    phase: TerminalSessionPhase,
+    details: {
+      errorCode?: TerminalErrorCode | null;
+      errorMessage?: string | null;
+      exitCode?: number | null;
+    },
+  ) => void;
+}) => {
+  const attachment = ref<TerminalAttachmentRecord | null>(null);
+  const state = ref<TerminalAttachmentState>({ kind: "idle" });
+  const cursor = ref(0);
+  const lastError = ref("");
+  const lastErrorCode = ref<TerminalErrorCode | null>(null);
+  const livePhase = ref<TerminalSessionPhase | null>(null);
+  const terminalPhase = computed(
+    () => livePhase.value !== null && isTerminalPhase(livePhase.value),
+  );
+  const connected = computed(
+    () => state.value.kind === "controller" || state.value.kind === "viewer",
+  );
+  const inputConnectionState = computed<
+    "idle" | "connecting" | "connected" | "error"
+  >(() => {
+    const kind = state.value.kind;
+    if (kind === "controller" || kind === "viewer") return "connected";
+    if (
+      kind === "opening" ||
+      kind === "snapshotting" ||
+      kind === "reconnecting"
+    ) {
+      return "connecting";
+    }
+    return kind === "error" ? "error" : "idle";
+  });
+  const canInput = computed(
+    () =>
+      state.value.kind === "controller" &&
+      livePhase.value === "running" &&
+      attachment.value?.role === "controller",
+  );
+  const readOnly = computed(
+    () =>
+      livePhase.value !== "running" ||
+      state.value.kind === "viewer" ||
+      attachment.value?.role === "viewer",
+  );
+  const canClaimControl = computed(
+    () =>
+      livePhase.value === "running" &&
+      state.value.kind === "viewer" &&
+      attachment.value?.role === "viewer",
+  );
+  const sessionId = computed(() =>
+    state.value.kind === "idle" ? "" : state.value.sessionId,
+  );
+  const isAttachedTo = (candidate: string) =>
+    sessionId.value === candidate &&
+    state.value.kind !== "idle" &&
+    state.value.kind !== "error";
+  let lifecycleGeneration = 0;
+  let lifecycleController: AbortController | null = null;
+  let desiredSession: TerminalSessionRecord | null = null;
+  let inputSequence = 0;
+  let resizeRevision = 0;
+
+  const setReadyState = (record: TerminalAttachmentRecord) => {
+    state.value = {
+      kind:
+        !terminalPhase.value && record.role === "controller"
+          ? "controller"
+          : "viewer",
+      sessionId: record.sessionId,
+    };
+  };
+
+  const applyEvents = (
+    record: TerminalAttachmentRecord,
+    events: Awaited<ReturnType<typeof TerminalAPI.pollAttachmentEvents>>,
+  ) => {
+    for (const event of events.events) {
+      if (event.type === "output") {
+        if (event.reset) onReset();
+        onOutput(event);
+        continue;
+      }
+      if (event.type === "control") {
+        const current = attachment.value;
+        if (
+          current?.id === record.id &&
+          event.generation >= current.generation
+        ) {
+          attachment.value = {
+            ...current,
+            role: event.role,
+            generation: event.generation,
+          };
+          setReadyState(attachment.value);
+        }
+        continue;
+      }
+      onSessionState(record.sessionId, event.phase, {
+        errorCode: event.errorCode,
+        errorMessage: event.errorMessage,
+        exitCode: event.exitCode,
+      });
+      livePhase.value = event.phase;
+      if (desiredSession?.id === record.sessionId) {
+        desiredSession = { ...desiredSession, phase: event.phase };
+      }
+      if (isTerminalPhase(event.phase)) {
+        setReadyState(record);
+        if (event.errorMessage) lastError.value = event.errorMessage;
+        lastErrorCode.value = event.errorCode ?? null;
+      }
+    }
+    cursor.value = events.nextCursor;
+  };
+
+  const openAttachment = async (
+    session: TerminalSessionRecord,
+    generation: number,
+    signal: AbortSignal,
+  ) => {
+    const record = await TerminalAPI.createAttachment(
+      session.id,
+      normalizeTerminalDimensions(getTerminalSize()),
+      signal,
+    );
+    if (generation !== lifecycleGeneration || signal.aborted) {
+      await TerminalAPI.detachAttachment(record.id).catch(() => undefined);
+      return null;
+    }
+    attachment.value = record;
+    inputSequence = 0;
+    resizeRevision = 0;
+    cursor.value = record.cursor;
+    state.value = { kind: "snapshotting", sessionId: session.id };
+    onReset();
+    return record;
+  };
+
+  const pollUntilStopped = async (
+    session: TerminalSessionRecord,
+    firstRecord: TerminalAttachmentRecord,
+    generation: number,
+    signal: AbortSignal,
+  ) => {
+    let record = firstRecord;
+    let reconnectAttempt = 0;
+
+    while (generation === lifecycleGeneration && !signal.aborted) {
+      try {
+        const result = await TerminalAPI.pollAttachmentEvents(
+          record.id,
+          { after: cursor.value, timeoutMs: 4500 },
+          signal,
+        );
+        if (generation !== lifecycleGeneration || signal.aborted) return;
+        reconnectAttempt = 0;
+        lastError.value = "";
+        lastErrorCode.value = null;
+        applyEvents(record, result);
+        if (state.value.kind === "snapshotting") setReadyState(record);
+      } catch (reason) {
+        if (generation !== lifecycleGeneration || signal.aborted) return;
+        reconnectAttempt += 1;
+        const failure = extractTerminalError(reason);
+        lastError.value = failure.message;
+        lastErrorCode.value = failure.errorCode;
+        state.value = {
+          kind: "reconnecting",
+          sessionId: session.id,
+          attempt: reconnectAttempt,
+        };
+        attachment.value = null;
+        await TerminalAPI.detachAttachment(record.id).catch(() => undefined);
+        try {
+          await wait(Math.min(4000, 500 * 2 ** (reconnectAttempt - 1)), signal);
+          const replacement = await openAttachment(session, generation, signal);
+          if (!replacement) return;
+          record = replacement;
+        } catch (reconnectError) {
+          if (generation !== lifecycleGeneration || signal.aborted) return;
+          const failure = extractTerminalError(reconnectError);
+          lastError.value = failure.message;
+          lastErrorCode.value = failure.errorCode;
+        }
+      }
+    }
+  };
+
+  const attach = async (session: TerminalSessionRecord) => {
+    const previousAttachment = attachment.value;
+    lifecycleGeneration += 1;
+    lifecycleController?.abort();
+    lifecycleController = new AbortController();
+    desiredSession = session;
+    livePhase.value = session.phase;
+    attachment.value = null;
+    cursor.value = 0;
+    lastError.value = "";
+    lastErrorCode.value = null;
+    state.value = { kind: "opening", sessionId: session.id };
+    if (previousAttachment) {
+      void TerminalAPI.detachAttachment(previousAttachment.id).catch(
+        () => undefined,
+      );
+    }
+
+    const generation = lifecycleGeneration;
+    try {
+      const record = await openAttachment(
+        session,
+        generation,
+        lifecycleController.signal,
+      );
+      if (!record) return;
+      void pollUntilStopped(
+        session,
+        record,
+        generation,
+        lifecycleController.signal,
+      );
+    } catch (reason) {
+      if (
+        generation !== lifecycleGeneration ||
+        lifecycleController.signal.aborted
+      ) {
+        return;
+      }
+      const failure = extractTerminalError(reason);
+      lastError.value = failure.message;
+      lastErrorCode.value = failure.errorCode;
+      state.value = {
+        kind: "error",
+        sessionId: session.id,
+        message: lastError.value,
+      };
+      throw reason;
+    }
+  };
+
+  const reconnect = async () => {
+    if (!desiredSession) return;
+    await attach(desiredSession);
+  };
+
+  const reportRequestError = (reason: unknown, fallback?: string) => {
+    const failure = extractTerminalError(reason, fallback);
+    lastError.value = failure.message;
+    lastErrorCode.value = failure.errorCode;
+    const current = attachment.value;
+    if (current && failure.errorCode === "controller_conflict") {
+      attachment.value = { ...current, role: "viewer" };
+      setReadyState(attachment.value);
+    }
+    return failure;
+  };
+
+  const syncSession = (session: TerminalSessionRecord) => {
+    if (desiredSession?.id !== session.id) return;
+    if (!canAdvancePhase(livePhase.value, session.phase)) {
+      desiredSession = {
+        ...session,
+        phase: livePhase.value ?? session.phase,
+      };
+      return;
+    }
+    desiredSession = session;
+    livePhase.value = session.phase;
+    const current = attachment.value;
+    if (current && isTerminalPhase(session.phase)) setReadyState(current);
+  };
+
+  const claimControl = async () => {
+    const current = attachment.value;
+    if (!current || !canClaimControl.value) return;
+    const signal = lifecycleController?.signal;
+    if (!signal || signal.aborted) return;
+    try {
+      const claimed = await TerminalAPI.claimControl(
+        current.id,
+        current.generation,
+        signal,
+      );
+      if (attachment.value?.id !== current.id) return;
+      attachment.value = claimed;
+      lastError.value = "";
+      lastErrorCode.value = null;
+      setReadyState(claimed);
+    } catch (reason) {
+      if (attachment.value?.id !== current.id) return;
+      const failure = extractTerminalError(reason);
+      lastError.value = failure.message;
+      lastErrorCode.value = failure.errorCode;
+    }
+  };
+
+  const sendInput = async (dataBase64: string) => {
+    const current = attachment.value;
+    const signal = lifecycleController?.signal;
+    if (!current || !canInput.value || !signal || signal.aborted) {
+      throw new Error("This terminal attachment is read-only");
+    }
+    inputSequence += 1;
+    const payload = {
+      dataBase64,
+      sequence: inputSequence,
+      generation: current.generation,
+    };
+    try {
+      await TerminalAPI.sendInput(current.id, payload, signal);
+    } catch (reason) {
+      const latest = attachment.value;
+      if (
+        !canInput.value ||
+        latest?.id !== current.id ||
+        latest.generation !== current.generation
+      ) {
+        throw reason;
+      }
+      await TerminalAPI.sendInput(current.id, payload, signal);
+    }
+  };
+
+  const resize = async (cols: number, rows: number) => {
+    const current = attachment.value;
+    const signal = lifecycleController?.signal;
+    if (!current || !canInput.value || !signal || signal.aborted) return;
+    resizeRevision += 1;
+    const dimensions = normalizeTerminalDimensions({ cols, rows });
+    try {
+      await TerminalAPI.resizeAttachment(
+        current.id,
+        {
+          ...dimensions,
+          revision: resizeRevision,
+          generation: current.generation,
+        },
+        signal,
+      );
+    } catch (reason) {
+      if (attachment.value?.id === current.id) {
+        const failure = extractTerminalError(reason);
+        lastError.value = failure.message;
+        lastErrorCode.value = failure.errorCode;
+      }
+      throw reason;
+    }
+  };
+
+  const detach = async () => {
+    const current = attachment.value;
+    lifecycleGeneration += 1;
+    lifecycleController?.abort();
+    lifecycleController = null;
+    attachment.value = null;
+    desiredSession = null;
+    livePhase.value = null;
+    cursor.value = 0;
+    state.value = { kind: "idle" };
+    if (current) {
+      await TerminalAPI.detachAttachment(current.id).catch(() => undefined);
+    }
+  };
+
+  const dispose = () => detach();
+
+  return {
+    attach,
+    attachment,
+    canClaimControl,
+    canInput,
+    claimControl,
+    connected,
+    cursor,
+    detach,
+    dispose,
+    lastError,
+    lastErrorCode,
+    livePhase,
+    isAttachedTo,
+    inputConnectionState,
+    readOnly,
+    reconnect,
+    reportRequestError,
+    resize,
+    sendInput,
+    sessionId,
+    state,
+    syncSession,
+  };
+};

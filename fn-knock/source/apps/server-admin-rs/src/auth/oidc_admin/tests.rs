@@ -1,1 +1,261 @@
-dXNlIHN1cGVyOjoqOwoKI1t0ZXN0XQpmbiBub3JtYWxpemVzX2dvb2dsZV9wcm92aWRlcl9jb25maWdfd2l0aF9kZWZhdWx0cygpIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6bmV3KCJ6aC1DTiIpOwogICAgbGV0IGNvbmZpZyA9IG5vcm1hbGl6ZV9jb25uZWN0aW9uX2NvbmZpZygKICAgICAgICAiZ29vZ2xlIiwKICAgICAgICBtYXBfZnJvbV92YWx1ZXMoJlsKICAgICAgICAgICAgKCJjbGllbnRfaWQiLCBqc29uISgiY2xpZW50IikpLAogICAgICAgICAgICAoImNsaWVudF9zZWNyZXQiLCBqc29uISgic2VjcmV0IikpLAogICAgICAgIF0pLAogICAgICAgIGZhbHNlLAogICAgICAgICZ0cmFuc2xhdG9yLAogICAgKQogICAgLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxIShjb25maWdbImlzc3VlciJdLCAiaHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tIik7CiAgICBhc3NlcnRfZXEhKGNvbmZpZ1sic2NvcGVzIl0sIGpzb24hKFsib3BlbmlkIiwgInByb2ZpbGUiLCAiZW1haWwiXSkpOwp9CgojW3Rlc3RdCmZuIG5vcm1hbGl6ZXNfZm5rbm9ja19xcV9hc19wdWJsaWNfb2lkY19jbGllbnQoKSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6Om5ldygiemgtQ04iKTsKICAgIGxldCBjb25maWcgPSBub3JtYWxpemVfY29ubmVjdGlvbl9jb25maWcoImZua25vY2tfcXEiLCBNYXA6Om5ldygpLCBmYWxzZSwgJnRyYW5zbGF0b3IpLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxIShjb25maWdbImNsaWVudF9pZCJdLCAiZm5rbm9jay1xcS1wdWJsaWMiKTsKICAgIGFzc2VydF9lcSEoY29uZmlnWyJpc3N1ZXIiXSwgImh0dHBzOi8vYXBpLmZua25vY2suY24vb2lkYy9xcSIpOwogICAgYXNzZXJ0X2VxIShjb25maWdbInNjb3BlcyJdLCBqc29uIShbIm9wZW5pZCIsICJwcm9maWxlIl0pKTsKICAgIGFzc2VydCEoY29uZmlnLmdldCgiY2xpZW50X3NlY3JldCIpLmlzX3NvbWVfYW5kKHx2YWx1ZXwgdmFsdWUgPT0gIiIpKTsKfQoKI1t0ZXN0XQpmbiBub3JtYWxpemVzX29pZGNfc2NvcGVzX2xpa2Vfbm9kZV9hcnJheV92c19zdHJpbmdfaW5wdXRzKCkgewogICAgYXNzZXJ0X2VxISgKICAgICAgICBub3JtYWxpemVfc2NvcGVzKFNvbWUoJmpzb24hKCJvcGVuaWQgcHJvZmlsZSxlbWFpbCIpKSwgJlsiZmFsbGJhY2siXSksCiAgICAgICAgdmVjIVsib3BlbmlkIiwgInByb2ZpbGUiLCAiZW1haWwiXQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgbm9ybWFsaXplX3Njb3BlcygKICAgICAgICAgICAgU29tZSgmanNvbiEoWyJvcGVuaWQgcHJvZmlsZSIsICJlbWFpbCIsICJlbWFpbCJdKSksCiAgICAgICAgICAgICZbImZhbGxiYWNrIl0KICAgICAgICApLAogICAgICAgIHZlYyFbIm9wZW5pZCBwcm9maWxlIiwgImVtYWlsIl0KICAgICk7Cn0KCiNbdGVzdF0KZm4gcmVqZWN0c19yZXNlcnZlZF9leHRyYV9hdXRoX3BhcmFtKCkgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpuZXcoInpoLUNOIik7CiAgICBsZXQgZXJyb3IgPSBub3JtYWxpemVfY29ubmVjdGlvbl9jb25maWcoCiAgICAgICAgImdvb2dsZSIsCiAgICAgICAgbWFwX2Zyb21fdmFsdWVzKCZbCiAgICAgICAgICAgICgiY2xpZW50X2lkIiwganNvbiEoImNsaWVudCIpKSwKICAgICAgICAgICAgKCJjbGllbnRfc2VjcmV0IiwganNvbiEoInNlY3JldCIpKSwKICAgICAgICAgICAgKCJleHRyYV9hdXRoX3BhcmFtcyIsIGpzb24hKHsgInN0YXRlIjogImJhZCIgfSkpLAogICAgICAgIF0pLAogICAgICAgIGZhbHNlLAogICAgICAgICZ0cmFuc2xhdG9yLAogICAgKQogICAgLnVud3JhcF9lcnIoKTsKICAgIGFzc2VydF9lcSEoZXJyb3IsICJleHRyYV9hdXRoX3BhcmFtcyDljIXlkKsgT0lEQyDkv53nlZnlj4LmlbA6IHN0YXRlIik7Cn0KCiNbdGVzdF0KZm4gbWFza3NfcHJvdmlkZXJfc2VjcmV0KCkgewogICAgbGV0IHByb3ZpZGVyID0ganNvbiEoewogICAgICAgICJpZCI6ICJvaWRjX3Byb3ZpZGVyX3Rlc3QiLAogICAgICAgICJ0eXBlIjogImdpdGh1YiIsCiAgICAgICAgInByb3RvY29sIjogIm9hdXRoMl9wcm9maWxlIiwKICAgICAgICAibmFtZSI6ICJHaXRIdWIiLAogICAgICAgICJlbmFibGVkIjogdHJ1ZSwKICAgICAgICAiY3JlYXRlZF9hdCI6ICIyMDI2LTA3LTA1VDAwOjAwOjAwWiIsCiAgICAgICAgInVwZGF0ZWRfYXQiOiAiMjAyNi0wNy0wNVQwMDowMDowMFoiLAogICAgICAgICJjb25uZWN0aW9uX2NvbmZpZyI6IHsKICAgICAgICAgICAgImNsaWVudF9pZCI6ICJpZCIsCiAgICAgICAgICAgICJjbGllbnRfc2VjcmV0IjogInZlcnlzZWNyZXQiCiAgICAgICAgfQogICAgfSk7CiAgICBsZXQgdmlldyA9IG1hc2tfcHJvdmlkZXIocHJvdmlkZXIsIFNvbWUoImh0dHBzOi8vYXV0aC5leGFtcGxlLmNvbSIpKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgdmlldy5wb2ludGVyKCIvY29ubmVjdGlvbl9jb25maWdfbWFza2VkL2NsaWVudF9zZWNyZXQiKSwKICAgICAgICBTb21lKCZWYWx1ZTo6U3RyaW5nKCIqKioqKioqKiIudG9fc3RyaW5nKCkpKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgdmlldy5nZXQoImNhbGxiYWNrX3VybCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLAogICAgICAgIFNvbWUoImh0dHBzOi8vYXV0aC5leGFtcGxlLmNvbS9hcGkvYXV0aC9vaWRjL2NhbGxiYWNrL29pZGNfcHJvdmlkZXJfdGVzdCIpCiAgICApOwogICAgYXNzZXJ0ISh2aWV3LmdldCgiY29ubmVjdGlvbl9jb25maWciKS5pc19ub25lKCkpOwp9CgojW3Rlc3RdCmZuIGRldGVjdHNfbWlzc2luZ19yZXF1aXJlZF9wcm92aWRlcl9maWVsZHMoKSB7CiAgICBsZXQgcHJvdmlkZXIgPSBqc29uISh7CiAgICAgICAgImlkIjogIm9pZGNfcHJvdmlkZXJfdGVzdCIsCiAgICAgICAgInR5cGUiOiAiY3VzdG9tX29pZGMiLAogICAgICAgICJwcm90b2NvbCI6ICJvaWRjIiwKICAgICAgICAiY29ubmVjdGlvbl9jb25maWciOiB7CiAgICAgICAgICAgICJjbGllbnRfaWQiOiAiY2xpZW50IiwKICAgICAgICAgICAgImNsaWVudF9zZWNyZXQiOiAiIgogICAgICAgIH0KICAgIH0pOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBtaXNzaW5nX3JlcXVpcmVkX3Byb3ZpZGVyX2ZpZWxkcygmcHJvdmlkZXIpLAogICAgICAgIHZlYyFbImNsaWVudF9zZWNyZXQiLCAiaXNzdWVyIl0KICAgICk7Cn0KCiNbdGVzdF0KZm4gbG9jYWxpemVzX29pZGNfY2F0YWxvZ19hbmRfdmFsaWRhdGlvbl90ZXh0KCkgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpuZXcoInpoLUNOIik7CiAgICBsZXQgY2F0YWxvZyA9IHByb3ZpZGVyX2NhdGFsb2coJnRyYW5zbGF0b3IpOwogICAgbGV0IGN1c3RvbSA9IGNhdGFsb2cKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZpbmQofHByb3ZpZGVyfCBwcm92aWRlci5nZXQoInR5cGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKCJjdXN0b21fb2lkYyIpKQogICAgICAgIC51bndyYXAoKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgY3VzdG9tLmdldCgibGFiZWwiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSwKICAgICAgICBTb21lKCLoh6rlrprkuYkgT0lEQyIpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBvaWRjX3RleHRfcGFyYW1zKAogICAgICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAgICAgInByb3ZpZGVyTWlzc2luZ1JlcXVpcmVkRmllbGRzIiwKICAgICAgICAgICAgJlsoImZpZWxkcyIsICJjbGllbnRfc2VjcmV0Ii50b19zdHJpbmcoKSldCiAgICAgICAgKSwKICAgICAgICAi5aSW6YOo55m75b2V5o+Q5L6b5ZWG57y65bCR5b+F5aGr6YWN572uIGNsaWVudF9zZWNyZXQiCiAgICApOwp9CgojW3Rlc3RdCmZuIGJ1aWxkc19pbnZpdGVfYmFzZV91cmxfZnJvbV9wdWJsaWNfYXV0aF9jb25maWdfb3JfYXV0aF9ob3N0KCkgewogICAgYXNzZXJ0X2VxISgKICAgICAgICBwdWJsaWNfYXV0aF9iYXNlX3VybCgmanNvbiEoewogICAgICAgICAgICAic3ViZG9tYWluX21vZGUiOiB7CiAgICAgICAgICAgICAgICAicHVibGljX2F1dGhfYmFzZV91cmwiOiAiaHR0cHM6Ly9hdXRoLmV4YW1wbGUuY29tL2F1dGgvIiwKICAgICAgICAgICAgICAgICJwdWJsaWNfaHR0cHNfcG9ydCI6IDg0NDMKICAgICAgICAgICAgfQogICAgICAgIH0pKSwKICAgICAgICBTb21lKCJodHRwczovL2F1dGguZXhhbXBsZS5jb206ODQ0My9hdXRoIi50b19zdHJpbmcoKSkKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHB1YmxpY19hdXRoX2Jhc2VfdXJsKCZqc29uISh7CiAgICAgICAgICAgICJob3N0X21hcHBpbmdzIjogW3sKICAgICAgICAgICAgICAgICJob3N0IjogIkF1dGguRXhhbXBsZS5Db20iLAogICAgICAgICAgICAgICAgInRhcmdldCI6ICJodHRwOi8vMTI3LjAuMC4xOjc5OTciCiAgICAgICAgICAgIH1dCiAgICAgICAgfSkpLAogICAgICAgIFNvbWUoImh0dHBzOi8vYXV0aC5leGFtcGxlLmNvbTo3OTk5Ii50b19zdHJpbmcoKSkKICAgICk7Cn0KCiNbdGVzdF0KZm4gYnVpbGRzX2ludml0ZV9iYXNlX3VybF93aXRob3V0X29yaWdpbl9wb3J0X2Zvcl9lZGdlX3Byb3ZpZGVycygpIHsKICAgIGZvciAocHJvdmlkZXIsIGFsaXl1bl9lc2FfZW5hYmxlZCwgdGVuY2VudF9lZGdlb25lX2VuYWJsZWQpIGluIFsKICAgICAgICAoIkFsaXl1biBFU0EiLCB0cnVlLCBmYWxzZSksCiAgICAgICAgKCJUZW5jZW50IEVkZ2VPbmUiLCBmYWxzZSwgdHJ1ZSksCiAgICBdIHsKICAgICAgICBsZXQgY29uZmlnID0ganNvbiEoewogICAgICAgICAgICAicnVuX3R5cGUiOiAzLAogICAgICAgICAgICAic3ViZG9tYWluX21vZGUiOiB7CiAgICAgICAgICAgICAgICAiZWRnZV9jbGllbnRfaXBfZW5hYmxlZCI6IHRydWUsCiAgICAgICAgICAgICAgICAiYWxpeXVuX2VzYV9lbmFibGVkIjogYWxpeXVuX2VzYV9lbmFibGVkLAogICAgICAgICAgICAgICAgInRlbmNlbnRfZWRnZW9uZV9lbmFibGVkIjogdGVuY2VudF9lZGdlb25lX2VuYWJsZWQsCiAgICAgICAgICAgICAgICAicHVibGljX2F1dGhfYmFzZV91cmwiOiAiaHR0cHM6Ly9hdXRoLmVkZ2UuZXhhbXBsZTo3OTk5IiwKICAgICAgICAgICAgICAgICJwdWJsaWNfaHR0cHNfcG9ydCI6IDc5OTkKICAgICAgICAgICAgfQogICAgICAgIH0pOwoKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBwdWJsaWNfYXV0aF9iYXNlX3VybCgmY29uZmlnKSwKICAgICAgICAgICAgU29tZSgiaHR0cHM6Ly9hdXRoLmVkZ2UuZXhhbXBsZSIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAiZXhwbGljaXQgYmFzZSBwcm92aWRlcj17cHJvdmlkZXJ9IgogICAgICAgICk7CgogICAgICAgIGxldCBkZXJpdmVkX2NvbmZpZyA9IGpzb24hKHsKICAgICAgICAgICAgInJ1bl90eXBlIjogMywKICAgICAgICAgICAgImhvc3RfbWFwcGluZ3MiOiBbewogICAgICAgICAgICAgICAgImhvc3QiOiAiYXV0aC5lZGdlLmV4YW1wbGUiLAogICAgICAgICAgICAgICAgInRhcmdldCI6ICJodHRwOi8vMTI3LjAuMC4xOjc5OTciCiAgICAgICAgICAgIH1dLAogICAgICAgICAgICAic3ViZG9tYWluX21vZGUiOiB7CiAgICAgICAgICAgICAgICAiZWRnZV9jbGllbnRfaXBfZW5hYmxlZCI6IHRydWUsCiAgICAgICAgICAgICAgICAiYWxpeXVuX2VzYV9lbmFibGVkIjogYWxpeXVuX2VzYV9lbmFibGVkLAogICAgICAgICAgICAgICAgInRlbmNlbnRfZWRnZW9uZV9lbmFibGVkIjogdGVuY2VudF9lZGdlb25lX2VuYWJsZWQsCiAgICAgICAgICAgICAgICAicHVibGljX2h0dHBzX3BvcnQiOiA3OTk5CiAgICAgICAgICAgIH0KICAgICAgICB9KTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBwdWJsaWNfYXV0aF9iYXNlX3VybCgmZGVyaXZlZF9jb25maWcpLAogICAgICAgICAgICBTb21lKCJodHRwczovL2F1dGguZWRnZS5leGFtcGxlIi50b19zdHJpbmcoKSksCiAgICAgICAgICAgICJkZXJpdmVkIGJhc2UgcHJvdmlkZXI9e3Byb3ZpZGVyfSIKICAgICAgICApOwogICAgfQp9CgojW3Rlc3RdCmZuIGJ1aWxkc19pbnZpdGVfYmFzZV91cmxfd2l0aG91dF9zdGFsZV9vcmlnaW5fcG9ydF9mb3JfY2xvdWRmbGFyZWQoKSB7CiAgICBsZXQgY29uZmlnID0ganNvbiEoewogICAgICAgICJydW5fdHlwZSI6IDEsCiAgICAgICAgInJldmVyc2VfcHJveHlfc3VibW9kZSI6ICJzdWJkb21haW4iLAogICAgICAgICJkZWZhdWx0X3R1bm5lbCI6ICJjbG91ZGZsYXJlZCIsCiAgICAgICAgImhvc3RfbWFwcGluZ3MiOiBbewogICAgICAgICAgICAiaG9zdCI6ICJhdXRoLnR1bm5lbC5leGFtcGxlIiwKICAgICAgICAgICAgInRhcmdldCI6ICJodHRwOi8vMTI3LjAuMC4xOjc5OTciCiAgICAgICAgfV0sCiAgICAgICAgInN1YmRvbWFpbl9tb2RlIjogewogICAgICAgICAgICAicHVibGljX2F1dGhfYmFzZV91cmwiOiAiaHR0cHM6Ly9hdXRoLnR1bm5lbC5leGFtcGxlOjc5OTkiLAogICAgICAgICAgICAicHVibGljX2h0dHBzX3BvcnQiOiA3OTk5CiAgICAgICAgfQogICAgfSk7CgogICAgYXNzZXJ0X2VxISgKICAgICAgICBwdWJsaWNfYXV0aF9iYXNlX3VybCgmY29uZmlnKSwKICAgICAgICBTb21lKCJodHRwczovL2F1dGgudHVubmVsLmV4YW1wbGUiLnRvX3N0cmluZygpKQogICAgKTsKfQoKI1t0ZXN0XQpmbiBidWlsZHNfY2FsbGJhY2tfYmFzZV91cmxfZnJvbV9wdWJsaWNfYXV0aF9jb25maWdfYmVmb3JlX3JlcXVlc3RfaG9zdCgpIHsKICAgIGxldCBtdXQgaGVhZGVycyA9IEhlYWRlck1hcDo6bmV3KCk7CiAgICBoZWFkZXJzLmluc2VydCgiaG9zdCIsICJhZG1pbi5leGFtcGxlLmNvbTo3OTk5Ii5wYXJzZSgpLnVud3JhcCgpKTsKICAgIGxldCB1cmkgPSBVcmk6OmZyb21fc3RhdGljKCIvYXBpL2FkbWluL2F1dGgvb2lkYy9wcm92aWRlcnMiKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgY2FsbGJhY2tfYmFzZV91cmwoCiAgICAgICAgICAgICZoZWFkZXJzLAogICAgICAgICAgICAmdXJpLAogICAgICAgICAgICAmanNvbiEoewogICAgICAgICAgICAgICAgInN1YmRvbWFpbl9tb2RlIjogewogICAgICAgICAgICAgICAgICAgICJwdWJsaWNfYXV0aF9iYXNlX3VybCI6ICJodHRwczovL2F1dGguZXhhbXBsZS5jb20vYXV0aC8iCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0pCiAgICAgICAgKSwKICAgICAgICBTb21lKCJodHRwczovL2F1dGguZXhhbXBsZS5jb206Nzk5OS9hdXRoIi50b19zdHJpbmcoKSkKICAgICk7Cn0KCiNbdGVzdF0KZm4gY2FsbGJhY2tfb3JpZ2luX3VzZXNfdXJpX29yX2hvc3RfbGlrZV9ub2RlX2ZhbGxiYWNrKCkgewogICAgYXNzZXJ0X2VxISgKICAgICAgICBjYWxsYmFja19vcmlnaW4oCiAgICAgICAgICAgICZIZWFkZXJNYXA6Om5ldygpLAogICAgICAgICAgICAmVXJpOjpmcm9tX3N0YXRpYygiaHR0cHM6Ly9hdXRoLmV4YW1wbGUuY29tL2FwaS9hZG1pbi9hdXRoL29pZGMvcHJvdmlkZXJzIikKICAgICAgICApLAogICAgICAgIFNvbWUoImh0dHBzOi8vYXV0aC5leGFtcGxlLmNvbSIudG9fc3RyaW5nKCkpCiAgICApOwoKICAgIGxldCBtdXQgaGVhZGVycyA9IEhlYWRlck1hcDo6bmV3KCk7CiAgICBoZWFkZXJzLmluc2VydCgiaG9zdCIsICJhdXRoLmV4YW1wbGUuY29tOjc5OTkiLnBhcnNlKCkudW53cmFwKCkpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBjYWxsYmFja19vcmlnaW4oCiAgICAgICAgICAgICZoZWFkZXJzLAogICAgICAgICAgICAmVXJpOjpmcm9tX3N0YXRpYygiL2FwaS9hZG1pbi9hdXRoL29pZGMvcHJvdmlkZXJzIikKICAgICAgICApLAogICAgICAgIFNvbWUoImh0dHA6Ly9hdXRoLmV4YW1wbGUuY29tOjc5OTkiLnRvX3N0cmluZygpKQogICAgKTsKfQoKZm4gbWFwX2Zyb21fdmFsdWVzKHZhbHVlczogJlsoJnN0ciwgVmFsdWUpXSkgLT4gTWFwPFN0cmluZywgVmFsdWU+IHsKICAgIHZhbHVlcwogICAgICAgIC5pdGVyKCkKICAgICAgICAubWFwKHwoa2V5LCB2YWx1ZSl8ICgoKmtleSkudG9fc3RyaW5nKCksIHZhbHVlLmNsb25lKCkpKQogICAgICAgIC5jb2xsZWN0KCkKfQo=
+use super::*;
+
+#[test]
+fn normalizes_google_provider_config_with_defaults() {
+    let translator = Translator::new("zh-CN");
+    let config = normalize_connection_config(
+        "google",
+        map_from_values(&[
+            ("client_id", json!("client")),
+            ("client_secret", json!("secret")),
+        ]),
+        false,
+        &translator,
+    )
+    .unwrap();
+    assert_eq!(config["issuer"], "https://accounts.google.com");
+    assert_eq!(config["scopes"], json!(["openid", "profile", "email"]));
+}
+
+#[test]
+fn normalizes_fnknock_qq_as_public_oidc_client() {
+    let translator = Translator::new("zh-CN");
+    let config = normalize_connection_config("fnknock_qq", Map::new(), false, &translator).unwrap();
+    assert_eq!(config["client_id"], "fnknock-qq-public");
+    assert_eq!(config["issuer"], "https://api.fnknock.cn/oidc/qq");
+    assert_eq!(config["scopes"], json!(["openid", "profile"]));
+    assert!(config.get("client_secret").is_some_and(|value| value == ""));
+}
+
+#[test]
+fn normalizes_oidc_scopes_like_node_array_vs_string_inputs() {
+    assert_eq!(
+        normalize_scopes(Some(&json!("openid profile,email")), &["fallback"]),
+        vec!["openid", "profile", "email"]
+    );
+    assert_eq!(
+        normalize_scopes(
+            Some(&json!(["openid profile", "email", "email"])),
+            &["fallback"]
+        ),
+        vec!["openid profile", "email"]
+    );
+}
+
+#[test]
+fn rejects_reserved_extra_auth_param() {
+    let translator = Translator::new("zh-CN");
+    let error = normalize_connection_config(
+        "google",
+        map_from_values(&[
+            ("client_id", json!("client")),
+            ("client_secret", json!("secret")),
+            ("extra_auth_params", json!({ "state": "bad" })),
+        ]),
+        false,
+        &translator,
+    )
+    .unwrap_err();
+    assert_eq!(error, "extra_auth_params 包含 OIDC 保留参数: state");
+}
+
+#[test]
+fn masks_provider_secret() {
+    let provider = json!({
+        "id": "oidc_provider_test",
+        "type": "github",
+        "protocol": "oauth2_profile",
+        "name": "GitHub",
+        "enabled": true,
+        "created_at": "2026-07-05T00:00:00Z",
+        "updated_at": "2026-07-05T00:00:00Z",
+        "connection_config": {
+            "client_id": "id",
+            "client_secret": "verysecret"
+        }
+    });
+    let view = mask_provider(provider, Some("https://auth.example.com"));
+    assert_eq!(
+        view.pointer("/connection_config_masked/client_secret"),
+        Some(&Value::String("********".to_string()))
+    );
+    assert_eq!(
+        view.get("callback_url").and_then(Value::as_str),
+        Some("https://auth.example.com/api/auth/oidc/callback/oidc_provider_test")
+    );
+    assert!(view.get("connection_config").is_none());
+}
+
+#[test]
+fn detects_missing_required_provider_fields() {
+    let provider = json!({
+        "id": "oidc_provider_test",
+        "type": "custom_oidc",
+        "protocol": "oidc",
+        "connection_config": {
+            "client_id": "client",
+            "client_secret": ""
+        }
+    });
+    assert_eq!(
+        missing_required_provider_fields(&provider),
+        vec!["client_secret", "issuer"]
+    );
+}
+
+#[test]
+fn localizes_oidc_catalog_and_validation_text() {
+    let translator = Translator::new("zh-CN");
+    let catalog = provider_catalog(&translator);
+    let custom = catalog
+        .iter()
+        .find(|provider| provider.get("type").and_then(Value::as_str) == Some("custom_oidc"))
+        .unwrap();
+    assert_eq!(
+        custom.get("label").and_then(Value::as_str),
+        Some("自定义 OIDC")
+    );
+    assert_eq!(
+        oidc_text_params(
+            &translator,
+            "providerMissingRequiredFields",
+            &[("fields", "client_secret".to_string())]
+        ),
+        "外部登录提供商缺少必填配置 client_secret"
+    );
+}
+
+#[test]
+fn builds_invite_base_url_from_public_auth_config_or_auth_host() {
+    assert_eq!(
+        public_auth_base_url(&json!({
+            "subdomain_mode": {
+                "public_auth_base_url": "https://auth.example.com/auth/",
+                "public_https_port": 8443
+            }
+        })),
+        Some("https://auth.example.com:8443/auth".to_string())
+    );
+    assert_eq!(
+        public_auth_base_url(&json!({
+            "host_mappings": [{
+                "host": "Auth.Example.Com",
+                "target": "http://127.0.0.1:7997"
+            }]
+        })),
+        Some("https://auth.example.com:7999".to_string())
+    );
+}
+
+#[test]
+fn builds_invite_base_url_without_origin_port_for_edge_providers() {
+    for (provider, aliyun_esa_enabled, tencent_edgeone_enabled) in [
+        ("Aliyun ESA", true, false),
+        ("Tencent EdgeOne", false, true),
+    ] {
+        let config = json!({
+            "run_type": 3,
+            "subdomain_mode": {
+                "edge_client_ip_enabled": true,
+                "aliyun_esa_enabled": aliyun_esa_enabled,
+                "tencent_edgeone_enabled": tencent_edgeone_enabled,
+                "public_auth_base_url": "https://auth.edge.example:7999",
+                "public_https_port": 7999
+            }
+        });
+
+        assert_eq!(
+            public_auth_base_url(&config),
+            Some("https://auth.edge.example".to_string()),
+            "explicit base provider={provider}"
+        );
+
+        let derived_config = json!({
+            "run_type": 3,
+            "host_mappings": [{
+                "host": "auth.edge.example",
+                "target": "http://127.0.0.1:7997"
+            }],
+            "subdomain_mode": {
+                "edge_client_ip_enabled": true,
+                "aliyun_esa_enabled": aliyun_esa_enabled,
+                "tencent_edgeone_enabled": tencent_edgeone_enabled,
+                "public_https_port": 7999
+            }
+        });
+        assert_eq!(
+            public_auth_base_url(&derived_config),
+            Some("https://auth.edge.example".to_string()),
+            "derived base provider={provider}"
+        );
+    }
+}
+
+#[test]
+fn builds_invite_base_url_without_stale_origin_port_for_cloudflared() {
+    let config = json!({
+        "run_type": 1,
+        "reverse_proxy_submode": "subdomain",
+        "default_tunnel": "cloudflared",
+        "host_mappings": [{
+            "host": "auth.tunnel.example",
+            "target": "http://127.0.0.1:7997"
+        }],
+        "subdomain_mode": {
+            "public_auth_base_url": "https://auth.tunnel.example:7999",
+            "public_https_port": 7999
+        }
+    });
+
+    assert_eq!(
+        public_auth_base_url(&config),
+        Some("https://auth.tunnel.example".to_string())
+    );
+}
+
+#[test]
+fn builds_callback_base_url_from_public_auth_config_before_request_host() {
+    let mut headers = HeaderMap::new();
+    headers.insert("host", "admin.example.com:7999".parse().unwrap());
+    let uri = Uri::from_static("/api/admin/auth/oidc/providers");
+    assert_eq!(
+        callback_base_url(
+            &headers,
+            &uri,
+            &json!({
+                "subdomain_mode": {
+                    "public_auth_base_url": "https://auth.example.com/auth/"
+                }
+            })
+        ),
+        Some("https://auth.example.com:7999/auth".to_string())
+    );
+}
+
+#[test]
+fn callback_origin_uses_uri_or_host_like_node_fallback() {
+    assert_eq!(
+        callback_origin(
+            &HeaderMap::new(),
+            &Uri::from_static("https://auth.example.com/api/admin/auth/oidc/providers")
+        ),
+        Some("https://auth.example.com".to_string())
+    );
+
+    let mut headers = HeaderMap::new();
+    headers.insert("host", "auth.example.com:7999".parse().unwrap());
+    assert_eq!(
+        callback_origin(
+            &headers,
+            &Uri::from_static("/api/admin/auth/oidc/providers")
+        ),
+        Some("http://auth.example.com:7999".to_string())
+    );
+}
+
+fn map_from_values(values: &[(&str, Value)]) -> Map<String, Value> {
+    values
+        .iter()
+        .map(|(key, value)| ((*key).to_string(), value.clone()))
+        .collect()
+}

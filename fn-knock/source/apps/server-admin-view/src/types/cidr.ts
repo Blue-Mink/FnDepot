@@ -1,1 +1,47 @@
-aW1wb3J0IHR5cGUgeyBjb21wb25lbnRzIGFzIEFwaUNvbnRyYWN0Q29tcG9uZW50cyB9IGZyb20gIkBmbi1rbm9jay9hcGktY29udHJhY3QiOwoKdHlwZSBDaWRyU2NoZW1hcyA9IEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdOwoKZXhwb3J0IGNvbnN0IENJRFJfUFJPVklOQ0VfV0lERV9WQUxVRSA9ICJfX3Byb3ZpbmNlX2FsbF9fIjsKCmV4cG9ydCBjb25zdCBDSURSX09QRVJBVE9SUyA9IFsi55S15L+hIiwgIuiBlOmAmiIsICLnp7vliqgiXSBhcyBjb25zdDsKZXhwb3J0IHR5cGUgQ2lkck9wZXJhdG9yID0gKHR5cGVvZiBDSURSX09QRVJBVE9SUylbbnVtYmVyXTsKCmV4cG9ydCBjb25zdCBnZXRDaWRyUmVnaW9uU2VsZWN0aW9uS2V5ID0gKHNlbGVjdGlvbjogewogIHByb3ZpbmNlOiBzdHJpbmc7CiAgcXVlcnlfY2l0eT86IHN0cmluZyB8IG51bGw7CiAgb3BlcmF0b3I/OiBDaWRyT3BlcmF0b3IgfCBudWxsOwp9KSA9PgogIGAke3NlbGVjdGlvbi5wcm92aW5jZX06OiR7c2VsZWN0aW9uLnF1ZXJ5X2NpdHkgPz8gIiJ9Ojoke3NlbGVjdGlvbi5vcGVyYXRvciA/PyAiIn1gOwoKZXhwb3J0IGNvbnN0IGdldENpZHJSZWdpb25TZWxlY3Rpb25MYWJlbCA9ICgKICBzZWxlY3Rpb246IHsKICAgIHByb3ZpbmNlOiBzdHJpbmc7CiAgICBjaXR5Pzogc3RyaW5nIHwgbnVsbDsKICAgIGxhYmVsPzogc3RyaW5nIHwgbnVsbDsKICAgIHF1ZXJ5X2NpdHk/OiBzdHJpbmcgfCBudWxsOwogICAgb3BlcmF0b3I/OiBDaWRyT3BlcmF0b3IgfCBudWxsOwogIH0sCiAgb3B0aW9uczogeyBpbmNsdWRlUHJvdmluY2U/OiBib29sZWFuIH0gPSB7fSwKKSA9PiB7CiAgY29uc3QgcHJvdmluY2UgPSBzZWxlY3Rpb24ucHJvdmluY2UudHJpbSgpOwogIGNvbnN0IGNpdHkgPSBzZWxlY3Rpb24uY2l0eT8udHJpbSgpIHx8IHNlbGVjdGlvbi5xdWVyeV9jaXR5Py50cmltKCk7CiAgY29uc3QgbGFiZWwgPQogICAgKG9wdGlvbnMuaW5jbHVkZVByb3ZpbmNlICYmIGNpdHkgPyBgJHtwcm92aW5jZX0gLyAke2NpdHl9YCA6ICIiKSB8fAogICAgc2VsZWN0aW9uLmxhYmVsPy50cmltKCkgfHwKICAgIGNpdHkgfHwKICAgIHByb3ZpbmNlOwogIGNvbnN0IHN1ZmZpeCA9IHNlbGVjdGlvbi5vcGVyYXRvciA/IGAgwrcgJHtzZWxlY3Rpb24ub3BlcmF0b3J9YCA6ICIiOwogIHJldHVybiBzdWZmaXggJiYgIWxhYmVsLmVuZHNXaXRoKHN1ZmZpeCkgPyBgJHtsYWJlbH0ke3N1ZmZpeH1gIDogbGFiZWw7Cn07CgpleHBvcnQgdHlwZSBDaWRyQ2FwYWJpbGl0aWVzUGF5bG9hZCA9IENpZHJTY2hlbWFzWyJDaWRyQ2FwYWJpbGl0aWVzRGF0YSJdOwpleHBvcnQgdHlwZSBDaWRyUHJvdmluY2VJdGVtID0gQ2lkclNjaGVtYXNbIkNpZHJQcm92aW5jZUl0ZW1EYXRhIl07CmV4cG9ydCB0eXBlIENpZHJQcm92aW5jZU9wdGlvbiA9IENpZHJTY2hlbWFzWyJDaWRyUHJvdmluY2VPcHRpb25EYXRhIl07CmV4cG9ydCB0eXBlIENpZHJQcm92aW5jZXNQYXlsb2FkID0gQ2lkclNjaGVtYXNbIkNpZHJQcm92aW5jZXNEYXRhIl07CmV4cG9ydCB0eXBlIENpZHJDaXR5SXRlbSA9IENpZHJTY2hlbWFzWyJDaWRyQ2l0eUl0ZW1EYXRhIl07CmV4cG9ydCB0eXBlIENpZHJDaXR5T3B0aW9uID0gQ2lkclNjaGVtYXNbIkNpZHJDaXR5T3B0aW9uRGF0YSJdOwpleHBvcnQgdHlwZSBDaWRyQ2l0aWVzUGF5bG9hZCA9IENpZHJTY2hlbWFzWyJDaWRyQ2l0aWVzRGF0YSJdOwpleHBvcnQgdHlwZSBDaWRyU2VsZWN0b3JQYXlsb2FkID0gQ2lkclNjaGVtYXNbIkNpZHJTZWxlY3RvckRhdGEiXTsKZXhwb3J0IHR5cGUgQ2lkclNlbGVjdGlvblBheWxvYWQgPSBDaWRyU2NoZW1hc1siQ2lkclNlbGVjdGlvbkRhdGEiXTsKZXhwb3J0IHR5cGUgQ2lkckxvb2t1cFBheWxvYWQgPSBDaWRyU2NoZW1hc1siQ2lkckxvb2t1cERhdGEiXTsK
+import type { components as ApiContractComponents } from "@fn-knock/api-contract";
+
+type CidrSchemas = ApiContractComponents["schemas"];
+
+export const CIDR_PROVINCE_WIDE_VALUE = "__province_all__";
+
+export const CIDR_OPERATORS = ["电信", "联通", "移动"] as const;
+export type CidrOperator = (typeof CIDR_OPERATORS)[number];
+
+export const getCidrRegionSelectionKey = (selection: {
+  province: string;
+  query_city?: string | null;
+  operator?: CidrOperator | null;
+}) =>
+  `${selection.province}::${selection.query_city ?? ""}::${selection.operator ?? ""}`;
+
+export const getCidrRegionSelectionLabel = (
+  selection: {
+    province: string;
+    city?: string | null;
+    label?: string | null;
+    query_city?: string | null;
+    operator?: CidrOperator | null;
+  },
+  options: { includeProvince?: boolean } = {},
+) => {
+  const province = selection.province.trim();
+  const city = selection.city?.trim() || selection.query_city?.trim();
+  const label =
+    (options.includeProvince && city ? `${province} / ${city}` : "") ||
+    selection.label?.trim() ||
+    city ||
+    province;
+  const suffix = selection.operator ? ` · ${selection.operator}` : "";
+  return suffix && !label.endsWith(suffix) ? `${label}${suffix}` : label;
+};
+
+export type CidrCapabilitiesPayload = CidrSchemas["CidrCapabilitiesData"];
+export type CidrProvinceItem = CidrSchemas["CidrProvinceItemData"];
+export type CidrProvinceOption = CidrSchemas["CidrProvinceOptionData"];
+export type CidrProvincesPayload = CidrSchemas["CidrProvincesData"];
+export type CidrCityItem = CidrSchemas["CidrCityItemData"];
+export type CidrCityOption = CidrSchemas["CidrCityOptionData"];
+export type CidrCitiesPayload = CidrSchemas["CidrCitiesData"];
+export type CidrSelectorPayload = CidrSchemas["CidrSelectorData"];
+export type CidrSelectionPayload = CidrSchemas["CidrSelectionData"];
+export type CidrLookupPayload = CidrSchemas["CidrLookupData"];

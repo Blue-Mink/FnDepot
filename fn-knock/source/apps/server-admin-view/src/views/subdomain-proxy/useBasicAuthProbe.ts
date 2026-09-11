@@ -1,1 +1,123 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uVW5tb3VudGVkLCByZWYsIHdhdGNoLCB0eXBlIFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHR5cGUgSG9zdE1hcHBpbmdCYXNpY0F1dGhQcm9iZVJlc3VsdCB9IGZyb20gIkAvbGliL2FwaS9jb25maWciOwppbXBvcnQgeyBub3JtYWxpemVCYXNpY0F1dGhQcm9iZVRhcmdldCB9IGZyb20gIi4vbW9kZWwiOwoKZXhwb3J0IGNvbnN0IHVzZUJhc2ljQXV0aFByb2JlID0gKHsKICBkZWxheU1zID0gNDUwLAogIGVuYWJsZWQsCiAgZ2V0RXJyb3JNZXNzYWdlLAogIHByb2JlLAogIHRhcmdldCwKfTogewogIGRlbGF5TXM/OiBudW1iZXI7CiAgZW5hYmxlZDogUmVmPGJvb2xlYW4+OwogIGdldEVycm9yTWVzc2FnZTogKGVycm9yOiB1bmtub3duKSA9PiBzdHJpbmc7CiAgcHJvYmU6ICh0YXJnZXQ6IHN0cmluZykgPT4gUHJvbWlzZTxIb3N0TWFwcGluZ0Jhc2ljQXV0aFByb2JlUmVzdWx0PjsKICB0YXJnZXQ6IFJlZjxzdHJpbmc+Owp9KSA9PiB7CiAgY29uc3QgYmFzaWNBdXRoUHJvYmVDYWNoZSA9IHJlZigKICAgIG5ldyBNYXA8c3RyaW5nLCBIb3N0TWFwcGluZ0Jhc2ljQXV0aFByb2JlUmVzdWx0PigpLAogICk7CiAgY29uc3QgaXNMb2FkaW5nQmFzaWNBdXRoUHJvYmUgPSByZWYoZmFsc2UpOwogIGNvbnN0IGJhc2ljQXV0aFByb2JlVGFyZ2V0S2V5ID0gY29tcHV0ZWQoKCkgPT4KICAgIG5vcm1hbGl6ZUJhc2ljQXV0aFByb2JlVGFyZ2V0KHRhcmdldC52YWx1ZSksCiAgKTsKICBjb25zdCBjdXJyZW50QmFzaWNBdXRoUHJvYmVSZXN1bHQgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBub3JtYWxpemVkVGFyZ2V0ID0gYmFzaWNBdXRoUHJvYmVUYXJnZXRLZXkudmFsdWU7CiAgICBpZiAoIW5vcm1hbGl6ZWRUYXJnZXQpIHJldHVybiBudWxsOwogICAgcmV0dXJuIGJhc2ljQXV0aFByb2JlQ2FjaGUudmFsdWUuZ2V0KG5vcm1hbGl6ZWRUYXJnZXQpID8/IG51bGw7CiAgfSk7CgogIGxldCBiYXNpY0F1dGhQcm9iZVRpbWVyOiBudW1iZXIgfCBudWxsID0gbnVsbDsKICBsZXQgYmFzaWNBdXRoUHJvYmVSZXF1ZXN0SWQgPSAwOwoKICBjb25zdCBzZXRCYXNpY0F1dGhQcm9iZUNhY2hlUmVzdWx0ID0gKAogICAgbm9ybWFsaXplZFRhcmdldDogc3RyaW5nLAogICAgcmVzdWx0OiBIb3N0TWFwcGluZ0Jhc2ljQXV0aFByb2JlUmVzdWx0LAogICkgPT4gewogICAgY29uc3QgbmV4dCA9IG5ldyBNYXAoYmFzaWNBdXRoUHJvYmVDYWNoZS52YWx1ZSk7CiAgICBuZXh0LnNldChub3JtYWxpemVkVGFyZ2V0LCByZXN1bHQpOwogICAgYmFzaWNBdXRoUHJvYmVDYWNoZS52YWx1ZSA9IG5leHQ7CiAgfTsKCiAgY29uc3QgY2xlYXJCYXNpY0F1dGhQcm9iZVRpbWVyID0gKCkgPT4gewogICAgaWYgKGJhc2ljQXV0aFByb2JlVGltZXIgPT09IG51bGwpIHJldHVybjsKICAgIHdpbmRvdy5jbGVhclRpbWVvdXQoYmFzaWNBdXRoUHJvYmVUaW1lcik7CiAgICBiYXNpY0F1dGhQcm9iZVRpbWVyID0gbnVsbDsKICB9OwoKICBjb25zdCBjYW5jZWxCYXNpY0F1dGhQcm9iZSA9ICgpID0+IHsKICAgIGNsZWFyQmFzaWNBdXRoUHJvYmVUaW1lcigpOwogICAgYmFzaWNBdXRoUHJvYmVSZXF1ZXN0SWQgKz0gMTsKICAgIGlzTG9hZGluZ0Jhc2ljQXV0aFByb2JlLnZhbHVlID0gZmFsc2U7CiAgfTsKCiAgY29uc3QgcnVuQmFzaWNBdXRoUHJvYmUgPSBhc3luYyAobm9ybWFsaXplZFRhcmdldDogc3RyaW5nKSA9PiB7CiAgICBpZiAoIW5vcm1hbGl6ZWRUYXJnZXQpIHsKICAgICAgaXNMb2FkaW5nQmFzaWNBdXRoUHJvYmUudmFsdWUgPSBmYWxzZTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKGJhc2ljQXV0aFByb2JlQ2FjaGUudmFsdWUuaGFzKG5vcm1hbGl6ZWRUYXJnZXQpKSB7CiAgICAgIGlzTG9hZGluZ0Jhc2ljQXV0aFByb2JlLnZhbHVlID0gZmFsc2U7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBjb25zdCByZXF1ZXN0SWQgPSArK2Jhc2ljQXV0aFByb2JlUmVxdWVzdElkOwogICAgaXNMb2FkaW5nQmFzaWNBdXRoUHJvYmUudmFsdWUgPSB0cnVlOwoKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHByb2JlKG5vcm1hbGl6ZWRUYXJnZXQpOwogICAgICBzZXRCYXNpY0F1dGhQcm9iZUNhY2hlUmVzdWx0KG5vcm1hbGl6ZWRUYXJnZXQsIHJlc3VsdCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBzZXRCYXNpY0F1dGhQcm9iZUNhY2hlUmVzdWx0KG5vcm1hbGl6ZWRUYXJnZXQsIHsKICAgICAgICByZXF1aXJlc0Jhc2ljQXV0aDogZmFsc2UsCiAgICAgICAgaHR0cFN0YXR1czogbnVsbCwKICAgICAgICBlcnJvcjogZ2V0RXJyb3JNZXNzYWdlKGVycm9yKSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBpZiAoCiAgICAgICAgcmVxdWVzdElkID09PSBiYXNpY0F1dGhQcm9iZVJlcXVlc3RJZCAmJgogICAgICAgIGJhc2ljQXV0aFByb2JlVGFyZ2V0S2V5LnZhbHVlID09PSBub3JtYWxpemVkVGFyZ2V0CiAgICAgICkgewogICAgICAgIGlzTG9hZGluZ0Jhc2ljQXV0aFByb2JlLnZhbHVlID0gZmFsc2U7CiAgICAgIH0KICAgIH0KICB9OwoKICBjb25zdCBzY2hlZHVsZUJhc2ljQXV0aFByb2JlID0gKCkgPT4gewogICAgY2xlYXJCYXNpY0F1dGhQcm9iZVRpbWVyKCk7CgogICAgY29uc3Qgbm9ybWFsaXplZFRhcmdldCA9IGJhc2ljQXV0aFByb2JlVGFyZ2V0S2V5LnZhbHVlOwogICAgaWYgKAogICAgICAhZW5hYmxlZC52YWx1ZSB8fAogICAgICAhbm9ybWFsaXplZFRhcmdldCB8fAogICAgICBiYXNpY0F1dGhQcm9iZUNhY2hlLnZhbHVlLmhhcyhub3JtYWxpemVkVGFyZ2V0KQogICAgKSB7CiAgICAgIGJhc2ljQXV0aFByb2JlUmVxdWVzdElkICs9IDE7CiAgICAgIGlzTG9hZGluZ0Jhc2ljQXV0aFByb2JlLnZhbHVlID0gZmFsc2U7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBpc0xvYWRpbmdCYXNpY0F1dGhQcm9iZS52YWx1ZSA9IHRydWU7CiAgICBiYXNpY0F1dGhQcm9iZVRpbWVyID0gd2luZG93LnNldFRpbWVvdXQoKCkgPT4gewogICAgICBiYXNpY0F1dGhQcm9iZVRpbWVyID0gbnVsbDsKICAgICAgdm9pZCBydW5CYXNpY0F1dGhQcm9iZShub3JtYWxpemVkVGFyZ2V0KTsKICAgIH0sIGRlbGF5TXMpOwogIH07CgogIHdhdGNoKFtlbmFibGVkLCBiYXNpY0F1dGhQcm9iZVRhcmdldEtleV0sICgpID0+IHsKICAgIHNjaGVkdWxlQmFzaWNBdXRoUHJvYmUoKTsKICB9KTsKCiAgb25Vbm1vdW50ZWQoKCkgPT4gewogICAgY2FuY2VsQmFzaWNBdXRoUHJvYmUoKTsKICB9KTsKCiAgcmV0dXJuIHsKICAgIGJhc2ljQXV0aFByb2JlVGFyZ2V0S2V5LAogICAgY2FuY2VsQmFzaWNBdXRoUHJvYmUsCiAgICBjdXJyZW50QmFzaWNBdXRoUHJvYmVSZXN1bHQsCiAgICBpc0xvYWRpbmdCYXNpY0F1dGhQcm9iZSwKICAgIHNjaGVkdWxlQmFzaWNBdXRoUHJvYmUsCiAgfTsKfTsK
+import { computed, onUnmounted, ref, watch, type Ref } from "vue";
+import { type HostMappingBasicAuthProbeResult } from "@/lib/api/config";
+import { normalizeBasicAuthProbeTarget } from "./model";
+
+export const useBasicAuthProbe = ({
+  delayMs = 450,
+  enabled,
+  getErrorMessage,
+  probe,
+  target,
+}: {
+  delayMs?: number;
+  enabled: Ref<boolean>;
+  getErrorMessage: (error: unknown) => string;
+  probe: (target: string) => Promise<HostMappingBasicAuthProbeResult>;
+  target: Ref<string>;
+}) => {
+  const basicAuthProbeCache = ref(
+    new Map<string, HostMappingBasicAuthProbeResult>(),
+  );
+  const isLoadingBasicAuthProbe = ref(false);
+  const basicAuthProbeTargetKey = computed(() =>
+    normalizeBasicAuthProbeTarget(target.value),
+  );
+  const currentBasicAuthProbeResult = computed(() => {
+    const normalizedTarget = basicAuthProbeTargetKey.value;
+    if (!normalizedTarget) return null;
+    return basicAuthProbeCache.value.get(normalizedTarget) ?? null;
+  });
+
+  let basicAuthProbeTimer: number | null = null;
+  let basicAuthProbeRequestId = 0;
+
+  const setBasicAuthProbeCacheResult = (
+    normalizedTarget: string,
+    result: HostMappingBasicAuthProbeResult,
+  ) => {
+    const next = new Map(basicAuthProbeCache.value);
+    next.set(normalizedTarget, result);
+    basicAuthProbeCache.value = next;
+  };
+
+  const clearBasicAuthProbeTimer = () => {
+    if (basicAuthProbeTimer === null) return;
+    window.clearTimeout(basicAuthProbeTimer);
+    basicAuthProbeTimer = null;
+  };
+
+  const cancelBasicAuthProbe = () => {
+    clearBasicAuthProbeTimer();
+    basicAuthProbeRequestId += 1;
+    isLoadingBasicAuthProbe.value = false;
+  };
+
+  const runBasicAuthProbe = async (normalizedTarget: string) => {
+    if (!normalizedTarget) {
+      isLoadingBasicAuthProbe.value = false;
+      return;
+    }
+    if (basicAuthProbeCache.value.has(normalizedTarget)) {
+      isLoadingBasicAuthProbe.value = false;
+      return;
+    }
+
+    const requestId = ++basicAuthProbeRequestId;
+    isLoadingBasicAuthProbe.value = true;
+
+    try {
+      const result = await probe(normalizedTarget);
+      setBasicAuthProbeCacheResult(normalizedTarget, result);
+    } catch (error) {
+      setBasicAuthProbeCacheResult(normalizedTarget, {
+        requiresBasicAuth: false,
+        httpStatus: null,
+        error: getErrorMessage(error),
+      });
+    } finally {
+      if (
+        requestId === basicAuthProbeRequestId &&
+        basicAuthProbeTargetKey.value === normalizedTarget
+      ) {
+        isLoadingBasicAuthProbe.value = false;
+      }
+    }
+  };
+
+  const scheduleBasicAuthProbe = () => {
+    clearBasicAuthProbeTimer();
+
+    const normalizedTarget = basicAuthProbeTargetKey.value;
+    if (
+      !enabled.value ||
+      !normalizedTarget ||
+      basicAuthProbeCache.value.has(normalizedTarget)
+    ) {
+      basicAuthProbeRequestId += 1;
+      isLoadingBasicAuthProbe.value = false;
+      return;
+    }
+
+    isLoadingBasicAuthProbe.value = true;
+    basicAuthProbeTimer = window.setTimeout(() => {
+      basicAuthProbeTimer = null;
+      void runBasicAuthProbe(normalizedTarget);
+    }, delayMs);
+  };
+
+  watch([enabled, basicAuthProbeTargetKey], () => {
+    scheduleBasicAuthProbe();
+  });
+
+  onUnmounted(() => {
+    cancelBasicAuthProbe();
+  });
+
+  return {
+    basicAuthProbeTargetKey,
+    cancelBasicAuthProbe,
+    currentBasicAuthProbeResult,
+    isLoadingBasicAuthProbe,
+    scheduleBasicAuthProbe,
+  };
+};

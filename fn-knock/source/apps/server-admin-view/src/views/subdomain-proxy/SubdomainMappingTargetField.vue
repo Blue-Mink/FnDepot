@@ -1,1 +1,102 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgewogIFNlbGVjdCwKICBTZWxlY3RDb250ZW50LAogIFNlbGVjdEl0ZW0sCiAgU2VsZWN0VHJpZ2dlciwKICBTZWxlY3RWYWx1ZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKaW1wb3J0IFByb3h5VGFyZ2V0SW5wdXRGaWVsZCBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL1Byb3h5VGFyZ2V0SW5wdXRGaWVsZC52dWUiOwppbXBvcnQgeyB1c2VDb25maWdTdG9yZSB9IGZyb20gIkAvc3RvcmUvY29uZmlnIjsKaW1wb3J0IHR5cGUgeyBIb3N0VGFyZ2V0UGF0aE1vZGUgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsgdXNlSG9zdFRhcmdldENhbmRpZGF0ZXMgfSBmcm9tICIuL3VzZUhvc3RUYXJnZXRDYW5kaWRhdGVzIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIG1vZGVsVmFsdWU6IHN0cmluZzsKICB0YXJnZXRQYXRoTW9kZTogSG9zdFRhcmdldFBhdGhNb2RlOwogIGFsbG93VGFyZ2V0UGF0aE1vZGU6IGJvb2xlYW47CiAgb3BlbjogYm9vbGVhbjsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgInVwZGF0ZTptb2RlbFZhbHVlIjogW3ZhbHVlOiBzdHJpbmddOwogICJ1cGRhdGU6dGFyZ2V0UGF0aE1vZGUiOiBbdmFsdWU6IEhvc3RUYXJnZXRQYXRoTW9kZV07Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwpjb25zdCB0YXJnZXRNb2RlbCA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IHByb3BzLm1vZGVsVmFsdWUsCiAgc2V0OiAodmFsdWU6IHN0cmluZykgPT4gZW1pdCgidXBkYXRlOm1vZGVsVmFsdWUiLCB2YWx1ZSksCn0pOwpjb25zdCB0YXJnZXRQYXRoTW9kZU1vZGVsID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcHJvcHMudGFyZ2V0UGF0aE1vZGUgfHwgImVudHJ5IiwKICBzZXQ6ICh2YWx1ZTogc3RyaW5nKSA9PgogICAgZW1pdCgidXBkYXRlOnRhcmdldFBhdGhNb2RlIiwgdmFsdWUgPT09ICJwcmVmaXgiID8gInByZWZpeCIgOiAiZW50cnkiKSwKfSk7CmNvbnN0IGhhc1RhcmdldFBhdGggPSBjb21wdXRlZCgoKSA9PiB7CiAgdHJ5IHsKICAgIGNvbnN0IHBhdGggPSBuZXcgVVJMKHByb3BzLm1vZGVsVmFsdWUudHJpbSgpKS5wYXRobmFtZTsKICAgIHJldHVybiBwYXRoICE9PSAiIiAmJiBwYXRoICE9PSAiLyI7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQp9KTsKY29uc3QgdGFyZ2V0UGF0aE1vZGVEZXNjcmlwdGlvbiA9IGNvbXB1dGVkKCgpID0+CiAgdGFyZ2V0UGF0aE1vZGVNb2RlbC52YWx1ZSA9PT0gInByZWZpeCIKICAgID8gdCgiYWRtaW4uc3ViZG9tYWluUHJveHkudGFyZ2V0UGF0aE1vZGVQcmVmaXhEZXNjcmlwdGlvbiIpCiAgICA6IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnRhcmdldFBhdGhNb2RlRW50cnlEZXNjcmlwdGlvbiIpLAopOwpjb25zdCB7IHRhcmdldENhbmRpZGF0ZUhpbnQsIHRhcmdldFBsYWNlaG9sZGVyLCB0YXJnZXRTdWdnZXN0aW9ucyB9ID0KICB1c2VIb3N0VGFyZ2V0Q2FuZGlkYXRlcyh7CiAgICBpc0RvY2tlckRlcGxveW1lbnQ6IGNvbXB1dGVkKCgpID0+IGNvbmZpZ1N0b3JlLmlzRG9ja2VyRGVwbG95bWVudCksCiAgICBvcGVuOiBjb21wdXRlZCgoKSA9PiBwcm9wcy5vcGVuKSwKICAgIHRyYW5zbGF0ZTogKGtleSkgPT4gdChrZXkpLAogIH0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgPExhYmVsIGZvcj0ibWFwcGluZy10YXJnZXQiPgogICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS50YXJnZXRMYWJlbCIpIH19CiAgICA8L0xhYmVsPgogICAgPFByb3h5VGFyZ2V0SW5wdXRGaWVsZAogICAgICB2LW1vZGVsPSJ0YXJnZXRNb2RlbCIKICAgICAgaW5wdXQtaWQ9Im1hcHBpbmctdGFyZ2V0IgogICAgICBwcm90b2NvbC1pZD0ibWFwcGluZy10YXJnZXQtcHJvdG9jb2wiCiAgICAgIDpwbGFjZWhvbGRlcj0idGFyZ2V0UGxhY2Vob2xkZXIiCiAgICAgIDpzdWdnZXN0aW9ucz0idGFyZ2V0U3VnZ2VzdGlvbnMiCiAgICAgIDpoaW50PSJ0KCdhZG1pbi5zdWJkb21haW5Qcm94eS50YXJnZXRIaW50JykiCiAgICAvPgogICAgPHAgdi1pZj0idGFyZ2V0Q2FuZGlkYXRlSGludCIgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAge3sgdGFyZ2V0Q2FuZGlkYXRlSGludCB9fQogICAgPC9wPgogICAgPGRpdgogICAgICB2LWlmPSJhbGxvd1RhcmdldFBhdGhNb2RlICYmIGhhc1RhcmdldFBhdGgiCiAgICAgIGNsYXNzPSJzcGFjZS15LTIgcm91bmRlZC1sZyBib3JkZXIgcHgtMyBweS0zIgogICAgPgogICAgICA8TGFiZWwgZm9yPSJtYXBwaW5nLXRhcmdldC1wYXRoLW1vZGUiPgogICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnRhcmdldFBhdGhNb2RlIikgfX0KICAgICAgPC9MYWJlbD4KICAgICAgPFNlbGVjdCB2LW1vZGVsPSJ0YXJnZXRQYXRoTW9kZU1vZGVsIj4KICAgICAgICA8U2VsZWN0VHJpZ2dlciBpZD0ibWFwcGluZy10YXJnZXQtcGF0aC1tb2RlIj4KICAgICAgICAgIDxTZWxlY3RWYWx1ZSAvPgogICAgICAgIDwvU2VsZWN0VHJpZ2dlcj4KICAgICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJlbnRyeSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnRhcmdldFBhdGhNb2RlRW50cnkiKSB9fQogICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgPFNlbGVjdEl0ZW0gdmFsdWU9InByZWZpeCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnRhcmdldFBhdGhNb2RlUHJlZml4IikgfX0KICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgIDwvU2VsZWN0PgogICAgICA8cCBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0YXJnZXRQYXRoTW9kZURlc2NyaXB0aW9uIH19CiAgICAgIDwvcD4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import ProxyTargetInputField from "@admin-shared/components/common/ProxyTargetInputField.vue";
+import { useConfigStore } from "@/store/config";
+import type { HostTargetPathMode } from "@/types";
+import { useHostTargetCandidates } from "./useHostTargetCandidates";
+
+const props = defineProps<{
+  modelValue: string;
+  targetPathMode: HostTargetPathMode;
+  allowTargetPathMode: boolean;
+  open: boolean;
+}>();
+
+const emit = defineEmits<{
+  "update:modelValue": [value: string];
+  "update:targetPathMode": [value: HostTargetPathMode];
+}>();
+
+const { t } = useI18n();
+const configStore = useConfigStore();
+const targetModel = computed({
+  get: () => props.modelValue,
+  set: (value: string) => emit("update:modelValue", value),
+});
+const targetPathModeModel = computed({
+  get: () => props.targetPathMode || "entry",
+  set: (value: string) =>
+    emit("update:targetPathMode", value === "prefix" ? "prefix" : "entry"),
+});
+const hasTargetPath = computed(() => {
+  try {
+    const path = new URL(props.modelValue.trim()).pathname;
+    return path !== "" && path !== "/";
+  } catch {
+    return false;
+  }
+});
+const targetPathModeDescription = computed(() =>
+  targetPathModeModel.value === "prefix"
+    ? t("admin.subdomainProxy.targetPathModePrefixDescription")
+    : t("admin.subdomainProxy.targetPathModeEntryDescription"),
+);
+const { targetCandidateHint, targetPlaceholder, targetSuggestions } =
+  useHostTargetCandidates({
+    isDockerDeployment: computed(() => configStore.isDockerDeployment),
+    open: computed(() => props.open),
+    translate: (key) => t(key),
+  });
+</script>
+
+<template>
+  <div class="space-y-2">
+    <Label for="mapping-target">
+      {{ t("admin.subdomainProxy.targetLabel") }}
+    </Label>
+    <ProxyTargetInputField
+      v-model="targetModel"
+      input-id="mapping-target"
+      protocol-id="mapping-target-protocol"
+      :placeholder="targetPlaceholder"
+      :suggestions="targetSuggestions"
+      :hint="t('admin.subdomainProxy.targetHint')"
+    />
+    <p v-if="targetCandidateHint" class="text-xs text-muted-foreground">
+      {{ targetCandidateHint }}
+    </p>
+    <div
+      v-if="allowTargetPathMode && hasTargetPath"
+      class="space-y-2 rounded-lg border px-3 py-3"
+    >
+      <Label for="mapping-target-path-mode">
+        {{ t("admin.subdomainProxy.targetPathMode") }}
+      </Label>
+      <Select v-model="targetPathModeModel">
+        <SelectTrigger id="mapping-target-path-mode">
+          <SelectValue />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem value="entry">
+            {{ t("admin.subdomainProxy.targetPathModeEntry") }}
+          </SelectItem>
+          <SelectItem value="prefix">
+            {{ t("admin.subdomainProxy.targetPathModePrefix") }}
+          </SelectItem>
+        </SelectContent>
+      </Select>
+      <p class="text-xs leading-5 text-muted-foreground">
+        {{ targetPathModeDescription }}
+      </p>
+    </div>
+  </div>
+</template>

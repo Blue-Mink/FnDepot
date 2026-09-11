@@ -1,1 +1,49 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgdHlwZSB7IFdoaXRlTGlzdFJlY29yZCB9IGZyb20gIi4uL3NyYy9saWIvYXBpL3doaXRlbGlzdCI7CmltcG9ydCB7CiAgZm9ybWF0V2hpdGVsaXN0UmVtYWluaW5nLAogIGdldFdoaXRlbGlzdFJlc29sdmVTdGF0dXNMYWJlbCwKICBnZXRXaGl0ZWxpc3RSZXNvbHZlU3RhdHVzVmFyaWFudCwKICBnZXRXaGl0ZWxpc3RUYXJnZXRUeXBlTGFiZWwsCiAgdHlwZSBXaGl0ZWxpc3RUcmFuc2xhdGUsCn0gZnJvbSAiLi4vc3JjL3ZpZXdzL2lwLXdoaXRlbGlzdC93aGl0ZWxpc3RQcmVzZW50YXRpb24iOwoKY29uc3QgcmVjb3JkV2l0aFN0YXR1cyA9IChyZXNvbHZlU3RhdHVzOiBXaGl0ZUxpc3RSZWNvcmRbInJlc29sdmVTdGF0dXMiXSkgPT4KICAoeyByZXNvbHZlU3RhdHVzIH0pIGFzIFdoaXRlTGlzdFJlY29yZDsKCmRlc2NyaWJlKCJJUCB3aGl0ZWxpc3QgcHJlc2VudGF0aW9uIiwgKCkgPT4gewogIGl0KCJtYXBzIHRhcmdldCBhbmQgcmVzb2x2ZXIgc3RhdGVzIHRvIHN0YWJsZSBVSSB0b2tlbnMiLCAoKSA9PiB7CiAgICBjb25zdCB0cmFuc2xhdGU6IFdoaXRlbGlzdFRyYW5zbGF0ZSA9IChrZXkpID0+IGtleTsKICAgIGFzc2VydC5lcXVhbChnZXRXaGl0ZWxpc3RUYXJnZXRUeXBlTGFiZWwoImlwIiksICJJUCIpOwogICAgYXNzZXJ0LmVxdWFsKGdldFdoaXRlbGlzdFRhcmdldFR5cGVMYWJlbCgiY2lkciIpLCAiQ0lEUiIpOwogICAgYXNzZXJ0LmVxdWFsKGdldFdoaXRlbGlzdFRhcmdldFR5cGVMYWJlbCgiY25hbWUiKSwgIkNOQU1FIik7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGdldFdoaXRlbGlzdFJlc29sdmVTdGF0dXNMYWJlbChyZWNvcmRXaXRoU3RhdHVzKCJyZXNvbHZlZCIpLCB0cmFuc2xhdGUpLAogICAgICAiYWRtaW4uaXBXaGl0ZWxpc3QucmVzb2x2ZVN1Y2Nlc3MiLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgZ2V0V2hpdGVsaXN0UmVzb2x2ZVN0YXR1c1ZhcmlhbnQocmVjb3JkV2l0aFN0YXR1cygiZXJyb3IiKSksCiAgICAgICJkZXN0cnVjdGl2ZSIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBnZXRXaGl0ZWxpc3RSZXNvbHZlU3RhdHVzVmFyaWFudChyZWNvcmRXaXRoU3RhdHVzKHVuZGVmaW5lZCkpLAogICAgICAib3V0bGluZSIsCiAgICApOwogIH0pOwoKICBpdCgiZm9ybWF0cyBleHBpcnkgZHVyYXRpb25zIHdpdGggYSBkZXRlcm1pbmlzdGljIGNsb2NrIiwgKCkgPT4gewogICAgY29uc3QgdHJhbnNsYXRlOiBXaGl0ZWxpc3RUcmFuc2xhdGUgPSAoa2V5LCBwYXJhbXMpID0+IHsKICAgICAgaWYgKGtleS5lbmRzV2l0aCgiLmRheXMiKSkgcmV0dXJuIGAke3BhcmFtcz8uY291bnR9ZGA7CiAgICAgIGlmIChrZXkuZW5kc1dpdGgoIi5ob3VycyIpKSByZXR1cm4gYCR7cGFyYW1zPy5jb3VudH1oYDsKICAgICAgaWYgKGtleS5lbmRzV2l0aCgiLm1pbnV0ZXNDb3VudCIpKSByZXR1cm4gYCR7cGFyYW1zPy5jb3VudH1tYDsKICAgICAgaWYgKGtleS5lbmRzV2l0aCgiLnJlbWFpbmluZyIpKSByZXR1cm4gYCR7cGFyYW1zPy52YWx1ZX0gbGVmdGA7CiAgICAgIHJldHVybiBrZXk7CiAgICB9OwogICAgYXNzZXJ0LmVxdWFsKGZvcm1hdFdoaXRlbGlzdFJlbWFpbmluZyg5MF8wNjAsIHRyYW5zbGF0ZSwgMCksICIxZDFoMW0gbGVmdCIpOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBmb3JtYXRXaGl0ZWxpc3RSZW1haW5pbmcoMTAwLCB0cmFuc2xhdGUsIDEwMCksCiAgICAgICJhZG1pbi5pcFdoaXRlbGlzdC5leHBpcmVkIiwKICAgICk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import type { WhiteListRecord } from "../src/lib/api/whitelist";
+import {
+  formatWhitelistRemaining,
+  getWhitelistResolveStatusLabel,
+  getWhitelistResolveStatusVariant,
+  getWhitelistTargetTypeLabel,
+  type WhitelistTranslate,
+} from "../src/views/ip-whitelist/whitelistPresentation";
+
+const recordWithStatus = (resolveStatus: WhiteListRecord["resolveStatus"]) =>
+  ({ resolveStatus }) as WhiteListRecord;
+
+describe("IP whitelist presentation", () => {
+  it("maps target and resolver states to stable UI tokens", () => {
+    const translate: WhitelistTranslate = (key) => key;
+    assert.equal(getWhitelistTargetTypeLabel("ip"), "IP");
+    assert.equal(getWhitelistTargetTypeLabel("cidr"), "CIDR");
+    assert.equal(getWhitelistTargetTypeLabel("cname"), "CNAME");
+    assert.equal(
+      getWhitelistResolveStatusLabel(recordWithStatus("resolved"), translate),
+      "admin.ipWhitelist.resolveSuccess",
+    );
+    assert.equal(
+      getWhitelistResolveStatusVariant(recordWithStatus("error")),
+      "destructive",
+    );
+    assert.equal(
+      getWhitelistResolveStatusVariant(recordWithStatus(undefined)),
+      "outline",
+    );
+  });
+
+  it("formats expiry durations with a deterministic clock", () => {
+    const translate: WhitelistTranslate = (key, params) => {
+      if (key.endsWith(".days")) return `${params?.count}d`;
+      if (key.endsWith(".hours")) return `${params?.count}h`;
+      if (key.endsWith(".minutesCount")) return `${params?.count}m`;
+      if (key.endsWith(".remaining")) return `${params?.value} left`;
+      return key;
+    };
+    assert.equal(formatWhitelistRemaining(90_060, translate, 0), "1d1h1m left");
+    assert.equal(
+      formatWhitelistRemaining(100, translate, 100),
+      "admin.ipWhitelist.expired",
+    );
+  });
+});

@@ -1,1 +1,172 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdXNlQ29uZmlnU3RvcmUgfSBmcm9tICJAL3N0b3JlL2NvbmZpZyI7CmltcG9ydCB0eXBlIHsKICBTbWFydENvbm5lY3RDb25maWcsCiAgU21hcnRDb25uZWN0RGV0YWlscywKICBTbWFydENvbm5lY3RMb2NhbElwT3B0aW9uLAp9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgeyBoYXNVbnNhdmVkU21hcnRDb25uZWN0RHJhZnQgfSBmcm9tICIuL3NtYXJ0Q29ubmVjdE1vZGVsIjsKCmV4cG9ydCBjb25zdCB1c2VTbWFydENvbm5lY3RWaWV3TW9kZWwgPSAob3B0aW9uczogewogIGRldGFpbHM6IFJlZjxTbWFydENvbm5lY3REZXRhaWxzIHwgbnVsbD47CiAgZm9ybTogU21hcnRDb25uZWN0Q29uZmlnOwp9KSA9PiB7CiAgY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CiAgY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwogIGNvbnN0IGlzRGlydHkgPSBjb21wdXRlZCgoKSA9PgogICAgaGFzVW5zYXZlZFNtYXJ0Q29ubmVjdERyYWZ0KG9wdGlvbnMuZGV0YWlscy52YWx1ZSwgb3B0aW9ucy5mb3JtKSwKICApOwogIGNvbnN0IGNhcGFiaWxpdHlCbG9ja2VkUmVhc29uID0gY29tcHV0ZWQoKCkgPT4gewogICAgaWYgKGNvbmZpZ1N0b3JlLmNhblVzZVNtYXJ0Q29ubmVjdCkgcmV0dXJuICIiOwogICAgcmV0dXJuIGNvbmZpZ1N0b3JlLmlzRG9ja2VyRGVwbG95bWVudAogICAgICA/IHQoImFkbWluLnNtYXJ0Q29ubmVjdFNldHRpbmdzLmRvY2tlclVuc3VwcG9ydGVkIikKICAgICAgOiB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5lbnZpcm9ubWVudFVuc3VwcG9ydGVkIik7CiAgfSk7CiAgY29uc3QgaXNTbWFydENvbm5lY3RBdmFpbGFibGUgPSBjb21wdXRlZCgKICAgICgpID0+IG9wdGlvbnMuZGV0YWlscy52YWx1ZT8uYXZhaWxhYmlsaXR5LmF2YWlsYWJsZSA9PT0gdHJ1ZSwKICApOwogIGNvbnN0IHNob3dEbnNtYXNxQ2FyZCA9IGNvbXB1dGVkKCgpID0+IG9wdGlvbnMuZm9ybS5lbmFibGVkKTsKICBjb25zdCBpc0Ruc21hc3FSZWFkeSA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IGRuc21hc3EgPSBvcHRpb25zLmRldGFpbHMudmFsdWU/LmRuc21hc3E7CiAgICByZXR1cm4gQm9vbGVhbigKICAgICAgZG5zbWFzcSAmJgogICAgICBkbnNtYXNxLmluc3RhbGxfc3RhdGUuc3RhdHVzICE9PSAiaW5zdGFsbGluZyIgJiYKICAgICAgZG5zbWFzcS5pbnN0YWxsX3N0YXRlLnN0YXR1cyAhPT0gImVycm9yIiAmJgogICAgICBkbnNtYXNxLmluc3RhbGxlZCAmJgogICAgICBkbnNtYXNxLnNlcnZpY2VfYWN0aXZlICYmCiAgICAgIGRuc21hc3EuaW5pdGlhbGl6ZWQsCiAgICApOwogIH0pOwogIGNvbnN0IHNob3dEbnNtYXNxU2V0dXBDYXJkID0gY29tcHV0ZWQoCiAgICAoKSA9PiBzaG93RG5zbWFzcUNhcmQudmFsdWUgJiYgIWlzRG5zbWFzcVJlYWR5LnZhbHVlLAogICk7CiAgY29uc3Qgc2hvd0FkdmFuY2VkQ2FyZHMgPSBjb21wdXRlZCgKICAgICgpID0+IG9wdGlvbnMuZm9ybS5lbmFibGVkICYmIGlzRG5zbWFzcVJlYWR5LnZhbHVlLAogICk7CiAgY29uc3QgZG5zbWFzcVN1bW1hcnlUZXh0ID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3QgZG5zbWFzcSA9IG9wdGlvbnMuZGV0YWlscy52YWx1ZT8uZG5zbWFzcTsKICAgIGlmICghZG5zbWFzcSkgcmV0dXJuICIiOwogICAgcmV0dXJuIFsKICAgICAgZG5zbWFzcS5zZXJ2aWNlX2FjdGl2ZQogICAgICAgID8gdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3Muc2VydmljZVJ1bm5pbmciKQogICAgICAgIDogdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3Muc2VydmljZVN0b3BwZWQiKSwKICAgICAgdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3MubWFuYWdlZFJ1bGVzIiwgewogICAgICAgIGNvdW50OiBkbnNtYXNxLnJ1bnRpbWUubWFuYWdlZF9ydWxlX2NvdW50LAogICAgICB9KSwKICAgIF0uam9pbigiIMK3ICIpOwogIH0pOwogIGNvbnN0IGRuc21hc3FQcm9ncmVzcyA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IHZhbHVlID0gTnVtYmVyKAogICAgICBvcHRpb25zLmRldGFpbHMudmFsdWU/LmRuc21hc3EuaW5zdGFsbF9zdGF0ZS5wcm9ncmVzcyA/PyAwLAogICAgKTsKICAgIHJldHVybiBOdW1iZXIuaXNGaW5pdGUodmFsdWUpID8gTWF0aC5tYXgoMCwgTWF0aC5taW4oMTAwLCB2YWx1ZSkpIDogMDsKICB9KTsKICBjb25zdCBkbnNtYXNxU3RhdHVzTGFiZWwgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBkbnNtYXNxID0gb3B0aW9ucy5kZXRhaWxzLnZhbHVlPy5kbnNtYXNxOwogICAgaWYgKCFkbnNtYXNxKSByZXR1cm4gdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3MubG9hZGluZyIpOwogICAgaWYgKGRuc21hc3EuaW5zdGFsbF9zdGF0ZS5zdGF0dXMgPT09ICJpbnN0YWxsaW5nIikgewogICAgICByZXR1cm4gdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3MuaW5zdGFsbGluZyIpOwogICAgfQogICAgaWYgKGRuc21hc3EuaW5zdGFsbF9zdGF0ZS5zdGF0dXMgPT09ICJlcnJvciIpIHsKICAgICAgcmV0dXJuIHQoImFkbWluLnNtYXJ0Q29ubmVjdFNldHRpbmdzLmFibm9ybWFsIik7CiAgICB9CiAgICBpZiAoIWRuc21hc3EuaW5zdGFsbGVkKSB7CiAgICAgIHJldHVybiB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5ub3RJbnN0YWxsZWQiKTsKICAgIH0KICAgIGlmICghZG5zbWFzcS5zZXJ2aWNlX2FjdGl2ZSkgewogICAgICByZXR1cm4gdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3Mubm90UnVubmluZyIpOwogICAgfQogICAgaWYgKCFkbnNtYXNxLmluaXRpYWxpemVkKSB7CiAgICAgIHJldHVybiB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5wZW5kaW5nSW5pdGlhbGl6YXRpb24iKTsKICAgIH0KICAgIHJldHVybiB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5yZWFkeSIpOwogIH0pOwogIGNvbnN0IGRuc21hc3FTdGF0dXNWYXJpYW50ID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3QgZG5zbWFzcSA9IG9wdGlvbnMuZGV0YWlscy52YWx1ZT8uZG5zbWFzcTsKICAgIGlmICghZG5zbWFzcSB8fCAhZG5zbWFzcS5pbnN0YWxsZWQpIHJldHVybiAib3V0bGluZSI7CiAgICBpZiAoZG5zbWFzcS5pbnN0YWxsX3N0YXRlLnN0YXR1cyA9PT0gImVycm9yIiB8fCAhZG5zbWFzcS5zZXJ2aWNlX2FjdGl2ZSkgewogICAgICByZXR1cm4gImRlc3RydWN0aXZlIjsKICAgIH0KICAgIGlmIChkbnNtYXNxLmluc3RhbGxfc3RhdGUuc3RhdHVzID09PSAiaW5zdGFsbGluZyIgfHwgIWRuc21hc3EuaW5pdGlhbGl6ZWQpIHsKICAgICAgcmV0dXJuICJzZWNvbmRhcnkiOwogICAgfQogICAgcmV0dXJuICJkZWZhdWx0IjsKICB9KTsKICBjb25zdCBkbnNtYXNxTmVlZHNJbml0aWFsaXphdGlvbiA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IGRuc21hc3EgPSBvcHRpb25zLmRldGFpbHMudmFsdWU/LmRuc21hc3E7CiAgICByZXR1cm4gQm9vbGVhbigKICAgICAgZG5zbWFzcT8uaW5zdGFsbGVkICYmICghZG5zbWFzcS5zZXJ2aWNlX2FjdGl2ZSB8fCAhZG5zbWFzcS5pbml0aWFsaXplZCksCiAgICApOwogIH0pOwogIGNvbnN0IHNob3dEbnNtYXNxQWN0aW9uID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3QgZG5zbWFzcSA9IG9wdGlvbnMuZGV0YWlscy52YWx1ZT8uZG5zbWFzcTsKICAgIHJldHVybiBCb29sZWFuKAogICAgICBkbnNtYXNxICYmCiAgICAgIChkbnNtYXNxLmluc3RhbGxfc3RhdGUuc3RhdHVzID09PSAiaW5zdGFsbGluZyIgfHwKICAgICAgICBkbnNtYXNxLmluc3RhbGxfc3RhdGUuc3RhdHVzID09PSAiZXJyb3IiIHx8CiAgICAgICAgIWRuc21hc3EuaW5zdGFsbGVkIHx8CiAgICAgICAgZG5zbWFzcU5lZWRzSW5pdGlhbGl6YXRpb24udmFsdWUpLAogICAgKTsKICB9KTsKICBjb25zdCByZXNvbHZlZElwT3B0aW9ucyA9IGNvbXB1dGVkPFNtYXJ0Q29ubmVjdExvY2FsSXBPcHRpb25bXT4oKCkgPT4gewogICAgY29uc3QgY3VycmVudE9wdGlvbnMgPSBvcHRpb25zLmRldGFpbHMudmFsdWU/LmxvY2FsX2lwX29wdGlvbnMgPz8gW107CiAgICBpZiAoCiAgICAgICFvcHRpb25zLmZvcm0uc2VsZWN0ZWRfaXB2NCB8fAogICAgICBjdXJyZW50T3B0aW9ucy5zb21lKChpdGVtKSA9PiBpdGVtLnZhbHVlID09PSBvcHRpb25zLmZvcm0uc2VsZWN0ZWRfaXB2NCkKICAgICkgewogICAgICByZXR1cm4gY3VycmVudE9wdGlvbnM7CiAgICB9CiAgICByZXR1cm4gWwogICAgICAuLi5jdXJyZW50T3B0aW9ucywKICAgICAgewogICAgICAgIGxhYmVsOiB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5jdXJyZW50Q29uZmlndXJlZElwVW5hdmFpbGFibGUiLCB7CiAgICAgICAgICBpcDogb3B0aW9ucy5mb3JtLnNlbGVjdGVkX2lwdjQsCiAgICAgICAgfSksCiAgICAgICAgdmFsdWU6IG9wdGlvbnMuZm9ybS5zZWxlY3RlZF9pcHY0LAogICAgICAgIGludGVyZmFjZTogIm1hbnVhbCIsCiAgICAgICAgbmV0bWFzazogIiIsCiAgICAgICAgcHJlZml4OiBudWxsLAogICAgICB9LAogICAgXTsKICB9KTsKICBjb25zdCBzYXZlQmxvY2tlZFJlYXNvbiA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGlmICghY29uZmlnU3RvcmUuY2FuVXNlU21hcnRDb25uZWN0KSByZXR1cm4gY2FwYWJpbGl0eUJsb2NrZWRSZWFzb24udmFsdWU7CiAgICBpZiAoIW9wdGlvbnMuZm9ybS5lbmFibGVkKSByZXR1cm4gIiI7CiAgICBpZiAoIWlzU21hcnRDb25uZWN0QXZhaWxhYmxlLnZhbHVlKSB7CiAgICAgIHJldHVybiAoCiAgICAgICAgb3B0aW9ucy5kZXRhaWxzLnZhbHVlPy5hdmFpbGFiaWxpdHkucmVhc29uIHx8CiAgICAgICAgdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3MuY3VycmVudE1vZGVVbmF2YWlsYWJsZSIpCiAgICAgICk7CiAgICB9CiAgICBpZiAoIW9wdGlvbnMuZGV0YWlscy52YWx1ZT8uZG5zbWFzcS5pbml0aWFsaXplZCkgewogICAgICByZXR1cm4gdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3MuaW5pdGlhbGl6ZURuc21hc3FGaXJzdCIpOwogICAgfQogICAgaWYgKCFvcHRpb25zLmZvcm0uc2VsZWN0ZWRfaXB2NCkgewogICAgICByZXR1cm4gdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3Muc2VsZWN0TG9jYWxJcEZpcnN0Iik7CiAgICB9CiAgICBpZiAoKG9wdGlvbnMuZGV0YWlscy52YWx1ZT8uZG9tYWlucy5sZW5ndGggPz8gMCkgPT09IDApIHsKICAgICAgcmV0dXJuIHQoImFkbWluLnNtYXJ0Q29ubmVjdFNldHRpbmdzLm5vRG9tYWluc1RvU3luYyIpOwogICAgfQogICAgcmV0dXJuICIiOwogIH0pOwoKICByZXR1cm4gewogICAgY2FwYWJpbGl0eUJsb2NrZWRSZWFzb24sCiAgICBkbnNtYXNxQWN0aW9uTGFiZWw6IGNvbXB1dGVkKCgpID0+CiAgICAgIHQoImFkbWluLnNtYXJ0Q29ubmVjdFNldHRpbmdzLmluaXRpYWxpemUiKSwKICAgICksCiAgICBkbnNtYXNxUHJvZ3Jlc3MsCiAgICBkbnNtYXNxU3RhdHVzTGFiZWwsCiAgICBkbnNtYXNxU3RhdHVzVmFyaWFudCwKICAgIGRuc21hc3FTdW1tYXJ5VGV4dCwKICAgIGlzRGlydHksCiAgICBpc1NtYXJ0Q29ubmVjdEF2YWlsYWJsZSwKICAgIHJlc29sdmVkSXBPcHRpb25zLAogICAgc2F2ZUJsb2NrZWRSZWFzb24sCiAgICBzaG93QWR2YW5jZWRDYXJkcywKICAgIHNob3dEbnNtYXNxQWN0aW9uLAogICAgc2hvd0Ruc21hc3FDYXJkLAogICAgc2hvd0Ruc21hc3FTZXR1cENhcmQsCiAgfTsKfTsK
+import { computed, type Ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { useConfigStore } from "@/store/config";
+import type {
+  SmartConnectConfig,
+  SmartConnectDetails,
+  SmartConnectLocalIpOption,
+} from "@/types";
+import { hasUnsavedSmartConnectDraft } from "./smartConnectModel";
+
+export const useSmartConnectViewModel = (options: {
+  details: Ref<SmartConnectDetails | null>;
+  form: SmartConnectConfig;
+}) => {
+  const { t } = useI18n();
+  const configStore = useConfigStore();
+  const isDirty = computed(() =>
+    hasUnsavedSmartConnectDraft(options.details.value, options.form),
+  );
+  const capabilityBlockedReason = computed(() => {
+    if (configStore.canUseSmartConnect) return "";
+    return configStore.isDockerDeployment
+      ? t("admin.smartConnectSettings.dockerUnsupported")
+      : t("admin.smartConnectSettings.environmentUnsupported");
+  });
+  const isSmartConnectAvailable = computed(
+    () => options.details.value?.availability.available === true,
+  );
+  const showDnsmasqCard = computed(() => options.form.enabled);
+  const isDnsmasqReady = computed(() => {
+    const dnsmasq = options.details.value?.dnsmasq;
+    return Boolean(
+      dnsmasq &&
+      dnsmasq.install_state.status !== "installing" &&
+      dnsmasq.install_state.status !== "error" &&
+      dnsmasq.installed &&
+      dnsmasq.service_active &&
+      dnsmasq.initialized,
+    );
+  });
+  const showDnsmasqSetupCard = computed(
+    () => showDnsmasqCard.value && !isDnsmasqReady.value,
+  );
+  const showAdvancedCards = computed(
+    () => options.form.enabled && isDnsmasqReady.value,
+  );
+  const dnsmasqSummaryText = computed(() => {
+    const dnsmasq = options.details.value?.dnsmasq;
+    if (!dnsmasq) return "";
+    return [
+      dnsmasq.service_active
+        ? t("admin.smartConnectSettings.serviceRunning")
+        : t("admin.smartConnectSettings.serviceStopped"),
+      t("admin.smartConnectSettings.managedRules", {
+        count: dnsmasq.runtime.managed_rule_count,
+      }),
+    ].join(" · ");
+  });
+  const dnsmasqProgress = computed(() => {
+    const value = Number(
+      options.details.value?.dnsmasq.install_state.progress ?? 0,
+    );
+    return Number.isFinite(value) ? Math.max(0, Math.min(100, value)) : 0;
+  });
+  const dnsmasqStatusLabel = computed(() => {
+    const dnsmasq = options.details.value?.dnsmasq;
+    if (!dnsmasq) return t("admin.smartConnectSettings.loading");
+    if (dnsmasq.install_state.status === "installing") {
+      return t("admin.smartConnectSettings.installing");
+    }
+    if (dnsmasq.install_state.status === "error") {
+      return t("admin.smartConnectSettings.abnormal");
+    }
+    if (!dnsmasq.installed) {
+      return t("admin.smartConnectSettings.notInstalled");
+    }
+    if (!dnsmasq.service_active) {
+      return t("admin.smartConnectSettings.notRunning");
+    }
+    if (!dnsmasq.initialized) {
+      return t("admin.smartConnectSettings.pendingInitialization");
+    }
+    return t("admin.smartConnectSettings.ready");
+  });
+  const dnsmasqStatusVariant = computed(() => {
+    const dnsmasq = options.details.value?.dnsmasq;
+    if (!dnsmasq || !dnsmasq.installed) return "outline";
+    if (dnsmasq.install_state.status === "error" || !dnsmasq.service_active) {
+      return "destructive";
+    }
+    if (dnsmasq.install_state.status === "installing" || !dnsmasq.initialized) {
+      return "secondary";
+    }
+    return "default";
+  });
+  const dnsmasqNeedsInitialization = computed(() => {
+    const dnsmasq = options.details.value?.dnsmasq;
+    return Boolean(
+      dnsmasq?.installed && (!dnsmasq.service_active || !dnsmasq.initialized),
+    );
+  });
+  const showDnsmasqAction = computed(() => {
+    const dnsmasq = options.details.value?.dnsmasq;
+    return Boolean(
+      dnsmasq &&
+      (dnsmasq.install_state.status === "installing" ||
+        dnsmasq.install_state.status === "error" ||
+        !dnsmasq.installed ||
+        dnsmasqNeedsInitialization.value),
+    );
+  });
+  const resolvedIpOptions = computed<SmartConnectLocalIpOption[]>(() => {
+    const currentOptions = options.details.value?.local_ip_options ?? [];
+    if (
+      !options.form.selected_ipv4 ||
+      currentOptions.some((item) => item.value === options.form.selected_ipv4)
+    ) {
+      return currentOptions;
+    }
+    return [
+      ...currentOptions,
+      {
+        label: t("admin.smartConnectSettings.currentConfiguredIpUnavailable", {
+          ip: options.form.selected_ipv4,
+        }),
+        value: options.form.selected_ipv4,
+        interface: "manual",
+        netmask: "",
+        prefix: null,
+      },
+    ];
+  });
+  const saveBlockedReason = computed(() => {
+    if (!configStore.canUseSmartConnect) return capabilityBlockedReason.value;
+    if (!options.form.enabled) return "";
+    if (!isSmartConnectAvailable.value) {
+      return (
+        options.details.value?.availability.reason ||
+        t("admin.smartConnectSettings.currentModeUnavailable")
+      );
+    }
+    if (!options.details.value?.dnsmasq.initialized) {
+      return t("admin.smartConnectSettings.initializeDnsmasqFirst");
+    }
+    if (!options.form.selected_ipv4) {
+      return t("admin.smartConnectSettings.selectLocalIpFirst");
+    }
+    if ((options.details.value?.domains.length ?? 0) === 0) {
+      return t("admin.smartConnectSettings.noDomainsToSync");
+    }
+    return "";
+  });
+
+  return {
+    capabilityBlockedReason,
+    dnsmasqActionLabel: computed(() =>
+      t("admin.smartConnectSettings.initialize"),
+    ),
+    dnsmasqProgress,
+    dnsmasqStatusLabel,
+    dnsmasqStatusVariant,
+    dnsmasqSummaryText,
+    isDirty,
+    isSmartConnectAvailable,
+    resolvedIpOptions,
+    saveBlockedReason,
+    showAdvancedCards,
+    showDnsmasqAction,
+    showDnsmasqCard,
+    showDnsmasqSetupCard,
+  };
+};

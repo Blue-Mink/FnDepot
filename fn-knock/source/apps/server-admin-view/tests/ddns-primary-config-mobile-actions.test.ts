@@ -1,1 +1,41 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7CgpkZXNjcmliZSgiREROUyBwcmltYXJ5IGNvbmZpZyBtb2JpbGUgYWN0aW9ucyIsICgpID0+IHsKICBpdCgiZ3JvdXBzIGV4cGFuZGVkIGlubGluZSBhY3Rpb25zIGludG8gY2xlYXIgbW9iaWxlIHJvd3MiLCAoKSA9PiB7CiAgICBjb25zdCBzb3VyY2UgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL2RkbnMtbWFuYWdlbWVudC9ERE5TUHJpbWFyeUNvbmZpZ0NhcmQudnVlIiwKICAgICk7CiAgICBjb25zdCBhY3Rpb25zID0gc291cmNlLnNsaWNlKAogICAgICBzb3VyY2UuaW5kZXhPZignPHRlbXBsYXRlICNhY3Rpb25zPSJ7IGNvbGxhcHNlIH0iPicpLAogICAgKTsKCiAgICBhc3NlcnQubWF0Y2goYWN0aW9ucywgL2lubGluZS1jbGFzcz0iW14iXSpncmlkLWNvbHMtMlteIl0qc206ZmxleC91KTsKICAgIGFzc2VydC5tYXRjaChhY3Rpb25zLCAvYWRtaW5cLmRkbnNcLmNvbGxhcHNlL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFjdGlvbnMsIC9hZG1pblwuZGRuc1wuYWN0aW9ucy91KTsKICAgIGFzc2VydC5tYXRjaChhY3Rpb25zLCAvY29tbW9uXC5jYW5jZWwvdSk7CiAgICBhc3NlcnQubWF0Y2goYWN0aW9ucywgL2NvbW1vblwuc2F2ZS91KTsKICAgIGFzc2VydC5tYXRjaChhY3Rpb25zLCAvY2xhc3M9ImNvbC1zcGFuLTIvdSk7CiAgICBhc3NlcnQubWF0Y2goYWN0aW9ucywgL2FkbWluXC5kZG5zXC5zYXZlQW5kVXBkYXRlL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChhY3Rpb25zLCAvPHNwYW4gY2xhc3M9ImhpZGRlbiBzbTppbmxpbmUiPi91KTsKICB9KTsKCiAgaXQoImtlZXBzIHRoZSBmbG9hdGluZyBtb2JpbGUgYWN0aW9ucyBsYWJlbGxlZCBhbmQgZ2l2ZXMgdGhlIHByaW1hcnkgYWN0aW9uIGl0cyBvd24gcm93IiwgKCkgPT4gewogICAgY29uc3Qgc291cmNlID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9kZG5zLW1hbmFnZW1lbnQvREROU1ByaW1hcnlDb25maWdDYXJkLnZ1ZSIsCiAgICApOwogICAgY29uc3QgZmxvYXRpbmcgPSBzb3VyY2Uuc2xpY2Uoc291cmNlLmluZGV4T2YoIjx0ZW1wbGF0ZSAjZmxvYXRpbmc+IikpOwoKICAgIGFzc2VydC5tYXRjaChzb3VyY2UsIC9mbG9hdGluZy1jbGFzcz0idy1mdWxsIHNtOnctZml0Ii91KTsKICAgIGFzc2VydC5tYXRjaChmbG9hdGluZywgL2ZsZXgtMS91KTsKICAgIGFzc2VydC5tYXRjaChmbG9hdGluZywgL2Jhc2lzLWZ1bGwvdSk7CiAgICBhc3NlcnQubWF0Y2goZmxvYXRpbmcsIC9jb21tb25cLmNhbmNlbC91KTsKICAgIGFzc2VydC5tYXRjaChmbG9hdGluZywgL2NvbW1vblwuc2F2ZS91KTsKICAgIGFzc2VydC5tYXRjaChmbG9hdGluZywgL2FkbWluXC5kZG5zXC5zYXZlQW5kVXBkYXRlL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChmbG9hdGluZywgLzxzcGFuIGNsYXNzPSJoaWRkZW4gc206aW5saW5lIj4vdSk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+describe("DDNS primary config mobile actions", () => {
+  it("groups expanded inline actions into clear mobile rows", () => {
+    const source = readSource(
+      "../src/views/ddns-management/DDNSPrimaryConfigCard.vue",
+    );
+    const actions = source.slice(
+      source.indexOf('<template #actions="{ collapse }">'),
+    );
+
+    assert.match(actions, /inline-class="[^"]*grid-cols-2[^"]*sm:flex/u);
+    assert.match(actions, /admin\.ddns\.collapse/u);
+    assert.match(actions, /admin\.ddns\.actions/u);
+    assert.match(actions, /common\.cancel/u);
+    assert.match(actions, /common\.save/u);
+    assert.match(actions, /class="col-span-2/u);
+    assert.match(actions, /admin\.ddns\.saveAndUpdate/u);
+    assert.doesNotMatch(actions, /<span class="hidden sm:inline">/u);
+  });
+
+  it("keeps the floating mobile actions labelled and gives the primary action its own row", () => {
+    const source = readSource(
+      "../src/views/ddns-management/DDNSPrimaryConfigCard.vue",
+    );
+    const floating = source.slice(source.indexOf("<template #floating>"));
+
+    assert.match(source, /floating-class="w-full sm:w-fit"/u);
+    assert.match(floating, /flex-1/u);
+    assert.match(floating, /basis-full/u);
+    assert.match(floating, /common\.cancel/u);
+    assert.match(floating, /common\.save/u);
+    assert.match(floating, /admin\.ddns\.saveAndUpdate/u);
+    assert.doesNotMatch(floating, /<span class="hidden sm:inline">/u);
+  });
+});

@@ -1,1 +1,216 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gInZ1ZS1yb3V0ZXIiOwppbXBvcnQgeyB1c2VNZWRpYVF1ZXJ5TWF0Y2ggfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZU1lZGlhUXVlcnlNYXRjaCI7CmltcG9ydCB7IGlzUHJvdGVjdGVkQWRtaW5QYW5lbERlcGxveW1lbnRUYXJnZXQgfSBmcm9tICIuLi8uLi9saWIvYWRtaW4tcGFuZWwtcnVudGltZSI7CmltcG9ydCB7IHVzZUNvbmZpZ1N0b3JlIH0gZnJvbSAiLi4vLi4vc3RvcmUvY29uZmlnIjsKaW1wb3J0IHsgdXNlRG9ja2VyQWRtaW5BdXRoU3RvcmUgfSBmcm9tICIuLi8uLi9zdG9yZS9kb2NrZXJBZG1pbkF1dGgiOwppbXBvcnQgdHlwZSB7CiAgQXV0aEFjY291bnQsCiAgQXV0aExvZ2luTW9kZSwKICBBdXRoTG9naW5Nb2RlU3RhdHVzLAogIEhvc3RNYXBwaW5nLAogIFN0cmVhbU1hcHBpbmcsCiAgVE9UUENyZWRlbnRpYWwsCn0gZnJvbSAiLi4vLi4vdHlwZXMiOwppbXBvcnQgeyB1c2VBdXRoQWNjb3VudFdvcmtmbG93IH0gZnJvbSAiLi91c2VBdXRoQWNjb3VudFdvcmtmbG93IjsKaW1wb3J0IHsgdXNlQXV0aENyZWRlbnRpYWxUcmFuc2ZlciB9IGZyb20gIi4vdXNlQXV0aENyZWRlbnRpYWxUcmFuc2ZlciI7CmltcG9ydCB7IHVzZUF1dGhNb2RlU3dpdGNoIH0gZnJvbSAiLi91c2VBdXRoTW9kZVN3aXRjaCI7CmltcG9ydCB7IHVzZUF1dGhTZXR0aW5nc1Jlc291cmNlIH0gZnJvbSAiLi91c2VBdXRoU2V0dGluZ3NSZXNvdXJjZSI7CmltcG9ydCB7CiAgbm9ybWFsaXplQXV0aFN1YmRvbWFpbkFjY2VzcywKICB1c2VBdXRoU3ViZG9tYWluQWNjZXNzLAp9IGZyb20gIi4vdXNlQXV0aFN1YmRvbWFpbkFjY2VzcyI7CmltcG9ydCB7IHVzZURvY2tlckFkbWluQWNjZXNzU2NvcGVzIH0gZnJvbSAiLi91c2VEb2NrZXJBZG1pbkFjY2Vzc1Njb3BlcyI7CmltcG9ydCB7IHVzZVRvdHBTZXR1cFdvcmtmbG93IH0gZnJvbSAiLi91c2VUb3RwU2V0dXBXb3JrZmxvdyI7CgpleHBvcnQgZnVuY3Rpb24gdXNlQXV0aFNldHRpbmdzUGFnZSgpIHsKICBjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTsKICBjb25zdCBkb2NrZXJBZG1pbkF1dGhTdG9yZSA9IHVzZURvY2tlckFkbWluQXV0aFN0b3JlKCk7CiAgY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwogIGNvbnN0IGNyZWRlbnRpYWxzID0gcmVmPFRPVFBDcmVkZW50aWFsW10+KFtdKTsKICBjb25zdCBhdXRoQWNjb3VudHMgPSByZWY8QXV0aEFjY291bnRbXT4oW10pOwogIGNvbnN0IGF1dGhMb2dpbk1vZGUgPSByZWY8QXV0aExvZ2luTW9kZT4oInRvdHAiKTsKICBjb25zdCBhdXRoTW9kZVN0YXR1cyA9IHJlZjxBdXRoTG9naW5Nb2RlU3RhdHVzIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgaG9zdE1hcHBpbmdzID0gcmVmPEhvc3RNYXBwaW5nW10+KFtdKTsKICBjb25zdCBzdHJlYW1NYXBwaW5ncyA9IHJlZjxTdHJlYW1NYXBwaW5nW10+KFtdKTsKICBjb25zdCBvcGVuQWRtaW5QYW5lbEFjY2Vzc1Rvb2x0aXBJZCA9IHJlZjxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBpc1RvdWNoSW50ZXJhY3Rpb24gPSB1c2VNZWRpYVF1ZXJ5TWF0Y2goCiAgICAiKGhvdmVyOiBub25lKSwgKHBvaW50ZXI6IGNvYXJzZSkiLAogICk7CiAgY29uc3Qgd29sRmVhdHVyZUVuYWJsZWQgPSBjb21wdXRlZCgKICAgICgpID0+IGNvbmZpZ1N0b3JlLmNvbmZpZz8ud29sX2ZlYXR1cmU/LmVuYWJsZWQgPT09IHRydWUsCiAgKTsKCiAgY29uc3QgYXV0aE1vZGVDb250cm9sbGVyID0gdXNlQXV0aE1vZGVTd2l0Y2goewogICAgYXV0aExvZ2luTW9kZSwKICAgIGF1dGhNb2RlU3RhdHVzLAogICAgcmVmcmVzaFN0YXR1czogZmV0Y2hTdGF0dXMsCiAgICB0cmFuc2xhdGU6IChrZXkpID0+IHQoa2V5KSwKICB9KTsKICBjb25zdCBhY2NvdW50Q29udHJvbGxlciA9IHVzZUF1dGhBY2NvdW50V29ya2Zsb3coewogICAgYXV0aEFjY291bnRzLAogICAgbm9ybWFsaXplU3ViZG9tYWluQWNjZXNzOiBub3JtYWxpemVBdXRoU3ViZG9tYWluQWNjZXNzLAogICAgcmVmcmVzaEF1dGhNb2RlUHJldmlldzogYXV0aE1vZGVDb250cm9sbGVyLnJlZnJlc2hBdXRoTW9kZVByZXZpZXcsCiAgICBzaG93QXV0aE1vZGVTd2l0Y2hEaWFsb2c6IGF1dGhNb2RlQ29udHJvbGxlci5zaG93QXV0aE1vZGVTd2l0Y2hEaWFsb2csCiAgfSk7CiAgY29uc3Qgc3ViZG9tYWluQWNjZXNzQ29udHJvbGxlciA9IHVzZUF1dGhTdWJkb21haW5BY2Nlc3MoewogICAgY3JlZGVudGlhbHMsCiAgICBob3N0TWFwcGluZ3MsCiAgICBzdHJlYW1NYXBwaW5ncywKICAgIHdvbEZlYXR1cmVFbmFibGVkLAogICAgcmVwbGFjZUF1dGhBY2NvdW50OiBhY2NvdW50Q29udHJvbGxlci5yZXBsYWNlQXV0aEFjY291bnQsCiAgICB0cmFuc2xhdGU6IChrZXksIHBhcmFtcykgPT4gKHBhcmFtcyA/IHQoa2V5LCBwYXJhbXMpIDogdChrZXkpKSwKICB9KTsKICBjb25zdCBkb2NrZXJBY2Nlc3NDb250cm9sbGVyID0gdXNlRG9ja2VyQWRtaW5BY2Nlc3NTY29wZXMoewogICAgY3JlZGVudGlhbHMsCiAgICByZXBsYWNlQXV0aEFjY291bnQ6IGFjY291bnRDb250cm9sbGVyLnJlcGxhY2VBdXRoQWNjb3VudCwKICAgIHRyYW5zbGF0ZTogKGtleSkgPT4gdChrZXkpLAogIH0pOwogIGNvbnN0IHRvdHBDb250cm9sbGVyID0gdXNlVG90cFNldHVwV29ya2Zsb3coewogICAgY3JlZGVudGlhbHMsCiAgICBvblJlb3BlbkF1dGhNb2RlU3dpdGNoOiBhc3luYyAoKSA9PiB7CiAgICAgIGF1dGhNb2RlQ29udHJvbGxlci5zaG93QXV0aE1vZGVTd2l0Y2hEaWFsb2cudmFsdWUgPSB0cnVlOwogICAgICBhd2FpdCBhdXRoTW9kZUNvbnRyb2xsZXIucmVmcmVzaEF1dGhNb2RlUHJldmlldygpOwogICAgfSwKICAgIHJlZnJlc2hTdGF0dXM6IGZldGNoU3RhdHVzLAogICAgcmVwbGFjZUF1dGhBY2NvdW50OiBhY2NvdW50Q29udHJvbGxlci5yZXBsYWNlQXV0aEFjY291bnQsCiAgICB0cmFuc2xhdGU6IChrZXksIHBhcmFtcykgPT4gKHBhcmFtcyA/IHQoa2V5LCBwYXJhbXMpIDogdChrZXkpKSwKICB9KTsKICBjb25zdCBjcmVkZW50aWFsVHJhbnNmZXJDb250cm9sbGVyID0gdXNlQXV0aENyZWRlbnRpYWxUcmFuc2Zlcih7CiAgICBhdXRoQWNjb3VudHMsCiAgICBhdXRoTG9naW5Nb2RlLAogICAgY3JlZGVudGlhbHMsCiAgICByZWZyZXNoU3RhdHVzOiBmZXRjaFN0YXR1cywKICAgIHRyYW5zbGF0ZTogKGtleSwgcGFyYW1zKSA9PiAocGFyYW1zID8gdChrZXksIHBhcmFtcykgOiB0KGtleSkpLAogIH0pOwogIGNvbnN0IGF1dGhTZXR0aW5nc1Jlc291cmNlID0gdXNlQXV0aFNldHRpbmdzUmVzb3VyY2UoewogICAgYXV0aEFjY291bnRzLAogICAgYXV0aExvZ2luTW9kZSwKICAgIGF1dGhNb2RlU3RhdHVzLAogICAgY3JlZGVudGlhbHMsCiAgICBob3N0TWFwcGluZ3MsCiAgICBzdHJlYW1NYXBwaW5ncywKICAgIG5vcm1hbGl6ZUF1dGhBY2NvdW50OiBhY2NvdW50Q29udHJvbGxlci5ub3JtYWxpemVBdXRoQWNjb3VudCwKICAgIG5vcm1hbGl6ZUNyZWRlbnRpYWw6IHN1YmRvbWFpbkFjY2Vzc0NvbnRyb2xsZXIubm9ybWFsaXplQ3JlZGVudGlhbCwKICAgIHRyYW5zbGF0ZTogKGtleSkgPT4gdChrZXkpLAogIH0pOwoKICBjb25zdCBzaG93QWRtaW5QYW5lbEFjY2Vzc0NvbHVtbiA9IGNvbXB1dGVkKCgpID0+CiAgICBpc1Byb3RlY3RlZEFkbWluUGFuZWxEZXBsb3ltZW50VGFyZ2V0KAogICAgICBkb2NrZXJBZG1pbkF1dGhTdG9yZS5zdGF0ZT8uZGVwbG95bWVudF90YXJnZXQsCiAgICApLAogICk7CiAgY29uc3QgdG90cFRhYmxlQ2xhc3MgPSBjb21wdXRlZCgoKSA9PgogICAgc2hvd0FkbWluUGFuZWxBY2Nlc3NDb2x1bW4udmFsdWUKICAgICAgPyAibWluLXctWzkyMHB4XSB0YWJsZS1maXhlZCIKICAgICAgOiAibWluLXctWzc4MHB4XSB0YWJsZS1maXhlZCIsCiAgKTsKICBjb25zdCB0b3RwVGFibGVDb2xzcGFuID0gY29tcHV0ZWQoKCkgPT4KICAgIHNob3dBZG1pblBhbmVsQWNjZXNzQ29sdW1uLnZhbHVlID8gNiA6IDUsCiAgKTsKICBjb25zdCBhdXRoQWNjb3VudFRhYmxlQ2xhc3MgPSBjb21wdXRlZCgoKSA9PgogICAgc2hvd0FkbWluUGFuZWxBY2Nlc3NDb2x1bW4udmFsdWUKICAgICAgPyAibWluLXctWzg0MHB4XSB0YWJsZS1maXhlZCIKICAgICAgOiAibWluLXctWzY4MHB4XSB0YWJsZS1maXhlZCIsCiAgKTsKICBjb25zdCBhdXRoQWNjb3VudFRhYmxlQ29sc3BhbiA9IGNvbXB1dGVkKCgpID0+CiAgICBzaG93QWRtaW5QYW5lbEFjY2Vzc0NvbHVtbi52YWx1ZSA/IDQgOiAzLAogICk7CiAgY29uc3QgYXV0aFNldHRpbmdzVGl0bGUgPSBjb21wdXRlZCgoKSA9PgogICAgYXV0aExvZ2luTW9kZS52YWx1ZSA9PT0gInBhc3N3b3JkIgogICAgICA/IHQoImFkbWluLmF1dGhTZXR0aW5ncy5wYXNzd29yZEFjY291bnRzVGl0bGUiKQogICAgICA6IHQoImFkbWluLmF1dGhTZXR0aW5ncy50aXRsZSIpLAogICk7CiAgY29uc3QgYXV0aFNldHRpbmdzRGVzY3JpcHRpb24gPSBjb21wdXRlZCgoKSA9PgogICAgYXV0aExvZ2luTW9kZS52YWx1ZSA9PT0gInBhc3N3b3JkIgogICAgICA/IHQoImFkbWluLmF1dGhTZXR0aW5ncy5wYXNzd29yZEFjY291bnRzRGVzY3JpcHRpb24iKQogICAgICA6IHQoImFkbWluLmF1dGhTZXR0aW5ncy5kZXNjcmlwdGlvbiIpLAogICk7CiAgY29uc3QgcHJpbWFyeUF1dGhBY3Rpb25MYWJlbCA9IGNvbXB1dGVkKCgpID0+CiAgICBhdXRoTG9naW5Nb2RlLnZhbHVlID09PSAicGFzc3dvcmQiCiAgICAgID8gdCgiYWRtaW4uYXV0aFNldHRpbmdzLmNyZWF0ZUFjY291bnQiKQogICAgICA6IHQoImFkbWluLmF1dGhTZXR0aW5ncy5iaW5kTmV3VG9rZW4iKSwKICApOwoKICBhc3luYyBmdW5jdGlvbiBmZXRjaFN0YXR1cygpIHsKICAgIGF3YWl0IGF1dGhTZXR0aW5nc1Jlc291cmNlLmZldGNoU3RhdHVzKCk7CiAgfQoKICBjb25zdCBoYW5kbGVQcmltYXJ5QXV0aEFjdGlvbiA9ICgpID0+IHsKICAgIGlmIChhdXRoTG9naW5Nb2RlLnZhbHVlID09PSAicGFzc3dvcmQiKSB7CiAgICAgIGFjY291bnRDb250cm9sbGVyLm9wZW5DcmVhdGVBdXRoQWNjb3VudERpYWxvZygpOwogICAgICByZXR1cm47CiAgICB9CiAgICB2b2lkIHRvdHBDb250cm9sbGVyLm9wZW5TZXR1cERpYWxvZygpOwogIH07CiAgY29uc3QgaXNBZG1pblBhbmVsQWNjZXNzVG9vbHRpcE9wZW4gPSAodG90cElkOiBzdHJpbmcpID0+CiAgICBvcGVuQWRtaW5QYW5lbEFjY2Vzc1Rvb2x0aXBJZC52YWx1ZSA9PT0gdG90cElkOwogIGNvbnN0IGhhbmRsZUFkbWluUGFuZWxBY2Nlc3NUb29sdGlwT3BlbkNoYW5nZSA9ICgKICAgIHRvdHBJZDogc3RyaW5nLAogICAgbmV4dE9wZW46IGJvb2xlYW4sCiAgKSA9PiB7CiAgICBvcGVuQWRtaW5QYW5lbEFjY2Vzc1Rvb2x0aXBJZC52YWx1ZSA9IG5leHRPcGVuID8gdG90cElkIDogbnVsbDsKICB9OwogIGNvbnN0IGhhbmRsZUFkbWluUGFuZWxBY2Nlc3NUb29sdGlwQ2xpY2sgPSAodG90cElkOiBzdHJpbmcpID0+IHsKICAgIGlmICghaXNUb3VjaEludGVyYWN0aW9uLnZhbHVlKSByZXR1cm47CiAgICBvcGVuQWRtaW5QYW5lbEFjY2Vzc1Rvb2x0aXBJZC52YWx1ZSA9CiAgICAgIG9wZW5BZG1pblBhbmVsQWNjZXNzVG9vbHRpcElkLnZhbHVlID09PSB0b3RwSWQgPyBudWxsIDogdG90cElkOwogIH07CiAgY29uc3Qgb3BlbkFjY291bnRUb3RwU2V0dXBEaWFsb2dGcm9tU3dpdGNoID0gYXN5bmMgKAogICAgYWNjb3VudDogQXV0aEFjY291bnQsCiAgKSA9PiB7CiAgICBhdXRoTW9kZUNvbnRyb2xsZXIuc2hvd0F1dGhNb2RlU3dpdGNoRGlhbG9nLnZhbHVlID0gZmFsc2U7CiAgICBhd2FpdCB0b3RwQ29udHJvbGxlci5vcGVuQWNjb3VudFRvdHBTZXR1cERpYWxvZyhhY2NvdW50LCB0cnVlKTsKICB9OwogIGNvbnN0IHZhbGlkYXRlQ29tbWVudCA9IChuZXdUZXh0OiBzdHJpbmcsIGlkOiBzdHJpbmcpID0+IHsKICAgIGlmICgKICAgICAgY3JlZGVudGlhbHMudmFsdWUuc29tZSgKICAgICAgICAoY3JlZGVudGlhbCkgPT4KICAgICAgICAgIGNyZWRlbnRpYWwuY29tbWVudCA9PT0gbmV3VGV4dCAmJiBjcmVkZW50aWFsLmlkICE9PSBpZCwKICAgICAgKQogICAgKSB7CiAgICAgIHJldHVybiB0KCJhZG1pbi5hdXRoU2V0dGluZ3MuY29tbWVudER1cGxpY2F0ZSIpOwogICAgfQogIH07CiAgY29uc3QgZ29Ub1Bhc3NrZXlzID0gKHRvdHBJZDogc3RyaW5nKSA9PiB7CiAgICB2b2lkIHJvdXRlci5wdXNoKGAvYXV0aC9wYXNza2V5cy8ke2VuY29kZVVSSUNvbXBvbmVudCh0b3RwSWQpfWApOwogIH07CiAgY29uc3QgZ29Ub09pZGNQcm92aWRlcnMgPSAoKSA9PiB7CiAgICB2b2lkIHJvdXRlci5wdXNoKCIvYXV0aC9leHRlcm5hbC1wcm92aWRlcnMiKTsKICB9OwoKICByZXR1cm4gewogICAgLi4uYWNjb3VudENvbnRyb2xsZXIsCiAgICAuLi5hdXRoTW9kZUNvbnRyb2xsZXIsCiAgICAuLi5hdXRoU2V0dGluZ3NSZXNvdXJjZSwKICAgIC4uLmNyZWRlbnRpYWxUcmFuc2ZlckNvbnRyb2xsZXIsCiAgICAuLi5kb2NrZXJBY2Nlc3NDb250cm9sbGVyLAogICAgLi4uc3ViZG9tYWluQWNjZXNzQ29udHJvbGxlciwKICAgIC4uLnRvdHBDb250cm9sbGVyLAogICAgYXV0aEFjY291bnRUYWJsZUNsYXNzLAogICAgYXV0aEFjY291bnRUYWJsZUNvbHNwYW4sCiAgICBhdXRoQWNjb3VudHMsCiAgICBhdXRoTG9naW5Nb2RlLAogICAgYXV0aFNldHRpbmdzRGVzY3JpcHRpb24sCiAgICBhdXRoU2V0dGluZ3NUaXRsZSwKICAgIGNyZWRlbnRpYWxzLAogICAgZ29Ub09pZGNQcm92aWRlcnMsCiAgICBnb1RvUGFzc2tleXMsCiAgICBoYW5kbGVBZG1pblBhbmVsQWNjZXNzVG9vbHRpcENsaWNrLAogICAgaGFuZGxlQWRtaW5QYW5lbEFjY2Vzc1Rvb2x0aXBPcGVuQ2hhbmdlLAogICAgaGFuZGxlUHJpbWFyeUF1dGhBY3Rpb24sCiAgICBpc0FkbWluUGFuZWxBY2Nlc3NUb29sdGlwT3BlbiwKICAgIG9wZW5BY2NvdW50VG90cFNldHVwRGlhbG9nRnJvbVN3aXRjaCwKICAgIHByaW1hcnlBdXRoQWN0aW9uTGFiZWwsCiAgICBzaG93QWRtaW5QYW5lbEFjY2Vzc0NvbHVtbiwKICAgIHRvdHBUYWJsZUNsYXNzLAogICAgdG90cFRhYmxlQ29sc3BhbiwKICAgIHZhbGlkYXRlQ29tbWVudCwKICB9Owp9CgpleHBvcnQgdHlwZSBBdXRoU2V0dGluZ3NQYWdlQ29udHJvbGxlciA9IFJldHVyblR5cGU8CiAgdHlwZW9mIHVzZUF1dGhTZXR0aW5nc1BhZ2UKPjsK
+import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRouter } from "vue-router";
+import { useMediaQueryMatch } from "@admin-shared/composables/useMediaQueryMatch";
+import { isProtectedAdminPanelDeploymentTarget } from "../../lib/admin-panel-runtime";
+import { useConfigStore } from "../../store/config";
+import { useDockerAdminAuthStore } from "../../store/dockerAdminAuth";
+import type {
+  AuthAccount,
+  AuthLoginMode,
+  AuthLoginModeStatus,
+  HostMapping,
+  StreamMapping,
+  TOTPCredential,
+} from "../../types";
+import { useAuthAccountWorkflow } from "./useAuthAccountWorkflow";
+import { useAuthCredentialTransfer } from "./useAuthCredentialTransfer";
+import { useAuthModeSwitch } from "./useAuthModeSwitch";
+import { useAuthSettingsResource } from "./useAuthSettingsResource";
+import {
+  normalizeAuthSubdomainAccess,
+  useAuthSubdomainAccess,
+} from "./useAuthSubdomainAccess";
+import { useDockerAdminAccessScopes } from "./useDockerAdminAccessScopes";
+import { useTotpSetupWorkflow } from "./useTotpSetupWorkflow";
+
+export function useAuthSettingsPage() {
+  const { t } = useI18n();
+  const router = useRouter();
+  const dockerAdminAuthStore = useDockerAdminAuthStore();
+  const configStore = useConfigStore();
+  const credentials = ref<TOTPCredential[]>([]);
+  const authAccounts = ref<AuthAccount[]>([]);
+  const authLoginMode = ref<AuthLoginMode>("totp");
+  const authModeStatus = ref<AuthLoginModeStatus | null>(null);
+  const hostMappings = ref<HostMapping[]>([]);
+  const streamMappings = ref<StreamMapping[]>([]);
+  const openAdminPanelAccessTooltipId = ref<string | null>(null);
+  const isTouchInteraction = useMediaQueryMatch(
+    "(hover: none), (pointer: coarse)",
+  );
+  const wolFeatureEnabled = computed(
+    () => configStore.config?.wol_feature?.enabled === true,
+  );
+
+  const authModeController = useAuthModeSwitch({
+    authLoginMode,
+    authModeStatus,
+    refreshStatus: fetchStatus,
+    translate: (key) => t(key),
+  });
+  const accountController = useAuthAccountWorkflow({
+    authAccounts,
+    normalizeSubdomainAccess: normalizeAuthSubdomainAccess,
+    refreshAuthModePreview: authModeController.refreshAuthModePreview,
+    showAuthModeSwitchDialog: authModeController.showAuthModeSwitchDialog,
+  });
+  const subdomainAccessController = useAuthSubdomainAccess({
+    credentials,
+    hostMappings,
+    streamMappings,
+    wolFeatureEnabled,
+    replaceAuthAccount: accountController.replaceAuthAccount,
+    translate: (key, params) => (params ? t(key, params) : t(key)),
+  });
+  const dockerAccessController = useDockerAdminAccessScopes({
+    credentials,
+    replaceAuthAccount: accountController.replaceAuthAccount,
+    translate: (key) => t(key),
+  });
+  const totpController = useTotpSetupWorkflow({
+    credentials,
+    onReopenAuthModeSwitch: async () => {
+      authModeController.showAuthModeSwitchDialog.value = true;
+      await authModeController.refreshAuthModePreview();
+    },
+    refreshStatus: fetchStatus,
+    replaceAuthAccount: accountController.replaceAuthAccount,
+    translate: (key, params) => (params ? t(key, params) : t(key)),
+  });
+  const credentialTransferController = useAuthCredentialTransfer({
+    authAccounts,
+    authLoginMode,
+    credentials,
+    refreshStatus: fetchStatus,
+    translate: (key, params) => (params ? t(key, params) : t(key)),
+  });
+  const authSettingsResource = useAuthSettingsResource({
+    authAccounts,
+    authLoginMode,
+    authModeStatus,
+    credentials,
+    hostMappings,
+    streamMappings,
+    normalizeAuthAccount: accountController.normalizeAuthAccount,
+    normalizeCredential: subdomainAccessController.normalizeCredential,
+    translate: (key) => t(key),
+  });
+
+  const showAdminPanelAccessColumn = computed(() =>
+    isProtectedAdminPanelDeploymentTarget(
+      dockerAdminAuthStore.state?.deployment_target,
+    ),
+  );
+  const totpTableClass = computed(() =>
+    showAdminPanelAccessColumn.value
+      ? "min-w-[920px] table-fixed"
+      : "min-w-[780px] table-fixed",
+  );
+  const totpTableColspan = computed(() =>
+    showAdminPanelAccessColumn.value ? 6 : 5,
+  );
+  const authAccountTableClass = computed(() =>
+    showAdminPanelAccessColumn.value
+      ? "min-w-[840px] table-fixed"
+      : "min-w-[680px] table-fixed",
+  );
+  const authAccountTableColspan = computed(() =>
+    showAdminPanelAccessColumn.value ? 4 : 3,
+  );
+  const authSettingsTitle = computed(() =>
+    authLoginMode.value === "password"
+      ? t("admin.authSettings.passwordAccountsTitle")
+      : t("admin.authSettings.title"),
+  );
+  const authSettingsDescription = computed(() =>
+    authLoginMode.value === "password"
+      ? t("admin.authSettings.passwordAccountsDescription")
+      : t("admin.authSettings.description"),
+  );
+  const primaryAuthActionLabel = computed(() =>
+    authLoginMode.value === "password"
+      ? t("admin.authSettings.createAccount")
+      : t("admin.authSettings.bindNewToken"),
+  );
+
+  async function fetchStatus() {
+    await authSettingsResource.fetchStatus();
+  }
+
+  const handlePrimaryAuthAction = () => {
+    if (authLoginMode.value === "password") {
+      accountController.openCreateAuthAccountDialog();
+      return;
+    }
+    void totpController.openSetupDialog();
+  };
+  const isAdminPanelAccessTooltipOpen = (totpId: string) =>
+    openAdminPanelAccessTooltipId.value === totpId;
+  const handleAdminPanelAccessTooltipOpenChange = (
+    totpId: string,
+    nextOpen: boolean,
+  ) => {
+    openAdminPanelAccessTooltipId.value = nextOpen ? totpId : null;
+  };
+  const handleAdminPanelAccessTooltipClick = (totpId: string) => {
+    if (!isTouchInteraction.value) return;
+    openAdminPanelAccessTooltipId.value =
+      openAdminPanelAccessTooltipId.value === totpId ? null : totpId;
+  };
+  const openAccountTotpSetupDialogFromSwitch = async (
+    account: AuthAccount,
+  ) => {
+    authModeController.showAuthModeSwitchDialog.value = false;
+    await totpController.openAccountTotpSetupDialog(account, true);
+  };
+  const validateComment = (newText: string, id: string) => {
+    if (
+      credentials.value.some(
+        (credential) =>
+          credential.comment === newText && credential.id !== id,
+      )
+    ) {
+      return t("admin.authSettings.commentDuplicate");
+    }
+  };
+  const goToPasskeys = (totpId: string) => {
+    void router.push(`/auth/passkeys/${encodeURIComponent(totpId)}`);
+  };
+  const goToOidcProviders = () => {
+    void router.push("/auth/external-providers");
+  };
+
+  return {
+    ...accountController,
+    ...authModeController,
+    ...authSettingsResource,
+    ...credentialTransferController,
+    ...dockerAccessController,
+    ...subdomainAccessController,
+    ...totpController,
+    authAccountTableClass,
+    authAccountTableColspan,
+    authAccounts,
+    authLoginMode,
+    authSettingsDescription,
+    authSettingsTitle,
+    credentials,
+    goToOidcProviders,
+    goToPasskeys,
+    handleAdminPanelAccessTooltipClick,
+    handleAdminPanelAccessTooltipOpenChange,
+    handlePrimaryAuthAction,
+    isAdminPanelAccessTooltipOpen,
+    openAccountTotpSetupDialogFromSwitch,
+    primaryAuthActionLabel,
+    showAdminPanelAccessColumn,
+    totpTableClass,
+    totpTableColspan,
+    validateComment,
+  };
+}
+
+export type AuthSettingsPageController = ReturnType<
+  typeof useAuthSettingsPage
+>;

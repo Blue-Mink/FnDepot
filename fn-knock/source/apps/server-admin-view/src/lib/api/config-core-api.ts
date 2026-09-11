@@ -1,1 +1,162 @@
-aW1wb3J0IHR5cGUgewogIGNvbXBvbmVudHMgYXMgQXBpQ29udHJhY3RDb21wb25lbnRzLAogIG9wZXJhdGlvbnMgYXMgQXBpQ29udHJhY3RPcGVyYXRpb25zLAp9IGZyb20gIkBmbi1rbm9jay9hcGktY29udHJhY3QiOwppbXBvcnQgdHlwZSB7CiAgQXV0aENyZWRlbnRpYWxTZXR0aW5ncywKICBEYXNoYm9hcmREaXNwbGF5Q29uZmlnLAogIERvY2tlckFkbWluQm9vdHN0cmFwU3RhdGUsCiAgTG9jYWxlQ29uZmlnLAogIFdPTEZlYXR1cmVDb25maWcsCn0gZnJvbSAiLi4vLi4vdHlwZXMiOwppbXBvcnQgeyBhcGlDbGllbnQgfSBmcm9tICIuL2NsaWVudCI7CmltcG9ydCB7CiAgSE9TVF9NQVBQSU5HX0NBVEFMT0dfUkVWSVNJT05fSEVBREVSLAogIGhvc3RNYXBwaW5nc1JldmlzaW9uRnJvbUhlYWRlcnMsCiAgdHlwZSBSZXZpc2lvbmVkQ29uZmlnLAp9IGZyb20gIi4vY29uZmlnLXJldmlzaW9ucyI7Cgp0eXBlIEF1dGhDcmVkZW50aWFsU2V0dGluZ3NVcGRhdGUgPQogIEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJBdXRoQ3JlZGVudGlhbFNldHRpbmdzVXBkYXRlRGF0YSJdOwp0eXBlIERhc2hib2FyZERpc3BsYXlVcGRhdGUgPQogIEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJEYXNoYm9hcmREaXNwbGF5VXBkYXRlRGF0YSJdOwp0eXBlIFJ1blR5cGVVcGRhdGUgPSBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiUnVuVHlwZVVwZGF0ZURhdGEiXTsKdHlwZSBBdXRvTWFuYWdlRmlyZXdhbGxVcGRhdGUgPQogIEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJBdXRvTWFuYWdlRmlyZXdhbGxVcGRhdGVEYXRhIl07CnR5cGUgQXV0b01hbmFnZUZpcmV3YWxsRGF0YSA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIkF1dG9NYW5hZ2VGaXJld2FsbERhdGEiXTsKdHlwZSBBcHBlYXJhbmNlQ29udHJhY3QgPQogIEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJQYW5lbEFwcGVhcmFuY2VEYXRhIl07CnR5cGUgRGVmYXVsdFR1bm5lbFVwZGF0ZSA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIkRlZmF1bHRUdW5uZWxVcGRhdGVEYXRhIl07CnR5cGUgV09MRmVhdHVyZUNvbmZpZ1VwZGF0ZSA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIldvbEZlYXR1cmVDb25maWdVcGRhdGVEYXRhIl07CnR5cGUgUGFuZWxQYXNzd29yZFJlcXVlc3QgPQogIEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJQYW5lbFBhc3N3b3JkQm9keURhdGEiXTsKdHlwZSBQYW5lbExvZ2luUmVxdWVzdCA9IEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJQYW5lbExvZ2luQm9keURhdGEiXTsKdHlwZSBTeW5jUm91dGVzUmVzcG9uc2UgPQogIEFwaUNvbnRyYWN0T3BlcmF0aW9uc1sicG9zdF9hcGlfYWRtaW5fc3luY19yb3V0ZXMiXVsicmVzcG9uc2VzIl1bMjAwXVsiY29udGVudCJdWyJhcHBsaWNhdGlvbi9qc29uIl07CgpleHBvcnQgY29uc3QgUEFORUxfQk9PVFNUUkFQX1RJTUVPVVRfTVMgPSAxNV8wMDA7CgpleHBvcnQgY29uc3QgY29uZmlnQ29yZUFwaSA9IHsKICBhc3luYyBnZXREb2NrZXJBZG1pbkJvb3RzdHJhcCgpOiBQcm9taXNlPERvY2tlckFkbWluQm9vdHN0cmFwU3RhdGU+IHsKICAgIC8vIFRoZSBhcHBsaWNhdGlvbiBjYW5ub3QgZGVjaWRlIHdoZXRoZXIgdG8gcmVuZGVyIHRoZSBwYW5lbCBvciBpdHMgbG9naW4KICAgIC8vIGdhdGUgdW50aWwgdGhpcyByZXF1ZXN0IGNvbXBsZXRlcy4gQm91bmQgaXQgc28gYSBzdGFsbGVkIENHSS9iYWNrZW5kCiAgICAvLyByZW5kZXJzIHRoZSBleGlzdGluZyByZXRyeSBzdGF0ZSBpbnN0ZWFkIG9mIGFuIGluZGVmaW5pdGUgYmxhbmsgcGFnZS4KICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9wYW5lbC9ib290c3RyYXAiLCB7CiAgICAgIHRpbWVvdXQ6IFBBTkVMX0JPT1RTVFJBUF9USU1FT1VUX01TLAogICAgfSk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHNldERvY2tlckFkbWluUGFzc3dvcmQoCiAgICBwYXNzd29yZDogc3RyaW5nLAogICk6IFByb21pc2U8RG9ja2VyQWRtaW5Cb290c3RyYXBTdGF0ZT4gewogICAgY29uc3QgcGF5bG9hZCA9IHsgcGFzc3dvcmQgfSBzYXRpc2ZpZXMgUGFuZWxQYXNzd29yZFJlcXVlc3Q7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL3BhbmVsL3Bhc3N3b3JkIiwgcGF5bG9hZCk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGNoYW5nZURvY2tlckFkbWluUGFzc3dvcmQoCiAgICBwYXNzd29yZDogc3RyaW5nLAogICk6IFByb21pc2U8RG9ja2VyQWRtaW5Cb290c3RyYXBTdGF0ZT4gewogICAgY29uc3QgcGF5bG9hZCA9IHsgcGFzc3dvcmQgfSBzYXRpc2ZpZXMgUGFuZWxQYXNzd29yZFJlcXVlc3Q7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL3BhbmVsL3Bhc3N3b3JkL2NoYW5nZSIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBsb2dpbkRvY2tlckFkbWluKAogICAgcGFzc3dvcmQ6IHN0cmluZywKICAgIHJlbWVtYmVyTWUgPSBmYWxzZSwKICApOiBQcm9taXNlPERvY2tlckFkbWluQm9vdHN0cmFwU3RhdGU+IHsKICAgIGNvbnN0IHBheWxvYWQgPSB7IHBhc3N3b3JkLCByZW1lbWJlck1lIH0gc2F0aXNmaWVzIFBhbmVsTG9naW5SZXF1ZXN0OwogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9wYW5lbC9sb2dpbiIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBsb2dvdXREb2NrZXJBZG1pbigpOiBQcm9taXNlPERvY2tlckFkbWluQm9vdHN0cmFwU3RhdGU+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvcGFuZWwvbG9nb3V0Iik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGdldENvbmZpZygpOiBQcm9taXNlPFJldmlzaW9uZWRDb25maWc+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9jb25maWciKTsKICAgIHJldHVybiB7CiAgICAgIGNvbmZpZzogcmVzLmRhdGEuZGF0YSwKICAgICAgaG9zdE1hcHBpbmdzUmV2aXNpb246IGhvc3RNYXBwaW5nc1JldmlzaW9uRnJvbUhlYWRlcnMocmVzLmhlYWRlcnMpLAogICAgICBob3N0TWFwcGluZ0NhdGFsb2dSZXZpc2lvbjoKICAgICAgICBTdHJpbmcoCiAgICAgICAgICByZXMuaGVhZGVyc1tIT1NUX01BUFBJTkdfQ0FUQUxPR19SRVZJU0lPTl9IRUFERVJdID8/ICIiLAogICAgICAgICkudHJpbSgpIHx8IG51bGwsCiAgICB9OwogIH0sCiAgYXN5bmMgZ2V0TG9jYWxlQ29uZmlnKCk6IFByb21pc2U8TG9jYWxlQ29uZmlnPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvY29uZmlnL2xvY2FsZSIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRBcHBlYXJhbmNlQ29uZmlnKCk6IFByb21pc2U8QXBwZWFyYW5jZUNvbnRyYWN0PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvY29uZmlnL2FwcGVhcmFuY2UiKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgdXBkYXRlQXBwZWFyYW5jZUNvbmZpZygKICAgIHBheWxvYWQ6IEFwcGVhcmFuY2VDb250cmFjdCwKICApOiBQcm9taXNlPEFwcGVhcmFuY2VDb250cmFjdD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9jb25maWcvYXBwZWFyYW5jZSIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyB1cGRhdGVMb2NhbGVDb25maWcocGF5bG9hZDogTG9jYWxlQ29uZmlnKTogUHJvbWlzZTxMb2NhbGVDb25maWc+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvY29uZmlnL2xvY2FsZSIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyB1cGRhdGVSdW5UeXBlKHBheWxvYWQ6IFJ1blR5cGVVcGRhdGUpOiBQcm9taXNlPHN0cmluZyB8IG51bGw+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvY29uZmlnL3J1bl90eXBlIiwgcGF5bG9hZCk7CiAgICByZXR1cm4gdHlwZW9mIHJlcy5kYXRhLm1lc3NhZ2UgPT09ICJzdHJpbmciID8gcmVzLmRhdGEubWVzc2FnZSA6IG51bGw7CiAgfSwKICBhc3luYyB1cGRhdGVBdXRvTWFuYWdlRmlyZXdhbGwoCiAgICBwYXlsb2FkOiBBdXRvTWFuYWdlRmlyZXdhbGxVcGRhdGUsCiAgKTogUHJvbWlzZTxBdXRvTWFuYWdlRmlyZXdhbGxEYXRhPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL2NvbmZpZy9hdXRvX21hbmFnZV9maXJld2FsbCIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRXT0xGZWF0dXJlKCk6IFByb21pc2U8V09MRmVhdHVyZUNvbmZpZz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2NvbmZpZy93b2xfZmVhdHVyZSIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXREYXNoYm9hcmREaXNwbGF5Q29uZmlnKCk6IFByb21pc2U8RGFzaGJvYXJkRGlzcGxheUNvbmZpZz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2NvbmZpZy9kYXNoYm9hcmRfZGlzcGxheSIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRBdXRoQ3JlZGVudGlhbFNldHRpbmdzKCk6IFByb21pc2U8QXV0aENyZWRlbnRpYWxTZXR0aW5ncz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2NvbmZpZy9hdXRoX2NyZWRlbnRpYWxfc2V0dGluZ3MiKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgdXBkYXRlRGFzaGJvYXJkRGlzcGxheUNvbmZpZygKICAgIHBheWxvYWQ6IERhc2hib2FyZERpc3BsYXlVcGRhdGUsCiAgKTogUHJvbWlzZTxEYXNoYm9hcmREaXNwbGF5Q29uZmlnPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL2NvbmZpZy9kYXNoYm9hcmRfZGlzcGxheSIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyB1cGRhdGVBdXRoQ3JlZGVudGlhbFNldHRpbmdzKAogICAgcGF5bG9hZDogQXV0aENyZWRlbnRpYWxTZXR0aW5nc1VwZGF0ZSwKICApOiBQcm9taXNlPEF1dGhDcmVkZW50aWFsU2V0dGluZ3M+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KAogICAgICAiL2NvbmZpZy9hdXRoX2NyZWRlbnRpYWxfc2V0dGluZ3MiLAogICAgICBwYXlsb2FkLAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgdXBkYXRlV09MRmVhdHVyZSgKICAgIHBheWxvYWQ6IFdPTEZlYXR1cmVDb25maWdVcGRhdGUsCiAgKTogUHJvbWlzZTxXT0xGZWF0dXJlQ29uZmlnPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL2NvbmZpZy93b2xfZmVhdHVyZSIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyB1cGRhdGVEZWZhdWx0VHVubmVsKAogICAgdHVubmVsOiBEZWZhdWx0VHVubmVsVXBkYXRlWyJ0dW5uZWwiXSwKICApOiBQcm9taXNlPHZvaWQ+IHsKICAgIGNvbnN0IGJvZHkgPSB7IHR1bm5lbCB9IHNhdGlzZmllcyBEZWZhdWx0VHVubmVsVXBkYXRlOwogICAgYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9jb25maWcvZGVmYXVsdF90dW5uZWwiLCBib2R5KTsKICB9LAoKICAvLyBTeW5jIHJvdXRlcy4KICBhc3luYyBzeW5jUm91dGVzKCk6IFByb21pc2U8U3luY1JvdXRlc1Jlc3BvbnNlPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL3N5bmMtcm91dGVzIik7CiAgICByZXR1cm4gcmVzLmRhdGE7CiAgfSwKfTsK
+import type {
+  components as ApiContractComponents,
+  operations as ApiContractOperations,
+} from "@fn-knock/api-contract";
+import type {
+  AuthCredentialSettings,
+  DashboardDisplayConfig,
+  DockerAdminBootstrapState,
+  LocaleConfig,
+  WOLFeatureConfig,
+} from "../../types";
+import { apiClient } from "./client";
+import {
+  HOST_MAPPING_CATALOG_REVISION_HEADER,
+  hostMappingsRevisionFromHeaders,
+  type RevisionedConfig,
+} from "./config-revisions";
+
+type AuthCredentialSettingsUpdate =
+  ApiContractComponents["schemas"]["AuthCredentialSettingsUpdateData"];
+type DashboardDisplayUpdate =
+  ApiContractComponents["schemas"]["DashboardDisplayUpdateData"];
+type RunTypeUpdate = ApiContractComponents["schemas"]["RunTypeUpdateData"];
+type AutoManageFirewallUpdate =
+  ApiContractComponents["schemas"]["AutoManageFirewallUpdateData"];
+type AutoManageFirewallData =
+  ApiContractComponents["schemas"]["AutoManageFirewallData"];
+type AppearanceContract =
+  ApiContractComponents["schemas"]["PanelAppearanceData"];
+type DefaultTunnelUpdate =
+  ApiContractComponents["schemas"]["DefaultTunnelUpdateData"];
+type WOLFeatureConfigUpdate =
+  ApiContractComponents["schemas"]["WolFeatureConfigUpdateData"];
+type PanelPasswordRequest =
+  ApiContractComponents["schemas"]["PanelPasswordBodyData"];
+type PanelLoginRequest = ApiContractComponents["schemas"]["PanelLoginBodyData"];
+type SyncRoutesResponse =
+  ApiContractOperations["post_api_admin_sync_routes"]["responses"][200]["content"]["application/json"];
+
+export const PANEL_BOOTSTRAP_TIMEOUT_MS = 15_000;
+
+export const configCoreApi = {
+  async getDockerAdminBootstrap(): Promise<DockerAdminBootstrapState> {
+    // The application cannot decide whether to render the panel or its login
+    // gate until this request completes. Bound it so a stalled CGI/backend
+    // renders the existing retry state instead of an indefinite blank page.
+    const res = await apiClient.get("/panel/bootstrap", {
+      timeout: PANEL_BOOTSTRAP_TIMEOUT_MS,
+    });
+    return res.data.data;
+  },
+  async setDockerAdminPassword(
+    password: string,
+  ): Promise<DockerAdminBootstrapState> {
+    const payload = { password } satisfies PanelPasswordRequest;
+    const res = await apiClient.post("/panel/password", payload);
+    return res.data.data;
+  },
+  async changeDockerAdminPassword(
+    password: string,
+  ): Promise<DockerAdminBootstrapState> {
+    const payload = { password } satisfies PanelPasswordRequest;
+    const res = await apiClient.post("/panel/password/change", payload);
+    return res.data.data;
+  },
+  async loginDockerAdmin(
+    password: string,
+    rememberMe = false,
+  ): Promise<DockerAdminBootstrapState> {
+    const payload = { password, rememberMe } satisfies PanelLoginRequest;
+    const res = await apiClient.post("/panel/login", payload);
+    return res.data.data;
+  },
+  async logoutDockerAdmin(): Promise<DockerAdminBootstrapState> {
+    const res = await apiClient.post("/panel/logout");
+    return res.data.data;
+  },
+  async getConfig(): Promise<RevisionedConfig> {
+    const res = await apiClient.get("/config");
+    return {
+      config: res.data.data,
+      hostMappingsRevision: hostMappingsRevisionFromHeaders(res.headers),
+      hostMappingCatalogRevision:
+        String(
+          res.headers[HOST_MAPPING_CATALOG_REVISION_HEADER] ?? "",
+        ).trim() || null,
+    };
+  },
+  async getLocaleConfig(): Promise<LocaleConfig> {
+    const res = await apiClient.get("/config/locale");
+    return res.data.data;
+  },
+  async getAppearanceConfig(): Promise<AppearanceContract> {
+    const res = await apiClient.get("/config/appearance");
+    return res.data.data;
+  },
+  async updateAppearanceConfig(
+    payload: AppearanceContract,
+  ): Promise<AppearanceContract> {
+    const res = await apiClient.post("/config/appearance", payload);
+    return res.data.data;
+  },
+  async updateLocaleConfig(payload: LocaleConfig): Promise<LocaleConfig> {
+    const res = await apiClient.post("/config/locale", payload);
+    return res.data.data;
+  },
+  async updateRunType(payload: RunTypeUpdate): Promise<string | null> {
+    const res = await apiClient.post("/config/run_type", payload);
+    return typeof res.data.message === "string" ? res.data.message : null;
+  },
+  async updateAutoManageFirewall(
+    payload: AutoManageFirewallUpdate,
+  ): Promise<AutoManageFirewallData> {
+    const res = await apiClient.post("/config/auto_manage_firewall", payload);
+    return res.data.data;
+  },
+  async getWOLFeature(): Promise<WOLFeatureConfig> {
+    const res = await apiClient.get("/config/wol_feature");
+    return res.data.data;
+  },
+  async getDashboardDisplayConfig(): Promise<DashboardDisplayConfig> {
+    const res = await apiClient.get("/config/dashboard_display");
+    return res.data.data;
+  },
+  async getAuthCredentialSettings(): Promise<AuthCredentialSettings> {
+    const res = await apiClient.get("/config/auth_credential_settings");
+    return res.data.data;
+  },
+  async updateDashboardDisplayConfig(
+    payload: DashboardDisplayUpdate,
+  ): Promise<DashboardDisplayConfig> {
+    const res = await apiClient.post("/config/dashboard_display", payload);
+    return res.data.data;
+  },
+  async updateAuthCredentialSettings(
+    payload: AuthCredentialSettingsUpdate,
+  ): Promise<AuthCredentialSettings> {
+    const res = await apiClient.post(
+      "/config/auth_credential_settings",
+      payload,
+    );
+    return res.data.data;
+  },
+  async updateWOLFeature(
+    payload: WOLFeatureConfigUpdate,
+  ): Promise<WOLFeatureConfig> {
+    const res = await apiClient.post("/config/wol_feature", payload);
+    return res.data.data;
+  },
+  async updateDefaultTunnel(
+    tunnel: DefaultTunnelUpdate["tunnel"],
+  ): Promise<void> {
+    const body = { tunnel } satisfies DefaultTunnelUpdate;
+    await apiClient.post("/config/default_tunnel", body);
+  },
+
+  // Sync routes.
+  async syncRoutes(): Promise<SyncRoutesResponse> {
+    const res = await apiClient.post("/sync-routes");
+    return res.data;
+  },
+};

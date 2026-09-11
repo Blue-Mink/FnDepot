@@ -1,1 +1,162 @@
-dXNlIHN0ZDo6e2Z1dHVyZTo6RnV0dXJlLCB0YXNrOjpQb2xsfTsKCnVzZSBzdXBlcjo6KjsKCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHNxbGl0ZV9vcGVyYXRpb25fY2FwdHVyZV9vYnNlcnZlc19hY3R1YWxfcHJpbWFyeV9hbmRfcmVhZGVyX2V4ZWN1dGlvbigpIHsKICAgIGxldCBtYW5hZ2VyID0gdGVtcF9tYW5hZ2VyKCkuYXdhaXQ7CiAgICBsZXQgcmVjb3JkZXIgPSBtYW5hZ2VyLmRpYWdub3N0aWNzKCk7CiAgICBhc3NlcnQhKEFyYzo6cHRyX2VxKCZyZWNvcmRlciwgJm1hbmFnZXIuY2xvbmUoKS5kaWFnbm9zdGljcygpKSk7CiAgICByZWNvcmRlci5zdGFydCgpOwogICAgbGV0IGNhbGxlcl90aHJlYWQgPSBzdGQ6OnRocmVhZDo6Y3VycmVudCgpLmlkKCk7CiAgICBtYW5hZ2VyCiAgICAgICAgLmNhbGxfbmFtZWQoInRlc3QucHJpbWFyeSIsIG1vdmUgfGNvbm58IHsKICAgICAgICAgICAgYXNzZXJ0X25lIShjYWxsZXJfdGhyZWFkLCBzdGQ6OnRocmVhZDo6Y3VycmVudCgpLmlkKCkpOwogICAgICAgICAgICBjb25uLnF1ZXJ5X3JvdygiU0VMRUNUIDEiLCBbXSwgfHJvd3wgcm93LmdldDo6PF8sIGk2ND4oMCkpPzsKICAgICAgICAgICAgT2soKCkpCiAgICAgICAgfSkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBtYW5hZ2VyCiAgICAgICAgLmNhbGxfbmFtZWQoInRlc3QuZmFpbGVkIiwgfF98IHsKICAgICAgICAgICAgRXJyOjo8KCksIF8+KHN0b3JhZ2VfZXJyb3IoInRlc3QgZmFpbHVyZSIpKQogICAgICAgIH0pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcF9lcnIoKTsKICAgIG1hbmFnZXIuY2FsbF9hbmFseXRpY3MofF98IE9rKCgpKSkuYXdhaXQudW53cmFwKCk7CiAgICBtYW5hZ2VyLmNhbGxfYXV0aF9yZWFkKHxffCBPaygoKSkpLmF3YWl0LnVud3JhcCgpOwogICAgbWFuYWdlci5waW5nKCkuYXdhaXQudW53cmFwKCk7CiAgICBsZXQgc25hcHNob3QgPSByZWNvcmRlci5zbmFwc2hvdCgpOwogICAgYXNzZXJ0X2VxIShzbmFwc2hvdC5vcGVyYXRpb25zLmxlbigpLCA1KTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc25hcHNob3QKICAgICAgICAgICAgLm9wZXJhdGlvbnMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAubWFwKHxzdGF0c3wgc3RhdHMuY2FsbHMpCiAgICAgICAgICAgIC5zdW06Ojx1NjQ+KCksCiAgICAgICAgNQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc25hcHNob3QKICAgICAgICAgICAgLm9wZXJhdGlvbnMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAubWFwKHxzdGF0c3wgc3RhdHMuZmFpbHVyZXMpCiAgICAgICAgICAgIC5zdW06Ojx1NjQ+KCksCiAgICAgICAgMQogICAgKTsKICAgIGZvciBraW5kIGluIFsKICAgICAgICAic3FsaXRlX3ByaW1hcnkiLAogICAgICAgICJzcWxpdGVfYW5hbHl0aWNzIiwKICAgICAgICAic3FsaXRlX2F1dGhfcmVhZCIsCiAgICAgICAgInNxbGl0ZV9oZWFsdGgiLAogICAgXSB7CiAgICAgICAgYXNzZXJ0IShzbmFwc2hvdC5vcGVyYXRpb25zLml0ZXIoKS5hbnkofHN0YXRzfCBzdGF0cy5raW5kID09IGtpbmQpKTsKICAgIH0KICAgICNbY2ZnKHVuaXgpXQogICAgYXNzZXJ0ISgKICAgICAgICBzbmFwc2hvdAogICAgICAgICAgICAub3BlcmF0aW9ucwogICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgIC5hbGwofHN0YXRzfCBzdGF0cy50b3RhbF9jcHVfbXMuaXNfc29tZSgpKQogICAgKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gc3FsaXRlX29wZXJhdGlvbl9jYXB0dXJlX2V4Y2x1ZGVzX2NhbmNlbGxlZF9hZG1pc3Npb25fd2FpdGVycygpIHsKICAgIGxldCBtYW5hZ2VyID0gdGVtcF9tYW5hZ2VyKCkuYXdhaXQ7CiAgICBsZXQgcmVjb3JkZXIgPSBtYW5hZ2VyLmRpYWdub3N0aWNzKCk7CiAgICByZWNvcmRlci5zdGFydCgpOwogICAgbGV0IHBlcm1pdCA9IG1hbmFnZXIKICAgICAgICAucHJpbWFyeV9hZG1pc3Npb24KICAgICAgICAuY2xvbmUoKQogICAgICAgIC5hY3F1aXJlX293bmVkKCkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBsZXQgbXV0IHdhaXRpbmcgPSBCb3g6OnBpbihtYW5hZ2VyLmNhbGxfbmFtZWQ6OjwoKSwgXz4oIm5ldmVyLmV4ZWN1dGVkIiwgfF98IHsKICAgICAgICBwYW5pYyEoImNhbmNlbGxlZCB3YWl0ZXIgbXVzdCBub3QgcmVhY2ggU1FMaXRlIikKICAgIH0pKTsKICAgIHN0ZDo6ZnV0dXJlOjpwb2xsX2ZuKHxjb250ZXh0fCB7CiAgICAgICAgYXNzZXJ0ISh3YWl0aW5nLmFzX211dCgpLnBvbGwoY29udGV4dCkuaXNfcGVuZGluZygpKTsKICAgICAgICBQb2xsOjpSZWFkeSgoKSkKICAgIH0pCiAgICAuYXdhaXQ7CiAgICBkcm9wKHdhaXRpbmcpOwogICAgZHJvcChwZXJtaXQpOwogICAgYXNzZXJ0IShyZWNvcmRlci5zbmFwc2hvdCgpLm9wZXJhdGlvbnMuaXNfZW1wdHkoKSk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHNxbGl0ZV9vcGVyYXRpb25fY2FwdHVyZV9zdXJ2aXZlc19odHRwX2NhbmNlbGxhdGlvbl91bnRpbF9jbG9zdXJlX2ZpbmlzaGVzKCkgewogICAgbGV0IG1hbmFnZXIgPSB0ZW1wX21hbmFnZXIoKS5hd2FpdDsKICAgIGxldCByZWNvcmRlciA9IG1hbmFnZXIuZGlhZ25vc3RpY3MoKTsKICAgIHJlY29yZGVyLnN0YXJ0KCk7CiAgICBsZXQgKHN0YXJ0ZWRfdHgsIHN0YXJ0ZWRfcngpID0gdG9raW86OnN5bmM6Om9uZXNob3Q6OmNoYW5uZWwoKTsKICAgIGxldCAocmVsZWFzZV90eCwgcmVsZWFzZV9yeCkgPSBzdGQ6OnN5bmM6Om1wc2M6OmNoYW5uZWwoKTsKICAgIGxldCBtdXQgY2FsbCA9IEJveDo6cGluKG1hbmFnZXIuY2FsbF9uYW1lZCgiYWN0dWFsLndvcmsiLCBtb3ZlIHxjb25ufCB7CiAgICAgICAgc3RhcnRlZF90eC5zZW5kKCgpKS51bndyYXAoKTsKICAgICAgICByZWxlYXNlX3J4LnJlY3YoKS51bndyYXAoKTsKICAgICAgICBjb25uLmV4ZWN1dGUoCiAgICAgICAgICAgICJDUkVBVEUgVEFCTEUgZGlhZ25vc3RpY3NfY2FuY2VsbGF0aW9uX3Rlc3QodmFsdWUgSU5URUdFUikiLAogICAgICAgICAgICBbXSwKICAgICAgICApPzsKICAgICAgICBPaygoKSkKICAgIH0pKTsKICAgIHRva2lvOjpzZWxlY3QhIHsKICAgICAgICByZXN1bHQgPSAmbXV0IGNhbGwgPT4gcGFuaWMhKCJTUUxpdGUgZmluaXNoZWQgYmVmb3JlIHJlbGVhc2U6IHtyZXN1bHQ6P30iKSwKICAgICAgICByZXN1bHQgPSBzdGFydGVkX3J4ID0+IHJlc3VsdC51bndyYXAoKSwKICAgIH0KICAgIGRyb3AoY2FsbCk7CiAgICBsZXQgcGVuZGluZyA9IHJlY29yZGVyLnNuYXBzaG90KCk7CiAgICBhc3NlcnRfZXEhKHBlbmRpbmcub3BlcmF0aW9uc1swXS5pbl9mbGlnaHQsIDEpOwogICAgYXNzZXJ0X2VxIShwZW5kaW5nLm9wZXJhdGlvbnNbMF0uY2FsbHMsIDApOwogICAgYXNzZXJ0ISgKICAgICAgICBtYW5hZ2VyCiAgICAgICAgICAgIC5wcmltYXJ5X2FkbWlzc2lvbgogICAgICAgICAgICAuY2xvbmUoKQogICAgICAgICAgICAudHJ5X2FjcXVpcmVfb3duZWQoKQogICAgICAgICAgICAuaXNfZXJyKCkKICAgICk7CiAgICByZWxlYXNlX3R4LnNlbmQoKCkpLnVud3JhcCgpOwogICAgLy8gQWRtaXNzaW9uIHRvIHRoaXMgbmV4dCBjbG9zdXJlIHByb3ZlcyB0aGUgcHJldmlvdXMgb25lIHJlYWxseSBmaW5pc2hlZC4KICAgIG1hbmFnZXIKICAgICAgICAuY2FsbF9uYW1lZCgiYWZ0ZXIud29yayIsIHxjb25ufCB7CiAgICAgICAgICAgIGNvbm4uZXhlY3V0ZSgiSU5TRVJUIElOVE8gZGlhZ25vc3RpY3NfY2FuY2VsbGF0aW9uX3Rlc3QgVkFMVUVTICgxKSIsIFtdKT87CiAgICAgICAgICAgIE9rKCgpKQogICAgICAgIH0pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgbGV0IGRvbmUgPSByZWNvcmRlci5zbmFwc2hvdCgpOwogICAgbGV0IHdvcmsgPSBkb25lCiAgICAgICAgLm9wZXJhdGlvbnMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZpbmQofHN0YXRzfCBzdGF0cy5sYWJlbCA9PSAiYWN0dWFsLndvcmsiKQogICAgICAgIC51bndyYXAoKTsKICAgIGFzc2VydF9lcSEoKHdvcmsuY2FsbHMsIHdvcmsuY2FuY2VsbGVkLCB3b3JrLmluX2ZsaWdodCksICgxLCAwLCAwKSk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHNxbGl0ZV9vcGVyYXRpb25fY2FwdHVyZV9rZWVwc19vbGRfZXhlY3V0aW9uX291dF9vZl9uZXdfZ2VuZXJhdGlvbigpIHsKICAgIGxldCBtYW5hZ2VyID0gdGVtcF9tYW5hZ2VyKCkuYXdhaXQ7CiAgICBsZXQgcmVjb3JkZXIgPSBtYW5hZ2VyLmRpYWdub3N0aWNzKCk7CiAgICBsZXQgb2xkX2dlbmVyYXRpb24gPSByZWNvcmRlci5zdGFydCgpOwogICAgbGV0IChzdGFydGVkX3R4LCBzdGFydGVkX3J4KSA9IHRva2lvOjpzeW5jOjpvbmVzaG90OjpjaGFubmVsKCk7CiAgICBsZXQgKHJlbGVhc2VfdHgsIHJlbGVhc2VfcngpID0gc3RkOjpzeW5jOjptcHNjOjpjaGFubmVsKCk7CiAgICBsZXQgbXV0IGNhbGwgPSBCb3g6OnBpbihtYW5hZ2VyLmNhbGxfbmFtZWQoIm9sZC53b3JrIiwgbW92ZSB8X3wgewogICAgICAgIHN0YXJ0ZWRfdHguc2VuZCgoKSkudW53cmFwKCk7CiAgICAgICAgcmVsZWFzZV9yeC5yZWN2KCkudW53cmFwKCk7CiAgICAgICAgT2soKCkpCiAgICB9KSk7CiAgICB0b2tpbzo6c2VsZWN0ISB7CiAgICAgICAgcmVzdWx0ID0gJm11dCBjYWxsID0+IHBhbmljISgiU1FMaXRlIGZpbmlzaGVkIGJlZm9yZSByZWxlYXNlOiB7cmVzdWx0Oj99IiksCiAgICAgICAgcmVzdWx0ID0gc3RhcnRlZF9yeCA9PiByZXN1bHQudW53cmFwKCksCiAgICB9CiAgICByZWNvcmRlci5zdG9wKG9sZF9nZW5lcmF0aW9uKTsKICAgIGxldCBzdG9wcGVkID0gcmVjb3JkZXIuc25hcHNob3QoKTsKICAgIGFzc2VydF9lcSEoc3RvcHBlZC5vcGVyYXRpb25zWzBdLmluX2ZsaWdodCwgMSk7CiAgICBsZXQgZ2VuZXJhdGlvbiA9IHJlY29yZGVyLnN0YXJ0KCk7CiAgICByZWxlYXNlX3R4LnNlbmQoKCkpLnVud3JhcCgpOwogICAgY2FsbC5hd2FpdC51bndyYXAoKTsKICAgIGxldCBzbmFwc2hvdCA9IHJlY29yZGVyLnNuYXBzaG90KCk7CiAgICBhc3NlcnRfZXEhKHNuYXBzaG90LmdlbmVyYXRpb24sIGdlbmVyYXRpb24pOwogICAgYXNzZXJ0IShzbmFwc2hvdC5vcGVyYXRpb25zLmlzX2VtcHR5KCkpOwp9Cg==
+use std::{future::Future, task::Poll};
+
+use super::*;
+
+#[tokio::test]
+async fn sqlite_operation_capture_observes_actual_primary_and_reader_execution() {
+    let manager = temp_manager().await;
+    let recorder = manager.diagnostics();
+    assert!(Arc::ptr_eq(&recorder, &manager.clone().diagnostics()));
+    recorder.start();
+    let caller_thread = std::thread::current().id();
+    manager
+        .call_named("test.primary", move |conn| {
+            assert_ne!(caller_thread, std::thread::current().id());
+            conn.query_row("SELECT 1", [], |row| row.get::<_, i64>(0))?;
+            Ok(())
+        })
+        .await
+        .unwrap();
+    manager
+        .call_named("test.failed", |_| {
+            Err::<(), _>(storage_error("test failure"))
+        })
+        .await
+        .unwrap_err();
+    manager.call_analytics(|_| Ok(())).await.unwrap();
+    manager.call_auth_read(|_| Ok(())).await.unwrap();
+    manager.ping().await.unwrap();
+    let snapshot = recorder.snapshot();
+    assert_eq!(snapshot.operations.len(), 5);
+    assert_eq!(
+        snapshot
+            .operations
+            .iter()
+            .map(|stats| stats.calls)
+            .sum::<u64>(),
+        5
+    );
+    assert_eq!(
+        snapshot
+            .operations
+            .iter()
+            .map(|stats| stats.failures)
+            .sum::<u64>(),
+        1
+    );
+    for kind in [
+        "sqlite_primary",
+        "sqlite_analytics",
+        "sqlite_auth_read",
+        "sqlite_health",
+    ] {
+        assert!(snapshot.operations.iter().any(|stats| stats.kind == kind));
+    }
+    #[cfg(unix)]
+    assert!(
+        snapshot
+            .operations
+            .iter()
+            .all(|stats| stats.total_cpu_ms.is_some())
+    );
+}
+
+#[tokio::test]
+async fn sqlite_operation_capture_excludes_cancelled_admission_waiters() {
+    let manager = temp_manager().await;
+    let recorder = manager.diagnostics();
+    recorder.start();
+    let permit = manager
+        .primary_admission
+        .clone()
+        .acquire_owned()
+        .await
+        .unwrap();
+    let mut waiting = Box::pin(manager.call_named::<(), _>("never.executed", |_| {
+        panic!("cancelled waiter must not reach SQLite")
+    }));
+    std::future::poll_fn(|context| {
+        assert!(waiting.as_mut().poll(context).is_pending());
+        Poll::Ready(())
+    })
+    .await;
+    drop(waiting);
+    drop(permit);
+    assert!(recorder.snapshot().operations.is_empty());
+}
+
+#[tokio::test]
+async fn sqlite_operation_capture_survives_http_cancellation_until_closure_finishes() {
+    let manager = temp_manager().await;
+    let recorder = manager.diagnostics();
+    recorder.start();
+    let (started_tx, started_rx) = tokio::sync::oneshot::channel();
+    let (release_tx, release_rx) = std::sync::mpsc::channel();
+    let mut call = Box::pin(manager.call_named("actual.work", move |conn| {
+        started_tx.send(()).unwrap();
+        release_rx.recv().unwrap();
+        conn.execute(
+            "CREATE TABLE diagnostics_cancellation_test(value INTEGER)",
+            [],
+        )?;
+        Ok(())
+    }));
+    tokio::select! {
+        result = &mut call => panic!("SQLite finished before release: {result:?}"),
+        result = started_rx => result.unwrap(),
+    }
+    drop(call);
+    let pending = recorder.snapshot();
+    assert_eq!(pending.operations[0].in_flight, 1);
+    assert_eq!(pending.operations[0].calls, 0);
+    assert!(
+        manager
+            .primary_admission
+            .clone()
+            .try_acquire_owned()
+            .is_err()
+    );
+    release_tx.send(()).unwrap();
+    // Admission to this next closure proves the previous one really finished.
+    manager
+        .call_named("after.work", |conn| {
+            conn.execute("INSERT INTO diagnostics_cancellation_test VALUES (1)", [])?;
+            Ok(())
+        })
+        .await
+        .unwrap();
+    let done = recorder.snapshot();
+    let work = done
+        .operations
+        .iter()
+        .find(|stats| stats.label == "actual.work")
+        .unwrap();
+    assert_eq!((work.calls, work.cancelled, work.in_flight), (1, 0, 0));
+}
+
+#[tokio::test]
+async fn sqlite_operation_capture_keeps_old_execution_out_of_new_generation() {
+    let manager = temp_manager().await;
+    let recorder = manager.diagnostics();
+    let old_generation = recorder.start();
+    let (started_tx, started_rx) = tokio::sync::oneshot::channel();
+    let (release_tx, release_rx) = std::sync::mpsc::channel();
+    let mut call = Box::pin(manager.call_named("old.work", move |_| {
+        started_tx.send(()).unwrap();
+        release_rx.recv().unwrap();
+        Ok(())
+    }));
+    tokio::select! {
+        result = &mut call => panic!("SQLite finished before release: {result:?}"),
+        result = started_rx => result.unwrap(),
+    }
+    recorder.stop(old_generation);
+    let stopped = recorder.snapshot();
+    assert_eq!(stopped.operations[0].in_flight, 1);
+    let generation = recorder.start();
+    release_tx.send(()).unwrap();
+    call.await.unwrap();
+    let snapshot = recorder.snapshot();
+    assert_eq!(snapshot.generation, generation);
+    assert!(snapshot.operations.is_empty());
+}

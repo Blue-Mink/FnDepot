@@ -1,1 +1,410 @@
-dXNlIGhtYWM6OntIbWFjLCBNYWN9Owp1c2Ugc2hhMjo6U2hhMjU2Owp1c2Ugc3RkOjpmbXQ7Cgp0eXBlIEhtYWNTaGEyNTYgPSBIbWFjPFNoYTI1Nj47CgpwdWIgY29uc3QgUEFDS0VUX0xFTjogdXNpemUgPSA5NDsKcHViIGNvbnN0IEhFQURFUl9MRU46IHVzaXplID0gNjI7CnB1YiBjb25zdCBQUk9UT0NPTF9WRVJTSU9OOiB1OCA9IDI7CnB1YiBjb25zdCBSRVFVRVNUX01BR0lDOiBbdTg7IDRdID0gKmIiRk5XTCI7CnB1YiBjb25zdCBBQ0tfTUFHSUM6IFt1ODsgNF0gPSAqYiJGTldBIjsKY29uc3QgUkVRVUVTVF9ET01BSU46ICZbdThdID0gYiJmbi1rbm9jay93b2wvcmVxdWVzdC92MlwwIjsKY29uc3QgQUNLX0RPTUFJTjogJlt1OF0gPSBiImZuLWtub2NrL3dvbC9hY2svdjJcMCI7CgojW2Rlcml2ZShDbG9uZSwgQ29weSwgRGVidWcsIEVxLCBQYXJ0aWFsRXEpXQojW3JlcHIodTgpXQpwdWIgZW51bSBDb21tYW5kIHsKICAgIFdha2UgPSAxLAogICAgUHJvYmUgPSAyLAogICAgU3RhdHVzID0gMywKfQoKaW1wbCBUcnlGcm9tPHU4PiBmb3IgQ29tbWFuZCB7CiAgICB0eXBlIEVycm9yID0gUHJvdG9jb2xFcnJvcjsKCiAgICBmbiB0cnlfZnJvbSh2YWx1ZTogdTgpIC0+IFJlc3VsdDxTZWxmLCBTZWxmOjpFcnJvcj4gewogICAgICAgIG1hdGNoIHZhbHVlIHsKICAgICAgICAgICAgMSA9PiBPayhTZWxmOjpXYWtlKSwKICAgICAgICAgICAgMiA9PiBPayhTZWxmOjpQcm9iZSksCiAgICAgICAgICAgIDMgPT4gT2soU2VsZjo6U3RhdHVzKSwKICAgICAgICAgICAgXyA9PiBFcnIoUHJvdG9jb2xFcnJvcjo6VW5zdXBwb3J0ZWRDb21tYW5kKSwKICAgICAgICB9CiAgICB9Cn0KCiNbZGVyaXZlKENsb25lLCBDb3B5LCBEZWJ1ZywgRXEsIFBhcnRpYWxFcSldCiNbcmVwcih1MTYpXQpwdWIgZW51bSBBY2tTdGF0dXMgewogICAgT2sgPSAwLAogICAgQ2xvY2tTa2V3ID0gMSwKICAgIEludmFsaWRUYXJnZXQgPSAyLAogICAgQnJvYWRjYXN0RmFpbGVkID0gMywKICAgIEludGVybmFsRXJyb3IgPSA0LAogICAgVGFyZ2V0T25saW5lID0gNSwKICAgIFRhcmdldE9mZmxpbmUgPSA2LAogICAgVGFyZ2V0VW5rbm93biA9IDcsCn0KCmltcGwgVHJ5RnJvbTx1MTY+IGZvciBBY2tTdGF0dXMgewogICAgdHlwZSBFcnJvciA9IFByb3RvY29sRXJyb3I7CgogICAgZm4gdHJ5X2Zyb20odmFsdWU6IHUxNikgLT4gUmVzdWx0PFNlbGYsIFNlbGY6OkVycm9yPiB7CiAgICAgICAgbWF0Y2ggdmFsdWUgewogICAgICAgICAgICAwID0+IE9rKFNlbGY6Ok9rKSwKICAgICAgICAgICAgMSA9PiBPayhTZWxmOjpDbG9ja1NrZXcpLAogICAgICAgICAgICAyID0+IE9rKFNlbGY6OkludmFsaWRUYXJnZXQpLAogICAgICAgICAgICAzID0+IE9rKFNlbGY6OkJyb2FkY2FzdEZhaWxlZCksCiAgICAgICAgICAgIDQgPT4gT2soU2VsZjo6SW50ZXJuYWxFcnJvciksCiAgICAgICAgICAgIDUgPT4gT2soU2VsZjo6VGFyZ2V0T25saW5lKSwKICAgICAgICAgICAgNiA9PiBPayhTZWxmOjpUYXJnZXRPZmZsaW5lKSwKICAgICAgICAgICAgNyA9PiBPayhTZWxmOjpUYXJnZXRVbmtub3duKSwKICAgICAgICAgICAgXyA9PiBFcnIoUHJvdG9jb2xFcnJvcjo6VW5zdXBwb3J0ZWRTdGF0dXMpLAogICAgICAgIH0KICAgIH0KfQoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBFcSwgSGFzaCwgUGFydGlhbEVxKV0KcHViIHN0cnVjdCBNYWNBZGRyZXNzKFt1ODsgNl0pOwoKaW1wbCBNYWNBZGRyZXNzIHsKICAgIHB1YiBjb25zdCBaRVJPOiBTZWxmID0gU2VsZihbMDsgNl0pOwoKICAgIHB1YiBmbiBmcm9tX2J5dGVzKGJ5dGVzOiBbdTg7IDZdKSAtPiBSZXN1bHQ8U2VsZiwgUHJvdG9jb2xFcnJvcj4gewogICAgICAgIGxldCB2YWx1ZSA9IFNlbGYoYnl0ZXMpOwogICAgICAgIGlmICF2YWx1ZS5pc192YWxpZF90YXJnZXQoKSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoUHJvdG9jb2xFcnJvcjo6SW52YWxpZE1hYyk7CiAgICAgICAgfQogICAgICAgIE9rKHZhbHVlKQogICAgfQoKICAgIHB1YiBjb25zdCBmbiBhc19ieXRlcygmc2VsZikgLT4gJlt1ODsgNl0gewogICAgICAgICZzZWxmLjAKICAgIH0KCiAgICBwdWIgZm4gaXNfdmFsaWRfdGFyZ2V0KCZzZWxmKSAtPiBib29sIHsKICAgICAgICBzZWxmLjAgIT0gWzA7IDZdICYmIHNlbGYuMCAhPSBbMHhmZjsgNl0gJiYgc2VsZi4wWzBdICYgMSA9PSAwCiAgICB9Cn0KCmltcGwgZm10OjpEaXNwbGF5IGZvciBNYWNBZGRyZXNzIHsKICAgIGZuIGZtdCgmc2VsZiwgZm9ybWF0dGVyOiAmbXV0IGZtdDo6Rm9ybWF0dGVyPCdfPikgLT4gZm10OjpSZXN1bHQgewogICAgICAgIHdyaXRlISgKICAgICAgICAgICAgZm9ybWF0dGVyLAogICAgICAgICAgICAiezowMlh9Ons6MDJYfTp7OjAyWH06ezowMlh9Ons6MDJYfTp7OjAyWH0iLAogICAgICAgICAgICBzZWxmLjBbMF0sIHNlbGYuMFsxXSwgc2VsZi4wWzJdLCBzZWxmLjBbM10sIHNlbGYuMFs0XSwgc2VsZi4wWzVdCiAgICAgICAgKQogICAgfQp9CgppbXBsIHN0ZDo6c3RyOjpGcm9tU3RyIGZvciBNYWNBZGRyZXNzIHsKICAgIHR5cGUgRXJyID0gUHJvdG9jb2xFcnJvcjsKCiAgICBmbiBmcm9tX3N0cih2YWx1ZTogJnN0cikgLT4gUmVzdWx0PFNlbGYsIFNlbGY6OkVycj4gewogICAgICAgIGxldCBjb21wYWN0ID0gdmFsdWUKICAgICAgICAgICAgLnRyaW0oKQogICAgICAgICAgICAuY2hhcnMoKQogICAgICAgICAgICAuZmlsdGVyKHxjaGFyYWN0ZXJ8ICFtYXRjaGVzIShjaGFyYWN0ZXIsICc6JyB8ICctJykpCiAgICAgICAgICAgIC5jb2xsZWN0Ojo8U3RyaW5nPigpOwogICAgICAgIGlmIGNvbXBhY3QubGVuKCkgIT0gMTIgfHwgIWNvbXBhY3QuYnl0ZXMoKS5hbGwofGJ5dGV8IGJ5dGUuaXNfYXNjaWlfaGV4ZGlnaXQoKSkgewogICAgICAgICAgICByZXR1cm4gRXJyKFByb3RvY29sRXJyb3I6OkludmFsaWRNYWMpOwogICAgICAgIH0KICAgICAgICBsZXQgbXV0IGJ5dGVzID0gWzBfdTg7IDZdOwogICAgICAgIGZvciAoaW5kZXgsIGJ5dGUpIGluIGJ5dGVzLml0ZXJfbXV0KCkuZW51bWVyYXRlKCkgewogICAgICAgICAgICAqYnl0ZSA9IHU4Ojpmcm9tX3N0cl9yYWRpeCgmY29tcGFjdFtpbmRleCAqIDIuLmluZGV4ICogMiArIDJdLCAxNikKICAgICAgICAgICAgICAgIC5tYXBfZXJyKHxffCBQcm90b2NvbEVycm9yOjpJbnZhbGlkTWFjKT87CiAgICAgICAgfQogICAgICAgIFNlbGY6OmZyb21fYnl0ZXMoYnl0ZXMpCiAgICB9Cn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRXEsIFBhcnRpYWxFcSldCnB1YiBzdHJ1Y3QgUmVxdWVzdFBhY2tldCB7CiAgICBwdWIgY29tbWFuZDogQ29tbWFuZCwKICAgIHB1YiByZWxheV9pZDogW3U4OyAxNl0sCiAgICBwdWIga2V5X3ZlcnNpb246IHUzMiwKICAgIHB1YiB0aW1lc3RhbXA6IHU2NCwKICAgIHB1YiByZXF1ZXN0X2lkOiBbdTg7IDE2XSwKICAgIHB1YiB0YXJnZXRfbWFjOiBbdTg7IDZdLAogICAgLy8vIFByZWZlcnJlZCBJUHY0IGFkZHJlc3MgZm9yIGEgc3RhdHVzIHByb2JlLiBBbGwgemVyb2VzIG1lYW4gdW5rbm93bi4KICAgIHB1YiB0YXJnZXRfaXB2NDogW3U4OyA0XSwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBFcSwgUGFydGlhbEVxKV0KcHViIHN0cnVjdCBBY2tQYWNrZXQgewogICAgcHViIGNvbW1hbmQ6IENvbW1hbmQsCiAgICBwdWIgc3RhdHVzOiBBY2tTdGF0dXMsCiAgICBwdWIgcmVsYXlfaWQ6IFt1ODsgMTZdLAogICAgcHViIGtleV92ZXJzaW9uOiB1MzIsCiAgICBwdWIgdGltZXN0YW1wOiB1NjQsCiAgICBwdWIgcmVxdWVzdF9pZDogW3U4OyAxNl0sCiAgICBwdWIgdGFyZ2V0X21hYzogW3U4OyA2XSwKICAgIC8vLyBJUHY0IGFkZHJlc3Mgb2JzZXJ2ZWQgYnkgdGhlIHJlbGF5IHdoaWxlIHByb2JpbmcgdGhlIHRhcmdldC4KICAgIHB1YiB0YXJnZXRfaXB2NDogW3U4OyA0XSwKfQoKI1tkZXJpdmUoRGVidWcsIHRoaXNlcnJvcjo6RXJyb3IsIEVxLCBQYXJ0aWFsRXEpXQpwdWIgZW51bSBQcm90b2NvbEVycm9yIHsKICAgICNbZXJyb3IoInBhY2tldCBsZW5ndGggaXMgaW52YWxpZCIpXQogICAgSW52YWxpZExlbmd0aCwKICAgICNbZXJyb3IoInBhY2tldCBtYWdpYyBpcyBpbnZhbGlkIildCiAgICBJbnZhbGlkTWFnaWMsCiAgICAjW2Vycm9yKCJwcm90b2NvbCB2ZXJzaW9uIGlzIHVuc3VwcG9ydGVkIildCiAgICBVbnN1cHBvcnRlZFZlcnNpb24sCiAgICAjW2Vycm9yKCJjb21tYW5kIGlzIHVuc3VwcG9ydGVkIildCiAgICBVbnN1cHBvcnRlZENvbW1hbmQsCiAgICAjW2Vycm9yKCJhY2tub3dsZWRnZW1lbnQgc3RhdHVzIGlzIHVuc3VwcG9ydGVkIildCiAgICBVbnN1cHBvcnRlZFN0YXR1cywKICAgICNbZXJyb3IoInBhY2tldCBzaWduYXR1cmUgaXMgaW52YWxpZCIpXQogICAgSW52YWxpZFNpZ25hdHVyZSwKICAgICNbZXJyb3IoInBhY2tldCByZXNlcnZlZCBmbGFncyBhcmUgbm90IHplcm8iKV0KICAgIE5vblplcm9SZXNlcnZlZCwKICAgICNbZXJyb3IoIk1BQyBhZGRyZXNzIGlzIGludmFsaWQiKV0KICAgIEludmFsaWRNYWMsCn0KCnB1YiBmbiBlbmNvZGVfcmVxdWVzdChwYWNrZXQ6ICZSZXF1ZXN0UGFja2V0LCBwc2s6ICZbdThdKSAtPiBbdTg7IFBBQ0tFVF9MRU5dIHsKICAgIGxldCBtdXQgb3V0cHV0ID0gWzBfdTg7IFBBQ0tFVF9MRU5dOwogICAgZW5jb2RlX2NvbW1vbigKICAgICAgICAmbXV0IG91dHB1dCwKICAgICAgICBSRVFVRVNUX01BR0lDLAogICAgICAgIHBhY2tldC5jb21tYW5kLAogICAgICAgIDAsCiAgICAgICAgcGFja2V0LnJlbGF5X2lkLAogICAgICAgIHBhY2tldC5rZXlfdmVyc2lvbiwKICAgICAgICBwYWNrZXQudGltZXN0YW1wLAogICAgICAgIHBhY2tldC5yZXF1ZXN0X2lkLAogICAgICAgIHBhY2tldC50YXJnZXRfbWFjLAogICAgICAgIHBhY2tldC50YXJnZXRfaXB2NCwKICAgICk7CiAgICB3cml0ZV9zaWduYXR1cmUoJm11dCBvdXRwdXQsIHBzaywgUkVRVUVTVF9ET01BSU4pOwogICAgb3V0cHV0Cn0KCnB1YiBmbiBkZWNvZGVfcmVxdWVzdChpbnB1dDogJlt1OF0sIHBzazogJlt1OF0pIC0+IFJlc3VsdDxSZXF1ZXN0UGFja2V0LCBQcm90b2NvbEVycm9yPiB7CiAgICB2ZXJpZnlfcGFja2V0KGlucHV0LCBwc2ssIFJFUVVFU1RfTUFHSUMsIFJFUVVFU1RfRE9NQUlOKT87CiAgICBpZiBpbnB1dFs2Li44XSAhPSBbMCwgMF0gewogICAgICAgIHJldHVybiBFcnIoUHJvdG9jb2xFcnJvcjo6Tm9uWmVyb1Jlc2VydmVkKTsKICAgIH0KICAgIE9rKFJlcXVlc3RQYWNrZXQgewogICAgICAgIGNvbW1hbmQ6IENvbW1hbmQ6OnRyeV9mcm9tKGlucHV0WzVdKT8sCiAgICAgICAgcmVsYXlfaWQ6IGFycmF5X2F0KGlucHV0LCA4KSwKICAgICAgICBrZXlfdmVyc2lvbjogdTMyOjpmcm9tX2JlX2J5dGVzKGFycmF5X2F0KGlucHV0LCAyNCkpLAogICAgICAgIHRpbWVzdGFtcDogdTY0Ojpmcm9tX2JlX2J5dGVzKGFycmF5X2F0KGlucHV0LCAyOCkpLAogICAgICAgIHJlcXVlc3RfaWQ6IGFycmF5X2F0KGlucHV0LCAzNiksCiAgICAgICAgdGFyZ2V0X21hYzogYXJyYXlfYXQoaW5wdXQsIDUyKSwKICAgICAgICB0YXJnZXRfaXB2NDogYXJyYXlfYXQoaW5wdXQsIDU4KSwKICAgIH0pCn0KCnB1YiBmbiBlbmNvZGVfYWNrKHBhY2tldDogJkFja1BhY2tldCwgcHNrOiAmW3U4XSkgLT4gW3U4OyBQQUNLRVRfTEVOXSB7CiAgICBsZXQgbXV0IG91dHB1dCA9IFswX3U4OyBQQUNLRVRfTEVOXTsKICAgIGVuY29kZV9jb21tb24oCiAgICAgICAgJm11dCBvdXRwdXQsCiAgICAgICAgQUNLX01BR0lDLAogICAgICAgIHBhY2tldC5jb21tYW5kLAogICAgICAgIHBhY2tldC5zdGF0dXMgYXMgdTE2LAogICAgICAgIHBhY2tldC5yZWxheV9pZCwKICAgICAgICBwYWNrZXQua2V5X3ZlcnNpb24sCiAgICAgICAgcGFja2V0LnRpbWVzdGFtcCwKICAgICAgICBwYWNrZXQucmVxdWVzdF9pZCwKICAgICAgICBwYWNrZXQudGFyZ2V0X21hYywKICAgICAgICBwYWNrZXQudGFyZ2V0X2lwdjQsCiAgICApOwogICAgd3JpdGVfc2lnbmF0dXJlKCZtdXQgb3V0cHV0LCBwc2ssIEFDS19ET01BSU4pOwogICAgb3V0cHV0Cn0KCnB1YiBmbiBkZWNvZGVfYWNrKGlucHV0OiAmW3U4XSwgcHNrOiAmW3U4XSkgLT4gUmVzdWx0PEFja1BhY2tldCwgUHJvdG9jb2xFcnJvcj4gewogICAgdmVyaWZ5X3BhY2tldChpbnB1dCwgcHNrLCBBQ0tfTUFHSUMsIEFDS19ET01BSU4pPzsKICAgIE9rKEFja1BhY2tldCB7CiAgICAgICAgY29tbWFuZDogQ29tbWFuZDo6dHJ5X2Zyb20oaW5wdXRbNV0pPywKICAgICAgICBzdGF0dXM6IEFja1N0YXR1czo6dHJ5X2Zyb20odTE2Ojpmcm9tX2JlX2J5dGVzKGFycmF5X2F0KGlucHV0LCA2KSkpPywKICAgICAgICByZWxheV9pZDogYXJyYXlfYXQoaW5wdXQsIDgpLAogICAgICAgIGtleV92ZXJzaW9uOiB1MzI6OmZyb21fYmVfYnl0ZXMoYXJyYXlfYXQoaW5wdXQsIDI0KSksCiAgICAgICAgdGltZXN0YW1wOiB1NjQ6OmZyb21fYmVfYnl0ZXMoYXJyYXlfYXQoaW5wdXQsIDI4KSksCiAgICAgICAgcmVxdWVzdF9pZDogYXJyYXlfYXQoaW5wdXQsIDM2KSwKICAgICAgICB0YXJnZXRfbWFjOiBhcnJheV9hdChpbnB1dCwgNTIpLAogICAgICAgIHRhcmdldF9pcHY0OiBhcnJheV9hdChpbnB1dCwgNTgpLAogICAgfSkKfQoKcHViIGZuIG1hZ2ljX3BhY2tldChtYWM6IE1hY0FkZHJlc3MpIC0+IFt1ODsgMTAyXSB7CiAgICBsZXQgbXV0IG91dHB1dCA9IFswX3U4OyAxMDJdOwogICAgb3V0cHV0Wy4uNl0uZmlsbCgweGZmKTsKICAgIGZvciBjaHVuayBpbiBvdXRwdXRbNi4uXS5jaHVua3NfZXhhY3RfbXV0KDYpIHsKICAgICAgICBjaHVuay5jb3B5X2Zyb21fc2xpY2UobWFjLmFzX2J5dGVzKCkpOwogICAgfQogICAgb3V0cHV0Cn0KCiNbYWxsb3coY2xpcHB5Ojp0b29fbWFueV9hcmd1bWVudHMpXQpmbiBlbmNvZGVfY29tbW9uKAogICAgb3V0cHV0OiAmbXV0IFt1ODsgUEFDS0VUX0xFTl0sCiAgICBtYWdpYzogW3U4OyA0XSwKICAgIGNvbW1hbmQ6IENvbW1hbmQsCiAgICBzdGF0dXNfb3JfZmxhZ3M6IHUxNiwKICAgIHJlbGF5X2lkOiBbdTg7IDE2XSwKICAgIGtleV92ZXJzaW9uOiB1MzIsCiAgICB0aW1lc3RhbXA6IHU2NCwKICAgIHJlcXVlc3RfaWQ6IFt1ODsgMTZdLAogICAgdGFyZ2V0X21hYzogW3U4OyA2XSwKICAgIHRhcmdldF9pcHY0OiBbdTg7IDRdLAopIHsKICAgIG91dHB1dFsuLjRdLmNvcHlfZnJvbV9zbGljZSgmbWFnaWMpOwogICAgb3V0cHV0WzRdID0gUFJPVE9DT0xfVkVSU0lPTjsKICAgIG91dHB1dFs1XSA9IGNvbW1hbmQgYXMgdTg7CiAgICBvdXRwdXRbNi4uOF0uY29weV9mcm9tX3NsaWNlKCZzdGF0dXNfb3JfZmxhZ3MudG9fYmVfYnl0ZXMoKSk7CiAgICBvdXRwdXRbOC4uMjRdLmNvcHlfZnJvbV9zbGljZSgmcmVsYXlfaWQpOwogICAgb3V0cHV0WzI0Li4yOF0uY29weV9mcm9tX3NsaWNlKCZrZXlfdmVyc2lvbi50b19iZV9ieXRlcygpKTsKICAgIG91dHB1dFsyOC4uMzZdLmNvcHlfZnJvbV9zbGljZSgmdGltZXN0YW1wLnRvX2JlX2J5dGVzKCkpOwogICAgb3V0cHV0WzM2Li41Ml0uY29weV9mcm9tX3NsaWNlKCZyZXF1ZXN0X2lkKTsKICAgIG91dHB1dFs1Mi4uNThdLmNvcHlfZnJvbV9zbGljZSgmdGFyZ2V0X21hYyk7CiAgICBvdXRwdXRbNTguLjYyXS5jb3B5X2Zyb21fc2xpY2UoJnRhcmdldF9pcHY0KTsKfQoKZm4gd3JpdGVfc2lnbmF0dXJlKG91dHB1dDogJm11dCBbdTg7IFBBQ0tFVF9MRU5dLCBwc2s6ICZbdThdLCBkb21haW46ICZbdThdKSB7CiAgICBsZXQgc2lnbmF0dXJlID0gc2lnbmF0dXJlKHBzaywgZG9tYWluLCAmb3V0cHV0Wy4uSEVBREVSX0xFTl0pOwogICAgb3V0cHV0W0hFQURFUl9MRU4uLl0uY29weV9mcm9tX3NsaWNlKCZzaWduYXR1cmUpOwp9CgpmbiB2ZXJpZnlfcGFja2V0KAogICAgaW5wdXQ6ICZbdThdLAogICAgcHNrOiAmW3U4XSwKICAgIG1hZ2ljOiBbdTg7IDRdLAogICAgZG9tYWluOiAmW3U4XSwKKSAtPiBSZXN1bHQ8KCksIFByb3RvY29sRXJyb3I+IHsKICAgIGlmIGlucHV0LmxlbigpICE9IFBBQ0tFVF9MRU4gewogICAgICAgIHJldHVybiBFcnIoUHJvdG9jb2xFcnJvcjo6SW52YWxpZExlbmd0aCk7CiAgICB9CiAgICBpZiBpbnB1dFsuLjRdICE9IG1hZ2ljIHsKICAgICAgICByZXR1cm4gRXJyKFByb3RvY29sRXJyb3I6OkludmFsaWRNYWdpYyk7CiAgICB9CiAgICBpZiBpbnB1dFs0XSAhPSBQUk9UT0NPTF9WRVJTSU9OIHsKICAgICAgICByZXR1cm4gRXJyKFByb3RvY29sRXJyb3I6OlVuc3VwcG9ydGVkVmVyc2lvbik7CiAgICB9CiAgICBsZXQgbXV0IHZlcmlmaWVyID0gSG1hY1NoYTI1Njo6bmV3X2Zyb21fc2xpY2UocHNrKS5leHBlY3QoIkhNQUMgYWNjZXB0cyBrZXlzIG9mIGFueSBzaXplIik7CiAgICB2ZXJpZmllci51cGRhdGUoZG9tYWluKTsKICAgIHZlcmlmaWVyLnVwZGF0ZSgmaW5wdXRbLi5IRUFERVJfTEVOXSk7CiAgICB2ZXJpZmllcgogICAgICAgIC52ZXJpZnlfc2xpY2UoJmlucHV0W0hFQURFUl9MRU4uLl0pCiAgICAgICAgLm1hcF9lcnIofF98IFByb3RvY29sRXJyb3I6OkludmFsaWRTaWduYXR1cmUpCn0KCmZuIHNpZ25hdHVyZShwc2s6ICZbdThdLCBkb21haW46ICZbdThdLCBoZWFkZXI6ICZbdThdKSAtPiBbdTg7IDMyXSB7CiAgICBsZXQgbXV0IHNpZ25lciA9IEhtYWNTaGEyNTY6Om5ld19mcm9tX3NsaWNlKHBzaykuZXhwZWN0KCJITUFDIGFjY2VwdHMga2V5cyBvZiBhbnkgc2l6ZSIpOwogICAgc2lnbmVyLnVwZGF0ZShkb21haW4pOwogICAgc2lnbmVyLnVwZGF0ZShoZWFkZXIpOwogICAgc2lnbmVyLmZpbmFsaXplKCkuaW50b19ieXRlcygpLmludG8oKQp9CgpmbiBhcnJheV9hdDxjb25zdCBOOiB1c2l6ZT4oaW5wdXQ6ICZbdThdLCBvZmZzZXQ6IHVzaXplKSAtPiBbdTg7IE5dIHsKICAgIGxldCBtdXQgb3V0cHV0ID0gWzBfdTg7IE5dOwogICAgb3V0cHV0LmNvcHlfZnJvbV9zbGljZSgmaW5wdXRbb2Zmc2V0Li5vZmZzZXQgKyBOXSk7CiAgICBvdXRwdXQKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CgogICAgZm4gcmVxdWVzdCgpIC0+IFJlcXVlc3RQYWNrZXQgewogICAgICAgIFJlcXVlc3RQYWNrZXQgewogICAgICAgICAgICBjb21tYW5kOiBDb21tYW5kOjpXYWtlLAogICAgICAgICAgICByZWxheV9pZDogWzB4MTE7IDE2XSwKICAgICAgICAgICAga2V5X3ZlcnNpb246IDcsCiAgICAgICAgICAgIHRpbWVzdGFtcDogMV83MDBfMDAwXzAwMCwKICAgICAgICAgICAgcmVxdWVzdF9pZDogWzB4MjI7IDE2XSwKICAgICAgICAgICAgdGFyZ2V0X21hYzogWzB4MDIsIDB4MTEsIDB4MjIsIDB4MzMsIDB4NDQsIDB4NTVdLAogICAgICAgICAgICB0YXJnZXRfaXB2NDogWzE5MiwgMTY4LCAxLCAyMF0sCiAgICAgICAgfQogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHJlcXVlc3RfYW5kX2Fja19yb3VuZF90cmlwX2FuZF9kZXRlY3RfdGFtcGVyaW5nKCkgewogICAgICAgIGxldCBwc2sgPSBbMHgzMzsgMzJdOwogICAgICAgIGxldCBlbmNvZGVkID0gZW5jb2RlX3JlcXVlc3QoJnJlcXVlc3QoKSwgJnBzayk7CiAgICAgICAgYXNzZXJ0X2VxIShlbmNvZGVkLmxlbigpLCBQQUNLRVRfTEVOKTsKICAgICAgICBhc3NlcnRfZXEhKGRlY29kZV9yZXF1ZXN0KCZlbmNvZGVkLCAmcHNrKS51bndyYXAoKSwgcmVxdWVzdCgpKTsKCiAgICAgICAgbGV0IG11dCB0YW1wZXJlZCA9IGVuY29kZWQ7CiAgICAgICAgdGFtcGVyZWRbNTJdIF49IDE7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZGVjb2RlX3JlcXVlc3QoJnRhbXBlcmVkLCAmcHNrKSwKICAgICAgICAgICAgRXJyKFByb3RvY29sRXJyb3I6OkludmFsaWRTaWduYXR1cmUpCiAgICAgICAgKTsKICAgICAgICBsZXQgbXV0IHJlc2VydmVkID0gZW5jb2RlZDsKICAgICAgICByZXNlcnZlZFs2XSA9IDE7CiAgICAgICAgd3JpdGVfc2lnbmF0dXJlKCZtdXQgcmVzZXJ2ZWQsICZwc2ssIFJFUVVFU1RfRE9NQUlOKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBkZWNvZGVfcmVxdWVzdCgmcmVzZXJ2ZWQsICZwc2spLAogICAgICAgICAgICBFcnIoUHJvdG9jb2xFcnJvcjo6Tm9uWmVyb1Jlc2VydmVkKQogICAgICAgICk7CgogICAgICAgIGxldCBhY2sgPSBBY2tQYWNrZXQgewogICAgICAgICAgICBjb21tYW5kOiBDb21tYW5kOjpXYWtlLAogICAgICAgICAgICBzdGF0dXM6IEFja1N0YXR1czo6T2ssCiAgICAgICAgICAgIHJlbGF5X2lkOiByZXF1ZXN0KCkucmVsYXlfaWQsCiAgICAgICAgICAgIGtleV92ZXJzaW9uOiByZXF1ZXN0KCkua2V5X3ZlcnNpb24sCiAgICAgICAgICAgIHRpbWVzdGFtcDogcmVxdWVzdCgpLnRpbWVzdGFtcCArIDEsCiAgICAgICAgICAgIHJlcXVlc3RfaWQ6IHJlcXVlc3QoKS5yZXF1ZXN0X2lkLAogICAgICAgICAgICB0YXJnZXRfbWFjOiByZXF1ZXN0KCkudGFyZ2V0X21hYywKICAgICAgICAgICAgdGFyZ2V0X2lwdjQ6IHJlcXVlc3QoKS50YXJnZXRfaXB2NCwKICAgICAgICB9OwogICAgICAgIGFzc2VydF9lcSEoZGVjb2RlX2FjaygmZW5jb2RlX2FjaygmYWNrLCAmcHNrKSwgJnBzaykudW53cmFwKCksIGFjayk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gcmVxdWVzdF9hbmRfYWNrX21hdGNoX3YyX2dvbGRlbl92ZWN0b3JzKCkgewogICAgICAgIGxldCBwc2sgPSBbMHgzMzsgMzJdOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGhleDo6ZW5jb2RlKGVuY29kZV9yZXF1ZXN0KCZyZXF1ZXN0KCksICZwc2spKSwKICAgICAgICAgICAgIjQ2NGU1NzRjMDIwMTAwMDAxMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTAwMDAwMDA3MDAwMDAwMDA2NTUzZjEwMDIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMDIxMTIyMzM0NDU1YzBhODAxMTQxNTkwNGI2ZjA0N2MzYmQ5MDNjZjJhOGRlOWI5MmQyZTc1ZWUyNWFlM2EzZDg4YzdhYzNmMWMzODYyNDkxNzNmIgogICAgICAgICk7CiAgICAgICAgbGV0IGFjayA9IEFja1BhY2tldCB7CiAgICAgICAgICAgIGNvbW1hbmQ6IENvbW1hbmQ6Oldha2UsCiAgICAgICAgICAgIHN0YXR1czogQWNrU3RhdHVzOjpPaywKICAgICAgICAgICAgcmVsYXlfaWQ6IHJlcXVlc3QoKS5yZWxheV9pZCwKICAgICAgICAgICAga2V5X3ZlcnNpb246IHJlcXVlc3QoKS5rZXlfdmVyc2lvbiwKICAgICAgICAgICAgdGltZXN0YW1wOiByZXF1ZXN0KCkudGltZXN0YW1wICsgMSwKICAgICAgICAgICAgcmVxdWVzdF9pZDogcmVxdWVzdCgpLnJlcXVlc3RfaWQsCiAgICAgICAgICAgIHRhcmdldF9tYWM6IHJlcXVlc3QoKS50YXJnZXRfbWFjLAogICAgICAgICAgICB0YXJnZXRfaXB2NDogcmVxdWVzdCgpLnRhcmdldF9pcHY0LAogICAgICAgIH07CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgaGV4OjplbmNvZGUoZW5jb2RlX2FjaygmYWNrLCAmcHNrKSksCiAgICAgICAgICAgICI0NjRlNTc0MTAyMDEwMDAwMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTEwMDAwMDAwNzAwMDAwMDAwNjU1M2YxMDEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjAyMTEyMjMzNDQ1NWMwYTgwMTE0MmZmNjk5YmVjNDI5OWNmYmE1MmRjMzFjZDI0ZjQwMDc2NmJjYzUyNTk3NmZmNzViOTUyMjY5ODRiODg4MWQ1ZiIKICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIG5vcm1hbGl6ZXNfY29tbW9uX21hY19mb3JtYXRzX2FuZF9yZWplY3RzX25vbl91bmljYXN0X3ZhbHVlcygpIHsKICAgICAgICBmb3IgdmFsdWUgaW4gWyIwMjoxMToyMjozMzo0NDo1NSIsICIwMi0xMS0yMi0zMy00NC01NSIsICIwMjExMjIzMzQ0NTUiXSB7CiAgICAgICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgICAgICB2YWx1ZS5wYXJzZTo6PE1hY0FkZHJlc3M+KCkudW53cmFwKCkudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICAiMDI6MTE6MjI6MzM6NDQ6NTUiCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIGZvciB2YWx1ZSBpbiBbCiAgICAgICAgICAgICIiLAogICAgICAgICAgICAiMDIuMTEuMjIuMzMuNDQuNTUiLAogICAgICAgICAgICAiMDA6MDA6MDA6MDA6MDA6MDAiLAogICAgICAgICAgICAiRkY6RkY6RkY6RkY6RkY6RkYiLAogICAgICAgICAgICAiMDE6MTE6MjI6MzM6NDQ6NTUiLAogICAgICAgIF0gewogICAgICAgICAgICBhc3NlcnRfZXEhKHZhbHVlLnBhcnNlOjo8TWFjQWRkcmVzcz4oKSwgRXJyKFByb3RvY29sRXJyb3I6OkludmFsaWRNYWMpKTsKICAgICAgICB9CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gYnVpbGRzX3N0YW5kYXJkX21hZ2ljX3BhY2tldCgpIHsKICAgICAgICBsZXQgbWFjID0gIjAyOjExOjIyOjMzOjQ0OjU1Ii5wYXJzZTo6PE1hY0FkZHJlc3M+KCkudW53cmFwKCk7CiAgICAgICAgbGV0IHBhY2tldCA9IG1hZ2ljX3BhY2tldChtYWMpOwogICAgICAgIGFzc2VydF9lcSEoJnBhY2tldFsuLjZdLCAmWzB4ZmY7IDZdKTsKICAgICAgICBhc3NlcnQhKAogICAgICAgICAgICBwYWNrZXRbNi4uXQogICAgICAgICAgICAgICAgLmNodW5rc19leGFjdCg2KQogICAgICAgICAgICAgICAgLmFsbCh8Y2h1bmt8IGNodW5rID09IG1hYy5hc19ieXRlcygpKQogICAgICAgICk7CiAgICB9Cn0K
+use hmac::{Hmac, Mac};
+use sha2::Sha256;
+use std::fmt;
+
+type HmacSha256 = Hmac<Sha256>;
+
+pub const PACKET_LEN: usize = 94;
+pub const HEADER_LEN: usize = 62;
+pub const PROTOCOL_VERSION: u8 = 2;
+pub const REQUEST_MAGIC: [u8; 4] = *b"FNWL";
+pub const ACK_MAGIC: [u8; 4] = *b"FNWA";
+const REQUEST_DOMAIN: &[u8] = b"fn-knock/wol/request/v2\0";
+const ACK_DOMAIN: &[u8] = b"fn-knock/wol/ack/v2\0";
+
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+#[repr(u8)]
+pub enum Command {
+    Wake = 1,
+    Probe = 2,
+    Status = 3,
+}
+
+impl TryFrom<u8> for Command {
+    type Error = ProtocolError;
+
+    fn try_from(value: u8) -> Result<Self, Self::Error> {
+        match value {
+            1 => Ok(Self::Wake),
+            2 => Ok(Self::Probe),
+            3 => Ok(Self::Status),
+            _ => Err(ProtocolError::UnsupportedCommand),
+        }
+    }
+}
+
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+#[repr(u16)]
+pub enum AckStatus {
+    Ok = 0,
+    ClockSkew = 1,
+    InvalidTarget = 2,
+    BroadcastFailed = 3,
+    InternalError = 4,
+    TargetOnline = 5,
+    TargetOffline = 6,
+    TargetUnknown = 7,
+}
+
+impl TryFrom<u16> for AckStatus {
+    type Error = ProtocolError;
+
+    fn try_from(value: u16) -> Result<Self, Self::Error> {
+        match value {
+            0 => Ok(Self::Ok),
+            1 => Ok(Self::ClockSkew),
+            2 => Ok(Self::InvalidTarget),
+            3 => Ok(Self::BroadcastFailed),
+            4 => Ok(Self::InternalError),
+            5 => Ok(Self::TargetOnline),
+            6 => Ok(Self::TargetOffline),
+            7 => Ok(Self::TargetUnknown),
+            _ => Err(ProtocolError::UnsupportedStatus),
+        }
+    }
+}
+
+#[derive(Clone, Copy, Debug, Eq, Hash, PartialEq)]
+pub struct MacAddress([u8; 6]);
+
+impl MacAddress {
+    pub const ZERO: Self = Self([0; 6]);
+
+    pub fn from_bytes(bytes: [u8; 6]) -> Result<Self, ProtocolError> {
+        let value = Self(bytes);
+        if !value.is_valid_target() {
+            return Err(ProtocolError::InvalidMac);
+        }
+        Ok(value)
+    }
+
+    pub const fn as_bytes(&self) -> &[u8; 6] {
+        &self.0
+    }
+
+    pub fn is_valid_target(&self) -> bool {
+        self.0 != [0; 6] && self.0 != [0xff; 6] && self.0[0] & 1 == 0
+    }
+}
+
+impl fmt::Display for MacAddress {
+    fn fmt(&self, formatter: &mut fmt::Formatter<'_>) -> fmt::Result {
+        write!(
+            formatter,
+            "{:02X}:{:02X}:{:02X}:{:02X}:{:02X}:{:02X}",
+            self.0[0], self.0[1], self.0[2], self.0[3], self.0[4], self.0[5]
+        )
+    }
+}
+
+impl std::str::FromStr for MacAddress {
+    type Err = ProtocolError;
+
+    fn from_str(value: &str) -> Result<Self, Self::Err> {
+        let compact = value
+            .trim()
+            .chars()
+            .filter(|character| !matches!(character, ':' | '-'))
+            .collect::<String>();
+        if compact.len() != 12 || !compact.bytes().all(|byte| byte.is_ascii_hexdigit()) {
+            return Err(ProtocolError::InvalidMac);
+        }
+        let mut bytes = [0_u8; 6];
+        for (index, byte) in bytes.iter_mut().enumerate() {
+            *byte = u8::from_str_radix(&compact[index * 2..index * 2 + 2], 16)
+                .map_err(|_| ProtocolError::InvalidMac)?;
+        }
+        Self::from_bytes(bytes)
+    }
+}
+
+#[derive(Clone, Debug, Eq, PartialEq)]
+pub struct RequestPacket {
+    pub command: Command,
+    pub relay_id: [u8; 16],
+    pub key_version: u32,
+    pub timestamp: u64,
+    pub request_id: [u8; 16],
+    pub target_mac: [u8; 6],
+    /// Preferred IPv4 address for a status probe. All zeroes mean unknown.
+    pub target_ipv4: [u8; 4],
+}
+
+#[derive(Clone, Debug, Eq, PartialEq)]
+pub struct AckPacket {
+    pub command: Command,
+    pub status: AckStatus,
+    pub relay_id: [u8; 16],
+    pub key_version: u32,
+    pub timestamp: u64,
+    pub request_id: [u8; 16],
+    pub target_mac: [u8; 6],
+    /// IPv4 address observed by the relay while probing the target.
+    pub target_ipv4: [u8; 4],
+}
+
+#[derive(Debug, thiserror::Error, Eq, PartialEq)]
+pub enum ProtocolError {
+    #[error("packet length is invalid")]
+    InvalidLength,
+    #[error("packet magic is invalid")]
+    InvalidMagic,
+    #[error("protocol version is unsupported")]
+    UnsupportedVersion,
+    #[error("command is unsupported")]
+    UnsupportedCommand,
+    #[error("acknowledgement status is unsupported")]
+    UnsupportedStatus,
+    #[error("packet signature is invalid")]
+    InvalidSignature,
+    #[error("packet reserved flags are not zero")]
+    NonZeroReserved,
+    #[error("MAC address is invalid")]
+    InvalidMac,
+}
+
+pub fn encode_request(packet: &RequestPacket, psk: &[u8]) -> [u8; PACKET_LEN] {
+    let mut output = [0_u8; PACKET_LEN];
+    encode_common(
+        &mut output,
+        REQUEST_MAGIC,
+        packet.command,
+        0,
+        packet.relay_id,
+        packet.key_version,
+        packet.timestamp,
+        packet.request_id,
+        packet.target_mac,
+        packet.target_ipv4,
+    );
+    write_signature(&mut output, psk, REQUEST_DOMAIN);
+    output
+}
+
+pub fn decode_request(input: &[u8], psk: &[u8]) -> Result<RequestPacket, ProtocolError> {
+    verify_packet(input, psk, REQUEST_MAGIC, REQUEST_DOMAIN)?;
+    if input[6..8] != [0, 0] {
+        return Err(ProtocolError::NonZeroReserved);
+    }
+    Ok(RequestPacket {
+        command: Command::try_from(input[5])?,
+        relay_id: array_at(input, 8),
+        key_version: u32::from_be_bytes(array_at(input, 24)),
+        timestamp: u64::from_be_bytes(array_at(input, 28)),
+        request_id: array_at(input, 36),
+        target_mac: array_at(input, 52),
+        target_ipv4: array_at(input, 58),
+    })
+}
+
+pub fn encode_ack(packet: &AckPacket, psk: &[u8]) -> [u8; PACKET_LEN] {
+    let mut output = [0_u8; PACKET_LEN];
+    encode_common(
+        &mut output,
+        ACK_MAGIC,
+        packet.command,
+        packet.status as u16,
+        packet.relay_id,
+        packet.key_version,
+        packet.timestamp,
+        packet.request_id,
+        packet.target_mac,
+        packet.target_ipv4,
+    );
+    write_signature(&mut output, psk, ACK_DOMAIN);
+    output
+}
+
+pub fn decode_ack(input: &[u8], psk: &[u8]) -> Result<AckPacket, ProtocolError> {
+    verify_packet(input, psk, ACK_MAGIC, ACK_DOMAIN)?;
+    Ok(AckPacket {
+        command: Command::try_from(input[5])?,
+        status: AckStatus::try_from(u16::from_be_bytes(array_at(input, 6)))?,
+        relay_id: array_at(input, 8),
+        key_version: u32::from_be_bytes(array_at(input, 24)),
+        timestamp: u64::from_be_bytes(array_at(input, 28)),
+        request_id: array_at(input, 36),
+        target_mac: array_at(input, 52),
+        target_ipv4: array_at(input, 58),
+    })
+}
+
+pub fn magic_packet(mac: MacAddress) -> [u8; 102] {
+    let mut output = [0_u8; 102];
+    output[..6].fill(0xff);
+    for chunk in output[6..].chunks_exact_mut(6) {
+        chunk.copy_from_slice(mac.as_bytes());
+    }
+    output
+}
+
+#[allow(clippy::too_many_arguments)]
+fn encode_common(
+    output: &mut [u8; PACKET_LEN],
+    magic: [u8; 4],
+    command: Command,
+    status_or_flags: u16,
+    relay_id: [u8; 16],
+    key_version: u32,
+    timestamp: u64,
+    request_id: [u8; 16],
+    target_mac: [u8; 6],
+    target_ipv4: [u8; 4],
+) {
+    output[..4].copy_from_slice(&magic);
+    output[4] = PROTOCOL_VERSION;
+    output[5] = command as u8;
+    output[6..8].copy_from_slice(&status_or_flags.to_be_bytes());
+    output[8..24].copy_from_slice(&relay_id);
+    output[24..28].copy_from_slice(&key_version.to_be_bytes());
+    output[28..36].copy_from_slice(&timestamp.to_be_bytes());
+    output[36..52].copy_from_slice(&request_id);
+    output[52..58].copy_from_slice(&target_mac);
+    output[58..62].copy_from_slice(&target_ipv4);
+}
+
+fn write_signature(output: &mut [u8; PACKET_LEN], psk: &[u8], domain: &[u8]) {
+    let signature = signature(psk, domain, &output[..HEADER_LEN]);
+    output[HEADER_LEN..].copy_from_slice(&signature);
+}
+
+fn verify_packet(
+    input: &[u8],
+    psk: &[u8],
+    magic: [u8; 4],
+    domain: &[u8],
+) -> Result<(), ProtocolError> {
+    if input.len() != PACKET_LEN {
+        return Err(ProtocolError::InvalidLength);
+    }
+    if input[..4] != magic {
+        return Err(ProtocolError::InvalidMagic);
+    }
+    if input[4] != PROTOCOL_VERSION {
+        return Err(ProtocolError::UnsupportedVersion);
+    }
+    let mut verifier = HmacSha256::new_from_slice(psk).expect("HMAC accepts keys of any size");
+    verifier.update(domain);
+    verifier.update(&input[..HEADER_LEN]);
+    verifier
+        .verify_slice(&input[HEADER_LEN..])
+        .map_err(|_| ProtocolError::InvalidSignature)
+}
+
+fn signature(psk: &[u8], domain: &[u8], header: &[u8]) -> [u8; 32] {
+    let mut signer = HmacSha256::new_from_slice(psk).expect("HMAC accepts keys of any size");
+    signer.update(domain);
+    signer.update(header);
+    signer.finalize().into_bytes().into()
+}
+
+fn array_at<const N: usize>(input: &[u8], offset: usize) -> [u8; N] {
+    let mut output = [0_u8; N];
+    output.copy_from_slice(&input[offset..offset + N]);
+    output
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn request() -> RequestPacket {
+        RequestPacket {
+            command: Command::Wake,
+            relay_id: [0x11; 16],
+            key_version: 7,
+            timestamp: 1_700_000_000,
+            request_id: [0x22; 16],
+            target_mac: [0x02, 0x11, 0x22, 0x33, 0x44, 0x55],
+            target_ipv4: [192, 168, 1, 20],
+        }
+    }
+
+    #[test]
+    fn request_and_ack_round_trip_and_detect_tampering() {
+        let psk = [0x33; 32];
+        let encoded = encode_request(&request(), &psk);
+        assert_eq!(encoded.len(), PACKET_LEN);
+        assert_eq!(decode_request(&encoded, &psk).unwrap(), request());
+
+        let mut tampered = encoded;
+        tampered[52] ^= 1;
+        assert_eq!(
+            decode_request(&tampered, &psk),
+            Err(ProtocolError::InvalidSignature)
+        );
+        let mut reserved = encoded;
+        reserved[6] = 1;
+        write_signature(&mut reserved, &psk, REQUEST_DOMAIN);
+        assert_eq!(
+            decode_request(&reserved, &psk),
+            Err(ProtocolError::NonZeroReserved)
+        );
+
+        let ack = AckPacket {
+            command: Command::Wake,
+            status: AckStatus::Ok,
+            relay_id: request().relay_id,
+            key_version: request().key_version,
+            timestamp: request().timestamp + 1,
+            request_id: request().request_id,
+            target_mac: request().target_mac,
+            target_ipv4: request().target_ipv4,
+        };
+        assert_eq!(decode_ack(&encode_ack(&ack, &psk), &psk).unwrap(), ack);
+    }
+
+    #[test]
+    fn request_and_ack_match_v2_golden_vectors() {
+        let psk = [0x33; 32];
+        assert_eq!(
+            hex::encode(encode_request(&request(), &psk)),
+            "464e574c020100001111111111111111111111111111111100000007000000006553f10022222222222222222222222222222222021122334455c0a8011415904b6f047c3bd903cf2a8de9b92d2e75ee25ae3a3d88c7ac3f1c386249173f"
+        );
+        let ack = AckPacket {
+            command: Command::Wake,
+            status: AckStatus::Ok,
+            relay_id: request().relay_id,
+            key_version: request().key_version,
+            timestamp: request().timestamp + 1,
+            request_id: request().request_id,
+            target_mac: request().target_mac,
+            target_ipv4: request().target_ipv4,
+        };
+        assert_eq!(
+            hex::encode(encode_ack(&ack, &psk)),
+            "464e5741020100001111111111111111111111111111111100000007000000006553f10122222222222222222222222222222222021122334455c0a801142ff699bec4299cfba52dc31cd24f400766bcc525976ff75b95226984b8881d5f"
+        );
+    }
+
+    #[test]
+    fn normalizes_common_mac_formats_and_rejects_non_unicast_values() {
+        for value in ["02:11:22:33:44:55", "02-11-22-33-44-55", "021122334455"] {
+            assert_eq!(
+                value.parse::<MacAddress>().unwrap().to_string(),
+                "02:11:22:33:44:55"
+            );
+        }
+        for value in [
+            "",
+            "02.11.22.33.44.55",
+            "00:00:00:00:00:00",
+            "FF:FF:FF:FF:FF:FF",
+            "01:11:22:33:44:55",
+        ] {
+            assert_eq!(value.parse::<MacAddress>(), Err(ProtocolError::InvalidMac));
+        }
+    }
+
+    #[test]
+    fn builds_standard_magic_packet() {
+        let mac = "02:11:22:33:44:55".parse::<MacAddress>().unwrap();
+        let packet = magic_packet(mac);
+        assert_eq!(&packet[..6], &[0xff; 6]);
+        assert!(
+            packet[6..]
+                .chunks_exact(6)
+                .all(|chunk| chunk == mac.as_bytes())
+        );
+    }
+}

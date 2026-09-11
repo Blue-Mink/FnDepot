@@ -1,1 +1,303 @@
-dXNlIHRva2lvX3J1c3FsaXRlOjpydXNxbGl0ZTo6e09wdGlvbmFsRXh0ZW5zaW9uLCBUcmFuc2FjdGlvbiwgVHJhbnNhY3Rpb25CZWhhdmlvciwgcGFyYW1zfTsKCnVzZSBzdXBlcjo6e1N0b3JhZ2VSZXN1bHQsIHJlZGlzX2NvbXBhdDo6Q29ubmVjdGlvbk1hbmFnZXIsIHN0b3JhZ2VfZXJyb3J9OwoKcHViKGNyYXRlKSBjb25zdCBDT09MRE9XTl9QUkVGSVg6ICZzdHIgPSAiZm5fa25vY2s6d29sOnJ1bnRpbWU6Y29vbGRvd246IjsKCmNvbnN0IFNDSEVNQV9WRVJTSU9OOiBpNjQgPSAxOwpjb25zdCBTQ0hFTUFfTkFNRTogJnN0ciA9ICJ0eXBlZF93b2xfd2FrZV9jb29sZG93bnMiOwpjb25zdCBTQ0hFTUFfU1FMOiAmc3RyID0gciMiCkNSRUFURSBUQUJMRSB3b2xfd2FrZV9jb29sZG93bnMgKAogIHRhcmdldF9pZCBURVhUIFBSSU1BUlkgS0VZIENIRUNLICh0YXJnZXRfaWQgPD4gJycpLAogIGd1YXJkX3ZhbHVlIFRFWFQgTk9UIE5VTEwgQ0hFQ0sgKGd1YXJkX3ZhbHVlID0gJzEnKSwKICBleHBpcmVzX2F0X21zIElOVEVHRVIgTk9UIE5VTEwgQ0hFQ0sgKGV4cGlyZXNfYXRfbXMgPj0gMCksCiAgdXBkYXRlZF9hdF9tcyBJTlRFR0VSIE5PVCBOVUxMCik7CkNSRUFURSBJTkRFWCBpZHhfd29sX3dha2VfY29vbGRvd25zX2V4cGlyeSBPTiB3b2xfd2FrZV9jb29sZG93bnMoZXhwaXJlc19hdF9tcyk7CiIjOwpjb25zdCBNSUdSQVRJT05TX1NRTDogJnN0ciA9IHIjIgpDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyB0eXBlZF93b2xfY29vbGRvd25fc2NoZW1hX21pZ3JhdGlvbnMgKAogIHZlcnNpb24gSU5URUdFUiBQUklNQVJZIEtFWSwKICBuYW1lIFRFWFQgTk9UIE5VTEwsCiAgY2hlY2tzdW0gVEVYVCBOT1QgTlVMTCwKICBhcHBsaWVkX2F0X21zIElOVEVHRVIgTk9UIE5VTEwKKTsKIiM7CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFBhcnRpYWxFcSwgRXEpXQpwdWIoY3JhdGUpIHN0cnVjdCBUeXBlZFdvbENvb2xkb3duIHsKICAgIHB1YihjcmF0ZSkgdGFyZ2V0X2lkOiBTdHJpbmcsCiAgICBwdWIoY3JhdGUpIGV4cGlyZXNfYXRfbXM6IGk2NCwKfQoKI1tkZXJpdmUoQ2xvbmUpXQpwdWIoY3JhdGUpIHN0cnVjdCBUeXBlZFdvbENvb2xkb3duUmVwb3NpdG9yeSB7CiAgICBtYW5hZ2VyOiBDb25uZWN0aW9uTWFuYWdlciwKfQoKaW1wbCBUeXBlZFdvbENvb2xkb3duUmVwb3NpdG9yeSB7CiAgICBwdWIoY3JhdGUpIGZuIG5ldyhtYW5hZ2VyOiBDb25uZWN0aW9uTWFuYWdlcikgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7IG1hbmFnZXIgfQogICAgfQoKICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gaW5pdGlhbGl6ZSgmc2VsZikgLT4gU3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIHNlbGYubWFuYWdlcgogICAgICAgICAgICAuY2FsbCh8Y29ubnwgewogICAgICAgICAgICAgICAgbGV0IHR4ID0gY29ubi50cmFuc2FjdGlvbl93aXRoX2JlaGF2aW9yKFRyYW5zYWN0aW9uQmVoYXZpb3I6OkltbWVkaWF0ZSk/OwogICAgICAgICAgICAgICAgdHguZXhlY3V0ZV9iYXRjaChNSUdSQVRJT05TX1NRTCk/OwogICAgICAgICAgICAgICAgbGV0IGNoZWNrc3VtID0gY3JhdGU6OmNyeXB0b191dGlsczo6c2hhMjU2X2hleF9ieXRlcyhTQ0hFTUFfU1FMKTsKICAgICAgICAgICAgICAgIGxldCBhcHBsaWVkID0gdHgKICAgICAgICAgICAgICAgICAgICAucXVlcnlfcm93KAogICAgICAgICAgICAgICAgICAgICAgICAiU0VMRUNUIG5hbWUsIGNoZWNrc3VtIEZST00gdHlwZWRfd29sX2Nvb2xkb3duX3NjaGVtYV9taWdyYXRpb25zIFdIRVJFIHZlcnNpb24gPSA/MSIsCiAgICAgICAgICAgICAgICAgICAgICAgIFtTQ0hFTUFfVkVSU0lPTl0sCiAgICAgICAgICAgICAgICAgICAgICAgIHxyb3d8IE9rKChyb3cuZ2V0Ojo8XywgU3RyaW5nPigwKT8sIHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDEpPykpLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAub3B0aW9uYWwoKT87CiAgICAgICAgICAgICAgICBtYXRjaCBhcHBsaWVkIHsKICAgICAgICAgICAgICAgICAgICBTb21lKChuYW1lLCBzdG9yZWQpKSBpZiBuYW1lID09IFNDSEVNQV9OQU1FICYmIHN0b3JlZCA9PSBjaGVja3N1bSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxldCBleGlzdHMgPSB0eC5xdWVyeV9yb3coCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiU0VMRUNUIEVYSVNUUyhTRUxFQ1QgMSBGUk9NIHNxbGl0ZV9tYXN0ZXIgV0hFUkUgdHlwZSA9ICd0YWJsZScgQU5EIG5hbWUgPSAnd29sX3dha2VfY29vbGRvd25zJykiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgW10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB8cm93fCByb3cuZ2V0Ojo8XywgYm9vbD4oMCksCiAgICAgICAgICAgICAgICAgICAgICAgICk/OwogICAgICAgICAgICAgICAgICAgICAgICBpZiAhZXhpc3RzIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAidHlwZWQgV09MIGNvb2xkb3duIG1pZ3JhdGlvbiBpcyByZWNvcmRlZCBidXQgaXRzIHRhYmxlIGlzIG1pc3NpbmciLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgU29tZSgobmFtZSwgXykpIGlmIG5hbWUgIT0gU0NIRU1BX05BTUUgPT4gewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gRXJyKHN0b3JhZ2VfZXJyb3IoInR5cGVkIFdPTCBjb29sZG93biBtaWdyYXRpb24gbmFtZSBtaXNtYXRjaCIpKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgU29tZShfKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigidHlwZWQgV09MIGNvb2xkb3duIG1pZ3JhdGlvbiBjaGVja3N1bSBtaXNtYXRjaCIpKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgTm9uZSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGVfYmF0Y2goU0NIRU1BX1NRTCk/OwogICAgICAgICAgICAgICAgICAgICAgICB0eC5leGVjdXRlKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIklOU0VSVCBJTlRPIHR5cGVkX3dvbF9jb29sZG93bl9zY2hlbWFfbWlncmF0aW9ucyh2ZXJzaW9uLCBuYW1lLCBjaGVja3N1bSwgYXBwbGllZF9hdF9tcykgVkFMVUVTICg/MSwgPzIsID8zLCA/NCkiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1zIVsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTQ0hFTUFfVkVSU0lPTiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTQ0hFTUFfTkFNRSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGVja3N1bSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB0eC5jb21taXQoKT87CiAgICAgICAgICAgICAgICBPaygoKSkKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmF3YWl0CiAgICB9CgogICAgcHViKGNyYXRlKSBhc3luYyBmbiByZWJ1aWxkX2Zyb21fbGVnYWN5KCZzZWxmKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5jYWxsKHxjb25ufCB7CiAgICAgICAgICAgICAgICBsZXQgdHggPSBjb25uLnRyYW5zYWN0aW9uX3dpdGhfYmVoYXZpb3IoVHJhbnNhY3Rpb25CZWhhdmlvcjo6SW1tZWRpYXRlKT87CiAgICAgICAgICAgICAgICBTZWxmOjpyZWJ1aWxkX2Zyb21fbGVnYWN5X3R4KCZ0eCk/OwogICAgICAgICAgICAgICAgdHguY29tbWl0KCk/OwogICAgICAgICAgICAgICAgT2soKCkpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gcmVidWlsZF9mcm9tX2xlZ2FjeV90eCh0eDogJlRyYW5zYWN0aW9uPCdfPikgLT4gU3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGxldCBsZWdhY3kgPSBsZWdhY3lfY29vbGRvd25zX3R4KHR4KT87CiAgICAgICAgdHguZXhlY3V0ZSgiREVMRVRFIEZST00gd29sX3dha2VfY29vbGRvd25zIiwgW10pPzsKICAgICAgICBmb3IgY29vbGRvd24gaW4gbGVnYWN5IHsKICAgICAgICAgICAgdXBzZXJ0X3R4KHR4LCAmY29vbGRvd24pPzsKICAgICAgICB9CiAgICAgICAgT2soKCkpCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiByZWNvbmNpbGVfbGVnYWN5X2tleXNfdHgoCiAgICAgICAgdHg6ICZUcmFuc2FjdGlvbjwnXz4sCiAgICAgICAga2V5czogJltTdHJpbmddLAogICAgKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgZm9yIGtleSBpbiBrZXlzIHsKICAgICAgICAgICAgbGV0IFNvbWUodGFyZ2V0X2lkKSA9IGtleS5zdHJpcF9wcmVmaXgoQ09PTERPV05fUFJFRklYKSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICB9OwogICAgICAgICAgICBpZiB0YXJnZXRfaWQuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gRXJyKHN0b3JhZ2VfZXJyb3IoImVtcHR5IFdPTCBjb29sZG93biB0YXJnZXQgSUQiKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgbWF0Y2ggbGl2ZV9sZWdhY3lfY29vbGRvd25fdHgodHgsIGtleSk/IHsKICAgICAgICAgICAgICAgIFNvbWUoY29vbGRvd24pID0+IHVwc2VydF90eCh0eCwgJmNvb2xkb3duKT8sCiAgICAgICAgICAgICAgICBOb25lID0+IGRlbGV0ZV90eCh0eCwgdGFyZ2V0X2lkKT8sCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgT2soKCkpCiAgICB9CgogICAgcHViKGNyYXRlKSBhc3luYyBmbiB2ZXJpZnlfYW5kX3JlcGFpcigmc2VsZiwgdGFyZ2V0X2lkOiAmc3RyKSAtPiBTdG9yYWdlUmVzdWx0PGJvb2w+IHsKICAgICAgICBsZXQgdGFyZ2V0X2lkID0gdGFyZ2V0X2lkLnRvX3N0cmluZygpOwogICAgICAgIHNlbGYubWFuYWdlcgogICAgICAgICAgICAuY2FsbChtb3ZlIHxjb25ufCB7CiAgICAgICAgICAgICAgICBsZXQgdHggPSBjb25uLnRyYW5zYWN0aW9uX3dpdGhfYmVoYXZpb3IoVHJhbnNhY3Rpb25CZWhhdmlvcjo6SW1tZWRpYXRlKT87CiAgICAgICAgICAgICAgICBsZXQga2V5ID0gZm9ybWF0ISgie0NPT0xET1dOX1BSRUZJWH17dGFyZ2V0X2lkfSIpOwogICAgICAgICAgICAgICAgbGV0IHJhdyA9IGxpdmVfbGVnYWN5X3Jhd190eCgmdHgsICZrZXkpPzsKICAgICAgICAgICAgICAgIGxldCBsZWdhY3kgPSBsaXZlX2xlZ2FjeV9jb29sZG93bl90eCgmdHgsICZrZXkpPzsKICAgICAgICAgICAgICAgIGxldCBpbnZhbGlkID0gcmF3LmlzX3NvbWUoKSAmJiBsZWdhY3kuaXNfbm9uZSgpOwogICAgICAgICAgICAgICAgbGV0IHR5cGVkID0gdHlwZWRfY29vbGRvd25fdHgoJnR4LCAmdGFyZ2V0X2lkKT87CiAgICAgICAgICAgICAgICBsZXQgbWF0Y2hlZCA9ICFpbnZhbGlkICYmIHR5cGVkID09IGxlZ2FjeTsKICAgICAgICAgICAgICAgIGlmICFtYXRjaGVkIHsKICAgICAgICAgICAgICAgICAgICBtYXRjaCBsZWdhY3kgewogICAgICAgICAgICAgICAgICAgICAgICBTb21lKGNvb2xkb3duKSA9PiB1cHNlcnRfdHgoJnR4LCAmY29vbGRvd24pPywKICAgICAgICAgICAgICAgICAgICAgICAgTm9uZSA9PiBkZWxldGVfdHgoJnR4LCAmdGFyZ2V0X2lkKT8sCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdHguY29tbWl0KCk/OwogICAgICAgICAgICAgICAgT2sobWF0Y2hlZCkKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmF3YWl0CiAgICB9CgogICAgI1tjZmcodGVzdCldCiAgICBwdWIoY3JhdGUpIGFzeW5jIGZuIGxvYWQoJnNlbGYsIHRhcmdldF9pZDogJnN0cikgLT4gU3RvcmFnZVJlc3VsdDxPcHRpb248VHlwZWRXb2xDb29sZG93bj4+IHsKICAgICAgICBsZXQgdGFyZ2V0X2lkID0gdGFyZ2V0X2lkLnRvX3N0cmluZygpOwogICAgICAgIHNlbGYubWFuYWdlcgogICAgICAgICAgICAuY2FsbChtb3ZlIHxjb25ufCB0eXBlZF9jb29sZG93bl9jb25uKGNvbm4sICZ0YXJnZXRfaWQpKQogICAgICAgICAgICAuYXdhaXQKICAgIH0KCiAgICAjW2NmZyh0ZXN0KV0KICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gY291bnQoJnNlbGYpIC0+IFN0b3JhZ2VSZXN1bHQ8aTY0PiB7CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5jYWxsKHxjb25ufCB7CiAgICAgICAgICAgICAgICBjb25uLnF1ZXJ5X3JvdygiU0VMRUNUIENPVU5UKCopIEZST00gd29sX3dha2VfY29vbGRvd25zIiwgW10sIHxyb3d8IHsKICAgICAgICAgICAgICAgICAgICByb3cuZ2V0Ojo8XywgaTY0PigwKQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC5tYXBfZXJyKEludG86OmludG8pCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQp9CgpmbiBsaXZlX2xlZ2FjeV9yYXdfdHgodHg6ICZUcmFuc2FjdGlvbjwnXz4sIGtleTogJnN0cikgLT4gU3RvcmFnZVJlc3VsdDxPcHRpb248KFN0cmluZywgaTY0KT4+IHsKICAgIHR4LnF1ZXJ5X3JvdygKICAgICAgICAiU0VMRUNUIHN0cmluZ3MudmFsdWUsIGtleXMuZXhwaXJlc19hdF9tcwogICAgICAgICBGUk9NIGt2X2tleXMgQVMga2V5cwogICAgICAgICBKT0lOIGt2X3N0cmluZ3MgQVMgc3RyaW5ncyBPTiBzdHJpbmdzLmtleSA9IGtleXMua2V5CiAgICAgICAgIFdIRVJFIGtleXMua2V5ID0gPzEgQU5EIGtleXMua2luZCA9ICdzdHJpbmcnCiAgICAgICAgICAgQU5EIGtleXMuZXhwaXJlc19hdF9tcyBJUyBOT1QgTlVMTCBBTkQga2V5cy5leHBpcmVzX2F0X21zID4gPzIiLAogICAgICAgIHBhcmFtcyFba2V5LCBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCldLAogICAgICAgIHxyb3d8IE9rKChyb3cuZ2V0Ojo8XywgU3RyaW5nPigwKT8sIHJvdy5nZXQ6OjxfLCBpNjQ+KDEpPykpLAogICAgKQogICAgLm9wdGlvbmFsKCkKICAgIC5tYXBfZXJyKEludG86OmludG8pCn0KCmZuIGxpdmVfbGVnYWN5X2Nvb2xkb3duX3R4KAogICAgdHg6ICZUcmFuc2FjdGlvbjwnXz4sCiAgICBrZXk6ICZzdHIsCikgLT4gU3RvcmFnZVJlc3VsdDxPcHRpb248VHlwZWRXb2xDb29sZG93bj4+IHsKICAgIGxldCBTb21lKHRhcmdldF9pZCkgPSBrZXkKICAgICAgICAuc3RyaXBfcHJlZml4KENPT0xET1dOX1BSRUZJWCkKICAgICAgICAuZmlsdGVyKHxpZHwgIWlkLmlzX2VtcHR5KCkpCiAgICBlbHNlIHsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9OwogICAgbGV0IFNvbWUoKHZhbHVlLCBleHBpcmVzX2F0X21zKSkgPSBsaXZlX2xlZ2FjeV9yYXdfdHgodHgsIGtleSk/IGVsc2UgewogICAgICAgIHJldHVybiBPayhOb25lKTsKICAgIH07CiAgICBpZiB2YWx1ZSAhPSAiMSIgewogICAgICAgIHJldHVybiBPayhOb25lKTsKICAgIH0KICAgIE9rKFNvbWUoVHlwZWRXb2xDb29sZG93biB7CiAgICAgICAgdGFyZ2V0X2lkOiB0YXJnZXRfaWQudG9fc3RyaW5nKCksCiAgICAgICAgZXhwaXJlc19hdF9tcywKICAgIH0pKQp9CgpmbiBsZWdhY3lfY29vbGRvd25zX3R4KHR4OiAmVHJhbnNhY3Rpb248J18+KSAtPiBTdG9yYWdlUmVzdWx0PFZlYzxUeXBlZFdvbENvb2xkb3duPj4gewogICAgbGV0IG11dCBzdGF0ZW1lbnQgPSB0eC5wcmVwYXJlKAogICAgICAgICJTRUxFQ1Qga2V5cy5rZXkgRlJPTSBrdl9rZXlzIEFTIGtleXMKICAgICAgICAgSk9JTiBrdl9zdHJpbmdzIEFTIHN0cmluZ3MgT04gc3RyaW5ncy5rZXkgPSBrZXlzLmtleQogICAgICAgICBXSEVSRSBzdWJzdHIoa2V5cy5rZXksIDEsID8xKSA9ID8yIEFORCBrZXlzLmtpbmQgPSAnc3RyaW5nJwogICAgICAgICAgIEFORCBrZXlzLmV4cGlyZXNfYXRfbXMgSVMgTk9UIE5VTEwgQU5EIGtleXMuZXhwaXJlc19hdF9tcyA+ID8zCiAgICAgICAgIE9SREVSIEJZIGtleXMua2V5IiwKICAgICk/OwogICAgbGV0IHJvd3MgPSBzdGF0ZW1lbnQucXVlcnlfbWFwKAogICAgICAgIHBhcmFtcyFbCiAgICAgICAgICAgIENPT0xET1dOX1BSRUZJWC5sZW4oKSBhcyBpNjQsCiAgICAgICAgICAgIENPT0xET1dOX1BSRUZJWCwKICAgICAgICAgICAgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpCiAgICAgICAgXSwKICAgICAgICB8cm93fCByb3cuZ2V0Ojo8XywgU3RyaW5nPigwKSwKICAgICk/OwogICAgbGV0IG11dCBjb29sZG93bnMgPSBWZWM6Om5ldygpOwogICAgZm9yIGtleSBpbiByb3dzIHsKICAgICAgICBpZiBsZXQgU29tZShjb29sZG93bikgPSBsaXZlX2xlZ2FjeV9jb29sZG93bl90eCh0eCwgJmtleT8pPyB7CiAgICAgICAgICAgIGNvb2xkb3ducy5wdXNoKGNvb2xkb3duKTsKICAgICAgICB9CiAgICB9CiAgICBPayhjb29sZG93bnMpCn0KCmZuIHR5cGVkX2Nvb2xkb3duX3R4KAogICAgdHg6ICZUcmFuc2FjdGlvbjwnXz4sCiAgICB0YXJnZXRfaWQ6ICZzdHIsCikgLT4gU3RvcmFnZVJlc3VsdDxPcHRpb248VHlwZWRXb2xDb29sZG93bj4+IHsKICAgIHR4LnF1ZXJ5X3JvdygKICAgICAgICAiU0VMRUNUIGV4cGlyZXNfYXRfbXMgRlJPTSB3b2xfd2FrZV9jb29sZG93bnMgV0hFUkUgdGFyZ2V0X2lkID0gPzEiLAogICAgICAgIFt0YXJnZXRfaWRdLAogICAgICAgIHxyb3d8IHsKICAgICAgICAgICAgT2soVHlwZWRXb2xDb29sZG93biB7CiAgICAgICAgICAgICAgICB0YXJnZXRfaWQ6IHRhcmdldF9pZC50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgIGV4cGlyZXNfYXRfbXM6IHJvdy5nZXQoMCk/LAogICAgICAgICAgICB9KQogICAgICAgIH0sCiAgICApCiAgICAub3B0aW9uYWwoKQogICAgLm1hcF9lcnIoSW50bzo6aW50bykKfQoKI1tjZmcodGVzdCldCmZuIHR5cGVkX2Nvb2xkb3duX2Nvbm4oCiAgICBjb25uOiAmdG9raW9fcnVzcWxpdGU6OnJ1c3FsaXRlOjpDb25uZWN0aW9uLAogICAgdGFyZ2V0X2lkOiAmc3RyLAopIC0+IFN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFR5cGVkV29sQ29vbGRvd24+PiB7CiAgICBjb25uLnF1ZXJ5X3JvdygKICAgICAgICAiU0VMRUNUIGV4cGlyZXNfYXRfbXMgRlJPTSB3b2xfd2FrZV9jb29sZG93bnMgV0hFUkUgdGFyZ2V0X2lkID0gPzEiLAogICAgICAgIFt0YXJnZXRfaWRdLAogICAgICAgIHxyb3d8IHsKICAgICAgICAgICAgT2soVHlwZWRXb2xDb29sZG93biB7CiAgICAgICAgICAgICAgICB0YXJnZXRfaWQ6IHRhcmdldF9pZC50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgIGV4cGlyZXNfYXRfbXM6IHJvdy5nZXQoMCk/LAogICAgICAgICAgICB9KQogICAgICAgIH0sCiAgICApCiAgICAub3B0aW9uYWwoKQogICAgLm1hcF9lcnIoSW50bzo6aW50bykKfQoKZm4gdXBzZXJ0X3R4KHR4OiAmVHJhbnNhY3Rpb248J18+LCBjb29sZG93bjogJlR5cGVkV29sQ29vbGRvd24pIC0+IFN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgIGlmIGNvb2xkb3duLnRhcmdldF9pZC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gRXJyKHN0b3JhZ2VfZXJyb3IoImVtcHR5IHR5cGVkIFdPTCBjb29sZG93biB0YXJnZXQgSUQiKSk7CiAgICB9CiAgICB0eC5leGVjdXRlKAogICAgICAgICJJTlNFUlQgSU5UTyB3b2xfd2FrZV9jb29sZG93bnModGFyZ2V0X2lkLCBndWFyZF92YWx1ZSwgZXhwaXJlc19hdF9tcywgdXBkYXRlZF9hdF9tcykKICAgICAgICAgVkFMVUVTICg/MSwgJzEnLCA/MiwgPzMpCiAgICAgICAgIE9OIENPTkZMSUNUKHRhcmdldF9pZCkgRE8gVVBEQVRFIFNFVAogICAgICAgICAgIGd1YXJkX3ZhbHVlID0gZXhjbHVkZWQuZ3VhcmRfdmFsdWUsCiAgICAgICAgICAgZXhwaXJlc19hdF9tcyA9IGV4Y2x1ZGVkLmV4cGlyZXNfYXRfbXMsCiAgICAgICAgICAgdXBkYXRlZF9hdF9tcyA9IGV4Y2x1ZGVkLnVwZGF0ZWRfYXRfbXMKICAgICAgICAgV0hFUkUgd29sX3dha2VfY29vbGRvd25zLmd1YXJkX3ZhbHVlIDw+IGV4Y2x1ZGVkLmd1YXJkX3ZhbHVlCiAgICAgICAgICAgIE9SIHdvbF93YWtlX2Nvb2xkb3ducy5leHBpcmVzX2F0X21zIDw+IGV4Y2x1ZGVkLmV4cGlyZXNfYXRfbXMiLAogICAgICAgIHBhcmFtcyFbCiAgICAgICAgICAgIGNvb2xkb3duLnRhcmdldF9pZCwKICAgICAgICAgICAgY29vbGRvd24uZXhwaXJlc19hdF9tcywKICAgICAgICAgICAgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpCiAgICAgICAgXSwKICAgICk/OwogICAgT2soKCkpCn0KCmZuIGRlbGV0ZV90eCh0eDogJlRyYW5zYWN0aW9uPCdfPiwgdGFyZ2V0X2lkOiAmc3RyKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICB0eC5leGVjdXRlKAogICAgICAgICJERUxFVEUgRlJPTSB3b2xfd2FrZV9jb29sZG93bnMgV0hFUkUgdGFyZ2V0X2lkID0gPzEiLAogICAgICAgIFt0YXJnZXRfaWRdLAogICAgKT87CiAgICBPaygoKSkKfQo=
+use tokio_rusqlite::rusqlite::{OptionalExtension, Transaction, TransactionBehavior, params};
+
+use super::{StorageResult, redis_compat::ConnectionManager, storage_error};
+
+pub(crate) const COOLDOWN_PREFIX: &str = "fn_knock:wol:runtime:cooldown:";
+
+const SCHEMA_VERSION: i64 = 1;
+const SCHEMA_NAME: &str = "typed_wol_wake_cooldowns";
+const SCHEMA_SQL: &str = r#"
+CREATE TABLE wol_wake_cooldowns (
+  target_id TEXT PRIMARY KEY CHECK (target_id <> ''),
+  guard_value TEXT NOT NULL CHECK (guard_value = '1'),
+  expires_at_ms INTEGER NOT NULL CHECK (expires_at_ms >= 0),
+  updated_at_ms INTEGER NOT NULL
+);
+CREATE INDEX idx_wol_wake_cooldowns_expiry ON wol_wake_cooldowns(expires_at_ms);
+"#;
+const MIGRATIONS_SQL: &str = r#"
+CREATE TABLE IF NOT EXISTS typed_wol_cooldown_schema_migrations (
+  version INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  checksum TEXT NOT NULL,
+  applied_at_ms INTEGER NOT NULL
+);
+"#;
+
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub(crate) struct TypedWolCooldown {
+    pub(crate) target_id: String,
+    pub(crate) expires_at_ms: i64,
+}
+
+#[derive(Clone)]
+pub(crate) struct TypedWolCooldownRepository {
+    manager: ConnectionManager,
+}
+
+impl TypedWolCooldownRepository {
+    pub(crate) fn new(manager: ConnectionManager) -> Self {
+        Self { manager }
+    }
+
+    pub(crate) async fn initialize(&self) -> StorageResult<()> {
+        self.manager
+            .call(|conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                tx.execute_batch(MIGRATIONS_SQL)?;
+                let checksum = crate::crypto_utils::sha256_hex_bytes(SCHEMA_SQL);
+                let applied = tx
+                    .query_row(
+                        "SELECT name, checksum FROM typed_wol_cooldown_schema_migrations WHERE version = ?1",
+                        [SCHEMA_VERSION],
+                        |row| Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?)),
+                    )
+                    .optional()?;
+                match applied {
+                    Some((name, stored)) if name == SCHEMA_NAME && stored == checksum => {
+                        let exists = tx.query_row(
+                            "SELECT EXISTS(SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'wol_wake_cooldowns')",
+                            [],
+                            |row| row.get::<_, bool>(0),
+                        )?;
+                        if !exists {
+                            return Err(storage_error(
+                                "typed WOL cooldown migration is recorded but its table is missing",
+                            ));
+                        }
+                    }
+                    Some((name, _)) if name != SCHEMA_NAME => {
+                        return Err(storage_error("typed WOL cooldown migration name mismatch"));
+                    }
+                    Some(_) => {
+                        return Err(storage_error("typed WOL cooldown migration checksum mismatch"));
+                    }
+                    None => {
+                        tx.execute_batch(SCHEMA_SQL)?;
+                        tx.execute(
+                            "INSERT INTO typed_wol_cooldown_schema_migrations(version, name, checksum, applied_at_ms) VALUES (?1, ?2, ?3, ?4)",
+                            params![
+                                SCHEMA_VERSION,
+                                SCHEMA_NAME,
+                                checksum,
+                                crate::time_utils::now_ms(),
+                            ],
+                        )?;
+                    }
+                }
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub(crate) async fn rebuild_from_legacy(&self) -> StorageResult<()> {
+        self.manager
+            .call(|conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                Self::rebuild_from_legacy_tx(&tx)?;
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub(crate) fn rebuild_from_legacy_tx(tx: &Transaction<'_>) -> StorageResult<()> {
+        let legacy = legacy_cooldowns_tx(tx)?;
+        tx.execute("DELETE FROM wol_wake_cooldowns", [])?;
+        for cooldown in legacy {
+            upsert_tx(tx, &cooldown)?;
+        }
+        Ok(())
+    }
+
+    pub(crate) fn reconcile_legacy_keys_tx(
+        tx: &Transaction<'_>,
+        keys: &[String],
+    ) -> StorageResult<()> {
+        for key in keys {
+            let Some(target_id) = key.strip_prefix(COOLDOWN_PREFIX) else {
+                continue;
+            };
+            if target_id.is_empty() {
+                return Err(storage_error("empty WOL cooldown target ID"));
+            }
+            match live_legacy_cooldown_tx(tx, key)? {
+                Some(cooldown) => upsert_tx(tx, &cooldown)?,
+                None => delete_tx(tx, target_id)?,
+            }
+        }
+        Ok(())
+    }
+
+    pub(crate) async fn verify_and_repair(&self, target_id: &str) -> StorageResult<bool> {
+        let target_id = target_id.to_string();
+        self.manager
+            .call(move |conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                let key = format!("{COOLDOWN_PREFIX}{target_id}");
+                let raw = live_legacy_raw_tx(&tx, &key)?;
+                let legacy = live_legacy_cooldown_tx(&tx, &key)?;
+                let invalid = raw.is_some() && legacy.is_none();
+                let typed = typed_cooldown_tx(&tx, &target_id)?;
+                let matched = !invalid && typed == legacy;
+                if !matched {
+                    match legacy {
+                        Some(cooldown) => upsert_tx(&tx, &cooldown)?,
+                        None => delete_tx(&tx, &target_id)?,
+                    }
+                }
+                tx.commit()?;
+                Ok(matched)
+            })
+            .await
+    }
+
+    #[cfg(test)]
+    pub(crate) async fn load(&self, target_id: &str) -> StorageResult<Option<TypedWolCooldown>> {
+        let target_id = target_id.to_string();
+        self.manager
+            .call(move |conn| typed_cooldown_conn(conn, &target_id))
+            .await
+    }
+
+    #[cfg(test)]
+    pub(crate) async fn count(&self) -> StorageResult<i64> {
+        self.manager
+            .call(|conn| {
+                conn.query_row("SELECT COUNT(*) FROM wol_wake_cooldowns", [], |row| {
+                    row.get::<_, i64>(0)
+                })
+                .map_err(Into::into)
+            })
+            .await
+    }
+}
+
+fn live_legacy_raw_tx(tx: &Transaction<'_>, key: &str) -> StorageResult<Option<(String, i64)>> {
+    tx.query_row(
+        "SELECT strings.value, keys.expires_at_ms
+         FROM kv_keys AS keys
+         JOIN kv_strings AS strings ON strings.key = keys.key
+         WHERE keys.key = ?1 AND keys.kind = 'string'
+           AND keys.expires_at_ms IS NOT NULL AND keys.expires_at_ms > ?2",
+        params![key, crate::time_utils::now_ms()],
+        |row| Ok((row.get::<_, String>(0)?, row.get::<_, i64>(1)?)),
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+fn live_legacy_cooldown_tx(
+    tx: &Transaction<'_>,
+    key: &str,
+) -> StorageResult<Option<TypedWolCooldown>> {
+    let Some(target_id) = key
+        .strip_prefix(COOLDOWN_PREFIX)
+        .filter(|id| !id.is_empty())
+    else {
+        return Ok(None);
+    };
+    let Some((value, expires_at_ms)) = live_legacy_raw_tx(tx, key)? else {
+        return Ok(None);
+    };
+    if value != "1" {
+        return Ok(None);
+    }
+    Ok(Some(TypedWolCooldown {
+        target_id: target_id.to_string(),
+        expires_at_ms,
+    }))
+}
+
+fn legacy_cooldowns_tx(tx: &Transaction<'_>) -> StorageResult<Vec<TypedWolCooldown>> {
+    let mut statement = tx.prepare(
+        "SELECT keys.key FROM kv_keys AS keys
+         JOIN kv_strings AS strings ON strings.key = keys.key
+         WHERE substr(keys.key, 1, ?1) = ?2 AND keys.kind = 'string'
+           AND keys.expires_at_ms IS NOT NULL AND keys.expires_at_ms > ?3
+         ORDER BY keys.key",
+    )?;
+    let rows = statement.query_map(
+        params![
+            COOLDOWN_PREFIX.len() as i64,
+            COOLDOWN_PREFIX,
+            crate::time_utils::now_ms()
+        ],
+        |row| row.get::<_, String>(0),
+    )?;
+    let mut cooldowns = Vec::new();
+    for key in rows {
+        if let Some(cooldown) = live_legacy_cooldown_tx(tx, &key?)? {
+            cooldowns.push(cooldown);
+        }
+    }
+    Ok(cooldowns)
+}
+
+fn typed_cooldown_tx(
+    tx: &Transaction<'_>,
+    target_id: &str,
+) -> StorageResult<Option<TypedWolCooldown>> {
+    tx.query_row(
+        "SELECT expires_at_ms FROM wol_wake_cooldowns WHERE target_id = ?1",
+        [target_id],
+        |row| {
+            Ok(TypedWolCooldown {
+                target_id: target_id.to_string(),
+                expires_at_ms: row.get(0)?,
+            })
+        },
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+#[cfg(test)]
+fn typed_cooldown_conn(
+    conn: &tokio_rusqlite::rusqlite::Connection,
+    target_id: &str,
+) -> StorageResult<Option<TypedWolCooldown>> {
+    conn.query_row(
+        "SELECT expires_at_ms FROM wol_wake_cooldowns WHERE target_id = ?1",
+        [target_id],
+        |row| {
+            Ok(TypedWolCooldown {
+                target_id: target_id.to_string(),
+                expires_at_ms: row.get(0)?,
+            })
+        },
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+fn upsert_tx(tx: &Transaction<'_>, cooldown: &TypedWolCooldown) -> StorageResult<()> {
+    if cooldown.target_id.is_empty() {
+        return Err(storage_error("empty typed WOL cooldown target ID"));
+    }
+    tx.execute(
+        "INSERT INTO wol_wake_cooldowns(target_id, guard_value, expires_at_ms, updated_at_ms)
+         VALUES (?1, '1', ?2, ?3)
+         ON CONFLICT(target_id) DO UPDATE SET
+           guard_value = excluded.guard_value,
+           expires_at_ms = excluded.expires_at_ms,
+           updated_at_ms = excluded.updated_at_ms
+         WHERE wol_wake_cooldowns.guard_value <> excluded.guard_value
+            OR wol_wake_cooldowns.expires_at_ms <> excluded.expires_at_ms",
+        params![
+            cooldown.target_id,
+            cooldown.expires_at_ms,
+            crate::time_utils::now_ms()
+        ],
+    )?;
+    Ok(())
+}
+
+fn delete_tx(tx: &Transaction<'_>, target_id: &str) -> StorageResult<()> {
+    tx.execute(
+        "DELETE FROM wol_wake_cooldowns WHERE target_id = ?1",
+        [target_id],
+    )?;
+    Ok(())
+}

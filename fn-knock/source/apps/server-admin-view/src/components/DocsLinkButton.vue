@@ -1,1 +1,29 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgRXh0ZXJuYWxMaW5rIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgQnV0dG9uLCB0eXBlIEJ1dHRvblZhcmlhbnRzIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cygKICBkZWZpbmVQcm9wczx7CiAgICBocmVmOiBzdHJpbmc7CiAgICBsYWJlbD86IHN0cmluZzsKICAgIHNpemU/OiBCdXR0b25WYXJpYW50c1sic2l6ZSJdOwogIH0+KCksCiAgewogICAgc2l6ZTogInNtIiwKICB9LAopOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IGRpc3BsYXlMYWJlbCA9IGNvbXB1dGVkKCgpID0+IHByb3BzLmxhYmVsID8/IHQoImNvbW1vbi5kb2NzIikpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8QnV0dG9uIGFzLWNoaWxkIHZhcmlhbnQ9Imdob3N0IiBjbGFzcz0iZ2FwLTAgbGVhZGluZy1ub25lIiA6c2l6ZT0ic2l6ZSI+CiAgICA8YSA6aHJlZj0iaHJlZiIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIgQGNsaWNrLnN0b3A+CiAgICAgIDxFeHRlcm5hbExpbmsgY2xhc3M9Im1yLTEuNSBoLTQgdy00IiAvPgogICAgICB7eyBkaXNwbGF5TGFiZWwgfX0KICAgIDwvYT4KICA8L0J1dHRvbj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { ExternalLink } from "lucide-vue-next";
+import { Button, type ButtonVariants } from "@/components/ui/button";
+
+const props = withDefaults(
+  defineProps<{
+    href: string;
+    label?: string;
+    size?: ButtonVariants["size"];
+  }>(),
+  {
+    size: "sm",
+  },
+);
+
+const { t } = useI18n();
+const displayLabel = computed(() => props.label ?? t("common.docs"));
+</script>
+
+<template>
+  <Button as-child variant="ghost" class="gap-0 leading-none" :size="size">
+    <a :href="href" target="_blank" rel="noopener noreferrer" @click.stop>
+      <ExternalLink class="mr-1.5 h-4 w-4" />
+      {{ displayLabel }}
+    </a>
+  </Button>
+</template>

@@ -1,1 +1,47 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUGFnaW5hdGlvbkZpcnN0UHJvcHMgfSBmcm9tICJyZWthLXVpIjsKaW1wb3J0IHR5cGUgeyBIVE1MQXR0cmlidXRlcyB9IGZyb20gInZ1ZSI7CmltcG9ydCB0eXBlIHsgQnV0dG9uVmFyaWFudHMgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgcmVhY3RpdmVPbWl0IH0gZnJvbSAiQHZ1ZXVzZS9jb3JlIjsKaW1wb3J0IHsgQ2hldnJvbnNMZWZ0SWNvbiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IFBhZ2luYXRpb25GaXJzdCwgdXNlRm9yd2FyZFByb3BzIH0gZnJvbSAicmVrYS11aSI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiOwppbXBvcnQgeyBidXR0b25WYXJpYW50cyB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cygKICBkZWZpbmVQcm9wczwKICAgIFBhZ2luYXRpb25GaXJzdFByb3BzICYgewogICAgICBzaXplPzogQnV0dG9uVmFyaWFudHNbInNpemUiXTsKICAgICAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXTsKICAgIH0KICA+KCksCiAgewogICAgc2l6ZTogImRlZmF1bHQiLAogIH0sCik7Cgpjb25zdCBkZWxlZ2F0ZWRQcm9wcyA9IHJlYWN0aXZlT21pdChwcm9wcywgImNsYXNzIiwgInNpemUiKTsKY29uc3QgZm9yd2FyZGVkID0gdXNlRm9yd2FyZFByb3BzKGRlbGVnYXRlZFByb3BzKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFBhZ2luYXRpb25GaXJzdAogICAgZGF0YS1zbG90PSJwYWdpbmF0aW9uLWZpcnN0IgogICAgOmNsYXNzPSIKICAgICAgY24oCiAgICAgICAgYnV0dG9uVmFyaWFudHMoeyB2YXJpYW50OiAnZ2hvc3QnLCBzaXplIH0pLAogICAgICAgICdnYXAtMSBweC0yLjUgc206cHItMi41JywKICAgICAgICBwcm9wcy5jbGFzcywKICAgICAgKQogICAgIgogICAgdi1iaW5kPSJmb3J3YXJkZWQiCiAgPgogICAgPHNsb3Q+CiAgICAgIDxDaGV2cm9uc0xlZnRJY29uIC8+CiAgICAgIDxzcGFuIGNsYXNzPSJoaWRkZW4gc206YmxvY2siPnt7IHQoImNvbW1vbi5maXJzdFBhZ2UiKSB9fTwvc3Bhbj4KICAgIDwvc2xvdD4KICA8L1BhZ2luYXRpb25GaXJzdD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { PaginationFirstProps } from "reka-ui";
+import type { HTMLAttributes } from "vue";
+import type { ButtonVariants } from "@/components/ui/button";
+import { reactiveOmit } from "@vueuse/core";
+import { ChevronsLeftIcon } from "lucide-vue-next";
+import { PaginationFirst, useForwardProps } from "reka-ui";
+import { cn } from "@/lib/utils";
+import { buttonVariants } from "@/components/ui/button";
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n();
+
+const props = withDefaults(
+  defineProps<
+    PaginationFirstProps & {
+      size?: ButtonVariants["size"];
+      class?: HTMLAttributes["class"];
+    }
+  >(),
+  {
+    size: "default",
+  },
+);
+
+const delegatedProps = reactiveOmit(props, "class", "size");
+const forwarded = useForwardProps(delegatedProps);
+</script>
+
+<template>
+  <PaginationFirst
+    data-slot="pagination-first"
+    :class="
+      cn(
+        buttonVariants({ variant: 'ghost', size }),
+        'gap-1 px-2.5 sm:pr-2.5',
+        props.class,
+      )
+    "
+    v-bind="forwarded"
+  >
+    <slot>
+      <ChevronsLeftIcon />
+      <span class="hidden sm:block">{{ t("common.firstPage") }}</span>
+    </slot>
+  </PaginationFirst>
+</template>

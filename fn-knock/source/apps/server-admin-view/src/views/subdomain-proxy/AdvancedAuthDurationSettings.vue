@@ -1,1 +1,171 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQ2xvY2szIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB0eXBlIHsgQWR2YW5jZWRBdXRoQ29uZmlnIH0gZnJvbSAiLi4vLi4vdHlwZXMiOwppbXBvcnQgewogIGFkdmFuY2VkQXV0aEhvdXJJbnB1dFRvU2Vjb25kcywKICBNQVhfQURWQU5DRURfQVVUSF9JRExFX1RUTF9IT1VSUywKICBNQVhfQURWQU5DRURfQVVUSF9JRExFX1RUTF9TRUNPTkRTLAogIE1BWF9BRFZBTkNFRF9BVVRIX0xJRkVUSU1FX0hPVVJTLAogIE1BWF9BRFZBTkNFRF9BVVRIX0xJRkVUSU1FX1NFQ09ORFMsCiAgTUlOX0FEVkFOQ0VEX0FVVEhfVFRMX0hPVVJTLAogIFNFQ09ORFNfUEVSX01JTlVURSwKICBzZWNvbmRzVG9BZHZhbmNlZEF1dGhIb3VySW5wdXQsCn0gZnJvbSAiLi9hZHZhbmNlZC1hdXRoLWZvcm0iOwoKY29uc3QgeyBmb3JtLCBzYXZpbmcgfSA9IGRlZmluZVByb3BzPHsKICBmb3JtOiBBZHZhbmNlZEF1dGhDb25maWc7CiAgc2F2aW5nOiBib29sZWFuOwp9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IGlkbGVIb3VycyA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IHNlY29uZHNUb0FkdmFuY2VkQXV0aEhvdXJJbnB1dChmb3JtLmlkbGVfdHRsX3NlY29uZHMpLAogIHNldDogKHZhbHVlOiBudW1iZXIpID0+IHsKICAgIGZvcm0uaWRsZV90dGxfc2Vjb25kcyA9IGFkdmFuY2VkQXV0aEhvdXJJbnB1dFRvU2Vjb25kcygKICAgICAgdmFsdWUsCiAgICAgIE1BWF9BRFZBTkNFRF9BVVRIX0lETEVfVFRMX1NFQ09ORFMsCiAgICApOwogIH0sCn0pOwpjb25zdCBtYXhMaWZldGltZUhvdXJzID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gc2Vjb25kc1RvQWR2YW5jZWRBdXRoSG91cklucHV0KGZvcm0ubWF4X2xpZmV0aW1lX3NlY29uZHMpLAogIHNldDogKHZhbHVlOiBudW1iZXIpID0+IHsKICAgIGZvcm0ubWF4X2xpZmV0aW1lX3NlY29uZHMgPSBhZHZhbmNlZEF1dGhIb3VySW5wdXRUb1NlY29uZHMoCiAgICAgIHZhbHVlLAogICAgICBNQVhfQURWQU5DRURfQVVUSF9MSUZFVElNRV9TRUNPTkRTLAogICAgKTsKICB9LAp9KTsKCmNvbnN0IGZvcm1hdEdyYW50RHVyYXRpb24gPSAoc2Vjb25kczogbnVtYmVyKSA9PiB7CiAgY29uc3QgbWludXRlcyA9IE1hdGgubWF4KDUsIE1hdGgucm91bmQoc2Vjb25kcyAvIFNFQ09ORFNfUEVSX01JTlVURSkpOwogIGlmIChtaW51dGVzICUgKDI0ICogNjApID09PSAwKSB7CiAgICByZXR1cm4gdCgiYWRtaW4uYWR2YW5jZWRBdXRoLmR1cmF0aW9uRGF5c1dpdGhIb3VycyIsIHsKICAgICAgZGF5czogbWludXRlcyAvICgyNCAqIDYwKSwKICAgICAgaG91cnM6IG1pbnV0ZXMgLyA2MCwKICAgIH0pOwogIH0KICBpZiAobWludXRlcyAlIDYwID09PSAwKSB7CiAgICByZXR1cm4gdCgiYWRtaW4uYWR2YW5jZWRBdXRoLmR1cmF0aW9uSG91cnMiLCB7IGhvdXJzOiBtaW51dGVzIC8gNjAgfSk7CiAgfQogIGlmIChtaW51dGVzIDwgNjApIHsKICAgIHJldHVybiB0KCJhZG1pbi5hZHZhbmNlZEF1dGguZHVyYXRpb25NaW51dGVzIiwgeyBtaW51dGVzIH0pOwogIH0KICByZXR1cm4gdCgiYWRtaW4uYWR2YW5jZWRBdXRoLmR1cmF0aW9uSG91cnNNaW51dGVzIiwgewogICAgaG91cnM6IE1hdGguZmxvb3IobWludXRlcyAvIDYwKSwKICAgIG1pbnV0ZXM6IG1pbnV0ZXMgJSA2MCwKICB9KTsKfTsKCmNvbnN0IGlkbGVEdXJhdGlvblRleHQgPSBjb21wdXRlZCgoKSA9PgogIGZvcm1hdEdyYW50RHVyYXRpb24oZm9ybS5pZGxlX3R0bF9zZWNvbmRzKSwKKTsKY29uc3QgbWF4TGlmZXRpbWVEdXJhdGlvblRleHQgPSBjb21wdXRlZCgoKSA9PgogIGZvcm1hdEdyYW50RHVyYXRpb24oZm9ybS5tYXhfbGlmZXRpbWVfc2Vjb25kcyksCik7CmNvbnN0IG1heExpZmV0aW1lVG9vU2hvcnQgPSBjb21wdXRlZCgKICAoKSA9PiBmb3JtLm1heF9saWZldGltZV9zZWNvbmRzIDwgZm9ybS5pZGxlX3R0bF9zZWNvbmRzLAopOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8c2VjdGlvbiBjbGFzcz0ic3BhY2UteS01IGJvcmRlci15IGJvcmRlci1ib3JkZXIvNDAgcHktNSI+CiAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEiPgogICAgICA8aDIgY2xhc3M9InRleHQtYmFzZSBmb250LW1lZGl1bSI+CiAgICAgICAge3sgdCgiYWRtaW4uYWR2YW5jZWRBdXRoLmR1cmF0aW9uVGl0bGUiKSB9fQogICAgICA8L2gyPgogICAgICA8cCBjbGFzcz0idGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0KCJhZG1pbi5hZHZhbmNlZEF1dGguZHVyYXRpb25EZXNjcmlwdGlvbiIpIH19CiAgICAgIDwvcD4KICAgIDwvZGl2PgoKICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTUgc206Z3JpZC1jb2xzLTIiPgogICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgIDxMYWJlbCBmb3I9ImFkdmFuY2VkLWF1dGgtaWRsZS10dGwiPgogICAgICAgICAge3sgdCgiYWRtaW4uYWR2YW5jZWRBdXRoLmlkbGVUdGwiKSB9fQogICAgICAgIDwvTGFiZWw+CiAgICAgICAgPGRpdiBjbGFzcz0icmVsYXRpdmUiPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIGlkPSJhZHZhbmNlZC1hdXRoLWlkbGUtdHRsIgogICAgICAgICAgICB2LW1vZGVsLm51bWJlcj0iaWRsZUhvdXJzIgogICAgICAgICAgICBjbGFzcz0icHItMTYiCiAgICAgICAgICAgIHR5cGU9Im51bWJlciIKICAgICAgICAgICAgOm1pbj0iTUlOX0FEVkFOQ0VEX0FVVEhfVFRMX0hPVVJTIgogICAgICAgICAgICA6bWF4PSJNQVhfQURWQU5DRURfQVVUSF9JRExFX1RUTF9IT1VSUyIKICAgICAgICAgICAgc3RlcD0iYW55IgogICAgICAgICAgICA6ZGlzYWJsZWQ9InNhdmluZyIKICAgICAgICAgIC8+CiAgICAgICAgICA8c3BhbgogICAgICAgICAgICBjbGFzcz0icG9pbnRlci1ldmVudHMtbm9uZSBhYnNvbHV0ZSBpbnNldC15LTAgcmlnaHQtMyBmbGV4IGl0ZW1zLWNlbnRlciB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uYWR2YW5jZWRBdXRoLmhvdXJzVW5pdCIpIH19CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPHAgY2xhc3M9InRleHQteHMgbGVhZGluZy01IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7ewogICAgICAgICAgICB0KCJhZG1pbi5hZHZhbmNlZEF1dGguaWRsZVR0bERlc2NyaXB0aW9uIiwgewogICAgICAgICAgICAgIGR1cmF0aW9uOiBpZGxlRHVyYXRpb25UZXh0LAogICAgICAgICAgICB9KQogICAgICAgICAgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICA8TGFiZWwgZm9yPSJhZHZhbmNlZC1hdXRoLW1heC1saWZldGltZSI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5hZHZhbmNlZEF1dGgubWF4TGlmZXRpbWUiKSB9fQogICAgICAgIDwvTGFiZWw+CiAgICAgICAgPGRpdiBjbGFzcz0icmVsYXRpdmUiPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIGlkPSJhZHZhbmNlZC1hdXRoLW1heC1saWZldGltZSIKICAgICAgICAgICAgdi1tb2RlbC5udW1iZXI9Im1heExpZmV0aW1lSG91cnMiCiAgICAgICAgICAgIGNsYXNzPSJwci0xNiIKICAgICAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgICAgICA6bWluPSJNSU5fQURWQU5DRURfQVVUSF9UVExfSE9VUlMiCiAgICAgICAgICAgIDptYXg9Ik1BWF9BRFZBTkNFRF9BVVRIX0xJRkVUSU1FX0hPVVJTIgogICAgICAgICAgICBzdGVwPSJhbnkiCiAgICAgICAgICAgIDpkaXNhYmxlZD0ic2F2aW5nIgogICAgICAgICAgLz4KICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIGNsYXNzPSJwb2ludGVyLWV2ZW50cy1ub25lIGFic29sdXRlIGluc2V0LXktMCByaWdodC0zIGZsZXggaXRlbXMtY2VudGVyIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5hZHZhbmNlZEF1dGguaG91cnNVbml0IikgfX0KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8cCBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHQoImFkbWluLmFkdmFuY2VkQXV0aC5tYXhMaWZldGltZURlc2NyaXB0aW9uIiwgewogICAgICAgICAgICAgIGR1cmF0aW9uOiBtYXhMaWZldGltZUR1cmF0aW9uVGV4dCwKICAgICAgICAgICAgfSkKICAgICAgICAgIH19CiAgICAgICAgPC9wPgogICAgICAgIDxwCiAgICAgICAgICB2LWlmPSJtYXhMaWZldGltZVRvb1Nob3J0IgogICAgICAgICAgY2xhc3M9InRleHQteHMgbGVhZGluZy01IHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uYWR2YW5jZWRBdXRoLm1heExpZmV0aW1lVG9vU2hvcnQiKSB9fQogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0zIHJvdW5kZWQtbGcgYmctbXV0ZWQvNDAgcHgtNCBweS0zIj4KICAgICAgPENsb2NrMyBjbGFzcz0ibXQtMC41IGgtNCB3LTQgc2hyaW5rLTAgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTAuNSB0ZXh0LXNtIj4KICAgICAgICA8cCBjbGFzcz0iZm9udC1tZWRpdW0iPgogICAgICAgICAge3sgdCgiYWRtaW4uYWR2YW5jZWRBdXRoLmR1cmF0aW9uU3VtbWFyeVRpdGxlIikgfX0KICAgICAgICA8L3A+CiAgICAgICAgPHAgY2xhc3M9ImxlYWRpbmctNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgiYWRtaW4uYWR2YW5jZWRBdXRoLmR1cmF0aW9uU3VtbWFyeSIsIHsKICAgICAgICAgICAgICBpZGxlOiBpZGxlRHVyYXRpb25UZXh0LAogICAgICAgICAgICAgIG1heGltdW06IG1heExpZmV0aW1lRHVyYXRpb25UZXh0LAogICAgICAgICAgICB9KQogICAgICAgICAgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9zZWN0aW9uPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Clock3 } from "lucide-vue-next";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import type { AdvancedAuthConfig } from "../../types";
+import {
+  advancedAuthHourInputToSeconds,
+  MAX_ADVANCED_AUTH_IDLE_TTL_HOURS,
+  MAX_ADVANCED_AUTH_IDLE_TTL_SECONDS,
+  MAX_ADVANCED_AUTH_LIFETIME_HOURS,
+  MAX_ADVANCED_AUTH_LIFETIME_SECONDS,
+  MIN_ADVANCED_AUTH_TTL_HOURS,
+  SECONDS_PER_MINUTE,
+  secondsToAdvancedAuthHourInput,
+} from "./advanced-auth-form";
+
+const { form, saving } = defineProps<{
+  form: AdvancedAuthConfig;
+  saving: boolean;
+}>();
+const { t } = useI18n();
+
+const idleHours = computed({
+  get: () => secondsToAdvancedAuthHourInput(form.idle_ttl_seconds),
+  set: (value: number) => {
+    form.idle_ttl_seconds = advancedAuthHourInputToSeconds(
+      value,
+      MAX_ADVANCED_AUTH_IDLE_TTL_SECONDS,
+    );
+  },
+});
+const maxLifetimeHours = computed({
+  get: () => secondsToAdvancedAuthHourInput(form.max_lifetime_seconds),
+  set: (value: number) => {
+    form.max_lifetime_seconds = advancedAuthHourInputToSeconds(
+      value,
+      MAX_ADVANCED_AUTH_LIFETIME_SECONDS,
+    );
+  },
+});
+
+const formatGrantDuration = (seconds: number) => {
+  const minutes = Math.max(5, Math.round(seconds / SECONDS_PER_MINUTE));
+  if (minutes % (24 * 60) === 0) {
+    return t("admin.advancedAuth.durationDaysWithHours", {
+      days: minutes / (24 * 60),
+      hours: minutes / 60,
+    });
+  }
+  if (minutes % 60 === 0) {
+    return t("admin.advancedAuth.durationHours", { hours: minutes / 60 });
+  }
+  if (minutes < 60) {
+    return t("admin.advancedAuth.durationMinutes", { minutes });
+  }
+  return t("admin.advancedAuth.durationHoursMinutes", {
+    hours: Math.floor(minutes / 60),
+    minutes: minutes % 60,
+  });
+};
+
+const idleDurationText = computed(() =>
+  formatGrantDuration(form.idle_ttl_seconds),
+);
+const maxLifetimeDurationText = computed(() =>
+  formatGrantDuration(form.max_lifetime_seconds),
+);
+const maxLifetimeTooShort = computed(
+  () => form.max_lifetime_seconds < form.idle_ttl_seconds,
+);
+</script>
+
+<template>
+  <section class="space-y-5 border-y border-border/40 py-5">
+    <div class="space-y-1">
+      <h2 class="text-base font-medium">
+        {{ t("admin.advancedAuth.durationTitle") }}
+      </h2>
+      <p class="text-sm leading-6 text-muted-foreground">
+        {{ t("admin.advancedAuth.durationDescription") }}
+      </p>
+    </div>
+
+    <div class="grid gap-5 sm:grid-cols-2">
+      <div class="space-y-2">
+        <Label for="advanced-auth-idle-ttl">
+          {{ t("admin.advancedAuth.idleTtl") }}
+        </Label>
+        <div class="relative">
+          <Input
+            id="advanced-auth-idle-ttl"
+            v-model.number="idleHours"
+            class="pr-16"
+            type="number"
+            :min="MIN_ADVANCED_AUTH_TTL_HOURS"
+            :max="MAX_ADVANCED_AUTH_IDLE_TTL_HOURS"
+            step="any"
+            :disabled="saving"
+          />
+          <span
+            class="pointer-events-none absolute inset-y-0 right-3 flex items-center text-sm text-muted-foreground"
+          >
+            {{ t("admin.advancedAuth.hoursUnit") }}
+          </span>
+        </div>
+        <p class="text-xs leading-5 text-muted-foreground">
+          {{
+            t("admin.advancedAuth.idleTtlDescription", {
+              duration: idleDurationText,
+            })
+          }}
+        </p>
+      </div>
+
+      <div class="space-y-2">
+        <Label for="advanced-auth-max-lifetime">
+          {{ t("admin.advancedAuth.maxLifetime") }}
+        </Label>
+        <div class="relative">
+          <Input
+            id="advanced-auth-max-lifetime"
+            v-model.number="maxLifetimeHours"
+            class="pr-16"
+            type="number"
+            :min="MIN_ADVANCED_AUTH_TTL_HOURS"
+            :max="MAX_ADVANCED_AUTH_LIFETIME_HOURS"
+            step="any"
+            :disabled="saving"
+          />
+          <span
+            class="pointer-events-none absolute inset-y-0 right-3 flex items-center text-sm text-muted-foreground"
+          >
+            {{ t("admin.advancedAuth.hoursUnit") }}
+          </span>
+        </div>
+        <p class="text-xs leading-5 text-muted-foreground">
+          {{
+            t("admin.advancedAuth.maxLifetimeDescription", {
+              duration: maxLifetimeDurationText,
+            })
+          }}
+        </p>
+        <p
+          v-if="maxLifetimeTooShort"
+          class="text-xs leading-5 text-destructive"
+        >
+          {{ t("admin.advancedAuth.maxLifetimeTooShort") }}
+        </p>
+      </div>
+    </div>
+
+    <div class="flex items-start gap-3 rounded-lg bg-muted/40 px-4 py-3">
+      <Clock3 class="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
+      <div class="space-y-0.5 text-sm">
+        <p class="font-medium">
+          {{ t("admin.advancedAuth.durationSummaryTitle") }}
+        </p>
+        <p class="leading-6 text-muted-foreground">
+          {{
+            t("admin.advancedAuth.durationSummary", {
+              idle: idleDurationText,
+              maximum: maxLifetimeDurationText,
+            })
+          }}
+        </p>
+      </div>
+    </div>
+  </section>
+</template>

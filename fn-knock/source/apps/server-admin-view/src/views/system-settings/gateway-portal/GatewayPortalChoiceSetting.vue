@@ -1,1 +1,47 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwoKZGVmaW5lUHJvcHM8ewogIHRpdGxlOiBzdHJpbmc7CiAgZGVzY3JpcHRpb246IHN0cmluZzsKICBtb2RlbFZhbHVlOiBzdHJpbmc7CiAgb3B0aW9uczogQXJyYXk8eyBsYWJlbDogc3RyaW5nOyB2YWx1ZTogc3RyaW5nIH0+OwogIGRpc2FibGVkPzogYm9vbGVhbjsKfT4oKTsKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsgInVwZGF0ZTptb2RlbFZhbHVlIjogW3ZhbHVlOiBzdHJpbmddIH0+KCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxzZWN0aW9uCiAgICBjbGFzcz0iZ3JpZCBnYXAtMyBwLTYgc206Z3JpZC1jb2xzLVttaW5tYXgoMCwxZnIpX2F1dG9dIHNtOml0ZW1zLWNlbnRlciBzbTpnYXAtNCIKICA+CiAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEgcHItNiI+CiAgICAgIDxkaXYgY2xhc3M9InRleHQtYmFzZSBmb250LW1lZGl1bSI+e3sgdGl0bGUgfX08L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt7IGRlc2NyaXB0aW9uIH19PC9kaXY+CiAgICA8L2Rpdj4KICAgIDxkaXYKICAgICAgcm9sZT0iZ3JvdXAiCiAgICAgIDphcmlhLWxhYmVsPSJ0aXRsZSIKICAgICAgY2xhc3M9ImlubGluZS1mbGV4IHctZml0IHJvdW5kZWQtbWQgYm9yZGVyIGJnLWJhY2tncm91bmQgcC0xIgogICAgPgogICAgICA8QnV0dG9uCiAgICAgICAgdi1mb3I9Im9wdGlvbiBpbiBvcHRpb25zIgogICAgICAgIDprZXk9Im9wdGlvbi52YWx1ZSIKICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgOmFyaWEtcHJlc3NlZD0ibW9kZWxWYWx1ZSA9PT0gb3B0aW9uLnZhbHVlIgogICAgICAgIDpjbGFzcz0iWwogICAgICAgICAgJ2gtOCBweC0zJywKICAgICAgICAgIG1vZGVsVmFsdWUgPT09IG9wdGlvbi52YWx1ZQogICAgICAgICAgICA/ICdiZy1mb3JlZ3JvdW5kIHRleHQtYmFja2dyb3VuZCBob3ZlcjpiZy1mb3JlZ3JvdW5kLzkwIGhvdmVyOnRleHQtYmFja2dyb3VuZCcKICAgICAgICAgICAgOiAnJywKICAgICAgICBdIgogICAgICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQiCiAgICAgICAgQGNsaWNrPSJlbWl0KCd1cGRhdGU6bW9kZWxWYWx1ZScsIG9wdGlvbi52YWx1ZSkiCiAgICAgID4KICAgICAgICB7eyBvcHRpb24ubGFiZWwgfX0KICAgICAgPC9CdXR0b24+CiAgICA8L2Rpdj4KICA8L3NlY3Rpb24+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { Button } from "@/components/ui/button";
+
+defineProps<{
+  title: string;
+  description: string;
+  modelValue: string;
+  options: Array<{ label: string; value: string }>;
+  disabled?: boolean;
+}>();
+const emit = defineEmits<{ "update:modelValue": [value: string] }>();
+</script>
+
+<template>
+  <section
+    class="grid gap-3 p-6 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-4"
+  >
+    <div class="space-y-1 pr-6">
+      <div class="text-base font-medium">{{ title }}</div>
+      <div class="text-sm text-muted-foreground">{{ description }}</div>
+    </div>
+    <div
+      role="group"
+      :aria-label="title"
+      class="inline-flex w-fit rounded-md border bg-background p-1"
+    >
+      <Button
+        v-for="option in options"
+        :key="option.value"
+        type="button"
+        size="sm"
+        variant="ghost"
+        :aria-pressed="modelValue === option.value"
+        :class="[
+          'h-8 px-3',
+          modelValue === option.value
+            ? 'bg-foreground text-background hover:bg-foreground/90 hover:text-background'
+            : '',
+        ]"
+        :disabled="disabled"
+        @click="emit('update:modelValue', option.value)"
+      >
+        {{ option.label }}
+      </Button>
+    </div>
+  </section>
+</template>

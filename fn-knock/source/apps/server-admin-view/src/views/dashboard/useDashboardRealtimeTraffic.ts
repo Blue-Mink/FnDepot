@@ -1,1 +1,59 @@
-aW1wb3J0IHsgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHR5cGUgeyBUcmFmZmljU3RhdHMgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsgdXNlVGFyZ2V0UG9sbGluZyB9IGZyb20gIkAvY29tcG9zYWJsZXMvdXNlVGFyZ2V0UG9sbGluZyI7CgpleHBvcnQgY29uc3QgdXNlRGFzaGJvYXJkUmVhbHRpbWVUcmFmZmljID0gKCkgPT4gewogIGNvbnN0IHJlYWx0aW1lU3RhdHMgPSByZWY8VHJhZmZpY1N0YXRzIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgcmVhbHRpbWVJbkJwcyA9IHJlZjxudW1iZXIgfCBudWxsPihudWxsKTsKICBjb25zdCByZWFsdGltZU91dEJwcyA9IHJlZjxudW1iZXIgfCBudWxsPihudWxsKTsKICBsZXQgcHJldmlvdXNTYW1wbGU6IHsKICAgIGF0OiBudW1iZXI7CiAgICB0b3RhbEluOiBudW1iZXI7CiAgICB0b3RhbE91dDogbnVtYmVyOwogIH0gfCBudWxsID0gbnVsbDsKCiAgY29uc3QgYXBwbHkgPSAocGF5bG9hZDogVHJhZmZpY1N0YXRzKSA9PiB7CiAgICBpZiAoCiAgICAgICFOdW1iZXIuaXNGaW5pdGUocGF5bG9hZC50b3RhbF9pbikgfHwKICAgICAgIU51bWJlci5pc0Zpbml0ZShwYXlsb2FkLnRvdGFsX291dCkKICAgICkgewogICAgICByZXR1cm47CiAgICB9CgogICAgcmVhbHRpbWVTdGF0cy52YWx1ZSA9IHBheWxvYWQ7CiAgICBjb25zdCB0aW1lc3RhbXAgPSBOdW1iZXIocGF5bG9hZC50aW1lc3RhbXAgPz8gRGF0ZS5ub3coKSk7CiAgICBpZiAocHJldmlvdXNTYW1wbGUpIHsKICAgICAgY29uc3QgZWxhcHNlZFNlY29uZHMgPSBNYXRoLm1heCgKICAgICAgICAxLAogICAgICAgICh0aW1lc3RhbXAgLSBwcmV2aW91c1NhbXBsZS5hdCkgLyAxMDAwLAogICAgICApOwogICAgICByZWFsdGltZUluQnBzLnZhbHVlID0KICAgICAgICBNYXRoLm1heCgwLCBwYXlsb2FkLnRvdGFsX2luIC0gcHJldmlvdXNTYW1wbGUudG90YWxJbikgLyBlbGFwc2VkU2Vjb25kczsKICAgICAgcmVhbHRpbWVPdXRCcHMudmFsdWUgPQogICAgICAgIE1hdGgubWF4KDAsIHBheWxvYWQudG90YWxfb3V0IC0gcHJldmlvdXNTYW1wbGUudG90YWxPdXQpIC8KICAgICAgICBlbGFwc2VkU2Vjb25kczsKICAgIH0gZWxzZSB7CiAgICAgIHJlYWx0aW1lSW5CcHMudmFsdWUgPSBudWxsOwogICAgICByZWFsdGltZU91dEJwcy52YWx1ZSA9IG51bGw7CiAgICB9CgogICAgcHJldmlvdXNTYW1wbGUgPSB7CiAgICAgIGF0OiB0aW1lc3RhbXAsCiAgICAgIHRvdGFsSW46IHBheWxvYWQudG90YWxfaW4sCiAgICAgIHRvdGFsT3V0OiBwYXlsb2FkLnRvdGFsX291dCwKICAgIH07CiAgfTsKCiAgY29uc3QgcG9sbGluZyA9IHVzZVRhcmdldFBvbGxpbmcoewogICAgdGFyZ2V0OiAiZGFzaGJvYXJkIiwKICAgIGludGVydmFsTXM6IDEwMDAsCiAgICBvbkRhdGE6IGFwcGx5LAogIH0pOwoKICByZXR1cm4gewogICAgcG9sbGluZywKICAgIHJlYWx0aW1lSW5CcHMsCiAgICByZWFsdGltZU91dEJwcywKICAgIHJlYWx0aW1lU3RhdHMsCiAgfTsKfTsK
+import { ref } from "vue";
+import type { TrafficStats } from "@/types";
+import { useTargetPolling } from "@/composables/useTargetPolling";
+
+export const useDashboardRealtimeTraffic = () => {
+  const realtimeStats = ref<TrafficStats | null>(null);
+  const realtimeInBps = ref<number | null>(null);
+  const realtimeOutBps = ref<number | null>(null);
+  let previousSample: {
+    at: number;
+    totalIn: number;
+    totalOut: number;
+  } | null = null;
+
+  const apply = (payload: TrafficStats) => {
+    if (
+      !Number.isFinite(payload.total_in) ||
+      !Number.isFinite(payload.total_out)
+    ) {
+      return;
+    }
+
+    realtimeStats.value = payload;
+    const timestamp = Number(payload.timestamp ?? Date.now());
+    if (previousSample) {
+      const elapsedSeconds = Math.max(
+        1,
+        (timestamp - previousSample.at) / 1000,
+      );
+      realtimeInBps.value =
+        Math.max(0, payload.total_in - previousSample.totalIn) / elapsedSeconds;
+      realtimeOutBps.value =
+        Math.max(0, payload.total_out - previousSample.totalOut) /
+        elapsedSeconds;
+    } else {
+      realtimeInBps.value = null;
+      realtimeOutBps.value = null;
+    }
+
+    previousSample = {
+      at: timestamp,
+      totalIn: payload.total_in,
+      totalOut: payload.total_out,
+    };
+  };
+
+  const polling = useTargetPolling({
+    target: "dashboard",
+    intervalMs: 1000,
+    onData: apply,
+  });
+
+  return {
+    polling,
+    realtimeInBps,
+    realtimeOutBps,
+    realtimeStats,
+  };
+};

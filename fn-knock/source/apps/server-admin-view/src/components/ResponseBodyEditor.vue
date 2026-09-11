@@ -1,1 +1,179 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IENvZGVNaXJyb3JFZGl0b3IsIHsKICB0eXBlIENvZGVFZGl0b3JMYW5ndWFnZSwKfSBmcm9tICIuL0NvZGVNaXJyb3JFZGl0b3IudnVlIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIG1vZGVsVmFsdWU6IHN0cmluZzsKICBjb250ZW50VHlwZTogc3RyaW5nOwp9PigpOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICAoZXZlbnQ6ICJ1cGRhdGU6bW9kZWxWYWx1ZSIsIHZhbHVlOiBzdHJpbmcpOiB2b2lkOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cgpjb25zdCB0ZXh0RW5jb2RlciA9IG5ldyBUZXh0RW5jb2RlcigpOwoKY29uc3QgbWVkaWFUeXBlID0gY29tcHV0ZWQoCiAgKCkgPT4gcHJvcHMuY29udGVudFR5cGUuc3BsaXQoIjsiKVswXT8udHJpbSgpLnRvTG93ZXJDYXNlKCkgPz8gIiIsCik7Cgpjb25zdCBlZGl0b3JMYW5ndWFnZSA9IGNvbXB1dGVkPENvZGVFZGl0b3JMYW5ndWFnZT4oKCkgPT4gewogIGNvbnN0IHR5cGUgPSBtZWRpYVR5cGUudmFsdWU7CiAgaWYgKAogICAgdHlwZSA9PT0gImFwcGxpY2F0aW9uL2pzb24iIHx8CiAgICB0eXBlID09PSAidGV4dC9qc29uIiB8fAogICAgdHlwZS5lbmRzV2l0aCgiK2pzb24iKQogICkgewogICAgcmV0dXJuICJqc29uIjsKICB9CiAgaWYgKHR5cGUgPT09ICJ0ZXh0L2h0bWwiIHx8IHR5cGUgPT09ICJhcHBsaWNhdGlvbi94aHRtbCt4bWwiKSB7CiAgICByZXR1cm4gImh0bWwiOwogIH0KICBpZiAodHlwZSA9PT0gInRleHQvY3NzIikgewogICAgcmV0dXJuICJjc3MiOwogIH0KICBpZiAoCiAgICB0eXBlID09PSAiYXBwbGljYXRpb24veG1sIiB8fAogICAgdHlwZSA9PT0gInRleHQveG1sIiB8fAogICAgdHlwZS5lbmRzV2l0aCgiK3htbCIpCiAgKSB7CiAgICByZXR1cm4gInhtbCI7CiAgfQogIGlmICgKICAgIHR5cGUgPT09ICJhcHBsaWNhdGlvbi9qYXZhc2NyaXB0IiB8fAogICAgdHlwZSA9PT0gInRleHQvamF2YXNjcmlwdCIgfHwKICAgIHR5cGUgPT09ICJhcHBsaWNhdGlvbi9lY21hc2NyaXB0IiB8fAogICAgdHlwZSA9PT0gInRleHQvZWNtYXNjcmlwdCIgfHwKICAgIHR5cGUgPT09ICJhcHBsaWNhdGlvbi94LWphdmFzY3JpcHQiCiAgKSB7CiAgICByZXR1cm4gImphdmFzY3JpcHQiOwogIH0KICByZXR1cm4gInRleHQiOwp9KTsKCmNvbnN0IGxhbmd1YWdlTGFiZWwgPSBjb21wdXRlZCgoKSA9PiB7CiAgc3dpdGNoIChlZGl0b3JMYW5ndWFnZS52YWx1ZSkgewogICAgY2FzZSAianNvbiI6CiAgICAgIHJldHVybiAiSlNPTiI7CiAgICBjYXNlICJodG1sIjoKICAgICAgcmV0dXJuICJIVE1MIjsKICAgIGNhc2UgImNzcyI6CiAgICAgIHJldHVybiAiQ1NTIjsKICAgIGNhc2UgInhtbCI6CiAgICAgIHJldHVybiAiWE1MIjsKICAgIGNhc2UgImphdmFzY3JpcHQiOgogICAgICByZXR1cm4gIkphdmFTY3JpcHQiOwogICAgZGVmYXVsdDoKICAgICAgcmV0dXJuICJUZXh0IjsKICB9Cn0pOwoKY29uc3QgbGluZUNvdW50ID0gY29tcHV0ZWQoKCkgPT4gewogIGlmICghcHJvcHMubW9kZWxWYWx1ZSkgcmV0dXJuIDE7CiAgcmV0dXJuIHByb3BzLm1vZGVsVmFsdWUuc3BsaXQoL1xyXG58XHJ8XG4vKS5sZW5ndGg7Cn0pOwoKY29uc3QgY2hhckNvdW50ID0gY29tcHV0ZWQoKCkgPT4gQXJyYXkuZnJvbShwcm9wcy5tb2RlbFZhbHVlKS5sZW5ndGgpOwpjb25zdCBieXRlQ291bnQgPSBjb21wdXRlZCgoKSA9PiB0ZXh0RW5jb2Rlci5lbmNvZGUocHJvcHMubW9kZWxWYWx1ZSkubGVuZ3RoKTsKY29uc3QgYnl0ZUNvdW50TGFiZWwgPSBjb21wdXRlZCgoKSA9PiB7CiAgaWYgKGJ5dGVDb3VudC52YWx1ZSA8IDEwMjQpIHJldHVybiBgJHtieXRlQ291bnQudmFsdWV9IEJgOwogIGlmIChieXRlQ291bnQudmFsdWUgPCAxMDI0ICogMTAyNCkgewogICAgcmV0dXJuIGAkeyhieXRlQ291bnQudmFsdWUgLyAxMDI0KS50b0ZpeGVkKDEpfSBLQmA7CiAgfQogIHJldHVybiBgJHsoYnl0ZUNvdW50LnZhbHVlIC8gMTAyNCAvIDEwMjQpLnRvRml4ZWQoMSl9IE1CYDsKfSk7Cgpjb25zdCBpc0pzb25MYW5ndWFnZSA9IGNvbXB1dGVkKCgpID0+IGVkaXRvckxhbmd1YWdlLnZhbHVlID09PSAianNvbiIpOwpjb25zdCBqc29uV2FybmluZyA9IGNvbXB1dGVkKCgpID0+IHsKICBpZiAoIWlzSnNvbkxhbmd1YWdlLnZhbHVlIHx8ICFwcm9wcy5tb2RlbFZhbHVlLnRyaW0oKSkgcmV0dXJuICIiOwogIHRyeSB7CiAgICBKU09OLnBhcnNlKHByb3BzLm1vZGVsVmFsdWUpOwogICAgcmV0dXJuICIiOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICByZXR1cm4gZXJyb3IgaW5zdGFuY2VvZiBFcnJvcgogICAgICA/IGVycm9yLm1lc3NhZ2UKICAgICAgOiB0KCJhZG1pbi5yZXNwb25zZUJvZHlFZGl0b3IuaW52YWxpZEpzb25TeW50YXgiKTsKICB9Cn0pOwoKZnVuY3Rpb24gZm9ybWF0SnNvbigpIHsKICB0cnkgewogICAgY29uc3QgcGFyc2VkID0gSlNPTi5wYXJzZShwcm9wcy5tb2RlbFZhbHVlKTsKICAgIGVtaXQoInVwZGF0ZTptb2RlbFZhbHVlIiwgYCR7SlNPTi5zdHJpbmdpZnkocGFyc2VkLCBudWxsLCAyKX1cbmApOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5yZXNwb25zZUJvZHlFZGl0b3IuZm9ybWF0SnNvbkZhaWxlZCIpLCB7CiAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgIGVycm9yIGluc3RhbmNlb2YgRXJyb3IKICAgICAgICAgID8gZXJyb3IubWVzc2FnZQogICAgICAgICAgOiB0KCJhZG1pbi5yZXNwb25zZUJvZHlFZGl0b3IuaW52YWxpZEJvZHlKc29uIiksCiAgICB9KTsKICB9Cn0KPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgY2xhc3M9Im92ZXJmbG93LWhpZGRlbiByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWJhY2tncm91bmQgdHJhbnNpdGlvbi1bYm9yZGVyLWNvbG9yLGJveC1zaGFkb3ddIGZvY3VzLXdpdGhpbjpib3JkZXItcmluZyBmb2N1cy13aXRoaW46cmluZy1bM3B4XSBmb2N1cy13aXRoaW46cmluZy1yaW5nLzIwIgogID4KICAgIDxkaXYKICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTMgYm9yZGVyLWIgYm9yZGVyLWJvcmRlciBiZy1tdXRlZC8yNSBweC00IHB5LTMgc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIHNtOmp1c3RpZnktYmV0d2VlbiIKICAgID4KICAgICAgPGRpdiBjbGFzcz0iZmxleCBtaW4tdy0wIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgPHNwYW4gY2xhc3M9InNocmluay0wIHRleHQtc20gZm9udC1tZWRpdW0iPkJvZHk8L3NwYW4+CiAgICAgICAgPEJhZGdlIHZhcmlhbnQ9InNlY29uZGFyeSIgY2xhc3M9ImZvbnQtbW9ubyB0ZXh0LVsxMXB4XSI+CiAgICAgICAgICB7eyBsYW5ndWFnZUxhYmVsIH19CiAgICAgICAgPC9CYWRnZT4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2CiAgICAgICAgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAteC0zIGdhcC15LTIgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgID4KICAgICAgICA8c3Bhbj57ewogICAgICAgICAgdCgiYWRtaW4ucmVzcG9uc2VCb2R5RWRpdG9yLmxpbmVzIiwgeyBjb3VudDogbGluZUNvdW50IH0pCiAgICAgICAgfX08L3NwYW4+CiAgICAgICAgPHNwYW4+e3sKICAgICAgICAgIHQoImFkbWluLnJlc3BvbnNlQm9keUVkaXRvci5jaGFyYWN0ZXJzIiwgeyBjb3VudDogY2hhckNvdW50IH0pCiAgICAgICAgfX08L3NwYW4+CiAgICAgICAgPHNwYW4+VVRGLTgge3sgYnl0ZUNvdW50TGFiZWwgfX08L3NwYW4+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdi1pZj0iaXNKc29uTGFuZ3VhZ2UiCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICBjbGFzcz0iaC04IgogICAgICAgICAgQGNsaWNrPSJmb3JtYXRKc29uIgogICAgICAgID4KICAgICAgICAgIHt7IHQoImFkbWluLnJlc3BvbnNlQm9keUVkaXRvci5mb3JtYXRKc29uIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8Q29kZU1pcnJvckVkaXRvcgogICAgICA6bW9kZWwtdmFsdWU9Im1vZGVsVmFsdWUiCiAgICAgIDpsYW5ndWFnZT0iZWRpdG9yTGFuZ3VhZ2UiCiAgICAgIG1pbi1oZWlnaHQ9IjI4MHB4IgogICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4ucmVzcG9uc2VCb2R5RWRpdG9yLmFyaWFMYWJlbCcpIgogICAgICBmbHVzaAogICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSIodmFsdWUpID0+IGVtaXQoJ3VwZGF0ZTptb2RlbFZhbHVlJywgdmFsdWUpIgogICAgLz4KCiAgICA8ZGl2CiAgICAgIHYtaWY9Impzb25XYXJuaW5nIgogICAgICBjbGFzcz0iYm9yZGVyLXQgYm9yZGVyLWFtYmVyLTIwMCBiZy1hbWJlci01MCBweC00IHB5LTIgdGV4dC14cyBsZWFkaW5nLTUgdGV4dC1hbWJlci04MDAiCiAgICA+CiAgICAgIHt7CiAgICAgICAgdCgiYWRtaW4ucmVzcG9uc2VCb2R5RWRpdG9yLmpzb25TeW50YXhXYXJuaW5nIiwgewogICAgICAgICAgbWVzc2FnZToganNvbldhcm5pbmcsCiAgICAgICAgfSkKICAgICAgfX0KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { toast } from "@admin-shared/utils/toast";
+import CodeMirrorEditor, {
+  type CodeEditorLanguage,
+} from "./CodeMirrorEditor.vue";
+
+const props = defineProps<{
+  modelValue: string;
+  contentType: string;
+}>();
+
+const emit = defineEmits<{
+  (event: "update:modelValue", value: string): void;
+}>();
+
+const { t } = useI18n();
+
+const textEncoder = new TextEncoder();
+
+const mediaType = computed(
+  () => props.contentType.split(";")[0]?.trim().toLowerCase() ?? "",
+);
+
+const editorLanguage = computed<CodeEditorLanguage>(() => {
+  const type = mediaType.value;
+  if (
+    type === "application/json" ||
+    type === "text/json" ||
+    type.endsWith("+json")
+  ) {
+    return "json";
+  }
+  if (type === "text/html" || type === "application/xhtml+xml") {
+    return "html";
+  }
+  if (type === "text/css") {
+    return "css";
+  }
+  if (
+    type === "application/xml" ||
+    type === "text/xml" ||
+    type.endsWith("+xml")
+  ) {
+    return "xml";
+  }
+  if (
+    type === "application/javascript" ||
+    type === "text/javascript" ||
+    type === "application/ecmascript" ||
+    type === "text/ecmascript" ||
+    type === "application/x-javascript"
+  ) {
+    return "javascript";
+  }
+  return "text";
+});
+
+const languageLabel = computed(() => {
+  switch (editorLanguage.value) {
+    case "json":
+      return "JSON";
+    case "html":
+      return "HTML";
+    case "css":
+      return "CSS";
+    case "xml":
+      return "XML";
+    case "javascript":
+      return "JavaScript";
+    default:
+      return "Text";
+  }
+});
+
+const lineCount = computed(() => {
+  if (!props.modelValue) return 1;
+  return props.modelValue.split(/\r\n|\r|\n/).length;
+});
+
+const charCount = computed(() => Array.from(props.modelValue).length);
+const byteCount = computed(() => textEncoder.encode(props.modelValue).length);
+const byteCountLabel = computed(() => {
+  if (byteCount.value < 1024) return `${byteCount.value} B`;
+  if (byteCount.value < 1024 * 1024) {
+    return `${(byteCount.value / 1024).toFixed(1)} KB`;
+  }
+  return `${(byteCount.value / 1024 / 1024).toFixed(1)} MB`;
+});
+
+const isJsonLanguage = computed(() => editorLanguage.value === "json");
+const jsonWarning = computed(() => {
+  if (!isJsonLanguage.value || !props.modelValue.trim()) return "";
+  try {
+    JSON.parse(props.modelValue);
+    return "";
+  } catch (error) {
+    return error instanceof Error
+      ? error.message
+      : t("admin.responseBodyEditor.invalidJsonSyntax");
+  }
+});
+
+function formatJson() {
+  try {
+    const parsed = JSON.parse(props.modelValue);
+    emit("update:modelValue", `${JSON.stringify(parsed, null, 2)}\n`);
+  } catch (error) {
+    toast.error(t("admin.responseBodyEditor.formatJsonFailed"), {
+      description:
+        error instanceof Error
+          ? error.message
+          : t("admin.responseBodyEditor.invalidBodyJson"),
+    });
+  }
+}
+</script>
+
+<template>
+  <div
+    class="overflow-hidden rounded-md border border-border bg-background transition-[border-color,box-shadow] focus-within:border-ring focus-within:ring-[3px] focus-within:ring-ring/20"
+  >
+    <div
+      class="flex flex-col gap-3 border-b border-border bg-muted/25 px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
+    >
+      <div class="flex min-w-0 items-center gap-2">
+        <span class="shrink-0 text-sm font-medium">Body</span>
+        <Badge variant="secondary" class="font-mono text-[11px]">
+          {{ languageLabel }}
+        </Badge>
+      </div>
+
+      <div
+        class="flex flex-wrap items-center gap-x-3 gap-y-2 text-xs text-muted-foreground"
+      >
+        <span>{{
+          t("admin.responseBodyEditor.lines", { count: lineCount })
+        }}</span>
+        <span>{{
+          t("admin.responseBodyEditor.characters", { count: charCount })
+        }}</span>
+        <span>UTF-8 {{ byteCountLabel }}</span>
+        <Button
+          v-if="isJsonLanguage"
+          type="button"
+          variant="outline"
+          size="sm"
+          class="h-8"
+          @click="formatJson"
+        >
+          {{ t("admin.responseBodyEditor.formatJson") }}
+        </Button>
+      </div>
+    </div>
+
+    <CodeMirrorEditor
+      :model-value="modelValue"
+      :language="editorLanguage"
+      min-height="280px"
+      :aria-label="t('admin.responseBodyEditor.ariaLabel')"
+      flush
+      @update:model-value="(value) => emit('update:modelValue', value)"
+    />
+
+    <div
+      v-if="jsonWarning"
+      class="border-t border-amber-200 bg-amber-50 px-4 py-2 text-xs leading-5 text-amber-800"
+    >
+      {{
+        t("admin.responseBodyEditor.jsonSyntaxWarning", {
+          message: jsonWarning,
+        })
+      }}
+    </div>
+  </div>
+</template>

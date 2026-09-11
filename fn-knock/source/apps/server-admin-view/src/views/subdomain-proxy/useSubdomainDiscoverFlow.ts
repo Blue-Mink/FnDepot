@@ -1,1 +1,366 @@
-aW1wb3J0IHsKICBjb21wdXRlZCwKICBuZXh0VGljaywKICByZWYsCiAgdHlwZSBDb21wb25lbnRQdWJsaWNJbnN0YW5jZSwKICB0eXBlIENvbXB1dGVkUmVmLAp9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZURpc2NvdmVyU2VydmljZXNTZWxlY3Rpb24gfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZURpc2NvdmVyU2VydmljZXNTZWxlY3Rpb24iOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7IFNjYW5BUEkgfSBmcm9tICJAL2xpYi9hcGkvc2NhbiI7CmltcG9ydCB7CiAgdHlwZSBEaXNjb3ZlcmVkU2VydmljZUluZm8sCiAgdHlwZSBTY2FuRGlzY292ZXJQb2xsRXZlbnQsCiAgdHlwZSBTY2FuRGlzY292ZXJQcm9ncmVzcywKICB0eXBlIFNjYW5EaXNjb3ZlclJlc3BvbnNlLAp9IGZyb20gIkAvbGliL2FwaS9zY2FuIjsKaW1wb3J0IHR5cGUgeyBIb3N0TWFwcGluZyB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgewogIGJ1aWxkRGlzY292ZXJlZEhvc3RSZXNwb25zZSwKICBidWlsZERpc2NvdmVyZWRTZXJ2aWNlTWFwcGluZ3MsCiAgY29sbGVjdER1cGxpY2F0ZVZhbHVlcywKICBjb21wb3NlSG9zdEZyb21TdWJkb21haW4sCiAgcmVzb2x2ZURpc2NvdmVyZWRTZXJ2aWNlSG9zdCwKICB0eXBlIERpc2NvdmVyZWRIb3N0UmVzcG9uc2UsCiAgdHlwZSBEaXNjb3ZlcmVkSG9zdFNlcnZpY2UsCiAgdHlwZSBUcmFuc2xhdGlvblBhcmFtcywKfSBmcm9tICIuL21vZGVsIjsKCnR5cGUgUnVuQXN5bmNBY3Rpb24gPSA8VD4oYWN0aW9uOiAoKSA9PiBQcm9taXNlPFQ+KSA9PiBQcm9taXNlPFQgfCB1bmRlZmluZWQ+OwoKY29uc3QgaXNEaXNjb3ZlckFib3J0RXJyb3IgPSAoZXJyb3I6IHVua25vd24pOiBib29sZWFuID0+CiAgZXJyb3IgaW5zdGFuY2VvZiBET01FeGNlcHRpb24KICAgID8gZXJyb3IubmFtZSA9PT0gIkFib3J0RXJyb3IiCiAgICA6IGVycm9yIGluc3RhbmNlb2YgRXJyb3IgJiYgZXJyb3IubmFtZSA9PT0gIkFib3J0RXJyb3IiOwoKdHlwZSBEaXNjb3ZlckRpYWxvZ0hhbmRsZSA9IHsKICBlbnN1cmVTYXZlZDogKCkgPT4gUHJvbWlzZTxzdHJpbmdbXT4gfCB1bmRlZmluZWQ7CiAgbG9hZFRhcmdldHM6ICgpID0+IFByb21pc2U8dm9pZD4gfCB1bmRlZmluZWQ7Cn07CgpleHBvcnQgY29uc3QgdXNlU3ViZG9tYWluRGlzY292ZXJGbG93ID0gKHsKICBhbGxNYXBwaW5ncywKICBjYW5NYW5hZ2VOZXdNYXBwaW5ncywKICBleGlzdGluZ01hcHBpbmdUYXJnZXRzLAogIHJ1blNhdmVNYXBwaW5ncywKICByb290RG9tYWluVmFsaWRhdGlvbk1lc3NhZ2UsCiAgc2F2ZWRSb290RG9tYWluLAogIHNhdmVIb3N0TWFwcGluZ3MsCiAgdHJhbnNsYXRlLAp9OiB7CiAgYWxsTWFwcGluZ3M6IENvbXB1dGVkUmVmPEhvc3RNYXBwaW5nW10+OwogIGNhbk1hbmFnZU5ld01hcHBpbmdzOiBDb21wdXRlZFJlZjxib29sZWFuPjsKICBleGlzdGluZ01hcHBpbmdUYXJnZXRzOiBDb21wdXRlZFJlZjxTZXQ8c3RyaW5nPj47CiAgcnVuU2F2ZU1hcHBpbmdzOiBSdW5Bc3luY0FjdGlvbjsKICByb290RG9tYWluVmFsaWRhdGlvbk1lc3NhZ2U6IENvbXB1dGVkUmVmPHN0cmluZz47CiAgc2F2ZWRSb290RG9tYWluOiBDb21wdXRlZFJlZjxzdHJpbmc+OwogIHNhdmVIb3N0TWFwcGluZ3M6IChtYXBwaW5nczogSG9zdE1hcHBpbmdbXSkgPT4gUHJvbWlzZTx1bmtub3duPjsKICB0cmFuc2xhdGU6IChrZXk6IHN0cmluZywgcGFyYW1zPzogVHJhbnNsYXRpb25QYXJhbXMpID0+IHN0cmluZzsKfSkgPT4gewogIGNvbnN0IGRpc2NvdmVyRGlhbG9nUmVmID0gcmVmPERpc2NvdmVyRGlhbG9nSGFuZGxlIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgZGlzY292ZXJHcm91cElkID0gcmVmPHN0cmluZyB8IG51bGw+KG51bGwpOwogIGNvbnN0IGRpc2NvdmVyQWJvcnRDb250cm9sbGVyID0gcmVmPEFib3J0Q29udHJvbGxlciB8IG51bGw+KG51bGwpOwogIGNvbnN0IGRpc2NvdmVyUHJvZ3Jlc3MgPSByZWY8U2NhbkRpc2NvdmVyUHJvZ3Jlc3MgfCBudWxsPihudWxsKTsKICBjb25zdCBzZXREaXNjb3ZlckRpYWxvZ1JlZiA9ICgKICAgIGluc3RhbmNlOiBFbGVtZW50IHwgQ29tcG9uZW50UHVibGljSW5zdGFuY2UgfCBudWxsLAogICkgPT4gewogICAgZGlzY292ZXJEaWFsb2dSZWYudmFsdWUgPSBpbnN0YW5jZSBhcyBEaXNjb3ZlckRpYWxvZ0hhbmRsZSB8IG51bGw7CiAgfTsKICBjb25zdCBpc0Rpc2NvdmVyU2V0dGluZ3NPcGVuID0gcmVmKGZhbHNlKTsKCiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzRGlzY292ZXJpbmcsIHJ1bjogcnVuRGlzY292ZXJTZXJ2aWNlcyB9ID0gdXNlQXN5bmNBY3Rpb24oCiAgICB7CiAgICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICAgIGlmIChpc0Rpc2NvdmVyQWJvcnRFcnJvcihlcnJvcikpIHJldHVybjsKICAgICAgICB0b2FzdC5lcnJvcih0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LmRpc2NvdmVyRmFpbGVkIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgICBlcnJvciwKICAgICAgICAgICAgdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5kaXNjb3ZlclNlcnZpY2VzRmFpbGVkIiksCiAgICAgICAgICApLAogICAgICAgIH0pOwogICAgICB9LAogICAgfSwKICApOwoKICBjb25zdCB7CiAgICBvcGVuOiBpc0Rpc2NvdmVyRGlhbG9nT3BlbiwKICAgIGRpc2NvdmVyZWREYXRhLAogICAgc2VsZWN0ZWRTZXJ2aWNlcywKICAgIGlzQWxsU2VsZWN0ZWQsCiAgICBpc1NlbGVjdGlvblZhbGlkOiBpc0Rpc2NvdmVyU2VsZWN0aW9uVmFsaWQsCiAgICBzZXRBbGxTZWxlY3RlZCwKICAgIHJlc2V0U2VsZWN0aW9uLAogICAgc2V0RGlzY292ZXJlZERhdGEsCiAgICBvcGVuRGlhbG9nOiBvcGVuRGlzY292ZXJEaWFsb2dTdGF0ZSwKICAgIGNsb3NlRGlhbG9nOiBjbG9zZURpc2NvdmVyRGlhbG9nLAogIH0gPSB1c2VEaXNjb3ZlclNlcnZpY2VzU2VsZWN0aW9uPAogICAgRGlzY292ZXJlZEhvc3RTZXJ2aWNlLAogICAgRGlzY292ZXJlZEhvc3RSZXNwb25zZQogID4oewogICAgZ2V0UGF0aDogKHNlcnZpY2UpID0+IHNlcnZpY2Uuc3VnZ2VzdGVkU3ViZG9tYWluLAogIH0pOwoKICBjb25zdCBzaG93RGlzY292ZXJIb3N0Q29sdW1uID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3QgaG9zdHMgPSBuZXcgU2V0KAogICAgICAoZGlzY292ZXJlZERhdGEudmFsdWU/LnNlcnZpY2VzIHx8IFtdKQogICAgICAgIC5tYXAoKHNlcnZpY2UpID0+IHNlcnZpY2UuaG9zdD8udHJpbSgpKQogICAgICAgIC5maWx0ZXIoQm9vbGVhbiksCiAgICApOwogICAgcmV0dXJuIGhvc3RzLnNpemUgPiAxOwogIH0pOwoKICBjb25zdCBjcmVhdGVFbXB0eURpc2NvdmVyZWRSZXNwb25zZSA9ICgKICAgIHBhdGNoOiBQYXJ0aWFsPFNjYW5EaXNjb3ZlclJlc3BvbnNlPiA9IHt9LAogICk6IERpc2NvdmVyZWRIb3N0UmVzcG9uc2UgPT4gKHsKICAgIGhvc3Q6IHBhdGNoLmhvc3QgfHwgIiIsCiAgICB0b3RhbFBvcnRzU2Nhbm5lZDogcGF0Y2gudG90YWxQb3J0c1NjYW5uZWQgfHwgMCwKICAgIGZvdW5kU2VydmljZXM6IHBhdGNoLmZvdW5kU2VydmljZXMgfHwgMCwKICAgIHNjYW5uZWRIb3N0czogcGF0Y2guc2Nhbm5lZEhvc3RzID8/IDAsCiAgICBzY2FuSG9zdENvdW50OiBwYXRjaC5zY2FuSG9zdENvdW50ID8/IDAsCiAgICBzY2FuU2NvcGU6IHBhdGNoLnNjYW5TY29wZSA/PyBudWxsLAogICAgc2NhbkNpZHJzOiBwYXRjaC5zY2FuQ2lkcnMgPz8gW10sCiAgICBpbnRlbnNpdHlNb2RlOiBwYXRjaC5pbnRlbnNpdHlNb2RlID8/ICJhdXRvIiwKICAgIGludGVuc2l0eUxldmVsOiBwYXRjaC5pbnRlbnNpdHlMZXZlbCA/PyAibG93IiwKICAgIHJlY29tbWVuZGVkTGV2ZWw6IHBhdGNoLnJlY29tbWVuZGVkTGV2ZWwgPz8gImxvdyIsCiAgICBjb25maWd1cmVkQ29uY3VycmVuY3k6IHBhdGNoLmNvbmZpZ3VyZWRDb25jdXJyZW5jeSA/PyAwLAogICAgZWZmZWN0aXZlQ29uY3VycmVuY3k6IHBhdGNoLmVmZmVjdGl2ZUNvbmN1cnJlbmN5ID8/IDAsCiAgICBzZXJ2aWNlczogW10sCiAgfSk7CgogIGNvbnN0IHVwc2VydERpc2NvdmVyZWRTZXJ2aWNlID0gKHNlcnZpY2U6IERpc2NvdmVyZWRTZXJ2aWNlSW5mbykgPT4gewogICAgY29uc3QgY3VycmVudCA9CiAgICAgIGRpc2NvdmVyZWREYXRhLnZhbHVlIHx8IGNyZWF0ZUVtcHR5RGlzY292ZXJlZFJlc3BvbnNlKHsgc2VydmljZXM6IFtdIH0pOwogICAgY29uc3QgdHJhbnNmb3JtZWQgPSBidWlsZERpc2NvdmVyZWRIb3N0UmVzcG9uc2UoCiAgICAgIHsKICAgICAgICAuLi5jdXJyZW50LAogICAgICAgIHNlcnZpY2VzOiBbc2VydmljZV0sCiAgICAgIH0sCiAgICAgIGV4aXN0aW5nTWFwcGluZ1RhcmdldHMudmFsdWUsCiAgICApLnNlcnZpY2VzWzBdOwogICAgaWYgKCF0cmFuc2Zvcm1lZCkgcmV0dXJuOwoKICAgIGNvbnN0IHNlcnZpY2VLZXkgPQogICAgICBzZXJ2aWNlLnNlcnZpY2VLZXkgfHwKICAgICAgYCR7cmVzb2x2ZURpc2NvdmVyZWRTZXJ2aWNlSG9zdChzZXJ2aWNlLCBjdXJyZW50Lmhvc3QpfToke3NlcnZpY2UucG9ydH1gOwogICAgY29uc3QgbmV4dFNlcnZpY2VzID0gWy4uLmN1cnJlbnQuc2VydmljZXNdOwogICAgY29uc3QgZXhpc3RpbmdJbmRleCA9IG5leHRTZXJ2aWNlcy5maW5kSW5kZXgoKGl0ZW0pID0+IHsKICAgICAgY29uc3QgaXRlbUtleSA9CiAgICAgICAgaXRlbS5zZXJ2aWNlS2V5IHx8CiAgICAgICAgYCR7cmVzb2x2ZURpc2NvdmVyZWRTZXJ2aWNlSG9zdChpdGVtLCBjdXJyZW50Lmhvc3QpfToke2l0ZW0ucG9ydH1gOwogICAgICByZXR1cm4gaXRlbUtleSA9PT0gc2VydmljZUtleTsKICAgIH0pOwoKICAgIGlmIChleGlzdGluZ0luZGV4ID49IDApIHsKICAgICAgY29uc3QgcHJldmlvdXMgPSBuZXh0U2VydmljZXNbZXhpc3RpbmdJbmRleF0hOwogICAgICBuZXh0U2VydmljZXNbZXhpc3RpbmdJbmRleF0gPSB0cmFuc2Zvcm1lZDsKICAgICAgY29uc3Qgc2VsZWN0ZWRJbmRleCA9IHNlbGVjdGVkU2VydmljZXMudmFsdWUuaW5kZXhPZihwcmV2aW91cyk7CiAgICAgIGlmIChzZWxlY3RlZEluZGV4ID49IDApIHsKICAgICAgICBzZWxlY3RlZFNlcnZpY2VzLnZhbHVlW3NlbGVjdGVkSW5kZXhdID0gdHJhbnNmb3JtZWQ7CiAgICAgIH0KICAgIH0gZWxzZSB7CiAgICAgIG5leHRTZXJ2aWNlcy5wdXNoKHRyYW5zZm9ybWVkKTsKICAgICAgaWYgKHRyYW5zZm9ybWVkLnN1Z2dlc3RlZFN1YmRvbWFpbi50cmltKCkpIHsKICAgICAgICBzZWxlY3RlZFNlcnZpY2VzLnZhbHVlLnB1c2godHJhbnNmb3JtZWQpOwogICAgICB9CiAgICB9CgogICAgc2V0RGlzY292ZXJlZERhdGEoewogICAgICAuLi5jdXJyZW50LAogICAgICBmb3VuZFNlcnZpY2VzOiBuZXh0U2VydmljZXMubGVuZ3RoLAogICAgICBzZXJ2aWNlczogbmV4dFNlcnZpY2VzLAogICAgfSk7CiAgfTsKCiAgY29uc3QgYXBwbHlEaXNjb3ZlckV2ZW50ID0gKGV2ZW50OiBTY2FuRGlzY292ZXJQb2xsRXZlbnQpID0+IHsKICAgIGlmIChldmVudC50eXBlID09PSAibWV0YSIpIHsKICAgICAgc2V0RGlzY292ZXJlZERhdGEoY3JlYXRlRW1wdHlEaXNjb3ZlcmVkUmVzcG9uc2UoZXZlbnQuZGF0YSkpOwogICAgICByZXR1cm47CiAgICB9CgogICAgaWYgKGV2ZW50LnR5cGUgPT09ICJwcm9ncmVzcyIpIHsKICAgICAgZGlzY292ZXJQcm9ncmVzcy52YWx1ZSA9IGV2ZW50LmRhdGE7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBpZiAoZXZlbnQudHlwZSA9PT0gInNlcnZpY2UiKSB7CiAgICAgIHVwc2VydERpc2NvdmVyZWRTZXJ2aWNlKGV2ZW50LmRhdGEuc2VydmljZSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBpZiAoZXZlbnQudHlwZSA9PT0gImRvbmUiKSB7CiAgICAgIGNvbnN0IGN1cnJlbnQgPSBkaXNjb3ZlcmVkRGF0YS52YWx1ZTsKICAgICAgaWYgKCFjdXJyZW50KSB7CiAgICAgICAgc2V0RGlzY292ZXJlZERhdGEoCiAgICAgICAgICBidWlsZERpc2NvdmVyZWRIb3N0UmVzcG9uc2UoZXZlbnQuZGF0YSwgZXhpc3RpbmdNYXBwaW5nVGFyZ2V0cy52YWx1ZSksCiAgICAgICAgKTsKICAgICAgICByZXR1cm47CiAgICAgIH0KCiAgICAgIHNldERpc2NvdmVyZWREYXRhKHsKICAgICAgICAuLi5jdXJyZW50LAogICAgICAgIC4uLmV2ZW50LmRhdGEsCiAgICAgICAgZm91bmRTZXJ2aWNlczogY3VycmVudC5zZXJ2aWNlcy5sZW5ndGgsCiAgICAgICAgc2VydmljZXM6IGN1cnJlbnQuc2VydmljZXMsCiAgICAgIH0pOwogICAgfQogIH07CgogIGNvbnN0IGRpc21pc3NEaXNjb3ZlckRpYWxvZyA9ICgpID0+IHsKICAgIHN0b3BEaXNjb3ZlclNjYW4oKTsKICAgIHNldERpc2NvdmVyZWREYXRhKG51bGwpOwogICAgY2xvc2VEaXNjb3ZlckRpYWxvZyh0cnVlKTsKICAgIGlzRGlzY292ZXJTZXR0aW5nc09wZW4udmFsdWUgPSBmYWxzZTsKICB9OwoKICBjb25zdCBoYW5kbGVEaXNjb3ZlckRpYWxvZ09wZW5DaGFuZ2UgPSAobmV4dE9wZW46IGJvb2xlYW4pID0+IHsKICAgIGlmICghbmV4dE9wZW4pIHsKICAgICAgZGlzbWlzc0Rpc2NvdmVyRGlhbG9nKCk7CiAgICB9CiAgfTsKCiAgY29uc3QgdHJpZ2dlclNjYW4gPSBhc3luYyAoKSA9PiB7CiAgICBsZXQgdGFyZ2V0Q2lkcnM6IHN0cmluZ1tdOwogICAgdHJ5IHsKICAgICAgYXdhaXQgbmV4dFRpY2soKTsKICAgICAgY29uc3Qgc2VsZWN0ZWRDaWRycyA9IGF3YWl0IGRpc2NvdmVyRGlhbG9nUmVmLnZhbHVlPy5lbnN1cmVTYXZlZCgpOwogICAgICBpZiAoIXNlbGVjdGVkQ2lkcnMgfHwgc2VsZWN0ZWRDaWRycy5sZW5ndGggPT09IDApIHJldHVybjsKICAgICAgdGFyZ2V0Q2lkcnMgPSBzZWxlY3RlZENpZHJzOwogICAgfSBjYXRjaCB7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICByZXNldFNlbGVjdGlvbigpOwogICAgZGlzY292ZXJQcm9ncmVzcy52YWx1ZSA9IG51bGw7CiAgICBkaXNjb3ZlckFib3J0Q29udHJvbGxlci52YWx1ZT8uYWJvcnQoKTsKICAgIGNvbnN0IGFib3J0Q29udHJvbGxlciA9IG5ldyBBYm9ydENvbnRyb2xsZXIoKTsKICAgIGRpc2NvdmVyQWJvcnRDb250cm9sbGVyLnZhbHVlID0gYWJvcnRDb250cm9sbGVyOwogICAgYXdhaXQgcnVuRGlzY292ZXJTZXJ2aWNlcygKICAgICAgKCkgPT4KICAgICAgICBTY2FuQVBJLmRpc2NvdmVyUG9sbGluZygKICAgICAgICAgIHsgdGFyZ2V0X2NpZHJzOiB0YXJnZXRDaWRycyB9LAogICAgICAgICAgewogICAgICAgICAgICBzaWduYWw6IGFib3J0Q29udHJvbGxlci5zaWduYWwsCiAgICAgICAgICAgIG9uRXZlbnQ6IGFwcGx5RGlzY292ZXJFdmVudCwKICAgICAgICAgIH0sCiAgICAgICAgKSwKICAgICAgewogICAgICAgIG9uRmluYWxseTogKCkgPT4gewogICAgICAgICAgaWYgKGRpc2NvdmVyQWJvcnRDb250cm9sbGVyLnZhbHVlID09PSBhYm9ydENvbnRyb2xsZXIpIHsKICAgICAgICAgICAgZGlzY292ZXJBYm9ydENvbnRyb2xsZXIudmFsdWUgPSBudWxsOwogICAgICAgICAgfQogICAgICAgIH0sCiAgICAgIH0sCiAgICApOwogIH07CgogIGNvbnN0IHN0b3BEaXNjb3ZlclNjYW4gPSAoKSA9PiB7CiAgICBkaXNjb3ZlckFib3J0Q29udHJvbGxlci52YWx1ZT8uYWJvcnQoKTsKICAgIGRpc2NvdmVyQWJvcnRDb250cm9sbGVyLnZhbHVlID0gbnVsbDsKICB9OwoKICBjb25zdCBvcGVuRGlzY292ZXJEaWFsb2cgPSAoKSA9PiB7CiAgICBpZiAoIWNhbk1hbmFnZU5ld01hcHBpbmdzLnZhbHVlKSB7CiAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuY2Fubm90RGlzY292ZXIiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICAgcm9vdERvbWFpblZhbGlkYXRpb25NZXNzYWdlLnZhbHVlIHx8CiAgICAgICAgICAoIXNhdmVkUm9vdERvbWFpbi52YWx1ZQogICAgICAgICAgICA/IHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuc2F2ZVJvb3RGaXJzdCIpCiAgICAgICAgICAgIDogdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5yb290RGlydHlEaXNjb3ZlciIpKSwKICAgICAgfSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBvcGVuRGlzY292ZXJEaWFsb2dTdGF0ZSgpOwogICAgaWYgKCFkaXNjb3ZlcmVkRGF0YS52YWx1ZSkgewogICAgICB2b2lkIG5leHRUaWNrKCkudGhlbigoKSA9PiB0cmlnZ2VyU2NhbigpKTsKICAgIH0KICB9OwoKICBjb25zdCB0b2dnbGVEaXNjb3ZlclNldHRpbmdzID0gYXN5bmMgKCkgPT4gewogICAgaXNEaXNjb3ZlclNldHRpbmdzT3Blbi52YWx1ZSA9ICFpc0Rpc2NvdmVyU2V0dGluZ3NPcGVuLnZhbHVlOwogICAgaWYgKGlzRGlzY292ZXJTZXR0aW5nc09wZW4udmFsdWUpIHsKICAgICAgYXdhaXQgbmV4dFRpY2soKTsKICAgICAgdm9pZCBkaXNjb3ZlckRpYWxvZ1JlZi52YWx1ZT8ubG9hZFRhcmdldHMoKTsKICAgIH0KICB9OwoKICBjb25zdCBzYXZlRGlzY292ZXJlZFNlcnZpY2VzID0gYXN5bmMgKCkgPT4gewogICAgaWYgKAogICAgICAhaXNEaXNjb3ZlclNlbGVjdGlvblZhbGlkLnZhbHVlIHx8CiAgICAgICFzYXZlZFJvb3REb21haW4udmFsdWUgfHwKICAgICAgIWRpc2NvdmVyZWREYXRhLnZhbHVlCiAgICApIHsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGNvbnN0IGNhbmRpZGF0ZUhvc3RzID0gc2VsZWN0ZWRTZXJ2aWNlcy52YWx1ZS5tYXAoKHNlcnZpY2UpID0+CiAgICAgIGNvbXBvc2VIb3N0RnJvbVN1YmRvbWFpbigKICAgICAgICBzZXJ2aWNlLnN1Z2dlc3RlZFN1YmRvbWFpbiwKICAgICAgICBzYXZlZFJvb3REb21haW4udmFsdWUsCiAgICAgICksCiAgICApOwogICAgY29uc3QgZXhpc3RpbmdIb3N0U2V0ID0gbmV3IFNldChhbGxNYXBwaW5ncy52YWx1ZS5tYXAoKGl0ZW0pID0+IGl0ZW0uaG9zdCkpOwogICAgY29uc3QgZHVwbGljYXRlSG9zdHMgPSBbCiAgICAgIC4uLm5ldyBTZXQoWwogICAgICAgIC4uLmNhbmRpZGF0ZUhvc3RzLmZpbHRlcigoaG9zdCkgPT4gZXhpc3RpbmdIb3N0U2V0Lmhhcyhob3N0KSksCiAgICAgICAgLi4uY29sbGVjdER1cGxpY2F0ZVZhbHVlcyhjYW5kaWRhdGVIb3N0cyksCiAgICAgIF0pLAogICAgXTsKCiAgICBpZiAoZHVwbGljYXRlSG9zdHMubGVuZ3RoID4gMCkgewogICAgICB0b2FzdC5lcnJvcih0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LmR1cGxpY2F0ZURpc2NvdmVySG9zdHMiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBkdXBsaWNhdGVIb3N0cy5qb2luKCIsICIpLAogICAgICB9KTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIHN0b3BEaXNjb3ZlclNjYW4oKTsKICAgIGF3YWl0IHJ1blNhdmVNYXBwaW5ncyhhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IG5leHQgPSBbCiAgICAgICAgLi4uYWxsTWFwcGluZ3MudmFsdWUsCiAgICAgICAgLi4uYnVpbGREaXNjb3ZlcmVkU2VydmljZU1hcHBpbmdzKHsKICAgICAgICAgIGZhbGxiYWNrSG9zdDogZGlzY292ZXJlZERhdGEudmFsdWU/Lmhvc3QsCiAgICAgICAgICByb290RG9tYWluOiBzYXZlZFJvb3REb21haW4udmFsdWUsCiAgICAgICAgICBzZXJ2aWNlczogc2VsZWN0ZWRTZXJ2aWNlcy52YWx1ZSwKICAgICAgICB9KS5tYXAoKG1hcHBpbmcpID0+ICh7CiAgICAgICAgICAuLi5tYXBwaW5nLAogICAgICAgICAgZ3JvdXBfaWQ6IGRpc2NvdmVyR3JvdXBJZC52YWx1ZSwKICAgICAgICB9KSksCiAgICAgIF07CgogICAgICBhd2FpdCBzYXZlSG9zdE1hcHBpbmdzKG5leHQpOwogICAgICB0b2FzdC5zdWNjZXNzKAogICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuYWRkZWRNYXBwaW5ncyIsIHsKICAgICAgICAgIGNvdW50OiBzZWxlY3RlZFNlcnZpY2VzLnZhbHVlLmxlbmd0aCwKICAgICAgICB9KSwKICAgICAgKTsKICAgICAgZGlzbWlzc0Rpc2NvdmVyRGlhbG9nKCk7CiAgICB9KTsKICB9OwoKICByZXR1cm4gewogICAgZGlzY292ZXJlZERhdGEsCiAgICBkaXNjb3Zlckdyb3VwSWQsCiAgICBkaXNjb3ZlclByb2dyZXNzLAogICAgZGlzbWlzc0Rpc2NvdmVyRGlhbG9nLAogICAgaGFuZGxlRGlzY292ZXJEaWFsb2dPcGVuQ2hhbmdlLAogICAgaXNBbGxTZWxlY3RlZCwKICAgIGlzRGlzY292ZXJEaWFsb2dPcGVuLAogICAgaXNEaXNjb3ZlclNlbGVjdGlvblZhbGlkLAogICAgaXNEaXNjb3ZlclNldHRpbmdzT3BlbiwKICAgIGlzRGlzY292ZXJpbmcsCiAgICBvcGVuRGlzY292ZXJEaWFsb2csCiAgICBzYXZlRGlzY292ZXJlZFNlcnZpY2VzLAogICAgc2VsZWN0ZWRTZXJ2aWNlcywKICAgIHNldERpc2NvdmVyRGlhbG9nUmVmLAogICAgc3RvcERpc2NvdmVyU2NhbiwKICAgIHNldEFsbFNlbGVjdGVkLAogICAgc2hvd0Rpc2NvdmVySG9zdENvbHVtbiwKICAgIHRvZ2dsZURpc2NvdmVyU2V0dGluZ3MsCiAgICB0cmlnZ2VyU2NhbiwKICB9Owp9Owo=
+import {
+  computed,
+  nextTick,
+  ref,
+  type ComponentPublicInstance,
+  type ComputedRef,
+} from "vue";
+import { useDiscoverServicesSelection } from "@admin-shared/composables/useDiscoverServicesSelection";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import { ScanAPI } from "@/lib/api/scan";
+import {
+  type DiscoveredServiceInfo,
+  type ScanDiscoverPollEvent,
+  type ScanDiscoverProgress,
+  type ScanDiscoverResponse,
+} from "@/lib/api/scan";
+import type { HostMapping } from "@/types";
+import {
+  buildDiscoveredHostResponse,
+  buildDiscoveredServiceMappings,
+  collectDuplicateValues,
+  composeHostFromSubdomain,
+  resolveDiscoveredServiceHost,
+  type DiscoveredHostResponse,
+  type DiscoveredHostService,
+  type TranslationParams,
+} from "./model";
+
+type RunAsyncAction = <T>(action: () => Promise<T>) => Promise<T | undefined>;
+
+const isDiscoverAbortError = (error: unknown): boolean =>
+  error instanceof DOMException
+    ? error.name === "AbortError"
+    : error instanceof Error && error.name === "AbortError";
+
+type DiscoverDialogHandle = {
+  ensureSaved: () => Promise<string[]> | undefined;
+  loadTargets: () => Promise<void> | undefined;
+};
+
+export const useSubdomainDiscoverFlow = ({
+  allMappings,
+  canManageNewMappings,
+  existingMappingTargets,
+  runSaveMappings,
+  rootDomainValidationMessage,
+  savedRootDomain,
+  saveHostMappings,
+  translate,
+}: {
+  allMappings: ComputedRef<HostMapping[]>;
+  canManageNewMappings: ComputedRef<boolean>;
+  existingMappingTargets: ComputedRef<Set<string>>;
+  runSaveMappings: RunAsyncAction;
+  rootDomainValidationMessage: ComputedRef<string>;
+  savedRootDomain: ComputedRef<string>;
+  saveHostMappings: (mappings: HostMapping[]) => Promise<unknown>;
+  translate: (key: string, params?: TranslationParams) => string;
+}) => {
+  const discoverDialogRef = ref<DiscoverDialogHandle | null>(null);
+  const discoverGroupId = ref<string | null>(null);
+  const discoverAbortController = ref<AbortController | null>(null);
+  const discoverProgress = ref<ScanDiscoverProgress | null>(null);
+  const setDiscoverDialogRef = (
+    instance: Element | ComponentPublicInstance | null,
+  ) => {
+    discoverDialogRef.value = instance as DiscoverDialogHandle | null;
+  };
+  const isDiscoverSettingsOpen = ref(false);
+
+  const { isPending: isDiscovering, run: runDiscoverServices } = useAsyncAction(
+    {
+      onError: (error) => {
+        if (isDiscoverAbortError(error)) return;
+        toast.error(translate("admin.subdomainProxy.discoverFailed"), {
+          description: extractErrorMessage(
+            error,
+            translate("admin.subdomainProxy.discoverServicesFailed"),
+          ),
+        });
+      },
+    },
+  );
+
+  const {
+    open: isDiscoverDialogOpen,
+    discoveredData,
+    selectedServices,
+    isAllSelected,
+    isSelectionValid: isDiscoverSelectionValid,
+    setAllSelected,
+    resetSelection,
+    setDiscoveredData,
+    openDialog: openDiscoverDialogState,
+    closeDialog: closeDiscoverDialog,
+  } = useDiscoverServicesSelection<
+    DiscoveredHostService,
+    DiscoveredHostResponse
+  >({
+    getPath: (service) => service.suggestedSubdomain,
+  });
+
+  const showDiscoverHostColumn = computed(() => {
+    const hosts = new Set(
+      (discoveredData.value?.services || [])
+        .map((service) => service.host?.trim())
+        .filter(Boolean),
+    );
+    return hosts.size > 1;
+  });
+
+  const createEmptyDiscoveredResponse = (
+    patch: Partial<ScanDiscoverResponse> = {},
+  ): DiscoveredHostResponse => ({
+    host: patch.host || "",
+    totalPortsScanned: patch.totalPortsScanned || 0,
+    foundServices: patch.foundServices || 0,
+    scannedHosts: patch.scannedHosts ?? 0,
+    scanHostCount: patch.scanHostCount ?? 0,
+    scanScope: patch.scanScope ?? null,
+    scanCidrs: patch.scanCidrs ?? [],
+    intensityMode: patch.intensityMode ?? "auto",
+    intensityLevel: patch.intensityLevel ?? "low",
+    recommendedLevel: patch.recommendedLevel ?? "low",
+    configuredConcurrency: patch.configuredConcurrency ?? 0,
+    effectiveConcurrency: patch.effectiveConcurrency ?? 0,
+    services: [],
+  });
+
+  const upsertDiscoveredService = (service: DiscoveredServiceInfo) => {
+    const current =
+      discoveredData.value || createEmptyDiscoveredResponse({ services: [] });
+    const transformed = buildDiscoveredHostResponse(
+      {
+        ...current,
+        services: [service],
+      },
+      existingMappingTargets.value,
+    ).services[0];
+    if (!transformed) return;
+
+    const serviceKey =
+      service.serviceKey ||
+      `${resolveDiscoveredServiceHost(service, current.host)}:${service.port}`;
+    const nextServices = [...current.services];
+    const existingIndex = nextServices.findIndex((item) => {
+      const itemKey =
+        item.serviceKey ||
+        `${resolveDiscoveredServiceHost(item, current.host)}:${item.port}`;
+      return itemKey === serviceKey;
+    });
+
+    if (existingIndex >= 0) {
+      const previous = nextServices[existingIndex]!;
+      nextServices[existingIndex] = transformed;
+      const selectedIndex = selectedServices.value.indexOf(previous);
+      if (selectedIndex >= 0) {
+        selectedServices.value[selectedIndex] = transformed;
+      }
+    } else {
+      nextServices.push(transformed);
+      if (transformed.suggestedSubdomain.trim()) {
+        selectedServices.value.push(transformed);
+      }
+    }
+
+    setDiscoveredData({
+      ...current,
+      foundServices: nextServices.length,
+      services: nextServices,
+    });
+  };
+
+  const applyDiscoverEvent = (event: ScanDiscoverPollEvent) => {
+    if (event.type === "meta") {
+      setDiscoveredData(createEmptyDiscoveredResponse(event.data));
+      return;
+    }
+
+    if (event.type === "progress") {
+      discoverProgress.value = event.data;
+      return;
+    }
+
+    if (event.type === "service") {
+      upsertDiscoveredService(event.data.service);
+      return;
+    }
+
+    if (event.type === "done") {
+      const current = discoveredData.value;
+      if (!current) {
+        setDiscoveredData(
+          buildDiscoveredHostResponse(event.data, existingMappingTargets.value),
+        );
+        return;
+      }
+
+      setDiscoveredData({
+        ...current,
+        ...event.data,
+        foundServices: current.services.length,
+        services: current.services,
+      });
+    }
+  };
+
+  const dismissDiscoverDialog = () => {
+    stopDiscoverScan();
+    setDiscoveredData(null);
+    closeDiscoverDialog(true);
+    isDiscoverSettingsOpen.value = false;
+  };
+
+  const handleDiscoverDialogOpenChange = (nextOpen: boolean) => {
+    if (!nextOpen) {
+      dismissDiscoverDialog();
+    }
+  };
+
+  const triggerScan = async () => {
+    let targetCidrs: string[];
+    try {
+      await nextTick();
+      const selectedCidrs = await discoverDialogRef.value?.ensureSaved();
+      if (!selectedCidrs || selectedCidrs.length === 0) return;
+      targetCidrs = selectedCidrs;
+    } catch {
+      return;
+    }
+
+    resetSelection();
+    discoverProgress.value = null;
+    discoverAbortController.value?.abort();
+    const abortController = new AbortController();
+    discoverAbortController.value = abortController;
+    await runDiscoverServices(
+      () =>
+        ScanAPI.discoverPolling(
+          { target_cidrs: targetCidrs },
+          {
+            signal: abortController.signal,
+            onEvent: applyDiscoverEvent,
+          },
+        ),
+      {
+        onFinally: () => {
+          if (discoverAbortController.value === abortController) {
+            discoverAbortController.value = null;
+          }
+        },
+      },
+    );
+  };
+
+  const stopDiscoverScan = () => {
+    discoverAbortController.value?.abort();
+    discoverAbortController.value = null;
+  };
+
+  const openDiscoverDialog = () => {
+    if (!canManageNewMappings.value) {
+      toast.error(translate("admin.subdomainProxy.cannotDiscover"), {
+        description:
+          rootDomainValidationMessage.value ||
+          (!savedRootDomain.value
+            ? translate("admin.subdomainProxy.saveRootFirst")
+            : translate("admin.subdomainProxy.rootDirtyDiscover")),
+      });
+      return;
+    }
+
+    openDiscoverDialogState();
+    if (!discoveredData.value) {
+      void nextTick().then(() => triggerScan());
+    }
+  };
+
+  const toggleDiscoverSettings = async () => {
+    isDiscoverSettingsOpen.value = !isDiscoverSettingsOpen.value;
+    if (isDiscoverSettingsOpen.value) {
+      await nextTick();
+      void discoverDialogRef.value?.loadTargets();
+    }
+  };
+
+  const saveDiscoveredServices = async () => {
+    if (
+      !isDiscoverSelectionValid.value ||
+      !savedRootDomain.value ||
+      !discoveredData.value
+    ) {
+      return;
+    }
+
+    const candidateHosts = selectedServices.value.map((service) =>
+      composeHostFromSubdomain(
+        service.suggestedSubdomain,
+        savedRootDomain.value,
+      ),
+    );
+    const existingHostSet = new Set(allMappings.value.map((item) => item.host));
+    const duplicateHosts = [
+      ...new Set([
+        ...candidateHosts.filter((host) => existingHostSet.has(host)),
+        ...collectDuplicateValues(candidateHosts),
+      ]),
+    ];
+
+    if (duplicateHosts.length > 0) {
+      toast.error(translate("admin.subdomainProxy.duplicateDiscoverHosts"), {
+        description: duplicateHosts.join(", "),
+      });
+      return;
+    }
+
+    stopDiscoverScan();
+    await runSaveMappings(async () => {
+      const next = [
+        ...allMappings.value,
+        ...buildDiscoveredServiceMappings({
+          fallbackHost: discoveredData.value?.host,
+          rootDomain: savedRootDomain.value,
+          services: selectedServices.value,
+        }).map((mapping) => ({
+          ...mapping,
+          group_id: discoverGroupId.value,
+        })),
+      ];
+
+      await saveHostMappings(next);
+      toast.success(
+        translate("admin.subdomainProxy.addedMappings", {
+          count: selectedServices.value.length,
+        }),
+      );
+      dismissDiscoverDialog();
+    });
+  };
+
+  return {
+    discoveredData,
+    discoverGroupId,
+    discoverProgress,
+    dismissDiscoverDialog,
+    handleDiscoverDialogOpenChange,
+    isAllSelected,
+    isDiscoverDialogOpen,
+    isDiscoverSelectionValid,
+    isDiscoverSettingsOpen,
+    isDiscovering,
+    openDiscoverDialog,
+    saveDiscoveredServices,
+    selectedServices,
+    setDiscoverDialogRef,
+    stopDiscoverScan,
+    setAllSelected,
+    showDiscoverHostColumn,
+    toggleDiscoverSettings,
+    triggerScan,
+  };
+};

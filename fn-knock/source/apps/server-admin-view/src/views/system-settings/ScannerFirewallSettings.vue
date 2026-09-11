@@ -1,1 +1,169 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgU2hpZWxkIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50LCBDYXJkRGVzY3JpcHRpb24sIENhcmRIZWFkZXIsIENhcmRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBTa2VsZXRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9za2VsZXRvbiI7CmltcG9ydCB7IFN3aXRjaCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9zd2l0Y2giOwppbXBvcnQgRmxvYXRpbmdBY3Rpb25Eb2NrIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vRmxvYXRpbmdBY3Rpb25Eb2NrLnZ1ZSI7CmltcG9ydCBTY2FubmVyRmlyZXdhbGxFeGVtcHRpb25zIGZyb20gIi4vc2Nhbm5lci1maXJld2FsbC9TY2FubmVyRmlyZXdhbGxFeGVtcHRpb25zLnZ1ZSI7CmltcG9ydCBTY2FubmVyUGF0aFdoaXRlbGlzdEVudHJ5IGZyb20gIi4vc2Nhbm5lci1maXJld2FsbC9TY2FubmVyUGF0aFdoaXRlbGlzdEVudHJ5LnZ1ZSI7CmltcG9ydCBTY2FubmVyRmlyZXdhbGxUaHJlc2hvbGRzIGZyb20gIi4vc2Nhbm5lci1maXJld2FsbC9TY2FubmVyRmlyZXdhbGxUaHJlc2hvbGRzLnZ1ZSI7CmltcG9ydCB7IHVzZVNjYW5uZXJGaXJld2FsbFNldHRpbmdzIH0gZnJvbSAiLi9zY2FubmVyLWZpcmV3YWxsL3VzZVNjYW5uZXJGaXJld2FsbFNldHRpbmdzIjsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBhMTF5SWQgPSB1c2VJZCgpOwpjb25zdCBtb2RlbCA9IHVzZVNjYW5uZXJGaXJld2FsbFNldHRpbmdzKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxDYXJkPgogICAgPENhcmRIZWFkZXI+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC1jb2wganVzdGlmeS1iZXR3ZWVuIGdhcC00IHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxDYXJkVGl0bGUgY2xhc3M9InRleHQtbWQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy50aXRsZSIpIH19CiAgICAgICAgICA8L0NhcmRUaXRsZT4KICAgICAgICAgIDxDYXJkRGVzY3JpcHRpb24gY2xhc3M9Im10LTEuNSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLmRlc2NyaXB0aW9uIikgfX0KICAgICAgICAgIDwvQ2FyZERlc2NyaXB0aW9uPgogICAgICAgIDwvZGl2PgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9InNlY29uZGFyeSIKICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgY2xhc3M9InNocmluay0wIgogICAgICAgICAgQGNsaWNrPSJtb2RlbC5nb1RvQmxhY2tsaXN0IgogICAgICAgID4KICAgICAgICAgIDxTaGllbGQgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLnZpZXdCbGFja2xpc3QiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvQ2FyZEhlYWRlcj4KCiAgICA8Q2FyZENvbnRlbnQKICAgICAgdi1pZj0ibW9kZWwuaXNMb2FkaW5nICYmIG1vZGVsLnNob3dMb2FkaW5nU2tlbGV0b24iCiAgICAgIGNsYXNzPSJib3JkZXItdCBwLTAiCiAgICA+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktNCBwLTYiPgogICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC02IHctMS8zIiAvPgogICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC00IHctMi8zIiAvPgogICAgICA8L2Rpdj4KICAgIDwvQ2FyZENvbnRlbnQ+CgogICAgPENhcmRDb250ZW50IHYtZWxzZS1pZj0iIW1vZGVsLmlzTG9hZGluZyIgY2xhc3M9ImRpdmlkZS15IGJvcmRlci10IHAtMCI+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBiZy1tdXRlZC8xMCBwLTYiPgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSBwci02Ij4KICAgICAgICAgIDxMYWJlbAogICAgICAgICAgICA6Zm9yPSJgJHthMTF5SWR9LWVuYWJsZWRgIgogICAgICAgICAgICBjbGFzcz0iY3Vyc29yLXBvaW50ZXIgdGV4dC1iYXNlIGZvbnQtbWVkaXVtIgogICAgICAgICAgICBAY2xpY2s9Im1vZGVsLmZvcm0uZW5hYmxlZCA9ICFtb2RlbC5mb3JtLmVuYWJsZWQiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLmVuYWJsZVRpdGxlIikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLmVuYWJsZURlc2NyaXB0aW9uIikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxTd2l0Y2ggOmlkPSJgJHthMTF5SWR9LWVuYWJsZWRgIiB2LW1vZGVsPSJtb2RlbC5mb3JtLmVuYWJsZWQiIC8+CiAgICAgIDwvZGl2PgoKICAgICAgPFNjYW5uZXJQYXRoV2hpdGVsaXN0RW50cnkgQG9wZW49Im1vZGVsLmdvVG9QYXRoV2hpdGVsaXN0IiAvPgoKICAgICAgPGRpdgogICAgICAgIHYtc2hvdz0ibW9kZWwuZm9ybS5lbmFibGVkIgogICAgICAgIGNsYXNzPSJkaXZpZGUteSBkdXJhdGlvbi0zMDAgYW5pbWF0ZS1pbiBmYWRlLWluIHNsaWRlLWluLWZyb20tdG9wLTIiCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQgcC02Ij4KICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSBwci02Ij4KICAgICAgICAgICAgPExhYmVsCiAgICAgICAgICAgICAgOmZvcj0iYCR7YTExeUlkfS1jb21tb24tbG9jYXRpb25gIgogICAgICAgICAgICAgIGNsYXNzPSJjdXJzb3ItcG9pbnRlciB0ZXh0LWJhc2UgZm9udC1tZWRpdW0iCiAgICAgICAgICAgICAgQGNsaWNrPSIKICAgICAgICAgICAgICAgIG1vZGVsLmZvcm0uY29tbW9uTG9jYXRpb25FeGVtcHRFbmFibGVkID0KICAgICAgICAgICAgICAgICAgIW1vZGVsLmZvcm0uY29tbW9uTG9jYXRpb25FeGVtcHRFbmFibGVkCiAgICAgICAgICAgICAgIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MuY29tbW9uTG9jYXRpb25FeGVtcHRUaXRsZSIpIH19CiAgICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgdCgKICAgICAgICAgICAgICAgICAgImFkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLmNvbW1vbkxvY2F0aW9uRXhlbXB0RGVzY3JpcHRpb24iLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8U3dpdGNoCiAgICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1jb21tb24tbG9jYXRpb25gIgogICAgICAgICAgICB2LW1vZGVsPSJtb2RlbC5mb3JtLmNvbW1vbkxvY2F0aW9uRXhlbXB0RW5hYmxlZCIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxTY2FubmVyRmlyZXdhbGxFeGVtcHRpb25zIDptb2RlbD0ibW9kZWwiIC8+CiAgICAgICAgPFNjYW5uZXJGaXJld2FsbFRocmVzaG9sZHMgOm1vZGVsPSJtb2RlbCIgOmlkLXByZWZpeD0iYTExeUlkIiAvPgogICAgICA8L2Rpdj4KICAgIDwvQ2FyZENvbnRlbnQ+CiAgICA8Q2FyZENvbnRlbnQgdi1lbHNlIGNsYXNzPSJtaW4taC1bMjAwcHhdIiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KCiAgICA8RmxvYXRpbmdBY3Rpb25Eb2NrCiAgICAgIDphY3RpdmU9Im1vZGVsLmlzRGlydHkiCiAgICAgIGlubGluZS1jbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHAtNiBib3JkZXItdCBiZy1tdXRlZC8yMCByb3VuZGVkLWIteGwiCiAgICA+CiAgICAgIDx0ZW1wbGF0ZSAjaW5saW5lPgogICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHQoCiAgICAgICAgICAgICAgbW9kZWwuaXNEaXJ0eQogICAgICAgICAgICAgICAgPyAiYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MuZGlydHkiCiAgICAgICAgICAgICAgICA6ICJhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy5jbGVhbiIsCiAgICAgICAgICAgICkKICAgICAgICAgIH19CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBnYXAtMyI+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgIDpkaXNhYmxlZD0iIW1vZGVsLmlzRGlydHkgfHwgbW9kZWwuaXNTYXZpbmciCiAgICAgICAgICAgIEBjbGljaz0ibW9kZWwucmVzZXRGb3JtIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy5kaXNjYXJkIikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICA6ZGlzYWJsZWQ9IgogICAgICAgICAgICAgICFtb2RlbC5pc0RpcnR5IHx8IG1vZGVsLmlzU2F2aW5nIHx8IEJvb2xlYW4obW9kZWwuc2F2ZUJsb2NrZWRSZWFzb24pCiAgICAgICAgICAgICIKICAgICAgICAgICAgQGNsaWNrPSJtb2RlbC5zYXZlU2V0dGluZ3MiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgdi1pZj0ibW9kZWwuaXNTYXZpbmciCiAgICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiCiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLnNhdmVDaGFuZ2VzIikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L3RlbXBsYXRlPgogICAgICA8dGVtcGxhdGUgI2Zsb2F0aW5nPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9IiFtb2RlbC5pc0RpcnR5IHx8IG1vZGVsLmlzU2F2aW5nIgogICAgICAgICAgQGNsaWNrPSJtb2RlbC5yZXNldEZvcm0iCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MuZGlzY2FyZCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgIW1vZGVsLmlzRGlydHkgfHwgbW9kZWwuaXNTYXZpbmcgfHwgQm9vbGVhbihtb2RlbC5zYXZlQmxvY2tlZFJlYXNvbikKICAgICAgICAgICIKICAgICAgICAgIEBjbGljaz0ibW9kZWwuc2F2ZVNldHRpbmdzIgogICAgICAgID4KICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIHYtaWY9Im1vZGVsLmlzU2F2aW5nIgogICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLWJhY2tncm91bmQgYm9yZGVyLXQtZm9yZWdyb3VuZCIKICAgICAgICAgIC8+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy5zYXZlQ2hhbmdlcyIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvdGVtcGxhdGU+CiAgICA8L0Zsb2F0aW5nQWN0aW9uRG9jaz4KICA8L0NhcmQ+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { Shield } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
+import { Skeleton } from "@/components/ui/skeleton";
+import { Switch } from "@/components/ui/switch";
+import FloatingActionDock from "@admin-shared/components/common/FloatingActionDock.vue";
+import ScannerFirewallExemptions from "./scanner-firewall/ScannerFirewallExemptions.vue";
+import ScannerPathWhitelistEntry from "./scanner-firewall/ScannerPathWhitelistEntry.vue";
+import ScannerFirewallThresholds from "./scanner-firewall/ScannerFirewallThresholds.vue";
+import { useScannerFirewallSettings } from "./scanner-firewall/useScannerFirewallSettings";
+
+const { t } = useI18n();
+const a11yId = useId();
+const model = useScannerFirewallSettings();
+</script>
+
+<template>
+  <Card>
+    <CardHeader>
+      <div class="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
+        <div>
+          <CardTitle class="text-md">
+            {{ t("admin.scannerFirewallSettings.title") }}
+          </CardTitle>
+          <CardDescription class="mt-1.5">
+            {{ t("admin.scannerFirewallSettings.description") }}
+          </CardDescription>
+        </div>
+        <Button
+          variant="secondary"
+          size="sm"
+          class="shrink-0"
+          @click="model.goToBlacklist"
+        >
+          <Shield class="mr-2 h-4 w-4" />
+          {{ t("admin.scannerFirewallSettings.viewBlacklist") }}
+        </Button>
+      </div>
+    </CardHeader>
+
+    <CardContent
+      v-if="model.isLoading && model.showLoadingSkeleton"
+      class="border-t p-0"
+    >
+      <div class="space-y-4 p-6">
+        <Skeleton class="h-6 w-1/3" />
+        <Skeleton class="h-4 w-2/3" />
+      </div>
+    </CardContent>
+
+    <CardContent v-else-if="!model.isLoading" class="divide-y border-t p-0">
+      <div class="flex items-center justify-between bg-muted/10 p-6">
+        <div class="space-y-1 pr-6">
+          <Label
+            :for="`${a11yId}-enabled`"
+            class="cursor-pointer text-base font-medium"
+            @click="model.form.enabled = !model.form.enabled"
+          >
+            {{ t("admin.scannerFirewallSettings.enableTitle") }}
+          </Label>
+          <div class="text-sm text-muted-foreground">
+            {{ t("admin.scannerFirewallSettings.enableDescription") }}
+          </div>
+        </div>
+        <Switch :id="`${a11yId}-enabled`" v-model="model.form.enabled" />
+      </div>
+
+      <ScannerPathWhitelistEntry @open="model.goToPathWhitelist" />
+
+      <div
+        v-show="model.form.enabled"
+        class="divide-y duration-300 animate-in fade-in slide-in-from-top-2"
+      >
+        <div class="flex items-center justify-between gap-4 p-6">
+          <div class="space-y-1 pr-6">
+            <Label
+              :for="`${a11yId}-common-location`"
+              class="cursor-pointer text-base font-medium"
+              @click="
+                model.form.commonLocationExemptEnabled =
+                  !model.form.commonLocationExemptEnabled
+              "
+            >
+              {{ t("admin.scannerFirewallSettings.commonLocationExemptTitle") }}
+            </Label>
+            <div class="text-sm text-muted-foreground">
+              {{
+                t(
+                  "admin.scannerFirewallSettings.commonLocationExemptDescription",
+                )
+              }}
+            </div>
+          </div>
+          <Switch
+            :id="`${a11yId}-common-location`"
+            v-model="model.form.commonLocationExemptEnabled"
+          />
+        </div>
+
+        <ScannerFirewallExemptions :model="model" />
+        <ScannerFirewallThresholds :model="model" :id-prefix="a11yId" />
+      </div>
+    </CardContent>
+    <CardContent v-else class="min-h-[200px]" aria-hidden="true" />
+
+    <FloatingActionDock
+      :active="model.isDirty"
+      inline-class="flex items-center justify-between p-6 border-t bg-muted/20 rounded-b-xl"
+    >
+      <template #inline>
+        <div class="text-sm text-muted-foreground">
+          {{
+            t(
+              model.isDirty
+                ? "admin.scannerFirewallSettings.dirty"
+                : "admin.scannerFirewallSettings.clean",
+            )
+          }}
+        </div>
+        <div class="flex gap-3">
+          <Button
+            variant="outline"
+            :disabled="!model.isDirty || model.isSaving"
+            @click="model.resetForm"
+          >
+            {{ t("admin.scannerFirewallSettings.discard") }}
+          </Button>
+          <Button
+            :disabled="
+              !model.isDirty || model.isSaving || Boolean(model.saveBlockedReason)
+            "
+            @click="model.saveSettings"
+          >
+            <span
+              v-if="model.isSaving"
+              class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+            />
+            {{ t("admin.scannerFirewallSettings.saveChanges") }}
+          </Button>
+        </div>
+      </template>
+      <template #floating>
+        <Button
+          variant="outline"
+          :disabled="!model.isDirty || model.isSaving"
+          @click="model.resetForm"
+        >
+          {{ t("admin.scannerFirewallSettings.discard") }}
+        </Button>
+        <Button
+          :disabled="
+            !model.isDirty || model.isSaving || Boolean(model.saveBlockedReason)
+          "
+          @click="model.saveSettings"
+        >
+          <span
+            v-if="model.isSaving"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          />
+          {{ t("admin.scannerFirewallSettings.saveChanges") }}
+        </Button>
+      </template>
+    </FloatingActionDock>
+  </Card>
+</template>

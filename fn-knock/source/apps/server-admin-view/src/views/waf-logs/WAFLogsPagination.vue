@@ -1,1 +1,40 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IEN1cnNvclBhZ2luYXRpb25Eb2NrIGZyb20gIkAvY29tcG9uZW50cy9DdXJzb3JQYWdpbmF0aW9uRG9jay52dWUiOwppbXBvcnQgdHlwZSB7IEN1cnNvclBhZ2luYXRpb25MYWJlbHMgfSBmcm9tICJAL2NvbXBvbmVudHMvY3Vyc29yLXBhZ2luYXRpb24tY29udHJhY3QiOwoKY29uc3QgTElNSVRfT1BUSU9OUyA9IFsiMjAiLCAiNTAiLCAiMTAwIiwgIjIwMCJdIGFzIGNvbnN0Owpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjYW5Mb2FkTmV3ZXI6IGJvb2xlYW47CiAgY2FuTG9hZE9sZGVyOiBib29sZWFuOwogIGN1cnNvclBhZ2VMYWJlbDogc3RyaW5nOwogIGhhbmRsZUxpbWl0Q2hhbmdlOiAodmFsdWU6IHVua25vd24pID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwogIGhhbmRsZUxvYWRGaXJzdDogKCkgPT4gUHJvbWlzZTx2b2lkPiB8IHZvaWQ7CiAgaGFuZGxlTG9hZE5ld2VyOiAoKSA9PiBQcm9taXNlPHZvaWQ+IHwgdm9pZDsKICBoYW5kbGVMb2FkT2xkZXI6ICgpID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwogIGxpbWl0OiBzdHJpbmc7CiAgbG9hZGluZzogYm9vbGVhbjsKICBzaG91bGRGbG9hdDogYm9vbGVhbjsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBsYWJlbHMgPSBjb21wdXRlZDxDdXJzb3JQYWdpbmF0aW9uTGFiZWxzPigoKSA9PiAoewogIGFyaWFMYWJlbDogdCgiYWRtaW4ud2FmTG9ncy50aXRsZSIpLAogIGNhbkxvYWRPbGRlcjogdCgiYWRtaW4ud2FmTG9ncy5jYW5Mb2FkT2xkZXIiKSwKICBmaXJzdFBhZ2U6IHQoImFkbWluLndhZkxvZ3MuZmlyc3RQYWdlIiksCiAgbGFzdFBhZ2U6IHQoImFkbWluLndhZkxvZ3MubGFzdFBhZ2UiKSwKICBuZXh0UGFnZTogdCgiYWRtaW4ud2FmTG9ncy5uZXh0UGFnZSIpLAogIHBhZ2VTaXplOiB0KCJhZG1pbi53YWZMb2dzLnBhZ2VTaXplIiksCiAgcGFnZVNpemVPcHRpb246IChjb3VudCkgPT4gdCgiYWRtaW4ud2FmTG9ncy5wYWdlU2l6ZU9wdGlvbiIsIHsgY291bnQgfSksCiAgcHJldmlvdXNQYWdlOiB0KCJhZG1pbi53YWZMb2dzLnByZXZpb3VzUGFnZSIpLAp9KSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxDdXJzb3JQYWdpbmF0aW9uRG9jawogICAgdi1iaW5kPSJwcm9wcyIKICAgIDpsYWJlbHM9ImxhYmVscyIKICAgIDpsaW1pdC1vcHRpb25zPSJMSU1JVF9PUFRJT05TIgogIC8+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import CursorPaginationDock from "@/components/CursorPaginationDock.vue";
+import type { CursorPaginationLabels } from "@/components/cursor-pagination-contract";
+
+const LIMIT_OPTIONS = ["20", "50", "100", "200"] as const;
+const props = defineProps<{
+  canLoadNewer: boolean;
+  canLoadOlder: boolean;
+  cursorPageLabel: string;
+  handleLimitChange: (value: unknown) => Promise<void> | void;
+  handleLoadFirst: () => Promise<void> | void;
+  handleLoadNewer: () => Promise<void> | void;
+  handleLoadOlder: () => Promise<void> | void;
+  limit: string;
+  loading: boolean;
+  shouldFloat: boolean;
+}>();
+
+const { t } = useI18n();
+const labels = computed<CursorPaginationLabels>(() => ({
+  ariaLabel: t("admin.wafLogs.title"),
+  canLoadOlder: t("admin.wafLogs.canLoadOlder"),
+  firstPage: t("admin.wafLogs.firstPage"),
+  lastPage: t("admin.wafLogs.lastPage"),
+  nextPage: t("admin.wafLogs.nextPage"),
+  pageSize: t("admin.wafLogs.pageSize"),
+  pageSizeOption: (count) => t("admin.wafLogs.pageSizeOption", { count }),
+  previousPage: t("admin.wafLogs.previousPage"),
+}));
+</script>
+
+<template>
+  <CursorPaginationDock
+    v-bind="props"
+    :labels="labels"
+    :limit-options="LIMIT_OPTIONS"
+  />
+</template>

@@ -1,1 +1,113 @@
-dXNlIHN0ZDo6c3RyaW5nOjpGcm9tVXRmOEVycm9yOwoKdXNlIHNlcmRlOjpkZTo6RGVzZXJpYWxpemVPd25lZDsKCiNbZGVyaXZlKERlYnVnLCB0aGlzZXJyb3I6OkVycm9yKV0KcHViKGNyYXRlKSBlbnVtIFJlc3BvbnNlQm9keVJlYWRFcnJvciB7CiAgICAjW2Vycm9yKCJIVFRQIHJlc3BvbnNlIGJvZHkgcmVhZCBmYWlsZWQ6IHswfSIpXQogICAgUmVhZCgjW2Zyb21dIHJlcXdlc3Q6OkVycm9yKSwKICAgICNbZXJyb3IoIkhUVFAgcmVzcG9uc2UgYm9keSBleGNlZWRzIHtsaW1pdH0gYnl0ZXMiKV0KICAgIFRvb0xhcmdlIHsgbGltaXQ6IHVzaXplIH0sCiAgICAjW2Vycm9yKCJIVFRQIHJlc3BvbnNlIGJvZHkgaXMgbm90IHZhbGlkIFVURi04OiB7MH0iKV0KICAgIEludmFsaWRVdGY4KCNbZnJvbV0gRnJvbVV0ZjhFcnJvciksCiAgICAjW2Vycm9yKCJIVFRQIHJlc3BvbnNlIGJvZHkgaXMgbm90IHZhbGlkIEpTT046IHswfSIpXQogICAgSW52YWxpZEpzb24oI1tmcm9tXSBzZXJkZV9qc29uOjpFcnJvciksCn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gcmVhZF9yZXNwb25zZV9ieXRlc19saW1pdGVkKAogICAgbXV0IHJlc3BvbnNlOiByZXF3ZXN0OjpSZXNwb25zZSwKICAgIGxpbWl0OiB1c2l6ZSwKKSAtPiBSZXN1bHQ8VmVjPHU4PiwgUmVzcG9uc2VCb2R5UmVhZEVycm9yPiB7CiAgICBpZiByZXNwb25zZQogICAgICAgIC5jb250ZW50X2xlbmd0aCgpCiAgICAgICAgLmlzX3NvbWVfYW5kKHxsZW5ndGh8IGxlbmd0aCA+IGxpbWl0IGFzIHU2NCkKICAgIHsKICAgICAgICByZXR1cm4gRXJyKFJlc3BvbnNlQm9keVJlYWRFcnJvcjo6VG9vTGFyZ2UgeyBsaW1pdCB9KTsKICAgIH0KICAgIGxldCBjYXBhY2l0eSA9IHJlc3BvbnNlCiAgICAgICAgLmNvbnRlbnRfbGVuZ3RoKCkKICAgICAgICAuYW5kX3RoZW4ofGxlbmd0aHwgdXNpemU6OnRyeV9mcm9tKGxlbmd0aCkub2soKSkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQogICAgICAgIC5taW4obGltaXQpOwogICAgbGV0IG11dCBib2R5ID0gVmVjOjp3aXRoX2NhcGFjaXR5KGNhcGFjaXR5KTsKICAgIHdoaWxlIGxldCBTb21lKGNodW5rKSA9IHJlc3BvbnNlLmNodW5rKCkuYXdhaXQ/IHsKICAgICAgICBhcHBlbmRfbGltaXRlZCgmbXV0IGJvZHksICZjaHVuaywgbGltaXQpPzsKICAgIH0KICAgIE9rKGJvZHkpCn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gcmVhZF9yZXNwb25zZV90ZXh0X2xpbWl0ZWQoCiAgICByZXNwb25zZTogcmVxd2VzdDo6UmVzcG9uc2UsCiAgICBsaW1pdDogdXNpemUsCikgLT4gUmVzdWx0PFN0cmluZywgUmVzcG9uc2VCb2R5UmVhZEVycm9yPiB7CiAgICBTdHJpbmc6OmZyb21fdXRmOChyZWFkX3Jlc3BvbnNlX2J5dGVzX2xpbWl0ZWQocmVzcG9uc2UsIGxpbWl0KS5hd2FpdD8pCiAgICAgICAgLm1hcF9lcnIoUmVzcG9uc2VCb2R5UmVhZEVycm9yOjpmcm9tKQp9CgpwdWIoY3JhdGUpIGFzeW5jIGZuIHJlYWRfcmVzcG9uc2VfanNvbl9saW1pdGVkPFQ+KAogICAgcmVzcG9uc2U6IHJlcXdlc3Q6OlJlc3BvbnNlLAogICAgbGltaXQ6IHVzaXplLAopIC0+IFJlc3VsdDxULCBSZXNwb25zZUJvZHlSZWFkRXJyb3I+CndoZXJlCiAgICBUOiBEZXNlcmlhbGl6ZU93bmVkLAp7CiAgICBPayhzZXJkZV9qc29uOjpmcm9tX3NsaWNlKAogICAgICAgICZyZWFkX3Jlc3BvbnNlX2J5dGVzX2xpbWl0ZWQocmVzcG9uc2UsIGxpbWl0KS5hd2FpdD8sCiAgICApPykKfQoKcHViKGNyYXRlKSBhc3luYyBmbiByZWFkX3Jlc3BvbnNlX3RleHRfcHJlZml4KAogICAgbXV0IHJlc3BvbnNlOiByZXF3ZXN0OjpSZXNwb25zZSwKICAgIGxpbWl0OiB1c2l6ZSwKKSAtPiBSZXN1bHQ8U3RyaW5nLCBSZXNwb25zZUJvZHlSZWFkRXJyb3I+IHsKICAgIGxldCBtdXQgYm9keSA9IFZlYzo6d2l0aF9jYXBhY2l0eSgKICAgICAgICByZXNwb25zZQogICAgICAgICAgICAuY29udGVudF9sZW5ndGgoKQogICAgICAgICAgICAuYW5kX3RoZW4ofGxlbmd0aHwgdXNpemU6OnRyeV9mcm9tKGxlbmd0aCkub2soKSkKICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICAgICAgLm1pbihsaW1pdCksCiAgICApOwogICAgd2hpbGUgYm9keS5sZW4oKSA8IGxpbWl0IHsKICAgICAgICBsZXQgU29tZShjaHVuaykgPSByZXNwb25zZS5jaHVuaygpLmF3YWl0PyBlbHNlIHsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgfTsKICAgICAgICBsZXQgcmVtYWluaW5nID0gbGltaXQgLSBib2R5LmxlbigpOwogICAgICAgIGJvZHkuZXh0ZW5kX2Zyb21fc2xpY2UoJmNodW5rWy4uY2h1bmsubGVuKCkubWluKHJlbWFpbmluZyldKTsKICAgIH0KICAgIE9rKFN0cmluZzo6ZnJvbV91dGY4X2xvc3N5KCZib2R5KS5pbnRvX293bmVkKCkpCn0KCmZuIGFwcGVuZF9saW1pdGVkKAogICAgYm9keTogJm11dCBWZWM8dTg+LAogICAgY2h1bms6ICZbdThdLAogICAgbGltaXQ6IHVzaXplLAopIC0+IFJlc3VsdDwoKSwgUmVzcG9uc2VCb2R5UmVhZEVycm9yPiB7CiAgICBpZiBjaHVuay5sZW4oKSA+IGxpbWl0LnNhdHVyYXRpbmdfc3ViKGJvZHkubGVuKCkpIHsKICAgICAgICByZXR1cm4gRXJyKFJlc3BvbnNlQm9keVJlYWRFcnJvcjo6VG9vTGFyZ2UgeyBsaW1pdCB9KTsKICAgIH0KICAgIGJvZHkuZXh0ZW5kX2Zyb21fc2xpY2UoY2h1bmspOwogICAgT2soKCkpCn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjp7UmVzcG9uc2VCb2R5UmVhZEVycm9yLCBhcHBlbmRfbGltaXRlZH07CgogICAgI1t0ZXN0XQogICAgZm4gbGltaXRlZF9ib2R5X2FjY2VwdHNfdGhlX2V4YWN0X2xpbWl0KCkgewogICAgICAgIGxldCBtdXQgYm9keSA9IHZlYyFbMSwgMl07CiAgICAgICAgYXBwZW5kX2xpbWl0ZWQoJm11dCBib2R5LCAmWzMsIDRdLCA0KS51bndyYXAoKTsKICAgICAgICBhc3NlcnRfZXEhKGJvZHksIHZlYyFbMSwgMiwgMywgNF0pOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGxpbWl0ZWRfYm9keV9yZWplY3RzX2FfY2h1bmtfYmVmb3JlX2FsbG9jYXRpbmdfcGFzdF90aGVfbGltaXQoKSB7CiAgICAgICAgbGV0IG11dCBib2R5ID0gdmVjIVsxLCAyXTsKICAgICAgICBsZXQgcmVzdWx0ID0gYXBwZW5kX2xpbWl0ZWQoJm11dCBib2R5LCAmWzMsIDQsIDVdLCA0KTsKICAgICAgICBhc3NlcnQhKG1hdGNoZXMhKAogICAgICAgICAgICByZXN1bHQsCiAgICAgICAgICAgIEVycihSZXNwb25zZUJvZHlSZWFkRXJyb3I6OlRvb0xhcmdlIHsgbGltaXQ6IDQgfSkKICAgICAgICApKTsKICAgICAgICBhc3NlcnRfZXEhKGJvZHksIHZlYyFbMSwgMl0pOwogICAgfQp9Cg==
+use std::string::FromUtf8Error;
+
+use serde::de::DeserializeOwned;
+
+#[derive(Debug, thiserror::Error)]
+pub(crate) enum ResponseBodyReadError {
+    #[error("HTTP response body read failed: {0}")]
+    Read(#[from] reqwest::Error),
+    #[error("HTTP response body exceeds {limit} bytes")]
+    TooLarge { limit: usize },
+    #[error("HTTP response body is not valid UTF-8: {0}")]
+    InvalidUtf8(#[from] FromUtf8Error),
+    #[error("HTTP response body is not valid JSON: {0}")]
+    InvalidJson(#[from] serde_json::Error),
+}
+
+pub(crate) async fn read_response_bytes_limited(
+    mut response: reqwest::Response,
+    limit: usize,
+) -> Result<Vec<u8>, ResponseBodyReadError> {
+    if response
+        .content_length()
+        .is_some_and(|length| length > limit as u64)
+    {
+        return Err(ResponseBodyReadError::TooLarge { limit });
+    }
+    let capacity = response
+        .content_length()
+        .and_then(|length| usize::try_from(length).ok())
+        .unwrap_or_default()
+        .min(limit);
+    let mut body = Vec::with_capacity(capacity);
+    while let Some(chunk) = response.chunk().await? {
+        append_limited(&mut body, &chunk, limit)?;
+    }
+    Ok(body)
+}
+
+pub(crate) async fn read_response_text_limited(
+    response: reqwest::Response,
+    limit: usize,
+) -> Result<String, ResponseBodyReadError> {
+    String::from_utf8(read_response_bytes_limited(response, limit).await?)
+        .map_err(ResponseBodyReadError::from)
+}
+
+pub(crate) async fn read_response_json_limited<T>(
+    response: reqwest::Response,
+    limit: usize,
+) -> Result<T, ResponseBodyReadError>
+where
+    T: DeserializeOwned,
+{
+    Ok(serde_json::from_slice(
+        &read_response_bytes_limited(response, limit).await?,
+    )?)
+}
+
+pub(crate) async fn read_response_text_prefix(
+    mut response: reqwest::Response,
+    limit: usize,
+) -> Result<String, ResponseBodyReadError> {
+    let mut body = Vec::with_capacity(
+        response
+            .content_length()
+            .and_then(|length| usize::try_from(length).ok())
+            .unwrap_or_default()
+            .min(limit),
+    );
+    while body.len() < limit {
+        let Some(chunk) = response.chunk().await? else {
+            break;
+        };
+        let remaining = limit - body.len();
+        body.extend_from_slice(&chunk[..chunk.len().min(remaining)]);
+    }
+    Ok(String::from_utf8_lossy(&body).into_owned())
+}
+
+fn append_limited(
+    body: &mut Vec<u8>,
+    chunk: &[u8],
+    limit: usize,
+) -> Result<(), ResponseBodyReadError> {
+    if chunk.len() > limit.saturating_sub(body.len()) {
+        return Err(ResponseBodyReadError::TooLarge { limit });
+    }
+    body.extend_from_slice(chunk);
+    Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::{ResponseBodyReadError, append_limited};
+
+    #[test]
+    fn limited_body_accepts_the_exact_limit() {
+        let mut body = vec![1, 2];
+        append_limited(&mut body, &[3, 4], 4).unwrap();
+        assert_eq!(body, vec![1, 2, 3, 4]);
+    }
+
+    #[test]
+    fn limited_body_rejects_a_chunk_before_allocating_past_the_limit() {
+        let mut body = vec![1, 2];
+        let result = append_limited(&mut body, &[3, 4, 5], 4);
+        assert!(matches!(
+            result,
+            Err(ResponseBodyReadError::TooLarge { limit: 4 })
+        ));
+        assert_eq!(body, vec![1, 2]);
+    }
+}

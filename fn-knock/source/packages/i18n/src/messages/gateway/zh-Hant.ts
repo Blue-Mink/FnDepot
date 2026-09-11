@@ -1,1 +1,22 @@
-aW1wb3J0IHsgemhDTkdhdGV3YXkgfSBmcm9tICIuL3poLUNOIjsKCmV4cG9ydCBjb25zdCB6aEhhbnRHYXRld2F5ID0gewogIC4uLnpoQ05HYXRld2F5LAogIGh0bWxMYW5nOiAiemgtSGFudCIsCiAgc3VjY2VzczogIuaIkOWKnyIsCiAgZ29Ub1NlbGVjdDogIuWJjeW+gOmBuOaTh+mggSIsCiAgd2VsY29tZVRpdGxlOiAi5pyN5YuZ5bey5ZWf5YuVIiwKICB3ZWxjb21lTWVzc2FnZTogIuatoei/juS9v+eUqCBHbyBSZWF1dGggUHJveHkiLAogIHJvdXRlTm90Rm91bmRUaXRsZTogIuaykuacieWMuemFjeeahOi3r+eUsSIsCiAgcm91dGVOb3RGb3VuZE1lc3NhZ2U6ICLnm67liY3oq4vmsYLmnKrljLnphY3ku7vkvZXlt7LphY3nva7nmoTot6/nlLHjgIIiLAogIHNlbGVjdFRpdGxlOiAi6YG45pOH6Kiq5ZWP5YWl5Y+jIiwKICBzZWxlY3REZXNjcmlwdGlvbjogIuiri+mBuOaTh+S4gOWAi+W3sumFjee9rueahOS7o+eQhuWFpeWPo+e5vOe6jOioquWVj+OAgiIsCiAgcm91dGVzRW1wdHk6ICLmmqvnhKHlj6/nlKjot6/nlLHjgIIiLAogIGxvZ291dDogIueZu+WHuiIsCiAgbG9nb3V0Q29uZmlybVRpdGxlOiAi55m75Ye6IiwKICBsb2dvdXRDb25maXJtTWVzc2FnZTogIueiuuWumuimgeeZu+WHuuebruWJjeeZu+WFpeeLgOaFi+WXju+8nyIsCiAgbm9Sb3V0ZXNDb25maWd1cmVkOiAi5pqr54Sh5bey6YWN572u6Lev55SxIiwKICB3YWZCbG9ja2VkVGl0bGU6ICLoq4vmsYLlt7LmlJTmiKoiLAogIHdhZkJsb2NrZWRNZXNzYWdlOiAi6Kiq5ZWP6KKr5a6J5YWo562W55Wl5ouS57WV44CCIiwKICB3YWZCbG9ja2VkSnNvbjogIuiri+axguW3suiiqyBXQUYg5pSU5oiqIiwKfTsK
+import { zhCNGateway } from "./zh-CN";
+
+export const zhHantGateway = {
+  ...zhCNGateway,
+  htmlLang: "zh-Hant",
+  success: "成功",
+  goToSelect: "前往選擇頁",
+  welcomeTitle: "服務已啟動",
+  welcomeMessage: "歡迎使用 Go Reauth Proxy",
+  routeNotFoundTitle: "沒有匹配的路由",
+  routeNotFoundMessage: "目前請求未匹配任何已配置的路由。",
+  selectTitle: "選擇訪問入口",
+  selectDescription: "請選擇一個已配置的代理入口繼續訪問。",
+  routesEmpty: "暫無可用路由。",
+  logout: "登出",
+  logoutConfirmTitle: "登出",
+  logoutConfirmMessage: "確定要登出目前登入狀態嗎？",
+  noRoutesConfigured: "暫無已配置路由",
+  wafBlockedTitle: "請求已攔截",
+  wafBlockedMessage: "訪問被安全策略拒絕。",
+  wafBlockedJson: "請求已被 WAF 攔截",
+};

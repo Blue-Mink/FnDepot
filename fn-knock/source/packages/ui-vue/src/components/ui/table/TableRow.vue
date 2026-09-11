@@ -1,1 +1,17 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPHRyCiAgICBkYXRhLXNsb3Q9InRhYmxlLXJvdyIKICAgIDpjbGFzcz0iY24oJ2hvdmVyOmJnLW11dGVkLzUwIGRhdGEtW3N0YXRlPXNlbGVjdGVkXTpiZy1tdXRlZCBib3JkZXItYiB0cmFuc2l0aW9uLWNvbG9ycycsIHByb3BzLmNsYXNzKSIKICA+CiAgICA8c2xvdCAvPgogIDwvdHI+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <tr
+    data-slot="table-row"
+    :class="cn('hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors', props.class)"
+  >
+    <slot />
+  </tr>
+</template>

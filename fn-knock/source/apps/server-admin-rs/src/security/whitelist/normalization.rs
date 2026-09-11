@@ -1,1 +1,211 @@
-dXNlIHN0ZDo6e2NvbGxlY3Rpb25zOjpCVHJlZVNldCwgc3RyOjpGcm9tU3RyfTsKCnVzZSBpcG5ldDo6SXBOZXQ7CnVzZSBzZXJkZV9qc29uOjpWYWx1ZTsKdXNlIHNoYTI6OntEaWdlc3QsIFNoYTI1Nn07Cgp1c2UgY3JhdGU6OnsKICAgIGNpZHI6OntDaWRyT3BlcmF0b3IsIENpZHJSZWdpb25RdWVyeSwgQ29tcGlsZWRJcFNldH0sCiAgICBodHRwX3V0aWxzOjpub3JtYWxpemVfaXAsCiAgICBzdGF0ZTo6QXBwU3RhdGUsCiAgICBzdG9yZTo6e1doaXRlbGlzdENvbmNyZXRlVGFyZ2V0LCBXaGl0ZWxpc3RSZWdpb25JbnB1dH0sCn07Cgpjb25zdCBERUZBVUxUX0NOQU1FX0NIRUNLX0lOVEVSVkFMX01JTlVURVM6IGk2NCA9IDU7CmNvbnN0IE1JTl9DTkFNRV9DSEVDS19JTlRFUlZBTF9NSU5VVEVTOiBpNjQgPSAxOwpjb25zdCBNQVhfQ05BTUVfQ0hFQ0tfSU5URVJWQUxfTUlOVVRFUzogaTY0ID0gMjQgKiA2MDsKCnB1YihjcmF0ZSkgZm4gd2hpdGVsaXN0X2F1dG9fb3duZXJfcmVjb3JkX2tleShvd25lcl9rZXk6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBsZXQgbXV0IGhhc2hlciA9IFNoYTI1Njo6bmV3KCk7CiAgICBoYXNoZXIudXBkYXRlKG93bmVyX2tleS50cmltKCkpOwogICAgZm9ybWF0ISgKICAgICAgICAiZm5fa25vY2s6d2hpdGVsaXN0OmF1dG9fb3duZXI6e30iLAogICAgICAgIGhleDo6ZW5jb2RlKGhhc2hlci5maW5hbGl6ZSgpKQogICAgKQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9zb3VyY2UodmFsdWU6IE9wdGlvbjwmc3RyPikgLT4gU3RyaW5nIHsKICAgIGlmIHZhbHVlID09IFNvbWUoImF1dG8iKSB7CiAgICAgICAgImF1dG8iLnRvX3N0cmluZygpCiAgICB9IGVsc2UgewogICAgICAgICJtYW51YWwiLnRvX3N0cmluZygpCiAgICB9Cn0KCiNbZGVyaXZlKERlYnVnKV0KcHViKHN1cGVyKSBlbnVtIFdoaXRlbGlzdFJlZ2lvblJlc29sdmVFcnJvciB7CiAgICBFbXB0eSwKICAgIExvb2t1cChTdHJpbmcpLAp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV93aGl0ZWxpc3RfcmVnaW9uX2lucHV0cygKICAgIHZhbHVlOiAmW1ZhbHVlXSwKKSAtPiBSZXN1bHQ8VmVjPFdoaXRlbGlzdFJlZ2lvbklucHV0PiwgU3RyaW5nPiB7CiAgICBsZXQgbXV0IHJlc3VsdCA9IFZlYzo6bmV3KCk7CiAgICBsZXQgbXV0IHNlZW4gPSBCVHJlZVNldDo6bmV3KCk7CiAgICBmb3IgaXRlbSBpbiB2YWx1ZSB7CiAgICAgICAgbGV0IFNvbWUob2JqZWN0KSA9IGl0ZW0uYXNfb2JqZWN0KCkgZWxzZSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH07CiAgICAgICAgbGV0IHByb3ZpbmNlID0ganNfcmVnaW9uX3N0cmluZyhvYmplY3QuZ2V0KCJwcm92aW5jZSIpKS50cmltKCkudG9fc3RyaW5nKCk7CiAgICAgICAgaWYgcHJvdmluY2UuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBsZXQgcXVlcnlfY2l0eSA9IGpzX3JlZ2lvbl9zdHJpbmcob2JqZWN0LmdldCgicXVlcnlfY2l0eSIpKQogICAgICAgICAgICAudHJpbSgpCiAgICAgICAgICAgIC50b19zdHJpbmcoKTsKICAgICAgICBsZXQgcXVlcnlfY2l0eSA9ICghcXVlcnlfY2l0eS5pc19lbXB0eSgpKS50aGVuX3NvbWUocXVlcnlfY2l0eSk7CiAgICAgICAgbGV0IG9wZXJhdG9yID0gQ2lkck9wZXJhdG9yOjpwYXJzZV92YWx1ZShvYmplY3QuZ2V0KCJvcGVyYXRvciIpKT87CiAgICAgICAgbGV0IGtleSA9IENpZHJSZWdpb25RdWVyeTo6bmV3KHByb3ZpbmNlLmNsb25lKCksIHF1ZXJ5X2NpdHkuY2xvbmUoKSwgb3BlcmF0b3IpLmtleSgpOwogICAgICAgIGlmIHNlZW4uaW5zZXJ0KGtleSkgewogICAgICAgICAgICByZXN1bHQucHVzaChXaGl0ZWxpc3RSZWdpb25JbnB1dCB7CiAgICAgICAgICAgICAgICBwcm92aW5jZSwKICAgICAgICAgICAgICAgIHF1ZXJ5X2NpdHksCiAgICAgICAgICAgICAgICBvcGVyYXRvciwKICAgICAgICAgICAgfSk7CiAgICAgICAgfQogICAgfQogICAgT2socmVzdWx0KQp9CgpmbiBqc19yZWdpb25fc3RyaW5nKHZhbHVlOiBPcHRpb248JlZhbHVlPikgLT4gU3RyaW5nIHsKICAgIG1hdGNoIHZhbHVlIHsKICAgICAgICBOb25lIHwgU29tZShWYWx1ZTo6TnVsbCkgPT4gU3RyaW5nOjpuZXcoKSwKICAgICAgICBTb21lKFZhbHVlOjpTdHJpbmcodmFsdWUpKSA9PiB2YWx1ZS5jbG9uZSgpLAogICAgICAgIFNvbWUoVmFsdWU6OkJvb2wodmFsdWUpKSA9PiB2YWx1ZS50b19zdHJpbmcoKSwKICAgICAgICBTb21lKFZhbHVlOjpOdW1iZXIodmFsdWUpKSA9PiB2YWx1ZS50b19zdHJpbmcoKSwKICAgICAgICBTb21lKFZhbHVlOjpBcnJheShpdGVtcykpID0+IGl0ZW1zCiAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgLm1hcCh8aXRlbXwganNfcmVnaW9uX3N0cmluZyhTb21lKGl0ZW0pKSkKICAgICAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCkKICAgICAgICAgICAgLmpvaW4oIiwiKSwKICAgICAgICBTb21lKFZhbHVlOjpPYmplY3QoXykpID0+ICJbb2JqZWN0IE9iamVjdF0iLnRvX3N0cmluZygpLAogICAgfQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHJlc29sdmVfd2hpdGVsaXN0X3JlZ2lvbl9wb2xpY3koCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgcmVnaW9uczogJltXaGl0ZWxpc3RSZWdpb25JbnB1dF0sCikgLT4gUmVzdWx0PENvbXBpbGVkSXBTZXQsIFdoaXRlbGlzdFJlZ2lvblJlc29sdmVFcnJvcj4gewogICAgbGV0IG11dCBwb2xpY2llcyA9IFZlYzo6bmV3KCk7CiAgICBmb3IgcmVnaW9uIGluIHJlZ2lvbnMgewogICAgICAgIGxldCBxdWVyeSA9IENpZHJSZWdpb25RdWVyeTo6bmV3KAogICAgICAgICAgICByZWdpb24ucHJvdmluY2UuY2xvbmUoKSwKICAgICAgICAgICAgcmVnaW9uLnF1ZXJ5X2NpdHkuY2xvbmUoKSwKICAgICAgICAgICAgcmVnaW9uLm9wZXJhdG9yLAogICAgICAgICk7CiAgICAgICAgbGV0IGxvb2t1cCA9IGNyYXRlOjpjaWRyOjpsb29rdXBfcmVnaW9uKHN0YXRlLCAmcXVlcnkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IFdoaXRlbGlzdFJlZ2lvblJlc29sdmVFcnJvcjo6TG9va3VwKGVycm9yLnRvX3N0cmluZygpKSk/OwogICAgICAgIHBvbGljaWVzLnB1c2gobG9va3VwLnBvbGljeSk7CiAgICB9CiAgICBsZXQgcG9saWN5ID0gY3JhdGU6OmNpZHI6OnVuaW9uX2lwX3NldHMocG9saWNpZXMuaXRlcigpKTsKICAgIGlmIHBvbGljeS5yYW5nZV9jb3VudCgpID09IDAgewogICAgICAgIHJldHVybiBFcnIoV2hpdGVsaXN0UmVnaW9uUmVzb2x2ZUVycm9yOjpFbXB0eSk7CiAgICB9CiAgICBPayhwb2xpY3kpCn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX3RhcmdldCgKICAgIHZhbHVlOiAmc3RyLAogICAgc291cmNlOiAmc3RyLAogICAgdGFyZ2V0X3R5cGU6IE9wdGlvbjwmc3RyPiwKKSAtPiBSZXN1bHQ8KFN0cmluZywgU3RyaW5nKSwgJidzdGF0aWMgc3RyPiB7CiAgICBsZXQgaW5mZXJyZWQgPSBtYXRjaCB0YXJnZXRfdHlwZSB7CiAgICAgICAgU29tZSgiaXAiKSA9PiBTb21lKCJpcCIpLAogICAgICAgIFNvbWUoImNpZHIiKSA9PiBTb21lKCJjaWRyIiksCiAgICAgICAgU29tZSgiY25hbWUiKSA9PiBTb21lKCJjbmFtZSIpLAogICAgICAgIF8gPT4gaW5mZXJfdGFyZ2V0X3R5cGUodmFsdWUpLAogICAgfQogICAgLm9rX29yKCJJbnZhbGlkIHdoaXRlbGlzdCB0YXJnZXQgZm9ybWF0Iik/OwoKICAgIGlmIHNvdXJjZSA9PSAiYXV0byIgJiYgaW5mZXJyZWQgIT0gImlwIiB7CiAgICAgICAgcmV0dXJuIEVycigiQXV0b21hdGljIHdoaXRlbGlzdCBncmFudHMgb25seSBzdXBwb3J0IElQIHRhcmdldHMiKTsKICAgIH0KCiAgICBsZXQgdGFyZ2V0ID0gbWF0Y2ggaW5mZXJyZWQgewogICAgICAgICJjaWRyIiA9PiBub3JtYWxpemVfY2lkcih2YWx1ZSksCiAgICAgICAgImNuYW1lIiA9PiBub3JtYWxpemVfZG9tYWluKHZhbHVlKSwKICAgICAgICBfID0+IHsKICAgICAgICAgICAgbGV0IG5vcm1hbGl6ZWQgPSBub3JtYWxpemVfaXAodmFsdWUpOwogICAgICAgICAgICAoIW5vcm1hbGl6ZWQuaXNfZW1wdHkoKSkudGhlbl9zb21lKG5vcm1hbGl6ZWQpCiAgICAgICAgfQogICAgfQogICAgLm9rX29yKG1hdGNoIGluZmVycmVkIHsKICAgICAgICAiY2lkciIgPT4gIkludmFsaWQgd2hpdGVsaXN0IENJRFIiLAogICAgICAgICJjbmFtZSIgPT4gIkludmFsaWQgd2hpdGVsaXN0IGRvbWFpbiIsCiAgICAgICAgXyA9PiAiSW52YWxpZCB3aGl0ZWxpc3QgSVAiLAogICAgfSk/OwoKICAgIE9rKCh0YXJnZXQsIGluZmVycmVkLnRvX3N0cmluZygpKSkKfQoKZm4gaW5mZXJfdGFyZ2V0X3R5cGUodmFsdWU6ICZzdHIpIC0+IE9wdGlvbjwmJ3N0YXRpYyBzdHI+IHsKICAgIGlmIG5vcm1hbGl6ZV9jaWRyKHZhbHVlKS5pc19zb21lKCkgewogICAgICAgIHJldHVybiBTb21lKCJjaWRyIik7CiAgICB9CiAgICBpZiAhbm9ybWFsaXplX2lwKHZhbHVlKS5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gU29tZSgiaXAiKTsKICAgIH0KICAgIGlmIG5vcm1hbGl6ZV9kb21haW4odmFsdWUpLmlzX3NvbWUoKSB7CiAgICAgICAgcmV0dXJuIFNvbWUoImNuYW1lIik7CiAgICB9CiAgICBOb25lCn0KCmZuIG5vcm1hbGl6ZV9jaWRyKHZhbHVlOiAmc3RyKSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBsZXQgcGFyc2VkID0gSXBOZXQ6OmZyb21fc3RyKHZhbHVlLnRyaW0oKSkub2soKT87CiAgICBTb21lKG1hdGNoIHBhcnNlZCB7CiAgICAgICAgSXBOZXQ6OlY0KG5ldHdvcmspID0+IGZvcm1hdCEoInt9L3t9IiwgbmV0d29yay5uZXR3b3JrKCksIG5ldHdvcmsucHJlZml4X2xlbigpKSwKICAgICAgICBJcE5ldDo6VjYobmV0d29yaykgPT4gZm9ybWF0ISgie30ve30iLCBuZXR3b3JrLm5ldHdvcmsoKSwgbmV0d29yay5wcmVmaXhfbGVuKCkpLAogICAgfSkKfQoKZm4gbm9ybWFsaXplX2RvbWFpbih2YWx1ZTogJnN0cikgLT4gT3B0aW9uPFN0cmluZz4gewogICAgbGV0IHRyaW1tZWQgPSB2YWx1ZS50cmltKCkudHJpbV9lbmRfbWF0Y2hlcygnLicpLnRvX2FzY2lpX2xvd2VyY2FzZSgpOwogICAgaWYgdHJpbW1lZC5pc19lbXB0eSgpIHx8IHRyaW1tZWQuY29udGFpbnMoJy8nKSB8fCB0cmltbWVkLmNvbnRhaW5zKCIuLiIpIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIGxldCBhc2NpaSA9IGlkbmE6OmRvbWFpbl90b19hc2NpaSgmdHJpbW1lZCkub2soKT87CiAgICBpZiBhc2NpaS5pc19lbXB0eSgpIHx8IGFzY2lpLmxlbigpID4gMjUzIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIGxldCBsYWJlbHMgPSBhc2NpaS5zcGxpdCgnLicpLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBpZiBsYWJlbHMubGVuKCkgPCAyIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIGZvciBsYWJlbCBpbiBsYWJlbHMgewogICAgICAgIGlmIGxhYmVsLmlzX2VtcHR5KCkKICAgICAgICAgICAgfHwgbGFiZWwubGVuKCkgPiA2MwogICAgICAgICAgICB8fCBsYWJlbC5zdGFydHNfd2l0aCgnLScpCiAgICAgICAgICAgIHx8IGxhYmVsLmVuZHNfd2l0aCgnLScpCiAgICAgICAgICAgIHx8ICFsYWJlbAogICAgICAgICAgICAgICAgLmNoYXJzKCkKICAgICAgICAgICAgICAgIC5hbGwofGNoYXJhY3RlcnwgY2hhcmFjdGVyLmlzX2FzY2lpX2FscGhhbnVtZXJpYygpIHx8IGNoYXJhY3RlciA9PSAnLScpCiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICB9CiAgICB9CiAgICBTb21lKGFzY2lpKQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9jbmFtZV9jaGVja19pbnRlcnZhbCh2YWx1ZTogT3B0aW9uPGk2ND4pIC0+IGk2NCB7CiAgICB2YWx1ZS51bndyYXBfb3IoREVGQVVMVF9DTkFNRV9DSEVDS19JTlRFUlZBTF9NSU5VVEVTKS5jbGFtcCgKICAgICAgICBNSU5fQ05BTUVfQ0hFQ0tfSU5URVJWQUxfTUlOVVRFUywKICAgICAgICBNQVhfQ05BTUVfQ0hFQ0tfSU5URVJWQUxfTUlOVVRFUywKICAgICkKfQoKcHViKHN1cGVyKSBmbiBkaWZmX3RhcmdldHMoCiAgICBsZWZ0OiAmW1doaXRlbGlzdENvbmNyZXRlVGFyZ2V0XSwKICAgIHJpZ2h0OiAmW1doaXRlbGlzdENvbmNyZXRlVGFyZ2V0XSwKKSAtPiBWZWM8V2hpdGVsaXN0Q29uY3JldGVUYXJnZXQ+IHsKICAgIGxlZnQuaXRlcigpCiAgICAgICAgLmZpbHRlcih8Y2FuZGlkYXRlfCB7CiAgICAgICAgICAgICFyaWdodC5pdGVyKCkuYW55KHxvdGhlcnwgewogICAgICAgICAgICAgICAgb3RoZXIudGFyZ2V0ID09IGNhbmRpZGF0ZS50YXJnZXQgJiYgb3RoZXIudGFyZ2V0X3R5cGUgPT0gY2FuZGlkYXRlLnRhcmdldF90eXBlCiAgICAgICAgICAgIH0pCiAgICAgICAgfSkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAuY29sbGVjdCgpCn0K
+use std::{collections::BTreeSet, str::FromStr};
+
+use ipnet::IpNet;
+use serde_json::Value;
+use sha2::{Digest, Sha256};
+
+use crate::{
+    cidr::{CidrOperator, CidrRegionQuery, CompiledIpSet},
+    http_utils::normalize_ip,
+    state::AppState,
+    store::{WhitelistConcreteTarget, WhitelistRegionInput},
+};
+
+const DEFAULT_CNAME_CHECK_INTERVAL_MINUTES: i64 = 5;
+const MIN_CNAME_CHECK_INTERVAL_MINUTES: i64 = 1;
+const MAX_CNAME_CHECK_INTERVAL_MINUTES: i64 = 24 * 60;
+
+pub(crate) fn whitelist_auto_owner_record_key(owner_key: &str) -> String {
+    let mut hasher = Sha256::new();
+    hasher.update(owner_key.trim());
+    format!(
+        "fn_knock:whitelist:auto_owner:{}",
+        hex::encode(hasher.finalize())
+    )
+}
+
+pub(super) fn normalize_source(value: Option<&str>) -> String {
+    if value == Some("auto") {
+        "auto".to_string()
+    } else {
+        "manual".to_string()
+    }
+}
+
+#[derive(Debug)]
+pub(super) enum WhitelistRegionResolveError {
+    Empty,
+    Lookup(String),
+}
+
+pub(super) fn normalize_whitelist_region_inputs(
+    value: &[Value],
+) -> Result<Vec<WhitelistRegionInput>, String> {
+    let mut result = Vec::new();
+    let mut seen = BTreeSet::new();
+    for item in value {
+        let Some(object) = item.as_object() else {
+            continue;
+        };
+        let province = js_region_string(object.get("province")).trim().to_string();
+        if province.is_empty() {
+            continue;
+        }
+        let query_city = js_region_string(object.get("query_city"))
+            .trim()
+            .to_string();
+        let query_city = (!query_city.is_empty()).then_some(query_city);
+        let operator = CidrOperator::parse_value(object.get("operator"))?;
+        let key = CidrRegionQuery::new(province.clone(), query_city.clone(), operator).key();
+        if seen.insert(key) {
+            result.push(WhitelistRegionInput {
+                province,
+                query_city,
+                operator,
+            });
+        }
+    }
+    Ok(result)
+}
+
+fn js_region_string(value: Option<&Value>) -> String {
+    match value {
+        None | Some(Value::Null) => String::new(),
+        Some(Value::String(value)) => value.clone(),
+        Some(Value::Bool(value)) => value.to_string(),
+        Some(Value::Number(value)) => value.to_string(),
+        Some(Value::Array(items)) => items
+            .iter()
+            .map(|item| js_region_string(Some(item)))
+            .collect::<Vec<_>>()
+            .join(","),
+        Some(Value::Object(_)) => "[object Object]".to_string(),
+    }
+}
+
+pub(super) async fn resolve_whitelist_region_policy(
+    state: &AppState,
+    regions: &[WhitelistRegionInput],
+) -> Result<CompiledIpSet, WhitelistRegionResolveError> {
+    let mut policies = Vec::new();
+    for region in regions {
+        let query = CidrRegionQuery::new(
+            region.province.clone(),
+            region.query_city.clone(),
+            region.operator,
+        );
+        let lookup = crate::cidr::lookup_region(state, &query)
+            .await
+            .map_err(|error| WhitelistRegionResolveError::Lookup(error.to_string()))?;
+        policies.push(lookup.policy);
+    }
+    let policy = crate::cidr::union_ip_sets(policies.iter());
+    if policy.range_count() == 0 {
+        return Err(WhitelistRegionResolveError::Empty);
+    }
+    Ok(policy)
+}
+
+pub(super) fn normalize_target(
+    value: &str,
+    source: &str,
+    target_type: Option<&str>,
+) -> Result<(String, String), &'static str> {
+    let inferred = match target_type {
+        Some("ip") => Some("ip"),
+        Some("cidr") => Some("cidr"),
+        Some("cname") => Some("cname"),
+        _ => infer_target_type(value),
+    }
+    .ok_or("Invalid whitelist target format")?;
+
+    if source == "auto" && inferred != "ip" {
+        return Err("Automatic whitelist grants only support IP targets");
+    }
+
+    let target = match inferred {
+        "cidr" => normalize_cidr(value),
+        "cname" => normalize_domain(value),
+        _ => {
+            let normalized = normalize_ip(value);
+            (!normalized.is_empty()).then_some(normalized)
+        }
+    }
+    .ok_or(match inferred {
+        "cidr" => "Invalid whitelist CIDR",
+        "cname" => "Invalid whitelist domain",
+        _ => "Invalid whitelist IP",
+    })?;
+
+    Ok((target, inferred.to_string()))
+}
+
+fn infer_target_type(value: &str) -> Option<&'static str> {
+    if normalize_cidr(value).is_some() {
+        return Some("cidr");
+    }
+    if !normalize_ip(value).is_empty() {
+        return Some("ip");
+    }
+    if normalize_domain(value).is_some() {
+        return Some("cname");
+    }
+    None
+}
+
+fn normalize_cidr(value: &str) -> Option<String> {
+    let parsed = IpNet::from_str(value.trim()).ok()?;
+    Some(match parsed {
+        IpNet::V4(network) => format!("{}/{}", network.network(), network.prefix_len()),
+        IpNet::V6(network) => format!("{}/{}", network.network(), network.prefix_len()),
+    })
+}
+
+fn normalize_domain(value: &str) -> Option<String> {
+    let trimmed = value.trim().trim_end_matches('.').to_ascii_lowercase();
+    if trimmed.is_empty() || trimmed.contains('/') || trimmed.contains("..") {
+        return None;
+    }
+    let ascii = idna::domain_to_ascii(&trimmed).ok()?;
+    if ascii.is_empty() || ascii.len() > 253 {
+        return None;
+    }
+    let labels = ascii.split('.').collect::<Vec<_>>();
+    if labels.len() < 2 {
+        return None;
+    }
+    for label in labels {
+        if label.is_empty()
+            || label.len() > 63
+            || label.starts_with('-')
+            || label.ends_with('-')
+            || !label
+                .chars()
+                .all(|character| character.is_ascii_alphanumeric() || character == '-')
+        {
+            return None;
+        }
+    }
+    Some(ascii)
+}
+
+pub(super) fn normalize_cname_check_interval(value: Option<i64>) -> i64 {
+    value.unwrap_or(DEFAULT_CNAME_CHECK_INTERVAL_MINUTES).clamp(
+        MIN_CNAME_CHECK_INTERVAL_MINUTES,
+        MAX_CNAME_CHECK_INTERVAL_MINUTES,
+    )
+}
+
+pub(super) fn diff_targets(
+    left: &[WhitelistConcreteTarget],
+    right: &[WhitelistConcreteTarget],
+) -> Vec<WhitelistConcreteTarget> {
+    left.iter()
+        .filter(|candidate| {
+            !right.iter().any(|other| {
+                other.target == candidate.target && other.target_type == candidate.target_type
+            })
+        })
+        .cloned()
+        .collect()
+}

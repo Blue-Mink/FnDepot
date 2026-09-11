@@ -1,1 +1,108 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgp0eXBlIE9wZXJhdGlvbiA9IHsKICAieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiPzogc3RyaW5nOwogIHBhcmFtZXRlcnM/OiBBcnJheTx7IG5hbWU/OiBzdHJpbmcgfT47Cn07Cgpjb25zdCBjb250cmFjdCA9IEpTT04ucGFyc2UoCiAgcmVhZFNvdXJjZSgiLi4vLi4vLi4vcGFja2FnZXMvYXBpLWNvbnRyYWN0L29wZW5hcGkuanNvbiIpLAopIGFzIHsKICBwYXRoczogUmVjb3JkPHN0cmluZywgUmVjb3JkPHN0cmluZywgT3BlcmF0aW9uPj47Cn07CgpkZXNjcmliZSgiV2ViIHRlcm1pbmFsIEFQSSBjb250cmFjdCIsICgpID0+IHsKICBpdCgicHVibGlzaGVzIGxvY2FsLCBTU0ggdGFyZ2V0LCBzZXNzaW9uLCBhbmQgYXR0YWNobWVudCBvcGVyYXRpb25zIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBbbWV0aG9kLCBwYXRoXSBvZiBbCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vdGVybWluYWwvc2V0dGluZ3MiXSwKICAgICAgWyJwYXRjaCIsICIvYXBpL2FkbWluL3Rlcm1pbmFsL3NldHRpbmdzIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vdGVybWluYWwvbG9jYWwiXSwKICAgICAgWyJwYXRjaCIsICIvYXBpL2FkbWluL3Rlcm1pbmFsL2xvY2FsIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3Rlcm1pbmFsL2xvY2FsL3Nlc3Npb25zIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vdGVybWluYWwvdGFyZ2V0cyJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi90ZXJtaW5hbC90YXJnZXRzIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vdGVybWluYWwvdGFyZ2V0cy97aWR9Il0sCiAgICAgIFsicGF0Y2giLCAiL2FwaS9hZG1pbi90ZXJtaW5hbC90YXJnZXRzL3tpZH0iXSwKICAgICAgWyJkZWxldGUiLCAiL2FwaS9hZG1pbi90ZXJtaW5hbC90YXJnZXRzL3tpZH0iXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vdGVybWluYWwvdGFyZ2V0cy9wcm9iZS1ob3N0LWtleSJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi90ZXJtaW5hbC90YXJnZXRzL3Rlc3QtY29ubmVjdGlvbiJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL3Rlcm1pbmFsL3Nlc3Npb25zIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3Rlcm1pbmFsL3RhcmdldHMve2lkfS9zZXNzaW9ucyJdLAogICAgICBbInBhdGNoIiwgIi9hcGkvYWRtaW4vdGVybWluYWwvc2Vzc2lvbnMve2lkfSJdLAogICAgICBbImRlbGV0ZSIsICIvYXBpL2FkbWluL3Rlcm1pbmFsL3Nlc3Npb25zL3tpZH0iXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vdGVybWluYWwvc2Vzc2lvbnMve2lkfS9hdHRhY2htZW50cyJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL3Rlcm1pbmFsL2F0dGFjaG1lbnRzL3tpZH0vZXZlbnRzIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3Rlcm1pbmFsL2F0dGFjaG1lbnRzL3tpZH0vaW5wdXQiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vdGVybWluYWwvYXR0YWNobWVudHMve2lkfS9yZXNpemUiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vdGVybWluYWwvYXR0YWNobWVudHMve2lkfS9jb250cm9sIl0sCiAgICAgIFsiZGVsZXRlIiwgIi9hcGkvYWRtaW4vdGVybWluYWwvYXR0YWNobWVudHMve2lkfSJdLAogICAgXSBhcyBjb25zdCkgewogICAgICBhc3NlcnQuZXF1YWwoCiAgICAgICAgY29udHJhY3QucGF0aHNbcGF0aF0/LlttZXRob2RdPy5bIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIl0sCiAgICAgICAgInV0b2lwYSIsCiAgICAgICAgYCR7bWV0aG9kLnRvVXBwZXJDYXNlKCl9ICR7cGF0aH1gLAogICAgICApOwogICAgfQogIH0pOwoKICBpdCgia2VlcHMgZm9yY2UgYW5kIGxvbmctcG9sbCBxdWVyaWVzIHR5cGVkIiwgKCkgPT4gewogICAgY29uc3QgbG9jYWxQYXJhbWV0ZXJzID0KICAgICAgY29udHJhY3QucGF0aHNbIi9hcGkvYWRtaW4vdGVybWluYWwvbG9jYWwiXT8ucGF0Y2g/LnBhcmFtZXRlcnMgPz8gW107CiAgICBhc3NlcnQub2sobG9jYWxQYXJhbWV0ZXJzLnNvbWUoKHBhcmFtZXRlcikgPT4gcGFyYW1ldGVyLm5hbWUgPT09ICJmb3JjZSIpKTsKICAgIGFzc2VydC5vaygKICAgICAgbG9jYWxQYXJhbWV0ZXJzLnNvbWUoCiAgICAgICAgKHBhcmFtZXRlcikgPT4gcGFyYW1ldGVyLm5hbWUgPT09ICJjb25maXJtYXRpb25Ub2tlbiIsCiAgICAgICksCiAgICApOwogICAgZm9yIChjb25zdCBtZXRob2Qgb2YgWyJwYXRjaCIsICJkZWxldGUiXSBhcyBjb25zdCkgewogICAgICBjb25zdCBwYXJhbWV0ZXJzID0KICAgICAgICBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi90ZXJtaW5hbC90YXJnZXRzL3tpZH0iXT8uW21ldGhvZF0KICAgICAgICAgID8ucGFyYW1ldGVycyA/PyBbXTsKICAgICAgYXNzZXJ0Lm9rKHBhcmFtZXRlcnMuc29tZSgocGFyYW1ldGVyKSA9PiBwYXJhbWV0ZXIubmFtZSA9PT0gImZvcmNlIikpOwogICAgICBhc3NlcnQub2soCiAgICAgICAgcGFyYW1ldGVycy5zb21lKChwYXJhbWV0ZXIpID0+IHBhcmFtZXRlci5uYW1lID09PSAiY29uZmlybWF0aW9uVG9rZW4iKSwKICAgICAgKTsKICAgIH0KICAgIGFzc2VydC5vaygKICAgICAgY29udHJhY3QucGF0aHNbCiAgICAgICAgIi9hcGkvYWRtaW4vdGVybWluYWwvdGFyZ2V0cy97aWR9IgogICAgICBdPy5kZWxldGU/LnBhcmFtZXRlcnM/LnNvbWUoKHBhcmFtZXRlcikgPT4gcGFyYW1ldGVyLm5hbWUgPT09ICJyZXZpc2lvbiIpLAogICAgKTsKICAgIGNvbnN0IGV2ZW50cyA9CiAgICAgIGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL3Rlcm1pbmFsL2F0dGFjaG1lbnRzL3tpZH0vZXZlbnRzIl0/LmdldDsKICAgIGFzc2VydC5vaygKICAgICAgZXZlbnRzPy5wYXJhbWV0ZXJzPy5zb21lKChwYXJhbWV0ZXIpID0+IHBhcmFtZXRlci5uYW1lID09PSAiYWZ0ZXIiKSwKICAgICk7CiAgICBhc3NlcnQub2soCiAgICAgIGV2ZW50cz8ucGFyYW1ldGVycz8uc29tZSgocGFyYW1ldGVyKSA9PiBwYXJhbWV0ZXIubmFtZSA9PT0gInRpbWVvdXRNcyIpLAogICAgKTsKICB9KTsKCiAgaXQoImtlZXBzIHRoZSBuZXcgbG9jYWwgUFRZIEFQSSB3aGlsZSByZW1vdmluZyB0bXV4IGFuZCBsZWdhY3kgcG9sbGluZyBlbmRwb2ludHMiLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IHBhdGggb2YgWwogICAgICAiL2FwaS9hZG1pbi90ZXJtaW5hbC9zdGF0dXMiLAogICAgICAiL2FwaS9hZG1pbi90ZXJtaW5hbC90bXV4L2luc3RhbGwiLAogICAgICAiL2FwaS9hZG1pbi90ZXJtaW5hbC9zZXNzaW9ucyIsCiAgICAgICIvYXBpL2FkbWluL3Rlcm1pbmFsL2F0dGFjaG1lbnRzL3tpZH0vcG9sbCIsCiAgICBdKSB7CiAgICAgIGlmIChwYXRoID09PSAiL2FwaS9hZG1pbi90ZXJtaW5hbC9zZXNzaW9ucyIpIHsKICAgICAgICBhc3NlcnQuZXF1YWwoY29udHJhY3QucGF0aHNbcGF0aF0/LnBvc3QsIHVuZGVmaW5lZCk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgYXNzZXJ0LmVxdWFsKGNvbnRyYWN0LnBhdGhzW3BhdGhdLCB1bmRlZmluZWQsIHBhdGgpOwogICAgICB9CiAgICB9CgogICAgY29uc3QgYXBpID0gcmVhZFNvdXJjZSgiLi4vc3JjL2xpYi9hcGkvdGVybWluYWwudHMiKTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goYXBpLCAvdG11eHx0ZXJtaW5hbFwvc3RhdHVzfFwvcG9sbFsiYF0vaXUpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL1wvdGVybWluYWxcL2xvY2FsL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL1wvdGVybWluYWxcL2xvY2FsXC9zZXNzaW9ucy91KTsKICAgIGFzc2VydC5tYXRjaChhcGksIC9wcm9iZS1ob3N0LWtleS91KTsKICAgIGFzc2VydC5tYXRjaChhcGksIC90ZXN0LWNvbm5lY3Rpb24vdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvXC9ldmVudHMvdSk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+type Operation = {
+  "x-fn-knock-contract-source"?: string;
+  parameters?: Array<{ name?: string }>;
+};
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  paths: Record<string, Record<string, Operation>>;
+};
+
+describe("Web terminal API contract", () => {
+  it("publishes local, SSH target, session, and attachment operations", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/terminal/settings"],
+      ["patch", "/api/admin/terminal/settings"],
+      ["get", "/api/admin/terminal/local"],
+      ["patch", "/api/admin/terminal/local"],
+      ["post", "/api/admin/terminal/local/sessions"],
+      ["get", "/api/admin/terminal/targets"],
+      ["post", "/api/admin/terminal/targets"],
+      ["get", "/api/admin/terminal/targets/{id}"],
+      ["patch", "/api/admin/terminal/targets/{id}"],
+      ["delete", "/api/admin/terminal/targets/{id}"],
+      ["post", "/api/admin/terminal/targets/probe-host-key"],
+      ["post", "/api/admin/terminal/targets/test-connection"],
+      ["get", "/api/admin/terminal/sessions"],
+      ["post", "/api/admin/terminal/targets/{id}/sessions"],
+      ["patch", "/api/admin/terminal/sessions/{id}"],
+      ["delete", "/api/admin/terminal/sessions/{id}"],
+      ["post", "/api/admin/terminal/sessions/{id}/attachments"],
+      ["get", "/api/admin/terminal/attachments/{id}/events"],
+      ["post", "/api/admin/terminal/attachments/{id}/input"],
+      ["post", "/api/admin/terminal/attachments/{id}/resize"],
+      ["post", "/api/admin/terminal/attachments/{id}/control"],
+      ["delete", "/api/admin/terminal/attachments/{id}"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("keeps force and long-poll queries typed", () => {
+    const localParameters =
+      contract.paths["/api/admin/terminal/local"]?.patch?.parameters ?? [];
+    assert.ok(localParameters.some((parameter) => parameter.name === "force"));
+    assert.ok(
+      localParameters.some(
+        (parameter) => parameter.name === "confirmationToken",
+      ),
+    );
+    for (const method of ["patch", "delete"] as const) {
+      const parameters =
+        contract.paths["/api/admin/terminal/targets/{id}"]?.[method]
+          ?.parameters ?? [];
+      assert.ok(parameters.some((parameter) => parameter.name === "force"));
+      assert.ok(
+        parameters.some((parameter) => parameter.name === "confirmationToken"),
+      );
+    }
+    assert.ok(
+      contract.paths[
+        "/api/admin/terminal/targets/{id}"
+      ]?.delete?.parameters?.some((parameter) => parameter.name === "revision"),
+    );
+    const events =
+      contract.paths["/api/admin/terminal/attachments/{id}/events"]?.get;
+    assert.ok(
+      events?.parameters?.some((parameter) => parameter.name === "after"),
+    );
+    assert.ok(
+      events?.parameters?.some((parameter) => parameter.name === "timeoutMs"),
+    );
+  });
+
+  it("keeps the new local PTY API while removing tmux and legacy polling endpoints", () => {
+    for (const path of [
+      "/api/admin/terminal/status",
+      "/api/admin/terminal/tmux/install",
+      "/api/admin/terminal/sessions",
+      "/api/admin/terminal/attachments/{id}/poll",
+    ]) {
+      if (path === "/api/admin/terminal/sessions") {
+        assert.equal(contract.paths[path]?.post, undefined);
+      } else {
+        assert.equal(contract.paths[path], undefined, path);
+      }
+    }
+
+    const api = readSource("../src/lib/api/terminal.ts");
+    assert.doesNotMatch(api, /tmux|terminal\/status|\/poll["`]/iu);
+    assert.match(api, /\/terminal\/local/u);
+    assert.match(api, /\/terminal\/local\/sessions/u);
+    assert.match(api, /probe-host-key/u);
+    assert.match(api, /test-connection/u);
+    assert.match(api, /\/events/u);
+  });
+});

@@ -1,1 +1,503 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiBiaW5kKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBoZWFkZXJzOiBIZWFkZXJNYXAsCiAgICB1cmk6IFVyaSwKICAgIFF1ZXJ5KHF1ZXJ5KTogUXVlcnk8QmluZFF1ZXJ5PiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgY29uZmlnID0gbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQgewogICAgICAgIE9rKGNvbmZpZykgPT4gY29uZmlnLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgY29uZmlnIGZvciBPSURDIGJpbmQiKTsKICAgICAgICAgICAgcmV0dXJuIGJpbmRfaHRtbF9yZXNwb25zZSgKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgICZvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJiaW5kRmFpbGVkVGl0bGUiKSwKICAgICAgICAgICAgICAgICZvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJsb2FkQ29uZmlnRmFpbGVkIiksCiAgICAgICAgICAgICAgICBERUZBVUxUX0xPQ0FMRSwKICAgICAgICAgICAgICAgIE5vbmUsCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfTsKICAgIGxldCB0cmFuc2xhdG9yID0gdHJhbnNsYXRvcl9mcm9tX2NvbmZpZygmY29uZmlnKTsKICAgIGxldCBsb2NhbGUgPSBsb2NhbGVfY29kZSgmY29uZmlnKTsKICAgIGlmIGxldCBFcnIobWVzc2FnZSkgPSBlbnN1cmVfb2lkY19sb2dpbl9tb2RlKCZzdGF0ZSwgJnRyYW5zbGF0b3IpLmF3YWl0IHsKICAgICAgICByZXR1cm4gYmluZF9odG1sX3Jlc3BvbnNlKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwKICAgICAgICAgICAgJm9pZGNfdGV4dCgmdHJhbnNsYXRvciwgImJpbmRGYWlsZWRUaXRsZSIpLAogICAgICAgICAgICAmbWVzc2FnZSwKICAgICAgICAgICAgJmxvY2FsZSwKICAgICAgICAgICAgTm9uZSwKICAgICAgICApOwogICAgfQogICAgbGV0IHRva2VuID0gcXVlcnkudG9rZW4uYXNfZGVyZWYoKS5tYXAoc3RyOjp0cmltKS51bndyYXBfb3IoIiIpOwogICAgaWYgdG9rZW4uaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIGJpbmRfaHRtbF9yZXNwb25zZSgKICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgICAgICZvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJpbnZpdGVJbnZhbGlkIiksCiAgICAgICAgICAgICZvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJsaW5rTWlzc2luZ1Rva2VuIiksCiAgICAgICAgICAgICZsb2NhbGUsCiAgICAgICAgICAgIE5vbmUsCiAgICAgICAgKTsKICAgIH0KCiAgICBsZXQgaW52aXRlID0gbWF0Y2ggb2lkY19pbnNwZWN0X2ludml0ZSgmc3RhdGUsIHRva2VuKS5hd2FpdCB7CiAgICAgICAgT2soU29tZShpbnZpdGUpKSA9PiBpbnZpdGUsCiAgICAgICAgT2soTm9uZSkgPT4gewogICAgICAgICAgICByZXR1cm4gYmluZF9odG1sX3Jlc3BvbnNlKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6Tk9UX0ZPVU5ELAogICAgICAgICAgICAgICAgJm9pZGNfdGV4dCgmdHJhbnNsYXRvciwgImludml0ZUV4cGlyZWQiKSwKICAgICAgICAgICAgICAgICZvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJpbnZpdGVNaXNzaW5nRXhwaXJlZFVzZWQiKSwKICAgICAgICAgICAgICAgICZsb2NhbGUsCiAgICAgICAgICAgICAgICBOb25lLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGluc3BlY3QgT0lEQyBpbnZpdGUgYmVmb3JlIGJpbmQiKTsKICAgICAgICAgICAgcmV0dXJuIGJpbmRfaHRtbF9yZXNwb25zZSgKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgICZvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJiaW5kRmFpbGVkVGl0bGUiKSwKICAgICAgICAgICAgICAgICZvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJiaW5kU3RhcnRGYWlsZWQiKSwKICAgICAgICAgICAgICAgICZsb2NhbGUsCiAgICAgICAgICAgICAgICBOb25lLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH07CiAgICBsZXQgcHJvdmlkZXJzID0gaW52aXRlCiAgICAgICAgLmdldCgicHJvdmlkZXJzIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5jbG9uZWQoKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgaWYgcHJvdmlkZXJzLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBiaW5kX2h0bWxfcmVzcG9uc2UoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6Ok5PVF9GT1VORCwKICAgICAgICAgICAgJm9pZGNfdGV4dCgmdHJhbnNsYXRvciwgIm5vUHJvdmlkZXJzVGl0bGUiKSwKICAgICAgICAgICAgJm9pZGNfdGV4dCgmdHJhbnNsYXRvciwgIm5vUHJvdmlkZXJzQm9keSIpLAogICAgICAgICAgICAmbG9jYWxlLAogICAgICAgICAgICBOb25lLAogICAgICAgICk7CiAgICB9CiAgICBsZXQgc2VsZWN0ZWRfcHJvdmlkZXIgPSBxdWVyeQogICAgICAgIC5wcm92aWRlcl9pZAogICAgICAgIC5hc19kZXJlZigpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIC5vcl9lbHNlKHx8IGludml0ZS5nZXQoInByb3ZpZGVyX2lkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpCiAgICAgICAgLm9yX2Vsc2UofHwgewogICAgICAgICAgICAocHJvdmlkZXJzLmxlbigpID09IDEpLnRoZW4ofHwgcHJvdmlkZXJzWzBdLmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSk/CiAgICAgICAgfSk7CiAgICBsZXQgU29tZShwcm92aWRlcl9pZCkgPSBzZWxlY3RlZF9wcm92aWRlciBlbHNlIHsKICAgICAgICByZXR1cm4gYmluZF9wcm92aWRlcl9zZWxlY3Rpb25fcmVzcG9uc2UoCiAgICAgICAgICAgICZ1cmksCiAgICAgICAgICAgIHRva2VuLAogICAgICAgICAgICAmaW52aXRlLAogICAgICAgICAgICAmcHJvdmlkZXJzLAogICAgICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAgICAgJmxvY2FsZSwKICAgICAgICApOwogICAgfTsKCiAgICBtYXRjaCBidWlsZF9hdXRob3JpemF0aW9uX3VybCgKICAgICAgICAmc3RhdGUsCiAgICAgICAgJmhlYWRlcnMsCiAgICAgICAgJnVyaSwKICAgICAgICAmY29uZmlnLAogICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgIHByb3ZpZGVyX2lkLAogICAgICAgICJiaW5kIiwKICAgICAgICBOb25lLAogICAgICAgIFNvbWUodG9rZW4pLAogICAgICAgIGZhbHNlLAogICAgKQogICAgLmF3YWl0CiAgICB7CiAgICAgICAgT2socmVzdWx0KSA9PiB7CiAgICAgICAgICAgIGxldCBkb21haW4gPSByZXNvbHZlX2Nvb2tpZV9kb21haW4oJmNvbmZpZywgJmhlYWRlcnMpOwogICAgICAgICAgICBsZXQgcGF0aCA9IHJlc29sdmVfb2lkY19jb29raWVfcGF0aCgmY29uZmlnLCAmaGVhZGVycywgdXJpLnBhdGgoKSk7CiAgICAgICAgICAgIHJlZGlyZWN0X3Jlc3BvbnNlKAogICAgICAgICAgICAgICAgJnJlc3VsdC5hdXRob3JpemF0aW9uX3VybCwKICAgICAgICAgICAgICAgIHZlYyFbY29va2llczo6b2lkY19mbG93X2Nvb2tpZSgKICAgICAgICAgICAgICAgICAgICAmcmVzdWx0LmZsb3dfdG9rZW4sCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0Lm1heF9hZ2UgYXMgaTY0LAogICAgICAgICAgICAgICAgICAgIGRvbWFpbi5hc19kZXJlZigpLAogICAgICAgICAgICAgICAgICAgICZwYXRoLAogICAgICAgICAgICAgICAgKV0sCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgRXJyKGVycm9yKSA9PiBiaW5kX2h0bWxfcmVzcG9uc2UoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgICAgICAmb2lkY190ZXh0KCZ0cmFuc2xhdG9yLCAiYmluZEZhaWxlZFRpdGxlIiksCiAgICAgICAgICAgICZlcnJvciwKICAgICAgICAgICAgJmxvY2FsZSwKICAgICAgICAgICAgTm9uZSwKICAgICAgICApLAogICAgfQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHN0YXJ0KAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBoZWFkZXJzOiBIZWFkZXJNYXAsCiAgICB1cmk6IFVyaSwKICAgIEpzb24oYm9keSk6IEpzb248U3RhcnRCb2R5PiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgY29uZmlnID0gbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQgewogICAgICAgIE9rKGNvbmZpZykgPT4gY29uZmlnLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgY29uZmlnIGJlZm9yZSBPSURDIHN0YXJ0Iik7CiAgICAgICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICBvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJsb2FkQ29uZmlnRmFpbGVkIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfTsKICAgIGxldCB0cmFuc2xhdG9yID0gdHJhbnNsYXRvcl9mcm9tX2NvbmZpZygmY29uZmlnKTsKICAgIGxldCBtb2RlID0gbWF0Y2ggYm9keS5tb2RlLmFzX2RlcmVmKCkudW53cmFwX29yKCJsb2dpbiIpIHsKICAgICAgICAibG9naW4iIHwgImJpbmQiID0+IGJvZHkubW9kZS5hc19kZXJlZigpLnVud3JhcF9vcigibG9naW4iKSwKICAgICAgICBfID0+ICJsb2dpbiIsCiAgICB9OwogICAgbWF0Y2ggYnVpbGRfYXV0aG9yaXphdGlvbl91cmwoCiAgICAgICAgJnN0YXRlLAogICAgICAgICZoZWFkZXJzLAogICAgICAgICZ1cmksCiAgICAgICAgJmNvbmZpZywKICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAmYm9keS5wcm92aWRlcl9pZCwKICAgICAgICBtb2RlLAogICAgICAgIGJvZHkucmVkaXJlY3RfdXJpLmFzX2RlcmVmKCksCiAgICAgICAgYm9keS5pbnZpdGVfdG9rZW4uYXNfZGVyZWYoKSwKICAgICAgICBib2R5LnJlbWVtYmVyX21lLAogICAgKQogICAgLmF3YWl0CiAgICB7CiAgICAgICAgT2socmVzdWx0KSA9PiB7CiAgICAgICAgICAgIGxldCBkb21haW4gPSByZXNvbHZlX2Nvb2tpZV9kb21haW4oJmNvbmZpZywgJmhlYWRlcnMpOwogICAgICAgICAgICBsZXQgcGF0aCA9IHJlc29sdmVfb2lkY19jb29raWVfcGF0aCgmY29uZmlnLCAmaGVhZGVycywgdXJpLnBhdGgoKSk7CiAgICAgICAgICAgIGxldCBjb29raWUgPSBjb29raWVzOjpvaWRjX2Zsb3dfY29va2llKAogICAgICAgICAgICAgICAgJnJlc3VsdC5mbG93X3Rva2VuLAogICAgICAgICAgICAgICAgcmVzdWx0Lm1heF9hZ2UgYXMgaTY0LAogICAgICAgICAgICAgICAgZG9tYWluLmFzX2RlcmVmKCksCiAgICAgICAgICAgICAgICAmcGF0aCwKICAgICAgICAgICAgKTsKICAgICAgICAgICAgbGV0IG11dCByZXNwb25zZSA9IEpzb24oQXBpRW52ZWxvcGUgewogICAgICAgICAgICAgICAgc3VjY2VzczogdHJ1ZSwKICAgICAgICAgICAgICAgIGNvZGU6IE5vbmUsCiAgICAgICAgICAgICAgICBtZXNzYWdlOiBOb25lLAogICAgICAgICAgICAgICAgZGF0YTogU29tZShqc29uISh7ICJhdXRob3JpemF0aW9uX3VybCI6IHJlc3VsdC5hdXRob3JpemF0aW9uX3VybCB9KSksCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5pbnRvX3Jlc3BvbnNlKCk7CiAgICAgICAgICAgIGFwcGx5X25vX3N0b3JlX2hlYWRlcnMocmVzcG9uc2UuaGVhZGVyc19tdXQoKSk7CiAgICAgICAgICAgIGFwcGVuZF9zZXRfY29va2llKHJlc3BvbnNlLmhlYWRlcnNfbXV0KCksICZjb29raWUpOwogICAgICAgICAgICByZXNwb25zZQogICAgICAgIH0KICAgICAgICBFcnIoZXJyb3IpID0+IHJlc3BvbnNlOjplcnJvcihTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwgZXJyb3IpLAogICAgfQp9CgojW2F4dW06OmRlYnVnX2hhbmRsZXIoc3RhdGUgPSBBcHBTdGF0ZSldCnB1YihzdXBlcikgYXN5bmMgZm4gY2FsbGJhY2soCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIGhlYWRlcnM6IEhlYWRlck1hcCwKICAgIHVyaTogVXJpLAogICAgUGF0aChwcm92aWRlcl9pZCk6IFBhdGg8U3RyaW5nPiwKICAgIFF1ZXJ5KHF1ZXJ5KTogUXVlcnk8Q2FsbGJhY2tRdWVyeT4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IGNvbmZpZyA9IG1hdGNoIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0IHsKICAgICAgICBPayhjb25maWcpID0+IGNvbmZpZywKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBsb2FkIGNvbmZpZyBiZWZvcmUgT0lEQyBjYWxsYmFjayIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgb2lkY190ZXh0KCZ0cmFuc2xhdG9yLCAibG9hZENvbmZpZ0ZhaWxlZCIpLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH07CiAgICBsZXQgdHJhbnNsYXRvciA9IHRyYW5zbGF0b3JfZnJvbV9jb25maWcoJmNvbmZpZyk7CiAgICBsZXQgY29kZSA9IHF1ZXJ5CiAgICAgICAgLmNvZGUKICAgICAgICAuYXNfZGVyZWYoKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC5maWx0ZXIofHZ8ICF2LmlzX2VtcHR5KCkpOwogICAgbGV0IHN0YXRlX3Rva2VuID0gcXVlcnkKICAgICAgICAuc3RhdGUKICAgICAgICAuYXNfZGVyZWYoKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC5maWx0ZXIofHZ8ICF2LmlzX2VtcHR5KCkpOwogICAgbGV0IGZsb3dfdG9rZW4gPSBjb29raWVzOjpyZWFkX2Nvb2tpZSgmaGVhZGVycywgY29va2llczo6T0lEQ19GTE9XX0NPT0tJRV9OQU1FKTsKICAgIGxldCBjbGVhcl9mbG93X2Nvb2tpZSA9IHx8IHsKICAgICAgICBzdGF0ZV90b2tlbgogICAgICAgICAgICAuZmlsdGVyKHxzdGF0ZXwgb2lkY19mbG93X3Rva2VuX3ZhbGlkKHN0YXRlLCBmbG93X3Rva2VuLmFzX2RlcmVmKCkpKQogICAgICAgICAgICAubWFwKHxffCB7CiAgICAgICAgICAgICAgICBsZXQgZG9tYWluID0gcmVzb2x2ZV9jb29raWVfZG9tYWluKCZjb25maWcsICZoZWFkZXJzKTsKICAgICAgICAgICAgICAgIGxldCBwYXRoID0gcmVzb2x2ZV9vaWRjX2Nvb2tpZV9wYXRoKCZjb25maWcsICZoZWFkZXJzLCB1cmkucGF0aCgpKTsKICAgICAgICAgICAgICAgIGNvb2tpZXM6Om9pZGNfZmxvd19jbGVhcl9jb29raWUoZG9tYWluLmFzX2RlcmVmKCksICZwYXRoKQogICAgICAgICAgICB9KQogICAgfTsKCiAgICBpZiBsZXQgU29tZShlcnJvcikgPSBxdWVyeS5lcnJvci5hc19kZXJlZigpIHsKICAgICAgICBsZXQgYXV0aF9zdGF0ZSA9IGNvbnN1bWVfY2FsbGJhY2tfc3RhdGVfZm9yX25vdGljZSgKICAgICAgICAgICAgJnN0YXRlLAogICAgICAgICAgICAmcHJvdmlkZXJfaWQsCiAgICAgICAgICAgIHN0YXRlX3Rva2VuLAogICAgICAgICAgICBmbG93X3Rva2VuLmFzX2RlcmVmKCksCiAgICAgICAgKQogICAgICAgIC5hd2FpdDsKICAgICAgICByZXR1cm4gbG9naW5fZXJyb3JfcmVkaXJlY3RfcmVzcG9uc2UoCiAgICAgICAgICAgICZzdGF0ZSwKICAgICAgICAgICAgJmhlYWRlcnMsCiAgICAgICAgICAgICZ1cmksCiAgICAgICAgICAgICZjb25maWcsCiAgICAgICAgICAgIHByb3ZpZGVyX2Vycm9yX21lc3NhZ2UoZXJyb3IsICZ0cmFuc2xhdG9yKSwKICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgIGF1dGhfc3RhdGUKICAgICAgICAgICAgICAgIC5hc19yZWYoKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuZ2V0KCJyZWRpcmVjdF91cmkiKSkKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSwKICAgICAgICAgICAgYXV0aF9zdGF0ZS5pc19zb21lKCksCiAgICAgICAgICAgIGNsZWFyX2Zsb3dfY29va2llKCksCiAgICAgICAgKQogICAgICAgIC5hd2FpdDsKICAgIH0KCiAgICBsZXQgU29tZShjb2RlKSA9IGNvZGUgZWxzZSB7CiAgICAgICAgbGV0IGF1dGhfc3RhdGUgPSBjb25zdW1lX2NhbGxiYWNrX3N0YXRlX2Zvcl9ub3RpY2UoCiAgICAgICAgICAgICZzdGF0ZSwKICAgICAgICAgICAgJnByb3ZpZGVyX2lkLAogICAgICAgICAgICBzdGF0ZV90b2tlbiwKICAgICAgICAgICAgZmxvd190b2tlbi5hc19kZXJlZigpLAogICAgICAgICkKICAgICAgICAuYXdhaXQ7CiAgICAgICAgcmV0dXJuIGxvZ2luX2Vycm9yX3JlZGlyZWN0X3Jlc3BvbnNlKAogICAgICAgICAgICAmc3RhdGUsCiAgICAgICAgICAgICZoZWFkZXJzLAogICAgICAgICAgICAmdXJpLAogICAgICAgICAgICAmY29uZmlnLAogICAgICAgICAgICBvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJjYWxsYmFja01pc3NpbmdQYXJhbXMiKSwKICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgIGF1dGhfc3RhdGUKICAgICAgICAgICAgICAgIC5hc19yZWYoKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuZ2V0KCJyZWRpcmVjdF91cmkiKSkKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSwKICAgICAgICAgICAgYXV0aF9zdGF0ZS5pc19zb21lKCksCiAgICAgICAgICAgIGNsZWFyX2Zsb3dfY29va2llKCksCiAgICAgICAgKQogICAgICAgIC5hd2FpdDsKICAgIH07CiAgICBsZXQgU29tZShzdGF0ZV90b2tlbikgPSBzdGF0ZV90b2tlbiBlbHNlIHsKICAgICAgICByZXR1cm4gbG9naW5fZXJyb3JfcmVkaXJlY3RfcmVzcG9uc2UoCiAgICAgICAgICAgICZzdGF0ZSwKICAgICAgICAgICAgJmhlYWRlcnMsCiAgICAgICAgICAgICZ1cmksCiAgICAgICAgICAgICZjb25maWcsCiAgICAgICAgICAgIG9pZGNfdGV4dCgmdHJhbnNsYXRvciwgImNhbGxiYWNrTWlzc2luZ1BhcmFtcyIpLAogICAgICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAgICAgTm9uZSwKICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgIE5vbmUsCiAgICAgICAgKQogICAgICAgIC5hd2FpdDsKICAgIH07CgogICAgbGV0IGNsaWVudF9pcCA9IGNsaWVudF9pcF9mb3JfaGVhZGVycygmaGVhZGVycyk7CiAgICBsZXQgdHJhY2tpbmdfaXAgPSBub3JtYWxpemVfYXV0aF9mYWlsdXJlX3RyYWNraW5nX2lwKCZjbGllbnRfaXApOwogICAgbWF0Y2ggc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfbG9naW5fYmFja29mZl9zdGF0dXMoJnRyYWNraW5nX2lwKQogICAgICAgIC5hd2FpdAogICAgewogICAgICAgIE9rKHN0YXR1cykgaWYgc3RhdHVzLmJsb2NrZWQgPT4gewogICAgICAgICAgICBsZXQgYXV0aF9zdGF0ZSA9IGNvbnN1bWVfY2FsbGJhY2tfc3RhdGVfZm9yX25vdGljZSgKICAgICAgICAgICAgICAgICZzdGF0ZSwKICAgICAgICAgICAgICAgICZwcm92aWRlcl9pZCwKICAgICAgICAgICAgICAgIFNvbWUoc3RhdGVfdG9rZW4pLAogICAgICAgICAgICAgICAgZmxvd190b2tlbi5hc19kZXJlZigpLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdDsKICAgICAgICAgICAgbGV0IG1lc3NhZ2UgPSBzdGF0dXMKICAgICAgICAgICAgICAgIC5yZXRyeV9hZnRlcgogICAgICAgICAgICAgICAgLm1hcCh8cmV0cnlfYWZ0ZXJ8IHsKICAgICAgICAgICAgICAgICAgICBzZXJ2ZXJfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgICAgICAgICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgICAgICAgICAidG9vTWFueUF0dGVtcHRzV2l0aFJldHJ5IiwKICAgICAgICAgICAgICAgICAgICAgICAgJlsoInNlY29uZHMiLCByZXRyeV9hZnRlci5tYXgoMSkudG9fc3RyaW5nKCkpXSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IHNlcnZlcl90ZXh0KCZ0cmFuc2xhdG9yLCAidG9vTWFueUF0dGVtcHRzIikpOwogICAgICAgICAgICByZXR1cm4gbG9naW5fZXJyb3JfcmVkaXJlY3RfcmVzcG9uc2UoCiAgICAgICAgICAgICAgICAmc3RhdGUsCiAgICAgICAgICAgICAgICAmaGVhZGVycywKICAgICAgICAgICAgICAgICZ1cmksCiAgICAgICAgICAgICAgICAmY29uZmlnLAogICAgICAgICAgICAgICAgbWVzc2FnZSwKICAgICAgICAgICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgYXV0aF9zdGF0ZQogICAgICAgICAgICAgICAgICAgIC5hc19yZWYoKQogICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLmdldCgicmVkaXJlY3RfdXJpIikpCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLAogICAgICAgICAgICAgICAgYXV0aF9zdGF0ZS5pc19zb21lKCksCiAgICAgICAgICAgICAgICBjbGVhcl9mbG93X2Nvb2tpZSgpLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdDsKICAgICAgICB9CiAgICAgICAgT2soXykgPT4ge30KICAgICAgICBFcnIoZXJyb3IpID0+IHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgJXRyYWNraW5nX2lwLCAiZmFpbGVkIHRvIGluc3BlY3QgT0lEQyBiYWNrb2ZmIiksCiAgICB9CgogICAgbWF0Y2ggcmVzb2x2ZV9jYWxsYmFjaygKICAgICAgICAmc3RhdGUsCiAgICAgICAgJmhlYWRlcnMsCiAgICAgICAgJnVyaSwKICAgICAgICAmY29uZmlnLAogICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICZwcm92aWRlcl9pZCwKICAgICAgICBjb2RlLAogICAgICAgIHN0YXRlX3Rva2VuLAogICAgICAgIGZsb3dfdG9rZW4uYXNfZGVyZWYoKSwKICAgICkKICAgIC5hd2FpdAogICAgewogICAgICAgIE9rKHJlc29sdmVkKSA9PiB7CiAgICAgICAgICAgIGxldCByZWRpcmVjdF90byA9IHJlc29sdmVkCiAgICAgICAgICAgICAgICAuc3RhdGUKICAgICAgICAgICAgICAgIC5nZXQoInJlZGlyZWN0X3VyaSIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgIC51bndyYXBfb3IoIi8iKTsKICAgICAgICAgICAgbWF0Y2ggY3JlYXRlX29pZGNfc2Vzc2lvbl9yZXNwb25zZSgKICAgICAgICAgICAgICAgICZzdGF0ZSwKICAgICAgICAgICAgICAgICZoZWFkZXJzLAogICAgICAgICAgICAgICAgJmNvbmZpZywKICAgICAgICAgICAgICAgICZyZXNvbHZlZCwKICAgICAgICAgICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgcmVkaXJlY3RfdG8sCiAgICAgICAgICAgICAgICBjbGVhcl9mbG93X2Nvb2tpZSgpLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBPayhyZXNwb25zZSkgPT4gcmVzcG9uc2UsCiAgICAgICAgICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gY3JlYXRlIE9JREMgc2Vzc2lvbiIpOwogICAgICAgICAgICAgICAgICAgIGxvZ2luX2Vycm9yX3JlZGlyZWN0X3Jlc3BvbnNlKAogICAgICAgICAgICAgICAgICAgICAgICAmc3RhdGUsCiAgICAgICAgICAgICAgICAgICAgICAgICZoZWFkZXJzLAogICAgICAgICAgICAgICAgICAgICAgICAmdXJpLAogICAgICAgICAgICAgICAgICAgICAgICAmY29uZmlnLAogICAgICAgICAgICAgICAgICAgICAgICBvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJsb2dpbkZhaWxlZFJldHJ5IiksCiAgICAgICAgICAgICAgICAgICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgICAgICAgICBTb21lKHJlZGlyZWN0X3RvKSwKICAgICAgICAgICAgICAgICAgICAgICAgdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgY2xlYXJfZmxvd19jb29raWUoKSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIGlmIGVycm9yID09IG9pZGNfdGV4dCgmdHJhbnNsYXRvciwgImNhbGxiYWNrU3RhdGVFeHBpcmVkIikgewogICAgICAgICAgICAgICAgbG9naW5fZXJyb3JfcmVkaXJlY3RfcmVzcG9uc2UoCiAgICAgICAgICAgICAgICAgICAgJnN0YXRlLAogICAgICAgICAgICAgICAgICAgICZoZWFkZXJzLAogICAgICAgICAgICAgICAgICAgICZ1cmksCiAgICAgICAgICAgICAgICAgICAgJmNvbmZpZywKICAgICAgICAgICAgICAgICAgICBlcnJvciwKICAgICAgICAgICAgICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICAgICBOb25lLAogICAgICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICAgICAgICAgIGNsZWFyX2Zsb3dfY29va2llKCksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgfSBlbHNlIGlmIGVycm9yID09IG9pZGNfdGV4dCgmdHJhbnNsYXRvciwgImxvZ2luTWV0aG9kVW5hdmFpbGFibGUiKSB7CiAgICAgICAgICAgICAgICBsb2dpbl9lcnJvcl9yZWRpcmVjdF9yZXNwb25zZSgKICAgICAgICAgICAgICAgICAgICAmc3RhdGUsCiAgICAgICAgICAgICAgICAgICAgJmhlYWRlcnMsCiAgICAgICAgICAgICAgICAgICAgJnVyaSwKICAgICAgICAgICAgICAgICAgICAmY29uZmlnLAogICAgICAgICAgICAgICAgICAgIGVycm9yLAogICAgICAgICAgICAgICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgICAgIE5vbmUsCiAgICAgICAgICAgICAgICAgICAgdHJ1ZSwKICAgICAgICAgICAgICAgICAgICBjbGVhcl9mbG93X2Nvb2tpZSgpLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIH0gZWxzZSBpZiBpc19vaWRjX29wZXJhdGlvbl9hYm9ydGVkX2Vycm9yKCZlcnJvcikgewogICAgICAgICAgICAgICAgbG9naW5fZXJyb3JfcmVkaXJlY3RfcmVzcG9uc2UoCiAgICAgICAgICAgICAgICAgICAgJnN0YXRlLAogICAgICAgICAgICAgICAgICAgICZoZWFkZXJzLAogICAgICAgICAgICAgICAgICAgICZ1cmksCiAgICAgICAgICAgICAgICAgICAgJmNvbmZpZywKICAgICAgICAgICAgICAgICAgICBvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJvcGVyYXRpb25BYm9ydGVkIiksCiAgICAgICAgICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAgICAgTm9uZSwKICAgICAgICAgICAgICAgICAgICB0cnVlLAogICAgICAgICAgICAgICAgICAgIGNsZWFyX2Zsb3dfY29va2llKCksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGxldCBkZXRhaWxfbWVzc2FnZSA9IGVycm9yOwogICAgICAgICAgICAgICAgbGV0IHJlc3BvbnNlX21lc3NhZ2UgPSBtYXRjaCBzdGF0ZQogICAgICAgICAgICAgICAgICAgIC5zdG9yYWdlCiAgICAgICAgICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgICAgICAgICAgLnJlZ2lzdGVyX2xvZ2luX2JhY2tvZmZfZmFpbHVyZSgmdHJhY2tpbmdfaXApCiAgICAgICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgT2soZmFpbHVyZSkgPT4gewogICAgICAgICAgICAgICAgICAgICAgICBsZXQgcmV0cnlfYWZ0ZXIgPSBmYWlsdXJlLnJldHJ5X2FmdGVyLnVud3JhcF9vcigxKS5tYXgoMSk7CiAgICAgICAgICAgICAgICAgICAgICAgIGxldCBwcm92aWRlcl9uYW1lID0gb2lkY19nZXRfcHJvdmlkZXIoJnN0YXRlLCAmcHJvdmlkZXJfaWQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5vaygpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZmxhdHRlbigpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofHByb3ZpZGVyfCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJvdmlkZXIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmdldCgibmFtZSIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZpbHRlcih8bmFtZXwgIW5hbWUuaXNfZW1wdHkoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLm1hcChzdHI6OnRvX3N0cmluZykKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgICAgICAgICBpZiBsZXQgRXJyKGV2ZW50X2Vycm9yKSA9IHN5c3RlbV9ldmVudHM6OnB1Ymxpc2hfYXV0aF9sb2dpbl9mYWlsdXJlX2V2ZW50KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJnN0YXRlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAganNvbiEoewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJpcCI6IHRyYWNraW5nX2lwLmNsb25lKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgImF0dGVtcHRzIjogZmFpbHVyZS5hdHRlbXB0cywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAicmV0cnlfYWZ0ZXJfc2Vjb25kcyI6IHJldHJ5X2FmdGVyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJibG9ja2VkX3VudGlsIjogZmFpbHVyZS5ibG9ja2VkX3VudGlsLm1hcCh0aW1lX3V0aWxzOjppc29fZnJvbV9tcyksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIm1ldGhvZCI6IEF1dGhNZXRob2Q6Ok9pZGMuYXNfc2Vzc2lvbl9zdHIoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAicHJvdmlkZXJfaWQiOiBwcm92aWRlcl9pZC5jbG9uZSgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJhdXRoX3Byb3ZpZGVyX25hbWUiOiBwcm92aWRlcl9uYW1lLmNsb25lKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgImNyZWRlbnRpYWxfbmFtZSI6IHByb3ZpZGVyX25hbWUudW53cmFwX29yX2Vsc2UofHwgcHJvdmlkZXJfaWQuY2xvbmUoKSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInVzZXJfYWdlbnQiOiB1c2VyX2FnZW50KCZoZWFkZXJzKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pLAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXZlbnRfZXJyb3IsICV0cmFja2luZ19pcCwgImZhaWxlZCB0byBwdWJsaXNoIE9JREMgbG9naW4gZmFpbHVyZSBldmVudCIpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIG9pZGNfbG9naW5fZmFpbGVkX3JldHJ5X2FmdGVyX21lc3NhZ2UoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICZkZXRhaWxfbWVzc2FnZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHJ5X2FmdGVyLAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIEVycihiYWNrb2ZmX2Vycm9yKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCViYWNrb2ZmX2Vycm9yLCAldHJhY2tpbmdfaXAsICJmYWlsZWQgdG8gcmVnaXN0ZXIgT0lEQyBsb2dpbiBmYWlsdXJlIik7CiAgICAgICAgICAgICAgICAgICAgICAgIGRldGFpbF9tZXNzYWdlCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfTsKICAgICAgICAgICAgICAgIGxvZ2luX2Vycm9yX3JlZGlyZWN0X3Jlc3BvbnNlKAogICAgICAgICAgICAgICAgICAgICZzdGF0ZSwKICAgICAgICAgICAgICAgICAgICAmaGVhZGVycywKICAgICAgICAgICAgICAgICAgICAmdXJpLAogICAgICAgICAgICAgICAgICAgICZjb25maWcsCiAgICAgICAgICAgICAgICAgICAgcmVzcG9uc2VfbWVzc2FnZSwKICAgICAgICAgICAgICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICAgICBOb25lLAogICAgICAgICAgICAgICAgICAgIHRydWUsCiAgICAgICAgICAgICAgICAgICAgY2xlYXJfZmxvd19jb29raWUoKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+use super::*;
+
+pub(super) async fn bind(
+    State(state): State<AppState>,
+    headers: HeaderMap,
+    uri: Uri,
+    Query(query): Query<BindQuery>,
+) -> Response {
+    let config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => {
+            let translator = Translator::from_state(&state).await;
+            tracing::warn!(%error, "failed to load config for OIDC bind");
+            return bind_html_response(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                &oidc_text(&translator, "bindFailedTitle"),
+                &oidc_text(&translator, "loadConfigFailed"),
+                DEFAULT_LOCALE,
+                None,
+            );
+        }
+    };
+    let translator = translator_from_config(&config);
+    let locale = locale_code(&config);
+    if let Err(message) = ensure_oidc_login_mode(&state, &translator).await {
+        return bind_html_response(
+            StatusCode::BAD_REQUEST,
+            &oidc_text(&translator, "bindFailedTitle"),
+            &message,
+            &locale,
+            None,
+        );
+    }
+    let token = query.token.as_deref().map(str::trim).unwrap_or("");
+    if token.is_empty() {
+        return bind_html_response(
+            StatusCode::BAD_REQUEST,
+            &oidc_text(&translator, "inviteInvalid"),
+            &oidc_text(&translator, "linkMissingToken"),
+            &locale,
+            None,
+        );
+    }
+
+    let invite = match oidc_inspect_invite(&state, token).await {
+        Ok(Some(invite)) => invite,
+        Ok(None) => {
+            return bind_html_response(
+                StatusCode::NOT_FOUND,
+                &oidc_text(&translator, "inviteExpired"),
+                &oidc_text(&translator, "inviteMissingExpiredUsed"),
+                &locale,
+                None,
+            );
+        }
+        Err(error) => {
+            tracing::warn!(%error, "failed to inspect OIDC invite before bind");
+            return bind_html_response(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                &oidc_text(&translator, "bindFailedTitle"),
+                &oidc_text(&translator, "bindStartFailed"),
+                &locale,
+                None,
+            );
+        }
+    };
+    let providers = invite
+        .get("providers")
+        .and_then(Value::as_array)
+        .cloned()
+        .unwrap_or_default();
+    if providers.is_empty() {
+        return bind_html_response(
+            StatusCode::NOT_FOUND,
+            &oidc_text(&translator, "noProvidersTitle"),
+            &oidc_text(&translator, "noProvidersBody"),
+            &locale,
+            None,
+        );
+    }
+    let selected_provider = query
+        .provider_id
+        .as_deref()
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .or_else(|| invite.get("provider_id").and_then(Value::as_str))
+        .or_else(|| {
+            (providers.len() == 1).then(|| providers[0].get("id").and_then(Value::as_str))?
+        });
+    let Some(provider_id) = selected_provider else {
+        return bind_provider_selection_response(
+            &uri,
+            token,
+            &invite,
+            &providers,
+            &translator,
+            &locale,
+        );
+    };
+
+    match build_authorization_url(
+        &state,
+        &headers,
+        &uri,
+        &config,
+        &translator,
+        provider_id,
+        "bind",
+        None,
+        Some(token),
+        false,
+    )
+    .await
+    {
+        Ok(result) => {
+            let domain = resolve_cookie_domain(&config, &headers);
+            let path = resolve_oidc_cookie_path(&config, &headers, uri.path());
+            redirect_response(
+                &result.authorization_url,
+                vec![cookies::oidc_flow_cookie(
+                    &result.flow_token,
+                    result.max_age as i64,
+                    domain.as_deref(),
+                    &path,
+                )],
+            )
+        }
+        Err(error) => bind_html_response(
+            StatusCode::BAD_REQUEST,
+            &oidc_text(&translator, "bindFailedTitle"),
+            &error,
+            &locale,
+            None,
+        ),
+    }
+}
+
+pub(super) async fn start(
+    State(state): State<AppState>,
+    headers: HeaderMap,
+    uri: Uri,
+    Json(body): Json<StartBody>,
+) -> Response {
+    let config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => {
+            let translator = Translator::from_state(&state).await;
+            tracing::warn!(%error, "failed to load config before OIDC start");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                oidc_text(&translator, "loadConfigFailed"),
+            );
+        }
+    };
+    let translator = translator_from_config(&config);
+    let mode = match body.mode.as_deref().unwrap_or("login") {
+        "login" | "bind" => body.mode.as_deref().unwrap_or("login"),
+        _ => "login",
+    };
+    match build_authorization_url(
+        &state,
+        &headers,
+        &uri,
+        &config,
+        &translator,
+        &body.provider_id,
+        mode,
+        body.redirect_uri.as_deref(),
+        body.invite_token.as_deref(),
+        body.remember_me,
+    )
+    .await
+    {
+        Ok(result) => {
+            let domain = resolve_cookie_domain(&config, &headers);
+            let path = resolve_oidc_cookie_path(&config, &headers, uri.path());
+            let cookie = cookies::oidc_flow_cookie(
+                &result.flow_token,
+                result.max_age as i64,
+                domain.as_deref(),
+                &path,
+            );
+            let mut response = Json(ApiEnvelope {
+                success: true,
+                code: None,
+                message: None,
+                data: Some(json!({ "authorization_url": result.authorization_url })),
+            })
+            .into_response();
+            apply_no_store_headers(response.headers_mut());
+            append_set_cookie(response.headers_mut(), &cookie);
+            response
+        }
+        Err(error) => response::error(StatusCode::BAD_REQUEST, error),
+    }
+}
+
+#[axum::debug_handler(state = AppState)]
+pub(super) async fn callback(
+    State(state): State<AppState>,
+    headers: HeaderMap,
+    uri: Uri,
+    Path(provider_id): Path<String>,
+    Query(query): Query<CallbackQuery>,
+) -> Response {
+    let config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => {
+            let translator = Translator::from_state(&state).await;
+            tracing::warn!(%error, "failed to load config before OIDC callback");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                oidc_text(&translator, "loadConfigFailed"),
+            );
+        }
+    };
+    let translator = translator_from_config(&config);
+    let code = query
+        .code
+        .as_deref()
+        .map(str::trim)
+        .filter(|v| !v.is_empty());
+    let state_token = query
+        .state
+        .as_deref()
+        .map(str::trim)
+        .filter(|v| !v.is_empty());
+    let flow_token = cookies::read_cookie(&headers, cookies::OIDC_FLOW_COOKIE_NAME);
+    let clear_flow_cookie = || {
+        state_token
+            .filter(|state| oidc_flow_token_valid(state, flow_token.as_deref()))
+            .map(|_| {
+                let domain = resolve_cookie_domain(&config, &headers);
+                let path = resolve_oidc_cookie_path(&config, &headers, uri.path());
+                cookies::oidc_flow_clear_cookie(domain.as_deref(), &path)
+            })
+    };
+
+    if let Some(error) = query.error.as_deref() {
+        let auth_state = consume_callback_state_for_notice(
+            &state,
+            &provider_id,
+            state_token,
+            flow_token.as_deref(),
+        )
+        .await;
+        return login_error_redirect_response(
+            &state,
+            &headers,
+            &uri,
+            &config,
+            provider_error_message(error, &translator),
+            &translator,
+            auth_state
+                .as_ref()
+                .and_then(|value| value.get("redirect_uri"))
+                .and_then(Value::as_str),
+            auth_state.is_some(),
+            clear_flow_cookie(),
+        )
+        .await;
+    }
+
+    let Some(code) = code else {
+        let auth_state = consume_callback_state_for_notice(
+            &state,
+            &provider_id,
+            state_token,
+            flow_token.as_deref(),
+        )
+        .await;
+        return login_error_redirect_response(
+            &state,
+            &headers,
+            &uri,
+            &config,
+            oidc_text(&translator, "callbackMissingParams"),
+            &translator,
+            auth_state
+                .as_ref()
+                .and_then(|value| value.get("redirect_uri"))
+                .and_then(Value::as_str),
+            auth_state.is_some(),
+            clear_flow_cookie(),
+        )
+        .await;
+    };
+    let Some(state_token) = state_token else {
+        return login_error_redirect_response(
+            &state,
+            &headers,
+            &uri,
+            &config,
+            oidc_text(&translator, "callbackMissingParams"),
+            &translator,
+            None,
+            false,
+            None,
+        )
+        .await;
+    };
+
+    let client_ip = client_ip_for_headers(&headers);
+    let tracking_ip = normalize_auth_failure_tracking_ip(&client_ip);
+    match state
+        .storage
+        .store
+        .get_login_backoff_status(&tracking_ip)
+        .await
+    {
+        Ok(status) if status.blocked => {
+            let auth_state = consume_callback_state_for_notice(
+                &state,
+                &provider_id,
+                Some(state_token),
+                flow_token.as_deref(),
+            )
+            .await;
+            let message = status
+                .retry_after
+                .map(|retry_after| {
+                    server_text_params(
+                        &translator,
+                        "tooManyAttemptsWithRetry",
+                        &[("seconds", retry_after.max(1).to_string())],
+                    )
+                })
+                .unwrap_or_else(|| server_text(&translator, "tooManyAttempts"));
+            return login_error_redirect_response(
+                &state,
+                &headers,
+                &uri,
+                &config,
+                message,
+                &translator,
+                auth_state
+                    .as_ref()
+                    .and_then(|value| value.get("redirect_uri"))
+                    .and_then(Value::as_str),
+                auth_state.is_some(),
+                clear_flow_cookie(),
+            )
+            .await;
+        }
+        Ok(_) => {}
+        Err(error) => tracing::warn!(%error, %tracking_ip, "failed to inspect OIDC backoff"),
+    }
+
+    match resolve_callback(
+        &state,
+        &headers,
+        &uri,
+        &config,
+        &translator,
+        &provider_id,
+        code,
+        state_token,
+        flow_token.as_deref(),
+    )
+    .await
+    {
+        Ok(resolved) => {
+            let redirect_to = resolved
+                .state
+                .get("redirect_uri")
+                .and_then(Value::as_str)
+                .unwrap_or("/");
+            match create_oidc_session_response(
+                &state,
+                &headers,
+                &config,
+                &resolved,
+                &translator,
+                redirect_to,
+                clear_flow_cookie(),
+            )
+            .await
+            {
+                Ok(response) => response,
+                Err(error) => {
+                    tracing::warn!(%error, "failed to create OIDC session");
+                    login_error_redirect_response(
+                        &state,
+                        &headers,
+                        &uri,
+                        &config,
+                        oidc_text(&translator, "loginFailedRetry"),
+                        &translator,
+                        Some(redirect_to),
+                        true,
+                        clear_flow_cookie(),
+                    )
+                    .await
+                }
+            }
+        }
+        Err(error) => {
+            if error == oidc_text(&translator, "callbackStateExpired") {
+                login_error_redirect_response(
+                    &state,
+                    &headers,
+                    &uri,
+                    &config,
+                    error,
+                    &translator,
+                    None,
+                    false,
+                    clear_flow_cookie(),
+                )
+                .await
+            } else if error == oidc_text(&translator, "loginMethodUnavailable") {
+                login_error_redirect_response(
+                    &state,
+                    &headers,
+                    &uri,
+                    &config,
+                    error,
+                    &translator,
+                    None,
+                    true,
+                    clear_flow_cookie(),
+                )
+                .await
+            } else if is_oidc_operation_aborted_error(&error) {
+                login_error_redirect_response(
+                    &state,
+                    &headers,
+                    &uri,
+                    &config,
+                    oidc_text(&translator, "operationAborted"),
+                    &translator,
+                    None,
+                    true,
+                    clear_flow_cookie(),
+                )
+                .await
+            } else {
+                let detail_message = error;
+                let response_message = match state
+                    .storage
+                    .store
+                    .register_login_backoff_failure(&tracking_ip)
+                    .await
+                {
+                    Ok(failure) => {
+                        let retry_after = failure.retry_after.unwrap_or(1).max(1);
+                        let provider_name = oidc_get_provider(&state, &provider_id)
+                            .await
+                            .ok()
+                            .flatten()
+                            .and_then(|provider| {
+                                provider
+                                    .get("name")
+                                    .and_then(Value::as_str)
+                                    .map(str::trim)
+                                    .filter(|name| !name.is_empty())
+                                    .map(str::to_string)
+                            });
+                        if let Err(event_error) = system_events::publish_auth_login_failure_event(
+                            &state,
+                            json!({
+                                "ip": tracking_ip.clone(),
+                                "attempts": failure.attempts,
+                                "retry_after_seconds": retry_after,
+                                "blocked_until": failure.blocked_until.map(time_utils::iso_from_ms),
+                                "method": AuthMethod::Oidc.as_session_str(),
+                                "provider_id": provider_id.clone(),
+                                "auth_provider_name": provider_name.clone(),
+                                "credential_name": provider_name.unwrap_or_else(|| provider_id.clone()),
+                                "user_agent": user_agent(&headers),
+                            }),
+                        )
+                        .await
+                        {
+                            tracing::warn!(%event_error, %tracking_ip, "failed to publish OIDC login failure event");
+                        }
+                        oidc_login_failed_retry_after_message(
+                            &translator,
+                            &detail_message,
+                            retry_after,
+                        )
+                    }
+                    Err(backoff_error) => {
+                        tracing::warn!(%backoff_error, %tracking_ip, "failed to register OIDC login failure");
+                        detail_message
+                    }
+                };
+                login_error_redirect_response(
+                    &state,
+                    &headers,
+                    &uri,
+                    &config,
+                    response_message,
+                    &translator,
+                    None,
+                    true,
+                    clear_flow_cookie(),
+                )
+                .await
+            }
+        }
+    }
+}

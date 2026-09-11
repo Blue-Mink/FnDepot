@@ -1,1 +1,73 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgppbXBvcnQgewogIGFwcGVuZFJldHJ5QWZ0ZXJTdWZmaXgsCiAgZXh0cmFjdFJldHJ5QWZ0ZXJTZWNvbmRzLAogIHVzZUxvZ2luQ29vbGRvd24sCn0gZnJvbSAiLi4vc3JjL2NvbXBvc2FibGVzL3VzZUxvZ2luQ29vbGRvd24iOwoKZGVzY3JpYmUoImxvZ2luIGNvb2xkb3duIGhlbHBlcnMiLCAoKSA9PiB7CiAgaXQoImV4dHJhY3RzIHJldHJ5LWFmdGVyIHNlY29uZHMgZnJvbSBBUEkgcGF5bG9hZHMgYW5kIGVycm9ycyIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbChleHRyYWN0UmV0cnlBZnRlclNlY29uZHMoeyByZXRyeUFmdGVyOiAxLjIgfSksIDIpOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBleHRyYWN0UmV0cnlBZnRlclNlY29uZHMoeyByZXNwb25zZTogeyBkYXRhOiB7IHJldHJ5QWZ0ZXI6ICIzIiB9IH0gfSksCiAgICAgIDMsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBleHRyYWN0UmV0cnlBZnRlclNlY29uZHMoewogICAgICAgIHJlc3BvbnNlOiB7IGhlYWRlcnM6IHsgInJldHJ5LWFmdGVyIjogWyI0Il0gfSB9LAogICAgICB9KSwKICAgICAgNCwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoZXh0cmFjdFJldHJ5QWZ0ZXJTZWNvbmRzKHsgcmV0cnlBZnRlcjogMCB9KSwgMCk7CiAgICBhc3NlcnQuZXF1YWwoZXh0cmFjdFJldHJ5QWZ0ZXJTZWNvbmRzKHsgcmV0cnlBZnRlcjogImludmFsaWQiIH0pLCAwKTsKICB9KTsKCiAgaXQoImFkZHMgYSBsb2NhbGl6ZWQgc3VmZml4IG9ubHkgd2hlbiB0aGUgbWVzc2FnZSBkb2VzIG5vdCBpbmNsdWRlIGl0IiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKGFwcGVuZFJldHJ5QWZ0ZXJTdWZmaXgoIkZhaWxlZCIsIDMsICIgKDNzKSIpLCAiRmFpbGVkICgzcykiKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgYXBwZW5kUmV0cnlBZnRlclN1ZmZpeCgiUmV0cnkgaW4gMyBzZWNvbmRzIiwgMywgIiAoM3MpIiksCiAgICAgICJSZXRyeSBpbiAzIHNlY29uZHMiLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgYXBwZW5kUmV0cnlBZnRlclN1ZmZpeCgiRmFpbGVkICgzcykiLCAzLCAiICgzcykiKSwKICAgICAgIkZhaWxlZCAoM3MpIiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoYXBwZW5kUmV0cnlBZnRlclN1ZmZpeCgiRmFpbGVkIiwgMCwgIiAoMHMpIiksICJGYWlsZWQiKTsKICB9KTsKCiAgaXQoInRyYWNrcyBjb3VudGRvd24gc3RhdGUgYW5kIGNsZWFycyB0aGUgc2NoZWR1bGVyIGF0IHplcm8iLCAoKSA9PiB7CiAgICBsZXQgdGljazogKCgpID0+IHZvaWQpIHwgbnVsbCA9IG51bGw7CiAgICBjb25zdCBjbGVhcmVkSGFuZGxlczogdW5rbm93bltdID0gW107CiAgICBjb25zdCBjb29sZG93biA9IHVzZUxvZ2luQ29vbGRvd24oewogICAgICBmb3JtYXRSZXRyeVN1ZmZpeDogKHNlY29uZHMpID0+IGAgKCR7c2Vjb25kc31zKWAsCiAgICAgIHNjaGVkdWxlcjogewogICAgICAgIHNldEludGVydmFsKGNhbGxiYWNrKSB7CiAgICAgICAgICB0aWNrID0gY2FsbGJhY2s7CiAgICAgICAgICByZXR1cm4gInRpbWVyIjsKICAgICAgICB9LAogICAgICAgIGNsZWFySW50ZXJ2YWwoaGFuZGxlKSB7CiAgICAgICAgICBjbGVhcmVkSGFuZGxlcy5wdXNoKGhhbmRsZSk7CiAgICAgICAgfSwKICAgICAgfSwKICAgIH0pOwoKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29vbGRvd24ucmVzb2x2ZU1lc3NhZ2UoIkZhaWxlZCIsIHsgcmV0cnlBZnRlcjogMiB9KSwKICAgICAgIkZhaWxlZCAoMnMpIiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoY29vbGRvd24ucmVtYWluaW5nU2Vjb25kcy52YWx1ZSwgMik7CiAgICBhc3NlcnQuZXF1YWwoY29vbGRvd24uaXNDb29saW5nRG93bi52YWx1ZSwgdHJ1ZSk7CgogICAgYXNzZXJ0Lm9rKHRpY2spOwogICAgKHRpY2sgYXMgKCkgPT4gdm9pZCkoKTsKICAgIGFzc2VydC5lcXVhbChjb29sZG93bi5yZW1haW5pbmdTZWNvbmRzLnZhbHVlLCAxKTsKICAgICh0aWNrIGFzICgpID0+IHZvaWQpKCk7CiAgICBhc3NlcnQuZXF1YWwoY29vbGRvd24ucmVtYWluaW5nU2Vjb25kcy52YWx1ZSwgMCk7CiAgICBhc3NlcnQuZXF1YWwoY29vbGRvd24uaXNDb29saW5nRG93bi52YWx1ZSwgZmFsc2UpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChjbGVhcmVkSGFuZGxlcywgWyJ0aW1lciJdKTsKICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import {
+  appendRetryAfterSuffix,
+  extractRetryAfterSeconds,
+  useLoginCooldown,
+} from "../src/composables/useLoginCooldown";
+
+describe("login cooldown helpers", () => {
+  it("extracts retry-after seconds from API payloads and errors", () => {
+    assert.equal(extractRetryAfterSeconds({ retryAfter: 1.2 }), 2);
+    assert.equal(
+      extractRetryAfterSeconds({ response: { data: { retryAfter: "3" } } }),
+      3,
+    );
+    assert.equal(
+      extractRetryAfterSeconds({
+        response: { headers: { "retry-after": ["4"] } },
+      }),
+      4,
+    );
+    assert.equal(extractRetryAfterSeconds({ retryAfter: 0 }), 0);
+    assert.equal(extractRetryAfterSeconds({ retryAfter: "invalid" }), 0);
+  });
+
+  it("adds a localized suffix only when the message does not include it", () => {
+    assert.equal(appendRetryAfterSuffix("Failed", 3, " (3s)"), "Failed (3s)");
+    assert.equal(
+      appendRetryAfterSuffix("Retry in 3 seconds", 3, " (3s)"),
+      "Retry in 3 seconds",
+    );
+    assert.equal(
+      appendRetryAfterSuffix("Failed (3s)", 3, " (3s)"),
+      "Failed (3s)",
+    );
+    assert.equal(appendRetryAfterSuffix("Failed", 0, " (0s)"), "Failed");
+  });
+
+  it("tracks countdown state and clears the scheduler at zero", () => {
+    let tick: (() => void) | null = null;
+    const clearedHandles: unknown[] = [];
+    const cooldown = useLoginCooldown({
+      formatRetrySuffix: (seconds) => ` (${seconds}s)`,
+      scheduler: {
+        setInterval(callback) {
+          tick = callback;
+          return "timer";
+        },
+        clearInterval(handle) {
+          clearedHandles.push(handle);
+        },
+      },
+    });
+
+    assert.equal(
+      cooldown.resolveMessage("Failed", { retryAfter: 2 }),
+      "Failed (2s)",
+    );
+    assert.equal(cooldown.remainingSeconds.value, 2);
+    assert.equal(cooldown.isCoolingDown.value, true);
+
+    assert.ok(tick);
+    (tick as () => void)();
+    assert.equal(cooldown.remainingSeconds.value, 1);
+    (tick as () => void)();
+    assert.equal(cooldown.remainingSeconds.value, 0);
+    assert.equal(cooldown.isCoolingDown.value, false);
+    assert.deepEqual(clearedHandles, ["timer"]);
+  });
+});

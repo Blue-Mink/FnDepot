@@ -1,1 +1,5 @@
-aW1wb3J0IHR5cGUgeyB1c2VOb3RpZmljYXRpb25SdWxlcyB9IGZyb20gIi4vdXNlTm90aWZpY2F0aW9uUnVsZXMiOwoKZXhwb3J0IHR5cGUgTm90aWZpY2F0aW9uUnVsZUVkaXRvckNvbnRyb2xsZXIgPSBSZXR1cm5UeXBlPAogIHR5cGVvZiB1c2VOb3RpZmljYXRpb25SdWxlcwo+Owo=
+import type { useNotificationRules } from "./useNotificationRules";
+
+export type NotificationRuleEditorController = ReturnType<
+  typeof useNotificationRules
+>;

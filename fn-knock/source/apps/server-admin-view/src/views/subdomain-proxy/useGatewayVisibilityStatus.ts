@@ -1,1 +1,29 @@
-aW1wb3J0IHsgb25Vbm1vdW50ZWQsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IENvbmZpZ0FQSSB9IGZyb20gIkAvbGliL2FwaS9jb25maWciOwoKZXhwb3J0IGNvbnN0IHVzZUdhdGV3YXlWaXNpYmlsaXR5U3RhdHVzID0gKCkgPT4gewogIGNvbnN0IGdsb2JhbFZpc2liaWxpdHlFbmFibGVkID0gcmVmKGZhbHNlKTsKICBsZXQgcmVxdWVzdElkID0gMDsKCiAgY29uc3QgbG9hZEdsb2JhbFZpc2liaWxpdHlTdGF0dXMgPSBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBjdXJyZW50UmVxdWVzdElkID0gKytyZXF1ZXN0SWQ7CiAgICBnbG9iYWxWaXNpYmlsaXR5RW5hYmxlZC52YWx1ZSA9IGZhbHNlOwogICAgdHJ5IHsKICAgICAgY29uc3QgZGV0YWlscyA9IGF3YWl0IENvbmZpZ0FQSS5nZXRHYXRld2F5VmlzaWJpbGl0eSgpOwogICAgICBpZiAoY3VycmVudFJlcXVlc3RJZCA9PT0gcmVxdWVzdElkKSB7CiAgICAgICAgZ2xvYmFsVmlzaWJpbGl0eUVuYWJsZWQudmFsdWUgPSBkZXRhaWxzLmNvbmZpZy5lbmFibGVkOwogICAgICB9CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBpZiAoY3VycmVudFJlcXVlc3RJZCA9PT0gcmVxdWVzdElkKSB7CiAgICAgICAgZ2xvYmFsVmlzaWJpbGl0eUVuYWJsZWQudmFsdWUgPSBmYWxzZTsKICAgICAgICBjb25zb2xlLndhcm4oImxvYWQgZ2F0ZXdheSB2aXNpYmlsaXR5IHN0YXR1cyBmYWlsZWQ6IiwgZXJyb3IpOwogICAgICB9CiAgICB9CiAgfTsKCiAgb25Vbm1vdW50ZWQoKCkgPT4gewogICAgcmVxdWVzdElkICs9IDE7CiAgfSk7CgogIHJldHVybiB7IGdsb2JhbFZpc2liaWxpdHlFbmFibGVkLCBsb2FkR2xvYmFsVmlzaWJpbGl0eVN0YXR1cyB9Owp9Owo=
+import { onUnmounted, ref } from "vue";
+import { ConfigAPI } from "@/lib/api/config";
+
+export const useGatewayVisibilityStatus = () => {
+  const globalVisibilityEnabled = ref(false);
+  let requestId = 0;
+
+  const loadGlobalVisibilityStatus = async () => {
+    const currentRequestId = ++requestId;
+    globalVisibilityEnabled.value = false;
+    try {
+      const details = await ConfigAPI.getGatewayVisibility();
+      if (currentRequestId === requestId) {
+        globalVisibilityEnabled.value = details.config.enabled;
+      }
+    } catch (error) {
+      if (currentRequestId === requestId) {
+        globalVisibilityEnabled.value = false;
+        console.warn("load gateway visibility status failed:", error);
+      }
+    }
+  };
+
+  onUnmounted(() => {
+    requestId += 1;
+  });
+
+  return { globalVisibilityEnabled, loadGlobalVisibilityStatus };
+};

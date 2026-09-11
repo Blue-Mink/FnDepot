@@ -1,1 +1,27 @@
-aW1wb3J0IHsgbWVzc2FnZXMsIHR5cGUgSTE4bk1lc3NhZ2VTY2hlbWEgfSBmcm9tICIuL2xvY2FsZXMiOwppbXBvcnQgewogIERFRkFVTFRfTE9DQUxFLAogIGludGVycG9sYXRlTWVzc2FnZSwKICByZWFkTWVzc2FnZVBhdGgsCiAgdHlwZSBMb2NhbGVDb2RlLAogIHR5cGUgTWVzc2FnZVBhcmFtcywKfSBmcm9tICIuL2NvcmUiOwoKZXhwb3J0ICogZnJvbSAiLi9jb3JlIjsKCmV4cG9ydCBjb25zdCB0cmFuc2xhdGUgPSAoCiAgbG9jYWxlOiBMb2NhbGVDb2RlLAogIGtleTogc3RyaW5nLAogIHBhcmFtcz86IE1lc3NhZ2VQYXJhbXMsCik6IHN0cmluZyA9PiB7CiAgY29uc3QgdmFsdWUgPQogICAgcmVhZE1lc3NhZ2VQYXRoKG1lc3NhZ2VzW2xvY2FsZV0sIGtleSkgPz8KICAgIHJlYWRNZXNzYWdlUGF0aChtZXNzYWdlc1tERUZBVUxUX0xPQ0FMRV0sIGtleSk7CiAgaWYgKHR5cGVvZiB2YWx1ZSAhPT0gInN0cmluZyIpIHJldHVybiBrZXk7CiAgcmV0dXJuIGludGVycG9sYXRlTWVzc2FnZSh2YWx1ZSwgcGFyYW1zKTsKfTsKCmV4cG9ydCBjb25zdCBnZXRMb2NhbGVNZXNzYWdlcyA9ICgpOiBSZWNvcmQ8TG9jYWxlQ29kZSwgSTE4bk1lc3NhZ2VTY2hlbWE+ID0+CiAgbWVzc2FnZXM7CgpleHBvcnQgeyBtZXNzYWdlcyB9Owo=
+import { messages, type I18nMessageSchema } from "./locales";
+import {
+  DEFAULT_LOCALE,
+  interpolateMessage,
+  readMessagePath,
+  type LocaleCode,
+  type MessageParams,
+} from "./core";
+
+export * from "./core";
+
+export const translate = (
+  locale: LocaleCode,
+  key: string,
+  params?: MessageParams,
+): string => {
+  const value =
+    readMessagePath(messages[locale], key) ??
+    readMessagePath(messages[DEFAULT_LOCALE], key);
+  if (typeof value !== "string") return key;
+  return interpolateMessage(value, params);
+};
+
+export const getLocaleMessages = (): Record<LocaleCode, I18nMessageSchema> =>
+  messages;
+
+export { messages };

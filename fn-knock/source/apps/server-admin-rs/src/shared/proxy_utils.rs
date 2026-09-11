@@ -1,1 +1,236 @@
-dXNlIHNlcmRlX2pzb246OlZhbHVlOwp1c2UgdXJsOjpVcmw7Cgpjb25zdCBERUZBVUxUX0FVVEhfU0VSVklDRV9QT1JUOiB1MTYgPSA3OTk3OwoKLy8vIEluY2x1ZGVzIHBhdGhzIHRoYXQgb3B0IGludG8gYXV0aGVudGljYXRpb24gb24gYW4gb3RoZXJ3aXNlIHB1YmxpYyBIb3N0LgpwdWIoY3JhdGUpIGZuIGhvc3RfbWFwcGluZ191c2VzX2F1dGgobWFwcGluZzogJnNlcmRlX2pzb246Ok1hcDxTdHJpbmcsIFZhbHVlPikgLT4gYm9vbCB7CiAgICBtYXBwaW5nLmdldCgic2VydmljZV9yb2xlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgIT0gU29tZSgiYXV0aCIpCiAgICAgICAgJiYgKG1hcHBpbmcKICAgICAgICAgICAgLmdldCgidXNlX2F1dGgiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgICAgIC51bndyYXBfb3IodHJ1ZSkKICAgICAgICAgICAgfHwgbWFwcGluZwogICAgICAgICAgICAgICAgLmdldCgibG9jYXRpb25zIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgICAgICAgICAuaXNfc29tZV9hbmQofGxvY2F0aW9uc3wgewogICAgICAgICAgICAgICAgICAgIGxvY2F0aW9ucy5pdGVyKCkuYW55KHxsb2NhdGlvbnwgewogICAgICAgICAgICAgICAgICAgICAgICBsb2NhdGlvbi5nZXQoImF1dGhfbW9kZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoInJlcXVpcmVfbG9naW4iKQogICAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICB9KSkKfQoKcHViKGNyYXRlKSBmbiBpc19yZXZlcnNlX3Byb3h5X3N1YmRvbWFpbl9tb2RlKGNvbmZpZzogJlZhbHVlKSAtPiBib29sIHsKICAgIGNvbmZpZy5nZXQoInJ1bl90eXBlIikuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkgPT0gU29tZSgxKQogICAgICAgICYmIGNvbmZpZwogICAgICAgICAgICAuZ2V0KCJyZXZlcnNlX3Byb3h5X3N1Ym1vZGUiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLnVud3JhcF9vcigicGF0aCIpCiAgICAgICAgICAgID09ICJzdWJkb21haW4iCn0KCnB1YihjcmF0ZSkgZm4gaXNfYW55X3N1YmRvbWFpbl9yb3V0aW5nX21vZGUoY29uZmlnOiAmVmFsdWUpIC0+IGJvb2wgewogICAgY29uZmlnLmdldCgicnVuX3R5cGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KSA9PSBTb21lKDMpCiAgICAgICAgfHwgaXNfcmV2ZXJzZV9wcm94eV9zdWJkb21haW5fbW9kZShjb25maWcpCn0KCnB1YihjcmF0ZSkgZm4gaXNfZWRnZV9jbGllbnRfaXBfYWN0aXZlKGNvbmZpZzogJlZhbHVlKSAtPiBib29sIHsKICAgIGNvbmZpZy5nZXQoInJ1bl90eXBlIikuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkgPT0gU29tZSgzKQogICAgICAgICYmIGNvbmZpZwogICAgICAgICAgICAucG9pbnRlcigiL3N1YmRvbWFpbl9tb2RlL2VkZ2VfY2xpZW50X2lwX2VuYWJsZWQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgICAgIC51bndyYXBfb3IoZmFsc2UpCiAgICAgICAgJiYgKGNvbmZpZwogICAgICAgICAgICAucG9pbnRlcigiL3N1YmRvbWFpbl9tb2RlL2FsaXl1bl9lc2FfZW5hYmxlZCIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAgICAgLnVud3JhcF9vcihmYWxzZSkKICAgICAgICAgICAgfHwgY29uZmlnCiAgICAgICAgICAgICAgICAucG9pbnRlcigiL3N1YmRvbWFpbl9tb2RlL3RlbmNlbnRfZWRnZW9uZV9lbmFibGVkIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAgICAgICAgIC51bndyYXBfb3IoZmFsc2UpKQp9CgpwdWIoY3JhdGUpIGZuIHBhcnNlX3RhcmdldF9wb3J0X2k2NCh0YXJnZXQ6ICZzdHIpIC0+IE9wdGlvbjxpNjQ+IHsKICAgIGxldCBub3JtYWxpemVkID0gdGFyZ2V0LnRyaW0oKTsKICAgIGlmIG5vcm1hbGl6ZWQuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBpZiBsZXQgT2socGFyc2VkKSA9IFVybDo6cGFyc2Uobm9ybWFsaXplZCkgewogICAgICAgIHJldHVybiBwYXJzZWQKICAgICAgICAgICAgLnBvcnQoKQogICAgICAgICAgICAubWFwKGk2NDo6ZnJvbSkKICAgICAgICAgICAgLm9yX2Vsc2UofHwgZGVmYXVsdF9wb3J0X2Zvcl9zY2hlbWUocGFyc2VkLnNjaGVtZSgpKS5tYXAoaTY0Ojpmcm9tKSk7CiAgICB9CiAgICBsZXQgKF8sIHRhaWwpID0gbm9ybWFsaXplZC5yc3BsaXRfb25jZSgnOicpPzsKICAgIGxldCBkaWdpdHMgPSB0YWlsCiAgICAgICAgLmNoYXJzKCkKICAgICAgICAudGFrZV93aGlsZSh8Y2h8IGNoLmlzX2FzY2lpX2RpZ2l0KCkpCiAgICAgICAgLmNvbGxlY3Q6OjxTdHJpbmc+KCk7CiAgICBpZiBkaWdpdHMuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBkaWdpdHMKICAgICAgICAucGFyc2U6OjxpNjQ+KCkKICAgICAgICAub2soKQogICAgICAgIC5maWx0ZXIofHBvcnR8ICpwb3J0ID4gMCAmJiAqcG9ydCA8PSB1MTY6Ok1BWCBhcyBpNjQpCn0KCnB1YihjcmF0ZSkgZm4gcGFyc2VfdGFyZ2V0X3BvcnRfdTE2KHRhcmdldDogJnN0cikgLT4gT3B0aW9uPHUxNj4gewogICAgcGFyc2VfdGFyZ2V0X3BvcnRfaTY0KHRhcmdldCkuYW5kX3RoZW4ofHBvcnR8IHUxNjo6dHJ5X2Zyb20ocG9ydCkub2soKSkKfQoKcHViKGNyYXRlKSBmbiBwYXJzZV91cmxfdGFyZ2V0X3BvcnRfdTE2KHRhcmdldDogJnN0cikgLT4gT3B0aW9uPHUxNj4gewogICAgbGV0IHBhcnNlZCA9IFVybDo6cGFyc2UodGFyZ2V0LnRyaW0oKSkub2soKT87CiAgICBwYXJzZWQKICAgICAgICAucG9ydCgpCiAgICAgICAgLm9yX2Vsc2UofHwgZGVmYXVsdF9wb3J0X2Zvcl9zY2hlbWUocGFyc2VkLnNjaGVtZSgpKSkKfQoKcHViKGNyYXRlKSBmbiBwYXJzZV9lbnZfcG9ydF9pNjRfd2l0aF9mYWxsYmFja192YWx1ZSh2YWx1ZTogT3B0aW9uPFN0cmluZz4sIGZhbGxiYWNrOiBpNjQpIC0+IGk2NCB7CiAgICBsZXQgcmF3ID0gdmFsdWUKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IGZhbGxiYWNrLnRvX3N0cmluZygpKTsKICAgIGNyYXRlOjpub2RlX2NvbXBhdDo6cGFyc2VfaTY0X3ByZWZpeF90cmltX3N0YXJ0KCZyYXcpCiAgICAgICAgLmZpbHRlcih8cG9ydHwgKnBvcnQgPiAwKQogICAgICAgIC51bndyYXBfb3IoZmFsbGJhY2spCn0KCnB1YihjcmF0ZSkgZm4gcGFyc2VfZW52X3BvcnRfdTE2X3dpdGhfZmFsbGJhY2sobmFtZTogJnN0ciwgZmFsbGJhY2s6IHUxNikgLT4gdTE2IHsKICAgIHBhcnNlX2Vudl9wb3J0X3UxNl93aXRoX2ZhbGxiYWNrX3ZhbHVlKHN0ZDo6ZW52Ojp2YXIobmFtZSkub2soKSwgZmFsbGJhY2spCn0KCnB1YihjcmF0ZSkgZm4gcGFyc2VfZW52X3BvcnRfdTE2X3dpdGhfZmFsbGJhY2tfdmFsdWUodmFsdWU6IE9wdGlvbjxTdHJpbmc+LCBmYWxsYmFjazogdTE2KSAtPiB1MTYgewogICAgbGV0IHBhcnNlZCA9IHBhcnNlX2Vudl9wb3J0X2k2NF93aXRoX2ZhbGxiYWNrX3ZhbHVlKHZhbHVlLCBpNjQ6OmZyb20oZmFsbGJhY2spKTsKICAgIHUxNjo6dHJ5X2Zyb20ocGFyc2VkKQogICAgICAgIC5vaygpCiAgICAgICAgLmZpbHRlcih8cG9ydHwgKnBvcnQgPiAwKQogICAgICAgIC51bndyYXBfb3IoZmFsbGJhY2spCn0KCnB1YihjcmF0ZSkgZm4gYXV0aF9zZXJ2aWNlX3BvcnQoKSAtPiB1MTYgewogICAgcGFyc2VfZW52X3BvcnRfdTE2X3dpdGhfZmFsbGJhY2soIkFVVEhfUE9SVCIsIERFRkFVTFRfQVVUSF9TRVJWSUNFX1BPUlQpCn0KCnB1YihjcmF0ZSkgZm4gZGVmYXVsdF9hdXRoX3NlcnZpY2VfdGFyZ2V0KCkgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoImh0dHA6Ly8xMjcuMC4wLjE6e30iLCBhdXRoX3NlcnZpY2VfcG9ydCgpKQp9CgpmbiBkZWZhdWx0X3BvcnRfZm9yX3NjaGVtZShzY2hlbWU6ICZzdHIpIC0+IE9wdGlvbjx1MTY+IHsKICAgIG1hdGNoIHNjaGVtZSB7CiAgICAgICAgImh0dHBzIiB8ICJ3c3MiID0+IFNvbWUoNDQzKSwKICAgICAgICAiaHR0cCIgfCAid3MiID0+IFNvbWUoODApLAogICAgICAgIF8gPT4gTm9uZSwKICAgIH0KfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CiAgICB1c2Ugc2VyZGVfanNvbjo6anNvbjsKCiAgICAjW3Rlc3RdCiAgICBmbiBob3N0X2F1dGhfaW5jbHVkZXNfcmVxdWlyZWRfbG9naW5fcGF0aHMoKSB7CiAgICAgICAgZm9yICh1c2VfYXV0aCwgbW9kZSwgZXhwZWN0ZWQpIGluIFsKICAgICAgICAgICAgKGZhbHNlLCAiaW5oZXJpdCIsIGZhbHNlKSwKICAgICAgICAgICAgKGZhbHNlLCAicHVibGljIiwgZmFsc2UpLAogICAgICAgICAgICAoZmFsc2UsICJyZXF1aXJlX2xvZ2luIiwgdHJ1ZSksCiAgICAgICAgICAgICh0cnVlLCAiaW5oZXJpdCIsIHRydWUpLAogICAgICAgICAgICAodHJ1ZSwgInB1YmxpYyIsIHRydWUpLAogICAgICAgICAgICAodHJ1ZSwgInJlcXVpcmVfbG9naW4iLCB0cnVlKSwKICAgICAgICBdIHsKICAgICAgICAgICAgbGV0IG1hcHBpbmcgPQogICAgICAgICAgICAgICAgc2VyZGVfanNvbjo6anNvbiEoeyJ1c2VfYXV0aCI6IHVzZV9hdXRoLCAibG9jYXRpb25zIjogW3siYXV0aF9tb2RlIjogbW9kZX1dfSk7CiAgICAgICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgICAgICBzdXBlcjo6aG9zdF9tYXBwaW5nX3VzZXNfYXV0aChtYXBwaW5nLmFzX29iamVjdCgpLnVud3JhcCgpKSwKICAgICAgICAgICAgICAgIGV4cGVjdGVkCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIGxldCBhdXRoID0gc2VyZGVfanNvbjo6anNvbiEoeyJzZXJ2aWNlX3JvbGUiOiAiYXV0aCIsICJ1c2VfYXV0aCI6IHRydWUsICJsb2NhdGlvbnMiOiBbeyJhdXRoX21vZGUiOiAicmVxdWlyZV9sb2dpbiJ9XX0pOwogICAgICAgIGFzc2VydCEoIXN1cGVyOjpob3N0X21hcHBpbmdfdXNlc19hdXRoKGF1dGguYXNfb2JqZWN0KCkudW53cmFwKCkpKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBkZXRlY3RzX3N1YmRvbWFpbl9yb3V0aW5nX21vZGVzKCkgewogICAgICAgIGFzc2VydCEoaXNfYW55X3N1YmRvbWFpbl9yb3V0aW5nX21vZGUoJmpzb24hKHsgInJ1bl90eXBlIjogMyB9KSkpOwogICAgICAgIGFzc2VydCEoaXNfYW55X3N1YmRvbWFpbl9yb3V0aW5nX21vZGUoJmpzb24hKHsKICAgICAgICAgICAgInJ1bl90eXBlIjogMSwKICAgICAgICAgICAgInJldmVyc2VfcHJveHlfc3VibW9kZSI6ICJzdWJkb21haW4iCiAgICAgICAgfSkpKTsKICAgICAgICBhc3NlcnQhKCFpc19hbnlfc3ViZG9tYWluX3JvdXRpbmdfbW9kZSgmanNvbiEoewogICAgICAgICAgICAicnVuX3R5cGUiOiAxLAogICAgICAgICAgICAicmV2ZXJzZV9wcm94eV9zdWJtb2RlIjogInBhdGgiCiAgICAgICAgfSkpKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBkZXRlY3RzX2FjdGl2ZV9lZGdlX2NsaWVudF9pcF9wcm92aWRlcnMoKSB7CiAgICAgICAgZm9yIHByb3ZpZGVyIGluIFsiYWxpeXVuX2VzYV9lbmFibGVkIiwgInRlbmNlbnRfZWRnZW9uZV9lbmFibGVkIl0gewogICAgICAgICAgICBsZXQgbXV0IGNvbmZpZyA9IGpzb24hKHsKICAgICAgICAgICAgICAgICJydW5fdHlwZSI6IDMsCiAgICAgICAgICAgICAgICAic3ViZG9tYWluX21vZGUiOiB7CiAgICAgICAgICAgICAgICAgICAgImVkZ2VfY2xpZW50X2lwX2VuYWJsZWQiOiB0cnVlLAogICAgICAgICAgICAgICAgICAgICJhbGl5dW5fZXNhX2VuYWJsZWQiOiBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAidGVuY2VudF9lZGdlb25lX2VuYWJsZWQiOiBmYWxzZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9KTsKICAgICAgICAgICAgY29uZmlnWyJzdWJkb21haW5fbW9kZSJdW3Byb3ZpZGVyXSA9IFZhbHVlOjpCb29sKHRydWUpOwogICAgICAgICAgICBhc3NlcnQhKGlzX2VkZ2VfY2xpZW50X2lwX2FjdGl2ZSgmY29uZmlnKSwgInByb3ZpZGVyPXtwcm92aWRlcn0iKTsKICAgICAgICB9CgogICAgICAgIGFzc2VydCEoIWlzX2VkZ2VfY2xpZW50X2lwX2FjdGl2ZSgmanNvbiEoewogICAgICAgICAgICAicnVuX3R5cGUiOiAzLAogICAgICAgICAgICAic3ViZG9tYWluX21vZGUiOiB7CiAgICAgICAgICAgICAgICAiZWRnZV9jbGllbnRfaXBfZW5hYmxlZCI6IHRydWUsCiAgICAgICAgICAgICAgICAiYWxpeXVuX2VzYV9lbmFibGVkIjogZmFsc2UsCiAgICAgICAgICAgICAgICAidGVuY2VudF9lZGdlb25lX2VuYWJsZWQiOiBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfSkpKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBwYXJzZXNfdGFyZ2V0X3BvcnRzX3dpdGhfZXhpc3RpbmdfbGVuaWVudF9ydWxlcygpIHsKICAgICAgICBhc3NlcnRfZXEhKHBhcnNlX3RhcmdldF9wb3J0X2k2NCgiaHR0cDovL2V4YW1wbGUuY29tIiksIFNvbWUoODApKTsKICAgICAgICBhc3NlcnRfZXEhKHBhcnNlX3RhcmdldF9wb3J0X2k2NCgiaHR0cHM6Ly9leGFtcGxlLmNvbSIpLCBTb21lKDQ0MykpOwogICAgICAgIGFzc2VydF9lcSEocGFyc2VfdGFyZ2V0X3BvcnRfaTY0KCIxMjcuMC4wLjE6Nzk5Ny9wYXRoIiksIFNvbWUoNzk5NykpOwogICAgICAgIGFzc2VydF9lcSEocGFyc2VfdGFyZ2V0X3BvcnRfaTY0KCJleGFtcGxlLmNvbTowIiksIE5vbmUpOwogICAgICAgIGFzc2VydF9lcSEocGFyc2VfdXJsX3RhcmdldF9wb3J0X3UxNigiZXhhbXBsZS5jb206Nzk5Ny9wYXRoIiksIE5vbmUpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGVudl9wb3J0X3BhcnNlcnNfcHJlc2VydmVfbm9kZV9wYXJzZV9pbnRfZWRnZXMoKSB7CiAgICAgICAgYXNzZXJ0X2VxIShwYXJzZV9lbnZfcG9ydF9pNjRfd2l0aF9mYWxsYmFja192YWx1ZShOb25lLCA3OTk3KSwgNzk5Nyk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgcGFyc2VfZW52X3BvcnRfaTY0X3dpdGhfZmFsbGJhY2tfdmFsdWUoU29tZShTdHJpbmc6Om5ldygpKSwgNzk5NyksCiAgICAgICAgICAgIDc5OTcKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHBhcnNlX2Vudl9wb3J0X2k2NF93aXRoX2ZhbGxiYWNrX3ZhbHVlKFNvbWUoIiA3OTk3eCAiLnRvX3N0cmluZygpKSwgNzk5NyksCiAgICAgICAgICAgIDc5OTcKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHBhcnNlX2Vudl9wb3J0X2k2NF93aXRoX2ZhbGxiYWNrX3ZhbHVlKFNvbWUoIjgwMDB4Ii50b19zdHJpbmcoKSksIDc5OTcpLAogICAgICAgICAgICA4MDAwCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBwYXJzZV9lbnZfcG9ydF9pNjRfd2l0aF9mYWxsYmFja192YWx1ZShTb21lKCIweDEwIi50b19zdHJpbmcoKSksIDc5OTcpLAogICAgICAgICAgICA3OTk3CiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBwYXJzZV9lbnZfcG9ydF9pNjRfd2l0aF9mYWxsYmFja192YWx1ZShTb21lKCJhYmMiLnRvX3N0cmluZygpKSwgNzk5NyksCiAgICAgICAgICAgIDc5OTcKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHBhcnNlX2Vudl9wb3J0X3UxNl93aXRoX2ZhbGxiYWNrX3ZhbHVlKFNvbWUoIjY1NTM2Ii50b19zdHJpbmcoKSksIDc5OTcpLAogICAgICAgICAgICA3OTk3CiAgICAgICAgKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBkZWZhdWx0X2F1dGhfdGFyZ2V0X2ZvbGxvd3NfdGhlX3J1bnRpbWVfYXV0aF9wb3J0KCkgewogICAgICAgIGxldCBlbnZpcm9ubWVudCA9IGNyYXRlOjp0ZXN0X3N1cHBvcnQ6OkVudkd1YXJkOjpuZXcoJlsiQVVUSF9QT1JUIl0pOwogICAgICAgIGVudmlyb25tZW50LnNldCgiQVVUSF9QT1JUIiwgIjg5OTciKTsKCiAgICAgICAgYXNzZXJ0X2VxIShhdXRoX3NlcnZpY2VfcG9ydCgpLCA4OTk3KTsKICAgICAgICBhc3NlcnRfZXEhKGRlZmF1bHRfYXV0aF9zZXJ2aWNlX3RhcmdldCgpLCAiaHR0cDovLzEyNy4wLjAuMTo4OTk3Iik7CiAgICB9Cn0K
+use serde_json::Value;
+use url::Url;
+
+const DEFAULT_AUTH_SERVICE_PORT: u16 = 7997;
+
+/// Includes paths that opt into authentication on an otherwise public Host.
+pub(crate) fn host_mapping_uses_auth(mapping: &serde_json::Map<String, Value>) -> bool {
+    mapping.get("service_role").and_then(Value::as_str) != Some("auth")
+        && (mapping
+            .get("use_auth")
+            .and_then(Value::as_bool)
+            .unwrap_or(true)
+            || mapping
+                .get("locations")
+                .and_then(Value::as_array)
+                .is_some_and(|locations| {
+                    locations.iter().any(|location| {
+                        location.get("auth_mode").and_then(Value::as_str) == Some("require_login")
+                    })
+                }))
+}
+
+pub(crate) fn is_reverse_proxy_subdomain_mode(config: &Value) -> bool {
+    config.get("run_type").and_then(Value::as_i64) == Some(1)
+        && config
+            .get("reverse_proxy_submode")
+            .and_then(Value::as_str)
+            .unwrap_or("path")
+            == "subdomain"
+}
+
+pub(crate) fn is_any_subdomain_routing_mode(config: &Value) -> bool {
+    config.get("run_type").and_then(Value::as_i64) == Some(3)
+        || is_reverse_proxy_subdomain_mode(config)
+}
+
+pub(crate) fn is_edge_client_ip_active(config: &Value) -> bool {
+    config.get("run_type").and_then(Value::as_i64) == Some(3)
+        && config
+            .pointer("/subdomain_mode/edge_client_ip_enabled")
+            .and_then(Value::as_bool)
+            .unwrap_or(false)
+        && (config
+            .pointer("/subdomain_mode/aliyun_esa_enabled")
+            .and_then(Value::as_bool)
+            .unwrap_or(false)
+            || config
+                .pointer("/subdomain_mode/tencent_edgeone_enabled")
+                .and_then(Value::as_bool)
+                .unwrap_or(false))
+}
+
+pub(crate) fn parse_target_port_i64(target: &str) -> Option<i64> {
+    let normalized = target.trim();
+    if normalized.is_empty() {
+        return None;
+    }
+    if let Ok(parsed) = Url::parse(normalized) {
+        return parsed
+            .port()
+            .map(i64::from)
+            .or_else(|| default_port_for_scheme(parsed.scheme()).map(i64::from));
+    }
+    let (_, tail) = normalized.rsplit_once(':')?;
+    let digits = tail
+        .chars()
+        .take_while(|ch| ch.is_ascii_digit())
+        .collect::<String>();
+    if digits.is_empty() {
+        return None;
+    }
+    digits
+        .parse::<i64>()
+        .ok()
+        .filter(|port| *port > 0 && *port <= u16::MAX as i64)
+}
+
+pub(crate) fn parse_target_port_u16(target: &str) -> Option<u16> {
+    parse_target_port_i64(target).and_then(|port| u16::try_from(port).ok())
+}
+
+pub(crate) fn parse_url_target_port_u16(target: &str) -> Option<u16> {
+    let parsed = Url::parse(target.trim()).ok()?;
+    parsed
+        .port()
+        .or_else(|| default_port_for_scheme(parsed.scheme()))
+}
+
+pub(crate) fn parse_env_port_i64_with_fallback_value(value: Option<String>, fallback: i64) -> i64 {
+    let raw = value
+        .filter(|value| !value.is_empty())
+        .unwrap_or_else(|| fallback.to_string());
+    crate::node_compat::parse_i64_prefix_trim_start(&raw)
+        .filter(|port| *port > 0)
+        .unwrap_or(fallback)
+}
+
+pub(crate) fn parse_env_port_u16_with_fallback(name: &str, fallback: u16) -> u16 {
+    parse_env_port_u16_with_fallback_value(std::env::var(name).ok(), fallback)
+}
+
+pub(crate) fn parse_env_port_u16_with_fallback_value(value: Option<String>, fallback: u16) -> u16 {
+    let parsed = parse_env_port_i64_with_fallback_value(value, i64::from(fallback));
+    u16::try_from(parsed)
+        .ok()
+        .filter(|port| *port > 0)
+        .unwrap_or(fallback)
+}
+
+pub(crate) fn auth_service_port() -> u16 {
+    parse_env_port_u16_with_fallback("AUTH_PORT", DEFAULT_AUTH_SERVICE_PORT)
+}
+
+pub(crate) fn default_auth_service_target() -> String {
+    format!("http://127.0.0.1:{}", auth_service_port())
+}
+
+fn default_port_for_scheme(scheme: &str) -> Option<u16> {
+    match scheme {
+        "https" | "wss" => Some(443),
+        "http" | "ws" => Some(80),
+        _ => None,
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use serde_json::json;
+
+    #[test]
+    fn host_auth_includes_required_login_paths() {
+        for (use_auth, mode, expected) in [
+            (false, "inherit", false),
+            (false, "public", false),
+            (false, "require_login", true),
+            (true, "inherit", true),
+            (true, "public", true),
+            (true, "require_login", true),
+        ] {
+            let mapping =
+                serde_json::json!({"use_auth": use_auth, "locations": [{"auth_mode": mode}]});
+            assert_eq!(
+                super::host_mapping_uses_auth(mapping.as_object().unwrap()),
+                expected
+            );
+        }
+        let auth = serde_json::json!({"service_role": "auth", "use_auth": true, "locations": [{"auth_mode": "require_login"}]});
+        assert!(!super::host_mapping_uses_auth(auth.as_object().unwrap()));
+    }
+
+    #[test]
+    fn detects_subdomain_routing_modes() {
+        assert!(is_any_subdomain_routing_mode(&json!({ "run_type": 3 })));
+        assert!(is_any_subdomain_routing_mode(&json!({
+            "run_type": 1,
+            "reverse_proxy_submode": "subdomain"
+        })));
+        assert!(!is_any_subdomain_routing_mode(&json!({
+            "run_type": 1,
+            "reverse_proxy_submode": "path"
+        })));
+    }
+
+    #[test]
+    fn detects_active_edge_client_ip_providers() {
+        for provider in ["aliyun_esa_enabled", "tencent_edgeone_enabled"] {
+            let mut config = json!({
+                "run_type": 3,
+                "subdomain_mode": {
+                    "edge_client_ip_enabled": true,
+                    "aliyun_esa_enabled": false,
+                    "tencent_edgeone_enabled": false
+                }
+            });
+            config["subdomain_mode"][provider] = Value::Bool(true);
+            assert!(is_edge_client_ip_active(&config), "provider={provider}");
+        }
+
+        assert!(!is_edge_client_ip_active(&json!({
+            "run_type": 3,
+            "subdomain_mode": {
+                "edge_client_ip_enabled": true,
+                "aliyun_esa_enabled": false,
+                "tencent_edgeone_enabled": false
+            }
+        })));
+    }
+
+    #[test]
+    fn parses_target_ports_with_existing_lenient_rules() {
+        assert_eq!(parse_target_port_i64("http://example.com"), Some(80));
+        assert_eq!(parse_target_port_i64("https://example.com"), Some(443));
+        assert_eq!(parse_target_port_i64("127.0.0.1:7997/path"), Some(7997));
+        assert_eq!(parse_target_port_i64("example.com:0"), None);
+        assert_eq!(parse_url_target_port_u16("example.com:7997/path"), None);
+    }
+
+    #[test]
+    fn env_port_parsers_preserve_node_parse_int_edges() {
+        assert_eq!(parse_env_port_i64_with_fallback_value(None, 7997), 7997);
+        assert_eq!(
+            parse_env_port_i64_with_fallback_value(Some(String::new()), 7997),
+            7997
+        );
+        assert_eq!(
+            parse_env_port_i64_with_fallback_value(Some(" 7997x ".to_string()), 7997),
+            7997
+        );
+        assert_eq!(
+            parse_env_port_i64_with_fallback_value(Some("8000x".to_string()), 7997),
+            8000
+        );
+        assert_eq!(
+            parse_env_port_i64_with_fallback_value(Some("0x10".to_string()), 7997),
+            7997
+        );
+        assert_eq!(
+            parse_env_port_i64_with_fallback_value(Some("abc".to_string()), 7997),
+            7997
+        );
+        assert_eq!(
+            parse_env_port_u16_with_fallback_value(Some("65536".to_string()), 7997),
+            7997
+        );
+    }
+
+    #[test]
+    fn default_auth_target_follows_the_runtime_auth_port() {
+        let environment = crate::test_support::EnvGuard::new(&["AUTH_PORT"]);
+        environment.set("AUTH_PORT", "8997");
+
+        assert_eq!(auth_service_port(), 8997);
+        assert_eq!(default_auth_service_target(), "http://127.0.0.1:8997");
+    }
+}

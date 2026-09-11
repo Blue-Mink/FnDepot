@@ -1,1 +1,172 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgdHlwZSB7IENhcHRjaGFTdWJtaXNzaW9uIH0gZnJvbSAiQGZyb250ZW5kLWNvcmUvY2FwdGNoYS90eXBlcyI7CmltcG9ydCB7IGFwaUNsaWVudCB9IGZyb20gIkAvbGliL2FwaSI7Cgp0eXBlIFRyYW5zbGF0ZSA9ICgKICBrZXk6IHN0cmluZywKICBwYXJhbXM/OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmcgfCBudW1iZXI+LAopID0+IHN0cmluZzsKCmludGVyZmFjZSBVc2VDcmVkZW50aWFsTG9naW5PcHRpb25zIHsKICBjYXB0Y2hhU3VibWlzc2lvbjogUmVmPENhcHRjaGFTdWJtaXNzaW9uIHwgbnVsbD47CiAgY2xlYXJFcnJvcjogKCkgPT4gdm9pZDsKICBoYW5kbGVMb2dpblN1Y2Nlc3M6IChwYXlsb2FkOiB7CiAgICBwYXNza2V5OiBhbnk7CiAgICByZWRpcmVjdFRvOiBzdHJpbmcgfCBudWxsOwogICAgcnVuVHlwZTogMCB8IDEgfCAzOwogIH0pID0+IFByb21pc2U8dW5rbm93bj47CiAgaXNDYXB0Y2hhVmVyaWZpZWQ6IFJlZjxib29sZWFuPjsKICBpc0xvZ2luQ29tcGxldGlvblBlbmRpbmc6ICgpID0+IGJvb2xlYW47CiAgaXNMb2dpbkNvb2xpbmdEb3duOiBSZWY8Ym9vbGVhbj47CiAgaXNQYXNza2V5U3VwcG9ydGVkOiBSZWY8Ym9vbGVhbj47CiAgY3JlZGVudGlhbEtpbmQ6IFJlZjwidG90cCIgfCAibGRhcCI+OwogIGxkYXBQcm92aWRlcklkOiBSZWY8c3RyaW5nPjsKICBsb2dpbkNvb2xkb3duU2Vjb25kczogUmVmPG51bWJlcj47CiAgbG9naW5Nb2RlOiBSZWY8InRvdHAiIHwgInBhc3N3b3JkIj47CiAgcGFzc3dvcmQ6IFJlZjxzdHJpbmc+OwogIHJlZGlyZWN0VXJpOiBzdHJpbmcgfCBudWxsOwogIHJlbWVtYmVyTWU6IFJlZjxib29sZWFuPjsKICByZXBvcnRFcnJvcjogKG1lc3NhZ2U6IHN0cmluZykgPT4gdm9pZDsKICByZXNldENhcHRjaGFXaWRnZXRzOiAoKSA9PiB2b2lkOwogIHJlc29sdmVMb2dpbkNvb2xkb3duTWVzc2FnZTogKG1lc3NhZ2U6IHN0cmluZywgc291cmNlPzogdW5rbm93bikgPT4gc3RyaW5nOwogIHRva2VuOiBSZWY8c3RyaW5nPjsKICB0cmFuc2xhdGU6IFRyYW5zbGF0ZTsKICB1c2VybmFtZTogUmVmPHN0cmluZz47Cn0KCmV4cG9ydCBmdW5jdGlvbiB1c2VDcmVkZW50aWFsTG9naW4oewogIGNhcHRjaGFTdWJtaXNzaW9uLAogIGNsZWFyRXJyb3IsCiAgaGFuZGxlTG9naW5TdWNjZXNzLAogIGlzQ2FwdGNoYVZlcmlmaWVkLAogIGlzTG9naW5Db21wbGV0aW9uUGVuZGluZywKICBpc0xvZ2luQ29vbGluZ0Rvd24sCiAgaXNQYXNza2V5U3VwcG9ydGVkLAogIGNyZWRlbnRpYWxLaW5kLAogIGxkYXBQcm92aWRlcklkLAogIGxvZ2luQ29vbGRvd25TZWNvbmRzLAogIGxvZ2luTW9kZSwKICBwYXNzd29yZCwKICByZWRpcmVjdFVyaSwKICByZW1lbWJlck1lLAogIHJlcG9ydEVycm9yLAogIHJlc2V0Q2FwdGNoYVdpZGdldHMsCiAgcmVzb2x2ZUxvZ2luQ29vbGRvd25NZXNzYWdlLAogIHRva2VuLAogIHRyYW5zbGF0ZSwKICB1c2VybmFtZSwKfTogVXNlQ3JlZGVudGlhbExvZ2luT3B0aW9ucykgewogIGNvbnN0IGlzTG9hZGluZyA9IHJlZihmYWxzZSk7CiAgbGV0IGxhc3RMb2dpbkF0dGVtcHRBdCA9IDA7CiAgY29uc3QgbG9naW5CdXR0b25MYWJlbCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGlmIChpc0xvYWRpbmcudmFsdWUpIHJldHVybiB0cmFuc2xhdGUoImF1dGgudmVyaWZ5aW5nIik7CiAgICBpZiAoaXNMb2dpbkNvb2xpbmdEb3duLnZhbHVlKSB7CiAgICAgIHJldHVybiB0cmFuc2xhdGUoImF1dGgucmV0cnlBZnRlclNlY29uZHMiLCB7CiAgICAgICAgc2Vjb25kczogbG9naW5Db29sZG93blNlY29uZHMudmFsdWUsCiAgICAgIH0pOwogICAgfQogICAgcmV0dXJuIHRyYW5zbGF0ZSgiYXV0aC52ZXJpZnlOb3ciKTsKICB9KTsKCiAgY29uc3QgcmVzZXRMb2dpblN0YXRlID0gKCkgPT4gewogICAgdG9rZW4udmFsdWUgPSAiIjsKICAgIHBhc3N3b3JkLnZhbHVlID0gIiI7CiAgICByZXNldENhcHRjaGFXaWRnZXRzKCk7CiAgfTsKCiAgY29uc3QgaGFuZGxlTG9naW4gPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoCiAgICAgIGlzTG9hZGluZy52YWx1ZSB8fAogICAgICBpc0xvZ2luQ29vbGluZ0Rvd24udmFsdWUgfHwKICAgICAgaXNMb2dpbkNvbXBsZXRpb25QZW5kaW5nKCkKICAgICkgewogICAgICByZXR1cm47CiAgICB9CiAgICBjb25zdCBtZXRob2QgPQogICAgICBsb2dpbk1vZGUudmFsdWUgPT09ICJwYXNzd29yZCIgPyAicGFzc3dvcmQiIDogY3JlZGVudGlhbEtpbmQudmFsdWU7CiAgICBpZiAobWV0aG9kID09PSAidG90cCIgJiYgdG9rZW4udmFsdWUubGVuZ3RoICE9PSA2KSB7CiAgICAgIHJlcG9ydEVycm9yKHRyYW5zbGF0ZSgiYXV0aC5pbnZhbGlkT3RwTGVuZ3RoIikpOwogICAgICByZXR1cm47CiAgICB9CiAgICBpZiAoCiAgICAgIChtZXRob2QgPT09ICJwYXNzd29yZCIgfHwgbWV0aG9kID09PSAibGRhcCIpICYmCiAgICAgICghdXNlcm5hbWUudmFsdWUudHJpbSgpIHx8ICFwYXNzd29yZC52YWx1ZSkKICAgICkgewogICAgICByZXBvcnRFcnJvcih0cmFuc2xhdGUoImF1dGgudXNlcm5hbWVQYXNzd29yZFJlcXVpcmVkIikpOwogICAgICByZXR1cm47CiAgICB9CiAgICBpZiAobWV0aG9kID09PSAibGRhcCIgJiYgIWxkYXBQcm92aWRlcklkLnZhbHVlKSB7CiAgICAgIHJlcG9ydEVycm9yKHRyYW5zbGF0ZSgiYXV0aC5sZGFwUHJvdmlkZXJSZXF1aXJlZCIpKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKCFpc0NhcHRjaGFWZXJpZmllZC52YWx1ZSB8fCAhY2FwdGNoYVN1Ym1pc3Npb24udmFsdWUpIHsKICAgICAgcmVwb3J0RXJyb3IodHJhbnNsYXRlKCJhdXRoLmNhcHRjaGFGaXJzdCIpKTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGNvbnN0IG5vdyA9IERhdGUubm93KCk7CiAgICBpZiAobm93IC0gbGFzdExvZ2luQXR0ZW1wdEF0IDwgNDAwKSByZXR1cm47CiAgICBsYXN0TG9naW5BdHRlbXB0QXQgPSBub3c7CiAgICBpc0xvYWRpbmcudmFsdWUgPSB0cnVlOwogICAgY2xlYXJFcnJvcigpOwoKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9sb2dpbiIsIHsKICAgICAgICBtZXRob2QsCiAgICAgICAgcHJvdmlkZXJfaWQ6IG1ldGhvZCA9PT0gImxkYXAiID8gbGRhcFByb3ZpZGVySWQudmFsdWUgOiB1bmRlZmluZWQsCiAgICAgICAgdG9rZW46IG1ldGhvZCA9PT0gInRvdHAiID8gdG9rZW4udmFsdWUgOiB1bmRlZmluZWQsCiAgICAgICAgdXNlcm5hbWU6CiAgICAgICAgICBtZXRob2QgPT09ICJwYXNzd29yZCIgfHwgbWV0aG9kID09PSAibGRhcCIKICAgICAgICAgICAgPyB1c2VybmFtZS52YWx1ZS50cmltKCkKICAgICAgICAgICAgOiB1bmRlZmluZWQsCiAgICAgICAgcGFzc3dvcmQ6CiAgICAgICAgICBtZXRob2QgPT09ICJwYXNzd29yZCIgfHwgbWV0aG9kID09PSAibGRhcCIKICAgICAgICAgICAgPyBwYXNzd29yZC52YWx1ZQogICAgICAgICAgICA6IHVuZGVmaW5lZCwKICAgICAgICBjYXB0Y2hhOiBjYXB0Y2hhU3VibWlzc2lvbi52YWx1ZSwKICAgICAgICByZW1lbWJlck1lOiByZW1lbWJlck1lLnZhbHVlLAogICAgICAgIHJlZGlyZWN0X3VyaTogcmVkaXJlY3RVcmkgfHwgdW5kZWZpbmVkLAogICAgICB9KTsKCiAgICAgIGlmIChyZXNwb25zZS5kYXRhLnN1Y2Nlc3MpIHsKICAgICAgICBjb25zdCBydW5UeXBlID0gKHJlc3BvbnNlLmRhdGEuZGF0YT8ucnVuX3R5cGUgPz8gMykgYXMgMCB8IDEgfCAzOwogICAgICAgIGNvbnN0IHJlZGlyZWN0VG8gPQogICAgICAgICAgdHlwZW9mIHJlc3BvbnNlLmRhdGEuZGF0YT8ucmVkaXJlY3RfdG8gPT09ICJzdHJpbmciCiAgICAgICAgICAgID8gcmVzcG9uc2UuZGF0YS5kYXRhLnJlZGlyZWN0X3RvCiAgICAgICAgICAgIDogbnVsbDsKICAgICAgICBjb25zdCBwYXNza2V5ID0gaXNQYXNza2V5U3VwcG9ydGVkLnZhbHVlCiAgICAgICAgICA/IHJlc3BvbnNlLmRhdGEuZGF0YT8ucGFzc2tleQogICAgICAgICAgOiBudWxsOwogICAgICAgIGF3YWl0IGhhbmRsZUxvZ2luU3VjY2Vzcyh7IHBhc3NrZXksIHJlZGlyZWN0VG8sIHJ1blR5cGUgfSk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgcmVwb3J0RXJyb3IoCiAgICAgICAgICByZXNvbHZlTG9naW5Db29sZG93bk1lc3NhZ2UoCiAgICAgICAgICAgIHJlc3BvbnNlLmRhdGEubWVzc2FnZSB8fCB0cmFuc2xhdGUoImF1dGgubG9naW5GYWlsZWQiKSwKICAgICAgICAgICAgcmVzcG9uc2UuZGF0YSwKICAgICAgICAgICksCiAgICAgICAgKTsKICAgICAgICByZXNldExvZ2luU3RhdGUoKTsKICAgICAgfQogICAgfSBjYXRjaCAoZXJyb3I6IGFueSkgewogICAgICByZXBvcnRFcnJvcigKICAgICAgICByZXNvbHZlTG9naW5Db29sZG93bk1lc3NhZ2UoCiAgICAgICAgICBlcnJvcj8ucmVzcG9uc2U/LmRhdGE/Lm1lc3NhZ2UgfHwgdHJhbnNsYXRlKCJhdXRoLmxvZ2luRmFpbGVkIiksCiAgICAgICAgICBlcnJvciwKICAgICAgICApLAogICAgICApOwogICAgICByZXNldExvZ2luU3RhdGUoKTsKICAgIH0gZmluYWxseSB7CiAgICAgIGlzTG9hZGluZy52YWx1ZSA9IGZhbHNlOwogICAgfQogIH07CgogIGNvbnN0IGhhbmRsZU90cENvbXBsZXRlID0gKCkgPT4gdm9pZCBoYW5kbGVMb2dpbigpOwoKICByZXR1cm4gewogICAgaGFuZGxlTG9naW4sCiAgICBoYW5kbGVPdHBDb21wbGV0ZSwKICAgIGlzTG9hZGluZywKICAgIGxvZ2luQnV0dG9uTGFiZWwsCiAgICByZXNldExvZ2luU3RhdGUsCiAgfTsKfQo=
+import { computed, ref, type Ref } from "vue";
+import type { CaptchaSubmission } from "@frontend-core/captcha/types";
+import { apiClient } from "@/lib/api";
+
+type Translate = (
+  key: string,
+  params?: Record<string, string | number>,
+) => string;
+
+interface UseCredentialLoginOptions {
+  captchaSubmission: Ref<CaptchaSubmission | null>;
+  clearError: () => void;
+  handleLoginSuccess: (payload: {
+    passkey: any;
+    redirectTo: string | null;
+    runType: 0 | 1 | 3;
+  }) => Promise<unknown>;
+  isCaptchaVerified: Ref<boolean>;
+  isLoginCompletionPending: () => boolean;
+  isLoginCoolingDown: Ref<boolean>;
+  isPasskeySupported: Ref<boolean>;
+  credentialKind: Ref<"totp" | "ldap">;
+  ldapProviderId: Ref<string>;
+  loginCooldownSeconds: Ref<number>;
+  loginMode: Ref<"totp" | "password">;
+  password: Ref<string>;
+  redirectUri: string | null;
+  rememberMe: Ref<boolean>;
+  reportError: (message: string) => void;
+  resetCaptchaWidgets: () => void;
+  resolveLoginCooldownMessage: (message: string, source?: unknown) => string;
+  token: Ref<string>;
+  translate: Translate;
+  username: Ref<string>;
+}
+
+export function useCredentialLogin({
+  captchaSubmission,
+  clearError,
+  handleLoginSuccess,
+  isCaptchaVerified,
+  isLoginCompletionPending,
+  isLoginCoolingDown,
+  isPasskeySupported,
+  credentialKind,
+  ldapProviderId,
+  loginCooldownSeconds,
+  loginMode,
+  password,
+  redirectUri,
+  rememberMe,
+  reportError,
+  resetCaptchaWidgets,
+  resolveLoginCooldownMessage,
+  token,
+  translate,
+  username,
+}: UseCredentialLoginOptions) {
+  const isLoading = ref(false);
+  let lastLoginAttemptAt = 0;
+  const loginButtonLabel = computed(() => {
+    if (isLoading.value) return translate("auth.verifying");
+    if (isLoginCoolingDown.value) {
+      return translate("auth.retryAfterSeconds", {
+        seconds: loginCooldownSeconds.value,
+      });
+    }
+    return translate("auth.verifyNow");
+  });
+
+  const resetLoginState = () => {
+    token.value = "";
+    password.value = "";
+    resetCaptchaWidgets();
+  };
+
+  const handleLogin = async () => {
+    if (
+      isLoading.value ||
+      isLoginCoolingDown.value ||
+      isLoginCompletionPending()
+    ) {
+      return;
+    }
+    const method =
+      loginMode.value === "password" ? "password" : credentialKind.value;
+    if (method === "totp" && token.value.length !== 6) {
+      reportError(translate("auth.invalidOtpLength"));
+      return;
+    }
+    if (
+      (method === "password" || method === "ldap") &&
+      (!username.value.trim() || !password.value)
+    ) {
+      reportError(translate("auth.usernamePasswordRequired"));
+      return;
+    }
+    if (method === "ldap" && !ldapProviderId.value) {
+      reportError(translate("auth.ldapProviderRequired"));
+      return;
+    }
+    if (!isCaptchaVerified.value || !captchaSubmission.value) {
+      reportError(translate("auth.captchaFirst"));
+      return;
+    }
+
+    const now = Date.now();
+    if (now - lastLoginAttemptAt < 400) return;
+    lastLoginAttemptAt = now;
+    isLoading.value = true;
+    clearError();
+
+    try {
+      const response = await apiClient.post("/login", {
+        method,
+        provider_id: method === "ldap" ? ldapProviderId.value : undefined,
+        token: method === "totp" ? token.value : undefined,
+        username:
+          method === "password" || method === "ldap"
+            ? username.value.trim()
+            : undefined,
+        password:
+          method === "password" || method === "ldap"
+            ? password.value
+            : undefined,
+        captcha: captchaSubmission.value,
+        rememberMe: rememberMe.value,
+        redirect_uri: redirectUri || undefined,
+      });
+
+      if (response.data.success) {
+        const runType = (response.data.data?.run_type ?? 3) as 0 | 1 | 3;
+        const redirectTo =
+          typeof response.data.data?.redirect_to === "string"
+            ? response.data.data.redirect_to
+            : null;
+        const passkey = isPasskeySupported.value
+          ? response.data.data?.passkey
+          : null;
+        await handleLoginSuccess({ passkey, redirectTo, runType });
+      } else {
+        reportError(
+          resolveLoginCooldownMessage(
+            response.data.message || translate("auth.loginFailed"),
+            response.data,
+          ),
+        );
+        resetLoginState();
+      }
+    } catch (error: any) {
+      reportError(
+        resolveLoginCooldownMessage(
+          error?.response?.data?.message || translate("auth.loginFailed"),
+          error,
+        ),
+      );
+      resetLoginState();
+    } finally {
+      isLoading.value = false;
+    }
+  };
+
+  const handleOtpComplete = () => void handleLogin();
+
+  return {
+    handleLogin,
+    handleOtpComplete,
+    isLoading,
+    loginButtonLabel,
+    resetLoginState,
+  };
+}

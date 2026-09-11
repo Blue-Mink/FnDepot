@@ -1,1 +1,157 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsgU3dpdGNoIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N3aXRjaCI7CmltcG9ydCBTZXNzaW9uRHVyYXRpb25GaWVsZFJvdyBmcm9tICIuLi9TZXNzaW9uRHVyYXRpb25GaWVsZFJvdy52dWUiOwppbXBvcnQgdHlwZSB7IFNlc3Npb25TZXR0aW5nc0NvbnRyb2xsZXIgfSBmcm9tICIuL3VzZVNlc3Npb25TZXR0aW5nc0NvbnRyb2xsZXIiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgY29udHJvbGxlcjogU2Vzc2lvblNldHRpbmdzQ29udHJvbGxlcjsKICBtb2JpbGl0eVN3aXRjaElkOiBzdHJpbmc7Cn0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCB7CiAgZWZmZWN0aXZlU2hhcmVkQ29va2llRG9tYWluLAogIGZvcm0sCiAgZ3JhbnRNb2RlU3VtbWFyeSwKICBpbmNvbXBhdGlibGVDb29raWVTY29wZUhvc3RzLAogIGlwR3JhbnREdXJhdGlvblVuaXRzLAogIGlzRGlyZWN0TW9kZSwKICBpc1NhdmluZywKICBpc1N1YmRvbWFpblJvdXRpbmdNb2RlLAogIG1vYmlsaXR5V2luZG93RHVyYXRpb25Vbml0cywKICBwb3N0TG9naW5JcEdyYW50TW9kZU9wdGlvbnMsCiAgc2Vzc2lvbklwTW9iaWxpdHlTdW1tYXJ5LAp9ID0gcHJvcHMuY29udHJvbGxlcjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0ic3BhY2UteS00IHAtNiI+CiAgICA8ZGl2CiAgICAgIHYtaWY9ImlzRGlyZWN0TW9kZSIKICAgICAgY2xhc3M9InJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctbXV0ZWQvMjAgcHgtNCBweS00IgogICAgPgogICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvblNldHRpbmdzLmRpcmVjdE1vZGVUaXRsZSIpIH19CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJtdC0xIHRleHQtc20gbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvblNldHRpbmdzLmRpcmVjdE1vZGVEZXNjcmlwdGlvbiIpIH19CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CgogICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgPGRpdiBjbGFzcz0idGV4dC1iYXNlIGZvbnQtbWVkaXVtIj4KICAgICAgICB7eyB0KCJhZG1pbi5zZXNzaW9uU2V0dGluZ3MucG9zdExvZ2luSXBHcmFudE1vZGUiKSB9fQogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25TZXR0aW5ncy5wb3N0TG9naW5JcEdyYW50TW9kZURlc2NyaXB0aW9uIikgfX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8ZGl2CiAgICAgIHJvbGU9Imdyb3VwIgogICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uc2Vzc2lvblNldHRpbmdzLnBvc3RMb2dpbklwR3JhbnRNb2RlJykiCiAgICAgIGNsYXNzPSJncmlkIGdhcC0zIG1kOmdyaWQtY29scy0zIgogICAgPgogICAgICA8YnV0dG9uCiAgICAgICAgdi1mb3I9Im9wdGlvbiBpbiBwb3N0TG9naW5JcEdyYW50TW9kZU9wdGlvbnMiCiAgICAgICAgOmtleT0ib3B0aW9uLnZhbHVlIgogICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICBjbGFzcz0icm91bmRlZC14bCBib3JkZXIgcHgtNCBweS00IHRleHQtbGVmdCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICA6Y2xhc3M9IgogICAgICAgICAgZm9ybS5wb3N0TG9naW5JcEdyYW50TW9kZSA9PT0gb3B0aW9uLnZhbHVlCiAgICAgICAgICAgID8gJ2JvcmRlci1wcmltYXJ5IGJnLXByaW1hcnkvNScKICAgICAgICAgICAgOiAnYm9yZGVyLWJvcmRlciBiZy1iYWNrZ3JvdW5kIGhvdmVyOmJvcmRlci1wcmltYXJ5LzQwIGhvdmVyOmJnLW11dGVkLzMwJwogICAgICAgICIKICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nIgogICAgICAgIDphcmlhLXByZXNzZWQ9ImZvcm0ucG9zdExvZ2luSXBHcmFudE1vZGUgPT09IG9wdGlvbi52YWx1ZSIKICAgICAgICBAY2xpY2s9ImZvcm0ucG9zdExvZ2luSXBHcmFudE1vZGUgPSBvcHRpb24udmFsdWUiCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyBvcHRpb24udGl0bGUgfX0KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJtdC0xIHRleHQtc20gbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyBvcHRpb24uZGVzY3JpcHRpb24gfX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9idXR0b24+CiAgICA8L2Rpdj4KCiAgICA8U2Vzc2lvbkR1cmF0aW9uRmllbGRSb3cKICAgICAgdi1pZj0iZm9ybS5wb3N0TG9naW5JcEdyYW50TW9kZSA9PT0gJ2N1c3RvbSciCiAgICAgIHYtbW9kZWw9ImZvcm0uY3VzdG9tR3JhbnQiCiAgICAgIDp0aXRsZT0idCgnYWRtaW4uc2Vzc2lvblNldHRpbmdzLmN1c3RvbUdyYW50RHVyYXRpb24nKSIKICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5zZXNzaW9uU2V0dGluZ3MuY3VzdG9tR3JhbnREdXJhdGlvbkRlc2NyaXB0aW9uJykiCiAgICAgIDp1bml0cz0iaXBHcmFudER1cmF0aW9uVW5pdHMiCiAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmciCiAgICAgIGZyYW1lZAogICAgLz4KCiAgICA8ZGl2IGNsYXNzPSJyb3VuZGVkLWxnIGJnLW11dGVkLzIwIHB4LTQgcHktMyB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgIHt7IGdyYW50TW9kZVN1bW1hcnkgfX0KICAgIDwvZGl2PgoKICAgIDxkaXYgY2xhc3M9ImJvcmRlci10IGJvcmRlci1ib3JkZXIvNjAgcHQtNSI+CiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0iZ3JpZCBnYXAtMyBzbTpncmlkLWNvbHMtW21pbm1heCgwLDFmcilfYXV0b10gc206aXRlbXMtY2VudGVyIHNtOmdhcC00IgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIHByLTYiPgogICAgICAgICAgPExhYmVsIDpmb3I9Im1vYmlsaXR5U3dpdGNoSWQiIGNsYXNzPSJ0ZXh0LWJhc2UiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zZXNzaW9uU2V0dGluZ3Muc2Vzc2lvbklwTW9iaWxpdHkiKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25TZXR0aW5ncy5zZXNzaW9uSXBNb2JpbGl0eURlc2NyaXB0aW9uIikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8U3dpdGNoCiAgICAgICAgICA6aWQ9Im1vYmlsaXR5U3dpdGNoSWQiCiAgICAgICAgICBjbGFzcz0ic2hyaW5rLTAgc206anVzdGlmeS1zZWxmLWVuZCIKICAgICAgICAgIDptb2RlbC12YWx1ZT0iZm9ybS5zZXNzaW9uSXBNb2JpbGl0eUVuYWJsZWQiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nIgogICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZm9ybS5zZXNzaW9uSXBNb2JpbGl0eUVuYWJsZWQgPSAkZXZlbnQgPT09IHRydWUiCiAgICAgICAgLz4KICAgICAgPC9kaXY+CgogICAgICA8U2Vzc2lvbkR1cmF0aW9uRmllbGRSb3cKICAgICAgICB2LWlmPSJmb3JtLnNlc3Npb25JcE1vYmlsaXR5RW5hYmxlZCIKICAgICAgICB2LW1vZGVsPSJmb3JtLnNlc3Npb25JcE1vYmlsaXR5V2luZG93IgogICAgICAgIGNsYXNzPSJtdC00IgogICAgICAgIDp0aXRsZT0idCgnYWRtaW4uc2Vzc2lvblNldHRpbmdzLmlwUmV0ZW50aW9uVGltZScpIgogICAgICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4uc2Vzc2lvblNldHRpbmdzLmlwUmV0ZW50aW9uVGltZURlc2NyaXB0aW9uJykiCiAgICAgICAgOnVuaXRzPSJtb2JpbGl0eVdpbmRvd0R1cmF0aW9uVW5pdHMiCiAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZyIKICAgICAgICBmcmFtZWQKICAgICAgLz4KCiAgICAgIDxkaXYgY2xhc3M9Im10LTMgdGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyBzZXNzaW9uSXBNb2JpbGl0eVN1bW1hcnkgfX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8ZGl2CiAgICAgIHYtaWY9ImZvcm0ucG9zdExvZ2luSXBHcmFudE1vZGUgPT09ICdkaXNhYmxlZCcgJiYgaXNTdWJkb21haW5Sb3V0aW5nTW9kZSIKICAgICAgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctbXV0ZWQvMjAgcHgtNCBweS0zIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgPgogICAgICA8dGVtcGxhdGUgdi1pZj0iZWZmZWN0aXZlU2hhcmVkQ29va2llRG9tYWluIj4KICAgICAgICB7eyB0KCJhZG1pbi5zZXNzaW9uU2V0dGluZ3Muc2hhcmVkQ29va2llUHJlZml4IikgfX0KICAgICAgICA8Y29kZT57eyBlZmZlY3RpdmVTaGFyZWRDb29raWVEb21haW4gfX08L2NvZGU+CiAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvblNldHRpbmdzLnNoYXJlZENvb2tpZVN1ZmZpeCIpIH19CiAgICAgICAgPHRlbXBsYXRlIHYtaWY9ImluY29tcGF0aWJsZUNvb2tpZVNjb3BlSG9zdHMubGVuZ3RoID4gMCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zZXNzaW9uU2V0dGluZ3MuaW5jb21wYXRpYmxlSG9zdHNQcmVmaXgiKSB9fQogICAgICAgICAgPGNvZGU+e3sKICAgICAgICAgICAgaW5jb21wYXRpYmxlQ29va2llU2NvcGVIb3N0cy5qb2luKAogICAgICAgICAgICAgIHQoImFkbWluLnNlc3Npb25TZXR0aW5ncy5saXN0U2VwYXJhdG9yIiksCiAgICAgICAgICAgICkKICAgICAgICAgIH19PC9jb2RlPgogICAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvblNldHRpbmdzLmluY29tcGF0aWJsZUhvc3RzU3VmZml4IikgfX0KICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgIDx0ZW1wbGF0ZSB2LWVsc2U+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zZXNzaW9uU2V0dGluZ3MuYWxsSG9zdHNDb21wYXRpYmxlIikgfX0KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L3RlbXBsYXRlPgogICAgICA8dGVtcGxhdGUgdi1lbHNlPgogICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25TZXR0aW5ncy5ub1NoYXJlZENvb2tpZURvbWFpbiIpIH19CiAgICAgIDwvdGVtcGxhdGU+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import SessionDurationFieldRow from "../SessionDurationFieldRow.vue";
+import type { SessionSettingsController } from "./useSessionSettingsController";
+
+const props = defineProps<{
+  controller: SessionSettingsController;
+  mobilitySwitchId: string;
+}>();
+const { t } = useI18n();
+const {
+  effectiveSharedCookieDomain,
+  form,
+  grantModeSummary,
+  incompatibleCookieScopeHosts,
+  ipGrantDurationUnits,
+  isDirectMode,
+  isSaving,
+  isSubdomainRoutingMode,
+  mobilityWindowDurationUnits,
+  postLoginIpGrantModeOptions,
+  sessionIpMobilitySummary,
+} = props.controller;
+</script>
+
+<template>
+  <div class="space-y-4 p-6">
+    <div
+      v-if="isDirectMode"
+      class="rounded-xl border border-border bg-muted/20 px-4 py-4"
+    >
+      <div class="text-sm font-medium text-foreground">
+        {{ t("admin.sessionSettings.directModeTitle") }}
+      </div>
+      <div class="mt-1 text-sm leading-6 text-muted-foreground">
+        {{ t("admin.sessionSettings.directModeDescription") }}
+      </div>
+    </div>
+
+    <div class="space-y-1">
+      <div class="text-base font-medium">
+        {{ t("admin.sessionSettings.postLoginIpGrantMode") }}
+      </div>
+      <div class="text-sm text-muted-foreground">
+        {{ t("admin.sessionSettings.postLoginIpGrantModeDescription") }}
+      </div>
+    </div>
+
+    <div
+      role="group"
+      :aria-label="t('admin.sessionSettings.postLoginIpGrantMode')"
+      class="grid gap-3 md:grid-cols-3"
+    >
+      <button
+        v-for="option in postLoginIpGrantModeOptions"
+        :key="option.value"
+        type="button"
+        class="rounded-xl border px-4 py-4 text-left transition-colors"
+        :class="
+          form.postLoginIpGrantMode === option.value
+            ? 'border-primary bg-primary/5'
+            : 'border-border bg-background hover:border-primary/40 hover:bg-muted/30'
+        "
+        :disabled="isSaving"
+        :aria-pressed="form.postLoginIpGrantMode === option.value"
+        @click="form.postLoginIpGrantMode = option.value"
+      >
+        <div class="text-sm font-medium text-foreground">
+          {{ option.title }}
+        </div>
+        <div class="mt-1 text-sm leading-6 text-muted-foreground">
+          {{ option.description }}
+        </div>
+      </button>
+    </div>
+
+    <SessionDurationFieldRow
+      v-if="form.postLoginIpGrantMode === 'custom'"
+      v-model="form.customGrant"
+      :title="t('admin.sessionSettings.customGrantDuration')"
+      :description="t('admin.sessionSettings.customGrantDurationDescription')"
+      :units="ipGrantDurationUnits"
+      :disabled="isSaving"
+      framed
+    />
+
+    <div class="rounded-lg bg-muted/20 px-4 py-3 text-sm text-muted-foreground">
+      {{ grantModeSummary }}
+    </div>
+
+    <div class="border-t border-border/60 pt-5">
+      <div
+        class="grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-4"
+      >
+        <div class="space-y-1 pr-6">
+          <Label :for="mobilitySwitchId" class="text-base">
+            {{ t("admin.sessionSettings.sessionIpMobility") }}
+          </Label>
+          <div class="text-sm leading-6 text-muted-foreground">
+            {{ t("admin.sessionSettings.sessionIpMobilityDescription") }}
+          </div>
+        </div>
+
+        <Switch
+          :id="mobilitySwitchId"
+          class="shrink-0 sm:justify-self-end"
+          :model-value="form.sessionIpMobilityEnabled"
+          :disabled="isSaving"
+          @update:model-value="form.sessionIpMobilityEnabled = $event === true"
+        />
+      </div>
+
+      <SessionDurationFieldRow
+        v-if="form.sessionIpMobilityEnabled"
+        v-model="form.sessionIpMobilityWindow"
+        class="mt-4"
+        :title="t('admin.sessionSettings.ipRetentionTime')"
+        :description="t('admin.sessionSettings.ipRetentionTimeDescription')"
+        :units="mobilityWindowDurationUnits"
+        :disabled="isSaving"
+        framed
+      />
+
+      <div class="mt-3 text-sm leading-6 text-muted-foreground">
+        {{ sessionIpMobilitySummary }}
+      </div>
+    </div>
+
+    <div
+      v-if="form.postLoginIpGrantMode === 'disabled' && isSubdomainRoutingMode"
+      class="rounded-lg border border-border bg-muted/20 px-4 py-3 text-sm text-muted-foreground"
+    >
+      <template v-if="effectiveSharedCookieDomain">
+        {{ t("admin.sessionSettings.sharedCookiePrefix") }}
+        <code>{{ effectiveSharedCookieDomain }}</code>
+        {{ t("admin.sessionSettings.sharedCookieSuffix") }}
+        <template v-if="incompatibleCookieScopeHosts.length > 0">
+          {{ t("admin.sessionSettings.incompatibleHostsPrefix") }}
+          <code>{{
+            incompatibleCookieScopeHosts.join(
+              t("admin.sessionSettings.listSeparator"),
+            )
+          }}</code>
+          {{ t("admin.sessionSettings.incompatibleHostsSuffix") }}
+        </template>
+        <template v-else>
+          {{ t("admin.sessionSettings.allHostsCompatible") }}
+        </template>
+      </template>
+      <template v-else>
+        {{ t("admin.sessionSettings.noSharedCookieDomain") }}
+      </template>
+    </div>
+  </div>
+</template>

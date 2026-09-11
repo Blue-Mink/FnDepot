@@ -1,1 +1,210 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCkxJRkVDWUNMRT0iJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay1zeW5vbG9neS9zY3JpcHRzL3N0YXJ0LXN0b3Atc3RhdHVzIgpXT1JLX0RJUj0iJChta3RlbXAgLWQgIiR7Uk9PVF9ESVJ9L2Rpc3Qvc3lub2xvZ3ktbGlmZWN5Y2xlLXRlc3QuWFhYWFhYIikiCkZBS0VfQklOPSIke1dPUktfRElSfS9iaW4iClBLR0RFU1Q9IiR7V09SS19ESVJ9L3RhcmdldCIKUEtHVkFSPSIke1dPUktfRElSfS92YXIiClBLR1RNUD0iJHtXT1JLX0RJUn0vdG1wIgpQS0dIT01FPSIke1dPUktfRElSfS9ob21lIgpSRUFEWV9GSUxFPSIke1BLR1ZBUn0vcnVudGltZS5yZWFkeSIKRU5UUllQT0lOVF9QSURfRklMRT0iJHtXT1JLX0RJUn0vZW50cnlwb2ludC5waWQiCldPUktFUl9QSURfRklMRT0iJHtXT1JLX0RJUn0vd29ya2VyLnBpZCIKU1RBUlRfVElNRU9VVF9GSUxFPSIke1dPUktfRElSfS9zdGFydC10aW1lb3V0IgpTRVRTSURfUElEX0ZJTEU9IiR7V09SS19ESVJ9L3NldHNpZC5waWQiCgpjbGVhbnVwKCkgewogIGlmIFsgLXIgIiR7UEtHVkFSfS9mbi1rbm9jay5waWQiIF07IHRoZW4KICAgIEZOX0tOT0NLX1NZTk9MT0dZX1NUT1BfVElNRU9VVF9TRUNPTkRTPTEgXAogICAgRk5fS05PQ0tfU1lOT0xPR1lfRk9SQ0VfS0lMTF9USU1FT1VUX1NFQ09ORFM9MiBcCiAgICAgIHJ1bl9saWZlY3ljbGUgc3RvcCA+L2Rldi9udWxsIDI+JjEgfHwgdHJ1ZQogIGZpCiAgcm0gLXJmICIke1dPUktfRElSfSIKfQp0cmFwIGNsZWFudXAgRVhJVAoKZmFpbCgpIHsKICBwcmludGYgJ1t0ZXN0LXN5bm9sb2d5LWxpZmVjeWNsZV0gRVJST1I6ICVzXG4nICIkKiIgPiYyCiAgWyAhIC1mICIke1dPUktfRElSfS9zeW5vcGtnLW1lc3NhZ2UubG9nIiBdIHx8IHNlZCAtbiAnMSw4MHAnICIke1dPUktfRElSfS9zeW5vcGtnLW1lc3NhZ2UubG9nIiA+JjIKICBbICEgLWYgIiR7UEtHVkFSfS9mbi1rbm9jay5sb2ciIF0gfHwgc2VkIC1uICcxLDEyMHAnICIke1BLR1ZBUn0vZm4ta25vY2subG9nIiA+JjIKICBleGl0IDEKfQoKcnVuX2xpZmVjeWNsZSgpIHsKICBQQVRIPSIke0ZBS0VfQklOfTovdXNyL2xvY2FsL2JpbjovdXNyL2JpbjovYmluOi91c3Ivc2Jpbjovc2JpbiIgXAogIFNZTk9QS0dfUEtHTkFNRT0iZm4ta25vY2stc3lub2xvZ3kiIFwKICBTWU5PUEtHX1BLR0RFU1Q9IiR7UEtHREVTVH0iIFwKICBTWU5PUEtHX1BLR1ZBUj0iJHtQS0dWQVJ9IiBcCiAgU1lOT1BLR19QS0dUTVA9IiR7UEtHVE1QfSIgXAogIFNZTk9QS0dfUEtHSE9NRT0iJHtQS0dIT01FfSIgXAogIFNZTk9QS0dfVEVNUF9MT0dGSUxFPSIke1dPUktfRElSfS9zeW5vcGtnLW1lc3NhZ2UubG9nIiBcCiAgVEVTVF9SRUFEWV9GSUxFPSIke1JFQURZX0ZJTEV9IiBcCiAgVEVTVF9FTlRSWVBPSU5UX1BJRF9GSUxFPSIke0VOVFJZUE9JTlRfUElEX0ZJTEV9IiBcCiAgVEVTVF9XT1JLRVJfUElEX0ZJTEU9IiR7V09SS0VSX1BJRF9GSUxFfSIgXAogIFRFU1RfU1RBUlRfVElNRU9VVF9GSUxFPSIke1NUQVJUX1RJTUVPVVRfRklMRX0iIFwKICBURVNUX1NFVFNJRF9QSURfRklMRT0iJHtTRVRTSURfUElEX0ZJTEV9IiBcCiAgVEVTVF9GQUtFX0JJTj0iJHtGQUtFX0JJTn0iIFwKICAgIHNoICIke0xJRkVDWUNMRX0iICIkQCIKfQoKcHJvY2Vzc19pc19hbGl2ZSgpIHsKICBsb2NhbCBwaWQ9IiQxIiBwcm9jX3N0YXQ9IiIKCiAgaWYgWyAtciAiL3Byb2MvJHtwaWR9L3N0YXQiIF07IHRoZW4KICAgIHByb2Nfc3RhdD0iJChjYXQgIi9wcm9jLyR7cGlkfS9zdGF0IiAyPi9kZXYvbnVsbCB8fCB0cnVlKSIKICAgIGNhc2UgIiR7cHJvY19zdGF0fSIgaW4KICAgICAgKiIpIFogIiopIHJldHVybiAxIDs7CiAgICBlc2FjCiAgZmkKCiAga2lsbCAtMCAiJHtwaWR9IiAyPi9kZXYvbnVsbAp9Cgp3YWl0X3VudGlsX2RlYWQoKSB7CiAgbG9jYWwgcGlkPSIkMSIgYXR0ZW1wdHM9MAogIHdoaWxlIHByb2Nlc3NfaXNfYWxpdmUgIiR7cGlkfSIgJiYgWyAiJHthdHRlbXB0c30iIC1sdCAzMCBdOyBkbwogICAgYXR0ZW1wdHM9JCgoYXR0ZW1wdHMgKyAxKSkKICAgIHNsZWVwIDAuMQogIGRvbmUKICAhIHByb2Nlc3NfaXNfYWxpdmUgIiR7cGlkfSIKfQoKbWtkaXIgLXAgIiR7RkFLRV9CSU59IiAiJHtQS0dERVNUfS9iaW4iICIke1BLR1ZBUn0iICIke1BLR1RNUH0iICIke1BLR0hPTUV9IgoKY2F0ID4gIiR7RkFLRV9CSU59L3NldHNpZCIgPDwnUFknCiMhL3Vzci9iaW4vZW52IHB5dGhvbjMKaW1wb3J0IG9zCmltcG9ydCBzeXMKaW1wb3J0IHRpbWUKCndpdGggb3Blbihvcy5lbnZpcm9uWyJURVNUX1NFVFNJRF9QSURfRklMRSJdLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIHBpZF9maWxlOgogICAgcGlkX2ZpbGUud3JpdGUoZiJ7b3MuZ2V0cGlkKCl9XG4iKQppZiBvcy5lbnZpcm9uLmdldCgiVEVTVF9TRVRTSURfRk9SSyIpID09ICIxIjoKICAgIGlmIG9zLmZvcmsoKSAhPSAwOgogICAgICAgIHJhaXNlIFN5c3RlbUV4aXQoMCkKICAgIHRpbWUuc2xlZXAoMC4yNSkKb3Muc2V0c2lkKCkKb3MuZXhlY3ZwKHN5cy5hcmd2WzFdLCBzeXMuYXJndlsxOl0pClBZCmNobW9kIDc1NSAiJHtGQUtFX0JJTn0vc2V0c2lkIgoKY2F0ID4gIiR7UEtHREVTVH0vYmluL2ZuLWtub2NrLWVudHJ5cG9pbnQiIDw8J1NIJwojIS9iaW4vc2gKcHJpbnRmICclc1xuJyAiJCQiID4gIiR7VEVTVF9FTlRSWVBPSU5UX1BJRF9GSUxFOj99IgpzdXBlcnZpc29yX3BpZF90bXA9IiR7Rk5fS05PQ0tfU1VQRVJWSVNPUl9QSURfRklMRTo/fS50bXAtJCQiCnByaW50ZiAnJXNcbicgIiQkIiA+ICIke3N1cGVydmlzb3JfcGlkX3RtcH0iCm12IC1mICIke3N1cGVydmlzb3JfcGlkX3RtcH0iICIke0ZOX0tOT0NLX1NVUEVSVklTT1JfUElEX0ZJTEV9IgpwcmludGYgJyVzXG4nICIke0ZOX0tOT0NLX1NUQVJUX1RJTUVPVVRfU0VDT05EUzotbWlzc2luZ30iIFwKICA+ICIke1RFU1RfU1RBUlRfVElNRU9VVF9GSUxFOj99Igpta2RpciAtcCAiJHtTWU5PUEtHX1BLR1ZBUjo/fS9ydW50aW1lL3BpZHMiCmNsZWFudXAoKSB7CiAgdHJhcCAtIFRFUk0gSU5UIEVYSVQKICBpZiBbIC1uICIke3JlYWR5X3BpZDotfSIgXTsgdGhlbgogICAga2lsbCAiJHtyZWFkeV9waWR9IiAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgICB3YWl0ICIke3JlYWR5X3BpZH0iIDI+L2Rldi9udWxsIHx8IHRydWUKICBmaQogIGZvciBjaGlsZF9waWQgaW4gIiR7bWFuYWdlbWVudF9waWQ6LX0iICIke2dhdGV3YXlfcGlkOi19IjsgZG8KICAgIFsgLW4gIiR7Y2hpbGRfcGlkfSIgXSB8fCBjb250aW51ZQogICAga2lsbCAiJHtjaGlsZF9waWR9IiAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgICB3YWl0ICIke2NoaWxkX3BpZH0iIDI+L2Rldi9udWxsIHx8IHRydWUKICBkb25lCiAgZXhpdCAwCn0KaWYgWyAiJHtURVNUX0lHTk9SRV9URVJNOi0wfSIgPSAiMSIgXTsgdGhlbgogIHRyYXAgJycgVEVSTSBJTlQKZWxzZQogIHRyYXAgY2xlYW51cCBURVJNIElOVCBFWElUCmZpCigKICBzbGVlcCAiJHtURVNUX1JFQURZX0RFTEFZX1NFQ09ORFM6LTB9IgogIDogPiAiJHtURVNUX1JFQURZX0ZJTEU6P30iCikgJgpyZWFkeV9waWQ9JCEKIiR7VEVTVF9GQUtFX0JJTjo/fS9zZXJ2ZXItYWRtaW4tcnMiIDEwMDAgJgptYW5hZ2VtZW50X3BpZD0kIQoiJHtURVNUX0ZBS0VfQklOOj99L2dvLXJlYXV0aC1wcm94eSIgMTAwMCAmCmdhdGV3YXlfcGlkPSQhCnByaW50ZiAnJXNcbicgIiR7bWFuYWdlbWVudF9waWR9IiA+ICIke1NZTk9QS0dfUEtHVkFSfS9ydW50aW1lL3BpZHMvbWFuYWdlbWVudC5waWQiCnByaW50ZiAnJXNcbicgIiR7Z2F0ZXdheV9waWR9IiA+ICIke1NZTk9QS0dfUEtHVkFSfS9ydW50aW1lL3BpZHMvZ2F0ZXdheS5waWQiCnByaW50ZiAnJXNcbicgIiR7Z2F0ZXdheV9waWR9IiA+ICIke1RFU1RfV09SS0VSX1BJRF9GSUxFOj99Igp3aGlsZSA6OyBkbyBzbGVlcCAxOyBkb25lClNICgpsbiAtcyAvYmluL3NsZWVwICIke0ZBS0VfQklOfS9zZXJ2ZXItYWRtaW4tcnMiCmxuIC1zIC9iaW4vc2xlZXAgIiR7RkFLRV9CSU59L2dvLXJlYXV0aC1wcm94eSIKY2htb2QgNzU1ICIke1BLR0RFU1R9L2Jpbi9mbi1rbm9jay1lbnRyeXBvaW50IgoKcm0gLWYgIiR7UkVBRFlfRklMRX0iICIke0VOVFJZUE9JTlRfUElEX0ZJTEV9IgpURVNUX1JFQURZX0RFTEFZX1NFQ09ORFM9MiBcCkZOX0tOT0NLX1NZTk9MT0dZX1NUT1BfVElNRU9VVF9TRUNPTkRTPTMgXApGTl9LTk9DS19TWU5PTE9HWV9GT1JDRV9LSUxMX1RJTUVPVVRfU0VDT05EUz0yIFwKICBydW5fbGlmZWN5Y2xlIHN0YXJ0IHx8IGZhaWwgJ3JlYWR5IHNlcnZpY2UgZmFpbGVkIHRvIHN0YXJ0JwoKWyAtcyAiJHtQS0dWQVJ9L2ZuLWtub2NrLnBpZCIgXSB8fCBmYWlsICdzdWNjZXNzZnVsIHN0YXJ0IGRpZCBub3QgcGVyc2lzdCB0aGUgc3VwZXJ2aXNvciBQSUQnClsgIiQoY2F0ICIke1NUQVJUX1RJTUVPVVRfRklMRX0iKSIgPSAiMzAwIiBdIHx8IFwKICBmYWlsICdkZWZhdWx0IERTTSBzdGFydCB0aW1lb3V0IHdhcyBub3QgcHJvcGFnYXRlZCB0byB0aGUgYXBwbGljYXRpb24nCnN1cGVydmlzb3JfcGlkPSIkKGNhdCAiJHtQS0dWQVJ9L2ZuLWtub2NrLnBpZCIpIgpraWxsIC0wICIke3N1cGVydmlzb3JfcGlkfSIgMj4vZGV2L251bGwgfHwgZmFpbCAnc3VwZXJ2aXNvciBpcyBub3QgcnVubmluZyBhZnRlciByZWFkaW5lc3MnCnJ1bl9saWZlY3ljbGUgc3RhdHVzIHx8IGZhaWwgJ3N0YXR1cyBkaWQgbm90IHJlcG9ydCB0aGUgcmVhZHkgc2VydmljZSBhcyBydW5uaW5nJwoKRk5fS05PQ0tfU1lOT0xPR1lfU1RPUF9USU1FT1VUX1NFQ09ORFM9MyBcCkZOX0tOT0NLX1NZTk9MT0dZX0ZPUkNFX0tJTExfVElNRU9VVF9TRUNPTkRTPTIgXAogIHJ1bl9saWZlY3ljbGUgc3RvcCB8fCBmYWlsICdub3JtYWwgc3RvcCBmYWlsZWQnClsgISAtZSAiJHtQS0dWQVJ9L2ZuLWtub2NrLnBpZCIgXSB8fCBmYWlsICdub3JtYWwgc3RvcCByZXRhaW5lZCB0aGUgc3VwZXJ2aXNvciBQSUQgZmlsZScKd2FpdF91bnRpbF9kZWFkICIke3N1cGVydmlzb3JfcGlkfSIgfHwgZmFpbCAnbm9ybWFsIHN0b3AgbGVmdCB0aGUgc3VwZXJ2aXNvciBydW5uaW5nJwoKcm0gLWYgIiR7UkVBRFlfRklMRX0iICIke0VOVFJZUE9JTlRfUElEX0ZJTEV9IiAiJHtTRVRTSURfUElEX0ZJTEV9IgpURVNUX1NFVFNJRF9GT1JLPTEgXApURVNUX1JFQURZX0RFTEFZX1NFQ09ORFM9MSBcCkZOX0tOT0NLX1NZTk9MT0dZX1NUT1BfVElNRU9VVF9TRUNPTkRTPTMgXApGTl9LTk9DS19TWU5PTE9HWV9GT1JDRV9LSUxMX1RJTUVPVVRfU0VDT05EUz0yIFwKICBydW5fbGlmZWN5Y2xlIHN0YXJ0IHx8IGZhaWwgJ2Zvcmtpbmcgc2V0c2lkIGxhdW5jaGVyIGZhaWxlZCB0byBzdGFydCcKZm9ya2VkX3N1cGVydmlzb3JfcGlkPSIkKGNhdCAiJHtFTlRSWVBPSU5UX1BJRF9GSUxFfSIpIgpbICIkKGNhdCAiJHtTRVRTSURfUElEX0ZJTEV9IikiICE9ICIke2ZvcmtlZF9zdXBlcnZpc29yX3BpZH0iIF0gfHwgXAogIGZhaWwgJ2Zvcmtpbmcgc2V0c2lkIGZpeHR1cmUgZGlkIG5vdCBleGVyY2lzZSBhIGxhdW5jaGVyL3N1cGVydmlzb3IgUElEIHRyYW5zaXRpb24nClsgIiQoY2F0ICIke1BLR1ZBUn0vZm4ta25vY2sucGlkIikiID0gIiR7Zm9ya2VkX3N1cGVydmlzb3JfcGlkfSIgXSB8fCBcCiAgZmFpbCAnZm9ya2luZyBsYXVuY2hlciBQSUQgd2FzIG5vdCByZXBsYWNlZCBieSB0aGUgYWN0dWFsIHN1cGVydmlzb3IgUElEJwpydW5fbGlmZWN5Y2xlIHN0YXR1cyB8fCBmYWlsICdmb3JraW5nIGxhdW5jaGVyIHNlcnZpY2UgZGlkIG5vdCByZXBvcnQgcnVubmluZyBzdGF0dXMnClRFU1RfU0VUU0lEX0ZPUks9MSBcCkZOX0tOT0NLX1NZTk9MT0dZX1NUT1BfVElNRU9VVF9TRUNPTkRTPTMgXApGTl9LTk9DS19TWU5PTE9HWV9GT1JDRV9LSUxMX1RJTUVPVVRfU0VDT05EUz0yIFwKICBydW5fbGlmZWN5Y2xlIHN0b3AgfHwgZmFpbCAnZm9ya2luZyBsYXVuY2hlciBzZXJ2aWNlIGZhaWxlZCB0byBzdG9wJwp3YWl0X3VudGlsX2RlYWQgIiR7Zm9ya2VkX3N1cGVydmlzb3JfcGlkfSIgfHwgZmFpbCAnZm9ya2luZyBsYXVuY2hlciBsZWZ0IHRoZSBzdXBlcnZpc29yIHJ1bm5pbmcnCgpybSAtZiAiJHtSRUFEWV9GSUxFfSIgIiR7RU5UUllQT0lOVF9QSURfRklMRX0iCmlmIFRFU1RfUkVBRFlfREVMQVlfU0VDT05EUz0zMCBcCiAgRk5fS05PQ0tfU1lOT0xPR1lfU1RBUlRfVElNRU9VVF9TRUNPTkRTPTIgXAogIEZOX0tOT0NLX1NZTk9MT0dZX1NUT1BfVElNRU9VVF9TRUNPTkRTPTIgXAogIEZOX0tOT0NLX1NZTk9MT0dZX0ZPUkNFX0tJTExfVElNRU9VVF9TRUNPTkRTPTIgXAogICAgcnVuX2xpZmVjeWNsZSBzdGFydAp0aGVuCiAgZmFpbCAnc3RhcnR1cCBzdWNjZWVkZWQgYmVmb3JlIHRoZSBjb21wbGV0ZSByZWFkaW5lc3MgZW5kcG9pbnQgYmVjYW1lIHJlYWR5JwpmaQoKWyAhIC1lICIke1BLR1ZBUn0vZm4ta25vY2sucGlkIiBdIHx8IGZhaWwgJ3RpbWVkLW91dCBzdGFydCByZXRhaW5lZCB0aGUgc3VwZXJ2aXNvciBQSUQgZmlsZScKdGltZWRfb3V0X3BpZD0iJChjYXQgIiR7RU5UUllQT0lOVF9QSURfRklMRX0iKSIKd2FpdF91bnRpbF9kZWFkICIke3RpbWVkX291dF9waWR9IiB8fCBmYWlsICd0aW1lZC1vdXQgc3RhcnQgbGVmdCB0aGUgc3VwZXJ2aXNvciBydW5uaW5nJwpncmVwIC1GcSAncmVhZGluZXNzIHRpbWVkIG91dCBhZnRlciAyIHNlY29uZHMnICIke1dPUktfRElSfS9zeW5vcGtnLW1lc3NhZ2UubG9nIiB8fCBcCiAgZmFpbCAndGltZWQtb3V0IHN0YXJ0IGRpZCBub3QgZXhwb3NlIGFuIGFjdGlvbmFibGUgRFNNIGVycm9yJwoKcm0gLWYgIiR7UkVBRFlfRklMRX0iICIke0VOVFJZUE9JTlRfUElEX0ZJTEV9IiAiJHtXT1JLRVJfUElEX0ZJTEV9IgpURVNUX1JFQURZX0RFTEFZX1NFQ09ORFM9MCBcClRFU1RfSUdOT1JFX1RFUk09MSBcCkZOX0tOT0NLX1NZTk9MT0dZX1NUQVJUX1RJTUVPVVRfU0VDT05EUz00IFwKRk5fS05PQ0tfU1lOT0xPR1lfU1RPUF9USU1FT1VUX1NFQ09ORFM9MSBcCkZOX0tOT0NLX1NZTk9MT0dZX0ZPUkNFX0tJTExfVElNRU9VVF9TRUNPTkRTPTMgXAogIHJ1bl9saWZlY3ljbGUgc3RhcnQgfHwgZmFpbCAnZm9yY2VkLXN0b3AgZml4dHVyZSBmYWlsZWQgdG8gc3RhcnQnCmZvcmNlZF9zdXBlcnZpc29yX3BpZD0iJChjYXQgIiR7RU5UUllQT0lOVF9QSURfRklMRX0iKSIKZm9yY2VkX3dvcmtlcl9waWQ9IiQoY2F0ICIke1dPUktFUl9QSURfRklMRX0iKSIKClRFU1RfSUdOT1JFX1RFUk09MSBcCkZOX0tOT0NLX1NZTk9MT0dZX1NUT1BfVElNRU9VVF9TRUNPTkRTPTEgXApGTl9LTk9DS19TWU5PTE9HWV9GT1JDRV9LSUxMX1RJTUVPVVRfU0VDT05EUz0zIFwKICBydW5fbGlmZWN5Y2xlIHN0b3AgfHwgZmFpbCAnZm9yY2VkIHN0b3AgZmFpbGVkJwp3YWl0X3VudGlsX2RlYWQgIiR7Zm9yY2VkX3N1cGVydmlzb3JfcGlkfSIgfHwgZmFpbCAnZm9yY2VkIHN0b3AgbGVmdCB0aGUgc3VwZXJ2aXNvciBydW5uaW5nJwp3YWl0X3VudGlsX2RlYWQgIiR7Zm9yY2VkX3dvcmtlcl9waWR9IiB8fCBmYWlsICdmb3JjZWQgc3RvcCBsZWZ0IGEgcHJvY2Vzcy1ncm91cCBjaGlsZCBydW5uaW5nJwpbICEgLWUgIiR7UEtHVkFSfS9mbi1rbm9jay5waWQiIF0gfHwgZmFpbCAnZm9yY2VkIHN0b3AgcmV0YWluZWQgdGhlIHN1cGVydmlzb3IgUElEIGZpbGUnCgpwcmludGYgJ1t0ZXN0LXN5bm9sb2d5LWxpZmVjeWNsZV0gc2xvdyByZWFkaW5lc3MsIHN0YXR1cywgdGltZW91dCBjbGVhbnVwLCBhbmQgcHJvY2Vzcy1ncm91cCBzdG9wIHBhc3NlZFxuJwo=
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+LIFECYCLE="${ROOT_DIR}/apps/fn-knock-synology/scripts/start-stop-status"
+WORK_DIR="$(mktemp -d "${ROOT_DIR}/dist/synology-lifecycle-test.XXXXXX")"
+FAKE_BIN="${WORK_DIR}/bin"
+PKGDEST="${WORK_DIR}/target"
+PKGVAR="${WORK_DIR}/var"
+PKGTMP="${WORK_DIR}/tmp"
+PKGHOME="${WORK_DIR}/home"
+READY_FILE="${PKGVAR}/runtime.ready"
+ENTRYPOINT_PID_FILE="${WORK_DIR}/entrypoint.pid"
+WORKER_PID_FILE="${WORK_DIR}/worker.pid"
+START_TIMEOUT_FILE="${WORK_DIR}/start-timeout"
+SETSID_PID_FILE="${WORK_DIR}/setsid.pid"
+
+cleanup() {
+  if [ -r "${PKGVAR}/fn-knock.pid" ]; then
+    FN_KNOCK_SYNOLOGY_STOP_TIMEOUT_SECONDS=1 \
+    FN_KNOCK_SYNOLOGY_FORCE_KILL_TIMEOUT_SECONDS=2 \
+      run_lifecycle stop >/dev/null 2>&1 || true
+  fi
+  rm -rf "${WORK_DIR}"
+}
+trap cleanup EXIT
+
+fail() {
+  printf '[test-synology-lifecycle] ERROR: %s\n' "$*" >&2
+  [ ! -f "${WORK_DIR}/synopkg-message.log" ] || sed -n '1,80p' "${WORK_DIR}/synopkg-message.log" >&2
+  [ ! -f "${PKGVAR}/fn-knock.log" ] || sed -n '1,120p' "${PKGVAR}/fn-knock.log" >&2
+  exit 1
+}
+
+run_lifecycle() {
+  PATH="${FAKE_BIN}:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin" \
+  SYNOPKG_PKGNAME="fn-knock-synology" \
+  SYNOPKG_PKGDEST="${PKGDEST}" \
+  SYNOPKG_PKGVAR="${PKGVAR}" \
+  SYNOPKG_PKGTMP="${PKGTMP}" \
+  SYNOPKG_PKGHOME="${PKGHOME}" \
+  SYNOPKG_TEMP_LOGFILE="${WORK_DIR}/synopkg-message.log" \
+  TEST_READY_FILE="${READY_FILE}" \
+  TEST_ENTRYPOINT_PID_FILE="${ENTRYPOINT_PID_FILE}" \
+  TEST_WORKER_PID_FILE="${WORKER_PID_FILE}" \
+  TEST_START_TIMEOUT_FILE="${START_TIMEOUT_FILE}" \
+  TEST_SETSID_PID_FILE="${SETSID_PID_FILE}" \
+  TEST_FAKE_BIN="${FAKE_BIN}" \
+    sh "${LIFECYCLE}" "$@"
+}
+
+process_is_alive() {
+  local pid="$1" proc_stat=""
+
+  if [ -r "/proc/${pid}/stat" ]; then
+    proc_stat="$(cat "/proc/${pid}/stat" 2>/dev/null || true)"
+    case "${proc_stat}" in
+      *") Z "*) return 1 ;;
+    esac
+  fi
+
+  kill -0 "${pid}" 2>/dev/null
+}
+
+wait_until_dead() {
+  local pid="$1" attempts=0
+  while process_is_alive "${pid}" && [ "${attempts}" -lt 30 ]; do
+    attempts=$((attempts + 1))
+    sleep 0.1
+  done
+  ! process_is_alive "${pid}"
+}
+
+mkdir -p "${FAKE_BIN}" "${PKGDEST}/bin" "${PKGVAR}" "${PKGTMP}" "${PKGHOME}"
+
+cat > "${FAKE_BIN}/setsid" <<'PY'
+#!/usr/bin/env python3
+import os
+import sys
+import time
+
+with open(os.environ["TEST_SETSID_PID_FILE"], "w", encoding="utf-8") as pid_file:
+    pid_file.write(f"{os.getpid()}\n")
+if os.environ.get("TEST_SETSID_FORK") == "1":
+    if os.fork() != 0:
+        raise SystemExit(0)
+    time.sleep(0.25)
+os.setsid()
+os.execvp(sys.argv[1], sys.argv[1:])
+PY
+chmod 755 "${FAKE_BIN}/setsid"
+
+cat > "${PKGDEST}/bin/fn-knock-entrypoint" <<'SH'
+#!/bin/sh
+printf '%s\n' "$$" > "${TEST_ENTRYPOINT_PID_FILE:?}"
+supervisor_pid_tmp="${FN_KNOCK_SUPERVISOR_PID_FILE:?}.tmp-$$"
+printf '%s\n' "$$" > "${supervisor_pid_tmp}"
+mv -f "${supervisor_pid_tmp}" "${FN_KNOCK_SUPERVISOR_PID_FILE}"
+printf '%s\n' "${FN_KNOCK_START_TIMEOUT_SECONDS:-missing}" \
+  > "${TEST_START_TIMEOUT_FILE:?}"
+mkdir -p "${SYNOPKG_PKGVAR:?}/runtime/pids"
+cleanup() {
+  trap - TERM INT EXIT
+  if [ -n "${ready_pid:-}" ]; then
+    kill "${ready_pid}" 2>/dev/null || true
+    wait "${ready_pid}" 2>/dev/null || true
+  fi
+  for child_pid in "${management_pid:-}" "${gateway_pid:-}"; do
+    [ -n "${child_pid}" ] || continue
+    kill "${child_pid}" 2>/dev/null || true
+    wait "${child_pid}" 2>/dev/null || true
+  done
+  exit 0
+}
+if [ "${TEST_IGNORE_TERM:-0}" = "1" ]; then
+  trap '' TERM INT
+else
+  trap cleanup TERM INT EXIT
+fi
+(
+  sleep "${TEST_READY_DELAY_SECONDS:-0}"
+  : > "${TEST_READY_FILE:?}"
+) &
+ready_pid=$!
+"${TEST_FAKE_BIN:?}/server-admin-rs" 1000 &
+management_pid=$!
+"${TEST_FAKE_BIN:?}/go-reauth-proxy" 1000 &
+gateway_pid=$!
+printf '%s\n' "${management_pid}" > "${SYNOPKG_PKGVAR}/runtime/pids/management.pid"
+printf '%s\n' "${gateway_pid}" > "${SYNOPKG_PKGVAR}/runtime/pids/gateway.pid"
+printf '%s\n' "${gateway_pid}" > "${TEST_WORKER_PID_FILE:?}"
+while :; do sleep 1; done
+SH
+
+ln -s /bin/sleep "${FAKE_BIN}/server-admin-rs"
+ln -s /bin/sleep "${FAKE_BIN}/go-reauth-proxy"
+chmod 755 "${PKGDEST}/bin/fn-knock-entrypoint"
+
+rm -f "${READY_FILE}" "${ENTRYPOINT_PID_FILE}"
+TEST_READY_DELAY_SECONDS=2 \
+FN_KNOCK_SYNOLOGY_STOP_TIMEOUT_SECONDS=3 \
+FN_KNOCK_SYNOLOGY_FORCE_KILL_TIMEOUT_SECONDS=2 \
+  run_lifecycle start || fail 'ready service failed to start'
+
+[ -s "${PKGVAR}/fn-knock.pid" ] || fail 'successful start did not persist the supervisor PID'
+[ "$(cat "${START_TIMEOUT_FILE}")" = "300" ] || \
+  fail 'default DSM start timeout was not propagated to the application'
+supervisor_pid="$(cat "${PKGVAR}/fn-knock.pid")"
+kill -0 "${supervisor_pid}" 2>/dev/null || fail 'supervisor is not running after readiness'
+run_lifecycle status || fail 'status did not report the ready service as running'
+
+FN_KNOCK_SYNOLOGY_STOP_TIMEOUT_SECONDS=3 \
+FN_KNOCK_SYNOLOGY_FORCE_KILL_TIMEOUT_SECONDS=2 \
+  run_lifecycle stop || fail 'normal stop failed'
+[ ! -e "${PKGVAR}/fn-knock.pid" ] || fail 'normal stop retained the supervisor PID file'
+wait_until_dead "${supervisor_pid}" || fail 'normal stop left the supervisor running'
+
+rm -f "${READY_FILE}" "${ENTRYPOINT_PID_FILE}" "${SETSID_PID_FILE}"
+TEST_SETSID_FORK=1 \
+TEST_READY_DELAY_SECONDS=1 \
+FN_KNOCK_SYNOLOGY_STOP_TIMEOUT_SECONDS=3 \
+FN_KNOCK_SYNOLOGY_FORCE_KILL_TIMEOUT_SECONDS=2 \
+  run_lifecycle start || fail 'forking setsid launcher failed to start'
+forked_supervisor_pid="$(cat "${ENTRYPOINT_PID_FILE}")"
+[ "$(cat "${SETSID_PID_FILE}")" != "${forked_supervisor_pid}" ] || \
+  fail 'forking setsid fixture did not exercise a launcher/supervisor PID transition'
+[ "$(cat "${PKGVAR}/fn-knock.pid")" = "${forked_supervisor_pid}" ] || \
+  fail 'forking launcher PID was not replaced by the actual supervisor PID'
+run_lifecycle status || fail 'forking launcher service did not report running status'
+TEST_SETSID_FORK=1 \
+FN_KNOCK_SYNOLOGY_STOP_TIMEOUT_SECONDS=3 \
+FN_KNOCK_SYNOLOGY_FORCE_KILL_TIMEOUT_SECONDS=2 \
+  run_lifecycle stop || fail 'forking launcher service failed to stop'
+wait_until_dead "${forked_supervisor_pid}" || fail 'forking launcher left the supervisor running'
+
+rm -f "${READY_FILE}" "${ENTRYPOINT_PID_FILE}"
+if TEST_READY_DELAY_SECONDS=30 \
+  FN_KNOCK_SYNOLOGY_START_TIMEOUT_SECONDS=2 \
+  FN_KNOCK_SYNOLOGY_STOP_TIMEOUT_SECONDS=2 \
+  FN_KNOCK_SYNOLOGY_FORCE_KILL_TIMEOUT_SECONDS=2 \
+    run_lifecycle start
+then
+  fail 'startup succeeded before the complete readiness endpoint became ready'
+fi
+
+[ ! -e "${PKGVAR}/fn-knock.pid" ] || fail 'timed-out start retained the supervisor PID file'
+timed_out_pid="$(cat "${ENTRYPOINT_PID_FILE}")"
+wait_until_dead "${timed_out_pid}" || fail 'timed-out start left the supervisor running'
+grep -Fq 'readiness timed out after 2 seconds' "${WORK_DIR}/synopkg-message.log" || \
+  fail 'timed-out start did not expose an actionable DSM error'
+
+rm -f "${READY_FILE}" "${ENTRYPOINT_PID_FILE}" "${WORKER_PID_FILE}"
+TEST_READY_DELAY_SECONDS=0 \
+TEST_IGNORE_TERM=1 \
+FN_KNOCK_SYNOLOGY_START_TIMEOUT_SECONDS=4 \
+FN_KNOCK_SYNOLOGY_STOP_TIMEOUT_SECONDS=1 \
+FN_KNOCK_SYNOLOGY_FORCE_KILL_TIMEOUT_SECONDS=3 \
+  run_lifecycle start || fail 'forced-stop fixture failed to start'
+forced_supervisor_pid="$(cat "${ENTRYPOINT_PID_FILE}")"
+forced_worker_pid="$(cat "${WORKER_PID_FILE}")"
+
+TEST_IGNORE_TERM=1 \
+FN_KNOCK_SYNOLOGY_STOP_TIMEOUT_SECONDS=1 \
+FN_KNOCK_SYNOLOGY_FORCE_KILL_TIMEOUT_SECONDS=3 \
+  run_lifecycle stop || fail 'forced stop failed'
+wait_until_dead "${forced_supervisor_pid}" || fail 'forced stop left the supervisor running'
+wait_until_dead "${forced_worker_pid}" || fail 'forced stop left a process-group child running'
+[ ! -e "${PKGVAR}/fn-knock.pid" ] || fail 'forced stop retained the supervisor PID file'
+
+printf '[test-synology-lifecycle] slow readiness, status, timeout cleanup, and process-group stop passed\n'

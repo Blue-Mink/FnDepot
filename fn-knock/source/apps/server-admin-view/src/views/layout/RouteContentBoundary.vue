@@ -1,1 +1,48 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IG9uRXJyb3JDYXB0dXJlZCwgcmVmLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IFJvdXRlclZpZXcgfSBmcm9tICJ2dWUtcm91dGVyIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgaXNEeW5hbWljSW1wb3J0RmFpbHVyZSwKICByZXBsYWNlV2l0aFVwZGF0ZWRBcHBsaWNhdGlvbiwKfSBmcm9tICJAL2xpYi91cGRhdGUtcmVsb2FkIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8eyByZXNldEtleTogc3RyaW5nIH0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBmYWlsZWQgPSByZWYoZmFsc2UpOwoKd2F0Y2goCiAgKCkgPT4gcHJvcHMucmVzZXRLZXksCiAgKCkgPT4gewogICAgZmFpbGVkLnZhbHVlID0gZmFsc2U7CiAgfSwKKTsKCm9uRXJyb3JDYXB0dXJlZCgoZXJyb3IpID0+IHsKICAvLyBHZW5lcmljIGZldGNoIGVycm9ycyBjYW4gb3JpZ2luYXRlIGZyb20gYnVzaW5lc3MvQVBJIGNvZGUgaW4gdGhpcyBzdWJ0cmVlLgogIGlmICghaXNEeW5hbWljSW1wb3J0RmFpbHVyZShlcnJvciwgZmFsc2UpKSByZXR1cm47CiAgZmFpbGVkLnZhbHVlID0gdHJ1ZTsKICBjb25zb2xlLmVycm9yKCJQYWdlIHJlc291cmNlIGxvYWRpbmcgZmFpbGVkIiwgZXJyb3IpOwogIHJldHVybiBmYWxzZTsKfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxzZWN0aW9uCiAgICB2LWlmPSJmYWlsZWQiCiAgICByb2xlPSJhbGVydCIKICAgIGNsYXNzPSJmbGV4IG1pbi1oLTY0IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMyByb3VuZGVkLXhsIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWJhY2tncm91bmQgcC02IHRleHQtY2VudGVyIgogID4KICAgIDxoMiBjbGFzcz0idGV4dC1sZyBmb250LXNlbWlib2xkIj4KICAgICAge3sgdCgiYWRtaW4ucm91dGUucmVzb3VyY2VMb2FkRmFpbGVkIikgfX0KICAgIDwvaDI+CiAgICA8cCBjbGFzcz0ibWF4LXctbGcgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICB7eyB0KCJhZG1pbi5yb3V0ZS5yZXNvdXJjZUxvYWRGYWlsZWREZXNjcmlwdGlvbiIpIH19CiAgICA8L3A+CiAgICA8QnV0dG9uIEBjbGljaz0icmVwbGFjZVdpdGhVcGRhdGVkQXBwbGljYXRpb24oJ2NodW5rJykiPgogICAgICB7eyB0KCJhZG1pbi5yb3V0ZS5yZWxvYWRQYWdlIikgfX0KICAgIDwvQnV0dG9uPgogIDwvc2VjdGlvbj4KICA8c2xvdCB2LWVsc2U+PFJvdXRlclZpZXcgLz48L3Nsb3Q+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { onErrorCaptured, ref, watch } from "vue";
+import { RouterView } from "vue-router";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  isDynamicImportFailure,
+  replaceWithUpdatedApplication,
+} from "@/lib/update-reload";
+
+const props = defineProps<{ resetKey: string }>();
+const { t } = useI18n();
+const failed = ref(false);
+
+watch(
+  () => props.resetKey,
+  () => {
+    failed.value = false;
+  },
+);
+
+onErrorCaptured((error) => {
+  // Generic fetch errors can originate from business/API code in this subtree.
+  if (!isDynamicImportFailure(error, false)) return;
+  failed.value = true;
+  console.error("Page resource loading failed", error);
+  return false;
+});
+</script>
+
+<template>
+  <section
+    v-if="failed"
+    role="alert"
+    class="flex min-h-64 flex-col items-center justify-center gap-3 rounded-xl border border-border bg-background p-6 text-center"
+  >
+    <h2 class="text-lg font-semibold">
+      {{ t("admin.route.resourceLoadFailed") }}
+    </h2>
+    <p class="max-w-lg text-sm text-muted-foreground">
+      {{ t("admin.route.resourceLoadFailedDescription") }}
+    </p>
+    <Button @click="replaceWithUpdatedApplication('chunk')">
+      {{ t("admin.route.reloadPage") }}
+    </Button>
+  </section>
+  <slot v-else><RouterView /></slot>
+</template>

@@ -1,1 +1,291 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCmNkICIke1JPT1RfRElSfSIKCmZhaWwoKSB7CiAgcHJpbnRmICdbdGVzdC1vcGVud3J0LXJ1bnRpbWUtY29udHJhY3RdIEVSUk9SOiAlc1xuJyAiJCoiID4mMgogIGV4aXQgMQp9CgpbIC14IGRlcGxveS9vcGVud3J0L3Vzci9saWJleGVjL2ZuLWtub2NrLWZpcmV3YWxsIF0gfHwgXAogIGZhaWwgIm1hbnVhbCBmaXJld2FsbCBoZWxwZXIgaXMgbm90IGV4ZWN1dGFibGUiCnNoIC1uIGRlcGxveS9vcGVud3J0L3Vzci9saWJleGVjL2ZuLWtub2NrLWZpcmV3YWxsCgp1bnNldCBGTl9LTk9DS19PUEVOV1JUX0RFUEVORFMKc291cmNlICIke1JPT1RfRElSfS9zY3JpcHRzL2J1aWxkLW9wZW53cnQtaXBrLnNoIgoKRVhQRUNURURfSVBLX0RFUEVORFM9ImxpYmMsIGJhc2gsIGN1cmwsIHVuemlwLCBjYS1idW5kbGUsIGNhLWNlcnRpZmljYXRlcywgbHVjaS1iYXNlIgpFWFBFQ1RFRF9BUEtfREVQRU5EUz0ibGliYyBiYXNoIGN1cmwgdW56aXAgY2EtYnVuZGxlIGNhLWNlcnRpZmljYXRlcyBsdWNpLWJhc2UiCkZPUkJJRERFTl9ERVBFTkRFTkNJRVM9KAogIGlwdGFibGVzCiAgaXB0YWJsZXMtbmZ0CiAgaXA2dGFibGVzCiAgaXA2dGFibGVzLW5mdAogIGttb2QtaXA2dGFibGVzCiAga21vZC1uZi1jb25udHJhY2sKICBrbW9kLWlwdC1jb25udHJhY2sKICBrbW9kLW5mdC1jb21wYXQKICBuZnRhYmxlcwopCgpbICIke0RFUEVORFN9IiA9ICIke0VYUEVDVEVEX0lQS19ERVBFTkRTfSIgXSB8fCBcCiAgZmFpbCAidW5leHBlY3RlZCBkZWZhdWx0IGRlcGVuZGVuY2llczogJHtERVBFTkRTfSIKCnZhbGlkYXRlX29wZW53cnRfZGVwZW5kZW5jaWVzICIke0RFUEVORFN9Igpmb3IgZm9yYmlkZGVuX292ZXJyaWRlIGluIFwKICAibGliYywgaXB0YWJsZXMtbmZ0IiBcCiAgImxpYmMsIGttb2QtaXB0LWNvbm50cmFjayIgXAogICJsaWJjLCBuZnRhYmxlcy1qc29uIiBcCiAgImxpYmMsIGZpcmV3YWxsNCI7IGRvCiAgaWYgKHZhbGlkYXRlX29wZW53cnRfZGVwZW5kZW5jaWVzICIke2ZvcmJpZGRlbl9vdmVycmlkZX0iKSA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgIGZhaWwgImZpcmV3YWxsIGRlcGVuZGVuY3kgb3ZlcnJpZGUgd2FzIGFjY2VwdGVkOiAke2ZvcmJpZGRlbl9vdmVycmlkZX0iCiAgZmkKZG9uZQoKQVBLX0RFUEVORFM9IiQoYXBrX3BhY2thZ2VfZGVwZW5kcyAiJHtERVBFTkRTfSIpIgpbICIke0FQS19ERVBFTkRTfSIgPSAiJHtFWFBFQ1RFRF9BUEtfREVQRU5EU30iIF0gfHwgXAogIGZhaWwgInVuZXhwZWN0ZWQgQVBLIGRlcGVuZGVuY2llczogJHtBUEtfREVQRU5EU30iCgpmb3IgZGVwZW5kZW5jeSBpbiAiJHtGT1JCSURERU5fREVQRU5ERU5DSUVTW0BdfSI7IGRvCiAgY2FzZSAiICR7QVBLX0RFUEVORFN9ICIgaW4KICAgICoiICR7ZGVwZW5kZW5jeX0gIiopCiAgICAgIGZhaWwgIk9wZW5XcnQgcGFja2FnZSBzdGlsbCBkZXBlbmRzIG9uICR7ZGVwZW5kZW5jeX0iCiAgICAgIDs7CiAgZXNhYwpkb25lCgpURVNUX0RJUj0iJChta3RlbXAgLWQgIiR7Uk9PVF9ESVJ9L2Rpc3Qvb3BlbndydC1ydW50aW1lLWNvbnRyYWN0LlhYWFhYWCIpIgpjbGVhbnVwKCkgewogIHJtIC1yZiAiJHtURVNUX0RJUn0iCn0KdHJhcCBjbGVhbnVwIEVYSVQKCndyaXRlX2NvbnRyb2xfZmlsZXMgIiR7VEVTVF9ESVJ9L0NPTlRST0wiICJhYXJjaDY0X2NvcnRleC1hNTMiICIyLjEuNCIgIjEiCkNPTlRST0xfRklMRT0iJHtURVNUX0RJUn0vQ09OVFJPTC9jb250cm9sIgpncmVwIC1GeHEgLS0gIkRlcGVuZHM6ICR7RVhQRUNURURfSVBLX0RFUEVORFN9IiAiJHtDT05UUk9MX0ZJTEV9IiB8fCBcCiAgZmFpbCAiSVBLIGNvbnRyb2wgbWV0YWRhdGEgaGFzIHVuZXhwZWN0ZWQgZGVwZW5kZW5jaWVzIgoKZm9yIGRlcGVuZGVuY3kgaW4gIiR7Rk9SQklEREVOX0RFUEVOREVOQ0lFU1tAXX0iOyBkbwogIGlmIGdyZXAgLUVxIC0tICIoXnxbICxdKSR7ZGVwZW5kZW5jeX0oWyAsXXwkKSIgIiR7Q09OVFJPTF9GSUxFfSI7IHRoZW4KICAgIGZhaWwgIklQSyBjb250cm9sIG1ldGFkYXRhIHN0aWxsIGNvbnRhaW5zICR7ZGVwZW5kZW5jeX0iCiAgZmkKZG9uZQoKZ3JlcCAtRnEgLS0gJyJGTl9LTk9DS19ESVNBQkxFX0lQVEFCTEVTPTEiJyBkZXBsb3kvb3BlbndydC9ldGMvaW5pdC5kL2ZuLWtub2NrIHx8IFwKICBmYWlsICJPcGVuV3J0IGdhdGV3YXkgZG9lcyBub3QgZm9yY2UtZGlzYWJsZSBpcHRhYmxlcyIKClNNQVJUX0NPTk5FQ1RfUlVOVElNRV9TT1VSQ0U9ImFwcHMvc2VydmVyLWFkbWluLXJzL3NyYy9jb25maWcvcnVudGltZS9zbWFydF9jb25uZWN0LnJzIgpSVU5USU1FX1BST0ZJTEVfU09VUkNFPSJhcHBzL3NlcnZlci1hZG1pbi1ycy9zcmMvaW5mcmEvcnVudGltZV9wcm9maWxlLnJzIgpncmVwIC1GcSAtLSAnc21hcnRfY29ubmVjdF9ob3N0X21hbmFnZW1lbnRfYXZhaWxhYmxlKHN0YXRlKSwnICIke1NNQVJUX0NPTk5FQ1RfUlVOVElNRV9TT1VSQ0V9IiB8fCBcCiAgZmFpbCAiT3BlbldydCBzbWFydCBjb25uZWN0IGNsZWFudXAgaXMgbm90IGd1YXJkZWQgYnkgcnVudGltZSBjYXBhYmlsaXRpZXMiCmdyZXAgLUZxIC0tICdpZiAhc2hvdWxkX3NjaGVkdWxlX3NtYXJ0X2Nvbm5lY3Rfc3luYygmc3RhdGUsICZjb25maWcpJyAiJHtTTUFSVF9DT05ORUNUX1JVTlRJTUVfU09VUkNFfSIgfHwgXAogIGZhaWwgIk9wZW5XcnQgaG9zdCBtYXBwaW5nIGNoYW5nZXMgY2FuIHN0aWxsIHNjaGVkdWxlIHNtYXJ0IGNvbm5lY3Qgc3luY2hyb25pemF0aW9uIgpncmVwIC1GcSAtLSAncmVzb2x2ZV9zbWFydF9jb25uZWN0X2Ruc21hc3Ffc3RhdHVzKGhvc3RfbWFuYWdlbWVudF9hdmFpbGFibGUnICIke1NNQVJUX0NPTk5FQ1RfUlVOVElNRV9TT1VSQ0V9IiB8fCBcCiAgZmFpbCAiT3BlbldydCBzbWFydCBjb25uZWN0IGRldGFpbHMgY2FuIHN0aWxsIHByb2JlIHRoZSBob3N0IGRuc21hc3Egc2VydmljZSIKZ3JlcCAtRnEgLS0gJ2lmICFzbWFydF9jb25uZWN0X2hvc3RfbWFuYWdlbWVudF9hdmFpbGFibGUoc3RhdGUpJyAiJHtTTUFSVF9DT05ORUNUX1JVTlRJTUVfU09VUkNFfSIgfHwgXAogIGZhaWwgIk9wZW5XcnQgc21hcnQgY29ubmVjdCBhY3RpdmF0aW9uIGNhbiBzdGlsbCB3cml0ZSBkbnNtYXNxIGNvbmZpZ3VyYXRpb24iCmdyZXAgLUZxIC0tICdQYXRoOjpuZXcoIi9ldGMvb3BlbndydF9yZWxlYXNlIiknICIke1JVTlRJTUVfUFJPRklMRV9TT1VSQ0V9IiB8fCBcCiAgZmFpbCAiT3BlbldydCBydW50aW1lIGRldGVjdGlvbiByZWxpZXMgb25seSBvbiBhbiBpbmplY3RlZCBlbnZpcm9ubWVudCB2YXJpYWJsZSIKCmlmIGdyZXAgLUVxIC0tICdjbGVhblwuc2h8aXB0YWJsZXN8aXA2dGFibGVzfG5mdGFibGVzJyBkZXBsb3kvb3BlbndydC9jb250cm9sL3ByZXJtOyB0aGVuCiAgZmFpbCAiT3BlbldydCB1bmluc3RhbGwgbGlmZWN5Y2xlIHN0aWxsIHBlcmZvcm1zIGZpcmV3YWxsIGNsZWFudXAiCmZpCgpncmVwIC1GcSAtLSAncm0gLWYgL3Zhci9saWIvZm4ta25vY2svY2xlYW4uc2gnIGRlcGxveS9vcGVud3J0L2NvbnRyb2wvcG9zdGluc3QgfHwgXAogIGZhaWwgIk9wZW5XcnQgdXBncmFkZSBkb2VzIG5vdCByZW1vdmUgYSBsZWdhY3kgZmlyZXdhbGwgY2xlYW51cCBzY3JpcHQiCgpQRVJTSVNURU5UX0RBVEFfRElSPSIvZXRjL2ZuLWtub2NrL2RhdGEiCmdyZXAgLUZxIC0tICJvcHRpb24gZGF0YV9kaXIgJyR7UEVSU0lTVEVOVF9EQVRBX0RJUn0nIiBkZXBsb3kvb3BlbndydC9ldGMvY29uZmlnL2ZuLWtub2NrIHx8IFwKICBmYWlsICJPcGVuV3J0IFVDSSBjb25maWcgZG9lcyBub3QgZGVmYXVsdCB0byBwZXJzaXN0ZW50IGRhdGEgc3RvcmFnZSIKZ3JlcCAtRnEgLS0gImNvbmZpZ19nZXQgZGF0YV9kaXIgbWFpbiBkYXRhX2RpciBcIiR7UEVSU0lTVEVOVF9EQVRBX0RJUn1cIiIgZGVwbG95L29wZW53cnQvZXRjL2luaXQuZC9mbi1rbm9jayB8fCBcCiAgZmFpbCAiT3BlbldydCBpbml0IGZhbGxiYWNrIGRvZXMgbm90IHVzZSBwZXJzaXN0ZW50IGRhdGEgc3RvcmFnZSIKZ3JlcCAtRnEgLS0gImNvbmZpZ19nZXQgZGF0YV9kaXIgbWFpbiBkYXRhX2RpciBcIiR7UEVSU0lTVEVOVF9EQVRBX0RJUn1cIiIgZGVwbG95L29wZW53cnQvdXNyL2Jpbi9mbi1rbm9jay1yZXNldC1wYW5lbC1wYXNzd29yZCB8fCBcCiAgZmFpbCAiT3BlbldydCBwYXNzd29yZCByZXNldCBmYWxsYmFjayBkb2VzIG5vdCB1c2UgcGVyc2lzdGVudCBkYXRhIHN0b3JhZ2UiCmZvciBsdWNpX3ZpZXcgaW4gXAogIGRlcGxveS9vcGVud3J0L3d3dy9sdWNpLXN0YXRpYy9yZXNvdXJjZXMvdmlldy9mbi1rbm9jay5qcyBcCiAgZGVwbG95L29wZW53cnQvd3d3L2x1Y2ktc3RhdGljL3Jlc291cmNlcy92aWV3L2ZuLWtub2NrLW9wZW53cnQuanM7IGRvCiAgZ3JlcCAtRnEgLS0gIm8ucGxhY2Vob2xkZXIgPSAnJHtQRVJTSVNURU5UX0RBVEFfRElSfSc7IiAiJHtsdWNpX3ZpZXd9IiB8fCBcCiAgICBmYWlsICJPcGVuV3J0IEx1Q0kgZGF0YSBkaXJlY3RvcnkgcGxhY2Vob2xkZXIgaXMgbm90IHBlcnNpc3RlbnQ6ICR7bHVjaV92aWV3fSIKZG9uZQoKTUlHUkFUSU9OX1NDUklQVD0iJHtST09UX0RJUn0vZGVwbG95L29wZW53cnQvdXNyL2xpYmV4ZWMvZm4ta25vY2stbWlncmF0ZS1kYXRhLWRpciIKWyAteCAiJHtNSUdSQVRJT05fU0NSSVBUfSIgXSB8fCBmYWlsICJPcGVuV3J0IGRhdGEgZGlyZWN0b3J5IG1pZ3JhdGlvbiBoZWxwZXIgaXMgbm90IGV4ZWN1dGFibGUiCmdyZXAgLUZxIC0tICc6LS92YXIvbGliL2ZuLWtub2NrfScgIiR7TUlHUkFUSU9OX1NDUklQVH0iIHx8IFwKICBmYWlsICJPcGVuV3J0IG1pZ3JhdGlvbiBoZWxwZXIgZG9lcyBub3QgcmVjb2duaXplIHRoZSBleGFjdCBsZWdhY3kgZGVmYXVsdCIKZ3JlcCAtRnEgLS0gJzotL2V0Yy9mbi1rbm9jay9kYXRhfScgIiR7TUlHUkFUSU9OX1NDUklQVH0iIHx8IFwKICBmYWlsICJPcGVuV3J0IG1pZ3JhdGlvbiBoZWxwZXIgZG9lcyBub3QgdGFyZ2V0IHRoZSBwZXJzaXN0ZW50IGRlZmF1bHQiCmdyZXAgLUZxIC0tICcvdXNyL2xpYmV4ZWMvZm4ta25vY2stbWlncmF0ZS1kYXRhLWRpcicgZGVwbG95L29wZW53cnQvY29udHJvbC9wb3N0aW5zdCB8fCBcCiAgZmFpbCAiT3BlbldydCBwb3N0LWluc3RhbGwgbGlmZWN5Y2xlIGRvZXMgbm90IHJ1biB0aGUgZGF0YSBkaXJlY3RvcnkgbWlncmF0aW9uIGhlbHBlciIKCkZBS0VfVUNJPSIke1RFU1RfRElSfS9mYWtlLXVjaSIKY2F0ID4gIiR7RkFLRV9VQ0l9IiA8PCdFT0YnCiMhL2Jpbi9zaApzZXQgLWUKCmlmIFsgIiQxIiA9ICItcSIgXSAmJiBbICIkMiIgPSAiZ2V0IiBdICYmIFsgIiQzIiA9ICJmbi1rbm9jay5tYWluLmRhdGFfZGlyIiBdOyB0aGVuCiAgY2F0ICIke0ZOX0tOT0NLX1RFU1RfVUNJX1NUQVRFfSIKICBleGl0IDAKZmkKaWYgWyAiJDEiID0gInNldCIgXTsgdGhlbgogIHByaW50ZiAnJXMnICIkezIjZm4ta25vY2subWFpbi5kYXRhX2Rpcj19IiA+ICIke0ZOX0tOT0NLX1RFU1RfVUNJX1NUQVRFfSIKICBwcmludGYgJ3NldFxuJyA+PiAiJHtGTl9LTk9DS19URVNUX1VDSV9MT0d9IgogIGV4aXQgMApmaQppZiBbICIkMSIgPSAiY29tbWl0IiBdICYmIFsgIiQyIiA9ICJmbi1rbm9jayIgXTsgdGhlbgogIHByaW50ZiAnY29tbWl0XG4nID4+ICIke0ZOX0tOT0NLX1RFU1RfVUNJX0xPR30iCiAgZXhpdCAwCmZpCmV4aXQgMQpFT0YKY2htb2QgNzU1ICIke0ZBS0VfVUNJfSIKCkZBS0VfSU5JVD0iJHtURVNUX0RJUn0vZmFrZS1pbml0IgpjYXQgPiAiJHtGQUtFX0lOSVR9IiA8PCdFT0YnCiMhL2Jpbi9zaApwcmludGYgJyVzXG4nICIkMSIgPj4gIiR7Rk5fS05PQ0tfVEVTVF9JTklUX0xPR30iClsgIiR7Rk5fS05PQ0tfVEVTVF9JTklUX1NIT1VMRF9GQUlMOi0wfSIgIT0gIjEiIF0gfHwgZXhpdCAxCkVPRgpjaG1vZCA3NTUgIiR7RkFLRV9JTklUfSIKCnJ1bl9kYXRhX2Rpcl9taWdyYXRpb24oKSB7CiAgbG9jYWwgbGVnYWN5X2Rpcj0iJDEiCiAgbG9jYWwgcGVyc2lzdGVudF9kaXI9IiQyIgogIGxvY2FsIHVjaV9zdGF0ZT0iJDMiCiAgbG9jYWwgdWNpX2xvZz0iJDQiCiAgbG9jYWwgaW5pdF9sb2c9IiQ1IgogIGxvY2FsIGluaXRfc2hvdWxkX2ZhaWw9IiR7NjotMH0iCgogIEZOX0tOT0NLX0xFR0FDWV9EQVRBX0RJUj0iJHtsZWdhY3lfZGlyfSIgXAogIEZOX0tOT0NLX1BFUlNJU1RFTlRfREFUQV9ESVI9IiR7cGVyc2lzdGVudF9kaXJ9IiBcCiAgRk5fS05PQ0tfVUNJX0JJTj0iJHtGQUtFX1VDSX0iIFwKICBGTl9LTk9DS19JTklUX1NDUklQVD0iJHtGQUtFX0lOSVR9IiBcCiAgRk5fS05PQ0tfVEVTVF9VQ0lfU1RBVEU9IiR7dWNpX3N0YXRlfSIgXAogIEZOX0tOT0NLX1RFU1RfVUNJX0xPRz0iJHt1Y2lfbG9nfSIgXAogIEZOX0tOT0NLX1RFU1RfSU5JVF9MT0c9IiR7aW5pdF9sb2d9IiBcCiAgRk5fS05PQ0tfVEVTVF9JTklUX1NIT1VMRF9GQUlMPSIke2luaXRfc2hvdWxkX2ZhaWx9IiBcCiAgICAiJHtNSUdSQVRJT05fU0NSSVBUfSIKfQoKTEVHQUNZX0NBU0U9IiR7VEVTVF9ESVJ9L2xlZ2FjeS1kZWZhdWx0IgpMRUdBQ1lfU09VUkNFPSIke0xFR0FDWV9DQVNFfS92YXIvbGliL2ZuLWtub2NrIgpMRUdBQ1lfREVTVElOQVRJT049IiR7TEVHQUNZX0NBU0V9L2V0Yy9mbi1rbm9jay9kYXRhIgpMRUdBQ1lfVUNJX1NUQVRFPSIke0xFR0FDWV9DQVNFfS91Y2ktc3RhdGUiCkxFR0FDWV9VQ0lfTE9HPSIke0xFR0FDWV9DQVNFfS91Y2ktbG9nIgpMRUdBQ1lfSU5JVF9MT0c9IiR7TEVHQUNZX0NBU0V9L2luaXQtbG9nIgpta2RpciAtcCAiJHtMRUdBQ1lfU09VUkNFfS8uYWNtZS5zaCIgIiR7TEVHQUNZX1NPVVJDRX0vc3NsIiAiJHtMRUdBQ1lfREVTVElOQVRJT059IgpwcmludGYgJyVzJyAiJHtMRUdBQ1lfU09VUkNFfSIgPiAiJHtMRUdBQ1lfVUNJX1NUQVRFfSIKcHJpbnRmICdhY21lLWNsaWVudCcgPiAiJHtMRUdBQ1lfU09VUkNFfS8uYWNtZS5zaC9hY21lLnNoIgpwcmludGYgJ3Bvdy1zZWNyZXQnID4gIiR7TEVHQUNZX1NPVVJDRX0vYWx0Y2hhX2htYWNfa2V5IgpwcmludGYgJ2NlcnRpZmljYXRlJyA+ICIke0xFR0FDWV9TT1VSQ0V9L3NzbC9mdWxsY2hhaW4uY2VyIgpwcmludGYgJ2FjdGl2ZS1zb3VyY2UnID4gIiR7TEVHQUNZX1NPVVJDRX0vY29uZmxpY3QiCnByaW50ZiAnc3RhbGUtZGVzdGluYXRpb24nID4gIiR7TEVHQUNZX0RFU1RJTkFUSU9OfS9jb25mbGljdCIKCnJ1bl9kYXRhX2Rpcl9taWdyYXRpb24gXAogICIke0xFR0FDWV9TT1VSQ0V9IiBcCiAgIiR7TEVHQUNZX0RFU1RJTkFUSU9OfSIgXAogICIke0xFR0FDWV9VQ0lfU1RBVEV9IiBcCiAgIiR7TEVHQUNZX1VDSV9MT0d9IiBcCiAgIiR7TEVHQUNZX0lOSVRfTE9HfSIKClsgIiQoY2F0ICIke0xFR0FDWV9VQ0lfU1RBVEV9IikiID0gIiR7TEVHQUNZX0RFU1RJTkFUSU9OfSIgXSB8fCBcCiAgZmFpbCAibGVnYWN5IGRlZmF1bHQgZGF0YSBkaXJlY3RvcnkgbWlncmF0aW9uIGRpZCBub3QgY29tbWl0IHRoZSBwZXJzaXN0ZW50IFVDSSBwYXRoIgpbICIkKGNhdCAiJHtMRUdBQ1lfREVTVElOQVRJT059L2NvbmZsaWN0IikiID0gImFjdGl2ZS1zb3VyY2UiIF0gfHwgXAogIGZhaWwgImxlZ2FjeSBhY3RpdmUgZGF0YSBkaWQgbm90IHdpbiBtaWdyYXRpb24gY29uZmxpY3RzIgpbIC1mICIke0xFR0FDWV9ERVNUSU5BVElPTn0vLmFjbWUuc2gvYWNtZS5zaCIgXSB8fCBcCiAgZmFpbCAibGVnYWN5IEFDTUUgaW5zdGFsbGF0aW9uIHdhcyBub3QgbWlncmF0ZWQiClsgLWYgIiR7TEVHQUNZX0RFU1RJTkFUSU9OfS9hbHRjaGFfaG1hY19rZXkiIF0gfHwgXAogIGZhaWwgImxlZ2FjeSBQb1cga2V5IHdhcyBub3QgbWlncmF0ZWQiClsgLWYgIiR7TEVHQUNZX0RFU1RJTkFUSU9OfS9zc2wvZnVsbGNoYWluLmNlciIgXSB8fCBcCiAgZmFpbCAibGVnYWN5IGNlcnRpZmljYXRlcyB3ZXJlIG5vdCBtaWdyYXRlZCIKWyAtZiAiJHtMRUdBQ1lfU09VUkNFfS8uYWNtZS5zaC9hY21lLnNoIiBdIHx8IFwKICBmYWlsICJsZWdhY3kgZGF0YSB3YXMgcmVtb3ZlZCBpbnN0ZWFkIG9mIHJldGFpbmVkIGZvciByb2xsYmFjayIKZ3JlcCAtRnhxIC0tICJzdG9wIiAiJHtMRUdBQ1lfSU5JVF9MT0d9IiB8fCBcCiAgZmFpbCAic2VydmljZSB3YXMgbm90IHN0b3BwZWQgYmVmb3JlIG1pZ3JhdGluZyBhY3RpdmUgbGVnYWN5IGRhdGEiClsgIiQoY2F0ICIke0xFR0FDWV9VQ0lfTE9HfSIpIiA9ICQnc2V0XG5jb21taXQnIF0gfHwgXAogIGZhaWwgImxlZ2FjeSBtaWdyYXRpb24gZGlkIG5vdCBjb21taXQgVUNJIG9ubHkgYWZ0ZXIgY29weWluZyBkYXRhIgoKQ1VTVE9NX0NBU0U9IiR7VEVTVF9ESVJ9L2N1c3RvbS1kYXRhLWRpciIKQ1VTVE9NX1NPVVJDRT0iJHtDVVNUT01fQ0FTRX0vdmFyL2xpYi9mbi1rbm9jayIKQ1VTVE9NX0RFU1RJTkFUSU9OPSIke0NVU1RPTV9DQVNFfS9ldGMvZm4ta25vY2svZGF0YSIKQ1VTVE9NX1VDSV9TVEFURT0iJHtDVVNUT01fQ0FTRX0vdWNpLXN0YXRlIgpDVVNUT01fVUNJX0xPRz0iJHtDVVNUT01fQ0FTRX0vdWNpLWxvZyIKQ1VTVE9NX0lOSVRfTE9HPSIke0NVU1RPTV9DQVNFfS9pbml0LWxvZyIKbWtkaXIgLXAgIiR7Q1VTVE9NX1NPVVJDRX0iCnByaW50ZiAnL21udC9wZXJzaXN0ZW50L2ZuLWtub2NrJyA+ICIke0NVU1RPTV9VQ0lfU1RBVEV9IgpwcmludGYgJ2N1c3RvbS1kYXRhJyA+ICIke0NVU1RPTV9TT1VSQ0V9L21hcmtlciIKOiA+ICIke0NVU1RPTV9VQ0lfTE9HfSIKOiA+ICIke0NVU1RPTV9JTklUX0xPR30iCgpydW5fZGF0YV9kaXJfbWlncmF0aW9uIFwKICAiJHtDVVNUT01fU09VUkNFfSIgXAogICIke0NVU1RPTV9ERVNUSU5BVElPTn0iIFwKICAiJHtDVVNUT01fVUNJX1NUQVRFfSIgXAogICIke0NVU1RPTV9VQ0lfTE9HfSIgXAogICIke0NVU1RPTV9JTklUX0xPR30iCgpbICIkKGNhdCAiJHtDVVNUT01fVUNJX1NUQVRFfSIpIiA9ICIvbW50L3BlcnNpc3RlbnQvZm4ta25vY2siIF0gfHwgXAogIGZhaWwgImN1c3RvbSBPcGVuV3J0IGRhdGEgZGlyZWN0b3J5IHdhcyBtb2RpZmllZCIKWyAhIC1lICIke0NVU1RPTV9ERVNUSU5BVElPTn0iIF0gfHwgXAogIGZhaWwgImN1c3RvbSBPcGVuV3J0IGRhdGEgZGlyZWN0b3J5IHRyaWdnZXJlZCBsZWdhY3kgbWlncmF0aW9uIgpbICEgLXMgIiR7Q1VTVE9NX1VDSV9MT0d9IiBdICYmIFsgISAtcyAiJHtDVVNUT01fSU5JVF9MT0d9IiBdIHx8IFwKICBmYWlsICJjdXN0b20gT3BlbldydCBkYXRhIGRpcmVjdG9yeSBjYXVzZWQgbWlncmF0aW9uIHNpZGUgZWZmZWN0cyIKCkZBSUxVUkVfQ0FTRT0iJHtURVNUX0RJUn0vY29weS1mYWlsdXJlIgpGQUlMVVJFX1NPVVJDRT0iJHtGQUlMVVJFX0NBU0V9L3Zhci9saWIvZm4ta25vY2siCkZBSUxVUkVfREVTVElOQVRJT049IiR7RkFJTFVSRV9DQVNFfS9ldGMvZm4ta25vY2svZGF0YSIKRkFJTFVSRV9VQ0lfU1RBVEU9IiR7RkFJTFVSRV9DQVNFfS91Y2ktc3RhdGUiCkZBSUxVUkVfVUNJX0xPRz0iJHtGQUlMVVJFX0NBU0V9L3VjaS1sb2ciCkZBSUxVUkVfSU5JVF9MT0c9IiR7RkFJTFVSRV9DQVNFfS9pbml0LWxvZyIKbWtkaXIgLXAgIiR7RkFJTFVSRV9TT1VSQ0V9L2NvbmZsaWN0IiAiJHtGQUlMVVJFX0RFU1RJTkFUSU9OfSIKcHJpbnRmICclcycgIiR7RkFJTFVSRV9TT1VSQ0V9IiA+ICIke0ZBSUxVUkVfVUNJX1NUQVRFfSIKcHJpbnRmICdzb3VyY2UtY2hpbGQnID4gIiR7RkFJTFVSRV9TT1VSQ0V9L2NvbmZsaWN0L2NoaWxkIgpwcmludGYgJ2Rlc3RpbmF0aW9uLWZpbGUnID4gIiR7RkFJTFVSRV9ERVNUSU5BVElPTn0vY29uZmxpY3QiCjogPiAiJHtGQUlMVVJFX1VDSV9MT0d9Igo6ID4gIiR7RkFJTFVSRV9JTklUX0xPR30iCgppZiBydW5fZGF0YV9kaXJfbWlncmF0aW9uIFwKICAiJHtGQUlMVVJFX1NPVVJDRX0iIFwKICAiJHtGQUlMVVJFX0RFU1RJTkFUSU9OfSIgXAogICIke0ZBSUxVUkVfVUNJX1NUQVRFfSIgXAogICIke0ZBSUxVUkVfVUNJX0xPR30iIFwKICAiJHtGQUlMVVJFX0lOSVRfTE9HfSIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgZmFpbCAiT3BlbldydCBkYXRhIG1pZ3JhdGlvbiBhY2NlcHRlZCBhIGZhaWxlZCBjb3B5IgpmaQpbICIkKGNhdCAiJHtGQUlMVVJFX1VDSV9TVEFURX0iKSIgPSAiJHtGQUlMVVJFX1NPVVJDRX0iIF0gfHwgXAogIGZhaWwgImZhaWxlZCBPcGVuV3J0IGRhdGEgbWlncmF0aW9uIGNoYW5nZWQgdGhlIFVDSSBwYXRoIgpbICEgLXMgIiR7RkFJTFVSRV9VQ0lfTE9HfSIgXSB8fCBcCiAgZmFpbCAiZmFpbGVkIE9wZW5XcnQgZGF0YSBtaWdyYXRpb24gY29tbWl0dGVkIFVDSSBjaGFuZ2VzIgoKU1RPUF9GQUlMVVJFX0NBU0U9IiR7VEVTVF9ESVJ9L3N0b3AtZmFpbHVyZSIKU1RPUF9GQUlMVVJFX1NPVVJDRT0iJHtTVE9QX0ZBSUxVUkVfQ0FTRX0vdmFyL2xpYi9mbi1rbm9jayIKU1RPUF9GQUlMVVJFX0RFU1RJTkFUSU9OPSIke1NUT1BfRkFJTFVSRV9DQVNFfS9ldGMvZm4ta25vY2svZGF0YSIKU1RPUF9GQUlMVVJFX1VDSV9TVEFURT0iJHtTVE9QX0ZBSUxVUkVfQ0FTRX0vdWNpLXN0YXRlIgpTVE9QX0ZBSUxVUkVfVUNJX0xPRz0iJHtTVE9QX0ZBSUxVUkVfQ0FTRX0vdWNpLWxvZyIKU1RPUF9GQUlMVVJFX0lOSVRfTE9HPSIke1NUT1BfRkFJTFVSRV9DQVNFfS9pbml0LWxvZyIKbWtkaXIgLXAgIiR7U1RPUF9GQUlMVVJFX1NPVVJDRX0iCnByaW50ZiAnJXMnICIke1NUT1BfRkFJTFVSRV9TT1VSQ0V9IiA+ICIke1NUT1BfRkFJTFVSRV9VQ0lfU1RBVEV9IgpwcmludGYgJ2FjdGl2ZS1kYXRhJyA+ICIke1NUT1BfRkFJTFVSRV9TT1VSQ0V9L21hcmtlciIKOiA+ICIke1NUT1BfRkFJTFVSRV9VQ0lfTE9HfSIKOiA+ICIke1NUT1BfRkFJTFVSRV9JTklUX0xPR30iCgppZiBydW5fZGF0YV9kaXJfbWlncmF0aW9uIFwKICAiJHtTVE9QX0ZBSUxVUkVfU09VUkNFfSIgXAogICIke1NUT1BfRkFJTFVSRV9ERVNUSU5BVElPTn0iIFwKICAiJHtTVE9QX0ZBSUxVUkVfVUNJX1NUQVRFfSIgXAogICIke1NUT1BfRkFJTFVSRV9VQ0lfTE9HfSIgXAogICIke1NUT1BfRkFJTFVSRV9JTklUX0xPR30iIFwKICAiMSIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgZmFpbCAiT3BlbldydCBkYXRhIG1pZ3JhdGlvbiBjb250aW51ZWQgYWZ0ZXIgdGhlIHNlcnZpY2UgZmFpbGVkIHRvIHN0b3AiCmZpClsgIiQoY2F0ICIke1NUT1BfRkFJTFVSRV9VQ0lfU1RBVEV9IikiID0gIiR7U1RPUF9GQUlMVVJFX1NPVVJDRX0iIF0gfHwgXAogIGZhaWwgInNlcnZpY2Ugc3RvcCBmYWlsdXJlIGNoYW5nZWQgdGhlIE9wZW5XcnQgVUNJIGRhdGEgZGlyZWN0b3J5IgpbICEgLWUgIiR7U1RPUF9GQUlMVVJFX0RFU1RJTkFUSU9OfSIgXSB8fCBcCiAgZmFpbCAic2VydmljZSBzdG9wIGZhaWx1cmUgY29waWVkIGRhdGEgaW50byB0aGUgcGVyc2lzdGVudCBkaXJlY3RvcnkiClsgISAtcyAiJHtTVE9QX0ZBSUxVUkVfVUNJX0xPR30iIF0gfHwgXAogIGZhaWwgInNlcnZpY2Ugc3RvcCBmYWlsdXJlIGNvbW1pdHRlZCBPcGVuV3J0IFVDSSBjaGFuZ2VzIgpncmVwIC1GeHEgLS0gInN0b3AiICIke1NUT1BfRkFJTFVSRV9JTklUX0xPR30iIHx8IFwKICBmYWlsICJzZXJ2aWNlIHN0b3AgZmFpbHVyZSB0ZXN0IGRpZCBub3QgYXR0ZW1wdCB0byBzdG9wIGZuLWtub2NrIgoKcHJpbnRmICdbdGVzdC1vcGVud3J0LXJ1bnRpbWUtY29udHJhY3RdIE9wZW5XcnQgcGFja2FnZSBhbmQgcnVudGltZSBjb250cmFjdCBwYXNzZWRcbicK
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+cd "${ROOT_DIR}"
+
+fail() {
+  printf '[test-openwrt-runtime-contract] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+[ -x deploy/openwrt/usr/libexec/fn-knock-firewall ] || \
+  fail "manual firewall helper is not executable"
+sh -n deploy/openwrt/usr/libexec/fn-knock-firewall
+
+unset FN_KNOCK_OPENWRT_DEPENDS
+source "${ROOT_DIR}/scripts/build-openwrt-ipk.sh"
+
+EXPECTED_IPK_DEPENDS="libc, bash, curl, unzip, ca-bundle, ca-certificates, luci-base"
+EXPECTED_APK_DEPENDS="libc bash curl unzip ca-bundle ca-certificates luci-base"
+FORBIDDEN_DEPENDENCIES=(
+  iptables
+  iptables-nft
+  ip6tables
+  ip6tables-nft
+  kmod-ip6tables
+  kmod-nf-conntrack
+  kmod-ipt-conntrack
+  kmod-nft-compat
+  nftables
+)
+
+[ "${DEPENDS}" = "${EXPECTED_IPK_DEPENDS}" ] || \
+  fail "unexpected default dependencies: ${DEPENDS}"
+
+validate_openwrt_dependencies "${DEPENDS}"
+for forbidden_override in \
+  "libc, iptables-nft" \
+  "libc, kmod-ipt-conntrack" \
+  "libc, nftables-json" \
+  "libc, firewall4"; do
+  if (validate_openwrt_dependencies "${forbidden_override}") >/dev/null 2>&1; then
+    fail "firewall dependency override was accepted: ${forbidden_override}"
+  fi
+done
+
+APK_DEPENDS="$(apk_package_depends "${DEPENDS}")"
+[ "${APK_DEPENDS}" = "${EXPECTED_APK_DEPENDS}" ] || \
+  fail "unexpected APK dependencies: ${APK_DEPENDS}"
+
+for dependency in "${FORBIDDEN_DEPENDENCIES[@]}"; do
+  case " ${APK_DEPENDS} " in
+    *" ${dependency} "*)
+      fail "OpenWrt package still depends on ${dependency}"
+      ;;
+  esac
+done
+
+TEST_DIR="$(mktemp -d "${ROOT_DIR}/dist/openwrt-runtime-contract.XXXXXX")"
+cleanup() {
+  rm -rf "${TEST_DIR}"
+}
+trap cleanup EXIT
+
+write_control_files "${TEST_DIR}/CONTROL" "aarch64_cortex-a53" "2.1.4" "1"
+CONTROL_FILE="${TEST_DIR}/CONTROL/control"
+grep -Fxq -- "Depends: ${EXPECTED_IPK_DEPENDS}" "${CONTROL_FILE}" || \
+  fail "IPK control metadata has unexpected dependencies"
+
+for dependency in "${FORBIDDEN_DEPENDENCIES[@]}"; do
+  if grep -Eq -- "(^|[ ,])${dependency}([ ,]|$)" "${CONTROL_FILE}"; then
+    fail "IPK control metadata still contains ${dependency}"
+  fi
+done
+
+grep -Fq -- '"FN_KNOCK_DISABLE_IPTABLES=1"' deploy/openwrt/etc/init.d/fn-knock || \
+  fail "OpenWrt gateway does not force-disable iptables"
+
+SMART_CONNECT_RUNTIME_SOURCE="apps/server-admin-rs/src/config/runtime/smart_connect.rs"
+RUNTIME_PROFILE_SOURCE="apps/server-admin-rs/src/infra/runtime_profile.rs"
+grep -Fq -- 'smart_connect_host_management_available(state),' "${SMART_CONNECT_RUNTIME_SOURCE}" || \
+  fail "OpenWrt smart connect cleanup is not guarded by runtime capabilities"
+grep -Fq -- 'if !should_schedule_smart_connect_sync(&state, &config)' "${SMART_CONNECT_RUNTIME_SOURCE}" || \
+  fail "OpenWrt host mapping changes can still schedule smart connect synchronization"
+grep -Fq -- 'resolve_smart_connect_dnsmasq_status(host_management_available' "${SMART_CONNECT_RUNTIME_SOURCE}" || \
+  fail "OpenWrt smart connect details can still probe the host dnsmasq service"
+grep -Fq -- 'if !smart_connect_host_management_available(state)' "${SMART_CONNECT_RUNTIME_SOURCE}" || \
+  fail "OpenWrt smart connect activation can still write dnsmasq configuration"
+grep -Fq -- 'Path::new("/etc/openwrt_release")' "${RUNTIME_PROFILE_SOURCE}" || \
+  fail "OpenWrt runtime detection relies only on an injected environment variable"
+
+if grep -Eq -- 'clean\.sh|iptables|ip6tables|nftables' deploy/openwrt/control/prerm; then
+  fail "OpenWrt uninstall lifecycle still performs firewall cleanup"
+fi
+
+grep -Fq -- 'rm -f /var/lib/fn-knock/clean.sh' deploy/openwrt/control/postinst || \
+  fail "OpenWrt upgrade does not remove a legacy firewall cleanup script"
+
+PERSISTENT_DATA_DIR="/etc/fn-knock/data"
+grep -Fq -- "option data_dir '${PERSISTENT_DATA_DIR}'" deploy/openwrt/etc/config/fn-knock || \
+  fail "OpenWrt UCI config does not default to persistent data storage"
+grep -Fq -- "config_get data_dir main data_dir \"${PERSISTENT_DATA_DIR}\"" deploy/openwrt/etc/init.d/fn-knock || \
+  fail "OpenWrt init fallback does not use persistent data storage"
+grep -Fq -- "config_get data_dir main data_dir \"${PERSISTENT_DATA_DIR}\"" deploy/openwrt/usr/bin/fn-knock-reset-panel-password || \
+  fail "OpenWrt password reset fallback does not use persistent data storage"
+for luci_view in \
+  deploy/openwrt/www/luci-static/resources/view/fn-knock.js \
+  deploy/openwrt/www/luci-static/resources/view/fn-knock-openwrt.js; do
+  grep -Fq -- "o.placeholder = '${PERSISTENT_DATA_DIR}';" "${luci_view}" || \
+    fail "OpenWrt LuCI data directory placeholder is not persistent: ${luci_view}"
+done
+
+MIGRATION_SCRIPT="${ROOT_DIR}/deploy/openwrt/usr/libexec/fn-knock-migrate-data-dir"
+[ -x "${MIGRATION_SCRIPT}" ] || fail "OpenWrt data directory migration helper is not executable"
+grep -Fq -- ':-/var/lib/fn-knock}' "${MIGRATION_SCRIPT}" || \
+  fail "OpenWrt migration helper does not recognize the exact legacy default"
+grep -Fq -- ':-/etc/fn-knock/data}' "${MIGRATION_SCRIPT}" || \
+  fail "OpenWrt migration helper does not target the persistent default"
+grep -Fq -- '/usr/libexec/fn-knock-migrate-data-dir' deploy/openwrt/control/postinst || \
+  fail "OpenWrt post-install lifecycle does not run the data directory migration helper"
+
+FAKE_UCI="${TEST_DIR}/fake-uci"
+cat > "${FAKE_UCI}" <<'EOF'
+#!/bin/sh
+set -e
+
+if [ "$1" = "-q" ] && [ "$2" = "get" ] && [ "$3" = "fn-knock.main.data_dir" ]; then
+  cat "${FN_KNOCK_TEST_UCI_STATE}"
+  exit 0
+fi
+if [ "$1" = "set" ]; then
+  printf '%s' "${2#fn-knock.main.data_dir=}" > "${FN_KNOCK_TEST_UCI_STATE}"
+  printf 'set\n' >> "${FN_KNOCK_TEST_UCI_LOG}"
+  exit 0
+fi
+if [ "$1" = "commit" ] && [ "$2" = "fn-knock" ]; then
+  printf 'commit\n' >> "${FN_KNOCK_TEST_UCI_LOG}"
+  exit 0
+fi
+exit 1
+EOF
+chmod 755 "${FAKE_UCI}"
+
+FAKE_INIT="${TEST_DIR}/fake-init"
+cat > "${FAKE_INIT}" <<'EOF'
+#!/bin/sh
+printf '%s\n' "$1" >> "${FN_KNOCK_TEST_INIT_LOG}"
+[ "${FN_KNOCK_TEST_INIT_SHOULD_FAIL:-0}" != "1" ] || exit 1
+EOF
+chmod 755 "${FAKE_INIT}"
+
+run_data_dir_migration() {
+  local legacy_dir="$1"
+  local persistent_dir="$2"
+  local uci_state="$3"
+  local uci_log="$4"
+  local init_log="$5"
+  local init_should_fail="${6:-0}"
+
+  FN_KNOCK_LEGACY_DATA_DIR="${legacy_dir}" \
+  FN_KNOCK_PERSISTENT_DATA_DIR="${persistent_dir}" \
+  FN_KNOCK_UCI_BIN="${FAKE_UCI}" \
+  FN_KNOCK_INIT_SCRIPT="${FAKE_INIT}" \
+  FN_KNOCK_TEST_UCI_STATE="${uci_state}" \
+  FN_KNOCK_TEST_UCI_LOG="${uci_log}" \
+  FN_KNOCK_TEST_INIT_LOG="${init_log}" \
+  FN_KNOCK_TEST_INIT_SHOULD_FAIL="${init_should_fail}" \
+    "${MIGRATION_SCRIPT}"
+}
+
+LEGACY_CASE="${TEST_DIR}/legacy-default"
+LEGACY_SOURCE="${LEGACY_CASE}/var/lib/fn-knock"
+LEGACY_DESTINATION="${LEGACY_CASE}/etc/fn-knock/data"
+LEGACY_UCI_STATE="${LEGACY_CASE}/uci-state"
+LEGACY_UCI_LOG="${LEGACY_CASE}/uci-log"
+LEGACY_INIT_LOG="${LEGACY_CASE}/init-log"
+mkdir -p "${LEGACY_SOURCE}/.acme.sh" "${LEGACY_SOURCE}/ssl" "${LEGACY_DESTINATION}"
+printf '%s' "${LEGACY_SOURCE}" > "${LEGACY_UCI_STATE}"
+printf 'acme-client' > "${LEGACY_SOURCE}/.acme.sh/acme.sh"
+printf 'pow-secret' > "${LEGACY_SOURCE}/altcha_hmac_key"
+printf 'certificate' > "${LEGACY_SOURCE}/ssl/fullchain.cer"
+printf 'active-source' > "${LEGACY_SOURCE}/conflict"
+printf 'stale-destination' > "${LEGACY_DESTINATION}/conflict"
+
+run_data_dir_migration \
+  "${LEGACY_SOURCE}" \
+  "${LEGACY_DESTINATION}" \
+  "${LEGACY_UCI_STATE}" \
+  "${LEGACY_UCI_LOG}" \
+  "${LEGACY_INIT_LOG}"
+
+[ "$(cat "${LEGACY_UCI_STATE}")" = "${LEGACY_DESTINATION}" ] || \
+  fail "legacy default data directory migration did not commit the persistent UCI path"
+[ "$(cat "${LEGACY_DESTINATION}/conflict")" = "active-source" ] || \
+  fail "legacy active data did not win migration conflicts"
+[ -f "${LEGACY_DESTINATION}/.acme.sh/acme.sh" ] || \
+  fail "legacy ACME installation was not migrated"
+[ -f "${LEGACY_DESTINATION}/altcha_hmac_key" ] || \
+  fail "legacy PoW key was not migrated"
+[ -f "${LEGACY_DESTINATION}/ssl/fullchain.cer" ] || \
+  fail "legacy certificates were not migrated"
+[ -f "${LEGACY_SOURCE}/.acme.sh/acme.sh" ] || \
+  fail "legacy data was removed instead of retained for rollback"
+grep -Fxq -- "stop" "${LEGACY_INIT_LOG}" || \
+  fail "service was not stopped before migrating active legacy data"
+[ "$(cat "${LEGACY_UCI_LOG}")" = $'set\ncommit' ] || \
+  fail "legacy migration did not commit UCI only after copying data"
+
+CUSTOM_CASE="${TEST_DIR}/custom-data-dir"
+CUSTOM_SOURCE="${CUSTOM_CASE}/var/lib/fn-knock"
+CUSTOM_DESTINATION="${CUSTOM_CASE}/etc/fn-knock/data"
+CUSTOM_UCI_STATE="${CUSTOM_CASE}/uci-state"
+CUSTOM_UCI_LOG="${CUSTOM_CASE}/uci-log"
+CUSTOM_INIT_LOG="${CUSTOM_CASE}/init-log"
+mkdir -p "${CUSTOM_SOURCE}"
+printf '/mnt/persistent/fn-knock' > "${CUSTOM_UCI_STATE}"
+printf 'custom-data' > "${CUSTOM_SOURCE}/marker"
+: > "${CUSTOM_UCI_LOG}"
+: > "${CUSTOM_INIT_LOG}"
+
+run_data_dir_migration \
+  "${CUSTOM_SOURCE}" \
+  "${CUSTOM_DESTINATION}" \
+  "${CUSTOM_UCI_STATE}" \
+  "${CUSTOM_UCI_LOG}" \
+  "${CUSTOM_INIT_LOG}"
+
+[ "$(cat "${CUSTOM_UCI_STATE}")" = "/mnt/persistent/fn-knock" ] || \
+  fail "custom OpenWrt data directory was modified"
+[ ! -e "${CUSTOM_DESTINATION}" ] || \
+  fail "custom OpenWrt data directory triggered legacy migration"
+[ ! -s "${CUSTOM_UCI_LOG}" ] && [ ! -s "${CUSTOM_INIT_LOG}" ] || \
+  fail "custom OpenWrt data directory caused migration side effects"
+
+FAILURE_CASE="${TEST_DIR}/copy-failure"
+FAILURE_SOURCE="${FAILURE_CASE}/var/lib/fn-knock"
+FAILURE_DESTINATION="${FAILURE_CASE}/etc/fn-knock/data"
+FAILURE_UCI_STATE="${FAILURE_CASE}/uci-state"
+FAILURE_UCI_LOG="${FAILURE_CASE}/uci-log"
+FAILURE_INIT_LOG="${FAILURE_CASE}/init-log"
+mkdir -p "${FAILURE_SOURCE}/conflict" "${FAILURE_DESTINATION}"
+printf '%s' "${FAILURE_SOURCE}" > "${FAILURE_UCI_STATE}"
+printf 'source-child' > "${FAILURE_SOURCE}/conflict/child"
+printf 'destination-file' > "${FAILURE_DESTINATION}/conflict"
+: > "${FAILURE_UCI_LOG}"
+: > "${FAILURE_INIT_LOG}"
+
+if run_data_dir_migration \
+  "${FAILURE_SOURCE}" \
+  "${FAILURE_DESTINATION}" \
+  "${FAILURE_UCI_STATE}" \
+  "${FAILURE_UCI_LOG}" \
+  "${FAILURE_INIT_LOG}" >/dev/null 2>&1; then
+  fail "OpenWrt data migration accepted a failed copy"
+fi
+[ "$(cat "${FAILURE_UCI_STATE}")" = "${FAILURE_SOURCE}" ] || \
+  fail "failed OpenWrt data migration changed the UCI path"
+[ ! -s "${FAILURE_UCI_LOG}" ] || \
+  fail "failed OpenWrt data migration committed UCI changes"
+
+STOP_FAILURE_CASE="${TEST_DIR}/stop-failure"
+STOP_FAILURE_SOURCE="${STOP_FAILURE_CASE}/var/lib/fn-knock"
+STOP_FAILURE_DESTINATION="${STOP_FAILURE_CASE}/etc/fn-knock/data"
+STOP_FAILURE_UCI_STATE="${STOP_FAILURE_CASE}/uci-state"
+STOP_FAILURE_UCI_LOG="${STOP_FAILURE_CASE}/uci-log"
+STOP_FAILURE_INIT_LOG="${STOP_FAILURE_CASE}/init-log"
+mkdir -p "${STOP_FAILURE_SOURCE}"
+printf '%s' "${STOP_FAILURE_SOURCE}" > "${STOP_FAILURE_UCI_STATE}"
+printf 'active-data' > "${STOP_FAILURE_SOURCE}/marker"
+: > "${STOP_FAILURE_UCI_LOG}"
+: > "${STOP_FAILURE_INIT_LOG}"
+
+if run_data_dir_migration \
+  "${STOP_FAILURE_SOURCE}" \
+  "${STOP_FAILURE_DESTINATION}" \
+  "${STOP_FAILURE_UCI_STATE}" \
+  "${STOP_FAILURE_UCI_LOG}" \
+  "${STOP_FAILURE_INIT_LOG}" \
+  "1" >/dev/null 2>&1; then
+  fail "OpenWrt data migration continued after the service failed to stop"
+fi
+[ "$(cat "${STOP_FAILURE_UCI_STATE}")" = "${STOP_FAILURE_SOURCE}" ] || \
+  fail "service stop failure changed the OpenWrt UCI data directory"
+[ ! -e "${STOP_FAILURE_DESTINATION}" ] || \
+  fail "service stop failure copied data into the persistent directory"
+[ ! -s "${STOP_FAILURE_UCI_LOG}" ] || \
+  fail "service stop failure committed OpenWrt UCI changes"
+grep -Fxq -- "stop" "${STOP_FAILURE_INIT_LOG}" || \
+  fail "service stop failure test did not attempt to stop fn-knock"
+
+printf '[test-openwrt-runtime-contract] OpenWrt package and runtime contract passed\n'

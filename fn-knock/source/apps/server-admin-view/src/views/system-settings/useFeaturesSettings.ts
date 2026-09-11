@@ -1,1 +1,478 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgcmVmLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gInZ1ZS1yb3V0ZXIiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IHVzZURlbGF5ZWRMb2FkaW5nIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VEZWxheWVkTG9hZGluZyI7CmltcG9ydCB7CiAgYXBwbHlEYXRlVGltZURpc3BsYXlNb2RlLAogIG5vcm1hbGl6ZURhdGVUaW1lRGlzcGxheU1vZGUsCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VEYXRlVGltZURpc3BsYXlTdGF0ZSI7CmltcG9ydCB7IENvbmZpZ0FQSSB9IGZyb20gIkAvbGliL2FwaS9jb25maWciOwppbXBvcnQgeyBTU0hTZWN1cml0eUFQSSB9IGZyb20gIkAvbGliL2FwaS9zZWN1cml0eSI7CmltcG9ydCB7IFN5c3RlbUFQSSB9IGZyb20gIkAvbGliL2FwaS9zeXN0ZW0iOwppbXBvcnQgdHlwZSB7CiAgQXV0aENyZWRlbnRpYWxTZXR0aW5ncywKICBBdXRvSHR0cHNEZXRhaWxzLAogIERhc2hib2FyZERpc3BsYXlDb25maWcsCiAgRGF0ZVRpbWVEaXNwbGF5TW9kZSwKICBQcm90b2NvbE1hcHBpbmdGZWF0dXJlQ29uZmlnLAp9IGZyb20gIi4uLy4uL3R5cGVzIjsKaW1wb3J0IHsgdXNlQ29uZmlnU3RvcmUgfSBmcm9tICIuLi8uLi9zdG9yZS9jb25maWciOwppbXBvcnQgeyBzbWFydENvbm5lY3RGZWF0dXJlRW50cnlWaXNpYmxlIH0gZnJvbSAiLi4vbGF5b3V0L3J1bnRpbWUtbmF2aWdhdGlvbiI7Cgpjb25zdCBydW5UeXBlTGFiZWxLZXlNYXAgPSB7CiAgMDogImFkbWluLmZlYXR1cmVzU2V0dGluZ3MucnVuVHlwZXMuZGlyZWN0IiwKICAxOiAiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5ydW5UeXBlcy5yZXZlcnNlIiwKICAzOiAiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5ydW5UeXBlcy5zdWJkb21haW4iLAp9IGFzIGNvbnN0OwoKZXhwb3J0IGZ1bmN0aW9uIHVzZUZlYXR1cmVzU2V0dGluZ3MoKSB7CiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7CiAgY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwogIGNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IHByb3RvY29sTWFwcGluZ0VuYWJsZWQgPSByZWYoZmFsc2UpOwogIGNvbnN0IHdvbEVuYWJsZWQgPSByZWYoZmFsc2UpOwogIGNvbnN0IHBhc3NrZXlCaW5kUHJvbXB0RW5hYmxlZCA9IHJlZih0cnVlKTsKICBjb25zdCBzaG93RW50cnlTdGF0dXNNb2R1bGUgPSByZWYodHJ1ZSk7CiAgY29uc3Qgc2hvd0NvbnNvbGVBcHBMaXN0ID0gcmVmKGZhbHNlKTsKICBjb25zdCBkYXRlVGltZURpc3BsYXlNb2RlID0gcmVmPERhdGVUaW1lRGlzcGxheU1vZGU+KCJodW1hbl9mcmllbmRseSIpOwogIGNvbnN0IGF1dG9IdHRwc0RldGFpbHMgPSByZWY8QXV0b0h0dHBzRGV0YWlscyB8IG51bGw+KG51bGwpOwogIGNvbnN0IHNzaFNlY3VyaXR5RW5hYmxlZCA9IHJlZihmYWxzZSk7CiAgY29uc3Qgc3NoU2VjdXJpdHlVbmF2YWlsYWJsZVJlYXNvbiA9IHJlZigiIik7CgogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc0xvYWRpbmcsIHJ1bjogcnVuTG9hZFNldHRpbmdzIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5sb2FkRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5sb2FkRmFpbGVkRGVzY3JpcHRpb24iKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CiAgY29uc3Qgc2hvd0xvYWRpbmdTa2VsZXRvbiA9IHVzZURlbGF5ZWRMb2FkaW5nKGlzTG9hZGluZyk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzU2F2aW5nLCBydW46IHJ1blNhdmVTZXR0aW5ncyB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmZlYXR1cmVzU2V0dGluZ3MudXBkYXRlRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy51cGRhdGVGYWlsZWREZXNjcmlwdGlvbiIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSwKICB9KTsKCiAgY29uc3QgaXNQcm90b2NvbE1hcHBpbmdBdmFpbGFibGUgPSBjb21wdXRlZCgKICAgICgpID0+IGNvbmZpZ1N0b3JlLmNvbmZpZz8ucnVuX3R5cGUgPT09IDMsCiAgKTsKICBjb25zdCBpc1NtYXJ0Q29ubmVjdEF2YWlsYWJsZSA9IGNvbXB1dGVkKAogICAgKCkgPT4gY29uZmlnU3RvcmUuY2FuVXNlU21hcnRDb25uZWN0ICYmIGNvbmZpZ1N0b3JlLmNvbmZpZz8ucnVuX3R5cGUgPT09IDMsCiAgKTsKICBjb25zdCBzaG93U21hcnRDb25uZWN0RW50cnkgPSBjb21wdXRlZCgoKSA9PgogICAgc21hcnRDb25uZWN0RmVhdHVyZUVudHJ5VmlzaWJsZSh7CiAgICAgIGlzRnBrTGl0ZURlcGxveW1lbnQ6IGNvbmZpZ1N0b3JlLmlzRnBrTGl0ZURlcGxveW1lbnQsCiAgICAgIGlzRG9ja2VyRGVwbG95bWVudDogY29uZmlnU3RvcmUuaXNEb2NrZXJEZXBsb3ltZW50LAogICAgICBpc09wZW5XcnREZXBsb3ltZW50OiBjb25maWdTdG9yZS5pc09wZW5XcnREZXBsb3ltZW50LAogICAgICBpc1N5bm9sb2d5RGVwbG95bWVudDogY29uZmlnU3RvcmUuaXNTeW5vbG9neURlcGxveW1lbnQsCiAgICB9KSwKICApOwogIGNvbnN0IGlzRGFzaGJvYXJkRGlzcGxheVN3aXRjaERpc2FibGVkID0gY29tcHV0ZWQoCiAgICAoKSA9PiBpc1NhdmluZy52YWx1ZSB8fCBjb25maWdTdG9yZS5pc0xvYWRpbmcgfHwgY29uZmlnU3RvcmUuaXNFcnJvciwKICApOwogIGNvbnN0IHNob3dDb25zb2xlQXBwTGlzdEVudHJ5ID0gY29tcHV0ZWQoCiAgICAoKSA9PiBjb25maWdTdG9yZS5pc0Zwa0RlcGxveW1lbnQgfHwgY29uZmlnU3RvcmUuaXNGcGtMaXRlRGVwbG95bWVudCwKICApOwogIGNvbnN0IGN1cnJlbnRSdW5UeXBlTGFiZWwgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBydW5UeXBlID0gY29uZmlnU3RvcmUuY29uZmlnPy5ydW5fdHlwZTsKICAgIGlmIChydW5UeXBlID09PSAwIHx8IHJ1blR5cGUgPT09IDEgfHwgcnVuVHlwZSA9PT0gMykgewogICAgICByZXR1cm4gdChydW5UeXBlTGFiZWxLZXlNYXBbcnVuVHlwZV0pOwogICAgfQogICAgcmV0dXJuIHQoImFkbWluLmZlYXR1cmVzU2V0dGluZ3MucnVuVHlwZXMuY3VycmVudCIpOwogIH0pOwogIGNvbnN0IHByb3RvY29sTWFwcGluZ0Rpc2FibGVkUmVhc29uID0gY29tcHV0ZWQoKCkgPT4gewogICAgaWYgKGlzUHJvdG9jb2xNYXBwaW5nQXZhaWxhYmxlLnZhbHVlKSByZXR1cm4gIiI7CiAgICByZXR1cm4gdCgiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5zdWJkb21haW5Pbmx5RW5hYmxlUmVhc29uIiwgewogICAgICBtb2RlOiBjdXJyZW50UnVuVHlwZUxhYmVsLnZhbHVlLAogICAgfSk7CiAgfSk7CiAgY29uc3Qgc21hcnRDb25uZWN0RGlzYWJsZWRSZWFzb24gPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoaXNTbWFydENvbm5lY3RBdmFpbGFibGUudmFsdWUpIHJldHVybiAiIjsKICAgIGlmICghY29uZmlnU3RvcmUuY2FuVXNlU21hcnRDb25uZWN0KSB7CiAgICAgIHJldHVybiBjb25maWdTdG9yZS5pc0RvY2tlckRlcGxveW1lbnQKICAgICAgICA/IHQoImFkbWluLmZlYXR1cmVzU2V0dGluZ3Muc21hcnRDb25uZWN0RG9ja2VyVW5zdXBwb3J0ZWQiKQogICAgICAgIDogdCgiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5zbWFydENvbm5lY3RFbnZpcm9ubWVudFVuc3VwcG9ydGVkIik7CiAgICB9CiAgICByZXR1cm4gdCgiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5zdWJkb21haW5Pbmx5UmVhc29uIiwgewogICAgICBtb2RlOiBjdXJyZW50UnVuVHlwZUxhYmVsLnZhbHVlLAogICAgfSk7CiAgfSk7CiAgY29uc3QgYXV0b0h0dHBzRW5hYmxlZCA9IGNvbXB1dGVkKAogICAgKCkgPT4gYXV0b0h0dHBzRGV0YWlscy52YWx1ZT8uZW5hYmxlZCA9PT0gdHJ1ZSwKICApOwogIGNvbnN0IGF1dG9IdHRwc1J1bnRpbWVFcnJvciA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IHJ1bnRpbWUgPSBhdXRvSHR0cHNEZXRhaWxzLnZhbHVlPy5ydW50aW1lOwogICAgaWYgKCFydW50aW1lIHx8IChydW50aW1lLnN0YXR1cyAhPT0gImVycm9yIiAmJiAhcnVudGltZS5sYXN0X2Vycm9yKSkgewogICAgICByZXR1cm4gIiI7CiAgICB9CiAgICByZXR1cm4gKAogICAgICBydW50aW1lLmxhc3RfZXJyb3IgfHwgdCgiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5hdXRvSHR0cHNMaXN0ZW5GYWlsZWQiKQogICAgKTsKICB9KTsKICBjb25zdCBzaG93QXV0b0h0dHBzRW50cnkgPSBjb21wdXRlZCgKICAgICgpID0+CiAgICAgIGNvbmZpZ1N0b3JlLmNhblVzZUF1dG9IdHRwcyAmJgogICAgICAhY29uZmlnU3RvcmUuaXNEb2NrZXJEZXBsb3ltZW50ICYmCiAgICAgICFjb25maWdTdG9yZS5pc09wZW5XcnREZXBsb3ltZW50ICYmCiAgICAgICFjb25maWdTdG9yZS5pc1N5bm9sb2d5RGVwbG95bWVudCwKICApOwogIGNvbnN0IHNob3dTU0hTZWN1cml0eUVudHJ5ID0gY29tcHV0ZWQoCiAgICAoKSA9PiBjb25maWdTdG9yZS5jYW5Vc2VTc2hTZWN1cml0eSAmJiAhY29uZmlnU3RvcmUuaXNTeW5vbG9neURlcGxveW1lbnQsCiAgKTsKICBjb25zdCBpc1NTSFNlY3VyaXR5QXZhaWxhYmxlID0gY29tcHV0ZWQoCiAgICAoKSA9PgogICAgICBjb25maWdTdG9yZS5jYW5NYW5hZ2VIb3N0RmlyZXdhbGwgJiYgIXNzaFNlY3VyaXR5VW5hdmFpbGFibGVSZWFzb24udmFsdWUsCiAgKTsKICBjb25zdCBzc2hTZWN1cml0eURpc2FibGVkUmVhc29uID0gY29tcHV0ZWQoKCkgPT4gewogICAgaWYgKGlzU1NIU2VjdXJpdHlBdmFpbGFibGUudmFsdWUpIHJldHVybiAiIjsKICAgIHJldHVybiAoCiAgICAgIHNzaFNlY3VyaXR5VW5hdmFpbGFibGVSZWFzb24udmFsdWUgfHwKICAgICAgdCgiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5zc2hGaXJld2FsbFVuc3VwcG9ydGVkIikKICAgICk7CiAgfSk7CgogIGNvbnN0IGFwcGx5UHJvdG9jb2xNYXBwaW5nU2V0dGluZ3MgPSAoZGF0YTogUHJvdG9jb2xNYXBwaW5nRmVhdHVyZUNvbmZpZykgPT4gewogICAgcHJvdG9jb2xNYXBwaW5nRW5hYmxlZC52YWx1ZSA9IGRhdGEuZW5hYmxlZDsKICB9OwogIGNvbnN0IGFwcGx5V09MU2V0dGluZ3MgPSAoZGF0YTogeyBlbmFibGVkOiBib29sZWFuIH0pID0+IHsKICAgIHdvbEVuYWJsZWQudmFsdWUgPSBkYXRhLmVuYWJsZWQ7CiAgfTsKICBjb25zdCBhcHBseUF1dG9IdHRwc0RldGFpbHMgPSAoZGF0YTogQXV0b0h0dHBzRGV0YWlscykgPT4gewogICAgYXV0b0h0dHBzRGV0YWlscy52YWx1ZSA9IGRhdGE7CiAgfTsKICBjb25zdCBhcHBseVNTSFNlY3VyaXR5RGV0YWlscyA9ICgKICAgIGRhdGE6IEF3YWl0ZWQ8UmV0dXJuVHlwZTx0eXBlb2YgU1NIU2VjdXJpdHlBUEkuZ2V0RGV0YWlscz4+LAogICkgPT4gewogICAgc3NoU2VjdXJpdHlFbmFibGVkLnZhbHVlID0gZGF0YS5jb25maWcuZW5hYmxlZDsKICAgIHNzaFNlY3VyaXR5VW5hdmFpbGFibGVSZWFzb24udmFsdWUgPSBkYXRhLnN1bW1hcnkuYXZhaWxhYmxlCiAgICAgID8gIiIKICAgICAgOiBkYXRhLnN1bW1hcnkudW5hdmFpbGFibGVfcmVhc29uOwogIH07CiAgY29uc3QgYXBwbHlBdXRoQ3JlZGVudGlhbFNldHRpbmdzID0gKGRhdGE6IEF1dGhDcmVkZW50aWFsU2V0dGluZ3MpID0+IHsKICAgIHBhc3NrZXlCaW5kUHJvbXB0RW5hYmxlZC52YWx1ZSA9IGRhdGEucGFzc2tleV9iaW5kX3Byb21wdF9lbmFibGVkICE9PSBmYWxzZTsKICB9OwogIGNvbnN0IGFwcGx5RGFzaGJvYXJkRGlzcGxheVNldHRpbmdzID0gKAogICAgZGF0YTogUGljazwKICAgICAgRGFzaGJvYXJkRGlzcGxheUNvbmZpZywKICAgICAgfCAic2hvd19lbnRyeV9zdGF0dXNfbW9kdWxlIgogICAgICB8ICJzaG93X2NvbnNvbGVfYXBwX2xpc3QiCiAgICAgIHwgImRhdGVfdGltZV9kaXNwbGF5X21vZGUiCiAgICA+LAogICkgPT4gewogICAgc2hvd0VudHJ5U3RhdHVzTW9kdWxlLnZhbHVlID0gZGF0YS5zaG93X2VudHJ5X3N0YXR1c19tb2R1bGU7CiAgICBzaG93Q29uc29sZUFwcExpc3QudmFsdWUgPSBkYXRhLnNob3dfY29uc29sZV9hcHBfbGlzdDsKICAgIGRhdGVUaW1lRGlzcGxheU1vZGUudmFsdWUgPSBub3JtYWxpemVEYXRlVGltZURpc3BsYXlNb2RlKAogICAgICBkYXRhLmRhdGVfdGltZV9kaXNwbGF5X21vZGUsCiAgICApOwogICAgYXBwbHlEYXRlVGltZURpc3BsYXlNb2RlKGRhdGVUaW1lRGlzcGxheU1vZGUudmFsdWUpOwogIH07CiAgY29uc3Qgc3luY0Rhc2hib2FyZERpc3BsYXlGcm9tQ29uZmlnID0gKCkgPT4gewogICAgaWYgKCFjb25maWdTdG9yZS5jb25maWcpIHJldHVybjsKICAgIGFwcGx5RGFzaGJvYXJkRGlzcGxheVNldHRpbmdzKHsKICAgICAgc2hvd19lbnRyeV9zdGF0dXNfbW9kdWxlOgogICAgICAgIGNvbmZpZ1N0b3JlLmNvbmZpZy5kYXNoYm9hcmRfZGlzcGxheT8uc2hvd19lbnRyeV9zdGF0dXNfbW9kdWxlICE9PQogICAgICAgIGZhbHNlLAogICAgICBzaG93X2NvbnNvbGVfYXBwX2xpc3Q6CiAgICAgICAgY29uZmlnU3RvcmUuY29uZmlnLmRhc2hib2FyZF9kaXNwbGF5Py5zaG93X2NvbnNvbGVfYXBwX2xpc3QgPT09IHRydWUsCiAgICAgIGRhdGVfdGltZV9kaXNwbGF5X21vZGU6IG5vcm1hbGl6ZURhdGVUaW1lRGlzcGxheU1vZGUoCiAgICAgICAgY29uZmlnU3RvcmUuY29uZmlnLmRhc2hib2FyZF9kaXNwbGF5Py5kYXRlX3RpbWVfZGlzcGxheV9tb2RlLAogICAgICApLAogICAgfSk7CiAgfTsKCiAgY29uc3QgZmV0Y2hTZXR0aW5ncyA9IGFzeW5jICgpID0+IHsKICAgIGF3YWl0IHJ1bkxvYWRTZXR0aW5ncyhhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IFtwcm90b2NvbE1hcHBpbmdTZXR0aW5ncywgYXV0aENyZWRlbnRpYWxTZXR0aW5ncywgd29sU2V0dGluZ3NdID0KICAgICAgICBhd2FpdCBQcm9taXNlLmFsbChbCiAgICAgICAgICBTeXN0ZW1BUEkuZ2V0UHJvdG9jb2xNYXBwaW5nRmVhdHVyZUNvbmZpZygpLAogICAgICAgICAgQ29uZmlnQVBJLmdldEF1dGhDcmVkZW50aWFsU2V0dGluZ3MoKSwKICAgICAgICAgIENvbmZpZ0FQSS5nZXRXT0xGZWF0dXJlKCksCiAgICAgICAgXSk7CiAgICAgIGFwcGx5UHJvdG9jb2xNYXBwaW5nU2V0dGluZ3MocHJvdG9jb2xNYXBwaW5nU2V0dGluZ3MpOwogICAgICBhcHBseUF1dGhDcmVkZW50aWFsU2V0dGluZ3MoYXV0aENyZWRlbnRpYWxTZXR0aW5ncyk7CiAgICAgIGFwcGx5V09MU2V0dGluZ3Mod29sU2V0dGluZ3MpOwoKICAgICAgaWYgKHNob3dBdXRvSHR0cHNFbnRyeS52YWx1ZSkgewogICAgICAgIGFwcGx5QXV0b0h0dHBzRGV0YWlscyhhd2FpdCBTeXN0ZW1BUEkuZ2V0QXV0b0h0dHBzRGV0YWlscygpKTsKICAgICAgfSBlbHNlIHsKICAgICAgICBhdXRvSHR0cHNEZXRhaWxzLnZhbHVlID0gbnVsbDsKICAgICAgfQoKICAgICAgaWYgKHNob3dTU0hTZWN1cml0eUVudHJ5LnZhbHVlKSB7CiAgICAgICAgYXBwbHlTU0hTZWN1cml0eURldGFpbHMoYXdhaXQgU1NIU2VjdXJpdHlBUEkuZ2V0RGV0YWlscygpKTsKICAgICAgfSBlbHNlIHsKICAgICAgICBzc2hTZWN1cml0eUVuYWJsZWQudmFsdWUgPSBmYWxzZTsKICAgICAgICBzc2hTZWN1cml0eVVuYXZhaWxhYmxlUmVhc29uLnZhbHVlID0gIiI7CiAgICAgIH0KICAgIH0pOwogIH07CgogIGNvbnN0IHNhdmVQcm90b2NvbE1hcHBpbmdFbmFibGVkID0gYXN5bmMgKG5leHRWYWx1ZTogYm9vbGVhbikgPT4gewogICAgaWYgKCFpc1Byb3RvY29sTWFwcGluZ0F2YWlsYWJsZS52YWx1ZSB8fCBpc1NhdmluZy52YWx1ZSkgcmV0dXJuOwogICAgY29uc3QgcHJldmlvdXNWYWx1ZSA9IHByb3RvY29sTWFwcGluZ0VuYWJsZWQudmFsdWU7CiAgICBwcm90b2NvbE1hcHBpbmdFbmFibGVkLnZhbHVlID0gbmV4dFZhbHVlOwogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcnVuU2F2ZVNldHRpbmdzKAogICAgICAoKSA9PgogICAgICAgIFN5c3RlbUFQSS51cGRhdGVQcm90b2NvbE1hcHBpbmdGZWF0dXJlQ29uZmlnKHsgZW5hYmxlZDogbmV4dFZhbHVlIH0pLAogICAgICB7CiAgICAgICAgb25TdWNjZXNzOiBhc3luYyAoZGF0YSkgPT4gewogICAgICAgICAgYXBwbHlQcm90b2NvbE1hcHBpbmdTZXR0aW5ncyhkYXRhKTsKICAgICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy51cGRhdGVkIikpOwogICAgICAgICAgYXdhaXQgY29uZmlnU3RvcmUubG9hZENvbmZpZygpOwogICAgICAgIH0sCiAgICAgIH0sCiAgICApOwogICAgaWYgKCFyZXN1bHQpIHsKICAgICAgcHJvdG9jb2xNYXBwaW5nRW5hYmxlZC52YWx1ZSA9IHByZXZpb3VzVmFsdWU7CiAgICAgIGF3YWl0IGNvbmZpZ1N0b3JlLmxvYWRDb25maWcoeyBmb3JjZTogdHJ1ZSB9KTsKICAgIH0KICB9OwoKICBjb25zdCBzYXZlV09MRW5hYmxlZCA9IGFzeW5jIChuZXh0VmFsdWU6IGJvb2xlYW4pID0+IHsKICAgIGlmIChpc1NhdmluZy52YWx1ZSkgcmV0dXJuOwogICAgY29uc3QgcHJldmlvdXNWYWx1ZSA9IHdvbEVuYWJsZWQudmFsdWU7CiAgICB3b2xFbmFibGVkLnZhbHVlID0gbmV4dFZhbHVlOwogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcnVuU2F2ZVNldHRpbmdzKAogICAgICAoKSA9PiBDb25maWdBUEkudXBkYXRlV09MRmVhdHVyZSh7IGVuYWJsZWQ6IG5leHRWYWx1ZSB9KSwKICAgICAgewogICAgICAgIG9uU3VjY2VzczogYXN5bmMgKGRhdGEpID0+IHsKICAgICAgICAgIGFwcGx5V09MU2V0dGluZ3MoZGF0YSk7CiAgICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmZlYXR1cmVzU2V0dGluZ3MudXBkYXRlZCIpKTsKICAgICAgICAgIGF3YWl0IGNvbmZpZ1N0b3JlLmxvYWRDb25maWcoKTsKICAgICAgICB9LAogICAgICB9LAogICAgKTsKICAgIGlmICghcmVzdWx0KSB3b2xFbmFibGVkLnZhbHVlID0gcHJldmlvdXNWYWx1ZTsKICB9OwoKICBjb25zdCBzYXZlU2hvd0VudHJ5U3RhdHVzTW9kdWxlID0gYXN5bmMgKG5leHRWYWx1ZTogYm9vbGVhbikgPT4gewogICAgaWYgKGlzRGFzaGJvYXJkRGlzcGxheVN3aXRjaERpc2FibGVkLnZhbHVlIHx8ICFjb25maWdTdG9yZS5jb25maWcpIHJldHVybjsKICAgIGNvbnN0IHByZXZpb3VzVmFsdWUgPSBzaG93RW50cnlTdGF0dXNNb2R1bGUudmFsdWU7CiAgICBzaG93RW50cnlTdGF0dXNNb2R1bGUudmFsdWUgPSBuZXh0VmFsdWU7CiAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBydW5TYXZlU2V0dGluZ3MoCiAgICAgICgpID0+CiAgICAgICAgQ29uZmlnQVBJLnVwZGF0ZURhc2hib2FyZERpc3BsYXlDb25maWcoewogICAgICAgICAgc2hvd19lbnRyeV9zdGF0dXNfbW9kdWxlOiBuZXh0VmFsdWUsCiAgICAgICAgfSksCiAgICAgIHsKICAgICAgICBvblN1Y2Nlc3M6IGFzeW5jIChkYXRhKSA9PiB7CiAgICAgICAgICBhcHBseURhc2hib2FyZERpc3BsYXlTZXR0aW5ncyhkYXRhKTsKICAgICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy51cGRhdGVkIikpOwogICAgICAgICAgYXdhaXQgY29uZmlnU3RvcmUubG9hZENvbmZpZygpOwogICAgICAgIH0sCiAgICAgIH0sCiAgICApOwogICAgaWYgKCFyZXN1bHQpIHNob3dFbnRyeVN0YXR1c01vZHVsZS52YWx1ZSA9IHByZXZpb3VzVmFsdWU7CiAgfTsKCiAgY29uc3Qgc2F2ZVNob3dDb25zb2xlQXBwTGlzdCA9IGFzeW5jIChuZXh0VmFsdWU6IGJvb2xlYW4pID0+IHsKICAgIGlmICgKICAgICAgaXNEYXNoYm9hcmREaXNwbGF5U3dpdGNoRGlzYWJsZWQudmFsdWUgfHwKICAgICAgIXNob3dDb25zb2xlQXBwTGlzdEVudHJ5LnZhbHVlIHx8CiAgICAgICFjb25maWdTdG9yZS5jb25maWcKICAgICkgewogICAgICByZXR1cm47CiAgICB9CiAgICBjb25zdCBwcmV2aW91c1ZhbHVlID0gc2hvd0NvbnNvbGVBcHBMaXN0LnZhbHVlOwogICAgc2hvd0NvbnNvbGVBcHBMaXN0LnZhbHVlID0gbmV4dFZhbHVlOwogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcnVuU2F2ZVNldHRpbmdzKAogICAgICAoKSA9PgogICAgICAgIENvbmZpZ0FQSS51cGRhdGVEYXNoYm9hcmREaXNwbGF5Q29uZmlnKHsKICAgICAgICAgIHNob3dfY29uc29sZV9hcHBfbGlzdDogbmV4dFZhbHVlLAogICAgICAgIH0pLAogICAgICB7CiAgICAgICAgb25TdWNjZXNzOiBhc3luYyAoZGF0YSkgPT4gewogICAgICAgICAgYXBwbHlEYXNoYm9hcmREaXNwbGF5U2V0dGluZ3MoZGF0YSk7CiAgICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmZlYXR1cmVzU2V0dGluZ3MudXBkYXRlZCIpKTsKICAgICAgICAgIGF3YWl0IGNvbmZpZ1N0b3JlLmxvYWRDb25maWcoKTsKICAgICAgICB9LAogICAgICB9LAogICAgKTsKICAgIGlmICghcmVzdWx0KSBzaG93Q29uc29sZUFwcExpc3QudmFsdWUgPSBwcmV2aW91c1ZhbHVlOwogIH07CgogIGNvbnN0IHNhdmVEYXRlVGltZURpc3BsYXlNb2RlID0gYXN5bmMgKG5leHRWYWx1ZTogRGF0ZVRpbWVEaXNwbGF5TW9kZSkgPT4gewogICAgaWYgKGlzRGFzaGJvYXJkRGlzcGxheVN3aXRjaERpc2FibGVkLnZhbHVlIHx8ICFjb25maWdTdG9yZS5jb25maWcpIHJldHVybjsKICAgIGNvbnN0IHByZXZpb3VzVmFsdWUgPSBkYXRlVGltZURpc3BsYXlNb2RlLnZhbHVlOwogICAgZGF0ZVRpbWVEaXNwbGF5TW9kZS52YWx1ZSA9IG5leHRWYWx1ZTsKICAgIGFwcGx5RGF0ZVRpbWVEaXNwbGF5TW9kZShuZXh0VmFsdWUpOwogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcnVuU2F2ZVNldHRpbmdzKAogICAgICAoKSA9PgogICAgICAgIENvbmZpZ0FQSS51cGRhdGVEYXNoYm9hcmREaXNwbGF5Q29uZmlnKHsKICAgICAgICAgIGRhdGVfdGltZV9kaXNwbGF5X21vZGU6IG5leHRWYWx1ZSwKICAgICAgICB9KSwKICAgICAgewogICAgICAgIG9uU3VjY2VzczogYXN5bmMgKGRhdGEpID0+IHsKICAgICAgICAgIGFwcGx5RGFzaGJvYXJkRGlzcGxheVNldHRpbmdzKGRhdGEpOwogICAgICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5mZWF0dXJlc1NldHRpbmdzLnVwZGF0ZWQiKSk7CiAgICAgICAgICBhd2FpdCBjb25maWdTdG9yZS5sb2FkQ29uZmlnKCk7CiAgICAgICAgfSwKICAgICAgfSwKICAgICk7CiAgICBpZiAoIXJlc3VsdCkgewogICAgICBkYXRlVGltZURpc3BsYXlNb2RlLnZhbHVlID0gcHJldmlvdXNWYWx1ZTsKICAgICAgYXBwbHlEYXRlVGltZURpc3BsYXlNb2RlKHByZXZpb3VzVmFsdWUpOwogICAgfQogIH07CgogIGNvbnN0IHNhdmVQYXNza2V5QmluZFByb21wdEVuYWJsZWQgPSBhc3luYyAobmV4dFZhbHVlOiBib29sZWFuKSA9PiB7CiAgICBpZiAoaXNTYXZpbmcudmFsdWUpIHJldHVybjsKICAgIGNvbnN0IHByZXZpb3VzVmFsdWUgPSBwYXNza2V5QmluZFByb21wdEVuYWJsZWQudmFsdWU7CiAgICBwYXNza2V5QmluZFByb21wdEVuYWJsZWQudmFsdWUgPSBuZXh0VmFsdWU7CiAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBydW5TYXZlU2V0dGluZ3MoCiAgICAgICgpID0+CiAgICAgICAgQ29uZmlnQVBJLnVwZGF0ZUF1dGhDcmVkZW50aWFsU2V0dGluZ3MoewogICAgICAgICAgcGFzc2tleV9iaW5kX3Byb21wdF9lbmFibGVkOiBuZXh0VmFsdWUsCiAgICAgICAgfSksCiAgICAgIHsKICAgICAgICBvblN1Y2Nlc3M6IGFzeW5jIChkYXRhKSA9PiB7CiAgICAgICAgICBhcHBseUF1dGhDcmVkZW50aWFsU2V0dGluZ3MoZGF0YSk7CiAgICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmZlYXR1cmVzU2V0dGluZ3MudXBkYXRlZCIpKTsKICAgICAgICAgIGF3YWl0IGNvbmZpZ1N0b3JlLmxvYWRDb25maWcoKTsKICAgICAgICB9LAogICAgICB9LAogICAgKTsKICAgIGlmICghcmVzdWx0KSBwYXNza2V5QmluZFByb21wdEVuYWJsZWQudmFsdWUgPSBwcmV2aW91c1ZhbHVlOwogIH07CgogIGNvbnN0IHNhdmVBdXRvSHR0cHNFbmFibGVkID0gYXN5bmMgKG5leHRWYWx1ZTogYm9vbGVhbikgPT4gewogICAgaWYgKGlzU2F2aW5nLnZhbHVlKSByZXR1cm47CiAgICBjb25zdCBwcmV2aW91c1ZhbHVlID0gYXV0b0h0dHBzRGV0YWlscy52YWx1ZTsKICAgIGF1dG9IdHRwc0RldGFpbHMudmFsdWUgPSB7CiAgICAgIGVuYWJsZWQ6IG5leHRWYWx1ZSwKICAgICAgcnVudGltZTogcHJldmlvdXNWYWx1ZT8ucnVudGltZSA/PyB7CiAgICAgICAgZW5hYmxlZDogZmFsc2UsCiAgICAgICAgYWN0aXZlOiBmYWxzZSwKICAgICAgICBzdGF0dXM6ICJkaXNhYmxlZCIsCiAgICAgICAgbGlzdGVuX2hvc3Q6ICI6OiIsCiAgICAgICAgbGlzdGVuX3BvcnQ6IDgwLAogICAgICAgIHJlZGlyZWN0X3NjaGVtZTogImh0dHBzIiwKICAgICAgICBsYXN0X2Vycm9yOiBudWxsLAogICAgICAgIGxhc3RfZXJyb3JfYXQ6IG51bGwsCiAgICAgICAgdXBkYXRlZF9hdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpLAogICAgICB9LAogICAgfTsKICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHJ1blNhdmVTZXR0aW5ncygKICAgICAgKCkgPT4gU3lzdGVtQVBJLnVwZGF0ZUF1dG9IdHRwcyh7IGVuYWJsZWQ6IG5leHRWYWx1ZSB9KSwKICAgICAgewogICAgICAgIG9uU3VjY2VzczogYXN5bmMgKGRhdGEpID0+IHsKICAgICAgICAgIGFwcGx5QXV0b0h0dHBzRGV0YWlscyhkYXRhKTsKICAgICAgICAgIGlmIChkYXRhLnJ1bnRpbWUuc3RhdHVzID09PSAiZXJyb3IiIHx8IGRhdGEucnVudGltZS5sYXN0X2Vycm9yKSB7CiAgICAgICAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmZlYXR1cmVzU2V0dGluZ3MuYXV0b0h0dHBzU3RhcnRGYWlsZWQiKSwgewogICAgICAgICAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICAgICAgICAgZGF0YS5ydW50aW1lLmxhc3RfZXJyb3IgfHwKICAgICAgICAgICAgICAgIHQoImFkbWluLmZlYXR1cmVzU2V0dGluZ3MucG9ydDgwTGlzdGVuRmFpbGVkIiksCiAgICAgICAgICAgIH0pOwogICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5mZWF0dXJlc1NldHRpbmdzLnVwZGF0ZWQiKSk7CiAgICAgICAgICB9CiAgICAgICAgICBhd2FpdCBjb25maWdTdG9yZS5sb2FkQ29uZmlnKCk7CiAgICAgICAgfSwKICAgICAgfSwKICAgICk7CiAgICBpZiAoIXJlc3VsdCkgYXV0b0h0dHBzRGV0YWlscy52YWx1ZSA9IHByZXZpb3VzVmFsdWU7CiAgfTsKCiAgY29uc3Qgc2F2ZVNTSFNlY3VyaXR5RW5hYmxlZCA9IGFzeW5jIChuZXh0VmFsdWU6IGJvb2xlYW4pID0+IHsKICAgIGlmIChpc1NhdmluZy52YWx1ZSB8fCAoIWlzU1NIU2VjdXJpdHlBdmFpbGFibGUudmFsdWUgJiYgbmV4dFZhbHVlKSkgcmV0dXJuOwogICAgY29uc3QgcHJldmlvdXNWYWx1ZSA9IHNzaFNlY3VyaXR5RW5hYmxlZC52YWx1ZTsKICAgIHNzaFNlY3VyaXR5RW5hYmxlZC52YWx1ZSA9IG5leHRWYWx1ZTsKICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHJ1blNhdmVTZXR0aW5ncygKICAgICAgKCkgPT4gU1NIU2VjdXJpdHlBUEkudXBkYXRlQ29uZmlnKHsgZW5hYmxlZDogbmV4dFZhbHVlIH0pLAogICAgICB7CiAgICAgICAgb25TdWNjZXNzOiBhc3luYyAoZGF0YSkgPT4gewogICAgICAgICAgYXBwbHlTU0hTZWN1cml0eURldGFpbHMoZGF0YSk7CiAgICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmZlYXR1cmVzU2V0dGluZ3MudXBkYXRlZCIpKTsKICAgICAgICAgIGF3YWl0IGNvbmZpZ1N0b3JlLmxvYWRDb25maWcoKTsKICAgICAgICB9LAogICAgICB9LAogICAgKTsKICAgIGlmICghcmVzdWx0KSBzc2hTZWN1cml0eUVuYWJsZWQudmFsdWUgPSBwcmV2aW91c1ZhbHVlOwogIH07CgogIGNvbnN0IG9wZW5XZWJUZXJtaW5hbCA9ICgpID0+IHsKICAgIHZvaWQgcm91dGVyLnB1c2goIi9zeXN0ZW0vd2ViLXRlcm1pbmFsIik7CiAgfTsKCiAgY29uc3Qgb3BlblNtYXJ0Q29ubmVjdCA9ICgpID0+IHsKICAgIGlmIChpc1NtYXJ0Q29ubmVjdEF2YWlsYWJsZS52YWx1ZSkKICAgICAgdm9pZCByb3V0ZXIucHVzaCgiL3N5c3RlbS9zbWFydC1jb25uZWN0Iik7CiAgfTsKCiAgY29uc3Qgb3BlblNpZGViYXJNZW51T3JkZXIgPSAoKSA9PiB7CiAgICB2b2lkIHJvdXRlci5wdXNoKCIvc3lzdGVtL3NpZGViYXItbWVudS1vcmRlciIpOwogIH07CgogIG9uTW91bnRlZCgoKSA9PiB7CiAgICBzeW5jRGFzaGJvYXJkRGlzcGxheUZyb21Db25maWcoKTsKICAgIHZvaWQgZmV0Y2hTZXR0aW5ncygpOwogIH0pOwoKICB3YXRjaCgKICAgICgpID0+IGNvbmZpZ1N0b3JlLmNvbmZpZz8uZGFzaGJvYXJkX2Rpc3BsYXksCiAgICBzeW5jRGFzaGJvYXJkRGlzcGxheUZyb21Db25maWcsCiAgICB7IGltbWVkaWF0ZTogdHJ1ZSB9LAogICk7CgogIHdhdGNoKAogICAgKCkgPT4gY29uZmlnU3RvcmUuY29uZmlnPy5ydW5fdHlwZSwKICAgIChydW5UeXBlKSA9PiB7CiAgICAgIGlmIChydW5UeXBlID09PSAzKSB7CiAgICAgICAgdm9pZCBmZXRjaFNldHRpbmdzKCk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgcHJvdG9jb2xNYXBwaW5nRW5hYmxlZC52YWx1ZSA9IGZhbHNlOwogICAgICB9CiAgICB9LAogICk7CgogIHJldHVybiB7CiAgICBhdXRvSHR0cHNFbmFibGVkLAogICAgYXV0b0h0dHBzUnVudGltZUVycm9yLAogICAgZGF0ZVRpbWVEaXNwbGF5TW9kZSwKICAgIGlzRGFzaGJvYXJkRGlzcGxheVN3aXRjaERpc2FibGVkLAogICAgaXNMb2FkaW5nLAogICAgaXNQcm90b2NvbE1hcHBpbmdBdmFpbGFibGUsCiAgICBpc1NhdmluZywKICAgIGlzU21hcnRDb25uZWN0QXZhaWxhYmxlLAogICAgaXNTU0hTZWN1cml0eUF2YWlsYWJsZSwKICAgIG9wZW5TbWFydENvbm5lY3QsCiAgICBvcGVuV2ViVGVybWluYWwsCiAgICBvcGVuU2lkZWJhck1lbnVPcmRlciwKICAgIHBhc3NrZXlCaW5kUHJvbXB0RW5hYmxlZCwKICAgIHByb3RvY29sTWFwcGluZ0Rpc2FibGVkUmVhc29uLAogICAgcHJvdG9jb2xNYXBwaW5nRW5hYmxlZCwKICAgIHNhdmVBdXRvSHR0cHNFbmFibGVkLAogICAgc2F2ZURhdGVUaW1lRGlzcGxheU1vZGUsCiAgICBzYXZlUGFzc2tleUJpbmRQcm9tcHRFbmFibGVkLAogICAgc2F2ZVByb3RvY29sTWFwcGluZ0VuYWJsZWQsCiAgICBzYXZlU2hvd0NvbnNvbGVBcHBMaXN0LAogICAgc2F2ZVNob3dFbnRyeVN0YXR1c01vZHVsZSwKICAgIHNhdmVTU0hTZWN1cml0eUVuYWJsZWQsCiAgICBzYXZlV09MRW5hYmxlZCwKICAgIHNob3dBdXRvSHR0cHNFbnRyeSwKICAgIHNob3dDb25zb2xlQXBwTGlzdCwKICAgIHNob3dDb25zb2xlQXBwTGlzdEVudHJ5LAogICAgc2hvd0VudHJ5U3RhdHVzTW9kdWxlLAogICAgc2hvd0xvYWRpbmdTa2VsZXRvbiwKICAgIHNob3dTbWFydENvbm5lY3RFbnRyeSwKICAgIHNob3dTU0hTZWN1cml0eUVudHJ5LAogICAgc21hcnRDb25uZWN0RGlzYWJsZWRSZWFzb24sCiAgICBzc2hTZWN1cml0eURpc2FibGVkUmVhc29uLAogICAgc3NoU2VjdXJpdHlFbmFibGVkLAogICAgdCwKICAgIHdvbEVuYWJsZWQsCiAgfTsKfQo=
+import { computed, onMounted, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRouter } from "vue-router";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import {
+  applyDateTimeDisplayMode,
+  normalizeDateTimeDisplayMode,
+} from "@admin-shared/composables/useDateTimeDisplayState";
+import { ConfigAPI } from "@/lib/api/config";
+import { SSHSecurityAPI } from "@/lib/api/security";
+import { SystemAPI } from "@/lib/api/system";
+import type {
+  AuthCredentialSettings,
+  AutoHttpsDetails,
+  DashboardDisplayConfig,
+  DateTimeDisplayMode,
+  ProtocolMappingFeatureConfig,
+} from "../../types";
+import { useConfigStore } from "../../store/config";
+import { smartConnectFeatureEntryVisible } from "../layout/runtime-navigation";
+
+const runTypeLabelKeyMap = {
+  0: "admin.featuresSettings.runTypes.direct",
+  1: "admin.featuresSettings.runTypes.reverse",
+  3: "admin.featuresSettings.runTypes.subdomain",
+} as const;
+
+export function useFeaturesSettings() {
+  const router = useRouter();
+  const configStore = useConfigStore();
+  const { t } = useI18n();
+  const protocolMappingEnabled = ref(false);
+  const wolEnabled = ref(false);
+  const passkeyBindPromptEnabled = ref(true);
+  const showEntryStatusModule = ref(true);
+  const showConsoleAppList = ref(false);
+  const dateTimeDisplayMode = ref<DateTimeDisplayMode>("human_friendly");
+  const autoHttpsDetails = ref<AutoHttpsDetails | null>(null);
+  const sshSecurityEnabled = ref(false);
+  const sshSecurityUnavailableReason = ref("");
+
+  const { isPending: isLoading, run: runLoadSettings } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.featuresSettings.loadFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.featuresSettings.loadFailedDescription"),
+        ),
+      });
+    },
+  });
+  const showLoadingSkeleton = useDelayedLoading(isLoading);
+  const { isPending: isSaving, run: runSaveSettings } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.featuresSettings.updateFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.featuresSettings.updateFailedDescription"),
+        ),
+      });
+    },
+  });
+
+  const isProtocolMappingAvailable = computed(
+    () => configStore.config?.run_type === 3,
+  );
+  const isSmartConnectAvailable = computed(
+    () => configStore.canUseSmartConnect && configStore.config?.run_type === 3,
+  );
+  const showSmartConnectEntry = computed(() =>
+    smartConnectFeatureEntryVisible({
+      isFpkLiteDeployment: configStore.isFpkLiteDeployment,
+      isDockerDeployment: configStore.isDockerDeployment,
+      isOpenWrtDeployment: configStore.isOpenWrtDeployment,
+      isSynologyDeployment: configStore.isSynologyDeployment,
+    }),
+  );
+  const isDashboardDisplaySwitchDisabled = computed(
+    () => isSaving.value || configStore.isLoading || configStore.isError,
+  );
+  const showConsoleAppListEntry = computed(
+    () => configStore.isFpkDeployment || configStore.isFpkLiteDeployment,
+  );
+  const currentRunTypeLabel = computed(() => {
+    const runType = configStore.config?.run_type;
+    if (runType === 0 || runType === 1 || runType === 3) {
+      return t(runTypeLabelKeyMap[runType]);
+    }
+    return t("admin.featuresSettings.runTypes.current");
+  });
+  const protocolMappingDisabledReason = computed(() => {
+    if (isProtocolMappingAvailable.value) return "";
+    return t("admin.featuresSettings.subdomainOnlyEnableReason", {
+      mode: currentRunTypeLabel.value,
+    });
+  });
+  const smartConnectDisabledReason = computed(() => {
+    if (isSmartConnectAvailable.value) return "";
+    if (!configStore.canUseSmartConnect) {
+      return configStore.isDockerDeployment
+        ? t("admin.featuresSettings.smartConnectDockerUnsupported")
+        : t("admin.featuresSettings.smartConnectEnvironmentUnsupported");
+    }
+    return t("admin.featuresSettings.subdomainOnlyReason", {
+      mode: currentRunTypeLabel.value,
+    });
+  });
+  const autoHttpsEnabled = computed(
+    () => autoHttpsDetails.value?.enabled === true,
+  );
+  const autoHttpsRuntimeError = computed(() => {
+    const runtime = autoHttpsDetails.value?.runtime;
+    if (!runtime || (runtime.status !== "error" && !runtime.last_error)) {
+      return "";
+    }
+    return (
+      runtime.last_error || t("admin.featuresSettings.autoHttpsListenFailed")
+    );
+  });
+  const showAutoHttpsEntry = computed(
+    () =>
+      configStore.canUseAutoHttps &&
+      !configStore.isDockerDeployment &&
+      !configStore.isOpenWrtDeployment &&
+      !configStore.isSynologyDeployment,
+  );
+  const showSSHSecurityEntry = computed(
+    () => configStore.canUseSshSecurity && !configStore.isSynologyDeployment,
+  );
+  const isSSHSecurityAvailable = computed(
+    () =>
+      configStore.canManageHostFirewall && !sshSecurityUnavailableReason.value,
+  );
+  const sshSecurityDisabledReason = computed(() => {
+    if (isSSHSecurityAvailable.value) return "";
+    return (
+      sshSecurityUnavailableReason.value ||
+      t("admin.featuresSettings.sshFirewallUnsupported")
+    );
+  });
+
+  const applyProtocolMappingSettings = (data: ProtocolMappingFeatureConfig) => {
+    protocolMappingEnabled.value = data.enabled;
+  };
+  const applyWOLSettings = (data: { enabled: boolean }) => {
+    wolEnabled.value = data.enabled;
+  };
+  const applyAutoHttpsDetails = (data: AutoHttpsDetails) => {
+    autoHttpsDetails.value = data;
+  };
+  const applySSHSecurityDetails = (
+    data: Awaited<ReturnType<typeof SSHSecurityAPI.getDetails>>,
+  ) => {
+    sshSecurityEnabled.value = data.config.enabled;
+    sshSecurityUnavailableReason.value = data.summary.available
+      ? ""
+      : data.summary.unavailable_reason;
+  };
+  const applyAuthCredentialSettings = (data: AuthCredentialSettings) => {
+    passkeyBindPromptEnabled.value = data.passkey_bind_prompt_enabled !== false;
+  };
+  const applyDashboardDisplaySettings = (
+    data: Pick<
+      DashboardDisplayConfig,
+      | "show_entry_status_module"
+      | "show_console_app_list"
+      | "date_time_display_mode"
+    >,
+  ) => {
+    showEntryStatusModule.value = data.show_entry_status_module;
+    showConsoleAppList.value = data.show_console_app_list;
+    dateTimeDisplayMode.value = normalizeDateTimeDisplayMode(
+      data.date_time_display_mode,
+    );
+    applyDateTimeDisplayMode(dateTimeDisplayMode.value);
+  };
+  const syncDashboardDisplayFromConfig = () => {
+    if (!configStore.config) return;
+    applyDashboardDisplaySettings({
+      show_entry_status_module:
+        configStore.config.dashboard_display?.show_entry_status_module !==
+        false,
+      show_console_app_list:
+        configStore.config.dashboard_display?.show_console_app_list === true,
+      date_time_display_mode: normalizeDateTimeDisplayMode(
+        configStore.config.dashboard_display?.date_time_display_mode,
+      ),
+    });
+  };
+
+  const fetchSettings = async () => {
+    await runLoadSettings(async () => {
+      const [protocolMappingSettings, authCredentialSettings, wolSettings] =
+        await Promise.all([
+          SystemAPI.getProtocolMappingFeatureConfig(),
+          ConfigAPI.getAuthCredentialSettings(),
+          ConfigAPI.getWOLFeature(),
+        ]);
+      applyProtocolMappingSettings(protocolMappingSettings);
+      applyAuthCredentialSettings(authCredentialSettings);
+      applyWOLSettings(wolSettings);
+
+      if (showAutoHttpsEntry.value) {
+        applyAutoHttpsDetails(await SystemAPI.getAutoHttpsDetails());
+      } else {
+        autoHttpsDetails.value = null;
+      }
+
+      if (showSSHSecurityEntry.value) {
+        applySSHSecurityDetails(await SSHSecurityAPI.getDetails());
+      } else {
+        sshSecurityEnabled.value = false;
+        sshSecurityUnavailableReason.value = "";
+      }
+    });
+  };
+
+  const saveProtocolMappingEnabled = async (nextValue: boolean) => {
+    if (!isProtocolMappingAvailable.value || isSaving.value) return;
+    const previousValue = protocolMappingEnabled.value;
+    protocolMappingEnabled.value = nextValue;
+    const result = await runSaveSettings(
+      () =>
+        SystemAPI.updateProtocolMappingFeatureConfig({ enabled: nextValue }),
+      {
+        onSuccess: async (data) => {
+          applyProtocolMappingSettings(data);
+          toast.success(t("admin.featuresSettings.updated"));
+          await configStore.loadConfig();
+        },
+      },
+    );
+    if (!result) {
+      protocolMappingEnabled.value = previousValue;
+      await configStore.loadConfig({ force: true });
+    }
+  };
+
+  const saveWOLEnabled = async (nextValue: boolean) => {
+    if (isSaving.value) return;
+    const previousValue = wolEnabled.value;
+    wolEnabled.value = nextValue;
+    const result = await runSaveSettings(
+      () => ConfigAPI.updateWOLFeature({ enabled: nextValue }),
+      {
+        onSuccess: async (data) => {
+          applyWOLSettings(data);
+          toast.success(t("admin.featuresSettings.updated"));
+          await configStore.loadConfig();
+        },
+      },
+    );
+    if (!result) wolEnabled.value = previousValue;
+  };
+
+  const saveShowEntryStatusModule = async (nextValue: boolean) => {
+    if (isDashboardDisplaySwitchDisabled.value || !configStore.config) return;
+    const previousValue = showEntryStatusModule.value;
+    showEntryStatusModule.value = nextValue;
+    const result = await runSaveSettings(
+      () =>
+        ConfigAPI.updateDashboardDisplayConfig({
+          show_entry_status_module: nextValue,
+        }),
+      {
+        onSuccess: async (data) => {
+          applyDashboardDisplaySettings(data);
+          toast.success(t("admin.featuresSettings.updated"));
+          await configStore.loadConfig();
+        },
+      },
+    );
+    if (!result) showEntryStatusModule.value = previousValue;
+  };
+
+  const saveShowConsoleAppList = async (nextValue: boolean) => {
+    if (
+      isDashboardDisplaySwitchDisabled.value ||
+      !showConsoleAppListEntry.value ||
+      !configStore.config
+    ) {
+      return;
+    }
+    const previousValue = showConsoleAppList.value;
+    showConsoleAppList.value = nextValue;
+    const result = await runSaveSettings(
+      () =>
+        ConfigAPI.updateDashboardDisplayConfig({
+          show_console_app_list: nextValue,
+        }),
+      {
+        onSuccess: async (data) => {
+          applyDashboardDisplaySettings(data);
+          toast.success(t("admin.featuresSettings.updated"));
+          await configStore.loadConfig();
+        },
+      },
+    );
+    if (!result) showConsoleAppList.value = previousValue;
+  };
+
+  const saveDateTimeDisplayMode = async (nextValue: DateTimeDisplayMode) => {
+    if (isDashboardDisplaySwitchDisabled.value || !configStore.config) return;
+    const previousValue = dateTimeDisplayMode.value;
+    dateTimeDisplayMode.value = nextValue;
+    applyDateTimeDisplayMode(nextValue);
+    const result = await runSaveSettings(
+      () =>
+        ConfigAPI.updateDashboardDisplayConfig({
+          date_time_display_mode: nextValue,
+        }),
+      {
+        onSuccess: async (data) => {
+          applyDashboardDisplaySettings(data);
+          toast.success(t("admin.featuresSettings.updated"));
+          await configStore.loadConfig();
+        },
+      },
+    );
+    if (!result) {
+      dateTimeDisplayMode.value = previousValue;
+      applyDateTimeDisplayMode(previousValue);
+    }
+  };
+
+  const savePasskeyBindPromptEnabled = async (nextValue: boolean) => {
+    if (isSaving.value) return;
+    const previousValue = passkeyBindPromptEnabled.value;
+    passkeyBindPromptEnabled.value = nextValue;
+    const result = await runSaveSettings(
+      () =>
+        ConfigAPI.updateAuthCredentialSettings({
+          passkey_bind_prompt_enabled: nextValue,
+        }),
+      {
+        onSuccess: async (data) => {
+          applyAuthCredentialSettings(data);
+          toast.success(t("admin.featuresSettings.updated"));
+          await configStore.loadConfig();
+        },
+      },
+    );
+    if (!result) passkeyBindPromptEnabled.value = previousValue;
+  };
+
+  const saveAutoHttpsEnabled = async (nextValue: boolean) => {
+    if (isSaving.value) return;
+    const previousValue = autoHttpsDetails.value;
+    autoHttpsDetails.value = {
+      enabled: nextValue,
+      runtime: previousValue?.runtime ?? {
+        enabled: false,
+        active: false,
+        status: "disabled",
+        listen_host: "::",
+        listen_port: 80,
+        redirect_scheme: "https",
+        last_error: null,
+        last_error_at: null,
+        updated_at: new Date().toISOString(),
+      },
+    };
+    const result = await runSaveSettings(
+      () => SystemAPI.updateAutoHttps({ enabled: nextValue }),
+      {
+        onSuccess: async (data) => {
+          applyAutoHttpsDetails(data);
+          if (data.runtime.status === "error" || data.runtime.last_error) {
+            toast.error(t("admin.featuresSettings.autoHttpsStartFailed"), {
+              description:
+                data.runtime.last_error ||
+                t("admin.featuresSettings.port80ListenFailed"),
+            });
+          } else {
+            toast.success(t("admin.featuresSettings.updated"));
+          }
+          await configStore.loadConfig();
+        },
+      },
+    );
+    if (!result) autoHttpsDetails.value = previousValue;
+  };
+
+  const saveSSHSecurityEnabled = async (nextValue: boolean) => {
+    if (isSaving.value || (!isSSHSecurityAvailable.value && nextValue)) return;
+    const previousValue = sshSecurityEnabled.value;
+    sshSecurityEnabled.value = nextValue;
+    const result = await runSaveSettings(
+      () => SSHSecurityAPI.updateConfig({ enabled: nextValue }),
+      {
+        onSuccess: async (data) => {
+          applySSHSecurityDetails(data);
+          toast.success(t("admin.featuresSettings.updated"));
+          await configStore.loadConfig();
+        },
+      },
+    );
+    if (!result) sshSecurityEnabled.value = previousValue;
+  };
+
+  const openWebTerminal = () => {
+    void router.push("/system/web-terminal");
+  };
+
+  const openSmartConnect = () => {
+    if (isSmartConnectAvailable.value)
+      void router.push("/system/smart-connect");
+  };
+
+  const openSidebarMenuOrder = () => {
+    void router.push("/system/sidebar-menu-order");
+  };
+
+  onMounted(() => {
+    syncDashboardDisplayFromConfig();
+    void fetchSettings();
+  });
+
+  watch(
+    () => configStore.config?.dashboard_display,
+    syncDashboardDisplayFromConfig,
+    { immediate: true },
+  );
+
+  watch(
+    () => configStore.config?.run_type,
+    (runType) => {
+      if (runType === 3) {
+        void fetchSettings();
+      } else {
+        protocolMappingEnabled.value = false;
+      }
+    },
+  );
+
+  return {
+    autoHttpsEnabled,
+    autoHttpsRuntimeError,
+    dateTimeDisplayMode,
+    isDashboardDisplaySwitchDisabled,
+    isLoading,
+    isProtocolMappingAvailable,
+    isSaving,
+    isSmartConnectAvailable,
+    isSSHSecurityAvailable,
+    openSmartConnect,
+    openWebTerminal,
+    openSidebarMenuOrder,
+    passkeyBindPromptEnabled,
+    protocolMappingDisabledReason,
+    protocolMappingEnabled,
+    saveAutoHttpsEnabled,
+    saveDateTimeDisplayMode,
+    savePasskeyBindPromptEnabled,
+    saveProtocolMappingEnabled,
+    saveShowConsoleAppList,
+    saveShowEntryStatusModule,
+    saveSSHSecurityEnabled,
+    saveWOLEnabled,
+    showAutoHttpsEntry,
+    showConsoleAppList,
+    showConsoleAppListEntry,
+    showEntryStatusModule,
+    showLoadingSkeleton,
+    showSmartConnectEntry,
+    showSSHSecurityEntry,
+    smartConnectDisabledReason,
+    sshSecurityDisabledReason,
+    sshSecurityEnabled,
+    t,
+    wolEnabled,
+  };
+}

@@ -1,1 +1,65 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgQ2hldnJvbkRvd24sIExvYWRlcjIsIFJlZnJlc2hDdywgVHJhc2gyIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgRHJvcGRvd25NZW51LAogIERyb3Bkb3duTWVudUNvbnRlbnQsCiAgRHJvcGRvd25NZW51SXRlbSwKICBEcm9wZG93bk1lbnVUcmlnZ2VyLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kcm9wZG93bi1tZW51IjsKaW1wb3J0IHR5cGUgeyBTU0hTZWN1cml0eUNvbnRyb2xsZXIgfSBmcm9tICIuL3NzaC1zZWN1cml0eS1jb250cmFjdCI7Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cygKICBkZWZpbmVQcm9wczx7CiAgICBjb21wYWN0PzogYm9vbGVhbjsKICAgIGNvbnRyb2xsZXI6IFNTSFNlY3VyaXR5Q29udHJvbGxlcjsKICB9PigpLAogIHsgY29tcGFjdDogZmFsc2UgfSwKKTsKY29uc3QgewogIGRldGFpbHMsCiAgaXNTYXZpbmcsCiAgaXNTeW5jaW5nRmlyZXdhbGwsCiAgb3BlbkNsZWFyRmlyZXdhbGxEaWFsb2csCiAgc3luY0ZpcmV3YWxsLAogIHQsCn0gPSBwcm9wcy5jb250cm9sbGVyOwpjb25zdCBkaXNhYmxlZCA9IGNvbXB1dGVkKAogICgpID0+CiAgICBpc1NhdmluZy52YWx1ZSB8fAogICAgaXNTeW5jaW5nRmlyZXdhbGwudmFsdWUgfHwKICAgICFkZXRhaWxzLnZhbHVlIHx8CiAgICAhZGV0YWlscy52YWx1ZS5zdW1tYXJ5LmF2YWlsYWJsZSwKKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERyb3Bkb3duTWVudT4KICAgIDxEcm9wZG93bk1lbnVUcmlnZ2VyIGFzLWNoaWxkPgogICAgICA8QnV0dG9uCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICA6Y2xhc3M9ImNvbXBhY3QgPyAndy0yNCBnYXAtMicgOiAnZ2FwLTInIgogICAgICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQiCiAgICAgID4KICAgICAgICA8TG9hZGVyMiB2LWlmPSJpc1N5bmNpbmdGaXJld2FsbCIgY2xhc3M9ImgtNCB3LTQgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgIDxzcGFuPnt7IHQoImFkbWluLnNzaFNlY3VyaXR5LmFjdGlvbnMiKSB9fTwvc3Bhbj4KICAgICAgICA8Q2hldnJvbkRvd24gY2xhc3M9ImgtNCB3LTQgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogICAgICA8L0J1dHRvbj4KICAgIDwvRHJvcGRvd25NZW51VHJpZ2dlcj4KICAgIDxEcm9wZG93bk1lbnVDb250ZW50IGFsaWduPSJlbmQiIGNsYXNzPSJ3LTU2Ij4KICAgICAgPERyb3Bkb3duTWVudUl0ZW0gOmRpc2FibGVkPSJkaXNhYmxlZCIgQHNlbGVjdD0ic3luY0ZpcmV3YWxsIj4KICAgICAgICA8UmVmcmVzaEN3IGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgIHt7IHQoImFkbWluLnNzaFNlY3VyaXR5LnN5bmNGaXJld2FsbCIpIH19CiAgICAgIDwvRHJvcGRvd25NZW51SXRlbT4KICAgICAgPERyb3Bkb3duTWVudUl0ZW0KICAgICAgICBjbGFzcz0idGV4dC1kZXN0cnVjdGl2ZSBmb2N1czp0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQiCiAgICAgICAgQHNlbGVjdD0ib3BlbkNsZWFyRmlyZXdhbGxEaWFsb2ciCiAgICAgID4KICAgICAgICA8VHJhc2gyIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgIHt7IHQoImFkbWluLnNzaFNlY3VyaXR5LmNsZWFyU3NoRmlyZXdhbGwiKSB9fQogICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICA8L0Ryb3Bkb3duTWVudUNvbnRlbnQ+CiAgPC9Ecm9wZG93bk1lbnU+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from "vue";
+import { ChevronDown, Loader2, RefreshCw, Trash2 } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import type { SSHSecurityController } from "./ssh-security-contract";
+
+const props = withDefaults(
+  defineProps<{
+    compact?: boolean;
+    controller: SSHSecurityController;
+  }>(),
+  { compact: false },
+);
+const {
+  details,
+  isSaving,
+  isSyncingFirewall,
+  openClearFirewallDialog,
+  syncFirewall,
+  t,
+} = props.controller;
+const disabled = computed(
+  () =>
+    isSaving.value ||
+    isSyncingFirewall.value ||
+    !details.value ||
+    !details.value.summary.available,
+);
+</script>
+
+<template>
+  <DropdownMenu>
+    <DropdownMenuTrigger as-child>
+      <Button
+        variant="outline"
+        :class="compact ? 'w-24 gap-2' : 'gap-2'"
+        :disabled="disabled"
+      >
+        <Loader2 v-if="isSyncingFirewall" class="h-4 w-4 animate-spin" />
+        <span>{{ t("admin.sshSecurity.actions") }}</span>
+        <ChevronDown class="h-4 w-4 text-muted-foreground" />
+      </Button>
+    </DropdownMenuTrigger>
+    <DropdownMenuContent align="end" class="w-56">
+      <DropdownMenuItem :disabled="disabled" @select="syncFirewall">
+        <RefreshCw class="h-4 w-4" />
+        {{ t("admin.sshSecurity.syncFirewall") }}
+      </DropdownMenuItem>
+      <DropdownMenuItem
+        class="text-destructive focus:text-destructive"
+        :disabled="disabled"
+        @select="openClearFirewallDialog"
+      >
+        <Trash2 class="h-4 w-4" />
+        {{ t("admin.sshSecurity.clearSshFirewall") }}
+      </DropdownMenuItem>
+    </DropdownMenuContent>
+  </DropdownMenu>
+</template>

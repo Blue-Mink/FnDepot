@@ -1,1 +1,25 @@
-aW1wb3J0IHsgbmV4dFRpY2ssIHdhdGNoLCB0eXBlIFJlZiB9IGZyb20gInZ1ZSI7CgpleHBvcnQgY29uc3QgdXNlRGlhbG9nRm9jdXNSZXN0b3JlID0gKGlzT3BlbjogUmVmPGJvb2xlYW4+KSA9PiB7CiAgbGV0IHRyaWdnZXI6IEhUTUxFbGVtZW50IHwgbnVsbCA9IG51bGw7CgogIGNvbnN0IG9wZW5EaWFsb2cgPSAoZXZlbnQ6IE1vdXNlRXZlbnQpID0+IHsKICAgIGlmIChldmVudC5jdXJyZW50VGFyZ2V0IGluc3RhbmNlb2YgSFRNTEVsZW1lbnQpIHsKICAgICAgdHJpZ2dlciA9IGV2ZW50LmN1cnJlbnRUYXJnZXQ7CiAgICB9CiAgICBpc09wZW4udmFsdWUgPSB0cnVlOwogIH07CgogIHdhdGNoKGlzT3BlbiwgKG9wZW4pID0+IHsKICAgIGlmIChvcGVuKSByZXR1cm47CiAgICBjb25zdCB0YXJnZXQgPSB0cmlnZ2VyOwogICAgdHJpZ2dlciA9IG51bGw7CiAgICB2b2lkIG5leHRUaWNrKCgpID0+IHsKICAgICAgaWYgKHRhcmdldD8uaXNDb25uZWN0ZWQpIHsKICAgICAgICB0YXJnZXQuZm9jdXMoeyBwcmV2ZW50U2Nyb2xsOiB0cnVlIH0pOwogICAgICB9CiAgICB9KTsKICB9KTsKCiAgcmV0dXJuIHsgb3BlbkRpYWxvZyB9Owp9Owo=
+import { nextTick, watch, type Ref } from "vue";
+
+export const useDialogFocusRestore = (isOpen: Ref<boolean>) => {
+  let trigger: HTMLElement | null = null;
+
+  const openDialog = (event: MouseEvent) => {
+    if (event.currentTarget instanceof HTMLElement) {
+      trigger = event.currentTarget;
+    }
+    isOpen.value = true;
+  };
+
+  watch(isOpen, (open) => {
+    if (open) return;
+    const target = trigger;
+    trigger = null;
+    void nextTick(() => {
+      if (target?.isConnected) {
+        target.focus({ preventScroll: true });
+      }
+    });
+  });
+
+  return { openDialog };
+};

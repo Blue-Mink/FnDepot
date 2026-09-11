@@ -1,1 +1,366 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uQmVmb3JlVW5tb3VudCwgb25Nb3VudGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IHVzZURlbGF5ZWRMb2FkaW5nIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VEZWxheWVkTG9hZGluZyI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7IHVzZUN1cnNvclBhZ2luYXRpb24gfSBmcm9tICJAL2NvbXBvc2FibGVzL3VzZUN1cnNvclBhZ2luYXRpb24iOwppbXBvcnQgeyB1c2VJcExvY2F0aW9uQmF0Y2ggfSBmcm9tICJAL2NvbXBvc2FibGVzL3VzZUlwTG9jYXRpb25CYXRjaCI7CmltcG9ydCB7IENvbmZpZ0FQSSB9IGZyb20gIkAvbGliL2FwaS9jb25maWciOwppbXBvcnQgeyBHYXRld2F5TG9nc0FQSSB9IGZyb20gIkAvbGliL2FwaS9nYXRld2F5IjsKaW1wb3J0IHsgdXNlQ29uZmlnU3RvcmUgfSBmcm9tICJAL3N0b3JlL2NvbmZpZyI7CmltcG9ydCB0eXBlIHsgR2F0ZXdheUxvZ0VudHJ5LCBUT1RQQ3JlZGVudGlhbCB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgewogIExPR0lOX0ZJTFRFUl9PUFRJT05TLAogIFNUQVRVU19GSUxURVJfT1BUSU9OUywKICBVTlJFQ09SREVEX0NSRURFTlRJQUxfRklMVEVSLAogIFdBRl9GSUxURVJfT1BUSU9OUywKICBnZXRFbnRyeUNsaWVudElwLAogIGdldEdhdGV3YXlMb2dPcHRpb25MYWJlbCwKICBnZXRUb2RheVN0cmluZywKICB0eXBlIEdhdGV3YXlMb2dpbkZpbHRlclZhbHVlLAogIHR5cGUgR2F0ZXdheVN0YXR1c0ZpbHRlclZhbHVlLAogIHR5cGUgR2F0ZXdheVdBRkZpbHRlclZhbHVlLAp9IGZyb20gIi4vbW9kZWwiOwoKZXhwb3J0IGNvbnN0IHVzZUdhdGV3YXlSZXF1ZXN0TG9nc1Jlc291cmNlID0gKCkgPT4gewogIGNvbnN0IGNvbmZpZ1N0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKICBjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKICBsZXQgaXNEaXNwb3NlZCA9IGZhbHNlOwogIGxldCBlbnRyaWVzUmVxdWVzdElkID0gMDsKICBjb25zdCBlbnRyaWVzID0gcmVmPEdhdGV3YXlMb2dFbnRyeVtdPihbXSk7CiAgY29uc3QgbG9nc0RpciA9IHJlZigiIik7CiAgY29uc3QgYXZhaWxhYmxlRGF0ZXMgPSByZWY8c3RyaW5nW10+KFtdKTsKICBjb25zdCBzZWxlY3RlZERhdGUgPSByZWYoZ2V0VG9kYXlTdHJpbmcoKSk7CiAgY29uc3Qgc2VsZWN0ZWRTdGF0dXMgPSByZWY8R2F0ZXdheVN0YXR1c0ZpbHRlclZhbHVlPigiYWxsIik7CiAgY29uc3Qgc2VsZWN0ZWRMb2dnZWRJbiA9IHJlZjxHYXRld2F5TG9naW5GaWx0ZXJWYWx1ZT4oImFsbCIpOwogIGNvbnN0IHNlbGVjdGVkQ3JlZGVudGlhbCA9IHJlZigiYWxsIik7CiAgY29uc3Qgc2VsZWN0ZWRXQUZTdGF0dXMgPSByZWY8R2F0ZXdheVdBRkZpbHRlclZhbHVlPigiYWxsIik7CiAgY29uc3QgbGltaXQgPSByZWYoIjIwIik7CiAgY29uc3Qgc2VhcmNoUXVlcnkgPSByZWYoIiIpOwogIGNvbnN0IGxvYWRpbmcgPSByZWYoZmFsc2UpOwogIGNvbnN0IGNyZWRlbnRpYWxPcHRpb25zID0gcmVmPFRPVFBDcmVkZW50aWFsW10+KFtdKTsKICBjb25zdCBzZWxlY3RlZExvZ0VudHJ5S2V5cyA9IHJlZjxTZXQ8c3RyaW5nPj4obmV3IFNldCgpKTsKICBjb25zdCB7CiAgICBjYW5Mb2FkTmV3ZXIsCiAgICBjYW5Mb2FkT2xkZXIsCiAgICBjdXJyZW50Q3Vyc29yLAogICAgY3Vyc29ySGlzdG9yeSwKICAgIGxvYWRGaXJzdDogbG9hZEN1cnNvckZpcnN0LAogICAgbG9hZE5ld2VyOiBsb2FkQ3Vyc29yTmV3ZXIsCiAgICBsb2FkT2xkZXI6IGxvYWRDdXJzb3JPbGRlciwKICAgIG5leHRDdXJzb3IsCiAgICByZXNldDogcmVzZXRDdXJzb3JQYWdpbmF0aW9uLAogIH0gPSB1c2VDdXJzb3JQYWdpbmF0aW9uKHsgbG9hZGluZyB9KTsKICBjb25zdCB7IHRyYWNrSXBzLCBnZXRTbmFwc2hvdCB9ID0gdXNlSXBMb2NhdGlvbkJhdGNoKCk7CgogIGNvbnN0IHNob3dUYWJsZVNrZWxldG9uID0gdXNlRGVsYXllZExvYWRpbmcoCiAgICAoKSA9PiBsb2FkaW5nLnZhbHVlICYmIGVudHJpZXMudmFsdWUubGVuZ3RoID09PSAwLAogICk7CiAgY29uc3QgaXNMb2dnaW5nRW5hYmxlZCA9IGNvbXB1dGVkKAogICAgKCkgPT4gY29uZmlnU3RvcmUuY29uZmlnPy5nYXRld2F5X2xvZ2dpbmc/LmVuYWJsZWQgPz8gZmFsc2UsCiAgKTsKICBjb25zdCBub3JtYWxpemVkU3RhdHVzUXVlcnkgPSBjb21wdXRlZCgoKSA9PgogICAgc2VsZWN0ZWRTdGF0dXMudmFsdWUgPT09ICJhbGwiID8gIiIgOiBzZWxlY3RlZFN0YXR1cy52YWx1ZSwKICApOwogIGNvbnN0IG5vcm1hbGl6ZWRMb2dnZWRJblF1ZXJ5ID0gY29tcHV0ZWQoKCkgPT4KICAgIHNlbGVjdGVkTG9nZ2VkSW4udmFsdWUgPT09ICJhbGwiID8gIiIgOiBzZWxlY3RlZExvZ2dlZEluLnZhbHVlLAogICk7CiAgY29uc3Qgbm9ybWFsaXplZENyZWRlbnRpYWxRdWVyeSA9IGNvbXB1dGVkKCgpID0+CiAgICBzZWxlY3RlZENyZWRlbnRpYWwudmFsdWUgPT09ICJhbGwiID8gIiIgOiBzZWxlY3RlZENyZWRlbnRpYWwudmFsdWUsCiAgKTsKICBjb25zdCBub3JtYWxpemVkV0FGU3RhdHVzUXVlcnkgPSBjb21wdXRlZCgoKSA9PgogICAgc2VsZWN0ZWRXQUZTdGF0dXMudmFsdWUgPT09ICJhbGwiID8gIiIgOiBzZWxlY3RlZFdBRlN0YXR1cy52YWx1ZSwKICApOwogIGNvbnN0IGFjdGl2ZVN0YXR1c0xhYmVsID0gY29tcHV0ZWQoKCkgPT4KICAgIGdldEdhdGV3YXlMb2dPcHRpb25MYWJlbCgKICAgICAgU1RBVFVTX0ZJTFRFUl9PUFRJT05TLAogICAgICBzZWxlY3RlZFN0YXR1cy52YWx1ZSwKICAgICAgImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5zdGF0dXNGaWx0ZXJzLmFsbCIsCiAgICAgIHQsCiAgICApLAogICk7CiAgY29uc3QgYWN0aXZlTG9nZ2VkSW5MYWJlbCA9IGNvbXB1dGVkKCgpID0+CiAgICBnZXRHYXRld2F5TG9nT3B0aW9uTGFiZWwoCiAgICAgIExPR0lOX0ZJTFRFUl9PUFRJT05TLAogICAgICBzZWxlY3RlZExvZ2dlZEluLnZhbHVlLAogICAgICAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmxvZ2luRmlsdGVycy5hbGwiLAogICAgICB0LAogICAgKSwKICApOwogIGNvbnN0IGNyZWRlbnRpYWxGaWx0ZXJPcHRpb25zID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3Qgb3B0aW9ucyA9IFsKICAgICAgewogICAgICAgIHZhbHVlOiAiYWxsIiwKICAgICAgICBsYWJlbDogdCgiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmNyZWRlbnRpYWxGaWx0ZXJzLmFsbCIpLAogICAgICB9LAogICAgICB7CiAgICAgICAgdmFsdWU6IFVOUkVDT1JERURfQ1JFREVOVElBTF9GSUxURVIsCiAgICAgICAgbGFiZWw6IHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5jcmVkZW50aWFsRmlsdGVycy51bnJlY29yZGVkIiksCiAgICAgIH0sCiAgICAgIC4uLmNyZWRlbnRpYWxPcHRpb25zLnZhbHVlLm1hcCgoY3JlZGVudGlhbCkgPT4gKHsKICAgICAgICB2YWx1ZTogY3JlZGVudGlhbC5pZCwKICAgICAgICBsYWJlbDogY3JlZGVudGlhbC5jb21tZW50Py50cmltKCkgfHwgY3JlZGVudGlhbC5pZCwKICAgICAgfSkpLAogICAgXTsKICAgIGlmICgKICAgICAgc2VsZWN0ZWRDcmVkZW50aWFsLnZhbHVlICE9PSAiYWxsIiAmJgogICAgICAhb3B0aW9ucy5zb21lKChvcHRpb24pID0+IG9wdGlvbi52YWx1ZSA9PT0gc2VsZWN0ZWRDcmVkZW50aWFsLnZhbHVlKQogICAgKSB7CiAgICAgIG9wdGlvbnMucHVzaCh7CiAgICAgICAgdmFsdWU6IHNlbGVjdGVkQ3JlZGVudGlhbC52YWx1ZSwKICAgICAgICBsYWJlbDogc2VsZWN0ZWRDcmVkZW50aWFsLnZhbHVlLAogICAgICB9KTsKICAgIH0KICAgIHJldHVybiBvcHRpb25zOwogIH0pOwogIGNvbnN0IGFjdGl2ZUNyZWRlbnRpYWxMYWJlbCA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgY3JlZGVudGlhbEZpbHRlck9wdGlvbnMudmFsdWUuZmluZCgKICAgICAgICAob3B0aW9uKSA9PiBvcHRpb24udmFsdWUgPT09IHNlbGVjdGVkQ3JlZGVudGlhbC52YWx1ZSwKICAgICAgKT8ubGFiZWwgfHwgc2VsZWN0ZWRDcmVkZW50aWFsLnZhbHVlLAogICk7CiAgY29uc3QgYWN0aXZlV0FGU3RhdHVzTGFiZWwgPSBjb21wdXRlZCgoKSA9PgogICAgZ2V0R2F0ZXdheUxvZ09wdGlvbkxhYmVsKAogICAgICBXQUZfRklMVEVSX09QVElPTlMsCiAgICAgIHNlbGVjdGVkV0FGU3RhdHVzLnZhbHVlLAogICAgICAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLndhZkZpbHRlcnMuYWxsIiwKICAgICAgdCwKICAgICksCiAgKTsKICBjb25zdCBjdXJzb3JQYWdlTGFiZWwgPSBjb21wdXRlZCgoKSA9PgogICAgdCgiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmN1cnNvclBhZ2UiLCB7CiAgICAgIHBhZ2U6IGN1cnNvckhpc3RvcnkudmFsdWUubGVuZ3RoICsgMSwKICAgIH0pLAogICk7CiAgY29uc3Qgc2hvdWxkRmxvYXRQYWdpbmF0aW9uID0gY29tcHV0ZWQoCiAgICAoKSA9PiBlbnRyaWVzLnZhbHVlLmxlbmd0aCA+IDAgfHwgY2FuTG9hZE5ld2VyLnZhbHVlIHx8IGNhbkxvYWRPbGRlci52YWx1ZSwKICApOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc0RlbGV0aW5nLCBydW46IHJ1bkRlbGV0ZSB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZWxldGVGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGVsZXRlRmFpbGVkRGVzY3JpcHRpb24iKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IGFwcGx5RGF0ZXMgPSAoZGF0ZXM6IHN0cmluZ1tdLCBwcmVmZXJyZWQ/OiBzdHJpbmcpID0+IHsKICAgIGNvbnN0IGZhbGxiYWNrVG9kYXkgPSBnZXRUb2RheVN0cmluZygpOwogICAgY29uc3QgbmV4dERhdGVzID0gZGF0ZXMubGVuZ3RoID4gMCA/IGRhdGVzIDogW2ZhbGxiYWNrVG9kYXldOwogICAgYXZhaWxhYmxlRGF0ZXMudmFsdWUgPSBuZXh0RGF0ZXM7CiAgICBpZiAocHJlZmVycmVkICYmIG5leHREYXRlcy5pbmNsdWRlcyhwcmVmZXJyZWQpKSB7CiAgICAgIHNlbGVjdGVkRGF0ZS52YWx1ZSA9IHByZWZlcnJlZDsKICAgIH0gZWxzZSBpZiAoIW5leHREYXRlcy5pbmNsdWRlcyhzZWxlY3RlZERhdGUudmFsdWUpKSB7CiAgICAgIHNlbGVjdGVkRGF0ZS52YWx1ZSA9IG5leHREYXRlcy5pbmNsdWRlcyhmYWxsYmFja1RvZGF5KQogICAgICAgID8gZmFsbGJhY2tUb2RheQogICAgICAgIDogbmV4dERhdGVzWzBdIHx8IGZhbGxiYWNrVG9kYXk7CiAgICB9CiAgfTsKCiAgY29uc3QgZmV0Y2hEYXRlcyA9IGFzeW5jIChwcmVmZXJyZWQ/OiBzdHJpbmcpID0+IHsKICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBHYXRld2F5TG9nc0FQSS5nZXREYXRlcygpOwogICAgaWYgKGlzRGlzcG9zZWQpIHJldHVybjsKICAgIGxvZ3NEaXIudmFsdWUgPSBkYXRhLmxvZ3NfZGlyIHx8ICIiOwogICAgYXBwbHlEYXRlcyhkYXRhLmRhdGVzIHx8IFtdLCBwcmVmZXJyZWQgfHwgZGF0YS50b2RheSB8fCBzZWxlY3RlZERhdGUudmFsdWUpOwogIH07CgogIGNvbnN0IGZldGNoQ3JlZGVudGlhbE9wdGlvbnMgPSBhc3luYyAoKSA9PiB7CiAgICB0cnkgewogICAgICBjb25zdCBkYXRhID0gYXdhaXQgQ29uZmlnQVBJLmdldFRPVFBTdGF0dXMoKTsKICAgICAgaWYgKGlzRGlzcG9zZWQpIHJldHVybjsKICAgICAgY3JlZGVudGlhbE9wdGlvbnMudmFsdWUgPSBkYXRhLmNyZWRlbnRpYWxzIHx8IFtdOwogICAgfSBjYXRjaCB7CiAgICAgIGlmIChpc0Rpc3Bvc2VkKSByZXR1cm47CiAgICAgIGNyZWRlbnRpYWxPcHRpb25zLnZhbHVlID0gW107CiAgICB9CiAgfTsKCiAgY29uc3QgZmV0Y2hFbnRyaWVzID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgY3VycmVudFJlcXVlc3RJZCA9ICsrZW50cmllc1JlcXVlc3RJZDsKICAgIGNvbnN0IHBhcmFtcyA9IHsKICAgICAgZGF0ZTogc2VsZWN0ZWREYXRlLnZhbHVlLAogICAgICBwYWdpbmF0aW9uOiAiY3Vyc29yIiBhcyBjb25zdCwKICAgICAgbGltaXQ6IGxpbWl0LnZhbHVlLAogICAgICBjdXJzb3I6IGN1cnJlbnRDdXJzb3IudmFsdWUgfHwgdW5kZWZpbmVkLAogICAgICBzZWFyY2g6IHNlYXJjaFF1ZXJ5LnZhbHVlIHx8IHVuZGVmaW5lZCwKICAgICAgc3RhdHVzOiBub3JtYWxpemVkU3RhdHVzUXVlcnkudmFsdWUgfHwgdW5kZWZpbmVkLAogICAgICBsb2dnZWRfaW46IG5vcm1hbGl6ZWRMb2dnZWRJblF1ZXJ5LnZhbHVlIHx8IHVuZGVmaW5lZCwKICAgICAgY3JlZGVudGlhbDogbm9ybWFsaXplZENyZWRlbnRpYWxRdWVyeS52YWx1ZSB8fCB1bmRlZmluZWQsCiAgICAgIHdhZl9zdGF0dXM6IG5vcm1hbGl6ZWRXQUZTdGF0dXNRdWVyeS52YWx1ZSB8fCB1bmRlZmluZWQsCiAgICB9OwogICAgbG9hZGluZy52YWx1ZSA9IHRydWU7CiAgICB0cnkgewogICAgICBjb25zdCBkYXRhID0gYXdhaXQgR2F0ZXdheUxvZ3NBUEkuZ2V0RW50cmllcyhwYXJhbXMpOwogICAgICBpZiAoaXNEaXNwb3NlZCB8fCBjdXJyZW50UmVxdWVzdElkICE9PSBlbnRyaWVzUmVxdWVzdElkKSByZXR1cm47CiAgICAgIGxvZ3NEaXIudmFsdWUgPSBkYXRhLmxvZ3NfZGlyIHx8ICIiOwogICAgICBlbnRyaWVzLnZhbHVlID0gZGF0YS5pdGVtcyB8fCBbXTsKICAgICAgc2VsZWN0ZWRMb2dFbnRyeUtleXMudmFsdWUgPSBuZXcgU2V0KCk7CiAgICAgIHRyYWNrSXBzKGVudHJpZXMudmFsdWUubWFwKGdldEVudHJ5Q2xpZW50SXApKTsKICAgICAgbmV4dEN1cnNvci52YWx1ZSA9IGRhdGEubmV4dF9jdXJzb3IgfHwgIiI7CiAgICAgIGFwcGx5RGF0ZXMoZGF0YS5hdmFpbGFibGVfZGF0ZXMgfHwgW10sIGRhdGEuZGF0ZSB8fCBwYXJhbXMuZGF0ZSk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBpZiAoaXNEaXNwb3NlZCB8fCBjdXJyZW50UmVxdWVzdElkICE9PSBlbnRyaWVzUmVxdWVzdElkKSByZXR1cm47CiAgICAgIGVudHJpZXMudmFsdWUgPSBbXTsKICAgICAgdHJhY2tJcHMoW10pOwogICAgICBuZXh0Q3Vyc29yLnZhbHVlID0gIiI7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5sb2FkRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmxvYWRGYWlsZWREZXNjcmlwdGlvbiIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSBmaW5hbGx5IHsKICAgICAgaWYgKGN1cnJlbnRSZXF1ZXN0SWQgPT09IGVudHJpZXNSZXF1ZXN0SWQpIGxvYWRpbmcudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9OwoKICBjb25zdCByZWZyZXNoQWxsID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgICBmZXRjaERhdGVzKHNlbGVjdGVkRGF0ZS52YWx1ZSksCiAgICAgIGZldGNoQ3JlZGVudGlhbE9wdGlvbnMoKSwKICAgIF0pOwogICAgcmVzZXRDdXJzb3JQYWdpbmF0aW9uKCk7CiAgICBhd2FpdCBmZXRjaEVudHJpZXMoKTsKICB9OwoKICBjb25zdCBhcHBseUZpbHRlciA9IGFzeW5jICh1cGRhdGU6ICgpID0+IHZvaWQpID0+IHsKICAgIHVwZGF0ZSgpOwogICAgcmVzZXRDdXJzb3JQYWdpbmF0aW9uKCk7CiAgICBhd2FpdCBmZXRjaEVudHJpZXMoKTsKICB9OwoKICBjb25zdCBoYW5kbGVEYXRlQ2hhbmdlID0gKHZhbHVlOiB1bmtub3duKSA9PgogICAgdmFsdWUKICAgICAgPyBhcHBseUZpbHRlcigoKSA9PiB7CiAgICAgICAgICBzZWxlY3RlZERhdGUudmFsdWUgPSBTdHJpbmcodmFsdWUpOwogICAgICAgIH0pCiAgICAgIDogUHJvbWlzZS5yZXNvbHZlKCk7CiAgY29uc3QgaGFuZGxlU2VhcmNoID0gKCkgPT4gYXBwbHlGaWx0ZXIoKCkgPT4gdW5kZWZpbmVkKTsKICBjb25zdCBoYW5kbGVTdGF0dXNDaGFuZ2UgPSAodmFsdWU6IHVua25vd24pID0+CiAgICB2YWx1ZQogICAgICA/IGFwcGx5RmlsdGVyKCgpID0+IHsKICAgICAgICAgIHNlbGVjdGVkU3RhdHVzLnZhbHVlID0gU3RyaW5nKHZhbHVlKSBhcyBHYXRld2F5U3RhdHVzRmlsdGVyVmFsdWU7CiAgICAgICAgfSkKICAgICAgOiBQcm9taXNlLnJlc29sdmUoKTsKICBjb25zdCBoYW5kbGVMb2dnZWRJbkNoYW5nZSA9ICh2YWx1ZTogdW5rbm93bikgPT4KICAgIHZhbHVlCiAgICAgID8gYXBwbHlGaWx0ZXIoKCkgPT4gewogICAgICAgICAgc2VsZWN0ZWRMb2dnZWRJbi52YWx1ZSA9IFN0cmluZyh2YWx1ZSkgYXMgR2F0ZXdheUxvZ2luRmlsdGVyVmFsdWU7CiAgICAgICAgfSkKICAgICAgOiBQcm9taXNlLnJlc29sdmUoKTsKICBjb25zdCBoYW5kbGVDcmVkZW50aWFsQ2hhbmdlID0gKHZhbHVlOiB1bmtub3duKSA9PgogICAgdmFsdWUKICAgICAgPyBhcHBseUZpbHRlcigoKSA9PiB7CiAgICAgICAgICBzZWxlY3RlZENyZWRlbnRpYWwudmFsdWUgPSBTdHJpbmcodmFsdWUpOwogICAgICAgIH0pCiAgICAgIDogUHJvbWlzZS5yZXNvbHZlKCk7CiAgY29uc3QgaGFuZGxlV0FGU3RhdHVzQ2hhbmdlID0gKHZhbHVlOiB1bmtub3duKSA9PgogICAgdmFsdWUKICAgICAgPyBhcHBseUZpbHRlcigoKSA9PiB7CiAgICAgICAgICBzZWxlY3RlZFdBRlN0YXR1cy52YWx1ZSA9IFN0cmluZyh2YWx1ZSkgYXMgR2F0ZXdheVdBRkZpbHRlclZhbHVlOwogICAgICAgIH0pCiAgICAgIDogUHJvbWlzZS5yZXNvbHZlKCk7CiAgY29uc3QgaGFuZGxlTGltaXRDaGFuZ2UgPSAodmFsdWU6IHVua25vd24pID0+CiAgICB2YWx1ZQogICAgICA/IGFwcGx5RmlsdGVyKCgpID0+IHsKICAgICAgICAgIGxpbWl0LnZhbHVlID0gU3RyaW5nKHZhbHVlKTsKICAgICAgICB9KQogICAgICA6IFByb21pc2UucmVzb2x2ZSgpOwoKICBjb25zdCBoYW5kbGVMb2FkT2xkZXIgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAobG9hZEN1cnNvck9sZGVyKCkpIGF3YWl0IGZldGNoRW50cmllcygpOwogIH07CiAgY29uc3QgaGFuZGxlTG9hZE5ld2VyID0gYXN5bmMgKCkgPT4gewogICAgaWYgKGxvYWRDdXJzb3JOZXdlcigpKSBhd2FpdCBmZXRjaEVudHJpZXMoKTsKICB9OwogIGNvbnN0IGhhbmRsZUxvYWRGaXJzdCA9IGFzeW5jICgpID0+IHsKICAgIGlmIChsb2FkQ3Vyc29yRmlyc3QoKSkgYXdhaXQgZmV0Y2hFbnRyaWVzKCk7CiAgfTsKCiAgY29uc3QgZGVsZXRlU2VsZWN0ZWREYXRlID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuRGVsZXRlKCgpID0+IEdhdGV3YXlMb2dzQVBJLmRlbGV0ZURhdGUoc2VsZWN0ZWREYXRlLnZhbHVlKSwgewogICAgICBvblN1Y2Nlc3M6IGFzeW5jIChkYXRhKSA9PiB7CiAgICAgICAgdG9hc3Quc3VjY2VzcygKICAgICAgICAgIGRhdGEuZGVsZXRlZAogICAgICAgICAgICA/IHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZWxldGVkRm9yRGF0ZSIsIHsKICAgICAgICAgICAgICAgIGRhdGU6IHNlbGVjdGVkRGF0ZS52YWx1ZSwKICAgICAgICAgICAgICB9KQogICAgICAgICAgICA6IHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5ub0RlbGV0ZWRGb3JEYXRlIiwgewogICAgICAgICAgICAgICAgZGF0ZTogc2VsZWN0ZWREYXRlLnZhbHVlLAogICAgICAgICAgICAgIH0pLAogICAgICAgICk7CiAgICAgICAgc2VhcmNoUXVlcnkudmFsdWUgPSAiIjsKICAgICAgICBzZWxlY3RlZFN0YXR1cy52YWx1ZSA9ICJhbGwiOwogICAgICAgIHNlbGVjdGVkTG9nZ2VkSW4udmFsdWUgPSAiYWxsIjsKICAgICAgICBzZWxlY3RlZENyZWRlbnRpYWwudmFsdWUgPSAiYWxsIjsKICAgICAgICBzZWxlY3RlZFdBRlN0YXR1cy52YWx1ZSA9ICJhbGwiOwogICAgICAgIHJlc2V0Q3Vyc29yUGFnaW5hdGlvbigpOwogICAgICAgIGNvbnN0IG5leHRQcmVmZXJyZWQgPQogICAgICAgICAgZGF0YS5hdmFpbGFibGVfZGF0ZXMuZmluZCgoaXRlbSkgPT4gaXRlbSAhPT0gc2VsZWN0ZWREYXRlLnZhbHVlKSB8fAogICAgICAgICAgZ2V0VG9kYXlTdHJpbmcoKTsKICAgICAgICBhd2FpdCBmZXRjaERhdGVzKG5leHRQcmVmZXJyZWQpOwogICAgICAgIGF3YWl0IGZldGNoRW50cmllcygpOwogICAgICB9LAogICAgfSk7CiAgfTsKCiAgb25Nb3VudGVkKGFzeW5jICgpID0+IHsKICAgIGF3YWl0IFByb21pc2UuYWxsKFsKICAgICAgZmV0Y2hEYXRlcyhzZWxlY3RlZERhdGUudmFsdWUpLAogICAgICBmZXRjaENyZWRlbnRpYWxPcHRpb25zKCksCiAgICBdKTsKICAgIGlmIChpc0Rpc3Bvc2VkKSByZXR1cm47CiAgICBhd2FpdCBmZXRjaEVudHJpZXMoKTsKICB9KTsKCiAgb25CZWZvcmVVbm1vdW50KCgpID0+IHsKICAgIGlzRGlzcG9zZWQgPSB0cnVlOwogICAgZW50cmllc1JlcXVlc3RJZCArPSAxOwogIH0pOwoKICByZXR1cm4gewogICAgYWN0aXZlQ3JlZGVudGlhbExhYmVsLAogICAgYWN0aXZlTG9nZ2VkSW5MYWJlbCwKICAgIGFjdGl2ZVN0YXR1c0xhYmVsLAogICAgYWN0aXZlV0FGU3RhdHVzTGFiZWwsCiAgICBhdmFpbGFibGVEYXRlcywKICAgIGNhbkxvYWROZXdlciwKICAgIGNhbkxvYWRPbGRlciwKICAgIGNyZWRlbnRpYWxGaWx0ZXJPcHRpb25zLAogICAgY3VycmVudEN1cnNvciwKICAgIGN1cnNvclBhZ2VMYWJlbCwKICAgIGRlbGV0ZVNlbGVjdGVkRGF0ZSwKICAgIGVudHJpZXMsCiAgICBnZXRTbmFwc2hvdCwKICAgIGhhbmRsZUNyZWRlbnRpYWxDaGFuZ2UsCiAgICBoYW5kbGVEYXRlQ2hhbmdlLAogICAgaGFuZGxlTGltaXRDaGFuZ2UsCiAgICBoYW5kbGVMb2FkRmlyc3QsCiAgICBoYW5kbGVMb2FkTmV3ZXIsCiAgICBoYW5kbGVMb2FkT2xkZXIsCiAgICBoYW5kbGVMb2dnZWRJbkNoYW5nZSwKICAgIGhhbmRsZVNlYXJjaCwKICAgIGhhbmRsZVN0YXR1c0NoYW5nZSwKICAgIGhhbmRsZVdBRlN0YXR1c0NoYW5nZSwKICAgIGlzRGVsZXRpbmcsCiAgICBpc0xvZ2dpbmdFbmFibGVkLAogICAgbGltaXQsCiAgICBsb2FkaW5nLAogICAgbG9nc0RpciwKICAgIHJlZnJlc2hBbGwsCiAgICBzZWFyY2hRdWVyeSwKICAgIHNlbGVjdGVkQ3JlZGVudGlhbCwKICAgIHNlbGVjdGVkRGF0ZSwKICAgIHNlbGVjdGVkTG9nZ2VkSW4sCiAgICBzZWxlY3RlZExvZ0VudHJ5S2V5cywKICAgIHNlbGVjdGVkU3RhdHVzLAogICAgc2VsZWN0ZWRXQUZTdGF0dXMsCiAgICBzaG91bGRGbG9hdFBhZ2luYXRpb24sCiAgICBzaG93VGFibGVTa2VsZXRvbiwKICB9Owp9Owo=
+import { computed, onBeforeUnmount, onMounted, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import { toast } from "@admin-shared/utils/toast";
+import { useCursorPagination } from "@/composables/useCursorPagination";
+import { useIpLocationBatch } from "@/composables/useIpLocationBatch";
+import { ConfigAPI } from "@/lib/api/config";
+import { GatewayLogsAPI } from "@/lib/api/gateway";
+import { useConfigStore } from "@/store/config";
+import type { GatewayLogEntry, TOTPCredential } from "@/types";
+import {
+  LOGIN_FILTER_OPTIONS,
+  STATUS_FILTER_OPTIONS,
+  UNRECORDED_CREDENTIAL_FILTER,
+  WAF_FILTER_OPTIONS,
+  getEntryClientIp,
+  getGatewayLogOptionLabel,
+  getTodayString,
+  type GatewayLoginFilterValue,
+  type GatewayStatusFilterValue,
+  type GatewayWAFFilterValue,
+} from "./model";
+
+export const useGatewayRequestLogsResource = () => {
+  const configStore = useConfigStore();
+  const { t } = useI18n();
+  let isDisposed = false;
+  let entriesRequestId = 0;
+  const entries = ref<GatewayLogEntry[]>([]);
+  const logsDir = ref("");
+  const availableDates = ref<string[]>([]);
+  const selectedDate = ref(getTodayString());
+  const selectedStatus = ref<GatewayStatusFilterValue>("all");
+  const selectedLoggedIn = ref<GatewayLoginFilterValue>("all");
+  const selectedCredential = ref("all");
+  const selectedWAFStatus = ref<GatewayWAFFilterValue>("all");
+  const limit = ref("20");
+  const searchQuery = ref("");
+  const loading = ref(false);
+  const credentialOptions = ref<TOTPCredential[]>([]);
+  const selectedLogEntryKeys = ref<Set<string>>(new Set());
+  const {
+    canLoadNewer,
+    canLoadOlder,
+    currentCursor,
+    cursorHistory,
+    loadFirst: loadCursorFirst,
+    loadNewer: loadCursorNewer,
+    loadOlder: loadCursorOlder,
+    nextCursor,
+    reset: resetCursorPagination,
+  } = useCursorPagination({ loading });
+  const { trackIps, getSnapshot } = useIpLocationBatch();
+
+  const showTableSkeleton = useDelayedLoading(
+    () => loading.value && entries.value.length === 0,
+  );
+  const isLoggingEnabled = computed(
+    () => configStore.config?.gateway_logging?.enabled ?? false,
+  );
+  const normalizedStatusQuery = computed(() =>
+    selectedStatus.value === "all" ? "" : selectedStatus.value,
+  );
+  const normalizedLoggedInQuery = computed(() =>
+    selectedLoggedIn.value === "all" ? "" : selectedLoggedIn.value,
+  );
+  const normalizedCredentialQuery = computed(() =>
+    selectedCredential.value === "all" ? "" : selectedCredential.value,
+  );
+  const normalizedWAFStatusQuery = computed(() =>
+    selectedWAFStatus.value === "all" ? "" : selectedWAFStatus.value,
+  );
+  const activeStatusLabel = computed(() =>
+    getGatewayLogOptionLabel(
+      STATUS_FILTER_OPTIONS,
+      selectedStatus.value,
+      "admin.gatewayRequestLogs.statusFilters.all",
+      t,
+    ),
+  );
+  const activeLoggedInLabel = computed(() =>
+    getGatewayLogOptionLabel(
+      LOGIN_FILTER_OPTIONS,
+      selectedLoggedIn.value,
+      "admin.gatewayRequestLogs.loginFilters.all",
+      t,
+    ),
+  );
+  const credentialFilterOptions = computed(() => {
+    const options = [
+      {
+        value: "all",
+        label: t("admin.gatewayRequestLogs.credentialFilters.all"),
+      },
+      {
+        value: UNRECORDED_CREDENTIAL_FILTER,
+        label: t("admin.gatewayRequestLogs.credentialFilters.unrecorded"),
+      },
+      ...credentialOptions.value.map((credential) => ({
+        value: credential.id,
+        label: credential.comment?.trim() || credential.id,
+      })),
+    ];
+    if (
+      selectedCredential.value !== "all" &&
+      !options.some((option) => option.value === selectedCredential.value)
+    ) {
+      options.push({
+        value: selectedCredential.value,
+        label: selectedCredential.value,
+      });
+    }
+    return options;
+  });
+  const activeCredentialLabel = computed(
+    () =>
+      credentialFilterOptions.value.find(
+        (option) => option.value === selectedCredential.value,
+      )?.label || selectedCredential.value,
+  );
+  const activeWAFStatusLabel = computed(() =>
+    getGatewayLogOptionLabel(
+      WAF_FILTER_OPTIONS,
+      selectedWAFStatus.value,
+      "admin.gatewayRequestLogs.wafFilters.all",
+      t,
+    ),
+  );
+  const cursorPageLabel = computed(() =>
+    t("admin.gatewayRequestLogs.cursorPage", {
+      page: cursorHistory.value.length + 1,
+    }),
+  );
+  const shouldFloatPagination = computed(
+    () => entries.value.length > 0 || canLoadNewer.value || canLoadOlder.value,
+  );
+  const { isPending: isDeleting, run: runDelete } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.gatewayRequestLogs.deleteFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.gatewayRequestLogs.deleteFailedDescription"),
+        ),
+      });
+    },
+  });
+
+  const applyDates = (dates: string[], preferred?: string) => {
+    const fallbackToday = getTodayString();
+    const nextDates = dates.length > 0 ? dates : [fallbackToday];
+    availableDates.value = nextDates;
+    if (preferred && nextDates.includes(preferred)) {
+      selectedDate.value = preferred;
+    } else if (!nextDates.includes(selectedDate.value)) {
+      selectedDate.value = nextDates.includes(fallbackToday)
+        ? fallbackToday
+        : nextDates[0] || fallbackToday;
+    }
+  };
+
+  const fetchDates = async (preferred?: string) => {
+    const data = await GatewayLogsAPI.getDates();
+    if (isDisposed) return;
+    logsDir.value = data.logs_dir || "";
+    applyDates(data.dates || [], preferred || data.today || selectedDate.value);
+  };
+
+  const fetchCredentialOptions = async () => {
+    try {
+      const data = await ConfigAPI.getTOTPStatus();
+      if (isDisposed) return;
+      credentialOptions.value = data.credentials || [];
+    } catch {
+      if (isDisposed) return;
+      credentialOptions.value = [];
+    }
+  };
+
+  const fetchEntries = async () => {
+    const currentRequestId = ++entriesRequestId;
+    const params = {
+      date: selectedDate.value,
+      pagination: "cursor" as const,
+      limit: limit.value,
+      cursor: currentCursor.value || undefined,
+      search: searchQuery.value || undefined,
+      status: normalizedStatusQuery.value || undefined,
+      logged_in: normalizedLoggedInQuery.value || undefined,
+      credential: normalizedCredentialQuery.value || undefined,
+      waf_status: normalizedWAFStatusQuery.value || undefined,
+    };
+    loading.value = true;
+    try {
+      const data = await GatewayLogsAPI.getEntries(params);
+      if (isDisposed || currentRequestId !== entriesRequestId) return;
+      logsDir.value = data.logs_dir || "";
+      entries.value = data.items || [];
+      selectedLogEntryKeys.value = new Set();
+      trackIps(entries.value.map(getEntryClientIp));
+      nextCursor.value = data.next_cursor || "";
+      applyDates(data.available_dates || [], data.date || params.date);
+    } catch (error) {
+      if (isDisposed || currentRequestId !== entriesRequestId) return;
+      entries.value = [];
+      trackIps([]);
+      nextCursor.value = "";
+      toast.error(t("admin.gatewayRequestLogs.loadFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.gatewayRequestLogs.loadFailedDescription"),
+        ),
+      });
+    } finally {
+      if (currentRequestId === entriesRequestId) loading.value = false;
+    }
+  };
+
+  const refreshAll = async () => {
+    await Promise.all([
+      fetchDates(selectedDate.value),
+      fetchCredentialOptions(),
+    ]);
+    resetCursorPagination();
+    await fetchEntries();
+  };
+
+  const applyFilter = async (update: () => void) => {
+    update();
+    resetCursorPagination();
+    await fetchEntries();
+  };
+
+  const handleDateChange = (value: unknown) =>
+    value
+      ? applyFilter(() => {
+          selectedDate.value = String(value);
+        })
+      : Promise.resolve();
+  const handleSearch = () => applyFilter(() => undefined);
+  const handleStatusChange = (value: unknown) =>
+    value
+      ? applyFilter(() => {
+          selectedStatus.value = String(value) as GatewayStatusFilterValue;
+        })
+      : Promise.resolve();
+  const handleLoggedInChange = (value: unknown) =>
+    value
+      ? applyFilter(() => {
+          selectedLoggedIn.value = String(value) as GatewayLoginFilterValue;
+        })
+      : Promise.resolve();
+  const handleCredentialChange = (value: unknown) =>
+    value
+      ? applyFilter(() => {
+          selectedCredential.value = String(value);
+        })
+      : Promise.resolve();
+  const handleWAFStatusChange = (value: unknown) =>
+    value
+      ? applyFilter(() => {
+          selectedWAFStatus.value = String(value) as GatewayWAFFilterValue;
+        })
+      : Promise.resolve();
+  const handleLimitChange = (value: unknown) =>
+    value
+      ? applyFilter(() => {
+          limit.value = String(value);
+        })
+      : Promise.resolve();
+
+  const handleLoadOlder = async () => {
+    if (loadCursorOlder()) await fetchEntries();
+  };
+  const handleLoadNewer = async () => {
+    if (loadCursorNewer()) await fetchEntries();
+  };
+  const handleLoadFirst = async () => {
+    if (loadCursorFirst()) await fetchEntries();
+  };
+
+  const deleteSelectedDate = async () => {
+    await runDelete(() => GatewayLogsAPI.deleteDate(selectedDate.value), {
+      onSuccess: async (data) => {
+        toast.success(
+          data.deleted
+            ? t("admin.gatewayRequestLogs.deletedForDate", {
+                date: selectedDate.value,
+              })
+            : t("admin.gatewayRequestLogs.noDeletedForDate", {
+                date: selectedDate.value,
+              }),
+        );
+        searchQuery.value = "";
+        selectedStatus.value = "all";
+        selectedLoggedIn.value = "all";
+        selectedCredential.value = "all";
+        selectedWAFStatus.value = "all";
+        resetCursorPagination();
+        const nextPreferred =
+          data.available_dates.find((item) => item !== selectedDate.value) ||
+          getTodayString();
+        await fetchDates(nextPreferred);
+        await fetchEntries();
+      },
+    });
+  };
+
+  onMounted(async () => {
+    await Promise.all([
+      fetchDates(selectedDate.value),
+      fetchCredentialOptions(),
+    ]);
+    if (isDisposed) return;
+    await fetchEntries();
+  });
+
+  onBeforeUnmount(() => {
+    isDisposed = true;
+    entriesRequestId += 1;
+  });
+
+  return {
+    activeCredentialLabel,
+    activeLoggedInLabel,
+    activeStatusLabel,
+    activeWAFStatusLabel,
+    availableDates,
+    canLoadNewer,
+    canLoadOlder,
+    credentialFilterOptions,
+    currentCursor,
+    cursorPageLabel,
+    deleteSelectedDate,
+    entries,
+    getSnapshot,
+    handleCredentialChange,
+    handleDateChange,
+    handleLimitChange,
+    handleLoadFirst,
+    handleLoadNewer,
+    handleLoadOlder,
+    handleLoggedInChange,
+    handleSearch,
+    handleStatusChange,
+    handleWAFStatusChange,
+    isDeleting,
+    isLoggingEnabled,
+    limit,
+    loading,
+    logsDir,
+    refreshAll,
+    searchQuery,
+    selectedCredential,
+    selectedDate,
+    selectedLoggedIn,
+    selectedLogEntryKeys,
+    selectedStatus,
+    selectedWAFStatus,
+    shouldFloatPagination,
+    showTableSkeleton,
+  };
+};

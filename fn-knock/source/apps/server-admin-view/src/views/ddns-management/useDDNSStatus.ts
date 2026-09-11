@@ -1,1 +1,115 @@
-aW1wb3J0IHsgcmVmLCB0eXBlIFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7CiAgdHlwZSBERE5TSHR0cFRyYW5zcG9ydCwKICB0eXBlIERETlNQdWJsaWNEbnNQcm92aWRlciwKICB0eXBlIERETlNQdWJsaWNDaGVja1NvdXJjZXNQYXlsb2FkLAogIHR5cGUgREROU1N0YXR1c1BheWxvYWQsCiAgdHlwZSBERE5TVGFyZ2V0U3VtbWFyeVBheWxvYWQsCn0gZnJvbSAiQC9saWIvYXBpL2RkbnMiOwppbXBvcnQgewogIERFRkFVTFRfREROU19IVFRQX1RSQU5TUE9SVCwKICBERUZBVUxUX0RETlNfUFVCTElDX0ROU19QUk9WSURFUiwKICBERUZBVUxUX0RETlNfSVBfU09VUkNFLAogIERFRkFVTFRfREROU19VUERBVEVfSU5URVJWQUxfTUlOVVRFUywKICBERUZBVUxUX0RETlNfVVBEQVRFX1NDT1BFLAogIG5vcm1hbGl6ZURETlNIdHRwVHJhbnNwb3J0LAogIG5vcm1hbGl6ZURETlNQdWJsaWNEbnNQcm92aWRlciwKICBub3JtYWxpemVJcFNvdXJjZSwKICBub3JtYWxpemVOZXR3b3JrSW50ZXJmYWNlLAogIG5vcm1hbGl6ZVB1YmxpY0NoZWNrU291cmNlcywKICBub3JtYWxpemVVcGRhdGVJbnRlcnZhbE1pbnV0ZXMsCiAgbm9ybWFsaXplVXBkYXRlU2NvcGUsCiAgdHlwZSBERE5TSXBTb3VyY2UsCiAgdHlwZSBERE5TVXBkYXRlU2NvcGUsCiAgdHlwZSBMYXN0Q2hlY2ssCiAgdHlwZSBMYXN0SVAsCn0gZnJvbSAiLi9tb2RlbCI7CgppbnRlcmZhY2UgVXNlREROU1N0YXR1c09wdGlvbnMgewogIHNlbGVjdGVkUHJvdmlkZXI6IFJlZjxzdHJpbmc+Owp9CgpleHBvcnQgZnVuY3Rpb24gdXNlREROU1N0YXR1cyh7IHNlbGVjdGVkUHJvdmlkZXIgfTogVXNlREROU1N0YXR1c09wdGlvbnMpIHsKICBjb25zdCBlbmFibGVkID0gcmVmKHRydWUpOwogIGNvbnN0IHNhdmVkUHJvdmlkZXIgPSByZWYoIiIpOwogIGNvbnN0IGxhc3RJUCA9IHJlZjxMYXN0SVA+KHsgaXB2NDogbnVsbCwgaXB2NjogbnVsbCwgdXBkYXRlZF9hdDogbnVsbCB9KTsKICBjb25zdCBzZWxlY3Rpb25BbmNob3IgPSByZWY8TGFzdElQPih7CiAgICBpcHY0OiBudWxsLAogICAgaXB2NjogbnVsbCwKICAgIHVwZGF0ZWRfYXQ6IG51bGwsCiAgfSk7CiAgY29uc3QgbGFzdENoZWNrID0gcmVmPExhc3RDaGVjaz4oewogICAgY2hlY2tlZF9hdDogbnVsbCwKICAgIG91dGNvbWU6IG51bGwsCiAgICBtZXNzYWdlOiBudWxsLAogIH0pOwogIGNvbnN0IHVwZGF0ZUludGVydmFsTWludXRlcyA9IHJlZihERUZBVUxUX0RETlNfVVBEQVRFX0lOVEVSVkFMX01JTlVURVMpOwogIGNvbnN0IHB1YmxpY0NoZWNrU291cmNlcyA9IHJlZjxERE5TUHVibGljQ2hlY2tTb3VyY2VzUGF5bG9hZD4oCiAgICBub3JtYWxpemVQdWJsaWNDaGVja1NvdXJjZXModW5kZWZpbmVkKSwKICApOwogIGNvbnN0IGRlZmF1bHRQdWJsaWNDaGVja1NvdXJjZXMgPSByZWY8REROU1B1YmxpY0NoZWNrU291cmNlc1BheWxvYWQ+KAogICAgbm9ybWFsaXplUHVibGljQ2hlY2tTb3VyY2VzKHVuZGVmaW5lZCksCiAgKTsKICBjb25zdCBodHRwVHJhbnNwb3J0ID0gcmVmPERETlNIdHRwVHJhbnNwb3J0PihERUZBVUxUX0RETlNfSFRUUF9UUkFOU1BPUlQpOwogIGNvbnN0IHB1YmxpY0Ruc1Byb3ZpZGVyID0gcmVmPERETlNQdWJsaWNEbnNQcm92aWRlcj4oCiAgICBERUZBVUxUX0RETlNfUFVCTElDX0ROU19QUk9WSURFUiwKICApOwogIGNvbnN0IHN0YXR1c1VwZGF0ZVNjb3BlID0gcmVmPERETlNVcGRhdGVTY29wZT4oREVGQVVMVF9ERE5TX1VQREFURV9TQ09QRSk7CiAgY29uc3Qgc3RhdHVzSXBTb3VyY2UgPSByZWY8REROU0lwU291cmNlPihERUZBVUxUX0RETlNfSVBfU09VUkNFKTsKICBjb25zdCBzdGF0dXNOZXR3b3JrSW50ZXJmYWNlID0gcmVmKCIiKTsKICBjb25zdCB0YXJnZXRTdW1tYXJpZXMgPSByZWY8REROU1RhcmdldFN1bW1hcnlQYXlsb2FkW10+KFtdKTsKCiAgZnVuY3Rpb24gYXBwbHlTdGF0dXMoCiAgICBzdGF0dXM6IERETlNTdGF0dXNQYXlsb2FkLAogICAgb3B0aW9uczogeyBzeW5jRW5hYmxlZD86IGJvb2xlYW47IHN5bmNQcm92aWRlcj86IGJvb2xlYW4gfSA9IHt9LAogICkgewogICAgaWYgKG9wdGlvbnMuc3luY0VuYWJsZWQgIT09IGZhbHNlKSB7CiAgICAgIGVuYWJsZWQudmFsdWUgPSBzdGF0dXMuZW5hYmxlZDsKICAgIH0KICAgIHNhdmVkUHJvdmlkZXIudmFsdWUgPSBzdGF0dXMucHJvdmlkZXIgfHwgIiI7CiAgICBpZiAob3B0aW9ucy5zeW5jUHJvdmlkZXIgIT09IGZhbHNlKSB7CiAgICAgIHNlbGVjdGVkUHJvdmlkZXIudmFsdWUgPSBzYXZlZFByb3ZpZGVyLnZhbHVlOwogICAgfQogICAgbGFzdElQLnZhbHVlID0gc3RhdHVzLmxhc3RJUDsKICAgIHNlbGVjdGlvbkFuY2hvci52YWx1ZSA9IHN0YXR1cy5zZWxlY3Rpb25BbmNob3IgPz8gc3RhdHVzLmxhc3RJUDsKICAgIGxhc3RDaGVjay52YWx1ZSA9IHN0YXR1cy5sYXN0Q2hlY2s7CiAgICB1cGRhdGVJbnRlcnZhbE1pbnV0ZXMudmFsdWUgPSBub3JtYWxpemVVcGRhdGVJbnRlcnZhbE1pbnV0ZXMoCiAgICAgIHN0YXR1cy51cGRhdGVJbnRlcnZhbE1pbnV0ZXMsCiAgICApOwogICAgZGVmYXVsdFB1YmxpY0NoZWNrU291cmNlcy52YWx1ZSA9IG5vcm1hbGl6ZVB1YmxpY0NoZWNrU291cmNlcygKICAgICAgc3RhdHVzLmRlZmF1bHRQdWJsaWNDaGVja1NvdXJjZXMsCiAgICApOwogICAgcHVibGljQ2hlY2tTb3VyY2VzLnZhbHVlID0gbm9ybWFsaXplUHVibGljQ2hlY2tTb3VyY2VzKAogICAgICBzdGF0dXMucHVibGljQ2hlY2tTb3VyY2VzLAogICAgICBkZWZhdWx0UHVibGljQ2hlY2tTb3VyY2VzLnZhbHVlLAogICAgKTsKICAgIGh0dHBUcmFuc3BvcnQudmFsdWUgPSBub3JtYWxpemVERE5TSHR0cFRyYW5zcG9ydChzdGF0dXMuaHR0cFRyYW5zcG9ydCk7CiAgICBwdWJsaWNEbnNQcm92aWRlci52YWx1ZSA9IG5vcm1hbGl6ZURETlNQdWJsaWNEbnNQcm92aWRlcigKICAgICAgc3RhdHVzLnB1YmxpY0Ruc1Byb3ZpZGVyLAogICAgKTsKICAgIHN0YXR1c1VwZGF0ZVNjb3BlLnZhbHVlID0gbm9ybWFsaXplVXBkYXRlU2NvcGUoc3RhdHVzLnVwZGF0ZVNjb3BlKTsKICAgIHN0YXR1c0lwU291cmNlLnZhbHVlID0gbm9ybWFsaXplSXBTb3VyY2Uoc3RhdHVzLmlwU291cmNlKTsKICAgIHN0YXR1c05ldHdvcmtJbnRlcmZhY2UudmFsdWUgPSBub3JtYWxpemVOZXR3b3JrSW50ZXJmYWNlKAogICAgICBzdGF0dXMubmV0d29ya0ludGVyZmFjZSwKICAgICk7CiAgICB0YXJnZXRTdW1tYXJpZXMudmFsdWUgPSBzdGF0dXMudGFyZ2V0cyB8fCBbXTsKICB9CgogIHJldHVybiB7CiAgICBhcHBseVN0YXR1cywKICAgIGRlZmF1bHRQdWJsaWNDaGVja1NvdXJjZXMsCiAgICBlbmFibGVkLAogICAgaHR0cFRyYW5zcG9ydCwKICAgIHB1YmxpY0Ruc1Byb3ZpZGVyLAogICAgbGFzdENoZWNrLAogICAgbGFzdElQLAogICAgc2VsZWN0aW9uQW5jaG9yLAogICAgcHVibGljQ2hlY2tTb3VyY2VzLAogICAgc2F2ZWRQcm92aWRlciwKICAgIHN0YXR1c0lwU291cmNlLAogICAgc3RhdHVzTmV0d29ya0ludGVyZmFjZSwKICAgIHN0YXR1c1VwZGF0ZVNjb3BlLAogICAgdGFyZ2V0U3VtbWFyaWVzLAogICAgdXBkYXRlSW50ZXJ2YWxNaW51dGVzLAogIH07Cn0K
+import { ref, type Ref } from "vue";
+import {
+  type DDNSHttpTransport,
+  type DDNSPublicDnsProvider,
+  type DDNSPublicCheckSourcesPayload,
+  type DDNSStatusPayload,
+  type DDNSTargetSummaryPayload,
+} from "@/lib/api/ddns";
+import {
+  DEFAULT_DDNS_HTTP_TRANSPORT,
+  DEFAULT_DDNS_PUBLIC_DNS_PROVIDER,
+  DEFAULT_DDNS_IP_SOURCE,
+  DEFAULT_DDNS_UPDATE_INTERVAL_MINUTES,
+  DEFAULT_DDNS_UPDATE_SCOPE,
+  normalizeDDNSHttpTransport,
+  normalizeDDNSPublicDnsProvider,
+  normalizeIpSource,
+  normalizeNetworkInterface,
+  normalizePublicCheckSources,
+  normalizeUpdateIntervalMinutes,
+  normalizeUpdateScope,
+  type DDNSIpSource,
+  type DDNSUpdateScope,
+  type LastCheck,
+  type LastIP,
+} from "./model";
+
+interface UseDDNSStatusOptions {
+  selectedProvider: Ref<string>;
+}
+
+export function useDDNSStatus({ selectedProvider }: UseDDNSStatusOptions) {
+  const enabled = ref(true);
+  const savedProvider = ref("");
+  const lastIP = ref<LastIP>({ ipv4: null, ipv6: null, updated_at: null });
+  const selectionAnchor = ref<LastIP>({
+    ipv4: null,
+    ipv6: null,
+    updated_at: null,
+  });
+  const lastCheck = ref<LastCheck>({
+    checked_at: null,
+    outcome: null,
+    message: null,
+  });
+  const updateIntervalMinutes = ref(DEFAULT_DDNS_UPDATE_INTERVAL_MINUTES);
+  const publicCheckSources = ref<DDNSPublicCheckSourcesPayload>(
+    normalizePublicCheckSources(undefined),
+  );
+  const defaultPublicCheckSources = ref<DDNSPublicCheckSourcesPayload>(
+    normalizePublicCheckSources(undefined),
+  );
+  const httpTransport = ref<DDNSHttpTransport>(DEFAULT_DDNS_HTTP_TRANSPORT);
+  const publicDnsProvider = ref<DDNSPublicDnsProvider>(
+    DEFAULT_DDNS_PUBLIC_DNS_PROVIDER,
+  );
+  const statusUpdateScope = ref<DDNSUpdateScope>(DEFAULT_DDNS_UPDATE_SCOPE);
+  const statusIpSource = ref<DDNSIpSource>(DEFAULT_DDNS_IP_SOURCE);
+  const statusNetworkInterface = ref("");
+  const targetSummaries = ref<DDNSTargetSummaryPayload[]>([]);
+
+  function applyStatus(
+    status: DDNSStatusPayload,
+    options: { syncEnabled?: boolean; syncProvider?: boolean } = {},
+  ) {
+    if (options.syncEnabled !== false) {
+      enabled.value = status.enabled;
+    }
+    savedProvider.value = status.provider || "";
+    if (options.syncProvider !== false) {
+      selectedProvider.value = savedProvider.value;
+    }
+    lastIP.value = status.lastIP;
+    selectionAnchor.value = status.selectionAnchor ?? status.lastIP;
+    lastCheck.value = status.lastCheck;
+    updateIntervalMinutes.value = normalizeUpdateIntervalMinutes(
+      status.updateIntervalMinutes,
+    );
+    defaultPublicCheckSources.value = normalizePublicCheckSources(
+      status.defaultPublicCheckSources,
+    );
+    publicCheckSources.value = normalizePublicCheckSources(
+      status.publicCheckSources,
+      defaultPublicCheckSources.value,
+    );
+    httpTransport.value = normalizeDDNSHttpTransport(status.httpTransport);
+    publicDnsProvider.value = normalizeDDNSPublicDnsProvider(
+      status.publicDnsProvider,
+    );
+    statusUpdateScope.value = normalizeUpdateScope(status.updateScope);
+    statusIpSource.value = normalizeIpSource(status.ipSource);
+    statusNetworkInterface.value = normalizeNetworkInterface(
+      status.networkInterface,
+    );
+    targetSummaries.value = status.targets || [];
+  }
+
+  return {
+    applyStatus,
+    defaultPublicCheckSources,
+    enabled,
+    httpTransport,
+    publicDnsProvider,
+    lastCheck,
+    lastIP,
+    selectionAnchor,
+    publicCheckSources,
+    savedProvider,
+    statusIpSource,
+    statusNetworkInterface,
+    statusUpdateScope,
+    targetSummaries,
+    updateIntervalMinutes,
+  };
+}

@@ -1,1 +1,260 @@
-dXNlIHN0ZDo6Y29sbGVjdGlvbnM6OkJUcmVlTWFwOwoKdXNlIHNlcmRlOjpTZXJpYWxpemU7CnVzZSB1dG9pcGE6OlRvU2NoZW1hOwoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IE9pZGNQcm92aWRlckNhdGFsb2dJdGVtRGF0YSB7CiAgICAjW3NlcmRlKHJlbmFtZSA9ICJ0eXBlIildCiAgICBwcm92aWRlcl90eXBlOiBTdHJpbmcsCiAgICBwcm90b2NvbDogU3RyaW5nLAogICAgbGFiZWw6IFN0cmluZywKICAgIGRlc2NyaXB0aW9uOiBTdHJpbmcsCiAgICBkZWZhdWx0X25hbWU6IFN0cmluZywKICAgIGRlZmF1bHRfc2NvcGVzOiBWZWM8U3RyaW5nPiwKICAgIHJlcXVpcmVkX2ZpZWxkczogVmVjPFN0cmluZz4sCiAgICBvcHRpb25hbF9maWVsZHM6IFZlYzxTdHJpbmc+LAogICAgc3VwcG9ydHNfcGtjZTogYm9vbCwKICAgIHN1cHBvcnRzX2Rpc2NvdmVyeTogYm9vbCwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IE9pZGNQcm92aWRlckNhdGFsb2dEYXRhIHsKICAgIHByb3ZpZGVyczogVmVjPE9pZGNQcm92aWRlckNhdGFsb2dJdGVtRGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBPaWRjQ29ubmVjdGlvbkNvbmZpZ0lucHV0RGF0YSB7CiAgICBjbGllbnRfaWQ6IE9wdGlvbjxTdHJpbmc+LAogICAgY2xpZW50X3NlY3JldDogT3B0aW9uPFN0cmluZz4sCiAgICBpc3N1ZXI6IE9wdGlvbjxTdHJpbmc+LAogICAgdGVuYW50OiBPcHRpb248U3RyaW5nPiwKICAgIGF1dGhvcml6YXRpb25fZW5kcG9pbnQ6IE9wdGlvbjxTdHJpbmc+LAogICAgdG9rZW5fZW5kcG9pbnQ6IE9wdGlvbjxTdHJpbmc+LAogICAgdXNlcmluZm9fZW5kcG9pbnQ6IE9wdGlvbjxTdHJpbmc+LAogICAgandrc191cmk6IE9wdGlvbjxTdHJpbmc+LAogICAgZW1haWxzX2VuZHBvaW50OiBPcHRpb248U3RyaW5nPiwKICAgIHNjb3BlczogT3B0aW9uPFZlYzxTdHJpbmc+PiwKICAgIGV4dHJhX2F1dGhfcGFyYW1zOiBPcHRpb248QlRyZWVNYXA8U3RyaW5nLCBTdHJpbmc+PiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IE9pZGNDb25uZWN0aW9uQ29uZmlnTWFza2VkRGF0YSB7CiAgICBjbGllbnRfaWQ6IE9wdGlvbjxTdHJpbmc+LAogICAgY2xpZW50X3NlY3JldDogT3B0aW9uPFN0cmluZz4sCiAgICBpc3N1ZXI6IE9wdGlvbjxTdHJpbmc+LAogICAgdGVuYW50OiBPcHRpb248U3RyaW5nPiwKICAgIGF1dGhvcml6YXRpb25fZW5kcG9pbnQ6IE9wdGlvbjxTdHJpbmc+LAogICAgdG9rZW5fZW5kcG9pbnQ6IE9wdGlvbjxTdHJpbmc+LAogICAgdXNlcmluZm9fZW5kcG9pbnQ6IE9wdGlvbjxTdHJpbmc+LAogICAgandrc191cmk6IE9wdGlvbjxTdHJpbmc+LAogICAgZW1haWxzX2VuZHBvaW50OiBPcHRpb248U3RyaW5nPiwKICAgIHNjb3BlczogT3B0aW9uPFZlYzxTdHJpbmc+PiwKICAgIGV4dHJhX2F1dGhfcGFyYW1zOiBPcHRpb248QlRyZWVNYXA8U3RyaW5nLCBTdHJpbmc+PiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IE9pZGNQcm92aWRlckNyZWF0ZURhdGEgewogICAgI1tzZXJkZShyZW5hbWUgPSAidHlwZSIpXQogICAgcHJvdmlkZXJfdHlwZTogU3RyaW5nLAogICAgbmFtZTogT3B0aW9uPFN0cmluZz4sCiAgICBlbmFibGVkOiBPcHRpb248Ym9vbD4sCiAgICBjb25uZWN0aW9uX2NvbmZpZzogT3B0aW9uPE9pZGNDb25uZWN0aW9uQ29uZmlnSW5wdXREYXRhPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IE9pZGNQcm92aWRlclVwZGF0ZURhdGEgewogICAgbmFtZTogT3B0aW9uPFN0cmluZz4sCiAgICBlbmFibGVkOiBPcHRpb248Ym9vbD4sCiAgICBjb25uZWN0aW9uX2NvbmZpZzogT3B0aW9uPE9pZGNDb25uZWN0aW9uQ29uZmlnSW5wdXREYXRhPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IE9pZGNQcm92aWRlckRhdGEgewogICAgaWQ6IFN0cmluZywKICAgICNbc2VyZGUocmVuYW1lID0gInR5cGUiKV0KICAgIHByb3ZpZGVyX3R5cGU6IFN0cmluZywKICAgIHByb3RvY29sOiBTdHJpbmcsCiAgICBuYW1lOiBTdHJpbmcsCiAgICBlbmFibGVkOiBib29sLAogICAgY29ubmVjdGlvbl9jb25maWdfbWFza2VkOiBPaWRjQ29ubmVjdGlvbkNvbmZpZ01hc2tlZERhdGEsCiAgICBjYWxsYmFja191cmw6IE9wdGlvbjxTdHJpbmc+LAogICAgY3JlYXRlZF9hdDogU3RyaW5nLAogICAgdXBkYXRlZF9hdDogU3RyaW5nLAogICAgbGFzdF90ZXN0X2F0OiBPcHRpb248U3RyaW5nPiwKICAgIGxhc3RfdGVzdF9zdGF0dXM6IE9wdGlvbjxTdHJpbmc+LAogICAgbGFzdF9lcnJvcjogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBPaWRjUHJvdmlkZXJzRGF0YSB7CiAgICBwcm92aWRlcnM6IFZlYzxPaWRjUHJvdmlkZXJEYXRhPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IE9pZGNCaW5kaW5nRGF0YSB7CiAgICBpZDogU3RyaW5nLAogICAgcHJvdmlkZXJfaWQ6IFN0cmluZywKICAgICNbc2VyZGUocmVuYW1lID0gInByb3ZpZGVyX3R5cGUiKV0KICAgIHByb3ZpZGVyX3R5cGU6IFN0cmluZywKICAgIHByb3ZpZGVyX25hbWU6IE9wdGlvbjxTdHJpbmc+LAogICAgdG90cF9pZDogU3RyaW5nLAogICAgdG90cF9uYW1lOiBPcHRpb248U3RyaW5nPiwKICAgIGlzc3VlcjogU3RyaW5nLAogICAgc3ViamVjdDogU3RyaW5nLAogICAgZGlzcGxheV9uYW1lOiBPcHRpb248U3RyaW5nPiwKICAgIGVtYWlsOiBPcHRpb248U3RyaW5nPiwKICAgIGVtYWlsX3ZlcmlmaWVkOiBPcHRpb248Ym9vbD4sCiAgICBhdmF0YXJfdXJsOiBPcHRpb248U3RyaW5nPiwKICAgIGNyZWF0ZWRfYXQ6IFN0cmluZywKICAgIHVwZGF0ZWRfYXQ6IFN0cmluZywKICAgIGxhc3RfdXNlZF9hdDogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBPaWRjQmluZGluZ3NEYXRhIHsKICAgIGJpbmRpbmdzOiBWZWM8T2lkY0JpbmRpbmdEYXRhPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEV4dGVybmFsQXV0aENvbm5lY3Rpb25UZXN0RGF0YSB7CiAgICBzdWNjZXNzOiBib29sLAogICAgbWVzc2FnZTogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRXh0ZXJuYWxBdXRoSW52aXRhdGlvbkJvZHlEYXRhIHsKICAgIHRvdHBfaWQ6IFN0cmluZywKICAgIHByb3ZpZGVyX2lkOiBTdHJpbmcsCiAgICBub3RlOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEV4dGVybmFsQXV0aEludml0YXRpb25EYXRhIHsKICAgIGludml0ZV91cmw6IFN0cmluZywKICAgIGV4cGlyZXNfYXQ6IFN0cmluZywKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IExkYXBQcm92aWRlckNhdGFsb2dEZWZhdWx0c0RhdGEgewogICAgdHJhbnNwb3J0OiBTdHJpbmcsCiAgICBiaW5kX21vZGU6IFN0cmluZywKICAgIHVzZXJfZmlsdGVyOiBTdHJpbmcsCiAgICBzdWJqZWN0X2F0dHJpYnV0ZTogU3RyaW5nLAogICAgdXNlcm5hbWVfYXR0cmlidXRlOiBTdHJpbmcsCiAgICBkaXNwbGF5X25hbWVfYXR0cmlidXRlOiBTdHJpbmcsCiAgICBlbWFpbF9hdHRyaWJ1dGU6IFN0cmluZywKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IExkYXBQcm92aWRlckNhdGFsb2dJdGVtRGF0YSB7CiAgICAjW3NlcmRlKHJlbmFtZSA9ICJ0eXBlIildCiAgICBwcm92aWRlcl90eXBlOiBTdHJpbmcsCiAgICBsYWJlbDogU3RyaW5nLAogICAgZGVmYXVsdHM6IExkYXBQcm92aWRlckNhdGFsb2dEZWZhdWx0c0RhdGEsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBMZGFwUHJvdmlkZXJDYXRhbG9nRGF0YSB7CiAgICBwcm92aWRlcnM6IFZlYzxMZGFwUHJvdmlkZXJDYXRhbG9nSXRlbURhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTGRhcENvbm5lY3Rpb25Db25maWdJbnB1dERhdGEgewogICAgc2VydmVyczogT3B0aW9uPFZlYzxTdHJpbmc+PiwKICAgIHRyYW5zcG9ydDogT3B0aW9uPFN0cmluZz4sCiAgICBiaW5kX21vZGU6IE9wdGlvbjxTdHJpbmc+LAogICAgYmFzZV9kbjogT3B0aW9uPFN0cmluZz4sCiAgICB1c2VyX2ZpbHRlcjogT3B0aW9uPFN0cmluZz4sCiAgICBzZXJ2aWNlX2JpbmRfZG46IE9wdGlvbjxTdHJpbmc+LAogICAgc2VydmljZV9iaW5kX3Bhc3N3b3JkOiBPcHRpb248U3RyaW5nPiwKICAgIGRpcmVjdF9iaW5kX3RlbXBsYXRlOiBPcHRpb248U3RyaW5nPiwKICAgIHN1YmplY3RfYXR0cmlidXRlOiBPcHRpb248U3RyaW5nPiwKICAgIHVzZXJuYW1lX2F0dHJpYnV0ZTogT3B0aW9uPFN0cmluZz4sCiAgICBkaXNwbGF5X25hbWVfYXR0cmlidXRlOiBPcHRpb248U3RyaW5nPiwKICAgIGVtYWlsX2F0dHJpYnV0ZTogT3B0aW9uPFN0cmluZz4sCiAgICBjYV9wZW06IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTGRhcENvbm5lY3Rpb25Db25maWdNYXNrZWREYXRhIHsKICAgIHNlcnZlcnM6IFZlYzxTdHJpbmc+LAogICAgdHJhbnNwb3J0OiBTdHJpbmcsCiAgICBiaW5kX21vZGU6IFN0cmluZywKICAgIGJhc2VfZG46IFN0cmluZywKICAgIHVzZXJfZmlsdGVyOiBTdHJpbmcsCiAgICBzZXJ2aWNlX2JpbmRfZG46IFN0cmluZywKICAgIHNlcnZpY2VfYmluZF9wYXNzd29yZDogU3RyaW5nLAogICAgZGlyZWN0X2JpbmRfdGVtcGxhdGU6IFN0cmluZywKICAgIHN1YmplY3RfYXR0cmlidXRlOiBTdHJpbmcsCiAgICB1c2VybmFtZV9hdHRyaWJ1dGU6IFN0cmluZywKICAgIGRpc3BsYXlfbmFtZV9hdHRyaWJ1dGU6IFN0cmluZywKICAgIGVtYWlsX2F0dHJpYnV0ZTogU3RyaW5nLAogICAgY2FfcGVtOiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBMZGFwUHJvdmlkZXJDcmVhdGVEYXRhIHsKICAgICNbc2VyZGUocmVuYW1lID0gInR5cGUiKV0KICAgIHByb3ZpZGVyX3R5cGU6IFN0cmluZywKICAgIG5hbWU6IE9wdGlvbjxTdHJpbmc+LAogICAgZW5hYmxlZDogT3B0aW9uPGJvb2w+LAogICAgY29ubmVjdGlvbl9jb25maWc6IE9wdGlvbjxMZGFwQ29ubmVjdGlvbkNvbmZpZ0lucHV0RGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBMZGFwUHJvdmlkZXJVcGRhdGVEYXRhIHsKICAgIG5hbWU6IE9wdGlvbjxTdHJpbmc+LAogICAgZW5hYmxlZDogT3B0aW9uPGJvb2w+LAogICAgY29ubmVjdGlvbl9jb25maWc6IE9wdGlvbjxMZGFwQ29ubmVjdGlvbkNvbmZpZ0lucHV0RGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBMZGFwUHJvdmlkZXJEYXRhIHsKICAgIGlkOiBTdHJpbmcsCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJ0eXBlIildCiAgICBwcm92aWRlcl90eXBlOiBTdHJpbmcsCiAgICBwcm90b2NvbDogU3RyaW5nLAogICAgbmFtZTogU3RyaW5nLAogICAgZW5hYmxlZDogYm9vbCwKICAgIGNvbm5lY3Rpb25fY29uZmlnOiBMZGFwQ29ubmVjdGlvbkNvbmZpZ01hc2tlZERhdGEsCiAgICBjcmVhdGVkX2F0OiBTdHJpbmcsCiAgICB1cGRhdGVkX2F0OiBTdHJpbmcsCiAgICBsYXN0X3Rlc3RfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgbGFzdF90ZXN0X3N0YXR1czogT3B0aW9uPFN0cmluZz4sCiAgICBsYXN0X2Vycm9yOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IExkYXBQcm92aWRlcnNEYXRhIHsKICAgIHByb3ZpZGVyczogVmVjPExkYXBQcm92aWRlckRhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTGRhcFByb3ZpZGVyVGVzdEJvZHlEYXRhIHsKICAgIHVzZXJuYW1lOiBPcHRpb248U3RyaW5nPiwKICAgIHBhc3N3b3JkOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IExkYXBCaW5kaW5nRGF0YSB7CiAgICBpZDogU3RyaW5nLAogICAgcHJvdmlkZXJfaWQ6IFN0cmluZywKICAgICNbc2VyZGUocmVuYW1lID0gInByb3ZpZGVyX3R5cGUiKV0KICAgIHByb3ZpZGVyX3R5cGU6IFN0cmluZywKICAgIHByb3ZpZGVyX25hbWU6IE9wdGlvbjxTdHJpbmc+LAogICAgdG90cF9pZDogU3RyaW5nLAogICAgc3ViamVjdDogU3RyaW5nLAogICAgZG46IFN0cmluZywKICAgIHVzZXJuYW1lOiBTdHJpbmcsCiAgICBkaXNwbGF5X25hbWU6IE9wdGlvbjxTdHJpbmc+LAogICAgZW1haWw6IE9wdGlvbjxTdHJpbmc+LAogICAgY3JlYXRlZF9hdDogU3RyaW5nLAogICAgdXBkYXRlZF9hdDogU3RyaW5nLAogICAgbGFzdF91c2VkX2F0OiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IExkYXBCaW5kaW5nc0RhdGEgewogICAgYmluZGluZ3M6IFZlYzxMZGFwQmluZGluZ0RhdGE+LAp9Cg==
+use std::collections::BTreeMap;
+
+use serde::Serialize;
+use utoipa::ToSchema;
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct OidcProviderCatalogItemData {
+    #[serde(rename = "type")]
+    provider_type: String,
+    protocol: String,
+    label: String,
+    description: String,
+    default_name: String,
+    default_scopes: Vec<String>,
+    required_fields: Vec<String>,
+    optional_fields: Vec<String>,
+    supports_pkce: bool,
+    supports_discovery: bool,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct OidcProviderCatalogData {
+    providers: Vec<OidcProviderCatalogItemData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct OidcConnectionConfigInputData {
+    client_id: Option<String>,
+    client_secret: Option<String>,
+    issuer: Option<String>,
+    tenant: Option<String>,
+    authorization_endpoint: Option<String>,
+    token_endpoint: Option<String>,
+    userinfo_endpoint: Option<String>,
+    jwks_uri: Option<String>,
+    emails_endpoint: Option<String>,
+    scopes: Option<Vec<String>>,
+    extra_auth_params: Option<BTreeMap<String, String>>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct OidcConnectionConfigMaskedData {
+    client_id: Option<String>,
+    client_secret: Option<String>,
+    issuer: Option<String>,
+    tenant: Option<String>,
+    authorization_endpoint: Option<String>,
+    token_endpoint: Option<String>,
+    userinfo_endpoint: Option<String>,
+    jwks_uri: Option<String>,
+    emails_endpoint: Option<String>,
+    scopes: Option<Vec<String>>,
+    extra_auth_params: Option<BTreeMap<String, String>>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct OidcProviderCreateData {
+    #[serde(rename = "type")]
+    provider_type: String,
+    name: Option<String>,
+    enabled: Option<bool>,
+    connection_config: Option<OidcConnectionConfigInputData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct OidcProviderUpdateData {
+    name: Option<String>,
+    enabled: Option<bool>,
+    connection_config: Option<OidcConnectionConfigInputData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct OidcProviderData {
+    id: String,
+    #[serde(rename = "type")]
+    provider_type: String,
+    protocol: String,
+    name: String,
+    enabled: bool,
+    connection_config_masked: OidcConnectionConfigMaskedData,
+    callback_url: Option<String>,
+    created_at: String,
+    updated_at: String,
+    last_test_at: Option<String>,
+    last_test_status: Option<String>,
+    last_error: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct OidcProvidersData {
+    providers: Vec<OidcProviderData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct OidcBindingData {
+    id: String,
+    provider_id: String,
+    #[serde(rename = "provider_type")]
+    provider_type: String,
+    provider_name: Option<String>,
+    totp_id: String,
+    totp_name: Option<String>,
+    issuer: String,
+    subject: String,
+    display_name: Option<String>,
+    email: Option<String>,
+    email_verified: Option<bool>,
+    avatar_url: Option<String>,
+    created_at: String,
+    updated_at: String,
+    last_used_at: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct OidcBindingsData {
+    bindings: Vec<OidcBindingData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct ExternalAuthConnectionTestData {
+    success: bool,
+    message: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct ExternalAuthInvitationBodyData {
+    totp_id: String,
+    provider_id: String,
+    note: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct ExternalAuthInvitationData {
+    invite_url: String,
+    expires_at: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct LdapProviderCatalogDefaultsData {
+    transport: String,
+    bind_mode: String,
+    user_filter: String,
+    subject_attribute: String,
+    username_attribute: String,
+    display_name_attribute: String,
+    email_attribute: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct LdapProviderCatalogItemData {
+    #[serde(rename = "type")]
+    provider_type: String,
+    label: String,
+    defaults: LdapProviderCatalogDefaultsData,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct LdapProviderCatalogData {
+    providers: Vec<LdapProviderCatalogItemData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct LdapConnectionConfigInputData {
+    servers: Option<Vec<String>>,
+    transport: Option<String>,
+    bind_mode: Option<String>,
+    base_dn: Option<String>,
+    user_filter: Option<String>,
+    service_bind_dn: Option<String>,
+    service_bind_password: Option<String>,
+    direct_bind_template: Option<String>,
+    subject_attribute: Option<String>,
+    username_attribute: Option<String>,
+    display_name_attribute: Option<String>,
+    email_attribute: Option<String>,
+    ca_pem: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct LdapConnectionConfigMaskedData {
+    servers: Vec<String>,
+    transport: String,
+    bind_mode: String,
+    base_dn: String,
+    user_filter: String,
+    service_bind_dn: String,
+    service_bind_password: String,
+    direct_bind_template: String,
+    subject_attribute: String,
+    username_attribute: String,
+    display_name_attribute: String,
+    email_attribute: String,
+    ca_pem: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct LdapProviderCreateData {
+    #[serde(rename = "type")]
+    provider_type: String,
+    name: Option<String>,
+    enabled: Option<bool>,
+    connection_config: Option<LdapConnectionConfigInputData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct LdapProviderUpdateData {
+    name: Option<String>,
+    enabled: Option<bool>,
+    connection_config: Option<LdapConnectionConfigInputData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct LdapProviderData {
+    id: String,
+    #[serde(rename = "type")]
+    provider_type: String,
+    protocol: String,
+    name: String,
+    enabled: bool,
+    connection_config: LdapConnectionConfigMaskedData,
+    created_at: String,
+    updated_at: String,
+    last_test_at: Option<String>,
+    last_test_status: Option<String>,
+    last_error: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct LdapProvidersData {
+    providers: Vec<LdapProviderData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct LdapProviderTestBodyData {
+    username: Option<String>,
+    password: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct LdapBindingData {
+    id: String,
+    provider_id: String,
+    #[serde(rename = "provider_type")]
+    provider_type: String,
+    provider_name: Option<String>,
+    totp_id: String,
+    subject: String,
+    dn: String,
+    username: String,
+    display_name: Option<String>,
+    email: Option<String>,
+    created_at: String,
+    updated_at: String,
+    last_used_at: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct LdapBindingsData {
+    bindings: Vec<LdapBindingData>,
+}

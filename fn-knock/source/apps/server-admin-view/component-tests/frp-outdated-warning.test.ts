@@ -1,1 +1,211 @@
-aW1wb3J0IHsgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBkZWZpbmVDb21wb25lbnQsIGggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyBiZWZvcmVFYWNoLCBkZXNjcmliZSwgZXhwZWN0LCBpdCwgdmkgfSBmcm9tICJ2aXRlc3QiOwoKY29uc3QgcnVudGltZSA9IHZpLmhvaXN0ZWQoKCkgPT4gKHsKICBpbnN0YWxsYXRpb25TdGF0dXM6ICJvdXRkYXRlZCIgYXMgIm1pc3NpbmciIHwgIm91dGRhdGVkIiB8ICJjdXJyZW50IiwKICBvdXRkYXRlZFJ1bm5pbmdDb3VudDogMSwKICBydW5uaW5nOiB0cnVlLAogIGdvdG9SZXNvdXJjZXM6IHZpLmZuKCksCn0pKTsKCnZpLm1vY2soIi4uL3NyYy92aWV3cy90dW5uZWwvZnJwL3VzZUZycFR1bm5lbENvbnRyb2xsZXIiLCAoKSA9PiAoewogIHVzZUZycFR1bm5lbENvbnRyb2xsZXI6ICgpID0+IHsKICAgIGNvbnN0IHByaW1hcnlJbnN0YW5jZSA9IHJ1bnRpbWUucnVubmluZwogICAgICA/IHsKICAgICAgICAgIGF0dGFjaGVkOiB0cnVlLAogICAgICAgICAgZGVzaXJlZFJ1bm5pbmc6IHRydWUsCiAgICAgICAgICBydW5uaW5nOiB0cnVlLAogICAgICAgICAgc3VwZXJ2aXNvcjoge30sCiAgICAgICAgfQogICAgICA6IG51bGw7CiAgICByZXR1cm4gewogICAgICBjYW5TdGFydDogZmFsc2UsCiAgICAgIGNhblN0b3A6IHJ1bnRpbWUucnVubmluZywKICAgICAgY29uZmlnTG9hZGVkOiB0cnVlLAogICAgICBkZWZhdWx0czogeyBsb2NhbF9wb3J0OiAiNzk5OSIgfSwKICAgICAgZGVsZXRlSW5zdGFuY2U6IHZpLmZuKCksCiAgICAgIGRlbGV0aW5nSW5zdGFuY2VJZDogbnVsbCwKICAgICAgZXh0cmFJbnN0YW5jZXM6IFtdLAogICAgICBmb3JtYXRTdW1tYXJ5OiB2aS5mbigoKSA9PiAic3VtbWFyeSIpLAogICAgICBmcnBJbnN0YWxsYXRpb25TdGF0dXM6IHJ1bnRpbWUuaW5zdGFsbGF0aW9uU3RhdHVzLAogICAgICBmcnBUYXJnZXRWZXJzaW9uOiAiMC43MS4wIiwKICAgICAgZ2V0SW5zdGFuY2VEaXNwbGF5TmFtZTogdmkuZm4oKSwKICAgICAgZ290b0ZycFJlc291cmNlczogcnVudGltZS5nb3RvUmVzb3VyY2VzLAogICAgICBnb3RvSW5zdGFuY2VDcmVhdGU6IHZpLmZuKCksCiAgICAgIGdvdG9JbnN0YW5jZURldGFpbDogdmkuZm4oKSwKICAgICAgaXNDbGVhcmluZ0xvZ3M6IGZhbHNlLAogICAgICBpc1NhdmluZzogZmFsc2UsCiAgICAgIGlzU3RhcnRpbmc6IGZhbHNlLAogICAgICBpc1N0b3BwaW5nOiBmYWxzZSwKICAgICAgb25DbGVhckxvZ3NDbGljazogdmkuZm4oKSwKICAgICAgb3ZlcnZpZXc6IHsKICAgICAgICBvdXRkYXRlZFJ1bm5pbmdDb3VudDogcnVudGltZS5vdXRkYXRlZFJ1bm5pbmdDb3VudCwKICAgICAgICBydW5uaW5nQ291bnQ6IHJ1bnRpbWUucnVubmluZyA/IDEgOiAwLAogICAgICAgIHRvdGFsOiAxLAogICAgICB9LAogICAgICBwaWQ6IHJ1bnRpbWUucnVubmluZyA/IDQyIDogbnVsbCwKICAgICAgcHJpbWFyeUNvbmZpZzogIiIsCiAgICAgIHByaW1hcnlJbnN0YW5jZSwKICAgICAgcHJpbWFyeUxvZ3M6IFtdLAogICAgICBwcmltYXJ5U3VtbWFyeTogewogICAgICAgIGxvY2FsUG9ydDogIjc5OTkiLAogICAgICAgIHJlbW90ZVBvcnQ6ICIwIiwKICAgICAgICBzZXJ2ZXJBZGRyOiAiIiwKICAgICAgICBzZXJ2ZXJQb3J0OiAiNzAwMCIsCiAgICAgIH0sCiAgICAgIHNhdmVDb25maWc6IHZpLmZuKCksCiAgICAgIHNldFByaW1hcnlFZGl0b3JSZWY6IHZpLmZuKCksCiAgICAgIHNob3dJbml0RGlhbG9nOgogICAgICAgIHJ1bnRpbWUuaW5zdGFsbGF0aW9uU3RhdHVzID09PSAibWlzc2luZyIgJiYgIXJ1bnRpbWUucnVubmluZywKICAgICAgc3RhcnRGcnBjOiB2aS5mbigpLAogICAgICBzdGFydEluc3RhbmNlOiB2aS5mbigpLAogICAgICBzdGFydGluZ0luc3RhbmNlSWQ6IG51bGwsCiAgICAgIHN0b3BGcnBjOiB2aS5mbigpLAogICAgICBzdG9wSW5zdGFuY2U6IHZpLmZuKCksCiAgICAgIHN0b3BwaW5nSW5zdGFuY2VJZDogbnVsbCwKICAgICAgdDogKGtleTogc3RyaW5nLCBwYXJhbXM/OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+KSA9PgogICAgICAgIHBhcmFtcz8udmVyc2lvbiA/IGAke2tleX06JHtwYXJhbXMudmVyc2lvbn1gIDoga2V5LAogICAgfTsKICB9LAp9KSk7Cgp2aS5tb2NrKCJ2dWUtaTE4biIsICgpID0+ICh7CiAgdXNlSTE4bjogKCkgPT4gKHsKICAgIHQ6IChrZXk6IHN0cmluZywgcGFyYW1zPzogUmVjb3JkPHN0cmluZywgc3RyaW5nIHwgbnVtYmVyPikgPT4KICAgICAgcGFyYW1zPy52ZXJzaW9uCiAgICAgICAgPyBgJHtrZXl9OiR7cGFyYW1zLnZlcnNpb259YAogICAgICAgIDogcGFyYW1zPy5jb3VudAogICAgICAgICAgPyBgJHtrZXl9OiR7cGFyYW1zLmNvdW50fWAKICAgICAgICAgIDoga2V5LAogIH0pLAp9KSk7CgppbXBvcnQgRnJwVHVubmVsIGZyb20gIi4uL3NyYy92aWV3cy90dW5uZWwvRnJwVHVubmVsLnZ1ZSI7Cgpjb25zdCBwYXNzdGhyb3VnaCA9IGRlZmluZUNvbXBvbmVudCh7CiAgc2V0dXAoXywgeyBhdHRycywgc2xvdHMgfSkgewogICAgcmV0dXJuICgpID0+IGgoImRpdiIsIGF0dHJzLCBzbG90cy5kZWZhdWx0Py4oKSk7CiAgfSwKfSk7Cgpjb25zdCBidXR0b24gPSBkZWZpbmVDb21wb25lbnQoewogIGluaGVyaXRBdHRyczogZmFsc2UsCiAgc2V0dXAoXywgeyBhdHRycywgc2xvdHMgfSkgewogICAgcmV0dXJuICgpID0+IGgoImJ1dHRvbiIsIGF0dHJzLCBzbG90cy5kZWZhdWx0Py4oKSk7CiAgfSwKfSk7Cgpjb25zdCBkaWFsb2cgPSBkZWZpbmVDb21wb25lbnQoewogIHByb3BzOiB7IG9wZW46IEJvb2xlYW4gfSwKICBzZXR1cChwcm9wcywgeyBzbG90cyB9KSB7CiAgICByZXR1cm4gKCkgPT4gKHByb3BzLm9wZW4gPyBoKCJkaXYiLCBzbG90cy5kZWZhdWx0Py4oKSkgOiBudWxsKTsKICB9LAp9KTsKCmNvbnN0IG1vdW50UGFnZSA9ICgpID0+CiAgbW91bnQoRnJwVHVubmVsLCB7CiAgICBnbG9iYWw6IHsKICAgICAgc3R1YnM6IHsKICAgICAgICBBbGVydDogcGFzc3Rocm91Z2gsCiAgICAgICAgQWxlcnREZXNjcmlwdGlvbjogcGFzc3Rocm91Z2gsCiAgICAgICAgQWxlcnRUaXRsZTogcGFzc3Rocm91Z2gsCiAgICAgICAgQnV0dG9uOiBidXR0b24sCiAgICAgICAgQ2FyZDogdHJ1ZSwKICAgICAgICBDYXJkQ29udGVudDogdHJ1ZSwKICAgICAgICBDYXJkSGVhZGVyOiB0cnVlLAogICAgICAgIENhcmRUaXRsZTogdHJ1ZSwKICAgICAgICBDb25maWdDb2xsYXBzaWJsZUNhcmQ6IHRydWUsCiAgICAgICAgQ29uZmlybURhbmdlclBvcG92ZXI6IHRydWUsCiAgICAgICAgRGlhbG9nOiBkaWFsb2csCiAgICAgICAgRGlhbG9nQ29udGVudDogcGFzc3Rocm91Z2gsCiAgICAgICAgRGlhbG9nRm9vdGVyOiBwYXNzdGhyb3VnaCwKICAgICAgICBEaWFsb2dIZWFkZXI6IHBhc3N0aHJvdWdoLAogICAgICAgIERpYWxvZ1RpdGxlOiBwYXNzdGhyb3VnaCwKICAgICAgICBEb2NzTGlua0J1dHRvbjogdHJ1ZSwKICAgICAgICBGcnBjSW5zdGFuY2VFZGl0b3I6IHRydWUsCiAgICAgICAgSHVtYW5GcmllbmRseVRpbWU6IHRydWUsCiAgICAgICAgSW5mbzogdHJ1ZSwKICAgICAgICBMb2dWaWV3ZXI6IHRydWUsCiAgICAgICAgUGVuY2lsOiB0cnVlLAogICAgICAgIFBsYXk6IHRydWUsCiAgICAgICAgUGx1czogdHJ1ZSwKICAgICAgICBTY3JvbGxUZXh0OiB0cnVlLAogICAgICAgIFNxdWFyZTogdHJ1ZSwKICAgICAgICBUcmFzaDI6IHRydWUsCiAgICAgICAgVHJpYW5nbGVBbGVydDogdHJ1ZSwKICAgICAgICBUdW5uZWxTdXBlcnZpc29yU3RhdHVzOiB0cnVlLAogICAgICB9LAogICAgfSwKICB9KTsKCmRlc2NyaWJlKCJGUlAgdHVubmVsIG91dGRhdGVkIHJlc291cmNlIHdhcm5pbmciLCAoKSA9PiB7CiAgYmVmb3JlRWFjaCgoKSA9PiB7CiAgICBydW50aW1lLmluc3RhbGxhdGlvblN0YXR1cyA9ICJvdXRkYXRlZCI7CiAgICBydW50aW1lLm91dGRhdGVkUnVubmluZ0NvdW50ID0gMTsKICAgIHJ1bnRpbWUucnVubmluZyA9IHRydWU7CiAgICB2aS5jbGVhckFsbE1vY2tzKCk7CiAgfSk7CgogIGl0KCJrZWVwcyBhIHJ1bm5pbmcgb2xkIHByb2Nlc3MgYXZhaWxhYmxlIHdoaWxlIGRpcmVjdGluZyB0aGUgdXNlciB0byB1cGRhdGUiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnRQYWdlKCk7CiAgICBjb25zdCB3YXJuaW5nID0gd3JhcHBlci5nZXQoJ1tkYXRhLXRlc3RpZD0iZnJwLW91dGRhdGVkLXdhcm5pbmciXScpOwoKICAgIGV4cGVjdCh3YXJuaW5nLnRleHQoKSkudG9Db250YWluKCJhZG1pbi5mcnBUdW5uZWwub3V0ZGF0ZWRSdW5uaW5nVGl0bGUiKTsKICAgIGV4cGVjdCh3YXJuaW5nLnRleHQoKSkudG9Db250YWluKCIwLjcxLjAiKTsKICAgIGNvbnN0IHN0b3AgPSB3cmFwcGVyCiAgICAgIC5maW5kQWxsKCJidXR0b24iKQogICAgICAuZmluZCgoY2FuZGlkYXRlKSA9PiBjYW5kaWRhdGUudGV4dCgpID09PSAiYWRtaW4uZnJwVHVubmVsLnN0b3AiKTsKICAgIGV4cGVjdChzdG9wKS50b0JlRGVmaW5lZCgpOwogICAgZXhwZWN0KHN0b3A/LmF0dHJpYnV0ZXMoImRpc2FibGVkIikpLnRvQmVVbmRlZmluZWQoKTsKICAgIGF3YWl0IHdhcm5pbmcuZ2V0KCJidXR0b24iKS50cmlnZ2VyKCJjbGljayIpOwogICAgZXhwZWN0KHJ1bnRpbWUuZ290b1Jlc291cmNlcykudG9IYXZlQmVlbkNhbGxlZFRpbWVzKDEpOwogIH0pOwoKICBpdCgiZXhwbGFpbnMgdGhhdCBhIHN0b3BwZWQgb2xkIHByb2Nlc3MgY2Fubm90IGJlIHJlc3RhcnRlZCIsICgpID0+IHsKICAgIHJ1bnRpbWUucnVubmluZyA9IGZhbHNlOwogICAgcnVudGltZS5vdXRkYXRlZFJ1bm5pbmdDb3VudCA9IDA7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnRQYWdlKCk7CiAgICBjb25zdCB3YXJuaW5nID0gd3JhcHBlci5nZXQoJ1tkYXRhLXRlc3RpZD0iZnJwLW91dGRhdGVkLXdhcm5pbmciXScpOwoKICAgIGV4cGVjdCh3YXJuaW5nLnRleHQoKSkudG9Db250YWluKCJhZG1pbi5mcnBUdW5uZWwub3V0ZGF0ZWRTdG9wcGVkVGl0bGUiKTsKICAgIGNvbnN0IHN0YXJ0ID0gd3JhcHBlcgogICAgICAuZmluZEFsbCgiYnV0dG9uIikKICAgICAgLmZpbmQoKGNhbmRpZGF0ZSkgPT4gY2FuZGlkYXRlLnRleHQoKSA9PT0gImFkbWluLmZycFR1bm5lbC5zdGFydCIpOwogICAgZXhwZWN0KHN0YXJ0Py5hdHRyaWJ1dGVzKCJkaXNhYmxlZCIpKS50b0JlRGVmaW5lZCgpOwogIH0pOwoKICBpdCgia2VlcHMgcmVtaW5kaW5nIGFmdGVyIGluc3RhbGxhdGlvbiB1bnRpbCBvbGQgcHJvY2Vzc2VzIHJlc3RhcnQiLCAoKSA9PiB7CiAgICBydW50aW1lLmluc3RhbGxhdGlvblN0YXR1cyA9ICJjdXJyZW50IjsKICAgIGNvbnN0IHdyYXBwZXIgPSBtb3VudFBhZ2UoKTsKICAgIGNvbnN0IHdhcm5pbmcgPSB3cmFwcGVyLmdldCgnW2RhdGEtdGVzdGlkPSJmcnAtb3V0ZGF0ZWQtd2FybmluZyJdJyk7CgogICAgZXhwZWN0KHdhcm5pbmcudGV4dCgpKS50b0NvbnRhaW4oImFkbWluLmZycFR1bm5lbC5yZXN0YXJ0UmVxdWlyZWRUaXRsZSIpOwogICAgZXhwZWN0KHdhcm5pbmcudGV4dCgpKS50b0NvbnRhaW4oCiAgICAgICJhZG1pbi5mcnBUdW5uZWwucmVzdGFydFJlcXVpcmVkRGVzY3JpcHRpb24iLAogICAgKTsKICAgIGV4cGVjdCh3YXJuaW5nLmZpbmQoImJ1dHRvbiIpLmV4aXN0cygpKS50b0JlKGZhbHNlKTsKICB9KTsKCiAgaXQoImRpcmVjdHMgYSBydW5uaW5nIHVubWFuYWdlZCBvbGQgcHJvY2VzcyB0byBpbnN0YWxsIHRoZSBjdXJyZW50IHZlcnNpb24iLCAoKSA9PiB7CiAgICBydW50aW1lLmluc3RhbGxhdGlvblN0YXR1cyA9ICJtaXNzaW5nIjsKICAgIGNvbnN0IHdyYXBwZXIgPSBtb3VudFBhZ2UoKTsKICAgIGNvbnN0IHdhcm5pbmcgPSB3cmFwcGVyLmdldCgnW2RhdGEtdGVzdGlkPSJmcnAtb3V0ZGF0ZWQtd2FybmluZyJdJyk7CgogICAgZXhwZWN0KHdhcm5pbmcudGV4dCgpKS50b0NvbnRhaW4oImFkbWluLmZycFR1bm5lbC5vdXRkYXRlZFJ1bm5pbmdUaXRsZSIpOwogICAgZXhwZWN0KHdhcm5pbmcuZmluZCgiYnV0dG9uIikuZXhpc3RzKCkpLnRvQmUodHJ1ZSk7CiAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLm5vdC50b0NvbnRhaW4oImFkbWluLmZycFR1bm5lbC5ub3RJbml0aWFsaXplZFRpdGxlIik7CiAgfSk7CgogIGl0KCJrZWVwcyB0aGUgaW5pdGlhbGl6YXRpb24gZGlhbG9nIGZvciBhIG1pc3NpbmcgaW5zdGFsbGF0aW9uIiwgKCkgPT4gewogICAgcnVudGltZS5pbnN0YWxsYXRpb25TdGF0dXMgPSAibWlzc2luZyI7CiAgICBydW50aW1lLm91dGRhdGVkUnVubmluZ0NvdW50ID0gMDsKICAgIHJ1bnRpbWUucnVubmluZyA9IGZhbHNlOwogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50UGFnZSgpOwoKICAgIGV4cGVjdCh3cmFwcGVyLmZpbmQoJ1tkYXRhLXRlc3RpZD0iZnJwLW91dGRhdGVkLXdhcm5pbmciXScpLmV4aXN0cygpKS50b0JlKAogICAgICBmYWxzZSwKICAgICk7CiAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLnRvQ29udGFpbigiYWRtaW4uZnJwVHVubmVsLm5vdEluaXRpYWxpemVkVGl0bGUiKTsKICB9KTsKfSk7Cg==
+import { mount } from "@vue/test-utils";
+import { defineComponent, h } from "vue";
+import { beforeEach, describe, expect, it, vi } from "vitest";
+
+const runtime = vi.hoisted(() => ({
+  installationStatus: "outdated" as "missing" | "outdated" | "current",
+  outdatedRunningCount: 1,
+  running: true,
+  gotoResources: vi.fn(),
+}));
+
+vi.mock("../src/views/tunnel/frp/useFrpTunnelController", () => ({
+  useFrpTunnelController: () => {
+    const primaryInstance = runtime.running
+      ? {
+          attached: true,
+          desiredRunning: true,
+          running: true,
+          supervisor: {},
+        }
+      : null;
+    return {
+      canStart: false,
+      canStop: runtime.running,
+      configLoaded: true,
+      defaults: { local_port: "7999" },
+      deleteInstance: vi.fn(),
+      deletingInstanceId: null,
+      extraInstances: [],
+      formatSummary: vi.fn(() => "summary"),
+      frpInstallationStatus: runtime.installationStatus,
+      frpTargetVersion: "0.71.0",
+      getInstanceDisplayName: vi.fn(),
+      gotoFrpResources: runtime.gotoResources,
+      gotoInstanceCreate: vi.fn(),
+      gotoInstanceDetail: vi.fn(),
+      isClearingLogs: false,
+      isSaving: false,
+      isStarting: false,
+      isStopping: false,
+      onClearLogsClick: vi.fn(),
+      overview: {
+        outdatedRunningCount: runtime.outdatedRunningCount,
+        runningCount: runtime.running ? 1 : 0,
+        total: 1,
+      },
+      pid: runtime.running ? 42 : null,
+      primaryConfig: "",
+      primaryInstance,
+      primaryLogs: [],
+      primarySummary: {
+        localPort: "7999",
+        remotePort: "0",
+        serverAddr: "",
+        serverPort: "7000",
+      },
+      saveConfig: vi.fn(),
+      setPrimaryEditorRef: vi.fn(),
+      showInitDialog:
+        runtime.installationStatus === "missing" && !runtime.running,
+      startFrpc: vi.fn(),
+      startInstance: vi.fn(),
+      startingInstanceId: null,
+      stopFrpc: vi.fn(),
+      stopInstance: vi.fn(),
+      stoppingInstanceId: null,
+      t: (key: string, params?: Record<string, string>) =>
+        params?.version ? `${key}:${params.version}` : key,
+    };
+  },
+}));
+
+vi.mock("vue-i18n", () => ({
+  useI18n: () => ({
+    t: (key: string, params?: Record<string, string | number>) =>
+      params?.version
+        ? `${key}:${params.version}`
+        : params?.count
+          ? `${key}:${params.count}`
+          : key,
+  }),
+}));
+
+import FrpTunnel from "../src/views/tunnel/FrpTunnel.vue";
+
+const passthrough = defineComponent({
+  setup(_, { attrs, slots }) {
+    return () => h("div", attrs, slots.default?.());
+  },
+});
+
+const button = defineComponent({
+  inheritAttrs: false,
+  setup(_, { attrs, slots }) {
+    return () => h("button", attrs, slots.default?.());
+  },
+});
+
+const dialog = defineComponent({
+  props: { open: Boolean },
+  setup(props, { slots }) {
+    return () => (props.open ? h("div", slots.default?.()) : null);
+  },
+});
+
+const mountPage = () =>
+  mount(FrpTunnel, {
+    global: {
+      stubs: {
+        Alert: passthrough,
+        AlertDescription: passthrough,
+        AlertTitle: passthrough,
+        Button: button,
+        Card: true,
+        CardContent: true,
+        CardHeader: true,
+        CardTitle: true,
+        ConfigCollapsibleCard: true,
+        ConfirmDangerPopover: true,
+        Dialog: dialog,
+        DialogContent: passthrough,
+        DialogFooter: passthrough,
+        DialogHeader: passthrough,
+        DialogTitle: passthrough,
+        DocsLinkButton: true,
+        FrpcInstanceEditor: true,
+        HumanFriendlyTime: true,
+        Info: true,
+        LogViewer: true,
+        Pencil: true,
+        Play: true,
+        Plus: true,
+        ScrollText: true,
+        Square: true,
+        Trash2: true,
+        TriangleAlert: true,
+        TunnelSupervisorStatus: true,
+      },
+    },
+  });
+
+describe("FRP tunnel outdated resource warning", () => {
+  beforeEach(() => {
+    runtime.installationStatus = "outdated";
+    runtime.outdatedRunningCount = 1;
+    runtime.running = true;
+    vi.clearAllMocks();
+  });
+
+  it("keeps a running old process available while directing the user to update", async () => {
+    const wrapper = mountPage();
+    const warning = wrapper.get('[data-testid="frp-outdated-warning"]');
+
+    expect(warning.text()).toContain("admin.frpTunnel.outdatedRunningTitle");
+    expect(warning.text()).toContain("0.71.0");
+    const stop = wrapper
+      .findAll("button")
+      .find((candidate) => candidate.text() === "admin.frpTunnel.stop");
+    expect(stop).toBeDefined();
+    expect(stop?.attributes("disabled")).toBeUndefined();
+    await warning.get("button").trigger("click");
+    expect(runtime.gotoResources).toHaveBeenCalledTimes(1);
+  });
+
+  it("explains that a stopped old process cannot be restarted", () => {
+    runtime.running = false;
+    runtime.outdatedRunningCount = 0;
+    const wrapper = mountPage();
+    const warning = wrapper.get('[data-testid="frp-outdated-warning"]');
+
+    expect(warning.text()).toContain("admin.frpTunnel.outdatedStoppedTitle");
+    const start = wrapper
+      .findAll("button")
+      .find((candidate) => candidate.text() === "admin.frpTunnel.start");
+    expect(start?.attributes("disabled")).toBeDefined();
+  });
+
+  it("keeps reminding after installation until old processes restart", () => {
+    runtime.installationStatus = "current";
+    const wrapper = mountPage();
+    const warning = wrapper.get('[data-testid="frp-outdated-warning"]');
+
+    expect(warning.text()).toContain("admin.frpTunnel.restartRequiredTitle");
+    expect(warning.text()).toContain(
+      "admin.frpTunnel.restartRequiredDescription",
+    );
+    expect(warning.find("button").exists()).toBe(false);
+  });
+
+  it("directs a running unmanaged old process to install the current version", () => {
+    runtime.installationStatus = "missing";
+    const wrapper = mountPage();
+    const warning = wrapper.get('[data-testid="frp-outdated-warning"]');
+
+    expect(warning.text()).toContain("admin.frpTunnel.outdatedRunningTitle");
+    expect(warning.find("button").exists()).toBe(true);
+    expect(wrapper.text()).not.toContain("admin.frpTunnel.notInitializedTitle");
+  });
+
+  it("keeps the initialization dialog for a missing installation", () => {
+    runtime.installationStatus = "missing";
+    runtime.outdatedRunningCount = 0;
+    runtime.running = false;
+    const wrapper = mountPage();
+
+    expect(wrapper.find('[data-testid="frp-outdated-warning"]').exists()).toBe(
+      false,
+    );
+    expect(wrapper.text()).toContain("admin.frpTunnel.notInitializedTitle");
+  });
+});

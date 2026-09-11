@@ -1,1 +1,147 @@
-dXNlIHN1cGVyOjoqOwoKI1t0ZXN0XQpmbiB2YWxpZGF0ZXNfb2lkY19mbG93X3Rva2VuX3dpdGhfc3RhdGVfaGFzaCgpIHsKICAgIGxldCBzdGF0ZSA9ICJzdGF0ZS10b2tlbiI7CiAgICBhc3NlcnQhKG9pZGNfZmxvd190b2tlbl92YWxpZChzdGF0ZSwgU29tZSgmaGFzaF9vaWRjX3Rva2VuKHN0YXRlKSkpKTsKICAgIGFzc2VydCEoIW9pZGNfZmxvd190b2tlbl92YWxpZChzdGF0ZSwgU29tZSgid3JvbmciKSkpOwp9CgojW3Rlc3RdCmZuIHJlc29sdmVzX2F1dGhfY29va2llX3BhdGhfZnJvbV9wcmVmaXhlZF9yb3V0ZXMoKSB7CiAgICBhc3NlcnRfZXEhKGF1dGhfdmlld19wcmVmaXgoIi9hdXRoL2FwaS9hdXRoL29pZGMvc3RhcnQiKSwgU29tZSgiL2F1dGgiKSk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGF1dGhfdmlld19wcmVmaXgoIi9fX2F1dGhfXy9hcGkvYXV0aC9vaWRjL3N0YXJ0IiksCiAgICAgICAgU29tZSgiL19fYXV0aF9fIikKICAgICk7CiAgICBhc3NlcnRfZXEhKGF1dGhfdmlld19wcmVmaXgoIi9hcGkvYXV0aC9vaWRjL3N0YXJ0IiksIE5vbmUpOwp9CgojW3Rlc3RdCmZuIHBhcnNlc19qc29uX2FuZF9mb3JtX3BheWxvYWRzKCkgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpuZXcoREVGQVVMVF9MT0NBTEUpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBwYXJzZV9qc29uX29yX2Zvcm0ociMieyJhY2Nlc3NfdG9rZW4iOiJhYmMifSIjLCAiYXBwbGljYXRpb24vanNvbiIsICZ0cmFuc2xhdG9yKS51bndyYXAoKVsiYWNjZXNzX3Rva2VuIl0sCiAgICAgICAganNvbiEoImFiYyIpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBwYXJzZV9qc29uX29yX2Zvcm0oCiAgICAgICAgICAgICJhY2Nlc3NfdG9rZW49YWJjJnRva2VuX3R5cGU9YmVhcmVyIiwKICAgICAgICAgICAgInRleHQvcGxhaW4iLAogICAgICAgICAgICAmdHJhbnNsYXRvcgogICAgICAgICkKICAgICAgICAudW53cmFwKClbInRva2VuX3R5cGUiXSwKICAgICAgICBqc29uISgiYmVhcmVyIikKICAgICk7Cn0KCiNbdGVzdF0KZm4gZGV0ZWN0c19vaWRjX29wZXJhdGlvbl9hYm9ydGVkX2Vycm9yc19saWtlX25vZGUoKSB7CiAgICBhc3NlcnQhKGlzX29pZGNfb3BlcmF0aW9uX2Fib3J0ZWRfZXJyb3IoCiAgICAgICAgIlRoZSBvcGVyYXRpb24gd2FzIGFib3J0ZWQgYmVmb3JlIGNvbXBsZXRpb24iCiAgICApKTsKICAgIGFzc2VydCEoaXNfb2lkY19vcGVyYXRpb25fYWJvcnRlZF9lcnJvcigKICAgICAgICAiQWJvcnRFcnJvcjogcmVxdWVzdCBhYm9ydGVkIgogICAgKSk7CiAgICBhc3NlcnQhKCFpc19vaWRjX29wZXJhdGlvbl9hYm9ydGVkX2Vycm9yKCJpbnZhbGlkX2dyYW50IikpOwp9CgojW3Rlc3RdCmZuIG9pZGNfb3V0Ym91bmRfcmVxdWVzdHNfaW5jbHVkZV9mZXRjaF9saWtlX3VzZXJfYWdlbnQoKSB7CiAgICBsZXQgY2xpZW50ID0gcmVxd2VzdDo6Q2xpZW50OjpuZXcoKTsKICAgIGxldCB0b2tlbl9yZXF1ZXN0ID0gb2lkY19odHRwX3JlcXVlc3QoCiAgICAgICAgY2xpZW50LnBvc3QoImh0dHBzOi8vZXhhbXBsZS50ZXN0L3Rva2VuIiksCiAgICAgICAgImFwcGxpY2F0aW9uL2pzb24iLAogICAgKQogICAgLmhlYWRlcihoZWFkZXI6OkNPTlRFTlRfVFlQRSwgImFwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZCIpCiAgICAuYm9keSgiZ3JhbnRfdHlwZT1hdXRob3JpemF0aW9uX2NvZGUiKQogICAgLmJ1aWxkKCkKICAgIC51bndyYXAoKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgdG9rZW5fcmVxdWVzdAogICAgICAgICAgICAuaGVhZGVycygpCiAgICAgICAgICAgIC5nZXQoaGVhZGVyOjpVU0VSX0FHRU5UKQogICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS50b19zdHIoKS5vaygpKSwKICAgICAgICBTb21lKE9JRENfSFRUUF9VU0VSX0FHRU5UKQogICAgKTsKCiAgICBsZXQgZ2l0aHViX3JlcXVlc3QgPSBnaXRodWJfYXBpX3JlcXVlc3QoJmNsaWVudCwgImh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlciIsICJhY2Nlc3MtdG9rZW4iKQogICAgICAgIC5idWlsZCgpCiAgICAgICAgLnVud3JhcCgpOwogICAgbGV0IGhlYWRlcnMgPSBnaXRodWJfcmVxdWVzdC5oZWFkZXJzKCk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGhlYWRlcnMKICAgICAgICAgICAgLmdldChoZWFkZXI6OlVTRVJfQUdFTlQpCiAgICAgICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnRvX3N0cigpLm9rKCkpLAogICAgICAgIFNvbWUoT0lEQ19IVFRQX1VTRVJfQUdFTlQpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBoZWFkZXJzCiAgICAgICAgICAgIC5nZXQoaGVhZGVyOjpBQ0NFUFQpCiAgICAgICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnRvX3N0cigpLm9rKCkpLAogICAgICAgIFNvbWUoImFwcGxpY2F0aW9uL3ZuZC5naXRodWIranNvbiIpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBoZWFkZXJzCiAgICAgICAgICAgIC5nZXQoIlgtR2l0SHViLUFwaS1WZXJzaW9uIikKICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUudG9fc3RyKCkub2soKSksCiAgICAgICAgU29tZSgiMjAyMi0xMS0yOCIpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBoZWFkZXJzCiAgICAgICAgICAgIC5nZXQoaGVhZGVyOjpBVVRIT1JJWkFUSU9OKQogICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS50b19zdHIoKS5vaygpKSwKICAgICAgICBTb21lKCJCZWFyZXIgYWNjZXNzLXRva2VuIikKICAgICk7Cn0KCiNbdGVzdF0KZm4gbG9jYWxpemVzX29pZGNfcnVudGltZV90ZXh0KCkgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpuZXcoInpoLUNOIik7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHByb3ZpZGVyX2Vycm9yX21lc3NhZ2UoImFjY2Vzc19kZW5pZWQiLCAmdHJhbnNsYXRvciksCiAgICAgICAgIuS9oOWPlua2iOS6huWklumDqOeZu+W9leaOiOadg++8jOaIluaOiOadg+ivt+axguiiq+aPkOS+m+WVhuaLkue7neOAgiIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIG5vcm1hbGl6ZV9sb2dpbl9lcnJvcl9tZXNzYWdlKCIgICAiLCAmdHJhbnNsYXRvciksCiAgICAgICAgIuWklumDqOeZu+W9leWksei0pe+8jOivt+mHjeaWsOWPkei1t+eZu+W9leOAgiIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIG9pZGNfbG9naW5fZmFpbGVkX3JldHJ5X2FmdGVyX21lc3NhZ2UoJnRyYW5zbGF0b3IsICJpbnZhbGlkX2dyYW50IiwgMyksCiAgICAgICAgImludmFsaWRfZ3JhbnTvvIzor7flnKggMyDnp5LlkI7ph43or5UiCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICByZXF1ZXN0X29yaWdpbigKICAgICAgICAgICAgJkhlYWRlck1hcDo6bmV3KCksCiAgICAgICAgICAgICZVcmk6OmZyb21fc3RhdGljKCIvYXBpL2F1dGgvb2lkYy9zdGFydCIpLAogICAgICAgICAgICAmdHJhbnNsYXRvcgogICAgICAgICkKICAgICAgICAudW53cmFwX2VycigpLAogICAgICAgICLml6Dms5XnlJ/miJDlpJbpg6jnmbvlvZXlm57osIPlnLDlnYDvvIzor7fphY3nva4gcHVibGljX2F1dGhfYmFzZV91cmwiCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICByZXF1ZXN0X29yaWdpbigKICAgICAgICAgICAgJkhlYWRlck1hcDo6bmV3KCksCiAgICAgICAgICAgICZVcmk6OmZyb21fc3RhdGljKCJodHRwczovL2F1dGguZXhhbXBsZS5jb20vYXBpL2F1dGgvb2lkYy9zdGFydCIpLAogICAgICAgICAgICAmdHJhbnNsYXRvcgogICAgICAgICkKICAgICAgICAudW53cmFwKCksCiAgICAgICAgImh0dHBzOi8vYXV0aC5leGFtcGxlLmNvbSIKICAgICk7CiAgICBsZXQgbXV0IGhlYWRlcnMgPSBIZWFkZXJNYXA6Om5ldygpOwogICAgaGVhZGVycy5pbnNlcnQoImhvc3QiLCBIZWFkZXJWYWx1ZTo6ZnJvbV9zdGF0aWMoImF1dGguZXhhbXBsZS5jb206Nzk5OSIpKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgcmVxdWVzdF9vcmlnaW4oCiAgICAgICAgICAgICZoZWFkZXJzLAogICAgICAgICAgICAmVXJpOjpmcm9tX3N0YXRpYygiL2FwaS9hdXRoL29pZGMvc3RhcnQiKSwKICAgICAgICAgICAgJnRyYW5zbGF0b3IKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpLAogICAgICAgICJodHRwOi8vYXV0aC5leGFtcGxlLmNvbTo3OTk5IgogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgcGFyc2VfanNvbl9vcl9mb3JtKCJ7YmFkIiwgImFwcGxpY2F0aW9uL2pzb24iLCAmdHJhbnNsYXRvcikKICAgICAgICAgICAgLnVud3JhcF9lcnIoKQogICAgICAgICAgICAuc3RhcnRzX3dpdGgoIuWklumDqOeZu+W9leWTjeW6lOS4jeaYr+acieaViCBKU09OIikKICAgICk7Cn0K
+use super::*;
+
+#[test]
+fn validates_oidc_flow_token_with_state_hash() {
+    let state = "state-token";
+    assert!(oidc_flow_token_valid(state, Some(&hash_oidc_token(state))));
+    assert!(!oidc_flow_token_valid(state, Some("wrong")));
+}
+
+#[test]
+fn resolves_auth_cookie_path_from_prefixed_routes() {
+    assert_eq!(auth_view_prefix("/auth/api/auth/oidc/start"), Some("/auth"));
+    assert_eq!(
+        auth_view_prefix("/__auth__/api/auth/oidc/start"),
+        Some("/__auth__")
+    );
+    assert_eq!(auth_view_prefix("/api/auth/oidc/start"), None);
+}
+
+#[test]
+fn parses_json_and_form_payloads() {
+    let translator = Translator::new(DEFAULT_LOCALE);
+    assert_eq!(
+        parse_json_or_form(r#"{"access_token":"abc"}"#, "application/json", &translator).unwrap()["access_token"],
+        json!("abc")
+    );
+    assert_eq!(
+        parse_json_or_form(
+            "access_token=abc&token_type=bearer",
+            "text/plain",
+            &translator
+        )
+        .unwrap()["token_type"],
+        json!("bearer")
+    );
+}
+
+#[test]
+fn detects_oidc_operation_aborted_errors_like_node() {
+    assert!(is_oidc_operation_aborted_error(
+        "The operation was aborted before completion"
+    ));
+    assert!(is_oidc_operation_aborted_error(
+        "AbortError: request aborted"
+    ));
+    assert!(!is_oidc_operation_aborted_error("invalid_grant"));
+}
+
+#[test]
+fn oidc_outbound_requests_include_fetch_like_user_agent() {
+    let client = reqwest::Client::new();
+    let token_request = oidc_http_request(
+        client.post("https://example.test/token"),
+        "application/json",
+    )
+    .header(header::CONTENT_TYPE, "application/x-www-form-urlencoded")
+    .body("grant_type=authorization_code")
+    .build()
+    .unwrap();
+    assert_eq!(
+        token_request
+            .headers()
+            .get(header::USER_AGENT)
+            .and_then(|value| value.to_str().ok()),
+        Some(OIDC_HTTP_USER_AGENT)
+    );
+
+    let github_request = github_api_request(&client, "https://api.github.com/user", "access-token")
+        .build()
+        .unwrap();
+    let headers = github_request.headers();
+    assert_eq!(
+        headers
+            .get(header::USER_AGENT)
+            .and_then(|value| value.to_str().ok()),
+        Some(OIDC_HTTP_USER_AGENT)
+    );
+    assert_eq!(
+        headers
+            .get(header::ACCEPT)
+            .and_then(|value| value.to_str().ok()),
+        Some("application/vnd.github+json")
+    );
+    assert_eq!(
+        headers
+            .get("X-GitHub-Api-Version")
+            .and_then(|value| value.to_str().ok()),
+        Some("2022-11-28")
+    );
+    assert_eq!(
+        headers
+            .get(header::AUTHORIZATION)
+            .and_then(|value| value.to_str().ok()),
+        Some("Bearer access-token")
+    );
+}
+
+#[test]
+fn localizes_oidc_runtime_text() {
+    let translator = Translator::new("zh-CN");
+    assert_eq!(
+        provider_error_message("access_denied", &translator),
+        "你取消了外部登录授权，或授权请求被提供商拒绝。"
+    );
+    assert_eq!(
+        normalize_login_error_message("   ", &translator),
+        "外部登录失败，请重新发起登录。"
+    );
+    assert_eq!(
+        oidc_login_failed_retry_after_message(&translator, "invalid_grant", 3),
+        "invalid_grant，请在 3 秒后重试"
+    );
+    assert_eq!(
+        request_origin(
+            &HeaderMap::new(),
+            &Uri::from_static("/api/auth/oidc/start"),
+            &translator
+        )
+        .unwrap_err(),
+        "无法生成外部登录回调地址，请配置 public_auth_base_url"
+    );
+    assert_eq!(
+        request_origin(
+            &HeaderMap::new(),
+            &Uri::from_static("https://auth.example.com/api/auth/oidc/start"),
+            &translator
+        )
+        .unwrap(),
+        "https://auth.example.com"
+    );
+    let mut headers = HeaderMap::new();
+    headers.insert("host", HeaderValue::from_static("auth.example.com:7999"));
+    assert_eq!(
+        request_origin(
+            &headers,
+            &Uri::from_static("/api/auth/oidc/start"),
+            &translator
+        )
+        .unwrap(),
+        "http://auth.example.com:7999"
+    );
+    assert!(
+        parse_json_or_form("{bad", "application/json", &translator)
+            .unwrap_err()
+            .starts_with("外部登录响应不是有效 JSON")
+    );
+}

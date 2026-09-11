@@ -1,1 +1,52 @@
-ZXhwb3J0IHR5cGUgQ2xvdWRmbGFyZWRMb2dBbmFseXNpcyA9IHsKICByZWFzb246ICJvcmlnaW5fdGxzX2hvc3RuYW1lX21pc21hdGNoIjsKICByZXF1ZXN0ZWRIb3N0OiBzdHJpbmc7CiAgY2VydGlmaWNhdGVIb3N0czogc3RyaW5nW107CiAgb3JpZ2luVXJsPzogc3RyaW5nOwogIG9yaWdpbkhvc3Q/OiBzdHJpbmc7CiAgZXZpZGVuY2U6IHN0cmluZzsKfTsKCmNvbnN0IE9SSUdJTl9UTFNfSE9TVE5BTUVfTUlTTUFUQ0hfUkVHRVggPQogIC90bHM6XHMqZmFpbGVkIHRvIHZlcmlmeSBjZXJ0aWZpY2F0ZTpccyp4NTA5OlxzKmNlcnRpZmljYXRlIGlzIHZhbGlkIGZvclxzKyguKyksXHMqbm90XHMrKFteXHMiXSspL2k7CmNvbnN0IERFU1RJTkFUSU9OX1VSTF9SRUdFWCA9IC9cYmRlc3Q9KGh0dHBzPzpcL1wvW15ccyJdKykvaTsKCmV4cG9ydCBjb25zdCBhbmFseXplQ2xvdWRmbGFyZWRMb2dzID0gKAogIGxpbmVzOiBzdHJpbmdbXSwKKTogQ2xvdWRmbGFyZWRMb2dBbmFseXNpcyB8IG51bGwgPT4gewogIGZvciAobGV0IGluZGV4ID0gbGluZXMubGVuZ3RoIC0gMTsgaW5kZXggPj0gMDsgaW5kZXggLT0gMSkgewogICAgY29uc3QgbGluZSA9IGxpbmVzW2luZGV4XT8udHJpbSgpOwogICAgaWYgKCFsaW5lKSBjb250aW51ZTsKCiAgICBjb25zdCBtaXNtYXRjaE1hdGNoID0gbGluZS5tYXRjaChPUklHSU5fVExTX0hPU1ROQU1FX01JU01BVENIX1JFR0VYKTsKICAgIGlmICghbWlzbWF0Y2hNYXRjaCkgY29udGludWU7CgogICAgY29uc3QgY2VydGlmaWNhdGVIb3N0cyA9CiAgICAgIG1pc21hdGNoTWF0Y2hbMV0KICAgICAgICA/LnNwbGl0KCIsIikKICAgICAgICAubWFwKChpdGVtKSA9PiBpdGVtLnRyaW0oKSkKICAgICAgICAuZmlsdGVyKEJvb2xlYW4pID8/IFtdOwogICAgY29uc3QgcmVxdWVzdGVkSG9zdCA9IG1pc21hdGNoTWF0Y2hbMl0/LnRyaW0oKTsKICAgIGlmICghY2VydGlmaWNhdGVIb3N0cy5sZW5ndGggfHwgIXJlcXVlc3RlZEhvc3QpIGNvbnRpbnVlOwoKICAgIGNvbnN0IG9yaWdpblVybCA9IGxpbmUubWF0Y2goREVTVElOQVRJT05fVVJMX1JFR0VYKT8uWzFdOwogICAgbGV0IG9yaWdpbkhvc3Q6IHN0cmluZyB8IHVuZGVmaW5lZDsKICAgIGlmIChvcmlnaW5VcmwpIHsKICAgICAgdHJ5IHsKICAgICAgICBvcmlnaW5Ib3N0ID0gbmV3IFVSTChvcmlnaW5VcmwpLmhvc3RuYW1lOwogICAgICB9IGNhdGNoIHsKICAgICAgICBvcmlnaW5Ib3N0ID0gdW5kZWZpbmVkOwogICAgICB9CiAgICB9CgogICAgcmV0dXJuIHsKICAgICAgcmVhc29uOiAib3JpZ2luX3Rsc19ob3N0bmFtZV9taXNtYXRjaCIsCiAgICAgIHJlcXVlc3RlZEhvc3QsCiAgICAgIGNlcnRpZmljYXRlSG9zdHMsCiAgICAgIG9yaWdpblVybCwKICAgICAgb3JpZ2luSG9zdCwKICAgICAgZXZpZGVuY2U6IGxpbmUsCiAgICB9OwogIH0KICByZXR1cm4gbnVsbDsKfTsK
+export type CloudflaredLogAnalysis = {
+  reason: "origin_tls_hostname_mismatch";
+  requestedHost: string;
+  certificateHosts: string[];
+  originUrl?: string;
+  originHost?: string;
+  evidence: string;
+};
+
+const ORIGIN_TLS_HOSTNAME_MISMATCH_REGEX =
+  /tls:\s*failed to verify certificate:\s*x509:\s*certificate is valid for\s+(.+),\s*not\s+([^\s"]+)/i;
+const DESTINATION_URL_REGEX = /\bdest=(https?:\/\/[^\s"]+)/i;
+
+export const analyzeCloudflaredLogs = (
+  lines: string[],
+): CloudflaredLogAnalysis | null => {
+  for (let index = lines.length - 1; index >= 0; index -= 1) {
+    const line = lines[index]?.trim();
+    if (!line) continue;
+
+    const mismatchMatch = line.match(ORIGIN_TLS_HOSTNAME_MISMATCH_REGEX);
+    if (!mismatchMatch) continue;
+
+    const certificateHosts =
+      mismatchMatch[1]
+        ?.split(",")
+        .map((item) => item.trim())
+        .filter(Boolean) ?? [];
+    const requestedHost = mismatchMatch[2]?.trim();
+    if (!certificateHosts.length || !requestedHost) continue;
+
+    const originUrl = line.match(DESTINATION_URL_REGEX)?.[1];
+    let originHost: string | undefined;
+    if (originUrl) {
+      try {
+        originHost = new URL(originUrl).hostname;
+      } catch {
+        originHost = undefined;
+      }
+    }
+
+    return {
+      reason: "origin_tls_hostname_mismatch",
+      requestedHost,
+      certificateHosts,
+      originUrl,
+      originHost,
+      evidence: line,
+    };
+  }
+  return null;
+};

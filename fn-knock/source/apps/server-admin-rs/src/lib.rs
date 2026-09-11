@@ -1,1 +1,133 @@
-cHViIG1vZCBhcHA7CgojW2NmZyh3aW5kb3dzKV0KcHViIG1vZCB3aW5kb3dzX3NlcnZpY2U7CgpwdWIoY3JhdGUpIG1vZCBncnBjX3Byb3RvIHsKICAgICMhW2FsbG93KGRlYWRfY29kZSldCiAgICB0b25pYzo6aW5jbHVkZV9wcm90byEoImZua25vY2sudjEiKTsKfQoKcHViKGNyYXRlKSBtb2QgYWRtaW47CnB1YihjcmF0ZSkgbW9kIGF1dGg7CnB1YihjcmF0ZSkgbW9kIGNlcnRpZmljYXRlczsKcHViKGNyYXRlKSBtb2QgY29uZmlnOwpwdWIoY3JhdGUpIG1vZCBkZG5zOwpwdWIoY3JhdGUpIG1vZCBkaXNjb3Zlcnk7CnB1YihjcmF0ZSkgbW9kIGV2ZW50czsKcHViKGNyYXRlKSBtb2QgZ2F0ZXdheTsKcHViKGNyYXRlKSBtb2QgaW5mcmE7CnB1YihjcmF0ZSkgbW9kIG5vdGlmaWNhdGlvbnM7CnB1YihjcmF0ZSkgbW9kIHBhbmVsX3N5bmM7CnB1YihjcmF0ZSkgbW9kIHJ1bnRpbWVfaGVhbHRoOwpwdWIoY3JhdGUpIG1vZCBzZWN1cml0eTsKcHViKGNyYXRlKSBtb2Qgc2hhcmVkOwpwdWIoY3JhdGUpIG1vZCBzdG9yYWdlOwpwdWIoY3JhdGUpIG1vZCBzeXN0ZW07CnB1YihjcmF0ZSkgbW9kIHRyYWNlczsKcHViKGNyYXRlKSBtb2QgdHVubmVsczsKcHViKGNyYXRlKSBtb2Qgd2FmOwpwdWIoY3JhdGUpIG1vZCB3b2w7CgpwdWIoY3JhdGUpIHVzZSBhZG1pbjo6e2NvbnRyb2wgYXMgYWRtaW5fY29udHJvbCwgcGFuZWwgYXMgYWRtaW5fcGFuZWx9OwpwdWIoY3JhdGUpIHVzZSBhcHA6OmNsZWFudXBfbGVnYWN5X2F1dGhfbG9nX3N0b3JhZ2U7CnB1YihjcmF0ZSkgdXNlIGF1dGg6OnsKICAgIGJhY2tvZmYsIGNvbW1vbl9sb2NhdGlvbnMgYXMgY29tbW9uX2F1dGhfbG9jYXRpb25zLCBjb29raWVzLCBmbm9zX3NoYXJlX2J5cGFzcywKICAgIGhtYWMgYXMgaG1hY19hdXRoLCBsZGFwIGFzIGxkYXBfYXV0aCwgbW9iaWxpdHkgYXMgYXV0aF9tb2JpbGl0eSwgb2lkY19hZG1pbiwgb2lkY19ydW50aW1lLAogICAgcGFzc2tleSBhcyBwYXNza2V5X3J1bnRpbWUsCn07CnB1YihjcmF0ZSkgdXNlIGNlcnRpZmljYXRlczo6e2FjbWUsIGF1dG9faHR0cHMsIGZub3NfY2VydGlmaWNhdGVfc3luYywgc3NsfTsKcHViKGNyYXRlKSB1c2UgY29uZmlnOjpydW50aW1lIGFzIHJ1bnRpbWVfY29uZmlnOwpwdWIoY3JhdGUpIHVzZSBkZG5zIGFzIGRkbnNfc3RhdHVzOwpwdWIoY3JhdGUpIHVzZSBkaXNjb3Zlcnk6OntjaWRyLCBpcF9sb2NhdGlvbiwgaXBfbG9jYXRpb25fY29uZmlnLCBzY2FuX2Fzc2V0cywgc2Nhbm5lcn07CnB1YihjcmF0ZSkgdXNlIGV2ZW50cyBhcyBzeXN0ZW1fZXZlbnRzOwpwdWIoY3JhdGUpIHVzZSBnYXRld2F5Ojp7CiAgICBkZWVwX21vbml0b3IsIGxvZ3MgYXMgZ2F0ZXdheV9sb2dzLCBwcm94eV9jb25maWcsIHNldHRpbmdzIGFzIGdhdGV3YXlfc2V0dGluZ3MsCn07CnB1YihjcmF0ZSkgdXNlIGluZnJhOjp7CiAgICBhcHBfdmVyc2lvbiwgZ29fYmFja2VuZCwgaTE4biwgbWVtb3J5LCBvcGVuYXBpX2RvY3MsIHJlc3BvbnNlLCBydW50aW1lX3Byb2ZpbGUsIHNldHRpbmdzLAogICAgc3RhdGUsIHN0YXRpY19maWxlcywKfTsKcHViKGNyYXRlKSB1c2UgcGFuZWxfc3luYzo6cGFuZWxfc3luY19yb3V0ZXM7CnB1YihjcmF0ZSkgdXNlIHNlY3VyaXR5Ojp7CiAgICBnZW5lcmFsX2JsYWNrbGlzdCwgb3ZlcnZpZXcgYXMgc2VjdXJpdHlfb3ZlcnZpZXcsIHNzaCBhcyBzc2hfc2VjdXJpdHksIHdoaXRlbGlzdCwKfTsKcHViKGNyYXRlKSB1c2Ugc2hhcmVkOjp0cmFjZV9pZDsKcHViKGNyYXRlKSB1c2Ugc2hhcmVkOjp7CiAgICBhdXRoX21vYmlsaXR5X2tleXMsIGF1dGhfc2Vzc2lvbl9rZXlzLCBjbG91ZGZsYXJlZF91dGlscywgY3J5cHRvX3V0aWxzLCBkYWlseV9hdmFpbGFiaWxpdHksCiAgICBmcnBfdXRpbHMsIGZzX3V0aWxzLCBodHRwX2JvZHksIGh0dHBfdXRpbHMsIGpzb25fdXRpbHMsIG5ldF91dGlscywgbm9kZV9jb21wYXQsIHByb3h5X3V0aWxzLAogICAgdGV4dF91dGlscywgdGltZV91dGlscywgdHJhbnNpZW50X2Vycm9yLCB1bml4LCB2ZXJzaW9uX3V0aWxzLAp9OwpwdWIoY3JhdGUpIHVzZSBzdG9yYWdlOjpzdG9yZTsKcHViKGNyYXRlKSB1c2Ugc3lzdGVtOjp7CiAgICBkYXNoYm9hcmQsIG1haW50ZW5hbmNlLCBzeXN0ZW1fYXNzZXRzLCBzeXN0ZW1faW5mbywgc3lzdGVtX21vbml0b3IsIHRlcm1pbmFsLCB1cGRhdGUsCn07CnB1YihjcmF0ZSkgdXNlIHR1bm5lbHM6OntjbG91ZGZsYXJlZCwgZnJwY307CnB1YihjcmF0ZSkgdXNlIHdvbDo6d29sX3JvdXRlczsKCi8vLyBCdWlsZCB0aGUgY2hlY2tlZCBIVFRQIEFQSSBjb250cmFjdCBmb3IgY29kZSBnZW5lcmF0aW9uIGFuZCBjb21wYXRpYmlsaXR5IGNoZWNrcy4KcHViIGZuIGFwaV9jb250cmFjdF9kb2N1bWVudCgpIC0+IHNlcmRlX2pzb246OlZhbHVlIHsKICAgIGluZnJhOjpvcGVuYXBpX2RvY3M6OmJ1aWxkX29wZW5hcGlfZG9jdW1lbnQoKQp9CgojW2NmZyh0ZXN0KV0KcHViKGNyYXRlKSBtb2QgdGVzdF9zdXBwb3J0IHsKICAgIHVzZSBzdGQ6OnsKICAgICAgICBlbnYsCiAgICAgICAgZmZpOjp7T3NTdHIsIE9zU3RyaW5nfSwKICAgICAgICBzeW5jOjp7TXV0ZXgsIE11dGV4R3VhcmR9LAogICAgfTsKCiAgICBzdGF0aWMgRU5WX0xPQ0s6IE11dGV4PCgpPiA9IE11dGV4OjpuZXcoKCkpOwoKICAgIHB1YihjcmF0ZSkgc3RydWN0IEVudkd1YXJkIHsKICAgICAgICBfbG9jazogTXV0ZXhHdWFyZDwnc3RhdGljLCAoKT4sCiAgICAgICAgcHJldmlvdXM6IFZlYzwoU3RyaW5nLCBPcHRpb248T3NTdHJpbmc+KT4sCiAgICB9CgogICAgaW1wbCBFbnZHdWFyZCB7CiAgICAgICAgcHViKGNyYXRlKSBmbiBuZXcoa2V5czogJlsmc3RyXSkgLT4gU2VsZiB7CiAgICAgICAgICAgIGxldCBsb2NrID0gRU5WX0xPQ0subG9jaygpLnVud3JhcF9vcl9lbHNlKHxlcnJvcnwgZXJyb3IuaW50b19pbm5lcigpKTsKICAgICAgICAgICAgbGV0IHByZXZpb3VzID0ga2V5cwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLm1hcCh8a2V5fCAoKCprZXkpLnRvX3N0cmluZygpLCBlbnY6OnZhcl9vcyhrZXkpKSkKICAgICAgICAgICAgICAgIC5jb2xsZWN0KCk7CiAgICAgICAgICAgIFNlbGYgewogICAgICAgICAgICAgICAgX2xvY2s6IGxvY2ssCiAgICAgICAgICAgICAgICBwcmV2aW91cywKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcHViKGNyYXRlKSBmbiBzZXQoJnNlbGYsIGtleTogJnN0ciwgdmFsdWU6IGltcGwgQXNSZWY8T3NTdHI+KSB7CiAgICAgICAgICAgIC8vIFNBRkVUWTogdGVzdHMgc2VyaWFsaXplIGV2ZXJ5IHByb2Nlc3MtZW52aXJvbm1lbnQgbXV0YXRpb24gdGhyb3VnaAogICAgICAgICAgICAvLyBFTlZfTE9DSyBhbmQgaG9sZCB0aGUgZ3VhcmQgdW50aWwgdmFsdWVzIGFyZSByZXN0b3JlZC4KICAgICAgICAgICAgdW5zYWZlIHsKICAgICAgICAgICAgICAgIGVudjo6c2V0X3ZhcihrZXksIHZhbHVlKTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcHViKGNyYXRlKSBmbiByZW1vdmUoJnNlbGYsIGtleTogJnN0cikgewogICAgICAgICAgICAvLyBTQUZFVFk6IHRlc3RzIHNlcmlhbGl6ZSBldmVyeSBwcm9jZXNzLWVudmlyb25tZW50IG11dGF0aW9uIHRocm91Z2gKICAgICAgICAgICAgLy8gRU5WX0xPQ0sgYW5kIGhvbGQgdGhlIGd1YXJkIHVudGlsIHZhbHVlcyBhcmUgcmVzdG9yZWQuCiAgICAgICAgICAgIHVuc2FmZSB7CiAgICAgICAgICAgICAgICBlbnY6OnJlbW92ZV92YXIoa2V5KTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBpbXBsIERyb3AgZm9yIEVudkd1YXJkIHsKICAgICAgICBmbiBkcm9wKCZtdXQgc2VsZikgewogICAgICAgICAgICBmb3IgKGtleSwgdmFsdWUpIGluIHNlbGYucHJldmlvdXMuaXRlcigpLnJldigpIHsKICAgICAgICAgICAgICAgIC8vIFNBRkVUWTogRW52R3VhcmQgb3ducyB0aGUgcHJvY2Vzcy13aWRlIHRlc3QgZW52aXJvbm1lbnQgbG9jawogICAgICAgICAgICAgICAgLy8gd2hpbGUgcmVzdG9yaW5nIHRoZSB2YWx1ZXMgY2FwdHVyZWQgYXQgY29uc3RydWN0aW9uIHRpbWUuCiAgICAgICAgICAgICAgICB1bnNhZmUgewogICAgICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKHZhbHVlKSA9IHZhbHVlIHsKICAgICAgICAgICAgICAgICAgICAgICAgZW52OjpzZXRfdmFyKGtleSwgdmFsdWUpOwogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGVudjo6cmVtb3ZlX3ZhcihrZXkpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+pub mod app;
+
+#[cfg(windows)]
+pub mod windows_service;
+
+pub(crate) mod grpc_proto {
+    #![allow(dead_code)]
+    tonic::include_proto!("fnknock.v1");
+}
+
+pub(crate) mod admin;
+pub(crate) mod auth;
+pub(crate) mod certificates;
+pub(crate) mod config;
+pub(crate) mod ddns;
+pub(crate) mod discovery;
+pub(crate) mod events;
+pub(crate) mod gateway;
+pub(crate) mod infra;
+pub(crate) mod notifications;
+pub(crate) mod panel_sync;
+pub(crate) mod runtime_health;
+pub(crate) mod security;
+pub(crate) mod shared;
+pub(crate) mod storage;
+pub(crate) mod system;
+pub(crate) mod traces;
+pub(crate) mod tunnels;
+pub(crate) mod waf;
+pub(crate) mod wol;
+
+pub(crate) use admin::{control as admin_control, panel as admin_panel};
+pub(crate) use app::cleanup_legacy_auth_log_storage;
+pub(crate) use auth::{
+    backoff, common_locations as common_auth_locations, cookies, fnos_share_bypass,
+    hmac as hmac_auth, ldap as ldap_auth, mobility as auth_mobility, oidc_admin, oidc_runtime,
+    passkey as passkey_runtime,
+};
+pub(crate) use certificates::{acme, auto_https, fnos_certificate_sync, ssl};
+pub(crate) use config::runtime as runtime_config;
+pub(crate) use ddns as ddns_status;
+pub(crate) use discovery::{cidr, ip_location, ip_location_config, scan_assets, scanner};
+pub(crate) use events as system_events;
+pub(crate) use gateway::{
+    deep_monitor, logs as gateway_logs, proxy_config, settings as gateway_settings,
+};
+pub(crate) use infra::{
+    app_version, go_backend, i18n, memory, openapi_docs, response, runtime_profile, settings,
+    state, static_files,
+};
+pub(crate) use panel_sync::panel_sync_routes;
+pub(crate) use security::{
+    general_blacklist, overview as security_overview, ssh as ssh_security, whitelist,
+};
+pub(crate) use shared::trace_id;
+pub(crate) use shared::{
+    auth_mobility_keys, auth_session_keys, cloudflared_utils, crypto_utils, daily_availability,
+    frp_utils, fs_utils, http_body, http_utils, json_utils, net_utils, node_compat, proxy_utils,
+    text_utils, time_utils, transient_error, unix, version_utils,
+};
+pub(crate) use storage::store;
+pub(crate) use system::{
+    dashboard, maintenance, system_assets, system_info, system_monitor, terminal, update,
+};
+pub(crate) use tunnels::{cloudflared, frpc};
+pub(crate) use wol::wol_routes;
+
+/// Build the checked HTTP API contract for code generation and compatibility checks.
+pub fn api_contract_document() -> serde_json::Value {
+    infra::openapi_docs::build_openapi_document()
+}
+
+#[cfg(test)]
+pub(crate) mod test_support {
+    use std::{
+        env,
+        ffi::{OsStr, OsString},
+        sync::{Mutex, MutexGuard},
+    };
+
+    static ENV_LOCK: Mutex<()> = Mutex::new(());
+
+    pub(crate) struct EnvGuard {
+        _lock: MutexGuard<'static, ()>,
+        previous: Vec<(String, Option<OsString>)>,
+    }
+
+    impl EnvGuard {
+        pub(crate) fn new(keys: &[&str]) -> Self {
+            let lock = ENV_LOCK.lock().unwrap_or_else(|error| error.into_inner());
+            let previous = keys
+                .iter()
+                .map(|key| ((*key).to_string(), env::var_os(key)))
+                .collect();
+            Self {
+                _lock: lock,
+                previous,
+            }
+        }
+
+        pub(crate) fn set(&self, key: &str, value: impl AsRef<OsStr>) {
+            // SAFETY: tests serialize every process-environment mutation through
+            // ENV_LOCK and hold the guard until values are restored.
+            unsafe {
+                env::set_var(key, value);
+            }
+        }
+
+        pub(crate) fn remove(&self, key: &str) {
+            // SAFETY: tests serialize every process-environment mutation through
+            // ENV_LOCK and hold the guard until values are restored.
+            unsafe {
+                env::remove_var(key);
+            }
+        }
+    }
+
+    impl Drop for EnvGuard {
+        fn drop(&mut self) {
+            for (key, value) in self.previous.iter().rev() {
+                // SAFETY: EnvGuard owns the process-wide test environment lock
+                // while restoring the values captured at construction time.
+                unsafe {
+                    if let Some(value) = value {
+                        env::set_var(key, value);
+                    } else {
+                        env::remove_var(key);
+                    }
+                }
+            }
+        }
+    }
+}

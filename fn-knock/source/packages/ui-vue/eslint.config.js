@@ -1,1 +1,42 @@
-aW1wb3J0IHsgdnVlQ29uZmlnIH0gZnJvbSAiQHJlcG8vZXNsaW50LWNvbmZpZy92dWUiOwoKZXhwb3J0IGRlZmF1bHQgWwogIC4uLnZ1ZUNvbmZpZywKICB7CiAgICBmaWxlczogWwogICAgICAic3JjL2NvbXBvbmVudHMvdWkvaW5wdXQvSW5wdXQudnVlIiwKICAgICAgInNyYy9jb21wb25lbnRzL3VpL2lucHV0LWdyb3VwL0lucHV0R3JvdXBJbnB1dC52dWUiLAogICAgICAic3JjL2NvbXBvbmVudHMvdWkvaW5wdXQtZ3JvdXAvSW5wdXRHcm91cFRleHRhcmVhLnZ1ZSIsCiAgICAgICJzcmMvY29tcG9uZW50cy91aS9zZWxlY3QvU2VsZWN0VHJpZ2dlci52dWUiLAogICAgICAic3JjL2NvbXBvbmVudHMvdWkvc2lkZWJhci9TaWRlYmFySW5wdXQudnVlIiwKICAgICAgInNyYy9jb21wb25lbnRzL3VpL3RhZ3MtaW5wdXQvVGFnc0lucHV0SW5wdXQudnVlIiwKICAgICAgInNyYy9jb21wb25lbnRzL3VpL3RleHRhcmVhL1RleHRhcmVhLnZ1ZSIsCiAgICBdLAogICAgcnVsZXM6IHsKICAgICAgLy8gVGhlc2UgcHJpbWl0aXZlcyBmb3J3YXJkIElEcyBhbmQgYWNjZXNzaWJsZS1uYW1lIGF0dHJpYnV0ZXMgZnJvbSB0aGVpcgogICAgICAvLyBjYWxsIHNpdGVzLiBVc2FnZS1sZXZlbCBJbnB1dC9UZXh0YXJlYSBjb250cm9scyByZW1haW4gbGludGVkLgogICAgICAicHJvamVjdC1hMTF5L2Zvcm0tY29udHJvbC1oYXMtYWNjZXNzaWJsZS1uYW1lIjogIm9mZiIsCiAgICB9LAogIH0sCiAgewogICAgZmlsZXM6IFsKICAgICAgInNyYy9jb21wb25lbnRzL3VpL2J1dHRvbi9CdXR0b24udnVlIiwKICAgICAgInNyYy9jb21wb25lbnRzL3VpL2lucHV0LWdyb3VwL0lucHV0R3JvdXBCdXR0b24udnVlIiwKICAgICAgInNyYy9jb21wb25lbnRzL3VpL3NpZGViYXIvU2lkZWJhck1lbnVBY3Rpb24udnVlIiwKICAgICAgInNyYy9jb21wb25lbnRzL3VpL3NpZGViYXIvU2lkZWJhck1lbnVCdXR0b24udnVlIiwKICAgIF0sCiAgICBydWxlczogewogICAgICAvLyBCdXR0b24gcHJpbWl0aXZlcyByZW5kZXIgY2FsbGVyLXByb3ZpZGVkIHNsb3RzIGFuZCBmb3J3YXJkIGFjY2Vzc2libGUKICAgICAgLy8gbmFtaW5nIGF0dHJpYnV0ZXMuIENvbmNyZXRlIGNhbGwgc2l0ZXMgcmVtYWluIGxpbnRlZC4KICAgICAgInByb2plY3QtYTExeS9pbnRlcmFjdGl2ZS1oYXMtYWNjZXNzaWJsZS1uYW1lIjogIm9mZiIsCiAgICB9LAogIH0sCiAgewogICAgZmlsZXM6IFsic3JjL2NvbXBvbmVudHMvdWkvbGFiZWwvTGFiZWwudnVlIl0sCiAgICBydWxlczogewogICAgICAvLyBUaGUgcHJpbWl0aXZlIGZvcndhcmRzIFJla2EgTGFiZWxQcm9wcyAoaW5jbHVkaW5nIGBmb3JgKSB0byBMYWJlbFJvb3QuCiAgICAgIC8vIEFzc29jaWF0aW9ucyBhcmUgZW5mb3JjZWQgd2hlcmUgdGhlIExhYmVsIGNvbXBvbmVudCBpcyBjb25zdW1lZC4KICAgICAgInZ1ZWpzLWFjY2Vzc2liaWxpdHkvbGFiZWwtaGFzLWZvciI6ICJvZmYiLAogICAgfSwKICB9LApdOwo=
+import { vueConfig } from "@repo/eslint-config/vue";
+
+export default [
+  ...vueConfig,
+  {
+    files: [
+      "src/components/ui/input/Input.vue",
+      "src/components/ui/input-group/InputGroupInput.vue",
+      "src/components/ui/input-group/InputGroupTextarea.vue",
+      "src/components/ui/select/SelectTrigger.vue",
+      "src/components/ui/sidebar/SidebarInput.vue",
+      "src/components/ui/tags-input/TagsInputInput.vue",
+      "src/components/ui/textarea/Textarea.vue",
+    ],
+    rules: {
+      // These primitives forward IDs and accessible-name attributes from their
+      // call sites. Usage-level Input/Textarea controls remain linted.
+      "project-a11y/form-control-has-accessible-name": "off",
+    },
+  },
+  {
+    files: [
+      "src/components/ui/button/Button.vue",
+      "src/components/ui/input-group/InputGroupButton.vue",
+      "src/components/ui/sidebar/SidebarMenuAction.vue",
+      "src/components/ui/sidebar/SidebarMenuButton.vue",
+    ],
+    rules: {
+      // Button primitives render caller-provided slots and forward accessible
+      // naming attributes. Concrete call sites remain linted.
+      "project-a11y/interactive-has-accessible-name": "off",
+    },
+  },
+  {
+    files: ["src/components/ui/label/Label.vue"],
+    rules: {
+      // The primitive forwards Reka LabelProps (including `for`) to LabelRoot.
+      // Associations are enforced where the Label component is consumed.
+      "vuejs-accessibility/label-has-for": "off",
+    },
+  },
+];

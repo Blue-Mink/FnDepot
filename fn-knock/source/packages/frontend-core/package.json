@@ -1,1 +1,19 @@
-ewogICJuYW1lIjogIkBmbi1rbm9jay9mcm9udGVuZC1jb3JlIiwKICAicHJpdmF0ZSI6IHRydWUsCiAgInZlcnNpb24iOiAiMC4wLjAiLAogICJ0eXBlIjogIm1vZHVsZSIsCiAgInNjcmlwdHMiOiB7CiAgICAidGVzdCI6ICJ0c3ggLS10ZXN0IHRlc3RzLyoudGVzdC50cyIKICB9LAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAiQGZuLWtub2NrL2kxOG4iOiAiXjAuMC4wIiwKICAgICJheGlvcyI6ICJeMS4xNi4wIiwKICAgICJjcnlwdG8tanMiOiAiXjQuMi4wIgogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJAdHlwZXMvY3J5cHRvLWpzIjogIl40LjIuMiIsCiAgICAiQHR5cGVzL25vZGUiOiAiXjI0LjEwLjEiLAogICAgInRzeCI6ICJeNC4yMy4xIgogIH0KfQo=
+{
+  "name": "@fn-knock/frontend-core",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@fn-knock/i18n": "^0.0.0",
+    "axios": "^1.16.0",
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^24.10.1",
+    "tsx": "^4.23.1"
+  }
+}

@@ -1,1 +1,31 @@
-aW1wb3J0IHR5cGUgeyBTZXNzaW9uTW9iaWxpdHlEZXRhaWxzLCBTZXNzaW9uUmVjb3JkIH0gZnJvbSAiLi4vLi4vdHlwZXMiOwppbXBvcnQgeyBhcGlDbGllbnQgfSBmcm9tICIuL2NsaWVudCI7CgpleHBvcnQgdHlwZSB7IFNlc3Npb25Nb2JpbGl0eURldGFpbHMsIFNlc3Npb25SZWNvcmQgfSBmcm9tICIuLi8uLi90eXBlcyI7CgpleHBvcnQgY29uc3QgU2Vzc2lvbkFQSSA9IHsKICBhc3luYyBsaXN0KCk6IFByb21pc2U8U2Vzc2lvblJlY29yZFtdPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvc2Vzc2lvbnMiKTsKICAgIHJldHVybiBBcnJheS5pc0FycmF5KHJlcy5kYXRhPy5kYXRhKSA/IHJlcy5kYXRhLmRhdGEgOiBbXTsKICB9LAogIGFzeW5jIGdldChpZDogc3RyaW5nKTogUHJvbWlzZTxTZXNzaW9uUmVjb3JkPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KGAvc2Vzc2lvbnMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfWApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRNb2JpbGl0eShpZDogc3RyaW5nKTogUHJvbWlzZTxTZXNzaW9uTW9iaWxpdHlEZXRhaWxzPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KAogICAgICBgL3Nlc3Npb25zLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX0vbW9iaWxpdHlgLAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgdXBkYXRlQ29tbWVudChpZDogc3RyaW5nLCBjb21tZW50OiBzdHJpbmcpOiBQcm9taXNlPFNlc3Npb25SZWNvcmQ+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wYXRjaCgKICAgICAgYC9zZXNzaW9ucy8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9L2NvbW1lbnRgLAogICAgICB7IGNvbW1lbnQgfSwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGtpY2soaWQ6IHN0cmluZyk6IFByb21pc2U8dm9pZD4gewogICAgYXdhaXQgYXBpQ2xpZW50LmRlbGV0ZShgL3Nlc3Npb25zLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX1gKTsKICB9LAp9Owo=
+import type { SessionMobilityDetails, SessionRecord } from "../../types";
+import { apiClient } from "./client";
+
+export type { SessionMobilityDetails, SessionRecord } from "../../types";
+
+export const SessionAPI = {
+  async list(): Promise<SessionRecord[]> {
+    const res = await apiClient.get("/sessions");
+    return Array.isArray(res.data?.data) ? res.data.data : [];
+  },
+  async get(id: string): Promise<SessionRecord> {
+    const res = await apiClient.get(`/sessions/${encodeURIComponent(id)}`);
+    return res.data.data;
+  },
+  async getMobility(id: string): Promise<SessionMobilityDetails> {
+    const res = await apiClient.get(
+      `/sessions/${encodeURIComponent(id)}/mobility`,
+    );
+    return res.data.data;
+  },
+  async updateComment(id: string, comment: string): Promise<SessionRecord> {
+    const res = await apiClient.patch(
+      `/sessions/${encodeURIComponent(id)}/comment`,
+      { comment },
+    );
+    return res.data.data;
+  },
+  async kick(id: string): Promise<void> {
+    await apiClient.delete(`/sessions/${encodeURIComponent(id)}`);
+  },
+};

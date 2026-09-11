@@ -1,1 +1,42 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgU3dpdGNoUm9vdEVtaXRzLCBTd2l0Y2hSb290UHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyByZWFjdGl2ZU9taXQgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7CiAgU3dpdGNoUm9vdCwKICBTd2l0Y2hUaHVtYiwKICB1c2VGb3J3YXJkUHJvcHNFbWl0cywKfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxTd2l0Y2hSb290UHJvcHMgJiB7IAogIGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0sCiAgY2hlY2tlZD86IGJvb2xlYW4sCiAgZGVmYXVsdENoZWNrZWQ/OiBib29sZWFuLAp9PigpCgpjb25zdCBlbWl0cyA9IGRlZmluZUVtaXRzPFN3aXRjaFJvb3RFbWl0cz4oKQoKY29uc3QgZGVsZWdhdGVkUHJvcHMgPSByZWFjdGl2ZU9taXQocHJvcHMsICJjbGFzcyIpCgpjb25zdCBmb3J3YXJkZWQgPSB1c2VGb3J3YXJkUHJvcHNFbWl0cyhkZWxlZ2F0ZWRQcm9wcywgZW1pdHMpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxTd2l0Y2hSb290CiAgICB2LXNsb3Q9InNsb3RQcm9wcyIKICAgIGRhdGEtc2xvdD0ic3dpdGNoIgogICAgdi1iaW5kPSJmb3J3YXJkZWQiCiAgICA6Y2xhc3M9ImNuKAogICAgICAncGVlciBkYXRhLVtzdGF0ZT1jaGVja2VkXTpiZy1wcmltYXJ5IGRhdGEtW3N0YXRlPXVuY2hlY2tlZF06YmctaW5wdXQgZm9jdXMtdmlzaWJsZTpib3JkZXItcmluZyBmb2N1cy12aXNpYmxlOnJpbmctcmluZy81MCBkYXJrOmRhdGEtW3N0YXRlPXVuY2hlY2tlZF06YmctaW5wdXQvODAgaW5saW5lLWZsZXggaC1bMS4xNXJlbV0gdy04IHNocmluay0wIGl0ZW1zLWNlbnRlciByb3VuZGVkLWZ1bGwgYm9yZGVyIGJvcmRlci10cmFuc3BhcmVudCBzaGFkb3cteHMgdHJhbnNpdGlvbi1hbGwgb3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy1bM3B4XSBkaXNhYmxlZDpjdXJzb3Itbm90LWFsbG93ZWQgZGlzYWJsZWQ6b3BhY2l0eS01MCcsCiAgICAgIHByb3BzLmNsYXNzLAogICAgKSIKICA+CiAgICA8U3dpdGNoVGh1bWIKICAgICAgZGF0YS1zbG90PSJzd2l0Y2gtdGh1bWIiCiAgICAgIDpjbGFzcz0iY24oJ2JnLWJhY2tncm91bmQgZGFyazpkYXRhLVtzdGF0ZT11bmNoZWNrZWRdOmJnLWZvcmVncm91bmQgZGFyazpkYXRhLVtzdGF0ZT1jaGVja2VkXTpiZy1wcmltYXJ5LWZvcmVncm91bmQgcG9pbnRlci1ldmVudHMtbm9uZSBibG9jayBzaXplLTQgcm91bmRlZC1mdWxsIHJpbmctMCB0cmFuc2l0aW9uLXRyYW5zZm9ybSBkYXRhLVtzdGF0ZT1jaGVja2VkXTp0cmFuc2xhdGUteC1bY2FsYygxMDAlLTJweCldIGRhdGEtW3N0YXRlPXVuY2hlY2tlZF06dHJhbnNsYXRlLXgtMCcpIgogICAgPgogICAgICA8c2xvdCBuYW1lPSJ0aHVtYiIgdi1iaW5kPSJzbG90UHJvcHMiIC8+CiAgICA8L1N3aXRjaFRodW1iPgogIDwvU3dpdGNoUm9vdD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { SwitchRootEmits, SwitchRootProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import {
+  SwitchRoot,
+  SwitchThumb,
+  useForwardPropsEmits,
+} from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<SwitchRootProps & { 
+  class?: HTMLAttributes["class"],
+  checked?: boolean,
+  defaultChecked?: boolean,
+}>()
+
+const emits = defineEmits<SwitchRootEmits>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwarded = useForwardPropsEmits(delegatedProps, emits)
+</script>
+
+<template>
+  <SwitchRoot
+    v-slot="slotProps"
+    data-slot="switch"
+    v-bind="forwarded"
+    :class="cn(
+      'peer data-[state=checked]:bg-primary data-[state=unchecked]:bg-input focus-visible:border-ring focus-visible:ring-ring/50 dark:data-[state=unchecked]:bg-input/80 inline-flex h-[1.15rem] w-8 shrink-0 items-center rounded-full border border-transparent shadow-xs transition-all outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50',
+      props.class,
+    )"
+  >
+    <SwitchThumb
+      data-slot="switch-thumb"
+      :class="cn('bg-background dark:data-[state=unchecked]:bg-foreground dark:data-[state=checked]:bg-primary-foreground pointer-events-none block size-4 rounded-full ring-0 transition-transform data-[state=checked]:translate-x-[calc(100%-2px)] data-[state=unchecked]:translate-x-0')"
+    >
+      <slot name="thumb" v-bind="slotProps" />
+    </SwitchThumb>
+  </SwitchRoot>
+</template>

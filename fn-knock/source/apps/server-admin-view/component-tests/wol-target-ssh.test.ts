@@ -1,1 +1,82 @@
-aW1wb3J0IHsgcmVhY3RpdmUsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IGFmdGVyRWFjaCwgZGVzY3JpYmUsIGV4cGVjdCwgaXQsIHZpIH0gZnJvbSAidml0ZXN0IjsKaW1wb3J0IHsgV09MQVBJLCB0eXBlIFdPTFRhcmdldElucHV0IH0gZnJvbSAiLi4vc3JjL2xpYi9hcGkvd29sIjsKaW1wb3J0IHsgdXNlV29sVGFyZ2V0U3NoIH0gZnJvbSAiLi4vc3JjL3ZpZXdzL3dvbC1tYW5hZ2VtZW50L3VzZVdvbFRhcmdldFNzaCI7Cgp2aS5tb2NrKCJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IiwgKCkgPT4gKHsKICB0b2FzdDogeyBlcnJvcjogdmkuZm4oKSwgc3VjY2VzczogdmkuZm4oKSB9LAp9KSk7Cgpjb25zdCB0YXJnZXRGb3JtID0gKCkgPT4KICByZWFjdGl2ZTxXT0xUYXJnZXRJbnB1dD4oewogICAgbmFtZTogIk9mZmljZSBQQyIsCiAgICBtYWM6ICIwMjoxMToyMjozMzo0NDo1NSIsCiAgICByZWxheUlkOiBudWxsLAogICAgYnJvYWRjYXN0QWRkcmVzczogbnVsbCwKICAgIGlwQWRkcmVzczogIjE5Mi4wLjIuMTAiLAogICAgZW5hYmxlZDogdHJ1ZSwKICAgIHNzaDogewogICAgICBlbmFibGVkOiB0cnVlLAogICAgICBob3N0OiAiMTkyLjAuMi4xMCIsCiAgICAgIHBvcnQ6IDIyLAogICAgICB1c2VybmFtZTogIm9wZXJhdG9yIiwKICAgICAgcGxhdGZvcm06ICJsaW51eCIsCiAgICAgIGF1dGhNZXRob2Q6ICJwYXNzd29yZCIsCiAgICAgIGhvc3RLZXlBbGdvcml0aG06ICIiLAogICAgICBob3N0S2V5RmluZ2VycHJpbnQ6ICIiLAogICAgICBwYXNzd29yZDogInNlY3JldCIsCiAgICAgIHByaXZhdGVLZXk6ICIiLAogICAgICBwcml2YXRlS2V5UGFzc3BocmFzZTogIiIsCiAgICAgIGNsZWFyQ3JlZGVudGlhbDogZmFsc2UsCiAgICB9LAogIH0pOwoKY29uc3QgcmVzdWx0ID0gewogIGF1dGhlbnRpY2F0ZWQ6IHRydWUsCiAgcHJpdmlsZWdlUmVhZHk6IHRydWUsCiAgbGF0ZW5jeU1zOiAxMiwKICBob3N0S2V5QWxnb3JpdGhtOiAic3NoLWVkMjU1MTkiLAogIGhvc3RLZXlGaW5nZXJwcmludDogIlNIQTI1Njp0ZXN0ZWQiLAp9OwoKZGVzY3JpYmUoIldvTCBTU0ggdGVzdCBkcmFmdCBpc29sYXRpb24iLCAoKSA9PiB7CiAgYWZ0ZXJFYWNoKCgpID0+IHZpLnJlc3RvcmVBbGxNb2NrcygpKTsKCiAgaXQoImFwcGxpZXMgYSBzdWNjZXNzZnVsIHRlc3Qgb25seSB0byB0aGUgdW5jaGFuZ2VkIHRhcmdldCBkcmFmdCIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGZvcm0gPSB0YXJnZXRGb3JtKCk7CiAgICB2aS5zcHlPbihXT0xBUEksICJ0ZXN0U3NoIikubW9ja1Jlc29sdmVkVmFsdWUocmVzdWx0KTsKICAgIGNvbnN0IGNvbnRyb2xsZXIgPSB1c2VXb2xUYXJnZXRTc2goewogICAgICBlZGl0aW5nVGFyZ2V0SWQ6IHJlZigidGFyZ2V0LTEiKSwKICAgICAgdGFyZ2V0Rm9ybTogZm9ybSwKICAgICAgdDogKGtleSkgPT4ga2V5LAogICAgfSk7CgogICAgYXdhaXQgY29udHJvbGxlci50ZXN0U3NoKCk7CgogICAgZXhwZWN0KGZvcm0uc3NoPy5ob3N0S2V5QWxnb3JpdGhtKS50b0JlKCJzc2gtZWQyNTUxOSIpOwogICAgZXhwZWN0KGZvcm0uc3NoPy5ob3N0S2V5RmluZ2VycHJpbnQpLnRvQmUoIlNIQTI1Njp0ZXN0ZWQiKTsKICB9KTsKCiAgaXQoImRpc2NhcmRzIGEgcmVzdWx0IHdoZW4gY29ubmVjdGlvbiBzZXR0aW5ncyBjaGFuZ2VkIGluIGZsaWdodCIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGZvcm0gPSB0YXJnZXRGb3JtKCk7CiAgICBsZXQgcmVzb2x2ZVRlc3QhOiAodmFsdWU6IHR5cGVvZiByZXN1bHQpID0+IHZvaWQ7CiAgICB2aS5zcHlPbihXT0xBUEksICJ0ZXN0U3NoIikubW9ja1JldHVyblZhbHVlKAogICAgICBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gewogICAgICAgIHJlc29sdmVUZXN0ID0gcmVzb2x2ZTsKICAgICAgfSksCiAgICApOwogICAgY29uc3QgY29udHJvbGxlciA9IHVzZVdvbFRhcmdldFNzaCh7CiAgICAgIGVkaXRpbmdUYXJnZXRJZDogcmVmKCJ0YXJnZXQtMSIpLAogICAgICB0YXJnZXRGb3JtOiBmb3JtLAogICAgICB0OiAoa2V5KSA9PiBrZXksCiAgICB9KTsKCiAgICBjb25zdCBwZW5kaW5nID0gY29udHJvbGxlci50ZXN0U3NoKCk7CiAgICBmb3JtLnNzaCEuaG9zdCA9ICIxOTIuMC4yLjIwIjsKICAgIHJlc29sdmVUZXN0KHJlc3VsdCk7CiAgICBhd2FpdCBwZW5kaW5nOwoKICAgIGV4cGVjdChmb3JtLnNzaD8uaG9zdEtleUFsZ29yaXRobSkudG9CZSgiIik7CiAgICBleHBlY3QoZm9ybS5zc2g/Lmhvc3RLZXlGaW5nZXJwcmludCkudG9CZSgiIik7CiAgfSk7Cn0pOwo=
+import { reactive, ref } from "vue";
+import { afterEach, describe, expect, it, vi } from "vitest";
+import { WOLAPI, type WOLTargetInput } from "../src/lib/api/wol";
+import { useWolTargetSsh } from "../src/views/wol-management/useWolTargetSsh";
+
+vi.mock("@admin-shared/utils/toast", () => ({
+  toast: { error: vi.fn(), success: vi.fn() },
+}));
+
+const targetForm = () =>
+  reactive<WOLTargetInput>({
+    name: "Office PC",
+    mac: "02:11:22:33:44:55",
+    relayId: null,
+    broadcastAddress: null,
+    ipAddress: "192.0.2.10",
+    enabled: true,
+    ssh: {
+      enabled: true,
+      host: "192.0.2.10",
+      port: 22,
+      username: "operator",
+      platform: "linux",
+      authMethod: "password",
+      hostKeyAlgorithm: "",
+      hostKeyFingerprint: "",
+      password: "secret",
+      privateKey: "",
+      privateKeyPassphrase: "",
+      clearCredential: false,
+    },
+  });
+
+const result = {
+  authenticated: true,
+  privilegeReady: true,
+  latencyMs: 12,
+  hostKeyAlgorithm: "ssh-ed25519",
+  hostKeyFingerprint: "SHA256:tested",
+};
+
+describe("WoL SSH test draft isolation", () => {
+  afterEach(() => vi.restoreAllMocks());
+
+  it("applies a successful test only to the unchanged target draft", async () => {
+    const form = targetForm();
+    vi.spyOn(WOLAPI, "testSsh").mockResolvedValue(result);
+    const controller = useWolTargetSsh({
+      editingTargetId: ref("target-1"),
+      targetForm: form,
+      t: (key) => key,
+    });
+
+    await controller.testSsh();
+
+    expect(form.ssh?.hostKeyAlgorithm).toBe("ssh-ed25519");
+    expect(form.ssh?.hostKeyFingerprint).toBe("SHA256:tested");
+  });
+
+  it("discards a result when connection settings changed in flight", async () => {
+    const form = targetForm();
+    let resolveTest!: (value: typeof result) => void;
+    vi.spyOn(WOLAPI, "testSsh").mockReturnValue(
+      new Promise((resolve) => {
+        resolveTest = resolve;
+      }),
+    );
+    const controller = useWolTargetSsh({
+      editingTargetId: ref("target-1"),
+      targetForm: form,
+      t: (key) => key,
+    });
+
+    const pending = controller.testSsh();
+    form.ssh!.host = "192.0.2.20";
+    resolveTest(result);
+    await pending;
+
+    expect(form.ssh?.hostKeyAlgorithm).toBe("");
+    expect(form.ssh?.hostKeyFingerprint).toBe("");
+  });
+});

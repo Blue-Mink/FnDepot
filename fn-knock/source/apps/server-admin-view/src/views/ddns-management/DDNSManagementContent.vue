@@ -1,1 +1,336 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IFNldHRpbmdzMiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IERvY3NMaW5rQnV0dG9uIGZyb20gIkAvY29tcG9uZW50cy9Eb2NzTGlua0J1dHRvbi52dWUiOwppbXBvcnQgQ29uZmlybWF0aW9uRGlhbG9nIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vQ29uZmlybWF0aW9uRGlhbG9nLnZ1ZSI7CmltcG9ydCB7IGRvY3NVcmxzIH0gZnJvbSAiLi4vLi4vbGliL2RvY3MiOwppbXBvcnQgREROU0NsZWFyUHJpbWFyeUNvbmZpZ0RpYWxvZyBmcm9tICIuL0RETlNDbGVhclByaW1hcnlDb25maWdEaWFsb2cudnVlIjsKaW1wb3J0IERETlNFeHRyYVRhcmdldHNDYXJkIGZyb20gIi4vREROU0V4dHJhVGFyZ2V0c0NhcmQudnVlIjsKaW1wb3J0IERETlNMb2dzQ2FyZCBmcm9tICIuL0RETlNMb2dzQ2FyZC52dWUiOwppbXBvcnQgREROU1ByaW1hcnlDb25maWdDYXJkIGZyb20gIi4vREROU1ByaW1hcnlDb25maWdDYXJkLnZ1ZSI7CmltcG9ydCBERE5TUHVibGljQ2hlY2tEaWFsb2cgZnJvbSAiLi9ERE5TUHVibGljQ2hlY2tEaWFsb2cudnVlIjsKaW1wb3J0IERETlNTdGF0dXNDYXJkIGZyb20gIi4vREROU1N0YXR1c0NhcmQudnVlIjsKaW1wb3J0IERETlNUYXJnZXREaWFsb2cgZnJvbSAiLi9ERE5TVGFyZ2V0RGlhbG9nLnZ1ZSI7CmltcG9ydCBERE5TVXBkYXRlSW50ZXJ2YWxEaWFsb2cgZnJvbSAiLi9ERE5TVXBkYXRlSW50ZXJ2YWxEaWFsb2cudnVlIjsKaW1wb3J0IHR5cGUgeyBERE5TTWFuYWdlbWVudFBhZ2VDb250cm9sbGVyIH0gZnJvbSAiLi91c2VERE5TTWFuYWdlbWVudFBhZ2UiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7IGNvbnRyb2xsZXI6IERETlNNYW5hZ2VtZW50UGFnZUNvbnRyb2xsZXIgfT4oKTsKY29uc3QgewogIGFwcGx5Q3JlZGVudGlhbFRyYW5zZmVyLAogIGNvbmZpZ3VyZWROZXR3b3JrSW50ZXJmYWNlLAogIGNvbmZpZ3VyZWROZXR3b3JrSW50ZXJmYWNlTGFiZWwsCiAgY29uZmlybUNsZWFyUHJpbWFyeUNvbmZpZywKICBjb25maXJtUGVuZGluZ0FjdGlvbiwKICBjb25maXJtYXRpb25EaWFsb2dPcGVuLAogIGNvbmZpcm1hdGlvbkRpYWxvZ09wdGlvbnMsCiAgY29weUlwQWRkcmVzcywKICBjcmVkZW50aWFsVHJhbnNmZXJEZXNjcmlwdGlvbiwKICBjcmVkZW50aWFsVHJhbnNmZXJTdWdnZXN0aW9uLAogIGN1cnJlbnRJcFNvdXJjZUxhYmVsLAogIGN1cnJlbnROZXR3b3JrSW50ZXJmYWNlTGFiZWwsCiAgY3VycmVudFByb3ZpZGVyRGVmLAogIGN1cnJlbnRVcGRhdGVTY29wZUxhYmVsLAogIGRlbGV0aW5nVGFyZ2V0SWQsCiAgZW5hYmxlRmllbGRFZGl0aW5nLAogIGVuYWJsZWQsCiAgZXh0cmFUYXJnZXRzLAogIGZpZWxkVmlzaWJpbGl0eSwKICBmb3JtYXRPcHRpb25MYWJlbCwKICBmb3JtYXRQcmltYXJ5RG9tYWluT25CbHVyLAogIGZvcm1hdFRhcmdldERvbWFpbk9uQmx1ciwKICBnZXRGaWVsZEF1dG9jb21wbGV0ZSwKICBnZXRGaWVsZERvbUlkLAogIGdldEZpZWxkSW5wdXROYW1lLAogIGdldFByaW1hcnlGaWVsZERlc2NyaXB0aW9uLAogIGdldFRhcmdldEZpZWxkRGVzY3JpcHRpb24sCiAgZ2V0VGFyZ2V0TGFzdENoZWNrVG9vbHRpcExpbmVzLAogIGhhbmRsZUNvbmZpcm1hdGlvbkRpYWxvZ09wZW5DaGFuZ2UsCiAgaGFuZGxlVGFyZ2V0RGlhbG9nUHJvdmlkZXJDaGFuZ2UsCiAgaGFzUHJvdmlkZXJDb25maWcsCiAgaGFzU2F2ZWRQcm92aWRlckNvbmZpZywKICBodHRwVHJhbnNwb3J0RHJhZnQsCiAgaW50ZXJmYWNlSVB2NE9wdGlvbnMsCiAgaW50ZXJmYWNlSVB2Nk9wdGlvbnMsCiAgaXNDbGVhcmluZ0xvZ3MsCiAgaXNDbGVhcmluZ1ByaW1hcnlDb25maWcsCiAgaXNFbmFibGVkU3dpdGNoRGlzYWJsZWQsCiAgaXNGaWVsZEVkaXRSZWFkeSwKICBpc0luaXRpYWxpemVkLAogIGlzTG9hZGluZywKICBpc1ByaW1hcnlDb25maWdEaXJ0eSwKICBpc1Byb3ZpZGVySXBTb3VyY2VPcHRpb25EaXNhYmxlZCwKICBpc1Byb3ZpZGVyU2VsZWN0RGlzYWJsZWQsCiAgaXNQcm92aWRlclVwZGF0ZVNjb3BlT3B0aW9uRGlzYWJsZWQsCiAgaXNTYXZpbmcsCiAgaXNTYXZpbmdQdWJsaWNDaGVja1NvdXJjZXMsCiAgaXNTYXZpbmdUYXJnZXQsCiAgaXNTYXZpbmdVcGRhdGVJbnRlcnZhbCwKICBpc1RhcmdldEZpZWxkVmlzaWJsZSwKICBpc1Rlc3RpbmcsCiAgaXNUZXN0aW5nUHVibGljQ2hlY2tTb3VyY2VzLAogIGlzVHJhbnNmZXJTb3VyY2VMb2FkaW5nLAogIGxhc3RDaGVjaywKICBsYXN0Q2hlY2tUb29sdGlwTGluZXMsCiAgbGFzdElQLAogIGxvZ0xpbmVzLAogIGxvZ3MsCiAgb25DYW5jZWxQcmltYXJ5Q29uZmlnRWRpdCwKICBvbkNsZWFyTG9ncywKICBvbkRlbGV0ZUV4dHJhVGFyZ2V0LAogIG9uUHJvdmlkZXJDaGFuZ2UsCiAgb25TYXZlQ29uZmlnLAogIG9uVGVzdCwKICBvblRlc3RFeHRyYVRhcmdldCwKICBvblRvZ2dsZUV4dHJhVGFyZ2V0LAogIG9wZW5DbGVhclByaW1hcnlDb25maWdEaWFsb2csCiAgb3BlbkNyZWF0ZVRhcmdldERpYWxvZywKICBvcGVuRWRpdFRhcmdldERpYWxvZywKICBvcGVuUHVibGljQ2hlY2tEaWFsb2csCiAgb3BlblVwZGF0ZUludGVydmFsRGlhbG9nLAogIHByb3ZpZGVyQ29uZmlnLAogIHByb3ZpZGVycywKICBwdWJsaWNDaGVja0RyYWZ0LAogIHB1YmxpY0NoZWNrVGVzdFJlc3VsdHMsCiAgcHVibGljRG5zUHJvdmlkZXJEcmFmdCwKICByZXNvbHZlZE5ldHdvcmtJbnRlcmZhY2VzLAogIHJlc3RvcmVQdWJsaWNDaGVja0RlZmF1bHRzLAogIHNhdmVQdWJsaWNDaGVja1NvdXJjZXMsCiAgc2F2ZVRhcmdldERpYWxvZywKICBzYXZlVXBkYXRlSW50ZXJ2YWwsCiAgc2VsZWN0ZWROZXR3b3JrSW50ZXJmYWNlRGV0YWlsLAogIHNlbGVjdGVkUHJvdmlkZXIsCiAgc2VsZWN0aW9uQW5jaG9yLAogIHNldFByb3ZpZGVyQ29uZmlnRmllbGQsCiAgc2hvdWxkU2hvd0ludGVyZmFjZUFkZHJlc3NCbG9jaywKICBzaG91bGRTaG93U291cmNlRG9tYWluQmxvY2ssCiAgc2hvd0NsZWFyUHJpbWFyeUNvbmZpZ0RpYWxvZywKICBzaG93SVB2NFN0YXR1cywKICBzaG93SVB2NlN0YXR1cywKICBzaG93SW50ZXJmYWNlSVB2NFNlbGVjdCwKICBzaG93SW50ZXJmYWNlSVB2NlNlbGVjdCwKICBzaG93UHVibGljQ2hlY2tEaWFsb2csCiAgc2hvd1N0YXRpY0lQdjRJbnB1dCwKICBzaG93U3RhdGljSVB2NklucHV0LAogIHNob3dUYXJnZXREaWFsb2csCiAgc2hvd1VwZGF0ZUludGVydmFsRGlhbG9nLAogIHQsCiAgdGFyZ2V0RGlhbG9nRGVzY3JpcHRpb24sCiAgdGFyZ2V0RGlhbG9nSVB2NE9wdGlvbnMsCiAgdGFyZ2V0RGlhbG9nSVB2Nk9wdGlvbnMsCiAgdGFyZ2V0RGlhbG9nTmV0d29ya0ludGVyZmFjZUxhYmVsLAogIHRhcmdldERpYWxvZ1Byb3ZpZGVyRGVmLAogIHRhcmdldERpYWxvZ1Jlc29sdmVkTmV0d29ya0ludGVyZmFjZXMsCiAgdGFyZ2V0RGlhbG9nU2hvdWxkU2hvd0RvbWFpbkJsb2NrLAogIHRhcmdldERpYWxvZ1Nob3VsZFNob3dJbnRlcmZhY2VCbG9jaywKICB0YXJnZXREaWFsb2dTaG91bGRTaG93U3RhdGljQmxvY2ssCiAgdGFyZ2V0RGlhbG9nU3RhdGUsCiAgdGFyZ2V0RGlhbG9nVGl0bGUsCiAgdGFyZ2V0RGlhbG9nVXBkYXRlU2NvcGUsCiAgdGVzdFB1YmxpY0NoZWNrU291cmNlcywKICB0ZXN0aW5nVGFyZ2V0SWQsCiAgdG9nZ2xlRmllbGRWaXNpYmlsaXR5LAogIHRvZ2dsZVRhcmdldEZpZWxkVmlzaWJpbGl0eSwKICB0b2dnbGluZ1RhcmdldElkLAogIHRyYW5zZmVyU291cmNlU2NvcGVMYWJlbCwKICB1cGRhdGVDb25maWd1cmVkSXBTb3VyY2UsCiAgdXBkYXRlQ29uZmlndXJlZE5ldHdvcmtJbnRlcmZhY2UsCiAgdXBkYXRlSW50ZXJ2YWxEcmFmdCwKICB1cGRhdGVJbnRlcnZhbExhYmVsLAogIHVwZGF0ZVRhcmdldERpYWxvZ05ldHdvcmtJbnRlcmZhY2UsCn0gPSBwcm9wcy5jb250cm9sbGVyOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IHYtaWY9ImlzSW5pdGlhbGl6ZWQgJiYgIWlzTG9hZGluZyIgY2xhc3M9InNwYWNlLXktMyI+CiAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4iPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgPGgyIGNsYXNzPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQiPnt7IHQoImFkbWluLmRkbnMudGl0bGUiKSB9fTwvaDI+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICBzaXplPSJpY29uLXNtIgogICAgICAgICAgY2xhc3M9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LWZvcmVncm91bmQiCiAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uZGRucy5wdWJsaWNDaGVja1NldHRpbmdzJykiCiAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLmRkbnMucHVibGljQ2hlY2tTZXR0aW5ncycpIgogICAgICAgICAgQGNsaWNrPSJvcGVuUHVibGljQ2hlY2tEaWFsb2ciCiAgICAgICAgPgogICAgICAgICAgPFNldHRpbmdzMiBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8RG9jc0xpbmtCdXR0b24gOmhyZWY9ImRvY3NVcmxzLmd1aWRlcy5kZG5zIiAvPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3sKICAgICAgICAgIGVuYWJsZWQgPyB0KCJhZG1pbi5kZG5zLmVuYWJsZWQiKSA6IHQoImFkbWluLmRkbnMuZGlzYWJsZWQiKQogICAgICAgIH19PC9zcGFuPgogICAgICAgIDxTd2l0Y2gKICAgICAgICAgIHYtbW9kZWw9ImVuYWJsZWQiCiAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uZGRucy5lbmFibGVkJykiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImlzRW5hYmxlZFN3aXRjaERpc2FibGVkIgogICAgICAgIC8+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CgogICAgPERETlNTdGF0dXNDYXJkCiAgICAgIDpjb3B5LWlwLWFkZHJlc3M9ImNvcHlJcEFkZHJlc3MiCiAgICAgIDpjdXJyZW50LWlwLXNvdXJjZS1sYWJlbD0iY3VycmVudElwU291cmNlTGFiZWwiCiAgICAgIDpjdXJyZW50LW5ldHdvcmstaW50ZXJmYWNlLWxhYmVsPSJjdXJyZW50TmV0d29ya0ludGVyZmFjZUxhYmVsIgogICAgICA6Y3VycmVudC11cGRhdGUtc2NvcGUtbGFiZWw9ImN1cnJlbnRVcGRhdGVTY29wZUxhYmVsIgogICAgICA6ZW5hYmxlZD0iZW5hYmxlZCIKICAgICAgOmxhc3QtY2hlY2s9Imxhc3RDaGVjayIKICAgICAgOmxhc3QtY2hlY2stdG9vbHRpcC1saW5lcz0ibGFzdENoZWNrVG9vbHRpcExpbmVzIgogICAgICA6bGFzdC1pcD0ibGFzdElQIgogICAgICA6b3Blbi11cGRhdGUtaW50ZXJ2YWwtZGlhbG9nPSJvcGVuVXBkYXRlSW50ZXJ2YWxEaWFsb2ciCiAgICAgIDpzaG93LWlwdjQtc3RhdHVzPSJzaG93SVB2NFN0YXR1cyIKICAgICAgOnNob3ctaXB2Ni1zdGF0dXM9InNob3dJUHY2U3RhdHVzIgogICAgICA6dXBkYXRlLWludGVydmFsLWxhYmVsPSJ1cGRhdGVJbnRlcnZhbExhYmVsIgogICAgLz4KCiAgICA8REROU1ByaW1hcnlDb25maWdDYXJkCiAgICAgIDpjb25maWd1cmVkPSJoYXNQcm92aWRlckNvbmZpZyIKICAgICAgOmNvbmZpZ3VyZWQtbmV0d29yay1pbnRlcmZhY2U9ImNvbmZpZ3VyZWROZXR3b3JrSW50ZXJmYWNlIgogICAgICA6Y29uZmlndXJlZC1uZXR3b3JrLWludGVyZmFjZS1sYWJlbD0iY29uZmlndXJlZE5ldHdvcmtJbnRlcmZhY2VMYWJlbCIKICAgICAgOmNyZWRlbnRpYWwtdHJhbnNmZXItZGVzY3JpcHRpb249ImNyZWRlbnRpYWxUcmFuc2ZlckRlc2NyaXB0aW9uIgogICAgICA6Y3JlZGVudGlhbC10cmFuc2Zlci1zdWdnZXN0aW9uPSJjcmVkZW50aWFsVHJhbnNmZXJTdWdnZXN0aW9uIgogICAgICA6ZW5hYmxlLWZpZWxkLWVkaXRpbmc9ImVuYWJsZUZpZWxkRWRpdGluZyIKICAgICAgOmZpZWxkLXZpc2liaWxpdHk9ImZpZWxkVmlzaWJpbGl0eSIKICAgICAgOmZvcm1hdC1vcHRpb24tbGFiZWw9ImZvcm1hdE9wdGlvbkxhYmVsIgogICAgICA6Z2V0LWZpZWxkLWF1dG9jb21wbGV0ZT0iZ2V0RmllbGRBdXRvY29tcGxldGUiCiAgICAgIDpnZXQtZmllbGQtZGVzY3JpcHRpb249ImdldFByaW1hcnlGaWVsZERlc2NyaXB0aW9uIgogICAgICA6Z2V0LWZpZWxkLWRvbS1pZD0iZ2V0RmllbGREb21JZCIKICAgICAgOmdldC1maWVsZC1pbnB1dC1uYW1lPSJnZXRGaWVsZElucHV0TmFtZSIKICAgICAgOmhhcy1zYXZlZC1wcm92aWRlci1jb25maWc9Imhhc1NhdmVkUHJvdmlkZXJDb25maWciCiAgICAgIDppbnRlcmZhY2UtaS1wdjQtb3B0aW9ucz0iaW50ZXJmYWNlSVB2NE9wdGlvbnMiCiAgICAgIDppbnRlcmZhY2UtaS1wdjYtb3B0aW9ucz0iaW50ZXJmYWNlSVB2Nk9wdGlvbnMiCiAgICAgIDpsYXN0LWlwPSJsYXN0SVAiCiAgICAgIDpzZWxlY3Rpb24tYW5jaG9yPSJzZWxlY3Rpb25BbmNob3IiCiAgICAgIDppcy1jbGVhcmluZy1wcmltYXJ5LWNvbmZpZz0iaXNDbGVhcmluZ1ByaW1hcnlDb25maWciCiAgICAgIDppcy1kaXJ0eT0iaXNQcmltYXJ5Q29uZmlnRGlydHkiCiAgICAgIDppcy1maWVsZC1lZGl0LXJlYWR5PSJpc0ZpZWxkRWRpdFJlYWR5IgogICAgICA6aXMtaXAtc291cmNlLW9wdGlvbi1kaXNhYmxlZD0iaXNQcm92aWRlcklwU291cmNlT3B0aW9uRGlzYWJsZWQiCiAgICAgIDppcy1wcm92aWRlci1zZWxlY3QtZGlzYWJsZWQ9ImlzUHJvdmlkZXJTZWxlY3REaXNhYmxlZCIKICAgICAgOmlzLXNhdmluZz0iaXNTYXZpbmciCiAgICAgIDppcy10ZXN0aW5nPSJpc1Rlc3RpbmciCiAgICAgIDppcy10cmFuc2Zlci1zb3VyY2UtbG9hZGluZz0iaXNUcmFuc2ZlclNvdXJjZUxvYWRpbmciCiAgICAgIDppcy11cGRhdGUtc2NvcGUtb3B0aW9uLWRpc2FibGVkPSJpc1Byb3ZpZGVyVXBkYXRlU2NvcGVPcHRpb25EaXNhYmxlZCIKICAgICAgOnByb3ZpZGVyLWNvbmZpZz0icHJvdmlkZXJDb25maWciCiAgICAgIDpwcm92aWRlci1kZWY9ImN1cnJlbnRQcm92aWRlckRlZiIKICAgICAgOnByb3ZpZGVycz0icHJvdmlkZXJzIgogICAgICA6cmVhZHk9IiFpc0xvYWRpbmciCiAgICAgIDpyZXNvbHZlZC1uZXR3b3JrLWludGVyZmFjZXM9InJlc29sdmVkTmV0d29ya0ludGVyZmFjZXMiCiAgICAgIDpzZWxlY3RlZC1uZXR3b3JrLWludGVyZmFjZS1kZXRhaWw9InNlbGVjdGVkTmV0d29ya0ludGVyZmFjZURldGFpbCIKICAgICAgOnNlbGVjdGVkLXByb3ZpZGVyPSJzZWxlY3RlZFByb3ZpZGVyIgogICAgICA6c2V0LWZpZWxkLXZhbHVlPSJzZXRQcm92aWRlckNvbmZpZ0ZpZWxkIgogICAgICA6Zm9ybWF0LWRvbWFpbi1maWVsZD0iZm9ybWF0UHJpbWFyeURvbWFpbk9uQmx1ciIKICAgICAgOnNob3ctaW50ZXJmYWNlLWFkZHJlc3MtYmxvY2s9InNob3VsZFNob3dJbnRlcmZhY2VBZGRyZXNzQmxvY2siCiAgICAgIDpzaG93LWludGVyZmFjZS1pLXB2NC1zZWxlY3Q9InNob3dJbnRlcmZhY2VJUHY0U2VsZWN0IgogICAgICA6c2hvdy1pbnRlcmZhY2UtaS1wdjYtc2VsZWN0PSJzaG93SW50ZXJmYWNlSVB2NlNlbGVjdCIKICAgICAgOnNob3ctc291cmNlLWRvbWFpbi1ibG9jaz0ic2hvdWxkU2hvd1NvdXJjZURvbWFpbkJsb2NrIgogICAgICA6c2hvdy1zdGF0aWMtaS1wdjQtaW5wdXQ9InNob3dTdGF0aWNJUHY0SW5wdXQiCiAgICAgIDpzaG93LXN0YXRpYy1pLXB2Ni1pbnB1dD0ic2hvd1N0YXRpY0lQdjZJbnB1dCIKICAgICAgOnRvZ2dsZS1maWVsZC12aXNpYmlsaXR5PSJ0b2dnbGVGaWVsZFZpc2liaWxpdHkiCiAgICAgIDp0cmFuc2Zlci1zb3VyY2Utc2NvcGUtbGFiZWw9InRyYW5zZmVyU291cmNlU2NvcGVMYWJlbCIKICAgICAgOnVwZGF0ZS1pcC1zb3VyY2U9InVwZGF0ZUNvbmZpZ3VyZWRJcFNvdXJjZSIKICAgICAgOnVwZGF0ZS1uZXR3b3JrLWludGVyZmFjZT0idXBkYXRlQ29uZmlndXJlZE5ldHdvcmtJbnRlcmZhY2UiCiAgICAgIEBhcHBseS1jcmVkZW50aWFsLXRyYW5zZmVyPSJhcHBseUNyZWRlbnRpYWxUcmFuc2ZlciIKICAgICAgQGNhbmNlbD0ib25DYW5jZWxQcmltYXJ5Q29uZmlnRWRpdCIKICAgICAgQGNsZWFyLXByaW1hcnktY29uZmlnPSJvcGVuQ2xlYXJQcmltYXJ5Q29uZmlnRGlhbG9nIgogICAgICBAcHJvdmlkZXItY2hhbmdlPSJvblByb3ZpZGVyQ2hhbmdlIgogICAgICBAc2F2ZT0ib25TYXZlQ29uZmlnIgogICAgICBAdGVzdD0ib25UZXN0IgogICAgLz4KCiAgICA8REROU0V4dHJhVGFyZ2V0c0NhcmQKICAgICAgOnRhcmdldHM9ImV4dHJhVGFyZ2V0cyIKICAgICAgOmlzLXNhdmluZy10YXJnZXQ9ImlzU2F2aW5nVGFyZ2V0IgogICAgICA6dGVzdGluZy10YXJnZXQtaWQ9InRlc3RpbmdUYXJnZXRJZCIKICAgICAgOnRvZ2dsaW5nLXRhcmdldC1pZD0idG9nZ2xpbmdUYXJnZXRJZCIKICAgICAgOmRlbGV0aW5nLXRhcmdldC1pZD0iZGVsZXRpbmdUYXJnZXRJZCIKICAgICAgOmNvcHktaXAtYWRkcmVzcz0iY29weUlwQWRkcmVzcyIKICAgICAgOmRlbGV0ZS10YXJnZXQ9Im9uRGVsZXRlRXh0cmFUYXJnZXQiCiAgICAgIDplZGl0LXRhcmdldD0ib3BlbkVkaXRUYXJnZXREaWFsb2ciCiAgICAgIDpnZXQtbGFzdC1jaGVjay10b29sdGlwLWxpbmVzPSJnZXRUYXJnZXRMYXN0Q2hlY2tUb29sdGlwTGluZXMiCiAgICAgIDp0ZXN0LXRhcmdldD0ib25UZXN0RXh0cmFUYXJnZXQiCiAgICAgIDp0b2dnbGUtdGFyZ2V0PSJvblRvZ2dsZUV4dHJhVGFyZ2V0IgogICAgICBAY3JlYXRlPSJvcGVuQ3JlYXRlVGFyZ2V0RGlhbG9nIgogICAgLz4KCiAgICA8REROU0xvZ3NDYXJkCiAgICAgIDpjYW4tY2xlYXI9ImxvZ3MubGVuZ3RoID4gMCIKICAgICAgOmNsZWFyLWxvZ3M9Im9uQ2xlYXJMb2dzIgogICAgICA6aXMtY2xlYXJpbmc9ImlzQ2xlYXJpbmdMb2dzIgogICAgICA6bG9nLWxpbmVzPSJsb2dMaW5lcyIKICAgIC8+CgogICAgPERETlNUYXJnZXREaWFsb2cKICAgICAgOm9wZW49InNob3dUYXJnZXREaWFsb2ciCiAgICAgIDp0aXRsZT0idGFyZ2V0RGlhbG9nVGl0bGUiCiAgICAgIDpkZXNjcmlwdGlvbj0idGFyZ2V0RGlhbG9nRGVzY3JpcHRpb24iCiAgICAgIDpzdGF0ZT0idGFyZ2V0RGlhbG9nU3RhdGUiCiAgICAgIDpwcm92aWRlcnM9InByb3ZpZGVycyIKICAgICAgOnByb3ZpZGVyLWRlZj0idGFyZ2V0RGlhbG9nUHJvdmlkZXJEZWYiCiAgICAgIDpyZXNvbHZlZC1uZXR3b3JrLWludGVyZmFjZXM9InRhcmdldERpYWxvZ1Jlc29sdmVkTmV0d29ya0ludGVyZmFjZXMiCiAgICAgIDpuZXR3b3JrLWludGVyZmFjZS1sYWJlbD0idGFyZ2V0RGlhbG9nTmV0d29ya0ludGVyZmFjZUxhYmVsIgogICAgICA6c2hvdWxkLXNob3ctc3RhdGljLWJsb2NrPSJ0YXJnZXREaWFsb2dTaG91bGRTaG93U3RhdGljQmxvY2siCiAgICAgIDpzaG91bGQtc2hvdy1kb21haW4tYmxvY2s9InRhcmdldERpYWxvZ1Nob3VsZFNob3dEb21haW5CbG9jayIKICAgICAgOnNob3VsZC1zaG93LWludGVyZmFjZS1ibG9jaz0idGFyZ2V0RGlhbG9nU2hvdWxkU2hvd0ludGVyZmFjZUJsb2NrIgogICAgICA6dXBkYXRlLXNjb3BlPSJ0YXJnZXREaWFsb2dVcGRhdGVTY29wZSIKICAgICAgOmlwdjQtb3B0aW9ucz0idGFyZ2V0RGlhbG9nSVB2NE9wdGlvbnMiCiAgICAgIDppcHY2LW9wdGlvbnM9InRhcmdldERpYWxvZ0lQdjZPcHRpb25zIgogICAgICA6aXMtc2F2aW5nPSJpc1NhdmluZ1RhcmdldCIKICAgICAgOmZvcm1hdC1vcHRpb24tbGFiZWw9ImZvcm1hdE9wdGlvbkxhYmVsIgogICAgICA6aXMtdXBkYXRlLXNjb3BlLW9wdGlvbi1kaXNhYmxlZD0iaXNQcm92aWRlclVwZGF0ZVNjb3BlT3B0aW9uRGlzYWJsZWQiCiAgICAgIDppcy1pcC1zb3VyY2Utb3B0aW9uLWRpc2FibGVkPSJpc1Byb3ZpZGVySXBTb3VyY2VPcHRpb25EaXNhYmxlZCIKICAgICAgOmdldC1maWVsZC1kZXNjcmlwdGlvbj0iZ2V0VGFyZ2V0RmllbGREZXNjcmlwdGlvbiIKICAgICAgOmdldC1maWVsZC1hdXRvY29tcGxldGU9ImdldEZpZWxkQXV0b2NvbXBsZXRlIgogICAgICA6Zm9ybWF0LWRvbWFpbi1maWVsZD0iZm9ybWF0VGFyZ2V0RG9tYWluT25CbHVyIgogICAgICA6aXMtZmllbGQtdmlzaWJsZT0iaXNUYXJnZXRGaWVsZFZpc2libGUiCiAgICAgIDp0b2dnbGUtZmllbGQtdmlzaWJpbGl0eT0idG9nZ2xlVGFyZ2V0RmllbGRWaXNpYmlsaXR5IgogICAgICBAdXBkYXRlOm9wZW49InNob3dUYXJnZXREaWFsb2cgPSAkZXZlbnQiCiAgICAgIEB1cGRhdGU6cHJvdmlkZXI9ImhhbmRsZVRhcmdldERpYWxvZ1Byb3ZpZGVyQ2hhbmdlIgogICAgICBAdXBkYXRlOm5ldHdvcmstaW50ZXJmYWNlPSJ1cGRhdGVUYXJnZXREaWFsb2dOZXR3b3JrSW50ZXJmYWNlIgogICAgICBAY29uZmlybT0ic2F2ZVRhcmdldERpYWxvZyIKICAgIC8+CgogICAgPERETlNVcGRhdGVJbnRlcnZhbERpYWxvZwogICAgICB2LW1vZGVsOmRyYWZ0PSJ1cGRhdGVJbnRlcnZhbERyYWZ0IgogICAgICA6b3Blbj0ic2hvd1VwZGF0ZUludGVydmFsRGlhbG9nIgogICAgICA6aXMtc2F2aW5nPSJpc1NhdmluZ1VwZGF0ZUludGVydmFsIgogICAgICBAdXBkYXRlOm9wZW49InNob3dVcGRhdGVJbnRlcnZhbERpYWxvZyA9ICRldmVudCIKICAgICAgQGNvbmZpcm09InNhdmVVcGRhdGVJbnRlcnZhbCIKICAgIC8+CgogICAgPERETlNQdWJsaWNDaGVja0RpYWxvZwogICAgICB2LW1vZGVsOmRyYWZ0PSJwdWJsaWNDaGVja0RyYWZ0IgogICAgICB2LW1vZGVsOmh0dHAtdHJhbnNwb3J0LWRyYWZ0PSJodHRwVHJhbnNwb3J0RHJhZnQiCiAgICAgIHYtbW9kZWw6cHVibGljLWRucy1wcm92aWRlci1kcmFmdD0icHVibGljRG5zUHJvdmlkZXJEcmFmdCIKICAgICAgOm9wZW49InNob3dQdWJsaWNDaGVja0RpYWxvZyIKICAgICAgOmlzLXNhdmluZz0iaXNTYXZpbmdQdWJsaWNDaGVja1NvdXJjZXMiCiAgICAgIDppcy10ZXN0aW5nPSJpc1Rlc3RpbmdQdWJsaWNDaGVja1NvdXJjZXMiCiAgICAgIDp0ZXN0LXJlc3VsdHM9InB1YmxpY0NoZWNrVGVzdFJlc3VsdHMiCiAgICAgIEB1cGRhdGU6b3Blbj0ic2hvd1B1YmxpY0NoZWNrRGlhbG9nID0gJGV2ZW50IgogICAgICBAcmVzdG9yZS1kZWZhdWx0cz0icmVzdG9yZVB1YmxpY0NoZWNrRGVmYXVsdHMiCiAgICAgIEBzYXZlPSJzYXZlUHVibGljQ2hlY2tTb3VyY2VzIgogICAgICBAdGVzdD0idGVzdFB1YmxpY0NoZWNrU291cmNlcyIKICAgIC8+CgogICAgPERETlNDbGVhclByaW1hcnlDb25maWdEaWFsb2cKICAgICAgOm9wZW49InNob3dDbGVhclByaW1hcnlDb25maWdEaWFsb2ciCiAgICAgIDppcy1jbGVhcmluZz0iaXNDbGVhcmluZ1ByaW1hcnlDb25maWciCiAgICAgIEB1cGRhdGU6b3Blbj0ic2hvd0NsZWFyUHJpbWFyeUNvbmZpZ0RpYWxvZyA9ICRldmVudCIKICAgICAgQGNvbmZpcm09ImNvbmZpcm1DbGVhclByaW1hcnlDb25maWciCiAgICAvPgoKICAgIDxDb25maXJtYXRpb25EaWFsb2cKICAgICAgOm9wZW49ImNvbmZpcm1hdGlvbkRpYWxvZ09wZW4iCiAgICAgIHYtYmluZD0iY29uZmlybWF0aW9uRGlhbG9nT3B0aW9ucyIKICAgICAgQHVwZGF0ZTpvcGVuPSJoYW5kbGVDb25maXJtYXRpb25EaWFsb2dPcGVuQ2hhbmdlIgogICAgICBAY29uZmlybT0iY29uZmlybVBlbmRpbmdBY3Rpb24iCiAgICAvPgogIDwvZGl2PgoKICA8ZGl2IHYtZWxzZSBjbGFzcz0iZmxleCBoLWZ1bGwgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIG1pbi1oLVs0MDBweF0iPgogICAgPGRpdgogICAgICBjbGFzcz0iYW5pbWF0ZS1zcGluIHJvdW5kZWQtZnVsbCBoLTggdy04IGJvcmRlci1iLTIgYm9yZGVyLXByaW1hcnkiCiAgICA+PC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { Settings2 } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Switch } from "@/components/ui/switch";
+import DocsLinkButton from "@/components/DocsLinkButton.vue";
+import ConfirmationDialog from "@admin-shared/components/common/ConfirmationDialog.vue";
+import { docsUrls } from "../../lib/docs";
+import DDNSClearPrimaryConfigDialog from "./DDNSClearPrimaryConfigDialog.vue";
+import DDNSExtraTargetsCard from "./DDNSExtraTargetsCard.vue";
+import DDNSLogsCard from "./DDNSLogsCard.vue";
+import DDNSPrimaryConfigCard from "./DDNSPrimaryConfigCard.vue";
+import DDNSPublicCheckDialog from "./DDNSPublicCheckDialog.vue";
+import DDNSStatusCard from "./DDNSStatusCard.vue";
+import DDNSTargetDialog from "./DDNSTargetDialog.vue";
+import DDNSUpdateIntervalDialog from "./DDNSUpdateIntervalDialog.vue";
+import type { DDNSManagementPageController } from "./useDDNSManagementPage";
+
+const props = defineProps<{ controller: DDNSManagementPageController }>();
+const {
+  applyCredentialTransfer,
+  configuredNetworkInterface,
+  configuredNetworkInterfaceLabel,
+  confirmClearPrimaryConfig,
+  confirmPendingAction,
+  confirmationDialogOpen,
+  confirmationDialogOptions,
+  copyIpAddress,
+  credentialTransferDescription,
+  credentialTransferSuggestion,
+  currentIpSourceLabel,
+  currentNetworkInterfaceLabel,
+  currentProviderDef,
+  currentUpdateScopeLabel,
+  deletingTargetId,
+  enableFieldEditing,
+  enabled,
+  extraTargets,
+  fieldVisibility,
+  formatOptionLabel,
+  formatPrimaryDomainOnBlur,
+  formatTargetDomainOnBlur,
+  getFieldAutocomplete,
+  getFieldDomId,
+  getFieldInputName,
+  getPrimaryFieldDescription,
+  getTargetFieldDescription,
+  getTargetLastCheckTooltipLines,
+  handleConfirmationDialogOpenChange,
+  handleTargetDialogProviderChange,
+  hasProviderConfig,
+  hasSavedProviderConfig,
+  httpTransportDraft,
+  interfaceIPv4Options,
+  interfaceIPv6Options,
+  isClearingLogs,
+  isClearingPrimaryConfig,
+  isEnabledSwitchDisabled,
+  isFieldEditReady,
+  isInitialized,
+  isLoading,
+  isPrimaryConfigDirty,
+  isProviderIpSourceOptionDisabled,
+  isProviderSelectDisabled,
+  isProviderUpdateScopeOptionDisabled,
+  isSaving,
+  isSavingPublicCheckSources,
+  isSavingTarget,
+  isSavingUpdateInterval,
+  isTargetFieldVisible,
+  isTesting,
+  isTestingPublicCheckSources,
+  isTransferSourceLoading,
+  lastCheck,
+  lastCheckTooltipLines,
+  lastIP,
+  logLines,
+  logs,
+  onCancelPrimaryConfigEdit,
+  onClearLogs,
+  onDeleteExtraTarget,
+  onProviderChange,
+  onSaveConfig,
+  onTest,
+  onTestExtraTarget,
+  onToggleExtraTarget,
+  openClearPrimaryConfigDialog,
+  openCreateTargetDialog,
+  openEditTargetDialog,
+  openPublicCheckDialog,
+  openUpdateIntervalDialog,
+  providerConfig,
+  providers,
+  publicCheckDraft,
+  publicCheckTestResults,
+  publicDnsProviderDraft,
+  resolvedNetworkInterfaces,
+  restorePublicCheckDefaults,
+  savePublicCheckSources,
+  saveTargetDialog,
+  saveUpdateInterval,
+  selectedNetworkInterfaceDetail,
+  selectedProvider,
+  selectionAnchor,
+  setProviderConfigField,
+  shouldShowInterfaceAddressBlock,
+  shouldShowSourceDomainBlock,
+  showClearPrimaryConfigDialog,
+  showIPv4Status,
+  showIPv6Status,
+  showInterfaceIPv4Select,
+  showInterfaceIPv6Select,
+  showPublicCheckDialog,
+  showStaticIPv4Input,
+  showStaticIPv6Input,
+  showTargetDialog,
+  showUpdateIntervalDialog,
+  t,
+  targetDialogDescription,
+  targetDialogIPv4Options,
+  targetDialogIPv6Options,
+  targetDialogNetworkInterfaceLabel,
+  targetDialogProviderDef,
+  targetDialogResolvedNetworkInterfaces,
+  targetDialogShouldShowDomainBlock,
+  targetDialogShouldShowInterfaceBlock,
+  targetDialogShouldShowStaticBlock,
+  targetDialogState,
+  targetDialogTitle,
+  targetDialogUpdateScope,
+  testPublicCheckSources,
+  testingTargetId,
+  toggleFieldVisibility,
+  toggleTargetFieldVisibility,
+  togglingTargetId,
+  transferSourceScopeLabel,
+  updateConfiguredIpSource,
+  updateConfiguredNetworkInterface,
+  updateIntervalDraft,
+  updateIntervalLabel,
+  updateTargetDialogNetworkInterface,
+} = props.controller;
+</script>
+
+<template>
+  <div v-if="isInitialized && !isLoading" class="space-y-3">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <h2 class="text-xl font-semibold">{{ t("admin.ddns.title") }}</h2>
+        <Button
+          variant="ghost"
+          size="icon-sm"
+          class="text-muted-foreground hover:text-foreground"
+          :aria-label="t('admin.ddns.publicCheckSettings')"
+          :title="t('admin.ddns.publicCheckSettings')"
+          @click="openPublicCheckDialog"
+        >
+          <Settings2 class="h-4 w-4" />
+        </Button>
+        <DocsLinkButton :href="docsUrls.guides.ddns" />
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="text-sm text-muted-foreground">{{
+          enabled ? t("admin.ddns.enabled") : t("admin.ddns.disabled")
+        }}</span>
+        <Switch
+          v-model="enabled"
+          :aria-label="t('admin.ddns.enabled')"
+          :disabled="isEnabledSwitchDisabled"
+        />
+      </div>
+    </div>
+
+    <DDNSStatusCard
+      :copy-ip-address="copyIpAddress"
+      :current-ip-source-label="currentIpSourceLabel"
+      :current-network-interface-label="currentNetworkInterfaceLabel"
+      :current-update-scope-label="currentUpdateScopeLabel"
+      :enabled="enabled"
+      :last-check="lastCheck"
+      :last-check-tooltip-lines="lastCheckTooltipLines"
+      :last-ip="lastIP"
+      :open-update-interval-dialog="openUpdateIntervalDialog"
+      :show-ipv4-status="showIPv4Status"
+      :show-ipv6-status="showIPv6Status"
+      :update-interval-label="updateIntervalLabel"
+    />
+
+    <DDNSPrimaryConfigCard
+      :configured="hasProviderConfig"
+      :configured-network-interface="configuredNetworkInterface"
+      :configured-network-interface-label="configuredNetworkInterfaceLabel"
+      :credential-transfer-description="credentialTransferDescription"
+      :credential-transfer-suggestion="credentialTransferSuggestion"
+      :enable-field-editing="enableFieldEditing"
+      :field-visibility="fieldVisibility"
+      :format-option-label="formatOptionLabel"
+      :get-field-autocomplete="getFieldAutocomplete"
+      :get-field-description="getPrimaryFieldDescription"
+      :get-field-dom-id="getFieldDomId"
+      :get-field-input-name="getFieldInputName"
+      :has-saved-provider-config="hasSavedProviderConfig"
+      :interface-i-pv4-options="interfaceIPv4Options"
+      :interface-i-pv6-options="interfaceIPv6Options"
+      :last-ip="lastIP"
+      :selection-anchor="selectionAnchor"
+      :is-clearing-primary-config="isClearingPrimaryConfig"
+      :is-dirty="isPrimaryConfigDirty"
+      :is-field-edit-ready="isFieldEditReady"
+      :is-ip-source-option-disabled="isProviderIpSourceOptionDisabled"
+      :is-provider-select-disabled="isProviderSelectDisabled"
+      :is-saving="isSaving"
+      :is-testing="isTesting"
+      :is-transfer-source-loading="isTransferSourceLoading"
+      :is-update-scope-option-disabled="isProviderUpdateScopeOptionDisabled"
+      :provider-config="providerConfig"
+      :provider-def="currentProviderDef"
+      :providers="providers"
+      :ready="!isLoading"
+      :resolved-network-interfaces="resolvedNetworkInterfaces"
+      :selected-network-interface-detail="selectedNetworkInterfaceDetail"
+      :selected-provider="selectedProvider"
+      :set-field-value="setProviderConfigField"
+      :format-domain-field="formatPrimaryDomainOnBlur"
+      :show-interface-address-block="shouldShowInterfaceAddressBlock"
+      :show-interface-i-pv4-select="showInterfaceIPv4Select"
+      :show-interface-i-pv6-select="showInterfaceIPv6Select"
+      :show-source-domain-block="shouldShowSourceDomainBlock"
+      :show-static-i-pv4-input="showStaticIPv4Input"
+      :show-static-i-pv6-input="showStaticIPv6Input"
+      :toggle-field-visibility="toggleFieldVisibility"
+      :transfer-source-scope-label="transferSourceScopeLabel"
+      :update-ip-source="updateConfiguredIpSource"
+      :update-network-interface="updateConfiguredNetworkInterface"
+      @apply-credential-transfer="applyCredentialTransfer"
+      @cancel="onCancelPrimaryConfigEdit"
+      @clear-primary-config="openClearPrimaryConfigDialog"
+      @provider-change="onProviderChange"
+      @save="onSaveConfig"
+      @test="onTest"
+    />
+
+    <DDNSExtraTargetsCard
+      :targets="extraTargets"
+      :is-saving-target="isSavingTarget"
+      :testing-target-id="testingTargetId"
+      :toggling-target-id="togglingTargetId"
+      :deleting-target-id="deletingTargetId"
+      :copy-ip-address="copyIpAddress"
+      :delete-target="onDeleteExtraTarget"
+      :edit-target="openEditTargetDialog"
+      :get-last-check-tooltip-lines="getTargetLastCheckTooltipLines"
+      :test-target="onTestExtraTarget"
+      :toggle-target="onToggleExtraTarget"
+      @create="openCreateTargetDialog"
+    />
+
+    <DDNSLogsCard
+      :can-clear="logs.length > 0"
+      :clear-logs="onClearLogs"
+      :is-clearing="isClearingLogs"
+      :log-lines="logLines"
+    />
+
+    <DDNSTargetDialog
+      :open="showTargetDialog"
+      :title="targetDialogTitle"
+      :description="targetDialogDescription"
+      :state="targetDialogState"
+      :providers="providers"
+      :provider-def="targetDialogProviderDef"
+      :resolved-network-interfaces="targetDialogResolvedNetworkInterfaces"
+      :network-interface-label="targetDialogNetworkInterfaceLabel"
+      :should-show-static-block="targetDialogShouldShowStaticBlock"
+      :should-show-domain-block="targetDialogShouldShowDomainBlock"
+      :should-show-interface-block="targetDialogShouldShowInterfaceBlock"
+      :update-scope="targetDialogUpdateScope"
+      :ipv4-options="targetDialogIPv4Options"
+      :ipv6-options="targetDialogIPv6Options"
+      :is-saving="isSavingTarget"
+      :format-option-label="formatOptionLabel"
+      :is-update-scope-option-disabled="isProviderUpdateScopeOptionDisabled"
+      :is-ip-source-option-disabled="isProviderIpSourceOptionDisabled"
+      :get-field-description="getTargetFieldDescription"
+      :get-field-autocomplete="getFieldAutocomplete"
+      :format-domain-field="formatTargetDomainOnBlur"
+      :is-field-visible="isTargetFieldVisible"
+      :toggle-field-visibility="toggleTargetFieldVisibility"
+      @update:open="showTargetDialog = $event"
+      @update:provider="handleTargetDialogProviderChange"
+      @update:network-interface="updateTargetDialogNetworkInterface"
+      @confirm="saveTargetDialog"
+    />
+
+    <DDNSUpdateIntervalDialog
+      v-model:draft="updateIntervalDraft"
+      :open="showUpdateIntervalDialog"
+      :is-saving="isSavingUpdateInterval"
+      @update:open="showUpdateIntervalDialog = $event"
+      @confirm="saveUpdateInterval"
+    />
+
+    <DDNSPublicCheckDialog
+      v-model:draft="publicCheckDraft"
+      v-model:http-transport-draft="httpTransportDraft"
+      v-model:public-dns-provider-draft="publicDnsProviderDraft"
+      :open="showPublicCheckDialog"
+      :is-saving="isSavingPublicCheckSources"
+      :is-testing="isTestingPublicCheckSources"
+      :test-results="publicCheckTestResults"
+      @update:open="showPublicCheckDialog = $event"
+      @restore-defaults="restorePublicCheckDefaults"
+      @save="savePublicCheckSources"
+      @test="testPublicCheckSources"
+    />
+
+    <DDNSClearPrimaryConfigDialog
+      :open="showClearPrimaryConfigDialog"
+      :is-clearing="isClearingPrimaryConfig"
+      @update:open="showClearPrimaryConfigDialog = $event"
+      @confirm="confirmClearPrimaryConfig"
+    />
+
+    <ConfirmationDialog
+      :open="confirmationDialogOpen"
+      v-bind="confirmationDialogOptions"
+      @update:open="handleConfirmationDialogOpenChange"
+      @confirm="confirmPendingAction"
+    />
+  </div>
+
+  <div v-else class="flex h-full items-center justify-center min-h-[400px]">
+    <div
+      class="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"
+    ></div>
+  </div>
+</template>

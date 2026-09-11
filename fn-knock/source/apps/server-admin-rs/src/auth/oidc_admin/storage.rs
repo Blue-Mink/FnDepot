@@ -1,1 +1,411 @@
-dXNlIHNlcmRlX2pzb246OntWYWx1ZSwganNvbn07Cgp1c2UgY3JhdGU6OntzdGF0ZTo6QXBwU3RhdGUsIHRpbWVfdXRpbHN9OwoKdXNlIHN1cGVyOjp7CiAgICBCSU5ESU5HU19JTkRFWF9LRVksIFBST1ZJREVSU19JTkRFWF9LRVksCiAgICBwcm92aWRlcjo6bWlzc2luZ19yZXF1aXJlZF9wcm92aWRlcl9maWVsZHMsCiAgICB0b2tlbnM6OnsKICAgICAgICBiaW5kaW5nX2tleSwgaW52aXRlX2tleSwgbG9naW5fZXJyb3Jfa2V5LCBwcm92aWRlcl9rZXksIHNoYTI1Nl9oZXgsIHN0YXRlX2tleSwKICAgICAgICBzdWJqZWN0X2JpbmRpbmdfa2V5LAogICAgfSwKfTsKCmFzeW5jIGZuIHZlcmlmeV9pZGVudGl0eV9zaGFkb3coc3RhdGU6ICZBcHBTdGF0ZSkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAudmVyaWZ5X2lkZW50aXR5X3J1bnRpbWVfc2hhZG93KCJvaWRjIikKICAgICAgICAuYXdhaXQKfQoKYXN5bmMgZm4gb2lkY19nZXRfcHJvdmlkZXJfdW52ZXJpZmllZCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBpZDogJnN0ciwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxPcHRpb248VmFsdWU+PiB7CiAgICBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9qc29uX3ZhbHVlKCZwcm92aWRlcl9rZXkoaWQpKS5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIG9pZGNfbGlzdF9wcm92aWRlcnMoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAopIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PFZlYzxWYWx1ZT4+IHsKICAgIHZlcmlmeV9pZGVudGl0eV9zaGFkb3coc3RhdGUpLmF3YWl0PzsKICAgIGxldCBpZHMgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnpyZXZyYW5nZV9zdHJpbmdzKFBST1ZJREVSU19JTkRFWF9LRVkpCiAgICAgICAgLmF3YWl0PzsKICAgIGxldCBtdXQgcHJvdmlkZXJzID0gVmVjOjpuZXcoKTsKICAgIGxldCBtdXQgc3RhbGUgPSBWZWM6Om5ldygpOwogICAgZm9yIGlkIGluIGlkcyB7CiAgICAgICAgbWF0Y2ggb2lkY19nZXRfcHJvdmlkZXJfdW52ZXJpZmllZChzdGF0ZSwgJmlkKS5hd2FpdD8gewogICAgICAgICAgICBTb21lKHByb3ZpZGVyKSA9PiBwcm92aWRlcnMucHVzaChwcm92aWRlciksCiAgICAgICAgICAgIE5vbmUgPT4gc3RhbGUucHVzaChpZCksCiAgICAgICAgfQogICAgfQogICAgZm9yIGlkIGluIHN0YWxlIHsKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnpyZW1fc3RyaW5nX21lbWJlcihQUk9WSURFUlNfSU5ERVhfS0VZLCAmaWQpCiAgICAgICAgICAgIC5hd2FpdD87CiAgICB9CiAgICBPayhwcm92aWRlcnMpCn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gb2lkY19wdWJsaWNfcHJvdmlkZXJzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxWZWM8VmFsdWU+PiB7CiAgICBPayhvaWRjX2xpc3RfcHJvdmlkZXJzKHN0YXRlKQogICAgICAgIC5hd2FpdD8KICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAuZmlsdGVyKHxwcm92aWRlcnwgcHJvdmlkZXIuZ2V0KCJlbmFibGVkIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpID09IFNvbWUodHJ1ZSkpCiAgICAgICAgLmZpbHRlcih8cHJvdmlkZXJ8IG1pc3NpbmdfcmVxdWlyZWRfcHJvdmlkZXJfZmllbGRzKHByb3ZpZGVyKS5pc19lbXB0eSgpKQogICAgICAgIC5tYXAofHByb3ZpZGVyfCB7CiAgICAgICAgICAgIGpzb24hKHsKICAgICAgICAgICAgICAgICJpZCI6IHByb3ZpZGVyLmdldCgiaWQiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6OlN0cmluZyhTdHJpbmc6Om5ldygpKSksCiAgICAgICAgICAgICAgICAidHlwZSI6IHByb3ZpZGVyLmdldCgidHlwZSIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6U3RyaW5nKFN0cmluZzo6bmV3KCkpKSwKICAgICAgICAgICAgICAgICJuYW1lIjogcHJvdmlkZXIuZ2V0KCJuYW1lIikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpTdHJpbmcoU3RyaW5nOjpuZXcoKSkpLAogICAgICAgICAgICAgICAgInByb3RvY29sIjogcHJvdmlkZXIuZ2V0KCJwcm90b2NvbCIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6U3RyaW5nKFN0cmluZzo6bmV3KCkpKSwKICAgICAgICAgICAgfSkKICAgICAgICB9KQogICAgICAgIC5jb2xsZWN0KCkpCn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gb2lkY19pbnNwZWN0X2ludml0ZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICB0b2tlbjogJnN0ciwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxPcHRpb248VmFsdWU+PiB7CiAgICB2ZXJpZnlfaWRlbnRpdHlfc2hhZG93KHN0YXRlKS5hd2FpdD87CiAgICBsZXQgbm9ybWFsaXplZF90b2tlbiA9IHRva2VuLnRyaW0oKTsKICAgIGlmIG5vcm1hbGl6ZWRfdG9rZW4uaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfQogICAgbGV0IHRva2VuX2hhc2ggPSBzaGEyNTZfaGV4KG5vcm1hbGl6ZWRfdG9rZW4pOwogICAgbGV0IFNvbWUoaW52aXRlKSA9IHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZ2V0X2pzb25fdmFsdWUoJmludml0ZV9rZXkoJnRva2VuX2hhc2gpKQogICAgICAgIC5hd2FpdD8KICAgIGVsc2UgewogICAgICAgIHJldHVybiBPayhOb25lKTsKICAgIH07CiAgICBsZXQgZXhwaXJlc19hdCA9IGludml0ZQogICAgICAgIC5nZXQoImV4cGlyZXNfYXQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3IoIiIpOwogICAgaWYgaW52aXRlLmdldCgidXNlZF9hdCIpLmlzX3NvbWUoKQogICAgICAgIHx8IHRpbWVfdXRpbHM6OnBhcnNlX2lzb19tcyhleHBpcmVzX2F0KS51bndyYXBfb3IoMCkgPD0gdGltZV91dGlsczo6bm93X21zKCkKICAgIHsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9CiAgICBsZXQgdG90cF9pZCA9IGludml0ZS5nZXQoInRvdHBfaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpOwogICAgbGV0IFNvbWUodG90cCkgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmdldF90b3RwcygpCiAgICAgICAgLmF3YWl0PwogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5maW5kKHxjcmVkZW50aWFsfCBjcmVkZW50aWFsLmlkID09IHRvdHBfaWQpCiAgICBlbHNlIHsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9OwogICAgbGV0IGludml0ZV9wcm92aWRlcl9pZCA9IGludml0ZS5nZXQoInByb3ZpZGVyX2lkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cik7CiAgICBsZXQgcHJvdmlkZXJzID0gb2lkY19wdWJsaWNfcHJvdmlkZXJzKHN0YXRlKQogICAgICAgIC5hd2FpdD8KICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAuZmlsdGVyKHxwcm92aWRlcnwgewogICAgICAgICAgICBpbnZpdGVfcHJvdmlkZXJfaWQKICAgICAgICAgICAgICAgIC5tYXAofGlkfCBwcm92aWRlci5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZShpZCkpCiAgICAgICAgICAgICAgICAudW53cmFwX29yKHRydWUpCiAgICAgICAgfSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIE9rKFNvbWUoanNvbiEoewogICAgICAgICJ0b3RwIjogeyAiaWQiOiB0b3RwLmlkLCAiY29tbWVudCI6IHRvdHAuY29tbWVudCB9LAogICAgICAgICJwcm92aWRlcl9pZCI6IGludml0ZV9wcm92aWRlcl9pZCwKICAgICAgICAiZXhwaXJlc19hdCI6IGV4cGlyZXNfYXQsCiAgICAgICAgIm5vdGUiOiBpbnZpdGUuZ2V0KCJub3RlIikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgICAgICAicHJvdmlkZXJzIjogcHJvdmlkZXJzLAogICAgfSkpKQp9CgpwdWIoY3JhdGUpIGFzeW5jIGZuIG9pZGNfZ2V0X3Byb3ZpZGVyKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGlkOiAmc3RyLAopIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PE9wdGlvbjxWYWx1ZT4+IHsKICAgIHZlcmlmeV9pZGVudGl0eV9zaGFkb3coc3RhdGUpLmF3YWl0PzsKICAgIG9pZGNfZ2V0X3Byb3ZpZGVyX3VudmVyaWZpZWQoc3RhdGUsIGlkKS5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIG9pZGNfc2F2ZV9wcm92aWRlcigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBwcm92aWRlcjogJlZhbHVlLAopIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICBsZXQgaWQgPSBwcm92aWRlci5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKTsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2V0X2pzb25fdmFsdWUoJnByb3ZpZGVyX2tleShpZCksIHByb3ZpZGVyKQogICAgICAgIC5hd2FpdD87CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnphZGRfc3RyaW5nX21lbWJlcigKICAgICAgICAgICAgUFJPVklERVJTX0lOREVYX0tFWSwKICAgICAgICAgICAgaWQsCiAgICAgICAgICAgIHByb3ZpZGVyCiAgICAgICAgICAgICAgICAuZ2V0KCJ1cGRhdGVkX2F0IikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKHRpbWVfdXRpbHM6OnBhcnNlX2lzb19tcykKICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh0aW1lX3V0aWxzOjpub3dfbXMpLAogICAgICAgICkKICAgICAgICAuYXdhaXQKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBvaWRjX2RlbGV0ZV9wcm92aWRlcigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBpZDogJnN0ciwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgbGV0IGJpbmRpbmdzID0gb2lkY19saXN0X2JpbmRpbmdzKHN0YXRlKS5hd2FpdD87CiAgICBzdGF0ZS5zdG9yYWdlLnN0b3JlLmRlbGV0ZV9rZXlzKCZbcHJvdmlkZXJfa2V5KGlkKV0pLmF3YWl0PzsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuenJlbV9zdHJpbmdfbWVtYmVyKFBST1ZJREVSU19JTkRFWF9LRVksIGlkKQogICAgICAgIC5hd2FpdD87CiAgICBmb3IgYmluZGluZyBpbiBiaW5kaW5ncwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyKHxiaW5kaW5nfCBiaW5kaW5nLmdldCgicHJvdmlkZXJfaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKGlkKSkKICAgIHsKICAgICAgICBpZiBsZXQgU29tZShiaW5kaW5nX2lkKSA9IGJpbmRpbmcuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpIHsKICAgICAgICAgICAgbGV0IF8gPSBvaWRjX2RlbGV0ZV9iaW5kaW5nKHN0YXRlLCBiaW5kaW5nX2lkKS5hd2FpdD87CiAgICAgICAgfQogICAgfQogICAgT2soKCkpCn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gb2lkY19saXN0X2JpbmRpbmdzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxWZWM8VmFsdWU+PiB7CiAgICB2ZXJpZnlfaWRlbnRpdHlfc2hhZG93KHN0YXRlKS5hd2FpdD87CiAgICBsZXQgaWRzID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC56cmV2cmFuZ2Vfc3RyaW5ncyhCSU5ESU5HU19JTkRFWF9LRVkpCiAgICAgICAgLmF3YWl0PzsKICAgIGxldCBtdXQgYmluZGluZ3MgPSBWZWM6Om5ldygpOwogICAgbGV0IG11dCBzdGFsZSA9IFZlYzo6bmV3KCk7CiAgICBmb3IgaWQgaW4gaWRzIHsKICAgICAgICBtYXRjaCBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLmdldF9qc29uX3ZhbHVlKCZiaW5kaW5nX2tleSgmaWQpKQogICAgICAgICAgICAuYXdhaXQ/CiAgICAgICAgewogICAgICAgICAgICBTb21lKGJpbmRpbmcpID0+IGJpbmRpbmdzLnB1c2goYmluZGluZyksCiAgICAgICAgICAgIE5vbmUgPT4gc3RhbGUucHVzaChpZCksCiAgICAgICAgfQogICAgfQogICAgZm9yIGlkIGluIHN0YWxlIHsKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnpyZW1fc3RyaW5nX21lbWJlcihCSU5ESU5HU19JTkRFWF9LRVksICZpZCkKICAgICAgICAgICAgLmF3YWl0PzsKICAgIH0KICAgIE9rKGJpbmRpbmdzKQp9CgpwdWIoY3JhdGUpIGFzeW5jIGZuIG9pZGNfZ2V0X2JpbmRpbmdfYnlfc3ViamVjdCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBzdWJqZWN0X2tleTogJnN0ciwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxPcHRpb248VmFsdWU+PiB7CiAgICB2ZXJpZnlfaWRlbnRpdHlfc2hhZG93KHN0YXRlKS5hd2FpdD87CiAgICBsZXQgc3ViamVjdF9pbmRleF9rZXkgPSBzdWJqZWN0X2JpbmRpbmdfa2V5KHN1YmplY3Rfa2V5KTsKICAgIGxldCBTb21lKGJpbmRpbmdfaWQpID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfc3RyaW5nX3ZhbHVlKCZzdWJqZWN0X2luZGV4X2tleSkKICAgICAgICAuYXdhaXQ/CiAgICBlbHNlIHsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9OwogICAgbGV0IGJpbmRpbmcgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmdldF9qc29uX3ZhbHVlKCZiaW5kaW5nX2tleSgmYmluZGluZ19pZCkpCiAgICAgICAgLmF3YWl0PzsKICAgIGlmIGJpbmRpbmcuaXNfbm9uZSgpIHsKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLmRlbGV0ZV9rZXlfaWZfdmFsdWUoJnN1YmplY3RfaW5kZXhfa2V5LCAmYmluZGluZ19pZCkKICAgICAgICAgICAgLmF3YWl0PzsKICAgIH0KICAgIE9rKGJpbmRpbmcpCn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gb2lkY191cGRhdGVfYmluZGluZ19pZl9vd25lZCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBiaW5kaW5nOiAmVmFsdWUsCikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgbGV0IGlkID0gYmluZGluZy5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKTsKICAgIGxldCBzdWJqZWN0X2tleSA9IGJpbmRpbmcKICAgICAgICAuZ2V0KCJzdWJqZWN0X2tleSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcigiIik7CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnVwZGF0ZV9iaW5kaW5nX2lmX293bmVkKGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZTo6T3duZWRCaW5kaW5nVXBkYXRlIHsKICAgICAgICAgICAgc3ViamVjdF9rZXk6ICZzdWJqZWN0X2JpbmRpbmdfa2V5KHN1YmplY3Rfa2V5KSwKICAgICAgICAgICAgYmluZGluZ19rZXk6ICZiaW5kaW5nX2tleShpZCksCiAgICAgICAgICAgIGJpbmRpbmdzX2luZGV4X2tleTogQklORElOR1NfSU5ERVhfS0VZLAogICAgICAgICAgICBiaW5kaW5nX2lkOiBpZCwKICAgICAgICAgICAgYmluZGluZywKICAgICAgICAgICAgc2NvcmU6IGJpbmRpbmcKICAgICAgICAgICAgICAgIC5nZXQoInVwZGF0ZWRfYXQiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4odGltZV91dGlsczo6cGFyc2VfaXNvX21zKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHRpbWVfdXRpbHM6Om5vd19tcyksCiAgICAgICAgfSkKICAgICAgICAuYXdhaXQKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBvaWRjX2RlbGV0ZV9iaW5kaW5nKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGlkOiAmc3RyLAopIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PGJvb2w+IHsKICAgIGxldCBTb21lKGJpbmRpbmcpID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfanNvbl92YWx1ZSgmYmluZGluZ19rZXkoaWQpKS5hd2FpdD8gZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKGZhbHNlKTsKICAgIH07CiAgICBsZXQgYmluZGluZ19kYXRhX2tleSA9IGJpbmRpbmdfa2V5KGlkKTsKICAgIGxldCBzdWJqZWN0X2luZGV4X2tleSA9IGJpbmRpbmcKICAgICAgICAuZ2V0KCJzdWJqZWN0X2tleSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIC5tYXAoc3ViamVjdF9iaW5kaW5nX2tleSkKICAgICAgICAudW53cmFwX29yX2Vsc2UofHwgYmluZGluZ19kYXRhX2tleS5jbG9uZSgpKTsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZGVsZXRlX2JpbmRpbmdfaWZfb3duZWQoY3JhdGU6OnN0b3JhZ2U6OnJlZGlzX3N0b3JlOjpPd25lZEJpbmRpbmdEZWxldGUgewogICAgICAgICAgICBzdWJqZWN0X2tleTogJnN1YmplY3RfaW5kZXhfa2V5LAogICAgICAgICAgICBiaW5kaW5nX2tleTogJmJpbmRpbmdfZGF0YV9rZXksCiAgICAgICAgICAgIGJpbmRpbmdzX2luZGV4X2tleTogQklORElOR1NfSU5ERVhfS0VZLAogICAgICAgICAgICBiaW5kaW5nX2lkOiBpZCwKICAgICAgICB9KQogICAgICAgIC5hd2FpdAp9CgpwdWIoY3JhdGUpIGFzeW5jIGZuIG9pZGNfZGVsZXRlX2JpbmRpbmdzX2J5X3RvdHAoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgdG90cF9pZDogJnN0ciwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDx1c2l6ZT4gewogICAgbGV0IGJpbmRpbmdzID0gb2lkY19saXN0X2JpbmRpbmdzKHN0YXRlKS5hd2FpdD87CiAgICBsZXQgbXV0IGRlbGV0ZWQgPSAwdXNpemU7CiAgICBmb3IgYmluZGluZyBpbiBiaW5kaW5ncyB7CiAgICAgICAgaWYgYmluZGluZy5nZXQoInRvdHBfaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSAhPSBTb21lKHRvdHBfaWQpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBTb21lKGJpbmRpbmdfaWQpID0gYmluZGluZy5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgZWxzZSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH07CiAgICAgICAgaWYgb2lkY19kZWxldGVfYmluZGluZyhzdGF0ZSwgYmluZGluZ19pZCkuYXdhaXQ/IHsKICAgICAgICAgICAgZGVsZXRlZCArPSAxOwogICAgICAgIH0KICAgIH0KICAgIE9rKGRlbGV0ZWQpCn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gb2lkY19jbGFpbV9iaW5kaW5nX2FuZF9jb25zdW1lX2ludml0ZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICB0b2tlbl9oYXNoOiAmc3RyLAogICAgYmluZGluZzogJlZhbHVlLAopIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PGJvb2w+IHsKICAgIGxldCBpZCA9IGJpbmRpbmcuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIik7CiAgICBsZXQgc3ViamVjdF9rZXkgPSBiaW5kaW5nCiAgICAgICAgLmdldCgic3ViamVjdF9rZXkiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3IoIiIpOwogICAgbGV0IHByb3ZpZGVyX2lkID0gYmluZGluZwogICAgICAgIC5nZXQoInByb3ZpZGVyX2lkIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAudW53cmFwX29yKCIiKTsKICAgIGxldCB0b3RwX2lkID0gYmluZGluZy5nZXQoInRvdHBfaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpOwogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5jbGFpbV9vaWRjX2JpbmRpbmdfYW5kX2NvbnN1bWVfaW52aXRlKGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZTo6T2lkY0JpbmRpbmdDbGFpbSB7CiAgICAgICAgICAgIGludml0ZV9rZXk6ICZpbnZpdGVfa2V5KHRva2VuX2hhc2gpLAogICAgICAgICAgICBzdWJqZWN0X2tleTogJnN1YmplY3RfYmluZGluZ19rZXkoc3ViamVjdF9rZXkpLAogICAgICAgICAgICBiaW5kaW5nX2tleTogJmJpbmRpbmdfa2V5KGlkKSwKICAgICAgICAgICAgYmluZGluZ3NfaW5kZXhfa2V5OiBCSU5ESU5HU19JTkRFWF9LRVksCiAgICAgICAgICAgIGJpbmRpbmdfaWQ6IGlkLAogICAgICAgICAgICBiaW5kaW5nLAogICAgICAgICAgICBwcm92aWRlcl9pZCwKICAgICAgICAgICAgdG90cF9pZCwKICAgICAgICAgICAgc2NvcmU6IGJpbmRpbmcKICAgICAgICAgICAgICAgIC5nZXQoInVwZGF0ZWRfYXQiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4odGltZV91dGlsczo6cGFyc2VfaXNvX21zKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHRpbWVfdXRpbHM6Om5vd19tcyksCiAgICAgICAgfSkKICAgICAgICAuYXdhaXQKfQoKcHViKGNyYXRlKSBhc3luYyBmbiBvaWRjX3NhdmVfc3RhdGUoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgYXV0aF9zdGF0ZTogJlZhbHVlLAogICAgdHRsX3NlY29uZHM6IHVzaXplLAopIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICBsZXQgc3RhdGVfaGFzaCA9IGF1dGhfc3RhdGUKICAgICAgICAuZ2V0KCJzdGF0ZV9oYXNoIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAudW53cmFwX29yKCIiKTsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2V0X2pzb25fdmFsdWVfZXgoJnN0YXRlX2tleShzdGF0ZV9oYXNoKSwgYXV0aF9zdGF0ZSwgdHRsX3NlY29uZHMpCiAgICAgICAgLmF3YWl0Cn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gb2lkY19jb25zdW1lX3N0YXRlKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHN0YXRlX2hhc2g6ICZzdHIsCikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFZhbHVlPj4gewogICAgdmVyaWZ5X2lkZW50aXR5X3NoYWRvdyhzdGF0ZSkuYXdhaXQ/OwogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5jb25zdW1lX2pzb25fdmFsdWUoJnN0YXRlX2tleShzdGF0ZV9oYXNoKSkKICAgICAgICAuYXdhaXQKfQoKcHViKGNyYXRlKSBhc3luYyBmbiBvaWRjX3NhdmVfbG9naW5fZXJyb3Jfbm90aWNlKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIG5vdGljZTogJlZhbHVlLAogICAgdHRsX3NlY29uZHM6IHVzaXplLAopIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICBsZXQgdG9rZW5faGFzaCA9IG5vdGljZQogICAgICAgIC5nZXQoInRva2VuX2hhc2giKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3IoIiIpOwogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5zZXRfanNvbl92YWx1ZV9leCgmbG9naW5fZXJyb3Jfa2V5KHRva2VuX2hhc2gpLCBub3RpY2UsIHR0bF9zZWNvbmRzKQogICAgICAgIC5hd2FpdAp9CgpwdWIoY3JhdGUpIGFzeW5jIGZuIG9pZGNfY29uc3VtZV9sb2dpbl9lcnJvcl9ub3RpY2UoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgdG9rZW5faGFzaDogJnN0ciwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxPcHRpb248VmFsdWU+PiB7CiAgICB2ZXJpZnlfaWRlbnRpdHlfc2hhZG93KHN0YXRlKS5hd2FpdD87CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmNvbnN1bWVfanNvbl92YWx1ZSgmbG9naW5fZXJyb3Jfa2V5KHRva2VuX2hhc2gpKQogICAgICAgIC5hd2FpdAp9Cg==
+use serde_json::{Value, json};
+
+use crate::{state::AppState, time_utils};
+
+use super::{
+    BINDINGS_INDEX_KEY, PROVIDERS_INDEX_KEY,
+    provider::missing_required_provider_fields,
+    tokens::{
+        binding_key, invite_key, login_error_key, provider_key, sha256_hex, state_key,
+        subject_binding_key,
+    },
+};
+
+async fn verify_identity_shadow(state: &AppState) -> crate::storage::StorageResult<()> {
+    state
+        .storage
+        .store
+        .verify_identity_runtime_shadow("oidc")
+        .await
+}
+
+async fn oidc_get_provider_unverified(
+    state: &AppState,
+    id: &str,
+) -> crate::storage::StorageResult<Option<Value>> {
+    state.storage.store.get_json_value(&provider_key(id)).await
+}
+
+pub(super) async fn oidc_list_providers(
+    state: &AppState,
+) -> crate::storage::StorageResult<Vec<Value>> {
+    verify_identity_shadow(state).await?;
+    let ids = state
+        .storage
+        .store
+        .zrevrange_strings(PROVIDERS_INDEX_KEY)
+        .await?;
+    let mut providers = Vec::new();
+    let mut stale = Vec::new();
+    for id in ids {
+        match oidc_get_provider_unverified(state, &id).await? {
+            Some(provider) => providers.push(provider),
+            None => stale.push(id),
+        }
+    }
+    for id in stale {
+        state
+            .storage
+            .store
+            .zrem_string_member(PROVIDERS_INDEX_KEY, &id)
+            .await?;
+    }
+    Ok(providers)
+}
+
+pub(crate) async fn oidc_public_providers(
+    state: &AppState,
+) -> crate::storage::StorageResult<Vec<Value>> {
+    Ok(oidc_list_providers(state)
+        .await?
+        .into_iter()
+        .filter(|provider| provider.get("enabled").and_then(Value::as_bool) == Some(true))
+        .filter(|provider| missing_required_provider_fields(provider).is_empty())
+        .map(|provider| {
+            json!({
+                "id": provider.get("id").cloned().unwrap_or(Value::String(String::new())),
+                "type": provider.get("type").cloned().unwrap_or(Value::String(String::new())),
+                "name": provider.get("name").cloned().unwrap_or(Value::String(String::new())),
+                "protocol": provider.get("protocol").cloned().unwrap_or(Value::String(String::new())),
+            })
+        })
+        .collect())
+}
+
+pub(crate) async fn oidc_inspect_invite(
+    state: &AppState,
+    token: &str,
+) -> crate::storage::StorageResult<Option<Value>> {
+    verify_identity_shadow(state).await?;
+    let normalized_token = token.trim();
+    if normalized_token.is_empty() {
+        return Ok(None);
+    }
+    let token_hash = sha256_hex(normalized_token);
+    let Some(invite) = state
+        .storage
+        .store
+        .get_json_value(&invite_key(&token_hash))
+        .await?
+    else {
+        return Ok(None);
+    };
+    let expires_at = invite
+        .get("expires_at")
+        .and_then(Value::as_str)
+        .unwrap_or("");
+    if invite.get("used_at").is_some()
+        || time_utils::parse_iso_ms(expires_at).unwrap_or(0) <= time_utils::now_ms()
+    {
+        return Ok(None);
+    }
+    let totp_id = invite.get("totp_id").and_then(Value::as_str).unwrap_or("");
+    let Some(totp) = state
+        .storage
+        .store
+        .get_totps()
+        .await?
+        .into_iter()
+        .find(|credential| credential.id == totp_id)
+    else {
+        return Ok(None);
+    };
+    let invite_provider_id = invite.get("provider_id").and_then(Value::as_str);
+    let providers = oidc_public_providers(state)
+        .await?
+        .into_iter()
+        .filter(|provider| {
+            invite_provider_id
+                .map(|id| provider.get("id").and_then(Value::as_str) == Some(id))
+                .unwrap_or(true)
+        })
+        .collect::<Vec<_>>();
+    Ok(Some(json!({
+        "totp": { "id": totp.id, "comment": totp.comment },
+        "provider_id": invite_provider_id,
+        "expires_at": expires_at,
+        "note": invite.get("note").cloned().unwrap_or(Value::Null),
+        "providers": providers,
+    })))
+}
+
+pub(crate) async fn oidc_get_provider(
+    state: &AppState,
+    id: &str,
+) -> crate::storage::StorageResult<Option<Value>> {
+    verify_identity_shadow(state).await?;
+    oidc_get_provider_unverified(state, id).await
+}
+
+pub(super) async fn oidc_save_provider(
+    state: &AppState,
+    provider: &Value,
+) -> crate::storage::StorageResult<()> {
+    let id = provider.get("id").and_then(Value::as_str).unwrap_or("");
+    state
+        .storage
+        .store
+        .set_json_value(&provider_key(id), provider)
+        .await?;
+    state
+        .storage
+        .store
+        .zadd_string_member(
+            PROVIDERS_INDEX_KEY,
+            id,
+            provider
+                .get("updated_at")
+                .and_then(Value::as_str)
+                .and_then(time_utils::parse_iso_ms)
+                .unwrap_or_else(time_utils::now_ms),
+        )
+        .await
+}
+
+pub(super) async fn oidc_delete_provider(
+    state: &AppState,
+    id: &str,
+) -> crate::storage::StorageResult<()> {
+    let bindings = oidc_list_bindings(state).await?;
+    state.storage.store.delete_keys(&[provider_key(id)]).await?;
+    state
+        .storage
+        .store
+        .zrem_string_member(PROVIDERS_INDEX_KEY, id)
+        .await?;
+    for binding in bindings
+        .iter()
+        .filter(|binding| binding.get("provider_id").and_then(Value::as_str) == Some(id))
+    {
+        if let Some(binding_id) = binding.get("id").and_then(Value::as_str) {
+            let _ = oidc_delete_binding(state, binding_id).await?;
+        }
+    }
+    Ok(())
+}
+
+pub(crate) async fn oidc_list_bindings(
+    state: &AppState,
+) -> crate::storage::StorageResult<Vec<Value>> {
+    verify_identity_shadow(state).await?;
+    let ids = state
+        .storage
+        .store
+        .zrevrange_strings(BINDINGS_INDEX_KEY)
+        .await?;
+    let mut bindings = Vec::new();
+    let mut stale = Vec::new();
+    for id in ids {
+        match state
+            .storage
+            .store
+            .get_json_value(&binding_key(&id))
+            .await?
+        {
+            Some(binding) => bindings.push(binding),
+            None => stale.push(id),
+        }
+    }
+    for id in stale {
+        state
+            .storage
+            .store
+            .zrem_string_member(BINDINGS_INDEX_KEY, &id)
+            .await?;
+    }
+    Ok(bindings)
+}
+
+pub(crate) async fn oidc_get_binding_by_subject(
+    state: &AppState,
+    subject_key: &str,
+) -> crate::storage::StorageResult<Option<Value>> {
+    verify_identity_shadow(state).await?;
+    let subject_index_key = subject_binding_key(subject_key);
+    let Some(binding_id) = state
+        .storage
+        .store
+        .get_string_value(&subject_index_key)
+        .await?
+    else {
+        return Ok(None);
+    };
+    let binding = state
+        .storage
+        .store
+        .get_json_value(&binding_key(&binding_id))
+        .await?;
+    if binding.is_none() {
+        state
+            .storage
+            .store
+            .delete_key_if_value(&subject_index_key, &binding_id)
+            .await?;
+    }
+    Ok(binding)
+}
+
+pub(crate) async fn oidc_update_binding_if_owned(
+    state: &AppState,
+    binding: &Value,
+) -> crate::storage::StorageResult<bool> {
+    let id = binding.get("id").and_then(Value::as_str).unwrap_or("");
+    let subject_key = binding
+        .get("subject_key")
+        .and_then(Value::as_str)
+        .unwrap_or("");
+    state
+        .storage
+        .store
+        .update_binding_if_owned(crate::storage::redis_store::OwnedBindingUpdate {
+            subject_key: &subject_binding_key(subject_key),
+            binding_key: &binding_key(id),
+            bindings_index_key: BINDINGS_INDEX_KEY,
+            binding_id: id,
+            binding,
+            score: binding
+                .get("updated_at")
+                .and_then(Value::as_str)
+                .and_then(time_utils::parse_iso_ms)
+                .unwrap_or_else(time_utils::now_ms),
+        })
+        .await
+}
+
+pub(super) async fn oidc_delete_binding(
+    state: &AppState,
+    id: &str,
+) -> crate::storage::StorageResult<bool> {
+    let Some(binding) = state.storage.store.get_json_value(&binding_key(id)).await? else {
+        return Ok(false);
+    };
+    let binding_data_key = binding_key(id);
+    let subject_index_key = binding
+        .get("subject_key")
+        .and_then(Value::as_str)
+        .filter(|value| !value.is_empty())
+        .map(subject_binding_key)
+        .unwrap_or_else(|| binding_data_key.clone());
+    state
+        .storage
+        .store
+        .delete_binding_if_owned(crate::storage::redis_store::OwnedBindingDelete {
+            subject_key: &subject_index_key,
+            binding_key: &binding_data_key,
+            bindings_index_key: BINDINGS_INDEX_KEY,
+            binding_id: id,
+        })
+        .await
+}
+
+pub(crate) async fn oidc_delete_bindings_by_totp(
+    state: &AppState,
+    totp_id: &str,
+) -> crate::storage::StorageResult<usize> {
+    let bindings = oidc_list_bindings(state).await?;
+    let mut deleted = 0usize;
+    for binding in bindings {
+        if binding.get("totp_id").and_then(Value::as_str) != Some(totp_id) {
+            continue;
+        }
+        let Some(binding_id) = binding.get("id").and_then(Value::as_str) else {
+            continue;
+        };
+        if oidc_delete_binding(state, binding_id).await? {
+            deleted += 1;
+        }
+    }
+    Ok(deleted)
+}
+
+pub(crate) async fn oidc_claim_binding_and_consume_invite(
+    state: &AppState,
+    token_hash: &str,
+    binding: &Value,
+) -> crate::storage::StorageResult<bool> {
+    let id = binding.get("id").and_then(Value::as_str).unwrap_or("");
+    let subject_key = binding
+        .get("subject_key")
+        .and_then(Value::as_str)
+        .unwrap_or("");
+    let provider_id = binding
+        .get("provider_id")
+        .and_then(Value::as_str)
+        .unwrap_or("");
+    let totp_id = binding.get("totp_id").and_then(Value::as_str).unwrap_or("");
+    state
+        .storage
+        .store
+        .claim_oidc_binding_and_consume_invite(crate::storage::redis_store::OidcBindingClaim {
+            invite_key: &invite_key(token_hash),
+            subject_key: &subject_binding_key(subject_key),
+            binding_key: &binding_key(id),
+            bindings_index_key: BINDINGS_INDEX_KEY,
+            binding_id: id,
+            binding,
+            provider_id,
+            totp_id,
+            score: binding
+                .get("updated_at")
+                .and_then(Value::as_str)
+                .and_then(time_utils::parse_iso_ms)
+                .unwrap_or_else(time_utils::now_ms),
+        })
+        .await
+}
+
+pub(crate) async fn oidc_save_state(
+    state: &AppState,
+    auth_state: &Value,
+    ttl_seconds: usize,
+) -> crate::storage::StorageResult<()> {
+    let state_hash = auth_state
+        .get("state_hash")
+        .and_then(Value::as_str)
+        .unwrap_or("");
+    state
+        .storage
+        .store
+        .set_json_value_ex(&state_key(state_hash), auth_state, ttl_seconds)
+        .await
+}
+
+pub(crate) async fn oidc_consume_state(
+    state: &AppState,
+    state_hash: &str,
+) -> crate::storage::StorageResult<Option<Value>> {
+    verify_identity_shadow(state).await?;
+    state
+        .storage
+        .store
+        .consume_json_value(&state_key(state_hash))
+        .await
+}
+
+pub(crate) async fn oidc_save_login_error_notice(
+    state: &AppState,
+    notice: &Value,
+    ttl_seconds: usize,
+) -> crate::storage::StorageResult<()> {
+    let token_hash = notice
+        .get("token_hash")
+        .and_then(Value::as_str)
+        .unwrap_or("");
+    state
+        .storage
+        .store
+        .set_json_value_ex(&login_error_key(token_hash), notice, ttl_seconds)
+        .await
+}
+
+pub(crate) async fn oidc_consume_login_error_notice(
+    state: &AppState,
+    token_hash: &str,
+) -> crate::storage::StorageResult<Option<Value>> {
+    verify_identity_shadow(state).await?;
+    state
+        .storage
+        .store
+        .consume_json_value(&login_error_key(token_hash))
+        .await
+}

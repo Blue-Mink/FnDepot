@@ -1,1 +1,45 @@
-ZXhwb3J0IGNvbnN0IERZTkFNSUNfV0hJVEVfVEhFTUVfQ09MT1JfUFJFU0VUX0tFWSA9ICJkeW5hbWljX3doaXRlIjsKCmV4cG9ydCBjb25zdCBUSEVNRV9DT0xPUl9QUkVTRVRfS0VZUyA9IFsKICAiZGVmYXVsdCIsCiAgImhlcm1lc19vcmFuZ2UiLAogICJwcnVzc2lhbl9ibHVlIiwKICBEWU5BTUlDX1dISVRFX1RIRU1FX0NPTE9SX1BSRVNFVF9LRVksCl0gYXMgY29uc3Q7CgpleHBvcnQgdHlwZSBUaGVtZUNvbG9yUHJlc2V0S2V5ID0gKHR5cGVvZiBUSEVNRV9DT0xPUl9QUkVTRVRfS0VZUylbbnVtYmVyXTsKCmV4cG9ydCB0eXBlIFRoZW1lQ29sb3JQcmVzZXQgPSB7CiAga2V5OiBUaGVtZUNvbG9yUHJlc2V0S2V5OwogIGNvbG9yOiBzdHJpbmc7Cn07CgpleHBvcnQgY29uc3QgREVGQVVMVF9USEVNRV9DT0xPUl9QUkVTRVRfS0VZOiBUaGVtZUNvbG9yUHJlc2V0S2V5ID0gImRlZmF1bHQiOwoKZXhwb3J0IGNvbnN0IFRIRU1FX0NPTE9SX1BSRVNFVFM6IHJlYWRvbmx5IFRoZW1lQ29sb3JQcmVzZXRbXSA9IFsKICB7IGtleTogImRlZmF1bHQiLCBjb2xvcjogIiMxNzE3MTciIH0sCiAgeyBrZXk6ICJoZXJtZXNfb3JhbmdlIiwgY29sb3I6ICIjRUI1QzIwIiB9LAogIHsga2V5OiAicHJ1c3NpYW5fYmx1ZSIsIGNvbG9yOiAiIzBEM0E2OSIgfSwKICB7IGtleTogRFlOQU1JQ19XSElURV9USEVNRV9DT0xPUl9QUkVTRVRfS0VZLCBjb2xvcjogIiNmNWY1ZjUiIH0sCl07CgpleHBvcnQgaW50ZXJmYWNlIEFwcGVhcmFuY2VDb25maWcgewogIHRoZW1lX2NvbG9yX3ByZXNldDogVGhlbWVDb2xvclByZXNldEtleTsKfQoKZXhwb3J0IGNvbnN0IERFRkFVTFRfQVBQRUFSQU5DRV9DT05GSUc6IEFwcGVhcmFuY2VDb25maWcgPSB7CiAgdGhlbWVfY29sb3JfcHJlc2V0OiBERUZBVUxUX1RIRU1FX0NPTE9SX1BSRVNFVF9LRVksCn07CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplVGhlbWVDb2xvclByZXNldEtleSA9ICgKICB2YWx1ZTogdW5rbm93biwKKTogVGhlbWVDb2xvclByZXNldEtleSA9PgogIFRIRU1FX0NPTE9SX1BSRVNFVF9LRVlTLmluY2x1ZGVzKHZhbHVlIGFzIFRoZW1lQ29sb3JQcmVzZXRLZXkpCiAgICA/ICh2YWx1ZSBhcyBUaGVtZUNvbG9yUHJlc2V0S2V5KQogICAgOiBERUZBVUxUX1RIRU1FX0NPTE9SX1BSRVNFVF9LRVk7CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplQXBwZWFyYW5jZUNvbmZpZyA9ICgKICB2YWx1ZT86IFBhcnRpYWw8QXBwZWFyYW5jZUNvbmZpZz4gfCBudWxsLAopOiBBcHBlYXJhbmNlQ29uZmlnID0+ICh7CiAgdGhlbWVfY29sb3JfcHJlc2V0OiBub3JtYWxpemVUaGVtZUNvbG9yUHJlc2V0S2V5KHZhbHVlPy50aGVtZV9jb2xvcl9wcmVzZXQpLAp9KTsK
+export const DYNAMIC_WHITE_THEME_COLOR_PRESET_KEY = "dynamic_white";
+
+export const THEME_COLOR_PRESET_KEYS = [
+  "default",
+  "hermes_orange",
+  "prussian_blue",
+  DYNAMIC_WHITE_THEME_COLOR_PRESET_KEY,
+] as const;
+
+export type ThemeColorPresetKey = (typeof THEME_COLOR_PRESET_KEYS)[number];
+
+export type ThemeColorPreset = {
+  key: ThemeColorPresetKey;
+  color: string;
+};
+
+export const DEFAULT_THEME_COLOR_PRESET_KEY: ThemeColorPresetKey = "default";
+
+export const THEME_COLOR_PRESETS: readonly ThemeColorPreset[] = [
+  { key: "default", color: "#171717" },
+  { key: "hermes_orange", color: "#EB5C20" },
+  { key: "prussian_blue", color: "#0D3A69" },
+  { key: DYNAMIC_WHITE_THEME_COLOR_PRESET_KEY, color: "#f5f5f5" },
+];
+
+export interface AppearanceConfig {
+  theme_color_preset: ThemeColorPresetKey;
+}
+
+export const DEFAULT_APPEARANCE_CONFIG: AppearanceConfig = {
+  theme_color_preset: DEFAULT_THEME_COLOR_PRESET_KEY,
+};
+
+export const normalizeThemeColorPresetKey = (
+  value: unknown,
+): ThemeColorPresetKey =>
+  THEME_COLOR_PRESET_KEYS.includes(value as ThemeColorPresetKey)
+    ? (value as ThemeColorPresetKey)
+    : DEFAULT_THEME_COLOR_PRESET_KEY;
+
+export const normalizeAppearanceConfig = (
+  value?: Partial<AppearanceConfig> | null,
+): AppearanceConfig => ({
+  theme_color_preset: normalizeThemeColorPresetKey(value?.theme_color_preset),
+});

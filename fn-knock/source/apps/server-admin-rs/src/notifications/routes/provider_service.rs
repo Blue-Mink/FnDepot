@@ -1,1 +1,196 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiBjcmVhdGVfcHJvdmlkZXJfdmFsdWUoc3RhdGU6ICZBcHBTdGF0ZSwgYm9keTogVmFsdWUpIC0+IE5vdGlmeVJlc3VsdDxWYWx1ZT4gewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKHN0YXRlKS5hd2FpdDsKICAgIGxldCBwcm92aWRlcl90eXBlID0gdHJpbW1lZF9zdHJpbmcoYm9keS5nZXQoInR5cGUiKSkub2tfb3JfYmFkKAogICAgICAgIG5vdGlmaWNhdGlvbl9zZXJ2aWNlX2RlZmF1bHRfdGV4dCgidW5zdXBwb3J0ZWRQcm92aWRlclR5cGUiLCAmW10pLAogICAgKT87CiAgICBsZXQgZGVmaW5pdGlvbiA9IHByb3ZpZGVyX2RlZmluaXRpb24oJnByb3ZpZGVyX3R5cGUpLm9rX29yX2JhZCgKICAgICAgICBub3RpZmljYXRpb25fc2VydmljZV9kZWZhdWx0X3RleHQoInVuc3VwcG9ydGVkUHJvdmlkZXJUeXBlIiwgJltdKSwKICAgICk/OwogICAgbGV0IG11dCByYXdfY29uZmlnID0gb2JqZWN0X2ZpZWxkKCZib2R5LCAiY29ubmVjdGlvbl9jb25maWciKTsKICAgIG5vcm1hbGl6ZV9wcm92aWRlcl9jb25uZWN0aW9uX2FsaWFzZXMoZGVmaW5pdGlvbi5wcm92aWRlcl90eXBlLCAmbXV0IHJhd19jb25maWcpOwogICAgdmFsaWRhdGVfcHJvdmlkZXJfY29ubmVjdGlvbl9wYXRjaCgmZGVmaW5pdGlvbiwgJnJhd19jb25maWcsICZ0cmFuc2xhdG9yKT87CiAgICBsZXQgbXV0IGNvbm5lY3Rpb25fY29uZmlnID0KICAgICAgICBub3JtYWxpemVfc2NoZW1hX2NvbmZpZygmcmF3X2NvbmZpZywgJmRlZmluaXRpb24uY29ubmVjdGlvbl9zY2hlbWEpPzsKICAgIGlmIGRlZmluaXRpb24ucHJvdmlkZXJfdHlwZSA9PSAid2ViaG9vayIgewogICAgICAgIGNvbm5lY3Rpb25fY29uZmlnCiAgICAgICAgICAgIC5lbnRyeSgiY3VzdG9tX2hlYWRlcnMiLnRvX3N0cmluZygpKQogICAgICAgICAgICAub3JfaW5zZXJ0X3dpdGgofHwgVmFsdWU6OkFycmF5KFZlYzo6bmV3KCkpKTsKICAgIH0KICAgIHZhbGlkYXRlX3JlcXVpcmVkX2ZpZWxkcygmY29ubmVjdGlvbl9jb25maWcsICZkZWZpbml0aW9uLmNvbm5lY3Rpb25fc2NoZW1hKT87CiAgICB2YWxpZGF0ZV9wcm92aWRlcl9jb25uZWN0aW9uX2NvbmZpZygmZGVmaW5pdGlvbiwgJmNvbm5lY3Rpb25fY29uZmlnLCAmdHJhbnNsYXRvcik/OwoKICAgIGxldCBleGlzdGluZyA9IGxvYWRfcHJvdmlkZXJzKHN0YXRlKS5hd2FpdD87CiAgICBsZXQgbmFtZXMgPSBleGlzdGluZwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyX21hcCh8cHJvdmlkZXJ8IHByb3ZpZGVyLmdldCgibmFtZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpKQogICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgcmVxdWVzdGVkX25hbWUgPSB0cmltbWVkX3N0cmluZyhib2R5LmdldCgibmFtZSIpKTsKICAgIGxldCBkZWZhdWx0X25hbWVfYmFzZSA9IHByb3ZpZGVyX2RlZmluaXRpb25fbGFiZWwoJmRlZmluaXRpb24sICZ0cmFuc2xhdG9yKTsKICAgIGxldCBuYW1lID0KICAgICAgICByZXF1ZXN0ZWRfbmFtZS51bndyYXBfb3JfZWxzZSh8fCBidWlsZF9uZXh0X3NlcXVlbnRpYWxfbmFtZSgmZGVmYXVsdF9uYW1lX2Jhc2UsICZuYW1lcykpOwogICAgbGV0IG5vdyA9IHRpbWVfdXRpbHM6Om5vd19pc28oKTsKICAgIGxldCBwcm92aWRlciA9IGpzb24hKHsKICAgICAgICAiaWQiOiBjcmVhdGVfaWQoIm50ZnByb3YiKSwKICAgICAgICAibmFtZSI6IG5hbWUsCiAgICAgICAgInR5cGUiOiBkZWZpbml0aW9uLnByb3ZpZGVyX3R5cGUsCiAgICAgICAgImVuYWJsZWQiOiBib29sX2ZpZWxkKCZib2R5LCAiZW5hYmxlZCIsIHRydWUpLAogICAgICAgICJjb25uZWN0aW9uX2NvbmZpZyI6IFZhbHVlOjpPYmplY3QoY29ubmVjdGlvbl9jb25maWcpLAogICAgICAgICJjcmVhdGVkX2F0Ijogbm93LAogICAgICAgICJ1cGRhdGVkX2F0Ijogbm93LAogICAgICAgICJsYXN0X3Rlc3Rfc3RhdHVzIjogImlkbGUiLAogICAgICAgICJsYXN0X2Vycm9yIjogVmFsdWU6Ok51bGwKICAgIH0pOwogICAgc2F2ZV9wcm92aWRlcl9yYXcoc3RhdGUsICZwcm92aWRlcikuYXdhaXQ/OwogICAgbWFza19wcm92aWRlcigmcHJvdmlkZXIpLm1hcF9lcnIoTm90aWZ5RXJyb3I6OkJhZFJlcXVlc3QpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gdXBkYXRlX3Byb3ZpZGVyX3ZhbHVlKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGlkOiAmc3RyLAogICAgYm9keTogVmFsdWUsCikgLT4gTm90aWZ5UmVzdWx0PFZhbHVlPiB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoc3RhdGUpLmF3YWl0OwogICAgbGV0IGN1cnJlbnQgPSBsb2FkX3Byb3ZpZGVyKHN0YXRlLCBpZCkKICAgICAgICAuYXdhaXQ/CiAgICAgICAgLm9rX29yX2JhZChub3RpZmljYXRpb25fc2VydmljZV9kZWZhdWx0X3RleHQoInByb3ZpZGVyTm90Rm91bmQiLCAmW10pKT87CiAgICBsZXQgcHJvdmlkZXJfdHlwZSA9IGN1cnJlbnQuZ2V0KCJ0eXBlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikub2tfb3JfYmFkKAogICAgICAgIG5vdGlmaWNhdGlvbl9zZXJ2aWNlX2RlZmF1bHRfdGV4dCgidW5zdXBwb3J0ZWRQcm92aWRlclR5cGUiLCAmW10pLAogICAgKT87CiAgICBsZXQgZGVmaW5pdGlvbiA9IHByb3ZpZGVyX2RlZmluaXRpb24ocHJvdmlkZXJfdHlwZSkub2tfb3JfYmFkKAogICAgICAgIG5vdGlmaWNhdGlvbl9zZXJ2aWNlX2RlZmF1bHRfdGV4dCgidW5zdXBwb3J0ZWRQcm92aWRlclR5cGUiLCAmW10pLAogICAgKT87CgogICAgbGV0IG11dCByYXdfcGF0Y2ggPSBvYmplY3RfZmllbGQoJmJvZHksICJjb25uZWN0aW9uX2NvbmZpZyIpOwogICAgbm9ybWFsaXplX3Byb3ZpZGVyX2Nvbm5lY3Rpb25fYWxpYXNlcyhkZWZpbml0aW9uLnByb3ZpZGVyX3R5cGUsICZtdXQgcmF3X3BhdGNoKTsKICAgIGRyb3BfbWFza2VkX3NlbnNpdGl2ZV9wYXRjaF92YWx1ZXMoJmRlZmluaXRpb24sICZtdXQgcmF3X3BhdGNoKTsKICAgIHZhbGlkYXRlX3Byb3ZpZGVyX2Nvbm5lY3Rpb25fcGF0Y2goJmRlZmluaXRpb24sICZyYXdfcGF0Y2gsICZ0cmFuc2xhdG9yKT87CiAgICBsZXQgcGF0Y2ggPSBub3JtYWxpemVfc2NoZW1hX3BhdGNoKCZyYXdfcGF0Y2gsICZkZWZpbml0aW9uLmNvbm5lY3Rpb25fc2NoZW1hKT87CiAgICBsZXQgbXV0IG1lcmdlZCA9IGN1cnJlbnQKICAgICAgICAuZ2V0KCJjb25uZWN0aW9uX2NvbmZpZyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3QpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBmb3IgKGtleSwgdmFsdWUpIGluIHBhdGNoIHsKICAgICAgICBtZXJnZWQuaW5zZXJ0KGtleSwgdmFsdWUpOwogICAgfQogICAgaWYgZGVmaW5pdGlvbi5wcm92aWRlcl90eXBlID09ICJ3ZWJob29rIiB7CiAgICAgICAgbWVyZ2VkCiAgICAgICAgICAgIC5lbnRyeSgiY3VzdG9tX2hlYWRlcnMiLnRvX3N0cmluZygpKQogICAgICAgICAgICAub3JfaW5zZXJ0X3dpdGgofHwgVmFsdWU6OkFycmF5KFZlYzo6bmV3KCkpKTsKICAgIH0KICAgIGFwcGx5X3NjaGVtYV9kZWZhdWx0cygmbXV0IG1lcmdlZCwgJmRlZmluaXRpb24uY29ubmVjdGlvbl9zY2hlbWEpOwogICAgdmFsaWRhdGVfcmVxdWlyZWRfZmllbGRzKCZtZXJnZWQsICZkZWZpbml0aW9uLmNvbm5lY3Rpb25fc2NoZW1hKT87CiAgICB2YWxpZGF0ZV9wcm92aWRlcl9jb25uZWN0aW9uX2NvbmZpZygmZGVmaW5pdGlvbiwgJm1lcmdlZCwgJnRyYW5zbGF0b3IpPzsKCiAgICBsZXQgbXV0IHVwZGF0ZWQgPSBjdXJyZW50CiAgICAgICAgLmFzX29iamVjdCgpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLm9rX29yX2JhZChub3RpZmljYXRpb25fc2VydmljZV9kZWZhdWx0X3RleHQoCiAgICAgICAgICAgICJpbnZhbGlkUHJvdmlkZXJSZWNvcmQiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSk/OwogICAgaWYgbGV0IFNvbWUobmFtZSkgPSB0cmltbWVkX3N0cmluZyhib2R5LmdldCgibmFtZSIpKSB7CiAgICAgICAgdXBkYXRlZC5pbnNlcnQoIm5hbWUiLnRvX3N0cmluZygpLCBWYWx1ZTo6U3RyaW5nKG5hbWUpKTsKICAgIH0KICAgIGlmIGxldCBTb21lKGVuYWJsZWQpID0gYm9keS5nZXQoImVuYWJsZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgewogICAgICAgIHVwZGF0ZWQuaW5zZXJ0KCJlbmFibGVkIi50b19zdHJpbmcoKSwgVmFsdWU6OkJvb2woZW5hYmxlZCkpOwogICAgfQogICAgdXBkYXRlZC5pbnNlcnQoImNvbm5lY3Rpb25fY29uZmlnIi50b19zdHJpbmcoKSwgVmFsdWU6Ok9iamVjdChtZXJnZWQpKTsKICAgIHVwZGF0ZWQuaW5zZXJ0KAogICAgICAgICJ1cGRhdGVkX2F0Ii50b19zdHJpbmcoKSwKICAgICAgICBWYWx1ZTo6U3RyaW5nKHRpbWVfdXRpbHM6Om5vd19pc28oKSksCiAgICApOwogICAgbGV0IHVwZGF0ZWQgPSBWYWx1ZTo6T2JqZWN0KHVwZGF0ZWQpOwogICAgc2F2ZV9wcm92aWRlcl9yYXcoc3RhdGUsICZ1cGRhdGVkKS5hd2FpdD87CiAgICBtYXNrX3Byb3ZpZGVyKCZ1cGRhdGVkKS5tYXBfZXJyKE5vdGlmeUVycm9yOjpCYWRSZXF1ZXN0KQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGRyYWZ0X3Byb3ZpZGVyX3ZhbHVlKHN0YXRlOiAmQXBwU3RhdGUsIGJvZHk6IFZhbHVlKSAtPiBOb3RpZnlSZXN1bHQ8VmFsdWU+IHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZShzdGF0ZSkuYXdhaXQ7CiAgICBsZXQgcmVxdWVzdGVkX2lkID0gdHJpbW1lZF9zdHJpbmcoYm9keS5nZXQoImlkIikpOwogICAgbGV0IHJlcXVlc3RlZF90eXBlID0gdHJpbW1lZF9zdHJpbmcoYm9keS5nZXQoInR5cGUiKSkub2tfb3JfYmFkKAogICAgICAgIG5vdGlmaWNhdGlvbl9zZXJ2aWNlX2RlZmF1bHRfdGV4dCgidW5zdXBwb3J0ZWRQcm92aWRlclR5cGUiLCAmW10pLAogICAgKT87CiAgICBsZXQgZGVmaW5pdGlvbiA9IHByb3ZpZGVyX2RlZmluaXRpb24oJnJlcXVlc3RlZF90eXBlKS5va19vcl9iYWQoCiAgICAgICAgbm90aWZpY2F0aW9uX3NlcnZpY2VfZGVmYXVsdF90ZXh0KCJ1bnN1cHBvcnRlZFByb3ZpZGVyVHlwZSIsICZbXSksCiAgICApPzsKICAgIGxldCBleGlzdGluZyA9IGlmIGxldCBTb21lKGlkKSA9IHJlcXVlc3RlZF9pZC5hc19kZXJlZigpIHsKICAgICAgICBTb21lKAogICAgICAgICAgICBsb2FkX3Byb3ZpZGVyKHN0YXRlLCBpZCkKICAgICAgICAgICAgICAgIC5hd2FpdD8KICAgICAgICAgICAgICAgIC5va19vcl9iYWQobm90aWZpY2F0aW9uX3NlcnZpY2VfZGVmYXVsdF90ZXh0KCJwcm92aWRlck5vdEZvdW5kIiwgJltdKSk/LAogICAgICAgICkKICAgIH0gZWxzZSB7CiAgICAgICAgTm9uZQogICAgfTsKICAgIGlmIGxldCBTb21lKGV4aXN0aW5nKSA9IGV4aXN0aW5nLmFzX3JlZigpCiAgICAgICAgJiYgZXhpc3RpbmcuZ2V0KCJ0eXBlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgIT0gU29tZShkZWZpbml0aW9uLnByb3ZpZGVyX3R5cGUpCiAgICB7CiAgICAgICAgcmV0dXJuIEVycihOb3RpZnlFcnJvcjo6QmFkUmVxdWVzdChub3RpZmljYXRpb25fc2VydmljZV9kZWZhdWx0X3RleHQoCiAgICAgICAgICAgICJwcm92aWRlclR5cGVNaXNtYXRjaCIsCiAgICAgICAgICAgICZbXSwKICAgICAgICApKSk7CiAgICB9CgogICAgbGV0IG11dCByYXdfcGF0Y2ggPSBvYmplY3RfZmllbGQoJmJvZHksICJjb25uZWN0aW9uX2NvbmZpZyIpOwogICAgbm9ybWFsaXplX3Byb3ZpZGVyX2Nvbm5lY3Rpb25fYWxpYXNlcyhkZWZpbml0aW9uLnByb3ZpZGVyX3R5cGUsICZtdXQgcmF3X3BhdGNoKTsKICAgIGRyb3BfbWFza2VkX3NlbnNpdGl2ZV9wYXRjaF92YWx1ZXMoJmRlZmluaXRpb24sICZtdXQgcmF3X3BhdGNoKTsKICAgIHZhbGlkYXRlX3Byb3ZpZGVyX2Nvbm5lY3Rpb25fcGF0Y2goJmRlZmluaXRpb24sICZyYXdfcGF0Y2gsICZ0cmFuc2xhdG9yKT87CiAgICBsZXQgcGF0Y2ggPSBub3JtYWxpemVfc2NoZW1hX3BhdGNoKCZyYXdfcGF0Y2gsICZkZWZpbml0aW9uLmNvbm5lY3Rpb25fc2NoZW1hKT87CiAgICBsZXQgbXV0IGNvbm5lY3Rpb25fY29uZmlnID0gZXhpc3RpbmcKICAgICAgICAuYXNfcmVmKCkKICAgICAgICAuYW5kX3RoZW4ofHByb3ZpZGVyfCBwcm92aWRlci5nZXQoImNvbm5lY3Rpb25fY29uZmlnIikpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3QpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBmb3IgKGtleSwgdmFsdWUpIGluIHBhdGNoIHsKICAgICAgICBjb25uZWN0aW9uX2NvbmZpZy5pbnNlcnQoa2V5LCB2YWx1ZSk7CiAgICB9CiAgICBhcHBseV9zY2hlbWFfZGVmYXVsdHMoJm11dCBjb25uZWN0aW9uX2NvbmZpZywgJmRlZmluaXRpb24uY29ubmVjdGlvbl9zY2hlbWEpOwogICAgdmFsaWRhdGVfcmVxdWlyZWRfZmllbGRzKCZjb25uZWN0aW9uX2NvbmZpZywgJmRlZmluaXRpb24uY29ubmVjdGlvbl9zY2hlbWEpPzsKICAgIHZhbGlkYXRlX3Byb3ZpZGVyX2Nvbm5lY3Rpb25fY29uZmlnKCZkZWZpbml0aW9uLCAmY29ubmVjdGlvbl9jb25maWcsICZ0cmFuc2xhdG9yKT87CgogICAgbGV0IG5vdyA9IHRpbWVfdXRpbHM6Om5vd19pc28oKTsKICAgIE9rKGpzb24hKHsKICAgICAgICAiaWQiOiBleGlzdGluZy5hc19yZWYoKS5hbmRfdGhlbih8cHJvdmlkZXJ8IHByb3ZpZGVyLmdldCgiaWQiKSkuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikubWFwKHN0cjo6dG9fc3RyaW5nKS51bndyYXBfb3JfZWxzZSh8fCBjcmVhdGVfaWQoIm50ZnByb3Z0ZXN0IikpLAogICAgICAgICJuYW1lIjogdHJpbW1lZF9zdHJpbmcoYm9keS5nZXQoIm5hbWUiKSkKICAgICAgICAgICAgLm9yX2Vsc2UofHwgZXhpc3RpbmcuYXNfcmVmKCkuYW5kX3RoZW4ofHByb3ZpZGVyfCBwcm92aWRlci5nZXQoIm5hbWUiKSkuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikubWFwKHN0cjo6dG9fc3RyaW5nKSkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IG5vdGlmaWNhdGlvbl9zZXJ2aWNlX3RleHQoJnRyYW5zbGF0b3IsICJwcm92aWRlclRlc3ROYW1lIiwgJlsoInByb3ZpZGVyIiwgZGVmaW5pdGlvbi5sYWJlbC50b19zdHJpbmcoKSldKSksCiAgICAgICAgInR5cGUiOiBkZWZpbml0aW9uLnByb3ZpZGVyX3R5cGUsCiAgICAgICAgImVuYWJsZWQiOiBib2R5LmdldCgiZW5hYmxlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgICAgICAub3JfZWxzZSh8fCBleGlzdGluZy5hc19yZWYoKS5hbmRfdGhlbih8cHJvdmlkZXJ8IHByb3ZpZGVyLmdldCgiZW5hYmxlZCIpKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkpCiAgICAgICAgICAgIC51bndyYXBfb3IodHJ1ZSksCiAgICAgICAgImNvbm5lY3Rpb25fY29uZmlnIjogVmFsdWU6Ok9iamVjdChjb25uZWN0aW9uX2NvbmZpZyksCiAgICAgICAgImNyZWF0ZWRfYXQiOiBleGlzdGluZy5hc19yZWYoKS5hbmRfdGhlbih8cHJvdmlkZXJ8IHByb3ZpZGVyLmdldCgiY3JlYXRlZF9hdCIpKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoJm5vdyksCiAgICAgICAgInVwZGF0ZWRfYXQiOiBub3csCiAgICAgICAgImxhc3RfdGVzdF9hdCI6IGV4aXN0aW5nLmFzX3JlZigpLmFuZF90aGVuKHxwcm92aWRlcnwgcHJvdmlkZXIuZ2V0KCJsYXN0X3Rlc3RfYXQiKSkuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgICAgICAibGFzdF90ZXN0X3N0YXR1cyI6IGV4aXN0aW5nLmFzX3JlZigpLmFuZF90aGVuKHxwcm92aWRlcnwgcHJvdmlkZXIuZ2V0KCJsYXN0X3Rlc3Rfc3RhdHVzIikpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCksCiAgICAgICAgImxhc3RfZXJyb3IiOiBleGlzdGluZy5hc19yZWYoKS5hbmRfdGhlbih8cHJvdmlkZXJ8IHByb3ZpZGVyLmdldCgibGFzdF9lcnJvciIpKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpCiAgICB9KSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBkZWxldGVfcHJvdmlkZXJfdmFsdWUoc3RhdGU6ICZBcHBTdGF0ZSwgaWQ6ICZzdHIpIC0+IE5vdGlmeVJlc3VsdDwoKT4gewogICAgbGV0IHJ1bGVzID0gbG9hZF9ydWxlcyhzdGF0ZSkuYXdhaXQ/OwogICAgbGV0IHJlZmVyZW5jZWRfYnkgPSBydWxlcy5pdGVyKCkuZmluZF9tYXAofHJ1bGV8IHsKICAgICAgICBsZXQgdGFyZ2V0cyA9IHJ1bGUuZ2V0KCJ0YXJnZXRzIikuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KT87CiAgICAgICAgbGV0IHJlZmVyZW5jZWQgPSB0YXJnZXRzCiAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgLmFueSh8dGFyZ2V0fCB0YXJnZXQuZ2V0KCJwcm92aWRlcl9pZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoaWQpKTsKICAgICAgICBpZiByZWZlcmVuY2VkIHsKICAgICAgICAgICAgcnVsZS5nZXQoIm5hbWUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS5tYXAoc3RyOjp0b19zdHJpbmcpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgTm9uZQogICAgICAgIH0KICAgIH0pOwogICAgaWYgbGV0IFNvbWUocnVsZV9uYW1lKSA9IHJlZmVyZW5jZWRfYnkgewogICAgICAgIHJldHVybiBFcnIoTm90aWZ5RXJyb3I6OkJhZFJlcXVlc3Qobm90aWZpY2F0aW9uX3NlcnZpY2VfZGVmYXVsdF90ZXh0KAogICAgICAgICAgICAicHJvdmlkZXJSZWZlcmVuY2VkQnlSdWxlIiwKICAgICAgICAgICAgJlsoInJ1bGUiLCBydWxlX25hbWUpXSwKICAgICAgICApKSk7CiAgICB9CiAgICBzdGF0ZS5zdG9yYWdlLnN0b3JlLmRlbGV0ZV9ub3RpZmljYXRpb25fcHJvdmlkZXIoaWQpLmF3YWl0PzsKICAgIE9rKCgpKQp9Cg==
+use super::*;
+
+pub(super) async fn create_provider_value(state: &AppState, body: Value) -> NotifyResult<Value> {
+    let translator = Translator::from_state(state).await;
+    let provider_type = trimmed_string(body.get("type")).ok_or_bad(
+        notification_service_default_text("unsupportedProviderType", &[]),
+    )?;
+    let definition = provider_definition(&provider_type).ok_or_bad(
+        notification_service_default_text("unsupportedProviderType", &[]),
+    )?;
+    let mut raw_config = object_field(&body, "connection_config");
+    normalize_provider_connection_aliases(definition.provider_type, &mut raw_config);
+    validate_provider_connection_patch(&definition, &raw_config, &translator)?;
+    let mut connection_config =
+        normalize_schema_config(&raw_config, &definition.connection_schema)?;
+    if definition.provider_type == "webhook" {
+        connection_config
+            .entry("custom_headers".to_string())
+            .or_insert_with(|| Value::Array(Vec::new()));
+    }
+    validate_required_fields(&connection_config, &definition.connection_schema)?;
+    validate_provider_connection_config(&definition, &connection_config, &translator)?;
+
+    let existing = load_providers(state).await?;
+    let names = existing
+        .iter()
+        .filter_map(|provider| provider.get("name").and_then(Value::as_str))
+        .map(str::to_string)
+        .collect::<Vec<_>>();
+    let requested_name = trimmed_string(body.get("name"));
+    let default_name_base = provider_definition_label(&definition, &translator);
+    let name =
+        requested_name.unwrap_or_else(|| build_next_sequential_name(&default_name_base, &names));
+    let now = time_utils::now_iso();
+    let provider = json!({
+        "id": create_id("ntfprov"),
+        "name": name,
+        "type": definition.provider_type,
+        "enabled": bool_field(&body, "enabled", true),
+        "connection_config": Value::Object(connection_config),
+        "created_at": now,
+        "updated_at": now,
+        "last_test_status": "idle",
+        "last_error": Value::Null
+    });
+    save_provider_raw(state, &provider).await?;
+    mask_provider(&provider).map_err(NotifyError::BadRequest)
+}
+
+pub(super) async fn update_provider_value(
+    state: &AppState,
+    id: &str,
+    body: Value,
+) -> NotifyResult<Value> {
+    let translator = Translator::from_state(state).await;
+    let current = load_provider(state, id)
+        .await?
+        .ok_or_bad(notification_service_default_text("providerNotFound", &[]))?;
+    let provider_type = current.get("type").and_then(Value::as_str).ok_or_bad(
+        notification_service_default_text("unsupportedProviderType", &[]),
+    )?;
+    let definition = provider_definition(provider_type).ok_or_bad(
+        notification_service_default_text("unsupportedProviderType", &[]),
+    )?;
+
+    let mut raw_patch = object_field(&body, "connection_config");
+    normalize_provider_connection_aliases(definition.provider_type, &mut raw_patch);
+    drop_masked_sensitive_patch_values(&definition, &mut raw_patch);
+    validate_provider_connection_patch(&definition, &raw_patch, &translator)?;
+    let patch = normalize_schema_patch(&raw_patch, &definition.connection_schema)?;
+    let mut merged = current
+        .get("connection_config")
+        .and_then(Value::as_object)
+        .cloned()
+        .unwrap_or_default();
+    for (key, value) in patch {
+        merged.insert(key, value);
+    }
+    if definition.provider_type == "webhook" {
+        merged
+            .entry("custom_headers".to_string())
+            .or_insert_with(|| Value::Array(Vec::new()));
+    }
+    apply_schema_defaults(&mut merged, &definition.connection_schema);
+    validate_required_fields(&merged, &definition.connection_schema)?;
+    validate_provider_connection_config(&definition, &merged, &translator)?;
+
+    let mut updated = current
+        .as_object()
+        .cloned()
+        .ok_or_bad(notification_service_default_text(
+            "invalidProviderRecord",
+            &[],
+        ))?;
+    if let Some(name) = trimmed_string(body.get("name")) {
+        updated.insert("name".to_string(), Value::String(name));
+    }
+    if let Some(enabled) = body.get("enabled").and_then(Value::as_bool) {
+        updated.insert("enabled".to_string(), Value::Bool(enabled));
+    }
+    updated.insert("connection_config".to_string(), Value::Object(merged));
+    updated.insert(
+        "updated_at".to_string(),
+        Value::String(time_utils::now_iso()),
+    );
+    let updated = Value::Object(updated);
+    save_provider_raw(state, &updated).await?;
+    mask_provider(&updated).map_err(NotifyError::BadRequest)
+}
+
+pub(super) async fn draft_provider_value(state: &AppState, body: Value) -> NotifyResult<Value> {
+    let translator = Translator::from_state(state).await;
+    let requested_id = trimmed_string(body.get("id"));
+    let requested_type = trimmed_string(body.get("type")).ok_or_bad(
+        notification_service_default_text("unsupportedProviderType", &[]),
+    )?;
+    let definition = provider_definition(&requested_type).ok_or_bad(
+        notification_service_default_text("unsupportedProviderType", &[]),
+    )?;
+    let existing = if let Some(id) = requested_id.as_deref() {
+        Some(
+            load_provider(state, id)
+                .await?
+                .ok_or_bad(notification_service_default_text("providerNotFound", &[]))?,
+        )
+    } else {
+        None
+    };
+    if let Some(existing) = existing.as_ref()
+        && existing.get("type").and_then(Value::as_str) != Some(definition.provider_type)
+    {
+        return Err(NotifyError::BadRequest(notification_service_default_text(
+            "providerTypeMismatch",
+            &[],
+        )));
+    }
+
+    let mut raw_patch = object_field(&body, "connection_config");
+    normalize_provider_connection_aliases(definition.provider_type, &mut raw_patch);
+    drop_masked_sensitive_patch_values(&definition, &mut raw_patch);
+    validate_provider_connection_patch(&definition, &raw_patch, &translator)?;
+    let patch = normalize_schema_patch(&raw_patch, &definition.connection_schema)?;
+    let mut connection_config = existing
+        .as_ref()
+        .and_then(|provider| provider.get("connection_config"))
+        .and_then(Value::as_object)
+        .cloned()
+        .unwrap_or_default();
+    for (key, value) in patch {
+        connection_config.insert(key, value);
+    }
+    apply_schema_defaults(&mut connection_config, &definition.connection_schema);
+    validate_required_fields(&connection_config, &definition.connection_schema)?;
+    validate_provider_connection_config(&definition, &connection_config, &translator)?;
+
+    let now = time_utils::now_iso();
+    Ok(json!({
+        "id": existing.as_ref().and_then(|provider| provider.get("id")).and_then(Value::as_str).map(str::to_string).unwrap_or_else(|| create_id("ntfprovtest")),
+        "name": trimmed_string(body.get("name"))
+            .or_else(|| existing.as_ref().and_then(|provider| provider.get("name")).and_then(Value::as_str).map(str::to_string))
+            .unwrap_or_else(|| notification_service_text(&translator, "providerTestName", &[("provider", definition.label.to_string())])),
+        "type": definition.provider_type,
+        "enabled": body.get("enabled").and_then(Value::as_bool)
+            .or_else(|| existing.as_ref().and_then(|provider| provider.get("enabled")).and_then(Value::as_bool))
+            .unwrap_or(true),
+        "connection_config": Value::Object(connection_config),
+        "created_at": existing.as_ref().and_then(|provider| provider.get("created_at")).and_then(Value::as_str).unwrap_or(&now),
+        "updated_at": now,
+        "last_test_at": existing.as_ref().and_then(|provider| provider.get("last_test_at")).cloned().unwrap_or(Value::Null),
+        "last_test_status": existing.as_ref().and_then(|provider| provider.get("last_test_status")).cloned().unwrap_or(Value::Null),
+        "last_error": existing.as_ref().and_then(|provider| provider.get("last_error")).cloned().unwrap_or(Value::Null)
+    }))
+}
+
+pub(super) async fn delete_provider_value(state: &AppState, id: &str) -> NotifyResult<()> {
+    let rules = load_rules(state).await?;
+    let referenced_by = rules.iter().find_map(|rule| {
+        let targets = rule.get("targets").and_then(Value::as_array)?;
+        let referenced = targets
+            .iter()
+            .any(|target| target.get("provider_id").and_then(Value::as_str) == Some(id));
+        if referenced {
+            rule.get("name").and_then(Value::as_str).map(str::to_string)
+        } else {
+            None
+        }
+    });
+    if let Some(rule_name) = referenced_by {
+        return Err(NotifyError::BadRequest(notification_service_default_text(
+            "providerReferencedByRule",
+            &[("rule", rule_name)],
+        )));
+    }
+    state.storage.store.delete_notification_provider(id).await?;
+    Ok(())
+}

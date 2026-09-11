@@ -1,1 +1,85 @@
-dXNlIHNlcmRlX2pzb246OlZhbHVlOwoKcHViKGNyYXRlKSBmbiByZXNwb25zZV9zdWNjZXNzKHZhbHVlOiAmVmFsdWUpIC0+IGJvb2wgewogICAgdmFsdWUKICAgICAgICAuZ2V0KCJzdWNjZXNzIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgLnVud3JhcF9vcih0cnVlKQp9CgpwdWIoY3JhdGUpIGZuIHJlc3BvbnNlX21lc3NhZ2UodmFsdWU6ICZWYWx1ZSwgZmFsbGJhY2s6ICZzdHIpIC0+IFN0cmluZyB7CiAgICB2YWx1ZQogICAgICAgIC5nZXQoIm1lc3NhZ2UiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC5maWx0ZXIofG1lc3NhZ2V8ICFtZXNzYWdlLmlzX2VtcHR5KCkpCiAgICAgICAgLnVud3JhcF9vcihmYWxsYmFjaykKICAgICAgICAudG9fc3RyaW5nKCkKfQoKcHViKGNyYXRlKSBmbiBlbnN1cmVfcmVzcG9uc2Vfc3VjY2Vzcyh2YWx1ZTogJlZhbHVlLCBmYWxsYmFjazogJnN0cikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGlmIHJlc3BvbnNlX3N1Y2Nlc3ModmFsdWUpIHsKICAgICAgICBPaygoKSkKICAgIH0gZWxzZSB7CiAgICAgICAgRXJyKHJlc3BvbnNlX21lc3NhZ2UodmFsdWUsIGZhbGxiYWNrKSkKICAgIH0KfQoKcHViKGNyYXRlKSBmbiBhcHBsaWVkX3Jlc3BvbnNlX2RhdGE8J2E+KAogICAgdmFsdWU6ICYnYSBWYWx1ZSwKICAgIHVuc3VjY2Vzc2Z1bF9mYWxsYmFjazogJnN0ciwKICAgIG1pc3NpbmdfZGF0YTogJnN0ciwKKSAtPiBSZXN1bHQ8JidhIFZhbHVlLCBTdHJpbmc+IHsKICAgIGVuc3VyZV9yZXNwb25zZV9zdWNjZXNzKHZhbHVlLCB1bnN1Y2Nlc3NmdWxfZmFsbGJhY2spPzsKICAgIHZhbHVlLmdldCgiZGF0YSIpLm9rX29yX2Vsc2UofHwgbWlzc2luZ19kYXRhLnRvX3N0cmluZygpKQp9CgpwdWIoY3JhdGUpIGZuIGFwcGxpZWRfcmVzcG9uc2Vfb2JqZWN0PCdhPigKICAgIHZhbHVlOiAmJ2EgVmFsdWUsCiAgICB1bnN1Y2Nlc3NmdWxfZmFsbGJhY2s6ICZzdHIsCiAgICBtaXNzaW5nX2RhdGE6ICZzdHIsCikgLT4gUmVzdWx0PCYnYSBWYWx1ZSwgU3RyaW5nPiB7CiAgICBsZXQgZGF0YSA9IGFwcGxpZWRfcmVzcG9uc2VfZGF0YSh2YWx1ZSwgdW5zdWNjZXNzZnVsX2ZhbGxiYWNrLCBtaXNzaW5nX2RhdGEpPzsKICAgIGRhdGEuaXNfb2JqZWN0KCkKICAgICAgICAudGhlbl9zb21lKGRhdGEpCiAgICAgICAgLm9rX29yX2Vsc2UofHwgbWlzc2luZ19kYXRhLnRvX3N0cmluZygpKQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzZXJkZV9qc29uOjpqc29uOwoKICAgIHVzZSBzdXBlcjo6e2FwcGxpZWRfcmVzcG9uc2Vfb2JqZWN0LCBlbnN1cmVfcmVzcG9uc2Vfc3VjY2Vzc307CgogICAgI1t0ZXN0XQogICAgZm4gbWlzc2luZ19zdWNjZXNzX2ZpZWxkX3JlbWFpbnNfYmFja3dhcmRfY29tcGF0aWJsZSgpIHsKICAgICAgICBhc3NlcnQhKGVuc3VyZV9yZXNwb25zZV9zdWNjZXNzKCZqc29uISh7fSksICJmYWlsZWQiKS5pc19vaygpKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBmYWlsZWRfYWNrX3VzZXNfdHJpbW1lZF9nYXRld2F5X21lc3NhZ2UoKSB7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZW5zdXJlX3Jlc3BvbnNlX3N1Y2Nlc3MoCiAgICAgICAgICAgICAgICAmanNvbiEoeyJzdWNjZXNzIjogZmFsc2UsICJtZXNzYWdlIjogIiAgcmVqZWN0ZWQgICJ9KSwKICAgICAgICAgICAgICAgICJmYWlsZWQiCiAgICAgICAgICAgICksCiAgICAgICAgICAgIEVycigicmVqZWN0ZWQiLnRvX3N0cmluZygpKQogICAgICAgICk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gYXBwbGllZF9vYmplY3RfcmVxdWlyZXNfc3VjY2Vzc19hbmRfb2JqZWN0X2RhdGEoKSB7CiAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgYXBwbGllZF9yZXNwb25zZV9vYmplY3QoCiAgICAgICAgICAgICAgICAmanNvbiEoeyJzdWNjZXNzIjogdHJ1ZSwgImRhdGEiOiB7ImVuYWJsZWQiOiB0cnVlfX0pLAogICAgICAgICAgICAgICAgImZhaWxlZCIsCiAgICAgICAgICAgICAgICAibWlzc2luZyIKICAgICAgICAgICAgKQogICAgICAgICAgICAuaXNfb2soKQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgYXBwbGllZF9yZXNwb25zZV9vYmplY3QoJmpzb24hKHsic3VjY2VzcyI6IHRydWUsICJkYXRhIjogbnVsbH0pLCAiZmFpbGVkIiwgIm1pc3NpbmciKSwKICAgICAgICAgICAgRXJyKCJtaXNzaW5nIi50b19zdHJpbmcoKSkKICAgICAgICApOwogICAgfQp9Cg==
+use serde_json::Value;
+
+pub(crate) fn response_success(value: &Value) -> bool {
+    value
+        .get("success")
+        .and_then(Value::as_bool)
+        .unwrap_or(true)
+}
+
+pub(crate) fn response_message(value: &Value, fallback: &str) -> String {
+    value
+        .get("message")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .filter(|message| !message.is_empty())
+        .unwrap_or(fallback)
+        .to_string()
+}
+
+pub(crate) fn ensure_response_success(value: &Value, fallback: &str) -> Result<(), String> {
+    if response_success(value) {
+        Ok(())
+    } else {
+        Err(response_message(value, fallback))
+    }
+}
+
+pub(crate) fn applied_response_data<'a>(
+    value: &'a Value,
+    unsuccessful_fallback: &str,
+    missing_data: &str,
+) -> Result<&'a Value, String> {
+    ensure_response_success(value, unsuccessful_fallback)?;
+    value.get("data").ok_or_else(|| missing_data.to_string())
+}
+
+pub(crate) fn applied_response_object<'a>(
+    value: &'a Value,
+    unsuccessful_fallback: &str,
+    missing_data: &str,
+) -> Result<&'a Value, String> {
+    let data = applied_response_data(value, unsuccessful_fallback, missing_data)?;
+    data.is_object()
+        .then_some(data)
+        .ok_or_else(|| missing_data.to_string())
+}
+
+#[cfg(test)]
+mod tests {
+    use serde_json::json;
+
+    use super::{applied_response_object, ensure_response_success};
+
+    #[test]
+    fn missing_success_field_remains_backward_compatible() {
+        assert!(ensure_response_success(&json!({}), "failed").is_ok());
+    }
+
+    #[test]
+    fn failed_ack_uses_trimmed_gateway_message() {
+        assert_eq!(
+            ensure_response_success(
+                &json!({"success": false, "message": "  rejected  "}),
+                "failed"
+            ),
+            Err("rejected".to_string())
+        );
+    }
+
+    #[test]
+    fn applied_object_requires_success_and_object_data() {
+        assert!(
+            applied_response_object(
+                &json!({"success": true, "data": {"enabled": true}}),
+                "failed",
+                "missing"
+            )
+            .is_ok()
+        );
+        assert_eq!(
+            applied_response_object(&json!({"success": true, "data": null}), "failed", "missing"),
+            Err("missing".to_string())
+        );
+    }
+}

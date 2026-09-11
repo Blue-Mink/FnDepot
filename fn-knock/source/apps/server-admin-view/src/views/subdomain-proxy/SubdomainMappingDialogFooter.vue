@@ -1,1 +1,67 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IExvYWRlcjIgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgRGlhbG9nRm9vdGVyIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB0eXBlIHsgU3ViZG9tYWluTWFwcGluZ0RpYWxvZ1Byb3BzIH0gZnJvbSAiLi9zdWJkb21haW4tbWFwcGluZy1kaWFsb2ctY29udHJhY3QiOwoKY29uc3QgeyBkaWFsb2cgfSA9IGRlZmluZVByb3BzPHsgZGlhbG9nOiBTdWJkb21haW5NYXBwaW5nRGlhbG9nUHJvcHMgfT4oKTsKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsgY2xvc2U6IFtdOyBzYXZlOiBbXSB9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERpYWxvZ0Zvb3RlcgogICAgY2xhc3M9ImdyaWQgc2hyaW5rLTAgZ3JpZC1jb2xzLTIgYm9yZGVyLXQgYmctYmFja2dyb3VuZCBweC02IHB5LTQgc206ZmxleCBzbTpqdXN0aWZ5LWVuZCBtYXgtc206Z3JvdXAtZGF0YS1bc29mdC1rZXlib2FyZC12aXNpYmxlPWZhbHNlXS9kaWFsb2c6cGItW2NhbGMoZW52KHNhZmUtYXJlYS1pbnNldC1ib3R0b20pKzFyZW0pXSIKICA+CiAgICA8dGVtcGxhdGUKICAgICAgdi1pZj0iZGlhbG9nLnZpc2liaWxpdHlFZGl0b3IubWFwcGluZ0RpYWxvZ1ZpZXcgPT09ICdwYXRoLWJyb3dzZXInIgogICAgPgogICAgICA8QnV0dG9uCiAgICAgICAgY2xhc3M9InctZnVsbCBzbTp3LWF1dG8iCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICBAY2xpY2s9ImRpYWxvZy5wYXRoQnJvd3NlckVkaXRvci5jYW5jZWwiCiAgICAgID4KICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdGF0aWNTZXJ2ZS5icm93c2VyLmNhbmNlbCIpIH19CiAgICAgIDwvQnV0dG9uPgogICAgICA8QnV0dG9uCiAgICAgICAgY2xhc3M9InctZnVsbCBzbTp3LWF1dG8iCiAgICAgICAgOmRpc2FibGVkPSIhZGlhbG9nLnBhdGhCcm93c2VyRWRpdG9yLmNhbkNvbmZpcm0iCiAgICAgICAgQGNsaWNrPSJkaWFsb2cucGF0aEJyb3dzZXJFZGl0b3IuY29uZmlybVNlbGVjdGlvbiIKICAgICAgPgogICAgICAgIDxMb2FkZXIyCiAgICAgICAgICB2LWlmPSJkaWFsb2cucGF0aEJyb3dzZXJFZGl0b3IuaXNDb25maXJtaW5nIgogICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4iCiAgICAgICAgLz4KICAgICAgICB7ewogICAgICAgICAgdCgKICAgICAgICAgICAgZGlhbG9nLnBhdGhCcm93c2VyRWRpdG9yLnRhcmdldFR5cGUgPT09ICJkaXJlY3RvcnkiCiAgICAgICAgICAgICAgPyAiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUuYnJvd3Nlci51c2VDdXJyZW50Rm9sZGVyIgogICAgICAgICAgICAgIDogImFkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLmJyb3dzZXIudXNlU2VsZWN0ZWRGaWxlIiwKICAgICAgICAgICkKICAgICAgICB9fQogICAgICA8L0J1dHRvbj4KICAgIDwvdGVtcGxhdGU+CiAgICA8dGVtcGxhdGUgdi1lbHNlPgogICAgICA8QnV0dG9uCiAgICAgICAgY2xhc3M9InctZnVsbCBzbTp3LWF1dG8iCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICBAY2xpY2s9ImVtaXQoJ2Nsb3NlJykiCiAgICAgID4KICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5jYW5jZWwiKSB9fQogICAgICA8L0J1dHRvbj4KICAgICAgPEJ1dHRvbgogICAgICAgIGNsYXNzPSJ3LWZ1bGwgc206dy1hdXRvIgogICAgICAgIDpkaXNhYmxlZD0iCiAgICAgICAgICAhZGlhbG9nLmlzTWFwcGluZ1ZhbGlkIHx8CiAgICAgICAgICBkaWFsb2cuaXNTYXZpbmdNYXBwaW5ncyB8fAogICAgICAgICAgZGlhbG9nLmlzR2F0ZXdheUFkdmFuY2VkTG9hZGluZyB8fAogICAgICAgICAgZGlhbG9nLmljb25FZGl0b3IuaXNJY29uQnVzeQogICAgICAgICIKICAgICAgICBAY2xpY2s9ImVtaXQoJ3NhdmUnKSIKICAgICAgPgogICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnNhdmVNYXBwaW5nIikgfX0KICAgICAgPC9CdXR0b24+CiAgICA8L3RlbXBsYXRlPgogIDwvRGlhbG9nRm9vdGVyPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Loader2 } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { DialogFooter } from "@/components/ui/dialog";
+import type { SubdomainMappingDialogProps } from "./subdomain-mapping-dialog-contract";
+
+const { dialog } = defineProps<{ dialog: SubdomainMappingDialogProps }>();
+const emit = defineEmits<{ close: []; save: [] }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <DialogFooter
+    class="grid shrink-0 grid-cols-2 border-t bg-background px-6 py-4 sm:flex sm:justify-end max-sm:group-data-[soft-keyboard-visible=false]/dialog:pb-[calc(env(safe-area-inset-bottom)+1rem)]"
+  >
+    <template
+      v-if="dialog.visibilityEditor.mappingDialogView === 'path-browser'"
+    >
+      <Button
+        class="w-full sm:w-auto"
+        variant="outline"
+        @click="dialog.pathBrowserEditor.cancel"
+      >
+        {{ t("admin.subdomainProxy.staticServe.browser.cancel") }}
+      </Button>
+      <Button
+        class="w-full sm:w-auto"
+        :disabled="!dialog.pathBrowserEditor.canConfirm"
+        @click="dialog.pathBrowserEditor.confirmSelection"
+      >
+        <Loader2
+          v-if="dialog.pathBrowserEditor.isConfirming"
+          class="mr-2 h-4 w-4 animate-spin"
+        />
+        {{
+          t(
+            dialog.pathBrowserEditor.targetType === "directory"
+              ? "admin.subdomainProxy.staticServe.browser.useCurrentFolder"
+              : "admin.subdomainProxy.staticServe.browser.useSelectedFile",
+          )
+        }}
+      </Button>
+    </template>
+    <template v-else>
+      <Button
+        class="w-full sm:w-auto"
+        variant="outline"
+        @click="emit('close')"
+      >
+        {{ t("admin.subdomainProxy.cancel") }}
+      </Button>
+      <Button
+        class="w-full sm:w-auto"
+        :disabled="
+          !dialog.isMappingValid ||
+          dialog.isSavingMappings ||
+          dialog.isGatewayAdvancedLoading ||
+          dialog.iconEditor.isIconBusy
+        "
+        @click="emit('save')"
+      >
+        {{ t("admin.subdomainProxy.saveMapping") }}
+      </Button>
+    </template>
+  </DialogFooter>
+</template>

@@ -1,1 +1,341 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyBkb3dubG9hZEJsb2IgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL2Rvd25sb2FkQmxvYiI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgV0FGQVBJIH0gZnJvbSAiQC9saWIvYXBpL2dhdGV3YXkiOwppbXBvcnQgdHlwZSB7CiAgV0FGRGV0YWlscywKICBXQUZSdWxlRmlsZSwKICBXQUZSdWxlRmlsZUNvbnRlbnQsCiAgV0FGUnVsZVNvdXJjZSwKfSBmcm9tICJAL3R5cGVzIjsKCmNvbnN0IFNZU1RFTV9JTklUSUFMSVpBVElPTl9SVUxFX0ZJTEVOQU1FID0gIlJFUVVFU1QtOTAxLUlOSVRJQUxJWkFUSU9OLmNvbmYiOwoKZXhwb3J0IGNvbnN0IHVzZVdBRlJ1bGVNYW5hZ2VtZW50ID0gKHsKICBhcHBseURldGFpbHMsCiAgZGV0YWlscywKICBmb3JtYXREYXRlLAogIHNlbGVjdGVkQ3VzdG9tUnVsZXMsCiAgc2VsZWN0ZWRTeXN0ZW1SdWxlcywKfTogewogIGFwcGx5RGV0YWlsczogKGRhdGE6IFdBRkRldGFpbHMpID0+IHZvaWQ7CiAgZGV0YWlsczogUmVmPFdBRkRldGFpbHMgfCBudWxsPjsKICBmb3JtYXREYXRlOiAodmFsdWU/OiBzdHJpbmcgfCBudWxsKSA9PiBzdHJpbmc7CiAgc2VsZWN0ZWRDdXN0b21SdWxlczogUmVmPHN0cmluZ1tdPjsKICBzZWxlY3RlZFN5c3RlbVJ1bGVzOiBSZWY8c3RyaW5nW10+Owp9KSA9PiB7CiAgY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CiAgY29uc3QgdXBsb2FkSW5wdXRSZWYgPSByZWY8SFRNTElucHV0RWxlbWVudCB8IG51bGw+KG51bGwpOwogIGNvbnN0IGFjdGl2ZVJ1bGVBY3Rpb25zS2V5ID0gcmVmKCIiKTsKICBjb25zdCBsb2FkaW5nUnVsZUtleSA9IHJlZigiIik7CiAgY29uc3QgZG93bmxvYWRpbmdSdWxlS2V5ID0gcmVmKCIiKTsKICBjb25zdCBpc1J1bGVQcmV2aWV3T3BlbiA9IHJlZihmYWxzZSk7CiAgY29uc3QgYWN0aXZlUnVsZVByZXZpZXcgPSByZWY8V0FGUnVsZUZpbGVDb250ZW50IHwgbnVsbD4obnVsbCk7CgogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1VwZGF0aW5nU3lzdGVtUnVsZXMsIHJ1bjogcnVuVXBkYXRlU3lzdGVtUnVsZXMgfSA9CiAgICB1c2VBc3luY0FjdGlvbih7CiAgICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLndhZlNldHRpbmdzLnVwZGF0ZUZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgICAgZXJyb3IsCiAgICAgICAgICAgIHQoImFkbWluLndhZlNldHRpbmdzLnN5c3RlbVVwZGF0ZURlc2NyaXB0aW9uIiksCiAgICAgICAgICApLAogICAgICAgIH0pOwogICAgICB9LAogICAgfSk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzVXBsb2FkaW5nLCBydW46IHJ1blVwbG9hZFJ1bGVzIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ud2FmU2V0dGluZ3MudXBsb2FkRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4ud2FmU2V0dGluZ3MudXBsb2FkRGVzY3JpcHRpb24iKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzQ2hhbmdpbmdSdWxlcywgcnVuOiBydW5SdWxlQ2hhbmdlIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ud2FmU2V0dGluZ3MudXBkYXRlRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4ud2FmU2V0dGluZ3MucnVsZVVwZGF0ZURlc2NyaXB0aW9uIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwoKICBjb25zdCBzeXN0ZW1SdWxlcyA9IGNvbXB1dGVkKCgpID0+CiAgICAoZGV0YWlscy52YWx1ZT8uc3lzdGVtLnJ1bGVzIHx8IFtdKS5maWx0ZXIoCiAgICAgIChydWxlKSA9PiBydWxlLmZpbGVuYW1lICE9PSBTWVNURU1fSU5JVElBTElaQVRJT05fUlVMRV9GSUxFTkFNRSwKICAgICksCiAgKTsKICBjb25zdCBjdXN0b21SdWxlcyA9IGNvbXB1dGVkKCgpID0+IGRldGFpbHMudmFsdWU/LmN1c3RvbS5ydWxlcyB8fCBbXSk7CiAgY29uc3Qgc291cmNlUnVsZXMgPSAoc291cmNlOiBXQUZSdWxlU291cmNlKSA9PgogICAgc291cmNlID09PSAic3lzdGVtIiA/IHN5c3RlbVJ1bGVzLnZhbHVlIDogY3VzdG9tUnVsZXMudmFsdWU7CiAgY29uc3QgYWxsUnVsZXNFbmFibGVkID0gKHNvdXJjZTogV0FGUnVsZVNvdXJjZSkgPT4gewogICAgY29uc3QgcnVsZXMgPSBzb3VyY2VSdWxlcyhzb3VyY2UpOwogICAgcmV0dXJuIHJ1bGVzLmxlbmd0aCA+IDAgJiYgcnVsZXMuZXZlcnkoKHJ1bGUpID0+IHJ1bGUuZW5hYmxlZCk7CiAgfTsKCiAgY29uc3QgZm9ybWF0U2l6ZSA9ICh2YWx1ZTogbnVtYmVyKSA9PiB7CiAgICBpZiAodmFsdWUgPj0gMTAyNCAqIDEwMjQpIHJldHVybiBgJHsodmFsdWUgLyAxMDI0IC8gMTAyNCkudG9GaXhlZCgxKX0gTUJgOwogICAgaWYgKHZhbHVlID49IDEwMjQpIHJldHVybiBgJHsodmFsdWUgLyAxMDI0KS50b0ZpeGVkKDEpfSBLQmA7CiAgICByZXR1cm4gYCR7dmFsdWV9IEJgOwogIH07CiAgY29uc3QgZm9ybWF0U3lzdGVtUnVsZU5hbWUgPSAocnVsZTogV0FGUnVsZUZpbGUpID0+CiAgICBydWxlLmZpbGVuYW1lLnJlcGxhY2UoL1wuY29uZiQvaSwgIiIpOwogIGNvbnN0IGZvcm1hdFN5c3RlbVJ1bGVNZXRhID0gKHJ1bGU6IFdBRlJ1bGVGaWxlKSA9PiBydWxlLmRlc2NyaXB0aW9uOwogIGNvbnN0IGZvcm1hdFJ1bGVTaXplID0gKHJ1bGU6IFdBRlJ1bGVGaWxlKSA9PiBmb3JtYXRTaXplKHJ1bGUuc2l6ZV9ieXRlcyk7CiAgY29uc3QgZm9ybWF0Q3VzdG9tUnVsZU5hbWUgPSAocnVsZTogV0FGUnVsZUZpbGUpID0+IHJ1bGUuZmlsZW5hbWU7CiAgY29uc3QgZm9ybWF0Q3VzdG9tUnVsZU1ldGEgPSAocnVsZTogV0FGUnVsZUZpbGUpID0+CiAgICBgJHtmb3JtYXRTaXplKHJ1bGUuc2l6ZV9ieXRlcyl9IMK3ICR7Zm9ybWF0RGF0ZShydWxlLnVwZGF0ZWRfYXQpfWA7CiAgY29uc3Qgc291cmNlTGFiZWwgPSAoc291cmNlOiBXQUZSdWxlU291cmNlKSA9PgogICAgc291cmNlID09PSAic3lzdGVtIgogICAgICA/IHQoImFkbWluLndhZlNldHRpbmdzLnN5c3RlbVJ1bGVzIikKICAgICAgOiB0KCJhZG1pbi53YWZTZXR0aW5ncy5jdXN0b21SdWxlcyIpOwogIGNvbnN0IHJ1bGVLZXkgPSAocnVsZTogUGljazxXQUZSdWxlRmlsZSwgInNvdXJjZSIgfCAiZmlsZW5hbWUiPikgPT4KICAgIGAke3J1bGUuc291cmNlfToke3J1bGUuZmlsZW5hbWV9YDsKICBjb25zdCBhY3RpdmF0ZVJ1bGVBY3Rpb25zID0gKAogICAgcnVsZTogUGljazxXQUZSdWxlRmlsZSwgInNvdXJjZSIgfCAiZmlsZW5hbWUiPiwKICApID0+IHsKICAgIGFjdGl2ZVJ1bGVBY3Rpb25zS2V5LnZhbHVlID0gcnVsZUtleShydWxlKTsKICB9OwoKICBjb25zdCByZWZyZXNoQW5kU3luY1N5c3RlbVJ1bGVzID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgcmVmcmVzaGVkID0gYXdhaXQgV0FGQVBJLnJlZnJlc2hNYW5pZmVzdCgpOwogICAgaWYgKAogICAgICAhcmVmcmVzaGVkLnN5c3RlbS51cGRhdGVfYXZhaWxhYmxlICYmCiAgICAgIHJlZnJlc2hlZC5zeXN0ZW0ucnVsZXMubGVuZ3RoID4gMAogICAgKSB7CiAgICAgIHJldHVybiB7IGRldGFpbHM6IHJlZnJlc2hlZCwgdXBkYXRlZDogZmFsc2UgfTsKICAgIH0KICAgIHJldHVybiB7IGRldGFpbHM6IGF3YWl0IFdBRkFQSS5zeW5jU3lzdGVtUnVsZXMoKSwgdXBkYXRlZDogdHJ1ZSB9OwogIH07CgogIGNvbnN0IHVwZGF0ZVN5c3RlbVJ1bGVzID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuVXBkYXRlU3lzdGVtUnVsZXMocmVmcmVzaEFuZFN5bmNTeXN0ZW1SdWxlcywgewogICAgICBvblN1Y2Nlc3M6ICh7IGRldGFpbHM6IG5leHREZXRhaWxzLCB1cGRhdGVkIH0pID0+IHsKICAgICAgICBhcHBseURldGFpbHMobmV4dERldGFpbHMpOwogICAgICAgIGlmICh1cGRhdGVkKSB7CiAgICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLndhZlNldHRpbmdzLnN5c3RlbVJ1bGVzVXBkYXRlZCIpLCB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uOiBuZXh0RGV0YWlscy5jb25maWcuZW5hYmxlZAogICAgICAgICAgICAgID8gdCgiYWRtaW4ud2FmU2V0dGluZ3MubG9hZGVkVG9HYXRld2F5IikKICAgICAgICAgICAgICA6IHQoImFkbWluLndhZlNldHRpbmdzLnJ1bGVzQXBwbHlXaGVuRW5hYmxlZCIpLAogICAgICAgICAgfSk7CiAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4ud2FmU2V0dGluZ3MucnVsZXNMYXRlc3QiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IHQoImFkbWluLndhZlNldHRpbmdzLm5vTmV3U3lzdGVtUnVsZXMiKSwKICAgICAgICB9KTsKICAgICAgfSwKICAgIH0pOwogIH07CgogIGNvbnN0IHNlbGVjdGlvblJlZiA9IChzb3VyY2U6IFdBRlJ1bGVTb3VyY2UpID0+CiAgICBzb3VyY2UgPT09ICJzeXN0ZW0iID8gc2VsZWN0ZWRTeXN0ZW1SdWxlcyA6IHNlbGVjdGVkQ3VzdG9tUnVsZXM7CiAgY29uc3Qgc2V0UnVsZVNlbGVjdGVkID0gKAogICAgc291cmNlOiBXQUZSdWxlU291cmNlLAogICAgZmlsZW5hbWU6IHN0cmluZywKICAgIGNoZWNrZWQ6IGJvb2xlYW4sCiAgKSA9PiB7CiAgICBjb25zdCB0YXJnZXQgPSBzZWxlY3Rpb25SZWYoc291cmNlKTsKICAgIHRhcmdldC52YWx1ZSA9IGNoZWNrZWQKICAgICAgPyBbLi4ubmV3IFNldChbLi4udGFyZ2V0LnZhbHVlLCBmaWxlbmFtZV0pXQogICAgICA6IHRhcmdldC52YWx1ZS5maWx0ZXIoKGl0ZW0pID0+IGl0ZW0gIT09IGZpbGVuYW1lKTsKICB9OwogIGNvbnN0IHNldEFsbFNlbGVjdGVkID0gKHNvdXJjZTogV0FGUnVsZVNvdXJjZSwgY2hlY2tlZDogYm9vbGVhbikgPT4gewogICAgc2VsZWN0aW9uUmVmKHNvdXJjZSkudmFsdWUgPSBjaGVja2VkCiAgICAgID8gc291cmNlUnVsZXMoc291cmNlKS5tYXAoKHJ1bGUpID0+IHJ1bGUuZmlsZW5hbWUpCiAgICAgIDogW107CiAgfTsKCiAgY29uc3QgdXBkYXRlUnVsZXNFbmFibGVkID0gYXN5bmMgKAogICAgc291cmNlOiBXQUZSdWxlU291cmNlLAogICAgZmlsZW5hbWVzOiBzdHJpbmdbXSB8IHVuZGVmaW5lZCwKICAgIGVuYWJsZWQ6IGJvb2xlYW4sCiAgKSA9PiB7CiAgICBhd2FpdCBydW5SdWxlQ2hhbmdlKAogICAgICAoKSA9PiBXQUZBUEkuc2V0UnVsZXNFbmFibGVkKHsgc291cmNlLCBmaWxlbmFtZXMsIGVuYWJsZWQgfSksCiAgICAgIHsKICAgICAgICBvblN1Y2Nlc3M6IChkYXRhKSA9PiB7CiAgICAgICAgICBhcHBseURldGFpbHMoZGF0YSk7CiAgICAgICAgICB0b2FzdC5zdWNjZXNzKAogICAgICAgICAgICBlbmFibGVkCiAgICAgICAgICAgICAgPyB0KCJhZG1pbi53YWZTZXR0aW5ncy5ydWxlRW5hYmxlZCIpCiAgICAgICAgICAgICAgOiB0KCJhZG1pbi53YWZTZXR0aW5ncy5ydWxlRGlzYWJsZWQiKSwKICAgICAgICAgICAgewogICAgICAgICAgICAgIGRlc2NyaXB0aW9uOiBkYXRhLmNvbmZpZy5lbmFibGVkCiAgICAgICAgICAgICAgICA/IHQoImFkbWluLndhZlNldHRpbmdzLmxvYWRlZFRvR2F0ZXdheSIpCiAgICAgICAgICAgICAgICA6IHQoImFkbWluLndhZlNldHRpbmdzLmN1cnJlbnRSdWxlc0FwcGx5V2hlbkVuYWJsZWQiKSwKICAgICAgICAgICAgfSwKICAgICAgICAgICk7CiAgICAgICAgfSwKICAgICAgfSwKICAgICk7CiAgfTsKCiAgY29uc3QgdG9nZ2xlUnVsZSA9IChydWxlOiBXQUZSdWxlRmlsZSwgZW5hYmxlZDogYm9vbGVhbikgPT4KICAgIHVwZGF0ZVJ1bGVzRW5hYmxlZChydWxlLnNvdXJjZSwgW3J1bGUuZmlsZW5hbWVdLCBlbmFibGVkKTsKICBjb25zdCB1cGRhdGVTZWxlY3RlZFJ1bGVzID0gKHNvdXJjZTogV0FGUnVsZVNvdXJjZSwgZW5hYmxlZDogYm9vbGVhbikgPT4gewogICAgY29uc3QgZmlsZW5hbWVzID0gc2VsZWN0aW9uUmVmKHNvdXJjZSkudmFsdWU7CiAgICBpZiAoZmlsZW5hbWVzLmxlbmd0aCA9PT0gMCkgcmV0dXJuOwogICAgcmV0dXJuIHVwZGF0ZVJ1bGVzRW5hYmxlZChzb3VyY2UsIGZpbGVuYW1lcywgZW5hYmxlZCk7CiAgfTsKICBjb25zdCB0b2dnbGVBbGxSdWxlcyA9IChzb3VyY2U6IFdBRlJ1bGVTb3VyY2UpID0+CiAgICB1cGRhdGVSdWxlc0VuYWJsZWQoc291cmNlLCB1bmRlZmluZWQsICFhbGxSdWxlc0VuYWJsZWQoc291cmNlKSk7CgogIGNvbnN0IGVuYWJsZVJlY29tbWVuZGVkU3lzdGVtUnVsZXMgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBydW5SdWxlQ2hhbmdlKFdBRkFQSS5lbmFibGVSZWNvbW1lbmRlZFN5c3RlbVJ1bGVzLCB7CiAgICAgIG9uU3VjY2VzczogKGRhdGEpID0+IHsKICAgICAgICBhcHBseURldGFpbHMoZGF0YSk7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi53YWZTZXR0aW5ncy5yZWNvbW1lbmRlZFJ1bGVzRW5hYmxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogZGF0YS5jb25maWcuZW5hYmxlZAogICAgICAgICAgICA/IHQoImFkbWluLndhZlNldHRpbmdzLmxvYWRlZFRvR2F0ZXdheSIpCiAgICAgICAgICAgIDogdCgiYWRtaW4ud2FmU2V0dGluZ3MuY3VycmVudFJ1bGVzQXBwbHlXaGVuRW5hYmxlZCIpLAogICAgICAgIH0pOwogICAgICB9LAogICAgfSk7CiAgfTsKCiAgY29uc3Qgb3BlblJ1bGVQcmV2aWV3ID0gYXN5bmMgKHJ1bGU6IFdBRlJ1bGVGaWxlKSA9PiB7CiAgICBjb25zdCBrZXkgPSBydWxlS2V5KHJ1bGUpOwogICAgYWN0aXZhdGVSdWxlQWN0aW9ucyhydWxlKTsKICAgIGxvYWRpbmdSdWxlS2V5LnZhbHVlID0ga2V5OwogICAgdHJ5IHsKICAgICAgYWN0aXZlUnVsZVByZXZpZXcudmFsdWUgPSBhd2FpdCBXQUZBUEkuZ2V0UnVsZUZpbGUoCiAgICAgICAgcnVsZS5zb3VyY2UsCiAgICAgICAgcnVsZS5maWxlbmFtZSwKICAgICAgKTsKICAgICAgaXNSdWxlUHJldmlld09wZW4udmFsdWUgPSB0cnVlOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ud2FmU2V0dGluZ3MucmVhZEZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLndhZlNldHRpbmdzLnJ1bGVSZWFkRGVzY3JpcHRpb24iKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0gZmluYWxseSB7CiAgICAgIGlmIChsb2FkaW5nUnVsZUtleS52YWx1ZSA9PT0ga2V5KSBsb2FkaW5nUnVsZUtleS52YWx1ZSA9ICIiOwogICAgfQogIH07CgogIGNvbnN0IGRvd25sb2FkUnVsZUZpbGUgPSBhc3luYyAocnVsZTogV0FGUnVsZUZpbGUpID0+IHsKICAgIGNvbnN0IGtleSA9IHJ1bGVLZXkocnVsZSk7CiAgICBhY3RpdmF0ZVJ1bGVBY3Rpb25zKHJ1bGUpOwogICAgZG93bmxvYWRpbmdSdWxlS2V5LnZhbHVlID0ga2V5OwogICAgdHJ5IHsKICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IFdBRkFQSS5nZXRSdWxlRmlsZShydWxlLnNvdXJjZSwgcnVsZS5maWxlbmFtZSk7CiAgICAgIGRvd25sb2FkQmxvYigKICAgICAgICBuZXcgQmxvYihbZGF0YS5jb250ZW50XSwgeyB0eXBlOiAidGV4dC9wbGFpbjtjaGFyc2V0PXV0Zi04IiB9KSwKICAgICAgICBkYXRhLmZpbGVuYW1lIHx8IHJ1bGUuZmlsZW5hbWUsCiAgICAgICk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi53YWZTZXR0aW5ncy5kb3dubG9hZEZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLndhZlNldHRpbmdzLnJ1bGVEb3dubG9hZERlc2NyaXB0aW9uIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBpZiAoZG93bmxvYWRpbmdSdWxlS2V5LnZhbHVlID09PSBrZXkpIGRvd25sb2FkaW5nUnVsZUtleS52YWx1ZSA9ICIiOwogICAgfQogIH07CgogIGNvbnN0IHJlYWRGaWxlQXNCYXNlNjQgPSAoZmlsZTogRmlsZSk6IFByb21pc2U8c3RyaW5nPiA9PgogICAgbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgICBjb25zdCByZWFkZXIgPSBuZXcgRmlsZVJlYWRlcigpOwogICAgICByZWFkZXIub25sb2FkID0gKCkgPT4gewogICAgICAgIGNvbnN0IHZhbHVlID0gU3RyaW5nKHJlYWRlci5yZXN1bHQgfHwgIiIpOwogICAgICAgIHJlc29sdmUodmFsdWUuaW5jbHVkZXMoIiwiKSA/IHZhbHVlLnNwbGl0KCIsIilbMV0gfHwgIiIgOiB2YWx1ZSk7CiAgICAgIH07CiAgICAgIHJlYWRlci5vbmVycm9yID0gKCkgPT4KICAgICAgICByZWplY3QoCiAgICAgICAgICByZWFkZXIuZXJyb3IgfHwgbmV3IEVycm9yKHQoImFkbWluLndhZlNldHRpbmdzLmZpbGVSZWFkRmFpbGVkIikpLAogICAgICAgICk7CiAgICAgIHJlYWRlci5yZWFkQXNEYXRhVVJMKGZpbGUpOwogICAgfSk7CgogIGNvbnN0IHRyaWdnZXJVcGxvYWQgPSAoKSA9PiB1cGxvYWRJbnB1dFJlZi52YWx1ZT8uY2xpY2soKTsKICBjb25zdCBoYW5kbGVVcGxvYWRDaGFuZ2UgPSBhc3luYyAoZXZlbnQ6IEV2ZW50KSA9PiB7CiAgICBjb25zdCBpbnB1dCA9IGV2ZW50LnRhcmdldCBhcyBIVE1MSW5wdXRFbGVtZW50OwogICAgY29uc3QgZmlsZXMgPSBBcnJheS5mcm9tKGlucHV0LmZpbGVzIHx8IFtdKTsKICAgIGlucHV0LnZhbHVlID0gIiI7CiAgICBpZiAoZmlsZXMubGVuZ3RoID09PSAwKSByZXR1cm47CiAgICBhd2FpdCBydW5VcGxvYWRSdWxlcygKICAgICAgYXN5bmMgKCkgPT4KICAgICAgICBXQUZBUEkudXBsb2FkQ3VzdG9tUnVsZXMoewogICAgICAgICAgZmlsZXM6IGF3YWl0IFByb21pc2UuYWxsKAogICAgICAgICAgICBmaWxlcy5tYXAoYXN5bmMgKGZpbGUpID0+ICh7CiAgICAgICAgICAgICAgZmlsZW5hbWU6IGZpbGUubmFtZSwKICAgICAgICAgICAgICBjb250ZW50X2Jhc2U2NDogYXdhaXQgcmVhZEZpbGVBc0Jhc2U2NChmaWxlKSwKICAgICAgICAgICAgfSkpLAogICAgICAgICAgKSwKICAgICAgICB9KSwKICAgICAgewogICAgICAgIG9uU3VjY2VzczogKGRhdGEpID0+IHsKICAgICAgICAgIGFwcGx5RGV0YWlscyhkYXRhKTsKICAgICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4ud2FmU2V0dGluZ3MuY3VzdG9tUnVsZXNVcGxvYWRlZCIpLCB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uOiBkYXRhLmNvbmZpZy5lbmFibGVkCiAgICAgICAgICAgICAgPyB0KCJhZG1pbi53YWZTZXR0aW5ncy5sb2FkZWRUb0dhdGV3YXkiKQogICAgICAgICAgICAgIDogdCgiYWRtaW4ud2FmU2V0dGluZ3MuY3VycmVudFJ1bGVzQXBwbHlXaGVuRW5hYmxlZCIpLAogICAgICAgICAgfSk7CiAgICAgICAgfSwKICAgICAgfSwKICAgICk7CiAgfTsKCiAgY29uc3QgZGVsZXRlQ3VzdG9tUnVsZSA9IGFzeW5jIChmaWxlbmFtZTogc3RyaW5nKSA9PiB7CiAgICBhd2FpdCBydW5SdWxlQ2hhbmdlKCgpID0+IFdBRkFQSS5kZWxldGVDdXN0b21SdWxlKGZpbGVuYW1lKSwgewogICAgICBvblN1Y2Nlc3M6IChkYXRhKSA9PiB7CiAgICAgICAgYXBwbHlEZXRhaWxzKGRhdGEpOwogICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4ud2FmU2V0dGluZ3MuY3VzdG9tUnVsZURlbGV0ZWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IGRhdGEuY29uZmlnLmVuYWJsZWQKICAgICAgICAgICAgPyB0KCJhZG1pbi53YWZTZXR0aW5ncy5sb2FkZWRUb0dhdGV3YXkiKQogICAgICAgICAgICA6IHQoImFkbWluLndhZlNldHRpbmdzLmN1cnJlbnRSdWxlc0FwcGx5V2hlbkVuYWJsZWQiKSwKICAgICAgICB9KTsKICAgICAgfSwKICAgIH0pOwogIH07CgogIHJldHVybiB7CiAgICBhY3RpdmF0ZVJ1bGVBY3Rpb25zLAogICAgYWN0aXZlUnVsZUFjdGlvbnNLZXksCiAgICBhY3RpdmVSdWxlUHJldmlldywKICAgIGFsbFJ1bGVzRW5hYmxlZCwKICAgIGN1c3RvbVJ1bGVzLAogICAgZGVsZXRlQ3VzdG9tUnVsZSwKICAgIGRvd25sb2FkaW5nUnVsZUtleSwKICAgIGRvd25sb2FkUnVsZUZpbGUsCiAgICBlbmFibGVSZWNvbW1lbmRlZFN5c3RlbVJ1bGVzLAogICAgZm9ybWF0Q3VzdG9tUnVsZU1ldGEsCiAgICBmb3JtYXRDdXN0b21SdWxlTmFtZSwKICAgIGZvcm1hdFJ1bGVTaXplLAogICAgZm9ybWF0U2l6ZSwKICAgIGZvcm1hdFN5c3RlbVJ1bGVNZXRhLAogICAgZm9ybWF0U3lzdGVtUnVsZU5hbWUsCiAgICBoYW5kbGVVcGxvYWRDaGFuZ2UsCiAgICBpc0NoYW5naW5nUnVsZXMsCiAgICBpc1J1bGVQcmV2aWV3T3BlbiwKICAgIGlzVXBkYXRpbmdTeXN0ZW1SdWxlcywKICAgIGlzVXBsb2FkaW5nLAogICAgbG9hZGluZ1J1bGVLZXksCiAgICBvcGVuUnVsZVByZXZpZXcsCiAgICByZWZyZXNoQW5kU3luY1N5c3RlbVJ1bGVzLAogICAgcnVsZUtleSwKICAgIHNldEFsbFNlbGVjdGVkLAogICAgc2V0UnVsZVNlbGVjdGVkLAogICAgc291cmNlTGFiZWwsCiAgICBzeXN0ZW1SdWxlcywKICAgIHRvZ2dsZUFsbFJ1bGVzLAogICAgdG9nZ2xlUnVsZSwKICAgIHRyaWdnZXJVcGxvYWQsCiAgICB1cGRhdGVTZWxlY3RlZFJ1bGVzLAogICAgdXBkYXRlU3lzdGVtUnVsZXMsCiAgICB1cGxvYWRJbnB1dFJlZiwKICB9Owp9Owo=
+import { computed, ref, type Ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { toast } from "@admin-shared/utils/toast";
+import { downloadBlob } from "@admin-shared/utils/downloadBlob";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { WAFAPI } from "@/lib/api/gateway";
+import type {
+  WAFDetails,
+  WAFRuleFile,
+  WAFRuleFileContent,
+  WAFRuleSource,
+} from "@/types";
+
+const SYSTEM_INITIALIZATION_RULE_FILENAME = "REQUEST-901-INITIALIZATION.conf";
+
+export const useWAFRuleManagement = ({
+  applyDetails,
+  details,
+  formatDate,
+  selectedCustomRules,
+  selectedSystemRules,
+}: {
+  applyDetails: (data: WAFDetails) => void;
+  details: Ref<WAFDetails | null>;
+  formatDate: (value?: string | null) => string;
+  selectedCustomRules: Ref<string[]>;
+  selectedSystemRules: Ref<string[]>;
+}) => {
+  const { t } = useI18n();
+  const uploadInputRef = ref<HTMLInputElement | null>(null);
+  const activeRuleActionsKey = ref("");
+  const loadingRuleKey = ref("");
+  const downloadingRuleKey = ref("");
+  const isRulePreviewOpen = ref(false);
+  const activeRulePreview = ref<WAFRuleFileContent | null>(null);
+
+  const { isPending: isUpdatingSystemRules, run: runUpdateSystemRules } =
+    useAsyncAction({
+      onError: (error) => {
+        toast.error(t("admin.wafSettings.updateFailed"), {
+          description: extractErrorMessage(
+            error,
+            t("admin.wafSettings.systemUpdateDescription"),
+          ),
+        });
+      },
+    });
+  const { isPending: isUploading, run: runUploadRules } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.wafSettings.uploadFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.wafSettings.uploadDescription"),
+        ),
+      });
+    },
+  });
+  const { isPending: isChangingRules, run: runRuleChange } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.wafSettings.updateFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.wafSettings.ruleUpdateDescription"),
+        ),
+      });
+    },
+  });
+
+  const systemRules = computed(() =>
+    (details.value?.system.rules || []).filter(
+      (rule) => rule.filename !== SYSTEM_INITIALIZATION_RULE_FILENAME,
+    ),
+  );
+  const customRules = computed(() => details.value?.custom.rules || []);
+  const sourceRules = (source: WAFRuleSource) =>
+    source === "system" ? systemRules.value : customRules.value;
+  const allRulesEnabled = (source: WAFRuleSource) => {
+    const rules = sourceRules(source);
+    return rules.length > 0 && rules.every((rule) => rule.enabled);
+  };
+
+  const formatSize = (value: number) => {
+    if (value >= 1024 * 1024) return `${(value / 1024 / 1024).toFixed(1)} MB`;
+    if (value >= 1024) return `${(value / 1024).toFixed(1)} KB`;
+    return `${value} B`;
+  };
+  const formatSystemRuleName = (rule: WAFRuleFile) =>
+    rule.filename.replace(/\.conf$/i, "");
+  const formatSystemRuleMeta = (rule: WAFRuleFile) => rule.description;
+  const formatRuleSize = (rule: WAFRuleFile) => formatSize(rule.size_bytes);
+  const formatCustomRuleName = (rule: WAFRuleFile) => rule.filename;
+  const formatCustomRuleMeta = (rule: WAFRuleFile) =>
+    `${formatSize(rule.size_bytes)} · ${formatDate(rule.updated_at)}`;
+  const sourceLabel = (source: WAFRuleSource) =>
+    source === "system"
+      ? t("admin.wafSettings.systemRules")
+      : t("admin.wafSettings.customRules");
+  const ruleKey = (rule: Pick<WAFRuleFile, "source" | "filename">) =>
+    `${rule.source}:${rule.filename}`;
+  const activateRuleActions = (
+    rule: Pick<WAFRuleFile, "source" | "filename">,
+  ) => {
+    activeRuleActionsKey.value = ruleKey(rule);
+  };
+
+  const refreshAndSyncSystemRules = async () => {
+    const refreshed = await WAFAPI.refreshManifest();
+    if (
+      !refreshed.system.update_available &&
+      refreshed.system.rules.length > 0
+    ) {
+      return { details: refreshed, updated: false };
+    }
+    return { details: await WAFAPI.syncSystemRules(), updated: true };
+  };
+
+  const updateSystemRules = async () => {
+    await runUpdateSystemRules(refreshAndSyncSystemRules, {
+      onSuccess: ({ details: nextDetails, updated }) => {
+        applyDetails(nextDetails);
+        if (updated) {
+          toast.success(t("admin.wafSettings.systemRulesUpdated"), {
+            description: nextDetails.config.enabled
+              ? t("admin.wafSettings.loadedToGateway")
+              : t("admin.wafSettings.rulesApplyWhenEnabled"),
+          });
+          return;
+        }
+        toast.success(t("admin.wafSettings.rulesLatest"), {
+          description: t("admin.wafSettings.noNewSystemRules"),
+        });
+      },
+    });
+  };
+
+  const selectionRef = (source: WAFRuleSource) =>
+    source === "system" ? selectedSystemRules : selectedCustomRules;
+  const setRuleSelected = (
+    source: WAFRuleSource,
+    filename: string,
+    checked: boolean,
+  ) => {
+    const target = selectionRef(source);
+    target.value = checked
+      ? [...new Set([...target.value, filename])]
+      : target.value.filter((item) => item !== filename);
+  };
+  const setAllSelected = (source: WAFRuleSource, checked: boolean) => {
+    selectionRef(source).value = checked
+      ? sourceRules(source).map((rule) => rule.filename)
+      : [];
+  };
+
+  const updateRulesEnabled = async (
+    source: WAFRuleSource,
+    filenames: string[] | undefined,
+    enabled: boolean,
+  ) => {
+    await runRuleChange(
+      () => WAFAPI.setRulesEnabled({ source, filenames, enabled }),
+      {
+        onSuccess: (data) => {
+          applyDetails(data);
+          toast.success(
+            enabled
+              ? t("admin.wafSettings.ruleEnabled")
+              : t("admin.wafSettings.ruleDisabled"),
+            {
+              description: data.config.enabled
+                ? t("admin.wafSettings.loadedToGateway")
+                : t("admin.wafSettings.currentRulesApplyWhenEnabled"),
+            },
+          );
+        },
+      },
+    );
+  };
+
+  const toggleRule = (rule: WAFRuleFile, enabled: boolean) =>
+    updateRulesEnabled(rule.source, [rule.filename], enabled);
+  const updateSelectedRules = (source: WAFRuleSource, enabled: boolean) => {
+    const filenames = selectionRef(source).value;
+    if (filenames.length === 0) return;
+    return updateRulesEnabled(source, filenames, enabled);
+  };
+  const toggleAllRules = (source: WAFRuleSource) =>
+    updateRulesEnabled(source, undefined, !allRulesEnabled(source));
+
+  const enableRecommendedSystemRules = async () => {
+    await runRuleChange(WAFAPI.enableRecommendedSystemRules, {
+      onSuccess: (data) => {
+        applyDetails(data);
+        toast.success(t("admin.wafSettings.recommendedRulesEnabled"), {
+          description: data.config.enabled
+            ? t("admin.wafSettings.loadedToGateway")
+            : t("admin.wafSettings.currentRulesApplyWhenEnabled"),
+        });
+      },
+    });
+  };
+
+  const openRulePreview = async (rule: WAFRuleFile) => {
+    const key = ruleKey(rule);
+    activateRuleActions(rule);
+    loadingRuleKey.value = key;
+    try {
+      activeRulePreview.value = await WAFAPI.getRuleFile(
+        rule.source,
+        rule.filename,
+      );
+      isRulePreviewOpen.value = true;
+    } catch (error) {
+      toast.error(t("admin.wafSettings.readFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.wafSettings.ruleReadDescription"),
+        ),
+      });
+    } finally {
+      if (loadingRuleKey.value === key) loadingRuleKey.value = "";
+    }
+  };
+
+  const downloadRuleFile = async (rule: WAFRuleFile) => {
+    const key = ruleKey(rule);
+    activateRuleActions(rule);
+    downloadingRuleKey.value = key;
+    try {
+      const data = await WAFAPI.getRuleFile(rule.source, rule.filename);
+      downloadBlob(
+        new Blob([data.content], { type: "text/plain;charset=utf-8" }),
+        data.filename || rule.filename,
+      );
+    } catch (error) {
+      toast.error(t("admin.wafSettings.downloadFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.wafSettings.ruleDownloadDescription"),
+        ),
+      });
+    } finally {
+      if (downloadingRuleKey.value === key) downloadingRuleKey.value = "";
+    }
+  };
+
+  const readFileAsBase64 = (file: File): Promise<string> =>
+    new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const value = String(reader.result || "");
+        resolve(value.includes(",") ? value.split(",")[1] || "" : value);
+      };
+      reader.onerror = () =>
+        reject(
+          reader.error || new Error(t("admin.wafSettings.fileReadFailed")),
+        );
+      reader.readAsDataURL(file);
+    });
+
+  const triggerUpload = () => uploadInputRef.value?.click();
+  const handleUploadChange = async (event: Event) => {
+    const input = event.target as HTMLInputElement;
+    const files = Array.from(input.files || []);
+    input.value = "";
+    if (files.length === 0) return;
+    await runUploadRules(
+      async () =>
+        WAFAPI.uploadCustomRules({
+          files: await Promise.all(
+            files.map(async (file) => ({
+              filename: file.name,
+              content_base64: await readFileAsBase64(file),
+            })),
+          ),
+        }),
+      {
+        onSuccess: (data) => {
+          applyDetails(data);
+          toast.success(t("admin.wafSettings.customRulesUploaded"), {
+            description: data.config.enabled
+              ? t("admin.wafSettings.loadedToGateway")
+              : t("admin.wafSettings.currentRulesApplyWhenEnabled"),
+          });
+        },
+      },
+    );
+  };
+
+  const deleteCustomRule = async (filename: string) => {
+    await runRuleChange(() => WAFAPI.deleteCustomRule(filename), {
+      onSuccess: (data) => {
+        applyDetails(data);
+        toast.success(t("admin.wafSettings.customRuleDeleted"), {
+          description: data.config.enabled
+            ? t("admin.wafSettings.loadedToGateway")
+            : t("admin.wafSettings.currentRulesApplyWhenEnabled"),
+        });
+      },
+    });
+  };
+
+  return {
+    activateRuleActions,
+    activeRuleActionsKey,
+    activeRulePreview,
+    allRulesEnabled,
+    customRules,
+    deleteCustomRule,
+    downloadingRuleKey,
+    downloadRuleFile,
+    enableRecommendedSystemRules,
+    formatCustomRuleMeta,
+    formatCustomRuleName,
+    formatRuleSize,
+    formatSize,
+    formatSystemRuleMeta,
+    formatSystemRuleName,
+    handleUploadChange,
+    isChangingRules,
+    isRulePreviewOpen,
+    isUpdatingSystemRules,
+    isUploading,
+    loadingRuleKey,
+    openRulePreview,
+    refreshAndSyncSystemRules,
+    ruleKey,
+    setAllSelected,
+    setRuleSelected,
+    sourceLabel,
+    systemRules,
+    toggleAllRules,
+    toggleRule,
+    triggerUpload,
+    updateSelectedRules,
+    updateSystemRules,
+    uploadInputRef,
+  };
+};

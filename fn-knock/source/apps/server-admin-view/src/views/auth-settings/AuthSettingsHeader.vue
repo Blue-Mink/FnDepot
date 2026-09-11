@@ -1,1 +1,103 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERyb3Bkb3duTWVudSwKICBEcm9wZG93bk1lbnVDb250ZW50LAogIERyb3Bkb3duTWVudUl0ZW0sCiAgRHJvcGRvd25NZW51VHJpZ2dlciwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZHJvcGRvd24tbWVudSI7CmltcG9ydCBEb2NzTGlua0J1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvRG9jc0xpbmtCdXR0b24udnVlIjsKaW1wb3J0IHsKICBDaGV2cm9uRG93biwKICBGaWxlS2V5MiwKICBQbHVzLAogIFJlZnJlc2hDdywKICBTZXR0aW5nczIsCn0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgZG9jc1VybHMgfSBmcm9tICIuLi8uLi9saWIvZG9jcyI7CmltcG9ydCB0eXBlIHsgQXV0aFNldHRpbmdzUGFnZUNvbnRyb2xsZXIgfSBmcm9tICIuL3VzZUF1dGhTZXR0aW5nc1BhZ2UiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7IGNvbnRyb2xsZXI6IEF1dGhTZXR0aW5nc1BhZ2VDb250cm9sbGVyIH0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCB7CiAgYXV0aFNldHRpbmdzRGVzY3JpcHRpb24sCiAgYXV0aFNldHRpbmdzVGl0bGUsCiAgZ29Ub09pZGNQcm92aWRlcnMsCiAgaGFuZGxlUHJpbWFyeUF1dGhBY3Rpb24sCiAgaXNBdXRoTW9kZUJ1c3ksCiAgaXNDcmVkZW50aWFsVHJhbnNmZXJCdXN5LAogIG9wZW5BdXRoTW9kZVN3aXRjaERpYWxvZywKICBwcmltYXJ5QXV0aEFjdGlvbkxhYmVsLAogIHNob3dDcmVkZW50aWFsVHJhbnNmZXJEaWFsb2csCn0gPSBwcm9wcy5jb250cm9sbGVyOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtMyBzbTpmbGV4LXJvdyBzbTppdGVtcy1zdGFydCBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgPgogICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTEiPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgIDxoMiBjbGFzcz0idGV4dC1sZyBmb250LXNlbWlib2xkIHRyYWNraW5nLXRpZ2h0Ij4KICAgICAgICAgIHt7IGF1dGhTZXR0aW5nc1RpdGxlIH19CiAgICAgICAgPC9oMj4KICAgICAgICA8RG9jc0xpbmtCdXR0b24gY2xhc3M9InNtOmhpZGRlbiIgOmhyZWY9ImRvY3NVcmxzLmd1aWRlcy5hdXRoIiAvPgogICAgICA8L2Rpdj4KICAgICAgPHAgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyBhdXRoU2V0dGluZ3NEZXNjcmlwdGlvbiB9fQogICAgICA8L3A+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImZsZXggdy1mdWxsIGl0ZW1zLWNlbnRlciBnYXAtMiBzbTp3LWF1dG8iPgogICAgICA8RG9jc0xpbmtCdXR0b24KICAgICAgICBjbGFzcz0iaGlkZGVuIHNtOmlubGluZS1mbGV4IgogICAgICAgIDpocmVmPSJkb2NzVXJscy5ndWlkZXMuYXV0aCIKICAgICAgICBzaXplPSJkZWZhdWx0IgogICAgICAvPgogICAgICA8ZGl2IGNsYXNzPSJncmlkIGZsZXgtMSBncmlkLWNvbHMtW21pbm1heCgwLDFmcilfYXV0b10gZ2FwLTAgc206ZmxleC1ub25lIj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICBjbGFzcz0iaC0xMSBtaW4tdy0wIHJvdW5kZWQtci1ub25lIHNtOmgtOSIKICAgICAgICAgIEBjbGljaz0iaGFuZGxlUHJpbWFyeUF1dGhBY3Rpb24iCiAgICAgICAgPgogICAgICAgICAgPFBsdXMgY2xhc3M9ImgtNCB3LTQiIGFyaWEtaGlkZGVuPSJ0cnVlIiAvPgogICAgICAgICAge3sgcHJpbWFyeUF1dGhBY3Rpb25MYWJlbCB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxEcm9wZG93bk1lbnU+CiAgICAgICAgICA8RHJvcGRvd25NZW51VHJpZ2dlciBhcy1jaGlsZD4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHNpemU9Imljb24iCiAgICAgICAgICAgICAgY2xhc3M9ImgtMTEgcm91bmRlZC1sLW5vbmUgYm9yZGVyLWwgYm9yZGVyLXByaW1hcnktZm9yZWdyb3VuZC8yNSBweC0yIHNtOmgtOSIKICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uYXV0aFNldHRpbmdzLm1vcmVBY3Rpb25zJykiCiAgICAgICAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5hdXRoU2V0dGluZ3MubW9yZUFjdGlvbnMnKSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxDaGV2cm9uRG93biBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L0Ryb3Bkb3duTWVudVRyaWdnZXI+CiAgICAgICAgICA8RHJvcGRvd25NZW51Q29udGVudCBhbGlnbj0iZW5kIiBjbGFzcz0idy01NiI+CiAgICAgICAgICAgIDxEcm9wZG93bk1lbnVJdGVtCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc0NyZWRlbnRpYWxUcmFuc2ZlckJ1c3kiCiAgICAgICAgICAgICAgQHNlbGVjdD0ic2hvd0NyZWRlbnRpYWxUcmFuc2ZlckRpYWxvZyA9IHRydWUiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8RmlsZUtleTIgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MuY3JlZGVudGlhbFRyYW5zZmVyIikgfX0KICAgICAgICAgICAgPC9Ecm9wZG93bk1lbnVJdGVtPgogICAgICAgICAgICA8RHJvcGRvd25NZW51SXRlbQogICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNBdXRoTW9kZUJ1c3kiCiAgICAgICAgICAgICAgQHNlbGVjdD0ib3BlbkF1dGhNb2RlU3dpdGNoRGlhbG9nIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFJlZnJlc2hDdwogICAgICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCIKICAgICAgICAgICAgICAgIDpjbGFzcz0ieyAnYW5pbWF0ZS1zcGluJzogaXNBdXRoTW9kZUJ1c3kgfSIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5zd2l0Y2hBdXRoTW9kZSIpIH19CiAgICAgICAgICAgIDwvRHJvcGRvd25NZW51SXRlbT4KICAgICAgICAgICAgPERyb3Bkb3duTWVudUl0ZW0gQHNlbGVjdD0iZ29Ub09pZGNQcm92aWRlcnMiPgogICAgICAgICAgICAgIDxTZXR0aW5nczIgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3Mub2lkY0xvZ2luIikgfX0KICAgICAgICAgICAgPC9Ecm9wZG93bk1lbnVJdGVtPgogICAgICAgICAgPC9Ecm9wZG93bk1lbnVDb250ZW50PgogICAgICAgIDwvRHJvcGRvd25NZW51PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import DocsLinkButton from "@/components/DocsLinkButton.vue";
+import {
+  ChevronDown,
+  FileKey2,
+  Plus,
+  RefreshCw,
+  Settings2,
+} from "lucide-vue-next";
+import { docsUrls } from "../../lib/docs";
+import type { AuthSettingsPageController } from "./useAuthSettingsPage";
+
+const props = defineProps<{ controller: AuthSettingsPageController }>();
+const { t } = useI18n();
+const {
+  authSettingsDescription,
+  authSettingsTitle,
+  goToOidcProviders,
+  handlePrimaryAuthAction,
+  isAuthModeBusy,
+  isCredentialTransferBusy,
+  openAuthModeSwitchDialog,
+  primaryAuthActionLabel,
+  showCredentialTransferDialog,
+} = props.controller;
+</script>
+
+<template>
+  <div
+    class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+  >
+    <div class="min-w-0 space-y-1">
+      <div class="flex items-center justify-between gap-3">
+        <h2 class="text-lg font-semibold tracking-tight">
+          {{ authSettingsTitle }}
+        </h2>
+        <DocsLinkButton class="sm:hidden" :href="docsUrls.guides.auth" />
+      </div>
+      <p class="text-sm text-muted-foreground">
+        {{ authSettingsDescription }}
+      </p>
+    </div>
+    <div class="flex w-full items-center gap-2 sm:w-auto">
+      <DocsLinkButton
+        class="hidden sm:inline-flex"
+        :href="docsUrls.guides.auth"
+        size="default"
+      />
+      <div class="grid flex-1 grid-cols-[minmax(0,1fr)_auto] gap-0 sm:flex-none">
+        <Button
+          class="h-11 min-w-0 rounded-r-none sm:h-9"
+          @click="handlePrimaryAuthAction"
+        >
+          <Plus class="h-4 w-4" aria-hidden="true" />
+          {{ primaryAuthActionLabel }}
+        </Button>
+        <DropdownMenu>
+          <DropdownMenuTrigger as-child>
+            <Button
+              size="icon"
+              class="h-11 rounded-l-none border-l border-primary-foreground/25 px-2 sm:h-9"
+              :aria-label="t('admin.authSettings.moreActions')"
+              :title="t('admin.authSettings.moreActions')"
+            >
+              <ChevronDown class="h-4 w-4" />
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent align="end" class="w-56">
+            <DropdownMenuItem
+              :disabled="isCredentialTransferBusy"
+              @select="showCredentialTransferDialog = true"
+            >
+              <FileKey2 class="mr-2 h-4 w-4" />
+              {{ t("admin.authSettings.credentialTransfer") }}
+            </DropdownMenuItem>
+            <DropdownMenuItem
+              :disabled="isAuthModeBusy"
+              @select="openAuthModeSwitchDialog"
+            >
+              <RefreshCw
+                class="mr-2 h-4 w-4"
+                :class="{ 'animate-spin': isAuthModeBusy }"
+              />
+              {{ t("admin.authSettings.switchAuthMode") }}
+            </DropdownMenuItem>
+            <DropdownMenuItem @select="goToOidcProviders">
+              <Settings2 class="mr-2 h-4 w-4" />
+              {{ t("admin.authSettings.oidcLogin") }}
+            </DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
+      </div>
+    </div>
+  </div>
+</template>

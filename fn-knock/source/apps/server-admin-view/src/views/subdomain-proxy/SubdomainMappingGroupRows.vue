@@ -1,1 +1,126 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBuZXh0VGljaywgb25CZWZvcmVVbm1vdW50LCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgVnVlRHJhZ2dhYmxlIH0gZnJvbSAidnVlLWRyYWdnYWJsZS1wbHVzIjsKaW1wb3J0IHR5cGUgeyBIb3N0TWFwcGluZyB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgeyBidWlsZEhvc3RNYXBwaW5nRHJhZ1JlbmRlcktleSB9IGZyb20gIi4vaG9zdC1tYXBwaW5nLWdyb3VwcyI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjb2xsYXBzZWQ6IGJvb2xlYW47CiAgZGlzYWJsZWQ6IGJvb2xlYW47CiAgZW1wdHlMYWJlbDogc3RyaW5nOwogIG1hcHBpbmdzOiBIb3N0TWFwcGluZ1tdOwogIHNob3dIZWFkZXI6IGJvb2xlYW47Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIGVuZDogW107CiAgInVwZGF0ZTptYXBwaW5ncyI6IFttYXBwaW5nczogSG9zdE1hcHBpbmdbXV07Cn0+KCk7Cgpjb25zdCBtb2RlbCA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IHByb3BzLm1hcHBpbmdzLAogIHNldDogKHZhbHVlOiBIb3N0TWFwcGluZ1tdKSA9PiBlbWl0KCJ1cGRhdGU6bWFwcGluZ3MiLCB2YWx1ZSksCn0pOwpjb25zdCBkcmFnZ2FibGVSZW5kZXJLZXkgPSBjb21wdXRlZCgoKSA9PgogIGJ1aWxkSG9zdE1hcHBpbmdEcmFnUmVuZGVyS2V5KHByb3BzLm1hcHBpbmdzKSwKKTsKCmNvbnN0IGlzQm9keVJlbmRlcmVkID0gcmVmKCFwcm9wcy5jb2xsYXBzZWQpOwpjb25zdCBpc0JvZHlWaXN1YWxseUNvbGxhcHNlZCA9IHJlZihwcm9wcy5jb2xsYXBzZWQpOwpsZXQgYW5pbWF0aW9uRnJhbWUgPSAwOwpsZXQgY29sbGFwc2VGYWxsYmFja1RpbWVyOiBSZXR1cm5UeXBlPHR5cGVvZiBzZXRUaW1lb3V0PiB8IG51bGwgPSBudWxsOwoKY29uc3QgY2FuY2VsUGVuZGluZ0FuaW1hdGlvbiA9ICgpID0+IHsKICBpZiAoYW5pbWF0aW9uRnJhbWUpIHsKICAgIGNhbmNlbEFuaW1hdGlvbkZyYW1lKGFuaW1hdGlvbkZyYW1lKTsKICAgIGFuaW1hdGlvbkZyYW1lID0gMDsKICB9CiAgaWYgKGNvbGxhcHNlRmFsbGJhY2tUaW1lcikgewogICAgY2xlYXJUaW1lb3V0KGNvbGxhcHNlRmFsbGJhY2tUaW1lcik7CiAgICBjb2xsYXBzZUZhbGxiYWNrVGltZXIgPSBudWxsOwogIH0KfTsKCmNvbnN0IGZpbmlzaENvbGxhcHNlID0gKCkgPT4gewogIGlmICghcHJvcHMuY29sbGFwc2VkKSByZXR1cm47CiAgaXNCb2R5UmVuZGVyZWQudmFsdWUgPSBmYWxzZTsKICBjb2xsYXBzZUZhbGxiYWNrVGltZXIgPSBudWxsOwp9OwoKY29uc3QgYmVnaW5FeHBhbmQgPSBhc3luYyAoKSA9PiB7CiAgaXNCb2R5UmVuZGVyZWQudmFsdWUgPSB0cnVlOwogIGlzQm9keVZpc3VhbGx5Q29sbGFwc2VkLnZhbHVlID0gdHJ1ZTsKICBhd2FpdCBuZXh0VGljaygpOwogIGlmIChwcm9wcy5jb2xsYXBzZWQpIHJldHVybjsKCiAgYW5pbWF0aW9uRnJhbWUgPSByZXF1ZXN0QW5pbWF0aW9uRnJhbWUoKCkgPT4gewogICAgYW5pbWF0aW9uRnJhbWUgPSByZXF1ZXN0QW5pbWF0aW9uRnJhbWUoKCkgPT4gewogICAgICBhbmltYXRpb25GcmFtZSA9IDA7CiAgICAgIGlmICghcHJvcHMuY29sbGFwc2VkKSBpc0JvZHlWaXN1YWxseUNvbGxhcHNlZC52YWx1ZSA9IGZhbHNlOwogICAgfSk7CiAgfSk7Cn07Cgp3YXRjaCgKICAoKSA9PiBwcm9wcy5jb2xsYXBzZWQsCiAgKGNvbGxhcHNlZCkgPT4gewogICAgY2FuY2VsUGVuZGluZ0FuaW1hdGlvbigpOwogICAgaWYgKGNvbGxhcHNlZCkgewogICAgICBpc0JvZHlWaXN1YWxseUNvbGxhcHNlZC52YWx1ZSA9IHRydWU7CiAgICAgIGNvbGxhcHNlRmFsbGJhY2tUaW1lciA9IHNldFRpbWVvdXQoZmluaXNoQ29sbGFwc2UsIDI2MCk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHZvaWQgYmVnaW5FeHBhbmQoKTsKICB9LAopOwoKY29uc3QgaGFuZGxlQm9keVRyYW5zaXRpb25FbmQgPSAoZXZlbnQ6IFRyYW5zaXRpb25FdmVudCkgPT4gewogIGlmICgKICAgIGV2ZW50LnRhcmdldCAhPT0gZXZlbnQuY3VycmVudFRhcmdldCB8fAogICAgZXZlbnQucHJvcGVydHlOYW1lICE9PSAiY2xpcC1wYXRoIgogICkgewogICAgcmV0dXJuOwogIH0KICBpZiAocHJvcHMuY29sbGFwc2VkKSB7CiAgICBjYW5jZWxQZW5kaW5nQW5pbWF0aW9uKCk7CiAgICBmaW5pc2hDb2xsYXBzZSgpOwogIH0KfTsKCm9uQmVmb3JlVW5tb3VudChjYW5jZWxQZW5kaW5nQW5pbWF0aW9uKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPHRib2R5IHYtaWY9InNob3dIZWFkZXIiPgogICAgPHNsb3QgbmFtZT0iaGVhZGVyIiAvPgogIDwvdGJvZHk+CiAgPFZ1ZURyYWdnYWJsZQogICAgdi1pZj0iaXNCb2R5UmVuZGVyZWQiCiAgICA6a2V5PSJkcmFnZ2FibGVSZW5kZXJLZXkiCiAgICB2LW1vZGVsPSJtb2RlbCIKICAgIHRhZz0idGJvZHkiCiAgICA6Y2xhc3M9IlsKICAgICAgJ21hcHBpbmctZ3JvdXAtY29sbGFwc2UtYm9keSBbJl90cjpsYXN0LWNoaWxkXTpib3JkZXItMCcsCiAgICAgIHsKICAgICAgICAnbWFwcGluZy1ncm91cC1jb2xsYXBzZS1ib2R5LS1jb2xsYXBzZWQnOiBpc0JvZHlWaXN1YWxseUNvbGxhcHNlZCwKICAgICAgfSwKICAgIF0iCiAgICA6aW5lcnQ9ImlzQm9keVZpc3VhbGx5Q29sbGFwc2VkIgogICAgaGFuZGxlPSIubWFwcGluZy1kcmFnLWhhbmRsZSIKICAgIGRyYWdnYWJsZT0iLm1hcHBpbmctcm93IgogICAgZ2hvc3QtY2xhc3M9ImJnLW11dGVkLzYwIgogICAgY2hvc2VuLWNsYXNzPSJiZy1tdXRlZC84MCIKICAgIDphbmltYXRpb249IjE4MCIKICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQgfHwgaXNCb2R5VmlzdWFsbHlDb2xsYXBzZWQiCiAgICA6Z3JvdXA9InsgbmFtZTogJ2hvc3QtbWFwcGluZy1ncm91cHMnLCBwdWxsOiB0cnVlLCBwdXQ6IHRydWUgfSIKICAgIEB0cmFuc2l0aW9uZW5kPSJoYW5kbGVCb2R5VHJhbnNpdGlvbkVuZCIKICAgIEBlbmQ9ImVtaXQoJ2VuZCcpIgogID4KICAgIDx0ciB2LWlmPSJtYXBwaW5ncy5sZW5ndGggPT09IDAiIGNsYXNzPSJoLTE0Ij4KICAgICAgPHRkIGNvbHNwYW49IjgiIGNsYXNzPSJ0ZXh0LWNlbnRlciB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgZW1wdHlMYWJlbCB9fQogICAgICA8L3RkPgogICAgPC90cj4KICAgIDxzbG90IHYtZm9yPSJtYXBwaW5nIGluIG1vZGVsIiA6a2V5PSJtYXBwaW5nLmhvc3QiIDptYXBwaW5nPSJtYXBwaW5nIiAvPgogIDwvVnVlRHJhZ2dhYmxlPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, nextTick, onBeforeUnmount, ref, watch } from "vue";
+import { VueDraggable } from "vue-draggable-plus";
+import type { HostMapping } from "@/types";
+import { buildHostMappingDragRenderKey } from "./host-mapping-groups";
+
+const props = defineProps<{
+  collapsed: boolean;
+  disabled: boolean;
+  emptyLabel: string;
+  mappings: HostMapping[];
+  showHeader: boolean;
+}>();
+
+const emit = defineEmits<{
+  end: [];
+  "update:mappings": [mappings: HostMapping[]];
+}>();
+
+const model = computed({
+  get: () => props.mappings,
+  set: (value: HostMapping[]) => emit("update:mappings", value),
+});
+const draggableRenderKey = computed(() =>
+  buildHostMappingDragRenderKey(props.mappings),
+);
+
+const isBodyRendered = ref(!props.collapsed);
+const isBodyVisuallyCollapsed = ref(props.collapsed);
+let animationFrame = 0;
+let collapseFallbackTimer: ReturnType<typeof setTimeout> | null = null;
+
+const cancelPendingAnimation = () => {
+  if (animationFrame) {
+    cancelAnimationFrame(animationFrame);
+    animationFrame = 0;
+  }
+  if (collapseFallbackTimer) {
+    clearTimeout(collapseFallbackTimer);
+    collapseFallbackTimer = null;
+  }
+};
+
+const finishCollapse = () => {
+  if (!props.collapsed) return;
+  isBodyRendered.value = false;
+  collapseFallbackTimer = null;
+};
+
+const beginExpand = async () => {
+  isBodyRendered.value = true;
+  isBodyVisuallyCollapsed.value = true;
+  await nextTick();
+  if (props.collapsed) return;
+
+  animationFrame = requestAnimationFrame(() => {
+    animationFrame = requestAnimationFrame(() => {
+      animationFrame = 0;
+      if (!props.collapsed) isBodyVisuallyCollapsed.value = false;
+    });
+  });
+};
+
+watch(
+  () => props.collapsed,
+  (collapsed) => {
+    cancelPendingAnimation();
+    if (collapsed) {
+      isBodyVisuallyCollapsed.value = true;
+      collapseFallbackTimer = setTimeout(finishCollapse, 260);
+      return;
+    }
+    void beginExpand();
+  },
+);
+
+const handleBodyTransitionEnd = (event: TransitionEvent) => {
+  if (
+    event.target !== event.currentTarget ||
+    event.propertyName !== "clip-path"
+  ) {
+    return;
+  }
+  if (props.collapsed) {
+    cancelPendingAnimation();
+    finishCollapse();
+  }
+};
+
+onBeforeUnmount(cancelPendingAnimation);
+</script>
+
+<template>
+  <tbody v-if="showHeader">
+    <slot name="header" />
+  </tbody>
+  <VueDraggable
+    v-if="isBodyRendered"
+    :key="draggableRenderKey"
+    v-model="model"
+    tag="tbody"
+    :class="[
+      'mapping-group-collapse-body [&_tr:last-child]:border-0',
+      {
+        'mapping-group-collapse-body--collapsed': isBodyVisuallyCollapsed,
+      },
+    ]"
+    :inert="isBodyVisuallyCollapsed"
+    handle=".mapping-drag-handle"
+    draggable=".mapping-row"
+    ghost-class="bg-muted/60"
+    chosen-class="bg-muted/80"
+    :animation="180"
+    :disabled="disabled || isBodyVisuallyCollapsed"
+    :group="{ name: 'host-mapping-groups', pull: true, put: true }"
+    @transitionend="handleBodyTransitionEnd"
+    @end="emit('end')"
+  >
+    <tr v-if="mappings.length === 0" class="h-14">
+      <td colspan="8" class="text-center text-xs text-muted-foreground">
+        {{ emptyLabel }}
+      </td>
+    </tr>
+    <slot v-for="mapping in model" :key="mapping.host" :mapping="mapping" />
+  </VueDraggable>
+</template>

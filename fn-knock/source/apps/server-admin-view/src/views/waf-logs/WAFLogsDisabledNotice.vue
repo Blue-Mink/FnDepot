@@ -1,1 +1,28 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IFNldHRpbmdzLCBTaGllbGRBbGVydCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEFsZXJ0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2FsZXJ0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8eyBvcGVuU2V0dGluZ3M6IFtdIH0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8QWxlcnQKICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyByb3VuZGVkLWxnIGJvcmRlci1kYXNoZWQgYmctbXV0ZWQvMjAgcHgtNCBweS0zIHRleHQtZm9yZWdyb3VuZCBzaGFkb3ctbm9uZSIKICA+CiAgICA8U2hpZWxkQWxlcnQgY2xhc3M9ImgtNCB3LTQgc2hyaW5rLTAgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogICAgPGRpdgogICAgICBjbGFzcz0iZmxleCB3LWZ1bGwgZmxleC1jb2wgZ2FwLTIgc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIHNtOmp1c3RpZnktYmV0d2VlbiIKICAgID4KICAgICAgPHAgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0KCJhZG1pbi53YWZMb2dzLmRpc2FibGVkTm90aWNlIikgfX0KICAgICAgPC9wPgogICAgICA8QnV0dG9uIHZhcmlhbnQ9Imdob3N0IiBjbGFzcz0ic2hyaW5rLTAiIEBjbGljaz0iZW1pdCgnb3BlblNldHRpbmdzJykiPgogICAgICAgIDxTZXR0aW5ncyBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgIHt7IHQoImFkbWluLndhZkxvZ3MuZ29TZXR0aW5ncyIpIH19CiAgICAgIDwvQnV0dG9uPgogICAgPC9kaXY+CiAgPC9BbGVydD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Settings, ShieldAlert } from "lucide-vue-next";
+import { Alert } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
+
+const emit = defineEmits<{ openSettings: [] }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <Alert
+    class="flex items-center gap-3 rounded-lg border-dashed bg-muted/20 px-4 py-3 text-foreground shadow-none"
+  >
+    <ShieldAlert class="h-4 w-4 shrink-0 text-muted-foreground" />
+    <div
+      class="flex w-full flex-col gap-2 sm:flex-row sm:items-center sm:justify-between"
+    >
+      <p class="text-sm text-muted-foreground">
+        {{ t("admin.wafLogs.disabledNotice") }}
+      </p>
+      <Button variant="ghost" class="shrink-0" @click="emit('openSettings')">
+        <Settings class="mr-2 h-4 w-4" />
+        {{ t("admin.wafLogs.goSettings") }}
+      </Button>
+    </div>
+  </Alert>
+</template>

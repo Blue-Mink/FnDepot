@@ -1,1 +1,241 @@
-aW1wb3J0IHR5cGUgeyBjb21wb25lbnRzIGFzIEFwaUNvbnRyYWN0Q29tcG9uZW50cyB9IGZyb20gIkBmbi1rbm9jay9hcGktY29udHJhY3QiOwoKaW1wb3J0IHsgYXBpQ2xpZW50IH0gZnJvbSAiLi9jbGllbnQiOwoKdHlwZSBTY2FuU2NoZW1hcyA9IEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdOwoKZXhwb3J0IHR5cGUgRGlzY292ZXJlZFNlcnZpY2VJbmZvID0gU2NhblNjaGVtYXNbIlNjYW5EaXNjb3ZlcmVkU2VydmljZURhdGEiXTsKZXhwb3J0IHR5cGUgU2NhbkRpc2NvdmVyUmVzcG9uc2UgPSBTY2FuU2NoZW1hc1siU2NhbkRpc2NvdmVyUmVzdWx0RGF0YSJdOwpleHBvcnQgdHlwZSBTY2FuRGlzY292ZXJNZXRhID0gU2NhblNjaGVtYXNbIlNjYW5EaXNjb3Zlck1ldGFEYXRhIl07CmV4cG9ydCB0eXBlIFNjYW5JbnRlbnNpdHlNb2RlID0gU2NhbkRpc2NvdmVyeVNldHRpbmdzWyJpbnRlbnNpdHlNb2RlIl07CmV4cG9ydCB0eXBlIFNjYW5JbnRlbnNpdHlMZXZlbCA9IFNjYW5EaXNjb3ZlcnlTZXR0aW5nc1siZWZmZWN0aXZlTGV2ZWwiXTsKZXhwb3J0IHR5cGUgU2NhbkRpc2NvdmVyeUNhcGFiaWxpdHkgPQogIFNjYW5TY2hlbWFzWyJTY2FuRGlzY292ZXJ5Q2FwYWJpbGl0eURhdGEiXTsKZXhwb3J0IHR5cGUgU2NhbkRpc2NvdmVyeVNldHRpbmdzID0gU2NhblNjaGVtYXNbIlNjYW5EaXNjb3ZlcnlTZXR0aW5nc0RhdGEiXTsKZXhwb3J0IHR5cGUgU2NhbkRpc2NvdmVyeVNldHRpbmdzU2F2ZVJlcXVlc3QgPQogIFNjYW5TY2hlbWFzWyJTY2FuRGlzY292ZXJ5U2V0dGluZ3NVcGRhdGVEYXRhIl07CmV4cG9ydCB0eXBlIFNjYW5EaXNjb3ZlclByb2dyZXNzID0gU2NhblNjaGVtYXNbIlNjYW5EaXNjb3ZlclByb2dyZXNzRGF0YSJdOwoKZXhwb3J0IHR5cGUgU2NhbkRpc2NvdmVyUG9sbEV2ZW50ID0KICB8IHsKICAgICAgdHlwZTogIm1ldGEiOwogICAgICBkYXRhOiBTY2FuRGlzY292ZXJNZXRhOwogICAgfQogIHwgewogICAgICB0eXBlOiAicHJvZ3Jlc3MiOwogICAgICBkYXRhOiBTY2FuRGlzY292ZXJQcm9ncmVzczsKICAgIH0KICB8IHsKICAgICAgdHlwZTogInNlcnZpY2UiOwogICAgICBkYXRhOiB7CiAgICAgICAgc2VydmljZTogRGlzY292ZXJlZFNlcnZpY2VJbmZvOwogICAgICB9OwogICAgfQogIHwgewogICAgICB0eXBlOiAiZG9uZSI7CiAgICAgIGRhdGE6IFNjYW5EaXNjb3ZlclJlc3BvbnNlOwogICAgfQogIHwgewogICAgICB0eXBlOiAiY2FuY2VsbGVkIjsKICAgIH07CgpleHBvcnQgdHlwZSBTY2FuRGlzY292ZXJ5VGFyZ2V0ID0gU2NhblNjaGVtYXNbIlNjYW5EaXNjb3ZlcnlUYXJnZXREYXRhIl07CmV4cG9ydCB0eXBlIFNjYW5EaXNjb3ZlcnlUYXJnZXRTb3VyY2UgPSBTY2FuRGlzY292ZXJ5VGFyZ2V0WyJzb3VyY2UiXTsKZXhwb3J0IHR5cGUgU2NhbkRpc2NvdmVyeUhvc3RDYW5kaWRhdGUgPQogIFNjYW5TY2hlbWFzWyJTY2FuRGlzY292ZXJ5SG9zdENhbmRpZGF0ZURhdGEiXTsKZXhwb3J0IHR5cGUgU2NhbkRpc2NvdmVyeUhvc3RDYW5kaWRhdGVTb3VyY2UgPQogIFNjYW5EaXNjb3ZlcnlIb3N0Q2FuZGlkYXRlWyJzb3VyY2UiXTsKZXhwb3J0IHR5cGUgU2NhbkRpc2NvdmVyeVRhcmdldHNSZXNwb25zZSA9CiAgU2NhblNjaGVtYXNbIlNjYW5EaXNjb3ZlcnlUYXJnZXRzRGF0YSJdOwpleHBvcnQgdHlwZSBTY2FuRGlzY292ZXJSZXF1ZXN0ID0gU2NhblNjaGVtYXNbIlNjYW5EaXNjb3ZlckpvYkJvZHlEYXRhIl07CgpleHBvcnQgaW50ZXJmYWNlIFNjYW5EaXNjb3ZlclBvbGxPcHRpb25zIHsKICBzaWduYWw/OiBBYm9ydFNpZ25hbDsKICBpbnRlcnZhbE1zPzogbnVtYmVyOwogIG9uRXZlbnQ/OiAoZXZlbnQ6IFNjYW5EaXNjb3ZlclBvbGxFdmVudCkgPT4gdm9pZDsKfQoKZXhwb3J0IHR5cGUgU2NhbkRpc2NvdmVySm9iU3RhdHVzID0gU2NhblNjaGVtYXNbIlNjYW5EaXNjb3ZlckpvYkRhdGEiXTsKZXhwb3J0IHR5cGUgU2NhbkRpc2NvdmVySm9iU3RhdGUgPSBTY2FuRGlzY292ZXJKb2JTdGF0dXNbInN0YXRlIl07Cgpjb25zdCBjcmVhdGVTY2FuQWJvcnRFcnJvciA9ICgpOiBFcnJvciA9PiB7CiAgY29uc3QgZXJyb3IgPSBuZXcgRXJyb3IoIlNjYW4gY2FuY2VsbGVkIik7CiAgZXJyb3IubmFtZSA9ICJBYm9ydEVycm9yIjsKICByZXR1cm4gZXJyb3I7Cn07Cgpjb25zdCB0aHJvd0lmU2NhbkFib3J0ZWQgPSAoc2lnbmFsPzogQWJvcnRTaWduYWwpID0+IHsKICBpZiAoc2lnbmFsPy5hYm9ydGVkKSB7CiAgICB0aHJvdyBjcmVhdGVTY2FuQWJvcnRFcnJvcigpOwogIH0KfTsKCmNvbnN0IHdhaXRGb3JEaXNjb3ZlclBvbGwgPSAobXM6IG51bWJlciwgc2lnbmFsPzogQWJvcnRTaWduYWwpID0+CiAgbmV3IFByb21pc2U8dm9pZD4oKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgaWYgKHNpZ25hbD8uYWJvcnRlZCkgewogICAgICByZWplY3QoY3JlYXRlU2NhbkFib3J0RXJyb3IoKSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBjb25zdCB0aW1lciA9IHdpbmRvdy5zZXRUaW1lb3V0KCgpID0+IHsKICAgICAgc2lnbmFsPy5yZW1vdmVFdmVudExpc3RlbmVyKCJhYm9ydCIsIG9uQWJvcnQpOwogICAgICByZXNvbHZlKCk7CiAgICB9LCBtcyk7CiAgICBjb25zdCBvbkFib3J0ID0gKCkgPT4gewogICAgICB3aW5kb3cuY2xlYXJUaW1lb3V0KHRpbWVyKTsKICAgICAgc2lnbmFsPy5yZW1vdmVFdmVudExpc3RlbmVyKCJhYm9ydCIsIG9uQWJvcnQpOwogICAgICByZWplY3QoY3JlYXRlU2NhbkFib3J0RXJyb3IoKSk7CiAgICB9OwogICAgc2lnbmFsPy5hZGRFdmVudExpc3RlbmVyKCJhYm9ydCIsIG9uQWJvcnQsIHsgb25jZTogdHJ1ZSB9KTsKICB9KTsKCmV4cG9ydCB0eXBlIEhvc3RNYXBwaW5nUHJvYmVSZXN1bHQgPQogIFNjYW5TY2hlbWFzWyJIb3N0TWFwcGluZ1Byb2JlUmVzdWx0RGF0YSJdOwpleHBvcnQgdHlwZSBIb3N0TWFwcGluZ1Byb2JlU3RhdHVzID0gSG9zdE1hcHBpbmdQcm9iZVJlc3VsdFsic3RhdHVzIl07CmV4cG9ydCB0eXBlIEhvc3RNYXBwaW5nc1Byb2JlUmVxdWVzdCA9IFNjYW5TY2hlbWFzWyJIb3N0TWFwcGluZ3NQcm9iZUJvZHlEYXRhIl07CmV4cG9ydCB0eXBlIEhvc3RNYXBwaW5nc1Byb2JlUmVzcG9uc2UgPSBTY2FuU2NoZW1hc1siSG9zdE1hcHBpbmdzUHJvYmVEYXRhIl07CmV4cG9ydCB0eXBlIFNjYW5EaXNjb3ZlcnlUYXJnZXRzU2F2ZVJlcXVlc3QgPQogIFNjYW5TY2hlbWFzWyJTY2FuRGlzY292ZXJ5VGFyZ2V0c1VwZGF0ZURhdGEiXTsKCmV4cG9ydCBjb25zdCBTY2FuQVBJID0gewogIGFzeW5jIGdldERpc2NvdmVyU2V0dGluZ3MoKTogUHJvbWlzZTxTY2FuRGlzY292ZXJ5U2V0dGluZ3M+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9zY2FuL2Rpc2NvdmVyLXNldHRpbmdzIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHNhdmVEaXNjb3ZlclNldHRpbmdzKAogICAgcGF5bG9hZDogU2NhbkRpc2NvdmVyeVNldHRpbmdzU2F2ZVJlcXVlc3QsCiAgKTogUHJvbWlzZTxTY2FuRGlzY292ZXJ5U2V0dGluZ3M+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvc2Nhbi9kaXNjb3Zlci1zZXR0aW5ncyIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBzdGFydERpc2NvdmVySm9iKAogICAgcGF5bG9hZDogU2NhbkRpc2NvdmVyUmVxdWVzdCwKICAgIHNpZ25hbD86IEFib3J0U2lnbmFsLAogICk6IFByb21pc2U8U2NhbkRpc2NvdmVySm9iU3RhdHVzPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL3NjYW4vZGlzY292ZXIvam9icyIsIHBheWxvYWQsIHsKICAgICAgc2lnbmFsLAogICAgfSk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGdldERpc2NvdmVySm9iKAogICAgam9iSWQ6IHN0cmluZywKICAgIGN1cnNvciA9IDAsCiAgICBzaWduYWw/OiBBYm9ydFNpZ25hbCwKICApOiBQcm9taXNlPFNjYW5EaXNjb3ZlckpvYlN0YXR1cz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgKICAgICAgYC9zY2FuL2Rpc2NvdmVyL2pvYnMvJHtlbmNvZGVVUklDb21wb25lbnQoam9iSWQpfWAsCiAgICAgIHsKICAgICAgICBwYXJhbXM6IHsgY3Vyc29yIH0sCiAgICAgICAgc2lnbmFsLAogICAgICB9LAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgY2FuY2VsRGlzY292ZXJKb2Ioam9iSWQ6IHN0cmluZyk6IFByb21pc2U8U2NhbkRpc2NvdmVySm9iU3RhdHVzPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZGVsZXRlKAogICAgICBgL3NjYW4vZGlzY292ZXIvam9icy8ke2VuY29kZVVSSUNvbXBvbmVudChqb2JJZCl9YCwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGRpc2NvdmVyUG9sbGluZygKICAgIHBheWxvYWQ6IFNjYW5EaXNjb3ZlclJlcXVlc3QsCiAgICBvcHRpb25zOiBTY2FuRGlzY292ZXJQb2xsT3B0aW9ucyA9IHt9LAogICk6IFByb21pc2U8U2NhbkRpc2NvdmVyUmVzcG9uc2U+IHsKICAgIGxldCBqb2JJZCA9ICIiOwogICAgbGV0IGN1cnNvciA9IDA7CiAgICBsZXQgaGFzRW1pdHRlZE1ldGEgPSBmYWxzZTsKICAgIGxldCBoYXNSZXF1ZXN0ZWRDYW5jZWwgPSBmYWxzZTsKICAgIGxldCByZW1vdmVBYm9ydExpc3RlbmVyOiAoKCkgPT4gdm9pZCkgfCBudWxsID0gbnVsbDsKICAgIGNvbnN0IGludGVydmFsTXMgPSBvcHRpb25zLmludGVydmFsTXMgPz8gNzAwOwogICAgY29uc3QgcmVxdWVzdENhbmNlbCA9ICgpID0+IHsKICAgICAgaWYgKCFqb2JJZCB8fCBoYXNSZXF1ZXN0ZWRDYW5jZWwpIHJldHVybjsKICAgICAgaGFzUmVxdWVzdGVkQ2FuY2VsID0gdHJ1ZTsKICAgICAgdm9pZCB0aGlzLmNhbmNlbERpc2NvdmVySm9iKGpvYklkKS5jYXRjaCgoKSA9PiB1bmRlZmluZWQpOwogICAgfTsKCiAgICB0cnkgewogICAgICB0aHJvd0lmU2NhbkFib3J0ZWQob3B0aW9ucy5zaWduYWwpOwogICAgICBjb25zdCBzdGFydGVkID0gYXdhaXQgdGhpcy5zdGFydERpc2NvdmVySm9iKHBheWxvYWQsIG9wdGlvbnMuc2lnbmFsKTsKICAgICAgam9iSWQgPSBzdGFydGVkLmpvYklkOwogICAgICBpZiAob3B0aW9ucy5zaWduYWwpIHsKICAgICAgICBjb25zdCBvbkFib3J0ID0gKCkgPT4gcmVxdWVzdENhbmNlbCgpOwogICAgICAgIG9wdGlvbnMuc2lnbmFsLmFkZEV2ZW50TGlzdGVuZXIoImFib3J0Iiwgb25BYm9ydCwgeyBvbmNlOiB0cnVlIH0pOwogICAgICAgIHJlbW92ZUFib3J0TGlzdGVuZXIgPSAoKSA9PgogICAgICAgICAgb3B0aW9ucy5zaWduYWw/LnJlbW92ZUV2ZW50TGlzdGVuZXIoImFib3J0Iiwgb25BYm9ydCk7CiAgICAgIH0KICAgICAgdGhyb3dJZlNjYW5BYm9ydGVkKG9wdGlvbnMuc2lnbmFsKTsKCiAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgdGhyb3dJZlNjYW5BYm9ydGVkKG9wdGlvbnMuc2lnbmFsKTsKICAgICAgICBjb25zdCBzdGF0dXMgPSBhd2FpdCB0aGlzLmdldERpc2NvdmVySm9iKGpvYklkLCBjdXJzb3IsIG9wdGlvbnMuc2lnbmFsKTsKCiAgICAgICAgaWYgKHN0YXR1cy5tZXRhICYmICFoYXNFbWl0dGVkTWV0YSkgewogICAgICAgICAgaGFzRW1pdHRlZE1ldGEgPSB0cnVlOwogICAgICAgICAgb3B0aW9ucy5vbkV2ZW50Py4oeyB0eXBlOiAibWV0YSIsIGRhdGE6IHN0YXR1cy5tZXRhIH0pOwogICAgICAgIH0KCiAgICAgICAgaWYgKHN0YXR1cy5wcm9ncmVzcykgewogICAgICAgICAgb3B0aW9ucy5vbkV2ZW50Py4oeyB0eXBlOiAicHJvZ3Jlc3MiLCBkYXRhOiBzdGF0dXMucHJvZ3Jlc3MgfSk7CiAgICAgICAgfQoKICAgICAgICBmb3IgKGNvbnN0IHNlcnZpY2Ugb2Ygc3RhdHVzLnNlcnZpY2VzKSB7CiAgICAgICAgICBvcHRpb25zLm9uRXZlbnQ/Lih7CiAgICAgICAgICAgIHR5cGU6ICJzZXJ2aWNlIiwKICAgICAgICAgICAgZGF0YTogeyBzZXJ2aWNlIH0sCiAgICAgICAgICB9KTsKICAgICAgICB9CiAgICAgICAgY3Vyc29yID0gc3RhdHVzLm5leHRDdXJzb3I7CgogICAgICAgIGlmIChzdGF0dXMuc3RhdGUgPT09ICJjb21wbGV0ZWQiKSB7CiAgICAgICAgICBpZiAoIXN0YXR1cy5yZXN1bHQpIHsKICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKCJTY2FuIGpvYiBjb21wbGV0ZWQgd2l0aG91dCBhIHJlc3VsdCIpOwogICAgICAgICAgfQogICAgICAgICAgcmVtb3ZlQWJvcnRMaXN0ZW5lcj8uKCk7CiAgICAgICAgICByZW1vdmVBYm9ydExpc3RlbmVyID0gbnVsbDsKICAgICAgICAgIG9wdGlvbnMub25FdmVudD8uKHsgdHlwZTogImRvbmUiLCBkYXRhOiBzdGF0dXMucmVzdWx0IH0pOwogICAgICAgICAgcmV0dXJuIHN0YXR1cy5yZXN1bHQ7CiAgICAgICAgfQoKICAgICAgICBpZiAoc3RhdHVzLnN0YXRlID09PSAiY2FuY2VsbGVkIikgewogICAgICAgICAgb3B0aW9ucy5vbkV2ZW50Py4oeyB0eXBlOiAiY2FuY2VsbGVkIiB9KTsKICAgICAgICAgIHRocm93IGNyZWF0ZVNjYW5BYm9ydEVycm9yKCk7CiAgICAgICAgfQoKICAgICAgICBpZiAoc3RhdHVzLnN0YXRlID09PSAiZmFpbGVkIikgewogICAgICAgICAgdGhyb3cgbmV3IEVycm9yKHN0YXR1cy5lcnJvciB8fCAiU2NhbiBmYWlsZWQiKTsKICAgICAgICB9CgogICAgICAgIGF3YWl0IHdhaXRGb3JEaXNjb3ZlclBvbGwoaW50ZXJ2YWxNcywgb3B0aW9ucy5zaWduYWwpOwogICAgICB9CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBpZiAoam9iSWQgJiYgb3B0aW9ucy5zaWduYWw/LmFib3J0ZWQpIHsKICAgICAgICByZXF1ZXN0Q2FuY2VsKCk7CiAgICAgIH0KICAgICAgaWYgKG9wdGlvbnMuc2lnbmFsPy5hYm9ydGVkKSB7CiAgICAgICAgdGhyb3cgY3JlYXRlU2NhbkFib3J0RXJyb3IoKTsKICAgICAgfQogICAgICB0aHJvdyBlcnJvcjsKICAgIH0gZmluYWxseSB7CiAgICAgIHJlbW92ZUFib3J0TGlzdGVuZXI/LigpOwogICAgfQogIH0sCiAgYXN5bmMgcHJvYmVIb3N0TWFwcGluZ3MoCiAgICBwYXlsb2FkPzogSG9zdE1hcHBpbmdzUHJvYmVSZXF1ZXN0LAogICk6IFByb21pc2U8SG9zdE1hcHBpbmdzUHJvYmVSZXNwb25zZT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoCiAgICAgICIvc2Nhbi9ob3N0LW1hcHBpbmdzL3Byb2JlIiwKICAgICAgcGF5bG9hZCB8fCB7fSwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGdldERpc2NvdmVyVGFyZ2V0cygpOiBQcm9taXNlPFNjYW5EaXNjb3ZlcnlUYXJnZXRzUmVzcG9uc2U+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9zY2FuL2Rpc2NvdmVyLXRhcmdldHMiKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgc2F2ZURpc2NvdmVyVGFyZ2V0cygKICAgIHBheWxvYWQ6IFNjYW5EaXNjb3ZlcnlUYXJnZXRzU2F2ZVJlcXVlc3QsCiAgKTogUHJvbWlzZTxTY2FuRGlzY292ZXJ5VGFyZ2V0c1Jlc3BvbnNlPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL3NjYW4vZGlzY292ZXItdGFyZ2V0cyIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKfTsK
+import type { components as ApiContractComponents } from "@fn-knock/api-contract";
+
+import { apiClient } from "./client";
+
+type ScanSchemas = ApiContractComponents["schemas"];
+
+export type DiscoveredServiceInfo = ScanSchemas["ScanDiscoveredServiceData"];
+export type ScanDiscoverResponse = ScanSchemas["ScanDiscoverResultData"];
+export type ScanDiscoverMeta = ScanSchemas["ScanDiscoverMetaData"];
+export type ScanIntensityMode = ScanDiscoverySettings["intensityMode"];
+export type ScanIntensityLevel = ScanDiscoverySettings["effectiveLevel"];
+export type ScanDiscoveryCapability =
+  ScanSchemas["ScanDiscoveryCapabilityData"];
+export type ScanDiscoverySettings = ScanSchemas["ScanDiscoverySettingsData"];
+export type ScanDiscoverySettingsSaveRequest =
+  ScanSchemas["ScanDiscoverySettingsUpdateData"];
+export type ScanDiscoverProgress = ScanSchemas["ScanDiscoverProgressData"];
+
+export type ScanDiscoverPollEvent =
+  | {
+      type: "meta";
+      data: ScanDiscoverMeta;
+    }
+  | {
+      type: "progress";
+      data: ScanDiscoverProgress;
+    }
+  | {
+      type: "service";
+      data: {
+        service: DiscoveredServiceInfo;
+      };
+    }
+  | {
+      type: "done";
+      data: ScanDiscoverResponse;
+    }
+  | {
+      type: "cancelled";
+    };
+
+export type ScanDiscoveryTarget = ScanSchemas["ScanDiscoveryTargetData"];
+export type ScanDiscoveryTargetSource = ScanDiscoveryTarget["source"];
+export type ScanDiscoveryHostCandidate =
+  ScanSchemas["ScanDiscoveryHostCandidateData"];
+export type ScanDiscoveryHostCandidateSource =
+  ScanDiscoveryHostCandidate["source"];
+export type ScanDiscoveryTargetsResponse =
+  ScanSchemas["ScanDiscoveryTargetsData"];
+export type ScanDiscoverRequest = ScanSchemas["ScanDiscoverJobBodyData"];
+
+export interface ScanDiscoverPollOptions {
+  signal?: AbortSignal;
+  intervalMs?: number;
+  onEvent?: (event: ScanDiscoverPollEvent) => void;
+}
+
+export type ScanDiscoverJobStatus = ScanSchemas["ScanDiscoverJobData"];
+export type ScanDiscoverJobState = ScanDiscoverJobStatus["state"];
+
+const createScanAbortError = (): Error => {
+  const error = new Error("Scan cancelled");
+  error.name = "AbortError";
+  return error;
+};
+
+const throwIfScanAborted = (signal?: AbortSignal) => {
+  if (signal?.aborted) {
+    throw createScanAbortError();
+  }
+};
+
+const waitForDiscoverPoll = (ms: number, signal?: AbortSignal) =>
+  new Promise<void>((resolve, reject) => {
+    if (signal?.aborted) {
+      reject(createScanAbortError());
+      return;
+    }
+
+    const timer = window.setTimeout(() => {
+      signal?.removeEventListener("abort", onAbort);
+      resolve();
+    }, ms);
+    const onAbort = () => {
+      window.clearTimeout(timer);
+      signal?.removeEventListener("abort", onAbort);
+      reject(createScanAbortError());
+    };
+    signal?.addEventListener("abort", onAbort, { once: true });
+  });
+
+export type HostMappingProbeResult =
+  ScanSchemas["HostMappingProbeResultData"];
+export type HostMappingProbeStatus = HostMappingProbeResult["status"];
+export type HostMappingsProbeRequest = ScanSchemas["HostMappingsProbeBodyData"];
+export type HostMappingsProbeResponse = ScanSchemas["HostMappingsProbeData"];
+export type ScanDiscoveryTargetsSaveRequest =
+  ScanSchemas["ScanDiscoveryTargetsUpdateData"];
+
+export const ScanAPI = {
+  async getDiscoverSettings(): Promise<ScanDiscoverySettings> {
+    const res = await apiClient.get("/scan/discover-settings");
+    return res.data.data;
+  },
+  async saveDiscoverSettings(
+    payload: ScanDiscoverySettingsSaveRequest,
+  ): Promise<ScanDiscoverySettings> {
+    const res = await apiClient.post("/scan/discover-settings", payload);
+    return res.data.data;
+  },
+  async startDiscoverJob(
+    payload: ScanDiscoverRequest,
+    signal?: AbortSignal,
+  ): Promise<ScanDiscoverJobStatus> {
+    const res = await apiClient.post("/scan/discover/jobs", payload, {
+      signal,
+    });
+    return res.data.data;
+  },
+  async getDiscoverJob(
+    jobId: string,
+    cursor = 0,
+    signal?: AbortSignal,
+  ): Promise<ScanDiscoverJobStatus> {
+    const res = await apiClient.get(
+      `/scan/discover/jobs/${encodeURIComponent(jobId)}`,
+      {
+        params: { cursor },
+        signal,
+      },
+    );
+    return res.data.data;
+  },
+  async cancelDiscoverJob(jobId: string): Promise<ScanDiscoverJobStatus> {
+    const res = await apiClient.delete(
+      `/scan/discover/jobs/${encodeURIComponent(jobId)}`,
+    );
+    return res.data.data;
+  },
+  async discoverPolling(
+    payload: ScanDiscoverRequest,
+    options: ScanDiscoverPollOptions = {},
+  ): Promise<ScanDiscoverResponse> {
+    let jobId = "";
+    let cursor = 0;
+    let hasEmittedMeta = false;
+    let hasRequestedCancel = false;
+    let removeAbortListener: (() => void) | null = null;
+    const intervalMs = options.intervalMs ?? 700;
+    const requestCancel = () => {
+      if (!jobId || hasRequestedCancel) return;
+      hasRequestedCancel = true;
+      void this.cancelDiscoverJob(jobId).catch(() => undefined);
+    };
+
+    try {
+      throwIfScanAborted(options.signal);
+      const started = await this.startDiscoverJob(payload, options.signal);
+      jobId = started.jobId;
+      if (options.signal) {
+        const onAbort = () => requestCancel();
+        options.signal.addEventListener("abort", onAbort, { once: true });
+        removeAbortListener = () =>
+          options.signal?.removeEventListener("abort", onAbort);
+      }
+      throwIfScanAborted(options.signal);
+
+      while (true) {
+        throwIfScanAborted(options.signal);
+        const status = await this.getDiscoverJob(jobId, cursor, options.signal);
+
+        if (status.meta && !hasEmittedMeta) {
+          hasEmittedMeta = true;
+          options.onEvent?.({ type: "meta", data: status.meta });
+        }
+
+        if (status.progress) {
+          options.onEvent?.({ type: "progress", data: status.progress });
+        }
+
+        for (const service of status.services) {
+          options.onEvent?.({
+            type: "service",
+            data: { service },
+          });
+        }
+        cursor = status.nextCursor;
+
+        if (status.state === "completed") {
+          if (!status.result) {
+            throw new Error("Scan job completed without a result");
+          }
+          removeAbortListener?.();
+          removeAbortListener = null;
+          options.onEvent?.({ type: "done", data: status.result });
+          return status.result;
+        }
+
+        if (status.state === "cancelled") {
+          options.onEvent?.({ type: "cancelled" });
+          throw createScanAbortError();
+        }
+
+        if (status.state === "failed") {
+          throw new Error(status.error || "Scan failed");
+        }
+
+        await waitForDiscoverPoll(intervalMs, options.signal);
+      }
+    } catch (error) {
+      if (jobId && options.signal?.aborted) {
+        requestCancel();
+      }
+      if (options.signal?.aborted) {
+        throw createScanAbortError();
+      }
+      throw error;
+    } finally {
+      removeAbortListener?.();
+    }
+  },
+  async probeHostMappings(
+    payload?: HostMappingsProbeRequest,
+  ): Promise<HostMappingsProbeResponse> {
+    const res = await apiClient.post(
+      "/scan/host-mappings/probe",
+      payload || {},
+    );
+    return res.data.data;
+  },
+  async getDiscoverTargets(): Promise<ScanDiscoveryTargetsResponse> {
+    const res = await apiClient.get("/scan/discover-targets");
+    return res.data.data;
+  },
+  async saveDiscoverTargets(
+    payload: ScanDiscoveryTargetsSaveRequest,
+  ): Promise<ScanDiscoveryTargetsResponse> {
+    const res = await apiClient.post("/scan/discover-targets", payload);
+    return res.data.data;
+  },
+};

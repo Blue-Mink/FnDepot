@@ -1,1 +1,3 @@
-IyBgQHR1cmJvL2VzbGludC1jb25maWdgCgpDb2xsZWN0aW9uIG9mIGludGVybmFsIGVzbGludCBjb25maWd1cmF0aW9ucy4K
+# `@turbo/eslint-config`
+
+Collection of internal eslint configurations.

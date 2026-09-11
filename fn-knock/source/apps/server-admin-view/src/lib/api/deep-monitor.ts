@@ -1,1 +1,91 @@
-aW1wb3J0IHR5cGUgeyBEZWVwTW9uaXRvckV2ZW50LCBEZWVwTW9uaXRvclNlc3Npb24gfSBmcm9tICIuLi8uLi90eXBlcyI7CmltcG9ydCB0eXBlIHsKICBjb21wb25lbnRzIGFzIEFwaUNvbnRyYWN0Q29tcG9uZW50cywKICBvcGVyYXRpb25zIGFzIEFwaUNvbnRyYWN0T3BlcmF0aW9ucywKfSBmcm9tICJAZm4ta25vY2svYXBpLWNvbnRyYWN0IjsKaW1wb3J0IHsgYWRtaW5BcGlCYXNlUGF0aCwgYXBpQ2xpZW50IH0gZnJvbSAiLi9jbGllbnQiOwoKdHlwZSBEZWVwTW9uaXRvclNjaGVtYXMgPSBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXTsKdHlwZSBEZWVwTW9uaXRvclN0YXJ0UmVxdWVzdCA9IERlZXBNb25pdG9yU2NoZW1hc1siRGVlcE1vbml0b3JTdGFydEJvZHlEYXRhIl07CnR5cGUgRGVlcE1vbml0b3JFeHRlbmRSZXF1ZXN0ID0gRGVlcE1vbml0b3JTY2hlbWFzWyJEZWVwTW9uaXRvckV4dGVuZEJvZHlEYXRhIl07CnR5cGUgRGVlcE1vbml0b3JFdmVudExpc3QgPSBEZWVwTW9uaXRvclNjaGVtYXNbIkRlZXBNb25pdG9yRXZlbnRMaXN0RGF0YSJdOwp0eXBlIERlZXBNb25pdG9yRXZlbnRzUXVlcnkgPSBOb25OdWxsYWJsZTwKICBBcGlDb250cmFjdE9wZXJhdGlvbnNbImdldF9hcGlfYWRtaW5fZGVlcF9tb25pdG9yX3Nlc3Npb25zX19zZXNzaW9uX2lkX19ldmVudHMiXVsicGFyYW1ldGVycyJdWyJxdWVyeSJdCj47CnR5cGUgRGVlcE1vbml0b3JQYXlsb2FkUXVlcnkgPQogIEFwaUNvbnRyYWN0T3BlcmF0aW9uc1siZ2V0X2FwaV9hZG1pbl9kZWVwX21vbml0b3Jfc2Vzc2lvbnNfX3Nlc3Npb25faWRfX2V2ZW50c19fZXZlbnRfaWRfX3BheWxvYWQiXVsicGFyYW1ldGVycyJdWyJxdWVyeSJdOwoKY29uc3Qgc2Vzc2lvblBhdGggPSAoc2Vzc2lvbklkOiBzdHJpbmcpID0+CiAgYC9kZWVwLW1vbml0b3Ivc2Vzc2lvbnMvJHtlbmNvZGVVUklDb21wb25lbnQoc2Vzc2lvbklkKX1gOwoKZXhwb3J0IGNvbnN0IERlZXBNb25pdG9yQVBJID0gewogIGFzeW5jIGxpc3Qoc2lnbmFsPzogQWJvcnRTaWduYWwpOiBQcm9taXNlPERlZXBNb25pdG9yU2Vzc2lvbltdPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvZGVlcC1tb25pdG9yL3Nlc3Npb25zIiwgeyBzaWduYWwgfSk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YS5pdGVtcyB8fCBbXTsKICB9LAogIGFzeW5jIGdldChzZXNzaW9uSWQ6IHN0cmluZyk6IFByb21pc2U8RGVlcE1vbml0b3JTZXNzaW9uPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KHNlc3Npb25QYXRoKHNlc3Npb25JZCkpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBzdGFydChwYXlsb2FkOiBEZWVwTW9uaXRvclN0YXJ0UmVxdWVzdCk6IFByb21pc2U8RGVlcE1vbml0b3JTZXNzaW9uPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL2RlZXAtbW9uaXRvci9zZXNzaW9ucyIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBleHRlbmQoCiAgICBzZXNzaW9uSWQ6IHN0cmluZywKICAgIGR1cmF0aW9uU2Vjb25kczogbnVtYmVyLAogICk6IFByb21pc2U8RGVlcE1vbml0b3JTZXNzaW9uPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdChgJHtzZXNzaW9uUGF0aChzZXNzaW9uSWQpfS9leHRlbmRgLCB7CiAgICAgIGR1cmF0aW9uX3NlY29uZHM6IGR1cmF0aW9uU2Vjb25kcywKICAgIH0gc2F0aXNmaWVzIERlZXBNb25pdG9yRXh0ZW5kUmVxdWVzdCk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHN0b3Aoc2Vzc2lvbklkOiBzdHJpbmcpOiBQcm9taXNlPERlZXBNb25pdG9yU2Vzc2lvbj4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoYCR7c2Vzc2lvblBhdGgoc2Vzc2lvbklkKX0vc3RvcGApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBkZWxldGUoc2Vzc2lvbklkOiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGF3YWl0IGFwaUNsaWVudC5kZWxldGUoc2Vzc2lvblBhdGgoc2Vzc2lvbklkKSk7CiAgfSwKICBhc3luYyBldmVudHMoCiAgICBzZXNzaW9uSWQ6IHN0cmluZywKICAgIHBhcmFtczogRGVlcE1vbml0b3JFdmVudHNRdWVyeSA9IHt9LAogICAgc2lnbmFsPzogQWJvcnRTaWduYWwsCiAgKTogUHJvbWlzZTxEZWVwTW9uaXRvckV2ZW50TGlzdD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldChgJHtzZXNzaW9uUGF0aChzZXNzaW9uSWQpfS9ldmVudHNgLCB7CiAgICAgIHBhcmFtcywKICAgICAgc2lnbmFsLAogICAgfSk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGV2ZW50KHNlc3Npb25JZDogc3RyaW5nLCBldmVudElkOiBzdHJpbmcpOiBQcm9taXNlPERlZXBNb25pdG9yRXZlbnQ+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoCiAgICAgIGAke3Nlc3Npb25QYXRoKHNlc3Npb25JZCl9L2V2ZW50cy8ke2VuY29kZVVSSUNvbXBvbmVudChldmVudElkKX1gLAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgcHJldmlld1BheWxvYWQoCiAgICBzZXNzaW9uSWQ6IHN0cmluZywKICAgIGV2ZW50SWQ6IHN0cmluZywKICAgIHBhcnQ6IHN0cmluZywKICApOiBQcm9taXNlPEFycmF5QnVmZmVyPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KAogICAgICBgJHtzZXNzaW9uUGF0aChzZXNzaW9uSWQpfS9ldmVudHMvJHtlbmNvZGVVUklDb21wb25lbnQoZXZlbnRJZCl9L3BheWxvYWRgLAogICAgICB7CiAgICAgICAgcGFyYW1zOiB7IHBhcnQsIGxpbWl0OiAyNTYgKiAxMDI0IH0gc2F0aXNmaWVzIERlZXBNb25pdG9yUGF5bG9hZFF1ZXJ5LAogICAgICAgIHJlc3BvbnNlVHlwZTogImFycmF5YnVmZmVyIiwKICAgICAgfSwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGE7CiAgfSwKICBwYXlsb2FkVXJsKHNlc3Npb25JZDogc3RyaW5nLCBldmVudElkOiBzdHJpbmcsIHBhcnQ6IHN0cmluZyk6IHN0cmluZyB7CiAgICBjb25zdCBwYXRoID0gYCR7YWRtaW5BcGlCYXNlUGF0aH0ke3Nlc3Npb25QYXRoKHNlc3Npb25JZCl9L2V2ZW50cy8ke2VuY29kZVVSSUNvbXBvbmVudChldmVudElkKX0vcGF5bG9hZGA7CiAgICByZXR1cm4gYCR7cGF0aH0/cGFydD0ke2VuY29kZVVSSUNvbXBvbmVudChwYXJ0KX1gOwogIH0sCiAgYXJjaGl2ZVVybChzZXNzaW9uSWQ6IHN0cmluZyk6IHN0cmluZyB7CiAgICByZXR1cm4gYCR7YWRtaW5BcGlCYXNlUGF0aH0ke3Nlc3Npb25QYXRoKHNlc3Npb25JZCl9L2Rvd25sb2FkYDsKICB9LAogIGxpdmVVcmwoc2Vzc2lvbklkOiBzdHJpbmcsIGFmdGVyU2VxdWVuY2UgPSAwKTogc3RyaW5nIHsKICAgIHJldHVybiBgJHthZG1pbkFwaUJhc2VQYXRofSR7c2Vzc2lvblBhdGgoc2Vzc2lvbklkKX0vbGl2ZT9hZnRlcl9zZXF1ZW5jZT0ke2FmdGVyU2VxdWVuY2V9YDsKICB9LAp9Owo=
+import type { DeepMonitorEvent, DeepMonitorSession } from "../../types";
+import type {
+  components as ApiContractComponents,
+  operations as ApiContractOperations,
+} from "@fn-knock/api-contract";
+import { adminApiBasePath, apiClient } from "./client";
+
+type DeepMonitorSchemas = ApiContractComponents["schemas"];
+type DeepMonitorStartRequest = DeepMonitorSchemas["DeepMonitorStartBodyData"];
+type DeepMonitorExtendRequest = DeepMonitorSchemas["DeepMonitorExtendBodyData"];
+type DeepMonitorEventList = DeepMonitorSchemas["DeepMonitorEventListData"];
+type DeepMonitorEventsQuery = NonNullable<
+  ApiContractOperations["get_api_admin_deep_monitor_sessions__session_id__events"]["parameters"]["query"]
+>;
+type DeepMonitorPayloadQuery =
+  ApiContractOperations["get_api_admin_deep_monitor_sessions__session_id__events__event_id__payload"]["parameters"]["query"];
+
+const sessionPath = (sessionId: string) =>
+  `/deep-monitor/sessions/${encodeURIComponent(sessionId)}`;
+
+export const DeepMonitorAPI = {
+  async list(signal?: AbortSignal): Promise<DeepMonitorSession[]> {
+    const res = await apiClient.get("/deep-monitor/sessions", { signal });
+    return res.data.data.items || [];
+  },
+  async get(sessionId: string): Promise<DeepMonitorSession> {
+    const res = await apiClient.get(sessionPath(sessionId));
+    return res.data.data;
+  },
+  async start(payload: DeepMonitorStartRequest): Promise<DeepMonitorSession> {
+    const res = await apiClient.post("/deep-monitor/sessions", payload);
+    return res.data.data;
+  },
+  async extend(
+    sessionId: string,
+    durationSeconds: number,
+  ): Promise<DeepMonitorSession> {
+    const res = await apiClient.post(`${sessionPath(sessionId)}/extend`, {
+      duration_seconds: durationSeconds,
+    } satisfies DeepMonitorExtendRequest);
+    return res.data.data;
+  },
+  async stop(sessionId: string): Promise<DeepMonitorSession> {
+    const res = await apiClient.post(`${sessionPath(sessionId)}/stop`);
+    return res.data.data;
+  },
+  async delete(sessionId: string): Promise<void> {
+    await apiClient.delete(sessionPath(sessionId));
+  },
+  async events(
+    sessionId: string,
+    params: DeepMonitorEventsQuery = {},
+    signal?: AbortSignal,
+  ): Promise<DeepMonitorEventList> {
+    const res = await apiClient.get(`${sessionPath(sessionId)}/events`, {
+      params,
+      signal,
+    });
+    return res.data.data;
+  },
+  async event(sessionId: string, eventId: string): Promise<DeepMonitorEvent> {
+    const res = await apiClient.get(
+      `${sessionPath(sessionId)}/events/${encodeURIComponent(eventId)}`,
+    );
+    return res.data.data;
+  },
+  async previewPayload(
+    sessionId: string,
+    eventId: string,
+    part: string,
+  ): Promise<ArrayBuffer> {
+    const res = await apiClient.get(
+      `${sessionPath(sessionId)}/events/${encodeURIComponent(eventId)}/payload`,
+      {
+        params: { part, limit: 256 * 1024 } satisfies DeepMonitorPayloadQuery,
+        responseType: "arraybuffer",
+      },
+    );
+    return res.data;
+  },
+  payloadUrl(sessionId: string, eventId: string, part: string): string {
+    const path = `${adminApiBasePath}${sessionPath(sessionId)}/events/${encodeURIComponent(eventId)}/payload`;
+    return `${path}?part=${encodeURIComponent(part)}`;
+  },
+  archiveUrl(sessionId: string): string {
+    return `${adminApiBasePath}${sessionPath(sessionId)}/download`;
+  },
+  liveUrl(sessionId: string, afterSequence = 0): string {
+    return `${adminApiBasePath}${sessionPath(sessionId)}/live?after_sequence=${afterSequence}`;
+  },
+};

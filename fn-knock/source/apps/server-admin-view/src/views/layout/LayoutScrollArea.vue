@@ -1,1 +1,253 @@
-PHRlbXBsYXRlPgogIDxuYXYgY2xhc3M9ImxheW91dC1zY3JvbGwtYXJlYSI+CiAgICA8ZGl2CiAgICAgIHJlZj0idmlld3BvcnQiCiAgICAgIGNsYXNzPSJsYXlvdXQtc2Nyb2xsLWFyZWFfX3ZpZXdwb3J0IgogICAgICA6Y2xhc3M9IlsKICAgICAgICBjb250ZW50Q2xhc3MsCiAgICAgICAgewogICAgICAgICAgJ2xheW91dC1zY3JvbGwtYXJlYV9fdmlld3BvcnQtLXJhaWwtZ3V0dGVyJzogcmVzZXJ2ZVJhaWxHdXR0ZXIsCiAgICAgICAgfSwKICAgICAgXSIKICAgICAgQHNjcm9sbC5wYXNzaXZlPSJoYW5kbGVTY3JvbGwiCiAgICA+CiAgICAgIDxzbG90IC8+CiAgICA8L2Rpdj4KICAgIDxkaXYKICAgICAgdi1pZj0iaXNPdmVyZmxvd2luZyIKICAgICAgY2xhc3M9ImxheW91dC1zY3JvbGwtYXJlYV9fcmFpbCIKICAgICAgOmNsYXNzPSJ7ICdsYXlvdXQtc2Nyb2xsLWFyZWFfX3JhaWwtLXZpc2libGUnOiBpc1RlbXBvcmFyaWx5VmlzaWJsZSB9IgogICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgQHBvaW50ZXJkb3duPSJoYW5kbGVSYWlsUG9pbnRlckRvd24iCiAgICA+CiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0ibGF5b3V0LXNjcm9sbC1hcmVhX190aHVtYiIKICAgICAgICA6c3R5bGU9InRodW1iU3R5bGUiCiAgICAgICAgQHBvaW50ZXJkb3duLnN0b3A9ImhhbmRsZVRodW1iUG9pbnRlckRvd24iCiAgICAgICAgQHBvaW50ZXJtb3ZlPSJoYW5kbGVUaHVtYlBvaW50ZXJNb3ZlIgogICAgICAgIEBwb2ludGVydXA9ImZpbmlzaFRodW1iRHJhZyIKICAgICAgICBAcG9pbnRlcmNhbmNlbD0iZmluaXNoVGh1bWJEcmFnIgogICAgICA+PC9kaXY+CiAgICA8L2Rpdj4KICA8L25hdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXAgbGFuZz0idHMiPgppbXBvcnQgewogIGNvbXB1dGVkLAogIG5leHRUaWNrLAogIG9uQmVmb3JlVW5tb3VudCwKICBvbk1vdW50ZWQsCiAgcmVmLAogIHR5cGUgQ1NTUHJvcGVydGllcywKfSBmcm9tICJ2dWUiOwoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoCiAgZGVmaW5lUHJvcHM8ewogICAgY29udGVudENsYXNzPzogc3RyaW5nOwogICAgaGludE9uTW91bnQ/OiBib29sZWFuOwogICAgcmVzZXJ2ZVJhaWxHdXR0ZXI/OiBib29sZWFuOwogIH0+KCksCiAgewogICAgY29udGVudENsYXNzOiAiIiwKICAgIGhpbnRPbk1vdW50OiBmYWxzZSwKICAgIHJlc2VydmVSYWlsR3V0dGVyOiBmYWxzZSwKICB9LAopOwoKY29uc3Qgdmlld3BvcnQgPSByZWY8SFRNTEVsZW1lbnQ+KCk7CmNvbnN0IGlzT3ZlcmZsb3dpbmcgPSByZWYoZmFsc2UpOwpjb25zdCBpc0hpbnRpbmcgPSByZWYoZmFsc2UpOwpjb25zdCBpc1Njcm9sbGluZyA9IHJlZihmYWxzZSk7CmNvbnN0IGlzRHJhZ2dpbmcgPSByZWYoZmFsc2UpOwpjb25zdCB0aHVtYkhlaWdodCA9IHJlZigyOCk7CmNvbnN0IHRodW1iT2Zmc2V0ID0gcmVmKDApOwpsZXQgaGFzSGludGVkID0gZmFsc2U7CmxldCBoaW50VGltZXI6IG51bWJlciB8IHVuZGVmaW5lZDsKbGV0IHNjcm9sbFRpbWVyOiBudW1iZXIgfCB1bmRlZmluZWQ7CmxldCByZXNpemVPYnNlcnZlcjogUmVzaXplT2JzZXJ2ZXIgfCB1bmRlZmluZWQ7CmxldCBtdXRhdGlvbk9ic2VydmVyOiBNdXRhdGlvbk9ic2VydmVyIHwgdW5kZWZpbmVkOwpsZXQgZHJhZ1N0YXJ0WSA9IDA7CmxldCBkcmFnU3RhcnRTY3JvbGxUb3AgPSAwOwoKY29uc3QgaXNUZW1wb3JhcmlseVZpc2libGUgPSBjb21wdXRlZCgKICAoKSA9PiBpc0hpbnRpbmcudmFsdWUgfHwgaXNTY3JvbGxpbmcudmFsdWUgfHwgaXNEcmFnZ2luZy52YWx1ZSwKKTsKY29uc3QgdGh1bWJTdHlsZSA9IGNvbXB1dGVkPENTU1Byb3BlcnRpZXM+KCgpID0+ICh7CiAgaGVpZ2h0OiBgJHt0aHVtYkhlaWdodC52YWx1ZX1weGAsCiAgdHJhbnNmb3JtOiBgdHJhbnNsYXRlM2QoMCwgJHt0aHVtYk9mZnNldC52YWx1ZX1weCwgMClgLAp9KSk7Cgpjb25zdCByZXZlYWxNb3VudEhpbnQgPSAoKSA9PiB7CiAgaWYgKCFwcm9wcy5oaW50T25Nb3VudCB8fCBoYXNIaW50ZWQpIHJldHVybjsKICBoYXNIaW50ZWQgPSB0cnVlOwogIGlzSGludGluZy52YWx1ZSA9IHRydWU7CiAgaGludFRpbWVyID0gd2luZG93LnNldFRpbWVvdXQoKCkgPT4gewogICAgaXNIaW50aW5nLnZhbHVlID0gZmFsc2U7CiAgfSwgMTYwMCk7Cn07Cgpjb25zdCBzeW5jVGh1bWIgPSAoKSA9PiB7CiAgY29uc3QgZWxlbWVudCA9IHZpZXdwb3J0LnZhbHVlOwogIGlmICghZWxlbWVudCkgcmV0dXJuOwogIGNvbnN0IHsgY2xpZW50SGVpZ2h0LCBzY3JvbGxIZWlnaHQsIHNjcm9sbFRvcCB9ID0gZWxlbWVudDsKICBjb25zdCBuZXh0T3ZlcmZsb3dpbmcgPSBzY3JvbGxIZWlnaHQgPiBjbGllbnRIZWlnaHQgKyAxOwogIGlzT3ZlcmZsb3dpbmcudmFsdWUgPSBuZXh0T3ZlcmZsb3dpbmc7CiAgaWYgKCFuZXh0T3ZlcmZsb3dpbmcpIHJldHVybjsKCiAgY29uc3QgcmFpbEhlaWdodCA9IE1hdGgubWF4KDAsIGNsaWVudEhlaWdodCAtIDgpOwogIGNvbnN0IG5leHRUaHVtYkhlaWdodCA9IE1hdGgubWF4KAogICAgMjgsCiAgICBNYXRoLnJvdW5kKChjbGllbnRIZWlnaHQgLyBzY3JvbGxIZWlnaHQpICogcmFpbEhlaWdodCksCiAgKTsKICBjb25zdCBhdmFpbGFibGVUcmF2ZWwgPSBNYXRoLm1heCgwLCByYWlsSGVpZ2h0IC0gbmV4dFRodW1iSGVpZ2h0KTsKICBjb25zdCBtYXhTY3JvbGxUb3AgPSBzY3JvbGxIZWlnaHQgLSBjbGllbnRIZWlnaHQ7CiAgdGh1bWJIZWlnaHQudmFsdWUgPSBuZXh0VGh1bWJIZWlnaHQ7CiAgdGh1bWJPZmZzZXQudmFsdWUgPSBNYXRoLnJvdW5kKChzY3JvbGxUb3AgLyBtYXhTY3JvbGxUb3ApICogYXZhaWxhYmxlVHJhdmVsKTsKICByZXZlYWxNb3VudEhpbnQoKTsKfTsKCmNvbnN0IGhhbmRsZVNjcm9sbCA9ICgpID0+IHsKICBzeW5jVGh1bWIoKTsKICBpc1Njcm9sbGluZy52YWx1ZSA9IHRydWU7CiAgd2luZG93LmNsZWFyVGltZW91dChzY3JvbGxUaW1lcik7CiAgc2Nyb2xsVGltZXIgPSB3aW5kb3cuc2V0VGltZW91dCgoKSA9PiB7CiAgICBpc1Njcm9sbGluZy52YWx1ZSA9IGZhbHNlOwogIH0sIDcwMCk7Cn07Cgpjb25zdCBoYW5kbGVSYWlsUG9pbnRlckRvd24gPSAoZXZlbnQ6IFBvaW50ZXJFdmVudCkgPT4gewogIGNvbnN0IGVsZW1lbnQgPSB2aWV3cG9ydC52YWx1ZTsKICBpZiAoIWVsZW1lbnQgfHwgZXZlbnQudGFyZ2V0ICE9PSBldmVudC5jdXJyZW50VGFyZ2V0KSByZXR1cm47CiAgY29uc3QgcmFpbCA9IGV2ZW50LmN1cnJlbnRUYXJnZXQgYXMgSFRNTEVsZW1lbnQ7CiAgY29uc3QgcmF0aW8gPSBNYXRoLm1pbigKICAgIDEsCiAgICBNYXRoLm1heCgwLCAoZXZlbnQuY2xpZW50WSAtIHJhaWwuZ2V0Qm91bmRpbmdDbGllbnRSZWN0KCkudG9wKSAvIHJhaWwuY2xpZW50SGVpZ2h0KSwKICApOwogIGVsZW1lbnQuc2Nyb2xsVG8oewogICAgdG9wOiByYXRpbyAqIChlbGVtZW50LnNjcm9sbEhlaWdodCAtIGVsZW1lbnQuY2xpZW50SGVpZ2h0KSwKICAgIGJlaGF2aW9yOiAic21vb3RoIiwKICB9KTsKfTsKCmNvbnN0IGhhbmRsZVRodW1iUG9pbnRlckRvd24gPSAoZXZlbnQ6IFBvaW50ZXJFdmVudCkgPT4gewogIGNvbnN0IGVsZW1lbnQgPSB2aWV3cG9ydC52YWx1ZTsKICBpZiAoIWVsZW1lbnQgfHwgKGV2ZW50LnBvaW50ZXJUeXBlID09PSAibW91c2UiICYmIGV2ZW50LmJ1dHRvbiAhPT0gMCkpIHJldHVybjsKICBpc0RyYWdnaW5nLnZhbHVlID0gdHJ1ZTsKICBkcmFnU3RhcnRZID0gZXZlbnQuY2xpZW50WTsKICBkcmFnU3RhcnRTY3JvbGxUb3AgPSBlbGVtZW50LnNjcm9sbFRvcDsKICAoZXZlbnQuY3VycmVudFRhcmdldCBhcyBIVE1MRWxlbWVudCkuc2V0UG9pbnRlckNhcHR1cmUoZXZlbnQucG9pbnRlcklkKTsKICBldmVudC5wcmV2ZW50RGVmYXVsdCgpOwp9OwoKY29uc3QgaGFuZGxlVGh1bWJQb2ludGVyTW92ZSA9IChldmVudDogUG9pbnRlckV2ZW50KSA9PiB7CiAgY29uc3QgZWxlbWVudCA9IHZpZXdwb3J0LnZhbHVlOwogIGlmICghZWxlbWVudCB8fCAhaXNEcmFnZ2luZy52YWx1ZSkgcmV0dXJuOwogIGNvbnN0IG1heFNjcm9sbFRvcCA9IGVsZW1lbnQuc2Nyb2xsSGVpZ2h0IC0gZWxlbWVudC5jbGllbnRIZWlnaHQ7CiAgY29uc3QgYXZhaWxhYmxlVHJhdmVsID0gZWxlbWVudC5jbGllbnRIZWlnaHQgLSA4IC0gdGh1bWJIZWlnaHQudmFsdWU7CiAgaWYgKGF2YWlsYWJsZVRyYXZlbCA8PSAwKSByZXR1cm47CiAgZWxlbWVudC5zY3JvbGxUb3AgPQogICAgZHJhZ1N0YXJ0U2Nyb2xsVG9wICsKICAgICgoZXZlbnQuY2xpZW50WSAtIGRyYWdTdGFydFkpIC8gYXZhaWxhYmxlVHJhdmVsKSAqIG1heFNjcm9sbFRvcDsKfTsKCmNvbnN0IGZpbmlzaFRodW1iRHJhZyA9IChldmVudDogUG9pbnRlckV2ZW50KSA9PiB7CiAgaXNEcmFnZ2luZy52YWx1ZSA9IGZhbHNlOwogIGNvbnN0IHRodW1iID0gZXZlbnQuY3VycmVudFRhcmdldCBhcyBIVE1MRWxlbWVudDsKICBpZiAodGh1bWIuaGFzUG9pbnRlckNhcHR1cmUoZXZlbnQucG9pbnRlcklkKSkgewogICAgdGh1bWIucmVsZWFzZVBvaW50ZXJDYXB0dXJlKGV2ZW50LnBvaW50ZXJJZCk7CiAgfQp9OwoKb25Nb3VudGVkKCgpID0+IHsKICB2b2lkIG5leHRUaWNrKHN5bmNUaHVtYik7CiAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoInJlc2l6ZSIsIHN5bmNUaHVtYik7CiAgaWYgKHR5cGVvZiBSZXNpemVPYnNlcnZlciAhPT0gInVuZGVmaW5lZCIgJiYgdmlld3BvcnQudmFsdWUpIHsKICAgIHJlc2l6ZU9ic2VydmVyID0gbmV3IFJlc2l6ZU9ic2VydmVyKHN5bmNUaHVtYik7CiAgICByZXNpemVPYnNlcnZlci5vYnNlcnZlKHZpZXdwb3J0LnZhbHVlKTsKICB9CiAgaWYgKHR5cGVvZiBNdXRhdGlvbk9ic2VydmVyICE9PSAidW5kZWZpbmVkIiAmJiB2aWV3cG9ydC52YWx1ZSkgewogICAgbXV0YXRpb25PYnNlcnZlciA9IG5ldyBNdXRhdGlvbk9ic2VydmVyKHN5bmNUaHVtYik7CiAgICBtdXRhdGlvbk9ic2VydmVyLm9ic2VydmUodmlld3BvcnQudmFsdWUsIHsgY2hpbGRMaXN0OiB0cnVlLCBzdWJ0cmVlOiB0cnVlIH0pOwogIH0KfSk7CgpvbkJlZm9yZVVubW91bnQoKCkgPT4gewogIHdpbmRvdy5jbGVhclRpbWVvdXQoaGludFRpbWVyKTsKICB3aW5kb3cuY2xlYXJUaW1lb3V0KHNjcm9sbFRpbWVyKTsKICB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcigicmVzaXplIiwgc3luY1RodW1iKTsKICByZXNpemVPYnNlcnZlcj8uZGlzY29ubmVjdCgpOwogIG11dGF0aW9uT2JzZXJ2ZXI/LmRpc2Nvbm5lY3QoKTsKfSk7Cjwvc2NyaXB0PgoKPHN0eWxlIHNjb3BlZD4KLmxheW91dC1zY3JvbGwtYXJlYSB7CiAgcG9zaXRpb246IHJlbGF0aXZlOwogIG1pbi1oZWlnaHQ6IDA7Cn0KCi5sYXlvdXQtc2Nyb2xsLWFyZWFfX3ZpZXdwb3J0IHsKICBoZWlnaHQ6IDEwMCU7CiAgb3ZlcmZsb3cteTogYXV0bzsKICBzY3JvbGxiYXItd2lkdGg6IG5vbmU7CiAgLW1zLW92ZXJmbG93LXN0eWxlOiBub25lOwp9CgoubGF5b3V0LXNjcm9sbC1hcmVhX192aWV3cG9ydDo6LXdlYmtpdC1zY3JvbGxiYXIgewogIGRpc3BsYXk6IG5vbmU7Cn0KCi5sYXlvdXQtc2Nyb2xsLWFyZWFfX3ZpZXdwb3J0LS1yYWlsLWd1dHRlciB7CiAgcGFkZGluZy1pbmxpbmUtZW5kOiAxMnB4Owp9CgoubGF5b3V0LXNjcm9sbC1hcmVhX19yYWlsIHsKICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgei1pbmRleDogMTA7CiAgdG9wOiA0cHg7CiAgcmlnaHQ6IDFweDsKICBib3R0b206IDRweDsKICB3aWR0aDogOHB4OwogIGJvcmRlci1yYWRpdXM6IDk5OXB4OwogIG9wYWNpdHk6IDA7CiAgcG9pbnRlci1ldmVudHM6IG5vbmU7CiAgdHJhbnNpdGlvbjogb3BhY2l0eSAxODBtcyBlYXNlOwp9CgoubGF5b3V0LXNjcm9sbC1hcmVhOmhvdmVyIC5sYXlvdXQtc2Nyb2xsLWFyZWFfX3JhaWwsCi5sYXlvdXQtc2Nyb2xsLWFyZWE6Zm9jdXMtd2l0aGluIC5sYXlvdXQtc2Nyb2xsLWFyZWFfX3JhaWwsCi5sYXlvdXQtc2Nyb2xsLWFyZWFfX3JhaWwtLXZpc2libGUgewogIG9wYWNpdHk6IDE7CiAgcG9pbnRlci1ldmVudHM6IGF1dG87Cn0KCi5sYXlvdXQtc2Nyb2xsLWFyZWFfX3RodW1iIHsKICB3aWR0aDogNHB4OwogIG1hcmdpbi1sZWZ0OiBhdXRvOwogIGJvcmRlci1yYWRpdXM6IDk5OXB4OwogIGJhY2tncm91bmQ6IHJnYigwIDAgMCAvIDE2JSk7CiAgY3Vyc29yOiBncmFiOwogIHRvdWNoLWFjdGlvbjogbm9uZTsKICB0cmFuc2l0aW9uOgogICAgd2lkdGggMTYwbXMgZWFzZSwKICAgIGJhY2tncm91bmQtY29sb3IgMTYwbXMgZWFzZTsKfQoKLmxheW91dC1zY3JvbGwtYXJlYV9fdGh1bWI6aG92ZXIsCi5sYXlvdXQtc2Nyb2xsLWFyZWFfX3RodW1iOmFjdGl2ZSB7CiAgd2lkdGg6IDZweDsKICBiYWNrZ3JvdW5kOiByZ2IoMCAwIDAgLyAyNCUpOwp9CgoubGF5b3V0LXNjcm9sbC1hcmVhX190aHVtYjphY3RpdmUgewogIGN1cnNvcjogZ3JhYmJpbmc7Cn0KCkBtZWRpYSAocHJlZmVycy1yZWR1Y2VkLW1vdGlvbjogcmVkdWNlKSB7CiAgLmxheW91dC1zY3JvbGwtYXJlYV9fcmFpbCwKICAubGF5b3V0LXNjcm9sbC1hcmVhX190aHVtYiB7CiAgICB0cmFuc2l0aW9uOiBub25lOwogIH0KfQo8L3N0eWxlPgo=
+<template>
+  <nav class="layout-scroll-area">
+    <div
+      ref="viewport"
+      class="layout-scroll-area__viewport"
+      :class="[
+        contentClass,
+        {
+          'layout-scroll-area__viewport--rail-gutter': reserveRailGutter,
+        },
+      ]"
+      @scroll.passive="handleScroll"
+    >
+      <slot />
+    </div>
+    <div
+      v-if="isOverflowing"
+      class="layout-scroll-area__rail"
+      :class="{ 'layout-scroll-area__rail--visible': isTemporarilyVisible }"
+      aria-hidden="true"
+      @pointerdown="handleRailPointerDown"
+    >
+      <div
+        class="layout-scroll-area__thumb"
+        :style="thumbStyle"
+        @pointerdown.stop="handleThumbPointerDown"
+        @pointermove="handleThumbPointerMove"
+        @pointerup="finishThumbDrag"
+        @pointercancel="finishThumbDrag"
+      ></div>
+    </div>
+  </nav>
+</template>
+
+<script setup lang="ts">
+import {
+  computed,
+  nextTick,
+  onBeforeUnmount,
+  onMounted,
+  ref,
+  type CSSProperties,
+} from "vue";
+
+const props = withDefaults(
+  defineProps<{
+    contentClass?: string;
+    hintOnMount?: boolean;
+    reserveRailGutter?: boolean;
+  }>(),
+  {
+    contentClass: "",
+    hintOnMount: false,
+    reserveRailGutter: false,
+  },
+);
+
+const viewport = ref<HTMLElement>();
+const isOverflowing = ref(false);
+const isHinting = ref(false);
+const isScrolling = ref(false);
+const isDragging = ref(false);
+const thumbHeight = ref(28);
+const thumbOffset = ref(0);
+let hasHinted = false;
+let hintTimer: number | undefined;
+let scrollTimer: number | undefined;
+let resizeObserver: ResizeObserver | undefined;
+let mutationObserver: MutationObserver | undefined;
+let dragStartY = 0;
+let dragStartScrollTop = 0;
+
+const isTemporarilyVisible = computed(
+  () => isHinting.value || isScrolling.value || isDragging.value,
+);
+const thumbStyle = computed<CSSProperties>(() => ({
+  height: `${thumbHeight.value}px`,
+  transform: `translate3d(0, ${thumbOffset.value}px, 0)`,
+}));
+
+const revealMountHint = () => {
+  if (!props.hintOnMount || hasHinted) return;
+  hasHinted = true;
+  isHinting.value = true;
+  hintTimer = window.setTimeout(() => {
+    isHinting.value = false;
+  }, 1600);
+};
+
+const syncThumb = () => {
+  const element = viewport.value;
+  if (!element) return;
+  const { clientHeight, scrollHeight, scrollTop } = element;
+  const nextOverflowing = scrollHeight > clientHeight + 1;
+  isOverflowing.value = nextOverflowing;
+  if (!nextOverflowing) return;
+
+  const railHeight = Math.max(0, clientHeight - 8);
+  const nextThumbHeight = Math.max(
+    28,
+    Math.round((clientHeight / scrollHeight) * railHeight),
+  );
+  const availableTravel = Math.max(0, railHeight - nextThumbHeight);
+  const maxScrollTop = scrollHeight - clientHeight;
+  thumbHeight.value = nextThumbHeight;
+  thumbOffset.value = Math.round((scrollTop / maxScrollTop) * availableTravel);
+  revealMountHint();
+};
+
+const handleScroll = () => {
+  syncThumb();
+  isScrolling.value = true;
+  window.clearTimeout(scrollTimer);
+  scrollTimer = window.setTimeout(() => {
+    isScrolling.value = false;
+  }, 700);
+};
+
+const handleRailPointerDown = (event: PointerEvent) => {
+  const element = viewport.value;
+  if (!element || event.target !== event.currentTarget) return;
+  const rail = event.currentTarget as HTMLElement;
+  const ratio = Math.min(
+    1,
+    Math.max(0, (event.clientY - rail.getBoundingClientRect().top) / rail.clientHeight),
+  );
+  element.scrollTo({
+    top: ratio * (element.scrollHeight - element.clientHeight),
+    behavior: "smooth",
+  });
+};
+
+const handleThumbPointerDown = (event: PointerEvent) => {
+  const element = viewport.value;
+  if (!element || (event.pointerType === "mouse" && event.button !== 0)) return;
+  isDragging.value = true;
+  dragStartY = event.clientY;
+  dragStartScrollTop = element.scrollTop;
+  (event.currentTarget as HTMLElement).setPointerCapture(event.pointerId);
+  event.preventDefault();
+};
+
+const handleThumbPointerMove = (event: PointerEvent) => {
+  const element = viewport.value;
+  if (!element || !isDragging.value) return;
+  const maxScrollTop = element.scrollHeight - element.clientHeight;
+  const availableTravel = element.clientHeight - 8 - thumbHeight.value;
+  if (availableTravel <= 0) return;
+  element.scrollTop =
+    dragStartScrollTop +
+    ((event.clientY - dragStartY) / availableTravel) * maxScrollTop;
+};
+
+const finishThumbDrag = (event: PointerEvent) => {
+  isDragging.value = false;
+  const thumb = event.currentTarget as HTMLElement;
+  if (thumb.hasPointerCapture(event.pointerId)) {
+    thumb.releasePointerCapture(event.pointerId);
+  }
+};
+
+onMounted(() => {
+  void nextTick(syncThumb);
+  window.addEventListener("resize", syncThumb);
+  if (typeof ResizeObserver !== "undefined" && viewport.value) {
+    resizeObserver = new ResizeObserver(syncThumb);
+    resizeObserver.observe(viewport.value);
+  }
+  if (typeof MutationObserver !== "undefined" && viewport.value) {
+    mutationObserver = new MutationObserver(syncThumb);
+    mutationObserver.observe(viewport.value, { childList: true, subtree: true });
+  }
+});
+
+onBeforeUnmount(() => {
+  window.clearTimeout(hintTimer);
+  window.clearTimeout(scrollTimer);
+  window.removeEventListener("resize", syncThumb);
+  resizeObserver?.disconnect();
+  mutationObserver?.disconnect();
+});
+</script>
+
+<style scoped>
+.layout-scroll-area {
+  position: relative;
+  min-height: 0;
+}
+
+.layout-scroll-area__viewport {
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.layout-scroll-area__viewport::-webkit-scrollbar {
+  display: none;
+}
+
+.layout-scroll-area__viewport--rail-gutter {
+  padding-inline-end: 12px;
+}
+
+.layout-scroll-area__rail {
+  position: absolute;
+  z-index: 10;
+  top: 4px;
+  right: 1px;
+  bottom: 4px;
+  width: 8px;
+  border-radius: 999px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease;
+}
+
+.layout-scroll-area:hover .layout-scroll-area__rail,
+.layout-scroll-area:focus-within .layout-scroll-area__rail,
+.layout-scroll-area__rail--visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.layout-scroll-area__thumb {
+  width: 4px;
+  margin-left: auto;
+  border-radius: 999px;
+  background: rgb(0 0 0 / 16%);
+  cursor: grab;
+  touch-action: none;
+  transition:
+    width 160ms ease,
+    background-color 160ms ease;
+}
+
+.layout-scroll-area__thumb:hover,
+.layout-scroll-area__thumb:active {
+  width: 6px;
+  background: rgb(0 0 0 / 24%);
+}
+
+.layout-scroll-area__thumb:active {
+  cursor: grabbing;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .layout-scroll-area__rail,
+  .layout-scroll-area__thumb {
+    transition: none;
+  }
+}
+</style>

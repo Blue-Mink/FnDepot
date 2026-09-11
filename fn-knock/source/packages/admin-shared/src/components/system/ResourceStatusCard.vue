@@ -1,1 +1,57 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZVNsb3RzIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsKICBDYXJkLAogIENhcmRDb250ZW50LAogIENhcmREZXNjcmlwdGlvbiwKICBDYXJkRm9vdGVyLAogIENhcmRIZWFkZXIsCiAgQ2FyZFRpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgU2tlbGV0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2tlbGV0b24iOwppbXBvcnQgeyB1c2VEZWxheWVkTG9hZGluZyB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlRGVsYXllZExvYWRpbmciOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgdGl0bGU6IHN0cmluZzsKICBkZXNjcmlwdGlvbjogc3RyaW5nOwogIGlzSW5pdGlhbGl6aW5nOiBib29sZWFuOwp9PigpOwoKY29uc3Qgc2xvdHMgPSB1c2VTbG90cygpOwpjb25zdCBzaG93SW5pdGlhbGl6aW5nU2tlbGV0b24gPSB1c2VEZWxheWVkTG9hZGluZygoKSA9PiBwcm9wcy5pc0luaXRpYWxpemluZyk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxDYXJkIGNsYXNzPSJ3LWZ1bGwiPgogICAgPENhcmRIZWFkZXI+CiAgICAgIDxDYXJkVGl0bGU+e3sgcHJvcHMudGl0bGUgfX08L0NhcmRUaXRsZT4KICAgICAgPENhcmREZXNjcmlwdGlvbj57eyBwcm9wcy5kZXNjcmlwdGlvbiB9fTwvQ2FyZERlc2NyaXB0aW9uPgogICAgPC9DYXJkSGVhZGVyPgoKICAgIDxDYXJkQ29udGVudAogICAgICB2LWlmPSJwcm9wcy5pc0luaXRpYWxpemluZyAmJiBzaG93SW5pdGlhbGl6aW5nU2tlbGV0b24iCiAgICAgIGNsYXNzPSJncmlkIGdhcC02IgogICAgPgogICAgICA8c2xvdCBuYW1lPSJpbml0aWFsIiAvPgogICAgPC9DYXJkQ29udGVudD4KICAgIDxDYXJkQ29udGVudCB2LWVsc2UtaWY9IiFwcm9wcy5pc0luaXRpYWxpemluZyIgY2xhc3M9ImdyaWQgZ2FwLTYiPgogICAgICA8c2xvdCAvPgogICAgPC9DYXJkQ29udGVudD4KICAgIDxDYXJkQ29udGVudCB2LWVsc2UgY2xhc3M9Im1pbi1oLVsxNjBweF0iIGFyaWEtaGlkZGVuPSJ0cnVlIj48L0NhcmRDb250ZW50PgoKICAgIDxDYXJkRm9vdGVyCiAgICAgIHYtaWY9InByb3BzLmlzSW5pdGlhbGl6aW5nICYmIHNsb3RzLmZvb3RlciAmJiBzaG93SW5pdGlhbGl6aW5nU2tlbGV0b24iCiAgICAgIGNsYXNzPSJmbGV4IGp1c3RpZnktZW5kIGdhcC0zIGJvcmRlci10IHB0LTYiCiAgICA+CiAgICAgIDxzbG90IG5hbWU9ImluaXRpYWwtZm9vdGVyIj4KICAgICAgICA8U2tlbGV0b24gY2xhc3M9ImgtMTAgdy0yOCIgLz4KICAgICAgPC9zbG90PgogICAgPC9DYXJkRm9vdGVyPgogICAgPENhcmRGb290ZXIKICAgICAgdi1lbHNlLWlmPSIhcHJvcHMuaXNJbml0aWFsaXppbmcgJiYgc2xvdHMuZm9vdGVyIgogICAgICBjbGFzcz0iZmxleCBqdXN0aWZ5LWVuZCBnYXAtMyBib3JkZXItdCBwdC02IgogICAgPgogICAgICA8c2xvdCBuYW1lPSJmb290ZXIiIC8+CiAgICA8L0NhcmRGb290ZXI+CiAgPC9DYXJkPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useSlots } from "vue";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+
+const props = defineProps<{
+  title: string;
+  description: string;
+  isInitializing: boolean;
+}>();
+
+const slots = useSlots();
+const showInitializingSkeleton = useDelayedLoading(() => props.isInitializing);
+</script>
+
+<template>
+  <Card class="w-full">
+    <CardHeader>
+      <CardTitle>{{ props.title }}</CardTitle>
+      <CardDescription>{{ props.description }}</CardDescription>
+    </CardHeader>
+
+    <CardContent
+      v-if="props.isInitializing && showInitializingSkeleton"
+      class="grid gap-6"
+    >
+      <slot name="initial" />
+    </CardContent>
+    <CardContent v-else-if="!props.isInitializing" class="grid gap-6">
+      <slot />
+    </CardContent>
+    <CardContent v-else class="min-h-[160px]" aria-hidden="true"></CardContent>
+
+    <CardFooter
+      v-if="props.isInitializing && slots.footer && showInitializingSkeleton"
+      class="flex justify-end gap-3 border-t pt-6"
+    >
+      <slot name="initial-footer">
+        <Skeleton class="h-10 w-28" />
+      </slot>
+    </CardFooter>
+    <CardFooter
+      v-else-if="!props.isInitializing && slots.footer"
+      class="flex justify-end gap-3 border-t pt-6"
+    >
+      <slot name="footer" />
+    </CardFooter>
+  </Card>
+</template>

@@ -1,1 +1,334 @@
-dXNlIHN0ZDo6Y29sbGVjdGlvbnM6OntCVHJlZU1hcCwgQlRyZWVTZXR9OwoKdXNlIHRva2lvX3J1c3FsaXRlOjpydXNxbGl0ZTo6e09wdGlvbmFsRXh0ZW5zaW9uLCBUcmFuc2FjdGlvbiwgVHJhbnNhY3Rpb25CZWhhdmlvciwgcGFyYW1zfTsKCnVzZSBzdXBlcjo6e1N0b3JhZ2VSZXN1bHQsIHJlZGlzX2NvbXBhdDo6Q29ubmVjdGlvbk1hbmFnZXIsIHN0b3JhZ2VfZXJyb3J9OwoKcHViKGNyYXRlKSBjb25zdCBERURVUEVfUFJFRklYOiAmc3RyID0gImZuX2tub2NrOmV2ZW50czpkZWR1cGU6IjsKCmNvbnN0IFNDSEVNQV9WRVJTSU9OOiBpNjQgPSAxOwpjb25zdCBTQ0hFTUFfTkFNRTogJnN0ciA9ICJ0eXBlZF9zeXN0ZW1fZXZlbnRfZGVkdXBlX2xlYXNlcyI7CmNvbnN0IFNDSEVNQV9TUUw6ICZzdHIgPSByIyIKQ1JFQVRFIFRBQkxFIHN5c3RlbV9ldmVudF9kZWR1cGVfbGVhc2VzICgKICBkZWR1cGVfa2V5IFRFWFQgUFJJTUFSWSBLRVkgQ0hFQ0sgKGRlZHVwZV9rZXkgPD4gJycpLAogIGxlYXNlX3ZhbHVlIFRFWFQgTk9UIE5VTEwgQ0hFQ0sgKGxlYXNlX3ZhbHVlID0gJzEnKSwKICBleHBpcmVzX2F0X21zIElOVEVHRVIgTk9UIE5VTEwgQ0hFQ0sgKGV4cGlyZXNfYXRfbXMgPj0gMCksCiAgdXBkYXRlZF9hdF9tcyBJTlRFR0VSIE5PVCBOVUxMCik7CkNSRUFURSBJTkRFWCBpZHhfc3lzdGVtX2V2ZW50X2RlZHVwZV9sZWFzZXNfZXhwaXJ5CiAgT04gc3lzdGVtX2V2ZW50X2RlZHVwZV9sZWFzZXMoZXhwaXJlc19hdF9tcyk7CiIjOwpjb25zdCBNSUdSQVRJT05TX1NRTDogJnN0ciA9IHIjIgpDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyB0eXBlZF9zeXN0ZW1fZXZlbnRfZGVkdXBlX3NjaGVtYV9taWdyYXRpb25zICgKICB2ZXJzaW9uIElOVEVHRVIgUFJJTUFSWSBLRVksCiAgbmFtZSBURVhUIE5PVCBOVUxMLAogIGNoZWNrc3VtIFRFWFQgTk9UIE5VTEwsCiAgYXBwbGllZF9hdF9tcyBJTlRFR0VSIE5PVCBOVUxMCik7CiIjOwoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBQYXJ0aWFsRXEsIEVxKV0KcHViKGNyYXRlKSBzdHJ1Y3QgVHlwZWRFdmVudERlZHVwZUxlYXNlIHsKICAgIHB1YihjcmF0ZSkgZGVkdXBlX2tleTogU3RyaW5nLAogICAgcHViKGNyYXRlKSBleHBpcmVzX2F0X21zOiBpNjQsCn0KCiNbZGVyaXZlKENsb25lKV0KcHViKGNyYXRlKSBzdHJ1Y3QgVHlwZWRFdmVudERlZHVwZVJlcG9zaXRvcnkgewogICAgbWFuYWdlcjogQ29ubmVjdGlvbk1hbmFnZXIsCn0KCmltcGwgVHlwZWRFdmVudERlZHVwZVJlcG9zaXRvcnkgewogICAgcHViKGNyYXRlKSBmbiBuZXcobWFuYWdlcjogQ29ubmVjdGlvbk1hbmFnZXIpIC0+IFNlbGYgewogICAgICAgIFNlbGYgeyBtYW5hZ2VyIH0KICAgIH0KCiAgICBwdWIoY3JhdGUpIGFzeW5jIGZuIGluaXRpYWxpemUoJnNlbGYpIC0+IFN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBzZWxmLm1hbmFnZXIKICAgICAgICAgICAgLmNhbGwofGNvbm58IHsKICAgICAgICAgICAgICAgIGxldCB0eCA9IGNvbm4udHJhbnNhY3Rpb25fd2l0aF9iZWhhdmlvcihUcmFuc2FjdGlvbkJlaGF2aW9yOjpJbW1lZGlhdGUpPzsKICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGVfYmF0Y2goTUlHUkFUSU9OU19TUUwpPzsKICAgICAgICAgICAgICAgIGxldCBjaGVja3N1bSA9IGNyYXRlOjpjcnlwdG9fdXRpbHM6OnNoYTI1Nl9oZXhfYnl0ZXMoU0NIRU1BX1NRTCk7CiAgICAgICAgICAgICAgICBsZXQgYXBwbGllZCA9IHR4CiAgICAgICAgICAgICAgICAgICAgLnF1ZXJ5X3JvdygKICAgICAgICAgICAgICAgICAgICAgICAgIlNFTEVDVCBuYW1lLCBjaGVja3N1bSBGUk9NIHR5cGVkX3N5c3RlbV9ldmVudF9kZWR1cGVfc2NoZW1hX21pZ3JhdGlvbnMgV0hFUkUgdmVyc2lvbiA9ID8xIiwKICAgICAgICAgICAgICAgICAgICAgICAgW1NDSEVNQV9WRVJTSU9OXSwKICAgICAgICAgICAgICAgICAgICAgICAgfHJvd3wgT2soKHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDApPywgcm93LmdldDo6PF8sIFN0cmluZz4oMSk/KSksCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIC5vcHRpb25hbCgpPzsKICAgICAgICAgICAgICAgIG1hdGNoIGFwcGxpZWQgewogICAgICAgICAgICAgICAgICAgIFNvbWUoKG5hbWUsIHN0b3JlZCkpIGlmIG5hbWUgPT0gU0NIRU1BX05BTUUgJiYgc3RvcmVkID09IGNoZWNrc3VtID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGV4aXN0cyA9IHR4LnF1ZXJ5X3JvdygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgRVhJU1RTKFNFTEVDVCAxIEZST00gc3FsaXRlX21hc3RlciBXSEVSRSB0eXBlID0gJ3RhYmxlJyBBTkQgbmFtZSA9ICdzeXN0ZW1fZXZlbnRfZGVkdXBlX2xlYXNlcycpIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgfHJvd3wgcm93LmdldDo6PF8sIGJvb2w+KDApLAogICAgICAgICAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgIWV4aXN0cyB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gRXJyKHN0b3JhZ2VfZXJyb3IoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInR5cGVkIGV2ZW50LWRlZHVwZSBtaWdyYXRpb24gaXMgcmVjb3JkZWQgYnV0IGl0cyB0YWJsZSBpcyBtaXNzaW5nIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIFNvbWUoKG5hbWUsIF8pKSBpZiBuYW1lICE9IFNDSEVNQV9OQU1FID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihzdG9yYWdlX2Vycm9yKCJ0eXBlZCBldmVudC1kZWR1cGUgbWlncmF0aW9uIG5hbWUgbWlzbWF0Y2giKSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIFNvbWUoXykgPT4gewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gRXJyKHN0b3JhZ2VfZXJyb3IoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAidHlwZWQgZXZlbnQtZGVkdXBlIG1pZ3JhdGlvbiBjaGVja3N1bSBtaXNtYXRjaCIsCiAgICAgICAgICAgICAgICAgICAgICAgICkpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBOb25lID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgdHguZXhlY3V0ZV9iYXRjaChTQ0hFTUFfU1FMKT87CiAgICAgICAgICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiSU5TRVJUIElOVE8gdHlwZWRfc3lzdGVtX2V2ZW50X2RlZHVwZV9zY2hlbWFfbWlncmF0aW9ucyh2ZXJzaW9uLCBuYW1lLCBjaGVja3N1bSwgYXBwbGllZF9hdF9tcykgVkFMVUVTICg/MSwgPzIsID8zLCA/NCkiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1zIVsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTQ0hFTUFfVkVSU0lPTiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTQ0hFTUFfTkFNRSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGVja3N1bSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB0eC5jb21taXQoKT87CiAgICAgICAgICAgICAgICBPaygoKSkKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmF3YWl0CiAgICB9CgogICAgcHViKGNyYXRlKSBhc3luYyBmbiByZWJ1aWxkX2Zyb21fbGVnYWN5KCZzZWxmKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5jYWxsKHxjb25ufCB7CiAgICAgICAgICAgICAgICBsZXQgdHggPSBjb25uLnRyYW5zYWN0aW9uX3dpdGhfYmVoYXZpb3IoVHJhbnNhY3Rpb25CZWhhdmlvcjo6SW1tZWRpYXRlKT87CiAgICAgICAgICAgICAgICBTZWxmOjpyZWJ1aWxkX2Zyb21fbGVnYWN5X3R4KCZ0eCk/OwogICAgICAgICAgICAgICAgdHguY29tbWl0KCk/OwogICAgICAgICAgICAgICAgT2soKCkpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gcmVidWlsZF9mcm9tX2xlZ2FjeV90eCh0eDogJlRyYW5zYWN0aW9uPCdfPikgLT4gU3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGxldCBsZWdhY3kgPSBsZWdhY3lfbGVhc2VzX3R4KHR4KT87CiAgICAgICAgbGV0IG11dCBzdGFsZSA9IHR5cGVkX2lkc190eCh0eCk/OwogICAgICAgIGZvciBsZWFzZSBpbiBsZWdhY3kudmFsdWVzKCkgewogICAgICAgICAgICBzdGFsZS5yZW1vdmUoJmxlYXNlLmRlZHVwZV9rZXkpOwogICAgICAgICAgICB1cHNlcnRfdHgodHgsIGxlYXNlKT87CiAgICAgICAgfQogICAgICAgIGZvciBkZWR1cGVfa2V5IGluIHN0YWxlIHsKICAgICAgICAgICAgZGVsZXRlX3R4KHR4LCAmZGVkdXBlX2tleSk/OwogICAgICAgIH0KICAgICAgICBPaygoKSkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIHJlY29uY2lsZV9sZWdhY3lfa2V5c190eCgKICAgICAgICB0eDogJlRyYW5zYWN0aW9uPCdfPiwKICAgICAgICBrZXlzOiAmW1N0cmluZ10sCiAgICApIC0+IFN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBmb3Iga2V5IGluIGtleXMgewogICAgICAgICAgICBsZXQgU29tZShkZWR1cGVfa2V5KSA9IGtleS5zdHJpcF9wcmVmaXgoREVEVVBFX1BSRUZJWCkgZWxzZSB7CiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgfTsKICAgICAgICAgICAgaWYgZGVkdXBlX2tleS5pc19lbXB0eSgpIHsKICAgICAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigiZW1wdHkgc3lzdGVtLWV2ZW50IGRlZHVwZSBrZXkiKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgbWF0Y2ggbGl2ZV9sZWdhY3lfbGVhc2VfdHgodHgsIGtleSk/IHsKICAgICAgICAgICAgICAgIFNvbWUobGVhc2UpID0+IHVwc2VydF90eCh0eCwgJmxlYXNlKT8sCiAgICAgICAgICAgICAgICBOb25lID0+IGRlbGV0ZV90eCh0eCwgZGVkdXBlX2tleSk/LAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIE9rKCgpKQogICAgfQoKICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gdmVyaWZ5X2FuZF9yZXBhaXIoJnNlbGYsIGRlZHVwZV9rZXk6ICZzdHIpIC0+IFN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgICAgIGxldCBkZWR1cGVfa2V5ID0gZGVkdXBlX2tleS50b19zdHJpbmcoKTsKICAgICAgICBzZWxmLm1hbmFnZXIKICAgICAgICAgICAgLmNhbGwobW92ZSB8Y29ubnwgewogICAgICAgICAgICAgICAgbGV0IHR4ID0gY29ubi50cmFuc2FjdGlvbl93aXRoX2JlaGF2aW9yKFRyYW5zYWN0aW9uQmVoYXZpb3I6OkltbWVkaWF0ZSk/OwogICAgICAgICAgICAgICAgbGV0IGtleSA9IGZvcm1hdCEoIntERURVUEVfUFJFRklYfXtkZWR1cGVfa2V5fSIpOwogICAgICAgICAgICAgICAgbGV0IHJhdyA9IGxpdmVfbGVnYWN5X3Jhd190eCgmdHgsICZrZXkpPzsKICAgICAgICAgICAgICAgIGxldCBsZWdhY3kgPSBsaXZlX2xlZ2FjeV9sZWFzZV90eCgmdHgsICZrZXkpPzsKICAgICAgICAgICAgICAgIGxldCBpbnZhbGlkID0gcmF3LmlzX3NvbWUoKSAmJiBsZWdhY3kuaXNfbm9uZSgpOwogICAgICAgICAgICAgICAgbGV0IHR5cGVkID0gdHlwZWRfbGVhc2VfdHgoJnR4LCAmZGVkdXBlX2tleSk/OwogICAgICAgICAgICAgICAgbGV0IG1hdGNoZWQgPSAhaW52YWxpZCAmJiB0eXBlZCA9PSBsZWdhY3k7CiAgICAgICAgICAgICAgICBpZiAhbWF0Y2hlZCB7CiAgICAgICAgICAgICAgICAgICAgbWF0Y2ggbGVnYWN5IHsKICAgICAgICAgICAgICAgICAgICAgICAgU29tZShsZWFzZSkgPT4gdXBzZXJ0X3R4KCZ0eCwgJmxlYXNlKT8sCiAgICAgICAgICAgICAgICAgICAgICAgIE5vbmUgPT4gZGVsZXRlX3R4KCZ0eCwgJmRlZHVwZV9rZXkpPywKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB0eC5jb21taXQoKT87CiAgICAgICAgICAgICAgICBPayhtYXRjaGVkKQogICAgICAgICAgICB9KQogICAgICAgICAgICAuYXdhaXQKICAgIH0KCiAgICAjW2NmZyh0ZXN0KV0KICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gbG9hZCgKICAgICAgICAmc2VsZiwKICAgICAgICBkZWR1cGVfa2V5OiAmc3RyLAogICAgKSAtPiBTdG9yYWdlUmVzdWx0PE9wdGlvbjxUeXBlZEV2ZW50RGVkdXBlTGVhc2U+PiB7CiAgICAgICAgbGV0IGRlZHVwZV9rZXkgPSBkZWR1cGVfa2V5LnRvX3N0cmluZygpOwogICAgICAgIHNlbGYubWFuYWdlcgogICAgICAgICAgICAuY2FsbChtb3ZlIHxjb25ufCB0eXBlZF9sZWFzZV9jb25uKGNvbm4sICZkZWR1cGVfa2V5KSkKICAgICAgICAgICAgLmF3YWl0CiAgICB9CgogICAgI1tjZmcodGVzdCldCiAgICBwdWIoY3JhdGUpIGFzeW5jIGZuIGNvdW50KCZzZWxmKSAtPiBTdG9yYWdlUmVzdWx0PGk2ND4gewogICAgICAgIHNlbGYubWFuYWdlcgogICAgICAgICAgICAuY2FsbCh8Y29ubnwgewogICAgICAgICAgICAgICAgY29ubi5xdWVyeV9yb3coCiAgICAgICAgICAgICAgICAgICAgIlNFTEVDVCBDT1VOVCgqKSBGUk9NIHN5c3RlbV9ldmVudF9kZWR1cGVfbGVhc2VzIiwKICAgICAgICAgICAgICAgICAgICBbXSwKICAgICAgICAgICAgICAgICAgICB8cm93fCByb3cuZ2V0Ojo8XywgaTY0PigwKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIC5tYXBfZXJyKEludG86OmludG8pCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQp9CgpmbiBsaXZlX2xlZ2FjeV9yYXdfdHgodHg6ICZUcmFuc2FjdGlvbjwnXz4sIGtleTogJnN0cikgLT4gU3RvcmFnZVJlc3VsdDxPcHRpb248KFN0cmluZywgaTY0KT4+IHsKICAgIHR4LnF1ZXJ5X3JvdygKICAgICAgICAiU0VMRUNUIHN0cmluZ3MudmFsdWUsIGtleXMuZXhwaXJlc19hdF9tcwogICAgICAgICBGUk9NIGt2X2tleXMgQVMga2V5cwogICAgICAgICBKT0lOIGt2X3N0cmluZ3MgQVMgc3RyaW5ncyBPTiBzdHJpbmdzLmtleSA9IGtleXMua2V5CiAgICAgICAgIFdIRVJFIGtleXMua2V5ID0gPzEKICAgICAgICAgICBBTkQga2V5cy5raW5kID0gJ3N0cmluZycKICAgICAgICAgICBBTkQga2V5cy5leHBpcmVzX2F0X21zIElTIE5PVCBOVUxMCiAgICAgICAgICAgQU5EIGtleXMuZXhwaXJlc19hdF9tcyA+ID8yIiwKICAgICAgICBwYXJhbXMhW2tleSwgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpXSwKICAgICAgICB8cm93fCBPaygocm93LmdldDo6PF8sIFN0cmluZz4oMCk/LCByb3cuZ2V0Ojo8XywgaTY0PigxKT8pKSwKICAgICkKICAgIC5vcHRpb25hbCgpCiAgICAubWFwX2VycihJbnRvOjppbnRvKQp9CgpmbiBsaXZlX2xlZ2FjeV9sZWFzZV90eCgKICAgIHR4OiAmVHJhbnNhY3Rpb248J18+LAogICAga2V5OiAmc3RyLAopIC0+IFN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFR5cGVkRXZlbnREZWR1cGVMZWFzZT4+IHsKICAgIGxldCBTb21lKGRlZHVwZV9rZXkpID0ga2V5CiAgICAgICAgLnN0cmlwX3ByZWZpeChERURVUEVfUFJFRklYKQogICAgICAgIC5maWx0ZXIofGtleXwgIWtleS5pc19lbXB0eSgpKQogICAgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfTsKICAgIGxldCBTb21lKCh2YWx1ZSwgZXhwaXJlc19hdF9tcykpID0gbGl2ZV9sZWdhY3lfcmF3X3R4KHR4LCBrZXkpPyBlbHNlIHsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9OwogICAgaWYgdmFsdWUgIT0gIjEiIHsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9CiAgICBPayhTb21lKFR5cGVkRXZlbnREZWR1cGVMZWFzZSB7CiAgICAgICAgZGVkdXBlX2tleTogZGVkdXBlX2tleS50b19zdHJpbmcoKSwKICAgICAgICBleHBpcmVzX2F0X21zLAogICAgfSkpCn0KCmZuIGxlZ2FjeV9sZWFzZXNfdHgoCiAgICB0eDogJlRyYW5zYWN0aW9uPCdfPiwKKSAtPiBTdG9yYWdlUmVzdWx0PEJUcmVlTWFwPFN0cmluZywgVHlwZWRFdmVudERlZHVwZUxlYXNlPj4gewogICAgbGV0IG11dCBzdGF0ZW1lbnQgPSB0eC5wcmVwYXJlKAogICAgICAgICJTRUxFQ1Qga2V5cy5rZXkKICAgICAgICAgRlJPTSBrdl9rZXlzIEFTIGtleXMKICAgICAgICAgSk9JTiBrdl9zdHJpbmdzIEFTIHN0cmluZ3MgT04gc3RyaW5ncy5rZXkgPSBrZXlzLmtleQogICAgICAgICBXSEVSRSBzdWJzdHIoa2V5cy5rZXksIDEsID8xKSA9ID8yCiAgICAgICAgICAgQU5EIGtleXMua2luZCA9ICdzdHJpbmcnCiAgICAgICAgICAgQU5EIGtleXMuZXhwaXJlc19hdF9tcyBJUyBOT1QgTlVMTAogICAgICAgICAgIEFORCBrZXlzLmV4cGlyZXNfYXRfbXMgPiA/MwogICAgICAgICBPUkRFUiBCWSBrZXlzLmtleSIsCiAgICApPzsKICAgIGxldCByb3dzID0gc3RhdGVtZW50LnF1ZXJ5X21hcCgKICAgICAgICBwYXJhbXMhWwogICAgICAgICAgICBERURVUEVfUFJFRklYLmxlbigpIGFzIGk2NCwKICAgICAgICAgICAgREVEVVBFX1BSRUZJWCwKICAgICAgICAgICAgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpCiAgICAgICAgXSwKICAgICAgICB8cm93fCByb3cuZ2V0Ojo8XywgU3RyaW5nPigwKSwKICAgICk/OwogICAgbGV0IG11dCBsZWFzZXMgPSBCVHJlZU1hcDo6bmV3KCk7CiAgICBmb3Iga2V5IGluIHJvd3MgewogICAgICAgIGlmIGxldCBTb21lKGxlYXNlKSA9IGxpdmVfbGVnYWN5X2xlYXNlX3R4KHR4LCAma2V5Pyk/IHsKICAgICAgICAgICAgbGVhc2VzLmluc2VydChsZWFzZS5kZWR1cGVfa2V5LmNsb25lKCksIGxlYXNlKTsKICAgICAgICB9CiAgICB9CiAgICBPayhsZWFzZXMpCn0KCmZuIHR5cGVkX2xlYXNlX3R4KAogICAgdHg6ICZUcmFuc2FjdGlvbjwnXz4sCiAgICBkZWR1cGVfa2V5OiAmc3RyLAopIC0+IFN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFR5cGVkRXZlbnREZWR1cGVMZWFzZT4+IHsKICAgIHR4LnF1ZXJ5X3JvdygKICAgICAgICAiU0VMRUNUIGV4cGlyZXNfYXRfbXMgRlJPTSBzeXN0ZW1fZXZlbnRfZGVkdXBlX2xlYXNlcyBXSEVSRSBkZWR1cGVfa2V5ID0gPzEiLAogICAgICAgIFtkZWR1cGVfa2V5XSwKICAgICAgICB8cm93fCB7CiAgICAgICAgICAgIE9rKFR5cGVkRXZlbnREZWR1cGVMZWFzZSB7CiAgICAgICAgICAgICAgICBkZWR1cGVfa2V5OiBkZWR1cGVfa2V5LnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgZXhwaXJlc19hdF9tczogcm93LmdldCgwKT8sCiAgICAgICAgICAgIH0pCiAgICAgICAgfSwKICAgICkKICAgIC5vcHRpb25hbCgpCiAgICAubWFwX2VycihJbnRvOjppbnRvKQp9CgojW2NmZyh0ZXN0KV0KZm4gdHlwZWRfbGVhc2VfY29ubigKICAgIGNvbm46ICZ0b2tpb19ydXNxbGl0ZTo6cnVzcWxpdGU6OkNvbm5lY3Rpb24sCiAgICBkZWR1cGVfa2V5OiAmc3RyLAopIC0+IFN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFR5cGVkRXZlbnREZWR1cGVMZWFzZT4+IHsKICAgIGNvbm4ucXVlcnlfcm93KAogICAgICAgICJTRUxFQ1QgZXhwaXJlc19hdF9tcyBGUk9NIHN5c3RlbV9ldmVudF9kZWR1cGVfbGVhc2VzIFdIRVJFIGRlZHVwZV9rZXkgPSA/MSIsCiAgICAgICAgW2RlZHVwZV9rZXldLAogICAgICAgIHxyb3d8IHsKICAgICAgICAgICAgT2soVHlwZWRFdmVudERlZHVwZUxlYXNlIHsKICAgICAgICAgICAgICAgIGRlZHVwZV9rZXk6IGRlZHVwZV9rZXkudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICBleHBpcmVzX2F0X21zOiByb3cuZ2V0KDApPywKICAgICAgICAgICAgfSkKICAgICAgICB9LAogICAgKQogICAgLm9wdGlvbmFsKCkKICAgIC5tYXBfZXJyKEludG86OmludG8pCn0KCmZuIHR5cGVkX2lkc190eCh0eDogJlRyYW5zYWN0aW9uPCdfPikgLT4gU3RvcmFnZVJlc3VsdDxCVHJlZVNldDxTdHJpbmc+PiB7CiAgICBsZXQgbXV0IHN0YXRlbWVudCA9CiAgICAgICAgdHgucHJlcGFyZSgiU0VMRUNUIGRlZHVwZV9rZXkgRlJPTSBzeXN0ZW1fZXZlbnRfZGVkdXBlX2xlYXNlcyBPUkRFUiBCWSBkZWR1cGVfa2V5Iik/OwogICAgc3RhdGVtZW50CiAgICAgICAgLnF1ZXJ5X21hcChbXSwgfHJvd3wgcm93LmdldDo6PF8sIFN0cmluZz4oMCkpPwogICAgICAgIC5jb2xsZWN0Ojo8UmVzdWx0PEJUcmVlU2V0PF8+LCBfPj4oKQogICAgICAgIC5tYXBfZXJyKEludG86OmludG8pCn0KCmZuIHVwc2VydF90eCh0eDogJlRyYW5zYWN0aW9uPCdfPiwgbGVhc2U6ICZUeXBlZEV2ZW50RGVkdXBlTGVhc2UpIC0+IFN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgIGlmIGxlYXNlLmRlZHVwZV9rZXkuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIEVycihzdG9yYWdlX2Vycm9yKCJlbXB0eSB0eXBlZCBzeXN0ZW0tZXZlbnQgZGVkdXBlIGtleSIpKTsKICAgIH0KICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgIklOU0VSVCBJTlRPIHN5c3RlbV9ldmVudF9kZWR1cGVfbGVhc2VzKAogICAgICAgICAgIGRlZHVwZV9rZXksIGxlYXNlX3ZhbHVlLCBleHBpcmVzX2F0X21zLCB1cGRhdGVkX2F0X21zCiAgICAgICAgICkgVkFMVUVTICg/MSwgJzEnLCA/MiwgPzMpCiAgICAgICAgIE9OIENPTkZMSUNUKGRlZHVwZV9rZXkpIERPIFVQREFURSBTRVQKICAgICAgICAgICBsZWFzZV92YWx1ZSA9IGV4Y2x1ZGVkLmxlYXNlX3ZhbHVlLAogICAgICAgICAgIGV4cGlyZXNfYXRfbXMgPSBleGNsdWRlZC5leHBpcmVzX2F0X21zLAogICAgICAgICAgIHVwZGF0ZWRfYXRfbXMgPSBleGNsdWRlZC51cGRhdGVkX2F0X21zCiAgICAgICAgIFdIRVJFIHN5c3RlbV9ldmVudF9kZWR1cGVfbGVhc2VzLmxlYXNlX3ZhbHVlIDw+IGV4Y2x1ZGVkLmxlYXNlX3ZhbHVlCiAgICAgICAgICAgIE9SIHN5c3RlbV9ldmVudF9kZWR1cGVfbGVhc2VzLmV4cGlyZXNfYXRfbXMgPD4gZXhjbHVkZWQuZXhwaXJlc19hdF9tcyIsCiAgICAgICAgcGFyYW1zIVsKICAgICAgICAgICAgbGVhc2UuZGVkdXBlX2tleSwKICAgICAgICAgICAgbGVhc2UuZXhwaXJlc19hdF9tcywKICAgICAgICAgICAgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpLAogICAgICAgIF0sCiAgICApPzsKICAgIE9rKCgpKQp9CgpmbiBkZWxldGVfdHgodHg6ICZUcmFuc2FjdGlvbjwnXz4sIGRlZHVwZV9rZXk6ICZzdHIpIC0+IFN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgIkRFTEVURSBGUk9NIHN5c3RlbV9ldmVudF9kZWR1cGVfbGVhc2VzIFdIRVJFIGRlZHVwZV9rZXkgPSA/MSIsCiAgICAgICAgW2RlZHVwZV9rZXldLAogICAgKT87CiAgICBPaygoKSkKfQo=
+use std::collections::{BTreeMap, BTreeSet};
+
+use tokio_rusqlite::rusqlite::{OptionalExtension, Transaction, TransactionBehavior, params};
+
+use super::{StorageResult, redis_compat::ConnectionManager, storage_error};
+
+pub(crate) const DEDUPE_PREFIX: &str = "fn_knock:events:dedupe:";
+
+const SCHEMA_VERSION: i64 = 1;
+const SCHEMA_NAME: &str = "typed_system_event_dedupe_leases";
+const SCHEMA_SQL: &str = r#"
+CREATE TABLE system_event_dedupe_leases (
+  dedupe_key TEXT PRIMARY KEY CHECK (dedupe_key <> ''),
+  lease_value TEXT NOT NULL CHECK (lease_value = '1'),
+  expires_at_ms INTEGER NOT NULL CHECK (expires_at_ms >= 0),
+  updated_at_ms INTEGER NOT NULL
+);
+CREATE INDEX idx_system_event_dedupe_leases_expiry
+  ON system_event_dedupe_leases(expires_at_ms);
+"#;
+const MIGRATIONS_SQL: &str = r#"
+CREATE TABLE IF NOT EXISTS typed_system_event_dedupe_schema_migrations (
+  version INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  checksum TEXT NOT NULL,
+  applied_at_ms INTEGER NOT NULL
+);
+"#;
+
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub(crate) struct TypedEventDedupeLease {
+    pub(crate) dedupe_key: String,
+    pub(crate) expires_at_ms: i64,
+}
+
+#[derive(Clone)]
+pub(crate) struct TypedEventDedupeRepository {
+    manager: ConnectionManager,
+}
+
+impl TypedEventDedupeRepository {
+    pub(crate) fn new(manager: ConnectionManager) -> Self {
+        Self { manager }
+    }
+
+    pub(crate) async fn initialize(&self) -> StorageResult<()> {
+        self.manager
+            .call(|conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                tx.execute_batch(MIGRATIONS_SQL)?;
+                let checksum = crate::crypto_utils::sha256_hex_bytes(SCHEMA_SQL);
+                let applied = tx
+                    .query_row(
+                        "SELECT name, checksum FROM typed_system_event_dedupe_schema_migrations WHERE version = ?1",
+                        [SCHEMA_VERSION],
+                        |row| Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?)),
+                    )
+                    .optional()?;
+                match applied {
+                    Some((name, stored)) if name == SCHEMA_NAME && stored == checksum => {
+                        let exists = tx.query_row(
+                            "SELECT EXISTS(SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'system_event_dedupe_leases')",
+                            [],
+                            |row| row.get::<_, bool>(0),
+                        )?;
+                        if !exists {
+                            return Err(storage_error(
+                                "typed event-dedupe migration is recorded but its table is missing",
+                            ));
+                        }
+                    }
+                    Some((name, _)) if name != SCHEMA_NAME => {
+                        return Err(storage_error("typed event-dedupe migration name mismatch"));
+                    }
+                    Some(_) => {
+                        return Err(storage_error(
+                            "typed event-dedupe migration checksum mismatch",
+                        ));
+                    }
+                    None => {
+                        tx.execute_batch(SCHEMA_SQL)?;
+                        tx.execute(
+                            "INSERT INTO typed_system_event_dedupe_schema_migrations(version, name, checksum, applied_at_ms) VALUES (?1, ?2, ?3, ?4)",
+                            params![
+                                SCHEMA_VERSION,
+                                SCHEMA_NAME,
+                                checksum,
+                                crate::time_utils::now_ms(),
+                            ],
+                        )?;
+                    }
+                }
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub(crate) async fn rebuild_from_legacy(&self) -> StorageResult<()> {
+        self.manager
+            .call(|conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                Self::rebuild_from_legacy_tx(&tx)?;
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub(crate) fn rebuild_from_legacy_tx(tx: &Transaction<'_>) -> StorageResult<()> {
+        let legacy = legacy_leases_tx(tx)?;
+        let mut stale = typed_ids_tx(tx)?;
+        for lease in legacy.values() {
+            stale.remove(&lease.dedupe_key);
+            upsert_tx(tx, lease)?;
+        }
+        for dedupe_key in stale {
+            delete_tx(tx, &dedupe_key)?;
+        }
+        Ok(())
+    }
+
+    pub(crate) fn reconcile_legacy_keys_tx(
+        tx: &Transaction<'_>,
+        keys: &[String],
+    ) -> StorageResult<()> {
+        for key in keys {
+            let Some(dedupe_key) = key.strip_prefix(DEDUPE_PREFIX) else {
+                continue;
+            };
+            if dedupe_key.is_empty() {
+                return Err(storage_error("empty system-event dedupe key"));
+            }
+            match live_legacy_lease_tx(tx, key)? {
+                Some(lease) => upsert_tx(tx, &lease)?,
+                None => delete_tx(tx, dedupe_key)?,
+            }
+        }
+        Ok(())
+    }
+
+    pub(crate) async fn verify_and_repair(&self, dedupe_key: &str) -> StorageResult<bool> {
+        let dedupe_key = dedupe_key.to_string();
+        self.manager
+            .call(move |conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                let key = format!("{DEDUPE_PREFIX}{dedupe_key}");
+                let raw = live_legacy_raw_tx(&tx, &key)?;
+                let legacy = live_legacy_lease_tx(&tx, &key)?;
+                let invalid = raw.is_some() && legacy.is_none();
+                let typed = typed_lease_tx(&tx, &dedupe_key)?;
+                let matched = !invalid && typed == legacy;
+                if !matched {
+                    match legacy {
+                        Some(lease) => upsert_tx(&tx, &lease)?,
+                        None => delete_tx(&tx, &dedupe_key)?,
+                    }
+                }
+                tx.commit()?;
+                Ok(matched)
+            })
+            .await
+    }
+
+    #[cfg(test)]
+    pub(crate) async fn load(
+        &self,
+        dedupe_key: &str,
+    ) -> StorageResult<Option<TypedEventDedupeLease>> {
+        let dedupe_key = dedupe_key.to_string();
+        self.manager
+            .call(move |conn| typed_lease_conn(conn, &dedupe_key))
+            .await
+    }
+
+    #[cfg(test)]
+    pub(crate) async fn count(&self) -> StorageResult<i64> {
+        self.manager
+            .call(|conn| {
+                conn.query_row(
+                    "SELECT COUNT(*) FROM system_event_dedupe_leases",
+                    [],
+                    |row| row.get::<_, i64>(0),
+                )
+                .map_err(Into::into)
+            })
+            .await
+    }
+}
+
+fn live_legacy_raw_tx(tx: &Transaction<'_>, key: &str) -> StorageResult<Option<(String, i64)>> {
+    tx.query_row(
+        "SELECT strings.value, keys.expires_at_ms
+         FROM kv_keys AS keys
+         JOIN kv_strings AS strings ON strings.key = keys.key
+         WHERE keys.key = ?1
+           AND keys.kind = 'string'
+           AND keys.expires_at_ms IS NOT NULL
+           AND keys.expires_at_ms > ?2",
+        params![key, crate::time_utils::now_ms()],
+        |row| Ok((row.get::<_, String>(0)?, row.get::<_, i64>(1)?)),
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+fn live_legacy_lease_tx(
+    tx: &Transaction<'_>,
+    key: &str,
+) -> StorageResult<Option<TypedEventDedupeLease>> {
+    let Some(dedupe_key) = key
+        .strip_prefix(DEDUPE_PREFIX)
+        .filter(|key| !key.is_empty())
+    else {
+        return Ok(None);
+    };
+    let Some((value, expires_at_ms)) = live_legacy_raw_tx(tx, key)? else {
+        return Ok(None);
+    };
+    if value != "1" {
+        return Ok(None);
+    }
+    Ok(Some(TypedEventDedupeLease {
+        dedupe_key: dedupe_key.to_string(),
+        expires_at_ms,
+    }))
+}
+
+fn legacy_leases_tx(
+    tx: &Transaction<'_>,
+) -> StorageResult<BTreeMap<String, TypedEventDedupeLease>> {
+    let mut statement = tx.prepare(
+        "SELECT keys.key
+         FROM kv_keys AS keys
+         JOIN kv_strings AS strings ON strings.key = keys.key
+         WHERE substr(keys.key, 1, ?1) = ?2
+           AND keys.kind = 'string'
+           AND keys.expires_at_ms IS NOT NULL
+           AND keys.expires_at_ms > ?3
+         ORDER BY keys.key",
+    )?;
+    let rows = statement.query_map(
+        params![
+            DEDUPE_PREFIX.len() as i64,
+            DEDUPE_PREFIX,
+            crate::time_utils::now_ms()
+        ],
+        |row| row.get::<_, String>(0),
+    )?;
+    let mut leases = BTreeMap::new();
+    for key in rows {
+        if let Some(lease) = live_legacy_lease_tx(tx, &key?)? {
+            leases.insert(lease.dedupe_key.clone(), lease);
+        }
+    }
+    Ok(leases)
+}
+
+fn typed_lease_tx(
+    tx: &Transaction<'_>,
+    dedupe_key: &str,
+) -> StorageResult<Option<TypedEventDedupeLease>> {
+    tx.query_row(
+        "SELECT expires_at_ms FROM system_event_dedupe_leases WHERE dedupe_key = ?1",
+        [dedupe_key],
+        |row| {
+            Ok(TypedEventDedupeLease {
+                dedupe_key: dedupe_key.to_string(),
+                expires_at_ms: row.get(0)?,
+            })
+        },
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+#[cfg(test)]
+fn typed_lease_conn(
+    conn: &tokio_rusqlite::rusqlite::Connection,
+    dedupe_key: &str,
+) -> StorageResult<Option<TypedEventDedupeLease>> {
+    conn.query_row(
+        "SELECT expires_at_ms FROM system_event_dedupe_leases WHERE dedupe_key = ?1",
+        [dedupe_key],
+        |row| {
+            Ok(TypedEventDedupeLease {
+                dedupe_key: dedupe_key.to_string(),
+                expires_at_ms: row.get(0)?,
+            })
+        },
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+fn typed_ids_tx(tx: &Transaction<'_>) -> StorageResult<BTreeSet<String>> {
+    let mut statement =
+        tx.prepare("SELECT dedupe_key FROM system_event_dedupe_leases ORDER BY dedupe_key")?;
+    statement
+        .query_map([], |row| row.get::<_, String>(0))?
+        .collect::<Result<BTreeSet<_>, _>>()
+        .map_err(Into::into)
+}
+
+fn upsert_tx(tx: &Transaction<'_>, lease: &TypedEventDedupeLease) -> StorageResult<()> {
+    if lease.dedupe_key.is_empty() {
+        return Err(storage_error("empty typed system-event dedupe key"));
+    }
+    tx.execute(
+        "INSERT INTO system_event_dedupe_leases(
+           dedupe_key, lease_value, expires_at_ms, updated_at_ms
+         ) VALUES (?1, '1', ?2, ?3)
+         ON CONFLICT(dedupe_key) DO UPDATE SET
+           lease_value = excluded.lease_value,
+           expires_at_ms = excluded.expires_at_ms,
+           updated_at_ms = excluded.updated_at_ms
+         WHERE system_event_dedupe_leases.lease_value <> excluded.lease_value
+            OR system_event_dedupe_leases.expires_at_ms <> excluded.expires_at_ms",
+        params![
+            lease.dedupe_key,
+            lease.expires_at_ms,
+            crate::time_utils::now_ms(),
+        ],
+    )?;
+    Ok(())
+}
+
+fn delete_tx(tx: &Transaction<'_>, dedupe_key: &str) -> StorageResult<()> {
+    tx.execute(
+        "DELETE FROM system_event_dedupe_leases WHERE dedupe_key = ?1",
+        [dedupe_key],
+    )?;
+    Ok(())
+}

@@ -1,1 +1,354 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWFjdGl2ZSwgcmVmLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IExvYWRlcjIsIFJhZGFyLCBTZXR0aW5nczIgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDaGVja2JveCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jaGVja2JveCI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IGNyZWF0ZVJhbmRvbVRhcmdldE5hbWUgfSBmcm9tICJAL2xpYi93b2xUYXJnZXROYW1lIjsKaW1wb3J0IHsKICB0eXBlIFdPTERpc2NvdmVyZWREZXZpY2UsCiAgdHlwZSBXT0xEaXNjb3ZlcnlQcm9ncmVzcywKICB0eXBlIFdPTERpc2NvdmVyeVJlc3VsdCwKfSBmcm9tICJAL2xpYi9hcGkvd29sIjsKCnR5cGUgRGlzY292ZXJlZFNlbGVjdGlvbiA9IFdPTERpc2NvdmVyZWREZXZpY2UgJiB7CiAgbmFtZTogc3RyaW5nOwp9OwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgb3BlbjogYm9vbGVhbjsKICByZXN1bHQ6IFdPTERpc2NvdmVyeVJlc3VsdCB8IG51bGw7CiAgcHJvZ3Jlc3M6IFdPTERpc2NvdmVyeVByb2dyZXNzIHwgbnVsbDsKICBleGlzdGluZ01hY3M6IHN0cmluZ1tdOwogIHNjYW5uaW5nOiBib29sZWFuOwogIGFkZGluZzogYm9vbGVhbjsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgInVwZGF0ZTpvcGVuIjogW3ZhbHVlOiBib29sZWFuXTsKICBzY2FuOiBbdGFyZ2V0Q2lkcnM6IHN0cmluZ1tdXTsKICBhZGQ6IFtkZXZpY2VzOiBEaXNjb3ZlcmVkU2VsZWN0aW9uW11dOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IGN1c3RvbUNpZHJzID0gcmVmKCIiKTsKY29uc3Qgc2hvd1NldHRpbmdzID0gcmVmKGZhbHNlKTsKY29uc3Qgc2VsZWN0ZWQgPSByZWYobmV3IFNldDxzdHJpbmc+KCkpOwpjb25zdCBuYW1lcyA9IHJlYWN0aXZlPFJlY29yZDxzdHJpbmcsIHN0cmluZz4+KHt9KTsKY29uc3QgZXhpc3RpbmcgPSBjb21wdXRlZCgoKSA9PiBuZXcgU2V0KHByb3BzLmV4aXN0aW5nTWFjcykpOwpjb25zdCBzZWxlY3RhYmxlRGV2aWNlcyA9IGNvbXB1dGVkKAogICgpID0+CiAgICBwcm9wcy5yZXN1bHQ/LmRldmljZXMuZmlsdGVyKChkZXZpY2UpID0+ICFleGlzdGluZy52YWx1ZS5oYXMoZGV2aWNlLm1hYykpID8/CiAgICBbXSwKKTsKY29uc3Qgc2VsZWN0ZWREZXZpY2VzID0gY29tcHV0ZWQoKCkgPT4KICBzZWxlY3RhYmxlRGV2aWNlcy52YWx1ZQogICAgLmZpbHRlcigoZGV2aWNlKSA9PiBzZWxlY3RlZC52YWx1ZS5oYXMoZGV2aWNlLm1hYykpCiAgICAubWFwKChkZXZpY2UpID0+ICh7CiAgICAgIC4uLmRldmljZSwKICAgICAgbmFtZTogbmFtZXNbZGV2aWNlLm1hY10/LnRyaW0oKSA/PyAiIiwKICAgIH0pKSwKKTsKY29uc3Qgc2VsZWN0QWxsU3RhdGUgPSBjb21wdXRlZDxib29sZWFuIHwgImluZGV0ZXJtaW5hdGUiPigoKSA9PiB7CiAgaWYgKCFzZWxlY3RlZERldmljZXMudmFsdWUubGVuZ3RoKSByZXR1cm4gZmFsc2U7CiAgcmV0dXJuIHNlbGVjdGVkRGV2aWNlcy52YWx1ZS5sZW5ndGggPT09IHNlbGVjdGFibGVEZXZpY2VzLnZhbHVlLmxlbmd0aAogICAgPyB0cnVlCiAgICA6ICJpbmRldGVybWluYXRlIjsKfSk7CmNvbnN0IHByb2dyZXNzUGVyY2VudCA9IGNvbXB1dGVkKCgpID0+IHsKICBjb25zdCBwcm9ncmVzcyA9IHByb3BzLnByb2dyZXNzOwogIGlmICghcHJvZ3Jlc3M/LnRvdGFsSG9zdHMpIHJldHVybiAwOwogIHJldHVybiBNYXRoLm1pbigxMDAsIChwcm9ncmVzcy5zY2FubmVkSG9zdHMgLyBwcm9ncmVzcy50b3RhbEhvc3RzKSAqIDEwMCk7Cn0pOwoKd2F0Y2goCiAgKCkgPT4gcHJvcHMucmVzdWx0Py5kZXZpY2VzID8/IFtdLAogIChkZXZpY2VzKSA9PiB7CiAgICBpZiAoIXByb3BzLnJlc3VsdCkgewogICAgICBzZWxlY3RlZC52YWx1ZSA9IG5ldyBTZXQoKTsKICAgICAgZm9yIChjb25zdCBrZXkgb2YgT2JqZWN0LmtleXMobmFtZXMpKSBkZWxldGUgbmFtZXNba2V5XTsKICAgICAgcmV0dXJuOwogICAgfQogICAgY29uc3QgbWFjcyA9IGRldmljZXMubWFwKChkZXZpY2UpID0+IGRldmljZS5tYWMpOwogICAgY29uc3QgYXZhaWxhYmxlID0gbmV3IFNldChtYWNzKTsKICAgIHNlbGVjdGVkLnZhbHVlID0gbmV3IFNldCgKICAgICAgWy4uLnNlbGVjdGVkLnZhbHVlXS5maWx0ZXIoCiAgICAgICAgKG1hYykgPT4gYXZhaWxhYmxlLmhhcyhtYWMpICYmICFleGlzdGluZy52YWx1ZS5oYXMobWFjKSwKICAgICAgKSwKICAgICk7CiAgICBmb3IgKGNvbnN0IGRldmljZSBvZiBkZXZpY2VzKSB7CiAgICAgIG5hbWVzW2RldmljZS5tYWNdID8/PSBjcmVhdGVSYW5kb21UYXJnZXROYW1lKAogICAgICAgIHQoImFkbWluLndvbC50YXJnZXREaWFsb2cuZ2VuZXJhdGVkTmFtZVByZWZpeCIpLAogICAgICApOwogICAgfQogIH0sCik7Cgp3YXRjaCgKICAoKSA9PiBwcm9wcy5vcGVuLAogIChvcGVuKSA9PiB7CiAgICBpZiAoIW9wZW4pIHsKICAgICAgY3VzdG9tQ2lkcnMudmFsdWUgPSAiIjsKICAgICAgc2hvd1NldHRpbmdzLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfSwKKTsKCmNvbnN0IHRvZ2dsZSA9IChtYWM6IHN0cmluZywgY2hlY2tlZDogYm9vbGVhbiB8ICJpbmRldGVybWluYXRlIikgPT4gewogIGNvbnN0IG5leHQgPSBuZXcgU2V0KHNlbGVjdGVkLnZhbHVlKTsKICBpZiAoY2hlY2tlZCA9PT0gdHJ1ZSkgbmV4dC5hZGQobWFjKTsKICBlbHNlIG5leHQuZGVsZXRlKG1hYyk7CiAgc2VsZWN0ZWQudmFsdWUgPSBuZXh0Owp9OwoKY29uc3QgdG9nZ2xlQWxsID0gKGNoZWNrZWQ6IGJvb2xlYW4gfCAiaW5kZXRlcm1pbmF0ZSIpID0+IHsKICBzZWxlY3RlZC52YWx1ZSA9CiAgICBjaGVja2VkID09PSB0cnVlCiAgICAgID8gbmV3IFNldChzZWxlY3RhYmxlRGV2aWNlcy52YWx1ZS5tYXAoKGRldmljZSkgPT4gZGV2aWNlLm1hYykpCiAgICAgIDogbmV3IFNldCgpOwp9OwoKY29uc3Qgc2NhbiA9ICgpID0+IHsKICBjb25zdCB0YXJnZXRDaWRycyA9IGN1c3RvbUNpZHJzLnZhbHVlCiAgICAuc3BsaXQoL1tccyzvvIw777ybXSsvdSkKICAgIC5tYXAoKHZhbHVlKSA9PiB2YWx1ZS50cmltKCkpCiAgICAuZmlsdGVyKEJvb2xlYW4pOwogIHNob3dTZXR0aW5ncy52YWx1ZSA9IGZhbHNlOwogIGVtaXQoInNjYW4iLCB0YXJnZXRDaWRycyk7Cn07Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iZW1pdCgndXBkYXRlOm9wZW4nLCAkZXZlbnQpIj4KICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJzbTptYXgtdy0zeGwiPgogICAgICA8RGlhbG9nSGVhZGVyIGNsYXNzPSJwci04Ij4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtMyI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEuNSI+CiAgICAgICAgICAgIDxEaWFsb2dUaXRsZT57eyB0KCJhZG1pbi53b2wuZGlzY292ZXJ5LnRpdGxlIikgfX08L0RpYWxvZ1RpdGxlPgogICAgICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4ud29sLmRpc2NvdmVyeS5kZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICBzaXplPSJpY29uIgogICAgICAgICAgICA6dmFyaWFudD0ic2hvd1NldHRpbmdzID8gJ3NlY29uZGFyeScgOiAnZ2hvc3QnIgogICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4ud29sLmRpc2NvdmVyeS5zZXR0aW5ncycpIgogICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLndvbC5kaXNjb3Zlcnkuc2V0dGluZ3MnKSIKICAgICAgICAgICAgQGNsaWNrPSJzaG93U2V0dGluZ3MgPSAhc2hvd1NldHRpbmdzIgogICAgICAgICAgPgogICAgICAgICAgICA8U2V0dGluZ3MyIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgoKICAgICAgPGRpdgogICAgICAgIHYtaWY9InNob3dTZXR0aW5ncyIKICAgICAgICBjbGFzcz0ic3BhY2UteS0yIHJvdW5kZWQteGwgYm9yZGVyIGJnLW11dGVkLzIwIHAtMyIKICAgICAgPgogICAgICAgIDxMYWJlbCBmb3I9IndvbC1kaXNjb3ZlcnktY2lkcnMiPnt7CiAgICAgICAgICB0KCJhZG1pbi53b2wuZGlzY292ZXJ5LmN1c3RvbUNpZHIiKQogICAgICAgIH19PC9MYWJlbD4KICAgICAgICA8SW5wdXQKICAgICAgICAgIGlkPSJ3b2wtZGlzY292ZXJ5LWNpZHJzIgogICAgICAgICAgdi1tb2RlbD0iY3VzdG9tQ2lkcnMiCiAgICAgICAgICA6ZGlzYWJsZWQ9InNjYW5uaW5nIgogICAgICAgICAgYXV0b2NvbXBsZXRlPSJvZmYiCiAgICAgICAgICBzcGVsbGNoZWNrPSJmYWxzZSIKICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4ud29sLmRpc2NvdmVyeS5jdXN0b21DaWRyUGxhY2Vob2xkZXInKSIKICAgICAgICAgIEBrZXlkb3duLmVudGVyLnByZXZlbnQ9InNjYW4iCiAgICAgICAgLz4KICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sgdCgiYWRtaW4ud29sLmRpc2NvdmVyeS5jdXN0b21DaWRySGludCIpIH19CiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgdi1pZj0ic2Nhbm5pbmcgJiYgcHJvZ3Jlc3MiIGNsYXNzPSJzcGFjZS15LTIgcm91bmRlZC14bCBib3JkZXIgcC0zIj4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMgdGV4dC14cyI+CiAgICAgICAgICA8c3BhbiBjbGFzcz0iZmxleCBtaW4tdy0wIGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICA8TG9hZGVyMiBjbGFzcz0iaC00IHctNCBzaHJpbmstMCBhbmltYXRlLXNwaW4iIC8+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0cnVuY2F0ZSI+CiAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgIHQoImFkbWluLndvbC5kaXNjb3ZlcnkucHJvZ3Jlc3MiLCB7CiAgICAgICAgICAgICAgICAgIHNjYW5uZWQ6IHByb2dyZXNzLnNjYW5uZWRIb3N0cywKICAgICAgICAgICAgICAgICAgdG90YWw6IHByb2dyZXNzLnRvdGFsSG9zdHMsCiAgICAgICAgICAgICAgICAgIGZvdW5kOiBwcm9ncmVzcy5mb3VuZERldmljZXMsCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgIH19CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJmb250LW1lZGl1bSI+e3sgTWF0aC5yb3VuZChwcm9ncmVzc1BlcmNlbnQpIH19JTwvc3Bhbj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJoLTEuNSBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1mdWxsIGJnLW11dGVkIj4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgY2xhc3M9ImgtZnVsbCByb3VuZGVkLWZ1bGwgYmctcHJpbWFyeSB0cmFuc2l0aW9uLVt3aWR0aF0gZHVyYXRpb24tMzAwIgogICAgICAgICAgICA6c3R5bGU9Insgd2lkdGg6IGAke3Byb2dyZXNzUGVyY2VudH0lYCB9IgogICAgICAgICAgLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IHYtaWY9InJlc3VsdCIgY2xhc3M9InNwYWNlLXktMyI+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMiB0ZXh0LXhzIj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGdhcC0xLjUiPgogICAgICAgICAgICA8QmFkZ2UKICAgICAgICAgICAgICB2LWZvcj0ibmV0d29yayBpbiByZXN1bHQubmV0d29ya3MiCiAgICAgICAgICAgICAgOmtleT0iYCR7bmV0d29yay5pbnRlcmZhY2VOYW1lfS0ke25ldHdvcmsuc2NhbkNpZHJ9YCIKICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgbmV0d29yay5pbnRlcmZhY2VOYW1lIH19IMK3IHt7IG5ldHdvcmsuc2NhbkNpZHIgfX0KICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPHNwYW4gdi1pZj0iIXNjYW5uaW5nIiBjbGFzcz0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICB0KCJhZG1pbi53b2wuZGlzY292ZXJ5LnJlc3VsdFN1bW1hcnkiLCB7CiAgICAgICAgICAgICAgICBjb3VudDogcmVzdWx0LmRldmljZXMubGVuZ3RoLAogICAgICAgICAgICAgICAgZHVyYXRpb246IHJlc3VsdC5kdXJhdGlvbk1zLAogICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9IiFyZXN1bHQuZGV2aWNlcy5sZW5ndGgiCiAgICAgICAgICBjbGFzcz0icm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWRhc2hlZCBweC01IHB5LTEwIHRleHQtY2VudGVyIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgID4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHNjYW5uaW5nCiAgICAgICAgICAgICAgPyB0KCJhZG1pbi53b2wuZGlzY292ZXJ5LndhaXRpbmdGb3JEZXZpY2VzIikKICAgICAgICAgICAgICA6IHQoImFkbWluLndvbC5kaXNjb3ZlcnkuZW1wdHkiKQogICAgICAgICAgfX0KICAgICAgICA8L2Rpdj4KICAgICAgICA8dGVtcGxhdGUgdi1lbHNlPgogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMiByb3VuZGVkLWxnIGJvcmRlciBiZy1tdXRlZC8yMCBweC0zIHB5LTIiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICA8Q2hlY2tib3gKICAgICAgICAgICAgICAgIGlkPSJ3b2wtZGlzY292ZXJ5LXNlbGVjdC1hbGwiCiAgICAgICAgICAgICAgICA6bW9kZWwtdmFsdWU9InNlbGVjdEFsbFN0YXRlIgogICAgICAgICAgICAgICAgOmRpc2FibGVkPSIhc2VsZWN0YWJsZURldmljZXMubGVuZ3RoIgogICAgICAgICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0idG9nZ2xlQWxsIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPExhYmVsIGZvcj0id29sLWRpc2NvdmVyeS1zZWxlY3QtYWxsIiBjbGFzcz0iY3Vyc29yLXBvaW50ZXIiPgogICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgdCgiYWRtaW4ud29sLmRpc2NvdmVyeS5zZWxlY3RBbGwiLCB7CiAgICAgICAgICAgICAgICAgICAgY291bnQ6IHNlbGVjdGFibGVEZXZpY2VzLmxlbmd0aCwKICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgIHQoImFkbWluLndvbC5kaXNjb3Zlcnkuc2VsZWN0ZWRDb3VudCIsIHsKICAgICAgICAgICAgICAgICAgY291bnQ6IHNlbGVjdGVkRGV2aWNlcy5sZW5ndGgsCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgIH19CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0ibWF4LWgtWzIzcmVtXSBzcGFjZS15LTIgb3ZlcmZsb3cteS1hdXRvIHByLTEiPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgdi1mb3I9ImRldmljZSBpbiByZXN1bHQuZGV2aWNlcyIKICAgICAgICAgICAgICA6a2V5PSJkZXZpY2UubWFjIgogICAgICAgICAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0zIHJvdW5kZWQtbGcgYm9yZGVyIHAtMyIKICAgICAgICAgICAgICA6Y2xhc3M9ImV4aXN0aW5nLmhhcyhkZXZpY2UubWFjKSAmJiAnb3BhY2l0eS02MCciCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8Q2hlY2tib3gKICAgICAgICAgICAgICAgIGNsYXNzPSJtdC0xIgogICAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgICAgICAgICAgICB0KCdhZG1pbi53b2wuZGlzY292ZXJ5LnNlbGVjdERldmljZScsIHsgaXA6IGRldmljZS5pcCB9KQogICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJzZWxlY3RlZC5oYXMoZGV2aWNlLm1hYykiCiAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImV4aXN0aW5nLmhhcyhkZXZpY2UubWFjKSIKICAgICAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9InRvZ2dsZShkZXZpY2UubWFjLCAkZXZlbnQpIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBmbGV4LTEgc3BhY2UteS0yIj4KICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImZvbnQtbWVkaXVtIj57ewogICAgICAgICAgICAgICAgICAgICAgbmFtZXNbZGV2aWNlLm1hY10/LnRyaW0oKSB8fAogICAgICAgICAgICAgICAgICAgICAgdCgiYWRtaW4ud29sLmRpc2NvdmVyeS5hdXRvTmFtZVBlbmRpbmciKQogICAgICAgICAgICAgICAgICAgIH19PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxCYWRnZSB2LWlmPSJleGlzdGluZy5oYXMoZGV2aWNlLm1hYykiIHZhcmlhbnQ9InNlY29uZGFyeSI+CiAgICAgICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi53b2wuZGlzY292ZXJ5LmFkZGVkIikgfX0KICAgICAgICAgICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3M9Im10LTAuNSBmb250LW1vbm8gdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICAgIHt7IGRldmljZS5pcCB9fSDCtyB7eyBkZXZpY2UubWFjIH19IMK3CiAgICAgICAgICAgICAgICAgICAge3sgZGV2aWNlLmludGVyZmFjZU5hbWUgfX0gwrcKICAgICAgICAgICAgICAgICAgICB7eyBkZXZpY2UuYnJvYWRjYXN0QWRkcmVzcyB9fQogICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgdi1pZj0iIWV4aXN0aW5nLmhhcyhkZXZpY2UubWFjKSIgY2xhc3M9Im1heC13LXNtIj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICAgICAgICAgICAgICA8TGFiZWwKICAgICAgICAgICAgICAgICAgICAgIDpmb3I9ImB3b2wtZGlzY292ZXJ5LW5hbWUtJHtkZXZpY2UubWFjfWAiCiAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC14cyIKICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi53b2wubmFtZSIpIH19CiAgICAgICAgICAgICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICAgICAgICAgIDppZD0iYHdvbC1kaXNjb3ZlcnktbmFtZS0ke2RldmljZS5tYWN9YCIKICAgICAgICAgICAgICAgICAgICAgIHYtbW9kZWw9Im5hbWVzW2RldmljZS5tYWNdIgogICAgICAgICAgICAgICAgICAgICAgY2xhc3M9ImgtOCIKICAgICAgICAgICAgICAgICAgICAgIG1heGxlbmd0aD0iNjQiCiAgICAgICAgICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4ud29sLmRpc2NvdmVyeS5uYW1lUGxhY2Vob2xkZXInKSIKICAgICAgICAgICAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4ud29sLmRpc2NvdmVyeS5uYW1lUGxhY2Vob2xkZXInKSIKICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2CiAgICAgICAgdi1lbHNlCiAgICAgICAgY2xhc3M9ImZsZXggbWluLWgtNDAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1kYXNoZWQgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgID4KICAgICAgICA8c3BhbiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgPExvYWRlcjIgdi1pZj0ic2Nhbm5pbmciIGNsYXNzPSJoLTUgdy01IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHNjYW5uaW5nCiAgICAgICAgICAgICAgPyB0KCJhZG1pbi53b2wuZGlzY292ZXJ5LnNjYW5uaW5nIikKICAgICAgICAgICAgICA6IHQoImFkbWluLndvbC5kaXNjb3ZlcnkucmVhZHkiKQogICAgICAgICAgfX0KICAgICAgICA8L3NwYW4+CiAgICAgIDwvZGl2PgoKICAgICAgPERpYWxvZ0Zvb3RlciBjbGFzcz0iZ2FwLTIgc206anVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIDpkaXNhYmxlZD0ic2Nhbm5pbmcgfHwgYWRkaW5nIiBAY2xpY2s9InNjYW4iPgogICAgICAgICAgPExvYWRlcjIgdi1pZj0ic2Nhbm5pbmciIGNsYXNzPSJtci0xLjUgaC00IHctNCBhbmltYXRlLXNwaW4iIC8+CiAgICAgICAgICA8UmFkYXIgdi1lbHNlIGNsYXNzPSJtci0xLjUgaC00IHctNCIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLndvbC5kaXNjb3ZlcnkucmVzY2FuIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktZW5kIGdhcC0yIj4KICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgQGNsaWNrPSJlbWl0KCd1cGRhdGU6b3BlbicsIGZhbHNlKSI+CiAgICAgICAgICAgIHt7IHQoImNvbW1vbi5jYW5jZWwiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIDpkaXNhYmxlZD0iYWRkaW5nIHx8IHNjYW5uaW5nIHx8ICFzZWxlY3RlZERldmljZXMubGVuZ3RoIgogICAgICAgICAgICBAY2xpY2s9ImVtaXQoJ2FkZCcsIHNlbGVjdGVkRGV2aWNlcykiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxMb2FkZXIyIHYtaWY9ImFkZGluZyIgY2xhc3M9Im1yLTEuNSBoLTQgdy00IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICB0KCJhZG1pbi53b2wuZGlzY292ZXJ5LmFkZFNlbGVjdGVkIiwgewogICAgICAgICAgICAgICAgY291bnQ6IHNlbGVjdGVkRGV2aWNlcy5sZW5ndGgsCiAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgIDwvRGlhbG9nQ29udGVudD4KICA8L0RpYWxvZz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed, reactive, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { Loader2, Radar, Settings2 } from "lucide-vue-next";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { createRandomTargetName } from "@/lib/wolTargetName";
+import {
+  type WOLDiscoveredDevice,
+  type WOLDiscoveryProgress,
+  type WOLDiscoveryResult,
+} from "@/lib/api/wol";
+
+type DiscoveredSelection = WOLDiscoveredDevice & {
+  name: string;
+};
+
+const props = defineProps<{
+  open: boolean;
+  result: WOLDiscoveryResult | null;
+  progress: WOLDiscoveryProgress | null;
+  existingMacs: string[];
+  scanning: boolean;
+  adding: boolean;
+}>();
+
+const emit = defineEmits<{
+  "update:open": [value: boolean];
+  scan: [targetCidrs: string[]];
+  add: [devices: DiscoveredSelection[]];
+}>();
+
+const { t } = useI18n();
+const customCidrs = ref("");
+const showSettings = ref(false);
+const selected = ref(new Set<string>());
+const names = reactive<Record<string, string>>({});
+const existing = computed(() => new Set(props.existingMacs));
+const selectableDevices = computed(
+  () =>
+    props.result?.devices.filter((device) => !existing.value.has(device.mac)) ??
+    [],
+);
+const selectedDevices = computed(() =>
+  selectableDevices.value
+    .filter((device) => selected.value.has(device.mac))
+    .map((device) => ({
+      ...device,
+      name: names[device.mac]?.trim() ?? "",
+    })),
+);
+const selectAllState = computed<boolean | "indeterminate">(() => {
+  if (!selectedDevices.value.length) return false;
+  return selectedDevices.value.length === selectableDevices.value.length
+    ? true
+    : "indeterminate";
+});
+const progressPercent = computed(() => {
+  const progress = props.progress;
+  if (!progress?.totalHosts) return 0;
+  return Math.min(100, (progress.scannedHosts / progress.totalHosts) * 100);
+});
+
+watch(
+  () => props.result?.devices ?? [],
+  (devices) => {
+    if (!props.result) {
+      selected.value = new Set();
+      for (const key of Object.keys(names)) delete names[key];
+      return;
+    }
+    const macs = devices.map((device) => device.mac);
+    const available = new Set(macs);
+    selected.value = new Set(
+      [...selected.value].filter(
+        (mac) => available.has(mac) && !existing.value.has(mac),
+      ),
+    );
+    for (const device of devices) {
+      names[device.mac] ??= createRandomTargetName(
+        t("admin.wol.targetDialog.generatedNamePrefix"),
+      );
+    }
+  },
+);
+
+watch(
+  () => props.open,
+  (open) => {
+    if (!open) {
+      customCidrs.value = "";
+      showSettings.value = false;
+    }
+  },
+);
+
+const toggle = (mac: string, checked: boolean | "indeterminate") => {
+  const next = new Set(selected.value);
+  if (checked === true) next.add(mac);
+  else next.delete(mac);
+  selected.value = next;
+};
+
+const toggleAll = (checked: boolean | "indeterminate") => {
+  selected.value =
+    checked === true
+      ? new Set(selectableDevices.value.map((device) => device.mac))
+      : new Set();
+};
+
+const scan = () => {
+  const targetCidrs = customCidrs.value
+    .split(/[\s,，;；]+/u)
+    .map((value) => value.trim())
+    .filter(Boolean);
+  showSettings.value = false;
+  emit("scan", targetCidrs);
+};
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="sm:max-w-3xl">
+      <DialogHeader class="pr-8">
+        <div class="flex items-start justify-between gap-3">
+          <div class="space-y-1.5">
+            <DialogTitle>{{ t("admin.wol.discovery.title") }}</DialogTitle>
+            <DialogDescription>
+              {{ t("admin.wol.discovery.description") }}
+            </DialogDescription>
+          </div>
+          <Button
+            type="button"
+            size="icon"
+            :variant="showSettings ? 'secondary' : 'ghost'"
+            :aria-label="t('admin.wol.discovery.settings')"
+            :title="t('admin.wol.discovery.settings')"
+            @click="showSettings = !showSettings"
+          >
+            <Settings2 class="h-4 w-4" />
+          </Button>
+        </div>
+      </DialogHeader>
+
+      <div
+        v-if="showSettings"
+        class="space-y-2 rounded-xl border bg-muted/20 p-3"
+      >
+        <Label for="wol-discovery-cidrs">{{
+          t("admin.wol.discovery.customCidr")
+        }}</Label>
+        <Input
+          id="wol-discovery-cidrs"
+          v-model="customCidrs"
+          :disabled="scanning"
+          autocomplete="off"
+          spellcheck="false"
+          :placeholder="t('admin.wol.discovery.customCidrPlaceholder')"
+          @keydown.enter.prevent="scan"
+        />
+        <p class="text-xs text-muted-foreground">
+          {{ t("admin.wol.discovery.customCidrHint") }}
+        </p>
+      </div>
+
+      <div v-if="scanning && progress" class="space-y-2 rounded-xl border p-3">
+        <div class="flex items-center justify-between gap-3 text-xs">
+          <span class="flex min-w-0 items-center gap-2 text-muted-foreground">
+            <Loader2 class="h-4 w-4 shrink-0 animate-spin" />
+            <span class="truncate">
+              {{
+                t("admin.wol.discovery.progress", {
+                  scanned: progress.scannedHosts,
+                  total: progress.totalHosts,
+                  found: progress.foundDevices,
+                })
+              }}
+            </span>
+          </span>
+          <span class="font-medium">{{ Math.round(progressPercent) }}%</span>
+        </div>
+        <div class="h-1.5 overflow-hidden rounded-full bg-muted">
+          <div
+            class="h-full rounded-full bg-primary transition-[width] duration-300"
+            :style="{ width: `${progressPercent}%` }"
+          />
+        </div>
+      </div>
+
+      <div v-if="result" class="space-y-3">
+        <div class="flex flex-wrap items-center justify-between gap-2 text-xs">
+          <div class="flex flex-wrap gap-1.5">
+            <Badge
+              v-for="network in result.networks"
+              :key="`${network.interfaceName}-${network.scanCidr}`"
+              variant="outline"
+            >
+              {{ network.interfaceName }} · {{ network.scanCidr }}
+            </Badge>
+          </div>
+          <span v-if="!scanning" class="text-muted-foreground">
+            {{
+              t("admin.wol.discovery.resultSummary", {
+                count: result.devices.length,
+                duration: result.durationMs,
+              })
+            }}
+          </span>
+        </div>
+
+        <div
+          v-if="!result.devices.length"
+          class="rounded-xl border border-dashed px-5 py-10 text-center text-sm text-muted-foreground"
+        >
+          {{
+            scanning
+              ? t("admin.wol.discovery.waitingForDevices")
+              : t("admin.wol.discovery.empty")
+          }}
+        </div>
+        <template v-else>
+          <div
+            class="flex flex-wrap items-center justify-between gap-2 rounded-lg border bg-muted/20 px-3 py-2"
+          >
+            <div class="flex items-center gap-2">
+              <Checkbox
+                id="wol-discovery-select-all"
+                :model-value="selectAllState"
+                :disabled="!selectableDevices.length"
+                @update:model-value="toggleAll"
+              />
+              <Label for="wol-discovery-select-all" class="cursor-pointer">
+                {{
+                  t("admin.wol.discovery.selectAll", {
+                    count: selectableDevices.length,
+                  })
+                }}
+              </Label>
+            </div>
+            <span class="text-xs text-muted-foreground">
+              {{
+                t("admin.wol.discovery.selectedCount", {
+                  count: selectedDevices.length,
+                })
+              }}
+            </span>
+          </div>
+          <div class="max-h-[23rem] space-y-2 overflow-y-auto pr-1">
+            <div
+              v-for="device in result.devices"
+              :key="device.mac"
+              class="flex items-start gap-3 rounded-lg border p-3"
+              :class="existing.has(device.mac) && 'opacity-60'"
+            >
+              <Checkbox
+                class="mt-1"
+                :aria-label="
+                  t('admin.wol.discovery.selectDevice', { ip: device.ip })
+                "
+                :model-value="selected.has(device.mac)"
+                :disabled="existing.has(device.mac)"
+                @update:model-value="toggle(device.mac, $event)"
+              />
+              <div class="min-w-0 flex-1 space-y-2">
+                <div>
+                  <div class="flex flex-wrap items-center gap-2">
+                    <span class="font-medium">{{
+                      names[device.mac]?.trim() ||
+                      t("admin.wol.discovery.autoNamePending")
+                    }}</span>
+                    <Badge v-if="existing.has(device.mac)" variant="secondary">
+                      {{ t("admin.wol.discovery.added") }}
+                    </Badge>
+                  </div>
+                  <p class="mt-0.5 font-mono text-xs text-muted-foreground">
+                    {{ device.ip }} · {{ device.mac }} ·
+                    {{ device.interfaceName }} ·
+                    {{ device.broadcastAddress }}
+                  </p>
+                </div>
+                <div v-if="!existing.has(device.mac)" class="max-w-sm">
+                  <div class="space-y-1">
+                    <Label
+                      :for="`wol-discovery-name-${device.mac}`"
+                      class="text-xs"
+                    >
+                      {{ t("admin.wol.name") }}
+                    </Label>
+                    <Input
+                      :id="`wol-discovery-name-${device.mac}`"
+                      v-model="names[device.mac]"
+                      class="h-8"
+                      maxlength="64"
+                      :aria-label="t('admin.wol.discovery.namePlaceholder')"
+                      :placeholder="t('admin.wol.discovery.namePlaceholder')"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </template>
+      </div>
+      <div
+        v-else
+        class="flex min-h-40 items-center justify-center rounded-xl border border-dashed text-sm text-muted-foreground"
+      >
+        <span class="flex items-center gap-2">
+          <Loader2 v-if="scanning" class="h-5 w-5 animate-spin" />
+          {{
+            scanning
+              ? t("admin.wol.discovery.scanning")
+              : t("admin.wol.discovery.ready")
+          }}
+        </span>
+      </div>
+
+      <DialogFooter class="gap-2 sm:justify-between">
+        <Button variant="outline" :disabled="scanning || adding" @click="scan">
+          <Loader2 v-if="scanning" class="mr-1.5 h-4 w-4 animate-spin" />
+          <Radar v-else class="mr-1.5 h-4 w-4" />
+          {{ t("admin.wol.discovery.rescan") }}
+        </Button>
+        <div class="flex justify-end gap-2">
+          <Button variant="outline" @click="emit('update:open', false)">
+            {{ t("common.cancel") }}
+          </Button>
+          <Button
+            :disabled="adding || scanning || !selectedDevices.length"
+            @click="emit('add', selectedDevices)"
+          >
+            <Loader2 v-if="adding" class="mr-1.5 h-4 w-4 animate-spin" />
+            {{
+              t("admin.wol.discovery.addSelected", {
+                count: selectedDevices.length,
+              })
+            }}
+          </Button>
+        </div>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

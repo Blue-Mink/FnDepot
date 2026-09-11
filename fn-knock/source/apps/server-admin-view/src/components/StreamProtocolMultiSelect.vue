@@ -1,1 +1,115 @@
-PHRlbXBsYXRlPgogIDxkaXYKICAgIDppZD0iaWQiCiAgICBjbGFzcz0iZ3JpZCBncmlkLWNvbHMtMiBnYXAtMiIKICAgIHJvbGU9Imdyb3VwIgogICAgOmFyaWEtbGFiZWw9InJlc29sdmVkQXJpYUxhYmVsIgogID4KICAgIDxidXR0b24KICAgICAgdi1mb3I9Im9wdGlvbiBpbiBwcm90b2NvbE9wdGlvbnMiCiAgICAgIDprZXk9Im9wdGlvbi52YWx1ZSIKICAgICAgdHlwZT0iYnV0dG9uIgogICAgICA6ZGlzYWJsZWQ9ImRpc2FibGVkIgogICAgICA6YXJpYS1wcmVzc2VkPSJpc1NlbGVjdGVkKG9wdGlvbi52YWx1ZSkiCiAgICAgIDpjbGFzcz0iCiAgICAgICAgY24oCiAgICAgICAgICAnZmxleCBoLTExIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcm91bmRlZC1sZyBib3JkZXIgcHgtNCB0ZXh0LWxlZnQgdGV4dC1zbSB0cmFuc2l0aW9uLWFsbCBvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpib3JkZXItcmluZyBmb2N1cy12aXNpYmxlOnJpbmctcmluZy81MCBmb2N1cy12aXNpYmxlOnJpbmctWzNweF0gZGlzYWJsZWQ6Y3Vyc29yLW5vdC1hbGxvd2VkIGRpc2FibGVkOm9wYWNpdHktNTAnLAogICAgICAgICAgaXNTZWxlY3RlZChvcHRpb24udmFsdWUpCiAgICAgICAgICAgID8gJ2JvcmRlci1wcmltYXJ5IGJnLXByaW1hcnkvMTAgdGV4dC1wcmltYXJ5IHNoYWRvdy14cyByaW5nLTEgcmluZy1wcmltYXJ5LzI1JwogICAgICAgICAgICA6ICdib3JkZXItaW5wdXQgYmctYmFja2dyb3VuZCB0ZXh0LWZvcmVncm91bmQgaG92ZXI6YmctYWNjZW50IGhvdmVyOnRleHQtYWNjZW50LWZvcmVncm91bmQnLAogICAgICAgICkKICAgICAgIgogICAgICBAY2xpY2s9InRvZ2dsZVByb3RvY29sKG9wdGlvbi52YWx1ZSkiCiAgICA+CiAgICAgIDxzcGFuIGNsYXNzPSJmb250LW1vbm8gZm9udC1zZW1pYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctWzAuMTRlbV0iPgogICAgICAgIHt7IG9wdGlvbi5sYWJlbCB9fQogICAgICA8L3NwYW4+CiAgICAgIDxzcGFuCiAgICAgICAgOmNsYXNzPSIKICAgICAgICAgIGNuKAogICAgICAgICAgICAnZ3JpZCBzaXplLTUgcGxhY2UtaXRlbXMtY2VudGVyIHJvdW5kZWQtZnVsbCBib3JkZXIgdHJhbnNpdGlvbi1jb2xvcnMnLAogICAgICAgICAgICBpc1NlbGVjdGVkKG9wdGlvbi52YWx1ZSkKICAgICAgICAgICAgICA/ICdib3JkZXItcHJpbWFyeSBiZy1wcmltYXJ5IHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kJwogICAgICAgICAgICAgIDogJ2JvcmRlci1tdXRlZC1mb3JlZ3JvdW5kLzM1IHRleHQtdHJhbnNwYXJlbnQnLAogICAgICAgICAgKQogICAgICAgICIKICAgICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgPgogICAgICAgIDxDaGVjayBjbGFzcz0ic2l6ZS0zLjUiIC8+CiAgICAgIDwvc3Bhbj4KICAgIDwvYnV0dG9uPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQ2hlY2sgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIjsKaW1wb3J0IHR5cGUgeyBTdHJlYW1NYXBwaW5nUHJvdG9jb2wgfSBmcm9tICIuLi90eXBlcyI7Cgpjb25zdCBwcm90b2NvbE9wdGlvbnM6IEFycmF5PHsKICB2YWx1ZTogU3RyZWFtTWFwcGluZ1Byb3RvY29sOwogIGxhYmVsOiBzdHJpbmc7Cn0+ID0gWwogIHsgdmFsdWU6ICJ0Y3AiLCBsYWJlbDogIlRDUCIgfSwKICB7IHZhbHVlOiAidWRwIiwgbGFiZWw6ICJVRFAiIH0sCl07Cgpjb25zdCBwcm90b2NvbE9yZGVyOiBTdHJlYW1NYXBwaW5nUHJvdG9jb2xbXSA9IHByb3RvY29sT3B0aW9ucy5tYXAoCiAgKG9wdGlvbikgPT4gb3B0aW9uLnZhbHVlLAopOwoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoCiAgZGVmaW5lUHJvcHM8ewogICAgaWQ/OiBzdHJpbmc7CiAgICBkaXNhYmxlZD86IGJvb2xlYW47CiAgICBhcmlhTGFiZWw/OiBzdHJpbmc7CiAgfT4oKSwKICB7fSwKKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwoKY29uc3QgbW9kZWxWYWx1ZSA9IGRlZmluZU1vZGVsPFN0cmVhbU1hcHBpbmdQcm90b2NvbFtdPih7CiAgZGVmYXVsdDogKCkgPT4gWyJ0Y3AiXSwKfSk7CmNvbnN0IHJlc29sdmVkQXJpYUxhYmVsID0gY29tcHV0ZWQoCiAgKCkgPT4gcHJvcHMuYXJpYUxhYmVsID8/IHQoInNoYXJlZC5zdHJlYW1Qcm90b2NvbE11bHRpU2VsZWN0LmFyaWFMYWJlbCIpLAopOwoKY29uc3Qgc2VsZWN0ZWRQcm90b2NvbHMgPSBjb21wdXRlZCgoKSA9PgogIG5vcm1hbGl6ZVByb3RvY29sU2VsZWN0aW9uKG1vZGVsVmFsdWUudmFsdWUpLAopOwoKZnVuY3Rpb24gbm9ybWFsaXplUHJvdG9jb2xTZWxlY3Rpb24oCiAgcHJvdG9jb2xzOiBTdHJlYW1NYXBwaW5nUHJvdG9jb2xbXSB8IHVuZGVmaW5lZCwKKTogU3RyZWFtTWFwcGluZ1Byb3RvY29sW10gewogIGNvbnN0IHNlbGVjdGVkID0gbmV3IFNldCgKICAgIChwcm90b2NvbHMgPz8gW10pLmZpbHRlcigKICAgICAgKHByb3RvY29sKTogcHJvdG9jb2wgaXMgU3RyZWFtTWFwcGluZ1Byb3RvY29sID0+CiAgICAgICAgcHJvdG9jb2wgPT09ICJ0Y3AiIHx8IHByb3RvY29sID09PSAidWRwIiwKICAgICksCiAgKTsKICBjb25zdCBub3JtYWxpemVkID0gcHJvdG9jb2xPcmRlci5maWx0ZXIoKHByb3RvY29sKSA9PiBzZWxlY3RlZC5oYXMocHJvdG9jb2wpKTsKICByZXR1cm4gbm9ybWFsaXplZC5sZW5ndGggPiAwID8gbm9ybWFsaXplZCA6IFsidGNwIl07Cn0KCmZ1bmN0aW9uIGlzU2VsZWN0ZWQocHJvdG9jb2w6IFN0cmVhbU1hcHBpbmdQcm90b2NvbCk6IGJvb2xlYW4gewogIHJldHVybiBzZWxlY3RlZFByb3RvY29scy52YWx1ZS5pbmNsdWRlcyhwcm90b2NvbCk7Cn0KCmZ1bmN0aW9uIHRvZ2dsZVByb3RvY29sKHByb3RvY29sOiBTdHJlYW1NYXBwaW5nUHJvdG9jb2wpIHsKICBpZiAocHJvcHMuZGlzYWJsZWQpIHJldHVybjsKCiAgY29uc3QgbmV4dCA9IG5ldyBTZXQoc2VsZWN0ZWRQcm90b2NvbHMudmFsdWUpOwogIGlmIChuZXh0Lmhhcyhwcm90b2NvbCkpIHsKICAgIGlmIChuZXh0LnNpemUgPT09IDEpIHJldHVybjsKICAgIG5leHQuZGVsZXRlKHByb3RvY29sKTsKICB9IGVsc2UgewogICAgbmV4dC5hZGQocHJvdG9jb2wpOwogIH0KCiAgbW9kZWxWYWx1ZS52YWx1ZSA9IHByb3RvY29sT3JkZXIuZmlsdGVyKChpdGVtKSA9PiBuZXh0LmhhcyhpdGVtKSk7Cn0KPC9zY3JpcHQ+Cg==
+<template>
+  <div
+    :id="id"
+    class="grid grid-cols-2 gap-2"
+    role="group"
+    :aria-label="resolvedAriaLabel"
+  >
+    <button
+      v-for="option in protocolOptions"
+      :key="option.value"
+      type="button"
+      :disabled="disabled"
+      :aria-pressed="isSelected(option.value)"
+      :class="
+        cn(
+          'flex h-11 items-center justify-between rounded-lg border px-4 text-left text-sm transition-all outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50',
+          isSelected(option.value)
+            ? 'border-primary bg-primary/10 text-primary shadow-xs ring-1 ring-primary/25'
+            : 'border-input bg-background text-foreground hover:bg-accent hover:text-accent-foreground',
+        )
+      "
+      @click="toggleProtocol(option.value)"
+    >
+      <span class="font-mono font-semibold uppercase tracking-[0.14em]">
+        {{ option.label }}
+      </span>
+      <span
+        :class="
+          cn(
+            'grid size-5 place-items-center rounded-full border transition-colors',
+            isSelected(option.value)
+              ? 'border-primary bg-primary text-primary-foreground'
+              : 'border-muted-foreground/35 text-transparent',
+          )
+        "
+        aria-hidden="true"
+      >
+        <Check class="size-3.5" />
+      </span>
+    </button>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Check } from "lucide-vue-next";
+import { cn } from "@/lib/utils";
+import type { StreamMappingProtocol } from "../types";
+
+const protocolOptions: Array<{
+  value: StreamMappingProtocol;
+  label: string;
+}> = [
+  { value: "tcp", label: "TCP" },
+  { value: "udp", label: "UDP" },
+];
+
+const protocolOrder: StreamMappingProtocol[] = protocolOptions.map(
+  (option) => option.value,
+);
+
+const props = withDefaults(
+  defineProps<{
+    id?: string;
+    disabled?: boolean;
+    ariaLabel?: string;
+  }>(),
+  {},
+);
+
+const { t } = useI18n();
+
+const modelValue = defineModel<StreamMappingProtocol[]>({
+  default: () => ["tcp"],
+});
+const resolvedAriaLabel = computed(
+  () => props.ariaLabel ?? t("shared.streamProtocolMultiSelect.ariaLabel"),
+);
+
+const selectedProtocols = computed(() =>
+  normalizeProtocolSelection(modelValue.value),
+);
+
+function normalizeProtocolSelection(
+  protocols: StreamMappingProtocol[] | undefined,
+): StreamMappingProtocol[] {
+  const selected = new Set(
+    (protocols ?? []).filter(
+      (protocol): protocol is StreamMappingProtocol =>
+        protocol === "tcp" || protocol === "udp",
+    ),
+  );
+  const normalized = protocolOrder.filter((protocol) => selected.has(protocol));
+  return normalized.length > 0 ? normalized : ["tcp"];
+}
+
+function isSelected(protocol: StreamMappingProtocol): boolean {
+  return selectedProtocols.value.includes(protocol);
+}
+
+function toggleProtocol(protocol: StreamMappingProtocol) {
+  if (props.disabled) return;
+
+  const next = new Set(selectedProtocols.value);
+  if (next.has(protocol)) {
+    if (next.size === 1) return;
+    next.delete(protocol);
+  } else {
+    next.add(protocol);
+  }
+
+  modelValue.value = protocolOrder.filter((item) => next.has(item));
+}
+</script>

@@ -1,1 +1,129 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJhbiwgVHJhc2gyLCBVbmxvY2sgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IFJlZnJlc2hCdXR0b24gZnJvbSAiQC9jb21wb25lbnRzL1JlZnJlc2hCdXR0b24udnVlIjsKaW1wb3J0IENvbmZpcm1EYW5nZXJQb3BvdmVyIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vQ29uZmlybURhbmdlclBvcG92ZXIudnVlIjsKCmRlZmluZVByb3BzPHsKICBjb21wYWN0PzogYm9vbGVhbjsKICBpc0Jsb2NraW5nSXBzOiBib29sZWFuOwogIGlzRGVsZXRpbmc6IGJvb2xlYW47CiAgaXNNdXRhdGluZ0JsYWNrbGlzdElwczogYm9vbGVhbjsKICBpc1JlbGVhc2luZ0lwczogYm9vbGVhbjsKICBsb2FkaW5nOiBib29sZWFuOwogIHNlbGVjdGVkQmxvY2tlZENvdW50OiBudW1iZXI7CiAgc2VsZWN0ZWREYXRlOiBzdHJpbmc7CiAgc2VsZWN0ZWRVbmJsb2NrZWRDb3VudDogbnVtYmVyOwp9PigpOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICBibG9ja1NlbGVjdGVkOiBbXTsKICBkZWxldGVEYXRlOiBbXTsKICByZWZyZXNoOiBbXTsKICByZWxlYXNlU2VsZWN0ZWQ6IFtdOwp9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgOmNsYXNzPSIKICAgICAgY29tcGFjdAogICAgICAgID8gJ2ZsZXggdy1mdWxsIGp1c3RpZnktZW5kJwogICAgICAgIDogJ2ZsZXggZmxleC1jb2wgZ2FwLTMgc206ZmxleC1yb3cgc206aXRlbXMtc3RhcnQgc206anVzdGlmeS1iZXR3ZWVuJwogICAgIgogID4KICAgIDxkaXYgdi1pZj0iIWNvbXBhY3QiIGNsYXNzPSJzcGFjZS15LTEiPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgPGgyIGNsYXNzPSJ0ZXh0LWxnIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHQiPgogICAgICAgICAge3sgdCgiYWRtaW4ud2FmTG9ncy50aXRsZSIpIH19CiAgICAgICAgPC9oMj4KICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt7IHNlbGVjdGVkRGF0ZSB9fTwvc3Bhbj4KICAgICAgPC9kaXY+CiAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4ud2FmTG9ncy5kZXNjcmlwdGlvbiIpIH19CiAgICAgIDwvcD4KICAgIDwvZGl2PgoKICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgIDxSZWZyZXNoQnV0dG9uCiAgICAgICAgOmxvYWRpbmc9ImxvYWRpbmciCiAgICAgICAgOmRpc2FibGVkPSJsb2FkaW5nIgogICAgICAgIEBjbGljaz0iZW1pdCgncmVmcmVzaCcpIgogICAgICAvPgogICAgICA8Q29uZmlybURhbmdlclBvcG92ZXIKICAgICAgICB2LWlmPSJzZWxlY3RlZFVuYmxvY2tlZENvdW50ID4gMCIKICAgICAgICA6dGl0bGU9IgogICAgICAgICAgdCgnYWRtaW4ud2FmTG9ncy5ibGFja2xpc3RTZWxlY3RlZFRpdGxlJywgewogICAgICAgICAgICBjb3VudDogc2VsZWN0ZWRVbmJsb2NrZWRDb3VudCwKICAgICAgICAgIH0pCiAgICAgICAgIgogICAgICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4ud2FmTG9ncy5ibGFja2xpc3REZXNjcmlwdGlvbicpIgogICAgICAgIDpsb2FkaW5nPSJpc0Jsb2NraW5nSXBzIgogICAgICAgIDpkaXNhYmxlZD0ic2VsZWN0ZWRVbmJsb2NrZWRDb3VudCA9PT0gMCB8fCBpc011dGF0aW5nQmxhY2tsaXN0SXBzIgogICAgICAgIDpvbi1jb25maXJtPSIoKSA9PiBlbWl0KCdibG9ja1NlbGVjdGVkJykiCiAgICAgID4KICAgICAgICA8dGVtcGxhdGUgI3RyaWdnZXI+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgIGNsYXNzPSJib3JkZXItZGVzdHJ1Y3RpdmUvMzAgdGV4dC1kZXN0cnVjdGl2ZSBob3ZlcjpiZy1kZXN0cnVjdGl2ZS8xMCBob3Zlcjp0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgICA6ZGlzYWJsZWQ9InNlbGVjdGVkVW5ibG9ja2VkQ291bnQgPT09IDAgfHwgaXNNdXRhdGluZ0JsYWNrbGlzdElwcyIKICAgICAgICAgID4KICAgICAgICAgICAgPEJhbiBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIHQoImFkbWluLndhZkxvZ3MuYmxhY2tsaXN0U2VsZWN0ZWQiLCB7CiAgICAgICAgICAgICAgICBjb3VudDogc2VsZWN0ZWRVbmJsb2NrZWRDb3VudCwKICAgICAgICAgICAgICB9KQogICAgICAgICAgICB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICAgICAgPENvbmZpcm1EYW5nZXJQb3BvdmVyCiAgICAgICAgdi1pZj0ic2VsZWN0ZWRCbG9ja2VkQ291bnQgPiAwIgogICAgICAgIDp0aXRsZT0iCiAgICAgICAgICB0KCdhZG1pbi53YWZMb2dzLnVuYmxhY2tsaXN0U2VsZWN0ZWRUaXRsZScsIHsKICAgICAgICAgICAgY291bnQ6IHNlbGVjdGVkQmxvY2tlZENvdW50LAogICAgICAgICAgfSkKICAgICAgICAiCiAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi53YWZMb2dzLnVuYmxhY2tsaXN0RGVzY3JpcHRpb24nKSIKICAgICAgICA6bG9hZGluZz0iaXNSZWxlYXNpbmdJcHMiCiAgICAgICAgOmRpc2FibGVkPSJzZWxlY3RlZEJsb2NrZWRDb3VudCA9PT0gMCB8fCBpc011dGF0aW5nQmxhY2tsaXN0SXBzIgogICAgICAgIDpvbi1jb25maXJtPSIoKSA9PiBlbWl0KCdyZWxlYXNlU2VsZWN0ZWQnKSIKICAgICAgPgogICAgICAgIDx0ZW1wbGF0ZSAjdHJpZ2dlcj4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgY2xhc3M9InRleHQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgOmRpc2FibGVkPSJzZWxlY3RlZEJsb2NrZWRDb3VudCA9PT0gMCB8fCBpc011dGF0aW5nQmxhY2tsaXN0SXBzIgogICAgICAgICAgPgogICAgICAgICAgICA8VW5sb2NrIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgdCgiYWRtaW4ud2FmTG9ncy51bmJsYWNrbGlzdFNlbGVjdGVkIiwgewogICAgICAgICAgICAgICAgY291bnQ6IHNlbGVjdGVkQmxvY2tlZENvdW50LAogICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L0NvbmZpcm1EYW5nZXJQb3BvdmVyPgogICAgICA8Q29uZmlybURhbmdlclBvcG92ZXIKICAgICAgICA6dGl0bGU9InQoJ2FkbWluLndhZkxvZ3MuZGVsZXRlRGF0ZVRpdGxlJywgeyBkYXRlOiBzZWxlY3RlZERhdGUgfSkiCiAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi53YWZMb2dzLmRlbGV0ZURhdGVEZXNjcmlwdGlvbicpIgogICAgICAgIDpsb2FkaW5nPSJpc0RlbGV0aW5nIgogICAgICAgIDpkaXNhYmxlZD0iaXNEZWxldGluZyIKICAgICAgICA6b24tY29uZmlybT0iKCkgPT4gZW1pdCgnZGVsZXRlRGF0ZScpIgogICAgICA+CiAgICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICBjbGFzcz0iYm9yZGVyLWRlc3RydWN0aXZlLzMwIHRleHQtZGVzdHJ1Y3RpdmUgaG92ZXI6YmctZGVzdHJ1Y3RpdmUvMTAgaG92ZXI6dGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgICAgOmRpc2FibGVkPSJpc0RlbGV0aW5nIgogICAgICAgICAgPgogICAgICAgICAgICA8VHJhc2gyIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICAgIHt7IHQoImFkbWluLndhZkxvZ3MuZGVsZXRlRGF0ZUFjdGlvbiIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L0NvbmZpcm1EYW5nZXJQb3BvdmVyPgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Ban, Trash2, Unlock } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import RefreshButton from "@/components/RefreshButton.vue";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+
+defineProps<{
+  compact?: boolean;
+  isBlockingIps: boolean;
+  isDeleting: boolean;
+  isMutatingBlacklistIps: boolean;
+  isReleasingIps: boolean;
+  loading: boolean;
+  selectedBlockedCount: number;
+  selectedDate: string;
+  selectedUnblockedCount: number;
+}>();
+
+const emit = defineEmits<{
+  blockSelected: [];
+  deleteDate: [];
+  refresh: [];
+  releaseSelected: [];
+}>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div
+    :class="
+      compact
+        ? 'flex w-full justify-end'
+        : 'flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between'
+    "
+  >
+    <div v-if="!compact" class="space-y-1">
+      <div class="flex items-center gap-2">
+        <h2 class="text-lg font-semibold tracking-tight">
+          {{ t("admin.wafLogs.title") }}
+        </h2>
+        <span class="text-xs text-muted-foreground">{{ selectedDate }}</span>
+      </div>
+      <p class="text-sm text-muted-foreground">
+        {{ t("admin.wafLogs.description") }}
+      </p>
+    </div>
+
+    <div class="flex flex-wrap items-center gap-2">
+      <RefreshButton
+        :loading="loading"
+        :disabled="loading"
+        @click="emit('refresh')"
+      />
+      <ConfirmDangerPopover
+        v-if="selectedUnblockedCount > 0"
+        :title="
+          t('admin.wafLogs.blacklistSelectedTitle', {
+            count: selectedUnblockedCount,
+          })
+        "
+        :description="t('admin.wafLogs.blacklistDescription')"
+        :loading="isBlockingIps"
+        :disabled="selectedUnblockedCount === 0 || isMutatingBlacklistIps"
+        :on-confirm="() => emit('blockSelected')"
+      >
+        <template #trigger>
+          <Button
+            variant="outline"
+            class="border-destructive/30 text-destructive hover:bg-destructive/10 hover:text-destructive"
+            :disabled="selectedUnblockedCount === 0 || isMutatingBlacklistIps"
+          >
+            <Ban class="mr-2 h-4 w-4" />
+            {{
+              t("admin.wafLogs.blacklistSelected", {
+                count: selectedUnblockedCount,
+              })
+            }}
+          </Button>
+        </template>
+      </ConfirmDangerPopover>
+      <ConfirmDangerPopover
+        v-if="selectedBlockedCount > 0"
+        :title="
+          t('admin.wafLogs.unblacklistSelectedTitle', {
+            count: selectedBlockedCount,
+          })
+        "
+        :description="t('admin.wafLogs.unblacklistDescription')"
+        :loading="isReleasingIps"
+        :disabled="selectedBlockedCount === 0 || isMutatingBlacklistIps"
+        :on-confirm="() => emit('releaseSelected')"
+      >
+        <template #trigger>
+          <Button
+            variant="outline"
+            class="text-foreground"
+            :disabled="selectedBlockedCount === 0 || isMutatingBlacklistIps"
+          >
+            <Unlock class="mr-2 h-4 w-4" />
+            {{
+              t("admin.wafLogs.unblacklistSelected", {
+                count: selectedBlockedCount,
+              })
+            }}
+          </Button>
+        </template>
+      </ConfirmDangerPopover>
+      <ConfirmDangerPopover
+        :title="t('admin.wafLogs.deleteDateTitle', { date: selectedDate })"
+        :description="t('admin.wafLogs.deleteDateDescription')"
+        :loading="isDeleting"
+        :disabled="isDeleting"
+        :on-confirm="() => emit('deleteDate')"
+      >
+        <template #trigger>
+          <Button
+            variant="outline"
+            class="border-destructive/30 text-destructive hover:bg-destructive/10 hover:text-destructive"
+            :disabled="isDeleting"
+          >
+            <Trash2 class="mr-2 h-4 w-4" />
+            {{ t("admin.wafLogs.deleteDateAction") }}
+          </Button>
+        </template>
+      </ConfirmDangerPopover>
+    </div>
+  </div>
+</template>

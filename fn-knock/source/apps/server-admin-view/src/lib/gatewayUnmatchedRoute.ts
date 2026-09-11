@@ -1,1 +1,30 @@
-aW1wb3J0IHR5cGUgewogIEdhdGV3YXlVbm1hdGNoZWRSb3V0ZUJlaGF2aW9yLAogIEdhdGV3YXlVbm1hdGNoZWRSb3V0ZUNvbmZpZywKICBHYXRld2F5VXBzdHJlYW1FcnJvckRldGFpbCwKfSBmcm9tICJAL3R5cGVzIjsKCmV4cG9ydCBjb25zdCBub3JtYWxpemVHYXRld2F5VW5tYXRjaGVkUm91dGVCZWhhdmlvciA9ICgKICB2YWx1ZT86IHN0cmluZyB8IG51bGwsCik6IEdhdGV3YXlVbm1hdGNoZWRSb3V0ZUJlaGF2aW9yID0+CiAgdmFsdWUgPT09ICJyZXNldF9jb25uZWN0aW9uIiA/ICJyZXNldF9jb25uZWN0aW9uIiA6ICJlcnJvcl9wYWdlIjsKCmV4cG9ydCBjb25zdCBpc0RlZmF1bHREb21haW5BdmFpbGFibGVGb3JCZWhhdmlvciA9ICgKICB2YWx1ZT86IHN0cmluZyB8IG51bGwsCik6IGJvb2xlYW4gPT4gbm9ybWFsaXplR2F0ZXdheVVubWF0Y2hlZFJvdXRlQmVoYXZpb3IodmFsdWUpID09PSAiZXJyb3JfcGFnZSI7CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplR2F0ZXdheVVwc3RyZWFtRXJyb3JEZXRhaWwgPSAoCiAgdmFsdWU/OiBzdHJpbmcgfCBudWxsLAopOiBHYXRld2F5VXBzdHJlYW1FcnJvckRldGFpbCA9PgogIHZhbHVlID09PSAibW9yZSIgfHwgdmFsdWUgPT09ICJyZXNldF9jb25uZWN0aW9uIiA/IHZhbHVlIDogImxlc3MiOwoKZXhwb3J0IGNvbnN0IGJ1aWxkR2F0ZXdheVVubWF0Y2hlZFJvdXRlUGF0Y2ggPSAoCiAgYmVoYXZpb3I6IEdhdGV3YXlVbm1hdGNoZWRSb3V0ZUJlaGF2aW9yLAogIHVwc3RyZWFtRXJyb3JEZXRhaWw6IEdhdGV3YXlVcHN0cmVhbUVycm9yRGV0YWlsID0gImxlc3MiLAopOiB7IHVubWF0Y2hlZF9yb3V0ZTogR2F0ZXdheVVubWF0Y2hlZFJvdXRlQ29uZmlnIH0gPT4gKHsKICB1bm1hdGNoZWRfcm91dGU6IHsKICAgIGJlaGF2aW9yOiBub3JtYWxpemVHYXRld2F5VW5tYXRjaGVkUm91dGVCZWhhdmlvcihiZWhhdmlvciksCiAgICB1cHN0cmVhbV9lcnJvcl9kZXRhaWw6CiAgICAgIG5vcm1hbGl6ZUdhdGV3YXlVcHN0cmVhbUVycm9yRGV0YWlsKHVwc3RyZWFtRXJyb3JEZXRhaWwpLAogIH0sCn0pOwo=
+import type {
+  GatewayUnmatchedRouteBehavior,
+  GatewayUnmatchedRouteConfig,
+  GatewayUpstreamErrorDetail,
+} from "@/types";
+
+export const normalizeGatewayUnmatchedRouteBehavior = (
+  value?: string | null,
+): GatewayUnmatchedRouteBehavior =>
+  value === "reset_connection" ? "reset_connection" : "error_page";
+
+export const isDefaultDomainAvailableForBehavior = (
+  value?: string | null,
+): boolean => normalizeGatewayUnmatchedRouteBehavior(value) === "error_page";
+
+export const normalizeGatewayUpstreamErrorDetail = (
+  value?: string | null,
+): GatewayUpstreamErrorDetail =>
+  value === "more" || value === "reset_connection" ? value : "less";
+
+export const buildGatewayUnmatchedRoutePatch = (
+  behavior: GatewayUnmatchedRouteBehavior,
+  upstreamErrorDetail: GatewayUpstreamErrorDetail = "less",
+): { unmatched_route: GatewayUnmatchedRouteConfig } => ({
+  unmatched_route: {
+    behavior: normalizeGatewayUnmatchedRouteBehavior(behavior),
+    upstream_error_detail:
+      normalizeGatewayUpstreamErrorDetail(upstreamErrorDetail),
+  },
+});

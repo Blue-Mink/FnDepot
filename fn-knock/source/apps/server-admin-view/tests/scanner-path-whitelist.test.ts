@@ -1,1 +1,82 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKaW1wb3J0IHsKICBub3JtYWxpemVTY2FubmVyV2hpdGVsaXN0UGF0aCwKICB2YWxpZGF0ZVNjYW5uZXJXaGl0ZWxpc3RFbnRyaWVzLAp9IGZyb20gIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3Mvc2Nhbm5lci1wYXRoLXdoaXRlbGlzdC9zY2FubmVyUGF0aFdoaXRlbGlzdE1vZGVsIjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7CgpkZXNjcmliZSgic2Nhbm5lciBwYXRoIHdoaXRlbGlzdCBtb2RlbCIsICgpID0+IHsKICBpdCgibm9ybWFsaXplcyBxdWVyeSBzdHJpbmdzLCBmcmFnbWVudHMsIHdoaXRlc3BhY2UsIGFuZCB0cmFpbGluZyBzbGFzaGVzIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKAogICAgICBub3JtYWxpemVTY2FubmVyV2hpdGVsaXN0UGF0aCgiIC9hcHAvcGF0aC8/c291cmNlPXRlc3Qjc2VjdGlvbiAiKSwKICAgICAgIi9hcHAvcGF0aCIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKG5vcm1hbGl6ZVNjYW5uZXJXaGl0ZWxpc3RQYXRoKCIvIiksICIvIik7CiAgICBhc3NlcnQuZXF1YWwobm9ybWFsaXplU2Nhbm5lcldoaXRlbGlzdFBhdGgoIiAgICIpLCAiIik7CiAgfSk7CgogIGl0KCJ2YWxpZGF0ZXMgYWJzb2x1dGUgcGF0aHMgYW5kIGR1cGxpY2F0ZXMgYWZ0ZXIgbm9ybWFsaXphdGlvbiIsICgpID0+IHsKICAgIGNvbnN0IGVycm9ycyA9IHZhbGlkYXRlU2Nhbm5lcldoaXRlbGlzdEVudHJpZXMoWwogICAgICB7IGlkOiAxLCB2YWx1ZTogIi9hcHAvcGF0aC8iIH0sCiAgICAgIHsgaWQ6IDIsIHZhbHVlOiAiL2FwcC9wYXRoP3NvdXJjZT10ZXN0IiB9LAogICAgICB7IGlkOiAzLCB2YWx1ZTogInJlbGF0aXZlIiB9LAogICAgICB7IGlkOiA0LCB2YWx1ZTogIiIgfSwKICAgICAgeyBpZDogNSwgdmFsdWU6ICIvYmFkXG5wYXRoIiB9LAogICAgICB7IGlkOiA2LCB2YWx1ZTogIi90cmFpbGluZy1jb250cm9sXG4iIH0sCiAgICAgIHsgaWQ6IDcsIHZhbHVlOiAiL3VuaWNvZGUtY29udHJvbFx1MDA4NXBhdGgiIH0sCiAgICBdKTsKICAgIGFzc2VydC5lcXVhbChlcnJvcnMuZ2V0KDEpLCAiZHVwbGljYXRlIik7CiAgICBhc3NlcnQuZXF1YWwoZXJyb3JzLmdldCgyKSwgImR1cGxpY2F0ZSIpOwogICAgYXNzZXJ0LmVxdWFsKGVycm9ycy5nZXQoMyksICJhYnNvbHV0ZSIpOwogICAgYXNzZXJ0LmVxdWFsKGVycm9ycy5nZXQoNCksICJyZXF1aXJlZCIpOwogICAgYXNzZXJ0LmVxdWFsKGVycm9ycy5nZXQoNSksICJjb250cm9sQ2hhcmFjdGVycyIpOwogICAgYXNzZXJ0LmVxdWFsKGVycm9ycy5nZXQoNiksICJjb250cm9sQ2hhcmFjdGVycyIpOwogICAgYXNzZXJ0LmVxdWFsKGVycm9ycy5nZXQoNyksICJjb250cm9sQ2hhcmFjdGVycyIpOwogIH0pOwoKICBpdCgia2VlcHMgcGF0aCBtYXRjaGluZyBjYXNlLXNlbnNpdGl2ZSIsICgpID0+IHsKICAgIGFzc2VydC5ub3RFcXVhbCgKICAgICAgbm9ybWFsaXplU2Nhbm5lcldoaXRlbGlzdFBhdGgoIi9DYXNlU2Vuc2l0aXZlIiksCiAgICAgIG5vcm1hbGl6ZVNjYW5uZXJXaGl0ZWxpc3RQYXRoKCIvY2FzZXNlbnNpdGl2ZSIpLAogICAgKTsKICB9KTsKfSk7CgpkZXNjcmliZSgic2Nhbm5lciBwYXRoIHdoaXRlbGlzdCBVSSBib3VuZGFyaWVzIiwgKCkgPT4gewogIGl0KCJrZWVwcyB0aGUgcm91dGUsIHNldHRpbmdzIGVudHJ5LCBicmVhZGNydW1iLCBhbmQgZHJhZnQgZG9jayB3aXJlZCIsICgpID0+IHsKICAgIGNvbnN0IHJvdXRlciA9IHJlYWRTb3VyY2UoIi4uL3NyYy9yb3V0ZXIvaW5kZXgudHMiKTsKICAgIGNvbnN0IGZpcmV3YWxsID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvU2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MudnVlIiwKICAgICk7CiAgICBjb25zdCBwYWdlID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvU2Nhbm5lclBhdGhXaGl0ZWxpc3RTZXR0aW5ncy52dWUiLAogICAgKTsKCiAgICBhc3NlcnQubWF0Y2gocm91dGVyLCAvcGF0aDogInN5c3RlbVwvc2Nhbm5lci1wYXRoLXdoaXRlbGlzdCIvdSk7CiAgICBhc3NlcnQubWF0Y2goZmlyZXdhbGwsIC9TY2FubmVyUGF0aFdoaXRlbGlzdEVudHJ5L3UpOwogICAgYXNzZXJ0Lm1hdGNoKHBhZ2UsIC91c2VTY2FubmVyUGF0aFdoaXRlbGlzdFNldHRpbmdzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHBhZ2UsIC9CcmVhZGNydW1iU2VwYXJhdG9yL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHBhZ2UsIC9GbG9hdGluZ0FjdGlvbkRvY2svdSk7CiAgfSk7CgogIGl0KCJrZWVwcyBmYWxzZS1wb3NpdGl2ZSBiZWhhdmlvciBpbiBhIGhvb2sgYW5kIHRoZSBzaGFyZWQgdGFibGUgZ2VuZXJpYyIsICgpID0+IHsKICAgIGNvbnN0IGRpYWxvZyA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvc2Vzc2lvbi1tYW5hZ2VtZW50L0lwQmxhY2tsaXN0RGV0YWlsRGlhbG9nLnZ1ZSIsCiAgICApOwogICAgY29uc3QgY29udHJvbGxlciA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvc2Vzc2lvbi1tYW5hZ2VtZW50L3VzZUlwQmxhY2tsaXN0UGFnZS50cyIsCiAgICApOwogICAgY29uc3Qgc2hhcmVkVGFibGUgPSByZWFkU291cmNlKAogICAgICAiLi4vLi4vLi4vcGFja2FnZXMvYWRtaW4tc2hhcmVkL3NyYy9jb21wb25lbnRzL3Nlc3Npb24vQmxhY2tsaXN0SGl0c1RhYmxlLnZ1ZSIsCiAgICApOwoKICAgIGFzc2VydC5tYXRjaChkaWFsb2csIC8jYWN0aW9uPSJceyByb3cgXH0iL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNvbnRyb2xsZXIsIC91c2VTY2FubmVyRmFsc2VQb3NpdGl2ZS91KTsKICAgIGFzc2VydC5tYXRjaChzaGFyZWRUYWJsZSwgLzxzbG90IG5hbWU9ImFjdGlvbiIgOnJvdz0icm93IiBcLz4vdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKHNoYXJlZFRhYmxlLCAvZmFsc2VQb3NpdGl2ZXxTY2FubmVyQVBJL3UpOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+import {
+  normalizeScannerWhitelistPath,
+  validateScannerWhitelistEntries,
+} from "../src/views/system-settings/scanner-path-whitelist/scannerPathWhitelistModel";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+describe("scanner path whitelist model", () => {
+  it("normalizes query strings, fragments, whitespace, and trailing slashes", () => {
+    assert.equal(
+      normalizeScannerWhitelistPath(" /app/path/?source=test#section "),
+      "/app/path",
+    );
+    assert.equal(normalizeScannerWhitelistPath("/"), "/");
+    assert.equal(normalizeScannerWhitelistPath("   "), "");
+  });
+
+  it("validates absolute paths and duplicates after normalization", () => {
+    const errors = validateScannerWhitelistEntries([
+      { id: 1, value: "/app/path/" },
+      { id: 2, value: "/app/path?source=test" },
+      { id: 3, value: "relative" },
+      { id: 4, value: "" },
+      { id: 5, value: "/bad\npath" },
+      { id: 6, value: "/trailing-control\n" },
+      { id: 7, value: "/unicode-control\u0085path" },
+    ]);
+    assert.equal(errors.get(1), "duplicate");
+    assert.equal(errors.get(2), "duplicate");
+    assert.equal(errors.get(3), "absolute");
+    assert.equal(errors.get(4), "required");
+    assert.equal(errors.get(5), "controlCharacters");
+    assert.equal(errors.get(6), "controlCharacters");
+    assert.equal(errors.get(7), "controlCharacters");
+  });
+
+  it("keeps path matching case-sensitive", () => {
+    assert.notEqual(
+      normalizeScannerWhitelistPath("/CaseSensitive"),
+      normalizeScannerWhitelistPath("/casesensitive"),
+    );
+  });
+});
+
+describe("scanner path whitelist UI boundaries", () => {
+  it("keeps the route, settings entry, breadcrumb, and draft dock wired", () => {
+    const router = readSource("../src/router/index.ts");
+    const firewall = readSource(
+      "../src/views/system-settings/ScannerFirewallSettings.vue",
+    );
+    const page = readSource(
+      "../src/views/system-settings/ScannerPathWhitelistSettings.vue",
+    );
+
+    assert.match(router, /path: "system\/scanner-path-whitelist"/u);
+    assert.match(firewall, /ScannerPathWhitelistEntry/u);
+    assert.match(page, /useScannerPathWhitelistSettings/u);
+    assert.match(page, /BreadcrumbSeparator/u);
+    assert.match(page, /FloatingActionDock/u);
+  });
+
+  it("keeps false-positive behavior in a hook and the shared table generic", () => {
+    const dialog = readSource(
+      "../src/views/session-management/IpBlacklistDetailDialog.vue",
+    );
+    const controller = readSource(
+      "../src/views/session-management/useIpBlacklistPage.ts",
+    );
+    const sharedTable = readSource(
+      "../../../packages/admin-shared/src/components/session/BlacklistHitsTable.vue",
+    );
+
+    assert.match(dialog, /#action="\{ row \}"/u);
+    assert.match(controller, /useScannerFalsePositive/u);
+    assert.match(sharedTable, /<slot name="action" :row="row" \/>/u);
+    assert.doesNotMatch(sharedTable, /falsePositive|ScannerAPI/u);
+  });
+});

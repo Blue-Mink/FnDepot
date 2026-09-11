@@ -1,1 +1,189 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IFRvYXN0ZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc29ubmVyIjsKaW1wb3J0IHsKICBjb21wdXRlZCwKICBkZWZpbmVBc3luY0NvbXBvbmVudCwKICBvbk1vdW50ZWQsCiAgb25Vbm1vdW50ZWQsCiAgd2F0Y2gsCn0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0ICJ2dWUtc29ubmVyL3N0eWxlLmNzcyI7CmltcG9ydCB7IHVzZVRoZW1lTW9kZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS90aGVtZS10b2dnbGUiOwppbXBvcnQgeyBEWU5BTUlDX1dISVRFX1RIRU1FX0NPTE9SX1BSRVNFVF9LRVkgfSBmcm9tICJAZnJvbnRlbmQtY29yZS9hcHBlYXJhbmNlIjsKaW1wb3J0IHsgdXNlQXBwZWFyYW5jZVN0YXRlIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBcHBlYXJhbmNlU3RhdGUiOwppbXBvcnQgeyB1c2VEb2NrZXJBZG1pbkF1dGhTdG9yZSB9IGZyb20gIi4vc3RvcmUvZG9ja2VyQWRtaW5BdXRoIjsKaW1wb3J0IHsgc2V0Rm5Lbm9ja0xvY2FsZSB9IGZyb20gIkBmbi1rbm9jay9pMThuL3Z1ZS9hZG1pbiI7Cgpjb25zdCBEb2NrZXJBZG1pbkFjY2Vzc0dhdGUgPSBkZWZpbmVBc3luY0NvbXBvbmVudCgKICAoKSA9PiBpbXBvcnQoIi4vY29tcG9uZW50cy9Eb2NrZXJBZG1pbkFjY2Vzc0dhdGUudnVlIiksCik7CmNvbnN0IER5bmFtaWNXaGl0ZUJhY2tncm91bmQgPSBkZWZpbmVBc3luY0NvbXBvbmVudCgKICAoKSA9PgogICAgaW1wb3J0KCJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvYXBwZWFyYW5jZS9EeW5hbWljV2hpdGVCYWNrZ3JvdW5kLnZ1ZSIpLAopOwpjb25zdCBkb2NrZXJBZG1pbkF1dGhTdG9yZSA9IHVzZURvY2tlckFkbWluQXV0aFN0b3JlKCk7CmNvbnN0IHsgYWN0aXZlVGhlbWVDb2xvclByZXNldCB9ID0gdXNlQXBwZWFyYW5jZVN0YXRlKCk7CmNvbnN0IHsgcmVzb2x2ZWRNb2RlIH0gPSB1c2VUaGVtZU1vZGUoKTsKY29uc3QgaTE4biA9IHVzZUkxOG4oKTsKY29uc3Qgc2hvdWxkUmVuZGVyUm91dGVyID0gY29tcHV0ZWQoKCkgPT4gZG9ja2VyQWRtaW5BdXRoU3RvcmUuY2FuRW50ZXJBcHApOwpjb25zdCBzaG91bGRTaG93RG9ja2VyQWRtaW5HYXRlID0gY29tcHV0ZWQoKCkgPT4gewogIGlmIChkb2NrZXJBZG1pbkF1dGhTdG9yZS5ib290c3RyYXBFcnJvcikgcmV0dXJuIHRydWU7CiAgcmV0dXJuICgKICAgIGRvY2tlckFkbWluQXV0aFN0b3JlLmlzQm9vdHN0cmFwcGVkICYmCiAgICBkb2NrZXJBZG1pbkF1dGhTdG9yZS5pc0VuYWJsZWQgJiYKICAgICFkb2NrZXJBZG1pbkF1dGhTdG9yZS5pc0F1dGhlbnRpY2F0ZWQKICApOwp9KTsKY29uc3QgaXNEeW5hbWljV2hpdGVBY3RpdmUgPSBjb21wdXRlZCgKICAoKSA9PgogICAgcmVzb2x2ZWRNb2RlLnZhbHVlID09PSAibGlnaHQiICYmCiAgICBhY3RpdmVUaGVtZUNvbG9yUHJlc2V0LnZhbHVlID09PSBEWU5BTUlDX1dISVRFX1RIRU1FX0NPTE9SX1BSRVNFVF9LRVksCik7CmNvbnN0IGRvY2tlckFkbWluR2F0ZU1vZGUgPSBjb21wdXRlZCgoKSA9PgogIGRvY2tlckFkbWluQXV0aFN0b3JlLm5lZWRzUGFzc3dvcmRTZXR1cCA/ICJzZXR1cCIgOiAibG9naW4iLAopOwpjb25zdCBkb2NrZXJBZG1pbkdhdGVFcnJvciA9IGNvbXB1dGVkKCgpID0+IGRvY2tlckFkbWluQXV0aFN0b3JlLnN1Ym1pdEVycm9yKTsKY29uc3QgZG9ja2VyQWRtaW5HYXRlQm9vdHN0cmFwRXJyb3IgPSBjb21wdXRlZCgKICAoKSA9PiBkb2NrZXJBZG1pbkF1dGhTdG9yZS5ib290c3RyYXBFcnJvciwKKTsKY29uc3QgZG9ja2VyQWRtaW5HYXRlU2hvd1JldHJ5ID0gY29tcHV0ZWQoKCkgPT4KICBCb29sZWFuKGRvY2tlckFkbWluQXV0aFN0b3JlLmJvb3RzdHJhcEVycm9yKSwKKTsKY29uc3QgdG9hc3RPcHRpb25zID0gewogIGNsb3NlQnV0dG9uOiBmYWxzZSwKICBkdXJhdGlvbjogMjUwMCwKfTsKCmNvbnN0IGFwcGx5U3lzdGVtTG9jYWxlID0gYXN5bmMgKHZhbHVlOiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkKSA9PiB7CiAgYXdhaXQgc2V0Rm5Lbm9ja0xvY2FsZShpMThuLCB2YWx1ZSk7Cn07Cgpjb25zdCBib290c3RyYXBEb2NrZXJBZG1pbiA9IGFzeW5jIChmb3JjZSA9IGZhbHNlKSA9PiB7CiAgdHJ5IHsKICAgIGF3YWl0IGRvY2tlckFkbWluQXV0aFN0b3JlLmJvb3RzdHJhcCh7IGZvcmNlIH0pOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICBjb25zb2xlLmVycm9yKCJGYWlsZWQgdG8gYm9vdHN0cmFwIGRvY2tlciBhZG1pbiBhdXRoIiwgZXJyb3IpOwogIH0KfTsKCmNvbnN0IGhhbmRsZURvY2tlckFkbWluU3VibWl0ID0gYXN5bmMgKAogIHBhc3N3b3JkOiBzdHJpbmcsCiAgcmVtZW1iZXJNZTogYm9vbGVhbiwKKSA9PiB7CiAgdHJ5IHsKICAgIGF3YWl0IGRvY2tlckFkbWluQXV0aFN0b3JlLnN1Ym1pdFBhc3N3b3JkKHBhc3N3b3JkLCByZW1lbWJlck1lKTsKICB9IGNhdGNoIChlcnJvcikgewogICAgY29uc29sZS5lcnJvcigiRmFpbGVkIHRvIHN1Ym1pdCBkb2NrZXIgYWRtaW4gcGFzc3dvcmQiLCBlcnJvcik7CiAgfQp9OwoKY29uc3QgaGFuZGxlRG9ja2VyQWRtaW5SZXRyeSA9IGFzeW5jICgpID0+IHsKICBhd2FpdCBib290c3RyYXBEb2NrZXJBZG1pbih0cnVlKTsKfTsKCmNvbnN0IGhhbmRsZURvY2tlckFkbWluVW5hdXRob3JpemVkID0gKCkgPT4gewogIGRvY2tlckFkbWluQXV0aFN0b3JlLmhhbmRsZVVuYXV0aG9yaXplZCgpOwp9OwoKb25Nb3VudGVkKCgpID0+IHsKICB2b2lkIGJvb3RzdHJhcERvY2tlckFkbWluKCk7CgogIGlmICh0eXBlb2Ygd2luZG93ICE9PSAidW5kZWZpbmVkIikgewogICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoCiAgICAgICJmbi1rbm9jazpkb2NrZXItYWRtaW4tYXV0aC1yZXF1aXJlZCIsCiAgICAgIGhhbmRsZURvY2tlckFkbWluVW5hdXRob3JpemVkLAogICAgKTsKICB9Cn0pOwoKb25Vbm1vdW50ZWQoKCkgPT4gewogIGlmICh0eXBlb2Ygd2luZG93ICE9PSAidW5kZWZpbmVkIikgewogICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoCiAgICAgICJmbi1rbm9jazpkb2NrZXItYWRtaW4tYXV0aC1yZXF1aXJlZCIsCiAgICAgIGhhbmRsZURvY2tlckFkbWluVW5hdXRob3JpemVkLAogICAgKTsKICB9Cn0pOwoKd2F0Y2goCiAgKCkgPT4gZG9ja2VyQWRtaW5BdXRoU3RvcmUuc3RhdGU/LmxvY2FsZT8uZGVmYXVsdF9sb2NhbGUsCiAgKG5leHQpID0+IHsKICAgIGlmIChuZXh0KSB7CiAgICAgIHZvaWQgYXBwbHlTeXN0ZW1Mb2NhbGUobmV4dCkuY2F0Y2goKGVycm9yKSA9PiB7CiAgICAgICAgY29uc29sZS5lcnJvcigiRmFpbGVkIHRvIGFwcGx5IHN5c3RlbSBsb2NhbGUiLCBlcnJvcik7CiAgICAgIH0pOwogICAgfQogIH0sCiAgeyBpbW1lZGlhdGU6IHRydWUgfSwKKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPER5bmFtaWNXaGl0ZUJhY2tncm91bmQgdi1pZj0iaXNEeW5hbWljV2hpdGVBY3RpdmUiIDphY3RpdmU9InRydWUiIC8+CiAgPGRpdiB2LWlmPSJzaG91bGRSZW5kZXJSb3V0ZXIiIGNsYXNzPSJjb250ZW50cyI+CiAgICA8Um91dGVyVmlldyAvPgogIDwvZGl2PgogIDxEb2NrZXJBZG1pbkFjY2Vzc0dhdGUKICAgIHYtZWxzZS1pZj0ic2hvdWxkU2hvd0RvY2tlckFkbWluR2F0ZSIKICAgIDptb2RlPSJkb2NrZXJBZG1pbkdhdGVNb2RlIgogICAgOmxvYWRpbmc9IgogICAgICBkb2NrZXJBZG1pbkF1dGhTdG9yZS5pc0Jvb3RzdHJhcHBpbmcgfHwgZG9ja2VyQWRtaW5BdXRoU3RvcmUuaXNTdWJtaXR0aW5nCiAgICAiCiAgICA6ZXJyb3ItbWVzc2FnZT0iZG9ja2VyQWRtaW5HYXRlRXJyb3IiCiAgICA6Ym9vdHN0cmFwLWVycm9yLW1lc3NhZ2U9ImRvY2tlckFkbWluR2F0ZUJvb3RzdHJhcEVycm9yIgogICAgOnNob3ctcmV0cnk9ImRvY2tlckFkbWluR2F0ZVNob3dSZXRyeSIKICAgIDpkZXBsb3ltZW50LXRhcmdldD0iZG9ja2VyQWRtaW5BdXRoU3RvcmUuc3RhdGU/LmRlcGxveW1lbnRfdGFyZ2V0IgogICAgQHBhc3N3b3JkLWlucHV0PSJkb2NrZXJBZG1pbkF1dGhTdG9yZS5jbGVhclN1Ym1pdEVycm9yIgogICAgQHN1Ym1pdD0iaGFuZGxlRG9ja2VyQWRtaW5TdWJtaXQiCiAgICBAcmV0cnk9ImhhbmRsZURvY2tlckFkbWluUmV0cnkiCiAgLz4KICA8bWFpbgogICAgdi1lbHNlCiAgICBjbGFzcz0iZ3JpZCBtaW4taC1kdmggcGxhY2UtaXRlbXMtY2VudGVyIGJnLWJhY2tncm91bmQgcHgtNiB0ZXh0LWZvcmVncm91bmQiCiAgICByb2xlPSJzdGF0dXMiCiAgICBhcmlhLWxpdmU9InBvbGl0ZSIKICA+CiAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBnYXAtMyB0ZXh0LWNlbnRlciI+CiAgICAgIDxzcGFuCiAgICAgICAgY2xhc3M9ImgtOCB3LTggYW5pbWF0ZS1zcGluIHJvdW5kZWQtZnVsbCBib3JkZXItMiBib3JkZXItbXV0ZWQgYm9yZGVyLWItcHJpbWFyeSIKICAgICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgPjwvc3Bhbj4KICAgICAgPHAgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5mbi1rbm9jazwvcD4KICAgIDwvZGl2PgogIDwvbWFpbj4KICA8VG9hc3RlcgogICAgcG9zaXRpb249InRvcC1jZW50ZXIiCiAgICA6ZHVyYXRpb249IjIwMDAiCiAgICA6dG9hc3Qtb3B0aW9ucz0idG9hc3RPcHRpb25zIgogIC8+CjwvdGVtcGxhdGU+Cgo8c3R5bGU+CltkYXRhLXNvbm5lci10b2FzdF1bZGF0YS1zdHlsZWQ9InRydWUiXSB7CiAgcGFkZGluZy1yaWdodDogNDRweDsKfQoKW2RhdGEtc29ubmVyLXRvYXN0XVtkYXRhLXN0eWxlZD0idHJ1ZSJdIFtkYXRhLWNsb3NlLWJ1dHRvbl0gewogIGxlZnQ6IGF1dG87CiAgcmlnaHQ6IDEwcHg7CiAgdG9wOiAxMHB4OwogIGJvdHRvbTogYXV0bzsKICB3aWR0aDogMjRweDsKICBoZWlnaHQ6IDI0cHg7CiAgdHJhbnNmb3JtOiBub25lOwogIG9wYWNpdHk6IDE7CiAgYmFja2dyb3VuZDogdmFyKC0tbm9ybWFsLWJnKTsKICBib3JkZXItY29sb3I6IHZhcigtLW5vcm1hbC1ib3JkZXIpOwogIGNvbG9yOiB2YXIoLS1ub3JtYWwtdGV4dCk7Cn0KCltkYXRhLXNvbm5lci10b2FzdF1bZGF0YS1zdHlsZWQ9InRydWUiXSBbZGF0YS1jbG9zZS1idXR0b25dOmhvdmVyIHsKICBiYWNrZ3JvdW5kOiB2YXIoLS1tdXRlZCk7Cn0KCltkYXRhLXNvbm5lci10b2FzdF1bZGF0YS1zdHlsZWQ9InRydWUiXSBbZGF0YS1jbG9zZS1idXR0b25dIHN2ZyB7CiAgd2lkdGg6IDE0cHg7CiAgaGVpZ2h0OiAxNHB4Owp9Cjwvc3R5bGU+Cg==
+<script setup lang="ts">
+import { Toaster } from "@/components/ui/sonner";
+import {
+  computed,
+  defineAsyncComponent,
+  onMounted,
+  onUnmounted,
+  watch,
+} from "vue";
+import { useI18n } from "vue-i18n";
+import "vue-sonner/style.css";
+import { useThemeMode } from "@/components/ui/theme-toggle";
+import { DYNAMIC_WHITE_THEME_COLOR_PRESET_KEY } from "@frontend-core/appearance";
+import { useAppearanceState } from "@admin-shared/composables/useAppearanceState";
+import { useDockerAdminAuthStore } from "./store/dockerAdminAuth";
+import { setFnKnockLocale } from "@fn-knock/i18n/vue/admin";
+
+const DockerAdminAccessGate = defineAsyncComponent(
+  () => import("./components/DockerAdminAccessGate.vue"),
+);
+const DynamicWhiteBackground = defineAsyncComponent(
+  () =>
+    import("@admin-shared/components/appearance/DynamicWhiteBackground.vue"),
+);
+const dockerAdminAuthStore = useDockerAdminAuthStore();
+const { activeThemeColorPreset } = useAppearanceState();
+const { resolvedMode } = useThemeMode();
+const i18n = useI18n();
+const shouldRenderRouter = computed(() => dockerAdminAuthStore.canEnterApp);
+const shouldShowDockerAdminGate = computed(() => {
+  if (dockerAdminAuthStore.bootstrapError) return true;
+  return (
+    dockerAdminAuthStore.isBootstrapped &&
+    dockerAdminAuthStore.isEnabled &&
+    !dockerAdminAuthStore.isAuthenticated
+  );
+});
+const isDynamicWhiteActive = computed(
+  () =>
+    resolvedMode.value === "light" &&
+    activeThemeColorPreset.value === DYNAMIC_WHITE_THEME_COLOR_PRESET_KEY,
+);
+const dockerAdminGateMode = computed(() =>
+  dockerAdminAuthStore.needsPasswordSetup ? "setup" : "login",
+);
+const dockerAdminGateError = computed(() => dockerAdminAuthStore.submitError);
+const dockerAdminGateBootstrapError = computed(
+  () => dockerAdminAuthStore.bootstrapError,
+);
+const dockerAdminGateShowRetry = computed(() =>
+  Boolean(dockerAdminAuthStore.bootstrapError),
+);
+const toastOptions = {
+  closeButton: false,
+  duration: 2500,
+};
+
+const applySystemLocale = async (value: string | null | undefined) => {
+  await setFnKnockLocale(i18n, value);
+};
+
+const bootstrapDockerAdmin = async (force = false) => {
+  try {
+    await dockerAdminAuthStore.bootstrap({ force });
+  } catch (error) {
+    console.error("Failed to bootstrap docker admin auth", error);
+  }
+};
+
+const handleDockerAdminSubmit = async (
+  password: string,
+  rememberMe: boolean,
+) => {
+  try {
+    await dockerAdminAuthStore.submitPassword(password, rememberMe);
+  } catch (error) {
+    console.error("Failed to submit docker admin password", error);
+  }
+};
+
+const handleDockerAdminRetry = async () => {
+  await bootstrapDockerAdmin(true);
+};
+
+const handleDockerAdminUnauthorized = () => {
+  dockerAdminAuthStore.handleUnauthorized();
+};
+
+onMounted(() => {
+  void bootstrapDockerAdmin();
+
+  if (typeof window !== "undefined") {
+    window.addEventListener(
+      "fn-knock:docker-admin-auth-required",
+      handleDockerAdminUnauthorized,
+    );
+  }
+});
+
+onUnmounted(() => {
+  if (typeof window !== "undefined") {
+    window.removeEventListener(
+      "fn-knock:docker-admin-auth-required",
+      handleDockerAdminUnauthorized,
+    );
+  }
+});
+
+watch(
+  () => dockerAdminAuthStore.state?.locale?.default_locale,
+  (next) => {
+    if (next) {
+      void applySystemLocale(next).catch((error) => {
+        console.error("Failed to apply system locale", error);
+      });
+    }
+  },
+  { immediate: true },
+);
+</script>
+
+<template>
+  <DynamicWhiteBackground v-if="isDynamicWhiteActive" :active="true" />
+  <div v-if="shouldRenderRouter" class="contents">
+    <RouterView />
+  </div>
+  <DockerAdminAccessGate
+    v-else-if="shouldShowDockerAdminGate"
+    :mode="dockerAdminGateMode"
+    :loading="
+      dockerAdminAuthStore.isBootstrapping || dockerAdminAuthStore.isSubmitting
+    "
+    :error-message="dockerAdminGateError"
+    :bootstrap-error-message="dockerAdminGateBootstrapError"
+    :show-retry="dockerAdminGateShowRetry"
+    :deployment-target="dockerAdminAuthStore.state?.deployment_target"
+    @password-input="dockerAdminAuthStore.clearSubmitError"
+    @submit="handleDockerAdminSubmit"
+    @retry="handleDockerAdminRetry"
+  />
+  <main
+    v-else
+    class="grid min-h-dvh place-items-center bg-background px-6 text-foreground"
+    role="status"
+    aria-live="polite"
+  >
+    <div class="flex flex-col items-center gap-3 text-center">
+      <span
+        class="h-8 w-8 animate-spin rounded-full border-2 border-muted border-b-primary"
+        aria-hidden="true"
+      ></span>
+      <p class="text-sm text-muted-foreground">fn-knock</p>
+    </div>
+  </main>
+  <Toaster
+    position="top-center"
+    :duration="2000"
+    :toast-options="toastOptions"
+  />
+</template>
+
+<style>
+[data-sonner-toast][data-styled="true"] {
+  padding-right: 44px;
+}
+
+[data-sonner-toast][data-styled="true"] [data-close-button] {
+  left: auto;
+  right: 10px;
+  top: 10px;
+  bottom: auto;
+  width: 24px;
+  height: 24px;
+  transform: none;
+  opacity: 1;
+  background: var(--normal-bg);
+  border-color: var(--normal-border);
+  color: var(--normal-text);
+}
+
+[data-sonner-toast][data-styled="true"] [data-close-button]:hover {
+  background: var(--muted);
+}
+
+[data-sonner-toast][data-styled="true"] [data-close-button] svg {
+  width: 14px;
+  height: 14px;
+}
+</style>

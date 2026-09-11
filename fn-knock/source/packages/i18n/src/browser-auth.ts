@@ -1,1 +1,16 @@
-aW1wb3J0IHsKICByZWdpc3RlclNjb3BlZExvY2FsZUxvYWRlcnMsCiAgdHlwZSBMb2NhbGVMb2FkZXJNYXAsCn0gZnJvbSAiLi9icm93c2VyLXJ1bnRpbWUiOwoKY29uc3QgYXV0aExvY2FsZUxvYWRlcnM6IExvY2FsZUxvYWRlck1hcCA9IHsKICAiemgtQ04iOiAoKSA9PiBpbXBvcnQoIi4vbWVzc2FnZXMvc2NvcGVzL2F1dGgvemgtQ04iKSwKICAiemgtSGFudCI6ICgpID0+IGltcG9ydCgiLi9tZXNzYWdlcy9zY29wZXMvYXV0aC96aC1IYW50IiksCiAgZW46ICgpID0+IGltcG9ydCgiLi9tZXNzYWdlcy9zY29wZXMvYXV0aC9lbiIpLAogICJrby1LUiI6ICgpID0+IGltcG9ydCgiLi9tZXNzYWdlcy9zY29wZXMvYXV0aC9rby1LUiIpLAogICJqYS1KUCI6ICgpID0+IGltcG9ydCgiLi9tZXNzYWdlcy9zY29wZXMvYXV0aC9qYS1KUCIpLAp9OwoKcmVnaXN0ZXJTY29wZWRMb2NhbGVMb2FkZXJzKCJhdXRoIiwgYXV0aExvY2FsZUxvYWRlcnMpOwoKZXhwb3J0IHsgYXV0aExvY2FsZUxvYWRlcnMgfTsK
+import {
+  registerScopedLocaleLoaders,
+  type LocaleLoaderMap,
+} from "./browser-runtime";
+
+const authLocaleLoaders: LocaleLoaderMap = {
+  "zh-CN": () => import("./messages/scopes/auth/zh-CN"),
+  "zh-Hant": () => import("./messages/scopes/auth/zh-Hant"),
+  en: () => import("./messages/scopes/auth/en"),
+  "ko-KR": () => import("./messages/scopes/auth/ko-KR"),
+  "ja-JP": () => import("./messages/scopes/auth/ja-JP"),
+};
+
+registerScopedLocaleLoaders("auth", authLocaleLoaders);
+
+export { authLocaleLoaders };

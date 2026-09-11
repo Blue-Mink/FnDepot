@@ -1,1 +1,29 @@
-ZXhwb3J0IHR5cGUgUHJveHlNYXBwaW5nRmllbGRzID0gewogIHBhdGg6IHN0cmluZzsKICB0YXJnZXQ6IHN0cmluZzsKICByZXdyaXRlX2h0bWw/OiBib29sZWFuOwogIHVzZV9hdXRoPzogYm9vbGVhbjsKICB1c2Vfcm9vdF9tb2RlPzogYm9vbGVhbjsKICBzdHJpcF9wYXRoPzogYm9vbGVhbjsKfTsKCmV4cG9ydCBjb25zdCBERUZBVUxUX1BST1hZX01BUFBJTkdfRkxBR1MgPSB7CiAgcmV3cml0ZV9odG1sOiB0cnVlLAogIHVzZV9hdXRoOiB0cnVlLAogIHVzZV9yb290X21vZGU6IGZhbHNlLAogIHN0cmlwX3BhdGg6IHRydWUsCn0gYXMgY29uc3Q7CgpleHBvcnQgY29uc3QgYnVpbGRQcm94eU1hcHBpbmcgPSAoCiAgaW5wdXQ6IFByb3h5TWFwcGluZ0ZpZWxkcywKICBkZWZhdWx0czogUGFydGlhbDx0eXBlb2YgREVGQVVMVF9QUk9YWV9NQVBQSU5HX0ZMQUdTPiA9IERFRkFVTFRfUFJPWFlfTUFQUElOR19GTEFHUywKKSA9PiB7CiAgcmV0dXJuIHsKICAgIHBhdGg6IGlucHV0LnBhdGgudHJpbSgpLAogICAgdGFyZ2V0OiBpbnB1dC50YXJnZXQudHJpbSgpLAogICAgcmV3cml0ZV9odG1sOiBpbnB1dC5yZXdyaXRlX2h0bWwgPz8gZGVmYXVsdHMucmV3cml0ZV9odG1sID8/IHRydWUsCiAgICB1c2VfYXV0aDogaW5wdXQudXNlX2F1dGggPz8gZGVmYXVsdHMudXNlX2F1dGggPz8gdHJ1ZSwKICAgIHVzZV9yb290X21vZGU6IGlucHV0LnVzZV9yb290X21vZGUgPz8gZGVmYXVsdHMudXNlX3Jvb3RfbW9kZSA/PyBmYWxzZSwKICAgIHN0cmlwX3BhdGg6IGlucHV0LnN0cmlwX3BhdGggPz8gZGVmYXVsdHMuc3RyaXBfcGF0aCA/PyB0cnVlLAogIH07Cn07Cg==
+export type ProxyMappingFields = {
+  path: string;
+  target: string;
+  rewrite_html?: boolean;
+  use_auth?: boolean;
+  use_root_mode?: boolean;
+  strip_path?: boolean;
+};
+
+export const DEFAULT_PROXY_MAPPING_FLAGS = {
+  rewrite_html: true,
+  use_auth: true,
+  use_root_mode: false,
+  strip_path: true,
+} as const;
+
+export const buildProxyMapping = (
+  input: ProxyMappingFields,
+  defaults: Partial<typeof DEFAULT_PROXY_MAPPING_FLAGS> = DEFAULT_PROXY_MAPPING_FLAGS,
+) => {
+  return {
+    path: input.path.trim(),
+    target: input.target.trim(),
+    rewrite_html: input.rewrite_html ?? defaults.rewrite_html ?? true,
+    use_auth: input.use_auth ?? defaults.use_auth ?? true,
+    use_root_mode: input.use_root_mode ?? defaults.use_root_mode ?? false,
+    strip_path: input.strip_path ?? defaults.strip_path ?? true,
+  };
+};

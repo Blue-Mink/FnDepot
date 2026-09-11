@@ -1,1 +1,237 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsKICBBbGVydFRyaWFuZ2xlLAogIENoZWNrQ2lyY2xlMiwKICBMb2FkZXIyLAogIFBsdWdaYXAsCiAgU2F2ZSwKfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBBbGVydCwgQWxlcnREZXNjcmlwdGlvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9hbGVydCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgewogIFNlbGVjdCwKICBTZWxlY3RDb250ZW50LAogIFNlbGVjdEl0ZW0sCiAgU2VsZWN0VHJpZ2dlciwKICBTZWxlY3RWYWx1ZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKaW1wb3J0IHsgU3dpdGNoIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N3aXRjaCI7CmltcG9ydCB0eXBlIHsKICBQYW5lbFByb3ZpZGVyLAogIFBhbmVsUHJvdmlkZXJEZXNjcmlwdG9yLAp9IGZyb20gIkAvbGliL2FwaS9wYW5lbC1zeW5jLWFwaSI7CmltcG9ydCB7IHBhbmVsQXBpUGF0aHMsIHR5cGUgUGFuZWxTeW5jRWRpdG9yRm9ybSB9IGZyb20gIi4vcGFuZWwtc3luYy1tb2RlbCI7CmltcG9ydCBQcm92aWRlclBpY2tlciBmcm9tICIuL1Byb3ZpZGVyUGlja2VyLnZ1ZSI7CgpkZWZpbmVQcm9wczx7CiAgYXV0b1N5bmNSZWFkeTogYm9vbGVhbjsKICBkcmFmdFZlcmlmaWVkOiBib29sZWFuOwogIGZvcm06IFBhbmVsU3luY0VkaXRvckZvcm07CiAgaXNFZGl0aW5nOiBib29sZWFuOwogIG9wZW46IGJvb2xlYW47CiAgcHJvdmlkZXJzOiBQYW5lbFByb3ZpZGVyRGVzY3JpcHRvcltdOwogIHNhdmluZzogYm9vbGVhbjsKICB0ZXN0aW5nOiBib29sZWFuOwp9PigpOwpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICJ1cGRhdGU6b3BlbiI6IFt2YWx1ZTogYm9vbGVhbl07CiAgInNlbGVjdC1wcm92aWRlciI6IFtwcm92aWRlcjogUGFuZWxQcm92aWRlcl07CiAgc2F2ZTogW107CiAgdGVzdDogW107Cn0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBpZCA9IHVzZUlkKCk7CmNvbnN0IGVuZHBvaW50UGxhY2Vob2xkZXIgPSAocHJvdmlkZXI6IFBhbmVsUHJvdmlkZXIpID0+CiAgYGh0dHBzOi8vcGFuZWwuZXhhbXBsZS5jb20ke3BhbmVsQXBpUGF0aHNbcHJvdmlkZXJdfWA7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iZW1pdCgndXBkYXRlOm9wZW4nLCAkZXZlbnQpIj4KICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJtYXgtaC1bOTB2aF0gb3ZlcmZsb3cteS1hdXRvIHNtOm1heC13LTJ4bCI+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPnt7CiAgICAgICAgICBpc0VkaXRpbmcKICAgICAgICAgICAgPyB0KCJhZG1pbi5wYW5lbFN5bmMuZWRpdG9yLmVkaXRUaXRsZSIpCiAgICAgICAgICAgIDogdCgiYWRtaW4ucGFuZWxTeW5jLmVkaXRvci5jcmVhdGVUaXRsZSIpCiAgICAgICAgfX08L0RpYWxvZ1RpdGxlPgogICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj57ewogICAgICAgICAgdCgiYWRtaW4ucGFuZWxTeW5jLmVkaXRvci5kZXNjcmlwdGlvbiIpCiAgICAgICAgfX08L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICA8L0RpYWxvZ0hlYWRlcj4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS01IHB5LTIiPgogICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTQgc206Z3JpZC1jb2xzLTIiPgogICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgICAgPExhYmVsIDpmb3I9ImAke2lkfS1wcm92aWRlcmAiPnt7CiAgICAgICAgICAgICAgdCgiYWRtaW4ucGFuZWxTeW5jLmVkaXRvci5wcm92aWRlciIpCiAgICAgICAgICAgIH19PC9MYWJlbD4KICAgICAgICAgICAgPFByb3ZpZGVyUGlja2VyCiAgICAgICAgICAgICAgOmlucHV0LWlkPSJgJHtpZH0tcHJvdmlkZXJgIgogICAgICAgICAgICAgIDptb2RlbC12YWx1ZT0iZm9ybS5wcm92aWRlciIKICAgICAgICAgICAgICA6cHJvdmlkZXJzPSJwcm92aWRlcnMiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc0VkaXRpbmciCiAgICAgICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgnc2VsZWN0LXByb3ZpZGVyJywgJGV2ZW50KSIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgICAgPExhYmVsIDpmb3I9ImAke2lkfS1uYW1lYCI+e3sKICAgICAgICAgICAgICB0KCJhZG1pbi5wYW5lbFN5bmMuZWRpdG9yLm5hbWUiKQogICAgICAgICAgICB9fTwvTGFiZWw+CiAgICAgICAgICAgIDxJbnB1dCA6aWQ9ImAke2lkfS1uYW1lYCIgdi1tb2RlbD0iZm9ybS5uYW1lIiBhdXRvY29tcGxldGU9Im9mZiIgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICA8TGFiZWwgOmZvcj0iYCR7aWR9LXVybGAiPnt7CiAgICAgICAgICAgIHQoImFkbWluLnBhbmVsU3luYy5lZGl0b3IuZW5kcG9pbnRVcmwiKQogICAgICAgICAgfX08L0xhYmVsPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIDppZD0iYCR7aWR9LXVybGAiCiAgICAgICAgICAgIHYtbW9kZWw9ImZvcm0uZW5kcG9pbnRfdXJsIgogICAgICAgICAgICA6cGxhY2Vob2xkZXI9ImVuZHBvaW50UGxhY2Vob2xkZXIoZm9ybS5wcm92aWRlcikiCiAgICAgICAgICAgIGF1dG9jb21wbGV0ZT0idXJsIgogICAgICAgICAgLz4KICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnBhbmVsU3luYy5lZGl0b3IuZW5kcG9pbnRIaW50IikgfX0KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgPExhYmVsIDpmb3I9ImAke2lkfS1jcmVkZW50aWFsYCI+e3sKICAgICAgICAgICAgdCgiYWRtaW4ucGFuZWxTeW5jLmVkaXRvci5jcmVkZW50aWFsIikKICAgICAgICAgIH19PC9MYWJlbD4KICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICA6aWQ9ImAke2lkfS1jcmVkZW50aWFsYCIKICAgICAgICAgICAgdi1tb2RlbD0iZm9ybS5jcmVkZW50aWFsIgogICAgICAgICAgICB0eXBlPSJwYXNzd29yZCIKICAgICAgICAgICAgYXV0b2NvbXBsZXRlPSJuZXctcGFzc3dvcmQiCiAgICAgICAgICAgIDpkaXNhYmxlZD0iZm9ybS5jbGVhcl9jcmVkZW50aWFsIgogICAgICAgICAgICA6cGxhY2Vob2xkZXI9IgogICAgICAgICAgICAgIGlzRWRpdGluZyA/IHQoJ2FkbWluLnBhbmVsU3luYy5lZGl0b3IuY3JlZGVudGlhbEtlZXAnKSA6ICcnCiAgICAgICAgICAgICIKICAgICAgICAgIC8+CiAgICAgICAgICA8bGFiZWwKICAgICAgICAgICAgdi1pZj0iaXNFZGl0aW5nIgogICAgICAgICAgICBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxpbnB1dCB2LW1vZGVsPSJmb3JtLmNsZWFyX2NyZWRlbnRpYWwiIHR5cGU9ImNoZWNrYm94IiAvPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5wYW5lbFN5bmMuZWRpdG9yLmNsZWFyQ3JlZGVudGlhbCIpIH19CiAgICAgICAgICA8L2xhYmVsPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzPSJncmlkIGdhcC00IgogICAgICAgICAgOmNsYXNzPSJmb3JtLmdyb3VwaW5nLm1vZGUgPT09ICdzaW5nbGUnID8gJ3NtOmdyaWQtY29scy0yJyA6ICcnIgogICAgICAgID4KICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICAgIDxMYWJlbCA6Zm9yPSJgJHtpZH0tZ3JvdXAtbW9kZWAiPnt7CiAgICAgICAgICAgICAgdCgiYWRtaW4ucGFuZWxTeW5jLmVkaXRvci5ncm91cE1vZGUiKQogICAgICAgICAgICB9fTwvTGFiZWw+CiAgICAgICAgICAgIDxTZWxlY3QKICAgICAgICAgICAgICA6bW9kZWwtdmFsdWU9ImZvcm0uZ3JvdXBpbmcubW9kZSIKICAgICAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSIKICAgICAgICAgICAgICAgIGZvcm0uZ3JvdXBpbmcubW9kZSA9CiAgICAgICAgICAgICAgICAgICRldmVudCBhcyBQYW5lbFN5bmNFZGl0b3JGb3JtWydncm91cGluZyddWydtb2RlJ10KICAgICAgICAgICAgICAiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8U2VsZWN0VHJpZ2dlciA6aWQ9ImAke2lkfS1ncm91cC1tb2RlYCIgY2xhc3M9InctZnVsbCI+CiAgICAgICAgICAgICAgICA8U2VsZWN0VmFsdWUgLz4KICAgICAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0ibWlycm9yIj4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucGFuZWxTeW5jLmVkaXRvci5taXJyb3IiKSB9fQogICAgICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgICAgICAgPFNlbGVjdEl0ZW0gdmFsdWU9InNpbmdsZSI+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnBhbmVsU3luYy5lZGl0b3Iuc2luZ2xlIikgfX0KICAgICAgICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgIDwvU2VsZWN0PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IHYtaWY9ImZvcm0uZ3JvdXBpbmcubW9kZSA9PT0gJ3NpbmdsZSciIGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgICA8TGFiZWwgOmZvcj0iYCR7aWR9LW5hbWVzcGFjZWAiPnt7CiAgICAgICAgICAgICAgdCgiYWRtaW4ucGFuZWxTeW5jLmVkaXRvci5zaW5nbGVHcm91cCIpCiAgICAgICAgICAgIH19PC9MYWJlbD4KICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgOmlkPSJgJHtpZH0tbmFtZXNwYWNlYCIKICAgICAgICAgICAgICB2LW1vZGVsPSJmb3JtLmdyb3VwaW5nLnNpbmdsZV9ncm91cF9uYW1lIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgcC0zIj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5wYW5lbFN5bmMuYXV0b1N5bmMiKSB9fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnBhbmVsU3luYy5lZGl0b3IuYXV0b0hpbnQiKSB9fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPFN3aXRjaAogICAgICAgICAgICAgIHYtbW9kZWw9ImZvcm0uYXV0b19zeW5jLmVuYWJsZWQiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJmb3JtLmNsZWFyX2NyZWRlbnRpYWwiCiAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLnBhbmVsU3luYy5hdXRvU3luYycpIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJtdC0zIGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgOmlkPSJgJHtpZH0taW50ZXJ2YWxgIgogICAgICAgICAgICAgIHYtbW9kZWwubnVtYmVyPSJmb3JtLmF1dG9fc3luYy5pbnRlcnZhbF9taW51dGVzIgogICAgICAgICAgICAgIHR5cGU9Im51bWJlciIKICAgICAgICAgICAgICBtaW49IjUiCiAgICAgICAgICAgICAgbWF4PSIxNDQwIgogICAgICAgICAgICAgIGNsYXNzPSJ3LTI4IgogICAgICAgICAgICAgIDphcmlhLWxhYmVsPSIKICAgICAgICAgICAgICAgIHQoJ2FkbWluLnBhbmVsU3luYy5ldmVyeU1pbnV0ZXMnLCB7CiAgICAgICAgICAgICAgICAgIGNvdW50OiBmb3JtLmF1dG9fc3luYy5pbnRlcnZhbF9taW51dGVzLAogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAiCiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3sKICAgICAgICAgICAgICB0KCJhZG1pbi5wYW5lbFN5bmMubWludXRlcyIpCiAgICAgICAgICAgIH19PC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPEFsZXJ0IHYtaWY9ImRyYWZ0VmVyaWZpZWQiPgogICAgICAgICAgPENoZWNrQ2lyY2xlMiBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgIDxBbGVydERlc2NyaXB0aW9uPnt7CiAgICAgICAgICAgIHQoImFkbWluLnBhbmVsU3luYy5lZGl0b3IuZHJhZnRUZXN0ZWQiKQogICAgICAgICAgfX08L0FsZXJ0RGVzY3JpcHRpb24+CiAgICAgICAgPC9BbGVydD4KICAgICAgICA8QWxlcnQgdi1lbHNlLWlmPSIhYXV0b1N5bmNSZWFkeSI+CiAgICAgICAgICA8QWxlcnRUcmlhbmdsZSBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgIDxBbGVydERlc2NyaXB0aW9uPnt7CiAgICAgICAgICAgIHQoImFkbWluLnBhbmVsU3luYy5lZGl0b3IudW52ZXJpZmllZEhpbnQiKQogICAgICAgICAgfX08L0FsZXJ0RGVzY3JpcHRpb24+CiAgICAgICAgPC9BbGVydD4KICAgICAgPC9kaXY+CiAgICAgIDxEaWFsb2dGb290ZXIgY2xhc3M9ImdhcC0yIHNtOmdhcC0yIj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgOmRpc2FibGVkPSJ0ZXN0aW5nIHx8IHNhdmluZyB8fCAhZm9ybS5lbmRwb2ludF91cmwudHJpbSgpIgogICAgICAgICAgQGNsaWNrPSJlbWl0KCd0ZXN0JykiCiAgICAgICAgPgogICAgICAgICAgPExvYWRlcjIgdi1pZj0idGVzdGluZyIgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4iIC8+CiAgICAgICAgICA8UGx1Z1phcCB2LWVsc2UgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLnBhbmVsU3luYy50ZXN0RHJhZnQiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIDpkaXNhYmxlZD0ic2F2aW5nIHx8ICFmb3JtLm5hbWUudHJpbSgpIHx8ICFmb3JtLmVuZHBvaW50X3VybC50cmltKCkiCiAgICAgICAgICBAY2xpY2s9ImVtaXQoJ3NhdmUnKSIKICAgICAgICA+CiAgICAgICAgICA8TG9hZGVyMiB2LWlmPSJzYXZpbmciIGNsYXNzPSJtci0yIGgtNCB3LTQgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgICAgPFNhdmUgdi1lbHNlIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICB7eyBzYXZpbmcgPyB0KCJhZG1pbi5wYW5lbFN5bmMuc2F2aW5nIikgOiB0KCJjb21tb24uc2F2ZSIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useId } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  AlertTriangle,
+  CheckCircle2,
+  Loader2,
+  PlugZap,
+  Save,
+} from "lucide-vue-next";
+import { Alert, AlertDescription } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Switch } from "@/components/ui/switch";
+import type {
+  PanelProvider,
+  PanelProviderDescriptor,
+} from "@/lib/api/panel-sync-api";
+import { panelApiPaths, type PanelSyncEditorForm } from "./panel-sync-model";
+import ProviderPicker from "./ProviderPicker.vue";
+
+defineProps<{
+  autoSyncReady: boolean;
+  draftVerified: boolean;
+  form: PanelSyncEditorForm;
+  isEditing: boolean;
+  open: boolean;
+  providers: PanelProviderDescriptor[];
+  saving: boolean;
+  testing: boolean;
+}>();
+const emit = defineEmits<{
+  "update:open": [value: boolean];
+  "select-provider": [provider: PanelProvider];
+  save: [];
+  test: [];
+}>();
+const { t } = useI18n();
+const id = useId();
+const endpointPlaceholder = (provider: PanelProvider) =>
+  `https://panel.example.com${panelApiPaths[provider]}`;
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="max-h-[90vh] overflow-y-auto sm:max-w-2xl">
+      <DialogHeader>
+        <DialogTitle>{{
+          isEditing
+            ? t("admin.panelSync.editor.editTitle")
+            : t("admin.panelSync.editor.createTitle")
+        }}</DialogTitle>
+        <DialogDescription>{{
+          t("admin.panelSync.editor.description")
+        }}</DialogDescription>
+      </DialogHeader>
+      <div class="space-y-5 py-2">
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div class="space-y-2">
+            <Label :for="`${id}-provider`">{{
+              t("admin.panelSync.editor.provider")
+            }}</Label>
+            <ProviderPicker
+              :input-id="`${id}-provider`"
+              :model-value="form.provider"
+              :providers="providers"
+              :disabled="isEditing"
+              @update:model-value="emit('select-provider', $event)"
+            />
+          </div>
+          <div class="space-y-2">
+            <Label :for="`${id}-name`">{{
+              t("admin.panelSync.editor.name")
+            }}</Label>
+            <Input :id="`${id}-name`" v-model="form.name" autocomplete="off" />
+          </div>
+        </div>
+        <div class="space-y-2">
+          <Label :for="`${id}-url`">{{
+            t("admin.panelSync.editor.endpointUrl")
+          }}</Label>
+          <Input
+            :id="`${id}-url`"
+            v-model="form.endpoint_url"
+            :placeholder="endpointPlaceholder(form.provider)"
+            autocomplete="url"
+          />
+          <p class="text-xs text-muted-foreground">
+            {{ t("admin.panelSync.editor.endpointHint") }}
+          </p>
+        </div>
+        <div class="space-y-2">
+          <Label :for="`${id}-credential`">{{
+            t("admin.panelSync.editor.credential")
+          }}</Label>
+          <Input
+            :id="`${id}-credential`"
+            v-model="form.credential"
+            type="password"
+            autocomplete="new-password"
+            :disabled="form.clear_credential"
+            :placeholder="
+              isEditing ? t('admin.panelSync.editor.credentialKeep') : ''
+            "
+          />
+          <label
+            v-if="isEditing"
+            class="flex items-center gap-2 text-sm text-muted-foreground"
+          >
+            <input v-model="form.clear_credential" type="checkbox" />
+            {{ t("admin.panelSync.editor.clearCredential") }}
+          </label>
+        </div>
+        <div
+          class="grid gap-4"
+          :class="form.grouping.mode === 'single' ? 'sm:grid-cols-2' : ''"
+        >
+          <div class="space-y-2">
+            <Label :for="`${id}-group-mode`">{{
+              t("admin.panelSync.editor.groupMode")
+            }}</Label>
+            <Select
+              :model-value="form.grouping.mode"
+              @update:model-value="
+                form.grouping.mode =
+                  $event as PanelSyncEditorForm['grouping']['mode']
+              "
+            >
+              <SelectTrigger :id="`${id}-group-mode`" class="w-full">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="mirror">
+                  {{ t("admin.panelSync.editor.mirror") }}
+                </SelectItem>
+                <SelectItem value="single">
+                  {{ t("admin.panelSync.editor.single") }}
+                </SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+          <div v-if="form.grouping.mode === 'single'" class="space-y-2">
+            <Label :for="`${id}-namespace`">{{
+              t("admin.panelSync.editor.singleGroup")
+            }}</Label>
+            <Input
+              :id="`${id}-namespace`"
+              v-model="form.grouping.single_group_name"
+            />
+          </div>
+        </div>
+        <div class="rounded-lg border p-3">
+          <div class="flex items-center justify-between gap-4">
+            <div>
+              <div class="text-sm font-medium">
+                {{ t("admin.panelSync.autoSync") }}
+              </div>
+              <div class="text-xs text-muted-foreground">
+                {{ t("admin.panelSync.editor.autoHint") }}
+              </div>
+            </div>
+            <Switch
+              v-model="form.auto_sync.enabled"
+              :disabled="form.clear_credential"
+              :aria-label="t('admin.panelSync.autoSync')"
+            />
+          </div>
+          <div class="mt-3 flex items-center gap-2">
+            <Input
+              :id="`${id}-interval`"
+              v-model.number="form.auto_sync.interval_minutes"
+              type="number"
+              min="5"
+              max="1440"
+              class="w-28"
+              :aria-label="
+                t('admin.panelSync.everyMinutes', {
+                  count: form.auto_sync.interval_minutes,
+                })
+              "
+            />
+            <span class="text-sm text-muted-foreground">{{
+              t("admin.panelSync.minutes")
+            }}</span>
+          </div>
+        </div>
+        <Alert v-if="draftVerified">
+          <CheckCircle2 class="h-4 w-4" />
+          <AlertDescription>{{
+            t("admin.panelSync.editor.draftTested")
+          }}</AlertDescription>
+        </Alert>
+        <Alert v-else-if="!autoSyncReady">
+          <AlertTriangle class="h-4 w-4" />
+          <AlertDescription>{{
+            t("admin.panelSync.editor.unverifiedHint")
+          }}</AlertDescription>
+        </Alert>
+      </div>
+      <DialogFooter class="gap-2 sm:gap-2">
+        <Button
+          variant="outline"
+          :disabled="testing || saving || !form.endpoint_url.trim()"
+          @click="emit('test')"
+        >
+          <Loader2 v-if="testing" class="mr-2 h-4 w-4 animate-spin" />
+          <PlugZap v-else class="mr-2 h-4 w-4" />
+          {{ t("admin.panelSync.testDraft") }}
+        </Button>
+        <Button
+          :disabled="saving || !form.name.trim() || !form.endpoint_url.trim()"
+          @click="emit('save')"
+        >
+          <Loader2 v-if="saving" class="mr-2 h-4 w-4 animate-spin" />
+          <Save v-else class="mr-2 h-4 w-4" />
+          {{ saving ? t("admin.panelSync.saving") : t("common.save") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

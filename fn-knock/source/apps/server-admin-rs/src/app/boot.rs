@@ -1,1 +1,270 @@
-dXNlIHN0ZDo6e2ZzLCBpbzo6RXJyb3JLaW5kLCBwYXRoOjpQYXRofTsKCnVzZSBjcmF0ZTo6ewogICAgYWRtaW5fcGFuZWw6Om5vcm1hbGl6ZV9sb2NhbGVfY29uZmlnLCBnYXRld2F5X3NldHRpbmdzOjpzeW5jX2dhdGV3YXlfc2V0dGluZ3Nfb25fYm9vdCwKICAgIHJ1bnRpbWVfY29uZmlnOjpzeW5jX3J1bnRpbWVfY29uZmlnX29uX2Jvb3QsIHJ1bnRpbWVfcHJvZmlsZSwKICAgIHNzbDo6c3luY19zc2xfZGVwbG95bWVudF90b19nYXRld2F5LCBzdGF0ZTo6QXBwU3RhdGUsIHRpbWVfdXRpbHMsCn07Cgpjb25zdCBDTEVBTl9TQ1JJUFRfQ09OVEVOVDogJnN0ciA9IHIjIiMhL2Jpbi9iYXNoCgpGSUxURVJfQ0hBSU5TPSgiRk4tS05PQ0stRlciICJGTi1LTk9DSy1TU0giICJGTktfRk5DX0lOIiAiRk5LLVdISVRFTElTVCIgIkZOSy1XTC1NQVJLIiAiRk5LLVNTSC1BTExPVyIgIkZOSy1TU0gtQkxPQ0siICJGTkstU1NILURFRkFVTFQiKQpOQVRfQ0hBSU5TPSgiRk5LX0ZOQ19QUkUiICJGTktfRk5DX09VVCIgIkZOS19GTkNfV0FGIikKRklMVEVSX1BBUkVOVFM9KCJJTlBVVCIgIkRPQ0tFUi1VU0VSIikKTkFUX1BBUkVOVFM9KCJQUkVST1VUSU5HIiAiT1VUUFVUIikKRklSRVdBTExTPSgiaXB0YWJsZXMiICJpcDZ0YWJsZXMiKQpORlRfVEFCTEVTPSgiZm5rbm9ja19zc2giICJmbmtub2NrX3doaXRlbGlzdCIpCgpyZW1vdmVfcGFyZW50X2p1bXBzKCkgewogICAgbG9jYWwgY21kPSIkMSIKICAgIGxvY2FsIHRhYmxlPSIkMiIKICAgIGxvY2FsIHBhcmVudD0iJDMiCiAgICBsb2NhbCBjaGFpbj0iJDQiCgogICAgaWYgISAiJGNtZCIgLXQgIiR0YWJsZSIgLUwgIiRwYXJlbnQiIC1uID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgICAgIHJldHVybgogICAgZmkKCiAgICB3aGlsZSBJRlM9IHJlYWQgLXIgbGluZTsgZG8KICAgICAgICBbWyAiJGxpbmUiID09ICItQSAkcGFyZW50ICIqIF1dIHx8IGNvbnRpbnVlCiAgICAgICAgW1sgIiRsaW5lIiA9PSAqIiAtaiAkY2hhaW4iKiBdXSB8fCBjb250aW51ZQoKICAgICAgICBsb2NhbCBydWxlX2FyZ3M9IiR7bGluZSMtQSAkcGFyZW50IH0iCiAgICAgICAgcnVsZV9hcmdzPSIke3J1bGVfYXJncy8vXCIvfSIKICAgICAgICAjIHNoZWxsY2hlY2sgZGlzYWJsZT1TQzIwODYKICAgICAgICBpZiAiJGNtZCIgLXQgIiR0YWJsZSIgLUQgIiRwYXJlbnQiICRydWxlX2FyZ3MgMj4vZGV2L251bGw7IHRoZW4KICAgICAgICAgICAgZWNobyAiUmVtb3ZlZCAkdGFibGUganVtcCBydWxlIGZyb20gJHBhcmVudCAtPiAkY2hhaW46ICRydWxlX2FyZ3MiCiAgICAgICAgZmkKICAgIGRvbmUgPCA8KCIkY21kIiAtdCAiJHRhYmxlIiAtUyAiJHBhcmVudCIgMj4vZGV2L251bGwgfHwgdHJ1ZSkKCiAgICB3aGlsZSAiJGNtZCIgLXQgIiR0YWJsZSIgLUQgIiRwYXJlbnQiIC1qICIkY2hhaW4iIDI+L2Rldi9udWxsOyBkbwogICAgICAgIGVjaG8gIlJlbW92ZWQgbGVnYWN5ICR0YWJsZSBqdW1wIHJ1bGUgZnJvbSAkcGFyZW50IC0+ICRjaGFpbiIKICAgIGRvbmUKfQoKY2xlYW51cF9jaGFpbigpIHsKICAgIGxvY2FsIGNtZD0iJDEiCiAgICBsb2NhbCB0YWJsZT0iJDIiCiAgICBsb2NhbCBjaGFpbj0iJDMiCiAgICBzaGlmdCAzCgogICAgbG9jYWwgcGFyZW50PSIiCiAgICBmb3IgcGFyZW50IGluICIkQCI7IGRvCiAgICAgICAgcmVtb3ZlX3BhcmVudF9qdW1wcyAiJGNtZCIgIiR0YWJsZSIgIiRwYXJlbnQiICIkY2hhaW4iCiAgICBkb25lCgogICAgaWYgIiRjbWQiIC10ICIkdGFibGUiIC1MICIkY2hhaW4iIC1uID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgICAgICIkY21kIiAtdCAiJHRhYmxlIiAtRiAiJGNoYWluIgogICAgICAgIGVjaG8gIkZsdXNoZWQgYWxsIHJ1bGVzIGluc2lkZSAkdGFibGUvJGNoYWluIgoKICAgICAgICAiJGNtZCIgLXQgIiR0YWJsZSIgLVggIiRjaGFpbiIKICAgICAgICBlY2hvICJEZWxldGVkIGN1c3RvbSBjaGFpbiAkdGFibGUvJGNoYWluIgogICAgZWxzZQogICAgICAgIGVjaG8gIkNoYWluICR0YWJsZS8kY2hhaW4gZG9lcyBub3QgZXhpc3QgaW4gJGNtZCAoYWxyZWFkeSBjbGVhbikuIgogICAgZmkKfQoKZWNobyAiU3RhcnRpbmcgZmlyZXdhbGwgY2xlYW51cC4uLiIKCmZvciBjbWQgaW4gIiR7RklSRVdBTExTW0BdfSI7IGRvCiAgICBpZiAhIGNvbW1hbmQgLXYgIiRjbWQiICY+IC9kZXYvbnVsbDsgdGhlbgogICAgICAgIGVjaG8gIiRjbWQgaXMgbm90IGluc3RhbGxlZCBvciBub3QgaW4gUEFUSCwgc2tpcHBpbmcuLi4iCiAgICAgICAgY29udGludWUKICAgIGZpCgogICAgZWNobyAiLS0tIFByb2Nlc3NpbmcgJGNtZCAtLS0iCgogICAgZm9yIGNoYWluIGluICIke0ZJTFRFUl9DSEFJTlNbQF19IjsgZG8KICAgICAgICBjbGVhbnVwX2NoYWluICIkY21kIiBmaWx0ZXIgIiRjaGFpbiIgIiR7RklMVEVSX1BBUkVOVFNbQF19IgogICAgZG9uZQogICAgZm9yIGNoYWluIGluICIke05BVF9DSEFJTlNbQF19IjsgZG8KICAgICAgICBjbGVhbnVwX2NoYWluICIkY21kIiBuYXQgIiRjaGFpbiIgIiR7TkFUX1BBUkVOVFNbQF19IgogICAgZG9uZQpkb25lCgppZiBjb21tYW5kIC12IG5mdCAmPiAvZGV2L251bGw7IHRoZW4KICAgIGZvciB0YWJsZSBpbiAiJHtORlRfVEFCTEVTW0BdfSI7IGRvCiAgICAgICAgaWYgbmZ0IGRlbGV0ZSB0YWJsZSBpbmV0ICIkdGFibGUiIDI+L2Rldi9udWxsOyB0aGVuCiAgICAgICAgICAgIGVjaG8gIkRlbGV0ZWQgbmF0aXZlIG5mdCBpbnRlcnZhbCB0YWJsZSBpbmV0LyR0YWJsZSIKICAgICAgICBlbHNlCiAgICAgICAgICAgIGVjaG8gIk5hdGl2ZSBuZnQgaW50ZXJ2YWwgdGFibGUgaW5ldC8kdGFibGUgZG9lcyBub3QgZXhpc3QgKGFscmVhZHkgY2xlYW4pLiIKICAgICAgICBmaQogICAgZG9uZQpmaQoKZWNobyAiQ2xlYW51cCBjb21wbGV0ZSEiCiIjOwoKcHViKHN1cGVyKSBhc3luYyBmbiBydW5fYm9vdF9zeW5jX3Rhc2tzKHN0YXRlOiBBcHBTdGF0ZSkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGlmIGxldCBFcnIoZXJyb3IpID0gY2xlYW51cF9sZWdhY3lfYXV0aF9sb2dfc3RvcmFnZSgmc3RhdGUpLmF3YWl0IHsKICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gY2xlYW51cCBsZWdhY3kgYXV0aCBsb2cgc3RvcmFnZSBvbiBib290Iik7CiAgICB9CiAgICBzeW5jX3J1bnRpbWVfY29uZmlnX29uX2Jvb3Qoc3RhdGUuY2xvbmUoKSkuYXdhaXQ/OwogICAgc3luY19nYXRld2F5X3NldHRpbmdzX29uX2Jvb3Qoc3RhdGUuY2xvbmUoKSkuYXdhaXQ7CiAgICBzeW5jX2xvY2FsZV9jb25maWdfb25fYm9vdCgmc3RhdGUpLmF3YWl0OwogICAgaWYgbGV0IEVycihlcnJvcikgPSBzeW5jX3NzbF9kZXBsb3ltZW50X3RvX2dhdGV3YXkoJnN0YXRlLCBOb25lKS5hd2FpdCB7CiAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIHN5bmMgU1NMIGRlcGxveW1lbnQgb24gYm9vdCIpOwogICAgfQogICAgaWYgbGV0IEVycihlcnJvcikgPSBpbml0X2NsZWFuX3NjcmlwdF9vbl9ib290KCZzdGF0ZSkgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBpbml0aWFsaXplIGZpcmV3YWxsIGNsZWFudXAgc2NyaXB0Iik7CiAgICB9CiAgICBPaygoKSkKfQoKZm4gaW5pdF9jbGVhbl9zY3JpcHRfb25fYm9vdChzdGF0ZTogJkFwcFN0YXRlKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgbGV0IHNjcmlwdF9wYXRoID0gc3RhdGUuc2V0dGluZ3MuZGF0YV9kaXIuam9pbigiY2xlYW4uc2giKTsKICAgIGlmICFydW50aW1lX3Byb2ZpbGU6Omhvc3RfZmlyZXdhbGxfYXZhaWxhYmxlKHN0YXRlKSB7CiAgICAgICAgaWYgcmVtb3ZlX2NsZWFuX3NjcmlwdF9pZl9wcmVzZW50KCZzY3JpcHRfcGF0aCk/IHsKICAgICAgICAgICAgdHJhY2luZzo6aW5mbyEoCiAgICAgICAgICAgICAgICBwYXRoID0gJXNjcmlwdF9wYXRoLmRpc3BsYXkoKSwKICAgICAgICAgICAgICAgICJyZW1vdmVkIHN0YWxlIGZpcmV3YWxsIGNsZWFudXAgc2NyaXB0IgogICAgICAgICAgICApOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHRyYWNpbmc6OmluZm8hKCJza2lwcGVkIGNsZWFuLnNoIGdlbmVyYXRpb246IGhvc3QgZmlyZXdhbGwgaXMgdW5hdmFpbGFibGUiKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH0KICAgIGZzOjpjcmVhdGVfZGlyX2FsbCgmc3RhdGUuc2V0dGluZ3MuZGF0YV9kaXIpPzsKICAgIGZzOjp3cml0ZSgmc2NyaXB0X3BhdGgsIENMRUFOX1NDUklQVF9DT05URU5UKT87CiAgICAjW2NmZyh1bml4KV0KICAgIHsKICAgICAgICB1c2Ugc3RkOjpvczo6dW5peDo6ZnM6OlBlcm1pc3Npb25zRXh0OwogICAgICAgIGZzOjpzZXRfcGVybWlzc2lvbnMoJnNjcmlwdF9wYXRoLCBmczo6UGVybWlzc2lvbnM6OmZyb21fbW9kZSgwbzc1NSkpPzsKICAgIH0KICAgIHRyYWNpbmc6OmluZm8hKHBhdGggPSAlc2NyaXB0X3BhdGguZGlzcGxheSgpLCAiaW5pdGlhbGl6ZWQgZmlyZXdhbGwgY2xlYW51cCBzY3JpcHQiKTsKICAgIE9rKCgpKQp9CgpmbiByZW1vdmVfY2xlYW5fc2NyaXB0X2lmX3ByZXNlbnQoc2NyaXB0X3BhdGg6ICZQYXRoKSAtPiBhbnlob3c6OlJlc3VsdDxib29sPiB7CiAgICBtYXRjaCBmczo6cmVtb3ZlX2ZpbGUoc2NyaXB0X3BhdGgpIHsKICAgICAgICBPaygoKSkgPT4gT2sodHJ1ZSksCiAgICAgICAgRXJyKGVycm9yKSBpZiBlcnJvci5raW5kKCkgPT0gRXJyb3JLaW5kOjpOb3RGb3VuZCA9PiBPayhmYWxzZSksCiAgICAgICAgRXJyKGVycm9yKSA9PiBFcnIoZXJyb3IuaW50bygpKSwKICAgIH0KfQoKcHViKGNyYXRlKSBhc3luYyBmbiBjbGVhbnVwX2xlZ2FjeV9hdXRoX2xvZ19zdG9yYWdlKHN0YXRlOiAmQXBwU3RhdGUpIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBjb25zdCBTVEFURV9LRVk6ICZzdHIgPSAiZm5fa25vY2s6Y2xlYW51cDpsZWdhY3ktYXV0aC1sb2dzOnYxIjsKICAgIGNvbnN0IExPQ0tfS0VZOiAmc3RyID0gImZuX2tub2NrOmNsZWFudXA6bGVnYWN5LWF1dGgtbG9nczp2MTpsb2NrIjsKICAgIGNvbnN0IElOREVYX0tFWTogJnN0ciA9ICJmbl9rbm9jazphdXRoX2xvZ3M6aW5kZXgiOwogICAgY29uc3QgREFUQV9QUkVGSVg6ICZzdHIgPSAiZm5fa25vY2s6YXV0aF9sb2dfZGF0YToiOwogICAgY29uc3QgUkVGX1BSRUZJWDogJnN0ciA9ICJmbl9rbm9jazppcF9sb2NhdGlvbjpyZWZzOiI7CiAgICBjb25zdCBMRUdBQ1lfUkVGX1BSRUZJWDogJnN0ciA9ICJhdXRoLWxvZ3wiOwoKICAgIGlmIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZ2V0X3N0cmluZ192YWx1ZShTVEFURV9LRVkpCiAgICAgICAgLmF3YWl0PwogICAgICAgIC5hc19kZXJlZigpCiAgICAgICAgPT0gU29tZSgiZG9uZSIpCiAgICB7CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH0KICAgIGlmICFzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNldF9rZXlfaWZfbm90X2V4aXN0c193aXRoX3R0bChMT0NLX0tFWSwgJnRpbWVfdXRpbHM6Om5vd19tcygpLnRvX3N0cmluZygpLCAzNjAwKQogICAgICAgIC5hd2FpdD8KICAgIHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQoKICAgIGxldCBjbGVhbnVwX3Jlc3VsdCA9IGFzeW5jIHsKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnNldF9zdHJpbmdfdmFsdWVfd2l0aF9vcHRpb25hbF90dGwoU1RBVEVfS0VZLCAicnVubmluZyIsIFNvbWUoMzYwMCkpCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgbGV0IGRhdGFfa2V5cyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuc2Nhbl9rZXlzKERBVEFfUFJFRklYLCAyMDApLmF3YWl0PzsKICAgICAgICBmb3IgY2h1bmsgaW4gZGF0YV9rZXlzLmNodW5rcygyMDApIHsKICAgICAgICAgICAgc3RhdGUuc3RvcmFnZS5zdG9yZS5kZWxldGVfa2V5cyhjaHVuaykuYXdhaXQ/OwogICAgICAgIH0KICAgICAgICBzdGF0ZS5zdG9yYWdlLnN0b3JlLmRlbGV0ZV9rZXkoSU5ERVhfS0VZKS5hd2FpdD87CgogICAgICAgIGxldCByZWZfa2V5cyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuc2Nhbl9rZXlzKFJFRl9QUkVGSVgsIDIwMCkuYXdhaXQ/OwogICAgICAgIGZvciBrZXkgaW4gcmVmX2tleXMgewogICAgICAgICAgICBsZXQgbWVtYmVycyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuc21lbWJlcnNfc3RyaW5ncygma2V5KS5hd2FpdD87CiAgICAgICAgICAgIGxldCBsZWdhY3lfbWVtYmVycyA9IG1lbWJlcnMKICAgICAgICAgICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgICAgICAgICAgLmZpbHRlcih8bWVtYmVyfCBtZW1iZXIuc3RhcnRzX3dpdGgoTEVHQUNZX1JFRl9QUkVGSVgpKQogICAgICAgICAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICAgICAgICAgIHN0YXRlCiAgICAgICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgICAgICAuc3JlbV9zdHJpbmdfbWVtYmVycygma2V5LCAmbGVnYWN5X21lbWJlcnMpCiAgICAgICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIH0KICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnNldF9zdHJpbmdfdmFsdWUoU1RBVEVfS0VZLCAiZG9uZSIpCiAgICAgICAgICAgIC5hd2FpdAogICAgfQogICAgLmF3YWl0OwoKICAgIGxldCBfID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5kZWxldGVfa2V5KExPQ0tfS0VZKS5hd2FpdDsKICAgIGNsZWFudXBfcmVzdWx0Lm1hcF9lcnIoSW50bzo6aW50bykKfQoKYXN5bmMgZm4gc3luY19sb2NhbGVfY29uZmlnX29uX2Jvb3Qoc3RhdGU6ICZBcHBTdGF0ZSkgewogICAgbGV0IGNvbmZpZyA9IG1hdGNoIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0IHsKICAgICAgICBPayhjb25maWcpID0+IGNvbmZpZywKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgY29uZmlnIGZvciBsb2NhbGUgYm9vdCBzeW5jIik7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICB9OwogICAgbGV0IGxvY2FsZSA9IG5vcm1hbGl6ZV9sb2NhbGVfY29uZmlnKGNvbmZpZy5nZXQoImxvY2FsZSIpLnVud3JhcF9vcigmc2VyZGVfanNvbjo6VmFsdWU6Ok51bGwpKTsKICAgIG1hdGNoIHN0YXRlLmdhdGV3YXkuY2xpZW50LnNldF9sb2NhbGVfY29uZmlnKCZsb2NhbGUpLmF3YWl0IHsKICAgICAgICBPaygoc3RhdHVzLCB2YWx1ZSkpIGlmIHN0YXR1cyA9PSByZXF3ZXN0OjpTdGF0dXNDb2RlOjpOT1RfRk9VTkQgPT4gewogICAgICAgICAgICB0cmFjaW5nOjpkZWJ1ZyEoP3ZhbHVlLCAiZ2F0ZXdheSBsb2NhbGUgc3luYyBlbmRwb2ludCBpcyB1bmF2YWlsYWJsZSIpOwogICAgICAgIH0KICAgICAgICBPaygoc3RhdHVzLCB2YWx1ZSkpID0+IHsKICAgICAgICAgICAgaWYgIXN0YXR1cy5pc19zdWNjZXNzKCkKICAgICAgICAgICAgICAgIHx8IHZhbHVlLmdldCgic3VjY2VzcyIpLmFuZF90aGVuKHNlcmRlX2pzb246OlZhbHVlOjphc19ib29sKSA9PSBTb21lKGZhbHNlKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglc3RhdHVzLCByZXNwb25zZSA9ICV2YWx1ZSwgImZhaWxlZCB0byBzeW5jIGxvY2FsZSBjb25maWcgb24gYm9vdCIpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gc3luYyBsb2NhbGUgY29uZmlnIG9uIGJvb3QiKTsKICAgICAgICB9CiAgICB9Cn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwoKICAgICNbdGVzdF0KICAgIGZuIGZpcmV3YWxsX2NsZWFudXBfc2NyaXB0X2NvdmVyc19hbGxfZm5fY29ubmVjdF93YWZfY2hhaW5zX2FuZF9wYXJlbnRzKCkgewogICAgICAgIGFzc2VydCEoQ0xFQU5fU0NSSVBUX0NPTlRFTlQuY29udGFpbnMoIlwiRk5LX0ZOQ19XQUZcIiIpKTsKICAgICAgICBhc3NlcnQhKENMRUFOX1NDUklQVF9DT05URU5ULmNvbnRhaW5zKCJcIkZOS19GTkNfT1VUXCIiKSk7CiAgICAgICAgYXNzZXJ0IShDTEVBTl9TQ1JJUFRfQ09OVEVOVC5jb250YWlucygiXCJGTktfRk5DX1BSRVwiIikpOwogICAgICAgIGFzc2VydCEoQ0xFQU5fU0NSSVBUX0NPTlRFTlQuY29udGFpbnMoIlwiRk5LX0ZOQ19JTlwiIikpOwogICAgICAgIGFzc2VydCEoQ0xFQU5fU0NSSVBUX0NPTlRFTlQuY29udGFpbnMoIlwiRk5LLVdISVRFTElTVFwiIikpOwogICAgICAgIGFzc2VydCEoQ0xFQU5fU0NSSVBUX0NPTlRFTlQuY29udGFpbnMoIlwiRk5LLVdMLU1BUktcIiIpKTsKICAgICAgICBhc3NlcnQhKENMRUFOX1NDUklQVF9DT05URU5ULmNvbnRhaW5zKCJcIkZOSy1TU0gtQUxMT1dcIiIpKTsKICAgICAgICBhc3NlcnQhKENMRUFOX1NDUklQVF9DT05URU5ULmNvbnRhaW5zKCJcIkZOSy1TU0gtQkxPQ0tcIiIpKTsKICAgICAgICBhc3NlcnQhKENMRUFOX1NDUklQVF9DT05URU5ULmNvbnRhaW5zKCJcIkZOSy1TU0gtREVGQVVMVFwiIikpOwogICAgICAgIGFzc2VydCEoQ0xFQU5fU0NSSVBUX0NPTlRFTlQuY29udGFpbnMoIlwiT1VUUFVUXCIiKSk7CiAgICAgICAgYXNzZXJ0IShDTEVBTl9TQ1JJUFRfQ09OVEVOVC5jb250YWlucygiXCJQUkVST1VUSU5HXCIiKSk7CiAgICAgICAgYXNzZXJ0IShDTEVBTl9TQ1JJUFRfQ09OVEVOVC5jb250YWlucygiXCJJTlBVVFwiIikpOwogICAgICAgIGFzc2VydCEoQ0xFQU5fU0NSSVBUX0NPTlRFTlQuY29udGFpbnMoIi10IFwiJHRhYmxlXCIiKSk7CiAgICAgICAgYXNzZXJ0IShDTEVBTl9TQ1JJUFRfQ09OVEVOVC5jb250YWlucygiXCJmbmtub2NrX3NzaFwiIikpOwogICAgICAgIGFzc2VydCEoQ0xFQU5fU0NSSVBUX0NPTlRFTlQuY29udGFpbnMoIlwiZm5rbm9ja193aGl0ZWxpc3RcIiIpKTsKICAgICAgICBhc3NlcnQhKENMRUFOX1NDUklQVF9DT05URU5ULmNvbnRhaW5zKCJuZnQgZGVsZXRlIHRhYmxlIGluZXQgXCIkdGFibGVcIiIpKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBzdGFsZV9maXJld2FsbF9jbGVhbnVwX3NjcmlwdF9jYW5fYmVfcmVtb3ZlZF93aXRob3V0X2V4ZWN1dGlvbigpIHsKICAgICAgICBsZXQgZGlyZWN0b3J5ID0gdGVtcGZpbGU6OnRlbXBkaXIoKS5leHBlY3QoInRlbXBvcmFyeSBkYXRhIGRpcmVjdG9yeSIpOwogICAgICAgIGxldCBzY3JpcHRfcGF0aCA9IGRpcmVjdG9yeS5wYXRoKCkuam9pbigiY2xlYW4uc2giKTsKICAgICAgICBmczo6d3JpdGUoJnNjcmlwdF9wYXRoLCAiIyEvYmluL3NoXG5leGl0IDk5XG4iKS5leHBlY3QoImxlZ2FjeSBjbGVhbi5zaCIpOwoKICAgICAgICBhc3NlcnQhKHJlbW92ZV9jbGVhbl9zY3JpcHRfaWZfcHJlc2VudCgmc2NyaXB0X3BhdGgpLmV4cGVjdCgicmVtb3ZlIGNsZWFuLnNoIikpOwogICAgICAgIGFzc2VydCEoIXNjcmlwdF9wYXRoLmV4aXN0cygpKTsKICAgICAgICBhc3NlcnQhKCFyZW1vdmVfY2xlYW5fc2NyaXB0X2lmX3ByZXNlbnQoJnNjcmlwdF9wYXRoKS5leHBlY3QoImlnbm9yZSBtaXNzaW5nIGNsZWFuLnNoIikpOwogICAgfQp9Cg==
+use std::{fs, io::ErrorKind, path::Path};
+
+use crate::{
+    admin_panel::normalize_locale_config, gateway_settings::sync_gateway_settings_on_boot,
+    runtime_config::sync_runtime_config_on_boot, runtime_profile,
+    ssl::sync_ssl_deployment_to_gateway, state::AppState, time_utils,
+};
+
+const CLEAN_SCRIPT_CONTENT: &str = r#"#!/bin/bash
+
+FILTER_CHAINS=("FN-KNOCK-FW" "FN-KNOCK-SSH" "FNK_FNC_IN" "FNK-WHITELIST" "FNK-WL-MARK" "FNK-SSH-ALLOW" "FNK-SSH-BLOCK" "FNK-SSH-DEFAULT")
+NAT_CHAINS=("FNK_FNC_PRE" "FNK_FNC_OUT" "FNK_FNC_WAF")
+FILTER_PARENTS=("INPUT" "DOCKER-USER")
+NAT_PARENTS=("PREROUTING" "OUTPUT")
+FIREWALLS=("iptables" "ip6tables")
+NFT_TABLES=("fnknock_ssh" "fnknock_whitelist")
+
+remove_parent_jumps() {
+    local cmd="$1"
+    local table="$2"
+    local parent="$3"
+    local chain="$4"
+
+    if ! "$cmd" -t "$table" -L "$parent" -n >/dev/null 2>&1; then
+        return
+    fi
+
+    while IFS= read -r line; do
+        [[ "$line" == "-A $parent "* ]] || continue
+        [[ "$line" == *" -j $chain"* ]] || continue
+
+        local rule_args="${line#-A $parent }"
+        rule_args="${rule_args//\"/}"
+        # shellcheck disable=SC2086
+        if "$cmd" -t "$table" -D "$parent" $rule_args 2>/dev/null; then
+            echo "Removed $table jump rule from $parent -> $chain: $rule_args"
+        fi
+    done < <("$cmd" -t "$table" -S "$parent" 2>/dev/null || true)
+
+    while "$cmd" -t "$table" -D "$parent" -j "$chain" 2>/dev/null; do
+        echo "Removed legacy $table jump rule from $parent -> $chain"
+    done
+}
+
+cleanup_chain() {
+    local cmd="$1"
+    local table="$2"
+    local chain="$3"
+    shift 3
+
+    local parent=""
+    for parent in "$@"; do
+        remove_parent_jumps "$cmd" "$table" "$parent" "$chain"
+    done
+
+    if "$cmd" -t "$table" -L "$chain" -n >/dev/null 2>&1; then
+        "$cmd" -t "$table" -F "$chain"
+        echo "Flushed all rules inside $table/$chain"
+
+        "$cmd" -t "$table" -X "$chain"
+        echo "Deleted custom chain $table/$chain"
+    else
+        echo "Chain $table/$chain does not exist in $cmd (already clean)."
+    fi
+}
+
+echo "Starting firewall cleanup..."
+
+for cmd in "${FIREWALLS[@]}"; do
+    if ! command -v "$cmd" &> /dev/null; then
+        echo "$cmd is not installed or not in PATH, skipping..."
+        continue
+    fi
+
+    echo "--- Processing $cmd ---"
+
+    for chain in "${FILTER_CHAINS[@]}"; do
+        cleanup_chain "$cmd" filter "$chain" "${FILTER_PARENTS[@]}"
+    done
+    for chain in "${NAT_CHAINS[@]}"; do
+        cleanup_chain "$cmd" nat "$chain" "${NAT_PARENTS[@]}"
+    done
+done
+
+if command -v nft &> /dev/null; then
+    for table in "${NFT_TABLES[@]}"; do
+        if nft delete table inet "$table" 2>/dev/null; then
+            echo "Deleted native nft interval table inet/$table"
+        else
+            echo "Native nft interval table inet/$table does not exist (already clean)."
+        fi
+    done
+fi
+
+echo "Cleanup complete!"
+"#;
+
+pub(super) async fn run_boot_sync_tasks(state: AppState) -> Result<(), String> {
+    if let Err(error) = cleanup_legacy_auth_log_storage(&state).await {
+        tracing::warn!(%error, "failed to cleanup legacy auth log storage on boot");
+    }
+    sync_runtime_config_on_boot(state.clone()).await?;
+    sync_gateway_settings_on_boot(state.clone()).await;
+    sync_locale_config_on_boot(&state).await;
+    if let Err(error) = sync_ssl_deployment_to_gateway(&state, None).await {
+        tracing::warn!(%error, "failed to sync SSL deployment on boot");
+    }
+    if let Err(error) = init_clean_script_on_boot(&state) {
+        tracing::warn!(%error, "failed to initialize firewall cleanup script");
+    }
+    Ok(())
+}
+
+fn init_clean_script_on_boot(state: &AppState) -> anyhow::Result<()> {
+    let script_path = state.settings.data_dir.join("clean.sh");
+    if !runtime_profile::host_firewall_available(state) {
+        if remove_clean_script_if_present(&script_path)? {
+            tracing::info!(
+                path = %script_path.display(),
+                "removed stale firewall cleanup script"
+            );
+        } else {
+            tracing::info!("skipped clean.sh generation: host firewall is unavailable");
+        }
+        return Ok(());
+    }
+    fs::create_dir_all(&state.settings.data_dir)?;
+    fs::write(&script_path, CLEAN_SCRIPT_CONTENT)?;
+    #[cfg(unix)]
+    {
+        use std::os::unix::fs::PermissionsExt;
+        fs::set_permissions(&script_path, fs::Permissions::from_mode(0o755))?;
+    }
+    tracing::info!(path = %script_path.display(), "initialized firewall cleanup script");
+    Ok(())
+}
+
+fn remove_clean_script_if_present(script_path: &Path) -> anyhow::Result<bool> {
+    match fs::remove_file(script_path) {
+        Ok(()) => Ok(true),
+        Err(error) if error.kind() == ErrorKind::NotFound => Ok(false),
+        Err(error) => Err(error.into()),
+    }
+}
+
+pub(crate) async fn cleanup_legacy_auth_log_storage(state: &AppState) -> anyhow::Result<()> {
+    const STATE_KEY: &str = "fn_knock:cleanup:legacy-auth-logs:v1";
+    const LOCK_KEY: &str = "fn_knock:cleanup:legacy-auth-logs:v1:lock";
+    const INDEX_KEY: &str = "fn_knock:auth_logs:index";
+    const DATA_PREFIX: &str = "fn_knock:auth_log_data:";
+    const REF_PREFIX: &str = "fn_knock:ip_location:refs:";
+    const LEGACY_REF_PREFIX: &str = "auth-log|";
+
+    if state
+        .storage
+        .store
+        .get_string_value(STATE_KEY)
+        .await?
+        .as_deref()
+        == Some("done")
+    {
+        return Ok(());
+    }
+    if !state
+        .storage
+        .store
+        .set_key_if_not_exists_with_ttl(LOCK_KEY, &time_utils::now_ms().to_string(), 3600)
+        .await?
+    {
+        return Ok(());
+    }
+
+    let cleanup_result = async {
+        state
+            .storage
+            .store
+            .set_string_value_with_optional_ttl(STATE_KEY, "running", Some(3600))
+            .await?;
+        let data_keys = state.storage.store.scan_keys(DATA_PREFIX, 200).await?;
+        for chunk in data_keys.chunks(200) {
+            state.storage.store.delete_keys(chunk).await?;
+        }
+        state.storage.store.delete_key(INDEX_KEY).await?;
+
+        let ref_keys = state.storage.store.scan_keys(REF_PREFIX, 200).await?;
+        for key in ref_keys {
+            let members = state.storage.store.smembers_strings(&key).await?;
+            let legacy_members = members
+                .into_iter()
+                .filter(|member| member.starts_with(LEGACY_REF_PREFIX))
+                .collect::<Vec<_>>();
+            state
+                .storage
+                .store
+                .srem_string_members(&key, &legacy_members)
+                .await?;
+        }
+        state
+            .storage
+            .store
+            .set_string_value(STATE_KEY, "done")
+            .await
+    }
+    .await;
+
+    let _ = state.storage.store.delete_key(LOCK_KEY).await;
+    cleanup_result.map_err(Into::into)
+}
+
+async fn sync_locale_config_on_boot(state: &AppState) {
+    let config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => {
+            tracing::warn!(%error, "failed to load config for locale boot sync");
+            return;
+        }
+    };
+    let locale = normalize_locale_config(config.get("locale").unwrap_or(&serde_json::Value::Null));
+    match state.gateway.client.set_locale_config(&locale).await {
+        Ok((status, value)) if status == reqwest::StatusCode::NOT_FOUND => {
+            tracing::debug!(?value, "gateway locale sync endpoint is unavailable");
+        }
+        Ok((status, value)) => {
+            if !status.is_success()
+                || value.get("success").and_then(serde_json::Value::as_bool) == Some(false)
+            {
+                tracing::warn!(%status, response = %value, "failed to sync locale config on boot");
+            }
+        }
+        Err(error) => {
+            tracing::warn!(%error, "failed to sync locale config on boot");
+        }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn firewall_cleanup_script_covers_all_fn_connect_waf_chains_and_parents() {
+        assert!(CLEAN_SCRIPT_CONTENT.contains("\"FNK_FNC_WAF\""));
+        assert!(CLEAN_SCRIPT_CONTENT.contains("\"FNK_FNC_OUT\""));
+        assert!(CLEAN_SCRIPT_CONTENT.contains("\"FNK_FNC_PRE\""));
+        assert!(CLEAN_SCRIPT_CONTENT.contains("\"FNK_FNC_IN\""));
+        assert!(CLEAN_SCRIPT_CONTENT.contains("\"FNK-WHITELIST\""));
+        assert!(CLEAN_SCRIPT_CONTENT.contains("\"FNK-WL-MARK\""));
+        assert!(CLEAN_SCRIPT_CONTENT.contains("\"FNK-SSH-ALLOW\""));
+        assert!(CLEAN_SCRIPT_CONTENT.contains("\"FNK-SSH-BLOCK\""));
+        assert!(CLEAN_SCRIPT_CONTENT.contains("\"FNK-SSH-DEFAULT\""));
+        assert!(CLEAN_SCRIPT_CONTENT.contains("\"OUTPUT\""));
+        assert!(CLEAN_SCRIPT_CONTENT.contains("\"PREROUTING\""));
+        assert!(CLEAN_SCRIPT_CONTENT.contains("\"INPUT\""));
+        assert!(CLEAN_SCRIPT_CONTENT.contains("-t \"$table\""));
+        assert!(CLEAN_SCRIPT_CONTENT.contains("\"fnknock_ssh\""));
+        assert!(CLEAN_SCRIPT_CONTENT.contains("\"fnknock_whitelist\""));
+        assert!(CLEAN_SCRIPT_CONTENT.contains("nft delete table inet \"$table\""));
+    }
+
+    #[test]
+    fn stale_firewall_cleanup_script_can_be_removed_without_execution() {
+        let directory = tempfile::tempdir().expect("temporary data directory");
+        let script_path = directory.path().join("clean.sh");
+        fs::write(&script_path, "#!/bin/sh\nexit 99\n").expect("legacy clean.sh");
+
+        assert!(remove_clean_script_if_present(&script_path).expect("remove clean.sh"));
+        assert!(!script_path.exists());
+        assert!(!remove_clean_script_if_present(&script_path).expect("ignore missing clean.sh"));
+    }
+}

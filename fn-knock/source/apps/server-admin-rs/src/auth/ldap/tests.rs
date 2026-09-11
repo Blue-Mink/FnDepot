@@ -1,1 +1,275 @@
-dXNlIHNlcmRlX2pzb246OntNYXAsIFZhbHVlLCBqc29ufTsKCnVzZSBzdXBlcjo6ewogICAgY2xpZW50Ojp7CiAgICAgICAgTGRhcEF1dGhFcnJvciwgYXV0aGVudGljYXRlLCBiaW5hcnlfc3ViamVjdF9mb3JfdGVzdCwgY2xpZW50X2Vycm9yX2lzX3VuYXZhaWxhYmxlX2Zvcl90ZXN0LAogICAgICAgIGRpcmVjdF9wcmluY2lwYWxfZm9yX3Rlc3QsIHNwbGl0X3BlbV9jZXJ0aWZpY2F0ZXNfZm9yX3Rlc3QsCiAgICB9LAogICAgcHJvdmlkZXI6OnsKICAgICAgICBidWlsZF9uZXdfcHJvdmlkZXIsIGJ1aWxkX3VwZGF0ZWRfcHJvdmlkZXIsIG1hc2tfcHJvdmlkZXIsIG5vcm1hbGl6ZV9zZXJ2ZXJfZm9yX3Rlc3QsCiAgICAgICAgcHJvdmlkZXJfY29uZmlnLCBwcm92aWRlcl9yZWFkeSwKICAgIH0sCiAgICBydW50aW1lOjpiaW5kaW5nX21hdGNoZXNfaWRlbnRpdHlfZm9yX3Rlc3QsCn07Cgpjb25zdCBURVNUX0NBX1BFTTogJnN0ciA9ICItLS0tLUJFR0lOIENFUlRJRklDQVRFLS0tLS1cblwKTUlJQ3JEQ0NBWlFDQ1FDREE5Wlpia04xTXpBTkJna3Foa2lHOXcwQkFRc0ZBREFZTVJZd0ZBWURWUVFEREExR1xuXApia3R1YjJOclZHVnpkRU5CTUI0WERUSTJNRGd3TWpFM05UVXpPRm9YRFRJMk1EZ3dNekUzTlRVek9Gb3dHREVXXG5cCk1CUUdBMVVFQXd3TlJtNUxibTlqYTFSbGMzUkRRVENDQVNJd0RRWUpLb1pJaHZjTkFRRUJCUUFEZ2dFUEFEQ0NcblwKQVFvQ2dnRUJBTFZWQjkyMFJ6SlRsZVEyL3h1TGZQYmRWMERXdzVSUjFVRTBiQUtJSE9OZFRiWEFUQVFlNm0rQ1xuXAoyM2dmNzV4ZW91anYrV1NjVG1PQlM4cXhtMDBoYS9DRXVnWGd1aFQzWHF6anlwMGhxSFQ5b0VLdEovYTZOSXhyXG5cCm5tdHZCR1FXb1V0RDRTNzUvMUdGRFp4YWhrRFRMWjhON2pRR2lGbVZDTDBvc0xDQ1pZYnNFSThpRjEyaUpFMFVcblwKZzU0RkJKTU5qbWxiK3cyUEpnWmo3VmZlYmt5dXdyc04reVRRWlkxMzZwaXlkL1ZjZVAyMWpHTW9VMVUyVFFJd1xuXApuN214ME1sbFhSdy9SOWJsVFJzTTByTDFsN0NnelhQNTVCQjRUcWZQaUhsZkVudHRyWDhWZUEyZTNwSG1Lb0VnXG5cCmt3eVY3ZzI5ekk1NW83L2FudWpPTXF0RXcweG5RdVVDQXdFQUFUQU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FRRUFcblwKcnlJYVhVSTkwVjRvQWFiOWp6S1I0bndtSlc0R1h0S01Ud1NGNmUzQ1hDUVdlYnVOcXJOZ0JyeXZiV1h5Ylk4eFxuXAppMjVFQXovSTQ0aTBObitUNGdWTCtDaENEN1VQZVdJTStDdllUWjBCR2tCR1pQb0dtQzM5OTEzYTBSQmMvenY2XG5cCmVYM1Jub1FwUnlucGVsdlJoQ3Foclp0ZTROb0h0bVV4OSsyazdJTmlGMVhnQitqSlZPV2dGQW9USjR1QTNZb1pcblwKNEhFTnppWmV6TDdNQVhmaDBETVpXWGRYZDdxRjVmVTJvWndCV3llTXJMZXJyVWRUcmV4VXZsUHpYYjVRVXcxWFxuXApQajV0YkVaSVAvN1k5UnRqdnY5NTlsYVpKN0tzQmIrUVZRNkxvMnJiWndyYnlWd1REZnhoZ0E3cmVETm1XbnYyXG5cCnFGa29ncmw5dXFjWHhSUzJHOWFHZEE9PVxuXAotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tIjsKCmZuIHByb3ZpZGVyX2lucHV0KCkgLT4gTWFwPFN0cmluZywgVmFsdWU+IHsKICAgIGpzb24hKHsKICAgICAgICAidHlwZSI6ICJvcGVubGRhcCIsCiAgICAgICAgIm5hbWUiOiAiQ29tcGFueSBMREFQIiwKICAgICAgICAiZW5hYmxlZCI6IHRydWUsCiAgICAgICAgImNvbm5lY3Rpb25fY29uZmlnIjogewogICAgICAgICAgICAic2VydmVycyI6IFsibGRhcHM6Ly9sZGFwLmV4YW1wbGUuY29tOjYzNiJdLAogICAgICAgICAgICAidHJhbnNwb3J0IjogImxkYXBzIiwKICAgICAgICAgICAgImJpbmRfbW9kZSI6ICJzZWFyY2giLAogICAgICAgICAgICAiYmFzZV9kbiI6ICJkYz1leGFtcGxlLGRjPWNvbSIsCiAgICAgICAgICAgICJ1c2VyX2ZpbHRlciI6ICIoJihvYmplY3RDbGFzcz1wZXJzb24pKHVpZD17dXNlcm5hbWV9KSkiLAogICAgICAgICAgICAic2VydmljZV9iaW5kX2RuIjogImNuPXJlYWRlcixkYz1leGFtcGxlLGRjPWNvbSIsCiAgICAgICAgICAgICJzZXJ2aWNlX2JpbmRfcGFzc3dvcmQiOiAic3VwZXItc2VjcmV0IiwKICAgICAgICAgICAgInN1YmplY3RfYXR0cmlidXRlIjogImVudHJ5VVVJRCIsCiAgICAgICAgICAgICJ1c2VybmFtZV9hdHRyaWJ1dGUiOiAidWlkIiwKICAgICAgICAgICAgImRpc3BsYXlfbmFtZV9hdHRyaWJ1dGUiOiAiY24iLAogICAgICAgICAgICAiZW1haWxfYXR0cmlidXRlIjogIm1haWwiLAogICAgICAgICAgICAiY2FfcGVtIjogVEVTVF9DQV9QRU0sCiAgICAgICAgfQogICAgfSkKICAgIC5hc19vYmplY3QoKQogICAgLmNsb25lZCgpCiAgICAudW53cmFwKCkKfQoKI1t0ZXN0XQpmbiByZWplY3RzX3BsYWludGV4dF9hbmRfdHJhbnNwb3J0X21pc21hdGNoKCkgewogICAgYXNzZXJ0IShub3JtYWxpemVfc2VydmVyX2Zvcl90ZXN0KCJsZGFwLmV4YW1wbGUuY29tOjYzNiIsICJsZGFwcyIpLmlzX29rKCkpOwogICAgYXNzZXJ0IShub3JtYWxpemVfc2VydmVyX2Zvcl90ZXN0KCJsZGFwOi8vbGRhcC5leGFtcGxlLmNvbTozODkiLCAibGRhcHMiKS5pc19lcnIoKSk7CiAgICBhc3NlcnQhKG5vcm1hbGl6ZV9zZXJ2ZXJfZm9yX3Rlc3QoImxkYXBzOi8vbGRhcC5leGFtcGxlLmNvbTo2MzYiLCAic3RhcnR0bHMiKS5pc19lcnIoKSk7CiAgICBhc3NlcnQhKG5vcm1hbGl6ZV9zZXJ2ZXJfZm9yX3Rlc3QoImxkYXA6Ly91c2VyOnNlY3JldEBsZGFwLmV4YW1wbGUuY29tIiwgInN0YXJ0dGxzIikuaXNfZXJyKCkpOwp9CgojW3Rlc3RdCmZuIHJlamVjdHNfaW5zZWN1cmVfb3JfaW5jb21wbGV0ZV9zdG9yZWRfcHJvdmlkZXJfY29uZmlnKCkgewogICAgbGV0IG11dCBwcm92aWRlciA9IGJ1aWxkX25ld19wcm92aWRlcigmcHJvdmlkZXJfaW5wdXQoKSkuZXhwZWN0KCJ2YWxpZCBwcm92aWRlciIpOwogICAgcHJvdmlkZXJbImNvbm5lY3Rpb25fY29uZmlnIl1bInRyYW5zcG9ydCJdID0ganNvbiEoInBsYWludGV4dCIpOwogICAgcHJvdmlkZXJbImNvbm5lY3Rpb25fY29uZmlnIl1bInNlcnZlcnMiXSA9IGpzb24hKFsibGRhcDovL2xkYXAuZXhhbXBsZS5jb206Mzg5Il0pOwogICAgYXNzZXJ0IShwcm92aWRlcl9jb25maWcoJnByb3ZpZGVyKS5pc19lcnIoKSk7CiAgICBhc3NlcnQhKCFwcm92aWRlcl9yZWFkeSgmcHJvdmlkZXIpKTsKCiAgICBsZXQgbXV0IHByb3ZpZGVyID0gYnVpbGRfbmV3X3Byb3ZpZGVyKCZwcm92aWRlcl9pbnB1dCgpKS5leHBlY3QoInZhbGlkIHByb3ZpZGVyIik7CiAgICBwcm92aWRlclsiY29ubmVjdGlvbl9jb25maWciXVsic3ViamVjdF9hdHRyaWJ1dGUiXSA9IGpzb24hKCIiKTsKICAgIGFzc2VydCEocHJvdmlkZXJfY29uZmlnKCZwcm92aWRlcikuaXNfZXJyKCkpOwp9CgojW3Rlc3RdCmZuIHZhbGlkYXRlc19hbmRfbWFza3NfcHJvdmlkZXJfc2VjcmV0cygpIHsKICAgIGxldCBwcm92aWRlciA9IGJ1aWxkX25ld19wcm92aWRlcigmcHJvdmlkZXJfaW5wdXQoKSkuZXhwZWN0KCJ2YWxpZCBwcm92aWRlciIpOwogICAgYXNzZXJ0IShwcm92aWRlcl9yZWFkeSgmcHJvdmlkZXIpKTsKICAgIGxldCBtYXNrZWQgPSBtYXNrX3Byb3ZpZGVyKHByb3ZpZGVyLmNsb25lKCkpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBtYXNrZWQucG9pbnRlcigiL2Nvbm5lY3Rpb25fY29uZmlnL3NlcnZpY2VfYmluZF9wYXNzd29yZCIpLAogICAgICAgIFNvbWUoJmpzb24hKCIqKioqKioqKiIpKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgbWFza2VkLnBvaW50ZXIoIi9jb25uZWN0aW9uX2NvbmZpZy9jYV9wZW0iKSwKICAgICAgICBTb21lKCZqc29uIShURVNUX0NBX1BFTSkpCiAgICApOwoKICAgIGxldCBwYXRjaCA9IGpzb24hKHsKICAgICAgICAiY29ubmVjdGlvbl9jb25maWciOiB7CiAgICAgICAgICAgICJzZXJ2aWNlX2JpbmRfcGFzc3dvcmQiOiAiIiwKICAgICAgICAgICAgImNhX3BlbSI6ICIiLAogICAgICAgIH0KICAgIH0pOwogICAgbGV0IHVwZGF0ZWQgPSBidWlsZF91cGRhdGVkX3Byb3ZpZGVyKHByb3ZpZGVyLCBwYXRjaC5hc19vYmplY3QoKS51bndyYXAoKSkKICAgICAgICAuZXhwZWN0KCJtYXNrZWQgdmFsdWVzIHByZXNlcnZlIHNlY3JldHMiKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgdXBkYXRlZC5wb2ludGVyKCIvY29ubmVjdGlvbl9jb25maWcvc2VydmljZV9iaW5kX3Bhc3N3b3JkIiksCiAgICAgICAgU29tZSgmanNvbiEoInN1cGVyLXNlY3JldCIpKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgdXBkYXRlZC5wb2ludGVyKCIvY29ubmVjdGlvbl9jb25maWcvY2FfcGVtIiksCiAgICAgICAgU29tZSgmanNvbiEoIiIpKQogICAgKTsKfQoKI1t0ZXN0XQpmbiByZXF1aXJlc19zYWZlX3RlbXBsYXRlc19hbmRfY29tcGxldGVfZW5hYmxlZF9jb25maWd1cmF0aW9uKCkgewogICAgbGV0IG11dCBpbnB1dCA9IHByb3ZpZGVyX2lucHV0KCk7CiAgICBpbnB1dAogICAgICAgIC5nZXRfbXV0KCJjb25uZWN0aW9uX2NvbmZpZyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3RfbXV0KQogICAgICAgIC51bndyYXAoKQogICAgICAgIC5pbnNlcnQoInVzZXJfZmlsdGVyIi5pbnRvKCksIGpzb24hKCIodWlkPWxpdGVyYWwpIikpOwogICAgYXNzZXJ0IShidWlsZF9uZXdfcHJvdmlkZXIoJmlucHV0KS5pc19lcnIoKSk7CgogICAgbGV0IG11dCBkaXJlY3QgPSBwcm92aWRlcl9pbnB1dCgpOwogICAgbGV0IGNvbmZpZyA9IGRpcmVjdAogICAgICAgIC5nZXRfbXV0KCJjb25uZWN0aW9uX2NvbmZpZyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3RfbXV0KQogICAgICAgIC51bndyYXAoKTsKICAgIGNvbmZpZy5pbnNlcnQoImJpbmRfbW9kZSIuaW50bygpLCBqc29uISgiZGlyZWN0IikpOwogICAgY29uZmlnLmluc2VydCgiZGlyZWN0X2JpbmRfdGVtcGxhdGUiLmludG8oKSwganNvbiEoImxpdGVyYWxAZXhhbXBsZS5jb20iKSk7CiAgICBhc3NlcnQhKGJ1aWxkX25ld19wcm92aWRlcigmZGlyZWN0KS5pc19lcnIoKSk7CgogICAgbGV0IG11dCBpbnZhbGlkX2NhID0gcHJvdmlkZXJfaW5wdXQoKTsKICAgIGludmFsaWRfY2EKICAgICAgICAuZ2V0X211dCgiY29ubmVjdGlvbl9jb25maWciKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfb2JqZWN0X211dCkKICAgICAgICAudW53cmFwKCkKICAgICAgICAuaW5zZXJ0KCJjYV9wZW0iLmludG8oKSwganNvbiEoIm5vdCBhIGNlcnRpZmljYXRlIikpOwogICAgYXNzZXJ0IShidWlsZF9uZXdfcHJvdmlkZXIoJmludmFsaWRfY2EpLmlzX2VycigpKTsKfQoKI1t0ZXN0XQpmbiBlc2NhcGVzX2ZpbHRlcl9pbnB1dF9hbmRfZW5jb2Rlc19iaW5hcnlfYWRfZ3VpZCgpIHsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgbGRhcDM6OmxkYXBfZXNjYXBlKCJhbGljZSopKHVpZD0qKSIpLmFzX3JlZigpLAogICAgICAgICJhbGljZVxcMmFcXDI5XFwyOHVpZD1cXDJhXFwyOSIKICAgICk7CiAgICBhc3NlcnRfZXEhKGJpbmFyeV9zdWJqZWN0X2Zvcl90ZXN0KCZbMCwgMSwgMiwgMjUwLCAyNTVdKSwgIkFBRUMtdjgiKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgZGlyZWN0X3ByaW5jaXBhbF9mb3JfdGVzdCgie3VzZXJuYW1lfUBleGFtcGxlLmNvbSIsICJhbGljZUBleGFtcGxlLm5ldCIpLAogICAgICAgICJhbGljZUBleGFtcGxlLm5ldEBleGFtcGxlLmNvbSIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGRpcmVjdF9wcmluY2lwYWxfZm9yX3Rlc3QoInVpZD17dXNlcm5hbWV9LGRjPWV4YW1wbGUsZGM9Y29tIiwgIiBsZWFkaW5nIiksCiAgICAgICAgInVpZD1cXDIwbGVhZGluZyxkYz1leGFtcGxlLGRjPWNvbSIKICAgICk7Cn0KCiNbdGVzdF0KZm4gc3BsaXRzX3ByaXZhdGVfY2FfYnVuZGxlKCkgewogICAgbGV0IGJ1bmRsZSA9ICItLS0tLUJFR0lOIENFUlRJRklDQVRFLS0tLS1cbkFBQT1cbi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS1cblxuLS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tXG5CQkI9XG4tLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tIjsKICAgIGFzc2VydF9lcSEoc3BsaXRfcGVtX2NlcnRpZmljYXRlc19mb3JfdGVzdChidW5kbGUpLmxlbigpLCAyKTsKICAgIGFzc2VydCEoc3BsaXRfcGVtX2NlcnRpZmljYXRlc19mb3JfdGVzdCgibm90IGEgY2VydGlmaWNhdGUiKS5pc19lbXB0eSgpKTsKfQoKI1t0ZXN0XQpmbiBmYWlsc19vdmVyX29ubHlfZm9yX2Nvbm5lY3Rpb25fY2xhc3NfY2xpZW50X2Vycm9ycygpIHsKICAgIGFzc2VydCEoY2xpZW50X2Vycm9yX2lzX3VuYXZhaWxhYmxlX2Zvcl90ZXN0KAogICAgICAgIHN0ZDo6aW86OkVycm9yOjpuZXcoc3RkOjppbzo6RXJyb3JLaW5kOjpDb25uZWN0aW9uUmVzZXQsICJyZXNldCIpLmludG8oKSwKICAgICkpOwogICAgYXNzZXJ0ISghY2xpZW50X2Vycm9yX2lzX3VuYXZhaWxhYmxlX2Zvcl90ZXN0KAogICAgICAgIGxkYXAzOjpMZGFwRXJyb3I6OkZpbHRlclBhcnNpbmcsCiAgICApKTsKfQoKI1t0ZXN0XQpmbiByZWplY3RzX21pc21hdGNoZWRfYmluZGluZ19zdWJqZWN0X29yX3Byb3ZpZGVyKCkgewogICAgbGV0IGJpbmRpbmcgPSBqc29uISh7CiAgICAgICAgInByb3ZpZGVyX2lkIjogImxkYXBfcHJvdmlkZXJfYSIsCiAgICAgICAgInN1YmplY3Rfa2V5IjogInN1YmplY3QtYSIsCiAgICB9KTsKICAgIGFzc2VydCEoYmluZGluZ19tYXRjaGVzX2lkZW50aXR5X2Zvcl90ZXN0KAogICAgICAgICZiaW5kaW5nLAogICAgICAgICJsZGFwX3Byb3ZpZGVyX2EiLAogICAgICAgICJzdWJqZWN0LWEiCiAgICApKTsKICAgIGFzc2VydCEoIWJpbmRpbmdfbWF0Y2hlc19pZGVudGl0eV9mb3JfdGVzdCgKICAgICAgICAmYmluZGluZywKICAgICAgICAibGRhcF9wcm92aWRlcl9iIiwKICAgICAgICAic3ViamVjdC1hIgogICAgKSk7CiAgICBhc3NlcnQhKCFiaW5kaW5nX21hdGNoZXNfaWRlbnRpdHlfZm9yX3Rlc3QoCiAgICAgICAgJmJpbmRpbmcsCiAgICAgICAgImxkYXBfcHJvdmlkZXJfYSIsCiAgICAgICAgInN1YmplY3QtYiIKICAgICkpOwp9CgojW3Rva2lvOjp0ZXN0XQojW2lnbm9yZSA9ICJyZXF1aXJlcyB0aGUgdGVtcG9yYXJ5IE9wZW5MREFQIFRMUyBmaXh0dXJlIGRlc2NyaWJlZCBieSBGTl9LTk9DS19MREFQX1RFU1RfKiB2YXJpYWJsZXMiXQphc3luYyBmbiBvcGVubGRhcF90bHNfc2VhcmNoX2RpcmVjdF91bmlxdWVfcmVzdWx0X2FuZF9mYWlsb3ZlcigpIHsKICAgIGxldCBjYV9wYXRoID0gc3RkOjplbnY6OnZhcigiRk5fS05PQ0tfTERBUF9URVNUX0NBX1BBVEgiKQogICAgICAgIC5leHBlY3QoIkZOX0tOT0NLX0xEQVBfVEVTVF9DQV9QQVRIIG11c3QgcG9pbnQgdG8gdGhlIGZpeHR1cmUgQ0EgY2VydGlmaWNhdGUiKTsKICAgIGxldCBjYV9wZW0gPQogICAgICAgIHN0ZDo6ZnM6OnJlYWRfdG9fc3RyaW5nKGNhX3BhdGgpLmV4cGVjdCgiZml4dHVyZSBDQSBjZXJ0aWZpY2F0ZSBzaG91bGQgYmUgcmVhZGFibGUiKTsKICAgIGxldCBsZGFwc191cmwgPSBzdGQ6OmVudjo6dmFyKCJGTl9LTk9DS19MREFQX1RFU1RfTERBUFNfVVJMIikKICAgICAgICAudW53cmFwX29yX2Vsc2UofF98ICJsZGFwczovL2xvY2FsaG9zdDoxNjM2Ii5pbnRvKCkpOwogICAgbGV0IHN0YXJ0dGxzX3VybCA9IHN0ZDo6ZW52Ojp2YXIoIkZOX0tOT0NLX0xEQVBfVEVTVF9TVEFSVFRMU19VUkwiKQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8X3wgImxkYXA6Ly9sb2NhbGhvc3Q6MTM4OSIuaW50bygpKTsKICAgIGxldCBwYXNzd29yZCA9CiAgICAgICAgc3RkOjplbnY6OnZhcigiRk5fS05PQ0tfTERBUF9URVNUX1BBU1NXT1JEIikudW53cmFwX29yX2Vsc2UofF98ICJhbGljZS1zZWNyZXQiLmludG8oKSk7CiAgICBsZXQgYmFzZV9kbiA9ICJkYz1leGFtcGxlLGRjPW9yZyI7CgogICAgbGV0IHNlYXJjaF9wcm92aWRlciA9IGpzb24hKHsKICAgICAgICAiaWQiOiAibGRhcF9wcm92aWRlcl9vcGVubGRhcF90ZXN0IiwKICAgICAgICAiY29ubmVjdGlvbl9jb25maWciOiB7CiAgICAgICAgICAgICJzZXJ2ZXJzIjogWyJsZGFwczovLzEyNy4wLjAuMTo5IiwgbGRhcHNfdXJsXSwKICAgICAgICAgICAgInRyYW5zcG9ydCI6ICJsZGFwcyIsCiAgICAgICAgICAgICJiaW5kX21vZGUiOiAic2VhcmNoIiwKICAgICAgICAgICAgImJhc2VfZG4iOiBiYXNlX2RuLAogICAgICAgICAgICAidXNlcl9maWx0ZXIiOiAiKCYob2JqZWN0Q2xhc3M9aW5ldE9yZ1BlcnNvbikodWlkPXt1c2VybmFtZX0pKSIsCiAgICAgICAgICAgICJzZXJ2aWNlX2JpbmRfZG4iOiBmb3JtYXQhKCJjbj1hZG1pbix7YmFzZV9kbn0iKSwKICAgICAgICAgICAgInNlcnZpY2VfYmluZF9wYXNzd29yZCI6ICJhZG1pbi1zZWNyZXQiLAogICAgICAgICAgICAiZGlyZWN0X2JpbmRfdGVtcGxhdGUiOiAiIiwKICAgICAgICAgICAgInN1YmplY3RfYXR0cmlidXRlIjogImVudHJ5VVVJRCIsCiAgICAgICAgICAgICJ1c2VybmFtZV9hdHRyaWJ1dGUiOiAidWlkIiwKICAgICAgICAgICAgImRpc3BsYXlfbmFtZV9hdHRyaWJ1dGUiOiAiY24iLAogICAgICAgICAgICAiZW1haWxfYXR0cmlidXRlIjogIm1haWwiLAogICAgICAgICAgICAiY2FfcGVtIjogY2FfcGVtLAogICAgICAgIH0KICAgIH0pOwogICAgbGV0IHNlYXJjaF9wcm9maWxlID0gYXV0aGVudGljYXRlKCZzZWFyY2hfcHJvdmlkZXIsICJhbGljZSIsICZwYXNzd29yZCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJMREFQUyBzZWFyY2ggYmluZCBzaG91bGQgZmFpbCBvdmVyIGFuZCBhdXRoZW50aWNhdGUiKTsKICAgIGFzc2VydF9lcSEoc2VhcmNoX3Byb2ZpbGUudXNlcm5hbWUsICJhbGljZSIpOwogICAgYXNzZXJ0X2VxIShzZWFyY2hfcHJvZmlsZS5lbWFpbC5hc19kZXJlZigpLCBTb21lKCJhbGljZUBleGFtcGxlLm9yZyIpKTsKICAgIGFzc2VydCEoIXNlYXJjaF9wcm9maWxlLnN1YmplY3QuaXNfZW1wdHkoKSk7CgogICAgbGV0IGludmFsaWRfcGFzc3dvcmQgPSBhdXRoZW50aWNhdGUoJnNlYXJjaF9wcm92aWRlciwgImFsaWNlIiwgImluY29ycmVjdCIpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdF9lcnIoImFuIGludmFsaWQgZGlyZWN0b3J5IHBhc3N3b3JkIG11c3QgYmUgcmVqZWN0ZWQiKTsKICAgIGFzc2VydCEobWF0Y2hlcyEoCiAgICAgICAgaW52YWxpZF9wYXNzd29yZCwKICAgICAgICBMZGFwQXV0aEVycm9yOjpJbnZhbGlkQ3JlZGVudGlhbHMKICAgICkpOwoKICAgIGxldCBtdXQgYW1iaWd1b3VzX3Byb3ZpZGVyID0gc2VhcmNoX3Byb3ZpZGVyLmNsb25lKCk7CiAgICBhbWJpZ3VvdXNfcHJvdmlkZXJbImNvbm5lY3Rpb25fY29uZmlnIl1bInNlcnZlcnMiXSA9IGpzb24hKFtsZGFwc191cmxdKTsKICAgIGFtYmlndW91c19wcm92aWRlclsiY29ubmVjdGlvbl9jb25maWciXVsidXNlcl9maWx0ZXIiXSA9IGpzb24hKCIofCh1aWQ9e3VzZXJuYW1lfSkodWlkPWJvYikpIik7CiAgICBsZXQgYW1iaWd1b3VzID0gYXV0aGVudGljYXRlKCZhbWJpZ3VvdXNfcHJvdmlkZXIsICJhbGljZSIsICZwYXNzd29yZCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0X2VycigiYSBub24tdW5pcXVlIHNlYXJjaCByZXN1bHQgbXVzdCBiZSByZWplY3RlZCIpOwogICAgYXNzZXJ0IShtYXRjaGVzIShhbWJpZ3VvdXMsIExkYXBBdXRoRXJyb3I6OlVzZXJOb3RGb3VuZCkpOwoKICAgIGxldCBkaXJlY3RfcHJvdmlkZXIgPSBqc29uISh7CiAgICAgICAgImlkIjogImxkYXBfcHJvdmlkZXJfb3BlbmxkYXBfZGlyZWN0X3Rlc3QiLAogICAgICAgICJjb25uZWN0aW9uX2NvbmZpZyI6IHsKICAgICAgICAgICAgInNlcnZlcnMiOiBbc3RhcnR0bHNfdXJsXSwKICAgICAgICAgICAgInRyYW5zcG9ydCI6ICJzdGFydHRscyIsCiAgICAgICAgICAgICJiaW5kX21vZGUiOiAiZGlyZWN0IiwKICAgICAgICAgICAgImJhc2VfZG4iOiBiYXNlX2RuLAogICAgICAgICAgICAidXNlcl9maWx0ZXIiOiAiKCYob2JqZWN0Q2xhc3M9aW5ldE9yZ1BlcnNvbikodWlkPXt1c2VybmFtZX0pKSIsCiAgICAgICAgICAgICJzZXJ2aWNlX2JpbmRfZG4iOiAiIiwKICAgICAgICAgICAgInNlcnZpY2VfYmluZF9wYXNzd29yZCI6ICIiLAogICAgICAgICAgICAiZGlyZWN0X2JpbmRfdGVtcGxhdGUiOiBmb3JtYXQhKCJ1aWQ9e3t1c2VybmFtZX19LG91PXBlb3BsZSx7YmFzZV9kbn0iKSwKICAgICAgICAgICAgInN1YmplY3RfYXR0cmlidXRlIjogImVudHJ5VVVJRCIsCiAgICAgICAgICAgICJ1c2VybmFtZV9hdHRyaWJ1dGUiOiAidWlkIiwKICAgICAgICAgICAgImRpc3BsYXlfbmFtZV9hdHRyaWJ1dGUiOiAiY24iLAogICAgICAgICAgICAiZW1haWxfYXR0cmlidXRlIjogIm1haWwiLAogICAgICAgICAgICAiY2FfcGVtIjogc2VhcmNoX3Byb3ZpZGVyWyJjb25uZWN0aW9uX2NvbmZpZyJdWyJjYV9wZW0iXS5jbG9uZSgpLAogICAgICAgIH0KICAgIH0pOwogICAgbGV0IGRpcmVjdF9wcm9maWxlID0gYXV0aGVudGljYXRlKCZkaXJlY3RfcHJvdmlkZXIsICJhbGljZSIsICZwYXNzd29yZCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJTdGFydFRMUyBkaXJlY3QgYmluZCBzaG91bGQgYXV0aGVudGljYXRlIGFuZCByZWFkIHRoZSBwcm9maWxlIik7CiAgICBhc3NlcnRfZXEhKGRpcmVjdF9wcm9maWxlLnN1YmplY3QsIHNlYXJjaF9wcm9maWxlLnN1YmplY3QpOwogICAgYXNzZXJ0X25lIShkaXJlY3RfcHJvZmlsZS5zdWJqZWN0X2tleSwgc2VhcmNoX3Byb2ZpbGUuc3ViamVjdF9rZXkpOwp9Cg==
+use serde_json::{Map, Value, json};
+
+use super::{
+    client::{
+        LdapAuthError, authenticate, binary_subject_for_test, client_error_is_unavailable_for_test,
+        direct_principal_for_test, split_pem_certificates_for_test,
+    },
+    provider::{
+        build_new_provider, build_updated_provider, mask_provider, normalize_server_for_test,
+        provider_config, provider_ready,
+    },
+    runtime::binding_matches_identity_for_test,
+};
+
+const TEST_CA_PEM: &str = "-----BEGIN CERTIFICATE-----\n\
+MIICrDCCAZQCCQCDA9ZZbkN1MzANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1G\n\
+bktub2NrVGVzdENBMB4XDTI2MDgwMjE3NTUzOFoXDTI2MDgwMzE3NTUzOFowGDEW\n\
+MBQGA1UEAwwNRm5Lbm9ja1Rlc3RDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC\n\
+AQoCggEBALVVB920RzJTleQ2/xuLfPbdV0DWw5RR1UE0bAKIHONdTbXATAQe6m+C\n\
+23gf75xeoujv+WScTmOBS8qxm00ha/CEugXguhT3Xqzjyp0hqHT9oEKtJ/a6NIxr\n\
+nmtvBGQWoUtD4S75/1GFDZxahkDTLZ8N7jQGiFmVCL0osLCCZYbsEI8iF12iJE0U\n\
+g54FBJMNjmlb+w2PJgZj7VfebkyuwrsN+yTQZY136piyd/VceP21jGMoU1U2TQIw\n\
+n7mx0MllXRw/R9blTRsM0rL1l7CgzXP55BB4TqfPiHlfEnttrX8VeA2e3pHmKoEg\n\
+kwyV7g29zI55o7/anujOMqtEw0xnQuUCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEA\n\
+ryIaXUI90V4oAab9jzKR4nwmJW4GXtKMTwSF6e3CXCQWebuNqrNgBryvbWXybY8x\n\
+i25EAz/I44i0Nn+T4gVL+ChCD7UPeWIM+CvYTZ0BGkBGZPoGmC39913a0RBc/zv6\n\
+eX3RnoQpRynpelvRhCqhrZte4NoHtmUx9+2k7INiF1XgB+jJVOWgFAoTJ4uA3YoZ\n\
+4HENziZezL7MAXfh0DMZWXdXd7qF5fU2oZwBWyeMrLerrUdTrexUvlPzXb5QUw1X\n\
+Pj5tbEZIP/7Y9Rtjvv959laZJ7KsBb+QVQ6Lo2rbZwrbyVwTDfxhgA7reDNmWnv2\n\
+qFkogrl9uqcXxRS2G9aGdA==\n\
+-----END CERTIFICATE-----";
+
+fn provider_input() -> Map<String, Value> {
+    json!({
+        "type": "openldap",
+        "name": "Company LDAP",
+        "enabled": true,
+        "connection_config": {
+            "servers": ["ldaps://ldap.example.com:636"],
+            "transport": "ldaps",
+            "bind_mode": "search",
+            "base_dn": "dc=example,dc=com",
+            "user_filter": "(&(objectClass=person)(uid={username}))",
+            "service_bind_dn": "cn=reader,dc=example,dc=com",
+            "service_bind_password": "super-secret",
+            "subject_attribute": "entryUUID",
+            "username_attribute": "uid",
+            "display_name_attribute": "cn",
+            "email_attribute": "mail",
+            "ca_pem": TEST_CA_PEM,
+        }
+    })
+    .as_object()
+    .cloned()
+    .unwrap()
+}
+
+#[test]
+fn rejects_plaintext_and_transport_mismatch() {
+    assert!(normalize_server_for_test("ldap.example.com:636", "ldaps").is_ok());
+    assert!(normalize_server_for_test("ldap://ldap.example.com:389", "ldaps").is_err());
+    assert!(normalize_server_for_test("ldaps://ldap.example.com:636", "starttls").is_err());
+    assert!(normalize_server_for_test("ldap://user:secret@ldap.example.com", "starttls").is_err());
+}
+
+#[test]
+fn rejects_insecure_or_incomplete_stored_provider_config() {
+    let mut provider = build_new_provider(&provider_input()).expect("valid provider");
+    provider["connection_config"]["transport"] = json!("plaintext");
+    provider["connection_config"]["servers"] = json!(["ldap://ldap.example.com:389"]);
+    assert!(provider_config(&provider).is_err());
+    assert!(!provider_ready(&provider));
+
+    let mut provider = build_new_provider(&provider_input()).expect("valid provider");
+    provider["connection_config"]["subject_attribute"] = json!("");
+    assert!(provider_config(&provider).is_err());
+}
+
+#[test]
+fn validates_and_masks_provider_secrets() {
+    let provider = build_new_provider(&provider_input()).expect("valid provider");
+    assert!(provider_ready(&provider));
+    let masked = mask_provider(provider.clone());
+    assert_eq!(
+        masked.pointer("/connection_config/service_bind_password"),
+        Some(&json!("********"))
+    );
+    assert_eq!(
+        masked.pointer("/connection_config/ca_pem"),
+        Some(&json!(TEST_CA_PEM))
+    );
+
+    let patch = json!({
+        "connection_config": {
+            "service_bind_password": "",
+            "ca_pem": "",
+        }
+    });
+    let updated = build_updated_provider(provider, patch.as_object().unwrap())
+        .expect("masked values preserve secrets");
+    assert_eq!(
+        updated.pointer("/connection_config/service_bind_password"),
+        Some(&json!("super-secret"))
+    );
+    assert_eq!(
+        updated.pointer("/connection_config/ca_pem"),
+        Some(&json!(""))
+    );
+}
+
+#[test]
+fn requires_safe_templates_and_complete_enabled_configuration() {
+    let mut input = provider_input();
+    input
+        .get_mut("connection_config")
+        .and_then(Value::as_object_mut)
+        .unwrap()
+        .insert("user_filter".into(), json!("(uid=literal)"));
+    assert!(build_new_provider(&input).is_err());
+
+    let mut direct = provider_input();
+    let config = direct
+        .get_mut("connection_config")
+        .and_then(Value::as_object_mut)
+        .unwrap();
+    config.insert("bind_mode".into(), json!("direct"));
+    config.insert("direct_bind_template".into(), json!("literal@example.com"));
+    assert!(build_new_provider(&direct).is_err());
+
+    let mut invalid_ca = provider_input();
+    invalid_ca
+        .get_mut("connection_config")
+        .and_then(Value::as_object_mut)
+        .unwrap()
+        .insert("ca_pem".into(), json!("not a certificate"));
+    assert!(build_new_provider(&invalid_ca).is_err());
+}
+
+#[test]
+fn escapes_filter_input_and_encodes_binary_ad_guid() {
+    assert_eq!(
+        ldap3::ldap_escape("alice*)(uid=*)").as_ref(),
+        "alice\\2a\\29\\28uid=\\2a\\29"
+    );
+    assert_eq!(binary_subject_for_test(&[0, 1, 2, 250, 255]), "AAEC-v8");
+    assert_eq!(
+        direct_principal_for_test("{username}@example.com", "alice@example.net"),
+        "alice@example.net@example.com"
+    );
+    assert_eq!(
+        direct_principal_for_test("uid={username},dc=example,dc=com", " leading"),
+        "uid=\\20leading,dc=example,dc=com"
+    );
+}
+
+#[test]
+fn splits_private_ca_bundle() {
+    let bundle = "-----BEGIN CERTIFICATE-----\nAAA=\n-----END CERTIFICATE-----\n\n-----BEGIN CERTIFICATE-----\nBBB=\n-----END CERTIFICATE-----";
+    assert_eq!(split_pem_certificates_for_test(bundle).len(), 2);
+    assert!(split_pem_certificates_for_test("not a certificate").is_empty());
+}
+
+#[test]
+fn fails_over_only_for_connection_class_client_errors() {
+    assert!(client_error_is_unavailable_for_test(
+        std::io::Error::new(std::io::ErrorKind::ConnectionReset, "reset").into(),
+    ));
+    assert!(!client_error_is_unavailable_for_test(
+        ldap3::LdapError::FilterParsing,
+    ));
+}
+
+#[test]
+fn rejects_mismatched_binding_subject_or_provider() {
+    let binding = json!({
+        "provider_id": "ldap_provider_a",
+        "subject_key": "subject-a",
+    });
+    assert!(binding_matches_identity_for_test(
+        &binding,
+        "ldap_provider_a",
+        "subject-a"
+    ));
+    assert!(!binding_matches_identity_for_test(
+        &binding,
+        "ldap_provider_b",
+        "subject-a"
+    ));
+    assert!(!binding_matches_identity_for_test(
+        &binding,
+        "ldap_provider_a",
+        "subject-b"
+    ));
+}
+
+#[tokio::test]
+#[ignore = "requires the temporary OpenLDAP TLS fixture described by FN_KNOCK_LDAP_TEST_* variables"]
+async fn openldap_tls_search_direct_unique_result_and_failover() {
+    let ca_path = std::env::var("FN_KNOCK_LDAP_TEST_CA_PATH")
+        .expect("FN_KNOCK_LDAP_TEST_CA_PATH must point to the fixture CA certificate");
+    let ca_pem =
+        std::fs::read_to_string(ca_path).expect("fixture CA certificate should be readable");
+    let ldaps_url = std::env::var("FN_KNOCK_LDAP_TEST_LDAPS_URL")
+        .unwrap_or_else(|_| "ldaps://localhost:1636".into());
+    let starttls_url = std::env::var("FN_KNOCK_LDAP_TEST_STARTTLS_URL")
+        .unwrap_or_else(|_| "ldap://localhost:1389".into());
+    let password =
+        std::env::var("FN_KNOCK_LDAP_TEST_PASSWORD").unwrap_or_else(|_| "alice-secret".into());
+    let base_dn = "dc=example,dc=org";
+
+    let search_provider = json!({
+        "id": "ldap_provider_openldap_test",
+        "connection_config": {
+            "servers": ["ldaps://127.0.0.1:9", ldaps_url],
+            "transport": "ldaps",
+            "bind_mode": "search",
+            "base_dn": base_dn,
+            "user_filter": "(&(objectClass=inetOrgPerson)(uid={username}))",
+            "service_bind_dn": format!("cn=admin,{base_dn}"),
+            "service_bind_password": "admin-secret",
+            "direct_bind_template": "",
+            "subject_attribute": "entryUUID",
+            "username_attribute": "uid",
+            "display_name_attribute": "cn",
+            "email_attribute": "mail",
+            "ca_pem": ca_pem,
+        }
+    });
+    let search_profile = authenticate(&search_provider, "alice", &password)
+        .await
+        .expect("LDAPS search bind should fail over and authenticate");
+    assert_eq!(search_profile.username, "alice");
+    assert_eq!(search_profile.email.as_deref(), Some("alice@example.org"));
+    assert!(!search_profile.subject.is_empty());
+
+    let invalid_password = authenticate(&search_provider, "alice", "incorrect")
+        .await
+        .expect_err("an invalid directory password must be rejected");
+    assert!(matches!(
+        invalid_password,
+        LdapAuthError::InvalidCredentials
+    ));
+
+    let mut ambiguous_provider = search_provider.clone();
+    ambiguous_provider["connection_config"]["servers"] = json!([ldaps_url]);
+    ambiguous_provider["connection_config"]["user_filter"] = json!("(|(uid={username})(uid=bob))");
+    let ambiguous = authenticate(&ambiguous_provider, "alice", &password)
+        .await
+        .expect_err("a non-unique search result must be rejected");
+    assert!(matches!(ambiguous, LdapAuthError::UserNotFound));
+
+    let direct_provider = json!({
+        "id": "ldap_provider_openldap_direct_test",
+        "connection_config": {
+            "servers": [starttls_url],
+            "transport": "starttls",
+            "bind_mode": "direct",
+            "base_dn": base_dn,
+            "user_filter": "(&(objectClass=inetOrgPerson)(uid={username}))",
+            "service_bind_dn": "",
+            "service_bind_password": "",
+            "direct_bind_template": format!("uid={{username}},ou=people,{base_dn}"),
+            "subject_attribute": "entryUUID",
+            "username_attribute": "uid",
+            "display_name_attribute": "cn",
+            "email_attribute": "mail",
+            "ca_pem": search_provider["connection_config"]["ca_pem"].clone(),
+        }
+    });
+    let direct_profile = authenticate(&direct_provider, "alice", &password)
+        .await
+        .expect("StartTLS direct bind should authenticate and read the profile");
+    assert_eq!(direct_profile.subject, search_profile.subject);
+    assert_ne!(direct_profile.subject_key, search_profile.subject_key);
+}

@@ -1,1 +1,17 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgVGFnc0lucHV0SW5wdXRQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgVGFnc0lucHV0SW5wdXQsIHVzZUZvcndhcmRQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPFRhZ3NJbnB1dElucHV0UHJvcHMgJiB7IGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0gfT4oKQoKY29uc3QgZGVsZWdhdGVkUHJvcHMgPSByZWFjdGl2ZU9taXQocHJvcHMsICJjbGFzcyIpCgpjb25zdCBmb3J3YXJkZWRQcm9wcyA9IHVzZUZvcndhcmRQcm9wcyhkZWxlZ2F0ZWRQcm9wcykKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFRhZ3NJbnB1dElucHV0IHYtYmluZD0iZm9yd2FyZGVkUHJvcHMiIDpjbGFzcz0iY24oJ3RleHQtc20gbWluLWgtNSBmb2N1czpvdXRsaW5lLW5vbmUgZmxleC0xIGJnLXRyYW5zcGFyZW50IHB4LTEnLCBwcm9wcy5jbGFzcykiIC8+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { TagsInputInputProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { TagsInputInput, useForwardProps } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<TagsInputInputProps & { class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwardedProps = useForwardProps(delegatedProps)
+</script>
+
+<template>
+  <TagsInputInput v-bind="forwardedProps" :class="cn('text-sm min-h-5 focus:outline-none flex-1 bg-transparent px-1', props.class)" />
+</template>

@@ -1,1 +1,423 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEV5ZSwgTG9hZGVyMiwgVHJhc2gyIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQ2hlY2tib3ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2hlY2tib3giOwppbXBvcnQgewogIFNlbGVjdCwKICBTZWxlY3RDb250ZW50LAogIFNlbGVjdEl0ZW0sCiAgU2VsZWN0VHJpZ2dlciwKICBTZWxlY3RWYWx1ZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKaW1wb3J0IHsKICBUYWJsZSwKICBUYWJsZUJvZHksCiAgVGFibGVDZWxsLAogIFRhYmxlSGVhZCwKICBUYWJsZUhlYWRlciwKICBUYWJsZVJvdywKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFibGUiOwppbXBvcnQgUmVmcmVzaEJ1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvUmVmcmVzaEJ1dHRvbi52dWUiOwppbXBvcnQgU2VhcmNoSW5wdXQgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL1NlYXJjaElucHV0LnZ1ZSI7CmltcG9ydCBDb25maXJtRGFuZ2VyUG9wb3ZlciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0NvbmZpcm1EYW5nZXJQb3BvdmVyLnZ1ZSI7CmltcG9ydCBEZXRhaWxEaWFsb2cgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9EZXRhaWxEaWFsb2cudnVlIjsKaW1wb3J0IERldGFpbEZpZWxkc0dyaWQgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9EZXRhaWxGaWVsZHNHcmlkLnZ1ZSI7CmltcG9ydCBIdW1hbkZyaWVuZGx5VGltZSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0h1bWFuRnJpZW5kbHlUaW1lLnZ1ZSI7CmltcG9ydCBQYWdlZFRhYmxlRm9vdGVyIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9saXN0L1BhZ2VkVGFibGVGb290ZXIudnVlIjsKaW1wb3J0IFRhYmxlU2tlbGV0b25CbG9jayBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvbGlzdC9UYWJsZVNrZWxldG9uQmxvY2sudnVlIjsKaW1wb3J0IHsKICBTWVNURU1fRVZFTlRfTEVWRUxfRklMVEVSX09QVElPTlMgYXMgTEVWRUxfT1BUSU9OUywKICBTWVNURU1fRVZFTlRfU09VUkNFX0ZJTFRFUl9PUFRJT05TIGFzIFNPVVJDRV9PUFRJT05TLAogIFNZU1RFTV9FVkVOVF9UWVBFX0ZJTFRFUl9PUFRJT05TIGFzIFRZUEVfT1BUSU9OUywKfSBmcm9tICIuL2NvbnN0YW50cyI7CmltcG9ydCB7IHVzZVN5c3RlbUV2ZW50RGlzcGxheSB9IGZyb20gIi4vdXNlU3lzdGVtRXZlbnREaXNwbGF5IjsKaW1wb3J0IHsgdXNlU3lzdGVtRXZlbnRzIH0gZnJvbSAiLi91c2VTeXN0ZW1FdmVudHMiOwppbXBvcnQgVHJhY2VJZExpbmsgZnJvbSAiQC9jb21wb25lbnRzL1RyYWNlSWRMaW5rLnZ1ZSI7Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cygKICBkZWZpbmVQcm9wczx7CiAgICBhY3RpdmU/OiBib29sZWFuOwogIH0+KCksCiAgewogICAgYWN0aXZlOiB0cnVlLAogIH0sCik7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgZm9ybWF0T3B0aW9uTGFiZWwgPSAob3B0aW9uOiB7IGxhYmVsS2V5OiBzdHJpbmcgfSkgPT4gdChvcHRpb24ubGFiZWxLZXkpOwpjb25zdCB7CiAgYWN0aXZlRXZlbnQsCiAgY2xlYXJBbGxFdmVudHMsCiAgY2xlYXJFdmVudHNEZXNjcmlwdGlvbiwKICBjdXJyZW50UGFnZSwKICBkZWxldGVFdmVudHMsCiAgZXZlbnRzLAogIGZldGNoRXZlbnRzLAogIGhhbmRsZUxpbWl0Q2hhbmdlLAogIGhhbmRsZVBhZ2VDaGFuZ2UsCiAgaGFuZGxlU2VhcmNoLAogIGhhc1NlbGVjdGVkRXZlbnRzLAogIGlzQWxsU2VsZWN0ZWQsCiAgaXNDbGVhcmluZywKICBpc0RlbGV0aW5nLAogIGlzRGV0YWlsc09wZW4sCiAgbGltaXQsCiAgbG9hZGluZywKICBwYXJzZWRMaW1pdCwKICBzZWFyY2hRdWVyeSwKICBzZWxlY3RlZEtleXMsCiAgc2VsZWN0ZWRMZXZlbCwKICBzZWxlY3RlZFNvdXJjZSwKICBzZWxlY3RlZFR5cGUsCiAgc2hvd1RhYmxlU2tlbGV0b24sCiAgdG9nZ2xlU2VsZWN0LAogIHRvdGFsRXZlbnRzLAogIHZpZXdEZXRhaWxzLAp9ID0gdXNlU3lzdGVtRXZlbnRzKCk7CmNvbnN0IHsKICBkZXNjcmliZUV2ZW50LAogIGRldGFpbENvcHlUZXh0LAogIGRldGFpbEl0ZW1zLAogIGV2ZW50VHlwZVRleHRDbGFzcywKICBmb3JtYXRJcERpc3BsYXksCiAgZm9ybWF0U3lzdGVtRXZlbnRMZXZlbExhYmVsLAogIGZvcm1hdFN5c3RlbUV2ZW50U291cmNlTGFiZWwsCiAgZm9ybWF0U3lzdGVtRXZlbnRUeXBlTGFiZWwsCiAgbGV2ZWxCYWRnZUNsYXNzLAogIHJlc29sdmVFdmVudE9yaWdpbnMsCn0gPSB1c2VTeXN0ZW1FdmVudERpc3BsYXkoewogIGFjdGl2ZUV2ZW50LAogIHRyYW5zbGF0ZTogKGtleSwgcGFyYW1zKSA9PiAocGFyYW1zID8gdChrZXksIHBhcmFtcykgOiB0KGtleSkpLAp9KTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0iZmxleCBoLWZ1bGwgZmxleC1jb2wgZ2FwLTQiPgogICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgPFNlYXJjaElucHV0CiAgICAgICAgdi1tb2RlbD0ic2VhcmNoUXVlcnkiCiAgICAgICAgOnBsYWNlaG9sZGVyPSJ0KCdhZG1pbi5ldmVudENlbnRlci5ldmVudHMuc2VhcmNoUGxhY2Vob2xkZXInKSIKICAgICAgICBjbGFzcz0idy1mdWxsIG1heC13LXhzIgogICAgICAgIEBzZWFyY2g9ImhhbmRsZVNlYXJjaCIKICAgICAgLz4KCiAgICAgIDxTZWxlY3Qgdi1tb2RlbD0ic2VsZWN0ZWRUeXBlIj4KICAgICAgICA8U2VsZWN0VHJpZ2dlcgogICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy50eXBlUGxhY2Vob2xkZXInKSIKICAgICAgICAgIGNsYXNzPSJ3LVsxNjBweF0iCiAgICAgICAgPgogICAgICAgICAgPFNlbGVjdFZhbHVlCiAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLnR5cGVQbGFjZWhvbGRlcicpIgogICAgICAgICAgLz4KICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICA8U2VsZWN0SXRlbQogICAgICAgICAgICB2LWZvcj0ib3B0aW9uIGluIFRZUEVfT1BUSU9OUyIKICAgICAgICAgICAgOmtleT0ib3B0aW9uLnZhbHVlIgogICAgICAgICAgICA6dmFsdWU9Im9wdGlvbi52YWx1ZSIKICAgICAgICAgID4KICAgICAgICAgICAge3sgZm9ybWF0T3B0aW9uTGFiZWwob3B0aW9uKSB9fQogICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgPC9TZWxlY3Q+CgogICAgICA8U2VsZWN0IHYtbW9kZWw9InNlbGVjdGVkTGV2ZWwiPgogICAgICAgIDxTZWxlY3RUcmlnZ2VyCiAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmxldmVsUGxhY2Vob2xkZXInKSIKICAgICAgICAgIGNsYXNzPSJ3LVsxNDBweF0iCiAgICAgICAgPgogICAgICAgICAgPFNlbGVjdFZhbHVlCiAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmxldmVsUGxhY2Vob2xkZXInKSIKICAgICAgICAgIC8+CiAgICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgPFNlbGVjdEl0ZW0KICAgICAgICAgICAgdi1mb3I9Im9wdGlvbiBpbiBMRVZFTF9PUFRJT05TIgogICAgICAgICAgICA6a2V5PSJvcHRpb24udmFsdWUiCiAgICAgICAgICAgIDp2YWx1ZT0ib3B0aW9uLnZhbHVlIgogICAgICAgICAgPgogICAgICAgICAgICB7eyBmb3JtYXRPcHRpb25MYWJlbChvcHRpb24pIH19CiAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICA8L1NlbGVjdD4KCiAgICAgIDxTZWxlY3Qgdi1tb2RlbD0ic2VsZWN0ZWRTb3VyY2UiPgogICAgICAgIDxTZWxlY3RUcmlnZ2VyCiAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLnNvdXJjZVBsYWNlaG9sZGVyJykiCiAgICAgICAgICBjbGFzcz0idy1bMTEwcHhdIgogICAgICAgID4KICAgICAgICAgIDxTZWxlY3RWYWx1ZQogICAgICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5zb3VyY2VQbGFjZWhvbGRlcicpIgogICAgICAgICAgLz4KICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICA8U2VsZWN0SXRlbQogICAgICAgICAgICB2LWZvcj0ib3B0aW9uIGluIFNPVVJDRV9PUFRJT05TIgogICAgICAgICAgICA6a2V5PSJvcHRpb24udmFsdWUiCiAgICAgICAgICAgIDp2YWx1ZT0ib3B0aW9uLnZhbHVlIgogICAgICAgICAgPgogICAgICAgICAgICB7eyBmb3JtYXRPcHRpb25MYWJlbChvcHRpb24pIH19CiAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICA8L1NlbGVjdD4KCiAgICAgIDxkaXYgY2xhc3M9Im1sLWF1dG8gZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgIDxSZWZyZXNoQnV0dG9uCiAgICAgICAgICA6bG9hZGluZz0ibG9hZGluZyIKICAgICAgICAgIDpkaXNhYmxlZD0ibG9hZGluZyB8fCBpc0NsZWFyaW5nIgogICAgICAgICAgQGNsaWNrPSJmZXRjaEV2ZW50cyIKICAgICAgICAvPgoKICAgICAgICA8Q29uZmlybURhbmdlclBvcG92ZXIKICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmNsZWFyVGl0bGUnKSIKICAgICAgICAgIDpkZXNjcmlwdGlvbj0iY2xlYXJFdmVudHNEZXNjcmlwdGlvbiIKICAgICAgICAgIDpjb25maXJtLXRleHQ9InQoJ2FkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5jb25maXJtQ2xlYXInKSIKICAgICAgICAgIDpsb2FkaW5nPSJpc0NsZWFyaW5nIgogICAgICAgICAgOmRpc2FibGVkPSJsb2FkaW5nIHx8IGlzQ2xlYXJpbmcgfHwgdG90YWxFdmVudHMgPT09IDAiCiAgICAgICAgICBjb250ZW50LWNsYXNzPSJ3LTgwIHRleHQtbGVmdCIKICAgICAgICAgIDpvbi1jb25maXJtPSJjbGVhckFsbEV2ZW50cyIKICAgICAgICA+CiAgICAgICAgICA8dGVtcGxhdGUgI3RyaWdnZXI+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgIGNsYXNzPSJib3JkZXItZGVzdHJ1Y3RpdmUvMjAgdGV4dC1kZXN0cnVjdGl2ZSBob3ZlcjpiZy1kZXN0cnVjdGl2ZS81IGhvdmVyOnRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJsb2FkaW5nIHx8IGlzQ2xlYXJpbmcgfHwgdG90YWxFdmVudHMgPT09IDAiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8VHJhc2gyIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmNsZWFyQnV0dG9uIikgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgIDwvQ29uZmlybURhbmdlclBvcG92ZXI+CgogICAgICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICAgICAgdi1pZj0iaGFzU2VsZWN0ZWRFdmVudHMiCiAgICAgICAgICA6dGl0bGU9IgogICAgICAgICAgICB0KCdhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGVsZXRlU2VsZWN0ZWRUaXRsZScsIHsKICAgICAgICAgICAgICBjb3VudDogc2VsZWN0ZWRLZXlzLnNpemUsCiAgICAgICAgICAgIH0pCiAgICAgICAgICAiCiAgICAgICAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZWxldGVEZXNjcmlwdGlvbicpIgogICAgICAgICAgOmxvYWRpbmc9ImlzRGVsZXRpbmciCiAgICAgICAgICA6ZGlzYWJsZWQ9ImlzRGVsZXRpbmcgfHwgaXNDbGVhcmluZyIKICAgICAgICAgIDpvbi1jb25maXJtPSIoKSA9PiBkZWxldGVFdmVudHMoQXJyYXkuZnJvbShzZWxlY3RlZEtleXMpKSIKICAgICAgICA+CiAgICAgICAgICA8dGVtcGxhdGUgI3RyaWdnZXI+CiAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZGVzdHJ1Y3RpdmUiIDpkaXNhYmxlZD0iaXNEZWxldGluZyB8fCBpc0NsZWFyaW5nIj4KICAgICAgICAgICAgICA8VHJhc2gyIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgIHQoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZWxldGVTZWxlY3RlZEJ1dHRvbiIsIHsKICAgICAgICAgICAgICAgICAgY291bnQ6IHNlbGVjdGVkS2V5cy5zaXplLAogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8ZGl2CiAgICAgIGNsYXNzPSJmbGV4IGZsZXgtMSBmbGV4LWNvbCBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1tZCBib3JkZXIgYmctYmFja2dyb3VuZCIKICAgID4KICAgICAgPGRpdiBjbGFzcz0iZmxleC0xIG92ZXJmbG93LWF1dG8iPgogICAgICAgIDxUYWJsZQogICAgICAgICAgdi1pZj0iIShsb2FkaW5nICYmIGV2ZW50cy5sZW5ndGggPT09IDApIgogICAgICAgICAgY2xhc3M9InRhYmxlLWZpeGVkIG1pbi13LVs5ODBweF0iCiAgICAgICAgPgogICAgICAgICAgPFRhYmxlSGVhZGVyIGNsYXNzPSJzdGlja3kgdG9wLTAgei0xMCBiZy1iYWNrZ3JvdW5kIHNoYWRvdy1zbSI+CiAgICAgICAgICAgIDxUYWJsZVJvdz4KICAgICAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJ3LVs0MnB4XSBwbC0zIHByLTEiPgogICAgICAgICAgICAgICAgPENoZWNrYm94CiAgICAgICAgICAgICAgICAgIHYtbW9kZWw9ImlzQWxsU2VsZWN0ZWQiCiAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24uc2VsZWN0QWxsJykiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9InctWzMwMHB4XSI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5ldmVudENlbnRlci5ldmVudHMudGFibGVFdmVudCIpIH19CiAgICAgICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bMjIwcHhdIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5vcmlnaW4iKSB9fQogICAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9InctWzEwMHB4XSI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5ldmVudENlbnRlci5ldmVudHMubGV2ZWwiKSB9fQogICAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9InctWzk2cHhdIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5zeXN0ZW0iKSB9fQogICAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9InctWzExMHB4XSBwci02IHRleHQtcmlnaHQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmFjdGlvbnMiKSB9fQogICAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgPC9UYWJsZUhlYWRlcj4KICAgICAgICAgIDxUYWJsZUJvZHk+CiAgICAgICAgICAgIDxUYWJsZVJvdyB2LWlmPSJsb2FkaW5nIj4KICAgICAgICAgICAgICA8VGFibGVDZWxsIGNvbHNwYW49IjYiIGNsYXNzPSJweS0xMCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgICA8TG9hZGVyMgogICAgICAgICAgICAgICAgICBjbGFzcz0ibXgtYXV0byBoLTYgdy02IGFuaW1hdGUtc3BpbiB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgICA8VGFibGVSb3cgdi1lbHNlLWlmPSJldmVudHMubGVuZ3RoID09PSAwIj4KICAgICAgICAgICAgICA8VGFibGVDZWxsCiAgICAgICAgICAgICAgICBjb2xzcGFuPSI2IgogICAgICAgICAgICAgICAgY2xhc3M9InB5LTEwIHRleHQtY2VudGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZW1wdHkiKSB9fQogICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgICA8VGFibGVSb3cgdi1mb3I9ImV2ZW50IGluIGV2ZW50cyIgOmtleT0iZXZlbnQuaWQiPgogICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InctWzQycHhdIHBsLTMgcHItMSBhbGlnbi10b3AiPgogICAgICAgICAgICAgICAgPENoZWNrYm94CiAgICAgICAgICAgICAgICAgIDptb2RlbC12YWx1ZT0ic2VsZWN0ZWRLZXlzLmhhcyhldmVudC5pZCkiCiAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24uc2VsZWN0SXRlbScsIHsgaXRlbTogZXZlbnQuaWQgfSkiCiAgICAgICAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9InRvZ2dsZVNlbGVjdChldmVudC5pZCkiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InctWzM0MHB4XSBtYXgtdy1bMzQwcHhdIGFsaWduLXRvcCI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEuNSI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0iaW5saW5lLWZsZXggaC01IHNocmluay0wIGl0ZW1zLWNlbnRlciByb3VuZGVkLWZ1bGwgYmctbXV0ZWQgcHgtMiB0ZXh0LVsxMXB4XSBmb250LW1lZGl1bSBsZWFkaW5nLW5vbmUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIDxIdW1hbkZyaWVuZGx5VGltZSA6dmFsdWU9ImV2ZW50LmhhcHBlbmVkX2F0IiAvPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJtaW4tdy0wIHRleHQtc20gZm9udC1zZW1pYm9sZCBsZWFkaW5nLTYiCiAgICAgICAgICAgICAgICAgICAgICA6Y2xhc3M9ImV2ZW50VHlwZVRleHRDbGFzcyhldmVudCkiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAge3sgZm9ybWF0U3lzdGVtRXZlbnRUeXBlTGFiZWwoZXZlbnQudHlwZSkgfX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgY2xhc3M9Im10LTEgbWF4LXctWzMwMHB4XSBsaW5lLWNsYW1wLTMgd2hpdGVzcGFjZS1ub3JtYWwgYnJlYWstd29yZHMgdGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7eyBkZXNjcmliZUV2ZW50KGV2ZW50KSB9fQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0iYWxpZ24tbWlkZGxlIj4KICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgdi1pZj0icmVzb2x2ZUV2ZW50T3JpZ2lucyhldmVudCkubGVuZ3RoID09PSAwIgogICAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIC0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiB2LWVsc2UgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICB2LWZvcj0ib3JpZ2luIGluIHJlc29sdmVFdmVudE9yaWdpbnMoZXZlbnQpIgogICAgICAgICAgICAgICAgICAgIDprZXk9Im9yaWdpbi5rZXkiCiAgICAgICAgICAgICAgICAgICAgY2xhc3M9InNwYWNlLXktMC41IGxlYWRpbmctNSIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJmb250LW1vbm8gdGV4dC14cyB0ZXh0LWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICAgICAgICA6dGl0bGU9Im9yaWdpbi5pcCIKICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICB7eyBmb3JtYXRJcERpc3BsYXkob3JpZ2luLmlwKSB9fQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICAgIHYtaWY9Im9yaWdpbi5sb2NhdGlvbiIKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJsaW5lLWNsYW1wLTIgd2hpdGVzcGFjZS1ub3JtYWwgdGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIHt7IG9yaWdpbi5sb2NhdGlvbiB9fQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgIDxUYWJsZUNlbGw+CiAgICAgICAgICAgICAgICA8QmFkZ2UKICAgICAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICAgICAgY2xhc3M9ImJvcmRlciBweC0yIHB5LTAuNSIKICAgICAgICAgICAgICAgICAgOmNsYXNzPSJsZXZlbEJhZGdlQ2xhc3MoZXZlbnQubGV2ZWwpIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7eyBmb3JtYXRTeXN0ZW1FdmVudExldmVsTGFiZWwoZXZlbnQubGV2ZWwpIH19CiAgICAgICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InRydW5jYXRlIGFsaWduLW1pZGRsZSI+CiAgICAgICAgICAgICAgICB7eyBmb3JtYXRTeXN0ZW1FdmVudFNvdXJjZUxhYmVsKGV2ZW50LnNvdXJjZSkgfX0KICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJzcGFjZS14LTIgcHItNiB0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICAgIHNpemU9Imljb24iCiAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24udmlld0RldGFpbHMnKSIKICAgICAgICAgICAgICAgICAgQGNsaWNrPSJ2aWV3RGV0YWlscyhldmVudCkiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxFeWUgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICAgICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZWxldGVTaW5nbGVUaXRsZScpIgogICAgICAgICAgICAgICAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kZWxldGVEZXNjcmlwdGlvbicpIgogICAgICAgICAgICAgICAgICA6bG9hZGluZz0iaXNEZWxldGluZyIKICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc0RlbGV0aW5nIHx8IGlzQ2xlYXJpbmciCiAgICAgICAgICAgICAgICAgIDpvbi1jb25maXJtPSIoKSA9PiBkZWxldGVFdmVudHMoW2V2ZW50LmlkXSkiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDx0ZW1wbGF0ZSAjdHJpZ2dlcj4KICAgICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICAgICAgICAgICAgICAgIHNpemU9Imljb24iCiAgICAgICAgICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnY29tbW9uLmNvbmZpcm1EZWxldGUnKSIKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc0RlbGV0aW5nIHx8IGlzQ2xlYXJpbmciCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPFRyYXNoMiBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgICAgICAgIDwvQ29uZmlybURhbmdlclBvcG92ZXI+CiAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICA8L1RhYmxlQm9keT4KICAgICAgICA8L1RhYmxlPgoKICAgICAgICA8VGFibGVTa2VsZXRvbkJsb2NrCiAgICAgICAgICB2LWVsc2UtaWY9InNob3dUYWJsZVNrZWxldG9uIgogICAgICAgICAgOmhlYWRlci13aWR0aHM9Ilsndy0xNicsICd3LTUyJywgJ3ctMjQnLCAndy0xMicsICd3LTE2JywgJ3ctMTAnXSIKICAgICAgICAgIDpyb3ctd2lkdGhzPSJbJ3ctMTYnLCAndy01NicsICd3LTI4JywgJ3ctMTInLCAndy0yMCcsICd3LTEwJ10iCiAgICAgICAgLz4KCiAgICAgICAgPGRpdiB2LWVsc2UgY2xhc3M9ImgtWzQyMHB4XSIgYXJpYS1oaWRkZW49InRydWUiPjwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxQYWdlZFRhYmxlRm9vdGVyCiAgICAgICAgOnRvdGFsPSJ0b3RhbEV2ZW50cyIKICAgICAgICA6cGFnZT0iY3VycmVudFBhZ2UiCiAgICAgICAgOmxpbWl0PSJsaW1pdCIKICAgICAgICA6aXRlbXMtcGVyLXBhZ2U9InBhcnNlZExpbWl0IgogICAgICAgIDp0b3RhbC10ZXh0PSJ0KCdhZG1pbi5ldmVudENlbnRlci5ldmVudHMudG90YWxUZXh0JykiCiAgICAgICAgOmZsb2F0aW5nPSJwcm9wcy5hY3RpdmUiCiAgICAgICAgQHVwZGF0ZTpwYWdlPSJoYW5kbGVQYWdlQ2hhbmdlIgogICAgICAgIEB1cGRhdGU6bGltaXQ9ImhhbmRsZUxpbWl0Q2hhbmdlIgogICAgICAvPgogICAgPC9kaXY+CgogICAgPERldGFpbERpYWxvZwogICAgICB2LW1vZGVsOm9wZW49ImlzRGV0YWlsc09wZW4iCiAgICAgIDp0aXRsZT0idCgnYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbFRpdGxlJykiCiAgICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbERlc2NyaXB0aW9uJykiCiAgICAgIG1heC13aWR0aC1jbGFzcz0ic206bWF4LXctWzc2MHB4XSIKICAgICAgY2xvc2UtdmFyaWFudD0iZGVmYXVsdCIKICAgICAgOmNvcHktdGV4dD0iZGV0YWlsQ29weVRleHQiCiAgICA+CiAgICAgIDxkaXYgdi1pZj0iYWN0aXZlRXZlbnQiIGNsYXNzPSJzcGFjZS15LTYiPgogICAgICAgIDxUcmFjZUlkTGluayA6dHJhY2UtaWQ9ImFjdGl2ZUV2ZW50LnRyYWNlX2lkIiAvPgogICAgICAgIDxEZXRhaWxGaWVsZHNHcmlkIDppdGVtcz0iZGV0YWlsSXRlbXMiIC8+CgogICAgICAgIDxkaXYgdi1pZj0iYWN0aXZlRXZlbnQudGFncz8ubGVuZ3RoIiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLnRhZ3MiKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICAgICAgICAgIDxCYWRnZQogICAgICAgICAgICAgIHYtZm9yPSJ0YWcgaW4gYWN0aXZlRXZlbnQudGFncyIKICAgICAgICAgICAgICA6a2V5PSJ0YWciCiAgICAgICAgICAgICAgdmFyaWFudD0ic2Vjb25kYXJ5IgogICAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLWZ1bGwgcHgtMiBweS0wLjUiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0YWcgfX0KICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvRGV0YWlsRGlhbG9nPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Eye, Loader2, Trash2 } from "lucide-vue-next";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import RefreshButton from "@/components/RefreshButton.vue";
+import SearchInput from "@admin-shared/components/SearchInput.vue";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import DetailDialog from "@admin-shared/components/common/DetailDialog.vue";
+import DetailFieldsGrid from "@admin-shared/components/common/DetailFieldsGrid.vue";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import PagedTableFooter from "@admin-shared/components/list/PagedTableFooter.vue";
+import TableSkeletonBlock from "@admin-shared/components/list/TableSkeletonBlock.vue";
+import {
+  SYSTEM_EVENT_LEVEL_FILTER_OPTIONS as LEVEL_OPTIONS,
+  SYSTEM_EVENT_SOURCE_FILTER_OPTIONS as SOURCE_OPTIONS,
+  SYSTEM_EVENT_TYPE_FILTER_OPTIONS as TYPE_OPTIONS,
+} from "./constants";
+import { useSystemEventDisplay } from "./useSystemEventDisplay";
+import { useSystemEvents } from "./useSystemEvents";
+import TraceIdLink from "@/components/TraceIdLink.vue";
+
+const props = withDefaults(
+  defineProps<{
+    active?: boolean;
+  }>(),
+  {
+    active: true,
+  },
+);
+
+const { t } = useI18n();
+const formatOptionLabel = (option: { labelKey: string }) => t(option.labelKey);
+const {
+  activeEvent,
+  clearAllEvents,
+  clearEventsDescription,
+  currentPage,
+  deleteEvents,
+  events,
+  fetchEvents,
+  handleLimitChange,
+  handlePageChange,
+  handleSearch,
+  hasSelectedEvents,
+  isAllSelected,
+  isClearing,
+  isDeleting,
+  isDetailsOpen,
+  limit,
+  loading,
+  parsedLimit,
+  searchQuery,
+  selectedKeys,
+  selectedLevel,
+  selectedSource,
+  selectedType,
+  showTableSkeleton,
+  toggleSelect,
+  totalEvents,
+  viewDetails,
+} = useSystemEvents();
+const {
+  describeEvent,
+  detailCopyText,
+  detailItems,
+  eventTypeTextClass,
+  formatIpDisplay,
+  formatSystemEventLevelLabel,
+  formatSystemEventSourceLabel,
+  formatSystemEventTypeLabel,
+  levelBadgeClass,
+  resolveEventOrigins,
+} = useSystemEventDisplay({
+  activeEvent,
+  translate: (key, params) => (params ? t(key, params) : t(key)),
+});
+</script>
+
+<template>
+  <div class="flex h-full flex-col gap-4">
+    <div class="flex flex-wrap items-center gap-2">
+      <SearchInput
+        v-model="searchQuery"
+        :placeholder="t('admin.eventCenter.events.searchPlaceholder')"
+        class="w-full max-w-xs"
+        @search="handleSearch"
+      />
+
+      <Select v-model="selectedType">
+        <SelectTrigger
+          :aria-label="t('admin.eventCenter.events.typePlaceholder')"
+          class="w-[160px]"
+        >
+          <SelectValue
+            :placeholder="t('admin.eventCenter.events.typePlaceholder')"
+          />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem
+            v-for="option in TYPE_OPTIONS"
+            :key="option.value"
+            :value="option.value"
+          >
+            {{ formatOptionLabel(option) }}
+          </SelectItem>
+        </SelectContent>
+      </Select>
+
+      <Select v-model="selectedLevel">
+        <SelectTrigger
+          :aria-label="t('admin.eventCenter.events.levelPlaceholder')"
+          class="w-[140px]"
+        >
+          <SelectValue
+            :placeholder="t('admin.eventCenter.events.levelPlaceholder')"
+          />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem
+            v-for="option in LEVEL_OPTIONS"
+            :key="option.value"
+            :value="option.value"
+          >
+            {{ formatOptionLabel(option) }}
+          </SelectItem>
+        </SelectContent>
+      </Select>
+
+      <Select v-model="selectedSource">
+        <SelectTrigger
+          :aria-label="t('admin.eventCenter.events.sourcePlaceholder')"
+          class="w-[110px]"
+        >
+          <SelectValue
+            :placeholder="t('admin.eventCenter.events.sourcePlaceholder')"
+          />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem
+            v-for="option in SOURCE_OPTIONS"
+            :key="option.value"
+            :value="option.value"
+          >
+            {{ formatOptionLabel(option) }}
+          </SelectItem>
+        </SelectContent>
+      </Select>
+
+      <div class="ml-auto flex items-center gap-2">
+        <RefreshButton
+          :loading="loading"
+          :disabled="loading || isClearing"
+          @click="fetchEvents"
+        />
+
+        <ConfirmDangerPopover
+          :title="t('admin.eventCenter.events.clearTitle')"
+          :description="clearEventsDescription"
+          :confirm-text="t('admin.eventCenter.events.confirmClear')"
+          :loading="isClearing"
+          :disabled="loading || isClearing || totalEvents === 0"
+          content-class="w-80 text-left"
+          :on-confirm="clearAllEvents"
+        >
+          <template #trigger>
+            <Button
+              variant="outline"
+              class="border-destructive/20 text-destructive hover:bg-destructive/5 hover:text-destructive"
+              :disabled="loading || isClearing || totalEvents === 0"
+            >
+              <Trash2 class="mr-2 h-4 w-4" />
+              {{ t("admin.eventCenter.events.clearButton") }}
+            </Button>
+          </template>
+        </ConfirmDangerPopover>
+
+        <ConfirmDangerPopover
+          v-if="hasSelectedEvents"
+          :title="
+            t('admin.eventCenter.events.deleteSelectedTitle', {
+              count: selectedKeys.size,
+            })
+          "
+          :description="t('admin.eventCenter.events.deleteDescription')"
+          :loading="isDeleting"
+          :disabled="isDeleting || isClearing"
+          :on-confirm="() => deleteEvents(Array.from(selectedKeys))"
+        >
+          <template #trigger>
+            <Button variant="destructive" :disabled="isDeleting || isClearing">
+              <Trash2 class="mr-2 h-4 w-4" />
+              {{
+                t("admin.eventCenter.events.deleteSelectedButton", {
+                  count: selectedKeys.size,
+                })
+              }}
+            </Button>
+          </template>
+        </ConfirmDangerPopover>
+      </div>
+    </div>
+
+    <div
+      class="flex flex-1 flex-col overflow-hidden rounded-md border bg-background"
+    >
+      <div class="flex-1 overflow-auto">
+        <Table
+          v-if="!(loading && events.length === 0)"
+          class="table-fixed min-w-[980px]"
+        >
+          <TableHeader class="sticky top-0 z-10 bg-background shadow-sm">
+            <TableRow>
+              <TableHead class="w-[42px] pl-3 pr-1">
+                <Checkbox
+                  v-model="isAllSelected"
+                  :aria-label="t('common.selectAll')"
+                />
+              </TableHead>
+              <TableHead class="w-[300px]">
+                {{ t("admin.eventCenter.events.tableEvent") }}
+              </TableHead>
+              <TableHead class="w-[220px]">
+                {{ t("admin.eventCenter.events.origin") }}
+              </TableHead>
+              <TableHead class="w-[100px]">
+                {{ t("admin.eventCenter.events.level") }}
+              </TableHead>
+              <TableHead class="w-[96px]">
+                {{ t("admin.eventCenter.events.system") }}
+              </TableHead>
+              <TableHead class="w-[110px] pr-6 text-right">
+                {{ t("admin.eventCenter.events.actions") }}
+              </TableHead>
+            </TableRow>
+          </TableHeader>
+          <TableBody>
+            <TableRow v-if="loading">
+              <TableCell colspan="6" class="py-10 text-center">
+                <Loader2
+                  class="mx-auto h-6 w-6 animate-spin text-muted-foreground"
+                />
+              </TableCell>
+            </TableRow>
+            <TableRow v-else-if="events.length === 0">
+              <TableCell
+                colspan="6"
+                class="py-10 text-center text-muted-foreground"
+              >
+                {{ t("admin.eventCenter.events.empty") }}
+              </TableCell>
+            </TableRow>
+            <TableRow v-for="event in events" :key="event.id">
+              <TableCell class="w-[42px] pl-3 pr-1 align-top">
+                <Checkbox
+                  :model-value="selectedKeys.has(event.id)"
+                  :aria-label="t('common.selectItem', { item: event.id })"
+                  @update:model-value="toggleSelect(event.id)"
+                />
+              </TableCell>
+              <TableCell class="w-[340px] max-w-[340px] align-top">
+                <div class="space-y-1.5">
+                  <div class="flex items-center gap-2">
+                    <div
+                      class="inline-flex h-5 shrink-0 items-center rounded-full bg-muted px-2 text-[11px] font-medium leading-none text-muted-foreground"
+                    >
+                      <HumanFriendlyTime :value="event.happened_at" />
+                    </div>
+                    <div
+                      class="min-w-0 text-sm font-semibold leading-6"
+                      :class="eventTypeTextClass(event)"
+                    >
+                      {{ formatSystemEventTypeLabel(event.type) }}
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="mt-1 max-w-[300px] line-clamp-3 whitespace-normal break-words text-sm leading-6 text-muted-foreground"
+                >
+                  {{ describeEvent(event) }}
+                </div>
+              </TableCell>
+              <TableCell class="align-middle">
+                <div
+                  v-if="resolveEventOrigins(event).length === 0"
+                  class="text-sm text-muted-foreground"
+                >
+                  -
+                </div>
+                <div v-else class="space-y-1">
+                  <div
+                    v-for="origin in resolveEventOrigins(event)"
+                    :key="origin.key"
+                    class="space-y-0.5 leading-5"
+                  >
+                    <div
+                      class="font-mono text-xs text-foreground"
+                      :title="origin.ip"
+                    >
+                      {{ formatIpDisplay(origin.ip) }}
+                    </div>
+                    <div
+                      v-if="origin.location"
+                      class="line-clamp-2 whitespace-normal text-xs leading-5 text-muted-foreground"
+                    >
+                      {{ origin.location }}
+                    </div>
+                  </div>
+                </div>
+              </TableCell>
+              <TableCell>
+                <Badge
+                  variant="outline"
+                  class="border px-2 py-0.5"
+                  :class="levelBadgeClass(event.level)"
+                >
+                  {{ formatSystemEventLevelLabel(event.level) }}
+                </Badge>
+              </TableCell>
+              <TableCell class="truncate align-middle">
+                {{ formatSystemEventSourceLabel(event.source) }}
+              </TableCell>
+              <TableCell class="space-x-2 pr-6 text-right">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  :aria-label="t('common.viewDetails')"
+                  @click="viewDetails(event)"
+                >
+                  <Eye class="h-4 w-4" />
+                </Button>
+                <ConfirmDangerPopover
+                  :title="t('admin.eventCenter.events.deleteSingleTitle')"
+                  :description="t('admin.eventCenter.events.deleteDescription')"
+                  :loading="isDeleting"
+                  :disabled="isDeleting || isClearing"
+                  :on-confirm="() => deleteEvents([event.id])"
+                >
+                  <template #trigger>
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      :aria-label="t('common.confirmDelete')"
+                      class="text-destructive"
+                      :disabled="isDeleting || isClearing"
+                    >
+                      <Trash2 class="h-4 w-4" />
+                    </Button>
+                  </template>
+                </ConfirmDangerPopover>
+              </TableCell>
+            </TableRow>
+          </TableBody>
+        </Table>
+
+        <TableSkeletonBlock
+          v-else-if="showTableSkeleton"
+          :header-widths="['w-16', 'w-52', 'w-24', 'w-12', 'w-16', 'w-10']"
+          :row-widths="['w-16', 'w-56', 'w-28', 'w-12', 'w-20', 'w-10']"
+        />
+
+        <div v-else class="h-[420px]" aria-hidden="true"></div>
+      </div>
+
+      <PagedTableFooter
+        :total="totalEvents"
+        :page="currentPage"
+        :limit="limit"
+        :items-per-page="parsedLimit"
+        :total-text="t('admin.eventCenter.events.totalText')"
+        :floating="props.active"
+        @update:page="handlePageChange"
+        @update:limit="handleLimitChange"
+      />
+    </div>
+
+    <DetailDialog
+      v-model:open="isDetailsOpen"
+      :title="t('admin.eventCenter.events.detailTitle')"
+      :description="t('admin.eventCenter.events.detailDescription')"
+      max-width-class="sm:max-w-[760px]"
+      close-variant="default"
+      :copy-text="detailCopyText"
+    >
+      <div v-if="activeEvent" class="space-y-6">
+        <TraceIdLink :trace-id="activeEvent.trace_id" />
+        <DetailFieldsGrid :items="detailItems" />
+
+        <div v-if="activeEvent.tags?.length" class="space-y-2">
+          <div class="text-sm font-medium text-foreground">
+            {{ t("admin.eventCenter.events.tags") }}
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <Badge
+              v-for="tag in activeEvent.tags"
+              :key="tag"
+              variant="secondary"
+              class="rounded-full px-2 py-0.5"
+            >
+              {{ tag }}
+            </Badge>
+          </div>
+        </div>
+      </div>
+    </DetailDialog>
+  </div>
+</template>

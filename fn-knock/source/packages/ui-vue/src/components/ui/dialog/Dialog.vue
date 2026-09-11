@@ -1,1 +1,19 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRGlhbG9nUm9vdEVtaXRzLCBEaWFsb2dSb290UHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBEaWFsb2dSb290LCB1c2VGb3J3YXJkUHJvcHNFbWl0cyB9IGZyb20gInJla2EtdWkiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPERpYWxvZ1Jvb3RQcm9wcz4oKQpjb25zdCBlbWl0cyA9IGRlZmluZUVtaXRzPERpYWxvZ1Jvb3RFbWl0cz4oKQoKY29uc3QgZm9yd2FyZGVkID0gdXNlRm9yd2FyZFByb3BzRW1pdHMocHJvcHMsIGVtaXRzKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nUm9vdAogICAgdi1zbG90PSJzbG90UHJvcHMiCiAgICBkYXRhLXNsb3Q9ImRpYWxvZyIKICAgIHYtYmluZD0iZm9yd2FyZGVkIgogID4KICAgIDxzbG90IHYtYmluZD0ic2xvdFByb3BzIiAvPgogIDwvRGlhbG9nUm9vdD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { DialogRootEmits, DialogRootProps } from "reka-ui"
+import { DialogRoot, useForwardPropsEmits } from "reka-ui"
+
+const props = defineProps<DialogRootProps>()
+const emits = defineEmits<DialogRootEmits>()
+
+const forwarded = useForwardPropsEmits(props, emits)
+</script>
+
+<template>
+  <DialogRoot
+    v-slot="slotProps"
+    data-slot="dialog"
+    v-bind="forwarded"
+  >
+    <slot v-bind="slotProps" />
+  </DialogRoot>
+</template>

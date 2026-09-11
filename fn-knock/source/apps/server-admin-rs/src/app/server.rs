@@ -1,1 +1,207 @@
-dXNlIHN0ZDo6ewogICAgZnV0dXJlOjpGdXR1cmUsCiAgICBuZXQ6OntJcEFkZHIsIElwdjRBZGRyLCBJcHY2QWRkciwgU29ja2V0QWRkcn0sCn07Cgp1c2UgYW55aG93OjpDb250ZXh0Owp1c2UgYXh1bTo6Um91dGVyOwp1c2UgdG9raW86Om5ldDo6VGNwTGlzdGVuZXI7CnVzZSB0b2tpb191dGlsOjpzeW5jOjpDYW5jZWxsYXRpb25Ub2tlbjsKCnB1YihzdXBlcikgc3RydWN0IEJvdW5kU2VydmVyIHsKICAgIG5hbWU6ICYnc3RhdGljIHN0ciwKICAgIGxpc3RlbmVyczogVmVjPChTb2NrZXRBZGRyLCBUY3BMaXN0ZW5lcik+LAogICAgcm91dGVyOiBSb3V0ZXIsCiAgICBzaHV0ZG93bjogQ2FuY2VsbGF0aW9uVG9rZW4sCn0KCmltcGwgQm91bmRTZXJ2ZXIgewogICAgcHViKHN1cGVyKSBhc3luYyBmbiBiaW5kKAogICAgICAgIG5hbWU6ICYnc3RhdGljIHN0ciwKICAgICAgICBhZGRyOiBTb2NrZXRBZGRyLAogICAgICAgIHJvdXRlcjogUm91dGVyLAogICAgICAgIHNodXRkb3duOiBDYW5jZWxsYXRpb25Ub2tlbiwKICAgICkgLT4gYW55aG93OjpSZXN1bHQ8U2VsZj4gewogICAgICAgIGxldCBsaXN0ZW5lcnMgPSBiaW5kX2xpc3RlbmVycyhuYW1lLCBhZGRyLCBUY3BMaXN0ZW5lcjo6YmluZCkuYXdhaXQ/OwoKICAgICAgICBPayhTZWxmIHsKICAgICAgICAgICAgbmFtZSwKICAgICAgICAgICAgbGlzdGVuZXJzLAogICAgICAgICAgICByb3V0ZXIsCiAgICAgICAgICAgIHNodXRkb3duLAogICAgICAgIH0pCiAgICB9CgogICAgcHViKHN1cGVyKSBhc3luYyBmbiBzZXJ2ZShzZWxmKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgICAgIGxldCBtdXQgdGFza3MgPSB0b2tpbzo6dGFzazo6Sm9pblNldDo6bmV3KCk7CiAgICAgICAgZm9yIChsaXN0ZW5fYWRkciwgbGlzdGVuZXIpIGluIHNlbGYubGlzdGVuZXJzIHsKICAgICAgICAgICAgbGV0IHJvdXRlciA9IHNlbGYucm91dGVyLmNsb25lKCk7CiAgICAgICAgICAgIGxldCBzaHV0ZG93biA9IHNlbGYuc2h1dGRvd24uY2xvbmUoKTsKICAgICAgICAgICAgbGV0IG5hbWUgPSBzZWxmLm5hbWU7CiAgICAgICAgICAgIHRhc2tzLnNwYXduKGFzeW5jIG1vdmUgewogICAgICAgICAgICAgICAgc2VydmVfbGlzdGVuZXIobmFtZSwgbGlzdGVuX2FkZHIsIGxpc3RlbmVyLCByb3V0ZXIsIHNodXRkb3duKS5hd2FpdAogICAgICAgICAgICB9KTsKICAgICAgICB9CgogICAgICAgIHdoaWxlIGxldCBTb21lKHJlc3VsdCkgPSB0YXNrcy5qb2luX25leHQoKS5hd2FpdCB7CiAgICAgICAgICAgIG1hdGNoIHJlc3VsdCB7CiAgICAgICAgICAgICAgICBPayhPaygoKSkpID0+IHt9CiAgICAgICAgICAgICAgICBPayhFcnIoZXJyb3IpKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgdGFza3MuYWJvcnRfYWxsKCk7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihlcnJvcik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgICAgICAgICB0YXNrcy5hYm9ydF9hbGwoKTsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gRXJyKGVycm9yLmludG8oKSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIE9rKCgpKQogICAgfQp9CgovLyBUaGUgY29uZmlndXJlZCBhZGRyZXNzIGlzIGFsd2F5cyB0aGUgcHJpbWFyeSBsaXN0ZW5lci4gV2hlbiBpdCBpcyBhCi8vIGxvb3BiYWNrIGFkZHJlc3MsIHRoZSBvdGhlciBJUCBmYW1pbHkgaXMgYSBjb252ZW5pZW5jZSBjb21wYW5pb24gcmF0aGVyCi8vIHRoYW4gYSBzdGFydHVwIHJlcXVpcmVtZW50OiBXaW5kb3dzIGluc3RhbGxhdGlvbnMgY2FuIGxlZ2l0aW1hdGVseSBoYXZlCi8vIElQdjYgZGlzYWJsZWQuIEtlZXAgdGhlIHByaW1hcnkgbGlzdGVuZXIgYXZhaWxhYmxlIGluIHRoYXQgY2FzZSBpbnN0ZWFkIG9mCi8vIGRyb3BwaW5nIGl0IGJlY2F1c2UgdGhlIGNvbXBhbmlvbiBjYW5ub3QgYmluZC4KYXN5bmMgZm4gYmluZF9saXN0ZW5lcnM8VCwgRiwgRnV0PigKICAgIG5hbWU6ICYnc3RhdGljIHN0ciwKICAgIGFkZHI6IFNvY2tldEFkZHIsCiAgICBtdXQgYmluZDogRiwKKSAtPiBhbnlob3c6OlJlc3VsdDxWZWM8KFNvY2tldEFkZHIsIFQpPj4Kd2hlcmUKICAgIEY6IEZuTXV0KFNvY2tldEFkZHIpIC0+IEZ1dCwKICAgIEZ1dDogRnV0dXJlPE91dHB1dCA9IHN0ZDo6aW86OlJlc3VsdDxUPj4sCnsKICAgIGxldCBtdXQgbGlzdGVuZXJzID0gVmVjOjpuZXcoKTsKICAgIGZvciAoaW5kZXgsIGxpc3Rlbl9hZGRyKSBpbiBsaXN0ZW5fYWRkcnMoYWRkcikuaW50b19pdGVyKCkuZW51bWVyYXRlKCkgewogICAgICAgIG1hdGNoIGJpbmQobGlzdGVuX2FkZHIpLmF3YWl0IHsKICAgICAgICAgICAgT2sobGlzdGVuZXIpID0+IHsKICAgICAgICAgICAgICAgIHRyYWNpbmc6OmluZm8hKCVuYW1lLCBhZGRyID0gJWxpc3Rlbl9hZGRyLCAic2VydmVyIGxpc3RlbmluZyIpOwogICAgICAgICAgICAgICAgbGlzdGVuZXJzLnB1c2goKGxpc3Rlbl9hZGRyLCBsaXN0ZW5lcikpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIEVycihlcnJvcikgaWYgaW5kZXggPiAwID0+IHsKICAgICAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKAogICAgICAgICAgICAgICAgICAgICVuYW1lLAogICAgICAgICAgICAgICAgICAgIGFkZHIgPSAlbGlzdGVuX2FkZHIsCiAgICAgICAgICAgICAgICAgICAgJWVycm9yLAogICAgICAgICAgICAgICAgICAgICJvcHRpb25hbCBsb29wYmFjayBjb21wYW5pb24gbGlzdGVuZXIgdW5hdmFpbGFibGU7IGNvbnRpbnVpbmcgd2l0aCB0aGUgcHJpbWFyeSBsaXN0ZW5lciIKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgICAgICByZXR1cm4gRXJyKGVycm9yKQogICAgICAgICAgICAgICAgICAgIC53aXRoX2NvbnRleHQofHwgZm9ybWF0ISgiYmluZCB7bmFtZX0gbGlzdGVuZXIgb24ge2xpc3Rlbl9hZGRyfSIpKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIE9rKGxpc3RlbmVycykKfQoKZm4gbGlzdGVuX2FkZHJzKGFkZHI6IFNvY2tldEFkZHIpIC0+IFZlYzxTb2NrZXRBZGRyPiB7CiAgICBsZXQgbXV0IGFkZHJzID0gdmVjIVthZGRyXTsKICAgIGlmIGxldCBTb21lKGNvbXBhbmlvbikgPSBsb29wYmFja19jb21wYW5pb25fYWRkcihhZGRyKSB7CiAgICAgICAgYWRkcnMucHVzaChjb21wYW5pb24pOwogICAgfQogICAgYWRkcnMKfQoKZm4gbG9vcGJhY2tfY29tcGFuaW9uX2FkZHIoYWRkcjogU29ja2V0QWRkcikgLT4gT3B0aW9uPFNvY2tldEFkZHI+IHsKICAgIG1hdGNoIGFkZHIuaXAoKSB7CiAgICAgICAgSXBBZGRyOjpWNChpcCkgaWYgaXAuaXNfbG9vcGJhY2soKSA9PiBTb21lKFNvY2tldEFkZHI6Om5ldygKICAgICAgICAgICAgSXBBZGRyOjpWNihJcHY2QWRkcjo6TE9DQUxIT1NUKSwKICAgICAgICAgICAgYWRkci5wb3J0KCksCiAgICAgICAgKSksCiAgICAgICAgSXBBZGRyOjpWNihpcCkgaWYgaXAuaXNfbG9vcGJhY2soKSA9PiBTb21lKFNvY2tldEFkZHI6Om5ldygKICAgICAgICAgICAgSXBBZGRyOjpWNChJcHY0QWRkcjo6TE9DQUxIT1NUKSwKICAgICAgICAgICAgYWRkci5wb3J0KCksCiAgICAgICAgKSksCiAgICAgICAgXyA9PiBOb25lLAogICAgfQp9Cgphc3luYyBmbiBzZXJ2ZV9saXN0ZW5lcigKICAgIG5hbWU6ICYnc3RhdGljIHN0ciwKICAgIGFkZHI6IFNvY2tldEFkZHIsCiAgICBsaXN0ZW5lcjogVGNwTGlzdGVuZXIsCiAgICByb3V0ZXI6IFJvdXRlciwKICAgIHNodXRkb3duOiBDYW5jZWxsYXRpb25Ub2tlbiwKKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgYXh1bTo6c2VydmUoCiAgICAgICAgbGlzdGVuZXIsCiAgICAgICAgcm91dGVyLmludG9fbWFrZV9zZXJ2aWNlX3dpdGhfY29ubmVjdF9pbmZvOjo8U29ja2V0QWRkcj4oKSwKICAgICkKICAgIC53aXRoX2dyYWNlZnVsX3NodXRkb3duKHNodXRkb3duLmNhbmNlbGxlZF9vd25lZCgpKQogICAgLmF3YWl0CiAgICAud2l0aF9jb250ZXh0KHx8IGZvcm1hdCEoIntuYW1lfSBzZXJ2ZXIgZmFpbGVkIG9uIHthZGRyfSIpKT87CiAgICBPaygoKSkKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CgogICAgI1t0ZXN0XQogICAgZm4gbG9vcGJhY2tfbGlzdGVuZXJzX2luY2x1ZGVfaXB2NF9hbmRfaXB2Nl93aXRob3V0X3dpbGRjYXJkKCkgewogICAgICAgIGxldCBpcHY0ID0gU29ja2V0QWRkcjo6bmV3KElwQWRkcjo6VjQoSXB2NEFkZHI6OkxPQ0FMSE9TVCksIDc5OTcpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGxpc3Rlbl9hZGRycyhpcHY0KSwKICAgICAgICAgICAgdmVjIVsKICAgICAgICAgICAgICAgIFNvY2tldEFkZHI6Om5ldyhJcEFkZHI6OlY0KElwdjRBZGRyOjpMT0NBTEhPU1QpLCA3OTk3KSwKICAgICAgICAgICAgICAgIFNvY2tldEFkZHI6Om5ldyhJcEFkZHI6OlY2KElwdjZBZGRyOjpMT0NBTEhPU1QpLCA3OTk3KSwKICAgICAgICAgICAgXQogICAgICAgICk7CgogICAgICAgIGxldCBpcHY2ID0gU29ja2V0QWRkcjo6bmV3KElwQWRkcjo6VjYoSXB2NkFkZHI6OkxPQ0FMSE9TVCksIDc5OTgpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGxpc3Rlbl9hZGRycyhpcHY2KSwKICAgICAgICAgICAgdmVjIVsKICAgICAgICAgICAgICAgIFNvY2tldEFkZHI6Om5ldyhJcEFkZHI6OlY2KElwdjZBZGRyOjpMT0NBTEhPU1QpLCA3OTk4KSwKICAgICAgICAgICAgICAgIFNvY2tldEFkZHI6Om5ldyhJcEFkZHI6OlY0KElwdjRBZGRyOjpMT0NBTEhPU1QpLCA3OTk4KSwKICAgICAgICAgICAgXQogICAgICAgICk7CgogICAgICAgIGxldCB3aWxkY2FyZCA9IFNvY2tldEFkZHI6Om5ldyhJcEFkZHI6OlY0KElwdjRBZGRyOjpVTlNQRUNJRklFRCksIDc5OTcpOwogICAgICAgIGFzc2VydF9lcSEobGlzdGVuX2FkZHJzKHdpbGRjYXJkKSwgdmVjIVt3aWxkY2FyZF0pOwoKICAgICAgICBsZXQgaXB2Nl93aWxkY2FyZCA9IFNvY2tldEFkZHI6Om5ldyhJcEFkZHI6OlY2KElwdjZBZGRyOjpVTlNQRUNJRklFRCksIDc5OTcpOwogICAgICAgIGFzc2VydF9lcSEobGlzdGVuX2FkZHJzKGlwdjZfd2lsZGNhcmQpLCB2ZWMhW2lwdjZfd2lsZGNhcmRdKTsKICAgIH0KCiAgICAjW3Rva2lvOjp0ZXN0XQogICAgYXN5bmMgZm4gdW5hdmFpbGFibGVfbG9vcGJhY2tfY29tcGFuaW9uX2tlZXBzX3ByaW1hcnlfbGlzdGVuZXIoKSB7CiAgICAgICAgbGV0IHByaW1hcnkgPSBTb2NrZXRBZGRyOjpuZXcoSXBBZGRyOjpWNChJcHY0QWRkcjo6TE9DQUxIT1NUKSwgNzk5Nyk7CiAgICAgICAgbGV0IGNvbXBhbmlvbiA9IGxvb3BiYWNrX2NvbXBhbmlvbl9hZGRyKHByaW1hcnkpLmV4cGVjdCgibG9vcGJhY2sgaGFzIGEgY29tcGFuaW9uIik7CgogICAgICAgIGxldCBsaXN0ZW5lcnMgPSBiaW5kX2xpc3RlbmVycygidGVzdCIsIHByaW1hcnksIHxsaXN0ZW5fYWRkcnwgYXN5bmMgbW92ZSB7CiAgICAgICAgICAgIGlmIGxpc3Rlbl9hZGRyID09IGNvbXBhbmlvbiB7CiAgICAgICAgICAgICAgICBFcnIoc3RkOjppbzo6RXJyb3I6Om5ldygKICAgICAgICAgICAgICAgICAgICBzdGQ6OmlvOjpFcnJvcktpbmQ6OkFkZHJOb3RBdmFpbGFibGUsCiAgICAgICAgICAgICAgICAgICAgIklQdjYgaXMgZGlzYWJsZWQiLAogICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIE9rKGxpc3Rlbl9hZGRyKQogICAgICAgICAgICB9CiAgICAgICAgfSkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJwcmltYXJ5IGxpc3RlbmVyIHNob3VsZCBzdGlsbCBiaW5kIik7CgogICAgICAgIGFzc2VydF9lcSEobGlzdGVuZXJzLCB2ZWMhWyhwcmltYXJ5LCBwcmltYXJ5KV0pOwogICAgfQoKICAgICNbdG9raW86OnRlc3RdCiAgICBhc3luYyBmbiB1bmF2YWlsYWJsZV9wcmltYXJ5X2xpc3RlbmVyX3N0aWxsX2ZhaWxzX3N0YXJ0dXAoKSB7CiAgICAgICAgbGV0IHByaW1hcnkgPSBTb2NrZXRBZGRyOjpuZXcoSXBBZGRyOjpWNChJcHY0QWRkcjo6TE9DQUxIT1NUKSwgNzk5Nyk7CiAgICAgICAgbGV0IGVycm9yID0gYmluZF9saXN0ZW5lcnMoInRlc3QiLCBwcmltYXJ5LCB8X3wgYXN5bmMgewogICAgICAgICAgICBFcnI6OjxTb2NrZXRBZGRyLCBfPihzdGQ6OmlvOjpFcnJvcjo6bmV3KAogICAgICAgICAgICAgICAgc3RkOjppbzo6RXJyb3JLaW5kOjpBZGRySW5Vc2UsCiAgICAgICAgICAgICAgICAicG9ydCBpcyBpbiB1c2UiLAogICAgICAgICAgICApKQogICAgICAgIH0pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdF9lcnIoInByaW1hcnkgbGlzdGVuZXIgZmFpbHVyZSBtdXN0IHJlbWFpbiBmYXRhbCIpOwoKICAgICAgICBhc3NlcnQhKGVycm9yLnRvX3N0cmluZygpLmNvbnRhaW5zKCJiaW5kIHRlc3QgbGlzdGVuZXIiKSk7CiAgICB9Cn0K
+use std::{
+    future::Future,
+    net::{IpAddr, Ipv4Addr, Ipv6Addr, SocketAddr},
+};
+
+use anyhow::Context;
+use axum::Router;
+use tokio::net::TcpListener;
+use tokio_util::sync::CancellationToken;
+
+pub(super) struct BoundServer {
+    name: &'static str,
+    listeners: Vec<(SocketAddr, TcpListener)>,
+    router: Router,
+    shutdown: CancellationToken,
+}
+
+impl BoundServer {
+    pub(super) async fn bind(
+        name: &'static str,
+        addr: SocketAddr,
+        router: Router,
+        shutdown: CancellationToken,
+    ) -> anyhow::Result<Self> {
+        let listeners = bind_listeners(name, addr, TcpListener::bind).await?;
+
+        Ok(Self {
+            name,
+            listeners,
+            router,
+            shutdown,
+        })
+    }
+
+    pub(super) async fn serve(self) -> anyhow::Result<()> {
+        let mut tasks = tokio::task::JoinSet::new();
+        for (listen_addr, listener) in self.listeners {
+            let router = self.router.clone();
+            let shutdown = self.shutdown.clone();
+            let name = self.name;
+            tasks.spawn(async move {
+                serve_listener(name, listen_addr, listener, router, shutdown).await
+            });
+        }
+
+        while let Some(result) = tasks.join_next().await {
+            match result {
+                Ok(Ok(())) => {}
+                Ok(Err(error)) => {
+                    tasks.abort_all();
+                    return Err(error);
+                }
+                Err(error) => {
+                    tasks.abort_all();
+                    return Err(error.into());
+                }
+            }
+        }
+
+        Ok(())
+    }
+}
+
+// The configured address is always the primary listener. When it is a
+// loopback address, the other IP family is a convenience companion rather
+// than a startup requirement: Windows installations can legitimately have
+// IPv6 disabled. Keep the primary listener available in that case instead of
+// dropping it because the companion cannot bind.
+async fn bind_listeners<T, F, Fut>(
+    name: &'static str,
+    addr: SocketAddr,
+    mut bind: F,
+) -> anyhow::Result<Vec<(SocketAddr, T)>>
+where
+    F: FnMut(SocketAddr) -> Fut,
+    Fut: Future<Output = std::io::Result<T>>,
+{
+    let mut listeners = Vec::new();
+    for (index, listen_addr) in listen_addrs(addr).into_iter().enumerate() {
+        match bind(listen_addr).await {
+            Ok(listener) => {
+                tracing::info!(%name, addr = %listen_addr, "server listening");
+                listeners.push((listen_addr, listener));
+            }
+            Err(error) if index > 0 => {
+                tracing::warn!(
+                    %name,
+                    addr = %listen_addr,
+                    %error,
+                    "optional loopback companion listener unavailable; continuing with the primary listener"
+                );
+            }
+            Err(error) => {
+                return Err(error)
+                    .with_context(|| format!("bind {name} listener on {listen_addr}"));
+            }
+        }
+    }
+    Ok(listeners)
+}
+
+fn listen_addrs(addr: SocketAddr) -> Vec<SocketAddr> {
+    let mut addrs = vec![addr];
+    if let Some(companion) = loopback_companion_addr(addr) {
+        addrs.push(companion);
+    }
+    addrs
+}
+
+fn loopback_companion_addr(addr: SocketAddr) -> Option<SocketAddr> {
+    match addr.ip() {
+        IpAddr::V4(ip) if ip.is_loopback() => Some(SocketAddr::new(
+            IpAddr::V6(Ipv6Addr::LOCALHOST),
+            addr.port(),
+        )),
+        IpAddr::V6(ip) if ip.is_loopback() => Some(SocketAddr::new(
+            IpAddr::V4(Ipv4Addr::LOCALHOST),
+            addr.port(),
+        )),
+        _ => None,
+    }
+}
+
+async fn serve_listener(
+    name: &'static str,
+    addr: SocketAddr,
+    listener: TcpListener,
+    router: Router,
+    shutdown: CancellationToken,
+) -> anyhow::Result<()> {
+    axum::serve(
+        listener,
+        router.into_make_service_with_connect_info::<SocketAddr>(),
+    )
+    .with_graceful_shutdown(shutdown.cancelled_owned())
+    .await
+    .with_context(|| format!("{name} server failed on {addr}"))?;
+    Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn loopback_listeners_include_ipv4_and_ipv6_without_wildcard() {
+        let ipv4 = SocketAddr::new(IpAddr::V4(Ipv4Addr::LOCALHOST), 7997);
+        assert_eq!(
+            listen_addrs(ipv4),
+            vec![
+                SocketAddr::new(IpAddr::V4(Ipv4Addr::LOCALHOST), 7997),
+                SocketAddr::new(IpAddr::V6(Ipv6Addr::LOCALHOST), 7997),
+            ]
+        );
+
+        let ipv6 = SocketAddr::new(IpAddr::V6(Ipv6Addr::LOCALHOST), 7998);
+        assert_eq!(
+            listen_addrs(ipv6),
+            vec![
+                SocketAddr::new(IpAddr::V6(Ipv6Addr::LOCALHOST), 7998),
+                SocketAddr::new(IpAddr::V4(Ipv4Addr::LOCALHOST), 7998),
+            ]
+        );
+
+        let wildcard = SocketAddr::new(IpAddr::V4(Ipv4Addr::UNSPECIFIED), 7997);
+        assert_eq!(listen_addrs(wildcard), vec![wildcard]);
+
+        let ipv6_wildcard = SocketAddr::new(IpAddr::V6(Ipv6Addr::UNSPECIFIED), 7997);
+        assert_eq!(listen_addrs(ipv6_wildcard), vec![ipv6_wildcard]);
+    }
+
+    #[tokio::test]
+    async fn unavailable_loopback_companion_keeps_primary_listener() {
+        let primary = SocketAddr::new(IpAddr::V4(Ipv4Addr::LOCALHOST), 7997);
+        let companion = loopback_companion_addr(primary).expect("loopback has a companion");
+
+        let listeners = bind_listeners("test", primary, |listen_addr| async move {
+            if listen_addr == companion {
+                Err(std::io::Error::new(
+                    std::io::ErrorKind::AddrNotAvailable,
+                    "IPv6 is disabled",
+                ))
+            } else {
+                Ok(listen_addr)
+            }
+        })
+        .await
+        .expect("primary listener should still bind");
+
+        assert_eq!(listeners, vec![(primary, primary)]);
+    }
+
+    #[tokio::test]
+    async fn unavailable_primary_listener_still_fails_startup() {
+        let primary = SocketAddr::new(IpAddr::V4(Ipv4Addr::LOCALHOST), 7997);
+        let error = bind_listeners("test", primary, |_| async {
+            Err::<SocketAddr, _>(std::io::Error::new(
+                std::io::ErrorKind::AddrInUse,
+                "port is in use",
+            ))
+        })
+        .await
+        .expect_err("primary listener failure must remain fatal");
+
+        assert!(error.to_string().contains("bind test listener"));
+    }
+}

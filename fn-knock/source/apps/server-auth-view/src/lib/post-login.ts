@@ -1,1 +1,24 @@
-ZXhwb3J0IGNvbnN0IFBPU1RfTE9HSU5fTE9HT1VUX0RFTEFZX01TID0gMTBfMDAwOwoKY29uc3QgUE9TVF9MT0dJTl9MT0dPVVRfREVMQVlfS0VZID0gJ2ZuLWtub2NrOmF1dGg6ZGVsYXktbG9nb3V0LW9uY2UnOwoKZXhwb3J0IGZ1bmN0aW9uIG1hcmtQZW5kaW5nTG9nb3V0RGVsYXkoKSB7CiAgICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gJ3VuZGVmaW5lZCcpIHsKICAgICAgICByZXR1cm47CiAgICB9CgogICAgd2luZG93LnNlc3Npb25TdG9yYWdlLnNldEl0ZW0oUE9TVF9MT0dJTl9MT0dPVVRfREVMQVlfS0VZLCAnMScpOwp9CgpleHBvcnQgZnVuY3Rpb24gY29uc3VtZVBlbmRpbmdMb2dvdXREZWxheSgpIHsKICAgIGlmICh0eXBlb2Ygd2luZG93ID09PSAndW5kZWZpbmVkJykgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBjb25zdCBzaG91bGREZWxheSA9IHdpbmRvdy5zZXNzaW9uU3RvcmFnZS5nZXRJdGVtKFBPU1RfTE9HSU5fTE9HT1VUX0RFTEFZX0tFWSkgPT09ICcxJzsKICAgIGlmIChzaG91bGREZWxheSkgewogICAgICAgIHdpbmRvdy5zZXNzaW9uU3RvcmFnZS5yZW1vdmVJdGVtKFBPU1RfTE9HSU5fTE9HT1VUX0RFTEFZX0tFWSk7CiAgICB9CgogICAgcmV0dXJuIHNob3VsZERlbGF5Owp9Cg==
+export const POST_LOGIN_LOGOUT_DELAY_MS = 10_000;
+
+const POST_LOGIN_LOGOUT_DELAY_KEY = 'fn-knock:auth:delay-logout-once';
+
+export function markPendingLogoutDelay() {
+    if (typeof window === 'undefined') {
+        return;
+    }
+
+    window.sessionStorage.setItem(POST_LOGIN_LOGOUT_DELAY_KEY, '1');
+}
+
+export function consumePendingLogoutDelay() {
+    if (typeof window === 'undefined') {
+        return false;
+    }
+
+    const shouldDelay = window.sessionStorage.getItem(POST_LOGIN_LOGOUT_DELAY_KEY) === '1';
+    if (shouldDelay) {
+        window.sessionStorage.removeItem(POST_LOGIN_LOGOUT_DELAY_KEY);
+    }
+
+    return shouldDelay;
+}

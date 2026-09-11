@@ -1,1 +1,83 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgewogIHR5cGUgQ2xvdWRmbGFyZU9wdGltaXphdGlvblJlc29sdmVyRGlhZ25vc3RpYywKICB0eXBlIENsb3VkZmxhcmVPcHRpbWl6YXRpb25TY2FuLAp9IGZyb20gIkAvbGliL2FwaS90dW5uZWwiOwppbXBvcnQgewogIG9wdGltaXphdGlvblJlc29sdmVyUHJvdmlkZXJMYWJlbCwKICBvcHRpbWl6YXRpb25SZXNvbHZlclBhdGhMYWJlbCwKICBvcHRpbWl6YXRpb25SZXNvbHZlclN0YXR1c0xhYmVsLAp9IGZyb20gIi4vY2xvdWRmbGFyZU9wdGltaXphdGlvblByZXNlbnRhdGlvbiI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBkaWFnbm9zdGljczogQ2xvdWRmbGFyZU9wdGltaXphdGlvblJlc29sdmVyRGlhZ25vc3RpY1tdOwogIHJlc29sdXRpb25QYXRoOiBDbG91ZGZsYXJlT3B0aW1pemF0aW9uU2NhblsicmVzb2x1dGlvblBhdGgiXTsKfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cgpjb25zdCBwcm92aWRlckxhYmVsID0gKAogIHByb3ZpZGVyOiBDbG91ZGZsYXJlT3B0aW1pemF0aW9uUmVzb2x2ZXJEaWFnbm9zdGljWyJwcm92aWRlciJdLAopID0+IG9wdGltaXphdGlvblJlc29sdmVyUHJvdmlkZXJMYWJlbChwcm92aWRlciwgdCk7CmNvbnN0IHN0YXR1c0xhYmVsID0gKAogIHN0YXR1czogQ2xvdWRmbGFyZU9wdGltaXphdGlvblJlc29sdmVyRGlhZ25vc3RpY1sic3RhdHVzIl0sCikgPT4gb3B0aW1pemF0aW9uUmVzb2x2ZXJTdGF0dXNMYWJlbChzdGF0dXMsIHQpOwpjb25zdCBhdmFpbGFibGVQcm92aWRlcnMgPSBjb21wdXRlZCgoKSA9PgogIHByb3BzLmRpYWdub3N0aWNzCiAgICAuZmlsdGVyKChkaWFnbm9zdGljKSA9PiBkaWFnbm9zdGljLnN1Y2Nlc3NDb3VudCA+IDApCiAgICAubWFwKChkaWFnbm9zdGljKSA9PiBwcm92aWRlckxhYmVsKGRpYWdub3N0aWMucHJvdmlkZXIpKSwKKTsKY29uc3QgcmVzb2x1dGlvblBhdGggPSBjb21wdXRlZCgoKSA9PgogIG9wdGltaXphdGlvblJlc29sdmVyUGF0aExhYmVsKAogICAgcHJvcHMucmVzb2x1dGlvblBhdGgsCiAgICBhdmFpbGFibGVQcm92aWRlcnMudmFsdWUsCiAgICB0LAogICksCik7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAge3sKICAgICAgICB0KAogICAgICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnNvdXJjZXMucmVzb2x2ZXJEaWFnbm9zdGljc1RpdGxlIiwKICAgICAgICApCiAgICAgIH19CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57eyByZXNvbHV0aW9uUGF0aCB9fTwvZGl2PgogICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMiBzbTpncmlkLWNvbHMtMiI+CiAgICAgIDxkaXYKICAgICAgICB2LWZvcj0iZGlhZ25vc3RpYyBpbiBkaWFnbm9zdGljcyIKICAgICAgICA6a2V5PSJkaWFnbm9zdGljLnByb3ZpZGVyIgogICAgICAgIGNsYXNzPSJyb3VuZGVkLW1kIGJvcmRlciBweC0zIHB5LTIiCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgPHNwYW4gY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICB7eyBwcm92aWRlckxhYmVsKGRpYWdub3N0aWMucHJvdmlkZXIpIH19CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8QmFkZ2UgdmFyaWFudD0ib3V0bGluZSI+e3sgc3RhdHVzTGFiZWwoZGlhZ25vc3RpYy5zdGF0dXMpIH19PC9CYWRnZT4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJtdC0xIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnNvdXJjZXMucmVzb2x2ZXJDb3VudHMiLCB7CiAgICAgICAgICAgICAgc3VjY2VzczogZGlhZ25vc3RpYy5zdWNjZXNzQ291bnQsCiAgICAgICAgICAgICAgZmFpbHVyZTogZGlhZ25vc3RpYy5mYWlsdXJlQ291bnQsCiAgICAgICAgICAgIH0pCiAgICAgICAgICB9fQogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9ImRpYWdub3N0aWMubGFzdEVycm9yQ29kZSIKICAgICAgICAgIGNsYXNzPSJtdC0xIGJyZWFrLXdvcmRzIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgID4KICAgICAgICAgIDxjb2RlPnt7IGRpYWdub3N0aWMubGFzdEVycm9yQ29kZSB9fTwvY29kZT4KICAgICAgICAgIDxzcGFuIHYtaWY9ImRpYWdub3N0aWMubGFzdEVycm9yRGV0YWlsIj4KICAgICAgICAgICAg4oCUIHt7IGRpYWdub3N0aWMubGFzdEVycm9yRGV0YWlsIH19CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import {
+  type CloudflareOptimizationResolverDiagnostic,
+  type CloudflareOptimizationScan,
+} from "@/lib/api/tunnel";
+import {
+  optimizationResolverProviderLabel,
+  optimizationResolverPathLabel,
+  optimizationResolverStatusLabel,
+} from "./cloudflareOptimizationPresentation";
+
+const props = defineProps<{
+  diagnostics: CloudflareOptimizationResolverDiagnostic[];
+  resolutionPath: CloudflareOptimizationScan["resolutionPath"];
+}>();
+const { t } = useI18n();
+
+const providerLabel = (
+  provider: CloudflareOptimizationResolverDiagnostic["provider"],
+) => optimizationResolverProviderLabel(provider, t);
+const statusLabel = (
+  status: CloudflareOptimizationResolverDiagnostic["status"],
+) => optimizationResolverStatusLabel(status, t);
+const availableProviders = computed(() =>
+  props.diagnostics
+    .filter((diagnostic) => diagnostic.successCount > 0)
+    .map((diagnostic) => providerLabel(diagnostic.provider)),
+);
+const resolutionPath = computed(() =>
+  optimizationResolverPathLabel(
+    props.resolutionPath,
+    availableProviders.value,
+    t,
+  ),
+);
+</script>
+
+<template>
+  <div class="space-y-2">
+    <div class="text-sm font-medium">
+      {{
+        t(
+          "admin.cloudflareTunnel.optimization.sources.resolverDiagnosticsTitle",
+        )
+      }}
+    </div>
+    <div class="text-xs text-muted-foreground">{{ resolutionPath }}</div>
+    <div class="grid gap-2 sm:grid-cols-2">
+      <div
+        v-for="diagnostic in diagnostics"
+        :key="diagnostic.provider"
+        class="rounded-md border px-3 py-2"
+      >
+        <div class="flex items-center justify-between gap-3">
+          <span class="text-sm font-medium">
+            {{ providerLabel(diagnostic.provider) }}
+          </span>
+          <Badge variant="outline">{{ statusLabel(diagnostic.status) }}</Badge>
+        </div>
+        <div class="mt-1 text-xs text-muted-foreground">
+          {{
+            t("admin.cloudflareTunnel.optimization.sources.resolverCounts", {
+              success: diagnostic.successCount,
+              failure: diagnostic.failureCount,
+            })
+          }}
+        </div>
+        <div
+          v-if="diagnostic.lastErrorCode"
+          class="mt-1 break-words text-xs text-muted-foreground"
+        >
+          <code>{{ diagnostic.lastErrorCode }}</code>
+          <span v-if="diagnostic.lastErrorDetail">
+            — {{ diagnostic.lastErrorDetail }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

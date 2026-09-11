@@ -1,1 +1,25 @@
-Y29uc3QgRE9DU19CQVNFX1VSTCA9ICJodHRwczovL2RvY3MuZm5rbm9jay5jbiI7Cgpjb25zdCB0b0RvY3NVcmwgPSAocGF0aDogc3RyaW5nKSA9PgogIGAke0RPQ1NfQkFTRV9VUkx9JHtwYXRoLnN0YXJ0c1dpdGgoIi8iKSA/IHBhdGggOiBgLyR7cGF0aH1gfWA7CgpleHBvcnQgY29uc3QgZG9jc1VybHMgPSB7CiAgcnVuTW9kZXM6IHsKICAgIGRpcmVjdDogdG9Eb2NzVXJsKCIvcXVpY2stc3RhcnQvZGlyZWN0LW1vZGUiKSwKICAgIHJldmVyc2U6IHRvRG9jc1VybCgiL3F1aWNrLXN0YXJ0L3JldmVyc2UtcHJveHktbW9kZSIpLAogICAgc3ViZG9tYWluOiB0b0RvY3NVcmwoIi9xdWljay1zdGFydC9zdWJkb21haW4tbW9kZSIpLAogIH0sCiAgZ3VpZGVzOiB7CiAgICBhdXRoOiB0b0RvY3NVcmwoIi9ndWlkZS9hdXRoIiksCiAgICBkZG5zOiB0b0RvY3NVcmwoIi9ndWlkZS9kZG5zIiksCiAgICBzZWN1cml0eTogdG9Eb2NzVXJsKCIvZ3VpZGUvc2VjdXJpdHkiKSwKICAgIHNlc3Npb25NYW5hZ2VtZW50OiB0b0RvY3NVcmwoIi9ndWlkZS9zZXNzaW9uLW1hbmFnZW1lbnQiKSwKICAgIHNzbDogdG9Eb2NzVXJsKCIvZ3VpZGUvc3NsIiksCiAgICB3aGl0ZWxpc3Q6IHRvRG9jc1VybCgiL2d1aWRlL3doaXRlbGlzdCIpLAogICAgcmV2ZXJzZVByb3h5OiB0b0RvY3NVcmwoIi9ndWlkZS9yZXZlcnNlLXByb3h5IiksCiAgICBzdWJkb21haW5Qcm94eTogdG9Eb2NzVXJsKCIvZ3VpZGUvc3ViZG9tYWluLXByb3h5IiksCiAgICB0dW5uZWw6IHRvRG9jc1VybCgiL2d1aWRlL3R1bm5lbCIpLAogICAgZm5vc1NoYXJlQnlwYXNzOiB0b0RvY3NVcmwoIi9ndWlkZS9mbm9zLXNoYXJlLWJ5cGFzcyIpLAogICAgcmVxdWVzdExvZ3M6IHRvRG9jc1VybCgiL2d1aWRlL3JlcXVlc3QtbG9ncyIpLAogIH0sCn0gYXMgY29uc3Q7Cg==
+const DOCS_BASE_URL = "https://docs.fnknock.cn";
+
+const toDocsUrl = (path: string) =>
+  `${DOCS_BASE_URL}${path.startsWith("/") ? path : `/${path}`}`;
+
+export const docsUrls = {
+  runModes: {
+    direct: toDocsUrl("/quick-start/direct-mode"),
+    reverse: toDocsUrl("/quick-start/reverse-proxy-mode"),
+    subdomain: toDocsUrl("/quick-start/subdomain-mode"),
+  },
+  guides: {
+    auth: toDocsUrl("/guide/auth"),
+    ddns: toDocsUrl("/guide/ddns"),
+    security: toDocsUrl("/guide/security"),
+    sessionManagement: toDocsUrl("/guide/session-management"),
+    ssl: toDocsUrl("/guide/ssl"),
+    whitelist: toDocsUrl("/guide/whitelist"),
+    reverseProxy: toDocsUrl("/guide/reverse-proxy"),
+    subdomainProxy: toDocsUrl("/guide/subdomain-proxy"),
+    tunnel: toDocsUrl("/guide/tunnel"),
+    fnosShareBypass: toDocsUrl("/guide/fnos-share-bypass"),
+    requestLogs: toDocsUrl("/guide/request-logs"),
+  },
+} as const;

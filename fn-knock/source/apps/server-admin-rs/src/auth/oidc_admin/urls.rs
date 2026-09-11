@@ -1,1 +1,48 @@
-dXNlIGF4dW06Omh0dHA6OntIZWFkZXJNYXAsIFVyaX07CnVzZSBzZXJkZV9qc29uOjpWYWx1ZTsKCnB1YihjcmF0ZSkgZm4gY2FsbGJhY2tfYmFzZV91cmwoaGVhZGVyczogJkhlYWRlck1hcCwgdXJpOiAmVXJpLCBjb25maWc6ICZWYWx1ZSkgLT4gT3B0aW9uPFN0cmluZz4gewogICAgcHVibGljX2F1dGhfYmFzZV91cmwoY29uZmlnKS5vcl9lbHNlKHx8IGNhbGxiYWNrX29yaWdpbihoZWFkZXJzLCB1cmkpKQp9CgpwdWIoc3VwZXIpIGZuIGNhbGxiYWNrX29yaWdpbihoZWFkZXJzOiAmSGVhZGVyTWFwLCB1cmk6ICZVcmkpIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIGxldCB0cnVzdF9mb3J3YXJkZWQgPSBjcmF0ZTo6bm9kZV9jb21wYXQ6OmVudl9ib29sKCJPSURDX1RSVVNUX0ZPUldBUkRFRF9IRUFERVJTIiwgZmFsc2UpCiAgICAgICAgfHwgY3JhdGU6Om5vZGVfY29tcGF0OjplbnZfYm9vbCgiQVVUSF9UUlVTVF9GT1JXQVJERURfSEVBREVSUyIsIGZhbHNlKTsKICAgIGxldCByZXF1ZXN0X3Byb3RvID0gdXJpLnNjaGVtZV9zdHIoKS51bndyYXBfb3IoImh0dHAiKTsKICAgIGxldCBwcm90byA9IGlmIHRydXN0X2ZvcndhcmRlZCB7CiAgICAgICAgZmlyc3RfaGVhZGVyKGhlYWRlcnMsICJ4LWZvcndhcmRlZC1wcm90byIpCiAgICB9IGVsc2UgewogICAgICAgIE5vbmUKICAgIH0KICAgIC51bndyYXBfb3JfZWxzZSh8fCByZXF1ZXN0X3Byb3RvLnRvX3N0cmluZygpKTsKICAgIGxldCBwcm90byA9IHByb3RvLnRyaW0oKS50cmltX2VuZF9tYXRjaGVzKCc6JykudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBpZiBwcm90byAhPSAiaHR0cCIgJiYgcHJvdG8gIT0gImh0dHBzIiB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CgogICAgbGV0IGhvc3QgPSBpZiB0cnVzdF9mb3J3YXJkZWQgewogICAgICAgIGZpcnN0X2hlYWRlcihoZWFkZXJzLCAieC1mb3J3YXJkZWQtaG9zdCIpCiAgICB9IGVsc2UgewogICAgICAgIE5vbmUKICAgIH0KICAgIC5vcl9lbHNlKHx8IGZpcnN0X2hlYWRlcihoZWFkZXJzLCAiaG9zdCIpKQogICAgLm9yX2Vsc2UofHwgewogICAgICAgIHVyaS5hdXRob3JpdHkoKQogICAgICAgICAgICAubWFwKHxhdXRob3JpdHl8IGF1dGhvcml0eS5hc19zdHIoKS50b19zdHJpbmcoKSkKICAgIH0pPzsKICAgIGlmIGhvc3QKICAgICAgICAuY2hhcnMoKQogICAgICAgIC5hbnkofGNofCBjaC5pc193aGl0ZXNwYWNlKCkgfHwgbWF0Y2hlcyEoY2gsICcsJyB8ICcvJyB8ICc/JyB8ICcjJyB8ICdcXCcgfCAnQCcpKQogICAgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgU29tZShmb3JtYXQhKCJ7cHJvdG99Oi8ve2hvc3R9IikpCn0KCnB1YihzdXBlcikgZm4gaW52aXRlX2Jhc2VfdXJsKGhlYWRlcnM6ICZIZWFkZXJNYXAsIHVyaTogJlVyaSwgY29uZmlnOiAmVmFsdWUpIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIGNhbGxiYWNrX2Jhc2VfdXJsKGhlYWRlcnMsIHVyaSwgY29uZmlnKQp9CgpwdWIoc3VwZXIpIHVzZSBjcmF0ZTo6YXV0aDo6cmVzb2x2ZV9wdWJsaWNfYXV0aF9iYXNlX3VybCBhcyBwdWJsaWNfYXV0aF9iYXNlX3VybDsKCnB1YihzdXBlcikgdXNlIGNyYXRlOjpodHRwX3V0aWxzOjpmaXJzdF9oZWFkZXJfdmFsdWUgYXMgZmlyc3RfaGVhZGVyOwo=
+use axum::http::{HeaderMap, Uri};
+use serde_json::Value;
+
+pub(crate) fn callback_base_url(headers: &HeaderMap, uri: &Uri, config: &Value) -> Option<String> {
+    public_auth_base_url(config).or_else(|| callback_origin(headers, uri))
+}
+
+pub(super) fn callback_origin(headers: &HeaderMap, uri: &Uri) -> Option<String> {
+    let trust_forwarded = crate::node_compat::env_bool("OIDC_TRUST_FORWARDED_HEADERS", false)
+        || crate::node_compat::env_bool("AUTH_TRUST_FORWARDED_HEADERS", false);
+    let request_proto = uri.scheme_str().unwrap_or("http");
+    let proto = if trust_forwarded {
+        first_header(headers, "x-forwarded-proto")
+    } else {
+        None
+    }
+    .unwrap_or_else(|| request_proto.to_string());
+    let proto = proto.trim().trim_end_matches(':').to_ascii_lowercase();
+    if proto != "http" && proto != "https" {
+        return None;
+    }
+
+    let host = if trust_forwarded {
+        first_header(headers, "x-forwarded-host")
+    } else {
+        None
+    }
+    .or_else(|| first_header(headers, "host"))
+    .or_else(|| {
+        uri.authority()
+            .map(|authority| authority.as_str().to_string())
+    })?;
+    if host
+        .chars()
+        .any(|ch| ch.is_whitespace() || matches!(ch, ',' | '/' | '?' | '#' | '\\' | '@'))
+    {
+        return None;
+    }
+    Some(format!("{proto}://{host}"))
+}
+
+pub(super) fn invite_base_url(headers: &HeaderMap, uri: &Uri, config: &Value) -> Option<String> {
+    callback_base_url(headers, uri, config)
+}
+
+pub(super) use crate::auth::resolve_public_auth_base_url as public_auth_base_url;
+
+pub(super) use crate::http_utils::first_header_value as first_header;

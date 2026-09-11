@@ -1,1 +1,41 @@
-IyEvYmluL2Jhc2gKCiMjIyBUaGlzIHNjcmlwdCBpcyBjYWxsZWQgYmVmb3JlIHRoZSB1c2VyIHVuaW5zdGFsbHMgdGhlIGFwcGxpY2F0aW9uLgoKc2V0IC11CgpQS0dfVkFSX0RJUj0iJHtUUklNX1BLR1ZBUjotfSIKTE9HX0ZJTEU9IiR7UEtHX1ZBUl9ESVJ9L2luZm8ubG9nIgpDTEVBTl9TQ1JJUFQ9IiR7UEtHX1ZBUl9ESVJ9L2NsZWFuLnNoIgoKbG9nX21zZygpIHsKICAgIGlmIFsgLXogIiR7UEtHX1ZBUl9ESVJ9IiBdOyB0aGVuCiAgICAgICAgcmV0dXJuIDAKICAgIGZpCiAgICBta2RpciAtcCAiJHtQS0dfVkFSX0RJUn0iIDI+L2Rldi9udWxsIHx8IHRydWUKICAgIGVjaG8gIiQoZGF0ZSAnKyVZLSVtLSVkICVIOiVNOiVTJykgLSB1bmluc3RhbGxfaW5pdDogJDEiID4+ICIke0xPR19GSUxFfSIKfQoKaWYgWyAiJHtUUklNX0FQUF9TVEFUVVM6LX0iICE9ICJVTklOU1RBTEwiIF07IHRoZW4KICAgIGxvZ19tc2cgInNraXAgZmlyZXdhbGwgY2xlYW51cCBiZWNhdXNlIHN0YXR1cyBpcyAke1RSSU1fQVBQX1NUQVRVUzotPGVtcHR5Pn0iCiAgICBleGl0IDAKZmkKCmlmIFsgISAtZiAiJHtDTEVBTl9TQ1JJUFR9IiBdOyB0aGVuCiAgICBsb2dfbXNnICJza2lwIGZpcmV3YWxsIGNsZWFudXAgYmVjYXVzZSAke0NMRUFOX1NDUklQVH0gZG9lcyBub3QgZXhpc3QiCiAgICBleGl0IDAKZmkKCmlmIFsgISAteCAiJHtDTEVBTl9TQ1JJUFR9IiBdOyB0aGVuCiAgICBjaG1vZCAreCAiJHtDTEVBTl9TQ1JJUFR9IiAyPi9kZXYvbnVsbCB8fCB0cnVlCmZpCgpsb2dfbXNnICJydW5uaW5nIGZpcmV3YWxsIGNsZWFudXAgc2NyaXB0OiAke0NMRUFOX1NDUklQVH0iCmlmICIke0NMRUFOX1NDUklQVH0iID4+ICIke0xPR19GSUxFfSIgMj4mMTsgdGhlbgogICAgbG9nX21zZyAiZmlyZXdhbGwgY2xlYW51cCBjb21wbGV0ZWQiCmVsc2UKICAgIGV4aXRfY29kZT0iJD8iCiAgICBsb2dfbXNnICJmaXJld2FsbCBjbGVhbnVwIGZhaWxlZCAoZXhpdD0ke2V4aXRfY29kZX0pLCBjb250aW51ZSB1bmluc3RhbGwiCmZpCgpleGl0IDAK
+#!/bin/bash
+
+### This script is called before the user uninstalls the application.
+
+set -u
+
+PKG_VAR_DIR="${TRIM_PKGVAR:-}"
+LOG_FILE="${PKG_VAR_DIR}/info.log"
+CLEAN_SCRIPT="${PKG_VAR_DIR}/clean.sh"
+
+log_msg() {
+    if [ -z "${PKG_VAR_DIR}" ]; then
+        return 0
+    fi
+    mkdir -p "${PKG_VAR_DIR}" 2>/dev/null || true
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - uninstall_init: $1" >> "${LOG_FILE}"
+}
+
+if [ "${TRIM_APP_STATUS:-}" != "UNINSTALL" ]; then
+    log_msg "skip firewall cleanup because status is ${TRIM_APP_STATUS:-<empty>}"
+    exit 0
+fi
+
+if [ ! -f "${CLEAN_SCRIPT}" ]; then
+    log_msg "skip firewall cleanup because ${CLEAN_SCRIPT} does not exist"
+    exit 0
+fi
+
+if [ ! -x "${CLEAN_SCRIPT}" ]; then
+    chmod +x "${CLEAN_SCRIPT}" 2>/dev/null || true
+fi
+
+log_msg "running firewall cleanup script: ${CLEAN_SCRIPT}"
+if "${CLEAN_SCRIPT}" >> "${LOG_FILE}" 2>&1; then
+    log_msg "firewall cleanup completed"
+else
+    exit_code="$?"
+    log_msg "firewall cleanup failed (exit=${exit_code}), continue uninstall"
+fi
+
+exit 0

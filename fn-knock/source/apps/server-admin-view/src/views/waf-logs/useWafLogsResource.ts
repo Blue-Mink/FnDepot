@@ -1,1 +1,275 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uQmVmb3JlVW5tb3VudCwgb25Nb3VudGVkLCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdXNlUm91dGUgfSBmcm9tICJ2dWUtcm91dGVyIjsKaW1wb3J0IHsKICBleHRyYWN0RXJyb3JNZXNzYWdlLAogIHVzZUFzeW5jQWN0aW9uLAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyB1c2VDdXJzb3JQYWdpbmF0aW9uIH0gZnJvbSAiQC9jb21wb3NhYmxlcy91c2VDdXJzb3JQYWdpbmF0aW9uIjsKaW1wb3J0IHsgdXNlSXBMb2NhdGlvbkJhdGNoIH0gZnJvbSAiQC9jb21wb3NhYmxlcy91c2VJcExvY2F0aW9uQmF0Y2giOwppbXBvcnQgeyBjcmVhdGVWaXNpYmlsaXR5UG9sbGVyIH0gZnJvbSAiQC9jb21wb3NhYmxlcy91c2VWaXNpYmlsaXR5UG9sbGluZyI7CmltcG9ydCB7IFdBRkFQSSB9IGZyb20gIkAvbGliL2FwaS9nYXRld2F5IjsKaW1wb3J0IHsgdXNlQ29uZmlnU3RvcmUgfSBmcm9tICJAL3N0b3JlL2NvbmZpZyI7CmltcG9ydCB0eXBlIHsgV0FGRXZlbnQgfSBmcm9tICJAL3R5cGVzIjsKCmNvbnN0IEFVVE9fUkVGUkVTSF9NUyA9IDVfMDAwOwpjb25zdCBUUkFDRV9NSVNTX0FVVE9fUkVGUkVTSF9MSU1JVCA9IDEyOwoKY29uc3QgZ2V0VG9kYXlTdHJpbmcgPSAoKSA9PiB7CiAgY29uc3Qgbm93ID0gbmV3IERhdGUoKTsKICBjb25zdCB5ZWFyID0gbm93LmdldEZ1bGxZZWFyKCk7CiAgY29uc3QgbW9udGggPSBTdHJpbmcobm93LmdldE1vbnRoKCkgKyAxKS5wYWRTdGFydCgyLCAiMCIpOwogIGNvbnN0IGRheSA9IFN0cmluZyhub3cuZ2V0RGF0ZSgpKS5wYWRTdGFydCgyLCAiMCIpOwogIHJldHVybiBgJHt5ZWFyfS0ke21vbnRofS0ke2RheX1gOwp9OwoKZXhwb3J0IGNvbnN0IGdldFdhZkV2ZW50U291cmNlSXAgPSAoZXZlbnQ6IFdBRkV2ZW50KSA9PgogIGV2ZW50LmNsaWVudF9pcCB8fCBldmVudC5yZW1vdGVfYWRkciB8fCAiIjsKCmV4cG9ydCBjb25zdCB1c2VXYWZMb2dzUmVzb3VyY2UgPSAoKSA9PiB7CiAgY29uc3Qgcm91dGUgPSB1c2VSb3V0ZSgpOwogIGNvbnN0IGNvbmZpZ1N0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKICBjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKICBsZXQgaXNEaXNwb3NlZCA9IGZhbHNlOwogIGxldCBlbnRyaWVzUmVxdWVzdElkID0gMDsKICBsZXQgdHJhY2VNaXNzQXV0b1JlZnJlc2hlcyA9IDA7CiAgY29uc3QgZW50cmllcyA9IHJlZjxXQUZFdmVudFtdPihbXSk7CiAgY29uc3QgYXZhaWxhYmxlRGF0ZXMgPSByZWY8c3RyaW5nW10+KFtnZXRUb2RheVN0cmluZygpXSk7CiAgY29uc3Qgc2VsZWN0ZWREYXRlID0gcmVmKGdldFRvZGF5U3RyaW5nKCkpOwogIGNvbnN0IGxpbWl0ID0gcmVmKCI1MCIpOwogIGNvbnN0IHNlYXJjaFF1ZXJ5ID0gcmVmKCIiKTsKICBjb25zdCB0cmFjZUZpbHRlciA9IHJlZihTdHJpbmcocm91dGUucXVlcnkudHJhY2VfaWQgfHwgIiIpKTsKICBjb25zdCBsb2FkaW5nID0gcmVmKGZhbHNlKTsKICBjb25zdCBzZWxlY3RlZFdhZkVudHJ5S2V5cyA9IHJlZjxTZXQ8c3RyaW5nPj4obmV3IFNldCgpKTsKICBjb25zdCB7CiAgICBjYW5Mb2FkTmV3ZXIsCiAgICBjYW5Mb2FkT2xkZXIsCiAgICBjdXJyZW50Q3Vyc29yLAogICAgY3Vyc29ySGlzdG9yeSwKICAgIGxvYWRGaXJzdDogbG9hZEN1cnNvckZpcnN0LAogICAgbG9hZE5ld2VyOiBsb2FkQ3Vyc29yTmV3ZXIsCiAgICBsb2FkT2xkZXI6IGxvYWRDdXJzb3JPbGRlciwKICAgIG5leHRDdXJzb3IsCiAgICByZXNldDogcmVzZXRDdXJzb3JQYWdpbmF0aW9uLAogIH0gPSB1c2VDdXJzb3JQYWdpbmF0aW9uKHsgbG9hZGluZyB9KTsKICBjb25zdCB7IHRyYWNrSXBzLCBnZXRTbmFwc2hvdCB9ID0gdXNlSXBMb2NhdGlvbkJhdGNoKCk7CgogIGNvbnN0IGN1cnNvclBhZ2VMYWJlbCA9IGNvbXB1dGVkKCgpID0+CiAgICB0KCJhZG1pbi53YWZMb2dzLmN1cnNvclBhZ2UiLCB7IHBhZ2U6IGN1cnNvckhpc3RvcnkudmFsdWUubGVuZ3RoICsgMSB9KSwKICApOwogIGNvbnN0IHNob3VsZEZsb2F0UGFnaW5hdGlvbiA9IGNvbXB1dGVkKAogICAgKCkgPT4gZW50cmllcy52YWx1ZS5sZW5ndGggPiAwIHx8IGNhbkxvYWROZXdlci52YWx1ZSB8fCBjYW5Mb2FkT2xkZXIudmFsdWUsCiAgKTsKICBjb25zdCB7IGlzUGVuZGluZzogaXNEZWxldGluZywgcnVuOiBydW5EZWxldGUgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi53YWZMb2dzLmRlbGV0ZUZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLndhZkxvZ3MuZGVsZXRlRmFpbGVkRGVzY3JpcHRpb24iKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IGFwcGx5RGF0ZXMgPSAoZGF0ZXM6IHN0cmluZ1tdLCBwcmVmZXJyZWQ/OiBzdHJpbmcpID0+IHsKICAgIGNvbnN0IGZhbGxiYWNrVG9kYXkgPSBnZXRUb2RheVN0cmluZygpOwogICAgY29uc3QgbmV4dERhdGVzID0gZGF0ZXMubGVuZ3RoID4gMCA/IGRhdGVzIDogW2ZhbGxiYWNrVG9kYXldOwogICAgYXZhaWxhYmxlRGF0ZXMudmFsdWUgPSBuZXh0RGF0ZXM7CiAgICBpZiAocHJlZmVycmVkICYmIG5leHREYXRlcy5pbmNsdWRlcyhwcmVmZXJyZWQpKSB7CiAgICAgIHNlbGVjdGVkRGF0ZS52YWx1ZSA9IHByZWZlcnJlZDsKICAgIH0gZWxzZSBpZiAoIW5leHREYXRlcy5pbmNsdWRlcyhzZWxlY3RlZERhdGUudmFsdWUpKSB7CiAgICAgIHNlbGVjdGVkRGF0ZS52YWx1ZSA9IG5leHREYXRlcy5pbmNsdWRlcyhmYWxsYmFja1RvZGF5KQogICAgICAgID8gZmFsbGJhY2tUb2RheQogICAgICAgIDogbmV4dERhdGVzWzBdIHx8IGZhbGxiYWNrVG9kYXk7CiAgICB9CiAgfTsKCiAgY29uc3QgZHJhaW5FdmVudHMgPSBhc3luYyAoc2lsZW50ID0gdHJ1ZSwgc2lnbmFsPzogQWJvcnRTaWduYWwpID0+IHsKICAgIHRyeSB7CiAgICAgIGF3YWl0IFdBRkFQSS5kcmFpbkV2ZW50cyhzaWduYWwpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgaWYgKHNpZ25hbD8uYWJvcnRlZCkgcmV0dXJuOwogICAgICBpZiAoIXNpbGVudCkgewogICAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLndhZkxvZ3MuZHJhaW5GYWlsZWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICAgIGVycm9yLAogICAgICAgICAgICB0KCJhZG1pbi53YWZMb2dzLmRyYWluRmFpbGVkRGVzY3JpcHRpb24iKSwKICAgICAgICAgICksCiAgICAgICAgfSk7CiAgICAgIH0KICAgIH0KICB9OwoKICBjb25zdCBmZXRjaEVudHJpZXMgPSBhc3luYyAoCiAgICBvcHRpb25zOiB7IHNpbGVudD86IGJvb2xlYW47IGRyYWluPzogYm9vbGVhbjsgc2lnbmFsPzogQWJvcnRTaWduYWwgfSA9IHt9LAogICkgPT4gewogICAgY29uc3QgY3VycmVudFJlcXVlc3RJZCA9ICsrZW50cmllc1JlcXVlc3RJZDsKICAgIGNvbnN0IHBhcmFtcyA9IHsKICAgICAgZGF0ZTogc2VsZWN0ZWREYXRlLnZhbHVlLAogICAgICB0cmFjZV9pZDogdHJhY2VGaWx0ZXIudmFsdWUudHJpbSgpIHx8IHVuZGVmaW5lZCwKICAgICAgc2VhcmNoOiBzZWFyY2hRdWVyeS52YWx1ZS50cmltKCkgfHwgdW5kZWZpbmVkLAogICAgICBjdXJzb3I6IGN1cnJlbnRDdXJzb3IudmFsdWUgfHwgdW5kZWZpbmVkLAogICAgICBsaW1pdDogbGltaXQudmFsdWUsCiAgICB9OwogICAgY29uc3QgaXNDdXJyZW50UmVxdWVzdCA9ICgpID0+CiAgICAgICFpc0Rpc3Bvc2VkICYmCiAgICAgICFvcHRpb25zLnNpZ25hbD8uYWJvcnRlZCAmJgogICAgICBjdXJyZW50UmVxdWVzdElkID09PSBlbnRyaWVzUmVxdWVzdElkOwogICAgbG9hZGluZy52YWx1ZSA9IHRydWU7CiAgICB0cnkgewogICAgICBpZiAob3B0aW9ucy5kcmFpbikgewogICAgICAgIGF3YWl0IGRyYWluRXZlbnRzKG9wdGlvbnMuc2lsZW50ICE9PSBmYWxzZSwgb3B0aW9ucy5zaWduYWwpOwogICAgICB9CiAgICAgIGlmICghaXNDdXJyZW50UmVxdWVzdCgpKSByZXR1cm47CiAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBXQUZBUEkuZ2V0TG9ncyhwYXJhbXMsIG9wdGlvbnMuc2lnbmFsKTsKICAgICAgaWYgKCFpc0N1cnJlbnRSZXF1ZXN0KCkpIHJldHVybjsKICAgICAgZW50cmllcy52YWx1ZSA9IGRhdGEuaXRlbXMgfHwgW107CiAgICAgIHRyYWNrSXBzKGVudHJpZXMudmFsdWUubWFwKGdldFdhZkV2ZW50U291cmNlSXApKTsKICAgICAgbmV4dEN1cnNvci52YWx1ZSA9IGRhdGEubmV4dF9jdXJzb3IgfHwgIiI7CiAgICAgIGFwcGx5RGF0ZXMoZGF0YS5hdmFpbGFibGVfZGF0ZXMgfHwgW10sIGRhdGEuZGF0ZSB8fCBwYXJhbXMuZGF0ZSk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBpZiAoIWlzQ3VycmVudFJlcXVlc3QoKSkgcmV0dXJuOwogICAgICB0cmFja0lwcyhbXSk7CiAgICAgIGlmICghb3B0aW9ucy5zaWxlbnQpIHsKICAgICAgICBlbnRyaWVzLnZhbHVlID0gW107CiAgICAgICAgbmV4dEN1cnNvci52YWx1ZSA9ICIiOwogICAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLndhZkxvZ3MubG9hZEZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgICAgZXJyb3IsCiAgICAgICAgICAgIHQoImFkbWluLndhZkxvZ3MubG9hZEZhaWxlZERlc2NyaXB0aW9uIiksCiAgICAgICAgICApLAogICAgICAgIH0pOwogICAgICB9CiAgICB9IGZpbmFsbHkgewogICAgICBpZiAoY3VycmVudFJlcXVlc3RJZCA9PT0gZW50cmllc1JlcXVlc3RJZCkgbG9hZGluZy52YWx1ZSA9IGZhbHNlOwogICAgfQogIH07CgogIGNvbnN0IHJlZnJlc2hBbGwgPSBhc3luYyAoKSA9PiB7CiAgICB0cmFjZU1pc3NBdXRvUmVmcmVzaGVzID0gMDsKICAgIHJlc2V0Q3Vyc29yUGFnaW5hdGlvbigpOwogICAgYXdhaXQgZmV0Y2hFbnRyaWVzKHsgZHJhaW46IHRydWUsIHNpbGVudDogZmFsc2UgfSk7CiAgfTsKCiAgY29uc3QgaGFuZGxlU2VhcmNoID0gYXN5bmMgKCkgPT4gewogICAgcmVzZXRDdXJzb3JQYWdpbmF0aW9uKCk7CiAgICBhd2FpdCBmZXRjaEVudHJpZXMoKTsKICB9OwoKICBjb25zdCBoYW5kbGVEYXRlQ2hhbmdlID0gYXN5bmMgKHZhbHVlOiB1bmtub3duKSA9PiB7CiAgICBpZiAoIXZhbHVlKSByZXR1cm47CiAgICBzZWxlY3RlZERhdGUudmFsdWUgPSBTdHJpbmcodmFsdWUpOwogICAgcmVzZXRDdXJzb3JQYWdpbmF0aW9uKCk7CiAgICBhd2FpdCBmZXRjaEVudHJpZXMoKTsKICB9OwoKICBjb25zdCBoYW5kbGVMaW1pdENoYW5nZSA9IGFzeW5jICh2YWx1ZTogdW5rbm93bikgPT4gewogICAgaWYgKCF2YWx1ZSkgcmV0dXJuOwogICAgbGltaXQudmFsdWUgPSBTdHJpbmcodmFsdWUpOwogICAgcmVzZXRDdXJzb3JQYWdpbmF0aW9uKCk7CiAgICBhd2FpdCBmZXRjaEVudHJpZXMoKTsKICB9OwoKICBjb25zdCBoYW5kbGVMb2FkT2xkZXIgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAobG9hZEN1cnNvck9sZGVyKCkpIGF3YWl0IGZldGNoRW50cmllcygpOwogIH07CiAgY29uc3QgaGFuZGxlTG9hZE5ld2VyID0gYXN5bmMgKCkgPT4gewogICAgaWYgKGxvYWRDdXJzb3JOZXdlcigpKSBhd2FpdCBmZXRjaEVudHJpZXMoKTsKICB9OwogIGNvbnN0IGhhbmRsZUxvYWRGaXJzdCA9IGFzeW5jICgpID0+IHsKICAgIGlmIChsb2FkQ3Vyc29yRmlyc3QoKSkgYXdhaXQgZmV0Y2hFbnRyaWVzKCk7CiAgfTsKCiAgY29uc3QgZGVsZXRlU2VsZWN0ZWREYXRlID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuRGVsZXRlKCgpID0+IFdBRkFQSS5kZWxldGVMb2dzKHNlbGVjdGVkRGF0ZS52YWx1ZSksIHsKICAgICAgb25TdWNjZXNzOiBhc3luYyAoZGF0YSkgPT4gewogICAgICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgICAgICBkYXRhLmRlbGV0ZWQKICAgICAgICAgICAgPyB0KCJhZG1pbi53YWZMb2dzLmRlbGV0ZWRGb3JEYXRlIiwgeyBkYXRlOiBzZWxlY3RlZERhdGUudmFsdWUgfSkKICAgICAgICAgICAgOiB0KCJhZG1pbi53YWZMb2dzLm5vRGVsZXRlZEZvckRhdGUiLCB7CiAgICAgICAgICAgICAgICBkYXRlOiBzZWxlY3RlZERhdGUudmFsdWUsCiAgICAgICAgICAgICAgfSksCiAgICAgICAgKTsKICAgICAgICBzZWFyY2hRdWVyeS52YWx1ZSA9ICIiOwogICAgICAgIHRyYWNlRmlsdGVyLnZhbHVlID0gIiI7CiAgICAgICAgcmVzZXRDdXJzb3JQYWdpbmF0aW9uKCk7CiAgICAgICAgYXBwbHlEYXRlcyhkYXRhLmF2YWlsYWJsZV9kYXRlcywgZ2V0VG9kYXlTdHJpbmcoKSk7CiAgICAgICAgYXdhaXQgZmV0Y2hFbnRyaWVzKCk7CiAgICAgIH0sCiAgICB9KTsKICB9OwoKICBjb25zdCBhdXRvUmVmcmVzaFBvbGxlciA9IGNyZWF0ZVZpc2liaWxpdHlQb2xsZXIoewogICAgaW50ZXJ2YWxNczogQVVUT19SRUZSRVNIX01TLAogICAgaW1tZWRpYXRlOiBmYWxzZSwKICAgIHRhc2s6IGFzeW5jIChzaWduYWwpID0+IHsKICAgICAgaWYgKGN1cnJlbnRDdXJzb3IudmFsdWUgfHwgY3Vyc29ySGlzdG9yeS52YWx1ZS5sZW5ndGggPiAwKSByZXR1cm47CiAgICAgIGlmIChzZWFyY2hRdWVyeS52YWx1ZS50cmltKCkpIHJldHVybjsKICAgICAgaWYgKHRyYWNlRmlsdGVyLnZhbHVlLnRyaW0oKSkgewogICAgICAgIGlmICgKICAgICAgICAgIGVudHJpZXMudmFsdWUubGVuZ3RoID4gMCB8fAogICAgICAgICAgdHJhY2VNaXNzQXV0b1JlZnJlc2hlcyA+PSBUUkFDRV9NSVNTX0FVVE9fUkVGUkVTSF9MSU1JVAogICAgICAgICkgewogICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICB0cmFjZU1pc3NBdXRvUmVmcmVzaGVzICs9IDE7CiAgICAgICAgYXdhaXQgZmV0Y2hFbnRyaWVzKHsgc2lsZW50OiB0cnVlLCBkcmFpbjogdHJ1ZSwgc2lnbmFsIH0pOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBhd2FpdCBmZXRjaEVudHJpZXMoeyBzaWxlbnQ6IHRydWUsIHNpZ25hbCB9KTsKICAgIH0sCiAgfSk7CgogIHdhdGNoKAogICAgKCkgPT4gcm91dGUucXVlcnkudHJhY2VfaWQsCiAgICAodmFsdWUpID0+IHsKICAgICAgY29uc3QgbmV4dCA9IFN0cmluZyh2YWx1ZSB8fCAiIik7CiAgICAgIGlmICh0cmFjZUZpbHRlci52YWx1ZSA9PT0gbmV4dCkgcmV0dXJuOwogICAgICB0cmFjZUZpbHRlci52YWx1ZSA9IG5leHQ7CiAgICAgIHRyYWNlTWlzc0F1dG9SZWZyZXNoZXMgPSAwOwogICAgICByZXNldEN1cnNvclBhZ2luYXRpb24oKTsKICAgICAgdm9pZCBmZXRjaEVudHJpZXMoeyBkcmFpbjogdHJ1ZSB9KTsKICAgIH0sCiAgKTsKCiAgb25Nb3VudGVkKGFzeW5jICgpID0+IHsKICAgIGlmICghY29uZmlnU3RvcmUuY29uZmlnKSBhd2FpdCBjb25maWdTdG9yZS5sb2FkQ29uZmlnKCk7CiAgICBhd2FpdCBmZXRjaEVudHJpZXMoeyBkcmFpbjogdHJ1ZSB9KTsKICAgIGlmIChpc0Rpc3Bvc2VkKSByZXR1cm47CgogICAgYXV0b1JlZnJlc2hQb2xsZXIuc3RhcnQoKTsKICB9KTsKICBvbkJlZm9yZVVubW91bnQoKCkgPT4gewogICAgaXNEaXNwb3NlZCA9IHRydWU7CiAgICBlbnRyaWVzUmVxdWVzdElkICs9IDE7CiAgICBhdXRvUmVmcmVzaFBvbGxlci5zdG9wKCk7CiAgfSk7CgogIHJldHVybiB7CiAgICBhdmFpbGFibGVEYXRlcywKICAgIGNhbkxvYWROZXdlciwKICAgIGNhbkxvYWRPbGRlciwKICAgIGN1cnJlbnRDdXJzb3IsCiAgICBjdXJzb3JIaXN0b3J5LAogICAgY3Vyc29yUGFnZUxhYmVsLAogICAgZGVsZXRlU2VsZWN0ZWREYXRlLAogICAgZW50cmllcywKICAgIGdldFNuYXBzaG90LAogICAgaGFuZGxlRGF0ZUNoYW5nZSwKICAgIGhhbmRsZUxpbWl0Q2hhbmdlLAogICAgaGFuZGxlTG9hZEZpcnN0LAogICAgaGFuZGxlTG9hZE5ld2VyLAogICAgaGFuZGxlTG9hZE9sZGVyLAogICAgaGFuZGxlU2VhcmNoLAogICAgaXNEZWxldGluZywKICAgIGxpbWl0LAogICAgbG9hZGluZywKICAgIHJlZnJlc2hBbGwsCiAgICBzZWFyY2hRdWVyeSwKICAgIHNlbGVjdGVkRGF0ZSwKICAgIHNlbGVjdGVkV2FmRW50cnlLZXlzLAogICAgc2hvdWxkRmxvYXRQYWdpbmF0aW9uLAogICAgdHJhY2VGaWx0ZXIsCiAgfTsKfTsK
+import { computed, onBeforeUnmount, onMounted, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRoute } from "vue-router";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import { useCursorPagination } from "@/composables/useCursorPagination";
+import { useIpLocationBatch } from "@/composables/useIpLocationBatch";
+import { createVisibilityPoller } from "@/composables/useVisibilityPolling";
+import { WAFAPI } from "@/lib/api/gateway";
+import { useConfigStore } from "@/store/config";
+import type { WAFEvent } from "@/types";
+
+const AUTO_REFRESH_MS = 5_000;
+const TRACE_MISS_AUTO_REFRESH_LIMIT = 12;
+
+const getTodayString = () => {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const day = String(now.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+};
+
+export const getWafEventSourceIp = (event: WAFEvent) =>
+  event.client_ip || event.remote_addr || "";
+
+export const useWafLogsResource = () => {
+  const route = useRoute();
+  const configStore = useConfigStore();
+  const { t } = useI18n();
+  let isDisposed = false;
+  let entriesRequestId = 0;
+  let traceMissAutoRefreshes = 0;
+  const entries = ref<WAFEvent[]>([]);
+  const availableDates = ref<string[]>([getTodayString()]);
+  const selectedDate = ref(getTodayString());
+  const limit = ref("50");
+  const searchQuery = ref("");
+  const traceFilter = ref(String(route.query.trace_id || ""));
+  const loading = ref(false);
+  const selectedWafEntryKeys = ref<Set<string>>(new Set());
+  const {
+    canLoadNewer,
+    canLoadOlder,
+    currentCursor,
+    cursorHistory,
+    loadFirst: loadCursorFirst,
+    loadNewer: loadCursorNewer,
+    loadOlder: loadCursorOlder,
+    nextCursor,
+    reset: resetCursorPagination,
+  } = useCursorPagination({ loading });
+  const { trackIps, getSnapshot } = useIpLocationBatch();
+
+  const cursorPageLabel = computed(() =>
+    t("admin.wafLogs.cursorPage", { page: cursorHistory.value.length + 1 }),
+  );
+  const shouldFloatPagination = computed(
+    () => entries.value.length > 0 || canLoadNewer.value || canLoadOlder.value,
+  );
+  const { isPending: isDeleting, run: runDelete } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.wafLogs.deleteFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.wafLogs.deleteFailedDescription"),
+        ),
+      });
+    },
+  });
+
+  const applyDates = (dates: string[], preferred?: string) => {
+    const fallbackToday = getTodayString();
+    const nextDates = dates.length > 0 ? dates : [fallbackToday];
+    availableDates.value = nextDates;
+    if (preferred && nextDates.includes(preferred)) {
+      selectedDate.value = preferred;
+    } else if (!nextDates.includes(selectedDate.value)) {
+      selectedDate.value = nextDates.includes(fallbackToday)
+        ? fallbackToday
+        : nextDates[0] || fallbackToday;
+    }
+  };
+
+  const drainEvents = async (silent = true, signal?: AbortSignal) => {
+    try {
+      await WAFAPI.drainEvents(signal);
+    } catch (error) {
+      if (signal?.aborted) return;
+      if (!silent) {
+        toast.error(t("admin.wafLogs.drainFailed"), {
+          description: extractErrorMessage(
+            error,
+            t("admin.wafLogs.drainFailedDescription"),
+          ),
+        });
+      }
+    }
+  };
+
+  const fetchEntries = async (
+    options: { silent?: boolean; drain?: boolean; signal?: AbortSignal } = {},
+  ) => {
+    const currentRequestId = ++entriesRequestId;
+    const params = {
+      date: selectedDate.value,
+      trace_id: traceFilter.value.trim() || undefined,
+      search: searchQuery.value.trim() || undefined,
+      cursor: currentCursor.value || undefined,
+      limit: limit.value,
+    };
+    const isCurrentRequest = () =>
+      !isDisposed &&
+      !options.signal?.aborted &&
+      currentRequestId === entriesRequestId;
+    loading.value = true;
+    try {
+      if (options.drain) {
+        await drainEvents(options.silent !== false, options.signal);
+      }
+      if (!isCurrentRequest()) return;
+      const data = await WAFAPI.getLogs(params, options.signal);
+      if (!isCurrentRequest()) return;
+      entries.value = data.items || [];
+      trackIps(entries.value.map(getWafEventSourceIp));
+      nextCursor.value = data.next_cursor || "";
+      applyDates(data.available_dates || [], data.date || params.date);
+    } catch (error) {
+      if (!isCurrentRequest()) return;
+      trackIps([]);
+      if (!options.silent) {
+        entries.value = [];
+        nextCursor.value = "";
+        toast.error(t("admin.wafLogs.loadFailed"), {
+          description: extractErrorMessage(
+            error,
+            t("admin.wafLogs.loadFailedDescription"),
+          ),
+        });
+      }
+    } finally {
+      if (currentRequestId === entriesRequestId) loading.value = false;
+    }
+  };
+
+  const refreshAll = async () => {
+    traceMissAutoRefreshes = 0;
+    resetCursorPagination();
+    await fetchEntries({ drain: true, silent: false });
+  };
+
+  const handleSearch = async () => {
+    resetCursorPagination();
+    await fetchEntries();
+  };
+
+  const handleDateChange = async (value: unknown) => {
+    if (!value) return;
+    selectedDate.value = String(value);
+    resetCursorPagination();
+    await fetchEntries();
+  };
+
+  const handleLimitChange = async (value: unknown) => {
+    if (!value) return;
+    limit.value = String(value);
+    resetCursorPagination();
+    await fetchEntries();
+  };
+
+  const handleLoadOlder = async () => {
+    if (loadCursorOlder()) await fetchEntries();
+  };
+  const handleLoadNewer = async () => {
+    if (loadCursorNewer()) await fetchEntries();
+  };
+  const handleLoadFirst = async () => {
+    if (loadCursorFirst()) await fetchEntries();
+  };
+
+  const deleteSelectedDate = async () => {
+    await runDelete(() => WAFAPI.deleteLogs(selectedDate.value), {
+      onSuccess: async (data) => {
+        toast.success(
+          data.deleted
+            ? t("admin.wafLogs.deletedForDate", { date: selectedDate.value })
+            : t("admin.wafLogs.noDeletedForDate", {
+                date: selectedDate.value,
+              }),
+        );
+        searchQuery.value = "";
+        traceFilter.value = "";
+        resetCursorPagination();
+        applyDates(data.available_dates, getTodayString());
+        await fetchEntries();
+      },
+    });
+  };
+
+  const autoRefreshPoller = createVisibilityPoller({
+    intervalMs: AUTO_REFRESH_MS,
+    immediate: false,
+    task: async (signal) => {
+      if (currentCursor.value || cursorHistory.value.length > 0) return;
+      if (searchQuery.value.trim()) return;
+      if (traceFilter.value.trim()) {
+        if (
+          entries.value.length > 0 ||
+          traceMissAutoRefreshes >= TRACE_MISS_AUTO_REFRESH_LIMIT
+        ) {
+          return;
+        }
+        traceMissAutoRefreshes += 1;
+        await fetchEntries({ silent: true, drain: true, signal });
+        return;
+      }
+      await fetchEntries({ silent: true, signal });
+    },
+  });
+
+  watch(
+    () => route.query.trace_id,
+    (value) => {
+      const next = String(value || "");
+      if (traceFilter.value === next) return;
+      traceFilter.value = next;
+      traceMissAutoRefreshes = 0;
+      resetCursorPagination();
+      void fetchEntries({ drain: true });
+    },
+  );
+
+  onMounted(async () => {
+    if (!configStore.config) await configStore.loadConfig();
+    await fetchEntries({ drain: true });
+    if (isDisposed) return;
+
+    autoRefreshPoller.start();
+  });
+  onBeforeUnmount(() => {
+    isDisposed = true;
+    entriesRequestId += 1;
+    autoRefreshPoller.stop();
+  });
+
+  return {
+    availableDates,
+    canLoadNewer,
+    canLoadOlder,
+    currentCursor,
+    cursorHistory,
+    cursorPageLabel,
+    deleteSelectedDate,
+    entries,
+    getSnapshot,
+    handleDateChange,
+    handleLimitChange,
+    handleLoadFirst,
+    handleLoadNewer,
+    handleLoadOlder,
+    handleSearch,
+    isDeleting,
+    limit,
+    loading,
+    refreshAll,
+    searchQuery,
+    selectedDate,
+    selectedWafEntryKeys,
+    shouldFloatPagination,
+    traceFilter,
+  };
+};

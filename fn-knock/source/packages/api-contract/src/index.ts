@@ -1,1 +1,1 @@
-ZXhwb3J0IHR5cGUgeyBjb21wb25lbnRzLCBvcGVyYXRpb25zLCBwYXRocyB9IGZyb20gIi4vc2NoZW1hIjsK
+export type { components, operations, paths } from "./schema";

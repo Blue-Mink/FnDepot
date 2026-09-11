@@ -1,1 +1,83 @@
-dXNlIHN0ZDo6dGltZTo6RHVyYXRpb247Cgp1c2UgdGltZTo6e09mZnNldERhdGVUaW1lLCBmb3JtYXRfZGVzY3JpcHRpb246OndlbGxfa25vd246OlJmYzMzMzl9OwoKdXNlIGNyYXRlOjpzdGF0ZTo6QXBwU3RhdGU7Cgp1c2Ugc3VwZXI6Onttb2RlbDo6UnVuVHJpZ2dlciwgcmVwb3NpdG9yeTo6UmVwb3NpdG9yeSwgc2VydmljZX07CgpwdWIgZm4gc3RhcnQoc3RhdGU6IEFwcFN0YXRlKSB7CiAgICBsZXQgdGFza19zdGF0ZSA9IHN0YXRlLmNsb25lKCk7CiAgICBzdGF0ZS5zcGF3bl9iYWNrZ3JvdW5kKCJwYW5lbC1zeW5jLXNjaGVkdWxlciIsIGFzeW5jIG1vdmUgewogICAgICAgIGxldCBtdXQgbmV4dF93YWtldXAgPSBTb21lKER1cmF0aW9uOjpaRVJPKTsKICAgICAgICBsb29wIHsKICAgICAgICAgICAgbGV0IGNoYW5nZWQgPSBpZiBsZXQgU29tZShkZWxheSkgPSBuZXh0X3dha2V1cC50YWtlKCkgewogICAgICAgICAgICAgICAgdG9raW86OnNlbGVjdCEgewogICAgICAgICAgICAgICAgICAgIF8gPSB0YXNrX3N0YXRlLnNodXRkb3duLmNhbmNlbGxlZCgpID0+IGJyZWFrLAogICAgICAgICAgICAgICAgICAgIF8gPSB0YXNrX3N0YXRlLnBhbmVsX3N5bmMuc291cmNlX2NoYW5nZWQubm90aWZpZWQoKSA9PiB0cnVlLAogICAgICAgICAgICAgICAgICAgIF8gPSB0b2tpbzo6dGltZTo6c2xlZXAoZGVsYXkpID0+IGZhbHNlLAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgdG9raW86OnNlbGVjdCEgewogICAgICAgICAgICAgICAgICAgIF8gPSB0YXNrX3N0YXRlLnNodXRkb3duLmNhbmNlbGxlZCgpID0+IGJyZWFrLAogICAgICAgICAgICAgICAgICAgIF8gPSB0YXNrX3N0YXRlLnBhbmVsX3N5bmMuc291cmNlX2NoYW5nZWQubm90aWZpZWQoKSA9PiB0cnVlLAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9OwogICAgICAgICAgICBpZiBjaGFuZ2VkIHsKICAgICAgICAgICAgICAgIGxvb3AgewogICAgICAgICAgICAgICAgICAgIHRva2lvOjpzZWxlY3QhIHsKICAgICAgICAgICAgICAgICAgICAgICAgXyA9IHRhc2tfc3RhdGUuc2h1dGRvd24uY2FuY2VsbGVkKCkgPT4gcmV0dXJuLAogICAgICAgICAgICAgICAgICAgICAgICBfID0gdG9raW86OnRpbWU6OnNsZWVwKER1cmF0aW9uOjpmcm9tX3NlY3MoNSkpID0+IGJyZWFrLAogICAgICAgICAgICAgICAgICAgICAgICBfID0gdGFza19zdGF0ZS5wYW5lbF9zeW5jLnNvdXJjZV9jaGFuZ2VkLm5vdGlmaWVkKCkgPT4gY29udGludWUsCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIG5leHRfd2FrZXVwID0gZGlzcGF0Y2goJnRhc2tfc3RhdGUsIGNoYW5nZWQpLmF3YWl0OwogICAgICAgIH0KICAgIH0pOwp9Cgphc3luYyBmbiBkaXNwYXRjaChzdGF0ZTogJkFwcFN0YXRlLCBjaGFuZ2VkOiBib29sKSAtPiBPcHRpb248RHVyYXRpb24+IHsKICAgIGxldCBPayhjb25uZWN0aW9ucykgPSBSZXBvc2l0b3J5OjpuZXcoc3RhdGUpLmNvbm5lY3Rpb25zKCkuYXdhaXQgZWxzZSB7CiAgICAgICAgcmV0dXJuIFNvbWUoRHVyYXRpb246OmZyb21fc2Vjcyg2MCkpOwogICAgfTsKICAgIGxldCBub3cgPSBPZmZzZXREYXRlVGltZTo6bm93X3V0YygpOwogICAgbGV0IG11dCBuZXh0X3dha2V1cDogT3B0aW9uPER1cmF0aW9uPiA9IE5vbmU7CiAgICBmb3IgY29ubmVjdGlvbiBpbiBjb25uZWN0aW9ucwogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5maWx0ZXIofGl0ZW18IGl0ZW0uYXV0b19zeW5jLmVuYWJsZWQgJiYgaXRlbS52ZXJpZmllZF9hdC5pc19zb21lKCkpCiAgICB7CiAgICAgICAgbGV0IGludGVydmFsID0gRHVyYXRpb246OmZyb21fc2VjcygKICAgICAgICAgICAgdTY0Ojpmcm9tKGNvbm5lY3Rpb24uYXV0b19zeW5jLmludGVydmFsX21pbnV0ZXMubWF4KDEpKS5zYXR1cmF0aW5nX211bCg2MCksCiAgICAgICAgKTsKICAgICAgICBsZXQgaW50ZXJ2YWxfc2Vjb25kcyA9IGk2NDo6dHJ5X2Zyb20oaW50ZXJ2YWwuYXNfc2VjcygpKS51bndyYXBfb3IoaTY0OjpNQVgpOwogICAgICAgIGxldCBsYXN0ID0gUmVwb3NpdG9yeTo6bmV3KHN0YXRlKQogICAgICAgICAgICAucnVucygmY29ubmVjdGlvbi5pZCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCiAgICAgICAgICAgIC5maXJzdCgpCiAgICAgICAgICAgIC5hbmRfdGhlbih8cnVufCBPZmZzZXREYXRlVGltZTo6cGFyc2UoJnJ1bi5zdGFydGVkX2F0LCAmUmZjMzMzOSkub2soKSk7CiAgICAgICAgbGV0IGVsYXBzZWRfc2Vjb25kcyA9IGxhc3QKICAgICAgICAgICAgLm1hcCh8bGFzdHwgKG5vdyAtIGxhc3QpLndob2xlX3NlY29uZHMoKSkKICAgICAgICAgICAgLnVud3JhcF9vcihpNjQ6Ok1BWCk7CiAgICAgICAgbGV0IGR1ZSA9IGNoYW5nZWQgfHwgZWxhcHNlZF9zZWNvbmRzID49IGludGVydmFsX3NlY29uZHM7CiAgICAgICAgaWYgZHVlIHsKICAgICAgICAgICAgbGV0IHRhc2tfc3RhdGUgPSBzdGF0ZS5jbG9uZSgpOwogICAgICAgICAgICBsZXQgdHJpZ2dlciA9IGlmIGNoYW5nZWQgewogICAgICAgICAgICAgICAgUnVuVHJpZ2dlcjo6Q29uZmlnQ2hhbmdlCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBSdW5UcmlnZ2VyOjpQZXJpb2RpYwogICAgICAgICAgICB9OwogICAgICAgICAgICBzdGF0ZS5zcGF3bl9iYWNrZ3JvdW5kKCJwYW5lbC1zeW5jLWRpc3BhdGNoIiwgYXN5bmMgbW92ZSB7CiAgICAgICAgICAgICAgICBzZXJ2aWNlOjplbnF1ZXVlX2F1dG9tYXRpYyh0YXNrX3N0YXRlLCBjb25uZWN0aW9uLCB0cmlnZ2VyKS5hd2FpdDsKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIG5leHRfd2FrZXVwID0gU29tZShuZXh0X3dha2V1cC5tYXBfb3IoaW50ZXJ2YWwsIHxjdXJyZW50fCBjdXJyZW50Lm1pbihpbnRlcnZhbCkpKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBsZXQgcmVtYWluaW5nID0gRHVyYXRpb246OmZyb21fc2VjcygKICAgICAgICAgICAgICAgIHU2NDo6dHJ5X2Zyb20oaW50ZXJ2YWxfc2Vjb25kcy5zYXR1cmF0aW5nX3N1YihlbGFwc2VkX3NlY29uZHMpKS51bndyYXBfb3IodTY0OjpNQVgpLAogICAgICAgICAgICApOwogICAgICAgICAgICBuZXh0X3dha2V1cCA9IFNvbWUobmV4dF93YWtldXAubWFwX29yKHJlbWFpbmluZywgfGN1cnJlbnR8IGN1cnJlbnQubWluKHJlbWFpbmluZykpKTsKICAgICAgICB9CiAgICB9CiAgICBuZXh0X3dha2V1cAp9Cg==
+use std::time::Duration;
+
+use time::{OffsetDateTime, format_description::well_known::Rfc3339};
+
+use crate::state::AppState;
+
+use super::{model::RunTrigger, repository::Repository, service};
+
+pub fn start(state: AppState) {
+    let task_state = state.clone();
+    state.spawn_background("panel-sync-scheduler", async move {
+        let mut next_wakeup = Some(Duration::ZERO);
+        loop {
+            let changed = if let Some(delay) = next_wakeup.take() {
+                tokio::select! {
+                    _ = task_state.shutdown.cancelled() => break,
+                    _ = task_state.panel_sync.source_changed.notified() => true,
+                    _ = tokio::time::sleep(delay) => false,
+                }
+            } else {
+                tokio::select! {
+                    _ = task_state.shutdown.cancelled() => break,
+                    _ = task_state.panel_sync.source_changed.notified() => true,
+                }
+            };
+            if changed {
+                loop {
+                    tokio::select! {
+                        _ = task_state.shutdown.cancelled() => return,
+                        _ = tokio::time::sleep(Duration::from_secs(5)) => break,
+                        _ = task_state.panel_sync.source_changed.notified() => continue,
+                    }
+                }
+            }
+            next_wakeup = dispatch(&task_state, changed).await;
+        }
+    });
+}
+
+async fn dispatch(state: &AppState, changed: bool) -> Option<Duration> {
+    let Ok(connections) = Repository::new(state).connections().await else {
+        return Some(Duration::from_secs(60));
+    };
+    let now = OffsetDateTime::now_utc();
+    let mut next_wakeup: Option<Duration> = None;
+    for connection in connections
+        .into_iter()
+        .filter(|item| item.auto_sync.enabled && item.verified_at.is_some())
+    {
+        let interval = Duration::from_secs(
+            u64::from(connection.auto_sync.interval_minutes.max(1)).saturating_mul(60),
+        );
+        let interval_seconds = i64::try_from(interval.as_secs()).unwrap_or(i64::MAX);
+        let last = Repository::new(state)
+            .runs(&connection.id)
+            .await
+            .unwrap_or_default()
+            .first()
+            .and_then(|run| OffsetDateTime::parse(&run.started_at, &Rfc3339).ok());
+        let elapsed_seconds = last
+            .map(|last| (now - last).whole_seconds())
+            .unwrap_or(i64::MAX);
+        let due = changed || elapsed_seconds >= interval_seconds;
+        if due {
+            let task_state = state.clone();
+            let trigger = if changed {
+                RunTrigger::ConfigChange
+            } else {
+                RunTrigger::Periodic
+            };
+            state.spawn_background("panel-sync-dispatch", async move {
+                service::enqueue_automatic(task_state, connection, trigger).await;
+            });
+            next_wakeup = Some(next_wakeup.map_or(interval, |current| current.min(interval)));
+        } else {
+            let remaining = Duration::from_secs(
+                u64::try_from(interval_seconds.saturating_sub(elapsed_seconds)).unwrap_or(u64::MAX),
+            );
+            next_wakeup = Some(next_wakeup.map_or(remaining, |current| current.min(remaining)));
+        }
+    }
+    next_wakeup
+}

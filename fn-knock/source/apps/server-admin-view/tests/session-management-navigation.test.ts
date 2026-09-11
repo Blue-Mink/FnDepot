@@ -1,1 +1,46 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IHJlYWRGaWxlU3luYyB9IGZyb20gIm5vZGU6ZnMiOwoKY29uc3QgcmVhZFNvdXJjZSA9IChwYXRoOiBzdHJpbmcpID0+CiAgcmVhZEZpbGVTeW5jKG5ldyBVUkwocGF0aCwgaW1wb3J0Lm1ldGEudXJsKSwgInV0ZjgiKTsKCmRlc2NyaWJlKCJzZXNzaW9uIG1hbmFnZW1lbnQgbmF2aWdhdGlvbiIsICgpID0+IHsKICBpdCgicmVkaXJlY3RzIHRoZSBsZWdhY3kgd2hpdGVsaXN0IHJvdXRlIGFuZCBwcmVzZXJ2ZXMgaXRzIHF1ZXJ5IiwgKCkgPT4gewogICAgY29uc3Qgcm91dGVyU291cmNlID0gcmVhZFNvdXJjZSgiLi4vc3JjL3JvdXRlci9pbmRleC50cyIpOwoKICAgIGFzc2VydC5tYXRjaChyb3V0ZXJTb3VyY2UsIC9wYXRoOiAid2hpdGVsaXN0IixccypyZWRpcmVjdDogXCh0b1wpID0+L3UpOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICByb3V0ZXJTb3VyY2UsCiAgICAgIC9xdWVyeTogXHsgXC5cLlwudG9cLnF1ZXJ5LCB0YWI6ICJpcC13aGl0ZWxpc3QiIFx9L3UsCiAgICApOwogIH0pOwoKICBpdCgicGxhY2VzIHRoZSBJUCB3aGl0ZWxpc3QgZGlyZWN0bHkgYWZ0ZXIgc2Vzc2lvbnMiLCAoKSA9PiB7CiAgICBjb25zdCBwYWdlU291cmNlID0gcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL1Nlc3Npb25NYW5hZ2VtZW50LnZ1ZSIpOwogICAgY29uc3Qgc2Vzc2lvbnNUcmlnZ2VyID0gcGFnZVNvdXJjZS5pbmRleE9mKCd2YWx1ZT0ic2Vzc2lvbnMiJyk7CiAgICBjb25zdCB3aGl0ZWxpc3RUcmlnZ2VyID0gcGFnZVNvdXJjZS5pbmRleE9mKCd2YWx1ZT0iaXAtd2hpdGVsaXN0IicpOwogICAgY29uc3QgbG9naW5CYWNrb2ZmVHJpZ2dlciA9IHBhZ2VTb3VyY2UuaW5kZXhPZigndmFsdWU9ImxvZ2luLWJhY2tvZmYiJyk7CgogICAgYXNzZXJ0Lm9rKHNlc3Npb25zVHJpZ2dlciA+PSAwKTsKICAgIGFzc2VydC5vayh3aGl0ZWxpc3RUcmlnZ2VyID4gc2Vzc2lvbnNUcmlnZ2VyKTsKICAgIGFzc2VydC5vayhsb2dpbkJhY2tvZmZUcmlnZ2VyID4gd2hpdGVsaXN0VHJpZ2dlcik7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIHBhZ2VTb3VyY2UsCiAgICAgIC9zaG93U2Vzc2lvbnNUYWJcLnZhbHVlIFw/ICJzZXNzaW9ucyIgOiAiaXAtd2hpdGVsaXN0Ii91LAogICAgKTsKICAgIGFzc2VydC5tYXRjaChwYWdlU291cmNlLCAvZG9jc1VybHNcLmd1aWRlc1wud2hpdGVsaXN0L3UpOwogIH0pOwoKICBpdCgidXNlcyBzZXNzaW9ucyBhcyB0aGUgb25seSBzaWRlYmFyIGVudHJ5IGZvciBib3RoIGZlYXR1cmVzIiwgKCkgPT4gewogICAgY29uc3QgbmF2aWdhdGlvblNvdXJjZSA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3MvbGF5b3V0L3VzZUxheW91dE5hdmlnYXRpb24udHMiLAogICAgKTsKCiAgICBhc3NlcnQubWF0Y2gobmF2aWdhdGlvblNvdXJjZSwgL2lkOiAic2Vzc2lvbnMiL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChuYXZpZ2F0aW9uU291cmNlLCAvaWQ6ICJpcF93aGl0ZWxpc3QiL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChuYXZpZ2F0aW9uU291cmNlLCAvcGF0aDogIlwvd2hpdGVsaXN0Ii91KTsKICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+describe("session management navigation", () => {
+  it("redirects the legacy whitelist route and preserves its query", () => {
+    const routerSource = readSource("../src/router/index.ts");
+
+    assert.match(routerSource, /path: "whitelist",\s*redirect: \(to\) =>/u);
+    assert.match(
+      routerSource,
+      /query: \{ \.\.\.to\.query, tab: "ip-whitelist" \}/u,
+    );
+  });
+
+  it("places the IP whitelist directly after sessions", () => {
+    const pageSource = readSource("../src/views/SessionManagement.vue");
+    const sessionsTrigger = pageSource.indexOf('value="sessions"');
+    const whitelistTrigger = pageSource.indexOf('value="ip-whitelist"');
+    const loginBackoffTrigger = pageSource.indexOf('value="login-backoff"');
+
+    assert.ok(sessionsTrigger >= 0);
+    assert.ok(whitelistTrigger > sessionsTrigger);
+    assert.ok(loginBackoffTrigger > whitelistTrigger);
+    assert.match(
+      pageSource,
+      /showSessionsTab\.value \? "sessions" : "ip-whitelist"/u,
+    );
+    assert.match(pageSource, /docsUrls\.guides\.whitelist/u);
+  });
+
+  it("uses sessions as the only sidebar entry for both features", () => {
+    const navigationSource = readSource(
+      "../src/views/layout/useLayoutNavigation.ts",
+    );
+
+    assert.match(navigationSource, /id: "sessions"/u);
+    assert.doesNotMatch(navigationSource, /id: "ip_whitelist"/u);
+    assert.doesNotMatch(navigationSource, /path: "\/whitelist"/u);
+  });
+});

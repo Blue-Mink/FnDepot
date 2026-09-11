@@ -1,1 +1,67 @@
-dXNlIHN0ZDo6ZnM7Cgp1c2UgY3JhdGU6OntpMThuOjpUcmFuc2xhdG9yLCBydW50aW1lX3Byb2ZpbGUsIHN0YXRlOjpBcHBTdGF0ZX07CgpwdWIoc3VwZXIpIGZuIGRldGVjdF9zeXN0ZW1fdGltZXpvbmUoKSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBpZiBsZXQgT2sodmFsdWUpID0gc3RkOjplbnY6OnZhcigiVFoiKQogICAgICAgICYmICF2YWx1ZS50cmltKCkuaXNfZW1wdHkoKQogICAgewogICAgICAgIHJldHVybiBTb21lKHZhbHVlLnRyaW0oKS50b19zdHJpbmcoKSk7CiAgICB9CiAgICBpZiBsZXQgT2sodmFsdWUpID0gZnM6OnJlYWRfdG9fc3RyaW5nKCIvZXRjL3RpbWV6b25lIikgewogICAgICAgIGxldCB0aW1lem9uZSA9IHZhbHVlLnRyaW0oKTsKICAgICAgICBpZiAhdGltZXpvbmUuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiBTb21lKHRpbWV6b25lLnRvX3N0cmluZygpKTsKICAgICAgICB9CiAgICB9CiAgICBpZiBsZXQgT2sodGFyZ2V0KSA9IGZzOjpyZWFkX2xpbmsoIi9ldGMvbG9jYWx0aW1lIikKICAgICAgICAmJiBsZXQgU29tZSh0ZXh0KSA9IHRhcmdldC50b19zdHIoKQogICAgICAgICYmIGxldCBTb21lKChfLCB6b25lKSkgPSB0ZXh0LnNwbGl0X29uY2UoInpvbmVpbmZvLyIpCiAgICAgICAgJiYgIXpvbmUudHJpbSgpLmlzX2VtcHR5KCkKICAgIHsKICAgICAgICByZXR1cm4gU29tZSh6b25lLnRyaW0oKS50b19zdHJpbmcoKSk7CiAgICB9CiAgICBOb25lCn0KCnB1YihzdXBlcikgZm4gc3lzdGVtX2Nsb2NrX3N5bmNfYXZhaWxhYmxlKHN0YXRlOiAmQXBwU3RhdGUpIC0+IGJvb2wgewogICAgbGV0IHByb2ZpbGUgPSBydW50aW1lX3Byb2ZpbGU6OmdldF9ydW50aW1lX3Byb2ZpbGUoc3RhdGUpOwogICAgc3lzdGVtX2Nsb2NrX3N5bmNfYXZhaWxhYmxlX2Zvcl9wcm9maWxlKCZwcm9maWxlKQp9CgpwdWIoc3VwZXIpIGZuIHN5c3RlbV9jbG9ja19zeW5jX2F2YWlsYWJsZV9mb3JfcHJvZmlsZSgKICAgIHByb2ZpbGU6ICZydW50aW1lX3Byb2ZpbGU6OlJ1bnRpbWVQcm9maWxlLAopIC0+IGJvb2wgewogICAgcnVudGltZV9wcm9maWxlOjpnZXRfcnVudGltZV9jYXBhYmlsaXRpZXMocHJvZmlsZSkuc3lzdGVtX2Nsb2NrX3N5bmNfYXZhaWxhYmxlCn0KCnB1YihzdXBlcikgZm4gc21hcnRfY29ubmVjdF9hdmFpbGFibGUoc3RhdGU6ICZBcHBTdGF0ZSkgLT4gYm9vbCB7CiAgICBsZXQgcHJvZmlsZSA9IHJ1bnRpbWVfcHJvZmlsZTo6Z2V0X3J1bnRpbWVfcHJvZmlsZShzdGF0ZSk7CiAgICBzbWFydF9jb25uZWN0X2F2YWlsYWJsZV9mb3JfcHJvZmlsZSgmcHJvZmlsZSkKfQoKcHViKHN1cGVyKSBmbiBzbWFydF9jb25uZWN0X2F2YWlsYWJsZV9mb3JfcHJvZmlsZSgKICAgIHByb2ZpbGU6ICZydW50aW1lX3Byb2ZpbGU6OlJ1bnRpbWVQcm9maWxlLAopIC0+IGJvb2wgewogICAgcnVudGltZV9wcm9maWxlOjpnZXRfcnVudGltZV9jYXBhYmlsaXRpZXMocHJvZmlsZSkuc21hcnRfY29ubmVjdF9hdmFpbGFibGUKfQoKcHViKHN1cGVyKSBmbiBzeXN0ZW1fY2xvY2tfdW5hdmFpbGFibGVfbWVzc2FnZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBTdHJpbmcgewogICAgbGV0IHByb2ZpbGUgPSBydW50aW1lX3Byb2ZpbGU6OmdldF9ydW50aW1lX3Byb2ZpbGUoc3RhdGUpOwogICAgcnVudGltZV9wcm9maWxlOjpjYXBhYmlsaXR5X3VuYXZhaWxhYmxlX21lc3NhZ2UoCiAgICAgICAgInN5c3RlbV9jbG9ja19zeW5jX2F2YWlsYWJsZSIsCiAgICAgICAgJnByb2ZpbGUsCiAgICAgICAgdHJhbnNsYXRvciwKICAgICkKfQoKcHViKHN1cGVyKSBmbiBzbWFydF9jb25uZWN0X3VuYXZhaWxhYmxlX21lc3NhZ2UoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gU3RyaW5nIHsKICAgIGxldCBwcm9maWxlID0gcnVudGltZV9wcm9maWxlOjpnZXRfcnVudGltZV9wcm9maWxlKHN0YXRlKTsKICAgIHJ1bnRpbWVfcHJvZmlsZTo6Y2FwYWJpbGl0eV91bmF2YWlsYWJsZV9tZXNzYWdlKCJzbWFydF9jb25uZWN0X2F2YWlsYWJsZSIsICZwcm9maWxlLCB0cmFuc2xhdG9yKQp9Cg==
+use std::fs;
+
+use crate::{i18n::Translator, runtime_profile, state::AppState};
+
+pub(super) fn detect_system_timezone() -> Option<String> {
+    if let Ok(value) = std::env::var("TZ")
+        && !value.trim().is_empty()
+    {
+        return Some(value.trim().to_string());
+    }
+    if let Ok(value) = fs::read_to_string("/etc/timezone") {
+        let timezone = value.trim();
+        if !timezone.is_empty() {
+            return Some(timezone.to_string());
+        }
+    }
+    if let Ok(target) = fs::read_link("/etc/localtime")
+        && let Some(text) = target.to_str()
+        && let Some((_, zone)) = text.split_once("zoneinfo/")
+        && !zone.trim().is_empty()
+    {
+        return Some(zone.trim().to_string());
+    }
+    None
+}
+
+pub(super) fn system_clock_sync_available(state: &AppState) -> bool {
+    let profile = runtime_profile::get_runtime_profile(state);
+    system_clock_sync_available_for_profile(&profile)
+}
+
+pub(super) fn system_clock_sync_available_for_profile(
+    profile: &runtime_profile::RuntimeProfile,
+) -> bool {
+    runtime_profile::get_runtime_capabilities(profile).system_clock_sync_available
+}
+
+pub(super) fn smart_connect_available(state: &AppState) -> bool {
+    let profile = runtime_profile::get_runtime_profile(state);
+    smart_connect_available_for_profile(&profile)
+}
+
+pub(super) fn smart_connect_available_for_profile(
+    profile: &runtime_profile::RuntimeProfile,
+) -> bool {
+    runtime_profile::get_runtime_capabilities(profile).smart_connect_available
+}
+
+pub(super) fn system_clock_unavailable_message(
+    state: &AppState,
+    translator: &Translator,
+) -> String {
+    let profile = runtime_profile::get_runtime_profile(state);
+    runtime_profile::capability_unavailable_message(
+        "system_clock_sync_available",
+        &profile,
+        translator,
+    )
+}
+
+pub(super) fn smart_connect_unavailable_message(
+    state: &AppState,
+    translator: &Translator,
+) -> String {
+    let profile = runtime_profile::get_runtime_profile(state);
+    runtime_profile::capability_unavailable_message("smart_connect_available", &profile, translator)
+}

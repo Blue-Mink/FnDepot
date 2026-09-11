@@ -1,1 +1,10 @@
-aW1wb3J0IHR5cGUgeyBVcGRhdGVyIH0gZnJvbSAiQHRhbnN0YWNrL3Z1ZS10YWJsZSIKCmltcG9ydCB0eXBlIHsgUmVmIH0gZnJvbSAidnVlIgppbXBvcnQgeyBpc0Z1bmN0aW9uIH0gZnJvbSAiQHRhbnN0YWNrL3Z1ZS10YWJsZSIKCmV4cG9ydCBmdW5jdGlvbiB2YWx1ZVVwZGF0ZXI8VD4odXBkYXRlck9yVmFsdWU6IFVwZGF0ZXI8VD4sIHJlZjogUmVmPFQ+KSB7CiAgcmVmLnZhbHVlID0gaXNGdW5jdGlvbih1cGRhdGVyT3JWYWx1ZSkKICAgID8gdXBkYXRlck9yVmFsdWUocmVmLnZhbHVlKQogICAgOiB1cGRhdGVyT3JWYWx1ZQp9Cg==
+import type { Updater } from "@tanstack/vue-table"
+
+import type { Ref } from "vue"
+import { isFunction } from "@tanstack/vue-table"
+
+export function valueUpdater<T>(updaterOrValue: Updater<T>, ref: Ref<T>) {
+  ref.value = isFunction(updaterOrValue)
+    ? updaterOrValue(ref.value)
+    : updaterOrValue
+}

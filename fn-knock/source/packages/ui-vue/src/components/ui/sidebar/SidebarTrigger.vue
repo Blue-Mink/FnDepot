@@ -1,1 +1,27 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IFBhbmVsTGVmdCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAnQC9jb21wb25lbnRzL3VpL2J1dHRvbicKaW1wb3J0IHsgdXNlU2lkZWJhciB9IGZyb20gIi4vdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKCmNvbnN0IHsgdG9nZ2xlU2lkZWJhciB9ID0gdXNlU2lkZWJhcigpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxCdXR0b24KICAgIGRhdGEtc2lkZWJhcj0idHJpZ2dlciIKICAgIGRhdGEtc2xvdD0ic2lkZWJhci10cmlnZ2VyIgogICAgdmFyaWFudD0iZ2hvc3QiCiAgICBzaXplPSJpY29uIgogICAgOmNsYXNzPSJjbignaC03IHctNycsIHByb3BzLmNsYXNzKSIKICAgIEBjbGljaz0idG9nZ2xlU2lkZWJhciIKICA+CiAgICA8UGFuZWxMZWZ0IC8+CiAgICA8c3BhbiBjbGFzcz0ic3Itb25seSI+VG9nZ2xlIFNpZGViYXI8L3NwYW4+CiAgPC9CdXR0b24+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { PanelLeft } from "lucide-vue-next"
+import { cn } from "@/lib/utils"
+import { Button } from '@/components/ui/button'
+import { useSidebar } from "./utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+
+const { toggleSidebar } = useSidebar()
+</script>
+
+<template>
+  <Button
+    data-sidebar="trigger"
+    data-slot="sidebar-trigger"
+    variant="ghost"
+    size="icon"
+    :class="cn('h-7 w-7', props.class)"
+    @click="toggleSidebar"
+  >
+    <PanelLeft />
+    <span class="sr-only">Toggle Sidebar</span>
+  </Button>
+</template>

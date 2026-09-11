@@ -1,1 +1,98 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgUmVmcmVzaEN3IH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7CiAgTUFYX0RETlNfVVBEQVRFX0lOVEVSVkFMX01JTlVURVMsCiAgTUlOX0RETlNfVVBEQVRFX0lOVEVSVkFMX01JTlVURVMsCn0gZnJvbSAiLi9tb2RlbCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBkcmFmdDogc3RyaW5nOwogIGlzU2F2aW5nOiBib29sZWFuOwogIG9wZW46IGJvb2xlYW47Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIGNvbmZpcm06IFtdOwogICJ1cGRhdGU6ZHJhZnQiOiBbdmFsdWU6IHN0cmluZ107CiAgInVwZGF0ZTpvcGVuIjogW3ZhbHVlOiBib29sZWFuXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwoKY29uc3QgZHJhZnRWYWx1ZSA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IHByb3BzLmRyYWZ0LAogIHNldDogKHZhbHVlOiBzdHJpbmcpID0+IGVtaXQoInVwZGF0ZTpkcmFmdCIsIHZhbHVlKSwKfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iZW1pdCgndXBkYXRlOm9wZW4nLCAkZXZlbnQpIj4KICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJzbTptYXgtdy1bNDIwcHhdIj4KICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICA8RGlhbG9nVGl0bGU+e3sgdCgiYWRtaW4uZGRucy5pbnRlcnZhbERpYWxvZ1RpdGxlIikgfX08L0RpYWxvZ1RpdGxlPgogICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgIHt7IHQoImFkbWluLmRkbnMuaW50ZXJ2YWxEaWFsb2dEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgPC9EaWFsb2dIZWFkZXI+CgogICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0yIHB5LTIiPgogICAgICAgIDxMYWJlbCBmb3I9ImRkbnMtdXBkYXRlLWludGVydmFsIj4KICAgICAgICAgIHt7IHQoImFkbWluLmRkbnMuaW50ZXJ2YWxNaW51dGVzIikgfX0KICAgICAgICA8L0xhYmVsPgogICAgICAgIDxkaXYgY2xhc3M9InJlbGF0aXZlIj4KICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICBpZD0iZGRucy11cGRhdGUtaW50ZXJ2YWwiCiAgICAgICAgICAgIHYtbW9kZWw9ImRyYWZ0VmFsdWUiCiAgICAgICAgICAgIHR5cGU9Im51bWJlciIKICAgICAgICAgICAgaW5wdXRtb2RlPSJudW1lcmljIgogICAgICAgICAgICA6bWluPSJNSU5fREROU19VUERBVEVfSU5URVJWQUxfTUlOVVRFUyIKICAgICAgICAgICAgOm1heD0iTUFYX0RETlNfVVBEQVRFX0lOVEVSVkFMX01JTlVURVMiCiAgICAgICAgICAgIHN0ZXA9IjEiCiAgICAgICAgICAgIGNsYXNzPSJwci0xNCIKICAgICAgICAgICAgQGtleWRvd24uZW50ZXIucHJldmVudD0iZW1pdCgnY29uZmlybScpIgogICAgICAgICAgLz4KICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIGNsYXNzPSJwb2ludGVyLWV2ZW50cy1ub25lIGFic29sdXRlIHJpZ2h0LTMgdG9wLTEvMiAtdHJhbnNsYXRlLXktMS8yIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLm1pbnV0ZXMiKSB9fQogICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7ewogICAgICAgICAgICB0KCJhZG1pbi5kZG5zLmludGVydmFsSGVscCIsIHsKICAgICAgICAgICAgICBtaW46IE1JTl9ERE5TX1VQREFURV9JTlRFUlZBTF9NSU5VVEVTLAogICAgICAgICAgICAgIG1heDogTUFYX0RETlNfVVBEQVRFX0lOVEVSVkFMX01JTlVURVMsCiAgICAgICAgICAgIH0pCiAgICAgICAgICB9fQogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CgogICAgICA8RGlhbG9nRm9vdGVyIGNsYXNzPSJnYXAtMiI+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmciCiAgICAgICAgICBAY2xpY2s9ImVtaXQoJ3VwZGF0ZTpvcGVuJywgZmFsc2UpIgogICAgICAgID4KICAgICAgICAgIHt7IHQoImNvbW1vbi5jYW5jZWwiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24gOmRpc2FibGVkPSJpc1NhdmluZyIgQGNsaWNrPSJlbWl0KCdjb25maXJtJykiPgogICAgICAgICAgPFJlZnJlc2hDdyB2LWlmPSJpc1NhdmluZyIgY2xhc3M9Im1yLTEuNSBoLTQgdy00IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgIHt7IGlzU2F2aW5nID8gdCgiYWRtaW4uZGRucy5zYXZpbmciKSA6IHQoImNvbW1vbi5zYXZlIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { RefreshCw } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  MAX_DDNS_UPDATE_INTERVAL_MINUTES,
+  MIN_DDNS_UPDATE_INTERVAL_MINUTES,
+} from "./model";
+
+const props = defineProps<{
+  draft: string;
+  isSaving: boolean;
+  open: boolean;
+}>();
+
+const emit = defineEmits<{
+  confirm: [];
+  "update:draft": [value: string];
+  "update:open": [value: boolean];
+}>();
+
+const { t } = useI18n();
+
+const draftValue = computed({
+  get: () => props.draft,
+  set: (value: string) => emit("update:draft", value),
+});
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="sm:max-w-[420px]">
+      <DialogHeader>
+        <DialogTitle>{{ t("admin.ddns.intervalDialogTitle") }}</DialogTitle>
+        <DialogDescription>
+          {{ t("admin.ddns.intervalDialogDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+
+      <div class="grid gap-2 py-2">
+        <Label for="ddns-update-interval">
+          {{ t("admin.ddns.intervalMinutes") }}
+        </Label>
+        <div class="relative">
+          <Input
+            id="ddns-update-interval"
+            v-model="draftValue"
+            type="number"
+            inputmode="numeric"
+            :min="MIN_DDNS_UPDATE_INTERVAL_MINUTES"
+            :max="MAX_DDNS_UPDATE_INTERVAL_MINUTES"
+            step="1"
+            class="pr-14"
+            @keydown.enter.prevent="emit('confirm')"
+          />
+          <span
+            class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-sm text-muted-foreground"
+          >
+            {{ t("admin.ddns.minutes") }}
+          </span>
+        </div>
+        <p class="text-xs text-muted-foreground">
+          {{
+            t("admin.ddns.intervalHelp", {
+              min: MIN_DDNS_UPDATE_INTERVAL_MINUTES,
+              max: MAX_DDNS_UPDATE_INTERVAL_MINUTES,
+            })
+          }}
+        </p>
+      </div>
+
+      <DialogFooter class="gap-2">
+        <Button
+          variant="outline"
+          :disabled="isSaving"
+          @click="emit('update:open', false)"
+        >
+          {{ t("common.cancel") }}
+        </Button>
+        <Button :disabled="isSaving" @click="emit('confirm')">
+          <RefreshCw v-if="isSaving" class="mr-1.5 h-4 w-4 animate-spin" />
+          {{ isSaving ? t("admin.ddns.saving") : t("common.save") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

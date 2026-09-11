@@ -1,1 +1,112 @@
-dXNlIHN1cGVyOjoqOwoKI1thbGxvdyhjbGlwcHk6OnRvb19tYW55X2FyZ3VtZW50cyldCnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBhc3luYyBmbiB0ZW5jZW50Y2xvdWRfdGMzX3JlcXVlc3QoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIGNsaWVudDogJkRETlNIdHRwQ2xpZW50LAogICAgc2VjcmV0X2lkOiAmc3RyLAogICAgc2VjcmV0X2tleTogJnN0ciwKICAgIGFjdGlvbjogJnN0ciwKICAgIHBheWxvYWQ6IFZhbHVlLAogICAgaG9zdDogJnN0ciwKICAgIHNlcnZpY2U6ICZzdHIsCiAgICB2ZXJzaW9uOiAmc3RyLAogICAgcmVnaW9uOiBPcHRpb248JnN0cj4sCikgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgIGxldCB0aW1lc3RhbXAgPSB0aW1lX3V0aWxzOjpub3dfbXMoKS5kaXZfZXVjbGlkKDEwMDApOwogICAgbGV0IGRhdGUgPSB1dGNfZGF0ZSh0aW1lc3RhbXApPzsKICAgIGxldCBwYXlsb2FkX3N0cmluZyA9IHNlcmRlX2pzb246OnRvX3N0cmluZygmcGF5bG9hZCk/OwogICAgbGV0IGhhc2hlZF9wYXlsb2FkID0gc2hhMjU2X2hleCgmcGF5bG9hZF9zdHJpbmcpOwogICAgbGV0IGNvbnRlbnRfdHlwZSA9ICJhcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PXV0Zi04IjsKICAgIGxldCBjYW5vbmljYWxfaGVhZGVycyA9IHRlbmNlbnRjbG91ZF90YzNfY2Fub25pY2FsX2hlYWRlcnMoY29udGVudF90eXBlLCBob3N0LCBhY3Rpb24pOwogICAgbGV0IHNpZ25lZF9oZWFkZXJzID0gImNvbnRlbnQtdHlwZTtob3N0O3gtdGMtYWN0aW9uIjsKICAgIGxldCBjYW5vbmljYWxfcmVxdWVzdCA9IFsKICAgICAgICAiUE9TVCIsCiAgICAgICAgIi8iLAogICAgICAgICIiLAogICAgICAgICZjYW5vbmljYWxfaGVhZGVycywKICAgICAgICBzaWduZWRfaGVhZGVycywKICAgICAgICAmaGFzaGVkX3BheWxvYWQsCiAgICBdCiAgICAuam9pbigiXG4iKTsKICAgIGxldCBjcmVkZW50aWFsX3Njb3BlID0gZm9ybWF0ISgie2RhdGV9L3tzZXJ2aWNlfS90YzNfcmVxdWVzdCIpOwogICAgbGV0IHN0cmluZ190b19zaWduID0gWwogICAgICAgICJUQzMtSE1BQy1TSEEyNTYiLAogICAgICAgICZ0aW1lc3RhbXAudG9fc3RyaW5nKCksCiAgICAgICAgJmNyZWRlbnRpYWxfc2NvcGUsCiAgICAgICAgJnNoYTI1Nl9oZXgoJmNhbm9uaWNhbF9yZXF1ZXN0KSwKICAgIF0KICAgIC5qb2luKCJcbiIpOwogICAgbGV0IHNlY3JldF9kYXRlID0gaG1hY19zaGEyNTZfYnl0ZXMoZm9ybWF0ISgiVEMze3NlY3JldF9rZXl9IikuYXNfYnl0ZXMoKSwgZGF0ZS5hc19ieXRlcygpKTsKICAgIGxldCBzZWNyZXRfc2VydmljZSA9IGhtYWNfc2hhMjU2X2J5dGVzKCZzZWNyZXRfZGF0ZSwgc2VydmljZS5hc19ieXRlcygpKTsKICAgIGxldCBzZWNyZXRfc2lnbmluZyA9IGhtYWNfc2hhMjU2X2J5dGVzKCZzZWNyZXRfc2VydmljZSwgYiJ0YzNfcmVxdWVzdCIpOwogICAgbGV0IHNpZ25hdHVyZSA9IGhtYWNfc2hhMjU2X2hleCgmc2VjcmV0X3NpZ25pbmcsIHN0cmluZ190b19zaWduLmFzX2J5dGVzKCkpOwogICAgbGV0IGF1dGhvcml6YXRpb24gPSBmb3JtYXQhKAogICAgICAgICJUQzMtSE1BQy1TSEEyNTYgQ3JlZGVudGlhbD17c2VjcmV0X2lkfS97Y3JlZGVudGlhbF9zY29wZX0sIFNpZ25lZEhlYWRlcnM9e3NpZ25lZF9oZWFkZXJzfSwgU2lnbmF0dXJlPXtzaWduYXR1cmV9IgogICAgKTsKICAgIGxldCBtdXQgcmVxdWVzdCA9IGNsaWVudAogICAgICAgIC5wb3N0KGZvcm1hdCEoImh0dHBzOi8ve2hvc3R9LyIpKQogICAgICAgIC5oZWFkZXIocmVxd2VzdDo6aGVhZGVyOjpDT05URU5UX1RZUEUsIGNvbnRlbnRfdHlwZSkKICAgICAgICAuaGVhZGVyKHJlcXdlc3Q6OmhlYWRlcjo6SE9TVCwgaG9zdCkKICAgICAgICAuaGVhZGVyKCJYLVRDLUFjdGlvbiIsIGFjdGlvbikKICAgICAgICAuaGVhZGVyKCJYLVRDLVRpbWVzdGFtcCIsIHRpbWVzdGFtcC50b19zdHJpbmcoKSkKICAgICAgICAuaGVhZGVyKCJYLVRDLVZlcnNpb24iLCB2ZXJzaW9uKQogICAgICAgIC5oZWFkZXIocmVxd2VzdDo6aGVhZGVyOjpBVVRIT1JJWkFUSU9OLCBhdXRob3JpemF0aW9uKQogICAgICAgIC5ib2R5KHBheWxvYWRfc3RyaW5nKTsKICAgIGlmIGxldCBTb21lKHJlZ2lvbikgPSByZWdpb24gewogICAgICAgIHJlcXVlc3QgPSByZXF1ZXN0LmhlYWRlcigiWC1UQy1SZWdpb24iLCByZWdpb24pOwogICAgfQogICAgbGV0IChzdGF0dXMsIGRhdGEsIF90ZXh0KSA9IHJlc3BvbnNlX2pzb24odHJhbnNsYXRvciwgcmVxdWVzdC5zZW5kKCkuYXdhaXQ/KS5hd2FpdD87CiAgICBsZXQgcmVzcG9uc2UgPSBkYXRhLmdldCgiUmVzcG9uc2UiKS5jbG9uZWQoKS5va19vcl9lbHNlKHx8IHsKICAgICAgICBhbnlob3c6OmFueWhvdyEoZGRuc190ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAidGVuY2VudE1pc3NpbmdSZXNwb25zZSIsCiAgICAgICAgICAgICZbKCJzdGF0dXMiLCBzdGF0dXMuYXNfdTE2KCkudG9fc3RyaW5nKCkpXSwKICAgICAgICApKQogICAgfSk/OwogICAgaWYgbGV0IFNvbWUoZXJyb3IpID0gcmVzcG9uc2UuZ2V0KCJFcnJvciIpIHsKICAgICAgICBsZXQgY29kZSA9IGVycm9yCiAgICAgICAgICAgIC5nZXQoIkNvZGUiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLnVud3JhcF9vcigiVGVuY2VudENsb3VkRXJyb3IiKTsKICAgICAgICBsZXQgcmVxdWVzdF9mYWlsZWQgPSBkZG5zX3RleHQodHJhbnNsYXRvciwgInJlcXVlc3RGYWlsZWQiLCAmW10pOwogICAgICAgIGxldCBtZXNzYWdlID0gZXJyb3IKICAgICAgICAgICAgLmdldCgiTWVzc2FnZSIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAudW53cmFwX29yKHJlcXVlc3RfZmFpbGVkLmFzX3N0cigpKTsKICAgICAgICBsZXQgcmVxdWVzdF9pZCA9IHJlc3BvbnNlCiAgICAgICAgICAgIC5nZXQoIlJlcXVlc3RJZCIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgICAgICByZXR1cm4gRXJyKGFueWhvdzo6YW55aG93ISgKICAgICAgICAgICAgIntjb2RlfToge21lc3NhZ2V9e30iLAogICAgICAgICAgICBpZiByZXF1ZXN0X2lkLmlzX2VtcHR5KCkgewogICAgICAgICAgICAgICAgU3RyaW5nOjpuZXcoKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgZm9ybWF0ISgiIChSZXF1ZXN0SWQ6IHtyZXF1ZXN0X2lkfSkiKQogICAgICAgICAgICB9CiAgICAgICAgKSk7CiAgICB9CiAgICBpZiBzdGF0dXMuaXNfc3VjY2VzcygpIHsKICAgICAgICBPayhyZXNwb25zZSkKICAgIH0gZWxzZSB7CiAgICAgICAgRXJyKGFueWhvdzo6YW55aG93ISgKICAgICAgICAgICAgIkhUVFAge306IHt9IiwKICAgICAgICAgICAgc3RhdHVzLmFzX3UxNigpLAogICAgICAgICAgICBkZG5zX3RleHQodHJhbnNsYXRvciwgInJlcXVlc3RGYWlsZWQiLCAmW10pCiAgICAgICAgKSkKICAgIH0KfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIHRlbmNlbnRjbG91ZF90YzNfY2Fub25pY2FsX2hlYWRlcnMoCiAgICBjb250ZW50X3R5cGU6ICZzdHIsCiAgICBob3N0OiAmc3RyLAogICAgYWN0aW9uOiAmc3RyLAopIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKAogICAgICAgICJjb250ZW50LXR5cGU6e31cbmhvc3Q6e31cbngtdGMtYWN0aW9uOnt9XG4iLAogICAgICAgIGNvbnRlbnRfdHlwZS50cmltKCkudG9fYXNjaWlfbG93ZXJjYXNlKCksCiAgICAgICAgaG9zdC50cmltKCkudG9fYXNjaWlfbG93ZXJjYXNlKCksCiAgICAgICAgYWN0aW9uLnRyaW0oKS50b19hc2NpaV9sb3dlcmNhc2UoKQogICAgKQp9Cg==
+use super::*;
+
+#[allow(clippy::too_many_arguments)]
+pub(in crate::ddns::routes) async fn tencentcloud_tc3_request(
+    translator: &Translator,
+    client: &DDNSHttpClient,
+    secret_id: &str,
+    secret_key: &str,
+    action: &str,
+    payload: Value,
+    host: &str,
+    service: &str,
+    version: &str,
+    region: Option<&str>,
+) -> anyhow::Result<Value> {
+    let timestamp = time_utils::now_ms().div_euclid(1000);
+    let date = utc_date(timestamp)?;
+    let payload_string = serde_json::to_string(&payload)?;
+    let hashed_payload = sha256_hex(&payload_string);
+    let content_type = "application/json; charset=utf-8";
+    let canonical_headers = tencentcloud_tc3_canonical_headers(content_type, host, action);
+    let signed_headers = "content-type;host;x-tc-action";
+    let canonical_request = [
+        "POST",
+        "/",
+        "",
+        &canonical_headers,
+        signed_headers,
+        &hashed_payload,
+    ]
+    .join("\n");
+    let credential_scope = format!("{date}/{service}/tc3_request");
+    let string_to_sign = [
+        "TC3-HMAC-SHA256",
+        &timestamp.to_string(),
+        &credential_scope,
+        &sha256_hex(&canonical_request),
+    ]
+    .join("\n");
+    let secret_date = hmac_sha256_bytes(format!("TC3{secret_key}").as_bytes(), date.as_bytes());
+    let secret_service = hmac_sha256_bytes(&secret_date, service.as_bytes());
+    let secret_signing = hmac_sha256_bytes(&secret_service, b"tc3_request");
+    let signature = hmac_sha256_hex(&secret_signing, string_to_sign.as_bytes());
+    let authorization = format!(
+        "TC3-HMAC-SHA256 Credential={secret_id}/{credential_scope}, SignedHeaders={signed_headers}, Signature={signature}"
+    );
+    let mut request = client
+        .post(format!("https://{host}/"))
+        .header(reqwest::header::CONTENT_TYPE, content_type)
+        .header(reqwest::header::HOST, host)
+        .header("X-TC-Action", action)
+        .header("X-TC-Timestamp", timestamp.to_string())
+        .header("X-TC-Version", version)
+        .header(reqwest::header::AUTHORIZATION, authorization)
+        .body(payload_string);
+    if let Some(region) = region {
+        request = request.header("X-TC-Region", region);
+    }
+    let (status, data, _text) = response_json(translator, request.send().await?).await?;
+    let response = data.get("Response").cloned().ok_or_else(|| {
+        anyhow::anyhow!(ddns_text(
+            translator,
+            "tencentMissingResponse",
+            &[("status", status.as_u16().to_string())],
+        ))
+    })?;
+    if let Some(error) = response.get("Error") {
+        let code = error
+            .get("Code")
+            .and_then(Value::as_str)
+            .unwrap_or("TencentCloudError");
+        let request_failed = ddns_text(translator, "requestFailed", &[]);
+        let message = error
+            .get("Message")
+            .and_then(Value::as_str)
+            .unwrap_or(request_failed.as_str());
+        let request_id = response
+            .get("RequestId")
+            .and_then(Value::as_str)
+            .unwrap_or_default();
+        return Err(anyhow::anyhow!(
+            "{code}: {message}{}",
+            if request_id.is_empty() {
+                String::new()
+            } else {
+                format!(" (RequestId: {request_id})")
+            }
+        ));
+    }
+    if status.is_success() {
+        Ok(response)
+    } else {
+        Err(anyhow::anyhow!(
+            "HTTP {}: {}",
+            status.as_u16(),
+            ddns_text(translator, "requestFailed", &[])
+        ))
+    }
+}
+
+pub(in crate::ddns::routes) fn tencentcloud_tc3_canonical_headers(
+    content_type: &str,
+    host: &str,
+    action: &str,
+) -> String {
+    format!(
+        "content-type:{}\nhost:{}\nx-tc-action:{}\n",
+        content_type.trim().to_ascii_lowercase(),
+        host.trim().to_ascii_lowercase(),
+        action.trim().to_ascii_lowercase()
+    )
+}

@@ -1,1 +1,128 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCB1c2VJZCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsgU3dpdGNoIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N3aXRjaCI7CmltcG9ydCBHYXRld2F5UG9ydGFsQ2hvaWNlU2V0dGluZyBmcm9tICIuL0dhdGV3YXlQb3J0YWxDaG9pY2VTZXR0aW5nLnZ1ZSI7CmltcG9ydCB0eXBlIHsgR2F0ZXdheVBvcnRhbFNldHRpbmdzTW9kZWwgfSBmcm9tICIuL3VzZUdhdGV3YXlQb3J0YWxTZXR0aW5ncyI7CgpkZWZpbmVQcm9wczx7IG1vZGVsOiBHYXRld2F5UG9ydGFsU2V0dGluZ3NNb2RlbCB9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgYTExeUlkID0gdXNlSWQoKTsKY29uc3QgdmVyc2lvbk9wdGlvbnMgPSBjb21wdXRlZCgoKSA9PiBbCiAgeyB2YWx1ZTogInYxIiwgbGFiZWw6IHQoImFkbWluLmdhdGV3YXlQb3J0YWxTZXR0aW5ncy52ZXJzaW9uVjEiKSB9LAogIHsgdmFsdWU6ICJ2MiIsIGxhYmVsOiB0KCJhZG1pbi5nYXRld2F5UG9ydGFsU2V0dGluZ3MudmVyc2lvblYyIikgfSwKXSk7CmNvbnN0IGRpc3BsYXlPcHRpb25zID0gY29tcHV0ZWQoKCkgPT4gWwogIHsKICAgIHZhbHVlOiAiZG9tYWluIiwKICAgIGxhYmVsOiB0KCJhZG1pbi5nYXRld2F5UG9ydGFsU2V0dGluZ3MuZGlzcGxheURvbWFpbiIpLAogIH0sCiAgewogICAgdmFsdWU6ICJ0aXRsZSIsCiAgICBsYWJlbDogdCgiYWRtaW4uZ2F0ZXdheVBvcnRhbFNldHRpbmdzLmRpc3BsYXlUaXRsZSIpLAogIH0sCl0pOwpjb25zdCBkcmFnTW9kZU9wdGlvbnMgPSBjb21wdXRlZCgoKSA9PiBbCiAgewogICAgdmFsdWU6ICJjb3JuZXJzIiwKICAgIGxhYmVsOiB0KCJhZG1pbi5nYXRld2F5UG9ydGFsU2V0dGluZ3MuaWNvbkRyYWdNb2RlQ29ybmVycyIpLAogIH0sCiAgewogICAgdmFsdWU6ICJmcmVlIiwKICAgIGxhYmVsOiB0KCJhZG1pbi5nYXRld2F5UG9ydGFsU2V0dGluZ3MuaWNvbkRyYWdNb2RlRnJlZSIpLAogIH0sCl0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8c2VjdGlvbiBjbGFzcz0icC02Ij4KICAgIDxkaXYgY2xhc3M9InJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItYm9yZGVyLzYwIGJnLW11dGVkLzEwIHB4LTQgcHktNCI+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC00Ij4KICAgICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIHNwYWNlLXktMS41Ij4KICAgICAgICAgIDxMYWJlbCA6Zm9yPSJgJHthMTF5SWR9LWVuYWJsZWRgIiBjbGFzcz0idGV4dC1iYXNlIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVBvcnRhbFNldHRpbmdzLmVuYWJsZWQiKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlQb3J0YWxTZXR0aW5ncy5lbmFibGVkRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPFN3aXRjaAogICAgICAgICAgOmlkPSJgJHthMTF5SWR9LWVuYWJsZWRgIgogICAgICAgICAgY2xhc3M9Im10LTAuNSBzaHJpbmstMCIKICAgICAgICAgIDptb2RlbC12YWx1ZT0ibW9kZWwuZm9ybS5lbmFibGVkIgogICAgICAgICAgOmRpc2FibGVkPSJtb2RlbC5pc1NhdmluZyIKICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9Im1vZGVsLnNhdmVFbmFibGVkKCRldmVudCA9PT0gdHJ1ZSkiCiAgICAgICAgLz4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L3NlY3Rpb24+CgogIDx0ZW1wbGF0ZSB2LWlmPSJtb2RlbC5mb3JtLmVuYWJsZWQiPgogICAgPEdhdGV3YXlQb3J0YWxDaG9pY2VTZXR0aW5nCiAgICAgIDp0aXRsZT0idCgnYWRtaW4uZ2F0ZXdheVBvcnRhbFNldHRpbmdzLnZlcnNpb24nKSIKICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5nYXRld2F5UG9ydGFsU2V0dGluZ3MudmVyc2lvbkRlc2NyaXB0aW9uJykiCiAgICAgIDptb2RlbC12YWx1ZT0ibW9kZWwuZm9ybS52ZXJzaW9uIgogICAgICA6b3B0aW9ucz0idmVyc2lvbk9wdGlvbnMiCiAgICAgIDpkaXNhYmxlZD0ibW9kZWwuaXNTYXZpbmciCiAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9Im1vZGVsLnNhdmVWZXJzaW9uKCRldmVudCA9PT0gJ3YyJyA/ICd2MicgOiAndjEnKSIKICAgIC8+CiAgICA8R2F0ZXdheVBvcnRhbENob2ljZVNldHRpbmcKICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5nYXRld2F5UG9ydGFsU2V0dGluZ3MuZGlzcGxheScpIgogICAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLmdhdGV3YXlQb3J0YWxTZXR0aW5ncy5kaXNwbGF5RGVzY3JpcHRpb24nKSIKICAgICAgOm1vZGVsLXZhbHVlPSJtb2RlbC5mb3JtLmRpc3BsYXlfc3R5bGUiCiAgICAgIDpvcHRpb25zPSJkaXNwbGF5T3B0aW9ucyIKICAgICAgOmRpc2FibGVkPSJtb2RlbC5pc1NhdmluZyIKICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iCiAgICAgICAgbW9kZWwuc2F2ZURpc3BsYXlTdHlsZSgkZXZlbnQgPT09ICdkb21haW4nID8gJ2RvbWFpbicgOiAndGl0bGUnKQogICAgICAiCiAgICAvPgogICAgPEdhdGV3YXlQb3J0YWxDaG9pY2VTZXR0aW5nCiAgICAgIDp0aXRsZT0idCgnYWRtaW4uZ2F0ZXdheVBvcnRhbFNldHRpbmdzLmljb25EcmFnTW9kZScpIgogICAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLmdhdGV3YXlQb3J0YWxTZXR0aW5ncy5pY29uRHJhZ01vZGVEZXNjcmlwdGlvbicpIgogICAgICA6bW9kZWwtdmFsdWU9Im1vZGVsLmZvcm0uaWNvbl9kcmFnX21vZGUiCiAgICAgIDpvcHRpb25zPSJkcmFnTW9kZU9wdGlvbnMiCiAgICAgIDpkaXNhYmxlZD0ibW9kZWwuaXNTYXZpbmciCiAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9IgogICAgICAgIG1vZGVsLnNhdmVJY29uRHJhZ01vZGUoJGV2ZW50ID09PSAnZnJlZScgPyAnZnJlZScgOiAnY29ybmVycycpCiAgICAgICIKICAgIC8+CgogICAgPHNlY3Rpb24gY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtNCBwLTYiPgogICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEgcHItNiI+CiAgICAgICAgPExhYmVsIDpmb3I9ImAke2ExMXlJZH0tYXBwLWljb25gIiBjbGFzcz0idGV4dC1iYXNlIj4KICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlQb3J0YWxTZXR0aW5ncy5zaG93QXBwSWNvbiIpIH19CiAgICAgICAgPC9MYWJlbD4KICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5UG9ydGFsU2V0dGluZ3Muc2hvd0FwcEljb25EZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8U3dpdGNoCiAgICAgICAgOmlkPSJgJHthMTF5SWR9LWFwcC1pY29uYCIKICAgICAgICA6bW9kZWwtdmFsdWU9Im1vZGVsLmZvcm0uc2hvd19hcHBfaWNvbiIKICAgICAgICA6ZGlzYWJsZWQ9Im1vZGVsLmlzU2F2aW5nIgogICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9Im1vZGVsLnNhdmVTaG93QXBwSWNvbigkZXZlbnQgPT09IHRydWUpIgogICAgICAvPgogICAgPC9zZWN0aW9uPgoKICAgIDxzZWN0aW9uCiAgICAgIHYtaWY9Im1vZGVsLndvbEZlYXR1cmVFbmFibGVkIgogICAgICBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC00IHAtNiIKICAgID4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIHByLTYiPgogICAgICAgIDxMYWJlbCA6Zm9yPSJgJHthMTF5SWR9LXdvbGAiIGNsYXNzPSJ0ZXh0LWJhc2UiPgogICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVBvcnRhbFNldHRpbmdzLnNob3dXb2wiKSB9fQogICAgICAgIDwvTGFiZWw+CiAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVBvcnRhbFNldHRpbmdzLnNob3dXb2xEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8U3dpdGNoCiAgICAgICAgOmlkPSJgJHthMTF5SWR9LXdvbGAiCiAgICAgICAgOm1vZGVsLXZhbHVlPSJtb2RlbC5mb3JtLnNob3dfd29sIgogICAgICAgIDpkaXNhYmxlZD0ibW9kZWwuaXNTYXZpbmciCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0ibW9kZWwuc2F2ZVNob3dXT0woJGV2ZW50ID09PSB0cnVlKSIKICAgICAgLz4KICAgIDwvc2VjdGlvbj4KICA8L3RlbXBsYXRlPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import GatewayPortalChoiceSetting from "./GatewayPortalChoiceSetting.vue";
+import type { GatewayPortalSettingsModel } from "./useGatewayPortalSettings";
+
+defineProps<{ model: GatewayPortalSettingsModel }>();
+const { t } = useI18n();
+const a11yId = useId();
+const versionOptions = computed(() => [
+  { value: "v1", label: t("admin.gatewayPortalSettings.versionV1") },
+  { value: "v2", label: t("admin.gatewayPortalSettings.versionV2") },
+]);
+const displayOptions = computed(() => [
+  {
+    value: "domain",
+    label: t("admin.gatewayPortalSettings.displayDomain"),
+  },
+  {
+    value: "title",
+    label: t("admin.gatewayPortalSettings.displayTitle"),
+  },
+]);
+const dragModeOptions = computed(() => [
+  {
+    value: "corners",
+    label: t("admin.gatewayPortalSettings.iconDragModeCorners"),
+  },
+  {
+    value: "free",
+    label: t("admin.gatewayPortalSettings.iconDragModeFree"),
+  },
+]);
+</script>
+
+<template>
+  <section class="p-6">
+    <div class="rounded-2xl border border-border/60 bg-muted/10 px-4 py-4">
+      <div class="flex items-start justify-between gap-4">
+        <div class="min-w-0 space-y-1.5">
+          <Label :for="`${a11yId}-enabled`" class="text-base font-medium">
+            {{ t("admin.gatewayPortalSettings.enabled") }}
+          </Label>
+          <div class="text-sm leading-6 text-muted-foreground">
+            {{ t("admin.gatewayPortalSettings.enabledDescription") }}
+          </div>
+        </div>
+        <Switch
+          :id="`${a11yId}-enabled`"
+          class="mt-0.5 shrink-0"
+          :model-value="model.form.enabled"
+          :disabled="model.isSaving"
+          @update:model-value="model.saveEnabled($event === true)"
+        />
+      </div>
+    </div>
+  </section>
+
+  <template v-if="model.form.enabled">
+    <GatewayPortalChoiceSetting
+      :title="t('admin.gatewayPortalSettings.version')"
+      :description="t('admin.gatewayPortalSettings.versionDescription')"
+      :model-value="model.form.version"
+      :options="versionOptions"
+      :disabled="model.isSaving"
+      @update:model-value="model.saveVersion($event === 'v2' ? 'v2' : 'v1')"
+    />
+    <GatewayPortalChoiceSetting
+      :title="t('admin.gatewayPortalSettings.display')"
+      :description="t('admin.gatewayPortalSettings.displayDescription')"
+      :model-value="model.form.display_style"
+      :options="displayOptions"
+      :disabled="model.isSaving"
+      @update:model-value="
+        model.saveDisplayStyle($event === 'domain' ? 'domain' : 'title')
+      "
+    />
+    <GatewayPortalChoiceSetting
+      :title="t('admin.gatewayPortalSettings.iconDragMode')"
+      :description="t('admin.gatewayPortalSettings.iconDragModeDescription')"
+      :model-value="model.form.icon_drag_mode"
+      :options="dragModeOptions"
+      :disabled="model.isSaving"
+      @update:model-value="
+        model.saveIconDragMode($event === 'free' ? 'free' : 'corners')
+      "
+    />
+
+    <section class="flex items-center justify-between gap-4 p-6">
+      <div class="space-y-1 pr-6">
+        <Label :for="`${a11yId}-app-icon`" class="text-base">
+          {{ t("admin.gatewayPortalSettings.showAppIcon") }}
+        </Label>
+        <div class="text-sm text-muted-foreground">
+          {{ t("admin.gatewayPortalSettings.showAppIconDescription") }}
+        </div>
+      </div>
+      <Switch
+        :id="`${a11yId}-app-icon`"
+        :model-value="model.form.show_app_icon"
+        :disabled="model.isSaving"
+        @update:model-value="model.saveShowAppIcon($event === true)"
+      />
+    </section>
+
+    <section
+      v-if="model.wolFeatureEnabled"
+      class="flex items-center justify-between gap-4 p-6"
+    >
+      <div class="space-y-1 pr-6">
+        <Label :for="`${a11yId}-wol`" class="text-base">
+          {{ t("admin.gatewayPortalSettings.showWol") }}
+        </Label>
+        <div class="text-sm text-muted-foreground">
+          {{ t("admin.gatewayPortalSettings.showWolDescription") }}
+        </div>
+      </div>
+      <Switch
+        :id="`${a11yId}-wol`"
+        :model-value="model.form.show_wol"
+        :disabled="model.isSaving"
+        @update:model-value="model.saveShowWOL($event === true)"
+      />
+    </section>
+  </template>
+</template>

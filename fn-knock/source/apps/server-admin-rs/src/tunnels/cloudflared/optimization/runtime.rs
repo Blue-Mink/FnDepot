@@ -1,1 +1,192 @@
-dXNlIGF4dW06OntodHRwOjpTdGF0dXNDb2RlLCByZXNwb25zZTo6UmVzcG9uc2V9Owp1c2Ugc2VyZGVfanNvbjo6e1ZhbHVlLCBqc29ufTsKCnVzZSBjcmF0ZTo6e2NyeXB0b191dGlscywgcmVzcG9uc2UsIHN0YXRlOjpBcHBTdGF0ZX07Cgp1c2Ugc3VwZXI6OnN1cGVyOjp7CiAgICBjbG91ZGZsYXJlX2FwaTo6e0Nsb3VkZmxhcmVBcGksIENsb3VkZmxhcmVBcGlFcnJvcn0sCiAgICBtYW5hZ2VkOjpkbnNfcmVjb3JkX293bmVkX2Zvcl91cGRhdGUsCn07CnVzZSBzdXBlcjo6ewogICAgQ0FORElEQVRFX1JFU09MVVRJT05fVU5BVkFJTEFCTEVfRVJST1JfQ09ERSwgQ0FORElEQVRFX1JFU09MVVRJT05fVU5BVkFJTEFCTEVfU0NBTl9FUlJPUiwKICAgIENMT1VERkxBUkVfUkVTT1VSQ0VfQ09ORkxJQ1RfRVJST1JfQ09ERSwgQ0xPVURGTEFSRV9SRVNPVVJDRV9DT05GTElDVF9TQ0FOX0VSUk9SLAogICAgQ0xPVURGTEFSRV9TQUFTX1JFUVVJUkVEX0VSUk9SX0NPREUsIENMT1VERkxBUkVfU0FBU19SRVFVSVJFRF9TQ0FOX0VSUk9SLAogICAgQ0xPVURGTEFSRV9TQUFTX1ZBTElEQVRJT05fUEVORElOR19FUlJPUl9DT0RFLCBDTE9VREZMQVJFX1NBQVNfVkFMSURBVElPTl9QRU5ESU5HX1NDQU5fRVJST1IsCiAgICBPUFRJTUlaQVRJT05fTk9UX1JFQURZX0VSUk9SX0NPREUsIE9QVElNSVpBVElPTl9OT1RfUkVBRFlfU0NBTl9FUlJPUiwgT1BUSU1JWkFUSU9OX1JVTlRJTUVfS0VZLAogICAgc3RhdGVfaGVscGVyczo6ZW5zdXJlX29iamVjdCwKfTsKCnB1YihzdXBlcikgZm4gb3B0aW1pemF0aW9uX3NjYW5fZXJyb3JfY29kZShlcnJvcjogJkNsb3VkZmxhcmVBcGlFcnJvcikgLT4gT3B0aW9uPCYnc3RhdGljIHN0cj4gewogICAgbWF0Y2ggZXJyb3IubWVzc2FnZS5hc19zdHIoKSB7CiAgICAgICAgQ0xPVURGTEFSRV9TQUFTX1JFUVVJUkVEX1NDQU5fRVJST1IgPT4gU29tZShDTE9VREZMQVJFX1NBQVNfUkVRVUlSRURfRVJST1JfQ09ERSksCiAgICAgICAgQ0xPVURGTEFSRV9TQUFTX1ZBTElEQVRJT05fUEVORElOR19TQ0FOX0VSUk9SID0+IHsKICAgICAgICAgICAgU29tZShDTE9VREZMQVJFX1NBQVNfVkFMSURBVElPTl9QRU5ESU5HX0VSUk9SX0NPREUpCiAgICAgICAgfQogICAgICAgIENMT1VERkxBUkVfUkVTT1VSQ0VfQ09ORkxJQ1RfU0NBTl9FUlJPUiA9PiBTb21lKENMT1VERkxBUkVfUkVTT1VSQ0VfQ09ORkxJQ1RfRVJST1JfQ09ERSksCiAgICAgICAgT1BUSU1JWkFUSU9OX05PVF9SRUFEWV9TQ0FOX0VSUk9SID0+IFNvbWUoT1BUSU1JWkFUSU9OX05PVF9SRUFEWV9FUlJPUl9DT0RFKSwKICAgICAgICBDQU5ESURBVEVfUkVTT0xVVElPTl9VTkFWQUlMQUJMRV9TQ0FOX0VSUk9SID0+IHsKICAgICAgICAgICAgU29tZShDQU5ESURBVEVfUkVTT0xVVElPTl9VTkFWQUlMQUJMRV9FUlJPUl9DT0RFKQogICAgICAgIH0KICAgICAgICBfID0+IE5vbmUsCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gd2Vla2x5X2ppdHRlcl9tcygpIC0+IGk2NCB7CiAgICBsZXQgdmFsdWUgPSB1NjQ6OmZyb21fbGVfYnl0ZXMoY3J5cHRvX3V0aWxzOjpyYW5kb21fYnl0ZXM6Ojw4PigpKTsKICAgICh2YWx1ZSAlICg2ICogNjAgKiA2MCAqIDEwMDApKSBhcyBpNjQKfQoKcHViKHN1cGVyKSBhc3luYyBmbiB1cGRhdGVfam9iKHN0YXRlOiAmQXBwU3RhdGUsIGlkOiAmc3RyLCBwYXRjaDogVmFsdWUpIHsKICAgIGxldCBtdXQgam9icyA9IHN0YXRlLnR1bm5lbC5jbG91ZGZsYXJlZF9zY2FuX2pvYnMud3JpdGUoKS5hd2FpdDsKICAgIGxldCBTb21lKGpvYikgPSBqb2JzLmdldF9tdXQoaWQpIGVsc2UgewogICAgICAgIHJldHVybjsKICAgIH07CiAgICBsZXQgdGFyZ2V0ID0gZW5zdXJlX29iamVjdChqb2IpOwogICAgaWYgbGV0IFNvbWUocGF0Y2gpID0gcGF0Y2guYXNfb2JqZWN0KCkgewogICAgICAgIGZvciAoa2V5LCB2YWx1ZSkgaW4gcGF0Y2ggewogICAgICAgICAgICB0YXJnZXQuaW5zZXJ0KGtleS5jbG9uZSgpLCB2YWx1ZS5jbG9uZSgpKTsKICAgICAgICB9CiAgICB9Cn0KCnB1YihzdXBlcikgYXN5bmMgZm4gaXNfam9iX2NhbmNlbGxlZChzdGF0ZTogJkFwcFN0YXRlLCBpZDogJnN0cikgLT4gYm9vbCB7CiAgICBzdGF0ZQogICAgICAgIC50dW5uZWwKICAgICAgICAuY2xvdWRmbGFyZWRfc2Nhbl9qb2JzCiAgICAgICAgLnJlYWQoKQogICAgICAgIC5hd2FpdAogICAgICAgIC5nZXQoaWQpCiAgICAgICAgLmFuZF90aGVuKHxqb2J8IGpvYi5nZXQoImNhbmNlbFJlcXVlc3RlZCIpKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAudW53cmFwX29yKGZhbHNlKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGxvYWRfcnVudGltZShzdGF0ZTogJkFwcFN0YXRlKSAtPiBWYWx1ZSB7CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmdldF9qc29uX3ZhbHVlKE9QVElNSVpBVElPTl9SVU5USU1FX0tFWSkKICAgICAgICAuYXdhaXQKICAgICAgICAub2soKQogICAgICAgIC5mbGF0dGVuKCkKICAgICAgICAudW53cmFwX29yX2Vsc2UofHwgewogICAgICAgICAgICBqc29uISh7CiAgICAgICAgICAgICAgICAiaGVhbHRoRmFpbHVyZXMiOiAwLAogICAgICAgICAgICAgICAgImxhc3RIZWFsdGhBdCI6IFZhbHVlOjpOdWxsLAogICAgICAgICAgICAgICAgImxhc3RGdWxsU2NhbkF0IjogVmFsdWU6Ok51bGwsCiAgICAgICAgICAgICAgICAibmV4dEZ1bGxTY2FuQXQiOiBWYWx1ZTo6TnVsbCwKICAgICAgICAgICAgICAgICJsYXN0RXJyb3IiOiBWYWx1ZTo6TnVsbCwKICAgICAgICAgICAgfSkKICAgICAgICB9KQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHNhdmVfcnVudGltZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICB2YWx1ZTogJlZhbHVlLAopIC0+IFJlc3VsdDwoKSwgQ2xvdWRmbGFyZUFwaUVycm9yPiB7CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNldF9qc29uX3ZhbHVlKE9QVElNSVpBVElPTl9SVU5USU1FX0tFWSwgdmFsdWUpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIobG9jYWxfZXJyb3JfZGlzcGxheSkKfQoKcHViKHN1cGVyKSBmbiBhcGlfZXJyb3JfcmVzcG9uc2UoZXJyb3I6IENsb3VkZmxhcmVBcGlFcnJvcikgLT4gUmVzcG9uc2UgewogICAgbGV0IHN0YXR1cyA9IG1hdGNoIGVycm9yLnN0YXR1cyB7CiAgICAgICAgU29tZShTdGF0dXNDb2RlOjpVTkFVVEhPUklaRUQpIHwgU29tZShTdGF0dXNDb2RlOjpGT1JCSURERU4pID0+IFN0YXR1c0NvZGU6OkZPUkJJRERFTiwKICAgICAgICBTb21lKFN0YXR1c0NvZGU6OkNPTkZMSUNUKSA9PiBTdGF0dXNDb2RlOjpDT05GTElDVCwKICAgICAgICBTb21lKFN0YXR1c0NvZGU6Ok5PVF9GT1VORCkgPT4gU3RhdHVzQ29kZTo6Tk9UX0ZPVU5ELAogICAgICAgIFNvbWUoc3RhdHVzKSBpZiBzdGF0dXMuaXNfY2xpZW50X2Vycm9yKCkgPT4gU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgXyA9PiBTdGF0dXNDb2RlOjpCQURfR0FURVdBWSwKICAgIH07CiAgICByZXNwb25zZTo6ZXJyb3Ioc3RhdHVzLCBlcnJvci50b19zdHJpbmcoKSkKfQoKcHViKGluIGNyYXRlOjp0dW5uZWxzOjpjbG91ZGZsYXJlZCkgZm4gaXNfY2FwYWJpbGl0eV91bnN1cHBvcnRlZF9hcGlfZXJyb3IoCiAgICBlcnJvcjogJkNsb3VkZmxhcmVBcGlFcnJvciwKKSAtPiBib29sIHsKICAgIGlmICFtYXRjaGVzISgKICAgICAgICBlcnJvci5zdGF0dXMsCiAgICAgICAgU29tZShTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCB8IFN0YXR1c0NvZGU6OkZPUkJJRERFTiB8IFN0YXR1c0NvZGU6OlBBWU1FTlRfUkVRVUlSRUQpCiAgICApIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CiAgICBsZXQgbWVzc2FnZSA9IGVycm9yLm1lc3NhZ2UudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBbCiAgICAgICAgIm5vdCBlbnRpdGxlZCIsCiAgICAgICAgIm5vdCBlbmFibGVkIGZvciB0aGlzIHpvbmUiLAogICAgICAgICJub3QgYXZhaWxhYmxlIG9uIHlvdXIgcGxhbiIsCiAgICAgICAgInBsYW4gZG9lcyBub3Qgc3VwcG9ydCIsCiAgICAgICAgInJlcXVpcmVzIGFuIGVudGVycHJpc2UgcGxhbiIsCiAgICAgICAgInVwZ3JhZGUgeW91ciBwbGFuIiwKICAgICAgICAibm8gcXVvdGEgaGFzIGJlZW4gYWxsb2NhdGVkIiwKICAgICAgICAiKDE0MDQpIiwKICAgIF0KICAgIC5pdGVyKCkKICAgIC5hbnkofG5lZWRsZXwgbWVzc2FnZS5jb250YWlucyhuZWVkbGUpKQp9CgpwdWIoc3VwZXIpIGZuIG9wdGltaXphdGlvbl9pc19lbmFibGVkKG1hbmFnZWQ6ICZWYWx1ZSkgLT4gYm9vbCB7CiAgICBtYW5hZ2VkLmdldCgibW9kZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoIm1hbmFnZWQiKQogICAgICAgICYmIG1hbmFnZWQuZ2V0KCJvcHRpbWl6YXRpb25FbmFibGVkIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpID09IFNvbWUodHJ1ZSkKfQoKcHViKHN1cGVyKSBmbiBsb2NhbF9lcnJvcihtZXNzYWdlOiBpbXBsIEludG88U3RyaW5nPikgLT4gQ2xvdWRmbGFyZUFwaUVycm9yIHsKICAgIENsb3VkZmxhcmVBcGlFcnJvciB7CiAgICAgICAgc3RhdHVzOiBOb25lLAogICAgICAgIG1lc3NhZ2U6IG1lc3NhZ2UuaW50bygpLAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGxvY2FsX2Vycm9yX2Rpc3BsYXkoZXJyb3I6IGltcGwgc3RkOjpmbXQ6OkRpc3BsYXkpIC0+IENsb3VkZmxhcmVBcGlFcnJvciB7CiAgICBsb2NhbF9lcnJvcihlcnJvci50b19zdHJpbmcoKSkKfQoKcHViKHN1cGVyKSBmbiBpZ25vcmVfbm90X2ZvdW5kKAogICAgcmVzdWx0OiBSZXN1bHQ8KCksIENsb3VkZmxhcmVBcGlFcnJvcj4sCikgLT4gUmVzdWx0PCgpLCBDbG91ZGZsYXJlQXBpRXJyb3I+IHsKICAgIG1hdGNoIHJlc3VsdCB7CiAgICAgICAgRXJyKGVycm9yKSBpZiBlcnJvci5zdGF0dXMgPT0gU29tZShTdGF0dXNDb2RlOjpOT1RfRk9VTkQpID0+IE9rKCgpKSwKICAgICAgICBvdGhlciA9PiBvdGhlciwKICAgIH0KfQoKcHViKHN1cGVyKSBhc3luYyBmbiBkZWxldGVfZG5zX2lmX293bmVkKAogICAgYXBpOiAmQ2xvdWRmbGFyZUFwaSwKICAgIHpvbmVfaWQ6ICZzdHIsCiAgICBvd25lZDogJlZhbHVlLAogICAgaW5zdGFuY2VfaWQ6ICZzdHIsCikgLT4gUmVzdWx0PCgpLCBDbG91ZGZsYXJlQXBpRXJyb3I+IHsKICAgIGxldCBpZCA9IG93bmVkLmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpOwogICAgbGV0IG5hbWUgPSBvd25lZC5nZXQoIm5hbWUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpOwogICAgbGV0IHJlY29yZF90eXBlID0gb3duZWQuZ2V0KCJ0eXBlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKTsKICAgIGxldCBjb250ZW50ID0gb3duZWQuZ2V0KCJjb250ZW50IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cik7CiAgICBsZXQgcHJveGllZCA9IG93bmVkCiAgICAgICAgLmdldCgicHJveGllZCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgIC51bndyYXBfb3IoZmFsc2UpOwogICAgaWYgaWQuaXNfZW1wdHkoKSB8fCBuYW1lLmlzX2VtcHR5KCkgfHwgcmVjb3JkX3R5cGUuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIEVycihDbG91ZGZsYXJlQXBpRXJyb3IgewogICAgICAgICAgICBzdGF0dXM6IFNvbWUoU3RhdHVzQ29kZTo6Q09ORkxJQ1QpLAogICAgICAgICAgICBtZXNzYWdlOiAiTWFuYWdlZCBETlMgb3duZXJzaGlwIG1ldGFkYXRhIGlzIGluY29tcGxldGU7IHJlZnVzaW5nIGF1dG9tYXRpYyBkZWxldGlvbiIKICAgICAgICAgICAgICAgIC50b19zdHJpbmcoKSwKICAgICAgICB9KTsKICAgIH0KICAgIGxldCByZWNvcmRzID0gYXBpLmxpc3RfZG5zX3JlY29yZHMoem9uZV9pZCwgU29tZShuYW1lKSkuYXdhaXQ/OwogICAgbGV0IFNvbWUocmVtb3RlKSA9IHJlY29yZHMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZpbmQofHJlY29yZHwgcmVjb3JkLmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKGlkKSkKICAgIGVsc2UgewogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9OwogICAgaWYgIWRuc19yZWNvcmRfb3duZWRfZm9yX3VwZGF0ZShyZW1vdGUsIFNvbWUoaWQpLCBpbnN0YW5jZV9pZCwgcmVjb3JkX3R5cGUsIGNvbnRlbnQsIHByb3hpZWQpIHsKICAgICAgICByZXR1cm4gRXJyKENsb3VkZmxhcmVBcGlFcnJvciB7CiAgICAgICAgICAgIHN0YXR1czogU29tZShTdGF0dXNDb2RlOjpDT05GTElDVCksCiAgICAgICAgICAgIG1lc3NhZ2U6IGZvcm1hdCEoCiAgICAgICAgICAgICAgICAiRE5TIHJlY29yZCB7bmFtZX0gd2FzIGNsYWltZWQgb3IgY2hhbmdlZCBieSBhbm90aGVyIGNvbmZpZ3VyYXRpb247IHJlZnVzaW5nIGF1dG9tYXRpYyBkZWxldGlvbiIKICAgICAgICAgICAgKSwKICAgICAgICB9KTsKICAgIH0KICAgIGlnbm9yZV9ub3RfZm91bmQoYXBpLmRlbGV0ZV9kbnNfcmVjb3JkKHpvbmVfaWQsIGlkKS5hd2FpdCkKfQo=
+use axum::{http::StatusCode, response::Response};
+use serde_json::{Value, json};
+
+use crate::{crypto_utils, response, state::AppState};
+
+use super::super::{
+    cloudflare_api::{CloudflareApi, CloudflareApiError},
+    managed::dns_record_owned_for_update,
+};
+use super::{
+    CANDIDATE_RESOLUTION_UNAVAILABLE_ERROR_CODE, CANDIDATE_RESOLUTION_UNAVAILABLE_SCAN_ERROR,
+    CLOUDFLARE_RESOURCE_CONFLICT_ERROR_CODE, CLOUDFLARE_RESOURCE_CONFLICT_SCAN_ERROR,
+    CLOUDFLARE_SAAS_REQUIRED_ERROR_CODE, CLOUDFLARE_SAAS_REQUIRED_SCAN_ERROR,
+    CLOUDFLARE_SAAS_VALIDATION_PENDING_ERROR_CODE, CLOUDFLARE_SAAS_VALIDATION_PENDING_SCAN_ERROR,
+    OPTIMIZATION_NOT_READY_ERROR_CODE, OPTIMIZATION_NOT_READY_SCAN_ERROR, OPTIMIZATION_RUNTIME_KEY,
+    state_helpers::ensure_object,
+};
+
+pub(super) fn optimization_scan_error_code(error: &CloudflareApiError) -> Option<&'static str> {
+    match error.message.as_str() {
+        CLOUDFLARE_SAAS_REQUIRED_SCAN_ERROR => Some(CLOUDFLARE_SAAS_REQUIRED_ERROR_CODE),
+        CLOUDFLARE_SAAS_VALIDATION_PENDING_SCAN_ERROR => {
+            Some(CLOUDFLARE_SAAS_VALIDATION_PENDING_ERROR_CODE)
+        }
+        CLOUDFLARE_RESOURCE_CONFLICT_SCAN_ERROR => Some(CLOUDFLARE_RESOURCE_CONFLICT_ERROR_CODE),
+        OPTIMIZATION_NOT_READY_SCAN_ERROR => Some(OPTIMIZATION_NOT_READY_ERROR_CODE),
+        CANDIDATE_RESOLUTION_UNAVAILABLE_SCAN_ERROR => {
+            Some(CANDIDATE_RESOLUTION_UNAVAILABLE_ERROR_CODE)
+        }
+        _ => None,
+    }
+}
+
+pub(super) fn weekly_jitter_ms() -> i64 {
+    let value = u64::from_le_bytes(crypto_utils::random_bytes::<8>());
+    (value % (6 * 60 * 60 * 1000)) as i64
+}
+
+pub(super) async fn update_job(state: &AppState, id: &str, patch: Value) {
+    let mut jobs = state.tunnel.cloudflared_scan_jobs.write().await;
+    let Some(job) = jobs.get_mut(id) else {
+        return;
+    };
+    let target = ensure_object(job);
+    if let Some(patch) = patch.as_object() {
+        for (key, value) in patch {
+            target.insert(key.clone(), value.clone());
+        }
+    }
+}
+
+pub(super) async fn is_job_cancelled(state: &AppState, id: &str) -> bool {
+    state
+        .tunnel
+        .cloudflared_scan_jobs
+        .read()
+        .await
+        .get(id)
+        .and_then(|job| job.get("cancelRequested"))
+        .and_then(Value::as_bool)
+        .unwrap_or(false)
+}
+
+pub(super) async fn load_runtime(state: &AppState) -> Value {
+    state
+        .storage
+        .store
+        .get_json_value(OPTIMIZATION_RUNTIME_KEY)
+        .await
+        .ok()
+        .flatten()
+        .unwrap_or_else(|| {
+            json!({
+                "healthFailures": 0,
+                "lastHealthAt": Value::Null,
+                "lastFullScanAt": Value::Null,
+                "nextFullScanAt": Value::Null,
+                "lastError": Value::Null,
+            })
+        })
+}
+
+pub(super) async fn save_runtime(
+    state: &AppState,
+    value: &Value,
+) -> Result<(), CloudflareApiError> {
+    state
+        .storage
+        .store
+        .set_json_value(OPTIMIZATION_RUNTIME_KEY, value)
+        .await
+        .map_err(local_error_display)
+}
+
+pub(super) fn api_error_response(error: CloudflareApiError) -> Response {
+    let status = match error.status {
+        Some(StatusCode::UNAUTHORIZED) | Some(StatusCode::FORBIDDEN) => StatusCode::FORBIDDEN,
+        Some(StatusCode::CONFLICT) => StatusCode::CONFLICT,
+        Some(StatusCode::NOT_FOUND) => StatusCode::NOT_FOUND,
+        Some(status) if status.is_client_error() => StatusCode::BAD_REQUEST,
+        _ => StatusCode::BAD_GATEWAY,
+    };
+    response::error(status, error.to_string())
+}
+
+pub(in crate::tunnels::cloudflared) fn is_capability_unsupported_api_error(
+    error: &CloudflareApiError,
+) -> bool {
+    if !matches!(
+        error.status,
+        Some(StatusCode::BAD_REQUEST | StatusCode::FORBIDDEN | StatusCode::PAYMENT_REQUIRED)
+    ) {
+        return false;
+    }
+    let message = error.message.to_ascii_lowercase();
+    [
+        "not entitled",
+        "not enabled for this zone",
+        "not available on your plan",
+        "plan does not support",
+        "requires an enterprise plan",
+        "upgrade your plan",
+        "no quota has been allocated",
+        "(1404)",
+    ]
+    .iter()
+    .any(|needle| message.contains(needle))
+}
+
+pub(super) fn optimization_is_enabled(managed: &Value) -> bool {
+    managed.get("mode").and_then(Value::as_str) == Some("managed")
+        && managed.get("optimizationEnabled").and_then(Value::as_bool) == Some(true)
+}
+
+pub(super) fn local_error(message: impl Into<String>) -> CloudflareApiError {
+    CloudflareApiError {
+        status: None,
+        message: message.into(),
+    }
+}
+
+pub(super) fn local_error_display(error: impl std::fmt::Display) -> CloudflareApiError {
+    local_error(error.to_string())
+}
+
+pub(super) fn ignore_not_found(
+    result: Result<(), CloudflareApiError>,
+) -> Result<(), CloudflareApiError> {
+    match result {
+        Err(error) if error.status == Some(StatusCode::NOT_FOUND) => Ok(()),
+        other => other,
+    }
+}
+
+pub(super) async fn delete_dns_if_owned(
+    api: &CloudflareApi,
+    zone_id: &str,
+    owned: &Value,
+    instance_id: &str,
+) -> Result<(), CloudflareApiError> {
+    let id = owned.get("id").and_then(Value::as_str).unwrap_or("");
+    let name = owned.get("name").and_then(Value::as_str).unwrap_or("");
+    let record_type = owned.get("type").and_then(Value::as_str).unwrap_or("");
+    let content = owned.get("content").and_then(Value::as_str);
+    let proxied = owned
+        .get("proxied")
+        .and_then(Value::as_bool)
+        .unwrap_or(false);
+    if id.is_empty() || name.is_empty() || record_type.is_empty() {
+        return Err(CloudflareApiError {
+            status: Some(StatusCode::CONFLICT),
+            message: "Managed DNS ownership metadata is incomplete; refusing automatic deletion"
+                .to_string(),
+        });
+    }
+    let records = api.list_dns_records(zone_id, Some(name)).await?;
+    let Some(remote) = records
+        .iter()
+        .find(|record| record.get("id").and_then(Value::as_str) == Some(id))
+    else {
+        return Ok(());
+    };
+    if !dns_record_owned_for_update(remote, Some(id), instance_id, record_type, content, proxied) {
+        return Err(CloudflareApiError {
+            status: Some(StatusCode::CONFLICT),
+            message: format!(
+                "DNS record {name} was claimed or changed by another configuration; refusing automatic deletion"
+            ),
+        });
+    }
+    ignore_not_found(api.delete_dns_record(zone_id, id).await)
+}

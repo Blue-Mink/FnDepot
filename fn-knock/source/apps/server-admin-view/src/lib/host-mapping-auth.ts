@@ -1,1 +1,11 @@
-aW1wb3J0IHR5cGUgeyBIb3N0TWFwcGluZyB9IGZyb20gIkAvdHlwZXMiOwoKLyoqIFdoZXRoZXIgdGhlIG1hcHBpbmcgaGFzIGFueSByb3V0ZXMgZ292ZXJuZWQgYnkgaXRzIGF1dGhlbnRpY2F0aW9uIHBvbGljeS4gKi8KZXhwb3J0IGNvbnN0IGhvc3RNYXBwaW5nVXNlc0F1dGggPSAoCiAgbWFwcGluZzogUGljazxIb3N0TWFwcGluZywgInVzZV9hdXRoIiB8ICJsb2NhdGlvbnMiIHwgInNlcnZpY2Vfcm9sZSI+LAopOiBib29sZWFuID0+CiAgbWFwcGluZy5zZXJ2aWNlX3JvbGUgIT09ICJhdXRoIiAmJgogIChtYXBwaW5nLnVzZV9hdXRoIHx8CiAgICBtYXBwaW5nLmxvY2F0aW9ucz8uc29tZSgKICAgICAgKGxvY2F0aW9uKSA9PiBsb2NhdGlvbi5hdXRoX21vZGUgPT09ICJyZXF1aXJlX2xvZ2luIiwKICAgICkgPT09IHRydWUpOwo=
+import type { HostMapping } from "@/types";
+
+/** Whether the mapping has any routes governed by its authentication policy. */
+export const hostMappingUsesAuth = (
+  mapping: Pick<HostMapping, "use_auth" | "locations" | "service_role">,
+): boolean =>
+  mapping.service_role !== "auth" &&
+  (mapping.use_auth ||
+    mapping.locations?.some(
+      (location) => location.auth_mode === "require_login",
+    ) === true);

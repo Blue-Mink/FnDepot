@@ -1,1 +1,4 @@
-cHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgY29uc3QgR0FURVdBWV9UUlVTVEVEX0NMSUVOVF9JUFNfUlVOVElNRTogJnN0ciA9CiAgICAiZm5fa25vY2s6Z2F0ZXdheTp0cnVzdGVkLWNsaWVudC1pcHM6cnVudGltZSI7CnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGNvbnN0IFJFVkVSU0VfUFJPWFlfVFJVU1RFRF9JUFNfUlVOVElNRTogJnN0ciA9CiAgICAiZm5fa25vY2s6cmV2ZXJzZS1wcm94eTp0cnVzdGVkLWlwczpydW50aW1lIjsK
+pub(in crate::storage::redis_store) const GATEWAY_TRUSTED_CLIENT_IPS_RUNTIME: &str =
+    "fn_knock:gateway:trusted-client-ips:runtime";
+pub(in crate::storage::redis_store) const REVERSE_PROXY_TRUSTED_IPS_RUNTIME: &str =
+    "fn_knock:reverse-proxy:trusted-ips:runtime";

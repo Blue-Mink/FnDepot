@@ -1,1 +1,69 @@
-Ly8vIFRoaXMgdHJhaXQgaXMgdXNlZCBieSB0aGUgcGFyc2VyIHRvIGhhbmRsZSBleHRyYSBlc2NhcGUgc2VxdWVuY2VzIHRoYXQKLy8vIGRvbid0IGhhdmUgYW4gaW1wYWN0IG9uIHRoZSB0ZXJtaW5hbCBzY3JlZW4gZGlyZWN0bHkuCnB1YiB0cmFpdCBDYWxsYmFja3MgewogICAgLy8vIFRoaXMgY2FsbGJhY2sgaXMgY2FsbGVkIHdoZW4gdGhlIHRlcm1pbmFsIHJlcXVlc3RzIGFuIGF1ZGlibGUgYmVsbAogICAgLy8vICh0eXBpY2FsbHkgd2l0aCBgXkdgKS4KICAgIGZuIGF1ZGlibGVfYmVsbCgmbXV0IHNlbGYsIF86ICZtdXQgY3JhdGU6OlNjcmVlbikge30KICAgIC8vLyBUaGlzIGNhbGxiYWNrIGlzIGNhbGxlZCB3aGVuIHRoZSB0ZXJtaW5hbCByZXF1ZXN0cyBhIHZpc3VhbCBiZWxsCiAgICAvLy8gKHR5cGljYWxseSB3aXRoIGBcZWdgKS4KICAgIGZuIHZpc3VhbF9iZWxsKCZtdXQgc2VsZiwgXzogJm11dCBjcmF0ZTo6U2NyZWVuKSB7fQogICAgLy8vIFRoaXMgY2FsbGJhY2sgaXMgY2FsbGVkIHdoZW4gdGhlIHRlcm1pbmFsIHJlcXVlc3RzIGEgcmVzaXplCiAgICAvLy8gKHR5cGljYWxseSB3aXRoIGBcZVs4Ozxyb3dzPjs8Y29scz50YCkuCiAgICBmbiByZXNpemUoJm11dCBzZWxmLCBfOiAmbXV0IGNyYXRlOjpTY3JlZW4sIF9yZXF1ZXN0OiAodTE2LCB1MTYpKSB7fQogICAgLy8vIFRoaXMgY2FsbGJhY2sgaXMgY2FsbGVkIHdoZW4gdGhlIHRlcm1pbmFsIHJlcXVlc3RzIHRoZSB3aW5kb3cgdGl0bGUKICAgIC8vLyB0byBiZSBzZXQgKHR5cGljYWxseSB3aXRoIGBcZV0xOzxpY29uX25hbWU+XGFgKQogICAgZm4gc2V0X3dpbmRvd19pY29uX25hbWUoCiAgICAgICAgJm11dCBzZWxmLAogICAgICAgIF86ICZtdXQgY3JhdGU6OlNjcmVlbiwKICAgICAgICBfaWNvbl9uYW1lOiAmW3U4XSwKICAgICkgewogICAgfQogICAgLy8vIFRoaXMgY2FsbGJhY2sgaXMgY2FsbGVkIHdoZW4gdGhlIHRlcm1pbmFsIHJlcXVlc3RzIHRoZSB3aW5kb3cgdGl0bGUKICAgIC8vLyB0byBiZSBzZXQgKHR5cGljYWxseSB3aXRoIGBcZV0yOzx0aXRsZT5cYWApCiAgICBmbiBzZXRfd2luZG93X3RpdGxlKCZtdXQgc2VsZiwgXzogJm11dCBjcmF0ZTo6U2NyZWVuLCBfdGl0bGU6ICZbdThdKSB7fQogICAgLy8vIFRoaXMgY2FsbGJhY2sgaXMgY2FsbGVkIHdoZW4gdGhlIHRlcm1pbmFsIHJlcXVlc3RzIGRhdGEgdG8gYmUgY29waWVkCiAgICAvLy8gdG8gdGhlIHN5c3RlbSBjbGlwYm9hcmQgKHR5cGljYWxseSB3aXRoIGBcZV01Mjs8dHk+OzxkYXRhPlxhYCkuIE5vdGUKICAgIC8vLyB0aGF0IGBkYXRhYCB3aWxsIGJlIGVuY29kZWQgYXMgYmFzZTY0LgogICAgZm4gY29weV90b19jbGlwYm9hcmQoCiAgICAgICAgJm11dCBzZWxmLAogICAgICAgIF86ICZtdXQgY3JhdGU6OlNjcmVlbiwKICAgICAgICBfdHk6ICZbdThdLAogICAgICAgIF9kYXRhOiAmW3U4XSwKICAgICkgewogICAgfQogICAgLy8vIFRoaXMgY2FsbGJhY2sgaXMgY2FsbGVkIHdoZW4gdGhlIHRlcm1pbmFsIHJlcXVlc3RzIGRhdGEgdG8gYmUgcGFzdGVkCiAgICAvLy8gZnJvbSB0aGUgc3lzdGVtIGNsaXBib2FyZCAodHlwaWNhbGx5IHdpdGggYFxlXTUyOzx0eT47P1xhYCkuCiAgICBmbiBwYXN0ZV9mcm9tX2NsaXBib2FyZCgmbXV0IHNlbGYsIF86ICZtdXQgY3JhdGU6OlNjcmVlbiwgX3R5OiAmW3U4XSkge30KICAgIC8vLyBUaGlzIGNhbGxiYWNrIGlzIGNhbGxlZCB3aGVuIHRoZSB0ZXJtaW5hbCByZWNlaXZlcyBhbiBlc2NhcGUgc2VxdWVuY2UKICAgIC8vLyB3aGljaCBpcyBvdGhlcndpc2Ugbm90IGltcGxlbWVudGVkLgogICAgZm4gdW5oYW5kbGVkX2NoYXIoJm11dCBzZWxmLCBfOiAmbXV0IGNyYXRlOjpTY3JlZW4sIF9jOiBjaGFyKSB7fQogICAgLy8vIFRoaXMgY2FsbGJhY2sgaXMgY2FsbGVkIHdoZW4gdGhlIHRlcm1pbmFsIHJlY2VpdmVzIGEgY29udHJvbAogICAgLy8vIGNoYXJhY3RlciB3aGljaCBpcyBvdGhlcndpc2Ugbm90IGltcGxlbWVudGVkLgogICAgZm4gdW5oYW5kbGVkX2NvbnRyb2woJm11dCBzZWxmLCBfOiAmbXV0IGNyYXRlOjpTY3JlZW4sIF9iOiB1OCkge30KICAgIC8vLyBUaGlzIGNhbGxiYWNrIGlzIGNhbGxlZCB3aGVuIHRoZSB0ZXJtaW5hbCByZWNlaXZlcyBhbiBlc2NhcGUgc2VxdWVuY2UKICAgIC8vLyB3aGljaCBpcyBvdGhlcndpc2Ugbm90IGltcGxlbWVudGVkLgogICAgZm4gdW5oYW5kbGVkX2VzY2FwZSgKICAgICAgICAmbXV0IHNlbGYsCiAgICAgICAgXzogJm11dCBjcmF0ZTo6U2NyZWVuLAogICAgICAgIF9pMTogT3B0aW9uPHU4PiwKICAgICAgICBfaTI6IE9wdGlvbjx1OD4sCiAgICAgICAgX2I6IHU4LAogICAgKSB7CiAgICB9CiAgICAvLy8gVGhpcyBjYWxsYmFjayBpcyBjYWxsZWQgd2hlbiB0aGUgdGVybWluYWwgcmVjZWl2ZXMgYSBDU0kgc2VxdWVuY2UKICAgIC8vLyAoYFxlW2ApIHdoaWNoIGlzIG90aGVyd2lzZSBub3QgaW1wbGVtZW50ZWQuCiAgICBmbiB1bmhhbmRsZWRfY3NpKAogICAgICAgICZtdXQgc2VsZiwKICAgICAgICBfOiAmbXV0IGNyYXRlOjpTY3JlZW4sCiAgICAgICAgX2kxOiBPcHRpb248dTg+LAogICAgICAgIF9pMjogT3B0aW9uPHU4PiwKICAgICAgICBfcGFyYW1zOiAmWyZbdTE2XV0sCiAgICAgICAgX2M6IGNoYXIsCiAgICApIHsKICAgIH0KICAgIC8vLyBUaGlzIGNhbGxiYWNrIGlzIGNhbGxlZCB3aGVuIHRoZSB0ZXJtaW5hbCByZWNlaXZlcyBhIE9TQyBzZXF1ZW5jZQogICAgLy8vIChgXGVdYCkgd2hpY2ggaXMgb3RoZXJ3aXNlIG5vdCBpbXBsZW1lbnRlZC4KICAgIGZuIHVuaGFuZGxlZF9vc2MoJm11dCBzZWxmLCBfOiAmbXV0IGNyYXRlOjpTY3JlZW4sIF9wYXJhbXM6ICZbJlt1OF1dKSB7fQp9CgppbXBsIENhbGxiYWNrcyBmb3IgKCkge30K
+/// This trait is used by the parser to handle extra escape sequences that
+/// don't have an impact on the terminal screen directly.
+pub trait Callbacks {
+    /// This callback is called when the terminal requests an audible bell
+    /// (typically with `^G`).
+    fn audible_bell(&mut self, _: &mut crate::Screen) {}
+    /// This callback is called when the terminal requests a visual bell
+    /// (typically with `\eg`).
+    fn visual_bell(&mut self, _: &mut crate::Screen) {}
+    /// This callback is called when the terminal requests a resize
+    /// (typically with `\e[8;<rows>;<cols>t`).
+    fn resize(&mut self, _: &mut crate::Screen, _request: (u16, u16)) {}
+    /// This callback is called when the terminal requests the window title
+    /// to be set (typically with `\e]1;<icon_name>\a`)
+    fn set_window_icon_name(
+        &mut self,
+        _: &mut crate::Screen,
+        _icon_name: &[u8],
+    ) {
+    }
+    /// This callback is called when the terminal requests the window title
+    /// to be set (typically with `\e]2;<title>\a`)
+    fn set_window_title(&mut self, _: &mut crate::Screen, _title: &[u8]) {}
+    /// This callback is called when the terminal requests data to be copied
+    /// to the system clipboard (typically with `\e]52;<ty>;<data>\a`). Note
+    /// that `data` will be encoded as base64.
+    fn copy_to_clipboard(
+        &mut self,
+        _: &mut crate::Screen,
+        _ty: &[u8],
+        _data: &[u8],
+    ) {
+    }
+    /// This callback is called when the terminal requests data to be pasted
+    /// from the system clipboard (typically with `\e]52;<ty>;?\a`).
+    fn paste_from_clipboard(&mut self, _: &mut crate::Screen, _ty: &[u8]) {}
+    /// This callback is called when the terminal receives an escape sequence
+    /// which is otherwise not implemented.
+    fn unhandled_char(&mut self, _: &mut crate::Screen, _c: char) {}
+    /// This callback is called when the terminal receives a control
+    /// character which is otherwise not implemented.
+    fn unhandled_control(&mut self, _: &mut crate::Screen, _b: u8) {}
+    /// This callback is called when the terminal receives an escape sequence
+    /// which is otherwise not implemented.
+    fn unhandled_escape(
+        &mut self,
+        _: &mut crate::Screen,
+        _i1: Option<u8>,
+        _i2: Option<u8>,
+        _b: u8,
+    ) {
+    }
+    /// This callback is called when the terminal receives a CSI sequence
+    /// (`\e[`) which is otherwise not implemented.
+    fn unhandled_csi(
+        &mut self,
+        _: &mut crate::Screen,
+        _i1: Option<u8>,
+        _i2: Option<u8>,
+        _params: &[&[u16]],
+        _c: char,
+    ) {
+    }
+    /// This callback is called when the terminal receives a OSC sequence
+    /// (`\e]`) which is otherwise not implemented.
+    fn unhandled_osc(&mut self, _: &mut crate::Screen, _params: &[&[u8]]) {}
+}
+
+impl Callbacks for () {}

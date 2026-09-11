@@ -1,1 +1,486 @@
-dXNlIHN0ZDo6e2NvbGxlY3Rpb25zOjpCVHJlZVNldCwgZnMsIHBhdGg6OlBhdGgsIHByb2Nlc3M6OkNvbW1hbmR9OwoKdXNlIGF4dW06OnsKICAgIEpzb24sCiAgICBleHRyYWN0OjpTdGF0ZSwKICAgIGh0dHA6OlN0YXR1c0NvZGUsCiAgICByZXNwb25zZTo6e0ludG9SZXNwb25zZSwgUmVzcG9uc2V9LAp9Owp1c2Ugc2VyZGVfanNvbjo6e01hcCwgVmFsdWUsIGpzb259Owp1c2UgdXRvaXBhX2F4dW06Ontyb3V0ZXI6Ok9wZW5BcGlSb3V0ZXIsIHJvdXRlc307Cgp1c2UgY3JhdGU6OnsKICAgIGF1dG9faHR0cHMsIGNvbW1vbl9hdXRoX2xvY2F0aW9ucywgZ2F0ZXdheV9zZXR0aW5ncywKICAgIGkxOG46OlRyYW5zbGF0b3IsCiAgICBqc29uX3V0aWxzOjplbnN1cmVfb2JqZWN0LAogICAgbmV0X3V0aWxzLAogICAgcHJveHlfY29uZmlnOjp7c2VsZiwgYnVpbGRfZ2F0ZXdheV9hdXRoX2NvbmZpZ30sCiAgICByZXNwb25zZSwgcnVudGltZV9wcm9maWxlLAogICAgc3RhdGU6OkFwcFN0YXRlLAogICAgc3RvcmUgYXMgYXBwX3N0b3JlLCBzeXN0ZW1fYXNzZXRzLCB0aW1lX3V0aWxzLCB3YWYsIHdoaXRlbGlzdCwKfTsKCm1vZCBmbm9zX2Nvbm5lY3Rfd2FmOwptb2QgZm5vc19uZXR3b3JrOwptb2QgaGFuZGxlcnM7Cm1vZCBtaWdyYXRpb25zOwptb2QgcnVudGltZV9hcHBseTsKbW9kIHNtYXJ0X2Nvbm5lY3Q7Cm1vZCBzdG9yZTsKbW9kIHV0aWxzOwoKcHViKGNyYXRlKSB1c2UgZm5vc19jb25uZWN0X3dhZjo6c3RhcnRfZm5vc19jb25uZWN0X3dhZl9yZWNvbmNpbGVyOwpwdWIoY3JhdGUpIHVzZSBmbm9zX2Nvbm5lY3Rfd2FmOjp7Zm5vc19jb25uZWN0X3dhZl9yb3V0ZXMsIG5vcm1hbGl6ZV9mbm9zX2Nvbm5lY3Rfd2FmfTsKdXNlIGZub3NfbmV0d29yazo6KjsKdXNlIGhhbmRsZXJzOjoqOwp1c2UgbWlncmF0aW9uczo6KjsKcHViKGNyYXRlKSB1c2UgcnVudGltZV9hcHBseTo6KjsKcHViKGNyYXRlKSB1c2Ugc21hcnRfY29ubmVjdDo6KjsKcHViKGNyYXRlKSB1c2Ugc3RvcmU6Oio7CnVzZSB1dGlsczo6KjsKCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHM7Cgpjb25zdCBDQVBUQ0hBX1NFVFRJTkdTX0tFWTogJnN0ciA9ICJmbl9rbm9jazpjYXB0Y2hhOnNldHRpbmdzIjsKY29uc3QgTEVHQUNZX0NBUFRDSEFfU0VUVElOR1NfS0VZOiAmc3RyID0gImZuX2tub2NrOmNvbmZpZzpjYXB0Y2hhIjsKcHViKGNyYXRlKSBjb25zdCBQT1dfTUlOX01BWF9OVU1CRVI6IGk2NCA9IDEwXzAwMDsKcHViKGNyYXRlKSBjb25zdCBQT1dfTUFYX01BWF9OVU1CRVI6IGk2NCA9IDFfMDAwXzAwMDsKcHViKGNyYXRlKSBjb25zdCBQT1dfTUFYX05VTUJFUl9TVEVQOiBpNjQgPSAxMF8wMDA7CnB1YihjcmF0ZSkgY29uc3QgUE9XX0RFRkFVTFRfQkFTRV9NQVhfTlVNQkVSOiBpNjQgPSAxMDBfMDAwOwpwdWIoY3JhdGUpIGNvbnN0IFBPV19ERUZBVUxUX1VOQ09NTU9OX01BWF9OVU1CRVI6IGk2NCA9IDMwMF8wMDA7CmNvbnN0IFBST1RPQ09MX01BUFBJTkdfRkVBVFVSRV9LRVk6ICZzdHIgPSAiZm5fa25vY2s6cHJvdG9jb2wtbWFwcGluZzpmZWF0dXJlIjsKY29uc3QgUlVOX01PREVfUFJPTVBUX1BSRUZFUkVOQ0VTX0tFWTogJnN0ciA9ICJmbl9rbm9jazpydW4tbW9kZTpwcm9tcHQtcHJlZmVyZW5jZXMiOwpjb25zdCBTTUFSVF9DT05ORUNUX1JVTlRJTUVfS0VZOiAmc3RyID0gImZuX2tub2NrOnNtYXJ0LWNvbm5lY3Q6cnVudGltZSI7CmNvbnN0IExFR0FDWV9SRVZFUlNFX1BST1hZX1RIUk9UVExFX1BBVENIX0ZMQUdfS0VZOiAmc3RyID0KICAgICJmbl9rbm9jazpwYXRjaDpyZXZlcnNlLXByb3h5LXRocm90dGxlOnYxIjsKY29uc3QgUkVWRVJTRV9QUk9YWV9USFJPVFRMRV9ERUZBVUxUX1YyX1BBVENIX0ZMQUdfS0VZOiAmc3RyID0KICAgICJmbl9rbm9jazpwYXRjaDpyZXZlcnNlLXByb3h5LXRocm90dGxlLWRlZmF1bHQ6djIiOwpjb25zdCBMRUdBQ1lfRVZFTlRfU1lTVEVNX1JFU09VUkNFX0FMRVJUU19QQVRDSF9GTEFHX0tFWTogJnN0ciA9CiAgICAiZm5fa25vY2s6cGF0Y2g6ZXZlbnQtc3lzdGVtLXJlc291cmNlLWFsZXJ0czp2MSI7CmNvbnN0IEdBVEVXQVlfUE9SVEFMX1NIT1dfV09MX0RFRkFVTFRfUEFUQ0hfRkxBR19LRVk6ICZzdHIgPQogICAgImZuX2tub2NrOnBhdGNoOmdhdGV3YXktcG9ydGFsLXNob3ctd29sLWRlZmF1bHQ6djEiOwpjb25zdCBMRUdBQ1lfUkVESVJFQ1RFRF9IVFRQX1BPUlRTOiBbaTY0OyAyXSA9IFs4MCwgNDQzXTsKY29uc3QgU01BUlRfQ09OTkVDVF9ETlNfUE9SVDogaTY0ID0gNTM7CmNvbnN0IFNNQVJUX0NPTk5FQ1RfTE9DQUxfVFRMX1NFQ09ORFM6IHUxNiA9IDMwOwpjb25zdCBTTUFSVF9DT05ORUNUX01BTkFHRURfQ09ORl9QQVRIOiAmc3RyID0gIi9ldGMvZG5zbWFzcS5kL2ZuLWtub2NrLXNtYXJ0LWNvbm5lY3QuY29uZiI7CmNvbnN0IEZOT1NfTkVUV09SS19UVU5JTkdfU1lTQ1RMX1BBVEg6ICZzdHIgPSAiL2V0Yy9zeXNjdGwuZC85OS1mbi1rbm9jay1uZXR3b3JrLmNvbmYiOwpjb25zdCBHT19CQUNLRU5EX1VOU1VDQ0VTU0ZVTF9SRVNQT05TRTogJnN0ciA9ICJHbyBiYWNrZW5kIHJldHVybmVkIGFuIHVuc3VjY2Vzc2Z1bCByZXNwb25zZSI7CmNvbnN0IEpTX01BWF9TQUZFX0lOVEVHRVJfSTY0OiBpNjQgPSA5XzAwN18xOTlfMjU0Xzc0MF85OTE7CgpwdWIoY3JhdGUpIGZuIHN5bmNfcm91dGVzX2NvbmZpZ19yb3V0ZXMoKSAtPiBPcGVuQXBpUm91dGVyPEFwcFN0YXRlPiB7CiAgICBPcGVuQXBpUm91dGVyOjpuZXcoKS5yb3V0ZXMocm91dGVzIShzeW5jX3JvdXRlcykpCn0KCnB1YihjcmF0ZSkgZm4gY2FwdGNoYV9jb25maWdfcm91dGVzKCkgLT4gT3BlbkFwaVJvdXRlcjxBcHBTdGF0ZT4gewogICAgT3BlbkFwaVJvdXRlcjo6bmV3KCkKICAgICAgICAucm91dGVzKHJvdXRlcyEoZ2V0X2NhcHRjaGEpKQogICAgICAgIC5yb3V0ZXMocm91dGVzISh1cGRhdGVfY2FwdGNoYSkpCn0KCnB1YihjcmF0ZSkgZm4gcnVuX3R5cGVfY29uZmlnX3JvdXRlcygpIC0+IE9wZW5BcGlSb3V0ZXI8QXBwU3RhdGU+IHsKICAgIE9wZW5BcGlSb3V0ZXI6Om5ldygpLnJvdXRlcyhyb3V0ZXMhKHVwZGF0ZV9ydW5fdHlwZSkpCn0KCnB1YihjcmF0ZSkgZm4gd29sX2ZlYXR1cmVfY29uZmlnX3JvdXRlcygpIC0+IE9wZW5BcGlSb3V0ZXI8QXBwU3RhdGU+IHsKICAgIE9wZW5BcGlSb3V0ZXI6Om5ldygpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF93b2xfZmVhdHVyZSkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHVwZGF0ZV93b2xfZmVhdHVyZSkpCn0KCnB1YihjcmF0ZSkgZm4gcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlX3JvdXRlcygpIC0+IE9wZW5BcGlSb3V0ZXI8QXBwU3RhdGU+IHsKICAgIE9wZW5BcGlSb3V0ZXI6Om5ldygpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF9wcm90b2NvbF9tYXBwaW5nX2ZlYXR1cmUpKQogICAgICAgIC5yb3V0ZXMocm91dGVzISh1cGRhdGVfcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlKSkKfQoKcHViKGNyYXRlKSBmbiBhdXRvX2h0dHBzX2NvbmZpZ19yb3V0ZXMoKSAtPiBPcGVuQXBpUm91dGVyPEFwcFN0YXRlPiB7CiAgICBPcGVuQXBpUm91dGVyOjpuZXcoKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShnZXRfYXV0b19odHRwcykpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHVwZGF0ZV9hdXRvX2h0dHBzKSkKfQoKcHViKGNyYXRlKSBmbiBkZWZhdWx0X3JvdXRlX2NvbmZpZ19yb3V0ZXMoKSAtPiBPcGVuQXBpUm91dGVyPEFwcFN0YXRlPiB7CiAgICBPcGVuQXBpUm91dGVyOjpuZXcoKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShnZXRfZGVmYXVsdF9yb3V0ZSkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHVwZGF0ZV9kZWZhdWx0X3JvdXRlKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEodXBkYXRlX2RlZmF1bHRfdHVubmVsKSkKfQoKI1thbGxvdyhkZXByZWNhdGVkKV0gLy8gUmV0YWluIHRoZSBsZWdhY3kgbWFuYWdlZCBGUlAgcnVudGltZSBBUEkgZHVyaW5nIG1pZ3JhdGlvbi4KcHViKGNyYXRlKSBmbiBwcm94eV9wcm90b2NvbF9mb3JjZV9yb3V0ZXMoKSAtPiBPcGVuQXBpUm91dGVyPEFwcFN0YXRlPiB7CiAgICBPcGVuQXBpUm91dGVyOjpuZXcoKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShnZXRfcHJveHlfcHJvdG9jb2xfZm9yY2UpKQogICAgICAgIC5yb3V0ZXMocm91dGVzISh1cGRhdGVfcHJveHlfcHJvdG9jb2xfZm9yY2UpKQp9CgpwdWIoY3JhdGUpIGZuIHJ1bl9tb2RlX3Byb21wdF9wcmVmZXJlbmNlc19yb3V0ZXMoKSAtPiBPcGVuQXBpUm91dGVyPEFwcFN0YXRlPiB7CiAgICBPcGVuQXBpUm91dGVyOjpuZXcoKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShnZXRfcnVuX21vZGVfcHJvbXB0X3ByZWZlcmVuY2VzKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEodXBkYXRlX3J1bl9tb2RlX3Byb21wdF9wcmVmZXJlbmNlcykpCn0KCnB1YihjcmF0ZSkgZm4gZm5vc19wb3J0X2ljb25faGlqYWNrX3JvdXRlcygpIC0+IE9wZW5BcGlSb3V0ZXI8QXBwU3RhdGU+IHsKICAgIE9wZW5BcGlSb3V0ZXI6Om5ldygpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF9mbm9zX3BvcnRfaWNvbl9oaWphY2spKQogICAgICAgIC5yb3V0ZXMocm91dGVzISh1cGRhdGVfZm5vc19wb3J0X2ljb25faGlqYWNrKSkKfQoKcHViKGNyYXRlKSBmbiBmbm9zX25ldHdvcmtfdHVuaW5nX3JvdXRlcygpIC0+IE9wZW5BcGlSb3V0ZXI8QXBwU3RhdGU+IHsKICAgIE9wZW5BcGlSb3V0ZXI6Om5ldygpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF9mbm9zX25ldHdvcmtfdHVuaW5nKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEodXBkYXRlX2Zub3NfbmV0d29ya190dW5pbmcpKQp9CgpwdWIoY3JhdGUpIGZuIGZub3Nfc2hhcmVfYnlwYXNzX3JvdXRlcygpIC0+IE9wZW5BcGlSb3V0ZXI8QXBwU3RhdGU+IHsKICAgIE9wZW5BcGlSb3V0ZXI6Om5ldygpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF9mbm9zX3NoYXJlX2J5cGFzcykpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHVwZGF0ZV9mbm9zX3NoYXJlX2J5cGFzcykpCn0KCnB1YiBmbiBzbWFydF9jb25uZWN0X2NvbmZpZ19yb3V0ZXMoKSAtPiBPcGVuQXBpUm91dGVyPEFwcFN0YXRlPiB7CiAgICBPcGVuQXBpUm91dGVyOjpuZXcoKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShnZXRfc21hcnRfY29ubmVjdF9kZXRhaWxzKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEodXBkYXRlX3NtYXJ0X2Nvbm5lY3QpKQp9CgpwdWIgZm4gZmlyZXdhbGxfcnVudGltZV9yb3V0ZXMoKSAtPiBPcGVuQXBpUm91dGVyPEFwcFN0YXRlPiB7CiAgICBPcGVuQXBpUm91dGVyOjpuZXcoKQogICAgICAgIC5yb3V0ZXMocm91dGVzISh1cGRhdGVfYXV0b19tYW5hZ2VfZmlyZXdhbGwpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShnZXRfZmlyZXdhbGxfYWRkaXRpb25hbF9wb3J0cykpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHVwZGF0ZV9maXJld2FsbF9hZGRpdGlvbmFsX3BvcnRzKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEocmVzZXRfZmlyZXdhbGwpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShjbGVhcl9maXJld2FsbCkpCn0KCmZuIGFkbWluX3RleHQodHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsIGtleTogJnN0cikgLT4gU3RyaW5nIHsKICAgIHRyYW5zbGF0b3IudCgmZm9ybWF0ISgic2VydmVyLmFkbWluLntrZXl9IikpCn0KCmZuIGFkbWluX3RleHRfcGFyYW1zKHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLCBrZXk6ICZzdHIsIHBhcmFtczogJlsoJnN0ciwgU3RyaW5nKV0pIC0+IFN0cmluZyB7CiAgICB0cmFuc2xhdG9yLnRfcGFyYW1zKCZmb3JtYXQhKCJzZXJ2ZXIuYWRtaW4ue2tleX0iKSwgcGFyYW1zKQp9CgpmbiBmaXJld2FsbF90ZXh0X3BhcmFtcyh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwga2V5OiAmc3RyLCBwYXJhbXM6ICZbKCZzdHIsIFN0cmluZyldKSAtPiBTdHJpbmcgewogICAgdHJhbnNsYXRvci50X3BhcmFtcygmZm9ybWF0ISgic2VydmVyLmZpcmV3YWxsLntrZXl9IiksIHBhcmFtcykKfQoKZm4gcnVudGltZV9jb25maWdfcm91dGVfdGV4dCh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwga2V5OiAmc3RyKSAtPiBTdHJpbmcgewogICAgdHJhbnNsYXRvci50KCZmb3JtYXQhKCJzZXJ2ZXIuYWRtaW4ucnVudGltZUNvbmZpZ1JvdXRlcy57a2V5fSIpKQp9CgpmbiBsb2NhbGl6ZV9ydW50aW1lX2NvbmZpZ19lcnJvcih0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwgbWVzc2FnZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGxldCBtZXNzYWdlID0gcHJveHlfY29uZmlnOjpzdHJlYW1fbWFwcGluZ19ydW50aW1lX2Vycm9yX21lc3NhZ2UobWVzc2FnZSkudW53cmFwX29yKG1lc3NhZ2UpOwogICAgaWYgbWVzc2FnZS50cmltKCkgPT0gR09fQkFDS0VORF9VTlNVQ0NFU1NGVUxfUkVTUE9OU0UgewogICAgICAgIHJldHVybiBydW50aW1lX2NvbmZpZ19yb3V0ZV90ZXh0KHRyYW5zbGF0b3IsICJ1cHN0cmVhbVVuYXZhaWxhYmxlIik7CiAgICB9CiAgICBpZiBsZXQgU29tZShsb2NhbGl6ZWQpID0KICAgICAgICBwcm94eV9jb25maWc6OmxvY2FsaXplX3N0cmVhbV9tYXBwaW5nX3J1bnRpbWVfZXJyb3IodHJhbnNsYXRvciwgbWVzc2FnZSkKICAgIHsKICAgICAgICByZXR1cm4gbG9jYWxpemVkOwogICAgfQogICAgbWVzc2FnZS50b19zdHJpbmcoKQp9CgpmbiBtZXNzYWdlX21lbnRpb25zX3N0cmVhbV9wb3J0KG1lc3NhZ2U6ICZzdHIsIHBvcnQ6IHU2NCkgLT4gYm9vbCB7CiAgICBmb3IgbWFya2VyIGluIFsKICAgICAgICBmb3JtYXQhKCJsaXN0ZW5fcG9ydCB7cG9ydH0iKSwKICAgICAgICBmb3JtYXQhKCJwb3J0IHtwb3J0fSIpLAogICAgICAgIGZvcm1hdCEoIjp7cG9ydH0iKSwKICAgIF0gewogICAgICAgIGxldCBtdXQgcmVtYWluZGVyID0gbWVzc2FnZTsKICAgICAgICB3aGlsZSBsZXQgU29tZSgoXywgYWZ0ZXIpKSA9IHJlbWFpbmRlci5zcGxpdF9vbmNlKCZtYXJrZXIpIHsKICAgICAgICAgICAgaWYgYWZ0ZXIKICAgICAgICAgICAgICAgIC5jaGFycygpCiAgICAgICAgICAgICAgICAubmV4dCgpCiAgICAgICAgICAgICAgICAuaXNfbm9uZV9vcih8Y2hhcmFjdGVyfCAhY2hhcmFjdGVyLmlzX2FzY2lpX2RpZ2l0KCkpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJlbWFpbmRlciA9IGFmdGVyOwogICAgICAgIH0KICAgIH0KICAgIGZhbHNlCn0KCmZuIHN0cmVhbV9tYXBwaW5nX2lzc3VlX2lkZW50aXR5KGNvbmZpZzogJlZhbHVlLCBtZXNzYWdlOiAmc3RyKSAtPiAoVmFsdWUsIFZhbHVlLCBWYWx1ZSkgewogICAgbGV0IG1hcHBpbmdzID0gY29uZmlnCiAgICAgICAgLmdldCgic3RyZWFtX21hcHBpbmdzIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5tYXAoVmVjOjphc19zbGljZSkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBhY3RpdmUgPSBtYXBwaW5ncwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyKHxtYXBwaW5nfCBtYXBwaW5nLmdldCgiZGlzYWJsZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgIT0gU29tZSh0cnVlKSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGxldCBsb3dlcmNhc2VfbWVzc2FnZSA9IG1lc3NhZ2UudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBsZXQgY2FuZGlkYXRlcyA9IGFjdGl2ZQogICAgICAgIC5pdGVyKCkKICAgICAgICAuY29waWVkKCkKICAgICAgICAuZmlsdGVyKHxtYXBwaW5nfCB7CiAgICAgICAgICAgIG1hcHBpbmcKICAgICAgICAgICAgICAgIC5nZXQoImxpc3Rlbl9wb3J0IikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfdTY0KQogICAgICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHxwb3J0fCBtZXNzYWdlX21lbnRpb25zX3N0cmVhbV9wb3J0KCZsb3dlcmNhc2VfbWVzc2FnZSwgcG9ydCkpCiAgICAgICAgfSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGxldCBzZWxlY3RlZCA9IGNhbmRpZGF0ZXMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmNvcGllZCgpCiAgICAgICAgLmZpbmQofG1hcHBpbmd8IHsKICAgICAgICAgICAgbWFwcGluZwogICAgICAgICAgICAgICAgLmdldCgicHJvdG9jb2wiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAuaXNfc29tZV9hbmQofHByb3RvY29sfCBsb3dlcmNhc2VfbWVzc2FnZS5jb250YWlucygmcHJvdG9jb2wudG9fYXNjaWlfbG93ZXJjYXNlKCkpKQogICAgICAgIH0pCiAgICAgICAgLm9yX2Vsc2UofHwgKGNhbmRpZGF0ZXMubGVuKCkgPT0gMSkudGhlbih8fCBjYW5kaWRhdGVzWzBdKSkKICAgICAgICAub3JfZWxzZSh8fCAoYWN0aXZlLmxlbigpID09IDEpLnRoZW4ofHwgYWN0aXZlWzBdKSk7CiAgICBsZXQgU29tZShtYXBwaW5nKSA9IHNlbGVjdGVkIGVsc2UgewogICAgICAgIHJldHVybiAoVmFsdWU6Ok51bGwsIFZhbHVlOjpOdWxsLCBWYWx1ZTo6TnVsbCk7CiAgICB9OwogICAgKAogICAgICAgIG1hcHBpbmcKICAgICAgICAgICAgLmdldCgicHJvdG9jb2wiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLm1hcChzdHI6OnRvX2FzY2lpX2xvd2VyY2FzZSkKICAgICAgICAgICAgLm1hcChWYWx1ZTo6U3RyaW5nKQogICAgICAgICAgICAudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgICAgICBtYXBwaW5nCiAgICAgICAgICAgIC5nZXQoImxpc3Rlbl9wb3J0IikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc191NjQpCiAgICAgICAgICAgIC5tYXAoVmFsdWU6OmZyb20pCiAgICAgICAgICAgIC51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgIG1hcHBpbmcKICAgICAgICAgICAgLmdldCgidGFyZ2V0IikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgICAgICAuZmlsdGVyKHx0YXJnZXR8ICF0YXJnZXQuaXNfZW1wdHkoKSkKICAgICAgICAgICAgLm1hcCh8dGFyZ2V0fCBWYWx1ZTo6U3RyaW5nKHRhcmdldC50b19zdHJpbmcoKSkpCiAgICAgICAgICAgIC51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgKQp9CgpmbiBwcm90b2NvbF9tYXBwaW5nX3J1bnRpbWVfaXNzdWUoY29uZmlnOiAmVmFsdWUsIGVycm9yOiAmc3RyKSAtPiBPcHRpb248VmFsdWU+IHsKICAgIGxldCBtZXNzYWdlID0gcHJveHlfY29uZmlnOjpzdHJlYW1fbWFwcGluZ19ydW50aW1lX2Vycm9yX21lc3NhZ2UoZXJyb3IpPzsKICAgIGxldCBsb3dlcmNhc2VfbWVzc2FnZSA9IG1lc3NhZ2UudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBsZXQgbG9jYWxfcG9ydF9sb29wID0gbG93ZXJjYXNlX21lc3NhZ2UuY29udGFpbnMoImNhbm5vdCB0YXJnZXQgdGhlIHNhbWUgbG9jYWwiKTsKICAgIGxldCBsaXN0ZW5fcG9ydF9pbl91c2UgPSBsb3dlcmNhc2VfbWVzc2FnZS5jb250YWlucygiYWRkcmVzcyBhbHJlYWR5IGluIHVzZSIpCiAgICAgICAgfHwgbG93ZXJjYXNlX21lc3NhZ2UuY29udGFpbnMoImVhZGRyaW51c2UiKQogICAgICAgIHx8IGxvd2VyY2FzZV9tZXNzYWdlLmNvbnRhaW5zKCJvbmx5IG9uZSB1c2FnZSBvZiBlYWNoIHNvY2tldCBhZGRyZXNzIik7CiAgICBpZiAhbG9jYWxfcG9ydF9sb29wCiAgICAgICAgJiYgIWxpc3Rlbl9wb3J0X2luX3VzZQogICAgICAgICYmIGNyYXRlOjp0cmFuc2llbnRfZXJyb3I6OmlzX3RyYW5zaWVudF9ydW50aW1lX2Vycm9yKG1lc3NhZ2UpCiAgICB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBsZXQgY29kZSA9IGlmIGxvY2FsX3BvcnRfbG9vcCB7CiAgICAgICAgImxvY2FsX3BvcnRfbG9vcCIKICAgIH0gZWxzZSBpZiBsaXN0ZW5fcG9ydF9pbl91c2UgewogICAgICAgICJsaXN0ZW5fcG9ydF9pbl91c2UiCiAgICB9IGVsc2UgewogICAgICAgICJydW50aW1lX3N5bmNfZmFpbGVkIgogICAgfTsKICAgIGxldCAocHJvdG9jb2wsIGxpc3Rlbl9wb3J0LCB0YXJnZXQpID0gc3RyZWFtX21hcHBpbmdfaXNzdWVfaWRlbnRpdHkoY29uZmlnLCBtZXNzYWdlKTsKICAgIFNvbWUoanNvbiEoewogICAgICAgICJjb2RlIjogY29kZSwKICAgICAgICAibWVzc2FnZSI6IG1lc3NhZ2UsCiAgICAgICAgInByb3RvY29sIjogcHJvdG9jb2wsCiAgICAgICAgImxpc3Rlbl9wb3J0IjogbGlzdGVuX3BvcnQsCiAgICAgICAgInRhcmdldCI6IHRhcmdldCwKICAgIH0pKQp9Cgphc3luYyBmbiBhcHBseV9ydW5fdHlwZV9jb25maWdfb25fYm9vdF93aXRoPEFwcGx5LCBBcHBseUZ1dHVyZT4oCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgY29uZmlnOiAmVmFsdWUsCiAgICBydW5fdHlwZTogaTY0LAogICAgbXV0IGFwcGx5OiBBcHBseSwKKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4Kd2hlcmUKICAgIEFwcGx5OiBGbk11dCgpIC0+IEFwcGx5RnV0dXJlLAogICAgQXBwbHlGdXR1cmU6IHN0ZDo6ZnV0dXJlOjpGdXR1cmU8T3V0cHV0ID0gUmVzdWx0PCgpLCBTdHJpbmc+PiwKewogICAgbGV0IHByb3RvY29sX21hcHBpbmdfZmVhdHVyZSA9IGxvYWRfcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlKHN0YXRlLCBTb21lKGNvbmZpZykpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgbGV0IHByb3RvY29sX21hcHBpbmdfZW5hYmxlZCA9IHJ1bl90eXBlID09IDMKICAgICAgICAmJiBwcm90b2NvbF9tYXBwaW5nX2ZlYXR1cmUKICAgICAgICAgICAgLmdldCgiZW5hYmxlZCIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAgICAgPT0gU29tZSh0cnVlKTsKCiAgICBtYXRjaCBhcHBseSgpLmF3YWl0IHsKICAgICAgICBPaygoKSkgPT4gewogICAgICAgICAgICBpZiBwcm90b2NvbF9tYXBwaW5nX2VuYWJsZWQgJiYgcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlLmdldCgicnVudGltZV9pc3N1ZSIpLmlzX3NvbWUoKSB7CiAgICAgICAgICAgICAgICBsZXQgbXV0IGNsZWFyZWQgPSBwcm90b2NvbF9tYXBwaW5nX2ZlYXR1cmU7CiAgICAgICAgICAgICAgICBlbnN1cmVfb2JqZWN0KCZtdXQgY2xlYXJlZCkucmVtb3ZlKCJydW50aW1lX2lzc3VlIik7CiAgICAgICAgICAgICAgICBpZiBsZXQgRXJyKGVycm9yKSA9IHNhdmVfcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlKHN0YXRlLCAmY2xlYXJlZCkuYXdhaXQgewogICAgICAgICAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBjbGVhciByZWNvdmVyZWQgcHJvdG9jb2wgbWFwcGluZyBib290IGlzc3VlIik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgT2soKCkpCiAgICAgICAgfQogICAgICAgIEVycihlcnJvcikgaWYgcHJvdG9jb2xfbWFwcGluZ19lbmFibGVkID0+IHsKICAgICAgICAgICAgbGV0IFNvbWUoaXNzdWUpID0gcHJvdG9jb2xfbWFwcGluZ19ydW50aW1lX2lzc3VlKGNvbmZpZywgJmVycm9yKSBlbHNlIHsKICAgICAgICAgICAgICAgIHJldHVybiBFcnIoZXJyb3IpOwogICAgICAgICAgICB9OwogICAgICAgICAgICBsZXQgbXV0IGRpc2FibGVkID0gcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlOwogICAgICAgICAgICBsZXQgZGlzYWJsZWRfb2JqZWN0ID0gZW5zdXJlX29iamVjdCgmbXV0IGRpc2FibGVkKTsKICAgICAgICAgICAgZGlzYWJsZWRfb2JqZWN0Lmluc2VydCgiZW5hYmxlZCIudG9fc3RyaW5nKCksIFZhbHVlOjpCb29sKGZhbHNlKSk7CiAgICAgICAgICAgIGRpc2FibGVkX29iamVjdC5pbnNlcnQoInJ1bnRpbWVfaXNzdWUiLnRvX3N0cmluZygpLCBpc3N1ZS5jbG9uZSgpKTsKICAgICAgICAgICAgc2F2ZV9wcm90b2NvbF9tYXBwaW5nX2ZlYXR1cmUoc3RhdGUsICZkaXNhYmxlZCkKICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgLm1hcF9lcnIofHNhdmVfZXJyb3J8IHsKICAgICAgICAgICAgICAgICAgICBmb3JtYXQhKAogICAgICAgICAgICAgICAgICAgICAgICAiZmFpbGVkIHRvIHBlcnNpc3QgZGlzYWJsZWQgcHJvdG9jb2wgbWFwcGluZyBzdGF0ZSBhZnRlciBzdGFydHVwIGVycm9yOiB7c2F2ZV9lcnJvcn0iCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfSk/OwogICAgICAgICAgICB0cmFjaW5nOjplcnJvciEoCiAgICAgICAgICAgICAgICBpc3N1ZSA9ICVpc3N1ZSwKICAgICAgICAgICAgICAgICJwcm90b2NvbCBtYXBwaW5ncyBmYWlsZWQgZHVyaW5nIHN0YXJ0dXAgYW5kIHdlcmUgZGlzYWJsZWQgZm9yIHJlcGFpciIKICAgICAgICAgICAgKTsKICAgICAgICAgICAgaWYgbGV0IEVycihyZXRyeV9lcnJvcikgPSBhcHBseSgpLmF3YWl0IHsKICAgICAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKAogICAgICAgICAgICAgICAgICAgICVyZXRyeV9lcnJvciwKICAgICAgICAgICAgICAgICAgICAicnVudGltZSByZW1haW5lZCBwYXJ0aWFsbHkgdW5hdmFpbGFibGUgYWZ0ZXIgZGlzYWJsaW5nIHByb3RvY29sIG1hcHBpbmdzOyBjb250aW51aW5nIGJvb3QgZm9yIGFkbWluaXN0cmF0b3IgcmVwYWlyIgogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBPaygoKSkKICAgICAgICB9CiAgICAgICAgRXJyKGVycm9yKSA9PiBFcnIoZXJyb3IpLAogICAgfQp9CgpmbiBzbWFydF9jb25uZWN0X3RleHQodHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsIGtleTogJnN0cikgLT4gU3RyaW5nIHsKICAgIHRyYW5zbGF0b3IudCgmZm9ybWF0ISgic2VydmVyLnNtYXJ0Q29ubmVjdC57a2V5fSIpKQp9CgpmbiBzbWFydF9jb25uZWN0X3RleHRfcGFyYW1zKAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICBrZXk6ICZzdHIsCiAgICBwYXJhbXM6ICZbKCZzdHIsIFN0cmluZyldLAopIC0+IFN0cmluZyB7CiAgICB0cmFuc2xhdG9yLnRfcGFyYW1zKCZmb3JtYXQhKCJzZXJ2ZXIuc21hcnRDb25uZWN0LntrZXl9IiksIHBhcmFtcykKfQoKZm4gY2FwYWJpbGl0eV9ibG9ja2VkX3RleHQoc3RhdGU6ICZBcHBTdGF0ZSwgY2FwYWJpbGl0eTogJnN0ciwgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IpIC0+IFN0cmluZyB7CiAgICBsZXQgcHJvZmlsZSA9IHJ1bnRpbWVfcHJvZmlsZTo6Z2V0X3J1bnRpbWVfcHJvZmlsZShzdGF0ZSk7CiAgICBydW50aW1lX3Byb2ZpbGU6OmNhcGFiaWxpdHlfdW5hdmFpbGFibGVfbWVzc2FnZShjYXBhYmlsaXR5LCAmcHJvZmlsZSwgdHJhbnNsYXRvcikKfQoKcHViKGNyYXRlKSBhc3luYyBmbiBzeW5jX3J1bnRpbWVfY29uZmlnX29uX2Jvb3Qoc3RhdGU6IEFwcFN0YXRlKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgbGV0IG11dCBjb25maWcgPSBtYXRjaCBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9jb25maWcoKS5hd2FpdCB7CiAgICAgICAgT2soY29uZmlnKSA9PiBjb25maWcsCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBsb2FkIGNvbmZpZyBmb3IgYm9vdCBydW50aW1lIHN5bmMiKTsKICAgICAgICAgICAgcmV0dXJuIEVycihlcnJvci50b19zdHJpbmcoKSk7CiAgICAgICAgfQogICAgfTsKICAgIG1hdGNoIGFwcGx5X2Jvb3RfY29uZmlnX21pZ3JhdGlvbnMoJnN0YXRlLCAmbXV0IGNvbmZpZykuYXdhaXQgewogICAgICAgIE9rKGFwcGxpZWQpIGlmICFhcHBsaWVkLmlzX2VtcHR5KCkgPT4gewogICAgICAgICAgICB0cmFjaW5nOjppbmZvIShtaWdyYXRpb25zID0gP2FwcGxpZWQsICJhcHBsaWVkIGJvb3QgY29uZmlnIG1pZ3JhdGlvbnMiKTsKICAgICAgICB9CiAgICAgICAgT2soXykgPT4ge30KICAgICAgICBFcnIoZXJyb3IpID0+IHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBhcHBseSBib290IGNvbmZpZyBtaWdyYXRpb25zIiksCiAgICB9CiAgICBtYXRjaCBhcHBseV9ydW50aW1lX2NvbnN0cmFpbnRzX29uX2Jvb3QoJnN0YXRlLCAmbXV0IGNvbmZpZykuYXdhaXQgewogICAgICAgIE9rKGNvcnJlY3RlZCkgaWYgIWNvcnJlY3RlZC5pc19lbXB0eSgpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6aW5mbyEoY29ycmVjdGVkID0gP2NvcnJlY3RlZCwgImFwcGxpZWQgcnVudGltZSBjb25maWcgY29uc3RyYWludHMiKTsKICAgICAgICB9CiAgICAgICAgT2soXykgPT4ge30KICAgICAgICBFcnIoZXJyb3IpID0+IHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBhcHBseSBydW50aW1lIGNvbmZpZyBjb25zdHJhaW50cyIpLAogICAgfQogICAgbGV0IHJ1bl90eXBlID0gY29uZmlnLmdldCgicnVuX3R5cGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KS51bndyYXBfb3IoMyk7CiAgICBhcHBseV9ydW5fdHlwZV9jb25maWdfb25fYm9vdF93aXRoKCZzdGF0ZSwgJmNvbmZpZywgcnVuX3R5cGUsIHx8IHsKICAgICAgICBhcHBseV9ydW5fdHlwZV9jb25maWcoJnN0YXRlLCAmY29uZmlnLCBydW5fdHlwZSkKICAgIH0pCiAgICAuYXdhaXQKICAgIC5pbnNwZWN0X2Vycih8ZXJyb3J8IHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBzeW5jIHJ1biB0eXBlIGNvbmZpZyBvbiBib290IikpPzsKCiAgICBsZXQgZ2F0ZXdheV9sb2dnaW5nID0gbm9ybWFsaXplX2dhdGV3YXlfbG9nZ2luZyhjb25maWcuZ2V0KCJnYXRld2F5X2xvZ2dpbmciKSk7CiAgICBpZiBsZXQgRXJyKGVycm9yKSA9IHN0YXRlCiAgICAgICAgLmdhdGV3YXkKICAgICAgICAuY2xpZW50CiAgICAgICAgLnNldF9nYXRld2F5X2xvZ2dpbmdfY29uZmlnKCZnYXRld2F5X2xvZ2dpbmcpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmFuZF90aGVuKGVuc3VyZV9nb19zdWNjZXNzKQogICAgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBzeW5jIGdhdGV3YXkgbG9nZ2luZyBjb25maWcgb24gYm9vdCIpOwogICAgfQoKICAgIGlmIGxldCBFcnIoZXJyb3IpID0gd2FmOjpzeW5jX3dhZl9jb25maWdfdG9fZ2F0ZXdheSgmc3RhdGUsICZjb25maWcpLmF3YWl0IHsKICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gc3luYyBXQUYgY29uZmlnIG9uIGJvb3QiKTsKICAgIH0KCiAgICBpZiBsZXQgRXJyKGVycm9yKSA9IHN5bmNfc21hcnRfY29ubmVjdF9vbl9ib290KCZzdGF0ZSwgJmNvbmZpZykuYXdhaXQgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBzeW5jIHNtYXJ0IGNvbm5lY3Qgb24gYm9vdCIpOwogICAgfQoKICAgIGxldCBmbm9zX3BvcnRfaWNvbl9oaWphY2sgPQogICAgICAgIG5vcm1hbGl6ZV9mbm9zX3BvcnRfaWNvbl9oaWphY2soY29uZmlnLmdldCgiZm5vc19wb3J0X2ljb25faGlqYWNrIikpOwogICAgaWYgbGV0IEVycihlcnJvcikgPSBzdGF0ZQogICAgICAgIC5nYXRld2F5CiAgICAgICAgLmNsaWVudAogICAgICAgIC5zZXRfZm5vc19wb3J0X2ljb25faGlqYWNrX2NvbmZpZygmZm5vc19wb3J0X2ljb25faGlqYWNrKQogICAgICAgIC5hd2FpdAogICAgICAgIC5hbmRfdGhlbihlbnN1cmVfZ29fc3VjY2VzcykKICAgIHsKICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gc3luYyBGbk9TIHBvcnQgaWNvbiBoaWphY2sgY29uZmlnIG9uIGJvb3QiKTsKICAgIH0KCiAgICBPaygoKSkKfQoKcHViKGNyYXRlKSBhc3luYyBmbiBtaWdyYXRlX2FuZF9jb25zdHJhaW5fY29uZmlnX2FmdGVyX2ltcG9ydCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCikgLT4gUmVzdWx0PFZhbHVlLCBTdHJpbmc+IHsKICAgIGxldCBtdXQgY29uZmlnID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfY29uZmlnKCkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICBhcHBseV9ib290X2NvbmZpZ19taWdyYXRpb25zKHN0YXRlLCAmbXV0IGNvbmZpZykKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICBhcHBseV9ydW50aW1lX2NvbnN0cmFpbnRzX29uX2Jvb3Qoc3RhdGUsICZtdXQgY29uZmlnKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIE9rKGNvbmZpZykKfQoKcHViKGNyYXRlKSBhc3luYyBmbiBzeW5jX3NtYXJ0X2Nvbm5lY3RfYWZ0ZXJfaW1wb3J0KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGNvbmZpZzogJlZhbHVlLAopIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBzeW5jX3NtYXJ0X2Nvbm5lY3Rfb25fYm9vdChzdGF0ZSwgY29uZmlnKS5hd2FpdAp9CgpwdWIoY3JhdGUpIGFzeW5jIGZuIHN5bmNfZm5vc19wb3J0X2ljb25faGlqYWNrX2FmdGVyX2ltcG9ydCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBjb25maWc6ICZWYWx1ZSwKKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgbGV0IHZhbHVlID0gbm9ybWFsaXplX2Zub3NfcG9ydF9pY29uX2hpamFjayhjb25maWcuZ2V0KCJmbm9zX3BvcnRfaWNvbl9oaWphY2siKSk7CiAgICBzdGF0ZQogICAgICAgIC5nYXRld2F5CiAgICAgICAgLmNsaWVudAogICAgICAgIC5zZXRfZm5vc19wb3J0X2ljb25faGlqYWNrX2NvbmZpZygmdmFsdWUpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSkKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCBlbnN1cmVfZ29fc3VjY2Vzcyh2YWx1ZSkubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKSkKfQoKcHViKGNyYXRlKSBhc3luYyBmbiBzeW5jX2Zub3NfbmV0d29ya190dW5pbmdfYWZ0ZXJfaW1wb3J0KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHByZXZpb3VzX2NvbmZpZzogJlZhbHVlLAogICAgbmV4dF9jb25maWc6ICZWYWx1ZSwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBmbm9zX25ldHdvcms6OnN5bmNfZm5vc19uZXR3b3JrX3R1bmluZ19hZnRlcl9pbXBvcnQoCiAgICAgICAgc3RhdGUsCiAgICAgICAgcHJldmlvdXNfY29uZmlnLAogICAgICAgIG5leHRfY29uZmlnLAogICAgICAgIHRyYW5zbGF0b3IsCiAgICApCiAgICAuYXdhaXQKfQo=
+use std::{collections::BTreeSet, fs, path::Path, process::Command};
+
+use axum::{
+    Json,
+    extract::State,
+    http::StatusCode,
+    response::{IntoResponse, Response},
+};
+use serde_json::{Map, Value, json};
+use utoipa_axum::{router::OpenApiRouter, routes};
+
+use crate::{
+    auto_https, common_auth_locations, gateway_settings,
+    i18n::Translator,
+    json_utils::ensure_object,
+    net_utils,
+    proxy_config::{self, build_gateway_auth_config},
+    response, runtime_profile,
+    state::AppState,
+    store as app_store, system_assets, time_utils, waf, whitelist,
+};
+
+mod fnos_connect_waf;
+mod fnos_network;
+mod handlers;
+mod migrations;
+mod runtime_apply;
+mod smart_connect;
+mod store;
+mod utils;
+
+pub(crate) use fnos_connect_waf::start_fnos_connect_waf_reconciler;
+pub(crate) use fnos_connect_waf::{fnos_connect_waf_routes, normalize_fnos_connect_waf};
+use fnos_network::*;
+use handlers::*;
+use migrations::*;
+pub(crate) use runtime_apply::*;
+pub(crate) use smart_connect::*;
+pub(crate) use store::*;
+use utils::*;
+
+#[cfg(test)]
+mod tests;
+
+const CAPTCHA_SETTINGS_KEY: &str = "fn_knock:captcha:settings";
+const LEGACY_CAPTCHA_SETTINGS_KEY: &str = "fn_knock:config:captcha";
+pub(crate) const POW_MIN_MAX_NUMBER: i64 = 10_000;
+pub(crate) const POW_MAX_MAX_NUMBER: i64 = 1_000_000;
+pub(crate) const POW_MAX_NUMBER_STEP: i64 = 10_000;
+pub(crate) const POW_DEFAULT_BASE_MAX_NUMBER: i64 = 100_000;
+pub(crate) const POW_DEFAULT_UNCOMMON_MAX_NUMBER: i64 = 300_000;
+const PROTOCOL_MAPPING_FEATURE_KEY: &str = "fn_knock:protocol-mapping:feature";
+const RUN_MODE_PROMPT_PREFERENCES_KEY: &str = "fn_knock:run-mode:prompt-preferences";
+const SMART_CONNECT_RUNTIME_KEY: &str = "fn_knock:smart-connect:runtime";
+const LEGACY_REVERSE_PROXY_THROTTLE_PATCH_FLAG_KEY: &str =
+    "fn_knock:patch:reverse-proxy-throttle:v1";
+const REVERSE_PROXY_THROTTLE_DEFAULT_V2_PATCH_FLAG_KEY: &str =
+    "fn_knock:patch:reverse-proxy-throttle-default:v2";
+const LEGACY_EVENT_SYSTEM_RESOURCE_ALERTS_PATCH_FLAG_KEY: &str =
+    "fn_knock:patch:event-system-resource-alerts:v1";
+const GATEWAY_PORTAL_SHOW_WOL_DEFAULT_PATCH_FLAG_KEY: &str =
+    "fn_knock:patch:gateway-portal-show-wol-default:v1";
+const LEGACY_REDIRECTED_HTTP_PORTS: [i64; 2] = [80, 443];
+const SMART_CONNECT_DNS_PORT: i64 = 53;
+const SMART_CONNECT_LOCAL_TTL_SECONDS: u16 = 30;
+const SMART_CONNECT_MANAGED_CONF_PATH: &str = "/etc/dnsmasq.d/fn-knock-smart-connect.conf";
+const FNOS_NETWORK_TUNING_SYSCTL_PATH: &str = "/etc/sysctl.d/99-fn-knock-network.conf";
+const GO_BACKEND_UNSUCCESSFUL_RESPONSE: &str = "Go backend returned an unsuccessful response";
+const JS_MAX_SAFE_INTEGER_I64: i64 = 9_007_199_254_740_991;
+
+pub(crate) fn sync_routes_config_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new().routes(routes!(sync_routes))
+}
+
+pub(crate) fn captcha_config_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_captcha))
+        .routes(routes!(update_captcha))
+}
+
+pub(crate) fn run_type_config_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new().routes(routes!(update_run_type))
+}
+
+pub(crate) fn wol_feature_config_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_wol_feature))
+        .routes(routes!(update_wol_feature))
+}
+
+pub(crate) fn protocol_mapping_feature_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_protocol_mapping_feature))
+        .routes(routes!(update_protocol_mapping_feature))
+}
+
+pub(crate) fn auto_https_config_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_auto_https))
+        .routes(routes!(update_auto_https))
+}
+
+pub(crate) fn default_route_config_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_default_route))
+        .routes(routes!(update_default_route))
+        .routes(routes!(update_default_tunnel))
+}
+
+#[allow(deprecated)] // Retain the legacy managed FRP runtime API during migration.
+pub(crate) fn proxy_protocol_force_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_proxy_protocol_force))
+        .routes(routes!(update_proxy_protocol_force))
+}
+
+pub(crate) fn run_mode_prompt_preferences_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_run_mode_prompt_preferences))
+        .routes(routes!(update_run_mode_prompt_preferences))
+}
+
+pub(crate) fn fnos_port_icon_hijack_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_fnos_port_icon_hijack))
+        .routes(routes!(update_fnos_port_icon_hijack))
+}
+
+pub(crate) fn fnos_network_tuning_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_fnos_network_tuning))
+        .routes(routes!(update_fnos_network_tuning))
+}
+
+pub(crate) fn fnos_share_bypass_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_fnos_share_bypass))
+        .routes(routes!(update_fnos_share_bypass))
+}
+
+pub fn smart_connect_config_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_smart_connect_details))
+        .routes(routes!(update_smart_connect))
+}
+
+pub fn firewall_runtime_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(update_auto_manage_firewall))
+        .routes(routes!(get_firewall_additional_ports))
+        .routes(routes!(update_firewall_additional_ports))
+        .routes(routes!(reset_firewall))
+        .routes(routes!(clear_firewall))
+}
+
+fn admin_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.admin.{key}"))
+}
+
+fn admin_text_params(translator: &Translator, key: &str, params: &[(&str, String)]) -> String {
+    translator.t_params(&format!("server.admin.{key}"), params)
+}
+
+fn firewall_text_params(translator: &Translator, key: &str, params: &[(&str, String)]) -> String {
+    translator.t_params(&format!("server.firewall.{key}"), params)
+}
+
+fn runtime_config_route_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.admin.runtimeConfigRoutes.{key}"))
+}
+
+fn localize_runtime_config_error(translator: &Translator, message: &str) -> String {
+    let message = proxy_config::stream_mapping_runtime_error_message(message).unwrap_or(message);
+    if message.trim() == GO_BACKEND_UNSUCCESSFUL_RESPONSE {
+        return runtime_config_route_text(translator, "upstreamUnavailable");
+    }
+    if let Some(localized) =
+        proxy_config::localize_stream_mapping_runtime_error(translator, message)
+    {
+        return localized;
+    }
+    message.to_string()
+}
+
+fn message_mentions_stream_port(message: &str, port: u64) -> bool {
+    for marker in [
+        format!("listen_port {port}"),
+        format!("port {port}"),
+        format!(":{port}"),
+    ] {
+        let mut remainder = message;
+        while let Some((_, after)) = remainder.split_once(&marker) {
+            if after
+                .chars()
+                .next()
+                .is_none_or(|character| !character.is_ascii_digit())
+            {
+                return true;
+            }
+            remainder = after;
+        }
+    }
+    false
+}
+
+fn stream_mapping_issue_identity(config: &Value, message: &str) -> (Value, Value, Value) {
+    let mappings = config
+        .get("stream_mappings")
+        .and_then(Value::as_array)
+        .map(Vec::as_slice)
+        .unwrap_or_default();
+    let active = mappings
+        .iter()
+        .filter(|mapping| mapping.get("disabled").and_then(Value::as_bool) != Some(true))
+        .collect::<Vec<_>>();
+    let lowercase_message = message.to_ascii_lowercase();
+    let candidates = active
+        .iter()
+        .copied()
+        .filter(|mapping| {
+            mapping
+                .get("listen_port")
+                .and_then(Value::as_u64)
+                .is_some_and(|port| message_mentions_stream_port(&lowercase_message, port))
+        })
+        .collect::<Vec<_>>();
+    let selected = candidates
+        .iter()
+        .copied()
+        .find(|mapping| {
+            mapping
+                .get("protocol")
+                .and_then(Value::as_str)
+                .is_some_and(|protocol| lowercase_message.contains(&protocol.to_ascii_lowercase()))
+        })
+        .or_else(|| (candidates.len() == 1).then(|| candidates[0]))
+        .or_else(|| (active.len() == 1).then(|| active[0]));
+    let Some(mapping) = selected else {
+        return (Value::Null, Value::Null, Value::Null);
+    };
+    (
+        mapping
+            .get("protocol")
+            .and_then(Value::as_str)
+            .map(str::to_ascii_lowercase)
+            .map(Value::String)
+            .unwrap_or(Value::Null),
+        mapping
+            .get("listen_port")
+            .and_then(Value::as_u64)
+            .map(Value::from)
+            .unwrap_or(Value::Null),
+        mapping
+            .get("target")
+            .and_then(Value::as_str)
+            .map(str::trim)
+            .filter(|target| !target.is_empty())
+            .map(|target| Value::String(target.to_string()))
+            .unwrap_or(Value::Null),
+    )
+}
+
+fn protocol_mapping_runtime_issue(config: &Value, error: &str) -> Option<Value> {
+    let message = proxy_config::stream_mapping_runtime_error_message(error)?;
+    let lowercase_message = message.to_ascii_lowercase();
+    let local_port_loop = lowercase_message.contains("cannot target the same local");
+    let listen_port_in_use = lowercase_message.contains("address already in use")
+        || lowercase_message.contains("eaddrinuse")
+        || lowercase_message.contains("only one usage of each socket address");
+    if !local_port_loop
+        && !listen_port_in_use
+        && crate::transient_error::is_transient_runtime_error(message)
+    {
+        return None;
+    }
+    let code = if local_port_loop {
+        "local_port_loop"
+    } else if listen_port_in_use {
+        "listen_port_in_use"
+    } else {
+        "runtime_sync_failed"
+    };
+    let (protocol, listen_port, target) = stream_mapping_issue_identity(config, message);
+    Some(json!({
+        "code": code,
+        "message": message,
+        "protocol": protocol,
+        "listen_port": listen_port,
+        "target": target,
+    }))
+}
+
+async fn apply_run_type_config_on_boot_with<Apply, ApplyFuture>(
+    state: &AppState,
+    config: &Value,
+    run_type: i64,
+    mut apply: Apply,
+) -> Result<(), String>
+where
+    Apply: FnMut() -> ApplyFuture,
+    ApplyFuture: std::future::Future<Output = Result<(), String>>,
+{
+    let protocol_mapping_feature = load_protocol_mapping_feature(state, Some(config))
+        .await
+        .map_err(|error| error.to_string())?;
+    let protocol_mapping_enabled = run_type == 3
+        && protocol_mapping_feature
+            .get("enabled")
+            .and_then(Value::as_bool)
+            == Some(true);
+
+    match apply().await {
+        Ok(()) => {
+            if protocol_mapping_enabled && protocol_mapping_feature.get("runtime_issue").is_some() {
+                let mut cleared = protocol_mapping_feature;
+                ensure_object(&mut cleared).remove("runtime_issue");
+                if let Err(error) = save_protocol_mapping_feature(state, &cleared).await {
+                    tracing::warn!(%error, "failed to clear recovered protocol mapping boot issue");
+                }
+            }
+            Ok(())
+        }
+        Err(error) if protocol_mapping_enabled => {
+            let Some(issue) = protocol_mapping_runtime_issue(config, &error) else {
+                return Err(error);
+            };
+            let mut disabled = protocol_mapping_feature;
+            let disabled_object = ensure_object(&mut disabled);
+            disabled_object.insert("enabled".to_string(), Value::Bool(false));
+            disabled_object.insert("runtime_issue".to_string(), issue.clone());
+            save_protocol_mapping_feature(state, &disabled)
+                .await
+                .map_err(|save_error| {
+                    format!(
+                        "failed to persist disabled protocol mapping state after startup error: {save_error}"
+                    )
+                })?;
+            tracing::error!(
+                issue = %issue,
+                "protocol mappings failed during startup and were disabled for repair"
+            );
+            if let Err(retry_error) = apply().await {
+                tracing::warn!(
+                    %retry_error,
+                    "runtime remained partially unavailable after disabling protocol mappings; continuing boot for administrator repair"
+                );
+            }
+            Ok(())
+        }
+        Err(error) => Err(error),
+    }
+}
+
+fn smart_connect_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.smartConnect.{key}"))
+}
+
+fn smart_connect_text_params(
+    translator: &Translator,
+    key: &str,
+    params: &[(&str, String)],
+) -> String {
+    translator.t_params(&format!("server.smartConnect.{key}"), params)
+}
+
+fn capability_blocked_text(state: &AppState, capability: &str, translator: &Translator) -> String {
+    let profile = runtime_profile::get_runtime_profile(state);
+    runtime_profile::capability_unavailable_message(capability, &profile, translator)
+}
+
+pub(crate) async fn sync_runtime_config_on_boot(state: AppState) -> Result<(), String> {
+    let mut config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => {
+            tracing::warn!(%error, "failed to load config for boot runtime sync");
+            return Err(error.to_string());
+        }
+    };
+    match apply_boot_config_migrations(&state, &mut config).await {
+        Ok(applied) if !applied.is_empty() => {
+            tracing::info!(migrations = ?applied, "applied boot config migrations");
+        }
+        Ok(_) => {}
+        Err(error) => tracing::warn!(%error, "failed to apply boot config migrations"),
+    }
+    match apply_runtime_constraints_on_boot(&state, &mut config).await {
+        Ok(corrected) if !corrected.is_empty() => {
+            tracing::info!(corrected = ?corrected, "applied runtime config constraints");
+        }
+        Ok(_) => {}
+        Err(error) => tracing::warn!(%error, "failed to apply runtime config constraints"),
+    }
+    let run_type = config.get("run_type").and_then(Value::as_i64).unwrap_or(3);
+    apply_run_type_config_on_boot_with(&state, &config, run_type, || {
+        apply_run_type_config(&state, &config, run_type)
+    })
+    .await
+    .inspect_err(|error| tracing::warn!(%error, "failed to sync run type config on boot"))?;
+
+    let gateway_logging = normalize_gateway_logging(config.get("gateway_logging"));
+    if let Err(error) = state
+        .gateway
+        .client
+        .set_gateway_logging_config(&gateway_logging)
+        .await
+        .and_then(ensure_go_success)
+    {
+        tracing::warn!(%error, "failed to sync gateway logging config on boot");
+    }
+
+    if let Err(error) = waf::sync_waf_config_to_gateway(&state, &config).await {
+        tracing::warn!(%error, "failed to sync WAF config on boot");
+    }
+
+    if let Err(error) = sync_smart_connect_on_boot(&state, &config).await {
+        tracing::warn!(%error, "failed to sync smart connect on boot");
+    }
+
+    let fnos_port_icon_hijack =
+        normalize_fnos_port_icon_hijack(config.get("fnos_port_icon_hijack"));
+    if let Err(error) = state
+        .gateway
+        .client
+        .set_fnos_port_icon_hijack_config(&fnos_port_icon_hijack)
+        .await
+        .and_then(ensure_go_success)
+    {
+        tracing::warn!(%error, "failed to sync FnOS port icon hijack config on boot");
+    }
+
+    Ok(())
+}
+
+pub(crate) async fn migrate_and_constrain_config_after_import(
+    state: &AppState,
+) -> Result<Value, String> {
+    let mut config = state
+        .storage
+        .store
+        .get_config()
+        .await
+        .map_err(|error| error.to_string())?;
+    apply_boot_config_migrations(state, &mut config)
+        .await
+        .map_err(|error| error.to_string())?;
+    apply_runtime_constraints_on_boot(state, &mut config)
+        .await
+        .map_err(|error| error.to_string())?;
+    Ok(config)
+}
+
+pub(crate) async fn sync_smart_connect_after_import(
+    state: &AppState,
+    config: &Value,
+) -> Result<(), String> {
+    sync_smart_connect_on_boot(state, config).await
+}
+
+pub(crate) async fn sync_fnos_port_icon_hijack_after_import(
+    state: &AppState,
+    config: &Value,
+) -> Result<(), String> {
+    let value = normalize_fnos_port_icon_hijack(config.get("fnos_port_icon_hijack"));
+    state
+        .gateway
+        .client
+        .set_fnos_port_icon_hijack_config(&value)
+        .await
+        .map_err(|error| error.to_string())
+        .and_then(|value| ensure_go_success(value).map_err(|error| error.to_string()))
+}
+
+pub(crate) async fn sync_fnos_network_tuning_after_import(
+    state: &AppState,
+    previous_config: &Value,
+    next_config: &Value,
+    translator: &Translator,
+) -> Result<(), String> {
+    fnos_network::sync_fnos_network_tuning_after_import(
+        state,
+        previous_config,
+        next_config,
+        translator,
+    )
+    .await
+}

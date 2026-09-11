@@ -1,1 +1,410 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InJvdW5kZWQtbWQgYm9yZGVyIGJnLW11dGVkLzIwIHAtMyI+CiAgICA8ZGl2CiAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLXN0YXJ0IHNtOmp1c3RpZnktYmV0d2VlbiIKICAgID4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+e3sgdCgiYWRtaW4uc2NhblRhcmdldHMudGl0bGUiKSB9fTwvcD4KICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgiYWRtaW4uc2NhblRhcmdldHMuZGVzY3JpcHRpb24iLCB7CiAgICAgICAgICAgICAgbWF4Q2lkcnM6IGxpbWl0cy5tYXhDaWRycywKICAgICAgICAgICAgICBtYXhIb3N0czogbGltaXRzLm1heEhvc3RzLAogICAgICAgICAgICB9KQogICAgICAgICAgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2NvbW1vbi5yZWZyZXNoU3RhdHVzJykiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImlzTG9hZGluZyB8fCBpc1NhdmluZyIKICAgICAgICAgIEBjbGljaz0ibG9hZFRhcmdldHModHJ1ZSkiCiAgICAgICAgPgogICAgICAgICAgPFJlZnJlc2hDdwogICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IgogICAgICAgICAgICA6Y2xhc3M9InsgJ2FuaW1hdGUtc3Bpbic6IGlzTG9hZGluZyB9IgogICAgICAgICAgLz4KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICA6ZGlzYWJsZWQ9ImlzTG9hZGluZyB8fCBpc1NhdmluZyB8fCBhdXRvbWF0aWNUYXJnZXRzLmxlbmd0aCA9PT0gMCIKICAgICAgICAgIEBjbGljaz0icmVzZXRUb0F1dG9tYXRpYyIKICAgICAgICA+CiAgICAgICAgICA8Um90YXRlQ2N3IGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zY2FuVGFyZ2V0cy5yZXNldEF1dG9tYXRpYyIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICA6ZGlzYWJsZWQ9IgogICAgICAgICAgICBpc0xvYWRpbmcgfHwgaXNTYXZpbmcgfHwgIWlzRGlydHkgfHwgc2VsZWN0ZWRDaWRycy5sZW5ndGggPT09IDAKICAgICAgICAgICIKICAgICAgICAgIEBjbGljaz0ic2F2ZVRhcmdldHMoKSIKICAgICAgICA+CiAgICAgICAgICA8U2F2ZSBjbGFzcz0ibXItMiBoLTQgdy00IiA6Y2xhc3M9InsgJ2FuaW1hdGUtcHVsc2UnOiBpc1NhdmluZyB9IiAvPgogICAgICAgICAge3sgdCgiY29tbW9uLnNhdmUiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxkaXYgY2xhc3M9Im10LTMgZmxleCBnYXAtMiI+CiAgICAgIDxJbnB1dAogICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi5zY2FuVGFyZ2V0cy5wbGFjZWhvbGRlcicpIgogICAgICAgIHYtbW9kZWw9ImN1c3RvbUlucHV0IgogICAgICAgIDpkaXNhYmxlZD0iaXNMb2FkaW5nIHx8IGlzU2F2aW5nIgogICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uc2NhblRhcmdldHMucGxhY2Vob2xkZXInKSIKICAgICAgICBAa2V5dXAuZW50ZXI9ImFkZEN1c3RvbUNpZHJzIgogICAgICAvPgogICAgICA8QnV0dG9uCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICA6ZGlzYWJsZWQ9ImlzTG9hZGluZyB8fCBpc1NhdmluZyB8fCAhY3VzdG9tSW5wdXQudHJpbSgpIgogICAgICAgIEBjbGljaz0iYWRkQ3VzdG9tQ2lkcnMiCiAgICAgID4KICAgICAgICA8UGx1cyBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgIHt7IHQoImFkbWluLnNjYW5UYXJnZXRzLmFkZCIpIH19CiAgICAgIDwvQnV0dG9uPgogICAgPC9kaXY+CgogICAgPGRpdgogICAgICB2LWlmPSJpc0xvYWRpbmciCiAgICAgIGNsYXNzPSJweS02IHRleHQtY2VudGVyIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgPgogICAgICB7eyB0KCJhZG1pbi5zY2FuVGFyZ2V0cy5sb2FkaW5nIikgfX0KICAgIDwvZGl2PgoKICAgIDxkaXYKICAgICAgdi1lbHNlLWlmPSJhbGxUYXJnZXRzLmxlbmd0aCA9PT0gMCIKICAgICAgY2xhc3M9InB5LTYgdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICA+CiAgICAgIHt7IHQoImFkbWluLnNjYW5UYXJnZXRzLmVtcHR5IikgfX0KICAgIDwvZGl2PgoKICAgIDxkaXYgdi1lbHNlIGNsYXNzPSJtdC0zIG1heC1oLTU2IHNwYWNlLXktMiBvdmVyZmxvdy1hdXRvIHByLTEiPgogICAgICA8ZGl2CiAgICAgICAgdi1mb3I9InRhcmdldCBpbiBhbGxUYXJnZXRzIgogICAgICAgIDprZXk9InRhcmdldC5jaWRyIgogICAgICAgIGNsYXNzPSJyZWxhdGl2ZSByb3VuZGVkLW1kIGJvcmRlciBiZy1iYWNrZ3JvdW5kIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLW11dGVkLzQwIgogICAgICA+CiAgICAgICAgPGxhYmVsCiAgICAgICAgICA6Zm9yPSJgc2Nhbi10YXJnZXQtJHt0YXJnZXQuY2lkcn1gIgogICAgICAgICAgY2xhc3M9ImZsZXggY3Vyc29yLXBvaW50ZXIgaXRlbXMtc3RhcnQgZ2FwLTMgcC0zIgogICAgICAgICAgOmNsYXNzPSJ7ICdwci0xMic6IGN1c3RvbUNpZHJzLmluY2x1ZGVzKHRhcmdldC5jaWRyKSB9IgogICAgICAgID4KICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICA6aWQ9ImBzY2FuLXRhcmdldC0ke3RhcmdldC5jaWRyfWAiCiAgICAgICAgICAgIHR5cGU9ImNoZWNrYm94IgogICAgICAgICAgICBjbGFzcz0ibXQtMC41IGgtNCB3LTQgY3Vyc29yLXBvaW50ZXIiCiAgICAgICAgICAgIDpjaGVja2VkPSJzZWxlY3RlZFNldC5oYXModGFyZ2V0LmNpZHIpIgogICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzTG9hZGluZyB8fCBpc1NhdmluZyIKICAgICAgICAgICAgQGNoYW5nZT0idG9nZ2xlQ2lkcih0YXJnZXQuY2lkciwgJGV2ZW50KSIKICAgICAgICAgIC8+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIGZsZXgtMSBzcGFjZS15LTEiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJmb250LW1vbm8gdGV4dC1zbSI+e3sgdGFyZ2V0LmNpZHIgfX08L3NwYW4+CiAgICAgICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9InNlY29uZGFyeSI+e3sKICAgICAgICAgICAgICAgIGdldFNvdXJjZUxhYmVsKHRhcmdldC5zb3VyY2UpCiAgICAgICAgICAgICAgfX08L0JhZGdlPgogICAgICAgICAgICAgIDxCYWRnZSB2LWlmPSJ0YXJnZXQuaXNBdXRvbWF0aWMiIHZhcmlhbnQ9Im91dGxpbmUiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc2NhblRhcmdldHMuYXV0b21hdGljIikgfX0KICAgICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPHAgY2xhc3M9InRydW5jYXRlIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyB0YXJnZXQubGFiZWwgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIHRhcmdldC5ob3N0Q291bnQgPiAwCiAgICAgICAgICAgICAgICA/IHQoImFkbWluLnNjYW5UYXJnZXRzLmhvc3RDb3VudCIsIHsKICAgICAgICAgICAgICAgICAgICBjb3VudDogdGFyZ2V0Lmhvc3RDb3VudCwKICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uc2NhblRhcmdldHMucGVuZGluZ1NhdmUiKQogICAgICAgICAgICB9fQogICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvbGFiZWw+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdi1pZj0iY3VzdG9tQ2lkcnMuaW5jbHVkZXModGFyZ2V0LmNpZHIpIgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICBzaXplPSJpY29uIgogICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2NvbW1vbi5jb25maXJtRGVsZXRlJykiCiAgICAgICAgICBjbGFzcz0iYWJzb2x1dGUgcmlnaHQtMiB0b3AtMS8yIGgtNyB3LTcgLXRyYW5zbGF0ZS15LTEvMiIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNMb2FkaW5nIHx8IGlzU2F2aW5nIgogICAgICAgICAgQGNsaWNrPSJyZW1vdmVDdXN0b21DaWRyKHRhcmdldC5jaWRyKSIKICAgICAgICA+CiAgICAgICAgICA8VHJhc2gyIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxkaXYKICAgICAgY2xhc3M9Im10LTMgZmxleCBmbGV4LWNvbCBnYXAtMSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTpmbGV4LXJvdyBzbTppdGVtcy1jZW50ZXIgc206anVzdGlmeS1iZXR3ZWVuIgogICAgPgogICAgICA8c3Bhbj4KICAgICAgICB7ewogICAgICAgICAgdCgiYWRtaW4uc2NhblRhcmdldHMuc2VsZWN0ZWRDaWRycyIsIHsKICAgICAgICAgICAgY291bnQ6IHNlbGVjdGVkQ2lkcnMubGVuZ3RoLAogICAgICAgICAgfSkKICAgICAgICB9fQogICAgICAgIDx0ZW1wbGF0ZSB2LWlmPSJzZWxlY3RlZEhvc3RDb3VudCAhPT0gbnVsbCI+CiAgICAgICAgICB7ewogICAgICAgICAgICB0KCJhZG1pbi5zY2FuVGFyZ2V0cy5zZWxlY3RlZEhvc3RzIiwgewogICAgICAgICAgICAgIGNvdW50OiBzZWxlY3RlZEhvc3RDb3VudCwKICAgICAgICAgICAgfSkKICAgICAgICAgIH19CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPC9zcGFuPgogICAgICA8c3BhbiB2LWlmPSJpc0RpcnR5IiBjbGFzcz0idGV4dC1hbWJlci02MDAiPgogICAgICAgIHt7IHQoImFkbWluLnNjYW5UYXJnZXRzLmRpcnR5IikgfX0KICAgICAgPC9zcGFuPgogICAgICA8c3BhbiB2LWVsc2UtaWY9ImlzQXV0b21hdGljU2VsZWN0aW9uIj4KICAgICAgICB7eyB0KCJhZG1pbi5zY2FuVGFyZ2V0cy5hdXRvbWF0aWNTZWxlY3Rpb24iKSB9fQogICAgICA8L3NwYW4+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXAgbGFuZz0idHMiPgppbXBvcnQgeyBjb21wdXRlZCwgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBQbHVzLCBSZWZyZXNoQ3csIFJvdGF0ZUNjdywgU2F2ZSwgVHJhc2gyIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgaXNWYWxpZENJRFIgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL2NpZHIiOwppbXBvcnQgewogIFNjYW5BUEksCiAgdHlwZSBTY2FuRGlzY292ZXJ5VGFyZ2V0LAogIHR5cGUgU2NhbkRpc2NvdmVyeVRhcmdldFNvdXJjZSwKICB0eXBlIFNjYW5EaXNjb3ZlcnlUYXJnZXRzUmVzcG9uc2UsCn0gZnJvbSAiQC9saWIvYXBpL3NjYW4iOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cgpjb25zdCB0YXJnZXRzID0gcmVmPFNjYW5EaXNjb3ZlcnlUYXJnZXRzUmVzcG9uc2UgfCBudWxsPihudWxsKTsKY29uc3Qgc2VsZWN0ZWRDaWRycyA9IHJlZjxzdHJpbmdbXT4oW10pOwpjb25zdCBjdXN0b21DaWRycyA9IHJlZjxzdHJpbmdbXT4oW10pOwpjb25zdCBjdXN0b21JbnB1dCA9IHJlZigiIik7CmNvbnN0IGlzTG9hZGluZyA9IHJlZihmYWxzZSk7CmNvbnN0IGlzU2F2aW5nID0gcmVmKGZhbHNlKTsKY29uc3Qgc2F2ZWRTaWduYXR1cmUgPSByZWYoIiIpOwpjb25zdCBpc0F1dG9tYXRpY1NlbGVjdGlvbiA9IHJlZihmYWxzZSk7Cgpjb25zdCBsaW1pdHMgPSBjb21wdXRlZCgKICAoKSA9PgogICAgdGFyZ2V0cy52YWx1ZT8ubGltaXRzIHx8IHsKICAgICAgbWF4Q2lkcnM6IDE2LAogICAgICBtYXhIb3N0czogMTAyNCwKICAgIH0sCik7Cgpjb25zdCBub3JtYWxpemVDaWRycyA9ICh2YWx1ZXM6IEl0ZXJhYmxlPHN0cmluZz4pOiBzdHJpbmdbXSA9PiB7CiAgY29uc3QgcmVzdWx0OiBzdHJpbmdbXSA9IFtdOwogIGNvbnN0IHNlZW4gPSBuZXcgU2V0PHN0cmluZz4oKTsKICBmb3IgKGNvbnN0IHZhbHVlIG9mIHZhbHVlcykgewogICAgY29uc3Qgbm9ybWFsaXplZCA9IHZhbHVlLnRyaW0oKTsKICAgIGlmICghbm9ybWFsaXplZCkgY29udGludWU7CiAgICBjb25zdCBrZXkgPSBub3JtYWxpemVkLnRvTG93ZXJDYXNlKCk7CiAgICBpZiAoc2Vlbi5oYXMoa2V5KSkgY29udGludWU7CiAgICBzZWVuLmFkZChrZXkpOwogICAgcmVzdWx0LnB1c2gobm9ybWFsaXplZCk7CiAgfQogIHJldHVybiByZXN1bHQ7Cn07Cgpjb25zdCBidWlsZFNpZ25hdHVyZSA9ICgpID0+CiAgSlNPTi5zdHJpbmdpZnkoewogICAgY3VzdG9tQ2lkcnM6IG5vcm1hbGl6ZUNpZHJzKGN1c3RvbUNpZHJzLnZhbHVlKSwKICAgIHNlbGVjdGVkQ2lkcnM6IGlzQXV0b21hdGljU2VsZWN0aW9uLnZhbHVlCiAgICAgID8gW10KICAgICAgOiBub3JtYWxpemVDaWRycyhzZWxlY3RlZENpZHJzLnZhbHVlKSwKICB9KTsKCmNvbnN0IGF1dG9tYXRpY1RhcmdldHMgPSBjb21wdXRlZCgoKSA9PiB0YXJnZXRzLnZhbHVlPy5hdXRvbWF0aWNUYXJnZXRzIHx8IFtdKTsKY29uc3Qgc2VsZWN0ZWRTZXQgPSBjb21wdXRlZCgoKSA9PiBuZXcgU2V0KHNlbGVjdGVkQ2lkcnMudmFsdWUpKTsKY29uc3QgaXNEaXJ0eSA9IGNvbXB1dGVkKCgpID0+IHNhdmVkU2lnbmF0dXJlLnZhbHVlICE9PSBidWlsZFNpZ25hdHVyZSgpKTsKCmNvbnN0IGFsbFRhcmdldHMgPSBjb21wdXRlZDxTY2FuRGlzY292ZXJ5VGFyZ2V0W10+KCgpID0+IHsKICBjb25zdCBtYXAgPSBuZXcgTWFwPHN0cmluZywgU2NhbkRpc2NvdmVyeVRhcmdldD4oKTsKICBjb25zdCBwdXNoID0gKHRhcmdldDogU2NhbkRpc2NvdmVyeVRhcmdldCkgPT4gewogICAgaWYgKCFtYXAuaGFzKHRhcmdldC5jaWRyKSkgewogICAgICBtYXAuc2V0KHRhcmdldC5jaWRyLCB0YXJnZXQpOwogICAgfQogIH07CgogIGZvciAoY29uc3QgdGFyZ2V0IG9mIHRhcmdldHMudmFsdWU/LmF1dG9tYXRpY1RhcmdldHMgfHwgW10pIHB1c2godGFyZ2V0KTsKICBmb3IgKGNvbnN0IHRhcmdldCBvZiB0YXJnZXRzLnZhbHVlPy5jdXN0b21UYXJnZXRzIHx8IFtdKSBwdXNoKHRhcmdldCk7CiAgZm9yIChjb25zdCB0YXJnZXQgb2YgdGFyZ2V0cy52YWx1ZT8uc2VsZWN0ZWRUYXJnZXRzIHx8IFtdKSBwdXNoKHRhcmdldCk7CgogIGZvciAoY29uc3QgY2lkciBvZiBjdXN0b21DaWRycy52YWx1ZSkgewogICAgaWYgKCFtYXAuaGFzKGNpZHIpKSB7CiAgICAgIG1hcC5zZXQoY2lkciwgewogICAgICAgIGNpZHIsCiAgICAgICAgbGFiZWw6IHQoImFkbWluLnNjYW5UYXJnZXRzLmN1c3RvbUxhYmVsIiwgeyBjaWRyIH0pLAogICAgICAgIHNvdXJjZTogImN1c3RvbSIsCiAgICAgICAgaG9zdENvdW50OiAwLAogICAgICAgIGlzQXV0b21hdGljOiBmYWxzZSwKICAgICAgfSk7CiAgICB9CiAgfQoKICBmb3IgKGNvbnN0IGNpZHIgb2Ygc2VsZWN0ZWRDaWRycy52YWx1ZSkgewogICAgaWYgKCFtYXAuaGFzKGNpZHIpKSB7CiAgICAgIG1hcC5zZXQoY2lkciwgewogICAgICAgIGNpZHIsCiAgICAgICAgbGFiZWw6IHQoImFkbWluLnNjYW5UYXJnZXRzLnNhdmVkTGFiZWwiLCB7IGNpZHIgfSksCiAgICAgICAgc291cmNlOiAic2F2ZWQiLAogICAgICAgIGhvc3RDb3VudDogMCwKICAgICAgICBpc0F1dG9tYXRpYzogZmFsc2UsCiAgICAgIH0pOwogICAgfQogIH0KCiAgcmV0dXJuIFsuLi5tYXAudmFsdWVzKCldOwp9KTsKCmNvbnN0IHNlbGVjdGVkSG9zdENvdW50ID0gY29tcHV0ZWQoKCkgPT4gewogIGxldCB0b3RhbCA9IDA7CiAgZm9yIChjb25zdCBjaWRyIG9mIHNlbGVjdGVkQ2lkcnMudmFsdWUpIHsKICAgIGNvbnN0IHRhcmdldCA9IGFsbFRhcmdldHMudmFsdWUuZmluZCgoaXRlbSkgPT4gaXRlbS5jaWRyID09PSBjaWRyKTsKICAgIGlmICghdGFyZ2V0IHx8IHRhcmdldC5ob3N0Q291bnQgPD0gMCkgcmV0dXJuIG51bGw7CiAgICB0b3RhbCArPSB0YXJnZXQuaG9zdENvdW50OwogIH0KICByZXR1cm4gdG90YWw7Cn0pOwoKY29uc3QgZ2V0U291cmNlTGFiZWwgPSAoc291cmNlOiBTY2FuRGlzY292ZXJ5VGFyZ2V0U291cmNlKTogc3RyaW5nID0+IHsKICBpZiAoc291cmNlID09PSAiZG9ja2VyIikgcmV0dXJuICJEb2NrZXIiOwogIGlmIChzb3VyY2UgPT09ICJsb29wYmFjayIpIHJldHVybiB0KCJhZG1pbi5zY2FuVGFyZ2V0cy5zb3VyY2VMb29wYmFjayIpOwogIGlmIChzb3VyY2UgPT09ICJpbnRlcmZhY2UiKSByZXR1cm4gdCgiYWRtaW4uc2NhblRhcmdldHMuc291cmNlSW50ZXJmYWNlIik7CiAgaWYgKHNvdXJjZSA9PT0gIm1hcHBpbmciKSByZXR1cm4gdCgiYWRtaW4uc2NhblRhcmdldHMuc291cmNlTWFwcGluZyIpOwogIGlmIChzb3VyY2UgPT09ICJjdXN0b20iKSByZXR1cm4gdCgiYWRtaW4uc2NhblRhcmdldHMuc291cmNlQ3VzdG9tIik7CiAgcmV0dXJuIHQoImFkbWluLnNjYW5UYXJnZXRzLnNvdXJjZVNhdmVkIik7Cn07Cgpjb25zdCBhcHBseVRhcmdldHMgPSAocGF5bG9hZDogU2NhbkRpc2NvdmVyeVRhcmdldHNSZXNwb25zZSkgPT4gewogIHRhcmdldHMudmFsdWUgPSBwYXlsb2FkOwogIGN1c3RvbUNpZHJzLnZhbHVlID0gbm9ybWFsaXplQ2lkcnMoCiAgICBwYXlsb2FkLmN1c3RvbVRhcmdldHMubWFwKCh0YXJnZXQpID0+IHRhcmdldC5jaWRyKSwKICApOwogIHNlbGVjdGVkQ2lkcnMudmFsdWUgPSBub3JtYWxpemVDaWRycygKICAgIHBheWxvYWQuc2VsZWN0ZWRDaWRycy5sZW5ndGggPiAwCiAgICAgID8gcGF5bG9hZC5zZWxlY3RlZENpZHJzCiAgICAgIDogcGF5bG9hZC5lZmZlY3RpdmVDaWRycywKICApOwogIGlzQXV0b21hdGljU2VsZWN0aW9uLnZhbHVlID0gcGF5bG9hZC5zZWxlY3Rpb25Nb2RlICE9PSAiY3VzdG9tIjsKICBzYXZlZFNpZ25hdHVyZS52YWx1ZSA9IGJ1aWxkU2lnbmF0dXJlKCk7Cn07Cgphc3luYyBmdW5jdGlvbiBsb2FkVGFyZ2V0cyhmb3JjZSA9IGZhbHNlKSB7CiAgaWYgKHRhcmdldHMudmFsdWUgJiYgIWZvcmNlKSByZXR1cm47CiAgaXNMb2FkaW5nLnZhbHVlID0gdHJ1ZTsKICB0cnkgewogICAgYXBwbHlUYXJnZXRzKGF3YWl0IFNjYW5BUEkuZ2V0RGlzY292ZXJUYXJnZXRzKCkpOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5zY2FuVGFyZ2V0cy5sb2FkRmFpbGVkIiksIHsKICAgICAgZGVzY3JpcHRpb246CiAgICAgICAgZXJyb3IgaW5zdGFuY2VvZiBFcnJvcgogICAgICAgICAgPyBlcnJvci5tZXNzYWdlCiAgICAgICAgICA6IHQoImFkbWluLnNjYW5UYXJnZXRzLmxvYWRGYWxsYmFjayIpLAogICAgfSk7CiAgICB0aHJvdyBlcnJvcjsKICB9IGZpbmFsbHkgewogICAgaXNMb2FkaW5nLnZhbHVlID0gZmFsc2U7CiAgfQp9Cgpjb25zdCBhZGRDdXN0b21DaWRycyA9ICgpID0+IHsKICBjb25zdCB2YWx1ZXMgPSBub3JtYWxpemVDaWRycyhjdXN0b21JbnB1dC52YWx1ZS5zcGxpdCgvWyxcc++8jO+8mztdKy91KSk7CiAgaWYgKHZhbHVlcy5sZW5ndGggPT09IDApIHJldHVybjsKCiAgY29uc3QgaW52YWxpZCA9IHZhbHVlcy5maWx0ZXIoKHZhbHVlKSA9PiAhaXNWYWxpZENJRFIodmFsdWUpKTsKICBpZiAoaW52YWxpZC5sZW5ndGggPiAwKSB7CiAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5zY2FuVGFyZ2V0cy5pbnZhbGlkQ2lkciIpLCB7CiAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5zY2FuVGFyZ2V0cy5pbnZhbGlkQ2lkckRlc2NyaXB0aW9uIiwgewogICAgICAgIHZhbHVlczogaW52YWxpZC5zbGljZSgwLCAzKS5qb2luKCLjgIEiKSwKICAgICAgfSksCiAgICB9KTsKICAgIHJldHVybjsKICB9CgogIGN1c3RvbUNpZHJzLnZhbHVlID0gbm9ybWFsaXplQ2lkcnMoWy4uLmN1c3RvbUNpZHJzLnZhbHVlLCAuLi52YWx1ZXNdKTsKICBzZWxlY3RlZENpZHJzLnZhbHVlID0gbm9ybWFsaXplQ2lkcnMoWy4uLnNlbGVjdGVkQ2lkcnMudmFsdWUsIC4uLnZhbHVlc10pOwogIGlzQXV0b21hdGljU2VsZWN0aW9uLnZhbHVlID0gZmFsc2U7CiAgY3VzdG9tSW5wdXQudmFsdWUgPSAiIjsKfTsKCmNvbnN0IHJlbW92ZUN1c3RvbUNpZHIgPSAoY2lkcjogc3RyaW5nKSA9PiB7CiAgY3VzdG9tQ2lkcnMudmFsdWUgPSBjdXN0b21DaWRycy52YWx1ZS5maWx0ZXIoKGl0ZW0pID0+IGl0ZW0gIT09IGNpZHIpOwogIHNlbGVjdGVkQ2lkcnMudmFsdWUgPSBzZWxlY3RlZENpZHJzLnZhbHVlLmZpbHRlcigoaXRlbSkgPT4gaXRlbSAhPT0gY2lkcik7Cn07Cgpjb25zdCB0b2dnbGVDaWRyID0gKGNpZHI6IHN0cmluZywgZXZlbnQ6IEV2ZW50KSA9PiB7CiAgY29uc3QgY2hlY2tlZCA9IChldmVudC50YXJnZXQgYXMgSFRNTElucHV0RWxlbWVudCkuY2hlY2tlZDsKICBpc0F1dG9tYXRpY1NlbGVjdGlvbi52YWx1ZSA9IGZhbHNlOwogIHNlbGVjdGVkQ2lkcnMudmFsdWUgPSBjaGVja2VkCiAgICA/IG5vcm1hbGl6ZUNpZHJzKFsuLi5zZWxlY3RlZENpZHJzLnZhbHVlLCBjaWRyXSkKICAgIDogc2VsZWN0ZWRDaWRycy52YWx1ZS5maWx0ZXIoKGl0ZW0pID0+IGl0ZW0gIT09IGNpZHIpOwp9OwoKY29uc3QgcmVzZXRUb0F1dG9tYXRpYyA9ICgpID0+IHsKICBpc0F1dG9tYXRpY1NlbGVjdGlvbi52YWx1ZSA9IHRydWU7CiAgc2VsZWN0ZWRDaWRycy52YWx1ZSA9IGF1dG9tYXRpY1RhcmdldHMudmFsdWUubWFwKCh0YXJnZXQpID0+IHRhcmdldC5jaWRyKTsKfTsKCmFzeW5jIGZ1bmN0aW9uIHNhdmVUYXJnZXRzKHNpbGVudCA9IGZhbHNlKTogUHJvbWlzZTxzdHJpbmdbXT4gewogIGlmIChzZWxlY3RlZENpZHJzLnZhbHVlLmxlbmd0aCA9PT0gMCkgewogICAgY29uc3QgbWVzc2FnZSA9IHQoImFkbWluLnNjYW5UYXJnZXRzLnNlbGVjdFJlcXVpcmVkIik7CiAgICB0b2FzdC5lcnJvcihtZXNzYWdlKTsKICAgIHRocm93IG5ldyBFcnJvcihtZXNzYWdlKTsKICB9CgogIGlzU2F2aW5nLnZhbHVlID0gdHJ1ZTsKICB0cnkgewogICAgY29uc3QgcGF5bG9hZCA9IGF3YWl0IFNjYW5BUEkuc2F2ZURpc2NvdmVyVGFyZ2V0cyh7CiAgICAgIGN1c3RvbV9jaWRyczogY3VzdG9tQ2lkcnMudmFsdWUsCiAgICAgIHNlbGVjdGVkX2NpZHJzOiBpc0F1dG9tYXRpY1NlbGVjdGlvbi52YWx1ZSA/IFtdIDogc2VsZWN0ZWRDaWRycy52YWx1ZSwKICAgIH0pOwogICAgYXBwbHlUYXJnZXRzKHBheWxvYWQpOwogICAgaWYgKCFzaWxlbnQpIHsKICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5zY2FuVGFyZ2V0cy5zYXZlU3VjY2VzcyIpKTsKICAgIH0KICAgIHJldHVybiBbLi4uc2VsZWN0ZWRDaWRycy52YWx1ZV07CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnNjYW5UYXJnZXRzLnNhdmVGYWlsZWQiKSwgewogICAgICBkZXNjcmlwdGlvbjoKICAgICAgICBlcnJvciBpbnN0YW5jZW9mIEVycm9yCiAgICAgICAgICA/IGVycm9yLm1lc3NhZ2UKICAgICAgICAgIDogdCgiYWRtaW4uc2NhblRhcmdldHMuc2F2ZUZhbGxiYWNrIiksCiAgICB9KTsKICAgIHRocm93IGVycm9yOwogIH0gZmluYWxseSB7CiAgICBpc1NhdmluZy52YWx1ZSA9IGZhbHNlOwogIH0KfQoKYXN5bmMgZnVuY3Rpb24gZW5zdXJlU2F2ZWQoKTogUHJvbWlzZTxzdHJpbmdbXT4gewogIGF3YWl0IGxvYWRUYXJnZXRzKCk7CiAgaWYgKGlzRGlydHkudmFsdWUpIHsKICAgIHJldHVybiBzYXZlVGFyZ2V0cyh0cnVlKTsKICB9CiAgaWYgKGlzQXV0b21hdGljU2VsZWN0aW9uLnZhbHVlKSB7CiAgICBhd2FpdCBsb2FkVGFyZ2V0cyh0cnVlKTsKICB9CiAgaWYgKHNlbGVjdGVkQ2lkcnMudmFsdWUubGVuZ3RoID09PSAwKSB7CiAgICBjb25zdCBtZXNzYWdlID0gdCgiYWRtaW4uc2NhblRhcmdldHMuc2VsZWN0UmVxdWlyZWQiKTsKICAgIHRvYXN0LmVycm9yKG1lc3NhZ2UpOwogICAgdGhyb3cgbmV3IEVycm9yKG1lc3NhZ2UpOwogIH0KICByZXR1cm4gWy4uLnNlbGVjdGVkQ2lkcnMudmFsdWVdOwp9CgpkZWZpbmVFeHBvc2UoewogIGxvYWRUYXJnZXRzLAogIGVuc3VyZVNhdmVkLAogIGdldFNlbGVjdGVkQ2lkcnM6ICgpID0+IFsuLi5zZWxlY3RlZENpZHJzLnZhbHVlXSwKfSk7Cjwvc2NyaXB0Pgo=
+<template>
+  <div class="rounded-md border bg-muted/20 p-3">
+    <div
+      class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+    >
+      <div class="space-y-1">
+        <p class="text-sm font-medium">{{ t("admin.scanTargets.title") }}</p>
+        <p class="text-xs text-muted-foreground">
+          {{
+            t("admin.scanTargets.description", {
+              maxCidrs: limits.maxCidrs,
+              maxHosts: limits.maxHosts,
+            })
+          }}
+        </p>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <Button
+          variant="outline"
+          size="sm"
+          :aria-label="t('common.refreshStatus')"
+          :disabled="isLoading || isSaving"
+          @click="loadTargets(true)"
+        >
+          <RefreshCw
+            class="mr-2 h-4 w-4"
+            :class="{ 'animate-spin': isLoading }"
+          />
+        </Button>
+        <Button
+          variant="outline"
+          size="sm"
+          :disabled="isLoading || isSaving || automaticTargets.length === 0"
+          @click="resetToAutomatic"
+        >
+          <RotateCcw class="mr-2 h-4 w-4" />
+          {{ t("admin.scanTargets.resetAutomatic") }}
+        </Button>
+        <Button
+          size="sm"
+          :disabled="
+            isLoading || isSaving || !isDirty || selectedCidrs.length === 0
+          "
+          @click="saveTargets()"
+        >
+          <Save class="mr-2 h-4 w-4" :class="{ 'animate-pulse': isSaving }" />
+          {{ t("common.save") }}
+        </Button>
+      </div>
+    </div>
+
+    <div class="mt-3 flex gap-2">
+      <Input
+        :aria-label="t('admin.scanTargets.placeholder')"
+        v-model="customInput"
+        :disabled="isLoading || isSaving"
+        :placeholder="t('admin.scanTargets.placeholder')"
+        @keyup.enter="addCustomCidrs"
+      />
+      <Button
+        variant="outline"
+        :disabled="isLoading || isSaving || !customInput.trim()"
+        @click="addCustomCidrs"
+      >
+        <Plus class="mr-2 h-4 w-4" />
+        {{ t("admin.scanTargets.add") }}
+      </Button>
+    </div>
+
+    <div
+      v-if="isLoading"
+      class="py-6 text-center text-sm text-muted-foreground"
+    >
+      {{ t("admin.scanTargets.loading") }}
+    </div>
+
+    <div
+      v-else-if="allTargets.length === 0"
+      class="py-6 text-center text-sm text-muted-foreground"
+    >
+      {{ t("admin.scanTargets.empty") }}
+    </div>
+
+    <div v-else class="mt-3 max-h-56 space-y-2 overflow-auto pr-1">
+      <div
+        v-for="target in allTargets"
+        :key="target.cidr"
+        class="relative rounded-md border bg-background transition-colors hover:bg-muted/40"
+      >
+        <label
+          :for="`scan-target-${target.cidr}`"
+          class="flex cursor-pointer items-start gap-3 p-3"
+          :class="{ 'pr-12': customCidrs.includes(target.cidr) }"
+        >
+          <input
+            :id="`scan-target-${target.cidr}`"
+            type="checkbox"
+            class="mt-0.5 h-4 w-4 cursor-pointer"
+            :checked="selectedSet.has(target.cidr)"
+            :disabled="isLoading || isSaving"
+            @change="toggleCidr(target.cidr, $event)"
+          />
+          <div class="min-w-0 flex-1 space-y-1">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="font-mono text-sm">{{ target.cidr }}</span>
+              <Badge variant="secondary">{{
+                getSourceLabel(target.source)
+              }}</Badge>
+              <Badge v-if="target.isAutomatic" variant="outline">
+                {{ t("admin.scanTargets.automatic") }}
+              </Badge>
+            </div>
+            <p class="truncate text-xs text-muted-foreground">
+              {{ target.label }}
+            </p>
+          </div>
+          <span class="text-xs text-muted-foreground">
+            {{
+              target.hostCount > 0
+                ? t("admin.scanTargets.hostCount", {
+                    count: target.hostCount,
+                  })
+                : t("admin.scanTargets.pendingSave")
+            }}
+          </span>
+        </label>
+        <Button
+          v-if="customCidrs.includes(target.cidr)"
+          type="button"
+          variant="ghost"
+          size="icon"
+          :aria-label="t('common.confirmDelete')"
+          class="absolute right-2 top-1/2 h-7 w-7 -translate-y-1/2"
+          :disabled="isLoading || isSaving"
+          @click="removeCustomCidr(target.cidr)"
+        >
+          <Trash2 class="h-4 w-4" />
+        </Button>
+      </div>
+    </div>
+
+    <div
+      class="mt-3 flex flex-col gap-1 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between"
+    >
+      <span>
+        {{
+          t("admin.scanTargets.selectedCidrs", {
+            count: selectedCidrs.length,
+          })
+        }}
+        <template v-if="selectedHostCount !== null">
+          {{
+            t("admin.scanTargets.selectedHosts", {
+              count: selectedHostCount,
+            })
+          }}
+        </template>
+      </span>
+      <span v-if="isDirty" class="text-amber-600">
+        {{ t("admin.scanTargets.dirty") }}
+      </span>
+      <span v-else-if="isAutomaticSelection">
+        {{ t("admin.scanTargets.automaticSelection") }}
+      </span>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Plus, RefreshCw, RotateCcw, Save, Trash2 } from "lucide-vue-next";
+import { toast } from "@admin-shared/utils/toast";
+import { isValidCIDR } from "@admin-shared/utils/cidr";
+import {
+  ScanAPI,
+  type ScanDiscoveryTarget,
+  type ScanDiscoveryTargetSource,
+  type ScanDiscoveryTargetsResponse,
+} from "@/lib/api/scan";
+
+const { t } = useI18n();
+
+const targets = ref<ScanDiscoveryTargetsResponse | null>(null);
+const selectedCidrs = ref<string[]>([]);
+const customCidrs = ref<string[]>([]);
+const customInput = ref("");
+const isLoading = ref(false);
+const isSaving = ref(false);
+const savedSignature = ref("");
+const isAutomaticSelection = ref(false);
+
+const limits = computed(
+  () =>
+    targets.value?.limits || {
+      maxCidrs: 16,
+      maxHosts: 1024,
+    },
+);
+
+const normalizeCidrs = (values: Iterable<string>): string[] => {
+  const result: string[] = [];
+  const seen = new Set<string>();
+  for (const value of values) {
+    const normalized = value.trim();
+    if (!normalized) continue;
+    const key = normalized.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    result.push(normalized);
+  }
+  return result;
+};
+
+const buildSignature = () =>
+  JSON.stringify({
+    customCidrs: normalizeCidrs(customCidrs.value),
+    selectedCidrs: isAutomaticSelection.value
+      ? []
+      : normalizeCidrs(selectedCidrs.value),
+  });
+
+const automaticTargets = computed(() => targets.value?.automaticTargets || []);
+const selectedSet = computed(() => new Set(selectedCidrs.value));
+const isDirty = computed(() => savedSignature.value !== buildSignature());
+
+const allTargets = computed<ScanDiscoveryTarget[]>(() => {
+  const map = new Map<string, ScanDiscoveryTarget>();
+  const push = (target: ScanDiscoveryTarget) => {
+    if (!map.has(target.cidr)) {
+      map.set(target.cidr, target);
+    }
+  };
+
+  for (const target of targets.value?.automaticTargets || []) push(target);
+  for (const target of targets.value?.customTargets || []) push(target);
+  for (const target of targets.value?.selectedTargets || []) push(target);
+
+  for (const cidr of customCidrs.value) {
+    if (!map.has(cidr)) {
+      map.set(cidr, {
+        cidr,
+        label: t("admin.scanTargets.customLabel", { cidr }),
+        source: "custom",
+        hostCount: 0,
+        isAutomatic: false,
+      });
+    }
+  }
+
+  for (const cidr of selectedCidrs.value) {
+    if (!map.has(cidr)) {
+      map.set(cidr, {
+        cidr,
+        label: t("admin.scanTargets.savedLabel", { cidr }),
+        source: "saved",
+        hostCount: 0,
+        isAutomatic: false,
+      });
+    }
+  }
+
+  return [...map.values()];
+});
+
+const selectedHostCount = computed(() => {
+  let total = 0;
+  for (const cidr of selectedCidrs.value) {
+    const target = allTargets.value.find((item) => item.cidr === cidr);
+    if (!target || target.hostCount <= 0) return null;
+    total += target.hostCount;
+  }
+  return total;
+});
+
+const getSourceLabel = (source: ScanDiscoveryTargetSource): string => {
+  if (source === "docker") return "Docker";
+  if (source === "loopback") return t("admin.scanTargets.sourceLoopback");
+  if (source === "interface") return t("admin.scanTargets.sourceInterface");
+  if (source === "mapping") return t("admin.scanTargets.sourceMapping");
+  if (source === "custom") return t("admin.scanTargets.sourceCustom");
+  return t("admin.scanTargets.sourceSaved");
+};
+
+const applyTargets = (payload: ScanDiscoveryTargetsResponse) => {
+  targets.value = payload;
+  customCidrs.value = normalizeCidrs(
+    payload.customTargets.map((target) => target.cidr),
+  );
+  selectedCidrs.value = normalizeCidrs(
+    payload.selectedCidrs.length > 0
+      ? payload.selectedCidrs
+      : payload.effectiveCidrs,
+  );
+  isAutomaticSelection.value = payload.selectionMode !== "custom";
+  savedSignature.value = buildSignature();
+};
+
+async function loadTargets(force = false) {
+  if (targets.value && !force) return;
+  isLoading.value = true;
+  try {
+    applyTargets(await ScanAPI.getDiscoverTargets());
+  } catch (error) {
+    toast.error(t("admin.scanTargets.loadFailed"), {
+      description:
+        error instanceof Error
+          ? error.message
+          : t("admin.scanTargets.loadFallback"),
+    });
+    throw error;
+  } finally {
+    isLoading.value = false;
+  }
+}
+
+const addCustomCidrs = () => {
+  const values = normalizeCidrs(customInput.value.split(/[,\s，；;]+/u));
+  if (values.length === 0) return;
+
+  const invalid = values.filter((value) => !isValidCIDR(value));
+  if (invalid.length > 0) {
+    toast.error(t("admin.scanTargets.invalidCidr"), {
+      description: t("admin.scanTargets.invalidCidrDescription", {
+        values: invalid.slice(0, 3).join("、"),
+      }),
+    });
+    return;
+  }
+
+  customCidrs.value = normalizeCidrs([...customCidrs.value, ...values]);
+  selectedCidrs.value = normalizeCidrs([...selectedCidrs.value, ...values]);
+  isAutomaticSelection.value = false;
+  customInput.value = "";
+};
+
+const removeCustomCidr = (cidr: string) => {
+  customCidrs.value = customCidrs.value.filter((item) => item !== cidr);
+  selectedCidrs.value = selectedCidrs.value.filter((item) => item !== cidr);
+};
+
+const toggleCidr = (cidr: string, event: Event) => {
+  const checked = (event.target as HTMLInputElement).checked;
+  isAutomaticSelection.value = false;
+  selectedCidrs.value = checked
+    ? normalizeCidrs([...selectedCidrs.value, cidr])
+    : selectedCidrs.value.filter((item) => item !== cidr);
+};
+
+const resetToAutomatic = () => {
+  isAutomaticSelection.value = true;
+  selectedCidrs.value = automaticTargets.value.map((target) => target.cidr);
+};
+
+async function saveTargets(silent = false): Promise<string[]> {
+  if (selectedCidrs.value.length === 0) {
+    const message = t("admin.scanTargets.selectRequired");
+    toast.error(message);
+    throw new Error(message);
+  }
+
+  isSaving.value = true;
+  try {
+    const payload = await ScanAPI.saveDiscoverTargets({
+      custom_cidrs: customCidrs.value,
+      selected_cidrs: isAutomaticSelection.value ? [] : selectedCidrs.value,
+    });
+    applyTargets(payload);
+    if (!silent) {
+      toast.success(t("admin.scanTargets.saveSuccess"));
+    }
+    return [...selectedCidrs.value];
+  } catch (error) {
+    toast.error(t("admin.scanTargets.saveFailed"), {
+      description:
+        error instanceof Error
+          ? error.message
+          : t("admin.scanTargets.saveFallback"),
+    });
+    throw error;
+  } finally {
+    isSaving.value = false;
+  }
+}
+
+async function ensureSaved(): Promise<string[]> {
+  await loadTargets();
+  if (isDirty.value) {
+    return saveTargets(true);
+  }
+  if (isAutomaticSelection.value) {
+    await loadTargets(true);
+  }
+  if (selectedCidrs.value.length === 0) {
+    const message = t("admin.scanTargets.selectRequired");
+    toast.error(message);
+    throw new Error(message);
+  }
+  return [...selectedCidrs.value];
+}
+
+defineExpose({
+  loadTargets,
+  ensureSaved,
+  getSelectedCidrs: () => [...selectedCidrs.value],
+});
+</script>

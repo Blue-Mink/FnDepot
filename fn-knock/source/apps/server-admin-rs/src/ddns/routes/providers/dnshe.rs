@@ -1,1 +1,495 @@
-dXNlIHN1cGVyOjoqOwoKY29uc3QgRE5TSEVfQVBJX1VSTDogJnN0ciA9ICJodHRwczovL2FwaTAwNS5kbnNoZS5jb20vaW5kZXgucGhwIjsKY29uc3QgRE5TSEVfU1VCRE9NQUlOX1BBR0VfU0laRTogdXNpemUgPSA1MDA7CnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBjb25zdCBETlNIRV9NQVhfU1VCRE9NQUlOX1BBR0VTOiB1c2l6ZSA9IDEwMDsKCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgUGFydGlhbEVxLCBFcSldCnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBzdHJ1Y3QgRG5zaGVTdWJkb21haW5NYXRjaCB7CiAgICBwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgaWQ6IGk2NCwKICAgIHB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBzdGF0dXM6IFN0cmluZywKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBQYXJ0aWFsRXEsIEVxKV0KcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIHN0cnVjdCBEbnNoZVJlY29yZE1hdGNoIHsKICAgIHB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBpZDogaTY0LAogICAgcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGNvbnRlbnQ6IFN0cmluZywKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBQYXJ0aWFsRXEsIEVxKV0KcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGVudW0gRG5zaGVSZWNvcmRMb29rdXAgewogICAgTWlzc2luZywKICAgIE1pc3NpbmdJZCwKICAgIEZvdW5kKERuc2hlUmVjb3JkTWF0Y2gpLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFBhcnRpYWxFcSwgRXEpXQpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgZW51bSBEbnNoZVJlY29yZFVwZGF0ZVBsYW4gewogICAgTm9vcCwKICAgIFVwZGF0ZShpNjQpLAogICAgQ3JlYXRlLAogICAgTWlzc2luZ0lkLAp9CgojW2Rlcml2ZShDbG9uZSldCnN0cnVjdCBEbnNoZUNsaWVudCB7CiAgICB0cmFuc2xhdG9yOiBUcmFuc2xhdG9yLAogICAgaHR0cDogREROU0h0dHBDbGllbnQsCiAgICBhcGlfa2V5OiBTdHJpbmcsCiAgICBhcGlfc2VjcmV0OiBTdHJpbmcsCn0KCnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBzdHJ1Y3QgRG5zaGVSZXF1ZXN0U3BlYyB7CiAgICBwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgbWV0aG9kOiByZXF3ZXN0OjpNZXRob2QsCiAgICBwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgdXJsOiBTdHJpbmcsCiAgICBwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgaGVhZGVyczogVmVjPChTdHJpbmcsIFN0cmluZyk+LAogICAgcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGJvZHk6IE9wdGlvbjxWYWx1ZT4sCn0KCmltcGwgRG5zaGVDbGllbnQgewogICAgZm4gbmV3KAogICAgICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgICAgIGh0dHA6IERETlNIdHRwQ2xpZW50LAogICAgICAgIGFwaV9rZXk6IFN0cmluZywKICAgICAgICBhcGlfc2VjcmV0OiBTdHJpbmcsCiAgICApIC0+IFNlbGYgewogICAgICAgIFNlbGYgewogICAgICAgICAgICB0cmFuc2xhdG9yOiB0cmFuc2xhdG9yLmNsb25lKCksCiAgICAgICAgICAgIGh0dHAsCiAgICAgICAgICAgIGFwaV9rZXksCiAgICAgICAgICAgIGFwaV9zZWNyZXQsCiAgICAgICAgfQogICAgfQoKICAgIGFzeW5jIGZuIHJlcXVlc3QoCiAgICAgICAgJnNlbGYsCiAgICAgICAgZW5kcG9pbnQ6ICZzdHIsCiAgICAgICAgYWN0aW9uOiAmc3RyLAogICAgICAgIHF1ZXJ5OiAmWygmc3RyLCBTdHJpbmcpXSwKICAgICAgICBib2R5OiBPcHRpb248VmFsdWU+LAogICAgKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgICAgIGxldCBzcGVjID0gZG5zaGVfcmVxdWVzdF9zcGVjKAogICAgICAgICAgICAmc2VsZi5hcGlfa2V5LAogICAgICAgICAgICAmc2VsZi5hcGlfc2VjcmV0LAogICAgICAgICAgICBlbmRwb2ludCwKICAgICAgICAgICAgYWN0aW9uLAogICAgICAgICAgICBxdWVyeSwKICAgICAgICAgICAgYm9keSwKICAgICAgICApPzsKICAgICAgICBsZXQgbXV0IHJlcXVlc3QgPSBzZWxmLmh0dHAucmVxdWVzdChzcGVjLm1ldGhvZCwgc3BlYy51cmwpOwogICAgICAgIGZvciAobmFtZSwgdmFsdWUpIGluIHNwZWMuaGVhZGVycyB7CiAgICAgICAgICAgIHJlcXVlc3QgPSByZXF1ZXN0LmhlYWRlcihuYW1lLCB2YWx1ZSk7CiAgICAgICAgfQogICAgICAgIGlmIGxldCBTb21lKGJvZHkpID0gc3BlYy5ib2R5IHsKICAgICAgICAgICAgcmVxdWVzdCA9IHJlcXVlc3QuanNvbigmYm9keSk7CiAgICAgICAgfQogICAgICAgIGxldCByZXNwb25zZSA9IHJlcXVlc3QKICAgICAgICAgICAgLnNlbmQoKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBwcm92aWRlcl9yZXF1ZXN0X2Vycm9yKCZzZWxmLnRyYW5zbGF0b3IsICJkbnNoZSIsIGVycm9yKSk/OwogICAgICAgIGxldCAoc3RhdHVzLCBkYXRhLCBfKSA9IHJlc3BvbnNlX2pzb24oJnNlbGYudHJhbnNsYXRvciwgcmVzcG9uc2UpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IHByb3ZpZGVyX3JlcXVlc3RfZXJyb3IoJnNlbGYudHJhbnNsYXRvciwgImRuc2hlIiwgZXJyb3IpKT87CiAgICAgICAgYXNzZXJ0X2Ruc2hlX3N1Y2Nlc3Moc3RhdHVzLCAmZGF0YSkubWFwX2Vycih8ZXJyb3J8IHsKICAgICAgICAgICAgYW55aG93Ojphbnlob3chKGRkbnNfdGV4dCgKICAgICAgICAgICAgICAgICZzZWxmLnRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAicHJvdmlkZXJzLmRuc2hlLmFwaUVycm9yIiwKICAgICAgICAgICAgICAgICZbKCJkZXRhaWwiLCBlcnJvci50b19zdHJpbmcoKSldLAogICAgICAgICAgICApKQogICAgICAgIH0pPzsKICAgICAgICBPayhkYXRhKQogICAgfQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgZm4gZG5zaGVfY2F0YWxvZ19lbnRyeSgpIC0+IFZhbHVlIHsKICAgIHByb3ZpZGVyKAogICAgICAgICJkbnNoZSIsCiAgICAgICAgIkROU0hFIiwKICAgICAgICB2ZWMhWwogICAgICAgICAgICBmaWVsZCgiYXBpX2tleSIsICJBUEkgS2V5IiwgInRleHQiLCAiRE5TSEUgQVBJIEtleSIsIHRydWUpLAogICAgICAgICAgICBmaWVsZCgKICAgICAgICAgICAgICAgICJhcGlfc2VjcmV0IiwKICAgICAgICAgICAgICAgICJBUEkgU2VjcmV0IiwKICAgICAgICAgICAgICAgICJwYXNzd29yZCIsCiAgICAgICAgICAgICAgICAiRE5TSEUgQVBJIFNlY3JldCIsCiAgICAgICAgICAgICAgICB0cnVlLAogICAgICAgICAgICApLAogICAgICAgICAgICBmaWVsZCgKICAgICAgICAgICAgICAgICJyb290X2RvbWFpbiIsCiAgICAgICAgICAgICAgICAiRE5TSEUgTWFuYWdlZCBEb21haW4iLAogICAgICAgICAgICAgICAgInRleHQiLAogICAgICAgICAgICAgICAgImV4YW1wbGUuY29tIiwKICAgICAgICAgICAgICAgIHRydWUsCiAgICAgICAgICAgICksCiAgICAgICAgICAgIGZpZWxkKCJkb21haW4iLCAiRG9tYWluIiwgInRleHQiLCAiaG9tZS5leGFtcGxlLmNvbSIsIHRydWUpLAogICAgICAgICAgICBmaWVsZCgidHRsIiwgIlRUTCIsICJ0ZXh0IiwgIjYwMCIsIGZhbHNlKSwKICAgICAgICBdLAogICAgKQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgYXN5bmMgZm4gdXBkYXRlX2Ruc2hlKAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICBjb25maWc6ICZIYXNoTWFwPFN0cmluZywgU3RyaW5nPiwKICAgIGh0dHBfb3B0aW9uczogJkRETlNIdHRwQ2xpZW50T3B0aW9ucywKICAgIGlwdjQ6IE9wdGlvbjwmc3RyPiwKICAgIGlwdjY6IE9wdGlvbjwmc3RyPiwKKSAtPiBhbnlob3c6OlJlc3VsdDxERE5TUHJvdmlkZXJVcGRhdGVSZXN1bHQ+IHsKICAgIGxldCBhcGlfa2V5ID0gY29uZmlnX3ZhbHVlKGNvbmZpZywgImFwaV9rZXkiKTsKICAgIGxldCBhcGlfc2VjcmV0ID0gY29uZmlnX3ZhbHVlKGNvbmZpZywgImFwaV9zZWNyZXQiKTsKICAgIGxldCByb290X2RvbWFpbiA9IGNvbmZpZ192YWx1ZShjb25maWcsICJyb290X2RvbWFpbiIpOwogICAgbGV0IGRvbWFpbiA9IGNvbmZpZ192YWx1ZShjb25maWcsICJkb21haW4iKTsKICAgIGlmIGFwaV9rZXkuaXNfZW1wdHkoKSB8fCBhcGlfc2VjcmV0LmlzX2VtcHR5KCkgfHwgcm9vdF9kb21haW4uaXNfZW1wdHkoKSB8fCBkb21haW4uaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE9rKHByb3ZpZGVyX2ZhaWx1cmUoZGRuc190ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAicHJvdmlkZXJzLmRuc2hlLmNvbmZpZ0luY29tcGxldGUiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSkpOwogICAgfQogICAgaWYgaXB2NC5pc19ub25lKCkgJiYgaXB2Ni5pc19ub25lKCkgewogICAgICAgIHJldHVybiBPayhwcm92aWRlcl9mYWlsdXJlKGRkbnNfdGV4dCgKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgInByb3ZpZGVycy5kbnNoZS5ub0lwQXZhaWxhYmxlIiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpKTsKICAgIH0KCiAgICBsZXQgcGFyc2VkID0gc3BsaXRfZG9tYWluKHRyYW5zbGF0b3IsICZkb21haW4sICZyb290X2RvbWFpbik/OwogICAgbGV0IGNsaWVudCA9IGRkbnNfaHR0cF9jbGllbnRfbm9fcmVkaXJlY3RzKHRyYW5zbGF0b3IsIGh0dHBfb3B0aW9ucykKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IHByb3ZpZGVyX3JlcXVlc3RfZXJyb3IodHJhbnNsYXRvciwgImRuc2hlIiwgZXJyb3IpKT87CiAgICBsZXQgZG5zaGUgPSBEbnNoZUNsaWVudDo6bmV3KHRyYW5zbGF0b3IsIGNsaWVudCwgYXBpX2tleSwgYXBpX3NlY3JldCk7CiAgICBsZXQgc3ViZG9tYWluID0gcmVzb2x2ZV9kbnNoZV9zdWJkb21haW4oJmRuc2hlLCAmcGFyc2VkLnJvb3RfZG9tYWluKS5hd2FpdD87CiAgICBsZXQgcmVjb3JkcyA9IGRuc2hlCiAgICAgICAgLnJlcXVlc3QoCiAgICAgICAgICAgICJkbnNfcmVjb3JkcyIsCiAgICAgICAgICAgICJsaXN0IiwKICAgICAgICAgICAgJlsoInN1YmRvbWFpbl9pZCIsIHN1YmRvbWFpbi5pZC50b19zdHJpbmcoKSldLAogICAgICAgICAgICBOb25lLAogICAgICAgICkKICAgICAgICAuYXdhaXQ/OwogICAgbGV0IHR0bCA9IHBvc2l0aXZlX2k2NChjb25maWcuZ2V0KCJ0dGwiKSwgNjAwKTsKICAgIGxldCBwcm92aWRlcl9sYWJlbF90ZXh0ID0gcHJvdmlkZXJfbGFiZWwoU29tZSgiZG5zaGUiKSwgdHJhbnNsYXRvcik7CgogICAgdXBkYXRlX2R1YWxfc3RhY2soCiAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAmcHJvdmlkZXJfbGFiZWxfdGV4dCwKICAgICAgICBpcHY0LAogICAgICAgIGlwdjYsCiAgICAgICAgfHJlY29yZF90eXBlLCBpcHwgewogICAgICAgICAgICBsZXQgZG5zaGUgPSBkbnNoZS5jbG9uZSgpOwogICAgICAgICAgICBsZXQgcm9vdF9kb21haW4gPSBwYXJzZWQucm9vdF9kb21haW4uY2xvbmUoKTsKICAgICAgICAgICAgbGV0IGZxZG4gPSBwYXJzZWQuZnFkbi5jbG9uZSgpOwogICAgICAgICAgICAvLyBUaGUgcHJvZHVjdGlvbiBBUEkgcmVqZWN0cyBGUUROcyBoZXJlIGFuZCBhY2NlcHRzIG9ubHkgQCBvciBhIHJlbGF0aXZlIG5hbWUuCiAgICAgICAgICAgIGxldCBjcmVhdGVfbmFtZSA9IGRuc2hlX2NyZWF0ZV9yZWNvcmRfbmFtZSgmcGFyc2VkKTsKICAgICAgICAgICAgbGV0IHJlY29yZHMgPSByZWNvcmRzLmNsb25lKCk7CiAgICAgICAgICAgIGFzeW5jIG1vdmUgewogICAgICAgICAgICAgICAgbWF0Y2ggcGxhbl9kbnNoZV9yZWNvcmRfdXBkYXRlKCZyZWNvcmRzLCAmZnFkbiwgJnJvb3RfZG9tYWluLCByZWNvcmRfdHlwZSwgJmlwKSB7CiAgICAgICAgICAgICAgICAgICAgRG5zaGVSZWNvcmRVcGRhdGVQbGFuOjpOb29wID0+IE9rKCgpKSwKICAgICAgICAgICAgICAgICAgICBEbnNoZVJlY29yZFVwZGF0ZVBsYW46OlVwZGF0ZShpZCkgPT4gewogICAgICAgICAgICAgICAgICAgICAgICBkbnNoZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLnJlcXVlc3QoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgImRuc19yZWNvcmRzIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAidXBkYXRlIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAmW10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU29tZShqc29uISh7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJpZCI6IGlkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiY29udGVudCI6IGlwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAidHRsIjogdHRsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSkpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICAgICAgICAgICAgICAgICAgT2soKCkpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIERuc2hlUmVjb3JkVXBkYXRlUGxhbjo6Q3JlYXRlID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgZG5zaGUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5yZXF1ZXN0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJkbnNfcmVjb3JkcyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgImNyZWF0ZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJltdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNvbWUoanNvbiEoewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAic3ViZG9tYWluX2lkIjogc3ViZG9tYWluLmlkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAidHlwZSI6IHJlY29yZF90eXBlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAibmFtZSI6IGNyZWF0ZV9uYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiY29udGVudCI6IGlwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAidHRsIjogdHRsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSkpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICAgICAgICAgICAgICAgICAgT2soKCkpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIERuc2hlUmVjb3JkVXBkYXRlUGxhbjo6TWlzc2luZ0lkID0+IEVycihhbnlob3c6OmFueWhvdyEoZGRuc190ZXh0KAogICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgICAgICAgICAicHJvdmlkZXJzLmRuc2hlLnJlY29yZElkTWlzc2luZyIsCiAgICAgICAgICAgICAgICAgICAgICAgICZbKCJ0eXBlIiwgcmVjb3JkX3R5cGUudG9fc3RyaW5nKCkpXSwKICAgICAgICAgICAgICAgICAgICApKSksCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgKQogICAgLmF3YWl0Cn0KCmFzeW5jIGZuIHJlc29sdmVfZG5zaGVfc3ViZG9tYWluKAogICAgY2xpZW50OiAmRG5zaGVDbGllbnQsCiAgICByb290X2RvbWFpbjogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDxEbnNoZVN1YmRvbWFpbk1hdGNoPiB7CiAgICBsZXQgbXV0IHBhZ2UgPSAxdXNpemU7CiAgICBsb29wIHsKICAgICAgICBsZXQgZGF0YSA9IGNsaWVudAogICAgICAgICAgICAucmVxdWVzdCgKICAgICAgICAgICAgICAgICJzdWJkb21haW5zIiwKICAgICAgICAgICAgICAgICJsaXN0IiwKICAgICAgICAgICAgICAgICZbCiAgICAgICAgICAgICAgICAgICAgKCJwYWdlIiwgcGFnZS50b19zdHJpbmcoKSksCiAgICAgICAgICAgICAgICAgICAgKCJwZXJfcGFnZSIsIEROU0hFX1NVQkRPTUFJTl9QQUdFX1NJWkUudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAgICAgICAgICgiZmllbGRzIiwgImlkLGZ1bGxfZG9tYWluLHN0YXR1cyIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgIE5vbmUsCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBpZiBsZXQgU29tZShmb3VuZCkgPSBmaW5kX2Ruc2hlX3N1YmRvbWFpbigmZGF0YSwgcm9vdF9kb21haW4pIHsKICAgICAgICAgICAgaWYgZG5zaGVfc3ViZG9tYWluX2lzX3VzYWJsZSgmZm91bmQuc3RhdHVzKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gT2soZm91bmQpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBFcnIoYW55aG93Ojphbnlob3chKGRkbnNfdGV4dCgKICAgICAgICAgICAgICAgICZjbGllbnQudHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJwcm92aWRlcnMuZG5zaGUubWFuYWdlZERvbWFpbkluYWN0aXZlIiwKICAgICAgICAgICAgICAgICZbCiAgICAgICAgICAgICAgICAgICAgKCJkb21haW4iLCBub3JtYWxpemVfZG9tYWluKHJvb3RfZG9tYWluKSksCiAgICAgICAgICAgICAgICAgICAgKAogICAgICAgICAgICAgICAgICAgICAgICAic3RhdHVzIiwKICAgICAgICAgICAgICAgICAgICAgICAgaWYgZm91bmQuc3RhdHVzLmlzX2VtcHR5KCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGRuc190ZXh0KCZjbGllbnQudHJhbnNsYXRvciwgInByb3ZpZGVycy5kbnNoZS51bmtub3duU3RhdHVzIiwgJltdKQogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZm91bmQuc3RhdHVzCiAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICkpKTsKICAgICAgICB9CiAgICAgICAgbGV0IGl0ZW1fY291bnQgPSBkYXRhCiAgICAgICAgICAgIC5nZXQoInN1YmRvbWFpbnMiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgICAgICAubWFwKFZlYzo6bGVuKQogICAgICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgICAgICBsZXQgU29tZShuZXh0X3BhZ2UpID0gZG5zaGVfbmV4dF9zdWJkb21haW5fcGFnZShwYWdlLCAmZGF0YSwgaXRlbV9jb3VudCk/IGVsc2UgewogICAgICAgICAgICBicmVhazsKICAgICAgICB9OwogICAgICAgIHBhZ2UgPSBuZXh0X3BhZ2U7CiAgICB9CgogICAgRXJyKGFueWhvdzo6YW55aG93IShkZG5zX3RleHQoCiAgICAgICAgJmNsaWVudC50cmFuc2xhdG9yLAogICAgICAgICJwcm92aWRlcnMuZG5zaGUubWFuYWdlZERvbWFpbk5vdEZvdW5kIiwKICAgICAgICAmWygiZG9tYWluIiwgbm9ybWFsaXplX2RvbWFpbihyb290X2RvbWFpbikpXSwKICAgICkpKQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgZm4gZG5zaGVfc3ViZG9tYWluX2lzX3VzYWJsZShzdGF0dXM6ICZzdHIpIC0+IGJvb2wgewogICAgLy8gUHJvZHVjdGlvbiByZXR1cm5zICJSZWdpc3RlcmVkIiBmb3IgdXNhYmxlIG1hbmFnZWQgZG9tYWlucyBkZXNwaXRlIGRvY3VtZW50aW5nICJhY3RpdmUiLgogICAgbWF0Y2hlcyEoCiAgICAgICAgc3RhdHVzLnRyaW0oKS50b19hc2NpaV9sb3dlcmNhc2UoKS5hc19zdHIoKSwKICAgICAgICAiYWN0aXZlIiB8ICJyZWdpc3RlcmVkIgogICAgKQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgZm4gZG5zaGVfY3JlYXRlX3JlY29yZF9uYW1lKGRvbWFpbjogJlNwbGl0RG9tYWluKSAtPiBTdHJpbmcgewogICAgZG9tYWluLnJlY29yZF9uYW1lLmNsb25lKCkKfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGRuc2hlX3JlcXVlc3Rfc3BlYygKICAgIGFwaV9rZXk6ICZzdHIsCiAgICBhcGlfc2VjcmV0OiAmc3RyLAogICAgZW5kcG9pbnQ6ICZzdHIsCiAgICBhY3Rpb246ICZzdHIsCiAgICBxdWVyeTogJlsoJnN0ciwgU3RyaW5nKV0sCiAgICBib2R5OiBPcHRpb248VmFsdWU+LAopIC0+IGFueWhvdzo6UmVzdWx0PERuc2hlUmVxdWVzdFNwZWM+IHsKICAgIGxldCB1cmwgPSBkbnNoZV9hcGlfdXJsKGVuZHBvaW50LCBhY3Rpb24sIHF1ZXJ5KT87CiAgICBsZXQgbWV0aG9kID0gaWYgYm9keS5pc19zb21lKCkgewogICAgICAgIHJlcXdlc3Q6Ok1ldGhvZDo6UE9TVAogICAgfSBlbHNlIHsKICAgICAgICByZXF3ZXN0OjpNZXRob2Q6OkdFVAogICAgfTsKICAgIGxldCBtdXQgaGVhZGVycyA9IHZlYyFbCiAgICAgICAgKAogICAgICAgICAgICByZXF3ZXN0OjpoZWFkZXI6OkFDQ0VQVC5hc19zdHIoKS50b19zdHJpbmcoKSwKICAgICAgICAgICAgImFwcGxpY2F0aW9uL2pzb24iLnRvX3N0cmluZygpLAogICAgICAgICksCiAgICAgICAgKCJYLUFQSS1LZXkiLnRvX3N0cmluZygpLCBhcGlfa2V5LnRvX3N0cmluZygpKSwKICAgICAgICAoIlgtQVBJLVNlY3JldCIudG9fc3RyaW5nKCksIGFwaV9zZWNyZXQudG9fc3RyaW5nKCkpLAogICAgXTsKICAgIGlmIGJvZHkuaXNfc29tZSgpIHsKICAgICAgICBoZWFkZXJzLnB1c2goKAogICAgICAgICAgICByZXF3ZXN0OjpoZWFkZXI6OkNPTlRFTlRfVFlQRS5hc19zdHIoKS50b19zdHJpbmcoKSwKICAgICAgICAgICAgImFwcGxpY2F0aW9uL2pzb24iLnRvX3N0cmluZygpLAogICAgICAgICkpOwogICAgfQogICAgT2soRG5zaGVSZXF1ZXN0U3BlYyB7CiAgICAgICAgbWV0aG9kLAogICAgICAgIHVybCwKICAgICAgICBoZWFkZXJzLAogICAgICAgIGJvZHksCiAgICB9KQp9CgpmbiBkbnNoZV9hcGlfdXJsKGVuZHBvaW50OiAmc3RyLCBhY3Rpb246ICZzdHIsIHF1ZXJ5OiAmWygmc3RyLCBTdHJpbmcpXSkgLT4gYW55aG93OjpSZXN1bHQ8U3RyaW5nPiB7CiAgICBsZXQgbXV0IHVybCA9IFVybDo6cGFyc2UoRE5TSEVfQVBJX1VSTCk/OwogICAgewogICAgICAgIGxldCBtdXQgcGFpcnMgPSB1cmwucXVlcnlfcGFpcnNfbXV0KCk7CiAgICAgICAgcGFpcnMKICAgICAgICAgICAgLmFwcGVuZF9wYWlyKCJtIiwgImRvbWFpbl9odWIiKQogICAgICAgICAgICAuYXBwZW5kX3BhaXIoImVuZHBvaW50IiwgZW5kcG9pbnQpCiAgICAgICAgICAgIC5hcHBlbmRfcGFpcigiYWN0aW9uIiwgYWN0aW9uKTsKICAgICAgICBmb3IgKGtleSwgdmFsdWUpIGluIHF1ZXJ5IHsKICAgICAgICAgICAgcGFpcnMuYXBwZW5kX3BhaXIoa2V5LCB2YWx1ZSk7CiAgICAgICAgfQogICAgfQogICAgT2sodXJsLnRvX3N0cmluZygpKQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgZm4gYXNzZXJ0X2Ruc2hlX3N1Y2Nlc3MoCiAgICBzdGF0dXM6IFN0YXR1c0NvZGUsCiAgICBkYXRhOiAmVmFsdWUsCikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIGlmIHN0YXR1cy5pc19zdWNjZXNzKCkgJiYgZGF0YS5nZXQoInN1Y2Nlc3MiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgPT0gU29tZSh0cnVlKSB7CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH0KICAgIEVycihhbnlob3c6OmFueWhvdyEoCiAgICAgICAgIlt7fV0ge30iLAogICAgICAgIHN0YXR1cy5hc191MTYoKSwKICAgICAgICBmb3JtYXRfZG5zaGVfZXJyb3IoZGF0YSkKICAgICkpCn0KCnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBmbiBmb3JtYXRfZG5zaGVfZXJyb3IoZGF0YTogJlZhbHVlKSAtPiBTdHJpbmcgewogICAgZm9yIGtleSBpbiBbIm1lc3NhZ2UiLCAiZXJyb3IiLCAiZXJyb3JfY29kZSJdIHsKICAgICAgICBpZiBsZXQgU29tZSh2YWx1ZSkgPSBqc29uX3RleHQoZGF0YSwga2V5KSB7CiAgICAgICAgICAgIHJldHVybiB2YWx1ZTsKICAgICAgICB9CiAgICB9CiAgICAiRE5TSEUgQVBJIHJlcXVlc3QgZmFpbGVkIi50b19zdHJpbmcoKQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgZm4gZmluZF9kbnNoZV9zdWJkb21haW4oCiAgICBkYXRhOiAmVmFsdWUsCiAgICByb290X2RvbWFpbjogJnN0ciwKKSAtPiBPcHRpb248RG5zaGVTdWJkb21haW5NYXRjaD4gewogICAgbGV0IGV4cGVjdGVkID0gbm9ybWFsaXplX2RvbWFpbihyb290X2RvbWFpbikudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBkYXRhLmdldCgic3ViZG9tYWlucyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSk/CiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maW5kX21hcCh8aXRlbXwgewogICAgICAgICAgICBsZXQgZnVsbF9kb21haW4gPSBub3JtYWxpemVfZG9tYWluKAogICAgICAgICAgICAgICAgaXRlbS5nZXQoImZ1bGxfZG9tYWluIikKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKSwKICAgICAgICAgICAgKQogICAgICAgICAgICAudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICAgICAgICAgIGlmIGZ1bGxfZG9tYWluICE9IGV4cGVjdGVkIHsKICAgICAgICAgICAgICAgIHJldHVybiBOb25lOwogICAgICAgICAgICB9CiAgICAgICAgICAgIFNvbWUoRG5zaGVTdWJkb21haW5NYXRjaCB7CiAgICAgICAgICAgICAgICBpZDogcmVhZF9wb3NpdGl2ZV9pZChpdGVtLmdldCgiaWQiKSk/LAogICAgICAgICAgICAgICAgc3RhdHVzOiBpdGVtCiAgICAgICAgICAgICAgICAgICAgLmdldCgic3RhdHVzIikKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQogICAgICAgICAgICAgICAgICAgIC50cmltKCkKICAgICAgICAgICAgICAgICAgICAudG9fc3RyaW5nKCksCiAgICAgICAgICAgIH0pCiAgICAgICAgfSkKfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGRuc2hlX2hhc19tb3JlX3N1YmRvbWFpbnMoZGF0YTogJlZhbHVlLCBpdGVtX2NvdW50OiB1c2l6ZSkgLT4gYm9vbCB7CiAgICBkYXRhLnBvaW50ZXIoIi9wYWdpbmF0aW9uL2hhc19tb3JlIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgLnVud3JhcF9vcihpdGVtX2NvdW50ID49IEROU0hFX1NVQkRPTUFJTl9QQUdFX1NJWkUpCn0KCnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBmbiBkbnNoZV9uZXh0X3N1YmRvbWFpbl9wYWdlKAogICAgcGFnZTogdXNpemUsCiAgICBkYXRhOiAmVmFsdWUsCiAgICBpdGVtX2NvdW50OiB1c2l6ZSwKKSAtPiBhbnlob3c6OlJlc3VsdDxPcHRpb248dXNpemU+PiB7CiAgICBpZiAhZG5zaGVfaGFzX21vcmVfc3ViZG9tYWlucyhkYXRhLCBpdGVtX2NvdW50KSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfQogICAgaWYgaXRlbV9jb3VudCA9PSAwIHsKICAgICAgICBhbnlob3c6OmJhaWwhKCJETlNIRSBzdWJkb21haW4gcGFnaW5hdGlvbiByZXBvcnRlZCBtb3JlIHBhZ2VzIHdpdGhvdXQgcmV0dXJuaW5nIGFueSBpdGVtcyIpOwogICAgfQogICAgaWYgcGFnZSA+PSBETlNIRV9NQVhfU1VCRE9NQUlOX1BBR0VTIHsKICAgICAgICBhbnlob3c6OmJhaWwhKAogICAgICAgICAgICAiRE5TSEUgc3ViZG9tYWluIHBhZ2luYXRpb24gZXhjZWVkZWQgdGhlIHt9IHBhZ2UgbGltaXQiLAogICAgICAgICAgICBETlNIRV9NQVhfU1VCRE9NQUlOX1BBR0VTCiAgICAgICAgKTsKICAgIH0KICAgIE9rKFNvbWUocGFnZSArIDEpKQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgZm4gZmluZF9kbnNoZV9yZWNvcmQoCiAgICBkYXRhOiAmVmFsdWUsCiAgICBmcWRuOiAmc3RyLAogICAgcm9vdF9kb21haW46ICZzdHIsCiAgICByZWNvcmRfdHlwZTogJnN0ciwKKSAtPiBEbnNoZVJlY29yZExvb2t1cCB7CiAgICBsZXQgZXhwZWN0ZWQgPSBub3JtYWxpemVfZG9tYWluKGZxZG4pLnRvX2FzY2lpX2xvd2VyY2FzZSgpOwogICAgbGV0IHJvb3RfZG9tYWluID0gbm9ybWFsaXplX2RvbWFpbihyb290X2RvbWFpbikudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBsZXQgU29tZShyZWNvcmRzKSA9IGRhdGEuZ2V0KCJyZWNvcmRzIikuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KSBlbHNlIHsKICAgICAgICByZXR1cm4gRG5zaGVSZWNvcmRMb29rdXA6Ok1pc3Npbmc7CiAgICB9OwogICAgbGV0IFNvbWUocmVjb3JkKSA9IHJlY29yZHMuaXRlcigpLmZpbmQofHJlY29yZHwgewogICAgICAgIHJlY29yZAogICAgICAgICAgICAuZ2V0KCJ0eXBlIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgIC5pc19zb21lX2FuZCh8dmFsdWV8IHZhbHVlLmVxX2lnbm9yZV9hc2NpaV9jYXNlKHJlY29yZF90eXBlKSkKICAgICAgICAgICAgJiYgZG5zaGVfcmVjb3JkX2ZxZG4oCiAgICAgICAgICAgICAgICByZWNvcmQKICAgICAgICAgICAgICAgICAgICAuZ2V0KCJuYW1lIikKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKSwKICAgICAgICAgICAgICAgICZyb290X2RvbWFpbiwKICAgICAgICAgICAgKSA9PSBleHBlY3RlZAogICAgfSkgZWxzZSB7CiAgICAgICAgcmV0dXJuIERuc2hlUmVjb3JkTG9va3VwOjpNaXNzaW5nOwogICAgfTsKICAgIGxldCBTb21lKGlkKSA9IHJlYWRfcG9zaXRpdmVfaWQocmVjb3JkLmdldCgiaWQiKSkgZWxzZSB7CiAgICAgICAgcmV0dXJuIERuc2hlUmVjb3JkTG9va3VwOjpNaXNzaW5nSWQ7CiAgICB9OwogICAgRG5zaGVSZWNvcmRMb29rdXA6OkZvdW5kKERuc2hlUmVjb3JkTWF0Y2ggewogICAgICAgIGlkLAogICAgICAgIGNvbnRlbnQ6IHJlY29yZAogICAgICAgICAgICAuZ2V0KCJjb250ZW50IikKICAgICAgICAgICAgLm1hcCh2YWx1ZV90b19jb21wYWN0X3N0cmluZykKICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCksCiAgICB9KQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgZm4gcGxhbl9kbnNoZV9yZWNvcmRfdXBkYXRlKAogICAgZGF0YTogJlZhbHVlLAogICAgZnFkbjogJnN0ciwKICAgIHJvb3RfZG9tYWluOiAmc3RyLAogICAgcmVjb3JkX3R5cGU6ICZzdHIsCiAgICBkZXNpcmVkX2NvbnRlbnQ6ICZzdHIsCikgLT4gRG5zaGVSZWNvcmRVcGRhdGVQbGFuIHsKICAgIG1hdGNoIGZpbmRfZG5zaGVfcmVjb3JkKGRhdGEsIGZxZG4sIHJvb3RfZG9tYWluLCByZWNvcmRfdHlwZSkgewogICAgICAgIERuc2hlUmVjb3JkTG9va3VwOjpNaXNzaW5nID0+IERuc2hlUmVjb3JkVXBkYXRlUGxhbjo6Q3JlYXRlLAogICAgICAgIERuc2hlUmVjb3JkTG9va3VwOjpNaXNzaW5nSWQgPT4gRG5zaGVSZWNvcmRVcGRhdGVQbGFuOjpNaXNzaW5nSWQsCiAgICAgICAgRG5zaGVSZWNvcmRMb29rdXA6OkZvdW5kKHJlY29yZCkgaWYgcmVjb3JkLmNvbnRlbnQgPT0gZGVzaXJlZF9jb250ZW50ID0+IHsKICAgICAgICAgICAgRG5zaGVSZWNvcmRVcGRhdGVQbGFuOjpOb29wCiAgICAgICAgfQogICAgICAgIERuc2hlUmVjb3JkTG9va3VwOjpGb3VuZChyZWNvcmQpID0+IERuc2hlUmVjb3JkVXBkYXRlUGxhbjo6VXBkYXRlKHJlY29yZC5pZCksCiAgICB9Cn0KCnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBmbiBkbnNoZV9yZWNvcmRfZnFkbihuYW1lOiAmc3RyLCByb290X2RvbWFpbjogJnN0cikgLT4gU3RyaW5nIHsKICAgIGxldCBuYW1lID0gbm9ybWFsaXplX2RvbWFpbihuYW1lKS50b19hc2NpaV9sb3dlcmNhc2UoKTsKICAgIGxldCByb290ID0gbm9ybWFsaXplX2RvbWFpbihyb290X2RvbWFpbikudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBpZiBuYW1lLmlzX2VtcHR5KCkgfHwgbmFtZSA9PSAiQCIgewogICAgICAgIHJldHVybiByb290OwogICAgfQogICAgaWYgZGRuc19kb21haW5faXNfc2FtZV9vcl9zdWJkb21haW4oJm5hbWUsICZyb290KSB7CiAgICAgICAgbmFtZQogICAgfSBlbHNlIHsKICAgICAgICBmb3JtYXQhKCJ7bmFtZX0ue3Jvb3R9IikKICAgIH0KfQo=
+use super::*;
+
+const DNSHE_API_URL: &str = "https://api005.dnshe.com/index.php";
+const DNSHE_SUBDOMAIN_PAGE_SIZE: usize = 500;
+pub(in crate::ddns::routes) const DNSHE_MAX_SUBDOMAIN_PAGES: usize = 100;
+
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub(in crate::ddns::routes) struct DnsheSubdomainMatch {
+    pub(in crate::ddns::routes) id: i64,
+    pub(in crate::ddns::routes) status: String,
+}
+
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub(in crate::ddns::routes) struct DnsheRecordMatch {
+    pub(in crate::ddns::routes) id: i64,
+    pub(in crate::ddns::routes) content: String,
+}
+
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub(in crate::ddns::routes) enum DnsheRecordLookup {
+    Missing,
+    MissingId,
+    Found(DnsheRecordMatch),
+}
+
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub(in crate::ddns::routes) enum DnsheRecordUpdatePlan {
+    Noop,
+    Update(i64),
+    Create,
+    MissingId,
+}
+
+#[derive(Clone)]
+struct DnsheClient {
+    translator: Translator,
+    http: DDNSHttpClient,
+    api_key: String,
+    api_secret: String,
+}
+
+pub(in crate::ddns::routes) struct DnsheRequestSpec {
+    pub(in crate::ddns::routes) method: reqwest::Method,
+    pub(in crate::ddns::routes) url: String,
+    pub(in crate::ddns::routes) headers: Vec<(String, String)>,
+    pub(in crate::ddns::routes) body: Option<Value>,
+}
+
+impl DnsheClient {
+    fn new(
+        translator: &Translator,
+        http: DDNSHttpClient,
+        api_key: String,
+        api_secret: String,
+    ) -> Self {
+        Self {
+            translator: translator.clone(),
+            http,
+            api_key,
+            api_secret,
+        }
+    }
+
+    async fn request(
+        &self,
+        endpoint: &str,
+        action: &str,
+        query: &[(&str, String)],
+        body: Option<Value>,
+    ) -> anyhow::Result<Value> {
+        let spec = dnshe_request_spec(
+            &self.api_key,
+            &self.api_secret,
+            endpoint,
+            action,
+            query,
+            body,
+        )?;
+        let mut request = self.http.request(spec.method, spec.url);
+        for (name, value) in spec.headers {
+            request = request.header(name, value);
+        }
+        if let Some(body) = spec.body {
+            request = request.json(&body);
+        }
+        let response = request
+            .send()
+            .await
+            .map_err(|error| provider_request_error(&self.translator, "dnshe", error))?;
+        let (status, data, _) = response_json(&self.translator, response)
+            .await
+            .map_err(|error| provider_request_error(&self.translator, "dnshe", error))?;
+        assert_dnshe_success(status, &data).map_err(|error| {
+            anyhow::anyhow!(ddns_text(
+                &self.translator,
+                "providers.dnshe.apiError",
+                &[("detail", error.to_string())],
+            ))
+        })?;
+        Ok(data)
+    }
+}
+
+pub(in crate::ddns::routes) fn dnshe_catalog_entry() -> Value {
+    provider(
+        "dnshe",
+        "DNSHE",
+        vec![
+            field("api_key", "API Key", "text", "DNSHE API Key", true),
+            field(
+                "api_secret",
+                "API Secret",
+                "password",
+                "DNSHE API Secret",
+                true,
+            ),
+            field(
+                "root_domain",
+                "DNSHE Managed Domain",
+                "text",
+                "example.com",
+                true,
+            ),
+            field("domain", "Domain", "text", "home.example.com", true),
+            field("ttl", "TTL", "text", "600", false),
+        ],
+    )
+}
+
+pub(in crate::ddns::routes) async fn update_dnshe(
+    translator: &Translator,
+    config: &HashMap<String, String>,
+    http_options: &DDNSHttpClientOptions,
+    ipv4: Option<&str>,
+    ipv6: Option<&str>,
+) -> anyhow::Result<DDNSProviderUpdateResult> {
+    let api_key = config_value(config, "api_key");
+    let api_secret = config_value(config, "api_secret");
+    let root_domain = config_value(config, "root_domain");
+    let domain = config_value(config, "domain");
+    if api_key.is_empty() || api_secret.is_empty() || root_domain.is_empty() || domain.is_empty() {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.dnshe.configIncomplete",
+            &[],
+        )));
+    }
+    if ipv4.is_none() && ipv6.is_none() {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.dnshe.noIpAvailable",
+            &[],
+        )));
+    }
+
+    let parsed = split_domain(translator, &domain, &root_domain)?;
+    let client = ddns_http_client_no_redirects(translator, http_options)
+        .map_err(|error| provider_request_error(translator, "dnshe", error))?;
+    let dnshe = DnsheClient::new(translator, client, api_key, api_secret);
+    let subdomain = resolve_dnshe_subdomain(&dnshe, &parsed.root_domain).await?;
+    let records = dnshe
+        .request(
+            "dns_records",
+            "list",
+            &[("subdomain_id", subdomain.id.to_string())],
+            None,
+        )
+        .await?;
+    let ttl = positive_i64(config.get("ttl"), 600);
+    let provider_label_text = provider_label(Some("dnshe"), translator);
+
+    update_dual_stack(
+        translator,
+        &provider_label_text,
+        ipv4,
+        ipv6,
+        |record_type, ip| {
+            let dnshe = dnshe.clone();
+            let root_domain = parsed.root_domain.clone();
+            let fqdn = parsed.fqdn.clone();
+            // The production API rejects FQDNs here and accepts only @ or a relative name.
+            let create_name = dnshe_create_record_name(&parsed);
+            let records = records.clone();
+            async move {
+                match plan_dnshe_record_update(&records, &fqdn, &root_domain, record_type, &ip) {
+                    DnsheRecordUpdatePlan::Noop => Ok(()),
+                    DnsheRecordUpdatePlan::Update(id) => {
+                        dnshe
+                            .request(
+                                "dns_records",
+                                "update",
+                                &[],
+                                Some(json!({
+                                    "id": id,
+                                    "content": ip,
+                                    "ttl": ttl
+                                })),
+                            )
+                            .await?;
+                        Ok(())
+                    }
+                    DnsheRecordUpdatePlan::Create => {
+                        dnshe
+                            .request(
+                                "dns_records",
+                                "create",
+                                &[],
+                                Some(json!({
+                                    "subdomain_id": subdomain.id,
+                                    "type": record_type,
+                                    "name": create_name,
+                                    "content": ip,
+                                    "ttl": ttl
+                                })),
+                            )
+                            .await?;
+                        Ok(())
+                    }
+                    DnsheRecordUpdatePlan::MissingId => Err(anyhow::anyhow!(ddns_text(
+                        translator,
+                        "providers.dnshe.recordIdMissing",
+                        &[("type", record_type.to_string())],
+                    ))),
+                }
+            }
+        },
+    )
+    .await
+}
+
+async fn resolve_dnshe_subdomain(
+    client: &DnsheClient,
+    root_domain: &str,
+) -> anyhow::Result<DnsheSubdomainMatch> {
+    let mut page = 1usize;
+    loop {
+        let data = client
+            .request(
+                "subdomains",
+                "list",
+                &[
+                    ("page", page.to_string()),
+                    ("per_page", DNSHE_SUBDOMAIN_PAGE_SIZE.to_string()),
+                    ("fields", "id,full_domain,status".to_string()),
+                ],
+                None,
+            )
+            .await?;
+        if let Some(found) = find_dnshe_subdomain(&data, root_domain) {
+            if dnshe_subdomain_is_usable(&found.status) {
+                return Ok(found);
+            }
+            return Err(anyhow::anyhow!(ddns_text(
+                &client.translator,
+                "providers.dnshe.managedDomainInactive",
+                &[
+                    ("domain", normalize_domain(root_domain)),
+                    (
+                        "status",
+                        if found.status.is_empty() {
+                            ddns_text(&client.translator, "providers.dnshe.unknownStatus", &[])
+                        } else {
+                            found.status
+                        },
+                    ),
+                ],
+            )));
+        }
+        let item_count = data
+            .get("subdomains")
+            .and_then(Value::as_array)
+            .map(Vec::len)
+            .unwrap_or_default();
+        let Some(next_page) = dnshe_next_subdomain_page(page, &data, item_count)? else {
+            break;
+        };
+        page = next_page;
+    }
+
+    Err(anyhow::anyhow!(ddns_text(
+        &client.translator,
+        "providers.dnshe.managedDomainNotFound",
+        &[("domain", normalize_domain(root_domain))],
+    )))
+}
+
+pub(in crate::ddns::routes) fn dnshe_subdomain_is_usable(status: &str) -> bool {
+    // Production returns "Registered" for usable managed domains despite documenting "active".
+    matches!(
+        status.trim().to_ascii_lowercase().as_str(),
+        "active" | "registered"
+    )
+}
+
+pub(in crate::ddns::routes) fn dnshe_create_record_name(domain: &SplitDomain) -> String {
+    domain.record_name.clone()
+}
+
+pub(in crate::ddns::routes) fn dnshe_request_spec(
+    api_key: &str,
+    api_secret: &str,
+    endpoint: &str,
+    action: &str,
+    query: &[(&str, String)],
+    body: Option<Value>,
+) -> anyhow::Result<DnsheRequestSpec> {
+    let url = dnshe_api_url(endpoint, action, query)?;
+    let method = if body.is_some() {
+        reqwest::Method::POST
+    } else {
+        reqwest::Method::GET
+    };
+    let mut headers = vec![
+        (
+            reqwest::header::ACCEPT.as_str().to_string(),
+            "application/json".to_string(),
+        ),
+        ("X-API-Key".to_string(), api_key.to_string()),
+        ("X-API-Secret".to_string(), api_secret.to_string()),
+    ];
+    if body.is_some() {
+        headers.push((
+            reqwest::header::CONTENT_TYPE.as_str().to_string(),
+            "application/json".to_string(),
+        ));
+    }
+    Ok(DnsheRequestSpec {
+        method,
+        url,
+        headers,
+        body,
+    })
+}
+
+fn dnshe_api_url(endpoint: &str, action: &str, query: &[(&str, String)]) -> anyhow::Result<String> {
+    let mut url = Url::parse(DNSHE_API_URL)?;
+    {
+        let mut pairs = url.query_pairs_mut();
+        pairs
+            .append_pair("m", "domain_hub")
+            .append_pair("endpoint", endpoint)
+            .append_pair("action", action);
+        for (key, value) in query {
+            pairs.append_pair(key, value);
+        }
+    }
+    Ok(url.to_string())
+}
+
+pub(in crate::ddns::routes) fn assert_dnshe_success(
+    status: StatusCode,
+    data: &Value,
+) -> anyhow::Result<()> {
+    if status.is_success() && data.get("success").and_then(Value::as_bool) == Some(true) {
+        return Ok(());
+    }
+    Err(anyhow::anyhow!(
+        "[{}] {}",
+        status.as_u16(),
+        format_dnshe_error(data)
+    ))
+}
+
+pub(in crate::ddns::routes) fn format_dnshe_error(data: &Value) -> String {
+    for key in ["message", "error", "error_code"] {
+        if let Some(value) = json_text(data, key) {
+            return value;
+        }
+    }
+    "DNSHE API request failed".to_string()
+}
+
+pub(in crate::ddns::routes) fn find_dnshe_subdomain(
+    data: &Value,
+    root_domain: &str,
+) -> Option<DnsheSubdomainMatch> {
+    let expected = normalize_domain(root_domain).to_ascii_lowercase();
+    data.get("subdomains")
+        .and_then(Value::as_array)?
+        .iter()
+        .find_map(|item| {
+            let full_domain = normalize_domain(
+                item.get("full_domain")
+                    .and_then(Value::as_str)
+                    .unwrap_or_default(),
+            )
+            .to_ascii_lowercase();
+            if full_domain != expected {
+                return None;
+            }
+            Some(DnsheSubdomainMatch {
+                id: read_positive_id(item.get("id"))?,
+                status: item
+                    .get("status")
+                    .and_then(Value::as_str)
+                    .unwrap_or_default()
+                    .trim()
+                    .to_string(),
+            })
+        })
+}
+
+pub(in crate::ddns::routes) fn dnshe_has_more_subdomains(data: &Value, item_count: usize) -> bool {
+    data.pointer("/pagination/has_more")
+        .and_then(Value::as_bool)
+        .unwrap_or(item_count >= DNSHE_SUBDOMAIN_PAGE_SIZE)
+}
+
+pub(in crate::ddns::routes) fn dnshe_next_subdomain_page(
+    page: usize,
+    data: &Value,
+    item_count: usize,
+) -> anyhow::Result<Option<usize>> {
+    if !dnshe_has_more_subdomains(data, item_count) {
+        return Ok(None);
+    }
+    if item_count == 0 {
+        anyhow::bail!("DNSHE subdomain pagination reported more pages without returning any items");
+    }
+    if page >= DNSHE_MAX_SUBDOMAIN_PAGES {
+        anyhow::bail!(
+            "DNSHE subdomain pagination exceeded the {} page limit",
+            DNSHE_MAX_SUBDOMAIN_PAGES
+        );
+    }
+    Ok(Some(page + 1))
+}
+
+pub(in crate::ddns::routes) fn find_dnshe_record(
+    data: &Value,
+    fqdn: &str,
+    root_domain: &str,
+    record_type: &str,
+) -> DnsheRecordLookup {
+    let expected = normalize_domain(fqdn).to_ascii_lowercase();
+    let root_domain = normalize_domain(root_domain).to_ascii_lowercase();
+    let Some(records) = data.get("records").and_then(Value::as_array) else {
+        return DnsheRecordLookup::Missing;
+    };
+    let Some(record) = records.iter().find(|record| {
+        record
+            .get("type")
+            .and_then(Value::as_str)
+            .is_some_and(|value| value.eq_ignore_ascii_case(record_type))
+            && dnshe_record_fqdn(
+                record
+                    .get("name")
+                    .and_then(Value::as_str)
+                    .unwrap_or_default(),
+                &root_domain,
+            ) == expected
+    }) else {
+        return DnsheRecordLookup::Missing;
+    };
+    let Some(id) = read_positive_id(record.get("id")) else {
+        return DnsheRecordLookup::MissingId;
+    };
+    DnsheRecordLookup::Found(DnsheRecordMatch {
+        id,
+        content: record
+            .get("content")
+            .map(value_to_compact_string)
+            .unwrap_or_default(),
+    })
+}
+
+pub(in crate::ddns::routes) fn plan_dnshe_record_update(
+    data: &Value,
+    fqdn: &str,
+    root_domain: &str,
+    record_type: &str,
+    desired_content: &str,
+) -> DnsheRecordUpdatePlan {
+    match find_dnshe_record(data, fqdn, root_domain, record_type) {
+        DnsheRecordLookup::Missing => DnsheRecordUpdatePlan::Create,
+        DnsheRecordLookup::MissingId => DnsheRecordUpdatePlan::MissingId,
+        DnsheRecordLookup::Found(record) if record.content == desired_content => {
+            DnsheRecordUpdatePlan::Noop
+        }
+        DnsheRecordLookup::Found(record) => DnsheRecordUpdatePlan::Update(record.id),
+    }
+}
+
+pub(in crate::ddns::routes) fn dnshe_record_fqdn(name: &str, root_domain: &str) -> String {
+    let name = normalize_domain(name).to_ascii_lowercase();
+    let root = normalize_domain(root_domain).to_ascii_lowercase();
+    if name.is_empty() || name == "@" {
+        return root;
+    }
+    if ddns_domain_is_same_or_subdomain(&name, &root) {
+        name
+    } else {
+        format!("{name}.{root}")
+    }
+}

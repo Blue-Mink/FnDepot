@@ -1,1 +1,456 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgp0eXBlIFNjaGVtYSA9IHsKICBkZXNjcmlwdGlvbj86IHN0cmluZzsKICBlbnVtPzogc3RyaW5nW107CiAgZm9ybWF0Pzogc3RyaW5nOwogIGl0ZW1zPzogU2NoZW1hOwogIG1pbkxlbmd0aD86IG51bWJlcjsKICBwcm9wZXJ0aWVzPzogUmVjb3JkPHN0cmluZywgU2NoZW1hPjsKICByZXF1aXJlZD86IHN0cmluZ1tdOwogIHR5cGU/OiBzdHJpbmc7CiAgd3JpdGVPbmx5PzogYm9vbGVhbjsKfTsKCnR5cGUgT3BlcmF0aW9uID0gewogICJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSI/OiBzdHJpbmc7CiAgZGVzY3JpcHRpb24/OiBzdHJpbmc7CiAgcGFyYW1ldGVycz86IEFycmF5PHsKICAgIGluPzogc3RyaW5nOwogICAgbmFtZT86IHN0cmluZzsKICAgIHJlcXVpcmVkPzogYm9vbGVhbjsKICAgIHNjaGVtYT86IFNjaGVtYTsKICB9PjsKICByZXF1ZXN0Qm9keT86IHsKICAgIHJlcXVpcmVkPzogYm9vbGVhbjsKICAgIGNvbnRlbnQ/OiBSZWNvcmQ8CiAgICAgIHN0cmluZywKICAgICAgeyBleGFtcGxlcz86IFJlY29yZDxzdHJpbmcsIHsgdmFsdWU/OiB1bmtub3duIH0+OyBzY2hlbWE/OiBTY2hlbWEgfQogICAgPjsKICB9OwogIHJlc3BvbnNlcz86IFJlY29yZDwKICAgIHN0cmluZywKICAgIHsKICAgICAgY29udGVudD86IFJlY29yZDwKICAgICAgICBzdHJpbmcsCiAgICAgICAgeyBleGFtcGxlcz86IFJlY29yZDxzdHJpbmcsIHsgdmFsdWU/OiB1bmtub3duIH0+OyBzY2hlbWE/OiBTY2hlbWEgfQogICAgICA+OwogICAgICBkZXNjcmlwdGlvbj86IHN0cmluZzsKICAgIH0KICA+OwogIHNlY3VyaXR5PzogQXJyYXk8UmVjb3JkPHN0cmluZywgc3RyaW5nW10+PjsKICBzdW1tYXJ5Pzogc3RyaW5nOwogIHRhZ3M/OiBzdHJpbmdbXTsKfTsKCmNvbnN0IGNvbnRyYWN0ID0gSlNPTi5wYXJzZSgKICByZWFkU291cmNlKCIuLi8uLi8uLi9wYWNrYWdlcy9hcGktY29udHJhY3Qvb3BlbmFwaS5qc29uIiksCikgYXMgewogIGNvbXBvbmVudHM6IHsKICAgIHNjaGVtYXM6IFJlY29yZDxzdHJpbmcsIFNjaGVtYT47CiAgICBzZWN1cml0eVNjaGVtZXM/OiBSZWNvcmQ8c3RyaW5nLCB7IHNjaGVtZT86IHN0cmluZzsgdHlwZT86IHN0cmluZyB9PjsKICB9OwogIHBhdGhzOiBSZWNvcmQ8c3RyaW5nLCBSZWNvcmQ8c3RyaW5nLCBPcGVyYXRpb24+PjsKICB0YWdzPzogQXJyYXk8eyBkZXNjcmlwdGlvbj86IHN0cmluZzsgbmFtZT86IHN0cmluZyB9PjsKfTsKCmRlc2NyaWJlKCJTU0wgY2VydGlmaWNhdGUgQVBJIGNvbnRyYWN0IiwgKCkgPT4gewogIGl0KCJrZWVwcyBldmVyeSBTU0wgYW5kIGxvY2FsIENBIG9wZXJhdGlvbiBvbiB0aGUgcnVudGltZSBVdG9pcGEgcm91dGVyIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBbbWV0aG9kLCBwYXRoXSBvZiBbCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vc3NsL3N0YXR1cyJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL3NzbC9zaGFyZWQtZmlsZXMiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9zc2wvc2hhcmVkLWZpbGVzL2NvbnRlbnQiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9zc2wvY2VydC5wZW0iXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9zc2wvY2VydC56aXAiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9zc2wvY2Evc3RhdHVzIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3NzbC9jYS9pbml0Il0sCiAgICAgIFsiZGVsZXRlIiwgIi9hcGkvYWRtaW4vc3NsL2NhIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vc3NsL2NhL2NlcnQucGVtIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vc3NsL2NhL3NlcnZlci1jZXJ0LnppcCJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL3NzbC9jYS9ob3N0cyJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9zc2wvY2EvaG9zdHMiXSwKICAgICAgWyJkZWxldGUiLCAiL2FwaS9hZG1pbi9zc2wvY2EvaG9zdHMiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vc3NsL2NhL2lzc3VlIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3NzbC9jZXJ0aWZpY2F0ZXMiXSwKICAgICAgWyJkZWxldGUiLCAiL2FwaS9hZG1pbi9zc2wvY2VydGlmaWNhdGVzIl0sCiAgICAgIFsiZGVsZXRlIiwgIi9hcGkvYWRtaW4vc3NsL2NlcnRpZmljYXRlcy97aWR9Il0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vc3NsL2NlcnRpZmljYXRlcy97aWR9L2Rvd25sb2FkIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3NzbC9hY3RpdmF0ZSJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9zc2wvZGVwbG95bWVudC1tb2RlIl0sCiAgICAgIFsiZGVsZXRlIiwgIi9hcGkvYWRtaW4vc3NsIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vc3NsL2V4dGVybmFsLWJpbmRpbmdzIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3NzbC9leHRlcm5hbC1iaW5kaW5ncyJdLAogICAgICBbInBhdGNoIiwgIi9hcGkvYWRtaW4vc3NsL2V4dGVybmFsLWJpbmRpbmdzL3tpZH0iXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vc3NsL2V4dGVybmFsLWJpbmRpbmdzL3tpZH0vcm90YXRlLXRva2VuIl0sCiAgICAgIFsiZGVsZXRlIiwgIi9hcGkvYWRtaW4vc3NsL2V4dGVybmFsLWJpbmRpbmdzL3tpZH0iXSwKICAgICAgWyJwdXQiLCAiL2FwaS9pbnRlZ3JhdGlvbnMvY2VydGlmaWNhdGVzL3tiaW5kaW5nX2lkfSJdLAogICAgICBbInB1dCIsICIvX19jZXJ0aWZpY2F0ZXNfXy97YmluZGluZ19pZH0iXSwKICAgIF0gYXMgY29uc3QpIHsKICAgICAgYXNzZXJ0LmVxdWFsKAogICAgICAgIGNvbnRyYWN0LnBhdGhzW3BhdGhdPy5bbWV0aG9kXT8uWyJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSJdLAogICAgICAgICJ1dG9pcGEiLAogICAgICAgIGAke21ldGhvZC50b1VwcGVyQ2FzZSgpfSAke3BhdGh9YCwKICAgICAgKTsKICAgIH0KICB9KTsKCiAgaXQoInNlcGFyYXRlcyBwcml2YXRlIGNlcnRpZmljYXRlIGlucHV0IGZyb20gcHVibGljIHN0YXR1cyBvdXRwdXQiLCAoKSA9PiB7CiAgICBjb25zdCBzYXZlID0gY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLlNzbENlcnRpZmljYXRlU2F2ZUJvZHlEYXRhOwogICAgY29uc3Qgc3RhdHVzID0gY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLlNzbFN0YXR1c0RhdGE7CiAgICBhc3NlcnQub2soc2F2ZS5yZXF1aXJlZD8uaW5jbHVkZXMoImNlcnQiKSk7CiAgICBhc3NlcnQub2soc2F2ZS5yZXF1aXJlZD8uaW5jbHVkZXMoImtleSIpKTsKICAgIGFzc2VydC5lcXVhbChzYXZlLnByb3BlcnRpZXM/LmtleT8ud3JpdGVPbmx5LCB0cnVlKTsKICAgIGFzc2VydC5tYXRjaChzYXZlLnByb3BlcnRpZXM/LmtleT8uZGVzY3JpcHRpb24gPz8gIiIsIC/ku4XlhpnlhaUvdSk7CiAgICBhc3NlcnQubWF0Y2goc2F2ZS5wcm9wZXJ0aWVzPy5jZXJ0Py5kZXNjcmlwdGlvbiA/PyAiIiwgL1BFTS91KTsKICAgIGFzc2VydC5lcXVhbChzdGF0dXMucHJvcGVydGllcz8ua2V5LCB1bmRlZmluZWQpOwogICAgYXNzZXJ0Lm1hdGNoKHN0YXR1cy5kZXNjcmlwdGlvbiA/PyAiIiwgL+eKtuaAgeW/q+eFpy91KTsKICAgIGFzc2VydC5kZWVwRXF1YWwoc3RhdHVzLnByb3BlcnRpZXM/LmRlcGxveW1lbnRNb2RlPy5lbnVtLCBbCiAgICAgICJzaW5nbGVfYWN0aXZlIiwKICAgICAgIm11bHRpX3NuaSIsCiAgICBdKTsKICAgIGZvciAoY29uc3QgZmllbGQgb2YgWwogICAgICAic3ViZG9tYWluX2NvdmVyYWdlIiwKICAgICAgImxpYnJhcnlfY292ZXJhZ2UiLAogICAgICAiZ2F0ZXdheV9zdGF0dXMiLAogICAgXSkgewogICAgICBhc3NlcnQub2soc3RhdHVzLnJlcXVpcmVkPy5pbmNsdWRlcyhmaWVsZCksIGZpZWxkKTsKICAgIH0KICB9KTsKCiAgaXQoImRvY3VtZW50cyBldmVyeSBTU0wgb3BlcmF0aW9uIGluIENoaW5lc2Ugd2l0aG91dCBwdWJsaXNoaW5nIHByaXZhdGUga2V5cyIsICgpID0+IHsKICAgIGNvbnN0IHNzbFRhZyA9IGNvbnRyYWN0LnRhZ3M/LmZpbmQoKHRhZykgPT4gdGFnLm5hbWUgPT09ICJzc2wiKTsKICAgIGFzc2VydC5tYXRjaChzc2xUYWc/LmRlc2NyaXB0aW9uID8/ICIiLCAv6K+B5Lmm5bqTL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHNzbFRhZz8uZGVzY3JpcHRpb24gPz8gIiIsIC/nrqHnkIbkvJror50vdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKAogICAgICBzc2xUYWc/LmRlc2NyaXB0aW9uID8/ICIiLAogICAgICAvXFxuL3UsCiAgICAgICJ0YWcgZGVzY3JpcHRpb25zIG11c3QgdXNlIHJlYWwgbGluZSBicmVha3MgaW5zdGVhZCBvZiBsaXRlcmFsIGVzY2FwZSBzZXF1ZW5jZXMiLAogICAgKTsKCiAgICBjb25zdCBzc2xPcGVyYXRpb25zID0gT2JqZWN0LnZhbHVlcyhjb250cmFjdC5wYXRocykuZmxhdE1hcCgocGF0aEl0ZW0pID0+CiAgICAgIE9iamVjdC52YWx1ZXMocGF0aEl0ZW0pLmZpbHRlcigKICAgICAgICAob3BlcmF0aW9uKSA9PgogICAgICAgICAgb3BlcmF0aW9uWyJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSJdID09PSAidXRvaXBhIiAmJgogICAgICAgICAgb3BlcmF0aW9uLnRhZ3M/LmluY2x1ZGVzKCJzc2wiKSwKICAgICAgKSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoc3NsT3BlcmF0aW9ucy5sZW5ndGgsIDMwKTsKICAgIGFzc2VydC5vayhjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9zc2wvZXh0ZXJuYWwtYmluZGluZ3MvbGFuIl0uZ2V0KTsKICAgIGFzc2VydC5vayhjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9zc2wvZXh0ZXJuYWwtYmluZGluZ3MvbGFuIl0ucHV0KTsKICAgIGZvciAoY29uc3Qgb3BlcmF0aW9uIG9mIHNzbE9wZXJhdGlvbnMpIHsKICAgICAgYXNzZXJ0Lm1hdGNoKG9wZXJhdGlvbi5zdW1tYXJ5ID8/ICIiLCAvW1x1NGUwMC1cdTlmZmZdL3UpOwogICAgICBhc3NlcnQubWF0Y2gob3BlcmF0aW9uLmRlc2NyaXB0aW9uID8/ICIiLCAvW1x1NGUwMC1cdTlmZmZdL3UpOwogICAgICBhc3NlcnQubWF0Y2goCiAgICAgICAgb3BlcmF0aW9uLnJlc3BvbnNlcz8uWyIyMDAiXT8uZGVzY3JpcHRpb24gPz8gIiIsCiAgICAgICAgL1tcdTRlMDAtXHU5ZmZmXS91LAogICAgICApOwogICAgfQoKICAgIGNvbnN0IHNhdmUgPSBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9zc2wvY2VydGlmaWNhdGVzIl0ucG9zdDsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgc2F2ZS5yZXF1ZXN0Qm9keT8uY29udGVudD8uWyJhcHBsaWNhdGlvbi9qc29uIl0/LmV4YW1wbGVzLAogICAgICB1bmRlZmluZWQsCiAgICAgICJjZXJ0aWZpY2F0ZSBpbXBvcnQgbXVzdCBub3QgcHVibGlzaCBhIGZha2UgUEVNIG9yIHByaXZhdGUta2V5IGV4YW1wbGUiLAogICAgKTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goCiAgICAgIEpTT04uc3RyaW5naWZ5KGNvbnRyYWN0KSwKICAgICAgLy0tLS0tQkVHSU4oPzogW0EtWl0rKT8gUFJJVkFURSBLRVktLS0tLS91LAogICAgKTsKICB9KTsKCiAgaXQoImtlZXBzIGV4dGVybmFsIGRlcGxveW1lbnQgY3JlZGVudGlhbHMgc2NvcGVkIGFuZCB3cml0ZS1vbmx5IiwgKCkgPT4gewogICAgY29uc3QgYmluZGluZyA9IGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5FeHRlcm5hbENlcnRpZmljYXRlQmluZGluZ0RhdGE7CiAgICBjb25zdCBsYW4gPSBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuTGFuQ2VydGlmaWNhdGVEZXBsb3ltZW50RGF0YTsKICAgIGNvbnN0IGNyZWRlbnRpYWwgPQogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuRXh0ZXJuYWxDZXJ0aWZpY2F0ZUJpbmRpbmdDcmVkZW50aWFsRGF0YTsKICAgIGNvbnN0IGRlcGxveW1lbnQgPQogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuRXh0ZXJuYWxDZXJ0aWZpY2F0ZURlcGxveUJvZHlEYXRhOwogICAgY29uc3QgZGVwbG95T3BlcmF0aW9uID0KICAgICAgY29udHJhY3QucGF0aHNbIi9hcGkvaW50ZWdyYXRpb25zL2NlcnRpZmljYXRlcy97YmluZGluZ19pZH0iXS5wdXQ7CiAgICBjb25zdCBwdWJsaWNEZXBsb3lPcGVyYXRpb24gPQogICAgICBjb250cmFjdC5wYXRoc1siL19fY2VydGlmaWNhdGVzX18ve2JpbmRpbmdfaWR9Il0ucHV0OwoKICAgIGFzc2VydC5lcXVhbChjcmVkZW50aWFsLnByb3BlcnRpZXM/LnRva2VuPy53cml0ZU9ubHksIHRydWUpOwogICAgYXNzZXJ0LmVxdWFsKGRlcGxveW1lbnQucHJvcGVydGllcz8ua2V5Py53cml0ZU9ubHksIHRydWUpOwogICAgYXNzZXJ0LmVxdWFsKGJpbmRpbmcucHJvcGVydGllcz8udG9rZW4sIHVuZGVmaW5lZCk7CiAgICBhc3NlcnQub2soYmluZGluZy5yZXF1aXJlZD8uaW5jbHVkZXMoImNlcnRpZmljYXRlX2lkIikpOwogICAgYXNzZXJ0Lm9rKGJpbmRpbmcucmVxdWlyZWQ/LmluY2x1ZGVzKCJkZXBsb3lfcG9ydCIpKTsKICAgIGFzc2VydC5vayhiaW5kaW5nLnJlcXVpcmVkPy5pbmNsdWRlcygicHVibGljX2RlcGxveV91cmwiKSk7CiAgICBhc3NlcnQub2soYmluZGluZy5yZXF1aXJlZD8uaW5jbHVkZXMoInB1YmxpY19kZXBsb3lfc3RhdHVzIikpOwogICAgYXNzZXJ0Lm9rKGJpbmRpbmcucmVxdWlyZWQ/LmluY2x1ZGVzKCJsYW5fZGVwbG95X3VybHMiKSk7CiAgICBhc3NlcnQub2soYmluZGluZy5yZXF1aXJlZD8uaW5jbHVkZXMoImxhbl9kZXBsb3lfc3RhdHVzIikpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChiaW5kaW5nLnByb3BlcnRpZXM/Lmxhbl9kZXBsb3lfc3RhdHVzPy5lbnVtLCBbCiAgICAgICJyZWFkeSIsCiAgICAgICJkaXNhYmxlZCIsCiAgICAgICJzc2xfdW5hdmFpbGFibGUiLAogICAgICAibGlzdGVuZXJfbG9vcGJhY2siLAogICAgICAiZ2F0ZXdheV91bmF2YWlsYWJsZSIsCiAgICBdKTsKICAgIGFzc2VydC5vayhsYW4ucmVxdWlyZWQ/LmluY2x1ZGVzKCJjb25maWd1cmVkX2FkZHJlc3NlcyIpKTsKICAgIGFzc2VydC5vayhsYW4ucmVxdWlyZWQ/LmluY2x1ZGVzKCJkZXRlY3RlZF9hZGRyZXNzZXMiKSk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGJpbmRpbmcucHJvcGVydGllcz8uZGVwbG95X3BvcnQ/LmRlc2NyaXB0aW9uID8/ICIiLAogICAgICAvQkFDS0VORF9QT1JUL3UsCiAgICApOwogICAgYXNzZXJ0Lm9rKGJpbmRpbmcucmVxdWlyZWQ/LmluY2x1ZGVzKCJzZXR1cF9raW5kIikpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChiaW5kaW5nLnByb3BlcnRpZXM/LnByb3ZpZGVyPy5lbnVtLCBbCiAgICAgICJjZXJ0ZCIsCiAgICAgICJhY21lX3NoIiwKICAgICAgImxlZ28iLAogICAgICAiY2VydGJvdCIsCiAgICBdKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoYmluZGluZy5wcm9wZXJ0aWVzPy5zZXR1cF9raW5kPy5lbnVtLCBbCiAgICAgICJ3ZWJob29rIiwKICAgICAgImRlcGxveV9ob29rIiwKICAgIF0pOwogICAgYXNzZXJ0LmRlZXBFcXVhbChiaW5kaW5nLnByb3BlcnRpZXM/LnB1YmxpY19kZXBsb3lfc3RhdHVzPy5lbnVtLCBbCiAgICAgICJyZWFkeSIsCiAgICAgICJhdXRoX2hvc3RfdW5jb25maWd1cmVkIiwKICAgICAgImh0dHBzX3JlcXVpcmVkIiwKICAgIF0pOwogICAgYXNzZXJ0Lm9rKGJpbmRpbmcucmVxdWlyZWQ/LmluY2x1ZGVzKCJsYXN0X3JlcGxhY2VkX3NvdXJjZXMiKSk7CiAgICBhc3NlcnQub2soYmluZGluZy5yZXF1aXJlZD8uaW5jbHVkZXMoImxhc3RfdGFrZW92ZXJfYXQiKSk7CiAgICBhc3NlcnQub2soYmluZGluZy5wcm9wZXJ0aWVzPy5yZXF1ZXN0X2JvZHlfdGVtcGxhdGUpOwogICAgYXNzZXJ0Lm9rKGJpbmRpbmcucHJvcGVydGllcz8uc2NyaXB0X3RlbXBsYXRlKTsKICAgIGFzc2VydC5vayhiaW5kaW5nLnByb3BlcnRpZXM/LnVzYWdlX2luc3RydWN0aW9ucyk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKGRlcGxveU9wZXJhdGlvbi5zZWN1cml0eSwgWwogICAgICB7IGNlcnRpZmljYXRlRGVwbG95bWVudFRva2VuOiBbXSB9LAogICAgXSk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKHB1YmxpY0RlcGxveU9wZXJhdGlvbi5zZWN1cml0eSwgWwogICAgICB7IGNlcnRpZmljYXRlRGVwbG95bWVudFRva2VuOiBbXSB9LAogICAgXSk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2VjdXJpdHlTY2hlbWVzPy5jZXJ0aWZpY2F0ZURlcGxveW1lbnRUb2tlbj8udHlwZSwKICAgICAgImh0dHAiLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zZWN1cml0eVNjaGVtZXM/LmNlcnRpZmljYXRlRGVwbG95bWVudFRva2VuPy5zY2hlbWUsCiAgICAgICJiZWFyZXIiLAogICAgKTsKICAgIGZvciAoY29uc3Qgc3RhdHVzIG9mIFsiNDAwIiwgIjQwMSIsICI0MDQiLCAiNDA5IiwgIjQxMyIsICI1MDAiLCAiNTAyIl0pIHsKICAgICAgYXNzZXJ0Lm9rKGRlcGxveU9wZXJhdGlvbi5yZXNwb25zZXM/LltzdGF0dXNdLCBzdGF0dXMpOwogICAgfQogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaCgKICAgICAgZGVwbG95T3BlcmF0aW9uLmRlc2NyaXB0aW9uID8/ICIiLAogICAgICAv5b+F6aG76YCa6L+HIEhUVFBTfEhUVFBTIG9ubHl8bXVzdCAoPzp1c2V8YmUgY2FsbGVkIG92ZXIpIEhUVFBTL2l1LAogICAgICAidGhlIHJlY2VpdmluZyBlbmRwb2ludCBtdXN0IHJlbWFpbiB1c2FibGUgb3ZlciBlaXRoZXIgSFRUUCBvciBIVFRQUyIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBkZXBsb3lPcGVyYXRpb24ucmVxdWVzdEJvZHk/LmNvbnRlbnQ/LlsiYXBwbGljYXRpb24vanNvbiJdPy5leGFtcGxlcywKICAgICAgdW5kZWZpbmVkLAogICAgICAiZXh0ZXJuYWwgZGVwbG95bWVudCBtdXN0IG5vdCBwdWJsaXNoIGEgZmFrZSBQRU0gb3IgcHJpdmF0ZS1rZXkgZXhhbXBsZSIsCiAgICApOwogIH0pOwoKICBpdCgiZG9jdW1lbnRzIFNTTCBleGFtcGxlcyBhbmQgb3BlcmF0aW9uLXNwZWNpZmljIGVycm9ycyIsICgpID0+IHsKICAgIGNvbnN0IGFjdGl2YXRlID0gY29udHJhY3QucGF0aHNbIi9hcGkvYWRtaW4vc3NsL2FjdGl2YXRlIl0ucG9zdDsKICAgIGNvbnN0IGRlcGxveW1lbnQgPSBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9zc2wvZGVwbG95bWVudC1tb2RlIl0ucG9zdDsKICAgIGNvbnN0IGNhSG9zdHMgPSBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9zc2wvY2EvaG9zdHMiXTsKICAgIGFzc2VydC5vaygKICAgICAgYWN0aXZhdGUucmVxdWVzdEJvZHk/LmNvbnRlbnQ/LlsiYXBwbGljYXRpb24vanNvbiJdPy5leGFtcGxlcz8uYWN0aXZhdGUsCiAgICApOwogICAgYXNzZXJ0Lm9rKAogICAgICBkZXBsb3ltZW50LnJlcXVlc3RCb2R5Py5jb250ZW50Py5bImFwcGxpY2F0aW9uL2pzb24iXT8uZXhhbXBsZXM/Lm11bHRpU25pLAogICAgKTsKICAgIGFzc2VydC5vaygKICAgICAgY2FIb3N0cy5wb3N0Py5yZXF1ZXN0Qm9keT8uY29udGVudD8uWyJhcHBsaWNhdGlvbi9qc29uIl0/LmV4YW1wbGVzCiAgICAgICAgPy5hZGRIb3N0LAogICAgKTsKICAgIGFzc2VydC5vaygKICAgICAgY2FIb3N0cy5kZWxldGU/LnJlcXVlc3RCb2R5Py5jb250ZW50Py5bImFwcGxpY2F0aW9uL2pzb24iXT8uZXhhbXBsZXMKICAgICAgICA/LmNsZWFyQWxsLAogICAgKTsKCiAgICBhc3NlcnQub2soCiAgICAgIGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL3NzbC9jZXJ0aWZpY2F0ZXMiXS5wb3N0LnJlc3BvbnNlcz8uWyI0MDAiXSwKICAgICk7CiAgICBhc3NlcnQub2soCiAgICAgIGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL3NzbC9hY3RpdmF0ZSJdLnBvc3QucmVzcG9uc2VzPy5bIjQwNCJdLAogICAgKTsKICAgIGFzc2VydC5vaygKICAgICAgY29udHJhY3QucGF0aHNbIi9hcGkvYWRtaW4vc3NsL3NoYXJlZC1maWxlcy9jb250ZW50Il0uZ2V0LnJlc3BvbnNlcz8uWwogICAgICAgICI0MDMiCiAgICAgIF0sCiAgICApOwogICAgYXNzZXJ0Lm9rKGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL3NzbC9jYS9pbml0Il0ucG9zdC5yZXNwb25zZXM/LlsiNTAwIl0pOwogIH0pOwoKICBpdCgicHJlc2VydmVzIHNoYXJlZC1maWxlLCBDQSBkZWxldGlvbiwgYW5kIGF0dGFjaG1lbnQgY29tcGF0aWJpbGl0eSIsICgpID0+IHsKICAgIGNvbnN0IHNoYXJlZCA9IGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL3NzbC9zaGFyZWQtZmlsZXMvY29udGVudCJdLmdldDsKICAgIGNvbnN0IHBhdGggPSBzaGFyZWQucGFyYW1ldGVycz8uZmluZCgKICAgICAgKHBhcmFtZXRlcikgPT4gcGFyYW1ldGVyLm5hbWUgPT09ICJwYXRoIiAmJiBwYXJhbWV0ZXIuaW4gPT09ICJxdWVyeSIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKHBhdGg/LnJlcXVpcmVkLCB0cnVlKTsKICAgIGFzc2VydC5lcXVhbChwYXRoPy5zY2hlbWE/Lm1pbkxlbmd0aCwgMSk7CgogICAgY29uc3QgcmVtb3ZlSG9zdHMgPSBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9zc2wvY2EvaG9zdHMiXS5kZWxldGU7CiAgICBhc3NlcnQuZXF1YWwocmVtb3ZlSG9zdHMucmVxdWVzdEJvZHk/LnJlcXVpcmVkLCBmYWxzZSk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHJlbW92ZUhvc3RzLnJlc3BvbnNlcz8uWyIyMDAiXT8uY29udGVudD8uWyJhcHBsaWNhdGlvbi9qc29uIl0/LnNjaGVtYQogICAgICAgID8ucHJvcGVydGllcz8uZGF0YT8uaXRlbXM/LnR5cGUsCiAgICAgICJzdHJpbmciLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgcmVtb3ZlSG9zdHMucmVzcG9uc2VzPy5bIjIwMCJdPy5jb250ZW50Py5bCiAgICAgICAgImFwcGxpY2F0aW9uL2pzb24iCiAgICAgIF0/LnNjaGVtYT8ucmVxdWlyZWQ/LmluY2x1ZGVzKCJkYXRhIikgPz8gZmFsc2UsCiAgICAgIGZhbHNlLAogICAgKTsKCiAgICBhc3NlcnQub2soCiAgICAgIGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL3NzbC9jZXJ0LnBlbSJdLmdldC5yZXNwb25zZXM/LlsiMjAwIl0KICAgICAgICA/LmNvbnRlbnQ/LlsiYXBwbGljYXRpb24veC1wZW0tZmlsZSJdLAogICAgKTsKICAgIGFzc2VydC5vaygKICAgICAgY29udHJhY3QucGF0aHNbIi9hcGkvYWRtaW4vc3NsL2NhL3NlcnZlci1jZXJ0LnppcCJdLmdldC5yZXNwb25zZXM/LlsiMjAwIl0KICAgICAgICA/LmNvbnRlbnQ/LlsiYXBwbGljYXRpb24vemlwIl0sCiAgICApOwogICAgYXNzZXJ0Lm9rKAogICAgICBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9zc2wvY2VydGlmaWNhdGVzL3tpZH0vZG93bmxvYWQiXS5nZXQKICAgICAgICAucmVzcG9uc2VzPy5bIjIwMCJdPy5jb250ZW50Py5bImFwcGxpY2F0aW9uL3ppcCJdLAogICAgKTsKICB9KTsKCiAgaXQoImRlcml2ZXMgZnJvbnRlbmQgU1NMIG1vZGVscywgcmVxdWVzdHMsIGFuZCBxdWVyaWVzIGZyb20gT3BlbkFQSSIsICgpID0+IHsKICAgIGNvbnN0IHR5cGVzID0gcmVhZFNvdXJjZSgiLi4vc3JjL3R5cGVzL2NvcmUudHMiKTsKICAgIGNvbnN0IGFwaSA9IHJlYWRTb3VyY2UoIi4uL3NyYy9saWIvYXBpL2NvbmZpZy1wcm94eS1hcGkudHMiKTsKICAgIGNvbnN0IGxhbkFwaSA9IHJlYWRTb3VyY2UoIi4uL3NyYy9saWIvYXBpL2NvbmZpZy1zc2wtbGFuLWFwaS50cyIpOwogICAgZm9yIChjb25zdCBzY2hlbWEgb2YgWwogICAgICAiU3NsQ2VydGlmaWNhdGVTYXZlQm9keURhdGEiLAogICAgICAiU3NsQ2VydGlmaWNhdGVJbmZvRGF0YSIsCiAgICAgICJTc2xDZXJ0aWZpY2F0ZVN1bW1hcnlEYXRhIiwKICAgICAgIlNzbFN1YmRvbWFpbkNvdmVyYWdlRGF0YSIsCiAgICAgICJTc2xTdGF0dXNEYXRhIiwKICAgICAgIlNzbFNoYXJlZEZpbGVzRGF0YSIsCiAgICAgICJFeHRlcm5hbENlcnRpZmljYXRlQmluZGluZ0RhdGEiLAogICAgICAiRXh0ZXJuYWxDZXJ0aWZpY2F0ZUJpbmRpbmdDcmVkZW50aWFsRGF0YSIsCiAgICBdKSB7CiAgICAgIGFzc2VydC5tYXRjaCh0eXBlcywgbmV3IFJlZ0V4cChgXFxbIiR7c2NoZW1hfSJcXF1gLCAidSIpLCBzY2hlbWEpOwogICAgfQogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL2dldF9hcGlfYWRtaW5fc3NsX3NoYXJlZF9maWxlc19jb250ZW50L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL3NhdGlzZmllcyBTc2xDYUhvc3RCb2R5L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL3NhdGlzZmllcyBTc2xDYUhvc3RzRGVsZXRlQm9keS91KTsKICAgIGFzc2VydC5tYXRjaChhcGksIC9zYXRpc2ZpZXMgU3NsRGVwbG95bWVudE1vZGVCb2R5L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL3NhdGlzZmllcyBTc2xBY3RpdmF0ZUJvZHkvdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvZ2V0RXh0ZXJuYWxDZXJ0aWZpY2F0ZUJpbmRpbmdzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL3NhdGlzZmllcyBFeHRlcm5hbENlcnRpZmljYXRlQmluZGluZ0NyZWF0ZUJvZHkvdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvcm90YXRlRXh0ZXJuYWxDZXJ0aWZpY2F0ZUJpbmRpbmdUb2tlbi91KTsKICAgIGFzc2VydC5tYXRjaChsYW5BcGksIC9nZXRMYW5DZXJ0aWZpY2F0ZURlcGxveW1lbnQvdSk7CiAgICBhc3NlcnQubWF0Y2gobGFuQXBpLCAvdXBkYXRlTGFuQ2VydGlmaWNhdGVEZXBsb3ltZW50L3UpOwogIH0pOwoKICBpdCgia2VlcHMgY2VydGlmaWNhdGUgbGlicmFyeSBhY3Rpb25zIGxpZ2h0d2VpZ2h0IGFuZCBkb3dubG9hZGFibGUiLCAoKSA9PiB7CiAgICBjb25zdCByb290ID0gcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL3NzbC1zZXR0aW5ncy9DZXJ0Q29uZmlnLnZ1ZSIpOwogICAgY29uc3QgY2FyZCA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvc3NsLXNldHRpbmdzL0NlcnRpZmljYXRlTGlicmFyeUNhcmQudnVlIiwKICAgICk7CiAgICBjb25zdCBkb3dubG9hZCA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvc3NsLXNldHRpbmdzL3VzZUNlcnRpZmljYXRlTGlicmFyeURvd25sb2FkLnRzIiwKICAgICk7CiAgICBjb25zdCBhcGkgPSByZWFkU291cmNlKCIuLi9zcmMvbGliL2FwaS9jb25maWctcHJveHktYXBpLnRzIik7CgogICAgYXNzZXJ0Lm1hdGNoKHJvb3QsIC91c2VDZXJ0aWZpY2F0ZUxpYnJhcnlEb3dubG9hZC91KTsKICAgIGFzc2VydC5tYXRjaChjYXJkLCAvc2l6ZT0iaWNvbi1zbSIvdSk7CiAgICBhc3NlcnQubWF0Y2goY2FyZCwgL1NoaWVsZENoZWNrL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNhcmQsIC88RG93bmxvYWQvdSk7CiAgICBhc3NlcnQubWF0Y2goY2FyZCwgL1RyYXNoMi91KTsKICAgIGFzc2VydC5tYXRjaChjYXJkLCAvVG9vbHRpcENvbnRlbnQvdSk7CiAgICBhc3NlcnQubWF0Y2goY2FyZCwgL3ZhcmlhbnQ9ImRlc3RydWN0aXZlLW91dGxpbmUiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHJvb3QsIC86aXMtbXV0YXRpb24tcGVuZGluZz0vdSk7CiAgICBhc3NlcnQubWF0Y2goY2FyZCwgLzphcmlhLWxhYmVsPSJhY3RpdmF0ZUJ1dHRvbkxhYmVsIi91KTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgY2FyZCwKICAgICAgLzxUb29sdGlwQ29udGVudD5ce1x7IGFjdGl2YXRlQnV0dG9uTGFiZWwgXH1cfTxcL1Rvb2x0aXBDb250ZW50Pi91LAogICAgKTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goY2FyZCwgL1x7XHsgdFwoImFkbWluXC5jZXJ0Q29uZmlnXC5kZWxldGUiXCkgXH1cfS91KTsKICAgIGFzc2VydC5tYXRjaChkb3dubG9hZCwgL2Rvd25sb2FkQmxvYi91KTsKICAgIGFzc2VydC5tYXRjaChkb3dubG9hZCwgL2lmIFwoaXNEb3dubG9hZGluZ1wudmFsdWVcKSByZXR1cm4vdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvZG93bmxvYWRTU0xDZXJ0aWZpY2F0ZS91KTsKICAgIGFzc2VydC5tYXRjaChhcGksIC9yZXNwb25zZVR5cGU6ICJibG9iIi91KTsKICB9KTsKCiAgaXQoImVuY2Fwc3VsYXRlcyBleHRlcm5hbCBkZXBsb3ltZW50IHN0YXRlIG91dHNpZGUgdGhlIFNTTCBjb21wb3NpdGlvbiByb290IiwgKCkgPT4gewogICAgY29uc3Qgcm9vdCA9IHJlYWRTb3VyY2UoIi4uL3NyYy92aWV3cy9zc2wtc2V0dGluZ3MvQ2VydENvbmZpZy52dWUiKTsKICAgIGNvbnN0IGNhcmQgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3NzbC1zZXR0aW5ncy9FeHRlcm5hbENlcnRpZmljYXRlRGVwbG95bWVudENhcmQudnVlIiwKICAgICk7CiAgICBjb25zdCBsYW5FZGl0b3IgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3NzbC1zZXR0aW5ncy9FeHRlcm5hbENlcnRpZmljYXRlTGFuRWRpdG9yLnZ1ZSIsCiAgICApOwogICAgY29uc3QgY29udHJvbGxlciA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvc3NsLXNldHRpbmdzL3VzZUV4dGVybmFsQ2VydGlmaWNhdGVCaW5kaW5ncy50cyIsCiAgICApOwogICAgY29uc3QgemhDTiA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi8uLi8uLi9wYWNrYWdlcy9pMThuL3NyYy9tZXNzYWdlcy9hZG1pbi96aC1DTi50cyIsCiAgICApOwoKICAgIGFzc2VydC5tYXRjaChyb290LCAvPEV4dGVybmFsQ2VydGlmaWNhdGVEZXBsb3ltZW50Q2FyZFxzKlwvPi91KTsKICAgIGFzc2VydC5tYXRjaChjYXJkLCAvdXNlRXh0ZXJuYWxDZXJ0aWZpY2F0ZUJpbmRpbmdzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNhcmQsIC88VGFic1RyaWdnZXIgdmFsdWU9ImJpbmRpbmdzIi91KTsKICAgIGFzc2VydC5tYXRjaChjYXJkLCAvPFRhYnNUcmlnZ2VyIHZhbHVlPSJlbmRwb2ludHMiL3UpOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBbLi4uY2FyZC5tYXRjaEFsbCgvPEV4dGVybmFsQ2VydGlmaWNhdGVMYW5FZGl0b3IvZ3UpXS5sZW5ndGgsCiAgICAgIDIsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKGNhcmQsIC92LWlmPSIhcHJpbWFyeUJpbmRpbmciL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNhcmQsIC92LW1vZGVsOmFkZHJlc3MtZHJhZnQ9ImxhbkFkZHJlc3NEcmFmdCIvdSk7CiAgICBhc3NlcnQubWF0Y2goY2FyZCwgL2VkaXRpbmdCaW5kaW5nSWQgPT09IGJpbmRpbmdcLmlkL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNhcmQsIC9cW292ZXJmbG93LXdyYXA6YW55d2hlcmVcXS91KTsKICAgIGFzc2VydC5tYXRjaChjYXJkLCAvb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbGcgYm9yZGVyIGRpdmlkZS15L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNhcmQsIC9leHRlcm5hbEVuZHBvaW50Tm9CaW5kaW5nc1RpdGxlL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNhcmQsIC92LW1vZGVsPSJhY3RpdmVUYWIiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNhcmQsIC9hcmlhLWNvbnRyb2xzPSJleHRlcm5hbC1sYW4tZWRpdG9yIi91KTsKICAgIGFzc2VydC5tYXRjaChjYXJkLCAvbWF4LXctMnhsL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGxhbkVkaXRvciwgL2ZsZXgtY29sLXJldmVyc2UgZ2FwLTIgc206ZmxleC1yb3cvdSk7CiAgICBhc3NlcnQubWF0Y2gobGFuRWRpdG9yLCAvbGlzdGVuZXJMYWJlbC91KTsKICAgIGFzc2VydC5tYXRjaChsYW5FZGl0b3IsIC9lbWl0XCgnc2F2ZScsIHRydWVcKS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goY2FyZCwgL2xnOmdyaWQtY29scy0zL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChjYXJkLCAvZ3JpZC1jb2xzLVxbMSg/OjgwfDkwKXB4L3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChjYXJkLCAvbWlubWF4XCgyMjBweCwwXC43ZnJcKS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goY2FyZCwgL2V4dGVybmFsV29ya3NwYWNlVGl0bGUvdSk7CiAgICBhc3NlcnQubWF0Y2goY2FyZCwgL1NlbGVjdEl0ZW0vdSk7CiAgICBhc3NlcnQubWF0Y2goY2FyZCwgL3Byb3ZpZGVyTmFtZVwoYmluZGluZ1wucHJvdmlkZXJcKS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goY2FyZCwgL2JpbmRpbmdcLmNlcnRpZmljYXRlX2lkL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChjYXJkLCAvQ29uZmlnQVBJXC4vdSk7CiAgICBhc3NlcnQubWF0Y2goY29udHJvbGxlciwgL0NvbmZpZ0FQSVwuY3JlYXRlRXh0ZXJuYWxDZXJ0aWZpY2F0ZUJpbmRpbmcvdSk7CiAgICBmb3IgKGNvbnN0IHByb3ZpZGVyIG9mIFsiY2VydGQiLCAiYWNtZV9zaCIsICJsZWdvIiwgImNlcnRib3QiXSkgewogICAgICBhc3NlcnQubWF0Y2goY29udHJvbGxlciwgbmV3IFJlZ0V4cChgJHtwcm92aWRlcn06YCwgInUiKSk7CiAgICB9CiAgICBhc3NlcnQubWF0Y2goY29udHJvbGxlciwgL19fRk5fS05PQ0tfREVQTE9ZX1VSTF9fL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNvbnRyb2xsZXIsIC9fX0ZOX0tOT0NLX0RFUExPWV9UT0tFTl9fL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNvbnRyb2xsZXIsIC9iaW5kaW5nXC5kZXBsb3lfcG9ydC91KTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgY29udHJvbGxlciwKICAgICAgL2h0dHA6XC9cLzEyN1wuMFwuMFwuMTpcJFx7YmluZGluZ1wuZGVwbG95X3BvcnRcfS91LAogICAgKTsKICAgIGFzc2VydC5tYXRjaChjb250cm9sbGVyLCAvYmluZGluZ1wucHVibGljX2RlcGxveV91cmwvdSk7CiAgICBhc3NlcnQubWF0Y2goY29udHJvbGxlciwgL2JpbmRpbmdcLnB1YmxpY19kZXBsb3lfc3RhdHVzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBjb250cm9sbGVyLAogICAgICAvYmluZGluZ1wubGFuX2RlcGxveV91cmxzXC5pbmNsdWRlc1woZGVwbG95VXJsXCkvdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goY29udHJvbGxlciwgL2N1cmwgLWsgLS1zaWxlbnQvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKGNvbnRyb2xsZXIsIC93aW5kb3dcLmxvY2F0aW9uXC4oPzpob3N0bmFtZXxvcmlnaW4pL3UpOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBjb250cm9sbGVyLAogICAgICAvQ29uZmlnQVBJXC5yb3RhdGVFeHRlcm5hbENlcnRpZmljYXRlQmluZGluZ1Rva2VuL3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHpoQ04sIC9leHRlcm5hbEVuZHBvaW50Tm9CaW5kaW5nc1RpdGxlL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHpoQ04sIC/ov5jmsqHmnInlj6/nlKjnmoTmjqjpgIHlnLDlnYAvdSk7CiAgICBhc3NlcnQubWF0Y2goemhDTiwgL2V4dGVybmFsTGFuTGlzdGVuZXJBbGw6ICLmiYDmnInnvZHnu5zmjqXlj6MiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHpoQ04sIC9leHRlcm5hbExhbkNsb3NlOiAi5pS26LW3Ii91KTsKICAgIGFzc2VydC5tYXRjaChjb250cm9sbGVyLCAvZnVuY3Rpb24gY2xlYXJDcmVkZW50aWFsXChcKS91KTsKICAgIGFzc2VydC5tYXRjaChjb250cm9sbGVyLCAvY3JlZGVudGlhbFwudmFsdWUgPSBudWxsL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNhcmQsIC9jb2xsYXBzZUFuZENsZWFyXChjb2xsYXBzZVwpL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChjb250cm9sbGVyLCAvbG9jYWxTdG9yYWdlfHNlc3Npb25TdG9yYWdlL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHpoQ04sIC9leHRlcm5hbEF1dG9tYXRpb25UaXRsZTogIuaOpeaUtuWklumDqOivgeS5piIvdSk7CiAgICBhc3NlcnQubWF0Y2goemhDTiwgL+ivt+WmpeWWhOS/neWtmCBUb2tlbi91KTsKICAgIGFzc2VydC5tYXRjaCh6aENOLCAv6YCC5ZCI6L+Q6KGM5Zyo5YW25LuW6K6+5aSH5oiW5LqR56uv55qE6K+B5Lmm5bel5YW3L3UpOwogICAgYXNzZXJ0Lm1hdGNoKHpoQ04sIC/kuI3opoHmioogXHtwb3J0XH0g56uv5Y+j5pq06Zyy5Yiw5YWs572RL3UpOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+type Schema = {
+  description?: string;
+  enum?: string[];
+  format?: string;
+  items?: Schema;
+  minLength?: number;
+  properties?: Record<string, Schema>;
+  required?: string[];
+  type?: string;
+  writeOnly?: boolean;
+};
+
+type Operation = {
+  "x-fn-knock-contract-source"?: string;
+  description?: string;
+  parameters?: Array<{
+    in?: string;
+    name?: string;
+    required?: boolean;
+    schema?: Schema;
+  }>;
+  requestBody?: {
+    required?: boolean;
+    content?: Record<
+      string,
+      { examples?: Record<string, { value?: unknown }>; schema?: Schema }
+    >;
+  };
+  responses?: Record<
+    string,
+    {
+      content?: Record<
+        string,
+        { examples?: Record<string, { value?: unknown }>; schema?: Schema }
+      >;
+      description?: string;
+    }
+  >;
+  security?: Array<Record<string, string[]>>;
+  summary?: string;
+  tags?: string[];
+};
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  components: {
+    schemas: Record<string, Schema>;
+    securitySchemes?: Record<string, { scheme?: string; type?: string }>;
+  };
+  paths: Record<string, Record<string, Operation>>;
+  tags?: Array<{ description?: string; name?: string }>;
+};
+
+describe("SSL certificate API contract", () => {
+  it("keeps every SSL and local CA operation on the runtime Utoipa router", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/ssl/status"],
+      ["get", "/api/admin/ssl/shared-files"],
+      ["get", "/api/admin/ssl/shared-files/content"],
+      ["get", "/api/admin/ssl/cert.pem"],
+      ["get", "/api/admin/ssl/cert.zip"],
+      ["get", "/api/admin/ssl/ca/status"],
+      ["post", "/api/admin/ssl/ca/init"],
+      ["delete", "/api/admin/ssl/ca"],
+      ["get", "/api/admin/ssl/ca/cert.pem"],
+      ["get", "/api/admin/ssl/ca/server-cert.zip"],
+      ["get", "/api/admin/ssl/ca/hosts"],
+      ["post", "/api/admin/ssl/ca/hosts"],
+      ["delete", "/api/admin/ssl/ca/hosts"],
+      ["post", "/api/admin/ssl/ca/issue"],
+      ["post", "/api/admin/ssl/certificates"],
+      ["delete", "/api/admin/ssl/certificates"],
+      ["delete", "/api/admin/ssl/certificates/{id}"],
+      ["get", "/api/admin/ssl/certificates/{id}/download"],
+      ["post", "/api/admin/ssl/activate"],
+      ["post", "/api/admin/ssl/deployment-mode"],
+      ["delete", "/api/admin/ssl"],
+      ["get", "/api/admin/ssl/external-bindings"],
+      ["post", "/api/admin/ssl/external-bindings"],
+      ["patch", "/api/admin/ssl/external-bindings/{id}"],
+      ["post", "/api/admin/ssl/external-bindings/{id}/rotate-token"],
+      ["delete", "/api/admin/ssl/external-bindings/{id}"],
+      ["put", "/api/integrations/certificates/{binding_id}"],
+      ["put", "/__certificates__/{binding_id}"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("separates private certificate input from public status output", () => {
+    const save = contract.components.schemas.SslCertificateSaveBodyData;
+    const status = contract.components.schemas.SslStatusData;
+    assert.ok(save.required?.includes("cert"));
+    assert.ok(save.required?.includes("key"));
+    assert.equal(save.properties?.key?.writeOnly, true);
+    assert.match(save.properties?.key?.description ?? "", /仅写入/u);
+    assert.match(save.properties?.cert?.description ?? "", /PEM/u);
+    assert.equal(status.properties?.key, undefined);
+    assert.match(status.description ?? "", /状态快照/u);
+    assert.deepEqual(status.properties?.deploymentMode?.enum, [
+      "single_active",
+      "multi_sni",
+    ]);
+    for (const field of [
+      "subdomain_coverage",
+      "library_coverage",
+      "gateway_status",
+    ]) {
+      assert.ok(status.required?.includes(field), field);
+    }
+  });
+
+  it("documents every SSL operation in Chinese without publishing private keys", () => {
+    const sslTag = contract.tags?.find((tag) => tag.name === "ssl");
+    assert.match(sslTag?.description ?? "", /证书库/u);
+    assert.match(sslTag?.description ?? "", /管理会话/u);
+    assert.doesNotMatch(
+      sslTag?.description ?? "",
+      /\\n/u,
+      "tag descriptions must use real line breaks instead of literal escape sequences",
+    );
+
+    const sslOperations = Object.values(contract.paths).flatMap((pathItem) =>
+      Object.values(pathItem).filter(
+        (operation) =>
+          operation["x-fn-knock-contract-source"] === "utoipa" &&
+          operation.tags?.includes("ssl"),
+      ),
+    );
+    assert.equal(sslOperations.length, 30);
+    assert.ok(contract.paths["/api/admin/ssl/external-bindings/lan"].get);
+    assert.ok(contract.paths["/api/admin/ssl/external-bindings/lan"].put);
+    for (const operation of sslOperations) {
+      assert.match(operation.summary ?? "", /[\u4e00-\u9fff]/u);
+      assert.match(operation.description ?? "", /[\u4e00-\u9fff]/u);
+      assert.match(
+        operation.responses?.["200"]?.description ?? "",
+        /[\u4e00-\u9fff]/u,
+      );
+    }
+
+    const save = contract.paths["/api/admin/ssl/certificates"].post;
+    assert.equal(
+      save.requestBody?.content?.["application/json"]?.examples,
+      undefined,
+      "certificate import must not publish a fake PEM or private-key example",
+    );
+    assert.doesNotMatch(
+      JSON.stringify(contract),
+      /-----BEGIN(?: [A-Z]+)? PRIVATE KEY-----/u,
+    );
+  });
+
+  it("keeps external deployment credentials scoped and write-only", () => {
+    const binding = contract.components.schemas.ExternalCertificateBindingData;
+    const lan = contract.components.schemas.LanCertificateDeploymentData;
+    const credential =
+      contract.components.schemas.ExternalCertificateBindingCredentialData;
+    const deployment =
+      contract.components.schemas.ExternalCertificateDeployBodyData;
+    const deployOperation =
+      contract.paths["/api/integrations/certificates/{binding_id}"].put;
+    const publicDeployOperation =
+      contract.paths["/__certificates__/{binding_id}"].put;
+
+    assert.equal(credential.properties?.token?.writeOnly, true);
+    assert.equal(deployment.properties?.key?.writeOnly, true);
+    assert.equal(binding.properties?.token, undefined);
+    assert.ok(binding.required?.includes("certificate_id"));
+    assert.ok(binding.required?.includes("deploy_port"));
+    assert.ok(binding.required?.includes("public_deploy_url"));
+    assert.ok(binding.required?.includes("public_deploy_status"));
+    assert.ok(binding.required?.includes("lan_deploy_urls"));
+    assert.ok(binding.required?.includes("lan_deploy_status"));
+    assert.deepEqual(binding.properties?.lan_deploy_status?.enum, [
+      "ready",
+      "disabled",
+      "ssl_unavailable",
+      "listener_loopback",
+      "gateway_unavailable",
+    ]);
+    assert.ok(lan.required?.includes("configured_addresses"));
+    assert.ok(lan.required?.includes("detected_addresses"));
+    assert.match(
+      binding.properties?.deploy_port?.description ?? "",
+      /BACKEND_PORT/u,
+    );
+    assert.ok(binding.required?.includes("setup_kind"));
+    assert.deepEqual(binding.properties?.provider?.enum, [
+      "certd",
+      "acme_sh",
+      "lego",
+      "certbot",
+    ]);
+    assert.deepEqual(binding.properties?.setup_kind?.enum, [
+      "webhook",
+      "deploy_hook",
+    ]);
+    assert.deepEqual(binding.properties?.public_deploy_status?.enum, [
+      "ready",
+      "auth_host_unconfigured",
+      "https_required",
+    ]);
+    assert.ok(binding.required?.includes("last_replaced_sources"));
+    assert.ok(binding.required?.includes("last_takeover_at"));
+    assert.ok(binding.properties?.request_body_template);
+    assert.ok(binding.properties?.script_template);
+    assert.ok(binding.properties?.usage_instructions);
+    assert.deepEqual(deployOperation.security, [
+      { certificateDeploymentToken: [] },
+    ]);
+    assert.deepEqual(publicDeployOperation.security, [
+      { certificateDeploymentToken: [] },
+    ]);
+    assert.equal(
+      contract.components.securitySchemes?.certificateDeploymentToken?.type,
+      "http",
+    );
+    assert.equal(
+      contract.components.securitySchemes?.certificateDeploymentToken?.scheme,
+      "bearer",
+    );
+    for (const status of ["400", "401", "404", "409", "413", "500", "502"]) {
+      assert.ok(deployOperation.responses?.[status], status);
+    }
+    assert.doesNotMatch(
+      deployOperation.description ?? "",
+      /必须通过 HTTPS|HTTPS only|must (?:use|be called over) HTTPS/iu,
+      "the receiving endpoint must remain usable over either HTTP or HTTPS",
+    );
+    assert.equal(
+      deployOperation.requestBody?.content?.["application/json"]?.examples,
+      undefined,
+      "external deployment must not publish a fake PEM or private-key example",
+    );
+  });
+
+  it("documents SSL examples and operation-specific errors", () => {
+    const activate = contract.paths["/api/admin/ssl/activate"].post;
+    const deployment = contract.paths["/api/admin/ssl/deployment-mode"].post;
+    const caHosts = contract.paths["/api/admin/ssl/ca/hosts"];
+    assert.ok(
+      activate.requestBody?.content?.["application/json"]?.examples?.activate,
+    );
+    assert.ok(
+      deployment.requestBody?.content?.["application/json"]?.examples?.multiSni,
+    );
+    assert.ok(
+      caHosts.post?.requestBody?.content?.["application/json"]?.examples
+        ?.addHost,
+    );
+    assert.ok(
+      caHosts.delete?.requestBody?.content?.["application/json"]?.examples
+        ?.clearAll,
+    );
+
+    assert.ok(
+      contract.paths["/api/admin/ssl/certificates"].post.responses?.["400"],
+    );
+    assert.ok(
+      contract.paths["/api/admin/ssl/activate"].post.responses?.["404"],
+    );
+    assert.ok(
+      contract.paths["/api/admin/ssl/shared-files/content"].get.responses?.[
+        "403"
+      ],
+    );
+    assert.ok(contract.paths["/api/admin/ssl/ca/init"].post.responses?.["500"]);
+  });
+
+  it("preserves shared-file, CA deletion, and attachment compatibility", () => {
+    const shared = contract.paths["/api/admin/ssl/shared-files/content"].get;
+    const path = shared.parameters?.find(
+      (parameter) => parameter.name === "path" && parameter.in === "query",
+    );
+    assert.equal(path?.required, true);
+    assert.equal(path?.schema?.minLength, 1);
+
+    const removeHosts = contract.paths["/api/admin/ssl/ca/hosts"].delete;
+    assert.equal(removeHosts.requestBody?.required, false);
+    assert.equal(
+      removeHosts.responses?.["200"]?.content?.["application/json"]?.schema
+        ?.properties?.data?.items?.type,
+      "string",
+    );
+    assert.equal(
+      removeHosts.responses?.["200"]?.content?.[
+        "application/json"
+      ]?.schema?.required?.includes("data") ?? false,
+      false,
+    );
+
+    assert.ok(
+      contract.paths["/api/admin/ssl/cert.pem"].get.responses?.["200"]
+        ?.content?.["application/x-pem-file"],
+    );
+    assert.ok(
+      contract.paths["/api/admin/ssl/ca/server-cert.zip"].get.responses?.["200"]
+        ?.content?.["application/zip"],
+    );
+    assert.ok(
+      contract.paths["/api/admin/ssl/certificates/{id}/download"].get
+        .responses?.["200"]?.content?.["application/zip"],
+    );
+  });
+
+  it("derives frontend SSL models, requests, and queries from OpenAPI", () => {
+    const types = readSource("../src/types/core.ts");
+    const api = readSource("../src/lib/api/config-proxy-api.ts");
+    const lanApi = readSource("../src/lib/api/config-ssl-lan-api.ts");
+    for (const schema of [
+      "SslCertificateSaveBodyData",
+      "SslCertificateInfoData",
+      "SslCertificateSummaryData",
+      "SslSubdomainCoverageData",
+      "SslStatusData",
+      "SslSharedFilesData",
+      "ExternalCertificateBindingData",
+      "ExternalCertificateBindingCredentialData",
+    ]) {
+      assert.match(types, new RegExp(`\\["${schema}"\\]`, "u"), schema);
+    }
+    assert.match(api, /get_api_admin_ssl_shared_files_content/u);
+    assert.match(api, /satisfies SslCaHostBody/u);
+    assert.match(api, /satisfies SslCaHostsDeleteBody/u);
+    assert.match(api, /satisfies SslDeploymentModeBody/u);
+    assert.match(api, /satisfies SslActivateBody/u);
+    assert.match(api, /getExternalCertificateBindings/u);
+    assert.match(api, /satisfies ExternalCertificateBindingCreateBody/u);
+    assert.match(api, /rotateExternalCertificateBindingToken/u);
+    assert.match(lanApi, /getLanCertificateDeployment/u);
+    assert.match(lanApi, /updateLanCertificateDeployment/u);
+  });
+
+  it("keeps certificate library actions lightweight and downloadable", () => {
+    const root = readSource("../src/views/ssl-settings/CertConfig.vue");
+    const card = readSource(
+      "../src/views/ssl-settings/CertificateLibraryCard.vue",
+    );
+    const download = readSource(
+      "../src/views/ssl-settings/useCertificateLibraryDownload.ts",
+    );
+    const api = readSource("../src/lib/api/config-proxy-api.ts");
+
+    assert.match(root, /useCertificateLibraryDownload/u);
+    assert.match(card, /size="icon-sm"/u);
+    assert.match(card, /ShieldCheck/u);
+    assert.match(card, /<Download/u);
+    assert.match(card, /Trash2/u);
+    assert.match(card, /TooltipContent/u);
+    assert.match(card, /variant="destructive-outline"/u);
+    assert.match(root, /:is-mutation-pending=/u);
+    assert.match(card, /:aria-label="activateButtonLabel"/u);
+    assert.match(
+      card,
+      /<TooltipContent>\{\{ activateButtonLabel \}\}<\/TooltipContent>/u,
+    );
+    assert.doesNotMatch(card, /\{\{ t\("admin\.certConfig\.delete"\) \}\}/u);
+    assert.match(download, /downloadBlob/u);
+    assert.match(download, /if \(isDownloading\.value\) return/u);
+    assert.match(api, /downloadSSLCertificate/u);
+    assert.match(api, /responseType: "blob"/u);
+  });
+
+  it("encapsulates external deployment state outside the SSL composition root", () => {
+    const root = readSource("../src/views/ssl-settings/CertConfig.vue");
+    const card = readSource(
+      "../src/views/ssl-settings/ExternalCertificateDeploymentCard.vue",
+    );
+    const lanEditor = readSource(
+      "../src/views/ssl-settings/ExternalCertificateLanEditor.vue",
+    );
+    const controller = readSource(
+      "../src/views/ssl-settings/useExternalCertificateBindings.ts",
+    );
+    const zhCN = readSource(
+      "../../../packages/i18n/src/messages/admin/zh-CN.ts",
+    );
+
+    assert.match(root, /<ExternalCertificateDeploymentCard\s*\/>/u);
+    assert.match(card, /useExternalCertificateBindings/u);
+    assert.match(card, /<TabsTrigger value="bindings"/u);
+    assert.match(card, /<TabsTrigger value="endpoints"/u);
+    assert.equal(
+      [...card.matchAll(/<ExternalCertificateLanEditor/gu)].length,
+      2,
+    );
+    assert.match(card, /v-if="!primaryBinding"/u);
+    assert.match(card, /v-model:address-draft="lanAddressDraft"/u);
+    assert.match(card, /editingBindingId === binding\.id/u);
+    assert.match(card, /\[overflow-wrap:anywhere\]/u);
+    assert.match(card, /overflow-hidden rounded-lg border divide-y/u);
+    assert.match(card, /externalEndpointNoBindingsTitle/u);
+    assert.match(card, /v-model="activeTab"/u);
+    assert.match(card, /aria-controls="external-lan-editor"/u);
+    assert.match(card, /max-w-2xl/u);
+    assert.match(lanEditor, /flex-col-reverse gap-2 sm:flex-row/u);
+    assert.match(lanEditor, /listenerLabel/u);
+    assert.match(lanEditor, /emit\('save', true\)/u);
+    assert.doesNotMatch(card, /lg:grid-cols-3/u);
+    assert.doesNotMatch(card, /grid-cols-\[1(?:80|90)px/u);
+    assert.doesNotMatch(card, /minmax\(220px,0\.7fr\)/u);
+    assert.doesNotMatch(card, /externalWorkspaceTitle/u);
+    assert.match(card, /SelectItem/u);
+    assert.match(card, /providerName\(binding\.provider\)/u);
+    assert.doesNotMatch(card, /binding\.certificate_id/u);
+    assert.doesNotMatch(card, /ConfigAPI\./u);
+    assert.match(controller, /ConfigAPI\.createExternalCertificateBinding/u);
+    for (const provider of ["certd", "acme_sh", "lego", "certbot"]) {
+      assert.match(controller, new RegExp(`${provider}:`, "u"));
+    }
+    assert.match(controller, /__FN_KNOCK_DEPLOY_URL__/u);
+    assert.match(controller, /__FN_KNOCK_DEPLOY_TOKEN__/u);
+    assert.match(controller, /binding\.deploy_port/u);
+    assert.match(
+      controller,
+      /http:\/\/127\.0\.0\.1:\$\{binding\.deploy_port\}/u,
+    );
+    assert.match(controller, /binding\.public_deploy_url/u);
+    assert.match(controller, /binding\.public_deploy_status/u);
+    assert.match(
+      controller,
+      /binding\.lan_deploy_urls\.includes\(deployUrl\)/u,
+    );
+    assert.match(controller, /curl -k --silent/u);
+    assert.doesNotMatch(controller, /window\.location\.(?:hostname|origin)/u);
+    assert.match(
+      controller,
+      /ConfigAPI\.rotateExternalCertificateBindingToken/u,
+    );
+    assert.match(zhCN, /externalEndpointNoBindingsTitle/u);
+    assert.match(zhCN, /还没有可用的推送地址/u);
+    assert.match(zhCN, /externalLanListenerAll: "所有网络接口"/u);
+    assert.match(zhCN, /externalLanClose: "收起"/u);
+    assert.match(controller, /function clearCredential\(\)/u);
+    assert.match(controller, /credential\.value = null/u);
+    assert.match(card, /collapseAndClear\(collapse\)/u);
+    assert.doesNotMatch(controller, /localStorage|sessionStorage/u);
+    assert.match(zhCN, /externalAutomationTitle: "接收外部证书"/u);
+    assert.match(zhCN, /请妥善保存 Token/u);
+    assert.match(zhCN, /适合运行在其他设备或云端的证书工具/u);
+    assert.match(zhCN, /不要把 \{port\} 端口暴露到公网/u);
+  });
+});

@@ -1,1 +1,4 @@
-ZXhwb3J0IHsgZGVmYXVsdCBhcyBUYWJzIH0gZnJvbSAiLi9UYWJzLnZ1ZSIKZXhwb3J0IHsgZGVmYXVsdCBhcyBUYWJzQ29udGVudCB9IGZyb20gIi4vVGFic0NvbnRlbnQudnVlIgpleHBvcnQgeyBkZWZhdWx0IGFzIFRhYnNMaXN0IH0gZnJvbSAiLi9UYWJzTGlzdC52dWUiCmV4cG9ydCB7IGRlZmF1bHQgYXMgVGFic1RyaWdnZXIgfSBmcm9tICIuL1RhYnNUcmlnZ2VyLnZ1ZSIK
+export { default as Tabs } from "./Tabs.vue"
+export { default as TabsContent } from "./TabsContent.vue"
+export { default as TabsList } from "./TabsList.vue"
+export { default as TabsTrigger } from "./TabsTrigger.vue"

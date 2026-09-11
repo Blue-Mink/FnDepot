@@ -1,1 +1,7 @@
-ZXhwb3J0IGZ1bmN0aW9uIHBhcnNlSnNvblNhZmU8VD4odmFsdWU6IHN0cmluZyk6IFQgfCBudWxsIHsKICB0cnkgewogICAgcmV0dXJuIEpTT04ucGFyc2UodmFsdWUpIGFzIFQ7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gbnVsbDsKICB9Cn0K
+export function parseJsonSafe<T>(value: string): T | null {
+  try {
+    return JSON.parse(value) as T;
+  } catch {
+    return null;
+  }
+}

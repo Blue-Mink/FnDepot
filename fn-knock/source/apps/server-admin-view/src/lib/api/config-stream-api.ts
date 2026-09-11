@@ -1,1 +1,97 @@
-aW1wb3J0IHR5cGUgeyBjb21wb25lbnRzIGFzIEFwaUNvbnRyYWN0Q29tcG9uZW50cyB9IGZyb20gIkBmbi1rbm9jay9hcGktY29udHJhY3QiOwppbXBvcnQgdHlwZSB7IFN0cmVhbU1hcHBpbmcgfSBmcm9tICIuLi8uLi90eXBlcyI7CmltcG9ydCB7IGFwaUNsaWVudCB9IGZyb20gIi4vY2xpZW50IjsKCnR5cGUgU3RyZWFtTWFwcGluZ3NVcGRhdGUgPQogIEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJTdHJlYW1NYXBwaW5nc1VwZGF0ZURhdGEiXTsKCmV4cG9ydCB0eXBlIFN0cmVhbVNlcnZpY2VQcm9maWxlID0KICBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiU3RyZWFtU2VydmljZVByb2ZpbGVEYXRhIl07CmV4cG9ydCB0eXBlIFN0cmVhbUJ5cGFzc1BvbGljeSA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIlN0cmVhbUJ5cGFzc1BvbGljeURhdGEiXTsKZXhwb3J0IHR5cGUgU3RyZWFtU2VydmljZURlc2NyaXB0b3IgPSB7CiAgc2VydmljZV9pZDogc3RyaW5nOwogIGRpc3BsYXlfbmFtZTogc3RyaW5nOwogIHNlcnZpY2VfZmFtaWx5OiBzdHJpbmc7CiAgdHJhbnNwb3J0czogc3RyaW5nW107CiAgYWN0aXZlX3Byb2JlX3N1cHBvcnRlZDogYm9vbGVhbjsKICBzdHJpY3RfY2FwYWJsZTogYm9vbGVhbjsKfTsKZXhwb3J0IHR5cGUgU3RyZWFtU2VydmljZUNhdGFsb2cgPSB7CiAgY2xhc3NpZmllcl92ZXJzaW9uOiBzdHJpbmc7CiAgaXRlbXM6IFN0cmVhbVNlcnZpY2VEZXNjcmlwdG9yW107Cn07CmV4cG9ydCB0eXBlIFN0cmVhbVByb2JlUmVzdWx0ID0gewogIHN0YXR1czogc3RyaW5nOwogIHByb2ZpbGU/OiBTdHJlYW1TZXJ2aWNlUHJvZmlsZSB8IG51bGw7CiAgbWVzc2FnZT86IHN0cmluZzsKfTsKCmV4cG9ydCBjb25zdCBTVFJFQU1fTUFQUElOR19MRUdBQ1lfUkVQQUlSX1JFUVVJUkVEX0NPREUgPSA0MF85MDE7CgpleHBvcnQgY29uc3QgY29uZmlnU3RyZWFtQXBpID0gewogIGFzeW5jIGdldFN0cmVhbU1hcHBpbmdzKCk6IFByb21pc2U8U3RyZWFtTWFwcGluZ1tdPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvY29uZmlnL3N0cmVhbV9tYXBwaW5ncyIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyB1cGRhdGVTdHJlYW1NYXBwaW5ncyhtYXBwaW5nczogU3RyZWFtTWFwcGluZ1tdKTogUHJvbWlzZTx2b2lkPiB7CiAgICBjb25zdCBwYXlsb2FkID0geyBtYXBwaW5ncyB9IHNhdGlzZmllcyBTdHJlYW1NYXBwaW5nc1VwZGF0ZTsKICAgIGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvY29uZmlnL3N0cmVhbV9tYXBwaW5ncyIsIHBheWxvYWQpOwogIH0sCiAgYXN5bmMgZ2V0U3RyZWFtU2VydmljZUNhdGFsb2coKTogUHJvbWlzZTxTdHJlYW1TZXJ2aWNlQ2F0YWxvZz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2NvbmZpZy9zdHJlYW1fc2VydmljZV9jYXRhbG9nIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHByb2JlU3RyZWFtTWFwcGluZyhtYXBwaW5nOiBTdHJlYW1NYXBwaW5nKTogUHJvbWlzZTxTdHJlYW1Qcm9iZVJlc3VsdD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoCiAgICAgIGAvY29uZmlnL3N0cmVhbV9tYXBwaW5ncy8ke21hcHBpbmcucHJvdG9jb2x9LyR7bWFwcGluZy5saXN0ZW5fcG9ydH0vcHJvYmVgLAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgY29uZmlybVN0cmVhbVNlcnZpY2VQcm9maWxlKAogICAgbWFwcGluZzogU3RyZWFtTWFwcGluZywKICAgIHNlcnZpY2VJZDogc3RyaW5nLAogICk6IFByb21pc2U8U3RyZWFtU2VydmljZVByb2ZpbGU+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wdXQoCiAgICAgIGAvY29uZmlnL3N0cmVhbV9tYXBwaW5ncy8ke21hcHBpbmcucHJvdG9jb2x9LyR7bWFwcGluZy5saXN0ZW5fcG9ydH0vc2VydmljZV9wcm9maWxlYCwKICAgICAgewogICAgICAgIGV4cGVjdGVkX3NlcnZpY2VfaWQ6IG1hcHBpbmcuc2VydmljZV9wcm9maWxlPy5zZXJ2aWNlX2lkID8/ICIiLAogICAgICAgIGV4cGVjdGVkX3RhcmdldDogbWFwcGluZy50YXJnZXQsCiAgICAgICAgc2VydmljZV9pZDogc2VydmljZUlkLAogICAgICB9LAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgY2xlYXJTdHJlYW1TZXJ2aWNlUHJvZmlsZShtYXBwaW5nOiBTdHJlYW1NYXBwaW5nKTogUHJvbWlzZTx2b2lkPiB7CiAgICBhd2FpdCBhcGlDbGllbnQucHV0KAogICAgICBgL2NvbmZpZy9zdHJlYW1fbWFwcGluZ3MvJHttYXBwaW5nLnByb3RvY29sfS8ke21hcHBpbmcubGlzdGVuX3BvcnR9L3NlcnZpY2VfcHJvZmlsZWAsCiAgICAgIHsKICAgICAgICBleHBlY3RlZF9zZXJ2aWNlX2lkOiBtYXBwaW5nLnNlcnZpY2VfcHJvZmlsZT8uc2VydmljZV9pZCA/PyAiIiwKICAgICAgICBleHBlY3RlZF90YXJnZXQ6IG1hcHBpbmcudGFyZ2V0LAogICAgICAgIHNlcnZpY2VfaWQ6ICIiLAogICAgICB9LAogICAgKTsKICB9LAogIGFzeW5jIGdldFN0cmVhbUJ5cGFzc1BvbGljeSgKICAgIG1hcHBpbmc6IFN0cmVhbU1hcHBpbmcsCiAgKTogUHJvbWlzZTxTdHJlYW1CeXBhc3NQb2xpY3k+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoCiAgICAgIGAvY29uZmlnL3N0cmVhbV9tYXBwaW5ncy8ke21hcHBpbmcucHJvdG9jb2x9LyR7bWFwcGluZy5saXN0ZW5fcG9ydH0vYnlwYXNzX3BvbGljeWAsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyB1cGRhdGVTdHJlYW1CeXBhc3NQb2xpY3koCiAgICBtYXBwaW5nOiBTdHJlYW1NYXBwaW5nLAogICAgcG9saWN5OiBTdHJlYW1CeXBhc3NQb2xpY3ksCiAgKTogUHJvbWlzZTxTdHJlYW1CeXBhc3NQb2xpY3k+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wdXQoCiAgICAgIGAvY29uZmlnL3N0cmVhbV9tYXBwaW5ncy8ke21hcHBpbmcucHJvdG9jb2x9LyR7bWFwcGluZy5saXN0ZW5fcG9ydH0vYnlwYXNzX3BvbGljeWAsCiAgICAgIHsKICAgICAgICAuLi5wb2xpY3ksCiAgICAgICAgZXhwZWN0ZWRfdGFyZ2V0OiBtYXBwaW5nLnRhcmdldCwKICAgICAgICBleHBlY3RlZF91c2VfYXV0aDogbWFwcGluZy51c2VfYXV0aCA9PT0gdHJ1ZSwKICAgICAgfSwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAp9Owo=
+import type { components as ApiContractComponents } from "@fn-knock/api-contract";
+import type { StreamMapping } from "../../types";
+import { apiClient } from "./client";
+
+type StreamMappingsUpdate =
+  ApiContractComponents["schemas"]["StreamMappingsUpdateData"];
+
+export type StreamServiceProfile =
+  ApiContractComponents["schemas"]["StreamServiceProfileData"];
+export type StreamBypassPolicy =
+  ApiContractComponents["schemas"]["StreamBypassPolicyData"];
+export type StreamServiceDescriptor = {
+  service_id: string;
+  display_name: string;
+  service_family: string;
+  transports: string[];
+  active_probe_supported: boolean;
+  strict_capable: boolean;
+};
+export type StreamServiceCatalog = {
+  classifier_version: string;
+  items: StreamServiceDescriptor[];
+};
+export type StreamProbeResult = {
+  status: string;
+  profile?: StreamServiceProfile | null;
+  message?: string;
+};
+
+export const STREAM_MAPPING_LEGACY_REPAIR_REQUIRED_CODE = 40_901;
+
+export const configStreamApi = {
+  async getStreamMappings(): Promise<StreamMapping[]> {
+    const res = await apiClient.get("/config/stream_mappings");
+    return res.data.data;
+  },
+  async updateStreamMappings(mappings: StreamMapping[]): Promise<void> {
+    const payload = { mappings } satisfies StreamMappingsUpdate;
+    await apiClient.post("/config/stream_mappings", payload);
+  },
+  async getStreamServiceCatalog(): Promise<StreamServiceCatalog> {
+    const res = await apiClient.get("/config/stream_service_catalog");
+    return res.data.data;
+  },
+  async probeStreamMapping(mapping: StreamMapping): Promise<StreamProbeResult> {
+    const res = await apiClient.post(
+      `/config/stream_mappings/${mapping.protocol}/${mapping.listen_port}/probe`,
+    );
+    return res.data.data;
+  },
+  async confirmStreamServiceProfile(
+    mapping: StreamMapping,
+    serviceId: string,
+  ): Promise<StreamServiceProfile> {
+    const res = await apiClient.put(
+      `/config/stream_mappings/${mapping.protocol}/${mapping.listen_port}/service_profile`,
+      {
+        expected_service_id: mapping.service_profile?.service_id ?? "",
+        expected_target: mapping.target,
+        service_id: serviceId,
+      },
+    );
+    return res.data.data;
+  },
+  async clearStreamServiceProfile(mapping: StreamMapping): Promise<void> {
+    await apiClient.put(
+      `/config/stream_mappings/${mapping.protocol}/${mapping.listen_port}/service_profile`,
+      {
+        expected_service_id: mapping.service_profile?.service_id ?? "",
+        expected_target: mapping.target,
+        service_id: "",
+      },
+    );
+  },
+  async getStreamBypassPolicy(
+    mapping: StreamMapping,
+  ): Promise<StreamBypassPolicy> {
+    const res = await apiClient.get(
+      `/config/stream_mappings/${mapping.protocol}/${mapping.listen_port}/bypass_policy`,
+    );
+    return res.data.data;
+  },
+  async updateStreamBypassPolicy(
+    mapping: StreamMapping,
+    policy: StreamBypassPolicy,
+  ): Promise<StreamBypassPolicy> {
+    const res = await apiClient.put(
+      `/config/stream_mappings/${mapping.protocol}/${mapping.listen_port}/bypass_policy`,
+      {
+        ...policy,
+        expected_target: mapping.target,
+        expected_use_auth: mapping.use_auth === true,
+      },
+    );
+    return res.data.data;
+  },
+};

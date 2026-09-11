@@ -1,1 +1,491 @@
-dXNlIHN0ZDo6Y29sbGVjdGlvbnM6Okhhc2hTZXQ7Cgp1c2UgY3JhdGU6OnR1bm5lbHM6OmNvbm5lY3Rpdml0eTo6VHVubmVsQ29ubmVjdGl2aXR5R2F0ZTsKCiNbZGVyaXZlKERlYnVnLCBQYXJ0aWFsRXEsIEVxKV0KcHViKHN1cGVyKSBlbnVtIENsb3VkZmxhcmVkU2lnbmFsIHsKICAgIFJlZ2lzdGVyZWQodTgpLAogICAgRGlzY29ubmVjdGVkKHU4KSwKICAgIFByb2Nlc3NFeGl0ZWQsCiAgICBSZWNvbmNpbGUsCn0KCiNbZGVyaXZlKERlZmF1bHQpXQpwdWIoc3VwZXIpIHN0cnVjdCBDbG91ZGZsYXJlZENvbm5lY3Rpdml0eSB7CiAgICBwdWIoc3VwZXIpIGdhdGU6IFR1bm5lbENvbm5lY3Rpdml0eUdhdGUsCiAgICBhY3RpdmU6IEhhc2hTZXQ8dTg+LAogICAgc3RvcHBpbmc6IGJvb2wsCiAgICByZXN1bWVfY29ubmVjdGVkOiBib29sLAp9CgppbXBsIENsb3VkZmxhcmVkQ29ubmVjdGl2aXR5IHsKICAgIC8vIEEgZmFpbGVkIEhBIGNvbm5lY3Rpb24gZG9lcyBub3QgaW1wbHkgdGhlIGNvbm5lY3RvciBpcyBvZmZsaW5lLiBPbmx5CiAgICAvLyB0cmFuc2l0aW9ucyBpbnZvbHZpbmcga25vd24gY29ubmVjdGlvbnMgY2FuIGNoYW5nZSBhZ2dyZWdhdGUgaGVhbHRoLgogICAgcHViKHN1cGVyKSBmbiBvYnNlcnZlX3NpZ25hbCgmbXV0IHNlbGYsIHNpZ25hbDogQ2xvdWRmbGFyZWRTaWduYWwpIC0+IE9wdGlvbjxib29sPiB7CiAgICAgICAgbGV0IHJlc3VsdCA9IG1hdGNoIHNpZ25hbCB7CiAgICAgICAgICAgIENsb3VkZmxhcmVkU2lnbmFsOjpSZWdpc3RlcmVkKGluZGV4KSA9PiB7CiAgICAgICAgICAgICAgICBzZWxmLmFjdGl2ZS5pbnNlcnQoaW5kZXgpOwogICAgICAgICAgICAgICAgU29tZSh0cnVlKQogICAgICAgICAgICB9CiAgICAgICAgICAgIENsb3VkZmxhcmVkU2lnbmFsOjpEaXNjb25uZWN0ZWQoaW5kZXgpID0+IHsKICAgICAgICAgICAgICAgIChzZWxmLmFjdGl2ZS5yZW1vdmUoJmluZGV4KSAmJiBzZWxmLmFjdGl2ZS5pc19lbXB0eSgpKS50aGVuX3NvbWUoZmFsc2UpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgQ2xvdWRmbGFyZWRTaWduYWw6OlByb2Nlc3NFeGl0ZWQgPT4gewogICAgICAgICAgICAgICAgc2VsZi5hY3RpdmUuY2xlYXIoKTsKICAgICAgICAgICAgICAgIFNvbWUoZmFsc2UpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgQ2xvdWRmbGFyZWRTaWduYWw6OlJlY29uY2lsZSA9PiBTb21lKCFzZWxmLmFjdGl2ZS5pc19lbXB0eSgpKSwKICAgICAgICB9OwogICAgICAgIC8vIEtlZXAgdHJhY2tpbmcgb3V0cHV0IGR1cmluZyB0ZXJtaW5hdGlvbjogdGVybWluYXRpb24gY2FuIGZhaWwgd2hpbGUKICAgICAgICAvLyB0aGUgc2FtZSBwcm9jZXNzIGFuZCBpdHMgcmVtYWluaW5nIGNvbm5lY3Rpb25zIGNvbnRpbnVlIHJ1bm5pbmcuCiAgICAgICAgaWYgc2VsZi5zdG9wcGluZyB7IE5vbmUgfSBlbHNlIHsgcmVzdWx0IH0KICAgIH0KCiAgICBwdWIoc3VwZXIpIGZuIHNldF9leHBlY3RlZF9zdG9wKCZtdXQgc2VsZiwgZXhwZWN0ZWQ6IGJvb2wpIHsKICAgICAgICBpZiBleHBlY3RlZCAmJiAhc2VsZi5zdG9wcGluZyB7CiAgICAgICAgICAgIHNlbGYucmVzdW1lX2Nvbm5lY3RlZCA9IHNlbGYuZ2F0ZS5oYXNfY29ubmVjdGlvbl9iYXNlbGluZSgpOwogICAgICAgIH0KICAgICAgICBzZWxmLnN0b3BwaW5nID0gZXhwZWN0ZWQ7CiAgICAgICAgc2VsZi5nYXRlLnNldF9leHBlY3RlZF9zdG9wKGV4cGVjdGVkKTsKICAgIH0KCiAgICBwdWIoc3VwZXIpIGZuIGZpbmlzaF9leHBlY3RlZF9zdG9wKCZtdXQgc2VsZiwgc3RvcHBlZDogYm9vbCkgewogICAgICAgIHNlbGYuc2V0X2V4cGVjdGVkX3N0b3AoZmFsc2UpOwogICAgICAgIGlmIHN0b3BwZWQgewogICAgICAgICAgICBzZWxmLmFjdGl2ZS5jbGVhcigpOwogICAgICAgICAgICBzZWxmLnJlc3VtZV9jb25uZWN0ZWQgPSBmYWxzZTsKICAgICAgICB9IGVsc2UgaWYgc2VsZi5yZXN1bWVfY29ubmVjdGVkIHsKICAgICAgICAgICAgLy8gUmVzdG9yZSB0aGUgbm90aWZpY2F0aW9uIGJhc2VsaW5lIHdpdGhvdXQgcHVibGlzaGluZyBhIHNwdXJpb3VzCiAgICAgICAgICAgIC8vIHJlY292ZXJ5LiBSZWNvbmNpbGUgdGhlbiBjb25maXJtcyBhbnkgb3V0YWdlIG9ic2VydmVkIGR1cmluZyBzdG9wLgogICAgICAgICAgICBzZWxmLmdhdGUub2JzZXJ2ZV9jb25uZWN0ZWQodG9raW86OnRpbWU6Okluc3RhbnQ6Om5vdygpKTsKICAgICAgICB9CiAgICB9Cn0KCnB1YihzdXBlcikgZm4gcGFyc2VfY2xvdWRmbGFyZWRfc2lnbmFsKGxpbmU6ICZzdHIpIC0+IE9wdGlvbjxDbG91ZGZsYXJlZFNpZ25hbD4gewogICAgaWYgbGV0IE9rKHZhbHVlKSA9IHNlcmRlX2pzb246OmZyb21fc3RyOjo8c2VyZGVfanNvbjo6VmFsdWU+KGxpbmUpIHsKICAgICAgICBsZXQgaW5kZXggPSB2YWx1ZS5nZXQoImNvbm5JbmRleCIpPzsKICAgICAgICBsZXQgaW5kZXggPSBpbmRleAogICAgICAgICAgICAuYXNfdTY0KCkKICAgICAgICAgICAgLmFuZF90aGVuKHx2fCB1ODo6dHJ5X2Zyb20odikub2soKSkKICAgICAgICAgICAgLm9yX2Vsc2UofHwgaW5kZXguYXNfc3RyKCk/LnBhcnNlKCkub2soKSk/OwogICAgICAgIHJldHVybiBjbGFzc2lmeV9tZXNzYWdlKHZhbHVlLmdldCgibWVzc2FnZSIpPy5hc19zdHIoKT8sIGluZGV4KTsKICAgIH0KCiAgICBsZXQgdG9rZW5zID0gY29uc29sZV90b2tlbnMobGluZSk/OwogICAgbGV0IGluZGV4ID0gdG9rZW5zCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maW5kX21hcCh8dG9rZW58IHRva2VuLnN0cmlwX3ByZWZpeCgiY29ubkluZGV4PSIpPy5wYXJzZTo6PHU4PigpLm9rKCkpPzsKICAgIGxldCBzdGFydCA9IHRva2VucwogICAgICAgIC5pdGVyKCkKICAgICAgICAudGFrZSgyKQogICAgICAgIC5wb3NpdGlvbih8dG9rZW58IHsKICAgICAgICAgICAgbWF0Y2hlcyEoCiAgICAgICAgICAgICAgICAqdG9rZW4sCiAgICAgICAgICAgICAgICAiSU5GIiB8ICJXUk4iIHwgIkVSUiIgfCAiREJHIiB8ICJUUkMiIHwgIkZUTCIgfCAiUE5DIgogICAgICAgICAgICApCiAgICAgICAgfSkKICAgICAgICAubWFwX29yKDAsIHxwb3NpdGlvbnwgcG9zaXRpb24gKyAxKTsKICAgIGxldCBtZXNzYWdlID0gdG9rZW5zW3N0YXJ0Li5dCiAgICAgICAgLml0ZXIoKQogICAgICAgIC50YWtlX3doaWxlKHx0b2tlbnwgIXRva2VuLmNvbnRhaW5zKCc9JykpCiAgICAgICAgLmNvcGllZCgpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCkKICAgICAgICAuam9pbigiICIpOwogICAgY2xhc3NpZnlfbWVzc2FnZSgmbWVzc2FnZSwgaW5kZXgpCn0KCi8vIFplcm9sb2cgY29uc29sZSBmaWVsZHMgbWF5IGNvbnRhaW4gcXVvdGVkIHdoaXRlc3BhY2UgYW5kIGVzY2FwZWQgcXVvdGVzLgovLyBTcGxpdCBvbmx5IG91dHNpZGUgdGhvc2Ugc3RyaW5ncyBzbyBlcnJvciBkZXRhaWxzIGNhbm5vdCBpbXBlcnNvbmF0ZSBmaWVsZHMuCmZuIGNvbnNvbGVfdG9rZW5zKGxpbmU6ICZzdHIpIC0+IE9wdGlvbjxWZWM8JnN0cj4+IHsKICAgIGxldCBtdXQgdG9rZW5zID0gVmVjOjpuZXcoKTsKICAgIGxldCBtdXQgc3RhcnQgPSBOb25lOwogICAgbGV0IG11dCBxdW90ZWQgPSBmYWxzZTsKICAgIGxldCBtdXQgZXNjYXBlZCA9IGZhbHNlOwogICAgZm9yIChvZmZzZXQsIGNoKSBpbiBsaW5lLmNoYXJfaW5kaWNlcygpIHsKICAgICAgICBpZiBjaC5pc193aGl0ZXNwYWNlKCkgJiYgIXF1b3RlZCB7CiAgICAgICAgICAgIGlmIGxldCBTb21lKGJlZ2luKSA9IHN0YXJ0LnRha2UoKSB7CiAgICAgICAgICAgICAgICB0b2tlbnMucHVzaCgmbGluZVtiZWdpbi4ub2Zmc2V0XSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIHN0YXJ0LmdldF9vcl9pbnNlcnQob2Zmc2V0KTsKICAgICAgICBpZiBlc2NhcGVkIHsKICAgICAgICAgICAgZXNjYXBlZCA9IGZhbHNlOwogICAgICAgIH0gZWxzZSBpZiBxdW90ZWQgJiYgY2ggPT0gJ1xcJyB7CiAgICAgICAgICAgIGVzY2FwZWQgPSB0cnVlOwogICAgICAgIH0gZWxzZSBpZiBjaCA9PSAnIicgewogICAgICAgICAgICBxdW90ZWQgPSAhcXVvdGVkOwogICAgICAgIH0KICAgIH0KICAgIGlmIHF1b3RlZCB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBpZiBsZXQgU29tZShiZWdpbikgPSBzdGFydCB7CiAgICAgICAgdG9rZW5zLnB1c2goJmxpbmVbYmVnaW4uLl0pOwogICAgfQogICAgU29tZSh0b2tlbnMpCn0KCmZuIGNsYXNzaWZ5X21lc3NhZ2UobWVzc2FnZTogJnN0ciwgaW5kZXg6IHU4KSAtPiBPcHRpb248Q2xvdWRmbGFyZWRTaWduYWw+IHsKICAgIGxldCBub3JtYWxpemVkID0gbWVzc2FnZS50cmltKCkudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBtYXRjaCBub3JtYWxpemVkLmFzX3N0cigpIHsKICAgICAgICAicmVnaXN0ZXJlZCB0dW5uZWwgY29ubmVjdGlvbiIgPT4gU29tZShDbG91ZGZsYXJlZFNpZ25hbDo6UmVnaXN0ZXJlZChpbmRleCkpLAogICAgICAgICJ1bnJlZ2lzdGVyZWQgdHVubmVsIGNvbm5lY3Rpb24iCiAgICAgICAgfCAic2VydmUgdHVubmVsIGVycm9yIgogICAgICAgIHwgInR1bm5lbCBkaXNjb25uZWN0ZWQiCiAgICAgICAgfCAiZmFpbGVkIHRvIHNlcnZlIHR1bm5lbCIKICAgICAgICB8ICJmYWlsZWQgdG8gc2VydmUgdHVubmVsIGNvbm5lY3Rpb24iCiAgICAgICAgfCAiY29ubmVjdGlvbiB0ZXJtaW5hdGVkIgogICAgICAgIHwgInJldHJ5aW5nIGNvbm5lY3Rpb24iID0+IFNvbWUoQ2xvdWRmbGFyZWRTaWduYWw6OkRpc2Nvbm5lY3RlZChpbmRleCkpLAogICAgICAgIF8gPT4gewogICAgICAgICAgICBsZXQgd29yZHM6IFZlYzxfPiA9IG5vcm1hbGl6ZWQuc3BsaXRfd2hpdGVzcGFjZSgpLmNvbGxlY3QoKTsKICAgICAgICAgICAgLy8gT2xkZXIgY2xvdWRmbGFyZWQgcmVsZWFzZXMgdXNlZCAiQ29ubmVjdGlvbiA8VVVJRD4gcmVnaXN0ZXJlZCIuCiAgICAgICAgICAgIGlmIG1hdGNoZXMhKHdvcmRzLmFzX3NsaWNlKCksIFsiY29ubmVjdGlvbiIsIF8sICJyZWdpc3RlcmVkIl0pIHsKICAgICAgICAgICAgICAgIFNvbWUoQ2xvdWRmbGFyZWRTaWduYWw6OlJlZ2lzdGVyZWQoaW5kZXgpKQogICAgICAgICAgICB9IGVsc2UgaWYgbm9ybWFsaXplZC5zdGFydHNfd2l0aCgicmV0cnlpbmcgY29ubmVjdGlvbiBpbiAiKSB7CiAgICAgICAgICAgICAgICBTb21lKENsb3VkZmxhcmVkU2lnbmFsOjpEaXNjb25uZWN0ZWQoaW5kZXgpKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgTm9uZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKICAgIHVzZSBjcmF0ZTo6dHVubmVsczo6Y29ubmVjdGl2aXR5Ojp7Q29ubmVjdGVkRXZlbnRBY3Rpb24sIFR1bm5lbERpc2Nvbm5lY3RFdmVudH07CiAgICB1c2Ugc3RkOjp0aW1lOjpEdXJhdGlvbjsKICAgIHVzZSB0b2tpbzo6dGltZTo6SW5zdGFudDsKCiAgICAjW3Rlc3RdCiAgICBmbiBwYXJzZXNfaXNzdWVfNTNfYW5kX3JlZ2lzdHJhdGlvbl93aXRob3V0X2NvbmZ1c2luZ191bnJlZ2lzdHJhdGlvbigpIHsKICAgICAgICBmb3IgKGxpbmUsIHNpZ25hbCkgaW4gWwogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAiMjAyNi0wOS0wNVQxNDozNDoxMFogV1JOIGZhaWxlZCB0byBzZXJ2ZSB0dW5uZWwgY29ubmVjdGlvbiBlcnJvcj1cImFjY2VwdCBzdHJlYW0gbGlzdGVuZXIgZW5jb3VudGVyZWQgYSBmYWlsdXJlIHdoaWxlIHNlcnZpbmdcIiBjb25uSW5kZXg9MiBldmVudD0wIGlwPTI2MDY6NDcwMDphMDo6OSIsCiAgICAgICAgICAgICAgICBDbG91ZGZsYXJlZFNpZ25hbDo6RGlzY29ubmVjdGVkKDIpLAogICAgICAgICAgICApLAogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAiMjAyNi0wOS0wNVQxNDozNDoxMFogSU5GIFJlZ2lzdGVyZWQgdHVubmVsIGNvbm5lY3Rpb24gY29ubkluZGV4PTIgY29ubmVjdGlvbj11dWlkIiwKICAgICAgICAgICAgICAgIENsb3VkZmxhcmVkU2lnbmFsOjpSZWdpc3RlcmVkKDIpLAogICAgICAgICAgICApLAogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAiSU5GIFVucmVnaXN0ZXJlZCB0dW5uZWwgY29ubmVjdGlvbiBjb25uSW5kZXg9MiIsCiAgICAgICAgICAgICAgICBDbG91ZGZsYXJlZFNpZ25hbDo6RGlzY29ubmVjdGVkKDIpLAogICAgICAgICAgICApLAogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAiSU5GIENvbm5lY3Rpb24gdXVpZCByZWdpc3RlcmVkIGNvbm5JbmRleD0wIiwKICAgICAgICAgICAgICAgIENsb3VkZmxhcmVkU2lnbmFsOjpSZWdpc3RlcmVkKDApLAogICAgICAgICAgICApLAogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAiRVJSIFNlcnZlIHR1bm5lbCBlcnJvciBlcnJvcj1cInRpbWVvdXRcIiBjb25uSW5kZXg9MSIsCiAgICAgICAgICAgICAgICBDbG91ZGZsYXJlZFNpZ25hbDo6RGlzY29ubmVjdGVkKDEpLAogICAgICAgICAgICApLAogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAiSU5GIFJldHJ5aW5nIGNvbm5lY3Rpb24gaW4gdXAgdG8gMW00cyBjb25uSW5kZXg9MyIsCiAgICAgICAgICAgICAgICBDbG91ZGZsYXJlZFNpZ25hbDo6RGlzY29ubmVjdGVkKDMpLAogICAgICAgICAgICApLAogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICByIyJ7ImxldmVsIjoiaW5mbyIsIm1lc3NhZ2UiOiJSZWdpc3RlcmVkIHR1bm5lbCBjb25uZWN0aW9uIiwiY29ubkluZGV4IjoyfSIjLAogICAgICAgICAgICAgICAgQ2xvdWRmbGFyZWRTaWduYWw6OlJlZ2lzdGVyZWQoMiksCiAgICAgICAgICAgICksCiAgICAgICAgICAgICgKICAgICAgICAgICAgICAgIHIjInsibWVzc2FnZSI6IlVucmVnaXN0ZXJlZCB0dW5uZWwgY29ubmVjdGlvbiIsImNvbm5JbmRleCI6IjIifSIjLAogICAgICAgICAgICAgICAgQ2xvdWRmbGFyZWRTaWduYWw6OkRpc2Nvbm5lY3RlZCgyKSwKICAgICAgICAgICAgKSwKICAgICAgICBdIHsKICAgICAgICAgICAgYXNzZXJ0X2VxIShwYXJzZV9jbG91ZGZsYXJlZF9zaWduYWwobGluZSksIFNvbWUoc2lnbmFsKSwgIntsaW5lfSIpOwogICAgICAgIH0KICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBpZ25vcmVzX3Vua25vd25fb3JfYW1iaWd1b3VzX21lc3NhZ2VzKCkgewogICAgICAgIGZvciBsaW5lIGluIFsKICAgICAgICAgICAgIklORiBSZWdpc3RlcmVkIHR1bm5lbCBjb25uZWN0aW9uIiwKICAgICAgICAgICAgIklORiBSZWdpc3RlcmVkIHR1bm5lbCBjb25uZWN0aW9uIGNvbm5JbmRleD1iYWQiLAogICAgICAgICAgICAiSU5GIFJlZ2lzdGVyZWQgdHVubmVsIGNvbm5lY3Rpb24gY29ubkluZGV4PTI1NiIsCiAgICAgICAgICAgICJFUlIgdW5yZWxhdGVkIGVycm9yPVwicmVnaXN0ZXJlZCB0dW5uZWwgY29ubmVjdGlvblwiIGNvbm5JbmRleD0wIiwKICAgICAgICAgICAgIklORiBSZWdpc3RlcmluZyB0dW5uZWwgY29ubmVjdGlvbiBjb25uSW5kZXg9MCIsCiAgICAgICAgICAgIHIjInsibWVzc2FnZSI6IlJlZ2lzdGVyZWQgdHVubmVsIGNvbm5lY3Rpb24iLCJjb25uSW5kZXgiOi0xfSIjLAogICAgICAgIF0gewogICAgICAgICAgICBhc3NlcnRfZXEhKHBhcnNlX2Nsb3VkZmxhcmVkX3NpZ25hbChsaW5lKSwgTm9uZSwgIntsaW5lfSIpOwogICAgICAgIH0KICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBxdW90ZWRfZXJyb3JfZmllbGRzX2Nhbm5vdF9zdXBwbHlfb3Jfb3ZlcnJpZGVfY29ubmVjdGlvbl9pbmRleCgpIHsKICAgICAgICBmb3IgbGluZSBpbiBbCiAgICAgICAgICAgIHIjIkVSUiBTZXJ2ZSB0dW5uZWwgZXJyb3IgZXJyb3I9InVwc3RyZWFtIGNvbm5JbmRleD0wIGZhaWxlZCIgY29ubkluZGV4PTIiIywKICAgICAgICAgICAgciMiRVJSIFNlcnZlIHR1bm5lbCBlcnJvciBlcnJvcj0idXBzdHJlYW0gXCJxdW90ZWRcIiBjb25uSW5kZXg9MCBmYWlsZWQiIGNvbm5JbmRleD0yIiMsCiAgICAgICAgICAgIHIjIkVSUiBTZXJ2ZSB0dW5uZWwgZXJyb3IgZXJyb3I9InVwc3RyZWFtIFxcIGNvbm5JbmRleD0wIGZhaWxlZCIgY29ubkluZGV4PTIiIywKICAgICAgICBdIHsKICAgICAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgICAgIHBhcnNlX2Nsb3VkZmxhcmVkX3NpZ25hbChsaW5lKSwKICAgICAgICAgICAgICAgIFNvbWUoQ2xvdWRmbGFyZWRTaWduYWw6OkRpc2Nvbm5lY3RlZCgyKSksCiAgICAgICAgICAgICAgICAie2xpbmV9IgogICAgICAgICAgICApOwogICAgICAgIH0KICAgICAgICBmb3IgbGluZSBpbiBbCiAgICAgICAgICAgIHIjIkVSUiBTZXJ2ZSB0dW5uZWwgZXJyb3IgZXJyb3I9InVwc3RyZWFtIGNvbm5JbmRleD0wIGZhaWxlZCIiIywKICAgICAgICAgICAgciMiRVJSIFNlcnZlIHR1bm5lbCBlcnJvciBlcnJvcj0idHJ1bmNhdGVkIGNvbm5JbmRleD0wIiMsCiAgICAgICAgXSB7CiAgICAgICAgICAgIGFzc2VydF9lcSEocGFyc2VfY2xvdWRmbGFyZWRfc2lnbmFsKGxpbmUpLCBOb25lLCAie2xpbmV9Iik7CiAgICAgICAgfQogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGZhaWxlZF9zdG9wX3ByZXNlcnZlc19jb25uZWN0aW9uc19hbmRfZGV0ZWN0c19sYXRlcl9vdXRhZ2UoKSB7CiAgICAgICAgbGV0IG11dCBzdGF0ZSA9IENsb3VkZmxhcmVkQ29ubmVjdGl2aXR5OjpkZWZhdWx0KCk7CiAgICAgICAgbGV0IG5vdyA9IEluc3RhbnQ6Om5vdygpOwogICAgICAgIGZvciBpbmRleCBpbiAwLi40IHsKICAgICAgICAgICAgc3RhdGUub2JzZXJ2ZV9zaWduYWwoQ2xvdWRmbGFyZWRTaWduYWw6OlJlZ2lzdGVyZWQoaW5kZXgpKTsKICAgICAgICB9CiAgICAgICAgc3RhdGUuZ2F0ZS5vYnNlcnZlX2Nvbm5lY3RlZChub3cpOwogICAgICAgIHN0YXRlLnNldF9leHBlY3RlZF9zdG9wKHRydWUpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHN0YXRlLm9ic2VydmVfc2lnbmFsKENsb3VkZmxhcmVkU2lnbmFsOjpEaXNjb25uZWN0ZWQoMikpLAogICAgICAgICAgICBOb25lCiAgICAgICAgKTsKICAgICAgICBzdGF0ZS5maW5pc2hfZXhwZWN0ZWRfc3RvcChmYWxzZSk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc3RhdGUub2JzZXJ2ZV9zaWduYWwoQ2xvdWRmbGFyZWRTaWduYWw6OlJlY29uY2lsZSksCiAgICAgICAgICAgIFNvbWUodHJ1ZSkKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHN0YXRlLmdhdGUub2JzZXJ2ZV9jb25uZWN0ZWQobm93KSwKICAgICAgICAgICAgQ29ubmVjdGVkRXZlbnRBY3Rpb246Oklnbm9yZQogICAgICAgICk7CiAgICAgICAgZm9yIGluZGV4IGluIFswLCAxXSB7CiAgICAgICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgICAgICBzdGF0ZS5vYnNlcnZlX3NpZ25hbChDbG91ZGZsYXJlZFNpZ25hbDo6RGlzY29ubmVjdGVkKGluZGV4KSksCiAgICAgICAgICAgICAgICBOb25lCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHN0YXRlLm9ic2VydmVfc2lnbmFsKENsb3VkZmxhcmVkU2lnbmFsOjpEaXNjb25uZWN0ZWQoMykpLAogICAgICAgICAgICBTb21lKGZhbHNlKQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgc3RhdGUKICAgICAgICAgICAgICAgIC5nYXRlCiAgICAgICAgICAgICAgICAub2JzZXJ2ZV9kaXNjb25uZWN0ZWQobm93LCBkaXNjb25uZWN0X2V2ZW50KCkpCiAgICAgICAgICAgICAgICAuaXNfc29tZSgpCiAgICAgICAgKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBmYWlsZWRfc3RvcF9yZWNoZWNrc19vdXRhZ2VfdGhhdF9zdGFydGVkX2R1cmluZ190ZXJtaW5hdGlvbigpIHsKICAgICAgICBsZXQgbXV0IHN0YXRlID0gQ2xvdWRmbGFyZWRDb25uZWN0aXZpdHk6OmRlZmF1bHQoKTsKICAgICAgICBsZXQgbm93ID0gSW5zdGFudDo6bm93KCk7CiAgICAgICAgc3RhdGUub2JzZXJ2ZV9zaWduYWwoQ2xvdWRmbGFyZWRTaWduYWw6OlJlZ2lzdGVyZWQoMCkpOwogICAgICAgIHN0YXRlLmdhdGUub2JzZXJ2ZV9jb25uZWN0ZWQobm93KTsKICAgICAgICBzdGF0ZS5zZXRfZXhwZWN0ZWRfc3RvcCh0cnVlKTsKICAgICAgICBzdGF0ZS5vYnNlcnZlX3NpZ25hbChDbG91ZGZsYXJlZFNpZ25hbDo6RGlzY29ubmVjdGVkKDApKTsKICAgICAgICBzdGF0ZS5maW5pc2hfZXhwZWN0ZWRfc3RvcChmYWxzZSk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc3RhdGUub2JzZXJ2ZV9zaWduYWwoQ2xvdWRmbGFyZWRTaWduYWw6OlJlY29uY2lsZSksCiAgICAgICAgICAgIFNvbWUoZmFsc2UpCiAgICAgICAgKTsKICAgICAgICBsZXQgdGltZXIgPSBzdGF0ZQogICAgICAgICAgICAuZ2F0ZQogICAgICAgICAgICAub2JzZXJ2ZV9kaXNjb25uZWN0ZWQobm93LCBkaXNjb25uZWN0X2V2ZW50KCkpCiAgICAgICAgICAgIC51bndyYXAoKTsKICAgICAgICBhc3NlcnQhKAogICAgICAgICAgICBzdGF0ZQogICAgICAgICAgICAgICAgLmdhdGUKICAgICAgICAgICAgICAgIC5jb25maXJtX2Rpc2Nvbm5lY3QoJnRpbWVyLCB0aW1lci5kZWFkbGluZSkKICAgICAgICAgICAgICAgIC5pc19zb21lKCkKICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGZhaWxlZF9zdG9wX2RvZXNfbm90X2ludmVudF9hX2Nvbm5lY3Rpb25fZm9yX3VuY29ubmVjdGVkX3Byb2Nlc3MoKSB7CiAgICAgICAgbGV0IG11dCBzdGF0ZSA9IENsb3VkZmxhcmVkQ29ubmVjdGl2aXR5OjpkZWZhdWx0KCk7CiAgICAgICAgc3RhdGUuc2V0X2V4cGVjdGVkX3N0b3AodHJ1ZSk7CiAgICAgICAgc3RhdGUuZmluaXNoX2V4cGVjdGVkX3N0b3AoZmFsc2UpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHN0YXRlLm9ic2VydmVfc2lnbmFsKENsb3VkZmxhcmVkU2lnbmFsOjpSZWNvbmNpbGUpLAogICAgICAgICAgICBTb21lKGZhbHNlKQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc3RhdGUuZ2F0ZS5vYnNlcnZlX2Nvbm5lY3RlZChJbnN0YW50Ojpub3coKSksCiAgICAgICAgICAgIENvbm5lY3RlZEV2ZW50QWN0aW9uOjpQdWJsaXNoQ29ubmVjdGVkCiAgICAgICAgKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBmYWlsZWRfc3RvcF9kb2VzX25vdF9yZXBlYXRfYW5fYWxyZWFkeV9jb25maXJtZWRfb3V0YWdlKCkgewogICAgICAgIGxldCBtdXQgc3RhdGUgPSBDbG91ZGZsYXJlZENvbm5lY3Rpdml0eTo6ZGVmYXVsdCgpOwogICAgICAgIGxldCBub3cgPSBJbnN0YW50Ojpub3coKTsKICAgICAgICBzdGF0ZS5vYnNlcnZlX3NpZ25hbChDbG91ZGZsYXJlZFNpZ25hbDo6UmVnaXN0ZXJlZCgwKSk7CiAgICAgICAgc3RhdGUuZ2F0ZS5vYnNlcnZlX2Nvbm5lY3RlZChub3cpOwogICAgICAgIHN0YXRlLm9ic2VydmVfc2lnbmFsKENsb3VkZmxhcmVkU2lnbmFsOjpEaXNjb25uZWN0ZWQoMCkpOwogICAgICAgIGxldCB0aW1lciA9IHN0YXRlCiAgICAgICAgICAgIC5nYXRlCiAgICAgICAgICAgIC5vYnNlcnZlX2Rpc2Nvbm5lY3RlZChub3csIGRpc2Nvbm5lY3RfZXZlbnQoKSkKICAgICAgICAgICAgLnVud3JhcCgpOwogICAgICAgIGFzc2VydCEoCiAgICAgICAgICAgIHN0YXRlCiAgICAgICAgICAgICAgICAuZ2F0ZQogICAgICAgICAgICAgICAgLmNvbmZpcm1fZGlzY29ubmVjdCgmdGltZXIsIHRpbWVyLmRlYWRsaW5lKQogICAgICAgICAgICAgICAgLmlzX3NvbWUoKQogICAgICAgICk7CiAgICAgICAgc3RhdGUuc2V0X2V4cGVjdGVkX3N0b3AodHJ1ZSk7CiAgICAgICAgc3RhdGUuZmluaXNoX2V4cGVjdGVkX3N0b3AoZmFsc2UpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHN0YXRlLm9ic2VydmVfc2lnbmFsKENsb3VkZmxhcmVkU2lnbmFsOjpSZWNvbmNpbGUpLAogICAgICAgICAgICBTb21lKGZhbHNlKQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgc3RhdGUKICAgICAgICAgICAgICAgIC5nYXRlCiAgICAgICAgICAgICAgICAub2JzZXJ2ZV9kaXNjb25uZWN0ZWQodGltZXIuZGVhZGxpbmUsIGRpc2Nvbm5lY3RfZXZlbnQoKSkKICAgICAgICAgICAgICAgIC5pc19ub25lKCkKICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHBhcnNlc19pbmRleF9hZnRlcl9sb25nX2Vycm9yX2JlZm9yZV9kaXNwbGF5X3RydW5jYXRpb24oKSB7CiAgICAgICAgbGV0IGxpbmUgPSBmb3JtYXQhKAogICAgICAgICAgICAiRVJSIGZhaWxlZCB0byBzZXJ2ZSB0dW5uZWwgY29ubmVjdGlvbiBlcnJvcj1cInt9XCIgY29ubkluZGV4PTIiLAogICAgICAgICAgICAieCIucmVwZWF0KDUwMCkKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHBhcnNlX2Nsb3VkZmxhcmVkX3NpZ25hbCgmbGluZSksCiAgICAgICAgICAgIFNvbWUoQ2xvdWRmbGFyZWRTaWduYWw6OkRpc2Nvbm5lY3RlZCgyKSkKICAgICAgICApOwogICAgfQoKICAgIGZuIGRpc2Nvbm5lY3RfZXZlbnQoKSAtPiBUdW5uZWxEaXNjb25uZWN0RXZlbnQgewogICAgICAgIFR1bm5lbERpc2Nvbm5lY3RFdmVudCB7CiAgICAgICAgICAgIGhhcHBlbmVkX2F0OiAiMjAyNi0wOS0wNVQxNDozNDoxMFoiLmludG8oKSwKICAgICAgICAgICAgbWVzc2FnZTogTm9uZSwKICAgICAgICAgICAgcGlkOiBTb21lKDQyKSwKICAgICAgICB9CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gcGFydGlhbF9mYWlsdXJlX25ldmVyX3N0YXJ0c19kaXNjb25uZWN0X3RpbWVyKCkgewogICAgICAgIGxldCBtdXQgc3RhdGUgPSBDbG91ZGZsYXJlZENvbm5lY3Rpdml0eTo6ZGVmYXVsdCgpOwogICAgICAgIGxldCBub3cgPSBJbnN0YW50Ojpub3coKTsKICAgICAgICBmb3IgaW5kZXggaW4gMC4uNCB7CiAgICAgICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgICAgICBzdGF0ZS5vYnNlcnZlX3NpZ25hbChDbG91ZGZsYXJlZFNpZ25hbDo6UmVnaXN0ZXJlZChpbmRleCkpLAogICAgICAgICAgICAgICAgU29tZSh0cnVlKQogICAgICAgICAgICApOwogICAgICAgICAgICBzdGF0ZS5nYXRlLm9ic2VydmVfY29ubmVjdGVkKG5vdyk7CiAgICAgICAgfQogICAgICAgIGZvciBpbmRleCBpbiBbMiwgMiwgNywgMCwgMV0gewogICAgICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICAgICAgc3RhdGUub2JzZXJ2ZV9zaWduYWwoQ2xvdWRmbGFyZWRTaWduYWw6OkRpc2Nvbm5lY3RlZChpbmRleCkpLAogICAgICAgICAgICAgICAgTm9uZQogICAgICAgICAgICApOwogICAgICAgIH0KICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBzdGF0ZS5nYXRlLm9ic2VydmVfY29ubmVjdGVkKG5vdyArIER1cmF0aW9uOjpmcm9tX3NlY3MoMTIwKSksCiAgICAgICAgICAgIENvbm5lY3RlZEV2ZW50QWN0aW9uOjpJZ25vcmUKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHN0YXRlLm9ic2VydmVfc2lnbmFsKENsb3VkZmxhcmVkU2lnbmFsOjpEaXNjb25uZWN0ZWQoMykpLAogICAgICAgICAgICBTb21lKGZhbHNlKQogICAgICAgICk7CiAgICAgICAgbGV0IHRpbWVyID0gc3RhdGUKICAgICAgICAgICAgLmdhdGUKICAgICAgICAgICAgLm9ic2VydmVfZGlzY29ubmVjdGVkKG5vdywgZGlzY29ubmVjdF9ldmVudCgpKQogICAgICAgICAgICAudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgc3RhdGUKICAgICAgICAgICAgICAgIC5nYXRlCiAgICAgICAgICAgICAgICAuY29uZmlybV9kaXNjb25uZWN0KCZ0aW1lciwgdGltZXIuZGVhZGxpbmUpCiAgICAgICAgICAgICAgICAuaXNfc29tZSgpCiAgICAgICAgKTsKICAgICAgICBhc3NlcnQhKAogICAgICAgICAgICBzdGF0ZQogICAgICAgICAgICAgICAgLmdhdGUKICAgICAgICAgICAgICAgIC5jb25maXJtX2Rpc2Nvbm5lY3QoJnRpbWVyLCB0aW1lci5kZWFkbGluZSkKICAgICAgICAgICAgICAgIC5pc19ub25lKCkKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHN0YXRlLm9ic2VydmVfc2lnbmFsKENsb3VkZmxhcmVkU2lnbmFsOjpSZWdpc3RlcmVkKDIpKSwKICAgICAgICAgICAgU29tZSh0cnVlKQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc3RhdGUuZ2F0ZS5vYnNlcnZlX2Nvbm5lY3RlZCh0aW1lci5kZWFkbGluZSksCiAgICAgICAgICAgIENvbm5lY3RlZEV2ZW50QWN0aW9uOjpQdWJsaXNoQ29ubmVjdGVkCiAgICAgICAgKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBhbnlfY29ubmVjdGlvbl9yZWNvdmVyaW5nX2NhbmNlbHNfcGVuZGluZ19kaXNjb25uZWN0KCkgewogICAgICAgIGxldCBtdXQgc3RhdGUgPSBDbG91ZGZsYXJlZENvbm5lY3Rpdml0eTo6ZGVmYXVsdCgpOwogICAgICAgIGxldCBub3cgPSBJbnN0YW50Ojpub3coKTsKICAgICAgICBzdGF0ZS5vYnNlcnZlX3NpZ25hbChDbG91ZGZsYXJlZFNpZ25hbDo6UmVnaXN0ZXJlZCgyKSk7CiAgICAgICAgc3RhdGUuZ2F0ZS5vYnNlcnZlX2Nvbm5lY3RlZChub3cpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHN0YXRlLm9ic2VydmVfc2lnbmFsKENsb3VkZmxhcmVkU2lnbmFsOjpEaXNjb25uZWN0ZWQoMikpLAogICAgICAgICAgICBTb21lKGZhbHNlKQogICAgICAgICk7CiAgICAgICAgbGV0IHRpbWVyID0gc3RhdGUKICAgICAgICAgICAgLmdhdGUKICAgICAgICAgICAgLm9ic2VydmVfZGlzY29ubmVjdGVkKG5vdywgZGlzY29ubmVjdF9ldmVudCgpKQogICAgICAgICAgICAudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc3RhdGUub2JzZXJ2ZV9zaWduYWwoQ2xvdWRmbGFyZWRTaWduYWw6OlJlZ2lzdGVyZWQoMCkpLAogICAgICAgICAgICBTb21lKHRydWUpCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBzdGF0ZS5nYXRlLm9ic2VydmVfY29ubmVjdGVkKG5vdyArIER1cmF0aW9uOjpmcm9tX3NlY3MoMSkpLAogICAgICAgICAgICBDb25uZWN0ZWRFdmVudEFjdGlvbjo6SWdub3JlCiAgICAgICAgKTsKICAgICAgICBhc3NlcnQhKAogICAgICAgICAgICBzdGF0ZQogICAgICAgICAgICAgICAgLmdhdGUKICAgICAgICAgICAgICAgIC5jb25maXJtX2Rpc2Nvbm5lY3QoJnRpbWVyLCB0aW1lci5kZWFkbGluZSkKICAgICAgICAgICAgICAgIC5pc19ub25lKCkKICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHByb2Nlc3NfZXhpdF9jbGVhcnNfYWxsX2Nvbm5lY3Rpb25zX2JlZm9yZV9yZXN0YXJ0KCkgewogICAgICAgIGxldCBtdXQgc3RhdGUgPSBDbG91ZGZsYXJlZENvbm5lY3Rpdml0eTo6ZGVmYXVsdCgpOwogICAgICAgIHN0YXRlLm9ic2VydmVfc2lnbmFsKENsb3VkZmxhcmVkU2lnbmFsOjpSZWdpc3RlcmVkKDApKTsKICAgICAgICBzdGF0ZS5vYnNlcnZlX3NpZ25hbChDbG91ZGZsYXJlZFNpZ25hbDo6UmVnaXN0ZXJlZCgxKSk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc3RhdGUub2JzZXJ2ZV9zaWduYWwoQ2xvdWRmbGFyZWRTaWduYWw6OlByb2Nlc3NFeGl0ZWQpLAogICAgICAgICAgICBTb21lKGZhbHNlKQogICAgICAgICk7CiAgICAgICAgc3RhdGUub2JzZXJ2ZV9zaWduYWwoQ2xvdWRmbGFyZWRTaWduYWw6OlJlZ2lzdGVyZWQoMikpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHN0YXRlLm9ic2VydmVfc2lnbmFsKENsb3VkZmxhcmVkU2lnbmFsOjpEaXNjb25uZWN0ZWQoMikpLAogICAgICAgICAgICBTb21lKGZhbHNlKQogICAgICAgICk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gZXhwZWN0ZWRfc3RvcF9jYW5jZWxzX2FsZXJ0X2FuZF9pZ25vcmVzX3NodXRkb3duX291dHB1dCgpIHsKICAgICAgICBsZXQgbXV0IHN0YXRlID0gQ2xvdWRmbGFyZWRDb25uZWN0aXZpdHk6OmRlZmF1bHQoKTsKICAgICAgICBsZXQgbm93ID0gSW5zdGFudDo6bm93KCk7CiAgICAgICAgc3RhdGUub2JzZXJ2ZV9zaWduYWwoQ2xvdWRmbGFyZWRTaWduYWw6OlJlZ2lzdGVyZWQoMCkpOwogICAgICAgIHN0YXRlLmdhdGUub2JzZXJ2ZV9jb25uZWN0ZWQobm93KTsKICAgICAgICBzdGF0ZS5vYnNlcnZlX3NpZ25hbChDbG91ZGZsYXJlZFNpZ25hbDo6RGlzY29ubmVjdGVkKDApKTsKICAgICAgICBsZXQgdGltZXIgPSBzdGF0ZQogICAgICAgICAgICAuZ2F0ZQogICAgICAgICAgICAub2JzZXJ2ZV9kaXNjb25uZWN0ZWQobm93LCBkaXNjb25uZWN0X2V2ZW50KCkpCiAgICAgICAgICAgIC51bndyYXAoKTsKICAgICAgICBzdGF0ZS5zZXRfZXhwZWN0ZWRfc3RvcCh0cnVlKTsKICAgICAgICBhc3NlcnRfZXEhKHN0YXRlLm9ic2VydmVfc2lnbmFsKENsb3VkZmxhcmVkU2lnbmFsOjpSZWdpc3RlcmVkKDEpKSwgTm9uZSk7CiAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgc3RhdGUKICAgICAgICAgICAgICAgIC5nYXRlCiAgICAgICAgICAgICAgICAuY29uZmlybV9kaXNjb25uZWN0KCZ0aW1lciwgdGltZXIuZGVhZGxpbmUpCiAgICAgICAgICAgICAgICAuaXNfbm9uZSgpCiAgICAgICAgKTsKICAgICAgICBzdGF0ZS5maW5pc2hfZXhwZWN0ZWRfc3RvcCh0cnVlKTsKICAgICAgICBzdGF0ZS5vYnNlcnZlX3NpZ25hbChDbG91ZGZsYXJlZFNpZ25hbDo6UmVnaXN0ZXJlZCgyKSk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc3RhdGUub2JzZXJ2ZV9zaWduYWwoQ2xvdWRmbGFyZWRTaWduYWw6OkRpc2Nvbm5lY3RlZCgyKSksCiAgICAgICAgICAgIFNvbWUoZmFsc2UpCiAgICAgICAgKTsKICAgIH0KfQo=
+use std::collections::HashSet;
+
+use crate::tunnels::connectivity::TunnelConnectivityGate;
+
+#[derive(Debug, PartialEq, Eq)]
+pub(super) enum CloudflaredSignal {
+    Registered(u8),
+    Disconnected(u8),
+    ProcessExited,
+    Reconcile,
+}
+
+#[derive(Default)]
+pub(super) struct CloudflaredConnectivity {
+    pub(super) gate: TunnelConnectivityGate,
+    active: HashSet<u8>,
+    stopping: bool,
+    resume_connected: bool,
+}
+
+impl CloudflaredConnectivity {
+    // A failed HA connection does not imply the connector is offline. Only
+    // transitions involving known connections can change aggregate health.
+    pub(super) fn observe_signal(&mut self, signal: CloudflaredSignal) -> Option<bool> {
+        let result = match signal {
+            CloudflaredSignal::Registered(index) => {
+                self.active.insert(index);
+                Some(true)
+            }
+            CloudflaredSignal::Disconnected(index) => {
+                (self.active.remove(&index) && self.active.is_empty()).then_some(false)
+            }
+            CloudflaredSignal::ProcessExited => {
+                self.active.clear();
+                Some(false)
+            }
+            CloudflaredSignal::Reconcile => Some(!self.active.is_empty()),
+        };
+        // Keep tracking output during termination: termination can fail while
+        // the same process and its remaining connections continue running.
+        if self.stopping { None } else { result }
+    }
+
+    pub(super) fn set_expected_stop(&mut self, expected: bool) {
+        if expected && !self.stopping {
+            self.resume_connected = self.gate.has_connection_baseline();
+        }
+        self.stopping = expected;
+        self.gate.set_expected_stop(expected);
+    }
+
+    pub(super) fn finish_expected_stop(&mut self, stopped: bool) {
+        self.set_expected_stop(false);
+        if stopped {
+            self.active.clear();
+            self.resume_connected = false;
+        } else if self.resume_connected {
+            // Restore the notification baseline without publishing a spurious
+            // recovery. Reconcile then confirms any outage observed during stop.
+            self.gate.observe_connected(tokio::time::Instant::now());
+        }
+    }
+}
+
+pub(super) fn parse_cloudflared_signal(line: &str) -> Option<CloudflaredSignal> {
+    if let Ok(value) = serde_json::from_str::<serde_json::Value>(line) {
+        let index = value.get("connIndex")?;
+        let index = index
+            .as_u64()
+            .and_then(|v| u8::try_from(v).ok())
+            .or_else(|| index.as_str()?.parse().ok())?;
+        return classify_message(value.get("message")?.as_str()?, index);
+    }
+
+    let tokens = console_tokens(line)?;
+    let index = tokens
+        .iter()
+        .find_map(|token| token.strip_prefix("connIndex=")?.parse::<u8>().ok())?;
+    let start = tokens
+        .iter()
+        .take(2)
+        .position(|token| {
+            matches!(
+                *token,
+                "INF" | "WRN" | "ERR" | "DBG" | "TRC" | "FTL" | "PNC"
+            )
+        })
+        .map_or(0, |position| position + 1);
+    let message = tokens[start..]
+        .iter()
+        .take_while(|token| !token.contains('='))
+        .copied()
+        .collect::<Vec<_>>()
+        .join(" ");
+    classify_message(&message, index)
+}
+
+// Zerolog console fields may contain quoted whitespace and escaped quotes.
+// Split only outside those strings so error details cannot impersonate fields.
+fn console_tokens(line: &str) -> Option<Vec<&str>> {
+    let mut tokens = Vec::new();
+    let mut start = None;
+    let mut quoted = false;
+    let mut escaped = false;
+    for (offset, ch) in line.char_indices() {
+        if ch.is_whitespace() && !quoted {
+            if let Some(begin) = start.take() {
+                tokens.push(&line[begin..offset]);
+            }
+            continue;
+        }
+        start.get_or_insert(offset);
+        if escaped {
+            escaped = false;
+        } else if quoted && ch == '\\' {
+            escaped = true;
+        } else if ch == '"' {
+            quoted = !quoted;
+        }
+    }
+    if quoted {
+        return None;
+    }
+    if let Some(begin) = start {
+        tokens.push(&line[begin..]);
+    }
+    Some(tokens)
+}
+
+fn classify_message(message: &str, index: u8) -> Option<CloudflaredSignal> {
+    let normalized = message.trim().to_ascii_lowercase();
+    match normalized.as_str() {
+        "registered tunnel connection" => Some(CloudflaredSignal::Registered(index)),
+        "unregistered tunnel connection"
+        | "serve tunnel error"
+        | "tunnel disconnected"
+        | "failed to serve tunnel"
+        | "failed to serve tunnel connection"
+        | "connection terminated"
+        | "retrying connection" => Some(CloudflaredSignal::Disconnected(index)),
+        _ => {
+            let words: Vec<_> = normalized.split_whitespace().collect();
+            // Older cloudflared releases used "Connection <UUID> registered".
+            if matches!(words.as_slice(), ["connection", _, "registered"]) {
+                Some(CloudflaredSignal::Registered(index))
+            } else if normalized.starts_with("retrying connection in ") {
+                Some(CloudflaredSignal::Disconnected(index))
+            } else {
+                None
+            }
+        }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::tunnels::connectivity::{ConnectedEventAction, TunnelDisconnectEvent};
+    use std::time::Duration;
+    use tokio::time::Instant;
+
+    #[test]
+    fn parses_issue_53_and_registration_without_confusing_unregistration() {
+        for (line, signal) in [
+            (
+                "2026-09-05T14:34:10Z WRN failed to serve tunnel connection error=\"accept stream listener encountered a failure while serving\" connIndex=2 event=0 ip=2606:4700:a0::9",
+                CloudflaredSignal::Disconnected(2),
+            ),
+            (
+                "2026-09-05T14:34:10Z INF Registered tunnel connection connIndex=2 connection=uuid",
+                CloudflaredSignal::Registered(2),
+            ),
+            (
+                "INF Unregistered tunnel connection connIndex=2",
+                CloudflaredSignal::Disconnected(2),
+            ),
+            (
+                "INF Connection uuid registered connIndex=0",
+                CloudflaredSignal::Registered(0),
+            ),
+            (
+                "ERR Serve tunnel error error=\"timeout\" connIndex=1",
+                CloudflaredSignal::Disconnected(1),
+            ),
+            (
+                "INF Retrying connection in up to 1m4s connIndex=3",
+                CloudflaredSignal::Disconnected(3),
+            ),
+            (
+                r#"{"level":"info","message":"Registered tunnel connection","connIndex":2}"#,
+                CloudflaredSignal::Registered(2),
+            ),
+            (
+                r#"{"message":"Unregistered tunnel connection","connIndex":"2"}"#,
+                CloudflaredSignal::Disconnected(2),
+            ),
+        ] {
+            assert_eq!(parse_cloudflared_signal(line), Some(signal), "{line}");
+        }
+    }
+
+    #[test]
+    fn ignores_unknown_or_ambiguous_messages() {
+        for line in [
+            "INF Registered tunnel connection",
+            "INF Registered tunnel connection connIndex=bad",
+            "INF Registered tunnel connection connIndex=256",
+            "ERR unrelated error=\"registered tunnel connection\" connIndex=0",
+            "INF Registering tunnel connection connIndex=0",
+            r#"{"message":"Registered tunnel connection","connIndex":-1}"#,
+        ] {
+            assert_eq!(parse_cloudflared_signal(line), None, "{line}");
+        }
+    }
+
+    #[test]
+    fn quoted_error_fields_cannot_supply_or_override_connection_index() {
+        for line in [
+            r#"ERR Serve tunnel error error="upstream connIndex=0 failed" connIndex=2"#,
+            r#"ERR Serve tunnel error error="upstream \"quoted\" connIndex=0 failed" connIndex=2"#,
+            r#"ERR Serve tunnel error error="upstream \\ connIndex=0 failed" connIndex=2"#,
+        ] {
+            assert_eq!(
+                parse_cloudflared_signal(line),
+                Some(CloudflaredSignal::Disconnected(2)),
+                "{line}"
+            );
+        }
+        for line in [
+            r#"ERR Serve tunnel error error="upstream connIndex=0 failed""#,
+            r#"ERR Serve tunnel error error="truncated connIndex=0"#,
+        ] {
+            assert_eq!(parse_cloudflared_signal(line), None, "{line}");
+        }
+    }
+
+    #[test]
+    fn failed_stop_preserves_connections_and_detects_later_outage() {
+        let mut state = CloudflaredConnectivity::default();
+        let now = Instant::now();
+        for index in 0..4 {
+            state.observe_signal(CloudflaredSignal::Registered(index));
+        }
+        state.gate.observe_connected(now);
+        state.set_expected_stop(true);
+        assert_eq!(
+            state.observe_signal(CloudflaredSignal::Disconnected(2)),
+            None
+        );
+        state.finish_expected_stop(false);
+        assert_eq!(
+            state.observe_signal(CloudflaredSignal::Reconcile),
+            Some(true)
+        );
+        assert_eq!(
+            state.gate.observe_connected(now),
+            ConnectedEventAction::Ignore
+        );
+        for index in [0, 1] {
+            assert_eq!(
+                state.observe_signal(CloudflaredSignal::Disconnected(index)),
+                None
+            );
+        }
+        assert_eq!(
+            state.observe_signal(CloudflaredSignal::Disconnected(3)),
+            Some(false)
+        );
+        assert!(
+            state
+                .gate
+                .observe_disconnected(now, disconnect_event())
+                .is_some()
+        );
+    }
+
+    #[test]
+    fn failed_stop_rechecks_outage_that_started_during_termination() {
+        let mut state = CloudflaredConnectivity::default();
+        let now = Instant::now();
+        state.observe_signal(CloudflaredSignal::Registered(0));
+        state.gate.observe_connected(now);
+        state.set_expected_stop(true);
+        state.observe_signal(CloudflaredSignal::Disconnected(0));
+        state.finish_expected_stop(false);
+        assert_eq!(
+            state.observe_signal(CloudflaredSignal::Reconcile),
+            Some(false)
+        );
+        let timer = state
+            .gate
+            .observe_disconnected(now, disconnect_event())
+            .unwrap();
+        assert!(
+            state
+                .gate
+                .confirm_disconnect(&timer, timer.deadline)
+                .is_some()
+        );
+    }
+
+    #[test]
+    fn failed_stop_does_not_invent_a_connection_for_unconnected_process() {
+        let mut state = CloudflaredConnectivity::default();
+        state.set_expected_stop(true);
+        state.finish_expected_stop(false);
+        assert_eq!(
+            state.observe_signal(CloudflaredSignal::Reconcile),
+            Some(false)
+        );
+        assert_eq!(
+            state.gate.observe_connected(Instant::now()),
+            ConnectedEventAction::PublishConnected
+        );
+    }
+
+    #[test]
+    fn failed_stop_does_not_repeat_an_already_confirmed_outage() {
+        let mut state = CloudflaredConnectivity::default();
+        let now = Instant::now();
+        state.observe_signal(CloudflaredSignal::Registered(0));
+        state.gate.observe_connected(now);
+        state.observe_signal(CloudflaredSignal::Disconnected(0));
+        let timer = state
+            .gate
+            .observe_disconnected(now, disconnect_event())
+            .unwrap();
+        assert!(
+            state
+                .gate
+                .confirm_disconnect(&timer, timer.deadline)
+                .is_some()
+        );
+        state.set_expected_stop(true);
+        state.finish_expected_stop(false);
+        assert_eq!(
+            state.observe_signal(CloudflaredSignal::Reconcile),
+            Some(false)
+        );
+        assert!(
+            state
+                .gate
+                .observe_disconnected(timer.deadline, disconnect_event())
+                .is_none()
+        );
+    }
+
+    #[test]
+    fn parses_index_after_long_error_before_display_truncation() {
+        let line = format!(
+            "ERR failed to serve tunnel connection error=\"{}\" connIndex=2",
+            "x".repeat(500)
+        );
+        assert_eq!(
+            parse_cloudflared_signal(&line),
+            Some(CloudflaredSignal::Disconnected(2))
+        );
+    }
+
+    fn disconnect_event() -> TunnelDisconnectEvent {
+        TunnelDisconnectEvent {
+            happened_at: "2026-09-05T14:34:10Z".into(),
+            message: None,
+            pid: Some(42),
+        }
+    }
+
+    #[test]
+    fn partial_failure_never_starts_disconnect_timer() {
+        let mut state = CloudflaredConnectivity::default();
+        let now = Instant::now();
+        for index in 0..4 {
+            assert_eq!(
+                state.observe_signal(CloudflaredSignal::Registered(index)),
+                Some(true)
+            );
+            state.gate.observe_connected(now);
+        }
+        for index in [2, 2, 7, 0, 1] {
+            assert_eq!(
+                state.observe_signal(CloudflaredSignal::Disconnected(index)),
+                None
+            );
+        }
+        assert_eq!(
+            state.gate.observe_connected(now + Duration::from_secs(120)),
+            ConnectedEventAction::Ignore
+        );
+        assert_eq!(
+            state.observe_signal(CloudflaredSignal::Disconnected(3)),
+            Some(false)
+        );
+        let timer = state
+            .gate
+            .observe_disconnected(now, disconnect_event())
+            .unwrap();
+        assert!(
+            state
+                .gate
+                .confirm_disconnect(&timer, timer.deadline)
+                .is_some()
+        );
+        assert!(
+            state
+                .gate
+                .confirm_disconnect(&timer, timer.deadline)
+                .is_none()
+        );
+        assert_eq!(
+            state.observe_signal(CloudflaredSignal::Registered(2)),
+            Some(true)
+        );
+        assert_eq!(
+            state.gate.observe_connected(timer.deadline),
+            ConnectedEventAction::PublishConnected
+        );
+    }
+
+    #[test]
+    fn any_connection_recovering_cancels_pending_disconnect() {
+        let mut state = CloudflaredConnectivity::default();
+        let now = Instant::now();
+        state.observe_signal(CloudflaredSignal::Registered(2));
+        state.gate.observe_connected(now);
+        assert_eq!(
+            state.observe_signal(CloudflaredSignal::Disconnected(2)),
+            Some(false)
+        );
+        let timer = state
+            .gate
+            .observe_disconnected(now, disconnect_event())
+            .unwrap();
+        assert_eq!(
+            state.observe_signal(CloudflaredSignal::Registered(0)),
+            Some(true)
+        );
+        assert_eq!(
+            state.gate.observe_connected(now + Duration::from_secs(1)),
+            ConnectedEventAction::Ignore
+        );
+        assert!(
+            state
+                .gate
+                .confirm_disconnect(&timer, timer.deadline)
+                .is_none()
+        );
+    }
+
+    #[test]
+    fn process_exit_clears_all_connections_before_restart() {
+        let mut state = CloudflaredConnectivity::default();
+        state.observe_signal(CloudflaredSignal::Registered(0));
+        state.observe_signal(CloudflaredSignal::Registered(1));
+        assert_eq!(
+            state.observe_signal(CloudflaredSignal::ProcessExited),
+            Some(false)
+        );
+        state.observe_signal(CloudflaredSignal::Registered(2));
+        assert_eq!(
+            state.observe_signal(CloudflaredSignal::Disconnected(2)),
+            Some(false)
+        );
+    }
+
+    #[test]
+    fn expected_stop_cancels_alert_and_ignores_shutdown_output() {
+        let mut state = CloudflaredConnectivity::default();
+        let now = Instant::now();
+        state.observe_signal(CloudflaredSignal::Registered(0));
+        state.gate.observe_connected(now);
+        state.observe_signal(CloudflaredSignal::Disconnected(0));
+        let timer = state
+            .gate
+            .observe_disconnected(now, disconnect_event())
+            .unwrap();
+        state.set_expected_stop(true);
+        assert_eq!(state.observe_signal(CloudflaredSignal::Registered(1)), None);
+        assert!(
+            state
+                .gate
+                .confirm_disconnect(&timer, timer.deadline)
+                .is_none()
+        );
+        state.finish_expected_stop(true);
+        state.observe_signal(CloudflaredSignal::Registered(2));
+        assert_eq!(
+            state.observe_signal(CloudflaredSignal::Disconnected(2)),
+            Some(false)
+        );
+    }
+}

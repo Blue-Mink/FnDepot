@@ -1,1 +1,17 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGNhcHRpb24KICAgIGRhdGEtc2xvdD0idGFibGUtY2FwdGlvbiIKICAgIDpjbGFzcz0iY24oJ3RleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC00IHRleHQtc20nLCBwcm9wcy5jbGFzcykiCiAgPgogICAgPHNsb3QgLz4KICA8L2NhcHRpb24+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <caption
+    data-slot="table-caption"
+    :class="cn('text-muted-foreground mt-4 text-sm', props.class)"
+  >
+    <slot />
+  </caption>
+</template>

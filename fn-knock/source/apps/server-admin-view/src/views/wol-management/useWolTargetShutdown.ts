@@ -1,1 +1,101 @@
-aW1wb3J0IHsgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgZXh0cmFjdEVycm9yTWVzc2FnZSB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyBXT0xBUEksIHR5cGUgV09MVGFyZ2V0IH0gZnJvbSAiQC9saWIvYXBpL3dvbCI7CmltcG9ydCB7IHVwZGF0ZVBlbmRpbmdJZHMgfSBmcm9tICIuL3dvbC1tYW5hZ2VtZW50LW1vZGVsIjsKaW1wb3J0IHR5cGUgeyBXb2xUcmFuc2xhdGUgfSBmcm9tICIuL3dvbC1tYW5hZ2VtZW50LXR5cGVzIjsKCmV4cG9ydCBjb25zdCB1c2VXb2xUYXJnZXRTaHV0ZG93biA9ICh7CiAgcmVmcmVzaFRhcmdldEJ5SWQsCiAgdCwKfTogewogIHJlZnJlc2hUYXJnZXRCeUlkOiAoaWQ6IHN0cmluZywgc2lnbmFsPzogQWJvcnRTaWduYWwpID0+IFByb21pc2U8dm9pZD47CiAgdDogV29sVHJhbnNsYXRlOwp9KSA9PiB7CiAgY29uc3Qgc2h1dHRpbmdEb3duVGFyZ2V0SWRzID0gcmVmKG5ldyBTZXQ8c3RyaW5nPigpKTsKICBjb25zdCBzaHV0ZG93bkRpYWxvZ09wZW4gPSByZWYoZmFsc2UpOwogIGNvbnN0IHNodXRkb3duRGlhbG9nVGFyZ2V0ID0gcmVmPFdPTFRhcmdldCB8IG51bGw+KG51bGwpOwogIGNvbnN0IHJlZnJlc2hUaW1lcnMgPSBuZXcgU2V0PG51bWJlcj4oKTsKCiAgY29uc3Qgb3BlblNodXRkb3duRGlhbG9nID0gKHRhcmdldDogV09MVGFyZ2V0KSA9PiB7CiAgICBzaHV0ZG93bkRpYWxvZ1RhcmdldC52YWx1ZSA9IHRhcmdldDsKICAgIHNodXRkb3duRGlhbG9nT3Blbi52YWx1ZSA9IHRydWU7CiAgfTsKCiAgY29uc3Qgc2V0U2h1dGRvd25EaWFsb2dPcGVuID0gKG9wZW46IGJvb2xlYW4pID0+IHsKICAgIHNodXRkb3duRGlhbG9nT3Blbi52YWx1ZSA9IG9wZW47CiAgICBpZiAoCiAgICAgICFvcGVuICYmCiAgICAgIHNodXRkb3duRGlhbG9nVGFyZ2V0LnZhbHVlICYmCiAgICAgICFzaHV0dGluZ0Rvd25UYXJnZXRJZHMudmFsdWUuaGFzKHNodXRkb3duRGlhbG9nVGFyZ2V0LnZhbHVlLmlkKQogICAgKSB7CiAgICAgIHNodXRkb3duRGlhbG9nVGFyZ2V0LnZhbHVlID0gbnVsbDsKICAgIH0KICB9OwoKICBjb25zdCBzY2hlZHVsZVJlZnJlc2hlcyA9IChpZDogc3RyaW5nKSA9PiB7CiAgICBmb3IgKGNvbnN0IHNlY29uZHMgb2YgWzUsIDIwLCAzNV0pIHsKICAgICAgY29uc3QgdGltZXIgPSBnbG9iYWxUaGlzLnNldFRpbWVvdXQoKCkgPT4gewogICAgICAgIHJlZnJlc2hUaW1lcnMuZGVsZXRlKHRpbWVyKTsKICAgICAgICB2b2lkIHJlZnJlc2hUYXJnZXRCeUlkKGlkKS5jYXRjaCgoKSA9PiB1bmRlZmluZWQpOwogICAgICB9LCBzZWNvbmRzICogMV8wMDApOwogICAgICByZWZyZXNoVGltZXJzLmFkZCh0aW1lcik7CiAgICB9CiAgfTsKCiAgY29uc3Qgc2h1dGRvd25UYXJnZXQgPSBhc3luYyAoKSA9PiB7CiAgICBjb25zdCB0YXJnZXQgPSBzaHV0ZG93bkRpYWxvZ1RhcmdldC52YWx1ZTsKICAgIGlmICghdGFyZ2V0IHx8IHNodXR0aW5nRG93blRhcmdldElkcy52YWx1ZS5oYXModGFyZ2V0LmlkKSkgcmV0dXJuOwogICAgc2h1dHRpbmdEb3duVGFyZ2V0SWRzLnZhbHVlID0gdXBkYXRlUGVuZGluZ0lkcygKICAgICAgc2h1dHRpbmdEb3duVGFyZ2V0SWRzLnZhbHVlLAogICAgICB0YXJnZXQuaWQsCiAgICAgIHRydWUsCiAgICApOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgV09MQVBJLnNodXRkb3duVGFyZ2V0KHRhcmdldC5pZCk7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4ud29sLnNzaC5zaHV0ZG93bkFjY2VwdGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogdCgiYWRtaW4ud29sLnNzaC5zaHV0ZG93bkFjY2VwdGVkRGVzY3JpcHRpb24iLCB7CiAgICAgICAgICBsYXRlbmN5OiByZXN1bHQubGF0ZW5jeU1zLAogICAgICAgIH0pLAogICAgICB9KTsKICAgICAgc2NoZWR1bGVSZWZyZXNoZXModGFyZ2V0LmlkKTsKICAgICAgc2h1dGRvd25EaWFsb2dPcGVuLnZhbHVlID0gZmFsc2U7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBjb25zdCBzdGF0dXMgPSAoZXJyb3IgYXMgeyByZXNwb25zZT86IHsgc3RhdHVzPzogbnVtYmVyIH0gfSk/LnJlc3BvbnNlCiAgICAgICAgPy5zdGF0dXM7CiAgICAgIGNvbnN0IGRlc2NyaXB0aW9uID0gZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICBlcnJvciwKICAgICAgICB0KCJhZG1pbi53b2wuc3NoLnNodXRkb3duRmFpbGVkIiksCiAgICAgICk7CiAgICAgIGlmIChzdGF0dXMgPT09IDUwNCkgewogICAgICAgIHRvYXN0Lndhcm5pbmcodCgiYWRtaW4ud29sLnNzaC5zaHV0ZG93blVua25vd24iKSwgeyBkZXNjcmlwdGlvbiB9KTsKICAgICAgICBzY2hlZHVsZVJlZnJlc2hlcyh0YXJnZXQuaWQpOwogICAgICAgIHNodXRkb3duRGlhbG9nT3Blbi52YWx1ZSA9IGZhbHNlOwogICAgICB9IGVsc2UgewogICAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLndvbC5zc2guc2h1dGRvd25GYWlsZWQiKSwgeyBkZXNjcmlwdGlvbiB9KTsKICAgICAgfQogICAgfSBmaW5hbGx5IHsKICAgICAgc2h1dHRpbmdEb3duVGFyZ2V0SWRzLnZhbHVlID0gdXBkYXRlUGVuZGluZ0lkcygKICAgICAgICBzaHV0dGluZ0Rvd25UYXJnZXRJZHMudmFsdWUsCiAgICAgICAgdGFyZ2V0LmlkLAogICAgICAgIGZhbHNlLAogICAgICApOwogICAgICBpZiAoIXNodXRkb3duRGlhbG9nT3Blbi52YWx1ZSkgc2h1dGRvd25EaWFsb2dUYXJnZXQudmFsdWUgPSBudWxsOwogICAgfQogIH07CgogIGNvbnN0IHN0b3BTaHV0ZG93blJlZnJlc2hlcyA9ICgpID0+IHsKICAgIGZvciAoY29uc3QgdGltZXIgb2YgcmVmcmVzaFRpbWVycykgZ2xvYmFsVGhpcy5jbGVhclRpbWVvdXQodGltZXIpOwogICAgcmVmcmVzaFRpbWVycy5jbGVhcigpOwogIH07CgogIHJldHVybiB7CiAgICBvcGVuU2h1dGRvd25EaWFsb2csCiAgICBzZXRTaHV0ZG93bkRpYWxvZ09wZW4sCiAgICBzaHV0ZG93bkRpYWxvZ09wZW4sCiAgICBzaHV0ZG93bkRpYWxvZ1RhcmdldCwKICAgIHNodXRkb3duVGFyZ2V0LAogICAgc2h1dHRpbmdEb3duVGFyZ2V0SWRzLAogICAgc3RvcFNodXRkb3duUmVmcmVzaGVzLAogIH07Cn07Cg==
+import { ref } from "vue";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import { WOLAPI, type WOLTarget } from "@/lib/api/wol";
+import { updatePendingIds } from "./wol-management-model";
+import type { WolTranslate } from "./wol-management-types";
+
+export const useWolTargetShutdown = ({
+  refreshTargetById,
+  t,
+}: {
+  refreshTargetById: (id: string, signal?: AbortSignal) => Promise<void>;
+  t: WolTranslate;
+}) => {
+  const shuttingDownTargetIds = ref(new Set<string>());
+  const shutdownDialogOpen = ref(false);
+  const shutdownDialogTarget = ref<WOLTarget | null>(null);
+  const refreshTimers = new Set<number>();
+
+  const openShutdownDialog = (target: WOLTarget) => {
+    shutdownDialogTarget.value = target;
+    shutdownDialogOpen.value = true;
+  };
+
+  const setShutdownDialogOpen = (open: boolean) => {
+    shutdownDialogOpen.value = open;
+    if (
+      !open &&
+      shutdownDialogTarget.value &&
+      !shuttingDownTargetIds.value.has(shutdownDialogTarget.value.id)
+    ) {
+      shutdownDialogTarget.value = null;
+    }
+  };
+
+  const scheduleRefreshes = (id: string) => {
+    for (const seconds of [5, 20, 35]) {
+      const timer = globalThis.setTimeout(() => {
+        refreshTimers.delete(timer);
+        void refreshTargetById(id).catch(() => undefined);
+      }, seconds * 1_000);
+      refreshTimers.add(timer);
+    }
+  };
+
+  const shutdownTarget = async () => {
+    const target = shutdownDialogTarget.value;
+    if (!target || shuttingDownTargetIds.value.has(target.id)) return;
+    shuttingDownTargetIds.value = updatePendingIds(
+      shuttingDownTargetIds.value,
+      target.id,
+      true,
+    );
+    try {
+      const result = await WOLAPI.shutdownTarget(target.id);
+      toast.success(t("admin.wol.ssh.shutdownAccepted"), {
+        description: t("admin.wol.ssh.shutdownAcceptedDescription", {
+          latency: result.latencyMs,
+        }),
+      });
+      scheduleRefreshes(target.id);
+      shutdownDialogOpen.value = false;
+    } catch (error) {
+      const status = (error as { response?: { status?: number } })?.response
+        ?.status;
+      const description = extractErrorMessage(
+        error,
+        t("admin.wol.ssh.shutdownFailed"),
+      );
+      if (status === 504) {
+        toast.warning(t("admin.wol.ssh.shutdownUnknown"), { description });
+        scheduleRefreshes(target.id);
+        shutdownDialogOpen.value = false;
+      } else {
+        toast.error(t("admin.wol.ssh.shutdownFailed"), { description });
+      }
+    } finally {
+      shuttingDownTargetIds.value = updatePendingIds(
+        shuttingDownTargetIds.value,
+        target.id,
+        false,
+      );
+      if (!shutdownDialogOpen.value) shutdownDialogTarget.value = null;
+    }
+  };
+
+  const stopShutdownRefreshes = () => {
+    for (const timer of refreshTimers) globalThis.clearTimeout(timer);
+    refreshTimers.clear();
+  };
+
+  return {
+    openShutdownDialog,
+    setShutdownDialogOpen,
+    shutdownDialogOpen,
+    shutdownDialogTarget,
+    shutdownTarget,
+    shuttingDownTargetIds,
+    stopShutdownRefreshes,
+  };
+};

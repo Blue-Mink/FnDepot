@@ -1,1 +1,56 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBSZXZlcnNlUHJveHlEZWZhdWx0Um91dGVEaWFsb2cgZnJvbSAiLi9SZXZlcnNlUHJveHlEZWZhdWx0Um91dGVEaWFsb2cudnVlIjsKaW1wb3J0IFJldmVyc2VQcm94eURpc2NvdmVyRGlhbG9nIGZyb20gIi4vUmV2ZXJzZVByb3h5RGlzY292ZXJEaWFsb2cudnVlIjsKaW1wb3J0IFJldmVyc2VQcm94eU1hcHBpbmdEaWFsb2cgZnJvbSAiLi9SZXZlcnNlUHJveHlNYXBwaW5nRGlhbG9nLnZ1ZSI7CmltcG9ydCB0eXBlIHsgUmV2ZXJzZVByb3h5UGFnZU1vZGVsIH0gZnJvbSAiLi91c2VSZXZlcnNlUHJveHlQYWdlIjsKCmRlZmluZVByb3BzPHsgbW9kZWw6IFJldmVyc2VQcm94eVBhZ2VNb2RlbCB9PigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UmV2ZXJzZVByb3h5TWFwcGluZ0RpYWxvZwogICAgOm9wZW49Im1vZGVsLmlzTWFwcGluZ0RpYWxvZ09wZW4iCiAgICA6Zm9ybT0ibW9kZWwubmV3TWFwcGluZyIKICAgIDppcy1lZGl0aW5nPSJtb2RlbC5pc0VkaXRpbmciCiAgICA6aXMtc2F2aW5nPSJtb2RlbC5pc1NhdmluZyIKICAgIDppcy12YWxpZD0ibW9kZWwuaXNWYWxpZCIKICAgIDppcy13ZWItc29ja2V0LXRhcmdldD0ibW9kZWwuaXNOZXdNYXBwaW5nV2ViU29ja2V0VGFyZ2V0IgogICAgQHVwZGF0ZTpvcGVuPSJtb2RlbC5oYW5kbGVNYXBwaW5nRGlhbG9nT3BlbkNoYW5nZSIKICAgIEB1cGRhdGUtZm9ybT0ibW9kZWwudXBkYXRlTWFwcGluZ0RyYWZ0IgogICAgQGNsb3NlPSJtb2RlbC5jbG9zZU1hcHBpbmdEaWFsb2codHJ1ZSkiCiAgICBAc2F2ZT0ibW9kZWwuc2F2ZU1hcHBpbmciCiAgLz4KCiAgPFJldmVyc2VQcm94eURpc2NvdmVyRGlhbG9nCiAgICA6cmVmPSJtb2RlbC5zZXREaXNjb3ZlclRhcmdldHNTZXR0aW5nc1JlZiIKICAgIDpzZWxlY3RlZC1zZXJ2aWNlcz0ibW9kZWwuc2VsZWN0ZWRTZXJ2aWNlcyIKICAgIDpkaXNjb3ZlcmVkLWRhdGE9Im1vZGVsLmRpc2NvdmVyZWREYXRhIgogICAgOmlzLWFsbC1zZWxlY3RlZD0ibW9kZWwuaXNBbGxTZWxlY3RlZCIKICAgIDppcy1kaXNjb3ZlcmluZz0ibW9kZWwuaXNEaXNjb3ZlcmluZyIKICAgIDppcy1zYXZpbmc9Im1vZGVsLmlzU2F2aW5nIgogICAgOmlzLXNlbGVjdGlvbi12YWxpZD0ibW9kZWwuaXNEaXNjb3ZlclNlbGVjdGlvblZhbGlkIgogICAgOmlzLXNldHRpbmdzLW9wZW49Im1vZGVsLmlzRGlzY292ZXJTZXR0aW5nc09wZW4iCiAgICA6b3Blbj0ibW9kZWwuaXNEaXNjb3ZlckRpYWxvZ09wZW4iCiAgICA6cmVzb2x2ZS1zZXJ2aWNlLWhvc3Q9Im1vZGVsLnJlc29sdmVEaXNjb3ZlcmVkU2VydmljZUhvc3QiCiAgICA6c2hvdy1ob3N0LWNvbHVtbj0ibW9kZWwuc2hvd0Rpc2NvdmVySG9zdENvbHVtbiIKICAgIEBjYW5jZWw9Im1vZGVsLmRpc21pc3NEaXNjb3ZlckRpYWxvZyIKICAgIEBzYXZlPSJtb2RlbC5zYXZlRGlzY292ZXJlZFNlcnZpY2VzIgogICAgQHNjYW49Im1vZGVsLnRyaWdnZXJTY2FuIgogICAgQHN0b3Atc2Nhbj0ibW9kZWwuc3RvcERpc2NvdmVyU2NhbiIKICAgIEB0b2dnbGUtYWxsPSJtb2RlbC5vblRvZ2dsZUFsbERpc2NvdmVyU2VsZWN0IgogICAgQHRvZ2dsZS1zZXR0aW5ncz0ibW9kZWwudG9nZ2xlRGlzY292ZXJTZXR0aW5ncyIKICAgIEB1cGRhdGU6b3Blbj0ibW9kZWwuaGFuZGxlRGlzY292ZXJEaWFsb2dPcGVuQ2hhbmdlIgogICAgQHVwZGF0ZTpzZWxlY3RlZC1zZXJ2aWNlcz0ibW9kZWwuc2VsZWN0ZWRTZXJ2aWNlcyA9ICRldmVudCIKICAvPgoKICA8UmV2ZXJzZVByb3h5RGVmYXVsdFJvdXRlRGlhbG9nCiAgICA6b3Blbj0ibW9kZWwuaXNEZWZhdWx0Um91dGVDb25maXJtT3BlbiIKICAgIDp0aXRsZT0ibW9kZWwuZGVmYXVsdFJvdXRlRGlhbG9nVGl0bGUiCiAgICA6ZGVzY3JpcHRpb249Im1vZGVsLmRlZmF1bHRSb3V0ZURpYWxvZ0Rlc2NyaXB0aW9uIgogICAgOnNob3ctZm5vcy1oaW50PSJtb2RlbC5zaG93RGVmYXVsdFJvdXRlRm5vc0hpbnQiCiAgICA6c2F2aW5nPSJtb2RlbC5pc1NhdmluZ0RlZmF1bHRSb3V0ZSIKICAgIEB1cGRhdGU6b3Blbj0ibW9kZWwuaGFuZGxlRGVmYXVsdFJvdXRlQ29uZmlybU9wZW5DaGFuZ2UiCiAgICBAY2FuY2VsPSJtb2RlbC5jbG9zZURlZmF1bHRSb3V0ZUNvbmZpcm0iCiAgICBAY29uZmlybT0ibW9kZWwuY29uZmlybURlZmF1bHRSb3V0ZUNoYW5nZSIKICAvPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import ReverseProxyDefaultRouteDialog from "./ReverseProxyDefaultRouteDialog.vue";
+import ReverseProxyDiscoverDialog from "./ReverseProxyDiscoverDialog.vue";
+import ReverseProxyMappingDialog from "./ReverseProxyMappingDialog.vue";
+import type { ReverseProxyPageModel } from "./useReverseProxyPage";
+
+defineProps<{ model: ReverseProxyPageModel }>();
+</script>
+
+<template>
+  <ReverseProxyMappingDialog
+    :open="model.isMappingDialogOpen"
+    :form="model.newMapping"
+    :is-editing="model.isEditing"
+    :is-saving="model.isSaving"
+    :is-valid="model.isValid"
+    :is-web-socket-target="model.isNewMappingWebSocketTarget"
+    @update:open="model.handleMappingDialogOpenChange"
+    @update-form="model.updateMappingDraft"
+    @close="model.closeMappingDialog(true)"
+    @save="model.saveMapping"
+  />
+
+  <ReverseProxyDiscoverDialog
+    :ref="model.setDiscoverTargetsSettingsRef"
+    :selected-services="model.selectedServices"
+    :discovered-data="model.discoveredData"
+    :is-all-selected="model.isAllSelected"
+    :is-discovering="model.isDiscovering"
+    :is-saving="model.isSaving"
+    :is-selection-valid="model.isDiscoverSelectionValid"
+    :is-settings-open="model.isDiscoverSettingsOpen"
+    :open="model.isDiscoverDialogOpen"
+    :resolve-service-host="model.resolveDiscoveredServiceHost"
+    :show-host-column="model.showDiscoverHostColumn"
+    @cancel="model.dismissDiscoverDialog"
+    @save="model.saveDiscoveredServices"
+    @scan="model.triggerScan"
+    @stop-scan="model.stopDiscoverScan"
+    @toggle-all="model.onToggleAllDiscoverSelect"
+    @toggle-settings="model.toggleDiscoverSettings"
+    @update:open="model.handleDiscoverDialogOpenChange"
+    @update:selected-services="model.selectedServices = $event"
+  />
+
+  <ReverseProxyDefaultRouteDialog
+    :open="model.isDefaultRouteConfirmOpen"
+    :title="model.defaultRouteDialogTitle"
+    :description="model.defaultRouteDialogDescription"
+    :show-fnos-hint="model.showDefaultRouteFnosHint"
+    :saving="model.isSavingDefaultRoute"
+    @update:open="model.handleDefaultRouteConfirmOpenChange"
+    @cancel="model.closeDefaultRouteConfirm"
+    @confirm="model.confirmDefaultRouteChange"
+  />
+</template>

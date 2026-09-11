@@ -1,1 +1,142 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IHJlYWRGaWxlU3luYyB9IGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgeyB0b0hvc3RNYXBwaW5nVXBkYXRlUGF5bG9hZCB9IGZyb20gIi4uL3NyYy9saWIvYXBpL2hvc3QtbWFwcGluZy1wYXlsb2FkIjsKaW1wb3J0IHsgY3JlYXRlRGVmYXVsdE1hcHBpbmcgfSBmcm9tICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L21vZGVsIjsKaW1wb3J0IHsgaG9zdE1hcHBpbmdVc2VzQXV0aCB9IGZyb20gIi4uL3NyYy9saWIvaG9zdC1tYXBwaW5nLWF1dGgiOwppbXBvcnQgewogIGNsb25lTG9jYXRpb24sCiAgc25hcHNob3RMb2NhdGlvbnMsCiAgY3JlYXRlRGVmYXVsdExvY2F0aW9uLAp9IGZyb20gIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvZ2F0ZXdheS1sb2NhdGlvbnMvZ2F0ZXdheUxvY2F0aW9uTW9kZWwiOwoKY29uc3Qgc291cmNlID0gKHBhdGg6IHN0cmluZykgPT4KICByZWFkRmlsZVN5bmMobmV3IFVSTChwYXRoLCBpbXBvcnQubWV0YS51cmwpLCAidXRmOCIpOwoKZGVzY3JpYmUoInN1YmRvbWFpbiBwYXRoIHJ1bGVzIiwgKCkgPT4gewogIGl0KCJ1c2VzIG9ubHkgdGhlIGhvc3Qtc2NvcGVkIHN1YmRvbWFpbiByb3V0ZSIsICgpID0+IHsKICAgIGNvbnN0IHJvdXRlciA9IHNvdXJjZSgiLi4vc3JjL3JvdXRlci9pbmRleC50cyIpOwogICAgY29uc3QgbmF2aWdhdGlvbiA9IHNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvdXNlU3ViZG9tYWluTmF2aWdhdGlvbi50cyIsCiAgICApOwoKICAgIGFzc2VydC5tYXRjaChyb3V0ZXIsIC9wYXRoOiAic3ViZG9tYWluc1wvOmhvc3RcL3BhdGhzIi91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2gocm91dGVyLCAvcGF0aDogInN5c3RlbVwvZ2F0ZXdheS1sb2NhdGlvbnMiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG5hdmlnYXRpb24sIC9vcGVuU3ViZG9tYWluUGFnZVwoaG9zdCwgInBhdGhzIlwpL3UpOwogIH0pOwoKICBpdCgicGxhY2VzIHRoZSBicmVhZGNydW1iIHVuZGVyIHN1YmRvbWFpbiBtYXBwaW5ncyIsICgpID0+IHsKICAgIGNvbnN0IHBhZ2UgPSBzb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvc3lzdGVtLXNldHRpbmdzL0dhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy52dWUiLAogICAgKTsKCiAgICBhc3NlcnQubWF0Y2gocGFnZSwgL2hyZWY9IiNcL21hcHBpbmdzXD90YWI9c3ViZG9tYWluIi91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2gocGFnZSwgL2hyZWY9IiNcL3N5c3RlbVw/dGFiPWdhdGV3YXkiL3UpOwogIH0pOwoKICBpdCgicmVtb3ZlcyB0aGUgcGF0aCBlZGl0b3IgZW50cnkgZnJvbSBnYXRld2F5IHNldHRpbmdzIiwgKCkgPT4gewogICAgY29uc3Qgc2V0dGluZ3MgPSBzb3VyY2UoIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvR2F0ZXdheVNldHRpbmdzLnZ1ZSIpOwogICAgY29uc3QgY29udHJvbGxlciA9IHNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvdXNlR2F0ZXdheVNldHRpbmdzQ29udHJvbGxlci50cyIsCiAgICApOwoKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goc2V0dGluZ3MsIC9nYXRld2F5U2V0dGluZ3NcLmxvY2F0aW9ucy91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goY29udHJvbGxlciwgL29wZW5Mb2NhdGlvbnNFZGl0b3IvdSk7CiAgfSk7CgogIGl0KCJleHBvc2VzIGluaGVyaXRlZCBhbmQgcHVibGljIGF1dGhlbnRpY2F0aW9uIGluIHRoZSBlZGl0b3IgYW5kIHRhYmxlIiwgKCkgPT4gewogICAgY29uc3QgYWNjZXNzU2VjdGlvbiA9IHNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvZ2F0ZXdheS1sb2NhdGlvbnMvR2F0ZXdheUxvY2F0aW9uQWNjZXNzU2VjdGlvbi52dWUiLAogICAgKTsKICAgIGNvbnN0IHRhYmxlID0gc291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3N5c3RlbS1zZXR0aW5ncy9nYXRld2F5LWxvY2F0aW9ucy9HYXRld2F5TG9jYXRpb25SdWxlc1RhYmxlLnZ1ZSIsCiAgICApOwoKICAgIGFzc2VydC5tYXRjaChhY2Nlc3NTZWN0aW9uLCAvdi1tb2RlbD0iZm9ybVwuYXV0aF9tb2RlIi91KTsKICAgIGFzc2VydC5tYXRjaChhY2Nlc3NTZWN0aW9uLCAvdmFsdWU9ImluaGVyaXQiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFjY2Vzc1NlY3Rpb24sIC92YWx1ZT0icHVibGljIi91KTsKICAgIGFzc2VydC5tYXRjaChhY2Nlc3NTZWN0aW9uLCAvdmFsdWU9InJlcXVpcmVfbG9naW4iL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHRhYmxlLCAvZm9ybWF0QXV0aE1vZGVcKGxvY2F0aW9uXCkvdSk7CiAgfSk7CgogIGl0KCJwcmVzZW50cyBtYXRjaCBtb2RlIGJlZm9yZSBhIHBhdGggbGFiZWwgdGhhdCBmb2xsb3dzIGl0cyBzZW1hbnRpY3MiLCAoKSA9PiB7CiAgICBjb25zdCBtYXRjaFNlY3Rpb24gPSBzb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvc3lzdGVtLXNldHRpbmdzL2dhdGV3YXktbG9jYXRpb25zL0dhdGV3YXlMb2NhdGlvbk1hdGNoU2VjdGlvbi52dWUiLAogICAgKTsKCiAgICBhc3NlcnQub2soCiAgICAgIG1hdGNoU2VjdGlvbi5pbmRleE9mKCdpZD0ibG9jYXRpb24tbWF0Y2giJykgPAogICAgICAgIG1hdGNoU2VjdGlvbi5pbmRleE9mKCdpZD0ibG9jYXRpb24tcGF0aCInKSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2gobWF0Y2hTZWN0aW9uLCAvZm9ybVwubWF0Y2ggPT09ICJleGFjdCIvdSk7CiAgICBhc3NlcnQubWF0Y2gobWF0Y2hTZWN0aW9uLCAvZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzXC5leGFjdFBhdGgvdSk7CiAgICBhc3NlcnQubWF0Y2gobWF0Y2hTZWN0aW9uLCAvZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzXC5wYXRoUHJlZml4L3UpOwogIH0pOwoKICBpdCgia2VlcHMgdGhlIEhUTUwgcmV3cml0ZSBleHBsYW5hdGlvbiBiZXNpZGUgdGhlIHByb3h5IGNvbnRyb2wiLCAoKSA9PiB7CiAgICBjb25zdCBwcm94eUZpZWxkcyA9IHNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvZ2F0ZXdheS1sb2NhdGlvbnMvR2F0ZXdheUxvY2F0aW9uUHJveHlGaWVsZHMudnVlIiwKICAgICk7CgogICAgYXNzZXJ0Lm1hdGNoKHByb3h5RmllbGRzLCAvQ2lyY2xlQWxlcnQvdSk7CiAgICBhc3NlcnQubWF0Y2gocHJveHlGaWVsZHMsIC9Ub29sdGlwVHJpZ2dlci91KTsKICAgIGFzc2VydC5tYXRjaChwcm94eUZpZWxkcywgL3Jld3JpdGVIdG1sUGF0aEhlbHBBcmlhL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHByb3h5RmllbGRzLCAvcmV3cml0ZUh0bWxQYXRoSGVscC91KTsKICAgIGFzc2VydC5tYXRjaChwcm94eUZpZWxkcywgL3YtaWY9IiFpc1dlYlNvY2tldFRhcmdldCIvdSk7CiAgfSk7CgogIGl0KCJrZWVwcyB0aGUgbG9uZyBmb3JtIHNjcm9sbGFibGUgYmV0d2VlbiBhIGZpeGVkIGhlYWRlciBhbmQgZm9vdGVyIiwgKCkgPT4gewogICAgY29uc3QgZGlhbG9nID0gc291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3N5c3RlbS1zZXR0aW5ncy9nYXRld2F5LWxvY2F0aW9ucy9HYXRld2F5TG9jYXRpb25SdWxlRGlhbG9nLnZ1ZSIsCiAgICApOwogICAgY29uc3QgbWF0Y2hTZWN0aW9uID0gc291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3N5c3RlbS1zZXR0aW5ncy9nYXRld2F5LWxvY2F0aW9ucy9HYXRld2F5TG9jYXRpb25NYXRjaFNlY3Rpb24udnVlIiwKICAgICk7CgogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZywgL2ZsZXggbWF4LWgtXFtjYWxjXCgxMDBkdmgtMXJlbVwpXF0vdSk7CiAgICBhc3NlcnQubWF0Y2goZGlhbG9nLCAvZmxleC0xIG92ZXJmbG93LXktYXV0by91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2csIC9kaXZpZGUteSBkaXZpZGUtYm9yZGVyXC82MC91KTsKICAgIGFzc2VydC5vaygKICAgICAgZGlhbG9nLmluZGV4T2YoIm92ZXJmbG93LXktYXV0byIpIDwgZGlhbG9nLmluZGV4T2YoIjxEaWFsb2dGb290ZXIiKSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2gobWF0Y2hTZWN0aW9uLCAvc206Z3JpZC1jb2xzLVxbMTNyZW1fbWlubWF4XCgwLDFmclwpXF0vdSk7CiAgfSk7CgogIGl0KCJzZXJpYWxpemVzIHB1YmxpYyBhdXRoZW50aWNhdGlvbiBhbmQgbm9ybWFsaXplcyBsZWdhY3kgcnVsZXMiLCAoKSA9PiB7CiAgICBjb25zdCBtYXBwaW5nID0gY3JlYXRlRGVmYXVsdE1hcHBpbmcoKTsKICAgIGNvbnN0IGxlZ2FjeSA9IGNyZWF0ZURlZmF1bHRMb2NhdGlvbigpOwogICAgZGVsZXRlIChsZWdhY3kgYXMgUGFydGlhbDx0eXBlb2YgbGVnYWN5PikuYXV0aF9tb2RlOwogICAgbWFwcGluZy5sb2NhdGlvbnMgPSBbCiAgICAgIGxlZ2FjeSwKICAgICAgeyAuLi5jcmVhdGVEZWZhdWx0TG9jYXRpb24oKSwgcGF0aDogIi9wdWJsaWMiLCBhdXRoX21vZGU6ICJwdWJsaWMiIH0sCiAgICBdOwoKICAgIGNvbnN0IGxvY2F0aW9ucyA9IHRvSG9zdE1hcHBpbmdVcGRhdGVQYXlsb2FkKG1hcHBpbmcpLmxvY2F0aW9uczsKICAgIGFzc2VydC5lcXVhbChsb2NhdGlvbnNbMF0/LmF1dGhfbW9kZSwgImluaGVyaXQiKTsKICAgIGFzc2VydC5lcXVhbChsb2NhdGlvbnNbMV0/LmF1dGhfbW9kZSwgInB1YmxpYyIpOwogIH0pOwogIGl0KCJwcmVzZXJ2ZXMgcmVxdWlyZV9sb2dpbiBhY3Jvc3MgZWRpdCwgc25hcHNob3QgYW5kIHNhdmUgb24gYSBwdWJsaWMgSG9zdCIsICgpID0+IHsKICAgIGNvbnN0IG1hcHBpbmcgPSBjcmVhdGVEZWZhdWx0TWFwcGluZygpOwogICAgbWFwcGluZy51c2VfYXV0aCA9IGZhbHNlOwogICAgY29uc3QgbG9jYXRpb24gPSB7CiAgICAgIC4uLmNyZWF0ZURlZmF1bHRMb2NhdGlvbigpLAogICAgICBwYXRoOiAiL2FkbWluIiwKICAgICAgYXV0aF9tb2RlOiAicmVxdWlyZV9sb2dpbiIgYXMgY29uc3QsCiAgICB9OwogICAgbWFwcGluZy5sb2NhdGlvbnMgPSBbY2xvbmVMb2NhdGlvbihsb2NhdGlvbildOwogICAgY29uc3Qgc2F2ZWQgPSB0b0hvc3RNYXBwaW5nVXBkYXRlUGF5bG9hZChtYXBwaW5nKTsKICAgIGFzc2VydC5lcXVhbChzYXZlZC51c2VfYXV0aCwgZmFsc2UpOwogICAgYXNzZXJ0LmVxdWFsKHNhdmVkLmxvY2F0aW9uc1swXT8uYXV0aF9tb2RlLCAicmVxdWlyZV9sb2dpbiIpOwogICAgY29uc3QgcmVsb2FkZWQgPSBKU09OLnBhcnNlKHNuYXBzaG90TG9jYXRpb25zKHNhdmVkLmxvY2F0aW9ucykpOwogICAgYXNzZXJ0LmVxdWFsKGNsb25lTG9jYXRpb24ocmVsb2FkZWRbMF0pLmF1dGhfbW9kZSwgInJlcXVpcmVfbG9naW4iKTsKICAgIGFzc2VydC5lcXVhbChob3N0TWFwcGluZ1VzZXNBdXRoKG1hcHBpbmcpLCB0cnVlKTsKICAgIG1hcHBpbmcubG9jYXRpb25zWzBdIS5hdXRoX21vZGUgPSAicHVibGljIjsKICAgIGFzc2VydC5lcXVhbChob3N0TWFwcGluZ1VzZXNBdXRoKG1hcHBpbmcpLCBmYWxzZSk7CiAgICBtYXBwaW5nLnVzZV9hdXRoID0gdHJ1ZTsKICAgIGFzc2VydC5lcXVhbChob3N0TWFwcGluZ1VzZXNBdXRoKG1hcHBpbmcpLCB0cnVlKTsKICAgIG1hcHBpbmcuc2VydmljZV9yb2xlID0gImF1dGgiOwogICAgYXNzZXJ0LmVxdWFsKGhvc3RNYXBwaW5nVXNlc0F1dGgobWFwcGluZyksIGZhbHNlKTsKICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+import { toHostMappingUpdatePayload } from "../src/lib/api/host-mapping-payload";
+import { createDefaultMapping } from "../src/views/subdomain-proxy/model";
+import { hostMappingUsesAuth } from "../src/lib/host-mapping-auth";
+import {
+  cloneLocation,
+  snapshotLocations,
+  createDefaultLocation,
+} from "../src/views/system-settings/gateway-locations/gatewayLocationModel";
+
+const source = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+describe("subdomain path rules", () => {
+  it("uses only the host-scoped subdomain route", () => {
+    const router = source("../src/router/index.ts");
+    const navigation = source(
+      "../src/views/subdomain-proxy/useSubdomainNavigation.ts",
+    );
+
+    assert.match(router, /path: "subdomains\/:host\/paths"/u);
+    assert.doesNotMatch(router, /path: "system\/gateway-locations"/u);
+    assert.match(navigation, /openSubdomainPage\(host, "paths"\)/u);
+  });
+
+  it("places the breadcrumb under subdomain mappings", () => {
+    const page = source(
+      "../src/views/system-settings/GatewayLocationsSettings.vue",
+    );
+
+    assert.match(page, /href="#\/mappings\?tab=subdomain"/u);
+    assert.doesNotMatch(page, /href="#\/system\?tab=gateway"/u);
+  });
+
+  it("removes the path editor entry from gateway settings", () => {
+    const settings = source("../src/views/system-settings/GatewaySettings.vue");
+    const controller = source(
+      "../src/views/system-settings/useGatewaySettingsController.ts",
+    );
+
+    assert.doesNotMatch(settings, /gatewaySettings\.locations/u);
+    assert.doesNotMatch(controller, /openLocationsEditor/u);
+  });
+
+  it("exposes inherited and public authentication in the editor and table", () => {
+    const accessSection = source(
+      "../src/views/system-settings/gateway-locations/GatewayLocationAccessSection.vue",
+    );
+    const table = source(
+      "../src/views/system-settings/gateway-locations/GatewayLocationRulesTable.vue",
+    );
+
+    assert.match(accessSection, /v-model="form\.auth_mode"/u);
+    assert.match(accessSection, /value="inherit"/u);
+    assert.match(accessSection, /value="public"/u);
+    assert.match(accessSection, /value="require_login"/u);
+    assert.match(table, /formatAuthMode\(location\)/u);
+  });
+
+  it("presents match mode before a path label that follows its semantics", () => {
+    const matchSection = source(
+      "../src/views/system-settings/gateway-locations/GatewayLocationMatchSection.vue",
+    );
+
+    assert.ok(
+      matchSection.indexOf('id="location-match"') <
+        matchSection.indexOf('id="location-path"'),
+    );
+    assert.match(matchSection, /form\.match === "exact"/u);
+    assert.match(matchSection, /gatewayLocationsSettings\.exactPath/u);
+    assert.match(matchSection, /gatewayLocationsSettings\.pathPrefix/u);
+  });
+
+  it("keeps the HTML rewrite explanation beside the proxy control", () => {
+    const proxyFields = source(
+      "../src/views/system-settings/gateway-locations/GatewayLocationProxyFields.vue",
+    );
+
+    assert.match(proxyFields, /CircleAlert/u);
+    assert.match(proxyFields, /TooltipTrigger/u);
+    assert.match(proxyFields, /rewriteHtmlPathHelpAria/u);
+    assert.match(proxyFields, /rewriteHtmlPathHelp/u);
+    assert.match(proxyFields, /v-if="!isWebSocketTarget"/u);
+  });
+
+  it("keeps the long form scrollable between a fixed header and footer", () => {
+    const dialog = source(
+      "../src/views/system-settings/gateway-locations/GatewayLocationRuleDialog.vue",
+    );
+    const matchSection = source(
+      "../src/views/system-settings/gateway-locations/GatewayLocationMatchSection.vue",
+    );
+
+    assert.match(dialog, /flex max-h-\[calc\(100dvh-1rem\)\]/u);
+    assert.match(dialog, /flex-1 overflow-y-auto/u);
+    assert.match(dialog, /divide-y divide-border\/60/u);
+    assert.ok(
+      dialog.indexOf("overflow-y-auto") < dialog.indexOf("<DialogFooter"),
+    );
+    assert.match(matchSection, /sm:grid-cols-\[13rem_minmax\(0,1fr\)\]/u);
+  });
+
+  it("serializes public authentication and normalizes legacy rules", () => {
+    const mapping = createDefaultMapping();
+    const legacy = createDefaultLocation();
+    delete (legacy as Partial<typeof legacy>).auth_mode;
+    mapping.locations = [
+      legacy,
+      { ...createDefaultLocation(), path: "/public", auth_mode: "public" },
+    ];
+
+    const locations = toHostMappingUpdatePayload(mapping).locations;
+    assert.equal(locations[0]?.auth_mode, "inherit");
+    assert.equal(locations[1]?.auth_mode, "public");
+  });
+  it("preserves require_login across edit, snapshot and save on a public Host", () => {
+    const mapping = createDefaultMapping();
+    mapping.use_auth = false;
+    const location = {
+      ...createDefaultLocation(),
+      path: "/admin",
+      auth_mode: "require_login" as const,
+    };
+    mapping.locations = [cloneLocation(location)];
+    const saved = toHostMappingUpdatePayload(mapping);
+    assert.equal(saved.use_auth, false);
+    assert.equal(saved.locations[0]?.auth_mode, "require_login");
+    const reloaded = JSON.parse(snapshotLocations(saved.locations));
+    assert.equal(cloneLocation(reloaded[0]).auth_mode, "require_login");
+    assert.equal(hostMappingUsesAuth(mapping), true);
+    mapping.locations[0]!.auth_mode = "public";
+    assert.equal(hostMappingUsesAuth(mapping), false);
+    mapping.use_auth = true;
+    assert.equal(hostMappingUsesAuth(mapping), true);
+    mapping.service_role = "auth";
+    assert.equal(hostMappingUsesAuth(mapping), false);
+  });
+});

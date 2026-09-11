@@ -1,1 +1,129 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7CmNvbnN0IGlzR2VuZXJhdGVkQ29udHJhY3RTb3VyY2UgPSAoc291cmNlOiB1bmtub3duKSA9PgogIHNvdXJjZSA9PT0gInV0b2lwYSIgfHwgc291cmNlID09PSAidXRvaXBhLWRvbWFpbiI7Cgpjb25zdCBjb250cmFjdCA9IEpTT04ucGFyc2UoCiAgcmVhZFNvdXJjZSgiLi4vLi4vLi4vcGFja2FnZXMvYXBpLWNvbnRyYWN0L29wZW5hcGkuanNvbiIpLAopIGFzIHsKICBjb21wb25lbnRzOiB7CiAgICBzY2hlbWFzOiBSZWNvcmQ8CiAgICAgIHN0cmluZywKICAgICAgewogICAgICAgIHByb3BlcnRpZXM/OiBSZWNvcmQ8c3RyaW5nLCB7IGVudW0/OiBzdHJpbmdbXTsgZGVzY3JpcHRpb24/OiBzdHJpbmcgfT47CiAgICAgICAgcmVxdWlyZWQ/OiBzdHJpbmdbXTsKICAgICAgfQogICAgPjsKICB9OwogIHBhdGhzOiBSZWNvcmQ8CiAgICBzdHJpbmcsCiAgICBSZWNvcmQ8CiAgICAgIHN0cmluZywKICAgICAgewogICAgICAgICJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSI/OiBzdHJpbmc7CiAgICAgICAgcGFyYW1ldGVycz86IEFycmF5PHsKICAgICAgICAgIG5hbWU/OiBzdHJpbmc7CiAgICAgICAgICBpbj86IHN0cmluZzsKICAgICAgICAgIHJlcXVpcmVkPzogYm9vbGVhbjsKICAgICAgICAgIHNjaGVtYT86IHsgZW51bT86IHN0cmluZ1tdIH07CiAgICAgICAgfT47CiAgICAgICAgcmVxdWVzdEJvZHk/OiB7CiAgICAgICAgICBjb250ZW50PzogUmVjb3JkPHN0cmluZywgeyBzY2hlbWE/OiB7ICRyZWY/OiBzdHJpbmcgfSB9PjsKICAgICAgICB9OwogICAgICAgIHJlc3BvbnNlcz86IFJlY29yZDwKICAgICAgICAgIHN0cmluZywKICAgICAgICAgIHsgY29udGVudD86IFJlY29yZDxzdHJpbmcsIHsgc2NoZW1hPzogeyAkcmVmPzogc3RyaW5nIH0gfT4gfQogICAgICAgID47CiAgICAgIH0KICAgID4KICA+Owp9OwoKZGVzY3JpYmUoInN5c3RlbSBldmVudCBhbmQgbG9naW4gYmFja29mZiBBUEkgY29udHJhY3QiLCAoKSA9PiB7CiAgaXQoImtlZXBzIGFsbCBldmVudCBhbmQgYmFja29mZiBvcGVyYXRpb25zIHR5cGVkIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBbbWV0aG9kLCBwYXRoXSBvZiBbCiAgICAgIFsicG9zdCIsICIvYXBpL2ludGVybmFsL3N5c3RlbS1ldmVudHMiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9ldmVudHMiXSwKICAgICAgWyJkZWxldGUiLCAiL2FwaS9hZG1pbi9ldmVudHMiXSwKICAgICAgWyJkZWxldGUiLCAiL2FwaS9hZG1pbi9ldmVudHMvY2xlYXIiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9iYWNrb2ZmL2xpc3QiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9iYWNrb2ZmL3N0YXR1cyJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9iYWNrb2ZmL3Jlc2V0Il0sCiAgICBdIGFzIGNvbnN0KSB7CiAgICAgIGFzc2VydC5vaygKICAgICAgICBpc0dlbmVyYXRlZENvbnRyYWN0U291cmNlKAogICAgICAgICAgY29udHJhY3QucGF0aHNbcGF0aF0/LlttZXRob2RdPy5bIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIl0sCiAgICAgICAgKSwKICAgICAgICBgJHttZXRob2QudG9VcHBlckNhc2UoKX0gJHtwYXRofWAsCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJwcmVzZXJ2ZXMgZXZlbnQgZmlsdGVycywgZGVsZXRpb24gYm9keSwgYW5kIGRpcmVjdCBwdWJsaWNhdGlvbiByZXNwb25zZSIsICgpID0+IHsKICAgIGNvbnN0IGV2ZW50cyA9IGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL2V2ZW50cyJdOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBldmVudHMuZGVsZXRlLnJlcXVlc3RCb2R5Py5jb250ZW50Py5bImFwcGxpY2F0aW9uL2pzb24iXT8uc2NoZW1hPy4kcmVmLAogICAgICAiIy9jb21wb25lbnRzL3NjaGVtYXMvU3lzdGVtRXZlbnREZWxldGVCb2R5RGF0YSIsCiAgICApOwogICAgY29uc3QgcGFyYW1ldGVycyA9IGV2ZW50cy5nZXQucGFyYW1ldGVycyA/PyBbXTsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIHBhcmFtZXRlcnMuZmluZCgocGFyYW1ldGVyKSA9PiBwYXJhbWV0ZXIubmFtZSA9PT0gImxldmVsIik/LnNjaGVtYT8uZW51bSwKICAgICAgWyJJTkZPIiwgIldBUk4iLCAiRVJST1IiLCAiQ1JJVElDQUwiXSwKICAgICk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBwYXJhbWV0ZXJzLmZpbmQoKHBhcmFtZXRlcikgPT4gcGFyYW1ldGVyLm5hbWUgPT09ICJzb3VyY2UiKT8uc2NoZW1hPy5lbnVtLAogICAgICBbIlNFUlZFUl9BRE1JTiIsICJHT19SRUFVVEhfUFJPWFkiLCAiU1lTVEVNX01PTklUT1IiLCAiUlVOVElNRV9NT05JVE9SIl0sCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdC5wYXRoc1siL2FwaS9pbnRlcm5hbC9zeXN0ZW0tZXZlbnRzIl0ucG9zdC5yZXNwb25zZXM/LlsiMjAwIl0KICAgICAgICA/LmNvbnRlbnQ/LlsiYXBwbGljYXRpb24vanNvbiJdPy5zY2hlbWE/LiRyZWYsCiAgICAgICIjL2NvbXBvbmVudHMvc2NoZW1hcy9TeXN0ZW1FdmVudFB1Ymxpc2hSZXN1bHREYXRhIiwKICAgICk7CiAgICBhc3NlcnQub2soCiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5TeXN0ZW1FdmVudFB1Ymxpc2hSZXN1bHREYXRhLnJlcXVpcmVkPy5pbmNsdWRlcygKICAgICAgICAiZGF0YSIsCiAgICAgICksCiAgICApOwogIH0pOwoKICBpdCgiZG9jdW1lbnRzIGJhY2tvZmYgcXVlcnkgYW5kIHRpbWUgdW5pdHMgd2l0aG91dCBzbmFrZS1jYXNlIGRyaWZ0IiwgKCkgPT4gewogICAgY29uc3Qgc3RhdHVzID0gY29udHJhY3QucGF0aHNbIi9hcGkvYWRtaW4vYmFja29mZi9zdGF0dXMiXS5nZXQ7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHN0YXR1cy5wYXJhbWV0ZXJzPy5maW5kKChwYXJhbWV0ZXIpID0+IHBhcmFtZXRlci5uYW1lID09PSAiaXAiKT8ucmVxdWlyZWQsCiAgICAgIHRydWUsCiAgICApOwogICAgY29uc3QgYmFja29mZiA9IGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5Mb2dpbkJhY2tvZmZEYXRhLnByb3BlcnRpZXM7CiAgICBmb3IgKGNvbnN0IGZpZWxkIG9mIFsKICAgICAgImlwIiwKICAgICAgImF0dGVtcHRzIiwKICAgICAgImJsb2NrZWQiLAogICAgICAicmV0cnlBZnRlciIsCiAgICAgICJibG9ja2VkVW50aWwiLAogICAgXSkgewogICAgICBhc3NlcnQub2soYmFja29mZj8uW2ZpZWxkXSwgZmllbGQpOwogICAgfQogICAgYXNzZXJ0Lm1hdGNoKGJhY2tvZmY/LnJldHJ5QWZ0ZXI/LmRlc2NyaXB0aW9uID8/ICIiLCAvU2Vjb25kcy91KTsKICAgIGFzc2VydC5tYXRjaChiYWNrb2ZmPy5ibG9ja2VkVW50aWw/LmRlc2NyaXB0aW9uID8/ICIiLCAvbWlsbGlzZWNvbmRzL3UpOwogICAgYXNzZXJ0LmVxdWFsKGJhY2tvZmY/LmJsb2NrZWRfdW50aWwsIHVuZGVmaW5lZCk7CiAgfSk7CgogIGl0KCJkZXJpdmVzIGZyb250ZW5kIGV2ZW50IGFuZCBiYWNrb2ZmIHR5cGVzIGFuZCByZXF1ZXN0cyIsICgpID0+IHsKICAgIGNvbnN0IHR5cGVzID0gcmVhZFNvdXJjZSgiLi4vc3JjL3R5cGVzL3N5c3RlbS1ldmVudHMudHMiKTsKICAgIGNvbnN0IGV2ZW50QXBpID0gcmVhZFNvdXJjZSgiLi4vc3JjL2xpYi9hcGkvZXZlbnRzLnRzIik7CiAgICBjb25zdCBjb25maWdBcGkgPSByZWFkU291cmNlKCIuLi9zcmMvbGliL2FwaS9jb25maWcudHMiKTsKCiAgICBhc3NlcnQubWF0Y2godHlwZXMsIC9TeXN0ZW1FdmVudFNjaGVtYXNcWyJTeXN0ZW1FdmVudERhdGEiXF0vdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKHR5cGVzLCAvZXhwb3J0IGludGVyZmFjZSBTeXN0ZW1FdmVudFJlY29yZC91KTsKICAgIGFzc2VydC5tYXRjaChldmVudEFwaSwgL29wZXJhdGlvbnMgYXMgQXBpQ29udHJhY3RPcGVyYXRpb25zL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGV2ZW50QXBpLCAvc2F0aXNmaWVzIEdldEV2ZW50c1F1ZXJ5L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGV2ZW50QXBpLCAvc2F0aXNmaWVzIERlbGV0ZUV2ZW50c0JvZHkvdSk7CiAgICBhc3NlcnQubWF0Y2goY29uZmlnQXBpLCAvXFsiTG9naW5CYWNrb2ZmRGF0YSJcXS91KTsKICAgIGFzc2VydC5tYXRjaChjb25maWdBcGksIC9zYXRpc2ZpZXMgQmFja29mZlN0YXR1c1F1ZXJ5L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNvbmZpZ0FwaSwgL3NhdGlzZmllcyBCYWNrb2ZmUmVzZXRCb2R5L3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChjb25maWdBcGksIC9leHBvcnQgdHlwZSBCYWNrb2ZmSXRlbSA9IFx7L3UpOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+const isGeneratedContractSource = (source: unknown) =>
+  source === "utoipa" || source === "utoipa-domain";
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  components: {
+    schemas: Record<
+      string,
+      {
+        properties?: Record<string, { enum?: string[]; description?: string }>;
+        required?: string[];
+      }
+    >;
+  };
+  paths: Record<
+    string,
+    Record<
+      string,
+      {
+        "x-fn-knock-contract-source"?: string;
+        parameters?: Array<{
+          name?: string;
+          in?: string;
+          required?: boolean;
+          schema?: { enum?: string[] };
+        }>;
+        requestBody?: {
+          content?: Record<string, { schema?: { $ref?: string } }>;
+        };
+        responses?: Record<
+          string,
+          { content?: Record<string, { schema?: { $ref?: string } }> }
+        >;
+      }
+    >
+  >;
+};
+
+describe("system event and login backoff API contract", () => {
+  it("keeps all event and backoff operations typed", () => {
+    for (const [method, path] of [
+      ["post", "/api/internal/system-events"],
+      ["get", "/api/admin/events"],
+      ["delete", "/api/admin/events"],
+      ["delete", "/api/admin/events/clear"],
+      ["get", "/api/admin/backoff/list"],
+      ["get", "/api/admin/backoff/status"],
+      ["post", "/api/admin/backoff/reset"],
+    ] as const) {
+      assert.ok(
+        isGeneratedContractSource(
+          contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        ),
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("preserves event filters, deletion body, and direct publication response", () => {
+    const events = contract.paths["/api/admin/events"];
+    assert.equal(
+      events.delete.requestBody?.content?.["application/json"]?.schema?.$ref,
+      "#/components/schemas/SystemEventDeleteBodyData",
+    );
+    const parameters = events.get.parameters ?? [];
+    assert.deepEqual(
+      parameters.find((parameter) => parameter.name === "level")?.schema?.enum,
+      ["INFO", "WARN", "ERROR", "CRITICAL"],
+    );
+    assert.deepEqual(
+      parameters.find((parameter) => parameter.name === "source")?.schema?.enum,
+      ["SERVER_ADMIN", "GO_REAUTH_PROXY", "SYSTEM_MONITOR", "RUNTIME_MONITOR"],
+    );
+    assert.equal(
+      contract.paths["/api/internal/system-events"].post.responses?.["200"]
+        ?.content?.["application/json"]?.schema?.$ref,
+      "#/components/schemas/SystemEventPublishResultData",
+    );
+    assert.ok(
+      contract.components.schemas.SystemEventPublishResultData.required?.includes(
+        "data",
+      ),
+    );
+  });
+
+  it("documents backoff query and time units without snake-case drift", () => {
+    const status = contract.paths["/api/admin/backoff/status"].get;
+    assert.equal(
+      status.parameters?.find((parameter) => parameter.name === "ip")?.required,
+      true,
+    );
+    const backoff = contract.components.schemas.LoginBackoffData.properties;
+    for (const field of [
+      "ip",
+      "attempts",
+      "blocked",
+      "retryAfter",
+      "blockedUntil",
+    ]) {
+      assert.ok(backoff?.[field], field);
+    }
+    assert.match(backoff?.retryAfter?.description ?? "", /Seconds/u);
+    assert.match(backoff?.blockedUntil?.description ?? "", /milliseconds/u);
+    assert.equal(backoff?.blocked_until, undefined);
+  });
+
+  it("derives frontend event and backoff types and requests", () => {
+    const types = readSource("../src/types/system-events.ts");
+    const eventApi = readSource("../src/lib/api/events.ts");
+    const configApi = readSource("../src/lib/api/config.ts");
+
+    assert.match(types, /SystemEventSchemas\["SystemEventData"\]/u);
+    assert.doesNotMatch(types, /export interface SystemEventRecord/u);
+    assert.match(eventApi, /operations as ApiContractOperations/u);
+    assert.match(eventApi, /satisfies GetEventsQuery/u);
+    assert.match(eventApi, /satisfies DeleteEventsBody/u);
+    assert.match(configApi, /\["LoginBackoffData"\]/u);
+    assert.match(configApi, /satisfies BackoffStatusQuery/u);
+    assert.match(configApi, /satisfies BackoffResetBody/u);
+    assert.doesNotMatch(configApi, /export type BackoffItem = \{/u);
+  });
+});

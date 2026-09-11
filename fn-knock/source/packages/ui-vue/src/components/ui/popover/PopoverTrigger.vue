@@ -1,1 +1,15 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUG9wb3ZlclRyaWdnZXJQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IFBvcG92ZXJUcmlnZ2VyIH0gZnJvbSAicmVrYS11aSIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8UG9wb3ZlclRyaWdnZXJQcm9wcz4oKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UG9wb3ZlclRyaWdnZXIKICAgIGRhdGEtc2xvdD0icG9wb3Zlci10cmlnZ2VyIgogICAgdi1iaW5kPSJwcm9wcyIKICA+CiAgICA8c2xvdCAvPgogIDwvUG9wb3ZlclRyaWdnZXI+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { PopoverTriggerProps } from "reka-ui"
+import { PopoverTrigger } from "reka-ui"
+
+const props = defineProps<PopoverTriggerProps>()
+</script>
+
+<template>
+  <PopoverTrigger
+    data-slot="popover-trigger"
+    v-bind="props"
+  >
+    <slot />
+  </PopoverTrigger>
+</template>

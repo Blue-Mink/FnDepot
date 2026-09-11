@@ -1,1 +1,38 @@
-aW1wb3J0IHR5cGUgeyBERE5TTmV0d29ya0ludGVyZmFjZVBheWxvYWQgfSBmcm9tICJAL2xpYi9hcGkvZGRucyI7CmltcG9ydCB0eXBlIHsgREROU0lwU291cmNlLCBERE5TVXBkYXRlU2NvcGUgfSBmcm9tICIuL21vZGVsIjsKCmV4cG9ydCB0eXBlIERETlNBZGRyZXNzT3B0aW9uID0gewogIGxhYmVsOiBzdHJpbmc7CiAgdmFsdWU6IHN0cmluZzsKfTsKCmV4cG9ydCB0eXBlIERETlNBZGRyZXNzU291cmNlRmllbGRzUHJvcHMgPSB7CiAgY29uZmlndXJlZE5ldHdvcmtJbnRlcmZhY2U6IHN0cmluZzsKICBjb25maWd1cmVkTmV0d29ya0ludGVyZmFjZUxhYmVsOiBzdHJpbmc7CiAgZm9ybWF0T3B0aW9uTGFiZWw6IChvcHRpb246IHsgbGFiZWxLZXk6IHN0cmluZyB9KSA9PiBzdHJpbmc7CiAgaW50ZXJmYWNlSVB2NE9wdGlvbnM6IERETlNBZGRyZXNzT3B0aW9uW107CiAgaW50ZXJmYWNlSVB2Nk9wdGlvbnM6IERETlNBZGRyZXNzT3B0aW9uW107CiAgbGFzdElwPzogeyBpcHY0OiBzdHJpbmcgfCBudWxsOyBpcHY2OiBzdHJpbmcgfCBudWxsIH07CiAgc2VsZWN0aW9uQW5jaG9yPzogeyBpcHY0OiBzdHJpbmcgfCBudWxsOyBpcHY2OiBzdHJpbmcgfCBudWxsIH07CiAgaXNJcFNvdXJjZU9wdGlvbkRpc2FibGVkOiAoCiAgICBwcm92aWRlck5hbWU6IHN0cmluZywKICAgIG9wdGlvbjogREROU0lwU291cmNlLAogICkgPT4gYm9vbGVhbjsKICBpc1VwZGF0ZVNjb3BlT3B0aW9uRGlzYWJsZWQ6ICgKICAgIHByb3ZpZGVyTmFtZTogc3RyaW5nLAogICAgb3B0aW9uOiBERE5TVXBkYXRlU2NvcGUsCiAgKSA9PiBib29sZWFuOwogIHByb3ZpZGVyQ29uZmlnOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+OwogIHJlc29sdmVkTmV0d29ya0ludGVyZmFjZXM6IERETlNOZXR3b3JrSW50ZXJmYWNlUGF5bG9hZFtdOwogIHNlbGVjdGVkTmV0d29ya0ludGVyZmFjZURldGFpbDogc3RyaW5nOwogIHNlbGVjdGVkUHJvdmlkZXI6IHN0cmluZzsKICBzZXRGaWVsZFZhbHVlOiAoa2V5OiBzdHJpbmcsIHZhbHVlOiBzdHJpbmcpID0+IHZvaWQ7CiAgc2hvd0ludGVyZmFjZUFkZHJlc3NCbG9jazogYm9vbGVhbjsKICBzaG93SW50ZXJmYWNlSVB2NFNlbGVjdDogYm9vbGVhbjsKICBzaG93SW50ZXJmYWNlSVB2NlNlbGVjdDogYm9vbGVhbjsKICBzaG93U291cmNlRG9tYWluQmxvY2s6IGJvb2xlYW47CiAgc2hvd1N0YXRpY0lQdjRJbnB1dDogYm9vbGVhbjsKICBzaG93U3RhdGljSVB2NklucHV0OiBib29sZWFuOwogIHVwZGF0ZU5ldHdvcmtJbnRlcmZhY2U6ICh2YWx1ZTogc3RyaW5nKSA9PiB2b2lkOwogIHVwZGF0ZUlwU291cmNlOiAodmFsdWU6IHN0cmluZykgPT4gdm9pZDsKfTsK
+import type { DDNSNetworkInterfacePayload } from "@/lib/api/ddns";
+import type { DDNSIpSource, DDNSUpdateScope } from "./model";
+
+export type DDNSAddressOption = {
+  label: string;
+  value: string;
+};
+
+export type DDNSAddressSourceFieldsProps = {
+  configuredNetworkInterface: string;
+  configuredNetworkInterfaceLabel: string;
+  formatOptionLabel: (option: { labelKey: string }) => string;
+  interfaceIPv4Options: DDNSAddressOption[];
+  interfaceIPv6Options: DDNSAddressOption[];
+  lastIp?: { ipv4: string | null; ipv6: string | null };
+  selectionAnchor?: { ipv4: string | null; ipv6: string | null };
+  isIpSourceOptionDisabled: (
+    providerName: string,
+    option: DDNSIpSource,
+  ) => boolean;
+  isUpdateScopeOptionDisabled: (
+    providerName: string,
+    option: DDNSUpdateScope,
+  ) => boolean;
+  providerConfig: Record<string, string>;
+  resolvedNetworkInterfaces: DDNSNetworkInterfacePayload[];
+  selectedNetworkInterfaceDetail: string;
+  selectedProvider: string;
+  setFieldValue: (key: string, value: string) => void;
+  showInterfaceAddressBlock: boolean;
+  showInterfaceIPv4Select: boolean;
+  showInterfaceIPv6Select: boolean;
+  showSourceDomainBlock: boolean;
+  showStaticIPv4Input: boolean;
+  showStaticIPv6Input: boolean;
+  updateNetworkInterface: (value: string) => void;
+  updateIpSource: (value: string) => void;
+};

@@ -1,1 +1,100 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBDaGVjayB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsKICBUSEVNRV9DT0xPUl9QUkVTRVRTLAogIG5vcm1hbGl6ZUFwcGVhcmFuY2VDb25maWcsCiAgdHlwZSBUaGVtZUNvbG9yUHJlc2V0S2V5LAp9IGZyb20gIkBmcm9udGVuZC1jb3JlL2FwcGVhcmFuY2UiOwppbXBvcnQgeyB1c2VDb25maWdTdG9yZSB9IGZyb20gIkAvc3RvcmUvY29uZmlnIjsKCmNvbnN0IG9wZW4gPSBkZWZpbmVNb2RlbDxib29sZWFuPigib3BlbiIsIHsgcmVxdWlyZWQ6IHRydWUgfSk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBjb25maWdTdG9yZSA9IHVzZUNvbmZpZ1N0b3JlKCk7CmNvbnN0IGlzU2F2aW5nID0gcmVmKGZhbHNlKTsKY29uc3Qgb3B0aW9ucyA9IFRIRU1FX0NPTE9SX1BSRVNFVFMubWFwKChwcmVzZXQpID0+ICh7CiAgLi4ucHJlc2V0LAogIGxhYmVsS2V5OiBgYWRtaW4uZGFzaGJvYXJkLnRoZW1lLnByZXNldHMuJHtwcmVzZXQua2V5fWAsCn0pKTsKY29uc3QgYWN0aXZlUHJlc2V0ID0gY29tcHV0ZWQoCiAgKCkgPT4KICAgIG5vcm1hbGl6ZUFwcGVhcmFuY2VDb25maWcoY29uZmlnU3RvcmUuY29uZmlnPy5hcHBlYXJhbmNlKQogICAgICAudGhlbWVfY29sb3JfcHJlc2V0LAopOwoKY29uc3QgZ2V0RXJyb3JNZXNzYWdlID0gKGVycm9yOiB1bmtub3duLCBmYWxsYmFjazogc3RyaW5nKSA9PiB7CiAgY29uc3QgdmFsdWUgPSBlcnJvciBhcyB7CiAgICByZXNwb25zZT86IHsgZGF0YT86IHsgbWVzc2FnZT86IHN0cmluZyB9IH07CiAgICBtZXNzYWdlPzogc3RyaW5nOwogIH07CiAgcmV0dXJuIHZhbHVlPy5yZXNwb25zZT8uZGF0YT8ubWVzc2FnZSB8fCB2YWx1ZT8ubWVzc2FnZSB8fCBmYWxsYmFjazsKfTsKCmNvbnN0IHNlbGVjdFByZXNldCA9IGFzeW5jIChwcmVzZXQ6IFRoZW1lQ29sb3JQcmVzZXRLZXkpID0+IHsKICBpZiAocHJlc2V0ID09PSBhY3RpdmVQcmVzZXQudmFsdWUgfHwgaXNTYXZpbmcudmFsdWUpIHJldHVybjsKICBpc1NhdmluZy52YWx1ZSA9IHRydWU7CiAgdHJ5IHsKICAgIGF3YWl0IGNvbmZpZ1N0b3JlLnNhdmVBcHBlYXJhbmNlQ29uZmlnKHsgdGhlbWVfY29sb3JfcHJlc2V0OiBwcmVzZXQgfSk7CiAgICBvcGVuLnZhbHVlID0gZmFsc2U7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmRhc2hib2FyZC50aGVtZS5zYXZlRmFpbGVkIiksIHsKICAgICAgZGVzY3JpcHRpb246IGdldEVycm9yTWVzc2FnZShlcnJvciwgdCgiY29tbW9uLnRyeUxhdGVyIikpLAogICAgfSk7CiAgfSBmaW5hbGx5IHsKICAgIGlzU2F2aW5nLnZhbHVlID0gZmFsc2U7CiAgfQp9Owo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nIHYtbW9kZWw6b3Blbj0ib3BlbiI+CiAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ic206bWF4LXctWzQ2MHB4XSI+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPnt7IHQoImFkbWluLmRhc2hib2FyZC50aGVtZS50aXRsZSIpIH19PC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICB7eyB0KCJhZG1pbi5kYXNoYm9hcmQudGhlbWUuZGVzY3JpcHRpb24iKSB9fQogICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgoKICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMiI+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdi1mb3I9InByZXNldCBpbiBvcHRpb25zIgogICAgICAgICAgOmtleT0icHJlc2V0LmtleSIKICAgICAgICAgIDpkYXRhLXRoZW1lLXByZXNldD0icHJlc2V0LmtleSIKICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICBjbGFzcz0iaC1hdXRvIGp1c3RpZnktc3RhcnQgZ2FwLTMgcHgtMyBweS0zIHRleHQtbGVmdCIKICAgICAgICAgIDpjbGFzcz0iCiAgICAgICAgICAgIHByZXNldC5rZXkgPT09IGFjdGl2ZVByZXNldAogICAgICAgICAgICAgID8gJ2JvcmRlci1wcmltYXJ5IGJnLXByaW1hcnkvNSByaW5nLTEgcmluZy1wcmltYXJ5LzIwJwogICAgICAgICAgICAgIDogJ2JvcmRlci1ib3JkZXIvNzAgaG92ZXI6Ym9yZGVyLXByaW1hcnkvMzUnCiAgICAgICAgICAiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nIgogICAgICAgICAgQGNsaWNrPSJzZWxlY3RQcmVzZXQocHJlc2V0LmtleSkiCiAgICAgICAgPgogICAgICAgICAgPHNwYW4KICAgICAgICAgICAgY2xhc3M9InNpemUtNSBzaHJpbmstMCByb3VuZGVkLWZ1bGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgc2hhZG93LXNtIgogICAgICAgICAgICA6c3R5bGU9InsgYmFja2dyb3VuZENvbG9yOiBwcmVzZXQuY29sb3IgfSIKICAgICAgICAgIC8+CiAgICAgICAgICA8c3BhbiBjbGFzcz0ibWluLXctMCBmbGV4LTEgdGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgIHt7IHQocHJlc2V0LmxhYmVsS2V5KSB9fQogICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPENoZWNrCiAgICAgICAgICAgIHYtaWY9InByZXNldC5rZXkgPT09IGFjdGl2ZVByZXNldCIKICAgICAgICAgICAgY2xhc3M9ImgtNCB3LTQgc2hyaW5rLTAgdGV4dC1wcmltYXJ5IgogICAgICAgICAgLz4KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { Check } from "lucide-vue-next";
+import { toast } from "@admin-shared/utils/toast";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import {
+  THEME_COLOR_PRESETS,
+  normalizeAppearanceConfig,
+  type ThemeColorPresetKey,
+} from "@frontend-core/appearance";
+import { useConfigStore } from "@/store/config";
+
+const open = defineModel<boolean>("open", { required: true });
+const { t } = useI18n();
+const configStore = useConfigStore();
+const isSaving = ref(false);
+const options = THEME_COLOR_PRESETS.map((preset) => ({
+  ...preset,
+  labelKey: `admin.dashboard.theme.presets.${preset.key}`,
+}));
+const activePreset = computed(
+  () =>
+    normalizeAppearanceConfig(configStore.config?.appearance)
+      .theme_color_preset,
+);
+
+const getErrorMessage = (error: unknown, fallback: string) => {
+  const value = error as {
+    response?: { data?: { message?: string } };
+    message?: string;
+  };
+  return value?.response?.data?.message || value?.message || fallback;
+};
+
+const selectPreset = async (preset: ThemeColorPresetKey) => {
+  if (preset === activePreset.value || isSaving.value) return;
+  isSaving.value = true;
+  try {
+    await configStore.saveAppearanceConfig({ theme_color_preset: preset });
+    open.value = false;
+  } catch (error) {
+    toast.error(t("admin.dashboard.theme.saveFailed"), {
+      description: getErrorMessage(error, t("common.tryLater")),
+    });
+  } finally {
+    isSaving.value = false;
+  }
+};
+</script>
+
+<template>
+  <Dialog v-model:open="open">
+    <DialogContent class="sm:max-w-[460px]">
+      <DialogHeader>
+        <DialogTitle>{{ t("admin.dashboard.theme.title") }}</DialogTitle>
+        <DialogDescription>
+          {{ t("admin.dashboard.theme.description") }}
+        </DialogDescription>
+      </DialogHeader>
+
+      <div class="grid gap-2">
+        <Button
+          v-for="preset in options"
+          :key="preset.key"
+          :data-theme-preset="preset.key"
+          type="button"
+          variant="outline"
+          class="h-auto justify-start gap-3 px-3 py-3 text-left"
+          :class="
+            preset.key === activePreset
+              ? 'border-primary bg-primary/5 ring-1 ring-primary/20'
+              : 'border-border/70 hover:border-primary/35'
+          "
+          :disabled="isSaving"
+          @click="selectPreset(preset.key)"
+        >
+          <span
+            class="size-5 shrink-0 rounded-full border border-border shadow-sm"
+            :style="{ backgroundColor: preset.color }"
+          />
+          <span class="min-w-0 flex-1 text-sm font-medium">
+            {{ t(preset.labelKey) }}
+          </span>
+          <Check
+            v-if="preset.key === activePreset"
+            class="h-4 w-4 shrink-0 text-primary"
+          />
+        </Button>
+      </div>
+    </DialogContent>
+  </Dialog>
+</template>

@@ -1,1 +1,254 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgppbXBvcnQgewogIGNhbm9uaWNhbGl6ZVJlZGlyZWN0VGFyZ2V0LAogIGd1YXJkQXV0aEF1dG9SZWRpcmVjdCwKICBpbnNwZWN0QXV0aFJlZGlyZWN0LAogIHJlc2V0QXV0aEF1dG9SZWRpcmVjdEd1YXJkLAogIHR5cGUgUmVkaXJlY3RHdWFyZFN0b3JhZ2UsCn0gZnJvbSAiLi4vc3JjL2xpYi9hdXRoLXJlZGlyZWN0LWd1YXJkIjsKCmNsYXNzIE1lbW9yeVN0b3JhZ2UgaW1wbGVtZW50cyBSZWRpcmVjdEd1YXJkU3RvcmFnZSB7CiAgcHJpdmF0ZSByZWFkb25seSB2YWx1ZXMgPSBuZXcgTWFwPHN0cmluZywgc3RyaW5nPigpOwoKICBnZXRJdGVtKGtleTogc3RyaW5nKSB7CiAgICByZXR1cm4gdGhpcy52YWx1ZXMuZ2V0KGtleSkgPz8gbnVsbDsKICB9CgogIHNldEl0ZW0oa2V5OiBzdHJpbmcsIHZhbHVlOiBzdHJpbmcpIHsKICAgIHRoaXMudmFsdWVzLnNldChrZXksIHZhbHVlKTsKICB9CgogIHJlbW92ZUl0ZW0oa2V5OiBzdHJpbmcpIHsKICAgIHRoaXMudmFsdWVzLmRlbGV0ZShrZXkpOwogIH0KfQoKY29uc3QgY3VycmVudExvZ2luVXJsID0KICAiaHR0cHM6Ly9hdXRoLmV4YW1wbGUuY29tOjc5OTkvbG9naW4/cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGYXBwLmV4YW1wbGUuY29tJTNBNzk5OSUyRiI7CgpkZXNjcmliZSgiYXV0aCByZWRpcmVjdCBndWFyZCIsICgpID0+IHsKICBpdCgiY2Fub25pY2FsaXplcyBsZWdhY3kgaGFzaCBsb2dpbiByb3V0ZXMgYW5kIHJlbW92ZXMgY2FjaGUgbm9pc2UiLCAoKSA9PiB7CiAgICBjb25zdCBoaXN0b3J5VGFyZ2V0ID0KICAgICAgImh0dHBzOi8vYXV0aC5leGFtcGxlLmNvbTo3OTk5L2xvZ2luP3JlZGlyZWN0X3VyaT1odHRwcyUzQSUyRiUyRmFwcC5leGFtcGxlLmNvbSUzQTc5OTklMkYmX3RzPTEwMCI7CiAgICBjb25zdCBoYXNoVGFyZ2V0ID0KICAgICAgImh0dHBzOi8vYXV0aC5leGFtcGxlLmNvbTo3OTk5LyMvbG9naW4/X3RzPTIwMCZyZWRpcmVjdF91cmk9aHR0cHMlM0ElMkYlMkZhcHAuZXhhbXBsZS5jb20lM0E3OTk5JTJGIjsKCiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGNhbm9uaWNhbGl6ZVJlZGlyZWN0VGFyZ2V0KGhpc3RvcnlUYXJnZXQsIGN1cnJlbnRMb2dpblVybCksCiAgICAgIGNhbm9uaWNhbGl6ZVJlZGlyZWN0VGFyZ2V0KGhhc2hUYXJnZXQsIGN1cnJlbnRMb2dpblVybCksCiAgICApOwogIH0pOwoKICBpdCgia2VlcHMgcmVkaXJlY3RfdXJpIGluIHRoZSBjYW5vbmljYWwgdGFyZ2V0IGlkZW50aXR5IiwgKCkgPT4gewogICAgY29uc3QgZmlyc3QgPSBjYW5vbmljYWxpemVSZWRpcmVjdFRhcmdldCgKICAgICAgImh0dHBzOi8vdGFyZ2V0LmV4YW1wbGUuY29tL2NhbGxiYWNrP3JlZGlyZWN0X3VyaT1odHRwcyUzQSUyRiUyRm9uZS5leGFtcGxlLmNvbSUyRiZfdHM9MSIsCiAgICAgIGN1cnJlbnRMb2dpblVybCwKICAgICk7CiAgICBjb25zdCBzZWNvbmQgPSBjYW5vbmljYWxpemVSZWRpcmVjdFRhcmdldCgKICAgICAgImh0dHBzOi8vdGFyZ2V0LmV4YW1wbGUuY29tL2NhbGxiYWNrP190cz0yJnJlZGlyZWN0X3VyaT1odHRwcyUzQSUyRiUyRnR3by5leGFtcGxlLmNvbSUyRiIsCiAgICAgIGN1cnJlbnRMb2dpblVybCwKICAgICk7CgogICAgYXNzZXJ0Lm5vdEVxdWFsKGZpcnN0LCBzZWNvbmQpOwogIH0pOwoKICBpdCgiYmxvY2tzIHJlZGlyZWN0cyBiYWNrIHRvIHRoZSBjdXJyZW50IGxvZ2luIHJvdXRlIGFjcm9zcyByb3V0ZXIgZm9ybWF0cyIsICgpID0+IHsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIGluc3BlY3RBdXRoUmVkaXJlY3QoCiAgICAgICAgImh0dHBzOi8vYXV0aC5leGFtcGxlLmNvbTo3OTk5LyMvbG9naW4/X3RzPTIiLAogICAgICAgIGN1cnJlbnRMb2dpblVybCwKICAgICAgKSwKICAgICAgeyBhbGxvd2VkOiBmYWxzZSwgcmVhc29uOiAic2VsZl9yZWRpcmVjdCIgfSwKICAgICk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBpbnNwZWN0QXV0aFJlZGlyZWN0KAogICAgICAgICJodHRwczovL2F1dGguZXhhbXBsZS5jb206Nzk5OS9hdXRoLyMvbG9naW4iLAogICAgICAgICJodHRwczovL2F1dGguZXhhbXBsZS5jb206Nzk5OS9hdXRoL2xvZ2luP3JlZGlyZWN0X3VyaT0lMkYiLAogICAgICApLAogICAgICB7IGFsbG93ZWQ6IGZhbHNlLCByZWFzb246ICJzZWxmX3JlZGlyZWN0IiB9LAogICAgKTsKICB9KTsKCiAgaXQoImZhaWxzIGNsb3NlZCBmb3IgbWFsZm9ybWVkIGFuZCBub24taHR0cCByZWRpcmVjdCB0YXJnZXRzIiwgKCkgPT4gewogICAgYXNzZXJ0LmRlZXBFcXVhbChpbnNwZWN0QXV0aFJlZGlyZWN0KCJodHRwOi8vWyIsIGN1cnJlbnRMb2dpblVybCksIHsKICAgICAgYWxsb3dlZDogZmFsc2UsCiAgICAgIHJlYXNvbjogImludmFsaWRfcmVkaXJlY3QiLAogICAgfSk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBpbnNwZWN0QXV0aFJlZGlyZWN0KCJqYXZhc2NyaXB0OmFsZXJ0KDEpIiwgY3VycmVudExvZ2luVXJsKSwKICAgICAgewogICAgICAgIGFsbG93ZWQ6IGZhbHNlLAogICAgICAgIHJlYXNvbjogImludmFsaWRfcmVkaXJlY3QiLAogICAgICB9LAogICAgKTsKICAgIGZvciAoY29uc3QgcmVkaXJlY3RUbyBvZiBbCiAgICAgICIvL2V2aWwuZXhhbXBsZS9wYXRoIiwKICAgICAgIi8vL2V2aWwuZXhhbXBsZS9wYXRoIiwKICAgICAgIi9cXGV2aWwuZXhhbXBsZS9wYXRoIiwKICAgICAgIlxcXFxldmlsLmV4YW1wbGUvcGF0aCIsCiAgICAgICJodHRwczpcXGV2aWwuZXhhbXBsZS9wYXRoIiwKICAgICAgIi9cdC9ldmlsLmV4YW1wbGUvcGF0aCIsCiAgICAgICIvXG4vZXZpbC5leGFtcGxlL3BhdGgiLAogICAgICAiL1xyL2V2aWwuZXhhbXBsZS9wYXRoIiwKICAgIF0pIHsKICAgICAgYXNzZXJ0LmRlZXBFcXVhbChpbnNwZWN0QXV0aFJlZGlyZWN0KHJlZGlyZWN0VG8sIGN1cnJlbnRMb2dpblVybCksIHsKICAgICAgICBhbGxvd2VkOiBmYWxzZSwKICAgICAgICByZWFzb246ICJpbnZhbGlkX3JlZGlyZWN0IiwKICAgICAgfSk7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICBjYW5vbmljYWxpemVSZWRpcmVjdFRhcmdldChyZWRpcmVjdFRvLCBjdXJyZW50TG9naW5VcmwpLAogICAgICAgIG51bGwsCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJwcmVzZXJ2ZXMgYnVzaW5lc3MgaGFzaCByb3V0ZXMgd2hlbiBpZGVudGlmeWluZyByZWRpcmVjdCB0YXJnZXRzIiwgKCkgPT4gewogICAgY29uc3QgZmlyc3QgPSBjYW5vbmljYWxpemVSZWRpcmVjdFRhcmdldCgKICAgICAgImh0dHBzOi8vcG9ydGFsLmV4YW1wbGUuY29tL2FwcDEvIy9ob21lIiwKICAgICAgY3VycmVudExvZ2luVXJsLAogICAgKTsKICAgIGNvbnN0IHNlY29uZCA9IGNhbm9uaWNhbGl6ZVJlZGlyZWN0VGFyZ2V0KAogICAgICAiaHR0cHM6Ly9wb3J0YWwuZXhhbXBsZS5jb20vYXBwMi8jL2hvbWUiLAogICAgICBjdXJyZW50TG9naW5VcmwsCiAgICApOwoKICAgIGFzc2VydC5ub3RFcXVhbChmaXJzdCwgc2Vjb25kKTsKICAgIGFzc2VydC5lcXVhbChmaXJzdCwgImh0dHBzOi8vcG9ydGFsLmV4YW1wbGUuY29tL2FwcDEvIy9ob21lIik7CiAgICBhc3NlcnQuZXF1YWwoc2Vjb25kLCAiaHR0cHM6Ly9wb3J0YWwuZXhhbXBsZS5jb20vYXBwMi8jL2hvbWUiKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY2Fub25pY2FsaXplUmVkaXJlY3RUYXJnZXQoCiAgICAgICAgImh0dHBzOi8vYXV0aC5leGFtcGxlLmNvbTo3OTk5LyMvYnVzaW5lc3MtaG9tZSIsCiAgICAgICAgY3VycmVudExvZ2luVXJsLAogICAgICApLAogICAgICAiaHR0cHM6Ly9hdXRoLmV4YW1wbGUuY29tOjc5OTkvIy9idXNpbmVzcy1ob21lIiwKICAgICk7CiAgfSk7CgogIGl0KCJibG9ja3MgYSByZXBlYXRlZCBhdXRvbWF0aWMgcmVkaXJlY3QgdG8gdGhlIHNhbWUgdGFyZ2V0IGluIG9uZSB0YWIiLCAoKSA9PiB7CiAgICBjb25zdCBzdG9yYWdlID0gbmV3IE1lbW9yeVN0b3JhZ2UoKTsKICAgIGNvbnN0IGZpcnN0ID0gZ3VhcmRBdXRoQXV0b1JlZGlyZWN0KHsKICAgICAgcmVkaXJlY3RUbzogImh0dHBzOi8vYXBwLmV4YW1wbGUuY29tOjc5OTkvP190cz0xMDAiLAogICAgICBjdXJyZW50VXJsOiBjdXJyZW50TG9naW5VcmwsCiAgICAgIHN0b3JhZ2UsCiAgICAgIG5vdzogMV8wMDAsCiAgICB9KTsKICAgIGNvbnN0IHJlcGVhdGVkID0gZ3VhcmRBdXRoQXV0b1JlZGlyZWN0KHsKICAgICAgcmVkaXJlY3RUbzogImh0dHBzOi8vYXBwLmV4YW1wbGUuY29tOjc5OTkvP190cz0yMDAiLAogICAgICBjdXJyZW50VXJsOiBjdXJyZW50TG9naW5VcmwsCiAgICAgIHN0b3JhZ2UsCiAgICAgIG5vdzogMl8wMDAsCiAgICB9KTsKCiAgICBhc3NlcnQuZXF1YWwoZmlyc3QuYWxsb3dlZCwgdHJ1ZSk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKHJlcGVhdGVkLCB7CiAgICAgIGFsbG93ZWQ6IGZhbHNlLAogICAgICByZWFzb246ICJyZXBlYXRfcmVkaXJlY3QiLAogICAgfSk7CiAgfSk7CgogIGl0KCJhbGxvd3MgYSBjaGFuZ2VkIHNlbWFudGljIHRhcmdldCBhbmQgcmV0cmllcyBhZnRlciB0aGUgZ3VhcmQgd2luZG93IiwgKCkgPT4gewogICAgY29uc3Qgc3RvcmFnZSA9IG5ldyBNZW1vcnlTdG9yYWdlKCk7CiAgICBjb25zdCBmaXJzdCA9IGd1YXJkQXV0aEF1dG9SZWRpcmVjdCh7CiAgICAgIHJlZGlyZWN0VG86CiAgICAgICAgImh0dHBzOi8vYXBwLmV4YW1wbGUuY29tL2NhbGxiYWNrP3JlZGlyZWN0X3VyaT1odHRwcyUzQSUyRiUyRm9uZS5leGFtcGxlLmNvbSUyRiIsCiAgICAgIGN1cnJlbnRVcmw6IGN1cnJlbnRMb2dpblVybCwKICAgICAgc3RvcmFnZSwKICAgICAgbm93OiAxXzAwMCwKICAgICAgd2luZG93TXM6IDVfMDAwLAogICAgfSk7CiAgICBjb25zdCBjaGFuZ2VkID0gZ3VhcmRBdXRoQXV0b1JlZGlyZWN0KHsKICAgICAgcmVkaXJlY3RUbzoKICAgICAgICAiaHR0cHM6Ly9hcHAuZXhhbXBsZS5jb20vY2FsbGJhY2s/cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGdHdvLmV4YW1wbGUuY29tJTJGIiwKICAgICAgY3VycmVudFVybDogY3VycmVudExvZ2luVXJsLAogICAgICBzdG9yYWdlLAogICAgICBub3c6IDJfMDAwLAogICAgICB3aW5kb3dNczogNV8wMDAsCiAgICB9KTsKICAgIGNvbnN0IGFmdGVyV2luZG93ID0gZ3VhcmRBdXRoQXV0b1JlZGlyZWN0KHsKICAgICAgcmVkaXJlY3RUbzoKICAgICAgICAiaHR0cHM6Ly9hcHAuZXhhbXBsZS5jb20vY2FsbGJhY2s/cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGdHdvLmV4YW1wbGUuY29tJTJGIiwKICAgICAgY3VycmVudFVybDogY3VycmVudExvZ2luVXJsLAogICAgICBzdG9yYWdlLAogICAgICBub3c6IDhfMDAwLAogICAgICB3aW5kb3dNczogNV8wMDAsCiAgICB9KTsKCiAgICBhc3NlcnQuZXF1YWwoZmlyc3QuYWxsb3dlZCwgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwoY2hhbmdlZC5hbGxvd2VkLCB0cnVlKTsKICAgIGFzc2VydC5lcXVhbChhZnRlcldpbmRvdy5hbGxvd2VkLCB0cnVlKTsKICB9KTsKCiAgaXQoImFsbG93cyBhbmQgcmVjb3JkcyBvbmUgZnJlc2ggcmVkaXJlY3QgYWZ0ZXIgYW4gZXhwbGljaXQtbG9naW4gcmVzZXQiLCAoKSA9PiB7CiAgICBjb25zdCBzdG9yYWdlID0gbmV3IE1lbW9yeVN0b3JhZ2UoKTsKICAgIGNvbnN0IHJlZGlyZWN0VG8gPSAiaHR0cHM6Ly9hcHAuZXhhbXBsZS5jb20vIjsKCiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGd1YXJkQXV0aEF1dG9SZWRpcmVjdCh7CiAgICAgICAgcmVkaXJlY3RUbywKICAgICAgICBjdXJyZW50VXJsOiBjdXJyZW50TG9naW5VcmwsCiAgICAgICAgc3RvcmFnZSwKICAgICAgICBub3c6IDFfMDAwLAogICAgICB9KS5hbGxvd2VkLAogICAgICB0cnVlLAogICAgKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIGd1YXJkQXV0aEF1dG9SZWRpcmVjdCh7CiAgICAgICAgcmVkaXJlY3RUbywKICAgICAgICBjdXJyZW50VXJsOiBjdXJyZW50TG9naW5VcmwsCiAgICAgICAgc3RvcmFnZSwKICAgICAgICBub3c6IDJfMDAwLAogICAgICB9KSwKICAgICAgeyBhbGxvd2VkOiBmYWxzZSwgcmVhc29uOiAicmVwZWF0X3JlZGlyZWN0IiB9LAogICAgKTsKCiAgICByZXNldEF1dGhBdXRvUmVkaXJlY3RHdWFyZChzdG9yYWdlKTsKCiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGd1YXJkQXV0aEF1dG9SZWRpcmVjdCh7CiAgICAgICAgcmVkaXJlY3RUbywKICAgICAgICBjdXJyZW50VXJsOiBjdXJyZW50TG9naW5VcmwsCiAgICAgICAgc3RvcmFnZSwKICAgICAgICBub3c6IDNfMDAwLAogICAgICB9KS5hbGxvd2VkLAogICAgICB0cnVlLAogICAgKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIGd1YXJkQXV0aEF1dG9SZWRpcmVjdCh7CiAgICAgICAgcmVkaXJlY3RUbywKICAgICAgICBjdXJyZW50VXJsOiBjdXJyZW50TG9naW5VcmwsCiAgICAgICAgc3RvcmFnZSwKICAgICAgICBub3c6IDRfMDAwLAogICAgICB9KSwKICAgICAgeyBhbGxvd2VkOiBmYWxzZSwgcmVhc29uOiAicmVwZWF0X3JlZGlyZWN0IiB9LAogICAgKTsKICB9KTsKCiAgaXQoImJsb2NrcyBjaGFuZ2luZy10YXJnZXQgbG9vcHMgYWZ0ZXIgdGhlIHNob3J0LXdpbmRvdyByZWRpcmVjdCBidWRnZXQiLCAoKSA9PiB7CiAgICBjb25zdCBzdG9yYWdlID0gbmV3IE1lbW9yeVN0b3JhZ2UoKTsKICAgIGZvciAobGV0IGluZGV4ID0gMTsgaW5kZXggPD0gMzsgaW5kZXggKz0gMSkgewogICAgICBhc3NlcnQuZXF1YWwoCiAgICAgICAgZ3VhcmRBdXRoQXV0b1JlZGlyZWN0KHsKICAgICAgICAgIHJlZGlyZWN0VG86IGBodHRwczovL2FwcC5leGFtcGxlLmNvbS8/bm9uY2U9JHtpbmRleH1gLAogICAgICAgICAgY3VycmVudFVybDogY3VycmVudExvZ2luVXJsLAogICAgICAgICAgc3RvcmFnZSwKICAgICAgICAgIG5vdzogaW5kZXggKiAxXzAwMCwKICAgICAgICB9KS5hbGxvd2VkLAogICAgICAgIHRydWUsCiAgICAgICk7CiAgICB9CgogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgZ3VhcmRBdXRoQXV0b1JlZGlyZWN0KHsKICAgICAgICByZWRpcmVjdFRvOiAiaHR0cHM6Ly9hcHAuZXhhbXBsZS5jb20vP25vbmNlPTQiLAogICAgICAgIGN1cnJlbnRVcmw6IGN1cnJlbnRMb2dpblVybCwKICAgICAgICBzdG9yYWdlLAogICAgICAgIG5vdzogNF8wMDAsCiAgICAgIH0pLAogICAgICB7IGFsbG93ZWQ6IGZhbHNlLCByZWFzb246ICJyZXBlYXRfcmVkaXJlY3QiIH0sCiAgICApOwogIH0pOwp9KTsK
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import {
+  canonicalizeRedirectTarget,
+  guardAuthAutoRedirect,
+  inspectAuthRedirect,
+  resetAuthAutoRedirectGuard,
+  type RedirectGuardStorage,
+} from "../src/lib/auth-redirect-guard";
+
+class MemoryStorage implements RedirectGuardStorage {
+  private readonly values = new Map<string, string>();
+
+  getItem(key: string) {
+    return this.values.get(key) ?? null;
+  }
+
+  setItem(key: string, value: string) {
+    this.values.set(key, value);
+  }
+
+  removeItem(key: string) {
+    this.values.delete(key);
+  }
+}
+
+const currentLoginUrl =
+  "https://auth.example.com:7999/login?redirect_uri=https%3A%2F%2Fapp.example.com%3A7999%2F";
+
+describe("auth redirect guard", () => {
+  it("canonicalizes legacy hash login routes and removes cache noise", () => {
+    const historyTarget =
+      "https://auth.example.com:7999/login?redirect_uri=https%3A%2F%2Fapp.example.com%3A7999%2F&_ts=100";
+    const hashTarget =
+      "https://auth.example.com:7999/#/login?_ts=200&redirect_uri=https%3A%2F%2Fapp.example.com%3A7999%2F";
+
+    assert.equal(
+      canonicalizeRedirectTarget(historyTarget, currentLoginUrl),
+      canonicalizeRedirectTarget(hashTarget, currentLoginUrl),
+    );
+  });
+
+  it("keeps redirect_uri in the canonical target identity", () => {
+    const first = canonicalizeRedirectTarget(
+      "https://target.example.com/callback?redirect_uri=https%3A%2F%2Fone.example.com%2F&_ts=1",
+      currentLoginUrl,
+    );
+    const second = canonicalizeRedirectTarget(
+      "https://target.example.com/callback?_ts=2&redirect_uri=https%3A%2F%2Ftwo.example.com%2F",
+      currentLoginUrl,
+    );
+
+    assert.notEqual(first, second);
+  });
+
+  it("blocks redirects back to the current login route across router formats", () => {
+    assert.deepEqual(
+      inspectAuthRedirect(
+        "https://auth.example.com:7999/#/login?_ts=2",
+        currentLoginUrl,
+      ),
+      { allowed: false, reason: "self_redirect" },
+    );
+    assert.deepEqual(
+      inspectAuthRedirect(
+        "https://auth.example.com:7999/auth/#/login",
+        "https://auth.example.com:7999/auth/login?redirect_uri=%2F",
+      ),
+      { allowed: false, reason: "self_redirect" },
+    );
+  });
+
+  it("fails closed for malformed and non-http redirect targets", () => {
+    assert.deepEqual(inspectAuthRedirect("http://[", currentLoginUrl), {
+      allowed: false,
+      reason: "invalid_redirect",
+    });
+    assert.deepEqual(
+      inspectAuthRedirect("javascript:alert(1)", currentLoginUrl),
+      {
+        allowed: false,
+        reason: "invalid_redirect",
+      },
+    );
+    for (const redirectTo of [
+      "//evil.example/path",
+      "///evil.example/path",
+      "/\\evil.example/path",
+      "\\\\evil.example/path",
+      "https:\\evil.example/path",
+      "/\t/evil.example/path",
+      "/\n/evil.example/path",
+      "/\r/evil.example/path",
+    ]) {
+      assert.deepEqual(inspectAuthRedirect(redirectTo, currentLoginUrl), {
+        allowed: false,
+        reason: "invalid_redirect",
+      });
+      assert.equal(
+        canonicalizeRedirectTarget(redirectTo, currentLoginUrl),
+        null,
+      );
+    }
+  });
+
+  it("preserves business hash routes when identifying redirect targets", () => {
+    const first = canonicalizeRedirectTarget(
+      "https://portal.example.com/app1/#/home",
+      currentLoginUrl,
+    );
+    const second = canonicalizeRedirectTarget(
+      "https://portal.example.com/app2/#/home",
+      currentLoginUrl,
+    );
+
+    assert.notEqual(first, second);
+    assert.equal(first, "https://portal.example.com/app1/#/home");
+    assert.equal(second, "https://portal.example.com/app2/#/home");
+    assert.equal(
+      canonicalizeRedirectTarget(
+        "https://auth.example.com:7999/#/business-home",
+        currentLoginUrl,
+      ),
+      "https://auth.example.com:7999/#/business-home",
+    );
+  });
+
+  it("blocks a repeated automatic redirect to the same target in one tab", () => {
+    const storage = new MemoryStorage();
+    const first = guardAuthAutoRedirect({
+      redirectTo: "https://app.example.com:7999/?_ts=100",
+      currentUrl: currentLoginUrl,
+      storage,
+      now: 1_000,
+    });
+    const repeated = guardAuthAutoRedirect({
+      redirectTo: "https://app.example.com:7999/?_ts=200",
+      currentUrl: currentLoginUrl,
+      storage,
+      now: 2_000,
+    });
+
+    assert.equal(first.allowed, true);
+    assert.deepEqual(repeated, {
+      allowed: false,
+      reason: "repeat_redirect",
+    });
+  });
+
+  it("allows a changed semantic target and retries after the guard window", () => {
+    const storage = new MemoryStorage();
+    const first = guardAuthAutoRedirect({
+      redirectTo:
+        "https://app.example.com/callback?redirect_uri=https%3A%2F%2Fone.example.com%2F",
+      currentUrl: currentLoginUrl,
+      storage,
+      now: 1_000,
+      windowMs: 5_000,
+    });
+    const changed = guardAuthAutoRedirect({
+      redirectTo:
+        "https://app.example.com/callback?redirect_uri=https%3A%2F%2Ftwo.example.com%2F",
+      currentUrl: currentLoginUrl,
+      storage,
+      now: 2_000,
+      windowMs: 5_000,
+    });
+    const afterWindow = guardAuthAutoRedirect({
+      redirectTo:
+        "https://app.example.com/callback?redirect_uri=https%3A%2F%2Ftwo.example.com%2F",
+      currentUrl: currentLoginUrl,
+      storage,
+      now: 8_000,
+      windowMs: 5_000,
+    });
+
+    assert.equal(first.allowed, true);
+    assert.equal(changed.allowed, true);
+    assert.equal(afterWindow.allowed, true);
+  });
+
+  it("allows and records one fresh redirect after an explicit-login reset", () => {
+    const storage = new MemoryStorage();
+    const redirectTo = "https://app.example.com/";
+
+    assert.equal(
+      guardAuthAutoRedirect({
+        redirectTo,
+        currentUrl: currentLoginUrl,
+        storage,
+        now: 1_000,
+      }).allowed,
+      true,
+    );
+    assert.deepEqual(
+      guardAuthAutoRedirect({
+        redirectTo,
+        currentUrl: currentLoginUrl,
+        storage,
+        now: 2_000,
+      }),
+      { allowed: false, reason: "repeat_redirect" },
+    );
+
+    resetAuthAutoRedirectGuard(storage);
+
+    assert.equal(
+      guardAuthAutoRedirect({
+        redirectTo,
+        currentUrl: currentLoginUrl,
+        storage,
+        now: 3_000,
+      }).allowed,
+      true,
+    );
+    assert.deepEqual(
+      guardAuthAutoRedirect({
+        redirectTo,
+        currentUrl: currentLoginUrl,
+        storage,
+        now: 4_000,
+      }),
+      { allowed: false, reason: "repeat_redirect" },
+    );
+  });
+
+  it("blocks changing-target loops after the short-window redirect budget", () => {
+    const storage = new MemoryStorage();
+    for (let index = 1; index <= 3; index += 1) {
+      assert.equal(
+        guardAuthAutoRedirect({
+          redirectTo: `https://app.example.com/?nonce=${index}`,
+          currentUrl: currentLoginUrl,
+          storage,
+          now: index * 1_000,
+        }).allowed,
+        true,
+      );
+    }
+
+    assert.deepEqual(
+      guardAuthAutoRedirect({
+        redirectTo: "https://app.example.com/?nonce=4",
+        currentUrl: currentLoginUrl,
+        storage,
+        now: 4_000,
+      }),
+      { allowed: false, reason: "repeat_redirect" },
+    );
+  });
+});

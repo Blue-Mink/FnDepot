@@ -1,1 +1,283 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50LCBDYXJkSGVhZGVyLCBDYXJkVGl0bGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7CiAgQnJlYWRjcnVtYiwKICBCcmVhZGNydW1iSXRlbSwKICBCcmVhZGNydW1iTGluaywKICBCcmVhZGNydW1iTGlzdCwKICBCcmVhZGNydW1iUGFnZSwKICBCcmVhZGNydW1iU2VwYXJhdG9yLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9icmVhZGNydW1iIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBBcnJvd0xlZnQsIFBsYXksIFNhdmUsIFNxdWFyZSwgVHJhc2gyIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IExvZ1ZpZXdlciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvTG9nVmlld2VyLnZ1ZSI7CmltcG9ydCBIdW1hbkZyaWVuZGx5VGltZSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0h1bWFuRnJpZW5kbHlUaW1lLnZ1ZSI7CmltcG9ydCBUdW5uZWxTdXBlcnZpc29yU3RhdHVzIGZyb20gIi4uLy4uLy4uL2NvbXBvbmVudHMvVHVubmVsU3VwZXJ2aXNvclN0YXR1cy52dWUiOwppbXBvcnQgRnJwY0luc3RhbmNlRWRpdG9yIGZyb20gIi4vRnJwY0luc3RhbmNlRWRpdG9yLnZ1ZSI7CmltcG9ydCB7IHVzZUZycGNJbnN0YW5jZVBhZ2UgfSBmcm9tICIuL3VzZUZycGNJbnN0YW5jZVBhZ2UiOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHsKICBiYWNrVG9MaXN0LAogIGNsZWFyTG9ncywKICBjb250ZW50LAogIGRlZmF1bHRzLAogIGZvcm1hdFN1bW1hcnksCiAgaW5zdGFuY2UsCiAgaW5zdGFuY2VJZCwKICBpc0NsZWFyaW5nTG9ncywKICBpc0NyZWF0ZU1vZGUsCiAgaXNMb2FkaW5nLAogIGlzU2F2aW5nLAogIGlzU3RhcnRpbmcsCiAgaXNTdG9wcGluZywKICBsb2dzLAogIG5hbWUsCiAgc2F2ZUluc3RhbmNlLAogIHNldENvbmZpZ1NlY3Rpb25SZWYsCiAgc2V0RWRpdG9yUmVmLAogIHN0YXJ0SW5zdGFuY2UsCiAgc3RvcEluc3RhbmNlLAogIHN1bW1hcnksCiAgdGl0bGUsCn0gPSB1c2VGcnBjSW5zdGFuY2VQYWdlKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktNiI+CiAgICA8QnJlYWRjcnVtYj4KICAgICAgPEJyZWFkY3J1bWJMaXN0PgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iTGluayBocmVmPSIjL3R1bm5lbD90YWI9ZnJwIj57ewogICAgICAgICAgICB0KCJhZG1pbi5mcnBjSW5zdGFuY2VQYWdlLnR1bm5lbCIpCiAgICAgICAgICB9fTwvQnJlYWRjcnVtYkxpbms+CiAgICAgICAgPC9CcmVhZGNydW1iSXRlbT4KICAgICAgICA8QnJlYWRjcnVtYlNlcGFyYXRvciAvPgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iTGluayBocmVmPSIjL3R1bm5lbD90YWI9ZnJwIj5GUlA8L0JyZWFkY3J1bWJMaW5rPgogICAgICAgIDwvQnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgPEJyZWFkY3J1bWJTZXBhcmF0b3IgLz4KICAgICAgICA8QnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgICA8QnJlYWRjcnVtYlBhZ2U+e3sKICAgICAgICAgICAgaXNDcmVhdGVNb2RlID8gdCgiYWRtaW4uZnJwY0luc3RhbmNlUGFnZS5uZXdJbnN0YW5jZSIpIDogdGl0bGUKICAgICAgICAgIH19PC9CcmVhZGNydW1iUGFnZT4KICAgICAgICA8L0JyZWFkY3J1bWJJdGVtPgogICAgICA8L0JyZWFkY3J1bWJMaXN0PgogICAgPC9CcmVhZGNydW1iPgoKICAgIDxkaXYKICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTMgc206ZmxleC1yb3cgc206aXRlbXMtc3RhcnQgc206anVzdGlmeS1iZXR3ZWVuIgogICAgPgogICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICBjbGFzcz0idy1maXQgcHgtMiIKICAgICAgICAgIEBjbGljaz0iYmFja1RvTGlzdCIKICAgICAgICA+CiAgICAgICAgICA8QXJyb3dMZWZ0IGNsYXNzPSJtci0xLjUgaC00IHctNCIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLmZycGNJbnN0YW5jZVBhZ2UuYmFja1RvTGlzdCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICAgIDxoMiBjbGFzcz0idGV4dC14bCBmb250LXNlbWlib2xkIj57eyB0aXRsZSB9fTwvaDI+CiAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyBmb3JtYXRTdW1tYXJ5KHN1bW1hcnkpIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2LWlmPSIKICAgICAgICAgICAgIWlzQ3JlYXRlTW9kZSAmJgogICAgICAgICAgICBpbnN0YW5jZSAmJgogICAgICAgICAgICAhaW5zdGFuY2UuZGVzaXJlZFJ1bm5pbmcgJiYKICAgICAgICAgICAgIWluc3RhbmNlLnJ1bm5pbmcKICAgICAgICAgICIKICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImlzU3RhcnRpbmciCiAgICAgICAgICBAY2xpY2s9InN0YXJ0SW5zdGFuY2UiCiAgICAgICAgPgogICAgICAgICAgPFBsYXkgY2xhc3M9Im1yLTEuNSBoLTQgdy00IiAvPgogICAgICAgICAge3sKICAgICAgICAgICAgaXNTdGFydGluZwogICAgICAgICAgICAgID8gdCgiYWRtaW4uZnJwY0luc3RhbmNlUGFnZS5zdGFydGluZyIpCiAgICAgICAgICAgICAgOiB0KCJhZG1pbi5mcnBjSW5zdGFuY2VQYWdlLnN0YXJ0IikKICAgICAgICAgIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdi1pZj0iCiAgICAgICAgICAgICFpc0NyZWF0ZU1vZGUgJiYKICAgICAgICAgICAgaW5zdGFuY2UgJiYKICAgICAgICAgICAgKGluc3RhbmNlLmRlc2lyZWRSdW5uaW5nIHx8IGluc3RhbmNlLnJ1bm5pbmcpCiAgICAgICAgICAiCiAgICAgICAgICB2YXJpYW50PSJkZXN0cnVjdGl2ZSIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNTdG9wcGluZyIKICAgICAgICAgIEBjbGljaz0ic3RvcEluc3RhbmNlIgogICAgICAgID4KICAgICAgICAgIDxTcXVhcmUgY2xhc3M9Im1yLTEuNSBoLTQgdy00IiAvPgogICAgICAgICAge3sKICAgICAgICAgICAgaXNTdG9wcGluZwogICAgICAgICAgICAgID8gdCgiYWRtaW4uZnJwY0luc3RhbmNlUGFnZS5zdG9wcGluZyIpCiAgICAgICAgICAgICAgOiB0KCJhZG1pbi5mcnBjSW5zdGFuY2VQYWdlLnN0b3AiKQogICAgICAgICAgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uIDpkaXNhYmxlZD0iaXNTYXZpbmcgfHwgaXNMb2FkaW5nIiBAY2xpY2s9InNhdmVJbnN0YW5jZSI+CiAgICAgICAgICA8U2F2ZSBjbGFzcz0ibXItMS41IGgtNCB3LTQiIC8+CiAgICAgICAgICB7eyBpc1NhdmluZyA/IHQoImFkbWluLmZycGNJbnN0YW5jZVBhZ2Uuc2F2aW5nIikgOiB0KCJjb21tb24uc2F2ZSIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CgogICAgPENhcmQgdi1pZj0iIWlzQ3JlYXRlTW9kZSAmJiBpbnN0YW5jZSI+CiAgICAgIDxDYXJkSGVhZGVyPgogICAgICAgIDxDYXJkVGl0bGUgY2xhc3M9InRleHQtYmFzZSI+e3sKICAgICAgICAgIHQoImFkbWluLmZycGNJbnN0YW5jZVBhZ2UucnVudGltZUluZm8iKQogICAgICAgIH19PC9DYXJkVGl0bGU+CiAgICAgIDwvQ2FyZEhlYWRlcj4KICAgICAgPENhcmRDb250ZW50IGNsYXNzPSJzcGFjZS15LTQiPgogICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTMgdGV4dC1zbSBzbTpncmlkLWNvbHMtMyI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBweC00IHB5LTMiPgogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmZycGNJbnN0YW5jZVBhZ2Uuc3RhdHVzIikgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJtdC0xIGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICA8VHVubmVsU3VwZXJ2aXNvclN0YXR1cyA6c3VwZXJ2aXNvcj0iaW5zdGFuY2Uuc3VwZXJ2aXNvciIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIHB4LTQgcHktMyI+CiAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+UElEPC9wPgogICAgICAgICAgICA8cCBjbGFzcz0ibXQtMSBmb250LW1vbm8iPnt7IGluc3RhbmNlLnBpZCA/PyAiLSIgfX08L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIHB4LTQgcHktMyI+CiAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZnJwY0luc3RhbmNlUGFnZS5sb2dBdHRhY2htZW50IikgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8cCBjbGFzcz0ibXQtMSI+CiAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgIGluc3RhbmNlLmF0dGFjaGVkCiAgICAgICAgICAgICAgICAgID8gdCgiYWRtaW4uZnJwY0luc3RhbmNlUGFnZS5jdXJyZW50UHJvY2VzcyIpCiAgICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uZnJwY0luc3RhbmNlUGFnZS5oaXN0b3J5QnVmZmVyIikKICAgICAgICAgICAgICB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIHB4LTQgcHktMyI+CiAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZnJwY0luc3RhbmNlUGFnZS5sYXN0U3RhcnRlZCIpIH19CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAgY2xhc3M9Im10LTEiPgogICAgICAgICAgICAgIDxIdW1hbkZyaWVuZGx5VGltZSA6dmFsdWU9Imluc3RhbmNlLnN0YXJ0ZWRBdCIgLz4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBweC00IHB5LTMiPgogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmZycGNJbnN0YW5jZVBhZ2UubGFzdFN0b3BwZWQiKSB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxwIGNsYXNzPSJtdC0xIj4KICAgICAgICAgICAgICA8SHVtYW5GcmllbmRseVRpbWUgOnZhbHVlPSJpbnN0YW5jZS5zdG9wcGVkQXQiIC8+CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgcHgtNCBweS0zIj4KICAgICAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5mcnBjSW5zdGFuY2VQYWdlLmNyZWF0ZWRBdCIpIH19CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAgY2xhc3M9Im10LTEiPgogICAgICAgICAgICAgIDxIdW1hbkZyaWVuZGx5VGltZSA6dmFsdWU9Imluc3RhbmNlLmNyZWF0ZWRBdCIgLz4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTMgdGV4dC1zbSBtZDpncmlkLWNvbHMtMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBweC00IHB5LTMiPgogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmZycGNJbnN0YW5jZVBhZ2UuY29uZmlnUGF0aCIpIH19CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAgY2xhc3M9Im10LTEgYnJlYWstYWxsIGZvbnQtbW9ubyB0ZXh0LXhzIj4KICAgICAgICAgICAgICB7eyBpbnN0YW5jZS5jb25maWdQYXRoIH19CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgcHgtNCBweS0zIj4KICAgICAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5mcnBjSW5zdGFuY2VQYWdlLndvcmtEaXIiKSB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxwIGNsYXNzPSJtdC0xIGJyZWFrLWFsbCBmb250LW1vbm8gdGV4dC14cyI+CiAgICAgICAgICAgICAge3sgaW5zdGFuY2Uud29ya0RpciB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPHAKICAgICAgICAgIHYtaWY9Imluc3RhbmNlLmxhc3RNZXNzYWdlIgogICAgICAgICAgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIGJnLW11dGVkLzIwIHB4LTQgcHktMyB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICA+CiAgICAgICAgICB7eyBpbnN0YW5jZS5sYXN0TWVzc2FnZSB9fQogICAgICAgIDwvcD4KICAgICAgPC9DYXJkQ29udGVudD4KICAgIDwvQ2FyZD4KCiAgICA8ZGl2IDpyZWY9InNldENvbmZpZ1NlY3Rpb25SZWYiPgogICAgICA8Q2FyZD4KICAgICAgICA8Q2FyZEhlYWRlcj4KICAgICAgICAgIDxDYXJkVGl0bGUgY2xhc3M9InRleHQtYmFzZSI+e3sKICAgICAgICAgICAgdCgiYWRtaW4uZnJwY0luc3RhbmNlUGFnZS5pbnN0YW5jZUNvbmZpZyIpCiAgICAgICAgICB9fTwvQ2FyZFRpdGxlPgogICAgICAgIDwvQ2FyZEhlYWRlcj4KICAgICAgICA8Q2FyZENvbnRlbnQgY2xhc3M9InNwYWNlLXktNCI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0yIHNtOmdyaWQtY29scy1bMTYwcHhfMWZyXSBzbTppdGVtcy1zdGFydCI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSBtdC0xLjUiPgogICAgICAgICAgICAgIDxMYWJlbCBmb3I9ImZycC1pbnN0YW5jZS1uYW1lIj57ewogICAgICAgICAgICAgICAgdCgiYWRtaW4uZnJwY0luc3RhbmNlUGFnZS5uYW1lIikKICAgICAgICAgICAgICB9fTwvTGFiZWw+CiAgICAgICAgICAgICAgPHAgY2xhc3M9ImhpZGRlbiB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTpibG9jayI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5mcnBjSW5zdGFuY2VQYWdlLm5hbWVIaW50IikgfX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICBpZD0iZnJwLWluc3RhbmNlLW5hbWUiCiAgICAgICAgICAgICAgdi1tb2RlbD0ibmFtZSIKICAgICAgICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLmZycGNJbnN0YW5jZVBhZ2UubmFtZVBsYWNlaG9sZGVyJykiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8RnJwY0luc3RhbmNlRWRpdG9yCiAgICAgICAgICAgIDpyZWY9InNldEVkaXRvclJlZiIKICAgICAgICAgICAgdi1tb2RlbD0iY29udGVudCIKICAgICAgICAgICAgOmRlZmF1bHRzPSJkZWZhdWx0cyIKICAgICAgICAgICAgOmlkLXByZWZpeD0iCiAgICAgICAgICAgICAgaXNDcmVhdGVNb2RlCiAgICAgICAgICAgICAgICA/ICdmcnAtaW5zdGFuY2UtY3JlYXRlJwogICAgICAgICAgICAgICAgOiBgZnJwLWluc3RhbmNlLSR7aW5zdGFuY2VJZH1gCiAgICAgICAgICAgICIKICAgICAgICAgIC8+CiAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgPC9DYXJkPgogICAgPC9kaXY+CgogICAgPGRpdiB2LWlmPSIhaXNDcmVhdGVNb2RlIj4KICAgICAgPENhcmQ+CiAgICAgICAgPENhcmRIZWFkZXI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgICA8Q2FyZFRpdGxlIGNsYXNzPSJ0ZXh0LWJhc2UiPnt7CiAgICAgICAgICAgICAgdCgiYWRtaW4uZnJwY0luc3RhbmNlUGFnZS5pbnN0YW5jZUxvZ3MiKQogICAgICAgICAgICB9fTwvQ2FyZFRpdGxlPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzQ2xlYXJpbmdMb2dzIHx8IGxvZ3MubGVuZ3RoID09PSAwIgogICAgICAgICAgICAgIEBjbGljaz0iY2xlYXJMb2dzIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFRyYXNoMiBjbGFzcz0ibXItMS41IGgtMy41IHctMy41IiAvPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmZycGNJbnN0YW5jZVBhZ2UuY2xlYXIiKSB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvQ2FyZEhlYWRlcj4KICAgICAgICA8Q2FyZENvbnRlbnQ+CiAgICAgICAgICA8TG9nVmlld2VyIDpsb2dzPSJsb2dzIiByZXZlcnNlZCA6c2hvdy1oZWFkZXI9ImZhbHNlIiAvPgogICAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICAgIDwvQ2FyZD4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { ArrowLeft, Play, Save, Square, Trash2 } from "lucide-vue-next";
+import LogViewer from "@admin-shared/components/LogViewer.vue";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import TunnelSupervisorStatus from "../../../components/TunnelSupervisorStatus.vue";
+import FrpcInstanceEditor from "./FrpcInstanceEditor.vue";
+import { useFrpcInstancePage } from "./useFrpcInstancePage";
+
+const { t } = useI18n();
+const {
+  backToList,
+  clearLogs,
+  content,
+  defaults,
+  formatSummary,
+  instance,
+  instanceId,
+  isClearingLogs,
+  isCreateMode,
+  isLoading,
+  isSaving,
+  isStarting,
+  isStopping,
+  logs,
+  name,
+  saveInstance,
+  setConfigSectionRef,
+  setEditorRef,
+  startInstance,
+  stopInstance,
+  summary,
+  title,
+} = useFrpcInstancePage();
+</script>
+
+<template>
+  <div class="space-y-6">
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/tunnel?tab=frp">{{
+            t("admin.frpcInstancePage.tunnel")
+          }}</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/tunnel?tab=frp">FRP</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbPage>{{
+            isCreateMode ? t("admin.frpcInstancePage.newInstance") : title
+          }}</BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+
+    <div
+      class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+    >
+      <div class="space-y-2">
+        <Button
+          variant="ghost"
+          size="sm"
+          class="w-fit px-2"
+          @click="backToList"
+        >
+          <ArrowLeft class="mr-1.5 h-4 w-4" />
+          {{ t("admin.frpcInstancePage.backToList") }}
+        </Button>
+        <div class="space-y-1">
+          <h2 class="text-xl font-semibold">{{ title }}</h2>
+          <p class="text-sm text-muted-foreground">
+            {{ formatSummary(summary) }}
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap items-center gap-2">
+        <Button
+          v-if="
+            !isCreateMode &&
+            instance &&
+            !instance.desiredRunning &&
+            !instance.running
+          "
+          variant="outline"
+          :disabled="isStarting"
+          @click="startInstance"
+        >
+          <Play class="mr-1.5 h-4 w-4" />
+          {{
+            isStarting
+              ? t("admin.frpcInstancePage.starting")
+              : t("admin.frpcInstancePage.start")
+          }}
+        </Button>
+        <Button
+          v-if="
+            !isCreateMode &&
+            instance &&
+            (instance.desiredRunning || instance.running)
+          "
+          variant="destructive"
+          :disabled="isStopping"
+          @click="stopInstance"
+        >
+          <Square class="mr-1.5 h-4 w-4" />
+          {{
+            isStopping
+              ? t("admin.frpcInstancePage.stopping")
+              : t("admin.frpcInstancePage.stop")
+          }}
+        </Button>
+        <Button :disabled="isSaving || isLoading" @click="saveInstance">
+          <Save class="mr-1.5 h-4 w-4" />
+          {{ isSaving ? t("admin.frpcInstancePage.saving") : t("common.save") }}
+        </Button>
+      </div>
+    </div>
+
+    <Card v-if="!isCreateMode && instance">
+      <CardHeader>
+        <CardTitle class="text-base">{{
+          t("admin.frpcInstancePage.runtimeInfo")
+        }}</CardTitle>
+      </CardHeader>
+      <CardContent class="space-y-4">
+        <div class="grid gap-3 text-sm sm:grid-cols-3">
+          <div class="rounded-lg border px-4 py-3">
+            <p class="text-xs text-muted-foreground">
+              {{ t("admin.frpcInstancePage.status") }}
+            </p>
+            <div class="mt-1 flex items-center gap-2">
+              <TunnelSupervisorStatus :supervisor="instance.supervisor" />
+            </div>
+          </div>
+          <div class="rounded-lg border px-4 py-3">
+            <p class="text-xs text-muted-foreground">PID</p>
+            <p class="mt-1 font-mono">{{ instance.pid ?? "-" }}</p>
+          </div>
+          <div class="rounded-lg border px-4 py-3">
+            <p class="text-xs text-muted-foreground">
+              {{ t("admin.frpcInstancePage.logAttachment") }}
+            </p>
+            <p class="mt-1">
+              {{
+                instance.attached
+                  ? t("admin.frpcInstancePage.currentProcess")
+                  : t("admin.frpcInstancePage.historyBuffer")
+              }}
+            </p>
+          </div>
+          <div class="rounded-lg border px-4 py-3">
+            <p class="text-xs text-muted-foreground">
+              {{ t("admin.frpcInstancePage.lastStarted") }}
+            </p>
+            <p class="mt-1">
+              <HumanFriendlyTime :value="instance.startedAt" />
+            </p>
+          </div>
+          <div class="rounded-lg border px-4 py-3">
+            <p class="text-xs text-muted-foreground">
+              {{ t("admin.frpcInstancePage.lastStopped") }}
+            </p>
+            <p class="mt-1">
+              <HumanFriendlyTime :value="instance.stoppedAt" />
+            </p>
+          </div>
+          <div class="rounded-lg border px-4 py-3">
+            <p class="text-xs text-muted-foreground">
+              {{ t("admin.frpcInstancePage.createdAt") }}
+            </p>
+            <p class="mt-1">
+              <HumanFriendlyTime :value="instance.createdAt" />
+            </p>
+          </div>
+        </div>
+
+        <div class="grid gap-3 text-sm md:grid-cols-2">
+          <div class="rounded-lg border px-4 py-3">
+            <p class="text-xs text-muted-foreground">
+              {{ t("admin.frpcInstancePage.configPath") }}
+            </p>
+            <p class="mt-1 break-all font-mono text-xs">
+              {{ instance.configPath }}
+            </p>
+          </div>
+          <div class="rounded-lg border px-4 py-3">
+            <p class="text-xs text-muted-foreground">
+              {{ t("admin.frpcInstancePage.workDir") }}
+            </p>
+            <p class="mt-1 break-all font-mono text-xs">
+              {{ instance.workDir }}
+            </p>
+          </div>
+        </div>
+
+        <p
+          v-if="instance.lastMessage"
+          class="rounded-lg border bg-muted/20 px-4 py-3 text-sm text-muted-foreground"
+        >
+          {{ instance.lastMessage }}
+        </p>
+      </CardContent>
+    </Card>
+
+    <div :ref="setConfigSectionRef">
+      <Card>
+        <CardHeader>
+          <CardTitle class="text-base">{{
+            t("admin.frpcInstancePage.instanceConfig")
+          }}</CardTitle>
+        </CardHeader>
+        <CardContent class="space-y-4">
+          <div class="grid gap-2 sm:grid-cols-[160px_1fr] sm:items-start">
+            <div class="space-y-1 mt-1.5">
+              <Label for="frp-instance-name">{{
+                t("admin.frpcInstancePage.name")
+              }}</Label>
+              <p class="hidden text-xs text-muted-foreground sm:block">
+                {{ t("admin.frpcInstancePage.nameHint") }}
+              </p>
+            </div>
+            <Input
+              id="frp-instance-name"
+              v-model="name"
+              :placeholder="t('admin.frpcInstancePage.namePlaceholder')"
+            />
+          </div>
+
+          <FrpcInstanceEditor
+            :ref="setEditorRef"
+            v-model="content"
+            :defaults="defaults"
+            :id-prefix="
+              isCreateMode
+                ? 'frp-instance-create'
+                : `frp-instance-${instanceId}`
+            "
+          />
+        </CardContent>
+      </Card>
+    </div>
+
+    <div v-if="!isCreateMode">
+      <Card>
+        <CardHeader>
+          <div class="flex items-center justify-between gap-3">
+            <CardTitle class="text-base">{{
+              t("admin.frpcInstancePage.instanceLogs")
+            }}</CardTitle>
+            <Button
+              variant="outline"
+              size="sm"
+              :disabled="isClearingLogs || logs.length === 0"
+              @click="clearLogs"
+            >
+              <Trash2 class="mr-1.5 h-3.5 w-3.5" />
+              {{ t("admin.frpcInstancePage.clear") }}
+            </Button>
+          </div>
+        </CardHeader>
+        <CardContent>
+          <LogViewer :logs="logs" reversed :show-header="false" />
+        </CardContent>
+      </Card>
+    </div>
+  </div>
+</template>

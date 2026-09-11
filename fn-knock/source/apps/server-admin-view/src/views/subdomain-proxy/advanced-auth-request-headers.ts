@@ -1,1 +1,52 @@
-ZXhwb3J0IGNvbnN0IGFkdmFuY2VkQXV0aFJlcXVlc3RIZWFkZXJHcm91cHMgPSBbCiAgewogICAgaWQ6ICJzdGFuZGFyZCIsCiAgICBsYWJlbEtleTogImFkbWluLmFkdmFuY2VkQXV0aC5oZWFkZXJHcm91cHMuc3RhbmRhcmQiLAogICAgaGVhZGVyczogWwogICAgICAiQWNjZXB0IiwKICAgICAgIkFjY2VwdC1DaGFyc2V0IiwKICAgICAgIkFjY2VwdC1FbmNvZGluZyIsCiAgICAgICJBY2NlcHQtTGFuZ3VhZ2UiLAogICAgICAiQ2FjaGUtQ29udHJvbCIsCiAgICAgICJDb250ZW50LUxlbmd0aCIsCiAgICAgICJDb250ZW50LVR5cGUiLAogICAgICAiSWYtTWF0Y2giLAogICAgICAiSWYtTW9kaWZpZWQtU2luY2UiLAogICAgICAiSWYtTm9uZS1NYXRjaCIsCiAgICAgICJJZi1Vbm1vZGlmaWVkLVNpbmNlIiwKICAgICAgIk9yaWdpbiIsCiAgICAgICJQcmFnbWEiLAogICAgICAiUmFuZ2UiLAogICAgICAiUmVmZXJlciIsCiAgICAgICJVc2VyLUFnZW50IiwKICAgIF0sCiAgfSwKICB7CiAgICBpZDogImZldGNoX21ldGFkYXRhIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uYWR2YW5jZWRBdXRoLmhlYWRlckdyb3Vwcy5mZXRjaE1ldGFkYXRhIiwKICAgIGhlYWRlcnM6IFsKICAgICAgIlNlYy1GZXRjaC1EZXN0IiwKICAgICAgIlNlYy1GZXRjaC1Nb2RlIiwKICAgICAgIlNlYy1GZXRjaC1TaXRlIiwKICAgICAgIlNlYy1GZXRjaC1Vc2VyIiwKICAgIF0sCiAgfSwKICB7CiAgICBpZDogImFwcGxpY2F0aW9uIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uYWR2YW5jZWRBdXRoLmhlYWRlckdyb3Vwcy5hcHBsaWNhdGlvbiIsCiAgICBoZWFkZXJzOiBbCiAgICAgICJYLUFwaS1LZXkiLAogICAgICAiWC1BdXRoLVRva2VuIiwKICAgICAgIlgtQ2xpZW50LUlkIiwKICAgICAgIlgtQ29ycmVsYXRpb24tSWQiLAogICAgICAiWC1EZXZpY2UtSWQiLAogICAgICAiWC1SZXF1ZXN0LUlkIiwKICAgICAgIlgtUmVxdWVzdGVkLVdpdGgiLAogICAgICAiWC1UZW5hbnQtSWQiLAogICAgICAiWC1Vc2VyLUlkIiwKICAgIF0sCiAgfSwKXSBhcyBjb25zdDsKCmV4cG9ydCBjb25zdCBhZHZhbmNlZEF1dGhSZXF1ZXN0SGVhZGVyTmFtZXMgPQogIGFkdmFuY2VkQXV0aFJlcXVlc3RIZWFkZXJHcm91cHMuZmxhdE1hcCgoZ3JvdXApID0+IGdyb3VwLmhlYWRlcnMpOwo=
+export const advancedAuthRequestHeaderGroups = [
+  {
+    id: "standard",
+    labelKey: "admin.advancedAuth.headerGroups.standard",
+    headers: [
+      "Accept",
+      "Accept-Charset",
+      "Accept-Encoding",
+      "Accept-Language",
+      "Cache-Control",
+      "Content-Length",
+      "Content-Type",
+      "If-Match",
+      "If-Modified-Since",
+      "If-None-Match",
+      "If-Unmodified-Since",
+      "Origin",
+      "Pragma",
+      "Range",
+      "Referer",
+      "User-Agent",
+    ],
+  },
+  {
+    id: "fetch_metadata",
+    labelKey: "admin.advancedAuth.headerGroups.fetchMetadata",
+    headers: [
+      "Sec-Fetch-Dest",
+      "Sec-Fetch-Mode",
+      "Sec-Fetch-Site",
+      "Sec-Fetch-User",
+    ],
+  },
+  {
+    id: "application",
+    labelKey: "admin.advancedAuth.headerGroups.application",
+    headers: [
+      "X-Api-Key",
+      "X-Auth-Token",
+      "X-Client-Id",
+      "X-Correlation-Id",
+      "X-Device-Id",
+      "X-Request-Id",
+      "X-Requested-With",
+      "X-Tenant-Id",
+      "X-User-Id",
+    ],
+  },
+] as const;
+
+export const advancedAuthRequestHeaderNames =
+  advancedAuthRequestHeaderGroups.flatMap((group) => group.headers);

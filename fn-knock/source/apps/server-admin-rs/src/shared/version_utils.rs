@@ -1,1 +1,45 @@
-cHViKGNyYXRlKSBmbiBjb21wYXJlX3ZlcnNpb24obGVmdDogJnN0ciwgcmlnaHQ6ICZzdHIpIC0+IGkzMiB7CiAgICBsZXQgbGVmdF9wYXJ0cyA9IHZlcnNpb25fcGFydHMobGVmdCk7CiAgICBsZXQgcmlnaHRfcGFydHMgPSB2ZXJzaW9uX3BhcnRzKHJpZ2h0KTsKICAgIGxldCBtYXhfbGVuID0gbGVmdF9wYXJ0cy5sZW4oKS5tYXgocmlnaHRfcGFydHMubGVuKCkpLm1heCgzKTsKICAgIGZvciBpbmRleCBpbiAwLi5tYXhfbGVuIHsKICAgICAgICBsZXQgbGVmdCA9ICpsZWZ0X3BhcnRzLmdldChpbmRleCkudW53cmFwX29yKCYwKTsKICAgICAgICBsZXQgcmlnaHQgPSAqcmlnaHRfcGFydHMuZ2V0KGluZGV4KS51bndyYXBfb3IoJjApOwogICAgICAgIGlmIGxlZnQgPiByaWdodCB7CiAgICAgICAgICAgIHJldHVybiAxOwogICAgICAgIH0KICAgICAgICBpZiBsZWZ0IDwgcmlnaHQgewogICAgICAgICAgICByZXR1cm4gLTE7CiAgICAgICAgfQogICAgfQogICAgMAp9CgpwdWIoY3JhdGUpIGZuIHZlcnNpb25fcGFydHModmFsdWU6ICZzdHIpIC0+IFZlYzxpNjQ+IHsKICAgIHZhbHVlCiAgICAgICAgLnRyaW0oKQogICAgICAgIC5zcGxpdCgnLicpCiAgICAgICAgLm1hcCh8cGFydHwgewogICAgICAgICAgICBsZXQgZGlnaXRzID0gcGFydAogICAgICAgICAgICAgICAgLmNoYXJzKCkKICAgICAgICAgICAgICAgIC5za2lwX3doaWxlKHxjaHwgIWNoLmlzX2FzY2lpX2RpZ2l0KCkpCiAgICAgICAgICAgICAgICAudGFrZV93aGlsZSh8Y2h8IGNoLmlzX2FzY2lpX2RpZ2l0KCkpCiAgICAgICAgICAgICAgICAuY29sbGVjdDo6PFN0cmluZz4oKTsKICAgICAgICAgICAgZGlnaXRzLnBhcnNlOjo8aTY0PigpLnVud3JhcF9vcigwKQogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3QoKQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKCiAgICAjW3Rlc3RdCiAgICBmbiBjb21wYXJlc19ub2RlX2NvbXBhdGlibGVfYXBwbGljYXRpb25fdmVyc2lvbnMoKSB7CiAgICAgICAgYXNzZXJ0X2VxIShjb21wYXJlX3ZlcnNpb24oIjEuOC43IiwgIjEuOC42IiksIDEpOwogICAgICAgIGFzc2VydF9lcSEoY29tcGFyZV92ZXJzaW9uKCIxLjguNiIsICIxLjguNiIpLCAwKTsKICAgICAgICBhc3NlcnRfZXEhKGNvbXBhcmVfdmVyc2lvbigiMS44LjYtYmV0YSIsICIxLjguNyIpLCAtMSk7CiAgICAgICAgYXNzZXJ0X2VxIShjb21wYXJlX3ZlcnNpb24oInYxLjguOCIsICIxLjguOCIpLCAwKTsKICAgICAgICBhc3NlcnRfZXEhKGNvbXBhcmVfdmVyc2lvbigiMS44IiwgIjEuOC4wIiksIDApOwogICAgfQp9Cg==
+pub(crate) fn compare_version(left: &str, right: &str) -> i32 {
+    let left_parts = version_parts(left);
+    let right_parts = version_parts(right);
+    let max_len = left_parts.len().max(right_parts.len()).max(3);
+    for index in 0..max_len {
+        let left = *left_parts.get(index).unwrap_or(&0);
+        let right = *right_parts.get(index).unwrap_or(&0);
+        if left > right {
+            return 1;
+        }
+        if left < right {
+            return -1;
+        }
+    }
+    0
+}
+
+pub(crate) fn version_parts(value: &str) -> Vec<i64> {
+    value
+        .trim()
+        .split('.')
+        .map(|part| {
+            let digits = part
+                .chars()
+                .skip_while(|ch| !ch.is_ascii_digit())
+                .take_while(|ch| ch.is_ascii_digit())
+                .collect::<String>();
+            digits.parse::<i64>().unwrap_or(0)
+        })
+        .collect()
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn compares_node_compatible_application_versions() {
+        assert_eq!(compare_version("1.8.7", "1.8.6"), 1);
+        assert_eq!(compare_version("1.8.6", "1.8.6"), 0);
+        assert_eq!(compare_version("1.8.6-beta", "1.8.7"), -1);
+        assert_eq!(compare_version("v1.8.8", "1.8.8"), 0);
+        assert_eq!(compare_version("1.8", "1.8.0"), 0);
+    }
+}

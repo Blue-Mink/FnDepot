@@ -1,1 +1,66 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCBTZWFyY2hJbnB1dCBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvU2VhcmNoSW5wdXQudnVlIjsKaW1wb3J0IHsKICBTZWxlY3QsCiAgU2VsZWN0Q29udGVudCwKICBTZWxlY3RJdGVtLAogIFNlbGVjdFRyaWdnZXIsCiAgU2VsZWN0VmFsdWUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NlbGVjdCI7CgpkZWZpbmVQcm9wczx7CiAgYXZhaWxhYmxlRGF0ZXM6IHN0cmluZ1tdOwogIGN1cnNvclBhZ2VMYWJlbDogc3RyaW5nOwogIGVudHJ5Q291bnQ6IG51bWJlcjsKICBzZWxlY3RlZERhdGU6IHN0cmluZzsKICB0cmFjZUZpbHRlcjogc3RyaW5nOwp9PigpOwpjb25zdCBzZWFyY2hRdWVyeSA9IGRlZmluZU1vZGVsPHN0cmluZz4oInNlYXJjaFF1ZXJ5IiwgeyByZXF1aXJlZDogdHJ1ZSB9KTsKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICBkYXRlQ2hhbmdlOiBbdmFsdWU6IHVua25vd25dOwogIHNlYXJjaDogW107Cn0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJib3JkZXItYiBweC00IHB5LTMiPgogICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtMiBtZDpmbGV4LXJvdyBtZDppdGVtcy1jZW50ZXIiPgogICAgICA8U2VhcmNoSW5wdXQKICAgICAgICB2LW1vZGVsPSJzZWFyY2hRdWVyeSIKICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLndhZkxvZ3Muc2VhcmNoUGxhY2Vob2xkZXInKSIKICAgICAgICBjbGFzcz0idy1mdWxsIG1kOnctWzMyMHB4XSBtZDptYXgtdy1bMzIwcHhdIgogICAgICAgIEBzZWFyY2g9ImVtaXQoJ3NlYXJjaCcpIgogICAgICAvPgoKICAgICAgPFNlbGVjdCA6bW9kZWwtdmFsdWU9InNlbGVjdGVkRGF0ZSIgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgnZGF0ZUNoYW5nZScsICRldmVudCkiPgogICAgICAgIDxkaXYgY2xhc3M9InctWzE0OHB4XSI+CiAgICAgICAgICA8U2VsZWN0VHJpZ2dlciA6YXJpYS1sYWJlbD0idCgnYWRtaW4ud2FmTG9ncy5kYXRlUGxhY2Vob2xkZXInKSI+CiAgICAgICAgICAgIDxTZWxlY3RWYWx1ZSA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLndhZkxvZ3MuZGF0ZVBsYWNlaG9sZGVyJykiIC8+CiAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICA8U2VsZWN0SXRlbSB2LWZvcj0iZGF0ZSBpbiBhdmFpbGFibGVEYXRlcyIgOmtleT0iZGF0ZSIgOnZhbHVlPSJkYXRlIj4KICAgICAgICAgICAge3sgZGF0ZSB9fQogICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgPC9TZWxlY3Q+CiAgICA8L2Rpdj4KCiAgICA8ZGl2CiAgICAgIGNsYXNzPSJtdC0yIGZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAteC0zIGdhcC15LTEgdGV4dC1bMTFweF0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgPgogICAgICA8c3Bhbj4KICAgICAgICB7eyBjdXJzb3JQYWdlTGFiZWwgfX0gwrcKICAgICAgICB7eyB0KCJhZG1pbi53YWZMb2dzLnJvd3NDb3VudCIsIHsgY291bnQ6IGVudHJ5Q291bnQgfSkgfX0KICAgICAgPC9zcGFuPgogICAgICA8c3BhbiB2LWlmPSJ0cmFjZUZpbHRlci50cmltKCkiIGNsYXNzPSJmb250LW1vbm8iPgogICAgICAgIHt7IHQoImFkbWluLndhZkxvZ3MudHJhY2VGaWx0ZXIiLCB7IHRyYWNlOiB0cmFjZUZpbHRlci50cmltKCkgfSkgfX0KICAgICAgPC9zcGFuPgogICAgICA8c3BhbiB2LWlmPSJzZWFyY2hRdWVyeS50cmltKCkiPgogICAgICAgIHt7IHQoImFkbWluLndhZkxvZ3Mua2V5d29yZEZpbHRlciIsIHsga2V5d29yZDogc2VhcmNoUXVlcnkudHJpbSgpIH0pIH19CiAgICAgIDwvc3Bhbj4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import SearchInput from "@admin-shared/components/SearchInput.vue";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+
+defineProps<{
+  availableDates: string[];
+  cursorPageLabel: string;
+  entryCount: number;
+  selectedDate: string;
+  traceFilter: string;
+}>();
+const searchQuery = defineModel<string>("searchQuery", { required: true });
+const emit = defineEmits<{
+  dateChange: [value: unknown];
+  search: [];
+}>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div class="border-b px-4 py-3">
+    <div class="flex flex-col gap-2 md:flex-row md:items-center">
+      <SearchInput
+        v-model="searchQuery"
+        :placeholder="t('admin.wafLogs.searchPlaceholder')"
+        class="w-full md:w-[320px] md:max-w-[320px]"
+        @search="emit('search')"
+      />
+
+      <Select :model-value="selectedDate" @update:model-value="emit('dateChange', $event)">
+        <div class="w-[148px]">
+          <SelectTrigger :aria-label="t('admin.wafLogs.datePlaceholder')">
+            <SelectValue :placeholder="t('admin.wafLogs.datePlaceholder')" />
+          </SelectTrigger>
+        </div>
+        <SelectContent>
+          <SelectItem v-for="date in availableDates" :key="date" :value="date">
+            {{ date }}
+          </SelectItem>
+        </SelectContent>
+      </Select>
+    </div>
+
+    <div
+      class="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-muted-foreground"
+    >
+      <span>
+        {{ cursorPageLabel }} ·
+        {{ t("admin.wafLogs.rowsCount", { count: entryCount }) }}
+      </span>
+      <span v-if="traceFilter.trim()" class="font-mono">
+        {{ t("admin.wafLogs.traceFilter", { trace: traceFilter.trim() }) }}
+      </span>
+      <span v-if="searchQuery.trim()">
+        {{ t("admin.wafLogs.keywordFilter", { keyword: searchQuery.trim() }) }}
+      </span>
+    </div>
+  </div>
+</template>

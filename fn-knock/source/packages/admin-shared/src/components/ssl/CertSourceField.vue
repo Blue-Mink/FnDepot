@@ -1,1 +1,324 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvbkJlZm9yZVVubW91bnQsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsKICBTaGVldCwKICBTaGVldENvbnRlbnQsCiAgU2hlZXREZXNjcmlwdGlvbiwKICBTaGVldEZvb3RlciwKICBTaGVldEhlYWRlciwKICBTaGVldFRpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9zaGVldCI7CmltcG9ydCB7IFRleHRhcmVhIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RleHRhcmVhIjsKaW1wb3J0IHsKICBDaGV2cm9uUmlnaHQsCiAgRm9sZGVyVHJlZSwKICBMYXB0b3AsCiAgU21hcnRwaG9uZSwKICBVcGxvYWQsCn0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgdXNlTWVkaWFRdWVyeU1hdGNoIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VNZWRpYVF1ZXJ5TWF0Y2giOwppbXBvcnQgRGF0YVNoYXJlRmlsZVBpY2tlciBmcm9tICIuLi9jb21tb24vRGF0YVNoYXJlRmlsZVBpY2tlci52dWUiOwoKdHlwZSBDZXJ0RmllbGRLZXkgPSAiY2VydCIgfCAic3NsS2V5IjsKCmludGVyZmFjZSBTaGFyZWREYXRhRmlsZUVudHJ5IHsKICBuYW1lOiBzdHJpbmc7CiAgcmVsYXRpdmVQYXRoOiBzdHJpbmc7CiAgZXh0ZW5zaW9uOiBzdHJpbmc7CiAgc2l6ZTogbnVtYmVyOwogIG1vZGlmaWVkQXQ6IHN0cmluZzsKfQoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoCiAgZGVmaW5lUHJvcHM8ewogICAgaWQ6IHN0cmluZzsKICAgIGxhYmVsOiBzdHJpbmc7CiAgICB2YWx1ZTogc3RyaW5nOwogICAgcGxhY2Vob2xkZXI6IHN0cmluZzsKICAgIGFjY2VwdDogc3RyaW5nOwogICAgZmllbGRLZXk6IENlcnRGaWVsZEtleTsKICAgIHN1cHBvcnRlZEZpbGVUeXBlczogc3RyaW5nW107CiAgICBzaGFyZU5hbWU/OiBzdHJpbmc7CiAgICBzaGFyZWRGaWxlcz86IFNoYXJlZERhdGFGaWxlRW50cnlbXTsKICAgIHNoYXJlZEZpbGVzQXZhaWxhYmxlPzogYm9vbGVhbjsKICAgIHNoYXJlZEZpbGVzTG9hZGluZz86IGJvb2xlYW47CiAgICBzaGFyZWRGaWxlc0Vycm9yPzogc3RyaW5nOwogICAgc2hhcmVkRmlsZVNlbGVjdGluZz86IGJvb2xlYW47CiAgfT4oKSwKICB7CiAgICBzaGFyZU5hbWU6ICJmbi1rbm9jayIsCiAgICBzaGFyZWRGaWxlczogKCkgPT4gW10sCiAgICBzaGFyZWRGaWxlc0F2YWlsYWJsZTogZmFsc2UsCiAgICBzaGFyZWRGaWxlc0xvYWRpbmc6IGZhbHNlLAogICAgc2hhcmVkRmlsZXNFcnJvcjogIiIsCiAgICBzaGFyZWRGaWxlU2VsZWN0aW5nOiBmYWxzZSwKICB9LAopOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICAidXBkYXRlOnZhbHVlIjogW3ZhbHVlOiBzdHJpbmddOwogICJyZXF1ZXN0LXNoYXJlZC1maWxlcyI6IFtwYXlsb2FkOiB7IGZpZWxkOiBDZXJ0RmllbGRLZXk7IGZvcmNlPzogYm9vbGVhbiB9XTsKICAic2VsZWN0LXNoYXJlZC1maWxlIjogWwogICAgcGF5bG9hZDogeyBmaWVsZDogQ2VydEZpZWxkS2V5OyByZWxhdGl2ZVBhdGg6IHN0cmluZyB9LAogIF07Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgbG9jYWxGaWxlSW5wdXQgPSByZWY8SFRNTElucHV0RWxlbWVudCB8IG51bGw+KG51bGwpOwpjb25zdCBzb3VyY2VDaG9vc2VyT3BlbiA9IHJlZihmYWxzZSk7CmNvbnN0IHBpY2tlck9wZW4gPSByZWYoZmFsc2UpOwpjb25zdCBpc01vYmlsZVZpZXdwb3J0ID0gdXNlTWVkaWFRdWVyeU1hdGNoKCIobWF4LXdpZHRoOiA3NjhweCkiKTsKbGV0IG92ZXJsYXlUaW1lcjogUmV0dXJuVHlwZTx0eXBlb2Ygd2luZG93LnNldFRpbWVvdXQ+IHwgbnVsbCA9IG51bGw7Cgpjb25zdCB1cGxvYWRMYWJlbCA9IGNvbXB1dGVkKCgpID0+CiAgaXNNb2JpbGVWaWV3cG9ydC52YWx1ZQogICAgPyB0KCJzaGFyZWQuY2VydFNvdXJjZUZpZWxkLnVwbG9hZEZyb21QaG9uZSIpCiAgICA6IHQoInNoYXJlZC5jZXJ0U291cmNlRmllbGQudXBsb2FkRnJvbUNvbXB1dGVyIiksCik7CmNvbnN0IHN1cHBvcnRlZFR5cGVzTGFiZWwgPSBjb21wdXRlZCgoKSA9PgogIHByb3BzLnN1cHBvcnRlZEZpbGVUeXBlcy5qb2luKCIgLyAiKSwKKTsKCm9uQmVmb3JlVW5tb3VudCgoKSA9PiB7CiAgaWYgKG92ZXJsYXlUaW1lcikgewogICAgd2luZG93LmNsZWFyVGltZW91dChvdmVybGF5VGltZXIpOwogIH0KfSk7CgpmdW5jdGlvbiBzY2hlZHVsZU92ZXJsYXlBY3Rpb24oYWN0aW9uOiAoKSA9PiB2b2lkKSB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSB7CiAgICBhY3Rpb24oKTsKICAgIHJldHVybjsKICB9CgogIGlmIChvdmVybGF5VGltZXIpIHsKICAgIHdpbmRvdy5jbGVhclRpbWVvdXQob3ZlcmxheVRpbWVyKTsKICB9CgogIG92ZXJsYXlUaW1lciA9IHdpbmRvdy5zZXRUaW1lb3V0KCgpID0+IHsKICAgIG92ZXJsYXlUaW1lciA9IG51bGw7CiAgICBhY3Rpb24oKTsKICB9LCAxNDApOwp9CgpmdW5jdGlvbiBvcGVuTG9jYWxGaWxlRGlhbG9nKCkgewogIGxvY2FsRmlsZUlucHV0LnZhbHVlPy5jbGljaygpOwp9CgpmdW5jdGlvbiBvcGVuU291cmNlQ2hvb3NlcigpIHsKICBzb3VyY2VDaG9vc2VyT3Blbi52YWx1ZSA9IHRydWU7Cn0KCmZ1bmN0aW9uIGNob29zZUxvY2FsVXBsb2FkKCkgewogIHNvdXJjZUNob29zZXJPcGVuLnZhbHVlID0gZmFsc2U7CiAgc2NoZWR1bGVPdmVybGF5QWN0aW9uKCgpID0+IHsKICAgIG9wZW5Mb2NhbEZpbGVEaWFsb2coKTsKICB9KTsKfQoKZnVuY3Rpb24gY2hvb3NlU2hhcmVkRmlsZSgpIHsKICBzb3VyY2VDaG9vc2VyT3Blbi52YWx1ZSA9IGZhbHNlOwogIHNjaGVkdWxlT3ZlcmxheUFjdGlvbigoKSA9PiB7CiAgICBwaWNrZXJPcGVuLnZhbHVlID0gdHJ1ZTsKICAgIGVtaXQoInJlcXVlc3Qtc2hhcmVkLWZpbGVzIiwgeyBmaWVsZDogcHJvcHMuZmllbGRLZXkgfSk7CiAgfSk7Cn0KCmZ1bmN0aW9uIHJlZnJlc2hTaGFyZWRGaWxlcygpIHsKICBlbWl0KCJyZXF1ZXN0LXNoYXJlZC1maWxlcyIsIHsgZmllbGQ6IHByb3BzLmZpZWxkS2V5LCBmb3JjZTogdHJ1ZSB9KTsKfQoKZnVuY3Rpb24gaGFuZGxlTG9jYWxGaWxlVXBsb2FkKGV2ZW50OiBFdmVudCkgewogIGNvbnN0IHRhcmdldCA9IGV2ZW50LnRhcmdldCBhcyBIVE1MSW5wdXRFbGVtZW50OwogIGNvbnN0IGZpbGUgPSB0YXJnZXQuZmlsZXM/LlswXTsKICBpZiAoIWZpbGUpIHsKICAgIHJldHVybjsKICB9CgogIGNvbnN0IHJlYWRlciA9IG5ldyBGaWxlUmVhZGVyKCk7CiAgcmVhZGVyLm9ubG9hZCA9IChsb2FkRXZlbnQpID0+IHsKICAgIGNvbnN0IHJlc3VsdCA9IGxvYWRFdmVudC50YXJnZXQ/LnJlc3VsdDsKICAgIGlmICh0eXBlb2YgcmVzdWx0ID09PSAic3RyaW5nIikgewogICAgICBlbWl0KCJ1cGRhdGU6dmFsdWUiLCByZXN1bHQpOwogICAgfQogIH07CiAgcmVhZGVyLnJlYWRBc1RleHQoZmlsZSk7CiAgdGFyZ2V0LnZhbHVlID0gIiI7Cn0KCmZ1bmN0aW9uIGhhbmRsZVNoYXJlZEZpbGVTZWxlY3QoZmlsZTogU2hhcmVkRGF0YUZpbGVFbnRyeSkgewogIHBpY2tlck9wZW4udmFsdWUgPSBmYWxzZTsKICBlbWl0KCJzZWxlY3Qtc2hhcmVkLWZpbGUiLCB7CiAgICBmaWVsZDogcHJvcHMuZmllbGRLZXksCiAgICByZWxhdGl2ZVBhdGg6IGZpbGUucmVsYXRpdmVQYXRoLAogIH0pOwp9CgpmdW5jdGlvbiBzZXRTb3VyY2VDaG9vc2VyT3Blbih2YWx1ZTogYm9vbGVhbikgewogIHNvdXJjZUNob29zZXJPcGVuLnZhbHVlID0gdmFsdWU7Cn0KPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgY2xhc3M9Im1pbi13LTAgcm91bmRlZC1bMTBweF0gYm9yZGVyIGJvcmRlci1ib3JkZXIvNjAgYmctYmFja2dyb3VuZC84MCBweC00IHB5LTQgc206cHgtNSBzbTpweS01IgogID4KICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBncmlkIGdhcC0xIj4KICAgICAgICA8TGFiZWwgOmZvcj0iaWQiIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj57eyBsYWJlbCB9fTwvTGFiZWw+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CgogICAgPGlucHV0CiAgICAgIHJlZj0ibG9jYWxGaWxlSW5wdXQiCiAgICAgIHR5cGU9ImZpbGUiCiAgICAgIDphY2NlcHQ9ImFjY2VwdCIKICAgICAgY2xhc3M9ImhpZGRlbiIKICAgICAgQGNoYW5nZT0iaGFuZGxlTG9jYWxGaWxlVXBsb2FkIgogICAgLz4KCiAgICA8ZGl2IGNsYXNzPSJtdC00IGZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgIDxCdXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICBjbGFzcz0iaC0xMCByb3VuZGVkLWZ1bGwgYm9yZGVyLWJvcmRlci83MCBiZy1iYWNrZ3JvdW5kLzgwIHB4LTQgdGV4dC1zbSBzaGFkb3ctbm9uZSIKICAgICAgICA6ZGlzYWJsZWQ9InNoYXJlZEZpbGVTZWxlY3RpbmciCiAgICAgICAgQGNsaWNrPSJvcGVuU291cmNlQ2hvb3NlciIKICAgICAgPgogICAgICAgIDxVcGxvYWQgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICB7eyB0KCJzaGFyZWQuY2VydFNvdXJjZUZpZWxkLnVwbG9hZEZpbGUiKSB9fQogICAgICA8L0J1dHRvbj4KICAgIDwvZGl2PgoKICAgIDxUZXh0YXJlYQogICAgICA6aWQ9ImlkIgogICAgICA6bW9kZWwtdmFsdWU9InZhbHVlIgogICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSIobmV4dCkgPT4gZW1pdCgndXBkYXRlOnZhbHVlJywgU3RyaW5nKG5leHQpKSIKICAgICAgOnBsYWNlaG9sZGVyPSJwbGFjZWhvbGRlciIKICAgICAgd3JhcD0ic29mdCIKICAgICAgc3R5bGU9ImZpZWxkLXNpemluZzogZml4ZWQiCiAgICAgIGNsYXNzPSJtdC00IG1pbi1oLTMyIHctZnVsbCBtaW4tdy0wIG1heC13LWZ1bGwgcmVzaXplLXkgcm91bmRlZC1bMTBweF0gYm9yZGVyLWJvcmRlci82MCBiZy1tdXRlZC8xNSBweC00IHB5LTMgZm9udC1tb25vIHRleHQtc20gc2hhZG93LW5vbmUiCiAgICAvPgoKICAgIDxjb21wb25lbnQKICAgICAgOmlzPSJpc01vYmlsZVZpZXdwb3J0ID8gU2hlZXQgOiBEaWFsb2ciCiAgICAgIDpvcGVuPSJzb3VyY2VDaG9vc2VyT3BlbiIKICAgICAgQHVwZGF0ZTpvcGVuPSJzZXRTb3VyY2VDaG9vc2VyT3BlbiIKICAgID4KICAgICAgPGNvbXBvbmVudAogICAgICAgIDppcz0iaXNNb2JpbGVWaWV3cG9ydCA/IFNoZWV0Q29udGVudCA6IERpYWxvZ0NvbnRlbnQiCiAgICAgICAgdi1iaW5kPSJpc01vYmlsZVZpZXdwb3J0ID8geyBzaWRlOiAnYm90dG9tJyB9IDoge30iCiAgICAgICAgOmNsYXNzPSIKICAgICAgICAgIGlzTW9iaWxlVmlld3BvcnQKICAgICAgICAgICAgPyAnZmxleCBmbGV4LWNvbCBnYXAtMCByb3VuZGVkLXQtWzEwcHhdIGJvcmRlci14LTAgYm9yZGVyLWItMCBiZy1iYWNrZ3JvdW5kLzk4IHB4LTAgcGItMCcKICAgICAgICAgICAgOiAnYm9yZGVyLWJvcmRlci82MCBiZy1iYWNrZ3JvdW5kLzk4IHNtOm1heC13LVs0MjBweF0nCiAgICAgICAgIgogICAgICA+CiAgICAgICAgPGNvbXBvbmVudAogICAgICAgICAgOmlzPSJpc01vYmlsZVZpZXdwb3J0ID8gU2hlZXRIZWFkZXIgOiBEaWFsb2dIZWFkZXIiCiAgICAgICAgICBjbGFzcz0icHgtNiBwYi0wIHB0LTYiCiAgICAgICAgPgogICAgICAgICAgPGNvbXBvbmVudCA6aXM9ImlzTW9iaWxlVmlld3BvcnQgPyBTaGVldFRpdGxlIDogRGlhbG9nVGl0bGUiPgogICAgICAgICAgICB7eyB0KCJzaGFyZWQuY2VydFNvdXJjZUZpZWxkLmNob29zZVNvdXJjZVRpdGxlIikgfX0KICAgICAgICAgIDwvY29tcG9uZW50PgogICAgICAgICAgPGNvbXBvbmVudAogICAgICAgICAgICA6aXM9ImlzTW9iaWxlVmlld3BvcnQgPyBTaGVldERlc2NyaXB0aW9uIDogRGlhbG9nRGVzY3JpcHRpb24iCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoInNoYXJlZC5jZXJ0U291cmNlRmllbGQuY2hvb3NlU291cmNlRGVzY3JpcHRpb24iLCB7IGxhYmVsIH0pIH19CiAgICAgICAgICA8L2NvbXBvbmVudD4KICAgICAgICA8L2NvbXBvbmVudD4KCiAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMyBweC02IHB5LTUiPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIGNsYXNzPSJmbGV4IHctZnVsbCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHJvdW5kZWQtWzEwcHhdIGJvcmRlciBib3JkZXItYm9yZGVyLzYwIGJnLWJhY2tncm91bmQgcHgtNCBweS00IHRleHQtbGVmdCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy1tdXRlZC8xNSIKICAgICAgICAgICAgQGNsaWNrPSJjaG9vc2VMb2NhbFVwbG9hZCIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBtaW4tdy0wIGl0ZW1zLXN0YXJ0IGdhcC0zIj4KICAgICAgICAgICAgICA8Y29tcG9uZW50CiAgICAgICAgICAgICAgICA6aXM9ImlzTW9iaWxlVmlld3BvcnQgPyBTbWFydHBob25lIDogTGFwdG9wIgogICAgICAgICAgICAgICAgY2xhc3M9Im10LTAuNSBoLTQgdy00IHNocmluay0wIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTEiPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPnt7IHVwbG9hZExhYmVsIH19PC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InRleHQteHMgbGVhZGluZy01IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgICAgdCgic2hhcmVkLmNlcnRTb3VyY2VGaWVsZC5sb2NhbEZpbGVEZXNjcmlwdGlvbiIsIHsKICAgICAgICAgICAgICAgICAgICAgIHR5cGVzOiBzdXBwb3J0ZWRUeXBlc0xhYmVsLAogICAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8Q2hldnJvblJpZ2h0IGNsYXNzPSJoLTQgdy00IHNocmluay0wIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICAgICAgICAgIDwvYnV0dG9uPgoKICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICBjbGFzcz0iZmxleCB3LWZ1bGwgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiByb3VuZGVkLVsxMHB4XSBib3JkZXIgYm9yZGVyLWJvcmRlci82MCBiZy1iYWNrZ3JvdW5kIHB4LTQgcHktNCB0ZXh0LWxlZnQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvMTUiCiAgICAgICAgICAgIEBjbGljaz0iY2hvb3NlU2hhcmVkRmlsZSIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBtaW4tdy0wIGl0ZW1zLXN0YXJ0IGdhcC0zIj4KICAgICAgICAgICAgICA8Rm9sZGVyVHJlZQogICAgICAgICAgICAgICAgY2xhc3M9Im10LTAuNSBoLTQgdy00IHNocmluay0wIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTEiPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgICB7eyB0KCJzaGFyZWQuY2VydFNvdXJjZUZpZWxkLmNob29zZUZyb21Gbm9zIikgfX0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICAgIHQoInNoYXJlZC5jZXJ0U291cmNlRmllbGQuc2hhcmVkRmlsZURlc2NyaXB0aW9uIiwgewogICAgICAgICAgICAgICAgICAgICAgc2hhcmVOYW1lLAogICAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8Q2hldnJvblJpZ2h0IGNsYXNzPSJoLTQgdy00IHNocmluay0wIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8Y29tcG9uZW50CiAgICAgICAgICA6aXM9ImlzTW9iaWxlVmlld3BvcnQgPyBTaGVldEZvb3RlciA6IERpYWxvZ0Zvb3RlciIKICAgICAgICAgIGNsYXNzPSJib3JkZXItdCBib3JkZXItYm9yZGVyLzUwIGJnLWJhY2tncm91bmQvOTUgcHgtNiBweS00IgogICAgICAgID4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICBAY2xpY2s9InNvdXJjZUNob29zZXJPcGVuID0gZmFsc2UiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImNvbW1vbi5jYW5jZWwiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC9jb21wb25lbnQ+CiAgICAgIDwvY29tcG9uZW50PgogICAgPC9jb21wb25lbnQ+CgogICAgPERhdGFTaGFyZUZpbGVQaWNrZXIKICAgICAgdi1tb2RlbDpvcGVuPSJwaWNrZXJPcGVuIgogICAgICA6dGl0bGU9InQoJ3NoYXJlZC5jZXJ0U291cmNlRmllbGQucGlja2VyVGl0bGUnLCB7IGxhYmVsIH0pIgogICAgICA6ZGVzY3JpcHRpb249InQoJ3NoYXJlZC5jZXJ0U291cmNlRmllbGQucGlja2VyRGVzY3JpcHRpb24nKSIKICAgICAgOnNoYXJlLW5hbWU9InNoYXJlTmFtZSIKICAgICAgOmZpbGVzPSJzaGFyZWRGaWxlcyIKICAgICAgOnN1cHBvcnRlZC1maWxlLXR5cGVzPSJzdXBwb3J0ZWRGaWxlVHlwZXMiCiAgICAgIDphdmFpbGFibGU9InNoYXJlZEZpbGVzQXZhaWxhYmxlIgogICAgICA6bG9hZGluZz0ic2hhcmVkRmlsZXNMb2FkaW5nIgogICAgICA6c2VsZWN0aW5nPSJzaGFyZWRGaWxlU2VsZWN0aW5nIgogICAgICA6ZXJyb3ItbWVzc2FnZT0ic2hhcmVkRmlsZXNFcnJvciIKICAgICAgOmNvbmZpcm0tdGV4dD0idCgnc2hhcmVkLmNlcnRTb3VyY2VGaWVsZC5yZWFkRmlsZScpIgogICAgICBAcmVmcmVzaD0icmVmcmVzaFNoYXJlZEZpbGVzIgogICAgICBAc2VsZWN0PSJoYW5kbGVTaGFyZWRGaWxlU2VsZWN0IgogICAgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed, onBeforeUnmount, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Label } from "@/components/ui/label";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetFooter,
+  SheetHeader,
+  SheetTitle,
+} from "@/components/ui/sheet";
+import { Textarea } from "@/components/ui/textarea";
+import {
+  ChevronRight,
+  FolderTree,
+  Laptop,
+  Smartphone,
+  Upload,
+} from "lucide-vue-next";
+import { useMediaQueryMatch } from "@admin-shared/composables/useMediaQueryMatch";
+import DataShareFilePicker from "../common/DataShareFilePicker.vue";
+
+type CertFieldKey = "cert" | "sslKey";
+
+interface SharedDataFileEntry {
+  name: string;
+  relativePath: string;
+  extension: string;
+  size: number;
+  modifiedAt: string;
+}
+
+const props = withDefaults(
+  defineProps<{
+    id: string;
+    label: string;
+    value: string;
+    placeholder: string;
+    accept: string;
+    fieldKey: CertFieldKey;
+    supportedFileTypes: string[];
+    shareName?: string;
+    sharedFiles?: SharedDataFileEntry[];
+    sharedFilesAvailable?: boolean;
+    sharedFilesLoading?: boolean;
+    sharedFilesError?: string;
+    sharedFileSelecting?: boolean;
+  }>(),
+  {
+    shareName: "fn-knock",
+    sharedFiles: () => [],
+    sharedFilesAvailable: false,
+    sharedFilesLoading: false,
+    sharedFilesError: "",
+    sharedFileSelecting: false,
+  },
+);
+
+const emit = defineEmits<{
+  "update:value": [value: string];
+  "request-shared-files": [payload: { field: CertFieldKey; force?: boolean }];
+  "select-shared-file": [
+    payload: { field: CertFieldKey; relativePath: string },
+  ];
+}>();
+
+const { t } = useI18n();
+const localFileInput = ref<HTMLInputElement | null>(null);
+const sourceChooserOpen = ref(false);
+const pickerOpen = ref(false);
+const isMobileViewport = useMediaQueryMatch("(max-width: 768px)");
+let overlayTimer: ReturnType<typeof window.setTimeout> | null = null;
+
+const uploadLabel = computed(() =>
+  isMobileViewport.value
+    ? t("shared.certSourceField.uploadFromPhone")
+    : t("shared.certSourceField.uploadFromComputer"),
+);
+const supportedTypesLabel = computed(() =>
+  props.supportedFileTypes.join(" / "),
+);
+
+onBeforeUnmount(() => {
+  if (overlayTimer) {
+    window.clearTimeout(overlayTimer);
+  }
+});
+
+function scheduleOverlayAction(action: () => void) {
+  if (typeof window === "undefined") {
+    action();
+    return;
+  }
+
+  if (overlayTimer) {
+    window.clearTimeout(overlayTimer);
+  }
+
+  overlayTimer = window.setTimeout(() => {
+    overlayTimer = null;
+    action();
+  }, 140);
+}
+
+function openLocalFileDialog() {
+  localFileInput.value?.click();
+}
+
+function openSourceChooser() {
+  sourceChooserOpen.value = true;
+}
+
+function chooseLocalUpload() {
+  sourceChooserOpen.value = false;
+  scheduleOverlayAction(() => {
+    openLocalFileDialog();
+  });
+}
+
+function chooseSharedFile() {
+  sourceChooserOpen.value = false;
+  scheduleOverlayAction(() => {
+    pickerOpen.value = true;
+    emit("request-shared-files", { field: props.fieldKey });
+  });
+}
+
+function refreshSharedFiles() {
+  emit("request-shared-files", { field: props.fieldKey, force: true });
+}
+
+function handleLocalFileUpload(event: Event) {
+  const target = event.target as HTMLInputElement;
+  const file = target.files?.[0];
+  if (!file) {
+    return;
+  }
+
+  const reader = new FileReader();
+  reader.onload = (loadEvent) => {
+    const result = loadEvent.target?.result;
+    if (typeof result === "string") {
+      emit("update:value", result);
+    }
+  };
+  reader.readAsText(file);
+  target.value = "";
+}
+
+function handleSharedFileSelect(file: SharedDataFileEntry) {
+  pickerOpen.value = false;
+  emit("select-shared-file", {
+    field: props.fieldKey,
+    relativePath: file.relativePath,
+  });
+}
+
+function setSourceChooserOpen(value: boolean) {
+  sourceChooserOpen.value = value;
+}
+</script>
+
+<template>
+  <div
+    class="min-w-0 rounded-[10px] border border-border/60 bg-background/80 px-4 py-4 sm:px-5 sm:py-5"
+  >
+    <div class="flex items-start justify-between gap-3">
+      <div class="min-w-0 grid gap-1">
+        <Label :for="id" class="text-sm font-medium">{{ label }}</Label>
+      </div>
+    </div>
+
+    <input
+      ref="localFileInput"
+      type="file"
+      :accept="accept"
+      class="hidden"
+      @change="handleLocalFileUpload"
+    />
+
+    <div class="mt-4 flex flex-wrap items-center gap-3">
+      <Button
+        type="button"
+        variant="outline"
+        class="h-10 rounded-full border-border/70 bg-background/80 px-4 text-sm shadow-none"
+        :disabled="sharedFileSelecting"
+        @click="openSourceChooser"
+      >
+        <Upload class="mr-2 h-4 w-4" />
+        {{ t("shared.certSourceField.uploadFile") }}
+      </Button>
+    </div>
+
+    <Textarea
+      :id="id"
+      :model-value="value"
+      @update:model-value="(next) => emit('update:value', String(next))"
+      :placeholder="placeholder"
+      wrap="soft"
+      style="field-sizing: fixed"
+      class="mt-4 min-h-32 w-full min-w-0 max-w-full resize-y rounded-[10px] border-border/60 bg-muted/15 px-4 py-3 font-mono text-sm shadow-none"
+    />
+
+    <component
+      :is="isMobileViewport ? Sheet : Dialog"
+      :open="sourceChooserOpen"
+      @update:open="setSourceChooserOpen"
+    >
+      <component
+        :is="isMobileViewport ? SheetContent : DialogContent"
+        v-bind="isMobileViewport ? { side: 'bottom' } : {}"
+        :class="
+          isMobileViewport
+            ? 'flex flex-col gap-0 rounded-t-[10px] border-x-0 border-b-0 bg-background/98 px-0 pb-0'
+            : 'border-border/60 bg-background/98 sm:max-w-[420px]'
+        "
+      >
+        <component
+          :is="isMobileViewport ? SheetHeader : DialogHeader"
+          class="px-6 pb-0 pt-6"
+        >
+          <component :is="isMobileViewport ? SheetTitle : DialogTitle">
+            {{ t("shared.certSourceField.chooseSourceTitle") }}
+          </component>
+          <component
+            :is="isMobileViewport ? SheetDescription : DialogDescription"
+          >
+            {{ t("shared.certSourceField.chooseSourceDescription", { label }) }}
+          </component>
+        </component>
+
+        <div class="grid gap-3 px-6 py-5">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between rounded-[10px] border border-border/60 bg-background px-4 py-4 text-left transition-colors hover:bg-muted/15"
+            @click="chooseLocalUpload"
+          >
+            <div class="flex min-w-0 items-start gap-3">
+              <component
+                :is="isMobileViewport ? Smartphone : Laptop"
+                class="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground"
+              />
+              <div class="grid gap-1">
+                <span class="text-sm font-medium">{{ uploadLabel }}</span>
+                <span class="text-xs leading-5 text-muted-foreground">
+                  {{
+                    t("shared.certSourceField.localFileDescription", {
+                      types: supportedTypesLabel,
+                    })
+                  }}
+                </span>
+              </div>
+            </div>
+            <ChevronRight class="h-4 w-4 shrink-0 text-muted-foreground" />
+          </button>
+
+          <button
+            type="button"
+            class="flex w-full items-center justify-between rounded-[10px] border border-border/60 bg-background px-4 py-4 text-left transition-colors hover:bg-muted/15"
+            @click="chooseSharedFile"
+          >
+            <div class="flex min-w-0 items-start gap-3">
+              <FolderTree
+                class="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground"
+              />
+              <div class="grid gap-1">
+                <span class="text-sm font-medium">
+                  {{ t("shared.certSourceField.chooseFromFnos") }}
+                </span>
+                <span class="text-xs leading-5 text-muted-foreground">
+                  {{
+                    t("shared.certSourceField.sharedFileDescription", {
+                      shareName,
+                    })
+                  }}
+                </span>
+              </div>
+            </div>
+            <ChevronRight class="h-4 w-4 shrink-0 text-muted-foreground" />
+          </button>
+        </div>
+
+        <component
+          :is="isMobileViewport ? SheetFooter : DialogFooter"
+          class="border-t border-border/50 bg-background/95 px-6 py-4"
+        >
+          <Button
+            type="button"
+            variant="outline"
+            @click="sourceChooserOpen = false"
+          >
+            {{ t("common.cancel") }}
+          </Button>
+        </component>
+      </component>
+    </component>
+
+    <DataShareFilePicker
+      v-model:open="pickerOpen"
+      :title="t('shared.certSourceField.pickerTitle', { label })"
+      :description="t('shared.certSourceField.pickerDescription')"
+      :share-name="shareName"
+      :files="sharedFiles"
+      :supported-file-types="supportedFileTypes"
+      :available="sharedFilesAvailable"
+      :loading="sharedFilesLoading"
+      :selecting="sharedFileSelecting"
+      :error-message="sharedFilesError"
+      :confirm-text="t('shared.certSourceField.readFile')"
+      @refresh="refreshSharedFiles"
+      @select="handleSharedFileSelect"
+    />
+  </div>
+</template>

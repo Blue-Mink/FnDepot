@@ -1,1 +1,209 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEdsb2JlMiwgR3JpcFZlcnRpY2FsIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IEhvc3RUcmFmZmljQWN0aXZpdHkgZnJvbSAiQC9jb21wb25lbnRzL0hvc3RUcmFmZmljQWN0aXZpdHkudnVlIjsKaW1wb3J0IHsgQ2hlY2tib3ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2hlY2tib3giOwppbXBvcnQgdHlwZSB7IEhvc3RNYXBwaW5nIH0gZnJvbSAiQC90eXBlcyI7CmltcG9ydCB7IGdldE1hcHBpbmdGYXZpY29uU3JjIH0gZnJvbSAiLi9tb2RlbCI7CmltcG9ydCBTdWJkb21haW5NYXBwaW5nUm93QWN0aW9ucyBmcm9tICIuL1N1YmRvbWFpbk1hcHBpbmdSb3dBY3Rpb25zLnZ1ZSI7CmltcG9ydCBTdWJkb21haW5NYXBwaW5nU3RhdHVzSW5kaWNhdG9ycyBmcm9tICIuL1N1YmRvbWFpbk1hcHBpbmdTdGF0dXNJbmRpY2F0b3JzLnZ1ZSI7CmltcG9ydCBTdWJkb21haW5NYXBwaW5nVGFyZ2V0Q2VsbCBmcm9tICIuL1N1YmRvbWFpbk1hcHBpbmdUYXJnZXRDZWxsLnZ1ZSI7CmltcG9ydCBTdWJkb21haW5NYXBwaW5nVGl0bGVDZWxsIGZyb20gIi4vU3ViZG9tYWluTWFwcGluZ1RpdGxlQ2VsbC52dWUiOwppbXBvcnQgdHlwZSB7CiAgU3ViZG9tYWluTWFwcGluZ3NDYXJkUHJvcHMsCiAgU3ViZG9tYWluTWFwcGluZ3NUYWJsZUFjdGlvbnMsCn0gZnJvbSAiLi9zdWJkb21haW4tbWFwcGluZ3MtY2FyZC1jb250cmFjdCI7CgpkZWZpbmVQcm9wczx7CiAgYWN0aW9uczogU3ViZG9tYWluTWFwcGluZ3NUYWJsZUFjdGlvbnM7CiAgZGVlcE1vbml0b3JBY3RpdmU6IGJvb2xlYW47CiAgZHJhZ0Rpc2FibGVkOiBib29sZWFuOwogIG1hcHBpbmc6IEhvc3RNYXBwaW5nOwogIG1vZGVsOiBTdWJkb21haW5NYXBwaW5nc0NhcmRQcm9wczsKICBzZWxlY3RlZDogYm9vbGVhbjsKICBzZWxlY3RhYmxlOiBib29sZWFuOwogIHNlbGVjdGlvbkNoZWNrYm94Q2xhc3M6IHN0cmluZzsKICBzZWxlY3Rpb25Nb2RlOiBib29sZWFuOwp9PigpOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsgc2VsZWN0OiBbc2VsZWN0ZWQ6IGJvb2xlYW5dIH0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8YXJ0aWNsZQogICAgOmtleT0ibWFwcGluZy5ob3N0IgogICAgOmRhdGEtaG9zdC1tYXBwaW5nPSJtYXBwaW5nLmhvc3QiCiAgICA6YXJpYS1sYWJlbD0iYCR7bW9kZWwuZ2V0TWFwcGluZ1RpdGxlRm9yRGlzcGxheShtYXBwaW5nKX0gwrcgJHttb2RlbC5mb3JtYXRIb3N0KG1hcHBpbmcuaG9zdCl9YCIKICAgIGNsYXNzPSJtYXBwaW5nLW1vYmlsZS1yb3cgYm9yZGVyLWIgcHgtMyBweS0zIgogICAgOmNsYXNzPSJbCiAgICAgIG1vZGVsLmlzTWFwcGluZ1VuYXZhaWxhYmxlKG1hcHBpbmcpID8gJ3RleHQtbXV0ZWQtZm9yZWdyb3VuZCcgOiAnJywKICAgICAgZGVlcE1vbml0b3JBY3RpdmUgPyAnYmctcHJpbWFyeS9bMC4wNF0nIDogJycsCiAgICBdIgogID4KICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTIuNSI+CiAgICAgIDxDaGVja2JveAogICAgICAgIHYtaWY9InNlbGVjdGlvbk1vZGUgJiYgc2VsZWN0YWJsZSIKICAgICAgICA6Y2xhc3M9IltzZWxlY3Rpb25DaGVja2JveENsYXNzLCAnbXQtMSBzaHJpbmstMCddIgogICAgICAgIDptb2RlbC12YWx1ZT0ic2VsZWN0ZWQiCiAgICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgICAgdCgnYWRtaW4uc3ViZG9tYWluUHJveHkuc2VsZWN0TWFwcGluZycsIHsKICAgICAgICAgICAgaG9zdDogbW9kZWwuZm9ybWF0SG9zdChtYXBwaW5nLmhvc3QpLAogICAgICAgICAgfSkKICAgICAgICAiCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgnc2VsZWN0JywgJGV2ZW50ID09PSB0cnVlKSIKICAgICAgLz4KICAgICAgPHNwYW4KICAgICAgICB2LWVsc2UtaWY9InNlbGVjdGlvbk1vZGUiCiAgICAgICAgY2xhc3M9Im10LTEgc2l6ZS1bMThweF0gc2hyaW5rLTAiCiAgICAgICAgYXJpYS1oaWRkZW49InRydWUiCiAgICAgID48L3NwYW4+CiAgICAgIDxidXR0b24KICAgICAgICB2LWVsc2UKICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgY2xhc3M9Im1hcHBpbmctZHJhZy1oYW5kbGUgbXQtMC41IGlubGluZS1mbGV4IGgtOCB3LTcgc2hyaW5rLTAgdG91Y2gtbm9uZSBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1tZCB0ZXh0LW11dGVkLWZvcmVncm91bmQgdHJhbnNpdGlvbiBob3ZlcjpiZy1tdXRlZCBob3Zlcjp0ZXh0LWZvcmVncm91bmQgZGlzYWJsZWQ6cG9pbnRlci1ldmVudHMtbm9uZSBkaXNhYmxlZDpvcGFjaXR5LTQwIgogICAgICAgIDpkaXNhYmxlZD0iZHJhZ0Rpc2FibGVkIgogICAgICAgIDphcmlhLWxhYmVsPSJgJHt0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5kcmFnU29ydEFyaWEnKX06ICR7bW9kZWwuZm9ybWF0SG9zdChtYXBwaW5nLmhvc3QpfWAiCiAgICAgID4KICAgICAgICA8R3JpcFZlcnRpY2FsIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICA8L2J1dHRvbj4KCiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0iZmxleCBoLTggdy04IHNocmluay0wIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLW1kIGJnLW11dGVkLzQ1IgogICAgICA+CiAgICAgICAgPGltZwogICAgICAgICAgdi1pZj0iCiAgICAgICAgICAgIGdldE1hcHBpbmdGYXZpY29uU3JjKG1hcHBpbmcpICYmICFtb2RlbC5pc0Zhdmljb25Ccm9rZW4obWFwcGluZykKICAgICAgICAgICIKICAgICAgICAgIDpzcmM9ImdldE1hcHBpbmdGYXZpY29uU3JjKG1hcHBpbmcpIgogICAgICAgICAgOmFsdD0iYCR7bW9kZWwuZ2V0TWFwcGluZ1RpdGxlRm9yRGlzcGxheShtYXBwaW5nKX0gZmF2aWNvbmAiCiAgICAgICAgICBjbGFzcz0iaC01IHctNSBvYmplY3QtY29udGFpbiB0cmFuc2l0aW9uLW9wYWNpdHkiCiAgICAgICAgICA6Y2xhc3M9InsgJ29wYWNpdHktNDUnOiBtb2RlbC5pc01hcHBpbmdVbmF2YWlsYWJsZShtYXBwaW5nKSB9IgogICAgICAgICAgQGVycm9yPSJtb2RlbC5tYXJrRmF2aWNvbkJyb2tlbihtYXBwaW5nKSIKICAgICAgICAvPgogICAgICAgIDxHbG9iZTIKICAgICAgICAgIHYtZWxzZQogICAgICAgICAgY2xhc3M9ImgtNCB3LTQgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kLzcwIgogICAgICAgICAgYXJpYS1oaWRkZW49InRydWUiCiAgICAgICAgLz4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIGZsZXgtMSBwdC0wLjUiPgogICAgICAgIDxTdWJkb21haW5NYXBwaW5nVGl0bGVDZWxsCiAgICAgICAgICA6YXMtY2VsbD0iZmFsc2UiCiAgICAgICAgICBjb21wYWN0CiAgICAgICAgICA6ZGVlcC1tb25pdG9yLWFjdGl2ZT0iZGVlcE1vbml0b3JBY3RpdmUiCiAgICAgICAgICA6Zm9ybWF0LWhvc3Q9Im1vZGVsLmZvcm1hdEhvc3QiCiAgICAgICAgICA6Z2V0LW1hcHBpbmctdGl0bGUtZm9yLWRpc3BsYXk9Im1vZGVsLmdldE1hcHBpbmdUaXRsZUZvckRpc3BsYXkiCiAgICAgICAgICA6aGFuZGxlLXByb3RvY29sLWhlYWRlcnMtd2FybmluZy1vcGVuLWNoYW5nZT0iCiAgICAgICAgICAgIG1vZGVsLmhhbmRsZVByb3RvY29sSGVhZGVyc1dhcm5pbmdPcGVuQ2hhbmdlCiAgICAgICAgICAiCiAgICAgICAgICA6aXMtcHJvdG9jb2wtaGVhZGVycy13YXJuaW5nLW9wZW49Im1vZGVsLmlzUHJvdG9jb2xIZWFkZXJzV2FybmluZ09wZW4iCiAgICAgICAgICA6bWFwcGluZz0ibWFwcGluZyIKICAgICAgICAgIDpvcGVuLXByb3RvY29sLWhlYWRlcnMtd2FybmluZz0ibW9kZWwub3BlblByb3RvY29sSGVhZGVyc1dhcm5pbmciCiAgICAgICAgICA6c2NoZWR1bGUtY2xvc2UtcHJvdG9jb2wtaGVhZGVycy13YXJuaW5nPSIKICAgICAgICAgICAgbW9kZWwuc2NoZWR1bGVDbG9zZVByb3RvY29sSGVhZGVyc1dhcm5pbmcKICAgICAgICAgICIKICAgICAgICAgIDpzaG91bGQtc2hvdy1wcm90b2NvbC1oZWFkZXJzLXdhcm5pbmc9IgogICAgICAgICAgICBtb2RlbC5zaG91bGRTaG93UHJvdG9jb2xIZWFkZXJzV2FybmluZwogICAgICAgICAgIgogICAgICAgICAgOnRvZ2dsZS1wcm90b2NvbC1oZWFkZXJzLXdhcm5pbmc9Im1vZGVsLnRvZ2dsZVByb3RvY29sSGVhZGVyc1dhcm5pbmciCiAgICAgICAgICBAZWRpdD0iYWN0aW9ucy5lZGl0IgogICAgICAgIC8+CgogICAgICAgIDxidXR0b24KICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIGNsYXNzPSJtdC0xIGJsb2NrIG1heC13LWZ1bGwgdHJ1bmNhdGUgcm91bmRlZC1zbSB0ZXh0LWxlZnQgdGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LWZvcmVncm91bmQvODUgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6dGV4dC1wcmltYXJ5IGZvY3VzLXZpc2libGU6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0yIGZvY3VzLXZpc2libGU6cmluZy1yaW5nIGZvY3VzLXZpc2libGU6cmluZy1vZmZzZXQtMiIKICAgICAgICAgIDp0aXRsZT0iCiAgICAgICAgICAgIHQoJ2FkbWluLnN1YmRvbWFpblByb3h5LmNvcHlIb3N0VGl0bGUnLCB7CiAgICAgICAgICAgICAgaG9zdDogbW9kZWwuZm9ybWF0SG9zdChtYXBwaW5nLmhvc3QpLAogICAgICAgICAgICB9KQogICAgICAgICAgIgogICAgICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgICAgICB0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5jb3B5SG9zdEFyaWEnLCB7CiAgICAgICAgICAgICAgaG9zdDogbW9kZWwuZm9ybWF0SG9zdChtYXBwaW5nLmhvc3QpLAogICAgICAgICAgICB9KQogICAgICAgICAgIgogICAgICAgICAgQGNsaWNrPSJhY3Rpb25zLmNvcHlIb3N0KG1hcHBpbmcpIgogICAgICAgID4KICAgICAgICAgIHt7IG1vZGVsLmZvcm1hdEhvc3QobWFwcGluZy5ob3N0KSB9fQogICAgICAgIDwvYnV0dG9uPgoKICAgICAgICA8U3ViZG9tYWluTWFwcGluZ1RhcmdldENlbGwKICAgICAgICAgIDphcy1jZWxsPSJmYWxzZSIKICAgICAgICAgIGNvbXBhY3QKICAgICAgICAgIGNsYXNzPSJtdC0xIgogICAgICAgICAgOm1hcHBpbmc9Im1hcHBpbmciCiAgICAgICAgICA6dW5hdmFpbGFibGU9Im1vZGVsLmlzTWFwcGluZ1VuYXZhaWxhYmxlKG1hcHBpbmcpIgogICAgICAgIC8+CiAgICAgIDwvZGl2PgoKICAgICAgPFN1YmRvbWFpbk1hcHBpbmdSb3dBY3Rpb25zCiAgICAgICAgOmFzLWNlbGw9ImZhbHNlIgogICAgICAgIGNvbXBhY3QKICAgICAgICA6Y2FuLXVzZS1kZWVwLW1vbml0b3I9Im1vZGVsLmNhblVzZURlZXBNb25pdG9yIgogICAgICAgIDpkZWVwLW1vbml0b3ItYWN0aXZlPSJkZWVwTW9uaXRvckFjdGl2ZSIKICAgICAgICA6Z3JvdXBzPSJtb2RlbC5ncm91cHMiCiAgICAgICAgOmlzLWF1dGgtc2VydmljZS10YXJnZXQ9Im1vZGVsLmlzQXV0aFNlcnZpY2VUYXJnZXQiCiAgICAgICAgOmlzLWRlZmF1bHQtZG9tYWluLWF2YWlsYWJsZT0ibW9kZWwuaXNEZWZhdWx0RG9tYWluQXZhaWxhYmxlIgogICAgICAgIDppcy1zYXZpbmctbWFwcGluZ3M9Im1vZGVsLmlzU2F2aW5nTWFwcGluZ3MiCiAgICAgICAgOm1hcHBpbmc9Im1hcHBpbmciCiAgICAgICAgOnRyaWdnZXItYXJpYS1sYWJlbD0iYCR7dCgnY29tbW9uLm1vcmVBY3Rpb25zJyl9OiAke21vZGVsLmZvcm1hdEhvc3QobWFwcGluZy5ob3N0KX1gIgogICAgICAgIEBjbGVhci1kZWZhdWx0PSJhY3Rpb25zLmNsZWFyRGVmYXVsdCIKICAgICAgICBAZGVsZXRlPSJhY3Rpb25zLmRlbGV0ZU1hcHBpbmciCiAgICAgICAgQGVkaXQ9ImFjdGlvbnMuZWRpdCIKICAgICAgICBAbW92ZT0iCiAgICAgICAgICAobW92ZWRNYXBwaW5nLCBncm91cElkKSA9PgogICAgICAgICAgICBhY3Rpb25zLm1vdmVNYXBwaW5ncyhbbW92ZWRNYXBwaW5nLmhvc3RdLCBncm91cElkKQogICAgICAgICIKICAgICAgICBAb3Blbi1hZHZhbmNlZC1hdXRoPSJhY3Rpb25zLm9wZW5BZHZhbmNlZEF1dGgiCiAgICAgICAgQG9wZW4tYXZhaWxhYmlsaXR5PSJhY3Rpb25zLm9wZW5BdmFpbGFiaWxpdHkiCiAgICAgICAgQG9wZW4tZGVlcC1tb25pdG9yPSJhY3Rpb25zLm9wZW5EZWVwTW9uaXRvciIKICAgICAgICBAb3Blbi1nYXRld2F5LWxvY2F0aW9ucz0iYWN0aW9ucy5vcGVuR2F0ZXdheUxvY2F0aW9ucyIKICAgICAgICBAc2V0LWRlZmF1bHQ9ImFjdGlvbnMuc2V0RGVmYXVsdCIKICAgICAgICBAdG9nZ2xlLWVuYWJsZWQ9ImFjdGlvbnMudG9nZ2xlRW5hYmxlZCIKICAgICAgLz4KICAgIDwvZGl2PgoKICAgIDxkaXYKICAgICAgY2xhc3M9Im10LTIuNSBmbGV4IG1pbi13LTAgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMiBib3JkZXItdCBib3JkZXItYm9yZGVyLzYwIHB0LTIiCiAgICA+CiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0iZmxleCBtaW4taC03IG1pbi13LTAgaXRlbXMtY2VudGVyIHJvdW5kZWQtbWQgYmctbXV0ZWQvMzUgcHgtMS41IHB5LTEiCiAgICAgID4KICAgICAgICA8c3BhbiBjbGFzcz0ic3Itb25seSI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5jb2x1bW5zLnN0YXR1cyIpIH19CiAgICAgICAgPC9zcGFuPgogICAgICAgIDxTdWJkb21haW5NYXBwaW5nU3RhdHVzSW5kaWNhdG9ycwogICAgICAgICAgOm1hcHBpbmc9Im1hcHBpbmciCiAgICAgICAgICA6YXZhaWxhYmlsaXR5LXN0YXRlPSJtb2RlbC5nZXRBdmFpbGFiaWxpdHlTdGF0ZShtYXBwaW5nKSIKICAgICAgICAgIDphdmFpbGFiaWxpdHktd2luZG93PSJtb2RlbC5mb3JtYXRBdmFpbGFiaWxpdHlXaW5kb3cobWFwcGluZykiCiAgICAgICAgICA6Zm9ybWF0LWhvc3Q9Im1vZGVsLmZvcm1hdEhvc3QiCiAgICAgICAgICA6Z2xvYmFsLXZpc2liaWxpdHktZW5hYmxlZD0ibW9kZWwuZ2xvYmFsVmlzaWJpbGl0eUVuYWJsZWQiCiAgICAgICAgICA6Z2xvYmFsLXdhZi1lbmFibGVkPSJtb2RlbC5nbG9iYWxXYWZFbmFibGVkIgogICAgICAgICAgOmlzLWF1dGgtc2VydmljZT0ibW9kZWwuaXNBdXRoU2VydmljZVRhcmdldChtYXBwaW5nLnRhcmdldCkiCiAgICAgICAgICA6aXMtZ2F0ZXdheS1wb3J0YWwtZW5hYmxlZD0ibW9kZWwuaXNHYXRld2F5UG9ydGFsRW5hYmxlZCIKICAgICAgICAgIDppcy1kZWZhdWx0LWRvbWFpbi1hdmFpbGFibGU9Im1vZGVsLmlzRGVmYXVsdERvbWFpbkF2YWlsYWJsZSIKICAgICAgICAgIDppcy1tYXBwaW5nLXN0YXR1cy10b29sdGlwLW9wZW49Im1vZGVsLmlzTWFwcGluZ1N0YXR1c1Rvb2x0aXBPcGVuIgogICAgICAgICAgOmhhbmRsZS1tYXBwaW5nLXN0YXR1cy10b29sdGlwLW9wZW4tY2hhbmdlPSIKICAgICAgICAgICAgbW9kZWwuaGFuZGxlTWFwcGluZ1N0YXR1c1Rvb2x0aXBPcGVuQ2hhbmdlCiAgICAgICAgICAiCiAgICAgICAgICA6aGFuZGxlLW1hcHBpbmctc3RhdHVzLXRvb2x0aXAtdHJpZ2dlci1jbGljaz0iCiAgICAgICAgICAgIG1vZGVsLmhhbmRsZU1hcHBpbmdTdGF0dXNUb29sdGlwVHJpZ2dlckNsaWNrCiAgICAgICAgICAiCiAgICAgICAgLz4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAgc2hyaW5rLTAgdGV4dC1yaWdodCI+CiAgICAgICAgPHNwYW4gY2xhc3M9InNyLW9ubHkiPgogICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuY29sdW1ucy50cmFmZmljIikgfX0KICAgICAgICA8L3NwYW4+CiAgICAgICAgPEhvc3RUcmFmZmljQWN0aXZpdHkKICAgICAgICAgIDpob3N0PSJtYXBwaW5nLmhvc3QiCiAgICAgICAgICA6dGl0bGU9Im1vZGVsLmdldE1hcHBpbmdUaXRsZUZvckRpc3BsYXkobWFwcGluZykiCiAgICAgICAgICA6c2FtcGxlPSJtb2RlbC5nZXRIb3N0VHJhZmZpY1NhbXBsZShtYXBwaW5nLmhvc3QpIgogICAgICAgICAgOnRpbWVzdGFtcD0ibW9kZWwudHJhZmZpY1RpbWVzdGFtcCA/PyBudWxsIgogICAgICAgIC8+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9hcnRpY2xlPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { Globe2, GripVertical } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import HostTrafficActivity from "@/components/HostTrafficActivity.vue";
+import { Checkbox } from "@/components/ui/checkbox";
+import type { HostMapping } from "@/types";
+import { getMappingFaviconSrc } from "./model";
+import SubdomainMappingRowActions from "./SubdomainMappingRowActions.vue";
+import SubdomainMappingStatusIndicators from "./SubdomainMappingStatusIndicators.vue";
+import SubdomainMappingTargetCell from "./SubdomainMappingTargetCell.vue";
+import SubdomainMappingTitleCell from "./SubdomainMappingTitleCell.vue";
+import type {
+  SubdomainMappingsCardProps,
+  SubdomainMappingsTableActions,
+} from "./subdomain-mappings-card-contract";
+
+defineProps<{
+  actions: SubdomainMappingsTableActions;
+  deepMonitorActive: boolean;
+  dragDisabled: boolean;
+  mapping: HostMapping;
+  model: SubdomainMappingsCardProps;
+  selected: boolean;
+  selectable: boolean;
+  selectionCheckboxClass: string;
+  selectionMode: boolean;
+}>();
+
+const emit = defineEmits<{ select: [selected: boolean] }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <article
+    :key="mapping.host"
+    :data-host-mapping="mapping.host"
+    :aria-label="`${model.getMappingTitleForDisplay(mapping)} · ${model.formatHost(mapping.host)}`"
+    class="mapping-mobile-row border-b px-3 py-3"
+    :class="[
+      model.isMappingUnavailable(mapping) ? 'text-muted-foreground' : '',
+      deepMonitorActive ? 'bg-primary/[0.04]' : '',
+    ]"
+  >
+    <div class="flex items-start gap-2.5">
+      <Checkbox
+        v-if="selectionMode && selectable"
+        :class="[selectionCheckboxClass, 'mt-1 shrink-0']"
+        :model-value="selected"
+        :aria-label="
+          t('admin.subdomainProxy.selectMapping', {
+            host: model.formatHost(mapping.host),
+          })
+        "
+        @update:model-value="emit('select', $event === true)"
+      />
+      <span
+        v-else-if="selectionMode"
+        class="mt-1 size-[18px] shrink-0"
+        aria-hidden="true"
+      ></span>
+      <button
+        v-else
+        type="button"
+        class="mapping-drag-handle mt-0.5 inline-flex h-8 w-7 shrink-0 touch-none items-center justify-center rounded-md text-muted-foreground transition hover:bg-muted hover:text-foreground disabled:pointer-events-none disabled:opacity-40"
+        :disabled="dragDisabled"
+        :aria-label="`${t('admin.subdomainProxy.dragSortAria')}: ${model.formatHost(mapping.host)}`"
+      >
+        <GripVertical class="h-4 w-4" />
+      </button>
+
+      <div
+        class="flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-muted/45"
+      >
+        <img
+          v-if="
+            getMappingFaviconSrc(mapping) && !model.isFaviconBroken(mapping)
+          "
+          :src="getMappingFaviconSrc(mapping)"
+          :alt="`${model.getMappingTitleForDisplay(mapping)} favicon`"
+          class="h-5 w-5 object-contain transition-opacity"
+          :class="{ 'opacity-45': model.isMappingUnavailable(mapping) }"
+          @error="model.markFaviconBroken(mapping)"
+        />
+        <Globe2
+          v-else
+          class="h-4 w-4 text-muted-foreground/70"
+          aria-hidden="true"
+        />
+      </div>
+
+      <div class="min-w-0 flex-1 pt-0.5">
+        <SubdomainMappingTitleCell
+          :as-cell="false"
+          compact
+          :deep-monitor-active="deepMonitorActive"
+          :format-host="model.formatHost"
+          :get-mapping-title-for-display="model.getMappingTitleForDisplay"
+          :handle-protocol-headers-warning-open-change="
+            model.handleProtocolHeadersWarningOpenChange
+          "
+          :is-protocol-headers-warning-open="model.isProtocolHeadersWarningOpen"
+          :mapping="mapping"
+          :open-protocol-headers-warning="model.openProtocolHeadersWarning"
+          :schedule-close-protocol-headers-warning="
+            model.scheduleCloseProtocolHeadersWarning
+          "
+          :should-show-protocol-headers-warning="
+            model.shouldShowProtocolHeadersWarning
+          "
+          :toggle-protocol-headers-warning="model.toggleProtocolHeadersWarning"
+          @edit="actions.edit"
+        />
+
+        <button
+          type="button"
+          class="mt-1 block max-w-full truncate rounded-sm text-left text-xs font-medium text-foreground/85 transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+          :title="
+            t('admin.subdomainProxy.copyHostTitle', {
+              host: model.formatHost(mapping.host),
+            })
+          "
+          :aria-label="
+            t('admin.subdomainProxy.copyHostAria', {
+              host: model.formatHost(mapping.host),
+            })
+          "
+          @click="actions.copyHost(mapping)"
+        >
+          {{ model.formatHost(mapping.host) }}
+        </button>
+
+        <SubdomainMappingTargetCell
+          :as-cell="false"
+          compact
+          class="mt-1"
+          :mapping="mapping"
+          :unavailable="model.isMappingUnavailable(mapping)"
+        />
+      </div>
+
+      <SubdomainMappingRowActions
+        :as-cell="false"
+        compact
+        :can-use-deep-monitor="model.canUseDeepMonitor"
+        :deep-monitor-active="deepMonitorActive"
+        :groups="model.groups"
+        :is-auth-service-target="model.isAuthServiceTarget"
+        :is-default-domain-available="model.isDefaultDomainAvailable"
+        :is-saving-mappings="model.isSavingMappings"
+        :mapping="mapping"
+        :trigger-aria-label="`${t('common.moreActions')}: ${model.formatHost(mapping.host)}`"
+        @clear-default="actions.clearDefault"
+        @delete="actions.deleteMapping"
+        @edit="actions.edit"
+        @move="
+          (movedMapping, groupId) =>
+            actions.moveMappings([movedMapping.host], groupId)
+        "
+        @open-advanced-auth="actions.openAdvancedAuth"
+        @open-availability="actions.openAvailability"
+        @open-deep-monitor="actions.openDeepMonitor"
+        @open-gateway-locations="actions.openGatewayLocations"
+        @set-default="actions.setDefault"
+        @toggle-enabled="actions.toggleEnabled"
+      />
+    </div>
+
+    <div
+      class="mt-2.5 flex min-w-0 items-center justify-between gap-2 border-t border-border/60 pt-2"
+    >
+      <div
+        class="flex min-h-7 min-w-0 items-center rounded-md bg-muted/35 px-1.5 py-1"
+      >
+        <span class="sr-only">
+          {{ t("admin.subdomainProxy.columns.status") }}
+        </span>
+        <SubdomainMappingStatusIndicators
+          :mapping="mapping"
+          :availability-state="model.getAvailabilityState(mapping)"
+          :availability-window="model.formatAvailabilityWindow(mapping)"
+          :format-host="model.formatHost"
+          :global-visibility-enabled="model.globalVisibilityEnabled"
+          :global-waf-enabled="model.globalWafEnabled"
+          :is-auth-service="model.isAuthServiceTarget(mapping.target)"
+          :is-gateway-portal-enabled="model.isGatewayPortalEnabled"
+          :is-default-domain-available="model.isDefaultDomainAvailable"
+          :is-mapping-status-tooltip-open="model.isMappingStatusTooltipOpen"
+          :handle-mapping-status-tooltip-open-change="
+            model.handleMappingStatusTooltipOpenChange
+          "
+          :handle-mapping-status-tooltip-trigger-click="
+            model.handleMappingStatusTooltipTriggerClick
+          "
+        />
+      </div>
+      <div class="min-w-0 shrink-0 text-right">
+        <span class="sr-only">
+          {{ t("admin.subdomainProxy.columns.traffic") }}
+        </span>
+        <HostTrafficActivity
+          :host="mapping.host"
+          :title="model.getMappingTitleForDisplay(mapping)"
+          :sample="model.getHostTrafficSample(mapping.host)"
+          :timestamp="model.trafficTimestamp ?? null"
+        />
+      </div>
+    </div>
+  </article>
+</template>

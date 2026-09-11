@@ -1,1 +1,235 @@
-dXNlIHN1cGVyOjoqOwoKaW1wbCBTdG9yZSB7CiAgICBwdWIgYXN5bmMgZm4gYWNxdWlyZV9ub3RpZmljYXRpb25fcnVudGltZV9sZWFzZSgKICAgICAgICAmc2VsZiwKICAgICAgICBuYW1lOiAmc3RyLAogICAgICAgIHRva2VuOiAmc3RyLAogICAgICAgIHR0bF9zZWNvbmRzOiB1c2l6ZSwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgICAgIGxldCBrZXkgPSBub3RpZmljYXRpb25fcnVudGltZV9sb2NrX2tleShuYW1lKTsKICAgICAgICBzZWxmLnZlcmlmeV9ub3RpZmljYXRpb25fcnVudGltZV9zaGFkb3coJmtleSkuYXdhaXQ/OwogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCByZXN1bHQ6IE9wdGlvbjxTdHJpbmc+ID0gcmVkaXM6OmNtZCgiU0VUIikKICAgICAgICAgICAgLmFyZyhrZXkpCiAgICAgICAgICAgIC5hcmcodG9rZW4pCiAgICAgICAgICAgIC5hcmcoIkVYIikKICAgICAgICAgICAgLmFyZyh0dGxfc2Vjb25kcy5tYXgoMSkpCiAgICAgICAgICAgIC5hcmcoIk5YIikKICAgICAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBPayhyZXN1bHQuYXNfZGVyZWYoKSA9PSBTb21lKCJPSyIpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiByZWxlYXNlX25vdGlmaWNhdGlvbl9ydW50aW1lX2xlYXNlKAogICAgICAgICZzZWxmLAogICAgICAgIG5hbWU6ICZzdHIsCiAgICAgICAgdG9rZW46ICZzdHIsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgbGV0IGtleSA9IG5vdGlmaWNhdGlvbl9ydW50aW1lX2xvY2tfa2V5KG5hbWUpOwogICAgICAgIHNlbGYudmVyaWZ5X25vdGlmaWNhdGlvbl9ydW50aW1lX3NoYWRvdygma2V5KS5hd2FpdD87CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IF86IGk2NCA9IHJlZGlzOjpjbWQoIkVWQUwiKQogICAgICAgICAgICAuYXJnKAogICAgICAgICAgICAgICAgciMiCiAgICAgICAgICAgICAgICAtLSBmbi1rbm9jazpldmFsOmRlbGV0ZS1pZi12YWx1ZTp2MQogICAgICAgICAgICAgICAgaWYgcmVkaXMuY2FsbCgnR0VUJywgS0VZU1sxXSkgPT0gQVJHVlsxXSB0aGVuCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHJlZGlzLmNhbGwoJ0RFTCcsIEtFWVNbMV0pCiAgICAgICAgICAgICAgICBlbmQKICAgICAgICAgICAgICAgIHJldHVybiAwCiAgICAgICAgICAgICAgICAiIywKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXJnKDEpCiAgICAgICAgICAgIC5hcmcoa2V5KQogICAgICAgICAgICAuYXJnKHRva2VuKQogICAgICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIE9rKCgpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBhcHBlbmRfbm90aWZpY2F0aW9uX3dpbmRvd19oaXQoCiAgICAgICAgJnNlbGYsCiAgICAgICAgcnVsZV9pZDogJnN0ciwKICAgICAgICBncm91cF9rZXk6ICZzdHIsCiAgICAgICAgZXZlbnRfaWQ6ICZzdHIsCiAgICAgICAgaGFwcGVuZWRfYXRfbXM6IGk2NCwKICAgICAgICB3aW5kb3dfc2Vjb25kczogaTY0LAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxpNjQ+IHsKICAgICAgICBsZXQga2V5ID0gbm90aWZpY2F0aW9uX3dpbmRvd19rZXkocnVsZV9pZCwgZ3JvdXBfa2V5KTsKICAgICAgICBzZWxmLnZlcmlmeV9ub3RpZmljYXRpb25fcnVudGltZV9zaGFkb3coJmtleSkuYXdhaXQ/OwogICAgICAgIGxldCB3aW5kb3dfbXMgPSB3aW5kb3dfc2Vjb25kcy5tYXgoMSkgKiAxMDAwOwogICAgICAgIGxldCBzdGFydF9zY29yZSA9IChoYXBwZW5lZF9hdF9tcyAtIHdpbmRvd19tcykubWF4KDApOwogICAgICAgIGxldCBldmVudF9pZCA9IGV2ZW50X2lkLnRvX3N0cmluZygpOwogICAgICAgIGxldCB0dGxfc2Vjb25kcyA9ICh3aW5kb3dfc2Vjb25kcyAqIDIpLm1heCg2MCk7CiAgICAgICAgc2VsZi5jb25uKCkKICAgICAgICAgICAgLmNhbGwobW92ZSB8Y29ubnwgewogICAgICAgICAgICAgICAgbGV0IHR4ID0gY29ubi50cmFuc2FjdGlvbl93aXRoX2JlaGF2aW9yKFRyYW5zYWN0aW9uQmVoYXZpb3I6OkltbWVkaWF0ZSk/OwogICAgICAgICAgICAgICAgY29tbWFuZF9va190eCgKICAgICAgICAgICAgICAgICAgICAmdHgsCiAgICAgICAgICAgICAgICAgICAgIlpBREQiLAogICAgICAgICAgICAgICAgICAgIHZlYyFba2V5LmNsb25lKCksIGhhcHBlbmVkX2F0X21zLnRvX3N0cmluZygpLCBldmVudF9pZF0sCiAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgICAgIGNvbW1hbmRfb2tfdHgoCiAgICAgICAgICAgICAgICAgICAgJnR4LAogICAgICAgICAgICAgICAgICAgICJaUkVNUkFOR0VCWVNDT1JFIiwKICAgICAgICAgICAgICAgICAgICB2ZWMhWwogICAgICAgICAgICAgICAgICAgICAgICBrZXkuY2xvbmUoKSwKICAgICAgICAgICAgICAgICAgICAgICAgIjAiLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgICAgICAgICBzdGFydF9zY29yZS5zYXR1cmF0aW5nX3N1YigxKS50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICBjb21tYW5kX29rX3R4KCZ0eCwgIkVYUElSRSIsIHZlYyFba2V5LmNsb25lKCksIHR0bF9zZWNvbmRzLnRvX3N0cmluZygpXSk/OwogICAgICAgICAgICAgICAgbGV0IGNvdW50ID0gbWF0Y2ggc3lzdGVtX2V2ZW50X2NvbW1hbmRfdHgoCiAgICAgICAgICAgICAgICAgICAgJnR4LAogICAgICAgICAgICAgICAgICAgICJaQ09VTlQiLAogICAgICAgICAgICAgICAgICAgIHZlYyFba2V5LCBzdGFydF9zY29yZS50b19zdHJpbmcoKSwgaGFwcGVuZWRfYXRfbXMudG9fc3RyaW5nKCldLAogICAgICAgICAgICAgICAgKT8gewogICAgICAgICAgICAgICAgICAgIHJlZGlzOjpDbWRPdXRwdXQ6OkludChjb3VudCkgPT4gY291bnQsCiAgICAgICAgICAgICAgICAgICAgXyA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoY3JhdGU6OnN0b3JhZ2U6OnN0b3JhZ2VfZXJyb3IoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAidW5leHBlY3RlZCBub3RpZmljYXRpb24gd2luZG93IGNvdW50IiwKICAgICAgICAgICAgICAgICAgICAgICAgKSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfTsKICAgICAgICAgICAgICAgIHR4LmNvbW1pdCgpPzsKICAgICAgICAgICAgICAgIE9rKGNvdW50KQogICAgICAgICAgICB9KQogICAgICAgICAgICAuYXdhaXQKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gZ2V0X25vdGlmaWNhdGlvbl9jb29sZG93bl91bnRpbCgKICAgICAgICAmc2VsZiwKICAgICAgICBydWxlX2lkOiAmc3RyLAogICAgICAgIGdyb3VwX2tleTogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFN0cmluZz4+IHsKICAgICAgICBsZXQga2V5ID0gbm90aWZpY2F0aW9uX2Nvb2xkb3duX2tleShydWxlX2lkLCBncm91cF9rZXkpOwogICAgICAgIHNlbGYudmVyaWZ5X25vdGlmaWNhdGlvbl9ydW50aW1lX3NoYWRvdygma2V5KS5hd2FpdD87CiAgICAgICAgc2VsZi5nZXRfc3RyaW5nX3ZhbHVlKCZrZXkpLmF3YWl0CiAgICB9CgogICAgcHViIGFzeW5jIGZuIHNldF9ub3RpZmljYXRpb25fY29vbGRvd25fdW50aWwoCiAgICAgICAgJnNlbGYsCiAgICAgICAgcnVsZV9pZDogJnN0ciwKICAgICAgICBncm91cF9rZXk6ICZzdHIsCiAgICAgICAgdW50aWw6ICZzdHIsCiAgICAgICAgY29vbGRvd25fc2Vjb25kczogaTY0LAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGlmIGNvb2xkb3duX3NlY29uZHMgPD0gMCB7CiAgICAgICAgICAgIHJldHVybiBPaygoKSk7CiAgICAgICAgfQogICAgICAgIGxldCBrZXkgPSBub3RpZmljYXRpb25fY29vbGRvd25fa2V5KHJ1bGVfaWQsIGdyb3VwX2tleSk7CiAgICAgICAgc2VsZi52ZXJpZnlfbm90aWZpY2F0aW9uX3J1bnRpbWVfc2hhZG93KCZrZXkpLmF3YWl0PzsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBjb25uLnNldF9leChrZXksIHVudGlsLCBjb29sZG93bl9zZWNvbmRzIGFzIHU2NCkuYXdhaXQKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gZW5xdWV1ZV9ub3RpZmljYXRpb25fZGVsaXZlcnkoCiAgICAgICAgJnNlbGYsCiAgICAgICAgaWQ6ICZzdHIsCiAgICAgICAgcmVhZHlfYXRfbXM6IGk2NCwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBzZWxmLnZlcmlmeV9ub3RpZmljYXRpb25fcnVudGltZV9zaGFkb3coTk9USUZJQ0FUSU9OX0RFTElWRVJJRVNfUkVBRFlfS0VZKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCBtdXQgcGlwZSA9IHJlZGlzOjpwaXBlKCk7CiAgICAgICAgcGlwZS56YWRkKE5PVElGSUNBVElPTl9ERUxJVkVSSUVTX1JFQURZX0tFWSwgaWQsIHJlYWR5X2F0X21zKQogICAgICAgICAgICAuaWdub3JlKCk7CiAgICAgICAgcGlwZS5leHBpcmUoCiAgICAgICAgICAgIE5PVElGSUNBVElPTl9ERUxJVkVSSUVTX1JFQURZX0tFWSwKICAgICAgICAgICAgTk9USUZJQ0FUSU9OX0RFTElWRVJZX1FVRVVFX1RUTF9TRUNPTkRTLAogICAgICAgICkKICAgICAgICAuaWdub3JlKCk7CiAgICAgICAgbGV0IF86ICgpID0gcGlwZS5xdWVyeV9hc3luYygmbXV0IGNvbm4pLmF3YWl0PzsKICAgICAgICBPaygoKSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gbmV4dF9ub3RpZmljYXRpb25fZGVsaXZlcnlfcmVhZHlfYXRfbXMoCiAgICAgICAgJnNlbGYsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PE9wdGlvbjxpNjQ+PiB7CiAgICAgICAgc2VsZi52ZXJpZnlfbm90aWZpY2F0aW9uX3J1bnRpbWVfc2hhZG93KE5PVElGSUNBVElPTl9ERUxJVkVSSUVTX1JFQURZX0tFWSkKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBsZXQgdmFsdWVzOiBWZWM8KFN0cmluZywgZjY0KT4gPSByZWRpczo6Y21kKCJaUkFOR0UiKQogICAgICAgICAgICAuYXJnKE5PVElGSUNBVElPTl9ERUxJVkVSSUVTX1JFQURZX0tFWSkKICAgICAgICAgICAgLmFyZygwKQogICAgICAgICAgICAuYXJnKDApCiAgICAgICAgICAgIC5hcmcoIldJVEhTQ09SRVMiKQogICAgICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIE9rKHZhbHVlcy5maXJzdCgpLmFuZF90aGVuKHwoXywgc2NvcmUpfCB7CiAgICAgICAgICAgIHNjb3JlCiAgICAgICAgICAgICAgICAuaXNfZmluaXRlKCkKICAgICAgICAgICAgICAgIC50aGVuX3NvbWUoKnNjb3JlIGFzIGk2NCkKICAgICAgICAgICAgICAgIC5maWx0ZXIofF98IHNjb3JlLmZyYWN0KCkgPT0gMC4wKQogICAgICAgIH0pKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBwdWxsX3JlYWR5X25vdGlmaWNhdGlvbl9kZWxpdmVyeV9pZHMoCiAgICAgICAgJnNlbGYsCiAgICAgICAgbGltaXQ6IHVzaXplLAogICAgICAgIG5vd19tczogaTY0LAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxWZWM8U3RyaW5nPj4gewogICAgICAgIHNlbGYudmVyaWZ5X25vdGlmaWNhdGlvbl9ydW50aW1lX3NoYWRvdyhOT1RJRklDQVRJT05fREVMSVZFUklFU19SRUFEWV9LRVkpCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IGlkczogVmVjPFN0cmluZz4gPSByZWRpczo6Y21kKCJFVkFMIikKICAgICAgICAgICAgLmFyZygKICAgICAgICAgICAgICAgIHIjIgogICAgICAgICAgICAgICAgLS0gZm4ta25vY2s6ZXZhbDp6c2V0LWNsYWltOnYxCiAgICAgICAgICAgICAgICBsb2NhbCBpZHMgPSByZWRpcy5jYWxsKAogICAgICAgICAgICAgICAgICAgICdaUkFOR0VCWVNDT1JFJywKICAgICAgICAgICAgICAgICAgICBLRVlTWzFdLAogICAgICAgICAgICAgICAgICAgICctaW5mJywKICAgICAgICAgICAgICAgICAgICBBUkdWWzFdLAogICAgICAgICAgICAgICAgICAgICdMSU1JVCcsCiAgICAgICAgICAgICAgICAgICAgMCwKICAgICAgICAgICAgICAgICAgICB0b251bWJlcihBUkdWWzJdKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgaWYgI2lkcyA9PSAwIHRoZW4KICAgICAgICAgICAgICAgICAgICByZXR1cm4gaWRzCiAgICAgICAgICAgICAgICBlbmQKICAgICAgICAgICAgICAgIHJlZGlzLmNhbGwoJ1pSRU0nLCBLRVlTWzFdLCB1bnBhY2soaWRzKSkKICAgICAgICAgICAgICAgIHJldHVybiBpZHMKICAgICAgICAgICAgICAgICIjLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hcmcoMSkKICAgICAgICAgICAgLmFyZyhOT1RJRklDQVRJT05fREVMSVZFUklFU19SRUFEWV9LRVkpCiAgICAgICAgICAgIC5hcmcobm93X21zKQogICAgICAgICAgICAuYXJnKGxpbWl0Lm1heCgxKSkKICAgICAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBPayhpZHMuaW50b19pdGVyKCkuZmlsdGVyKHxpZHwgIWlkLnRyaW0oKS5pc19lbXB0eSgpKS5jb2xsZWN0KCkpCiAgICB9CgogICAgcHViKHN1cGVyKSBhc3luYyBmbiB2ZXJpZnlfbm90aWZpY2F0aW9uX3J1bnRpbWVfc2hhZG93KAogICAgICAgICZzZWxmLAogICAgICAgIGtleTogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBsZXQgbWF0Y2hlZCA9IHNlbGYKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9ub3RpZmljYXRpb25fcnVudGltZQogICAgICAgICAgICAudmVyaWZ5X2FuZF9yZXBhaXJfa2V5KGtleSkKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBpZiBtYXRjaGVkIHsKICAgICAgICAgICAgaWYgc2VsZi50eXBlZF9ub3RpZmljYXRpb25fcnVudGltZV9zaGFkb3cubWFya19oZWFsdGh5KCkgewogICAgICAgICAgICAgICAgdHJhY2luZzo6aW5mbyEoInR5cGVkIG5vdGlmaWNhdGlvbiBydW50aW1lIHNoYWRvdyBjb21wYXJpc29uIHJlY292ZXJlZCIpOwogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgc2VsZi50eXBlZF9ub3RpZmljYXRpb25fcnVudGltZV9zaGFkb3cubWFya19taXNtYXRjaCgpOwogICAgICAgICAgICBsZXQgcnVudGltZV9raW5kID0gaWYga2V5LnN0YXJ0c193aXRoKE5PVElGSUNBVElPTl9SVU5USU1FX0xPQ0tfUFJFRklYKSB7CiAgICAgICAgICAgICAgICAibGVhc2UiCiAgICAgICAgICAgIH0gZWxzZSBpZiBrZXkuc3RhcnRzX3dpdGgoTk9USUZJQ0FUSU9OX1JVTlRJTUVfQ09PTERPV05fUFJFRklYKSB7CiAgICAgICAgICAgICAgICAiY29vbGRvd24iCiAgICAgICAgICAgIH0gZWxzZSBpZiBrZXkuc3RhcnRzX3dpdGgoTk9USUZJQ0FUSU9OX1JVTlRJTUVfV0lORE9XX1BSRUZJWCkgewogICAgICAgICAgICAgICAgIndpbmRvdyIKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICJyZWFkeV9xdWV1ZSIKICAgICAgICAgICAgfTsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoCiAgICAgICAgICAgICAgICBydW50aW1lX2tpbmQsCiAgICAgICAgICAgICAgICAidHlwZWQgbm90aWZpY2F0aW9uIHJ1bnRpbWUgc2hhZG93IGRpZmZlcmVkIGZyb20gdGhlIGNvbXBhdGliaWxpdHkga2V5c3BhY2UgYW5kIHdhcyByZXBhaXJlZCIKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICAgICAgT2soKCkpCiAgICB9Cn0K
+use super::*;
+
+impl Store {
+    pub async fn acquire_notification_runtime_lease(
+        &self,
+        name: &str,
+        token: &str,
+        ttl_seconds: usize,
+    ) -> crate::storage::StorageResult<bool> {
+        let key = notification_runtime_lock_key(name);
+        self.verify_notification_runtime_shadow(&key).await?;
+        let mut conn = self.conn();
+        let result: Option<String> = redis::cmd("SET")
+            .arg(key)
+            .arg(token)
+            .arg("EX")
+            .arg(ttl_seconds.max(1))
+            .arg("NX")
+            .query_async(&mut conn)
+            .await?;
+        Ok(result.as_deref() == Some("OK"))
+    }
+
+    pub async fn release_notification_runtime_lease(
+        &self,
+        name: &str,
+        token: &str,
+    ) -> crate::storage::StorageResult<()> {
+        let key = notification_runtime_lock_key(name);
+        self.verify_notification_runtime_shadow(&key).await?;
+        let mut conn = self.conn();
+        let _: i64 = redis::cmd("EVAL")
+            .arg(
+                r#"
+                -- fn-knock:eval:delete-if-value:v1
+                if redis.call('GET', KEYS[1]) == ARGV[1] then
+                    return redis.call('DEL', KEYS[1])
+                end
+                return 0
+                "#,
+            )
+            .arg(1)
+            .arg(key)
+            .arg(token)
+            .query_async(&mut conn)
+            .await?;
+        Ok(())
+    }
+
+    pub async fn append_notification_window_hit(
+        &self,
+        rule_id: &str,
+        group_key: &str,
+        event_id: &str,
+        happened_at_ms: i64,
+        window_seconds: i64,
+    ) -> crate::storage::StorageResult<i64> {
+        let key = notification_window_key(rule_id, group_key);
+        self.verify_notification_runtime_shadow(&key).await?;
+        let window_ms = window_seconds.max(1) * 1000;
+        let start_score = (happened_at_ms - window_ms).max(0);
+        let event_id = event_id.to_string();
+        let ttl_seconds = (window_seconds * 2).max(60);
+        self.conn()
+            .call(move |conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                command_ok_tx(
+                    &tx,
+                    "ZADD",
+                    vec![key.clone(), happened_at_ms.to_string(), event_id],
+                )?;
+                command_ok_tx(
+                    &tx,
+                    "ZREMRANGEBYSCORE",
+                    vec![
+                        key.clone(),
+                        "0".to_string(),
+                        start_score.saturating_sub(1).to_string(),
+                    ],
+                )?;
+                command_ok_tx(&tx, "EXPIRE", vec![key.clone(), ttl_seconds.to_string()])?;
+                let count = match system_event_command_tx(
+                    &tx,
+                    "ZCOUNT",
+                    vec![key, start_score.to_string(), happened_at_ms.to_string()],
+                )? {
+                    redis::CmdOutput::Int(count) => count,
+                    _ => {
+                        return Err(crate::storage::storage_error(
+                            "unexpected notification window count",
+                        ));
+                    }
+                };
+                tx.commit()?;
+                Ok(count)
+            })
+            .await
+    }
+
+    pub async fn get_notification_cooldown_until(
+        &self,
+        rule_id: &str,
+        group_key: &str,
+    ) -> crate::storage::StorageResult<Option<String>> {
+        let key = notification_cooldown_key(rule_id, group_key);
+        self.verify_notification_runtime_shadow(&key).await?;
+        self.get_string_value(&key).await
+    }
+
+    pub async fn set_notification_cooldown_until(
+        &self,
+        rule_id: &str,
+        group_key: &str,
+        until: &str,
+        cooldown_seconds: i64,
+    ) -> crate::storage::StorageResult<()> {
+        if cooldown_seconds <= 0 {
+            return Ok(());
+        }
+        let key = notification_cooldown_key(rule_id, group_key);
+        self.verify_notification_runtime_shadow(&key).await?;
+        let mut conn = self.conn();
+        conn.set_ex(key, until, cooldown_seconds as u64).await
+    }
+
+    pub async fn enqueue_notification_delivery(
+        &self,
+        id: &str,
+        ready_at_ms: i64,
+    ) -> crate::storage::StorageResult<()> {
+        self.verify_notification_runtime_shadow(NOTIFICATION_DELIVERIES_READY_KEY)
+            .await?;
+        let mut conn = self.conn();
+        let mut pipe = redis::pipe();
+        pipe.zadd(NOTIFICATION_DELIVERIES_READY_KEY, id, ready_at_ms)
+            .ignore();
+        pipe.expire(
+            NOTIFICATION_DELIVERIES_READY_KEY,
+            NOTIFICATION_DELIVERY_QUEUE_TTL_SECONDS,
+        )
+        .ignore();
+        let _: () = pipe.query_async(&mut conn).await?;
+        Ok(())
+    }
+
+    pub async fn next_notification_delivery_ready_at_ms(
+        &self,
+    ) -> crate::storage::StorageResult<Option<i64>> {
+        self.verify_notification_runtime_shadow(NOTIFICATION_DELIVERIES_READY_KEY)
+            .await?;
+        let mut conn = self.conn();
+        let values: Vec<(String, f64)> = redis::cmd("ZRANGE")
+            .arg(NOTIFICATION_DELIVERIES_READY_KEY)
+            .arg(0)
+            .arg(0)
+            .arg("WITHSCORES")
+            .query_async(&mut conn)
+            .await?;
+        Ok(values.first().and_then(|(_, score)| {
+            score
+                .is_finite()
+                .then_some(*score as i64)
+                .filter(|_| score.fract() == 0.0)
+        }))
+    }
+
+    pub async fn pull_ready_notification_delivery_ids(
+        &self,
+        limit: usize,
+        now_ms: i64,
+    ) -> crate::storage::StorageResult<Vec<String>> {
+        self.verify_notification_runtime_shadow(NOTIFICATION_DELIVERIES_READY_KEY)
+            .await?;
+        let mut conn = self.conn();
+        let ids: Vec<String> = redis::cmd("EVAL")
+            .arg(
+                r#"
+                -- fn-knock:eval:zset-claim:v1
+                local ids = redis.call(
+                    'ZRANGEBYSCORE',
+                    KEYS[1],
+                    '-inf',
+                    ARGV[1],
+                    'LIMIT',
+                    0,
+                    tonumber(ARGV[2])
+                )
+                if #ids == 0 then
+                    return ids
+                end
+                redis.call('ZREM', KEYS[1], unpack(ids))
+                return ids
+                "#,
+            )
+            .arg(1)
+            .arg(NOTIFICATION_DELIVERIES_READY_KEY)
+            .arg(now_ms)
+            .arg(limit.max(1))
+            .query_async(&mut conn)
+            .await?;
+        Ok(ids.into_iter().filter(|id| !id.trim().is_empty()).collect())
+    }
+
+    pub(super) async fn verify_notification_runtime_shadow(
+        &self,
+        key: &str,
+    ) -> crate::storage::StorageResult<()> {
+        let matched = self
+            .typed
+            .typed_notification_runtime
+            .verify_and_repair_key(key)
+            .await?;
+        if matched {
+            if self.typed_notification_runtime_shadow.mark_healthy() {
+                tracing::info!("typed notification runtime shadow comparison recovered");
+            }
+        } else {
+            self.typed_notification_runtime_shadow.mark_mismatch();
+            let runtime_kind = if key.starts_with(NOTIFICATION_RUNTIME_LOCK_PREFIX) {
+                "lease"
+            } else if key.starts_with(NOTIFICATION_RUNTIME_COOLDOWN_PREFIX) {
+                "cooldown"
+            } else if key.starts_with(NOTIFICATION_RUNTIME_WINDOW_PREFIX) {
+                "window"
+            } else {
+                "ready_queue"
+            };
+            tracing::warn!(
+                runtime_kind,
+                "typed notification runtime shadow differed from the compatibility keyspace and was repaired"
+            );
+        }
+        Ok(())
+    }
+}

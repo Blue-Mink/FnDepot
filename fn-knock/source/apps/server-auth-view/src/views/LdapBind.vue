@@ -1,1 +1,263 @@
-PHRlbXBsYXRlPgogIDxBdXRoU2hlbGw+CiAgICA8QXV0aENhcmQKICAgICAgOnRpdGxlPSJ0KCdhdXRoLmxkYXBCaW5kLnRpdGxlJykiCiAgICAgIDpkZXNjcmlwdGlvbj0idCgnYXV0aC5sZGFwQmluZC5kZXNjcmlwdGlvbicpIgogICAgICBjb250ZW50LWNsYXNzPSJzcGFjZS15LTQiCiAgICA+CiAgICAgIDxkaXYKICAgICAgICB2LWlmPSJpc0xvYWRpbmciCiAgICAgICAgY2xhc3M9InB5LTggdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgcm9sZT0ic3RhdHVzIgogICAgICA+CiAgICAgICAge3sgdCgiYXV0aC5sZGFwQmluZC5jaGVja2luZ0ludml0ZSIpIH19CiAgICAgIDwvZGl2PgogICAgICA8ZGl2CiAgICAgICAgdi1lbHNlLWlmPSJlcnJvck1lc3NhZ2UgJiYgIWludml0ZSIKICAgICAgICBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWRlc3RydWN0aXZlLzMwIGJnLWRlc3RydWN0aXZlLzUgcHgtNCBweS0zIHRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICByb2xlPSJhbGVydCIKICAgICAgPgogICAgICAgIHt7IGVycm9yTWVzc2FnZSB9fQogICAgICA8L2Rpdj4KICAgICAgPGZvcm0gdi1lbHNlLWlmPSJpbnZpdGUiIGNsYXNzPSJzcGFjZS15LTQiIEBzdWJtaXQucHJldmVudD0iYmluZElkZW50aXR5Ij4KICAgICAgICA8ZGl2IGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBiZy1tdXRlZC80MCBweC0zIHB5LTIgdGV4dC1zbSI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhdXRoLmxkYXBCaW5kLmJpbmRUbyIpIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZvbnQtbWVkaXVtIj57eyBpbnZpdGUudG90cC5jb21tZW50IHx8ICJUT1RQIiB9fTwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IGludml0ZS5wcm92aWRlci5uYW1lIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiB2LWlmPSIhaXNDYXB0Y2hhVmVyaWZpZWQiIGNsYXNzPSJzcGFjZS15LTMiPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB2LWlmPSJhY3RpdmVDYXB0Y2hhUHJvdmlkZXIgPT09ICdwb3cnICYmIGlzQ2FwdGNoYVByb3ZpZGVyQXZhaWxhYmxlIgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIGNsYXNzPSJ3LWZ1bGwiCiAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNQb3dGYWxsYmFja0xvYWRpbmcgfHwgaXNMb2dpbkNvb2xpbmdEb3duIgogICAgICAgICAgICBAY2xpY2s9ImhhbmRsZVBvd0ZhbGxiYWNrVmVyaWZ5IgogICAgICAgICAgPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIGlzUG93RmFsbGJhY2tMb2FkaW5nID8gdCgiYXV0aC52ZXJpZnlpbmciKSA6IHQoImF1dGgubm90Um9ib3QiKQogICAgICAgICAgICB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8VHVybnN0aWxlV2lkZ2V0CiAgICAgICAgICAgIHYtZWxzZS1pZj0iCiAgICAgICAgICAgICAgYWN0aXZlQ2FwdGNoYVByb3ZpZGVyID09PSAndHVybnN0aWxlJyAmJgogICAgICAgICAgICAgIGlzQ2FwdGNoYVByb3ZpZGVyQXZhaWxhYmxlICYmCiAgICAgICAgICAgICAgaGFzVHVybnN0aWxlU2l0ZUtleQogICAgICAgICAgICAiCiAgICAgICAgICAgIHJlZj0idHVybnN0aWxlV2lkZ2V0UmVmIgogICAgICAgICAgICA6c2l0ZS1rZXk9ImNhcHRjaGFDb25maWc/LnR1cm5zdGlsZS5zaXRlX2tleSB8fCAnJyIKICAgICAgICAgICAgOmRpc2FibGVkPSJpc1N1Ym1pdHRpbmcgfHwgaXNMb2dpbkNvb2xpbmdEb3duIgogICAgICAgICAgICBAdmVyaWZpZWQ9ImhhbmRsZVR1cm5zdGlsZVZlcmlmaWVkIgogICAgICAgICAgICBAZXhwaXJlZD0icmVzZXRDYXB0Y2hhIgogICAgICAgICAgICBAcmVzZXQ9InJlc2V0Q2FwdGNoYSIKICAgICAgICAgICAgQGVycm9yPSJoYW5kbGVUdXJuc3RpbGVFcnJvciIKICAgICAgICAgIC8+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIHYtZWxzZS1pZj0iIWlzQ2FwdGNoYUNvbmZpZ0xvYWRpbmciCiAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItZGVzdHJ1Y3RpdmUvMzAgYmctZGVzdHJ1Y3RpdmUvNSBweC00IHB5LTMgdGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgPgogICAgICAgICAgICB7eyBjYXB0Y2hhVW5hdmFpbGFibGVSZWFzb24gfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8dGVtcGxhdGUgdi1lbHNlPgogICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgICAgPExhYmVsIGZvcj0ibGRhcC1iaW5kLXVzZXJuYW1lIj57eyB0KCJhdXRoLmxkYXBVc2VybmFtZSIpIH19PC9MYWJlbD4KICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgaWQ9ImxkYXAtYmluZC11c2VybmFtZSIKICAgICAgICAgICAgICB2LW1vZGVsPSJ1c2VybmFtZSIKICAgICAgICAgICAgICBhdXRvY29tcGxldGU9InVzZXJuYW1lIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNTdWJtaXR0aW5nIHx8IGlzTG9naW5Db29saW5nRG93biIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgICAgPExhYmVsIGZvcj0ibGRhcC1iaW5kLXBhc3N3b3JkIj57eyB0KCJhdXRoLmxkYXBQYXNzd29yZCIpIH19PC9MYWJlbD4KICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgaWQ9ImxkYXAtYmluZC1wYXNzd29yZCIKICAgICAgICAgICAgICB2LW1vZGVsPSJwYXNzd29yZCIKICAgICAgICAgICAgICB0eXBlPSJwYXNzd29yZCIKICAgICAgICAgICAgICBhdXRvY29tcGxldGU9ImN1cnJlbnQtcGFzc3dvcmQiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc1N1Ym1pdHRpbmcgfHwgaXNMb2dpbkNvb2xpbmdEb3duIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyByb3VuZGVkLWxnIGJvcmRlciBiZy1tdXRlZC80MCBweC0zIHB5LTIiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxDaGVja2JveAogICAgICAgICAgICAgIGlkPSJsZGFwLWJpbmQtcmVtZW1iZXIiCiAgICAgICAgICAgICAgdi1tb2RlbD0icmVtZW1iZXJNZSIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzU3VibWl0dGluZyB8fCBpc0xvZ2luQ29vbGluZ0Rvd24iCiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDxsYWJlbCBmb3I9ImxkYXAtYmluZC1yZW1lbWJlciIgY2xhc3M9ImN1cnNvci1wb2ludGVyIHRleHQtc20iPgogICAgICAgICAgICAgIHt7IHQoImF1dGgucmVtZW1iZXJNZSIpIH19CiAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgdi1pZj0iZXJyb3JNZXNzYWdlIgogICAgICAgICAgICBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWRlc3RydWN0aXZlLzMwIGJnLWRlc3RydWN0aXZlLzUgcHgtNCBweS0zIHRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgICAgcm9sZT0iYWxlcnQiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IGVycm9yTWVzc2FnZSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIHR5cGU9InN1Ym1pdCIKICAgICAgICAgICAgY2xhc3M9InctZnVsbCIKICAgICAgICAgICAgOmRpc2FibGVkPSJpc1N1Ym1pdHRpbmcgfHwgaXNMb2dpbkNvb2xpbmdEb3duIgogICAgICAgICAgPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIGlzU3VibWl0dGluZwogICAgICAgICAgICAgICAgPyB0KCJhdXRoLnZlcmlmeWluZyIpCiAgICAgICAgICAgICAgICA6IGlzTG9naW5Db29saW5nRG93bgogICAgICAgICAgICAgICAgICA/IHQoImF1dGgucmV0cnlBZnRlclNlY29uZHMiLCB7CiAgICAgICAgICAgICAgICAgICAgICBzZWNvbmRzOiBsb2dpbkNvb2xkb3duU2Vjb25kcywKICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICA6IHQoImF1dGgubGRhcEJpbmQuYmluZE5vdyIpCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L2Zvcm0+CiAgICA8L0F1dGhDYXJkPgogIDwvQXV0aFNoZWxsPgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IG9uTW91bnRlZCwgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHR5cGUgeyBMb2NhbGVDb25maWcgfSBmcm9tICJAZm4ta25vY2svaTE4bi9jb3JlIjsKaW1wb3J0IHR5cGUgeyBBcHBlYXJhbmNlQ29uZmlnIH0gZnJvbSAiQGZyb250ZW5kLWNvcmUvYXBwZWFyYW5jZSI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDaGVja2JveCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jaGVja2JveCI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgQXV0aENhcmQgZnJvbSAiQC9jb21wb25lbnRzL0F1dGhDYXJkLnZ1ZSI7CmltcG9ydCBBdXRoU2hlbGwgZnJvbSAiQC9jb21wb25lbnRzL0F1dGhTaGVsbC52dWUiOwppbXBvcnQgVHVybnN0aWxlV2lkZ2V0IGZyb20gIkAvY29tcG9uZW50cy9jYXB0Y2hhL1R1cm5zdGlsZVdpZGdldC52dWUiOwppbXBvcnQgeyB1c2VBdXRoU3lzdGVtQ29uZmlnIH0gZnJvbSAiQC9jb21wb3NhYmxlcy91c2VBdXRoU3lzdGVtQ29uZmlnIjsKaW1wb3J0IHsgdXNlTG9naW5DYXB0Y2hhIH0gZnJvbSAiQC9jb21wb3NhYmxlcy91c2VMb2dpbkNhcHRjaGEiOwppbXBvcnQgeyB1c2VMb2dpbkNvb2xkb3duIH0gZnJvbSAiQC9jb21wb3NhYmxlcy91c2VMb2dpbkNvb2xkb3duIjsKaW1wb3J0IHsgYXBpQ2xpZW50LCBDYXB0Y2hhQVBJIH0gZnJvbSAiQC9saWIvYXBpIjsKCnR5cGUgSW52aXRlRGV0YWlscyA9IHsKICBsb2NhbGU6IExvY2FsZUNvbmZpZzsKICBhcHBlYXJhbmNlOiBBcHBlYXJhbmNlQ29uZmlnOwogIHRvdHA6IHsgaWQ6IHN0cmluZzsgY29tbWVudDogc3RyaW5nIH07CiAgcHJvdmlkZXI6IHsgaWQ6IHN0cmluZzsgbmFtZTogc3RyaW5nOyBwcm90b2NvbDogImxkYXAiIH07CiAgZXhwaXJlc19hdDogc3RyaW5nOwp9OwoKY29uc3QgcGFyYW1zID0KICB0eXBlb2Ygd2luZG93ICE9PSAidW5kZWZpbmVkIgogICAgPyBuZXcgVVJMU2VhcmNoUGFyYW1zKHdpbmRvdy5sb2NhdGlvbi5zZWFyY2gpCiAgICA6IG5ldyBVUkxTZWFyY2hQYXJhbXMoKTsKY29uc3QgdG9rZW4gPSBwYXJhbXMuZ2V0KCJ0b2tlbiIpIHx8ICIiOwpjb25zdCByZWRpcmVjdFVyaSA9IHBhcmFtcy5nZXQoInJlZGlyZWN0X3VyaSIpIHx8ICIiOwpjb25zdCBpbnZpdGUgPSByZWY8SW52aXRlRGV0YWlscyB8IG51bGw+KG51bGwpOwpjb25zdCB1c2VybmFtZSA9IHJlZigiIik7CmNvbnN0IHBhc3N3b3JkID0gcmVmKCIiKTsKY29uc3QgcmVtZW1iZXJNZSA9IHJlZihmYWxzZSk7CmNvbnN0IGVycm9yTWVzc2FnZSA9IHJlZigiIik7CmNvbnN0IGlzTG9hZGluZyA9IHJlZih0cnVlKTsKY29uc3QgaXNTdWJtaXR0aW5nID0gcmVmKGZhbHNlKTsKY29uc3QgaTE4biA9IHVzZUkxOG4oKTsKY29uc3QgeyB0IH0gPSBpMThuOwpjb25zdCB7IGFwcGx5QXV0aFN5c3RlbUNvbmZpZyB9ID0gdXNlQXV0aFN5c3RlbUNvbmZpZyhpMThuKTsKCmNvbnN0IHsKICBhY3RpdmVDYXB0Y2hhUHJvdmlkZXIsCiAgY2FwdGNoYUNvbmZpZywKICBjYXB0Y2hhU3VibWlzc2lvbiwKICBjYXB0Y2hhVW5hdmFpbGFibGVSZWFzb24sCiAgaGFuZGxlUG93RmFsbGJhY2tWZXJpZnksCiAgaGFuZGxlVHVybnN0aWxlRXJyb3IsCiAgaGFuZGxlVHVybnN0aWxlVmVyaWZpZWQsCiAgaGFzVHVybnN0aWxlU2l0ZUtleSwKICBpc0NhcHRjaGFDb25maWdMb2FkaW5nLAogIGlzQ2FwdGNoYVByb3ZpZGVyQXZhaWxhYmxlLAogIGlzQ2FwdGNoYVZlcmlmaWVkLAogIGlzUG93RmFsbGJhY2tMb2FkaW5nLAogIHJlc2V0Q2FwdGNoYSwKICByZXNldENhcHRjaGFXaWRnZXRzLAogIHR1cm5zdGlsZVdpZGdldFJlZiwKfSA9IHVzZUxvZ2luQ2FwdGNoYSh7CiAgY2FuVXNlTmF0aXZlUG93OiBmYWxzZSwKICB0cmFuc2xhdGU6IChrZXkpID0+IHQoa2V5KSwKICBvbkVycm9yOiAobWVzc2FnZSkgPT4gewogICAgZXJyb3JNZXNzYWdlLnZhbHVlID0gbWVzc2FnZTsKICB9LAp9KTsKdm9pZCB0dXJuc3RpbGVXaWRnZXRSZWY7CmNvbnN0IHsKICBpc0Nvb2xpbmdEb3duOiBpc0xvZ2luQ29vbGluZ0Rvd24sCiAgcmVtYWluaW5nU2Vjb25kczogbG9naW5Db29sZG93blNlY29uZHMsCiAgcmVzb2x2ZU1lc3NhZ2U6IHJlc29sdmVMb2dpbkNvb2xkb3duTWVzc2FnZSwKfSA9IHVzZUxvZ2luQ29vbGRvd24oewogIGZvcm1hdFJldHJ5U3VmZml4OiAoc2Vjb25kcykgPT4gdCgiYXV0aC5yZXRyeVN1ZmZpeCIsIHsgc2Vjb25kcyB9KSwKfSk7Cgpvbk1vdW50ZWQobG9hZEludml0ZSk7Cgphc3luYyBmdW5jdGlvbiBsb2FkSW52aXRlKCkgewogIHRyeSB7CiAgICBpZiAoIXRva2VuKSB0aHJvdyBuZXcgRXJyb3IodCgiYXV0aC5sZGFwQmluZC5taXNzaW5nVG9rZW4iKSk7CiAgICBjb25zdCBbaW52aXRlUmVzcG9uc2UsIGNhcHRjaGFdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgICBhcGlDbGllbnQuZ2V0KCIvbGRhcC9pbnZpdGUiLCB7IHBhcmFtczogeyB0b2tlbiB9IH0pLAogICAgICBDYXB0Y2hhQVBJLmdldENvbmZpZygpLAogICAgXSk7CiAgICBpbnZpdGUudmFsdWUgPSBpbnZpdGVSZXNwb25zZS5kYXRhLmRhdGE7CiAgICBjYXB0Y2hhQ29uZmlnLnZhbHVlID0gY2FwdGNoYTsKICAgIGF3YWl0IGFwcGx5QXV0aFN5c3RlbUNvbmZpZyhpbnZpdGUudmFsdWUpOwogIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsKICAgIGF3YWl0IGFwcGx5QXV0aFN5c3RlbUNvbmZpZyhlcnJvcj8ucmVzcG9uc2U/LmRhdGE/LmRhdGEpOwogICAgZXJyb3JNZXNzYWdlLnZhbHVlID0KICAgICAgZXJyb3I/LnJlc3BvbnNlPy5kYXRhPy5tZXNzYWdlIHx8CiAgICAgIGVycm9yPy5tZXNzYWdlIHx8CiAgICAgIHQoImF1dGgubGRhcEJpbmQuaW52aXRlRXhwaXJlZCIpOwogIH0gZmluYWxseSB7CiAgICBpc0NhcHRjaGFDb25maWdMb2FkaW5nLnZhbHVlID0gZmFsc2U7CiAgICBpc0xvYWRpbmcudmFsdWUgPSBmYWxzZTsKICB9Cn0KCmFzeW5jIGZ1bmN0aW9uIGJpbmRJZGVudGl0eSgpIHsKICBpZiAoaXNTdWJtaXR0aW5nLnZhbHVlIHx8IGlzTG9naW5Db29saW5nRG93bi52YWx1ZSkgcmV0dXJuOwogIGlmICghdXNlcm5hbWUudmFsdWUudHJpbSgpIHx8ICFwYXNzd29yZC52YWx1ZSkgewogICAgZXJyb3JNZXNzYWdlLnZhbHVlID0gdCgiYXV0aC51c2VybmFtZVBhc3N3b3JkUmVxdWlyZWQiKTsKICAgIHJldHVybjsKICB9CiAgaWYgKCFjYXB0Y2hhU3VibWlzc2lvbi52YWx1ZSkgewogICAgZXJyb3JNZXNzYWdlLnZhbHVlID0gdCgiYXV0aC5jYXB0Y2hhRmlyc3QiKTsKICAgIHJldHVybjsKICB9CiAgaXNTdWJtaXR0aW5nLnZhbHVlID0gdHJ1ZTsKICBlcnJvck1lc3NhZ2UudmFsdWUgPSAiIjsKICB0cnkgewogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL2xkYXAvYmluZCIsIHsKICAgICAgdG9rZW4sCiAgICAgIHVzZXJuYW1lOiB1c2VybmFtZS52YWx1ZS50cmltKCksCiAgICAgIHBhc3N3b3JkOiBwYXNzd29yZC52YWx1ZSwKICAgICAgY2FwdGNoYTogY2FwdGNoYVN1Ym1pc3Npb24udmFsdWUsCiAgICAgIHJlbWVtYmVyTWU6IHJlbWVtYmVyTWUudmFsdWUsCiAgICAgIHJlZGlyZWN0X3VyaTogcmVkaXJlY3RVcmkgfHwgdW5kZWZpbmVkLAogICAgfSk7CiAgICBjb25zdCByZWRpcmVjdFRvID0gcmVzcG9uc2UuZGF0YT8uZGF0YT8ucmVkaXJlY3RfdG87CiAgICB3aW5kb3cubG9jYXRpb24uYXNzaWduKAogICAgICB0eXBlb2YgcmVkaXJlY3RUbyA9PT0gInN0cmluZyIgJiYgcmVkaXJlY3RUbyA/IHJlZGlyZWN0VG8gOiAiLyIsCiAgICApOwogIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsKICAgIHBhc3N3b3JkLnZhbHVlID0gIiI7CiAgICBlcnJvck1lc3NhZ2UudmFsdWUgPSByZXNvbHZlTG9naW5Db29sZG93bk1lc3NhZ2UoCiAgICAgIGVycm9yPy5yZXNwb25zZT8uZGF0YT8ubWVzc2FnZSB8fAogICAgICAgIGVycm9yPy5tZXNzYWdlIHx8CiAgICAgICAgdCgiYXV0aC5sZGFwQmluZC5iaW5kRmFpbGVkIiksCiAgICAgIGVycm9yLAogICAgKTsKICAgIHJlc2V0Q2FwdGNoYVdpZGdldHMoKTsKICB9IGZpbmFsbHkgewogICAgaXNTdWJtaXR0aW5nLnZhbHVlID0gZmFsc2U7CiAgfQp9Cjwvc2NyaXB0Pgo=
+<template>
+  <AuthShell>
+    <AuthCard
+      :title="t('auth.ldapBind.title')"
+      :description="t('auth.ldapBind.description')"
+      content-class="space-y-4"
+    >
+      <div
+        v-if="isLoading"
+        class="py-8 text-center text-sm text-muted-foreground"
+        role="status"
+      >
+        {{ t("auth.ldapBind.checkingInvite") }}
+      </div>
+      <div
+        v-else-if="errorMessage && !invite"
+        class="rounded-lg border border-destructive/30 bg-destructive/5 px-4 py-3 text-sm text-destructive"
+        role="alert"
+      >
+        {{ errorMessage }}
+      </div>
+      <form v-else-if="invite" class="space-y-4" @submit.prevent="bindIdentity">
+        <div class="rounded-lg border bg-muted/40 px-3 py-2 text-sm">
+          <div class="text-muted-foreground">
+            {{ t("auth.ldapBind.bindTo") }}
+          </div>
+          <div class="font-medium">{{ invite.totp.comment || "TOTP" }}</div>
+          <div class="mt-1 text-xs text-muted-foreground">
+            {{ invite.provider.name }}
+          </div>
+        </div>
+
+        <div v-if="!isCaptchaVerified" class="space-y-3">
+          <Button
+            v-if="activeCaptchaProvider === 'pow' && isCaptchaProviderAvailable"
+            type="button"
+            class="w-full"
+            :disabled="isPowFallbackLoading || isLoginCoolingDown"
+            @click="handlePowFallbackVerify"
+          >
+            {{
+              isPowFallbackLoading ? t("auth.verifying") : t("auth.notRobot")
+            }}
+          </Button>
+          <TurnstileWidget
+            v-else-if="
+              activeCaptchaProvider === 'turnstile' &&
+              isCaptchaProviderAvailable &&
+              hasTurnstileSiteKey
+            "
+            ref="turnstileWidgetRef"
+            :site-key="captchaConfig?.turnstile.site_key || ''"
+            :disabled="isSubmitting || isLoginCoolingDown"
+            @verified="handleTurnstileVerified"
+            @expired="resetCaptcha"
+            @reset="resetCaptcha"
+            @error="handleTurnstileError"
+          />
+          <div
+            v-else-if="!isCaptchaConfigLoading"
+            class="rounded-lg border border-destructive/30 bg-destructive/5 px-4 py-3 text-sm text-destructive"
+          >
+            {{ captchaUnavailableReason }}
+          </div>
+        </div>
+
+        <template v-else>
+          <div class="space-y-2">
+            <Label for="ldap-bind-username">{{ t("auth.ldapUsername") }}</Label>
+            <Input
+              id="ldap-bind-username"
+              v-model="username"
+              autocomplete="username"
+              :disabled="isSubmitting || isLoginCoolingDown"
+            />
+          </div>
+          <div class="space-y-2">
+            <Label for="ldap-bind-password">{{ t("auth.ldapPassword") }}</Label>
+            <Input
+              id="ldap-bind-password"
+              v-model="password"
+              type="password"
+              autocomplete="current-password"
+              :disabled="isSubmitting || isLoginCoolingDown"
+            />
+          </div>
+          <div
+            class="flex items-center gap-3 rounded-lg border bg-muted/40 px-3 py-2"
+          >
+            <Checkbox
+              id="ldap-bind-remember"
+              v-model="rememberMe"
+              :disabled="isSubmitting || isLoginCoolingDown"
+            />
+            <label for="ldap-bind-remember" class="cursor-pointer text-sm">
+              {{ t("auth.rememberMe") }}
+            </label>
+          </div>
+          <div
+            v-if="errorMessage"
+            class="rounded-lg border border-destructive/30 bg-destructive/5 px-4 py-3 text-sm text-destructive"
+            role="alert"
+          >
+            {{ errorMessage }}
+          </div>
+          <Button
+            type="submit"
+            class="w-full"
+            :disabled="isSubmitting || isLoginCoolingDown"
+          >
+            {{
+              isSubmitting
+                ? t("auth.verifying")
+                : isLoginCoolingDown
+                  ? t("auth.retryAfterSeconds", {
+                      seconds: loginCooldownSeconds,
+                    })
+                  : t("auth.ldapBind.bindNow")
+            }}
+          </Button>
+        </template>
+      </form>
+    </AuthCard>
+  </AuthShell>
+</template>
+
+<script setup lang="ts">
+import { onMounted, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import type { LocaleConfig } from "@fn-knock/i18n/core";
+import type { AppearanceConfig } from "@frontend-core/appearance";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import AuthCard from "@/components/AuthCard.vue";
+import AuthShell from "@/components/AuthShell.vue";
+import TurnstileWidget from "@/components/captcha/TurnstileWidget.vue";
+import { useAuthSystemConfig } from "@/composables/useAuthSystemConfig";
+import { useLoginCaptcha } from "@/composables/useLoginCaptcha";
+import { useLoginCooldown } from "@/composables/useLoginCooldown";
+import { apiClient, CaptchaAPI } from "@/lib/api";
+
+type InviteDetails = {
+  locale: LocaleConfig;
+  appearance: AppearanceConfig;
+  totp: { id: string; comment: string };
+  provider: { id: string; name: string; protocol: "ldap" };
+  expires_at: string;
+};
+
+const params =
+  typeof window !== "undefined"
+    ? new URLSearchParams(window.location.search)
+    : new URLSearchParams();
+const token = params.get("token") || "";
+const redirectUri = params.get("redirect_uri") || "";
+const invite = ref<InviteDetails | null>(null);
+const username = ref("");
+const password = ref("");
+const rememberMe = ref(false);
+const errorMessage = ref("");
+const isLoading = ref(true);
+const isSubmitting = ref(false);
+const i18n = useI18n();
+const { t } = i18n;
+const { applyAuthSystemConfig } = useAuthSystemConfig(i18n);
+
+const {
+  activeCaptchaProvider,
+  captchaConfig,
+  captchaSubmission,
+  captchaUnavailableReason,
+  handlePowFallbackVerify,
+  handleTurnstileError,
+  handleTurnstileVerified,
+  hasTurnstileSiteKey,
+  isCaptchaConfigLoading,
+  isCaptchaProviderAvailable,
+  isCaptchaVerified,
+  isPowFallbackLoading,
+  resetCaptcha,
+  resetCaptchaWidgets,
+  turnstileWidgetRef,
+} = useLoginCaptcha({
+  canUseNativePow: false,
+  translate: (key) => t(key),
+  onError: (message) => {
+    errorMessage.value = message;
+  },
+});
+void turnstileWidgetRef;
+const {
+  isCoolingDown: isLoginCoolingDown,
+  remainingSeconds: loginCooldownSeconds,
+  resolveMessage: resolveLoginCooldownMessage,
+} = useLoginCooldown({
+  formatRetrySuffix: (seconds) => t("auth.retrySuffix", { seconds }),
+});
+
+onMounted(loadInvite);
+
+async function loadInvite() {
+  try {
+    if (!token) throw new Error(t("auth.ldapBind.missingToken"));
+    const [inviteResponse, captcha] = await Promise.all([
+      apiClient.get("/ldap/invite", { params: { token } }),
+      CaptchaAPI.getConfig(),
+    ]);
+    invite.value = inviteResponse.data.data;
+    captchaConfig.value = captcha;
+    await applyAuthSystemConfig(invite.value);
+  } catch (error: any) {
+    await applyAuthSystemConfig(error?.response?.data?.data);
+    errorMessage.value =
+      error?.response?.data?.message ||
+      error?.message ||
+      t("auth.ldapBind.inviteExpired");
+  } finally {
+    isCaptchaConfigLoading.value = false;
+    isLoading.value = false;
+  }
+}
+
+async function bindIdentity() {
+  if (isSubmitting.value || isLoginCoolingDown.value) return;
+  if (!username.value.trim() || !password.value) {
+    errorMessage.value = t("auth.usernamePasswordRequired");
+    return;
+  }
+  if (!captchaSubmission.value) {
+    errorMessage.value = t("auth.captchaFirst");
+    return;
+  }
+  isSubmitting.value = true;
+  errorMessage.value = "";
+  try {
+    const response = await apiClient.post("/ldap/bind", {
+      token,
+      username: username.value.trim(),
+      password: password.value,
+      captcha: captchaSubmission.value,
+      rememberMe: rememberMe.value,
+      redirect_uri: redirectUri || undefined,
+    });
+    const redirectTo = response.data?.data?.redirect_to;
+    window.location.assign(
+      typeof redirectTo === "string" && redirectTo ? redirectTo : "/",
+    );
+  } catch (error: any) {
+    password.value = "";
+    errorMessage.value = resolveLoginCooldownMessage(
+      error?.response?.data?.message ||
+        error?.message ||
+        t("auth.ldapBind.bindFailed"),
+      error,
+    );
+    resetCaptchaWidgets();
+  } finally {
+    isSubmitting.value = false;
+  }
+}
+</script>

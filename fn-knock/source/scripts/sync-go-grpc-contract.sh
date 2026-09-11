@@ -1,1 +1,37 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4iICYmIHB3ZCkiCkdPX1JFUE9TSVRPUlk9IiR7MTotJHtGTl9LTk9DS19HT19SRUFVVEhfUFJPWFlfRElSOi0ke1JPT1RfRElSfS8uLi9Hby1SZWF1dGgtUHJveHl9fSIKUFJPVE9fUk9PVD0iJHtST09UX0RJUn0vcGFja2FnZXMvZ3JwYy1jb250cmFjdHMvcHJvdG8iClBST1RPX0ZJTEU9IiR7UFJPVE9fUk9PVH0vZm5rbm9jay92MS9nYXRld2F5LnByb3RvIgpQUk9UT0NfR0VOX0dPX1ZFUlNJT049InYxLjM2LjExIgpQUk9UT0NfR0VOX0dPX0dSUENfVkVSU0lPTj0idjEuNS4xIgoKZmFpbCgpIHsKICBwcmludGYgJ1tzeW5jLWdvLWdycGMtY29udHJhY3RdIEVSUk9SOiAlc1xuJyAiJCoiID4mMgogIGV4aXQgMQp9CgpbIC1kICIke0dPX1JFUE9TSVRPUll9IiBdIHx8IGZhaWwgIm1pc3NpbmcgR28gcmVwb3NpdG9yeTogJHtHT19SRVBPU0lUT1JZfSIKZm9yIGNvbW1hbmRfbmFtZSBpbiBnbyBwcm90b2M7IGRvCiAgY29tbWFuZCAtdiAiJHtjb21tYW5kX25hbWV9IiA+L2Rldi9udWxsIDI+JjEgfHwgZmFpbCAibWlzc2luZyByZXF1aXJlZCBjb21tYW5kOiAke2NvbW1hbmRfbmFtZX0iCmRvbmUKClRPT0xfRElSPSIkKG1rdGVtcCAtZCAiJHtUTVBESVI6LS90bXB9L2Zua25vY2stcHJvdG9jLXRvb2xzLlhYWFhYWCIpIgp0cmFwICdybSAtcmYgIiR7VE9PTF9ESVJ9IicgRVhJVApHT0JJTj0iJHtUT09MX0RJUn0iIGdvIGluc3RhbGwgXAogICJnb29nbGUuZ29sYW5nLm9yZy9wcm90b2J1Zi9jbWQvcHJvdG9jLWdlbi1nb0Ake1BST1RPQ19HRU5fR09fVkVSU0lPTn0iCkdPQklOPSIke1RPT0xfRElSfSIgZ28gaW5zdGFsbCBcCiAgImdvb2dsZS5nb2xhbmcub3JnL2dycGMvY21kL3Byb3RvYy1nZW4tZ28tZ3JwY0Ake1BST1RPQ19HRU5fR09fR1JQQ19WRVJTSU9OfSIKZXhwb3J0IFBBVEg9IiR7VE9PTF9ESVJ9OiR7UEFUSH0iCgpwcm90b2MgXAogIC0tcHJvdG9fcGF0aCAiJHtQUk9UT19ST09UfSIgXAogIC0tZ29fb3V0ICIke0dPX1JFUE9TSVRPUll9IiBcCiAgLS1nb19vcHQgbW9kdWxlPWdvLXJlYXV0aC1wcm94eSBcCiAgLS1nby1ncnBjX291dCAiJHtHT19SRVBPU0lUT1JZfSIgXAogIC0tZ28tZ3JwY19vcHQgbW9kdWxlPWdvLXJlYXV0aC1wcm94eSBcCiAgIiR7UFJPVE9fRklMRX0iCgpiYXNoICIke1JPT1RfRElSfS9zY3JpcHRzL3ZlcmlmeS1nby1jb250cm9sLWFwaS1jb250cmFjdC5zaCIgIiR7R09fUkVQT1NJVE9SWX0iCg==
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+GO_REPOSITORY="${1:-${FN_KNOCK_GO_REAUTH_PROXY_DIR:-${ROOT_DIR}/../Go-Reauth-Proxy}}"
+PROTO_ROOT="${ROOT_DIR}/packages/grpc-contracts/proto"
+PROTO_FILE="${PROTO_ROOT}/fnknock/v1/gateway.proto"
+PROTOC_GEN_GO_VERSION="v1.36.11"
+PROTOC_GEN_GO_GRPC_VERSION="v1.5.1"
+
+fail() {
+  printf '[sync-go-grpc-contract] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+[ -d "${GO_REPOSITORY}" ] || fail "missing Go repository: ${GO_REPOSITORY}"
+for command_name in go protoc; do
+  command -v "${command_name}" >/dev/null 2>&1 || fail "missing required command: ${command_name}"
+done
+
+TOOL_DIR="$(mktemp -d "${TMPDIR:-/tmp}/fnknock-protoc-tools.XXXXXX")"
+trap 'rm -rf "${TOOL_DIR}"' EXIT
+GOBIN="${TOOL_DIR}" go install \
+  "google.golang.org/protobuf/cmd/protoc-gen-go@${PROTOC_GEN_GO_VERSION}"
+GOBIN="${TOOL_DIR}" go install \
+  "google.golang.org/grpc/cmd/protoc-gen-go-grpc@${PROTOC_GEN_GO_GRPC_VERSION}"
+export PATH="${TOOL_DIR}:${PATH}"
+
+protoc \
+  --proto_path "${PROTO_ROOT}" \
+  --go_out "${GO_REPOSITORY}" \
+  --go_opt module=go-reauth-proxy \
+  --go-grpc_out "${GO_REPOSITORY}" \
+  --go-grpc_opt module=go-reauth-proxy \
+  "${PROTO_FILE}"
+
+bash "${ROOT_DIR}/scripts/verify-go-control-api-contract.sh" "${GO_REPOSITORY}"

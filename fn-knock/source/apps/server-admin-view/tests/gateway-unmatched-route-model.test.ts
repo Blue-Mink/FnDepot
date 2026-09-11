@@ -1,1 +1,108 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHRlc3QgZnJvbSAibm9kZTp0ZXN0IjsKCmltcG9ydCB7CiAgYnVpbGRHYXRld2F5VW5tYXRjaGVkUm91dGVQYXRjaCwKICBpc0RlZmF1bHREb21haW5BdmFpbGFibGVGb3JCZWhhdmlvciwKICBub3JtYWxpemVHYXRld2F5VW5tYXRjaGVkUm91dGVCZWhhdmlvciwKICBub3JtYWxpemVHYXRld2F5VXBzdHJlYW1FcnJvckRldGFpbCwKfSBmcm9tICIuLi9zcmMvbGliL2dhdGV3YXlVbm1hdGNoZWRSb3V0ZSI7Cgpjb25zdCByZWFkU291cmNlID0gKHBhdGg6IHN0cmluZykgPT4KICByZWFkRmlsZVN5bmMobmV3IFVSTChwYXRoLCBpbXBvcnQubWV0YS51cmwpLCAidXRmOCIpOwoKdGVzdCgiZ2F0ZXdheSB1bm1hdGNoZWQtcm91dGUgYmVoYXZpb3Igbm9ybWFsaXplcyBsZWdhY3kgYW5kIGludmFsaWQgdmFsdWVzIiwgKCkgPT4gewogIGFzc2VydC5lcXVhbChub3JtYWxpemVHYXRld2F5VW5tYXRjaGVkUm91dGVCZWhhdmlvcigpLCAiZXJyb3JfcGFnZSIpOwogIGFzc2VydC5lcXVhbChub3JtYWxpemVHYXRld2F5VW5tYXRjaGVkUm91dGVCZWhhdmlvcigiaW52YWxpZCIpLCAiZXJyb3JfcGFnZSIpOwogIGFzc2VydC5lcXVhbCgKICAgIG5vcm1hbGl6ZUdhdGV3YXlVbm1hdGNoZWRSb3V0ZUJlaGF2aW9yKCJyZXNldF9jb25uZWN0aW9uIiksCiAgICAicmVzZXRfY29ubmVjdGlvbiIsCiAgKTsKfSk7Cgp0ZXN0KCJnYXRld2F5IHVubWF0Y2hlZC1yb3V0ZSBzZWxlY3Rpb24gYnVpbGRzIHRoZSB1bmlmaWVkLXNhdmUgcGF0Y2giLCAoKSA9PiB7CiAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgIGJ1aWxkR2F0ZXdheVVubWF0Y2hlZFJvdXRlUGF0Y2goInJlc2V0X2Nvbm5lY3Rpb24iLCAibW9yZSIpLAogICAgewogICAgICB1bm1hdGNoZWRfcm91dGU6IHsKICAgICAgICBiZWhhdmlvcjogInJlc2V0X2Nvbm5lY3Rpb24iLAogICAgICAgIHVwc3RyZWFtX2Vycm9yX2RldGFpbDogIm1vcmUiLAogICAgICB9LAogICAgfSwKICApOwp9KTsKCnRlc3QoImdhdGV3YXkgdXBzdHJlYW0gZXJyb3IgZGV0YWlsIGRlZmF1bHRzIHRvIGxlc3MiLCAoKSA9PiB7CiAgYXNzZXJ0LmVxdWFsKG5vcm1hbGl6ZUdhdGV3YXlVcHN0cmVhbUVycm9yRGV0YWlsKCksICJsZXNzIik7CiAgYXNzZXJ0LmVxdWFsKG5vcm1hbGl6ZUdhdGV3YXlVcHN0cmVhbUVycm9yRGV0YWlsKCJpbnZhbGlkIiksICJsZXNzIik7CiAgYXNzZXJ0LmVxdWFsKG5vcm1hbGl6ZUdhdGV3YXlVcHN0cmVhbUVycm9yRGV0YWlsKCJtb3JlIiksICJtb3JlIik7CiAgYXNzZXJ0LmVxdWFsKAogICAgbm9ybWFsaXplR2F0ZXdheVVwc3RyZWFtRXJyb3JEZXRhaWwoInJlc2V0X2Nvbm5lY3Rpb24iKSwKICAgICJyZXNldF9jb25uZWN0aW9uIiwKICApOwp9KTsKCnRlc3QoImdhdGV3YXkgdXBzdHJlYW0gZXJyb3Igc2V0dGluZyBvZmZlcnMgY29ubmVjdGlvbiBibG9ja2luZyIsICgpID0+IHsKICBjb25zdCBzb3VyY2UgPSByZWFkU291cmNlKAogICAgIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvR2F0ZXdheVVwc3RyZWFtRXJyb3JTZXR0aW5nUm93LnZ1ZSIsCiAgKTsKCiAgYXNzZXJ0Lm1hdGNoKHNvdXJjZSwgL3NlbGVjdERldGFpbFwoJ3Jlc2V0X2Nvbm5lY3Rpb24nXCkvdSk7CiAgYXNzZXJ0Lm1hdGNoKHNvdXJjZSwgL2FkbWluXC5nYXRld2F5U2V0dGluZ3NcLnVwc3RyZWFtRXJyb3JEZXRhaWxSZXNldC91KTsKICBhc3NlcnQubWF0Y2goc291cmNlLCAvZ3JpZCB3LWZ1bGwgZ2FwLTEvdSk7CiAgYXNzZXJ0Lm1hdGNoKHNvdXJjZSwgL3NtOmlubGluZS1mbGV4IHNtOnctZml0L3UpOwp9KTsKCnRlc3QoImRlZmF1bHQtZG9tYWluIGF2YWlsYWJpbGl0eSBmb2xsb3dzIHRoZSBiZWhhdmlvciIsICgpID0+IHsKICBhc3NlcnQuZXF1YWwoaXNEZWZhdWx0RG9tYWluQXZhaWxhYmxlRm9yQmVoYXZpb3IoKSwgdHJ1ZSk7CiAgYXNzZXJ0LmVxdWFsKGlzRGVmYXVsdERvbWFpbkF2YWlsYWJsZUZvckJlaGF2aW9yKCJlcnJvcl9wYWdlIiksIHRydWUpOwogIGFzc2VydC5lcXVhbChpc0RlZmF1bHREb21haW5BdmFpbGFibGVGb3JCZWhhdmlvcigicmVzZXRfY29ubmVjdGlvbiIpLCBmYWxzZSk7Cn0pOwoKdGVzdCgiZ2F0ZXdheSBzZXR0aW5ncyBrZWVwcyB1bm1hdGNoZWQtcm91dGUgc2VsZWN0aW9uIGlubGluZSBhbmQgaW4gdW5pZmllZCBzYXZlIiwgKCkgPT4gewogIGNvbnN0IHZpZXdTb3VyY2UgPSByZWFkU291cmNlKAogICAgIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvR2F0ZXdheVNldHRpbmdzLnZ1ZSIsCiAgKTsKICBjb25zdCBjb250cm9sbGVyU291cmNlID0gcmVhZFNvdXJjZSgKICAgICIuLi9zcmMvdmlld3Mvc3lzdGVtLXNldHRpbmdzL3VzZUdhdGV3YXlTZXR0aW5nc0NvbnRyb2xsZXIudHMiLAogICk7CiAgY29uc3Qgcm91dGVyU291cmNlID0gcmVhZFNvdXJjZSgiLi4vc3JjL3JvdXRlci9pbmRleC50cyIpOwoKICBhc3NlcnQubWF0Y2godmlld1NvdXJjZSwgLzxHYXRld2F5VW5tYXRjaGVkUm91dGVTZXR0aW5nUm93L3UpOwogIGFzc2VydC5tYXRjaCh2aWV3U291cmNlLCAvdi1tb2RlbD0iZm9ybVwudW5tYXRjaGVkX3JvdXRlXC5iZWhhdmlvciIvdSk7CiAgYXNzZXJ0Lm1hdGNoKHZpZXdTb3VyY2UsIC88R2F0ZXdheVVwc3RyZWFtRXJyb3JTZXR0aW5nUm93L3UpOwogIGFzc2VydC5tYXRjaCgKICAgIHZpZXdTb3VyY2UsCiAgICAvdi1tb2RlbD0iZm9ybVwudW5tYXRjaGVkX3JvdXRlXC51cHN0cmVhbV9lcnJvcl9kZXRhaWwiL3UsCiAgKTsKICBhc3NlcnQubWF0Y2goCiAgICBjb250cm9sbGVyU291cmNlLAogICAgL1wuXC5cLmJ1aWxkR2F0ZXdheVVubWF0Y2hlZFJvdXRlUGF0Y2hcKFxzKmZvcm1cLnVubWF0Y2hlZF9yb3V0ZVwuYmVoYXZpb3IsXHMqZm9ybVwudW5tYXRjaGVkX3JvdXRlXC51cHN0cmVhbV9lcnJvcl9kZXRhaWwsXHMqXCkvdSwKICApOwogIGFzc2VydC5kb2VzTm90TWF0Y2gocm91dGVyU291cmNlLCAvZ2F0ZXdheS11bm1hdGNoZWQtcm91dGUvdSk7Cn0pOwoKdGVzdCgib25seSB0aGUgZGVmYXVsdC1kb21haW4gaW5kaWNhdG9yIHJlY2VpdmVzIHRoZSB1bmF2YWlsYWJsZSB2aXN1YWwgc3RhdGUiLCAoKSA9PiB7CiAgY29uc3QgYXZhaWxhYmlsaXR5U291cmNlID0gcmVhZFNvdXJjZSgKICAgICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L1N1YmRvbWFpbk1hcHBpbmdBdmFpbGFiaWxpdHlJbmRpY2F0b3JzLnZ1ZSIsCiAgKTsKICBjb25zdCBhY2Nlc3NTb3VyY2UgPSByZWFkU291cmNlKAogICAgIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvU3ViZG9tYWluTWFwcGluZ0FjY2Vzc0luZGljYXRvcnMudnVlIiwKICApOwogIGNvbnN0IHNjaGVkdWxlZE9wZW5CbG9jayA9IGF2YWlsYWJpbGl0eVNvdXJjZS5tYXRjaCgKICAgIC88U3ViZG9tYWluTWFwcGluZ1N0YXR1c1Rvb2x0aXBccyt2LWVsc2UtaWY9Im1vZGVsXC5hdmFpbGFiaWxpdHlTdGF0ZSA9PT0gJ3NjaGVkdWxlZF9vcGVuJyJbXHNcU10qPzxcL1N1YmRvbWFpbk1hcHBpbmdTdGF0dXNUb29sdGlwPi91LAogICk/LlswXTsKICBjb25zdCBkZWZhdWx0RG9tYWluQmxvY2sgPSBhY2Nlc3NTb3VyY2UubWF0Y2goCiAgICAvPFN1YmRvbWFpbk1hcHBpbmdTdGF0dXNUb29sdGlwXHMrdi1pZj0ibW9kZWxcLm1hcHBpbmdcLmlzX2RlZmF1bHQiW1xzXFNdKj88XC9TdWJkb21haW5NYXBwaW5nU3RhdHVzVG9vbHRpcD4vdSwKICApPy5bMF07CgogIGFzc2VydC5vayhzY2hlZHVsZWRPcGVuQmxvY2spOwogIGFzc2VydC5kb2VzTm90TWF0Y2goCiAgICBzY2hlZHVsZWRPcGVuQmxvY2ssCiAgICAvaXNEZWZhdWx0RG9tYWluQXZhaWxhYmxlfHRleHQtYW1iZXIvdSwKICApOwogIGFzc2VydC5vayhkZWZhdWx0RG9tYWluQmxvY2spOwogIGFzc2VydC5tYXRjaChkZWZhdWx0RG9tYWluQmxvY2ssIC9pc0RlZmF1bHREb21haW5BdmFpbGFibGUvdSk7CiAgYXNzZXJ0Lm1hdGNoKGRlZmF1bHREb21haW5CbG9jaywgL3RleHQtYW1iZXIvdSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import test from "node:test";
+
+import {
+  buildGatewayUnmatchedRoutePatch,
+  isDefaultDomainAvailableForBehavior,
+  normalizeGatewayUnmatchedRouteBehavior,
+  normalizeGatewayUpstreamErrorDetail,
+} from "../src/lib/gatewayUnmatchedRoute";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+test("gateway unmatched-route behavior normalizes legacy and invalid values", () => {
+  assert.equal(normalizeGatewayUnmatchedRouteBehavior(), "error_page");
+  assert.equal(normalizeGatewayUnmatchedRouteBehavior("invalid"), "error_page");
+  assert.equal(
+    normalizeGatewayUnmatchedRouteBehavior("reset_connection"),
+    "reset_connection",
+  );
+});
+
+test("gateway unmatched-route selection builds the unified-save patch", () => {
+  assert.deepEqual(
+    buildGatewayUnmatchedRoutePatch("reset_connection", "more"),
+    {
+      unmatched_route: {
+        behavior: "reset_connection",
+        upstream_error_detail: "more",
+      },
+    },
+  );
+});
+
+test("gateway upstream error detail defaults to less", () => {
+  assert.equal(normalizeGatewayUpstreamErrorDetail(), "less");
+  assert.equal(normalizeGatewayUpstreamErrorDetail("invalid"), "less");
+  assert.equal(normalizeGatewayUpstreamErrorDetail("more"), "more");
+  assert.equal(
+    normalizeGatewayUpstreamErrorDetail("reset_connection"),
+    "reset_connection",
+  );
+});
+
+test("gateway upstream error setting offers connection blocking", () => {
+  const source = readSource(
+    "../src/views/system-settings/GatewayUpstreamErrorSettingRow.vue",
+  );
+
+  assert.match(source, /selectDetail\('reset_connection'\)/u);
+  assert.match(source, /admin\.gatewaySettings\.upstreamErrorDetailReset/u);
+  assert.match(source, /grid w-full gap-1/u);
+  assert.match(source, /sm:inline-flex sm:w-fit/u);
+});
+
+test("default-domain availability follows the behavior", () => {
+  assert.equal(isDefaultDomainAvailableForBehavior(), true);
+  assert.equal(isDefaultDomainAvailableForBehavior("error_page"), true);
+  assert.equal(isDefaultDomainAvailableForBehavior("reset_connection"), false);
+});
+
+test("gateway settings keeps unmatched-route selection inline and in unified save", () => {
+  const viewSource = readSource(
+    "../src/views/system-settings/GatewaySettings.vue",
+  );
+  const controllerSource = readSource(
+    "../src/views/system-settings/useGatewaySettingsController.ts",
+  );
+  const routerSource = readSource("../src/router/index.ts");
+
+  assert.match(viewSource, /<GatewayUnmatchedRouteSettingRow/u);
+  assert.match(viewSource, /v-model="form\.unmatched_route\.behavior"/u);
+  assert.match(viewSource, /<GatewayUpstreamErrorSettingRow/u);
+  assert.match(
+    viewSource,
+    /v-model="form\.unmatched_route\.upstream_error_detail"/u,
+  );
+  assert.match(
+    controllerSource,
+    /\.\.\.buildGatewayUnmatchedRoutePatch\(\s*form\.unmatched_route\.behavior,\s*form\.unmatched_route\.upstream_error_detail,\s*\)/u,
+  );
+  assert.doesNotMatch(routerSource, /gateway-unmatched-route/u);
+});
+
+test("only the default-domain indicator receives the unavailable visual state", () => {
+  const availabilitySource = readSource(
+    "../src/views/subdomain-proxy/SubdomainMappingAvailabilityIndicators.vue",
+  );
+  const accessSource = readSource(
+    "../src/views/subdomain-proxy/SubdomainMappingAccessIndicators.vue",
+  );
+  const scheduledOpenBlock = availabilitySource.match(
+    /<SubdomainMappingStatusTooltip\s+v-else-if="model\.availabilityState === 'scheduled_open'"[\s\S]*?<\/SubdomainMappingStatusTooltip>/u,
+  )?.[0];
+  const defaultDomainBlock = accessSource.match(
+    /<SubdomainMappingStatusTooltip\s+v-if="model\.mapping\.is_default"[\s\S]*?<\/SubdomainMappingStatusTooltip>/u,
+  )?.[0];
+
+  assert.ok(scheduledOpenBlock);
+  assert.doesNotMatch(
+    scheduledOpenBlock,
+    /isDefaultDomainAvailable|text-amber/u,
+  );
+  assert.ok(defaultDomainBlock);
+  assert.match(defaultDomainBlock, /isDefaultDomainAvailable/u);
+  assert.match(defaultDomainBlock, /text-amber/u);
+});

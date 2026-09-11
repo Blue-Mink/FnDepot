@@ -1,1 +1,216 @@
-aW1wb3J0IHsgcGFyc2UsIHN0cmluZ2lmeSB9IGZyb20gJ3Ntb2wtdG9tbCcKCmV4cG9ydCBpbnRlcmZhY2UgRnJwY1Zpc3VhbERlZmF1bHRzIHsKICBsb2NhbFBvcnQ6IHN0cmluZwp9CgpleHBvcnQgaW50ZXJmYWNlIEZycGNWaXN1YWxGaWVsZHMgewogIHNlcnZlckFkZHI6IHN0cmluZwogIHNlcnZlclBvcnQ6IHN0cmluZwogIHNlcnZlclRva2VuOiBzdHJpbmcKICB3ZWJVc2VyOiBzdHJpbmcKICB3ZWJQYXNzd29yZDogc3RyaW5nCiAgbG9jYWxQb3J0OiBzdHJpbmcKICByZW1vdGVQb3J0OiBzdHJpbmcKfQoKdHlwZSBUb21sVGFibGUgPSBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPgoKY29uc3QgREVGQVVMVF9TRVJWRVJfUE9SVCA9ICc3MDAwJwpjb25zdCBERUZBVUxUX1JFTU9URV9QT1JUID0gJzAnCmNvbnN0IERFRkFVTFRfV0VCX1VTRVIgPSAnYWRtaW4nCmNvbnN0IERFRkFVTFRfUFJPWFlfTkFNRSA9ICdyZXByb3h5Jwpjb25zdCBERUZBVUxUX1BST1hZX1RZUEUgPSAndGNwJwpjb25zdCBERUZBVUxUX0xPQ0FMX0lQID0gJzEyNy4wLjAuMScKY29uc3QgREVGQVVMVF9QUk9YWV9QUk9UT0NPTF9WRVJTSU9OID0gJ3YyJwoKZnVuY3Rpb24gaXNUb21sVGFibGUodmFsdWU6IHVua25vd24pOiB2YWx1ZSBpcyBUb21sVGFibGUgewogIHJldHVybiB0eXBlb2YgdmFsdWUgPT09ICdvYmplY3QnICYmIHZhbHVlICE9PSBudWxsICYmICFBcnJheS5pc0FycmF5KHZhbHVlKQp9CgpmdW5jdGlvbiBwYXJzZVRvbWxEb2N1bWVudChyYXc6IHN0cmluZyk6IFRvbWxUYWJsZSB7CiAgY29uc3QgcGFyc2VkID0gcGFyc2UocmF3LnRyaW0oKSA/IHJhdyA6ICcnKQogIGlmICghaXNUb21sVGFibGUocGFyc2VkKSkgewogICAgdGhyb3cgbmV3IEVycm9yKCdmcnBjLnRvbWwgbXVzdCBiZSBhIFRPTUwgdGFibGUnKQogIH0KICByZXR1cm4gcGFyc2VkCn0KCmZ1bmN0aW9uIHN0cmluZ2lmeVRvbWxEb2N1bWVudChkb2M6IFRvbWxUYWJsZSk6IHN0cmluZyB7CiAgcmV0dXJuIHN0cmluZ2lmeShkb2MpLnRyaW1FbmQoKS5jb25jYXQoJ1xuJykKfQoKZnVuY3Rpb24gcmVhZFN0cmluZyh2YWx1ZTogdW5rbm93biwgZmFsbGJhY2sgPSAnJyk6IHN0cmluZyB7CiAgcmV0dXJuIHR5cGVvZiB2YWx1ZSA9PT0gJ3N0cmluZycgPyB2YWx1ZSA6IGZhbGxiYWNrCn0KCmZ1bmN0aW9uIG5vcm1hbGl6ZVBvcnRTdHJpbmcodmFsdWU6IHVua25vd24sIGZhbGxiYWNrOiBzdHJpbmcpOiBzdHJpbmcgewogIGlmICh0eXBlb2YgdmFsdWUgPT09ICdudW1iZXInICYmIE51bWJlci5pc0ludGVnZXIodmFsdWUpICYmIHZhbHVlID4gMCAmJiB2YWx1ZSA8PSA2NTUzNSkgewogICAgcmV0dXJuIFN0cmluZyh2YWx1ZSkKICB9CiAgaWYgKHR5cGVvZiB2YWx1ZSA9PT0gJ2JpZ2ludCcgJiYgdmFsdWUgPiAwbiAmJiB2YWx1ZSA8PSA2NTUzNW4pIHsKICAgIHJldHVybiB2YWx1ZS50b1N0cmluZygpCiAgfQogIGlmICh0eXBlb2YgdmFsdWUgPT09ICdzdHJpbmcnKSB7CiAgICBjb25zdCB0cmltbWVkID0gdmFsdWUudHJpbSgpCiAgICBpZiAoL15cZCskLy50ZXN0KHRyaW1tZWQpKSB7CiAgICAgIGNvbnN0IHBhcnNlZCA9IE51bWJlci5wYXJzZUludCh0cmltbWVkLCAxMCkKICAgICAgaWYgKE51bWJlci5pc0ludGVnZXIocGFyc2VkKSAmJiBwYXJzZWQgPiAwICYmIHBhcnNlZCA8PSA2NTUzNSkgewogICAgICAgIHJldHVybiBTdHJpbmcocGFyc2VkKQogICAgICB9CiAgICB9CiAgfQogIHJldHVybiBmYWxsYmFjawp9CgpmdW5jdGlvbiByZXNvbHZlUG9ydE51bWJlcih2YWx1ZTogc3RyaW5nLCBmYWxsYmFjazogc3RyaW5nKTogbnVtYmVyIHsKICByZXR1cm4gTnVtYmVyLnBhcnNlSW50KG5vcm1hbGl6ZVBvcnRTdHJpbmcodmFsdWUsIGZhbGxiYWNrKSwgMTApCn0KCmZ1bmN0aW9uIHJlYWRBbGlhc2VkU3RyaW5nKHRhYmxlOiBUb21sVGFibGUsIGtleXM6IHN0cmluZ1tdLCBmYWxsYmFjayA9ICcnKTogc3RyaW5nIHsKICBmb3IgKGNvbnN0IGtleSBvZiBrZXlzKSB7CiAgICBjb25zdCB2YWx1ZSA9IHRhYmxlW2tleV0KICAgIGlmICh0eXBlb2YgdmFsdWUgPT09ICdzdHJpbmcnKSB7CiAgICAgIHJldHVybiB2YWx1ZQogICAgfQogIH0KICByZXR1cm4gZmFsbGJhY2sKfQoKZnVuY3Rpb24gcmVhZEFsaWFzZWRQb3J0KHRhYmxlOiBUb21sVGFibGUsIGtleXM6IHN0cmluZ1tdLCBmYWxsYmFjazogc3RyaW5nKTogc3RyaW5nIHsKICBmb3IgKGNvbnN0IGtleSBvZiBrZXlzKSB7CiAgICBpZiAoIShrZXkgaW4gdGFibGUpKSBjb250aW51ZQogICAgcmV0dXJuIG5vcm1hbGl6ZVBvcnRTdHJpbmcodGFibGVba2V5XSwgZmFsbGJhY2spCiAgfQogIHJldHVybiBmYWxsYmFjawp9CgpmdW5jdGlvbiB3cml0ZUFsaWFzZWRTdHJpbmcodGFibGU6IFRvbWxUYWJsZSwga2V5czogc3RyaW5nW10sIHZhbHVlOiBzdHJpbmcpIHsKICBjb25zdCBleGlzdGluZ0tleXMgPSBrZXlzLmZpbHRlcigoa2V5KSA9PiBrZXkgaW4gdGFibGUpCiAgaWYgKCFleGlzdGluZ0tleXMubGVuZ3RoKSB7CiAgICB0YWJsZVtrZXlzWzBdIV0gPSB2YWx1ZQogICAgcmV0dXJuCiAgfQogIGZvciAoY29uc3Qga2V5IG9mIGV4aXN0aW5nS2V5cykgewogICAgdGFibGVba2V5XSA9IHZhbHVlCiAgfQp9CgpmdW5jdGlvbiB3cml0ZUFsaWFzZWROdW1iZXIodGFibGU6IFRvbWxUYWJsZSwga2V5czogc3RyaW5nW10sIHZhbHVlOiBudW1iZXIpIHsKICBjb25zdCBleGlzdGluZ0tleXMgPSBrZXlzLmZpbHRlcigoa2V5KSA9PiBrZXkgaW4gdGFibGUpCiAgaWYgKCFleGlzdGluZ0tleXMubGVuZ3RoKSB7CiAgICB0YWJsZVtrZXlzWzBdIV0gPSB2YWx1ZQogICAgcmV0dXJuCiAgfQogIGZvciAoY29uc3Qga2V5IG9mIGV4aXN0aW5nS2V5cykgewogICAgdGFibGVba2V5XSA9IHZhbHVlCiAgfQp9CgpmdW5jdGlvbiBlbnN1cmVUYWJsZSh0YWJsZTogVG9tbFRhYmxlLCBrZXk6IHN0cmluZyk6IFRvbWxUYWJsZSB7CiAgY29uc3QgY3VycmVudCA9IHRhYmxlW2tleV0KICBpZiAoaXNUb21sVGFibGUoY3VycmVudCkpIHsKICAgIHJldHVybiBjdXJyZW50CiAgfQogIGNvbnN0IG5leHQ6IFRvbWxUYWJsZSA9IHt9CiAgdGFibGVba2V5XSA9IG5leHQKICByZXR1cm4gbmV4dAp9CgpmdW5jdGlvbiBmaW5kTWFuYWdlZFByb3h5KGRvYzogVG9tbFRhYmxlKTogVG9tbFRhYmxlIHwgbnVsbCB7CiAgaWYgKCFBcnJheS5pc0FycmF5KGRvYy5wcm94aWVzKSkgcmV0dXJuIG51bGwKCiAgbGV0IGZpcnN0UHJveHk6IFRvbWxUYWJsZSB8IG51bGwgPSBudWxsCiAgZm9yIChjb25zdCBlbnRyeSBvZiBkb2MucHJveGllcykgewogICAgaWYgKCFpc1RvbWxUYWJsZShlbnRyeSkpIGNvbnRpbnVlCiAgICBpZiAoIWZpcnN0UHJveHkpIHsKICAgICAgZmlyc3RQcm94eSA9IGVudHJ5CiAgICB9CiAgICBpZiAocmVhZFN0cmluZyhlbnRyeS5uYW1lKSA9PT0gREVGQVVMVF9QUk9YWV9OQU1FKSB7CiAgICAgIHJldHVybiBlbnRyeQogICAgfQogIH0KICByZXR1cm4gZmlyc3RQcm94eQp9CgpmdW5jdGlvbiBlbnN1cmVNYW5hZ2VkUHJveHkoZG9jOiBUb21sVGFibGUpOiBUb21sVGFibGUgewogIGNvbnN0IGV4aXN0aW5nID0gZmluZE1hbmFnZWRQcm94eShkb2MpCiAgaWYgKGV4aXN0aW5nKSB7CiAgICByZXR1cm4gZXhpc3RpbmcKICB9CgogIGNvbnN0IHByb3h5OiBUb21sVGFibGUgPSB7CiAgICBuYW1lOiBERUZBVUxUX1BST1hZX05BTUUsCiAgICB0eXBlOiBERUZBVUxUX1BST1hZX1RZUEUsCiAgICBsb2NhbElQOiBERUZBVUxUX0xPQ0FMX0lQLAogICAgdHJhbnNwb3J0OiB7CiAgICAgIHByb3h5UHJvdG9jb2xWZXJzaW9uOiBERUZBVUxUX1BST1hZX1BST1RPQ09MX1ZFUlNJT04sCiAgICB9LAogIH0KCiAgY29uc3QgcHJveGllcyA9IEFycmF5LmlzQXJyYXkoZG9jLnByb3hpZXMpID8gZG9jLnByb3hpZXMgOiBbXQogIHByb3hpZXMucHVzaChwcm94eSkKICBkb2MucHJveGllcyA9IHByb3hpZXMKICByZXR1cm4gcHJveHkKfQoKZXhwb3J0IGZ1bmN0aW9uIGV4dHJhY3RWaXN1YWxGaWVsZHNGcm9tVG9tbChyYXc6IHN0cmluZywgZGVmYXVsdHM6IEZycGNWaXN1YWxEZWZhdWx0cyk6IEZycGNWaXN1YWxGaWVsZHMgewogIGNvbnN0IGRvYyA9IHBhcnNlVG9tbERvY3VtZW50KHJhdykKICBjb25zdCBhdXRoID0gaXNUb21sVGFibGUoZG9jLmF1dGgpID8gZG9jLmF1dGggOiBudWxsCiAgY29uc3Qgd2ViU2VydmVyID0gaXNUb21sVGFibGUoZG9jLndlYlNlcnZlcikgPyBkb2Mud2ViU2VydmVyIDogbnVsbAogIGNvbnN0IHByb3h5ID0gZmluZE1hbmFnZWRQcm94eShkb2MpCgogIHJldHVybiB7CiAgICBzZXJ2ZXJBZGRyOiByZWFkQWxpYXNlZFN0cmluZyhkb2MsIFsnc2VydmVyQWRkcicsICdzZXJ2ZXJfYWRkciddLCAnJykudHJpbSgpLAogICAgc2VydmVyUG9ydDogcmVhZEFsaWFzZWRQb3J0KGRvYywgWydzZXJ2ZXJQb3J0JywgJ3NlcnZlcl9wb3J0J10sIERFRkFVTFRfU0VSVkVSX1BPUlQpLAogICAgc2VydmVyVG9rZW46IChyZWFkU3RyaW5nKGF1dGg/LnRva2VuKSB8fCByZWFkU3RyaW5nKGRvYy50b2tlbikpLnRyaW0oKSwKICAgIHdlYlVzZXI6ICh3ZWJTZXJ2ZXIgPyByZWFkU3RyaW5nKHdlYlNlcnZlci51c2VyLCBERUZBVUxUX1dFQl9VU0VSKSA6IERFRkFVTFRfV0VCX1VTRVIpLnRyaW0oKSB8fCBERUZBVUxUX1dFQl9VU0VSLAogICAgd2ViUGFzc3dvcmQ6ICh3ZWJTZXJ2ZXIgPyByZWFkU3RyaW5nKHdlYlNlcnZlci5wYXNzd29yZCkgOiAnJykudHJpbSgpLAogICAgbG9jYWxQb3J0OiBwcm94eQogICAgICA/IHJlYWRBbGlhc2VkUG9ydChwcm94eSwgWydsb2NhbFBvcnQnLCAnbG9jYWxfcG9ydCddLCBkZWZhdWx0cy5sb2NhbFBvcnQpCiAgICAgIDogZGVmYXVsdHMubG9jYWxQb3J0LAogICAgcmVtb3RlUG9ydDogcHJveHkKICAgICAgPyByZWFkQWxpYXNlZFBvcnQocHJveHksIFsncmVtb3RlUG9ydCcsICdyZW1vdGVfcG9ydCddLCBERUZBVUxUX1JFTU9URV9QT1JUKQogICAgICA6IERFRkFVTFRfUkVNT1RFX1BPUlQsCiAgfQp9CgpleHBvcnQgZnVuY3Rpb24gbWVyZ2VWaXN1YWxGaWVsZHNJbnRvVG9tbCgKICByYXc6IHN0cmluZywKICBmaWVsZHM6IEZycGNWaXN1YWxGaWVsZHMsCiAgZGVmYXVsdHM6IEZycGNWaXN1YWxEZWZhdWx0cywKKTogc3RyaW5nIHsKICBjb25zdCBkb2MgPSBwYXJzZVRvbWxEb2N1bWVudChyYXcpCiAgY29uc3Qgc2VydmVyQWRkciA9IGZpZWxkcy5zZXJ2ZXJBZGRyLnRyaW0oKQogIGNvbnN0IHNlcnZlclBvcnQgPSByZXNvbHZlUG9ydE51bWJlcihmaWVsZHMuc2VydmVyUG9ydCwgREVGQVVMVF9TRVJWRVJfUE9SVCkKICBjb25zdCBzZXJ2ZXJUb2tlbiA9IGZpZWxkcy5zZXJ2ZXJUb2tlbi50cmltKCkKICBjb25zdCBsb2NhbFBvcnQgPSByZXNvbHZlUG9ydE51bWJlcihmaWVsZHMubG9jYWxQb3J0LCBkZWZhdWx0cy5sb2NhbFBvcnQpCiAgY29uc3QgcmVtb3RlUG9ydCA9IHJlc29sdmVQb3J0TnVtYmVyKGZpZWxkcy5yZW1vdGVQb3J0LCBERUZBVUxUX1JFTU9URV9QT1JUKQoKICB3cml0ZUFsaWFzZWRTdHJpbmcoZG9jLCBbJ3NlcnZlckFkZHInLCAnc2VydmVyX2FkZHInXSwgc2VydmVyQWRkcikKICB3cml0ZUFsaWFzZWROdW1iZXIoZG9jLCBbJ3NlcnZlclBvcnQnLCAnc2VydmVyX3BvcnQnXSwgc2VydmVyUG9ydCkKCiAgbGV0IHdyb3RlVG9rZW4gPSBmYWxzZQogIGlmIChpc1RvbWxUYWJsZShkb2MuYXV0aCkpIHsKICAgIGRvYy5hdXRoLnRva2VuID0gc2VydmVyVG9rZW4KICAgIGlmICh0eXBlb2YgZG9jLmF1dGgubWV0aG9kICE9PSAnc3RyaW5nJyB8fCAhZG9jLmF1dGgubWV0aG9kLnRyaW0oKSkgewogICAgICBkb2MuYXV0aC5tZXRob2QgPSAndG9rZW4nCiAgICB9CiAgICB3cm90ZVRva2VuID0gdHJ1ZQogIH0KICBpZiAoJ3Rva2VuJyBpbiBkb2MpIHsKICAgIGRvYy50b2tlbiA9IHNlcnZlclRva2VuCiAgICB3cm90ZVRva2VuID0gdHJ1ZQogIH0KICBpZiAoIXdyb3RlVG9rZW4pIHsKICAgIGNvbnN0IGF1dGggPSBlbnN1cmVUYWJsZShkb2MsICdhdXRoJykKICAgIGF1dGgubWV0aG9kID0gdHlwZW9mIGF1dGgubWV0aG9kID09PSAnc3RyaW5nJyAmJiBhdXRoLm1ldGhvZC50cmltKCkgPyBhdXRoLm1ldGhvZCA6ICd0b2tlbicKICAgIGF1dGgudG9rZW4gPSBzZXJ2ZXJUb2tlbgogIH0KCiAgY29uc3QgcHJveHkgPSBlbnN1cmVNYW5hZ2VkUHJveHkoZG9jKQogIHdyaXRlQWxpYXNlZE51bWJlcihwcm94eSwgWydsb2NhbFBvcnQnLCAnbG9jYWxfcG9ydCddLCBsb2NhbFBvcnQpCiAgd3JpdGVBbGlhc2VkTnVtYmVyKHByb3h5LCBbJ3JlbW90ZVBvcnQnLCAncmVtb3RlX3BvcnQnXSwgcmVtb3RlUG9ydCkKCiAgcmV0dXJuIHN0cmluZ2lmeVRvbWxEb2N1bWVudChkb2MpCn0K
+import { parse, stringify } from 'smol-toml'
+
+export interface FrpcVisualDefaults {
+  localPort: string
+}
+
+export interface FrpcVisualFields {
+  serverAddr: string
+  serverPort: string
+  serverToken: string
+  webUser: string
+  webPassword: string
+  localPort: string
+  remotePort: string
+}
+
+type TomlTable = Record<string, unknown>
+
+const DEFAULT_SERVER_PORT = '7000'
+const DEFAULT_REMOTE_PORT = '0'
+const DEFAULT_WEB_USER = 'admin'
+const DEFAULT_PROXY_NAME = 'reproxy'
+const DEFAULT_PROXY_TYPE = 'tcp'
+const DEFAULT_LOCAL_IP = '127.0.0.1'
+const DEFAULT_PROXY_PROTOCOL_VERSION = 'v2'
+
+function isTomlTable(value: unknown): value is TomlTable {
+  return typeof value === 'object' && value !== null && !Array.isArray(value)
+}
+
+function parseTomlDocument(raw: string): TomlTable {
+  const parsed = parse(raw.trim() ? raw : '')
+  if (!isTomlTable(parsed)) {
+    throw new Error('frpc.toml must be a TOML table')
+  }
+  return parsed
+}
+
+function stringifyTomlDocument(doc: TomlTable): string {
+  return stringify(doc).trimEnd().concat('\n')
+}
+
+function readString(value: unknown, fallback = ''): string {
+  return typeof value === 'string' ? value : fallback
+}
+
+function normalizePortString(value: unknown, fallback: string): string {
+  if (typeof value === 'number' && Number.isInteger(value) && value > 0 && value <= 65535) {
+    return String(value)
+  }
+  if (typeof value === 'bigint' && value > 0n && value <= 65535n) {
+    return value.toString()
+  }
+  if (typeof value === 'string') {
+    const trimmed = value.trim()
+    if (/^\d+$/.test(trimmed)) {
+      const parsed = Number.parseInt(trimmed, 10)
+      if (Number.isInteger(parsed) && parsed > 0 && parsed <= 65535) {
+        return String(parsed)
+      }
+    }
+  }
+  return fallback
+}
+
+function resolvePortNumber(value: string, fallback: string): number {
+  return Number.parseInt(normalizePortString(value, fallback), 10)
+}
+
+function readAliasedString(table: TomlTable, keys: string[], fallback = ''): string {
+  for (const key of keys) {
+    const value = table[key]
+    if (typeof value === 'string') {
+      return value
+    }
+  }
+  return fallback
+}
+
+function readAliasedPort(table: TomlTable, keys: string[], fallback: string): string {
+  for (const key of keys) {
+    if (!(key in table)) continue
+    return normalizePortString(table[key], fallback)
+  }
+  return fallback
+}
+
+function writeAliasedString(table: TomlTable, keys: string[], value: string) {
+  const existingKeys = keys.filter((key) => key in table)
+  if (!existingKeys.length) {
+    table[keys[0]!] = value
+    return
+  }
+  for (const key of existingKeys) {
+    table[key] = value
+  }
+}
+
+function writeAliasedNumber(table: TomlTable, keys: string[], value: number) {
+  const existingKeys = keys.filter((key) => key in table)
+  if (!existingKeys.length) {
+    table[keys[0]!] = value
+    return
+  }
+  for (const key of existingKeys) {
+    table[key] = value
+  }
+}
+
+function ensureTable(table: TomlTable, key: string): TomlTable {
+  const current = table[key]
+  if (isTomlTable(current)) {
+    return current
+  }
+  const next: TomlTable = {}
+  table[key] = next
+  return next
+}
+
+function findManagedProxy(doc: TomlTable): TomlTable | null {
+  if (!Array.isArray(doc.proxies)) return null
+
+  let firstProxy: TomlTable | null = null
+  for (const entry of doc.proxies) {
+    if (!isTomlTable(entry)) continue
+    if (!firstProxy) {
+      firstProxy = entry
+    }
+    if (readString(entry.name) === DEFAULT_PROXY_NAME) {
+      return entry
+    }
+  }
+  return firstProxy
+}
+
+function ensureManagedProxy(doc: TomlTable): TomlTable {
+  const existing = findManagedProxy(doc)
+  if (existing) {
+    return existing
+  }
+
+  const proxy: TomlTable = {
+    name: DEFAULT_PROXY_NAME,
+    type: DEFAULT_PROXY_TYPE,
+    localIP: DEFAULT_LOCAL_IP,
+    transport: {
+      proxyProtocolVersion: DEFAULT_PROXY_PROTOCOL_VERSION,
+    },
+  }
+
+  const proxies = Array.isArray(doc.proxies) ? doc.proxies : []
+  proxies.push(proxy)
+  doc.proxies = proxies
+  return proxy
+}
+
+export function extractVisualFieldsFromToml(raw: string, defaults: FrpcVisualDefaults): FrpcVisualFields {
+  const doc = parseTomlDocument(raw)
+  const auth = isTomlTable(doc.auth) ? doc.auth : null
+  const webServer = isTomlTable(doc.webServer) ? doc.webServer : null
+  const proxy = findManagedProxy(doc)
+
+  return {
+    serverAddr: readAliasedString(doc, ['serverAddr', 'server_addr'], '').trim(),
+    serverPort: readAliasedPort(doc, ['serverPort', 'server_port'], DEFAULT_SERVER_PORT),
+    serverToken: (readString(auth?.token) || readString(doc.token)).trim(),
+    webUser: (webServer ? readString(webServer.user, DEFAULT_WEB_USER) : DEFAULT_WEB_USER).trim() || DEFAULT_WEB_USER,
+    webPassword: (webServer ? readString(webServer.password) : '').trim(),
+    localPort: proxy
+      ? readAliasedPort(proxy, ['localPort', 'local_port'], defaults.localPort)
+      : defaults.localPort,
+    remotePort: proxy
+      ? readAliasedPort(proxy, ['remotePort', 'remote_port'], DEFAULT_REMOTE_PORT)
+      : DEFAULT_REMOTE_PORT,
+  }
+}
+
+export function mergeVisualFieldsIntoToml(
+  raw: string,
+  fields: FrpcVisualFields,
+  defaults: FrpcVisualDefaults,
+): string {
+  const doc = parseTomlDocument(raw)
+  const serverAddr = fields.serverAddr.trim()
+  const serverPort = resolvePortNumber(fields.serverPort, DEFAULT_SERVER_PORT)
+  const serverToken = fields.serverToken.trim()
+  const localPort = resolvePortNumber(fields.localPort, defaults.localPort)
+  const remotePort = resolvePortNumber(fields.remotePort, DEFAULT_REMOTE_PORT)
+
+  writeAliasedString(doc, ['serverAddr', 'server_addr'], serverAddr)
+  writeAliasedNumber(doc, ['serverPort', 'server_port'], serverPort)
+
+  let wroteToken = false
+  if (isTomlTable(doc.auth)) {
+    doc.auth.token = serverToken
+    if (typeof doc.auth.method !== 'string' || !doc.auth.method.trim()) {
+      doc.auth.method = 'token'
+    }
+    wroteToken = true
+  }
+  if ('token' in doc) {
+    doc.token = serverToken
+    wroteToken = true
+  }
+  if (!wroteToken) {
+    const auth = ensureTable(doc, 'auth')
+    auth.method = typeof auth.method === 'string' && auth.method.trim() ? auth.method : 'token'
+    auth.token = serverToken
+  }
+
+  const proxy = ensureManagedProxy(doc)
+  writeAliasedNumber(proxy, ['localPort', 'local_port'], localPort)
+  writeAliasedNumber(proxy, ['remotePort', 'remote_port'], remotePort)
+
+  return stringifyTomlDocument(doc)
+}

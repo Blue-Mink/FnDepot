@@ -1,1 +1,222 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHdhdGNoLCB0eXBlIENvbXB1dGVkUmVmLCB0eXBlIFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsKICBHZW5lcmFsQmxhY2tsaXN0QVBJLAogIHR5cGUgR2VuZXJhbEJsYWNrbGlzdFNvdXJjZSwKfSBmcm9tICJAL2xpYi9hcGkvc2VjdXJpdHkiOwppbXBvcnQgeyB1c2VHZW5lcmFsQmxhY2tsaXN0U3RhdHVzIH0gZnJvbSAiQC9jb21wb3NhYmxlcy91c2VHZW5lcmFsQmxhY2tsaXN0U3RhdHVzIjsKCnR5cGUgVHJhbnNsYXRlUGFyYW1zID0gUmVjb3JkPHN0cmluZywgdW5rbm93bj47CnR5cGUgVHJhbnNsYXRlID0gKGtleTogc3RyaW5nLCBwYXJhbXM/OiBUcmFuc2xhdGVQYXJhbXMpID0+IHN0cmluZzsKCnR5cGUgU2VsZWN0YWJsZUxvZ0lwRW50cnkgPSB7CiAgYWN0aW9uSXA6IHN0cmluZzsKICBzZWxlY3Rpb25LZXk6IHN0cmluZzsKfTsKCnR5cGUgTG9nSXBTZWxlY3Rpb25NZXNzYWdlS2V5cyA9IHsKICBibGFja2xpc3RGYWlsZWQ6IHN0cmluZzsKICBibGFja2xpc3RTdWNjZXNzOiBzdHJpbmc7CiAgYmxhY2tsaXN0U3VjY2Vzc0RldGFpbDogc3RyaW5nOwogIHVuYmxhY2tsaXN0RmFpbGVkOiBzdHJpbmc7CiAgdW5ibGFja2xpc3RTdWNjZXNzOiBzdHJpbmc7CiAgdW5ibGFja2xpc3RTdWNjZXNzRGV0YWlsOiBzdHJpbmc7Cn07CgpleHBvcnQgY29uc3QgdXNlTG9nSXBTZWxlY3Rpb24gPSA8RW50cnkgZXh0ZW5kcyBTZWxlY3RhYmxlTG9nSXBFbnRyeT4oewogIGRpc3BsYXllZEVudHJpZXMsCiAgbWVzc2FnZUtleXMsCiAgb25NdXRhdGVkLAogIHBydW5lSW52aXNpYmxlU2VsZWN0aW9uID0gZmFsc2UsCiAgc2VsZWN0ZWRFbnRyeUtleXMsCiAgc291cmNlLAogIHRyYW5zbGF0ZSwKfTogewogIGRpc3BsYXllZEVudHJpZXM6IENvbXB1dGVkUmVmPEVudHJ5W10+OwogIG1lc3NhZ2VLZXlzOiBMb2dJcFNlbGVjdGlvbk1lc3NhZ2VLZXlzOwogIG9uTXV0YXRlZD86ICgpID0+IHZvaWQgfCBQcm9taXNlPHZvaWQ+OwogIHBydW5lSW52aXNpYmxlU2VsZWN0aW9uPzogYm9vbGVhbjsKICBzZWxlY3RlZEVudHJ5S2V5czogUmVmPFNldDxzdHJpbmc+PjsKICBzb3VyY2U6IEdlbmVyYWxCbGFja2xpc3RTb3VyY2U7CiAgdHJhbnNsYXRlOiBUcmFuc2xhdGU7Cn0pID0+IHsKICBjb25zdCB7IGlzUGVuZGluZzogaXNCbG9ja2luZ0lwcywgcnVuOiBydW5CbG9ja0lwcyB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZShtZXNzYWdlS2V5cy5ibGFja2xpc3RGYWlsZWQpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHRyYW5zbGF0ZShtZXNzYWdlS2V5cy5ibGFja2xpc3RGYWlsZWQpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSwKICB9KTsKICBjb25zdCB7IGlzUGVuZGluZzogaXNSZWxlYXNpbmdJcHMsIHJ1bjogcnVuUmVsZWFzZUlwcyB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZShtZXNzYWdlS2V5cy51bmJsYWNrbGlzdEZhaWxlZCksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdHJhbnNsYXRlKG1lc3NhZ2VLZXlzLnVuYmxhY2tsaXN0RmFpbGVkKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CiAgY29uc3QgaXNNdXRhdGluZ0JsYWNrbGlzdElwcyA9IGNvbXB1dGVkKAogICAgKCkgPT4gaXNCbG9ja2luZ0lwcy52YWx1ZSB8fCBpc1JlbGVhc2luZ0lwcy52YWx1ZSwKICApOwoKICBjb25zdCBkaXNwbGF5ZWRFbnRyeUtleXMgPSBjb21wdXRlZCgoKSA9PgogICAgZGlzcGxheWVkRW50cmllcy52YWx1ZS5tYXAoKGVudHJ5KSA9PiBlbnRyeS5zZWxlY3Rpb25LZXkpLAogICk7CgogIGNvbnN0IGRpc3BsYXllZFNlbGVjdGFibGVFbnRyeUtleXMgPSBjb21wdXRlZCgoKSA9PgogICAgZGlzcGxheWVkRW50cmllcy52YWx1ZQogICAgICAuZmlsdGVyKChlbnRyeSkgPT4gZW50cnkuYWN0aW9uSXApCiAgICAgIC5tYXAoKGVudHJ5KSA9PiBlbnRyeS5zZWxlY3Rpb25LZXkpLAogICk7CiAgY29uc3QgaGFzU2VsZWN0YWJsZURpc3BsYXllZFJvd3MgPSBjb21wdXRlZCgKICAgICgpID0+IGRpc3BsYXllZFNlbGVjdGFibGVFbnRyeUtleXMudmFsdWUubGVuZ3RoID4gMCwKICApOwoKICBjb25zdCBkaXNwbGF5ZWRFbnRyeUlwcyA9IGNvbXB1dGVkKCgpID0+CiAgICBBcnJheS5mcm9tKAogICAgICBuZXcgU2V0KAogICAgICAgIGRpc3BsYXllZEVudHJpZXMudmFsdWUubWFwKChlbnRyeSkgPT4gZW50cnkuYWN0aW9uSXApLmZpbHRlcihCb29sZWFuKSwKICAgICAgKSwKICAgICksCiAgKTsKCiAgY29uc3QgewogICAgcmVmcmVzaDogcmVmcmVzaEdlbmVyYWxCbGFja2xpc3RTdGF0dXMsCiAgICBpc0JsYWNrbGlzdGVkOiBpc0dlbmVyYWxCbGFja2xpc3RlZCwKICB9ID0gdXNlR2VuZXJhbEJsYWNrbGlzdFN0YXR1cyhkaXNwbGF5ZWRFbnRyeUlwcyk7CgogIGNvbnN0IHNlbGVjdGVkSXBMaXN0ID0gY29tcHV0ZWQoKCkgPT4KICAgIEFycmF5LmZyb20oCiAgICAgIG5ldyBTZXQoCiAgICAgICAgZGlzcGxheWVkRW50cmllcy52YWx1ZQogICAgICAgICAgLmZpbHRlcigoZW50cnkpID0+IHNlbGVjdGVkRW50cnlLZXlzLnZhbHVlLmhhcyhlbnRyeS5zZWxlY3Rpb25LZXkpKQogICAgICAgICAgLm1hcCgoZW50cnkpID0+IGVudHJ5LmFjdGlvbklwKQogICAgICAgICAgLmZpbHRlcihCb29sZWFuKSwKICAgICAgKSwKICAgICksCiAgKTsKICBjb25zdCBzZWxlY3RlZEJsb2NrZWRJcHMgPSBjb21wdXRlZCgoKSA9PgogICAgc2VsZWN0ZWRJcExpc3QudmFsdWUuZmlsdGVyKChpcCkgPT4gaXNHZW5lcmFsQmxhY2tsaXN0ZWQoaXApKSwKICApOwogIGNvbnN0IHNlbGVjdGVkVW5ibG9ja2VkSXBzID0gY29tcHV0ZWQoKCkgPT4KICAgIHNlbGVjdGVkSXBMaXN0LnZhbHVlLmZpbHRlcigoaXApID0+ICFpc0dlbmVyYWxCbGFja2xpc3RlZChpcCkpLAogICk7CgogIGNvbnN0IGlzQWxsRGlzcGxheWVkUm93c1NlbGVjdGVkID0gY29tcHV0ZWQoewogICAgZ2V0OiAoKSA9PgogICAgICBkaXNwbGF5ZWRTZWxlY3RhYmxlRW50cnlLZXlzLnZhbHVlLmxlbmd0aCA+IDAgJiYKICAgICAgZGlzcGxheWVkU2VsZWN0YWJsZUVudHJ5S2V5cy52YWx1ZS5ldmVyeSgoa2V5KSA9PgogICAgICAgIHNlbGVjdGVkRW50cnlLZXlzLnZhbHVlLmhhcyhrZXkpLAogICAgICApLAogICAgc2V0OiAoY2hlY2tlZDogYm9vbGVhbikgPT4gewogICAgICBjb25zdCBuZXh0ID0gbmV3IFNldChzZWxlY3RlZEVudHJ5S2V5cy52YWx1ZSk7CiAgICAgIGlmIChjaGVja2VkKSB7CiAgICAgICAgZGlzcGxheWVkRW50cmllcy52YWx1ZS5mb3JFYWNoKChlbnRyeSkgPT4gewogICAgICAgICAgaWYgKGVudHJ5LmFjdGlvbklwKSBuZXh0LmFkZChlbnRyeS5zZWxlY3Rpb25LZXkpOwogICAgICAgIH0pOwogICAgICB9IGVsc2UgewogICAgICAgIGRpc3BsYXllZEVudHJ5S2V5cy52YWx1ZS5mb3JFYWNoKChrZXkpID0+IG5leHQuZGVsZXRlKGtleSkpOwogICAgICB9CiAgICAgIHNlbGVjdGVkRW50cnlLZXlzLnZhbHVlID0gbmV4dDsKICAgIH0sCiAgfSk7CgogIGNvbnN0IHRvZ2dsZUVudHJ5U2VsZWN0aW9uID0gKGtleT86IHN0cmluZykgPT4gewogICAgaWYgKCFrZXkpIHJldHVybjsKICAgIGNvbnN0IG5leHQgPSBuZXcgU2V0KHNlbGVjdGVkRW50cnlLZXlzLnZhbHVlKTsKICAgIGlmIChuZXh0LmhhcyhrZXkpKSB7CiAgICAgIG5leHQuZGVsZXRlKGtleSk7CiAgICB9IGVsc2UgewogICAgICBuZXh0LmFkZChrZXkpOwogICAgfQogICAgc2VsZWN0ZWRFbnRyeUtleXMudmFsdWUgPSBuZXh0OwogIH07CgogIGNvbnN0IHJlbW92ZVNlbGVjdGVkSXBzID0gKGlwczogc3RyaW5nW10pID0+IHsKICAgIGNvbnN0IG9wZXJhdGVkSXBzID0gbmV3IFNldChpcHMpOwogICAgc2VsZWN0ZWRFbnRyeUtleXMudmFsdWUgPSBuZXcgU2V0KAogICAgICBkaXNwbGF5ZWRFbnRyaWVzLnZhbHVlCiAgICAgICAgLmZpbHRlcigKICAgICAgICAgIChlbnRyeSkgPT4KICAgICAgICAgICAgc2VsZWN0ZWRFbnRyeUtleXMudmFsdWUuaGFzKGVudHJ5LnNlbGVjdGlvbktleSkgJiYKICAgICAgICAgICAgIW9wZXJhdGVkSXBzLmhhcyhlbnRyeS5hY3Rpb25JcCksCiAgICAgICAgKQogICAgICAgIC5tYXAoKGVudHJ5KSA9PiBlbnRyeS5zZWxlY3Rpb25LZXkpLAogICAgKTsKICB9OwoKICBjb25zdCBibG9ja0lwcyA9IGFzeW5jIChpcHM6IHN0cmluZ1tdKSA9PiB7CiAgICBjb25zdCB1bmlxdWVJcHMgPSBBcnJheS5mcm9tKG5ldyBTZXQoaXBzLmZpbHRlcihCb29sZWFuKSkpLmZpbHRlcigKICAgICAgKGlwKSA9PiAhaXNHZW5lcmFsQmxhY2tsaXN0ZWQoaXApLAogICAgKTsKICAgIGlmICh1bmlxdWVJcHMubGVuZ3RoID09PSAwKSByZXR1cm47CgogICAgYXdhaXQgcnVuQmxvY2tJcHMoKCkgPT4gR2VuZXJhbEJsYWNrbGlzdEFQSS5hZGQodW5pcXVlSXBzLCBzb3VyY2UpLCB7CiAgICAgIG9uU3VjY2VzczogYXN5bmMgKHJlc3VsdCkgPT4gewogICAgICAgIHRvYXN0LnN1Y2Nlc3ModHJhbnNsYXRlKG1lc3NhZ2VLZXlzLmJsYWNrbGlzdFN1Y2Nlc3MpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogdHJhbnNsYXRlKG1lc3NhZ2VLZXlzLmJsYWNrbGlzdFN1Y2Nlc3NEZXRhaWwsIHsKICAgICAgICAgICAgYWRkZWQ6IHJlc3VsdD8uYWRkZWQgPz8gMCwKICAgICAgICAgICAgdXBkYXRlZDogcmVzdWx0Py51cGRhdGVkID8/IDAsCiAgICAgICAgICB9KSwKICAgICAgICB9KTsKICAgICAgICByZW1vdmVTZWxlY3RlZElwcyh1bmlxdWVJcHMpOwogICAgICAgIGF3YWl0IHJlZnJlc2hHZW5lcmFsQmxhY2tsaXN0U3RhdHVzKCk7CiAgICAgICAgYXdhaXQgb25NdXRhdGVkPy4oKTsKICAgICAgfSwKICAgIH0pOwogIH07CgogIGNvbnN0IHJlbGVhc2VJcHMgPSBhc3luYyAoaXBzOiBzdHJpbmdbXSkgPT4gewogICAgY29uc3QgdW5pcXVlSXBzID0gQXJyYXkuZnJvbShuZXcgU2V0KGlwcy5maWx0ZXIoQm9vbGVhbikpKS5maWx0ZXIoKGlwKSA9PgogICAgICBpc0dlbmVyYWxCbGFja2xpc3RlZChpcCksCiAgICApOwogICAgaWYgKHVuaXF1ZUlwcy5sZW5ndGggPT09IDApIHJldHVybjsKCiAgICBhd2FpdCBydW5SZWxlYXNlSXBzKCgpID0+IEdlbmVyYWxCbGFja2xpc3RBUEkuZGVsZXRlKHVuaXF1ZUlwcyksIHsKICAgICAgb25TdWNjZXNzOiBhc3luYyAocmVzdWx0KSA9PiB7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0cmFuc2xhdGUobWVzc2FnZUtleXMudW5ibGFja2xpc3RTdWNjZXNzKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IHRyYW5zbGF0ZShtZXNzYWdlS2V5cy51bmJsYWNrbGlzdFN1Y2Nlc3NEZXRhaWwsIHsKICAgICAgICAgICAgcmVtb3ZlZDogcmVzdWx0Py5yZW1vdmVkID8/IDAsCiAgICAgICAgICB9KSwKICAgICAgICB9KTsKICAgICAgICByZW1vdmVTZWxlY3RlZElwcyh1bmlxdWVJcHMpOwogICAgICAgIGF3YWl0IHJlZnJlc2hHZW5lcmFsQmxhY2tsaXN0U3RhdHVzKCk7CiAgICAgICAgYXdhaXQgb25NdXRhdGVkPy4oKTsKICAgICAgfSwKICAgIH0pOwogIH07CgogIGlmIChwcnVuZUludmlzaWJsZVNlbGVjdGlvbikgewogICAgd2F0Y2goZGlzcGxheWVkRW50cnlLZXlzLCAoa2V5cykgPT4gewogICAgICBjb25zdCB2aXNpYmxlS2V5cyA9IG5ldyBTZXQoa2V5cyk7CiAgICAgIHNlbGVjdGVkRW50cnlLZXlzLnZhbHVlID0gbmV3IFNldCgKICAgICAgICBBcnJheS5mcm9tKHNlbGVjdGVkRW50cnlLZXlzLnZhbHVlKS5maWx0ZXIoKGtleSkgPT4KICAgICAgICAgIHZpc2libGVLZXlzLmhhcyhrZXkpLAogICAgICAgICksCiAgICAgICk7CiAgICB9KTsKICB9CgogIHJldHVybiB7CiAgICBibG9ja0lwcywKICAgIGhhc1NlbGVjdGFibGVEaXNwbGF5ZWRSb3dzLAogICAgaXNBbGxEaXNwbGF5ZWRSb3dzU2VsZWN0ZWQsCiAgICBpc0Jsb2NraW5nSXBzLAogICAgaXNHZW5lcmFsQmxhY2tsaXN0ZWQsCiAgICBpc011dGF0aW5nQmxhY2tsaXN0SXBzLAogICAgaXNSZWxlYXNpbmdJcHMsCiAgICByZWxlYXNlSXBzLAogICAgc2VsZWN0ZWRCbG9ja2VkSXBzLAogICAgc2VsZWN0ZWRVbmJsb2NrZWRJcHMsCiAgICB0b2dnbGVFbnRyeVNlbGVjdGlvbiwKICB9Owp9Owo=
+import { computed, watch, type ComputedRef, type Ref } from "vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  GeneralBlacklistAPI,
+  type GeneralBlacklistSource,
+} from "@/lib/api/security";
+import { useGeneralBlacklistStatus } from "@/composables/useGeneralBlacklistStatus";
+
+type TranslateParams = Record<string, unknown>;
+type Translate = (key: string, params?: TranslateParams) => string;
+
+type SelectableLogIpEntry = {
+  actionIp: string;
+  selectionKey: string;
+};
+
+type LogIpSelectionMessageKeys = {
+  blacklistFailed: string;
+  blacklistSuccess: string;
+  blacklistSuccessDetail: string;
+  unblacklistFailed: string;
+  unblacklistSuccess: string;
+  unblacklistSuccessDetail: string;
+};
+
+export const useLogIpSelection = <Entry extends SelectableLogIpEntry>({
+  displayedEntries,
+  messageKeys,
+  onMutated,
+  pruneInvisibleSelection = false,
+  selectedEntryKeys,
+  source,
+  translate,
+}: {
+  displayedEntries: ComputedRef<Entry[]>;
+  messageKeys: LogIpSelectionMessageKeys;
+  onMutated?: () => void | Promise<void>;
+  pruneInvisibleSelection?: boolean;
+  selectedEntryKeys: Ref<Set<string>>;
+  source: GeneralBlacklistSource;
+  translate: Translate;
+}) => {
+  const { isPending: isBlockingIps, run: runBlockIps } = useAsyncAction({
+    onError: (error) => {
+      toast.error(translate(messageKeys.blacklistFailed), {
+        description: extractErrorMessage(
+          error,
+          translate(messageKeys.blacklistFailed),
+        ),
+      });
+    },
+  });
+  const { isPending: isReleasingIps, run: runReleaseIps } = useAsyncAction({
+    onError: (error) => {
+      toast.error(translate(messageKeys.unblacklistFailed), {
+        description: extractErrorMessage(
+          error,
+          translate(messageKeys.unblacklistFailed),
+        ),
+      });
+    },
+  });
+  const isMutatingBlacklistIps = computed(
+    () => isBlockingIps.value || isReleasingIps.value,
+  );
+
+  const displayedEntryKeys = computed(() =>
+    displayedEntries.value.map((entry) => entry.selectionKey),
+  );
+
+  const displayedSelectableEntryKeys = computed(() =>
+    displayedEntries.value
+      .filter((entry) => entry.actionIp)
+      .map((entry) => entry.selectionKey),
+  );
+  const hasSelectableDisplayedRows = computed(
+    () => displayedSelectableEntryKeys.value.length > 0,
+  );
+
+  const displayedEntryIps = computed(() =>
+    Array.from(
+      new Set(
+        displayedEntries.value.map((entry) => entry.actionIp).filter(Boolean),
+      ),
+    ),
+  );
+
+  const {
+    refresh: refreshGeneralBlacklistStatus,
+    isBlacklisted: isGeneralBlacklisted,
+  } = useGeneralBlacklistStatus(displayedEntryIps);
+
+  const selectedIpList = computed(() =>
+    Array.from(
+      new Set(
+        displayedEntries.value
+          .filter((entry) => selectedEntryKeys.value.has(entry.selectionKey))
+          .map((entry) => entry.actionIp)
+          .filter(Boolean),
+      ),
+    ),
+  );
+  const selectedBlockedIps = computed(() =>
+    selectedIpList.value.filter((ip) => isGeneralBlacklisted(ip)),
+  );
+  const selectedUnblockedIps = computed(() =>
+    selectedIpList.value.filter((ip) => !isGeneralBlacklisted(ip)),
+  );
+
+  const isAllDisplayedRowsSelected = computed({
+    get: () =>
+      displayedSelectableEntryKeys.value.length > 0 &&
+      displayedSelectableEntryKeys.value.every((key) =>
+        selectedEntryKeys.value.has(key),
+      ),
+    set: (checked: boolean) => {
+      const next = new Set(selectedEntryKeys.value);
+      if (checked) {
+        displayedEntries.value.forEach((entry) => {
+          if (entry.actionIp) next.add(entry.selectionKey);
+        });
+      } else {
+        displayedEntryKeys.value.forEach((key) => next.delete(key));
+      }
+      selectedEntryKeys.value = next;
+    },
+  });
+
+  const toggleEntrySelection = (key?: string) => {
+    if (!key) return;
+    const next = new Set(selectedEntryKeys.value);
+    if (next.has(key)) {
+      next.delete(key);
+    } else {
+      next.add(key);
+    }
+    selectedEntryKeys.value = next;
+  };
+
+  const removeSelectedIps = (ips: string[]) => {
+    const operatedIps = new Set(ips);
+    selectedEntryKeys.value = new Set(
+      displayedEntries.value
+        .filter(
+          (entry) =>
+            selectedEntryKeys.value.has(entry.selectionKey) &&
+            !operatedIps.has(entry.actionIp),
+        )
+        .map((entry) => entry.selectionKey),
+    );
+  };
+
+  const blockIps = async (ips: string[]) => {
+    const uniqueIps = Array.from(new Set(ips.filter(Boolean))).filter(
+      (ip) => !isGeneralBlacklisted(ip),
+    );
+    if (uniqueIps.length === 0) return;
+
+    await runBlockIps(() => GeneralBlacklistAPI.add(uniqueIps, source), {
+      onSuccess: async (result) => {
+        toast.success(translate(messageKeys.blacklistSuccess), {
+          description: translate(messageKeys.blacklistSuccessDetail, {
+            added: result?.added ?? 0,
+            updated: result?.updated ?? 0,
+          }),
+        });
+        removeSelectedIps(uniqueIps);
+        await refreshGeneralBlacklistStatus();
+        await onMutated?.();
+      },
+    });
+  };
+
+  const releaseIps = async (ips: string[]) => {
+    const uniqueIps = Array.from(new Set(ips.filter(Boolean))).filter((ip) =>
+      isGeneralBlacklisted(ip),
+    );
+    if (uniqueIps.length === 0) return;
+
+    await runReleaseIps(() => GeneralBlacklistAPI.delete(uniqueIps), {
+      onSuccess: async (result) => {
+        toast.success(translate(messageKeys.unblacklistSuccess), {
+          description: translate(messageKeys.unblacklistSuccessDetail, {
+            removed: result?.removed ?? 0,
+          }),
+        });
+        removeSelectedIps(uniqueIps);
+        await refreshGeneralBlacklistStatus();
+        await onMutated?.();
+      },
+    });
+  };
+
+  if (pruneInvisibleSelection) {
+    watch(displayedEntryKeys, (keys) => {
+      const visibleKeys = new Set(keys);
+      selectedEntryKeys.value = new Set(
+        Array.from(selectedEntryKeys.value).filter((key) =>
+          visibleKeys.has(key),
+        ),
+      );
+    });
+  }
+
+  return {
+    blockIps,
+    hasSelectableDisplayedRows,
+    isAllDisplayedRowsSelected,
+    isBlockingIps,
+    isGeneralBlacklisted,
+    isMutatingBlacklistIps,
+    isReleasingIps,
+    releaseIps,
+    selectedBlockedIps,
+    selectedUnblockedIps,
+    toggleEntrySelection,
+  };
+};

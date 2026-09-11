@@ -1,1 +1,55 @@
-PHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iZW1pdCgndXBkYXRlOm9wZW4nLCAkZXZlbnQpIj4KICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJzbTptYXgtdy1bNDQwcHhdIj4KICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICA8RGlhbG9nVGl0bGU+e3sgdGl0bGUgfX08L0RpYWxvZ1RpdGxlPgogICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgIHt7IGRlc2NyaXB0aW9uIH19CiAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgIDxEaWFsb2dGb290ZXI+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBAY2xpY2s9ImVtaXQoJ2NhbmNlbCcpIj4KICAgICAgICAgIHt7IGNhbmNlbExhYmVsIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImxvYWRpbmciCiAgICAgICAgICBAY2xpY2s9ImVtaXQoJ2NvbmZpcm0nKSIKICAgICAgICA+CiAgICAgICAgICA8c3BhbgogICAgICAgICAgICB2LWlmPSJsb2FkaW5nIgogICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLWJhY2tncm91bmQgYm9yZGVyLXQtZm9yZWdyb3VuZCIKICAgICAgICAgID48L3NwYW4+CiAgICAgICAgICB7eyBjb25maXJtTGFiZWwgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKCmRlZmluZVByb3BzPHsKICBjYW5jZWxMYWJlbDogc3RyaW5nOwogIGNvbmZpcm1MYWJlbDogc3RyaW5nOwogIGRlc2NyaXB0aW9uOiBzdHJpbmc7CiAgbG9hZGluZzogYm9vbGVhbjsKICBvcGVuOiBib29sZWFuOwogIHRpdGxlOiBzdHJpbmc7Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIGNhbmNlbDogW107CiAgY29uZmlybTogW107CiAgInVwZGF0ZTpvcGVuIjogW29wZW46IGJvb2xlYW5dOwp9PigpOwo8L3NjcmlwdD4K
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="sm:max-w-[440px]">
+      <DialogHeader>
+        <DialogTitle>{{ title }}</DialogTitle>
+        <DialogDescription>
+          {{ description }}
+        </DialogDescription>
+      </DialogHeader>
+      <DialogFooter>
+        <Button variant="outline" @click="emit('cancel')">
+          {{ cancelLabel }}
+        </Button>
+        <Button
+          variant="destructive"
+          :disabled="loading"
+          @click="emit('confirm')"
+        >
+          <span
+            v-if="loading"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          ></span>
+          {{ confirmLabel }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>
+
+<script setup lang="ts">
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+
+defineProps<{
+  cancelLabel: string;
+  confirmLabel: string;
+  description: string;
+  loading: boolean;
+  open: boolean;
+  title: string;
+}>();
+
+const emit = defineEmits<{
+  cancel: [];
+  confirm: [];
+  "update:open": [open: boolean];
+}>();
+</script>

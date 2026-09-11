@@ -1,1 +1,39 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiOwppbXBvcnQgdHlwZSB7IElucHV0R3JvdXBWYXJpYW50cyB9IGZyb20gIi4iOwppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIjsKaW1wb3J0IHsgaW5wdXRHcm91cEFkZG9uVmFyaWFudHMgfSBmcm9tICIuIjsKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKAogIGRlZmluZVByb3BzPHsKICAgIGFsaWduPzogSW5wdXRHcm91cFZhcmlhbnRzWyJhbGlnbiJdOwogICAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXTsKICB9PigpLAogIHsKICAgIGFsaWduOiAiaW5saW5lLXN0YXJ0IiwKICB9LAopOwoKZnVuY3Rpb24gaGFuZGxlSW5wdXRHcm91cEFkZG9uUG9pbnRlckRvd24oZTogUG9pbnRlckV2ZW50KSB7CiAgY29uc3QgY3VycmVudFRhcmdldCA9IGUuY3VycmVudFRhcmdldCBhcyBIVE1MRWxlbWVudCB8IG51bGw7CiAgY29uc3QgdGFyZ2V0ID0gZS50YXJnZXQgYXMgSFRNTEVsZW1lbnQgfCBudWxsOwogIGlmICh0YXJnZXQgJiYgdGFyZ2V0LmNsb3Nlc3QoImJ1dHRvbiIpKSB7CiAgICByZXR1cm47CiAgfQogIGlmIChjdXJyZW50VGFyZ2V0ICYmIGN1cnJlbnRUYXJnZXQ/LnBhcmVudEVsZW1lbnQpIHsKICAgIGN1cnJlbnRUYXJnZXQucGFyZW50RWxlbWVudD8ucXVlcnlTZWxlY3RvcigiaW5wdXQiKT8uZm9jdXMoKTsKICB9Cn0KPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgcm9sZT0iZ3JvdXAiCiAgICBkYXRhLXNsb3Q9ImlucHV0LWdyb3VwLWFkZG9uIgogICAgOmRhdGEtYWxpZ249InByb3BzLmFsaWduIgogICAgOmNsYXNzPSJjbihpbnB1dEdyb3VwQWRkb25WYXJpYW50cyh7IGFsaWduOiBwcm9wcy5hbGlnbiB9KSwgcHJvcHMuY2xhc3MpIgogICAgQHBvaW50ZXJkb3duPSJoYW5kbGVJbnB1dEdyb3VwQWRkb25Qb2ludGVyRG93biIKICA+CiAgICA8c2xvdCAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue";
+import type { InputGroupVariants } from ".";
+import { cn } from "@/lib/utils";
+import { inputGroupAddonVariants } from ".";
+
+const props = withDefaults(
+  defineProps<{
+    align?: InputGroupVariants["align"];
+    class?: HTMLAttributes["class"];
+  }>(),
+  {
+    align: "inline-start",
+  },
+);
+
+function handleInputGroupAddonPointerDown(e: PointerEvent) {
+  const currentTarget = e.currentTarget as HTMLElement | null;
+  const target = e.target as HTMLElement | null;
+  if (target && target.closest("button")) {
+    return;
+  }
+  if (currentTarget && currentTarget?.parentElement) {
+    currentTarget.parentElement?.querySelector("input")?.focus();
+  }
+}
+</script>
+
+<template>
+  <div
+    role="group"
+    data-slot="input-group-addon"
+    :data-align="props.align"
+    :class="cn(inputGroupAddonVariants({ align: props.align }), props.class)"
+    @pointerdown="handleInputGroupAddonPointerDown"
+  >
+    <slot />
+  </div>
+</template>

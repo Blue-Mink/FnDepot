@@ -1,1 +1,74 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IENoZWNrYm94IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NoZWNrYm94IjsKaW1wb3J0IHsgREVGQVVMVF9HUk9VUF9CWV9CWV9FVkVOVF9UWVBFIH0gZnJvbSAiLi4vY29uc3RhbnRzIjsKaW1wb3J0IHR5cGUgeyBOb3RpZmljYXRpb25SdWxlRWRpdG9yQ29udHJvbGxlciB9IGZyb20gIi4vbm90aWZpY2F0aW9uLXJ1bGUtZWRpdG9yLWNvbnRyYWN0IjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8eyBjb250cm9sbGVyOiBOb3RpZmljYXRpb25SdWxlRWRpdG9yQ29udHJvbGxlciB9PigpOwpjb25zdCB7CiAgYXZhaWxhYmxlRXZlbnRUeXBlT3B0aW9ucywKICBmb3JtYXRFdmVudFR5cGVMYWJlbCwKICBmb3JtYXRHcm91cEJ5TGFiZWwsCiAgaXNBbGxFdmVudFR5cGVzU2VsZWN0ZWQsCiAgcnVsZUZvcm0sCiAgdG9nZ2xlQWxsRXZlbnRUeXBlcywKICB0b2dnbGVFdmVudFR5cGUsCn0gPSBwcm9wcy5jb250cm9sbGVyOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPHNlY3Rpb24gY2xhc3M9InNwYWNlLXktNCBib3JkZXItYiBib3JkZXItYm9yZGVyLzYwIHBiLTYiPgogICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyI+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSBmb250LXNlbWlib2xkIj4KICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucnVsZXMudHJpZ2dlckV2ZW50cyIpIH19CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ydWxlcy50cmlnZ2VyRXZlbnRzRGVzY3JpcHRpb24iKSB9fQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcHgtMyBweS0yIj4KICAgICAgICA8Q2hlY2tib3gKICAgICAgICAgIDptb2RlbC12YWx1ZT0iaXNBbGxFdmVudFR5cGVzU2VsZWN0ZWQiCiAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4ubm90aWZpY2F0aW9ucy5ydWxlcy5zZWxlY3RBbGwnKSIKICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9InRvZ2dsZUFsbEV2ZW50VHlwZXMiCiAgICAgICAgLz4KICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ydWxlcy5zZWxlY3RBbGwiKSB9fQogICAgICAgIDwvc3Bhbj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0zIG1kOmdyaWQtY29scy0yIHhsOmdyaWQtY29scy0zIj4KICAgICAgPGxhYmVsCiAgICAgICAgdi1mb3I9Im9wdGlvbiBpbiBhdmFpbGFibGVFdmVudFR5cGVPcHRpb25zIgogICAgICAgIDprZXk9Im9wdGlvbi52YWx1ZSIKICAgICAgICBjbGFzcz0iZmxleCBjdXJzb3ItcG9pbnRlciBpdGVtcy1zdGFydCBnYXAtMyByb3VuZGVkLXhsIGJvcmRlciBweC00IHB5LTMgdHJhbnNpdGlvbi1hbGwiCiAgICAgICAgOmNsYXNzPSIKICAgICAgICAgIHJ1bGVGb3JtLmV2ZW50X3R5cGVzLmluY2x1ZGVzKG9wdGlvbi52YWx1ZSkKICAgICAgICAgICAgPyAnYm9yZGVyLXByaW1hcnkvNDAgYmctcHJpbWFyeS81IHNoYWRvdy1zbScKICAgICAgICAgICAgOiAnYm9yZGVyLWJvcmRlci83MCBob3Zlcjpib3JkZXItcHJpbWFyeS8yMCBob3ZlcjpiZy1tdXRlZC8zMCcKICAgICAgICAiCiAgICAgID4KICAgICAgICA8Q2hlY2tib3gKICAgICAgICAgIDptb2RlbC12YWx1ZT0icnVsZUZvcm0uZXZlbnRfdHlwZXMuaW5jbHVkZXMob3B0aW9uLnZhbHVlKSIKICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9InRvZ2dsZUV2ZW50VHlwZShvcHRpb24udmFsdWUsICRldmVudCkiCiAgICAgICAgLz4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEiPgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSBsZWFkaW5nLTUiPgogICAgICAgICAgICB7eyBmb3JtYXRFdmVudFR5cGVMYWJlbChvcHRpb24udmFsdWUpIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ydWxlcy5yZWNvbW1lbmRlZEdyb3VwQnkiKSB9fQogICAgICAgICAgICB7ewogICAgICAgICAgICAgIGZvcm1hdEdyb3VwQnlMYWJlbCgKICAgICAgICAgICAgICAgIERFRkFVTFRfR1JPVVBfQllfQllfRVZFTlRfVFlQRVtvcHRpb24udmFsdWVdLAogICAgICAgICAgICAgICkKICAgICAgICAgICAgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2xhYmVsPgogICAgPC9kaXY+CiAgPC9zZWN0aW9uPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Checkbox } from "@/components/ui/checkbox";
+import { DEFAULT_GROUP_BY_BY_EVENT_TYPE } from "../constants";
+import type { NotificationRuleEditorController } from "./notification-rule-editor-contract";
+
+const props = defineProps<{ controller: NotificationRuleEditorController }>();
+const {
+  availableEventTypeOptions,
+  formatEventTypeLabel,
+  formatGroupByLabel,
+  isAllEventTypesSelected,
+  ruleForm,
+  toggleAllEventTypes,
+  toggleEventType,
+} = props.controller;
+const { t } = useI18n();
+</script>
+
+<template>
+  <section class="space-y-4 border-b border-border/60 pb-6">
+    <div class="flex flex-wrap items-center justify-between gap-3">
+      <div class="space-y-1">
+        <div class="text-sm font-semibold">
+          {{ t("admin.notifications.rules.triggerEvents") }}
+        </div>
+        <div class="text-xs text-muted-foreground">
+          {{ t("admin.notifications.rules.triggerEventsDescription") }}
+        </div>
+      </div>
+      <div class="flex items-center gap-2 px-3 py-2">
+        <Checkbox
+          :model-value="isAllEventTypesSelected"
+          :aria-label="t('admin.notifications.rules.selectAll')"
+          @update:model-value="toggleAllEventTypes"
+        />
+        <span class="text-xs text-muted-foreground">
+          {{ t("admin.notifications.rules.selectAll") }}
+        </span>
+      </div>
+    </div>
+
+    <div class="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+      <label
+        v-for="option in availableEventTypeOptions"
+        :key="option.value"
+        class="flex cursor-pointer items-start gap-3 rounded-xl border px-4 py-3 transition-all"
+        :class="
+          ruleForm.event_types.includes(option.value)
+            ? 'border-primary/40 bg-primary/5 shadow-sm'
+            : 'border-border/70 hover:border-primary/20 hover:bg-muted/30'
+        "
+      >
+        <Checkbox
+          :model-value="ruleForm.event_types.includes(option.value)"
+          @update:model-value="toggleEventType(option.value, $event)"
+        />
+        <div class="space-y-1">
+          <div class="text-sm font-medium leading-5">
+            {{ formatEventTypeLabel(option.value) }}
+          </div>
+          <div class="text-xs text-muted-foreground">
+            {{ t("admin.notifications.rules.recommendedGroupBy") }}
+            {{
+              formatGroupByLabel(
+                DEFAULT_GROUP_BY_BY_EVENT_TYPE[option.value],
+              )
+            }}
+          </div>
+        </div>
+      </label>
+    </div>
+  </section>
+</template>

@@ -1,1 +1,278 @@
-dXNlIHNlcmRlX2pzb246OlZhbHVlOwp1c2UgdG9raW9fcnVzcWxpdGU6OnJ1c3FsaXRlOjp7CiAgICBDb25uZWN0aW9uLCBPcHRpb25hbEV4dGVuc2lvbiwgVHJhbnNhY3Rpb24sIFRyYW5zYWN0aW9uQmVoYXZpb3IsIHBhcmFtcywKfTsKCnVzZSBzdXBlcjo6ewogICAgU3RvcmFnZVJlc3VsdCwKICAgIHJlZGlzX2NvbXBhdDo6e0Nvbm5lY3Rpb25NYW5hZ2VyLCBzdHJpbmdfZ2V0X3R4fSwKICAgIHN0b3JhZ2VfZXJyb3IsCn07Cgpjb25zdCBUWVBFRF9TQ0hFTUFfVkVSU0lPTjogaTY0ID0gMTsKY29uc3QgVFlQRURfU0NIRU1BX05BTUU6ICZzdHIgPSAidHlwZWRfY29uZmlnX2RvY3VtZW50IjsKY29uc3QgVFlQRURfU0NIRU1BX1NRTDogJnN0ciA9IHIjIgpDUkVBVEUgVEFCTEUgY29uZmlnX2RvY3VtZW50cyAoCiAgc2luZ2xldG9uIElOVEVHRVIgUFJJTUFSWSBLRVkgQ0hFQ0sgKHNpbmdsZXRvbiA9IDEpLAogIGRvY3VtZW50X2pzb24gVEVYVCBOT1QgTlVMTCwKICBob3N0X21hcHBpbmdzX2dlbmVyYXRpb24gSU5URUdFUiBOT1QgTlVMTCBDSEVDSyAoaG9zdF9tYXBwaW5nc19nZW5lcmF0aW9uID49IDApLAogIHJldmlzaW9uIElOVEVHRVIgTk9UIE5VTEwgQ0hFQ0sgKHJldmlzaW9uID4gMCksCiAgdXBkYXRlZF9hdF9tcyBJTlRFR0VSIE5PVCBOVUxMCik7CiIjOwoKY29uc3QgVFlQRURfTUlHUkFUSU9OU19TUUw6ICZzdHIgPSByIyIKQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgdHlwZWRfc2NoZW1hX21pZ3JhdGlvbnMgKAogIHZlcnNpb24gSU5URUdFUiBQUklNQVJZIEtFWSwKICBuYW1lIFRFWFQgTk9UIE5VTEwsCiAgY2hlY2tzdW0gVEVYVCBOT1QgTlVMTCwKICBhcHBsaWVkX2F0X21zIElOVEVHRVIgTk9UIE5VTEwKKTsKIiM7CgojW2Rlcml2ZShDbG9uZSldCnB1YihjcmF0ZSkgc3RydWN0IFR5cGVkQ29uZmlnUmVwb3NpdG9yeSB7CiAgICBtYW5hZ2VyOiBDb25uZWN0aW9uTWFuYWdlciwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnKV0KcHViKGNyYXRlKSBzdHJ1Y3QgVHlwZWRDb25maWdEb2N1bWVudCB7CiAgICBwdWIoY3JhdGUpIGRvY3VtZW50OiBWYWx1ZSwKICAgIHB1YihjcmF0ZSkgaG9zdF9tYXBwaW5nc19nZW5lcmF0aW9uOiB1NjQsCiAgICBwdWIoY3JhdGUpIHJldmlzaW9uOiB1NjQsCn0KCnB1YihjcmF0ZSkgc3RydWN0IExlZ2FjeUNvbmZpZ1Jhd1NuYXBzaG90IHsKICAgIHB1YihjcmF0ZSkgY29uZmlnX3JhdzogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIoY3JhdGUpIGdlbmVyYXRpb25fcmF3OiBPcHRpb248U3RyaW5nPiwKfQoKcHViKGNyYXRlKSBzdHJ1Y3QgVHlwZWRDb25maWdTaGFkb3dTbmFwc2hvdCB7CiAgICBwdWIoY3JhdGUpIGxlZ2FjeTogTGVnYWN5Q29uZmlnUmF3U25hcHNob3QsCiAgICBwdWIoY3JhdGUpIHR5cGVkOiBTdG9yYWdlUmVzdWx0PE9wdGlvbjxUeXBlZENvbmZpZ0RvY3VtZW50Pj4sCn0KCnB1YihjcmF0ZSkgc3RydWN0IFJlY29uY2lsZWRMZWdhY3lDb25maWcgewogICAgcHViKGNyYXRlKSBsZWdhY3k6IExlZ2FjeUNvbmZpZ1Jhd1NuYXBzaG90LAogICAgcHViKGNyYXRlKSB0eXBlZF9yZXZpc2lvbjogdTY0LAp9CgppbXBsIFR5cGVkQ29uZmlnUmVwb3NpdG9yeSB7CiAgICBwdWIoY3JhdGUpIGZuIG5ldyhtYW5hZ2VyOiBDb25uZWN0aW9uTWFuYWdlcikgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7IG1hbmFnZXIgfQogICAgfQoKICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gaW5pdGlhbGl6ZSgmc2VsZikgLT4gU3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIHNlbGYubWFuYWdlcgogICAgICAgICAgICAuY2FsbChtb3ZlIHxjb25ufCB7CiAgICAgICAgICAgICAgICBsZXQgdHggPSBjb25uLnRyYW5zYWN0aW9uX3dpdGhfYmVoYXZpb3IoVHJhbnNhY3Rpb25CZWhhdmlvcjo6SW1tZWRpYXRlKT87CiAgICAgICAgICAgICAgICB0eC5leGVjdXRlX2JhdGNoKFRZUEVEX01JR1JBVElPTlNfU1FMKT87CiAgICAgICAgICAgICAgICBsZXQgbGF0ZXN0OiBPcHRpb248aTY0PiA9IHR4LnF1ZXJ5X3JvdygKICAgICAgICAgICAgICAgICAgICAiU0VMRUNUIE1BWCh2ZXJzaW9uKSBGUk9NIHR5cGVkX3NjaGVtYV9taWdyYXRpb25zIiwKICAgICAgICAgICAgICAgICAgICBbXSwKICAgICAgICAgICAgICAgICAgICB8cm93fCByb3cuZ2V0KDApLAogICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICBpZiBsZXQgU29tZSh2ZXJzaW9uKSA9IGxhdGVzdC5maWx0ZXIofHZlcnNpb258ICp2ZXJzaW9uID4gVFlQRURfU0NIRU1BX1ZFUlNJT04pIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gRXJyKHN0b3JhZ2VfZXJyb3IoZm9ybWF0ISgKICAgICAgICAgICAgICAgICAgICAgICAgInR5cGVkIFNRTGl0ZSBzY2hlbWEgdmVyc2lvbiB7dmVyc2lvbn0gaXMgbmV3ZXIgdGhhbiB0aGlzIHNlcnZlciBzdXBwb3J0cyAoe1RZUEVEX1NDSEVNQV9WRVJTSU9OfSkiCiAgICAgICAgICAgICAgICAgICAgKSkpOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGxldCBleHBlY3RlZF9jaGVja3N1bSA9IGNyYXRlOjpjcnlwdG9fdXRpbHM6OnNoYTI1Nl9oZXhfYnl0ZXMoVFlQRURfU0NIRU1BX1NRTCk7CiAgICAgICAgICAgICAgICBsZXQgYXBwbGllZCA9IHR4CiAgICAgICAgICAgICAgICAgICAgLnF1ZXJ5X3JvdygKICAgICAgICAgICAgICAgICAgICAgICAgIlNFTEVDVCBuYW1lLCBjaGVja3N1bSBGUk9NIHR5cGVkX3NjaGVtYV9taWdyYXRpb25zIFdIRVJFIHZlcnNpb24gPSA/MSIsCiAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtcyFbVFlQRURfU0NIRU1BX1ZFUlNJT05dLAogICAgICAgICAgICAgICAgICAgICAgICB8cm93fCBPaygocm93LmdldDo6PF8sIFN0cmluZz4oMCk/LCByb3cuZ2V0Ojo8XywgU3RyaW5nPigxKT8pKSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgLm9wdGlvbmFsKCk/OwogICAgICAgICAgICAgICAgbWF0Y2ggYXBwbGllZCB7CiAgICAgICAgICAgICAgICAgICAgU29tZSgobmFtZSwgY2hlY2tzdW0pKQogICAgICAgICAgICAgICAgICAgICAgICBpZiBuYW1lID09IFRZUEVEX1NDSEVNQV9OQU1FICYmIGNoZWNrc3VtID09IGV4cGVjdGVkX2NoZWNrc3VtID0+CiAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICBsZXQgdGFibGVfZXhpc3RzID0gdHgucXVlcnlfcm93KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIlNFTEVDVCBFWElTVFMoU0VMRUNUIDEgRlJPTSBzcWxpdGVfbWFzdGVyIFdIRVJFIHR5cGUgPSAndGFibGUnIEFORCBuYW1lID0gJ2NvbmZpZ19kb2N1bWVudHMnKSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHxyb3d8IHJvdy5nZXQ6OjxfLCBib29sPigwKSwKICAgICAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICAgICAgICAgIGlmICF0YWJsZV9leGlzdHMgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihzdG9yYWdlX2Vycm9yKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0eXBlZCBjb25maWcgbWlncmF0aW9uIGlzIHJlY29yZGVkIGJ1dCBpdHMgdGFibGUgaXMgbWlzc2luZyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBTb21lKChuYW1lLCBfKSkgaWYgbmFtZSAhPSBUWVBFRF9TQ0hFTUFfTkFNRSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcihmb3JtYXQhKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgInR5cGVkIFNRTGl0ZSBzY2hlbWEgbWlncmF0aW9uIHtUWVBFRF9TQ0hFTUFfVkVSU0lPTn0gbmFtZSBtaXNtYXRjaCIKICAgICAgICAgICAgICAgICAgICAgICAgKSkpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBTb21lKF8pID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihzdG9yYWdlX2Vycm9yKGZvcm1hdCEoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAidHlwZWQgU1FMaXRlIHNjaGVtYSBtaWdyYXRpb24ge1RZUEVEX1NDSEVNQV9WRVJTSU9OfSBjaGVja3N1bSBtaXNtYXRjaCIKICAgICAgICAgICAgICAgICAgICAgICAgKSkpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBOb25lID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgdHguZXhlY3V0ZV9iYXRjaChUWVBFRF9TQ0hFTUFfU1FMKT87CiAgICAgICAgICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiSU5TRVJUIElOVE8gdHlwZWRfc2NoZW1hX21pZ3JhdGlvbnModmVyc2lvbiwgbmFtZSwgY2hlY2tzdW0sIGFwcGxpZWRfYXRfbXMpIFZBTFVFUyAoPzEsID8yLCA/MywgPzQpIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtcyFbCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVFlQRURfU0NIRU1BX1ZFUlNJT04sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVFlQRURfU0NIRU1BX05BTUUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXhwZWN0ZWRfY2hlY2tzdW0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdHguY29tbWl0KCk/OwogICAgICAgICAgICAgICAgT2soKCkpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgICNbY2ZnKHRlc3QpXQogICAgcHViKGNyYXRlKSBhc3luYyBmbiBsb2FkKCZzZWxmKSAtPiBTdG9yYWdlUmVzdWx0PE9wdGlvbjxUeXBlZENvbmZpZ0RvY3VtZW50Pj4gewogICAgICAgIHNlbGYubWFuYWdlcgogICAgICAgICAgICAuY2FsbChtb3ZlIHxjb25ufCBsb2FkX3R5cGVkX2NvbmZpZ19kb2N1bWVudChjb25uKSkKICAgICAgICAgICAgLmF3YWl0CiAgICB9CgogICAgcHViKGNyYXRlKSBhc3luYyBmbiBsb2FkX3NoYWRvdygKICAgICAgICAmc2VsZiwKICAgICAgICBjb25maWdfa2V5OiAmc3RyLAogICAgICAgIGdlbmVyYXRpb25fa2V5OiAmc3RyLAogICAgKSAtPiBTdG9yYWdlUmVzdWx0PFR5cGVkQ29uZmlnU2hhZG93U25hcHNob3Q+IHsKICAgICAgICBsZXQgY29uZmlnX2tleSA9IGNvbmZpZ19rZXkudG9fc3RyaW5nKCk7CiAgICAgICAgbGV0IGdlbmVyYXRpb25fa2V5ID0gZ2VuZXJhdGlvbl9rZXkudG9fc3RyaW5nKCk7CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5jYWxsKG1vdmUgfGNvbm58IHsKICAgICAgICAgICAgICAgIGxldCB0eCA9IGNvbm4udHJhbnNhY3Rpb25fd2l0aF9iZWhhdmlvcihUcmFuc2FjdGlvbkJlaGF2aW9yOjpJbW1lZGlhdGUpPzsKICAgICAgICAgICAgICAgIGxldCBsZWdhY3kgPSBMZWdhY3lDb25maWdSYXdTbmFwc2hvdCB7CiAgICAgICAgICAgICAgICAgICAgY29uZmlnX3Jhdzogc3RyaW5nX2dldF90eCgmdHgsICZjb25maWdfa2V5KT8sCiAgICAgICAgICAgICAgICAgICAgZ2VuZXJhdGlvbl9yYXc6IHN0cmluZ19nZXRfdHgoJnR4LCAmZ2VuZXJhdGlvbl9rZXkpPywKICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICAvLyBBIGNvcnJ1cHQgb3IgbWlzc2luZyB0eXBlZCB0YWJsZSBtdXN0IG5vdCBtYWtlIHRoZSBsZWdhY3kKICAgICAgICAgICAgICAgIC8vIHJlYWQgcGF0aCB1bmF2YWlsYWJsZSBkdXJpbmcgdGhlIHNoYWRvdyBwaGFzZS4gUHJlc2VydmUgdGhlCiAgICAgICAgICAgICAgICAvLyB0eXBlZCBlcnJvciBhcyBjb21wYXJpc29uIHRlbGVtZXRyeSBpbnN0ZWFkLgogICAgICAgICAgICAgICAgbGV0IHR5cGVkID0gbG9hZF90eXBlZF9jb25maWdfZG9jdW1lbnQoJnR4KTsKICAgICAgICAgICAgICAgIHR4LmNvbW1pdCgpPzsKICAgICAgICAgICAgICAgIE9rKFR5cGVkQ29uZmlnU2hhZG93U25hcHNob3QgeyBsZWdhY3ksIHR5cGVkIH0pCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gcmVjb25jaWxlX2Zyb21fbGVnYWN5KAogICAgICAgICZzZWxmLAogICAgICAgIGNvbmZpZ19rZXk6ICZzdHIsCiAgICAgICAgZ2VuZXJhdGlvbl9rZXk6ICZzdHIsCiAgICAgICAgZGVmYXVsdF9kb2N1bWVudDogJlZhbHVlLAogICAgICAgIHJldmlzaW9uX2Zsb29yOiB1NjQsCiAgICApIC0+IFN0b3JhZ2VSZXN1bHQ8UmVjb25jaWxlZExlZ2FjeUNvbmZpZz4gewogICAgICAgIGxldCBjb25maWdfa2V5ID0gY29uZmlnX2tleS50b19zdHJpbmcoKTsKICAgICAgICBsZXQgZ2VuZXJhdGlvbl9rZXkgPSBnZW5lcmF0aW9uX2tleS50b19zdHJpbmcoKTsKICAgICAgICBsZXQgZGVmYXVsdF9kb2N1bWVudF9qc29uID0gc2VyZGVfanNvbjo6dG9fc3RyaW5nKGRlZmF1bHRfZG9jdW1lbnQpPzsKICAgICAgICBzZWxmLm1hbmFnZXIKICAgICAgICAgICAgLmNhbGwobW92ZSB8Y29ubnwgewogICAgICAgICAgICAgICAgbGV0IHR4ID0gY29ubi50cmFuc2FjdGlvbl93aXRoX2JlaGF2aW9yKFRyYW5zYWN0aW9uQmVoYXZpb3I6OkltbWVkaWF0ZSk/OwogICAgICAgICAgICAgICAgbGV0IGxlZ2FjeSA9IExlZ2FjeUNvbmZpZ1Jhd1NuYXBzaG90IHsKICAgICAgICAgICAgICAgICAgICBjb25maWdfcmF3OiBzdHJpbmdfZ2V0X3R4KCZ0eCwgJmNvbmZpZ19rZXkpPywKICAgICAgICAgICAgICAgICAgICBnZW5lcmF0aW9uX3Jhdzogc3RyaW5nX2dldF90eCgmdHgsICZnZW5lcmF0aW9uX2tleSk/LAogICAgICAgICAgICAgICAgfTsKICAgICAgICAgICAgICAgIGxldCBkb2N1bWVudF9qc29uID0gbGVnYWN5CiAgICAgICAgICAgICAgICAgICAgLmNvbmZpZ19yYXcKICAgICAgICAgICAgICAgICAgICAuYXNfZGVyZWYoKQogICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3IoJmRlZmF1bHRfZG9jdW1lbnRfanNvbik7CiAgICAgICAgICAgICAgICBsZXQgaG9zdF9tYXBwaW5nc19nZW5lcmF0aW9uID0gbGVnYWN5CiAgICAgICAgICAgICAgICAgICAgLmdlbmVyYXRpb25fcmF3CiAgICAgICAgICAgICAgICAgICAgLmFzX2RlcmVmKCkKICAgICAgICAgICAgICAgICAgICAudW53cmFwX29yKCIwIikKICAgICAgICAgICAgICAgICAgICAucGFyc2U6Ojx1NjQ+KCkKICAgICAgICAgICAgICAgICAgICAubWFwX2Vycih8X3wgc3RvcmFnZV9lcnJvcigiaG9zdCBtYXBwaW5ncyBnZW5lcmF0aW9uIGlzIGludmFsaWQiKSk/OwogICAgICAgICAgICAgICAgbGV0IHR5cGVkX3JldmlzaW9uID0gdXBzZXJ0X2NvbmZpZ19kb2N1bWVudF93aXRoX3JldmlzaW9uX2Zsb29yX3R4KAogICAgICAgICAgICAgICAgICAgICZ0eCwKICAgICAgICAgICAgICAgICAgICBkb2N1bWVudF9qc29uLAogICAgICAgICAgICAgICAgICAgIGhvc3RfbWFwcGluZ3NfZ2VuZXJhdGlvbiwKICAgICAgICAgICAgICAgICAgICByZXZpc2lvbl9mbG9vciwKICAgICAgICAgICAgICAgICk/OwogICAgICAgICAgICAgICAgdHguY29tbWl0KCk/OwogICAgICAgICAgICAgICAgT2soUmVjb25jaWxlZExlZ2FjeUNvbmZpZyB7CiAgICAgICAgICAgICAgICAgICAgbGVnYWN5LAogICAgICAgICAgICAgICAgICAgIHR5cGVkX3JldmlzaW9uLAogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmF3YWl0CiAgICB9Cn0KCmZuIGxvYWRfdHlwZWRfY29uZmlnX2RvY3VtZW50KGNvbm46ICZDb25uZWN0aW9uKSAtPiBTdG9yYWdlUmVzdWx0PE9wdGlvbjxUeXBlZENvbmZpZ0RvY3VtZW50Pj4gewogICAgbGV0IHJhdyA9IGNvbm4KICAgICAgICAucXVlcnlfcm93KAogICAgICAgICAgICAiU0VMRUNUIGRvY3VtZW50X2pzb24sIGhvc3RfbWFwcGluZ3NfZ2VuZXJhdGlvbiwgcmV2aXNpb24gRlJPTSBjb25maWdfZG9jdW1lbnRzIFdIRVJFIHNpbmdsZXRvbiA9IDEiLAogICAgICAgICAgICBbXSwKICAgICAgICAgICAgfHJvd3wgewogICAgICAgICAgICAgICAgT2soKAogICAgICAgICAgICAgICAgICAgIHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDApPywKICAgICAgICAgICAgICAgICAgICByb3cuZ2V0Ojo8XywgaTY0PigxKT8sCiAgICAgICAgICAgICAgICAgICAgcm93LmdldDo6PF8sIGk2ND4oMik/LAogICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgfSwKICAgICAgICApCiAgICAgICAgLm9wdGlvbmFsKCk/OwogICAgbGV0IFNvbWUoKGRvY3VtZW50X2pzb24sIGdlbmVyYXRpb24sIHJldmlzaW9uKSkgPSByYXcgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfTsKICAgIGxldCBob3N0X21hcHBpbmdzX2dlbmVyYXRpb24gPSB1NjQ6OnRyeV9mcm9tKGdlbmVyYXRpb24pCiAgICAgICAgLm1hcF9lcnIofF98IHN0b3JhZ2VfZXJyb3IoInR5cGVkIGNvbmZpZyBnZW5lcmF0aW9uIGlzIGludmFsaWQiKSk/OwogICAgbGV0IHJldmlzaW9uID0gdTY0Ojp0cnlfZnJvbShyZXZpc2lvbikKICAgICAgICAub2soKQogICAgICAgIC5maWx0ZXIofHJldmlzaW9ufCAqcmV2aXNpb24gPiAwKQogICAgICAgIC5va19vcl9lbHNlKHx8IHN0b3JhZ2VfZXJyb3IoInR5cGVkIGNvbmZpZyByZXZpc2lvbiBpcyBpbnZhbGlkIikpPzsKICAgIE9rKFNvbWUoVHlwZWRDb25maWdEb2N1bWVudCB7CiAgICAgICAgZG9jdW1lbnQ6IHNlcmRlX2pzb246OmZyb21fc3RyKCZkb2N1bWVudF9qc29uKT8sCiAgICAgICAgaG9zdF9tYXBwaW5nc19nZW5lcmF0aW9uLAogICAgICAgIHJldmlzaW9uLAogICAgfSkpCn0KCnB1YihjcmF0ZSkgZm4gdXBzZXJ0X2NvbmZpZ19kb2N1bWVudF90eCgKICAgIHR4OiAmVHJhbnNhY3Rpb248J18+LAogICAgZG9jdW1lbnRfanNvbjogJnN0ciwKICAgIGhvc3RfbWFwcGluZ3NfZ2VuZXJhdGlvbjogdTY0LAopIC0+IFN0b3JhZ2VSZXN1bHQ8dTY0PiB7CiAgICB1cHNlcnRfY29uZmlnX2RvY3VtZW50X3dpdGhfcmV2aXNpb25fZmxvb3JfdHgodHgsIGRvY3VtZW50X2pzb24sIGhvc3RfbWFwcGluZ3NfZ2VuZXJhdGlvbiwgMSkKfQoKZm4gdXBzZXJ0X2NvbmZpZ19kb2N1bWVudF93aXRoX3JldmlzaW9uX2Zsb29yX3R4KAogICAgdHg6ICZUcmFuc2FjdGlvbjwnXz4sCiAgICBkb2N1bWVudF9qc29uOiAmc3RyLAogICAgaG9zdF9tYXBwaW5nc19nZW5lcmF0aW9uOiB1NjQsCiAgICByZXZpc2lvbl9mbG9vcjogdTY0LAopIC0+IFN0b3JhZ2VSZXN1bHQ8dTY0PiB7CiAgICBsZXQgXzogVmFsdWUgPSBzZXJkZV9qc29uOjpmcm9tX3N0cihkb2N1bWVudF9qc29uKT87CiAgICBsZXQgZ2VuZXJhdGlvbiA9IGk2NDo6dHJ5X2Zyb20oaG9zdF9tYXBwaW5nc19nZW5lcmF0aW9uKQogICAgICAgIC5tYXBfZXJyKHxffCBzdG9yYWdlX2Vycm9yKCJ0eXBlZCBjb25maWcgZ2VuZXJhdGlvbiBleGNlZWRzIFNRTGl0ZSByYW5nZSIpKT87CiAgICBsZXQgcmV2aXNpb25fZmxvb3IgPSBpNjQ6OnRyeV9mcm9tKHJldmlzaW9uX2Zsb29yLm1heCgxKSkKICAgICAgICAubWFwX2Vycih8X3wgc3RvcmFnZV9lcnJvcigidHlwZWQgY29uZmlnIHJldmlzaW9uIGV4Y2VlZHMgU1FMaXRlIHJhbmdlIikpPzsKICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgIklOU0VSVCBJTlRPIGNvbmZpZ19kb2N1bWVudHMoc2luZ2xldG9uLCBkb2N1bWVudF9qc29uLCBob3N0X21hcHBpbmdzX2dlbmVyYXRpb24sIHJldmlzaW9uLCB1cGRhdGVkX2F0X21zKQogICAgICAgICBWQUxVRVMgKDEsID8xLCA/MiwgPzQsID8zKQogICAgICAgICBPTiBDT05GTElDVChzaW5nbGV0b24pIERPIFVQREFURSBTRVQKICAgICAgICAgICBkb2N1bWVudF9qc29uID0gZXhjbHVkZWQuZG9jdW1lbnRfanNvbiwKICAgICAgICAgICBob3N0X21hcHBpbmdzX2dlbmVyYXRpb24gPSBleGNsdWRlZC5ob3N0X21hcHBpbmdzX2dlbmVyYXRpb24sCiAgICAgICAgICAgcmV2aXNpb24gPSBtYXgoY29uZmlnX2RvY3VtZW50cy5yZXZpc2lvbiArIDEsIGV4Y2x1ZGVkLnJldmlzaW9uKSwKICAgICAgICAgICB1cGRhdGVkX2F0X21zID0gZXhjbHVkZWQudXBkYXRlZF9hdF9tcwogICAgICAgICBXSEVSRSBjb25maWdfZG9jdW1lbnRzLmRvY3VtZW50X2pzb24gIT0gZXhjbHVkZWQuZG9jdW1lbnRfanNvbgogICAgICAgICAgICBPUiBjb25maWdfZG9jdW1lbnRzLmhvc3RfbWFwcGluZ3NfZ2VuZXJhdGlvbiAhPSBleGNsdWRlZC5ob3N0X21hcHBpbmdzX2dlbmVyYXRpb24KICAgICAgICAgICAgT1IgY29uZmlnX2RvY3VtZW50cy5yZXZpc2lvbiA8IGV4Y2x1ZGVkLnJldmlzaW9uIiwKICAgICAgICBwYXJhbXMhW2RvY3VtZW50X2pzb24sIGdlbmVyYXRpb24sIGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfbXMoKSwgcmV2aXNpb25fZmxvb3JdLAogICAgKT87CiAgICBsZXQgcmV2aXNpb24gPSB0eC5xdWVyeV9yb3coCiAgICAgICAgIlNFTEVDVCByZXZpc2lvbiBGUk9NIGNvbmZpZ19kb2N1bWVudHMgV0hFUkUgc2luZ2xldG9uID0gMSIsCiAgICAgICAgW10sCiAgICAgICAgfHJvd3wgcm93LmdldDo6PF8sIGk2ND4oMCksCiAgICApPzsKICAgIHU2NDo6dHJ5X2Zyb20ocmV2aXNpb24pCiAgICAgICAgLm9rKCkKICAgICAgICAuZmlsdGVyKHxyZXZpc2lvbnwgKnJldmlzaW9uID4gMCkKICAgICAgICAub2tfb3JfZWxzZSh8fCBzdG9yYWdlX2Vycm9yKCJ0eXBlZCBjb25maWcgcmV2aXNpb24gaXMgaW52YWxpZCIpKQp9Cg==
+use serde_json::Value;
+use tokio_rusqlite::rusqlite::{
+    Connection, OptionalExtension, Transaction, TransactionBehavior, params,
+};
+
+use super::{
+    StorageResult,
+    redis_compat::{ConnectionManager, string_get_tx},
+    storage_error,
+};
+
+const TYPED_SCHEMA_VERSION: i64 = 1;
+const TYPED_SCHEMA_NAME: &str = "typed_config_document";
+const TYPED_SCHEMA_SQL: &str = r#"
+CREATE TABLE config_documents (
+  singleton INTEGER PRIMARY KEY CHECK (singleton = 1),
+  document_json TEXT NOT NULL,
+  host_mappings_generation INTEGER NOT NULL CHECK (host_mappings_generation >= 0),
+  revision INTEGER NOT NULL CHECK (revision > 0),
+  updated_at_ms INTEGER NOT NULL
+);
+"#;
+
+const TYPED_MIGRATIONS_SQL: &str = r#"
+CREATE TABLE IF NOT EXISTS typed_schema_migrations (
+  version INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  checksum TEXT NOT NULL,
+  applied_at_ms INTEGER NOT NULL
+);
+"#;
+
+#[derive(Clone)]
+pub(crate) struct TypedConfigRepository {
+    manager: ConnectionManager,
+}
+
+#[derive(Clone, Debug)]
+pub(crate) struct TypedConfigDocument {
+    pub(crate) document: Value,
+    pub(crate) host_mappings_generation: u64,
+    pub(crate) revision: u64,
+}
+
+pub(crate) struct LegacyConfigRawSnapshot {
+    pub(crate) config_raw: Option<String>,
+    pub(crate) generation_raw: Option<String>,
+}
+
+pub(crate) struct TypedConfigShadowSnapshot {
+    pub(crate) legacy: LegacyConfigRawSnapshot,
+    pub(crate) typed: StorageResult<Option<TypedConfigDocument>>,
+}
+
+pub(crate) struct ReconciledLegacyConfig {
+    pub(crate) legacy: LegacyConfigRawSnapshot,
+    pub(crate) typed_revision: u64,
+}
+
+impl TypedConfigRepository {
+    pub(crate) fn new(manager: ConnectionManager) -> Self {
+        Self { manager }
+    }
+
+    pub(crate) async fn initialize(&self) -> StorageResult<()> {
+        self.manager
+            .call(move |conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                tx.execute_batch(TYPED_MIGRATIONS_SQL)?;
+                let latest: Option<i64> = tx.query_row(
+                    "SELECT MAX(version) FROM typed_schema_migrations",
+                    [],
+                    |row| row.get(0),
+                )?;
+                if let Some(version) = latest.filter(|version| *version > TYPED_SCHEMA_VERSION) {
+                    return Err(storage_error(format!(
+                        "typed SQLite schema version {version} is newer than this server supports ({TYPED_SCHEMA_VERSION})"
+                    )));
+                }
+
+                let expected_checksum = crate::crypto_utils::sha256_hex_bytes(TYPED_SCHEMA_SQL);
+                let applied = tx
+                    .query_row(
+                        "SELECT name, checksum FROM typed_schema_migrations WHERE version = ?1",
+                        params![TYPED_SCHEMA_VERSION],
+                        |row| Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?)),
+                    )
+                    .optional()?;
+                match applied {
+                    Some((name, checksum))
+                        if name == TYPED_SCHEMA_NAME && checksum == expected_checksum =>
+                    {
+                        let table_exists = tx.query_row(
+                            "SELECT EXISTS(SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'config_documents')",
+                            [],
+                            |row| row.get::<_, bool>(0),
+                        )?;
+                        if !table_exists {
+                            return Err(storage_error(
+                                "typed config migration is recorded but its table is missing",
+                            ));
+                        }
+                    }
+                    Some((name, _)) if name != TYPED_SCHEMA_NAME => {
+                        return Err(storage_error(format!(
+                            "typed SQLite schema migration {TYPED_SCHEMA_VERSION} name mismatch"
+                        )));
+                    }
+                    Some(_) => {
+                        return Err(storage_error(format!(
+                            "typed SQLite schema migration {TYPED_SCHEMA_VERSION} checksum mismatch"
+                        )));
+                    }
+                    None => {
+                        tx.execute_batch(TYPED_SCHEMA_SQL)?;
+                        tx.execute(
+                            "INSERT INTO typed_schema_migrations(version, name, checksum, applied_at_ms) VALUES (?1, ?2, ?3, ?4)",
+                            params![
+                                TYPED_SCHEMA_VERSION,
+                                TYPED_SCHEMA_NAME,
+                                expected_checksum,
+                                crate::time_utils::now_ms(),
+                            ],
+                        )?;
+                    }
+                }
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    #[cfg(test)]
+    pub(crate) async fn load(&self) -> StorageResult<Option<TypedConfigDocument>> {
+        self.manager
+            .call(move |conn| load_typed_config_document(conn))
+            .await
+    }
+
+    pub(crate) async fn load_shadow(
+        &self,
+        config_key: &str,
+        generation_key: &str,
+    ) -> StorageResult<TypedConfigShadowSnapshot> {
+        let config_key = config_key.to_string();
+        let generation_key = generation_key.to_string();
+        self.manager
+            .call(move |conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                let legacy = LegacyConfigRawSnapshot {
+                    config_raw: string_get_tx(&tx, &config_key)?,
+                    generation_raw: string_get_tx(&tx, &generation_key)?,
+                };
+                // A corrupt or missing typed table must not make the legacy
+                // read path unavailable during the shadow phase. Preserve the
+                // typed error as comparison telemetry instead.
+                let typed = load_typed_config_document(&tx);
+                tx.commit()?;
+                Ok(TypedConfigShadowSnapshot { legacy, typed })
+            })
+            .await
+    }
+
+    pub(crate) async fn reconcile_from_legacy(
+        &self,
+        config_key: &str,
+        generation_key: &str,
+        default_document: &Value,
+        revision_floor: u64,
+    ) -> StorageResult<ReconciledLegacyConfig> {
+        let config_key = config_key.to_string();
+        let generation_key = generation_key.to_string();
+        let default_document_json = serde_json::to_string(default_document)?;
+        self.manager
+            .call(move |conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                let legacy = LegacyConfigRawSnapshot {
+                    config_raw: string_get_tx(&tx, &config_key)?,
+                    generation_raw: string_get_tx(&tx, &generation_key)?,
+                };
+                let document_json = legacy
+                    .config_raw
+                    .as_deref()
+                    .unwrap_or(&default_document_json);
+                let host_mappings_generation = legacy
+                    .generation_raw
+                    .as_deref()
+                    .unwrap_or("0")
+                    .parse::<u64>()
+                    .map_err(|_| storage_error("host mappings generation is invalid"))?;
+                let typed_revision = upsert_config_document_with_revision_floor_tx(
+                    &tx,
+                    document_json,
+                    host_mappings_generation,
+                    revision_floor,
+                )?;
+                tx.commit()?;
+                Ok(ReconciledLegacyConfig {
+                    legacy,
+                    typed_revision,
+                })
+            })
+            .await
+    }
+}
+
+fn load_typed_config_document(conn: &Connection) -> StorageResult<Option<TypedConfigDocument>> {
+    let raw = conn
+        .query_row(
+            "SELECT document_json, host_mappings_generation, revision FROM config_documents WHERE singleton = 1",
+            [],
+            |row| {
+                Ok((
+                    row.get::<_, String>(0)?,
+                    row.get::<_, i64>(1)?,
+                    row.get::<_, i64>(2)?,
+                ))
+            },
+        )
+        .optional()?;
+    let Some((document_json, generation, revision)) = raw else {
+        return Ok(None);
+    };
+    let host_mappings_generation = u64::try_from(generation)
+        .map_err(|_| storage_error("typed config generation is invalid"))?;
+    let revision = u64::try_from(revision)
+        .ok()
+        .filter(|revision| *revision > 0)
+        .ok_or_else(|| storage_error("typed config revision is invalid"))?;
+    Ok(Some(TypedConfigDocument {
+        document: serde_json::from_str(&document_json)?,
+        host_mappings_generation,
+        revision,
+    }))
+}
+
+pub(crate) fn upsert_config_document_tx(
+    tx: &Transaction<'_>,
+    document_json: &str,
+    host_mappings_generation: u64,
+) -> StorageResult<u64> {
+    upsert_config_document_with_revision_floor_tx(tx, document_json, host_mappings_generation, 1)
+}
+
+fn upsert_config_document_with_revision_floor_tx(
+    tx: &Transaction<'_>,
+    document_json: &str,
+    host_mappings_generation: u64,
+    revision_floor: u64,
+) -> StorageResult<u64> {
+    let _: Value = serde_json::from_str(document_json)?;
+    let generation = i64::try_from(host_mappings_generation)
+        .map_err(|_| storage_error("typed config generation exceeds SQLite range"))?;
+    let revision_floor = i64::try_from(revision_floor.max(1))
+        .map_err(|_| storage_error("typed config revision exceeds SQLite range"))?;
+    tx.execute(
+        "INSERT INTO config_documents(singleton, document_json, host_mappings_generation, revision, updated_at_ms)
+         VALUES (1, ?1, ?2, ?4, ?3)
+         ON CONFLICT(singleton) DO UPDATE SET
+           document_json = excluded.document_json,
+           host_mappings_generation = excluded.host_mappings_generation,
+           revision = max(config_documents.revision + 1, excluded.revision),
+           updated_at_ms = excluded.updated_at_ms
+         WHERE config_documents.document_json != excluded.document_json
+            OR config_documents.host_mappings_generation != excluded.host_mappings_generation
+            OR config_documents.revision < excluded.revision",
+        params![document_json, generation, crate::time_utils::now_ms(), revision_floor],
+    )?;
+    let revision = tx.query_row(
+        "SELECT revision FROM config_documents WHERE singleton = 1",
+        [],
+        |row| row.get::<_, i64>(0),
+    )?;
+    u64::try_from(revision)
+        .ok()
+        .filter(|revision| *revision > 0)
+        .ok_or_else(|| storage_error("typed config revision is invalid"))
+}

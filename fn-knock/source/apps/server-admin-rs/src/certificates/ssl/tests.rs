@@ -1,1 +1,477 @@
-dXNlIHN1cGVyOjoqOwoKY29uc3QgU0FNUExFX0NFUlQ6ICZzdHIgPSByIyItLS0tLUJFR0lOIENFUlRJRklDQVRFLS0tLS0KTUlJQzNqQ0NBY2FnQXdJQkFnSUpBTUJ2aFNEL3IyZVlNQTBHQ1NxR1NJYjNEUUVCQ3dVQU1CY3hGVEFUQmdOVgpCQU1NREdWNFlXMXdiR1V1ZEdWemREQWVGdzB5TmpBM01EUXlNRFV4TXpkYUZ3MHpOakEzTURFeU1EVXhNemRhCk1CY3hGVEFUQmdOVkJBTU1ER1Y0WVcxd2JHVXVkR1Z6ZERDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVAKQURDQ0FRb0NnZ0VCQUs4MVU0K0dXTkxSTktxK3k2L3BzbFRIeXZRWmdYOGJaUTY4ZGlqaXB6d3lHTEc1aG5GMAplYStxWE5pY1B2RmI5TVhHQkw0aTFHV25ucDF4N1Q0ZDlXdEZZaTJRK3cyWkZvVEpmbVZ0dXdKaHZtaEZJQmdJCm5QeUszU2EvRERiODg2aDVCL2RyRDU0d2pwY0ZiRW03eGJ4SHh6eVJGM3ExV1psNjlOZXZZREhpVmhUYTZuM3MKeDBYZXpDeXVKMEdFZ3NxaUo1TjYxYzNUTGZ3ZDFBSkZWOFdablZVdVVVNER6aFNNYWRPcndTQ2hkOHM0alE5QQorUVpOcldZTEJSeFRBdUoyUllzUEVnUTZzV3c3azQvL3hKNGpobHpHaTZBZlMvRmp2T0d2K3hDUWxQaGVkU1NNCi85cWpvN203b0RoVlhrYlVKZUlFN1pDV2JHVFcyQjg1ZlhFQ0F3RUFBYU10TUNzd0tRWURWUjBSQkNJd0lJSU0KWlhoaGJYQnNaUzUwWlhOMGdoQmhiSFF1WlhoaGJYQnNaUzUwWlhOME1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQgpBUUNURDR5WXFoclZWTDRwWWFZMXV5VnFYVjMvQmE2Y0Z1WElFeG9lOVhPbGpKdTJNNkk4RDZLaldWdEM5clZ1Cm4rU3daZWQxQklkRUtxdjFzYmR3NDVtTWhKaTFsWVplNVFMRm9SSSttQjMvQWpDeDQ5M2lhOEtTeDdtcnFPMHkKS2M5ak9FSHpqa3V0YmpUeG9BaFVkYjlQZnd6Nlc5UklxWjJJcFh4Z0lwRHJRdVJCcDZ5eXc1L2dwTlFmUEF0NwppUUhYcG1mcGpDNGtCcUNFYWtQS3BQVVJjQkI0SFkvdEdnN3RicVZMSzZRL1Vqai9XQU9OZVp1eEIvbUF0a2lXCmI2RFMxc3hoMlROWDF6WEE1aWRXbHMyZm9aRHp6Y0MxWFJCOWlGK3E3SkNEZElZc3RMQmdOMjNaeEpiREgzeVMKdXZ3QnZFUlZvSE1DRjRxRmF5L1F5OHNmCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0iIzsKCiNbdGVzdF0KZm4gc3NsX2NlcnRpZmljYXRlX2lkc19tYXRjaF9ub2RlX3NoYXBlKCkgewogICAgbGV0IGlkID0gYnVpbGRfc3NsX2NlcnRpZmljYXRlX2lkKCJjZXJ0IiwgImtleSIpOwogICAgYXNzZXJ0IShpZC5zdGFydHNfd2l0aCgic3NsXyIpKTsKICAgIGFzc2VydF9lcSEoaWQubGVuKCksIDIwKTsKfQoKI1t0ZXN0XQpmbiBzZWxlY3RzX2NlcnRpZmljYXRlX3BhaXJfZm9yX2xpYnJhcnlfZG93bmxvYWRfYnlfaWQoKSB7CiAgICBsZXQgc3NsID0ganNvbiEoewogICAgICAgICJjZXJ0aWZpY2F0ZXMiOiBbCiAgICAgICAgICAgIHsgImlkIjogImZpcnN0IiwgImNlcnQiOiAiRklSU1QgQ0VSVCIsICJrZXkiOiAiRklSU1QgS0VZIiB9LAogICAgICAgICAgICB7ICJpZCI6ICJzZWNvbmQiLCAiY2VydCI6ICJTRUNPTkQgQ0VSVCIsICJrZXkiOiAiU0VDT05EIEtFWSIgfQogICAgICAgIF0KICAgIH0pOwoKICAgIGFzc2VydF9lcSEoCiAgICAgICAgY2VydGlmaWNhdGVfcGFpcl9ieV9pZCgmc3NsLCAic2Vjb25kIiksCiAgICAgICAgQ2VydGlmaWNhdGVQYWlyTG9va3VwOjpGb3VuZCgiU0VDT05EIENFUlQiLCAiU0VDT05EIEtFWSIpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBjZXJ0aWZpY2F0ZV9wYWlyX2J5X2lkKCZzc2wsICJtaXNzaW5nIiksCiAgICAgICAgQ2VydGlmaWNhdGVQYWlyTG9va3VwOjpNaXNzaW5nCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBjZXJ0aWZpY2F0ZV9wYWlyX2J5X2lkKAogICAgICAgICAgICAmanNvbiEoeyAiY2VydGlmaWNhdGVzIjogW3sgImlkIjogImVtcHR5IiwgImNlcnQiOiAiIiwgImtleSI6ICJLRVkiIH1dIH0pLAogICAgICAgICAgICAiZW1wdHkiCiAgICAgICAgKSwKICAgICAgICBDZXJ0aWZpY2F0ZVBhaXJMb29rdXA6OkludmFsaWQKICAgICk7Cn0KCiNbdGVzdF0KZm4gY2VydGlmaWNhdGVfZG93bmxvYWRfcmVzcG9uc2VfZGlzYWJsZXNfY2FjaGluZygpIHsKICAgIGxldCByZXNwb25zZSA9IGJpbmFyeV9yZXNwb25zZSh2ZWMhWzEsIDIsIDNdLCAiYXBwbGljYXRpb24vemlwIiwgImNlcnRpZmljYXRlLnppcCIpOwoKICAgIGFzc2VydCEoCiAgICAgICAgcmVzcG9uc2UKICAgICAgICAgICAgLmhlYWRlcnMoKQogICAgICAgICAgICAuZ2V0KGhlYWRlcjo6Q0FDSEVfQ09OVFJPTCkKICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHx2YWx1ZXwgdmFsdWUudG9fc3RyKCkuaXNfb2tfYW5kKHx2YWx1ZXwgdmFsdWUuY29udGFpbnMoIm5vLXN0b3JlIikpKQogICAgKTsKICAgIGFzc2VydF9lcSEocmVzcG9uc2UuaGVhZGVycygpLmdldChoZWFkZXI6OlBSQUdNQSkudW53cmFwKCksICJuby1jYWNoZSIpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICByZXNwb25zZS5oZWFkZXJzKCkuZ2V0KGhlYWRlcjo6Q09OVEVOVF9ESVNQT1NJVElPTikudW53cmFwKCksCiAgICAgICAgImF0dGFjaG1lbnQ7IGZpbGVuYW1lPVwiY2VydGlmaWNhdGUuemlwXCIiCiAgICApOwp9CgojW3Rlc3RdCmZuIG5vcm1hbGl6ZXNfbGVnYWN5X3NzbF9pbnRvX2xpYnJhcnkoKSB7CiAgICBsZXQgc3NsID0gbm9ybWFsaXplX3NzbF9jb25maWcoU29tZSgmanNvbiEoewogICAgICAgICJjZXJ0IjogIkNFUlQiLAogICAgICAgICJrZXkiOiAiS0VZIiwKICAgICAgICAiZGVwbG95bWVudF9tb2RlIjogIm11bHRpX3NuaSIKICAgIH0pKSk7CiAgICBhc3NlcnRfZXEhKHNzbFsiZGVwbG95bWVudF9tb2RlIl0sIGpzb24hKCJtdWx0aV9zbmkiKSk7CiAgICBhc3NlcnRfZXEhKHNzbFsiY2VydGlmaWNhdGVzIl0uYXNfYXJyYXkoKS51bndyYXAoKS5sZW4oKSwgMSk7CiAgICBhc3NlcnRfZXEhKHNzbFsiYWN0aXZlX2NlcnRfaWQiXSwgc3NsWyJjZXJ0aWZpY2F0ZXMiXVswXVsiaWQiXSk7CiAgICBhc3NlcnRfZXEhKHNzbFsiY2VydGlmaWNhdGVzIl1bMF1bImxhYmVsIl0sIGpzb24hKCLlvZPliY3or4HkuaYiKSk7CiAgICBsZXQgY2VydGlmaWNhdGUgPSBzc2xbImNlcnRpZmljYXRlcyJdWzBdLmFzX29iamVjdCgpLnVud3JhcCgpOwogICAgYXNzZXJ0ISghY2VydGlmaWNhdGUuY29udGFpbnNfa2V5KCJwcmltYXJ5X2RvbWFpbiIpKTsKICAgIGFzc2VydCEoIWNlcnRpZmljYXRlLmNvbnRhaW5zX2tleSgic291cmNlX3JlZl9pZCIpKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3NsWyJjZXJ0aWZpY2F0ZXMiXVswXVsiY3JlYXRlZF9hdCJdLAogICAgICAgIGpzb24hKCIxOTcwLTAxLTAxVDAwOjAwOjAwLjAwMFoiKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3NsWyJjZXJ0aWZpY2F0ZXMiXVswXVsidXBkYXRlZF9hdCJdLAogICAgICAgIGpzb24hKCIxOTcwLTAxLTAxVDAwOjAwOjAwLjAwMFoiKQogICAgKTsKfQoKI1t0ZXN0XQpmbiBzc2xfY2VydGlmaWNhdGVfdGltZXN0YW1wc19tYXRjaF9ub2RlX25vcm1hbGl6YXRpb24oKSB7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIG5vcm1hbGl6ZV90aW1lc3RhbXAoU29tZSgmanNvbiEoIjIwMjYtMDctMDdUMTA6MTg6MjMuOTQ2NTExNzkyWiIpKSksCiAgICAgICAgU29tZSgiMjAyNi0wNy0wN1QxMDoxODoyMy45NDZaIi50b19zdHJpbmcoKSkKICAgICk7CiAgICBhc3NlcnRfZXEhKG5vcm1hbGl6ZV90aW1lc3RhbXAoU29tZSgmanNvbiEoImludmFsaWQiKSkpLCBOb25lKTsKCiAgICBsZXQgc3NsID0gbm9ybWFsaXplX3NzbF9jb25maWcoU29tZSgmanNvbiEoewogICAgICAgICJjZXJ0aWZpY2F0ZXMiOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJpZCI6ICJjZXJ0LTEiLAogICAgICAgICAgICAgICAgImxhYmVsIjogIk1hbnVhbCIsCiAgICAgICAgICAgICAgICAic291cmNlIjogIm1hbnVhbCIsCiAgICAgICAgICAgICAgICAiY2VydCI6ICJDRVJUIiwKICAgICAgICAgICAgICAgICJrZXkiOiAiS0VZIiwKICAgICAgICAgICAgICAgICJjcmVhdGVkX2F0IjogIjIwMjYtMDctMDdUMTA6MTg6MjNaIiwKICAgICAgICAgICAgICAgICJ1cGRhdGVkX2F0IjogImludmFsaWQiCiAgICAgICAgICAgIH0KICAgICAgICBdCiAgICB9KSkpOwoKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3NsWyJjZXJ0aWZpY2F0ZXMiXVswXVsiY3JlYXRlZF9hdCJdLAogICAgICAgIGpzb24hKCIyMDI2LTA3LTA3VDEwOjE4OjIzLjAwMFoiKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3NsWyJjZXJ0aWZpY2F0ZXMiXVswXVsidXBkYXRlZF9hdCJdLAogICAgICAgIGpzb24hKCIyMDI2LTA3LTA3VDEwOjE4OjIzLjAwMFoiKQogICAgKTsKfQoKI1t0ZXN0XQpmbiBzc2xfc3RhdHVzX29taXRzX25vZGVfdW5kZWZpbmVkX2ZpZWxkcygpIHsKICAgIGxldCBzdGF0dXMgPSBsb2NhbF9zc2xfc3RhdHVzKCZqc29uISh7CiAgICAgICAgImRlcGxveW1lbnRfbW9kZSI6ICJzaW5nbGVfYWN0aXZlIiwKICAgICAgICAiY2VydGlmaWNhdGVzIjogWwogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAiaWQiOiAibWFudWFsLTEiLAogICAgICAgICAgICAgICAgImxhYmVsIjogIk1hbnVhbCIsCiAgICAgICAgICAgICAgICAic291cmNlIjogIm1hbnVhbCIsCiAgICAgICAgICAgICAgICAiY2VydCI6ICJub3QgYSBjZXJ0aWZpY2F0ZSIsCiAgICAgICAgICAgICAgICAia2V5IjogIm5vdCBhIGtleSIsCiAgICAgICAgICAgICAgICAiY3JlYXRlZF9hdCI6ICIyMDI2LTA3LTA3VDAwOjAwOjAwWiIsCiAgICAgICAgICAgICAgICAidXBkYXRlZF9hdCI6ICIyMDI2LTA3LTA3VDAwOjAwOjAwWiIKICAgICAgICAgICAgfQogICAgICAgIF0KICAgIH0pKTsKICAgIGxldCBvYmplY3QgPSBzdGF0dXMuYXNfb2JqZWN0KCkudW53cmFwKCk7CiAgICBhc3NlcnQhKCFvYmplY3QuY29udGFpbnNfa2V5KCJhY3RpdmVDZXJ0SWQiKSk7CiAgICBhc3NlcnQhKCFvYmplY3QuY29udGFpbnNfa2V5KCJjZXJ0SW5mbyIpKTsKCiAgICBsZXQgY2VydGlmaWNhdGUgPSBzdGF0dXNbImNlcnRpZmljYXRlcyJdWzBdLmFzX29iamVjdCgpLnVud3JhcCgpOwogICAgYXNzZXJ0ISghY2VydGlmaWNhdGUuY29udGFpbnNfa2V5KCJwcmltYXJ5X2RvbWFpbiIpKTsKICAgIGFzc2VydCEoIWNlcnRpZmljYXRlLmNvbnRhaW5zX2tleSgic291cmNlX3JlZl9pZCIpKTsKICAgIGFzc2VydCEoIWNlcnRpZmljYXRlLmNvbnRhaW5zX2tleSgiY2VydEluZm8iKSk7CgogICAgbGV0IHpoID0gVHJhbnNsYXRvcjo6bmV3KCJ6aC1DTiIpOwogICAgbGV0IGdhdGV3YXlfb2sgPSBidWlsZF9nYXRld2F5X3N0YXR1c19wYXlsb2FkKAogICAgICAgIFNvbWUoanNvbiEoewogICAgICAgICAgICAiZW5hYmxlZCI6IHRydWUsCiAgICAgICAgICAgICJkZXBsb3ltZW50X21vZGUiOiAibXVsdGlfc25pIiwKICAgICAgICAgICAgImNlcnRpZmljYXRlcyI6IFtdCiAgICAgICAgfSkpLAogICAgICAgIE5vbmUsCiAgICAgICAgJnpoLAogICAgKTsKICAgIGFzc2VydCEoIWdhdGV3YXlfb2suYXNfb2JqZWN0KCkudW53cmFwKCkuY29udGFpbnNfa2V5KCJzeW5jX2Vycm9yIikpOwoKICAgIGxldCBnYXRld2F5X2ZhaWxlZCA9IGJ1aWxkX2dhdGV3YXlfc3RhdHVzX3BheWxvYWQoTm9uZSwgU29tZSgicmVhZCBmYWlsZWQiLnRvX3N0cmluZygpKSwgJnpoKTsKICAgIGFzc2VydF9lcSEoZ2F0ZXdheV9mYWlsZWRbInN5bmNfZXJyb3IiXSwganNvbiEoInJlYWQgZmFpbGVkIikpOwp9CgojW3Rlc3RdCmZuIGNhX3N0YXR1c19yZWplY3RzX3VucGFyc2VhYmxlX2V4aXN0aW5nX2NlcnRpZmljYXRlKCkgewogICAgYXNzZXJ0IShidWlsZF9jYV9zdGF0dXNfcGF5bG9hZCgibm90IGEgY2VydGlmaWNhdGUiKS5pc19ub25lKCkpOwoKICAgIGxldCBwYXlsb2FkID0gYnVpbGRfY2Ffc3RhdHVzX3BheWxvYWQoU0FNUExFX0NFUlQpLmV4cGVjdCgidmFsaWQgc3RhdHVzIHBheWxvYWQiKTsKICAgIGFzc2VydF9lcSEocGF5bG9hZFsiaW5pdGlhbGl6ZWQiXSwganNvbiEodHJ1ZSkpOwogICAgYXNzZXJ0X2VxIShwYXlsb2FkWyJpbmZvIl1bInN1YmplY3QiXSwganNvbiEoIkNOPWV4YW1wbGUudGVzdCIpKTsKfQoKI1t0ZXN0XQpmbiBzc2xfc2F2ZV9zeW5jX2NvbmRpdGlvbl9tYXRjaGVzX25vZGUoKSB7CiAgICBhc3NlcnQhKHNob3VsZF9zeW5jX3NzbF9kZXBsb3ltZW50X2FmdGVyX3NhdmUodHJ1ZSwgInNpbmdsZV9hY3RpdmUiKSk7CiAgICBhc3NlcnQhKHNob3VsZF9zeW5jX3NzbF9kZXBsb3ltZW50X2FmdGVyX3NhdmUoZmFsc2UsICJtdWx0aV9zbmkiKSk7CiAgICBhc3NlcnQhKCFzaG91bGRfc3luY19zc2xfZGVwbG95bWVudF9hZnRlcl9zYXZlKAogICAgICAgIGZhbHNlLAogICAgICAgICJzaW5nbGVfYWN0aXZlIgogICAgKSk7CiAgICBhc3NlcnQhKCFzaG91bGRfc3luY19zc2xfZGVwbG95bWVudF9hZnRlcl9zYXZlKGZhbHNlLCAiYmFkIikpOwp9CgojW3Rlc3RdCmZuIGNhX2lzc3VlX3NhdmVfcGF5bG9hZF9tYXRjaGVzX25vZGVfZmllbGRzKCkgewogICAgbGV0IGJvZHkgPSBidWlsZF9jYV9pc3N1ZV9jZXJ0aWZpY2F0ZV9ib2R5KAogICAgICAgICZbIm5hcy5leGFtcGxlLnRlc3QiLnRvX3N0cmluZygpLCAiMTkyLjE2OC4xLjEwIi50b19zdHJpbmcoKV0sCiAgICAgICAgIkNFUlQiLnRvX3N0cmluZygpLAogICAgICAgICJLRVkiLnRvX3N0cmluZygpLAogICAgKTsKCiAgICBhc3NlcnRfZXEhKGJvZHkubGFiZWwuYXNfZGVyZWYoKSwgU29tZSgibmFzLmV4YW1wbGUudGVzdCIpKTsKICAgIGFzc2VydF9lcSEoYm9keS5zb3VyY2UuYXNfZGVyZWYoKSwgU29tZSgiY2EiKSk7CiAgICBhc3NlcnRfZXEhKGJvZHkucHJpbWFyeV9kb21haW4sIE5vbmUpOwogICAgYXNzZXJ0X2VxIShib2R5LnNvdXJjZV9yZWZfaWQsIE5vbmUpOwogICAgYXNzZXJ0X2VxIShib2R5LmFjdGl2YXRlLCBTb21lKHRydWUpKTsKfQoKI1t0ZXN0XQpmbiBsb2NhbGl6ZXNfc3NsX3JvdXRlX2Vycm9yc19hbmRfZGVmYXVsdF9sYWJlbHMoKSB7CiAgICBsZXQgemggPSBUcmFuc2xhdG9yOjpuZXcoInpoLUNOIik7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHNzbF9yb3V0ZV90ZXh0KCZ6aCwgInJvb3RDYU5vdEluaXRpYWxpemVkIiksCiAgICAgICAgIuacrOWcsCBDQSDlsJrmnKrliJ3lp4vljJYiCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBsb2NhbGl6ZV9zc2xfZXJyb3IoJnpoLCAmYW55aG93ISgiUm9vdCBDQSBub3QgaW5pdGlhbGl6ZWQiKSksCiAgICAgICAgIuacrOWcsCBDQSDlsJrmnKrliJ3lp4vljJYiCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBsb2NhbGl6ZV9zc2xfZXJyb3IoJnpoLCAmYW55aG93ISgiTm8gaG9zdHMgY29uZmlndXJlZCIpKSwKICAgICAgICAi5Z+f5ZCN5YiX6KGo5Li656m677yM6K+35YWI5re75Yqg5Z+f5ZCN5oiWIElQIgogICAgKTsKICAgIGFzc2VydF9lcSEoc3NsX3JvdXRlX3RleHQoJnpoLCAiY2VydFJlYWRGYWlsZWQiKSwgIuivu+WPliBTU0wg6K+B5Lmm5aSx6LSlIik7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHNzbF9yb3V0ZV90ZXh0KCZ6aCwgImNlcnRaaXBDcmVhdGVGYWlsZWQiKSwKICAgICAgICAi5Yib5bu6IFNTTCDor4HkuabljovnvKnljIXlpLHotKUiCiAgICApOwogICAgYXNzZXJ0X2VxIShzc2xfcm91dGVfdGV4dCgmemgsICJjYUluaXRGYWlsZWQiKSwgIuWIneWni+WMluacrOWcsCBDQSDlpLHotKUiKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3NsX3JvdXRlX3RleHQoJnpoLCAiY2FIb3N0TG9hZEZhaWxlZCIpLAogICAgICAgICLor7vlj5bmnKzlnLAgQ0EgSG9zdCDliJfooajlpLHotKUiCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzc2xfZXJyb3Jfb3Jfcm91dGVfdGV4dCgmemgsICJjYUluaXRGYWlsZWQiLCAmYW55aG93ISgib3BlbnNzbCBjb21tYW5kIGZhaWxlZCIpKSwKICAgICAgICAi5Yid5aeL5YyW5pys5ZywIENBIOWksei0pSIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHNzbF9lcnJvcl9vcl9yb3V0ZV90ZXh0KAogICAgICAgICAgICAmemgsCiAgICAgICAgICAgICJjZXJ0U2F2ZUZhaWxlZCIsCiAgICAgICAgICAgICZhbnlob3chKCJDZXJ0aWZpY2F0ZSBmb3JtYXQgaXMgaW52YWxpZCIpCiAgICAgICAgKSwKICAgICAgICAi6K+B5Lmm5oiW56eB6ZKl5peg5pWIIgogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgdmFsaWRhdGVfc3NsX2NlcnRfZm9yX3Jlc3BvbnNlKCIiLCAiIiwgJnpoKS51bndyYXBfZXJyKCksCiAgICAgICAgIuivgeS5puWGheWuueS4jeiDveS4uuepuiIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHNoYXJlZF9maWxlX2Vycm9yX3N0YXR1c19hbmRfbWVzc2FnZSgmemgsICZhbnlob3chKCJJbnZhbGlkIHNoYXJlZCBmaWxlIHBhdGgiKSksCiAgICAgICAgKFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULCAi6Z2e5rOV55qE5YWx5Lqr5paH5Lu26Lev5b6EIi50b19zdHJpbmcoKSkKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHNoYXJlZF9maWxlX2Vycm9yX3N0YXR1c19hbmRfbWVzc2FnZSgmemgsICZhbnlob3chKCJTaGFyZWQgZGlyZWN0b3J5IGlzIG5vdCBjb25maWd1cmVkIikpLAogICAgICAgICgKICAgICAgICAgICAgU3RhdHVzQ29kZTo6Tk9UX0ZPVU5ELAogICAgICAgICAgICAi5pyq5om+5Yiw6aOe54mb5YWx5Lqr55uu5b2V77yM6K+356Gu6K6k5bqU55So6LWE5rqQ5bey5q2j56Gu6YWN572uIi50b19zdHJpbmcoKQogICAgICAgICkKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHNoYXJlZF9maWxlX2Vycm9yX3N0YXR1c19hbmRfbWVzc2FnZSgmemgsICZhbnlob3chKCJTaGFyZWQgcGF0aCBtdXN0IGJlIGEgZmlsZSIpKSwKICAgICAgICAoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgICAgICAi5Y+q6IO96K+75Y+W5YWx5Lqr55uu5b2V5Lit55qE5paH5Lu2Ii50b19zdHJpbmcoKQogICAgICAgICkKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHNoYXJlZF9maWxlX2Vycm9yX3N0YXR1c19hbmRfbWVzc2FnZSgmemgsICZhbnlob3chKCJTaGFyZWQgZmlsZSBpcyB0b28gbGFyZ2UiKSksCiAgICAgICAgKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwKICAgICAgICAgICAgIuaWh+S7tui/h+Wkp++8jOivt+S7heaUvuWFpeivgeS5puaIluengemSpeaWh+acrOaWh+S7tiIudG9fc3RyaW5nKCkKICAgICAgICApCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzaGFyZWRfZmlsZV9lcnJvcl9zdGF0dXNfYW5kX21lc3NhZ2UoJnpoLCAmYW55aG93IShTaGFyZWRGaWxlRm9yYmlkZGVuKSksCiAgICAgICAgKFN0YXR1c0NvZGU6OkZPUkJJRERFTiwgIuivu+WPluWFseS6q+ebruW9leaWh+S7tuWksei0pSIudG9fc3RyaW5nKCkpCiAgICApOwogICAgYXNzZXJ0X2VxIShkZWZhdWx0X2NlcnRpZmljYXRlX2xhYmVsKCJtYW51YWwiLCBOb25lKSwgIuaJi+WKqOS4iuS8oOivgeS5piIpOwogICAgYXNzZXJ0X2VxIShkZWZhdWx0X2NlcnRpZmljYXRlX2xhYmVsKCJjYSIsIE5vbmUpLCAi6Ieq562+5Y+R6K+B5LmmIik7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGRlZmF1bHRfY2VydGlmaWNhdGVfbGFiZWwoImFjbWUiLCBTb21lKCJleGFtcGxlLmNvbSIpKSwKICAgICAgICAiZXhhbXBsZS5jb20iCiAgICApOwp9CgojW3Rlc3RdCmZuIHZhbGlkYXRlc19zc2xfY2VydGlmaWNhdGVfcHJpdmF0ZV9rZXlfbWF0Y2hfbGlrZV9ub2RlKCkgewogICAgbGV0IFNvbWUoKGNlcnQsIGtleSkpID0gZ2VuZXJhdGVfdGVzdF9jZXJ0X3BhaXIoIm1hdGNoLmV4YW1wbGUudGVzdCIpIGVsc2UgewogICAgICAgIHJldHVybjsKICAgIH07CiAgICBsZXQgU29tZSgoX290aGVyX2NlcnQsIG90aGVyX2tleSkpID0gZ2VuZXJhdGVfdGVzdF9jZXJ0X3BhaXIoIm90aGVyLmV4YW1wbGUudGVzdCIpIGVsc2UgewogICAgICAgIHJldHVybjsKICAgIH07CiAgICBsZXQgemggPSBUcmFuc2xhdG9yOjpuZXcoInpoLUNOIik7CgogICAgYXNzZXJ0ISh2YWxpZGF0ZV9zc2xfY2VydF9mb3JfcmVzcG9uc2UoJmNlcnQsICZrZXksICZ6aCkuaXNfb2soKSk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHZhbGlkYXRlX3NzbF9jZXJ0X2Zvcl9yZXNwb25zZSgmY2VydCwgJm90aGVyX2tleSwgJnpoKS51bndyYXBfZXJyKCksCiAgICAgICAgIuivgeS5puS4juengemSpeS4jeWMuemFjSIKICAgICk7Cn0KCmZuIGdlbmVyYXRlX3Rlc3RfY2VydF9wYWlyKGNvbW1vbl9uYW1lOiAmc3RyKSAtPiBPcHRpb248KFN0cmluZywgU3RyaW5nKT4gewogICAgaWYgIUNvbW1hbmQ6Om5ldygib3BlbnNzbCIpCiAgICAgICAgLmFyZygidmVyc2lvbiIpCiAgICAgICAgLnN0ZGluKFN0ZGlvOjpudWxsKCkpCiAgICAgICAgLm91dHB1dCgpCiAgICAgICAgLm9rKCk/CiAgICAgICAgLnN0YXR1cwogICAgICAgIC5zdWNjZXNzKCkKICAgIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIGxldCB0ZW1wX2RpciA9IHN0ZDo6ZW52Ojp0ZW1wX2RpcigpLmpvaW4oZm9ybWF0ISgiZm4ta25vY2stc3NsLXRlc3Qte30iLCBVdWlkOjpuZXdfdjQoKSkpOwogICAgc3RkOjpmczo6Y3JlYXRlX2Rpcl9hbGwoJnRlbXBfZGlyKS5vaygpPzsKICAgIGxldCBrZXlfcGF0aCA9IHRlbXBfZGlyLmpvaW4oImtleS5wZW0iKTsKICAgIGxldCBjZXJ0X3BhdGggPSB0ZW1wX2Rpci5qb2luKCJjZXJ0LnBlbSIpOwogICAgbGV0IHJlc3VsdCA9ICh8fCB7CiAgICAgICAgcnVuX29wZW5zc2wodmVjIVsKICAgICAgICAgICAgInJlcSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICIteDUwOSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICItbmV3a2V5Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgInJzYToyMDQ4Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgIi1zaGEyNTYiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiLWRheXMiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiMSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICItbm9kZXMiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiLWtleW91dCIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGtleV9wYXRoLnRvX3N0cmluZ19sb3NzeSgpLnRvX3N0cmluZygpLAogICAgICAgICAgICAiLW91dCIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGNlcnRfcGF0aC50b19zdHJpbmdfbG9zc3koKS50b19zdHJpbmcoKSwKICAgICAgICAgICAgIi1zdWJqIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgZm9ybWF0ISgiL0NOPXtjb21tb25fbmFtZX0iKSwKICAgICAgICBdKQogICAgICAgIC5vaygpPzsKICAgICAgICBTb21lKCgKICAgICAgICAgICAgc3RkOjpmczo6cmVhZF90b19zdHJpbmcoJmNlcnRfcGF0aCkub2soKT8sCiAgICAgICAgICAgIHN0ZDo6ZnM6OnJlYWRfdG9fc3RyaW5nKCZrZXlfcGF0aCkub2soKT8sCiAgICAgICAgKSkKICAgIH0pKCk7CiAgICBsZXQgXyA9IHN0ZDo6ZnM6OnJlbW92ZV9kaXJfYWxsKHRlbXBfZGlyKTsKICAgIHJlc3VsdAp9CgojW3Rlc3RdCmZuIGJ1aWxkc19nYXRld2F5X2RlcGxveW1lbnRfZm9yX211bHRpX3NuaV93aXRoX2FjdGl2ZV9maXJzdCgpIHsKICAgIGxldCBkZXBsb3ltZW50ID0gYnVpbGRfZ2F0ZXdheV9zc2xfZGVwbG95bWVudChTb21lKCZqc29uISh7CiAgICAgICAgImFjdGl2ZV9jZXJ0X2lkIjogImIiLAogICAgICAgICJkZXBsb3ltZW50X21vZGUiOiAibXVsdGlfc25pIiwKICAgICAgICAiY2VydGlmaWNhdGVzIjogWwogICAgICAgICAgICB7ImlkIjoiYSIsImxhYmVsIjoiQSIsImNlcnQiOiJDRVJUQSIsImtleSI6IktFWUEifSwKICAgICAgICAgICAgeyJpZCI6ImIiLCJsYWJlbCI6IkIiLCJjZXJ0IjoiQ0VSVEIiLCJrZXkiOiJLRVlCIn0KICAgICAgICBdCiAgICB9KSkpOwogICAgYXNzZXJ0X2VxIShkZXBsb3ltZW50WyJkZXBsb3ltZW50X21vZGUiXSwganNvbiEoIm11bHRpX3NuaSIpKTsKICAgIGFzc2VydF9lcSEoZGVwbG95bWVudFsiY2VydGlmaWNhdGVzIl1bMF1bImlkIl0sIGpzb24hKCJiIikpOwogICAgYXNzZXJ0X2VxIShkZXBsb3ltZW50WyJjZXJ0aWZpY2F0ZXMiXVswXVsiaXNfZGVmYXVsdCJdLCBqc29uISh0cnVlKSk7Cn0KCiNbdGVzdF0KZm4gcGFyc2VzX2NlcnRpZmljYXRlX2luZm9fd2hlbl9wZW1faXNfdmFsaWQoKSB7CiAgICBsZXQgaW5mbyA9IHBhcnNlX2NlcnRfaW5mbyhTQU1QTEVfQ0VSVCkuZXhwZWN0KCJjZXJ0aWZpY2F0ZSBzaG91bGQgcGFyc2UiKTsKICAgIGFzc2VydF9lcSEoaW5mb1sic3ViamVjdCJdLCBqc29uISgiQ049ZXhhbXBsZS50ZXN0IikpOwogICAgYXNzZXJ0X2VxIShpbmZvWyJpc3N1ZXIiXSwganNvbiEoIkNOPWV4YW1wbGUudGVzdCIpKTsKICAgIGFzc2VydF9lcSEoaW5mb1sidmFsaWRGcm9tIl0sIGpzb24hKCJKdWwgIDQgMjA6NTE6MzcgMjAyNiBHTVQiKSk7CiAgICBhc3NlcnRfZXEhKGluZm9bInZhbGlkVG8iXSwganNvbiEoIkp1bCAgMSAyMDo1MTozNyAyMDM2IEdNVCIpKTsKICAgIGFzc2VydF9lcSEoaW5mb1sic2VyaWFsTnVtYmVyIl0sIGpzb24hKCJDMDZGODUyMEZGQUY2Nzk4IikpOwogICAgYXNzZXJ0X2VxIShpbmZvWyJkbnNOYW1lcyJdWzBdLCBqc29uISgiZXhhbXBsZS50ZXN0IikpOwogICAgYXNzZXJ0X2VxIShpbmZvWyJkbnNOYW1lcyJdWzFdLCBqc29uISgiYWx0LmV4YW1wbGUudGVzdCIpKTsKfQoKI1t0ZXN0XQpmbiBidWlsZHNfc3ViZG9tYWluX2NlcnRpZmljYXRlX2NvdmVyYWdlX2xpa2Vfbm9kZSgpIHsKICAgIGxldCB6aCA9IFRyYW5zbGF0b3I6Om5ldygiemgtQ04iKTsKICAgIGxldCBjb25maWcgPSBqc29uISh7CiAgICAgICAgInN1YmRvbWFpbl9tb2RlIjogewogICAgICAgICAgICAicm9vdF9kb21haW4iOiAiZXhhbXBsZS5jb20iCiAgICAgICAgfSwKICAgICAgICAiaG9zdF9tYXBwaW5ncyI6IFsKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgImhvc3QiOiAiYXV0aC5leGFtcGxlLmNvbSIsCiAgICAgICAgICAgICAgICAidGFyZ2V0IjogImh0dHA6Ly8xMjcuMC4wLjE6Nzk5NyIsCiAgICAgICAgICAgICAgICAic2VydmljZV9yb2xlIjogImF1dGgiCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJob3N0IjogImFwcC5leGFtcGxlLmNvbSIsCiAgICAgICAgICAgICAgICAidGFyZ2V0IjogImh0dHA6Ly8xMjcuMC4wLjE6ODA4MCIKICAgICAgICAgICAgfQogICAgICAgIF0KICAgIH0pOwogICAgbGV0IGNlcnRpZmljYXRlX2RvbWFpbnMgPSB2ZWMhWyJleGFtcGxlLmNvbSIudG9fc3RyaW5nKCksICIqLmV4YW1wbGUuY29tIi50b19zdHJpbmcoKV07CgogICAgbGV0IGNvdmVyYWdlID0gYnVpbGRfc3ViZG9tYWluX2NlcnRpZmljYXRlX2NvdmVyYWdlKDc5OTcsICZjb25maWcsICZjZXJ0aWZpY2F0ZV9kb21haW5zLCAmemgpOwoKICAgIGFzc2VydF9lcSEoY292ZXJhZ2VbInN0YXR1cyJdLCBqc29uISgicmVhZHkiKSk7CiAgICBhc3NlcnRfZXEhKGNvdmVyYWdlWyJjb3ZlcnNfYXV0aF9ob3N0Il0sIGpzb24hKHRydWUpKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgY292ZXJhZ2VbImNvdmVyZWRfaG9zdHMiXSwKICAgICAgICBqc29uIShbImF1dGguZXhhbXBsZS5jb20iLCAiYXBwLmV4YW1wbGUuY29tIl0pCiAgICApOwogICAgYXNzZXJ0X2VxIShjb3ZlcmFnZVsidW5jb3ZlcmVkX2hvc3RzIl0sIGpzb24hKFtdKSk7Cn0KCiNbdGVzdF0KZm4gc3ViZG9tYWluX2ludmVudG9yeV9zdWdnZXN0c19zaW5nbGVfZnVsbHlfY292ZXJpbmdfY2VydGlmaWNhdGUoKSB7CiAgICBsZXQgemggPSBUcmFuc2xhdG9yOjpuZXcoInpoLUNOIik7CiAgICBsZXQgY29uZmlnID0ganNvbiEoewogICAgICAgICJzdWJkb21haW5fbW9kZSI6IHsKICAgICAgICAgICAgInJvb3RfZG9tYWluIjogImV4YW1wbGUuY29tIgogICAgICAgIH0sCiAgICAgICAgImhvc3RfbWFwcGluZ3MiOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJob3N0IjogImF1dGguZXhhbXBsZS5jb20iLAogICAgICAgICAgICAgICAgInRhcmdldCI6ICJodHRwOi8vMTI3LjAuMC4xOjc5OTciLAogICAgICAgICAgICAgICAgInNlcnZpY2Vfcm9sZSI6ICJhdXRoIgogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAiaG9zdCI6ICJhcHAuZXhhbXBsZS5jb20iLAogICAgICAgICAgICAgICAgInRhcmdldCI6ICJodHRwOi8vMTI3LjAuMC4xOjgwODAiCiAgICAgICAgICAgIH0KICAgICAgICBdCiAgICB9KTsKICAgIGxldCBjZXJ0aWZpY2F0ZXMgPSB2ZWMhWwogICAgICAgIENlcnRpZmljYXRlQ292ZXJhZ2VJbnB1dCB7CiAgICAgICAgICAgIGlkOiAib2xkIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgY2VydGlmaWNhdGVfZG9tYWluczogdmVjIVsiYXV0aC5leGFtcGxlLmNvbSIudG9fc3RyaW5nKCldLAogICAgICAgIH0sCiAgICAgICAgQ2VydGlmaWNhdGVDb3ZlcmFnZUlucHV0IHsKICAgICAgICAgICAgaWQ6ICJyZWNvbW1lbmRlZCIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGNlcnRpZmljYXRlX2RvbWFpbnM6IHZlYyFbImV4YW1wbGUuY29tIi50b19zdHJpbmcoKSwgIiouZXhhbXBsZS5jb20iLnRvX3N0cmluZygpXSwKICAgICAgICB9LAogICAgXTsKCiAgICBsZXQgY292ZXJhZ2UgPSBidWlsZF9zdWJkb21haW5fY2VydGlmaWNhdGVfaW52ZW50b3J5X2NvdmVyYWdlKAogICAgICAgIDc5OTcsCiAgICAgICAgJmNvbmZpZywKICAgICAgICAmY2VydGlmaWNhdGVzLAogICAgICAgIFNvbWUoIm9sZCIpLAogICAgICAgICJzaW5nbGVfYWN0aXZlIiwKICAgICAgICAmemgsCiAgICApOwoKICAgIGFzc2VydF9lcSEoY292ZXJhZ2VbInN0YXR1cyJdLCBqc29uISgicmVhZHkiKSk7CiAgICBhc3NlcnRfZXEhKGNvdmVyYWdlWyJjYW5fYXV0b19hY3RpdmF0ZSJdLCBqc29uISh0cnVlKSk7CiAgICBhc3NlcnRfZXEhKGNvdmVyYWdlWyJzdWdnZXN0ZWRfY2VydGlmaWNhdGVfaWQiXSwganNvbiEoInJlY29tbWVuZGVkIikpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBjb3ZlcmFnZVsiZnVsbHlfY292ZXJpbmdfY2VydGlmaWNhdGVfaWRzIl0sCiAgICAgICAganNvbiEoWyJyZWNvbW1lbmRlZCJdKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgY292ZXJhZ2VbInBhcnRpYWxseV9jb3ZlcmluZ19jZXJ0aWZpY2F0ZV9pZHMiXSwKICAgICAgICBqc29uIShbIm9sZCJdKQogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgY292ZXJhZ2VbIndhcm5pbmdzIl0KICAgICAgICAgICAgLmFzX2FycmF5KCkKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgLmFueSh8d2FybmluZ3wgewogICAgICAgICAgICAgICAgd2FybmluZy5hc19zdHIoKSA9PSBTb21lKCLlvZPliY3mtLvliqjor4HkuabkuI7lrZDln5/mqKHlvI/kuI3lrozlhajljLnphY3vvIzlu7rorq7liIfmjaLliLDmjqjojZDor4HkuabjgIIiKQogICAgICAgICAgICB9KQogICAgKTsKfQoKI1t0ZXN0XQpmbiBidWlsZHNfY2Ffc2VydmVyX2NlcnRfY29uZmlnX3dpdGhfZG5zX2FuZF9pcF9zYW5zKCkgewogICAgbGV0IGNvbmZpZyA9IG9wZW5zc2xfc2VydmVyX2NlcnRfY29uZmlnKCZbCiAgICAgICAgImV4YW1wbGUudGVzdCIudG9fc3RyaW5nKCksCiAgICAgICAgIjE5Mi4xNjguMS4xMCIudG9fc3RyaW5nKCksCiAgICAgICAgImFsdC5leGFtcGxlLnRlc3QiLnRvX3N0cmluZygpLAogICAgXSk7CiAgICBhc3NlcnQhKGNvbmZpZy5jb250YWlucygiQ04gPSBleGFtcGxlLnRlc3QiKSk7CiAgICBhc3NlcnQhKGNvbmZpZy5jb250YWlucygiRE5TLjEgPSBleGFtcGxlLnRlc3QiKSk7CiAgICBhc3NlcnQhKGNvbmZpZy5jb250YWlucygiSVAuMSA9IDE5Mi4xNjguMS4xMCIpKTsKICAgIGFzc2VydCEoY29uZmlnLmNvbnRhaW5zKCJETlMuMiA9IGFsdC5leGFtcGxlLnRlc3QiKSk7Cn0KCiNbdGVzdF0KZm4gY2xlYW5zX29wZW5zc2xfZG5fdmFsdWVfbmV3bGluZXMoKSB7CiAgICBhc3NlcnRfZXEhKG9wZW5zc2xfZG5fdmFsdWUoImV4YW1wbGVcbi50ZXN0XHIiKSwgImV4YW1wbGUudGVzdCIpOwp9Cg==
+use super::*;
+
+const SAMPLE_CERT: &str = r#"-----BEGIN CERTIFICATE-----
+MIIC3jCCAcagAwIBAgIJAMBvhSD/r2eYMA0GCSqGSIb3DQEBCwUAMBcxFTATBgNV
+BAMMDGV4YW1wbGUudGVzdDAeFw0yNjA3MDQyMDUxMzdaFw0zNjA3MDEyMDUxMzda
+MBcxFTATBgNVBAMMDGV4YW1wbGUudGVzdDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAK81U4+GWNLRNKq+y6/pslTHyvQZgX8bZQ68dijipzwyGLG5hnF0
+ea+qXNicPvFb9MXGBL4i1GWnnp1x7T4d9WtFYi2Q+w2ZFoTJfmVtuwJhvmhFIBgI
+nPyK3Sa/DDb886h5B/drD54wjpcFbEm7xbxHxzyRF3q1WZl69NevYDHiVhTa6n3s
+x0XezCyuJ0GEgsqiJ5N61c3TLfwd1AJFV8WZnVUuUU4DzhSMadOrwSChd8s4jQ9A
++QZNrWYLBRxTAuJ2RYsPEgQ6sWw7k4//xJ4jhlzGi6AfS/FjvOGv+xCQlPhedSSM
+/9qjo7m7oDhVXkbUJeIE7ZCWbGTW2B85fXECAwEAAaMtMCswKQYDVR0RBCIwIIIM
+ZXhhbXBsZS50ZXN0ghBhbHQuZXhhbXBsZS50ZXN0MA0GCSqGSIb3DQEBCwUAA4IB
+AQCTD4yYqhrVVL4pYaY1uyVqXV3/Ba6cFuXIExoe9XOljJu2M6I8D6KjWVtC9rVu
+n+SwZed1BIdEKqv1sbdw45mMhJi1lYZe5QLFoRI+mB3/AjCx493ia8KSx7mrqO0y
+Kc9jOEHzjkutbjTxoAhUdb9Pfwz6W9RIqZ2IpXxgIpDrQuRBp6yyw5/gpNQfPAt7
+iQHXpmfpjC4kBqCEakPKpPURcBB4HY/tGg7tbqVLK6Q/Ujj/WAONeZuxB/mAtkiW
+b6DS1sxh2TNX1zXA5idWls2foZDzzcC1XRB9iF+q7JCDdIYstLBgN23ZxJbDH3yS
+uvwBvERVoHMCF4qFay/Qy8sf
+-----END CERTIFICATE-----"#;
+
+#[test]
+fn ssl_certificate_ids_match_node_shape() {
+    let id = build_ssl_certificate_id("cert", "key");
+    assert!(id.starts_with("ssl_"));
+    assert_eq!(id.len(), 20);
+}
+
+#[test]
+fn selects_certificate_pair_for_library_download_by_id() {
+    let ssl = json!({
+        "certificates": [
+            { "id": "first", "cert": "FIRST CERT", "key": "FIRST KEY" },
+            { "id": "second", "cert": "SECOND CERT", "key": "SECOND KEY" }
+        ]
+    });
+
+    assert_eq!(
+        certificate_pair_by_id(&ssl, "second"),
+        CertificatePairLookup::Found("SECOND CERT", "SECOND KEY")
+    );
+    assert_eq!(
+        certificate_pair_by_id(&ssl, "missing"),
+        CertificatePairLookup::Missing
+    );
+    assert_eq!(
+        certificate_pair_by_id(
+            &json!({ "certificates": [{ "id": "empty", "cert": "", "key": "KEY" }] }),
+            "empty"
+        ),
+        CertificatePairLookup::Invalid
+    );
+}
+
+#[test]
+fn certificate_download_response_disables_caching() {
+    let response = binary_response(vec![1, 2, 3], "application/zip", "certificate.zip");
+
+    assert!(
+        response
+            .headers()
+            .get(header::CACHE_CONTROL)
+            .is_some_and(|value| value.to_str().is_ok_and(|value| value.contains("no-store")))
+    );
+    assert_eq!(response.headers().get(header::PRAGMA).unwrap(), "no-cache");
+    assert_eq!(
+        response.headers().get(header::CONTENT_DISPOSITION).unwrap(),
+        "attachment; filename=\"certificate.zip\""
+    );
+}
+
+#[test]
+fn normalizes_legacy_ssl_into_library() {
+    let ssl = normalize_ssl_config(Some(&json!({
+        "cert": "CERT",
+        "key": "KEY",
+        "deployment_mode": "multi_sni"
+    })));
+    assert_eq!(ssl["deployment_mode"], json!("multi_sni"));
+    assert_eq!(ssl["certificates"].as_array().unwrap().len(), 1);
+    assert_eq!(ssl["active_cert_id"], ssl["certificates"][0]["id"]);
+    assert_eq!(ssl["certificates"][0]["label"], json!("当前证书"));
+    let certificate = ssl["certificates"][0].as_object().unwrap();
+    assert!(!certificate.contains_key("primary_domain"));
+    assert!(!certificate.contains_key("source_ref_id"));
+    assert_eq!(
+        ssl["certificates"][0]["created_at"],
+        json!("1970-01-01T00:00:00.000Z")
+    );
+    assert_eq!(
+        ssl["certificates"][0]["updated_at"],
+        json!("1970-01-01T00:00:00.000Z")
+    );
+}
+
+#[test]
+fn ssl_certificate_timestamps_match_node_normalization() {
+    assert_eq!(
+        normalize_timestamp(Some(&json!("2026-07-07T10:18:23.946511792Z"))),
+        Some("2026-07-07T10:18:23.946Z".to_string())
+    );
+    assert_eq!(normalize_timestamp(Some(&json!("invalid"))), None);
+
+    let ssl = normalize_ssl_config(Some(&json!({
+        "certificates": [
+            {
+                "id": "cert-1",
+                "label": "Manual",
+                "source": "manual",
+                "cert": "CERT",
+                "key": "KEY",
+                "created_at": "2026-07-07T10:18:23Z",
+                "updated_at": "invalid"
+            }
+        ]
+    })));
+
+    assert_eq!(
+        ssl["certificates"][0]["created_at"],
+        json!("2026-07-07T10:18:23.000Z")
+    );
+    assert_eq!(
+        ssl["certificates"][0]["updated_at"],
+        json!("2026-07-07T10:18:23.000Z")
+    );
+}
+
+#[test]
+fn ssl_status_omits_node_undefined_fields() {
+    let status = local_ssl_status(&json!({
+        "deployment_mode": "single_active",
+        "certificates": [
+            {
+                "id": "manual-1",
+                "label": "Manual",
+                "source": "manual",
+                "cert": "not a certificate",
+                "key": "not a key",
+                "created_at": "2026-07-07T00:00:00Z",
+                "updated_at": "2026-07-07T00:00:00Z"
+            }
+        ]
+    }));
+    let object = status.as_object().unwrap();
+    assert!(!object.contains_key("activeCertId"));
+    assert!(!object.contains_key("certInfo"));
+
+    let certificate = status["certificates"][0].as_object().unwrap();
+    assert!(!certificate.contains_key("primary_domain"));
+    assert!(!certificate.contains_key("source_ref_id"));
+    assert!(!certificate.contains_key("certInfo"));
+
+    let zh = Translator::new("zh-CN");
+    let gateway_ok = build_gateway_status_payload(
+        Some(json!({
+            "enabled": true,
+            "deployment_mode": "multi_sni",
+            "certificates": []
+        })),
+        None,
+        &zh,
+    );
+    assert!(!gateway_ok.as_object().unwrap().contains_key("sync_error"));
+
+    let gateway_failed = build_gateway_status_payload(None, Some("read failed".to_string()), &zh);
+    assert_eq!(gateway_failed["sync_error"], json!("read failed"));
+}
+
+#[test]
+fn ca_status_rejects_unparseable_existing_certificate() {
+    assert!(build_ca_status_payload("not a certificate").is_none());
+
+    let payload = build_ca_status_payload(SAMPLE_CERT).expect("valid status payload");
+    assert_eq!(payload["initialized"], json!(true));
+    assert_eq!(payload["info"]["subject"], json!("CN=example.test"));
+}
+
+#[test]
+fn ssl_save_sync_condition_matches_node() {
+    assert!(should_sync_ssl_deployment_after_save(true, "single_active"));
+    assert!(should_sync_ssl_deployment_after_save(false, "multi_sni"));
+    assert!(!should_sync_ssl_deployment_after_save(
+        false,
+        "single_active"
+    ));
+    assert!(!should_sync_ssl_deployment_after_save(false, "bad"));
+}
+
+#[test]
+fn ca_issue_save_payload_matches_node_fields() {
+    let body = build_ca_issue_certificate_body(
+        &["nas.example.test".to_string(), "192.168.1.10".to_string()],
+        "CERT".to_string(),
+        "KEY".to_string(),
+    );
+
+    assert_eq!(body.label.as_deref(), Some("nas.example.test"));
+    assert_eq!(body.source.as_deref(), Some("ca"));
+    assert_eq!(body.primary_domain, None);
+    assert_eq!(body.source_ref_id, None);
+    assert_eq!(body.activate, Some(true));
+}
+
+#[test]
+fn localizes_ssl_route_errors_and_default_labels() {
+    let zh = Translator::new("zh-CN");
+    assert_eq!(
+        ssl_route_text(&zh, "rootCaNotInitialized"),
+        "本地 CA 尚未初始化"
+    );
+    assert_eq!(
+        localize_ssl_error(&zh, &anyhow!("Root CA not initialized")),
+        "本地 CA 尚未初始化"
+    );
+    assert_eq!(
+        localize_ssl_error(&zh, &anyhow!("No hosts configured")),
+        "域名列表为空，请先添加域名或 IP"
+    );
+    assert_eq!(ssl_route_text(&zh, "certReadFailed"), "读取 SSL 证书失败");
+    assert_eq!(
+        ssl_route_text(&zh, "certZipCreateFailed"),
+        "创建 SSL 证书压缩包失败"
+    );
+    assert_eq!(ssl_route_text(&zh, "caInitFailed"), "初始化本地 CA 失败");
+    assert_eq!(
+        ssl_route_text(&zh, "caHostLoadFailed"),
+        "读取本地 CA Host 列表失败"
+    );
+    assert_eq!(
+        ssl_error_or_route_text(&zh, "caInitFailed", &anyhow!("openssl command failed")),
+        "初始化本地 CA 失败"
+    );
+    assert_eq!(
+        ssl_error_or_route_text(
+            &zh,
+            "certSaveFailed",
+            &anyhow!("Certificate format is invalid")
+        ),
+        "证书或私钥无效"
+    );
+    assert_eq!(
+        validate_ssl_cert_for_response("", "", &zh).unwrap_err(),
+        "证书内容不能为空"
+    );
+    assert_eq!(
+        shared_file_error_status_and_message(&zh, &anyhow!("Invalid shared file path")),
+        (StatusCode::BAD_REQUEST, "非法的共享文件路径".to_string())
+    );
+    assert_eq!(
+        shared_file_error_status_and_message(&zh, &anyhow!("Shared directory is not configured")),
+        (
+            StatusCode::NOT_FOUND,
+            "未找到飞牛共享目录，请确认应用资源已正确配置".to_string()
+        )
+    );
+    assert_eq!(
+        shared_file_error_status_and_message(&zh, &anyhow!("Shared path must be a file")),
+        (
+            StatusCode::BAD_REQUEST,
+            "只能读取共享目录中的文件".to_string()
+        )
+    );
+    assert_eq!(
+        shared_file_error_status_and_message(&zh, &anyhow!("Shared file is too large")),
+        (
+            StatusCode::BAD_REQUEST,
+            "文件过大，请仅放入证书或私钥文本文件".to_string()
+        )
+    );
+    assert_eq!(
+        shared_file_error_status_and_message(&zh, &anyhow!(SharedFileForbidden)),
+        (StatusCode::FORBIDDEN, "读取共享目录文件失败".to_string())
+    );
+    assert_eq!(default_certificate_label("manual", None), "手动上传证书");
+    assert_eq!(default_certificate_label("ca", None), "自签发证书");
+    assert_eq!(
+        default_certificate_label("acme", Some("example.com")),
+        "example.com"
+    );
+}
+
+#[test]
+fn validates_ssl_certificate_private_key_match_like_node() {
+    let Some((cert, key)) = generate_test_cert_pair("match.example.test") else {
+        return;
+    };
+    let Some((_other_cert, other_key)) = generate_test_cert_pair("other.example.test") else {
+        return;
+    };
+    let zh = Translator::new("zh-CN");
+
+    assert!(validate_ssl_cert_for_response(&cert, &key, &zh).is_ok());
+    assert_eq!(
+        validate_ssl_cert_for_response(&cert, &other_key, &zh).unwrap_err(),
+        "证书与私钥不匹配"
+    );
+}
+
+fn generate_test_cert_pair(common_name: &str) -> Option<(String, String)> {
+    if !Command::new("openssl")
+        .arg("version")
+        .stdin(Stdio::null())
+        .output()
+        .ok()?
+        .status
+        .success()
+    {
+        return None;
+    }
+    let temp_dir = std::env::temp_dir().join(format!("fn-knock-ssl-test-{}", Uuid::new_v4()));
+    std::fs::create_dir_all(&temp_dir).ok()?;
+    let key_path = temp_dir.join("key.pem");
+    let cert_path = temp_dir.join("cert.pem");
+    let result = (|| {
+        run_openssl(vec![
+            "req".to_string(),
+            "-x509".to_string(),
+            "-newkey".to_string(),
+            "rsa:2048".to_string(),
+            "-sha256".to_string(),
+            "-days".to_string(),
+            "1".to_string(),
+            "-nodes".to_string(),
+            "-keyout".to_string(),
+            key_path.to_string_lossy().to_string(),
+            "-out".to_string(),
+            cert_path.to_string_lossy().to_string(),
+            "-subj".to_string(),
+            format!("/CN={common_name}"),
+        ])
+        .ok()?;
+        Some((
+            std::fs::read_to_string(&cert_path).ok()?,
+            std::fs::read_to_string(&key_path).ok()?,
+        ))
+    })();
+    let _ = std::fs::remove_dir_all(temp_dir);
+    result
+}
+
+#[test]
+fn builds_gateway_deployment_for_multi_sni_with_active_first() {
+    let deployment = build_gateway_ssl_deployment(Some(&json!({
+        "active_cert_id": "b",
+        "deployment_mode": "multi_sni",
+        "certificates": [
+            {"id":"a","label":"A","cert":"CERTA","key":"KEYA"},
+            {"id":"b","label":"B","cert":"CERTB","key":"KEYB"}
+        ]
+    })));
+    assert_eq!(deployment["deployment_mode"], json!("multi_sni"));
+    assert_eq!(deployment["certificates"][0]["id"], json!("b"));
+    assert_eq!(deployment["certificates"][0]["is_default"], json!(true));
+}
+
+#[test]
+fn parses_certificate_info_when_pem_is_valid() {
+    let info = parse_cert_info(SAMPLE_CERT).expect("certificate should parse");
+    assert_eq!(info["subject"], json!("CN=example.test"));
+    assert_eq!(info["issuer"], json!("CN=example.test"));
+    assert_eq!(info["validFrom"], json!("Jul  4 20:51:37 2026 GMT"));
+    assert_eq!(info["validTo"], json!("Jul  1 20:51:37 2036 GMT"));
+    assert_eq!(info["serialNumber"], json!("C06F8520FFAF6798"));
+    assert_eq!(info["dnsNames"][0], json!("example.test"));
+    assert_eq!(info["dnsNames"][1], json!("alt.example.test"));
+}
+
+#[test]
+fn builds_subdomain_certificate_coverage_like_node() {
+    let zh = Translator::new("zh-CN");
+    let config = json!({
+        "subdomain_mode": {
+            "root_domain": "example.com"
+        },
+        "host_mappings": [
+            {
+                "host": "auth.example.com",
+                "target": "http://127.0.0.1:7997",
+                "service_role": "auth"
+            },
+            {
+                "host": "app.example.com",
+                "target": "http://127.0.0.1:8080"
+            }
+        ]
+    });
+    let certificate_domains = vec!["example.com".to_string(), "*.example.com".to_string()];
+
+    let coverage = build_subdomain_certificate_coverage(7997, &config, &certificate_domains, &zh);
+
+    assert_eq!(coverage["status"], json!("ready"));
+    assert_eq!(coverage["covers_auth_host"], json!(true));
+    assert_eq!(
+        coverage["covered_hosts"],
+        json!(["auth.example.com", "app.example.com"])
+    );
+    assert_eq!(coverage["uncovered_hosts"], json!([]));
+}
+
+#[test]
+fn subdomain_inventory_suggests_single_fully_covering_certificate() {
+    let zh = Translator::new("zh-CN");
+    let config = json!({
+        "subdomain_mode": {
+            "root_domain": "example.com"
+        },
+        "host_mappings": [
+            {
+                "host": "auth.example.com",
+                "target": "http://127.0.0.1:7997",
+                "service_role": "auth"
+            },
+            {
+                "host": "app.example.com",
+                "target": "http://127.0.0.1:8080"
+            }
+        ]
+    });
+    let certificates = vec![
+        CertificateCoverageInput {
+            id: "old".to_string(),
+            certificate_domains: vec!["auth.example.com".to_string()],
+        },
+        CertificateCoverageInput {
+            id: "recommended".to_string(),
+            certificate_domains: vec!["example.com".to_string(), "*.example.com".to_string()],
+        },
+    ];
+
+    let coverage = build_subdomain_certificate_inventory_coverage(
+        7997,
+        &config,
+        &certificates,
+        Some("old"),
+        "single_active",
+        &zh,
+    );
+
+    assert_eq!(coverage["status"], json!("ready"));
+    assert_eq!(coverage["can_auto_activate"], json!(true));
+    assert_eq!(coverage["suggested_certificate_id"], json!("recommended"));
+    assert_eq!(
+        coverage["fully_covering_certificate_ids"],
+        json!(["recommended"])
+    );
+    assert_eq!(
+        coverage["partially_covering_certificate_ids"],
+        json!(["old"])
+    );
+    assert!(
+        coverage["warnings"]
+            .as_array()
+            .unwrap()
+            .iter()
+            .any(|warning| {
+                warning.as_str() == Some("当前活动证书与子域模式不完全匹配，建议切换到推荐证书。")
+            })
+    );
+}
+
+#[test]
+fn builds_ca_server_cert_config_with_dns_and_ip_sans() {
+    let config = openssl_server_cert_config(&[
+        "example.test".to_string(),
+        "192.168.1.10".to_string(),
+        "alt.example.test".to_string(),
+    ]);
+    assert!(config.contains("CN = example.test"));
+    assert!(config.contains("DNS.1 = example.test"));
+    assert!(config.contains("IP.1 = 192.168.1.10"));
+    assert!(config.contains("DNS.2 = alt.example.test"));
+}
+
+#[test]
+fn cleans_openssl_dn_value_newlines() {
+    assert_eq!(openssl_dn_value("example\n.test\r"), "example.test");
+}

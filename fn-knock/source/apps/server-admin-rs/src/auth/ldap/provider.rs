@@ -1,1 +1,412 @@
-dXNlIG5hdGl2ZV90bHM6OkNlcnRpZmljYXRlOwp1c2Ugc2VyZGU6OntEZXNlcmlhbGl6ZSwgU2VyaWFsaXplfTsKdXNlIHNlcmRlX2pzb246OntNYXAsIFZhbHVlLCBqc29ufTsKdXNlIHVybDo6VXJsOwoKdXNlIGNyYXRlOjp7Y3J5cHRvX3V0aWxzLCBpMThuOjpUcmFuc2xhdG9yLCB0aW1lX3V0aWxzfTsKCmNvbnN0IE1BU0tFRF9TRUNSRVQ6ICZzdHIgPSAiKioqKioqKioiOwoKI1tkZXJpdmUoQ2xvbmUsIERlc2VyaWFsaXplLCBTZXJpYWxpemUpXQpwdWIoc3VwZXIpIHN0cnVjdCBMZGFwQ29ubmVjdGlvbkNvbmZpZyB7CiAgICBwdWIgc2VydmVyczogVmVjPFN0cmluZz4sCiAgICBwdWIgdHJhbnNwb3J0OiBTdHJpbmcsCiAgICBwdWIgYmluZF9tb2RlOiBTdHJpbmcsCiAgICBwdWIgYmFzZV9kbjogU3RyaW5nLAogICAgcHViIHVzZXJfZmlsdGVyOiBTdHJpbmcsCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgcHViIHNlcnZpY2VfYmluZF9kbjogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBzZXJ2aWNlX2JpbmRfcGFzc3dvcmQ6IFN0cmluZywKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgZGlyZWN0X2JpbmRfdGVtcGxhdGU6IFN0cmluZywKICAgIHB1YiBzdWJqZWN0X2F0dHJpYnV0ZTogU3RyaW5nLAogICAgcHViIHVzZXJuYW1lX2F0dHJpYnV0ZTogU3RyaW5nLAogICAgcHViIGRpc3BsYXlfbmFtZV9hdHRyaWJ1dGU6IFN0cmluZywKICAgIHB1YiBlbWFpbF9hdHRyaWJ1dGU6IFN0cmluZywKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgY2FfcGVtOiBTdHJpbmcsCn0KCiNbZGVyaXZlKENsb25lLCBDb3B5KV0Kc3RydWN0IFByZXNldCB7CiAgICBraW5kOiAmJ3N0YXRpYyBzdHIsCiAgICBsYWJlbDogJidzdGF0aWMgc3RyLAogICAgbGFiZWxfa2V5OiAmJ3N0YXRpYyBzdHIsCiAgICB1c2VyX2ZpbHRlcjogJidzdGF0aWMgc3RyLAogICAgc3ViamVjdF9hdHRyaWJ1dGU6ICYnc3RhdGljIHN0ciwKICAgIHVzZXJuYW1lX2F0dHJpYnV0ZTogJidzdGF0aWMgc3RyLAogICAgZGlzcGxheV9uYW1lX2F0dHJpYnV0ZTogJidzdGF0aWMgc3RyLAogICAgZW1haWxfYXR0cmlidXRlOiAmJ3N0YXRpYyBzdHIsCn0KCmNvbnN0IFBSRVNFVFM6IFtQcmVzZXQ7IDNdID0gWwogICAgUHJlc2V0IHsKICAgICAgICBraW5kOiAib3BlbmxkYXAiLAogICAgICAgIGxhYmVsOiAiT3BlbkxEQVAiLAogICAgICAgIGxhYmVsX2tleTogIm9wZW5sZGFwTGFiZWwiLAogICAgICAgIHVzZXJfZmlsdGVyOiAiKCYob2JqZWN0Q2xhc3M9cGVyc29uKSh1aWQ9e3VzZXJuYW1lfSkpIiwKICAgICAgICBzdWJqZWN0X2F0dHJpYnV0ZTogImVudHJ5VVVJRCIsCiAgICAgICAgdXNlcm5hbWVfYXR0cmlidXRlOiAidWlkIiwKICAgICAgICBkaXNwbGF5X25hbWVfYXR0cmlidXRlOiAiY24iLAogICAgICAgIGVtYWlsX2F0dHJpYnV0ZTogIm1haWwiLAogICAgfSwKICAgIFByZXNldCB7CiAgICAgICAga2luZDogImFjdGl2ZV9kaXJlY3RvcnkiLAogICAgICAgIGxhYmVsOiAiQWN0aXZlIERpcmVjdG9yeSIsCiAgICAgICAgbGFiZWxfa2V5OiAiYWN0aXZlRGlyZWN0b3J5TGFiZWwiLAogICAgICAgIHVzZXJfZmlsdGVyOiAiKCYob2JqZWN0Q2F0ZWdvcnk9cGVyc29uKShvYmplY3RDbGFzcz11c2VyKSh8KHVzZXJQcmluY2lwYWxOYW1lPXt1c2VybmFtZX0pKHNBTUFjY291bnROYW1lPXt1c2VybmFtZX0pKSkiLAogICAgICAgIHN1YmplY3RfYXR0cmlidXRlOiAib2JqZWN0R1VJRCIsCiAgICAgICAgdXNlcm5hbWVfYXR0cmlidXRlOiAidXNlclByaW5jaXBhbE5hbWUiLAogICAgICAgIGRpc3BsYXlfbmFtZV9hdHRyaWJ1dGU6ICJkaXNwbGF5TmFtZSIsCiAgICAgICAgZW1haWxfYXR0cmlidXRlOiAibWFpbCIsCiAgICB9LAogICAgUHJlc2V0IHsKICAgICAgICBraW5kOiAiY3VzdG9tIiwKICAgICAgICBsYWJlbDogIkN1c3RvbSBMREFQIiwKICAgICAgICBsYWJlbF9rZXk6ICJjdXN0b21MYWJlbCIsCiAgICAgICAgdXNlcl9maWx0ZXI6ICIodWlkPXt1c2VybmFtZX0pIiwKICAgICAgICBzdWJqZWN0X2F0dHJpYnV0ZTogImVudHJ5VVVJRCIsCiAgICAgICAgdXNlcm5hbWVfYXR0cmlidXRlOiAidWlkIiwKICAgICAgICBkaXNwbGF5X25hbWVfYXR0cmlidXRlOiAiY24iLAogICAgICAgIGVtYWlsX2F0dHJpYnV0ZTogIm1haWwiLAogICAgfSwKXTsKCnB1YihzdXBlcikgZm4gY2F0YWxvZyh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvcikgLT4gVmFsdWUgewogICAgVmFsdWU6OkFycmF5KAogICAgICAgIFBSRVNFVFMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAubWFwKHxwcmVzZXR8IHsKICAgICAgICAgICAgICAgIGpzb24hKHsKICAgICAgICAgICAgICAgICAgICAidHlwZSI6IHByZXNldC5raW5kLAogICAgICAgICAgICAgICAgICAgICJsYWJlbCI6IHRyYW5zbGF0b3IudCgmZm9ybWF0ISgic2VydmVyLmxkYXAuY2F0YWxvZy57fSIsIHByZXNldC5sYWJlbF9rZXkpKSwKICAgICAgICAgICAgICAgICAgICAiZGVmYXVsdHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICJ0cmFuc3BvcnQiOiAibGRhcHMiLAogICAgICAgICAgICAgICAgICAgICAgICAiYmluZF9tb2RlIjogInNlYXJjaCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJ1c2VyX2ZpbHRlciI6IHByZXNldC51c2VyX2ZpbHRlciwKICAgICAgICAgICAgICAgICAgICAgICAgInN1YmplY3RfYXR0cmlidXRlIjogcHJlc2V0LnN1YmplY3RfYXR0cmlidXRlLAogICAgICAgICAgICAgICAgICAgICAgICAidXNlcm5hbWVfYXR0cmlidXRlIjogcHJlc2V0LnVzZXJuYW1lX2F0dHJpYnV0ZSwKICAgICAgICAgICAgICAgICAgICAgICAgImRpc3BsYXlfbmFtZV9hdHRyaWJ1dGUiOiBwcmVzZXQuZGlzcGxheV9uYW1lX2F0dHJpYnV0ZSwKICAgICAgICAgICAgICAgICAgICAgICAgImVtYWlsX2F0dHJpYnV0ZSI6IHByZXNldC5lbWFpbF9hdHRyaWJ1dGUsCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmNvbGxlY3QoKSwKICAgICkKfQoKcHViKHN1cGVyKSBmbiBidWlsZF9uZXdfcHJvdmlkZXIoaW5wdXQ6ICZNYXA8U3RyaW5nLCBWYWx1ZT4pIC0+IFJlc3VsdDxWYWx1ZSwgU3RyaW5nPiB7CiAgICBsZXQgcHJvdmlkZXJfdHlwZSA9IG5vcm1hbGl6ZWRfc3RyaW5nKGlucHV0LmdldCgidHlwZSIpKS51bndyYXBfb3JfZWxzZSh8fCAiY3VzdG9tIi5pbnRvKCkpOwogICAgbGV0IHByZXNldCA9CiAgICAgICAgcHJlc2V0KCZwcm92aWRlcl90eXBlKS5va19vcl9lbHNlKHx8ICJVbnN1cHBvcnRlZCBMREFQIHByb3ZpZGVyIHR5cGUiLnRvX3N0cmluZygpKT87CiAgICBsZXQgZW5hYmxlZCA9IGlucHV0CiAgICAgICAgLmdldCgiZW5hYmxlZCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgIC51bndyYXBfb3IodHJ1ZSk7CiAgICBsZXQgY29uZmlnID0gbm9ybWFsaXplX2Nvbm5lY3Rpb25fY29uZmlnKAogICAgICAgIGlucHV0CiAgICAgICAgICAgIC5nZXQoImNvbm5lY3Rpb25fY29uZmlnIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3QpCiAgICAgICAgICAgIC5jbG9uZWQoKQogICAgICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKSwKICAgICAgICBwcmVzZXQsCiAgICAgICAgIWVuYWJsZWQsCiAgICAgICAgTm9uZSwKICAgICk/OwogICAgbGV0IG5vdyA9IHRpbWVfdXRpbHM6Om5vd19pc28oKTsKICAgIE9rKGpzb24hKHsKICAgICAgICAiaWQiOiBmb3JtYXQhKCJsZGFwX3Byb3ZpZGVyX3t9IiwgJmNyeXB0b191dGlsczo6c2hhMjU2X2hleF9zdHIoJmZvcm1hdCEoInt9Ont9Iiwgbm93LCB1dWlkOjpVdWlkOjpuZXdfdjQoKSkpWy4uMjRdKSwKICAgICAgICAidHlwZSI6IHByb3ZpZGVyX3R5cGUsCiAgICAgICAgInByb3RvY29sIjogImxkYXAiLAogICAgICAgICJuYW1lIjogbm9ybWFsaXplZF9zdHJpbmcoaW5wdXQuZ2V0KCJuYW1lIikpLnVud3JhcF9vcl9lbHNlKHx8IHByZXNldC5sYWJlbC50b19zdHJpbmcoKSksCiAgICAgICAgImVuYWJsZWQiOiBlbmFibGVkLAogICAgICAgICJjb25uZWN0aW9uX2NvbmZpZyI6IGNvbmZpZywKICAgICAgICAiY3JlYXRlZF9hdCI6IG5vdywKICAgICAgICAidXBkYXRlZF9hdCI6IG5vdywKICAgICAgICAibGFzdF90ZXN0X3N0YXR1cyI6ICJpZGxlIiwKICAgIH0pKQp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX3VwZGF0ZWRfcHJvdmlkZXIoCiAgICBtdXQgcHJvdmlkZXI6IFZhbHVlLAogICAgaW5wdXQ6ICZNYXA8U3RyaW5nLCBWYWx1ZT4sCikgLT4gUmVzdWx0PFZhbHVlLCBTdHJpbmc+IHsKICAgIGxldCBvYmplY3QgPSBwcm92aWRlcgogICAgICAgIC5hc19vYmplY3RfbXV0KCkKICAgICAgICAub2tfb3JfZWxzZSh8fCAiU3RvcmVkIExEQVAgcHJvdmlkZXIgaXMgaW52YWxpZCIudG9fc3RyaW5nKCkpPzsKICAgIGxldCBwcm92aWRlcl90eXBlID0gb2JqZWN0CiAgICAgICAgLmdldCgidHlwZSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcigiY3VzdG9tIikKICAgICAgICAudG9fc3RyaW5nKCk7CiAgICBsZXQgcHJlc2V0ID0KICAgICAgICBwcmVzZXQoJnByb3ZpZGVyX3R5cGUpLm9rX29yX2Vsc2UofHwgIlVuc3VwcG9ydGVkIExEQVAgcHJvdmlkZXIgdHlwZSIudG9fc3RyaW5nKCkpPzsKICAgIGxldCBlbmFibGVkID0gaW5wdXQKICAgICAgICAuZ2V0KCJlbmFibGVkIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IHsKICAgICAgICAgICAgb2JqZWN0CiAgICAgICAgICAgICAgICAuZ2V0KCJlbmFibGVkIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAgICAgICAgIC51bndyYXBfb3IodHJ1ZSkKICAgICAgICB9KTsKICAgIGxldCBleGlzdGluZyA9IG9iamVjdAogICAgICAgIC5nZXQoImNvbm5lY3Rpb25fY29uZmlnIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX29iamVjdCkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBtdXQgbWVyZ2VkID0gZXhpc3RpbmcuY2xvbmUoKTsKICAgIGlmIGxldCBTb21lKHBhdGNoKSA9IGlucHV0LmdldCgiY29ubmVjdGlvbl9jb25maWciKS5hbmRfdGhlbihWYWx1ZTo6YXNfb2JqZWN0KSB7CiAgICAgICAgZm9yIChrZXksIHZhbHVlKSBpbiBwYXRjaCB7CiAgICAgICAgICAgIGxldCBwcmVzZXJ2ZV9zZWNyZXQgPSBrZXkgPT0gInNlcnZpY2VfYmluZF9wYXNzd29yZCIKICAgICAgICAgICAgICAgICYmIHZhbHVlCiAgICAgICAgICAgICAgICAgICAgLmFzX3N0cigpCiAgICAgICAgICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHx2YWx1ZXwgdmFsdWUudHJpbSgpLmlzX2VtcHR5KCkgfHwgdmFsdWUgPT0gTUFTS0VEX1NFQ1JFVCk7CiAgICAgICAgICAgIGlmICFwcmVzZXJ2ZV9zZWNyZXQgewogICAgICAgICAgICAgICAgbWVyZ2VkLmluc2VydChrZXkuY2xvbmUoKSwgdmFsdWUuY2xvbmUoKSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICBsZXQgY29uZmlnID0gbm9ybWFsaXplX2Nvbm5lY3Rpb25fY29uZmlnKG1lcmdlZCwgcHJlc2V0LCAhZW5hYmxlZCwgU29tZSgmZXhpc3RpbmcpKT87CiAgICBpZiBsZXQgU29tZShuYW1lKSA9IG5vcm1hbGl6ZWRfc3RyaW5nKGlucHV0LmdldCgibmFtZSIpKSB7CiAgICAgICAgb2JqZWN0Lmluc2VydCgibmFtZSIuaW50bygpLCBWYWx1ZTo6U3RyaW5nKG5hbWUpKTsKICAgIH0KICAgIG9iamVjdC5pbnNlcnQoImVuYWJsZWQiLmludG8oKSwgVmFsdWU6OkJvb2woZW5hYmxlZCkpOwogICAgb2JqZWN0Lmluc2VydCgiY29ubmVjdGlvbl9jb25maWciLmludG8oKSwgY29uZmlnKTsKICAgIG9iamVjdC5pbnNlcnQoInVwZGF0ZWRfYXQiLmludG8oKSwgVmFsdWU6OlN0cmluZyh0aW1lX3V0aWxzOjpub3dfaXNvKCkpKTsKICAgIE9rKHByb3ZpZGVyKQp9CgpmbiBub3JtYWxpemVfY29ubmVjdGlvbl9jb25maWcoCiAgICByYXc6IE1hcDxTdHJpbmcsIFZhbHVlPiwKICAgIHByZXNldDogUHJlc2V0LAogICAgYWxsb3dfaW5jb21wbGV0ZTogYm9vbCwKICAgIF9leGlzdGluZzogT3B0aW9uPCZNYXA8U3RyaW5nLCBWYWx1ZT4+LAopIC0+IFJlc3VsdDxWYWx1ZSwgU3RyaW5nPiB7CiAgICBsZXQgdHJhbnNwb3J0ID0gbm9ybWFsaXplZF9zdHJpbmcocmF3LmdldCgidHJhbnNwb3J0IikpLnVud3JhcF9vcl9lbHNlKHx8ICJsZGFwcyIuaW50bygpKTsKICAgIGlmICFtYXRjaGVzISh0cmFuc3BvcnQuYXNfc3RyKCksICJsZGFwcyIgfCAic3RhcnR0bHMiKSB7CiAgICAgICAgcmV0dXJuIEVycigiTERBUCB0cmFuc3BvcnQgbXVzdCBiZSBsZGFwcyBvciBzdGFydHRscyIuaW50bygpKTsKICAgIH0KICAgIGxldCBiaW5kX21vZGUgPSBub3JtYWxpemVkX3N0cmluZyhyYXcuZ2V0KCJiaW5kX21vZGUiKSkudW53cmFwX29yX2Vsc2UofHwgInNlYXJjaCIuaW50bygpKTsKICAgIGlmICFtYXRjaGVzIShiaW5kX21vZGUuYXNfc3RyKCksICJzZWFyY2giIHwgImRpcmVjdCIpIHsKICAgICAgICByZXR1cm4gRXJyKCJMREFQIGJpbmQgbW9kZSBtdXN0IGJlIHNlYXJjaCBvciBkaXJlY3QiLmludG8oKSk7CiAgICB9CiAgICBsZXQgc2VydmVycyA9IG5vcm1hbGl6ZV9zZXJ2ZXJzKHJhdy5nZXQoInNlcnZlcnMiKSwgJnRyYW5zcG9ydCk/OwogICAgbGV0IGJhc2VfZG4gPSBub3JtYWxpemVkX3N0cmluZyhyYXcuZ2V0KCJiYXNlX2RuIikpLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgdXNlcl9maWx0ZXIgPQogICAgICAgIG5vcm1hbGl6ZWRfc3RyaW5nKHJhdy5nZXQoInVzZXJfZmlsdGVyIikpLnVud3JhcF9vcl9lbHNlKHx8IHByZXNldC51c2VyX2ZpbHRlci50b19zdHJpbmcoKSk7CiAgICBpZiAhdXNlcl9maWx0ZXIuY29udGFpbnMoInt1c2VybmFtZX0iKSB7CiAgICAgICAgcmV0dXJuIEVycigiTERBUCB1c2VyIGZpbHRlciBtdXN0IGNvbnRhaW4ge3VzZXJuYW1lfSIuaW50bygpKTsKICAgIH0KICAgIGxldCBzZXJ2aWNlX2JpbmRfZG4gPSBub3JtYWxpemVkX3N0cmluZyhyYXcuZ2V0KCJzZXJ2aWNlX2JpbmRfZG4iKSkudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBzZXJ2aWNlX2JpbmRfcGFzc3dvcmQgPSByYXcKICAgICAgICAuZ2V0KCJzZXJ2aWNlX2JpbmRfcGFzc3dvcmQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCiAgICAgICAgLnRvX3N0cmluZygpOwogICAgbGV0IGRpcmVjdF9iaW5kX3RlbXBsYXRlID0KICAgICAgICBub3JtYWxpemVkX3N0cmluZyhyYXcuZ2V0KCJkaXJlY3RfYmluZF90ZW1wbGF0ZSIpKS51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgaWYgYmluZF9tb2RlID09ICJkaXJlY3QiCiAgICAgICAgJiYgIWRpcmVjdF9iaW5kX3RlbXBsYXRlLmlzX2VtcHR5KCkKICAgICAgICAmJiAhZGlyZWN0X2JpbmRfdGVtcGxhdGUuY29udGFpbnMoInt1c2VybmFtZX0iKQogICAgewogICAgICAgIHJldHVybiBFcnIoIkxEQVAgZGlyZWN0IGJpbmQgdGVtcGxhdGUgbXVzdCBjb250YWluIHt1c2VybmFtZX0iLmludG8oKSk7CiAgICB9CiAgICBpZiAhYWxsb3dfaW5jb21wbGV0ZSB7CiAgICAgICAgaWYgc2VydmVycy5pc19lbXB0eSgpIHx8IGJhc2VfZG4uaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoIkxEQVAgc2VydmVycyBhbmQgQmFzZSBETiBhcmUgcmVxdWlyZWQiLmludG8oKSk7CiAgICAgICAgfQogICAgICAgIGlmIGJpbmRfbW9kZSA9PSAic2VhcmNoIiAmJiAoc2VydmljZV9iaW5kX2RuLmlzX2VtcHR5KCkgfHwgc2VydmljZV9iaW5kX3Bhc3N3b3JkLmlzX2VtcHR5KCkpCiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gRXJyKCJMREFQIHNlYXJjaCBiaW5kIGNyZWRlbnRpYWxzIGFyZSByZXF1aXJlZCIuaW50bygpKTsKICAgICAgICB9CiAgICAgICAgaWYgYmluZF9tb2RlID09ICJkaXJlY3QiICYmIGRpcmVjdF9iaW5kX3RlbXBsYXRlLmlzX2VtcHR5KCkgewogICAgICAgICAgICByZXR1cm4gRXJyKCJMREFQIGRpcmVjdCBiaW5kIHRlbXBsYXRlIGlzIHJlcXVpcmVkIi5pbnRvKCkpOwogICAgICAgIH0KICAgIH0KICAgIGxldCBjYV9wZW0gPSByYXcKICAgICAgICAuZ2V0KCJjYV9wZW0iKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCiAgICAgICAgLnRvX3N0cmluZygpOwogICAgdmFsaWRhdGVfY2FfcGVtKCZjYV9wZW0pPzsKICAgIE9rKGpzb24hKHsKICAgICAgICAic2VydmVycyI6IHNlcnZlcnMsCiAgICAgICAgInRyYW5zcG9ydCI6IHRyYW5zcG9ydCwKICAgICAgICAiYmluZF9tb2RlIjogYmluZF9tb2RlLAogICAgICAgICJiYXNlX2RuIjogYmFzZV9kbiwKICAgICAgICAidXNlcl9maWx0ZXIiOiB1c2VyX2ZpbHRlciwKICAgICAgICAic2VydmljZV9iaW5kX2RuIjogc2VydmljZV9iaW5kX2RuLAogICAgICAgICJzZXJ2aWNlX2JpbmRfcGFzc3dvcmQiOiBzZXJ2aWNlX2JpbmRfcGFzc3dvcmQsCiAgICAgICAgImRpcmVjdF9iaW5kX3RlbXBsYXRlIjogZGlyZWN0X2JpbmRfdGVtcGxhdGUsCiAgICAgICAgInN1YmplY3RfYXR0cmlidXRlIjogbm9ybWFsaXplZF9zdHJpbmcocmF3LmdldCgic3ViamVjdF9hdHRyaWJ1dGUiKSkudW53cmFwX29yX2Vsc2UofHwgcHJlc2V0LnN1YmplY3RfYXR0cmlidXRlLmludG8oKSksCiAgICAgICAgInVzZXJuYW1lX2F0dHJpYnV0ZSI6IG5vcm1hbGl6ZWRfc3RyaW5nKHJhdy5nZXQoInVzZXJuYW1lX2F0dHJpYnV0ZSIpKS51bndyYXBfb3JfZWxzZSh8fCBwcmVzZXQudXNlcm5hbWVfYXR0cmlidXRlLmludG8oKSksCiAgICAgICAgImRpc3BsYXlfbmFtZV9hdHRyaWJ1dGUiOiBub3JtYWxpemVkX3N0cmluZyhyYXcuZ2V0KCJkaXNwbGF5X25hbWVfYXR0cmlidXRlIikpLnVud3JhcF9vcl9lbHNlKHx8IHByZXNldC5kaXNwbGF5X25hbWVfYXR0cmlidXRlLmludG8oKSksCiAgICAgICAgImVtYWlsX2F0dHJpYnV0ZSI6IG5vcm1hbGl6ZWRfc3RyaW5nKHJhdy5nZXQoImVtYWlsX2F0dHJpYnV0ZSIpKS51bndyYXBfb3JfZWxzZSh8fCBwcmVzZXQuZW1haWxfYXR0cmlidXRlLmludG8oKSksCiAgICAgICAgImNhX3BlbSI6IGNhX3BlbSwKICAgIH0pKQp9CgpmbiBub3JtYWxpemVfc2VydmVycyh2YWx1ZTogT3B0aW9uPCZWYWx1ZT4sIHRyYW5zcG9ydDogJnN0cikgLT4gUmVzdWx0PFZlYzxTdHJpbmc+LCBTdHJpbmc+IHsKICAgIGxldCBlbnRyaWVzID0gbWF0Y2ggdmFsdWUgewogICAgICAgIFNvbWUoVmFsdWU6OkFycmF5KGl0ZW1zKSkgPT4gaXRlbXMuaXRlcigpLmZpbHRlcl9tYXAobm9ybWFsaXplZF92YWx1ZV9zdHJpbmcpLmNvbGxlY3QoKSwKICAgICAgICBTb21lKFZhbHVlOjpTdHJpbmcodmFsdWUpKSA9PiB2YWx1ZQogICAgICAgICAgICAubGluZXMoKQogICAgICAgICAgICAuZmlsdGVyX21hcCh8bGluZXwgbm9ybWFsaXplZF92YWx1ZV9zdHJpbmcoJlZhbHVlOjpTdHJpbmcobGluZS5pbnRvKCkpKSkKICAgICAgICAgICAgLmNvbGxlY3QoKSwKICAgICAgICBfID0+IFZlYzo6bmV3KCksCiAgICB9OwogICAgZW50cmllcwogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5tYXAofGVudHJ5fCBub3JtYWxpemVfc2VydmVyKCZlbnRyeSwgdHJhbnNwb3J0KSkKICAgICAgICAuY29sbGVjdCgpCn0KCmZuIG5vcm1hbGl6ZV9zZXJ2ZXIoZW50cnk6ICZzdHIsIHRyYW5zcG9ydDogJnN0cikgLT4gUmVzdWx0PFN0cmluZywgU3RyaW5nPiB7CiAgICBsZXQgc2NoZW1lID0gaWYgdHJhbnNwb3J0ID09ICJsZGFwcyIgewogICAgICAgICJsZGFwcyIKICAgIH0gZWxzZSB7CiAgICAgICAgImxkYXAiCiAgICB9OwogICAgbGV0IGNhbmRpZGF0ZSA9IGlmIGVudHJ5LmNvbnRhaW5zKCI6Ly8iKSB7CiAgICAgICAgZW50cnkudG9fc3RyaW5nKCkKICAgIH0gZWxzZSB7CiAgICAgICAgZm9ybWF0ISgie3NjaGVtZX06Ly97ZW50cnl9IikKICAgIH07CiAgICBsZXQgdXJsID0gVXJsOjpwYXJzZSgmY2FuZGlkYXRlKS5tYXBfZXJyKHxffCBmb3JtYXQhKCJJbnZhbGlkIExEQVAgc2VydmVyIFVSTDoge2VudHJ5fSIpKT87CiAgICBpZiB1cmwuc2NoZW1lKCkgIT0gc2NoZW1lCiAgICAgICAgfHwgdXJsLmhvc3Rfc3RyKCkuaXNfbm9uZSgpCiAgICAgICAgfHwgIXVybC51c2VybmFtZSgpLmlzX2VtcHR5KCkKICAgICAgICB8fCB1cmwucGFzc3dvcmQoKS5pc19zb21lKCkKICAgICAgICB8fCB1cmwucXVlcnkoKS5pc19zb21lKCkKICAgICAgICB8fCB1cmwuZnJhZ21lbnQoKS5pc19zb21lKCkKICAgICAgICB8fCAhbWF0Y2hlcyEodXJsLnBhdGgoKSwgIiIgfCAiLyIpCiAgICB7CiAgICAgICAgcmV0dXJuIEVycihmb3JtYXQhKCJJbnZhbGlkIG9yIGluc2VjdXJlIExEQVAgc2VydmVyIFVSTDoge2VudHJ5fSIpKTsKICAgIH0KICAgIE9rKHVybC50b19zdHJpbmcoKS50cmltX2VuZF9tYXRjaGVzKCcvJykudG9fc3RyaW5nKCkpCn0KCnB1YihzdXBlcikgZm4gcHJvdmlkZXJfY29uZmlnKHByb3ZpZGVyOiAmVmFsdWUpIC0+IFJlc3VsdDxMZGFwQ29ubmVjdGlvbkNvbmZpZywgU3RyaW5nPiB7CiAgICBsZXQgY29uZmlnOiBMZGFwQ29ubmVjdGlvbkNvbmZpZyA9IHNlcmRlX2pzb246OmZyb21fdmFsdWUoCiAgICAgICAgcHJvdmlkZXIKICAgICAgICAgICAgLmdldCgiY29ubmVjdGlvbl9jb25maWciKQogICAgICAgICAgICAuY2xvbmVkKCkKICAgICAgICAgICAgLm9rX29yX2Vsc2UofHwgIkxEQVAgY29ubmVjdGlvbiBjb25maWcgaXMgbWlzc2luZyIudG9fc3RyaW5nKCkpPywKICAgICkKICAgIC5tYXBfZXJyKHxlcnJvcnwgZm9ybWF0ISgiSW52YWxpZCBMREFQIGNvbm5lY3Rpb24gY29uZmlnOiB7ZXJyb3J9IikpPzsKICAgIHZhbGlkYXRlX3J1bnRpbWVfY29uZmlnKCZjb25maWcpPzsKICAgIE9rKGNvbmZpZykKfQoKcHViKHN1cGVyKSBmbiBwcm92aWRlcl9yZWFkeShwcm92aWRlcjogJlZhbHVlKSAtPiBib29sIHsKICAgIHByb3ZpZGVyX2NvbmZpZyhwcm92aWRlcikuaXNfb2soKQp9CgpmbiB2YWxpZGF0ZV9ydW50aW1lX2NvbmZpZyhjb25maWc6ICZMZGFwQ29ubmVjdGlvbkNvbmZpZykgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGlmICFtYXRjaGVzIShjb25maWcudHJhbnNwb3J0LmFzX3N0cigpLCAibGRhcHMiIHwgInN0YXJ0dGxzIikgewogICAgICAgIHJldHVybiBFcnIoIkxEQVAgdHJhbnNwb3J0IG11c3QgYmUgbGRhcHMgb3Igc3RhcnR0bHMiLmludG8oKSk7CiAgICB9CiAgICBpZiAhbWF0Y2hlcyEoY29uZmlnLmJpbmRfbW9kZS5hc19zdHIoKSwgInNlYXJjaCIgfCAiZGlyZWN0IikgewogICAgICAgIHJldHVybiBFcnIoIkxEQVAgYmluZCBtb2RlIG11c3QgYmUgc2VhcmNoIG9yIGRpcmVjdCIuaW50bygpKTsKICAgIH0KICAgIGlmIGNvbmZpZy5zZXJ2ZXJzLmlzX2VtcHR5KCkgfHwgY29uZmlnLmJhc2VfZG4udHJpbSgpLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBFcnIoIkxEQVAgc2VydmVycyBhbmQgQmFzZSBETiBhcmUgcmVxdWlyZWQiLmludG8oKSk7CiAgICB9CiAgICBmb3Igc2VydmVyIGluICZjb25maWcuc2VydmVycyB7CiAgICAgICAgbm9ybWFsaXplX3NlcnZlcihzZXJ2ZXIsICZjb25maWcudHJhbnNwb3J0KT87CiAgICB9CiAgICBpZiAhY29uZmlnLnVzZXJfZmlsdGVyLmNvbnRhaW5zKCJ7dXNlcm5hbWV9IikgewogICAgICAgIHJldHVybiBFcnIoIkxEQVAgdXNlciBmaWx0ZXIgbXVzdCBjb250YWluIHt1c2VybmFtZX0iLmludG8oKSk7CiAgICB9CiAgICBmb3IgKGxhYmVsLCBhdHRyaWJ1dGUpIGluIFsKICAgICAgICAoInN1YmplY3QiLCAmY29uZmlnLnN1YmplY3RfYXR0cmlidXRlKSwKICAgICAgICAoInVzZXJuYW1lIiwgJmNvbmZpZy51c2VybmFtZV9hdHRyaWJ1dGUpLAogICAgICAgICgiZGlzcGxheSBuYW1lIiwgJmNvbmZpZy5kaXNwbGF5X25hbWVfYXR0cmlidXRlKSwKICAgICAgICAoImVtYWlsIiwgJmNvbmZpZy5lbWFpbF9hdHRyaWJ1dGUpLAogICAgXSB7CiAgICAgICAgaWYgYXR0cmlidXRlLnRyaW0oKS5pc19lbXB0eSgpIHsKICAgICAgICAgICAgcmV0dXJuIEVycihmb3JtYXQhKCJMREFQIHtsYWJlbH0gYXR0cmlidXRlIGlzIHJlcXVpcmVkIikpOwogICAgICAgIH0KICAgIH0KICAgIGlmIGNvbmZpZy5iaW5kX21vZGUgPT0gInNlYXJjaCIKICAgICAgICAmJiAoY29uZmlnLnNlcnZpY2VfYmluZF9kbi50cmltKCkuaXNfZW1wdHkoKSB8fCBjb25maWcuc2VydmljZV9iaW5kX3Bhc3N3b3JkLmlzX2VtcHR5KCkpCiAgICB7CiAgICAgICAgcmV0dXJuIEVycigiTERBUCBzZWFyY2ggYmluZCBjcmVkZW50aWFscyBhcmUgcmVxdWlyZWQiLmludG8oKSk7CiAgICB9CiAgICBpZiBjb25maWcuYmluZF9tb2RlID09ICJkaXJlY3QiCiAgICAgICAgJiYgKGNvbmZpZy5kaXJlY3RfYmluZF90ZW1wbGF0ZS50cmltKCkuaXNfZW1wdHkoKQogICAgICAgICAgICB8fCAhY29uZmlnLmRpcmVjdF9iaW5kX3RlbXBsYXRlLmNvbnRhaW5zKCJ7dXNlcm5hbWV9IikpCiAgICB7CiAgICAgICAgcmV0dXJuIEVycigiTERBUCBkaXJlY3QgYmluZCB0ZW1wbGF0ZSBtdXN0IGNvbnRhaW4ge3VzZXJuYW1lfSIuaW50bygpKTsKICAgIH0KICAgIHZhbGlkYXRlX2NhX3BlbSgmY29uZmlnLmNhX3BlbSk/OwogICAgT2soKCkpCn0KCmZuIHZhbGlkYXRlX2NhX3BlbSh2YWx1ZTogJnN0cikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGN1c3RvbV9jYV9jZXJ0aWZpY2F0ZXModmFsdWUpLm1hcCh8X3wgKCkpCn0KCnB1YihzdXBlcikgZm4gY3VzdG9tX2NhX2NlcnRpZmljYXRlcyh2YWx1ZTogJnN0cikgLT4gUmVzdWx0PFZlYzxDZXJ0aWZpY2F0ZT4sIFN0cmluZz4gewogICAgaWYgdmFsdWUudHJpbSgpLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBPayhWZWM6Om5ldygpKTsKICAgIH0KICAgIGxldCBjZXJ0aWZpY2F0ZXMgPSBzcGxpdF9wZW1fY2VydGlmaWNhdGVzKHZhbHVlKTsKICAgIGlmIGNlcnRpZmljYXRlcy5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gRXJyKCJUaGUgY3VzdG9tIENBIFBFTSBkb2VzIG5vdCBjb250YWluIGEgY2VydGlmaWNhdGUiLmludG8oKSk7CiAgICB9CiAgICBjZXJ0aWZpY2F0ZXMKICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAubWFwKHxwZW18IENlcnRpZmljYXRlOjpmcm9tX3BlbShwZW0uYXNfYnl0ZXMoKSkubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKSkKICAgICAgICAuY29sbGVjdCgpCn0KCnB1YihzdXBlcikgZm4gc3BsaXRfcGVtX2NlcnRpZmljYXRlcyh2YWx1ZTogJnN0cikgLT4gVmVjPFN0cmluZz4gewogICAgY29uc3QgRU5EOiAmc3RyID0gIi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0iOwogICAgdmFsdWUKICAgICAgICAuc3BsaXRfaW5jbHVzaXZlKEVORCkKICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAuZmlsdGVyKHxpdGVtfCBpdGVtLnN0YXJ0c193aXRoKCItLS0tLUJFR0lOIENFUlRJRklDQVRFLS0tLS0iKSAmJiBpdGVtLmVuZHNfd2l0aChFTkQpKQogICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCiAgICAgICAgLmNvbGxlY3QoKQp9CgpwdWIoc3VwZXIpIGZuIG1hc2tfcHJvdmlkZXIobXV0IHByb3ZpZGVyOiBWYWx1ZSkgLT4gVmFsdWUgewogICAgaWYgbGV0IFNvbWUoY29uZmlnKSA9IHByb3ZpZGVyCiAgICAgICAgLmdldF9tdXQoImNvbm5lY3Rpb25fY29uZmlnIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX29iamVjdF9tdXQpCiAgICAgICAgJiYgY29uZmlnCiAgICAgICAgICAgIC5nZXQoInNlcnZpY2VfYmluZF9wYXNzd29yZCIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAuaXNfc29tZV9hbmQofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgIHsKICAgICAgICBjb25maWcuaW5zZXJ0KAogICAgICAgICAgICAic2VydmljZV9iaW5kX3Bhc3N3b3JkIi5pbnRvKCksCiAgICAgICAgICAgIFZhbHVlOjpTdHJpbmcoTUFTS0VEX1NFQ1JFVC5pbnRvKCkpLAogICAgICAgICk7CiAgICB9CiAgICBwcm92aWRlcgp9CgpmbiBwcmVzZXQoa2luZDogJnN0cikgLT4gT3B0aW9uPFByZXNldD4gewogICAgUFJFU0VUUy5pdGVyKCkuY29waWVkKCkuZmluZCh8cHJlc2V0fCBwcmVzZXQua2luZCA9PSBraW5kKQp9CgpmbiBub3JtYWxpemVkX3N0cmluZyh2YWx1ZTogT3B0aW9uPCZWYWx1ZT4pIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIHZhbHVlCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCn0KCmZuIG5vcm1hbGl6ZWRfdmFsdWVfc3RyaW5nKHZhbHVlOiAmVmFsdWUpIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIG5vcm1hbGl6ZWRfc3RyaW5nKFNvbWUodmFsdWUpKQp9CgojW2NmZyh0ZXN0KV0KcHViKHN1cGVyKSBmbiBub3JtYWxpemVfc2VydmVyX2Zvcl90ZXN0KGVudHJ5OiAmc3RyLCB0cmFuc3BvcnQ6ICZzdHIpIC0+IFJlc3VsdDxTdHJpbmcsIFN0cmluZz4gewogICAgbm9ybWFsaXplX3NlcnZlcihlbnRyeSwgdHJhbnNwb3J0KQp9Cg==
+use native_tls::Certificate;
+use serde::{Deserialize, Serialize};
+use serde_json::{Map, Value, json};
+use url::Url;
+
+use crate::{crypto_utils, i18n::Translator, time_utils};
+
+const MASKED_SECRET: &str = "********";
+
+#[derive(Clone, Deserialize, Serialize)]
+pub(super) struct LdapConnectionConfig {
+    pub servers: Vec<String>,
+    pub transport: String,
+    pub bind_mode: String,
+    pub base_dn: String,
+    pub user_filter: String,
+    #[serde(default)]
+    pub service_bind_dn: String,
+    #[serde(default)]
+    pub service_bind_password: String,
+    #[serde(default)]
+    pub direct_bind_template: String,
+    pub subject_attribute: String,
+    pub username_attribute: String,
+    pub display_name_attribute: String,
+    pub email_attribute: String,
+    #[serde(default)]
+    pub ca_pem: String,
+}
+
+#[derive(Clone, Copy)]
+struct Preset {
+    kind: &'static str,
+    label: &'static str,
+    label_key: &'static str,
+    user_filter: &'static str,
+    subject_attribute: &'static str,
+    username_attribute: &'static str,
+    display_name_attribute: &'static str,
+    email_attribute: &'static str,
+}
+
+const PRESETS: [Preset; 3] = [
+    Preset {
+        kind: "openldap",
+        label: "OpenLDAP",
+        label_key: "openldapLabel",
+        user_filter: "(&(objectClass=person)(uid={username}))",
+        subject_attribute: "entryUUID",
+        username_attribute: "uid",
+        display_name_attribute: "cn",
+        email_attribute: "mail",
+    },
+    Preset {
+        kind: "active_directory",
+        label: "Active Directory",
+        label_key: "activeDirectoryLabel",
+        user_filter: "(&(objectCategory=person)(objectClass=user)(|(userPrincipalName={username})(sAMAccountName={username})))",
+        subject_attribute: "objectGUID",
+        username_attribute: "userPrincipalName",
+        display_name_attribute: "displayName",
+        email_attribute: "mail",
+    },
+    Preset {
+        kind: "custom",
+        label: "Custom LDAP",
+        label_key: "customLabel",
+        user_filter: "(uid={username})",
+        subject_attribute: "entryUUID",
+        username_attribute: "uid",
+        display_name_attribute: "cn",
+        email_attribute: "mail",
+    },
+];
+
+pub(super) fn catalog(translator: &Translator) -> Value {
+    Value::Array(
+        PRESETS
+            .iter()
+            .map(|preset| {
+                json!({
+                    "type": preset.kind,
+                    "label": translator.t(&format!("server.ldap.catalog.{}", preset.label_key)),
+                    "defaults": {
+                        "transport": "ldaps",
+                        "bind_mode": "search",
+                        "user_filter": preset.user_filter,
+                        "subject_attribute": preset.subject_attribute,
+                        "username_attribute": preset.username_attribute,
+                        "display_name_attribute": preset.display_name_attribute,
+                        "email_attribute": preset.email_attribute,
+                    }
+                })
+            })
+            .collect(),
+    )
+}
+
+pub(super) fn build_new_provider(input: &Map<String, Value>) -> Result<Value, String> {
+    let provider_type = normalized_string(input.get("type")).unwrap_or_else(|| "custom".into());
+    let preset =
+        preset(&provider_type).ok_or_else(|| "Unsupported LDAP provider type".to_string())?;
+    let enabled = input
+        .get("enabled")
+        .and_then(Value::as_bool)
+        .unwrap_or(true);
+    let config = normalize_connection_config(
+        input
+            .get("connection_config")
+            .and_then(Value::as_object)
+            .cloned()
+            .unwrap_or_default(),
+        preset,
+        !enabled,
+        None,
+    )?;
+    let now = time_utils::now_iso();
+    Ok(json!({
+        "id": format!("ldap_provider_{}", &crypto_utils::sha256_hex_str(&format!("{}:{}", now, uuid::Uuid::new_v4()))[..24]),
+        "type": provider_type,
+        "protocol": "ldap",
+        "name": normalized_string(input.get("name")).unwrap_or_else(|| preset.label.to_string()),
+        "enabled": enabled,
+        "connection_config": config,
+        "created_at": now,
+        "updated_at": now,
+        "last_test_status": "idle",
+    }))
+}
+
+pub(super) fn build_updated_provider(
+    mut provider: Value,
+    input: &Map<String, Value>,
+) -> Result<Value, String> {
+    let object = provider
+        .as_object_mut()
+        .ok_or_else(|| "Stored LDAP provider is invalid".to_string())?;
+    let provider_type = object
+        .get("type")
+        .and_then(Value::as_str)
+        .unwrap_or("custom")
+        .to_string();
+    let preset =
+        preset(&provider_type).ok_or_else(|| "Unsupported LDAP provider type".to_string())?;
+    let enabled = input
+        .get("enabled")
+        .and_then(Value::as_bool)
+        .unwrap_or_else(|| {
+            object
+                .get("enabled")
+                .and_then(Value::as_bool)
+                .unwrap_or(true)
+        });
+    let existing = object
+        .get("connection_config")
+        .and_then(Value::as_object)
+        .cloned()
+        .unwrap_or_default();
+    let mut merged = existing.clone();
+    if let Some(patch) = input.get("connection_config").and_then(Value::as_object) {
+        for (key, value) in patch {
+            let preserve_secret = key == "service_bind_password"
+                && value
+                    .as_str()
+                    .is_some_and(|value| value.trim().is_empty() || value == MASKED_SECRET);
+            if !preserve_secret {
+                merged.insert(key.clone(), value.clone());
+            }
+        }
+    }
+    let config = normalize_connection_config(merged, preset, !enabled, Some(&existing))?;
+    if let Some(name) = normalized_string(input.get("name")) {
+        object.insert("name".into(), Value::String(name));
+    }
+    object.insert("enabled".into(), Value::Bool(enabled));
+    object.insert("connection_config".into(), config);
+    object.insert("updated_at".into(), Value::String(time_utils::now_iso()));
+    Ok(provider)
+}
+
+fn normalize_connection_config(
+    raw: Map<String, Value>,
+    preset: Preset,
+    allow_incomplete: bool,
+    _existing: Option<&Map<String, Value>>,
+) -> Result<Value, String> {
+    let transport = normalized_string(raw.get("transport")).unwrap_or_else(|| "ldaps".into());
+    if !matches!(transport.as_str(), "ldaps" | "starttls") {
+        return Err("LDAP transport must be ldaps or starttls".into());
+    }
+    let bind_mode = normalized_string(raw.get("bind_mode")).unwrap_or_else(|| "search".into());
+    if !matches!(bind_mode.as_str(), "search" | "direct") {
+        return Err("LDAP bind mode must be search or direct".into());
+    }
+    let servers = normalize_servers(raw.get("servers"), &transport)?;
+    let base_dn = normalized_string(raw.get("base_dn")).unwrap_or_default();
+    let user_filter =
+        normalized_string(raw.get("user_filter")).unwrap_or_else(|| preset.user_filter.to_string());
+    if !user_filter.contains("{username}") {
+        return Err("LDAP user filter must contain {username}".into());
+    }
+    let service_bind_dn = normalized_string(raw.get("service_bind_dn")).unwrap_or_default();
+    let service_bind_password = raw
+        .get("service_bind_password")
+        .and_then(Value::as_str)
+        .unwrap_or_default()
+        .to_string();
+    let direct_bind_template =
+        normalized_string(raw.get("direct_bind_template")).unwrap_or_default();
+    if bind_mode == "direct"
+        && !direct_bind_template.is_empty()
+        && !direct_bind_template.contains("{username}")
+    {
+        return Err("LDAP direct bind template must contain {username}".into());
+    }
+    if !allow_incomplete {
+        if servers.is_empty() || base_dn.is_empty() {
+            return Err("LDAP servers and Base DN are required".into());
+        }
+        if bind_mode == "search" && (service_bind_dn.is_empty() || service_bind_password.is_empty())
+        {
+            return Err("LDAP search bind credentials are required".into());
+        }
+        if bind_mode == "direct" && direct_bind_template.is_empty() {
+            return Err("LDAP direct bind template is required".into());
+        }
+    }
+    let ca_pem = raw
+        .get("ca_pem")
+        .and_then(Value::as_str)
+        .unwrap_or_default()
+        .to_string();
+    validate_ca_pem(&ca_pem)?;
+    Ok(json!({
+        "servers": servers,
+        "transport": transport,
+        "bind_mode": bind_mode,
+        "base_dn": base_dn,
+        "user_filter": user_filter,
+        "service_bind_dn": service_bind_dn,
+        "service_bind_password": service_bind_password,
+        "direct_bind_template": direct_bind_template,
+        "subject_attribute": normalized_string(raw.get("subject_attribute")).unwrap_or_else(|| preset.subject_attribute.into()),
+        "username_attribute": normalized_string(raw.get("username_attribute")).unwrap_or_else(|| preset.username_attribute.into()),
+        "display_name_attribute": normalized_string(raw.get("display_name_attribute")).unwrap_or_else(|| preset.display_name_attribute.into()),
+        "email_attribute": normalized_string(raw.get("email_attribute")).unwrap_or_else(|| preset.email_attribute.into()),
+        "ca_pem": ca_pem,
+    }))
+}
+
+fn normalize_servers(value: Option<&Value>, transport: &str) -> Result<Vec<String>, String> {
+    let entries = match value {
+        Some(Value::Array(items)) => items.iter().filter_map(normalized_value_string).collect(),
+        Some(Value::String(value)) => value
+            .lines()
+            .filter_map(|line| normalized_value_string(&Value::String(line.into())))
+            .collect(),
+        _ => Vec::new(),
+    };
+    entries
+        .into_iter()
+        .map(|entry| normalize_server(&entry, transport))
+        .collect()
+}
+
+fn normalize_server(entry: &str, transport: &str) -> Result<String, String> {
+    let scheme = if transport == "ldaps" {
+        "ldaps"
+    } else {
+        "ldap"
+    };
+    let candidate = if entry.contains("://") {
+        entry.to_string()
+    } else {
+        format!("{scheme}://{entry}")
+    };
+    let url = Url::parse(&candidate).map_err(|_| format!("Invalid LDAP server URL: {entry}"))?;
+    if url.scheme() != scheme
+        || url.host_str().is_none()
+        || !url.username().is_empty()
+        || url.password().is_some()
+        || url.query().is_some()
+        || url.fragment().is_some()
+        || !matches!(url.path(), "" | "/")
+    {
+        return Err(format!("Invalid or insecure LDAP server URL: {entry}"));
+    }
+    Ok(url.to_string().trim_end_matches('/').to_string())
+}
+
+pub(super) fn provider_config(provider: &Value) -> Result<LdapConnectionConfig, String> {
+    let config: LdapConnectionConfig = serde_json::from_value(
+        provider
+            .get("connection_config")
+            .cloned()
+            .ok_or_else(|| "LDAP connection config is missing".to_string())?,
+    )
+    .map_err(|error| format!("Invalid LDAP connection config: {error}"))?;
+    validate_runtime_config(&config)?;
+    Ok(config)
+}
+
+pub(super) fn provider_ready(provider: &Value) -> bool {
+    provider_config(provider).is_ok()
+}
+
+fn validate_runtime_config(config: &LdapConnectionConfig) -> Result<(), String> {
+    if !matches!(config.transport.as_str(), "ldaps" | "starttls") {
+        return Err("LDAP transport must be ldaps or starttls".into());
+    }
+    if !matches!(config.bind_mode.as_str(), "search" | "direct") {
+        return Err("LDAP bind mode must be search or direct".into());
+    }
+    if config.servers.is_empty() || config.base_dn.trim().is_empty() {
+        return Err("LDAP servers and Base DN are required".into());
+    }
+    for server in &config.servers {
+        normalize_server(server, &config.transport)?;
+    }
+    if !config.user_filter.contains("{username}") {
+        return Err("LDAP user filter must contain {username}".into());
+    }
+    for (label, attribute) in [
+        ("subject", &config.subject_attribute),
+        ("username", &config.username_attribute),
+        ("display name", &config.display_name_attribute),
+        ("email", &config.email_attribute),
+    ] {
+        if attribute.trim().is_empty() {
+            return Err(format!("LDAP {label} attribute is required"));
+        }
+    }
+    if config.bind_mode == "search"
+        && (config.service_bind_dn.trim().is_empty() || config.service_bind_password.is_empty())
+    {
+        return Err("LDAP search bind credentials are required".into());
+    }
+    if config.bind_mode == "direct"
+        && (config.direct_bind_template.trim().is_empty()
+            || !config.direct_bind_template.contains("{username}"))
+    {
+        return Err("LDAP direct bind template must contain {username}".into());
+    }
+    validate_ca_pem(&config.ca_pem)?;
+    Ok(())
+}
+
+fn validate_ca_pem(value: &str) -> Result<(), String> {
+    custom_ca_certificates(value).map(|_| ())
+}
+
+pub(super) fn custom_ca_certificates(value: &str) -> Result<Vec<Certificate>, String> {
+    if value.trim().is_empty() {
+        return Ok(Vec::new());
+    }
+    let certificates = split_pem_certificates(value);
+    if certificates.is_empty() {
+        return Err("The custom CA PEM does not contain a certificate".into());
+    }
+    certificates
+        .into_iter()
+        .map(|pem| Certificate::from_pem(pem.as_bytes()).map_err(|error| error.to_string()))
+        .collect()
+}
+
+pub(super) fn split_pem_certificates(value: &str) -> Vec<String> {
+    const END: &str = "-----END CERTIFICATE-----";
+    value
+        .split_inclusive(END)
+        .map(str::trim)
+        .filter(|item| item.starts_with("-----BEGIN CERTIFICATE-----") && item.ends_with(END))
+        .map(str::to_string)
+        .collect()
+}
+
+pub(super) fn mask_provider(mut provider: Value) -> Value {
+    if let Some(config) = provider
+        .get_mut("connection_config")
+        .and_then(Value::as_object_mut)
+        && config
+            .get("service_bind_password")
+            .and_then(Value::as_str)
+            .is_some_and(|value| !value.is_empty())
+    {
+        config.insert(
+            "service_bind_password".into(),
+            Value::String(MASKED_SECRET.into()),
+        );
+    }
+    provider
+}
+
+fn preset(kind: &str) -> Option<Preset> {
+    PRESETS.iter().copied().find(|preset| preset.kind == kind)
+}
+
+fn normalized_string(value: Option<&Value>) -> Option<String> {
+    value
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .map(str::to_string)
+}
+
+fn normalized_value_string(value: &Value) -> Option<String> {
+    normalized_string(Some(value))
+}
+
+#[cfg(test)]
+pub(super) fn normalize_server_for_test(entry: &str, transport: &str) -> Result<String, String> {
+    normalize_server(entry, transport)
+}

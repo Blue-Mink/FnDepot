@@ -1,1 +1,383 @@
-dXNlIHN1cGVyOjoqOwp1c2UgY3JhdGU6OmluZnJhOjptYWlsOjp0ZXN0X3N1cHBvcnQ6OnNtdHA7CgpmbiB1cGRhdGUocG9ydDogdTE2KSAtPiBCYWNrdXBFbWFpbFVwZGF0ZSB7CiAgICBCYWNrdXBFbWFpbFVwZGF0ZSB7CiAgICAgICAgY29uZmlnOiBCYWNrdXBFbWFpbENvbmZpZyB7CiAgICAgICAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgICAgICAgIHNtdHA6IFNtdHBDb25maWcgewogICAgICAgICAgICAgICAgaG9zdDogIjEyNy4wLjAuMSIuaW50bygpLAogICAgICAgICAgICAgICAgcG9ydCwKICAgICAgICAgICAgICAgIHNlY3VyaXR5OiAibm9uZSIuaW50bygpLAogICAgICAgICAgICAgICAgYXV0aF9tb2RlOiAibm9uZSIuaW50bygpLAogICAgICAgICAgICAgICAgdGltZW91dF9zZWNvbmRzOiAyLAogICAgICAgICAgICAgICAgLi5EZWZhdWx0OjpkZWZhdWx0KCkKICAgICAgICAgICAgfSwKICAgICAgICAgICAgZnJvbV9hZGRyZXNzOiAiYmFja3VwQGV4YW1wbGUuY29tIi5pbnRvKCksCiAgICAgICAgICAgIHRvX2FkZHJlc3NlczogdmVjIVsib25lQGV4YW1wbGUuY29tIi5pbnRvKCksICJ0d29AZXhhbXBsZS5jb20iLmludG8oKV0sCiAgICAgICAgICAgIC4uRGVmYXVsdDo6ZGVmYXVsdCgpCiAgICAgICAgfSwKICAgICAgICBwYXNzd29yZDogTm9uZSwKICAgICAgICBjbGVhcl9wYXNzd29yZDogZmFsc2UsCiAgICB9Cn0KYXN5bmMgZm4gZW5hYmxlKHN0YXRlOiAmQXBwU3RhdGUsIGVtYWlsOiBPcHRpb248QmFja3VwRW1haWxVcGRhdGU+KSAtPiBWYWx1ZSB7CiAgICBzYXZlX2F1dG9tYXRpY19iYWNrdXBfY29uZmlnKAogICAgICAgIHN0YXRlLAogICAgICAgIFVwZGF0ZUF1dG9tYXRpY0JhY2t1cEJvZHkgewogICAgICAgICAgICBlbmFibGVkOiB0cnVlLAogICAgICAgICAgICBpbnRlcnZhbF9ob3VyczogMjQsCiAgICAgICAgICAgIHJldGVudGlvbl9kYXlzOiA3LAogICAgICAgICAgICBlbWFpbCwKICAgICAgICB9LAogICAgKQogICAgLmF3YWl0CiAgICAudW53cmFwKCkKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gY3JlZGVudGlhbHNfYXJlX3dyaXRlX29ubHlfZXhjbHVkZWRfYW5kX2xlZ2FjeV91cGRhdGVzX2tlZXBfdGhlbSgpIHsKICAgIGxldCAoX2Rpciwgc3RhdGUpID0gc3VwZXI6OnN1cGVyOjp0ZXN0czo6bWFpbnRlbmFuY2VfdGVzdF9zdGF0ZSgpLmF3YWl0OwogICAgbGV0IG11dCBjb25maWcgPSB1cGRhdGUoMjUpOwogICAgY29uZmlnLnBhc3N3b3JkID0gU29tZSgic2VjcmV0LWRvLW5vdC1leHBvcnQiLmludG8oKSk7CiAgICBsZXQgcmVzcG9uc2UgPSBlbmFibGUoJnN0YXRlLCBTb21lKGNvbmZpZykpLmF3YWl0OwogICAgYXNzZXJ0ISgKICAgICAgICByZXNwb25zZVsiY29uZmlnIl1bImVtYWlsIl1bInBhc3N3b3JkX2NvbmZpZ3VyZWQiXQogICAgICAgICAgICAuYXNfYm9vbCgpCiAgICAgICAgICAgIC51bndyYXAoKQogICAgKTsKICAgIGFzc2VydCEoIXJlc3BvbnNlLnRvX3N0cmluZygpLmNvbnRhaW5zKCJzZWNyZXQtZG8tbm90LWV4cG9ydCIpKTsKICAgIGxldCBlbWFpbCA9IGxvYWQoJnN0YXRlKS5hd2FpdC51bndyYXAoKTsKICAgIGFzc2VydF9lcSEocGFzc3dvcmQoJnN0YXRlLCAmZW1haWwpLnVud3JhcCgpLCAic2VjcmV0LWRvLW5vdC1leHBvcnQiKTsKICAgIGFzc2VydCEoCiAgICAgICAgIXNlcmRlX2pzb246OnRvX3N0cmluZygmZW1haWwpCiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuY29udGFpbnMoInNlY3JldC1kby1ub3QtZXhwb3J0IikKICAgICk7CiAgICBsZXQgcGF5bG9hZCA9IGV4cG9ydF9iYWNrdXBfcGF5bG9hZCgmc3RhdGUpLmF3YWl0LnVud3JhcCgpOwogICAgYXNzZXJ0ISghcGF5bG9hZC50b19zdHJpbmcoKS5jb250YWlucyhFTUFJTF9LRVkpKTsKICAgIGVuYWJsZSgmc3RhdGUsIE5vbmUpLmF3YWl0OwogICAgYXNzZXJ0X2VxISgKICAgICAgICBwYXNzd29yZCgmc3RhdGUsICZsb2FkKCZzdGF0ZSkuYXdhaXQudW53cmFwKCkpLnVud3JhcCgpLAogICAgICAgICJzZWNyZXQtZG8tbm90LWV4cG9ydCIKICAgICk7CiAgICBsZXQgbXV0IGNsZWFyID0gdXBkYXRlKDI1KTsKICAgIGNsZWFyLmNsZWFyX3Bhc3N3b3JkID0gdHJ1ZTsKICAgIGVuYWJsZSgmc3RhdGUsIFNvbWUoY2xlYXIpKS5hd2FpdDsKICAgIGFzc2VydCEobG9hZCgmc3RhdGUpLmF3YWl0LnVud3JhcCgpLnNlY3JldF9pZC5pc19ub25lKCkpOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBkZWxpdmVyeV9zZW5kc19vcmlnaW5hbF9hcmNoaXZlX2FuZF9yZWNvcmRzX3N1Y2Nlc3MoKSB7CiAgICBsZXQgKF9kaXIsIHN0YXRlKSA9IHN1cGVyOjpzdXBlcjo6dGVzdHM6Om1haW50ZW5hbmNlX3Rlc3Rfc3RhdGUoKS5hd2FpdDsKICAgIGxldCAocG9ydCwgc2VydmVyKSA9IHNtdHAoIjI1MCByZWNpcGllbnQgT0tcclxuIikuYXdhaXQ7CiAgICBlbmFibGUoJnN0YXRlLCBTb21lKHVwZGF0ZShwb3J0KSkpLmF3YWl0OwogICAgbGV0IGFyY2hpdmUgPSBydW5fYXV0b21hdGljX2JhY2t1cF9vbmNlKCZzdGF0ZSkuYXdhaXQudW53cmFwKCk7CiAgICBsZXQgZmlsZW5hbWUgPSBhcmNoaXZlWyJmaWxlbmFtZSJdLmFzX3N0cigpLnVud3JhcCgpOwogICAgbGV0IGJ5dGVzID0gZnM6OnJlYWQoYXV0b21hdGljX2JhY2t1cF9kaXJlY3RvcnkoJnN0YXRlKS5qb2luKGZpbGVuYW1lKSkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICB3b3JrZXI6OnRpY2soJnN0YXRlLCB0cnVlKS5hd2FpdC51bndyYXAoKTsKICAgIGxldCBjYXB0dXJlZCA9IHNlcnZlci5hd2FpdC51bndyYXAoKTsKICAgIGFzc2VydCEoY2FwdHVyZWQuY29udGFpbnMoZmlsZW5hbWUpKTsKICAgIGFzc2VydCEoY2FwdHVyZWQuY29udGFpbnMoIm9uZUBleGFtcGxlLmNvbSIpICYmIGNhcHR1cmVkLmNvbnRhaW5zKCJ0d29AZXhhbXBsZS5jb20iKSk7CiAgICBsZXQgZW5jb2RlZCA9IFNUQU5EQVJELmVuY29kZSgmYnl0ZXMpOwogICAgYXNzZXJ0IShjYXB0dXJlZC5yZXBsYWNlKCJcclxuIiwgIiIpLmNvbnRhaW5zKCZlbmNvZGVkKSk7CiAgICBsZXQgZW1haWwgPSBsb2FkKCZzdGF0ZSkuYXdhaXQudW53cmFwKCk7CiAgICBhc3NlcnQhKGVtYWlsLmpvYnNbMF0uc3RhdHVzID09IEpvYlN0YXR1czo6U2VudCk7CiAgICBhc3NlcnQhKGVtYWlsLmxhc3Rfc3VjY2Vzc19hdC5pc19zb21lKCkpOwogICAgYXNzZXJ0IShlbWFpbC5sYXN0X2Vycm9yLmlzX25vbmUoKSk7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGltcG9ydF9iYWNrdXBfYXJjaGl2ZV9idWZmZXIoJnN0YXRlLCBieXRlcywgJnRyYW5zbGF0b3IpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgYXNzZXJ0IShsb2FkKCZzdGF0ZSkuYXdhaXQudW53cmFwKCkuam9ic1swXS5zdGF0dXMgPT0gSm9iU3RhdHVzOjpTZW50KTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gdHJhbnNpZW50X2ZhaWx1cmVzX3JldHJ5X3NhbWVfYXJjaGl2ZV9hbmRfcGVybWFuZW50X2ZhaWx1cmVzX3N0b3AoKSB7CiAgICBsZXQgKF9kaXIsIHN0YXRlKSA9IHN1cGVyOjpzdXBlcjo6dGVzdHM6Om1haW50ZW5hbmNlX3Rlc3Rfc3RhdGUoKS5hd2FpdDsKICAgIGxldCAocG9ydCwgc2VydmVyKSA9IHNtdHAoIjQ1MCB0ZW1wb3JhcnkgZmFpbHVyZVxyXG4iKS5hd2FpdDsKICAgIGVuYWJsZSgmc3RhdGUsIFNvbWUodXBkYXRlKHBvcnQpKSkuYXdhaXQ7CiAgICBsZXQgYXJjaGl2ZSA9IHJ1bl9hdXRvbWF0aWNfYmFja3VwX29uY2UoJnN0YXRlKS5hd2FpdC51bndyYXAoKTsKICAgIHdvcmtlcjo6dGljaygmc3RhdGUsIHRydWUpLmF3YWl0LnVud3JhcCgpOwogICAgc2VydmVyLmF3YWl0LnVud3JhcCgpOwogICAgbGV0IG11dCBlbWFpbCA9IGxvYWQoJnN0YXRlKS5hd2FpdC51bndyYXAoKTsKICAgIGFzc2VydCEoZW1haWwuam9ic1swXS5zdGF0dXMgPT0gSm9iU3RhdHVzOjpQZW5kaW5nKTsKICAgIGFzc2VydF9lcSEoZW1haWwuam9ic1swXS5hdHRlbXB0cywgMSk7CiAgICBhc3NlcnQhKGVtYWlsLmpvYnNbMF0ubmV4dF9tcyAtIHRpbWVfdXRpbHM6Om5vd19tcygpID4gNTBfMDAwKTsKICAgIGxldCBpZCA9IGVtYWlsLmpvYnNbMF0uaWQuY2xvbmUoKTsKICAgIGxldCAocG9ydCwgc2VydmVyKSA9IHNtdHAoIjU1MCBpbnZhbGlkIHJlY2lwaWVudFxyXG4iKS5hd2FpdDsKICAgIGVtYWlsLmNvbmZpZy5zbXRwLnBvcnQgPSBwb3J0OwogICAgZW1haWwuam9ic1swXS5uZXh0X21zID0gMDsKICAgIHBlcnNpc3QoJnN0YXRlLCAmZW1haWwpLmF3YWl0LnVud3JhcCgpOwogICAgd29ya2VyOjp0aWNrKCZzdGF0ZSwgZmFsc2UpLmF3YWl0LnVud3JhcCgpOwogICAgc2VydmVyLmF3YWl0LnVud3JhcCgpOwogICAgbGV0IGVtYWlsID0gbG9hZCgmc3RhdGUpLmF3YWl0LnVud3JhcCgpOwogICAgYXNzZXJ0IShlbWFpbC5qb2JzWzBdLnN0YXR1cyA9PSBKb2JTdGF0dXM6OkZhaWxlZCk7CiAgICBhc3NlcnRfZXEhKGVtYWlsLmpvYnNbMF0uaWQsIGlkKTsKICAgIGFzc2VydF9lcSEoZW1haWwuam9ic1swXS5maWxlbmFtZSwgYXJjaGl2ZVsiZmlsZW5hbWUiXSk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGF1dG9tYXRpY19iYWNrdXBfZmlsZXNfcGF5bG9hZCgmc3RhdGUpLmF3YWl0LnVud3JhcCgpWyJmaWxlcyJdCiAgICAgICAgICAgIC5hc19hcnJheSgpCiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAubGVuKCksCiAgICAgICAgMQogICAgKTsKICAgIGFzc2VydCEobG9hZF9hdXRvbWF0aWNfYmFja3VwX3J1bnRpbWUoJnN0YXRlKS5hd2FpdC51bndyYXAoKVsibGFzdF9lcnJvciJdLmlzX251bGwoKSk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHJlY292ZXJlZF9zZW5kaW5nX2pvYl9pc19yZXRyaWVkX2FuZF9jb25maWd1cmF0aW9uX2NoYW5nZXNfY2FuY2VsX3BlbmRpbmcoKSB7CiAgICBsZXQgKF9kaXIsIHN0YXRlKSA9IHN1cGVyOjpzdXBlcjo6dGVzdHM6Om1haW50ZW5hbmNlX3Rlc3Rfc3RhdGUoKS5hd2FpdDsKICAgIGxldCAocG9ydCwgc2VydmVyKSA9IHNtdHAoIjI1MCBPS1xyXG4iKS5hd2FpdDsKICAgIGVuYWJsZSgmc3RhdGUsIFNvbWUodXBkYXRlKHBvcnQpKSkuYXdhaXQ7CiAgICBydW5fYXV0b21hdGljX2JhY2t1cF9vbmNlKCZzdGF0ZSkuYXdhaXQudW53cmFwKCk7CiAgICBsZXQgbXV0IGVtYWlsID0gbG9hZCgmc3RhdGUpLmF3YWl0LnVud3JhcCgpOwogICAgZW1haWwuam9ic1swXS5zdGF0dXMgPSBKb2JTdGF0dXM6OlNlbmRpbmc7CiAgICBlbWFpbC5qb2JzWzBdLmF0dGVtcHRzID0gMTsKICAgIHBlcnNpc3QoJnN0YXRlLCAmZW1haWwpLmF3YWl0LnVud3JhcCgpOwogICAgd29ya2VyOjp0aWNrKCZzdGF0ZSwgdHJ1ZSkuYXdhaXQudW53cmFwKCk7CiAgICBzZXJ2ZXIuYXdhaXQudW53cmFwKCk7CiAgICBhc3NlcnQhKGxvYWQoJnN0YXRlKS5hd2FpdC51bndyYXAoKS5qb2JzWzBdLnN0YXR1cyA9PSBKb2JTdGF0dXM6OlNlbnQpOwogICAgcnVuX2F1dG9tYXRpY19iYWNrdXBfb25jZSgmc3RhdGUpLmF3YWl0LnVud3JhcCgpOwogICAgbGV0IG11dCBjb25maWcgPSB1cGRhdGUocG9ydCk7CiAgICBjb25maWcuY29uZmlnLmZyb21fbmFtZSA9ICJDaGFuZ2VkIi5pbnRvKCk7CiAgICBlbmFibGUoJnN0YXRlLCBTb21lKGNvbmZpZykpLmF3YWl0OwogICAgYXNzZXJ0ISgKICAgICAgICBsb2FkKCZzdGF0ZSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuam9icwogICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgIC5hbGwofGpvYnwgIWpvYi5hY3RpdmUoKSkKICAgICk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIG1pc3NpbmdfZmlsZXNfYW5kX2V4cGlyZWRfam9ic19mYWlsX3dpdGhvdXRfcmVnZW5lcmF0aW5nX2JhY2t1cCgpIHsKICAgIGxldCAoX2Rpciwgc3RhdGUpID0gc3VwZXI6OnN1cGVyOjp0ZXN0czo6bWFpbnRlbmFuY2VfdGVzdF9zdGF0ZSgpLmF3YWl0OwogICAgZW5hYmxlKCZzdGF0ZSwgU29tZSh1cGRhdGUoMjUpKSkuYXdhaXQ7CiAgICBsZXQgYXJjaGl2ZSA9IHJ1bl9hdXRvbWF0aWNfYmFja3VwX29uY2UoJnN0YXRlKS5hd2FpdC51bndyYXAoKTsKICAgIGZzOjpyZW1vdmVfZmlsZShhdXRvbWF0aWNfYmFja3VwX2RpcmVjdG9yeSgmc3RhdGUpLmpvaW4oYXJjaGl2ZVsiZmlsZW5hbWUiXS5hc19zdHIoKS51bndyYXAoKSkpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgd29ya2VyOjp0aWNrKCZzdGF0ZSwgdHJ1ZSkuYXdhaXQudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGxvYWQoJnN0YXRlKS5hd2FpdC51bndyYXAoKS5sYXN0X2Vycm9yLmFzX2RlcmVmKCksCiAgICAgICAgU29tZSgiYmFja3VwX21pc3NpbmciKQogICAgKTsKICAgIHJ1bl9hdXRvbWF0aWNfYmFja3VwX29uY2UoJnN0YXRlKS5hd2FpdC51bndyYXAoKTsKICAgIGxldCBtdXQgZW1haWwgPSBsb2FkKCZzdGF0ZSkuYXdhaXQudW53cmFwKCk7CiAgICBlbWFpbC5qb2JzWzBdLmNyZWF0ZWRfbXMgPSAwOwogICAgcGVyc2lzdCgmc3RhdGUsICZlbWFpbCkuYXdhaXQudW53cmFwKCk7CiAgICBhc3NlcnQhKHBpbm5lZF9maWxlcygmc3RhdGUpLmF3YWl0LnVud3JhcCgpLmlzX2VtcHR5KCkpOwogICAgd29ya2VyOjp0aWNrKCZzdGF0ZSwgZmFsc2UpLmF3YWl0LnVud3JhcCgpOwogICAgYXNzZXJ0IShsb2FkKCZzdGF0ZSkuYXdhaXQudW53cmFwKCkuam9ic1swXS5zdGF0dXMgPT0gSm9iU3RhdHVzOjpGYWlsZWQpOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBvdmVyc2l6ZWRfYXR0YWNobWVudF9zZW5kc19leHBsYW5hdGlvbl9idXRfaXNfbm90X2RlbGl2ZXJ5X3N1Y2Nlc3MoKSB7CiAgICBsZXQgKF9kaXIsIHN0YXRlKSA9IHN1cGVyOjpzdXBlcjo6dGVzdHM6Om1haW50ZW5hbmNlX3Rlc3Rfc3RhdGUoKS5hd2FpdDsKICAgIGxldCAocG9ydCwgc2VydmVyKSA9IHNtdHAoIjI1MCBPS1xyXG4iKS5hd2FpdDsKICAgIGxldCBtdXQgY29uZmlnID0gdXBkYXRlKHBvcnQpOwogICAgY29uZmlnLmNvbmZpZy5hdHRhY2htZW50X2xpbWl0X21pYiA9IDE7CiAgICBlbmFibGUoJnN0YXRlLCBTb21lKGNvbmZpZykpLmF3YWl0OwogICAgbGV0IGFyY2hpdmUgPSBydW5fYXV0b21hdGljX2JhY2t1cF9vbmNlKCZzdGF0ZSkuYXdhaXQudW53cmFwKCk7CiAgICBmczo6d3JpdGUoCiAgICAgICAgYXV0b21hdGljX2JhY2t1cF9kaXJlY3RvcnkoJnN0YXRlKS5qb2luKGFyY2hpdmVbImZpbGVuYW1lIl0uYXNfc3RyKCkudW53cmFwKCkpLAogICAgICAgIHZlYyFbMDsgMTAyNCAqIDEwMjQgKyAxXSwKICAgICkKICAgIC5hd2FpdAogICAgLnVud3JhcCgpOwogICAgd29ya2VyOjp0aWNrKCZzdGF0ZSwgdHJ1ZSkuYXdhaXQudW53cmFwKCk7CiAgICBsZXQgY2FwdHVyZWQgPSBzZXJ2ZXIuYXdhaXQudW53cmFwKCk7CiAgICBhc3NlcnQhKCFjYXB0dXJlZC5jb250YWlucygiQ29udGVudC1EaXNwb3NpdGlvbjogYXR0YWNobWVudCIpKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgbG9hZCgmc3RhdGUpLmF3YWl0LnVud3JhcCgpLmxhc3RfZXJyb3IuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKCJhdHRhY2htZW50X3Rvb19sYXJnZSIpCiAgICApOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBmYWlsZWRfYXRvbWljX2NvbW1pdF9uZWl0aGVyX3B1Ymxpc2hlc19hcmNoaXZlX25vcl9jaGFuZ2VzX3Bhc3N3b3JkKCkgewogICAgbGV0IChfZGlyLCBzdGF0ZSkgPSBzdXBlcjo6c3VwZXI6OnRlc3RzOjptYWludGVuYW5jZV90ZXN0X3N0YXRlKCkuYXdhaXQ7CiAgICBsZXQgbXV0IGNvbmZpZyA9IHVwZGF0ZSgyNSk7CiAgICBjb25maWcucGFzc3dvcmQgPSBTb21lKCJvcmlnaW5hbCIuaW50bygpKTsKICAgIGVuYWJsZSgmc3RhdGUsIFNvbWUoY29uZmlnKSkuYXdhaXQ7CiAgICBsZXQgY29ubmVjdGlvbiA9CiAgICAgICAgdG9raW9fcnVzcWxpdGU6OnJ1c3FsaXRlOjpDb25uZWN0aW9uOjpvcGVuKCZzdGF0ZS5zZXR0aW5ncy5zcWxpdGVfcGF0aCkudW53cmFwKCk7CiAgICBjb25uZWN0aW9uLmV4ZWN1dGVfYmF0Y2goIkNSRUFURSBUUklHR0VSIHJlamVjdF9iYWNrdXBfbWFpbCBCRUZPUkUgSU5TRVJUIE9OIGt2X3N0cmluZ3MgV0hFTiBORVcua2V5ID0gJ2ZuX2tub2NrOmNvbmZpZzpiYWNrdXA6YXV0b21hdGljOmVtYWlsJyBCRUdJTiBTRUxFQ1QgUkFJU0UoQUJPUlQsICd0ZXN0IHBlcnNpc3RlbmNlIGZhaWx1cmUnKTsgRU5EOyIpLnVud3JhcCgpOwogICAgYXNzZXJ0IShydW5fYXV0b21hdGljX2JhY2t1cF9vbmNlKCZzdGF0ZSkuYXdhaXQuaXNfZXJyKCkpOwogICAgYXNzZXJ0IShsb2FkKCZzdGF0ZSkuYXdhaXQudW53cmFwKCkuam9icy5pc19lbXB0eSgpKTsKICAgIGFzc2VydCEoCiAgICAgICAgYXV0b21hdGljX2JhY2t1cF9maWxlc19wYXlsb2FkKCZzdGF0ZSkuYXdhaXQudW53cmFwKClbImZpbGVzIl0KICAgICAgICAgICAgLmFzX2FycmF5KCkKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pc19lbXB0eSgpCiAgICApOwogICAgbGV0IG11dCBjb25maWcgPSB1cGRhdGUoMjUpOwogICAgY29uZmlnLnBhc3N3b3JkID0gU29tZSgicmVwbGFjZW1lbnQiLmludG8oKSk7CiAgICBsZXQgcmVzdWx0ID0gc2F2ZV9hdXRvbWF0aWNfYmFja3VwX2NvbmZpZygKICAgICAgICAmc3RhdGUsCiAgICAgICAgVXBkYXRlQXV0b21hdGljQmFja3VwQm9keSB7CiAgICAgICAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgICAgICAgIGludGVydmFsX2hvdXJzOiAyNCwKICAgICAgICAgICAgcmV0ZW50aW9uX2RheXM6IDcsCiAgICAgICAgICAgIGVtYWlsOiBTb21lKGNvbmZpZyksCiAgICAgICAgfSwKICAgICkKICAgIC5hd2FpdDsKICAgIGFzc2VydCEocmVzdWx0LmlzX2VycigpKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgcGFzc3dvcmQoJnN0YXRlLCAmbG9hZCgmc3RhdGUpLmF3YWl0LnVud3JhcCgpKS51bndyYXAoKSwKICAgICAgICAib3JpZ2luYWwiCiAgICApOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBwZW5kaW5nX2FyY2hpdmVzX2FyZV9waW5uZWRfdW50aWxfY2FuY2VsbGVkKCkgewogICAgbGV0IChfZGlyLCBzdGF0ZSkgPSBzdXBlcjo6c3VwZXI6OnRlc3RzOjptYWludGVuYW5jZV90ZXN0X3N0YXRlKCkuYXdhaXQ7CiAgICBlbmFibGUoJnN0YXRlLCBTb21lKHVwZGF0ZSgyNSkpKS5hd2FpdDsKICAgIGxldCBhcmNoaXZlID0gcnVuX2F1dG9tYXRpY19iYWNrdXBfb25jZSgmc3RhdGUpLmF3YWl0LnVud3JhcCgpOwogICAgbGV0IHBhdGggPSBhdXRvbWF0aWNfYmFja3VwX2RpcmVjdG9yeSgmc3RhdGUpLmpvaW4oYXJjaGl2ZVsiZmlsZW5hbWUiXS5hc19zdHIoKS51bndyYXAoKSk7CiAgICBsZXQgZmlsZSA9IHN0ZDo6ZnM6OkZpbGU6Om9wdGlvbnMoKS53cml0ZSh0cnVlKS5vcGVuKCZwYXRoKS51bndyYXAoKTsKICAgIGZpbGUuc2V0X3RpbWVzKHN0ZDo6ZnM6OkZpbGVUaW1lczo6bmV3KCkuc2V0X21vZGlmaWVkKFN5c3RlbVRpbWU6OlVOSVhfRVBPQ0gpKQogICAgICAgIC51bndyYXAoKTsKICAgIHBydW5lX2F1dG9tYXRpY19iYWNrdXBfZGlyZWN0b3J5KCZzdGF0ZSwgMSkuYXdhaXQudW53cmFwKCk7CiAgICBhc3NlcnQhKHBhdGguZXhpc3RzKCkpOwogICAgc2F2ZV9hdXRvbWF0aWNfYmFja3VwX2NvbmZpZygKICAgICAgICAmc3RhdGUsCiAgICAgICAgVXBkYXRlQXV0b21hdGljQmFja3VwQm9keSB7CiAgICAgICAgICAgIGVuYWJsZWQ6IGZhbHNlLAogICAgICAgICAgICBpbnRlcnZhbF9ob3VyczogMjQsCiAgICAgICAgICAgIHJldGVudGlvbl9kYXlzOiA3LAogICAgICAgICAgICBlbWFpbDogTm9uZSwKICAgICAgICB9LAogICAgKQogICAgLmF3YWl0CiAgICAudW53cmFwKCk7CiAgICBwcnVuZV9hdXRvbWF0aWNfYmFja3VwX2RpcmVjdG9yeSgmc3RhdGUsIDEpLmF3YWl0LnVud3JhcCgpOwogICAgYXNzZXJ0ISghcGF0aC5leGlzdHMoKSk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHRlc3RfZW1haWxfdXNlc19kcmFmdF93aXRob3V0X3NhdmluZ19vcl9leHBvcnRpbmdfYmFja3VwKCkgewogICAgbGV0IChfZGlyLCBzdGF0ZSkgPSBzdXBlcjo6c3VwZXI6OnRlc3RzOjptYWludGVuYW5jZV90ZXN0X3N0YXRlKCkuYXdhaXQ7CiAgICBsZXQgKHBvcnQsIHNlcnZlcikgPSBzbXRwKCIyNTAgT0tcclxuIikuYXdhaXQ7CiAgICB0ZXN0X2VtYWlsKCZzdGF0ZSwgdXBkYXRlKHBvcnQpKS5hd2FpdC51bndyYXAoKTsKICAgIGxldCBjYXB0dXJlZCA9IHNlcnZlci5hd2FpdC51bndyYXAoKTsKICAgIGFzc2VydCEoY2FwdHVyZWQuY29udGFpbnMoImJhY2t1cC1lbWFpbC10ZXN0LnR4dCIpKTsKICAgIGFzc2VydCEoIWxvYWQoJnN0YXRlKS5hd2FpdC51bndyYXAoKS5jb25maWcuZW5hYmxlZCk7CiAgICBhc3NlcnQhKGxvYWQoJnN0YXRlKS5hd2FpdC51bndyYXAoKS5qb2JzLmlzX2VtcHR5KCkpOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiByZXRyeV9idWRnZXRfaXNfZm91cl9hdHRlbXB0c19hbmRfa2VlcHNfdGhlX21lc3NhZ2VfaWQoKSB7CiAgICBsZXQgKF9kaXIsIHN0YXRlKSA9IHN1cGVyOjpzdXBlcjo6dGVzdHM6Om1haW50ZW5hbmNlX3Rlc3Rfc3RhdGUoKS5hd2FpdDsKICAgIGVuYWJsZSgmc3RhdGUsIFNvbWUodXBkYXRlKDI1KSkpLmF3YWl0OwogICAgcnVuX2F1dG9tYXRpY19iYWNrdXBfb25jZSgmc3RhdGUpLmF3YWl0LnVud3JhcCgpOwogICAgbGV0IG9yaWdpbmFsX2lkID0gbG9hZCgmc3RhdGUpLmF3YWl0LnVud3JhcCgpLmpvYnNbMF0uaWQuY2xvbmUoKTsKICAgIGZvciBhdHRlbXB0IGluIDEuLj00IHsKICAgICAgICBsZXQgKHBvcnQsIHNlcnZlcikgPSBzbXRwKCI0NTAgdGVtcG9yYXJ5IGZhaWx1cmVcclxuIikuYXdhaXQ7CiAgICAgICAgbGV0IG11dCBlbWFpbCA9IGxvYWQoJnN0YXRlKS5hd2FpdC51bndyYXAoKTsKICAgICAgICBlbWFpbC5jb25maWcuc210cC5wb3J0ID0gcG9ydDsKICAgICAgICBlbWFpbC5qb2JzWzBdLm5leHRfbXMgPSAwOwogICAgICAgIHBlcnNpc3QoJnN0YXRlLCAmZW1haWwpLmF3YWl0LnVud3JhcCgpOwogICAgICAgIHdvcmtlcjo6dGljaygmc3RhdGUsIGZhbHNlKS5hd2FpdC51bndyYXAoKTsKICAgICAgICBzZXJ2ZXIuYXdhaXQudW53cmFwKCk7CiAgICAgICAgbGV0IGVtYWlsID0gbG9hZCgmc3RhdGUpLmF3YWl0LnVud3JhcCgpOwogICAgICAgIGFzc2VydF9lcSEoZW1haWwuam9ic1swXS5hdHRlbXB0cywgYXR0ZW1wdCk7CiAgICAgICAgYXNzZXJ0X2VxIShlbWFpbC5qb2JzWzBdLmlkLCBvcmlnaW5hbF9pZCk7CiAgICAgICAgaWYgYXR0ZW1wdCA8IDQgewogICAgICAgICAgICBhc3NlcnQhKGVtYWlsLmpvYnNbMF0uc3RhdHVzID09IEpvYlN0YXR1czo6UGVuZGluZyk7CiAgICAgICAgICAgIGxldCBkZWxheSA9IFs2MF8wMDAsIDMwMF8wMDAsIDFfODAwXzAwMF1bdXNpemU6OmZyb20oYXR0ZW1wdCAtIDEpXTsKICAgICAgICAgICAgYXNzZXJ0IShlbWFpbC5qb2JzWzBdLm5leHRfbXMgLSB0aW1lX3V0aWxzOjpub3dfbXMoKSA+IGRlbGF5IC0gNV8wMDApOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGFzc2VydCEoZW1haWwuam9ic1swXS5zdGF0dXMgPT0gSm9iU3RhdHVzOjpGYWlsZWQpOwogICAgICAgIH0KICAgIH0KfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gc210cF90aW1lb3V0X2RvZXNfbm90X2hvbGRfdGhlX21haW50ZW5hbmNlX2xvY2soKSB7CiAgICBsZXQgKF9kaXIsIHN0YXRlKSA9IHN1cGVyOjpzdXBlcjo6dGVzdHM6Om1haW50ZW5hbmNlX3Rlc3Rfc3RhdGUoKS5hd2FpdDsKICAgIGxldCBsaXN0ZW5lciA9IHRva2lvOjpuZXQ6OlRjcExpc3RlbmVyOjpiaW5kKCIxMjcuMC4wLjE6MCIpLmF3YWl0LnVud3JhcCgpOwogICAgbGV0IHBvcnQgPSBsaXN0ZW5lci5sb2NhbF9hZGRyKCkudW53cmFwKCkucG9ydCgpOwogICAgbGV0IG11dCBjb25maWcgPSB1cGRhdGUocG9ydCk7CiAgICBjb25maWcuY29uZmlnLnNtdHAudGltZW91dF9zZWNvbmRzID0gMTsKICAgIGVuYWJsZSgmc3RhdGUsIFNvbWUoY29uZmlnKSkuYXdhaXQ7CiAgICBydW5fYXV0b21hdGljX2JhY2t1cF9vbmNlKCZzdGF0ZSkuYXdhaXQudW53cmFwKCk7CiAgICBsZXQgd29ya2VyX3N0YXRlID0gc3RhdGUuY2xvbmUoKTsKICAgIGxldCB0YXNrID0gdG9raW86OnNwYXduKGFzeW5jIG1vdmUgeyB3b3JrZXI6OnRpY2soJndvcmtlcl9zdGF0ZSwgdHJ1ZSkuYXdhaXQgfSk7CiAgICBsZXQgKF9zdHJlYW0sIF8pID0gdG9raW86OnRpbWU6OnRpbWVvdXQoc3RkOjp0aW1lOjpEdXJhdGlvbjo6ZnJvbV9zZWNzKDUpLCBsaXN0ZW5lci5hY2NlcHQoKSkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCkKICAgICAgICAudW53cmFwKCk7CiAgICBsZXQgZ3VhcmQgPSB0b2tpbzo6dGltZTo6dGltZW91dCgKICAgICAgICBzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX21pbGxpcygxMDApLAogICAgICAgIHN0YXRlLm1haW50ZW5hbmNlLmF1dG9tYXRpY19iYWNrdXBfbG9jay5sb2NrKCksCiAgICApCiAgICAuYXdhaXQKICAgIC5leHBlY3QoIlNNVFAgbXVzdCBub3QgaG9sZCB0aGUgbWFpbnRlbmFuY2UgbG9jayIpOwogICAgZHJvcChndWFyZCk7CiAgICBzYXZlX2F1dG9tYXRpY19iYWNrdXBfY29uZmlnKAogICAgICAgICZzdGF0ZSwKICAgICAgICBVcGRhdGVBdXRvbWF0aWNCYWNrdXBCb2R5IHsKICAgICAgICAgICAgZW5hYmxlZDogZmFsc2UsCiAgICAgICAgICAgIGludGVydmFsX2hvdXJzOiAyNCwKICAgICAgICAgICAgcmV0ZW50aW9uX2RheXM6IDcsCiAgICAgICAgICAgIGVtYWlsOiBOb25lLAogICAgICAgIH0sCiAgICApCiAgICAuYXdhaXQKICAgIC51bndyYXAoKTsKICAgIHRhc2suYXdhaXQudW53cmFwKCkudW53cmFwKCk7CiAgICBsZXQgZW1haWwgPSBsb2FkKCZzdGF0ZSkuYXdhaXQudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKGVtYWlsLmxhc3RfZXJyb3IuYXNfZGVyZWYoKSwgU29tZSgic210cF90aW1lb3V0IikpOwogICAgYXNzZXJ0ISghZW1haWwuam9ic1swXS5hY3RpdmUoKSk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIGVtcHR5X3Bhc3N3b3JkX3VwZGF0ZV9wcmVzZXJ2ZXNfcGVuZGluZ19qb2JzX2FuZF9yZXZpc2lvbigpIHsKICAgIGxldCAoX2Rpciwgc3RhdGUpID0gc3VwZXI6OnN1cGVyOjp0ZXN0czo6bWFpbnRlbmFuY2VfdGVzdF9zdGF0ZSgpLmF3YWl0OwogICAgZW5hYmxlKCZzdGF0ZSwgU29tZSh1cGRhdGUoMjUpKSkuYXdhaXQ7CiAgICBydW5fYXV0b21hdGljX2JhY2t1cF9vbmNlKCZzdGF0ZSkuYXdhaXQudW53cmFwKCk7CiAgICBsZXQgYmVmb3JlID0gbG9hZCgmc3RhdGUpLmF3YWl0LnVud3JhcCgpOwogICAgbGV0IG11dCBjb25maWcgPSB1cGRhdGUoMjUpOwogICAgY29uZmlnLnBhc3N3b3JkID0gU29tZShTdHJpbmc6Om5ldygpKTsKICAgIGVuYWJsZSgmc3RhdGUsIFNvbWUoY29uZmlnKSkuYXdhaXQ7CiAgICBsZXQgYWZ0ZXIgPSBsb2FkKCZzdGF0ZSkuYXdhaXQudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKGJlZm9yZS5yZXZpc2lvbiwgYWZ0ZXIucmV2aXNpb24pOwogICAgYXNzZXJ0IShhZnRlci5qb2JzWzBdLnN0YXR1cyA9PSBKb2JTdGF0dXM6OlBlbmRpbmcpOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBrbm93bl9kZWxpdmVyeV9yZXN1bHRfc3Vydml2ZXNfc3RvcmFnZV9mYWlsdXJlc193aXRob3V0X3Jlc2VuZGluZygpIHsKICAgIGxldCAoX2Rpciwgc3RhdGUpID0gc3VwZXI6OnN1cGVyOjp0ZXN0czo6bWFpbnRlbmFuY2VfdGVzdF9zdGF0ZSgpLmF3YWl0OwogICAgZW5hYmxlKCZzdGF0ZSwgU29tZSh1cGRhdGUoMjUpKSkuYXdhaXQ7CiAgICBydW5fYXV0b21hdGljX2JhY2t1cF9vbmNlKCZzdGF0ZSkuYXdhaXQudW53cmFwKCk7CiAgICBsZXQgbXV0IGVtYWlsID0gbG9hZCgmc3RhdGUpLmF3YWl0LnVud3JhcCgpOwogICAgZW1haWwuam9ic1swXS5zdGF0dXMgPSBKb2JTdGF0dXM6OlNlbmRpbmc7CiAgICBlbWFpbC5qb2JzWzBdLmF0dGVtcHRzID0gMTsKICAgIHBlcnNpc3QoJnN0YXRlLCAmZW1haWwpLmF3YWl0LnVud3JhcCgpOwogICAgbGV0IG11dCB3b3JrZXIgPSB3b3JrZXI6OkRlbGl2ZXJ5V29ya2VyOjpuZXcoZmFsc2UpOwogICAgd29ya2VyLmNvbXBsZXRpb24gPSBTb21lKHdvcmtlcjo6Q29tcGxldGlvbiB7CiAgICAgICAgam9iOiBlbWFpbC5qb2JzWzBdLmNsb25lKCksCiAgICAgICAgcmVzdWx0OiBPaygoKSksCiAgICB9KTsKICAgIGxldCBjb25uZWN0aW9uID0KICAgICAgICB0b2tpb19ydXNxbGl0ZTo6cnVzcWxpdGU6OkNvbm5lY3Rpb246Om9wZW4oJnN0YXRlLnNldHRpbmdzLnNxbGl0ZV9wYXRoKS51bndyYXAoKTsKICAgIGNvbm5lY3Rpb24uZXhlY3V0ZV9iYXRjaCgiQ1JFQVRFIFRSSUdHRVIgZmFpbF9kZWxpdmVyeV9yZXN1bHQgQkVGT1JFIElOU0VSVCBPTiBrdl9zdHJpbmdzIFdIRU4gTkVXLmtleSA9ICdmbl9rbm9jazpjb25maWc6YmFja3VwOmF1dG9tYXRpYzplbWFpbCcgQkVHSU4gU0VMRUNUIFJBSVNFKEFCT1JULCAnZmFpbGVkIGJvb2trZWVwaW5nJyk7IEVORDsiKS51bndyYXAoKTsKICAgIGFzc2VydCEod29ya2VyLnRpY2soJnN0YXRlKS5hd2FpdC5pc19lcnIoKSk7CiAgICBhc3NlcnQhKHdvcmtlci50aWNrKCZzdGF0ZSkuYXdhaXQuaXNfZXJyKCkpOwogICAgYXNzZXJ0ISh3b3JrZXIuY29tcGxldGlvbi5pc19zb21lKCkpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlX2JhdGNoKCJEUk9QIFRSSUdHRVIgZmFpbF9kZWxpdmVyeV9yZXN1bHQ7IikKICAgICAgICAudW53cmFwKCk7CiAgICB3b3JrZXIudGljaygmc3RhdGUpLmF3YWl0LnVud3JhcCgpOwogICAgbGV0IGFmdGVyID0gbG9hZCgmc3RhdGUpLmF3YWl0LnVud3JhcCgpOwogICAgYXNzZXJ0IShhZnRlci5qb2JzWzBdLnN0YXR1cyA9PSBKb2JTdGF0dXM6OlNlbnQpOwogICAgYXNzZXJ0X2VxIShhZnRlci5qb2JzWzBdLmF0dGVtcHRzLCAxKTsKICAgIGFzc2VydCEod29ya2VyLmNvbXBsZXRpb24uaXNfbm9uZSgpKTsKfQo=
+use super::*;
+use crate::infra::mail::test_support::smtp;
+
+fn update(port: u16) -> BackupEmailUpdate {
+    BackupEmailUpdate {
+        config: BackupEmailConfig {
+            enabled: true,
+            smtp: SmtpConfig {
+                host: "127.0.0.1".into(),
+                port,
+                security: "none".into(),
+                auth_mode: "none".into(),
+                timeout_seconds: 2,
+                ..Default::default()
+            },
+            from_address: "backup@example.com".into(),
+            to_addresses: vec!["one@example.com".into(), "two@example.com".into()],
+            ..Default::default()
+        },
+        password: None,
+        clear_password: false,
+    }
+}
+async fn enable(state: &AppState, email: Option<BackupEmailUpdate>) -> Value {
+    save_automatic_backup_config(
+        state,
+        UpdateAutomaticBackupBody {
+            enabled: true,
+            interval_hours: 24,
+            retention_days: 7,
+            email,
+        },
+    )
+    .await
+    .unwrap()
+}
+
+#[tokio::test]
+async fn credentials_are_write_only_excluded_and_legacy_updates_keep_them() {
+    let (_dir, state) = super::super::tests::maintenance_test_state().await;
+    let mut config = update(25);
+    config.password = Some("secret-do-not-export".into());
+    let response = enable(&state, Some(config)).await;
+    assert!(
+        response["config"]["email"]["password_configured"]
+            .as_bool()
+            .unwrap()
+    );
+    assert!(!response.to_string().contains("secret-do-not-export"));
+    let email = load(&state).await.unwrap();
+    assert_eq!(password(&state, &email).unwrap(), "secret-do-not-export");
+    assert!(
+        !serde_json::to_string(&email)
+            .unwrap()
+            .contains("secret-do-not-export")
+    );
+    let payload = export_backup_payload(&state).await.unwrap();
+    assert!(!payload.to_string().contains(EMAIL_KEY));
+    enable(&state, None).await;
+    assert_eq!(
+        password(&state, &load(&state).await.unwrap()).unwrap(),
+        "secret-do-not-export"
+    );
+    let mut clear = update(25);
+    clear.clear_password = true;
+    enable(&state, Some(clear)).await;
+    assert!(load(&state).await.unwrap().secret_id.is_none());
+}
+
+#[tokio::test]
+async fn delivery_sends_original_archive_and_records_success() {
+    let (_dir, state) = super::super::tests::maintenance_test_state().await;
+    let (port, server) = smtp("250 recipient OK\r\n").await;
+    enable(&state, Some(update(port))).await;
+    let archive = run_automatic_backup_once(&state).await.unwrap();
+    let filename = archive["filename"].as_str().unwrap();
+    let bytes = fs::read(automatic_backup_directory(&state).join(filename))
+        .await
+        .unwrap();
+    worker::tick(&state, true).await.unwrap();
+    let captured = server.await.unwrap();
+    assert!(captured.contains(filename));
+    assert!(captured.contains("one@example.com") && captured.contains("two@example.com"));
+    let encoded = STANDARD.encode(&bytes);
+    assert!(captured.replace("\r\n", "").contains(&encoded));
+    let email = load(&state).await.unwrap();
+    assert!(email.jobs[0].status == JobStatus::Sent);
+    assert!(email.last_success_at.is_some());
+    assert!(email.last_error.is_none());
+    let translator = Translator::from_state(&state).await;
+    import_backup_archive_buffer(&state, bytes, &translator)
+        .await
+        .unwrap();
+    assert!(load(&state).await.unwrap().jobs[0].status == JobStatus::Sent);
+}
+
+#[tokio::test]
+async fn transient_failures_retry_same_archive_and_permanent_failures_stop() {
+    let (_dir, state) = super::super::tests::maintenance_test_state().await;
+    let (port, server) = smtp("450 temporary failure\r\n").await;
+    enable(&state, Some(update(port))).await;
+    let archive = run_automatic_backup_once(&state).await.unwrap();
+    worker::tick(&state, true).await.unwrap();
+    server.await.unwrap();
+    let mut email = load(&state).await.unwrap();
+    assert!(email.jobs[0].status == JobStatus::Pending);
+    assert_eq!(email.jobs[0].attempts, 1);
+    assert!(email.jobs[0].next_ms - time_utils::now_ms() > 50_000);
+    let id = email.jobs[0].id.clone();
+    let (port, server) = smtp("550 invalid recipient\r\n").await;
+    email.config.smtp.port = port;
+    email.jobs[0].next_ms = 0;
+    persist(&state, &email).await.unwrap();
+    worker::tick(&state, false).await.unwrap();
+    server.await.unwrap();
+    let email = load(&state).await.unwrap();
+    assert!(email.jobs[0].status == JobStatus::Failed);
+    assert_eq!(email.jobs[0].id, id);
+    assert_eq!(email.jobs[0].filename, archive["filename"]);
+    assert_eq!(
+        automatic_backup_files_payload(&state).await.unwrap()["files"]
+            .as_array()
+            .unwrap()
+            .len(),
+        1
+    );
+    assert!(load_automatic_backup_runtime(&state).await.unwrap()["last_error"].is_null());
+}
+
+#[tokio::test]
+async fn recovered_sending_job_is_retried_and_configuration_changes_cancel_pending() {
+    let (_dir, state) = super::super::tests::maintenance_test_state().await;
+    let (port, server) = smtp("250 OK\r\n").await;
+    enable(&state, Some(update(port))).await;
+    run_automatic_backup_once(&state).await.unwrap();
+    let mut email = load(&state).await.unwrap();
+    email.jobs[0].status = JobStatus::Sending;
+    email.jobs[0].attempts = 1;
+    persist(&state, &email).await.unwrap();
+    worker::tick(&state, true).await.unwrap();
+    server.await.unwrap();
+    assert!(load(&state).await.unwrap().jobs[0].status == JobStatus::Sent);
+    run_automatic_backup_once(&state).await.unwrap();
+    let mut config = update(port);
+    config.config.from_name = "Changed".into();
+    enable(&state, Some(config)).await;
+    assert!(
+        load(&state)
+            .await
+            .unwrap()
+            .jobs
+            .iter()
+            .all(|job| !job.active())
+    );
+}
+
+#[tokio::test]
+async fn missing_files_and_expired_jobs_fail_without_regenerating_backup() {
+    let (_dir, state) = super::super::tests::maintenance_test_state().await;
+    enable(&state, Some(update(25))).await;
+    let archive = run_automatic_backup_once(&state).await.unwrap();
+    fs::remove_file(automatic_backup_directory(&state).join(archive["filename"].as_str().unwrap()))
+        .await
+        .unwrap();
+    worker::tick(&state, true).await.unwrap();
+    assert_eq!(
+        load(&state).await.unwrap().last_error.as_deref(),
+        Some("backup_missing")
+    );
+    run_automatic_backup_once(&state).await.unwrap();
+    let mut email = load(&state).await.unwrap();
+    email.jobs[0].created_ms = 0;
+    persist(&state, &email).await.unwrap();
+    assert!(pinned_files(&state).await.unwrap().is_empty());
+    worker::tick(&state, false).await.unwrap();
+    assert!(load(&state).await.unwrap().jobs[0].status == JobStatus::Failed);
+}
+
+#[tokio::test]
+async fn oversized_attachment_sends_explanation_but_is_not_delivery_success() {
+    let (_dir, state) = super::super::tests::maintenance_test_state().await;
+    let (port, server) = smtp("250 OK\r\n").await;
+    let mut config = update(port);
+    config.config.attachment_limit_mib = 1;
+    enable(&state, Some(config)).await;
+    let archive = run_automatic_backup_once(&state).await.unwrap();
+    fs::write(
+        automatic_backup_directory(&state).join(archive["filename"].as_str().unwrap()),
+        vec![0; 1024 * 1024 + 1],
+    )
+    .await
+    .unwrap();
+    worker::tick(&state, true).await.unwrap();
+    let captured = server.await.unwrap();
+    assert!(!captured.contains("Content-Disposition: attachment"));
+    assert_eq!(
+        load(&state).await.unwrap().last_error.as_deref(),
+        Some("attachment_too_large")
+    );
+}
+
+#[tokio::test]
+async fn failed_atomic_commit_neither_publishes_archive_nor_changes_password() {
+    let (_dir, state) = super::super::tests::maintenance_test_state().await;
+    let mut config = update(25);
+    config.password = Some("original".into());
+    enable(&state, Some(config)).await;
+    let connection =
+        tokio_rusqlite::rusqlite::Connection::open(&state.settings.sqlite_path).unwrap();
+    connection.execute_batch("CREATE TRIGGER reject_backup_mail BEFORE INSERT ON kv_strings WHEN NEW.key = 'fn_knock:config:backup:automatic:email' BEGIN SELECT RAISE(ABORT, 'test persistence failure'); END;").unwrap();
+    assert!(run_automatic_backup_once(&state).await.is_err());
+    assert!(load(&state).await.unwrap().jobs.is_empty());
+    assert!(
+        automatic_backup_files_payload(&state).await.unwrap()["files"]
+            .as_array()
+            .unwrap()
+            .is_empty()
+    );
+    let mut config = update(25);
+    config.password = Some("replacement".into());
+    let result = save_automatic_backup_config(
+        &state,
+        UpdateAutomaticBackupBody {
+            enabled: true,
+            interval_hours: 24,
+            retention_days: 7,
+            email: Some(config),
+        },
+    )
+    .await;
+    assert!(result.is_err());
+    assert_eq!(
+        password(&state, &load(&state).await.unwrap()).unwrap(),
+        "original"
+    );
+}
+
+#[tokio::test]
+async fn pending_archives_are_pinned_until_cancelled() {
+    let (_dir, state) = super::super::tests::maintenance_test_state().await;
+    enable(&state, Some(update(25))).await;
+    let archive = run_automatic_backup_once(&state).await.unwrap();
+    let path = automatic_backup_directory(&state).join(archive["filename"].as_str().unwrap());
+    let file = std::fs::File::options().write(true).open(&path).unwrap();
+    file.set_times(std::fs::FileTimes::new().set_modified(SystemTime::UNIX_EPOCH))
+        .unwrap();
+    prune_automatic_backup_directory(&state, 1).await.unwrap();
+    assert!(path.exists());
+    save_automatic_backup_config(
+        &state,
+        UpdateAutomaticBackupBody {
+            enabled: false,
+            interval_hours: 24,
+            retention_days: 7,
+            email: None,
+        },
+    )
+    .await
+    .unwrap();
+    prune_automatic_backup_directory(&state, 1).await.unwrap();
+    assert!(!path.exists());
+}
+
+#[tokio::test]
+async fn test_email_uses_draft_without_saving_or_exporting_backup() {
+    let (_dir, state) = super::super::tests::maintenance_test_state().await;
+    let (port, server) = smtp("250 OK\r\n").await;
+    test_email(&state, update(port)).await.unwrap();
+    let captured = server.await.unwrap();
+    assert!(captured.contains("backup-email-test.txt"));
+    assert!(!load(&state).await.unwrap().config.enabled);
+    assert!(load(&state).await.unwrap().jobs.is_empty());
+}
+
+#[tokio::test]
+async fn retry_budget_is_four_attempts_and_keeps_the_message_id() {
+    let (_dir, state) = super::super::tests::maintenance_test_state().await;
+    enable(&state, Some(update(25))).await;
+    run_automatic_backup_once(&state).await.unwrap();
+    let original_id = load(&state).await.unwrap().jobs[0].id.clone();
+    for attempt in 1..=4 {
+        let (port, server) = smtp("450 temporary failure\r\n").await;
+        let mut email = load(&state).await.unwrap();
+        email.config.smtp.port = port;
+        email.jobs[0].next_ms = 0;
+        persist(&state, &email).await.unwrap();
+        worker::tick(&state, false).await.unwrap();
+        server.await.unwrap();
+        let email = load(&state).await.unwrap();
+        assert_eq!(email.jobs[0].attempts, attempt);
+        assert_eq!(email.jobs[0].id, original_id);
+        if attempt < 4 {
+            assert!(email.jobs[0].status == JobStatus::Pending);
+            let delay = [60_000, 300_000, 1_800_000][usize::from(attempt - 1)];
+            assert!(email.jobs[0].next_ms - time_utils::now_ms() > delay - 5_000);
+        } else {
+            assert!(email.jobs[0].status == JobStatus::Failed);
+        }
+    }
+}
+
+#[tokio::test]
+async fn smtp_timeout_does_not_hold_the_maintenance_lock() {
+    let (_dir, state) = super::super::tests::maintenance_test_state().await;
+    let listener = tokio::net::TcpListener::bind("127.0.0.1:0").await.unwrap();
+    let port = listener.local_addr().unwrap().port();
+    let mut config = update(port);
+    config.config.smtp.timeout_seconds = 1;
+    enable(&state, Some(config)).await;
+    run_automatic_backup_once(&state).await.unwrap();
+    let worker_state = state.clone();
+    let task = tokio::spawn(async move { worker::tick(&worker_state, true).await });
+    let (_stream, _) = tokio::time::timeout(std::time::Duration::from_secs(5), listener.accept())
+        .await
+        .unwrap()
+        .unwrap();
+    let guard = tokio::time::timeout(
+        std::time::Duration::from_millis(100),
+        state.maintenance.automatic_backup_lock.lock(),
+    )
+    .await
+    .expect("SMTP must not hold the maintenance lock");
+    drop(guard);
+    save_automatic_backup_config(
+        &state,
+        UpdateAutomaticBackupBody {
+            enabled: false,
+            interval_hours: 24,
+            retention_days: 7,
+            email: None,
+        },
+    )
+    .await
+    .unwrap();
+    task.await.unwrap().unwrap();
+    let email = load(&state).await.unwrap();
+    assert_eq!(email.last_error.as_deref(), Some("smtp_timeout"));
+    assert!(!email.jobs[0].active());
+}
+
+#[tokio::test]
+async fn empty_password_update_preserves_pending_jobs_and_revision() {
+    let (_dir, state) = super::super::tests::maintenance_test_state().await;
+    enable(&state, Some(update(25))).await;
+    run_automatic_backup_once(&state).await.unwrap();
+    let before = load(&state).await.unwrap();
+    let mut config = update(25);
+    config.password = Some(String::new());
+    enable(&state, Some(config)).await;
+    let after = load(&state).await.unwrap();
+    assert_eq!(before.revision, after.revision);
+    assert!(after.jobs[0].status == JobStatus::Pending);
+}
+
+#[tokio::test]
+async fn known_delivery_result_survives_storage_failures_without_resending() {
+    let (_dir, state) = super::super::tests::maintenance_test_state().await;
+    enable(&state, Some(update(25))).await;
+    run_automatic_backup_once(&state).await.unwrap();
+    let mut email = load(&state).await.unwrap();
+    email.jobs[0].status = JobStatus::Sending;
+    email.jobs[0].attempts = 1;
+    persist(&state, &email).await.unwrap();
+    let mut worker = worker::DeliveryWorker::new(false);
+    worker.completion = Some(worker::Completion {
+        job: email.jobs[0].clone(),
+        result: Ok(()),
+    });
+    let connection =
+        tokio_rusqlite::rusqlite::Connection::open(&state.settings.sqlite_path).unwrap();
+    connection.execute_batch("CREATE TRIGGER fail_delivery_result BEFORE INSERT ON kv_strings WHEN NEW.key = 'fn_knock:config:backup:automatic:email' BEGIN SELECT RAISE(ABORT, 'failed bookkeeping'); END;").unwrap();
+    assert!(worker.tick(&state).await.is_err());
+    assert!(worker.tick(&state).await.is_err());
+    assert!(worker.completion.is_some());
+    connection
+        .execute_batch("DROP TRIGGER fail_delivery_result;")
+        .unwrap();
+    worker.tick(&state).await.unwrap();
+    let after = load(&state).await.unwrap();
+    assert!(after.jobs[0].status == JobStatus::Sent);
+    assert_eq!(after.jobs[0].attempts, 1);
+    assert!(worker.completion.is_none());
+}

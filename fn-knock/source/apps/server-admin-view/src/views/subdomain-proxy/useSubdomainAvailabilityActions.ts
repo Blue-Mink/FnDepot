@@ -1,1 +1,229 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgdHlwZSBDb21wdXRlZFJlZiwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgdHlwZSB7IEJ1dHRvblZhcmlhbnRzIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB0eXBlIHsgSG9zdE1hcHBpbmcsIEhvc3RNYXBwaW5nQXZhaWxhYmlsaXR5IH0gZnJvbSAiQC90eXBlcyI7CmltcG9ydCB7CiAgZ2V0QXZhaWxhYmlsaXR5V2luZG93VmFsaWRhdGlvbkVycm9yLAogIHR5cGUgVHJhbnNsYXRpb25QYXJhbXMsCn0gZnJvbSAiLi9tb2RlbCI7Cgp0eXBlIEFzeW5jQWN0aW9uUnVuID0gPFQ+KGFjdGlvbjogKCkgPT4gUHJvbWlzZTxUPikgPT4gUHJvbWlzZTxUIHwgdW5kZWZpbmVkPjsKdHlwZSBUcmFuc2xhdGUgPSAoa2V5OiBzdHJpbmcsIHBhcmFtcz86IFRyYW5zbGF0aW9uUGFyYW1zKSA9PiBzdHJpbmc7Cgpjb25zdCBERUZBVUxUX1NUQVJUX1RJTUUgPSAiMDk6MDAiOwpjb25zdCBERUZBVUxUX0VORF9USU1FID0gIjE4OjAwIjsKCmV4cG9ydCBjb25zdCB1c2VTdWJkb21haW5BdmFpbGFiaWxpdHlBY3Rpb25zID0gKHsKICBhbGxNYXBwaW5ncywKICBmb3JtYXRIb3N0V2l0aEFjY2Vzc0VudHJ5UG9ydCwKICBpc0F1dGhTZXJ2aWNlVGFyZ2V0LAogIGlzU2F2aW5nTWFwcGluZ3MsCiAgcnVuU2F2ZU1hcHBpbmdzLAogIHNhdmVIb3N0TWFwcGluZ3MsCiAgdHJhbnNsYXRlLAp9OiB7CiAgYWxsTWFwcGluZ3M6IENvbXB1dGVkUmVmPEhvc3RNYXBwaW5nW10+OwogIGZvcm1hdEhvc3RXaXRoQWNjZXNzRW50cnlQb3J0OiAoaG9zdDogc3RyaW5nKSA9PiBzdHJpbmc7CiAgaXNBdXRoU2VydmljZVRhcmdldDogKHRhcmdldDogc3RyaW5nKSA9PiBib29sZWFuOwogIGlzU2F2aW5nTWFwcGluZ3M6IFJlZjxib29sZWFuPjsKICBydW5TYXZlTWFwcGluZ3M6IEFzeW5jQWN0aW9uUnVuOwogIHNhdmVIb3N0TWFwcGluZ3M6IChtYXBwaW5nczogSG9zdE1hcHBpbmdbXSkgPT4gUHJvbWlzZTx1bmtub3duPjsKICB0cmFuc2xhdGU6IFRyYW5zbGF0ZTsKfSkgPT4gewogIGNvbnN0IHRvZ2dsZURpYWxvZ01hcHBpbmdIb3N0ID0gcmVmPHN0cmluZyB8IG51bGw+KG51bGwpOwogIGNvbnN0IGF2YWlsYWJpbGl0eURpYWxvZ01hcHBpbmdIb3N0ID0gcmVmPHN0cmluZyB8IG51bGw+KG51bGwpOwogIGNvbnN0IGF2YWlsYWJpbGl0eUZvcm1FbmFibGVkID0gcmVmKGZhbHNlKTsKICBjb25zdCBhdmFpbGFiaWxpdHlGb3JtU3RhcnRUaW1lID0gcmVmKERFRkFVTFRfU1RBUlRfVElNRSk7CiAgY29uc3QgYXZhaWxhYmlsaXR5Rm9ybUVuZFRpbWUgPSByZWYoREVGQVVMVF9FTkRfVElNRSk7CgogIGNvbnN0IGZpbmRNYXBwaW5nQnlIb3N0ID0gKGhvc3Q6IHN0cmluZyB8IG51bGwpID0+CiAgICBob3N0CiAgICAgID8gKGFsbE1hcHBpbmdzLnZhbHVlLmZpbmQoKG1hcHBpbmcpID0+IG1hcHBpbmcuaG9zdCA9PT0gaG9zdCkgPz8gbnVsbCkKICAgICAgOiBudWxsOwoKICBjb25zdCB0b2dnbGVEaWFsb2dNYXBwaW5nID0gY29tcHV0ZWQoKCkgPT4KICAgIGZpbmRNYXBwaW5nQnlIb3N0KHRvZ2dsZURpYWxvZ01hcHBpbmdIb3N0LnZhbHVlKSwKICApOwogIGNvbnN0IGF2YWlsYWJpbGl0eURpYWxvZ01hcHBpbmcgPSBjb21wdXRlZCgoKSA9PgogICAgZmluZE1hcHBpbmdCeUhvc3QoYXZhaWxhYmlsaXR5RGlhbG9nTWFwcGluZ0hvc3QudmFsdWUpLAogICk7CgogIGNvbnN0IGlzVG9nZ2xlRGlhbG9nT3BlbiA9IGNvbXB1dGVkKCgpID0+IHRvZ2dsZURpYWxvZ01hcHBpbmcudmFsdWUgIT09IG51bGwpOwogIGNvbnN0IGlzVG9nZ2xlRW5hYmxpbmcgPSBjb21wdXRlZCgKICAgICgpID0+IHRvZ2dsZURpYWxvZ01hcHBpbmcudmFsdWU/LmRpc2FibGVkID09PSB0cnVlLAogICk7CiAgY29uc3QgdG9nZ2xlRGlhbG9nVGl0bGUgPSBjb21wdXRlZCgoKSA9PgogICAgaXNUb2dnbGVFbmFibGluZy52YWx1ZQogICAgICA/IHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuZW5hYmxlTWFwcGluZ1RpdGxlIikKICAgICAgOiB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LmRpc2FibGVNYXBwaW5nVGl0bGUiKSwKICApOwogIGNvbnN0IHRvZ2dsZURpYWxvZ0Rlc2NyaXB0aW9uID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3QgbWFwcGluZyA9IHRvZ2dsZURpYWxvZ01hcHBpbmcudmFsdWU7CiAgICBjb25zdCBob3N0ID0gbWFwcGluZyA/IGZvcm1hdEhvc3RXaXRoQWNjZXNzRW50cnlQb3J0KG1hcHBpbmcuaG9zdCkgOiAiIjsKICAgIHJldHVybiBpc1RvZ2dsZUVuYWJsaW5nLnZhbHVlCiAgICAgID8gdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5lbmFibGVNYXBwaW5nRGVzY3JpcHRpb24iLCB7IGhvc3QgfSkKICAgICAgOiB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LmRpc2FibGVNYXBwaW5nRGVzY3JpcHRpb24iLCB7IGhvc3QgfSk7CiAgfSk7CiAgY29uc3QgdG9nZ2xlRGlhbG9nQ29uZmlybUxhYmVsID0gY29tcHV0ZWQoKCkgPT4KICAgIGlzVG9nZ2xlRW5hYmxpbmcudmFsdWUKICAgICAgPyB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LmNvbmZpcm1FbmFibGUiKQogICAgICA6IHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuY29uZmlybURpc2FibGUiKSwKICApOwogIGNvbnN0IHRvZ2dsZURpYWxvZ0NvbmZpcm1WYXJpYW50ID0gY29tcHV0ZWQ8QnV0dG9uVmFyaWFudHNbInZhcmlhbnQiXT4oKCkgPT4KICAgIGlzVG9nZ2xlRW5hYmxpbmcudmFsdWUgPyAiZGVmYXVsdCIgOiAiZGVzdHJ1Y3RpdmUiLAogICk7CgogIGNvbnN0IGlzQXZhaWxhYmlsaXR5RGlhbG9nT3BlbiA9IGNvbXB1dGVkKAogICAgKCkgPT4gYXZhaWxhYmlsaXR5RGlhbG9nTWFwcGluZy52YWx1ZSAhPT0gbnVsbCwKICApOwogIGNvbnN0IGF2YWlsYWJpbGl0eURpYWxvZ0hvc3RMYWJlbCA9IGNvbXB1dGVkKCgpID0+CiAgICBhdmFpbGFiaWxpdHlEaWFsb2dNYXBwaW5nLnZhbHVlCiAgICAgID8gZm9ybWF0SG9zdFdpdGhBY2Nlc3NFbnRyeVBvcnQoYXZhaWxhYmlsaXR5RGlhbG9nTWFwcGluZy52YWx1ZS5ob3N0KQogICAgICA6ICIiLAogICk7CiAgY29uc3QgYXZhaWxhYmlsaXR5VmFsaWRhdGlvbk1lc3NhZ2UgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoIWF2YWlsYWJpbGl0eUZvcm1FbmFibGVkLnZhbHVlKSByZXR1cm4gIiI7CiAgICBjb25zdCBlcnJvciA9IGdldEF2YWlsYWJpbGl0eVdpbmRvd1ZhbGlkYXRpb25FcnJvcigKICAgICAgYXZhaWxhYmlsaXR5Rm9ybVN0YXJ0VGltZS52YWx1ZS50cmltKCksCiAgICAgIGF2YWlsYWJpbGl0eUZvcm1FbmRUaW1lLnZhbHVlLnRyaW0oKSwKICAgICk7CiAgICBpZiAoZXJyb3IgPT09ICJpbnZhbGlkX3RpbWUiKSB7CiAgICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LmF2YWlsYWJpbGl0eUludmFsaWRUaW1lIik7CiAgICB9CiAgICBpZiAoZXJyb3IgPT09ICJzYW1lX3RpbWUiKSB7CiAgICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LmF2YWlsYWJpbGl0eVNhbWVUaW1lSW52YWxpZCIpOwogICAgfQogICAgcmV0dXJuICIiOwogIH0pOwoKICBjb25zdCBvcGVuVG9nZ2xlTWFwcGluZ0RpYWxvZyA9IChtYXBwaW5nOiBIb3N0TWFwcGluZykgPT4gewogICAgaWYgKGlzU2F2aW5nTWFwcGluZ3MudmFsdWUgfHwgaXNBdXRoU2VydmljZVRhcmdldChtYXBwaW5nLnRhcmdldCkpIHJldHVybjsKICAgIHRvZ2dsZURpYWxvZ01hcHBpbmdIb3N0LnZhbHVlID0gbWFwcGluZy5ob3N0OwogIH07CgogIGNvbnN0IGNsb3NlVG9nZ2xlRGlhbG9nID0gKCkgPT4gewogICAgdG9nZ2xlRGlhbG9nTWFwcGluZ0hvc3QudmFsdWUgPSBudWxsOwogIH07CgogIGNvbnN0IGhhbmRsZVRvZ2dsZURpYWxvZ09wZW5DaGFuZ2UgPSAobmV4dE9wZW46IGJvb2xlYW4pID0+IHsKICAgIGlmICghbmV4dE9wZW4pIHsKICAgICAgY2xvc2VUb2dnbGVEaWFsb2coKTsKICAgIH0KICB9OwoKICBjb25zdCBjb25maXJtVG9nZ2xlTWFwcGluZyA9IGFzeW5jICgpID0+IHsKICAgIGNvbnN0IG1hcHBpbmcgPSB0b2dnbGVEaWFsb2dNYXBwaW5nLnZhbHVlOwogICAgaWYgKAogICAgICAhbWFwcGluZyB8fAogICAgICBpc1NhdmluZ01hcHBpbmdzLnZhbHVlIHx8CiAgICAgIGlzQXV0aFNlcnZpY2VUYXJnZXQobWFwcGluZy50YXJnZXQpCiAgICApIHsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGNvbnN0IG5leHREaXNhYmxlZCA9IG1hcHBpbmcuZGlzYWJsZWQgIT09IHRydWU7CiAgICBhd2FpdCBydW5TYXZlTWFwcGluZ3MoYXN5bmMgKCkgPT4gewogICAgICBhd2FpdCBzYXZlSG9zdE1hcHBpbmdzKAogICAgICAgIGFsbE1hcHBpbmdzLnZhbHVlLm1hcCgoaXRlbSkgPT4KICAgICAgICAgIGl0ZW0uaG9zdCA9PT0gbWFwcGluZy5ob3N0CiAgICAgICAgICAgID8geyAuLi5pdGVtLCBkaXNhYmxlZDogbmV4dERpc2FibGVkIH0KICAgICAgICAgICAgOiBpdGVtLAogICAgICAgICksCiAgICAgICk7CiAgICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgICAgbmV4dERpc2FibGVkCiAgICAgICAgICA/IHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkubWFwcGluZ0Rpc2FibGVkIikKICAgICAgICAgIDogdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5tYXBwaW5nRW5hYmxlZCIpLAogICAgICAgIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiBmb3JtYXRIb3N0V2l0aEFjY2Vzc0VudHJ5UG9ydChtYXBwaW5nLmhvc3QpLAogICAgICAgIH0sCiAgICAgICk7CiAgICAgIGNsb3NlVG9nZ2xlRGlhbG9nKCk7CiAgICB9KTsKICB9OwoKICBjb25zdCBvcGVuQXZhaWxhYmlsaXR5RGlhbG9nID0gKG1hcHBpbmc6IEhvc3RNYXBwaW5nKSA9PiB7CiAgICBpZiAoaXNTYXZpbmdNYXBwaW5ncy52YWx1ZSB8fCBpc0F1dGhTZXJ2aWNlVGFyZ2V0KG1hcHBpbmcudGFyZ2V0KSkgcmV0dXJuOwogICAgYXZhaWxhYmlsaXR5RGlhbG9nTWFwcGluZ0hvc3QudmFsdWUgPSBtYXBwaW5nLmhvc3Q7CiAgICBhdmFpbGFiaWxpdHlGb3JtRW5hYmxlZC52YWx1ZSA9IG1hcHBpbmcuYXZhaWxhYmlsaXR5Py5lbmFibGVkID09PSB0cnVlOwogICAgYXZhaWxhYmlsaXR5Rm9ybVN0YXJ0VGltZS52YWx1ZSA9CiAgICAgIG1hcHBpbmcuYXZhaWxhYmlsaXR5Py5zdGFydF90aW1lPy50cmltKCkgfHwgREVGQVVMVF9TVEFSVF9USU1FOwogICAgYXZhaWxhYmlsaXR5Rm9ybUVuZFRpbWUudmFsdWUgPQogICAgICBtYXBwaW5nLmF2YWlsYWJpbGl0eT8uZW5kX3RpbWU/LnRyaW0oKSB8fCBERUZBVUxUX0VORF9USU1FOwogIH07CgogIGNvbnN0IGNsb3NlQXZhaWxhYmlsaXR5RGlhbG9nID0gKCkgPT4gewogICAgYXZhaWxhYmlsaXR5RGlhbG9nTWFwcGluZ0hvc3QudmFsdWUgPSBudWxsOwogICAgYXZhaWxhYmlsaXR5Rm9ybUVuYWJsZWQudmFsdWUgPSBmYWxzZTsKICAgIGF2YWlsYWJpbGl0eUZvcm1TdGFydFRpbWUudmFsdWUgPSBERUZBVUxUX1NUQVJUX1RJTUU7CiAgICBhdmFpbGFiaWxpdHlGb3JtRW5kVGltZS52YWx1ZSA9IERFRkFVTFRfRU5EX1RJTUU7CiAgfTsKCiAgY29uc3QgaGFuZGxlQXZhaWxhYmlsaXR5RGlhbG9nT3BlbkNoYW5nZSA9IChuZXh0T3BlbjogYm9vbGVhbikgPT4gewogICAgaWYgKCFuZXh0T3BlbikgewogICAgICBjbG9zZUF2YWlsYWJpbGl0eURpYWxvZygpOwogICAgfQogIH07CgogIGNvbnN0IHNhdmVBdmFpbGFiaWxpdHlEaWFsb2cgPSBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBtYXBwaW5nID0gYXZhaWxhYmlsaXR5RGlhbG9nTWFwcGluZy52YWx1ZTsKICAgIGlmICgKICAgICAgIW1hcHBpbmcgfHwKICAgICAgaXNTYXZpbmdNYXBwaW5ncy52YWx1ZSB8fAogICAgICBpc0F1dGhTZXJ2aWNlVGFyZ2V0KG1hcHBpbmcudGFyZ2V0KSB8fAogICAgICBhdmFpbGFiaWxpdHlWYWxpZGF0aW9uTWVzc2FnZS52YWx1ZQogICAgKSB7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBjb25zdCBuZXh0QXZhaWxhYmlsaXR5OiBIb3N0TWFwcGluZ0F2YWlsYWJpbGl0eSB8IG51bGwgPQogICAgICBhdmFpbGFiaWxpdHlGb3JtRW5hYmxlZC52YWx1ZQogICAgICAgID8gewogICAgICAgICAgICBlbmFibGVkOiB0cnVlLAogICAgICAgICAgICBzdGFydF90aW1lOiBhdmFpbGFiaWxpdHlGb3JtU3RhcnRUaW1lLnZhbHVlLnRyaW0oKSwKICAgICAgICAgICAgZW5kX3RpbWU6IGF2YWlsYWJpbGl0eUZvcm1FbmRUaW1lLnZhbHVlLnRyaW0oKSwKICAgICAgICAgIH0KICAgICAgICA6IG51bGw7CgogICAgYXdhaXQgcnVuU2F2ZU1hcHBpbmdzKGFzeW5jICgpID0+IHsKICAgICAgYXdhaXQgc2F2ZUhvc3RNYXBwaW5ncygKICAgICAgICBhbGxNYXBwaW5ncy52YWx1ZS5tYXAoKGl0ZW0pID0+CiAgICAgICAgICBpdGVtLmhvc3QgPT09IG1hcHBpbmcuaG9zdAogICAgICAgICAgICA/IHsgLi4uaXRlbSwgYXZhaWxhYmlsaXR5OiBuZXh0QXZhaWxhYmlsaXR5IH0KICAgICAgICAgICAgOiBpdGVtLAogICAgICAgICksCiAgICAgICk7CiAgICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgICAgbmV4dEF2YWlsYWJpbGl0eQogICAgICAgICAgPyB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LmF2YWlsYWJpbGl0eVNhdmVkIikKICAgICAgICAgIDogdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5hdmFpbGFiaWxpdHlDbGVhcmVkIiksCiAgICAgICAgewogICAgICAgICAgZGVzY3JpcHRpb246IGZvcm1hdEhvc3RXaXRoQWNjZXNzRW50cnlQb3J0KG1hcHBpbmcuaG9zdCksCiAgICAgICAgfSwKICAgICAgKTsKICAgICAgY2xvc2VBdmFpbGFiaWxpdHlEaWFsb2coKTsKICAgIH0pOwogIH07CgogIHJldHVybiB7CiAgICBhdmFpbGFiaWxpdHlEaWFsb2dIb3N0TGFiZWwsCiAgICBhdmFpbGFiaWxpdHlGb3JtRW5hYmxlZCwKICAgIGF2YWlsYWJpbGl0eUZvcm1FbmRUaW1lLAogICAgYXZhaWxhYmlsaXR5Rm9ybVN0YXJ0VGltZSwKICAgIGF2YWlsYWJpbGl0eVZhbGlkYXRpb25NZXNzYWdlLAogICAgY2xvc2VBdmFpbGFiaWxpdHlEaWFsb2csCiAgICBjbG9zZVRvZ2dsZURpYWxvZywKICAgIGNvbmZpcm1Ub2dnbGVNYXBwaW5nLAogICAgaGFuZGxlQXZhaWxhYmlsaXR5RGlhbG9nT3BlbkNoYW5nZSwKICAgIGhhbmRsZVRvZ2dsZURpYWxvZ09wZW5DaGFuZ2UsCiAgICBpc0F2YWlsYWJpbGl0eURpYWxvZ09wZW4sCiAgICBpc1RvZ2dsZURpYWxvZ09wZW4sCiAgICBvcGVuQXZhaWxhYmlsaXR5RGlhbG9nLAogICAgb3BlblRvZ2dsZU1hcHBpbmdEaWFsb2csCiAgICBzYXZlQXZhaWxhYmlsaXR5RGlhbG9nLAogICAgdG9nZ2xlRGlhbG9nQ29uZmlybUxhYmVsLAogICAgdG9nZ2xlRGlhbG9nQ29uZmlybVZhcmlhbnQsCiAgICB0b2dnbGVEaWFsb2dEZXNjcmlwdGlvbiwKICAgIHRvZ2dsZURpYWxvZ1RpdGxlLAogIH07Cn07Cg==
+import { computed, ref, type ComputedRef, type Ref } from "vue";
+import { toast } from "@admin-shared/utils/toast";
+import type { ButtonVariants } from "@/components/ui/button";
+import type { HostMapping, HostMappingAvailability } from "@/types";
+import {
+  getAvailabilityWindowValidationError,
+  type TranslationParams,
+} from "./model";
+
+type AsyncActionRun = <T>(action: () => Promise<T>) => Promise<T | undefined>;
+type Translate = (key: string, params?: TranslationParams) => string;
+
+const DEFAULT_START_TIME = "09:00";
+const DEFAULT_END_TIME = "18:00";
+
+export const useSubdomainAvailabilityActions = ({
+  allMappings,
+  formatHostWithAccessEntryPort,
+  isAuthServiceTarget,
+  isSavingMappings,
+  runSaveMappings,
+  saveHostMappings,
+  translate,
+}: {
+  allMappings: ComputedRef<HostMapping[]>;
+  formatHostWithAccessEntryPort: (host: string) => string;
+  isAuthServiceTarget: (target: string) => boolean;
+  isSavingMappings: Ref<boolean>;
+  runSaveMappings: AsyncActionRun;
+  saveHostMappings: (mappings: HostMapping[]) => Promise<unknown>;
+  translate: Translate;
+}) => {
+  const toggleDialogMappingHost = ref<string | null>(null);
+  const availabilityDialogMappingHost = ref<string | null>(null);
+  const availabilityFormEnabled = ref(false);
+  const availabilityFormStartTime = ref(DEFAULT_START_TIME);
+  const availabilityFormEndTime = ref(DEFAULT_END_TIME);
+
+  const findMappingByHost = (host: string | null) =>
+    host
+      ? (allMappings.value.find((mapping) => mapping.host === host) ?? null)
+      : null;
+
+  const toggleDialogMapping = computed(() =>
+    findMappingByHost(toggleDialogMappingHost.value),
+  );
+  const availabilityDialogMapping = computed(() =>
+    findMappingByHost(availabilityDialogMappingHost.value),
+  );
+
+  const isToggleDialogOpen = computed(() => toggleDialogMapping.value !== null);
+  const isToggleEnabling = computed(
+    () => toggleDialogMapping.value?.disabled === true,
+  );
+  const toggleDialogTitle = computed(() =>
+    isToggleEnabling.value
+      ? translate("admin.subdomainProxy.enableMappingTitle")
+      : translate("admin.subdomainProxy.disableMappingTitle"),
+  );
+  const toggleDialogDescription = computed(() => {
+    const mapping = toggleDialogMapping.value;
+    const host = mapping ? formatHostWithAccessEntryPort(mapping.host) : "";
+    return isToggleEnabling.value
+      ? translate("admin.subdomainProxy.enableMappingDescription", { host })
+      : translate("admin.subdomainProxy.disableMappingDescription", { host });
+  });
+  const toggleDialogConfirmLabel = computed(() =>
+    isToggleEnabling.value
+      ? translate("admin.subdomainProxy.confirmEnable")
+      : translate("admin.subdomainProxy.confirmDisable"),
+  );
+  const toggleDialogConfirmVariant = computed<ButtonVariants["variant"]>(() =>
+    isToggleEnabling.value ? "default" : "destructive",
+  );
+
+  const isAvailabilityDialogOpen = computed(
+    () => availabilityDialogMapping.value !== null,
+  );
+  const availabilityDialogHostLabel = computed(() =>
+    availabilityDialogMapping.value
+      ? formatHostWithAccessEntryPort(availabilityDialogMapping.value.host)
+      : "",
+  );
+  const availabilityValidationMessage = computed(() => {
+    if (!availabilityFormEnabled.value) return "";
+    const error = getAvailabilityWindowValidationError(
+      availabilityFormStartTime.value.trim(),
+      availabilityFormEndTime.value.trim(),
+    );
+    if (error === "invalid_time") {
+      return translate("admin.subdomainProxy.availabilityInvalidTime");
+    }
+    if (error === "same_time") {
+      return translate("admin.subdomainProxy.availabilitySameTimeInvalid");
+    }
+    return "";
+  });
+
+  const openToggleMappingDialog = (mapping: HostMapping) => {
+    if (isSavingMappings.value || isAuthServiceTarget(mapping.target)) return;
+    toggleDialogMappingHost.value = mapping.host;
+  };
+
+  const closeToggleDialog = () => {
+    toggleDialogMappingHost.value = null;
+  };
+
+  const handleToggleDialogOpenChange = (nextOpen: boolean) => {
+    if (!nextOpen) {
+      closeToggleDialog();
+    }
+  };
+
+  const confirmToggleMapping = async () => {
+    const mapping = toggleDialogMapping.value;
+    if (
+      !mapping ||
+      isSavingMappings.value ||
+      isAuthServiceTarget(mapping.target)
+    ) {
+      return;
+    }
+
+    const nextDisabled = mapping.disabled !== true;
+    await runSaveMappings(async () => {
+      await saveHostMappings(
+        allMappings.value.map((item) =>
+          item.host === mapping.host
+            ? { ...item, disabled: nextDisabled }
+            : item,
+        ),
+      );
+      toast.success(
+        nextDisabled
+          ? translate("admin.subdomainProxy.mappingDisabled")
+          : translate("admin.subdomainProxy.mappingEnabled"),
+        {
+          description: formatHostWithAccessEntryPort(mapping.host),
+        },
+      );
+      closeToggleDialog();
+    });
+  };
+
+  const openAvailabilityDialog = (mapping: HostMapping) => {
+    if (isSavingMappings.value || isAuthServiceTarget(mapping.target)) return;
+    availabilityDialogMappingHost.value = mapping.host;
+    availabilityFormEnabled.value = mapping.availability?.enabled === true;
+    availabilityFormStartTime.value =
+      mapping.availability?.start_time?.trim() || DEFAULT_START_TIME;
+    availabilityFormEndTime.value =
+      mapping.availability?.end_time?.trim() || DEFAULT_END_TIME;
+  };
+
+  const closeAvailabilityDialog = () => {
+    availabilityDialogMappingHost.value = null;
+    availabilityFormEnabled.value = false;
+    availabilityFormStartTime.value = DEFAULT_START_TIME;
+    availabilityFormEndTime.value = DEFAULT_END_TIME;
+  };
+
+  const handleAvailabilityDialogOpenChange = (nextOpen: boolean) => {
+    if (!nextOpen) {
+      closeAvailabilityDialog();
+    }
+  };
+
+  const saveAvailabilityDialog = async () => {
+    const mapping = availabilityDialogMapping.value;
+    if (
+      !mapping ||
+      isSavingMappings.value ||
+      isAuthServiceTarget(mapping.target) ||
+      availabilityValidationMessage.value
+    ) {
+      return;
+    }
+
+    const nextAvailability: HostMappingAvailability | null =
+      availabilityFormEnabled.value
+        ? {
+            enabled: true,
+            start_time: availabilityFormStartTime.value.trim(),
+            end_time: availabilityFormEndTime.value.trim(),
+          }
+        : null;
+
+    await runSaveMappings(async () => {
+      await saveHostMappings(
+        allMappings.value.map((item) =>
+          item.host === mapping.host
+            ? { ...item, availability: nextAvailability }
+            : item,
+        ),
+      );
+      toast.success(
+        nextAvailability
+          ? translate("admin.subdomainProxy.availabilitySaved")
+          : translate("admin.subdomainProxy.availabilityCleared"),
+        {
+          description: formatHostWithAccessEntryPort(mapping.host),
+        },
+      );
+      closeAvailabilityDialog();
+    });
+  };
+
+  return {
+    availabilityDialogHostLabel,
+    availabilityFormEnabled,
+    availabilityFormEndTime,
+    availabilityFormStartTime,
+    availabilityValidationMessage,
+    closeAvailabilityDialog,
+    closeToggleDialog,
+    confirmToggleMapping,
+    handleAvailabilityDialogOpenChange,
+    handleToggleDialogOpenChange,
+    isAvailabilityDialogOpen,
+    isToggleDialogOpen,
+    openAvailabilityDialog,
+    openToggleMappingDialog,
+    saveAvailabilityDialog,
+    toggleDialogConfirmLabel,
+    toggleDialogConfirmVariant,
+    toggleDialogDescription,
+    toggleDialogTitle,
+  };
+};

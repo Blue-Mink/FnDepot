@@ -1,1 +1,1 @@
-ZXhwb3J0IHsgZGVmYXVsdCBhcyBMYWJlbCB9IGZyb20gIi4vTGFiZWwudnVlIgo=
+export { default as Label } from "./Label.vue"

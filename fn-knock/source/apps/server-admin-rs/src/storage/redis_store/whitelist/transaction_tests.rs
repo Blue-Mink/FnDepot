@@ -1,1 +1,87 @@
-dXNlIHN1cGVyOjoqOwoKZm4gcmVnaW9uX3JlY29yZCgpIC0+IFdoaXRlbGlzdFJlZ2lvbkdyb3VwUmVjb3JkIHsKICAgIFdoaXRlbGlzdFJlZ2lvbkdyb3VwUmVjb3JkIHsKICAgICAgICBpZDogIndoaXRlbGlzdC1yZWdpb246Y2FzIi50b19zdHJpbmcoKSwKICAgICAgICByZWdpb25zOiB2ZWMhW1doaXRlbGlzdFJlZ2lvbklucHV0IHsKICAgICAgICAgICAgcHJvdmluY2U6ICLlub/kuJwiLnRvX3N0cmluZygpLAogICAgICAgICAgICBxdWVyeV9jaXR5OiBOb25lLAogICAgICAgICAgICBvcGVyYXRvcjogTm9uZSwKICAgICAgICB9XSwKICAgICAgICBjaWRyczogdmVjIVsiMTkyLjAuMi4wLzI0Ii50b19zdHJpbmcoKV0sCiAgICAgICAgcG9saWN5X2lkOiBTdHJpbmc6Om5ldygpLAogICAgICAgIHBvbGljeTogTm9uZSwKICAgICAgICBzb3VyY2VfY2lkcl9jb3VudDogMSwKICAgICAgICByYW5nZV9jb3VudDogMSwKICAgICAgICBleHBpcmVfYXQ6IE5vbmUsCiAgICAgICAgc291cmNlOiAibWFudWFsIi50b19zdHJpbmcoKSwKICAgICAgICBjcmVhdGVkX2F0OiAxLAogICAgICAgIHVwZGF0ZWRfYXQ6IDEsCiAgICAgICAgc3RhdHVzOiAiYWN0aXZlIi50b19zdHJpbmcoKSwKICAgICAgICBjb21tZW50OiBOb25lLAogICAgfQp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBzdGFsZV9yZWdpb25fY2FzX2Nhbm5vdF9vdmVyd3JpdGVfY29tcGF0aWJpbGl0eV9vcl90eXBlZF9zdGF0ZSgpIHsKICAgIGxldCBkaXJlY3RvcnkgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHRlbXAgZGlyIik7CiAgICBsZXQgc3RvcmUgPSBTdG9yZTo6Y29ubmVjdChkaXJlY3RvcnkucGF0aCgpLmpvaW4oImZuLWtub2NrLnNxbGl0ZTMiKSkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJvcGVuIHN0b3JlIik7CiAgICBsZXQgb3JpZ2luYWwgPSByZWdpb25fcmVjb3JkKCk7CiAgICBzdG9yZQogICAgICAgIC5pbnNlcnRfd2hpdGVsaXN0X3JlZ2lvbl9ncm91cCgmb3JpZ2luYWwpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgiaW5zZXJ0IG9yaWdpbmFsIHJlZ2lvbiIpOwoKICAgIGxldCBtdXQgZnJlc2ggPSBvcmlnaW5hbC5jbG9uZSgpOwogICAgZnJlc2gudXBkYXRlZF9hdCA9IDI7CiAgICBmcmVzaC5jb21tZW50ID0gU29tZSgiZnJlc2giLnRvX3N0cmluZygpKTsKICAgIHN0b3JlCiAgICAgICAgLmluc2VydF93aGl0ZWxpc3RfcmVnaW9uX2dyb3VwKCZmcmVzaCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJ3cml0ZSBjb25jdXJyZW50IHJlcGxhY2VtZW50Iik7CgogICAgbGV0IG11dCBzdGFsZV90b21ic3RvbmUgPSBvcmlnaW5hbC5jbG9uZSgpOwogICAgc3RhbGVfdG9tYnN0b25lLnN0YXR1cyA9ICJkZWxldGVkIi50b19zdHJpbmcoKTsKICAgIHN0YWxlX3RvbWJzdG9uZS5jaWRycy5jbGVhcigpOwogICAgc3RhbGVfdG9tYnN0b25lLnNvdXJjZV9jaWRyX2NvdW50ID0gMDsKICAgIHN0YWxlX3RvbWJzdG9uZS5yYW5nZV9jb3VudCA9IDA7CiAgICBsZXQgbXV0IHBpcGVsaW5lID0gcmVkaXM6OnBpcGUoKTsKICAgIHBpcGVsaW5lCiAgICAgICAgLmhzZXQoCiAgICAgICAgICAgIFdISVRFTElTVF9SRUdJT05fR1JPVVBfUkVDT1JEUywKICAgICAgICAgICAgJm9yaWdpbmFsLmlkLAogICAgICAgICAgICBzZXJkZV9qc29uOjp0b19zdHJpbmcoJnN0YWxlX3RvbWJzdG9uZSkudW53cmFwKCksCiAgICAgICAgKQogICAgICAgIC5pZ25vcmUoKTsKICAgIHBpcGVsaW5lCiAgICAgICAgLnpyZW0oV0hJVEVMSVNUX1JFR0lPTl9HUk9VUF9PUkRFUiwgJm9yaWdpbmFsLmlkKQogICAgICAgIC5pZ25vcmUoKTsKCiAgICBsZXQgbWF0Y2hlZCA9IHN0b3JlCiAgICAgICAgLmV4ZWN1dGVfd2hpdGVsaXN0X3JlZ2lvbl9waXBlbGluZV9pZl9jdXJyZW50KAogICAgICAgICAgICAmb3JpZ2luYWwsCiAgICAgICAgICAgIFR5cGVkV2hpdGVsaXN0TXV0YXRpb246OlVwc2VydCh0eXBlZF93aGl0ZWxpc3RfcmVnaW9uKCZzdGFsZV90b21ic3RvbmUpLnVud3JhcCgpKSwKICAgICAgICAgICAgcGlwZWxpbmUsCiAgICAgICAgKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInJ1biBzdGFsZSByZWdpb24gQ0FTIik7CiAgICBhc3NlcnQhKCFtYXRjaGVkKTsKCiAgICBsZXQgY3VycmVudCA9IHN0b3JlCiAgICAgICAgLmdldF93aGl0ZWxpc3RfcmVnaW9uX2dyb3VwKCZvcmlnaW5hbC5pZCkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCkKICAgICAgICAuZXhwZWN0KCJjdXJyZW50IHJlZ2lvbiIpOwogICAgYXNzZXJ0X2VxIShjdXJyZW50LnN0YXR1cywgImFjdGl2ZSIpOwogICAgYXNzZXJ0X2VxIShjdXJyZW50LmNvbW1lbnQuYXNfZGVyZWYoKSwgU29tZSgiZnJlc2giKSk7CiAgICBsZXQgdHlwZWQgPSBzdG9yZQogICAgICAgIC50eXBlZAogICAgICAgIC50eXBlZF93aGl0ZWxpc3QKICAgICAgICAubG9hZF9vbmUoInJlZ2lvbiIsICZvcmlnaW5hbC5pZCkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCkKICAgICAgICAuZXhwZWN0KCJ0eXBlZCBjdXJyZW50IHJlZ2lvbiIpOwogICAgYXNzZXJ0X2VxISh0eXBlZC5kb2N1bWVudF9qc29uLCBzZXJkZV9qc29uOjp0b19zdHJpbmcoJmZyZXNoKS51bndyYXAoKSk7Cn0K
+use super::*;
+
+fn region_record() -> WhitelistRegionGroupRecord {
+    WhitelistRegionGroupRecord {
+        id: "whitelist-region:cas".to_string(),
+        regions: vec![WhitelistRegionInput {
+            province: "广东".to_string(),
+            query_city: None,
+            operator: None,
+        }],
+        cidrs: vec!["192.0.2.0/24".to_string()],
+        policy_id: String::new(),
+        policy: None,
+        source_cidr_count: 1,
+        range_count: 1,
+        expire_at: None,
+        source: "manual".to_string(),
+        created_at: 1,
+        updated_at: 1,
+        status: "active".to_string(),
+        comment: None,
+    }
+}
+
+#[tokio::test]
+async fn stale_region_cas_cannot_overwrite_compatibility_or_typed_state() {
+    let directory = tempfile::tempdir().expect("create temp dir");
+    let store = Store::connect(directory.path().join("fn-knock.sqlite3"))
+        .await
+        .expect("open store");
+    let original = region_record();
+    store
+        .insert_whitelist_region_group(&original)
+        .await
+        .expect("insert original region");
+
+    let mut fresh = original.clone();
+    fresh.updated_at = 2;
+    fresh.comment = Some("fresh".to_string());
+    store
+        .insert_whitelist_region_group(&fresh)
+        .await
+        .expect("write concurrent replacement");
+
+    let mut stale_tombstone = original.clone();
+    stale_tombstone.status = "deleted".to_string();
+    stale_tombstone.cidrs.clear();
+    stale_tombstone.source_cidr_count = 0;
+    stale_tombstone.range_count = 0;
+    let mut pipeline = redis::pipe();
+    pipeline
+        .hset(
+            WHITELIST_REGION_GROUP_RECORDS,
+            &original.id,
+            serde_json::to_string(&stale_tombstone).unwrap(),
+        )
+        .ignore();
+    pipeline
+        .zrem(WHITELIST_REGION_GROUP_ORDER, &original.id)
+        .ignore();
+
+    let matched = store
+        .execute_whitelist_region_pipeline_if_current(
+            &original,
+            TypedWhitelistMutation::Upsert(typed_whitelist_region(&stale_tombstone).unwrap()),
+            pipeline,
+        )
+        .await
+        .expect("run stale region CAS");
+    assert!(!matched);
+
+    let current = store
+        .get_whitelist_region_group(&original.id)
+        .await
+        .unwrap()
+        .expect("current region");
+    assert_eq!(current.status, "active");
+    assert_eq!(current.comment.as_deref(), Some("fresh"));
+    let typed = store
+        .typed
+        .typed_whitelist
+        .load_one("region", &original.id)
+        .await
+        .unwrap()
+        .expect("typed current region");
+    assert_eq!(typed.document_json, serde_json::to_string(&fresh).unwrap());
+}

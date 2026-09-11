@@ -1,1 +1,18 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBBdXRoU2V0dGluZ3NEaWFsb2dzIGZyb20gIi4vYXV0aC1zZXR0aW5ncy9BdXRoU2V0dGluZ3NEaWFsb2dzLnZ1ZSI7CmltcG9ydCBBdXRoU2V0dGluZ3NIZWFkZXIgZnJvbSAiLi9hdXRoLXNldHRpbmdzL0F1dGhTZXR0aW5nc0hlYWRlci52dWUiOwppbXBvcnQgQXV0aFNldHRpbmdzVGFibGVzIGZyb20gIi4vYXV0aC1zZXR0aW5ncy9BdXRoU2V0dGluZ3NUYWJsZXMudnVlIjsKaW1wb3J0IHsgdXNlQXV0aFNldHRpbmdzUGFnZSB9IGZyb20gIi4vYXV0aC1zZXR0aW5ncy91c2VBdXRoU2V0dGluZ3NQYWdlIjsKCmNvbnN0IGNvbnRyb2xsZXIgPSB1c2VBdXRoU2V0dGluZ3NQYWdlKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYKICAgIGNsYXNzPSJkeW5hbWljLXdoaXRlLXBhZ2UtY2FyZCBkeW5hbWljLXdoaXRlLXNldHRpbmdzLXN1cmZhY2UgZmxleCBoLWZ1bGwgZmxleC1jb2wgZ2FwLTQiCiAgPgogICAgPEF1dGhTZXR0aW5nc0hlYWRlciA6Y29udHJvbGxlcj0iY29udHJvbGxlciIgLz4KICAgIDxBdXRoU2V0dGluZ3NUYWJsZXMgOmNvbnRyb2xsZXI9ImNvbnRyb2xsZXIiIC8+CiAgPC9kaXY+CiAgPEF1dGhTZXR0aW5nc0RpYWxvZ3MgOmNvbnRyb2xsZXI9ImNvbnRyb2xsZXIiIC8+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import AuthSettingsDialogs from "./auth-settings/AuthSettingsDialogs.vue";
+import AuthSettingsHeader from "./auth-settings/AuthSettingsHeader.vue";
+import AuthSettingsTables from "./auth-settings/AuthSettingsTables.vue";
+import { useAuthSettingsPage } from "./auth-settings/useAuthSettingsPage";
+
+const controller = useAuthSettingsPage();
+</script>
+
+<template>
+  <div
+    class="dynamic-white-page-card dynamic-white-settings-surface flex h-full flex-col gap-4"
+  >
+    <AuthSettingsHeader :controller="controller" />
+    <AuthSettingsTables :controller="controller" />
+  </div>
+  <AuthSettingsDialogs :controller="controller" />
+</template>

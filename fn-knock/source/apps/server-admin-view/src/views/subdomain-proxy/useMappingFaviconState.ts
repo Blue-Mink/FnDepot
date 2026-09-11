@@ -1,1 +1,26 @@
-aW1wb3J0IHsgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHR5cGUgeyBIb3N0TWFwcGluZyB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgeyBnZXRGYXZpY29uS2V5IH0gZnJvbSAiLi9tb2RlbCI7CgpleHBvcnQgY29uc3QgdXNlTWFwcGluZ0Zhdmljb25TdGF0ZSA9ICgpID0+IHsKICBjb25zdCBicm9rZW5GYXZpY29uS2V5cyA9IHJlZihuZXcgU2V0PHN0cmluZz4oKSk7CgogIGNvbnN0IGlzRmF2aWNvbkJyb2tlbiA9IChtYXBwaW5nOiBIb3N0TWFwcGluZyk6IGJvb2xlYW4gPT4KICAgIGJyb2tlbkZhdmljb25LZXlzLnZhbHVlLmhhcyhnZXRGYXZpY29uS2V5KG1hcHBpbmcpKTsKCiAgY29uc3QgbWFya0Zhdmljb25Ccm9rZW4gPSAobWFwcGluZzogSG9zdE1hcHBpbmcpID0+IHsKICAgIGNvbnN0IG5leHQgPSBuZXcgU2V0KGJyb2tlbkZhdmljb25LZXlzLnZhbHVlKTsKICAgIG5leHQuYWRkKGdldEZhdmljb25LZXkobWFwcGluZykpOwogICAgYnJva2VuRmF2aWNvbktleXMudmFsdWUgPSBuZXh0OwogIH07CgogIGNvbnN0IHJlc2V0RmF2aWNvbkVycm9ycyA9ICgpID0+IHsKICAgIGJyb2tlbkZhdmljb25LZXlzLnZhbHVlID0gbmV3IFNldCgpOwogIH07CgogIHJldHVybiB7CiAgICBpc0Zhdmljb25Ccm9rZW4sCiAgICBtYXJrRmF2aWNvbkJyb2tlbiwKICAgIHJlc2V0RmF2aWNvbkVycm9ycywKICB9Owp9Owo=
+import { ref } from "vue";
+import type { HostMapping } from "@/types";
+import { getFaviconKey } from "./model";
+
+export const useMappingFaviconState = () => {
+  const brokenFaviconKeys = ref(new Set<string>());
+
+  const isFaviconBroken = (mapping: HostMapping): boolean =>
+    brokenFaviconKeys.value.has(getFaviconKey(mapping));
+
+  const markFaviconBroken = (mapping: HostMapping) => {
+    const next = new Set(brokenFaviconKeys.value);
+    next.add(getFaviconKey(mapping));
+    brokenFaviconKeys.value = next;
+  };
+
+  const resetFaviconErrors = () => {
+    brokenFaviconKeys.value = new Set();
+  };
+
+  return {
+    isFaviconBroken,
+    markFaviconBroken,
+    resetFaviconErrors,
+  };
+};

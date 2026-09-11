@@ -1,1 +1,107 @@
-aW1wb3J0IHsgZmx1c2hQcm9taXNlcywgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBkZWZpbmVDb21wb25lbnQsIGggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyBiZWZvcmVFYWNoLCBkZXNjcmliZSwgZXhwZWN0LCBpdCwgdmkgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgdHlwZSB7IERhc2hib2FyZFN0YXRzIH0gZnJvbSAiLi4vc3JjL3R5cGVzIjsKCmNvbnN0IGFwaU1vY2tzID0gdmkuaG9pc3RlZCgoKSA9PiAoewogIGdldERkbnNTdGF0dXM6IHZpLmZuKCksCiAgZ2V0T3ZlcnZpZXc6IHZpLmZuKCksCiAgZ2V0U3RhdHM6IHZpLmZuKCksCn0pKTsKCnZpLm1vY2soIi4uL3NyYy9saWIvYXBpL2Rhc2hib2FyZCIsICgpID0+ICh7CiAgRGFzaGJvYXJkQVBJOiB7IGdldFN0YXRzOiBhcGlNb2Nrcy5nZXRTdGF0cyB9LAp9KSk7Cgp2aS5tb2NrKCIuLi9zcmMvbGliL2FwaS9kZG5zIiwgKCkgPT4gKHsKICBERE5TQVBJOiB7IGdldFN0YXR1czogYXBpTW9ja3MuZ2V0RGRuc1N0YXR1cyB9LAp9KSk7Cgp2aS5tb2NrKCIuLi9zcmMvbGliL2FwaS9zZWN1cml0eSIsICgpID0+ICh7CiAgU2VjdXJpdHlBUEk6IHsgZ2V0T3ZlcnZpZXc6IGFwaU1vY2tzLmdldE92ZXJ2aWV3IH0sCn0pKTsKCnZpLm1vY2soIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiLCAoKSA9PiAoewogIHRvYXN0OiB7IGVycm9yOiB2aS5mbigpIH0sCn0pKTsKCnZpLm1vY2soIi4uL3NyYy9jb21wb3NhYmxlcy91c2VWaXNpYmlsaXR5UG9sbGluZyIsICgpID0+ICh7CiAgY3JlYXRlVmlzaWJpbGl0eVBvbGxlcjogKCkgPT4gKHsKICAgIHN0YXJ0OiB2aS5mbigpLAogICAgc3RvcDogdmkuZm4oKSwKICAgIHN5bmM6IHZpLmZuKCksCiAgfSksCn0pKTsKCmltcG9ydCB7IHVzZURhc2hib2FyZERhdGEgfSBmcm9tICIuLi9zcmMvdmlld3MvZGFzaGJvYXJkL3VzZURhc2hib2FyZERhdGEiOwoKY29uc3QgZGFzaGJvYXJkU3RhdHMgPSAocmFuZ2VTZWM6IG51bWJlcikgPT4KICAoewogICAgcmFuZ2VTZWMsCiAgICBub3c6IHsgb25saW5lOiAwLCBlcnJvcjV4eFRvdGFsOiAwIH0sCiAgICB0b3RhbHM6IHsgaW5CeXRlczogMCwgb3V0Qnl0ZXM6IDAsIGVycm9yNXh4OiAwIH0sCiAgICBlcnJvcnM6IHsgZXJyb3I1eHgxZDogMCwgZXJyb3I1eHgxdzogMCB9LAogICAgdHJhZmZpYzogeyBlY2hhcnRzOiB7IHNlcmllczogW10gfSB9LAogIH0pIGFzIERhc2hib2FyZFN0YXRzOwoKZGVzY3JpYmUoInVzZURhc2hib2FyZERhdGEgcmFuZ2UgcmVmcmVzaCIsICgpID0+IHsKICBiZWZvcmVFYWNoKCgpID0+IHsKICAgIHZpLmNsZWFyQWxsTW9ja3MoKTsKICAgIGFwaU1vY2tzLmdldERkbnNTdGF0dXMubW9ja1Jlc29sdmVkVmFsdWUoeyBlbmFibGVkOiBmYWxzZSB9KTsKICAgIGFwaU1vY2tzLmdldE92ZXJ2aWV3Lm1vY2tJbXBsZW1lbnRhdGlvbigocmFuZ2VTZWM6IG51bWJlcikgPT4KICAgICAgUHJvbWlzZS5yZXNvbHZlKHsgcmFuZ2VTZWMsIHRvdGFsczoge30sIHNlcmllczoge30gfSksCiAgICApOwogIH0pOwoKICBpdCgicmVsb2FkcyB0aGUgbGF0ZXN0IHJhbmdlIHdoZW4gaXQgY2hhbmdlcyBkdXJpbmcgYW4gYWN0aXZlIHJlcXVlc3QiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCByZXF1ZXN0czogQXJyYXk8ewogICAgICByYW5nZVNlYzogbnVtYmVyOwogICAgICByZXNvbHZlOiAodmFsdWU6IERhc2hib2FyZFN0YXRzKSA9PiB2b2lkOwogICAgICBzaWduYWw6IEFib3J0U2lnbmFsOwogICAgfT4gPSBbXTsKICAgIGFwaU1vY2tzLmdldFN0YXRzLm1vY2tJbXBsZW1lbnRhdGlvbigKICAgICAgKHJhbmdlU2VjOiBudW1iZXIsIF9vcHRpb25zOiB1bmRlZmluZWQsIHNpZ25hbDogQWJvcnRTaWduYWwpID0+CiAgICAgICAgbmV3IFByb21pc2UoKHJlc29sdmUpID0+CiAgICAgICAgICByZXF1ZXN0cy5wdXNoKHsgcmFuZ2VTZWMsIHJlc29sdmUsIHNpZ25hbCB9KSwKICAgICAgICApLAogICAgKTsKCiAgICBsZXQgZGFzaGJvYXJkRGF0YSE6IFJldHVyblR5cGU8dHlwZW9mIHVzZURhc2hib2FyZERhdGE+OwogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KAogICAgICBkZWZpbmVDb21wb25lbnQoewogICAgICAgIHNldHVwKCkgewogICAgICAgICAgZGFzaGJvYXJkRGF0YSA9IHVzZURhc2hib2FyZERhdGEoewogICAgICAgICAgICBkaXNwb3NlVHVubmVsU3RhdHVzOiB2aS5mbigpLAogICAgICAgICAgICBzY2hlZHVsZVR1bm5lbFN0YXR1c0xvYWQ6IHZpLmZuKCksCiAgICAgICAgICAgIHN0YXJ0UmVhbHRpbWVQb2xsaW5nOiB2aS5mbigpLAogICAgICAgICAgICBzdG9wUmVhbHRpbWVQb2xsaW5nOiB2aS5mbigpLAogICAgICAgICAgICB0cmFuc2xhdGU6IChrZXkpID0+IGtleSwKICAgICAgICAgIH0pOwogICAgICAgICAgcmV0dXJuICgpID0+IGgoImRpdiIpOwogICAgICAgIH0sCiAgICAgIH0pLAogICAgKTsKCiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICBleHBlY3QocmVxdWVzdHMubWFwKCh7IHJhbmdlU2VjIH0pID0+IHJhbmdlU2VjKSkudG9FcXVhbChbMzYwMF0pOwoKICAgIGRhc2hib2FyZERhdGEucmFuZ2VLZXkudmFsdWUgPSAiMTVtIjsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKCiAgICBleHBlY3QocmVxdWVzdHMubWFwKCh7IHJhbmdlU2VjIH0pID0+IHJhbmdlU2VjKSkudG9FcXVhbChbMzYwMCwgOTAwXSk7CiAgICBleHBlY3QocmVxdWVzdHNbMF0hLnNpZ25hbC5hYm9ydGVkKS50b0JlKHRydWUpOwogICAgZXhwZWN0KGRhc2hib2FyZERhdGEuc3RhdHMudmFsdWUpLnRvQmVOdWxsKCk7CiAgICBleHBlY3QoZGFzaGJvYXJkRGF0YS5pc0luaXRpYWxpemluZy52YWx1ZSkudG9CZSh0cnVlKTsKCiAgICByZXF1ZXN0c1sxXSEucmVzb2x2ZShkYXNoYm9hcmRTdGF0cyg5MDApKTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKCiAgICBleHBlY3QoZGFzaGJvYXJkRGF0YS5zdGF0cy52YWx1ZT8ucmFuZ2VTZWMpLnRvQmUoOTAwKTsKICAgIGV4cGVjdChkYXNoYm9hcmREYXRhLmlzSW5pdGlhbGl6aW5nLnZhbHVlKS50b0JlKGZhbHNlKTsKCiAgICByZXF1ZXN0c1swXSEucmVzb2x2ZShkYXNoYm9hcmRTdGF0cygzNjAwKSk7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICBleHBlY3QoZGFzaGJvYXJkRGF0YS5zdGF0cy52YWx1ZT8ucmFuZ2VTZWMpLnRvQmUoOTAwKTsKICAgIHdyYXBwZXIudW5tb3VudCgpOwogIH0pOwp9KTsK
+import { flushPromises, mount } from "@vue/test-utils";
+import { defineComponent, h } from "vue";
+import { beforeEach, describe, expect, it, vi } from "vitest";
+import type { DashboardStats } from "../src/types";
+
+const apiMocks = vi.hoisted(() => ({
+  getDdnsStatus: vi.fn(),
+  getOverview: vi.fn(),
+  getStats: vi.fn(),
+}));
+
+vi.mock("../src/lib/api/dashboard", () => ({
+  DashboardAPI: { getStats: apiMocks.getStats },
+}));
+
+vi.mock("../src/lib/api/ddns", () => ({
+  DDNSAPI: { getStatus: apiMocks.getDdnsStatus },
+}));
+
+vi.mock("../src/lib/api/security", () => ({
+  SecurityAPI: { getOverview: apiMocks.getOverview },
+}));
+
+vi.mock("@admin-shared/utils/toast", () => ({
+  toast: { error: vi.fn() },
+}));
+
+vi.mock("../src/composables/useVisibilityPolling", () => ({
+  createVisibilityPoller: () => ({
+    start: vi.fn(),
+    stop: vi.fn(),
+    sync: vi.fn(),
+  }),
+}));
+
+import { useDashboardData } from "../src/views/dashboard/useDashboardData";
+
+const dashboardStats = (rangeSec: number) =>
+  ({
+    rangeSec,
+    now: { online: 0, error5xxTotal: 0 },
+    totals: { inBytes: 0, outBytes: 0, error5xx: 0 },
+    errors: { error5xx1d: 0, error5xx1w: 0 },
+    traffic: { echarts: { series: [] } },
+  }) as DashboardStats;
+
+describe("useDashboardData range refresh", () => {
+  beforeEach(() => {
+    vi.clearAllMocks();
+    apiMocks.getDdnsStatus.mockResolvedValue({ enabled: false });
+    apiMocks.getOverview.mockImplementation((rangeSec: number) =>
+      Promise.resolve({ rangeSec, totals: {}, series: {} }),
+    );
+  });
+
+  it("reloads the latest range when it changes during an active request", async () => {
+    const requests: Array<{
+      rangeSec: number;
+      resolve: (value: DashboardStats) => void;
+      signal: AbortSignal;
+    }> = [];
+    apiMocks.getStats.mockImplementation(
+      (rangeSec: number, _options: undefined, signal: AbortSignal) =>
+        new Promise((resolve) =>
+          requests.push({ rangeSec, resolve, signal }),
+        ),
+    );
+
+    let dashboardData!: ReturnType<typeof useDashboardData>;
+    const wrapper = mount(
+      defineComponent({
+        setup() {
+          dashboardData = useDashboardData({
+            disposeTunnelStatus: vi.fn(),
+            scheduleTunnelStatusLoad: vi.fn(),
+            startRealtimePolling: vi.fn(),
+            stopRealtimePolling: vi.fn(),
+            translate: (key) => key,
+          });
+          return () => h("div");
+        },
+      }),
+    );
+
+    await flushPromises();
+    expect(requests.map(({ rangeSec }) => rangeSec)).toEqual([3600]);
+
+    dashboardData.rangeKey.value = "15m";
+    await flushPromises();
+
+    expect(requests.map(({ rangeSec }) => rangeSec)).toEqual([3600, 900]);
+    expect(requests[0]!.signal.aborted).toBe(true);
+    expect(dashboardData.stats.value).toBeNull();
+    expect(dashboardData.isInitializing.value).toBe(true);
+
+    requests[1]!.resolve(dashboardStats(900));
+    await flushPromises();
+
+    expect(dashboardData.stats.value?.rangeSec).toBe(900);
+    expect(dashboardData.isInitializing.value).toBe(false);
+
+    requests[0]!.resolve(dashboardStats(3600));
+    await flushPromises();
+    expect(dashboardData.stats.value?.rangeSec).toBe(900);
+    wrapper.unmount();
+  });
+});

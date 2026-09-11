@@ -1,1 +1,168 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgp0eXBlIFByb3BlcnR5U2NoZW1hID0gewogIGNvbnN0Pzogc3RyaW5nIHwgbnVtYmVyIHwgYm9vbGVhbjsKICBlbnVtPzogQXJyYXk8c3RyaW5nIHwgbnVtYmVyPjsKICBmb3JtYXQ/OiBzdHJpbmc7CiAgaXRlbXM/OiBQcm9wZXJ0eVNjaGVtYTsKICBtYXhJdGVtcz86IG51bWJlcjsKICBtYXhpbXVtPzogbnVtYmVyOwogIG1pbmltdW0/OiBudW1iZXI7CiAgdW5pcXVlSXRlbXM/OiBib29sZWFuOwp9OwoKY29uc3QgY29udHJhY3QgPSBKU09OLnBhcnNlKAogIHJlYWRTb3VyY2UoIi4uLy4uLy4uL3BhY2thZ2VzL2FwaS1jb250cmFjdC9vcGVuYXBpLmpzb24iKSwKKSBhcyB7CiAgY29tcG9uZW50czogewogICAgc2NoZW1hczogUmVjb3JkPAogICAgICBzdHJpbmcsCiAgICAgIHsKICAgICAgICBwcm9wZXJ0aWVzPzogUmVjb3JkPHN0cmluZywgUHJvcGVydHlTY2hlbWE+OwogICAgICAgIHJlcXVpcmVkPzogc3RyaW5nW107CiAgICAgIH0KICAgID47CiAgfTsKICBwYXRoczogUmVjb3JkPAogICAgc3RyaW5nLAogICAgUmVjb3JkPHN0cmluZywgeyAieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiPzogc3RyaW5nIH0+CiAgPjsKfTsKCmRlc2NyaWJlKCJydW50aW1lIHNldHRpbmdzIEFQSSBjb250cmFjdCIsICgpID0+IHsKICBpdCgia2VlcHMgbG9jYWxlIGFuZCBhcHBlYXJhbmNlIHNldHRpbmdzIGJvdW5kIHRvIGFjdHVhbCB0eXBlZCByb3V0ZXJzIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBbbWV0aG9kLCBwYXRoXSBvZiBbCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2xvY2FsZSJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9jb25maWcvbG9jYWxlIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2FwcGVhcmFuY2UiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2FwcGVhcmFuY2UiXSwKICAgIF0gYXMgY29uc3QpIHsKICAgICAgYXNzZXJ0LmVxdWFsKAogICAgICAgIGNvbnRyYWN0LnBhdGhzW3BhdGhdPy5bbWV0aG9kXT8uWyJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSJdLAogICAgICAgICJ1dG9pcGEiLAogICAgICAgIGAke21ldGhvZC50b1VwcGVyQ2FzZSgpfSAke3BhdGh9YCwKICAgICAgKTsKICAgIH0KICB9KTsKCiAgaXQoImtlZXBzIHByb3h5IHByb3RvY29sIGFuZCBydW4gbW9kZSBwcm9tcHQgb3BlcmF0aW9ucyBib3VuZCB0byBhY3R1YWwgdHlwZWQgcm91dGVycyIsICgpID0+IHsKICAgIGZvciAoY29uc3QgW21ldGhvZCwgcGF0aF0gb2YgWwogICAgICBbImdldCIsICIvYXBpL2FkbWluL2NvbmZpZy9wcm94eV9wcm90b2NvbF9mb3JjZSJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9jb25maWcvcHJveHlfcHJvdG9jb2xfZm9yY2UiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9jb25maWcvcnVuX21vZGVfcHJvbXB0X3ByZWZlcmVuY2VzIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2NvbmZpZy9ydW5fbW9kZV9wcm9tcHRfcHJlZmVyZW5jZXMiXSwKICAgIF0gYXMgY29uc3QpIHsKICAgICAgYXNzZXJ0LmVxdWFsKAogICAgICAgIGNvbnRyYWN0LnBhdGhzW3BhdGhdPy5bbWV0aG9kXT8uWyJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSJdLAogICAgICAgICJ1dG9pcGEiLAogICAgICAgIGAke21ldGhvZC50b1VwcGVyQ2FzZSgpfSAke3BhdGh9YCwKICAgICAgKTsKICAgIH0KICB9KTsKCiAgaXQoImtlZXBzIHByb3RvY29sLCBIVFRQUywgYW5kIGRlZmF1bHQgcm91dGUgb3BlcmF0aW9ucyBib3VuZCB0byBhY3R1YWwgdHlwZWQgcm91dGVycyIsICgpID0+IHsKICAgIGZvciAoY29uc3QgW21ldGhvZCwgcGF0aF0gb2YgWwogICAgICBbImdldCIsICIvYXBpL2FkbWluL2NvbmZpZy9wcm90b2NvbF9tYXBwaW5nX2ZlYXR1cmUiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vY29uZmlnL3Byb3RvY29sX21hcHBpbmdfZmVhdHVyZSJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL2NvbmZpZy9hdXRvX2h0dHBzIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2NvbmZpZy9hdXRvX2h0dHBzIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2RlZmF1bHRfcm91dGUiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2RlZmF1bHRfcm91dGUiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2RlZmF1bHRfdHVubmVsIl0sCiAgICBdIGFzIGNvbnN0KSB7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICBjb250cmFjdC5wYXRoc1twYXRoXT8uW21ldGhvZF0/LlsieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiXSwKICAgICAgICAidXRvaXBhIiwKICAgICAgICBgJHttZXRob2QudG9VcHBlckNhc2UoKX0gJHtwYXRofWAsCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJrZWVwcyBmaXJld2FsbCBwb3J0IHNldHRpbmdzIGJvdW5kIHRvIHRoZSBhY3R1YWwgdHlwZWQgcm91dGVyIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBtZXRob2Qgb2YgWyJnZXQiLCAicG9zdCJdIGFzIGNvbnN0KSB7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9jb25maWcvZmlyZXdhbGxfYWRkaXRpb25hbF9wb3J0cyJdPy5bCiAgICAgICAgICBtZXRob2QKICAgICAgICBdPy5bIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIl0sCiAgICAgICAgInV0b2lwYSIsCiAgICAgICAgbWV0aG9kLnRvVXBwZXJDYXNlKCksCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJwcmVzZXJ2ZXMgY2xvc2VkIGVudW1zIGFuZCBhbHdheXMtcHJlc2VudCBydW50aW1lIHN0YXRlIiwgKCkgPT4gewogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLlBhbmVsQXBwZWFyYW5jZURhdGEucHJvcGVydGllcwogICAgICAgID8udGhlbWVfY29sb3JfcHJlc2V0Py5lbnVtLAogICAgICBbImRlZmF1bHQiLCAiaGVybWVzX29yYW5nZSIsICJwcnVzc2lhbl9ibHVlIiwgImR5bmFtaWNfd2hpdGUiXSwKICAgICk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuRGVmYXVsdFR1bm5lbFVwZGF0ZURhdGEucHJvcGVydGllcz8udHVubmVsCiAgICAgICAgPy5lbnVtLAogICAgICBbImZycCIsICJjbG91ZGZsYXJlZCJdLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLkF1dG9IdHRwc1J1bnRpbWVEYXRhLnByb3BlcnRpZXM/Lmxpc3Rlbl9wb3J0CiAgICAgICAgPy5jb25zdCwKICAgICAgODAsCiAgICApOwogICAgZm9yIChjb25zdCBmaWVsZCBvZiBbImxhc3RfZXJyb3IiLCAibGFzdF9lcnJvcl9hdCJdKSB7CiAgICAgIGFzc2VydC5vaygKICAgICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuQXV0b0h0dHBzUnVudGltZURhdGEucmVxdWlyZWQ/LmluY2x1ZGVzKAogICAgICAgICAgZmllbGQsCiAgICAgICAgKSwKICAgICAgKTsKICAgIH0KICB9KTsKCiAgaXQoImRvY3VtZW50cyBmaXJld2FsbCBhbmQgcHJvdG9jb2wgYXZhaWxhYmlsaXR5IGJvdW5kYXJpZXMiLCAoKSA9PiB7CiAgICBjb25zdCBwb3J0cyA9CiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5GaXJld2FsbEFkZGl0aW9uYWxQb3J0c1VwZGF0ZURhdGEucHJvcGVydGllcwogICAgICAgID8ucG9ydHM7CiAgICBhc3NlcnQuZXF1YWwocG9ydHM/Lm1heEl0ZW1zLCAxMjgpOwogICAgYXNzZXJ0LmVxdWFsKHBvcnRzPy51bmlxdWVJdGVtcywgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwocG9ydHM/Lml0ZW1zPy5taW5pbXVtLCAxKTsKICAgIGFzc2VydC5lcXVhbChwb3J0cz8uaXRlbXM/Lm1heGltdW0sIDY1XzUzNSk7CiAgICBhc3NlcnQub2soCiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5Qcm90b2NvbE1hcHBpbmdGZWF0dXJlRGF0YS5yZXF1aXJlZD8uaW5jbHVkZXMoCiAgICAgICAgImF2YWlsYWJpbGl0eSIsCiAgICAgICksCiAgICApOwogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLlJ1bk1vZGVQcm9tcHRQcmVmZXJlbmNlc1VwZGF0ZURhdGEucmVxdWlyZWQgPz8KICAgICAgICBbXSwKICAgICAgW10sCiAgICApOwogIH0pOwoKICBpdCgiZGVyaXZlcyBmcm9udGVuZCBzZXR0aW5ncyBtb2RlbHMgYW5kIHdyaXRlIHBheWxvYWRzIGZyb20gdGhlIGNvbnRyYWN0IiwgKCkgPT4gewogICAgY29uc3QgdHlwZXMgPQogICAgICByZWFkU291cmNlKCIuLi9zcmMvdHlwZXMvY29yZS50cyIpICsKICAgICAgcmVhZFNvdXJjZSgiLi4vc3JjL3R5cGVzL2dhdGV3YXkudHMiKTsKICAgIGNvbnN0IGNvbmZpZ0FwaSA9IHJlYWRTb3VyY2UoIi4uL3NyYy9saWIvYXBpL2NvbmZpZy1jb3JlLWFwaS50cyIpOwogICAgY29uc3Qgc3lzdGVtQXBpID0gcmVhZFNvdXJjZSgiLi4vc3JjL2xpYi9hcGkvc3lzdGVtLnRzIik7CiAgICBjb25zdCBjb25maWdTdG9yZSA9IHJlYWRTb3VyY2UoIi4uL3NyYy9zdG9yZS9jb25maWcudHMiKTsKCiAgICBmb3IgKGNvbnN0IHNjaGVtYSBvZiBbCiAgICAgICJQcm90b2NvbE1hcHBpbmdGZWF0dXJlRGF0YSIsCiAgICAgICJBdXRvSHR0cHNSdW50aW1lRGF0YSIsCiAgICAgICJBdXRvSHR0cHNEZXRhaWxzRGF0YSIsCiAgICAgICJGaXJld2FsbEFkZGl0aW9uYWxQb3J0c0RhdGEiLAogICAgICAiUHJveHlQcm90b2NvbEZvcmNlRGF0YSIsCiAgICBdKSB7CiAgICAgIGFzc2VydC5tYXRjaCh0eXBlcywgbmV3IFJlZ0V4cChgXFxbIiR7c2NoZW1hfSJcXF1gLCAidSIpLCBzY2hlbWEpOwogICAgfQogICAgYXNzZXJ0Lm1hdGNoKHN5c3RlbUFwaSwgL1xbIlJ1bk1vZGVQcm9tcHRQcmVmZXJlbmNlc0RhdGEiXF0vdSk7CiAgICBhc3NlcnQubWF0Y2goc3lzdGVtQXBpLCAvc2F0aXNmaWVzIEZpcmV3YWxsQWRkaXRpb25hbFBvcnRzVXBkYXRlL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNvbmZpZ0FwaSwgL3NhdGlzZmllcyBEZWZhdWx0VHVubmVsVXBkYXRlL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaCgKICAgICAgY29uZmlnU3RvcmUsCiAgICAgIC9zYXZlQXBwZWFyYW5jZUNvbmZpZ1wobmV4dDogUGFydGlhbDxBcHBlYXJhbmNlQ29uZmlnPlwpL3UsCiAgICApOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+type PropertySchema = {
+  const?: string | number | boolean;
+  enum?: Array<string | number>;
+  format?: string;
+  items?: PropertySchema;
+  maxItems?: number;
+  maximum?: number;
+  minimum?: number;
+  uniqueItems?: boolean;
+};
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  components: {
+    schemas: Record<
+      string,
+      {
+        properties?: Record<string, PropertySchema>;
+        required?: string[];
+      }
+    >;
+  };
+  paths: Record<
+    string,
+    Record<string, { "x-fn-knock-contract-source"?: string }>
+  >;
+};
+
+describe("runtime settings API contract", () => {
+  it("keeps locale and appearance settings bound to actual typed routers", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/config/locale"],
+      ["post", "/api/admin/config/locale"],
+      ["get", "/api/admin/config/appearance"],
+      ["post", "/api/admin/config/appearance"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("keeps proxy protocol and run mode prompt operations bound to actual typed routers", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/config/proxy_protocol_force"],
+      ["post", "/api/admin/config/proxy_protocol_force"],
+      ["get", "/api/admin/config/run_mode_prompt_preferences"],
+      ["post", "/api/admin/config/run_mode_prompt_preferences"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("keeps protocol, HTTPS, and default route operations bound to actual typed routers", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/config/protocol_mapping_feature"],
+      ["post", "/api/admin/config/protocol_mapping_feature"],
+      ["get", "/api/admin/config/auto_https"],
+      ["post", "/api/admin/config/auto_https"],
+      ["get", "/api/admin/config/default_route"],
+      ["post", "/api/admin/config/default_route"],
+      ["post", "/api/admin/config/default_tunnel"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("keeps firewall port settings bound to the actual typed router", () => {
+    for (const method of ["get", "post"] as const) {
+      assert.equal(
+        contract.paths["/api/admin/config/firewall_additional_ports"]?.[
+          method
+        ]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        method.toUpperCase(),
+      );
+    }
+  });
+
+  it("preserves closed enums and always-present runtime state", () => {
+    assert.deepEqual(
+      contract.components.schemas.PanelAppearanceData.properties
+        ?.theme_color_preset?.enum,
+      ["default", "hermes_orange", "prussian_blue", "dynamic_white"],
+    );
+    assert.deepEqual(
+      contract.components.schemas.DefaultTunnelUpdateData.properties?.tunnel
+        ?.enum,
+      ["frp", "cloudflared"],
+    );
+    assert.equal(
+      contract.components.schemas.AutoHttpsRuntimeData.properties?.listen_port
+        ?.const,
+      80,
+    );
+    for (const field of ["last_error", "last_error_at"]) {
+      assert.ok(
+        contract.components.schemas.AutoHttpsRuntimeData.required?.includes(
+          field,
+        ),
+      );
+    }
+  });
+
+  it("documents firewall and protocol availability boundaries", () => {
+    const ports =
+      contract.components.schemas.FirewallAdditionalPortsUpdateData.properties
+        ?.ports;
+    assert.equal(ports?.maxItems, 128);
+    assert.equal(ports?.uniqueItems, true);
+    assert.equal(ports?.items?.minimum, 1);
+    assert.equal(ports?.items?.maximum, 65_535);
+    assert.ok(
+      contract.components.schemas.ProtocolMappingFeatureData.required?.includes(
+        "availability",
+      ),
+    );
+    assert.deepEqual(
+      contract.components.schemas.RunModePromptPreferencesUpdateData.required ??
+        [],
+      [],
+    );
+  });
+
+  it("derives frontend settings models and write payloads from the contract", () => {
+    const types =
+      readSource("../src/types/core.ts") +
+      readSource("../src/types/gateway.ts");
+    const configApi = readSource("../src/lib/api/config-core-api.ts");
+    const systemApi = readSource("../src/lib/api/system.ts");
+    const configStore = readSource("../src/store/config.ts");
+
+    for (const schema of [
+      "ProtocolMappingFeatureData",
+      "AutoHttpsRuntimeData",
+      "AutoHttpsDetailsData",
+      "FirewallAdditionalPortsData",
+      "ProxyProtocolForceData",
+    ]) {
+      assert.match(types, new RegExp(`\\["${schema}"\\]`, "u"), schema);
+    }
+    assert.match(systemApi, /\["RunModePromptPreferencesData"\]/u);
+    assert.match(systemApi, /satisfies FirewallAdditionalPortsUpdate/u);
+    assert.match(configApi, /satisfies DefaultTunnelUpdate/u);
+    assert.doesNotMatch(
+      configStore,
+      /saveAppearanceConfig\(next: Partial<AppearanceConfig>\)/u,
+    );
+  });
+});

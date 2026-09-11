@@ -1,1 +1,40 @@
-aW1wb3J0IHR5cGUgeyBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgdHlwZSB7IFRlcm1pbmFsU2Vzc2lvblJlY29yZCB9IGZyb20gIkAvbGliL2FwaS90ZXJtaW5hbCI7CgpleHBvcnQgY29uc3QgdXNlVGVybWluYWxTZXNzaW9uUmVmcmVzaCA9CiAgKHsKICAgIGF0dGFjaG1lbnRTZXNzaW9uSWQsCiAgICBjb25uZWN0VG9TZXNzaW9uLAogICAgZGV0YWNoLAogICAgaXNEaXNwb3NlZCwKICAgIGxvYWRTZXNzaW9ucywKICAgIHJ1bnRpbWVSZXN0YXJ0ZWQsCiAgICBzZWxlY3RlZFNlc3Npb24sCiAgICBzZXNzaW9uRXhpc3RzLAogIH06IHsKICAgIGF0dGFjaG1lbnRTZXNzaW9uSWQ6IFJlZjxzdHJpbmc+OwogICAgY29ubmVjdFRvU2Vzc2lvbjogKHNlc3Npb246IFRlcm1pbmFsU2Vzc2lvblJlY29yZCkgPT4gUHJvbWlzZTx2b2lkPjsKICAgIGRldGFjaDogKCkgPT4gUHJvbWlzZTx2b2lkPjsKICAgIGlzRGlzcG9zZWQ6ICgpID0+IGJvb2xlYW47CiAgICBsb2FkU2Vzc2lvbnM6ICgpID0+IFByb21pc2U8Ym9vbGVhbj47CiAgICBydW50aW1lUmVzdGFydGVkOiBSZWY8Ym9vbGVhbj47CiAgICBzZWxlY3RlZFNlc3Npb246IFJlZjxUZXJtaW5hbFNlc3Npb25SZWNvcmQgfCBudWxsPjsKICAgIHNlc3Npb25FeGlzdHM6IChzZXNzaW9uSWQ6IHN0cmluZykgPT4gYm9vbGVhbjsKICB9KSA9PgogIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHByZXZpb3VzU2Vzc2lvbklkID0gYXR0YWNobWVudFNlc3Npb25JZC52YWx1ZTsKICAgIGNvbnN0IGFwcGxpZWQgPSBhd2FpdCBsb2FkU2Vzc2lvbnMoKTsKICAgIGlmICgKICAgICAgaXNEaXNwb3NlZCgpIHx8CiAgICAgICFhcHBsaWVkIHx8CiAgICAgICFwcmV2aW91c1Nlc3Npb25JZCB8fAogICAgICBhdHRhY2htZW50U2Vzc2lvbklkLnZhbHVlICE9PSBwcmV2aW91c1Nlc3Npb25JZCB8fAogICAgICBzZXNzaW9uRXhpc3RzKHByZXZpb3VzU2Vzc2lvbklkKQogICAgKSB7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGF3YWl0IGRldGFjaCgpOwogICAgaWYgKCFydW50aW1lUmVzdGFydGVkLnZhbHVlICYmIHNlbGVjdGVkU2Vzc2lvbi52YWx1ZSkgewogICAgICBhd2FpdCBjb25uZWN0VG9TZXNzaW9uKHNlbGVjdGVkU2Vzc2lvbi52YWx1ZSk7CiAgICB9CiAgfTsK
+import type { Ref } from "vue";
+import type { TerminalSessionRecord } from "@/lib/api/terminal";
+
+export const useTerminalSessionRefresh =
+  ({
+    attachmentSessionId,
+    connectToSession,
+    detach,
+    isDisposed,
+    loadSessions,
+    runtimeRestarted,
+    selectedSession,
+    sessionExists,
+  }: {
+    attachmentSessionId: Ref<string>;
+    connectToSession: (session: TerminalSessionRecord) => Promise<void>;
+    detach: () => Promise<void>;
+    isDisposed: () => boolean;
+    loadSessions: () => Promise<boolean>;
+    runtimeRestarted: Ref<boolean>;
+    selectedSession: Ref<TerminalSessionRecord | null>;
+    sessionExists: (sessionId: string) => boolean;
+  }) =>
+  async () => {
+    const previousSessionId = attachmentSessionId.value;
+    const applied = await loadSessions();
+    if (
+      isDisposed() ||
+      !applied ||
+      !previousSessionId ||
+      attachmentSessionId.value !== previousSessionId ||
+      sessionExists(previousSessionId)
+    ) {
+      return;
+    }
+    await detach();
+    if (!runtimeRestarted.value && selectedSession.value) {
+      await connectToSession(selectedSession.value);
+    }
+  };

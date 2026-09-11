@@ -1,1 +1,158 @@
-aW1wb3J0IHR5cGUgeyBDb21wdXRlZFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB0eXBlIHsgSG9zdE1hcHBpbmcsIEhvc3RNYXBwaW5nR3JvdXAgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsKICBhcHBseUhvc3RNYXBwaW5nR3JvdXBTZWN0aW9ucywKICBtb3ZlSG9zdE1hcHBpbmdzVG9Hcm91cCwKICByZXNvbHZlSG9zdE1hcHBpbmdHcm91cFNhdmVGZWVkYmFjaywKICB0eXBlIEhvc3RNYXBwaW5nR3JvdXBTYXZlRmVlZGJhY2ssCiAgdHlwZSBIb3N0TWFwcGluZ0dyb3VwU2VjdGlvbiwKfSBmcm9tICIuL2hvc3QtbWFwcGluZy1ncm91cHMiOwoKdHlwZSBSdW5Bc3luY0FjdGlvbiA9IDxUPihhY3Rpb246ICgpID0+IFByb21pc2U8VD4pID0+IFByb21pc2U8VCB8IHVuZGVmaW5lZD47Cgpjb25zdCBncm91cFNhdmVUb2FzdEtleXM6IFJlY29yZDxIb3N0TWFwcGluZ0dyb3VwU2F2ZUZlZWRiYWNrLCBzdHJpbmc+ID0gewogIGNyZWF0ZWQ6ICJhZG1pbi5zdWJkb21haW5Qcm94eS5ncm91cENyZWF0ZWQiLAogIHJlbmFtZWQ6ICJhZG1pbi5zdWJkb21haW5Qcm94eS5ncm91cFJlbmFtZWQiLAogIGRlbGV0ZWQ6ICJhZG1pbi5zdWJkb21haW5Qcm94eS5ncm91cERlbGV0ZWQiLAogIHJlb3JkZXJlZDogImFkbWluLnN1YmRvbWFpblByb3h5Lmdyb3VwT3JkZXJVcGRhdGVkIiwKICBzYXZlZDogImFkbWluLnN1YmRvbWFpblByb3h5Lmdyb3Vwc1NhdmVkIiwKfTsKCmNvbnN0IGhhc1NhbWVNYXBwaW5nT3JkZXJBbmRHcm91cHMgPSAoCiAgY3VycmVudE1hcHBpbmdzOiBIb3N0TWFwcGluZ1tdLAogIG5leHRNYXBwaW5nczogSG9zdE1hcHBpbmdbXSwKKTogYm9vbGVhbiA9PgogIGN1cnJlbnRNYXBwaW5ncy5sZW5ndGggPT09IG5leHRNYXBwaW5ncy5sZW5ndGggJiYKICBjdXJyZW50TWFwcGluZ3MuZXZlcnkoCiAgICAobWFwcGluZywgaW5kZXgpID0+CiAgICAgIG1hcHBpbmcuaG9zdCA9PT0gbmV4dE1hcHBpbmdzW2luZGV4XT8uaG9zdCAmJgogICAgICBtYXBwaW5nLmdyb3VwX2lkID09PSBuZXh0TWFwcGluZ3NbaW5kZXhdPy5ncm91cF9pZCwKICApOwoKZXhwb3J0IGNvbnN0IHVzZVN1YmRvbWFpbk1hcHBpbmdHcm91cHMgPSAoewogIGFsbE1hcHBpbmdzLAogIGdyb3VwZWRWaWV3LAogIGdyb3VwcywKICBpc0F1dGhTZXJ2aWNlVGFyZ2V0LAogIHJ1blNhdmVNYXBwaW5ncywKICBzYXZlQ2F0YWxvZywKICB0cmFuc2xhdGUsCn06IHsKICBhbGxNYXBwaW5nczogQ29tcHV0ZWRSZWY8SG9zdE1hcHBpbmdbXT47CiAgZ3JvdXBlZFZpZXc6IENvbXB1dGVkUmVmPGJvb2xlYW4+OwogIGdyb3VwczogQ29tcHV0ZWRSZWY8SG9zdE1hcHBpbmdHcm91cFtdPjsKICBpc0F1dGhTZXJ2aWNlVGFyZ2V0OiAodGFyZ2V0OiBzdHJpbmcpID0+IGJvb2xlYW47CiAgcnVuU2F2ZU1hcHBpbmdzOiBSdW5Bc3luY0FjdGlvbjsKICBzYXZlQ2F0YWxvZzogKAogICAgbWFwcGluZ3M6IEhvc3RNYXBwaW5nW10sCiAgICBncm91cHM6IEhvc3RNYXBwaW5nR3JvdXBbXSwKICAgIGdyb3VwZWRWaWV3PzogYm9vbGVhbiwKICApID0+IFByb21pc2U8dW5rbm93bj47CiAgdHJhbnNsYXRlOiAoa2V5OiBzdHJpbmcpID0+IHN0cmluZzsKfSkgPT4gewogIGNvbnN0IHNhdmVNYXBwaW5nR3JvdXBzID0gYXN5bmMgKAogICAgbmV4dEdyb3VwczogSG9zdE1hcHBpbmdHcm91cFtdLAogICAgb25Db21wbGV0ZT86IChzYXZlZDogYm9vbGVhbikgPT4gdm9pZCwKICApID0+IHsKICAgIGNvbnN0IGZlZWRiYWNrID0gcmVzb2x2ZUhvc3RNYXBwaW5nR3JvdXBTYXZlRmVlZGJhY2soCiAgICAgIGdyb3Vwcy52YWx1ZSwKICAgICAgbmV4dEdyb3VwcywKICAgICk7CiAgICBjb25zdCB2YWxpZElkcyA9IG5ldyBTZXQobmV4dEdyb3Vwcy5tYXAoKGdyb3VwKSA9PiBncm91cC5pZCkpOwogICAgY29uc3QgbmV4dE1hcHBpbmdzID0gYWxsTWFwcGluZ3MudmFsdWUubWFwKChtYXBwaW5nKSA9PiAoewogICAgICAuLi5tYXBwaW5nLAogICAgICBncm91cF9pZDoKICAgICAgICAhaXNBdXRoU2VydmljZVRhcmdldChtYXBwaW5nLnRhcmdldCkgJiYKICAgICAgICBtYXBwaW5nLmdyb3VwX2lkICYmCiAgICAgICAgdmFsaWRJZHMuaGFzKG1hcHBpbmcuZ3JvdXBfaWQpCiAgICAgICAgICA/IG1hcHBpbmcuZ3JvdXBfaWQKICAgICAgICAgIDogbnVsbCwKICAgIH0pKTsKICAgIGNvbnN0IHNhdmVkID0gYXdhaXQgcnVuU2F2ZU1hcHBpbmdzKGFzeW5jICgpID0+IHsKICAgICAgYXdhaXQgc2F2ZUNhdGFsb2cobmV4dE1hcHBpbmdzLCBuZXh0R3JvdXBzKTsKICAgICAgdG9hc3Quc3VjY2Vzcyh0cmFuc2xhdGUoZ3JvdXBTYXZlVG9hc3RLZXlzW2ZlZWRiYWNrXSkpOwogICAgICByZXR1cm4gdHJ1ZTsKICAgIH0pOwogICAgb25Db21wbGV0ZT8uKHNhdmVkID09PSB0cnVlKTsKICAgIHJldHVybiBzYXZlZCA9PT0gdHJ1ZTsKICB9OwoKICBjb25zdCBzYXZlR3JvdXBlZE1hcHBpbmdPcmRlciA9IGFzeW5jICgKICAgIHNlY3Rpb25zOiBIb3N0TWFwcGluZ0dyb3VwU2VjdGlvbltdLAogICkgPT4gewogICAgY29uc3QgbmV4dE1hcHBpbmdzID0gYXBwbHlIb3N0TWFwcGluZ0dyb3VwU2VjdGlvbnMoCiAgICAgIGFsbE1hcHBpbmdzLnZhbHVlLAogICAgICBzZWN0aW9ucywKICAgICAgaXNBdXRoU2VydmljZVRhcmdldCwKICAgICk7CiAgICBpZiAoaGFzU2FtZU1hcHBpbmdPcmRlckFuZEdyb3VwcyhhbGxNYXBwaW5ncy52YWx1ZSwgbmV4dE1hcHBpbmdzKSkgcmV0dXJuOwoKICAgIGNvbnN0IHByZXZpb3VzR3JvdXBzQnlIb3N0ID0gbmV3IE1hcCgKICAgICAgYWxsTWFwcGluZ3MudmFsdWUubWFwKChtYXBwaW5nKSA9PiBbbWFwcGluZy5ob3N0LCBtYXBwaW5nLmdyb3VwX2lkXSksCiAgICApOwogICAgY29uc3QgbW92ZWRBY3Jvc3NHcm91cHMgPSBuZXh0TWFwcGluZ3Muc29tZSgKICAgICAgKG1hcHBpbmcpID0+IHByZXZpb3VzR3JvdXBzQnlIb3N0LmdldChtYXBwaW5nLmhvc3QpICE9PSBtYXBwaW5nLmdyb3VwX2lkLAogICAgKTsKICAgIGF3YWl0IHJ1blNhdmVNYXBwaW5ncyhhc3luYyAoKSA9PiB7CiAgICAgIGF3YWl0IHNhdmVDYXRhbG9nKG5leHRNYXBwaW5ncywgZ3JvdXBzLnZhbHVlKTsKICAgICAgdG9hc3Quc3VjY2VzcygKICAgICAgICB0cmFuc2xhdGUoCiAgICAgICAgICBtb3ZlZEFjcm9zc0dyb3VwcwogICAgICAgICAgICA/ICJhZG1pbi5zdWJkb21haW5Qcm94eS5tYXBwaW5nc01vdmVkIgogICAgICAgICAgICA6ICJhZG1pbi5zdWJkb21haW5Qcm94eS5ncm91cGVkTWFwcGluZ09yZGVyVXBkYXRlZCIsCiAgICAgICAgKSwKICAgICAgKTsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9KTsKICB9OwoKICBjb25zdCBtb3ZlTWFwcGluZ3NUb0dyb3VwID0gYXN5bmMgKAogICAgaG9zdHM6IHN0cmluZ1tdLAogICAgZ3JvdXBJZDogc3RyaW5nIHwgbnVsbCwKICApOiBQcm9taXNlPGJvb2xlYW4+ID0+IHsKICAgIGNvbnN0IG5leHRNYXBwaW5ncyA9IG1vdmVIb3N0TWFwcGluZ3NUb0dyb3VwKAogICAgICBhbGxNYXBwaW5ncy52YWx1ZSwKICAgICAgbmV3IFNldChob3N0cyksCiAgICAgIGdyb3VwSWQsCiAgICApOwogICAgaWYgKGhhc1NhbWVNYXBwaW5nT3JkZXJBbmRHcm91cHMoYWxsTWFwcGluZ3MudmFsdWUsIG5leHRNYXBwaW5ncykpIHsKICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQoKICAgIGNvbnN0IHRhcmdldEdyb3VwTmFtZSA9CiAgICAgIChncm91cElkCiAgICAgICAgPyBncm91cHMudmFsdWUuZmluZCgoZ3JvdXApID0+IGdyb3VwLmlkID09PSBncm91cElkKT8ubmFtZQogICAgICAgIDogdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS51bmdyb3VwZWQiKSkgfHwgdW5kZWZpbmVkOwogICAgY29uc3Qgc2F2ZWQgPSBhd2FpdCBydW5TYXZlTWFwcGluZ3MoYXN5bmMgKCkgPT4gewogICAgICBhd2FpdCBzYXZlQ2F0YWxvZyhuZXh0TWFwcGluZ3MsIGdyb3Vwcy52YWx1ZSk7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5tYXBwaW5nc01vdmVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogdGFyZ2V0R3JvdXBOYW1lLAogICAgICB9KTsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9KTsKICAgIHJldHVybiBzYXZlZCA9PT0gdHJ1ZTsKICB9OwoKICBjb25zdCB1cGRhdGVIb3N0TWFwcGluZ0dyb3VwZWRWaWV3ID0gYXN5bmMgKHZhbHVlOiBib29sZWFuKSA9PiB7CiAgICBpZiAodmFsdWUgPT09IGdyb3VwZWRWaWV3LnZhbHVlKSByZXR1cm47CiAgICBhd2FpdCBydW5TYXZlTWFwcGluZ3MoYXN5bmMgKCkgPT4gewogICAgICBhd2FpdCBzYXZlQ2F0YWxvZyhhbGxNYXBwaW5ncy52YWx1ZSwgZ3JvdXBzLnZhbHVlLCB2YWx1ZSk7CiAgICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgICAgdHJhbnNsYXRlKAogICAgICAgICAgdmFsdWUKICAgICAgICAgICAgPyAiYWRtaW4uc3ViZG9tYWluUHJveHkuZ3JvdXBlZFZpZXdFbmFibGVkIgogICAgICAgICAgICA6ICJhZG1pbi5zdWJkb21haW5Qcm94eS5ncm91cGVkVmlld0Rpc2FibGVkIiwKICAgICAgICApLAogICAgICApOwogICAgICByZXR1cm4gdHJ1ZTsKICAgIH0pOwogIH07CgogIHJldHVybiB7CiAgICBtb3ZlTWFwcGluZ3NUb0dyb3VwLAogICAgc2F2ZUdyb3VwZWRNYXBwaW5nT3JkZXIsCiAgICBzYXZlTWFwcGluZ0dyb3VwcywKICAgIHVwZGF0ZUhvc3RNYXBwaW5nR3JvdXBlZFZpZXcsCiAgfTsKfTsK
+import type { ComputedRef } from "vue";
+import { toast } from "@admin-shared/utils/toast";
+import type { HostMapping, HostMappingGroup } from "@/types";
+import {
+  applyHostMappingGroupSections,
+  moveHostMappingsToGroup,
+  resolveHostMappingGroupSaveFeedback,
+  type HostMappingGroupSaveFeedback,
+  type HostMappingGroupSection,
+} from "./host-mapping-groups";
+
+type RunAsyncAction = <T>(action: () => Promise<T>) => Promise<T | undefined>;
+
+const groupSaveToastKeys: Record<HostMappingGroupSaveFeedback, string> = {
+  created: "admin.subdomainProxy.groupCreated",
+  renamed: "admin.subdomainProxy.groupRenamed",
+  deleted: "admin.subdomainProxy.groupDeleted",
+  reordered: "admin.subdomainProxy.groupOrderUpdated",
+  saved: "admin.subdomainProxy.groupsSaved",
+};
+
+const hasSameMappingOrderAndGroups = (
+  currentMappings: HostMapping[],
+  nextMappings: HostMapping[],
+): boolean =>
+  currentMappings.length === nextMappings.length &&
+  currentMappings.every(
+    (mapping, index) =>
+      mapping.host === nextMappings[index]?.host &&
+      mapping.group_id === nextMappings[index]?.group_id,
+  );
+
+export const useSubdomainMappingGroups = ({
+  allMappings,
+  groupedView,
+  groups,
+  isAuthServiceTarget,
+  runSaveMappings,
+  saveCatalog,
+  translate,
+}: {
+  allMappings: ComputedRef<HostMapping[]>;
+  groupedView: ComputedRef<boolean>;
+  groups: ComputedRef<HostMappingGroup[]>;
+  isAuthServiceTarget: (target: string) => boolean;
+  runSaveMappings: RunAsyncAction;
+  saveCatalog: (
+    mappings: HostMapping[],
+    groups: HostMappingGroup[],
+    groupedView?: boolean,
+  ) => Promise<unknown>;
+  translate: (key: string) => string;
+}) => {
+  const saveMappingGroups = async (
+    nextGroups: HostMappingGroup[],
+    onComplete?: (saved: boolean) => void,
+  ) => {
+    const feedback = resolveHostMappingGroupSaveFeedback(
+      groups.value,
+      nextGroups,
+    );
+    const validIds = new Set(nextGroups.map((group) => group.id));
+    const nextMappings = allMappings.value.map((mapping) => ({
+      ...mapping,
+      group_id:
+        !isAuthServiceTarget(mapping.target) &&
+        mapping.group_id &&
+        validIds.has(mapping.group_id)
+          ? mapping.group_id
+          : null,
+    }));
+    const saved = await runSaveMappings(async () => {
+      await saveCatalog(nextMappings, nextGroups);
+      toast.success(translate(groupSaveToastKeys[feedback]));
+      return true;
+    });
+    onComplete?.(saved === true);
+    return saved === true;
+  };
+
+  const saveGroupedMappingOrder = async (
+    sections: HostMappingGroupSection[],
+  ) => {
+    const nextMappings = applyHostMappingGroupSections(
+      allMappings.value,
+      sections,
+      isAuthServiceTarget,
+    );
+    if (hasSameMappingOrderAndGroups(allMappings.value, nextMappings)) return;
+
+    const previousGroupsByHost = new Map(
+      allMappings.value.map((mapping) => [mapping.host, mapping.group_id]),
+    );
+    const movedAcrossGroups = nextMappings.some(
+      (mapping) => previousGroupsByHost.get(mapping.host) !== mapping.group_id,
+    );
+    await runSaveMappings(async () => {
+      await saveCatalog(nextMappings, groups.value);
+      toast.success(
+        translate(
+          movedAcrossGroups
+            ? "admin.subdomainProxy.mappingsMoved"
+            : "admin.subdomainProxy.groupedMappingOrderUpdated",
+        ),
+      );
+      return true;
+    });
+  };
+
+  const moveMappingsToGroup = async (
+    hosts: string[],
+    groupId: string | null,
+  ): Promise<boolean> => {
+    const nextMappings = moveHostMappingsToGroup(
+      allMappings.value,
+      new Set(hosts),
+      groupId,
+    );
+    if (hasSameMappingOrderAndGroups(allMappings.value, nextMappings)) {
+      return false;
+    }
+
+    const targetGroupName =
+      (groupId
+        ? groups.value.find((group) => group.id === groupId)?.name
+        : translate("admin.subdomainProxy.ungrouped")) || undefined;
+    const saved = await runSaveMappings(async () => {
+      await saveCatalog(nextMappings, groups.value);
+      toast.success(translate("admin.subdomainProxy.mappingsMoved"), {
+        description: targetGroupName,
+      });
+      return true;
+    });
+    return saved === true;
+  };
+
+  const updateHostMappingGroupedView = async (value: boolean) => {
+    if (value === groupedView.value) return;
+    await runSaveMappings(async () => {
+      await saveCatalog(allMappings.value, groups.value, value);
+      toast.success(
+        translate(
+          value
+            ? "admin.subdomainProxy.groupedViewEnabled"
+            : "admin.subdomainProxy.groupedViewDisabled",
+        ),
+      );
+      return true;
+    });
+  };
+
+  return {
+    moveMappingsToGroup,
+    saveGroupedMappingOrder,
+    saveMappingGroups,
+    updateHostMappingGroupedView,
+  };
+};

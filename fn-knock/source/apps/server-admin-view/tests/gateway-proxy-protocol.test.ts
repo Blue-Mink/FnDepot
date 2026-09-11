@@ -1,1 +1,40 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWQgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7CgpkZXNjcmliZSgiZ2F0ZXdheSBQUk9YWSBQcm90b2NvbCBzZXR0aW5ncyIsICgpID0+IHsKICBpdCgia2VlcHMgYm90aCBvcGVyYXRpb25zIGFuZCBtYW5hZ2VkIHJ1bnRpbWUgZmllbGRzIGluIHRoZSB0eXBlZCBjb250cmFjdCIsICgpID0+IHsKICAgIGNvbnN0IG9wZW5hcGkgPSBKU09OLnBhcnNlKAogICAgICByZWFkKCIuLi8uLi8uLi9wYWNrYWdlcy9hcGktY29udHJhY3Qvb3BlbmFwaS5qc29uIiksCiAgICApOwogICAgY29uc3QgcGF0aCA9IG9wZW5hcGkucGF0aHNbIi9hcGkvYWRtaW4vY29uZmlnL2dhdGV3YXkvcHJveHktcHJvdG9jb2wiXTsKICAgIGFzc2VydC5vayhwYXRoLmdldCk7CiAgICBhc3NlcnQub2socGF0aC5wb3N0KTsKICAgIGNvbnN0IHNjaGVtYSA9IG9wZW5hcGkuY29tcG9uZW50cy5zY2hlbWFzLkdhdGV3YXlQcm94eVByb3RvY29sRGF0YTsKICAgIGFzc2VydC5kZWVwRXF1YWwoc2NoZW1hLnJlcXVpcmVkLnNvcnQoKSwgWwogICAgICAiZWZmZWN0aXZlX2VuYWJsZWQiLAogICAgICAiZW5hYmxlZCIsCiAgICAgICJtYW5hZ2VkX2ZycF9lbmFibGVkIiwKICAgICAgInRydXN0ZWRfc291cmNlcyIsCiAgICBdKTsKICB9KTsKCiAgaXQoInVzZXMgdGhlIGRlZGljYXRlZCBBUEkgZnJvbSBib3RoIHRoZSBzdW1tYXJ5IGFuZCBlZGl0b3IgZmxvd3MiLCAoKSA9PiB7CiAgICBjb25zdCBhcGkgPSByZWFkKCIuLi9zcmMvbGliL2FwaS9jb25maWctcHJveHktYXBpLnRzIik7CiAgICBjb25zdCBjb250cm9sbGVyID0gcmVhZCgKICAgICAgIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvdXNlR2F0ZXdheVNldHRpbmdzQ29udHJvbGxlci50cyIsCiAgICApOwogICAgY29uc3QgZWRpdG9yID0gcmVhZCgKICAgICAgIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvR2F0ZXdheVByb3h5UHJvdG9jb2xTZXR0aW5ncy52dWUiLAogICAgKTsKICAgIGFzc2VydC5tYXRjaChhcGksIC9nZXRHYXRld2F5UHJveHlQcm90b2NvbC91KTsKICAgIGFzc2VydC5tYXRjaChhcGksIC91cGRhdGVHYXRld2F5UHJveHlQcm90b2NvbC91KTsKICAgIGFzc2VydC5tYXRjaChjb250cm9sbGVyLCAvcHJveHlQcm90b2NvbFN1bW1hcnkvdSk7CiAgICBhc3NlcnQubWF0Y2goZWRpdG9yLCAvbWFuYWdlZF9mcnBfZW5hYmxlZC91KTsKICAgIGFzc2VydC5tYXRjaChlZGl0b3IsIC8wXC4wXC4wXC4wXC8wL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGVkaXRvciwgLzo6XC8wL3UpOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const read = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+describe("gateway PROXY Protocol settings", () => {
+  it("keeps both operations and managed runtime fields in the typed contract", () => {
+    const openapi = JSON.parse(
+      read("../../../packages/api-contract/openapi.json"),
+    );
+    const path = openapi.paths["/api/admin/config/gateway/proxy-protocol"];
+    assert.ok(path.get);
+    assert.ok(path.post);
+    const schema = openapi.components.schemas.GatewayProxyProtocolData;
+    assert.deepEqual(schema.required.sort(), [
+      "effective_enabled",
+      "enabled",
+      "managed_frp_enabled",
+      "trusted_sources",
+    ]);
+  });
+
+  it("uses the dedicated API from both the summary and editor flows", () => {
+    const api = read("../src/lib/api/config-proxy-api.ts");
+    const controller = read(
+      "../src/views/system-settings/useGatewaySettingsController.ts",
+    );
+    const editor = read(
+      "../src/views/system-settings/GatewayProxyProtocolSettings.vue",
+    );
+    assert.match(api, /getGatewayProxyProtocol/u);
+    assert.match(api, /updateGatewayProxyProtocol/u);
+    assert.match(controller, /proxyProtocolSummary/u);
+    assert.match(editor, /managed_frp_enabled/u);
+    assert.match(editor, /0\.0\.0\.0\/0/u);
+    assert.match(editor, /::\/0/u);
+  });
+});

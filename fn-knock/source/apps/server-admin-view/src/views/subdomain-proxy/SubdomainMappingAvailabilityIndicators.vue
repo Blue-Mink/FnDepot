@@ -1,1 +1,71 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IENpcmNsZU9mZiwgQ2xvY2sgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB0eXBlIHsgU3ViZG9tYWluTWFwcGluZ1N0YXR1c0luZGljYXRvcnNQcm9wcyB9IGZyb20gIi4vc3ViZG9tYWluLW1hcHBpbmctc3RhdHVzLWNvbnRyYWN0IjsKaW1wb3J0IFN1YmRvbWFpbk1hcHBpbmdTdGF0dXNUb29sdGlwIGZyb20gIi4vU3ViZG9tYWluTWFwcGluZ1N0YXR1c1Rvb2x0aXAudnVlIjsKCmRlZmluZVByb3BzPHsgbW9kZWw6IFN1YmRvbWFpbk1hcHBpbmdTdGF0dXNJbmRpY2F0b3JzUHJvcHMgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxCYWRnZQogICAgdi1pZj0ibW9kZWwuYXZhaWxhYmlsaXR5U3RhdGUgPT09ICdkaXNhYmxlZCciCiAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgY2xhc3M9ImdhcC0xIGJvcmRlci1tdXRlZC1mb3JlZ3JvdW5kLzMwIHB4LTEuNSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgPgogICAgPENpcmNsZU9mZiBjbGFzcz0iaC0zIHctMyIgLz4KICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmRpc2FibGVkQmFkZ2UiKSB9fQogIDwvQmFkZ2U+CgogIDxTdWJkb21haW5NYXBwaW5nU3RhdHVzVG9vbHRpcAogICAgdi1lbHNlLWlmPSJtb2RlbC5hdmFpbGFiaWxpdHlTdGF0ZSA9PT0gJ3NjaGVkdWxlZF9jbG9zZWQnIgogICAgOm1vZGVsPSJtb2RlbCIKICAgIHRvb2x0aXA9ImF2YWlsYWJpbGl0eSIKICA+CiAgICA8dGVtcGxhdGUgI3RyaWdnZXI9InsgaGFuZGxlQ2xpY2sgfSI+CiAgICAgIDxCYWRnZQogICAgICAgIGFzPSJidXR0b24iCiAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgY2xhc3M9ImlubGluZS1mbGV4IGgtNiB3LTYgY3Vyc29yLWhlbHAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtZnVsbCBib3JkZXItYW1iZXItNTAwLzM1IGJnLWFtYmVyLTUwMC81IHAtMCB0ZXh0LWFtYmVyLTcwMCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy1hbWJlci01MDAvMTAgZGFyazp0ZXh0LWFtYmVyLTMwMCIKICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uc3ViZG9tYWluUHJveHkudW5hdmFpbGFibGVCYWRnZScpIgogICAgICAgIEBjbGljaz0iaGFuZGxlQ2xpY2siCiAgICAgID4KICAgICAgICA8Q2xvY2sgY2xhc3M9ImgtMyB3LTMiIC8+CiAgICAgIDwvQmFkZ2U+CiAgICA8L3RlbXBsYXRlPgogICAgPHA+CiAgICAgIHt7CiAgICAgICAgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc2NoZWR1bGVDbG9zZWRUb29sdGlwIiwgewogICAgICAgICAgd2luZG93OiBtb2RlbC5hdmFpbGFiaWxpdHlXaW5kb3csCiAgICAgICAgfSkKICAgICAgfX0KICAgIDwvcD4KICA8L1N1YmRvbWFpbk1hcHBpbmdTdGF0dXNUb29sdGlwPgoKICA8U3ViZG9tYWluTWFwcGluZ1N0YXR1c1Rvb2x0aXAKICAgIHYtZWxzZS1pZj0ibW9kZWwuYXZhaWxhYmlsaXR5U3RhdGUgPT09ICdzY2hlZHVsZWRfb3BlbiciCiAgICA6bW9kZWw9Im1vZGVsIgogICAgdG9vbHRpcD0iYXZhaWxhYmlsaXR5IgogID4KICAgIDx0ZW1wbGF0ZSAjdHJpZ2dlcj0ieyBoYW5kbGVDbGljayB9Ij4KICAgICAgPGJ1dHRvbgogICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICBjbGFzcz0iaW5saW5lLWZsZXggaC01IHctNSBzaHJpbmstMCBjdXJzb3ItaGVscCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1tZCB0ZXh0LW11dGVkLWZvcmVncm91bmQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIGZvY3VzLXZpc2libGU6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0yIGZvY3VzLXZpc2libGU6cmluZy1yaW5nLzQwIgogICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5zY2hlZHVsZU9wZW5BcmlhJykiCiAgICAgICAgQGNsaWNrPSJoYW5kbGVDbGljayIKICAgICAgPgogICAgICAgIDxDbG9jayBjbGFzcz0iaC0zLjUgdy0zLjUiIC8+CiAgICAgIDwvYnV0dG9uPgogICAgPC90ZW1wbGF0ZT4KICAgIDxwPgogICAgICB7ewogICAgICAgIHQoImFkbWluLnN1YmRvbWFpblByb3h5LnNjaGVkdWxlT3BlblRvb2x0aXAiLCB7CiAgICAgICAgICB3aW5kb3c6IG1vZGVsLmF2YWlsYWJpbGl0eVdpbmRvdywKICAgICAgICB9KQogICAgICB9fQogICAgPC9wPgogIDwvU3ViZG9tYWluTWFwcGluZ1N0YXR1c1Rvb2x0aXA+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { CircleOff, Clock } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import type { SubdomainMappingStatusIndicatorsProps } from "./subdomain-mapping-status-contract";
+import SubdomainMappingStatusTooltip from "./SubdomainMappingStatusTooltip.vue";
+
+defineProps<{ model: SubdomainMappingStatusIndicatorsProps }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <Badge
+    v-if="model.availabilityState === 'disabled'"
+    variant="outline"
+    class="gap-1 border-muted-foreground/30 px-1.5 text-muted-foreground"
+  >
+    <CircleOff class="h-3 w-3" />
+    {{ t("admin.subdomainProxy.disabledBadge") }}
+  </Badge>
+
+  <SubdomainMappingStatusTooltip
+    v-else-if="model.availabilityState === 'scheduled_closed'"
+    :model="model"
+    tooltip="availability"
+  >
+    <template #trigger="{ handleClick }">
+      <Badge
+        as="button"
+        type="button"
+        variant="outline"
+        class="inline-flex h-6 w-6 cursor-help items-center justify-center rounded-full border-amber-500/35 bg-amber-500/5 p-0 text-amber-700 transition-colors hover:bg-amber-500/10 dark:text-amber-300"
+        :aria-label="t('admin.subdomainProxy.unavailableBadge')"
+        @click="handleClick"
+      >
+        <Clock class="h-3 w-3" />
+      </Badge>
+    </template>
+    <p>
+      {{
+        t("admin.subdomainProxy.scheduleClosedTooltip", {
+          window: model.availabilityWindow,
+        })
+      }}
+    </p>
+  </SubdomainMappingStatusTooltip>
+
+  <SubdomainMappingStatusTooltip
+    v-else-if="model.availabilityState === 'scheduled_open'"
+    :model="model"
+    tooltip="availability"
+  >
+    <template #trigger="{ handleClick }">
+      <button
+        type="button"
+        class="inline-flex h-5 w-5 shrink-0 cursor-help items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-muted hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/40"
+        :aria-label="t('admin.subdomainProxy.scheduleOpenAria')"
+        @click="handleClick"
+      >
+        <Clock class="h-3.5 w-3.5" />
+      </button>
+    </template>
+    <p>
+      {{
+        t("admin.subdomainProxy.scheduleOpenTooltip", {
+          window: model.availabilityWindow,
+        })
+      }}
+    </p>
+  </SubdomainMappingStatusTooltip>
+</template>

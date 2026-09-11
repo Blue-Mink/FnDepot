@@ -1,1 +1,6 @@
-ewogICJkZWZhdWx0cyI6IHsKICAgICJydW4tYXMiOiAicGFja2FnZSIKICB9LAogICJqb2luLWdyb3VwbmFtZSI6ICJzeXN0ZW0iCn0K
+{
+  "defaults": {
+    "run-as": "package"
+  },
+  "join-groupname": "system"
+}

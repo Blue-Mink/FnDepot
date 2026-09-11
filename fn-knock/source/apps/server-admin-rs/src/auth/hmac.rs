@@ -1,1 +1,433 @@
-dXNlIGF4dW06OnsKICAgIGJvZHk6OntCb2R5LCB0b19ieXRlc30sCiAgICBleHRyYWN0OjpTdGF0ZSwKICAgIGh0dHA6OntIZWFkZXJNYXAsIFJlcXVlc3QsIFN0YXR1c0NvZGUsIGhlYWRlciwgdXJpOjpBdXRob3JpdHl9LAogICAgbWlkZGxld2FyZTo6TmV4dCwKICAgIHJlc3BvbnNlOjpSZXNwb25zZSwKfTsKdXNlIGhtYWM6OntIbWFjLCBNYWN9Owp1c2Ugc2hhMjo6e0RpZ2VzdCwgU2hhMjU2fTsKdXNlIHN1YnRsZTo6Q29uc3RhbnRUaW1lRXE7Cgp1c2UgY3JhdGU6OntpMThuOjpUcmFuc2xhdG9yLCByZXNwb25zZSwgc3RhdGU6OkFwcFN0YXRlLCB0aW1lX3V0aWxzfTsKCnR5cGUgSG1hY1NoYTI1NiA9IEhtYWM8U2hhMjU2PjsKY29uc3QgTUFYX1NJR05FRF9SRVFVRVNUX0JPRFlfQllURVM6IHVzaXplID0gNCAqIDEwMjQgKiAxMDI0OwoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnKV0KcHViKGNyYXRlKSBzdHJ1Y3QgVmVyaWZpZWRJbnRlcm5hbFJlcXVlc3Q7CgpmbiBobWFjX3RleHQodHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsIGtleTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGxldCB0cmFuc2xhdGlvbl9rZXkgPSBmb3JtYXQhKCJzZXJ2ZXIuaG1hYy57a2V5fSIpOwogICAgbWF0Y2gga2V5IHsKICAgICAgICAibWlzc2luZ0hlYWRlcnMiID0+IHRyYW5zbGF0b3IudF93aXRoX2ZhbGxiYWNrKAogICAgICAgICAgICAmdHJhbnNsYXRpb25fa2V5LAogICAgICAgICAgICAiTWlzc2luZyBSZXF1aXJlZCBTZWN1cml0eSBIZWFkZXJzICh4LXRpbWVzdGFtcCwgeC1ub25jZSwgeC1zaWduYXR1cmUpIiwKICAgICAgICApLAogICAgICAgICJpbnZhbGlkVGltZXN0YW1wRm9ybWF0IiA9PiB7CiAgICAgICAgICAgIHRyYW5zbGF0b3IudF93aXRoX2ZhbGxiYWNrKCZ0cmFuc2xhdGlvbl9rZXksICJJbnZhbGlkIFRpbWVzdGFtcCBGb3JtYXQiKQogICAgICAgIH0KICAgICAgICAiaW52YWxpZE5vbmNlTGVuZ3RoIiA9PiB7CiAgICAgICAgICAgIHRyYW5zbGF0b3IudF93aXRoX2ZhbGxiYWNrKCZ0cmFuc2xhdGlvbl9rZXksICJJbnZhbGlkIE5vbmNlIExlbmd0aCIpCiAgICAgICAgfQogICAgICAgIF8gPT4gdHJhbnNsYXRvci50KCZ0cmFuc2xhdGlvbl9rZXkpLAogICAgfQp9Cgphc3luYyBmbiBobWFjX2Vycm9yKHN0YXRlOiAmQXBwU3RhdGUsIHN0YXR1czogU3RhdHVzQ29kZSwga2V5OiAmc3RyKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoc3RhdGUpLmF3YWl0OwogICAgcmVzcG9uc2U6OmVycm9yKHN0YXR1cywgaG1hY190ZXh0KCZ0cmFuc2xhdG9yLCBrZXkpKQp9CgpwdWIgYXN5bmMgZm4gaG1hY19taWRkbGV3YXJlKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICByZXE6IFJlcXVlc3Q8Qm9keT4sCiAgICBuZXh0OiBOZXh0LAopIC0+IFJlc3BvbnNlIHsKICAgIGlmICFyZXF1aXJlc19obWFjKHJlcS51cmkoKS5wYXRoKCkpIHsKICAgICAgICByZXR1cm4gbmV4dC5ydW4ocmVxKS5hd2FpdDsKICAgIH0KCiAgICAvLyBQdWJsaWMtaG9zdCByZXF1ZXN0cyBhcmUgc2VydmVkIGRpcmVjdGx5IGJ5IFJ1c3QgYW5kIGFyZSBwcm90ZWN0ZWQgYnkKICAgIC8vIGVuZHBvaW50IGNyZWRlbnRpYWxzLiBUaGUgR28gZ2F0ZXdheSByZXdyaXRlcyBpdHMgbG9vcGJhY2sgdXBzdHJlYW0KICAgIC8vIEhvc3QsIHdoaWNoIHNlbGVjdHMgdGhlIGludGVybmFsIHNpZ25lZCBjaGFubmVsLiBTZWxlY3RpbmcgYnkgSG9zdAogICAgLy8gcHJldmVudHMgc3RyaXBwaW5nIGFsbCB0aHJlZSBzaWduaW5nIGhlYWRlcnMgZnJvbSBkb3duZ3JhZGluZyBhbgogICAgLy8gaW50ZXJuYWwgcmVxdWVzdCB0byBhbiB1bnNpZ25lZCBvbmUuCiAgICBpZiAhdXNlc19sb29wYmFja19hdXRob3JpdHkocmVxLmhlYWRlcnMoKSkgewogICAgICAgIHJldHVybiBuZXh0LnJ1bihyZXEpLmF3YWl0OwogICAgfQoKICAgIGxldCBzZWNyZXQgPSBzdGF0ZS5zZXR0aW5ncy5obWFjX3NlY3JldC50cmltKCk7CiAgICBpZiBzZWNyZXQuaXNfZW1wdHkoKSB7CiAgICAgICAgdHJhY2luZzo6ZXJyb3IhKHBhdGggPSAlcmVxLnVyaSgpLnBhdGgoKSwgIkhNQUMgc2VjcmV0IGlzIHVuYXZhaWxhYmxlOyByZWplY3RpbmcgcHJvdGVjdGVkIHJlcXVlc3QiKTsKICAgICAgICByZXR1cm4gaG1hY19lcnJvcigmc3RhdGUsIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwgImludmFsaWRLZXkiKS5hd2FpdDsKICAgIH0KCiAgICBsZXQgaGVhZGVycyA9IG1hdGNoIHBhcnNlX2htYWNfaGVhZGVycyhyZXEuaGVhZGVycygpKSB7CiAgICAgICAgT2soaGVhZGVycykgPT4gaGVhZGVycywKICAgICAgICBFcnIoKHN0YXR1cywga2V5KSkgPT4gcmV0dXJuIGhtYWNfZXJyb3IoJnN0YXRlLCBzdGF0dXMsIGtleSkuYXdhaXQsCiAgICB9OwoKICAgIGlmICh0aW1lX3V0aWxzOjpub3dfbXMoKSAtIGhlYWRlcnMudGltZXN0YW1wX21zKS5hYnMoKSA+IDUgKiA2MCAqIDEwMDAgewogICAgICAgIHJldHVybiBobWFjX2Vycm9yKCZzdGF0ZSwgU3RhdHVzQ29kZTo6VU5BVVRIT1JJWkVELCAidGltZXN0YW1wRXhwaXJlZCIpLmF3YWl0OwogICAgfQoKICAgIGxldCAocGFydHMsIGJvZHkpID0gcmVxLmludG9fcGFydHMoKTsKICAgIGxldCBib2R5ID0gbWF0Y2ggdG9fYnl0ZXMoYm9keSwgTUFYX1NJR05FRF9SRVFVRVNUX0JPRFlfQllURVMpLmF3YWl0IHsKICAgICAgICBPayhib2R5KSA9PiBib2R5LAogICAgICAgIEVycihfKSA9PiB7CiAgICAgICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpQQVlMT0FEX1RPT19MQVJHRSwKICAgICAgICAgICAgICAgICJTaWduZWQgcmVxdWVzdCBib2R5IGlzIHRvbyBsYXJnZSIsCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfTsKICAgIGxldCBtZXNzYWdlID0gY2Fub25pY2FsX3JlcXVlc3RfbWVzc2FnZSgKICAgICAgICBwYXJ0cy5tZXRob2QuYXNfc3RyKCksCiAgICAgICAgcGFydHMKICAgICAgICAgICAgLnVyaQogICAgICAgICAgICAucGF0aF9hbmRfcXVlcnkoKQogICAgICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUuYXNfc3RyKCkpCiAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCBwYXJ0cy51cmkucGF0aCgpKSwKICAgICAgICAmYm9keSwKICAgICAgICAmaGVhZGVycy50aW1lc3RhbXAsCiAgICAgICAgJmhlYWRlcnMubm9uY2UsCiAgICApOwogICAgbGV0IG11dCBtYWMgPSBtYXRjaCBIbWFjU2hhMjU2OjpuZXdfZnJvbV9zbGljZShzZWNyZXQuYXNfYnl0ZXMoKSkgewogICAgICAgIE9rKG1hYykgPT4gbWFjLAogICAgICAgIEVycihfKSA9PiByZXR1cm4gaG1hY19lcnJvcigmc3RhdGUsIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwgImludmFsaWRLZXkiKS5hd2FpdCwKICAgIH07CiAgICBtYWMudXBkYXRlKG1lc3NhZ2UuYXNfYnl0ZXMoKSk7CiAgICBsZXQgZXhwZWN0ZWQgPSBoZXg6OmVuY29kZShtYWMuZmluYWxpemUoKS5pbnRvX2J5dGVzKCkpOwogICAgaWYgZXhwZWN0ZWQKICAgICAgICAuYXNfYnl0ZXMoKQogICAgICAgIC5jdF9lcShoZWFkZXJzLnNpZ25hdHVyZS5hc19ieXRlcygpKQogICAgICAgIC51bndyYXBfdTgoKQogICAgICAgICE9IDEKICAgIHsKICAgICAgICByZXR1cm4gaG1hY19lcnJvcigmc3RhdGUsIFN0YXR1c0NvZGU6OlVOQVVUSE9SSVpFRCwgImludmFsaWRTaWduYXR1cmUiKS5hd2FpdDsKICAgIH0KCiAgICBtYXRjaCBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNldF9ub25jZV9pZl9ub3RfZXhpc3RzKCZoZWFkZXJzLm5vbmNlLCA2MDApCiAgICAgICAgLmF3YWl0CiAgICB7CiAgICAgICAgT2sodHJ1ZSkgPT4gewogICAgICAgICAgICBsZXQgbXV0IHJlcXVlc3QgPSBSZXF1ZXN0Ojpmcm9tX3BhcnRzKHBhcnRzLCBCb2R5Ojpmcm9tKGJvZHkpKTsKICAgICAgICAgICAgcmVxdWVzdC5leHRlbnNpb25zX211dCgpLmluc2VydChWZXJpZmllZEludGVybmFsUmVxdWVzdCk7CiAgICAgICAgICAgIG5leHQucnVuKHJlcXVlc3QpLmF3YWl0CiAgICAgICAgfQogICAgICAgIE9rKGZhbHNlKSA9PiBobWFjX2Vycm9yKCZzdGF0ZSwgU3RhdHVzQ29kZTo6VU5BVVRIT1JJWkVELCAibm9uY2VSZXVzZWQiKS5hd2FpdCwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIHN0b3JlIEhNQUMgbm9uY2UiKTsKICAgICAgICAgICAgaG1hY19lcnJvcigKICAgICAgICAgICAgICAgICZzdGF0ZSwKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgICJub25jZVZlcmlmeUZhaWxlZCIsCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgfQogICAgfQp9CgpmbiB1c2VzX2xvb3BiYWNrX2F1dGhvcml0eShoZWFkZXJzOiAmSGVhZGVyTWFwKSAtPiBib29sIHsKICAgIGxldCBTb21lKGF1dGhvcml0eSkgPSBoZWFkZXJzCiAgICAgICAgLmdldChoZWFkZXI6OkhPU1QpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUudG9fc3RyKCkub2soKSkKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5wYXJzZTo6PEF1dGhvcml0eT4oKS5vaygpKQogICAgZWxzZSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfTsKICAgIGxldCBob3N0ID0gYXV0aG9yaXR5Lmhvc3QoKTsKICAgIGxldCBpcF9ob3N0ID0gaG9zdAogICAgICAgIC5zdHJpcF9wcmVmaXgoJ1snKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnN0cmlwX3N1ZmZpeCgnXScpKQogICAgICAgIC51bndyYXBfb3IoaG9zdCk7CiAgICBob3N0LmVxX2lnbm9yZV9hc2NpaV9jYXNlKCJsb2NhbGhvc3QiKQogICAgICAgIHx8IGlwX2hvc3QKICAgICAgICAgICAgLnBhcnNlOjo8c3RkOjpuZXQ6OklwQWRkcj4oKQogICAgICAgICAgICAuaXNfb2tfYW5kKHxhZGRyZXNzfCBhZGRyZXNzLmlzX2xvb3BiYWNrKCkpCn0KCmZuIGNhbm9uaWNhbF9yZXF1ZXN0X21lc3NhZ2UoCiAgICBtZXRob2Q6ICZzdHIsCiAgICBwYXRoX2FuZF9xdWVyeTogJnN0ciwKICAgIGJvZHk6ICZbdThdLAogICAgdGltZXN0YW1wOiAmc3RyLAogICAgbm9uY2U6ICZzdHIsCikgLT4gU3RyaW5nIHsKICAgIGxldCBib2R5X2RpZ2VzdCA9IGhleDo6ZW5jb2RlKFNoYTI1Njo6ZGlnZXN0KGJvZHkpKTsKICAgIGZvcm1hdCEoCiAgICAgICAgImZuLWtub2NrLXYxXG57fVxue31cbnt9XG57fVxue30iLAogICAgICAgIG1ldGhvZC50b19hc2NpaV91cHBlcmNhc2UoKSwKICAgICAgICBwYXRoX2FuZF9xdWVyeSwKICAgICAgICBib2R5X2RpZ2VzdCwKICAgICAgICB0aW1lc3RhbXAsCiAgICAgICAgbm9uY2UKICAgICkKfQoKI1tkZXJpdmUoRGVidWcsIFBhcnRpYWxFcSwgRXEpXQpzdHJ1Y3QgUGFyc2VkSG1hY0hlYWRlcnMgewogICAgdGltZXN0YW1wOiBTdHJpbmcsCiAgICB0aW1lc3RhbXBfbXM6IGk2NCwKICAgIG5vbmNlOiBTdHJpbmcsCiAgICBzaWduYXR1cmU6IFN0cmluZywKfQoKZm4gcGFyc2VfaG1hY19oZWFkZXJzKAogICAgaGVhZGVyczogJkhlYWRlck1hcCwKKSAtPiBSZXN1bHQ8UGFyc2VkSG1hY0hlYWRlcnMsIChTdGF0dXNDb2RlLCAmJ3N0YXRpYyBzdHIpPiB7CiAgICBsZXQgU29tZSh0aW1lc3RhbXApID0gaGVhZGVyX3ZhbHVlKGhlYWRlcnMsICJ4LXRpbWVzdGFtcCIpIGVsc2UgewogICAgICAgIHJldHVybiBFcnIoKFN0YXR1c0NvZGU6OlVOQVVUSE9SSVpFRCwgIm1pc3NpbmdIZWFkZXJzIikpOwogICAgfTsKICAgIGxldCBTb21lKG5vbmNlKSA9IGhlYWRlcl92YWx1ZShoZWFkZXJzLCAieC1ub25jZSIpIGVsc2UgewogICAgICAgIHJldHVybiBFcnIoKFN0YXR1c0NvZGU6OlVOQVVUSE9SSVpFRCwgIm1pc3NpbmdIZWFkZXJzIikpOwogICAgfTsKICAgIGxldCBTb21lKHNpZ25hdHVyZSkgPSBoZWFkZXJfdmFsdWUoaGVhZGVycywgIngtc2lnbmF0dXJlIikgZWxzZSB7CiAgICAgICAgcmV0dXJuIEVycigoU3RhdHVzQ29kZTo6VU5BVVRIT1JJWkVELCAibWlzc2luZ0hlYWRlcnMiKSk7CiAgICB9OwogICAgbGV0IFNvbWUodGltZXN0YW1wX21zKSA9IHBhcnNlX2pzX3BhcnNlX2ludF9yYWRpeF8xMCgmdGltZXN0YW1wKSBlbHNlIHsKICAgICAgICByZXR1cm4gRXJyKChTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwgImludmFsaWRUaW1lc3RhbXBGb3JtYXQiKSk7CiAgICB9OwogICAgaWYgbm9uY2UubGVuKCkgPCA4IHsKICAgICAgICByZXR1cm4gRXJyKChTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwgImludmFsaWROb25jZUxlbmd0aCIpKTsKICAgIH0KCiAgICBPayhQYXJzZWRIbWFjSGVhZGVycyB7CiAgICAgICAgdGltZXN0YW1wLAogICAgICAgIHRpbWVzdGFtcF9tcywKICAgICAgICBub25jZSwKICAgICAgICBzaWduYXR1cmU6IHNpZ25hdHVyZS50b19hc2NpaV9sb3dlcmNhc2UoKSwKICAgIH0pCn0KCmZuIGhlYWRlcl92YWx1ZShoZWFkZXJzOiAmSGVhZGVyTWFwLCBuYW1lOiAmc3RyKSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBoZWFkZXJzCiAgICAgICAgLmdldChuYW1lKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnRvX3N0cigpLm9rKCkpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCn0KCnVzZSBjcmF0ZTo6bm9kZV9jb21wYXQ6OnBhcnNlX2k2NF9wcmVmaXhfdHJpbV9zdGFydCBhcyBwYXJzZV9qc19wYXJzZV9pbnRfcmFkaXhfMTA7CgpmbiByZXF1aXJlc19obWFjKHBhdGg6ICZzdHIpIC0+IGJvb2wgewogICAgbGV0IG5vcm1hbGl6ZWQgPSBub3JtYWxpemVfYXV0aF9hcGlfcGF0aChwYXRoKTsKICAgIGlmICFub3JtYWxpemVkLnN0YXJ0c193aXRoKCIvYXBpIikgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBjb25zdCBJR05PUkVEX1BBVEhTOiAmWyZzdHJdID0gJlsKICAgICAgICAiL2FwaS9hdXRoL2NoYWxsZW5nZSIsCiAgICAgICAgIi9hcGkvYXV0aC92ZXJpZnkiLAogICAgICAgICIvYXBpL2F1dGgvbG9nb3V0IiwKICAgICAgICAiL2FwaS9hdXRoL3ByZWZsaWdodCIsCiAgICAgICAgIi9hcGkvYXV0aC9vaWRjL2JpbmQiLAogICAgICAgICIvYXBpL2F1dGgvb2lkYy9iaW5kLyIsCiAgICAgICAgIi9hcGkvYXV0aC9vaWRjL2NsaWVudC1tZXRhZGF0YSIsCiAgICAgICAgIi9hcGkvaW50ZXJuYWwvc3lzdGVtLWV2ZW50cyIsCiAgICBdOwogICAgY29uc3QgSUdOT1JFRF9QQVRIX1BSRUZJWEVTOiAmWyZzdHJdID0gJlsiL2FwaS9hdXRoL29pZGMvY2FsbGJhY2svIl07CgogICAgaWYgSUdOT1JFRF9QQVRIUy5jb250YWlucygmbm9ybWFsaXplZC5hc19zdHIoKSkgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KICAgIGlmIElHTk9SRURfUEFUSF9QUkVGSVhFUwogICAgICAgIC5pdGVyKCkKICAgICAgICAuYW55KHxwcmVmaXh8IG5vcm1hbGl6ZWQuc3RhcnRzX3dpdGgocHJlZml4KSkKICAgIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CgogICAgdHJ1ZQp9CgpmbiBub3JtYWxpemVfYXV0aF9hcGlfcGF0aChwYXRoOiAmc3RyKSAtPiBTdHJpbmcgewogICAgaWYgcGF0aC5zdGFydHNfd2l0aCgiL2F1dGgvYXBpIikgewogICAgICAgIHJldHVybiBwYXRoWyIvYXV0aCIubGVuKCkuLl0udG9fc3RyaW5nKCk7CiAgICB9CiAgICBpZiBwYXRoLnN0YXJ0c193aXRoKCIvX19hdXRoX18vYXBpIikgewogICAgICAgIHJldHVybiBwYXRoWyIvX19hdXRoX18iLmxlbigpLi5dLnRvX3N0cmluZygpOwogICAgfQogICAgcGF0aC50b19zdHJpbmcoKQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKCiAgICAjW3Rlc3RdCiAgICBmbiBjYW5vbmljYWxfc2lnbmF0dXJlX2JpbmRzX21ldGhvZF91cmlfYW5kX2JvZHkoKSB7CiAgICAgICAgbGV0IG1lc3NhZ2UgPSBjYW5vbmljYWxfcmVxdWVzdF9tZXNzYWdlKAogICAgICAgICAgICAicG9zdCIsCiAgICAgICAgICAgICIvYXBpL2F1dGgvd29sL3RhcmdldHMvZGV2aWNlLTEvd2FrZT9hdWRpdD0xIiwKICAgICAgICAgICAgYiJhYmMiLAogICAgICAgICAgICAiMTcwMDAwMDAwMDAwMCIsCiAgICAgICAgICAgICIwMDExMjIzMzQ0NTU2Njc3IiwKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIG1lc3NhZ2UsCiAgICAgICAgICAgIGNvbmNhdCEoCiAgICAgICAgICAgICAgICAiZm4ta25vY2stdjFcbiIsCiAgICAgICAgICAgICAgICAiUE9TVFxuIiwKICAgICAgICAgICAgICAgICIvYXBpL2F1dGgvd29sL3RhcmdldHMvZGV2aWNlLTEvd2FrZT9hdWRpdD0xXG4iLAogICAgICAgICAgICAgICAgImJhNzgxNmJmOGYwMWNmZWE0MTQxNDBkZTVkYWUyMjIzYjAwMzYxYTM5NjE3N2E5Y2I0MTBmZjYxZjIwMDE1YWRcbiIsCiAgICAgICAgICAgICAgICAiMTcwMDAwMDAwMDAwMFxuIiwKICAgICAgICAgICAgICAgICIwMDExMjIzMzQ0NTU2Njc3IgogICAgICAgICAgICApCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfbmUhKAogICAgICAgICAgICBtZXNzYWdlLAogICAgICAgICAgICBjYW5vbmljYWxfcmVxdWVzdF9tZXNzYWdlKAogICAgICAgICAgICAgICAgImdldCIsCiAgICAgICAgICAgICAgICAiL2FwaS9hdXRoL3dvbC90YXJnZXRzL2RldmljZS0xL3dha2U/YXVkaXQ9MSIsCiAgICAgICAgICAgICAgICBiImFiYyIsCiAgICAgICAgICAgICAgICAiMTcwMDAwMDAwMDAwMCIsCiAgICAgICAgICAgICAgICAiMDAxMTIyMzM0NDU1NjY3NyIsCiAgICAgICAgICAgICkKICAgICAgICApOwogICAgICAgIGFzc2VydF9uZSEoCiAgICAgICAgICAgIG1lc3NhZ2UsCiAgICAgICAgICAgIGNhbm9uaWNhbF9yZXF1ZXN0X21lc3NhZ2UoCiAgICAgICAgICAgICAgICAicG9zdCIsCiAgICAgICAgICAgICAgICAiL2FwaS9hdXRoL3dvbC90YXJnZXRzL2RldmljZS0yL3dha2U/YXVkaXQ9MSIsCiAgICAgICAgICAgICAgICBiImFiYyIsCiAgICAgICAgICAgICAgICAiMTcwMDAwMDAwMDAwMCIsCiAgICAgICAgICAgICAgICAiMDAxMTIyMzM0NDU1NjY3NyIsCiAgICAgICAgICAgICkKICAgICAgICApOwogICAgICAgIGFzc2VydF9uZSEoCiAgICAgICAgICAgIG1lc3NhZ2UsCiAgICAgICAgICAgIGNhbm9uaWNhbF9yZXF1ZXN0X21lc3NhZ2UoCiAgICAgICAgICAgICAgICAicG9zdCIsCiAgICAgICAgICAgICAgICAiL2FwaS9hdXRoL3dvbC90YXJnZXRzL2RldmljZS0xL3dha2U/YXVkaXQ9MSIsCiAgICAgICAgICAgICAgICBiImNoYW5nZWQiLAogICAgICAgICAgICAgICAgIjE3MDAwMDAwMDAwMDAiLAogICAgICAgICAgICAgICAgIjAwMTEyMjMzNDQ1NTY2NzciLAogICAgICAgICAgICApCiAgICAgICAgKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBsb2NhbGl6ZXNfaG1hY19lcnJvcnMoKSB7CiAgICAgICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpuZXcoInpoLUNOIik7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgaG1hY190ZXh0KCZ0cmFuc2xhdG9yLCAibWlzc2luZ1RpbWVzdGFtcCIpLAogICAgICAgICAgICAi57y65bCRIEhNQUMg5pe26Ze05oizIgogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxIShobWFjX3RleHQoJnRyYW5zbGF0b3IsICJub25jZVJldXNlZCIpLCAiSE1BQyBub25jZSDlt7Looqvkvb/nlKgiKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBobWFjX3RleHQoJnRyYW5zbGF0b3IsICJtaXNzaW5nSGVhZGVycyIpLAogICAgICAgICAgICAiTWlzc2luZyBSZXF1aXJlZCBTZWN1cml0eSBIZWFkZXJzICh4LXRpbWVzdGFtcCwgeC1ub25jZSwgeC1zaWduYXR1cmUpIgogICAgICAgICk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gaG1hY19oZWFkZXJfcGFyc2VfaW50X2FuZF9zdGF0dXNlc19tYXRjaF9ub2RlX21pZGRsZXdhcmUoKSB7CiAgICAgICAgYXNzZXJ0X2VxIShwYXJzZV9qc19wYXJzZV9pbnRfcmFkaXhfMTAoIjEyM2FiYyIpLCBTb21lKDEyMykpOwogICAgICAgIGFzc2VydF9lcSEocGFyc2VfanNfcGFyc2VfaW50X3JhZGl4XzEwKCIrMTIzYWJjIiksIFNvbWUoMTIzKSk7CiAgICAgICAgYXNzZXJ0X2VxIShwYXJzZV9qc19wYXJzZV9pbnRfcmFkaXhfMTAoIi01bXMiKSwgU29tZSgtNSkpOwogICAgICAgIGFzc2VydF9lcSEocGFyc2VfanNfcGFyc2VfaW50X3JhZGl4XzEwKCIweDEwIiksIFNvbWUoMCkpOwogICAgICAgIGFzc2VydF9lcSEocGFyc2VfanNfcGFyc2VfaW50X3JhZGl4XzEwKCJhYmMiKSwgTm9uZSk7CgogICAgICAgIGxldCBtdXQgaGVhZGVycyA9IEhlYWRlck1hcDo6bmV3KCk7CiAgICAgICAgaGVhZGVycy5pbnNlcnQoIngtdGltZXN0YW1wIiwgIjEyM2FiYyIucGFyc2UoKS51bndyYXAoKSk7CiAgICAgICAgaGVhZGVycy5pbnNlcnQoIngtbm9uY2UiLCAiMTIzNDU2NzgiLnBhcnNlKCkudW53cmFwKCkpOwogICAgICAgIGhlYWRlcnMuaW5zZXJ0KCJ4LXNpZ25hdHVyZSIsICJBQkNERUYiLnBhcnNlKCkudW53cmFwKCkpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHBhcnNlX2htYWNfaGVhZGVycygmaGVhZGVycykuZXhwZWN0KCJoZWFkZXJzIiksCiAgICAgICAgICAgIFBhcnNlZEhtYWNIZWFkZXJzIHsKICAgICAgICAgICAgICAgIHRpbWVzdGFtcDogIjEyM2FiYyIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICB0aW1lc3RhbXBfbXM6IDEyMywKICAgICAgICAgICAgICAgIG5vbmNlOiAiMTIzNDU2NzgiLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgc2lnbmF0dXJlOiAiYWJjZGVmIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgfQogICAgICAgICk7CgogICAgICAgIGhlYWRlcnMucmVtb3ZlKCJ4LXNpZ25hdHVyZSIpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHBhcnNlX2htYWNfaGVhZGVycygmaGVhZGVycykuZXhwZWN0X2VycigibWlzc2luZyBzaWduYXR1cmUiKSwKICAgICAgICAgICAgKFN0YXR1c0NvZGU6OlVOQVVUSE9SSVpFRCwgIm1pc3NpbmdIZWFkZXJzIikKICAgICAgICApOwoKICAgICAgICBoZWFkZXJzLmluc2VydCgieC1zaWduYXR1cmUiLCAiYWJjZGVmIi5wYXJzZSgpLnVud3JhcCgpKTsKICAgICAgICBoZWFkZXJzLmluc2VydCgieC10aW1lc3RhbXAiLCAiYWJjIi5wYXJzZSgpLnVud3JhcCgpKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBwYXJzZV9obWFjX2hlYWRlcnMoJmhlYWRlcnMpLmV4cGVjdF9lcnIoImludmFsaWQgdGltZXN0YW1wIiksCiAgICAgICAgICAgIChTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwgImludmFsaWRUaW1lc3RhbXBGb3JtYXQiKQogICAgICAgICk7CgogICAgICAgIGhlYWRlcnMuaW5zZXJ0KCJ4LXRpbWVzdGFtcCIsICIxMjMiLnBhcnNlKCkudW53cmFwKCkpOwogICAgICAgIGhlYWRlcnMuaW5zZXJ0KCJ4LW5vbmNlIiwgIjEyMzQ1NjciLnBhcnNlKCkudW53cmFwKCkpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHBhcnNlX2htYWNfaGVhZGVycygmaGVhZGVycykuZXhwZWN0X2Vycigic2hvcnQgbm9uY2UiKSwKICAgICAgICAgICAgKFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULCAiaW52YWxpZE5vbmNlTGVuZ3RoIikKICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGludGVybmFsX3NpZ25lZF9jaGFubmVsX2lzX3NlbGVjdGVkX29ubHlfYnlfbG9vcGJhY2tfYXV0aG9yaXR5KCkgewogICAgICAgIGxldCBtdXQgaGVhZGVycyA9IEhlYWRlck1hcDo6bmV3KCk7CiAgICAgICAgaGVhZGVycy5pbnNlcnQoaGVhZGVyOjpIT1NULCAiYXV0aC5leGFtcGxlLmNvbSIucGFyc2UoKS51bndyYXAoKSk7CiAgICAgICAgYXNzZXJ0ISghdXNlc19sb29wYmFja19hdXRob3JpdHkoJmhlYWRlcnMpKTsKCiAgICAgICAgaGVhZGVycy5pbnNlcnQoaGVhZGVyOjpIT1NULCAiMTI3LjAuMC4xOjc5OTciLnBhcnNlKCkudW53cmFwKCkpOwogICAgICAgIGFzc2VydCEodXNlc19sb29wYmFja19hdXRob3JpdHkoJmhlYWRlcnMpKTsKCiAgICAgICAgaGVhZGVycy5pbnNlcnQoaGVhZGVyOjpIT1NULCAiWzo6MV06Nzk5NyIucGFyc2UoKS51bndyYXAoKSk7CiAgICAgICAgYXNzZXJ0ISh1c2VzX2xvb3BiYWNrX2F1dGhvcml0eSgmaGVhZGVycykpOwoKICAgICAgICBoZWFkZXJzLmluc2VydChoZWFkZXI6OkhPU1QsICIxMjcuMC4wLjEuZXhhbXBsZS5jb20iLnBhcnNlKCkudW53cmFwKCkpOwogICAgICAgIGFzc2VydCEoIXVzZXNfbG9vcGJhY2tfYXV0aG9yaXR5KCZoZWFkZXJzKSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gaG1hY19wYXRoX2V4ZW1wdGlvbnNfbWF0Y2hfbm9kZV9taWRkbGV3YXJlKCkgewogICAgICAgIGFzc2VydCEoIXJlcXVpcmVzX2htYWMoIi9hcGkvYXV0aC9jaGFsbGVuZ2UiKSk7CiAgICAgICAgYXNzZXJ0ISghcmVxdWlyZXNfaG1hYygiL2FwaS9hdXRoL3ZlcmlmeSIpKTsKICAgICAgICBhc3NlcnQhKCFyZXF1aXJlc19obWFjKCIvYXBpL2F1dGgvbG9nb3V0IikpOwogICAgICAgIGFzc2VydCEoIXJlcXVpcmVzX2htYWMoIi9hcGkvYXV0aC9wcmVmbGlnaHQiKSk7CiAgICAgICAgYXNzZXJ0ISghcmVxdWlyZXNfaG1hYygiL2FwaS9hdXRoL29pZGMvYmluZCIpKTsKICAgICAgICBhc3NlcnQhKCFyZXF1aXJlc19obWFjKCIvYXBpL2F1dGgvb2lkYy9iaW5kLyIpKTsKICAgICAgICBhc3NlcnQhKCFyZXF1aXJlc19obWFjKCIvYXBpL2F1dGgvb2lkYy9jbGllbnQtbWV0YWRhdGEiKSk7CiAgICAgICAgYXNzZXJ0ISghcmVxdWlyZXNfaG1hYygiL2FwaS9hdXRoL29pZGMvY2FsbGJhY2svcHJvdmlkZXItMSIpKTsKICAgICAgICBhc3NlcnQhKCFyZXF1aXJlc19obWFjKCIvYXBpL2ludGVybmFsL3N5c3RlbS1ldmVudHMiKSk7CgogICAgICAgIGFzc2VydCEocmVxdWlyZXNfaG1hYygiL2FwaS9hdXRoL2NoYWxsZW5nZS8iKSk7CiAgICAgICAgYXNzZXJ0IShyZXF1aXJlc19obWFjKCIvYXBpL2F1dGgvdmVyaWZ5LyIpKTsKICAgICAgICBhc3NlcnQhKHJlcXVpcmVzX2htYWMoIi9hcGkvYXV0aC9sb2dvdXQvIikpOwogICAgICAgIGFzc2VydCEocmVxdWlyZXNfaG1hYygiL2FwaS9hdXRoL3ByZWZsaWdodC8iKSk7CiAgICAgICAgYXNzZXJ0IShyZXF1aXJlc19obWFjKCIvYXBpL2F1dGgvb2lkYy9iaW5kL2ZvbyIpKTsKICAgICAgICBhc3NlcnQhKHJlcXVpcmVzX2htYWMoIi9hcGkvYXV0aC9vaWRjL2NsaWVudC1tZXRhZGF0YS8iKSk7CiAgICAgICAgYXNzZXJ0IShyZXF1aXJlc19obWFjKCIvYXBpL2F1dGgvb2lkYy9jYWxsYmFjayIpKTsKICAgICAgICBhc3NlcnQhKHJlcXVpcmVzX2htYWMoIi9hcGkvaW50ZXJuYWwvc3lzdGVtLWV2ZW50cy8iKSk7CiAgICAgICAgYXNzZXJ0IShyZXF1aXJlc19obWFjKCIvYXBpL2F1dGgvb2lkYy9wcm92aWRlcnMiKSk7CiAgICAgICAgYXNzZXJ0IShyZXF1aXJlc19obWFjKCIvYXBpL2F1dGgvb2lkYy9wcm92aWRlcnMvIikpOwogICAgICAgIGFzc2VydCEocmVxdWlyZXNfaG1hYygiL2FwaS9hdXRoL3Nlc3Npb24iKSk7CiAgICAgICAgYXNzZXJ0IShyZXF1aXJlc19obWFjKCIvYXBpL2F1dGgvd29sL3RhcmdldHMiKSk7CiAgICAgICAgYXNzZXJ0IShyZXF1aXJlc19obWFjKCIvYXBpL2F1dGgvd29sL3RhcmdldHMvZGV2aWNlLTEvd2FrZSIpKTsKICAgICAgICBhc3NlcnQhKHJlcXVpcmVzX2htYWMoIi9hcGkvYXV0aC93b2wvdGFyZ2V0cy9kZXZpY2UtMS9zaHV0ZG93biIpKTsKICAgICAgICBhc3NlcnQhKHJlcXVpcmVzX2htYWMoIi9hcGkvYWRtaW4vY29uZmlnIikpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGhtYWNfbm9ybWFsaXplc19hdXRoX21vdW50X3ByZWZpeGVzX2xpa2Vfbm9kZSgpIHsKICAgICAgICBhc3NlcnQhKHJlcXVpcmVzX2htYWMoIi9hdXRoL2FwaSIpKTsKICAgICAgICBhc3NlcnQhKHJlcXVpcmVzX2htYWMoIi9fX2F1dGhfXy9hcGkiKSk7CiAgICAgICAgYXNzZXJ0ISghcmVxdWlyZXNfaG1hYygiL2F1dGgvYXBpL2F1dGgvb2lkYy9iaW5kIikpOwogICAgICAgIGFzc2VydCEoIXJlcXVpcmVzX2htYWMoIi9hdXRoL2FwaS9hdXRoL29pZGMvY2xpZW50LW1ldGFkYXRhIikpOwogICAgICAgIGFzc2VydCEoIXJlcXVpcmVzX2htYWMoCiAgICAgICAgICAgICIvX19hdXRoX18vYXBpL2F1dGgvb2lkYy9jYWxsYmFjay9wcm92aWRlci0xIgogICAgICAgICkpOwogICAgICAgIGFzc2VydCEocmVxdWlyZXNfaG1hYygiL2F1dGgvYXBpL2F1dGgvdmVyaWZ5LyIpKTsKICAgICAgICBhc3NlcnQhKHJlcXVpcmVzX2htYWMoIi9hdXRoL2FwaS9hdXRoL29pZGMvcHJvdmlkZXJzIikpOwogICAgICAgIGFzc2VydCEocmVxdWlyZXNfaG1hYygiL19fYXV0aF9fL2FwaS9hdXRoL3Nlc3Npb24iKSk7CiAgICAgICAgYXNzZXJ0IShyZXF1aXJlc19obWFjKCIvX19hdXRoX18vYXBpL2F1dGgvd29sL3RhcmdldHMiKSk7CiAgICAgICAgYXNzZXJ0ISghcmVxdWlyZXNfaG1hYygiL2F1dGgiKSk7CiAgICAgICAgYXNzZXJ0ISghcmVxdWlyZXNfaG1hYygiL19fYXV0aF9fL2luZGV4Lmh0bWwiKSk7CiAgICB9Cn0K
+use axum::{
+    body::{Body, to_bytes},
+    extract::State,
+    http::{HeaderMap, Request, StatusCode, header, uri::Authority},
+    middleware::Next,
+    response::Response,
+};
+use hmac::{Hmac, Mac};
+use sha2::{Digest, Sha256};
+use subtle::ConstantTimeEq;
+
+use crate::{i18n::Translator, response, state::AppState, time_utils};
+
+type HmacSha256 = Hmac<Sha256>;
+const MAX_SIGNED_REQUEST_BODY_BYTES: usize = 4 * 1024 * 1024;
+
+#[derive(Clone, Copy, Debug)]
+pub(crate) struct VerifiedInternalRequest;
+
+fn hmac_text(translator: &Translator, key: &str) -> String {
+    let translation_key = format!("server.hmac.{key}");
+    match key {
+        "missingHeaders" => translator.t_with_fallback(
+            &translation_key,
+            "Missing Required Security Headers (x-timestamp, x-nonce, x-signature)",
+        ),
+        "invalidTimestampFormat" => {
+            translator.t_with_fallback(&translation_key, "Invalid Timestamp Format")
+        }
+        "invalidNonceLength" => {
+            translator.t_with_fallback(&translation_key, "Invalid Nonce Length")
+        }
+        _ => translator.t(&translation_key),
+    }
+}
+
+async fn hmac_error(state: &AppState, status: StatusCode, key: &str) -> Response {
+    let translator = Translator::from_state(state).await;
+    response::error(status, hmac_text(&translator, key))
+}
+
+pub async fn hmac_middleware(
+    State(state): State<AppState>,
+    req: Request<Body>,
+    next: Next,
+) -> Response {
+    if !requires_hmac(req.uri().path()) {
+        return next.run(req).await;
+    }
+
+    // Public-host requests are served directly by Rust and are protected by
+    // endpoint credentials. The Go gateway rewrites its loopback upstream
+    // Host, which selects the internal signed channel. Selecting by Host
+    // prevents stripping all three signing headers from downgrading an
+    // internal request to an unsigned one.
+    if !uses_loopback_authority(req.headers()) {
+        return next.run(req).await;
+    }
+
+    let secret = state.settings.hmac_secret.trim();
+    if secret.is_empty() {
+        tracing::error!(path = %req.uri().path(), "HMAC secret is unavailable; rejecting protected request");
+        return hmac_error(&state, StatusCode::INTERNAL_SERVER_ERROR, "invalidKey").await;
+    }
+
+    let headers = match parse_hmac_headers(req.headers()) {
+        Ok(headers) => headers,
+        Err((status, key)) => return hmac_error(&state, status, key).await,
+    };
+
+    if (time_utils::now_ms() - headers.timestamp_ms).abs() > 5 * 60 * 1000 {
+        return hmac_error(&state, StatusCode::UNAUTHORIZED, "timestampExpired").await;
+    }
+
+    let (parts, body) = req.into_parts();
+    let body = match to_bytes(body, MAX_SIGNED_REQUEST_BODY_BYTES).await {
+        Ok(body) => body,
+        Err(_) => {
+            return response::error(
+                StatusCode::PAYLOAD_TOO_LARGE,
+                "Signed request body is too large",
+            );
+        }
+    };
+    let message = canonical_request_message(
+        parts.method.as_str(),
+        parts
+            .uri
+            .path_and_query()
+            .map(|value| value.as_str())
+            .unwrap_or_else(|| parts.uri.path()),
+        &body,
+        &headers.timestamp,
+        &headers.nonce,
+    );
+    let mut mac = match HmacSha256::new_from_slice(secret.as_bytes()) {
+        Ok(mac) => mac,
+        Err(_) => return hmac_error(&state, StatusCode::INTERNAL_SERVER_ERROR, "invalidKey").await,
+    };
+    mac.update(message.as_bytes());
+    let expected = hex::encode(mac.finalize().into_bytes());
+    if expected
+        .as_bytes()
+        .ct_eq(headers.signature.as_bytes())
+        .unwrap_u8()
+        != 1
+    {
+        return hmac_error(&state, StatusCode::UNAUTHORIZED, "invalidSignature").await;
+    }
+
+    match state
+        .storage
+        .store
+        .set_nonce_if_not_exists(&headers.nonce, 600)
+        .await
+    {
+        Ok(true) => {
+            let mut request = Request::from_parts(parts, Body::from(body));
+            request.extensions_mut().insert(VerifiedInternalRequest);
+            next.run(request).await
+        }
+        Ok(false) => hmac_error(&state, StatusCode::UNAUTHORIZED, "nonceReused").await,
+        Err(error) => {
+            tracing::warn!(%error, "failed to store HMAC nonce");
+            hmac_error(
+                &state,
+                StatusCode::INTERNAL_SERVER_ERROR,
+                "nonceVerifyFailed",
+            )
+            .await
+        }
+    }
+}
+
+fn uses_loopback_authority(headers: &HeaderMap) -> bool {
+    let Some(authority) = headers
+        .get(header::HOST)
+        .and_then(|value| value.to_str().ok())
+        .and_then(|value| value.parse::<Authority>().ok())
+    else {
+        return false;
+    };
+    let host = authority.host();
+    let ip_host = host
+        .strip_prefix('[')
+        .and_then(|value| value.strip_suffix(']'))
+        .unwrap_or(host);
+    host.eq_ignore_ascii_case("localhost")
+        || ip_host
+            .parse::<std::net::IpAddr>()
+            .is_ok_and(|address| address.is_loopback())
+}
+
+fn canonical_request_message(
+    method: &str,
+    path_and_query: &str,
+    body: &[u8],
+    timestamp: &str,
+    nonce: &str,
+) -> String {
+    let body_digest = hex::encode(Sha256::digest(body));
+    format!(
+        "fn-knock-v1\n{}\n{}\n{}\n{}\n{}",
+        method.to_ascii_uppercase(),
+        path_and_query,
+        body_digest,
+        timestamp,
+        nonce
+    )
+}
+
+#[derive(Debug, PartialEq, Eq)]
+struct ParsedHmacHeaders {
+    timestamp: String,
+    timestamp_ms: i64,
+    nonce: String,
+    signature: String,
+}
+
+fn parse_hmac_headers(
+    headers: &HeaderMap,
+) -> Result<ParsedHmacHeaders, (StatusCode, &'static str)> {
+    let Some(timestamp) = header_value(headers, "x-timestamp") else {
+        return Err((StatusCode::UNAUTHORIZED, "missingHeaders"));
+    };
+    let Some(nonce) = header_value(headers, "x-nonce") else {
+        return Err((StatusCode::UNAUTHORIZED, "missingHeaders"));
+    };
+    let Some(signature) = header_value(headers, "x-signature") else {
+        return Err((StatusCode::UNAUTHORIZED, "missingHeaders"));
+    };
+    let Some(timestamp_ms) = parse_js_parse_int_radix_10(&timestamp) else {
+        return Err((StatusCode::BAD_REQUEST, "invalidTimestampFormat"));
+    };
+    if nonce.len() < 8 {
+        return Err((StatusCode::BAD_REQUEST, "invalidNonceLength"));
+    }
+
+    Ok(ParsedHmacHeaders {
+        timestamp,
+        timestamp_ms,
+        nonce,
+        signature: signature.to_ascii_lowercase(),
+    })
+}
+
+fn header_value(headers: &HeaderMap, name: &str) -> Option<String> {
+    headers
+        .get(name)
+        .and_then(|value| value.to_str().ok())
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .map(str::to_string)
+}
+
+use crate::node_compat::parse_i64_prefix_trim_start as parse_js_parse_int_radix_10;
+
+fn requires_hmac(path: &str) -> bool {
+    let normalized = normalize_auth_api_path(path);
+    if !normalized.starts_with("/api") {
+        return false;
+    }
+
+    const IGNORED_PATHS: &[&str] = &[
+        "/api/auth/challenge",
+        "/api/auth/verify",
+        "/api/auth/logout",
+        "/api/auth/preflight",
+        "/api/auth/oidc/bind",
+        "/api/auth/oidc/bind/",
+        "/api/auth/oidc/client-metadata",
+        "/api/internal/system-events",
+    ];
+    const IGNORED_PATH_PREFIXES: &[&str] = &["/api/auth/oidc/callback/"];
+
+    if IGNORED_PATHS.contains(&normalized.as_str()) {
+        return false;
+    }
+    if IGNORED_PATH_PREFIXES
+        .iter()
+        .any(|prefix| normalized.starts_with(prefix))
+    {
+        return false;
+    }
+
+    true
+}
+
+fn normalize_auth_api_path(path: &str) -> String {
+    if path.starts_with("/auth/api") {
+        return path["/auth".len()..].to_string();
+    }
+    if path.starts_with("/__auth__/api") {
+        return path["/__auth__".len()..].to_string();
+    }
+    path.to_string()
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn canonical_signature_binds_method_uri_and_body() {
+        let message = canonical_request_message(
+            "post",
+            "/api/auth/wol/targets/device-1/wake?audit=1",
+            b"abc",
+            "1700000000000",
+            "0011223344556677",
+        );
+        assert_eq!(
+            message,
+            concat!(
+                "fn-knock-v1\n",
+                "POST\n",
+                "/api/auth/wol/targets/device-1/wake?audit=1\n",
+                "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad\n",
+                "1700000000000\n",
+                "0011223344556677"
+            )
+        );
+        assert_ne!(
+            message,
+            canonical_request_message(
+                "get",
+                "/api/auth/wol/targets/device-1/wake?audit=1",
+                b"abc",
+                "1700000000000",
+                "0011223344556677",
+            )
+        );
+        assert_ne!(
+            message,
+            canonical_request_message(
+                "post",
+                "/api/auth/wol/targets/device-2/wake?audit=1",
+                b"abc",
+                "1700000000000",
+                "0011223344556677",
+            )
+        );
+        assert_ne!(
+            message,
+            canonical_request_message(
+                "post",
+                "/api/auth/wol/targets/device-1/wake?audit=1",
+                b"changed",
+                "1700000000000",
+                "0011223344556677",
+            )
+        );
+    }
+
+    #[test]
+    fn localizes_hmac_errors() {
+        let translator = Translator::new("zh-CN");
+        assert_eq!(
+            hmac_text(&translator, "missingTimestamp"),
+            "缺少 HMAC 时间戳"
+        );
+        assert_eq!(hmac_text(&translator, "nonceReused"), "HMAC nonce 已被使用");
+        assert_eq!(
+            hmac_text(&translator, "missingHeaders"),
+            "Missing Required Security Headers (x-timestamp, x-nonce, x-signature)"
+        );
+    }
+
+    #[test]
+    fn hmac_header_parse_int_and_statuses_match_node_middleware() {
+        assert_eq!(parse_js_parse_int_radix_10("123abc"), Some(123));
+        assert_eq!(parse_js_parse_int_radix_10("+123abc"), Some(123));
+        assert_eq!(parse_js_parse_int_radix_10("-5ms"), Some(-5));
+        assert_eq!(parse_js_parse_int_radix_10("0x10"), Some(0));
+        assert_eq!(parse_js_parse_int_radix_10("abc"), None);
+
+        let mut headers = HeaderMap::new();
+        headers.insert("x-timestamp", "123abc".parse().unwrap());
+        headers.insert("x-nonce", "12345678".parse().unwrap());
+        headers.insert("x-signature", "ABCDEF".parse().unwrap());
+        assert_eq!(
+            parse_hmac_headers(&headers).expect("headers"),
+            ParsedHmacHeaders {
+                timestamp: "123abc".to_string(),
+                timestamp_ms: 123,
+                nonce: "12345678".to_string(),
+                signature: "abcdef".to_string(),
+            }
+        );
+
+        headers.remove("x-signature");
+        assert_eq!(
+            parse_hmac_headers(&headers).expect_err("missing signature"),
+            (StatusCode::UNAUTHORIZED, "missingHeaders")
+        );
+
+        headers.insert("x-signature", "abcdef".parse().unwrap());
+        headers.insert("x-timestamp", "abc".parse().unwrap());
+        assert_eq!(
+            parse_hmac_headers(&headers).expect_err("invalid timestamp"),
+            (StatusCode::BAD_REQUEST, "invalidTimestampFormat")
+        );
+
+        headers.insert("x-timestamp", "123".parse().unwrap());
+        headers.insert("x-nonce", "1234567".parse().unwrap());
+        assert_eq!(
+            parse_hmac_headers(&headers).expect_err("short nonce"),
+            (StatusCode::BAD_REQUEST, "invalidNonceLength")
+        );
+    }
+
+    #[test]
+    fn internal_signed_channel_is_selected_only_by_loopback_authority() {
+        let mut headers = HeaderMap::new();
+        headers.insert(header::HOST, "auth.example.com".parse().unwrap());
+        assert!(!uses_loopback_authority(&headers));
+
+        headers.insert(header::HOST, "127.0.0.1:7997".parse().unwrap());
+        assert!(uses_loopback_authority(&headers));
+
+        headers.insert(header::HOST, "[::1]:7997".parse().unwrap());
+        assert!(uses_loopback_authority(&headers));
+
+        headers.insert(header::HOST, "127.0.0.1.example.com".parse().unwrap());
+        assert!(!uses_loopback_authority(&headers));
+    }
+
+    #[test]
+    fn hmac_path_exemptions_match_node_middleware() {
+        assert!(!requires_hmac("/api/auth/challenge"));
+        assert!(!requires_hmac("/api/auth/verify"));
+        assert!(!requires_hmac("/api/auth/logout"));
+        assert!(!requires_hmac("/api/auth/preflight"));
+        assert!(!requires_hmac("/api/auth/oidc/bind"));
+        assert!(!requires_hmac("/api/auth/oidc/bind/"));
+        assert!(!requires_hmac("/api/auth/oidc/client-metadata"));
+        assert!(!requires_hmac("/api/auth/oidc/callback/provider-1"));
+        assert!(!requires_hmac("/api/internal/system-events"));
+
+        assert!(requires_hmac("/api/auth/challenge/"));
+        assert!(requires_hmac("/api/auth/verify/"));
+        assert!(requires_hmac("/api/auth/logout/"));
+        assert!(requires_hmac("/api/auth/preflight/"));
+        assert!(requires_hmac("/api/auth/oidc/bind/foo"));
+        assert!(requires_hmac("/api/auth/oidc/client-metadata/"));
+        assert!(requires_hmac("/api/auth/oidc/callback"));
+        assert!(requires_hmac("/api/internal/system-events/"));
+        assert!(requires_hmac("/api/auth/oidc/providers"));
+        assert!(requires_hmac("/api/auth/oidc/providers/"));
+        assert!(requires_hmac("/api/auth/session"));
+        assert!(requires_hmac("/api/auth/wol/targets"));
+        assert!(requires_hmac("/api/auth/wol/targets/device-1/wake"));
+        assert!(requires_hmac("/api/auth/wol/targets/device-1/shutdown"));
+        assert!(requires_hmac("/api/admin/config"));
+    }
+
+    #[test]
+    fn hmac_normalizes_auth_mount_prefixes_like_node() {
+        assert!(requires_hmac("/auth/api"));
+        assert!(requires_hmac("/__auth__/api"));
+        assert!(!requires_hmac("/auth/api/auth/oidc/bind"));
+        assert!(!requires_hmac("/auth/api/auth/oidc/client-metadata"));
+        assert!(!requires_hmac(
+            "/__auth__/api/auth/oidc/callback/provider-1"
+        ));
+        assert!(requires_hmac("/auth/api/auth/verify/"));
+        assert!(requires_hmac("/auth/api/auth/oidc/providers"));
+        assert!(requires_hmac("/__auth__/api/auth/session"));
+        assert!(requires_hmac("/__auth__/api/auth/wol/targets"));
+        assert!(!requires_hmac("/auth"));
+        assert!(!requires_hmac("/__auth__/index.html"));
+    }
+}

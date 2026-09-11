@@ -1,1 +1,24 @@
-PHRlbXBsYXRlPgogIDxkaXYKICAgIHYtaWY9ImNvbmZpZ1N0b3JlLmlzTG9hZGluZyIKICAgIGNsYXNzPSJtbC00IGFuaW1hdGUtcHVsc2UgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICByb2xlPSJzdGF0dXMiCiAgPgogICAge3sgdCgiY29tbW9uLmxvYWRpbmdDb25maWciKSB9fQogIDwvZGl2PgogIDxkaXYKICAgIHYtaWY9ImNvbmZpZ1N0b3JlLmlzRXJyb3IiCiAgICBjbGFzcz0ibWwtNCB0ZXh0LXNtIHRleHQtZGVzdHJ1Y3RpdmUiCiAgICByb2xlPSJhbGVydCIKICA+CiAgICB7eyB0KCJjb21tb24ubG9hZENvbmZpZ0ZhaWxlZCIpIH19CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdXNlQ29uZmlnU3RvcmUgfSBmcm9tICIuLi8uLi9zdG9yZS9jb25maWciOwoKY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cg==
+<template>
+  <div
+    v-if="configStore.isLoading"
+    class="ml-4 animate-pulse text-sm text-muted-foreground"
+    role="status"
+  >
+    {{ t("common.loadingConfig") }}
+  </div>
+  <div
+    v-if="configStore.isError"
+    class="ml-4 text-sm text-destructive"
+    role="alert"
+  >
+    {{ t("common.loadConfigFailed") }}
+  </div>
+</template>
+
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { useConfigStore } from "../../store/config";
+
+const configStore = useConfigStore();
+const { t } = useI18n();
+</script>

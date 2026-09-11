@@ -1,1 +1,45 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgdGVzdCBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgewogIHBhcnNlTGludXhQcm9jZXNzTWVtb3J5LAogIHJlYWRQcm9jZXNzTWVtb3J5LAp9IGZyb20gIi4uL3J1bnRpbWUtcHJvY2Vzcy1tZW1vcnkubWpzIjsKCnRlc3QoIkxpbnV4IHNhbXBsZXIgZGlzdGluZ3Vpc2hlcyBjdXJyZW50IFJTUyBmcm9tIHRoZSBwcm9jZXNzIGxpZmV0aW1lIGhpZ2gtd2F0ZXIgbWFyayIsICgpID0+IHsKICBhc3NlcnQuZGVlcEVxdWFsKAogICAgcGFyc2VMaW51eFByb2Nlc3NNZW1vcnkoCiAgICAgICJOYW1lOlx0c2VydmVyLWFkbWluLXJzXG5WbUhXTTpcdCA4MTkyIGtCXG5WbVJTUzpcdCA0MDk2IGtCXG4iLAogICAgKSwKICAgIHsKICAgICAgcnNzX2J5dGVzOiA0ICogMTAyNCAqIDEwMjQsCiAgICAgIHBlYWtfcnNzX2J5dGVzOiA4ICogMTAyNCAqIDEwMjQsCiAgICB9LAogICk7CiAgYXNzZXJ0LmRlZXBFcXVhbChwYXJzZUxpbnV4UHJvY2Vzc01lbW9yeSgiTmFtZTpcdGV4aXRlZFxuIiksIHsKICAgIHJzc19ieXRlczogbnVsbCwKICAgIHBlYWtfcnNzX2J5dGVzOiBudWxsLAogIH0pOwp9KTsKCnRlc3QoCiAgIk9TIHNhbXBsZXIgcmVhZHMgYSBsaXZlIHByb2Nlc3Mgd2l0aG91dCBhIHJ1bnRpbWUgaGVhbHRoIGVuZHBvaW50IiwKICB7CiAgICBza2lwOiAhWyJsaW51eCIsICJkYXJ3aW4iXS5pbmNsdWRlcyhwcm9jZXNzLnBsYXRmb3JtKSwKICB9LAogIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IG1lbW9yeSA9IGF3YWl0IHJlYWRQcm9jZXNzTWVtb3J5KHByb2Nlc3MucGlkKTsKICAgIGFzc2VydC5vayhtZW1vcnkucnNzX2J5dGVzID4gMCk7CiAgICBpZiAocHJvY2Vzcy5wbGF0Zm9ybSA9PT0gImxpbnV4IikKICAgICAgYXNzZXJ0Lm9rKG1lbW9yeS5wZWFrX3Jzc19ieXRlcyA+PSBtZW1vcnkucnNzX2J5dGVzKTsKICAgIGF3YWl0IGFzc2VydC5yZWplY3RzKHJlYWRQcm9jZXNzTWVtb3J5KDApLCAvcG9zaXRpdmUgUElELyk7CiAgfSwKKTsKCnRlc3QoIk9TIHNhbXBsZXIgcmVqZWN0cyBjYW5jZWxsYXRpb24gYmVmb3JlIHN0YXJ0aW5nIHByb2Nlc3MgSS9PIiwgYXN5bmMgKCkgPT4gewogIGNvbnN0IGNvbnRyb2xsZXIgPSBuZXcgQWJvcnRDb250cm9sbGVyKCk7CiAgY29udHJvbGxlci5hYm9ydChuZXcgRXJyb3IoInNhbXBsaW5nIGNhbmNlbGxlZCIpKTsKICBhd2FpdCBhc3NlcnQucmVqZWN0cygKICAgIHJlYWRQcm9jZXNzTWVtb3J5KHByb2Nlc3MucGlkLCBjb250cm9sbGVyLnNpZ25hbCksCiAgICAvc2FtcGxpbmcgY2FuY2VsbGVkLywKICApOwp9KTsK
+import assert from "node:assert/strict";
+import test from "node:test";
+import {
+  parseLinuxProcessMemory,
+  readProcessMemory,
+} from "../runtime-process-memory.mjs";
+
+test("Linux sampler distinguishes current RSS from the process lifetime high-water mark", () => {
+  assert.deepEqual(
+    parseLinuxProcessMemory(
+      "Name:\tserver-admin-rs\nVmHWM:\t 8192 kB\nVmRSS:\t 4096 kB\n",
+    ),
+    {
+      rss_bytes: 4 * 1024 * 1024,
+      peak_rss_bytes: 8 * 1024 * 1024,
+    },
+  );
+  assert.deepEqual(parseLinuxProcessMemory("Name:\texited\n"), {
+    rss_bytes: null,
+    peak_rss_bytes: null,
+  });
+});
+
+test(
+  "OS sampler reads a live process without a runtime health endpoint",
+  {
+    skip: !["linux", "darwin"].includes(process.platform),
+  },
+  async () => {
+    const memory = await readProcessMemory(process.pid);
+    assert.ok(memory.rss_bytes > 0);
+    if (process.platform === "linux")
+      assert.ok(memory.peak_rss_bytes >= memory.rss_bytes);
+    await assert.rejects(readProcessMemory(0), /positive PID/);
+  },
+);
+
+test("OS sampler rejects cancellation before starting process I/O", async () => {
+  const controller = new AbortController();
+  controller.abort(new Error("sampling cancelled"));
+  await assert.rejects(
+    readProcessMemory(process.pid, controller.signal),
+    /sampling cancelled/,
+  );
+});

@@ -1,1 +1,3 @@
-aW1wb3J0IHR5cGUgeyB1c2VTU0hTZWN1cml0eUNvbmZpZyB9IGZyb20gIi4vdXNlU1NIU2VjdXJpdHlDb25maWciOwoKZXhwb3J0IHR5cGUgU1NIU2VjdXJpdHlDb250cm9sbGVyID0gUmV0dXJuVHlwZTx0eXBlb2YgdXNlU1NIU2VjdXJpdHlDb25maWc+Owo=
+import type { useSSHSecurityConfig } from "./useSSHSecurityConfig";
+
+export type SSHSecurityController = ReturnType<typeof useSSHSecurityConfig>;

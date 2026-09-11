@@ -1,1 +1,107 @@
-dXNlIHN0ZDo6e2ZzLCBpbywgcGF0aDo6UGF0aH07CgojW2NmZyh1bml4KV0KcHViKGNyYXRlKSBmbiBpc19yb290X3Byb2Nlc3MoKSAtPiBib29sIHsKICAgIC8vIFNBRkVUWTogZ2V0ZXVpZCBoYXMgbm8gcHJlY29uZGl0aW9ucyBhbmQgZG9lcyBub3QgZGVyZWZlcmVuY2UgcG9pbnRlcnMuCiAgICB1bnNhZmUgeyBsaWJjOjpnZXRldWlkKCkgPT0gMCB9Cn0KCiNbY2ZnKG5vdCh1bml4KSldCnB1YihjcmF0ZSkgZm4gaXNfcm9vdF9wcm9jZXNzKCkgLT4gYm9vbCB7CiAgICBmYWxzZQp9CgojW2NmZyh1bml4KV0KcHViKGNyYXRlKSBmbiBzZW5kX3NpZ25hbChwaWQ6IGkzMiwgc2lnbmFsOiBsaWJjOjpjX2ludCkgLT4gaW86OlJlc3VsdDwoKT4gewogICAgaWYgcGlkIDw9IDAgewogICAgICAgIHJldHVybiBFcnIoaW86OkVycm9yOjpuZXcoCiAgICAgICAgICAgIGlvOjpFcnJvcktpbmQ6OkludmFsaWRJbnB1dCwKICAgICAgICAgICAgInBpZCBtdXN0IGJlIHBvc2l0aXZlIiwKICAgICAgICApKTsKICAgIH0KICAgIC8vIFNBRkVUWToga2lsbCBpcyBjYWxsZWQgd2l0aCBhIHZhbGlkYXRlZCBwb3NpdGl2ZSBwaWRfdCB2YWx1ZSBhbmQgZG9lcyBub3QKICAgIC8vIGRlcmVmZXJlbmNlIFJ1c3QtbWFuYWdlZCBtZW1vcnkuCiAgICBpZiB1bnNhZmUgeyBsaWJjOjpraWxsKHBpZCBhcyBsaWJjOjpwaWRfdCwgc2lnbmFsKSB9ID09IDAgewogICAgICAgIE9rKCgpKQogICAgfSBlbHNlIHsKICAgICAgICBFcnIoaW86OkVycm9yOjpsYXN0X29zX2Vycm9yKCkpCiAgICB9Cn0KCiNbY2ZnKG5vdCh1bml4KSldCnB1YihjcmF0ZSkgZm4gc2VuZF9zaWduYWwocGlkOiBpMzIsIHNpZ25hbDogaTMyKSAtPiBpbzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgXyA9IChwaWQsIHNpZ25hbCk7CiAgICBFcnIoaW86OkVycm9yOjpuZXcoCiAgICAgICAgaW86OkVycm9yS2luZDo6VW5zdXBwb3J0ZWQsCiAgICAgICAgInNpZ25hbHMgYXJlIG5vdCBzdXBwb3J0ZWQgb24gdGhpcyBwbGF0Zm9ybSIsCiAgICApKQp9CgojW2NmZyh1bml4KV0KcHViKGNyYXRlKSBmbiBwcm9jZXNzX2V4aXN0cyhwaWQ6IGkzMikgLT4gYm9vbCB7CiAgICBpZiBwaWQgPD0gMCB8fCB1MzI6OnRyeV9mcm9tKHBpZCkub2soKSA9PSBTb21lKHN0ZDo6cHJvY2Vzczo6aWQoKSkgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KICAgIG1hdGNoIHNlbmRfc2lnbmFsKHBpZCwgMCkgewogICAgICAgIE9rKCgpKSA9PiB0cnVlLAogICAgICAgIEVycihlcnJvcikgPT4gZXJyb3IucmF3X29zX2Vycm9yKCkgPT0gU29tZShsaWJjOjpFUEVSTSksCiAgICB9Cn0KCiNbY2ZnKHdpbmRvd3MpXQpwdWIoY3JhdGUpIGZuIHByb2Nlc3NfZXhpc3RzKHBpZDogaTMyKSAtPiBib29sIHsKICAgIHVzZSB3aW5kb3dzX3N5czo6V2luMzI6OnsKICAgICAgICBGb3VuZGF0aW9uOjp7Q2xvc2VIYW5kbGUsIFNUSUxMX0FDVElWRX0sCiAgICAgICAgU3lzdGVtOjpUaHJlYWRpbmc6OntHZXRFeGl0Q29kZVByb2Nlc3MsIE9wZW5Qcm9jZXNzLCBQUk9DRVNTX1FVRVJZX0xJTUlURURfSU5GT1JNQVRJT059LAogICAgfTsKCiAgICBsZXQgT2socGlkKSA9IHUzMjo6dHJ5X2Zyb20ocGlkKSBlbHNlIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9OwogICAgaWYgcGlkID09IDAgfHwgcGlkID09IHN0ZDo6cHJvY2Vzczo6aWQoKSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogICAgLy8gU0FGRVRZOiB0aGUgcmV0dXJuZWQgaGFuZGxlIGlzIGNoZWNrZWQgYW5kIGNsb3NlZCBvbiBldmVyeSBwYXRoLgogICAgdW5zYWZlIHsKICAgICAgICBsZXQgaGFuZGxlID0gT3BlblByb2Nlc3MoUFJPQ0VTU19RVUVSWV9MSU1JVEVEX0lORk9STUFUSU9OLCAwLCBwaWQpOwogICAgICAgIGlmIGhhbmRsZS5pc19udWxsKCkgewogICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgfQogICAgICAgIGxldCBtdXQgZXhpdF9jb2RlID0gMHUzMjsKICAgICAgICBsZXQgb2sgPSBHZXRFeGl0Q29kZVByb2Nlc3MoaGFuZGxlLCAmbXV0IGV4aXRfY29kZSkgIT0gMDsKICAgICAgICBDbG9zZUhhbmRsZShoYW5kbGUpOwogICAgICAgIG9rICYmIGV4aXRfY29kZSA9PSBTVElMTF9BQ1RJVkUgYXMgdTMyCiAgICB9Cn0KCiNbY2ZnKG5vdChhbnkodW5peCwgd2luZG93cykpKV0KcHViKGNyYXRlKSBmbiBwcm9jZXNzX2V4aXN0cyhfcGlkOiBpMzIpIC0+IGJvb2wgewogICAgZmFsc2UKfQoKI1tjZmcodW5peCldCnB1YihjcmF0ZSkgZm4gc2V0X2ZpbGVfb3duZXJfZnJvbV9tZXRhZGF0YShwYXRoOiAmUGF0aCwgbWV0YWRhdGE6ICZmczo6TWV0YWRhdGEpIC0+IGlvOjpSZXN1bHQ8KCk+IHsKICAgIHVzZSBzdGQ6Om9zOjp1bml4Ojpmczo6TWV0YWRhdGFFeHQ7CgogICAgbGV0IHBhdGhfYyA9IHN0ZDo6ZmZpOjpDU3RyaW5nOjpuZXcocGF0aC5hc19vc19zdHIoKS5hc19lbmNvZGVkX2J5dGVzKCkpLm1hcF9lcnIofF98IHsKICAgICAgICBpbzo6RXJyb3I6Om5ldygKICAgICAgICAgICAgaW86OkVycm9yS2luZDo6SW52YWxpZElucHV0LAogICAgICAgICAgICAiZmlsZSBwYXRoIGNvbnRhaW5zIGFuIGludGVyaW9yIE5VTCBieXRlIiwKICAgICAgICApCiAgICB9KT87CiAgICAvLyBTQUZFVFk6IHBhdGhfYyBpcyBhIGxpdmUsIG51bC10ZXJtaW5hdGVkIHBhdGhuYW1lIGZvciB0aGUgZHVyYXRpb24gb2YKICAgIC8vIHRoZSBjYWxsLCBhbmQgdWlkL2dpZCBjb21lIGRpcmVjdGx5IGZyb20gbWV0YWRhdGEgZm9yIHRoZSBzb3VyY2UgZmlsZS4KICAgIGlmIHVuc2FmZSB7IGxpYmM6OmNob3duKHBhdGhfYy5hc19wdHIoKSwgbWV0YWRhdGEudWlkKCksIG1ldGFkYXRhLmdpZCgpKSB9ID09IDAgewogICAgICAgIE9rKCgpKQogICAgfSBlbHNlIHsKICAgICAgICBFcnIoaW86OkVycm9yOjpsYXN0X29zX2Vycm9yKCkpCiAgICB9Cn0KCiNbY2ZnKG5vdCh1bml4KSldCnB1YihjcmF0ZSkgZm4gc2V0X2ZpbGVfb3duZXJfZnJvbV9tZXRhZGF0YSgKICAgIF9wYXRoOiAmUGF0aCwKICAgIF9tZXRhZGF0YTogJmZzOjpNZXRhZGF0YSwKKSAtPiBpbzo6UmVzdWx0PCgpPiB7CiAgICBPaygoKSkKfQo=
+use std::{fs, io, path::Path};
+
+#[cfg(unix)]
+pub(crate) fn is_root_process() -> bool {
+    // SAFETY: geteuid has no preconditions and does not dereference pointers.
+    unsafe { libc::geteuid() == 0 }
+}
+
+#[cfg(not(unix))]
+pub(crate) fn is_root_process() -> bool {
+    false
+}
+
+#[cfg(unix)]
+pub(crate) fn send_signal(pid: i32, signal: libc::c_int) -> io::Result<()> {
+    if pid <= 0 {
+        return Err(io::Error::new(
+            io::ErrorKind::InvalidInput,
+            "pid must be positive",
+        ));
+    }
+    // SAFETY: kill is called with a validated positive pid_t value and does not
+    // dereference Rust-managed memory.
+    if unsafe { libc::kill(pid as libc::pid_t, signal) } == 0 {
+        Ok(())
+    } else {
+        Err(io::Error::last_os_error())
+    }
+}
+
+#[cfg(not(unix))]
+pub(crate) fn send_signal(pid: i32, signal: i32) -> io::Result<()> {
+    let _ = (pid, signal);
+    Err(io::Error::new(
+        io::ErrorKind::Unsupported,
+        "signals are not supported on this platform",
+    ))
+}
+
+#[cfg(unix)]
+pub(crate) fn process_exists(pid: i32) -> bool {
+    if pid <= 0 || u32::try_from(pid).ok() == Some(std::process::id()) {
+        return false;
+    }
+    match send_signal(pid, 0) {
+        Ok(()) => true,
+        Err(error) => error.raw_os_error() == Some(libc::EPERM),
+    }
+}
+
+#[cfg(windows)]
+pub(crate) fn process_exists(pid: i32) -> bool {
+    use windows_sys::Win32::{
+        Foundation::{CloseHandle, STILL_ACTIVE},
+        System::Threading::{GetExitCodeProcess, OpenProcess, PROCESS_QUERY_LIMITED_INFORMATION},
+    };
+
+    let Ok(pid) = u32::try_from(pid) else {
+        return false;
+    };
+    if pid == 0 || pid == std::process::id() {
+        return false;
+    }
+    // SAFETY: the returned handle is checked and closed on every path.
+    unsafe {
+        let handle = OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION, 0, pid);
+        if handle.is_null() {
+            return false;
+        }
+        let mut exit_code = 0u32;
+        let ok = GetExitCodeProcess(handle, &mut exit_code) != 0;
+        CloseHandle(handle);
+        ok && exit_code == STILL_ACTIVE as u32
+    }
+}
+
+#[cfg(not(any(unix, windows)))]
+pub(crate) fn process_exists(_pid: i32) -> bool {
+    false
+}
+
+#[cfg(unix)]
+pub(crate) fn set_file_owner_from_metadata(path: &Path, metadata: &fs::Metadata) -> io::Result<()> {
+    use std::os::unix::fs::MetadataExt;
+
+    let path_c = std::ffi::CString::new(path.as_os_str().as_encoded_bytes()).map_err(|_| {
+        io::Error::new(
+            io::ErrorKind::InvalidInput,
+            "file path contains an interior NUL byte",
+        )
+    })?;
+    // SAFETY: path_c is a live, nul-terminated pathname for the duration of
+    // the call, and uid/gid come directly from metadata for the source file.
+    if unsafe { libc::chown(path_c.as_ptr(), metadata.uid(), metadata.gid()) } == 0 {
+        Ok(())
+    } else {
+        Err(io::Error::last_os_error())
+    }
+}
+
+#[cfg(not(unix))]
+pub(crate) fn set_file_owner_from_metadata(
+    _path: &Path,
+    _metadata: &fs::Metadata,
+) -> io::Result<()> {
+    Ok(())
+}

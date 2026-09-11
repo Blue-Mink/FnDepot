@@ -1,1 +1,60 @@
-aW1wb3J0IHsgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBjcmVhdGVJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBkZXNjcmliZSwgZXhwZWN0LCBpdCB9IGZyb20gInZpdGVzdCI7CgppbXBvcnQgU3RyZWFtTWFwcGluZ0Rpc2FibGVkQWxlcnQgZnJvbSAiLi4vc3JjL3ZpZXdzL3N0cmVhbS1tYXBwaW5ncy9TdHJlYW1NYXBwaW5nRGlzYWJsZWRBbGVydC52dWUiOwoKY29uc3QgY3JlYXRlVGVzdEkxOG4gPSAoKSA9PgogIGNyZWF0ZUkxOG4oewogICAgbGVnYWN5OiBmYWxzZSwKICAgIGxvY2FsZTogImVuIiwKICAgIG1lc3NhZ2VzOiB7CiAgICAgIGVuOiB7CiAgICAgICAgYWRtaW46IHsKICAgICAgICAgIHN0cmVhbU1hcHBpbmdzOiB7CiAgICAgICAgICAgIGRpc2FibGVkRGVzY3JpcHRpb246ICJEaXNhYmxlZCBieSB0aGUgYWRtaW5pc3RyYXRvci4iLAogICAgICAgICAgICBkaXNhYmxlZFRpdGxlOiAiUHJvdG9jb2wgbWFwcGluZ3MgYXJlIGRpc2FibGVkIiwKICAgICAgICAgICAgcnVudGltZURpc2FibGVkVGl0bGU6ICJQcm90b2NvbCBtYXBwaW5ncyBmYWlsZWQgdG8gc3RhcnQiLAogICAgICAgICAgICBydW50aW1lSXNzdWVEZXRhaWxzOiAiU3RhcnR1cCBlcnJvciBkZXRhaWxzIiwKICAgICAgICAgICAgcnVudGltZUlzc3VlRmFsbGJhY2s6ICJUaGUgZ2F0ZXdheSByZWplY3RlZCB0aGUgY29uZmlndXJhdGlvbi4iLAogICAgICAgICAgICBydW50aW1lSXNzdWVMb2NhbExvb3A6ICJ7cHJvdG9jb2x9IHBvcnQge3BvcnR9IGxvb3BzIHRvIHt0YXJnZXR9LiIsCiAgICAgICAgICAgIHJ1bnRpbWVJc3N1ZVBvcnRJblVzZTogIntwcm90b2NvbH0gcG9ydCB7cG9ydH0gaXMgYWxyZWFkeSBpbiB1c2UuIiwKICAgICAgICAgICAgcnVudGltZUlzc3VlUmVjb3Zlcnk6ICJGaXggdGhlIHJ1bGUgYW5kIHJlLWVuYWJsZSB0aGUgZmVhdHVyZS4iLAogICAgICAgICAgfSwKICAgICAgICB9LAogICAgICB9LAogICAgfSwKICB9KTsKCmRlc2NyaWJlKCJzdHJlYW0gbWFwcGluZyBkaXNhYmxlZCBhbGVydCIsICgpID0+IHsKICBpdCgic2hvd3MgYW4gb2NjdXBpZWQgcG9ydCBhbmQgdGhlIG9yaWdpbmFsIGdhdGV3YXkgZXJyb3IiLCAoKSA9PiB7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoU3RyZWFtTWFwcGluZ0Rpc2FibGVkQWxlcnQsIHsKICAgICAgcHJvcHM6IHsKICAgICAgICBydW50aW1lSXNzdWU6IHsKICAgICAgICAgIGNvZGU6ICJsaXN0ZW5fcG9ydF9pbl91c2UiLAogICAgICAgICAgbGlzdGVuX3BvcnQ6IDkwMDAsCiAgICAgICAgICBtZXNzYWdlOiAibGlzdGVuIHRjcCA6OTAwMDogYmluZDogYWRkcmVzcyBhbHJlYWR5IGluIHVzZSIsCiAgICAgICAgICBwcm90b2NvbDogInRjcCIsCiAgICAgICAgICB0YXJnZXQ6ICIxMjcuMC4wLjE6OTAwMSIsCiAgICAgICAgfSwKICAgICAgfSwKICAgICAgZ2xvYmFsOiB7IHBsdWdpbnM6IFtjcmVhdGVUZXN0STE4bigpXSB9LAogICAgfSk7CgogICAgZXhwZWN0KHdyYXBwZXIudGV4dCgpKS50b0NvbnRhaW4oIlByb3RvY29sIG1hcHBpbmdzIGZhaWxlZCB0byBzdGFydCIpOwogICAgZXhwZWN0KHdyYXBwZXIudGV4dCgpKS50b0NvbnRhaW4oIlRDUCBwb3J0IDkwMDAgaXMgYWxyZWFkeSBpbiB1c2UiKTsKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKAogICAgICAibGlzdGVuIHRjcCA6OTAwMDogYmluZDogYWRkcmVzcyBhbHJlYWR5IGluIHVzZSIsCiAgICApOwogIH0pOwoKICBpdCgia2VlcHMgdGhlIG9yZGluYXJ5IGRpc2FibGVkIHN0YXRlIGZyZWUgb2Ygc3RhbGUgcnVudGltZSBkZXRhaWxzIiwgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KFN0cmVhbU1hcHBpbmdEaXNhYmxlZEFsZXJ0LCB7CiAgICAgIGdsb2JhbDogeyBwbHVnaW5zOiBbY3JlYXRlVGVzdEkxOG4oKV0gfSwKICAgIH0pOwoKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKCJQcm90b2NvbCBtYXBwaW5ncyBhcmUgZGlzYWJsZWQiKTsKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKCJEaXNhYmxlZCBieSB0aGUgYWRtaW5pc3RyYXRvciIpOwogICAgZXhwZWN0KHdyYXBwZXIudGV4dCgpKS5ub3QudG9Db250YWluKCJTdGFydHVwIGVycm9yIGRldGFpbHMiKTsKICB9KTsKfSk7Cg==
+import { mount } from "@vue/test-utils";
+import { createI18n } from "vue-i18n";
+import { describe, expect, it } from "vitest";
+
+import StreamMappingDisabledAlert from "../src/views/stream-mappings/StreamMappingDisabledAlert.vue";
+
+const createTestI18n = () =>
+  createI18n({
+    legacy: false,
+    locale: "en",
+    messages: {
+      en: {
+        admin: {
+          streamMappings: {
+            disabledDescription: "Disabled by the administrator.",
+            disabledTitle: "Protocol mappings are disabled",
+            runtimeDisabledTitle: "Protocol mappings failed to start",
+            runtimeIssueDetails: "Startup error details",
+            runtimeIssueFallback: "The gateway rejected the configuration.",
+            runtimeIssueLocalLoop: "{protocol} port {port} loops to {target}.",
+            runtimeIssuePortInUse: "{protocol} port {port} is already in use.",
+            runtimeIssueRecovery: "Fix the rule and re-enable the feature.",
+          },
+        },
+      },
+    },
+  });
+
+describe("stream mapping disabled alert", () => {
+  it("shows an occupied port and the original gateway error", () => {
+    const wrapper = mount(StreamMappingDisabledAlert, {
+      props: {
+        runtimeIssue: {
+          code: "listen_port_in_use",
+          listen_port: 9000,
+          message: "listen tcp :9000: bind: address already in use",
+          protocol: "tcp",
+          target: "127.0.0.1:9001",
+        },
+      },
+      global: { plugins: [createTestI18n()] },
+    });
+
+    expect(wrapper.text()).toContain("Protocol mappings failed to start");
+    expect(wrapper.text()).toContain("TCP port 9000 is already in use");
+    expect(wrapper.text()).toContain(
+      "listen tcp :9000: bind: address already in use",
+    );
+  });
+
+  it("keeps the ordinary disabled state free of stale runtime details", () => {
+    const wrapper = mount(StreamMappingDisabledAlert, {
+      global: { plugins: [createTestI18n()] },
+    });
+
+    expect(wrapper.text()).toContain("Protocol mappings are disabled");
+    expect(wrapper.text()).toContain("Disabled by the administrator");
+    expect(wrapper.text()).not.toContain("Startup error details");
+  });
+});

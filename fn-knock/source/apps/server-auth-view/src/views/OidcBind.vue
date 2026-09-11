@@ -1,1 +1,147 @@
-PHRlbXBsYXRlPgogIDxBdXRoU2hlbGw+CiAgICA8QXV0aENhcmQKICAgICAgOnRpdGxlPSJ0KCdhdXRoLm9pZGNCaW5kLnRpdGxlJykiCiAgICAgIDpkZXNjcmlwdGlvbj0iZGVzY3JpcHRpb24iCiAgICAgIGNvbnRlbnQtY2xhc3M9InNwYWNlLXktNCIKICAgID4KICAgICAgPGRpdgogICAgICAgIHYtaWY9ImlzTG9hZGluZyIKICAgICAgICBjbGFzcz0icHktOCB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICByb2xlPSJzdGF0dXMiCiAgICAgID4KICAgICAgICB7eyB0KCJhdXRoLm9pZGNCaW5kLmNoZWNraW5nSW52aXRlIikgfX0KICAgICAgPC9kaXY+CiAgICAgIDxkaXYKICAgICAgICB2LWVsc2UtaWY9ImVycm9yTWVzc2FnZSIKICAgICAgICBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWRlc3RydWN0aXZlLzMwIGJnLWRlc3RydWN0aXZlLzUgcHgtNCBweS0zIHRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICByb2xlPSJhbGVydCIKICAgICAgPgogICAgICAgIHt7IGVycm9yTWVzc2FnZSB9fQogICAgICA8L2Rpdj4KICAgICAgPGRpdiB2LWVsc2UgY2xhc3M9InNwYWNlLXktNCI+CiAgICAgICAgPGRpdiBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgYmctbXV0ZWQvNDAgcHgtMyBweS0yIHRleHQtc20iPgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgdCgiYXV0aC5vaWRjQmluZC5iaW5kVG8iKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmb250LW1lZGl1bSI+e3sgaW52aXRlPy50b3RwLmNvbW1lbnQgfHwgIlRPVFAiIH19PC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdi1mb3I9InByb3ZpZGVyIGluIGludml0ZT8ucHJvdmlkZXJzIHx8IFtdIgogICAgICAgICAgOmtleT0icHJvdmlkZXIuaWQiCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgY2xhc3M9InctZnVsbCIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNTdGFydGluZyIKICAgICAgICAgIEBjbGljaz0ic3RhcnRCaW5kKHByb3ZpZGVyLmlkKSIKICAgICAgICA+CiAgICAgICAgICA8c3BhbgogICAgICAgICAgICB2LWlmPSJhY3RpdmVQcm92aWRlcklkID09PSBwcm92aWRlci5pZCAmJiBpc1N0YXJ0aW5nIgogICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLXByaW1hcnkgYm9yZGVyLXQtdHJhbnNwYXJlbnQiCiAgICAgICAgICA+PC9zcGFuPgogICAgICAgICAgPFFxSWNvbgogICAgICAgICAgICB2LWVsc2UtaWY9InByb3ZpZGVyLnR5cGUgPT09ICdmbmtub2NrX3FxJyIKICAgICAgICAgICAgY2xhc3M9Im1yLTIgc2l6ZS00IHRleHQtWyMxZWJhZmNdIgogICAgICAgICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgICAgIC8+CiAgICAgICAgICB7eyB0KCJhdXRoLm9pZGNCaW5kLnVzZVByb3ZpZGVyIiwgeyBwcm92aWRlcjogcHJvdmlkZXIubmFtZSB9KSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvQXV0aENhcmQ+CiAgPC9BdXRoU2hlbGw+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KaW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IGFwaUNsaWVudCB9IGZyb20gIkAvbGliL2FwaSI7CmltcG9ydCB7IHVzZUF1dGhTeXN0ZW1Db25maWcgfSBmcm9tICJAL2NvbXBvc2FibGVzL3VzZUF1dGhTeXN0ZW1Db25maWciOwppbXBvcnQgdHlwZSB7IExvY2FsZUNvbmZpZyB9IGZyb20gIkBmbi1rbm9jay9pMThuL2NvcmUiOwppbXBvcnQgdHlwZSB7IEFwcGVhcmFuY2VDb25maWcgfSBmcm9tICJAZnJvbnRlbmQtY29yZS9hcHBlYXJhbmNlIjsKaW1wb3J0IEF1dGhDYXJkIGZyb20gIkAvY29tcG9uZW50cy9BdXRoQ2FyZC52dWUiOwppbXBvcnQgQXV0aFNoZWxsIGZyb20gIkAvY29tcG9uZW50cy9BdXRoU2hlbGwudnVlIjsKaW1wb3J0IFFxSWNvbiBmcm9tICJAL2NvbXBvbmVudHMvUXFJY29uLnZ1ZSI7Cgp0eXBlIEludml0ZURldGFpbHMgPSB7CiAgbG9jYWxlOiBMb2NhbGVDb25maWc7CiAgYXBwZWFyYW5jZTogQXBwZWFyYW5jZUNvbmZpZzsKICB0b3RwOiB7IGlkOiBzdHJpbmc7IGNvbW1lbnQ6IHN0cmluZyB9OwogIHByb3ZpZGVyX2lkPzogc3RyaW5nOwogIGV4cGlyZXNfYXQ6IHN0cmluZzsKICBwcm92aWRlcnM6IEFycmF5PHsgaWQ6IHN0cmluZzsgdHlwZTogc3RyaW5nOyBuYW1lOiBzdHJpbmcgfT47Cn07Cgpjb25zdCBwYXJhbXMgPQogIHR5cGVvZiB3aW5kb3cgIT09ICJ1bmRlZmluZWQiCiAgICA/IG5ldyBVUkxTZWFyY2hQYXJhbXMod2luZG93LmxvY2F0aW9uLnNlYXJjaCkKICAgIDogbmV3IFVSTFNlYXJjaFBhcmFtcygpOwpjb25zdCB0b2tlbiA9IHBhcmFtcy5nZXQoInRva2VuIikgfHwgIiI7CmNvbnN0IGludml0ZSA9IHJlZjxJbnZpdGVEZXRhaWxzIHwgbnVsbD4obnVsbCk7CmNvbnN0IGVycm9yTWVzc2FnZSA9IHJlZigiIik7CmNvbnN0IGlzTG9hZGluZyA9IHJlZih0cnVlKTsKY29uc3QgaXNTdGFydGluZyA9IHJlZihmYWxzZSk7CmNvbnN0IGFjdGl2ZVByb3ZpZGVySWQgPSByZWYoIiIpOwpjb25zdCBpMThuID0gdXNlSTE4bigpOwpjb25zdCB7IHQgfSA9IGkxOG47CmNvbnN0IHsgYXBwbHlBdXRoU3lzdGVtQ29uZmlnIH0gPSB1c2VBdXRoU3lzdGVtQ29uZmlnKGkxOG4pOwoKY29uc3QgZGVzY3JpcHRpb24gPSBjb21wdXRlZCgoKSA9PiB7CiAgaWYgKGVycm9yTWVzc2FnZS52YWx1ZSkgcmV0dXJuIHQoImF1dGgub2lkY0JpbmQuaW52YWxpZEludml0ZSIpOwogIGlmICghaW52aXRlLnZhbHVlKSByZXR1cm4gdCgiYXV0aC5vaWRjQmluZC53YWl0Iik7CiAgcmV0dXJuIHQoImF1dGgub2lkY0JpbmQuc2VsZWN0UHJvdmlkZXIiKTsKfSk7Cgpvbk1vdW50ZWQobG9hZEludml0ZSk7Cgphc3luYyBmdW5jdGlvbiBsb2FkSW52aXRlKCkgewogIGlzTG9hZGluZy52YWx1ZSA9IHRydWU7CiAgZXJyb3JNZXNzYWdlLnZhbHVlID0gIiI7CiAgdHJ5IHsKICAgIGlmICghdG9rZW4pIHRocm93IG5ldyBFcnJvcih0KCJhdXRoLm9pZGNCaW5kLm1pc3NpbmdUb2tlbiIpKTsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9vaWRjL2ludml0ZSIsIHsKICAgICAgcGFyYW1zOiB7IHRva2VuIH0sCiAgICB9KTsKICAgIGludml0ZS52YWx1ZSA9IHJlcy5kYXRhLmRhdGE7CiAgICBhd2FpdCBhcHBseUF1dGhTeXN0ZW1Db25maWcoaW52aXRlLnZhbHVlKTsKICAgIGlmICghaW52aXRlLnZhbHVlPy5wcm92aWRlcnMubGVuZ3RoKSB7CiAgICAgIHRocm93IG5ldyBFcnJvcih0KCJhdXRoLm9pZGNCaW5kLm5vUHJvdmlkZXJzIikpOwogICAgfQogIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsKICAgIGF3YWl0IGFwcGx5QXV0aFN5c3RlbUNvbmZpZyhlcnJvcj8ucmVzcG9uc2U/LmRhdGE/LmRhdGEpOwogICAgZXJyb3JNZXNzYWdlLnZhbHVlID0KICAgICAgZXJyb3I/LnJlc3BvbnNlPy5kYXRhPy5tZXNzYWdlIHx8CiAgICAgIGVycm9yPy5tZXNzYWdlIHx8CiAgICAgIHQoImF1dGgub2lkY0JpbmQuaW52aXRlRXhwaXJlZCIpOwogIH0gZmluYWxseSB7CiAgICBpc0xvYWRpbmcudmFsdWUgPSBmYWxzZTsKICB9Cn0KCmFzeW5jIGZ1bmN0aW9uIHN0YXJ0QmluZChwcm92aWRlcklkOiBzdHJpbmcpIHsKICBpZiAoaXNTdGFydGluZy52YWx1ZSkgcmV0dXJuOwogIGlzU3RhcnRpbmcudmFsdWUgPSB0cnVlOwogIGFjdGl2ZVByb3ZpZGVySWQudmFsdWUgPSBwcm92aWRlcklkOwogIGVycm9yTWVzc2FnZS52YWx1ZSA9ICIiOwogIHRyeSB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL29pZGMvc3RhcnQiLCB7CiAgICAgIHByb3ZpZGVyX2lkOiBwcm92aWRlcklkLAogICAgICBtb2RlOiAiYmluZCIsCiAgICAgIGludml0ZV90b2tlbjogdG9rZW4sCiAgICAgIHJlbWVtYmVyTWU6IGZhbHNlLAogICAgfSk7CiAgICBjb25zdCBhdXRob3JpemF0aW9uVXJsID0gcmVzLmRhdGE/LmRhdGE/LmF1dGhvcml6YXRpb25fdXJsOwogICAgaWYgKCFhdXRob3JpemF0aW9uVXJsKSB7CiAgICAgIHRocm93IG5ldyBFcnJvcihyZXMuZGF0YT8ubWVzc2FnZSB8fCB0KCJhdXRoLm9pZGNCaW5kLnN0YXJ0RmFpbGVkIikpOwogICAgfQogICAgd2luZG93LmxvY2F0aW9uLmFzc2lnbihhdXRob3JpemF0aW9uVXJsKTsKICB9IGNhdGNoIChlcnJvcjogYW55KSB7CiAgICBlcnJvck1lc3NhZ2UudmFsdWUgPQogICAgICBlcnJvcj8ucmVzcG9uc2U/LmRhdGE/Lm1lc3NhZ2UgfHwKICAgICAgZXJyb3I/Lm1lc3NhZ2UgfHwKICAgICAgdCgiYXV0aC5vaWRjQmluZC5iaW5kRmFpbGVkIik7CiAgICBpc1N0YXJ0aW5nLnZhbHVlID0gZmFsc2U7CiAgICBhY3RpdmVQcm92aWRlcklkLnZhbHVlID0gIiI7CiAgfQp9Cjwvc2NyaXB0Pgo=
+<template>
+  <AuthShell>
+    <AuthCard
+      :title="t('auth.oidcBind.title')"
+      :description="description"
+      content-class="space-y-4"
+    >
+      <div
+        v-if="isLoading"
+        class="py-8 text-center text-sm text-muted-foreground"
+        role="status"
+      >
+        {{ t("auth.oidcBind.checkingInvite") }}
+      </div>
+      <div
+        v-else-if="errorMessage"
+        class="rounded-lg border border-destructive/30 bg-destructive/5 px-4 py-3 text-sm text-destructive"
+        role="alert"
+      >
+        {{ errorMessage }}
+      </div>
+      <div v-else class="space-y-4">
+        <div class="rounded-lg border bg-muted/40 px-3 py-2 text-sm">
+          <div class="text-muted-foreground">
+            {{ t("auth.oidcBind.bindTo") }}
+          </div>
+          <div class="font-medium">{{ invite?.totp.comment || "TOTP" }}</div>
+        </div>
+        <Button
+          v-for="provider in invite?.providers || []"
+          :key="provider.id"
+          type="button"
+          variant="outline"
+          class="w-full"
+          :disabled="isStarting"
+          @click="startBind(provider.id)"
+        >
+          <span
+            v-if="activeProviderId === provider.id && isStarting"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-primary border-t-transparent"
+          ></span>
+          <QqIcon
+            v-else-if="provider.type === 'fnknock_qq'"
+            class="mr-2 size-4 text-[#1ebafc]"
+            aria-hidden="true"
+          />
+          {{ t("auth.oidcBind.useProvider", { provider: provider.name }) }}
+        </Button>
+      </div>
+    </AuthCard>
+  </AuthShell>
+</template>
+
+<script setup lang="ts">
+import { computed, onMounted, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import { apiClient } from "@/lib/api";
+import { useAuthSystemConfig } from "@/composables/useAuthSystemConfig";
+import type { LocaleConfig } from "@fn-knock/i18n/core";
+import type { AppearanceConfig } from "@frontend-core/appearance";
+import AuthCard from "@/components/AuthCard.vue";
+import AuthShell from "@/components/AuthShell.vue";
+import QqIcon from "@/components/QqIcon.vue";
+
+type InviteDetails = {
+  locale: LocaleConfig;
+  appearance: AppearanceConfig;
+  totp: { id: string; comment: string };
+  provider_id?: string;
+  expires_at: string;
+  providers: Array<{ id: string; type: string; name: string }>;
+};
+
+const params =
+  typeof window !== "undefined"
+    ? new URLSearchParams(window.location.search)
+    : new URLSearchParams();
+const token = params.get("token") || "";
+const invite = ref<InviteDetails | null>(null);
+const errorMessage = ref("");
+const isLoading = ref(true);
+const isStarting = ref(false);
+const activeProviderId = ref("");
+const i18n = useI18n();
+const { t } = i18n;
+const { applyAuthSystemConfig } = useAuthSystemConfig(i18n);
+
+const description = computed(() => {
+  if (errorMessage.value) return t("auth.oidcBind.invalidInvite");
+  if (!invite.value) return t("auth.oidcBind.wait");
+  return t("auth.oidcBind.selectProvider");
+});
+
+onMounted(loadInvite);
+
+async function loadInvite() {
+  isLoading.value = true;
+  errorMessage.value = "";
+  try {
+    if (!token) throw new Error(t("auth.oidcBind.missingToken"));
+    const res = await apiClient.get("/oidc/invite", {
+      params: { token },
+    });
+    invite.value = res.data.data;
+    await applyAuthSystemConfig(invite.value);
+    if (!invite.value?.providers.length) {
+      throw new Error(t("auth.oidcBind.noProviders"));
+    }
+  } catch (error: any) {
+    await applyAuthSystemConfig(error?.response?.data?.data);
+    errorMessage.value =
+      error?.response?.data?.message ||
+      error?.message ||
+      t("auth.oidcBind.inviteExpired");
+  } finally {
+    isLoading.value = false;
+  }
+}
+
+async function startBind(providerId: string) {
+  if (isStarting.value) return;
+  isStarting.value = true;
+  activeProviderId.value = providerId;
+  errorMessage.value = "";
+  try {
+    const res = await apiClient.post("/oidc/start", {
+      provider_id: providerId,
+      mode: "bind",
+      invite_token: token,
+      rememberMe: false,
+    });
+    const authorizationUrl = res.data?.data?.authorization_url;
+    if (!authorizationUrl) {
+      throw new Error(res.data?.message || t("auth.oidcBind.startFailed"));
+    }
+    window.location.assign(authorizationUrl);
+  } catch (error: any) {
+    errorMessage.value =
+      error?.response?.data?.message ||
+      error?.message ||
+      t("auth.oidcBind.bindFailed");
+    isStarting.value = false;
+    activeProviderId.value = "";
+  }
+}
+</script>

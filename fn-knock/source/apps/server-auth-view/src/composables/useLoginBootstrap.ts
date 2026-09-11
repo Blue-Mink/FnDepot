@@ -1,1 +1,100 @@
-aW1wb3J0IHsgb25CZWZvcmVVbm1vdW50LCBvbk1vdW50ZWQsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHR5cGUgewogIEF1dGhCb290c3RyYXBEYXRhLAogIEF1dGhHcmFudFR5cGUsCiAgQXV0aExkYXBQcm92aWRlciwKICBBdXRoT2lkY1Byb3ZpZGVyLAp9IGZyb20gIkBmcm9udGVuZC1jb3JlL2F1dGgvdHlwZXMiOwppbXBvcnQgdHlwZSB7IENhcHRjaGFQdWJsaWNTZXR0aW5ncyB9IGZyb20gIkBmcm9udGVuZC1jb3JlL2NhcHRjaGEvdHlwZXMiOwppbXBvcnQgeyBBdXRoQVBJIH0gZnJvbSAiQC9saWIvYXBpIjsKCmludGVyZmFjZSBVc2VMb2dpbkJvb3RzdHJhcE9wdGlvbnMgewogIGFwcGx5QXV0aFN5c3RlbUNvbmZpZzogKGRhdGE6IEF1dGhCb290c3RyYXBEYXRhKSA9PiBQcm9taXNlPHVua25vd24+OwogIGJvb3RzdHJhcEdyYW50VHlwZTogUmVmPEF1dGhHcmFudFR5cGUgfCB1bmRlZmluZWQ+OwogIGNhcHRjaGFDb25maWc6IFJlZjxDYXB0Y2hhUHVibGljU2V0dGluZ3MgfCBudWxsPjsKICBpc0NhcHRjaGFDb25maWdMb2FkaW5nOiBSZWY8Ym9vbGVhbj47CiAgaXNQYXNza2V5QXZhaWxhYmxlOiBSZWY8Ym9vbGVhbj47CiAgbGRhcFByb3ZpZGVySWQ6IFJlZjxzdHJpbmc+OwogIGxkYXBQcm92aWRlcnM6IFJlZjxBdXRoTGRhcFByb3ZpZGVyW10+OwogIGxvZ2luTW9kZTogUmVmPCJ0b3RwIiB8ICJwYXNzd29yZCI+OwogIG5hdmlnYXRlQWZ0ZXJCb290c3RyYXA6IChvcHRpb25zOiB7CiAgICBhdXRoZW50aWNhdGVkOiBib29sZWFuOwogICAgcmVkaXJlY3RUbz86IHN0cmluZyB8IG51bGw7CiAgfSkgPT4gUHJvbWlzZTxib29sZWFuPjsKICBvaWRjRXJyb3I6IFJlZjxzdHJpbmc+OwogIG9pZGNQcm92aWRlcnM6IFJlZjxBdXRoT2lkY1Byb3ZpZGVyW10+OwogIHJlZGlyZWN0VXJpOiBzdHJpbmcgfCBudWxsOwogIHJlZnJlc2hCcm93c2VyQ2FwYWJpbGl0aWVzOiAoKSA9PiB2b2lkOwogIHJlcG9ydEVycm9yOiAobWVzc2FnZTogc3RyaW5nKSA9PiB2b2lkOwogIHN0YXJ0TG9jYXRpb25Qb2xsaW5nOiAoY2xpZW50OiBBdXRoQm9vdHN0cmFwRGF0YVsiY2xpZW50Il0pID0+IHZvaWQ7CiAgdHJhbnNsYXRlOiAoa2V5OiBzdHJpbmcpID0+IHN0cmluZzsKfQoKZXhwb3J0IGZ1bmN0aW9uIHVzZUxvZ2luQm9vdHN0cmFwKHsKICBhcHBseUF1dGhTeXN0ZW1Db25maWcsCiAgYm9vdHN0cmFwR3JhbnRUeXBlLAogIGNhcHRjaGFDb25maWcsCiAgaXNDYXB0Y2hhQ29uZmlnTG9hZGluZywKICBpc1Bhc3NrZXlBdmFpbGFibGUsCiAgbGRhcFByb3ZpZGVySWQsCiAgbGRhcFByb3ZpZGVycywKICBsb2dpbk1vZGUsCiAgbmF2aWdhdGVBZnRlckJvb3RzdHJhcCwKICBvaWRjRXJyb3IsCiAgb2lkY1Byb3ZpZGVycywKICByZWRpcmVjdFVyaSwKICByZWZyZXNoQnJvd3NlckNhcGFiaWxpdGllcywKICByZXBvcnRFcnJvciwKICBzdGFydExvY2F0aW9uUG9sbGluZywKICB0cmFuc2xhdGUsCn06IFVzZUxvZ2luQm9vdHN0cmFwT3B0aW9ucykgewogIGxldCBkaXNwb3NlZCA9IGZhbHNlOwoKICBjb25zdCBsb2FkQm9vdHN0cmFwID0gYXN5bmMgKCkgPT4gewogICAgdHJ5IHsKICAgICAgY29uc3QgYm9vdHN0cmFwID0gYXdhaXQgQXV0aEFQSS5nZXRCb290c3RyYXAocmVkaXJlY3RVcmkpOwogICAgICBpZiAoZGlzcG9zZWQpIHJldHVybjsKICAgICAgYXdhaXQgYXBwbHlBdXRoU3lzdGVtQ29uZmlnKGJvb3RzdHJhcCk7CiAgICAgIGlmIChkaXNwb3NlZCkgcmV0dXJuOwogICAgICBzdGFydExvY2F0aW9uUG9sbGluZyhib290c3RyYXAuY2xpZW50KTsKICAgICAgY2FwdGNoYUNvbmZpZy52YWx1ZSA9IGJvb3RzdHJhcC5jYXB0Y2hhOwogICAgICBpc1Bhc3NrZXlBdmFpbGFibGUudmFsdWUgPSBib290c3RyYXAucGFzc2tleS5hdmFpbGFibGU7CiAgICAgIGxkYXBQcm92aWRlcnMudmFsdWUgPSBib290c3RyYXAubGRhcD8ucHJvdmlkZXJzIHx8IFtdOwogICAgICBpZiAoCiAgICAgICAgIWxkYXBQcm92aWRlcnMudmFsdWUuc29tZSgKICAgICAgICAgIChwcm92aWRlcikgPT4gcHJvdmlkZXIuaWQgPT09IGxkYXBQcm92aWRlcklkLnZhbHVlLAogICAgICAgICkKICAgICAgKSB7CiAgICAgICAgbGRhcFByb3ZpZGVySWQudmFsdWUgPSBsZGFwUHJvdmlkZXJzLnZhbHVlWzBdPy5pZCB8fCAiIjsKICAgICAgfQogICAgICBvaWRjUHJvdmlkZXJzLnZhbHVlID0gYm9vdHN0cmFwLm9pZGM/LnByb3ZpZGVycyB8fCBbXTsKICAgICAgb2lkY0Vycm9yLnZhbHVlID0gYm9vdHN0cmFwLm9pZGM/LmxvZ2luX2Vycm9yIHx8ICIiOwogICAgICBib290c3RyYXBHcmFudFR5cGUudmFsdWUgPSBib290c3RyYXAuYXV0aC5ncmFudF90eXBlOwogICAgICBsb2dpbk1vZGUudmFsdWUgPQogICAgICAgIGJvb3RzdHJhcC5hdXRoLmxvZ2luX21vZGUgPT09ICJwYXNzd29yZCIgPyAicGFzc3dvcmQiIDogInRvdHAiOwogICAgICBhd2FpdCBuYXZpZ2F0ZUFmdGVyQm9vdHN0cmFwKHsKICAgICAgICBhdXRoZW50aWNhdGVkOiBib290c3RyYXAuYXV0aC5hdXRoZW50aWNhdGVkLAogICAgICAgIHJlZGlyZWN0VG86IGJvb3RzdHJhcC5yZWRpcmVjdF90bywKICAgICAgfSk7CiAgICB9IGNhdGNoIChlcnJvcjogYW55KSB7CiAgICAgIGlmIChkaXNwb3NlZCkgcmV0dXJuOwogICAgICByZXBvcnRFcnJvcigKICAgICAgICBlcnJvcj8ucmVzcG9uc2U/LmRhdGE/Lm1lc3NhZ2UgfHwKICAgICAgICAgIGVycm9yPy5tZXNzYWdlIHx8CiAgICAgICAgICB0cmFuc2xhdGUoImF1dGguY2FwdGNoYUNvbmZpZ0xvYWRGYWlsZWQiKSwKICAgICAgKTsKICAgIH0gZmluYWxseSB7CiAgICAgIGlmICghZGlzcG9zZWQpIGlzQ2FwdGNoYUNvbmZpZ0xvYWRpbmcudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9OwoKICBvbk1vdW50ZWQoYXN5bmMgKCkgPT4gewogICAgcmVmcmVzaEJyb3dzZXJDYXBhYmlsaXRpZXMoKTsKICAgIGF3YWl0IGxvYWRCb290c3RyYXAoKTsKICB9KTsKICBvbkJlZm9yZVVubW91bnQoKCkgPT4gewogICAgZGlzcG9zZWQgPSB0cnVlOwogIH0pOwoKICByZXR1cm4geyBsb2FkQm9vdHN0cmFwIH07Cn0K
+import { onBeforeUnmount, onMounted, type Ref } from "vue";
+import type {
+  AuthBootstrapData,
+  AuthGrantType,
+  AuthLdapProvider,
+  AuthOidcProvider,
+} from "@frontend-core/auth/types";
+import type { CaptchaPublicSettings } from "@frontend-core/captcha/types";
+import { AuthAPI } from "@/lib/api";
+
+interface UseLoginBootstrapOptions {
+  applyAuthSystemConfig: (data: AuthBootstrapData) => Promise<unknown>;
+  bootstrapGrantType: Ref<AuthGrantType | undefined>;
+  captchaConfig: Ref<CaptchaPublicSettings | null>;
+  isCaptchaConfigLoading: Ref<boolean>;
+  isPasskeyAvailable: Ref<boolean>;
+  ldapProviderId: Ref<string>;
+  ldapProviders: Ref<AuthLdapProvider[]>;
+  loginMode: Ref<"totp" | "password">;
+  navigateAfterBootstrap: (options: {
+    authenticated: boolean;
+    redirectTo?: string | null;
+  }) => Promise<boolean>;
+  oidcError: Ref<string>;
+  oidcProviders: Ref<AuthOidcProvider[]>;
+  redirectUri: string | null;
+  refreshBrowserCapabilities: () => void;
+  reportError: (message: string) => void;
+  startLocationPolling: (client: AuthBootstrapData["client"]) => void;
+  translate: (key: string) => string;
+}
+
+export function useLoginBootstrap({
+  applyAuthSystemConfig,
+  bootstrapGrantType,
+  captchaConfig,
+  isCaptchaConfigLoading,
+  isPasskeyAvailable,
+  ldapProviderId,
+  ldapProviders,
+  loginMode,
+  navigateAfterBootstrap,
+  oidcError,
+  oidcProviders,
+  redirectUri,
+  refreshBrowserCapabilities,
+  reportError,
+  startLocationPolling,
+  translate,
+}: UseLoginBootstrapOptions) {
+  let disposed = false;
+
+  const loadBootstrap = async () => {
+    try {
+      const bootstrap = await AuthAPI.getBootstrap(redirectUri);
+      if (disposed) return;
+      await applyAuthSystemConfig(bootstrap);
+      if (disposed) return;
+      startLocationPolling(bootstrap.client);
+      captchaConfig.value = bootstrap.captcha;
+      isPasskeyAvailable.value = bootstrap.passkey.available;
+      ldapProviders.value = bootstrap.ldap?.providers || [];
+      if (
+        !ldapProviders.value.some(
+          (provider) => provider.id === ldapProviderId.value,
+        )
+      ) {
+        ldapProviderId.value = ldapProviders.value[0]?.id || "";
+      }
+      oidcProviders.value = bootstrap.oidc?.providers || [];
+      oidcError.value = bootstrap.oidc?.login_error || "";
+      bootstrapGrantType.value = bootstrap.auth.grant_type;
+      loginMode.value =
+        bootstrap.auth.login_mode === "password" ? "password" : "totp";
+      await navigateAfterBootstrap({
+        authenticated: bootstrap.auth.authenticated,
+        redirectTo: bootstrap.redirect_to,
+      });
+    } catch (error: any) {
+      if (disposed) return;
+      reportError(
+        error?.response?.data?.message ||
+          error?.message ||
+          translate("auth.captchaConfigLoadFailed"),
+      );
+    } finally {
+      if (!disposed) isCaptchaConfigLoading.value = false;
+    }
+  };
+
+  onMounted(async () => {
+    refreshBrowserCapabilities();
+    await loadBootstrap();
+  });
+  onBeforeUnmount(() => {
+    disposed = true;
+  });
+
+  return { loadBootstrap };
+}

@@ -1,1 +1,163 @@
-dXNlIHN0ZDo6Y29sbGVjdGlvbnM6Okhhc2hNYXA7Cgp1c2Ugc2VyZGU6OlNlcmlhbGl6ZTsKdXNlIHV0b2lwYTo6VG9TY2hlbWE7Cgp1c2Ugc3VwZXI6OkdhdGV3YXlWaXNpYmlsaXR5U2VsZWN0aW9uRGF0YTsKCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IFNlY3VyaXR5T3ZlcnZpZXdUb3RhbHNEYXRhIHsKICAgIGZhaWxlZF9sb2dpbnM6IHVzaXplLAogICAgYmxvY2tlZF9zY2FubmVyczogdXNpemUsCiAgICB3YWZfZXZlbnRzOiBpNjQsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IFNlY3VyaXR5T3ZlcnZpZXdTZXJpZXNEYXRhIHsKICAgIGZhaWxlZF9sb2dpbnM6IFZlYzxbaTY0OyAyXT4sCiAgICBibG9ja2VkX3NjYW5uZXJzOiBWZWM8W2k2NDsgMl0+LAogICAgd2FmX2V2ZW50czogVmVjPFtpNjQ7IDJdPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgU2VjdXJpdHlPdmVydmlld0RhdGEgewogICAgcmFuZ2Vfc2VjOiBpNjQsCiAgICB0b3RhbHM6IFNlY3VyaXR5T3ZlcnZpZXdUb3RhbHNEYXRhLAogICAgc2VyaWVzOiBTZWN1cml0eU92ZXJ2aWV3U2VyaWVzRGF0YSwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgU2Nhbm5lclNldHRpbmdzRGF0YSB7CiAgICBlbmFibGVkOiBib29sLAogICAgd2luZG93X21pbnV0ZXM6IGk2NCwKICAgIHRocmVzaG9sZDogaTY0LAogICAgd2luZG93X3NlY29uZHM6IGk2NCwKICAgIGJsYWNrbGlzdF90dGxfc2Vjb25kczogaTY0LAogICAgY29tbW9uX2xvY2F0aW9uX2V4ZW1wdF9lbmFibGVkOiBib29sLAogICAgY2lkcl9leGVtcHRpb25zOiBWZWM8U3RyaW5nPiwKICAgIGNpZHJfZXhlbXB0aW9uX3JlZ2lvbnM6IFZlYzxHYXRld2F5VmlzaWJpbGl0eVNlbGVjdGlvbkRhdGE+LAogICAgY2lkcl9leGVtcHRpb25fcmVnaW9uX2NpZHJzOiBWZWM8U3RyaW5nPiwKICAgIGNpZHJfZXhlbXB0aW9uX2NpZHJzOiBWZWM8U3RyaW5nPiwKICAgICNbc2NoZW1hKG51bGxhYmxlID0gZmFsc2UpXQogICAgY2lkcl9leGVtcHRpb25fcG9saWN5X2lkOiBPcHRpb248U3RyaW5nPiwKICAgIGNpZHJfZXhlbXB0aW9uX3NvdXJjZV9jaWRyX2NvdW50OiB1c2l6ZSwKICAgIGNpZHJfZXhlbXB0aW9uX3JhbmdlX2NvdW50OiB1c2l6ZSwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFNjYW5uZXJDaWRyRXhlbXB0aW9uUmVnaW9uSW5wdXREYXRhIHsKICAgIHByb3ZpbmNlOiBTdHJpbmcsCiAgICBxdWVyeV9jaXR5OiBPcHRpb248U3RyaW5nPiwKICAgIG9wZXJhdG9yOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgU2Nhbm5lclNldHRpbmdzVXBkYXRlRGF0YSB7CiAgICBlbmFibGVkOiBib29sLAogICAgI1tzY2hlbWEobWluaW11bSA9IDEpXQogICAgd2luZG93X21pbnV0ZXM6IGY2NCwKICAgICNbc2NoZW1hKG1pbmltdW0gPSAxKV0KICAgIHRocmVzaG9sZDogZjY0LAogICAgI1tzY2hlbWEobWluaW11bSA9IDYwKV0KICAgIGJsYWNrbGlzdF90dGxfc2Vjb25kczogZjY0LAogICAgY29tbW9uX2xvY2F0aW9uX2V4ZW1wdF9lbmFibGVkOiBPcHRpb248Ym9vbD4sCiAgICBjaWRyX2V4ZW1wdGlvbnM6IE9wdGlvbjxWZWM8U3RyaW5nPj4sCiAgICBjaWRyX2V4ZW1wdGlvbl9yZWdpb25zOiBPcHRpb248VmVjPFNjYW5uZXJDaWRyRXhlbXB0aW9uUmVnaW9uSW5wdXREYXRhPj4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IFNjYW5uZXJQYXRoV2hpdGVsaXN0RGF0YSB7CiAgICBwYXRoczogVmVjPFN0cmluZz4sCiAgICBkZWZhdWx0X3BhdGhzOiBWZWM8U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFNjYW5uZXJQYXRoV2hpdGVsaXN0VXBkYXRlRGF0YSB7CiAgICBwYXRoczogVmVjPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBTY2FubmVyRmFsc2VQb3NpdGl2ZUJvZHlEYXRhIHsKICAgIGlwOiBTdHJpbmcsCiAgICBwYXRoOiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBTY2FubmVyRmFsc2VQb3NpdGl2ZVJlc3VsdERhdGEgewogICAgaXA6IFN0cmluZywKICAgIHBhdGg6IFN0cmluZywKICAgIGFkZGVkOiBib29sLAogICAgdW5ibG9ja2VkOiBib29sLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBTY2FubmVyQmxhY2tsaXN0SGl0RGF0YSB7CiAgICBwYXRoOiBTdHJpbmcsCiAgICBjcmVhdGVkX2F0OiBpNjQsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IFNjYW5uZXJCbGFja2xpc3RSZWNvcmREYXRhIHsKICAgIGlwOiBTdHJpbmcsCiAgICAjW3NjaGVtYShudWxsYWJsZSA9IGZhbHNlKV0KICAgIGlwX2xvY2F0aW9uOiBPcHRpb248U3RyaW5nPiwKICAgIGJsb2NrZWRfYXQ6IGk2NCwKICAgIHdpbmRvd19taW51dGVzOiBpNjQsCiAgICB0aHJlc2hvbGQ6IGk2NCwKICAgIGhpdHM6IFZlYzxTY2FubmVyQmxhY2tsaXN0SGl0RGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBTY2FubmVyQmxhY2tsaXN0TGlzdERhdGEgewogICAgaXRlbXM6IFZlYzxTY2FubmVyQmxhY2tsaXN0UmVjb3JkRGF0YT4sCiAgICB0b3RhbDogaTY0LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgSXBMaXN0Qm9keURhdGEgewogICAgaXBzOiBWZWM8U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEdlbmVyYWxCbGFja2xpc3RBZGRCb2R5RGF0YSB7CiAgICBpcHM6IFZlYzxTdHJpbmc+LAogICAgc291cmNlOiBPcHRpb248U3RyaW5nPiwKICAgIGNvbW1lbnQ6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgR2VuZXJhbEJsYWNrbGlzdFJlY29yZERhdGEgewogICAgaXA6IFN0cmluZywKICAgIHNvdXJjZTogU3RyaW5nLAogICAgY29tbWVudDogU3RyaW5nLAogICAgY3JlYXRlZF9hdDogU3RyaW5nLAogICAgdXBkYXRlZF9hdDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgR2VuZXJhbEJsYWNrbGlzdExpc3REYXRhIHsKICAgIGl0ZW1zOiBWZWM8R2VuZXJhbEJsYWNrbGlzdFJlY29yZERhdGE+LAogICAgdG90YWw6IGkzMiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEdlbmVyYWxCbGFja2xpc3RNdXRhdGlvbkRhdGEgewogICAgYWRkZWQ6IGkzMiwKICAgIHVwZGF0ZWQ6IGkzMiwKICAgIHJlbW92ZWQ6IGkzMiwKICAgIHRvdGFsOiBpMzIsCiAgICBpdGVtczogVmVjPEdlbmVyYWxCbGFja2xpc3RSZWNvcmREYXRhPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEdlbmVyYWxCbGFja2xpc3RTdGF0dXNEYXRhIHsKICAgIHJlY29yZHM6IEhhc2hNYXA8U3RyaW5nLCBHZW5lcmFsQmxhY2tsaXN0UmVjb3JkRGF0YT4sCn0K
+use std::collections::HashMap;
+
+use serde::Serialize;
+use utoipa::ToSchema;
+
+use super::GatewayVisibilitySelectionData;
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct SecurityOverviewTotalsData {
+    failed_logins: usize,
+    blocked_scanners: usize,
+    waf_events: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct SecurityOverviewSeriesData {
+    failed_logins: Vec<[i64; 2]>,
+    blocked_scanners: Vec<[i64; 2]>,
+    waf_events: Vec<[i64; 2]>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct SecurityOverviewData {
+    range_sec: i64,
+    totals: SecurityOverviewTotalsData,
+    series: SecurityOverviewSeriesData,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct ScannerSettingsData {
+    enabled: bool,
+    window_minutes: i64,
+    threshold: i64,
+    window_seconds: i64,
+    blacklist_ttl_seconds: i64,
+    common_location_exempt_enabled: bool,
+    cidr_exemptions: Vec<String>,
+    cidr_exemption_regions: Vec<GatewayVisibilitySelectionData>,
+    cidr_exemption_region_cidrs: Vec<String>,
+    cidr_exemption_cidrs: Vec<String>,
+    #[schema(nullable = false)]
+    cidr_exemption_policy_id: Option<String>,
+    cidr_exemption_source_cidr_count: usize,
+    cidr_exemption_range_count: usize,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct ScannerCidrExemptionRegionInputData {
+    province: String,
+    query_city: Option<String>,
+    operator: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct ScannerSettingsUpdateData {
+    enabled: bool,
+    #[schema(minimum = 1)]
+    window_minutes: f64,
+    #[schema(minimum = 1)]
+    threshold: f64,
+    #[schema(minimum = 60)]
+    blacklist_ttl_seconds: f64,
+    common_location_exempt_enabled: Option<bool>,
+    cidr_exemptions: Option<Vec<String>>,
+    cidr_exemption_regions: Option<Vec<ScannerCidrExemptionRegionInputData>>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct ScannerPathWhitelistData {
+    paths: Vec<String>,
+    default_paths: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct ScannerPathWhitelistUpdateData {
+    paths: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct ScannerFalsePositiveBodyData {
+    ip: String,
+    path: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct ScannerFalsePositiveResultData {
+    ip: String,
+    path: String,
+    added: bool,
+    unblocked: bool,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct ScannerBlacklistHitData {
+    path: String,
+    created_at: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct ScannerBlacklistRecordData {
+    ip: String,
+    #[schema(nullable = false)]
+    ip_location: Option<String>,
+    blocked_at: i64,
+    window_minutes: i64,
+    threshold: i64,
+    hits: Vec<ScannerBlacklistHitData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct ScannerBlacklistListData {
+    items: Vec<ScannerBlacklistRecordData>,
+    total: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct IpListBodyData {
+    ips: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GeneralBlacklistAddBodyData {
+    ips: Vec<String>,
+    source: Option<String>,
+    comment: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GeneralBlacklistRecordData {
+    ip: String,
+    source: String,
+    comment: String,
+    created_at: String,
+    updated_at: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GeneralBlacklistListData {
+    items: Vec<GeneralBlacklistRecordData>,
+    total: i32,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GeneralBlacklistMutationData {
+    added: i32,
+    updated: i32,
+    removed: i32,
+    total: i32,
+    items: Vec<GeneralBlacklistRecordData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GeneralBlacklistStatusData {
+    records: HashMap<String, GeneralBlacklistRecordData>,
+}

@@ -1,1 +1,28 @@
-ewogICAgImRhdGEtc2hhcmUiOgogICAgewogICAgICAgICJzaGFyZXMiOgogICAgICAgIFsKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgIm5hbWUiOiAiZm4ta25vY2siLAogICAgICAgICAgICAgICAgInBlcm1pc3Npb24iOgogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICJydyI6CiAgICAgICAgICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgICAgICAgICAiZm4ta25vY2siCiAgICAgICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAibmFtZSI6ICJmbi1rbm9jay9kYXRhIiwKICAgICAgICAgICAgICAgICJwZXJtaXNzaW9uIjoKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAicnciOgogICAgICAgICAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgICAgICAgICAgImZuLWtub2NrIgogICAgICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIF0KICAgIH0KfQo=
+{
+    "data-share":
+    {
+        "shares":
+        [
+            {
+                "name": "fn-knock",
+                "permission":
+                {
+                    "rw":
+                    [
+                        "fn-knock"
+                    ]
+                }
+            },
+            {
+                "name": "fn-knock/data",
+                "permission":
+                {
+                    "rw":
+                    [
+                        "fn-knock"
+                    ]
+                }
+            }
+        ]
+    }
+}

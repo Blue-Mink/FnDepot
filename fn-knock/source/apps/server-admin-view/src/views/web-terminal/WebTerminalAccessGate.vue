@@ -1,1 +1,79 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IG9uTW91bnRlZCwgb25Vbm1vdW50ZWQsIHJlZiwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tICJ2dWUtcm91dGVyIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IExvYWRlckNpcmNsZSB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHRlcm1pbmFsQWNjZXNzRXJyb3JLZXkgfSBmcm9tICJAL2xpYi9hcGkvdGVybWluYWwtYWNjZXNzIjsKaW1wb3J0IHsgdXNlVGVybWluYWxBY2Nlc3NTdG9yZSB9IGZyb20gIkAvc3RvcmUvdGVybWluYWwtYWNjZXNzIjsKaW1wb3J0IFdlYlRlcm1pbmFsQXV0aG9yaXplZCBmcm9tICIuL1dlYlRlcm1pbmFsQXV0aG9yaXplZC52dWUiOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpOwpjb25zdCBhY2Nlc3MgPSB1c2VUZXJtaW5hbEFjY2Vzc1N0b3JlKCk7CmNvbnN0IGNoZWNrZWQgPSByZWYoZmFsc2UpOwpjb25zdCBlcnJvciA9IHJlZigiIik7CmNvbnN0IGNoZWNraW5nID0gcmVmKGZhbHNlKTsKbGV0IGRpc3Bvc2VkID0gZmFsc2U7CmxldCB0aW1lcjogUmV0dXJuVHlwZTx0eXBlb2Ygc2V0SW50ZXJ2YWw+IHwgdW5kZWZpbmVkOwpjb25zdCBiYWNrID0gKCkgPT4gcm91dGVyLnB1c2goeyBwYXRoOiAiL3N5c3RlbSIsIHF1ZXJ5OiB7IHRhYjogImZlYXR1cmVzIiB9IH0pOwphc3luYyBmdW5jdGlvbiByZWZyZXNoKCkgewogIGlmIChjaGVja2luZy52YWx1ZSkgcmV0dXJuOwogIGNoZWNraW5nLnZhbHVlID0gdHJ1ZTsKICBlcnJvci52YWx1ZSA9ICIiOwogIHRyeSB7CiAgICBhd2FpdCBhY2Nlc3MucmVmcmVzaCgpOwogICAgaWYgKCFkaXNwb3NlZCkgY2hlY2tlZC52YWx1ZSA9IHRydWU7CiAgfSBjYXRjaCAoY2F1c2UpIHsKICAgIGlmICghZGlzcG9zZWQpIHsKICAgICAgY2hlY2tlZC52YWx1ZSA9IGZhbHNlOwogICAgICBlcnJvci52YWx1ZSA9IHQodGVybWluYWxBY2Nlc3NFcnJvcktleShjYXVzZSkpOwogICAgfQogIH0gZmluYWxseSB7CiAgICBjaGVja2luZy52YWx1ZSA9IGZhbHNlOwogIH0KfQp3YXRjaCgKICAoKSA9PiBhY2Nlc3Muc3RhdHVzPy5lbmFibGVkLAogIChlbmFibGVkKSA9PiB7CiAgICBpZiAoZW5hYmxlZCA9PT0gZmFsc2UpIHZvaWQgYmFjaygpOwogIH0sCiAgeyBpbW1lZGlhdGU6IHRydWUgfSwKKTsKb25Nb3VudGVkKCgpID0+IHsKICB2b2lkIHJlZnJlc2goKTsKICB0aW1lciA9IHNldEludGVydmFsKCgpID0+IHZvaWQgcmVmcmVzaCgpLCA1MDAwKTsKfSk7Cm9uVW5tb3VudGVkKCgpID0+IHsKICBkaXNwb3NlZCA9IHRydWU7CiAgY2xlYXJJbnRlcnZhbCh0aW1lcik7Cn0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8V2ViVGVybWluYWxBdXRob3JpemVkCiAgICB2LWlmPSJjaGVja2VkICYmIGFjY2Vzcy5pc0N1cnJlbnQgJiYgYWNjZXNzLnN0YXR1cz8uZW5hYmxlZCIKICAgIDprZXk9ImFjY2Vzcy5zdGF0dXMucmV2aXNpb24iCiAgLz4KICA8ZGl2IHYtZWxzZSBjbGFzcz0iZmxleCBtaW4taC00OCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTQiPgogICAgPHAgdi1pZj0iZXJyb3IiIHJvbGU9ImFsZXJ0IiBjbGFzcz0idGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIj4KICAgICAge3sgZXJyb3IgfX0KICAgIDwvcD4KICAgIDxwCiAgICAgIHYtZWxzZQogICAgICByb2xlPSJzdGF0dXMiCiAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgID4KICAgICAgPExvYWRlckNpcmNsZSBjbGFzcz0ic2l6ZS00IGFuaW1hdGUtc3BpbiIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgIHt7IHQoImFkbWluLndlYlRlcm1pbmFsU2V0dGluZ3MubG9hZGluZyIpIH19CiAgICA8L3A+CiAgICA8ZGl2IHYtaWY9ImVycm9yIiBjbGFzcz0iZmxleCBnYXAtMiI+CiAgICAgIDxCdXR0b24gdHlwZT0iYnV0dG9uIiB2YXJpYW50PSJvdXRsaW5lIiBAY2xpY2s9ImJhY2siPnt7CiAgICAgICAgdCgiYWRtaW4ud2ViVGVybWluYWxTZXR0aW5ncy5jYW5jZWwiKQogICAgICB9fTwvQnV0dG9uPgogICAgICA8QnV0dG9uIHR5cGU9ImJ1dHRvbiIgOmRpc2FibGVkPSJjaGVja2luZyIgQGNsaWNrPSJyZWZyZXNoIj57ewogICAgICAgIHQoImFkbWluLndlYlRlcm1pbmFsU2V0dGluZ3MucmV0cnkiKQogICAgICB9fTwvQnV0dG9uPgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { onMounted, onUnmounted, ref, watch } from "vue";
+import { useRouter } from "vue-router";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import { LoaderCircle } from "lucide-vue-next";
+import { terminalAccessErrorKey } from "@/lib/api/terminal-access";
+import { useTerminalAccessStore } from "@/store/terminal-access";
+import WebTerminalAuthorized from "./WebTerminalAuthorized.vue";
+
+const { t } = useI18n();
+const router = useRouter();
+const access = useTerminalAccessStore();
+const checked = ref(false);
+const error = ref("");
+const checking = ref(false);
+let disposed = false;
+let timer: ReturnType<typeof setInterval> | undefined;
+const back = () => router.push({ path: "/system", query: { tab: "features" } });
+async function refresh() {
+  if (checking.value) return;
+  checking.value = true;
+  error.value = "";
+  try {
+    await access.refresh();
+    if (!disposed) checked.value = true;
+  } catch (cause) {
+    if (!disposed) {
+      checked.value = false;
+      error.value = t(terminalAccessErrorKey(cause));
+    }
+  } finally {
+    checking.value = false;
+  }
+}
+watch(
+  () => access.status?.enabled,
+  (enabled) => {
+    if (enabled === false) void back();
+  },
+  { immediate: true },
+);
+onMounted(() => {
+  void refresh();
+  timer = setInterval(() => void refresh(), 5000);
+});
+onUnmounted(() => {
+  disposed = true;
+  clearInterval(timer);
+});
+</script>
+
+<template>
+  <WebTerminalAuthorized
+    v-if="checked && access.isCurrent && access.status?.enabled"
+    :key="access.status.revision"
+  />
+  <div v-else class="flex min-h-48 flex-col items-center justify-center gap-4">
+    <p v-if="error" role="alert" class="text-sm text-destructive">
+      {{ error }}
+    </p>
+    <p
+      v-else
+      role="status"
+      class="flex items-center gap-2 text-sm text-muted-foreground"
+    >
+      <LoaderCircle class="size-4 animate-spin" aria-hidden="true" />
+      {{ t("admin.webTerminalSettings.loading") }}
+    </p>
+    <div v-if="error" class="flex gap-2">
+      <Button type="button" variant="outline" @click="back">{{
+        t("admin.webTerminalSettings.cancel")
+      }}</Button>
+      <Button type="button" :disabled="checking" @click="refresh">{{
+        t("admin.webTerminalSettings.retry")
+      }}</Button>
+    </div>
+  </div>
+</template>

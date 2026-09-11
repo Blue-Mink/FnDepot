@@ -1,1 +1,153 @@
-aW1wb3J0IHsgbmV4dFRpY2ssIHJlZiwgd2F0Y2gsIHR5cGUgQ29tcHV0ZWRSZWYsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHR5cGUgewogIFRlcm1pbmFsQXR0YWNobWVudFJlY29yZCwKICBUZXJtaW5hbFNlc3Npb25SZWNvcmQsCn0gZnJvbSAiQC9saWIvYXBpL3Rlcm1pbmFsIjsKaW1wb3J0IHsgZm9jdXNFbGVtZW50V2l0aG91dFNjcm9sbCB9IGZyb20gIi4vdGVybWluYWwtZG9tIjsKaW1wb3J0IHsgZXh0cmFjdFRlcm1pbmFsRXJyb3JNZXNzYWdlIH0gZnJvbSAiLi90ZXJtaW5hbC1lcnJvcnMiOwoKZXhwb3J0IGNvbnN0IHVzZVRlcm1pbmFsRGlhbG9ncyA9ICh7CiAgYWN0aXZlQXR0YWNobWVudCwKICBjYW5jZWxSZW5hbWVTZXNzaW9uLAogIGNsZWFyQXJtZWRNb2RpZmllciwKICBmb2N1c1Rlcm1pbmFsLAogIHNlbGVjdGVkU2Vzc2lvbiwKICBzZW5kUGF5bG9hZE5vdywKICBzZXNzaW9ucywKICB0cmFuc2xhdGUsCiAgdXBkYXRlU2Vzc2lvblRpdGxlLAp9OiB7CiAgYWN0aXZlQXR0YWNobWVudDogUmVmPFRlcm1pbmFsQXR0YWNobWVudFJlY29yZCB8IG51bGw+OwogIGNhbmNlbFJlbmFtZVNlc3Npb246ICgpID0+IHZvaWQ7CiAgY2xlYXJBcm1lZE1vZGlmaWVyOiAoKSA9PiB2b2lkOwogIGZvY3VzVGVybWluYWw6ICgpID0+IHZvaWQ7CiAgc2VsZWN0ZWRTZXNzaW9uOiBDb21wdXRlZFJlZjxUZXJtaW5hbFNlc3Npb25SZWNvcmQgfCBudWxsPjsKICBzZW5kUGF5bG9hZE5vdzogKHBheWxvYWQ6IHN0cmluZykgPT4gUHJvbWlzZTx2b2lkPjsKICBzZXNzaW9uczogUmVmPFRlcm1pbmFsU2Vzc2lvblJlY29yZFtdPjsKICB0cmFuc2xhdGU6IChrZXk6IHN0cmluZykgPT4gc3RyaW5nOwogIHVwZGF0ZVNlc3Npb25UaXRsZTogKAogICAgc2Vzc2lvbklkOiBzdHJpbmcsCiAgICB0aXRsZTogc3RyaW5nLAogICkgPT4gUHJvbWlzZTxUZXJtaW5hbFNlc3Npb25SZWNvcmQ+Owp9KSA9PiB7CiAgY29uc3Qgc2VuZERpYWxvZ09wZW4gPSByZWYoZmFsc2UpOwogIGNvbnN0IHNlbmREaWFsb2dQYXlsb2FkID0gcmVmKCIiKTsKICBjb25zdCBpc1NlbmRpbmdEaWFsb2dQYXlsb2FkID0gcmVmKGZhbHNlKTsKICBjb25zdCByZW5hbWVEaWFsb2dPcGVuID0gcmVmKGZhbHNlKTsKICBjb25zdCByZW5hbWVEaWFsb2dWYWx1ZSA9IHJlZigiIik7CiAgY29uc3QgaXNSZW5hbWluZ1Nlc3Npb24gPSByZWYoZmFsc2UpOwoKICB3YXRjaCgKICAgIHJlbmFtZURpYWxvZ09wZW4sCiAgICAob3BlbikgPT4gewogICAgICBpZiAob3BlbikgcmV0dXJuOwogICAgICBjYW5jZWxSZW5hbWVTZXNzaW9uKCk7CiAgICAgIGlzUmVuYW1pbmdTZXNzaW9uLnZhbHVlID0gZmFsc2U7CiAgICB9LAogICAgeyBmbHVzaDogInN5bmMiIH0sCiAgKTsKCiAgY29uc3QgZm9jdXNTZW5kRGlhbG9nVGV4dGFyZWEgPSAoKSA9PiB7CiAgICB2b2lkIG5leHRUaWNrKCgpID0+IHsKICAgICAgY29uc3QgdGV4dGFyZWEgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgidGVybWluYWwtc2VuZC1wYXlsb2FkIik7CiAgICAgIGlmICh0ZXh0YXJlYSBpbnN0YW5jZW9mIEhUTUxFbGVtZW50KSB7CiAgICAgICAgZm9jdXNFbGVtZW50V2l0aG91dFNjcm9sbCh0ZXh0YXJlYSk7CiAgICAgIH0KICAgIH0pOwogIH07CgogIGNvbnN0IGZvY3VzVGVybWluYWxBZnRlckRpYWxvZ0Nsb3NlID0gKGV2ZW50OiBFdmVudCkgPT4gewogICAgZXZlbnQucHJldmVudERlZmF1bHQoKTsKICAgIHZvaWQgbmV4dFRpY2soKCkgPT4gewogICAgICBmb2N1c1Rlcm1pbmFsKCk7CiAgICAgIHdpbmRvdy5yZXF1ZXN0QW5pbWF0aW9uRnJhbWUoKCkgPT4gZm9jdXNUZXJtaW5hbCgpKTsKICAgIH0pOwogIH07CgogIGNvbnN0IG9wZW5TZW5kRGlhbG9nID0gKCkgPT4gewogICAgaWYgKCFhY3RpdmVBdHRhY2htZW50LnZhbHVlKSByZXR1cm47CiAgICBzZW5kRGlhbG9nT3Blbi52YWx1ZSA9IHRydWU7CiAgfTsKCiAgY29uc3Qgb3Blbk1hbnVhbFBhc3RlRGlhbG9nID0gKCkgPT4gewogICAgaWYgKCFhY3RpdmVBdHRhY2htZW50LnZhbHVlKSByZXR1cm47CiAgICBzZW5kRGlhbG9nUGF5bG9hZC52YWx1ZSA9ICIiOwogICAgc2VuZERpYWxvZ09wZW4udmFsdWUgPSB0cnVlOwogICAgZm9jdXNTZW5kRGlhbG9nVGV4dGFyZWEoKTsKICAgIHRvYXN0LmluZm8odHJhbnNsYXRlKCJhZG1pbi53ZWJUZXJtaW5hbC5tYW51YWxQYXN0ZUluZm8iKSk7CiAgfTsKCiAgY29uc3Qgb3BlblJlbmFtZURpYWxvZyA9ICgpID0+IHsKICAgIGlmICghc2VsZWN0ZWRTZXNzaW9uLnZhbHVlKSByZXR1cm47CiAgICByZW5hbWVEaWFsb2dWYWx1ZS52YWx1ZSA9IHNlbGVjdGVkU2Vzc2lvbi52YWx1ZS50aXRsZTsKICAgIHJlbmFtZURpYWxvZ09wZW4udmFsdWUgPSB0cnVlOwogIH07CgogIGNvbnN0IHN1Ym1pdFJlbmFtZURpYWxvZyA9IGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHRhcmdldFNlc3Npb24gPSBzZWxlY3RlZFNlc3Npb24udmFsdWU7CiAgICBjb25zdCBuZXh0VGl0bGUgPSByZW5hbWVEaWFsb2dWYWx1ZS52YWx1ZS50cmltKCk7CiAgICBpZiAoIXRhcmdldFNlc3Npb24gfHwgIW5leHRUaXRsZSkgcmV0dXJuOwoKICAgIGlzUmVuYW1pbmdTZXNzaW9uLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHVwZGF0ZWRTZXNzaW9uID0gYXdhaXQgdXBkYXRlU2Vzc2lvblRpdGxlKAogICAgICAgIHRhcmdldFNlc3Npb24uaWQsCiAgICAgICAgbmV4dFRpdGxlLAogICAgICApOwogICAgICBzZXNzaW9ucy52YWx1ZSA9IHNlc3Npb25zLnZhbHVlLm1hcCgoc2Vzc2lvbikgPT4KICAgICAgICBzZXNzaW9uLmlkID09PSB1cGRhdGVkU2Vzc2lvbi5pZCA/IHVwZGF0ZWRTZXNzaW9uIDogc2Vzc2lvbiwKICAgICAgKTsKICAgICAgcmVuYW1lRGlhbG9nT3Blbi52YWx1ZSA9IGZhbHNlOwogICAgICBmb2N1c1Rlcm1pbmFsKCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBpZiAoIXJlbmFtZURpYWxvZ09wZW4udmFsdWUpIHJldHVybjsKICAgICAgdG9hc3QuZXJyb3IodHJhbnNsYXRlKCJhZG1pbi53ZWJUZXJtaW5hbC5yZW5hbWVGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0VGVybWluYWxFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4ud2ViVGVybWluYWwucmVuYW1lRmFpbGVkRGVzY3JpcHRpb24iKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0gZmluYWxseSB7CiAgICAgIGlzUmVuYW1pbmdTZXNzaW9uLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3Qgc3VibWl0U2VuZERpYWxvZyA9IGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHBheWxvYWQgPSBzZW5kRGlhbG9nUGF5bG9hZC52YWx1ZTsKICAgIGlmICghcGF5bG9hZC5sZW5ndGgpIHJldHVybjsKCiAgICBpc1NlbmRpbmdEaWFsb2dQYXlsb2FkLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGNsZWFyQXJtZWRNb2RpZmllcigpOwogICAgICBhd2FpdCBzZW5kUGF5bG9hZE5vdyhwYXlsb2FkKTsKICAgICAgc2VuZERpYWxvZ1BheWxvYWQudmFsdWUgPSAiIjsKICAgICAgc2VuZERpYWxvZ09wZW4udmFsdWUgPSBmYWxzZTsKICAgICAgZm9jdXNUZXJtaW5hbCgpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdG9hc3QuZXJyb3IodHJhbnNsYXRlKCJhZG1pbi53ZWJUZXJtaW5hbC5zZW5kRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdFRlcm1pbmFsRXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0cmFuc2xhdGUoImFkbWluLndlYlRlcm1pbmFsLnNlbmRGYWlsZWREZXNjcmlwdGlvbiIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSBmaW5hbGx5IHsKICAgICAgaXNTZW5kaW5nRGlhbG9nUGF5bG9hZC52YWx1ZSA9IGZhbHNlOwogICAgfQogIH07CgogIHJldHVybiB7CiAgICBmb2N1c1Rlcm1pbmFsQWZ0ZXJEaWFsb2dDbG9zZSwKICAgIGlzUmVuYW1pbmdTZXNzaW9uLAogICAgaXNTZW5kaW5nRGlhbG9nUGF5bG9hZCwKICAgIG9wZW5NYW51YWxQYXN0ZURpYWxvZywKICAgIG9wZW5SZW5hbWVEaWFsb2csCiAgICBvcGVuU2VuZERpYWxvZywKICAgIHJlbmFtZURpYWxvZ09wZW4sCiAgICByZW5hbWVEaWFsb2dWYWx1ZSwKICAgIHNlbmREaWFsb2dPcGVuLAogICAgc2VuZERpYWxvZ1BheWxvYWQsCiAgICBzdWJtaXRSZW5hbWVEaWFsb2csCiAgICBzdWJtaXRTZW5kRGlhbG9nLAogIH07Cn07Cg==
+import { nextTick, ref, watch, type ComputedRef, type Ref } from "vue";
+import { toast } from "@admin-shared/utils/toast";
+import type {
+  TerminalAttachmentRecord,
+  TerminalSessionRecord,
+} from "@/lib/api/terminal";
+import { focusElementWithoutScroll } from "./terminal-dom";
+import { extractTerminalErrorMessage } from "./terminal-errors";
+
+export const useTerminalDialogs = ({
+  activeAttachment,
+  cancelRenameSession,
+  clearArmedModifier,
+  focusTerminal,
+  selectedSession,
+  sendPayloadNow,
+  sessions,
+  translate,
+  updateSessionTitle,
+}: {
+  activeAttachment: Ref<TerminalAttachmentRecord | null>;
+  cancelRenameSession: () => void;
+  clearArmedModifier: () => void;
+  focusTerminal: () => void;
+  selectedSession: ComputedRef<TerminalSessionRecord | null>;
+  sendPayloadNow: (payload: string) => Promise<void>;
+  sessions: Ref<TerminalSessionRecord[]>;
+  translate: (key: string) => string;
+  updateSessionTitle: (
+    sessionId: string,
+    title: string,
+  ) => Promise<TerminalSessionRecord>;
+}) => {
+  const sendDialogOpen = ref(false);
+  const sendDialogPayload = ref("");
+  const isSendingDialogPayload = ref(false);
+  const renameDialogOpen = ref(false);
+  const renameDialogValue = ref("");
+  const isRenamingSession = ref(false);
+
+  watch(
+    renameDialogOpen,
+    (open) => {
+      if (open) return;
+      cancelRenameSession();
+      isRenamingSession.value = false;
+    },
+    { flush: "sync" },
+  );
+
+  const focusSendDialogTextarea = () => {
+    void nextTick(() => {
+      const textarea = document.getElementById("terminal-send-payload");
+      if (textarea instanceof HTMLElement) {
+        focusElementWithoutScroll(textarea);
+      }
+    });
+  };
+
+  const focusTerminalAfterDialogClose = (event: Event) => {
+    event.preventDefault();
+    void nextTick(() => {
+      focusTerminal();
+      window.requestAnimationFrame(() => focusTerminal());
+    });
+  };
+
+  const openSendDialog = () => {
+    if (!activeAttachment.value) return;
+    sendDialogOpen.value = true;
+  };
+
+  const openManualPasteDialog = () => {
+    if (!activeAttachment.value) return;
+    sendDialogPayload.value = "";
+    sendDialogOpen.value = true;
+    focusSendDialogTextarea();
+    toast.info(translate("admin.webTerminal.manualPasteInfo"));
+  };
+
+  const openRenameDialog = () => {
+    if (!selectedSession.value) return;
+    renameDialogValue.value = selectedSession.value.title;
+    renameDialogOpen.value = true;
+  };
+
+  const submitRenameDialog = async () => {
+    const targetSession = selectedSession.value;
+    const nextTitle = renameDialogValue.value.trim();
+    if (!targetSession || !nextTitle) return;
+
+    isRenamingSession.value = true;
+    try {
+      const updatedSession = await updateSessionTitle(
+        targetSession.id,
+        nextTitle,
+      );
+      sessions.value = sessions.value.map((session) =>
+        session.id === updatedSession.id ? updatedSession : session,
+      );
+      renameDialogOpen.value = false;
+      focusTerminal();
+    } catch (error) {
+      if (!renameDialogOpen.value) return;
+      toast.error(translate("admin.webTerminal.renameFailed"), {
+        description: extractTerminalErrorMessage(
+          error,
+          translate("admin.webTerminal.renameFailedDescription"),
+        ),
+      });
+    } finally {
+      isRenamingSession.value = false;
+    }
+  };
+
+  const submitSendDialog = async () => {
+    const payload = sendDialogPayload.value;
+    if (!payload.length) return;
+
+    isSendingDialogPayload.value = true;
+    try {
+      clearArmedModifier();
+      await sendPayloadNow(payload);
+      sendDialogPayload.value = "";
+      sendDialogOpen.value = false;
+      focusTerminal();
+    } catch (error) {
+      toast.error(translate("admin.webTerminal.sendFailed"), {
+        description: extractTerminalErrorMessage(
+          error,
+          translate("admin.webTerminal.sendFailedDescription"),
+        ),
+      });
+    } finally {
+      isSendingDialogPayload.value = false;
+    }
+  };
+
+  return {
+    focusTerminalAfterDialogClose,
+    isRenamingSession,
+    isSendingDialogPayload,
+    openManualPasteDialog,
+    openRenameDialog,
+    openSendDialog,
+    renameDialogOpen,
+    renameDialogValue,
+    sendDialogOpen,
+    sendDialogPayload,
+    submitRenameDialog,
+    submitSendDialog,
+  };
+};

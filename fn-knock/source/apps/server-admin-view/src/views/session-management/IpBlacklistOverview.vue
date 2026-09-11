@@ -1,1 +1,67 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJhbiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCBDb25maWdDb2xsYXBzaWJsZUNhcmQgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL0NvbmZpZ0NvbGxhcHNpYmxlQ2FyZC52dWUiOwppbXBvcnQgVGhyZWF0T3ZlcnZpZXdDYXJkIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vVGhyZWF0T3ZlcnZpZXdDYXJkLnZ1ZSI7CmltcG9ydCBUaW1lU2VyaWVzQ2hhcnQgZnJvbSAiQC9jb21wb25lbnRzL2NoYXJ0cy9UaW1lU2VyaWVzQ2hhcnQudnVlIjsKaW1wb3J0IHR5cGUgeyBJcEJsYWNrbGlzdFBhZ2VDb250cm9sbGVyIH0gZnJvbSAiLi91c2VJcEJsYWNrbGlzdFBhZ2UiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7IGNvbnRyb2xsZXI6IElwQmxhY2tsaXN0UGFnZUNvbnRyb2xsZXIgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHsKICBibG9ja2VkUGVySG91ciwKICBibG9ja2VkVHJlbmRTZXJpZXMsCiAgZm9ybWF0TnVtYmVyLAogIGZvcm1hdFJhdGUsCiAgaXNUaHJlYXRMb2FkaW5nLAogIHJhbmdlS2V5LAogIHJhbmdlcywKICB0aHJlYXRPdmVydmlldywKICB0aXRsZVJhbmdlVGV4dCwKfSA9IHByb3BzLmNvbnRyb2xsZXI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxDb25maWdDb2xsYXBzaWJsZUNhcmQKICAgIDp0aXRsZT0idCgnYWRtaW4uc2Vzc2lvbnMuaXBCbGFja2xpc3QuY2hhcnRUaXRsZScpIgogICAgOmNvbmZpZ3VyZWQ9InRydWUiCiAgICA6ZWRpdC1sYWJlbD0idCgnYWRtaW4uc2Vzc2lvbnMuaXBCbGFja2xpc3QuZXhwYW5kQ2hhcnQnKSIKICAgIHN1bW1hcnktY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgZXhwYW5kZWQtY29udGVudC1jbGFzcz0icC0wIHNtOnAtMCIKICA+CiAgICA8dGVtcGxhdGUgI3N1bW1hcnk+CiAgICAgIHt7CiAgICAgICAgdCgiYWRtaW4uc2Vzc2lvbnMuaXBCbGFja2xpc3QuY2hhcnRTdW1tYXJ5IiwgewogICAgICAgICAgcmFuZ2U6IHRpdGxlUmFuZ2VUZXh0LAogICAgICAgICAgY291bnQ6IGZvcm1hdE51bWJlcih0aHJlYXRPdmVydmlldz8udG90YWxzPy5ibG9ja2VkU2Nhbm5lcnMpLAogICAgICAgIH0pCiAgICAgIH19CiAgICA8L3RlbXBsYXRlPgoKICAgIDx0ZW1wbGF0ZSAjZGVmYXVsdD4KICAgICAgPFRocmVhdE92ZXJ2aWV3Q2FyZAogICAgICAgIHYtbW9kZWw6cmFuZ2Uta2V5PSJyYW5nZUtleSIKICAgICAgICA6dGl0bGU9InQoJ2FkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0Lm92ZXJ2aWV3VGl0bGUnKSIKICAgICAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0Lm92ZXJ2aWV3RGVzY3JpcHRpb24nKSIKICAgICAgICA6cmFuZ2VzPSJyYW5nZXMiCiAgICAgICAgOmlzLWxvYWRpbmc9ImlzVGhyZWF0TG9hZGluZyIKICAgICAgICA6dGl0bGUtcmFuZ2UtdGV4dD0idGl0bGVSYW5nZVRleHQiCiAgICAgICAgOnByaW1hcnktbGFiZWw9InQoJ2FkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0LnByaW1hcnlMYWJlbCcpIgogICAgICAgIDpwcmltYXJ5LXZhbHVlPSJmb3JtYXROdW1iZXIodGhyZWF0T3ZlcnZpZXc/LnRvdGFscz8uYmxvY2tlZFNjYW5uZXJzKSIKICAgICAgICA6cHJpbWFyeS1oaW50PSJ0KCdhZG1pbi5zZXNzaW9ucy5pcEJsYWNrbGlzdC5wcmltYXJ5SGludCcpIgogICAgICAgIDpzZWNvbmRhcnktbGFiZWw9InQoJ2FkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0LnNlY29uZGFyeUxhYmVsJykiCiAgICAgICAgOnNlY29uZGFyeS12YWx1ZT0iZm9ybWF0UmF0ZShibG9ja2VkUGVySG91cikiCiAgICAgICAgOnNlY29uZGFyeS1oaW50PSJ0KCdhZG1pbi5zZXNzaW9ucy5pcEJsYWNrbGlzdC5zZWNvbmRhcnlIaW50JykiCiAgICAgICAgOmljb249IkJhbiIKICAgICAgPgogICAgICAgIDx0ZW1wbGF0ZSAjY2hhcnQ+CiAgICAgICAgICA8VGltZVNlcmllc0NoYXJ0CiAgICAgICAgICAgIDpzZXJpZXM9ImJsb2NrZWRUcmVuZFNlcmllcyIKICAgICAgICAgICAgOnZhbHVlLWZvcm1hdHRlcj0iKHZhbHVlKSA9PiBmb3JtYXROdW1iZXIodmFsdWUpIgogICAgICAgICAgICBjbGFzcz0iaC1mdWxsIHctZnVsbCIKICAgICAgICAgIC8+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPC9UaHJlYXRPdmVydmlld0NhcmQ+CiAgICA8L3RlbXBsYXRlPgogIDwvQ29uZmlnQ29sbGFwc2libGVDYXJkPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Ban } from "lucide-vue-next";
+import ConfigCollapsibleCard from "@admin-shared/components/ConfigCollapsibleCard.vue";
+import ThreatOverviewCard from "@admin-shared/components/common/ThreatOverviewCard.vue";
+import TimeSeriesChart from "@/components/charts/TimeSeriesChart.vue";
+import type { IpBlacklistPageController } from "./useIpBlacklistPage";
+
+const props = defineProps<{ controller: IpBlacklistPageController }>();
+const { t } = useI18n();
+const {
+  blockedPerHour,
+  blockedTrendSeries,
+  formatNumber,
+  formatRate,
+  isThreatLoading,
+  rangeKey,
+  ranges,
+  threatOverview,
+  titleRangeText,
+} = props.controller;
+</script>
+
+<template>
+  <ConfigCollapsibleCard
+    :title="t('admin.sessions.ipBlacklist.chartTitle')"
+    :configured="true"
+    :edit-label="t('admin.sessions.ipBlacklist.expandChart')"
+    summary-class="text-xs text-muted-foreground"
+    expanded-content-class="p-0 sm:p-0"
+  >
+    <template #summary>
+      {{
+        t("admin.sessions.ipBlacklist.chartSummary", {
+          range: titleRangeText,
+          count: formatNumber(threatOverview?.totals?.blockedScanners),
+        })
+      }}
+    </template>
+
+    <template #default>
+      <ThreatOverviewCard
+        v-model:range-key="rangeKey"
+        :title="t('admin.sessions.ipBlacklist.overviewTitle')"
+        :description="t('admin.sessions.ipBlacklist.overviewDescription')"
+        :ranges="ranges"
+        :is-loading="isThreatLoading"
+        :title-range-text="titleRangeText"
+        :primary-label="t('admin.sessions.ipBlacklist.primaryLabel')"
+        :primary-value="formatNumber(threatOverview?.totals?.blockedScanners)"
+        :primary-hint="t('admin.sessions.ipBlacklist.primaryHint')"
+        :secondary-label="t('admin.sessions.ipBlacklist.secondaryLabel')"
+        :secondary-value="formatRate(blockedPerHour)"
+        :secondary-hint="t('admin.sessions.ipBlacklist.secondaryHint')"
+        :icon="Ban"
+      >
+        <template #chart>
+          <TimeSeriesChart
+            :series="blockedTrendSeries"
+            :value-formatter="(value) => formatNumber(value)"
+            class="h-full w-full"
+          />
+        </template>
+      </ThreatOverviewCard>
+    </template>
+  </ConfigCollapsibleCard>
+</template>

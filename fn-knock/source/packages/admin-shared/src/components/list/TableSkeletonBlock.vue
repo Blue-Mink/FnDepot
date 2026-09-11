@@ -1,1 +1,93 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IFNrZWxldG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NrZWxldG9uIjsKaW1wb3J0IHsKICBUYWJsZSwKICBUYWJsZUJvZHksCiAgVGFibGVDZWxsLAogIFRhYmxlSGVhZCwKICBUYWJsZUhlYWRlciwKICBUYWJsZVJvdywKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFibGUiOwoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoCiAgZGVmaW5lUHJvcHM8ewogICAgaGVhZGVyV2lkdGhzOiBzdHJpbmdbXTsKICAgIHJvd1dpZHRoczogc3RyaW5nW107CiAgICByb3dDb3VudD86IG51bWJlcjsKICAgIHNob3dUb29sYmFyPzogYm9vbGVhbjsKICAgIHRvb2xiYXJMZWZ0V2lkdGg/OiBzdHJpbmc7CiAgICB0b29sYmFyUmlnaHRXaWR0aHM/OiBzdHJpbmdbXTsKICAgIGFjdGlvbkNvbHVtbj86IGJvb2xlYW47CiAgICBhY3Rpb25XaWR0aD86IHN0cmluZzsKICB9PigpLAogIHsKICAgIHJvd0NvdW50OiA4LAogICAgc2hvd1Rvb2xiYXI6IHRydWUsCiAgICB0b29sYmFyTGVmdFdpZHRoOiAidy02MCIsCiAgICB0b29sYmFyUmlnaHRXaWR0aHM6ICgpID0+IFsidy0yNCIsICJ3LTI0Il0sCiAgICBhY3Rpb25Db2x1bW46IHRydWUsCiAgICBhY3Rpb25XaWR0aDogInctMTYiLAogIH0sCik7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InAtNCI+CiAgICA8ZGl2CiAgICAgIHYtaWY9InByb3BzLnNob3dUb29sYmFyIgogICAgICBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIG1iLTMiCiAgICA+CiAgICAgIDxTa2VsZXRvbiA6Y2xhc3M9IlsnaC05JywgcHJvcHMudG9vbGJhckxlZnRXaWR0aF0iIC8+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICA8U2tlbGV0b24KICAgICAgICAgIHYtZm9yPSIod2lkdGgsIGlkeCkgaW4gcHJvcHMudG9vbGJhclJpZ2h0V2lkdGhzIgogICAgICAgICAgOmtleT0iaWR4IgogICAgICAgICAgOmNsYXNzPSJbJ2gtOScsIHdpZHRoXSIKICAgICAgICAvPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxUYWJsZT4KICAgICAgPFRhYmxlSGVhZGVyIGNsYXNzPSJzdGlja3kgdG9wLTAgYmctYmFja2dyb3VuZCB6LTEwIHNoYWRvdy1zbSI+CiAgICAgICAgPFRhYmxlUm93PgogICAgICAgICAgPFRhYmxlSGVhZAogICAgICAgICAgICB2LWZvcj0iKHdpZHRoLCBpZHgpIGluIHByb3BzLmhlYWRlcldpZHRocyIKICAgICAgICAgICAgOmtleT0iaWR4IgogICAgICAgICAgICA6Y2xhc3M9IgogICAgICAgICAgICAgIGlkeCA9PT0gcHJvcHMuaGVhZGVyV2lkdGhzLmxlbmd0aCAtIDEgPyAndGV4dC1yaWdodCBwci02JyA6ICcnCiAgICAgICAgICAgICIKICAgICAgICAgID4KICAgICAgICAgICAgPFNrZWxldG9uCiAgICAgICAgICAgICAgOmNsYXNzPSJbCiAgICAgICAgICAgICAgICAnaC00JywKICAgICAgICAgICAgICAgIHdpZHRoLAogICAgICAgICAgICAgICAgaWR4ID09PSBwcm9wcy5oZWFkZXJXaWR0aHMubGVuZ3RoIC0gMSA/ICdtbC1hdXRvJyA6ICcnLAogICAgICAgICAgICAgIF0iCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICA8L1RhYmxlUm93PgogICAgICA8L1RhYmxlSGVhZGVyPgogICAgICA8VGFibGVCb2R5PgogICAgICAgIDxUYWJsZVJvdyB2LWZvcj0ibiBpbiBwcm9wcy5yb3dDb3VudCIgOmtleT0ibiI+CiAgICAgICAgICA8VGFibGVDZWxsCiAgICAgICAgICAgIHYtZm9yPSIod2lkdGgsIGlkeCkgaW4gcHJvcHMucm93V2lkdGhzIgogICAgICAgICAgICA6a2V5PSJpZHgiCiAgICAgICAgICAgIDpjbGFzcz0iCiAgICAgICAgICAgICAgcHJvcHMuYWN0aW9uQ29sdW1uICYmIGlkeCA9PT0gcHJvcHMucm93V2lkdGhzLmxlbmd0aCAtIDEKICAgICAgICAgICAgICAgID8gJ3RleHQtcmlnaHQnCiAgICAgICAgICAgICAgICA6ICcnCiAgICAgICAgICAgICIKICAgICAgICAgID4KICAgICAgICAgICAgPFNrZWxldG9uCiAgICAgICAgICAgICAgOmNsYXNzPSJbCiAgICAgICAgICAgICAgICBwcm9wcy5hY3Rpb25Db2x1bW4gJiYgaWR4ID09PSBwcm9wcy5yb3dXaWR0aHMubGVuZ3RoIC0gMQogICAgICAgICAgICAgICAgICA/IGBoLTggJHtwcm9wcy5hY3Rpb25XaWR0aH0gcm91bmRlZC1tZCBtbC1hdXRvYAogICAgICAgICAgICAgICAgICA6IGBoLTQgJHt3aWR0aH1gLAogICAgICAgICAgICAgIF0iCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICA8L1RhYmxlUm93PgogICAgICA8L1RhYmxlQm9keT4KICAgIDwvVGFibGU+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { Skeleton } from "@/components/ui/skeleton";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+
+const props = withDefaults(
+  defineProps<{
+    headerWidths: string[];
+    rowWidths: string[];
+    rowCount?: number;
+    showToolbar?: boolean;
+    toolbarLeftWidth?: string;
+    toolbarRightWidths?: string[];
+    actionColumn?: boolean;
+    actionWidth?: string;
+  }>(),
+  {
+    rowCount: 8,
+    showToolbar: true,
+    toolbarLeftWidth: "w-60",
+    toolbarRightWidths: () => ["w-24", "w-24"],
+    actionColumn: true,
+    actionWidth: "w-16",
+  },
+);
+</script>
+
+<template>
+  <div class="p-4">
+    <div
+      v-if="props.showToolbar"
+      class="flex items-center justify-between mb-3"
+    >
+      <Skeleton :class="['h-9', props.toolbarLeftWidth]" />
+      <div class="flex items-center gap-2">
+        <Skeleton
+          v-for="(width, idx) in props.toolbarRightWidths"
+          :key="idx"
+          :class="['h-9', width]"
+        />
+      </div>
+    </div>
+
+    <Table>
+      <TableHeader class="sticky top-0 bg-background z-10 shadow-sm">
+        <TableRow>
+          <TableHead
+            v-for="(width, idx) in props.headerWidths"
+            :key="idx"
+            :class="
+              idx === props.headerWidths.length - 1 ? 'text-right pr-6' : ''
+            "
+          >
+            <Skeleton
+              :class="[
+                'h-4',
+                width,
+                idx === props.headerWidths.length - 1 ? 'ml-auto' : '',
+              ]"
+            />
+          </TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        <TableRow v-for="n in props.rowCount" :key="n">
+          <TableCell
+            v-for="(width, idx) in props.rowWidths"
+            :key="idx"
+            :class="
+              props.actionColumn && idx === props.rowWidths.length - 1
+                ? 'text-right'
+                : ''
+            "
+          >
+            <Skeleton
+              :class="[
+                props.actionColumn && idx === props.rowWidths.length - 1
+                  ? `h-8 ${props.actionWidth} rounded-md ml-auto`
+                  : `h-4 ${width}`,
+              ]"
+            />
+          </TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+  </div>
+</template>

@@ -1,1 +1,21 @@
-aW1wb3J0IHsgY3JlYXRlQXBwIH0gZnJvbSAndnVlJwppbXBvcnQgJy4vYXNzZXRzL2luZGV4LmNzcycKaW1wb3J0IEFwcCBmcm9tICcuL0FwcC52dWUnCmltcG9ydCByb3V0ZXIgZnJvbSAnLi9yb3V0ZXInCmltcG9ydCB7IGNyZWF0ZUZuS25vY2tJMThuIH0gZnJvbSAnQGZuLWtub2NrL2kxOG4vdnVlL2F1dGgnCmltcG9ydCB7IGFwcGx5U3RvcmVkVGhlbWVNb2RlIH0gZnJvbSAnQC9jb21wb25lbnRzL3VpL3RoZW1lLXRvZ2dsZScKaW1wb3J0IHsgYXBwbHlBcHBlYXJhbmNlQ29uZmlnIH0gZnJvbSAnQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBcHBlYXJhbmNlU3RhdGUnCgphcHBseVN0b3JlZFRoZW1lTW9kZSgpCmFwcGx5QXBwZWFyYW5jZUNvbmZpZygpCgpjb25zdCBib290c3RyYXAgPSBhc3luYyAoKSA9PiB7CiAgY29uc3QgYXBwID0gY3JlYXRlQXBwKEFwcCkKICBjb25zdCBpMThuID0gYXdhaXQgY3JlYXRlRm5Lbm9ja0kxOG4oeyBzY29wZTogJ2F1dGgnIH0pCiAgYXBwLnVzZShyb3V0ZXIpCiAgYXBwLnVzZShpMThuKQoKICBhcHAubW91bnQoJyNhcHAnKQp9Cgp2b2lkIGJvb3RzdHJhcCgpCg==
+import { createApp } from 'vue'
+import './assets/index.css'
+import App from './App.vue'
+import router from './router'
+import { createFnKnockI18n } from '@fn-knock/i18n/vue/auth'
+import { applyStoredThemeMode } from '@/components/ui/theme-toggle'
+import { applyAppearanceConfig } from '@admin-shared/composables/useAppearanceState'
+
+applyStoredThemeMode()
+applyAppearanceConfig()
+
+const bootstrap = async () => {
+  const app = createApp(App)
+  const i18n = await createFnKnockI18n({ scope: 'auth' })
+  app.use(router)
+  app.use(i18n)
+
+  app.mount('#app')
+}
+
+void bootstrap()

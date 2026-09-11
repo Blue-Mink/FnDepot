@@ -1,1 +1,152 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiClJVTlRJTUVfU01PS0VfU0NSSVBUPSIke1JPT1RfRElSfS9zY3JpcHRzL2ZuLWtub2NrLXdpbmRvd3Mtc21va2UucHMxIgpJTlNUQUxMRVJfU01PS0VfU0NSSVBUPSIke1JPT1RfRElSfS9zY3JpcHRzL2ZuLWtub2NrLXdpbmRvd3MtaW5zdGFsbGVyLXNtb2tlLnBzMSIKV0lORE9XU19CVUlMRF9TQ1JJUFQ9IiR7Uk9PVF9ESVJ9L3NjcmlwdHMvZm4ta25vY2std2luZG93cy5wczEiCldJTkRPV1NfRklOQUxJWkVfU0NSSVBUPSIke1JPT1RfRElSfS9zY3JpcHRzL2ZuLWtub2NrLXdpbmRvd3MtZmluYWxpemUucHMxIgpJTlNUQUxMRVJfSE9PSz0iJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay1kZXNrdG9wL25hdGl2ZS9pbnN0YWxsZXIvaG9va3MubnNoIgpDT05UUk9MX0FQSV9IRUxQRVI9IiR7Uk9PVF9ESVJ9L3NjcmlwdHMvZm4ta25vY2stY29udHJvbC1hcGkucHMxIgpTRVJWSUNFX0dPX0JBQ0tFTkQ9IiR7Uk9PVF9ESVJ9L2FwcHMvc2VydmVyLWFkbWluLXJzL3NyYy9pbmZyYS9nb19iYWNrZW5kLnJzIgpERVNLVE9QX1JVTlRJTUU9IiR7Uk9PVF9ESVJ9L2FwcHMvZm4ta25vY2stZGVza3RvcC9uYXRpdmUvc3JjL3J1bnRpbWUucnMiCkRFU0tUT1BfQlVJTEQ9IiR7Uk9PVF9ESVJ9L2FwcHMvZm4ta25vY2stZGVza3RvcC9uYXRpdmUvYnVpbGQucnMiClJFTEVBU0VfV09SS0ZMT1c9IiR7Uk9PVF9ESVJ9Ly5naXRodWIvd29ya2Zsb3dzL3JlbGVhc2UueW1sIgpXSU5ET1dTX1dPUktGTE9XPSIke1JPT1RfRElSfS8uZ2l0aHViL3dvcmtmbG93cy93aW5kb3dzLXg4Nl82NC55bWwiCgpmYWlsKCkgewogIHByaW50ZiAnW3Rlc3Qtd2luZG93cy1zbW9rZS1leGl0LXN0YXR1c10gRVJST1I6ICVzXG4nICIkKiIgPiYyCiAgZXhpdCAxCn0KCmFzc2VydF9zdWNjZXNzX2V4aXRfc3RhdHVzKCkgewogIGxvY2FsIHNjcmlwdF9wYXRoPSIkMSIKICBsb2NhbCBjbGVhbnVwX2NhbGw9IiQyIgogIGxvY2FsIGxhYmVsPSIkMyIKICBsb2NhbCBsYXN0X3N0YXRlbWVudAogIGxvY2FsIGNsZWFudXBfbGluZQogIGxvY2FsIHJlc2V0X2xpbmUKCiAgbGFzdF9zdGF0ZW1lbnQ9IiQoCiAgICBhd2sgJwogICAgICAvXltbOnNwYWNlOl1dKigkfCMpLyB7IG5leHQgfQogICAgICB7IHN0YXRlbWVudCA9ICQwIH0KICAgICAgRU5EIHsgcHJpbnQgc3RhdGVtZW50IH0KICAgICcgIiR7c2NyaXB0X3BhdGh9IgogICkiCiAgWyAiJHtsYXN0X3N0YXRlbWVudH0iID0gJyRnbG9iYWw6TEFTVEVYSVRDT0RFID0gMCcgXSB8fCBcCiAgICBmYWlsICIke2xhYmVsfSBzdWNjZXNzIHBhdGggbXVzdCBjbGVhciBuYXRpdmUtY29tbWFuZCBleGl0IHN0YXR1cyBhZnRlciBjbGVhbnVwIgoKICBjbGVhbnVwX2xpbmU9IiQoZ3JlcCAtbiAiXltbOnNwYWNlOl1dKiR7Y2xlYW51cF9jYWxsfVtbOnNwYWNlOl1dKiQiICIke3NjcmlwdF9wYXRofSIgfCB0YWlsIC0xIHwgY3V0IC1kOiAtZjEpIgogIHJlc2V0X2xpbmU9IiQoZ3JlcCAtbiAnXlwkZ2xvYmFsOkxBU1RFWElUQ09ERSA9IDAkJyAiJHtzY3JpcHRfcGF0aH0iIHwgdGFpbCAtMSB8IGN1dCAtZDogLWYxKSIKICBbIC1uICIke2NsZWFudXBfbGluZX0iIF0gfHwgZmFpbCAiJHtsYWJlbH0gc2NyaXB0IGRvZXMgbm90IGludm9rZSBmaW5hbCBjbGVhbnVwIgogIFsgLW4gIiR7cmVzZXRfbGluZX0iIF0gfHwgZmFpbCAiJHtsYWJlbH0gc2NyaXB0IGRvZXMgbm90IHJlc2V0IExBU1RFWElUQ09ERSIKICBbICIke3Jlc2V0X2xpbmV9IiAtZ3QgIiR7Y2xlYW51cF9saW5lfSIgXSB8fCBcCiAgICBmYWlsICIke2xhYmVsfSBMQVNURVhJVENPREUgcmVzZXQgbXVzdCBmb2xsb3cgc3VjY2Vzc2Z1bCBmaW5hbCBjbGVhbnVwIgp9Cgphc3NlcnRfc3VjY2Vzc19leGl0X3N0YXR1cyAiJHtSVU5USU1FX1NNT0tFX1NDUklQVH0iICJJbnZva2UtU21va2VDbGVhbnVwIiAicnVudGltZSBzbW9rZSIKYXNzZXJ0X3N1Y2Nlc3NfZXhpdF9zdGF0dXMgIiR7SU5TVEFMTEVSX1NNT0tFX1NDUklQVH0iICJJbnZva2UtSW5zdGFsbGVyQ2xlYW51cCIgImluc3RhbGxlciBzbW9rZSIKCmNvbnRyb2xfYXBpX3ZlcnNpb249IiQoYmFzaCAiJHtST09UX0RJUn0vc2NyaXB0cy9jb250cm9sLWFwaS12ZXJzaW9uLnNoIikiCmNhc2UgIiR7Y29udHJvbF9hcGlfdmVyc2lvbn0iIGluCiAgJyd8MHwqWyEwLTldKikgZmFpbCAicHJvdG9idWYgY29udHJvbCBBUEkgdmVyc2lvbiBtdXN0IGJlIGEgcG9zaXRpdmUgaW50ZWdlciIgOzsKZXNhYwpncmVwIC1GcSAnR0FURVdBWV9DT05UUk9MX0FQSV9WRVJTSU9OOiB1NjQgPSBDb250cm9sQXBpVmVyc2lvbjo6Q3VycmVudCBhcyB1NjQnIFwKICAiJHtTRVJWSUNFX0dPX0JBQ0tFTkR9IiB8fCBcCiAgZmFpbCAiUnVzdCBzZXJ2aWNlIG11c3QgZGVyaXZlIHRoZSBjb250cm9sIEFQSSB2ZXJzaW9uIGZyb20gZ2VuZXJhdGVkIHByb3RvYnVmIGNvZGUiCmdyZXAgLUZxICdDT05UUk9MX0FQSV9WRVJTSU9OX0NVUlJFTlQnICIke0NPTlRST0xfQVBJX0hFTFBFUn0iIHx8IFwKICBmYWlsICJXaW5kb3dzIHRvb2xzIG11c3QgcmVhZCB0aGUgcHJvdG9idWYgY29udHJvbCBBUEkgY29udHJhY3QiCmdyZXAgLUZxICdDb250cm9sQXBpVmVyc2lvbl9DT05UUk9MX0FQSV9WRVJTSU9OX0NVUlJFTlQnICIke0NPTlRST0xfQVBJX0hFTFBFUn0iIHx8IFwKICBmYWlsICJXaW5kb3dzIHRvb2xzIG11c3QgdmFsaWRhdGUgdGhlIGdlbmVyYXRlZCBHbyBjb250cm9sIEFQSSBjb250cmFjdCIKZ3JlcCAtRnEgJ0Fzc2VydC1Gbktub2NrR29Db250cm9sQXBpQ29udHJhY3QgLVJvb3QgJFJvb3QgLUdvUmVwb3NpdG9yeSAkR29SZXBvc2l0b3J5JyBcCiAgIiR7V0lORE9XU19CVUlMRF9TQ1JJUFR9IiB8fCBcCiAgZmFpbCAiV2luZG93cyBidW5kbGUgc3RhZ2luZyBtdXN0IHJlamVjdCBzdGFsZSBnZW5lcmF0ZWQgR28gcHJvdG9idWYgY29kZSIKZ3JlcCAtRnEgJ2NvbnRyb2xfYXBpX3ZlcnNpb24gPSAkQ29udHJvbEFwaVZlcnNpb24nICIke1dJTkRPV1NfQlVJTERfU0NSSVBUfSIgfHwgXAogIGZhaWwgIldpbmRvd3MgYnVuZGxlIHN0YWdpbmcgbXVzdCB3cml0ZSB0aGUgc2hhcmVkIGNvbnRyb2wgQVBJIHZlcnNpb24iCmdyZXAgLUZxICdjb250cm9sX2FwaV92ZXJzaW9uIC1uZSAkQ29udHJvbEFwaVZlcnNpb24nICIke1dJTkRPV1NfRklOQUxJWkVfU0NSSVBUfSIgfHwgXAogIGZhaWwgIldpbmRvd3MgZmluYWxpemF0aW9uIG11c3QgdXNlIHRoZSBzaGFyZWQgY29udHJvbCBBUEkgdmVyc2lvbiIKZ3JlcCAtRnEgJ2NvbnRyb2xfYXBpX3ZlcnNpb24gLWVxICRFeHBlY3RlZENvbnRyb2xBcGlWZXJzaW9uJyAiJHtSVU5USU1FX1NNT0tFX1NDUklQVH0iIHx8IFwKICBmYWlsICJXaW5kb3dzIHJ1bnRpbWUgc21va2UgbXVzdCB1c2UgdGhlIHNoYXJlZCBjb250cm9sIEFQSSB2ZXJzaW9uIgpncmVwIC1GcSAnY29udHJvbF9hcGlfdmVyc2lvbiAtZXEgJEV4cGVjdGVkQ29udHJvbEFwaVZlcnNpb24nICIke0lOU1RBTExFUl9TTU9LRV9TQ1JJUFR9IiB8fCBcCiAgZmFpbCAiV2luZG93cyBpbnN0YWxsZXIgc21va2UgbXVzdCB1c2UgdGhlIHNoYXJlZCBjb250cm9sIEFQSSB2ZXJzaW9uIgpncmVwIC1GcSAnPT0gU29tZShFWFBFQ1RFRF9DT05UUk9MX0FQSV9WRVJTSU9OKScgIiR7REVTS1RPUF9SVU5USU1FfSIgfHwgXAogIGZhaWwgIldpbmRvd3MgZGVza3RvcCByZWFkaW5lc3MgbXVzdCB1c2UgaXRzIGdlbmVyYXRlZCBjb250cm9sIEFQSSB2ZXJzaW9uIgpncmVwIC1GcSAnc3RyaXBfcHJlZml4KCJDT05UUk9MX0FQSV9WRVJTSU9OX0NVUlJFTlQiKScgIiR7REVTS1RPUF9CVUlMRH0iIHx8IFwKICBmYWlsICJXaW5kb3dzIGRlc2t0b3AgYnVpbGQgbXVzdCByZWFkIHRoZSBwcm90b2J1ZiBjb250cm9sIEFQSSB2ZXJzaW9uIgpncmVwIC1GcSAnU29tZShleHBlY3RlZF9jb250cm9sX2FwaV92ZXJzaW9uKScgIiR7REVTS1RPUF9CVUlMRH0iIHx8IFwKICBmYWlsICJXaW5kb3dzIGRlc2t0b3AgYnVpbGQgdmFsaWRhdGlvbiBtdXN0IHVzZSB0aGUgc2hhcmVkIGNvbnRyb2wgQVBJIHZlcnNpb24iCmdyZXAgLUZxICdiYXNoIC4vc2NyaXB0cy9zeW5jLWdvLWdycGMtY29udHJhY3Quc2ggR28tUmVhdXRoLVByb3h5JyAiJHtSRUxFQVNFX1dPUktGTE9XfSIgfHwgXAogIGZhaWwgIlJlbGVhc2UgQ0kgbXVzdCByZWdlbmVyYXRlIEdvIHByb3RvYnVmIGNvZGUgZnJvbSB0aGUgc2hhcmVkIGNvbnRyYWN0IgoKdW5zYWZlX2NvdW50X2NhbGxzPSIkKAogIGdyZXAgLUUgJ1woR2V0LUZuS25vY2soRmlyZXdhbGxSdWxlc3xQcm9jZXNzZXMpXClcLkNvdW50JyAiJHtJTlNUQUxMRVJfU01PS0VfU0NSSVBUfSIgfAogICAgZ3JlcCAtdiAnQChHZXQtRm5Lbm9jaycgfHwgdHJ1ZQopIgpbIC16ICIke3Vuc2FmZV9jb3VudF9jYWxsc30iIF0gfHwgXAogIGZhaWwgImluc3RhbGxlciBzbW9rZSBjb2xsZWN0aW9uIGNvdW50cyBtdXN0IGhhbmRsZSB6ZXJvIHJlc3VsdHMgd2l0aCBAKC4uLik6ICR7dW5zYWZlX2NvdW50X2NhbGxzfSIKCmdyZXAgLUZxICdbRGlhZ25vc3RpY3MuUHJvY2Vzc1N0YXJ0SW5mb106Om5ldygpJyAiJHtJTlNUQUxMRVJfU01PS0VfU0NSSVBUfSIgfHwgXAogIGZhaWwgImluc3RhbGxlciBzbW9rZSBuYXRpdmUgcnVubmVyIG11c3QgdXNlIFByb2Nlc3NTdGFydEluZm8iCmdyZXAgLUZxICckcHJvY2Vzcy5XYWl0Rm9yRXhpdCgpJyAiJHtJTlNUQUxMRVJfU01PS0VfU0NSSVBUfSIgfHwgXAogIGZhaWwgImluc3RhbGxlciBzbW9rZSBuYXRpdmUgcnVubmVyIG11c3Qgd2FpdCBmb3IgR1VJIGluc3RhbGxlcnMiCmdyZXAgLUZxICdFeGl0Q29kZSA9IFtpbnRdJHByb2Nlc3MuRXhpdENvZGUnICIke0lOU1RBTExFUl9TTU9LRV9TQ1JJUFR9IiB8fCBcCiAgZmFpbCAiaW5zdGFsbGVyIHNtb2tlIG5hdGl2ZSBydW5uZXIgbXVzdCBjYXB0dXJlIHRoZSBwcm9jZXNzIEV4aXRDb2RlIgoKdW5zYWZlX25hdGl2ZV9leGl0X3JlYWRzPSIkKAogIGF3ayAnCiAgICAvXmZ1bmN0aW9uIEludm9rZS1OYXRpdmVDaGVja2VkIC8geyBpbl9oZWxwZXIgPSAxIH0KICAgIC9eZnVuY3Rpb24gV2FpdC1TZXJ2aWNlU3RhdGUgLyB7IGluX2hlbHBlciA9IDAgfQogICAgL15mdW5jdGlvbiBJbnZva2UtTmF0aXZlRXhwZWN0RmFpbHVyZSAvIHsgaW5faGVscGVyID0gMSB9CiAgICAvXmZ1bmN0aW9uIEFzc2VydC1Vbmluc3RhbGxlZFJ1bnRpbWUgLyB7IGluX2hlbHBlciA9IDAgfQogICAgaW5faGVscGVyICYmIC9cJExBU1RFWElUQ09ERS8geyBwcmludCB9CiAgJyAiJHtJTlNUQUxMRVJfU01PS0VfU0NSSVBUfSIKKSIKWyAteiAiJHt1bnNhZmVfbmF0aXZlX2V4aXRfcmVhZHN9IiBdIHx8IFwKICBmYWlsICJpbnN0YWxsZXIgbmF0aXZlIGhlbHBlcnMgbXVzdCBub3QgcmVseSBvbiBvcHRpb25hbCBMQVNURVhJVENPREU6ICR7dW5zYWZlX25hdGl2ZV9leGl0X3JlYWRzfSIKCmlmIGdyZXAgLUVxICJbJ1wiXS9TS0lQU0wiICIke0lOU1RBTExFUl9IT09LfSIgIiR7SU5TVEFMTEVSX1NNT0tFX1NDUklQVH0iOyB0aGVuCiAgZmFpbCAiV2luZG93cyBpbnN0YWxsZXIgcGF0aHMgbXVzdCBub3QgZGVwZW5kIG9uIHVuZG9jdW1lbnRlZCB0YWtlb3duIC9TS0lQU0wgc3VwcG9ydCIKZmkKZ3JlcCAtRnEgIlwkXCRyb290VGFrZW93bkFyZ3MgPSBAKCcvRicsIFwkXCRQYXRoLCAnL0EnKSIgIiR7SU5TVEFMTEVSX0hPT0t9IiB8fCBcCiAgZmFpbCAiaW5zdGFsbGVyIGJvb3RzdHJhcCBtdXN0IGxpbWl0IHBvcnRhYmxlIHRha2Vvd24gdG8gdGhlIHZhbGlkYXRlZCByb290IgpncmVwIC1GcSAnJiAkJEljYWNscyAkJFBhdGggL3Jlc2V0IC9MIC9RIHwgT3V0LU51bGwnICIke0lOU1RBTExFUl9IT09LfSIgfHwgXAogIGZhaWwgImluc3RhbGxlciBib290c3RyYXAgbXVzdCBuZXV0cmFsaXplIGEgc3RhbGUgcm9vdCBkZW55IHdpdGhvdXQgcmVjdXJzaXZlIGxpbmsgdHJhdmVyc2FsIgpncmVwIC1GcSAiXCRcJG93bmVyQXJncyA9IEAoXCRcJFBhdGgsICcvc2V0b3duZXInLCAnKlMtMS01LTMyLTU0NCcsICcvVCcsICcvTCcsICcvUScpIiAiJHtJTlNUQUxMRVJfSE9PS30iIHx8IFwKICBmYWlsICJpbnN0YWxsZXIgYm9vdHN0cmFwIG11c3QgdXNlIGRvY3VtZW50ZWQgaWNhY2xzIC9MIGZvciByZWN1cnNpdmUgb3duZXJzaGlwIHJlcGFpciIKZ3JlcCAtRnEgJyIqUy0xLTUtMTg6KE9JKShDSSlGIiAiKlMtMS01LTMyLTU0NDooT0kpKENJKUYiIC9MIC9RJyAiJHtJTlNUQUxMRVJfSE9PS30iIHx8IFwKICBmYWlsICJpbnN0YWxsZXIgdHJhbnNhY3Rpb24gQUNMIG11c3QgZ3JhbnQgb25lIGluaGVyaXRhYmxlIEZ1bGxDb250cm9sIHJ1bGUgdG8gU1lTVEVNIGFuZCBBZG1pbmlzdHJhdG9ycyIKaWYgZ3JlcCAtRnEgJyIqUy0xLTUtMTg6RiInICIke0lOU1RBTExFUl9IT09LfSIgfHwgXAogICAgZ3JlcCAtRnEgJyIqUy0xLTUtMzItNTQ0OkYiJyAiJHtJTlNUQUxMRVJfSE9PS30iOyB0aGVuCiAgZmFpbCAiaW5zdGFsbGVyIHRyYW5zYWN0aW9uIEFDTCBtdXN0IG5vdCBhZGQgZHVwbGljYXRlIG5vbi1pbmhlcml0aW5nIFNJRCBydWxlcyIKZmkKZ3JlcCAtRnEgJ1NldC1Gbktub2NrRGF0YVRyZWVBY2wgJCRQU1NjcmlwdFJvb3QgJCRzeXN0ZW1TaWQgJCRhZG1pbmlzdHJhdG9yc1NpZCAkJG51bGwnICIke0lOU1RBTExFUl9IT09LfSIgfHwgXAogIGZhaWwgImluc3RhbGxlciBoZWxwZXIgbXVzdCByZXBsYWNlIGluaGVyaXRlZCBwbGF0Zm9ybSBBQ0xzIHRocm91Z2ggdGhlIGV4YWN0IEFDTCBBUEkiCmdyZXAgLUZxICJcJEZuS25vY2tUcmFuc2FjdGlvblNjcmlwdFwkXFwnIC9zZXRvd25lciBcJFxcJypTLTEtNS0xOFwkXFwnIC9MIC9RIiAiJHtJTlNUQUxMRVJfSE9PS30iIHx8IFwKICBmYWlsICJpbnN0YWxsZXIgYm9vdHN0cmFwIG11c3QgcmVzdG9yZSBTWVNURU0gb3duZXJzaGlwIGJlZm9yZSBkaXNwYXRjaGluZyB0aGUgaGVscGVyIgpncmVwIC1GcSAnQXNzZXJ0LUZuS25vY2tJbnN0YWxsZXJUcmVlQWNsICQkUFNTY3JpcHRSb290JyAiJHtJTlNUQUxMRVJfSE9PS30iIHx8IFwKICBmYWlsICJpbnN0YWxsZXIgaGVscGVyIG11c3QgdmVyaWZ5IGl0cyBjYW5vbmljYWxpemVkIEFDTCBiZWZvcmUgZGlzcGF0Y2giCmdyZXAgLUZxICJcJFwkcGxhdGZvcm1SZWFkU2lkcyA9IEAoJ1MtMS0xNS0yLTEnLCdTLTEtMTUtMi0yJykiICIke0lOU1RBTExFUl9IT09LfSIgfHwgXAogIGZhaWwgImluc3RhbGxlciBBQ0wgdmFsaWRhdGlvbiBtdXN0IHJlY29nbml6ZSBXaW5kb3dzIGFwcGxpY2F0aW9uLXBhY2thZ2UgaWRlbnRpdGllcyIKZ3JlcCAtRnEgJygkJHJpZ2h0c01hc2sgLWJhbmQgW3VpbnQzMl0weDUzMEQwMTQ2KSAtbmUgMCcgIiR7SU5TVEFMTEVSX0hPT0t9IiB8fCBcCiAgZmFpbCAiaW5zdGFsbGVyIEFDTCB2YWxpZGF0aW9uIG11c3QgcmVqZWN0IGFwcGxpY2F0aW9uLXBhY2thZ2UgbXV0YXRpb24gcmlnaHRzIgphY2xfbm9ybWFsaXplX2xpbmU9IiQoZ3JlcCAtbkYgJ1NldC1Gbktub2NrRGF0YVRyZWVBY2wgJCRQU1NjcmlwdFJvb3QgJCRzeXN0ZW1TaWQgJCRhZG1pbmlzdHJhdG9yc1NpZCAkJG51bGwnICIke0lOU1RBTExFUl9IT09LfSIgfCBjdXQgLWQ6IC1mMSkiCmFjbF92ZXJpZnlfbGluZT0iJChncmVwIC1uRiAnQXNzZXJ0LUZuS25vY2tJbnN0YWxsZXJUcmVlQWNsICQkUFNTY3JpcHRSb290JyAiJHtJTlNUQUxMRVJfSE9PS30iIHwgY3V0IC1kOiAtZjEpIgphY3Rpb25fZGlzcGF0Y2hfbGluZT0iJChncmVwIC1uRiAnc3dpdGNoICgkJEFjdGlvbiknICIke0lOU1RBTExFUl9IT09LfSIgfCBjdXQgLWQ6IC1mMSkiClsgIiR7YWNsX25vcm1hbGl6ZV9saW5lfSIgLWx0ICIke2FjbF92ZXJpZnlfbGluZX0iIF0gJiYgWyAiJHthY2xfdmVyaWZ5X2xpbmV9IiAtbHQgIiR7YWN0aW9uX2Rpc3BhdGNoX2xpbmV9IiBdIHx8IFwKICBmYWlsICJpbnN0YWxsZXIgaGVscGVyIG11c3Qgbm9ybWFsaXplIGFuZCB2ZXJpZnkgaXRzIEFDTCBiZWZvcmUgYWN0aW9uIGRpc3BhdGNoIgpncmVwIC1GcSAiW0NvbnNvbGVdOjpFcnJvci5Xcml0ZUxpbmUoKCdGbktub2NrIGluc3RhbGxlciAnICsgXCRcJEFjdGlvbiArICcgZmFpbGVkOiAnICsgXCRcJF8uRXhjZXB0aW9uLk1lc3NhZ2UpKSIgIiR7SU5TVEFMTEVSX0hPT0t9IiB8fCBcCiAgZmFpbCAiaW5zdGFsbGVyIHRyYW5zYWN0aW9uIGZhaWx1cmVzIG11c3QgZW1pdCBhIGNvbmNpc2UgYWN0aW9uYWJsZSBlcnJvciIKCndvcmtmbG93X3Ntb2tlX2NhbGxzPSIkKAogIGdyZXAgLUhuRSAnZm4ta25vY2std2luZG93cy0oc21va2V8aW5zdGFsbGVyLXNtb2tlKVwucHMxJyBcCiAgICAiJHtSRUxFQVNFX1dPUktGTE9XfSIgIiR7V0lORE9XU19XT1JLRkxPV30iIHx8IHRydWUKKSIKWyAteiAiJHt3b3JrZmxvd19zbW9rZV9jYWxsc30iIF0gfHwgXAogIGZhaWwgIkdpdEh1YiBBY3Rpb25zIG11c3Qgbm90IHJ1biBXaW5kb3dzIHNtb2tlL2luc3RhbGwgbGlmZWN5Y2xlIHRlc3RzOiAke3dvcmtmbG93X3Ntb2tlX2NhbGxzfSIKCmdyZXAgLUZxICcuL3NjcmlwdHMvZm4ta25vY2std2luZG93cy1maW5hbGl6ZS5wczEgLVNldHVwUGF0aCAkc2V0dXAgLVNpZ25hdHVyZVBvbGljeSBVbnNpZ25lZCcgXAogICIke1JFTEVBU0VfV09SS0ZMT1d9IiB8fCBcCiAgZmFpbCAicmVsZWFzZSB3b3JrZmxvdyBtdXN0IHN0aWxsIGZpbmFsaXplIHRoZSB1bnNpZ25lZCBpbnN0YWxsZXIgbWV0YWRhdGEiCgpwcmludGYgJ1t0ZXN0LXdpbmRvd3Mtc21va2UtZXhpdC1zdGF0dXNdIHN1Y2Nlc3MgZXhpdCBzdGF0dXMgY29udHJhY3QgcGFzc2VkXG4nCg==
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+RUNTIME_SMOKE_SCRIPT="${ROOT_DIR}/scripts/fn-knock-windows-smoke.ps1"
+INSTALLER_SMOKE_SCRIPT="${ROOT_DIR}/scripts/fn-knock-windows-installer-smoke.ps1"
+WINDOWS_BUILD_SCRIPT="${ROOT_DIR}/scripts/fn-knock-windows.ps1"
+WINDOWS_FINALIZE_SCRIPT="${ROOT_DIR}/scripts/fn-knock-windows-finalize.ps1"
+INSTALLER_HOOK="${ROOT_DIR}/apps/fn-knock-desktop/native/installer/hooks.nsh"
+CONTROL_API_HELPER="${ROOT_DIR}/scripts/fn-knock-control-api.ps1"
+SERVICE_GO_BACKEND="${ROOT_DIR}/apps/server-admin-rs/src/infra/go_backend.rs"
+DESKTOP_RUNTIME="${ROOT_DIR}/apps/fn-knock-desktop/native/src/runtime.rs"
+DESKTOP_BUILD="${ROOT_DIR}/apps/fn-knock-desktop/native/build.rs"
+RELEASE_WORKFLOW="${ROOT_DIR}/.github/workflows/release.yml"
+WINDOWS_WORKFLOW="${ROOT_DIR}/.github/workflows/windows-x86_64.yml"
+
+fail() {
+  printf '[test-windows-smoke-exit-status] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+assert_success_exit_status() {
+  local script_path="$1"
+  local cleanup_call="$2"
+  local label="$3"
+  local last_statement
+  local cleanup_line
+  local reset_line
+
+  last_statement="$(
+    awk '
+      /^[[:space:]]*($|#)/ { next }
+      { statement = $0 }
+      END { print statement }
+    ' "${script_path}"
+  )"
+  [ "${last_statement}" = '$global:LASTEXITCODE = 0' ] || \
+    fail "${label} success path must clear native-command exit status after cleanup"
+
+  cleanup_line="$(grep -n "^[[:space:]]*${cleanup_call}[[:space:]]*$" "${script_path}" | tail -1 | cut -d: -f1)"
+  reset_line="$(grep -n '^\$global:LASTEXITCODE = 0$' "${script_path}" | tail -1 | cut -d: -f1)"
+  [ -n "${cleanup_line}" ] || fail "${label} script does not invoke final cleanup"
+  [ -n "${reset_line}" ] || fail "${label} script does not reset LASTEXITCODE"
+  [ "${reset_line}" -gt "${cleanup_line}" ] || \
+    fail "${label} LASTEXITCODE reset must follow successful final cleanup"
+}
+
+assert_success_exit_status "${RUNTIME_SMOKE_SCRIPT}" "Invoke-SmokeCleanup" "runtime smoke"
+assert_success_exit_status "${INSTALLER_SMOKE_SCRIPT}" "Invoke-InstallerCleanup" "installer smoke"
+
+control_api_version="$(bash "${ROOT_DIR}/scripts/control-api-version.sh")"
+case "${control_api_version}" in
+  ''|0|*[!0-9]*) fail "protobuf control API version must be a positive integer" ;;
+esac
+grep -Fq 'GATEWAY_CONTROL_API_VERSION: u64 = ControlApiVersion::Current as u64' \
+  "${SERVICE_GO_BACKEND}" || \
+  fail "Rust service must derive the control API version from generated protobuf code"
+grep -Fq 'CONTROL_API_VERSION_CURRENT' "${CONTROL_API_HELPER}" || \
+  fail "Windows tools must read the protobuf control API contract"
+grep -Fq 'ControlApiVersion_CONTROL_API_VERSION_CURRENT' "${CONTROL_API_HELPER}" || \
+  fail "Windows tools must validate the generated Go control API contract"
+grep -Fq 'Assert-FnKnockGoControlApiContract -Root $Root -GoRepository $GoRepository' \
+  "${WINDOWS_BUILD_SCRIPT}" || \
+  fail "Windows bundle staging must reject stale generated Go protobuf code"
+grep -Fq 'control_api_version = $ControlApiVersion' "${WINDOWS_BUILD_SCRIPT}" || \
+  fail "Windows bundle staging must write the shared control API version"
+grep -Fq 'control_api_version -ne $ControlApiVersion' "${WINDOWS_FINALIZE_SCRIPT}" || \
+  fail "Windows finalization must use the shared control API version"
+grep -Fq 'control_api_version -eq $ExpectedControlApiVersion' "${RUNTIME_SMOKE_SCRIPT}" || \
+  fail "Windows runtime smoke must use the shared control API version"
+grep -Fq 'control_api_version -eq $ExpectedControlApiVersion' "${INSTALLER_SMOKE_SCRIPT}" || \
+  fail "Windows installer smoke must use the shared control API version"
+grep -Fq '== Some(EXPECTED_CONTROL_API_VERSION)' "${DESKTOP_RUNTIME}" || \
+  fail "Windows desktop readiness must use its generated control API version"
+grep -Fq 'strip_prefix("CONTROL_API_VERSION_CURRENT")' "${DESKTOP_BUILD}" || \
+  fail "Windows desktop build must read the protobuf control API version"
+grep -Fq 'Some(expected_control_api_version)' "${DESKTOP_BUILD}" || \
+  fail "Windows desktop build validation must use the shared control API version"
+grep -Fq 'bash ./scripts/sync-go-grpc-contract.sh Go-Reauth-Proxy' "${RELEASE_WORKFLOW}" || \
+  fail "Release CI must regenerate Go protobuf code from the shared contract"
+
+unsafe_count_calls="$(
+  grep -E '\(Get-FnKnock(FirewallRules|Processes)\)\.Count' "${INSTALLER_SMOKE_SCRIPT}" |
+    grep -v '@(Get-FnKnock' || true
+)"
+[ -z "${unsafe_count_calls}" ] || \
+  fail "installer smoke collection counts must handle zero results with @(...): ${unsafe_count_calls}"
+
+grep -Fq '[Diagnostics.ProcessStartInfo]::new()' "${INSTALLER_SMOKE_SCRIPT}" || \
+  fail "installer smoke native runner must use ProcessStartInfo"
+grep -Fq '$process.WaitForExit()' "${INSTALLER_SMOKE_SCRIPT}" || \
+  fail "installer smoke native runner must wait for GUI installers"
+grep -Fq 'ExitCode = [int]$process.ExitCode' "${INSTALLER_SMOKE_SCRIPT}" || \
+  fail "installer smoke native runner must capture the process ExitCode"
+
+unsafe_native_exit_reads="$(
+  awk '
+    /^function Invoke-NativeChecked / { in_helper = 1 }
+    /^function Wait-ServiceState / { in_helper = 0 }
+    /^function Invoke-NativeExpectFailure / { in_helper = 1 }
+    /^function Assert-UninstalledRuntime / { in_helper = 0 }
+    in_helper && /\$LASTEXITCODE/ { print }
+  ' "${INSTALLER_SMOKE_SCRIPT}"
+)"
+[ -z "${unsafe_native_exit_reads}" ] || \
+  fail "installer native helpers must not rely on optional LASTEXITCODE: ${unsafe_native_exit_reads}"
+
+if grep -Eq "['\"]/SKIPSL" "${INSTALLER_HOOK}" "${INSTALLER_SMOKE_SCRIPT}"; then
+  fail "Windows installer paths must not depend on undocumented takeown /SKIPSL support"
+fi
+grep -Fq "\$\$rootTakeownArgs = @('/F', \$\$Path, '/A')" "${INSTALLER_HOOK}" || \
+  fail "installer bootstrap must limit portable takeown to the validated root"
+grep -Fq '& $$Icacls $$Path /reset /L /Q | Out-Null' "${INSTALLER_HOOK}" || \
+  fail "installer bootstrap must neutralize a stale root deny without recursive link traversal"
+grep -Fq "\$\$ownerArgs = @(\$\$Path, '/setowner', '*S-1-5-32-544', '/T', '/L', '/Q')" "${INSTALLER_HOOK}" || \
+  fail "installer bootstrap must use documented icacls /L for recursive ownership repair"
+grep -Fq '"*S-1-5-18:(OI)(CI)F" "*S-1-5-32-544:(OI)(CI)F" /L /Q' "${INSTALLER_HOOK}" || \
+  fail "installer transaction ACL must grant one inheritable FullControl rule to SYSTEM and Administrators"
+if grep -Fq '"*S-1-5-18:F"' "${INSTALLER_HOOK}" || \
+    grep -Fq '"*S-1-5-32-544:F"' "${INSTALLER_HOOK}"; then
+  fail "installer transaction ACL must not add duplicate non-inheriting SID rules"
+fi
+grep -Fq 'Set-FnKnockDataTreeAcl $$PSScriptRoot $$systemSid $$administratorsSid $$null' "${INSTALLER_HOOK}" || \
+  fail "installer helper must replace inherited platform ACLs through the exact ACL API"
+grep -Fq "\$FnKnockTransactionScript\$\\' /setowner \$\\'*S-1-5-18\$\\' /L /Q" "${INSTALLER_HOOK}" || \
+  fail "installer bootstrap must restore SYSTEM ownership before dispatching the helper"
+grep -Fq 'Assert-FnKnockInstallerTreeAcl $$PSScriptRoot' "${INSTALLER_HOOK}" || \
+  fail "installer helper must verify its canonicalized ACL before dispatch"
+grep -Fq "\$\$platformReadSids = @('S-1-15-2-1','S-1-15-2-2')" "${INSTALLER_HOOK}" || \
+  fail "installer ACL validation must recognize Windows application-package identities"
+grep -Fq '($$rightsMask -band [uint32]0x530D0146) -ne 0' "${INSTALLER_HOOK}" || \
+  fail "installer ACL validation must reject application-package mutation rights"
+acl_normalize_line="$(grep -nF 'Set-FnKnockDataTreeAcl $$PSScriptRoot $$systemSid $$administratorsSid $$null' "${INSTALLER_HOOK}" | cut -d: -f1)"
+acl_verify_line="$(grep -nF 'Assert-FnKnockInstallerTreeAcl $$PSScriptRoot' "${INSTALLER_HOOK}" | cut -d: -f1)"
+action_dispatch_line="$(grep -nF 'switch ($$Action)' "${INSTALLER_HOOK}" | cut -d: -f1)"
+[ "${acl_normalize_line}" -lt "${acl_verify_line}" ] && [ "${acl_verify_line}" -lt "${action_dispatch_line}" ] || \
+  fail "installer helper must normalize and verify its ACL before action dispatch"
+grep -Fq "[Console]::Error.WriteLine(('FnKnock installer ' + \$\$Action + ' failed: ' + \$\$_.Exception.Message))" "${INSTALLER_HOOK}" || \
+  fail "installer transaction failures must emit a concise actionable error"
+
+workflow_smoke_calls="$(
+  grep -HnE 'fn-knock-windows-(smoke|installer-smoke)\.ps1' \
+    "${RELEASE_WORKFLOW}" "${WINDOWS_WORKFLOW}" || true
+)"
+[ -z "${workflow_smoke_calls}" ] || \
+  fail "GitHub Actions must not run Windows smoke/install lifecycle tests: ${workflow_smoke_calls}"
+
+grep -Fq './scripts/fn-knock-windows-finalize.ps1 -SetupPath $setup -SignaturePolicy Unsigned' \
+  "${RELEASE_WORKFLOW}" || \
+  fail "release workflow must still finalize the unsigned installer metadata"
+
+printf '[test-windows-smoke-exit-status] success exit status contract passed\n'

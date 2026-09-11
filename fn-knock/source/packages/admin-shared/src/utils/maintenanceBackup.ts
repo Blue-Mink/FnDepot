@@ -1,1 +1,15 @@
-ZXhwb3J0IGNvbnN0IEtOT0NLX0JBQ0tVUF9QUkVGSVggPSAiZm5fa25vY2s6IjsKZXhwb3J0IGNvbnN0IEtOT0NLX0JBQ0tVUF9FWFRFTlNJT04gPSAiLmtub2NrIjsKZXhwb3J0IGNvbnN0IEtOT0NLX0JBQ0tVUF9KU09OX0ZJTEVOQU1FID0gImZuLWtub2NrLWJhY2t1cC5qc29uIjsKZXhwb3J0IGNvbnN0IE1BWF9LTk9DS19CQUNLVVBfQVJDSElWRV9TSVpFID0gMTI4ICogMTAyNCAqIDEwMjQ7CgpleHBvcnQgY29uc3QgYnVpbGRLbm9ja0JhY2t1cEZpbGVuYW1lID0gKHZhbHVlOiBEYXRlIHwgc3RyaW5nID0gbmV3IERhdGUoKSkgPT4gewogIGNvbnN0IGRhdGUgPQogICAgdmFsdWUgaW5zdGFuY2VvZiBEYXRlCiAgICAgID8gdmFsdWUKICAgICAgOiBOdW1iZXIuaXNGaW5pdGUoRGF0ZS5wYXJzZSh2YWx1ZSkpCiAgICAgICAgPyBuZXcgRGF0ZSh2YWx1ZSkKICAgICAgICA6IG5ldyBEYXRlKCk7CgogIHJldHVybiBgZm4ta25vY2stYmFja3VwLSR7ZGF0ZS50b0lTT1N0cmluZygpLnJlcGxhY2UoL1s6Ll0vZywgIi0iKX0ke0tOT0NLX0JBQ0tVUF9FWFRFTlNJT059YDsKfTsK
+export const KNOCK_BACKUP_PREFIX = "fn_knock:";
+export const KNOCK_BACKUP_EXTENSION = ".knock";
+export const KNOCK_BACKUP_JSON_FILENAME = "fn-knock-backup.json";
+export const MAX_KNOCK_BACKUP_ARCHIVE_SIZE = 128 * 1024 * 1024;
+
+export const buildKnockBackupFilename = (value: Date | string = new Date()) => {
+  const date =
+    value instanceof Date
+      ? value
+      : Number.isFinite(Date.parse(value))
+        ? new Date(value)
+        : new Date();
+
+  return `fn-knock-backup-${date.toISOString().replace(/[:.]/g, "-")}${KNOCK_BACKUP_EXTENSION}`;
+};

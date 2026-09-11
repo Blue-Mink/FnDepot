@@ -1,1 +1,488 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IENvbmZpcm1EYW5nZXJQb3BvdmVyIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vQ29uZmlybURhbmdlclBvcG92ZXIudnVlIjsKaW1wb3J0IHsgQWxlcnQsIEFsZXJ0RGVzY3JpcHRpb24sIEFsZXJ0VGl0bGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYWxlcnQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQ2hlY2tib3ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2hlY2tib3giOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgewogIFNlbGVjdCwKICBTZWxlY3RDb250ZW50LAogIFNlbGVjdEl0ZW0sCiAgU2VsZWN0VHJpZ2dlciwKICBTZWxlY3RWYWx1ZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKaW1wb3J0IHsgVGV4dGFyZWEgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGV4dGFyZWEiOwppbXBvcnQgewogIENoZWNrQ2lyY2xlMiwKICBLZXlSb3VuZCwKICBMb2FkZXJDaXJjbGUsCiAgUGx1Z1phcCwKICBTaGllbGRDaGVjaywKICBUcmFzaDIsCiAgVHJpYW5nbGVBbGVydCwKfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgdHlwZSB7CiAgVGVybWluYWxBdXRoTWV0aG9kLAogIFRlcm1pbmFsVGFyZ2V0UmVjb3JkLAp9IGZyb20gIkAvbGliL2FwaS90ZXJtaW5hbCI7CmltcG9ydCB0eXBlIHsgdXNlVGVybWluYWxUYXJnZXRFZGl0b3IgfSBmcm9tICIuL3VzZVRlcm1pbmFsVGFyZ2V0RWRpdG9yIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIGFjdGl2ZVNlc3Npb25Db3VudDogbnVtYmVyOwogIGVkaXRvcjogUmV0dXJuVHlwZTx0eXBlb2YgdXNlVGVybWluYWxUYXJnZXRFZGl0b3I+OwogIG9uRGVsZXRlOiAodGFyZ2V0OiBUZXJtaW5hbFRhcmdldFJlY29yZCkgPT4gdm9pZCB8IFByb21pc2U8dm9pZD47Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgdGVybWluYXRlQWN0aXZlU2Vzc2lvbnMgPSByZWYoZmFsc2UpOwpjb25zdCByZXF1aXJlc1Rlcm1pbmF0aW9uQ29uZmlybWF0aW9uID0gY29tcHV0ZWQoCiAgKCkgPT4KICAgIHByb3BzLmVkaXRvci5mb3JjZUNvbmZpcm1hdGlvblJlcXVpcmVkLnZhbHVlICYmCiAgICBwcm9wcy5lZGl0b3IucmVxdWlyZXNTZXNzaW9uVGVybWluYXRpb24udmFsdWUsCik7CmNvbnN0IGRpc3BsYXllZEFjdGl2ZVNlc3Npb25Db3VudCA9IGNvbXB1dGVkKAogICgpID0+CiAgICBwcm9wcy5lZGl0b3IuY29uZmxpY3RpbmdBY3RpdmVTZXNzaW9uQ291bnQudmFsdWUgPz8KICAgIHByb3BzLmFjdGl2ZVNlc3Npb25Db3VudCwKKTsKY29uc3Qgc2hvd3NBY3RpdmVTZXNzaW9uV2FybmluZyA9IGNvbXB1dGVkKAogICgpID0+CiAgICBkaXNwbGF5ZWRBY3RpdmVTZXNzaW9uQ291bnQudmFsdWUgPiAwICYmCiAgICBwcm9wcy5lZGl0b3IucmVxdWlyZXNTZXNzaW9uVGVybWluYXRpb24udmFsdWUgJiYKICAgICFyZXF1aXJlc1Rlcm1pbmF0aW9uQ29uZmlybWF0aW9uLnZhbHVlLAopOwoKd2F0Y2goCiAgKCkgPT4gcHJvcHMuZWRpdG9yLm9wZW4udmFsdWUsCiAgKG9wZW4pID0+IHsKICAgIGlmIChvcGVuKSB0ZXJtaW5hdGVBY3RpdmVTZXNzaW9ucy52YWx1ZSA9IGZhbHNlOwogIH0sCik7Cgpjb25zdCB1cGRhdGVBdXRoTWV0aG9kID0gKHZhbHVlOiB1bmtub3duKSA9PiB7CiAgaWYgKHZhbHVlID09PSAicGFzc3dvcmQiIHx8IHZhbHVlID09PSAicHJpdmF0ZUtleSIpIHsKICAgIHByb3BzLmVkaXRvci5zZXRBdXRoTWV0aG9kKHZhbHVlIHNhdGlzZmllcyBUZXJtaW5hbEF1dGhNZXRob2QpOwogIH0KfTsKCmNvbnN0IGRlbGV0ZUVkaXRpbmdUYXJnZXQgPSBhc3luYyAoKSA9PiB7CiAgY29uc3QgdGFyZ2V0ID0gcHJvcHMuZWRpdG9yLmVkaXRpbmdUYXJnZXQudmFsdWU7CiAgaWYgKCF0YXJnZXQpIHJldHVybjsKICBwcm9wcy5lZGl0b3IuY2xvc2UoKTsKICBhd2FpdCBwcm9wcy5vbkRlbGV0ZSh0YXJnZXQpOwp9Owo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nCiAgICA6b3Blbj0iZWRpdG9yLm9wZW4udmFsdWUiCiAgICBAdXBkYXRlOm9wZW49IiRldmVudCA/IHVuZGVmaW5lZCA6IGVkaXRvci5jbG9zZSgpIgogID4KICAgIDxEaWFsb2dDb250ZW50CiAgICAgIGNsYXNzPSJtYXgtaC1bY2FsYygxMDBkdmgtMnJlbSldIG1pbi13LTAgb3ZlcmZsb3cteC1oaWRkZW4gb3ZlcmZsb3cteS1hdXRvIHNtOm1heC13LVs2MjBweF0iCiAgICA+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPgogICAgICAgICAge3sKICAgICAgICAgICAgZWRpdG9yLmVkaXRpbmdUYXJnZXQudmFsdWUKICAgICAgICAgICAgICA/IHQoImFkbWluLndlYlRlcm1pbmFsLmVkaXRUYXJnZXQiLCAiRWRpdCBTU0ggdGFyZ2V0IikKICAgICAgICAgICAgICA6IHQoImFkbWluLndlYlRlcm1pbmFsLmFkZFRhcmdldCIsICJBZGQgU1NIIHRhcmdldCIpCiAgICAgICAgICB9fQogICAgICAgIDwvRGlhbG9nVGl0bGU+CiAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgKICAgICAgICAgICAgICAiYWRtaW4ud2ViVGVybWluYWwudGFyZ2V0RWRpdG9yRGVzY3JpcHRpb24iLAogICAgICAgICAgICAgICJDcmVkZW50aWFscyBhcmUgZW5jcnlwdGVkIGxvY2FsbHkuIFRoZSBzZXJ2ZXIga2V5IG11c3QgYmUgZXhwbGljaXRseSB0cnVzdGVkIGJlZm9yZSBhdXRoZW50aWNhdGlvbi4iLAogICAgICAgICAgICApCiAgICAgICAgICB9fQogICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgoKICAgICAgPGZvcm0KICAgICAgICBjbGFzcz0ibWluLXctMCBzcGFjZS15LTUiCiAgICAgICAgQHN1Ym1pdC5wcmV2ZW50PSIKICAgICAgICAgIGVkaXRvci5zYXZlKAogICAgICAgICAgICByZXF1aXJlc1Rlcm1pbmF0aW9uQ29uZmlybWF0aW9uICYmIHRlcm1pbmF0ZUFjdGl2ZVNlc3Npb25zLAogICAgICAgICAgKQogICAgICAgICIKICAgICAgPgogICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgbWluLXctMCBnYXAtNCBzbTpncmlkLWNvbHMtMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIgc206Y29sLXNwYW4tMiI+CiAgICAgICAgICAgIDxMYWJlbCBmb3I9InRlcm1pbmFsLXRhcmdldC1uYW1lIj4KICAgICAgICAgICAgICB7eyB0KCJjb21tb24ubmFtZSIpIH19CiAgICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgIGlkPSJ0ZXJtaW5hbC10YXJnZXQtbmFtZSIKICAgICAgICAgICAgICB2LW1vZGVsPSJlZGl0b3IuZHJhZnQubmFtZSIKICAgICAgICAgICAgICBhdXRvY29tcGxldGU9Im9mZiIKICAgICAgICAgICAgICA6cGxhY2Vob2xkZXI9IgogICAgICAgICAgICAgICAgdCgnYWRtaW4ud2ViVGVybWluYWwudGFyZ2V0TmFtZVBsYWNlaG9sZGVyJywgJ215IG5hcycpCiAgICAgICAgICAgICAgIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iZWRpdG9yLnNhdmluZy52YWx1ZSIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICAgIDxMYWJlbCBmb3I9InRlcm1pbmFsLXRhcmdldC1ob3N0Ij4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi53ZWJUZXJtaW5hbC5ob3N0IiwgIkhvc3QiKSB9fQogICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICBpZD0idGVybWluYWwtdGFyZ2V0LWhvc3QiCiAgICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJlZGl0b3IuZHJhZnQuaG9zdCIKICAgICAgICAgICAgICBhdXRvY29tcGxldGU9Im9mZiIKICAgICAgICAgICAgICBzcGVsbGNoZWNrPSJmYWxzZSIKICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0ic2VydmVyLmV4YW1wbGUuY29tIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iZWRpdG9yLnNhdmluZy52YWx1ZSIKICAgICAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJlZGl0b3Iuc2V0RW5kcG9pbnQoJ2hvc3QnLCBTdHJpbmcoJGV2ZW50KSkiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICAgIDxMYWJlbCBmb3I9InRlcm1pbmFsLXRhcmdldC1wb3J0Ij4KICAgICAgICAgICAgICB7eyB0KCJjb21tb24ucG9ydCIpIH19CiAgICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgIGlkPSJ0ZXJtaW5hbC10YXJnZXQtcG9ydCIKICAgICAgICAgICAgICA6bW9kZWwtdmFsdWU9ImVkaXRvci5kcmFmdC5wb3J0IgogICAgICAgICAgICAgIHR5cGU9Im51bWJlciIKICAgICAgICAgICAgICBtaW49IjEiCiAgICAgICAgICAgICAgbWF4PSI2NTUzNSIKICAgICAgICAgICAgICBpbnB1dG1vZGU9Im51bWVyaWMiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJlZGl0b3Iuc2F2aW5nLnZhbHVlIgogICAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9ImVkaXRvci5zZXRFbmRwb2ludCgncG9ydCcsIE51bWJlcigkZXZlbnQpKSIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgICAgPExhYmVsIGZvcj0idGVybWluYWwtdGFyZ2V0LXVzZXJuYW1lIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi53b2wuc3NoLnVzZXJuYW1lIikgfX0KICAgICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgaWQ9InRlcm1pbmFsLXRhcmdldC11c2VybmFtZSIKICAgICAgICAgICAgICB2LW1vZGVsPSJlZGl0b3IuZHJhZnQudXNlcm5hbWUiCiAgICAgICAgICAgICAgYXV0b2NvbXBsZXRlPSJ1c2VybmFtZSIKICAgICAgICAgICAgICBzcGVsbGNoZWNrPSJmYWxzZSIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImVkaXRvci5zYXZpbmcudmFsdWUiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICAgIDxMYWJlbCBmb3I9InRlcm1pbmFsLXRhcmdldC1hdXRoIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi53b2wuc3NoLmF1dGhNZXRob2QiKSB9fQogICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICA8U2VsZWN0CiAgICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJlZGl0b3IuZHJhZnQuYXV0aE1ldGhvZCIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImVkaXRvci5zYXZpbmcudmFsdWUiCiAgICAgICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0idXBkYXRlQXV0aE1ldGhvZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyIGlkPSJ0ZXJtaW5hbC10YXJnZXQtYXV0aCI+CiAgICAgICAgICAgICAgICA8U2VsZWN0VmFsdWUgLz4KICAgICAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0icGFzc3dvcmQiPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi53b2wuc3NoLnBhc3N3b3JkQXV0aCIpIH19CiAgICAgICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0icHJpdmF0ZUtleSI+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLndvbC5zc2gucHJpdmF0ZUtleUF1dGgiKSB9fQogICAgICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgICAgICAgPC9TZWxlY3Q+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTMgcm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJvcmRlci83MCBwLTQiPgogICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICA8S2V5Um91bmQgY2xhc3M9ImgtNCB3LTQgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogICAgICAgICAgICA8aDMgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLndlYlRlcm1pbmFsLmF1dGhlbnRpY2F0aW9uIiwgIkF1dGhlbnRpY2F0aW9uIikgfX0KICAgICAgICAgICAgPC9oMz4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXYgdi1pZj0iZWRpdG9yLmRyYWZ0LmF1dGhNZXRob2QgPT09ICdwYXNzd29yZCciIGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgICA8TGFiZWwgZm9yPSJ0ZXJtaW5hbC10YXJnZXQtc2VjcmV0Ij4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi53b2wuc3NoLnBhc3N3b3JkIikgfX0KICAgICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgaWQ9InRlcm1pbmFsLXRhcmdldC1zZWNyZXQiCiAgICAgICAgICAgICAgdi1tb2RlbD0iZWRpdG9yLmRyYWZ0LnNlY3JldCIKICAgICAgICAgICAgICB0eXBlPSJwYXNzd29yZCIKICAgICAgICAgICAgICBhdXRvY29tcGxldGU9Im5ldy1wYXNzd29yZCIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImVkaXRvci5zYXZpbmcudmFsdWUgfHwgZWRpdG9yLmRyYWZ0LmNsZWFyQ3JlZGVudGlhbCIKICAgICAgICAgICAgICA6cGxhY2Vob2xkZXI9IgogICAgICAgICAgICAgICAgZWRpdG9yLmNyZWRlbnRpYWxDb25maWd1cmVkLnZhbHVlCiAgICAgICAgICAgICAgICAgID8gdCgnYWRtaW4ud29sLnNzaC5jcmVkZW50aWFsQ29uZmlndXJlZCcpCiAgICAgICAgICAgICAgICAgIDogJycKICAgICAgICAgICAgICAiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDx0ZW1wbGF0ZSB2LWVsc2U+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICAgICAgPExhYmVsIGZvcj0idGVybWluYWwtdGFyZ2V0LXNlY3JldCI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi53b2wuc3NoLnByaXZhdGVLZXkiKSB9fQogICAgICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICAgICAgPFRleHRhcmVhCiAgICAgICAgICAgICAgICBpZD0idGVybWluYWwtdGFyZ2V0LXNlY3JldCIKICAgICAgICAgICAgICAgIHYtbW9kZWw9ImVkaXRvci5kcmFmdC5zZWNyZXQiCiAgICAgICAgICAgICAgICBjbGFzcz0iZmllbGQtc2l6aW5nLWZpeGVkIG1pbi1oLTI4IG1pbi13LTAgbWF4LXctZnVsbCByZXNpemUteSBvdmVyZmxvdy14LWF1dG8gd2hpdGVzcGFjZS1wcmUtd3JhcCBbb3ZlcmZsb3ctd3JhcDphbnl3aGVyZV0gZm9udC1tb25vIHRleHQteHMiCiAgICAgICAgICAgICAgICBhdXRvY29tcGxldGU9Im9mZiIKICAgICAgICAgICAgICAgIHNwZWxsY2hlY2s9ImZhbHNlIgogICAgICAgICAgICAgICAgOmRpc2FibGVkPSJlZGl0b3Iuc2F2aW5nLnZhbHVlIHx8IGVkaXRvci5kcmFmdC5jbGVhckNyZWRlbnRpYWwiCiAgICAgICAgICAgICAgICA6cGxhY2Vob2xkZXI9IgogICAgICAgICAgICAgICAgICBlZGl0b3IuY3JlZGVudGlhbENvbmZpZ3VyZWQudmFsdWUKICAgICAgICAgICAgICAgICAgICA/IHQoJ2FkbWluLndvbC5zc2guY3JlZGVudGlhbENvbmZpZ3VyZWQnKQogICAgICAgICAgICAgICAgICAgIDogJy0tLS0tQkVHSU4gT1BFTlNTSCBQUklWQVRFIEtFWS0tLS0tJwogICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgICAgIDxMYWJlbCBmb3I9InRlcm1pbmFsLXRhcmdldC1wYXNzcGhyYXNlIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLndvbC5zc2gucHJpdmF0ZUtleVBhc3NwaHJhc2UiKSB9fQogICAgICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgICBpZD0idGVybWluYWwtdGFyZ2V0LXBhc3NwaHJhc2UiCiAgICAgICAgICAgICAgICB2LW1vZGVsPSJlZGl0b3IuZHJhZnQucGFzc3BocmFzZSIKICAgICAgICAgICAgICAgIHR5cGU9InBhc3N3b3JkIgogICAgICAgICAgICAgICAgYXV0b2NvbXBsZXRlPSJuZXctcGFzc3dvcmQiCiAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9IgogICAgICAgICAgICAgICAgICBlZGl0b3Iuc2F2aW5nLnZhbHVlIHx8CiAgICAgICAgICAgICAgICAgIGVkaXRvci5kcmFmdC5jbGVhckNyZWRlbnRpYWwgfHwKICAgICAgICAgICAgICAgICAgZWRpdG9yLmRyYWZ0LmNsZWFyUGFzc3BocmFzZQogICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgOnBsYWNlaG9sZGVyPSIKICAgICAgICAgICAgICAgICAgZWRpdG9yLnBhc3NwaHJhc2VDb25maWd1cmVkLnZhbHVlCiAgICAgICAgICAgICAgICAgICAgPyB0KCdhZG1pbi53b2wuc3NoLnBhc3NwaHJhc2VDb25maWd1cmVkJykKICAgICAgICAgICAgICAgICAgICA6IHQoJ2FkbWluLndvbC5zc2gub3B0aW9uYWwnKQogICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPGxhYmVsCiAgICAgICAgICAgICAgICB2LWlmPSJlZGl0b3IucGFzc3BocmFzZUNvbmZpZ3VyZWQudmFsdWUiCiAgICAgICAgICAgICAgICBjbGFzcz0ibXQtMiBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8Q2hlY2tib3gKICAgICAgICAgICAgICAgICAgdi1tb2RlbD0iZWRpdG9yLmRyYWZ0LmNsZWFyUGFzc3BocmFzZSIKICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgICAgICAgICBlZGl0b3Iuc2F2aW5nLnZhbHVlIHx8IGVkaXRvci5kcmFmdC5jbGVhckNyZWRlbnRpYWwKICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgIHQoCiAgICAgICAgICAgICAgICAgICAgImFkbWluLndlYlRlcm1pbmFsLmNsZWFyUGFzc3BocmFzZSIsCiAgICAgICAgICAgICAgICAgICAgIkNsZWFyIHByaXZhdGUta2V5IHBhc3NwaHJhc2UiLAogICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC90ZW1wbGF0ZT4KCiAgICAgICAgICA8bGFiZWwKICAgICAgICAgICAgdi1pZj0iZWRpdG9yLmVkaXRpbmdUYXJnZXQudmFsdWUiCiAgICAgICAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAgPENoZWNrYm94CiAgICAgICAgICAgICAgdi1tb2RlbD0iZWRpdG9yLmRyYWZ0LmNsZWFyQ3JlZGVudGlhbCIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImVkaXRvci5zYXZpbmcudmFsdWUiCiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIHt7IHQoImFkbWluLndvbC5zc2guY2xlYXJDcmVkZW50aWFsIikgfX0KICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9ImVkaXRvci5wZW5kaW5nSG9zdEtleS52YWx1ZSB8fCBlZGl0b3IuZHJhZnQudHJ1c3RlZEhvc3RLZXkiCiAgICAgICAgICBjbGFzcz0ibWluLXctMCBzcGFjZS15LTMgcm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJvcmRlci83MCBwLTQiCiAgICAgICAgPgogICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgPFNoaWVsZENoZWNrIGNsYXNzPSJoLTQgdy00IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICAgICAgICAgICAgICA8aDMgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ud2ViVGVybWluYWwuaG9zdElkZW50aXR5IiwgIkhvc3QgaWRlbnRpdHkiKSB9fQogICAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPEFsZXJ0IHYtaWY9ImVkaXRvci5wZW5kaW5nSG9zdEtleS52YWx1ZSI+CiAgICAgICAgICAgIDxUcmlhbmdsZUFsZXJ0IGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICA8QWxlcnRUaXRsZT4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgdCgKICAgICAgICAgICAgICAgICAgImFkbWluLndlYlRlcm1pbmFsLmNvbmZpcm1Ib3N0S2V5IiwKICAgICAgICAgICAgICAgICAgIkNvbmZpcm0gaG9zdCBmaW5nZXJwcmludCIsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9BbGVydFRpdGxlPgogICAgICAgICAgICA8QWxlcnREZXNjcmlwdGlvbiBjbGFzcz0ic3BhY2UteS0zIj4KICAgICAgICAgICAgICA8cCBjbGFzcz0iYnJlYWstYWxsIGZvbnQtbW9ubyB0ZXh0LXhzIj4KICAgICAgICAgICAgICAgIHt7IGVkaXRvci5wZW5kaW5nSG9zdEtleS52YWx1ZS5hbGdvcml0aG0gfX0gwrcKICAgICAgICAgICAgICAgIHt7IGVkaXRvci5wZW5kaW5nSG9zdEtleS52YWx1ZS5maW5nZXJwcmludCB9fQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iZWRpdG9yLnRlc3RpbmcudmFsdWUiCiAgICAgICAgICAgICAgICBAY2xpY2s9ImVkaXRvci5jb25maXJtSG9zdEtleSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8TG9hZGVyQ2lyY2xlCiAgICAgICAgICAgICAgICAgIHYtaWY9ImVkaXRvci50ZXN0aW5nLnZhbHVlIgogICAgICAgICAgICAgICAgICBjbGFzcz0ibXItMS41IGgtMy41IHctMy41IGFuaW1hdGUtc3BpbiIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICB0KAogICAgICAgICAgICAgICAgICAgICJhZG1pbi53ZWJUZXJtaW5hbC50cnVzdEFuZFRlc3RIb3N0S2V5IiwKICAgICAgICAgICAgICAgICAgICAiQ29uZmlybSBhbmQgdGVzdCBTU0giLAogICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8L0FsZXJ0RGVzY3JpcHRpb24+CiAgICAgICAgICA8L0FsZXJ0PgoKICAgICAgICAgIDxkaXYKICAgICAgICAgICAgdi1lbHNlLWlmPSJlZGl0b3IuZHJhZnQudHJ1c3RlZEhvc3RLZXkiCiAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItZW1lcmFsZC01MDAvMjUgYmctZW1lcmFsZC01MDAvNSBwLTMgdGV4dC14cyIKICAgICAgICAgID4KICAgICAgICAgICAgPHAKICAgICAgICAgICAgICBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBmb250LW1lZGl1bSB0ZXh0LWVtZXJhbGQtNzAwIGRhcms6dGV4dC1lbWVyYWxkLTMwMCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxDaGVja0NpcmNsZTIgY2xhc3M9ImgtMy41IHctMy41IiAvPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLndlYlRlcm1pbmFsLmhvc3RLZXlUcnVzdGVkIiwgIkZpbmdlcnByaW50IHRydXN0ZWQiKSB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxwIGNsYXNzPSJtdC0xIGJyZWFrLWFsbCBmb250LW1vbm8gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyBlZGl0b3IuZHJhZnQudHJ1c3RlZEhvc3RLZXkuYWxnb3JpdGhtIH19IMK3CiAgICAgICAgICAgICAge3sgZWRpdG9yLmRyYWZ0LnRydXN0ZWRIb3N0S2V5LmZpbmdlcnByaW50IH19CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8QWxlcnQgdi1pZj0iZWRpdG9yLmVycm9yLnZhbHVlIiB2YXJpYW50PSJkZXN0cnVjdGl2ZSI+CiAgICAgICAgICA8VHJpYW5nbGVBbGVydCBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgIDxBbGVydFRpdGxlPnt7CiAgICAgICAgICAgIHQoImFkbWluLndlYlRlcm1pbmFsLmNvbm5lY3Rpb25FcnJvclRpdGxlIikKICAgICAgICAgIH19PC9BbGVydFRpdGxlPgogICAgICAgICAgPEFsZXJ0RGVzY3JpcHRpb24+e3sgZWRpdG9yLmVycm9yLnZhbHVlIH19PC9BbGVydERlc2NyaXB0aW9uPgogICAgICAgIDwvQWxlcnQ+CgogICAgICAgIDxBbGVydCB2LWlmPSJzaG93c0FjdGl2ZVNlc3Npb25XYXJuaW5nIj4KICAgICAgICAgIDxUcmlhbmdsZUFsZXJ0IGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgPEFsZXJ0VGl0bGU+CiAgICAgICAgICAgIHt7IHQoImFkbWluLndlYlRlcm1pbmFsLmFjdGl2ZVNlc3Npb25zQWZmZWN0ZWQiKSB9fQogICAgICAgICAgPC9BbGVydFRpdGxlPgogICAgICAgICAgPEFsZXJ0RGVzY3JpcHRpb24+CiAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgdCgiYWRtaW4ud2ViVGVybWluYWwudGVybWluYXRlU2Vzc2lvbnNPblNhdmUiLCB7CiAgICAgICAgICAgICAgICBjb3VudDogZGlzcGxheWVkQWN0aXZlU2Vzc2lvbkNvdW50LAogICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L0FsZXJ0RGVzY3JpcHRpb24+CiAgICAgICAgPC9BbGVydD4KCiAgICAgICAgPGxhYmVsCiAgICAgICAgICB2LWlmPSJyZXF1aXJlc1Rlcm1pbmF0aW9uQ29uZmlybWF0aW9uIgogICAgICAgICAgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTIgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWFtYmVyLTUwMC8yNSBiZy1hbWJlci01MDAvNSBwLTMgdGV4dC14cyIKICAgICAgICA+CiAgICAgICAgICA8Q2hlY2tib3ggdi1tb2RlbD0idGVybWluYXRlQWN0aXZlU2Vzc2lvbnMiIGNsYXNzPSJtdC0wLjUiIC8+CiAgICAgICAgICA8c3Bhbj4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICBkaXNwbGF5ZWRBY3RpdmVTZXNzaW9uQ291bnQgPiAwCiAgICAgICAgICAgICAgICA/IHQoImFkbWluLndlYlRlcm1pbmFsLnRlcm1pbmF0ZVNlc3Npb25zT25TYXZlIiwgewogICAgICAgICAgICAgICAgICAgIGNvdW50OiBkaXNwbGF5ZWRBY3RpdmVTZXNzaW9uQ291bnQsCiAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICA6IHQoImFkbWluLndlYlRlcm1pbmFsLnRlcm1pbmF0ZVNlc3Npb25zT25TYXZlVW5rbm93biIpCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9sYWJlbD4KCiAgICAgICAgPERpYWxvZ0Zvb3RlciBjbGFzcz0iZ2FwLTIgc206anVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZ2FwLTIiPgogICAgICAgICAgICA8Q29uZmlybURhbmdlclBvcG92ZXIKICAgICAgICAgICAgICB2LWlmPSJlZGl0b3IuZWRpdGluZ1RhcmdldC52YWx1ZSIKICAgICAgICAgICAgICA6dGl0bGU9IgogICAgICAgICAgICAgICAgdCgnYWRtaW4ud2ViVGVybWluYWwuZGVsZXRlVGFyZ2V0VGl0bGUnLCAnRGVsZXRlIFNTSCB0YXJnZXQ/JykKICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgOmRlc2NyaXB0aW9uPSIKICAgICAgICAgICAgICAgIGFjdGl2ZVNlc3Npb25Db3VudAogICAgICAgICAgICAgICAgICA/IHQoJ2FkbWluLndlYlRlcm1pbmFsLmRlbGV0ZVRhcmdldEFjdGl2ZURlc2NyaXB0aW9uJywgewogICAgICAgICAgICAgICAgICAgICAgY291bnQ6IGFjdGl2ZVNlc3Npb25Db3VudCwKICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICA6IHQoCiAgICAgICAgICAgICAgICAgICAgICAnYWRtaW4ud2ViVGVybWluYWwuZGVsZXRlVGFyZ2V0RGVzY3JpcHRpb24nLAogICAgICAgICAgICAgICAgICAgICAgJ1RoZSBzYXZlZCB0YXJnZXQgYW5kIGl0cyBlbmNyeXB0ZWQgY3JlZGVudGlhbCB3aWxsIGJlIHJlbW92ZWQuJywKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgIgogICAgICAgICAgICAgIDpjb25maXJtLXRleHQ9InQoJ2NvbW1vbi5kZWxldGUnKSIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImVkaXRvci5zYXZpbmcudmFsdWUgfHwgZWRpdG9yLnRlc3RpbmcudmFsdWUiCiAgICAgICAgICAgICAgOm9uLWNvbmZpcm09ImRlbGV0ZUVkaXRpbmdUYXJnZXQiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8dGVtcGxhdGUgI3RyaWdnZXI+CiAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgdmFyaWFudD0iZGVzdHJ1Y3RpdmUtb3V0bGluZSIKICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJlZGl0b3Iuc2F2aW5nLnZhbHVlIHx8IGVkaXRvci50ZXN0aW5nLnZhbHVlIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8VHJhc2gyIGNsYXNzPSJtci0xLjUgaC00IHctNCIgLz4KICAgICAgICAgICAgICAgICAge3sgdCgiY29tbW9uLmRlbGV0ZSIpIH19CiAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgICA8L0NvbmZpcm1EYW5nZXJQb3BvdmVyPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgICAgIGVkaXRvci5kcmFmdC5jbGVhckNyZWRlbnRpYWwgfHwKICAgICAgICAgICAgICAgICFlZGl0b3IudGVzdGFibGUudmFsdWUgfHwKICAgICAgICAgICAgICAgIGVkaXRvci50ZXN0aW5nLnZhbHVlIHx8CiAgICAgICAgICAgICAgICBlZGl0b3Iuc2F2aW5nLnZhbHVlCiAgICAgICAgICAgICAgIgogICAgICAgICAgICAgIEBjbGljaz0iZWRpdG9yLnRlc3RDb25uZWN0aW9uIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPExvYWRlckNpcmNsZQogICAgICAgICAgICAgICAgdi1pZj0iZWRpdG9yLnRlc3RpbmcudmFsdWUiCiAgICAgICAgICAgICAgICBjbGFzcz0ibXItMS41IGgtNCB3LTQgYW5pbWF0ZS1zcGluIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPFBsdWdaYXAgdi1lbHNlIGNsYXNzPSJtci0xLjUgaC00IHctNCIgLz4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgZWRpdG9yLnRlc3RlZC52YWx1ZQogICAgICAgICAgICAgICAgICA/IHQoCiAgICAgICAgICAgICAgICAgICAgICAiYWRtaW4ud2ViVGVybWluYWwuY29ubmVjdGlvblRlc3RlZCIsCiAgICAgICAgICAgICAgICAgICAgICAiQ29ubmVjdGlvbiB0ZXN0ZWQiLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi53b2wuc3NoLnRlc3RDb25uZWN0aW9uIikKICAgICAgICAgICAgICB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBnYXAtMiI+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImVkaXRvci5zYXZpbmcudmFsdWUiCiAgICAgICAgICAgICAgQGNsaWNrPSJlZGl0b3IuY2xvc2UiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KCJjb21tb24uY2FuY2VsIikgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB0eXBlPSJzdWJtaXQiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgICAgICFlZGl0b3IuY2FuU2F2ZS52YWx1ZSB8fAogICAgICAgICAgICAgICAgKHJlcXVpcmVzVGVybWluYXRpb25Db25maXJtYXRpb24gJiYgIXRlcm1pbmF0ZUFjdGl2ZVNlc3Npb25zKSB8fAogICAgICAgICAgICAgICAgZWRpdG9yLnRlc3RpbmcudmFsdWUgfHwKICAgICAgICAgICAgICAgIGVkaXRvci5zYXZpbmcudmFsdWUKICAgICAgICAgICAgICAiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8TG9hZGVyQ2lyY2xlCiAgICAgICAgICAgICAgICB2LWlmPSJlZGl0b3Iuc2F2aW5nLnZhbHVlIgogICAgICAgICAgICAgICAgY2xhc3M9Im1yLTEuNSBoLTQgdy00IGFuaW1hdGUtc3BpbiIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIHt7IHQoImNvbW1vbi5zYXZlIikgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgICAgPC9mb3JtPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Textarea } from "@/components/ui/textarea";
+import {
+  CheckCircle2,
+  KeyRound,
+  LoaderCircle,
+  PlugZap,
+  ShieldCheck,
+  Trash2,
+  TriangleAlert,
+} from "lucide-vue-next";
+import type {
+  TerminalAuthMethod,
+  TerminalTargetRecord,
+} from "@/lib/api/terminal";
+import type { useTerminalTargetEditor } from "./useTerminalTargetEditor";
+
+const props = defineProps<{
+  activeSessionCount: number;
+  editor: ReturnType<typeof useTerminalTargetEditor>;
+  onDelete: (target: TerminalTargetRecord) => void | Promise<void>;
+}>();
+
+const { t } = useI18n();
+const terminateActiveSessions = ref(false);
+const requiresTerminationConfirmation = computed(
+  () =>
+    props.editor.forceConfirmationRequired.value &&
+    props.editor.requiresSessionTermination.value,
+);
+const displayedActiveSessionCount = computed(
+  () =>
+    props.editor.conflictingActiveSessionCount.value ??
+    props.activeSessionCount,
+);
+const showsActiveSessionWarning = computed(
+  () =>
+    displayedActiveSessionCount.value > 0 &&
+    props.editor.requiresSessionTermination.value &&
+    !requiresTerminationConfirmation.value,
+);
+
+watch(
+  () => props.editor.open.value,
+  (open) => {
+    if (open) terminateActiveSessions.value = false;
+  },
+);
+
+const updateAuthMethod = (value: unknown) => {
+  if (value === "password" || value === "privateKey") {
+    props.editor.setAuthMethod(value satisfies TerminalAuthMethod);
+  }
+};
+
+const deleteEditingTarget = async () => {
+  const target = props.editor.editingTarget.value;
+  if (!target) return;
+  props.editor.close();
+  await props.onDelete(target);
+};
+</script>
+
+<template>
+  <Dialog
+    :open="editor.open.value"
+    @update:open="$event ? undefined : editor.close()"
+  >
+    <DialogContent
+      class="max-h-[calc(100dvh-2rem)] min-w-0 overflow-x-hidden overflow-y-auto sm:max-w-[620px]"
+    >
+      <DialogHeader>
+        <DialogTitle>
+          {{
+            editor.editingTarget.value
+              ? t("admin.webTerminal.editTarget", "Edit SSH target")
+              : t("admin.webTerminal.addTarget", "Add SSH target")
+          }}
+        </DialogTitle>
+        <DialogDescription>
+          {{
+            t(
+              "admin.webTerminal.targetEditorDescription",
+              "Credentials are encrypted locally. The server key must be explicitly trusted before authentication.",
+            )
+          }}
+        </DialogDescription>
+      </DialogHeader>
+
+      <form
+        class="min-w-0 space-y-5"
+        @submit.prevent="
+          editor.save(
+            requiresTerminationConfirmation && terminateActiveSessions,
+          )
+        "
+      >
+        <div class="grid min-w-0 gap-4 sm:grid-cols-2">
+          <div class="space-y-2 sm:col-span-2">
+            <Label for="terminal-target-name">
+              {{ t("common.name") }}
+            </Label>
+            <Input
+              id="terminal-target-name"
+              v-model="editor.draft.name"
+              autocomplete="off"
+              :placeholder="
+                t('admin.webTerminal.targetNamePlaceholder', 'my nas')
+              "
+              :disabled="editor.saving.value"
+            />
+          </div>
+
+          <div class="space-y-2">
+            <Label for="terminal-target-host">
+              {{ t("admin.webTerminal.host", "Host") }}
+            </Label>
+            <Input
+              id="terminal-target-host"
+              :model-value="editor.draft.host"
+              autocomplete="off"
+              spellcheck="false"
+              placeholder="server.example.com"
+              :disabled="editor.saving.value"
+              @update:model-value="editor.setEndpoint('host', String($event))"
+            />
+          </div>
+          <div class="space-y-2">
+            <Label for="terminal-target-port">
+              {{ t("common.port") }}
+            </Label>
+            <Input
+              id="terminal-target-port"
+              :model-value="editor.draft.port"
+              type="number"
+              min="1"
+              max="65535"
+              inputmode="numeric"
+              :disabled="editor.saving.value"
+              @update:model-value="editor.setEndpoint('port', Number($event))"
+            />
+          </div>
+          <div class="space-y-2">
+            <Label for="terminal-target-username">
+              {{ t("admin.wol.ssh.username") }}
+            </Label>
+            <Input
+              id="terminal-target-username"
+              v-model="editor.draft.username"
+              autocomplete="username"
+              spellcheck="false"
+              :disabled="editor.saving.value"
+            />
+          </div>
+          <div class="space-y-2">
+            <Label for="terminal-target-auth">
+              {{ t("admin.wol.ssh.authMethod") }}
+            </Label>
+            <Select
+              :model-value="editor.draft.authMethod"
+              :disabled="editor.saving.value"
+              @update:model-value="updateAuthMethod"
+            >
+              <SelectTrigger id="terminal-target-auth">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="password">
+                  {{ t("admin.wol.ssh.passwordAuth") }}
+                </SelectItem>
+                <SelectItem value="privateKey">
+                  {{ t("admin.wol.ssh.privateKeyAuth") }}
+                </SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+        </div>
+
+        <div class="min-w-0 space-y-3 rounded-xl border border-border/70 p-4">
+          <div class="flex items-center gap-2">
+            <KeyRound class="h-4 w-4 text-muted-foreground" />
+            <h3 class="text-sm font-medium">
+              {{ t("admin.webTerminal.authentication", "Authentication") }}
+            </h3>
+          </div>
+
+          <div v-if="editor.draft.authMethod === 'password'" class="space-y-2">
+            <Label for="terminal-target-secret">
+              {{ t("admin.wol.ssh.password") }}
+            </Label>
+            <Input
+              id="terminal-target-secret"
+              v-model="editor.draft.secret"
+              type="password"
+              autocomplete="new-password"
+              :disabled="editor.saving.value || editor.draft.clearCredential"
+              :placeholder="
+                editor.credentialConfigured.value
+                  ? t('admin.wol.ssh.credentialConfigured')
+                  : ''
+              "
+            />
+          </div>
+          <template v-else>
+            <div class="space-y-2">
+              <Label for="terminal-target-secret">
+                {{ t("admin.wol.ssh.privateKey") }}
+              </Label>
+              <Textarea
+                id="terminal-target-secret"
+                v-model="editor.draft.secret"
+                class="field-sizing-fixed min-h-28 min-w-0 max-w-full resize-y overflow-x-auto whitespace-pre-wrap [overflow-wrap:anywhere] font-mono text-xs"
+                autocomplete="off"
+                spellcheck="false"
+                :disabled="editor.saving.value || editor.draft.clearCredential"
+                :placeholder="
+                  editor.credentialConfigured.value
+                    ? t('admin.wol.ssh.credentialConfigured')
+                    : '-----BEGIN OPENSSH PRIVATE KEY-----'
+                "
+              />
+            </div>
+            <div class="space-y-2">
+              <Label for="terminal-target-passphrase">
+                {{ t("admin.wol.ssh.privateKeyPassphrase") }}
+              </Label>
+              <Input
+                id="terminal-target-passphrase"
+                v-model="editor.draft.passphrase"
+                type="password"
+                autocomplete="new-password"
+                :disabled="
+                  editor.saving.value ||
+                  editor.draft.clearCredential ||
+                  editor.draft.clearPassphrase
+                "
+                :placeholder="
+                  editor.passphraseConfigured.value
+                    ? t('admin.wol.ssh.passphraseConfigured')
+                    : t('admin.wol.ssh.optional')
+                "
+              />
+              <label
+                v-if="editor.passphraseConfigured.value"
+                class="mt-2 flex items-center gap-2 text-xs text-muted-foreground"
+              >
+                <Checkbox
+                  v-model="editor.draft.clearPassphrase"
+                  :disabled="
+                    editor.saving.value || editor.draft.clearCredential
+                  "
+                />
+                {{
+                  t(
+                    "admin.webTerminal.clearPassphrase",
+                    "Clear private-key passphrase",
+                  )
+                }}
+              </label>
+            </div>
+          </template>
+
+          <label
+            v-if="editor.editingTarget.value"
+            class="flex items-center gap-2 text-xs text-muted-foreground"
+          >
+            <Checkbox
+              v-model="editor.draft.clearCredential"
+              :disabled="editor.saving.value"
+            />
+            {{ t("admin.wol.ssh.clearCredential") }}
+          </label>
+        </div>
+
+        <div
+          v-if="editor.pendingHostKey.value || editor.draft.trustedHostKey"
+          class="min-w-0 space-y-3 rounded-xl border border-border/70 p-4"
+        >
+          <div class="flex items-center gap-2">
+            <div class="flex items-center gap-2">
+              <ShieldCheck class="h-4 w-4 text-muted-foreground" />
+              <h3 class="text-sm font-medium">
+                {{ t("admin.webTerminal.hostIdentity", "Host identity") }}
+              </h3>
+            </div>
+          </div>
+
+          <Alert v-if="editor.pendingHostKey.value">
+            <TriangleAlert class="h-4 w-4" />
+            <AlertTitle>
+              {{
+                t(
+                  "admin.webTerminal.confirmHostKey",
+                  "Confirm host fingerprint",
+                )
+              }}
+            </AlertTitle>
+            <AlertDescription class="space-y-3">
+              <p class="break-all font-mono text-xs">
+                {{ editor.pendingHostKey.value.algorithm }} ·
+                {{ editor.pendingHostKey.value.fingerprint }}
+              </p>
+              <Button
+                type="button"
+                size="sm"
+                :disabled="editor.testing.value"
+                @click="editor.confirmHostKey"
+              >
+                <LoaderCircle
+                  v-if="editor.testing.value"
+                  class="mr-1.5 h-3.5 w-3.5 animate-spin"
+                />
+                {{
+                  t(
+                    "admin.webTerminal.trustAndTestHostKey",
+                    "Confirm and test SSH",
+                  )
+                }}
+              </Button>
+            </AlertDescription>
+          </Alert>
+
+          <div
+            v-else-if="editor.draft.trustedHostKey"
+            class="rounded-lg border border-emerald-500/25 bg-emerald-500/5 p-3 text-xs"
+          >
+            <p
+              class="flex items-center gap-1.5 font-medium text-emerald-700 dark:text-emerald-300"
+            >
+              <CheckCircle2 class="h-3.5 w-3.5" />
+              {{ t("admin.webTerminal.hostKeyTrusted", "Fingerprint trusted") }}
+            </p>
+            <p class="mt-1 break-all font-mono text-muted-foreground">
+              {{ editor.draft.trustedHostKey.algorithm }} ·
+              {{ editor.draft.trustedHostKey.fingerprint }}
+            </p>
+          </div>
+        </div>
+
+        <Alert v-if="editor.error.value" variant="destructive">
+          <TriangleAlert class="h-4 w-4" />
+          <AlertTitle>{{
+            t("admin.webTerminal.connectionErrorTitle")
+          }}</AlertTitle>
+          <AlertDescription>{{ editor.error.value }}</AlertDescription>
+        </Alert>
+
+        <Alert v-if="showsActiveSessionWarning">
+          <TriangleAlert class="h-4 w-4" />
+          <AlertTitle>
+            {{ t("admin.webTerminal.activeSessionsAffected") }}
+          </AlertTitle>
+          <AlertDescription>
+            {{
+              t("admin.webTerminal.terminateSessionsOnSave", {
+                count: displayedActiveSessionCount,
+              })
+            }}
+          </AlertDescription>
+        </Alert>
+
+        <label
+          v-if="requiresTerminationConfirmation"
+          class="flex items-start gap-2 rounded-lg border border-amber-500/25 bg-amber-500/5 p-3 text-xs"
+        >
+          <Checkbox v-model="terminateActiveSessions" class="mt-0.5" />
+          <span>
+            {{
+              displayedActiveSessionCount > 0
+                ? t("admin.webTerminal.terminateSessionsOnSave", {
+                    count: displayedActiveSessionCount,
+                  })
+                : t("admin.webTerminal.terminateSessionsOnSaveUnknown")
+            }}
+          </span>
+        </label>
+
+        <DialogFooter class="gap-2 sm:justify-between">
+          <div class="flex gap-2">
+            <ConfirmDangerPopover
+              v-if="editor.editingTarget.value"
+              :title="
+                t('admin.webTerminal.deleteTargetTitle', 'Delete SSH target?')
+              "
+              :description="
+                activeSessionCount
+                  ? t('admin.webTerminal.deleteTargetActiveDescription', {
+                      count: activeSessionCount,
+                    })
+                  : t(
+                      'admin.webTerminal.deleteTargetDescription',
+                      'The saved target and its encrypted credential will be removed.',
+                    )
+              "
+              :confirm-text="t('common.delete')"
+              :disabled="editor.saving.value || editor.testing.value"
+              :on-confirm="deleteEditingTarget"
+            >
+              <template #trigger>
+                <Button
+                  type="button"
+                  variant="destructive-outline"
+                  :disabled="editor.saving.value || editor.testing.value"
+                >
+                  <Trash2 class="mr-1.5 h-4 w-4" />
+                  {{ t("common.delete") }}
+                </Button>
+              </template>
+            </ConfirmDangerPopover>
+            <Button
+              type="button"
+              variant="outline"
+              :disabled="
+                editor.draft.clearCredential ||
+                !editor.testable.value ||
+                editor.testing.value ||
+                editor.saving.value
+              "
+              @click="editor.testConnection"
+            >
+              <LoaderCircle
+                v-if="editor.testing.value"
+                class="mr-1.5 h-4 w-4 animate-spin"
+              />
+              <PlugZap v-else class="mr-1.5 h-4 w-4" />
+              {{
+                editor.tested.value
+                  ? t(
+                      "admin.webTerminal.connectionTested",
+                      "Connection tested",
+                    )
+                  : t("admin.wol.ssh.testConnection")
+              }}
+            </Button>
+          </div>
+          <div class="flex gap-2">
+            <Button
+              type="button"
+              variant="outline"
+              :disabled="editor.saving.value"
+              @click="editor.close"
+            >
+              {{ t("common.cancel") }}
+            </Button>
+            <Button
+              type="submit"
+              :disabled="
+                !editor.canSave.value ||
+                (requiresTerminationConfirmation && !terminateActiveSessions) ||
+                editor.testing.value ||
+                editor.saving.value
+              "
+            >
+              <LoaderCircle
+                v-if="editor.saving.value"
+                class="mr-1.5 h-4 w-4 animate-spin"
+              />
+              {{ t("common.save") }}
+            </Button>
+          </div>
+        </DialogFooter>
+      </form>
+    </DialogContent>
+  </Dialog>
+</template>

@@ -1,1 +1,12 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgeyBEQVNIQk9BUkRfVFJBRkZJQ19DT0xPUlMgfSBmcm9tICIuLi9zcmMvdmlld3MvZGFzaGJvYXJkL3VzZURhc2hib2FyZFZpZXdNb2RlbCI7CgpkZXNjcmliZSgiZGFzaGJvYXJkIHByZXNlbnRhdGlvbiIsICgpID0+IHsKICBpdCgidXNlcyBkaXN0aW5jdCBjb29sIGFuZCB3YXJtIGNvbG9ycyBmb3IgaW5ib3VuZCBhbmQgb3V0Ym91bmQgdHJhZmZpYyIsICgpID0+IHsKICAgIGFzc2VydC5kZWVwRXF1YWwoREFTSEJPQVJEX1RSQUZGSUNfQ09MT1JTLCB7CiAgICAgIGluZ3Jlc3M6ICIjMGY3NjZlIiwKICAgICAgZWdyZXNzOiAiI2MyNDEwYyIsCiAgICB9KTsKICB9KTsKfSk7Cg==
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import { DASHBOARD_TRAFFIC_COLORS } from "../src/views/dashboard/useDashboardViewModel";
+
+describe("dashboard presentation", () => {
+  it("uses distinct cool and warm colors for inbound and outbound traffic", () => {
+    assert.deepEqual(DASHBOARD_TRAFFIC_COLORS, {
+      ingress: "#0f766e",
+      egress: "#c2410c",
+    });
+  });
+});

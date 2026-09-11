@@ -1,1 +1,22 @@
-aW1wb3J0IHsgcGFyc2VIb3N0UG9ydCB9IGZyb20gIi4vcGFyc2VIb3N0UG9ydCI7Cgpjb25zdCBUQVJHRVRfU0NIRU1FX1BBVFRFUk4gPSAvXlthLXpdW2EtelxkKy4tXSo6XC9cLy9pOwoKY29uc3QgZXh0cmFjdFRhcmdldEF1dGhvcml0eSA9ICh0YXJnZXQ6IHN0cmluZyk6IHN0cmluZyA9PiB7CiAgY29uc3Qgd2l0aG91dFNjaGVtZSA9IHRhcmdldC5yZXBsYWNlKFRBUkdFVF9TQ0hFTUVfUEFUVEVSTiwgIiIpOwogIGNvbnN0IHdpdGhvdXRQcm90b2NvbFJlbGF0aXZlUHJlZml4ID0gd2l0aG91dFNjaGVtZS5yZXBsYWNlKC9eXC9cLy8sICIiKTsKICBjb25zdCBzdWZmaXhJbmRleCA9IHdpdGhvdXRQcm90b2NvbFJlbGF0aXZlUHJlZml4LnNlYXJjaCgvWy8/I10vKTsKICBjb25zdCBhdXRob3JpdHkgPQogICAgc3VmZml4SW5kZXggPT09IC0xCiAgICAgID8gd2l0aG91dFByb3RvY29sUmVsYXRpdmVQcmVmaXgKICAgICAgOiB3aXRob3V0UHJvdG9jb2xSZWxhdGl2ZVByZWZpeC5zbGljZSgwLCBzdWZmaXhJbmRleCk7CgogIHJldHVybiBhdXRob3JpdHkuc2xpY2UoYXV0aG9yaXR5Lmxhc3RJbmRleE9mKCJAIikgKyAxKTsKfTsKCmV4cG9ydCBjb25zdCBleHRyYWN0UG9ydEZyb21UYXJnZXQgPSAodGFyZ2V0OiBzdHJpbmcpOiBudW1iZXIgfCBudWxsID0+IHsKICBjb25zdCBub3JtYWxpemVkVGFyZ2V0ID0gdGFyZ2V0LnRyaW0oKTsKICBpZiAoIW5vcm1hbGl6ZWRUYXJnZXQpIHJldHVybiBudWxsOwoKICByZXR1cm4gcGFyc2VIb3N0UG9ydChleHRyYWN0VGFyZ2V0QXV0aG9yaXR5KG5vcm1hbGl6ZWRUYXJnZXQpKT8ucG9ydCA/PyBudWxsOwp9Owo=
+import { parseHostPort } from "./parseHostPort";
+
+const TARGET_SCHEME_PATTERN = /^[a-z][a-z\d+.-]*:\/\//i;
+
+const extractTargetAuthority = (target: string): string => {
+  const withoutScheme = target.replace(TARGET_SCHEME_PATTERN, "");
+  const withoutProtocolRelativePrefix = withoutScheme.replace(/^\/\//, "");
+  const suffixIndex = withoutProtocolRelativePrefix.search(/[/?#]/);
+  const authority =
+    suffixIndex === -1
+      ? withoutProtocolRelativePrefix
+      : withoutProtocolRelativePrefix.slice(0, suffixIndex);
+
+  return authority.slice(authority.lastIndexOf("@") + 1);
+};
+
+export const extractPortFromTarget = (target: string): number | null => {
+  const normalizedTarget = target.trim();
+  if (!normalizedTarget) return null;
+
+  return parseHostPort(extractTargetAuthority(normalizedTarget))?.port ?? null;
+};

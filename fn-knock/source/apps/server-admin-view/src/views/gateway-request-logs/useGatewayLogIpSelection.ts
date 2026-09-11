@@ -1,1 +1,50 @@
-aW1wb3J0IHR5cGUgeyBDb21wdXRlZFJlZiwgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHR5cGUgeyBHYXRld2F5TG9nRW50cnkgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsgdXNlTG9nSXBTZWxlY3Rpb24gfSBmcm9tICJAL2NvbXBvc2FibGVzL3VzZUxvZ0lwU2VsZWN0aW9uIjsKCnR5cGUgVHJhbnNsYXRlUGFyYW1zID0gUmVjb3JkPHN0cmluZywgdW5rbm93bj47CgpleHBvcnQgdHlwZSBTZWxlY3RhYmxlR2F0ZXdheUxvZ0VudHJ5ID0gR2F0ZXdheUxvZ0VudHJ5ICYgewogIGFjdGlvbklwOiBzdHJpbmc7CiAgc2VsZWN0aW9uS2V5OiBzdHJpbmc7Cn07CgpleHBvcnQgY29uc3QgdXNlR2F0ZXdheUxvZ0lwU2VsZWN0aW9uID0gKHsKICBkaXNwbGF5ZWRFbnRyaWVzLAogIHNlbGVjdGVkTG9nRW50cnlLZXlzLAogIHRyYW5zbGF0ZSwKfTogewogIGRpc3BsYXllZEVudHJpZXM6IENvbXB1dGVkUmVmPFNlbGVjdGFibGVHYXRld2F5TG9nRW50cnlbXT47CiAgc2VsZWN0ZWRMb2dFbnRyeUtleXM6IFJlZjxTZXQ8c3RyaW5nPj47CiAgdHJhbnNsYXRlOiAoa2V5OiBzdHJpbmcsIHBhcmFtcz86IFRyYW5zbGF0ZVBhcmFtcykgPT4gc3RyaW5nOwp9KSA9PiB7CiAgY29uc3Qgc2VsZWN0aW9uID0gdXNlTG9nSXBTZWxlY3Rpb24oewogICAgZGlzcGxheWVkRW50cmllcywKICAgIG1lc3NhZ2VLZXlzOiB7CiAgICAgIGJsYWNrbGlzdEZhaWxlZDogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5ibGFja2xpc3RGYWlsZWQiLAogICAgICBibGFja2xpc3RTdWNjZXNzOiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmJsYWNrbGlzdFN1Y2Nlc3MiLAogICAgICBibGFja2xpc3RTdWNjZXNzRGV0YWlsOiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmJsYWNrbGlzdFN1Y2Nlc3NEZXRhaWwiLAogICAgICB1bmJsYWNrbGlzdEZhaWxlZDogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy51bmJsYWNrbGlzdEZhaWxlZCIsCiAgICAgIHVuYmxhY2tsaXN0U3VjY2VzczogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy51bmJsYWNrbGlzdFN1Y2Nlc3MiLAogICAgICB1bmJsYWNrbGlzdFN1Y2Nlc3NEZXRhaWw6CiAgICAgICAgImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy51bmJsYWNrbGlzdFN1Y2Nlc3NEZXRhaWwiLAogICAgfSwKICAgIHNlbGVjdGVkRW50cnlLZXlzOiBzZWxlY3RlZExvZ0VudHJ5S2V5cywKICAgIHNvdXJjZTogInJlcXVlc3RfbG9nIiwKICAgIHRyYW5zbGF0ZSwKICB9KTsKCiAgcmV0dXJuIHsKICAgIGJsb2NrSXBzRnJvbUxvZ3M6IHNlbGVjdGlvbi5ibG9ja0lwcywKICAgIGhhc1NlbGVjdGFibGVEaXNwbGF5ZWRSb3dzOiBzZWxlY3Rpb24uaGFzU2VsZWN0YWJsZURpc3BsYXllZFJvd3MsCiAgICBpc0FsbERpc3BsYXllZFJvd3NTZWxlY3RlZDogc2VsZWN0aW9uLmlzQWxsRGlzcGxheWVkUm93c1NlbGVjdGVkLAogICAgaXNCbG9ja2luZ0lwczogc2VsZWN0aW9uLmlzQmxvY2tpbmdJcHMsCiAgICBpc0dlbmVyYWxCbGFja2xpc3RlZDogc2VsZWN0aW9uLmlzR2VuZXJhbEJsYWNrbGlzdGVkLAogICAgaXNNdXRhdGluZ0JsYWNrbGlzdElwczogc2VsZWN0aW9uLmlzTXV0YXRpbmdCbGFja2xpc3RJcHMsCiAgICBpc1JlbGVhc2luZ0lwczogc2VsZWN0aW9uLmlzUmVsZWFzaW5nSXBzLAogICAgcmVsZWFzZUlwc0Zyb21Mb2dzOiBzZWxlY3Rpb24ucmVsZWFzZUlwcywKICAgIHNlbGVjdGVkQmxvY2tlZExvZ0lwczogc2VsZWN0aW9uLnNlbGVjdGVkQmxvY2tlZElwcywKICAgIHNlbGVjdGVkVW5ibG9ja2VkTG9nSXBzOiBzZWxlY3Rpb24uc2VsZWN0ZWRVbmJsb2NrZWRJcHMsCiAgICB0b2dnbGVMb2dFbnRyeVNlbGVjdGlvbjogc2VsZWN0aW9uLnRvZ2dsZUVudHJ5U2VsZWN0aW9uLAogIH07Cn07Cg==
+import type { ComputedRef, Ref } from "vue";
+import type { GatewayLogEntry } from "@/types";
+import { useLogIpSelection } from "@/composables/useLogIpSelection";
+
+type TranslateParams = Record<string, unknown>;
+
+export type SelectableGatewayLogEntry = GatewayLogEntry & {
+  actionIp: string;
+  selectionKey: string;
+};
+
+export const useGatewayLogIpSelection = ({
+  displayedEntries,
+  selectedLogEntryKeys,
+  translate,
+}: {
+  displayedEntries: ComputedRef<SelectableGatewayLogEntry[]>;
+  selectedLogEntryKeys: Ref<Set<string>>;
+  translate: (key: string, params?: TranslateParams) => string;
+}) => {
+  const selection = useLogIpSelection({
+    displayedEntries,
+    messageKeys: {
+      blacklistFailed: "admin.gatewayRequestLogs.blacklistFailed",
+      blacklistSuccess: "admin.gatewayRequestLogs.blacklistSuccess",
+      blacklistSuccessDetail: "admin.gatewayRequestLogs.blacklistSuccessDetail",
+      unblacklistFailed: "admin.gatewayRequestLogs.unblacklistFailed",
+      unblacklistSuccess: "admin.gatewayRequestLogs.unblacklistSuccess",
+      unblacklistSuccessDetail:
+        "admin.gatewayRequestLogs.unblacklistSuccessDetail",
+    },
+    selectedEntryKeys: selectedLogEntryKeys,
+    source: "request_log",
+    translate,
+  });
+
+  return {
+    blockIpsFromLogs: selection.blockIps,
+    hasSelectableDisplayedRows: selection.hasSelectableDisplayedRows,
+    isAllDisplayedRowsSelected: selection.isAllDisplayedRowsSelected,
+    isBlockingIps: selection.isBlockingIps,
+    isGeneralBlacklisted: selection.isGeneralBlacklisted,
+    isMutatingBlacklistIps: selection.isMutatingBlacklistIps,
+    isReleasingIps: selection.isReleasingIps,
+    releaseIpsFromLogs: selection.releaseIps,
+    selectedBlockedLogIps: selection.selectedBlockedIps,
+    selectedUnblockedLogIps: selection.selectedUnblockedIps,
+    toggleLogEntrySelection: selection.toggleEntrySelection,
+  };
+};

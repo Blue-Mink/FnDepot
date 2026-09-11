@@ -1,1 +1,130 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IENvcHksIExpbmsyLCBMb2FkZXJDaXJjbGUgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7CiAgU2VsZWN0LAogIFNlbGVjdENvbnRlbnQsCiAgU2VsZWN0SXRlbSwKICBTZWxlY3RUcmlnZ2VyLAogIFNlbGVjdFZhbHVlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9zZWxlY3QiOwppbXBvcnQgdHlwZSB7IEV4dGVybmFsUHJvdmlkZXJPcHRpb24gfSBmcm9tICIuL3VzZU9pZGNCaW5kaW5nV29ya2Zsb3ciOwoKZGVmaW5lUHJvcHM8ewogIGV4cGlyZXNBdDogc3RyaW5nOwogIGludml0ZVVybDogc3RyaW5nOwogIGlzQ3JlYXRpbmc6IGJvb2xlYW47CiAgb3BlbjogYm9vbGVhbjsKICBwcm92aWRlcklkOiBzdHJpbmc7CiAgcHJvdmlkZXJzOiBFeHRlcm5hbFByb3ZpZGVyT3B0aW9uW107Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIGNvcHk6IFtdOwogIGNyZWF0ZTogW107CiAgInByb3ZpZGVyLWNoYW5nZSI6IFt2YWx1ZTogdW5rbm93bl07CiAgInVwZGF0ZTpvcGVuIjogW29wZW46IGJvb2xlYW5dOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iZW1pdCgndXBkYXRlOm9wZW4nLCAkZXZlbnQpIj4KICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJtYXgtaC1bODh2aF0gb3ZlcmZsb3cteS1hdXRvIHNtOm1heC13LVs1NjBweF0iPgogICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgIDxEaWFsb2dUaXRsZT57eyB0KCJhZG1pbi5wYXNza2V5U2V0dGluZ3MuaW52aXRlVGl0bGUiKSB9fTwvRGlhbG9nVGl0bGU+CiAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAge3sgdCgiYWRtaW4ucGFzc2tleVNldHRpbmdzLmludml0ZURlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICA8L0RpYWxvZ0hlYWRlcj4KICAgICAgPGRpdiBjbGFzcz0ib3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbGcgYm9yZGVyIGRpdmlkZS15IGRpdmlkZS1ib3JkZXIiPgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiBwLTQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvMTAgc206cC01Ij4KICAgICAgICAgIDxMYWJlbCBmb3I9Im9pZGMtaW52aXRlLXByb3ZpZGVyIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4ucGFzc2tleVNldHRpbmdzLnByb3ZpZGVyIikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8U2VsZWN0CiAgICAgICAgICAgIDptb2RlbC12YWx1ZT0icHJvdmlkZXJJZCIKICAgICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgncHJvdmlkZXItY2hhbmdlJywgJGV2ZW50KSIKICAgICAgICAgID4KICAgICAgICAgICAgPFNlbGVjdFRyaWdnZXIgaWQ9Im9pZGMtaW52aXRlLXByb3ZpZGVyIiBjbGFzcz0idy1mdWxsIj4KICAgICAgICAgICAgICA8U2VsZWN0VmFsdWUKICAgICAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4ucGFzc2tleVNldHRpbmdzLnByb3ZpZGVyUGxhY2Vob2xkZXInKSIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgICAgIDxTZWxlY3RJdGVtCiAgICAgICAgICAgICAgICB2LWZvcj0icHJvdmlkZXIgaW4gcHJvdmlkZXJzIgogICAgICAgICAgICAgICAgOmtleT0icHJvdmlkZXIuaWQiCiAgICAgICAgICAgICAgICA6dmFsdWU9InByb3ZpZGVyLmlkIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IHByb3ZpZGVyLm5hbWUgfX0KICAgICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgICAgIDwvU2VsZWN0PgogICAgICAgICAgPHAgY2xhc3M9InRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnBhc3NrZXlTZXR0aW5ncy5pbnZpdGVFeHBpcmVzSW4iKSB9fQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9Imludml0ZVVybCIKICAgICAgICAgIGNsYXNzPSJzcGFjZS15LTMgcC00IHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLW11dGVkLzEwIHNtOnAtNSIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4ucGFzc2tleVNldHRpbmdzLmludml0ZUxpbmsiKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0yIHJvdW5kZWQtbWQgYm9yZGVyIGJnLW11dGVkLzMwIHB4LTIuNSBweS0yIgogICAgICAgICAgPgogICAgICAgICAgICA8cAogICAgICAgICAgICAgIGNsYXNzPSJtaW4tdy0wIGZsZXgtMSB3aGl0ZXNwYWNlLW5vcm1hbCBicmVhay1hbGwgZm9udC1tb25vIHRleHQteHMgbGVhZGluZy01IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IGludml0ZVVybCB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICAgICAgICBzaXplPSJpY29uLXNtIgogICAgICAgICAgICAgIGNsYXNzPSJzaXplLTcgc2hyaW5rLTAiCiAgICAgICAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5wYXNza2V5U2V0dGluZ3MuY29weUludml0ZUxpbmsnKSIKICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4ucGFzc2tleVNldHRpbmdzLmNvcHlJbnZpdGVMaW5rJykiCiAgICAgICAgICAgICAgQGNsaWNrPSJlbWl0KCdjb3B5JykiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8Q29weSBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgdCgiYWRtaW4ucGFzc2tleVNldHRpbmdzLmV4cGlyZXNBdCIsIHsKICAgICAgICAgICAgICAgIHRpbWU6IGV4cGlyZXNBdCB8fCAiLSIsCiAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgfX0KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxEaWFsb2dGb290ZXIgY2xhc3M9ImdhcC0yIj4KICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0iZW1pdCgndXBkYXRlOm9wZW4nLCBmYWxzZSkiPgogICAgICAgICAge3sgdCgiYWRtaW4ucGFzc2tleVNldHRpbmdzLmNsb3NlIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uIHYtaWY9Imludml0ZVVybCIgdmFyaWFudD0ib3V0bGluZSIgQGNsaWNrPSJlbWl0KCdjb3B5JykiPgogICAgICAgICAgPENvcHkgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICB7eyB0KCJhZG1pbi5wYXNza2V5U2V0dGluZ3MuY29weUxpbmsiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24gOmRpc2FibGVkPSJpc0NyZWF0aW5nIHx8ICFwcm92aWRlcklkIiBAY2xpY2s9ImVtaXQoJ2NyZWF0ZScpIj4KICAgICAgICAgIDxMb2FkZXJDaXJjbGUgdi1pZj0iaXNDcmVhdGluZyIgY2xhc3M9ImgtNCB3LTQgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgICAgPExpbmsyIHYtZWxzZSBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLnBhc3NrZXlTZXR0aW5ncy5nZW5lcmF0ZSIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Copy, Link2, LoaderCircle } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import type { ExternalProviderOption } from "./useOidcBindingWorkflow";
+
+defineProps<{
+  expiresAt: string;
+  inviteUrl: string;
+  isCreating: boolean;
+  open: boolean;
+  providerId: string;
+  providers: ExternalProviderOption[];
+}>();
+
+const emit = defineEmits<{
+  copy: [];
+  create: [];
+  "provider-change": [value: unknown];
+  "update:open": [open: boolean];
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="max-h-[88vh] overflow-y-auto sm:max-w-[560px]">
+      <DialogHeader>
+        <DialogTitle>{{ t("admin.passkeySettings.inviteTitle") }}</DialogTitle>
+        <DialogDescription>
+          {{ t("admin.passkeySettings.inviteDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+      <div class="overflow-hidden rounded-lg border divide-y divide-border">
+        <div class="space-y-2 p-4 transition-colors hover:bg-muted/10 sm:p-5">
+          <Label for="oidc-invite-provider">
+            {{ t("admin.passkeySettings.provider") }}
+          </Label>
+          <Select
+            :model-value="providerId"
+            @update:model-value="emit('provider-change', $event)"
+          >
+            <SelectTrigger id="oidc-invite-provider" class="w-full">
+              <SelectValue
+                :placeholder="t('admin.passkeySettings.providerPlaceholder')"
+              />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem
+                v-for="provider in providers"
+                :key="provider.id"
+                :value="provider.id"
+              >
+                {{ provider.name }}
+              </SelectItem>
+            </SelectContent>
+          </Select>
+          <p class="text-[11px] text-muted-foreground">
+            {{ t("admin.passkeySettings.inviteExpiresIn") }}
+          </p>
+        </div>
+        <div
+          v-if="inviteUrl"
+          class="space-y-3 p-4 transition-colors hover:bg-muted/10 sm:p-5"
+        >
+          <div class="text-sm font-medium">
+            {{ t("admin.passkeySettings.inviteLink") }}
+          </div>
+          <div
+            class="flex items-start gap-2 rounded-md border bg-muted/30 px-2.5 py-2"
+          >
+            <p
+              class="min-w-0 flex-1 whitespace-normal break-all font-mono text-xs leading-5 text-muted-foreground"
+            >
+              {{ inviteUrl }}
+            </p>
+            <Button
+              variant="ghost"
+              size="icon-sm"
+              class="size-7 shrink-0"
+              :title="t('admin.passkeySettings.copyInviteLink')"
+              :aria-label="t('admin.passkeySettings.copyInviteLink')"
+              @click="emit('copy')"
+            >
+              <Copy class="h-4 w-4" />
+            </Button>
+          </div>
+          <p class="text-xs text-muted-foreground">
+            {{
+              t("admin.passkeySettings.expiresAt", {
+                time: expiresAt || "-",
+              })
+            }}
+          </p>
+        </div>
+      </div>
+      <DialogFooter class="gap-2">
+        <Button variant="outline" @click="emit('update:open', false)">
+          {{ t("admin.passkeySettings.close") }}
+        </Button>
+        <Button v-if="inviteUrl" variant="outline" @click="emit('copy')">
+          <Copy class="h-4 w-4" />
+          {{ t("admin.passkeySettings.copyLink") }}
+        </Button>
+        <Button :disabled="isCreating || !providerId" @click="emit('create')">
+          <LoaderCircle v-if="isCreating" class="h-4 w-4 animate-spin" />
+          <Link2 v-else class="h-4 w-4" />
+          {{ t("admin.passkeySettings.generate") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

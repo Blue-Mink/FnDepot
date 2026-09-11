@@ -1,1 +1,101 @@
-dXNlIHNlcmRlX2pzb246OntWYWx1ZSwganNvbn07CgojW2Rlcml2ZShEZWJ1ZywgQ2xvbmUsIENvcHksIFBhcnRpYWxFcSwgRXEpXQpwdWIoY3JhdGUpIGVudW0gRGFpbHlBdmFpbGFiaWxpdHlFcnJvciB7CiAgICBPYmplY3RSZXF1aXJlZCwKICAgIEludmFsaWRTdGFydCwKICAgIEludmFsaWRFbmQsCiAgICBTYW1lVGltZSwKfQoKcHViKGNyYXRlKSBmbiBub3JtYWxpemVfZGFpbHlfYXZhaWxhYmlsaXR5KAogICAgdmFsdWU6IE9wdGlvbjwmVmFsdWU+LAopIC0+IFJlc3VsdDxWYWx1ZSwgRGFpbHlBdmFpbGFiaWxpdHlFcnJvcj4gewogICAgbGV0IFNvbWUodmFsdWUpID0gdmFsdWUgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKFZhbHVlOjpOdWxsKTsKICAgIH07CiAgICBpZiB2YWx1ZS5pc19udWxsKCkgewogICAgICAgIHJldHVybiBPayhWYWx1ZTo6TnVsbCk7CiAgICB9CiAgICBsZXQgU29tZShvYmplY3QpID0gdmFsdWUuYXNfb2JqZWN0KCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIEVycihEYWlseUF2YWlsYWJpbGl0eUVycm9yOjpPYmplY3RSZXF1aXJlZCk7CiAgICB9OwogICAgaWYgb2JqZWN0LmdldCgiZW5hYmxlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSAhPSBTb21lKHRydWUpIHsKICAgICAgICByZXR1cm4gT2soVmFsdWU6Ok51bGwpOwogICAgfQoKICAgIGxldCBzdGFydF90aW1lID0gb2JqZWN0CiAgICAgICAgLmdldCgic3RhcnRfdGltZSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLnVud3JhcF9vcigiIik7CiAgICBsZXQgZW5kX3RpbWUgPSBvYmplY3QKICAgICAgICAuZ2V0KCJlbmRfdGltZSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLnVud3JhcF9vcigiIik7CiAgICB2YWxpZGF0ZV9kYWlseV9hdmFpbGFiaWxpdHlfd2luZG93KHN0YXJ0X3RpbWUsIGVuZF90aW1lKT87CgogICAgT2soanNvbiEoewogICAgICAgICJlbmFibGVkIjogdHJ1ZSwKICAgICAgICAic3RhcnRfdGltZSI6IHN0YXJ0X3RpbWUsCiAgICAgICAgImVuZF90aW1lIjogZW5kX3RpbWUsCiAgICB9KSkKfQoKcHViKGNyYXRlKSBmbiB2YWxpZGF0ZV9kYWlseV9hdmFpbGFiaWxpdHlfd2luZG93KAogICAgc3RhcnRfdGltZTogJnN0ciwKICAgIGVuZF90aW1lOiAmc3RyLAopIC0+IFJlc3VsdDwoKSwgRGFpbHlBdmFpbGFiaWxpdHlFcnJvcj4gewogICAgbGV0IHN0YXJ0X21pbnV0ZSA9CiAgICAgICAgcGFyc2VfZGFpbHlfYXZhaWxhYmlsaXR5X21pbnV0ZShzdGFydF90aW1lKS5va19vcihEYWlseUF2YWlsYWJpbGl0eUVycm9yOjpJbnZhbGlkU3RhcnQpPzsKICAgIGxldCBlbmRfbWludXRlID0KICAgICAgICBwYXJzZV9kYWlseV9hdmFpbGFiaWxpdHlfbWludXRlKGVuZF90aW1lKS5va19vcihEYWlseUF2YWlsYWJpbGl0eUVycm9yOjpJbnZhbGlkRW5kKT87CiAgICBpZiBzdGFydF9taW51dGUgPT0gZW5kX21pbnV0ZSB7CiAgICAgICAgcmV0dXJuIEVycihEYWlseUF2YWlsYWJpbGl0eUVycm9yOjpTYW1lVGltZSk7CiAgICB9CiAgICBPaygoKSkKfQoKZm4gcGFyc2VfZGFpbHlfYXZhaWxhYmlsaXR5X21pbnV0ZSh2YWx1ZTogJnN0cikgLT4gT3B0aW9uPHUxNj4gewogICAgbGV0IGJ5dGVzID0gdmFsdWUuYXNfYnl0ZXMoKTsKICAgIGlmIGJ5dGVzLmxlbigpICE9IDUgfHwgYnl0ZXNbMl0gIT0gYic6JyB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBsZXQgaG91ciA9IHBhcnNlX3R3b19kaWdpdHMoYnl0ZXNbMF0sIGJ5dGVzWzFdKT87CiAgICBsZXQgbWludXRlID0gcGFyc2VfdHdvX2RpZ2l0cyhieXRlc1szXSwgYnl0ZXNbNF0pPzsKICAgIGlmIGhvdXIgPiAyMyB8fCBtaW51dGUgPiA1OSB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBTb21lKGhvdXIgKiA2MCArIG1pbnV0ZSkKfQoKZm4gcGFyc2VfdHdvX2RpZ2l0cyhhOiB1OCwgYjogdTgpIC0+IE9wdGlvbjx1MTY+IHsKICAgIGlmICFhLmlzX2FzY2lpX2RpZ2l0KCkgfHwgIWIuaXNfYXNjaWlfZGlnaXQoKSB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBTb21lKHUxNjo6ZnJvbShhIC0gYicwJykgKiAxMCArIHUxNjo6ZnJvbShiIC0gYicwJykpCn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwoKICAgICNbdGVzdF0KICAgIGZuIHZhbGlkYXRlc19kYXl0aW1lX2FuZF9jcm9zc19taWRuaWdodF93aW5kb3dzKCkgewogICAgICAgIGFzc2VydF9lcSEodmFsaWRhdGVfZGFpbHlfYXZhaWxhYmlsaXR5X3dpbmRvdygiMDk6MDAiLCAiMTg6MDAiKSwgT2soKCkpKTsKICAgICAgICBhc3NlcnRfZXEhKHZhbGlkYXRlX2RhaWx5X2F2YWlsYWJpbGl0eV93aW5kb3coIjIyOjAwIiwgIjA2OjAwIiksIE9rKCgpKSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gcmVqZWN0c19pbnZhbGlkX2FuZF9lcXVhbF90aW1lcygpIHsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICB2YWxpZGF0ZV9kYWlseV9hdmFpbGFiaWxpdHlfd2luZG93KCI5OjAwIiwgIjE4OjAwIiksCiAgICAgICAgICAgIEVycihEYWlseUF2YWlsYWJpbGl0eUVycm9yOjpJbnZhbGlkU3RhcnQpCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICB2YWxpZGF0ZV9kYWlseV9hdmFpbGFiaWxpdHlfd2luZG93KCIwOTowMCIsICIwOTowMCIpLAogICAgICAgICAgICBFcnIoRGFpbHlBdmFpbGFiaWxpdHlFcnJvcjo6U2FtZVRpbWUpCiAgICAgICAgKTsKICAgIH0KfQo=
+use serde_json::{Value, json};
+
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub(crate) enum DailyAvailabilityError {
+    ObjectRequired,
+    InvalidStart,
+    InvalidEnd,
+    SameTime,
+}
+
+pub(crate) fn normalize_daily_availability(
+    value: Option<&Value>,
+) -> Result<Value, DailyAvailabilityError> {
+    let Some(value) = value else {
+        return Ok(Value::Null);
+    };
+    if value.is_null() {
+        return Ok(Value::Null);
+    }
+    let Some(object) = value.as_object() else {
+        return Err(DailyAvailabilityError::ObjectRequired);
+    };
+    if object.get("enabled").and_then(Value::as_bool) != Some(true) {
+        return Ok(Value::Null);
+    }
+
+    let start_time = object
+        .get("start_time")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .unwrap_or("");
+    let end_time = object
+        .get("end_time")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .unwrap_or("");
+    validate_daily_availability_window(start_time, end_time)?;
+
+    Ok(json!({
+        "enabled": true,
+        "start_time": start_time,
+        "end_time": end_time,
+    }))
+}
+
+pub(crate) fn validate_daily_availability_window(
+    start_time: &str,
+    end_time: &str,
+) -> Result<(), DailyAvailabilityError> {
+    let start_minute =
+        parse_daily_availability_minute(start_time).ok_or(DailyAvailabilityError::InvalidStart)?;
+    let end_minute =
+        parse_daily_availability_minute(end_time).ok_or(DailyAvailabilityError::InvalidEnd)?;
+    if start_minute == end_minute {
+        return Err(DailyAvailabilityError::SameTime);
+    }
+    Ok(())
+}
+
+fn parse_daily_availability_minute(value: &str) -> Option<u16> {
+    let bytes = value.as_bytes();
+    if bytes.len() != 5 || bytes[2] != b':' {
+        return None;
+    }
+    let hour = parse_two_digits(bytes[0], bytes[1])?;
+    let minute = parse_two_digits(bytes[3], bytes[4])?;
+    if hour > 23 || minute > 59 {
+        return None;
+    }
+    Some(hour * 60 + minute)
+}
+
+fn parse_two_digits(a: u8, b: u8) -> Option<u16> {
+    if !a.is_ascii_digit() || !b.is_ascii_digit() {
+        return None;
+    }
+    Some(u16::from(a - b'0') * 10 + u16::from(b - b'0'))
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn validates_daytime_and_cross_midnight_windows() {
+        assert_eq!(validate_daily_availability_window("09:00", "18:00"), Ok(()));
+        assert_eq!(validate_daily_availability_window("22:00", "06:00"), Ok(()));
+    }
+
+    #[test]
+    fn rejects_invalid_and_equal_times() {
+        assert_eq!(
+            validate_daily_availability_window("9:00", "18:00"),
+            Err(DailyAvailabilityError::InvalidStart)
+        );
+        assert_eq!(
+            validate_daily_availability_window("09:00", "09:00"),
+            Err(DailyAvailabilityError::SameTime)
+        );
+    }
+}

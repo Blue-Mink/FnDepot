@@ -1,1 +1,30 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgppbXBvcnQgewogIGFjbWVDZXJ0aWZpY2F0ZUFyY2hpdmVGaWxlbmFtZSwKICBhY21lQ2VydGlmaWNhdGVBcmNoaXZlU3RlbSwKfSBmcm9tICIuLi9zcmMvbGliL2FjbWUtZG93bmxvYWQiOwoKZGVzY3JpYmUoIkFDTUUgY2VydGlmaWNhdGUgYXJjaGl2ZSBmaWxlbmFtZXMiLCAoKSA9PiB7CiAgaXQoImtlZXBzIG9yZGluYXJ5IGRvbWFpbiBuYW1lcyIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgYWNtZUNlcnRpZmljYXRlQXJjaGl2ZUZpbGVuYW1lKCJFeGFtcGxlLkNPTSIpLAogICAgICAiRXhhbXBsZS5DT00uemlwIiwKICAgICk7CiAgfSk7CgogIGl0KCJ1c2VzIHBvcnRhYmxlIG5hbWVzIGZvciB3aWxkY2FyZCBjZXJ0aWZpY2F0ZXMiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGFjbWVDZXJ0aWZpY2F0ZUFyY2hpdmVGaWxlbmFtZSgiKi5leGFtcGxlLmNvbSIpLAogICAgICAid2lsZGNhcmQuZXhhbXBsZS5jb20uemlwIiwKICAgICk7CiAgfSk7CgogIGl0KCJyZW1vdmVzIHVuc2FmZSBXaW5kb3dzIGZpbGVuYW1lIGNoYXJhY3RlcnMiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoYWNtZUNlcnRpZmljYXRlQXJjaGl2ZVN0ZW0oJyBiYWQ6Kj9uYW1lLiAnKSwgImJhZF9fX25hbWUiKTsKICAgIGFzc2VydC5lcXVhbChhY21lQ2VydGlmaWNhdGVBcmNoaXZlU3RlbSgiLi4uIiksICJjZXJ0aWZpY2F0ZSIpOwogIH0pOwp9KTsK
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import {
+  acmeCertificateArchiveFilename,
+  acmeCertificateArchiveStem,
+} from "../src/lib/acme-download";
+
+describe("ACME certificate archive filenames", () => {
+  it("keeps ordinary domain names", () => {
+    assert.equal(
+      acmeCertificateArchiveFilename("Example.COM"),
+      "Example.COM.zip",
+    );
+  });
+
+  it("uses portable names for wildcard certificates", () => {
+    assert.equal(
+      acmeCertificateArchiveFilename("*.example.com"),
+      "wildcard.example.com.zip",
+    );
+  });
+
+  it("removes unsafe Windows filename characters", () => {
+    assert.equal(acmeCertificateArchiveStem(' bad:*?name. '), "bad___name");
+    assert.equal(acmeCertificateArchiveStem("..."), "certificate");
+  });
+});

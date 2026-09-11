@@ -1,1 +1,122 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IFBsdXMgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBUZXh0YXJlYSB9IGZyb20gIkAvY29tcG9uZW50cy91aS90ZXh0YXJlYSI7CmltcG9ydCB0eXBlIHsgTGFuQ2VydGlmaWNhdGVEZXBsb3ltZW50IH0gZnJvbSAiQC90eXBlcyI7CgpkZWZpbmVQcm9wczx7CiAgc2V0dGluZ3M6IExhbkNlcnRpZmljYXRlRGVwbG95bWVudCB8IG51bGw7CiAgYWRkcmVzc0RyYWZ0OiBzdHJpbmc7CiAgc2F2aW5nOiBib29sZWFuOwp9PigpOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICAidXBkYXRlOmFkZHJlc3NEcmFmdCI6IFt2YWx1ZTogc3RyaW5nXTsKICBhZGRBZGRyZXNzOiBbYWRkcmVzczogc3RyaW5nXTsKICBzYXZlOiBbZW5hYmxlZDogYm9vbGVhbl07Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmZ1bmN0aW9uIGxpc3RlbmVyTGFiZWwoc2NvcGU/OiBzdHJpbmcpIHsKICBpZiAoc2NvcGUgPT09ICJhbGwiKSByZXR1cm4gdCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbExhbkxpc3RlbmVyQWxsIik7CiAgaWYgKHNjb3BlID09PSAibG9vcGJhY2siKSB7CiAgICByZXR1cm4gdCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbExhbkxpc3RlbmVyTG9vcGJhY2siKTsKICB9CiAgcmV0dXJuIHNjb3BlIHx8ICLigJQiOwp9Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImdyaWQgbWluLXctMCBnYXAtMyI+CiAgICA8cCBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbExhblNlY3VyaXR5RGVzY3JpcHRpb24iKSB9fQogICAgPC9wPgoKICAgIDxkaXYgY2xhc3M9ImdyaWQgbWluLXctMCBnYXAtMS41Ij4KICAgICAgPExhYmVsIGZvcj0iZXh0ZXJuYWwtbGFuLWFkZHJlc3NlcyIgY2xhc3M9InRleHQteHMiPgogICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcuZXh0ZXJuYWxMYW5BZGRyZXNzZXNMYWJlbCIpIH19CiAgICAgIDwvTGFiZWw+CiAgICAgIDxUZXh0YXJlYQogICAgICAgIGlkPSJleHRlcm5hbC1sYW4tYWRkcmVzc2VzIgogICAgICAgIDptb2RlbC12YWx1ZT0iYWRkcmVzc0RyYWZ0IgogICAgICAgIGNsYXNzPSJtaW4taC0xNiByZXNpemUteSB0ZXh0LXNtIgogICAgICAgIHJvd3M9IjIiCiAgICAgICAgcGxhY2Vob2xkZXI9IjE5Mi4xNjguMzEuOTgiCiAgICAgICAgOmRpc2FibGVkPSJzYXZpbmciCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgndXBkYXRlOmFkZHJlc3NEcmFmdCcsIFN0cmluZygkZXZlbnQpKSIKICAgICAgLz4KICAgICAgPHAgY2xhc3M9InRleHQteHMgbGVhZGluZy01IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbExhbkFkZHJlc3Nlc0hlbHAiKSB9fQogICAgICA8L3A+CiAgICA8L2Rpdj4KCiAgICA8ZGl2IGNsYXNzPSJncmlkIG1pbi13LTAgZ2FwLTIiPgogICAgICA8c3BhbiBjbGFzcz0idGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcuZXh0ZXJuYWxMYW5EZXRlY3RlZExhYmVsIikgfX0KICAgICAgPC9zcGFuPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IG1pbi13LTAgZmxleC13cmFwIGdhcC0xLjUiPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHYtZm9yPSJhZGRyZXNzIGluIHNldHRpbmdzPy5kZXRlY3RlZF9hZGRyZXNzZXMgPz8gW10iCiAgICAgICAgICA6a2V5PSJhZGRyZXNzIgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgY2xhc3M9ImgtNyBtaW4tdy0wIG1heC13LWZ1bGwgcHgtMiB0ZXh0LXhzIgogICAgICAgICAgOmRpc2FibGVkPSJzYXZpbmciCiAgICAgICAgICBAY2xpY2s9ImVtaXQoJ2FkZEFkZHJlc3MnLCBhZGRyZXNzKSIKICAgICAgICA+CiAgICAgICAgICA8UGx1cyBjbGFzcz0ibXItMSBzaXplLTMgc2hyaW5rLTAiIC8+CiAgICAgICAgICA8c3BhbiBjbGFzcz0idHJ1bmNhdGUiPnt7IGFkZHJlc3MgfX08L3NwYW4+CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPHNwYW4KICAgICAgICAgIHYtaWY9IiFzZXR0aW5ncz8uZGV0ZWN0ZWRfYWRkcmVzc2VzLmxlbmd0aCIKICAgICAgICAgIGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbExhbk5vbmVEZXRlY3RlZCIpIH19CiAgICAgICAgPC9zcGFuPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxkaXYKICAgICAgY2xhc3M9ImZsZXggbWluLXctMCBmbGV4LWNvbCBnYXAtMyBib3JkZXItdCBwdC0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICA+CiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0iZmxleCBtaW4tdy0wIGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgPgogICAgICAgIDxzcGFuPnt7IHQoImFkbWluLmNlcnRDb25maWcuZXh0ZXJuYWxMYW5MaXN0ZW5lciIpIH19PC9zcGFuPgogICAgICAgIDxzcGFuCiAgICAgICAgICBjbGFzcz0ibWluLXctMCBicmVhay13b3JkcyByb3VuZGVkIGJnLW11dGVkIHB4LTEuNSBweS0wLjUgZm9udC1tZWRpdW0gdGV4dC1mb3JlZ3JvdW5kIgogICAgICAgID4KICAgICAgICAgIHt7IGxpc3RlbmVyTGFiZWwoc2V0dGluZ3M/Lmxpc3RlbmVyX3Njb3BlKSB9fQogICAgICAgIDwvc3Bhbj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC1jb2wtcmV2ZXJzZSBnYXAtMiBzbTpmbGV4LXJvdyI+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdi1pZj0ic2V0dGluZ3M/LmVuYWJsZWQiCiAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICBjbGFzcz0idy1mdWxsIHNtOnctYXV0byIKICAgICAgICAgIDpkaXNhYmxlZD0ic2F2aW5nIgogICAgICAgICAgQGNsaWNrPSJlbWl0KCdzYXZlJywgZmFsc2UpIgogICAgICAgID4KICAgICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcuZXh0ZXJuYWxMYW5EaXNhYmxlIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgIGNsYXNzPSJ3LWZ1bGwgc206dy1hdXRvIgogICAgICAgICAgOmRpc2FibGVkPSJzYXZpbmcgfHwgIWFkZHJlc3NEcmFmdC50cmltKCkiCiAgICAgICAgICBAY2xpY2s9ImVtaXQoJ3NhdmUnLCB0cnVlKSIKICAgICAgICA+CiAgICAgICAgICB7ewogICAgICAgICAgICBzZXR0aW5ncz8uZW5hYmxlZAogICAgICAgICAgICAgID8gdCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbExhblNhdmVBZGRyZXNzZXMiKQogICAgICAgICAgICAgIDogdCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbExhbkVuYWJsZSIpCiAgICAgICAgICB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Plus } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import type { LanCertificateDeployment } from "@/types";
+
+defineProps<{
+  settings: LanCertificateDeployment | null;
+  addressDraft: string;
+  saving: boolean;
+}>();
+
+const emit = defineEmits<{
+  "update:addressDraft": [value: string];
+  addAddress: [address: string];
+  save: [enabled: boolean];
+}>();
+
+const { t } = useI18n();
+
+function listenerLabel(scope?: string) {
+  if (scope === "all") return t("admin.certConfig.externalLanListenerAll");
+  if (scope === "loopback") {
+    return t("admin.certConfig.externalLanListenerLoopback");
+  }
+  return scope || "—";
+}
+</script>
+
+<template>
+  <div class="grid min-w-0 gap-3">
+    <p class="text-xs leading-5 text-muted-foreground">
+      {{ t("admin.certConfig.externalLanSecurityDescription") }}
+    </p>
+
+    <div class="grid min-w-0 gap-1.5">
+      <Label for="external-lan-addresses" class="text-xs">
+        {{ t("admin.certConfig.externalLanAddressesLabel") }}
+      </Label>
+      <Textarea
+        id="external-lan-addresses"
+        :model-value="addressDraft"
+        class="min-h-16 resize-y text-sm"
+        rows="2"
+        placeholder="192.168.31.98"
+        :disabled="saving"
+        @update:model-value="emit('update:addressDraft', String($event))"
+      />
+      <p class="text-xs leading-5 text-muted-foreground">
+        {{ t("admin.certConfig.externalLanAddressesHelp") }}
+      </p>
+    </div>
+
+    <div class="grid min-w-0 gap-2">
+      <span class="text-xs font-medium text-muted-foreground">
+        {{ t("admin.certConfig.externalLanDetectedLabel") }}
+      </span>
+      <div class="flex min-w-0 flex-wrap gap-1.5">
+        <Button
+          v-for="address in settings?.detected_addresses ?? []"
+          :key="address"
+          type="button"
+          size="sm"
+          variant="outline"
+          class="h-7 min-w-0 max-w-full px-2 text-xs"
+          :disabled="saving"
+          @click="emit('addAddress', address)"
+        >
+          <Plus class="mr-1 size-3 shrink-0" />
+          <span class="truncate">{{ address }}</span>
+        </Button>
+        <span
+          v-if="!settings?.detected_addresses.length"
+          class="text-xs leading-7 text-muted-foreground"
+        >
+          {{ t("admin.certConfig.externalLanNoneDetected") }}
+        </span>
+      </div>
+    </div>
+
+    <div
+      class="flex min-w-0 flex-col gap-3 border-t pt-3 sm:flex-row sm:items-center sm:justify-between"
+    >
+      <div
+        class="flex min-w-0 items-center gap-2 text-xs text-muted-foreground"
+      >
+        <span>{{ t("admin.certConfig.externalLanListener") }}</span>
+        <span
+          class="min-w-0 break-words rounded bg-muted px-1.5 py-0.5 font-medium text-foreground"
+        >
+          {{ listenerLabel(settings?.listener_scope) }}
+        </span>
+      </div>
+      <div class="flex flex-col-reverse gap-2 sm:flex-row">
+        <Button
+          v-if="settings?.enabled"
+          size="sm"
+          variant="outline"
+          class="w-full sm:w-auto"
+          :disabled="saving"
+          @click="emit('save', false)"
+        >
+          {{ t("admin.certConfig.externalLanDisable") }}
+        </Button>
+        <Button
+          size="sm"
+          class="w-full sm:w-auto"
+          :disabled="saving || !addressDraft.trim()"
+          @click="emit('save', true)"
+        >
+          {{
+            settings?.enabled
+              ? t("admin.certConfig.externalLanSaveAddresses")
+              : t("admin.certConfig.externalLanEnable")
+          }}
+        </Button>
+      </div>
+    </div>
+  </div>
+</template>

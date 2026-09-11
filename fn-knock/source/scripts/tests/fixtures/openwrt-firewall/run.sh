@@ -1,1 +1,224 @@
-IyEvYmluL3NoCnNldCAtZXUKSEVMUEVSPS93b3Jrc3BhY2UvZGVwbG95L29wZW53cnQvdXNyL2xpYmV4ZWMvZm4ta25vY2stZmlyZXdhbGwKZmFpbCgpIHsgZWNobyAiRkFJTDogJCoiID4mMjsgZXhpdCAxOyB9CmFzc2VydF92YWx1ZSgpIHsgWyAiJCh1Y2kgLXEgZ2V0ICJmaXJld2FsbC5mbl9rbm9ja19nYXRld2F5X2luZ3Jlc3MuJDEiKSIgPSAiJDIiIF0gfHwgZmFpbCAiJDEgIT0gJDIiOyB9CmV4cGVjdF9lcnJvcigpIHsKCWxvY2FsIGV4cGVjdGVkPSIkMSI7IHNoaWZ0CglpZiAiJEhFTFBFUiIgIiRAIiA+L3RtcC9yZXN1bHQgMj4vdG1wL2Vycm9yOyB0aGVuIGZhaWwgImV4cGVjdGVkICRleHBlY3RlZCI7IGZpCglncmVwIC1xICJcInN0YXRlXCI6XCIkZXhwZWN0ZWRcIiIgL3RtcC9yZXN1bHQgfHwgeyBjYXQgL3RtcC9yZXN1bHQgL3RtcC9lcnJvcjsgZmFpbCAid3JvbmcgZXJyb3IgJGV4cGVjdGVkIjsgfQp9CnJlc2V0X3J1bGUoKSB7IHVjaSAtcSBkZWxldGUgZmlyZXdhbGwuZm5fa25vY2tfZ2F0ZXdheV9pbmdyZXNzIHx8IHRydWU7IHVjaSBjb21taXQgZmlyZXdhbGw7IDogPi90bXAvcmVsb2FkczsgfQpzZXRfcG9ydCgpIHsgdWNpIHNldCAiZm4ta25vY2subWFpbi5nb19yZXByb3h5X3BvcnQ9JDEiOyB1Y2kgY29tbWl0IGZuLWtub2NrOyB9Cm1rZGlyIC1wIC92YXIvcnVuL3VidXMKY3AgL3dvcmtzcGFjZS9kZXBsb3kvb3BlbndydC9ldGMvY29uZmlnL2ZuLWtub2NrIC9ldGMvY29uZmlnL2ZuLWtub2NrCmNwICIkSEVMUEVSIiAvdXNyL2xpYmV4ZWMvZm4ta25vY2stZmlyZXdhbGwKY3AgL3dvcmtzcGFjZS9kZXBsb3kvb3BlbndydC91c3Ivc2hhcmUvcnBjZC9hY2wuZC9sdWNpLWFwcC1mbi1rbm9jay5qc29uIC91c3Ivc2hhcmUvcnBjZC9hY2wuZC8KdWJ1c2QgPi90bXAvdWJ1c2QubG9nIDI+JjEgJgpzbGVlcCAxCnJwY2QgPi90bXAvcnBjZC5sb2cgMj4mMSAmCnNsZWVwIDEKdWJ1cyBsaXN0IHVjaSB8IGdyZXAgLXEgdWNpIHx8IGZhaWwgJ3JwY2Qgbm90IHJ1bm5pbmcnCiMgRXhlcmNpc2UgcnBjZCdzIGFjdHVhbCBBQ0wgZXhwYW5zaW9uIGZvciBhIHJlYWQtb25seSBhbmQgYSB3cml0YWJsZSBsb2dpbi4KZm9yIHVzZXIgaW4gcmVhZGVyIHdyaXRlcjsgZG8KCXVjaSBzZXQgInJwY2QuJHVzZXI9bG9naW4iCgl1Y2kgc2V0ICJycGNkLiR1c2VyLnVzZXJuYW1lPSR1c2VyIgoJdWNpIHNldCAicnBjZC4kdXNlci5wYXNzd29yZD1cJHBcJHJvb3QiCgl1Y2kgYWRkX2xpc3QgInJwY2QuJHVzZXIucmVhZD1sdWNpLWFwcC1mbi1rbm9jayIKZG9uZQp1Y2kgYWRkX2xpc3QgcnBjZC53cml0ZXIud3JpdGU9bHVjaS1hcHAtZm4ta25vY2sKdWNpIGNvbW1pdCBycGNkCmZvciB1c2VyIGluIHJlYWRlciB3cml0ZXI7IGRvCglsb2dpbj0iJCh1YnVzIGNhbGwgc2Vzc2lvbiBsb2dpbiAie1widXNlcm5hbWVcIjpcIiR1c2VyXCIsXCJwYXNzd29yZFwiOlwiXCJ9IikiCglzaWQ9IiQocHJpbnRmICclcycgIiRsb2dpbiIgfCBqc29uZmlsdGVyIC1lICdALnVidXNfcnBjX3Nlc3Npb24nKSIKCVsgLW4gIiRzaWQiIF0gfHwgZmFpbCAnQUNMIHRlc3QgbG9naW4gZmFpbGVkJwoJYWNjZXNzPSIkKHVidXMgY2FsbCBzZXNzaW9uIGFjY2VzcyAie1widWJ1c19ycGNfc2Vzc2lvblwiOlwiJHNpZFwiLFwic2NvcGVcIjpcImZpbGVcIixcIm9iamVjdFwiOlwiL3Vzci9saWJleGVjL2ZuLWtub2NrLWZpcmV3YWxsIHN0YXR1c1wiLFwiZnVuY3Rpb25cIjpcImV4ZWNcIn0iKSIKCXByaW50ZiAnJXMnICIkYWNjZXNzIiB8IGdyZXAgLXEgdHJ1ZSB8fCBmYWlsICdzdGF0dXMgQUNMIGRlbmllZCcKCXJlc3VsdD0iJCh1YnVzIGNhbGwgZmlsZSBleGVjICJ7XCJ1YnVzX3JwY19zZXNzaW9uXCI6XCIkc2lkXCIsXCJjb21tYW5kXCI6XCIvdXNyL2xpYmV4ZWMvZm4ta25vY2stZmlyZXdhbGxcIixcInBhcmFtc1wiOltcInN0YXR1c1wiXX0iKSIKCVsgIiQocHJpbnRmICclcycgIiRyZXN1bHQiIHwganNvbmZpbHRlciAtZSAnQC5jb2RlJykiID0gMCBdIHx8IGZhaWwgJ0x1Q0kgc3RhdHVzIGV4ZWN1dGlvbiBmYWlsZWQnCglvdXRwdXQ9IiQocHJpbnRmICclcycgIiRyZXN1bHQiIHwganNvbmZpbHRlciAtZSAnQC5zdGRvdXQnKSIKCWpzaG4gLXIgIiRvdXRwdXQiID4vZGV2L251bGwgfHwgZmFpbCAnaW52YWxpZCBMdUNJIHN0YXR1cyBvdXRwdXQnCglhY2Nlc3M9IiQodWJ1cyBjYWxsIHNlc3Npb24gYWNjZXNzICJ7XCJ1YnVzX3JwY19zZXNzaW9uXCI6XCIkc2lkXCIsXCJzY29wZVwiOlwiZmlsZVwiLFwib2JqZWN0XCI6XCIvdXNyL2xpYmV4ZWMvZm4ta25vY2stZmlyZXdhbGwgYWxsb3cgd2FuIDc5OTlcIixcImZ1bmN0aW9uXCI6XCJleGVjXCJ9IikiCglpZiBbICIkdXNlciIgPSB3cml0ZXIgXTsgdGhlbiBleHBlY3RlZD10cnVlOyBlbHNlIGV4cGVjdGVkPWZhbHNlOyBmaQoJcHJpbnRmICclcycgIiRhY2Nlc3MiIHwgZ3JlcCAtcSAiJGV4cGVjdGVkIiB8fCBmYWlsICdpbmNvcnJlY3QgYWxsb3cgQUNMJwoJYWNjZXNzPSIkKHVidXMgY2FsbCBzZXNzaW9uIGFjY2VzcyAie1widWJ1c19ycGNfc2Vzc2lvblwiOlwiJHNpZFwiLFwic2NvcGVcIjpcInVjaVwiLFwib2JqZWN0XCI6XCJmaXJld2FsbFwiLFwiZnVuY3Rpb25cIjpcIndyaXRlXCJ9IikiCglwcmludGYgJyVzJyAiJGFjY2VzcyIgfCBncmVwIC1xIGZhbHNlIHx8IGZhaWwgJ2Jyb2FkIGZpcmV3YWxsIHdyaXRlIGFjY2VzcyBncmFudGVkJwoJdWJ1cyBjYWxsIHNlc3Npb24gZGVzdHJveSAie1widWJ1c19ycGNfc2Vzc2lvblwiOlwiJHNpZFwifSIgPi9kZXYvbnVsbApkb25lCgpSRUFMX1VCVVM9IiQoY29tbWFuZCAtdiB1YnVzKSIKZXhwb3J0IFJFQUxfVUJVUwpjYXQgPi90bXAvdGVzdC11YnVzIDw8J1NIJwojIS9iaW4vc2gKY2FzZSAiJCoiIGluCiAgKidjYWxsIHVjaSBjb21taXQgJyopIFsgISAtZiAvdG1wL2ZhaWwtY29tbWl0IF0gfHwgZXhpdCAxIDs7CiAgKidjYWxsIHVjaSBhZGQgJyp8KidjYWxsIHVjaSBzZXQgJyopIFsgISAtZiAvdG1wL2ZhaWwtd3JpdGUgXSB8fCBleGl0IDEgOzsKZXNhYwpleGVjICIkUkVBTF9VQlVTIiAiJEAiClNICmNhdCA+L3RtcC90ZXN0LWZpcmV3YWxsIDw8J1NIJwojIS9iaW4vc2gKWyAiJDEiID0gcmVsb2FkIF0gfHwgZXhpdCAxCmVjaG8gcmVsb2FkID4+L3RtcC9yZWxvYWRzClsgISAtZiAvdG1wL3Nsb3ctcmVsb2FkIF0gfHwgc2xlZXAgMgpbICEgLWYgL3RtcC9mYWlsLXJlbG9hZCBdClNICmNobW9kICt4IC90bXAvdGVzdC11YnVzIC90bXAvdGVzdC1maXJld2FsbAojIEZhdWx0IGluamVjdGlvbiBiZWxvbmdzIG9ubHkgaW4gYSB0ZW1wb3JhcnkgdGVzdCBjb3B5LCBub3QgcHJvZHVjdGlvbiBlbnYuCnNlZCAtZSAnc3xeVUJVU19CSU49dWJ1cyR8VUJVU19CSU49L3RtcC90ZXN0LXVidXN8JyBcCiAgICAtZSAnc3xeRklSRVdBTExfSU5JVD0vZXRjL2luaXQuZC9maXJld2FsbCR8RklSRVdBTExfSU5JVD0vdG1wL3Rlc3QtZmlyZXdhbGx8JyBcCiAgICAiJEhFTFBFUiIgPi90bXAvdGVzdC1oZWxwZXIKY2htb2QgK3ggL3RtcC90ZXN0LWhlbHBlcgpIRUxQRVI9L3RtcC90ZXN0LWhlbHBlcgpjYXQgPi90bXAvdW50cnVzdGVkLWpzaG4gPDwnU0gnCnRvdWNoIC90bXAvZW52aXJvbm1lbnQtZXhlY3V0ZWQKU0gKRk5fS05PQ0tfRklSRVdBTExfSlNITl9MSUI9L3RtcC91bnRydXN0ZWQtanNobiBcCkZOX0tOT0NLX0ZJUkVXQUxMX1VCVVNfQklOPS9taXNzaW5nIFwKRk5fS05PQ0tfRklSRVdBTExfSU5JVD0vbWlzc2luZyAiJEhFTFBFUiIgc3RhdHVzID4vdG1wL3Jlc3VsdApbICEgLWUgL3RtcC9lbnZpcm9ubWVudC1leGVjdXRlZCBdIHx8IGZhaWwgJ2Vudmlyb25tZW50IHNlbGVjdGVkIGV4ZWN1dGFibGUgY29kZScKanNobiAtUiAvdG1wL3Jlc3VsdCA+L2Rldi9udWxsIHx8IGZhaWwgJ2Vudmlyb25tZW50IGFmZmVjdGVkIHN0YXR1cycKCnJlc2V0X3J1bGUKY3AgL2V0Yy9jb25maWcvZmlyZXdhbGwgL3RtcC9iZWZvcmUKIiRIRUxQRVIiIHN0YXR1cyA+L3RtcC9yZXN1bHQKY21wIC9ldGMvY29uZmlnL2ZpcmV3YWxsIC90bXAvYmVmb3JlIHx8IGZhaWwgJ3N0YXR1cyBtdXRhdGVkIGZpcmV3YWxsJwpqc2huIC1SIC90bXAvcmVzdWx0ID4vZGV2L251bGwgfHwgZmFpbCAnaW52YWxpZCBzdGF0dXMgSlNPTicKZ3JlcCAtcSAnYWJzZW50JyAvdG1wL3Jlc3VsdCB8fCBmYWlsICdzdGF0dXMgYWJzZW50JwpbICEgLXMgL3RtcC9yZWxvYWRzIF0gfHwgZmFpbCAnc3RhdHVzIHJlbG9hZGVkJwoKIiRIRUxQRVIiIGFsbG93IHdhbiA3OTk5CmFzc2VydF92YWx1ZSBuYW1lIEFsbG93LUZuS25vY2stR2F0ZXdheQphc3NlcnRfdmFsdWUgc3JjIHdhbgphc3NlcnRfdmFsdWUgcHJvdG8gdGNwCmFzc2VydF92YWx1ZSBkZXN0X3BvcnQgNzk5OQphc3NlcnRfdmFsdWUgdGFyZ2V0IEFDQ0VQVAphc3NlcnRfdmFsdWUgZmFtaWx5IGFueQphc3NlcnRfdmFsdWUgZW5hYmxlZCAxClsgIiQodWNpIHNob3cgZmlyZXdhbGwgfCBncmVwIC1jICdmbl9rbm9ja19nYXRld2F5X2luZ3Jlc3M9cnVsZScpIiA9IDEgXSB8fCBmYWlsIGR1cGxpY2F0ZQpjcCAvZXRjL2NvbmZpZy9maXJld2FsbCAvdG1wL2JlZm9yZQoiJEhFTFBFUiIgYWxsb3cgd2FuIDc5OTkKY21wIC9ldGMvY29uZmlnL2ZpcmV3YWxsIC90bXAvYmVmb3JlIHx8IGZhaWwgJ3JlcGVhdCBjaGFuZ2VkIGNvbmZpZ3VyYXRpb24nClsgIiQod2MgLWwgPC90bXAvcmVsb2FkcykiID0gMiBdIHx8IGZhaWwgJ3JlcGVhdCBkaWQgbm90IHJldHJ5IHJlbG9hZCcKCiMgUmVhbCBycGNkIHNlc3Npb24gYW5kIGRlZmF1bHQgQ0xJIGRlbHRhcyBib3RoIHJlbWFpbiBzdGFnZWQsIG5vdCBjb21taXR0ZWQuClNJRD0iJCh1YnVzIGNhbGwgc2Vzc2lvbiBjcmVhdGUgJ3sidGltZW91dCI6MTIwfScgfCBqc29uZmlsdGVyIC1lICdALnVidXNfcnBjX3Nlc3Npb24nKSIKdWJ1cyBjYWxsIHNlc3Npb24gZ3JhbnQgIntcInVidXNfcnBjX3Nlc3Npb25cIjpcIiRTSURcIixcInNjb3BlXCI6XCJ1Y2lcIixcIm9iamVjdHNcIjpbW1wiZmlyZXdhbGxcIixcInJlYWRcIl0sW1wiZmlyZXdhbGxcIixcIndyaXRlXCJdXX0iID4vZGV2L251bGwKdWJ1cyBjYWxsIHVjaSBhZGQgIntcInVidXNfcnBjX3Nlc3Npb25cIjpcIiRTSURcIixcImNvbmZpZ1wiOlwiZmlyZXdhbGxcIixcInR5cGVcIjpcInJ1bGVcIixcIm5hbWVcIjpcInBlbmRpbmdfbHVjaVwifSIgPi9kZXYvbnVsbAp1Y2kgc2V0IGZpcmV3YWxsLnBlbmRpbmdfY2xpPXJ1bGUKc2V0X3BvcnQgODg4OApjcCAvZXRjL2NvbmZpZy9maXJld2FsbCAvdG1wL2JlZm9yZQpyZWxvYWRzPSIkKHdjIC1sIDwvdG1wL3JlbG9hZHMpIgpleHBlY3RfZXJyb3IgcGVuZGluZ19maXJld2FsbCBhbGxvdyB3YW4gODg4OApjbXAgL2V0Yy9jb25maWcvZmlyZXdhbGwgL3RtcC9iZWZvcmUgfHwgZmFpbCAncGVuZGluZyBDTEkgY2hhbmdlcyBtdXRhdGVkIGNvbW1pdHRlZCBjb25maWcnClsgIiQod2MgLWwgPC90bXAvcmVsb2FkcykiID0gIiRyZWxvYWRzIiBdIHx8IGZhaWwgJ3BlbmRpbmcgQ0xJIGNoYW5nZXMgd2VyZSBhY3RpdmF0ZWQnCiEgZ3JlcCAtcSBwZW5kaW5nXyAvZXRjL2NvbmZpZy9maXJld2FsbCB8fCBmYWlsICdjb21taXR0ZWQgYW5vdGhlciBzZXNzaW9uIGRlbHRhJwp1Y2kgY2hhbmdlcyBmaXJld2FsbCB8IGdyZXAgLXEgcGVuZGluZ19jbGkgfHwgZmFpbCAnbG9zdCBDTEkgZGVsdGEnCnVidXMgY2FsbCB1Y2kgY2hhbmdlcyAie1widWJ1c19ycGNfc2Vzc2lvblwiOlwiJFNJRFwiLFwiY29uZmlnXCI6XCJmaXJld2FsbFwifSIgfCBncmVwIC1xIHBlbmRpbmdfbHVjaSB8fCBmYWlsICdsb3N0IEx1Q0kgZGVsdGEnCnVjaSByZXZlcnQgZmlyZXdhbGwKIiRIRUxQRVIiIGFsbG93IHdhbiA4ODg4CmFzc2VydF92YWx1ZSBkZXN0X3BvcnQgODg4OAohIGdyZXAgLXEgcGVuZGluZ18gL2V0Yy9jb25maWcvZmlyZXdhbGwgfHwgZmFpbCAnY29tbWl0dGVkIEx1Q0kgZGVsdGEnCnVidXMgY2FsbCB1Y2kgY2hhbmdlcyAie1widWJ1c19ycGNfc2Vzc2lvblwiOlwiJFNJRFwiLFwiY29uZmlnXCI6XCJmaXJld2FsbFwifSIgfCBncmVwIC1xIHBlbmRpbmdfbHVjaSB8fCBmYWlsICdsb3N0IEx1Q0kgZGVsdGEgYWZ0ZXIgYWxsb3cnCnVidXMgY2FsbCBzZXNzaW9uIGRlc3Ryb3kgIntcInVidXNfcnBjX3Nlc3Npb25cIjpcIiRTSURcIn0iID4vZGV2L251bGwKCnVjaSBzZXQgZmlyZXdhbGwuZXh0ZXJuYWw9em9uZQp1Y2kgc2V0IGZpcmV3YWxsLmV4dGVybmFsLm5hbWU9ZXh0ZXJuYWwKdWNpIHNldCBmaXJld2FsbC5leHRlcm5hbC5pbnB1dD1SRUpFQ1QKdWNpIGNvbW1pdCBmaXJld2FsbAoiJEhFTFBFUiIgYWxsb3cgZXh0ZXJuYWwgODg4OAphc3NlcnRfdmFsdWUgc3JjIGV4dGVybmFsCiIkSEVMUEVSIiBzdGF0dXMgPi90bXAvcmVzdWx0CmdyZXAgLXEgZXh0ZXJuYWwgL3RtcC9yZXN1bHQgfHwgZmFpbCAnbWlzc2luZyBjdXN0b20gem9uZScKIyBab25lIGRpc2NvdmVyeSBkb2VzIG5vdCBhc3N1bWUgYSB3YW4gc2VjdGlvbiBvciBjcmVhdGUgb25lIGF1dG9tYXRpY2FsbHkuCnVjaSBzZXQgZmlyZXdhbGwuQHpvbmVbMV0ubmFtZT11cGxpbmsKdWNpIGNvbW1pdCBmaXJld2FsbAoiJEhFTFBFUiIgc3RhdHVzID4vdG1wL3Jlc3VsdApqc2huIC1SIC90bXAvcmVzdWx0ID4vZGV2L251bGwgfHwgZmFpbCAnaW52YWxpZCBjdXN0b20tem9uZSBzdGF0dXMnCiEganNvbmZpbHRlciAtaSAvdG1wL3Jlc3VsdCAtZSAnQC56b25lc1sqXScgfCBncmVwIC1xeCB3YW4gfHwgZmFpbCAnaW52ZW50ZWQgd2FuIHpvbmUnCmV4cGVjdF9lcnJvciBpbnZhbGlkX3pvbmUgYWxsb3cgd2FuIDg4ODgKIiRIRUxQRVIiIGFsbG93IHVwbGluayA4ODg4CmFzc2VydF92YWx1ZSBzcmMgdXBsaW5rCnVjaSBzZXQgZmlyZXdhbGwuQHpvbmVbMV0ubmFtZT13YW4KdWNpIGNvbW1pdCBmaXJld2FsbAoKY3AgL2V0Yy9jb25maWcvZmlyZXdhbGwgL3RtcC9iZWZvcmUKZXhwZWN0X2Vycm9yIGludmFsaWRfem9uZSBhbGxvdyBub25leGlzdGVudCA4ODg4CmV4cGVjdF9lcnJvciBpbnZhbGlkX3pvbmUgYWxsb3cgJ3dhbiI7dG91Y2ggL3RtcC9pbmplY3RlZCcgODg4OApleHBlY3RfZXJyb3IgcG9ydF9jaGFuZ2VkIGFsbG93IHdhbiA3OTk5CmV4cGVjdF9lcnJvciBpbnZhbGlkX2FyZ3VtZW50cyBzeW5jCmV4cGVjdF9lcnJvciBpbnZhbGlkX2FyZ3VtZW50cyByZW1vdmUKY21wIC9ldGMvY29uZmlnL2ZpcmV3YWxsIC90bXAvYmVmb3JlIHx8IGZhaWwgJ2ludmFsaWQgcmVxdWVzdCBtdXRhdGVkIGNvbmZpZ3VyYXRpb24nClsgISAtZSAvdG1wL2luamVjdGVkIF0gfHwgZmFpbCBpbmplY3Rpb24KCmZvciBleHRyYSBpbiBzcmNfaXAgZGVzdCB3ZWVrZGF5cyBpcHNldCBmdXR1cmVfb3B0aW9uOyBkbwoJdWNpIHNldCAiZmlyZXdhbGwuZm5fa25vY2tfZ2F0ZXdheV9pbmdyZXNzLiRleHRyYT1yZXN0cmljdGlvbiIKCXVjaSBjb21taXQgZmlyZXdhbGwKCWNwIC9ldGMvY29uZmlnL2ZpcmV3YWxsIC90bXAvYmVmb3JlCglleHBlY3RfZXJyb3IgY29uZmxpY3QgYWxsb3cgd2FuIDg4ODgKCWNtcCAvZXRjL2NvbmZpZy9maXJld2FsbCAvdG1wL2JlZm9yZSB8fCBmYWlsICdvdmVyd3JvdGUgcmVzdHJpY3Rpb24nCgl1Y2kgZGVsZXRlICJmaXJld2FsbC5mbl9rbm9ja19nYXRld2F5X2luZ3Jlc3MuJGV4dHJhIgoJdWNpIGNvbW1pdCBmaXJld2FsbApkb25lCnVjaSBzZXQgZmlyZXdhbGwuZm5fa25vY2tfZ2F0ZXdheV9pbmdyZXNzLm5hbWU9VXNlclJ1bGUKdWNpIGNvbW1pdCBmaXJld2FsbApleHBlY3RfZXJyb3IgY29uZmxpY3QgYWxsb3cgd2FuIDg4ODgKcmVzZXRfcnVsZQpmb3IgcG9ydCBpbiAwIDY1NTM2IGdhcmJhZ2UgJzE7ZWNobyBiYWQnOyBkbwoJc2V0X3BvcnQgIiRwb3J0IgoJZXhwZWN0X2Vycm9yIGludmFsaWRfcG9ydCBhbGxvdyB3YW4gNzk5OQpkb25lCnNldF9wb3J0IDA3OTk5CiIkSEVMUEVSIiBhbGxvdyB3YW4gNzk5OQphc3NlcnRfdmFsdWUgZGVzdF9wb3J0IDc5OTkKc2V0X3BvcnQgNzk5OQoKcmVzZXRfcnVsZQp0b3VjaCAvdG1wL2ZhaWwtd3JpdGUKZXhwZWN0X2Vycm9yIHdyaXRlX2ZhaWxlZCBhbGxvdyB3YW4gNzk5OQpybSAvdG1wL2ZhaWwtd3JpdGUKWyAhIC1zIC90bXAvcmVsb2FkcyBdIHx8IGZhaWwgJ3dyaXRlIGZhaWx1cmUgcmVsb2FkZWQnCiEgdWNpIC1xIGdldCBmaXJld2FsbC5mbl9rbm9ja19nYXRld2F5X2luZ3Jlc3MgfHwgZmFpbCAnd3JpdGUgZmFpbHVyZSBsZWFrZWQgcnVsZScKdG91Y2ggL3RtcC9mYWlsLWNvbW1pdApleHBlY3RfZXJyb3IgY29tbWl0X2ZhaWxlZCBhbGxvdyB3YW4gNzk5OQpybSAvdG1wL2ZhaWwtY29tbWl0CiEgdWNpIC1xIGdldCBmaXJld2FsbC5mbl9rbm9ja19nYXRld2F5X2luZ3Jlc3MgfHwgZmFpbCAnY29tbWl0IGZhaWx1cmUgbGVha2VkIHJ1bGUnClsgISAtZCAvdmFyL3J1bi9mbi1rbm9jay1maXJld2FsbC5sb2NrLmQgXSB8fCBmYWlsICdsZWFrZWQgbG9jaycKdG91Y2ggL3RtcC9mYWlsLXJlbG9hZApleHBlY3RfZXJyb3IgcmVsb2FkX2ZhaWxlZCBhbGxvdyB3YW4gNzk5OQphc3NlcnRfdmFsdWUgZGVzdF9wb3J0IDc5OTkKcm0gL3RtcC9mYWlsLXJlbG9hZAoiJEhFTFBFUiIgYWxsb3cgd2FuIDc5OTkKWyAiJCh3YyAtbCA8L3RtcC9yZWxvYWRzKSIgPSAyIF0gfHwgZmFpbCAnbWlzc2luZyByZWxvYWQgcmV0cnknCgpta2RpciAvdmFyL3J1bi9mbi1rbm9jay1maXJld2FsbC5sb2NrLmQKZXhwZWN0X2Vycm9yIGJ1c3kgYWxsb3cgd2FuIDc5OTkKcm1kaXIgL3Zhci9ydW4vZm4ta25vY2stZmlyZXdhbGwubG9jay5kCnRvdWNoIC90bXAvc2xvdy1yZWxvYWQKIiRIRUxQRVIiIGFsbG93IHdhbiA3OTk5ID4vdG1wL2ZpcnN0ICYKZmlyc3Q9JCEKc2xlZXAgMQoiJEhFTFBFUiIgYWxsb3cgZXh0ZXJuYWwgNzk5OSA+L3RtcC9zZWNvbmQgJgpzZWNvbmQ9JCEKd2FpdCAiJGZpcnN0Igp3YWl0ICIkc2Vjb25kIgpybSAvdG1wL3Nsb3ctcmVsb2FkCmFzc2VydF92YWx1ZSBzcmMgZXh0ZXJuYWwKWyAiJCh1Y2kgc2hvdyBmaXJld2FsbCB8IGdyZXAgLWMgJ2ZuX2tub2NrX2dhdGV3YXlfaW5ncmVzcz1ydWxlJykiID0gMSBdIHx8IGZhaWwgJ2NvbmN1cnJlbnQgZHVwbGljYXRlJwoKbXYgL3RtcC90ZXN0LWZpcmV3YWxsIC90bXAvdGVzdC1maXJld2FsbC1kaXNhYmxlZApleHBlY3RfZXJyb3IgdW5hdmFpbGFibGUgYWxsb3cgd2FuIDc5OTkKbXYgL3RtcC90ZXN0LWZpcmV3YWxsLWRpc2FibGVkIC90bXAvdGVzdC1maXJld2FsbAojIENvbXBpbGUgdGhlIHN0YW5kYXJkIFVDSSBydWxlIHdpdGggdGhlIGluc3RhbGxlZCBiYWNrZW5kLCB3aXRob3V0IG1vZGlmeWluZwojIHRoZSBob3N0L2NvbnRhaW5lciBwYWNrZXQgZmlsdGVyLiBLZXJuZWwgaW5ncmVzcy9yZWJvb3QgdGVzdHMgbmVlZCBhIHJvdXRlci4KIiRIRUxQRVIiIGFsbG93IHdhbiA3OTk5ID4vZGV2L251bGwKaWYgY29tbWFuZCAtdiBmdzQgPi9kZXYvbnVsbDsgdGhlbgoJZnc0IHByaW50ID4vdG1wL2NvbXBpbGVkIDI+L3RtcC9jb21waWxlLWVycm9ycyB8fCB7IGNhdCAvdG1wL2NvbXBpbGUtZXJyb3JzOyBmYWlsICdmdzQgY29tcGlsZSc7IH0KCWdyZXAgLXEgJ3RjcCBkcG9ydCA3OTk5LipBbGxvdy1Gbktub2NrLUdhdGV3YXknIC90bXAvY29tcGlsZWQgfHwgZmFpbCAnbWlzc2luZyBmdzQgcnVsZScKZWxpZiBjb21tYW5kIC12IGZ3MyA+L2Rldi9udWxsICYmIGdyZXAgLXEgZmlsdGVyIC9wcm9jL25ldC9pcF90YWJsZXNfbmFtZXM7IHRoZW4KCWZ3MyBwcmludCA+L3RtcC9jb21waWxlZCAyPi90bXAvY29tcGlsZS1lcnJvcnMgfHwgeyBjYXQgL3RtcC9jb21waWxlLWVycm9yczsgZmFpbCAnZnczIGNvbXBpbGUnOyB9CglncmVwIC1xICdBbGxvdy1Gbktub2NrLUdhdGV3YXknIC90bXAvY29tcGlsZWQgfHwgeyBjYXQgL3RtcC9jb21waWxlZCAvdG1wL2NvbXBpbGUtZXJyb3JzOyBmYWlsICdtaXNzaW5nIGZ3MyBydWxlJzsgfQplbHNlCgllY2hvICdTS0lQOiBmdzMgcnVsZSBnZW5lcmF0aW9uIHJlcXVpcmVzIGtlcm5lbCBpcHRhYmxlcyBmaWx0ZXIgc3VwcG9ydCwgdW5hdmFpbGFibGUgaW4gdGhpcyBjb250YWluZXIuJwpmaQplY2hvICdPcGVuV3J0IHJlYWwgdWJ1cy9ycGNkL1VDSSBmaXJld2FsbCB0ZXN0cyBwYXNzZWQnCg==
+#!/bin/sh
+set -eu
+HELPER=/workspace/deploy/openwrt/usr/libexec/fn-knock-firewall
+fail() { echo "FAIL: $*" >&2; exit 1; }
+assert_value() { [ "$(uci -q get "firewall.fn_knock_gateway_ingress.$1")" = "$2" ] || fail "$1 != $2"; }
+expect_error() {
+	local expected="$1"; shift
+	if "$HELPER" "$@" >/tmp/result 2>/tmp/error; then fail "expected $expected"; fi
+	grep -q "\"state\":\"$expected\"" /tmp/result || { cat /tmp/result /tmp/error; fail "wrong error $expected"; }
+}
+reset_rule() { uci -q delete firewall.fn_knock_gateway_ingress || true; uci commit firewall; : >/tmp/reloads; }
+set_port() { uci set "fn-knock.main.go_reproxy_port=$1"; uci commit fn-knock; }
+mkdir -p /var/run/ubus
+cp /workspace/deploy/openwrt/etc/config/fn-knock /etc/config/fn-knock
+cp "$HELPER" /usr/libexec/fn-knock-firewall
+cp /workspace/deploy/openwrt/usr/share/rpcd/acl.d/luci-app-fn-knock.json /usr/share/rpcd/acl.d/
+ubusd >/tmp/ubusd.log 2>&1 &
+sleep 1
+rpcd >/tmp/rpcd.log 2>&1 &
+sleep 1
+ubus list uci | grep -q uci || fail 'rpcd not running'
+# Exercise rpcd's actual ACL expansion for a read-only and a writable login.
+for user in reader writer; do
+	uci set "rpcd.$user=login"
+	uci set "rpcd.$user.username=$user"
+	uci set "rpcd.$user.password=\$p\$root"
+	uci add_list "rpcd.$user.read=luci-app-fn-knock"
+done
+uci add_list rpcd.writer.write=luci-app-fn-knock
+uci commit rpcd
+for user in reader writer; do
+	login="$(ubus call session login "{\"username\":\"$user\",\"password\":\"\"}")"
+	sid="$(printf '%s' "$login" | jsonfilter -e '@.ubus_rpc_session')"
+	[ -n "$sid" ] || fail 'ACL test login failed'
+	access="$(ubus call session access "{\"ubus_rpc_session\":\"$sid\",\"scope\":\"file\",\"object\":\"/usr/libexec/fn-knock-firewall status\",\"function\":\"exec\"}")"
+	printf '%s' "$access" | grep -q true || fail 'status ACL denied'
+	result="$(ubus call file exec "{\"ubus_rpc_session\":\"$sid\",\"command\":\"/usr/libexec/fn-knock-firewall\",\"params\":[\"status\"]}")"
+	[ "$(printf '%s' "$result" | jsonfilter -e '@.code')" = 0 ] || fail 'LuCI status execution failed'
+	output="$(printf '%s' "$result" | jsonfilter -e '@.stdout')"
+	jshn -r "$output" >/dev/null || fail 'invalid LuCI status output'
+	access="$(ubus call session access "{\"ubus_rpc_session\":\"$sid\",\"scope\":\"file\",\"object\":\"/usr/libexec/fn-knock-firewall allow wan 7999\",\"function\":\"exec\"}")"
+	if [ "$user" = writer ]; then expected=true; else expected=false; fi
+	printf '%s' "$access" | grep -q "$expected" || fail 'incorrect allow ACL'
+	access="$(ubus call session access "{\"ubus_rpc_session\":\"$sid\",\"scope\":\"uci\",\"object\":\"firewall\",\"function\":\"write\"}")"
+	printf '%s' "$access" | grep -q false || fail 'broad firewall write access granted'
+	ubus call session destroy "{\"ubus_rpc_session\":\"$sid\"}" >/dev/null
+done
+
+REAL_UBUS="$(command -v ubus)"
+export REAL_UBUS
+cat >/tmp/test-ubus <<'SH'
+#!/bin/sh
+case "$*" in
+  *'call uci commit '*) [ ! -f /tmp/fail-commit ] || exit 1 ;;
+  *'call uci add '*|*'call uci set '*) [ ! -f /tmp/fail-write ] || exit 1 ;;
+esac
+exec "$REAL_UBUS" "$@"
+SH
+cat >/tmp/test-firewall <<'SH'
+#!/bin/sh
+[ "$1" = reload ] || exit 1
+echo reload >>/tmp/reloads
+[ ! -f /tmp/slow-reload ] || sleep 2
+[ ! -f /tmp/fail-reload ]
+SH
+chmod +x /tmp/test-ubus /tmp/test-firewall
+# Fault injection belongs only in a temporary test copy, not production env.
+sed -e 's|^UBUS_BIN=ubus$|UBUS_BIN=/tmp/test-ubus|' \
+    -e 's|^FIREWALL_INIT=/etc/init.d/firewall$|FIREWALL_INIT=/tmp/test-firewall|' \
+    "$HELPER" >/tmp/test-helper
+chmod +x /tmp/test-helper
+HELPER=/tmp/test-helper
+cat >/tmp/untrusted-jshn <<'SH'
+touch /tmp/environment-executed
+SH
+FN_KNOCK_FIREWALL_JSHN_LIB=/tmp/untrusted-jshn \
+FN_KNOCK_FIREWALL_UBUS_BIN=/missing \
+FN_KNOCK_FIREWALL_INIT=/missing "$HELPER" status >/tmp/result
+[ ! -e /tmp/environment-executed ] || fail 'environment selected executable code'
+jshn -R /tmp/result >/dev/null || fail 'environment affected status'
+
+reset_rule
+cp /etc/config/firewall /tmp/before
+"$HELPER" status >/tmp/result
+cmp /etc/config/firewall /tmp/before || fail 'status mutated firewall'
+jshn -R /tmp/result >/dev/null || fail 'invalid status JSON'
+grep -q 'absent' /tmp/result || fail 'status absent'
+[ ! -s /tmp/reloads ] || fail 'status reloaded'
+
+"$HELPER" allow wan 7999
+assert_value name Allow-FnKnock-Gateway
+assert_value src wan
+assert_value proto tcp
+assert_value dest_port 7999
+assert_value target ACCEPT
+assert_value family any
+assert_value enabled 1
+[ "$(uci show firewall | grep -c 'fn_knock_gateway_ingress=rule')" = 1 ] || fail duplicate
+cp /etc/config/firewall /tmp/before
+"$HELPER" allow wan 7999
+cmp /etc/config/firewall /tmp/before || fail 'repeat changed configuration'
+[ "$(wc -l </tmp/reloads)" = 2 ] || fail 'repeat did not retry reload'
+
+# Real rpcd session and default CLI deltas both remain staged, not committed.
+SID="$(ubus call session create '{"timeout":120}' | jsonfilter -e '@.ubus_rpc_session')"
+ubus call session grant "{\"ubus_rpc_session\":\"$SID\",\"scope\":\"uci\",\"objects\":[[\"firewall\",\"read\"],[\"firewall\",\"write\"]]}" >/dev/null
+ubus call uci add "{\"ubus_rpc_session\":\"$SID\",\"config\":\"firewall\",\"type\":\"rule\",\"name\":\"pending_luci\"}" >/dev/null
+uci set firewall.pending_cli=rule
+set_port 8888
+cp /etc/config/firewall /tmp/before
+reloads="$(wc -l </tmp/reloads)"
+expect_error pending_firewall allow wan 8888
+cmp /etc/config/firewall /tmp/before || fail 'pending CLI changes mutated committed config'
+[ "$(wc -l </tmp/reloads)" = "$reloads" ] || fail 'pending CLI changes were activated'
+! grep -q pending_ /etc/config/firewall || fail 'committed another session delta'
+uci changes firewall | grep -q pending_cli || fail 'lost CLI delta'
+ubus call uci changes "{\"ubus_rpc_session\":\"$SID\",\"config\":\"firewall\"}" | grep -q pending_luci || fail 'lost LuCI delta'
+uci revert firewall
+"$HELPER" allow wan 8888
+assert_value dest_port 8888
+! grep -q pending_ /etc/config/firewall || fail 'committed LuCI delta'
+ubus call uci changes "{\"ubus_rpc_session\":\"$SID\",\"config\":\"firewall\"}" | grep -q pending_luci || fail 'lost LuCI delta after allow'
+ubus call session destroy "{\"ubus_rpc_session\":\"$SID\"}" >/dev/null
+
+uci set firewall.external=zone
+uci set firewall.external.name=external
+uci set firewall.external.input=REJECT
+uci commit firewall
+"$HELPER" allow external 8888
+assert_value src external
+"$HELPER" status >/tmp/result
+grep -q external /tmp/result || fail 'missing custom zone'
+# Zone discovery does not assume a wan section or create one automatically.
+uci set firewall.@zone[1].name=uplink
+uci commit firewall
+"$HELPER" status >/tmp/result
+jshn -R /tmp/result >/dev/null || fail 'invalid custom-zone status'
+! jsonfilter -i /tmp/result -e '@.zones[*]' | grep -qx wan || fail 'invented wan zone'
+expect_error invalid_zone allow wan 8888
+"$HELPER" allow uplink 8888
+assert_value src uplink
+uci set firewall.@zone[1].name=wan
+uci commit firewall
+
+cp /etc/config/firewall /tmp/before
+expect_error invalid_zone allow nonexistent 8888
+expect_error invalid_zone allow 'wan";touch /tmp/injected' 8888
+expect_error port_changed allow wan 7999
+expect_error invalid_arguments sync
+expect_error invalid_arguments remove
+cmp /etc/config/firewall /tmp/before || fail 'invalid request mutated configuration'
+[ ! -e /tmp/injected ] || fail injection
+
+for extra in src_ip dest weekdays ipset future_option; do
+	uci set "firewall.fn_knock_gateway_ingress.$extra=restriction"
+	uci commit firewall
+	cp /etc/config/firewall /tmp/before
+	expect_error conflict allow wan 8888
+	cmp /etc/config/firewall /tmp/before || fail 'overwrote restriction'
+	uci delete "firewall.fn_knock_gateway_ingress.$extra"
+	uci commit firewall
+done
+uci set firewall.fn_knock_gateway_ingress.name=UserRule
+uci commit firewall
+expect_error conflict allow wan 8888
+reset_rule
+for port in 0 65536 garbage '1;echo bad'; do
+	set_port "$port"
+	expect_error invalid_port allow wan 7999
+done
+set_port 07999
+"$HELPER" allow wan 7999
+assert_value dest_port 7999
+set_port 7999
+
+reset_rule
+touch /tmp/fail-write
+expect_error write_failed allow wan 7999
+rm /tmp/fail-write
+[ ! -s /tmp/reloads ] || fail 'write failure reloaded'
+! uci -q get firewall.fn_knock_gateway_ingress || fail 'write failure leaked rule'
+touch /tmp/fail-commit
+expect_error commit_failed allow wan 7999
+rm /tmp/fail-commit
+! uci -q get firewall.fn_knock_gateway_ingress || fail 'commit failure leaked rule'
+[ ! -d /var/run/fn-knock-firewall.lock.d ] || fail 'leaked lock'
+touch /tmp/fail-reload
+expect_error reload_failed allow wan 7999
+assert_value dest_port 7999
+rm /tmp/fail-reload
+"$HELPER" allow wan 7999
+[ "$(wc -l </tmp/reloads)" = 2 ] || fail 'missing reload retry'
+
+mkdir /var/run/fn-knock-firewall.lock.d
+expect_error busy allow wan 7999
+rmdir /var/run/fn-knock-firewall.lock.d
+touch /tmp/slow-reload
+"$HELPER" allow wan 7999 >/tmp/first &
+first=$!
+sleep 1
+"$HELPER" allow external 7999 >/tmp/second &
+second=$!
+wait "$first"
+wait "$second"
+rm /tmp/slow-reload
+assert_value src external
+[ "$(uci show firewall | grep -c 'fn_knock_gateway_ingress=rule')" = 1 ] || fail 'concurrent duplicate'
+
+mv /tmp/test-firewall /tmp/test-firewall-disabled
+expect_error unavailable allow wan 7999
+mv /tmp/test-firewall-disabled /tmp/test-firewall
+# Compile the standard UCI rule with the installed backend, without modifying
+# the host/container packet filter. Kernel ingress/reboot tests need a router.
+"$HELPER" allow wan 7999 >/dev/null
+if command -v fw4 >/dev/null; then
+	fw4 print >/tmp/compiled 2>/tmp/compile-errors || { cat /tmp/compile-errors; fail 'fw4 compile'; }
+	grep -q 'tcp dport 7999.*Allow-FnKnock-Gateway' /tmp/compiled || fail 'missing fw4 rule'
+elif command -v fw3 >/dev/null && grep -q filter /proc/net/ip_tables_names; then
+	fw3 print >/tmp/compiled 2>/tmp/compile-errors || { cat /tmp/compile-errors; fail 'fw3 compile'; }
+	grep -q 'Allow-FnKnock-Gateway' /tmp/compiled || { cat /tmp/compiled /tmp/compile-errors; fail 'missing fw3 rule'; }
+else
+	echo 'SKIP: fw3 rule generation requires kernel iptables filter support, unavailable in this container.'
+fi
+echo 'OpenWrt real ubus/rpcd/UCI firewall tests passed'

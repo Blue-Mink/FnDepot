@@ -1,1 +1,248 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaApzZXQgLWV1byBwaXBlZmFpbAoKQVBQX0hPTUU9Ii9vcHQvZm4ta25vY2siCkRBVEFfRElSPSIke0ZOX0tOT0NLX0RBVEFfRElSOi0vdmFyL2xpYi9mbi1rbm9ja30iCkdBVEVXQVlfQ09ORklHX0RJUj0iJHtGTl9LTk9DS19HQVRFV0FZX0NPTkZJR19ESVI6LS91c3IvbG9jYWwvZXRjL2ZuLWtub2NrfSIKQkFDS0VORF9QT1JUPSIke0JBQ0tFTkRfUE9SVDotNzk5OH0iCkFVVEhfUE9SVD0iJHtBVVRIX1BPUlQ6LTc5OTd9IgpBRE1JTl9WSUVXX1BPUlQ9IiR7QURNSU5fVklFV19QT1JUOi19IgpHT19CQUNLRU5EX1BPUlQ9IiR7R09fQkFDS0VORF9QT1JUOi03OTk2fSIKR09fUkVQUk9YWV9QT1JUPSIke0dPX1JFUFJPWFlfUE9SVDotNzk5OX0iCkJBQ0tFTkRfSE9TVD0iJHtCQUNLRU5EX0hPU1Q6LTEyNy4wLjAuMX0iCkFVVEhfSE9TVD0iJHtBVVRIX0hPU1Q6LTEyNy4wLjAuMX0iCkFETUlOX1ZJRVdfSE9TVD0iJHtBRE1JTl9WSUVXX0hPU1Q6LSR7QkFDS0VORF9IT1NUfX0iCkdPX0JBQ0tFTkRfR1JQQ19BRERSPSIke0dPX0JBQ0tFTkRfR1JQQ19BRERSOi0xMjcuMC4wLjE6JHtHT19CQUNLRU5EX1BPUlR9fSIKUlVTVF9CQUNLRU5EX0JJTj0iJHtSVVNUX0JBQ0tFTkRfQklOOi0ke0FQUF9IT01FfS9iaW4vc2VydmVyLWFkbWluLXJzfSIKR0FURVdBWV9CSU49IiR7QVBQX0hPTUV9L2Jpbi9nby1yZWF1dGgtcHJveHkiCkFETUlOX1NUQVRJQ19QQVRIPSIke0FQUF9IT01FfS91aS93d3ciCkFVVEhfU1RBVElDX1BBVEg9IiR7QVBQX0hPTUV9L3NlcnZlci1hdXRoLXZpZXcvZGlzdCIKQUNNRV9CVU5ETEVfWklQPSIke0FQUF9IT01FfS9zZXJ2ZXIvc2VydmVyLWFkbWluL3Jlc291cmNlcy9hY21lc2guemlwIgpBTFRDSEFfSE1BQ19LRVlfRklMRT0iJHtEQVRBX0RJUn0vYWx0Y2hhX2htYWNfa2V5IgpITUFDX1NFQ1JFVF9GSUxFPSIke0RBVEFfRElSfS9obWFjX3NlY3JldCIKSU5URVJOQUxfUlBDX1RPS0VOX0ZJTEU9IiR7REFUQV9ESVJ9L2ludGVybmFsX3JwY190b2tlbiIKQURNSU5fUFJPWFlfU0VDUkVUX0ZJTEU9IiR7REFUQV9ESVJ9L2FkbWluX3Byb3h5X3NlY3JldCIKTk9GSUxFX0xJTUlUPSIke0ZOX0tOT0NLX05PRklMRV9MSU1JVDotMTA0ODU3Nn0iClJVTlRJTUVfTE9HX0RJUj0iJHtEQVRBX0RJUn0vcnVudGltZS9sb2dzIgpTVVBFUlZJU09SX0xPRz0iJHtSVU5USU1FX0xPR19ESVJ9L3N1cGVydmlzb3IuanNvbmwiClNVUEVSVklTT1JfRVZFTlRTX0RJUj0iJHtEQVRBX0RJUn0vcnVudGltZS9zdXBlcnZpc29yLWV2ZW50cyIKCnN1cGVydmlzb3JfbG9nKCkgewogIGxvY2FsIGxldmVsPSIkMSIgY29tcG9uZW50PSIkMiIgZXZlbnQ9IiQzIiByZWFzb249IiQ0IiBleGl0X2NvZGU9IiR7NTotbnVsbH0iCiAgbG9jYWwgc2lnbmFsPSJudWxsIgogIGlmIFtbICIke2V4aXRfY29kZX0iID1+IF5bMC05XSskIF1dICYmIFsgIiR7ZXhpdF9jb2RlfSIgLWd0IDEyOCBdOyB0aGVuCiAgICBzaWduYWw9IiQoKGV4aXRfY29kZSAtIDEyOCkpIgogIGZpCiAgbWtkaXIgLXAgIiR7UlVOVElNRV9MT0dfRElSfSIKICBjaG1vZCA3MDAgIiR7REFUQV9ESVJ9L3J1bnRpbWUiICIke1JVTlRJTUVfTE9HX0RJUn0iIDI+L2Rldi9udWxsIHx8IHRydWUKICBpZiBbIC1mICIke1NVUEVSVklTT1JfTE9HfSIgXSAmJiBbICIkKHdjIC1jIDwgIiR7U1VQRVJWSVNPUl9MT0d9IikiIC1nZSA1MTYwOTYgXTsgdGhlbgogICAgbXYgLWYgIiR7U1VQRVJWSVNPUl9MT0d9IiAiJHtTVVBFUlZJU09SX0xPR30uMSIKICBmaQogIHByaW50ZiAneyJ0aW1lIjoiJXMiLCJsZXZlbCI6IiVzIiwiY29tcG9uZW50IjoiJXMiLCJldmVudCI6IiVzIiwicmVhc29uX2NvZGUiOiIlcyIsImZpZWxkcyI6eyJleGl0X2NvZGUiOiVzLCJzaWduYWwiOiVzfX1cbicgXAogICAgIiQoZGF0ZSAtdSAnKyVZLSVtLSVkVCVIOiVNOiVTWicpIiAiJHtsZXZlbH0iICIke2NvbXBvbmVudH0iICIke2V2ZW50fSIgIiR7cmVhc29ufSIgIiR7ZXhpdF9jb2RlfSIgIiR7c2lnbmFsfSIgPj4gIiR7U1VQRVJWSVNPUl9MT0d9IgogIGNobW9kIDYwMCAiJHtTVVBFUlZJU09SX0xPR30iIDI+L2Rldi9udWxsIHx8IHRydWUKICBta2RpciAtcCAiJHtTVVBFUlZJU09SX0VWRU5UU19ESVJ9IgogIGNobW9kIDcwMCAiJHtTVVBFUlZJU09SX0VWRU5UU19ESVJ9IiAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgbG9jYWwgaGludF90bXA9IiR7U1VQRVJWSVNPUl9FVkVOVFNfRElSfS8uaGludC0kJC0ke1JBTkRPTTotMH0udG1wIgogIGxvY2FsIGhpbnRfcGF0aD0iJHtTVVBFUlZJU09SX0VWRU5UU19ESVJ9LyQoZGF0ZSAtdSAnKyVzJyktJCQtJHtSQU5ET006LTB9LSR7ZXZlbnR9Lmpzb24iCiAgcHJpbnRmICd7InRpbWUiOiIlcyIsImxldmVsIjoiJXMiLCJjb21wb25lbnQiOiIlcyIsImV2ZW50IjoiJXMiLCJyZWFzb25fY29kZSI6IiVzIiwiZmllbGRzIjp7ImV4aXRfY29kZSI6JXMsInNpZ25hbCI6JXN9fVxuJyBcCiAgICAiJChkYXRlIC11ICcrJVktJW0tJWRUJUg6JU06JVNaJykiICIke2xldmVsfSIgIiR7Y29tcG9uZW50fSIgIiR7ZXZlbnR9IiAiJHtyZWFzb259IiAiJHtleGl0X2NvZGV9IiAiJHtzaWduYWx9IiA+ICIke2hpbnRfdG1wfSIKICBjaG1vZCA2MDAgIiR7aGludF90bXB9IiAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgbXYgLWYgIiR7aGludF90bXB9IiAiJHtoaW50X3BhdGh9IgogIGZpbmQgIiR7U1VQRVJWSVNPUl9FVkVOVFNfRElSfSIgLXR5cGUgZiAtbmFtZSAnKi5qc29uJyAtbXRpbWUgKzcgLWV4ZWMgcm0gLWYge30gXDsgMj4vZGV2L251bGwgfHwgdHJ1ZQogIGZpbmQgIiR7U1VQRVJWSVNPUl9FVkVOVFNfRElSfSIgLXR5cGUgZiAtbmFtZSAnLmhpbnQtKi50bXAnIC1tdGltZSArMSAtZXhlYyBybSAtZiB7fSBcOyAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgbG9jYWwgaGludHM9KCIke1NVUEVSVklTT1JfRVZFTlRTX0RJUn0iLyouanNvbikKICB3aGlsZSBbICIkeyNoaW50c1tAXX0iIC1ndCAzMiBdOyBkbyBybSAtZiAiJHtoaW50c1swXX0iOyBoaW50cz0oIiR7U1VQRVJWSVNPUl9FVkVOVFNfRElSfSIvKi5qc29uKTsgZG9uZQogIGxvY2FsIHRlbXBfaGludHM9KCIke1NVUEVSVklTT1JfRVZFTlRTX0RJUn0iLy5oaW50LSoudG1wKQogIHdoaWxlIFsgIiR7I3RlbXBfaGludHNbQF19IiAtZ3QgMzIgXTsgZG8gcm0gLWYgIiR7dGVtcF9oaW50c1swXX0iOyB0ZW1wX2hpbnRzPSgiJHtTVVBFUlZJU09SX0VWRU5UU19ESVJ9Ii8uaGludC0qLnRtcCk7IGRvbmUKfQoKZ2VuZXJhdGVfcmFuZG9tX2hleCgpIHsKICBpZiBjb21tYW5kIC12IG9wZW5zc2wgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBvcGVuc3NsIHJhbmQgLWhleCAzMgogICAgcmV0dXJuIDAKICBmaQogIG9kIC1BbiAtTjMyIC10eDEgL2Rldi91cmFuZG9tIHwgdHIgLWQgJyBcbicKfQoKbG9hZF9vcl9jcmVhdGVfc2VjcmV0KCkgewogIGxvY2FsIF9fdmFyX25hbWU9IiQxIgogIGxvY2FsIGZpbGVfcGF0aD0iJDIiCiAgbG9jYWwgY3VycmVudF92YWx1ZT0iJHshX192YXJfbmFtZTotfSIKCiAgaWYgWyAtbiAiJHtjdXJyZW50X3ZhbHVlfSIgXTsgdGhlbgogICAgZXhwb3J0ICIke19fdmFyX25hbWV9PSR7Y3VycmVudF92YWx1ZX0iCiAgICByZXR1cm4gMAogIGZpCgogIGlmIFsgLWYgIiR7ZmlsZV9wYXRofSIgXTsgdGhlbgogICAgY3VycmVudF92YWx1ZT0iJCh0ciAtZCAnXHJcbicgPCAiJHtmaWxlX3BhdGh9IikiCiAgZmkKCiAgaWYgWyAteiAiJHtjdXJyZW50X3ZhbHVlfSIgXTsgdGhlbgogICAgY3VycmVudF92YWx1ZT0iJChnZW5lcmF0ZV9yYW5kb21faGV4KSIKICAgIHByaW50ZiAnJXMnICIke2N1cnJlbnRfdmFsdWV9IiA+ICIke2ZpbGVfcGF0aH0iCiAgICBjaG1vZCA2MDAgIiR7ZmlsZV9wYXRofSIgMj4vZGV2L251bGwgfHwgdHJ1ZQogIGZpCgogIGV4cG9ydCAiJHtfX3Zhcl9uYW1lfT0ke2N1cnJlbnRfdmFsdWV9Igp9CgplbnN1cmVfcnVudGltZV9sYXlvdXQoKSB7CiAgbWtkaXIgLXAgXAogICAgIiR7REFUQV9ESVJ9IiBcCiAgICAiJHtEQVRBX0RJUn0vZnJwIiBcCiAgICAiJHtEQVRBX0RJUn0vZnJwL2luc3RhbmNlcyIgXAogICAgIiR7REFUQV9ESVJ9L2Nsb3VkZmxhcmVkIiBcCiAgICAiJHtEQVRBX0RJUn0vdXBkYXRlcyIgXAogICAgIiR7R0FURVdBWV9DT05GSUdfRElSfSIKfQoKcmFpc2Vfbm9maWxlX2xpbWl0KCkgewogIGxvY2FsIGxpbWl0PSIkezE6LSR7Tk9GSUxFX0xJTUlUfX0iCiAgbG9jYWwgaW5oZXJpdGVkX2hhcmQ9IiIKCiAgaWYgdWxpbWl0IC1IbiAiJHtsaW1pdH0iID4vZGV2L251bGwgMj4mMSAmJiB1bGltaXQgLVNuICIke2xpbWl0fSIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBlY2hvICJbZm4ta25vY2tdIFJhaXNlZCBub2ZpbGUgbGltaXQgdG8gc29mdD0ke2xpbWl0fSwgaGFyZD0ke2xpbWl0fSIKICAgIHJldHVybiAwCiAgZmkKCiAgaW5oZXJpdGVkX2hhcmQ9IiQodWxpbWl0IC1IbiAyPi9kZXYvbnVsbCB8fCB0cnVlKSIKICBpZiBbIC1uICIke2luaGVyaXRlZF9oYXJkfSIgXSAmJiBbICIke2luaGVyaXRlZF9oYXJkfSIgIT0gInVubGltaXRlZCIgXTsgdGhlbgogICAgaWYgdWxpbWl0IC1TbiAiJHtpbmhlcml0ZWRfaGFyZH0iID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgICBlY2hvICJbZm4ta25vY2tdIFVuYWJsZSB0byByYWlzZSBub2ZpbGUgaGFyZCBsaW1pdCB0byAke2xpbWl0fTsgcmFpc2VkIHNvZnQgbGltaXQgdG8gaW5oZXJpdGVkIGhhcmQ9JHtpbmhlcml0ZWRfaGFyZH0iID4mMgogICAgICByZXR1cm4gMAogICAgZmkKICBmaQoKICBlY2hvICJbZm4ta25vY2tdIFVuYWJsZSB0byByYWlzZSBub2ZpbGUgbGltaXQgdG8gc29mdD0ke2xpbWl0fSwgaGFyZD0ke2xpbWl0fSIgPiYyCiAgcmV0dXJuIDEKfQoKd2FpdF9mb3JfcHJvY2Vzc19vcl9mYWlsKCkgewogIGxvY2FsIHBpZD0iJDEiCiAgbG9jYWwgbmFtZT0iJDIiCgogIHNsZWVwIDEKICBpZiAhIGtpbGwgLTAgIiR7cGlkfSIgMj4vZGV2L251bGw7IHRoZW4KICAgIGVjaG8gIltmbi1rbm9ja10gJHtuYW1lfSBleGl0ZWQgZWFybHkiID4mMgogICAgc2V0ICtlCiAgICB3YWl0ICIke3BpZH0iCiAgICBsb2NhbCBzdGF0dXM9JD8KICAgIHNldCAtZQogICAgaWYgWyAiJHtuYW1lfSIgPSAiZ2F0ZXdheSIgXTsgdGhlbgogICAgICBzdXBlcnZpc29yX2xvZyBFUlJPUiBnYXRld2F5X3Byb2Nlc3MgZXhpdGVkIHN0YXJ0dXBfZXhpdCAiJHtzdGF0dXN9IiB8fCB0cnVlCiAgICBlbHNlCiAgICAgIHN1cGVydmlzb3JfbG9nIEVSUk9SIG1hbmFnZW1lbnQgZXhpdGVkIHN0YXJ0dXBfZXhpdCAiJHtzdGF0dXN9IiB8fCB0cnVlCiAgICBmaQogICAgZXhpdCAxCiAgZmkKfQoKdGVybWluYXRlX2NoaWxkKCkgewogIGxvY2FsIHBpZD0iJHsxOi19IgogIGlmIFsgLW4gIiR7cGlkfSIgXSAmJiBraWxsIC0wICIke3BpZH0iIDI+L2Rldi9udWxsOyB0aGVuCiAgICBraWxsICIke3BpZH0iIDI+L2Rldi9udWxsIHx8IHRydWUKICBmaQogIFsgLXogIiR7cGlkfSIgXSB8fCB3YWl0ICIke3BpZH0iIDI+L2Rldi9udWxsIHx8IHRydWUKfQoKY2xlYW51cCgpIHsKICBsb2NhbCBleGl0X2NvZGU9JD8KICB0cmFwIC0gRVhJVCBJTlQgVEVSTQoKICAjIERyYWluIHRoZSBwdWJsaWMgbGlzdGVuZXIgYmVmb3JlIHJlbW92aW5nIGl0cyBhdXRoZW50aWNhdGlvbiB1cHN0cmVhbS4KICB0ZXJtaW5hdGVfY2hpbGQgIiR7R0FURVdBWV9QSUQ6LX0iCiAgdGVybWluYXRlX2NoaWxkICIke0JBQ0tFTkRfUElEOi19IgogIGV4aXQgIiR7ZXhpdF9jb2RlfSIKfQoKc3RvcF9ncmFjZWZ1bGx5KCkgewogIHRyYXAgJycgSU5UIFRFUk0KICBzdXBlcnZpc29yX2xvZyBJTkZPIHN1cGVydmlzb3Igc3RvcF9yZXF1ZXN0ZWQgc2lnbmFsIG51bGwgfHwgdHJ1ZQogIGV4aXQgMAp9Cgp0cmFwIGNsZWFudXAgRVhJVAp0cmFwIHN0b3BfZ3JhY2VmdWxseSBJTlQgVEVSTQoKZW5zdXJlX3J1bnRpbWVfbGF5b3V0CnJhaXNlX25vZmlsZV9saW1pdCAiJHtOT0ZJTEVfTElNSVR9IiB8fCB0cnVlCmxvYWRfb3JfY3JlYXRlX3NlY3JldCBBTFRDSEFfSE1BQ19LRVkgIiR7QUxUQ0hBX0hNQUNfS0VZX0ZJTEV9Igpsb2FkX29yX2NyZWF0ZV9zZWNyZXQgSE1BQ19TRUNSRVQgIiR7SE1BQ19TRUNSRVRfRklMRX0iCmxvYWRfb3JfY3JlYXRlX3NlY3JldCBGTl9LTk9DS19JTlRFUk5BTF9SUENfVE9LRU4gIiR7SU5URVJOQUxfUlBDX1RPS0VOX0ZJTEV9Igpsb2FkX29yX2NyZWF0ZV9zZWNyZXQgQURNSU5fUFJPWFlfU0VDUkVUICIke0FETUlOX1BST1hZX1NFQ1JFVF9GSUxFfSIKClsgLXggIiR7R0FURVdBWV9CSU59IiBdIHx8IHsKICBlY2hvICJbZm4ta25vY2tdIGdhdGV3YXkgaXMgbm90IGV4ZWN1dGFibGU6ICR7R0FURVdBWV9CSU59IiA+JjIKICBleGl0IDEKfQpbIC14ICIke1JVU1RfQkFDS0VORF9CSU59IiBdIHx8IHsKICBlY2hvICJbZm4ta25vY2tdIFJ1c3QgYmFja2VuZCBpcyBub3QgZXhlY3V0YWJsZTogJHtSVVNUX0JBQ0tFTkRfQklOfSIgPiYyCiAgZXhpdCAxCn0KWyAtZCAiJHtBRE1JTl9TVEFUSUNfUEFUSH0iIF0gfHwgewogIGVjaG8gIltmbi1rbm9ja10gYWRtaW4gc3RhdGljIHBhdGggaXMgbWlzc2luZzogJHtBRE1JTl9TVEFUSUNfUEFUSH0iID4mMgogIGV4aXQgMQp9ClsgLWQgIiR7QVVUSF9TVEFUSUNfUEFUSH0iIF0gfHwgewogIGVjaG8gIltmbi1rbm9ja10gYXV0aCBzdGF0aWMgcGF0aCBpcyBtaXNzaW5nOiAke0FVVEhfU1RBVElDX1BBVEh9IiA+JjIKICBleGl0IDEKfQoKZWNobyAiW2ZuLWtub2NrXSBTdGFydGluZyBnYXRld2F5IG9uIGFkbWluICR7R09fQkFDS0VORF9QT1JUfSwgcHJveHkgJHtHT19SRVBST1hZX1BPUlR9IgpCQUNLRU5EX1BPUlQ9IiR7QkFDS0VORF9QT1JUfSIgXAogIEZOX0tOT0NLX0RBVEFfRElSPSIke0RBVEFfRElSfSIgXAogIEZOX0tOT0NLX0lOVEVSTkFMX1JQQ19UT0tFTj0iJHtGTl9LTk9DS19JTlRFUk5BTF9SUENfVE9LRU59IiBcCiAgIiR7R0FURVdBWV9CSU59IiBcCiAgICAtYyAiJHtHQVRFV0FZX0NPTkZJR19ESVJ9IiBcCiAgICAtYWRtaW4tcG9ydCAiJHtHT19CQUNLRU5EX1BPUlR9IiBcCiAgICAtcHJveHktcG9ydCAiJHtHT19SRVBST1hZX1BPUlR9IiAmCkdBVEVXQVlfUElEPSQhCndhaXRfZm9yX3Byb2Nlc3Nfb3JfZmFpbCAiJHtHQVRFV0FZX1BJRH0iICJnYXRld2F5IgpzdXBlcnZpc29yX2xvZyBJTkZPIGdhdGV3YXlfcHJvY2VzcyBzdGFydGVkIHN1cGVydmlzb3Jfc3RhcnQgbnVsbCB8fCB0cnVlCgppZiBbIC1uICIke0FETUlOX1ZJRVdfUE9SVH0iIF07IHRoZW4KICBlY2hvICJbZm4ta25vY2tdIFN0YXJ0aW5nIFJ1c3QgYmFja2VuZCBvbiAke0JBQ0tFTkRfSE9TVH06JHtCQUNLRU5EX1BPUlR9IChhZG1pbiB2aWV3ICR7QURNSU5fVklFV19IT1NUfToke0FETUlOX1ZJRVdfUE9SVH0pIgplbHNlCiAgZWNobyAiW2ZuLWtub2NrXSBTdGFydGluZyBSdXN0IGJhY2tlbmQgb24gJHtCQUNLRU5EX0hPU1R9OiR7QkFDS0VORF9QT1JUfSIKZmkKKAogIGNkICIke0FQUF9IT01FfSIgJiYgXAogIEFETUlOX1NUQVRJQ19QQVRIPSIke0FETUlOX1NUQVRJQ19QQVRIfSIgXAogIEFVVEhfU1RBVElDX1BBVEg9IiR7QVVUSF9TVEFUSUNfUEFUSH0iIFwKICBGTl9LTk9DS19EQVRBX0RJUj0iJHtEQVRBX0RJUn0iIFwKICBGTl9LTk9DS19HQVRFV0FZX0NPTkZJR19ESVI9IiR7R0FURVdBWV9DT05GSUdfRElSfSIgXAogIEZOX0tOT0NLX1JVTlRJTUVfVEFSR0VUPSJkb2NrZXIiIFwKICBGTl9LTk9DS19CQUNLRU5EX0lNUEw9InJ1c3QiIFwKICBBQ01FX0JVTkRMRV9aSVA9IiR7QUNNRV9CVU5ETEVfWklQfSIgXAogIEFETUlOX1ZJRVdfUE9SVD0iJHtBRE1JTl9WSUVXX1BPUlR9IiBcCiAgQkFDS0VORF9QT1JUPSIke0JBQ0tFTkRfUE9SVH0iIFwKICBBVVRIX1BPUlQ9IiR7QVVUSF9QT1JUfSIgXAogIEdPX0JBQ0tFTkRfUE9SVD0iJHtHT19CQUNLRU5EX1BPUlR9IiBcCiAgR09fUkVQUk9YWV9QT1JUPSIke0dPX1JFUFJPWFlfUE9SVH0iIFwKICBHT19CQUNLRU5EX0dSUENfQUREUj0iJHtHT19CQUNLRU5EX0dSUENfQUREUn0iIFwKICBGTl9LTk9DS19JTlRFUk5BTF9SUENfVE9LRU49IiR7Rk5fS05PQ0tfSU5URVJOQUxfUlBDX1RPS0VOfSIgXAogIEFETUlOX1ZJRVdfSE9TVD0iJHtBRE1JTl9WSUVXX0hPU1R9IiBcCiAgQkFDS0VORF9IT1NUPSIke0JBQ0tFTkRfSE9TVH0iIFwKICBBVVRIX0hPU1Q9IiR7QVVUSF9IT1NUfSIgXAogIEFMVENIQV9ITUFDX0tFWT0iJHtBTFRDSEFfSE1BQ19LRVl9IiBcCiAgSE1BQ19TRUNSRVQ9IiR7SE1BQ19TRUNSRVR9IiBcCiAgQURNSU5fUFJPWFlfU0VDUkVUPSIke0FETUlOX1BST1hZX1NFQ1JFVH0iIFwKICAiJHtSVVNUX0JBQ0tFTkRfQklOfSIKKSAmCkJBQ0tFTkRfUElEPSQhCndhaXRfZm9yX3Byb2Nlc3Nfb3JfZmFpbCAiJHtCQUNLRU5EX1BJRH0iICJSdXN0IGJhY2tlbmQiCnN1cGVydmlzb3JfbG9nIElORk8gbWFuYWdlbWVudCBzdGFydGVkIHN1cGVydmlzb3Jfc3RhcnQgbnVsbCB8fCB0cnVlCgplY2hvICJbZm4ta25vY2tdIFNlcnZpY2VzIGFyZSB1cCIKc2V0ICtlCndhaXQgLW4gIiR7R0FURVdBWV9QSUR9IiAiJHtCQUNLRU5EX1BJRH0iCmV4aXRlZF9zdGF0dXM9JD8Kc2V0IC1lCmlmIGtpbGwgLTAgIiR7R0FURVdBWV9QSUR9IiAyPi9kZXYvbnVsbDsgdGhlbgogIHN1cGVydmlzb3JfbG9nIEVSUk9SIG1hbmFnZW1lbnQgZXhpdGVkIHVuZXhwZWN0ZWRfZXhpdCAiJHtleGl0ZWRfc3RhdHVzfSIgfHwgdHJ1ZQplbHNlCiAgc3VwZXJ2aXNvcl9sb2cgRVJST1IgZ2F0ZXdheV9wcm9jZXNzIGV4aXRlZCB1bmV4cGVjdGVkX2V4aXQgIiR7ZXhpdGVkX3N0YXR1c30iIHx8IHRydWUKZmkKZXhpdCAxCg==
+#!/usr/bin/env bash
+set -euo pipefail
+
+APP_HOME="/opt/fn-knock"
+DATA_DIR="${FN_KNOCK_DATA_DIR:-/var/lib/fn-knock}"
+GATEWAY_CONFIG_DIR="${FN_KNOCK_GATEWAY_CONFIG_DIR:-/usr/local/etc/fn-knock}"
+BACKEND_PORT="${BACKEND_PORT:-7998}"
+AUTH_PORT="${AUTH_PORT:-7997}"
+ADMIN_VIEW_PORT="${ADMIN_VIEW_PORT:-}"
+GO_BACKEND_PORT="${GO_BACKEND_PORT:-7996}"
+GO_REPROXY_PORT="${GO_REPROXY_PORT:-7999}"
+BACKEND_HOST="${BACKEND_HOST:-127.0.0.1}"
+AUTH_HOST="${AUTH_HOST:-127.0.0.1}"
+ADMIN_VIEW_HOST="${ADMIN_VIEW_HOST:-${BACKEND_HOST}}"
+GO_BACKEND_GRPC_ADDR="${GO_BACKEND_GRPC_ADDR:-127.0.0.1:${GO_BACKEND_PORT}}"
+RUST_BACKEND_BIN="${RUST_BACKEND_BIN:-${APP_HOME}/bin/server-admin-rs}"
+GATEWAY_BIN="${APP_HOME}/bin/go-reauth-proxy"
+ADMIN_STATIC_PATH="${APP_HOME}/ui/www"
+AUTH_STATIC_PATH="${APP_HOME}/server-auth-view/dist"
+ACME_BUNDLE_ZIP="${APP_HOME}/server/server-admin/resources/acmesh.zip"
+ALTCHA_HMAC_KEY_FILE="${DATA_DIR}/altcha_hmac_key"
+HMAC_SECRET_FILE="${DATA_DIR}/hmac_secret"
+INTERNAL_RPC_TOKEN_FILE="${DATA_DIR}/internal_rpc_token"
+ADMIN_PROXY_SECRET_FILE="${DATA_DIR}/admin_proxy_secret"
+NOFILE_LIMIT="${FN_KNOCK_NOFILE_LIMIT:-1048576}"
+RUNTIME_LOG_DIR="${DATA_DIR}/runtime/logs"
+SUPERVISOR_LOG="${RUNTIME_LOG_DIR}/supervisor.jsonl"
+SUPERVISOR_EVENTS_DIR="${DATA_DIR}/runtime/supervisor-events"
+
+supervisor_log() {
+  local level="$1" component="$2" event="$3" reason="$4" exit_code="${5:-null}"
+  local signal="null"
+  if [[ "${exit_code}" =~ ^[0-9]+$ ]] && [ "${exit_code}" -gt 128 ]; then
+    signal="$((exit_code - 128))"
+  fi
+  mkdir -p "${RUNTIME_LOG_DIR}"
+  chmod 700 "${DATA_DIR}/runtime" "${RUNTIME_LOG_DIR}" 2>/dev/null || true
+  if [ -f "${SUPERVISOR_LOG}" ] && [ "$(wc -c < "${SUPERVISOR_LOG}")" -ge 516096 ]; then
+    mv -f "${SUPERVISOR_LOG}" "${SUPERVISOR_LOG}.1"
+  fi
+  printf '{"time":"%s","level":"%s","component":"%s","event":"%s","reason_code":"%s","fields":{"exit_code":%s,"signal":%s}}\n' \
+    "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" "${level}" "${component}" "${event}" "${reason}" "${exit_code}" "${signal}" >> "${SUPERVISOR_LOG}"
+  chmod 600 "${SUPERVISOR_LOG}" 2>/dev/null || true
+  mkdir -p "${SUPERVISOR_EVENTS_DIR}"
+  chmod 700 "${SUPERVISOR_EVENTS_DIR}" 2>/dev/null || true
+  local hint_tmp="${SUPERVISOR_EVENTS_DIR}/.hint-$$-${RANDOM:-0}.tmp"
+  local hint_path="${SUPERVISOR_EVENTS_DIR}/$(date -u '+%s')-$$-${RANDOM:-0}-${event}.json"
+  printf '{"time":"%s","level":"%s","component":"%s","event":"%s","reason_code":"%s","fields":{"exit_code":%s,"signal":%s}}\n' \
+    "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" "${level}" "${component}" "${event}" "${reason}" "${exit_code}" "${signal}" > "${hint_tmp}"
+  chmod 600 "${hint_tmp}" 2>/dev/null || true
+  mv -f "${hint_tmp}" "${hint_path}"
+  find "${SUPERVISOR_EVENTS_DIR}" -type f -name '*.json' -mtime +7 -exec rm -f {} \; 2>/dev/null || true
+  find "${SUPERVISOR_EVENTS_DIR}" -type f -name '.hint-*.tmp' -mtime +1 -exec rm -f {} \; 2>/dev/null || true
+  local hints=("${SUPERVISOR_EVENTS_DIR}"/*.json)
+  while [ "${#hints[@]}" -gt 32 ]; do rm -f "${hints[0]}"; hints=("${SUPERVISOR_EVENTS_DIR}"/*.json); done
+  local temp_hints=("${SUPERVISOR_EVENTS_DIR}"/.hint-*.tmp)
+  while [ "${#temp_hints[@]}" -gt 32 ]; do rm -f "${temp_hints[0]}"; temp_hints=("${SUPERVISOR_EVENTS_DIR}"/.hint-*.tmp); done
+}
+
+generate_random_hex() {
+  if command -v openssl >/dev/null 2>&1; then
+    openssl rand -hex 32
+    return 0
+  fi
+  od -An -N32 -tx1 /dev/urandom | tr -d ' \n'
+}
+
+load_or_create_secret() {
+  local __var_name="$1"
+  local file_path="$2"
+  local current_value="${!__var_name:-}"
+
+  if [ -n "${current_value}" ]; then
+    export "${__var_name}=${current_value}"
+    return 0
+  fi
+
+  if [ -f "${file_path}" ]; then
+    current_value="$(tr -d '\r\n' < "${file_path}")"
+  fi
+
+  if [ -z "${current_value}" ]; then
+    current_value="$(generate_random_hex)"
+    printf '%s' "${current_value}" > "${file_path}"
+    chmod 600 "${file_path}" 2>/dev/null || true
+  fi
+
+  export "${__var_name}=${current_value}"
+}
+
+ensure_runtime_layout() {
+  mkdir -p \
+    "${DATA_DIR}" \
+    "${DATA_DIR}/frp" \
+    "${DATA_DIR}/frp/instances" \
+    "${DATA_DIR}/cloudflared" \
+    "${DATA_DIR}/updates" \
+    "${GATEWAY_CONFIG_DIR}"
+}
+
+raise_nofile_limit() {
+  local limit="${1:-${NOFILE_LIMIT}}"
+  local inherited_hard=""
+
+  if ulimit -Hn "${limit}" >/dev/null 2>&1 && ulimit -Sn "${limit}" >/dev/null 2>&1; then
+    echo "[fn-knock] Raised nofile limit to soft=${limit}, hard=${limit}"
+    return 0
+  fi
+
+  inherited_hard="$(ulimit -Hn 2>/dev/null || true)"
+  if [ -n "${inherited_hard}" ] && [ "${inherited_hard}" != "unlimited" ]; then
+    if ulimit -Sn "${inherited_hard}" >/dev/null 2>&1; then
+      echo "[fn-knock] Unable to raise nofile hard limit to ${limit}; raised soft limit to inherited hard=${inherited_hard}" >&2
+      return 0
+    fi
+  fi
+
+  echo "[fn-knock] Unable to raise nofile limit to soft=${limit}, hard=${limit}" >&2
+  return 1
+}
+
+wait_for_process_or_fail() {
+  local pid="$1"
+  local name="$2"
+
+  sleep 1
+  if ! kill -0 "${pid}" 2>/dev/null; then
+    echo "[fn-knock] ${name} exited early" >&2
+    set +e
+    wait "${pid}"
+    local status=$?
+    set -e
+    if [ "${name}" = "gateway" ]; then
+      supervisor_log ERROR gateway_process exited startup_exit "${status}" || true
+    else
+      supervisor_log ERROR management exited startup_exit "${status}" || true
+    fi
+    exit 1
+  fi
+}
+
+terminate_child() {
+  local pid="${1:-}"
+  if [ -n "${pid}" ] && kill -0 "${pid}" 2>/dev/null; then
+    kill "${pid}" 2>/dev/null || true
+  fi
+  [ -z "${pid}" ] || wait "${pid}" 2>/dev/null || true
+}
+
+cleanup() {
+  local exit_code=$?
+  trap - EXIT INT TERM
+
+  # Drain the public listener before removing its authentication upstream.
+  terminate_child "${GATEWAY_PID:-}"
+  terminate_child "${BACKEND_PID:-}"
+  exit "${exit_code}"
+}
+
+stop_gracefully() {
+  trap '' INT TERM
+  supervisor_log INFO supervisor stop_requested signal null || true
+  exit 0
+}
+
+trap cleanup EXIT
+trap stop_gracefully INT TERM
+
+ensure_runtime_layout
+raise_nofile_limit "${NOFILE_LIMIT}" || true
+load_or_create_secret ALTCHA_HMAC_KEY "${ALTCHA_HMAC_KEY_FILE}"
+load_or_create_secret HMAC_SECRET "${HMAC_SECRET_FILE}"
+load_or_create_secret FN_KNOCK_INTERNAL_RPC_TOKEN "${INTERNAL_RPC_TOKEN_FILE}"
+load_or_create_secret ADMIN_PROXY_SECRET "${ADMIN_PROXY_SECRET_FILE}"
+
+[ -x "${GATEWAY_BIN}" ] || {
+  echo "[fn-knock] gateway is not executable: ${GATEWAY_BIN}" >&2
+  exit 1
+}
+[ -x "${RUST_BACKEND_BIN}" ] || {
+  echo "[fn-knock] Rust backend is not executable: ${RUST_BACKEND_BIN}" >&2
+  exit 1
+}
+[ -d "${ADMIN_STATIC_PATH}" ] || {
+  echo "[fn-knock] admin static path is missing: ${ADMIN_STATIC_PATH}" >&2
+  exit 1
+}
+[ -d "${AUTH_STATIC_PATH}" ] || {
+  echo "[fn-knock] auth static path is missing: ${AUTH_STATIC_PATH}" >&2
+  exit 1
+}
+
+echo "[fn-knock] Starting gateway on admin ${GO_BACKEND_PORT}, proxy ${GO_REPROXY_PORT}"
+BACKEND_PORT="${BACKEND_PORT}" \
+  FN_KNOCK_DATA_DIR="${DATA_DIR}" \
+  FN_KNOCK_INTERNAL_RPC_TOKEN="${FN_KNOCK_INTERNAL_RPC_TOKEN}" \
+  "${GATEWAY_BIN}" \
+    -c "${GATEWAY_CONFIG_DIR}" \
+    -admin-port "${GO_BACKEND_PORT}" \
+    -proxy-port "${GO_REPROXY_PORT}" &
+GATEWAY_PID=$!
+wait_for_process_or_fail "${GATEWAY_PID}" "gateway"
+supervisor_log INFO gateway_process started supervisor_start null || true
+
+if [ -n "${ADMIN_VIEW_PORT}" ]; then
+  echo "[fn-knock] Starting Rust backend on ${BACKEND_HOST}:${BACKEND_PORT} (admin view ${ADMIN_VIEW_HOST}:${ADMIN_VIEW_PORT})"
+else
+  echo "[fn-knock] Starting Rust backend on ${BACKEND_HOST}:${BACKEND_PORT}"
+fi
+(
+  cd "${APP_HOME}" && \
+  ADMIN_STATIC_PATH="${ADMIN_STATIC_PATH}" \
+  AUTH_STATIC_PATH="${AUTH_STATIC_PATH}" \
+  FN_KNOCK_DATA_DIR="${DATA_DIR}" \
+  FN_KNOCK_GATEWAY_CONFIG_DIR="${GATEWAY_CONFIG_DIR}" \
+  FN_KNOCK_RUNTIME_TARGET="docker" \
+  FN_KNOCK_BACKEND_IMPL="rust" \
+  ACME_BUNDLE_ZIP="${ACME_BUNDLE_ZIP}" \
+  ADMIN_VIEW_PORT="${ADMIN_VIEW_PORT}" \
+  BACKEND_PORT="${BACKEND_PORT}" \
+  AUTH_PORT="${AUTH_PORT}" \
+  GO_BACKEND_PORT="${GO_BACKEND_PORT}" \
+  GO_REPROXY_PORT="${GO_REPROXY_PORT}" \
+  GO_BACKEND_GRPC_ADDR="${GO_BACKEND_GRPC_ADDR}" \
+  FN_KNOCK_INTERNAL_RPC_TOKEN="${FN_KNOCK_INTERNAL_RPC_TOKEN}" \
+  ADMIN_VIEW_HOST="${ADMIN_VIEW_HOST}" \
+  BACKEND_HOST="${BACKEND_HOST}" \
+  AUTH_HOST="${AUTH_HOST}" \
+  ALTCHA_HMAC_KEY="${ALTCHA_HMAC_KEY}" \
+  HMAC_SECRET="${HMAC_SECRET}" \
+  ADMIN_PROXY_SECRET="${ADMIN_PROXY_SECRET}" \
+  "${RUST_BACKEND_BIN}"
+) &
+BACKEND_PID=$!
+wait_for_process_or_fail "${BACKEND_PID}" "Rust backend"
+supervisor_log INFO management started supervisor_start null || true
+
+echo "[fn-knock] Services are up"
+set +e
+wait -n "${GATEWAY_PID}" "${BACKEND_PID}"
+exited_status=$?
+set -e
+if kill -0 "${GATEWAY_PID}" 2>/dev/null; then
+  supervisor_log ERROR management exited unexpected_exit "${exited_status}" || true
+else
+  supervisor_log ERROR gateway_process exited unexpected_exit "${exited_status}" || true
+fi
+exit 1

@@ -1,1 +1,39 @@
-aW1wb3J0IHsgb25Vbm1vdW50ZWQsIHJlZiwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyBEZWVwTW9uaXRvckFQSSB9IGZyb20gIkAvbGliL2FwaS9kZWVwLW1vbml0b3IiOwppbXBvcnQgeyBub3JtYWxpemVIb3N0TGlrZSB9IGZyb20gIi4vbW9kZWwiOwppbXBvcnQgeyBjcmVhdGVWaXNpYmlsaXR5UG9sbGVyIH0gZnJvbSAiQC9jb21wb3NhYmxlcy91c2VWaXNpYmlsaXR5UG9sbGluZyI7CgpleHBvcnQgY29uc3QgdXNlQWN0aXZlRGVlcE1vbml0b3JzID0gKGVuYWJsZWQ6ICgpID0+IGJvb2xlYW4pID0+IHsKICBjb25zdCBhY3RpdmVIb3N0cyA9IHJlZjxzdHJpbmdbXT4oW10pOwogIGNvbnN0IHJlZnJlc2ggPSBhc3luYyAoKSA9PiB7CiAgICB0cnkgewogICAgICBjb25zdCBzZXNzaW9ucyA9IGF3YWl0IERlZXBNb25pdG9yQVBJLmxpc3QoKTsKICAgICAgYWN0aXZlSG9zdHMudmFsdWUgPSBzZXNzaW9ucwogICAgICAgIC5maWx0ZXIoKHNlc3Npb24pID0+IHNlc3Npb24uc3RhdGUgPT09ICJhY3RpdmUiKQogICAgICAgIC5tYXAoKHNlc3Npb24pID0+IG5vcm1hbGl6ZUhvc3RMaWtlKHNlc3Npb24uaG9zdCkpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgY29uc29sZS53YXJuKCJsb2FkIGFjdGl2ZSBkZWVwIG1vbml0b3JzIGZhaWxlZDoiLCBlcnJvcik7CiAgICB9CiAgfTsKCiAgY29uc3QgcG9sbGVyID0gY3JlYXRlVmlzaWJpbGl0eVBvbGxlcih7CiAgICBpbnRlcnZhbE1zOiA1XzAwMCwKICAgIGVuYWJsZWQsCiAgICB0YXNrOiByZWZyZXNoLAogIH0pOwogIHBvbGxlci5zdGFydCgpOwoKICB3YXRjaCgKICAgIGVuYWJsZWQsCiAgICAoYXZhaWxhYmxlKSA9PiB7CiAgICAgIHBvbGxlci5zeW5jKCk7CiAgICAgIGlmICghYXZhaWxhYmxlKSB7CiAgICAgICAgYWN0aXZlSG9zdHMudmFsdWUgPSBbXTsKICAgICAgfQogICAgfSwKICAgIHsgaW1tZWRpYXRlOiB0cnVlIH0sCiAgKTsKICBvblVubW91bnRlZChwb2xsZXIuc3RvcCk7CgogIHJldHVybiBhY3RpdmVIb3N0czsKfTsK
+import { onUnmounted, ref, watch } from "vue";
+import { DeepMonitorAPI } from "@/lib/api/deep-monitor";
+import { normalizeHostLike } from "./model";
+import { createVisibilityPoller } from "@/composables/useVisibilityPolling";
+
+export const useActiveDeepMonitors = (enabled: () => boolean) => {
+  const activeHosts = ref<string[]>([]);
+  const refresh = async () => {
+    try {
+      const sessions = await DeepMonitorAPI.list();
+      activeHosts.value = sessions
+        .filter((session) => session.state === "active")
+        .map((session) => normalizeHostLike(session.host));
+    } catch (error) {
+      console.warn("load active deep monitors failed:", error);
+    }
+  };
+
+  const poller = createVisibilityPoller({
+    intervalMs: 5_000,
+    enabled,
+    task: refresh,
+  });
+  poller.start();
+
+  watch(
+    enabled,
+    (available) => {
+      poller.sync();
+      if (!available) {
+        activeHosts.value = [];
+      }
+    },
+    { immediate: true },
+  );
+  onUnmounted(poller.stop);
+
+  return activeHosts;
+};

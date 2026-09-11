@@ -1,1 +1,440 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgpjb25zdCByZWFkT3B0aW1pemF0aW9uVWkgPSAoKSA9PgogIFsKICAgICIuLi9zcmMvdmlld3MvdHVubmVsL2Nsb3VkZmxhcmUvQ2xvdWRmbGFyZU9wdGltaXphdGlvbkNhcmQudnVlIiwKICAgICIuLi9zcmMvdmlld3MvdHVubmVsL2Nsb3VkZmxhcmUvQ2xvdWRmbGFyZU9wdGltaXphdGlvbk92ZXJ2aWV3LnZ1ZSIsCiAgICAiLi4vc3JjL3ZpZXdzL3R1bm5lbC9jbG91ZGZsYXJlL0Nsb3VkZmxhcmVPcHRpbWl6YXRpb25Eb21haW5zLnZ1ZSIsCiAgICAiLi4vc3JjL3ZpZXdzL3R1bm5lbC9jbG91ZGZsYXJlL0Nsb3VkZmxhcmVPcHRpbWl6YXRpb25UZWNobmljYWxTdGF0dXMudnVlIiwKICAgICIuLi9zcmMvdmlld3MvdHVubmVsL2Nsb3VkZmxhcmUvQ2xvdWRmbGFyZU9wdGltaXphdGlvblNvdXJjZVNldHRpbmdzLnZ1ZSIsCiAgICAiLi4vc3JjL3ZpZXdzL3R1bm5lbC9jbG91ZGZsYXJlL0Nsb3VkZmxhcmVPcHRpbWl6YXRpb25TY2FuUmVzdWx0cy52dWUiLAogICAgIi4uL3NyYy92aWV3cy90dW5uZWwvY2xvdWRmbGFyZS91c2VDbG91ZGZsYXJlT3B0aW1pemF0aW9uQ2FyZFByZXNlbnRhdGlvbi50cyIsCiAgXQogICAgLm1hcChyZWFkU291cmNlKQogICAgLmpvaW4oIlxuIik7Cgpjb25zdCByZWFkTWFuYWdlZFVpID0gKCkgPT4KICBbCiAgICAiLi4vc3JjL3ZpZXdzL3R1bm5lbC9jbG91ZGZsYXJlL0Nsb3VkZmxhcmVNYW5hZ2VkVHVubmVsQ2FyZC52dWUiLAogICAgIi4uL3NyYy92aWV3cy90dW5uZWwvY2xvdWRmbGFyZS9DbG91ZGZsYXJlUmVjb25jaWxlUGxhbi52dWUiLAogICAgIi4uL3NyYy92aWV3cy90dW5uZWwvY2xvdWRmbGFyZS9jbG91ZGZsYXJlTWFuYWdlZFByZXNlbnRhdGlvbi50cyIsCiAgXQogICAgLm1hcChyZWFkU291cmNlKQogICAgLmpvaW4oIlxuIik7Cgpjb25zdCByZWFkT3B0aW1pemF0aW9uQmFja2VuZCA9ICgpID0+CiAgWwogICAgIi4uLy4uL3NlcnZlci1hZG1pbi1ycy9zcmMvdHVubmVscy9jbG91ZGZsYXJlZC9vcHRpbWl6YXRpb24ucnMiLAogICAgIi4uLy4uL3NlcnZlci1hZG1pbi1ycy9zcmMvdHVubmVscy9jbG91ZGZsYXJlZC9vcHRpbWl6YXRpb24vYXBpLnJzIiwKICAgICIuLi8uLi9zZXJ2ZXItYWRtaW4tcnMvc3JjL3R1bm5lbHMvY2xvdWRmbGFyZWQvb3B0aW1pemF0aW9uL2NsZWFudXBfc25hcHNob3QucnMiLAogICAgIi4uLy4uL3NlcnZlci1hZG1pbi1ycy9zcmMvdHVubmVscy9jbG91ZGZsYXJlZC9vcHRpbWl6YXRpb24vY29vcmRpbmF0aW9uLnJzIiwKICAgICIuLi8uLi9zZXJ2ZXItYWRtaW4tcnMvc3JjL3R1bm5lbHMvY2xvdWRmbGFyZWQvb3B0aW1pemF0aW9uL2ZhbGxiYWNrX29yaWdpbi5ycyIsCiAgICAiLi4vLi4vc2VydmVyLWFkbWluLXJzL3NyYy90dW5uZWxzL2Nsb3VkZmxhcmVkL29wdGltaXphdGlvbi9tb2RlbC5ycyIsCiAgICAiLi4vLi4vc2VydmVyLWFkbWluLXJzL3NyYy90dW5uZWxzL2Nsb3VkZmxhcmVkL29wdGltaXphdGlvbi9wcmV2aWV3LnJzIiwKICAgICIuLi8uLi9zZXJ2ZXItYWRtaW4tcnMvc3JjL3R1bm5lbHMvY2xvdWRmbGFyZWQvb3B0aW1pemF0aW9uL3Byb2Jlcy5ycyIsCiAgICAiLi4vLi4vc2VydmVyLWFkbWluLXJzL3NyYy90dW5uZWxzL2Nsb3VkZmxhcmVkL29wdGltaXphdGlvbi9wdWJsaWNfc3RhdGUucnMiLAogICAgIi4uLy4uL3NlcnZlci1hZG1pbi1ycy9zcmMvdHVubmVscy9jbG91ZGZsYXJlZC9vcHRpbWl6YXRpb24vcmVjb3ZlcnkucnMiLAogICAgIi4uLy4uL3NlcnZlci1hZG1pbi1ycy9zcmMvdHVubmVscy9jbG91ZGZsYXJlZC9vcHRpbWl6YXRpb24vcmVzb2x2ZXJzLnJzIiwKICAgICIuLi8uLi9zZXJ2ZXItYWRtaW4tcnMvc3JjL3R1bm5lbHMvY2xvdWRmbGFyZWQvb3B0aW1pemF0aW9uL3Jlc291cmNlX2NsZWFudXAucnMiLAogICAgIi4uLy4uL3NlcnZlci1hZG1pbi1ycy9zcmMvdHVubmVscy9jbG91ZGZsYXJlZC9vcHRpbWl6YXRpb24vcmVzb3VyY2VfcmVjb25jaWxlLnJzIiwKICAgICIuLi8uLi9zZXJ2ZXItYWRtaW4tcnMvc3JjL3R1bm5lbHMvY2xvdWRmbGFyZWQvb3B0aW1pemF0aW9uL3J1bnRpbWUucnMiLAogICAgIi4uLy4uL3NlcnZlci1hZG1pbi1ycy9zcmMvdHVubmVscy9jbG91ZGZsYXJlZC9vcHRpbWl6YXRpb24vc2Nhbi5ycyIsCiAgICAiLi4vLi4vc2VydmVyLWFkbWluLXJzL3NyYy90dW5uZWxzL2Nsb3VkZmxhcmVkL29wdGltaXphdGlvbi9zY2hlZHVsZXIucnMiLAogICAgIi4uLy4uL3NlcnZlci1hZG1pbi1ycy9zcmMvdHVubmVscy9jbG91ZGZsYXJlZC9vcHRpbWl6YXRpb24vc2V0dGluZ3MucnMiLAogICAgIi4uLy4uL3NlcnZlci1hZG1pbi1ycy9zcmMvdHVubmVscy9jbG91ZGZsYXJlZC9vcHRpbWl6YXRpb24vc3RhdGVfaGVscGVycy5ycyIsCiAgICAiLi4vLi4vc2VydmVyLWFkbWluLXJzL3NyYy90dW5uZWxzL2Nsb3VkZmxhcmVkL29wdGltaXphdGlvbi93YXJuaW5ncy5ycyIsCiAgXQogICAgLm1hcChyZWFkU291cmNlKQogICAgLmpvaW4oIlxuIik7Cgp0eXBlIENvbnRyYWN0U2NoZW1hID0gewogIGVudW0/OiBzdHJpbmdbXTsKICBwcm9wZXJ0aWVzPzogUmVjb3JkPHN0cmluZywgQ29udHJhY3RTY2hlbWE+OwogIHJlcXVpcmVkPzogc3RyaW5nW107CiAgd3JpdGVPbmx5PzogYm9vbGVhbjsKfTsKCmNvbnN0IHJlYWRDb250cmFjdCA9ICgpID0+CiAgSlNPTi5wYXJzZShyZWFkU291cmNlKCIuLi8uLi8uLi9wYWNrYWdlcy9hcGktY29udHJhY3Qvb3BlbmFwaS5qc29uIikpIGFzIHsKICAgIGNvbXBvbmVudHM6IHsgc2NoZW1hczogUmVjb3JkPHN0cmluZywgQ29udHJhY3RTY2hlbWE+IH07CiAgfTsKCmRlc2NyaWJlKCJtYW5hZ2VkIENsb3VkZmxhcmUgVHVubmVsIiwgKCkgPT4gewogIGl0KCJrZWVwcyBydW50aW1lLCBtYW5hZ2VkIHJlY29uY2lsaWF0aW9uLCBhbmQgb3B0aW1pemF0aW9uIGxpZmVjeWNsZXMgaXNvbGF0ZWQiLCAoKSA9PiB7CiAgICBjb25zdCBjb250cm9sbGVyID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy90dW5uZWwvY2xvdWRmbGFyZS91c2VDbG91ZGZsYXJlVHVubmVsQ29udHJvbGxlci50cyIsCiAgICApOwogICAgY29uc3QgcHJlc2VudGF0aW9uID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy90dW5uZWwvY2xvdWRmbGFyZS9jbG91ZGZsYXJlT3B0aW1pemF0aW9uUHJlc2VudGF0aW9uLnRzIiwKICAgICk7CiAgICBmb3IgKGNvbnN0IGNvbXBvc2FibGUgb2YgWwogICAgICAidXNlQ2xvdWRmbGFyZWRSdW50aW1lIiwKICAgICAgInVzZUNsb3VkZmxhcmVNYW5hZ2VkVHVubmVsIiwKICAgICAgInVzZUNsb3VkZmxhcmVPcHRpbWl6YXRpb24iLAogICAgXSkgewogICAgICBhc3NlcnQubWF0Y2goY29udHJvbGxlciwgbmV3IFJlZ0V4cChjb21wb3NhYmxlLCAidSIpKTsKICAgIH0KICAgIGFzc2VydC5kb2VzTm90TWF0Y2goY29udHJvbGxlciwgL0Nsb3VkZmxhcmVkQVBJL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChwcmVzZW50YXRpb24sIC91c2VDbG91ZGZsYXJlVHVubmVsQ29udHJvbGxlci91KTsKICAgIGFzc2VydC5tYXRjaChwcmVzZW50YXRpb24sIC9DbG91ZGZsYXJlVHJhbnNsYXRlL3UpOwogIH0pOwoKICBpdCgiZXhwb3NlcyB0aGUgY3JlZGVudGlhbCwgcmVjb25jaWxlLCBzY2FuLCBhcHBseSwgYW5kIGZhbGxiYWNrIGNvbnRyYWN0cyIsICgpID0+IHsKICAgIGNvbnN0IHNvdXJjZSA9IHJlYWRTb3VyY2UoIi4uL3NyYy9saWIvYXBpL3R1bm5lbC50cyIpOwogICAgZm9yIChjb25zdCByb3V0ZSBvZiBbCiAgICAgICIvY2xvdWRmbGFyZWQvY2xvdWRmbGFyZS9jcmVkZW50aWFsIiwKICAgICAgIi9jbG91ZGZsYXJlZC9jbG91ZGZsYXJlL3N0YXRlIiwKICAgICAgIi9jbG91ZGZsYXJlZC9yZWNvbmNpbGUvcHJldmlldyIsCiAgICAgICIvY2xvdWRmbGFyZWQvcmVjb25jaWxlL2FwcGx5IiwKICAgICAgIi9jbG91ZGZsYXJlZC9yZWNvbmNpbGUvam9icy8iLAogICAgICAiL2Nsb3VkZmxhcmVkL29wdGltaXphdGlvbi9zY2FucyIsCiAgICAgICIvY2xvdWRmbGFyZWQvb3B0aW1pemF0aW9uL3NldHRpbmdzIiwKICAgICAgIi9jbG91ZGZsYXJlZC9vcHRpbWl6YXRpb24vZG9tYWlucy8iLAogICAgICAiL2Nsb3VkZmxhcmVkL29wdGltaXphdGlvbi9hcHBseSIsCiAgICAgICIvY2xvdWRmbGFyZWQvb3B0aW1pemF0aW9uL2ZhbGxiYWNrIiwKICAgIF0pIHsKICAgICAgYXNzZXJ0Lm1hdGNoKAogICAgICAgIHNvdXJjZSwKICAgICAgICBuZXcgUmVnRXhwKHJvdXRlLnJlcGxhY2VBbGwoIi8iLCBTdHJpbmcucmF3YFwvYCksICJ1IiksCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJydW5zIHJlY29uY2lsZSBhcHBseSBhcyBhbiBpZGVtcG90ZW50IHBvbGxlZCBqb2IiLCAoKSA9PiB7CiAgICBjb25zdCBhcGkgPSByZWFkU291cmNlKCIuLi9zcmMvbGliL2FwaS90dW5uZWwudHMiKTsKICAgIGNvbnN0IGNvbnRyb2xsZXIgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3R1bm5lbC9jbG91ZGZsYXJlL3VzZUNsb3VkZmxhcmVNYW5hZ2VkVHVubmVsLnRzIiwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvZ2V0UmVjb25jaWxlSm9iXCgvdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvZ2V0UmVjb25jaWxlSm9iQnlQbGFuXCgvdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvZ2V0QWN0aXZlUmVjb25jaWxlSm9iXCgvdSk7CiAgICBhc3NlcnQubWF0Y2goY29udHJvbGxlciwgL3BvbGxSZWNvbmNpbGVKb2IvdSk7CiAgICBhc3NlcnQubWF0Y2goY29udHJvbGxlciwgL2dldFJlY29uY2lsZUpvYkJ5UGxhblwocGxhbklkXCkvdSk7CiAgICBhc3NlcnQubWF0Y2goY29udHJvbGxlciwgL3JlY292ZXJBY3RpdmVSZWNvbmNpbGVKb2IvdSk7CiAgICBhc3NlcnQubWF0Y2goY29udHJvbGxlciwgL1xbInF1ZXVlZCIsICJydW5uaW5nIlxdL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNvbnRyb2xsZXIsIC9yZWNvbmNpbGVQb2xsU2VxdWVuY2UvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKAogICAgICBjb250cm9sbGVyLAogICAgICAvbWFuYWdlZFN0YXRlXC52YWx1ZVxzKj1ccyphd2FpdCBDbG91ZGZsYXJlZEFQSVwuYXBwbHlSZWNvbmNpbGUvdSwKICAgICk7CiAgfSk7CgogIGl0KCJrZWVwcyBUdW5uZWwgYW5kIEFQSSB0b2tlbnMgd3JpdGUtb25seSBpbiB0aGUgZnJvbnRlbmQgY29udHJhY3QiLCAoKSA9PiB7CiAgICBjb25zdCBhcGlTb3VyY2UgPSByZWFkU291cmNlKCIuLi9zcmMvbGliL2FwaS90dW5uZWwudHMiKTsKICAgIGFzc2VydC5tYXRjaChhcGlTb3VyY2UsIC9cWyJDbG91ZGZsYXJlZENvbmZpZ0RhdGEiXF0vdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpU291cmNlLCAvXFsiQ2xvdWRmbGFyZUNyZWRlbnRpYWxCb2R5RGF0YSJcXS91KTsKICAgIGNvbnN0IGNvbmZpZ0NvbnRyYWN0ID0KICAgICAgcmVhZENvbnRyYWN0KCkuY29tcG9uZW50cy5zY2hlbWFzLkNsb3VkZmxhcmVkQ29uZmlnRGF0YTsKICAgIGFzc2VydC5vayhjb25maWdDb250cmFjdC5yZXF1aXJlZD8uaW5jbHVkZXMoImFwaVRva2VuQ29uZmlndXJlZCIpKTsKICAgIGFzc2VydC5vayhjb25maWdDb250cmFjdC5yZXF1aXJlZD8uaW5jbHVkZXMoInR1bm5lbFRva2VuQ29uZmlndXJlZCIpKTsKICAgIGFzc2VydC5lcXVhbChjb25maWdDb250cmFjdC5wcm9wZXJ0aWVzPy50b2tlbiwgdW5kZWZpbmVkKTsKICAgIGNvbnN0IHNjaGVtYXMgPSByZWFkQ29udHJhY3QoKS5jb21wb25lbnRzLnNjaGVtYXM7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHNjaGVtYXMuQ2xvdWRmbGFyZWRDb25maWdVcGRhdGVEYXRhLnByb3BlcnRpZXM/LnRva2VuPy53cml0ZU9ubHksCiAgICAgIHRydWUsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBzY2hlbWFzLkNsb3VkZmxhcmVDcmVkZW50aWFsQm9keURhdGEucHJvcGVydGllcz8uYXBpVG9rZW4/LndyaXRlT25seSwKICAgICAgdHJ1ZSwKICAgICk7CgogICAgY29uc3QgcnVudGltZSA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3MvdHVubmVsL2Nsb3VkZmxhcmUvdXNlQ2xvdWRmbGFyZWRSdW50aW1lLnRzIiwKICAgICk7CiAgICBjb25zdCBtYW5hZ2VkID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy90dW5uZWwvY2xvdWRmbGFyZS91c2VDbG91ZGZsYXJlTWFuYWdlZFR1bm5lbC50cyIsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHJ1bnRpbWUsIC90b2tlblwudmFsdWUgPSAiIi91KTsKICAgIGFzc2VydC5tYXRjaChtYW5hZ2VkLCAvYXBpVG9rZW5cLnZhbHVlID0gIiIvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKHJ1bnRpbWUsIC90b2tlblwudmFsdWVccyo9XHMqY29uZmlnXC50b2tlbi91KTsKICB9KTsKCiAgaXQoImtlZXBzIGF1dG9tYXRpb24sIHRha2VvdmVyIHByZXZpZXcsIGNhcGFiaWxpdHkgcHJvYmUsIGFuZCBmYWxsYmFjayB2aXNpYmxlIiwgKCkgPT4gewogICAgY29uc3QgcGFnZSA9IHJlYWRTb3VyY2UoIi4uL3NyYy92aWV3cy90dW5uZWwvQ2xvdWRmbGFyZVR1bm5lbC52dWUiKTsKICAgIGFzc2VydC5tYXRjaChwYWdlLCAvQ2xvdWRmbGFyZUFwaUNvbm5lY3Rpb25DYXJkL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHBhZ2UsIC9DbG91ZGZsYXJlTWFuYWdlZFR1bm5lbENhcmQvdSk7CiAgICBhc3NlcnQubWF0Y2gocGFnZSwgL0Nsb3VkZmxhcmVPcHRpbWl6YXRpb25DYXJkL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHBhZ2UsIC9DbG91ZGZsYXJlTWFudWFsQ29uZmlnQ2FyZC91KTsKICAgIGFzc2VydC5vaygKICAgICAgcGFnZS5pbmRleE9mKCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLnJ1bnRpbWVTdGF0dXMiKSA8CiAgICAgICAgcGFnZS5pbmRleE9mKCI8Q2xvdWRmbGFyZUFwaUNvbm5lY3Rpb25DYXJkIiksCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHBhZ2UsIC86Y29uZmlndXJlZD0iZmFsc2UiL3UpOwoKICAgIGNvbnN0IG1hbmFnZWQgPSByZWFkTWFuYWdlZFVpKCk7CiAgICBhc3NlcnQubWF0Y2gobWFuYWdlZCwgL0NvbmZpZ0NvbGxhcHNpYmxlQ2FyZC91KTsKICAgIGFzc2VydC5tYXRjaChtYW5hZ2VkLCAvcmVjb25jaWxlUGxhblwub3BlcmF0aW9ucy91KTsKICAgIGFzc2VydC5tYXRjaChtYW5hZ2VkLCAvdG9nZ2xlVGFrZW92ZXIvdSk7CiAgICBhc3NlcnQubWF0Y2gobWFuYWdlZCwgL3BsYW5XYXJuaW5nTGFiZWwvdSk7CiAgICBhc3NlcnQubWF0Y2gobWFuYWdlZCwgL3dhcm5pbmdDb2Rlcy91KTsKICAgIGFzc2VydC5tYXRjaChtYW5hZ2VkLCAvY29uZmxpY3RNZXNzYWdlTGFiZWwvdSk7CiAgICBhc3NlcnQubWF0Y2gobWFuYWdlZCwgL2NvbmZsaWN0XC5kZXRhaWxzXC5yZWNvcmRzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG1hbmFnZWQsIC9kbnNPd25lckxhYmVsL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG1hbmFnZWQsIC9yZWNvbmNpbGVBdHRlbnRpb25Ub2tlbi91KTsKICAgIGFzc2VydC5tYXRjaChtYW5hZ2VkLCAvcmVjb25jaWxlSm9iXC5wcm9ncmVzcy91KTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgbWFuYWdlZCwKICAgICAgL2lzUHJldmlld2luZ1JlY29uY2lsZVxzKlx8XHxccyppc0FwcGx5aW5nUmVjb25jaWxlL3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKG1hbmFnZWQsIC9tYW5hZ2VkT3BlcmF0aW9uVGFyZ2V0TGFiZWwvdSk7CiAgICBhc3NlcnQubWF0Y2gobWFuYWdlZCwgL2tlZXBEZWxldGVkL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG1hbmFnZWQsIC90b0xvY2FsZVN0cmluZ1wobG9jYWxlXCkvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKG1hbmFnZWQsIC90ZXh0LW11dGVkLWZvcmVncm91bmQiPlR1bm5lbDwvdSk7CgogICAgY29uc3QgbWFuYWdlZENvbnRyb2xsZXIgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3R1bm5lbC9jbG91ZGZsYXJlL3VzZUNsb3VkZmxhcmVNYW5hZ2VkVHVubmVsLnRzIiwKICAgICk7CiAgICBhc3NlcnQubWF0Y2gobWFuYWdlZENvbnRyb2xsZXIsIC9hcGlBdXRoZW50aWNhdGlvbkZhaWxlZC91KTsKICAgIGFzc2VydC5tYXRjaChtYW5hZ2VkQ29udHJvbGxlciwgL2NvZGUgPT09IDEwXzAwMC91KTsKCiAgICBjb25zdCBvcHRpbWl6YXRpb24gPSByZWFkT3B0aW1pemF0aW9uVWkoKTsKICAgIGNvbnN0IG9wdGltaXphdGlvblByZXNlbnRhdGlvbiA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3MvdHVubmVsL2Nsb3VkZmxhcmUvY2xvdWRmbGFyZU9wdGltaXphdGlvblByZXNlbnRhdGlvbi50cyIsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKG9wdGltaXphdGlvbiwgL0NvbmZpZ0NvbGxhcHNpYmxlQ2FyZC91KTsKICAgIGFzc2VydC5tYXRjaChvcHRpbWl6YXRpb24sIC9hbGxDYW5kaWRhdGVzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG9wdGltaXphdGlvbiwgL2NhcGFiaWxpdHlQcm9iZS91KTsKICAgIGFzc2VydC5tYXRjaChvcHRpbWl6YXRpb24sIC9mYWxsYmFja09wdGltaXphdGlvbi91KTsKICAgIGFzc2VydC5tYXRjaChvcHRpbWl6YXRpb24sIC9yZWNvbW1lbmRlZElwL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG9wdGltaXphdGlvbiwgL2NhbmRpZGF0ZVNvdXJjZXMvdSk7CiAgICBhc3NlcnQubWF0Y2gob3B0aW1pemF0aW9uLCAvYnVzaW5lc3NDb2xvIFx8XHwgY2FuZGlkYXRlXC5jb2xvL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG9wdGltaXphdGlvbiwgL29wdGltaXphdGlvbkN1c3RvbUhvc3RuYW1lcy91KTsKICAgIGFzc2VydC5tYXRjaChvcHRpbWl6YXRpb24sIC9zb3VyY2VXYXJuaW5nTGFiZWwvdSk7CiAgICBhc3NlcnQubWF0Y2gob3B0aW1pemF0aW9uLCAvZG9tYWluTWVzc2FnZUxhYmVsL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG9wdGltaXphdGlvbiwgL3ByZXNlcnZlRXhpc3RpbmdEbnMvdSk7CiAgICBhc3NlcnQubWF0Y2gob3B0aW1pemF0aW9uLCAvcHJlcGFyZU9wdGltaXphdGlvbkNvbmZsaWN0UmVzb2x1dGlvbi91KTsKICAgIGFzc2VydC5tYXRjaChvcHRpbWl6YXRpb24sIC9kb21haW5cLm1hbmFnZW1lbnRNb2RlID09PSBbJyJdZXh0ZXJuYWxbJyJdL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG9wdGltaXphdGlvbiwgL2RvbWFpblwuY2xlYW51cFBlbmRpbmcvdSk7CiAgICBhc3NlcnQubWF0Y2gob3B0aW1pemF0aW9uUHJlc2VudGF0aW9uLCAvdG9Mb2NhbGVTdHJpbmdcKGxvY2FsZVwpL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChvcHRpbWl6YXRpb24sIC8+QmV0YTwvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKG9wdGltaXphdGlvbiwgLzxUYWJsZUhlYWQ+SVB2NC91KTsKCiAgICBjb25zdCBjb25uZWN0aW9uID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy90dW5uZWwvY2xvdWRmbGFyZS9DbG91ZGZsYXJlQXBpQ29ubmVjdGlvbkNhcmQudnVlIiwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goY29ubmVjdGlvbiwgL0NvbmZpZ0NvbGxhcHNpYmxlQ2FyZC91KTsKICAgIGFzc2VydC5tYXRjaChjb25uZWN0aW9uLCAvbWFuYWdlZFwuYXBpVG9rZW5MYWJlbC91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goY29ubmVjdGlvbiwgLz5DbG91ZGZsYXJlIEFQSSBUb2tlbjwvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKGNvbm5lY3Rpb24sIC9wZXJtaXNzaW9uc1RpdGxlfENoZWNrQ2lyY2xlMi91KTsKCiAgICBjb25zdCBtYW51YWwgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3R1bm5lbC9jbG91ZGZsYXJlL0Nsb3VkZmxhcmVNYW51YWxDb25maWdDYXJkLnZ1ZSIsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKG1hbnVhbCwgLzpjb25maWd1cmVkPSJ0cnVlIi91KTsKICAgIGFzc2VydC5tYXRjaChtYW51YWwsIC9tYW51YWxcLnR1bm5lbFRva2VuTGFiZWwvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKG1hbnVhbCwgLz5UdW5uZWwgVG9rZW48L3UpOwoKICAgIGZvciAoY29uc3Qgc291cmNlIG9mIFtwYWdlLCBjb25uZWN0aW9uLCBtYW5hZ2VkLCBvcHRpbWl6YXRpb24sIG1hbnVhbF0pIHsKICAgICAgYXNzZXJ0Lm1hdGNoKHNvdXJjZSwgLyNhY3Rpb25zPSJceyBjb2xsYXBzZSBcfSIvdSk7CiAgICAgIGFzc2VydC5tYXRjaChzb3VyY2UsIC9AY2xpY2s9ImNvbGxhcHNlIi91KTsKICAgIH0KICB9KTsKCiAgaXQoImRvZXMgbm90IGFuaW1hdGUgYnV0dG9uIGdlb21ldHJ5IHdoZW4gQ2xvdWRmbGFyZSBhY3Rpb25zIGVudGVyIGxvYWRpbmcgc3RhdGUiLCAoKSA9PiB7CiAgICBjb25zdCBidXR0b24gPSByZWFkU291cmNlKAogICAgICAiLi4vLi4vLi4vcGFja2FnZXMvdWktdnVlL3NyYy9jb21wb25lbnRzL3VpL2J1dHRvbi9pbmRleC50cyIsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKGJ1dHRvbiwgL3RyYW5zaXRpb24tY29sb3JzL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChidXR0b24sIC90cmFuc2l0aW9uLWFsbC91KTsKICB9KTsKCiAgaXQoImtlZXBzIHRoaXJkLXBhcnR5IGNhbmRpZGF0ZSBob3N0bmFtZXMgRE5TLW9ubHkgYW5kIHByb3ZlbmFuY2UgdmlzaWJsZSIsICgpID0+IHsKICAgIGNvbnN0IGJhY2tlbmQgPSByZWFkT3B0aW1pemF0aW9uQmFja2VuZCgpOwogICAgYXNzZXJ0Lm1hdGNoKGJhY2tlbmQsIC9jbG91ZGZsYXJlLWRuc1wuY29tXC9kbnMtcXVlcnkvdSk7CiAgICBhc3NlcnQubWF0Y2goYmFja2VuZCwgL2Ruc1wuZ29vZ2xlXC9kbnMtcXVlcnkvdSk7CiAgICBhc3NlcnQubWF0Y2goYmFja2VuZCwgL2RvaFwucHViXC9kbnMtcXVlcnkvdSk7CiAgICBhc3NlcnQubWF0Y2goYmFja2VuZCwgL2Ruc1wuYWxpZG5zXC5jb21cL2Rucy1xdWVyeS91KTsKICAgIGFzc2VydC5tYXRjaChiYWNrZW5kLCAvYXBwbGljYXRpb25cL2Rucy1tZXNzYWdlL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGJhY2tlbmQsIC9yZXNvbHZlX3RvX2FkZHJzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGJhY2tlbmQsIC9cLm5vX3Byb3h5XChcKS91KTsKICAgIGFzc2VydC5tYXRjaChiYWNrZW5kLCAvdmVyaWZpZWQtbXVsdGktZG9oLWZhbGxiYWNrLXYxL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGJhY2tlbmQsIC9jYW5kaWRhdGVfaXBfaXNfY2xvdWRmbGFyZS91KTsKICAgIGFzc2VydC5tYXRjaChiYWNrZW5kLCAvc291cmNlX2hvc3RuYW1lcy91KTsKICAgIGFzc2VydC5tYXRjaChiYWNrZW5kLCAvYnVzaW5lc3NfdmFsaWRhdGVkL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGJhY2tlbmQsIC9ib3VuZGVkX2NmX3JheS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goYmFja2VuZCwgL2NvbnRlbnQ6XHMqc291cmNlXC5ob3N0bmFtZS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goYmFja2VuZCwgL3d3d1wuZmJpXC5nb3YvdSk7CgogICAgY29uc3QgbWFuYWdlZEJhY2tlbmQgPSByZWFkU291cmNlKAogICAgICAiLi4vLi4vc2VydmVyLWFkbWluLXJzL3NyYy90dW5uZWxzL2Nsb3VkZmxhcmVkL21hbmFnZWQucnMiLAogICAgKTsKICAgIGFzc2VydC5tYXRjaChtYW5hZ2VkQmFja2VuZCwgLyJ3YXJuaW5nQ29kZXMiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG1hbmFnZWRCYWNrZW5kLCAvIm1lc3NhZ2VDb2RlIjogInVub3duZWRJbmdyZXNzIi91KTsKICAgIGFzc2VydC5tYXRjaChiYWNrZW5kLCAvcGxhbl93YXJuaW5nX2NvZGVzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGJhY2tlbmQsIC8ibWVzc2FnZUNvZGUiOiAidW5vd25lZEN1c3RvbUhvc3RuYW1lIi91KTsKICAgIGFzc2VydC5tYXRjaChiYWNrZW5kLCAvIm1lc3NhZ2VDb2RlIjogImN1c3RvbUhvc3RuYW1lUXVvdGFFeGhhdXN0ZWQiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGJhY2tlbmQsIC9PUFRJTUlaQVRJT05fRE9NQUlOX1NFVFRJTkdTX0tFWS91KTsKICAgIGFzc2VydC5tYXRjaChiYWNrZW5kLCAvY29uZmlndXJlZF9vcHRpbWl6YXRpb25faG9zdHMvdSk7CiAgICBhc3NlcnQubWF0Y2goYmFja2VuZCwgL3JlbGlucXVpc2hfb3B0aW1pemF0aW9uX2hvc3QvdSk7CiAgICBhc3NlcnQubWF0Y2goYmFja2VuZCwgL3JlY29uY2lsZV9vcHRpbWl6YXRpb25faG9zdF9tZW1iZXJzaGlwL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGJhY2tlbmQsIC9tdWx0aXBsZUV4YWN0RG5zQ29uZmxpY3QvdSk7CiAgICBhc3NlcnQubWF0Y2goYmFja2VuZCwgL211bHRpcGxlT3B0aW1pemF0aW9uRG5zQ29uZmxpY3QvdSk7CgogICAgY29uc3QgcmVzb2x2ZXJEaWFnbm9zdGljcyA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3MvdHVubmVsL2Nsb3VkZmxhcmUvQ2xvdWRmbGFyZVJlc29sdmVyRGlhZ25vc3RpY3MudnVlIiwKICAgICk7CiAgICBjb25zdCByZXNvbHZlclByZXNlbnRhdGlvbiA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3MvdHVubmVsL2Nsb3VkZmxhcmUvY2xvdWRmbGFyZU9wdGltaXphdGlvblByZXNlbnRhdGlvbi50cyIsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHJlc29sdmVyUHJlc2VudGF0aW9uLCAvcmVzb2x2ZXJQYXRoQXZhaWxhYmxlL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHJlc29sdmVyUHJlc2VudGF0aW9uLCAvcmVzb2x2ZXJQYXRoT2ZmaWNpYWxSYW5nZXMvdSk7CiAgICBhc3NlcnQubWF0Y2gocmVzb2x2ZXJQcmVzZW50YXRpb24sIC9yZXNvbHZlclBhdGhDdXJyZW50Q2FuZGlkYXRlL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHJlc29sdmVyUHJlc2VudGF0aW9uLCAvcmVzb2x2ZXJQYXRoUHJlZmVycmVkSXAvdSk7CiAgICBhc3NlcnQubWF0Y2gocmVzb2x2ZXJEaWFnbm9zdGljcywgL2xhc3RFcnJvckNvZGUvdSk7CgogICAgZm9yIChjb25zdCBsb2NhbGUgb2YgWyJ6aC1DTiIsICJ6aC1IYW50IiwgImVuIiwgImphLUpQIiwgImtvLUtSIl0pIHsKICAgICAgY29uc3QgbWVzc2FnZXMgPSByZWFkU291cmNlKAogICAgICAgIGAuLi8uLi8uLi9wYWNrYWdlcy9pMThuL3NyYy9tZXNzYWdlcy9hZG1pbi8ke2xvY2FsZX0udHNgLAogICAgICApOwogICAgICBhc3NlcnQuZG9lc05vdE1hdGNoKG1lc3NhZ2VzLCAvdXMtZmJpL3UpOwogICAgICBhc3NlcnQubWF0Y2gobWVzc2FnZXMsIC9wbGFuV2FybmluZ3MvdSk7CiAgICAgIGFzc2VydC5tYXRjaChtZXNzYWdlcywgL2NhbmRpZGF0ZURpc2NvdmVyeU9ubHkvdSk7CiAgICAgIGFzc2VydC5tYXRjaChtZXNzYWdlcywgL2NvbmZsaWN0TWVzc2FnZXMvdSk7CiAgICAgIGFzc2VydC5tYXRjaChtZXNzYWdlcywgL2RvbWFpbk1lc3NhZ2VzL3UpOwogICAgICBhc3NlcnQubWF0Y2gobWVzc2FnZXMsIC9kb21haW5BY3Rpb25zL3UpOwogICAgICBhc3NlcnQubWF0Y2gobWVzc2FnZXMsIC9rZWVwRXh0ZXJuYWwvdSk7CiAgICAgIGFzc2VydC5tYXRjaChtZXNzYWdlcywgL2V4dGVybmFsQ2xlYW51cFBlbmRpbmcvdSk7CiAgICAgIGFzc2VydC5tYXRjaChtZXNzYWdlcywgL211bHRpcGxlRXhhY3REbnNDb25mbGljdC91KTsKICAgICAgYXNzZXJ0Lm1hdGNoKG1lc3NhZ2VzLCAvb3duZXJLaW5kcy91KTsKICAgICAgYXNzZXJ0Lm1hdGNoKG1lc3NhZ2VzLCAvcmVzb2x2ZUZhaWxlZC91KTsKICAgICAgYXNzZXJ0Lm1hdGNoKG1lc3NhZ2VzLCAvcmVzb2x2ZXJEaWFnbm9zdGljc1RpdGxlL3UpOwogICAgICBhc3NlcnQubWF0Y2gobWVzc2FnZXMsIC9yZXNvbHZlclBhdGhPZmZpY2lhbFJhbmdlcy91KTsKICAgICAgYXNzZXJ0Lm1hdGNoKG1lc3NhZ2VzLCAvcmVzb2x2ZXJQYXRoQ3VycmVudENhbmRpZGF0ZS91KTsKICAgICAgYXNzZXJ0Lm1hdGNoKG1lc3NhZ2VzLCAvcmVzb2x2ZXJQYXRoUHJlZmVycmVkSXAvdSk7CiAgICAgIGFzc2VydC5tYXRjaChtZXNzYWdlcywgL2NhbmRpZGF0ZVJlc29sdXRpb25VbmF2YWlsYWJsZVRpdGxlL3UpOwogICAgfQogIH0pOwoKICBpdCgiZ2F0ZXMgc2NhbnMgYW5kIGNhbmRpZGF0ZSBwdWJsaXNoaW5nIG9uIHRoZSBhcHBsaWVkIG1hbmFnZWQgc3RhdGUiLCAoKSA9PiB7CiAgICBjb25zdCBjb250cm9sbGVyID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy90dW5uZWwvY2xvdWRmbGFyZS91c2VDbG91ZGZsYXJlT3B0aW1pemF0aW9uLnRzIiwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goY29udHJvbGxlciwgL29wdGltaXphdGlvblwudmFsdWVcP1wuZW5hYmxlZCA9PT0gdHJ1ZS91KTsKICAgIGFzc2VydC5tYXRjaChjb250cm9sbGVyLCAvaWYgXCghb3B0aW1pemF0aW9uQXBwbGllZFwudmFsdWVcKS91KTsKICAgIGFzc2VydC5tYXRjaChjb250cm9sbGVyLCAvb3B0aW1pemF0aW9uXC52YWx1ZVw/XC5zY2FuUmVhZHkgPT09IHRydWUvdSk7CiAgICBhc3NlcnQubWF0Y2goY29udHJvbGxlciwgL2lmIFwoIW9wdGltaXphdGlvblNjYW5SZWFkeVwudmFsdWVcKS91KTsKCiAgICBjb25zdCBvcHRpbWl6YXRpb24gPSByZWFkT3B0aW1pemF0aW9uVWkoKTsKICAgIGFzc2VydC5tYXRjaChvcHRpbWl6YXRpb24sIC8hb3B0aW1pemF0aW9uQXBwbGllZC91KTsKICAgIGFzc2VydC5tYXRjaChvcHRpbWl6YXRpb24sIC9yZWNvbmNpbGVSZXF1aXJlZERlc2NyaXB0aW9uL3UpOwogIH0pOwoKICBpdCgidmFsaWRhdGVzIGEgdXNlci1zcGVjaWZpZWQgcHJlZmVycmVkIElQIGJlZm9yZSByZWNvbW1lbmRpbmcgaXQiLCAoKSA9PiB7CiAgICBjb25zdCBjb250cm9sbGVyID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy90dW5uZWwvY2xvdWRmbGFyZS91c2VDbG91ZGZsYXJlT3B0aW1pemF0aW9uLnRzIiwKICAgICk7CiAgICBjb25zdCBjYXJkID0gcmVhZE9wdGltaXphdGlvblVpKCk7CiAgICBjb25zdCBiYWNrZW5kID0gcmVhZE9wdGltaXphdGlvbkJhY2tlbmQoKTsKCiAgICBhc3NlcnQubWF0Y2goY29udHJvbGxlciwgL3ByZWZlcnJlZENhbmRpZGF0ZUlwL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNvbnRyb2xsZXIsIC9zdGFydE9wdGltaXphdGlvblNjYW5cKC91KTsKICAgIGFzc2VydC5tYXRjaChjYXJkLCAvcHJlZmVycmVkSXBWYWxpZGF0ZWQgPT09IHRydWUvdSk7CiAgICBhc3NlcnQubWF0Y2goY2FyZCwgL3ByZWZlcnJlZElwVmFsaWRhdGVkID09PSBmYWxzZS91KTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgY2FyZCwKICAgICAgL2FyaWEtZGVzY3JpYmVkYnk9Im9wdGltaXphdGlvbi1wcmVmZXJyZWQtaXAtZGVzY3JpcHRpb24iL3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKGJhY2tlbmQsIC9ub3JtYWxpemVfcHJlZmVycmVkX2lwL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGJhY2tlbmQsIC9idW5kbGVkX2Nsb3VkZmxhcmVfcHJlZml4ZXMvdSk7CiAgICBhc3NlcnQubWF0Y2goYmFja2VuZCwgL3JldGFpbl9zaG9ydGxpc3Rfd2l0aF9wcmlvcml0eS91KTsKICAgIGFzc2VydC5tYXRjaChiYWNrZW5kLCAvY2FuZGlkYXRlXC5idXNpbmVzc192YWxpZGF0ZWQvdSk7CiAgfSk7CgogIGl0KCJkaXN0aW5ndWlzaGVzIENsb3VkZmxhcmUgZm9yIFNhYVMgc2V0dXAgZnJvbSB2YWxpZGF0aW9uIHJlYWRpbmVzcyIsICgpID0+IHsKICAgIGNvbnN0IG9wdGltaXphdGlvbiA9IFsKICAgICAgcmVhZE9wdGltaXphdGlvblVpKCksCiAgICAgIHJlYWRTb3VyY2UoCiAgICAgICAgIi4uL3NyYy92aWV3cy90dW5uZWwvY2xvdWRmbGFyZS9jbG91ZGZsYXJlT3B0aW1pemF0aW9uUHJlc2VudGF0aW9uLnRzIiwKICAgICAgKSwKICAgIF0uam9pbigiXG4iKTsKICAgIGFzc2VydC5tYXRjaChvcHRpbWl6YXRpb24sIC9ubyBhY3RpdmUgYnVzaW5lc3Mgb3IgY2FwYWJpbGl0eSBob3N0bmFtZS91KTsKICAgIGFzc2VydC5tYXRjaChvcHRpbWl6YXRpb24sIC9jbG91ZGZsYXJlU2Fhc1JlcXVpcmVkVGl0bGUvdSk7CiAgICBhc3NlcnQubWF0Y2gob3B0aW1pemF0aW9uLCAvY2xvdWRmbGFyZVNhYXNSZXF1aXJlZERlc2NyaXB0aW9uL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG9wdGltaXphdGlvbiwgL29wdGltaXphdGlvblNjYW5cLnZhbHVlXD9cLmVycm9yQ29kZS91KTsKICAgIGFzc2VydC5tYXRjaChvcHRpbWl6YXRpb24sIC9wcm9iZVw/XC5yZWFzb25Db2RlL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG9wdGltaXphdGlvbiwgL2Nsb3VkZmxhcmUtc2Fhcy12YWxpZGF0aW9uLXBlbmRpbmcvdSk7CiAgICBhc3NlcnQubWF0Y2gob3B0aW1pemF0aW9uLCAvY2xvdWRmbGFyZS1yZXNvdXJjZS1jb25mbGljdC91KTsKICAgIGFzc2VydC5tYXRjaChvcHRpbWl6YXRpb24sIC9jbG91ZGZsYXJlLW9wdGltaXphdGlvbi1ub3QtcmVhZHkvdSk7CiAgICBhc3NlcnQubWF0Y2gob3B0aW1pemF0aW9uLCAvIW9wdGltaXphdGlvblNjYW5SZWFkeS91KTsKICAgIGFzc2VydC5tYXRjaChvcHRpbWl6YXRpb24sIC9wcm9iZVwuc3RhdHVzID09PSAicGVuZGluZyIvdSk7CiAgICBhc3NlcnQub2soCiAgICAgIG9wdGltaXphdGlvbi5tYXRjaCgvcHJlc2VudGF0aW9uXC5jYXBhYmlsaXR5UHJvYmVNZXNzYWdlL2d1KT8ubGVuZ3RoID09PQogICAgICAgIDIsCiAgICAgICJ0aGUgY2FwYWJpbGl0eSBhbGVydCBhbmQgdGVjaG5pY2FsIHN0YXR1cyBzaG91bGQgdXNlIHRoZSBzYW1lIGxvY2FsaXplZCBtZXNzYWdlIiwKICAgICk7CgogICAgY29uc3Qgc2NoZW1hcyA9IHJlYWRDb250cmFjdCgpLmNvbXBvbmVudHMuc2NoZW1hczsKICAgIGFzc2VydC5vayhzY2hlbWFzLkNsb3VkZmxhcmVPcHRpbWl6YXRpb25TY2FuRGF0YS5wcm9wZXJ0aWVzPy5lcnJvckNvZGUpOwogICAgYXNzZXJ0Lm9rKAogICAgICBzY2hlbWFzLkNsb3VkZmxhcmVPcHRpbWl6YXRpb25DYXBhYmlsaXR5UHJvYmVEYXRhLnByb3BlcnRpZXM/LnJlYXNvbkNvZGUsCiAgICApOwogICAgYXNzZXJ0Lm9rKHNjaGVtYXMuQ2xvdWRmbGFyZU9wdGltaXphdGlvblN0YXRlRGF0YS5wcm9wZXJ0aWVzPy5zY2FuUmVhZHkpOwogICAgYXNzZXJ0Lm9rKAogICAgICBzY2hlbWFzLkNsb3VkZmxhcmVPcHRpbWl6YXRpb25TdGF0ZURhdGEucHJvcGVydGllcwogICAgICAgID8uc2NhblJlYWRpbmVzc0Vycm9yQ29kZSwKICAgICk7CiAgICBhc3NlcnQub2soCiAgICAgIHNjaGVtYXMuQ2xvdWRmbGFyZU9wdGltaXphdGlvbkRvbWFpbkRhdGEucHJvcGVydGllcz8uaG9zdG5hbWVTdGF0dXMsCiAgICApOwogICAgYXNzZXJ0Lm9rKAogICAgICBzY2hlbWFzLkNsb3VkZmxhcmVPcHRpbWl6YXRpb25DYXBhYmlsaXR5UHJvYmVEYXRhLnByb3BlcnRpZXM/LnN0YXR1cz8uZW51bT8uaW5jbHVkZXMoCiAgICAgICAgInByb2JlLWZhaWxlZCIsCiAgICAgICksCiAgICApOwoKICAgIGNvbnN0IGJhY2tlbmQgPSByZWFkT3B0aW1pemF0aW9uQmFja2VuZCgpOwogICAgYXNzZXJ0Lm1hdGNoKGJhY2tlbmQsIC9DTE9VREZMQVJFX1NBQVNfUkVRVUlSRURfRVJST1JfQ09ERS91KTsKICAgIGFzc2VydC5tYXRjaChiYWNrZW5kLCAvQ0xPVURGTEFSRV9TQUFTX1ZBTElEQVRJT05fUEVORElOR19FUlJPUl9DT0RFL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGJhY2tlbmQsIC9DTE9VREZMQVJFX1JFU09VUkNFX0NPTkZMSUNUX0VSUk9SX0NPREUvdSk7CiAgICBhc3NlcnQubWF0Y2goYmFja2VuZCwgL09QVElNSVpBVElPTl9OT1RfUkVBRFlfRVJST1JfQ09ERS91KTsKICAgIGFzc2VydC5tYXRjaChiYWNrZW5kLCAvImVycm9yQ29kZSI6IGVycm9yX2NvZGUvdSk7CiAgICBhc3NlcnQubWF0Y2goYmFja2VuZCwgLyJyZWFzb25Db2RlIlwudG9fc3RyaW5nXChcKS91KTsKICAgIGFzc2VydC5tYXRjaChiYWNrZW5kLCAvInNjYW5SZWFkeSI6IHNjYW5fcmVhZHkvdSk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGJhY2tlbmQsCiAgICAgIC8ic2NhblJlYWRpbmVzc0Vycm9yQ29kZSI6IHNjYW5fcmVhZGluZXNzX2Vycm9yX2NvZGUvdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGJhY2tlbmQsCiAgICAgIC9yZWNvdmVyYWJsZV9mbl9rbm9ja19jdXN0b21faG9zdG5hbWVfZnJvbV9zbmFwc2hvdC91LAogICAgKTsKICAgIGFzc2VydC5tYXRjaChiYWNrZW5kLCAvInJlY292ZXIiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBiYWNrZW5kLAogICAgICAvc2Nhbl9kdWUgJiYgc2Nhbl92YWxpZGF0aW9uX2hvc3RuYW1lXCgmb3duZXJzaGlwXClcLmlzX25vbmVcKFwpL3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKGJhY2tlbmQsIC9jdXN0b21faG9zdG5hbWVfY2FuX3ZhbGlkYXRlX2NhbmRpZGF0ZXMvdSk7CiAgICBhc3NlcnQubWF0Y2goYmFja2VuZCwgL2NhcGFiaWxpdHlfcHJvYmVfZmFpbHVyZV9zdGF0ZS91KTsKICAgIGFzc2VydC5tYXRjaChiYWNrZW5kLCAvImhvc3RuYW1lU3RhdHVzIi91KTsKICAgIGFzc2VydC5tYXRjaChiYWNrZW5kLCAvcHJlZmVycmVkRWRnZVByb2JlRmFpbGVkL3UpOwoKICAgIGNvbnN0IG1lc3NhZ2VzID0gcmVhZFNvdXJjZSgKICAgICAgIi4uLy4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL21lc3NhZ2VzL2FkbWluL3poLUNOLnRzIiwKICAgICk7CiAgICBhc3NlcnQubWF0Y2gobWVzc2FnZXMsIC/otKblj7fkuI7ln5/lkI3nm7jlhbPotYTmupDmjojkuojlrozmlbTnvJbovpHmnYPpmZAvdSk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIG1lc3NhZ2VzLAogICAgICAv5aaC5p6c5bey5Zyo5LiK5pa56YWN572uIENsb3VkZmxhcmUgQVBJIFRva2Vu77yM5q2k5aSE5peg6ZyA5aGr5YaZL3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKG1lc3NhZ2VzLCAvU1NMXC9UTFMg4oaSIOiHquWumuS5ieS4u+acuuWQjS91KTsKICAgIGFzc2VydC5tYXRjaChtZXNzYWdlcywgLzEwMCDkuKroh6rlrprkuYnkuLvmnLrlkI0vdSk7CiAgICBhc3NlcnQubWF0Y2gobWVzc2FnZXMsIC/nu5Hlrprku5jmrL7mlrnlvI/kuI3kvJrnq4vljbPmiaPotLkvdSk7CiAgICBhc3NlcnQubWF0Y2gobWVzc2FnZXMsIC9DbG91ZGZsYXJlIGZvciBTYWFTIOW3suWQr+eUqC91KTsKICAgIGFzc2VydC5tYXRjaChtZXNzYWdlcywgL+S4u+acuuWQjeWSjOivgeS5pueKtuaAgeWdh+WPmOS4uuKAnOacieaViOKAnS91KTsKICAgIGFzc2VydC5tYXRjaChtZXNzYWdlcywgL+aXoOmcgOmHjeWkjeW8gOmAmuWKn+iDveaIlue7keWumuS7mOasvuaWueW8jy91KTsKICAgIGFzc2VydC5tYXRjaChtZXNzYWdlcywgL+i/meS4jeaYr+ivgeS5puetvuWPkeetieW+hS91KTsKICAgIGFzc2VydC5tYXRjaChtZXNzYWdlcywgL+S/neeVmeeOsOacieacieaViOivgeS5puW5tuaXoOaNn+aBouWkjS91KTsKICAgIGFzc2VydC5tYXRjaChtZXNzYWdlcywgL+S8mOmAiemqjOivgeWwmuacquWwsee7qi91KTsKICAgIGFzc2VydC5tYXRjaChtZXNzYWdlcywgL+S8mOmAieWFpeWPo+mqjOivgeWksei0pS91KTsKCiAgICBjb25zdCBtYWludGVuYW5jZSA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi8uLi9zZXJ2ZXItYWRtaW4tcnMvc3JjL3N5c3RlbS9tYWludGVuYW5jZS9yb3V0ZXMucnMiLAogICAgKTsKICAgIGFzc2VydC5tYXRjaChtYWludGVuYW5jZSwgL2Nsb3VkZmxhcmVkOjpjbGVhbnVwX2JlZm9yZV9kYXRhX2NsZWFyL3UpOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+const readOptimizationUi = () =>
+  [
+    "../src/views/tunnel/cloudflare/CloudflareOptimizationCard.vue",
+    "../src/views/tunnel/cloudflare/CloudflareOptimizationOverview.vue",
+    "../src/views/tunnel/cloudflare/CloudflareOptimizationDomains.vue",
+    "../src/views/tunnel/cloudflare/CloudflareOptimizationTechnicalStatus.vue",
+    "../src/views/tunnel/cloudflare/CloudflareOptimizationSourceSettings.vue",
+    "../src/views/tunnel/cloudflare/CloudflareOptimizationScanResults.vue",
+    "../src/views/tunnel/cloudflare/useCloudflareOptimizationCardPresentation.ts",
+  ]
+    .map(readSource)
+    .join("\n");
+
+const readManagedUi = () =>
+  [
+    "../src/views/tunnel/cloudflare/CloudflareManagedTunnelCard.vue",
+    "../src/views/tunnel/cloudflare/CloudflareReconcilePlan.vue",
+    "../src/views/tunnel/cloudflare/cloudflareManagedPresentation.ts",
+  ]
+    .map(readSource)
+    .join("\n");
+
+const readOptimizationBackend = () =>
+  [
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/api.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/cleanup_snapshot.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/coordination.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/fallback_origin.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/model.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/preview.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/probes.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/public_state.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/recovery.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/resolvers.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/resource_cleanup.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/resource_reconcile.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/runtime.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/scan.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/scheduler.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/settings.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/state_helpers.rs",
+    "../../server-admin-rs/src/tunnels/cloudflared/optimization/warnings.rs",
+  ]
+    .map(readSource)
+    .join("\n");
+
+type ContractSchema = {
+  enum?: string[];
+  properties?: Record<string, ContractSchema>;
+  required?: string[];
+  writeOnly?: boolean;
+};
+
+const readContract = () =>
+  JSON.parse(readSource("../../../packages/api-contract/openapi.json")) as {
+    components: { schemas: Record<string, ContractSchema> };
+  };
+
+describe("managed Cloudflare Tunnel", () => {
+  it("keeps runtime, managed reconciliation, and optimization lifecycles isolated", () => {
+    const controller = readSource(
+      "../src/views/tunnel/cloudflare/useCloudflareTunnelController.ts",
+    );
+    const presentation = readSource(
+      "../src/views/tunnel/cloudflare/cloudflareOptimizationPresentation.ts",
+    );
+    for (const composable of [
+      "useCloudflaredRuntime",
+      "useCloudflareManagedTunnel",
+      "useCloudflareOptimization",
+    ]) {
+      assert.match(controller, new RegExp(composable, "u"));
+    }
+    assert.doesNotMatch(controller, /CloudflaredAPI/u);
+    assert.doesNotMatch(presentation, /useCloudflareTunnelController/u);
+    assert.match(presentation, /CloudflareTranslate/u);
+  });
+
+  it("exposes the credential, reconcile, scan, apply, and fallback contracts", () => {
+    const source = readSource("../src/lib/api/tunnel.ts");
+    for (const route of [
+      "/cloudflared/cloudflare/credential",
+      "/cloudflared/cloudflare/state",
+      "/cloudflared/reconcile/preview",
+      "/cloudflared/reconcile/apply",
+      "/cloudflared/reconcile/jobs/",
+      "/cloudflared/optimization/scans",
+      "/cloudflared/optimization/settings",
+      "/cloudflared/optimization/domains/",
+      "/cloudflared/optimization/apply",
+      "/cloudflared/optimization/fallback",
+    ]) {
+      assert.match(
+        source,
+        new RegExp(route.replaceAll("/", String.raw`\/`), "u"),
+      );
+    }
+  });
+
+  it("runs reconcile apply as an idempotent polled job", () => {
+    const api = readSource("../src/lib/api/tunnel.ts");
+    const controller = readSource(
+      "../src/views/tunnel/cloudflare/useCloudflareManagedTunnel.ts",
+    );
+    assert.match(api, /getReconcileJob\(/u);
+    assert.match(api, /getReconcileJobByPlan\(/u);
+    assert.match(api, /getActiveReconcileJob\(/u);
+    assert.match(controller, /pollReconcileJob/u);
+    assert.match(controller, /getReconcileJobByPlan\(planId\)/u);
+    assert.match(controller, /recoverActiveReconcileJob/u);
+    assert.match(controller, /\["queued", "running"\]/u);
+    assert.match(controller, /reconcilePollSequence/u);
+    assert.doesNotMatch(
+      controller,
+      /managedState\.value\s*=\s*await CloudflaredAPI\.applyReconcile/u,
+    );
+  });
+
+  it("keeps Tunnel and API tokens write-only in the frontend contract", () => {
+    const apiSource = readSource("../src/lib/api/tunnel.ts");
+    assert.match(apiSource, /\["CloudflaredConfigData"\]/u);
+    assert.match(apiSource, /\["CloudflareCredentialBodyData"\]/u);
+    const configContract =
+      readContract().components.schemas.CloudflaredConfigData;
+    assert.ok(configContract.required?.includes("apiTokenConfigured"));
+    assert.ok(configContract.required?.includes("tunnelTokenConfigured"));
+    assert.equal(configContract.properties?.token, undefined);
+    const schemas = readContract().components.schemas;
+    assert.equal(
+      schemas.CloudflaredConfigUpdateData.properties?.token?.writeOnly,
+      true,
+    );
+    assert.equal(
+      schemas.CloudflareCredentialBodyData.properties?.apiToken?.writeOnly,
+      true,
+    );
+
+    const runtime = readSource(
+      "../src/views/tunnel/cloudflare/useCloudflaredRuntime.ts",
+    );
+    const managed = readSource(
+      "../src/views/tunnel/cloudflare/useCloudflareManagedTunnel.ts",
+    );
+    assert.match(runtime, /token\.value = ""/u);
+    assert.match(managed, /apiToken\.value = ""/u);
+    assert.doesNotMatch(runtime, /token\.value\s*=\s*config\.token/u);
+  });
+
+  it("keeps automation, takeover preview, capability probe, and fallback visible", () => {
+    const page = readSource("../src/views/tunnel/CloudflareTunnel.vue");
+    assert.match(page, /CloudflareApiConnectionCard/u);
+    assert.match(page, /CloudflareManagedTunnelCard/u);
+    assert.match(page, /CloudflareOptimizationCard/u);
+    assert.match(page, /CloudflareManualConfigCard/u);
+    assert.ok(
+      page.indexOf("admin.cloudflareTunnel.runtimeStatus") <
+        page.indexOf("<CloudflareApiConnectionCard"),
+    );
+    assert.match(page, /:configured="false"/u);
+
+    const managed = readManagedUi();
+    assert.match(managed, /ConfigCollapsibleCard/u);
+    assert.match(managed, /reconcilePlan\.operations/u);
+    assert.match(managed, /toggleTakeover/u);
+    assert.match(managed, /planWarningLabel/u);
+    assert.match(managed, /warningCodes/u);
+    assert.match(managed, /conflictMessageLabel/u);
+    assert.match(managed, /conflict\.details\.records/u);
+    assert.match(managed, /dnsOwnerLabel/u);
+    assert.match(managed, /reconcileAttentionToken/u);
+    assert.match(managed, /reconcileJob\.progress/u);
+    assert.match(
+      managed,
+      /isPreviewingReconcile\s*\|\|\s*isApplyingReconcile/u,
+    );
+    assert.match(managed, /managedOperationTargetLabel/u);
+    assert.match(managed, /keepDeleted/u);
+    assert.match(managed, /toLocaleString\(locale\)/u);
+    assert.doesNotMatch(managed, /text-muted-foreground">Tunnel</u);
+
+    const managedController = readSource(
+      "../src/views/tunnel/cloudflare/useCloudflareManagedTunnel.ts",
+    );
+    assert.match(managedController, /apiAuthenticationFailed/u);
+    assert.match(managedController, /code === 10_000/u);
+
+    const optimization = readOptimizationUi();
+    const optimizationPresentation = readSource(
+      "../src/views/tunnel/cloudflare/cloudflareOptimizationPresentation.ts",
+    );
+    assert.match(optimization, /ConfigCollapsibleCard/u);
+    assert.match(optimization, /allCandidates/u);
+    assert.match(optimization, /capabilityProbe/u);
+    assert.match(optimization, /fallbackOptimization/u);
+    assert.match(optimization, /recommendedIp/u);
+    assert.match(optimization, /candidateSources/u);
+    assert.match(optimization, /businessColo \|\| candidate\.colo/u);
+    assert.match(optimization, /optimizationCustomHostnames/u);
+    assert.match(optimization, /sourceWarningLabel/u);
+    assert.match(optimization, /domainMessageLabel/u);
+    assert.match(optimization, /preserveExistingDns/u);
+    assert.match(optimization, /prepareOptimizationConflictResolution/u);
+    assert.match(optimization, /domain\.managementMode === ['"]external['"]/u);
+    assert.match(optimization, /domain\.cleanupPending/u);
+    assert.match(optimizationPresentation, /toLocaleString\(locale\)/u);
+    assert.doesNotMatch(optimization, />Beta</u);
+    assert.doesNotMatch(optimization, /<TableHead>IPv4/u);
+
+    const connection = readSource(
+      "../src/views/tunnel/cloudflare/CloudflareApiConnectionCard.vue",
+    );
+    assert.match(connection, /ConfigCollapsibleCard/u);
+    assert.match(connection, /managed\.apiTokenLabel/u);
+    assert.doesNotMatch(connection, />Cloudflare API Token</u);
+    assert.doesNotMatch(connection, /permissionsTitle|CheckCircle2/u);
+
+    const manual = readSource(
+      "../src/views/tunnel/cloudflare/CloudflareManualConfigCard.vue",
+    );
+    assert.match(manual, /:configured="true"/u);
+    assert.match(manual, /manual\.tunnelTokenLabel/u);
+    assert.doesNotMatch(manual, />Tunnel Token</u);
+
+    for (const source of [page, connection, managed, optimization, manual]) {
+      assert.match(source, /#actions="\{ collapse \}"/u);
+      assert.match(source, /@click="collapse"/u);
+    }
+  });
+
+  it("does not animate button geometry when Cloudflare actions enter loading state", () => {
+    const button = readSource(
+      "../../../packages/ui-vue/src/components/ui/button/index.ts",
+    );
+    assert.match(button, /transition-colors/u);
+    assert.doesNotMatch(button, /transition-all/u);
+  });
+
+  it("keeps third-party candidate hostnames DNS-only and provenance visible", () => {
+    const backend = readOptimizationBackend();
+    assert.match(backend, /cloudflare-dns\.com\/dns-query/u);
+    assert.match(backend, /dns\.google\/dns-query/u);
+    assert.match(backend, /doh\.pub\/dns-query/u);
+    assert.match(backend, /dns\.alidns\.com\/dns-query/u);
+    assert.match(backend, /application\/dns-message/u);
+    assert.match(backend, /resolve_to_addrs/u);
+    assert.match(backend, /\.no_proxy\(\)/u);
+    assert.match(backend, /verified-multi-doh-fallback-v1/u);
+    assert.match(backend, /candidate_ip_is_cloudflare/u);
+    assert.match(backend, /source_hostnames/u);
+    assert.match(backend, /business_validated/u);
+    assert.match(backend, /bounded_cf_ray/u);
+    assert.doesNotMatch(backend, /content:\s*source\.hostname/u);
+    assert.doesNotMatch(backend, /www\.fbi\.gov/u);
+
+    const managedBackend = readSource(
+      "../../server-admin-rs/src/tunnels/cloudflared/managed.rs",
+    );
+    assert.match(managedBackend, /"warningCodes"/u);
+    assert.match(managedBackend, /"messageCode": "unownedIngress"/u);
+    assert.match(backend, /plan_warning_codes/u);
+    assert.match(backend, /"messageCode": "unownedCustomHostname"/u);
+    assert.match(backend, /"messageCode": "customHostnameQuotaExhausted"/u);
+    assert.match(backend, /OPTIMIZATION_DOMAIN_SETTINGS_KEY/u);
+    assert.match(backend, /configured_optimization_hosts/u);
+    assert.match(backend, /relinquish_optimization_host/u);
+    assert.match(backend, /reconcile_optimization_host_membership/u);
+    assert.match(backend, /multipleExactDnsConflict/u);
+    assert.match(backend, /multipleOptimizationDnsConflict/u);
+
+    const resolverDiagnostics = readSource(
+      "../src/views/tunnel/cloudflare/CloudflareResolverDiagnostics.vue",
+    );
+    const resolverPresentation = readSource(
+      "../src/views/tunnel/cloudflare/cloudflareOptimizationPresentation.ts",
+    );
+    assert.match(resolverPresentation, /resolverPathAvailable/u);
+    assert.match(resolverPresentation, /resolverPathOfficialRanges/u);
+    assert.match(resolverPresentation, /resolverPathCurrentCandidate/u);
+    assert.match(resolverPresentation, /resolverPathPreferredIp/u);
+    assert.match(resolverDiagnostics, /lastErrorCode/u);
+
+    for (const locale of ["zh-CN", "zh-Hant", "en", "ja-JP", "ko-KR"]) {
+      const messages = readSource(
+        `../../../packages/i18n/src/messages/admin/${locale}.ts`,
+      );
+      assert.doesNotMatch(messages, /us-fbi/u);
+      assert.match(messages, /planWarnings/u);
+      assert.match(messages, /candidateDiscoveryOnly/u);
+      assert.match(messages, /conflictMessages/u);
+      assert.match(messages, /domainMessages/u);
+      assert.match(messages, /domainActions/u);
+      assert.match(messages, /keepExternal/u);
+      assert.match(messages, /externalCleanupPending/u);
+      assert.match(messages, /multipleExactDnsConflict/u);
+      assert.match(messages, /ownerKinds/u);
+      assert.match(messages, /resolveFailed/u);
+      assert.match(messages, /resolverDiagnosticsTitle/u);
+      assert.match(messages, /resolverPathOfficialRanges/u);
+      assert.match(messages, /resolverPathCurrentCandidate/u);
+      assert.match(messages, /resolverPathPreferredIp/u);
+      assert.match(messages, /candidateResolutionUnavailableTitle/u);
+    }
+  });
+
+  it("gates scans and candidate publishing on the applied managed state", () => {
+    const controller = readSource(
+      "../src/views/tunnel/cloudflare/useCloudflareOptimization.ts",
+    );
+    assert.match(controller, /optimization\.value\?\.enabled === true/u);
+    assert.match(controller, /if \(!optimizationApplied\.value\)/u);
+    assert.match(controller, /optimization\.value\?\.scanReady === true/u);
+    assert.match(controller, /if \(!optimizationScanReady\.value\)/u);
+
+    const optimization = readOptimizationUi();
+    assert.match(optimization, /!optimizationApplied/u);
+    assert.match(optimization, /reconcileRequiredDescription/u);
+  });
+
+  it("validates a user-specified preferred IP before recommending it", () => {
+    const controller = readSource(
+      "../src/views/tunnel/cloudflare/useCloudflareOptimization.ts",
+    );
+    const card = readOptimizationUi();
+    const backend = readOptimizationBackend();
+
+    assert.match(controller, /preferredCandidateIp/u);
+    assert.match(controller, /startOptimizationScan\(/u);
+    assert.match(card, /preferredIpValidated === true/u);
+    assert.match(card, /preferredIpValidated === false/u);
+    assert.match(
+      card,
+      /aria-describedby="optimization-preferred-ip-description"/u,
+    );
+    assert.match(backend, /normalize_preferred_ip/u);
+    assert.match(backend, /bundled_cloudflare_prefixes/u);
+    assert.match(backend, /retain_shortlist_with_priority/u);
+    assert.match(backend, /candidate\.business_validated/u);
+  });
+
+  it("distinguishes Cloudflare for SaaS setup from validation readiness", () => {
+    const optimization = [
+      readOptimizationUi(),
+      readSource(
+        "../src/views/tunnel/cloudflare/cloudflareOptimizationPresentation.ts",
+      ),
+    ].join("\n");
+    assert.match(optimization, /no active business or capability hostname/u);
+    assert.match(optimization, /cloudflareSaasRequiredTitle/u);
+    assert.match(optimization, /cloudflareSaasRequiredDescription/u);
+    assert.match(optimization, /optimizationScan\.value\?\.errorCode/u);
+    assert.match(optimization, /probe\?\.reasonCode/u);
+    assert.match(optimization, /cloudflare-saas-validation-pending/u);
+    assert.match(optimization, /cloudflare-resource-conflict/u);
+    assert.match(optimization, /cloudflare-optimization-not-ready/u);
+    assert.match(optimization, /!optimizationScanReady/u);
+    assert.match(optimization, /probe\.status === "pending"/u);
+    assert.ok(
+      optimization.match(/presentation\.capabilityProbeMessage/gu)?.length ===
+        2,
+      "the capability alert and technical status should use the same localized message",
+    );
+
+    const schemas = readContract().components.schemas;
+    assert.ok(schemas.CloudflareOptimizationScanData.properties?.errorCode);
+    assert.ok(
+      schemas.CloudflareOptimizationCapabilityProbeData.properties?.reasonCode,
+    );
+    assert.ok(schemas.CloudflareOptimizationStateData.properties?.scanReady);
+    assert.ok(
+      schemas.CloudflareOptimizationStateData.properties
+        ?.scanReadinessErrorCode,
+    );
+    assert.ok(
+      schemas.CloudflareOptimizationDomainData.properties?.hostnameStatus,
+    );
+    assert.ok(
+      schemas.CloudflareOptimizationCapabilityProbeData.properties?.status?.enum?.includes(
+        "probe-failed",
+      ),
+    );
+
+    const backend = readOptimizationBackend();
+    assert.match(backend, /CLOUDFLARE_SAAS_REQUIRED_ERROR_CODE/u);
+    assert.match(backend, /CLOUDFLARE_SAAS_VALIDATION_PENDING_ERROR_CODE/u);
+    assert.match(backend, /CLOUDFLARE_RESOURCE_CONFLICT_ERROR_CODE/u);
+    assert.match(backend, /OPTIMIZATION_NOT_READY_ERROR_CODE/u);
+    assert.match(backend, /"errorCode": error_code/u);
+    assert.match(backend, /"reasonCode"\.to_string\(\)/u);
+    assert.match(backend, /"scanReady": scan_ready/u);
+    assert.match(
+      backend,
+      /"scanReadinessErrorCode": scan_readiness_error_code/u,
+    );
+    assert.match(
+      backend,
+      /recoverable_fn_knock_custom_hostname_from_snapshot/u,
+    );
+    assert.match(backend, /"recover"/u);
+    assert.match(
+      backend,
+      /scan_due && scan_validation_hostname\(&ownership\)\.is_none\(\)/u,
+    );
+    assert.match(backend, /custom_hostname_can_validate_candidates/u);
+    assert.match(backend, /capability_probe_failure_state/u);
+    assert.match(backend, /"hostnameStatus"/u);
+    assert.match(backend, /preferredEdgeProbeFailed/u);
+
+    const messages = readSource(
+      "../../../packages/i18n/src/messages/admin/zh-CN.ts",
+    );
+    assert.match(messages, /账号与域名相关资源授予完整编辑权限/u);
+    assert.match(
+      messages,
+      /如果已在上方配置 Cloudflare API Token，此处无需填写/u,
+    );
+    assert.match(messages, /SSL\/TLS → 自定义主机名/u);
+    assert.match(messages, /100 个自定义主机名/u);
+    assert.match(messages, /绑定付款方式不会立即扣费/u);
+    assert.match(messages, /Cloudflare for SaaS 已启用/u);
+    assert.match(messages, /主机名和证书状态均变为“有效”/u);
+    assert.match(messages, /无需重复开通功能或绑定付款方式/u);
+    assert.match(messages, /这不是证书签发等待/u);
+    assert.match(messages, /保留现有有效证书并无损恢复/u);
+    assert.match(messages, /优选验证尚未就绪/u);
+    assert.match(messages, /优选入口验证失败/u);
+
+    const maintenance = readSource(
+      "../../server-admin-rs/src/system/maintenance/routes.rs",
+    );
+    assert.match(maintenance, /cloudflared::cleanup_before_data_clear/u);
+  });
+});

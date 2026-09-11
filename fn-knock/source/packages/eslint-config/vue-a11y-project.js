@@ -1,1 +1,351 @@
-Y29uc3QgRk9STV9DT05UUk9MX05BTUVTID0gbmV3IFNldChbCiAgIkNoZWNrYm94IiwKICAiQ29tYm9ib3hJbnB1dCIsCiAgIklucHV0IiwKICAiSW5wdXRHcm91cElucHV0IiwKICAiSW5wdXRHcm91cFRleHRhcmVhIiwKICAiSW5wdXRPVFAiLAogICJSYWRpb0dyb3VwSXRlbSIsCiAgIlNlbGVjdFRyaWdnZXIiLAogICJTbGlkZXIiLAogICJTd2l0Y2giLAogICJUYWdzSW5wdXRJbnB1dCIsCiAgIlRleHRhcmVhIiwKXSk7Cgpjb25zdCBOQVRJVkVfRk9STV9DT05UUk9MUyA9IG5ldyBTZXQoWwogICJpbnB1dCIsCiAgIm1ldGVyIiwKICAib3V0cHV0IiwKICAicHJvZ3Jlc3MiLAogICJzZWxlY3QiLAogICJ0ZXh0YXJlYSIsCl0pOwoKY29uc3QgSU5URVJBQ1RJVkVfTkFNRVMgPSBuZXcgU2V0KFsKICAiQnV0dG9uIiwKICAiSW5wdXRHcm91cEJ1dHRvbiIsCiAgIlNpZGViYXJNZW51QWN0aW9uIiwKICAiU2lkZWJhck1lbnVCdXR0b24iLAogICJidXR0b24iLApdKTsKCmZ1bmN0aW9uIGdldEF0dHJpYnV0ZShub2RlLCBuYW1lKSB7CiAgcmV0dXJuIG5vZGUuc3RhcnRUYWcuYXR0cmlidXRlcy5maW5kKChhdHRyaWJ1dGUpID0+IHsKICAgIGlmICghYXR0cmlidXRlLmRpcmVjdGl2ZSkgewogICAgICByZXR1cm4gYXR0cmlidXRlLmtleS5uYW1lID09PSBuYW1lOwogICAgfQoKICAgIHJldHVybiAoCiAgICAgIGF0dHJpYnV0ZS5rZXkubmFtZS5uYW1lID09PSAiYmluZCIgJiYKICAgICAgYXR0cmlidXRlLmtleS5hcmd1bWVudD8udHlwZSA9PT0gIlZJZGVudGlmaWVyIiAmJgogICAgICBhdHRyaWJ1dGUua2V5LmFyZ3VtZW50Lm5hbWUgPT09IG5hbWUKICAgICk7CiAgfSk7Cn0KCmZ1bmN0aW9uIGdldFN0YXRpY0F0dHJpYnV0ZVZhbHVlKG5vZGUsIG5hbWUpIHsKICBjb25zdCBhdHRyaWJ1dGUgPSBnZXRBdHRyaWJ1dGUobm9kZSwgbmFtZSk7CiAgaWYgKCFhdHRyaWJ1dGUgfHwgYXR0cmlidXRlLmRpcmVjdGl2ZSB8fCAhYXR0cmlidXRlLnZhbHVlKSB7CiAgICByZXR1cm4gdW5kZWZpbmVkOwogIH0KICByZXR1cm4gYXR0cmlidXRlLnZhbHVlLnZhbHVlOwp9CgpmdW5jdGlvbiBpc05lc3RlZEluTGFiZWwobm9kZSkgewogIGxldCBwYXJlbnQgPSBub2RlLnBhcmVudDsKICB3aGlsZSAocGFyZW50Py50eXBlID09PSAiVkVsZW1lbnQiKSB7CiAgICBpZiAocGFyZW50LnJhd05hbWUgPT09ICJsYWJlbCIgfHwgcGFyZW50LnJhd05hbWUgPT09ICJMYWJlbCIpIHsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9CiAgICBwYXJlbnQgPSBwYXJlbnQucGFyZW50OwogIH0KICByZXR1cm4gZmFsc2U7Cn0KCmZ1bmN0aW9uIGNvbGxlY3RQYXR0ZXJuSWRlbnRpZmllcnMocGF0dGVybiwgaWRlbnRpZmllcnMpIHsKICBpZiAoIXBhdHRlcm4pIHJldHVybjsKCiAgaWYgKHBhdHRlcm4udHlwZSA9PT0gIklkZW50aWZpZXIiKSB7CiAgICBpZGVudGlmaWVycy5hZGQocGF0dGVybi5uYW1lKTsKICAgIHJldHVybjsKICB9CgogIGlmIChwYXR0ZXJuLnR5cGUgPT09ICJSZXN0RWxlbWVudCIpIHsKICAgIGNvbGxlY3RQYXR0ZXJuSWRlbnRpZmllcnMocGF0dGVybi5hcmd1bWVudCwgaWRlbnRpZmllcnMpOwogICAgcmV0dXJuOwogIH0KCiAgaWYgKHBhdHRlcm4udHlwZSA9PT0gIkFzc2lnbm1lbnRQYXR0ZXJuIikgewogICAgY29sbGVjdFBhdHRlcm5JZGVudGlmaWVycyhwYXR0ZXJuLmxlZnQsIGlkZW50aWZpZXJzKTsKICAgIHJldHVybjsKICB9CgogIGlmIChwYXR0ZXJuLnR5cGUgPT09ICJBcnJheVBhdHRlcm4iKSB7CiAgICBmb3IgKGNvbnN0IGVsZW1lbnQgb2YgcGF0dGVybi5lbGVtZW50cykgewogICAgICBjb2xsZWN0UGF0dGVybklkZW50aWZpZXJzKGVsZW1lbnQsIGlkZW50aWZpZXJzKTsKICAgIH0KICAgIHJldHVybjsKICB9CgogIGlmIChwYXR0ZXJuLnR5cGUgPT09ICJPYmplY3RQYXR0ZXJuIikgewogICAgZm9yIChjb25zdCBwcm9wZXJ0eSBvZiBwYXR0ZXJuLnByb3BlcnRpZXMpIHsKICAgICAgY29sbGVjdFBhdHRlcm5JZGVudGlmaWVycygKICAgICAgICBwcm9wZXJ0eS50eXBlID09PSAiUHJvcGVydHkiID8gcHJvcGVydHkudmFsdWUgOiBwcm9wZXJ0eS5hcmd1bWVudCwKICAgICAgICBpZGVudGlmaWVycywKICAgICAgKTsKICAgIH0KICB9Cn0KCmZ1bmN0aW9uIGdldExvb3BJZGVudGlmaWVycyhub2RlKSB7CiAgY29uc3QgaWRlbnRpZmllcnMgPSBuZXcgU2V0KCk7CiAgbGV0IGN1cnJlbnQgPSBub2RlOwoKICB3aGlsZSAoY3VycmVudCkgewogICAgaWYgKGN1cnJlbnQudHlwZSA9PT0gIlZFbGVtZW50IikgewogICAgICBjb25zdCBmb3JBdHRyaWJ1dGUgPSBjdXJyZW50LnN0YXJ0VGFnLmF0dHJpYnV0ZXMuZmluZCgKICAgICAgICAoYXR0cmlidXRlKSA9PgogICAgICAgICAgYXR0cmlidXRlLmRpcmVjdGl2ZSAmJiBhdHRyaWJ1dGUua2V5Lm5hbWUubmFtZSA9PT0gImZvciIsCiAgICAgICk7CiAgICAgIGNvbnN0IGV4cHJlc3Npb24gPSBmb3JBdHRyaWJ1dGU/LnZhbHVlPy5leHByZXNzaW9uOwogICAgICBpZiAoZXhwcmVzc2lvbj8udHlwZSA9PT0gIlZGb3JFeHByZXNzaW9uIikgewogICAgICAgIGZvciAoY29uc3QgcGF0dGVybiBvZiBleHByZXNzaW9uLmxlZnQpIHsKICAgICAgICAgIGNvbGxlY3RQYXR0ZXJuSWRlbnRpZmllcnMocGF0dGVybiwgaWRlbnRpZmllcnMpOwogICAgICAgIH0KICAgICAgfQogICAgfQogICAgY3VycmVudCA9IGN1cnJlbnQucGFyZW50OwogIH0KCiAgcmV0dXJuIGlkZW50aWZpZXJzOwp9CgpmdW5jdGlvbiBleHByZXNzaW9uVXNlc0lkZW50aWZpZXIoZXhwcmVzc2lvbiwgaWRlbnRpZmllcnMpIHsKICBpZiAoIWV4cHJlc3Npb24gfHwgaWRlbnRpZmllcnMuc2l6ZSA9PT0gMCkgcmV0dXJuIGZhbHNlOwoKICBjb25zdCBwZW5kaW5nID0gW2V4cHJlc3Npb25dOwogIGNvbnN0IHZpc2l0ZWQgPSBuZXcgU2V0KCk7CiAgd2hpbGUgKHBlbmRpbmcubGVuZ3RoID4gMCkgewogICAgY29uc3QgY3VycmVudCA9IHBlbmRpbmcucG9wKCk7CiAgICBpZiAoIWN1cnJlbnQgfHwgdHlwZW9mIGN1cnJlbnQgIT09ICJvYmplY3QiIHx8IHZpc2l0ZWQuaGFzKGN1cnJlbnQpKSB7CiAgICAgIGNvbnRpbnVlOwogICAgfQogICAgdmlzaXRlZC5hZGQoY3VycmVudCk7CgogICAgaWYgKGN1cnJlbnQudHlwZSA9PT0gIklkZW50aWZpZXIiICYmIGlkZW50aWZpZXJzLmhhcyhjdXJyZW50Lm5hbWUpKSB7CiAgICAgIHJldHVybiB0cnVlOwogICAgfQoKICAgIGZvciAoY29uc3QgW2tleSwgdmFsdWVdIG9mIE9iamVjdC5lbnRyaWVzKGN1cnJlbnQpKSB7CiAgICAgIGlmIChrZXkgPT09ICJwYXJlbnQiKSBjb250aW51ZTsKICAgICAgaWYgKEFycmF5LmlzQXJyYXkodmFsdWUpKSB7CiAgICAgICAgcGVuZGluZy5wdXNoKC4uLnZhbHVlKTsKICAgICAgfSBlbHNlIGlmICh2YWx1ZSAmJiB0eXBlb2YgdmFsdWUgPT09ICJvYmplY3QiKSB7CiAgICAgICAgcGVuZGluZy5wdXNoKHZhbHVlKTsKICAgICAgfQogICAgfQogIH0KCiAgcmV0dXJuIGZhbHNlOwp9Cgpjb25zdCBub1N0YXRpY0Zvcm1GaWVsZElkSW5Mb29wID0gewogIG1ldGE6IHsKICAgIHR5cGU6ICJwcm9ibGVtIiwKICAgIGRvY3M6IHsKICAgICAgZGVzY3JpcHRpb246CiAgICAgICAgIlJlcXVpcmUgZm9ybSBmaWVsZCBpZHMgYW5kIGxhYmVsIHRhcmdldHMgaW5zaWRlIGxvb3BzIHRvIHVzZSBhIGxvb3AgYmluZGluZy4iLAogICAgfSwKICAgIG1lc3NhZ2VzOiB7CiAgICAgIHJlcGVhdGVkOgogICAgICAgICJGb3JtIGZpZWxkIHt7YXR0cmlidXRlfX0gaW5zaWRlIHYtZm9yIG11c3QgcmVmZXJlbmNlIGEgbG9vcCBiaW5kaW5nIHNvIGV2ZXJ5IHJlbmRlcmVkIGZpZWxkIHJlbWFpbnMgdW5pcXVlLiIsCiAgICB9LAogICAgc2NoZW1hOiBbXSwKICB9LAogIGNyZWF0ZShjb250ZXh0KSB7CiAgICBjb25zdCB2aXNpdG9yID0gewogICAgICBWRWxlbWVudChub2RlKSB7CiAgICAgICAgY29uc3QgaXNMYWJlbCA9IG5vZGUucmF3TmFtZSA9PT0gImxhYmVsIiB8fCBub2RlLnJhd05hbWUgPT09ICJMYWJlbCI7CiAgICAgICAgY29uc3QgaXNGb3JtQ29udHJvbCA9CiAgICAgICAgICBOQVRJVkVfRk9STV9DT05UUk9MUy5oYXMobm9kZS5yYXdOYW1lKSB8fAogICAgICAgICAgRk9STV9DT05UUk9MX05BTUVTLmhhcyhub2RlLnJhd05hbWUpOwogICAgICAgIGlmICghaXNMYWJlbCAmJiAhaXNGb3JtQ29udHJvbCkgcmV0dXJuOwoKICAgICAgICBjb25zdCBsb29wSWRlbnRpZmllcnMgPSBnZXRMb29wSWRlbnRpZmllcnMobm9kZSk7CiAgICAgICAgaWYgKGxvb3BJZGVudGlmaWVycy5zaXplID09PSAwKSByZXR1cm47CgogICAgICAgIGNvbnN0IGF0dHJpYnV0ZU5hbWUgPSBpc0xhYmVsID8gImZvciIgOiAiaWQiOwogICAgICAgIGNvbnN0IGF0dHJpYnV0ZSA9IGdldEF0dHJpYnV0ZShub2RlLCBhdHRyaWJ1dGVOYW1lKTsKICAgICAgICBpZiAoIWF0dHJpYnV0ZSkgcmV0dXJuOwoKICAgICAgICBjb25zdCBleHByZXNzaW9uID0gYXR0cmlidXRlLmRpcmVjdGl2ZQogICAgICAgICAgPyBhdHRyaWJ1dGUudmFsdWU/LmV4cHJlc3Npb24KICAgICAgICAgIDogbnVsbDsKICAgICAgICBpZiAoZXhwcmVzc2lvblVzZXNJZGVudGlmaWVyKGV4cHJlc3Npb24sIGxvb3BJZGVudGlmaWVycykpIHJldHVybjsKCiAgICAgICAgY29udGV4dC5yZXBvcnQoewogICAgICAgICAgbm9kZTogYXR0cmlidXRlLAogICAgICAgICAgbWVzc2FnZUlkOiAicmVwZWF0ZWQiLAogICAgICAgICAgZGF0YTogeyBhdHRyaWJ1dGU6IGF0dHJpYnV0ZU5hbWUgfSwKICAgICAgICB9KTsKICAgICAgfSwKICAgIH07CgogICAgcmV0dXJuICgKICAgICAgY29udGV4dC5zb3VyY2VDb2RlLnBhcnNlclNlcnZpY2VzLmRlZmluZVRlbXBsYXRlQm9keVZpc2l0b3I/Lih2aXNpdG9yKSA/PwogICAgICB7fQogICAgKTsKICB9LAp9OwoKY29uc3QgZm9ybUNvbnRyb2xIYXNBY2Nlc3NpYmxlTmFtZSA9IHsKICBtZXRhOiB7CiAgICB0eXBlOiAicHJvYmxlbSIsCiAgICBkb2NzOiB7CiAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICJSZXF1aXJlIG5hdGl2ZSBhbmQgcHJvamVjdCBmb3JtIGNvbnRyb2xzIHRvIGV4cG9zZSBhbiBhY2Nlc3NpYmxlIG5hbWUuIiwKICAgIH0sCiAgICBtZXNzYWdlczogewogICAgICBtaXNzaW5nOgogICAgICAgICJGb3JtIGNvbnRyb2wgbXVzdCBiZSBuZXN0ZWQgaW4gYSBsYWJlbCBvciBleHBvc2UgaWQsIGFyaWEtbGFiZWwsIG9yIGFyaWEtbGFiZWxsZWRieS4iLAogICAgICB1bm1hdGNoZWRJZDoKICAgICAgICAnRm9ybSBjb250cm9sIGlkICJ7e2lkfX0iIG11c3QgbWF0Y2ggYSBsYWJlbCBmb3IgYXR0cmlidXRlIG9yIGV4cG9zZSBhcmlhLWxhYmVsL2FyaWEtbGFiZWxsZWRieS4nLAogICAgfSwKICAgIHNjaGVtYTogW10sCiAgfSwKICBjcmVhdGUoY29udGV4dCkgewogICAgY29uc3QgY29udHJvbHNXaXRoU3RhdGljSWRzID0gW107CiAgICBjb25zdCBzdGF0aWNMYWJlbFRhcmdldHMgPSBuZXcgU2V0KCk7CgogICAgY29uc3QgdmlzaXRvciA9IHsKICAgICAgVkVsZW1lbnQobm9kZSkgewogICAgICAgIGlmIChub2RlLnJhd05hbWUgPT09ICJsYWJlbCIgfHwgbm9kZS5yYXdOYW1lID09PSAiTGFiZWwiKSB7CiAgICAgICAgICBjb25zdCBsYWJlbEZvciA9IGdldFN0YXRpY0F0dHJpYnV0ZVZhbHVlKG5vZGUsICJmb3IiKTsKICAgICAgICAgIGlmIChsYWJlbEZvcikgc3RhdGljTGFiZWxUYXJnZXRzLmFkZChsYWJlbEZvcik7CiAgICAgICAgfQoKICAgICAgICBjb25zdCBpc05hdGl2ZSA9IE5BVElWRV9GT1JNX0NPTlRST0xTLmhhcyhub2RlLnJhd05hbWUpOwogICAgICAgIGNvbnN0IGlzUHJvamVjdENvbnRyb2wgPSBGT1JNX0NPTlRST0xfTkFNRVMuaGFzKG5vZGUucmF3TmFtZSk7CiAgICAgICAgaWYgKCFpc05hdGl2ZSAmJiAhaXNQcm9qZWN0Q29udHJvbCkgewogICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KCiAgICAgICAgaWYgKG5vZGUucmF3TmFtZSA9PT0gImlucHV0IikgewogICAgICAgICAgY29uc3QgdHlwZSA9IGdldFN0YXRpY0F0dHJpYnV0ZVZhbHVlKG5vZGUsICJ0eXBlIik7CiAgICAgICAgICBpZiAoCiAgICAgICAgICAgIHR5cGUgJiYKICAgICAgICAgICAgWyJidXR0b24iLCAiaGlkZGVuIiwgImltYWdlIiwgInJlc2V0IiwgInN1Ym1pdCJdLmluY2x1ZGVzKHR5cGUpCiAgICAgICAgICApIHsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgY29uc3Qgc3RhdGljQ2xhc3MgPSBnZXRTdGF0aWNBdHRyaWJ1dGVWYWx1ZShub2RlLCAiY2xhc3MiKSA/PyAiIjsKICAgICAgICBpZiAoCiAgICAgICAgICBnZXRBdHRyaWJ1dGUobm9kZSwgImhpZGRlbiIpIHx8CiAgICAgICAgICBnZXRTdGF0aWNBdHRyaWJ1dGVWYWx1ZShub2RlLCAiYXJpYS1oaWRkZW4iKSA9PT0gInRydWUiIHx8CiAgICAgICAgICBzdGF0aWNDbGFzcy5zcGxpdCgvXHMrL3UpLmluY2x1ZGVzKCJoaWRkZW4iKQogICAgICAgICkgewogICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KCiAgICAgICAgaWYgKAogICAgICAgICAgaXNOZXN0ZWRJbkxhYmVsKG5vZGUpIHx8CiAgICAgICAgICBnZXRBdHRyaWJ1dGUobm9kZSwgImFyaWEtbGFiZWwiKSB8fAogICAgICAgICAgZ2V0QXR0cmlidXRlKG5vZGUsICJhcmlhLWxhYmVsbGVkYnkiKQogICAgICAgICkgewogICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KCiAgICAgICAgY29uc3QgaWRBdHRyaWJ1dGUgPSBnZXRBdHRyaWJ1dGUobm9kZSwgImlkIik7CiAgICAgICAgaWYgKGlkQXR0cmlidXRlKSB7CiAgICAgICAgICBpZiAoaWRBdHRyaWJ1dGUuZGlyZWN0aXZlKSByZXR1cm47CiAgICAgICAgICBjb25zdCBpZCA9IGdldFN0YXRpY0F0dHJpYnV0ZVZhbHVlKG5vZGUsICJpZCIpOwogICAgICAgICAgaWYgKGlkKSB7CiAgICAgICAgICAgIGNvbnRyb2xzV2l0aFN0YXRpY0lkcy5wdXNoKHsgaWQsIG5vZGUgfSk7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGNvbnRleHQucmVwb3J0KHsgbm9kZSwgbWVzc2FnZUlkOiAibWlzc2luZyIgfSk7CiAgICAgIH0sCiAgICAgICJWRG9jdW1lbnRGcmFnbWVudDpleGl0IigpIHsKICAgICAgICBmb3IgKGNvbnN0IGNvbnRyb2wgb2YgY29udHJvbHNXaXRoU3RhdGljSWRzKSB7CiAgICAgICAgICBpZiAoIXN0YXRpY0xhYmVsVGFyZ2V0cy5oYXMoY29udHJvbC5pZCkpIHsKICAgICAgICAgICAgY29udGV4dC5yZXBvcnQoewogICAgICAgICAgICAgIG5vZGU6IGNvbnRyb2wubm9kZSwKICAgICAgICAgICAgICBtZXNzYWdlSWQ6ICJ1bm1hdGNoZWRJZCIsCiAgICAgICAgICAgICAgZGF0YTogeyBpZDogY29udHJvbC5pZCB9LAogICAgICAgICAgICB9KTsKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIH0sCiAgICB9OwoKICAgIHJldHVybiAoCiAgICAgIGNvbnRleHQuc291cmNlQ29kZS5wYXJzZXJTZXJ2aWNlcy5kZWZpbmVUZW1wbGF0ZUJvZHlWaXNpdG9yPy4odmlzaXRvcikgPz8KICAgICAge30KICAgICk7CiAgfSwKfTsKCmZ1bmN0aW9uIGhhc0FjY2Vzc2libGVUZXh0KG5vZGUpIHsKICByZXR1cm4gKG5vZGUuY2hpbGRyZW4gPz8gW10pLnNvbWUoKGNoaWxkKSA9PiB7CiAgICBpZiAoY2hpbGQudHlwZSA9PT0gIlZUZXh0IikgcmV0dXJuIGNoaWxkLnZhbHVlLnRyaW0oKS5sZW5ndGggPiAwOwogICAgaWYgKGNoaWxkLnR5cGUgPT09ICJWRXhwcmVzc2lvbkNvbnRhaW5lciIpIHJldHVybiBCb29sZWFuKGNoaWxkLmV4cHJlc3Npb24pOwogICAgaWYgKGNoaWxkLnR5cGUgIT09ICJWRWxlbWVudCIpIHJldHVybiBmYWxzZTsKICAgIGlmIChjaGlsZC5yYXdOYW1lID09PSAic2xvdCIpIHJldHVybiB0cnVlOwogICAgaWYgKAogICAgICBjaGlsZC5yYXdOYW1lID09PSAiT3ZlcmZsb3dUb29sdGlwVGV4dCIgJiYKICAgICAgZ2V0QXR0cmlidXRlKGNoaWxkLCAidGV4dCIpCiAgICApIHsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9CiAgICByZXR1cm4gaGFzQWNjZXNzaWJsZVRleHQoY2hpbGQpOwogIH0pOwp9Cgpjb25zdCBpbnRlcmFjdGl2ZUhhc0FjY2Vzc2libGVOYW1lID0gewogIG1ldGE6IHsKICAgIHR5cGU6ICJwcm9ibGVtIiwKICAgIGRvY3M6IHsKICAgICAgZGVzY3JpcHRpb246CiAgICAgICAgIlJlcXVpcmUgcHJvamVjdCBidXR0b24gcHJpbWl0aXZlcyB0byBleHBvc2UgdGV4dCBvciBhbiBhY2Nlc3NpYmxlIG5hbWUuIiwKICAgIH0sCiAgICBtZXNzYWdlczogewogICAgICBtaXNzaW5nOgogICAgICAgICJJbnRlcmFjdGl2ZSBjb250cm9sIG11c3QgZXhwb3NlIHRleHQsIGFyaWEtbGFiZWwsIGFyaWEtbGFiZWxsZWRieSwgb3IgdGl0bGUuIiwKICAgIH0sCiAgICBzY2hlbWE6IFtdLAogIH0sCiAgY3JlYXRlKGNvbnRleHQpIHsKICAgIGNvbnN0IHZpc2l0b3IgPSB7CiAgICAgIFZFbGVtZW50KG5vZGUpIHsKICAgICAgICBpZiAoIUlOVEVSQUNUSVZFX05BTUVTLmhhcyhub2RlLnJhd05hbWUpKSByZXR1cm47CiAgICAgICAgaWYgKAogICAgICAgICAgZ2V0QXR0cmlidXRlKG5vZGUsICJhcmlhLWxhYmVsIikgfHwKICAgICAgICAgIGdldEF0dHJpYnV0ZShub2RlLCAiYXJpYS1sYWJlbGxlZGJ5IikgfHwKICAgICAgICAgIGdldEF0dHJpYnV0ZShub2RlLCAidGl0bGUiKSB8fAogICAgICAgICAgaGFzQWNjZXNzaWJsZVRleHQobm9kZSkKICAgICAgICApIHsKICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgY29udGV4dC5yZXBvcnQoeyBub2RlLCBtZXNzYWdlSWQ6ICJtaXNzaW5nIiB9KTsKICAgICAgfSwKICAgIH07CgogICAgcmV0dXJuICgKICAgICAgY29udGV4dC5zb3VyY2VDb2RlLnBhcnNlclNlcnZpY2VzLmRlZmluZVRlbXBsYXRlQm9keVZpc2l0b3I/Lih2aXNpdG9yKSA/PwogICAgICB7fQogICAgKTsKICB9LAp9OwoKZXhwb3J0IGNvbnN0IHZ1ZUExMXlQcm9qZWN0UGx1Z2luID0gewogIHJ1bGVzOiB7CiAgICAiZm9ybS1jb250cm9sLWhhcy1hY2Nlc3NpYmxlLW5hbWUiOiBmb3JtQ29udHJvbEhhc0FjY2Vzc2libGVOYW1lLAogICAgImludGVyYWN0aXZlLWhhcy1hY2Nlc3NpYmxlLW5hbWUiOiBpbnRlcmFjdGl2ZUhhc0FjY2Vzc2libGVOYW1lLAogICAgIm5vLXN0YXRpYy1mb3JtLWZpZWxkLWlkLWluLWxvb3AiOiBub1N0YXRpY0Zvcm1GaWVsZElkSW5Mb29wLAogIH0sCn07Cg==
+const FORM_CONTROL_NAMES = new Set([
+  "Checkbox",
+  "ComboboxInput",
+  "Input",
+  "InputGroupInput",
+  "InputGroupTextarea",
+  "InputOTP",
+  "RadioGroupItem",
+  "SelectTrigger",
+  "Slider",
+  "Switch",
+  "TagsInputInput",
+  "Textarea",
+]);
+
+const NATIVE_FORM_CONTROLS = new Set([
+  "input",
+  "meter",
+  "output",
+  "progress",
+  "select",
+  "textarea",
+]);
+
+const INTERACTIVE_NAMES = new Set([
+  "Button",
+  "InputGroupButton",
+  "SidebarMenuAction",
+  "SidebarMenuButton",
+  "button",
+]);
+
+function getAttribute(node, name) {
+  return node.startTag.attributes.find((attribute) => {
+    if (!attribute.directive) {
+      return attribute.key.name === name;
+    }
+
+    return (
+      attribute.key.name.name === "bind" &&
+      attribute.key.argument?.type === "VIdentifier" &&
+      attribute.key.argument.name === name
+    );
+  });
+}
+
+function getStaticAttributeValue(node, name) {
+  const attribute = getAttribute(node, name);
+  if (!attribute || attribute.directive || !attribute.value) {
+    return undefined;
+  }
+  return attribute.value.value;
+}
+
+function isNestedInLabel(node) {
+  let parent = node.parent;
+  while (parent?.type === "VElement") {
+    if (parent.rawName === "label" || parent.rawName === "Label") {
+      return true;
+    }
+    parent = parent.parent;
+  }
+  return false;
+}
+
+function collectPatternIdentifiers(pattern, identifiers) {
+  if (!pattern) return;
+
+  if (pattern.type === "Identifier") {
+    identifiers.add(pattern.name);
+    return;
+  }
+
+  if (pattern.type === "RestElement") {
+    collectPatternIdentifiers(pattern.argument, identifiers);
+    return;
+  }
+
+  if (pattern.type === "AssignmentPattern") {
+    collectPatternIdentifiers(pattern.left, identifiers);
+    return;
+  }
+
+  if (pattern.type === "ArrayPattern") {
+    for (const element of pattern.elements) {
+      collectPatternIdentifiers(element, identifiers);
+    }
+    return;
+  }
+
+  if (pattern.type === "ObjectPattern") {
+    for (const property of pattern.properties) {
+      collectPatternIdentifiers(
+        property.type === "Property" ? property.value : property.argument,
+        identifiers,
+      );
+    }
+  }
+}
+
+function getLoopIdentifiers(node) {
+  const identifiers = new Set();
+  let current = node;
+
+  while (current) {
+    if (current.type === "VElement") {
+      const forAttribute = current.startTag.attributes.find(
+        (attribute) =>
+          attribute.directive && attribute.key.name.name === "for",
+      );
+      const expression = forAttribute?.value?.expression;
+      if (expression?.type === "VForExpression") {
+        for (const pattern of expression.left) {
+          collectPatternIdentifiers(pattern, identifiers);
+        }
+      }
+    }
+    current = current.parent;
+  }
+
+  return identifiers;
+}
+
+function expressionUsesIdentifier(expression, identifiers) {
+  if (!expression || identifiers.size === 0) return false;
+
+  const pending = [expression];
+  const visited = new Set();
+  while (pending.length > 0) {
+    const current = pending.pop();
+    if (!current || typeof current !== "object" || visited.has(current)) {
+      continue;
+    }
+    visited.add(current);
+
+    if (current.type === "Identifier" && identifiers.has(current.name)) {
+      return true;
+    }
+
+    for (const [key, value] of Object.entries(current)) {
+      if (key === "parent") continue;
+      if (Array.isArray(value)) {
+        pending.push(...value);
+      } else if (value && typeof value === "object") {
+        pending.push(value);
+      }
+    }
+  }
+
+  return false;
+}
+
+const noStaticFormFieldIdInLoop = {
+  meta: {
+    type: "problem",
+    docs: {
+      description:
+        "Require form field ids and label targets inside loops to use a loop binding.",
+    },
+    messages: {
+      repeated:
+        "Form field {{attribute}} inside v-for must reference a loop binding so every rendered field remains unique.",
+    },
+    schema: [],
+  },
+  create(context) {
+    const visitor = {
+      VElement(node) {
+        const isLabel = node.rawName === "label" || node.rawName === "Label";
+        const isFormControl =
+          NATIVE_FORM_CONTROLS.has(node.rawName) ||
+          FORM_CONTROL_NAMES.has(node.rawName);
+        if (!isLabel && !isFormControl) return;
+
+        const loopIdentifiers = getLoopIdentifiers(node);
+        if (loopIdentifiers.size === 0) return;
+
+        const attributeName = isLabel ? "for" : "id";
+        const attribute = getAttribute(node, attributeName);
+        if (!attribute) return;
+
+        const expression = attribute.directive
+          ? attribute.value?.expression
+          : null;
+        if (expressionUsesIdentifier(expression, loopIdentifiers)) return;
+
+        context.report({
+          node: attribute,
+          messageId: "repeated",
+          data: { attribute: attributeName },
+        });
+      },
+    };
+
+    return (
+      context.sourceCode.parserServices.defineTemplateBodyVisitor?.(visitor) ??
+      {}
+    );
+  },
+};
+
+const formControlHasAccessibleName = {
+  meta: {
+    type: "problem",
+    docs: {
+      description:
+        "Require native and project form controls to expose an accessible name.",
+    },
+    messages: {
+      missing:
+        "Form control must be nested in a label or expose id, aria-label, or aria-labelledby.",
+      unmatchedId:
+        'Form control id "{{id}}" must match a label for attribute or expose aria-label/aria-labelledby.',
+    },
+    schema: [],
+  },
+  create(context) {
+    const controlsWithStaticIds = [];
+    const staticLabelTargets = new Set();
+
+    const visitor = {
+      VElement(node) {
+        if (node.rawName === "label" || node.rawName === "Label") {
+          const labelFor = getStaticAttributeValue(node, "for");
+          if (labelFor) staticLabelTargets.add(labelFor);
+        }
+
+        const isNative = NATIVE_FORM_CONTROLS.has(node.rawName);
+        const isProjectControl = FORM_CONTROL_NAMES.has(node.rawName);
+        if (!isNative && !isProjectControl) {
+          return;
+        }
+
+        if (node.rawName === "input") {
+          const type = getStaticAttributeValue(node, "type");
+          if (
+            type &&
+            ["button", "hidden", "image", "reset", "submit"].includes(type)
+          ) {
+            return;
+          }
+        }
+
+        const staticClass = getStaticAttributeValue(node, "class") ?? "";
+        if (
+          getAttribute(node, "hidden") ||
+          getStaticAttributeValue(node, "aria-hidden") === "true" ||
+          staticClass.split(/\s+/u).includes("hidden")
+        ) {
+          return;
+        }
+
+        if (
+          isNestedInLabel(node) ||
+          getAttribute(node, "aria-label") ||
+          getAttribute(node, "aria-labelledby")
+        ) {
+          return;
+        }
+
+        const idAttribute = getAttribute(node, "id");
+        if (idAttribute) {
+          if (idAttribute.directive) return;
+          const id = getStaticAttributeValue(node, "id");
+          if (id) {
+            controlsWithStaticIds.push({ id, node });
+            return;
+          }
+        }
+
+        context.report({ node, messageId: "missing" });
+      },
+      "VDocumentFragment:exit"() {
+        for (const control of controlsWithStaticIds) {
+          if (!staticLabelTargets.has(control.id)) {
+            context.report({
+              node: control.node,
+              messageId: "unmatchedId",
+              data: { id: control.id },
+            });
+          }
+        }
+      },
+    };
+
+    return (
+      context.sourceCode.parserServices.defineTemplateBodyVisitor?.(visitor) ??
+      {}
+    );
+  },
+};
+
+function hasAccessibleText(node) {
+  return (node.children ?? []).some((child) => {
+    if (child.type === "VText") return child.value.trim().length > 0;
+    if (child.type === "VExpressionContainer") return Boolean(child.expression);
+    if (child.type !== "VElement") return false;
+    if (child.rawName === "slot") return true;
+    if (
+      child.rawName === "OverflowTooltipText" &&
+      getAttribute(child, "text")
+    ) {
+      return true;
+    }
+    return hasAccessibleText(child);
+  });
+}
+
+const interactiveHasAccessibleName = {
+  meta: {
+    type: "problem",
+    docs: {
+      description:
+        "Require project button primitives to expose text or an accessible name.",
+    },
+    messages: {
+      missing:
+        "Interactive control must expose text, aria-label, aria-labelledby, or title.",
+    },
+    schema: [],
+  },
+  create(context) {
+    const visitor = {
+      VElement(node) {
+        if (!INTERACTIVE_NAMES.has(node.rawName)) return;
+        if (
+          getAttribute(node, "aria-label") ||
+          getAttribute(node, "aria-labelledby") ||
+          getAttribute(node, "title") ||
+          hasAccessibleText(node)
+        ) {
+          return;
+        }
+        context.report({ node, messageId: "missing" });
+      },
+    };
+
+    return (
+      context.sourceCode.parserServices.defineTemplateBodyVisitor?.(visitor) ??
+      {}
+    );
+  },
+};
+
+export const vueA11yProjectPlugin = {
+  rules: {
+    "form-control-has-accessible-name": formControlHasAccessibleName,
+    "interactive-has-accessible-name": interactiveHasAccessibleName,
+    "no-static-form-field-id-in-loop": noStaticFormFieldIdInLoop,
+  },
+};

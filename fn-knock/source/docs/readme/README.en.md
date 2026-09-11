@@ -1,1 +1,224 @@
-PHAgYWxpZ249ImNlbnRlciI+CiAgPGEgaHJlZj0iaHR0cHM6Ly93d3cuZm5rbm9jay5jbi8iPgogICAgPGltZyBzcmM9Ii4uLy4uL2Fzc2V0cy9mbi1rbm9jay53ZWJwIiBhbHQ9ImZuLWtub2NrIiB3aWR0aD0iODYwIj4KICA8L2E+CjwvcD4KCjxoMSBhbGlnbj0iY2VudGVyIj5mbi1rbm9jazwvaDE+Cgo8cCBhbGlnbj0iY2VudGVyIj4KICA8YSBocmVmPSIuLi8uLi9SRUFETUUubWQiPueugOS9k+S4reaWhzwvYT4gwrcKICA8c3Ryb25nPkVuZ2xpc2g8L3N0cm9uZz4gwrcKICA8YSBocmVmPSIuL1JFQURNRS5rby5tZCI+7ZWc6rWt7Ja0PC9hPiDCtwogIDxhIGhyZWY9Ii4vUkVBRE1FLmphLm1kIj7ml6XmnKzoqp48L2E+CjwvcD4KCjxwIGFsaWduPSJjZW50ZXIiPgogIEEgaGlnaC1wZXJmb3JtYW5jZSwgY3Jvc3MtcGxhdGZvcm0gc2VjdXJpdHkgZ2F0ZXdheSBmb3IgTkFTIGFwcGxpYW5jZXMsIE9wZW5XcnQgcm91dGVycywgYW5kIGhvbWUgc2VydmVycwo8L3A+Cgo8cCBhbGlnbj0iY2VudGVyIj4KICA8YSBocmVmPSJodHRwczovL3d3dy5mbmtub2NrLmNuLyI+PGltZyBhbHQ9Ik9mZmljaWFsIFdlYnNpdGUiIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9JbnN0YWxsLWZua25vY2suY24tMjU2M2ViP3N0eWxlPWZsYXQtc3F1YXJlIj48L2E+CiAgPGltZyBhbHQ9IlJ1c3QgQ29yZSIgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0NvcmUtUnVzdC1kZWE1ODQ/c3R5bGU9ZmxhdC1zcXVhcmUmbG9nbz1ydXN0JmxvZ29Db2xvcj13aGl0ZSI+CiAgPGltZyBhbHQ9IkdvIEdhdGV3YXkiIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9HYXRld2F5LUdvLTAwYWRkOD9zdHlsZT1mbGF0LXNxdWFyZSZsb2dvPWdvJmxvZ29Db2xvcj13aGl0ZSI+CiAgPGltZyBhbHQ9IlZ1ZSAzIiBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvQ29uc29sZS1WdWVfMy00MmI4ODM/c3R5bGU9ZmxhdC1zcXVhcmUmbG9nbz12dWVkb3RqcyZsb2dvQ29sb3I9d2hpdGUiPgogIDxhIGhyZWY9Imh0dHBzOi8vaHViLmRvY2tlci5jb20vci9rY2lsbmsvZm4ta25vY2siPjxpbWcgYWx0PSJEb2NrZXIiIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9Eb2NrZXItYW1kNjRfJTdDX2FybTY0XyU3Q19hcm12Ny0yNDk2ZWQ/c3R5bGU9ZmxhdC1zcXVhcmUmbG9nbz1kb2NrZXImbG9nb0NvbG9yPXdoaXRlIj48L2E+CiAgPGEgaHJlZj0iLi4vLi4vTElDRU5TRSI+PGltZyBhbHQ9Ik1JVCBMaWNlbnNlIiBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvTGljZW5zZS1NSVQtMTExODI3P3N0eWxlPWZsYXQtc3F1YXJlIj48L2E+CjwvcD4KCjxwIGFsaWduPSJjZW50ZXIiPgogIDxhIGhyZWY9Imh0dHBzOi8vd3d3LmZua25vY2suY24vIj5XZWJzaXRlPC9hPiDCtwogIDxhIGhyZWY9Imh0dHBzOi8vZG9jcy5mbmtub2NrLmNuLyI+RG9jdW1lbnRhdGlvbjwvYT4gwrcKICA8YSBocmVmPSJodHRwczovL3d3dy5mbmtub2NrLmNuLyI+RG93bmxvYWRzPC9hPiDCtwogIDxhIGhyZWY9Imh0dHBzOi8vd3d3LmZua25vY2suY24vbGVnYWwjdGVybXMiPlRlcm1zIG9mIFNlcnZpY2U8L2E+IMK3CiAgPGEgaHJlZj0iaHR0cHM6Ly93d3cuZm5rbm9jay5jbi9sZWdhbCNwcml2YWN5Ij5Qcml2YWN5IFBvbGljeTwvYT4KPC9wPgoKZm4ta25vY2sgaGFzIGJlZW4gcmVidWlsdCBhcyBhIG5hdGl2ZSBhcHBsaWNhdGlvbi4gSXRzIHByb2R1Y3Rpb24gcnVudGltZSBjb21iaW5lcyBhICoqUnVzdCBjb250cm9sIHBsYW5lIHdpdGggYSBHbyBkYXRhIHBsYW5lKiogYW5kIHVzZXMgYnVpbHQtaW4gU1FMaXRlIHN0b3JhZ2UuICoqTmVpdGhlciBOb2RlLmpzIG5vciBSZWRpcyBpcyByZXF1aXJlZCBhdCBydW50aW1lLioqIE5vZGUuanMgaXMgb25seSB1c2VkIHRvIGRldmVsb3AgdGhlIFZ1ZSBmcm9udGVuZHMgYW5kIG9yY2hlc3RyYXRlIG1vbm9yZXBvIGJ1aWxkcyBmcm9tIHNvdXJjZS4KCiMjIFdoeSBmbi1rbm9jaz8KCmZuLWtub2NrIGJyaW5ncyByZXZlcnNlIHByb3h5aW5nLCBhY2Nlc3MgYXV0aGVudGljYXRpb24sIFRMUyBjZXJ0aWZpY2F0ZXMsIERETlMsIGFjY2VzcyBjb250cm9sLCBXQUYsIG91dGJvdW5kIHR1bm5lbHMsIGFuZCBzZXJ2aWNlIGhlYWx0aCBpbnRvIGEgc2luZ2xlIGRhc2hib2FyZC4gSXQgZ2l2ZXMgeW91IGEgc2FmZXIgYW5kIHNpbXBsZXIgd2F5IHRvIGV4cG9zZSBzZWxmLWhvc3RlZCBzZXJ2aWNlcyB0byB0cnVzdGVkIHVzZXJzLgoKfCBGZWF0dXJlICAgICAgICAgICAgICAgICB8IFdoYXQgaXQgcHJvdmlkZXMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8CnwgU2VjdXJlIGdhdGV3YXkgICAgICAgICAgfCBSZXZlcnNlIHByb3h5LCBmb3J3YXJkIGF1dGhlbnRpY2F0aW9uLCBhY2Nlc3MgbG9ncywgSG9zdCAvIHBhdGggcm91dGluZywgYW5kIFRDUCBwcm94eWluZyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBBdXRoZW50aWNhdGlvbiAgICAgICAgICB8IFBhc3N3b3JkcywgVE9UUCwgcGFzc2tleXMsIE9JREMsIExEQVAvQWN0aXZlIERpcmVjdG9yeSwgdmVyaWZpY2F0aW9uIGNoYWxsZW5nZXMsIGFuZCBncmFudWxhciBhdXRoZW50aWNhdGlvbiBwb2xpY2llcyAgICAgICAgICAgfAp8IERvbWFpbnMgYW5kIFRMUyAgICAgICAgIHwgQUNNRSBjZXJ0aWZpY2F0ZSBpc3N1YW5jZSwgVExTIGNvbmZpZ3VyYXRpb24sIGFuZCBtdWx0aS1wcm92aWRlciBERE5TICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgUHJvYWN0aXZlIHByb3RlY3Rpb24gICAgfCBJUCBhbGxvd2xpc3RzLCBnZW8tYmFzZWQgYWNjZXNzIHBvbGljaWVzLCBXQUYsIGJvdCBibG9ja2luZywgbG9naW4gYmFja29mZiwgYW5kIHJhdGUgbGltaXRpbmcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBPdXRib3VuZCB0dW5uZWxzICAgICAgICB8IENvbmZpZ3VyYXRpb24sIGxpZmVjeWNsZSBjb250cm9sLCBsb2dzLCBhbmQgaGVhbHRoIG1vbml0b3JpbmcgZm9yIENsb3VkZmxhcmUgVHVubmVsIChgY2xvdWRmbGFyZWRgKSBhbmQgdGhlIGZycCBjbGllbnQgKGBmcnBjYCkgfAp8IERheS10by1kYXkgb3BlcmF0aW9ucyAgIHwgU3lzdGVtIG1vbml0b3JpbmcsIGF1ZGl0IGV2ZW50cywgd2ViIHRlcm1pbmFsLCBub3RpZmljYXRpb25zLCBiYWNrdXBzLCBhbmQgdXBkYXRlIGNoZWNrcyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgTXVsdGktcGxhdGZvcm0gcGFja2FnZXMgfCBmbk9TLCBPcGVuV3J0LCBEb2NrZXIsIFdpbmRvd3MsIG1hY09TLCBTeW5vbG9neSBEU00sIGFuZCBnZW5lcmFsLXB1cnBvc2UgTGludXggICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKClRoZSBXZWIgVGVybWluYWwgY29udGludWVzIHRvIHN1cHBvcnQgU1NIIHRhcmdldHMgd2hvc2UgaG9zdCBmaW5nZXJwcmludHMgYW4gYWRtaW5pc3RyYXRvciBleHBsaWNpdGx5IHRydXN0cy4gRnVsbCBGUEssIGdlbmVyYWwtcHVycG9zZSBMaW51eCwgbWFjT1MsIGFuZCBPcGVuV3J0IHBhY2thZ2VzIGNhbiBhbHNvIGVuYWJsZSBhIGxvY2FsIFBUWS4gTG9jYWwgYWNjZXNzIGlzIGRpc2FibGVkIGJ5IGRlZmF1bHQgYW5kIGFsd2F5cyBpbmhlcml0cyB0aGUgZWZmZWN0aXZlIFVJRC9HSUQgb2YgdGhlIGZuLWtub2NrIHNlcnZpY2UsIGluY2x1ZGluZyByb290IHByaXZpbGVnZXMgd2hlbiB0aGUgc2VydmljZSBydW5zIGFzIHJvb3QuIEZQSyBMaXRlLCBTeW5vbG9neSwgRG9ja2VyLCBXaW5kb3dzLCBhbmQgZGV2ZWxvcG1lbnQgZGVwbG95bWVudHMgZG8gbm90IGV4cG9zZSBhIGxvY2FsIHRlcm1pbmFsLgoKPiBbIVdBUk5JTkddCj4gVmVyaWZ5IHRoZSBkaXNwbGF5ZWQgc2VydmljZSBpZGVudGl0eSwgc2hlbGwsIGFuZCBpbml0aWFsIGRpcmVjdG9yeSBiZWZvcmUgZW5hYmxpbmcgbG9jYWwgYWNjZXNzLiBUaGUgbG9jYWwgdGVybWluYWwgZG9lcyBub3QgZHJvcCBwcml2aWxlZ2VzLCBzd2l0Y2ggdXNlcnMsIG9yIGNvbm5lY3QgdGhyb3VnaCBsb2NhbGhvc3QgU1NILiBDbG9zaW5nIHRoZSBicm93c2VyIGxlYXZlcyB0aGUgaW4tcHJvY2VzcyBzZXNzaW9uIHJ1bm5pbmcsIHdoaWxlIHJlc3RhcnRpbmcgZm4ta25vY2sgZW5kcyBpdC4gT24gZnVsbCBGUEssIHRlcm1pbmFsIHRyYWZmaWMgaXMgZm9yd2FyZGVkIG9ubHkgYnkgYGluZGV4LmNnaWAgdG8gdGhlIGxvb3BiYWNrIFJ1c3Qgc2VydmljZTsgaXQgbXVzdCBuZXZlciB1c2UgdGhlIGZuT1MgdW5pZmllZCBnYXRld2F5LCBHby9nUlBDIHJvdXRlcywgb3IgV2ViU29ja2V0LgoKIyMgQXJjaGl0ZWN0dXJlCgpgYGBtZXJtYWlkCmZsb3djaGFydCBMUgogICAgVmlzaXRvclsiU2VydmljZSB1c2VyIl0gLS0+IEdhdGV3YXlbIkdvIGdhdGV3YXkgwrcgRGF0YSBwbGFuZTxici8+RGVmYXVsdCBwb3J0IDc5OTkiXQogICAgQWRtaW5bIkFkbWluaXN0cmF0b3IncyBicm93c2VyIl0gLS0+IEVudHJ5WyJBZG1pbiBlbnRyeSBwb2ludDxici8+RGVmYXVsdCBwb3J0IDc5OTEiXQogICAgRW50cnkgLS0+IENvbnRyb2xbIlJ1c3QgY29udHJvbCBwbGFuZSDCtyBBeHVtPGJyLz5EZWZhdWx0IHBvcnQgNzk5OCJdCiAgICBDb250cm9sIDwtLT58ImdSUEMgwrcgNzk5NiJ8IEdhdGV3YXkKICAgIENvbnRyb2wgLS0+IFN0b3JhZ2VbKCJTUUxpdGUiKV0KICAgIFZpZXdzWyJWdWUgMyBhZG1pbiAvIHNpZ24taW4gVUlzPGJyLz5QcmVidWlsdCBzdGF0aWMgYXNzZXRzIl0gLS0+IEVudHJ5CmBgYAoKLSAqKlJ1c3QgY29udHJvbCBwbGFuZToqKiBNYW5hZ2VtZW50IEFQSXMsIGF1dGhlbnRpY2F0aW9uLCBzZWN1cml0eSBwb2xpY2llcywgY2VydGlmaWNhdGVzLCBERE5TLCB0dW5uZWxzLCBhbmQgc3lzdGVtIGFkbWluaXN0cmF0aW9uLgotICoqR28gZGF0YSBwbGFuZToqKiBHYXRld2F5IGxpc3RlbmVycywgcmV2ZXJzZSBwcm94eWluZywgYW5kIGhpZ2gtdGhyb3VnaHB1dCBzZXJ2aWNlIHRyYWZmaWMuCi0gKipWdWUgMyBmcm9udGVuZHM6KiogQnVpbHQgYXMgc3RhdGljIGFzc2V0cyBhbmQgc2hpcHBlZCB3aXRoIHRoZSBpbnN0YWxsZXIgb3IgY29udGFpbmVyIGltYWdlOyBubyBOb2RlLmpzIHJ1bnRpbWUgaXMgbmVlZGVkLgotICoqU1FMaXRlIHN0b3JhZ2U6KiogTmV3IGRlcGxveW1lbnRzIGRvIG5vdCByZXF1aXJlIGEgc2VwYXJhdGUgUmVkaXMgc2VydmljZS4KCiMjIERvd25sb2FkIGFuZCBpbnN0YWxsCgpTdGFydCBhdCB0aGUgW2ZuLWtub2NrIHdlYnNpdGVdKGh0dHBzOi8vd3d3LmZua25vY2suY24vKSBhbmQgc2VsZWN0IHlvdXIgZGV2aWNlIHBsYXRmb3JtIGFuZCBhcmNoaXRlY3R1cmUuIFRoZSB3ZWJzaXRlIHByb3ZpZGVzIHRoZSBhcHByb3ByaWF0ZSBwYWNrYWdlIG9yIGluc3RhbGxhdGlvbiBjb21tYW5kIGFsb25nIHdpdGggdGhlIGxhdGVzdCBzZXR1cCBpbnN0cnVjdGlvbnMuCgp8IFBsYXRmb3JtIHwgT1MgLyBhcmNoaXRlY3R1cmUgICAgICAgIHwgRG93bmxvYWQgb3IgaW5zdGFsbCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IC0tLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfAp8IGZuT1MgICAgIHwgeDg2XzY0ICAgICAgICAgICAgICAgICAgIHwgW0Rvd25sb2FkIEZQS10oaHR0cHM6Ly9nZXQuZm5rbm9jay5jbi8pICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGZuT1MgICAgIHwgQVJNNjQgLyBhYXJjaDY0ICAgICAgICAgIHwgW0Rvd25sb2FkIEZQS10oaHR0cHM6Ly9nZXQuZm5rbm9jay5jbi8/YXJjaD1hcm02NCkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IE9wZW5XcnQgIHwgeDg2XzY0ICAgICAgICAgICAgICAgICAgIHwgW0FQSyAoMjUuMTIrKV0oaHR0cHM6Ly9nZXQuZm5rbm9jay5jbi8/dHlwZT1hcGsmYXJjaD14ODZfNjQpIMK3IFtJUEsgKDI0LjEwIC8gbGVnYWN5KV0oaHR0cHM6Ly9nZXQuZm5rbm9jay5jbi8/dHlwZT1pcGsmYXJjaD14ODZfNjQpICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBPcGVuV3J0ICB8IGFhcmNoNjRfY29ydGV4LWE1MyAgICAgICB8IFtBUEsgKDI1LjEyKyldKGh0dHBzOi8vZ2V0LmZua25vY2suY24vP3R5cGU9YXBrJmFyY2g9YWFyY2g2NF9jb3J0ZXgtYTUzKSDCtyBbSVBLICgyNC4xMCAvIGxlZ2FjeSldKGh0dHBzOi8vZ2V0LmZua25vY2suY24vP3R5cGU9aXBrJmFyY2g9YWFyY2g2NF9jb3J0ZXgtYTUzKSAgICAgICAgICAgICB8CnwgT3BlbldydCAgfCBhYXJjaDY0X2dlbmVyaWMgICAgICAgICAgfCBbQVBLICgyNS4xMispXShodHRwczovL2dldC5mbmtub2NrLmNuLz90eXBlPWFwayZhcmNoPWFhcmNoNjRfZ2VuZXJpYykgwrcgW0lQSyAoMjQuMTAgLyBsZWdhY3kpXShodHRwczovL2dldC5mbmtub2NrLmNuLz90eXBlPWlwayZhcmNoPWFhcmNoNjRfZ2VuZXJpYykgICAgICAgICAgICAgICAgICAgfAp8IE9wZW5XcnQgIHwgYXJtX2NvcnRleC1hN19uZW9uLXZmcHY0IHwgW0FQSyAoMjUuMTIrKV0oaHR0cHM6Ly9nZXQuZm5rbm9jay5jbi8/dHlwZT1hcGsmYXJjaD1hcm1fY29ydGV4LWE3X25lb24tdmZwdjQpIMK3IFtJUEsgKDI0LjEwIC8gbGVnYWN5KV0oaHR0cHM6Ly9nZXQuZm5rbm9jay5jbi8/dHlwZT1pcGsmYXJjaD1hcm1fY29ydGV4LWE3X25lb24tdmZwdjQpIHwKfCBPcGVuV3J0ICB8IGFybV9jb3J0ZXgtYTVfdmZwdjQgICAgICB8IFtBUEsgKDI1LjEyKyldKGh0dHBzOi8vZ2V0LmZua25vY2suY24vP3R5cGU9YXBrJmFyY2g9YXJtX2NvcnRleC1hNV92ZnB2NCkgwrcgW0lQSyAoMjQuMTAgLyBsZWdhY3kpXShodHRwczovL2dldC5mbmtub2NrLmNuLz90eXBlPWlwayZhcmNoPWFybV9jb3J0ZXgtYTVfdmZwdjQpICAgICAgICAgICB8CnwgRG9ja2VyICAgfCBhbWQ2NCAvIGFybTY0IC8gYXJtdjcgICAgfCBbRG9ja2VyIEh1Yl0oaHR0cHM6Ly9odWIuZG9ja2VyLmNvbS9yL2tjaWxuay9mbi1rbm9jaykgwrcgW0RlcGxveW1lbnQgZ3VpZGVdKC4uLy4uL2RlcGxveS9kb2NrZXIvUkVBRE1FLm1kKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IFdpbmRvd3MgIHwgV2luZG93cyB4ODZfNjQgICAgICAgICAgIHwgW0Rvd25sb2FkIEVYRV0oaHR0cHM6Ly9nZXQuZm5rbm9jay5jbi8/dHlwZT13aW5kb3dzJmFyY2g9eDg2XzY0KSDCtyBbSW5zdGFsbGF0aW9uIGd1aWRlXShodHRwczovL3d3dy5mbmtub2NrLmNuL3dpbmRvd3MpICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBTeW5vbG9neSB8IERTTSA3LjArIHg4Nl82NCAgICAgICAgICB8IFtEb3dubG9hZCBTUEtdKGh0dHBzOi8vZ2V0LmZua25vY2suY24vP3R5cGU9c3lub2xvZ3kmYXJjaD14ODZfNjQpIMK3IFtJbnN0YWxsYXRpb24gZ3VpZGVdKGh0dHBzOi8vd3d3LmZua25vY2suY24vc3lub2xvZ3kpICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgTGludXggICAgfCB4ODZfNjQgLyBBUk02NCAvIEFSTXY3ICAgfCBbT25lLWxpbmUgaW5zdGFsbGVyXShodHRwczovL3d3dy5mbmtub2NrLmNuL2xpbnV4KSDCtyBbRGVwbG95bWVudCBndWlkZV0oaHR0cHM6Ly9kb2NzLmZua25vY2suY24vcXVpY2stc3RhcnQvbGludXgtZGVwbG95bWVudCkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAoKIyMjIERvY2tlcgoKYGBgYmFzaApkb2NrZXIgcHVsbCBrY2lsbmsvZm4ta25vY2s6bGF0ZXN0CmBgYAoKRm9yIHByb2R1Y3Rpb24gZGVwbG95bWVudHMsIGZvbGxvdyB0aGUgW0RvY2tlciBDb21wb3NlIGd1aWRlXSguLi8uLi9kZXBsb3kvZG9ja2VyL1JFQURNRS5tZCkgdG8gY29uZmlndXJlIHBvcnRzLCBwZXJzaXN0ZW50IHZvbHVtZXMsIGFuIElQdjYgc3VibmV0LCBhbmQgdHJ1c3RlZCBwcm94aWVzLgoKIyMjIExpbnV4CgpCb3RoIHN5c3RlbWQgYW5kIEFscGluZSBMaW51eCdzIE9wZW5SQyBhcmUgc3VwcG9ydGVkLiBSdW4gdGhlIG9mZmljaWFsIG9uZS1saW5lIGluc3RhbGxlcjoKCmBgYGJhc2gKd2dldCAtcU8tIGh0dHBzOi8vY2RuLmZua25vY2suY24vaW5zdGFsbC5zaCB8IHsgaWYgWyAiJChpZCAtdSkiIC1lcSAwIF07IHRoZW4gc2g7IGVsc2Ugc3VkbyBzaDsgZmk7IH0KYGBgCgpBZnRlciBpbnN0YWxsYXRpb24sIG9wZW4gYGh0dHA6Ly88ZGV2aWNlLWlwPjo3OTkxYCBhbmQgY3JlYXRlIHRoZSBhZG1pbmlzdHJhdG9yIHBhc3N3b3JkLiBUaGUgcHVibGljIGdhdGV3YXkgbGlzdGVuZXIgZGVmYXVsdHMgdG8gcG9ydCBgNzk5OWAuCgo+IFshV0FSTklOR10KPiBEbyBub3QgZXhwb3NlIHRoZSBhZG1pbiBwb3J0IGA3OTkxYCBkaXJlY3RseSB0byB0aGUgcHVibGljIEludGVybmV0LiBGb3IgcmVtb3RlIGFkbWluaXN0cmF0aW9uLCB1c2UgYSBWUE4gb3IgcGxhY2UgaXQgYmVoaW5kIGEgdHJ1c3RlZCByZXZlcnNlIHByb3h5IHdpdGggSFRUUFMgYW5kIGFjY2VzcyBjb250cm9scy4KCiMjIERlZmF1bHQgcG9ydHMKCnwgUG9ydCAgIHwgQ29tcG9uZW50ICAgICAgICAgICAgICB8IERlZmF1bHQgdXNlICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IC0tLS0tLSB8IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwKfCBgNzk5MWAgfCBBZG1pbiBlbnRyeSBwb2ludCAgICAgIHwgQnJvd3NlciBhY2Nlc3MgdG8gdGhlIGFkbWluIGRhc2hib2FyZCAgICAgICB8CnwgYDc5OTlgIHwgR28gZ2F0ZXdheSAgICAgICAgICAgICB8IFB1YmxpYyBsaXN0ZW5lciBmb3IgcHJveGllZCBzZXJ2aWNlIHRyYWZmaWMgfAp8IGA3OTk4YCB8IFJ1c3QgYmFja2VuZCAgICAgICAgICAgfCBJbnRlcm5hbCBtYW5hZ2VtZW50IEFQSSAgICAgICAgICAgICAgICAgICAgIHwKfCBgNzk5N2AgfCBBdXRoZW50aWNhdGlvbiBzZXJ2aWNlIHwgSW50ZXJuYWwgc2lnbi1pbiBVSSBzZXJ2aWNlICAgICAgICAgICAgICAgICB8CnwgYDc5OTZgIHwgR28gbWFuYWdlbWVudCBBUEkgICAgICB8IGdSUEMgY29tbXVuaWNhdGlvbiBiZXR3ZWVuIFJ1c3QgYW5kIEdvICAgICAgfAoKVGhlIGV4YWN0IGJpbmQgYWRkcmVzc2VzIHZhcnkgYnkgcGxhdGZvcm0uIFJlZmVyIHRvIHRoZSBpbnN0YWxsYXRpb24gZ3VpZGUgZm9yIHlvdXIgdGFyZ2V0IHBsYXRmb3JtLgoKIyMgU29mdHdhcmUgc3VwcGx5IGNoYWluIGFuZCBwcml2YWN5CgpFdmVyeSBwcm9kdWN0aW9uIHJlbGVhc2UgaW5jbHVkZXMgdmVyaWZpYWJsZSByZWxlYXNlIG1ldGFkYXRhOgoKLSBNdWx0aS1hcmNoaXRlY3R1cmUgRG9ja2VyIGltYWdlcyBhcmUgcHVibGlzaGVkIHdpdGggYW4gKipTQk9NKiogYW5kIG1heGltdW0tbGV2ZWwgYnVpbGQgcHJvdmVuYW5jZS4KLSBJbnN0YWxsZXJzIGF0dGFjaGVkIHRvIGVhY2ggR2l0SHViIFJlbGVhc2UgaW5jbHVkZSBidWlsZCBhdHRlc3RhdGlvbnMsIGEgY29tcGxldGUgYXJ0aWZhY3QgbWFuaWZlc3QsIGFuZCBTSEEtMjU2IGNoZWNrc3Vtcy4KLSBbYHJlbGVhc2UtbWFuaWZlc3QuanNvbmBdKGh0dHBzOi8vZ2l0aHViLmNvbS9rY2ktbG5rL2ZuLWtub2NrLXR1cmJvcmVwby9yZWxlYXNlcy9sYXRlc3QvZG93bmxvYWQvcmVsZWFzZS1tYW5pZmVzdC5qc29uKSByZWNvcmRzIHRoZSB2ZXJzaW9uLCBzb3VyY2UgY29tbWl0LCBHbyBnYXRld2F5IGNvbW1pdCwgcGxhdGZvcm0sIGFyY2hpdGVjdHVyZSwgZmlsZSBzaXplLCBhbmQgZGlnZXN0LgotIFtgU0hBMjU2U1VNU2BdKGh0dHBzOi8vZ2l0aHViLmNvbS9rY2ktbG5rL2ZuLWtub2NrLXR1cmJvcmVwby9yZWxlYXNlcy9sYXRlc3QvZG93bmxvYWQvU0hBMjU2U1VNUykgbGV0cyB5b3UgdmVyaWZ5IGZpbGVzIGRvd25sb2FkZWQgZnJvbSBHaXRIdWIgUmVsZWFzZXMuCgpCZWZvcmUgaW5zdGFsbGluZyBvciB1c2luZyBmbi1rbm9jaywgcmVhZDoKCi0gW1Rlcm1zIG9mIFNlcnZpY2VdKGh0dHBzOi8vd3d3LmZua25vY2suY24vbGVnYWwjdGVybXMpCi0gW1ByaXZhY3kgUG9saWN5XShodHRwczovL3d3dy5mbmtub2NrLmNuL2xlZ2FsI3ByaXZhY3kpCi0gW1RoaXJkLXBhcnR5IG9wZW4tc291cmNlIHNvZnR3YXJlIG5vdGljZXNdKGh0dHBzOi8vd3d3LmZua25vY2suY24vdGhpcmQtcGFydHktc29mdHdhcmUpCgpmbi1rbm9jayBpcyBzZWxmLWhvc3RlZCBieSBkZXNpZ24uIFRoZSBvZmZpY2lhbCBQcml2YWN5IFBvbGljeSBkaXN0aW5ndWlzaGVzIGRhdGEgcHJvY2Vzc2VkIGJ5IHRoZSBwcm9qZWN0IHdlYnNpdGUgYW5kIG9mZmljaWFsIG9ubGluZSBzZXJ2aWNlcyBmcm9tIGFjY291bnRzLCBsb2dzLCBzZXNzaW9ucywgYW5kIHByb3hpZWQgYXBwbGljYXRpb24gZGF0YSBzdG9yZWQgb24geW91ciBvd24gaW5zdGFuY2UuIElmIG90aGVyIHBlb3BsZSB1c2UgeW91ciBpbnN0YW5jZSwgeW91IGFyZSBzdGlsbCByZXNwb25zaWJsZSBmb3IgcHJvdmlkaW5nIGFuIGFwcHJvcHJpYXRlIHByaXZhY3kgbm90aWNlIGJhc2VkIG9uIHlvdXIgY29uZmlndXJhdGlvbi4KCiMjIERldmVsb3AgZnJvbSBzb3VyY2UKCiMjIyBQcmVyZXF1aXNpdGVzCgp8IFRvb2wgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IFVzZWQgZm9yICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwKfCBSdXN0IGAxLjk2LjBgICAgICAgICAgICAgICAgICAgICAgfCBSdXN0IGNvbnRyb2wgcGxhbmUgYW5kIHRoZSBuYXRpdmUgV2luZG93cyBtYW5hZ2VyICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IEdvICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IEJ1aWxkaW5nIHRoZSBgR28tUmVhdXRoLVByb3h5YCBnYXRld2F5OyBzZWUgaXRzIGBnby5tb2RgIGZvciB0aGUgcmVxdWlyZWQgdmVyc2lvbiB8CnwgTm9kZS5qcyBgXjIwLjE5LjBgIG9yIGA+PTIyLjEyLjBgIHwgVnVlIGZyb250ZW5kIGJ1aWxkcywgdGVzdHMsIGFuZCBUdXJib3JlcG8gdGFzayBvcmNoZXN0cmF0aW9uIG9ubHkgICAgICAgICAgICAgICAgIHwKfCBucG0gYDEwLjguMmAgICAgICAgICAgICAgICAgICAgICAgfCBXb3Jrc3BhY2UgcGFja2FnZSBtYW5hZ2VtZW50ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IERvY2tlciAvIEJ1aWxkeCAgICAgICAgICAgICAgICAgICB8IE11bHRpLWFyY2hpdGVjdHVyZSBpbWFnZXMgYW5kIHNlbGVjdGVkIGNyb3NzLXBsYXRmb3JtIGFydGlmYWN0cyAgICAgICAgICAgICAgICAgICB8CgpgYGBiYXNoCm5wbSBjaQpucG0gcnVuIGRldgpgYGAKClF1YWxpdHkgY2hlY2tzOgoKYGBgYmFzaApucG0gcnVuIGxpbnQKbnBtIHJ1biBjaGVjay10eXBlcwpucG0gcnVuIHRlc3QKbnBtIHJ1biBzZWN1cml0eTphdWRpdApgYGAKCkJ1aWxkIGV2ZXJ5IHdvcmtzcGFjZToKCmBgYGJhc2gKbnBtIHJ1biBidWlsZApgYGAKCkJ5IGRlZmF1bHQsIHRoZSBHbyBnYXRld2F5IHNvdXJjZSBpcyByZWFkIGZyb20gdGhlIGFkamFjZW50IGAuLi9Hby1SZWF1dGgtUHJveHlgIGRpcmVjdG9yeS4gU2V0IGBGTl9LTk9DS19HT19SRUFVVEhfUFJPWFlfRElSYCB0byB1c2UgYSBkaWZmZXJlbnQgcGF0aC4KCiMjIFJlcG9zaXRvcnkgbGF5b3V0Cgp8IFBhdGggICAgICAgICAgICAgICAgICAgICAgfCBQdXJwb3NlICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwKfCBgYXBwcy9zZXJ2ZXItYWRtaW4tcnNgICAgIHwgUnVzdCAvIEF4dW0gbWFuYWdlbWVudCBiYWNrZW5kLCBhdXRoZW50aWNhdGlvbiwgYW5kIGNvbnRyb2wgcGxhbmUgICAgICAgICAgICAgICAgICAgfAp8IGBhcHBzL3NlcnZlci1hZG1pbi12aWV3YCAgfCBWdWUgMyBhZG1pbiBkYXNoYm9hcmQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgYGFwcHMvc2VydmVyLWF1dGgtdmlld2AgICB8IFZ1ZSAzIHNpZ24taW4gVUkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgYXBwcy9mbi1rbm9jay1kZXNrdG9wYCAgIHwgUnVzdCArIFdpbjMyIFdpbmRvd3MgbWFuYWdlciBhbmQgTlNJUyBjb25maWd1cmF0aW9uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBhcHBzL2ZuLWtub2NrYCAgICAgICAgICAgfCBOYXRpdmUgRlBLIGludGVncmF0aW9uIGZvciBmbk9TICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgYGFwcHMvZm4ta25vY2stbGl0ZWAgICAgICB8IE5hdGl2ZSBsaWdodHdlaWdodCBGUEsgZm9yIG5vbi1yb290IGZuT1MgZW52aXJvbm1lbnRzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgYXBwcy9mbi1rbm9jay1zeW5vbG9neWAgIHwgTmF0aXZlIFNQSyBpbnRlZ3JhdGlvbiBmb3IgU3lub2xvZ3kgRFNNIDcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBkZXBsb3kvZG9ja2VyYCAgICAgICAgICAgfCBEb2NrZXJmaWxlLCBDb21wb3NlIGZpbGVzLCBhbmQgaW1hZ2UgcHVibGlzaGluZyBjb25maWd1cmF0aW9uICAgICAgICAgICAgICAgICAgICAgICB8CnwgYGRlcGxveS9saW51eGAgICAgICAgICAgICB8IHN5c3RlbWQgLyBPcGVuUkMgaW5zdGFsbGF0aW9uIGFuZCBtYW5hZ2VtZW50IHNjcmlwdHMgZm9yIGdlbmVyYWwtcHVycG9zZSBMaW51eCAgICAgIHwKfCBgZGVwbG95L29wZW53cnRgICAgICAgICAgIHwgT3BlbldydCBBUEsgLyBJUEsgcGFja2FnaW5nIGFuZCBMdUNJIGludGVncmF0aW9uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBwYWNrYWdlcy9ncnBjLWNvbnRyYWN0c2AgfCBnUlBDIGNvbnRyYWN0IGJldHdlZW4gdGhlIFJ1c3QgY29udHJvbCBwbGFuZSBhbmQgR28gZ2F0ZXdheSAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgYHBhY2thZ2VzLypgICAgICAgICAgICAgICB8IFNoYXJlZCBmcm9udGVuZCBjb21wb25lbnRzLCBBUElzLCBsb2NhbGl6YXRpb24gcmVzb3VyY2VzLCBhbmQgdG9vbGluZyBjb25maWd1cmF0aW9uIHwKCiMjIENvbW1vbiBidWlsZCBjb21tYW5kcwoKfCBDb21tYW5kICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgUHVycG9zZSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwKfCBgbnBtIHJ1biBmbi1rbm9jazpidWlsZC1wYWNrYWdlYCAgICAgICAgICAgICAgIHwgQnVpbGQgdGhlIGZuT1MgRlBLICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgbnBtIHJ1biBmbi1rbm9jazpsaXRlOmJ1aWxkLXBhY2thZ2VgICAgICAgICAgIHwgQnVpbGQgdGhlIGZuT1MgTGl0ZSBGUEsgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgbnBtIHJ1biBmbi1rbm9jazpsaW51eDpwcmVwYXJlYCAgICAgICAgICAgICAgIHwgQnVpbGQgZ2VuZXJhbC1wdXJwb3NlIExpbnV4IGFydGlmYWN0cyAgICAgICAgICAgICAgIHwKfCBgbnBtIHJ1biBmbi1rbm9jazpvcGVud3J0OmJ1aWxkYCAgICAgICAgICAgICAgIHwgQnVpbGQgT3BlbldydCBBUEsgYW5kIElQSyBwYWNrYWdlcyAgICAgICAgICAgICAgICAgIHwKfCBgbnBtIHJ1biBmbi1rbm9jazpzcGs6YnVpbGRgICAgICAgICAgICAgICAgICAgIHwgQnVpbGQgdGhlIFN5bm9sb2d5IFNQSyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgbnBtIHJ1biBmbi1rbm9jazpkb2NrZXI6YnVpbGRgICAgICAgICAgICAgICAgIHwgQnVpbGQgYSBsb2NhbCBEb2NrZXIgaW1hZ2UgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgbnBtIHJ1biBmbi1rbm9jazp3aW5kb3dzOnRlc3RgICAgICAgICAgICAgICAgIHwgUnVuIG5hdGl2ZSBXaW5kb3dzIGJ1aWxkIGNoZWNrcyAgICAgICAgICAgICAgICAgICAgIHwKfCBgbnBtIHJ1biBmbi1rbm9jazp3aW5kb3dzOmJ1aWxkYCAgICAgICAgICAgICAgIHwgQnVpbGQgYW4gdW5zaWduZWQgTlNJUyBpbnN0YWxsZXIgZm9yIFdpbmRvd3MgeDg2XzY0IHwKfCBgbnBtIHJ1biBmbi1rbm9jazpyZWxlYXNlOnRlc3RgICAgICAgICAgICAgICAgIHwgVmFsaWRhdGUgdGhlIGNvbXBsZXRlIHJlbGVhc2UgcGlwZWxpbmUgICAgICAgICAgICAgIHwKfCBgbnBtIHJ1biBmbi1rbm9jazpyZWxlYXNlOnByZWZsaWdodCAtLSB2WC5ZLlpgIHwgVmFsaWRhdGUgdGhlIHZlcnNpb24gYW5kIHJlbGVhc2UgcHJlcmVxdWlzaXRlcyAgICAgIHwKfCBgbnBtIHJ1biByZWxlYXNlIHN0YXR1c2AgICAgICAgICAgICAgICAgICAgICAgIHwgU2hvdyB0aGUgY3VycmVudCByZWxlYXNlIHZlcnNpb24gc3RhdHVzICAgICAgICAgICAgIHwKClRvIHByZXBhcmUgYSBuZXcgcmVsZWFzZSwgc3RhcnQgd2l0aCBjbGVhbiB3b3JrdHJlZXMgZm9yIHRoaXMgcmVwb3NpdG9yeSBhbmQgdGhlIGFkamFjZW50IGAuLi9Hby1SZWF1dGgtUHJveHlgLCB0aGVuIHJ1biBgbnBtIHJ1biByZWxlYXNlIHByZXBhcmUgcGF0Y2hgIChvciB1c2UgYG1pbm9yYCwgYG1ham9yYCwgb3IgYW4gZXhwbGljaXQgYFguWS5aYCkuIFRoZSBoZWxwZXIgc3luY2hyb25pemVzIHByb2R1Y3QgdmVyc2lvbnMgYWNyb3NzIGJvdGggcmVwb3NpdG9yaWVzIGFuZCBnZW5lcmF0ZXMgcmVsZWFzZSBub3RlcyBmcm9tIGNvbW1pdHMgYWZ0ZXIgdGhlIHByZXZpb3VzIHZlcnNpb24gdGFnLiBTZXQgYEZOX0tOT0NLX0dPX1JFQVVUSF9QUk9YWV9ESVJgIHdoZW4gdGhlIEdvIHJlcG9zaXRvcnkgaXMgZWxzZXdoZXJlLiBVc2UgYC0tZHJ5LXJ1bmAgdG8gcHJldmlldyBjaGFuZ2VzIG9yIGAtLW5vdGVzLWZpbGUgPHBhdGg+YCB0byBzdXBwbHkgcmVsZWFzZSBub3Rlcy4gVGhlbiBydW4gYG5wbSBydW4gcmVsZWFzZSBjaGVja2AgYW5kIGBucG0gcnVuIGZuLWtub2NrOnJlbGVhc2U6dGVzdGAsIGFuZCBjb21taXQgYW5kIHB1c2ggdGhlIEdvIHJlcG9zaXRvcnkgZmlyc3QuIFRoZSBoZWxwZXIgbmV2ZXIgY29tbWl0cywgdGFncywgcHVzaGVzLCBvciBwdWJsaXNoZXMuCgpBZnRlciBhIGB2WC5ZLlpgIHRhZyBtYXRjaGluZyBgdmVyc2lvbi5qc29uYCBpcyBwdXNoZWQsIHRoZSByZWxlYXNlIHdvcmtmbG93IHBpbnMgdGhlIGN1cnJlbnQgc291cmNlIGFuZCBHbyBnYXRld2F5IGNvbW1pdHMsIHJ1bnMgdGhlIHF1YWxpdHkgZ2F0ZXMsIGJ1aWxkcyBldmVyeSBzdXBwb3J0ZWQgcGxhdGZvcm0sIHZlcmlmaWVzIHRhcmdldCBhcmNoaXRlY3R1cmVzLCBnZW5lcmF0ZXMgY2hlY2tzdW1zLCBTQk9NcywgYW5kIHByb3ZlbmFuY2UsIGFuZCBwdWJsaXNoZXMgdGhlIEdpdEh1YiBSZWxlYXNlLgoKIyMgU3VwcG9ydCB0aGUgcHJvamVjdAoKSWYgZm4ta25vY2sgaXMgdXNlZnVsIHRvIHlvdSwgeW91IGNhbiBidXkgdGhlIGF1dGhvciBhIGNvZmZlZSBhbmQgaGVscCBmdW5kIGl0cyBjb250aW51ZWQgZGV2ZWxvcG1lbnQuCgo8cCBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHNyYz0iLi4vLi4vYXNzZXRzL1FSX1BBWS5KUEciIGFsdD0iRG9uYXRpb24gUVIgY29kZSIgd2lkdGg9IjI2MCI+CjwvcD4KCiMjIExpY2Vuc2UKCltNSVRdKC4uLy4uL0xJQ0VOU0UpCg==
+<p align="center">
+  <a href="https://www.fnknock.cn/">
+    <img src="../../assets/fn-knock.webp" alt="fn-knock" width="860">
+  </a>
+</p>
+
+<h1 align="center">fn-knock</h1>
+
+<p align="center">
+  <a href="../../README.md">简体中文</a> ·
+  <strong>English</strong> ·
+  <a href="./README.ko.md">한국어</a> ·
+  <a href="./README.ja.md">日本語</a>
+</p>
+
+<p align="center">
+  A high-performance, cross-platform security gateway for NAS appliances, OpenWrt routers, and home servers
+</p>
+
+<p align="center">
+  <a href="https://www.fnknock.cn/"><img alt="Official Website" src="https://img.shields.io/badge/Install-fnknock.cn-2563eb?style=flat-square"></a>
+  <img alt="Rust Core" src="https://img.shields.io/badge/Core-Rust-dea584?style=flat-square&logo=rust&logoColor=white">
+  <img alt="Go Gateway" src="https://img.shields.io/badge/Gateway-Go-00add8?style=flat-square&logo=go&logoColor=white">
+  <img alt="Vue 3" src="https://img.shields.io/badge/Console-Vue_3-42b883?style=flat-square&logo=vuedotjs&logoColor=white">
+  <a href="https://hub.docker.com/r/kcilnk/fn-knock"><img alt="Docker" src="https://img.shields.io/badge/Docker-amd64_%7C_arm64_%7C_armv7-2496ed?style=flat-square&logo=docker&logoColor=white"></a>
+  <a href="../../LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-111827?style=flat-square"></a>
+</p>
+
+<p align="center">
+  <a href="https://www.fnknock.cn/">Website</a> ·
+  <a href="https://docs.fnknock.cn/">Documentation</a> ·
+  <a href="https://www.fnknock.cn/">Downloads</a> ·
+  <a href="https://www.fnknock.cn/legal#terms">Terms of Service</a> ·
+  <a href="https://www.fnknock.cn/legal#privacy">Privacy Policy</a>
+</p>
+
+fn-knock has been rebuilt as a native application. Its production runtime combines a **Rust control plane with a Go data plane** and uses built-in SQLite storage. **Neither Node.js nor Redis is required at runtime.** Node.js is only used to develop the Vue frontends and orchestrate monorepo builds from source.
+
+## Why fn-knock?
+
+fn-knock brings reverse proxying, access authentication, TLS certificates, DDNS, access control, WAF, outbound tunnels, and service health into a single dashboard. It gives you a safer and simpler way to expose self-hosted services to trusted users.
+
+| Feature                 | What it provides                                                                                                                |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Secure gateway          | Reverse proxy, forward authentication, access logs, Host / path routing, and TCP proxying                                       |
+| Authentication          | Passwords, TOTP, passkeys, OIDC, LDAP/Active Directory, verification challenges, and granular authentication policies           |
+| Domains and TLS         | ACME certificate issuance, TLS configuration, and multi-provider DDNS                                                           |
+| Proactive protection    | IP allowlists, geo-based access policies, WAF, bot blocking, login backoff, and rate limiting                                   |
+| Outbound tunnels        | Configuration, lifecycle control, logs, and health monitoring for Cloudflare Tunnel (`cloudflared`) and the frp client (`frpc`) |
+| Day-to-day operations   | System monitoring, audit events, web terminal, notifications, backups, and update checks                                        |
+| Multi-platform packages | fnOS, OpenWrt, Docker, Windows, macOS, Synology DSM, and general-purpose Linux                                                  |
+
+The Web Terminal continues to support SSH targets whose host fingerprints an administrator explicitly trusts. Full FPK, general-purpose Linux, macOS, and OpenWrt packages can also enable a local PTY. Local access is disabled by default and always inherits the effective UID/GID of the fn-knock service, including root privileges when the service runs as root. FPK Lite, Synology, Docker, Windows, and development deployments do not expose a local terminal.
+
+> [!WARNING]
+> Verify the displayed service identity, shell, and initial directory before enabling local access. The local terminal does not drop privileges, switch users, or connect through localhost SSH. Closing the browser leaves the in-process session running, while restarting fn-knock ends it. On full FPK, terminal traffic is forwarded only by `index.cgi` to the loopback Rust service; it must never use the fnOS unified gateway, Go/gRPC routes, or WebSocket.
+
+## Architecture
+
+```mermaid
+flowchart LR
+    Visitor["Service user"] --> Gateway["Go gateway · Data plane<br/>Default port 7999"]
+    Admin["Administrator's browser"] --> Entry["Admin entry point<br/>Default port 7991"]
+    Entry --> Control["Rust control plane · Axum<br/>Default port 7998"]
+    Control <-->|"gRPC · 7996"| Gateway
+    Control --> Storage[("SQLite")]
+    Views["Vue 3 admin / sign-in UIs<br/>Prebuilt static assets"] --> Entry
+```
+
+- **Rust control plane:** Management APIs, authentication, security policies, certificates, DDNS, tunnels, and system administration.
+- **Go data plane:** Gateway listeners, reverse proxying, and high-throughput service traffic.
+- **Vue 3 frontends:** Built as static assets and shipped with the installer or container image; no Node.js runtime is needed.
+- **SQLite storage:** New deployments do not require a separate Redis service.
+
+## Download and install
+
+Start at the [fn-knock website](https://www.fnknock.cn/) and select your device platform and architecture. The website provides the appropriate package or installation command along with the latest setup instructions.
+
+| Platform | OS / architecture        | Download or install                                                                                                                                                     |
+| -------- | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| fnOS     | x86_64                   | [Download FPK](https://get.fnknock.cn/)                                                                                                                                 |
+| fnOS     | ARM64 / aarch64          | [Download FPK](https://get.fnknock.cn/?arch=arm64)                                                                                                                      |
+| OpenWrt  | x86_64                   | [APK (25.12+)](https://get.fnknock.cn/?type=apk&arch=x86_64) · [IPK (24.10 / legacy)](https://get.fnknock.cn/?type=ipk&arch=x86_64)                                     |
+| OpenWrt  | aarch64_cortex-a53       | [APK (25.12+)](https://get.fnknock.cn/?type=apk&arch=aarch64_cortex-a53) · [IPK (24.10 / legacy)](https://get.fnknock.cn/?type=ipk&arch=aarch64_cortex-a53)             |
+| OpenWrt  | aarch64_generic          | [APK (25.12+)](https://get.fnknock.cn/?type=apk&arch=aarch64_generic) · [IPK (24.10 / legacy)](https://get.fnknock.cn/?type=ipk&arch=aarch64_generic)                   |
+| OpenWrt  | arm_cortex-a7_neon-vfpv4 | [APK (25.12+)](https://get.fnknock.cn/?type=apk&arch=arm_cortex-a7_neon-vfpv4) · [IPK (24.10 / legacy)](https://get.fnknock.cn/?type=ipk&arch=arm_cortex-a7_neon-vfpv4) |
+| OpenWrt  | arm_cortex-a5_vfpv4      | [APK (25.12+)](https://get.fnknock.cn/?type=apk&arch=arm_cortex-a5_vfpv4) · [IPK (24.10 / legacy)](https://get.fnknock.cn/?type=ipk&arch=arm_cortex-a5_vfpv4)           |
+| Docker   | amd64 / arm64 / armv7    | [Docker Hub](https://hub.docker.com/r/kcilnk/fn-knock) · [Deployment guide](../../deploy/docker/README.md)                                                              |
+| Windows  | Windows x86_64           | [Download EXE](https://get.fnknock.cn/?type=windows&arch=x86_64) · [Installation guide](https://www.fnknock.cn/windows)                                                 |
+| Synology | DSM 7.0+ x86_64          | [Download SPK](https://get.fnknock.cn/?type=synology&arch=x86_64) · [Installation guide](https://www.fnknock.cn/synology)                                               |
+| Linux    | x86_64 / ARM64 / ARMv7   | [One-line installer](https://www.fnknock.cn/linux) · [Deployment guide](https://docs.fnknock.cn/quick-start/linux-deployment)                                           |
+
+### Docker
+
+```bash
+docker pull kcilnk/fn-knock:latest
+```
+
+For production deployments, follow the [Docker Compose guide](../../deploy/docker/README.md) to configure ports, persistent volumes, an IPv6 subnet, and trusted proxies.
+
+### Linux
+
+Both systemd and Alpine Linux's OpenRC are supported. Run the official one-line installer:
+
+```bash
+wget -qO- https://cdn.fnknock.cn/install.sh | { if [ "$(id -u)" -eq 0 ]; then sh; else sudo sh; fi; }
+```
+
+After installation, open `http://<device-ip>:7991` and create the administrator password. The public gateway listener defaults to port `7999`.
+
+> [!WARNING]
+> Do not expose the admin port `7991` directly to the public Internet. For remote administration, use a VPN or place it behind a trusted reverse proxy with HTTPS and access controls.
+
+## Default ports
+
+| Port   | Component              | Default use                                 |
+| ------ | ---------------------- | ------------------------------------------- |
+| `7991` | Admin entry point      | Browser access to the admin dashboard       |
+| `7999` | Go gateway             | Public listener for proxied service traffic |
+| `7998` | Rust backend           | Internal management API                     |
+| `7997` | Authentication service | Internal sign-in UI service                 |
+| `7996` | Go management API      | gRPC communication between Rust and Go      |
+
+The exact bind addresses vary by platform. Refer to the installation guide for your target platform.
+
+## Software supply chain and privacy
+
+Every production release includes verifiable release metadata:
+
+- Multi-architecture Docker images are published with an **SBOM** and maximum-level build provenance.
+- Installers attached to each GitHub Release include build attestations, a complete artifact manifest, and SHA-256 checksums.
+- [`release-manifest.json`](https://github.com/kci-lnk/fn-knock-turborepo/releases/latest/download/release-manifest.json) records the version, source commit, Go gateway commit, platform, architecture, file size, and digest.
+- [`SHA256SUMS`](https://github.com/kci-lnk/fn-knock-turborepo/releases/latest/download/SHA256SUMS) lets you verify files downloaded from GitHub Releases.
+
+Before installing or using fn-knock, read:
+
+- [Terms of Service](https://www.fnknock.cn/legal#terms)
+- [Privacy Policy](https://www.fnknock.cn/legal#privacy)
+- [Third-party open-source software notices](https://www.fnknock.cn/third-party-software)
+
+fn-knock is self-hosted by design. The official Privacy Policy distinguishes data processed by the project website and official online services from accounts, logs, sessions, and proxied application data stored on your own instance. If other people use your instance, you are still responsible for providing an appropriate privacy notice based on your configuration.
+
+## Develop from source
+
+### Prerequisites
+
+| Tool                              | Used for                                                                          |
+| --------------------------------- | --------------------------------------------------------------------------------- |
+| Rust `1.96.0`                     | Rust control plane and the native Windows manager                                 |
+| Go                                | Building the `Go-Reauth-Proxy` gateway; see its `go.mod` for the required version |
+| Node.js `^20.19.0` or `>=22.12.0` | Vue frontend builds, tests, and Turborepo task orchestration only                 |
+| npm `10.8.2`                      | Workspace package management                                                      |
+| Docker / Buildx                   | Multi-architecture images and selected cross-platform artifacts                   |
+
+```bash
+npm ci
+npm run dev
+```
+
+Quality checks:
+
+```bash
+npm run lint
+npm run check-types
+npm run test
+npm run security:audit
+```
+
+Build every workspace:
+
+```bash
+npm run build
+```
+
+By default, the Go gateway source is read from the adjacent `../Go-Reauth-Proxy` directory. Set `FN_KNOCK_GO_REAUTH_PROXY_DIR` to use a different path.
+
+## Repository layout
+
+| Path                      | Purpose                                                                             |
+| ------------------------- | ----------------------------------------------------------------------------------- |
+| `apps/server-admin-rs`    | Rust / Axum management backend, authentication, and control plane                   |
+| `apps/server-admin-view`  | Vue 3 admin dashboard                                                               |
+| `apps/server-auth-view`   | Vue 3 sign-in UI                                                                    |
+| `apps/fn-knock-desktop`   | Rust + Win32 Windows manager and NSIS configuration                                 |
+| `apps/fn-knock`           | Native FPK integration for fnOS                                                     |
+| `apps/fn-knock-lite`      | Native lightweight FPK for non-root fnOS environments                               |
+| `apps/fn-knock-synology`  | Native SPK integration for Synology DSM 7                                           |
+| `deploy/docker`           | Dockerfile, Compose files, and image publishing configuration                       |
+| `deploy/linux`            | systemd / OpenRC installation and management scripts for general-purpose Linux      |
+| `deploy/openwrt`          | OpenWrt APK / IPK packaging and LuCI integration                                    |
+| `packages/grpc-contracts` | gRPC contract between the Rust control plane and Go gateway                         |
+| `packages/*`              | Shared frontend components, APIs, localization resources, and tooling configuration |
+
+## Common build commands
+
+| Command                                        | Purpose                                             |
+| ---------------------------------------------- | --------------------------------------------------- |
+| `npm run fn-knock:build-package`               | Build the fnOS FPK                                  |
+| `npm run fn-knock:lite:build-package`          | Build the fnOS Lite FPK                             |
+| `npm run fn-knock:linux:prepare`               | Build general-purpose Linux artifacts               |
+| `npm run fn-knock:openwrt:build`               | Build OpenWrt APK and IPK packages                  |
+| `npm run fn-knock:spk:build`                   | Build the Synology SPK                              |
+| `npm run fn-knock:docker:build`                | Build a local Docker image                          |
+| `npm run fn-knock:windows:test`                | Run native Windows build checks                     |
+| `npm run fn-knock:windows:build`               | Build an unsigned NSIS installer for Windows x86_64 |
+| `npm run fn-knock:release:test`                | Validate the complete release pipeline              |
+| `npm run fn-knock:release:preflight -- vX.Y.Z` | Validate the version and release prerequisites      |
+| `npm run release status`                       | Show the current release version status             |
+
+To prepare a new release, start with clean worktrees for this repository and the adjacent `../Go-Reauth-Proxy`, then run `npm run release prepare patch` (or use `minor`, `major`, or an explicit `X.Y.Z`). The helper synchronizes product versions across both repositories and generates release notes from commits after the previous version tag. Set `FN_KNOCK_GO_REAUTH_PROXY_DIR` when the Go repository is elsewhere. Use `--dry-run` to preview changes or `--notes-file <path>` to supply release notes. Then run `npm run release check` and `npm run fn-knock:release:test`, and commit and push the Go repository first. The helper never commits, tags, pushes, or publishes.
+
+After a `vX.Y.Z` tag matching `version.json` is pushed, the release workflow pins the current source and Go gateway commits, runs the quality gates, builds every supported platform, verifies target architectures, generates checksums, SBOMs, and provenance, and publishes the GitHub Release.
+
+## Support the project
+
+If fn-knock is useful to you, you can buy the author a coffee and help fund its continued development.
+
+<p align="center">
+  <img src="../../assets/QR_PAY.JPG" alt="Donation QR code" width="260">
+</p>
+
+## License
+
+[MIT](../../LICENSE)

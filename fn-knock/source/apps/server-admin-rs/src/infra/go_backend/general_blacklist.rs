@@ -1,1 +1,84 @@
-dXNlIHNlcmRlX2pzb246OlZhbHVlOwoKdXNlIHN1cGVyOjp7CiAgICBHb0JhY2tlbmRDbGllbnQsIGdlbmVyYWxfYmxhY2tsaXN0X2xpc3RfdG9fanNvbiwgZ2VuZXJhbF9ibGFja2xpc3RfbXV0YXRpb25fdG9fanNvbiwKICAgIGdlbmVyYWxfYmxhY2tsaXN0X3N0YXR1c190b19qc29uLCBncnBjX2Vycm9yLCBvaywgc3RhdHVzX3ZhbHVlLAp9Owp1c2UgY3JhdGU6OmdycGNfcHJvdG86OntHZW5lcmFsQmxhY2tsaXN0TGlzdFJlcXVlc3QsIElwTGlzdFJlcXVlc3R9OwoKI1thbGxvdyhkZWFkX2NvZGUpXQppbXBsIEdvQmFja2VuZENsaWVudCB7CiAgICBwdWIgYXN5bmMgZm4gbGlzdF9nZW5lcmFsX2JsYWNrbGlzdCgKICAgICAgICAmc2VsZiwKICAgICAgICBwYWdlOiBpMzIsCiAgICAgICAgbGltaXQ6IGkzMiwKICAgICAgICBzZWFyY2g6IFN0cmluZywKICAgICkgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgICAgICBsZXQgbXV0IGNsaWVudCA9IHNlbGYuc2VjdXJpdHkuY2xvbmUoKTsKICAgICAgICBsZXQgcmVzdWx0ID0gbWF0Y2ggY2xpZW50CiAgICAgICAgICAgIC5saXN0X2dlbmVyYWxfYmxhY2tsaXN0KHNlbGYucmVxdWVzdChHZW5lcmFsQmxhY2tsaXN0TGlzdFJlcXVlc3QgewogICAgICAgICAgICAgICAgcGFnZSwKICAgICAgICAgICAgICAgIGxpbWl0LAogICAgICAgICAgICAgICAgc2VhcmNoLAogICAgICAgICAgICB9KSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgewogICAgICAgICAgICBPayhyZXNwb25zZSkgPT4gb2soZ2VuZXJhbF9ibGFja2xpc3RfbGlzdF90b19qc29uKHJlc3BvbnNlLmludG9faW5uZXIoKSkpLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IGdycGNfZXJyb3IoZXJyb3IpLAogICAgICAgIH07CiAgICAgICAgc3RhdHVzX3ZhbHVlKCJsaXN0X2dlbmVyYWxfYmxhY2tsaXN0IiwgcmVzdWx0KQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBjaGVja19nZW5lcmFsX2JsYWNrbGlzdCgmc2VsZiwgaXBzOiBWZWM8U3RyaW5nPikgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgICAgICBsZXQgbXV0IGNsaWVudCA9IHNlbGYuc2VjdXJpdHkuY2xvbmUoKTsKICAgICAgICBsZXQgcmVzdWx0ID0gbWF0Y2ggY2xpZW50CiAgICAgICAgICAgIC5jaGVja19nZW5lcmFsX2JsYWNrbGlzdChzZWxmLnJlcXVlc3QoSXBMaXN0UmVxdWVzdCB7CiAgICAgICAgICAgICAgICBpcHMsCiAgICAgICAgICAgICAgICBzb3VyY2U6IFN0cmluZzo6bmV3KCksCiAgICAgICAgICAgICAgICBjb21tZW50OiBTdHJpbmc6Om5ldygpLAogICAgICAgICAgICB9KSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgewogICAgICAgICAgICBPayhyZXNwb25zZSkgPT4gb2soZ2VuZXJhbF9ibGFja2xpc3Rfc3RhdHVzX3RvX2pzb24ocmVzcG9uc2UuaW50b19pbm5lcigpKSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gZ3JwY19lcnJvcihlcnJvciksCiAgICAgICAgfTsKICAgICAgICBzdGF0dXNfdmFsdWUoImNoZWNrX2dlbmVyYWxfYmxhY2tsaXN0IiwgcmVzdWx0KQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBhZGRfZ2VuZXJhbF9ibGFja2xpc3QoCiAgICAgICAgJnNlbGYsCiAgICAgICAgaXBzOiBWZWM8U3RyaW5nPiwKICAgICAgICBzb3VyY2U6IFN0cmluZywKICAgICAgICBjb21tZW50OiBTdHJpbmcsCiAgICApIC0+IGFueWhvdzo6UmVzdWx0PFZhbHVlPiB7CiAgICAgICAgbGV0IG11dCBjbGllbnQgPSBzZWxmLnNlY3VyaXR5LmNsb25lKCk7CiAgICAgICAgbGV0IHJlc3VsdCA9IG1hdGNoIGNsaWVudAogICAgICAgICAgICAuYWRkX2dlbmVyYWxfYmxhY2tsaXN0KHNlbGYucmVxdWVzdChJcExpc3RSZXF1ZXN0IHsKICAgICAgICAgICAgICAgIGlwcywKICAgICAgICAgICAgICAgIHNvdXJjZSwKICAgICAgICAgICAgICAgIGNvbW1lbnQsCiAgICAgICAgICAgIH0pKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICB7CiAgICAgICAgICAgIE9rKHJlc3BvbnNlKSA9PiBvayhnZW5lcmFsX2JsYWNrbGlzdF9tdXRhdGlvbl90b19qc29uKHJlc3BvbnNlLmludG9faW5uZXIoKSkpLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IGdycGNfZXJyb3IoZXJyb3IpLAogICAgICAgIH07CiAgICAgICAgc3RhdHVzX3ZhbHVlKCJhZGRfZ2VuZXJhbF9ibGFja2xpc3QiLCByZXN1bHQpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIHJlbW92ZV9nZW5lcmFsX2JsYWNrbGlzdCgmc2VsZiwgaXBzOiBWZWM8U3RyaW5nPikgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgICAgICBsZXQgbXV0IGNsaWVudCA9IHNlbGYuc2VjdXJpdHkuY2xvbmUoKTsKICAgICAgICBsZXQgcmVzdWx0ID0gbWF0Y2ggY2xpZW50CiAgICAgICAgICAgIC5yZW1vdmVfZ2VuZXJhbF9ibGFja2xpc3Qoc2VsZi5yZXF1ZXN0KElwTGlzdFJlcXVlc3QgewogICAgICAgICAgICAgICAgaXBzLAogICAgICAgICAgICAgICAgc291cmNlOiBTdHJpbmc6Om5ldygpLAogICAgICAgICAgICAgICAgY29tbWVudDogU3RyaW5nOjpuZXcoKSwKICAgICAgICAgICAgfSkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgT2socmVzcG9uc2UpID0+IG9rKGdlbmVyYWxfYmxhY2tsaXN0X211dGF0aW9uX3RvX2pzb24ocmVzcG9uc2UuaW50b19pbm5lcigpKSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gZ3JwY19lcnJvcihlcnJvciksCiAgICAgICAgfTsKICAgICAgICBzdGF0dXNfdmFsdWUoInJlbW92ZV9nZW5lcmFsX2JsYWNrbGlzdCIsIHJlc3VsdCkKICAgIH0KfQo=
+use serde_json::Value;
+
+use super::{
+    GoBackendClient, general_blacklist_list_to_json, general_blacklist_mutation_to_json,
+    general_blacklist_status_to_json, grpc_error, ok, status_value,
+};
+use crate::grpc_proto::{GeneralBlacklistListRequest, IpListRequest};
+
+#[allow(dead_code)]
+impl GoBackendClient {
+    pub async fn list_general_blacklist(
+        &self,
+        page: i32,
+        limit: i32,
+        search: String,
+    ) -> anyhow::Result<Value> {
+        let mut client = self.security.clone();
+        let result = match client
+            .list_general_blacklist(self.request(GeneralBlacklistListRequest {
+                page,
+                limit,
+                search,
+            }))
+            .await
+        {
+            Ok(response) => ok(general_blacklist_list_to_json(response.into_inner())),
+            Err(error) => grpc_error(error),
+        };
+        status_value("list_general_blacklist", result)
+    }
+
+    pub async fn check_general_blacklist(&self, ips: Vec<String>) -> anyhow::Result<Value> {
+        let mut client = self.security.clone();
+        let result = match client
+            .check_general_blacklist(self.request(IpListRequest {
+                ips,
+                source: String::new(),
+                comment: String::new(),
+            }))
+            .await
+        {
+            Ok(response) => ok(general_blacklist_status_to_json(response.into_inner())),
+            Err(error) => grpc_error(error),
+        };
+        status_value("check_general_blacklist", result)
+    }
+
+    pub async fn add_general_blacklist(
+        &self,
+        ips: Vec<String>,
+        source: String,
+        comment: String,
+    ) -> anyhow::Result<Value> {
+        let mut client = self.security.clone();
+        let result = match client
+            .add_general_blacklist(self.request(IpListRequest {
+                ips,
+                source,
+                comment,
+            }))
+            .await
+        {
+            Ok(response) => ok(general_blacklist_mutation_to_json(response.into_inner())),
+            Err(error) => grpc_error(error),
+        };
+        status_value("add_general_blacklist", result)
+    }
+
+    pub async fn remove_general_blacklist(&self, ips: Vec<String>) -> anyhow::Result<Value> {
+        let mut client = self.security.clone();
+        let result = match client
+            .remove_general_blacklist(self.request(IpListRequest {
+                ips,
+                source: String::new(),
+                comment: String::new(),
+            }))
+            .await
+        {
+            Ok(response) => ok(general_blacklist_mutation_to_json(response.into_inner())),
+            Err(error) => grpc_error(error),
+        };
+        status_value("remove_general_blacklist", result)
+    }
+}

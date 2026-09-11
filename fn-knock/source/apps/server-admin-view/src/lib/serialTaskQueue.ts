@@ -1,1 +1,14 @@
-ZXhwb3J0IHR5cGUgU2VyaWFsVGFza1F1ZXVlID0gPFQ+KHRhc2s6ICgpID0+IFByb21pc2U8VD4pID0+IFByb21pc2U8VD47CgpleHBvcnQgZnVuY3Rpb24gY3JlYXRlU2VyaWFsVGFza1F1ZXVlKCk6IFNlcmlhbFRhc2tRdWV1ZSB7CiAgbGV0IHRhaWw6IFByb21pc2U8dm9pZD4gPSBQcm9taXNlLnJlc29sdmUoKTsKCiAgcmV0dXJuIDxUPih0YXNrOiAoKSA9PiBQcm9taXNlPFQ+KTogUHJvbWlzZTxUPiA9PiB7CiAgICBjb25zdCByZXN1bHQgPSB0YWlsLnRoZW4odGFzayk7CiAgICB0YWlsID0gcmVzdWx0LnRoZW4oCiAgICAgICgpID0+IHVuZGVmaW5lZCwKICAgICAgKCkgPT4gdW5kZWZpbmVkLAogICAgKTsKICAgIHJldHVybiByZXN1bHQ7CiAgfTsKfQo=
+export type SerialTaskQueue = <T>(task: () => Promise<T>) => Promise<T>;
+
+export function createSerialTaskQueue(): SerialTaskQueue {
+  let tail: Promise<void> = Promise.resolve();
+
+  return <T>(task: () => Promise<T>): Promise<T> => {
+    const result = tail.then(task);
+    tail = result.then(
+      () => undefined,
+      () => undefined,
+    );
+    return result;
+  };
+}

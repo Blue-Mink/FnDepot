@@ -1,1 +1,176 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7CiAgU2VsZWN0LAogIFNlbGVjdENvbnRlbnQsCiAgU2VsZWN0SXRlbSwKICBTZWxlY3RUcmlnZ2VyLAogIFNlbGVjdFZhbHVlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9zZWxlY3QiOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IHR5cGUgeyBPSURDUHJvdmlkZXJDYXRhbG9nSXRlbSB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgdHlwZSB7IE9JRENQcm92aWRlckZvcm0gfSBmcm9tICIuL29pZGNQcm92aWRlckZvcm0iOwoKY29uc3QgYTExeUlkID0gdXNlSWQoKTsKCmRlZmluZVByb3BzPHsKICBjYXRhbG9nOiBPSURDUHJvdmlkZXJDYXRhbG9nSXRlbVtdOwogIGZvcm06IE9JRENQcm92aWRlckZvcm07CiAgbW9kZTogImNyZWF0ZSIgfCAiZWRpdCI7CiAgcHJvdmlkZXJMYWJlbDogKHR5cGU6IHN0cmluZykgPT4gc3RyaW5nOwp9PigpOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICAidHlwZS1jaGFuZ2UiOiBbdmFsdWU6IHVua25vd25dOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9Im92ZXJmbG93LWhpZGRlbiByb3VuZGVkLWxnIGJvcmRlciBkaXZpZGUteSBkaXZpZGUtYm9yZGVyIj4KICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiBwLTQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvMTAgc206cC01Ij4KICAgICAgPExhYmVsIDpmb3I9ImBvaWRjLSR7bW9kZX0tcHJvdmlkZXItdHlwZWAiPgogICAgICAgIHt7CiAgICAgICAgICBtb2RlID09PSAiY3JlYXRlIgogICAgICAgICAgICA/IHQoImFkbWluLm9pZGNQcm92aWRlcnMucHJvdmlkZXIiKQogICAgICAgICAgICA6IHQoImFkbWluLm9pZGNQcm92aWRlcnMuY29sdW1ucy50eXBlIikKICAgICAgICB9fQogICAgICA8L0xhYmVsPgogICAgICA8U2VsZWN0CiAgICAgICAgdi1pZj0ibW9kZSA9PT0gJ2NyZWF0ZSciCiAgICAgICAgOm1vZGVsLXZhbHVlPSJmb3JtLnR5cGUiCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgndHlwZS1jaGFuZ2UnLCAkZXZlbnQpIgogICAgICA+CiAgICAgICAgPFNlbGVjdFRyaWdnZXIgOmlkPSJgb2lkYy0ke21vZGV9LXByb3ZpZGVyLXR5cGVgIiBjbGFzcz0idy1mdWxsIj4KICAgICAgICAgIDxTZWxlY3RWYWx1ZSA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLm9pZGNQcm92aWRlcnMuc2VsZWN0UHJvdmlkZXInKSIgLz4KICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICA8U2VsZWN0SXRlbQogICAgICAgICAgICB2LWZvcj0iaXRlbSBpbiBjYXRhbG9nIgogICAgICAgICAgICA6a2V5PSJpdGVtLnR5cGUiCiAgICAgICAgICAgIDp2YWx1ZT0iaXRlbS50eXBlIgogICAgICAgICAgPgogICAgICAgICAgICB7eyBpdGVtLmxhYmVsIH19CiAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICA8L1NlbGVjdD4KICAgICAgPElucHV0CiAgICAgICAgdi1lbHNlCiAgICAgICAgOmlkPSJgb2lkYy0ke21vZGV9LXByb3ZpZGVyLXR5cGVgIgogICAgICAgIDptb2RlbC12YWx1ZT0icHJvdmlkZXJMYWJlbChmb3JtLnR5cGUpIgogICAgICAgIGRpc2FibGVkCiAgICAgIC8+CiAgICA8L2Rpdj4KCiAgICA8ZGl2CiAgICAgIHYtaWY9Im1vZGUgPT09ICdlZGl0JyB8fCBmb3JtLnR5cGUgIT09ICdmbmtub2NrX3FxJyIKICAgICAgY2xhc3M9InNwYWNlLXktMiBwLTQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvMTAgc206cC01IgogICAgPgogICAgICA8TGFiZWwgOmZvcj0iYG9pZGMtJHttb2RlfS1wcm92aWRlci1uYW1lYCI+CiAgICAgICAge3sgdCgiYWRtaW4ub2lkY1Byb3ZpZGVycy5kaXNwbGF5TmFtZSIpIH19CiAgICAgIDwvTGFiZWw+CiAgICAgIDxJbnB1dAogICAgICAgIDppZD0iYG9pZGMtJHttb2RlfS1wcm92aWRlci1uYW1lYCIKICAgICAgICB2LW1vZGVsPSJmb3JtLm5hbWUiCiAgICAgICAgOnBsYWNlaG9sZGVyPSJ0KCdhZG1pbi5vaWRjUHJvdmlkZXJzLmRpc3BsYXlOYW1lUGxhY2Vob2xkZXInKSIKICAgICAgLz4KICAgIDwvZGl2PgoKICAgIDxkaXYKICAgICAgdi1pZj0iZm9ybS50eXBlID09PSAnbWljcm9zb2Z0JyIKICAgICAgY2xhc3M9InNwYWNlLXktMiBwLTQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvMTAgc206cC01IgogICAgPgogICAgICA8TGFiZWwgOmZvcj0iYG9pZGMtJHttb2RlfS1wcm92aWRlci10ZW5hbnRgIj5UZW5hbnQ8L0xhYmVsPgogICAgICA8SW5wdXQKICAgICAgICA6aWQ9ImBvaWRjLSR7bW9kZX0tcHJvdmlkZXItdGVuYW50YCIKICAgICAgICB2LW1vZGVsPSJmb3JtLnRlbmFudCIKICAgICAgICBwbGFjZWhvbGRlcj0iY29tbW9uIC8gb3JnYW5pemF0aW9ucyAvIHRlbmFudCBpZCIKICAgICAgLz4KICAgIDwvZGl2PgoKICAgIDxkaXYKICAgICAgdi1pZj0iZm9ybS50eXBlICE9PSAnZm5rbm9ja19xcSciCiAgICAgIGNsYXNzPSJzcGFjZS15LTIgcC00IHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLW11dGVkLzEwIHNtOnAtNSIKICAgID4KICAgICAgPExhYmVsIDpmb3I9ImBvaWRjLSR7bW9kZX0tcHJvdmlkZXItY2xpZW50LWlkYCI+Q2xpZW50IElEPC9MYWJlbD4KICAgICAgPElucHV0CiAgICAgICAgOmlkPSJgb2lkYy0ke21vZGV9LXByb3ZpZGVyLWNsaWVudC1pZGAiCiAgICAgICAgdi1tb2RlbD0iZm9ybS5jbGllbnRJZCIKICAgICAgICBhdXRvY29tcGxldGU9Im9mZiIKICAgICAgLz4KICAgIDwvZGl2PgoKICAgIDxkaXYKICAgICAgdi1pZj0iZm9ybS50eXBlICE9PSAnZm5rbm9ja19xcSciCiAgICAgIGNsYXNzPSJzcGFjZS15LTIgcC00IHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLW11dGVkLzEwIHNtOnAtNSIKICAgID4KICAgICAgPExhYmVsIDpmb3I9ImBvaWRjLSR7bW9kZX0tcHJvdmlkZXItY2xpZW50LXNlY3JldGAiPgogICAgICAgIENsaWVudCBTZWNyZXQKICAgICAgPC9MYWJlbD4KICAgICAgPElucHV0CiAgICAgICAgOmlkPSJgb2lkYy0ke21vZGV9LXByb3ZpZGVyLWNsaWVudC1zZWNyZXRgIgogICAgICAgIHYtbW9kZWw9ImZvcm0uY2xpZW50U2VjcmV0IgogICAgICAgIHR5cGU9InBhc3N3b3JkIgogICAgICAgIGF1dG9jb21wbGV0ZT0ibmV3LXBhc3N3b3JkIgogICAgICAgIDpwbGFjZWhvbGRlcj0iCiAgICAgICAgICBtb2RlID09PSAnZWRpdCcKICAgICAgICAgICAgPyB0KCdhZG1pbi5vaWRjUHJvdmlkZXJzLmtlZXBTZWNyZXRQbGFjZWhvbGRlcicpCiAgICAgICAgICAgIDogdW5kZWZpbmVkCiAgICAgICAgIgogICAgICAvPgogICAgPC9kaXY+CgogICAgPGRpdgogICAgICB2LWlmPSJmb3JtLnR5cGUgPT09ICdjdXN0b21fb2lkYyciCiAgICAgIGNsYXNzPSJzcGFjZS15LTIgcC00IHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLW11dGVkLzEwIHNtOnAtNSIKICAgID4KICAgICAgPExhYmVsIDpmb3I9ImBvaWRjLSR7bW9kZX0tcHJvdmlkZXItaXNzdWVyYCI+SXNzdWVyPC9MYWJlbD4KICAgICAgPElucHV0CiAgICAgICAgOmlkPSJgb2lkYy0ke21vZGV9LXByb3ZpZGVyLWlzc3VlcmAiCiAgICAgICAgdi1tb2RlbD0iZm9ybS5pc3N1ZXIiCiAgICAgICAgcGxhY2Vob2xkZXI9Imh0dHBzOi8vaWRwLmV4YW1wbGUuY29tIgogICAgICAvPgogICAgPC9kaXY+CgogICAgPGRpdgogICAgICB2LWlmPSJmb3JtLnR5cGUgIT09ICdmbmtub2NrX3FxJyIKICAgICAgY2xhc3M9InNwYWNlLXktMiBwLTQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvMTAgc206cC01IgogICAgPgogICAgICA8TGFiZWwgOmZvcj0iYG9pZGMtJHttb2RlfS1wcm92aWRlci1zY29wZXNgIj5TY29wZXM8L0xhYmVsPgogICAgICA8SW5wdXQKICAgICAgICA6aWQ9ImBvaWRjLSR7bW9kZX0tcHJvdmlkZXItc2NvcGVzYCIKICAgICAgICB2LW1vZGVsPSJmb3JtLnNjb3BlcyIKICAgICAgICBwbGFjZWhvbGRlcj0ib3BlbmlkIHByb2ZpbGUgZW1haWwiCiAgICAgIC8+CiAgICA8L2Rpdj4KCiAgICA8ZGl2CiAgICAgIHYtaWY9Im1vZGUgPT09ICdlZGl0JyIKICAgICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyBwLTQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvMTAgc206cC01IgogICAgPgogICAgICA8TGFiZWwKICAgICAgICA6Zm9yPSJgJHthMTF5SWR9LW9pZGNwcm92aWRlcmZvcm1maWVsZHMtMWAiCiAgICAgICAgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iCiAgICAgID4KICAgICAgICB7eyB0KCJhZG1pbi5vaWRjUHJvdmlkZXJzLmVuYWJsZWRTdGF0dXMiKSB9fQogICAgICA8L0xhYmVsPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgPFN3aXRjaAogICAgICAgICAgOmlkPSJgJHthMTF5SWR9LW9pZGNwcm92aWRlcmZvcm1maWVsZHMtMWAiCiAgICAgICAgICB2LW1vZGVsPSJmb3JtLmVuYWJsZWQiCiAgICAgICAgLz4KICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sKICAgICAgICAgICAgZm9ybS5lbmFibGVkCiAgICAgICAgICAgICAgPyB0KCJhZG1pbi5vaWRjUHJvdmlkZXJzLmVuYWJsZWQiKQogICAgICAgICAgICAgIDogdCgiYWRtaW4ub2lkY1Byb3ZpZGVycy5kaXNhYmxlZCIpCiAgICAgICAgICB9fQogICAgICAgIDwvc3Bhbj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Switch } from "@/components/ui/switch";
+import type { OIDCProviderCatalogItem } from "@/types";
+import type { OIDCProviderForm } from "./oidcProviderForm";
+
+const a11yId = useId();
+
+defineProps<{
+  catalog: OIDCProviderCatalogItem[];
+  form: OIDCProviderForm;
+  mode: "create" | "edit";
+  providerLabel: (type: string) => string;
+}>();
+
+const emit = defineEmits<{
+  "type-change": [value: unknown];
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <div class="overflow-hidden rounded-lg border divide-y divide-border">
+    <div class="space-y-2 p-4 transition-colors hover:bg-muted/10 sm:p-5">
+      <Label :for="`oidc-${mode}-provider-type`">
+        {{
+          mode === "create"
+            ? t("admin.oidcProviders.provider")
+            : t("admin.oidcProviders.columns.type")
+        }}
+      </Label>
+      <Select
+        v-if="mode === 'create'"
+        :model-value="form.type"
+        @update:model-value="emit('type-change', $event)"
+      >
+        <SelectTrigger :id="`oidc-${mode}-provider-type`" class="w-full">
+          <SelectValue :placeholder="t('admin.oidcProviders.selectProvider')" />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem
+            v-for="item in catalog"
+            :key="item.type"
+            :value="item.type"
+          >
+            {{ item.label }}
+          </SelectItem>
+        </SelectContent>
+      </Select>
+      <Input
+        v-else
+        :id="`oidc-${mode}-provider-type`"
+        :model-value="providerLabel(form.type)"
+        disabled
+      />
+    </div>
+
+    <div
+      v-if="mode === 'edit' || form.type !== 'fnknock_qq'"
+      class="space-y-2 p-4 transition-colors hover:bg-muted/10 sm:p-5"
+    >
+      <Label :for="`oidc-${mode}-provider-name`">
+        {{ t("admin.oidcProviders.displayName") }}
+      </Label>
+      <Input
+        :id="`oidc-${mode}-provider-name`"
+        v-model="form.name"
+        :placeholder="t('admin.oidcProviders.displayNamePlaceholder')"
+      />
+    </div>
+
+    <div
+      v-if="form.type === 'microsoft'"
+      class="space-y-2 p-4 transition-colors hover:bg-muted/10 sm:p-5"
+    >
+      <Label :for="`oidc-${mode}-provider-tenant`">Tenant</Label>
+      <Input
+        :id="`oidc-${mode}-provider-tenant`"
+        v-model="form.tenant"
+        placeholder="common / organizations / tenant id"
+      />
+    </div>
+
+    <div
+      v-if="form.type !== 'fnknock_qq'"
+      class="space-y-2 p-4 transition-colors hover:bg-muted/10 sm:p-5"
+    >
+      <Label :for="`oidc-${mode}-provider-client-id`">Client ID</Label>
+      <Input
+        :id="`oidc-${mode}-provider-client-id`"
+        v-model="form.clientId"
+        autocomplete="off"
+      />
+    </div>
+
+    <div
+      v-if="form.type !== 'fnknock_qq'"
+      class="space-y-2 p-4 transition-colors hover:bg-muted/10 sm:p-5"
+    >
+      <Label :for="`oidc-${mode}-provider-client-secret`">
+        Client Secret
+      </Label>
+      <Input
+        :id="`oidc-${mode}-provider-client-secret`"
+        v-model="form.clientSecret"
+        type="password"
+        autocomplete="new-password"
+        :placeholder="
+          mode === 'edit'
+            ? t('admin.oidcProviders.keepSecretPlaceholder')
+            : undefined
+        "
+      />
+    </div>
+
+    <div
+      v-if="form.type === 'custom_oidc'"
+      class="space-y-2 p-4 transition-colors hover:bg-muted/10 sm:p-5"
+    >
+      <Label :for="`oidc-${mode}-provider-issuer`">Issuer</Label>
+      <Input
+        :id="`oidc-${mode}-provider-issuer`"
+        v-model="form.issuer"
+        placeholder="https://idp.example.com"
+      />
+    </div>
+
+    <div
+      v-if="form.type !== 'fnknock_qq'"
+      class="space-y-2 p-4 transition-colors hover:bg-muted/10 sm:p-5"
+    >
+      <Label :for="`oidc-${mode}-provider-scopes`">Scopes</Label>
+      <Input
+        :id="`oidc-${mode}-provider-scopes`"
+        v-model="form.scopes"
+        placeholder="openid profile email"
+      />
+    </div>
+
+    <div
+      v-if="mode === 'edit'"
+      class="flex items-center justify-between gap-3 p-4 transition-colors hover:bg-muted/10 sm:p-5"
+    >
+      <Label
+        :for="`${a11yId}-oidcproviderformfields-1`"
+        class="text-sm font-medium"
+      >
+        {{ t("admin.oidcProviders.enabledStatus") }}
+      </Label>
+      <div class="flex items-center gap-3">
+        <Switch
+          :id="`${a11yId}-oidcproviderformfields-1`"
+          v-model="form.enabled"
+        />
+        <span class="text-sm text-muted-foreground">
+          {{
+            form.enabled
+              ? t("admin.oidcProviders.enabled")
+              : t("admin.oidcProviders.disabled")
+          }}
+        </span>
+      </div>
+    </div>
+  </div>
+</template>

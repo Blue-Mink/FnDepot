@@ -1,1 +1,29 @@
-aW1wb3J0IHR5cGUgeyBFeHRlcm5hbEF1dGhQcm92aWRlclR5cGUgfSBmcm9tICJAL3R5cGVzIjsKCmV4cG9ydCB0eXBlIE9JRENQcm92aWRlckZvcm0gPSB7CiAgY2xpZW50SWQ6IHN0cmluZzsKICBjbGllbnRTZWNyZXQ6IHN0cmluZzsKICBlbmFibGVkPzogYm9vbGVhbjsKICBpZD86IHN0cmluZzsKICBpc3N1ZXI6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgc2NvcGVzOiBzdHJpbmc7CiAgdGVuYW50OiBzdHJpbmc7CiAgdHlwZTogRXh0ZXJuYWxBdXRoUHJvdmlkZXJUeXBlOwp9OwoKZXhwb3J0IGNvbnN0IG5vcm1hbGl6ZU9pZGNTY29wZXMgPSAodmFsdWU6IHN0cmluZykgPT4KICB2YWx1ZQogICAgLnNwbGl0KC9bLFxzXSsvdSkKICAgIC5tYXAoKGl0ZW0pID0+IGl0ZW0udHJpbSgpKQogICAgLmZpbHRlcihCb29sZWFuKTsKCmV4cG9ydCBjb25zdCBvaWRjQ29ubmVjdGlvblZhbHVlVGV4dCA9ICh2YWx1ZTogdW5rbm93bikgPT4gewogIGlmIChBcnJheS5pc0FycmF5KHZhbHVlKSkgcmV0dXJuIHZhbHVlLmpvaW4oIiAiKTsKICByZXR1cm4gdHlwZW9mIHZhbHVlID09PSAic3RyaW5nIiA/IHZhbHVlIDogIiI7Cn07CgpleHBvcnQgY29uc3QgaGFzT2lkY0Nvbm5lY3Rpb25WYWx1ZSA9ICh2YWx1ZTogdW5rbm93bikgPT4gewogIGlmIChBcnJheS5pc0FycmF5KHZhbHVlKSkgcmV0dXJuIHZhbHVlLmxlbmd0aCA+IDA7CiAgcmV0dXJuIHR5cGVvZiB2YWx1ZSA9PT0gInN0cmluZyIgPyB2YWx1ZS50cmltKCkubGVuZ3RoID4gMCA6IEJvb2xlYW4odmFsdWUpOwp9Owo=
+import type { ExternalAuthProviderType } from "@/types";
+
+export type OIDCProviderForm = {
+  clientId: string;
+  clientSecret: string;
+  enabled?: boolean;
+  id?: string;
+  issuer: string;
+  name: string;
+  scopes: string;
+  tenant: string;
+  type: ExternalAuthProviderType;
+};
+
+export const normalizeOidcScopes = (value: string) =>
+  value
+    .split(/[,\s]+/u)
+    .map((item) => item.trim())
+    .filter(Boolean);
+
+export const oidcConnectionValueText = (value: unknown) => {
+  if (Array.isArray(value)) return value.join(" ");
+  return typeof value === "string" ? value : "";
+};
+
+export const hasOidcConnectionValue = (value: unknown) => {
+  if (Array.isArray(value)) return value.length > 0;
+  return typeof value === "string" ? value.trim().length > 0 : Boolean(value);
+};

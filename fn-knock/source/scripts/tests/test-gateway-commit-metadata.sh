@@ -1,1 +1,131 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCldPUktfRElSPSIkKG1rdGVtcCAtZCAiJHtUTVBESVI6LS90bXB9L2ZuLWtub2NrLWdhdGV3YXktY29tbWl0LXRlc3QuWFhYWFhYIikiCkdPX1JFUE9TSVRPUlk9IiR7V09SS19ESVJ9L2dvLXJlcG9zaXRvcnkiCkZBS0VfQklOPSIke1dPUktfRElSfS9iaW4iCkJVSUxEX0RJUj0iJHtXT1JLX0RJUn0vYnVpbGQiCk9VVFBVVF9ESVI9IiR7V09SS19ESVJ9L291dHB1dCIKQ0FQVFVSRV9GSUxFPSIke1dPUktfRElSfS9jb21taXQudHh0IgpFUlJPUl9GSUxFPSIke1dPUktfRElSfS9lcnJvci50eHQiCgpjbGVhbnVwKCkgewogIHJtIC1yZiAiJHtXT1JLX0RJUn0iCn0KdHJhcCBjbGVhbnVwIEVYSVQKCmZhaWwoKSB7CiAgcHJpbnRmICdbdGVzdC1nYXRld2F5LWNvbW1pdC1tZXRhZGF0YV0gRVJST1I6ICVzXG4nICIkKiIgPiYyCiAgZXhpdCAxCn0KCkNPTlRST0xfQVBJX1ZFUlNJT049IiQoYmFzaCAiJHtST09UX0RJUn0vc2NyaXB0cy9jb250cm9sLWFwaS12ZXJzaW9uLnNoIikiCm1rZGlyIC1wICIke0dPX1JFUE9TSVRPUll9L3BrZy9ncnBjL3BiIiAiJHtGQUtFX0JJTn0iICIke0JVSUxEX0RJUn0iICIke09VVFBVVF9ESVJ9IgpwcmludGYgJ0NvbnRyb2xBcGlWZXJzaW9uX0NPTlRST0xfQVBJX1ZFUlNJT05fQ1VSUkVOVCBDb250cm9sQXBpVmVyc2lvbiA9ICVzXG4nIFwKICAiJHtDT05UUk9MX0FQSV9WRVJTSU9OfSIgPiAiJHtHT19SRVBPU0lUT1JZfS9wa2cvZ3JwYy9wYi9nYXRld2F5LnBiLmdvIgpwcmludGYgJ3ZlcnNpb246IDNcbicgPiAiJHtHT19SRVBPU0lUT1JZfS9UYXNrZmlsZS55bWwiCmdpdCAtQyAiJHtHT19SRVBPU0lUT1JZfSIgaW5pdCAtcQpnaXQgLUMgIiR7R09fUkVQT1NJVE9SWX0iIGNvbmZpZyB1c2VyLm5hbWUgJ2ZuLWtub2NrIHRlc3QnCmdpdCAtQyAiJHtHT19SRVBPU0lUT1JZfSIgY29uZmlnIHVzZXIuZW1haWwgJ2ZuLWtub2NrLXRlc3RAZXhhbXBsZS5pbnZhbGlkJwpnaXQgLUMgIiR7R09fUkVQT1NJVE9SWX0iIGFkZCAuCmdpdCAtQyAiJHtHT19SRVBPU0lUT1JZfSIgY29tbWl0IC1xbSAnaW5pdGlhbCBnYXRld2F5IGZpeHR1cmUnCgpFWFBFQ1RFRF9DT01NSVQ9IiQoZ2l0IC1DICIke0dPX1JFUE9TSVRPUll9IiByZXYtcGFyc2UgSEVBRCkiCltbICIke0VYUEVDVEVEX0NPTU1JVH0iID1+IF5bMC05YS1mXXs0MH0kIF1dIHx8IGZhaWwgIkdvIGNoZWNrb3V0IGNvbW1pdCBpcyBpbnZhbGlkIgoKY2F0ID4gIiR7RkFLRV9CSU59L3Rhc2siIDw8J0VPRicKIyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKWyAiJHsxOi19IiA9ICJidWlsZCIgXSB8fCBleGl0IDY0CnByaW50ZiAnJXNcbicgIiR7Rk5fS05PQ0tfQ09NTUlUOj99IiA+ICIke0ZOX0tOT0NLX1RFU1RfQ09NTUlUX0NBUFRVUkU6P30iCmNwIC91c3IvYmluL3RydWUgIiR7Rk5fS05PQ0tfVEVTVF9CVUlMRF9ESVI6P30vZ28tcmVhdXRoLXByb3h5LWxpbnV4LWFtZDY0IgpwcmludGYgJyVzXG4nICIke0ZOX0tOT0NLX1ZFUlNJT046P30iID4gXAogICIke0ZOX0tOT0NLX1RFU1RfQlVJTERfRElSfS9nby1yZWF1dGgtcHJveHktbGludXgtYW1kNjQudmVyc2lvbiIKaWYgWyAiJHtGTl9LTk9DS19URVNUX01VVEFURV9IRUFEOi0wfSIgPSAiMSIgXTsgdGhlbgogIHByaW50ZiAnY2hhbmdlZCBkdXJpbmcgYnVpbGRcbicgPiBnYXRld2F5LWRyaWZ0LnR4dAogIGdpdCBhZGQgZ2F0ZXdheS1kcmlmdC50eHQKICBnaXQgY29tbWl0IC1xbSAnc2ltdWxhdGUgY29uY3VycmVudCBnYXRld2F5IGNvbW1pdCcKZmkKRU9GCmNobW9kIDc1NSAiJHtGQUtFX0JJTn0vdGFzayIKCnJ1bl9idWlsZGVyKCkgewogIGxvY2FsIGV4cGVjdGVkX2NvbW1pdD0iJDEiCiAgbG9jYWwgbXV0YXRlX2hlYWQ9IiR7MjotMH0iCgogIFBBVEg9IiR7RkFLRV9CSU59OiR7UEFUSH0iIFwKICBGTl9LTk9DS19HQVRFV0FZX0NPTU1JVD0iJHtleHBlY3RlZF9jb21taXR9IiBcCiAgRk5fS05PQ0tfR09fUkVBVVRIX1BST1hZX0RJUj0iJHtHT19SRVBPU0lUT1JZfSIgXAogIEZOX0tOT0NLX0dPX1JFQVVUSF9QUk9YWV9CVUlMRF9ESVI9IiR7QlVJTERfRElSfSIgXAogIEZOX0tOT0NLX0dPX1JFQVVUSF9QUk9YWV9GT1JDRV9CVUlMRD0xIFwKICBGTl9LTk9DS19URVNUX0JVSUxEX0RJUj0iJHtCVUlMRF9ESVJ9IiBcCiAgRk5fS05PQ0tfVEVTVF9DT01NSVRfQ0FQVFVSRT0iJHtDQVBUVVJFX0ZJTEV9IiBcCiAgRk5fS05PQ0tfVEVTVF9NVVRBVEVfSEVBRD0iJHttdXRhdGVfaGVhZH0iIFwKICAgIGJhc2ggIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvcHJlcGFyZS1nby1yZWF1dGgtcHJveHkuc2giICIke09VVFBVVF9ESVJ9IiBhbWQ2NAp9CgpydW5fYnVpbGRlciAiJHtFWFBFQ1RFRF9DT01NSVR9IiA+L2Rldi9udWxsCgpbICIkKHRyIC1kICdcclxuJyA8ICIke0NBUFRVUkVfRklMRX0iKSIgPSAiJHtFWFBFQ1RFRF9DT01NSVR9IiBdIHx8IFwKICBmYWlsICJzaGFyZWQgYnVpbGRlciBkaWQgbm90IGluamVjdCB0aGUgZnVsbCBnYXRld2F5IGNvbW1pdCIKWyAiJCh0ciAtZCAnXHJcbicgPCAiJHtCVUlMRF9ESVJ9L2dvLXJlYXV0aC1wcm94eS1saW51eC1hbWQ2NC5jb21taXQiKSIgPSAiJHtFWFBFQ1RFRF9DT01NSVR9IiBdIHx8IFwKICBmYWlsICJzaGFyZWQgYnVpbGRlciBkaWQgbm90IHBlcnNpc3QgZnVsbCBjb21taXQgY2FjaGUgbWV0YWRhdGEiClsgLXggIiR7T1VUUFVUX0RJUn0vZ28tcmVhdXRoLXByb3h5LWxpbnV4LWFtZDY0IiBdIHx8IFwKICBmYWlsICJzaGFyZWQgYnVpbGRlciBkaWQgbm90IHByZXBhcmUgdGhlIGdhdGV3YXkgYmluYXJ5IgoKcHJpbnRmICd1bmNvbW1pdHRlZCBnYXRld2F5IHNvdXJjZVxuJyA+ICIke0dPX1JFUE9TSVRPUll9L2RpcnR5LmdvIgppZiBydW5fYnVpbGRlciAiJHtFWFBFQ1RFRF9DT01NSVR9IiA+IC9kZXYvbnVsbCAyPiAiJHtFUlJPUl9GSUxFfSI7IHRoZW4KICBmYWlsICJzaGFyZWQgYnVpbGRlciBhY2NlcHRlZCBhIGRpcnR5IGdhdGV3YXkgY2hlY2tvdXQiCmZpCmdyZXAgLUZxICd3b3JraW5nIHRyZWUgaXMgbm90IGNsZWFuJyAiJHtFUlJPUl9GSUxFfSIgfHwgXAogIGZhaWwgImRpcnR5IGNoZWNrb3V0IGZhaWx1cmUgZGlkIG5vdCBleHBsYWluIHRoZSBjYXVzZSIKcm0gLWYgIiR7R09fUkVQT1NJVE9SWX0vZGlydHkuZ28iCgpNSVNNQVRDSEVEX0NPTU1JVD0nMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCcKaWYgcnVuX2J1aWxkZXIgIiR7TUlTTUFUQ0hFRF9DT01NSVR9IiA+IC9kZXYvbnVsbCAyPiAiJHtFUlJPUl9GSUxFfSI7IHRoZW4KICBmYWlsICJzaGFyZWQgYnVpbGRlciBhY2NlcHRlZCBhIGdhdGV3YXkgY2hlY2tvdXQgdGhhdCBkaWQgbm90IG1hdGNoIHRoZSBsb2NrZWQgY29tbWl0IgpmaQpncmVwIC1GcSAnSEVBRCBjaGFuZ2VkIGR1cmluZyBhcnRpZmFjdCBwcmVwYXJhdGlvbiAoYmVmb3JlIGdhdGV3YXkgYnVpbGQpJyAiJHtFUlJPUl9GSUxFfSIgfHwgXAogIGZhaWwgImxvY2tlZCBjb21taXQgbWlzbWF0Y2ggZmFpbHVyZSBkaWQgbm90IGV4cGxhaW4gdGhlIGNhdXNlIgoKaWYgcnVuX2J1aWxkZXIgIiR7RVhQRUNURURfQ09NTUlUfSIgMSA+IC9kZXYvbnVsbCAyPiAiJHtFUlJPUl9GSUxFfSI7IHRoZW4KICBmYWlsICJzaGFyZWQgYnVpbGRlciBhY2NlcHRlZCBhIGdhdGV3YXkgSEVBRCBjaGFuZ2UgZHVyaW5nIGJ1aWxkIgpmaQpncmVwIC1GcSAnSEVBRCBjaGFuZ2VkIGR1cmluZyBhcnRpZmFjdCBwcmVwYXJhdGlvbiAoYWZ0ZXIgZ2F0ZXdheSBidWlsZCknICIke0VSUk9SX0ZJTEV9IiB8fCBcCiAgZmFpbCAiY29uY3VycmVudCBIRUFEIGNoYW5nZSBmYWlsdXJlIGRpZCBub3QgaWRlbnRpZnkgdGhlIGJ1aWxkIHBoYXNlIgpmb3IgY2FjaGVfZmlsZSBpbiBcCiAgIiR7QlVJTERfRElSfS9nby1yZWF1dGgtcHJveHktbGludXgtYW1kNjQiIFwKICAiJHtCVUlMRF9ESVJ9L2dvLXJlYXV0aC1wcm94eS1saW51eC1hbWQ2NC5jb21taXQiIFwKICAiJHtCVUlMRF9ESVJ9L2dvLXJlYXV0aC1wcm94eS1saW51eC1hbWQ2NC52ZXJzaW9uIjsgZG8KICBbICEgLWUgIiR7Y2FjaGVfZmlsZX0iIF0gfHwgXAogICAgZmFpbCAic2hhcmVkIGJ1aWxkZXIgbGVmdCBhIHJldXNhYmxlIGNhY2hlIGVudHJ5IGFmdGVyIGdhdGV3YXkgSEVBRCBjaGFuZ2VkOiAke2NhY2hlX2ZpbGV9Igpkb25lCgppZiBncmVwIC1GcSAnZ2F0ZXdheUNvbW1pdCcgIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvcHJlcGFyZS1nby1yZWF1dGgtcHJveHkuc2giOyB0aGVuCiAgZmFpbCAic2hhcmVkIGJ1aWxkZXIgc3RpbGwgcGlucyB0aGUgZ2F0ZXdheSBjaGVja291dCB0byB2ZXJzaW9uLmpzb24iCmZpCmlmIGdyZXAgLUZxICdFWFBFQ1RFRF9HQVRFV0FZX0NPTU1JVCcgXAogICIke1JPT1RfRElSfS9hcHBzL2ZuLWtub2NrLXN5bm9sb2d5L3NjcmlwdHMvYnVpbGQtcGFja2FnZS5zaCI7IHRoZW4KICBmYWlsICJTeW5vbG9neSBidWlsZGVyIHN0aWxsIHBpbnMgdGhlIGdhdGV3YXkgY2hlY2tvdXQgdG8gdmVyc2lvbi5qc29uIgpmaQoKaWYgZ3JlcCAtRW4gJ3Jldi1wYXJzZVtbOnNwYWNlOl1dKy0tc2hvcnQnIFwKICAiJHtST09UX0RJUn0vc2NyaXB0cy9wcmVwYXJlLWdvLXJlYXV0aC1wcm94eS5zaCIgXAogICIke1JPT1RfRElSfS9hcHBzL2ZuLWtub2NrLXN5bm9sb2d5L3NjcmlwdHMvYnVpbGQtcGFja2FnZS5zaCIgPi9kZXYvbnVsbDsgdGhlbgogIGZhaWwgImEgcGFja2FnZSBidWlsZGVyIHN0aWxsIHRydW5jYXRlcyB0aGUgZ2F0ZXdheSBjb21taXQiCmZpCmdyZXAgLUZxICdyZXYtcGFyc2UgSEVBRCcgIiR7Uk9PVF9ESVJ9L2FwcHMvZm4ta25vY2stc3lub2xvZ3kvc2NyaXB0cy9idWlsZC1wYWNrYWdlLnNoIiB8fCBcCiAgZmFpbCAiU3lub2xvZ3kgYnVpbGRlciBkb2VzIG5vdCByZXNvbHZlIHRoZSBmdWxsIGdhdGV3YXkgY29tbWl0IgpncmVwIC1GcSAnbG9ja19kb2NrZXJfZ2F0ZXdheV9jb21taXQnICIke1JPT1RfRElSfS9zY3JpcHRzL2ZuLWtub2NrLWRvY2tlci5zaCIgfHwgXAogIGZhaWwgIkRvY2tlciBidWlsZGVyIGRvZXMgbm90IGxvY2sgdGhlIGdhdGV3YXkgY29tbWl0IGZvciB0aGUgd2hvbGUgaW1hZ2UgYnVpbGQiCmdyZXAgLUZxICdGTl9LTk9DS19HQVRFV0FZX0NPTU1JVD0iJHtET0NLRVJfR0FURVdBWV9DT01NSVR9IicgXAogICIke1JPT1RfRElSfS9zY3JpcHRzL2ZuLWtub2NrLWRvY2tlci5zaCIgfHwgXAogIGZhaWwgIkRvY2tlciBSdXN0IGJ1aWxkIGRvZXMgbm90IGluamVjdCB0aGUgbG9ja2VkIGdhdGV3YXkgY29tbWl0IgpncmVwIC1GcSAnIiR7b3V0X2Jpbn0uZ2F0ZXdheS1jb21taXQiJyAiJHtST09UX0RJUn0vc2NyaXB0cy9mbi1rbm9jay1kb2NrZXIuc2giIHx8IFwKICBmYWlsICJEb2NrZXIgUnVzdCBidWlsZCBkb2VzIG5vdCBwZXJzaXN0IGdhdGV3YXkgY29tbWl0IGNhY2hlIG1ldGFkYXRhIgppZiBncmVwIC1GcSAnaWYgWyAtZiAiJHtkc3R9IiBdOyB0aGVuJyAiJHtST09UX0RJUn0vc2NyaXB0cy9mbi1rbm9jay1kb2NrZXIuc2giOyB0aGVuCiAgZmFpbCAiRG9ja2VyIG5vLWJ1aWxkIG1vZGUgYWNjZXB0cyBSdXN0IGJpbmFyaWVzIHdpdGhvdXQgY29tbWl0IG1ldGFkYXRhIHZhbGlkYXRpb24iCmZpCgpwcmludGYgJ1t0ZXN0LWdhdGV3YXktY29tbWl0LW1ldGFkYXRhXSBnYXRld2F5IGNvbW1pdCBtZXRhZGF0YSB2YWxpZGF0aW9uIHBhc3NlZFxuJwo=
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+WORK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/fn-knock-gateway-commit-test.XXXXXX")"
+GO_REPOSITORY="${WORK_DIR}/go-repository"
+FAKE_BIN="${WORK_DIR}/bin"
+BUILD_DIR="${WORK_DIR}/build"
+OUTPUT_DIR="${WORK_DIR}/output"
+CAPTURE_FILE="${WORK_DIR}/commit.txt"
+ERROR_FILE="${WORK_DIR}/error.txt"
+
+cleanup() {
+  rm -rf "${WORK_DIR}"
+}
+trap cleanup EXIT
+
+fail() {
+  printf '[test-gateway-commit-metadata] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+CONTROL_API_VERSION="$(bash "${ROOT_DIR}/scripts/control-api-version.sh")"
+mkdir -p "${GO_REPOSITORY}/pkg/grpc/pb" "${FAKE_BIN}" "${BUILD_DIR}" "${OUTPUT_DIR}"
+printf 'ControlApiVersion_CONTROL_API_VERSION_CURRENT ControlApiVersion = %s\n' \
+  "${CONTROL_API_VERSION}" > "${GO_REPOSITORY}/pkg/grpc/pb/gateway.pb.go"
+printf 'version: 3\n' > "${GO_REPOSITORY}/Taskfile.yml"
+git -C "${GO_REPOSITORY}" init -q
+git -C "${GO_REPOSITORY}" config user.name 'fn-knock test'
+git -C "${GO_REPOSITORY}" config user.email 'fn-knock-test@example.invalid'
+git -C "${GO_REPOSITORY}" add .
+git -C "${GO_REPOSITORY}" commit -qm 'initial gateway fixture'
+
+EXPECTED_COMMIT="$(git -C "${GO_REPOSITORY}" rev-parse HEAD)"
+[[ "${EXPECTED_COMMIT}" =~ ^[0-9a-f]{40}$ ]] || fail "Go checkout commit is invalid"
+
+cat > "${FAKE_BIN}/task" <<'EOF'
+#!/bin/bash
+set -euo pipefail
+[ "${1:-}" = "build" ] || exit 64
+printf '%s\n' "${FN_KNOCK_COMMIT:?}" > "${FN_KNOCK_TEST_COMMIT_CAPTURE:?}"
+cp /usr/bin/true "${FN_KNOCK_TEST_BUILD_DIR:?}/go-reauth-proxy-linux-amd64"
+printf '%s\n' "${FN_KNOCK_VERSION:?}" > \
+  "${FN_KNOCK_TEST_BUILD_DIR}/go-reauth-proxy-linux-amd64.version"
+if [ "${FN_KNOCK_TEST_MUTATE_HEAD:-0}" = "1" ]; then
+  printf 'changed during build\n' > gateway-drift.txt
+  git add gateway-drift.txt
+  git commit -qm 'simulate concurrent gateway commit'
+fi
+EOF
+chmod 755 "${FAKE_BIN}/task"
+
+run_builder() {
+  local expected_commit="$1"
+  local mutate_head="${2:-0}"
+
+  PATH="${FAKE_BIN}:${PATH}" \
+  FN_KNOCK_GATEWAY_COMMIT="${expected_commit}" \
+  FN_KNOCK_GO_REAUTH_PROXY_DIR="${GO_REPOSITORY}" \
+  FN_KNOCK_GO_REAUTH_PROXY_BUILD_DIR="${BUILD_DIR}" \
+  FN_KNOCK_GO_REAUTH_PROXY_FORCE_BUILD=1 \
+  FN_KNOCK_TEST_BUILD_DIR="${BUILD_DIR}" \
+  FN_KNOCK_TEST_COMMIT_CAPTURE="${CAPTURE_FILE}" \
+  FN_KNOCK_TEST_MUTATE_HEAD="${mutate_head}" \
+    bash "${ROOT_DIR}/scripts/prepare-go-reauth-proxy.sh" "${OUTPUT_DIR}" amd64
+}
+
+run_builder "${EXPECTED_COMMIT}" >/dev/null
+
+[ "$(tr -d '\r\n' < "${CAPTURE_FILE}")" = "${EXPECTED_COMMIT}" ] || \
+  fail "shared builder did not inject the full gateway commit"
+[ "$(tr -d '\r\n' < "${BUILD_DIR}/go-reauth-proxy-linux-amd64.commit")" = "${EXPECTED_COMMIT}" ] || \
+  fail "shared builder did not persist full commit cache metadata"
+[ -x "${OUTPUT_DIR}/go-reauth-proxy-linux-amd64" ] || \
+  fail "shared builder did not prepare the gateway binary"
+
+printf 'uncommitted gateway source\n' > "${GO_REPOSITORY}/dirty.go"
+if run_builder "${EXPECTED_COMMIT}" > /dev/null 2> "${ERROR_FILE}"; then
+  fail "shared builder accepted a dirty gateway checkout"
+fi
+grep -Fq 'working tree is not clean' "${ERROR_FILE}" || \
+  fail "dirty checkout failure did not explain the cause"
+rm -f "${GO_REPOSITORY}/dirty.go"
+
+MISMATCHED_COMMIT='0000000000000000000000000000000000000000'
+if run_builder "${MISMATCHED_COMMIT}" > /dev/null 2> "${ERROR_FILE}"; then
+  fail "shared builder accepted a gateway checkout that did not match the locked commit"
+fi
+grep -Fq 'HEAD changed during artifact preparation (before gateway build)' "${ERROR_FILE}" || \
+  fail "locked commit mismatch failure did not explain the cause"
+
+if run_builder "${EXPECTED_COMMIT}" 1 > /dev/null 2> "${ERROR_FILE}"; then
+  fail "shared builder accepted a gateway HEAD change during build"
+fi
+grep -Fq 'HEAD changed during artifact preparation (after gateway build)' "${ERROR_FILE}" || \
+  fail "concurrent HEAD change failure did not identify the build phase"
+for cache_file in \
+  "${BUILD_DIR}/go-reauth-proxy-linux-amd64" \
+  "${BUILD_DIR}/go-reauth-proxy-linux-amd64.commit" \
+  "${BUILD_DIR}/go-reauth-proxy-linux-amd64.version"; do
+  [ ! -e "${cache_file}" ] || \
+    fail "shared builder left a reusable cache entry after gateway HEAD changed: ${cache_file}"
+done
+
+if grep -Fq 'gatewayCommit' "${ROOT_DIR}/scripts/prepare-go-reauth-proxy.sh"; then
+  fail "shared builder still pins the gateway checkout to version.json"
+fi
+if grep -Fq 'EXPECTED_GATEWAY_COMMIT' \
+  "${ROOT_DIR}/apps/fn-knock-synology/scripts/build-package.sh"; then
+  fail "Synology builder still pins the gateway checkout to version.json"
+fi
+
+if grep -En 'rev-parse[[:space:]]+--short' \
+  "${ROOT_DIR}/scripts/prepare-go-reauth-proxy.sh" \
+  "${ROOT_DIR}/apps/fn-knock-synology/scripts/build-package.sh" >/dev/null; then
+  fail "a package builder still truncates the gateway commit"
+fi
+grep -Fq 'rev-parse HEAD' "${ROOT_DIR}/apps/fn-knock-synology/scripts/build-package.sh" || \
+  fail "Synology builder does not resolve the full gateway commit"
+grep -Fq 'lock_docker_gateway_commit' "${ROOT_DIR}/scripts/fn-knock-docker.sh" || \
+  fail "Docker builder does not lock the gateway commit for the whole image build"
+grep -Fq 'FN_KNOCK_GATEWAY_COMMIT="${DOCKER_GATEWAY_COMMIT}"' \
+  "${ROOT_DIR}/scripts/fn-knock-docker.sh" || \
+  fail "Docker Rust build does not inject the locked gateway commit"
+grep -Fq '"${out_bin}.gateway-commit"' "${ROOT_DIR}/scripts/fn-knock-docker.sh" || \
+  fail "Docker Rust build does not persist gateway commit cache metadata"
+if grep -Fq 'if [ -f "${dst}" ]; then' "${ROOT_DIR}/scripts/fn-knock-docker.sh"; then
+  fail "Docker no-build mode accepts Rust binaries without commit metadata validation"
+fi
+
+printf '[test-gateway-commit-metadata] gateway commit metadata validation passed\n'

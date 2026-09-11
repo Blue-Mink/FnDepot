@@ -1,1 +1,45 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCB9IGZyb20gIm5vZGU6dXJsIjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocmVsYXRpdmVQYXRoOiBzdHJpbmcpID0+CiAgcmVhZEZpbGVTeW5jKGZpbGVVUkxUb1BhdGgobmV3IFVSTChyZWxhdGl2ZVBhdGgsIGltcG9ydC5tZXRhLnVybCkpLCAidXRmOCIpOwoKZGVzY3JpYmUoIkxEQVAgbG9naW4gVUkgY29udHJhY3QiLCAoKSA9PiB7CiAgaXQoInN1Ym1pdHMgdGhlIHNlbGVjdGVkIHByb3ZpZGVyIGFuZCBkaXJlY3RvcnkgY3JlZGVudGlhbHMiLCAoKSA9PiB7CiAgICBjb25zdCBzb3VyY2UgPSByZWFkU291cmNlKCIuLi9zcmMvY29tcG9zYWJsZXMvdXNlQ3JlZGVudGlhbExvZ2luLnRzIik7CiAgICBhc3NlcnQubWF0Y2goc291cmNlLCAvbWV0aG9kID09PSAibGRhcCIvKTsKICAgIGFzc2VydC5tYXRjaChzb3VyY2UsIC9wcm92aWRlcl9pZDpccyptZXRob2QgPT09ICJsZGFwIi8pOwogICAgYXNzZXJ0Lm1hdGNoKHNvdXJjZSwgL2xkYXBQcm92aWRlclJlcXVpcmVkLyk7CiAgfSk7CgogIGl0KCJhdXRvLXNlbGVjdHMgYSBzb2xlIHByb3ZpZGVyIGFuZCBrZWVwcyBMREFQIGluIFRPVFAgbW9kZSIsICgpID0+IHsKICAgIGNvbnN0IGJvb3RzdHJhcCA9IHJlYWRTb3VyY2UoIi4uL3NyYy9jb21wb3NhYmxlcy91c2VMb2dpbkJvb3RzdHJhcC50cyIpOwogICAgY29uc3QgbG9naW4gPSByZWFkU291cmNlKCIuLi9zcmMvdmlld3MvTG9naW4udnVlIik7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGJvb3RzdHJhcCwKICAgICAgL2xkYXBQcm92aWRlcklkXC52YWx1ZSA9IGxkYXBQcm92aWRlcnNcLnZhbHVlXFswXF1cP1wuaWQvLAogICAgKTsKICAgIGFzc2VydC5tYXRjaChsb2dpbiwgL2xvZ2luTW9kZSA9PT0gJ3RvdHAnLyk7CiAgICBhc3NlcnQubWF0Y2gobG9naW4sIC9MZGFwTG9naW5Db250cm9scy8pOwogIH0pOwoKICBpdCgicm91dGVzIGludml0YXRpb25zIHRocm91Z2ggY2FwdGNoYS1wcm90ZWN0ZWQgYmluZGluZyIsICgpID0+IHsKICAgIGNvbnN0IHJvdXRlciA9IHJlYWRTb3VyY2UoIi4uL3NyYy9yb3V0ZXIvaW5kZXgudHMiKTsKICAgIGNvbnN0IGJpbmRpbmcgPSByZWFkU291cmNlKCIuLi9zcmMvdmlld3MvTGRhcEJpbmQudnVlIik7CiAgICBjb25zdCB6aENuID0gcmVhZFNvdXJjZSgKICAgICAgIi4uLy4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL21lc3NhZ2VzL2F1dGgvemgtQ04udHMiLAogICAgKTsKICAgIGFzc2VydC5tYXRjaChyb3V0ZXIsIC9wYXRoOiBbIiddXC9sZGFwXC9iaW5kWyInXS8pOwogICAgYXNzZXJ0Lm1hdGNoKGJpbmRpbmcsIC9DYXB0Y2hhQVBJXC5nZXRDb25maWcvKTsKICAgIGFzc2VydC5tYXRjaChiaW5kaW5nLCAvYXBpQ2xpZW50XC5wb3N0XCgiXC9sZGFwXC9iaW5kIi8pOwogICAgYXNzZXJ0Lm1hdGNoKGJpbmRpbmcsIC9jYXB0Y2hhOlxzKmNhcHRjaGFTdWJtaXNzaW9uXC52YWx1ZS8pOwogICAgYXNzZXJ0Lm1hdGNoKGJpbmRpbmcsIC91c2VMb2dpbkNvb2xkb3duLyk7CiAgICBhc3NlcnQubWF0Y2goYmluZGluZywgL2lzTG9naW5Db29saW5nRG93bi8pOwogICAgYXNzZXJ0Lm1hdGNoKGJpbmRpbmcsIC9yZWRpcmVjdF91cmk6XHMqcmVkaXJlY3RVcmkvKTsKICAgIGFzc2VydC5tYXRjaCh6aENuLCAvdGl0bGU6ICLnu5HlrpogTERBUCDotKblj7ciLyk7CiAgICBhc3NlcnQubWF0Y2goemhDbiwgL2xkYXBVc2VybmFtZTogIkxEQVAg55So5oi35ZCNIi8pOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaCh6aENuLCAv57uR5a6a55uu5b2V6LSm5Y+3Lyk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+import { fileURLToPath } from "node:url";
+
+const readSource = (relativePath: string) =>
+  readFileSync(fileURLToPath(new URL(relativePath, import.meta.url)), "utf8");
+
+describe("LDAP login UI contract", () => {
+  it("submits the selected provider and directory credentials", () => {
+    const source = readSource("../src/composables/useCredentialLogin.ts");
+    assert.match(source, /method === "ldap"/);
+    assert.match(source, /provider_id:\s*method === "ldap"/);
+    assert.match(source, /ldapProviderRequired/);
+  });
+
+  it("auto-selects a sole provider and keeps LDAP in TOTP mode", () => {
+    const bootstrap = readSource("../src/composables/useLoginBootstrap.ts");
+    const login = readSource("../src/views/Login.vue");
+    assert.match(
+      bootstrap,
+      /ldapProviderId\.value = ldapProviders\.value\[0\]\?\.id/,
+    );
+    assert.match(login, /loginMode === 'totp'/);
+    assert.match(login, /LdapLoginControls/);
+  });
+
+  it("routes invitations through captcha-protected binding", () => {
+    const router = readSource("../src/router/index.ts");
+    const binding = readSource("../src/views/LdapBind.vue");
+    const zhCn = readSource(
+      "../../../packages/i18n/src/messages/auth/zh-CN.ts",
+    );
+    assert.match(router, /path: ["']\/ldap\/bind["']/);
+    assert.match(binding, /CaptchaAPI\.getConfig/);
+    assert.match(binding, /apiClient\.post\("\/ldap\/bind"/);
+    assert.match(binding, /captcha:\s*captchaSubmission\.value/);
+    assert.match(binding, /useLoginCooldown/);
+    assert.match(binding, /isLoginCoolingDown/);
+    assert.match(binding, /redirect_uri:\s*redirectUri/);
+    assert.match(zhCn, /title: "绑定 LDAP 账号"/);
+    assert.match(zhCn, /ldapUsername: "LDAP 用户名"/);
+    assert.doesNotMatch(zhCn, /绑定目录账号/);
+  });
+});

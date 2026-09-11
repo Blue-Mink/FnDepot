@@ -1,1 +1,213 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBwaWRfcGF0aF9mb3JfbWV0YShtZXRhOiAmRnJwY0luc3RhbmNlTWV0YSkgLT4gUGF0aEJ1ZiB7CiAgICBQYXRoQnVmOjpmcm9tKCZtZXRhLndvcmtfZGlyKS5qb2luKCJmcnBjLnBpZCIpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gcmVhZF9waWRfZmlsZShwYXRoOiAmUGF0aCkgLT4gT3B0aW9uPHUzMj4gewogICAgZnM6OnJlYWRfdG9fc3RyaW5nKHBhdGgpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm9rKCkKICAgICAgICAuYW5kX3RoZW4ofGNvbnRlbnR8IGNvbnRlbnQudHJpbSgpLnBhcnNlOjo8dTMyPigpLm9rKCkpCiAgICAgICAgLmZpbHRlcih8cGlkfCAqcGlkID4gMCkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiB3cml0ZV9waWRfZmlsZShwYXRoOiAmUGF0aCwgcGlkOiB1MzIpIHsKICAgIGlmIGxldCBTb21lKHBhcmVudCkgPSBwYXRoLnBhcmVudCgpIHsKICAgICAgICBsZXQgXyA9IGZzOjpjcmVhdGVfZGlyX2FsbChwYXJlbnQpLmF3YWl0OwogICAgfQogICAgbGV0IF8gPSBmczo6d3JpdGUocGF0aCwgZm9ybWF0ISgie3BpZH1cbiIpKS5hd2FpdDsKfQoKcHViKHN1cGVyKSBhc3luYyBmbiByZW1vdmVfcGlkX2ZpbGUocGF0aDogJlBhdGgpIHsKICAgIGxldCBfID0gZnM6OnJlbW92ZV9maWxlKHBhdGgpLmF3YWl0Owp9CgpwdWIoc3VwZXIpIGZuIGlzX3Byb2Nlc3NfYWxpdmUocGlkOiB1MzIpIC0+IGJvb2wgewogICAgaTMyOjp0cnlfZnJvbShwaWQpLmlzX29rX2FuZChjcmF0ZTo6dW5peDo6cHJvY2Vzc19leGlzdHMpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gaXNfb3duZWRfZnJwY19waWQocGlkOiB1MzIsIGNvbmZpZ19wYXRoOiAmc3RyKSAtPiBib29sIHsKICAgIGlmICFpc19wcm9jZXNzX2FsaXZlKHBpZCkgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KICAgIGxldCBhcmdzID0gcmVhZF9wcm9jZXNzX2FyZ3MocGlkKS5hd2FpdDsKICAgIGFyZ3MuYXNfZGVyZWYoKQogICAgICAgIC5pc19zb21lX2FuZCh8YXJnc3wgaXNfZnJwY19wcm9jZXNzX2FyZ3NfZm9yX2NvbmZpZyhhcmdzLCBjb25maWdfcGF0aCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gZmluZF9mcnBjX3BpZF9ieV9jb25maWdfcGF0aChjb25maWdfcGF0aDogJnN0cikgLT4gT3B0aW9uPHUzMj4gewogICAgbGV0IGVudHJpZXMgPSBzdGQ6OmZzOjpyZWFkX2RpcigiL3Byb2MiKS5vaygpPzsKICAgIGZvciBlbnRyeSBpbiBlbnRyaWVzLmZsYXR0ZW4oKSB7CiAgICAgICAgbGV0IHBpZCA9IGVudHJ5CiAgICAgICAgICAgIC5maWxlX25hbWUoKQogICAgICAgICAgICAudG9fc3RyKCkKICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUucGFyc2U6Ojx1MzI+KCkub2soKSk7CiAgICAgICAgbGV0IFNvbWUocGlkKSA9IHBpZCBlbHNlIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfTsKICAgICAgICBpZiBwaWQgPT0gc3RkOjpwcm9jZXNzOjppZCgpIHx8ICFpc19wcm9jZXNzX2FsaXZlKHBpZCkgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgbGV0IGFyZ3MgPSByZWFkX3Byb2NfY21kbGluZV9hcmdzKHBpZCkuYXdhaXQ7CiAgICAgICAgaWYgYXJncwogICAgICAgICAgICAuYXNfZGVyZWYoKQogICAgICAgICAgICAuaXNfc29tZV9hbmQofGFyZ3N8IGlzX2ZycGNfcHJvY2Vzc19hcmdzX2Zvcl9jb25maWcoYXJncywgY29uZmlnX3BhdGgpKQogICAgICAgIHsKICAgICAgICAgICAgcmV0dXJuIFNvbWUocGlkKTsKICAgICAgICB9CiAgICB9CiAgICBOb25lCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gcmVhZF9wcm9jZXNzX2FyZ3MocGlkOiB1MzIpIC0+IE9wdGlvbjxWZWM8U3RyaW5nPj4gewogICAgcmVhZF9wcm9jX2NtZGxpbmVfYXJncyhwaWQpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm9yX2Vsc2UofHwgcmVhZF9wc19jb21tYW5kX2FyZ3MocGlkKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBwcm9jZXNzX3VzZXNfZXhlY3V0YWJsZShwaWQ6IHUzMiwgZXhwZWN0ZWQ6ICZQYXRoKSAtPiBPcHRpb248Ym9vbD4gewogICAgI1tjZmcodGFyZ2V0X29zID0gImxpbnV4IildCiAgICBpZiBsZXQgT2soYWN0dWFsKSA9IGZzOjpyZWFkX2xpbmsoZm9ybWF0ISgiL3Byb2Mve3BpZH0vZXhlIikpLmF3YWl0IHsKICAgICAgICByZXR1cm4gU29tZShzYW1lX2V4ZWN1dGFibGVfcGF0aCgmYWN0dWFsLCBleHBlY3RlZCkpOwogICAgfQoKICAgIGxldCBhcmdzID0gcmVhZF9wcm9jZXNzX2FyZ3MocGlkKS5hd2FpdD87CiAgICBwcm9jZXNzX2FyZ3NfdXNlX2V4ZWN1dGFibGUoJmFyZ3MsIGV4cGVjdGVkKQp9CgpwdWIoc3VwZXIpIGZuIHByb2Nlc3NfYXJnc191c2VfZXhlY3V0YWJsZShhcmdzOiAmW1N0cmluZ10sIGV4cGVjdGVkOiAmUGF0aCkgLT4gT3B0aW9uPGJvb2w+IHsKICAgIGFyZ3MuZmlyc3QoKQogICAgICAgIC5tYXAoUGF0aDo6bmV3KQogICAgICAgIC5tYXAofGFjdHVhbHwgc2FtZV9leGVjdXRhYmxlX3BhdGgoYWN0dWFsLCBleHBlY3RlZCkpCn0KCmZuIHNhbWVfZXhlY3V0YWJsZV9wYXRoKGxlZnQ6ICZQYXRoLCByaWdodDogJlBhdGgpIC0+IGJvb2wgewogICAgbWF0Y2ggKHN0ZDo6ZnM6OmNhbm9uaWNhbGl6ZShsZWZ0KSwgc3RkOjpmczo6Y2Fub25pY2FsaXplKHJpZ2h0KSkgewogICAgICAgIChPayhsZWZ0KSwgT2socmlnaHQpKSA9PiBsZWZ0ID09IHJpZ2h0LAogICAgICAgIF8gPT4gc2FtZV9wYXRoKCZsZWZ0LnRvX3N0cmluZ19sb3NzeSgpLCAmcmlnaHQudG9fc3RyaW5nX2xvc3N5KCkpLAogICAgfQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHJlYWRfcHJvY19jbWRsaW5lX2FyZ3MocGlkOiB1MzIpIC0+IE9wdGlvbjxWZWM8U3RyaW5nPj4gewogICAgbGV0IGJ5dGVzID0gZnM6OnJlYWQoZm9ybWF0ISgiL3Byb2Mve3BpZH0vY21kbGluZSIpKS5hd2FpdC5vaygpPzsKICAgIGlmIGJ5dGVzLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgbGV0IGFyZ3MgPSBieXRlcwogICAgICAgIC5zcGxpdCh8Ynl0ZXwgKmJ5dGUgPT0gMCkKICAgICAgICAuZmlsdGVyX21hcCh8cGFydHwgewogICAgICAgICAgICBsZXQgdmFsdWUgPSBTdHJpbmc6OmZyb21fdXRmOF9sb3NzeShwYXJ0KS50cmltKCkudG9fc3RyaW5nKCk7CiAgICAgICAgICAgICghdmFsdWUuaXNfZW1wdHkoKSkudGhlbl9zb21lKHZhbHVlKQogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICAoIWFyZ3MuaXNfZW1wdHkoKSkudGhlbl9zb21lKGFyZ3MpCn0KCnB1YihzdXBlcikgZm4gcmVhZF9wc19jb21tYW5kX2FyZ3MocGlkOiB1MzIpIC0+IE9wdGlvbjxWZWM8U3RyaW5nPj4gewogICAgbGV0IG91dHB1dCA9IHN0ZDo6cHJvY2Vzczo6Q29tbWFuZDo6bmV3KCJwcyIpCiAgICAgICAgLmFyZ3MoWyItd3ciLCAiLXAiLCAmcGlkLnRvX3N0cmluZygpLCAiLW8iLCAiYXJncz0iXSkKICAgICAgICAub3V0cHV0KCkKICAgICAgICAub2soKT87CiAgICBpZiAhb3V0cHV0LnN0YXR1cy5zdWNjZXNzKCkgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgbGV0IGNvbW1hbmQgPSBTdHJpbmc6OmZyb21fdXRmOF9sb3NzeSgmb3V0cHV0LnN0ZG91dCk7CiAgICBsZXQgYXJncyA9IHNwbGl0X2NvbW1hbmRfbGluZShjb21tYW5kLnRyaW0oKSk7CiAgICAoIWFyZ3MuaXNfZW1wdHkoKSkudGhlbl9zb21lKGFyZ3MpCn0KCnB1YihzdXBlcikgZm4gc3BsaXRfY29tbWFuZF9saW5lKGNvbW1hbmQ6ICZzdHIpIC0+IFZlYzxTdHJpbmc+IHsKICAgIGxldCBtdXQgYXJncyA9IFZlYzo6bmV3KCk7CiAgICBsZXQgbXV0IGN1cnJlbnQgPSBTdHJpbmc6Om5ldygpOwogICAgbGV0IG11dCBxdW90ZTogT3B0aW9uPGNoYXI+ID0gTm9uZTsKICAgIGxldCBtdXQgZXNjYXBlZCA9IGZhbHNlOwogICAgbGV0IG11dCBpbl9hcmcgPSBmYWxzZTsKICAgIGZvciBjaCBpbiBjb21tYW5kLmNoYXJzKCkgewogICAgICAgIGlmIGVzY2FwZWQgewogICAgICAgICAgICBjdXJyZW50LnB1c2goY2gpOwogICAgICAgICAgICBlc2NhcGVkID0gZmFsc2U7CiAgICAgICAgICAgIGluX2FyZyA9IHRydWU7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBpZiBjaCA9PSAnXFwnICYmIHF1b3RlICE9IFNvbWUoJ1wnJykgewogICAgICAgICAgICBlc2NhcGVkID0gdHJ1ZTsKICAgICAgICAgICAgaW5fYXJnID0gdHJ1ZTsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGlmIGxldCBTb21lKGFjdGl2ZV9xdW90ZSkgPSBxdW90ZSB7CiAgICAgICAgICAgIGlmIGNoID09IGFjdGl2ZV9xdW90ZSB7CiAgICAgICAgICAgICAgICBxdW90ZSA9IE5vbmU7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBjdXJyZW50LnB1c2goY2gpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGluX2FyZyA9IHRydWU7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBpZiBjaCA9PSAnXCcnIHx8IGNoID09ICciJyB7CiAgICAgICAgICAgIHF1b3RlID0gU29tZShjaCk7CiAgICAgICAgICAgIGluX2FyZyA9IHRydWU7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBpZiBjaC5pc193aGl0ZXNwYWNlKCkgewogICAgICAgICAgICBpZiBpbl9hcmcgewogICAgICAgICAgICAgICAgYXJncy5wdXNoKHN0ZDo6bWVtOjp0YWtlKCZtdXQgY3VycmVudCkpOwogICAgICAgICAgICAgICAgaW5fYXJnID0gZmFsc2U7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGN1cnJlbnQucHVzaChjaCk7CiAgICAgICAgaW5fYXJnID0gdHJ1ZTsKICAgIH0KICAgIGlmIGVzY2FwZWQgewogICAgICAgIGN1cnJlbnQucHVzaCgnXFwnKTsKICAgIH0KICAgIGlmIGluX2FyZyB7CiAgICAgICAgYXJncy5wdXNoKGN1cnJlbnQpOwogICAgfQogICAgYXJncwp9CgpwdWIoc3VwZXIpIGZuIGlzX2ZycGNfcHJvY2Vzc19hcmdzX2Zvcl9jb25maWcoYXJnczogJltTdHJpbmddLCBjb25maWdfcGF0aDogJnN0cikgLT4gYm9vbCB7CiAgICBsZXQgU29tZShmaXJzdCkgPSBhcmdzLmZpcnN0KCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfTsKICAgIGxldCBleGVjdXRhYmxlID0gUGF0aDo6bmV3KGZpcnN0KQogICAgICAgIC5maWxlX25hbWUoKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnRvX3N0cigpKQogICAgICAgIC51bndyYXBfb3IoIiIpCiAgICAgICAgLnRvX2FzY2lpX2xvd2VyY2FzZSgpOwogICAgaWYgZXhlY3V0YWJsZSAhPSAiZnJwYyIgJiYgZXhlY3V0YWJsZSAhPSAiZnJwYy5leGUiIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CiAgICBmb3IgKGluZGV4LCBhcmcpIGluIGFyZ3MuaXRlcigpLmVudW1lcmF0ZSgpLnNraXAoMSkgewogICAgICAgIGlmIG1hdGNoZXMhKGFyZy5hc19zdHIoKSwgIi1jIiB8ICItLWNvbmZpZyIgfCAiLS1jb25maWctZmlsZSIpIHsKICAgICAgICAgICAgcmV0dXJuIGFyZ3MKICAgICAgICAgICAgICAgIC5nZXQoaW5kZXggKyAxKQogICAgICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHxjYW5kaWRhdGV8IHNhbWVfcGF0aChjYW5kaWRhdGUsIGNvbmZpZ19wYXRoKSk7CiAgICAgICAgfQogICAgICAgIGlmIGxldCBTb21lKGNhbmRpZGF0ZSkgPSBhcmcuc3RyaXBfcHJlZml4KCItLWNvbmZpZz0iKSB7CiAgICAgICAgICAgIHJldHVybiBzYW1lX3BhdGgoY2FuZGlkYXRlLCBjb25maWdfcGF0aCk7CiAgICAgICAgfQogICAgICAgIGlmIGxldCBTb21lKGNhbmRpZGF0ZSkgPSBhcmcuc3RyaXBfcHJlZml4KCItLWNvbmZpZy1maWxlPSIpIHsKICAgICAgICAgICAgcmV0dXJuIHNhbWVfcGF0aChjYW5kaWRhdGUsIGNvbmZpZ19wYXRoKTsKICAgICAgICB9CiAgICB9CiAgICBmYWxzZQp9CgpwdWIoc3VwZXIpIGZuIHNhbWVfcGF0aChsZWZ0OiAmc3RyLCByaWdodDogJnN0cikgLT4gYm9vbCB7CiAgICBub3JtYWxpemVfcGF0aChsZWZ0KSA9PSBub3JtYWxpemVfcGF0aChyaWdodCkKfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfcGF0aCh2YWx1ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGxldCBwYXRoID0gUGF0aEJ1Zjo6ZnJvbSh2YWx1ZSk7CiAgICBsZXQgYWJzb2x1dGUgPSBpZiBwYXRoLmlzX2Fic29sdXRlKCkgewogICAgICAgIHBhdGgKICAgIH0gZWxzZSB7CiAgICAgICAgc3RkOjplbnY6OmN1cnJlbnRfZGlyKCkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHxffCBQYXRoQnVmOjpmcm9tKCIuIikpCiAgICAgICAgICAgIC5qb2luKHBhdGgpCiAgICB9OwogICAgYWJzb2x1dGUudG9fc3RyaW5nX2xvc3N5KCkucmVwbGFjZSgnXFwnLCAiLyIpCn0K
+use super::*;
+
+pub(super) fn pid_path_for_meta(meta: &FrpcInstanceMeta) -> PathBuf {
+    PathBuf::from(&meta.work_dir).join("frpc.pid")
+}
+
+pub(super) async fn read_pid_file(path: &Path) -> Option<u32> {
+    fs::read_to_string(path)
+        .await
+        .ok()
+        .and_then(|content| content.trim().parse::<u32>().ok())
+        .filter(|pid| *pid > 0)
+}
+
+pub(super) async fn write_pid_file(path: &Path, pid: u32) {
+    if let Some(parent) = path.parent() {
+        let _ = fs::create_dir_all(parent).await;
+    }
+    let _ = fs::write(path, format!("{pid}\n")).await;
+}
+
+pub(super) async fn remove_pid_file(path: &Path) {
+    let _ = fs::remove_file(path).await;
+}
+
+pub(super) fn is_process_alive(pid: u32) -> bool {
+    i32::try_from(pid).is_ok_and(crate::unix::process_exists)
+}
+
+pub(super) async fn is_owned_frpc_pid(pid: u32, config_path: &str) -> bool {
+    if !is_process_alive(pid) {
+        return false;
+    }
+    let args = read_process_args(pid).await;
+    args.as_deref()
+        .is_some_and(|args| is_frpc_process_args_for_config(args, config_path))
+}
+
+pub(super) async fn find_frpc_pid_by_config_path(config_path: &str) -> Option<u32> {
+    let entries = std::fs::read_dir("/proc").ok()?;
+    for entry in entries.flatten() {
+        let pid = entry
+            .file_name()
+            .to_str()
+            .and_then(|value| value.parse::<u32>().ok());
+        let Some(pid) = pid else {
+            continue;
+        };
+        if pid == std::process::id() || !is_process_alive(pid) {
+            continue;
+        }
+        let args = read_proc_cmdline_args(pid).await;
+        if args
+            .as_deref()
+            .is_some_and(|args| is_frpc_process_args_for_config(args, config_path))
+        {
+            return Some(pid);
+        }
+    }
+    None
+}
+
+pub(super) async fn read_process_args(pid: u32) -> Option<Vec<String>> {
+    read_proc_cmdline_args(pid)
+        .await
+        .or_else(|| read_ps_command_args(pid))
+}
+
+pub(super) async fn process_uses_executable(pid: u32, expected: &Path) -> Option<bool> {
+    #[cfg(target_os = "linux")]
+    if let Ok(actual) = fs::read_link(format!("/proc/{pid}/exe")).await {
+        return Some(same_executable_path(&actual, expected));
+    }
+
+    let args = read_process_args(pid).await?;
+    process_args_use_executable(&args, expected)
+}
+
+pub(super) fn process_args_use_executable(args: &[String], expected: &Path) -> Option<bool> {
+    args.first()
+        .map(Path::new)
+        .map(|actual| same_executable_path(actual, expected))
+}
+
+fn same_executable_path(left: &Path, right: &Path) -> bool {
+    match (std::fs::canonicalize(left), std::fs::canonicalize(right)) {
+        (Ok(left), Ok(right)) => left == right,
+        _ => same_path(&left.to_string_lossy(), &right.to_string_lossy()),
+    }
+}
+
+pub(super) async fn read_proc_cmdline_args(pid: u32) -> Option<Vec<String>> {
+    let bytes = fs::read(format!("/proc/{pid}/cmdline")).await.ok()?;
+    if bytes.is_empty() {
+        return None;
+    }
+    let args = bytes
+        .split(|byte| *byte == 0)
+        .filter_map(|part| {
+            let value = String::from_utf8_lossy(part).trim().to_string();
+            (!value.is_empty()).then_some(value)
+        })
+        .collect::<Vec<_>>();
+    (!args.is_empty()).then_some(args)
+}
+
+pub(super) fn read_ps_command_args(pid: u32) -> Option<Vec<String>> {
+    let output = std::process::Command::new("ps")
+        .args(["-ww", "-p", &pid.to_string(), "-o", "args="])
+        .output()
+        .ok()?;
+    if !output.status.success() {
+        return None;
+    }
+    let command = String::from_utf8_lossy(&output.stdout);
+    let args = split_command_line(command.trim());
+    (!args.is_empty()).then_some(args)
+}
+
+pub(super) fn split_command_line(command: &str) -> Vec<String> {
+    let mut args = Vec::new();
+    let mut current = String::new();
+    let mut quote: Option<char> = None;
+    let mut escaped = false;
+    let mut in_arg = false;
+    for ch in command.chars() {
+        if escaped {
+            current.push(ch);
+            escaped = false;
+            in_arg = true;
+            continue;
+        }
+        if ch == '\\' && quote != Some('\'') {
+            escaped = true;
+            in_arg = true;
+            continue;
+        }
+        if let Some(active_quote) = quote {
+            if ch == active_quote {
+                quote = None;
+            } else {
+                current.push(ch);
+            }
+            in_arg = true;
+            continue;
+        }
+        if ch == '\'' || ch == '"' {
+            quote = Some(ch);
+            in_arg = true;
+            continue;
+        }
+        if ch.is_whitespace() {
+            if in_arg {
+                args.push(std::mem::take(&mut current));
+                in_arg = false;
+            }
+            continue;
+        }
+        current.push(ch);
+        in_arg = true;
+    }
+    if escaped {
+        current.push('\\');
+    }
+    if in_arg {
+        args.push(current);
+    }
+    args
+}
+
+pub(super) fn is_frpc_process_args_for_config(args: &[String], config_path: &str) -> bool {
+    let Some(first) = args.first() else {
+        return false;
+    };
+    let executable = Path::new(first)
+        .file_name()
+        .and_then(|value| value.to_str())
+        .unwrap_or("")
+        .to_ascii_lowercase();
+    if executable != "frpc" && executable != "frpc.exe" {
+        return false;
+    }
+    for (index, arg) in args.iter().enumerate().skip(1) {
+        if matches!(arg.as_str(), "-c" | "--config" | "--config-file") {
+            return args
+                .get(index + 1)
+                .is_some_and(|candidate| same_path(candidate, config_path));
+        }
+        if let Some(candidate) = arg.strip_prefix("--config=") {
+            return same_path(candidate, config_path);
+        }
+        if let Some(candidate) = arg.strip_prefix("--config-file=") {
+            return same_path(candidate, config_path);
+        }
+    }
+    false
+}
+
+pub(super) fn same_path(left: &str, right: &str) -> bool {
+    normalize_path(left) == normalize_path(right)
+}
+
+pub(super) fn normalize_path(value: &str) -> String {
+    let path = PathBuf::from(value);
+    let absolute = if path.is_absolute() {
+        path
+    } else {
+        std::env::current_dir()
+            .unwrap_or_else(|_| PathBuf::from("."))
+            .join(path)
+    };
+    absolute.to_string_lossy().replace('\\', "/")
+}

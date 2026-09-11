@@ -1,1 +1,413 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiBjb21waWxlX2dhdGV3YXlfdmlzaWJpbGl0eV9jb25maWcoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaW5wdXQ6ICZNYXA8U3RyaW5nLCBWYWx1ZT4sCikgLT4gUmVzdWx0PENvbXBpbGVkR2F0ZXdheVZpc2liaWxpdHksIFN0cmluZz4gewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKHN0YXRlKS5hd2FpdDsKICAgIGxldCBlbmFibGVkID0gaW5wdXQKICAgICAgICAuZ2V0KCJlbmFibGVkIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgLnVud3JhcF9vcihmYWxzZSk7CiAgICBsZXQgc2VsZWN0aW9ucyA9IGRlZHVwZV92aXNpYmlsaXR5X3NlbGVjdGlvbl9pbnB1dHMoaW5wdXQuZ2V0KCJzZWxlY3Rpb25zIikpCiAgICAgICAgLm1hcF9lcnIofG1lc3NhZ2V8IGNyYXRlOjpjaWRyOjpsb2NhbGl6ZV9lcnJvcigmdHJhbnNsYXRvciwgJm1lc3NhZ2UpKT87CiAgICBsZXQgY3VzdG9tX2NpZHJzID0KICAgICAgICB2YWxpZGF0ZV9nYXRld2F5X2N1c3RvbV9jaWRycyhzdHJpbmdfbGlzdChpbnB1dC5nZXQoImN1c3RvbV9jaWRycyIpKSwgJnRyYW5zbGF0b3IpPzsKICAgIGxldCBtdXQgc3RvcmVkX3NlbGVjdGlvbnMgPSBWZWM6Om5ldygpOwogICAgbGV0IG11dCByZWdpb25fcG9saWNpZXMgPSBWZWM6Om5ldygpOwoKICAgIGZvciBzZWxlY3Rpb24gaW4gc2VsZWN0aW9ucyB7CiAgICAgICAgbGV0IGxvb2t1cCA9IGNyYXRlOjpjaWRyOjpsb29rdXBfcmVnaW9uKHN0YXRlLCAmc2VsZWN0aW9uLnF1ZXJ5KCkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGNyYXRlOjpjaWRyOjpsb2NhbGl6ZV9lcnJvcigmdHJhbnNsYXRvciwgJmVycm9yLnRvX3N0cmluZygpKSk/OwogICAgICAgIHN0b3JlZF9zZWxlY3Rpb25zLnB1c2gobG9va3VwLnNlbGVjdGlvbik7CiAgICAgICAgcmVnaW9uX3BvbGljaWVzLnB1c2gobG9va3VwLnBvbGljeSk7CiAgICB9CgogICAgbGV0IGN1c3RvbV9wb2xpY3kgPSBjb21waWxlX2lwX3NldCgmY3VzdG9tX2NpZHJzKQogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgY3JhdGU6OmNpZHI6OmxvY2FsaXplX2Vycm9yKCZ0cmFuc2xhdG9yLCAmZXJyb3IpKT87CiAgICBsZXQgcG9saWN5ID0gaWYgZW5hYmxlZCB7CiAgICAgICAgU29tZShjcmF0ZTo6Y2lkcjo6dW5pb25faXBfc2V0cygKICAgICAgICAgICAgcmVnaW9uX3BvbGljaWVzCiAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAuY2hhaW4oc3RkOjppdGVyOjpvbmNlKCZjdXN0b21fcG9saWN5KSksCiAgICAgICAgKSkKICAgIH0gZWxzZSB7CiAgICAgICAgTm9uZQogICAgfTsKICAgIGxldCBwb2xpY3lfaWQgPSBwb2xpY3kuYXNfcmVmKCkubWFwKHx2YWx1ZXwgdmFsdWUuaWQuY2xvbmUoKSk7CiAgICBsZXQgc291cmNlX2NpZHJfY291bnQgPSBwb2xpY3kKICAgICAgICAuYXNfcmVmKCkKICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUuc291cmNlX2NpZHJfY291bnQpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgcmFuZ2VfY291bnQgPSBwb2xpY3kKICAgICAgICAuYXNfcmVmKCkKICAgICAgICAubWFwKENvbXBpbGVkSXBTZXQ6OnJhbmdlX2NvdW50KQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgbGV0IHJ1bnRpbWVfcG9saWN5ID0gcG9saWN5CiAgICAgICAgLmFzX3JlZigpCiAgICAgICAgLm1hcChDb21waWxlZElwU2V0Ojp0b19jb21wYWN0X3RyYW5zcG9ydF92YWx1ZSk7CgogICAgT2soQ29tcGlsZWRHYXRld2F5VmlzaWJpbGl0eSB7CiAgICAgICAgY29uZmlnOiBqc29uISh7CiAgICAgICAgICAgICJlbmFibGVkIjogZW5hYmxlZCwKICAgICAgICAgICAgInNlbGVjdGlvbnMiOiBzdG9yZWRfc2VsZWN0aW9ucywKICAgICAgICAgICAgImN1c3RvbV9jaWRycyI6IGN1c3RvbV9jaWRycywKICAgICAgICAgICAgInBvbGljeV9pZCI6IHBvbGljeV9pZCwKICAgICAgICAgICAgInNvdXJjZV9jaWRyX2NvdW50Ijogc291cmNlX2NpZHJfY291bnQsCiAgICAgICAgICAgICJyYW5nZV9jb3VudCI6IHJhbmdlX2NvdW50LAogICAgICAgIH0pLAogICAgICAgIHJ1bnRpbWU6IGpzb24hKHsKICAgICAgICAgICAgImVuYWJsZWQiOiBlbmFibGVkLAogICAgICAgICAgICAicG9saWN5X2lkIjogcG9saWN5LmFzX3JlZigpLm1hcCh8dmFsdWV8IHZhbHVlLmlkLmNsb25lKCkpLAogICAgICAgICAgICAic291cmNlX2NpZHJfY291bnQiOiBzb3VyY2VfY2lkcl9jb3VudCwKICAgICAgICAgICAgInJhbmdlX2NvdW50IjogcmFuZ2VfY291bnQsCiAgICAgICAgICAgICJwb2xpY3kiOiBydW50aW1lX3BvbGljeSwKICAgICAgICAgICAgInVwZGF0ZWRfYXQiOiB0aW1lX3V0aWxzOjpub3dfaXNvKCksCiAgICAgICAgfSksCiAgICAgICAgcG9saWN5LAogICAgfSkKfQoKcHViKGNyYXRlKSBhc3luYyBmbiBjb21waWxlX2hvc3RfdmlzaWJpbGl0eV9jb25maWcoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaW5wdXQ6ICZNYXA8U3RyaW5nLCBWYWx1ZT4sCikgLT4gUmVzdWx0PENvbXBpbGVkSG9zdFZpc2liaWxpdHksIFN0cmluZz4gewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKHN0YXRlKS5hd2FpdDsKICAgIGxldCBzZWxlY3Rpb25zID0gZGVkdXBlX3Zpc2liaWxpdHlfc2VsZWN0aW9uX2lucHV0cyhpbnB1dC5nZXQoInNlbGVjdGlvbnMiKSkKICAgICAgICAubWFwX2Vycih8bWVzc2FnZXwgY3JhdGU6OmNpZHI6OmxvY2FsaXplX2Vycm9yKCZ0cmFuc2xhdG9yLCAmbWVzc2FnZSkpPzsKICAgIGxldCBjdXN0b21fY2lkcnMgPQogICAgICAgIHZhbGlkYXRlX2dhdGV3YXlfY3VzdG9tX2NpZHJzKHN0cmluZ19saXN0KGlucHV0LmdldCgiY3VzdG9tX2NpZHJzIikpLCAmdHJhbnNsYXRvcik/OwogICAgbGV0IG11dCBzdG9yZWRfc2VsZWN0aW9ucyA9IFZlYzo6bmV3KCk7CiAgICBsZXQgbXV0IHJlZ2lvbl9wb2xpY2llcyA9IFZlYzo6bmV3KCk7CgogICAgZm9yIHNlbGVjdGlvbiBpbiBzZWxlY3Rpb25zIHsKICAgICAgICBsZXQgbG9va3VwID0gY3JhdGU6OmNpZHI6Omxvb2t1cF9yZWdpb24oc3RhdGUsICZzZWxlY3Rpb24ucXVlcnkoKSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgY3JhdGU6OmNpZHI6OmxvY2FsaXplX2Vycm9yKCZ0cmFuc2xhdG9yLCAmZXJyb3IudG9fc3RyaW5nKCkpKT87CiAgICAgICAgc3RvcmVkX3NlbGVjdGlvbnMucHVzaChsb29rdXAuc2VsZWN0aW9uKTsKICAgICAgICByZWdpb25fcG9saWNpZXMucHVzaChsb29rdXAucG9saWN5KTsKICAgIH0KCiAgICBsZXQgY3VzdG9tX3BvbGljeSA9IGNvbXBpbGVfaXBfc2V0KCZjdXN0b21fY2lkcnMpCiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBjcmF0ZTo6Y2lkcjo6bG9jYWxpemVfZXJyb3IoJnRyYW5zbGF0b3IsICZlcnJvcikpPzsKICAgIGxldCBwb2xpY3kgPSBjcmF0ZTo6Y2lkcjo6dW5pb25faXBfc2V0cygKICAgICAgICByZWdpb25fcG9saWNpZXMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAuY2hhaW4oc3RkOjppdGVyOjpvbmNlKCZjdXN0b21fcG9saWN5KSksCiAgICApOwogICAgaWYgcG9saWN5LnJhbmdlX2NvdW50KCkgPT0gMCB7CiAgICAgICAgcmV0dXJuIEVycih0cmFuc2xhdG9yLnQoInNlcnZlci5nYXRld2F5VmlzaWJpbGl0eS5lbXB0eUVuYWJsZWRDb25maWciKSk7CiAgICB9CgogICAgT2soQ29tcGlsZWRIb3N0VmlzaWJpbGl0eSB7CiAgICAgICAgY29uZmlnOiBqc29uISh7CiAgICAgICAgICAgICJtb2RlIjogImN1c3RvbSIsCiAgICAgICAgICAgICJzZWxlY3Rpb25zIjogc3RvcmVkX3NlbGVjdGlvbnMsCiAgICAgICAgICAgICJjdXN0b21fY2lkcnMiOiBjdXN0b21fY2lkcnMsCiAgICAgICAgICAgICJwb2xpY3lfaWQiOiBwb2xpY3kuaWQsCiAgICAgICAgICAgICJzb3VyY2VfY2lkcl9jb3VudCI6IHBvbGljeS5zb3VyY2VfY2lkcl9jb3VudCwKICAgICAgICAgICAgInJhbmdlX2NvdW50IjogcG9saWN5LnJhbmdlX2NvdW50KCksCiAgICAgICAgfSksCiAgICAgICAgcG9saWN5LAogICAgfSkKfQoKI1tkZXJpdmUoRGVidWcsIFBhcnRpYWxFcSwgRXEpXQpwdWIoc3VwZXIpIHN0cnVjdCBWaXNpYmlsaXR5U2VsZWN0aW9uSW5wdXQgewogICAgcHViKHN1cGVyKSBwcm92aW5jZTogU3RyaW5nLAogICAgcHViKHN1cGVyKSBxdWVyeV9jaXR5OiBPcHRpb248U3RyaW5nPiwKICAgIHB1YihzdXBlcikgb3BlcmF0b3I6IE9wdGlvbjxDaWRyT3BlcmF0b3I+LAp9CgppbXBsIFZpc2liaWxpdHlTZWxlY3Rpb25JbnB1dCB7CiAgICBmbiBxdWVyeSgmc2VsZikgLT4gQ2lkclJlZ2lvblF1ZXJ5IHsKICAgICAgICBDaWRyUmVnaW9uUXVlcnk6Om5ldygKICAgICAgICAgICAgc2VsZi5wcm92aW5jZS5jbG9uZSgpLAogICAgICAgICAgICBzZWxmLnF1ZXJ5X2NpdHkuY2xvbmUoKSwKICAgICAgICAgICAgc2VsZi5vcGVyYXRvciwKICAgICAgICApCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gZGVkdXBlX3Zpc2liaWxpdHlfc2VsZWN0aW9uX2lucHV0cygKICAgIHZhbHVlOiBPcHRpb248JlZhbHVlPiwKKSAtPiBSZXN1bHQ8VmVjPFZpc2liaWxpdHlTZWxlY3Rpb25JbnB1dD4sIFN0cmluZz4gewogICAgbGV0IG11dCByZXN1bHQgPSBWZWM6Om5ldygpOwogICAgbGV0IG11dCBzZWVuID0gQlRyZWVTZXQ6Om5ldygpOwogICAgbGV0IFNvbWUoaXRlbXMpID0gdmFsdWUuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KSBlbHNlIHsKICAgICAgICByZXR1cm4gT2socmVzdWx0KTsKICAgIH07CiAgICBmb3IgaXRlbSBpbiBpdGVtcyB7CiAgICAgICAgbGV0IHByb3ZpbmNlID0gaXRlbQogICAgICAgICAgICAuZ2V0KCJwcm92aW5jZSIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAudW53cmFwX29yKCIiKQogICAgICAgICAgICAudHJpbSgpCiAgICAgICAgICAgIC50b19zdHJpbmcoKTsKICAgICAgICBpZiBwcm92aW5jZS5pc19lbXB0eSgpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBxdWVyeV9jaXR5ID0gaXRlbQogICAgICAgICAgICAuZ2V0KCJxdWVyeV9jaXR5IikKICAgICAgICAgICAgLm9yX2Vsc2UofHwgaXRlbS5nZXQoInF1ZXJ5Q2l0eSIpKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICAgICAgLm1hcChUb1N0cmluZzo6dG9fc3RyaW5nKTsKICAgICAgICBsZXQgb3BlcmF0b3IgPSBDaWRyT3BlcmF0b3I6OnBhcnNlX3ZhbHVlKGl0ZW0uZ2V0KCJvcGVyYXRvciIpKT87CiAgICAgICAgbGV0IGtleSA9IENpZHJSZWdpb25RdWVyeTo6bmV3KHByb3ZpbmNlLmNsb25lKCksIHF1ZXJ5X2NpdHkuY2xvbmUoKSwgb3BlcmF0b3IpLmtleSgpOwogICAgICAgIGlmIHNlZW4uaW5zZXJ0KGtleSkgewogICAgICAgICAgICByZXN1bHQucHVzaChWaXNpYmlsaXR5U2VsZWN0aW9uSW5wdXQgewogICAgICAgICAgICAgICAgcHJvdmluY2UsCiAgICAgICAgICAgICAgICBxdWVyeV9jaXR5LAogICAgICAgICAgICAgICAgb3BlcmF0b3IsCiAgICAgICAgICAgIH0pOwogICAgICAgIH0KICAgIH0KICAgIE9rKHJlc3VsdCkKfQoKcHViKHN1cGVyKSBmbiB2YWxpZGF0ZV9nYXRld2F5X2N1c3RvbV9jaWRycygKICAgIHZhbHVlczogVmVjPFZhbHVlPiwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IFJlc3VsdDxWZWM8U3RyaW5nPiwgU3RyaW5nPiB7CiAgICBsZXQgY2lkcnMgPSBub3JtYWxpemVfY2lkcl9saW5lcyh2YWx1ZXMuaW50b19pdGVyKCkuZmlsdGVyX21hcCh8dmFsdWV8IHsKICAgICAgICB2YWx1ZS5hc19zdHIoKS5tYXAofHZhbHVlfCB2YWx1ZS50b19zdHJpbmcoKSkub3JfZWxzZSh8fCB7CiAgICAgICAgICAgIGlmIHZhbHVlLmlzX251bGwoKSB7CiAgICAgICAgICAgICAgICBOb25lCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBTb21lKHZhbHVlLnRvX3N0cmluZygpKQogICAgICAgICAgICB9CiAgICAgICAgfSkKICAgIH0pKTsKICAgIGxldCBpbnZhbGlkID0gY2lkcnMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZpbHRlcih8Y2lkcnwgIWlzX3ZhbGlkX2NpZHIoY2lkcikpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBpZiBpbnZhbGlkLmlzX2VtcHR5KCkgewogICAgICAgIE9rKGNpZHJzKQogICAgfSBlbHNlIHsKICAgICAgICBFcnIodHJhbnNsYXRvci50X3BhcmFtcygKICAgICAgICAgICAgInNlcnZlci5nYXRld2F5VmlzaWJpbGl0eS5jdXN0b21DaWRySW52YWxpZCIsCiAgICAgICAgICAgICZbKCJjaWRycyIsIGludmFsaWQuam9pbigiLCAiKSldLAogICAgICAgICkpCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX2NpZHJfbGluZXModmFsdWVzOiBpbXBsIEludG9JdGVyYXRvcjxJdGVtID0gU3RyaW5nPikgLT4gVmVjPFN0cmluZz4gewogICAgbGV0IG11dCBzZWVuID0gQlRyZWVTZXQ6Om5ldygpOwogICAgbGV0IG11dCByZXN1bHQgPSBWZWM6Om5ldygpOwogICAgZm9yIHZhbHVlIGluIHZhbHVlcyB7CiAgICAgICAgbGV0IHJhdyA9IHZhbHVlLnRyaW0oKTsKICAgICAgICBpZiByYXcuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBsZXQgY2lkciA9IHJhdwogICAgICAgICAgICAucGFyc2U6OjxJcE5ldD4oKQogICAgICAgICAgICAubWFwKHxuZXR3b3JrfCBtYXRjaCBuZXR3b3JrIHsKICAgICAgICAgICAgICAgIElwTmV0OjpWNChuZXR3b3JrKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgZm9ybWF0ISgie30ve30iLCBuZXR3b3JrLm5ldHdvcmsoKSwgbmV0d29yay5wcmVmaXhfbGVuKCkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBJcE5ldDo6VjYobmV0d29yaykgPT4gewogICAgICAgICAgICAgICAgICAgIGZvcm1hdCEoInt9L3t9IiwgbmV0d29yay5uZXR3b3JrKCksIG5ldHdvcmsucHJlZml4X2xlbigpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9KQogICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofF98IHJhdy50b19zdHJpbmcoKSk7CiAgICAgICAgaWYgc2Vlbi5pbnNlcnQoY2lkci50b19hc2NpaV9sb3dlcmNhc2UoKSkgewogICAgICAgICAgICByZXN1bHQucHVzaChjaWRyKTsKICAgICAgICB9CiAgICB9CiAgICByZXN1bHQKfQoKcHViKHN1cGVyKSBmbiBpc192YWxpZF9jaWRyKHZhbHVlOiAmc3RyKSAtPiBib29sIHsKICAgIGxldCBub3JtYWxpemVkID0gdmFsdWUudHJpbSgpOwogICAgbGV0IFNvbWUoKGFkZHJlc3MsIHByZWZpeF9yYXcpKSA9IG5vcm1hbGl6ZWQuc3BsaXRfb25jZSgnLycpIGVsc2UgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH07CiAgICBpZiBhZGRyZXNzLnRyaW0oKS5pc19lbXB0eSgpCiAgICAgICAgfHwgcHJlZml4X3Jhdy50cmltKCkuaXNfZW1wdHkoKQogICAgICAgIHx8IHByZWZpeF9yYXcudHJpbSgpLmNoYXJzKCkuYW55KHxjaHwgIWNoLmlzX2FzY2lpX2RpZ2l0KCkpCiAgICB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogICAgbGV0IE9rKHByZWZpeCkgPSBwcmVmaXhfcmF3LnRyaW0oKS5wYXJzZTo6PHUxNj4oKSBlbHNlIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9OwogICAgbWF0Y2ggYWRkcmVzcy50cmltKCkucGFyc2U6OjxJcEFkZHI+KCkgewogICAgICAgIE9rKElwQWRkcjo6VjQoXykpID0+IHByZWZpeCA8PSAzMiwKICAgICAgICBPayhJcEFkZHI6OlY2KF8pKSA9PiBwcmVmaXggPD0gMTI4LAogICAgICAgIEVycihfKSA9PiBmYWxzZSwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBjb21waWxlX2dhdGV3YXlfcHJveHlfaGVhZGVyc19zdGF0ZSgKICAgIGNvbmZpZzogJlZhbHVlLAogICAgcmVxdWVzdGVkOiAmVmFsdWUsCikgLT4gQ29tcGlsZWRHYXRld2F5VGFyZ2V0UnVudGltZSB7CiAgICBsZXQgbmV4dF9jb25maWcgPSBzYW5pdGl6ZV9kaXNhYmxlZF9ob3N0c19jb25maWcoY29uZmlnLCByZXF1ZXN0ZWQpOwogICAgbGV0IGhvc3RfbWFwcGluZ3MgPSBjb25maWdfaG9zdF9tYXBwaW5ncyhjb25maWcpOwogICAgbGV0IHZpc2libGVfaG9zdHMgPSB2aXNpYmxlX2hvc3RfbWFwcGluZ3MoJmhvc3RfbWFwcGluZ3MpOwogICAgbGV0IGl0ZW1zID0gYnVpbGRfZ2F0ZXdheV9wcm94eV9oZWFkZXJfaXRlbXMoJnZpc2libGVfaG9zdHMsICZuZXh0X2NvbmZpZyk7CiAgICBsZXQgb21pdF90YXJnZXRzID0gb21pdHRlZF90YXJnZXRzKCZpdGVtcywgInNlbmRfcHJveHlfaGVhZGVycyIpOwogICAgbGV0IGVuYWJsZWQgPSBpc19hbnlfc3ViZG9tYWluX3JvdXRpbmdfbW9kZShjb25maWcpOwoKICAgIENvbXBpbGVkR2F0ZXdheVRhcmdldFJ1bnRpbWUgewogICAgICAgIGNvbmZpZzogbmV4dF9jb25maWcsCiAgICAgICAgcnVudGltZToganNvbiEoewogICAgICAgICAgICAiZW5hYmxlZCI6IGVuYWJsZWQsCiAgICAgICAgICAgICJvbWl0X3RhcmdldHMiOiBpZiBlbmFibGVkIHsgb21pdF90YXJnZXRzIH0gZWxzZSB7IFZlYzo6PFN0cmluZz46Om5ldygpIH0sCiAgICAgICAgICAgICJ1cGRhdGVkX2F0IjogdGltZV91dGlsczo6bm93X2lzbygpLAogICAgICAgIH0pLAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGNvbXBpbGVfZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlX3N0YXRlKAogICAgY29uZmlnOiAmVmFsdWUsCiAgICByZXF1ZXN0ZWQ6ICZWYWx1ZSwKKSAtPiBDb21waWxlZEdhdGV3YXlUYXJnZXRSdW50aW1lIHsKICAgIGxldCBuZXh0X2NvbmZpZyA9IHNhbml0aXplX2Rpc2FibGVkX2hvc3RzX2NvbmZpZyhjb25maWcsIHJlcXVlc3RlZCk7CiAgICBsZXQgaG9zdF9tYXBwaW5ncyA9IGNvbmZpZ19ob3N0X21hcHBpbmdzKGNvbmZpZyk7CiAgICBsZXQgdmlzaWJsZV9ob3N0cyA9IHZpc2libGVfaG9zdF9tYXBwaW5ncygmaG9zdF9tYXBwaW5ncyk7CiAgICBsZXQgaXRlbXMgPSBidWlsZF9nYXRld2F5X2hvc3RfcmVzcG9uc2VfaXRlbXMoJnZpc2libGVfaG9zdHMsICZuZXh0X2NvbmZpZyk7CiAgICBsZXQgb21pdF90YXJnZXRzID0gb21pdHRlZF90YXJnZXRzKCZpdGVtcywgInByZXNlcnZlX2hvc3QiKTsKICAgIGxldCBlbmFibGVkID0gaXNfYW55X3N1YmRvbWFpbl9yb3V0aW5nX21vZGUoY29uZmlnKTsKCiAgICBDb21waWxlZEdhdGV3YXlUYXJnZXRSdW50aW1lIHsKICAgICAgICBjb25maWc6IG5leHRfY29uZmlnLAogICAgICAgIHJ1bnRpbWU6IGpzb24hKHsKICAgICAgICAgICAgImVuYWJsZWQiOiBlbmFibGVkLAogICAgICAgICAgICAib21pdF90YXJnZXRzIjogaWYgZW5hYmxlZCB7IG9taXRfdGFyZ2V0cyB9IGVsc2UgeyBWZWM6OjxTdHJpbmc+OjpuZXcoKSB9LAogICAgICAgICAgICAidXBkYXRlZF9hdCI6IHRpbWVfdXRpbHM6Om5vd19pc28oKSwKICAgICAgICB9KSwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBvbWl0dGVkX3RhcmdldHMoaXRlbXM6ICZbVmFsdWVdLCBlbmFibGVkX2ZpZWxkOiAmc3RyKSAtPiBWZWM8U3RyaW5nPiB7CiAgICBsZXQgbXV0IHNlZW4gPSBCVHJlZVNldDo6bmV3KCk7CiAgICBsZXQgbXV0IHRhcmdldHMgPSBWZWM6Om5ldygpOwogICAgZm9yIGl0ZW0gaW4gaXRlbXMgewogICAgICAgIGlmIGl0ZW0uZ2V0KGVuYWJsZWRfZmllbGQpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSAhPSBTb21lKGZhbHNlKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBsZXQgdGFyZ2V0ID0gaXRlbQogICAgICAgICAgICAuZ2V0KCJ0YXJnZXQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLnVud3JhcF9vcigiIikKICAgICAgICAgICAgLnRyaW0oKTsKICAgICAgICBpZiAhdGFyZ2V0LmlzX2VtcHR5KCkgJiYgc2Vlbi5pbnNlcnQodGFyZ2V0LnRvX3N0cmluZygpKSB7CiAgICAgICAgICAgIHRhcmdldHMucHVzaCh0YXJnZXQudG9fc3RyaW5nKCkpOwogICAgICAgIH0KICAgIH0KICAgIHRhcmdldHMKfQoKcHViKHN1cGVyKSBmbiBkaXNhYmxlZF9ob3N0c19jb25maWdfZnJvbV9ib2R5KGJvZHk6ICZWYWx1ZSkgLT4gUmVzdWx0PFZhbHVlLCBTdHJpbmc+IHsKICAgIGxldCBTb21lKG9iamVjdCkgPSBib2R5LmFzX29iamVjdCgpIGVsc2UgewogICAgICAgIHJldHVybiBFcnIoIkdhdGV3YXkgcGF5bG9hZCBtdXN0IGJlIGFuIG9iamVjdCIudG9fc3RyaW5nKCkpOwogICAgfTsKICAgIE9rKGpzb24hKHsKICAgICAgICAiZGlzYWJsZWRfaG9zdHMiOiBzdHJpbmdfbGlzdChvYmplY3QuZ2V0KCJkaXNhYmxlZF9ob3N0cyIpKSwKICAgIH0pKQp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX2dhdGV3YXlfdmlzaWJpbGl0eV9zdW1tYXJ5KGNvbmZpZzogJlZhbHVlLCBydW50aW1lOiAmVmFsdWUpIC0+IFZhbHVlIHsKICAgIGpzb24hKHsKICAgICAgICAiZW5hYmxlZCI6IGNvbmZpZy5nZXQoImVuYWJsZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkudW53cmFwX29yKGZhbHNlKSwKICAgICAgICAic2VsZWN0aW9uX2NvdW50IjogY29uZmlnLmdldCgic2VsZWN0aW9ucyIpLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkubWFwKFZlYzo6bGVuKS51bndyYXBfb3IoMCksCiAgICAgICAgImN1c3RvbV9jaWRyX2NvdW50IjogY29uZmlnLmdldCgiY3VzdG9tX2NpZHJzIikuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KS5tYXAoVmVjOjpsZW4pLnVud3JhcF9vcigwKSwKICAgICAgICAiY2lkcl9jb3VudCI6IHJ1bnRpbWUuZ2V0KCJzb3VyY2VfY2lkcl9jb3VudCIpLmFuZF90aGVuKFZhbHVlOjphc191NjQpCiAgICAgICAgICAgIC5vcl9lbHNlKHx8IHJ1bnRpbWUuZ2V0KCJjaWRycyIpLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkubWFwKHxpdGVtc3wgaXRlbXMubGVuKCkgYXMgdTY0KSkKICAgICAgICAgICAgLnVud3JhcF9vcigwKSwKICAgICAgICAicmFuZ2VfY291bnQiOiBydW50aW1lLmdldCgicmFuZ2VfY291bnQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfdTY0KS51bndyYXBfb3IoMCksCiAgICAgICAgInVwZGF0ZWRfYXQiOiBydW50aW1lLmdldCgidXBkYXRlZF9hdCIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCksCiAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX2dhdGV3YXlfcHJveHlfaGVhZGVyc19zdW1tYXJ5KGl0ZW1zOiAmW1ZhbHVlXSwgcnVudGltZTogJlZhbHVlKSAtPiBWYWx1ZSB7CiAgICBqc29uISh7CiAgICAgICAgInRvdGFsX2NvdW50IjogaXRlbXMubGVuKCksCiAgICAgICAgImRpc2FibGVkX2NvdW50IjogaXRlbXMuaXRlcigpLmZpbHRlcih8aXRlbXwgaXRlbS5nZXQoInNlbmRfcHJveHlfaGVhZGVycyIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSA9PSBTb21lKGZhbHNlKSkuY291bnQoKSwKICAgICAgICAidXBkYXRlZF9hdCI6IHJ1bnRpbWUuZ2V0KCJ1cGRhdGVkX2F0IikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gYnVpbGRfZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlX3N1bW1hcnkoaXRlbXM6ICZbVmFsdWVdLCBydW50aW1lOiAmVmFsdWUpIC0+IFZhbHVlIHsKICAgIGpzb24hKHsKICAgICAgICAidG90YWxfY291bnQiOiBpdGVtcy5sZW4oKSwKICAgICAgICAiZGlzYWJsZWRfY291bnQiOiBpdGVtcy5pdGVyKCkuZmlsdGVyKHxpdGVtfCBpdGVtLmdldCgicHJlc2VydmVfaG9zdCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSA9PSBTb21lKGZhbHNlKSkuY291bnQoKSwKICAgICAgICAidXBkYXRlZF9hdCI6IHJ1bnRpbWUuZ2V0KCJ1cGRhdGVkX2F0IikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gYnVpbGRfcHJveHlfaGVhZGVyc19hdmFpbGFiaWxpdHkoY29uZmlnOiAmVmFsdWUsIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yKSAtPiBWYWx1ZSB7CiAgICBpZiBpc19hbnlfc3ViZG9tYWluX3JvdXRpbmdfbW9kZShjb25maWcpIHsKICAgICAgICByZXR1cm4ganNvbiEoeyAiYXZhaWxhYmxlIjogdHJ1ZSwgInJlYXNvbiI6ICIiIH0pOwogICAgfQogICAganNvbiEoewogICAgICAgICJhdmFpbGFibGUiOiBmYWxzZSwKICAgICAgICAicmVhc29uIjogdHJhbnNsYXRvci50X3BhcmFtcygKICAgICAgICAgICAgInNlcnZlci5nYXRld2F5UHJveHlIZWFkZXJzLnVuYXZhaWxhYmxlUmVhc29uIiwKICAgICAgICAgICAgJlsoIm1vZGUiLCBydW5fdHlwZV9sYWJlbCh0cmFuc2xhdG9yLCBjb25maWcsICJzZXJ2ZXIuZ2F0ZXdheVByb3h5SGVhZGVycy5ydW5UeXBlcyIpKV0sCiAgICAgICAgKSwKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gYnVpbGRfaG9zdF9yZXNwb25zZV9hdmFpbGFiaWxpdHkoY29uZmlnOiAmVmFsdWUsIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yKSAtPiBWYWx1ZSB7CiAgICBpZiBpc19hbnlfc3ViZG9tYWluX3JvdXRpbmdfbW9kZShjb25maWcpIHsKICAgICAgICByZXR1cm4ganNvbiEoeyAiYXZhaWxhYmxlIjogdHJ1ZSwgInJlYXNvbiI6ICIiIH0pOwogICAgfQogICAganNvbiEoewogICAgICAgICJhdmFpbGFibGUiOiBmYWxzZSwKICAgICAgICAicmVhc29uIjogdHJhbnNsYXRvci50X3BhcmFtcygKICAgICAgICAgICAgInNlcnZlci5nYXRld2F5SG9zdFJlc3BvbnNlLnVuYXZhaWxhYmxlUmVhc29uIiwKICAgICAgICAgICAgJlsoIm1vZGUiLCBydW5fdHlwZV9sYWJlbCh0cmFuc2xhdG9yLCBjb25maWcsICJzZXJ2ZXIuZ2F0ZXdheUhvc3RSZXNwb25zZS5ydW5UeXBlcyIpKV0sCiAgICAgICAgKSwKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gcnVuX3R5cGVfbGFiZWwodHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsIGNvbmZpZzogJlZhbHVlLCBwcmVmaXg6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBtYXRjaCBjb25maWcuZ2V0KCJydW5fdHlwZSIpLmFuZF90aGVuKFZhbHVlOjphc19pNjQpLnVud3JhcF9vcigzKSB7CiAgICAgICAgMCA9PiB0cmFuc2xhdG9yLnQoJmZvcm1hdCEoIntwcmVmaXh9LmRpcmVjdCIpKSwKICAgICAgICAxID0+IHRyYW5zbGF0b3IudCgmZm9ybWF0ISgie3ByZWZpeH0ucmV2ZXJzZVByb3h5IikpLAogICAgICAgIF8gPT4gdHJhbnNsYXRvci50KCZmb3JtYXQhKCJ7cHJlZml4fS5zdWJkb21haW4iKSksCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gY29uZmlnX2hvc3RfbWFwcGluZ3MoY29uZmlnOiAmVmFsdWUpIC0+IFZlYzxWYWx1ZT4gewogICAgY29uZmlnCiAgICAgICAgLmdldCgiaG9zdF9tYXBwaW5ncyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQp9CgpwdWIoc3VwZXIpIGZuIHNhbml0aXplX2Rpc2FibGVkX2hvc3RzX2NvbmZpZyhjb25maWc6ICZWYWx1ZSwgcmF3X2NvbmZpZzogJlZhbHVlKSAtPiBWYWx1ZSB7CiAgICBsZXQgdmlzaWJsZV9ob3N0cyA9IHZpc2libGVfaG9zdF9tYXBwaW5ncygmY29uZmlnX2hvc3RfbWFwcGluZ3MoY29uZmlnKSkKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZpbHRlcl9tYXAofG1hcHBpbmd8IG1hcHBpbmcuZ2V0KCJob3N0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpCiAgICAgICAgLm1hcChub3JtYWxpemVfaG9zdCkKICAgICAgICAuZmlsdGVyKHxob3N0fCAhaG9zdC5pc19lbXB0eSgpKQogICAgICAgIC5jb2xsZWN0Ojo8QlRyZWVTZXQ8Xz4+KCk7CiAgICBsZXQgbXV0IHNlZW4gPSBCVHJlZVNldDo6bmV3KCk7CiAgICBsZXQgZGlzYWJsZWRfaG9zdHMgPSByYXdfY29uZmlnCiAgICAgICAgLmdldCgiZGlzYWJsZWRfaG9zdHMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgLm1hcCh8aXRlbXN8IHsKICAgICAgICAgICAgaXRlbXMKICAgICAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgICAgIC5maWx0ZXJfbWFwKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAubWFwKG5vcm1hbGl6ZV9ob3N0KQogICAgICAgICAgICAgICAgLmZpbHRlcih8aG9zdHwgewogICAgICAgICAgICAgICAgICAgICFob3N0LmlzX2VtcHR5KCkgJiYgdmlzaWJsZV9ob3N0cy5jb250YWlucyhob3N0KSAmJiBzZWVuLmluc2VydChob3N0LmNsb25lKCkpCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgLm1hcChWYWx1ZTo6U3RyaW5nKQogICAgICAgICAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCkKICAgICAgICB9KQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAganNvbiEoeyAiZGlzYWJsZWRfaG9zdHMiOiBkaXNhYmxlZF9ob3N0cyB9KQp9CgpwdWIoc3VwZXIpIHVzZSBjcmF0ZTo6cHJveHlfdXRpbHM6OmlzX2FueV9zdWJkb21haW5fcm91dGluZ19tb2RlOwo=
+use super::*;
+
+pub(super) async fn compile_gateway_visibility_config(
+    state: &AppState,
+    input: &Map<String, Value>,
+) -> Result<CompiledGatewayVisibility, String> {
+    let translator = Translator::from_state(state).await;
+    let enabled = input
+        .get("enabled")
+        .and_then(Value::as_bool)
+        .unwrap_or(false);
+    let selections = dedupe_visibility_selection_inputs(input.get("selections"))
+        .map_err(|message| crate::cidr::localize_error(&translator, &message))?;
+    let custom_cidrs =
+        validate_gateway_custom_cidrs(string_list(input.get("custom_cidrs")), &translator)?;
+    let mut stored_selections = Vec::new();
+    let mut region_policies = Vec::new();
+
+    for selection in selections {
+        let lookup = crate::cidr::lookup_region(state, &selection.query())
+            .await
+            .map_err(|error| crate::cidr::localize_error(&translator, &error.to_string()))?;
+        stored_selections.push(lookup.selection);
+        region_policies.push(lookup.policy);
+    }
+
+    let custom_policy = compile_ip_set(&custom_cidrs)
+        .map_err(|error| crate::cidr::localize_error(&translator, &error))?;
+    let policy = if enabled {
+        Some(crate::cidr::union_ip_sets(
+            region_policies
+                .iter()
+                .chain(std::iter::once(&custom_policy)),
+        ))
+    } else {
+        None
+    };
+    let policy_id = policy.as_ref().map(|value| value.id.clone());
+    let source_cidr_count = policy
+        .as_ref()
+        .map(|value| value.source_cidr_count)
+        .unwrap_or_default();
+    let range_count = policy
+        .as_ref()
+        .map(CompiledIpSet::range_count)
+        .unwrap_or_default();
+    let runtime_policy = policy
+        .as_ref()
+        .map(CompiledIpSet::to_compact_transport_value);
+
+    Ok(CompiledGatewayVisibility {
+        config: json!({
+            "enabled": enabled,
+            "selections": stored_selections,
+            "custom_cidrs": custom_cidrs,
+            "policy_id": policy_id,
+            "source_cidr_count": source_cidr_count,
+            "range_count": range_count,
+        }),
+        runtime: json!({
+            "enabled": enabled,
+            "policy_id": policy.as_ref().map(|value| value.id.clone()),
+            "source_cidr_count": source_cidr_count,
+            "range_count": range_count,
+            "policy": runtime_policy,
+            "updated_at": time_utils::now_iso(),
+        }),
+        policy,
+    })
+}
+
+pub(crate) async fn compile_host_visibility_config(
+    state: &AppState,
+    input: &Map<String, Value>,
+) -> Result<CompiledHostVisibility, String> {
+    let translator = Translator::from_state(state).await;
+    let selections = dedupe_visibility_selection_inputs(input.get("selections"))
+        .map_err(|message| crate::cidr::localize_error(&translator, &message))?;
+    let custom_cidrs =
+        validate_gateway_custom_cidrs(string_list(input.get("custom_cidrs")), &translator)?;
+    let mut stored_selections = Vec::new();
+    let mut region_policies = Vec::new();
+
+    for selection in selections {
+        let lookup = crate::cidr::lookup_region(state, &selection.query())
+            .await
+            .map_err(|error| crate::cidr::localize_error(&translator, &error.to_string()))?;
+        stored_selections.push(lookup.selection);
+        region_policies.push(lookup.policy);
+    }
+
+    let custom_policy = compile_ip_set(&custom_cidrs)
+        .map_err(|error| crate::cidr::localize_error(&translator, &error))?;
+    let policy = crate::cidr::union_ip_sets(
+        region_policies
+            .iter()
+            .chain(std::iter::once(&custom_policy)),
+    );
+    if policy.range_count() == 0 {
+        return Err(translator.t("server.gatewayVisibility.emptyEnabledConfig"));
+    }
+
+    Ok(CompiledHostVisibility {
+        config: json!({
+            "mode": "custom",
+            "selections": stored_selections,
+            "custom_cidrs": custom_cidrs,
+            "policy_id": policy.id,
+            "source_cidr_count": policy.source_cidr_count,
+            "range_count": policy.range_count(),
+        }),
+        policy,
+    })
+}
+
+#[derive(Debug, PartialEq, Eq)]
+pub(super) struct VisibilitySelectionInput {
+    pub(super) province: String,
+    pub(super) query_city: Option<String>,
+    pub(super) operator: Option<CidrOperator>,
+}
+
+impl VisibilitySelectionInput {
+    fn query(&self) -> CidrRegionQuery {
+        CidrRegionQuery::new(
+            self.province.clone(),
+            self.query_city.clone(),
+            self.operator,
+        )
+    }
+}
+
+pub(super) fn dedupe_visibility_selection_inputs(
+    value: Option<&Value>,
+) -> Result<Vec<VisibilitySelectionInput>, String> {
+    let mut result = Vec::new();
+    let mut seen = BTreeSet::new();
+    let Some(items) = value.and_then(Value::as_array) else {
+        return Ok(result);
+    };
+    for item in items {
+        let province = item
+            .get("province")
+            .and_then(Value::as_str)
+            .unwrap_or("")
+            .trim()
+            .to_string();
+        if province.is_empty() {
+            continue;
+        }
+        let query_city = item
+            .get("query_city")
+            .or_else(|| item.get("queryCity"))
+            .and_then(Value::as_str)
+            .map(str::trim)
+            .filter(|value| !value.is_empty())
+            .map(ToString::to_string);
+        let operator = CidrOperator::parse_value(item.get("operator"))?;
+        let key = CidrRegionQuery::new(province.clone(), query_city.clone(), operator).key();
+        if seen.insert(key) {
+            result.push(VisibilitySelectionInput {
+                province,
+                query_city,
+                operator,
+            });
+        }
+    }
+    Ok(result)
+}
+
+pub(super) fn validate_gateway_custom_cidrs(
+    values: Vec<Value>,
+    translator: &Translator,
+) -> Result<Vec<String>, String> {
+    let cidrs = normalize_cidr_lines(values.into_iter().filter_map(|value| {
+        value.as_str().map(|value| value.to_string()).or_else(|| {
+            if value.is_null() {
+                None
+            } else {
+                Some(value.to_string())
+            }
+        })
+    }));
+    let invalid = cidrs
+        .iter()
+        .filter(|cidr| !is_valid_cidr(cidr))
+        .cloned()
+        .collect::<Vec<_>>();
+    if invalid.is_empty() {
+        Ok(cidrs)
+    } else {
+        Err(translator.t_params(
+            "server.gatewayVisibility.customCidrInvalid",
+            &[("cidrs", invalid.join(", "))],
+        ))
+    }
+}
+
+pub(super) fn normalize_cidr_lines(values: impl IntoIterator<Item = String>) -> Vec<String> {
+    let mut seen = BTreeSet::new();
+    let mut result = Vec::new();
+    for value in values {
+        let raw = value.trim();
+        if raw.is_empty() {
+            continue;
+        }
+        let cidr = raw
+            .parse::<IpNet>()
+            .map(|network| match network {
+                IpNet::V4(network) => {
+                    format!("{}/{}", network.network(), network.prefix_len())
+                }
+                IpNet::V6(network) => {
+                    format!("{}/{}", network.network(), network.prefix_len())
+                }
+            })
+            .unwrap_or_else(|_| raw.to_string());
+        if seen.insert(cidr.to_ascii_lowercase()) {
+            result.push(cidr);
+        }
+    }
+    result
+}
+
+pub(super) fn is_valid_cidr(value: &str) -> bool {
+    let normalized = value.trim();
+    let Some((address, prefix_raw)) = normalized.split_once('/') else {
+        return false;
+    };
+    if address.trim().is_empty()
+        || prefix_raw.trim().is_empty()
+        || prefix_raw.trim().chars().any(|ch| !ch.is_ascii_digit())
+    {
+        return false;
+    }
+    let Ok(prefix) = prefix_raw.trim().parse::<u16>() else {
+        return false;
+    };
+    match address.trim().parse::<IpAddr>() {
+        Ok(IpAddr::V4(_)) => prefix <= 32,
+        Ok(IpAddr::V6(_)) => prefix <= 128,
+        Err(_) => false,
+    }
+}
+
+pub(super) fn compile_gateway_proxy_headers_state(
+    config: &Value,
+    requested: &Value,
+) -> CompiledGatewayTargetRuntime {
+    let next_config = sanitize_disabled_hosts_config(config, requested);
+    let host_mappings = config_host_mappings(config);
+    let visible_hosts = visible_host_mappings(&host_mappings);
+    let items = build_gateway_proxy_header_items(&visible_hosts, &next_config);
+    let omit_targets = omitted_targets(&items, "send_proxy_headers");
+    let enabled = is_any_subdomain_routing_mode(config);
+
+    CompiledGatewayTargetRuntime {
+        config: next_config,
+        runtime: json!({
+            "enabled": enabled,
+            "omit_targets": if enabled { omit_targets } else { Vec::<String>::new() },
+            "updated_at": time_utils::now_iso(),
+        }),
+    }
+}
+
+pub(super) fn compile_gateway_host_response_state(
+    config: &Value,
+    requested: &Value,
+) -> CompiledGatewayTargetRuntime {
+    let next_config = sanitize_disabled_hosts_config(config, requested);
+    let host_mappings = config_host_mappings(config);
+    let visible_hosts = visible_host_mappings(&host_mappings);
+    let items = build_gateway_host_response_items(&visible_hosts, &next_config);
+    let omit_targets = omitted_targets(&items, "preserve_host");
+    let enabled = is_any_subdomain_routing_mode(config);
+
+    CompiledGatewayTargetRuntime {
+        config: next_config,
+        runtime: json!({
+            "enabled": enabled,
+            "omit_targets": if enabled { omit_targets } else { Vec::<String>::new() },
+            "updated_at": time_utils::now_iso(),
+        }),
+    }
+}
+
+pub(super) fn omitted_targets(items: &[Value], enabled_field: &str) -> Vec<String> {
+    let mut seen = BTreeSet::new();
+    let mut targets = Vec::new();
+    for item in items {
+        if item.get(enabled_field).and_then(Value::as_bool) != Some(false) {
+            continue;
+        }
+        let target = item
+            .get("target")
+            .and_then(Value::as_str)
+            .unwrap_or("")
+            .trim();
+        if !target.is_empty() && seen.insert(target.to_string()) {
+            targets.push(target.to_string());
+        }
+    }
+    targets
+}
+
+pub(super) fn disabled_hosts_config_from_body(body: &Value) -> Result<Value, String> {
+    let Some(object) = body.as_object() else {
+        return Err("Gateway payload must be an object".to_string());
+    };
+    Ok(json!({
+        "disabled_hosts": string_list(object.get("disabled_hosts")),
+    }))
+}
+
+pub(super) fn build_gateway_visibility_summary(config: &Value, runtime: &Value) -> Value {
+    json!({
+        "enabled": config.get("enabled").and_then(Value::as_bool).unwrap_or(false),
+        "selection_count": config.get("selections").and_then(Value::as_array).map(Vec::len).unwrap_or(0),
+        "custom_cidr_count": config.get("custom_cidrs").and_then(Value::as_array).map(Vec::len).unwrap_or(0),
+        "cidr_count": runtime.get("source_cidr_count").and_then(Value::as_u64)
+            .or_else(|| runtime.get("cidrs").and_then(Value::as_array).map(|items| items.len() as u64))
+            .unwrap_or(0),
+        "range_count": runtime.get("range_count").and_then(Value::as_u64).unwrap_or(0),
+        "updated_at": runtime.get("updated_at").cloned().unwrap_or(Value::Null),
+    })
+}
+
+pub(super) fn build_gateway_proxy_headers_summary(items: &[Value], runtime: &Value) -> Value {
+    json!({
+        "total_count": items.len(),
+        "disabled_count": items.iter().filter(|item| item.get("send_proxy_headers").and_then(Value::as_bool) == Some(false)).count(),
+        "updated_at": runtime.get("updated_at").cloned().unwrap_or(Value::Null),
+    })
+}
+
+pub(super) fn build_gateway_host_response_summary(items: &[Value], runtime: &Value) -> Value {
+    json!({
+        "total_count": items.len(),
+        "disabled_count": items.iter().filter(|item| item.get("preserve_host").and_then(Value::as_bool) == Some(false)).count(),
+        "updated_at": runtime.get("updated_at").cloned().unwrap_or(Value::Null),
+    })
+}
+
+pub(super) fn build_proxy_headers_availability(config: &Value, translator: &Translator) -> Value {
+    if is_any_subdomain_routing_mode(config) {
+        return json!({ "available": true, "reason": "" });
+    }
+    json!({
+        "available": false,
+        "reason": translator.t_params(
+            "server.gatewayProxyHeaders.unavailableReason",
+            &[("mode", run_type_label(translator, config, "server.gatewayProxyHeaders.runTypes"))],
+        ),
+    })
+}
+
+pub(super) fn build_host_response_availability(config: &Value, translator: &Translator) -> Value {
+    if is_any_subdomain_routing_mode(config) {
+        return json!({ "available": true, "reason": "" });
+    }
+    json!({
+        "available": false,
+        "reason": translator.t_params(
+            "server.gatewayHostResponse.unavailableReason",
+            &[("mode", run_type_label(translator, config, "server.gatewayHostResponse.runTypes"))],
+        ),
+    })
+}
+
+pub(super) fn run_type_label(translator: &Translator, config: &Value, prefix: &str) -> String {
+    match config.get("run_type").and_then(Value::as_i64).unwrap_or(3) {
+        0 => translator.t(&format!("{prefix}.direct")),
+        1 => translator.t(&format!("{prefix}.reverseProxy")),
+        _ => translator.t(&format!("{prefix}.subdomain")),
+    }
+}
+
+pub(super) fn config_host_mappings(config: &Value) -> Vec<Value> {
+    config
+        .get("host_mappings")
+        .and_then(Value::as_array)
+        .cloned()
+        .unwrap_or_default()
+}
+
+pub(super) fn sanitize_disabled_hosts_config(config: &Value, raw_config: &Value) -> Value {
+    let visible_hosts = visible_host_mappings(&config_host_mappings(config))
+        .iter()
+        .filter_map(|mapping| mapping.get("host").and_then(Value::as_str))
+        .map(normalize_host)
+        .filter(|host| !host.is_empty())
+        .collect::<BTreeSet<_>>();
+    let mut seen = BTreeSet::new();
+    let disabled_hosts = raw_config
+        .get("disabled_hosts")
+        .and_then(Value::as_array)
+        .map(|items| {
+            items
+                .iter()
+                .filter_map(Value::as_str)
+                .map(normalize_host)
+                .filter(|host| {
+                    !host.is_empty() && visible_hosts.contains(host) && seen.insert(host.clone())
+                })
+                .map(Value::String)
+                .collect::<Vec<_>>()
+        })
+        .unwrap_or_default();
+    json!({ "disabled_hosts": disabled_hosts })
+}
+
+pub(super) use crate::proxy_utils::is_any_subdomain_routing_mode;

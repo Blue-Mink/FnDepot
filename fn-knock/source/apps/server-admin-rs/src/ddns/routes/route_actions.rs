@@ -1,1 +1,56 @@
-dXNlIHN1cGVyOjoqOwoKI1t1dG9pcGE6OnBhdGgoZGVsZXRlLCBwYXRoID0gIi9hcGkvYWRtaW4vZGRucy9sb2dzIiwgdGFnID0gImRkbnMiLCBvcGVyYXRpb25faWQgPSAiZGVsZXRlX2FwaV9hZG1pbl9kZG5zX2xvZ3MiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiQ2xlYXJlZCBERE5TIGxvZ3MiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGNsZWFyX2xvZ3MoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5jbGVhcl9sb2dfYnVmZmVyKERETlNfTE9HUykuYXdhaXQgewogICAgICAgIE9rKCgpKSA9PiByZXNwb25zZTo6c3VjY2Vzc19lbXB0eSgpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGNsZWFyIERETlMgbG9ncyIpOwogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICBkZG5zX3RleHQoJnRyYW5zbGF0b3IsICJsb2dzQ2xlYXJGYWlsZWQiLCAmW10pLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi9kZG5zL3BvbGwiLCB0YWcgPSAiZGRucyIsIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX2RkbnNfcG9sbCIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJERE5TIGxvZyBwb2xsIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBwb2xsKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBRdWVyeShxdWVyeSk6IFF1ZXJ5PFBvbGxRdWVyeT4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICBsZXQgbG9ncyA9IG1hdGNoIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAucG9sbF9sb2dfYnVmZmVyKERETlNfTE9HUywgcXVlcnkuY3Vyc29yLmFzX2RlcmVmKCkpCiAgICAgICAgLmF3YWl0CiAgICB7CiAgICAgICAgT2sodmFsdWUpID0+IHZhbHVlLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gcG9sbCBERE5TIGxvZ3MiKTsKICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIGRkbnNfdGV4dCgmdHJhbnNsYXRvciwgInBvbGxGYWlsZWQiLCAmW10pLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH07CiAgICBsZXQgc3RhdHVzID0gbWF0Y2ggYnVpbGRfZGRuc19zdGF0dXMoJnN0YXRlLCAmdHJhbnNsYXRvcikuYXdhaXQgewogICAgICAgIE9rKHZhbHVlKSA9PiB2YWx1ZSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGJ1aWxkIERETlMgcG9sbCBzdGF0dXMiKTsKICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIGRkbnNfdGV4dCgmdHJhbnNsYXRvciwgInBvbGxGYWlsZWQiLCAmW10pLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH07CiAgICByZXNwb25zZTo6b2soanNvbiEoewogICAgICAgICJjdXJzb3IiOiBsb2dzLmdldCgiY3Vyc29yIikuY2xvbmVkKCkudW53cmFwX29yKGpzb24hKDApKSwKICAgICAgICAicmVzZXQiOiBsb2dzLmdldCgicmVzZXQiKS5jbG9uZWQoKS51bndyYXBfb3IoanNvbiEoZmFsc2UpKSwKICAgICAgICAibG9ncyI6IHBhcnNlX2xvZ19lbnRyaWVzKGxvZ3MuZ2V0KCJpdGVtcyIpLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkuY2xvbmVkKCkudW53cmFwX29yX2RlZmF1bHQoKS5pbnRvX2l0ZXIoKS5maWx0ZXJfbWFwKHxpdGVtfCBpdGVtLmFzX3N0cigpLm1hcChzdHI6OnRvX3N0cmluZykpLmNvbGxlY3QoKSksCiAgICAgICAgInN0YXR1cyI6IHN0YXR1cwogICAgfSkpCiAgICAuaW50b19yZXNwb25zZSgpCn0K
+use super::*;
+
+#[utoipa::path(delete, path = "/api/admin/ddns/logs", tag = "ddns", operation_id = "delete_api_admin_ddns_logs", responses((status = 200, description = "Cleared DDNS logs")))]
+pub(super) async fn clear_logs(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match state.storage.store.clear_log_buffer(DDNS_LOGS).await {
+        Ok(()) => response::success_empty().into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to clear DDNS logs");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                ddns_text(&translator, "logsClearFailed", &[]),
+            )
+        }
+    }
+}
+
+#[utoipa::path(get, path = "/api/admin/ddns/poll", tag = "ddns", operation_id = "get_api_admin_ddns_poll", responses((status = 200, description = "DDNS log poll")))]
+pub(super) async fn poll(
+    State(state): State<AppState>,
+    Query(query): Query<PollQuery>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let logs = match state
+        .storage
+        .store
+        .poll_log_buffer(DDNS_LOGS, query.cursor.as_deref())
+        .await
+    {
+        Ok(value) => value,
+        Err(error) => {
+            tracing::warn!(%error, "failed to poll DDNS logs");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                ddns_text(&translator, "pollFailed", &[]),
+            );
+        }
+    };
+    let status = match build_ddns_status(&state, &translator).await {
+        Ok(value) => value,
+        Err(error) => {
+            tracing::warn!(%error, "failed to build DDNS poll status");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                ddns_text(&translator, "pollFailed", &[]),
+            );
+        }
+    };
+    response::ok(json!({
+        "cursor": logs.get("cursor").cloned().unwrap_or(json!(0)),
+        "reset": logs.get("reset").cloned().unwrap_or(json!(false)),
+        "logs": parse_log_entries(logs.get("items").and_then(Value::as_array).cloned().unwrap_or_default().into_iter().filter_map(|item| item.as_str().map(str::to_string)).collect()),
+        "status": status
+    }))
+    .into_response()
+}

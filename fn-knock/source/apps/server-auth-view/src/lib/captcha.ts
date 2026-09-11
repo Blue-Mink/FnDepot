@@ -1,1 +1,120 @@
-aW1wb3J0IHR5cGUgeyBDYXB0Y2hhU3VibWlzc2lvbiB9IGZyb20gIkBmcm9udGVuZC1jb3JlL2NhcHRjaGEvdHlwZXMiOwoKY29uc3QgU1VQUE9SVEVEX1BPV19BTEdPUklUSE1TID0gWyJTSEEtMjU2IiwgIlNIQS0zODQiLCAiU0hBLTUxMiJdIGFzIGNvbnN0OwoKdHlwZSBQb3dBbGdvcml0aG0gPSAodHlwZW9mIFNVUFBPUlRFRF9QT1dfQUxHT1JJVEhNUylbbnVtYmVyXTsKZXhwb3J0IHR5cGUgQ2FwdGNoYUVycm9yQ29kZSA9CiAgInBvd1Vuc3VwcG9ydGVkQWxnb3JpdGhtIiB8ICJwb3dJbnZhbGlkQ2hhbGxlbmdlIiB8ICJwb3dTb2x2ZUZhaWxlZCI7CgpleHBvcnQgY2xhc3MgQ2FwdGNoYUVycm9yIGV4dGVuZHMgRXJyb3IgewogIHJlYWRvbmx5IGNvZGU6IENhcHRjaGFFcnJvckNvZGU7CgogIGNvbnN0cnVjdG9yKGNvZGU6IENhcHRjaGFFcnJvckNvZGUpIHsKICAgIHN1cGVyKGNvZGUpOwogICAgdGhpcy5uYW1lID0gIkNhcHRjaGFFcnJvciI7CiAgICB0aGlzLmNvZGUgPSBjb2RlOwogIH0KfQoKZXhwb3J0IHR5cGUgUG93Q2hhbGxlbmdlID0gewogIGFsZ29yaXRobTogUG93QWxnb3JpdGhtOwogIGNoYWxsZW5nZTogc3RyaW5nOwogIG1heG51bWJlcjogbnVtYmVyOwogIHNhbHQ6IHN0cmluZzsKICBzaWduYXR1cmU6IHN0cmluZzsKfTsKCmV4cG9ydCBjb25zdCBub3JtYWxpemVQb3dDaGFsbGVuZ2UgPSAocGF5bG9hZDogdW5rbm93bik6IFBvd0NoYWxsZW5nZSA9PiB7CiAgY29uc3QgcmF3ID0gcGF5bG9hZCBhcyBQYXJ0aWFsPFBvd0NoYWxsZW5nZT4gfCBudWxsOwogIGNvbnN0IGFsZ29yaXRobVJhdyA9IFN0cmluZyhyYXc/LmFsZ29yaXRobSB8fCAiU0hBLTI1NiIpLnRvVXBwZXJDYXNlKCk7CiAgaWYgKCFTVVBQT1JURURfUE9XX0FMR09SSVRITVMuaW5jbHVkZXMoYWxnb3JpdGhtUmF3IGFzIFBvd0FsZ29yaXRobSkpIHsKICAgIHRocm93IG5ldyBDYXB0Y2hhRXJyb3IoInBvd1Vuc3VwcG9ydGVkQWxnb3JpdGhtIik7CiAgfQoKICBjb25zdCBjaGFsbGVuZ2UgPSBTdHJpbmcocmF3Py5jaGFsbGVuZ2UgfHwgIiIpLnRvTG93ZXJDYXNlKCk7CiAgY29uc3Qgc2FsdCA9IFN0cmluZyhyYXc/LnNhbHQgfHwgIiIpOwogIGNvbnN0IHNpZ25hdHVyZSA9IFN0cmluZyhyYXc/LnNpZ25hdHVyZSB8fCAiIik7CiAgY29uc3QgbWF4bnVtYmVyID0gTnVtYmVyKHJhdz8ubWF4bnVtYmVyKTsKICBpZiAoCiAgICAhY2hhbGxlbmdlIHx8CiAgICAhc2FsdCB8fAogICAgIXNpZ25hdHVyZSB8fAogICAgIU51bWJlci5pc0Zpbml0ZShtYXhudW1iZXIpIHx8CiAgICBtYXhudW1iZXIgPCAwCiAgKSB7CiAgICB0aHJvdyBuZXcgQ2FwdGNoYUVycm9yKCJwb3dJbnZhbGlkQ2hhbGxlbmdlIik7CiAgfQoKICByZXR1cm4gewogICAgYWxnb3JpdGhtOiBhbGdvcml0aG1SYXcgYXMgUG93QWxnb3JpdGhtLAogICAgY2hhbGxlbmdlLAogICAgbWF4bnVtYmVyOiBNYXRoLmZsb29yKG1heG51bWJlciksCiAgICBzYWx0LAogICAgc2lnbmF0dXJlLAogIH07Cn07CgpleHBvcnQgY29uc3Qgc29sdmVQb3dDaGFsbGVuZ2UgPSBhc3luYyAoCiAgY2hhbGxlbmdlOiBQb3dDaGFsbGVuZ2UsCiAgc2lnbmFsPzogQWJvcnRTaWduYWwsCik6IFByb21pc2U8bnVtYmVyPiA9PiB7CiAgaWYgKHNpZ25hbD8uYWJvcnRlZCkgdGhyb3cgbmV3IERPTUV4Y2VwdGlvbigiQWJvcnRlZCIsICJBYm9ydEVycm9yIik7CiAgY29uc3Qgd29ya2VyID0gbmV3IFdvcmtlcihuZXcgVVJMKCIuL3Bvdy53b3JrZXIudHMiLCBpbXBvcnQubWV0YS51cmwpLCB7CiAgICB0eXBlOiAibW9kdWxlIiwKICAgIG5hbWU6ICJmbi1rbm9jay1wb3ciLAogIH0pOwogIHJldHVybiBuZXcgUHJvbWlzZTxudW1iZXI+KChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgIGxldCBzZXR0bGVkID0gZmFsc2U7CiAgICBjb25zdCBmaW5pc2ggPSAocmVzdWx0OiB7IG51bWJlcj86IG51bWJlcjsgZXJyb3I/OiB1bmtub3duIH0pID0+IHsKICAgICAgaWYgKHNldHRsZWQpIHJldHVybjsKICAgICAgc2V0dGxlZCA9IHRydWU7CiAgICAgIHNpZ25hbD8ucmVtb3ZlRXZlbnRMaXN0ZW5lcigiYWJvcnQiLCBoYW5kbGVBYm9ydCk7CiAgICAgIHdvcmtlci50ZXJtaW5hdGUoKTsKICAgICAgaWYgKE51bWJlci5pc0ludGVnZXIocmVzdWx0Lm51bWJlcikpIHsKICAgICAgICByZXNvbHZlKHJlc3VsdC5udW1iZXIgYXMgbnVtYmVyKTsKICAgICAgfSBlbHNlIHsKICAgICAgICByZWplY3QocmVzdWx0LmVycm9yID8/IG5ldyBDYXB0Y2hhRXJyb3IoInBvd1NvbHZlRmFpbGVkIikpOwogICAgICB9CiAgICB9OwogICAgY29uc3QgaGFuZGxlQWJvcnQgPSAoKSA9PgogICAgICBmaW5pc2goeyBlcnJvcjogbmV3IERPTUV4Y2VwdGlvbigiQWJvcnRlZCIsICJBYm9ydEVycm9yIikgfSk7CiAgICB3b3JrZXIub25tZXNzYWdlID0gKAogICAgICBldmVudDogTWVzc2FnZUV2ZW50PHsgbnVtYmVyPzogbnVtYmVyOyBlcnJvcj86IHN0cmluZyB9PiwKICAgICkgPT4gewogICAgICBmaW5pc2goewogICAgICAgIG51bWJlcjogZXZlbnQuZGF0YS5udW1iZXIsCiAgICAgICAgZXJyb3I6IGV2ZW50LmRhdGEuZXJyb3IKICAgICAgICAgID8gbmV3IENhcHRjaGFFcnJvcigicG93U29sdmVGYWlsZWQiKQogICAgICAgICAgOiB1bmRlZmluZWQsCiAgICAgIH0pOwogICAgfTsKICAgIHdvcmtlci5vbmVycm9yID0gKCkgPT4gewogICAgICBmaW5pc2goeyBlcnJvcjogbmV3IENhcHRjaGFFcnJvcigicG93U29sdmVGYWlsZWQiKSB9KTsKICAgIH07CiAgICB3b3JrZXIub25tZXNzYWdlZXJyb3IgPSAoKSA9PiB7CiAgICAgIGZpbmlzaCh7IGVycm9yOiBuZXcgQ2FwdGNoYUVycm9yKCJwb3dTb2x2ZUZhaWxlZCIpIH0pOwogICAgfTsKICAgIHNpZ25hbD8uYWRkRXZlbnRMaXN0ZW5lcigiYWJvcnQiLCBoYW5kbGVBYm9ydCwgeyBvbmNlOiB0cnVlIH0pOwogICAgdHJ5IHsKICAgICAgd29ya2VyLnBvc3RNZXNzYWdlKGNoYWxsZW5nZSk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBmaW5pc2goeyBlcnJvciB9KTsKICAgIH0KICB9KTsKfTsKCmV4cG9ydCBjb25zdCBidWlsZFBvd1N1Ym1pc3Npb24gPSAoCiAgY2hhbGxlbmdlOiBQb3dDaGFsbGVuZ2UsCiAgbnVtYmVyOiBudW1iZXIsCik6IENhcHRjaGFTdWJtaXNzaW9uID0+ICh7CiAgcHJvdmlkZXI6ICJwb3ciLAogIHByb29mOiBidG9hKAogICAgSlNPTi5zdHJpbmdpZnkoewogICAgICBhbGdvcml0aG06IGNoYWxsZW5nZS5hbGdvcml0aG0sCiAgICAgIGNoYWxsZW5nZTogY2hhbGxlbmdlLmNoYWxsZW5nZSwKICAgICAgbnVtYmVyLAogICAgICBzYWx0OiBjaGFsbGVuZ2Uuc2FsdCwKICAgICAgc2lnbmF0dXJlOiBjaGFsbGVuZ2Uuc2lnbmF0dXJlLAogICAgfSksCiAgKSwKfSk7Cg==
+import type { CaptchaSubmission } from "@frontend-core/captcha/types";
+
+const SUPPORTED_POW_ALGORITHMS = ["SHA-256", "SHA-384", "SHA-512"] as const;
+
+type PowAlgorithm = (typeof SUPPORTED_POW_ALGORITHMS)[number];
+export type CaptchaErrorCode =
+  "powUnsupportedAlgorithm" | "powInvalidChallenge" | "powSolveFailed";
+
+export class CaptchaError extends Error {
+  readonly code: CaptchaErrorCode;
+
+  constructor(code: CaptchaErrorCode) {
+    super(code);
+    this.name = "CaptchaError";
+    this.code = code;
+  }
+}
+
+export type PowChallenge = {
+  algorithm: PowAlgorithm;
+  challenge: string;
+  maxnumber: number;
+  salt: string;
+  signature: string;
+};
+
+export const normalizePowChallenge = (payload: unknown): PowChallenge => {
+  const raw = payload as Partial<PowChallenge> | null;
+  const algorithmRaw = String(raw?.algorithm || "SHA-256").toUpperCase();
+  if (!SUPPORTED_POW_ALGORITHMS.includes(algorithmRaw as PowAlgorithm)) {
+    throw new CaptchaError("powUnsupportedAlgorithm");
+  }
+
+  const challenge = String(raw?.challenge || "").toLowerCase();
+  const salt = String(raw?.salt || "");
+  const signature = String(raw?.signature || "");
+  const maxnumber = Number(raw?.maxnumber);
+  if (
+    !challenge ||
+    !salt ||
+    !signature ||
+    !Number.isFinite(maxnumber) ||
+    maxnumber < 0
+  ) {
+    throw new CaptchaError("powInvalidChallenge");
+  }
+
+  return {
+    algorithm: algorithmRaw as PowAlgorithm,
+    challenge,
+    maxnumber: Math.floor(maxnumber),
+    salt,
+    signature,
+  };
+};
+
+export const solvePowChallenge = async (
+  challenge: PowChallenge,
+  signal?: AbortSignal,
+): Promise<number> => {
+  if (signal?.aborted) throw new DOMException("Aborted", "AbortError");
+  const worker = new Worker(new URL("./pow.worker.ts", import.meta.url), {
+    type: "module",
+    name: "fn-knock-pow",
+  });
+  return new Promise<number>((resolve, reject) => {
+    let settled = false;
+    const finish = (result: { number?: number; error?: unknown }) => {
+      if (settled) return;
+      settled = true;
+      signal?.removeEventListener("abort", handleAbort);
+      worker.terminate();
+      if (Number.isInteger(result.number)) {
+        resolve(result.number as number);
+      } else {
+        reject(result.error ?? new CaptchaError("powSolveFailed"));
+      }
+    };
+    const handleAbort = () =>
+      finish({ error: new DOMException("Aborted", "AbortError") });
+    worker.onmessage = (
+      event: MessageEvent<{ number?: number; error?: string }>,
+    ) => {
+      finish({
+        number: event.data.number,
+        error: event.data.error
+          ? new CaptchaError("powSolveFailed")
+          : undefined,
+      });
+    };
+    worker.onerror = () => {
+      finish({ error: new CaptchaError("powSolveFailed") });
+    };
+    worker.onmessageerror = () => {
+      finish({ error: new CaptchaError("powSolveFailed") });
+    };
+    signal?.addEventListener("abort", handleAbort, { once: true });
+    try {
+      worker.postMessage(challenge);
+    } catch (error) {
+      finish({ error });
+    }
+  });
+};
+
+export const buildPowSubmission = (
+  challenge: PowChallenge,
+  number: number,
+): CaptchaSubmission => ({
+  provider: "pow",
+  proof: btoa(
+    JSON.stringify({
+      algorithm: challenge.algorithm,
+      challenge: challenge.challenge,
+      number,
+      salt: challenge.salt,
+      signature: challenge.signature,
+    }),
+  ),
+});

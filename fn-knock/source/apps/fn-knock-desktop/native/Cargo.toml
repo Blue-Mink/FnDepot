@@ -1,1 +1,55 @@
-W3BhY2thZ2VdCm5hbWUgPSAiZm4ta25vY2stZGVza3RvcCIKdmVyc2lvbiA9ICIyLjQuMTEiCmRlc2NyaXB0aW9uID0gIktub2NrIOaVsumXqCBXaW5kb3dzIOeuoeeQhueoi+W6jyIKYXV0aG9ycyA9IFsiS0NJLUxOSyBDb3Jwb3JhdGlvbiJdCmVkaXRpb24gPSAiMjAyNCIKCltsaWJdCm5hbWUgPSAiZm5fa25vY2tfZGVza3RvcF9saWIiCmNyYXRlLXR5cGUgPSBbInN0YXRpY2xpYiIsICJjZHlsaWIiLCAicmxpYiJdCgpbW2Jpbl1dCm5hbWUgPSAiZm4ta25vY2siCnBhdGggPSAic3JjL21haW4ucnMiCgpbYnVpbGQtZGVwZW5kZW5jaWVzXQpzZXJkZV9qc29uID0gIjEuMCIKd2lucmVzID0gIjAuMSIKCltkZXBlbmRlbmNpZXNdCmRpcnMgPSAiNi4wIgpoZXggPSAiMC40IgpyZXF3ZXN0ID0geyB2ZXJzaW9uID0gIjAuMTMuNCIsIGRlZmF1bHQtZmVhdHVyZXMgPSBmYWxzZSwgZmVhdHVyZXMgPSBbImJsb2NraW5nIiwgImpzb24iLCAicnVzdGxzIl0gfQpzZXJkZSA9IHsgdmVyc2lvbiA9ICIxLjAiLCBmZWF0dXJlcyA9IFsiZGVyaXZlIl0gfQpzZXJkZV9qc29uID0gIjEuMCIKc2hhMiA9ICIwLjEwIgoKW3RhcmdldC4nY2ZnKHdpbmRvd3MpJy5kZXBlbmRlbmNpZXNdCndpbmRvd3Mtc2VydmljZSA9ICIwLjgiCndpbmRvd3Mtc3lzID0geyB2ZXJzaW9uID0gIjAuNjEiLCBmZWF0dXJlcyA9IFsKICAiV2luMzJfRm91bmRhdGlvbiIsCiAgIldpbjMyX0dsb2JhbGl6YXRpb24iLAogICJXaW4zMl9HcmFwaGljc19HZGkiLAogICJXaW4zMl9OZXR3b3JrTWFuYWdlbWVudF9JcEhlbHBlciIsCiAgIldpbjMyX05ldHdvcmtpbmdfV2luU29jayIsCiAgIldpbjMyX1NlY3VyaXR5IiwKICAiV2luMzJfU3lzdGVtX0NvbSIsCiAgIldpbjMyX1N5c3RlbV9EaWFnbm9zdGljc19Ub29sSGVscCIsCiAgIldpbjMyX1N5c3RlbV9MaWJyYXJ5TG9hZGVyIiwKICAiV2luMzJfU3lzdGVtX1Byb2Nlc3NTdGF0dXMiLAogICJXaW4zMl9TeXN0ZW1fVGhyZWFkaW5nIiwKICAiV2luMzJfU3lzdGVtX1N5c3RlbUluZm9ybWF0aW9uIiwKICAiV2luMzJfVUlfQ29udHJvbHMiLAogICJXaW4zMl9VSV9IaURwaSIsCiAgIldpbjMyX1VJX0lucHV0X0tleWJvYXJkQW5kTW91c2UiLAogICJXaW4zMl9VSV9XaW5kb3dzQW5kTWVzc2FnaW5nIiwKICAiV2luMzJfVUlfU2hlbGwiLApdIH0KCltwcm9maWxlLnJlbGVhc2VdCmNvZGVnZW4tdW5pdHMgPSAxCmx0byA9IHRydWUKb3B0LWxldmVsID0gInMiCnBhbmljID0gImFib3J0IgpzdHJpcCA9ICJzeW1ib2xzIgo=
+[package]
+name = "fn-knock-desktop"
+version = "2.4.11"
+description = "Knock 敲门 Windows 管理程序"
+authors = ["KCI-LNK Corporation"]
+edition = "2024"
+
+[lib]
+name = "fn_knock_desktop_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[[bin]]
+name = "fn-knock"
+path = "src/main.rs"
+
+[build-dependencies]
+serde_json = "1.0"
+winres = "0.1"
+
+[dependencies]
+dirs = "6.0"
+hex = "0.4"
+reqwest = { version = "0.13.4", default-features = false, features = ["blocking", "json", "rustls"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+
+[target.'cfg(windows)'.dependencies]
+windows-service = "0.8"
+windows-sys = { version = "0.61", features = [
+  "Win32_Foundation",
+  "Win32_Globalization",
+  "Win32_Graphics_Gdi",
+  "Win32_NetworkManagement_IpHelper",
+  "Win32_Networking_WinSock",
+  "Win32_Security",
+  "Win32_System_Com",
+  "Win32_System_Diagnostics_ToolHelp",
+  "Win32_System_LibraryLoader",
+  "Win32_System_ProcessStatus",
+  "Win32_System_Threading",
+  "Win32_System_SystemInformation",
+  "Win32_UI_Controls",
+  "Win32_UI_HiDpi",
+  "Win32_UI_Input_KeyboardAndMouse",
+  "Win32_UI_WindowsAndMessaging",
+  "Win32_UI_Shell",
+] }
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+panic = "abort"
+strip = "symbols"

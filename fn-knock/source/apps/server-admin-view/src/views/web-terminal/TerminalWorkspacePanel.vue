@@ -1,1 +1,332 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7CiAgRXllLAogIExhcHRvcCwKICBMb2FkZXJDaXJjbGUsCiAgTG9ja0tleWhvbGUsCiAgUGx1cywKICBTZXJ2ZXIsCiAgU2hpZWxkQWxlcnQsCn0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IFNrZWxldG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NrZWxldG9uIjsKaW1wb3J0IHsKICB0b29sYmFyTW9kaWZpZXJMYWJlbHMsCiAgdG9vbGJhck5hdmlnYXRpb25TaG9ydGN1dHMsCiAgdG9vbGJhclByaW1hcnlTaG9ydGN1dHMsCn0gZnJvbSAiLi90ZXJtaW5hbC1ydW50aW1lIjsKaW1wb3J0IFRlcm1pbmFsQ29ubmVjdGlvbkVycm9yQWxlcnQgZnJvbSAiLi9UZXJtaW5hbENvbm5lY3Rpb25FcnJvckFsZXJ0LnZ1ZSI7CmltcG9ydCBUZXJtaW5hbENvbnRleHRNZW51IGZyb20gIi4vVGVybWluYWxDb250ZXh0TWVudS52dWUiOwppbXBvcnQgVGVybWluYWxNb2JpbGVUb29sYmFyIGZyb20gIi4vVGVybWluYWxNb2JpbGVUb29sYmFyLnZ1ZSI7CmltcG9ydCBUZXJtaW5hbFNlc3Npb25Ub29sYmFyIGZyb20gIi4vVGVybWluYWxTZXNzaW9uVG9vbGJhci52dWUiOwppbXBvcnQgVGVybWluYWxXaW5kb3dDaHJvbWUgZnJvbSAiLi9UZXJtaW5hbFdpbmRvd0Nocm9tZS52dWUiOwppbXBvcnQgdHlwZSB7IFdlYlRlcm1pbmFsUGFnZUNvbnRyb2xsZXIgfSBmcm9tICIuL3VzZVdlYlRlcm1pbmFsUGFnZSI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsgY29udHJvbGxlcjogV2ViVGVybWluYWxQYWdlQ29udHJvbGxlciB9PigpOwpjb25zdCB7CiAgYWN0aXZlQXR0YWNobWVudCwKICBhcm1lZE1vZGlmaWVyLAogIGFybWVkTW9kaWZpZXJMYWJlbCwKICBjYW5DbGFpbUNvbnRyb2wsCiAgY2xhaW1Db250cm9sLAogIGNsb3NlVGVybWluYWxDb250ZXh0TWVudSwKICBjb25uZWN0aW9uRXJyb3IsCiAgY29ubmVjdGlvblN0YXRlLAogIGNvcHlUZXJtaW5hbFNlbGVjdGlvbkZyb21NZW51LAogIGNyZWF0ZVNlc3Npb24sCiAgZGVzdHJveVNlbGVjdGVkU2Vzc2lvbiwKICBkZXN0cm95U2Vzc2lvbkRlc2NyaXB0aW9uLAogIGhhbmRsZVNlc3Npb25UYWJDaGFuZ2UsCiAgaGFuZGxlVGVybWluYWxDb250ZXh0TWVudSwKICBpc0Jvb3RpbmcsCiAgaXNDcmVhdGluZywKICBpc0tpbGxpbmcsCiAgaXNQaW5jaFpvb21pbmcsCiAgaXNSZW5hbWluZ1Nlc3Npb24sCiAgaXNUZXJtaW5hbEZ1bGxzY3JlZW4sCiAga2VlcFRlcm1pbmFsRm9jdXNlZCwKICBudWRnZVRlcm1pbmFsRm9udFNpemUsCiAgb3BlblJlbmFtZURpYWxvZywKICBvcGVuU2VuZERpYWxvZywKICBvcGVuVGFyZ2V0Q3JlYXRlLAogIG9wZW5Mb2NhbFNldHRpbmdzLAogIHBhc3RlQ2xpcGJvYXJkVG9UZXJtaW5hbCwKICByZWFkT25seSwKICByZWNvbm5lY3RTZXNzaW9uLAogIHJlc2V0VGVybWluYWxGb250U2l6ZSwKICBydW50aW1lUmVzdGFydGVkLAogIHNlbGVjdEFsbFRlcm1pbmFsVGV4dCwKICBzZWxlY3RlZFNlc3Npb24sCiAgc2VsZWN0ZWRTZXNzaW9uSWQsCiAgc2VsZWN0ZWRUYXJnZXQsCiAgc2VuZFRvb2xiYXJTaG9ydGN1dCwKICBzZXNzaW9uc0ZvclRhcmdldCwKICBzZXRNb2JpbGVBY2Nlc3NvcnlCYXJSZWYsCiAgc2V0VGFyZ2V0RHJhd2VyT3BlbiwKICBzZXRUZXJtaW5hbENvbnRleHRNZW51UmVmLAogIHNldFRlcm1pbmFsRnJhbWVFbGVtZW50LAogIHNldFRlcm1pbmFsTW91bnRFbGVtZW50LAogIHNldFRlcm1pbmFsUGFuZWxSZWYsCiAgc2V0VGVybWluYWxTdGF0dXNSZWYsCiAgc2hvd01vYmlsZUFjY2Vzc29yeUJhciwKICBzaG93TW9iaWxlVG9vbGJhciwKICBzdGF0dXNUb25lLAogIHQsCiAgdGVybWluYWxDb250ZXh0TWVudUhhc1NlbGVjdGlvbiwKICB0ZXJtaW5hbENvbnRleHRNZW51T3BlbiwKICB0ZXJtaW5hbENvbnRleHRNZW51U3R5bGUsCiAgdGVybWluYWxGb250U2l6ZSwKICB0ZXJtaW5hbEZyYW1lU3R5bGUsCiAgdGVybWluYWxGdWxsc2NyZWVuTGFiZWwsCiAgdGVybWluYWxQYW5lbENsYXNzLAogIHRlcm1pbmFsUGFuZWxTdHlsZSwKICB0ZXJtaW5hbFdpbmRvd1N1YnRpdGxlLAogIHRlcm1pbmFsV2luZG93VGl0bGUsCiAgdG9nZ2xlQXJtZWRNb2RpZmllciwKICB0b2dnbGVUZXJtaW5hbEZ1bGxzY3JlZW4sCiAgdG9vbGJhckRpc2FibGVkLAp9ID0gcHJvcHMuY29udHJvbGxlcjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0iZmxleCBtaW4taC0wIG1pbi13LTAgZmxleC0xIGZsZXgtY29sIGdhcC0yLjUgcC0zIHNtOmdhcC0zIHNtOnAtNiI+CiAgICA8VGVybWluYWxTZXNzaW9uVG9vbGJhcgogICAgICA6Y2xhaW0tY29udHJvbD0iY2xhaW1Db250cm9sIgogICAgICA6Y2FuLWNsYWltLWNvbnRyb2w9ImNhbkNsYWltQ29udHJvbCIKICAgICAgOmNvbm5lY3Rpb24tc3RhdGU9ImNvbm5lY3Rpb25TdGF0ZSIKICAgICAgOmNyZWF0ZS1zZXNzaW9uPSJjcmVhdGVTZXNzaW9uIgogICAgICA6ZGVzdHJveS1zZWxlY3RlZC1zZXNzaW9uPSJkZXN0cm95U2VsZWN0ZWRTZXNzaW9uIgogICAgICA6ZGVzdHJveS1zZXNzaW9uLWRlc2NyaXB0aW9uPSJkZXN0cm95U2Vzc2lvbkRlc2NyaXB0aW9uIgogICAgICA6aGFuZGxlLXNlc3Npb24tdGFiLWNoYW5nZT0iaGFuZGxlU2Vzc2lvblRhYkNoYW5nZSIKICAgICAgOmlzLWJvb3Rpbmc9ImlzQm9vdGluZyIKICAgICAgOmlzLWNyZWF0aW5nPSJpc0NyZWF0aW5nIgogICAgICA6aXMta2lsbGluZz0iaXNLaWxsaW5nIgogICAgICA6aXMtcmVuYW1pbmctc2Vzc2lvbj0iaXNSZW5hbWluZ1Nlc3Npb24iCiAgICAgIDprZWVwLXRlcm1pbmFsLWZvY3VzZWQ9ImtlZXBUZXJtaW5hbEZvY3VzZWQiCiAgICAgIDpvcGVuLXJlbmFtZS1kaWFsb2c9Im9wZW5SZW5hbWVEaWFsb2ciCiAgICAgIDpvcGVuLXNlbmQtZGlhbG9nPSJvcGVuU2VuZERpYWxvZyIKICAgICAgOm9wZW4tdGFyZ2V0LWRyYXdlcj0iKCkgPT4gc2V0VGFyZ2V0RHJhd2VyT3Blbih0cnVlKSIKICAgICAgOnJlY29ubmVjdC1zZXNzaW9uPSJyZWNvbm5lY3RTZXNzaW9uIgogICAgICA6c2VsZWN0ZWQtc2Vzc2lvbj0ic2VsZWN0ZWRTZXNzaW9uIgogICAgICA6c2VsZWN0ZWQtc2Vzc2lvbi1pZD0ic2VsZWN0ZWRTZXNzaW9uSWQiCiAgICAgIDpzZWxlY3RlZC10YXJnZXQ9InNlbGVjdGVkVGFyZ2V0IgogICAgICA6c2Vzc2lvbnM9InNlc3Npb25zRm9yVGFyZ2V0IgogICAgICA6c3RhdHVzLXRvbmU9InN0YXR1c1RvbmUiCiAgICAgIDp0b29sYmFyLWRpc2FibGVkPSJ0b29sYmFyRGlzYWJsZWQiCiAgICAvPgoKICAgIDxkaXYgdi1pZj0iaXNCb290aW5nIiBjbGFzcz0ic3BhY2UteS0zIj4KICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTEyIHctZnVsbCByb3VuZGVkLXhsIiAvPgogICAgICA8U2tlbGV0b24gY2xhc3M9ImgtWzQyMHB4XSB3LWZ1bGwgcm91bmRlZC14bCIgLz4KICAgIDwvZGl2PgoKICAgIDxkaXYKICAgICAgdi1lbHNlLWlmPSIhc2VsZWN0ZWRUYXJnZXQiCiAgICAgIGNsYXNzPSJncmlkIG1pbi1oLVszNjBweF0gcGxhY2UtaXRlbXMtY2VudGVyIHJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItZGFzaGVkIGJvcmRlci1ib3JkZXIvODAgYmctbXV0ZWQvMTAgcC02IHRleHQtY2VudGVyIgogICAgPgogICAgICA8ZGl2IGNsYXNzPSJtYXgtdy1zbSI+CiAgICAgICAgPFNlcnZlciBjbGFzcz0ibXgtYXV0byBoLTggdy04IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICAgICAgICA8aDIgY2xhc3M9Im10LTMgdGV4dC1iYXNlIGZvbnQtc2VtaWJvbGQiPgogICAgICAgICAge3sgdCgiYWRtaW4ud2ViVGVybWluYWwubm9UYXJnZXRzIiwgIk5vIFNTSCB0YXJnZXRzIikgfX0KICAgICAgICA8L2gyPgogICAgICAgIDxwIGNsYXNzPSJtdC0xIHRleHQtc20gbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7ewogICAgICAgICAgICB0KAogICAgICAgICAgICAgICJhZG1pbi53ZWJUZXJtaW5hbC5ub1RhcmdldHNEZXNjcmlwdGlvbiIsCiAgICAgICAgICAgICAgIkFkZCBhIHNlcnZlciwgdmVyaWZ5IGl0cyBmaW5nZXJwcmludCwgYW5kIHRlc3QgYXV0aGVudGljYXRpb24gYmVmb3JlIG9wZW5pbmcgYSBzaGVsbC4iLAogICAgICAgICAgICApCiAgICAgICAgICB9fQogICAgICAgIDwvcD4KICAgICAgICA8QnV0dG9uIGNsYXNzPSJtdC00IiBAY2xpY2s9Im9wZW5UYXJnZXRDcmVhdGUiPgogICAgICAgICAgPFBsdXMgY2xhc3M9Im1yLTEuNSBoLTQgdy00IiAvPgogICAgICAgICAge3sgdCgiYWRtaW4ud2ViVGVybWluYWwuYWRkVGFyZ2V0IiwgIkFkZCBTU0ggdGFyZ2V0IikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8ZGl2CiAgICAgIHYtZWxzZS1pZj0iCiAgICAgICAgc2VsZWN0ZWRUYXJnZXQua2luZCA9PT0gJ2xvY2FsJyAmJgogICAgICAgICghc2VsZWN0ZWRUYXJnZXQuZW5hYmxlZCB8fCAhc2VsZWN0ZWRUYXJnZXQucmVhZHkpCiAgICAgICIKICAgICAgY2xhc3M9ImdyaWQgbWluLWgtWzM2MHB4XSBwbGFjZS1pdGVtcy1jZW50ZXIgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1kYXNoZWQgYm9yZGVyLWFtYmVyLTUwMC8zMCBiZy1hbWJlci01MDAvNSBwLTYgdGV4dC1jZW50ZXIiCiAgICA+CiAgICAgIDxkaXYgY2xhc3M9Im1heC13LW1kIj4KICAgICAgICA8c3BhbgogICAgICAgICAgY2xhc3M9Im14LWF1dG8gaW5saW5lLWZsZXggaC0xMiB3LTEyIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLTJ4bCBiZy1hbWJlci01MDAvMTAgdGV4dC1hbWJlci03MDAgZGFyazp0ZXh0LWFtYmVyLTMwMCIKICAgICAgICA+CiAgICAgICAgICA8TG9ja0tleWhvbGUgdi1pZj0iIXNlbGVjdGVkVGFyZ2V0LmVuYWJsZWQiIGNsYXNzPSJoLTYgdy02IiAvPgogICAgICAgICAgPFNoaWVsZEFsZXJ0IHYtZWxzZSBjbGFzcz0iaC02IHctNiIgLz4KICAgICAgICA8L3NwYW4+CiAgICAgICAgPGgyIGNsYXNzPSJtdC0zIHRleHQtYmFzZSBmb250LXNlbWlib2xkIj4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHNlbGVjdGVkVGFyZ2V0LmVuYWJsZWQKICAgICAgICAgICAgICA/IHQoImFkbWluLndlYlRlcm1pbmFsLmxvY2FsVW5hdmFpbGFibGVUaXRsZSIpCiAgICAgICAgICAgICAgOiB0KCJhZG1pbi53ZWJUZXJtaW5hbC5sb2NhbExvY2tlZFRpdGxlIikKICAgICAgICAgIH19CiAgICAgICAgPC9oMj4KICAgICAgICA8cCBjbGFzcz0ibXQtMSB0ZXh0LXNtIGxlYWRpbmctNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sKICAgICAgICAgICAgc2VsZWN0ZWRUYXJnZXQuZW5hYmxlZAogICAgICAgICAgICAgID8gdCgiYWRtaW4ud2ViVGVybWluYWwubG9jYWxVbmF2YWlsYWJsZURlc2NyaXB0aW9uIikKICAgICAgICAgICAgICA6IHQoImFkbWluLndlYlRlcm1pbmFsLmxvY2FsTG9ja2VkRGVzY3JpcHRpb24iLCB7CiAgICAgICAgICAgICAgICAgIGlkZW50aXR5OiBzZWxlY3RlZFRhcmdldC5leGVjdXRpb25JZGVudGl0eSwKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICB9fQogICAgICAgIDwvcD4KICAgICAgICA8QnV0dG9uIGNsYXNzPSJtdC00IiBAY2xpY2s9Im9wZW5Mb2NhbFNldHRpbmdzIj4KICAgICAgICAgIDxTaGllbGRBbGVydCBjbGFzcz0ibXItMS41IGgtNCB3LTQiIC8+CiAgICAgICAgICB7eyB0KCJhZG1pbi53ZWJUZXJtaW5hbC5sb2NhbFNldHRpbmdzVGl0bGUiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxkaXYKICAgICAgdi1lbHNlLWlmPSIhc2VsZWN0ZWRTZXNzaW9uIgogICAgICBjbGFzcz0iZ3JpZCBtaW4taC1bMzYwcHhdIHBsYWNlLWl0ZW1zLWNlbnRlciByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWRhc2hlZCBib3JkZXItYm9yZGVyLzgwIGJnLW11dGVkLzEwIHAtNiB0ZXh0LWNlbnRlciIKICAgID4KICAgICAgPGRpdiBjbGFzcz0ibWF4LXctc20iPgogICAgICAgIDxMYXB0b3AKICAgICAgICAgIHYtaWY9InNlbGVjdGVkVGFyZ2V0LmtpbmQgPT09ICdsb2NhbCciCiAgICAgICAgICBjbGFzcz0ibXgtYXV0byBoLTggdy04IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAvPgogICAgICAgIDxTZXJ2ZXIgdi1lbHNlIGNsYXNzPSJteC1hdXRvIGgtOCB3LTggdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogICAgICAgIDxoMiBjbGFzcz0ibXQtMyB0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi53ZWJUZXJtaW5hbC5ub1Nlc3Npb25zIiwgIk5vIHNlc3Npb25zIG9uIHRoaXMgdGFyZ2V0IikgfX0KICAgICAgICA8L2gyPgogICAgICAgIDxwIGNsYXNzPSJtdC0xIHRleHQtc20gbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7ewogICAgICAgICAgICBzZWxlY3RlZFRhcmdldC5raW5kID09PSAibG9jYWwiCiAgICAgICAgICAgICAgPyB0KCJhZG1pbi53ZWJUZXJtaW5hbC5sb2NhbE5vU2Vzc2lvbnNEZXNjcmlwdGlvbiIpCiAgICAgICAgICAgICAgOiB0KAogICAgICAgICAgICAgICAgICAiYWRtaW4ud2ViVGVybWluYWwubm9TZXNzaW9uc0Rlc2NyaXB0aW9uIiwKICAgICAgICAgICAgICAgICAgIkNyZWF0ZSBhbiBpbmRlcGVuZGVudCBTU0ggc2hlbGwuIEl0IHN0YXlzIGFsaXZlIHdoaWxlIHRoZSB0ZXJtaW5hbCBzZXJ2aWNlIGlzIHJ1bm5pbmcuIiwKICAgICAgICAgICAgICAgICkKICAgICAgICAgIH19CiAgICAgICAgPC9wPgogICAgICAgIDxCdXR0b24gY2xhc3M9Im10LTQiIDpkaXNhYmxlZD0iaXNDcmVhdGluZyIgQGNsaWNrPSJjcmVhdGVTZXNzaW9uIj4KICAgICAgICAgIDxMb2FkZXJDaXJjbGUgdi1pZj0iaXNDcmVhdGluZyIgY2xhc3M9Im1yLTEuNSBoLTQgdy00IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgIDxQbHVzIHYtZWxzZSBjbGFzcz0ibXItMS41IGgtNCB3LTQiIC8+CiAgICAgICAgICB7eyB0KCJhZG1pbi53ZWJUZXJtaW5hbC5uZXdTZXNzaW9uIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8ZGl2CiAgICAgIHYtaWY9InNlbGVjdGVkU2Vzc2lvbiAmJiBydW50aW1lUmVzdGFydGVkIgogICAgICBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWFtYmVyLTUwMC8yNSBiZy1hbWJlci01MDAvNSBweC0zIHB5LTIgdGV4dC14cyB0ZXh0LWFtYmVyLTcwMCBkYXJrOnRleHQtYW1iZXItMzAwIgogICAgPgogICAgICB7ewogICAgICAgIHQoCiAgICAgICAgICAiYWRtaW4ud2ViVGVybWluYWwucnVudGltZVJlc3RhcnRlZCIsCiAgICAgICAgICAiVGhlIHRlcm1pbmFsIHNlcnZpY2UgcmVzdGFydGVkLiBQcmV2aW91cyBzZXNzaW9ucyBoYXZlIGVuZGVkLiIsCiAgICAgICAgKQogICAgICB9fQogICAgPC9kaXY+CiAgICA8ZGl2CiAgICAgIHYtaWY9InNlbGVjdGVkU2Vzc2lvbiAmJiBjYW5DbGFpbUNvbnRyb2wiCiAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItc2t5LTUwMC8yNSBiZy1za3ktNTAwLzUgcHgtMyBweS0yIHRleHQteHMgdGV4dC1za3ktNzAwIGRhcms6dGV4dC1za3ktMzAwIgogICAgPgogICAgICA8RXllIGNsYXNzPSJoLTMuNSB3LTMuNSIgLz4KICAgICAge3sKICAgICAgICB0KAogICAgICAgICAgImFkbWluLndlYlRlcm1pbmFsLnZpZXdlckRlc2NyaXB0aW9uIiwKICAgICAgICAgICJBbm90aGVyIGJyb3dzZXIgY29udHJvbHMgdGhpcyBzZXNzaW9uLiBZb3UgY2FuIHdhdGNoIG91dHB1dCBvciB0YWtlIGNvbnRyb2wuIiwKICAgICAgICApCiAgICAgIH19CiAgICA8L2Rpdj4KCiAgICA8VGVybWluYWxDb25uZWN0aW9uRXJyb3JBbGVydAogICAgICB2LWlmPSJzZWxlY3RlZFNlc3Npb24iCiAgICAgIDptZXNzYWdlPSJjb25uZWN0aW9uRXJyb3IiCiAgICAvPgoKICAgIDxkaXYKICAgICAgdi1zaG93PSIhaXNCb290aW5nICYmIHNlbGVjdGVkVGFyZ2V0ICYmIHNlbGVjdGVkU2Vzc2lvbiIKICAgICAgOnJlZj0ic2V0VGVybWluYWxQYW5lbFJlZiIKICAgICAgOmNsYXNzPSJbCiAgICAgICAgJ2ZsZXggbWluLWgtMCBmbGV4LTEgZmxleC1jb2wgZ2FwLTIuNSBzbTpnYXAtMycsCiAgICAgICAgdGVybWluYWxQYW5lbENsYXNzLAogICAgICBdIgogICAgICA6c3R5bGU9InRlcm1pbmFsUGFuZWxTdHlsZSIKICAgID4KICAgICAgPGRpdgogICAgICAgIDpyZWY9InNldFRlcm1pbmFsRnJhbWVFbGVtZW50IgogICAgICAgIDpjbGFzcz0iWwogICAgICAgICAgJ3JlbGF0aXZlIGZsZXggbWluLWgtMCBtaW4tdy0wIGZsZXgtMSBmbGV4LWNvbCBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1bMThweF0gYm9yZGVyIGJnLVsjMWQxZDFmXSBzaGFkb3ctWzBfMTRweF8zNHB4X3JnYmEoMTUsMjMsNDIsMC4xOCldIHRyYW5zaXRpb24tW2JveC1zaGFkb3csYm9yZGVyLWNvbG9yXSBkdXJhdGlvbi0yMDAnLAogICAgICAgICAgaXNQaW5jaFpvb21pbmcKICAgICAgICAgICAgPyAnYm9yZGVyLWN5YW4tNDAwLzY1IHNoYWRvdy1bMF8wXzBfMXB4X3JnYmEoMzQsMjExLDIzOCwwLjI2KSwwXzE2cHhfMzhweF9yZ2JhKDgsMTQ1LDE3OCwwLjE0KV0nCiAgICAgICAgICAgIDogJ2JvcmRlci13aGl0ZS84JywKICAgICAgICBdIgogICAgICAgIDpzdHlsZT0idGVybWluYWxGcmFtZVN0eWxlIgogICAgICAgIDp0aXRsZT0idGVybWluYWxXaW5kb3dTdWJ0aXRsZSIKICAgICAgPgogICAgICAgIDxUZXJtaW5hbFdpbmRvd0Nocm9tZQogICAgICAgICAgOmZ1bGxzY3JlZW49ImlzVGVybWluYWxGdWxsc2NyZWVuIgogICAgICAgICAgOmZ1bGxzY3JlZW4tbGFiZWw9InRlcm1pbmFsRnVsbHNjcmVlbkxhYmVsIgogICAgICAgICAgOnRpdGxlPSJ0ZXJtaW5hbFdpbmRvd1RpdGxlIgogICAgICAgICAgOnRvZ2dsZS1mdWxsc2NyZWVuPSJ0b2dnbGVUZXJtaW5hbEZ1bGxzY3JlZW4iCiAgICAgICAgLz4KCiAgICAgICAgPGRpdiBjbGFzcz0icmVsYXRpdmUgbWluLWgtMCBmbGV4LTEgYmctWyMxYzFjMWVdIj4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgY2xhc3M9InBvaW50ZXItZXZlbnRzLW5vbmUgYWJzb2x1dGUgaW5zZXQteC0wIHRvcC0wIGgtcHggYmctd2hpdGUvNCIKICAgICAgICAgIC8+CiAgICAgICAgICA8IS0tIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSB2dWVqcy1hY2Nlc3NpYmlsaXR5L25vLXN0YXRpYy1lbGVtZW50LWludGVyYWN0aW9ucyAtLT4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgOnJlZj0ic2V0VGVybWluYWxNb3VudEVsZW1lbnQiCiAgICAgICAgICAgIGNsYXNzPSJhYnNvbHV0ZSBpbnNldC0wIGJveC1ib3JkZXIgbWluLWgtMCBtaW4tdy0wIG92ZXJmbG93LWhpZGRlbiBweC0xLjUgcHktMi41IHNtOnB4LTIuNSBzbTpweS0zIgogICAgICAgICAgICBAY29udGV4dG1lbnUuY2FwdHVyZT0iaGFuZGxlVGVybWluYWxDb250ZXh0TWVudSIKICAgICAgICAgIC8+CiAgICAgICAgICA8VGVybWluYWxDb250ZXh0TWVudQogICAgICAgICAgICA6cmVmPSJzZXRUZXJtaW5hbENvbnRleHRNZW51UmVmIgogICAgICAgICAgICA6Y2FuLXBhc3RlPSIhIWFjdGl2ZUF0dGFjaG1lbnQgJiYgIXJlYWRPbmx5IgogICAgICAgICAgICA6aGFzLXNlbGVjdGlvbj0idGVybWluYWxDb250ZXh0TWVudUhhc1NlbGVjdGlvbiIKICAgICAgICAgICAgOm1lbnUtc3R5bGU9InRlcm1pbmFsQ29udGV4dE1lbnVTdHlsZSIKICAgICAgICAgICAgOm9wZW49InRlcm1pbmFsQ29udGV4dE1lbnVPcGVuIgogICAgICAgICAgICBAY2xvc2U9ImNsb3NlVGVybWluYWxDb250ZXh0TWVudSIKICAgICAgICAgICAgQGNvcHk9ImNvcHlUZXJtaW5hbFNlbGVjdGlvbkZyb21NZW51IgogICAgICAgICAgICBAcGFzdGU9InBhc3RlQ2xpcGJvYXJkVG9UZXJtaW5hbCIKICAgICAgICAgICAgQHNlbGVjdC1hbGw9InNlbGVjdEFsbFRlcm1pbmFsVGV4dCIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdgogICAgICAgIHYtaWY9InNob3dNb2JpbGVBY2Nlc3NvcnlCYXIiCiAgICAgICAgOnJlZj0ic2V0TW9iaWxlQWNjZXNzb3J5QmFyUmVmIgogICAgICAgIGNsYXNzPSJzaHJpbmstMCByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWJvcmRlci83MCBiZy1tdXRlZC8xNSBwLTIgcGItW2NhbGMoZW52KHNhZmUtYXJlYS1pbnNldC1ib3R0b20pKzAuNXJlbSldIHNtOnAtMi41IHNtOnBiLTIuNSIKICAgICAgPgogICAgICAgIDxUZXJtaW5hbE1vYmlsZVRvb2xiYXIKICAgICAgICAgIDphcm1lZC1tb2RpZmllcj0iYXJtZWRNb2RpZmllciIKICAgICAgICAgIDphcm1lZC1tb2RpZmllci1sYWJlbD0iYXJtZWRNb2RpZmllckxhYmVsIgogICAgICAgICAgOmRpc2FibGVkPSJ0b29sYmFyRGlzYWJsZWQiCiAgICAgICAgICA6Zm9udC1zaXplPSJ0ZXJtaW5hbEZvbnRTaXplIgogICAgICAgICAgOmtlZXAtZm9jdXNlZD0ia2VlcFRlcm1pbmFsRm9jdXNlZCIKICAgICAgICAgIDptb2RpZmllci1sYWJlbHM9InRvb2xiYXJNb2RpZmllckxhYmVscyIKICAgICAgICAgIDpuYXZpZ2F0aW9uLXNob3J0Y3V0cz0idG9vbGJhck5hdmlnYXRpb25TaG9ydGN1dHMiCiAgICAgICAgICA6bnVkZ2UtZm9udC1zaXplPSJudWRnZVRlcm1pbmFsRm9udFNpemUiCiAgICAgICAgICA6cHJpbWFyeS1zaG9ydGN1dHM9InRvb2xiYXJQcmltYXJ5U2hvcnRjdXRzIgogICAgICAgICAgOnJlc2V0LWZvbnQtc2l6ZT0icmVzZXRUZXJtaW5hbEZvbnRTaXplIgogICAgICAgICAgOnNlbmQtc2hvcnRjdXQ9InNlbmRUb29sYmFyU2hvcnRjdXQiCiAgICAgICAgICA6c2hvdz0ic2hvd01vYmlsZVRvb2xiYXIiCiAgICAgICAgICA6dG9nZ2xlLW1vZGlmaWVyPSJ0b2dnbGVBcm1lZE1vZGlmaWVyIgogICAgICAgIC8+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdgogICAgICAgIDpyZWY9InNldFRlcm1pbmFsU3RhdHVzUmVmIgogICAgICAgIGNsYXNzPSJmbGV4IHNocmluay0wIGZsZXgtY29sIGdhcC0yIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgID4KICAgICAgICA8c3BhbiBjbGFzcz0idHJ1bmNhdGUiPnt7IHRlcm1pbmFsV2luZG93U3VidGl0bGUgfX08L3NwYW4+CiAgICAgICAgPHNwYW4KICAgICAgICAgIHYtaWY9ImNvbm5lY3Rpb25TdGF0ZSA9PT0gJ2Nvbm5lY3RpbmcnIgogICAgICAgICAgY2xhc3M9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IgogICAgICAgID4KICAgICAgICAgIDxMb2FkZXJDaXJjbGUgY2xhc3M9ImgtMy41IHctMy41IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgIDxzcGFuPnt7IHN0YXR1c1RvbmUgfX08L3NwYW4+CiAgICAgICAgPC9zcGFuPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import {
+  Eye,
+  Laptop,
+  LoaderCircle,
+  LockKeyhole,
+  Plus,
+  Server,
+  ShieldAlert,
+} from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
+import {
+  toolbarModifierLabels,
+  toolbarNavigationShortcuts,
+  toolbarPrimaryShortcuts,
+} from "./terminal-runtime";
+import TerminalConnectionErrorAlert from "./TerminalConnectionErrorAlert.vue";
+import TerminalContextMenu from "./TerminalContextMenu.vue";
+import TerminalMobileToolbar from "./TerminalMobileToolbar.vue";
+import TerminalSessionToolbar from "./TerminalSessionToolbar.vue";
+import TerminalWindowChrome from "./TerminalWindowChrome.vue";
+import type { WebTerminalPageController } from "./useWebTerminalPage";
+
+const props = defineProps<{ controller: WebTerminalPageController }>();
+const {
+  activeAttachment,
+  armedModifier,
+  armedModifierLabel,
+  canClaimControl,
+  claimControl,
+  closeTerminalContextMenu,
+  connectionError,
+  connectionState,
+  copyTerminalSelectionFromMenu,
+  createSession,
+  destroySelectedSession,
+  destroySessionDescription,
+  handleSessionTabChange,
+  handleTerminalContextMenu,
+  isBooting,
+  isCreating,
+  isKilling,
+  isPinchZooming,
+  isRenamingSession,
+  isTerminalFullscreen,
+  keepTerminalFocused,
+  nudgeTerminalFontSize,
+  openRenameDialog,
+  openSendDialog,
+  openTargetCreate,
+  openLocalSettings,
+  pasteClipboardToTerminal,
+  readOnly,
+  reconnectSession,
+  resetTerminalFontSize,
+  runtimeRestarted,
+  selectAllTerminalText,
+  selectedSession,
+  selectedSessionId,
+  selectedTarget,
+  sendToolbarShortcut,
+  sessionsForTarget,
+  setMobileAccessoryBarRef,
+  setTargetDrawerOpen,
+  setTerminalContextMenuRef,
+  setTerminalFrameElement,
+  setTerminalMountElement,
+  setTerminalPanelRef,
+  setTerminalStatusRef,
+  showMobileAccessoryBar,
+  showMobileToolbar,
+  statusTone,
+  t,
+  terminalContextMenuHasSelection,
+  terminalContextMenuOpen,
+  terminalContextMenuStyle,
+  terminalFontSize,
+  terminalFrameStyle,
+  terminalFullscreenLabel,
+  terminalPanelClass,
+  terminalPanelStyle,
+  terminalWindowSubtitle,
+  terminalWindowTitle,
+  toggleArmedModifier,
+  toggleTerminalFullscreen,
+  toolbarDisabled,
+} = props.controller;
+</script>
+
+<template>
+  <div class="flex min-h-0 min-w-0 flex-1 flex-col gap-2.5 p-3 sm:gap-3 sm:p-6">
+    <TerminalSessionToolbar
+      :claim-control="claimControl"
+      :can-claim-control="canClaimControl"
+      :connection-state="connectionState"
+      :create-session="createSession"
+      :destroy-selected-session="destroySelectedSession"
+      :destroy-session-description="destroySessionDescription"
+      :handle-session-tab-change="handleSessionTabChange"
+      :is-booting="isBooting"
+      :is-creating="isCreating"
+      :is-killing="isKilling"
+      :is-renaming-session="isRenamingSession"
+      :keep-terminal-focused="keepTerminalFocused"
+      :open-rename-dialog="openRenameDialog"
+      :open-send-dialog="openSendDialog"
+      :open-target-drawer="() => setTargetDrawerOpen(true)"
+      :reconnect-session="reconnectSession"
+      :selected-session="selectedSession"
+      :selected-session-id="selectedSessionId"
+      :selected-target="selectedTarget"
+      :sessions="sessionsForTarget"
+      :status-tone="statusTone"
+      :toolbar-disabled="toolbarDisabled"
+    />
+
+    <div v-if="isBooting" class="space-y-3">
+      <Skeleton class="h-12 w-full rounded-xl" />
+      <Skeleton class="h-[420px] w-full rounded-xl" />
+    </div>
+
+    <div
+      v-else-if="!selectedTarget"
+      class="grid min-h-[360px] place-items-center rounded-2xl border border-dashed border-border/80 bg-muted/10 p-6 text-center"
+    >
+      <div class="max-w-sm">
+        <Server class="mx-auto h-8 w-8 text-muted-foreground" />
+        <h2 class="mt-3 text-base font-semibold">
+          {{ t("admin.webTerminal.noTargets", "No SSH targets") }}
+        </h2>
+        <p class="mt-1 text-sm leading-6 text-muted-foreground">
+          {{
+            t(
+              "admin.webTerminal.noTargetsDescription",
+              "Add a server, verify its fingerprint, and test authentication before opening a shell.",
+            )
+          }}
+        </p>
+        <Button class="mt-4" @click="openTargetCreate">
+          <Plus class="mr-1.5 h-4 w-4" />
+          {{ t("admin.webTerminal.addTarget", "Add SSH target") }}
+        </Button>
+      </div>
+    </div>
+
+    <div
+      v-else-if="
+        selectedTarget.kind === 'local' &&
+        (!selectedTarget.enabled || !selectedTarget.ready)
+      "
+      class="grid min-h-[360px] place-items-center rounded-2xl border border-dashed border-amber-500/30 bg-amber-500/5 p-6 text-center"
+    >
+      <div class="max-w-md">
+        <span
+          class="mx-auto inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-500/10 text-amber-700 dark:text-amber-300"
+        >
+          <LockKeyhole v-if="!selectedTarget.enabled" class="h-6 w-6" />
+          <ShieldAlert v-else class="h-6 w-6" />
+        </span>
+        <h2 class="mt-3 text-base font-semibold">
+          {{
+            selectedTarget.enabled
+              ? t("admin.webTerminal.localUnavailableTitle")
+              : t("admin.webTerminal.localLockedTitle")
+          }}
+        </h2>
+        <p class="mt-1 text-sm leading-6 text-muted-foreground">
+          {{
+            selectedTarget.enabled
+              ? t("admin.webTerminal.localUnavailableDescription")
+              : t("admin.webTerminal.localLockedDescription", {
+                  identity: selectedTarget.executionIdentity,
+                })
+          }}
+        </p>
+        <Button class="mt-4" @click="openLocalSettings">
+          <ShieldAlert class="mr-1.5 h-4 w-4" />
+          {{ t("admin.webTerminal.localSettingsTitle") }}
+        </Button>
+      </div>
+    </div>
+
+    <div
+      v-else-if="!selectedSession"
+      class="grid min-h-[360px] place-items-center rounded-2xl border border-dashed border-border/80 bg-muted/10 p-6 text-center"
+    >
+      <div class="max-w-sm">
+        <Laptop
+          v-if="selectedTarget.kind === 'local'"
+          class="mx-auto h-8 w-8 text-muted-foreground"
+        />
+        <Server v-else class="mx-auto h-8 w-8 text-muted-foreground" />
+        <h2 class="mt-3 text-base font-semibold">
+          {{ t("admin.webTerminal.noSessions", "No sessions on this target") }}
+        </h2>
+        <p class="mt-1 text-sm leading-6 text-muted-foreground">
+          {{
+            selectedTarget.kind === "local"
+              ? t("admin.webTerminal.localNoSessionsDescription")
+              : t(
+                  "admin.webTerminal.noSessionsDescription",
+                  "Create an independent SSH shell. It stays alive while the terminal service is running.",
+                )
+          }}
+        </p>
+        <Button class="mt-4" :disabled="isCreating" @click="createSession">
+          <LoaderCircle v-if="isCreating" class="mr-1.5 h-4 w-4 animate-spin" />
+          <Plus v-else class="mr-1.5 h-4 w-4" />
+          {{ t("admin.webTerminal.newSession") }}
+        </Button>
+      </div>
+    </div>
+
+    <div
+      v-if="selectedSession && runtimeRestarted"
+      class="rounded-lg border border-amber-500/25 bg-amber-500/5 px-3 py-2 text-xs text-amber-700 dark:text-amber-300"
+    >
+      {{
+        t(
+          "admin.webTerminal.runtimeRestarted",
+          "The terminal service restarted. Previous sessions have ended.",
+        )
+      }}
+    </div>
+    <div
+      v-if="selectedSession && canClaimControl"
+      class="flex items-center gap-2 rounded-lg border border-sky-500/25 bg-sky-500/5 px-3 py-2 text-xs text-sky-700 dark:text-sky-300"
+    >
+      <Eye class="h-3.5 w-3.5" />
+      {{
+        t(
+          "admin.webTerminal.viewerDescription",
+          "Another browser controls this session. You can watch output or take control.",
+        )
+      }}
+    </div>
+
+    <TerminalConnectionErrorAlert
+      v-if="selectedSession"
+      :message="connectionError"
+    />
+
+    <div
+      v-show="!isBooting && selectedTarget && selectedSession"
+      :ref="setTerminalPanelRef"
+      :class="[
+        'flex min-h-0 flex-1 flex-col gap-2.5 sm:gap-3',
+        terminalPanelClass,
+      ]"
+      :style="terminalPanelStyle"
+    >
+      <div
+        :ref="setTerminalFrameElement"
+        :class="[
+          'relative flex min-h-0 min-w-0 flex-1 flex-col overflow-hidden rounded-[18px] border bg-[#1d1d1f] shadow-[0_14px_34px_rgba(15,23,42,0.18)] transition-[box-shadow,border-color] duration-200',
+          isPinchZooming
+            ? 'border-cyan-400/65 shadow-[0_0_0_1px_rgba(34,211,238,0.26),0_16px_38px_rgba(8,145,178,0.14)]'
+            : 'border-white/8',
+        ]"
+        :style="terminalFrameStyle"
+        :title="terminalWindowSubtitle"
+      >
+        <TerminalWindowChrome
+          :fullscreen="isTerminalFullscreen"
+          :fullscreen-label="terminalFullscreenLabel"
+          :title="terminalWindowTitle"
+          :toggle-fullscreen="toggleTerminalFullscreen"
+        />
+
+        <div class="relative min-h-0 flex-1 bg-[#1c1c1e]">
+          <div
+            class="pointer-events-none absolute inset-x-0 top-0 h-px bg-white/4"
+          />
+          <!-- eslint-disable-next-line vuejs-accessibility/no-static-element-interactions -->
+          <div
+            :ref="setTerminalMountElement"
+            class="absolute inset-0 box-border min-h-0 min-w-0 overflow-hidden px-1.5 py-2.5 sm:px-2.5 sm:py-3"
+            @contextmenu.capture="handleTerminalContextMenu"
+          />
+          <TerminalContextMenu
+            :ref="setTerminalContextMenuRef"
+            :can-paste="!!activeAttachment && !readOnly"
+            :has-selection="terminalContextMenuHasSelection"
+            :menu-style="terminalContextMenuStyle"
+            :open="terminalContextMenuOpen"
+            @close="closeTerminalContextMenu"
+            @copy="copyTerminalSelectionFromMenu"
+            @paste="pasteClipboardToTerminal"
+            @select-all="selectAllTerminalText"
+          />
+        </div>
+      </div>
+
+      <div
+        v-if="showMobileAccessoryBar"
+        :ref="setMobileAccessoryBarRef"
+        class="shrink-0 rounded-2xl border border-border/70 bg-muted/15 p-2 pb-[calc(env(safe-area-inset-bottom)+0.5rem)] sm:p-2.5 sm:pb-2.5"
+      >
+        <TerminalMobileToolbar
+          :armed-modifier="armedModifier"
+          :armed-modifier-label="armedModifierLabel"
+          :disabled="toolbarDisabled"
+          :font-size="terminalFontSize"
+          :keep-focused="keepTerminalFocused"
+          :modifier-labels="toolbarModifierLabels"
+          :navigation-shortcuts="toolbarNavigationShortcuts"
+          :nudge-font-size="nudgeTerminalFontSize"
+          :primary-shortcuts="toolbarPrimaryShortcuts"
+          :reset-font-size="resetTerminalFontSize"
+          :send-shortcut="sendToolbarShortcut"
+          :show="showMobileToolbar"
+          :toggle-modifier="toggleArmedModifier"
+        />
+      </div>
+
+      <div
+        :ref="setTerminalStatusRef"
+        class="flex shrink-0 flex-col gap-2 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between"
+      >
+        <span class="truncate">{{ terminalWindowSubtitle }}</span>
+        <span
+          v-if="connectionState === 'connecting'"
+          class="inline-flex items-center gap-1.5"
+        >
+          <LoaderCircle class="h-3.5 w-3.5 animate-spin" />
+          <span>{{ statusTone }}</span>
+        </span>
+      </div>
+    </div>
+  </div>
+</template>

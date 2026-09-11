@@ -1,1 +1,151 @@
-dXNlIHNlcmRlX2pzb246OlZhbHVlOwp1c2UgdG9raW86OnN5bmM6Ok11dGV4OwoKdXNlIGNyYXRlOjpzdGF0ZTo6QXBwU3RhdGU7Cgpjb25zdCBTRVNTSU9OX0lOREVYX0tFWTogJnN0ciA9ICJmbl9rbm9jazp0ZXJtaW5hbDpzZXNzaW9uOmluZGV4IjsKY29uc3QgU0VTU0lPTl9EQVRBX1BSRUZJWDogJnN0ciA9ICJmbl9rbm9jazp0ZXJtaW5hbDpzZXNzaW9uOmRhdGE6IjsKY29uc3QgU0VTU0lPTl9BVFRBQ0hNRU5UU19QUkVGSVg6ICZzdHIgPSAiZm5fa25vY2s6dGVybWluYWw6c2Vzc2lvbjphdHRhY2htZW50czoiOwpjb25zdCBBVFRBQ0hNRU5UX0RBVEFfUFJFRklYOiAmc3RyID0gImZuX2tub2NrOnRlcm1pbmFsOmF0dGFjaG1lbnQ6ZGF0YToiOwpjb25zdCBDTEVBTlVQX01BUktFUl9LRVk6ICZzdHIgPSAiZm5fa25vY2s6dGVybWluYWw6bWlncmF0aW9uOnNzaC12MS1sZWdhY3ktY2xlYW51cCI7CnN0YXRpYyBDTEVBTlVQX0xPQ0s6IE11dGV4PCgpPiA9IE11dGV4Ojpjb25zdF9uZXcoKCkpOwoKcHViIGFzeW5jIGZuIGNsZWFudXAoc3RhdGU6ICZBcHBTdGF0ZSkgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIGxldCBfZ3VhcmQgPSBDTEVBTlVQX0xPQ0subG9jaygpLmF3YWl0OwogICAgbGV0IHN0b3JlID0gJnN0YXRlLnN0b3JhZ2Uuc3RvcmU7CiAgICBpZiBzdG9yZS5nZXRfc3RyaW5nX3ZhbHVlKENMRUFOVVBfTUFSS0VSX0tFWSkuYXdhaXQ/LmFzX2RlcmVmKCkgPT0gU29tZSgiZG9uZSIpIHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQogICAgbGV0IG11dCBrZXlzID0gdmVjIVtTRVNTSU9OX0lOREVYX0tFWS50b19zdHJpbmcoKV07CiAgICBsZXQgbXV0IHRtdXhfc2Vzc2lvbnMgPSBWZWM6Om5ldygpOwogICAgZm9yIGRhdGFfa2V5IGluIHN0b3JlLnNjYW5fa2V5cyhTRVNTSU9OX0RBVEFfUFJFRklYLCAyMDApLmF3YWl0PyB7CiAgICAgICAgaWYgbGV0IFNvbWUocmF3KSA9IHN0b3JlLmdldF9zdHJpbmdfdmFsdWUoJmRhdGFfa2V5KS5hd2FpdD8KICAgICAgICAgICAgJiYgbGV0IE9rKHZhbHVlKSA9IHNlcmRlX2pzb246OmZyb21fc3RyOjo8VmFsdWU+KCZyYXcpCiAgICAgICAgICAgICYmIGxldCBTb21lKG5hbWUpID0gdmFsdWUuZ2V0KCJiYWNrZW5kX3Nlc3Npb25fbmFtZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICYmIHZhbGlkX2xlZ2FjeV90bXV4X25hbWUobmFtZSkKICAgICAgICB7CiAgICAgICAgICAgIHRtdXhfc2Vzc2lvbnMucHVzaChuYW1lLnRvX3N0cmluZygpKTsKICAgICAgICB9CiAgICAgICAga2V5cy5wdXNoKGRhdGFfa2V5KTsKICAgIH0KICAgIGtleXMuZXh0ZW5kKHN0b3JlLnNjYW5fa2V5cyhTRVNTSU9OX0FUVEFDSE1FTlRTX1BSRUZJWCwgMjAwKS5hd2FpdD8pOwogICAga2V5cy5leHRlbmQoc3RvcmUuc2Nhbl9rZXlzKEFUVEFDSE1FTlRfREFUQV9QUkVGSVgsIDIwMCkuYXdhaXQ/KTsKICAgIHRtdXhfc2Vzc2lvbnMuc29ydCgpOwogICAgdG11eF9zZXNzaW9ucy5kZWR1cCgpOwogICAgI1tjZmcodW5peCldCiAgICBmb3IgbmFtZSBpbiB0bXV4X3Nlc3Npb25zIHsKICAgICAgICBraWxsX2xlZ2FjeV90bXV4X3Nlc3Npb24oJm5hbWUpLmF3YWl0PzsKICAgIH0KICAgIHN0b3JlLmRlbGV0ZV9rZXlzKCZrZXlzKS5hd2FpdD87CgogICAgbGV0IHN0cmVhbV9kaXIgPSBzdGF0ZS5zZXR0aW5ncy5kYXRhX2Rpci5qb2luKCJ0ZXJtaW5hbC1zdHJlYW1zIik7CiAgICBtYXRjaCB0b2tpbzo6ZnM6OnJlbW92ZV9kaXJfYWxsKCZzdHJlYW1fZGlyKS5hd2FpdCB7CiAgICAgICAgT2soKCkpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6aW5mbyEocGF0aCA9ICVzdHJlYW1fZGlyLmRpc3BsYXkoKSwgInJlbW92ZWQgbGVnYWN5IHRlcm1pbmFsIHN0cmVhbSBkaXJlY3RvcnkiKQogICAgICAgIH0KICAgICAgICBFcnIoZXJyb3IpIGlmIGVycm9yLmtpbmQoKSA9PSBzdGQ6OmlvOjpFcnJvcktpbmQ6Ok5vdEZvdW5kID0+IHt9CiAgICAgICAgRXJyKGVycm9yKSA9PiByZXR1cm4gRXJyKGVycm9yLmludG8oKSksCiAgICB9CiAgICBzdG9yZQogICAgICAgIC5zZXRfc3RyaW5nX3ZhbHVlX3dpdGhfb3B0aW9uYWxfdHRsKENMRUFOVVBfTUFSS0VSX0tFWSwgImRvbmUiLCBOb25lKQogICAgICAgIC5hd2FpdD87CiAgICBPaygoKSkKfQoKZm4gdmFsaWRfbGVnYWN5X3RtdXhfbmFtZSh2YWx1ZTogJnN0cikgLT4gYm9vbCB7CiAgICB2YWx1ZS5sZW4oKSA9PSAyMAogICAgICAgICYmIHZhbHVlLnN0YXJ0c193aXRoKCJmbmtfIikKICAgICAgICAmJiB2YWx1ZVs0Li5dCiAgICAgICAgICAgIC5ieXRlcygpCiAgICAgICAgICAgIC5hbGwofGJ5dGV8IGJ5dGUuaXNfYXNjaWlfaGV4ZGlnaXQoKSAmJiAhYnl0ZS5pc19hc2NpaV91cHBlcmNhc2UoKSkKfQoKI1tjZmcodW5peCldCmFzeW5jIGZuIGtpbGxfbGVnYWN5X3RtdXhfc2Vzc2lvbihuYW1lOiAmc3RyKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgZm9yIGV4ZWN1dGFibGUgaW4gWyIvdXNyL2Jpbi90bXV4IiwgInRtdXgiXSB7CiAgICAgICAgbGV0IFNvbWUoaGFzX3Nlc3Npb24pID0gcnVuX3RtdXgoZXhlY3V0YWJsZSwgJlsiaGFzLXNlc3Npb24iLCAiLXQiLCBuYW1lXSkuYXdhaXQ/IGVsc2UgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9OwogICAgICAgIGlmICFoYXNfc2Vzc2lvbi5zdGF0dXMuc3VjY2VzcygpIHsKICAgICAgICAgICAgaWYgdG11eF9zZXNzaW9uX2Fic2VudCgmaGFzX3Nlc3Npb24pIHsKICAgICAgICAgICAgICAgIHJldHVybiBPaygoKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgYW55aG93OjpiYWlsISgKICAgICAgICAgICAgICAgICJ0bXV4IGZhaWxlZCB0byBpbnNwZWN0IGxlZ2FjeSBmbi1rbm9jayBzZXNzaW9uIHtuYW1lfSB3aXRoIHt9IiwKICAgICAgICAgICAgICAgIGhhc19zZXNzaW9uLnN0YXR1cwogICAgICAgICAgICApOwogICAgICAgIH0KICAgICAgICBsZXQgU29tZShraWxsZWQpID0gcnVuX3RtdXgoZXhlY3V0YWJsZSwgJlsia2lsbC1zZXNzaW9uIiwgIi10IiwgbmFtZV0pLmF3YWl0PyBlbHNlIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfTsKICAgICAgICBpZiBraWxsZWQuc3RhdHVzLnN1Y2Nlc3MoKSB8fCB0bXV4X3Nlc3Npb25fYWJzZW50KCZraWxsZWQpIHsKICAgICAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgICAgICB9CiAgICAgICAgYW55aG93OjpiYWlsISgKICAgICAgICAgICAgInRtdXggZmFpbGVkIHRvIHN0b3AgbGVnYWN5IGZuLWtub2NrIHNlc3Npb24ge25hbWV9IHdpdGgge30iLAogICAgICAgICAgICBraWxsZWQuc3RhdHVzCiAgICAgICAgKTsKICAgIH0KICAgIC8vIElmIHRtdXggaXMgbm8gbG9uZ2VyIGluc3RhbGxlZCB0aGVyZSBjYW5ub3QgYmUgYSByZWFjaGFibGUgdG11eCBzZXJ2ZXIKICAgIC8vIHRvIHRlcm1pbmF0ZS4gVGhlIHN0cmljdGx5LXNjb3BlZCBsZWdhY3kgcmVjb3JkcyBjYW4gc3RpbGwgYmUgcmVtb3ZlZC4KICAgIE9rKCgpKQp9CgojW2NmZyh1bml4KV0KYXN5bmMgZm4gcnVuX3RtdXgoCiAgICBleGVjdXRhYmxlOiAmc3RyLAogICAgYXJndW1lbnRzOiAmWyZzdHJdLAopIC0+IGFueWhvdzo6UmVzdWx0PE9wdGlvbjxzdGQ6OnByb2Nlc3M6Ok91dHB1dD4+IHsKICAgIGxldCBtdXQgY29tbWFuZCA9IHRva2lvOjpwcm9jZXNzOjpDb21tYW5kOjpuZXcoZXhlY3V0YWJsZSk7CiAgICBjb21tYW5kLmFyZ3MoYXJndW1lbnRzKS5raWxsX29uX2Ryb3AodHJ1ZSk7CiAgICBtYXRjaCB0b2tpbzo6dGltZTo6dGltZW91dChzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX3NlY3MoNSksIGNvbW1hbmQub3V0cHV0KCkpLmF3YWl0IHsKICAgICAgICBFcnIoXykgPT4gYW55aG93OjpiYWlsISgidGltZWQgb3V0IHJ1bm5pbmcgbGVnYWN5IHRlcm1pbmFsIHRtdXggY2xlYW51cCIpLAogICAgICAgIE9rKEVycihlcnJvcikpIGlmIGVycm9yLmtpbmQoKSA9PSBzdGQ6OmlvOjpFcnJvcktpbmQ6Ok5vdEZvdW5kID0+IE9rKE5vbmUpLAogICAgICAgIE9rKEVycihlcnJvcikpID0+IEVycihlcnJvci5pbnRvKCkpLAogICAgICAgIE9rKE9rKG91dHB1dCkpID0+IE9rKFNvbWUob3V0cHV0KSksCiAgICB9Cn0KCiNbY2ZnKHVuaXgpXQpmbiB0bXV4X3Nlc3Npb25fYWJzZW50KG91dHB1dDogJnN0ZDo6cHJvY2Vzczo6T3V0cHV0KSAtPiBib29sIHsKICAgIHRtdXhfc2Vzc2lvbl9hYnNlbnRfbWVzc2FnZSgmb3V0cHV0LnN0ZGVycikKfQoKI1tjZmcodW5peCldCmZuIHRtdXhfc2Vzc2lvbl9hYnNlbnRfbWVzc2FnZShzdGRlcnI6ICZbdThdKSAtPiBib29sIHsKICAgIGxldCBzdGRlcnIgPSBTdHJpbmc6OmZyb21fdXRmOF9sb3NzeShzdGRlcnIpLnRvX2FzY2lpX2xvd2VyY2FzZSgpOwogICAgc3RkZXJyLmNvbnRhaW5zKCJjYW4ndCBmaW5kIHNlc3Npb24iKQogICAgICAgIHx8IHN0ZGVyci5jb250YWlucygibm8gc2VydmVyIHJ1bm5pbmciKQogICAgICAgIHx8IHN0ZGVyci5jb250YWlucygiZmFpbGVkIHRvIGNvbm5lY3QgdG8gc2VydmVyIikKICAgICAgICB8fCBzdGRlcnIuY29udGFpbnMoImVycm9yIGNvbm5lY3RpbmcgdG8iKQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKCiAgICAjW3Rlc3RdCiAgICBmbiBhY2NlcHRzX29ubHlfb3duZWRfbGVnYWN5X3RtdXhfbmFtZXMoKSB7CiAgICAgICAgYXNzZXJ0ISh2YWxpZF9sZWdhY3lfdG11eF9uYW1lKCJmbmtfMDEyMzQ1Njc4OWFiY2RlZiIpKTsKICAgICAgICBhc3NlcnQhKCF2YWxpZF9sZWdhY3lfdG11eF9uYW1lKCJmbmtfMDEyMzQ1Njc4OWFiY2RlRiIpKTsKICAgICAgICBhc3NlcnQhKCF2YWxpZF9sZWdhY3lfdG11eF9uYW1lKCJmbmtfMDEyMzQ1Njc4OWFiY2RlZjAiKSk7CiAgICAgICAgYXNzZXJ0ISghdmFsaWRfbGVnYWN5X3RtdXhfbmFtZSgidXNlcl8wMTIzNDU2Nzg5YWJjZGUiKSk7CiAgICAgICAgYXNzZXJ0ISghdmFsaWRfbGVnYWN5X3RtdXhfbmFtZSgiZm5rXztybV9fX19fX19fX19fXyIpKTsKICAgIH0KCiAgICAjW2NmZyh1bml4KV0KICAgICNbdGVzdF0KICAgIGZuIHJlY29nbml6ZXNfb25seV9pZGVtcG90ZW50X3RtdXhfYWJzZW5jZV9lcnJvcnMoKSB7CiAgICAgICAgZm9yIG1lc3NhZ2UgaW4gWwogICAgICAgICAgICAiY2FuJ3QgZmluZCBzZXNzaW9uOiBmbmtfMDEyMzQ1Njc4OWFiY2RlZiIsCiAgICAgICAgICAgICJubyBzZXJ2ZXIgcnVubmluZyBvbiAvdG1wL3RtdXgtMTAwMC9kZWZhdWx0IiwKICAgICAgICAgICAgImZhaWxlZCB0byBjb25uZWN0IHRvIHNlcnZlcjogQ29ubmVjdGlvbiByZWZ1c2VkIiwKICAgICAgICAgICAgImVycm9yIGNvbm5lY3RpbmcgdG8gL3RtcC90bXV4LTEwMDAvZGVmYXVsdCAoTm8gc3VjaCBmaWxlIG9yIGRpcmVjdG9yeSkiLAogICAgICAgIF0gewogICAgICAgICAgICBhc3NlcnQhKHRtdXhfc2Vzc2lvbl9hYnNlbnRfbWVzc2FnZShtZXNzYWdlLmFzX2J5dGVzKCkpLCAie21lc3NhZ2V9Iik7CiAgICAgICAgfQogICAgICAgIGFzc2VydCEoIXRtdXhfc2Vzc2lvbl9hYnNlbnRfbWVzc2FnZSgKICAgICAgICAgICAgYiJvcGVuIHRlcm1pbmFsIGZhaWxlZDogcGVybWlzc2lvbiBkZW5pZWQiCiAgICAgICAgKSk7CiAgICB9Cn0K
+use serde_json::Value;
+use tokio::sync::Mutex;
+
+use crate::state::AppState;
+
+const SESSION_INDEX_KEY: &str = "fn_knock:terminal:session:index";
+const SESSION_DATA_PREFIX: &str = "fn_knock:terminal:session:data:";
+const SESSION_ATTACHMENTS_PREFIX: &str = "fn_knock:terminal:session:attachments:";
+const ATTACHMENT_DATA_PREFIX: &str = "fn_knock:terminal:attachment:data:";
+const CLEANUP_MARKER_KEY: &str = "fn_knock:terminal:migration:ssh-v1-legacy-cleanup";
+static CLEANUP_LOCK: Mutex<()> = Mutex::const_new(());
+
+pub async fn cleanup(state: &AppState) -> anyhow::Result<()> {
+    let _guard = CLEANUP_LOCK.lock().await;
+    let store = &state.storage.store;
+    if store.get_string_value(CLEANUP_MARKER_KEY).await?.as_deref() == Some("done") {
+        return Ok(());
+    }
+    let mut keys = vec![SESSION_INDEX_KEY.to_string()];
+    let mut tmux_sessions = Vec::new();
+    for data_key in store.scan_keys(SESSION_DATA_PREFIX, 200).await? {
+        if let Some(raw) = store.get_string_value(&data_key).await?
+            && let Ok(value) = serde_json::from_str::<Value>(&raw)
+            && let Some(name) = value.get("backend_session_name").and_then(Value::as_str)
+            && valid_legacy_tmux_name(name)
+        {
+            tmux_sessions.push(name.to_string());
+        }
+        keys.push(data_key);
+    }
+    keys.extend(store.scan_keys(SESSION_ATTACHMENTS_PREFIX, 200).await?);
+    keys.extend(store.scan_keys(ATTACHMENT_DATA_PREFIX, 200).await?);
+    tmux_sessions.sort();
+    tmux_sessions.dedup();
+    #[cfg(unix)]
+    for name in tmux_sessions {
+        kill_legacy_tmux_session(&name).await?;
+    }
+    store.delete_keys(&keys).await?;
+
+    let stream_dir = state.settings.data_dir.join("terminal-streams");
+    match tokio::fs::remove_dir_all(&stream_dir).await {
+        Ok(()) => {
+            tracing::info!(path = %stream_dir.display(), "removed legacy terminal stream directory")
+        }
+        Err(error) if error.kind() == std::io::ErrorKind::NotFound => {}
+        Err(error) => return Err(error.into()),
+    }
+    store
+        .set_string_value_with_optional_ttl(CLEANUP_MARKER_KEY, "done", None)
+        .await?;
+    Ok(())
+}
+
+fn valid_legacy_tmux_name(value: &str) -> bool {
+    value.len() == 20
+        && value.starts_with("fnk_")
+        && value[4..]
+            .bytes()
+            .all(|byte| byte.is_ascii_hexdigit() && !byte.is_ascii_uppercase())
+}
+
+#[cfg(unix)]
+async fn kill_legacy_tmux_session(name: &str) -> anyhow::Result<()> {
+    for executable in ["/usr/bin/tmux", "tmux"] {
+        let Some(has_session) = run_tmux(executable, &["has-session", "-t", name]).await? else {
+            continue;
+        };
+        if !has_session.status.success() {
+            if tmux_session_absent(&has_session) {
+                return Ok(());
+            }
+            anyhow::bail!(
+                "tmux failed to inspect legacy fn-knock session {name} with {}",
+                has_session.status
+            );
+        }
+        let Some(killed) = run_tmux(executable, &["kill-session", "-t", name]).await? else {
+            continue;
+        };
+        if killed.status.success() || tmux_session_absent(&killed) {
+            return Ok(());
+        }
+        anyhow::bail!(
+            "tmux failed to stop legacy fn-knock session {name} with {}",
+            killed.status
+        );
+    }
+    // If tmux is no longer installed there cannot be a reachable tmux server
+    // to terminate. The strictly-scoped legacy records can still be removed.
+    Ok(())
+}
+
+#[cfg(unix)]
+async fn run_tmux(
+    executable: &str,
+    arguments: &[&str],
+) -> anyhow::Result<Option<std::process::Output>> {
+    let mut command = tokio::process::Command::new(executable);
+    command.args(arguments).kill_on_drop(true);
+    match tokio::time::timeout(std::time::Duration::from_secs(5), command.output()).await {
+        Err(_) => anyhow::bail!("timed out running legacy terminal tmux cleanup"),
+        Ok(Err(error)) if error.kind() == std::io::ErrorKind::NotFound => Ok(None),
+        Ok(Err(error)) => Err(error.into()),
+        Ok(Ok(output)) => Ok(Some(output)),
+    }
+}
+
+#[cfg(unix)]
+fn tmux_session_absent(output: &std::process::Output) -> bool {
+    tmux_session_absent_message(&output.stderr)
+}
+
+#[cfg(unix)]
+fn tmux_session_absent_message(stderr: &[u8]) -> bool {
+    let stderr = String::from_utf8_lossy(stderr).to_ascii_lowercase();
+    stderr.contains("can't find session")
+        || stderr.contains("no server running")
+        || stderr.contains("failed to connect to server")
+        || stderr.contains("error connecting to")
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn accepts_only_owned_legacy_tmux_names() {
+        assert!(valid_legacy_tmux_name("fnk_0123456789abcdef"));
+        assert!(!valid_legacy_tmux_name("fnk_0123456789abcdeF"));
+        assert!(!valid_legacy_tmux_name("fnk_0123456789abcdef0"));
+        assert!(!valid_legacy_tmux_name("user_0123456789abcde"));
+        assert!(!valid_legacy_tmux_name("fnk_;rm____________"));
+    }
+
+    #[cfg(unix)]
+    #[test]
+    fn recognizes_only_idempotent_tmux_absence_errors() {
+        for message in [
+            "can't find session: fnk_0123456789abcdef",
+            "no server running on /tmp/tmux-1000/default",
+            "failed to connect to server: Connection refused",
+            "error connecting to /tmp/tmux-1000/default (No such file or directory)",
+        ] {
+            assert!(tmux_session_absent_message(message.as_bytes()), "{message}");
+        }
+        assert!(!tmux_session_absent_message(
+            b"open terminal failed: permission denied"
+        ));
+    }
+}

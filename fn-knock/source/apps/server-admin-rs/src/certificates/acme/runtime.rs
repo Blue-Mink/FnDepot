@@ -1,1 +1,247 @@
-dXNlIHN1cGVyOjoqOwoKY29uc3QgQUNNRV9TVE9QX1dBSVRfU0VDT05EUzogdTY0ID0gMTU7CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHJlY292ZXJfb3JwaGFuZWRfYWNtZV9ydW50aW1lX2pvYigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICB0OiAmVHJhbnNsYXRvciwKKSAtPiBhbnlob3c6OlJlc3VsdDxib29sPiB7CiAgICBsZXQgcmVjb3ZlcmVkID0gcmVjb3Zlcl9vcnBoYW5lZF9hY21lX2pvYnMoc3RhdGUsIHQpLmF3YWl0PzsKICAgIGxldCBTb21lKHJhd19sb2NrKSA9IHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZ2V0X2pzb25fdmFsdWUoQUNNRV9SVU5USU1FX0xPQ0tfS0VZKQogICAgICAgIC5hd2FpdD8KICAgIGVsc2UgewogICAgICAgIHJldHVybiBPayhyZWNvdmVyZWQpOwogICAgfTsKICAgIGxldCBsb2NrID0gbm9ybWFsaXplX3J1bnRpbWVfbG9jaygmcmF3X2xvY2spOwogICAgaWYgbG9jay5nZXQoImxvY2tlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSAhPSBTb21lKHRydWUpIHsKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLmRlbGV0ZV9rZXkoQUNNRV9SVU5USU1FX0xPQ0tfS0VZKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIHJldHVybiBPayh0cnVlKTsKICAgIH0KCiAgICBsZXQgbWVzc2FnZSA9IHQudCgic2VydmVyLmFjbWVKb2JSdW5uZXIubWFudWFsU3RvcCIpOwogICAgaWYgbGV0IFNvbWUoam9iX2lkKSA9IGxvY2suZ2V0KCJqb2JJZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpIHsKICAgICAgICBsZXQgc3RhdHVzID0gZ2V0X2FjbWVfam9iKHN0YXRlLCBqb2JfaWQpLmF3YWl0Py5hbmRfdGhlbih8am9ifCB7CiAgICAgICAgICAgIGpvYi5nZXQoInN0YXR1cyIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCiAgICAgICAgfSk7CiAgICAgICAgaWYgbWF0Y2hlcyEoc3RhdHVzLmFzX2RlcmVmKCksIFNvbWUoInF1ZXVlZCIgfCAicnVubmluZyIpIHwgTm9uZSkgewogICAgICAgICAgICBtYXJrX2FjbWVfam9iX3N0b3BwZWQoc3RhdGUsIGpvYl9pZCwgJm1lc3NhZ2UpLmF3YWl0PzsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWpvYl9pZCwgInJlY292ZXJlZCBhbiBvcnBoYW5lZCBBQ01FIGpvYiBhZnRlciByZXN0YXJ0Iik7CiAgICAgICAgfQogICAgfQoKICAgIGlmIGxldCBTb21lKGxvY2tfaWQpID0gbG9jay5nZXQoImxvY2tJZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpIHsKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLmRlbGV0ZV9sb2NrX2lmX293bmVkKEFDTUVfUlVOVElNRV9MT0NLX0tFWSwgbG9ja19pZCkKICAgICAgICAgICAgLmF3YWl0PzsKICAgIH0gZWxzZSB7CiAgICAgICAgLy8gVGhpcyBwcm9jZXNzIGhhcyBub3Qgc3RhcnRlZCBhbnkgQUNNRSBleGVjdXRvciB5ZXQsIHNvIGEgbWFsZm9ybWVkCiAgICAgICAgLy8gcGVyc2lzdGVkIGxlYXNlIGNhbiBvbmx5IGJlIGxlZnRvdmVyIHN0YXRlIGZyb20gYW4gaW50ZXJydXB0ZWQgcnVuLgogICAgICAgIHN0YXRlCiAgICAgICAgICAgIC5zdG9yYWdlCiAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAuZGVsZXRlX2tleShBQ01FX1JVTlRJTUVfTE9DS19LRVkpCiAgICAgICAgICAgIC5hd2FpdD87CiAgICB9CiAgICBPayh0cnVlKQp9Cgphc3luYyBmbiByZWNvdmVyX29ycGhhbmVkX2FjbWVfam9icyhzdGF0ZTogJkFwcFN0YXRlLCB0OiAmVHJhbnNsYXRvcikgLT4gYW55aG93OjpSZXN1bHQ8Ym9vbD4gewogICAgbGV0IG1lc3NhZ2UgPSB0LnQoInNlcnZlci5hY21lSm9iUnVubmVyLm1hbnVhbFN0b3AiKTsKICAgIGxldCBtdXQgcmVjb3ZlcmVkID0gZmFsc2U7CiAgICBmb3IgYXBwbGljYXRpb24gaW4gcmVhZF9hY21lX2FwcGxpY2F0aW9ucyhzdGF0ZSkuYXdhaXQ/IHsKICAgICAgICBpZiAhbWF0Y2hlcyEoCiAgICAgICAgICAgIGFwcGxpY2F0aW9uLmdldCgibGF0ZXN0Sm9iU3RhdHVzIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0ciksCiAgICAgICAgICAgIFNvbWUoInF1ZXVlZCIgfCAicnVubmluZyIpCiAgICAgICAgKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBsZXQgU29tZShqb2JfaWQpID0gYXBwbGljYXRpb24uZ2V0KCJsYXRlc3RKb2JJZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpIGVsc2UgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9OwogICAgICAgIGxldCBqb2IgPSBpZiBsZXQgU29tZShqb2IpID0gZ2V0X2FjbWVfam9iKHN0YXRlLCBqb2JfaWQpLmF3YWl0PyB7CiAgICAgICAgICAgIGpvYgogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGxldCByZWNvdmVyZWRfam9iID0ganNvbiEoewogICAgICAgICAgICAgICAgImlkIjogam9iX2lkLAogICAgICAgICAgICAgICAgImFwcGxpY2F0aW9uSWQiOiBhcHBsaWNhdGlvbi5nZXQoImlkIikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgICAgICAgICAgICAgICJkb21haW5zIjogYXBwbGljYXRpb24uZ2V0KCJkb21haW5zIikuY2xvbmVkKCkudW53cmFwX29yX2Vsc2UofHwganNvbiEoW10pKSwKICAgICAgICAgICAgICAgICJtZXRob2QiOiAiZG5zIiwKICAgICAgICAgICAgICAgICJwcm92aWRlciI6IGFwcGxpY2F0aW9uLmdldCgiZG5zVHlwZSIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCksCiAgICAgICAgICAgICAgICAidHJpZ2dlciI6IGFwcGxpY2F0aW9uLmdldCgibGF0ZXN0Sm9iVHJpZ2dlciIpLmNsb25lZCgpLnVud3JhcF9vcl9lbHNlKHx8IGpzb24hKCJtYW51YWxfcmVxdWVzdCIpKSwKICAgICAgICAgICAgICAgICJjcmVhdGVkQXQiOiBhcHBsaWNhdGlvbi5nZXQoImxhdGVzdEpvYkF0Iikub3JfZWxzZSh8fCBhcHBsaWNhdGlvbi5nZXQoInVwZGF0ZWRBdCIpKS5jbG9uZWQoKS51bndyYXBfb3JfZWxzZSh8fCBqc29uIShub3dfbm9kZV9pc28oKSkpLAogICAgICAgICAgICAgICAgImZpbmlzaGVkQXQiOiBub3dfbm9kZV9pc28oKSwKICAgICAgICAgICAgICAgICJzdGF0dXMiOiAic3RvcHBlZCIsCiAgICAgICAgICAgICAgICAicHJvZ3Jlc3MiOiAxMDAsCiAgICAgICAgICAgICAgICAibWVzc2FnZSI6IG1lc3NhZ2UuY2xvbmUoKSwKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIGNyZWF0ZV9hY21lX2pvYihzdGF0ZSwgJnJlY292ZXJlZF9qb2IsIHQpLmF3YWl0PzsKICAgICAgICAgICAgbGV0IFNvbWUoam9iKSA9IGdldF9hY21lX2pvYihzdGF0ZSwgam9iX2lkKS5hd2FpdD8gZWxzZSB7CiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgfTsKICAgICAgICAgICAgcmVjb3ZlcmVkID0gdHJ1ZTsKICAgICAgICAgICAgam9iCiAgICAgICAgfTsKICAgICAgICBpZiBtYXRjaGVzISgKICAgICAgICAgICAgam9iLmdldCgic3RhdHVzIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0ciksCiAgICAgICAgICAgIFNvbWUoInF1ZXVlZCIgfCAicnVubmluZyIpCiAgICAgICAgKSB7CiAgICAgICAgICAgIHJlY292ZXJlZCB8PSBtYXJrX2FjbWVfam9iX3N0b3BwZWQoc3RhdGUsIGpvYl9pZCwgJm1lc3NhZ2UpCiAgICAgICAgICAgICAgICAuYXdhaXQ/CiAgICAgICAgICAgICAgICAuaXNfc29tZSgpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHVwZGF0ZV9hY21lX2FwcGxpY2F0aW9uX2pvYl9zdGF0ZShzdGF0ZSwgJmFwcGxpY2F0aW9uLCAmam9iKS5hd2FpdD87CiAgICAgICAgfQogICAgfQogICAgT2socmVjb3ZlcmVkKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHN0b3BfYWN0aXZlX2FjbWVfam9iKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHQ6ICZUcmFuc2xhdG9yLAopIC0+IGFueWhvdzo6UmVzdWx0PFZhbHVlPiB7CiAgICBsZXQgbG9jayA9IGdldF9hY3RpdmVfYWNtZV9ydW50aW1lX2xvY2soc3RhdGUpLmF3YWl0PzsKICAgIGlmIGxvY2suZ2V0KCJsb2NrZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgIT0gU29tZSh0cnVlKSB7CiAgICAgICAgcmV0dXJuIE9rKGpzb24hKHsKICAgICAgICAgICAgInN0b3BwZWQiOiBmYWxzZSwKICAgICAgICAgICAgImpvYiI6IFZhbHVlOjpOdWxsLAogICAgICAgICAgICAibG9jayI6IGxvY2ssCiAgICAgICAgICAgICJwcm9jZXNzUmVzdWx0IjogZW1wdHlfYWNtZV9wcm9jZXNzX3Jlc3VsdCgpLAogICAgICAgIH0pKTsKICAgIH0KCiAgICBsZXQgbWVzc2FnZSA9IHQudCgic2VydmVyLmFjbWVKb2JSdW5uZXIubWFudWFsU3RvcCIpOwogICAgbGV0IGpvYl9pZCA9IGxvY2sKICAgICAgICAuZ2V0KCJqb2JJZCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICAudG9fc3RyaW5nKCk7CiAgICBsZXQgbXV0IGpvYiA9IGlmIGpvYl9pZC5pc19lbXB0eSgpIHsKICAgICAgICBWYWx1ZTo6TnVsbAogICAgfSBlbHNlIHsKICAgICAgICBtYXJrX2FjbWVfam9iX3N0b3BwZWQoc3RhdGUsICZqb2JfaWQsICZtZXNzYWdlKQogICAgICAgICAgICAuYXdhaXQ/CiAgICAgICAgICAgIC51bndyYXBfb3IoVmFsdWU6Ok51bGwpCiAgICB9OwoKICAgIGxldCBtdXQgbWF0Y2hlZF9waWRzID0gVmVjOjpuZXcoKTsKICAgIGxldCBtdXQgcmVtYWluaW5nX3BpZHMgPSBWZWM6Om5ldygpOwogICAgbGV0IG11dCBlcnJvcnMgPSBWZWM6Om5ldygpOwogICAgbGV0IG11dCBleGVjdXRvcl9maW5pc2hlZCA9IHRydWU7CgogICAgaWYgbGV0IFNvbWUoY29udHJvbCkgPSBzdGF0ZS5hY21lX2pvYl9jb250cm9sKCZqb2JfaWQpLmF3YWl0IHsKICAgICAgICBsZXQgcGlkID0gY29udHJvbC5waWQoKTsKICAgICAgICBpZiBwaWQgPiAwIHsKICAgICAgICAgICAgbWF0Y2hlZF9waWRzLnB1c2gocGlkKTsKICAgICAgICB9CiAgICAgICAgY29udHJvbC5jYW5jZWxsYXRpb24uY2FuY2VsKCk7CiAgICAgICAgZXhlY3V0b3JfZmluaXNoZWQgPSB0b2tpb190aW1lOjp0aW1lb3V0KAogICAgICAgICAgICBzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX3NlY3MoQUNNRV9TVE9QX1dBSVRfU0VDT05EUyksCiAgICAgICAgICAgIGNvbnRyb2wuZmluaXNoZWQuY2FuY2VsbGVkKCksCiAgICAgICAgKQogICAgICAgIC5hd2FpdAogICAgICAgIC5pc19vaygpOwogICAgICAgIGlmICFleGVjdXRvcl9maW5pc2hlZCB7CiAgICAgICAgICAgIGVycm9ycy5wdXNoKCJUaW1lZCBvdXQgd2hpbGUgd2FpdGluZyBmb3IgdGhlIEFDTUUgZXhlY3V0b3IgdG8gc3RvcCIudG9fc3RyaW5nKCkpOwogICAgICAgIH0KICAgICAgICBpZiBwaWQgPiAwCiAgICAgICAgICAgICYmIGkzMjo6dHJ5X2Zyb20ocGlkKQogICAgICAgICAgICAgICAgLm9rKCkKICAgICAgICAgICAgICAgIC5pc19zb21lX2FuZChjcmF0ZTo6dW5peDo6cHJvY2Vzc19leGlzdHMpCiAgICAgICAgewogICAgICAgICAgICByZW1haW5pbmdfcGlkcy5wdXNoKHBpZCk7CiAgICAgICAgICAgIGVycm9ycy5wdXNoKCJUaGUgQUNNRSBwcm9jZXNzIGlzIHN0aWxsIHJ1bm5pbmcgYWZ0ZXIgY2FuY2VsbGF0aW9uIi50b19zdHJpbmcoKSk7CiAgICAgICAgfQogICAgfSBlbHNlIHsKICAgICAgICAvLyBObyBleGVjdXRvciBpbiB0aGlzIHByb2Nlc3Mgb3ducyB0aGUgbGVhc2UuIFRoaXMgaXMgdGhlIHJlY292ZXJ5CiAgICAgICAgLy8gcGF0aCBmb3IgYSBjb250YWluZXIgcmVzdGFydCBvciBhbiBvbGRlciBwZXJzaXN0ZWQgc3RvcHBlZCBqb2IuCiAgICAgICAgcmVsZWFzZV9vcnBoYW5lZF9hY21lX3J1bnRpbWVfbG9jayhzdGF0ZSwgJmxvY2spLmF3YWl0PzsKICAgIH0KCiAgICBpZiBqb2IuaXNfbnVsbCgpICYmICFqb2JfaWQuaXNfZW1wdHkoKSB7CiAgICAgICAgam9iID0gbWFya19hY21lX2pvYl9zdG9wcGVkKHN0YXRlLCAmam9iX2lkLCAmbWVzc2FnZSkKICAgICAgICAgICAgLmF3YWl0PwogICAgICAgICAgICAudW53cmFwX29yKFZhbHVlOjpOdWxsKTsKICAgIH0KCiAgICBsZXQgY3VycmVudF9sb2NrID0gZ2V0X2FjdGl2ZV9hY21lX3J1bnRpbWVfbG9jayhzdGF0ZSkuYXdhaXQ/OwogICAgbGV0IGxvY2tfcmVsZWFzZWQgPSBjdXJyZW50X2xvY2suZ2V0KCJsb2NrZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgIT0gU29tZSh0cnVlKTsKICAgIGlmIGV4ZWN1dG9yX2ZpbmlzaGVkICYmICFsb2NrX3JlbGVhc2VkIHsKICAgICAgICBlcnJvcnMucHVzaCgiVGhlIEFDTUUgZXhlY3V0b3Igc3RvcHBlZCBidXQgaXRzIHJ1bnRpbWUgbG9jayBpcyBzdGlsbCBhY3RpdmUiLnRvX3N0cmluZygpKTsKICAgIH0KICAgIGxldCBzdG9wcGVkID0gIWpvYi5pc19udWxsKCkgJiYgZXhlY3V0b3JfZmluaXNoZWQgJiYgbG9ja19yZWxlYXNlZCAmJiByZW1haW5pbmdfcGlkcy5pc19lbXB0eSgpOwoKICAgIE9rKGpzb24hKHsKICAgICAgICAic3RvcHBlZCI6IHN0b3BwZWQsCiAgICAgICAgImpvYiI6IGpvYiwKICAgICAgICAibG9jayI6IGN1cnJlbnRfbG9jaywKICAgICAgICAicHJvY2Vzc1Jlc3VsdCI6IHsKICAgICAgICAgICAgIm1hdGNoZWRQaWRzIjogbWF0Y2hlZF9waWRzLAogICAgICAgICAgICAicmVtYWluaW5nUGlkcyI6IHJlbWFpbmluZ19waWRzLAogICAgICAgICAgICAiZXJyb3JzIjogZXJyb3JzLAogICAgICAgIH0sCiAgICB9KSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBtYXJrX2FjbWVfam9iX3N0b3BwZWQoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgam9iX2lkOiAmc3RyLAogICAgbWVzc2FnZTogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDxPcHRpb248VmFsdWU+PiB7CiAgICBsZXQgU29tZSh1cGRhdGVkKSA9IHVwZGF0ZV9hY21lX2pvYigKICAgICAgICBzdGF0ZSwKICAgICAgICBqb2JfaWQsCiAgICAgICAganNvbiEoewogICAgICAgICAgICAic3RhdHVzIjogInN0b3BwZWQiLAogICAgICAgICAgICAicHJvZ3Jlc3MiOiAxMDAsCiAgICAgICAgICAgICJmaW5pc2hlZEF0Ijogbm93X25vZGVfaXNvKCksCiAgICAgICAgICAgICJtZXNzYWdlIjogbWVzc2FnZSwKICAgICAgICB9KSwKICAgICkKICAgIC5hd2FpdD8KICAgIGVsc2UgewogICAgICAgIHJldHVybiBPayhOb25lKTsKICAgIH07CgogICAgYXBwZW5kX2FjbWVfbG9nKHN0YXRlLCBqb2JfaWQsIG1lc3NhZ2UpLmF3YWl0Lm9rKCk7CiAgICBpZiBsZXQgU29tZShhcHBsaWNhdGlvbl9pZCkgPSB1cGRhdGVkLmdldCgiYXBwbGljYXRpb25JZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgJiYgbGV0IFNvbWUoYXBwbGljYXRpb24pID0gZmluZF9hY21lX2FwcGxpY2F0aW9uKHN0YXRlLCBhcHBsaWNhdGlvbl9pZCkuYXdhaXQ/CiAgICB7CiAgICAgICAgdXBkYXRlX2FjbWVfYXBwbGljYXRpb25fam9iX3N0YXRlKHN0YXRlLCAmYXBwbGljYXRpb24sICZ1cGRhdGVkKS5hd2FpdD87CiAgICB9CiAgICBPayhTb21lKHVwZGF0ZWQpKQp9Cgphc3luYyBmbiByZWxlYXNlX29ycGhhbmVkX2FjbWVfcnVudGltZV9sb2NrKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGxvY2s6ICZWYWx1ZSwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgaWYgbGV0IFNvbWUobG9ja19pZCkgPSBsb2NrLmdldCgibG9ja0lkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgewogICAgICAgIHN0YXRlCiAgICAgICAgICAgIC5zdG9yYWdlCiAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAuZGVsZXRlX2xvY2tfaWZfb3duZWQoQUNNRV9SVU5USU1FX0xPQ0tfS0VZLCBsb2NrX2lkKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgfSBlbHNlIHsKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLmRlbGV0ZV9rZXkoQUNNRV9SVU5USU1FX0xPQ0tfS0VZKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgfQogICAgT2soKCkpCn0KCmZuIGVtcHR5X2FjbWVfcHJvY2Vzc19yZXN1bHQoKSAtPiBWYWx1ZSB7CiAgICBqc29uISh7ICJtYXRjaGVkUGlkcyI6IFtdLCAicmVtYWluaW5nUGlkcyI6IFtdLCAiZXJyb3JzIjogW10gfSkKfQo=
+use super::*;
+
+const ACME_STOP_WAIT_SECONDS: u64 = 15;
+
+pub(super) async fn recover_orphaned_acme_runtime_job(
+    state: &AppState,
+    t: &Translator,
+) -> anyhow::Result<bool> {
+    let recovered = recover_orphaned_acme_jobs(state, t).await?;
+    let Some(raw_lock) = state
+        .storage
+        .store
+        .get_json_value(ACME_RUNTIME_LOCK_KEY)
+        .await?
+    else {
+        return Ok(recovered);
+    };
+    let lock = normalize_runtime_lock(&raw_lock);
+    if lock.get("locked").and_then(Value::as_bool) != Some(true) {
+        state
+            .storage
+            .store
+            .delete_key(ACME_RUNTIME_LOCK_KEY)
+            .await?;
+        return Ok(true);
+    }
+
+    let message = t.t("server.acmeJobRunner.manualStop");
+    if let Some(job_id) = lock.get("jobId").and_then(Value::as_str) {
+        let status = get_acme_job(state, job_id).await?.and_then(|job| {
+            job.get("status")
+                .and_then(Value::as_str)
+                .map(str::to_string)
+        });
+        if matches!(status.as_deref(), Some("queued" | "running") | None) {
+            mark_acme_job_stopped(state, job_id, &message).await?;
+            tracing::warn!(%job_id, "recovered an orphaned ACME job after restart");
+        }
+    }
+
+    if let Some(lock_id) = lock.get("lockId").and_then(Value::as_str) {
+        state
+            .storage
+            .store
+            .delete_lock_if_owned(ACME_RUNTIME_LOCK_KEY, lock_id)
+            .await?;
+    } else {
+        // This process has not started any ACME executor yet, so a malformed
+        // persisted lease can only be leftover state from an interrupted run.
+        state
+            .storage
+            .store
+            .delete_key(ACME_RUNTIME_LOCK_KEY)
+            .await?;
+    }
+    Ok(true)
+}
+
+async fn recover_orphaned_acme_jobs(state: &AppState, t: &Translator) -> anyhow::Result<bool> {
+    let message = t.t("server.acmeJobRunner.manualStop");
+    let mut recovered = false;
+    for application in read_acme_applications(state).await? {
+        if !matches!(
+            application.get("latestJobStatus").and_then(Value::as_str),
+            Some("queued" | "running")
+        ) {
+            continue;
+        }
+        let Some(job_id) = application.get("latestJobId").and_then(Value::as_str) else {
+            continue;
+        };
+        let job = if let Some(job) = get_acme_job(state, job_id).await? {
+            job
+        } else {
+            let recovered_job = json!({
+                "id": job_id,
+                "applicationId": application.get("id").cloned().unwrap_or(Value::Null),
+                "domains": application.get("domains").cloned().unwrap_or_else(|| json!([])),
+                "method": "dns",
+                "provider": application.get("dnsType").cloned().unwrap_or(Value::Null),
+                "trigger": application.get("latestJobTrigger").cloned().unwrap_or_else(|| json!("manual_request")),
+                "createdAt": application.get("latestJobAt").or_else(|| application.get("updatedAt")).cloned().unwrap_or_else(|| json!(now_node_iso())),
+                "finishedAt": now_node_iso(),
+                "status": "stopped",
+                "progress": 100,
+                "message": message.clone(),
+            });
+            create_acme_job(state, &recovered_job, t).await?;
+            let Some(job) = get_acme_job(state, job_id).await? else {
+                continue;
+            };
+            recovered = true;
+            job
+        };
+        if matches!(
+            job.get("status").and_then(Value::as_str),
+            Some("queued" | "running")
+        ) {
+            recovered |= mark_acme_job_stopped(state, job_id, &message)
+                .await?
+                .is_some();
+        } else {
+            update_acme_application_job_state(state, &application, &job).await?;
+        }
+    }
+    Ok(recovered)
+}
+
+pub(super) async fn stop_active_acme_job(
+    state: &AppState,
+    t: &Translator,
+) -> anyhow::Result<Value> {
+    let lock = get_active_acme_runtime_lock(state).await?;
+    if lock.get("locked").and_then(Value::as_bool) != Some(true) {
+        return Ok(json!({
+            "stopped": false,
+            "job": Value::Null,
+            "lock": lock,
+            "processResult": empty_acme_process_result(),
+        }));
+    }
+
+    let message = t.t("server.acmeJobRunner.manualStop");
+    let job_id = lock
+        .get("jobId")
+        .and_then(Value::as_str)
+        .unwrap_or_default()
+        .to_string();
+    let mut job = if job_id.is_empty() {
+        Value::Null
+    } else {
+        mark_acme_job_stopped(state, &job_id, &message)
+            .await?
+            .unwrap_or(Value::Null)
+    };
+
+    let mut matched_pids = Vec::new();
+    let mut remaining_pids = Vec::new();
+    let mut errors = Vec::new();
+    let mut executor_finished = true;
+
+    if let Some(control) = state.acme_job_control(&job_id).await {
+        let pid = control.pid();
+        if pid > 0 {
+            matched_pids.push(pid);
+        }
+        control.cancellation.cancel();
+        executor_finished = tokio_time::timeout(
+            std::time::Duration::from_secs(ACME_STOP_WAIT_SECONDS),
+            control.finished.cancelled(),
+        )
+        .await
+        .is_ok();
+        if !executor_finished {
+            errors.push("Timed out while waiting for the ACME executor to stop".to_string());
+        }
+        if pid > 0
+            && i32::try_from(pid)
+                .ok()
+                .is_some_and(crate::unix::process_exists)
+        {
+            remaining_pids.push(pid);
+            errors.push("The ACME process is still running after cancellation".to_string());
+        }
+    } else {
+        // No executor in this process owns the lease. This is the recovery
+        // path for a container restart or an older persisted stopped job.
+        release_orphaned_acme_runtime_lock(state, &lock).await?;
+    }
+
+    if job.is_null() && !job_id.is_empty() {
+        job = mark_acme_job_stopped(state, &job_id, &message)
+            .await?
+            .unwrap_or(Value::Null);
+    }
+
+    let current_lock = get_active_acme_runtime_lock(state).await?;
+    let lock_released = current_lock.get("locked").and_then(Value::as_bool) != Some(true);
+    if executor_finished && !lock_released {
+        errors.push("The ACME executor stopped but its runtime lock is still active".to_string());
+    }
+    let stopped = !job.is_null() && executor_finished && lock_released && remaining_pids.is_empty();
+
+    Ok(json!({
+        "stopped": stopped,
+        "job": job,
+        "lock": current_lock,
+        "processResult": {
+            "matchedPids": matched_pids,
+            "remainingPids": remaining_pids,
+            "errors": errors,
+        },
+    }))
+}
+
+pub(super) async fn mark_acme_job_stopped(
+    state: &AppState,
+    job_id: &str,
+    message: &str,
+) -> anyhow::Result<Option<Value>> {
+    let Some(updated) = update_acme_job(
+        state,
+        job_id,
+        json!({
+            "status": "stopped",
+            "progress": 100,
+            "finishedAt": now_node_iso(),
+            "message": message,
+        }),
+    )
+    .await?
+    else {
+        return Ok(None);
+    };
+
+    append_acme_log(state, job_id, message).await.ok();
+    if let Some(application_id) = updated.get("applicationId").and_then(Value::as_str)
+        && let Some(application) = find_acme_application(state, application_id).await?
+    {
+        update_acme_application_job_state(state, &application, &updated).await?;
+    }
+    Ok(Some(updated))
+}
+
+async fn release_orphaned_acme_runtime_lock(
+    state: &AppState,
+    lock: &Value,
+) -> crate::storage::StorageResult<()> {
+    if let Some(lock_id) = lock.get("lockId").and_then(Value::as_str) {
+        state
+            .storage
+            .store
+            .delete_lock_if_owned(ACME_RUNTIME_LOCK_KEY, lock_id)
+            .await?;
+    } else {
+        state
+            .storage
+            .store
+            .delete_key(ACME_RUNTIME_LOCK_KEY)
+            .await?;
+    }
+    Ok(())
+}
+
+fn empty_acme_process_result() -> Value {
+    json!({ "matchedPids": [], "remainingPids": [], "errors": [] })
+}

@@ -1,1 +1,21 @@
-PHNjcmlwdCBsYW5nPSJ0cyIgc2V0dXA+CmltcG9ydCB0eXBlIHsgUHJpbWl0aXZlUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyBQcmltaXRpdmUgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoZGVmaW5lUHJvcHM8UHJpbWl0aXZlUHJvcHMgJiB7IGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0gfT4oKSwgewogIGFzOiAiYSIsCn0pCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxQcmltaXRpdmUKICAgIGRhdGEtc2xvdD0iYnJlYWRjcnVtYi1saW5rIgogICAgOmFzPSJhcyIKICAgIDphcy1jaGlsZD0iYXNDaGlsZCIKICAgIDpjbGFzcz0iY24oJ2hvdmVyOnRleHQtZm9yZWdyb3VuZCB0cmFuc2l0aW9uLWNvbG9ycycsIHByb3BzLmNsYXNzKSIKICA+CiAgICA8c2xvdCAvPgogIDwvUHJpbWl0aXZlPgo8L3RlbXBsYXRlPgo=
+<script lang="ts" setup>
+import type { PrimitiveProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { Primitive } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = withDefaults(defineProps<PrimitiveProps & { class?: HTMLAttributes["class"] }>(), {
+  as: "a",
+})
+</script>
+
+<template>
+  <Primitive
+    data-slot="breadcrumb-link"
+    :as="as"
+    :as-child="asChild"
+    :class="cn('hover:text-foreground transition-colors', props.class)"
+  >
+    <slot />
+  </Primitive>
+</template>

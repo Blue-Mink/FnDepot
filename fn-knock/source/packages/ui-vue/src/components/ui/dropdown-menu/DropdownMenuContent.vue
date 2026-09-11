@@ -1,1 +1,39 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRHJvcGRvd25NZW51Q29udGVudEVtaXRzLCBEcm9wZG93bk1lbnVDb250ZW50UHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyByZWFjdGl2ZU9taXQgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7CiAgRHJvcGRvd25NZW51Q29udGVudCwKICBEcm9wZG93bk1lbnVQb3J0YWwsCiAgdXNlRm9yd2FyZFByb3BzRW1pdHMsCn0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKCmRlZmluZU9wdGlvbnMoewogIGluaGVyaXRBdHRyczogZmFsc2UsCn0pCgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cygKICBkZWZpbmVQcm9wczxEcm9wZG93bk1lbnVDb250ZW50UHJvcHMgJiB7IGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0gfT4oKSwKICB7CiAgICBzaWRlT2Zmc2V0OiA0LAogIH0sCikKY29uc3QgZW1pdHMgPSBkZWZpbmVFbWl0czxEcm9wZG93bk1lbnVDb250ZW50RW1pdHM+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQoKY29uc3QgZm9yd2FyZGVkID0gdXNlRm9yd2FyZFByb3BzRW1pdHMoZGVsZWdhdGVkUHJvcHMsIGVtaXRzKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RHJvcGRvd25NZW51UG9ydGFsPgogICAgPERyb3Bkb3duTWVudUNvbnRlbnQKICAgICAgZGF0YS1zbG90PSJkcm9wZG93bi1tZW51LWNvbnRlbnQiCiAgICAgIHYtYmluZD0ieyAuLi4kYXR0cnMsIC4uLmZvcndhcmRlZCB9IgogICAgICA6Y2xhc3M9ImNuKCdiZy1wb3BvdmVyIHRleHQtcG9wb3Zlci1mb3JlZ3JvdW5kIGRhdGEtW3N0YXRlPW9wZW5dOmFuaW1hdGUtaW4gZGF0YS1bc3RhdGU9Y2xvc2VkXTphbmltYXRlLW91dCBkYXRhLVtzdGF0ZT1jbG9zZWRdOmZhZGUtb3V0LTAgZGF0YS1bc3RhdGU9b3Blbl06ZmFkZS1pbi0wIGRhdGEtW3N0YXRlPWNsb3NlZF06em9vbS1vdXQtOTUgZGF0YS1bc3RhdGU9b3Blbl06em9vbS1pbi05NSBkYXRhLVtzaWRlPWJvdHRvbV06c2xpZGUtaW4tZnJvbS10b3AtMiBkYXRhLVtzaWRlPWxlZnRdOnNsaWRlLWluLWZyb20tcmlnaHQtMiBkYXRhLVtzaWRlPXJpZ2h0XTpzbGlkZS1pbi1mcm9tLWxlZnQtMiBkYXRhLVtzaWRlPXRvcF06c2xpZGUtaW4tZnJvbS1ib3R0b20tMiB6LTUwIG1heC1oLSgtLXJla2EtZHJvcGRvd24tbWVudS1jb250ZW50LWF2YWlsYWJsZS1oZWlnaHQpIG1pbi13LVs4cmVtXSBvcmlnaW4tKC0tcmVrYS1kcm9wZG93bi1tZW51LWNvbnRlbnQtdHJhbnNmb3JtLW9yaWdpbikgb3ZlcmZsb3cteC1oaWRkZW4gb3ZlcmZsb3cteS1hdXRvIHJvdW5kZWQtbWQgYm9yZGVyIHAtMSBzaGFkb3ctbWQnLCBwcm9wcy5jbGFzcykiCiAgICA+CiAgICAgIDxzbG90IC8+CiAgICA8L0Ryb3Bkb3duTWVudUNvbnRlbnQ+CiAgPC9Ecm9wZG93bk1lbnVQb3J0YWw+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { DropdownMenuContentEmits, DropdownMenuContentProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import {
+  DropdownMenuContent,
+  DropdownMenuPortal,
+  useForwardPropsEmits,
+} from "reka-ui"
+import { cn } from "@/lib/utils"
+
+defineOptions({
+  inheritAttrs: false,
+})
+
+const props = withDefaults(
+  defineProps<DropdownMenuContentProps & { class?: HTMLAttributes["class"] }>(),
+  {
+    sideOffset: 4,
+  },
+)
+const emits = defineEmits<DropdownMenuContentEmits>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwarded = useForwardPropsEmits(delegatedProps, emits)
+</script>
+
+<template>
+  <DropdownMenuPortal>
+    <DropdownMenuContent
+      data-slot="dropdown-menu-content"
+      v-bind="{ ...$attrs, ...forwarded }"
+      :class="cn('bg-popover text-popover-foreground data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 z-50 max-h-(--reka-dropdown-menu-content-available-height) min-w-[8rem] origin-(--reka-dropdown-menu-content-transform-origin) overflow-x-hidden overflow-y-auto rounded-md border p-1 shadow-md', props.class)"
+    >
+      <slot />
+    </DropdownMenuContent>
+  </DropdownMenuPortal>
+</template>

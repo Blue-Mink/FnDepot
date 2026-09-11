@@ -1,1 +1,477 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiBlbnN1cmVfZmFsbGJhY2tfb3JpZ2luKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGFwaTogJkNsb3VkZmxhcmVBcGksCiAgICB6b25lX2lkOiAmc3RyLAogICAgb3duZXJzaGlwOiAmbXV0IFZhbHVlLAogICAgZGVzaXJlZF9vcmlnaW46ICZzdHIsCiAgICB0YWtlb3ZlcjogYm9vbCwKKSAtPiBSZXN1bHQ8RmFsbGJhY2tPcmlnaW5SZXN1bHQsIENsb3VkZmxhcmVBcGlFcnJvcj4gewogICAgbGV0IGN1cnJlbnQgPSBvd25lcnNoaXAucG9pbnRlcigiL29wdGltaXphdGlvbi9mYWxsYmFja09yaWdpbiIpLmNsb25lZCgpOwogICAgbGV0IHJlbW90ZV92YWx1ZSA9IGFwaS5nZXRfZmFsbGJhY2tfb3JpZ2luKHpvbmVfaWQpLmF3YWl0PzsKICAgIGxldCByZW1vdGVfb3JpZ2luID0gcmVtb3RlX3ZhbHVlCiAgICAgICAgLmFzX3JlZigpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuZ2V0KCJvcmlnaW4iKSkKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cik7CiAgICBsZXQgb3duZWRfb3JpZ2luID0gY3VycmVudAogICAgICAgIC5hc19yZWYoKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLmdldCgib3JpZ2luIikpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpOwogICAgbGV0IG93bmVkX2tpbmQgPSBjdXJyZW50CiAgICAgICAgLmFzX3JlZigpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuZ2V0KCJvd25lcnNoaXAiKSkKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cik7CgogICAgbGV0IChuZXh0LCBvd25lcnNoaXBfa2luZCwgcHJldmlvdXNfb3JpZ2luKSA9IG1hdGNoIHJlbW90ZV9vcmlnaW4gewogICAgICAgIE5vbmUgPT4gKAogICAgICAgICAgICBhcGkudXBkYXRlX2ZhbGxiYWNrX29yaWdpbih6b25lX2lkLCBkZXNpcmVkX29yaWdpbikuYXdhaXQ/LAogICAgICAgICAgICAiZGVkaWNhdGVkIiwKICAgICAgICAgICAgTm9uZSwKICAgICAgICApLAogICAgICAgIFNvbWUocmVtb3RlKSBpZiByZW1vdGUuZXFfaWdub3JlX2FzY2lpX2Nhc2UoZGVzaXJlZF9vcmlnaW4pID0+IHsKICAgICAgICAgICAgaWYgbGV0IChTb21lKF8pLCBTb21lKGtpbmQpKSA9IChvd25lZF9vcmlnaW4sIG93bmVkX2tpbmQpIHsKICAgICAgICAgICAgICAgICgKICAgICAgICAgICAgICAgICAgICByZW1vdGVfdmFsdWUKICAgICAgICAgICAgICAgICAgICAgICAgLmNsb25lKCkKICAgICAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IGpzb24hKHsgIm9yaWdpbiI6IHJlbW90ZSB9KSksCiAgICAgICAgICAgICAgICAgICAga2luZCwKICAgICAgICAgICAgICAgICAgICBjdXJyZW50CiAgICAgICAgICAgICAgICAgICAgICAgIC5hc19yZWYoKQogICAgICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5nZXQoInByZXZpb3VzT3JpZ2luIikpCiAgICAgICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGlmICF0YWtlb3ZlciB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihDbG91ZGZsYXJlQXBpRXJyb3IgewogICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXM6IFNvbWUoU3RhdHVzQ29kZTo6Q09ORkxJQ1QpLAogICAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlOiAiVGhlIENsb3VkZmxhcmUgZm9yIFNhYVMgZmFsbGJhY2sgb3JpZ2luIGFscmVhZHkgZXhpc3RzIGFuZCBpcyBub3Qgb3duZWQgYnkgZm4ta25vY2s7IHByZXZpZXcgYW5kIGV4cGxpY2l0bHkgY29uZmlybSB0YWtlb3ZlciIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICgKICAgICAgICAgICAgICAgICAgICByZW1vdGVfdmFsdWUKICAgICAgICAgICAgICAgICAgICAgICAgLmNsb25lKCkKICAgICAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IGpzb24hKHsgIm9yaWdpbiI6IHJlbW90ZSB9KSksCiAgICAgICAgICAgICAgICAgICAgImFkb3B0ZWQiLAogICAgICAgICAgICAgICAgICAgIE5vbmUsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgU29tZShyZW1vdGUpIGlmIG93bmVkX29yaWdpbiA9PSBTb21lKHJlbW90ZSkgPT4gewogICAgICAgICAgICBpZiBsZXQgU29tZShraW5kKSA9IG93bmVkX2tpbmQgewogICAgICAgICAgICAgICAgKAogICAgICAgICAgICAgICAgICAgIGFwaS51cGRhdGVfZmFsbGJhY2tfb3JpZ2luKHpvbmVfaWQsIGRlc2lyZWRfb3JpZ2luKS5hd2FpdD8sCiAgICAgICAgICAgICAgICAgICAga2luZCwKICAgICAgICAgICAgICAgICAgICBjdXJyZW50CiAgICAgICAgICAgICAgICAgICAgICAgIC5hc19yZWYoKQogICAgICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5nZXQoInByZXZpb3VzT3JpZ2luIikpCiAgICAgICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBlbHNlIGlmIHRha2VvdmVyIHsKICAgICAgICAgICAgICAgICgKICAgICAgICAgICAgICAgICAgICBhcGkudXBkYXRlX2ZhbGxiYWNrX29yaWdpbih6b25lX2lkLCBkZXNpcmVkX29yaWdpbikuYXdhaXQ/LAogICAgICAgICAgICAgICAgICAgICJhZG9wdGVkIiwKICAgICAgICAgICAgICAgICAgICBTb21lKHJlbW90ZSksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICByZXR1cm4gRXJyKENsb3VkZmxhcmVBcGlFcnJvciB7CiAgICAgICAgICAgICAgICAgICAgc3RhdHVzOiBTb21lKFN0YXR1c0NvZGU6OkNPTkZMSUNUKSwKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlOiAiQSBkaWZmZXJlbnQgQ2xvdWRmbGFyZSBmb3IgU2FhUyBmYWxsYmFjayBvcmlnaW4gZXhpc3RzOyBwcmV2aWV3IGFuZCBleHBsaWNpdGx5IGNvbmZpcm0gdGFrZW92ZXIiCiAgICAgICAgICAgICAgICAgICAgICAgIC50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIFNvbWUocmVtb3RlKSBpZiB0YWtlb3ZlciA9PiAoCiAgICAgICAgICAgIGFwaS51cGRhdGVfZmFsbGJhY2tfb3JpZ2luKHpvbmVfaWQsIGRlc2lyZWRfb3JpZ2luKS5hd2FpdD8sCiAgICAgICAgICAgICJhZG9wdGVkIiwKICAgICAgICAgICAgU29tZShyZW1vdGUpLAogICAgICAgICksCiAgICAgICAgU29tZShfKSA9PiB7CiAgICAgICAgICAgIHJldHVybiBFcnIoQ2xvdWRmbGFyZUFwaUVycm9yIHsKICAgICAgICAgICAgICAgIHN0YXR1czogU29tZShTdGF0dXNDb2RlOjpDT05GTElDVCksCiAgICAgICAgICAgICAgICBtZXNzYWdlOiAiQSBkaWZmZXJlbnQgQ2xvdWRmbGFyZSBmb3IgU2FhUyBmYWxsYmFjayBvcmlnaW4gZXhpc3RzOyBwcmV2aWV3IGFuZCBleHBsaWNpdGx5IGNvbmZpcm0gdGFrZW92ZXIiCiAgICAgICAgICAgICAgICAgICAgLnRvX3N0cmluZygpLAogICAgICAgICAgICB9KTsKICAgICAgICB9CiAgICB9OwoKICAgIGxldCBzdGF0dXMgPSBuZXh0CiAgICAgICAgLmdldCgic3RhdHVzIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAudW53cmFwX29yKCJwZW5kaW5nX2RlcGxveW1lbnQiKTsKICAgIGxldCBlcnJvcnMgPSBuZXh0LmdldCgiZXJyb3JzIikuY2xvbmVkKCkudW53cmFwX29yX2Vsc2UofHwganNvbiEoW10pKTsKICAgIGxldCBtdXQgc3RvcmVkID0ganNvbiEoewogICAgICAgICJvcmlnaW4iOiBkZXNpcmVkX29yaWdpbiwKICAgICAgICAic3RhdHVzIjogc3RhdHVzLAogICAgICAgICJlcnJvcnMiOiBlcnJvcnMsCiAgICAgICAgIm93bmVyc2hpcCI6IG93bmVyc2hpcF9raW5kLAogICAgICAgICJ1cGRhdGVkQXQiOiB0aW1lX3V0aWxzOjpub3dfaXNvKCksCiAgICB9KTsKICAgIGlmIGxldCBTb21lKHByZXZpb3VzX29yaWdpbikgPSBwcmV2aW91c19vcmlnaW4gewogICAgICAgIGVuc3VyZV9vYmplY3QoJm11dCBzdG9yZWQpLmluc2VydCgicHJldmlvdXNPcmlnaW4iLnRvX3N0cmluZygpLCBqc29uIShwcmV2aW91c19vcmlnaW4pKTsKICAgIH0KICAgIGVuc3VyZV9uZXN0ZWRfb2JqZWN0KG93bmVyc2hpcCwgJlsib3B0aW1pemF0aW9uIl0pLmluc2VydCgiZmFsbGJhY2tPcmlnaW4iLnRvX3N0cmluZygpLCBzdG9yZWQpOwogICAgc2F2ZV9tYW5hZ2VkX3N0YXRlKHN0YXRlLCBvd25lcnNoaXApLmF3YWl0PzsKCiAgICBtYXRjaCBzdGF0dXMgewogICAgICAgICJhY3RpdmUiID0+IE9rKEZhbGxiYWNrT3JpZ2luUmVzdWx0OjpSZWFkeSksCiAgICAgICAgImRlcGxveW1lbnRfdGltZWRfb3V0IiB8ICJwZW5kaW5nX2RlbGV0aW9uIiB8ICJkZWxldGVkIiA9PiBFcnIobG9jYWxfZXJyb3IoZm9ybWF0ISgKICAgICAgICAgICAgIkNsb3VkZmxhcmUgZm9yIFNhYVMgZmFsbGJhY2sgb3JpZ2luIGVudGVyZWQgc3RhdHVzIHtzdGF0dXN9IgogICAgICAgICkpKSwKICAgICAgICBfID0+IE9rKEZhbGxiYWNrT3JpZ2luUmVzdWx0OjpQZW5kaW5nKSwKICAgIH0KfQoKcHViKHN1cGVyKSBhc3luYyBmbiBlbnN1cmVfY2FwYWJpbGl0eV9wcm9iZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBhcGk6ICZDbG91ZGZsYXJlQXBpLAogICAgbWFuYWdlZDogJlZhbHVlLAogICAgb3duZXJzaGlwOiAmbXV0IFZhbHVlLAogICAgb3JpZ2luX2hvc3RuYW1lOiAmc3RyLAogICAgc2VsZWN0ZWRfaXA6IE9wdGlvbjxJcHY0QWRkcj4sCikgLT4gUmVzdWx0PENhcGFiaWxpdHlQcm9iZVJlc3VsdCwgQ2xvdWRmbGFyZUFwaUVycm9yPiB7CiAgICBsZXQgZXhpc3Rpbmdfc3RhdHVzID0gb3duZXJzaGlwCiAgICAgICAgLnBvaW50ZXIoIi9vcHRpbWl6YXRpb24vY2FwYWJpbGl0eVByb2JlL3N0YXR1cyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLm1hcChzdHI6OnRvX3N0cmluZyk7CiAgICBpZiBleGlzdGluZ19zdGF0dXMuYXNfZGVyZWYoKSA9PSBTb21lKCJjb21wYXRpYmxlIikgewogICAgICAgIGxldCB0ZXN0ZWRfaXAgPSBvd25lcnNoaXAKICAgICAgICAgICAgLnBvaW50ZXIoIi9vcHRpbWl6YXRpb24vY2FwYWJpbGl0eVByb2JlL3Rlc3RlZElwIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpOwogICAgICAgIGxldCBzZWxlY3RlZF9pcF90ZXh0ID0gc2VsZWN0ZWRfaXAubWFwKHxpcHwgaXAudG9fc3RyaW5nKCkpOwogICAgICAgIGxldCBjYW5kaWRhdGVfY2hhbmdlZF93aXRob3V0X2J1c2luZXNzX3Byb2JlID0gc2VsZWN0ZWRfaXBfdGV4dC5pc19zb21lKCkKICAgICAgICAgICAgJiYgdGVzdGVkX2lwICE9IHNlbGVjdGVkX2lwX3RleHQuYXNfZGVyZWYoKQogICAgICAgICAgICAmJiBhY3RpdmVfcHJvYmVfaG9zdG5hbWUob3duZXJzaGlwKS5pc19ub25lKCk7CiAgICAgICAgaWYgIWNhbmRpZGF0ZV9jaGFuZ2VkX3dpdGhvdXRfYnVzaW5lc3NfcHJvYmUgewogICAgICAgICAgICByZXR1cm4gT2soQ2FwYWJpbGl0eVByb2JlUmVzdWx0OjpSZWFkeSk7CiAgICAgICAgfQogICAgICAgIGlmIGxldCBTb21lKG9wdGltaXphdGlvbikgPSBvd25lcnNoaXAKICAgICAgICAgICAgLnBvaW50ZXJfbXV0KCIvb3B0aW1pemF0aW9uIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3RfbXV0KQogICAgICAgIHsKICAgICAgICAgICAgb3B0aW1pemF0aW9uLnJlbW92ZSgiY2FwYWJpbGl0eVByb2JlIik7CiAgICAgICAgfQogICAgICAgIHNhdmVfbWFuYWdlZF9zdGF0ZShzdGF0ZSwgb3duZXJzaGlwKS5hd2FpdD87CiAgICB9CiAgICBpZiBleGlzdGluZ19zdGF0dXMuYXNfZGVyZWYoKSA9PSBTb21lKCJ1bnN1cHBvcnRlZCIpIHsKICAgICAgICBsZXQgZGVmaW5pdGl2ZSA9IG93bmVyc2hpcAogICAgICAgICAgICAucG9pbnRlcigiL29wdGltaXphdGlvbi9jYXBhYmlsaXR5UHJvYmUiKQogICAgICAgICAgICAuaXNfc29tZV9hbmQoY2FwYWJpbGl0eV9wcm9iZV9pc19kZWZpbml0aXZlbHlfdW5zdXBwb3J0ZWQpOwogICAgICAgIGlmIGRlZmluaXRpdmUgewogICAgICAgICAgICByZXR1cm4gT2soQ2FwYWJpbGl0eVByb2JlUmVzdWx0OjpVbnN1cHBvcnRlZCk7CiAgICAgICAgfQogICAgICAgIC8vIE9sZGVyIHJlbGVhc2VzIGNsYXNzaWZpZWQgYW55IGNhbmRpZGF0ZSByb3V0ZSBmYWlsdXJlIGFzIGEgcHJvZHVjdAogICAgICAgIC8vIGNhcGFiaWxpdHkgZmFpbHVyZSBhbmQgcGVyc2lzdGVkIGB1bnN1cHBvcnRlZGAgd2l0aG91dCBhIHJlYXNvbgogICAgICAgIC8vIGNvZGUuIFRoYXQgc3RhdGUgaXMgc2FmZSB0byByZXRyeTsgZGVmaW5pdGl2ZSBlbnRpdGxlbWVudCBmYWlsdXJlcwogICAgICAgIC8vIGFsd2F5cyBjYXJyeSBhIHJlYXNvbkNvZGUgYW5kIHJlbWFpbiBkaXNhYmxlZC4KICAgICAgICBpZiBsZXQgU29tZShvcHRpbWl6YXRpb24pID0gb3duZXJzaGlwCiAgICAgICAgICAgIC5wb2ludGVyX211dCgiL29wdGltaXphdGlvbiIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfb2JqZWN0X211dCkKICAgICAgICB7CiAgICAgICAgICAgIG9wdGltaXphdGlvbi5yZW1vdmUoImNhcGFiaWxpdHlQcm9iZSIpOwogICAgICAgIH0KICAgICAgICBzYXZlX21hbmFnZWRfc3RhdGUoc3RhdGUsIG93bmVyc2hpcCkuYXdhaXQ/OwogICAgfQogICAgbGV0IHpvbmVfaWQgPSBtYW5hZ2VkLmdldCgiem9uZUlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKTsKICAgIGxldCByb290ID0gbWFuYWdlZF9yb290X2RvbWFpbihtYW5hZ2VkKTsKICAgIGxldCBzdWZmaXggPSBtYW5hZ2VkX2luc3RhbmNlX2lkKG1hbmFnZWQpOwogICAgbGV0IGhvc3RuYW1lID0gZm9ybWF0ISgiZm5rbm9jay1wcm9iZS17c3VmZml4fS57cm9vdH0iKTsKICAgIGxldCBjdXJyZW50ID0gb3duZXJzaGlwCiAgICAgICAgLnBvaW50ZXIoIi9vcHRpbWl6YXRpb24vY2FwYWJpbGl0eVByb2JlIikKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAudW53cmFwX29yX2Vsc2UofHwganNvbiEoe30pKTsKICAgIGxldCBvd25lZF9pZCA9IGN1cnJlbnQuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpOwogICAgbGV0IGN1c3RvbSA9IGlmIGxldCBTb21lKGlkKSA9IG93bmVkX2lkIHsKICAgICAgICBtYXRjaCBhcGkuZ2V0X2N1c3RvbV9ob3N0bmFtZSh6b25lX2lkLCBpZCkuYXdhaXQgewogICAgICAgICAgICBPayh2YWx1ZSkgPT4gdmFsdWUsCiAgICAgICAgICAgIEVycihlcnJvcikgaWYgZXJyb3Iuc3RhdHVzID09IFNvbWUoU3RhdHVzQ29kZTo6Tk9UX0ZPVU5EKSA9PiB7CiAgICAgICAgICAgICAgICBjcmVhdGVfY2FwYWJpbGl0eV9ob3N0bmFtZSgKICAgICAgICAgICAgICAgICAgICBzdGF0ZSwKICAgICAgICAgICAgICAgICAgICBhcGksCiAgICAgICAgICAgICAgICAgICAgbWFuYWdlZCwKICAgICAgICAgICAgICAgICAgICBvd25lcnNoaXAsCiAgICAgICAgICAgICAgICAgICAgJmhvc3RuYW1lLAogICAgICAgICAgICAgICAgICAgIG9yaWdpbl9ob3N0bmFtZSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIC5hd2FpdD8KICAgICAgICAgICAgfQogICAgICAgICAgICBFcnIoZXJyb3IpID0+IHJldHVybiBFcnIoZXJyb3IpLAogICAgICAgIH0KICAgIH0gZWxzZSB7CiAgICAgICAgbGV0IGV4aXN0aW5nID0gYXBpLmxpc3RfY3VzdG9tX2hvc3RuYW1lcyh6b25lX2lkLCBTb21lKCZob3N0bmFtZSkpLmF3YWl0PzsKICAgICAgICBpZiBleGlzdGluZy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgbWF0Y2ggY3JlYXRlX2NhcGFiaWxpdHlfaG9zdG5hbWUoCiAgICAgICAgICAgICAgICBzdGF0ZSwKICAgICAgICAgICAgICAgIGFwaSwKICAgICAgICAgICAgICAgIG1hbmFnZWQsCiAgICAgICAgICAgICAgICBvd25lcnNoaXAsCiAgICAgICAgICAgICAgICAmaG9zdG5hbWUsCiAgICAgICAgICAgICAgICBvcmlnaW5faG9zdG5hbWUsCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIE9rKHZhbHVlKSA9PiB2YWx1ZSwKICAgICAgICAgICAgICAgIEVycihlcnJvcikgaWYgaXNfY2FwYWJpbGl0eV91bnN1cHBvcnRlZF9hcGlfZXJyb3IoJmVycm9yKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgZGlzYWJsZV91bnN1cHBvcnRlZF9vcHRpbWl6YXRpb24oCiAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRlLAogICAgICAgICAgICAgICAgICAgICAgICBtYW5hZ2VkLAogICAgICAgICAgICAgICAgICAgICAgICBvd25lcnNoaXAsCiAgICAgICAgICAgICAgICAgICAgICAgICZlcnJvci50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICAgICAgICAgU29tZShDTE9VREZMQVJFX1NBQVNfUkVRVUlSRURfRVJST1JfQ09ERSksCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIE9rKENhcGFiaWxpdHlQcm9iZVJlc3VsdDo6VW5zdXBwb3J0ZWQpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgRXJyKGVycm9yKSA9PiByZXR1cm4gRXJyKGVycm9yKSwKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoQ2xvdWRmbGFyZUFwaUVycm9yIHsKICAgICAgICAgICAgICAgIHN0YXR1czogU29tZShTdGF0dXNDb2RlOjpDT05GTElDVCksCiAgICAgICAgICAgICAgICBtZXNzYWdlOiAiVGhlIGlzb2xhdGVkIG9wdGltaXphdGlvbiBwcm9iZSBob3N0bmFtZSBhbHJlYWR5IGV4aXN0cyBhbmQgaXMgbm90IG93bmVkIGJ5IGZuLWtub2NrIgogICAgICAgICAgICAgICAgICAgIC50b19zdHJpbmcoKSwKICAgICAgICAgICAgfSk7CiAgICAgICAgfQogICAgfTsKICAgIGxldCBjdXN0b21faWQgPSBjdXN0b20uZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIik7CiAgICBpZiBjdXN0b21faWQuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIEVycihsb2NhbF9lcnJvcigKICAgICAgICAgICAgIkNsb3VkZmxhcmUgZGlkIG5vdCByZXR1cm4gYW4gSUQgZm9yIHRoZSBvcHRpbWl6YXRpb24gY2FwYWJpbGl0eSBwcm9iZSIsCiAgICAgICAgKSk7CiAgICB9CiAgICBsZXQgY3VycmVudCA9IG93bmVyc2hpcAogICAgICAgIC5wb2ludGVyKCIvb3B0aW1pemF0aW9uL2NhcGFiaWxpdHlQcm9iZSIpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IGpzb24hKHt9KSk7CiAgICBsZXQgbXV0IHZhbGlkYXRpb25fZG5zID0gVmVjOjpuZXcoKTsKICAgIGZvciAobmFtZSwgdmFsdWUpIGluIGV4dHJhY3RfdmFsaWRhdGlvbl9yZWNvcmRzKCZjdXN0b20pIHsKICAgICAgICBsZXQgZXhpc3RpbmdfaWQgPSBjdXJyZW50CiAgICAgICAgICAgIC5nZXQoInZhbGlkYXRpb25EbnMiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgLmZsYXR0ZW4oKQogICAgICAgICAgICAuZmluZCh8cmVjb3JkfCByZWNvcmQuZ2V0KCJuYW1lIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZShuYW1lLmFzX3N0cigpKSkKICAgICAgICAgICAgLmFuZF90aGVuKHxyZWNvcmR8IHJlY29yZC5nZXQoImlkIikpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKTsKICAgICAgICBtYXRjaCB1cHNlcnRfbWFuYWdlZF9kbnMoCiAgICAgICAgICAgIGFwaSwKICAgICAgICAgICAgTWFuYWdlZERuc1JlcXVlc3QgewogICAgICAgICAgICAgICAgem9uZV9pZCwKICAgICAgICAgICAgICAgIG5hbWU6ICZuYW1lLAogICAgICAgICAgICAgICAgcmVjb3JkX3R5cGU6ICJUWFQiLAogICAgICAgICAgICAgICAgY29udGVudDogJnZhbHVlLAogICAgICAgICAgICAgICAgcHJveGllZDogZmFsc2UsCiAgICAgICAgICAgICAgICBvd25lZF9pZDogZXhpc3RpbmdfaWQsCiAgICAgICAgICAgICAgICB0YWtlb3ZlcjogZmFsc2UsCiAgICAgICAgICAgICAgICBpbnN0YW5jZV9pZDogJnN1ZmZpeCwKICAgICAgICAgICAgfSwKICAgICAgICApCiAgICAgICAgLmF3YWl0CiAgICAgICAgewogICAgICAgICAgICBPayhyZWNvcmQpID0+IHsKICAgICAgICAgICAgICAgIHZhbGlkYXRpb25fZG5zLnB1c2gocmVjb3JkKTsKICAgICAgICAgICAgICAgIGxldCBwcm9iZSA9IGVuc3VyZV9uZXN0ZWRfb2JqZWN0KG93bmVyc2hpcCwgJlsib3B0aW1pemF0aW9uIiwgImNhcGFiaWxpdHlQcm9iZSJdKTsKICAgICAgICAgICAgICAgIHByb2JlLmluc2VydCgiaWQiLnRvX3N0cmluZygpLCBqc29uIShjdXN0b21faWQpKTsKICAgICAgICAgICAgICAgIHByb2JlLmluc2VydCgiaG9zdG5hbWUiLnRvX3N0cmluZygpLCBqc29uIShob3N0bmFtZSkpOwogICAgICAgICAgICAgICAgcHJvYmUuaW5zZXJ0KCJ2YWxpZGF0aW9uRG5zIi50b19zdHJpbmcoKSwganNvbiEodmFsaWRhdGlvbl9kbnMuY2xvbmUoKSkpOwogICAgICAgICAgICAgICAgc2F2ZV9tYW5hZ2VkX3N0YXRlKHN0YXRlLCBvd25lcnNoaXApLmF3YWl0PzsKICAgICAgICAgICAgfQogICAgICAgICAgICBFcnIoZXJyb3IpIGlmIGlzX2NhcGFiaWxpdHlfdW5zdXBwb3J0ZWRfYXBpX2Vycm9yKCZlcnJvcikgPT4gewogICAgICAgICAgICAgICAgbGV0IG11dCBjbGVhbnVwID0gY3VycmVudC5jbG9uZSgpOwogICAgICAgICAgICAgICAgbGV0IGNsZWFudXBfb2JqZWN0ID0gZW5zdXJlX29iamVjdCgmbXV0IGNsZWFudXApOwogICAgICAgICAgICAgICAgY2xlYW51cF9vYmplY3QuaW5zZXJ0KCJpZCIudG9fc3RyaW5nKCksIGpzb24hKGN1c3RvbV9pZCkpOwogICAgICAgICAgICAgICAgY2xlYW51cF9vYmplY3QuaW5zZXJ0KCJ2YWxpZGF0aW9uRG5zIi50b19zdHJpbmcoKSwganNvbiEodmFsaWRhdGlvbl9kbnMpKTsKICAgICAgICAgICAgICAgIGNsZWFudXBfY2FwYWJpbGl0eV9wcm9iZShhcGksIHpvbmVfaWQsICZjbGVhbnVwKS5hd2FpdD87CiAgICAgICAgICAgICAgICBkaXNhYmxlX3Vuc3VwcG9ydGVkX29wdGltaXphdGlvbigKICAgICAgICAgICAgICAgICAgICBzdGF0ZSwKICAgICAgICAgICAgICAgICAgICBtYW5hZ2VkLAogICAgICAgICAgICAgICAgICAgIG93bmVyc2hpcCwKICAgICAgICAgICAgICAgICAgICAmZXJyb3IudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICAgICAgU29tZShDTE9VREZMQVJFX1NBQVNfUkVRVUlSRURfRVJST1JfQ09ERSksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgICAgICAgICAgcmV0dXJuIE9rKENhcGFiaWxpdHlQcm9iZVJlc3VsdDo6VW5zdXBwb3J0ZWQpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIEVycihlcnJvcikgPT4gcmV0dXJuIEVycihlcnJvciksCiAgICAgICAgfQogICAgfQogICAgbGV0IGFjdGl2YXRpb25fZG5zID0gdXBzZXJ0X21hbmFnZWRfZG5zKAogICAgICAgIGFwaSwKICAgICAgICBNYW5hZ2VkRG5zUmVxdWVzdCB7CiAgICAgICAgICAgIHpvbmVfaWQsCiAgICAgICAgICAgIG5hbWU6ICZob3N0bmFtZSwKICAgICAgICAgICAgcmVjb3JkX3R5cGU6ICJDTkFNRSIsCiAgICAgICAgICAgIGNvbnRlbnQ6IG9yaWdpbl9ob3N0bmFtZSwKICAgICAgICAgICAgcHJveGllZDogZmFsc2UsCiAgICAgICAgICAgIG93bmVkX2lkOiBjdXJyZW50LnBvaW50ZXIoIi9hY3RpdmF0aW9uRG5zL2lkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0ciksCiAgICAgICAgICAgIHRha2VvdmVyOiBmYWxzZSwKICAgICAgICAgICAgaW5zdGFuY2VfaWQ6ICZzdWZmaXgsCiAgICAgICAgfSwKICAgICkKICAgIC5hd2FpdD87CiAgICB7CiAgICAgICAgbGV0IHByb2JlID0gZW5zdXJlX25lc3RlZF9vYmplY3Qob3duZXJzaGlwLCAmWyJvcHRpbWl6YXRpb24iLCAiY2FwYWJpbGl0eVByb2JlIl0pOwogICAgICAgIHByb2JlLmluc2VydCgiaWQiLnRvX3N0cmluZygpLCBqc29uIShjdXN0b21faWQpKTsKICAgICAgICBwcm9iZS5pbnNlcnQoImhvc3RuYW1lIi50b19zdHJpbmcoKSwganNvbiEoaG9zdG5hbWUpKTsKICAgICAgICBwcm9iZS5pbnNlcnQoImFjdGl2YXRpb25EbnMiLnRvX3N0cmluZygpLCBhY3RpdmF0aW9uX2Rucy5jbG9uZSgpKTsKICAgICAgICBwcm9iZS5pbnNlcnQoInZhbGlkYXRpb25EbnMiLnRvX3N0cmluZygpLCBqc29uISh2YWxpZGF0aW9uX2Rucy5jbG9uZSgpKSk7CiAgICB9CiAgICBzYXZlX21hbmFnZWRfc3RhdGUoc3RhdGUsIG93bmVyc2hpcCkuYXdhaXQ/OwogICAgbGV0IHJlZnJlc2hlZCA9IGFwaS5nZXRfY3VzdG9tX2hvc3RuYW1lKHpvbmVfaWQsIGN1c3RvbV9pZCkuYXdhaXQ/OwogICAgbGV0IHN0YXR1cyA9IHJlZnJlc2hlZAogICAgICAgIC5nZXQoInN0YXR1cyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcigicGVuZGluZyIpOwogICAgbGV0IHNzbF9zdGF0dXMgPSByZWZyZXNoZWQKICAgICAgICAucG9pbnRlcigiL3NzbC9zdGF0dXMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3IoInBlbmRpbmciKTsKICAgIGxldCB2ZXJpZmljYXRpb25fZXJyb3JzID0gcmVmcmVzaGVkCiAgICAgICAgLmdldCgidmVyaWZpY2F0aW9uX2Vycm9ycyIpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IGpzb24hKFtdKSk7CiAgICBsZXQgdmVyaWZpY2F0aW9uX21lc3NhZ2UgPSBjbG91ZGZsYXJlX2Vycm9yX2xpc3RfbWVzc2FnZSgmdmVyaWZpY2F0aW9uX2Vycm9ycyk7CiAgICBsZXQgcHJvYmVfc3RhdGUgPSBqc29uISh7CiAgICAgICAgImlkIjogY3VzdG9tX2lkLAogICAgICAgICJob3N0bmFtZSI6IGhvc3RuYW1lLAogICAgICAgICJzdGF0dXMiOiBpZiBzdGF0dXMgPT0gImFjdGl2ZSIgJiYgc3NsX3N0YXR1cyA9PSAiYWN0aXZlIiAmJiBzZWxlY3RlZF9pcC5pc19ub25lKCkgewogICAgICAgICAgICAiYXdhaXRpbmctY2FuZGlkYXRlIgogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICJwZW5kaW5nIgogICAgICAgIH0sCiAgICAgICAgImhvc3RuYW1lU3RhdHVzIjogc3RhdHVzLAogICAgICAgICJzc2xTdGF0dXMiOiBzc2xfc3RhdHVzLAogICAgICAgICJhY3RpdmF0aW9uRG5zIjogYWN0aXZhdGlvbl9kbnMsCiAgICAgICAgInZhbGlkYXRpb25EbnMiOiB2YWxpZGF0aW9uX2RucywKICAgICAgICAidmVyaWZpY2F0aW9uRXJyb3JzIjogdmVyaWZpY2F0aW9uX2Vycm9ycywKICAgICAgICAibWVzc2FnZSI6IHZlcmlmaWNhdGlvbl9tZXNzYWdlLAogICAgICAgICJ1cGRhdGVkQXQiOiB0aW1lX3V0aWxzOjpub3dfaXNvKCksCiAgICB9KTsKICAgIGVuc3VyZV9uZXN0ZWRfb2JqZWN0KG93bmVyc2hpcCwgJlsib3B0aW1pemF0aW9uIl0pCiAgICAgICAgLmluc2VydCgiY2FwYWJpbGl0eVByb2JlIi50b19zdHJpbmcoKSwgcHJvYmVfc3RhdGUuY2xvbmUoKSk7CiAgICBzYXZlX21hbmFnZWRfc3RhdGUoc3RhdGUsIG93bmVyc2hpcCkuYXdhaXQ/OwogICAgaWYgc3RhdHVzICE9ICJhY3RpdmUiIHx8IHNzbF9zdGF0dXMgIT0gImFjdGl2ZSIgewogICAgICAgIHJldHVybiBPayhDYXBhYmlsaXR5UHJvYmVSZXN1bHQ6OlBlbmRpbmcpOwogICAgfQogICAgbGV0IFNvbWUoaXApID0gc2VsZWN0ZWRfaXAgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKENhcGFiaWxpdHlQcm9iZVJlc3VsdDo6UGVuZGluZyk7CiAgICB9OwogICAgbWF0Y2ggcHJvYmVfY3VzdG9tX2hvc3RuYW1lKCZob3N0bmFtZSwgaXApLmF3YWl0IHsKICAgICAgICBPaygoKSkgPT4gewogICAgICAgICAgICBjbGVhbnVwX2NhcGFiaWxpdHlfcHJvYmUoYXBpLCB6b25lX2lkLCAmcHJvYmVfc3RhdGUpLmF3YWl0PzsKICAgICAgICAgICAgZW5zdXJlX25lc3RlZF9vYmplY3Qob3duZXJzaGlwLCAmWyJvcHRpbWl6YXRpb24iXSkuaW5zZXJ0KAogICAgICAgICAgICAgICAgImNhcGFiaWxpdHlQcm9iZSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICBqc29uISh7CiAgICAgICAgICAgICAgICAgICAgImhvc3RuYW1lIjogaG9zdG5hbWUsCiAgICAgICAgICAgICAgICAgICAgInN0YXR1cyI6ICJjb21wYXRpYmxlIiwKICAgICAgICAgICAgICAgICAgICAidGVzdGVkSXAiOiBpcCwKICAgICAgICAgICAgICAgICAgICAidGVzdGVkQXQiOiB0aW1lX3V0aWxzOjpub3dfaXNvKCksCiAgICAgICAgICAgICAgICB9KSwKICAgICAgICAgICAgKTsKICAgICAgICAgICAgc2F2ZV9tYW5hZ2VkX3N0YXRlKHN0YXRlLCBvd25lcnNoaXApLmF3YWl0PzsKICAgICAgICAgICAgT2soQ2FwYWJpbGl0eVByb2JlUmVzdWx0OjpSZWFkeSkKICAgICAgICB9CiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIC8vIFRoZSBDdXN0b20gSG9zdG5hbWUgYW5kIGNlcnRpZmljYXRlIGFyZSBhbHJlYWR5IGFjdGl2ZSBoZXJlLgogICAgICAgICAgICAvLyBBIGZhaWxlZCByZXF1ZXN0IHRvIG9uZSBjYW5kaWRhdGUgSVAgaXMgYSByb3V0ZS1sZXZlbCByZXN1bHQsCiAgICAgICAgICAgIC8vIG5vdCBldmlkZW5jZSB0aGF0IENsb3VkZmxhcmUgZm9yIFNhYVMgaXMgdW5zdXBwb3J0ZWQuIFJldGFpbiB0aGUKICAgICAgICAgICAgLy8gaXNvbGF0ZWQgaG9zdG5hbWUgc28gdGhlIHVzZXIgY2FuIHJldHJ5IHRoaXMgc2NhbiBvciBhcHBseSBhCiAgICAgICAgICAgIC8vIGRpZmZlcmVudCBjYW5kaWRhdGUgd2l0aG91dCByZXByb3Zpc2lvbmluZyB0aGUgY2FwYWJpbGl0eSBwcm9iZS4KICAgICAgICAgICAgbGV0IGZhaWxlZF9wcm9iZSA9IGNhcGFiaWxpdHlfcHJvYmVfZmFpbHVyZV9zdGF0ZSgmcHJvYmVfc3RhdGUsICZlcnJvcik7CiAgICAgICAgICAgIGVuc3VyZV9uZXN0ZWRfb2JqZWN0KG93bmVyc2hpcCwgJlsib3B0aW1pemF0aW9uIl0pCiAgICAgICAgICAgICAgICAuaW5zZXJ0KCJjYXBhYmlsaXR5UHJvYmUiLnRvX3N0cmluZygpLCBmYWlsZWRfcHJvYmUpOwogICAgICAgICAgICBzYXZlX21hbmFnZWRfc3RhdGUoc3RhdGUsIG93bmVyc2hpcCkuYXdhaXQ/OwogICAgICAgICAgICBFcnIobG9jYWxfZXJyb3IoZm9ybWF0ISgKICAgICAgICAgICAgICAgICJQcmVmZXJyZWQgZWRnZSBjYW5kaWRhdGUgZmFpbGVkIGNhcGFiaWxpdHkgdmFsaWRhdGlvbjoge2Vycm9yfSIKICAgICAgICAgICAgKSkpCiAgICAgICAgfQogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGNhcGFiaWxpdHlfcHJvYmVfZmFpbHVyZV9zdGF0ZShwcm9iZV9zdGF0ZTogJlZhbHVlLCBlcnJvcjogJnN0cikgLT4gVmFsdWUgewogICAgbGV0IG11dCBmYWlsZWQgPSBwcm9iZV9zdGF0ZS5jbG9uZSgpOwogICAgcmVjb3JkX3ByZWZlcnJlZF9lZGdlX3Byb2JlX2ZhaWx1cmUoJm11dCBmYWlsZWQsIGVycm9yKTsKICAgIGZhaWxlZAp9CgpwdWIoc3VwZXIpIGZuIGNhcGFiaWxpdHlfcHJvYmVfaXNfZGVmaW5pdGl2ZWx5X3Vuc3VwcG9ydGVkKHByb2JlOiAmVmFsdWUpIC0+IGJvb2wgewogICAgcHJvYmUuZ2V0KCJzdGF0dXMiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKCJ1bnN1cHBvcnRlZCIpCiAgICAgICAgJiYgcHJvYmUuZ2V0KCJyZWFzb25Db2RlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgPT0gU29tZShDTE9VREZMQVJFX1NBQVNfUkVRVUlSRURfRVJST1JfQ09ERSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBjcmVhdGVfY2FwYWJpbGl0eV9ob3N0bmFtZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBhcGk6ICZDbG91ZGZsYXJlQXBpLAogICAgbWFuYWdlZDogJlZhbHVlLAogICAgb3duZXJzaGlwOiAmbXV0IFZhbHVlLAogICAgaG9zdG5hbWU6ICZzdHIsCiAgICBvcmlnaW5faG9zdG5hbWU6ICZzdHIsCikgLT4gUmVzdWx0PFZhbHVlLCBDbG91ZGZsYXJlQXBpRXJyb3I+IHsKICAgIGxldCB6b25lX2lkID0gbWFuYWdlZC5nZXQoInpvbmVJZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIik7CiAgICBsZXQgY3VzdG9tID0gYXBpCiAgICAgICAgLmNyZWF0ZV9jdXN0b21faG9zdG5hbWUoem9uZV9pZCwgaG9zdG5hbWUsIG9yaWdpbl9ob3N0bmFtZSkKICAgICAgICAuYXdhaXQ/OwogICAgZW5zdXJlX25lc3RlZF9vYmplY3Qob3duZXJzaGlwLCAmWyJvcHRpbWl6YXRpb24iXSkuaW5zZXJ0KAogICAgICAgICJjYXBhYmlsaXR5UHJvYmUiLnRvX3N0cmluZygpLAogICAgICAgIGpzb24hKHsKICAgICAgICAgICAgImlkIjogY3VzdG9tLmdldCgiaWQiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgICAgICAiaG9zdG5hbWUiOiBob3N0bmFtZSwKICAgICAgICAgICAgInN0YXR1cyI6ICJwZW5kaW5nIiwKICAgICAgICAgICAgImNyZWF0ZWRBdCI6IHRpbWVfdXRpbHM6Om5vd19pc28oKSwKICAgICAgICB9KSwKICAgICk7CiAgICBzYXZlX21hbmFnZWRfc3RhdGUoc3RhdGUsIG93bmVyc2hpcCkuYXdhaXQ/OwogICAgT2soY3VzdG9tKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGNsZWFudXBfY2FwYWJpbGl0eV9wcm9iZSgKICAgIGFwaTogJkNsb3VkZmxhcmVBcGksCiAgICB6b25lX2lkOiAmc3RyLAogICAgcHJvYmU6ICZWYWx1ZSwKKSAtPiBSZXN1bHQ8KCksIENsb3VkZmxhcmVBcGlFcnJvcj4gewogICAgaWYgbGV0IFNvbWUoaWQpID0gcHJvYmUucG9pbnRlcigiL2FjdGl2YXRpb25EbnMvaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSB7CiAgICAgICAgaWdub3JlX25vdF9mb3VuZChhcGkuZGVsZXRlX2Ruc19yZWNvcmQoem9uZV9pZCwgaWQpLmF3YWl0KT87CiAgICB9CiAgICBmb3IgcmVjb3JkIGluIHByb2JlCiAgICAgICAgLmdldCgidmFsaWRhdGlvbkRucyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAuZmxhdHRlbigpCiAgICB7CiAgICAgICAgaWYgbGV0IFNvbWUoaWQpID0gcmVjb3JkLmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSB7CiAgICAgICAgICAgIGlnbm9yZV9ub3RfZm91bmQoYXBpLmRlbGV0ZV9kbnNfcmVjb3JkKHpvbmVfaWQsIGlkKS5hd2FpdCk/OwogICAgICAgIH0KICAgIH0KICAgIGlmIGxldCBTb21lKGlkKSA9IHByb2JlLmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSB7CiAgICAgICAgaWdub3JlX25vdF9mb3VuZChhcGkuZGVsZXRlX2N1c3RvbV9ob3N0bmFtZSh6b25lX2lkLCBpZCkuYXdhaXQpPzsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGRpc2FibGVfdW5zdXBwb3J0ZWRfb3B0aW1pemF0aW9uKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIG1hbmFnZWQ6ICZWYWx1ZSwKICAgIG93bmVyc2hpcDogJm11dCBWYWx1ZSwKICAgIHJlYXNvbjogJnN0ciwKICAgIHJlYXNvbl9jb2RlOiBPcHRpb248JnN0cj4sCikgLT4gUmVzdWx0PCgpLCBDbG91ZGZsYXJlQXBpRXJyb3I+IHsKICAgIGxldCBtdXQgY2FwYWJpbGl0eV9wcm9iZSA9IGpzb24hKHsKICAgICAgICAic3RhdHVzIjogInVuc3VwcG9ydGVkIiwKICAgICAgICAibWVzc2FnZSI6IHJlYXNvbiwKICAgICAgICAidGVzdGVkQXQiOiB0aW1lX3V0aWxzOjpub3dfaXNvKCksCiAgICB9KTsKICAgIGlmIGxldCBTb21lKHJlYXNvbl9jb2RlKSA9IHJlYXNvbl9jb2RlIHsKICAgICAgICBlbnN1cmVfb2JqZWN0KCZtdXQgY2FwYWJpbGl0eV9wcm9iZSkuaW5zZXJ0KCJyZWFzb25Db2RlIi50b19zdHJpbmcoKSwganNvbiEocmVhc29uX2NvZGUpKTsKICAgIH0KICAgIGVuc3VyZV9uZXN0ZWRfb2JqZWN0KG93bmVyc2hpcCwgJlsib3B0aW1pemF0aW9uIl0pCiAgICAgICAgLmluc2VydCgiY2FwYWJpbGl0eVByb2JlIi50b19zdHJpbmcoKSwgY2FwYWJpbGl0eV9wcm9iZSk7CiAgICBlbnN1cmVfbmVzdGVkX29iamVjdChvd25lcnNoaXAsICZbIm9wdGltaXphdGlvbiJdKQogICAgICAgIC5pbnNlcnQoImZhbGxiYWNrQWN0aXZlIi50b19zdHJpbmcoKSwganNvbiEodHJ1ZSkpOwogICAgZW5zdXJlX25lc3RlZF9vYmplY3Qob3duZXJzaGlwLCAmWyJvcHRpbWl6YXRpb24iXSkKICAgICAgICAuaW5zZXJ0KCJwdWJsaXNoU3VwcHJlc3NlZCIudG9fc3RyaW5nKCksIGpzb24hKHRydWUpKTsKICAgIHNhdmVfbWFuYWdlZF9zdGF0ZShzdGF0ZSwgb3duZXJzaGlwKS5hd2FpdD87CiAgICBsZXQgbXV0IG5leHRfbWFuYWdlZCA9IG1hbmFnZWQuY2xvbmUoKTsKICAgIGVuc3VyZV9vYmplY3QoJm11dCBuZXh0X21hbmFnZWQpLmluc2VydCgib3B0aW1pemF0aW9uRW5hYmxlZCIudG9fc3RyaW5nKCksIGpzb24hKGZhbHNlKSk7CiAgICBzYXZlX21hbmFnZWRfY29uZmlnKHN0YXRlLCAmbmV4dF9tYW5hZ2VkKS5hd2FpdAp9Cg==
+use super::*;
+
+pub(super) async fn ensure_fallback_origin(
+    state: &AppState,
+    api: &CloudflareApi,
+    zone_id: &str,
+    ownership: &mut Value,
+    desired_origin: &str,
+    takeover: bool,
+) -> Result<FallbackOriginResult, CloudflareApiError> {
+    let current = ownership.pointer("/optimization/fallbackOrigin").cloned();
+    let remote_value = api.get_fallback_origin(zone_id).await?;
+    let remote_origin = remote_value
+        .as_ref()
+        .and_then(|value| value.get("origin"))
+        .and_then(Value::as_str);
+    let owned_origin = current
+        .as_ref()
+        .and_then(|value| value.get("origin"))
+        .and_then(Value::as_str);
+    let owned_kind = current
+        .as_ref()
+        .and_then(|value| value.get("ownership"))
+        .and_then(Value::as_str);
+
+    let (next, ownership_kind, previous_origin) = match remote_origin {
+        None => (
+            api.update_fallback_origin(zone_id, desired_origin).await?,
+            "dedicated",
+            None,
+        ),
+        Some(remote) if remote.eq_ignore_ascii_case(desired_origin) => {
+            if let (Some(_), Some(kind)) = (owned_origin, owned_kind) {
+                (
+                    remote_value
+                        .clone()
+                        .unwrap_or_else(|| json!({ "origin": remote })),
+                    kind,
+                    current
+                        .as_ref()
+                        .and_then(|value| value.get("previousOrigin"))
+                        .and_then(Value::as_str),
+                )
+            } else {
+                if !takeover {
+                    return Err(CloudflareApiError {
+                        status: Some(StatusCode::CONFLICT),
+                        message: "The Cloudflare for SaaS fallback origin already exists and is not owned by fn-knock; preview and explicitly confirm takeover"
+                            .to_string(),
+                    });
+                }
+                (
+                    remote_value
+                        .clone()
+                        .unwrap_or_else(|| json!({ "origin": remote })),
+                    "adopted",
+                    None,
+                )
+            }
+        }
+        Some(remote) if owned_origin == Some(remote) => {
+            if let Some(kind) = owned_kind {
+                (
+                    api.update_fallback_origin(zone_id, desired_origin).await?,
+                    kind,
+                    current
+                        .as_ref()
+                        .and_then(|value| value.get("previousOrigin"))
+                        .and_then(Value::as_str),
+                )
+            } else if takeover {
+                (
+                    api.update_fallback_origin(zone_id, desired_origin).await?,
+                    "adopted",
+                    Some(remote),
+                )
+            } else {
+                return Err(CloudflareApiError {
+                    status: Some(StatusCode::CONFLICT),
+                    message: "A different Cloudflare for SaaS fallback origin exists; preview and explicitly confirm takeover"
+                        .to_string(),
+                });
+            }
+        }
+        Some(remote) if takeover => (
+            api.update_fallback_origin(zone_id, desired_origin).await?,
+            "adopted",
+            Some(remote),
+        ),
+        Some(_) => {
+            return Err(CloudflareApiError {
+                status: Some(StatusCode::CONFLICT),
+                message: "A different Cloudflare for SaaS fallback origin exists; preview and explicitly confirm takeover"
+                    .to_string(),
+            });
+        }
+    };
+
+    let status = next
+        .get("status")
+        .and_then(Value::as_str)
+        .unwrap_or("pending_deployment");
+    let errors = next.get("errors").cloned().unwrap_or_else(|| json!([]));
+    let mut stored = json!({
+        "origin": desired_origin,
+        "status": status,
+        "errors": errors,
+        "ownership": ownership_kind,
+        "updatedAt": time_utils::now_iso(),
+    });
+    if let Some(previous_origin) = previous_origin {
+        ensure_object(&mut stored).insert("previousOrigin".to_string(), json!(previous_origin));
+    }
+    ensure_nested_object(ownership, &["optimization"]).insert("fallbackOrigin".to_string(), stored);
+    save_managed_state(state, ownership).await?;
+
+    match status {
+        "active" => Ok(FallbackOriginResult::Ready),
+        "deployment_timed_out" | "pending_deletion" | "deleted" => Err(local_error(format!(
+            "Cloudflare for SaaS fallback origin entered status {status}"
+        ))),
+        _ => Ok(FallbackOriginResult::Pending),
+    }
+}
+
+pub(super) async fn ensure_capability_probe(
+    state: &AppState,
+    api: &CloudflareApi,
+    managed: &Value,
+    ownership: &mut Value,
+    origin_hostname: &str,
+    selected_ip: Option<Ipv4Addr>,
+) -> Result<CapabilityProbeResult, CloudflareApiError> {
+    let existing_status = ownership
+        .pointer("/optimization/capabilityProbe/status")
+        .and_then(Value::as_str)
+        .map(str::to_string);
+    if existing_status.as_deref() == Some("compatible") {
+        let tested_ip = ownership
+            .pointer("/optimization/capabilityProbe/testedIp")
+            .and_then(Value::as_str);
+        let selected_ip_text = selected_ip.map(|ip| ip.to_string());
+        let candidate_changed_without_business_probe = selected_ip_text.is_some()
+            && tested_ip != selected_ip_text.as_deref()
+            && active_probe_hostname(ownership).is_none();
+        if !candidate_changed_without_business_probe {
+            return Ok(CapabilityProbeResult::Ready);
+        }
+        if let Some(optimization) = ownership
+            .pointer_mut("/optimization")
+            .and_then(Value::as_object_mut)
+        {
+            optimization.remove("capabilityProbe");
+        }
+        save_managed_state(state, ownership).await?;
+    }
+    if existing_status.as_deref() == Some("unsupported") {
+        let definitive = ownership
+            .pointer("/optimization/capabilityProbe")
+            .is_some_and(capability_probe_is_definitively_unsupported);
+        if definitive {
+            return Ok(CapabilityProbeResult::Unsupported);
+        }
+        // Older releases classified any candidate route failure as a product
+        // capability failure and persisted `unsupported` without a reason
+        // code. That state is safe to retry; definitive entitlement failures
+        // always carry a reasonCode and remain disabled.
+        if let Some(optimization) = ownership
+            .pointer_mut("/optimization")
+            .and_then(Value::as_object_mut)
+        {
+            optimization.remove("capabilityProbe");
+        }
+        save_managed_state(state, ownership).await?;
+    }
+    let zone_id = managed.get("zoneId").and_then(Value::as_str).unwrap_or("");
+    let root = managed_root_domain(managed);
+    let suffix = managed_instance_id(managed);
+    let hostname = format!("fnknock-probe-{suffix}.{root}");
+    let current = ownership
+        .pointer("/optimization/capabilityProbe")
+        .cloned()
+        .unwrap_or_else(|| json!({}));
+    let owned_id = current.get("id").and_then(Value::as_str);
+    let custom = if let Some(id) = owned_id {
+        match api.get_custom_hostname(zone_id, id).await {
+            Ok(value) => value,
+            Err(error) if error.status == Some(StatusCode::NOT_FOUND) => {
+                create_capability_hostname(
+                    state,
+                    api,
+                    managed,
+                    ownership,
+                    &hostname,
+                    origin_hostname,
+                )
+                .await?
+            }
+            Err(error) => return Err(error),
+        }
+    } else {
+        let existing = api.list_custom_hostnames(zone_id, Some(&hostname)).await?;
+        if existing.is_empty() {
+            match create_capability_hostname(
+                state,
+                api,
+                managed,
+                ownership,
+                &hostname,
+                origin_hostname,
+            )
+            .await
+            {
+                Ok(value) => value,
+                Err(error) if is_capability_unsupported_api_error(&error) => {
+                    disable_unsupported_optimization(
+                        state,
+                        managed,
+                        ownership,
+                        &error.to_string(),
+                        Some(CLOUDFLARE_SAAS_REQUIRED_ERROR_CODE),
+                    )
+                    .await?;
+                    return Ok(CapabilityProbeResult::Unsupported);
+                }
+                Err(error) => return Err(error),
+            }
+        } else {
+            return Err(CloudflareApiError {
+                status: Some(StatusCode::CONFLICT),
+                message: "The isolated optimization probe hostname already exists and is not owned by fn-knock"
+                    .to_string(),
+            });
+        }
+    };
+    let custom_id = custom.get("id").and_then(Value::as_str).unwrap_or("");
+    if custom_id.is_empty() {
+        return Err(local_error(
+            "Cloudflare did not return an ID for the optimization capability probe",
+        ));
+    }
+    let current = ownership
+        .pointer("/optimization/capabilityProbe")
+        .cloned()
+        .unwrap_or_else(|| json!({}));
+    let mut validation_dns = Vec::new();
+    for (name, value) in extract_validation_records(&custom) {
+        let existing_id = current
+            .get("validationDns")
+            .and_then(Value::as_array)
+            .into_iter()
+            .flatten()
+            .find(|record| record.get("name").and_then(Value::as_str) == Some(name.as_str()))
+            .and_then(|record| record.get("id"))
+            .and_then(Value::as_str);
+        match upsert_managed_dns(
+            api,
+            ManagedDnsRequest {
+                zone_id,
+                name: &name,
+                record_type: "TXT",
+                content: &value,
+                proxied: false,
+                owned_id: existing_id,
+                takeover: false,
+                instance_id: &suffix,
+            },
+        )
+        .await
+        {
+            Ok(record) => {
+                validation_dns.push(record);
+                let probe = ensure_nested_object(ownership, &["optimization", "capabilityProbe"]);
+                probe.insert("id".to_string(), json!(custom_id));
+                probe.insert("hostname".to_string(), json!(hostname));
+                probe.insert("validationDns".to_string(), json!(validation_dns.clone()));
+                save_managed_state(state, ownership).await?;
+            }
+            Err(error) if is_capability_unsupported_api_error(&error) => {
+                let mut cleanup = current.clone();
+                let cleanup_object = ensure_object(&mut cleanup);
+                cleanup_object.insert("id".to_string(), json!(custom_id));
+                cleanup_object.insert("validationDns".to_string(), json!(validation_dns));
+                cleanup_capability_probe(api, zone_id, &cleanup).await?;
+                disable_unsupported_optimization(
+                    state,
+                    managed,
+                    ownership,
+                    &error.to_string(),
+                    Some(CLOUDFLARE_SAAS_REQUIRED_ERROR_CODE),
+                )
+                .await?;
+                return Ok(CapabilityProbeResult::Unsupported);
+            }
+            Err(error) => return Err(error),
+        }
+    }
+    let activation_dns = upsert_managed_dns(
+        api,
+        ManagedDnsRequest {
+            zone_id,
+            name: &hostname,
+            record_type: "CNAME",
+            content: origin_hostname,
+            proxied: false,
+            owned_id: current.pointer("/activationDns/id").and_then(Value::as_str),
+            takeover: false,
+            instance_id: &suffix,
+        },
+    )
+    .await?;
+    {
+        let probe = ensure_nested_object(ownership, &["optimization", "capabilityProbe"]);
+        probe.insert("id".to_string(), json!(custom_id));
+        probe.insert("hostname".to_string(), json!(hostname));
+        probe.insert("activationDns".to_string(), activation_dns.clone());
+        probe.insert("validationDns".to_string(), json!(validation_dns.clone()));
+    }
+    save_managed_state(state, ownership).await?;
+    let refreshed = api.get_custom_hostname(zone_id, custom_id).await?;
+    let status = refreshed
+        .get("status")
+        .and_then(Value::as_str)
+        .unwrap_or("pending");
+    let ssl_status = refreshed
+        .pointer("/ssl/status")
+        .and_then(Value::as_str)
+        .unwrap_or("pending");
+    let verification_errors = refreshed
+        .get("verification_errors")
+        .cloned()
+        .unwrap_or_else(|| json!([]));
+    let verification_message = cloudflare_error_list_message(&verification_errors);
+    let probe_state = json!({
+        "id": custom_id,
+        "hostname": hostname,
+        "status": if status == "active" && ssl_status == "active" && selected_ip.is_none() {
+            "awaiting-candidate"
+        } else {
+            "pending"
+        },
+        "hostnameStatus": status,
+        "sslStatus": ssl_status,
+        "activationDns": activation_dns,
+        "validationDns": validation_dns,
+        "verificationErrors": verification_errors,
+        "message": verification_message,
+        "updatedAt": time_utils::now_iso(),
+    });
+    ensure_nested_object(ownership, &["optimization"])
+        .insert("capabilityProbe".to_string(), probe_state.clone());
+    save_managed_state(state, ownership).await?;
+    if status != "active" || ssl_status != "active" {
+        return Ok(CapabilityProbeResult::Pending);
+    }
+    let Some(ip) = selected_ip else {
+        return Ok(CapabilityProbeResult::Pending);
+    };
+    match probe_custom_hostname(&hostname, ip).await {
+        Ok(()) => {
+            cleanup_capability_probe(api, zone_id, &probe_state).await?;
+            ensure_nested_object(ownership, &["optimization"]).insert(
+                "capabilityProbe".to_string(),
+                json!({
+                    "hostname": hostname,
+                    "status": "compatible",
+                    "testedIp": ip,
+                    "testedAt": time_utils::now_iso(),
+                }),
+            );
+            save_managed_state(state, ownership).await?;
+            Ok(CapabilityProbeResult::Ready)
+        }
+        Err(error) => {
+            // The Custom Hostname and certificate are already active here.
+            // A failed request to one candidate IP is a route-level result,
+            // not evidence that Cloudflare for SaaS is unsupported. Retain the
+            // isolated hostname so the user can retry this scan or apply a
+            // different candidate without reprovisioning the capability probe.
+            let failed_probe = capability_probe_failure_state(&probe_state, &error);
+            ensure_nested_object(ownership, &["optimization"])
+                .insert("capabilityProbe".to_string(), failed_probe);
+            save_managed_state(state, ownership).await?;
+            Err(local_error(format!(
+                "Preferred edge candidate failed capability validation: {error}"
+            )))
+        }
+    }
+}
+
+pub(super) fn capability_probe_failure_state(probe_state: &Value, error: &str) -> Value {
+    let mut failed = probe_state.clone();
+    record_preferred_edge_probe_failure(&mut failed, error);
+    failed
+}
+
+pub(super) fn capability_probe_is_definitively_unsupported(probe: &Value) -> bool {
+    probe.get("status").and_then(Value::as_str) == Some("unsupported")
+        && probe.get("reasonCode").and_then(Value::as_str)
+            == Some(CLOUDFLARE_SAAS_REQUIRED_ERROR_CODE)
+}
+
+pub(super) async fn create_capability_hostname(
+    state: &AppState,
+    api: &CloudflareApi,
+    managed: &Value,
+    ownership: &mut Value,
+    hostname: &str,
+    origin_hostname: &str,
+) -> Result<Value, CloudflareApiError> {
+    let zone_id = managed.get("zoneId").and_then(Value::as_str).unwrap_or("");
+    let custom = api
+        .create_custom_hostname(zone_id, hostname, origin_hostname)
+        .await?;
+    ensure_nested_object(ownership, &["optimization"]).insert(
+        "capabilityProbe".to_string(),
+        json!({
+            "id": custom.get("id").cloned().unwrap_or(Value::Null),
+            "hostname": hostname,
+            "status": "pending",
+            "createdAt": time_utils::now_iso(),
+        }),
+    );
+    save_managed_state(state, ownership).await?;
+    Ok(custom)
+}
+
+pub(super) async fn cleanup_capability_probe(
+    api: &CloudflareApi,
+    zone_id: &str,
+    probe: &Value,
+) -> Result<(), CloudflareApiError> {
+    if let Some(id) = probe.pointer("/activationDns/id").and_then(Value::as_str) {
+        ignore_not_found(api.delete_dns_record(zone_id, id).await)?;
+    }
+    for record in probe
+        .get("validationDns")
+        .and_then(Value::as_array)
+        .into_iter()
+        .flatten()
+    {
+        if let Some(id) = record.get("id").and_then(Value::as_str) {
+            ignore_not_found(api.delete_dns_record(zone_id, id).await)?;
+        }
+    }
+    if let Some(id) = probe.get("id").and_then(Value::as_str) {
+        ignore_not_found(api.delete_custom_hostname(zone_id, id).await)?;
+    }
+    Ok(())
+}
+
+pub(super) async fn disable_unsupported_optimization(
+    state: &AppState,
+    managed: &Value,
+    ownership: &mut Value,
+    reason: &str,
+    reason_code: Option<&str>,
+) -> Result<(), CloudflareApiError> {
+    let mut capability_probe = json!({
+        "status": "unsupported",
+        "message": reason,
+        "testedAt": time_utils::now_iso(),
+    });
+    if let Some(reason_code) = reason_code {
+        ensure_object(&mut capability_probe).insert("reasonCode".to_string(), json!(reason_code));
+    }
+    ensure_nested_object(ownership, &["optimization"])
+        .insert("capabilityProbe".to_string(), capability_probe);
+    ensure_nested_object(ownership, &["optimization"])
+        .insert("fallbackActive".to_string(), json!(true));
+    ensure_nested_object(ownership, &["optimization"])
+        .insert("publishSuppressed".to_string(), json!(true));
+    save_managed_state(state, ownership).await?;
+    let mut next_managed = managed.clone();
+    ensure_object(&mut next_managed).insert("optimizationEnabled".to_string(), json!(false));
+    save_managed_config(state, &next_managed).await
+}

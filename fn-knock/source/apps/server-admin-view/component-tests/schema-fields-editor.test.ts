@@ -1,1 +1,63 @@
-aW1wb3J0IHsgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBkZWZpbmVDb21wb25lbnQsIGggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyBjcmVhdGVJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBkZXNjcmliZSwgZXhwZWN0LCBpdCB9IGZyb20gInZpdGVzdCI7CmltcG9ydCB0eXBlIHsgTm90aWZpY2F0aW9uU2NoZW1hRmllbGQgfSBmcm9tICIuLi9zcmMvdHlwZXMiOwppbXBvcnQgU2NoZW1hRmllbGRzRWRpdG9yIGZyb20gIi4uL3NyYy92aWV3cy9ldmVudC1jZW50ZXIvbm90aWZpY2F0aW9ucy9TY2hlbWFGaWVsZHNFZGl0b3IudnVlIjsKCmNvbnN0IGZpZWxkczogTm90aWZpY2F0aW9uU2NoZW1hRmllbGRbXSA9IFsKICB7IGtleTogInNtdHBfaG9zdCIsIGxhYmVsOiAiU01UUCBob3N0IiwgdHlwZTogInN0cmluZyIgfSwKICB7CiAgICBrZXk6ICJzbXRwX3Bhc3N3b3JkIiwKICAgIGxhYmVsOiAiU01UUCBwYXNzd29yZCIsCiAgICBzZW5zaXRpdmU6IHRydWUsCiAgICB0eXBlOiAic3RyaW5nIiwKICB9LAogIHsga2V5OiAic210cF9wb3J0IiwgbGFiZWw6ICJTTVRQIHBvcnQiLCB0eXBlOiAibnVtYmVyIiB9LAogIHsKICAgIGtleTogInNtdHBfc2VjdXJpdHkiLAogICAgbGFiZWw6ICJTTVRQIHNlY3VyaXR5IiwKICAgIG9wdGlvbnM6IFt7IGxhYmVsOiAiVExTIiwgdmFsdWU6ICJ0bHMiIH1dLAogICAgdHlwZTogInNlbGVjdCIsCiAgfSwKICB7IGtleTogImFsbG93X2ludmFsaWRfdGxzIiwgbGFiZWw6ICJBbGxvdyBpbnZhbGlkIFRMUyIsIHR5cGU6ICJib29sZWFuIiB9LAogIHsga2V5OiAiaGVhZGVycyIsIGxhYmVsOiAiSGVhZGVycyIsIHR5cGU6ICJqc29uIiB9LApdOwoKZGVzY3JpYmUoIlNjaGVtYUZpZWxkc0VkaXRvciIsICgpID0+IHsKICBpdCgiYXNzb2NpYXRlcyBldmVyeSBzY2hlbWEgbGFiZWwgd2l0aCBhIHVuaXF1ZSBmb3JtIGNvbnRyb2wgaWQiLCAoKSA9PiB7CiAgICBjb25zdCBUZXN0SG9zdCA9IGRlZmluZUNvbXBvbmVudCh7CiAgICAgIHNldHVwOiAoKSA9PiAoKSA9PgogICAgICAgIGgoImRpdiIsIFsKICAgICAgICAgIGgoU2NoZW1hRmllbGRzRWRpdG9yLCB7IGZpZWxkcywgbW9kZWxWYWx1ZToge30gfSksCiAgICAgICAgICBoKFNjaGVtYUZpZWxkc0VkaXRvciwgeyBmaWVsZHMsIG1vZGVsVmFsdWU6IHt9IH0pLAogICAgICAgIF0pLAogICAgfSk7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoVGVzdEhvc3QsIHsKICAgICAgZ2xvYmFsOiB7CiAgICAgICAgcGx1Z2luczogWwogICAgICAgICAgY3JlYXRlSTE4bih7CiAgICAgICAgICAgIGxlZ2FjeTogZmFsc2UsCiAgICAgICAgICAgIGxvY2FsZTogImVuIiwKICAgICAgICAgICAgbWVzc2FnZXM6IHsgZW46IHt9IH0sCiAgICAgICAgICAgIG1pc3NpbmdXYXJuOiBmYWxzZSwKICAgICAgICAgIH0pLAogICAgICAgIF0sCiAgICAgIH0sCiAgICB9KTsKCiAgICBjb25zdCBsYWJlbFRhcmdldHMgPSBBcnJheS5mcm9tKAogICAgICB3cmFwcGVyLmVsZW1lbnQucXVlcnlTZWxlY3RvckFsbCgibGFiZWxbZm9yXSIpLAogICAgICAobGFiZWwpID0+IGxhYmVsLmdldEF0dHJpYnV0ZSgiZm9yIiksCiAgICApLmZpbHRlcigodmFsdWUpOiB2YWx1ZSBpcyBzdHJpbmcgPT4gQm9vbGVhbih2YWx1ZSkpOwogICAgY29uc3QgcmVuZGVyZWRJZHMgPSBuZXcgU2V0KAogICAgICBBcnJheS5mcm9tKHdyYXBwZXIuZWxlbWVudC5xdWVyeVNlbGVjdG9yQWxsKCJbaWRdIiksIChlbGVtZW50KSA9PgogICAgICAgIGVsZW1lbnQuZ2V0QXR0cmlidXRlKCJpZCIpLAogICAgICApLmZpbHRlcigodmFsdWUpOiB2YWx1ZSBpcyBzdHJpbmcgPT4gQm9vbGVhbih2YWx1ZSkpLAogICAgKTsKCiAgICBleHBlY3QobGFiZWxUYXJnZXRzKS50b0hhdmVMZW5ndGgoZmllbGRzLmxlbmd0aCAqIDIpOwogICAgZXhwZWN0KG5ldyBTZXQobGFiZWxUYXJnZXRzKS5zaXplKS50b0JlKGZpZWxkcy5sZW5ndGggKiAyKTsKICAgIGV4cGVjdChsYWJlbFRhcmdldHMuZXZlcnkoKHRhcmdldCkgPT4gcmVuZGVyZWRJZHMuaGFzKHRhcmdldCkpKS50b0JlKHRydWUpOwogIH0pOwp9KTsK
+import { mount } from "@vue/test-utils";
+import { defineComponent, h } from "vue";
+import { createI18n } from "vue-i18n";
+import { describe, expect, it } from "vitest";
+import type { NotificationSchemaField } from "../src/types";
+import SchemaFieldsEditor from "../src/views/event-center/notifications/SchemaFieldsEditor.vue";
+
+const fields: NotificationSchemaField[] = [
+  { key: "smtp_host", label: "SMTP host", type: "string" },
+  {
+    key: "smtp_password",
+    label: "SMTP password",
+    sensitive: true,
+    type: "string",
+  },
+  { key: "smtp_port", label: "SMTP port", type: "number" },
+  {
+    key: "smtp_security",
+    label: "SMTP security",
+    options: [{ label: "TLS", value: "tls" }],
+    type: "select",
+  },
+  { key: "allow_invalid_tls", label: "Allow invalid TLS", type: "boolean" },
+  { key: "headers", label: "Headers", type: "json" },
+];
+
+describe("SchemaFieldsEditor", () => {
+  it("associates every schema label with a unique form control id", () => {
+    const TestHost = defineComponent({
+      setup: () => () =>
+        h("div", [
+          h(SchemaFieldsEditor, { fields, modelValue: {} }),
+          h(SchemaFieldsEditor, { fields, modelValue: {} }),
+        ]),
+    });
+    const wrapper = mount(TestHost, {
+      global: {
+        plugins: [
+          createI18n({
+            legacy: false,
+            locale: "en",
+            messages: { en: {} },
+            missingWarn: false,
+          }),
+        ],
+      },
+    });
+
+    const labelTargets = Array.from(
+      wrapper.element.querySelectorAll("label[for]"),
+      (label) => label.getAttribute("for"),
+    ).filter((value): value is string => Boolean(value));
+    const renderedIds = new Set(
+      Array.from(wrapper.element.querySelectorAll("[id]"), (element) =>
+        element.getAttribute("id"),
+      ).filter((value): value is string => Boolean(value)),
+    );
+
+    expect(labelTargets).toHaveLength(fields.length * 2);
+    expect(new Set(labelTargets).size).toBe(fields.length * 2);
+    expect(labelTargets.every((target) => renderedIds.has(target))).toBe(true);
+  });
+});

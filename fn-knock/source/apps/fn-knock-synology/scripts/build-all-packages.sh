@@ -1,1 +1,44 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4vLi4iICYmIHB3ZCkiCkFSVElGQUNUU19ESVI9IiR7Rk5fS05PQ0tfQVJUSUZBQ1RTX0RJUjotJHtST09UX0RJUn0vZGlzdC9mbi1rbm9jay1hcnRpZmFjdHN9IgpSVU5USU1FX0RJUj0iJHtGTl9LTk9DS19QUkVQQVJFRF9SVU5USU1FX0RJUjotJHtBUlRJRkFDVFNfRElSfS9ydW50aW1lfSIKQlVJTERfU0NSSVBUPSIke1JPT1RfRElSfS9hcHBzL2ZuLWtub2NrLXN5bm9sb2d5L3NjcmlwdHMvYnVpbGQtcGFja2FnZS5zaCIKCmxvZygpIHsKICBwcmludGYgJ1tmbi1rbm9jay1zeW5vbG9neS1hbGxdICVzXG4nICIkKiIKfQoKZmFpbCgpIHsKICBwcmludGYgJ1tmbi1rbm9jay1zeW5vbG9neS1hbGxdIEVSUk9SOiAlc1xuJyAiJCoiID4mMgogIGV4aXQgMQp9CgpbIC16ICIke0ZOX0tOT0NLX1NZTk9MT0dZX09VVFBVVDotfSIgXSB8fCBcCiAgZmFpbCAiRk5fS05PQ0tfU1lOT0xPR1lfT1VUUFVUIGNhbm5vdCBiZSB1c2VkIHdoZW4gYnVpbGRpbmcgYWxsIGFyY2hpdGVjdHVyZXMiCgppZiBbICIke0ZOX0tOT0NLX1NZTk9MT0dZX1NLSVBfQVJUSUZBQ1RfUFJFUEFSRTotMH0iICE9ICIxIiBdOyB0aGVuCiAgbG9nICJwcmVwYXJpbmcgc2hhcmVkIHJ1bnRpbWUgYXJ0aWZhY3RzIGZvciB4ODZfNjQsIGFybXY4LCBhbmQgYXJtdjciCiAgRk5fS05PQ0tfTVVTTF9BUkNIRVM9ImFtZDY0IGFybTY0IGFybSIgXAogIEZOX0tOT0NLX1JVTlRJTUVfR0FURVdBWV9BUkNIRVM9ImFtZDY0IGFybTY0IGFybSIgXAogIEZOX0tOT0NLX0dPX1JFQVVUSF9QUk9YWV9GT1JDRV9CVUlMRD0iJHtGTl9LTk9DS19HT19SRUFVVEhfUFJPWFlfRk9SQ0VfQlVJTEQ6LTF9IiBcCiAgICBiYXNoICIke1JPT1RfRElSfS9zY3JpcHRzL2ZuLWtub2NrLXByZXBhcmUtYXJ0aWZhY3RzLnNoIiBvcGVud3J0CmVsc2UKICBsb2cgInVzaW5nIGV4aXN0aW5nIHByZXBhcmVkIGFydGlmYWN0cyIKZmkKCmZvciB0YXJnZXQgaW4geDg2XzY0OmFtZDY0IGFybXY4OmFybTY0IGFybXY3OmFybTsgZG8KICBzeW5vbG9neV9hcmNoPSIke3RhcmdldCUlOip9IgogIHJ1bnRpbWVfYXJjaD0iJHt0YXJnZXQjKjp9IgogIGdhdGV3YXk9IiR7UlVOVElNRV9ESVJ9L3NlcnZlci9nby1yZWF1dGgtcHJveHktbGludXgtJHtydW50aW1lX2FyY2h9IgogIFsgLXggIiR7Z2F0ZXdheX0iIF0gfHwgZmFpbCAibWlzc2luZyBwcmVwYXJlZCBnYXRld2F5OiAke2dhdGV3YXl9IgoKICBsb2cgImJ1aWxkaW5nICR7c3lub2xvZ3lfYXJjaH0gcGFja2FnZSIKICBGTl9LTk9DS19TWU5PTE9HWV9TS0lQX0FSVElGQUNUX1BSRVBBUkU9MSBcCiAgRk5fS05PQ0tfU1lOT0xPR1lfQVJDSD0iJHtzeW5vbG9neV9hcmNofSIgXAogIEZOX0tOT0NLX1NZTk9MT0dZX0dBVEVXQVlfQklOPSIke2dhdGV3YXl9IiBcCiAgICBiYXNoICIke0JVSUxEX1NDUklQVH0iICIke3N5bm9sb2d5X2FyY2h9Igpkb25lCgpsb2cgImFsbCBTeW5vbG9neSBwYWNrYWdlcyBhcmUgcmVhZHkgaW4gJHtST09UX0RJUn0vZGlzdC9zeW5vbG9neSIK
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
+ARTIFACTS_DIR="${FN_KNOCK_ARTIFACTS_DIR:-${ROOT_DIR}/dist/fn-knock-artifacts}"
+RUNTIME_DIR="${FN_KNOCK_PREPARED_RUNTIME_DIR:-${ARTIFACTS_DIR}/runtime}"
+BUILD_SCRIPT="${ROOT_DIR}/apps/fn-knock-synology/scripts/build-package.sh"
+
+log() {
+  printf '[fn-knock-synology-all] %s\n' "$*"
+}
+
+fail() {
+  printf '[fn-knock-synology-all] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+[ -z "${FN_KNOCK_SYNOLOGY_OUTPUT:-}" ] || \
+  fail "FN_KNOCK_SYNOLOGY_OUTPUT cannot be used when building all architectures"
+
+if [ "${FN_KNOCK_SYNOLOGY_SKIP_ARTIFACT_PREPARE:-0}" != "1" ]; then
+  log "preparing shared runtime artifacts for x86_64, armv8, and armv7"
+  FN_KNOCK_MUSL_ARCHES="amd64 arm64 arm" \
+  FN_KNOCK_RUNTIME_GATEWAY_ARCHES="amd64 arm64 arm" \
+  FN_KNOCK_GO_REAUTH_PROXY_FORCE_BUILD="${FN_KNOCK_GO_REAUTH_PROXY_FORCE_BUILD:-1}" \
+    bash "${ROOT_DIR}/scripts/fn-knock-prepare-artifacts.sh" openwrt
+else
+  log "using existing prepared artifacts"
+fi
+
+for target in x86_64:amd64 armv8:arm64 armv7:arm; do
+  synology_arch="${target%%:*}"
+  runtime_arch="${target#*:}"
+  gateway="${RUNTIME_DIR}/server/go-reauth-proxy-linux-${runtime_arch}"
+  [ -x "${gateway}" ] || fail "missing prepared gateway: ${gateway}"
+
+  log "building ${synology_arch} package"
+  FN_KNOCK_SYNOLOGY_SKIP_ARTIFACT_PREPARE=1 \
+  FN_KNOCK_SYNOLOGY_ARCH="${synology_arch}" \
+  FN_KNOCK_SYNOLOGY_GATEWAY_BIN="${gateway}" \
+    bash "${BUILD_SCRIPT}" "${synology_arch}"
+done
+
+log "all Synology packages are ready in ${ROOT_DIR}/dist/synology"

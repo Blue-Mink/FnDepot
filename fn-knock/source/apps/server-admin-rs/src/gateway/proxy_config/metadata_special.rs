@@ -1,1 +1,276 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiBmZXRjaF9maXJzdF9mYXZpY29uX2FzX2RhdGFfdXJsKAogICAgY2xpZW50OiAmcmVxd2VzdDo6Q2xpZW50LAogICAgZmF2aWNvbl91cmxzOiAmW1N0cmluZ10sCiAgICBiYXNpY19hdXRoOiBPcHRpb248Jk1ldGFkYXRhQmFzaWNBdXRoQ29udGV4dD4sCiAgICBidWRnZXQ6ICZtdXQgRmF2aWNvbkZldGNoQnVkZ2V0LAogICAgcmVzZXJ2ZV9hdHRlbXB0czogaTMyLAopIC0+IFN0cmluZyB7CiAgICBmb3IgZmF2aWNvbl91cmwgaW4gZmF2aWNvbl91cmxzIHsKICAgICAgICBsZXQgbm9ybWFsaXplZCA9IGZhdmljb25fdXJsLnRyaW0oKTsKICAgICAgICBpZiBub3JtYWxpemVkLmlzX2VtcHR5KCkgfHwgYnVkZ2V0LnNlZW4uY29udGFpbnMobm9ybWFsaXplZCkgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CgogICAgICAgIGxldCBpc19pbmxpbmVfaW1hZ2UgPSBub3JtYWxpemVkLnRvX2FzY2lpX2xvd2VyY2FzZSgpLnN0YXJ0c193aXRoKCJkYXRhOmltYWdlLyIpOwogICAgICAgIGlmICFpc19pbmxpbmVfaW1hZ2UgewogICAgICAgICAgICBpZiBidWRnZXQucmVtYWluaW5nIDw9IHJlc2VydmVfYXR0ZW1wdHMgewogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgYnVkZ2V0LnJlbWFpbmluZyAtPSAxOwogICAgICAgIH0KICAgICAgICBidWRnZXQuc2Vlbi5pbnNlcnQobm9ybWFsaXplZC50b19zdHJpbmcoKSk7CiAgICAgICAgaWYgbGV0IFNvbWUoZmF2aWNvbikgPSBmZXRjaF9mYXZpY29uX2FzX2RhdGFfdXJsKGNsaWVudCwgbm9ybWFsaXplZCwgYmFzaWNfYXV0aCkuYXdhaXQgewogICAgICAgICAgICByZXR1cm4gZmF2aWNvbjsKICAgICAgICB9CiAgICB9CiAgICBTdHJpbmc6Om5ldygpCn0KCnB1YihzdXBlcikgZm4gaXNfb3BlbndydF9sdWNpX3VybCh2YWx1ZTogJnN0cikgLT4gYm9vbCB7CiAgICBVcmw6OnBhcnNlKHZhbHVlKQogICAgICAgIC5tYXAofHVybHwgewogICAgICAgICAgICBsZXQgcGF0aG5hbWUgPSB1cmwucGF0aCgpLnRvX2FzY2lpX2xvd2VyY2FzZSgpOwogICAgICAgICAgICBwYXRobmFtZSA9PSAiL2NnaS1iaW4vbHVjaSIgfHwgcGF0aG5hbWUuc3RhcnRzX3dpdGgoT1BFTldSVF9MVUNJX1BBVEgpCiAgICAgICAgfSkKICAgICAgICAudW53cmFwX29yKGZhbHNlKQp9CgpwdWIoc3VwZXIpIGZuIGlzX3NhbWVfb3JpZ2luX3VybCh2YWx1ZTogJnN0ciwgYmFzZV91cmw6ICZzdHIpIC0+IGJvb2wgewogICAgbGV0IE9rKHZhbHVlKSA9IFVybDo6cGFyc2UodmFsdWUpIGVsc2UgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH07CiAgICBsZXQgT2soYmFzZSkgPSBVcmw6OnBhcnNlKGJhc2VfdXJsKSBlbHNlIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9OwogICAgdmFsdWUub3JpZ2luKCkgPT0gYmFzZS5vcmlnaW4oKQp9CgpwdWIoc3VwZXIpIGZuIHN0cmlwX3JlZnJlc2hfdXJsX3F1b3Rlcyh2YWx1ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIHZhbHVlLnRyaW0oKS50cmltX21hdGNoZXMoWyciJywgJ1wnJ10pLnRvX3N0cmluZygpCn0KCnB1YihzdXBlcikgZm4gZXh0cmFjdF9vcGVud3J0X2x1Y2lfdXJsX2Zyb21faHRtbChodG1sOiAmc3RyLCBiYXNlX3VybDogJnN0cikgLT4gT3B0aW9uPFN0cmluZz4gewogICAgZm9yIHRhZyBpbiBjb2xsZWN0X2h0bWxfdGFncyhodG1sLCAibWV0YSIpIHsKICAgICAgICBsZXQgYXR0cmlidXRlcyA9IHBhcnNlX2h0bWxfYXR0cmlidXRlcyh0YWcpOwogICAgICAgIGlmIGF0dHJpYnV0ZXMKICAgICAgICAgICAgLmdldCgiaHR0cC1lcXVpdiIpCiAgICAgICAgICAgIC5tYXAofHZhbHVlfCB2YWx1ZS50cmltKCkuZXFfaWdub3JlX2FzY2lpX2Nhc2UoInJlZnJlc2giKSkKICAgICAgICAgICAgIT0gU29tZSh0cnVlKQogICAgICAgIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBjb250ZW50ID0KICAgICAgICAgICAgZGVjb2RlX2h0bWxfZW50aXRpZXMoYXR0cmlidXRlcy5nZXQoImNvbnRlbnQiKS5tYXAoU3RyaW5nOjphc19zdHIpLnVud3JhcF9vcigiIikpOwogICAgICAgIGxldCBTb21lKHJlZnJlc2hfdXJsKSA9IGZpbmRfcmVmcmVzaF91cmwoJmNvbnRlbnQpIGVsc2UgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9OwogICAgICAgIGxldCBTb21lKHJlc29sdmVkKSA9CiAgICAgICAgICAgIG5vcm1hbGl6ZV9tYW5pZmVzdF91cmwoJnN0cmlwX3JlZnJlc2hfdXJsX3F1b3RlcyhyZWZyZXNoX3VybCksIGJhc2VfdXJsKQogICAgICAgIGVsc2UgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9OwogICAgICAgIGlmIGlzX29wZW53cnRfbHVjaV91cmwoJnJlc29sdmVkKSAmJiBpc19zYW1lX29yaWdpbl91cmwoJnJlc29sdmVkLCBiYXNlX3VybCkgewogICAgICAgICAgICByZXR1cm4gU29tZShyZXNvbHZlZCk7CiAgICAgICAgfQogICAgfQoKICAgIGZvciB0YWcgaW4gY29sbGVjdF9odG1sX3RhZ3MoaHRtbCwgImEiKSB7CiAgICAgICAgbGV0IGF0dHJpYnV0ZXMgPSBwYXJzZV9odG1sX2F0dHJpYnV0ZXModGFnKTsKICAgICAgICBsZXQgU29tZShyZXNvbHZlZCkgPSBhdHRyaWJ1dGVzCiAgICAgICAgICAgIC5nZXQoImhyZWYiKQogICAgICAgICAgICAuYW5kX3RoZW4ofGhyZWZ8IG5vcm1hbGl6ZV9tYW5pZmVzdF91cmwoaHJlZiwgYmFzZV91cmwpKQogICAgICAgIGVsc2UgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9OwogICAgICAgIGlmIGlzX29wZW53cnRfbHVjaV91cmwoJnJlc29sdmVkKSAmJiBpc19zYW1lX29yaWdpbl91cmwoJnJlc29sdmVkLCBiYXNlX3VybCkgewogICAgICAgICAgICByZXR1cm4gU29tZShyZXNvbHZlZCk7CiAgICAgICAgfQogICAgfQoKICAgIFVybDo6cGFyc2UoYmFzZV91cmwpCiAgICAgICAgLm9rKCkKICAgICAgICAuYW5kX3RoZW4ofGJhc2V8IGJhc2Uuam9pbihPUEVOV1JUX0xVQ0lfUEFUSCkub2soKSkKICAgICAgICAubWFwKHx1cmx8IHVybC50b19zdHJpbmcoKSkKfQoKcHViKHN1cGVyKSBmbiBmaW5kX3JlZnJlc2hfdXJsKGNvbnRlbnQ6ICZzdHIpIC0+IE9wdGlvbjwmc3RyPiB7CiAgICBsZXQgbG93ZXIgPSBjb250ZW50LnRvX2FzY2lpX2xvd2VyY2FzZSgpOwogICAgbGV0IGxvd2VyX2J5dGVzID0gbG93ZXIuYXNfYnl0ZXMoKTsKICAgIGxldCBjb250ZW50X2J5dGVzID0gY29udGVudC5hc19ieXRlcygpOwogICAgbGV0IG11dCBjdXJzb3IgPSAwOwogICAgd2hpbGUgbGV0IFNvbWUocmVsYXRpdmVfcG9zKSA9IGxvd2VyW2N1cnNvci4uXS5maW5kKCJ1cmwiKSB7CiAgICAgICAgbGV0IHBvcyA9IGN1cnNvciArIHJlbGF0aXZlX3BvczsKICAgICAgICBsZXQgYmVmb3JlX29rID0gcG9zID09IDAgfHwgIWxvd2VyX2J5dGVzW3BvcyAtIDFdLmlzX2FzY2lpX2FscGhhbnVtZXJpYygpOwogICAgICAgIGlmICFiZWZvcmVfb2sgewogICAgICAgICAgICBjdXJzb3IgPSBwb3MgKyAzOwogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CgogICAgICAgIGxldCBtdXQgaWR4ID0gcG9zICsgMzsKICAgICAgICB3aGlsZSBpZHggPCBjb250ZW50X2J5dGVzLmxlbigpICYmIGNvbnRlbnRfYnl0ZXNbaWR4XS5pc19hc2NpaV93aGl0ZXNwYWNlKCkgewogICAgICAgICAgICBpZHggKz0gMTsKICAgICAgICB9CiAgICAgICAgaWYgY29udGVudF9ieXRlcy5nZXQoaWR4KSAhPSBTb21lKCZiJz0nKSB7CiAgICAgICAgICAgIGN1cnNvciA9IGlkeDsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGlkeCArPSAxOwogICAgICAgIHdoaWxlIGlkeCA8IGNvbnRlbnRfYnl0ZXMubGVuKCkgJiYgY29udGVudF9ieXRlc1tpZHhdLmlzX2FzY2lpX3doaXRlc3BhY2UoKSB7CiAgICAgICAgICAgIGlkeCArPSAxOwogICAgICAgIH0KICAgICAgICBsZXQgdmFsdWUgPSAmY29udGVudFtpZHguLl07CiAgICAgICAgcmV0dXJuIFNvbWUodmFsdWUuc3BsaXQoJzsnKS5uZXh0KCkudW53cmFwX29yKHZhbHVlKS50cmltKCkpOwogICAgfQogICAgTm9uZQp9CgpwdWIoc3VwZXIpIGZuIGhhc19vcGVud3J0X2x1Y2lfZW50cnlwb2ludF9odG1sKGh0bWw6ICZzdHIpIC0+IGJvb2wgewogICAgbGV0IG5vcm1hbGl6ZWQgPSBodG1sLnRvX2FzY2lpX2xvd2VyY2FzZSgpOwogICAgbm9ybWFsaXplZC5jb250YWlucygiY2dpLWJpbi9sdWNpIikKICAgICAgICAmJiAobm9ybWFsaXplZC5jb250YWlucygibHVjaSAtIGx1YSBjb25maWd1cmF0aW9uIGludGVyZmFjZSIpCiAgICAgICAgICAgIHx8IG5vcm1hbGl6ZWQuY29udGFpbnMoImh0dHAtZXF1aXY9XCJyZWZyZXNoXCIiKQogICAgICAgICAgICB8fCBub3JtYWxpemVkLmNvbnRhaW5zKCJodHRwLWVxdWl2PSdyZWZyZXNoJyIpCiAgICAgICAgICAgIHx8IG5vcm1hbGl6ZWQuY29udGFpbnMoImh0dHAtZXF1aXY9cmVmcmVzaCIpKQp9CgpwdWIoc3VwZXIpIGZuIGhhc19vcGVud3J0X2x1Y2lfZG9jdW1lbnRfaHRtbChodG1sOiAmc3RyKSAtPiBib29sIHsKICAgIGxldCB0aXRsZSA9IGV4dHJhY3RfaHRtbF90aXRsZShodG1sKS50b19hc2NpaV9sb3dlcmNhc2UoKTsKICAgIGxldCBub3JtYWxpemVkID0gaHRtbC50b19hc2NpaV9sb3dlcmNhc2UoKTsKICAgIHRpdGxlX2hhc19sdWNpX3dvcmQoJnRpdGxlKQogICAgICAgICYmIChub3JtYWxpemVkLmNvbnRhaW5zKCIvbHVjaS1zdGF0aWMvIikKICAgICAgICAgICAgfHwgbm9ybWFsaXplZC5jb250YWlucygiYXBwbGljYXRpb24tbmFtZSIpCiAgICAgICAgICAgIHx8IG5vcm1hbGl6ZWQuY29udGFpbnMoImFwcGxlLW1vYmlsZS13ZWItYXBwLXRpdGxlIikpCn0KCnB1YihzdXBlcikgZm4gdGl0bGVfaGFzX2x1Y2lfd29yZCh0aXRsZTogJnN0cikgLT4gYm9vbCB7CiAgICBsZXQgYnl0ZXMgPSB0aXRsZS5hc19ieXRlcygpOwogICAgZm9yIChpbmRleCwgXykgaW4gdGl0bGUubWF0Y2hfaW5kaWNlcygibHVjaSIpIHsKICAgICAgICBsZXQgYmVmb3JlX29rID0gaW5kZXggPT0gMCB8fCAhYnl0ZXNbaW5kZXggLSAxXS5pc19hc2NpaV9hbHBoYW51bWVyaWMoKTsKICAgICAgICBsZXQgYWZ0ZXIgPSBpbmRleCArICJsdWNpIi5sZW4oKTsKICAgICAgICBsZXQgYWZ0ZXJfb2sgPSBhZnRlciA+PSBieXRlcy5sZW4oKSB8fCAhYnl0ZXNbYWZ0ZXJdLmlzX2FzY2lpX2FscGhhbnVtZXJpYygpOwogICAgICAgIGlmIGJlZm9yZV9vayAmJiBhZnRlcl9vayB7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0KICAgIH0KICAgIGZhbHNlCn0KCnB1YihzdXBlcikgZm4gaXNfb3BlbndydF9sdWNpX2xvZ2luX3JlcXVpcmVkX3Jlc3BvbnNlKHJlc3BvbnNlOiAmcmVxd2VzdDo6UmVzcG9uc2UpIC0+IGJvb2wgewogICAgcmVzcG9uc2Uuc3RhdHVzKCkgPT0gcmVxd2VzdDo6U3RhdHVzQ29kZTo6Rk9SQklEREVOCiAgICAgICAgJiYgcmVzcG9uc2UKICAgICAgICAgICAgLmhlYWRlcnMoKQogICAgICAgICAgICAuZ2V0KE9QRU5XUlRfTFVDSV9MT0dJTl9SRVFVSVJFRF9IRUFERVIpCiAgICAgICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnRvX3N0cigpLm9rKCkpCiAgICAgICAgICAgIC5tYXAofHZhbHVlfCB2YWx1ZS50cmltKCkuZXFfaWdub3JlX2FzY2lpX2Nhc2UoInllcyIpKQogICAgICAgICAgICA9PSBTb21lKHRydWUpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gZmV0Y2hfb3BlbndydF9sdWNpX2RvY3VtZW50KAogICAgY2xpZW50OiAmcmVxd2VzdDo6Q2xpZW50LAogICAgZG9jdW1lbnQ6IE1ldGFkYXRhSHRtbERvY3VtZW50LAogICAgYmFzaWNfYXV0aDogT3B0aW9uPCZNZXRhZGF0YUJhc2ljQXV0aENvbnRleHQ+LAopIC0+IFJlc3VsdDxNZXRhZGF0YUh0bWxEb2N1bWVudCwgTWV0YWRhdGFIdG1sRG9jdW1lbnQ+IHsKICAgIGlmIGlzX29wZW53cnRfbHVjaV91cmwoJmRvY3VtZW50LmZpbmFsX3VybCkgfHwgaGFzX29wZW53cnRfbHVjaV9kb2N1bWVudF9odG1sKCZkb2N1bWVudC5odG1sKSB7CiAgICAgICAgcmV0dXJuIE9rKGRvY3VtZW50KTsKICAgIH0KICAgIGlmICFoYXNfb3BlbndydF9sdWNpX2VudHJ5cG9pbnRfaHRtbCgmZG9jdW1lbnQuaHRtbCkgewogICAgICAgIHJldHVybiBFcnIoZG9jdW1lbnQpOwogICAgfQoKICAgIGxldCBTb21lKGx1Y2lfdXJsKSA9IGV4dHJhY3Rfb3BlbndydF9sdWNpX3VybF9mcm9tX2h0bWwoJmRvY3VtZW50Lmh0bWwsICZkb2N1bWVudC5maW5hbF91cmwpCiAgICBlbHNlIHsKICAgICAgICByZXR1cm4gRXJyKGRvY3VtZW50KTsKICAgIH07CiAgICBsZXQgT2socmVzcG9uc2UpID0gc2VuZF9tZXRhZGF0YV9nZXQoCiAgICAgICAgY2xpZW50LAogICAgICAgICZsdWNpX3VybCwKICAgICAgICAidGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCwqLyo7cT0wLjgiLAogICAgICAgIGJhc2ljX2F1dGgsCiAgICApCiAgICAuYXdhaXQKICAgIGVsc2UgewogICAgICAgIHJldHVybiBFcnIoZG9jdW1lbnQpOwogICAgfTsKICAgIGxldCBpc19sdWNpX2xvZ2luX3JlcXVpcmVkID0gaXNfb3BlbndydF9sdWNpX2xvZ2luX3JlcXVpcmVkX3Jlc3BvbnNlKCZyZXNwb25zZSk7CiAgICBpZiAhcmVzcG9uc2Uuc3RhdHVzKCkuaXNfc3VjY2VzcygpICYmICFpc19sdWNpX2xvZ2luX3JlcXVpcmVkIHsKICAgICAgICByZXR1cm4gRXJyKGRvY3VtZW50KTsKICAgIH0KICAgIGxldCBmaW5hbF91cmwgPSByZXNwb25zZS51cmwoKS50b19zdHJpbmcoKTsKICAgIGxldCBPayhodG1sKSA9IHJlYWRfcmVzcG9uc2VfdGV4dF9saW1pdGVkKHJlc3BvbnNlLCBNQVhfTUVUQURBVEFfSFRNTF9CWVRFUykuYXdhaXQgZWxzZSB7CiAgICAgICAgcmV0dXJuIEVycihkb2N1bWVudCk7CiAgICB9OwogICAgaWYgIWhhc19vcGVud3J0X2x1Y2lfZG9jdW1lbnRfaHRtbCgmaHRtbCkgJiYgIWlzX2x1Y2lfbG9naW5fcmVxdWlyZWQgewogICAgICAgIHJldHVybiBFcnIoZG9jdW1lbnQpOwogICAgfQogICAgT2soTWV0YWRhdGFIdG1sRG9jdW1lbnQgeyBodG1sLCBmaW5hbF91cmwgfSkKfQoKcHViKHN1cGVyKSBmbiBpc19vbmVfcGFuZWxfbG9hZGluZ190aXRsZSh2YWx1ZTogJnN0cikgLT4gYm9vbCB7CiAgICB2YWx1ZS50cmltKCkuZXFfaWdub3JlX2FzY2lpX2Nhc2UoT05FX1BBTkVMX0xPQURJTkdfVElUTEUpCn0KCnB1YihzdXBlcikgZm4gZGVjb2RlX2h0bWxfZW50aXRpZXModmFsdWU6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBsZXQgbXV0IG91dHB1dCA9IFN0cmluZzo6d2l0aF9jYXBhY2l0eSh2YWx1ZS5sZW4oKSk7CiAgICBsZXQgbXV0IGNoYXJzID0gdmFsdWUuY2hhcnMoKS5wZWVrYWJsZSgpOwogICAgd2hpbGUgbGV0IFNvbWUoY2gpID0gY2hhcnMubmV4dCgpIHsKICAgICAgICBpZiBjaCAhPSAnJicgewogICAgICAgICAgICBvdXRwdXQucHVzaChjaCk7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBsZXQgbXV0IHRva2VuID0gU3RyaW5nOjpuZXcoKTsKICAgICAgICB3aGlsZSBsZXQgU29tZShuZXh0KSA9IGNoYXJzLnBlZWsoKS5jb3BpZWQoKSB7CiAgICAgICAgICAgIGNoYXJzLm5leHQoKTsKICAgICAgICAgICAgaWYgbmV4dCA9PSAnOycgewogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgdG9rZW4ucHVzaChuZXh0KTsKICAgICAgICAgICAgaWYgdG9rZW4ubGVuKCkgPiAxNiB7CiAgICAgICAgICAgICAgICBvdXRwdXQucHVzaCgnJicpOwogICAgICAgICAgICAgICAgb3V0cHV0LnB1c2hfc3RyKCZ0b2tlbik7CiAgICAgICAgICAgICAgICB0b2tlbi5jbGVhcigpOwogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgaWYgdG9rZW4uaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBsZXQgcmVwbGFjZW1lbnQgPSBtYXRjaCB0b2tlbi50b19hc2NpaV9sb3dlcmNhc2UoKS5hc19zdHIoKSB7CiAgICAgICAgICAgICJhbXAiID0+IFNvbWUoIiYiLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgImx0IiA9PiBTb21lKCI8Ii50b19zdHJpbmcoKSksCiAgICAgICAgICAgICJndCIgPT4gU29tZSgiPiIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAicXVvdCIgPT4gU29tZSgiXCIiLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgImFwb3MiID0+IFNvbWUoIiciLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgIm5ic3AiID0+IFNvbWUoIiAiLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgdG9rZW4gaWYgdG9rZW4uc3RhcnRzX3dpdGgoIiN4IikgPT4gdTMyOjpmcm9tX3N0cl9yYWRpeCgmdG9rZW5bMi4uXSwgMTYpCiAgICAgICAgICAgICAgICAub2soKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKGNoYXI6OmZyb21fdTMyKQogICAgICAgICAgICAgICAgLm1hcCh8Y2h8IGNoLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgdG9rZW4gaWYgdG9rZW4uc3RhcnRzX3dpdGgoJyMnKSA9PiB0b2tlblsxLi5dCiAgICAgICAgICAgICAgICAucGFyc2U6Ojx1MzI+KCkKICAgICAgICAgICAgICAgIC5vaygpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oY2hhcjo6ZnJvbV91MzIpCiAgICAgICAgICAgICAgICAubWFwKHxjaHwgY2gudG9fc3RyaW5nKCkpLAogICAgICAgICAgICBfID0+IE5vbmUsCiAgICAgICAgfTsKICAgICAgICBpZiBsZXQgU29tZShyZXBsYWNlbWVudCkgPSByZXBsYWNlbWVudCB7CiAgICAgICAgICAgIG91dHB1dC5wdXNoX3N0cigmcmVwbGFjZW1lbnQpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIG91dHB1dC5wdXNoKCcmJyk7CiAgICAgICAgICAgIG91dHB1dC5wdXNoX3N0cigmdG9rZW4pOwogICAgICAgICAgICBvdXRwdXQucHVzaCgnOycpOwogICAgICAgIH0KICAgIH0KICAgIG91dHB1dAp9CgpwdWIoc3VwZXIpIGZuIGNvbGxhcHNlX2h0bWxfd2hpdGVzcGFjZSh2YWx1ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIHZhbHVlLnNwbGl0X3doaXRlc3BhY2UoKS5jb2xsZWN0Ojo8VmVjPF8+PigpLmpvaW4oIiAiKQp9CgpwdWIoc3VwZXIpIGZuIGNvbnRhaW5zX3dvcmQodmFsdWU6ICZzdHIsIHdvcmQ6ICZzdHIpIC0+IGJvb2wgewogICAgdmFsdWUKICAgICAgICAuc3BsaXQofGNoOiBjaGFyfCAhY2guaXNfYXNjaWlfYWxwaGFudW1lcmljKCkpCiAgICAgICAgLmFueSh8dG9rZW58IHRva2VuID09IHdvcmQpCn0K
+use super::*;
+
+pub(super) async fn fetch_first_favicon_as_data_url(
+    client: &reqwest::Client,
+    favicon_urls: &[String],
+    basic_auth: Option<&MetadataBasicAuthContext>,
+    budget: &mut FaviconFetchBudget,
+    reserve_attempts: i32,
+) -> String {
+    for favicon_url in favicon_urls {
+        let normalized = favicon_url.trim();
+        if normalized.is_empty() || budget.seen.contains(normalized) {
+            continue;
+        }
+
+        let is_inline_image = normalized.to_ascii_lowercase().starts_with("data:image/");
+        if !is_inline_image {
+            if budget.remaining <= reserve_attempts {
+                break;
+            }
+            budget.remaining -= 1;
+        }
+        budget.seen.insert(normalized.to_string());
+        if let Some(favicon) = fetch_favicon_as_data_url(client, normalized, basic_auth).await {
+            return favicon;
+        }
+    }
+    String::new()
+}
+
+pub(super) fn is_openwrt_luci_url(value: &str) -> bool {
+    Url::parse(value)
+        .map(|url| {
+            let pathname = url.path().to_ascii_lowercase();
+            pathname == "/cgi-bin/luci" || pathname.starts_with(OPENWRT_LUCI_PATH)
+        })
+        .unwrap_or(false)
+}
+
+pub(super) fn is_same_origin_url(value: &str, base_url: &str) -> bool {
+    let Ok(value) = Url::parse(value) else {
+        return false;
+    };
+    let Ok(base) = Url::parse(base_url) else {
+        return false;
+    };
+    value.origin() == base.origin()
+}
+
+pub(super) fn strip_refresh_url_quotes(value: &str) -> String {
+    value.trim().trim_matches(['"', '\'']).to_string()
+}
+
+pub(super) fn extract_openwrt_luci_url_from_html(html: &str, base_url: &str) -> Option<String> {
+    for tag in collect_html_tags(html, "meta") {
+        let attributes = parse_html_attributes(tag);
+        if attributes
+            .get("http-equiv")
+            .map(|value| value.trim().eq_ignore_ascii_case("refresh"))
+            != Some(true)
+        {
+            continue;
+        }
+        let content =
+            decode_html_entities(attributes.get("content").map(String::as_str).unwrap_or(""));
+        let Some(refresh_url) = find_refresh_url(&content) else {
+            continue;
+        };
+        let Some(resolved) =
+            normalize_manifest_url(&strip_refresh_url_quotes(refresh_url), base_url)
+        else {
+            continue;
+        };
+        if is_openwrt_luci_url(&resolved) && is_same_origin_url(&resolved, base_url) {
+            return Some(resolved);
+        }
+    }
+
+    for tag in collect_html_tags(html, "a") {
+        let attributes = parse_html_attributes(tag);
+        let Some(resolved) = attributes
+            .get("href")
+            .and_then(|href| normalize_manifest_url(href, base_url))
+        else {
+            continue;
+        };
+        if is_openwrt_luci_url(&resolved) && is_same_origin_url(&resolved, base_url) {
+            return Some(resolved);
+        }
+    }
+
+    Url::parse(base_url)
+        .ok()
+        .and_then(|base| base.join(OPENWRT_LUCI_PATH).ok())
+        .map(|url| url.to_string())
+}
+
+pub(super) fn find_refresh_url(content: &str) -> Option<&str> {
+    let lower = content.to_ascii_lowercase();
+    let lower_bytes = lower.as_bytes();
+    let content_bytes = content.as_bytes();
+    let mut cursor = 0;
+    while let Some(relative_pos) = lower[cursor..].find("url") {
+        let pos = cursor + relative_pos;
+        let before_ok = pos == 0 || !lower_bytes[pos - 1].is_ascii_alphanumeric();
+        if !before_ok {
+            cursor = pos + 3;
+            continue;
+        }
+
+        let mut idx = pos + 3;
+        while idx < content_bytes.len() && content_bytes[idx].is_ascii_whitespace() {
+            idx += 1;
+        }
+        if content_bytes.get(idx) != Some(&b'=') {
+            cursor = idx;
+            continue;
+        }
+        idx += 1;
+        while idx < content_bytes.len() && content_bytes[idx].is_ascii_whitespace() {
+            idx += 1;
+        }
+        let value = &content[idx..];
+        return Some(value.split(';').next().unwrap_or(value).trim());
+    }
+    None
+}
+
+pub(super) fn has_openwrt_luci_entrypoint_html(html: &str) -> bool {
+    let normalized = html.to_ascii_lowercase();
+    normalized.contains("cgi-bin/luci")
+        && (normalized.contains("luci - lua configuration interface")
+            || normalized.contains("http-equiv=\"refresh\"")
+            || normalized.contains("http-equiv='refresh'")
+            || normalized.contains("http-equiv=refresh"))
+}
+
+pub(super) fn has_openwrt_luci_document_html(html: &str) -> bool {
+    let title = extract_html_title(html).to_ascii_lowercase();
+    let normalized = html.to_ascii_lowercase();
+    title_has_luci_word(&title)
+        && (normalized.contains("/luci-static/")
+            || normalized.contains("application-name")
+            || normalized.contains("apple-mobile-web-app-title"))
+}
+
+pub(super) fn title_has_luci_word(title: &str) -> bool {
+    let bytes = title.as_bytes();
+    for (index, _) in title.match_indices("luci") {
+        let before_ok = index == 0 || !bytes[index - 1].is_ascii_alphanumeric();
+        let after = index + "luci".len();
+        let after_ok = after >= bytes.len() || !bytes[after].is_ascii_alphanumeric();
+        if before_ok && after_ok {
+            return true;
+        }
+    }
+    false
+}
+
+pub(super) fn is_openwrt_luci_login_required_response(response: &reqwest::Response) -> bool {
+    response.status() == reqwest::StatusCode::FORBIDDEN
+        && response
+            .headers()
+            .get(OPENWRT_LUCI_LOGIN_REQUIRED_HEADER)
+            .and_then(|value| value.to_str().ok())
+            .map(|value| value.trim().eq_ignore_ascii_case("yes"))
+            == Some(true)
+}
+
+pub(super) async fn fetch_openwrt_luci_document(
+    client: &reqwest::Client,
+    document: MetadataHtmlDocument,
+    basic_auth: Option<&MetadataBasicAuthContext>,
+) -> Result<MetadataHtmlDocument, MetadataHtmlDocument> {
+    if is_openwrt_luci_url(&document.final_url) || has_openwrt_luci_document_html(&document.html) {
+        return Ok(document);
+    }
+    if !has_openwrt_luci_entrypoint_html(&document.html) {
+        return Err(document);
+    }
+
+    let Some(luci_url) = extract_openwrt_luci_url_from_html(&document.html, &document.final_url)
+    else {
+        return Err(document);
+    };
+    let Ok(response) = send_metadata_get(
+        client,
+        &luci_url,
+        "text/html,application/xhtml+xml,*/*;q=0.8",
+        basic_auth,
+    )
+    .await
+    else {
+        return Err(document);
+    };
+    let is_luci_login_required = is_openwrt_luci_login_required_response(&response);
+    if !response.status().is_success() && !is_luci_login_required {
+        return Err(document);
+    }
+    let final_url = response.url().to_string();
+    let Ok(html) = read_response_text_limited(response, MAX_METADATA_HTML_BYTES).await else {
+        return Err(document);
+    };
+    if !has_openwrt_luci_document_html(&html) && !is_luci_login_required {
+        return Err(document);
+    }
+    Ok(MetadataHtmlDocument { html, final_url })
+}
+
+pub(super) fn is_one_panel_loading_title(value: &str) -> bool {
+    value.trim().eq_ignore_ascii_case(ONE_PANEL_LOADING_TITLE)
+}
+
+pub(super) fn decode_html_entities(value: &str) -> String {
+    let mut output = String::with_capacity(value.len());
+    let mut chars = value.chars().peekable();
+    while let Some(ch) = chars.next() {
+        if ch != '&' {
+            output.push(ch);
+            continue;
+        }
+        let mut token = String::new();
+        while let Some(next) = chars.peek().copied() {
+            chars.next();
+            if next == ';' {
+                break;
+            }
+            token.push(next);
+            if token.len() > 16 {
+                output.push('&');
+                output.push_str(&token);
+                token.clear();
+                break;
+            }
+        }
+        if token.is_empty() {
+            continue;
+        }
+        let replacement = match token.to_ascii_lowercase().as_str() {
+            "amp" => Some("&".to_string()),
+            "lt" => Some("<".to_string()),
+            "gt" => Some(">".to_string()),
+            "quot" => Some("\"".to_string()),
+            "apos" => Some("'".to_string()),
+            "nbsp" => Some(" ".to_string()),
+            token if token.starts_with("#x") => u32::from_str_radix(&token[2..], 16)
+                .ok()
+                .and_then(char::from_u32)
+                .map(|ch| ch.to_string()),
+            token if token.starts_with('#') => token[1..]
+                .parse::<u32>()
+                .ok()
+                .and_then(char::from_u32)
+                .map(|ch| ch.to_string()),
+            _ => None,
+        };
+        if let Some(replacement) = replacement {
+            output.push_str(&replacement);
+        } else {
+            output.push('&');
+            output.push_str(&token);
+            output.push(';');
+        }
+    }
+    output
+}
+
+pub(super) fn collapse_html_whitespace(value: &str) -> String {
+    value.split_whitespace().collect::<Vec<_>>().join(" ")
+}
+
+pub(super) fn contains_word(value: &str, word: &str) -> bool {
+    value
+        .split(|ch: char| !ch.is_ascii_alphanumeric())
+        .any(|token| token == word)
+}

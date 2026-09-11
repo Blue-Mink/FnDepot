@@ -1,1 +1,45 @@
-PHRlbXBsYXRlPgogIDxkaXYKICAgIGNsYXNzPSJ0aGVtZS1ncmlkLWJhY2tncm91bmQgZml4ZWQgaW5zZXQtMCAtei0yMCBoLXNjcmVlbiB3LXNjcmVlbiIKICA+PC9kaXY+CiAgPER5bmFtaWNXaGl0ZUJhY2tncm91bmQgdi1pZj0iaXNEeW5hbWljV2hpdGVBY3RpdmUiIDphY3RpdmU9InRydWUiIC8+CiAgPGRpdgogICAgY2xhc3M9ImZpeGVkIHJpZ2h0LVtjYWxjKGVudihzYWZlLWFyZWEtaW5zZXQtcmlnaHQpKzFyZW0pXSB0b3AtW2NhbGMoZW52KHNhZmUtYXJlYS1pbnNldC10b3ApKzFyZW0pXSB6LTMwIgogID4KICAgIDxUaGVtZU1vZGVUb2dnbGUgLz4KICA8L2Rpdj4KICA8Um91dGVyVmlldyAvPgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBkZWZpbmVBc3luY0NvbXBvbmVudCwgd2F0Y2hFZmZlY3QgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyB1c2VSb3V0ZSB9IGZyb20gInZ1ZS1yb3V0ZXIiOwppbXBvcnQgeyBUaGVtZU1vZGVUb2dnbGUsIHVzZVRoZW1lTW9kZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS90aGVtZS10b2dnbGUiOwppbXBvcnQgeyBEWU5BTUlDX1dISVRFX1RIRU1FX0NPTE9SX1BSRVNFVF9LRVkgfSBmcm9tICJAZnJvbnRlbmQtY29yZS9hcHBlYXJhbmNlIjsKaW1wb3J0IHsgdXNlQXBwZWFyYW5jZVN0YXRlIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBcHBlYXJhbmNlU3RhdGUiOwoKY29uc3QgeyBhY3RpdmVUaGVtZUNvbG9yUHJlc2V0IH0gPSB1c2VBcHBlYXJhbmNlU3RhdGUoKTsKY29uc3QgRHluYW1pY1doaXRlQmFja2dyb3VuZCA9IGRlZmluZUFzeW5jQ29tcG9uZW50KAogICgpID0+CiAgICBpbXBvcnQoIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9hcHBlYXJhbmNlL0R5bmFtaWNXaGl0ZUJhY2tncm91bmQudnVlIiksCik7CmNvbnN0IHsgcmVzb2x2ZWRNb2RlIH0gPSB1c2VUaGVtZU1vZGUoKTsKY29uc3Qgcm91dGUgPSB1c2VSb3V0ZSgpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgaXNEeW5hbWljV2hpdGVBY3RpdmUgPSBjb21wdXRlZCgKICAoKSA9PgogICAgcmVzb2x2ZWRNb2RlLnZhbHVlID09PSAibGlnaHQiICYmCiAgICBhY3RpdmVUaGVtZUNvbG9yUHJlc2V0LnZhbHVlID09PSBEWU5BTUlDX1dISVRFX1RIRU1FX0NPTE9SX1BSRVNFVF9LRVksCik7Cgp3YXRjaEVmZmVjdCgoKSA9PiB7CiAgY29uc3QgdGl0bGUgPQogICAgcm91dGUubmFtZSA9PT0gIk9pZGNCaW5kIgogICAgICA/IHQoImF1dGgub2lkY0JpbmQudGl0bGUiKQogICAgICA6IHJvdXRlLm5hbWUgPT09ICJOb3RGb3VuZCIKICAgICAgICA/ICI0MDQiCiAgICAgICAgOiB0KCJhdXRoLnRpdGxlIik7CiAgZG9jdW1lbnQudGl0bGUgPSBgJHt0aXRsZX0gwrcgZm4ta25vY2tgOwp9KTsKPC9zY3JpcHQ+Cg==
+<template>
+  <div
+    class="theme-grid-background fixed inset-0 -z-20 h-screen w-screen"
+  ></div>
+  <DynamicWhiteBackground v-if="isDynamicWhiteActive" :active="true" />
+  <div
+    class="fixed right-[calc(env(safe-area-inset-right)+1rem)] top-[calc(env(safe-area-inset-top)+1rem)] z-30"
+  >
+    <ThemeModeToggle />
+  </div>
+  <RouterView />
+</template>
+
+<script setup lang="ts">
+import { computed, defineAsyncComponent, watchEffect } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRoute } from "vue-router";
+import { ThemeModeToggle, useThemeMode } from "@/components/ui/theme-toggle";
+import { DYNAMIC_WHITE_THEME_COLOR_PRESET_KEY } from "@frontend-core/appearance";
+import { useAppearanceState } from "@admin-shared/composables/useAppearanceState";
+
+const { activeThemeColorPreset } = useAppearanceState();
+const DynamicWhiteBackground = defineAsyncComponent(
+  () =>
+    import("@admin-shared/components/appearance/DynamicWhiteBackground.vue"),
+);
+const { resolvedMode } = useThemeMode();
+const route = useRoute();
+const { t } = useI18n();
+const isDynamicWhiteActive = computed(
+  () =>
+    resolvedMode.value === "light" &&
+    activeThemeColorPreset.value === DYNAMIC_WHITE_THEME_COLOR_PRESET_KEY,
+);
+
+watchEffect(() => {
+  const title =
+    route.name === "OidcBind"
+      ? t("auth.oidcBind.title")
+      : route.name === "NotFound"
+        ? "404"
+        : t("auth.title");
+  document.title = `${title} · fn-knock`;
+});
+</script>

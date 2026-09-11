@@ -1,1 +1,102 @@
-aW1wb3J0IHsgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBhZnRlckVhY2gsIGJlZm9yZUVhY2gsIGRlc2NyaWJlLCBleHBlY3QsIGl0LCB2aSB9IGZyb20gInZpdGVzdCI7CmltcG9ydCB7IG5leHRUaWNrIH0gZnJvbSAidnVlIjsKaW1wb3J0IExheW91dFNjcm9sbEFyZWEgZnJvbSAiLi4vc3JjL3ZpZXdzL2xheW91dC9MYXlvdXRTY3JvbGxBcmVhLnZ1ZSI7Cgpjb25zdCBzZXRTY3JvbGxNZXRyaWNzID0gKAogIGVsZW1lbnQ6IEhUTUxFbGVtZW50LAogIG1ldHJpY3M6IHsgY2xpZW50SGVpZ2h0OiBudW1iZXI7IHNjcm9sbEhlaWdodDogbnVtYmVyOyBzY3JvbGxUb3A/OiBudW1iZXIgfSwKKSA9PiB7CiAgT2JqZWN0LmRlZmluZVByb3BlcnRpZXMoZWxlbWVudCwgewogICAgY2xpZW50SGVpZ2h0OiB7IGNvbmZpZ3VyYWJsZTogdHJ1ZSwgdmFsdWU6IG1ldHJpY3MuY2xpZW50SGVpZ2h0IH0sCiAgICBzY3JvbGxIZWlnaHQ6IHsgY29uZmlndXJhYmxlOiB0cnVlLCB2YWx1ZTogbWV0cmljcy5zY3JvbGxIZWlnaHQgfSwKICAgIHNjcm9sbFRvcDogewogICAgICBjb25maWd1cmFibGU6IHRydWUsCiAgICAgIHdyaXRhYmxlOiB0cnVlLAogICAgICB2YWx1ZTogbWV0cmljcy5zY3JvbGxUb3AgPz8gMCwKICAgIH0sCiAgfSk7Cn07CgpkZXNjcmliZSgiTGF5b3V0U2Nyb2xsQXJlYSIsICgpID0+IHsKICBiZWZvcmVFYWNoKCgpID0+IHZpLnVzZUZha2VUaW1lcnMoKSk7CgogIGFmdGVyRWFjaCgoKSA9PiB7CiAgICB2aS51c2VSZWFsVGltZXJzKCk7CiAgICB2aS5yZXN0b3JlQWxsTW9ja3MoKTsKICB9KTsKCiAgaXQoInJldmVhbHMgYSBwcm9wb3J0aW9uYWwgaW5kaWNhdG9yIHdoZW4gb3ZlcmZsb3dpbmcgY29udGVudCBtb3VudHMiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoTGF5b3V0U2Nyb2xsQXJlYSwgewogICAgICBwcm9wczogeyBoaW50T25Nb3VudDogdHJ1ZSB9LAogICAgICBzbG90czogeyBkZWZhdWx0OiAiPGJ1dHRvbj5PbmU8L2J1dHRvbj48YnV0dG9uPlR3bzwvYnV0dG9uPiIgfSwKICAgIH0pOwogICAgY29uc3Qgdmlld3BvcnQgPSB3cmFwcGVyLmdldCgiLmxheW91dC1zY3JvbGwtYXJlYV9fdmlld3BvcnQiKTsKICAgIHNldFNjcm9sbE1ldHJpY3Modmlld3BvcnQuZWxlbWVudCBhcyBIVE1MRWxlbWVudCwgewogICAgICBjbGllbnRIZWlnaHQ6IDIwMCwKICAgICAgc2Nyb2xsSGVpZ2h0OiA1MDAsCiAgICB9KTsKCiAgICB3aW5kb3cuZGlzcGF0Y2hFdmVudChuZXcgRXZlbnQoInJlc2l6ZSIpKTsKICAgIGF3YWl0IG5leHRUaWNrKCk7CgogICAgY29uc3QgcmFpbCA9IHdyYXBwZXIuZ2V0KCIubGF5b3V0LXNjcm9sbC1hcmVhX19yYWlsIik7CiAgICBleHBlY3QocmFpbC5jbGFzc2VzKCkpLnRvQ29udGFpbigibGF5b3V0LXNjcm9sbC1hcmVhX19yYWlsLS12aXNpYmxlIik7CiAgICBleHBlY3Qod3JhcHBlci5nZXQoIi5sYXlvdXQtc2Nyb2xsLWFyZWFfX3RodW1iIikuYXR0cmlidXRlcygic3R5bGUiKSkudG9Db250YWluKAogICAgICAiaGVpZ2h0OiA3N3B4IiwKICAgICk7CgogICAgdmkuYWR2YW5jZVRpbWVyc0J5VGltZSgxNjAwKTsKICAgIGF3YWl0IG5leHRUaWNrKCk7CiAgICBleHBlY3QocmFpbC5jbGFzc2VzKCkpLm5vdC50b0NvbnRhaW4oImxheW91dC1zY3JvbGwtYXJlYV9fcmFpbC0tdmlzaWJsZSIpOwogICAgd3JhcHBlci51bm1vdW50KCk7CiAgfSk7CgogIGl0KCJzaG93cyB3aGlsZSBzY3JvbGxpbmcgYW5kIGZvbGxvd3MgdGhlIGN1cnJlbnQgc2Nyb2xsIHBvc2l0aW9uIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KExheW91dFNjcm9sbEFyZWEpOwogICAgY29uc3Qgdmlld3BvcnQgPSB3cmFwcGVyLmdldCgiLmxheW91dC1zY3JvbGwtYXJlYV9fdmlld3BvcnQiKTsKICAgIHNldFNjcm9sbE1ldHJpY3Modmlld3BvcnQuZWxlbWVudCBhcyBIVE1MRWxlbWVudCwgewogICAgICBjbGllbnRIZWlnaHQ6IDIwMCwKICAgICAgc2Nyb2xsSGVpZ2h0OiA1MDAsCiAgICAgIHNjcm9sbFRvcDogMTUwLAogICAgfSk7CgogICAgYXdhaXQgdmlld3BvcnQudHJpZ2dlcigic2Nyb2xsIik7CgogICAgZXhwZWN0KHdyYXBwZXIuZ2V0KCIubGF5b3V0LXNjcm9sbC1hcmVhX19yYWlsIikuY2xhc3NlcygpKS50b0NvbnRhaW4oCiAgICAgICJsYXlvdXQtc2Nyb2xsLWFyZWFfX3JhaWwtLXZpc2libGUiLAogICAgKTsKICAgIGV4cGVjdCh3cmFwcGVyLmdldCgiLmxheW91dC1zY3JvbGwtYXJlYV9fdGh1bWIiKS5hdHRyaWJ1dGVzKCJzdHlsZSIpKS50b0NvbnRhaW4oCiAgICAgICJ0cmFuc2xhdGUzZCgwLCA1OHB4LCAwKSIsCiAgICApOwogICAgd3JhcHBlci51bm1vdW50KCk7CiAgfSk7CgogIGl0KCJkb2VzIG5vdCByZW5kZXIgYSBtaXNsZWFkaW5nIGluZGljYXRvciB3aXRob3V0IG92ZXJmbG93IiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KExheW91dFNjcm9sbEFyZWEsIHsKICAgICAgcHJvcHM6IHsgaGludE9uTW91bnQ6IHRydWUgfSwKICAgIH0pOwogICAgY29uc3Qgdmlld3BvcnQgPSB3cmFwcGVyLmdldCgiLmxheW91dC1zY3JvbGwtYXJlYV9fdmlld3BvcnQiKTsKICAgIHNldFNjcm9sbE1ldHJpY3Modmlld3BvcnQuZWxlbWVudCBhcyBIVE1MRWxlbWVudCwgewogICAgICBjbGllbnRIZWlnaHQ6IDIwMCwKICAgICAgc2Nyb2xsSGVpZ2h0OiAyMDAsCiAgICB9KTsKCiAgICB3aW5kb3cuZGlzcGF0Y2hFdmVudChuZXcgRXZlbnQoInJlc2l6ZSIpKTsKICAgIGF3YWl0IG5leHRUaWNrKCk7CgogICAgZXhwZWN0KHdyYXBwZXIuZmluZCgiLmxheW91dC1zY3JvbGwtYXJlYV9fcmFpbCIpLmV4aXN0cygpKS50b0JlKGZhbHNlKTsKICAgIHdyYXBwZXIudW5tb3VudCgpOwogIH0pOwoKICBpdCgiY2FuIHJlc2VydmUgYSBndXR0ZXIgc28gbWVudSBzdGF0ZXMgZG8gbm90IG92ZXJsYXAgdGhlIHJhaWwiLCAoKSA9PiB7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoTGF5b3V0U2Nyb2xsQXJlYSwgewogICAgICBwcm9wczogeyByZXNlcnZlUmFpbEd1dHRlcjogdHJ1ZSB9LAogICAgfSk7CgogICAgZXhwZWN0KHdyYXBwZXIuZ2V0KCIubGF5b3V0LXNjcm9sbC1hcmVhX192aWV3cG9ydCIpLmNsYXNzZXMoKSkudG9Db250YWluKAogICAgICAibGF5b3V0LXNjcm9sbC1hcmVhX192aWV3cG9ydC0tcmFpbC1ndXR0ZXIiLAogICAgKTsKICAgIHdyYXBwZXIudW5tb3VudCgpOwogIH0pOwp9KTsK
+import { mount } from "@vue/test-utils";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { nextTick } from "vue";
+import LayoutScrollArea from "../src/views/layout/LayoutScrollArea.vue";
+
+const setScrollMetrics = (
+  element: HTMLElement,
+  metrics: { clientHeight: number; scrollHeight: number; scrollTop?: number },
+) => {
+  Object.defineProperties(element, {
+    clientHeight: { configurable: true, value: metrics.clientHeight },
+    scrollHeight: { configurable: true, value: metrics.scrollHeight },
+    scrollTop: {
+      configurable: true,
+      writable: true,
+      value: metrics.scrollTop ?? 0,
+    },
+  });
+};
+
+describe("LayoutScrollArea", () => {
+  beforeEach(() => vi.useFakeTimers());
+
+  afterEach(() => {
+    vi.useRealTimers();
+    vi.restoreAllMocks();
+  });
+
+  it("reveals a proportional indicator when overflowing content mounts", async () => {
+    const wrapper = mount(LayoutScrollArea, {
+      props: { hintOnMount: true },
+      slots: { default: "<button>One</button><button>Two</button>" },
+    });
+    const viewport = wrapper.get(".layout-scroll-area__viewport");
+    setScrollMetrics(viewport.element as HTMLElement, {
+      clientHeight: 200,
+      scrollHeight: 500,
+    });
+
+    window.dispatchEvent(new Event("resize"));
+    await nextTick();
+
+    const rail = wrapper.get(".layout-scroll-area__rail");
+    expect(rail.classes()).toContain("layout-scroll-area__rail--visible");
+    expect(wrapper.get(".layout-scroll-area__thumb").attributes("style")).toContain(
+      "height: 77px",
+    );
+
+    vi.advanceTimersByTime(1600);
+    await nextTick();
+    expect(rail.classes()).not.toContain("layout-scroll-area__rail--visible");
+    wrapper.unmount();
+  });
+
+  it("shows while scrolling and follows the current scroll position", async () => {
+    const wrapper = mount(LayoutScrollArea);
+    const viewport = wrapper.get(".layout-scroll-area__viewport");
+    setScrollMetrics(viewport.element as HTMLElement, {
+      clientHeight: 200,
+      scrollHeight: 500,
+      scrollTop: 150,
+    });
+
+    await viewport.trigger("scroll");
+
+    expect(wrapper.get(".layout-scroll-area__rail").classes()).toContain(
+      "layout-scroll-area__rail--visible",
+    );
+    expect(wrapper.get(".layout-scroll-area__thumb").attributes("style")).toContain(
+      "translate3d(0, 58px, 0)",
+    );
+    wrapper.unmount();
+  });
+
+  it("does not render a misleading indicator without overflow", async () => {
+    const wrapper = mount(LayoutScrollArea, {
+      props: { hintOnMount: true },
+    });
+    const viewport = wrapper.get(".layout-scroll-area__viewport");
+    setScrollMetrics(viewport.element as HTMLElement, {
+      clientHeight: 200,
+      scrollHeight: 200,
+    });
+
+    window.dispatchEvent(new Event("resize"));
+    await nextTick();
+
+    expect(wrapper.find(".layout-scroll-area__rail").exists()).toBe(false);
+    wrapper.unmount();
+  });
+
+  it("can reserve a gutter so menu states do not overlap the rail", () => {
+    const wrapper = mount(LayoutScrollArea, {
+      props: { reserveRailGutter: true },
+    });
+
+    expect(wrapper.get(".layout-scroll-area__viewport").classes()).toContain(
+      "layout-scroll-area__viewport--rail-gutter",
+    );
+    wrapper.unmount();
+  });
+});

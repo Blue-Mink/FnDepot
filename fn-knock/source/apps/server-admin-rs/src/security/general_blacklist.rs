@@ -1,1 +1,472 @@
-dXNlIGF4dW06OnsKICAgIGJvZHk6OkJ5dGVzLAogICAgZXh0cmFjdDo6e1BhdGgsIFF1ZXJ5LCBTdGF0ZX0sCiAgICBodHRwOjpTdGF0dXNDb2RlLAogICAgcmVzcG9uc2U6OntJbnRvUmVzcG9uc2UsIFJlc3BvbnNlfSwKfTsKdXNlIHNlcmRlOjpEZXNlcmlhbGl6ZTsKdXNlIHNlcmRlX2pzb246OlZhbHVlOwp1c2UgdXRvaXBhX2F4dW06Ontyb3V0ZXI6Ok9wZW5BcGlSb3V0ZXIsIHJvdXRlc307Cgp1c2UgY3JhdGU6OntodHRwX3V0aWxzOjpub3JtYWxpemVfaXAsIGkxOG46OlRyYW5zbGF0b3IsIHJlc3BvbnNlLCBzdGF0ZTo6QXBwU3RhdGV9OwoKY29uc3QgR0VORVJBTF9CTEFDS0xJU1RfU09VUkNFUzogJlsmc3RyXSA9ICZbIm1hbnVhbCIsICJyZXF1ZXN0X2xvZyIsICJhY3RpdmVfaXAiLCAid2FmX2xvZyJdOwoKZm4gZ2VuZXJhbF9ibGFja2xpc3RfdGV4dCh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwga2V5OiAmc3RyKSAtPiBTdHJpbmcgewogICAgdHJhbnNsYXRvci50KCZmb3JtYXQhKCJzZXJ2ZXIuZ2VuZXJhbEJsYWNrbGlzdC57a2V5fSIpKQp9CgpmbiBnZW5lcmFsX2JsYWNrbGlzdF90ZXh0X3BhcmFtcygKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAga2V5OiAmc3RyLAogICAgcGFyYW1zOiAmWygmc3RyLCBTdHJpbmcpXSwKKSAtPiBTdHJpbmcgewogICAgdHJhbnNsYXRvci50X3BhcmFtcygmZm9ybWF0ISgic2VydmVyLmdlbmVyYWxCbGFja2xpc3Que2tleX0iKSwgcGFyYW1zKQp9CgpmbiBnZW5lcmFsX2JsYWNrbGlzdF9lcnJvcl9yZXNwb25zZSgKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgc3RhdHVzOiBTdGF0dXNDb2RlLAogICAgbWVzc2FnZTogaW1wbCBBc1JlZjxzdHI+LAopIC0+IFJlc3BvbnNlIHsKICAgIHJlc3BvbnNlOjplcnJvcigKICAgICAgICBzdGF0dXMsCiAgICAgICAgbG9jYWxpemVfZ2VuZXJhbF9ibGFja2xpc3RfZXJyb3IodHJhbnNsYXRvciwgbWVzc2FnZS5hc19yZWYoKSksCiAgICApCn0KCmZuIGxvY2FsaXplX2dlbmVyYWxfYmxhY2tsaXN0X2Vycm9yKHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLCBtZXNzYWdlOiAmc3RyKSAtPiBTdHJpbmcgewogICAgbGV0IG1lc3NhZ2UgPSBtZXNzYWdlLnRyaW0oKTsKICAgIG1hdGNoIG1lc3NhZ2UgewogICAgICAgICJJbnZhbGlkIHJlcXVlc3QgYm9keSIgPT4gZ2VuZXJhbF9ibGFja2xpc3RfdGV4dCh0cmFuc2xhdG9yLCAiaW52YWxpZFJlcXVlc3RCb2R5IiksCiAgICAgICAgIkludmFsaWQgSVAiID0+IGdlbmVyYWxfYmxhY2tsaXN0X3RleHQodHJhbnNsYXRvciwgImludmFsaWRJcCIpLAogICAgICAgICJBdCBsZWFzdCBvbmUgdmFsaWQgSVAgaXMgcmVxdWlyZWQiID0+IHsKICAgICAgICAgICAgZ2VuZXJhbF9ibGFja2xpc3RfdGV4dCh0cmFuc2xhdG9yLCAiYXRMZWFzdE9uZVZhbGlkSXBSZXF1aXJlZCIpCiAgICAgICAgfQogICAgICAgICJHbyBiYWNrZW5kIHJlcXVlc3QgZmFpbGVkIiA9PiBnZW5lcmFsX2JsYWNrbGlzdF90ZXh0KHRyYW5zbGF0b3IsICJiYWNrZW5kUmVxdWVzdEZhaWxlZCIpLAogICAgICAgICJHbyBiYWNrZW5kIHJlc3BvbnNlIG1pc3NpbmcgZGF0YSIgPT4gewogICAgICAgICAgICBnZW5lcmFsX2JsYWNrbGlzdF90ZXh0KHRyYW5zbGF0b3IsICJiYWNrZW5kUmVzcG9uc2VNaXNzaW5nRGF0YSIpCiAgICAgICAgfQogICAgICAgIF8gPT4gewogICAgICAgICAgICBpZiBsZXQgU29tZShpcCkgPSBtZXNzYWdlLnN0cmlwX3ByZWZpeCgiSW52YWxpZCBJUDogIikgewogICAgICAgICAgICAgICAgcmV0dXJuIGdlbmVyYWxfYmxhY2tsaXN0X3RleHRfcGFyYW1zKAogICAgICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAgICAgImludmFsaWRJcFdpdGhWYWx1ZSIsCiAgICAgICAgICAgICAgICAgICAgJlsoImlwIiwgaXAudHJpbSgpLnRvX3N0cmluZygpKV0sCiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICB9CiAgICAgICAgICAgIG1lc3NhZ2UudG9fc3RyaW5nKCkKICAgICAgICB9CiAgICB9Cn0KCiNbZGVyaXZlKERlc2VyaWFsaXplKV0Kc3RydWN0IExpc3RRdWVyeSB7CiAgICBwYWdlOiBPcHRpb248U3RyaW5nPiwKICAgIGxpbWl0OiBPcHRpb248U3RyaW5nPiwKICAgIHNlYXJjaDogT3B0aW9uPFN0cmluZz4sCn0KCnB1YiBmbiBnZW5lcmFsX2JsYWNrbGlzdF9yb3V0ZXMoKSAtPiBPcGVuQXBpUm91dGVyPEFwcFN0YXRlPiB7CiAgICBPcGVuQXBpUm91dGVyOjpuZXcoKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShsaXN0LCBhZGQsIHJlbW92ZSkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHN0YXR1cykpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHJlbW92ZV9pcCkpCn0KCiNbdXRvaXBhOjpwYXRoKAogICAgZ2V0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL2dlbmVyYWwtYmxhY2tsaXN0IiwKICAgIHRhZyA9ICJnZW5lcmFsLWJsYWNrbGlzdCIsCiAgICBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9nZW5lcmFsX2JsYWNrbGlzdCIsCiAgICByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiR2VuZXJhbCBibGFja2xpc3QgcGFnZSIpKQopXQphc3luYyBmbiBsaXN0KFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LCBRdWVyeShxdWVyeSk6IFF1ZXJ5PExpc3RRdWVyeT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbGV0IHBhZ2UgPSBtYXRjaCBwYXJzZV9wb3NpdGl2ZV9pMzIocXVlcnkucGFnZS5hc19kZXJlZigpLCAxLCAicGFnZSBtdXN0IGJlIGEgcG9zaXRpdmUgaW50ZWdlciIpCiAgICB7CiAgICAgICAgT2socGFnZSkgPT4gcGFnZSwKICAgICAgICBFcnIobWVzc2FnZSkgPT4gewogICAgICAgICAgICByZXR1cm4gZ2VuZXJhbF9ibGFja2xpc3RfZXJyb3JfcmVzcG9uc2UoJnRyYW5zbGF0b3IsIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULCBtZXNzYWdlKTsKICAgICAgICB9CiAgICB9OwogICAgbGV0IGxpbWl0ID0gbWF0Y2ggcGFyc2VfcG9zaXRpdmVfaTMyKAogICAgICAgIHF1ZXJ5LmxpbWl0LmFzX2RlcmVmKCksCiAgICAgICAgMjAsCiAgICAgICAgImxpbWl0IG11c3QgYmUgYSBwb3NpdGl2ZSBpbnRlZ2VyIiwKICAgICkgewogICAgICAgIE9rKGxpbWl0KSA9PiBsaW1pdCwKICAgICAgICBFcnIobWVzc2FnZSkgPT4gewogICAgICAgICAgICByZXR1cm4gZ2VuZXJhbF9ibGFja2xpc3RfZXJyb3JfcmVzcG9uc2UoJnRyYW5zbGF0b3IsIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULCBtZXNzYWdlKTsKICAgICAgICB9CiAgICB9OwogICAgZ29fZGF0YV9yZXNwb25zZSgKICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAuY2xpZW50CiAgICAgICAgICAgIC5saXN0X2dlbmVyYWxfYmxhY2tsaXN0KHBhZ2UsIGxpbWl0LCBxdWVyeS5zZWFyY2gudW53cmFwX29yX2RlZmF1bHQoKSkKICAgICAgICAgICAgLmF3YWl0LAogICAgKQp9CgojW3V0b2lwYTo6cGF0aCgKICAgIHBvc3QsCiAgICBwYXRoID0gIi9hcGkvYWRtaW4vZ2VuZXJhbC1ibGFja2xpc3Qvc3RhdHVzIiwKICAgIHRhZyA9ICJnZW5lcmFsLWJsYWNrbGlzdCIsCiAgICBvcGVyYXRpb25faWQgPSAicG9zdF9hcGlfYWRtaW5fZ2VuZXJhbF9ibGFja2xpc3Rfc3RhdHVzIiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJHZW5lcmFsIGJsYWNrbGlzdCBzdGF0dXMiKSkKKV0KYXN5bmMgZm4gc3RhdHVzKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LCBib2R5OiBCeXRlcykgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICBsZXQgcGFyc2VkID0gbWF0Y2ggcGFyc2VfYm9keSgmYm9keSkgewogICAgICAgIE9rKHZhbHVlKSA9PiB2YWx1ZSwKICAgICAgICBFcnIobWVzc2FnZSkgPT4gewogICAgICAgICAgICByZXR1cm4gZ2VuZXJhbF9ibGFja2xpc3RfZXJyb3JfcmVzcG9uc2UoJnRyYW5zbGF0b3IsIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULCBtZXNzYWdlKTsKICAgICAgICB9CiAgICB9OwogICAgbGV0IGlwcyA9IG5vcm1hbGl6ZV9zdGF0dXNfaXBfbGlzdChwYXJzZWQuZ2V0KCJpcHMiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpKTsKICAgIGdvX2RhdGFfcmVzcG9uc2UoCiAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgc3RhdGUuZ2F0ZXdheS5jbGllbnQuY2hlY2tfZ2VuZXJhbF9ibGFja2xpc3QoaXBzKS5hd2FpdCwKICAgICkKfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBwb3N0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL2dlbmVyYWwtYmxhY2tsaXN0IiwKICAgIHRhZyA9ICJnZW5lcmFsLWJsYWNrbGlzdCIsCiAgICBvcGVyYXRpb25faWQgPSAicG9zdF9hcGlfYWRtaW5fZ2VuZXJhbF9ibGFja2xpc3QiLAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkdlbmVyYWwgYmxhY2tsaXN0IG11dGF0aW9uIHJlc3VsdCIpKQopXQphc3luYyBmbiBhZGQoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sIGJvZHk6IEJ5dGVzKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGxldCBwYXJzZWQgPSBtYXRjaCBwYXJzZV9ib2R5KCZib2R5KSB7CiAgICAgICAgT2sodmFsdWUpID0+IHZhbHVlLAogICAgICAgIEVycihtZXNzYWdlKSA9PiB7CiAgICAgICAgICAgIHJldHVybiBnZW5lcmFsX2JsYWNrbGlzdF9lcnJvcl9yZXNwb25zZSgmdHJhbnNsYXRvciwgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsIG1lc3NhZ2UpOwogICAgICAgIH0KICAgIH07CiAgICBsZXQgaXBzID0gbWF0Y2ggbm9ybWFsaXplX2lwX2xpc3QocGFyc2VkLmdldCgiaXBzIikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKSkgewogICAgICAgIE9rKGlwcykgPT4gaXBzLAogICAgICAgIEVycihtZXNzYWdlKSA9PiB7CiAgICAgICAgICAgIHJldHVybiBnZW5lcmFsX2JsYWNrbGlzdF9lcnJvcl9yZXNwb25zZSgmdHJhbnNsYXRvciwgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsIG1lc3NhZ2UpOwogICAgICAgIH0KICAgIH07CiAgICBpZiBpcHMuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIGdlbmVyYWxfYmxhY2tsaXN0X2Vycm9yX3Jlc3BvbnNlKAogICAgICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgICAgICJBdCBsZWFzdCBvbmUgdmFsaWQgSVAgaXMgcmVxdWlyZWQiLAogICAgICAgICk7CiAgICB9CiAgICBsZXQgc291cmNlID0gbm9ybWFsaXplX3NvdXJjZShwYXJzZWQuZ2V0KCJzb3VyY2UiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSk7CiAgICBsZXQgY29tbWVudCA9IHBhcnNlZAogICAgICAgIC5nZXQoImNvbW1lbnQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3IoIiIpCiAgICAgICAgLnRyaW0oKQogICAgICAgIC50b19zdHJpbmcoKTsKICAgIGdvX2RhdGFfcmVzcG9uc2UoCiAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgc3RhdGUKICAgICAgICAgICAgLmdhdGV3YXkKICAgICAgICAgICAgLmNsaWVudAogICAgICAgICAgICAuYWRkX2dlbmVyYWxfYmxhY2tsaXN0KGlwcywgc291cmNlLnRvX3N0cmluZygpLCBjb21tZW50KQogICAgICAgICAgICAuYXdhaXQsCiAgICApCn0KCiNbdXRvaXBhOjpwYXRoKAogICAgZGVsZXRlLAogICAgcGF0aCA9ICIvYXBpL2FkbWluL2dlbmVyYWwtYmxhY2tsaXN0IiwKICAgIHRhZyA9ICJnZW5lcmFsLWJsYWNrbGlzdCIsCiAgICBvcGVyYXRpb25faWQgPSAiZGVsZXRlX2FwaV9hZG1pbl9nZW5lcmFsX2JsYWNrbGlzdCIsCiAgICByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiR2VuZXJhbCBibGFja2xpc3QgbXV0YXRpb24gcmVzdWx0IikpCildCmFzeW5jIGZuIHJlbW92ZShTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwgYm9keTogQnl0ZXMpIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbGV0IHBhcnNlZCA9IG1hdGNoIHBhcnNlX2JvZHkoJmJvZHkpIHsKICAgICAgICBPayh2YWx1ZSkgPT4gdmFsdWUsCiAgICAgICAgRXJyKG1lc3NhZ2UpID0+IHsKICAgICAgICAgICAgcmV0dXJuIGdlbmVyYWxfYmxhY2tsaXN0X2Vycm9yX3Jlc3BvbnNlKCZ0cmFuc2xhdG9yLCBTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwgbWVzc2FnZSk7CiAgICAgICAgfQogICAgfTsKICAgIGxldCBpcHMgPSBtYXRjaCBwYXJzZV9kZWxldGVfaXBzKHBhcnNlZCkgewogICAgICAgIE9rKGlwcykgPT4gaXBzLAogICAgICAgIEVycihtZXNzYWdlKSA9PiB7CiAgICAgICAgICAgIHJldHVybiBnZW5lcmFsX2JsYWNrbGlzdF9lcnJvcl9yZXNwb25zZSgmdHJhbnNsYXRvciwgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsIG1lc3NhZ2UpOwogICAgICAgIH0KICAgIH07CiAgICBpZiBpcHMuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIGdlbmVyYWxfYmxhY2tsaXN0X2Vycm9yX3Jlc3BvbnNlKAogICAgICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgICAgICJBdCBsZWFzdCBvbmUgdmFsaWQgSVAgaXMgcmVxdWlyZWQiLAogICAgICAgICk7CiAgICB9CiAgICBnb19kYXRhX3Jlc3BvbnNlKAogICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgIHN0YXRlLmdhdGV3YXkuY2xpZW50LnJlbW92ZV9nZW5lcmFsX2JsYWNrbGlzdChpcHMpLmF3YWl0LAogICAgKQp9CgojW3V0b2lwYTo6cGF0aCgKICAgIGRlbGV0ZSwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9nZW5lcmFsLWJsYWNrbGlzdC97aXB9IiwKICAgIHRhZyA9ICJnZW5lcmFsLWJsYWNrbGlzdCIsCiAgICBvcGVyYXRpb25faWQgPSAiZGVsZXRlX2FwaV9hZG1pbl9nZW5lcmFsX2JsYWNrbGlzdF9faXBfIiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJHZW5lcmFsIGJsYWNrbGlzdCBtdXRhdGlvbiByZXN1bHQiKSkKKV0KYXN5bmMgZm4gcmVtb3ZlX2lwKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LCBQYXRoKGlwKTogUGF0aDxTdHJpbmc+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGxldCBub3JtYWxpemVkID0gbm9ybWFsaXplX2lwKCZpcCk7CiAgICBpZiBub3JtYWxpemVkLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBnZW5lcmFsX2JsYWNrbGlzdF9lcnJvcl9yZXNwb25zZSgKICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgICAgICAiSW52YWxpZCBJUCIsCiAgICAgICAgKTsKICAgIH0KICAgIGdvX2RhdGFfcmVzcG9uc2UoCiAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgc3RhdGUKICAgICAgICAgICAgLmdhdGV3YXkKICAgICAgICAgICAgLmNsaWVudAogICAgICAgICAgICAucmVtb3ZlX2dlbmVyYWxfYmxhY2tsaXN0KHZlYyFbbm9ybWFsaXplZF0pCiAgICAgICAgICAgIC5hd2FpdCwKICAgICkKfQoKZm4gZ29fZGF0YV9yZXNwb25zZSh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwgcmVzdWx0OiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4pIC0+IFJlc3BvbnNlIHsKICAgIG1hdGNoIHJlc3VsdCB7CiAgICAgICAgT2sodmFsdWUpID0+IHsKICAgICAgICAgICAgaWYgIXZhbHVlCiAgICAgICAgICAgICAgICAuZ2V0KCJzdWNjZXNzIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAgICAgICAgIC51bndyYXBfb3IoZmFsc2UpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGxldCBzdGF0dXMgPSBnb19iYWNrZW5kX3Jlc3BvbnNlX3N0YXR1cygmdmFsdWUpOwogICAgICAgICAgICAgICAgbGV0IG1lc3NhZ2UgPSB2YWx1ZQogICAgICAgICAgICAgICAgICAgIC5nZXQoIm1lc3NhZ2UiKQogICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgIC5tYXAofG1lc3NhZ2V8IGxvY2FsaXplX2dlbmVyYWxfYmxhY2tsaXN0X2Vycm9yKHRyYW5zbGF0b3IsIG1lc3NhZ2UpKQogICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCBnZW5lcmFsX2JsYWNrbGlzdF90ZXh0KHRyYW5zbGF0b3IsICJiYWNrZW5kUmVxdWVzdEZhaWxlZCIpKTsKICAgICAgICAgICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3Ioc3RhdHVzLCBtZXNzYWdlKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBtYXRjaCB2YWx1ZS5nZXQoImRhdGEiKSB7CiAgICAgICAgICAgICAgICBTb21lKGRhdGEpID0+IHJlc3BvbnNlOjpvayhkYXRhLmNsb25lKCkpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICAgICAgICAgIE5vbmUgPT4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9HQVRFV0FZLAogICAgICAgICAgICAgICAgICAgIGdlbmVyYWxfYmxhY2tsaXN0X3RleHQodHJhbnNsYXRvciwgImJhY2tlbmRSZXNwb25zZU1pc3NpbmdEYXRhIiksCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJnZW5lcmFsIGJsYWNrbGlzdCBHbyBiYWNrZW5kIHJlcXVlc3QgZmFpbGVkIik7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9HQVRFV0FZLAogICAgICAgICAgICAgICAgZ2VuZXJhbF9ibGFja2xpc3RfdGV4dCh0cmFuc2xhdG9yLCAiYmFja2VuZFJlcXVlc3RGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKZm4gZ29fYmFja2VuZF9yZXNwb25zZV9zdGF0dXModmFsdWU6ICZWYWx1ZSkgLT4gU3RhdHVzQ29kZSB7CiAgICB2YWx1ZQogICAgICAgIC5nZXQoImNvZGUiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfdTY0KQogICAgICAgIC5maWx0ZXIofGNvZGV8ICg0MDAuLj01OTkpLmNvbnRhaW5zKGNvZGUpKQogICAgICAgIC5hbmRfdGhlbih8Y29kZXwgU3RhdHVzQ29kZTo6ZnJvbV91MTYoY29kZSBhcyB1MTYpLm9rKCkpCiAgICAgICAgLnVud3JhcF9vcihTdGF0dXNDb2RlOjpCQURfR0FURVdBWSkKfQoKZm4gcGFyc2VfcG9zaXRpdmVfaTMyKAogICAgdmFsdWU6IE9wdGlvbjwmc3RyPiwKICAgIGZhbGxiYWNrOiBpMzIsCiAgICBtZXNzYWdlOiAmJ3N0YXRpYyBzdHIsCikgLT4gUmVzdWx0PGkzMiwgJidzdGF0aWMgc3RyPiB7CiAgICBsZXQgU29tZShyYXcpID0gdmFsdWUubWFwKHN0cjo6dHJpbSkuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpIGVsc2UgewogICAgICAgIHJldHVybiBPayhmYWxsYmFjayk7CiAgICB9OwogICAgbGV0IE9rKHBhcnNlZCkgPSByYXcucGFyc2U6OjxpMzI+KCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIEVycihtZXNzYWdlKTsKICAgIH07CiAgICBpZiBwYXJzZWQgPD0gMCB7CiAgICAgICAgcmV0dXJuIEVycihtZXNzYWdlKTsKICAgIH0KICAgIE9rKHBhcnNlZCkKfQoKZm4gcGFyc2VfYm9keShib2R5OiAmW3U4XSkgLT4gUmVzdWx0PFZhbHVlLCAmJ3N0YXRpYyBzdHI+IHsKICAgIGlmIGJvZHkuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE9rKFZhbHVlOjpOdWxsKTsKICAgIH0KICAgIGxldCBwYXJzZWQ6IFZhbHVlID0gc2VyZGVfanNvbjo6ZnJvbV9zbGljZShib2R5KS5tYXBfZXJyKHxffCAiSW52YWxpZCByZXF1ZXN0IGJvZHkiKT87CiAgICBpZiBsZXQgU29tZShpbm5lcikgPSBwYXJzZWQuYXNfc3RyKCkgewogICAgICAgIHJldHVybiBzZXJkZV9qc29uOjpmcm9tX3N0cihpbm5lcikubWFwX2Vycih8X3wgIkludmFsaWQgcmVxdWVzdCBib2R5Iik7CiAgICB9CiAgICBPayhwYXJzZWQpCn0KCmZuIG5vcm1hbGl6ZV9pcF9saXN0KHZhbHVlOiBWYWx1ZSkgLT4gUmVzdWx0PFZlYzxTdHJpbmc+LCBTdHJpbmc+IHsKICAgIGxldCByYXdfaXRlbXMgPSB2YWx1ZS5hc19hcnJheSgpLmNsb25lZCgpLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgbXV0IHNlZW4gPSBWZWM6Om5ldygpOwogICAgZm9yIGl0ZW0gaW4gcmF3X2l0ZW1zIHsKICAgICAgICBsZXQgU29tZShyYXcpID0gaXRlbS5hc19zdHIoKSBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuIEVycigiSW52YWxpZCBJUCIudG9fc3RyaW5nKCkpOwogICAgICAgIH07CiAgICAgICAgaWYgcmF3LnRyaW0oKS5pc19lbXB0eSgpIHsKICAgICAgICAgICAgcmV0dXJuIEVycigiSW52YWxpZCBJUCIudG9fc3RyaW5nKCkpOwogICAgICAgIH0KICAgICAgICBsZXQgbm9ybWFsaXplZCA9IG5vcm1hbGl6ZV9pcChyYXcpOwogICAgICAgIGlmIG5vcm1hbGl6ZWQuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoZm9ybWF0ISgiSW52YWxpZCBJUDoge30iLCByYXcudHJpbSgpKSk7CiAgICAgICAgfQogICAgICAgIGlmICFzZWVuLml0ZXIoKS5hbnkofHZhbHVlfCB2YWx1ZSA9PSAmbm9ybWFsaXplZCkgewogICAgICAgICAgICBzZWVuLnB1c2gobm9ybWFsaXplZCk7CiAgICAgICAgfQogICAgfQogICAgT2soc2VlbikKfQoKZm4gbm9ybWFsaXplX3N0YXR1c19pcF9saXN0KHZhbHVlOiBWYWx1ZSkgLT4gVmVjPFN0cmluZz4gewogICAgbGV0IHJhd19pdGVtcyA9IHZhbHVlLmFzX2FycmF5KCkuY2xvbmVkKCkudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBtdXQgc2VlbiA9IFZlYzo6bmV3KCk7CiAgICBmb3IgaXRlbSBpbiByYXdfaXRlbXMgewogICAgICAgIGxldCBTb21lKHJhdykgPSBpdGVtLmFzX3N0cigpIGVsc2UgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9OwogICAgICAgIGxldCBub3JtYWxpemVkID0gbm9ybWFsaXplX2lwKHJhdyk7CiAgICAgICAgaWYgbm9ybWFsaXplZC5pc19lbXB0eSgpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGlmICFzZWVuLml0ZXIoKS5hbnkofHZhbHVlfCB2YWx1ZSA9PSAmbm9ybWFsaXplZCkgewogICAgICAgICAgICBzZWVuLnB1c2gobm9ybWFsaXplZCk7CiAgICAgICAgfQogICAgfQogICAgc2Vlbgp9CgpmbiBwYXJzZV9kZWxldGVfaXBzKHZhbHVlOiBWYWx1ZSkgLT4gUmVzdWx0PFZlYzxTdHJpbmc+LCBTdHJpbmc+IHsKICAgIGlmIHZhbHVlLmlzX2FycmF5KCkgewogICAgICAgIHJldHVybiBub3JtYWxpemVfaXBfbGlzdCh2YWx1ZSk7CiAgICB9CiAgICBpZiBsZXQgU29tZShpcHMpID0gdmFsdWUuZ2V0KCJpcHMiKSB7CiAgICAgICAgcmV0dXJuIG5vcm1hbGl6ZV9pcF9saXN0KGlwcy5jbG9uZSgpKTsKICAgIH0KICAgIE9rKFZlYzo6bmV3KCkpCn0KCmZuIG5vcm1hbGl6ZV9zb3VyY2UodmFsdWU6IE9wdGlvbjwmc3RyPikgLT4gJidzdGF0aWMgc3RyIHsKICAgIGxldCBjYW5kaWRhdGUgPSB2YWx1ZS51bndyYXBfb3IoIiIpLnRyaW0oKTsKICAgIEdFTkVSQUxfQkxBQ0tMSVNUX1NPVVJDRVMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmNvcGllZCgpCiAgICAgICAgLmZpbmQofHNvdXJjZXwgKnNvdXJjZSA9PSBjYW5kaWRhdGUpCiAgICAgICAgLnVud3JhcF9vcigibWFudWFsIikKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CiAgICB1c2Ugc2VyZGVfanNvbjo6anNvbjsKCiAgICAjW3Rlc3RdCiAgICBmbiBub3JtYWxpemVzX2FuZF9kZWR1cGxpY2F0ZXNfaXBfbGlzdCgpIHsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBub3JtYWxpemVfaXBfbGlzdChqc29uIShbCiAgICAgICAgICAgICAgICAiMjAzLjAuMTEzLjEwIiwKICAgICAgICAgICAgICAgICIyMDMuMC4xMTMuMTA6NDQzIiwKICAgICAgICAgICAgICAgICJbMjAwMTpkYjg6OjEwXSIsCiAgICAgICAgICAgICAgICAiMjAwMTpkYjg6OjEwIgogICAgICAgICAgICBdKSkKICAgICAgICAgICAgLnVud3JhcCgpLAogICAgICAgICAgICB2ZWMhWyIyMDMuMC4xMTMuMTAiLnRvX3N0cmluZygpLCAiMjAwMTpkYjg6OjEwIi50b19zdHJpbmcoKV0KICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHJlamVjdHNfaW52YWxpZF9ibGFja2xpc3RfaXBzKCkgewogICAgICAgIGFzc2VydCEobm9ybWFsaXplX2lwX2xpc3QoanNvbiEoWyIyMDMuMC4xMTMuMTAiLCAiYmFkLWlwIl0pKS5pc19lcnIoKSk7CiAgICAgICAgYXNzZXJ0IShub3JtYWxpemVfaXBfbGlzdChqc29uIShbIjIwMy4wLjExMy4xMCIsICIiXSkpLmlzX2VycigpKTsKICAgICAgICBhc3NlcnQhKG5vcm1hbGl6ZV9pcF9saXN0KGpzb24hKFsiMjAzLjAuMTEzLjEwIiwgNDJdKSkuaXNfZXJyKCkpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHN0YXR1c19wYXJzZXJfaWdub3Jlc19pbnZhbGlkX21lbWJlcnMoKSB7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgbm9ybWFsaXplX3N0YXR1c19pcF9saXN0KGpzb24hKFsiMjAzLjAuMTEzLjEwIiwgImJhZC1pcCIsICIiLCA0MiwgIlsyMDAxOmRiODo6MTBdIl0pKSwKICAgICAgICAgICAgdmVjIVsiMjAzLjAuMTEzLjEwIi50b19zdHJpbmcoKSwgIjIwMDE6ZGI4OjoxMCIudG9fc3RyaW5nKCldCiAgICAgICAgKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBkZWxldGVfcGFyc2VyX2FjY2VwdHNfYXJyYXlfb3Jfb2JqZWN0KCkgewogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHBhcnNlX2RlbGV0ZV9pcHMoanNvbiEoWyIyMDMuMC4xMTMuMTAiXSkpLnVud3JhcCgpLAogICAgICAgICAgICB2ZWMhWyIyMDMuMC4xMTMuMTAiLnRvX3N0cmluZygpXQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgcGFyc2VfZGVsZXRlX2lwcyhqc29uISh7ICJpcHMiOiBbIjIwMy4wLjExMy4xMCJdIH0pKS51bndyYXAoKSwKICAgICAgICAgICAgdmVjIVsiMjAzLjAuMTEzLjEwIi50b19zdHJpbmcoKV0KICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGxvY2FsaXplc19nZW5lcmFsX2JsYWNrbGlzdF9yb3V0ZV9lcnJvcnMoKSB7CiAgICAgICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpuZXcoInpoLUNOIik7CgogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGxvY2FsaXplX2dlbmVyYWxfYmxhY2tsaXN0X2Vycm9yKCZ0cmFuc2xhdG9yLCAiSW52YWxpZCByZXF1ZXN0IGJvZHkiKSwKICAgICAgICAgICAgIuivt+axguS9k+S4jeato+ehriIKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGxvY2FsaXplX2dlbmVyYWxfYmxhY2tsaXN0X2Vycm9yKCZ0cmFuc2xhdG9yLCAiSW52YWxpZCBJUCIpLAogICAgICAgICAgICAiSVAg5Zyw5Z2A5LiN5q2j56GuIgogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgbG9jYWxpemVfZ2VuZXJhbF9ibGFja2xpc3RfZXJyb3IoJnRyYW5zbGF0b3IsICJJbnZhbGlkIElQOiBiYWQtaXAiKSwKICAgICAgICAgICAgIklQIOWcsOWdgOS4jeato+ehrjogYmFkLWlwIgogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgbG9jYWxpemVfZ2VuZXJhbF9ibGFja2xpc3RfZXJyb3IoJnRyYW5zbGF0b3IsICJBdCBsZWFzdCBvbmUgdmFsaWQgSVAgaXMgcmVxdWlyZWQiKSwKICAgICAgICAgICAgIuivt+iHs+WwkeaPkOS+m+S4gOS4quacieaViCBJUCIKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGxvY2FsaXplX2dlbmVyYWxfYmxhY2tsaXN0X2Vycm9yKCZ0cmFuc2xhdG9yLCAiR28gYmFja2VuZCByZXNwb25zZSBtaXNzaW5nIGRhdGEiKSwKICAgICAgICAgICAgIumAmueUqOm7keWQjeWNleWQjuerr+WTjeW6lOe8uuWwkeaVsOaNriIKICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGdvX2JhY2tlbmRfcmVzcG9uc2Vfc3RhdHVzX21hdGNoZXNfbm9kZV9ydWxlKCkgewogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGdvX2JhY2tlbmRfcmVzcG9uc2Vfc3RhdHVzKCZqc29uISh7ICJjb2RlIjogNDA5IH0pKSwKICAgICAgICAgICAgU3RhdHVzQ29kZTo6Q09ORkxJQ1QKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGdvX2JhY2tlbmRfcmVzcG9uc2Vfc3RhdHVzKCZqc29uISh7ICJjb2RlIjogMzAyIH0pKSwKICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX0dBVEVXQVkKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGdvX2JhY2tlbmRfcmVzcG9uc2Vfc3RhdHVzKCZqc29uISh7ICJjb2RlIjogNzAwIH0pKSwKICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX0dBVEVXQVkKICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGxpc3RfcXVlcnlfcG9zaXRpdmVfaW50ZWdlcl9wYXJzZXJfbWF0Y2hlc19nYXRld2F5X3ZhbGlkYXRpb24oKSB7CiAgICAgICAgYXNzZXJ0X2VxIShwYXJzZV9wb3NpdGl2ZV9pMzIoTm9uZSwgMSwgImludmFsaWQiKS51bndyYXAoKSwgMSk7CiAgICAgICAgYXNzZXJ0X2VxIShwYXJzZV9wb3NpdGl2ZV9pMzIoU29tZSgiIiksIDEsICJpbnZhbGlkIikudW53cmFwKCksIDEpOwogICAgICAgIGFzc2VydF9lcSEocGFyc2VfcG9zaXRpdmVfaTMyKFNvbWUoIiAyICIpLCAxLCAiaW52YWxpZCIpLnVud3JhcCgpLCAyKTsKICAgICAgICBhc3NlcnQhKHBhcnNlX3Bvc2l0aXZlX2kzMihTb21lKCIwIiksIDEsICJpbnZhbGlkIikuaXNfZXJyKCkpOwogICAgICAgIGFzc2VydCEocGFyc2VfcG9zaXRpdmVfaTMyKFNvbWUoIjJ4IiksIDEsICJpbnZhbGlkIikuaXNfZXJyKCkpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHNvdXJjZV9kZWZhdWx0c190b19tYW51YWwoKSB7CiAgICAgICAgYXNzZXJ0X2VxIShub3JtYWxpemVfc291cmNlKFNvbWUoIndhZl9sb2ciKSksICJ3YWZfbG9nIik7CiAgICAgICAgYXNzZXJ0X2VxIShub3JtYWxpemVfc291cmNlKFNvbWUoInVua25vd24iKSksICJtYW51YWwiKTsKICAgIH0KfQo=
+use axum::{
+    body::Bytes,
+    extract::{Path, Query, State},
+    http::StatusCode,
+    response::{IntoResponse, Response},
+};
+use serde::Deserialize;
+use serde_json::Value;
+use utoipa_axum::{router::OpenApiRouter, routes};
+
+use crate::{http_utils::normalize_ip, i18n::Translator, response, state::AppState};
+
+const GENERAL_BLACKLIST_SOURCES: &[&str] = &["manual", "request_log", "active_ip", "waf_log"];
+
+fn general_blacklist_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.generalBlacklist.{key}"))
+}
+
+fn general_blacklist_text_params(
+    translator: &Translator,
+    key: &str,
+    params: &[(&str, String)],
+) -> String {
+    translator.t_params(&format!("server.generalBlacklist.{key}"), params)
+}
+
+fn general_blacklist_error_response(
+    translator: &Translator,
+    status: StatusCode,
+    message: impl AsRef<str>,
+) -> Response {
+    response::error(
+        status,
+        localize_general_blacklist_error(translator, message.as_ref()),
+    )
+}
+
+fn localize_general_blacklist_error(translator: &Translator, message: &str) -> String {
+    let message = message.trim();
+    match message {
+        "Invalid request body" => general_blacklist_text(translator, "invalidRequestBody"),
+        "Invalid IP" => general_blacklist_text(translator, "invalidIp"),
+        "At least one valid IP is required" => {
+            general_blacklist_text(translator, "atLeastOneValidIpRequired")
+        }
+        "Go backend request failed" => general_blacklist_text(translator, "backendRequestFailed"),
+        "Go backend response missing data" => {
+            general_blacklist_text(translator, "backendResponseMissingData")
+        }
+        _ => {
+            if let Some(ip) = message.strip_prefix("Invalid IP: ") {
+                return general_blacklist_text_params(
+                    translator,
+                    "invalidIpWithValue",
+                    &[("ip", ip.trim().to_string())],
+                );
+            }
+            message.to_string()
+        }
+    }
+}
+
+#[derive(Deserialize)]
+struct ListQuery {
+    page: Option<String>,
+    limit: Option<String>,
+    search: Option<String>,
+}
+
+pub fn general_blacklist_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(list, add, remove))
+        .routes(routes!(status))
+        .routes(routes!(remove_ip))
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/general-blacklist",
+    tag = "general-blacklist",
+    operation_id = "get_api_admin_general_blacklist",
+    responses((status = 200, description = "General blacklist page"))
+)]
+async fn list(State(state): State<AppState>, Query(query): Query<ListQuery>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let page = match parse_positive_i32(query.page.as_deref(), 1, "page must be a positive integer")
+    {
+        Ok(page) => page,
+        Err(message) => {
+            return general_blacklist_error_response(&translator, StatusCode::BAD_REQUEST, message);
+        }
+    };
+    let limit = match parse_positive_i32(
+        query.limit.as_deref(),
+        20,
+        "limit must be a positive integer",
+    ) {
+        Ok(limit) => limit,
+        Err(message) => {
+            return general_blacklist_error_response(&translator, StatusCode::BAD_REQUEST, message);
+        }
+    };
+    go_data_response(
+        &translator,
+        state
+            .gateway
+            .client
+            .list_general_blacklist(page, limit, query.search.unwrap_or_default())
+            .await,
+    )
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/general-blacklist/status",
+    tag = "general-blacklist",
+    operation_id = "post_api_admin_general_blacklist_status",
+    responses((status = 200, description = "General blacklist status"))
+)]
+async fn status(State(state): State<AppState>, body: Bytes) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let parsed = match parse_body(&body) {
+        Ok(value) => value,
+        Err(message) => {
+            return general_blacklist_error_response(&translator, StatusCode::BAD_REQUEST, message);
+        }
+    };
+    let ips = normalize_status_ip_list(parsed.get("ips").cloned().unwrap_or(Value::Null));
+    go_data_response(
+        &translator,
+        state.gateway.client.check_general_blacklist(ips).await,
+    )
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/general-blacklist",
+    tag = "general-blacklist",
+    operation_id = "post_api_admin_general_blacklist",
+    responses((status = 200, description = "General blacklist mutation result"))
+)]
+async fn add(State(state): State<AppState>, body: Bytes) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let parsed = match parse_body(&body) {
+        Ok(value) => value,
+        Err(message) => {
+            return general_blacklist_error_response(&translator, StatusCode::BAD_REQUEST, message);
+        }
+    };
+    let ips = match normalize_ip_list(parsed.get("ips").cloned().unwrap_or(Value::Null)) {
+        Ok(ips) => ips,
+        Err(message) => {
+            return general_blacklist_error_response(&translator, StatusCode::BAD_REQUEST, message);
+        }
+    };
+    if ips.is_empty() {
+        return general_blacklist_error_response(
+            &translator,
+            StatusCode::BAD_REQUEST,
+            "At least one valid IP is required",
+        );
+    }
+    let source = normalize_source(parsed.get("source").and_then(Value::as_str));
+    let comment = parsed
+        .get("comment")
+        .and_then(Value::as_str)
+        .unwrap_or("")
+        .trim()
+        .to_string();
+    go_data_response(
+        &translator,
+        state
+            .gateway
+            .client
+            .add_general_blacklist(ips, source.to_string(), comment)
+            .await,
+    )
+}
+
+#[utoipa::path(
+    delete,
+    path = "/api/admin/general-blacklist",
+    tag = "general-blacklist",
+    operation_id = "delete_api_admin_general_blacklist",
+    responses((status = 200, description = "General blacklist mutation result"))
+)]
+async fn remove(State(state): State<AppState>, body: Bytes) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let parsed = match parse_body(&body) {
+        Ok(value) => value,
+        Err(message) => {
+            return general_blacklist_error_response(&translator, StatusCode::BAD_REQUEST, message);
+        }
+    };
+    let ips = match parse_delete_ips(parsed) {
+        Ok(ips) => ips,
+        Err(message) => {
+            return general_blacklist_error_response(&translator, StatusCode::BAD_REQUEST, message);
+        }
+    };
+    if ips.is_empty() {
+        return general_blacklist_error_response(
+            &translator,
+            StatusCode::BAD_REQUEST,
+            "At least one valid IP is required",
+        );
+    }
+    go_data_response(
+        &translator,
+        state.gateway.client.remove_general_blacklist(ips).await,
+    )
+}
+
+#[utoipa::path(
+    delete,
+    path = "/api/admin/general-blacklist/{ip}",
+    tag = "general-blacklist",
+    operation_id = "delete_api_admin_general_blacklist__ip_",
+    responses((status = 200, description = "General blacklist mutation result"))
+)]
+async fn remove_ip(State(state): State<AppState>, Path(ip): Path<String>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let normalized = normalize_ip(&ip);
+    if normalized.is_empty() {
+        return general_blacklist_error_response(
+            &translator,
+            StatusCode::BAD_REQUEST,
+            "Invalid IP",
+        );
+    }
+    go_data_response(
+        &translator,
+        state
+            .gateway
+            .client
+            .remove_general_blacklist(vec![normalized])
+            .await,
+    )
+}
+
+fn go_data_response(translator: &Translator, result: anyhow::Result<Value>) -> Response {
+    match result {
+        Ok(value) => {
+            if !value
+                .get("success")
+                .and_then(Value::as_bool)
+                .unwrap_or(false)
+            {
+                let status = go_backend_response_status(&value);
+                let message = value
+                    .get("message")
+                    .and_then(Value::as_str)
+                    .map(|message| localize_general_blacklist_error(translator, message))
+                    .unwrap_or_else(|| general_blacklist_text(translator, "backendRequestFailed"));
+                return response::error(status, message);
+            }
+            match value.get("data") {
+                Some(data) => response::ok(data.clone()).into_response(),
+                None => response::error(
+                    StatusCode::BAD_GATEWAY,
+                    general_blacklist_text(translator, "backendResponseMissingData"),
+                ),
+            }
+        }
+        Err(error) => {
+            tracing::warn!(%error, "general blacklist Go backend request failed");
+            response::error(
+                StatusCode::BAD_GATEWAY,
+                general_blacklist_text(translator, "backendRequestFailed"),
+            )
+        }
+    }
+}
+
+fn go_backend_response_status(value: &Value) -> StatusCode {
+    value
+        .get("code")
+        .and_then(Value::as_u64)
+        .filter(|code| (400..=599).contains(code))
+        .and_then(|code| StatusCode::from_u16(code as u16).ok())
+        .unwrap_or(StatusCode::BAD_GATEWAY)
+}
+
+fn parse_positive_i32(
+    value: Option<&str>,
+    fallback: i32,
+    message: &'static str,
+) -> Result<i32, &'static str> {
+    let Some(raw) = value.map(str::trim).filter(|value| !value.is_empty()) else {
+        return Ok(fallback);
+    };
+    let Ok(parsed) = raw.parse::<i32>() else {
+        return Err(message);
+    };
+    if parsed <= 0 {
+        return Err(message);
+    }
+    Ok(parsed)
+}
+
+fn parse_body(body: &[u8]) -> Result<Value, &'static str> {
+    if body.is_empty() {
+        return Ok(Value::Null);
+    }
+    let parsed: Value = serde_json::from_slice(body).map_err(|_| "Invalid request body")?;
+    if let Some(inner) = parsed.as_str() {
+        return serde_json::from_str(inner).map_err(|_| "Invalid request body");
+    }
+    Ok(parsed)
+}
+
+fn normalize_ip_list(value: Value) -> Result<Vec<String>, String> {
+    let raw_items = value.as_array().cloned().unwrap_or_default();
+    let mut seen = Vec::new();
+    for item in raw_items {
+        let Some(raw) = item.as_str() else {
+            return Err("Invalid IP".to_string());
+        };
+        if raw.trim().is_empty() {
+            return Err("Invalid IP".to_string());
+        }
+        let normalized = normalize_ip(raw);
+        if normalized.is_empty() {
+            return Err(format!("Invalid IP: {}", raw.trim()));
+        }
+        if !seen.iter().any(|value| value == &normalized) {
+            seen.push(normalized);
+        }
+    }
+    Ok(seen)
+}
+
+fn normalize_status_ip_list(value: Value) -> Vec<String> {
+    let raw_items = value.as_array().cloned().unwrap_or_default();
+    let mut seen = Vec::new();
+    for item in raw_items {
+        let Some(raw) = item.as_str() else {
+            continue;
+        };
+        let normalized = normalize_ip(raw);
+        if normalized.is_empty() {
+            continue;
+        }
+        if !seen.iter().any(|value| value == &normalized) {
+            seen.push(normalized);
+        }
+    }
+    seen
+}
+
+fn parse_delete_ips(value: Value) -> Result<Vec<String>, String> {
+    if value.is_array() {
+        return normalize_ip_list(value);
+    }
+    if let Some(ips) = value.get("ips") {
+        return normalize_ip_list(ips.clone());
+    }
+    Ok(Vec::new())
+}
+
+fn normalize_source(value: Option<&str>) -> &'static str {
+    let candidate = value.unwrap_or("").trim();
+    GENERAL_BLACKLIST_SOURCES
+        .iter()
+        .copied()
+        .find(|source| *source == candidate)
+        .unwrap_or("manual")
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use serde_json::json;
+
+    #[test]
+    fn normalizes_and_deduplicates_ip_list() {
+        assert_eq!(
+            normalize_ip_list(json!([
+                "203.0.113.10",
+                "203.0.113.10:443",
+                "[2001:db8::10]",
+                "2001:db8::10"
+            ]))
+            .unwrap(),
+            vec!["203.0.113.10".to_string(), "2001:db8::10".to_string()]
+        );
+    }
+
+    #[test]
+    fn rejects_invalid_blacklist_ips() {
+        assert!(normalize_ip_list(json!(["203.0.113.10", "bad-ip"])).is_err());
+        assert!(normalize_ip_list(json!(["203.0.113.10", ""])).is_err());
+        assert!(normalize_ip_list(json!(["203.0.113.10", 42])).is_err());
+    }
+
+    #[test]
+    fn status_parser_ignores_invalid_members() {
+        assert_eq!(
+            normalize_status_ip_list(json!(["203.0.113.10", "bad-ip", "", 42, "[2001:db8::10]"])),
+            vec!["203.0.113.10".to_string(), "2001:db8::10".to_string()]
+        );
+    }
+
+    #[test]
+    fn delete_parser_accepts_array_or_object() {
+        assert_eq!(
+            parse_delete_ips(json!(["203.0.113.10"])).unwrap(),
+            vec!["203.0.113.10".to_string()]
+        );
+        assert_eq!(
+            parse_delete_ips(json!({ "ips": ["203.0.113.10"] })).unwrap(),
+            vec!["203.0.113.10".to_string()]
+        );
+    }
+
+    #[test]
+    fn localizes_general_blacklist_route_errors() {
+        let translator = Translator::new("zh-CN");
+
+        assert_eq!(
+            localize_general_blacklist_error(&translator, "Invalid request body"),
+            "请求体不正确"
+        );
+        assert_eq!(
+            localize_general_blacklist_error(&translator, "Invalid IP"),
+            "IP 地址不正确"
+        );
+        assert_eq!(
+            localize_general_blacklist_error(&translator, "Invalid IP: bad-ip"),
+            "IP 地址不正确: bad-ip"
+        );
+        assert_eq!(
+            localize_general_blacklist_error(&translator, "At least one valid IP is required"),
+            "请至少提供一个有效 IP"
+        );
+        assert_eq!(
+            localize_general_blacklist_error(&translator, "Go backend response missing data"),
+            "通用黑名单后端响应缺少数据"
+        );
+    }
+
+    #[test]
+    fn go_backend_response_status_matches_node_rule() {
+        assert_eq!(
+            go_backend_response_status(&json!({ "code": 409 })),
+            StatusCode::CONFLICT
+        );
+        assert_eq!(
+            go_backend_response_status(&json!({ "code": 302 })),
+            StatusCode::BAD_GATEWAY
+        );
+        assert_eq!(
+            go_backend_response_status(&json!({ "code": 700 })),
+            StatusCode::BAD_GATEWAY
+        );
+    }
+
+    #[test]
+    fn list_query_positive_integer_parser_matches_gateway_validation() {
+        assert_eq!(parse_positive_i32(None, 1, "invalid").unwrap(), 1);
+        assert_eq!(parse_positive_i32(Some(""), 1, "invalid").unwrap(), 1);
+        assert_eq!(parse_positive_i32(Some(" 2 "), 1, "invalid").unwrap(), 2);
+        assert!(parse_positive_i32(Some("0"), 1, "invalid").is_err());
+        assert!(parse_positive_i32(Some("2x"), 1, "invalid").is_err());
+    }
+
+    #[test]
+    fn source_defaults_to_manual() {
+        assert_eq!(normalize_source(Some("waf_log")), "waf_log");
+        assert_eq!(normalize_source(Some("unknown")), "manual");
+    }
+}

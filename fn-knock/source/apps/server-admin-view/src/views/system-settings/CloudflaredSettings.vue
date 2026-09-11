@@ -1,1 +1,26 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IFN5c3RlbUFQSSB9IGZyb20gIkAvbGliL2FwaS9zeXN0ZW0iOwppbXBvcnQgQmluYXJ5UmVzb3VyY2VTZXR0aW5ncyBmcm9tICIuL0JpbmFyeVJlc291cmNlU2V0dGluZ3MudnVlIjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPEJpbmFyeVJlc291cmNlU2V0dGluZ3MKICAgIG1lc3NhZ2Uta2V5LXByZWZpeD0iYWRtaW4uY2xvdWRmbGFyZWRTZXR0aW5ncyIKICAgIDpmZXRjaC1zdGF0dXM9IlN5c3RlbUFQSS5nZXRDbG91ZGZsYXJlZFN0YXR1cyIKICAgIDpzdGFydC1kb3dubG9hZD0iU3lzdGVtQVBJLnN0YXJ0Q2xvdWRmbGFyZWREb3dubG9hZCIKICAgIDpjYW5jZWwtZG93bmxvYWQ9IlN5c3RlbUFQSS5jYW5jZWxDbG91ZGZsYXJlZERvd25sb2FkIgogICAgOmRlbGV0ZS1yZXNvdXJjZT0iU3lzdGVtQVBJLmRlbGV0ZUNsb3VkZmxhcmVkIgogICAgdmVyc2lvbi1hd2FyZQogICAgOmFsbG93LW1hbmFnZS1wbGF0Zm9ybXM9IlsKICAgICAgJ2Rhcndpbi1hbWQ2NCcsCiAgICAgICdkYXJ3aW4tYXJtNjQnLAogICAgICAnbGludXgtMzg2JywKICAgICAgJ2xpbnV4LWFtZDY0JywKICAgICAgJ2xpbnV4LWFybScsCiAgICAgICdsaW51eC1hcm1oZicsCiAgICAgICdsaW51eC1hcm02NCcsCiAgICAgICd3aW5kb3dzLTM4NicsCiAgICAgICd3aW5kb3dzLWFtZDY0JywKICAgIF0iCiAgLz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { SystemAPI } from "@/lib/api/system";
+import BinaryResourceSettings from "./BinaryResourceSettings.vue";
+</script>
+
+<template>
+  <BinaryResourceSettings
+    message-key-prefix="admin.cloudflaredSettings"
+    :fetch-status="SystemAPI.getCloudflaredStatus"
+    :start-download="SystemAPI.startCloudflaredDownload"
+    :cancel-download="SystemAPI.cancelCloudflaredDownload"
+    :delete-resource="SystemAPI.deleteCloudflared"
+    version-aware
+    :allow-manage-platforms="[
+      'darwin-amd64',
+      'darwin-arm64',
+      'linux-386',
+      'linux-amd64',
+      'linux-arm',
+      'linux-armhf',
+      'linux-arm64',
+      'windows-386',
+      'windows-amd64',
+    ]"
+  />
+</template>

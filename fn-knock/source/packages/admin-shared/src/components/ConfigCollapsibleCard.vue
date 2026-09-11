@@ -1,1 +1,203 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYsIHVzZVNsb3RzLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKCmludGVyZmFjZSBQcm9wcyB7CiAgdGl0bGU6IHN0cmluZzsKICBjb25maWd1cmVkOiBib29sZWFuOwogIHJlYWR5PzogYm9vbGVhbjsKICBlZGl0TGFiZWw/OiBzdHJpbmc7CiAgY2FyZENsYXNzPzogc3RyaW5nOwogIGNvbGxhcHNlZENvbnRlbnRDbGFzcz86IHN0cmluZzsKICBleHBhbmRlZENvbnRlbnRDbGFzcz86IHN0cmluZzsKICBzdW1tYXJ5Q2xhc3M/OiBzdHJpbmc7CiAgYWN0aW9uc0NsYXNzPzogc3RyaW5nOwp9Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cyhkZWZpbmVQcm9wczxQcm9wcz4oKSwgewogIHJlYWR5OiB0cnVlLAogIGNhcmRDbGFzczogIiIsCiAgY29sbGFwc2VkQ29udGVudENsYXNzOiAiaC1bNDBweF0gZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIiwKICBleHBhbmRlZENvbnRlbnRDbGFzczogIiIsCiAgc3VtbWFyeUNsYXNzOiAidGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgdHJ1bmNhdGUgdy02NCBtYXgtdy1mdWxsIiwKICBhY3Rpb25zQ2xhc3M6ICIiLAp9KTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBzbG90cyA9IHVzZVNsb3RzKCk7CmNvbnN0IHJlc29sdmVkRWRpdExhYmVsID0gY29tcHV0ZWQoCiAgKCkgPT4gcHJvcHMuZWRpdExhYmVsID8/IHQoInNoYXJlZC5jb25maWdDb2xsYXBzaWJsZUNhcmQuZWRpdENvbmZpZyIpLAopOwoKY29uc3Qgb3BlbiA9IHJlZihmYWxzZSk7CmNvbnN0IGluaXRpYWxpemVkID0gcmVmKGZhbHNlKTsKY29uc3Qgd3JhcHBlclJlZiA9IHJlZjxIVE1MRWxlbWVudCB8IG51bGw+KG51bGwpOwoKY29uc3QgVFJBTlNJVElPTl9EVVJBVElPTiA9IDI1MDsKCmZ1bmN0aW9uIGV4cGFuZCgpIHsKICBvcGVuLnZhbHVlID0gdHJ1ZTsKICBpbml0aWFsaXplZC52YWx1ZSA9IHRydWU7Cn0KCmZ1bmN0aW9uIGNvbGxhcHNlKCkgewogIG9wZW4udmFsdWUgPSBmYWxzZTsKICBpbml0aWFsaXplZC52YWx1ZSA9IHRydWU7Cn0KCmZ1bmN0aW9uIHRvZ2dsZSgpIHsKICBvcGVuLnZhbHVlID0gIW9wZW4udmFsdWU7CiAgaW5pdGlhbGl6ZWQudmFsdWUgPSB0cnVlOwp9CgpmdW5jdGlvbiBvbkJlZm9yZUVudGVyKGVsZW1lbnQ6IEVsZW1lbnQpIHsKICBjb25zdCBlbCA9IGVsZW1lbnQgYXMgSFRNTEVsZW1lbnQ7CiAgZWwuc3R5bGUub3BhY2l0eSA9ICIwIjsKfQoKZnVuY3Rpb24gb25FbnRlcihlbGVtZW50OiBFbGVtZW50LCBkb25lOiAoKSA9PiB2b2lkKSB7CiAgY29uc3QgZWwgPSBlbGVtZW50IGFzIEhUTUxFbGVtZW50OwogIGNvbnN0IHdyYXBwZXIgPSB3cmFwcGVyUmVmLnZhbHVlOwogIGlmICghd3JhcHBlcikgcmV0dXJuIGRvbmUoKTsKICBlbC5zdHlsZS53aWR0aCA9ICIxMDAlIjsKICBjb25zdCB0YXJnZXRIZWlnaHQgPSBlbC5vZmZzZXRIZWlnaHQ7CiAgdm9pZCB3cmFwcGVyLm9mZnNldEhlaWdodDsKCiAgd3JhcHBlci5zdHlsZS5vdmVyZmxvdyA9ICJoaWRkZW4iOwogIHdyYXBwZXIuc3R5bGUuaGVpZ2h0ID0gYCR7dGFyZ2V0SGVpZ2h0fXB4YDsKCiAgZWwuc3R5bGUudHJhbnNpdGlvbiA9IGBvcGFjaXR5ICR7VFJBTlNJVElPTl9EVVJBVElPTn1tcyBlYXNlYDsKICBlbC5zdHlsZS5vcGFjaXR5ID0gIjEiOwoKICBzZXRUaW1lb3V0KGRvbmUsIFRSQU5TSVRJT05fRFVSQVRJT04pOwp9CgpmdW5jdGlvbiBvbkFmdGVyRW50ZXIoZWxlbWVudDogRWxlbWVudCkgewogIGNvbnN0IGVsID0gZWxlbWVudCBhcyBIVE1MRWxlbWVudDsKICBlbC5zdHlsZS5vcGFjaXR5ID0gIiI7CiAgZWwuc3R5bGUudHJhbnNpdGlvbiA9ICIiOwogIGVsLnN0eWxlLndpZHRoID0gIiI7CgogIGNvbnN0IHdyYXBwZXIgPSB3cmFwcGVyUmVmLnZhbHVlOwogIGlmICh3cmFwcGVyKSB7CiAgICB3cmFwcGVyLnN0eWxlLmhlaWdodCA9ICJhdXRvIjsKICAgIHdyYXBwZXIuc3R5bGUub3ZlcmZsb3cgPSAiIjsKICB9Cn0KCmZ1bmN0aW9uIG9uQmVmb3JlTGVhdmUoKSB7CiAgY29uc3Qgd3JhcHBlciA9IHdyYXBwZXJSZWYudmFsdWU7CiAgaWYgKHdyYXBwZXIpIHsKICAgIHdyYXBwZXIuc3R5bGUuaGVpZ2h0ID0gYCR7d3JhcHBlci5vZmZzZXRIZWlnaHR9cHhgOwogICAgd3JhcHBlci5zdHlsZS5vdmVyZmxvdyA9ICJoaWRkZW4iOwogIH0KfQoKZnVuY3Rpb24gb25MZWF2ZShlbGVtZW50OiBFbGVtZW50LCBkb25lOiAoKSA9PiB2b2lkKSB7CiAgY29uc3QgZWwgPSBlbGVtZW50IGFzIEhUTUxFbGVtZW50OwogIGVsLnN0eWxlLnBvc2l0aW9uID0gImFic29sdXRlIjsKICBlbC5zdHlsZS50b3AgPSAiMCI7CiAgZWwuc3R5bGUubGVmdCA9ICIwIjsKICBlbC5zdHlsZS53aWR0aCA9ICIxMDAlIjsKCiAgZWwuc3R5bGUudHJhbnNpdGlvbiA9IGBvcGFjaXR5ICR7VFJBTlNJVElPTl9EVVJBVElPTn1tcyBlYXNlYDsKICB2b2lkIGVsLm9mZnNldEhlaWdodDsKICBlbC5zdHlsZS5vcGFjaXR5ID0gIjAiOwoKICBzZXRUaW1lb3V0KGRvbmUsIFRSQU5TSVRJT05fRFVSQVRJT04pOwp9CgpmdW5jdGlvbiBvbkFmdGVyTGVhdmUoZWxlbWVudDogRWxlbWVudCkgewogIGNvbnN0IGVsID0gZWxlbWVudCBhcyBIVE1MRWxlbWVudDsKICBlbC5zdHlsZS5wb3NpdGlvbiA9ICIiOwogIGVsLnN0eWxlLnRvcCA9ICIiOwogIGVsLnN0eWxlLmxlZnQgPSAiIjsKICBlbC5zdHlsZS53aWR0aCA9ICIiOwogIGVsLnN0eWxlLm9wYWNpdHkgPSAiIjsKICBlbC5zdHlsZS50cmFuc2l0aW9uID0gIiI7Cn0KCndhdGNoKAogICgpID0+IHByb3BzLnJlYWR5LAogIChyZWFkeSkgPT4gewogICAgaWYgKHJlYWR5ICYmICFpbml0aWFsaXplZC52YWx1ZSkgewogICAgICBvcGVuLnZhbHVlID0gIXByb3BzLmNvbmZpZ3VyZWQ7CiAgICAgIGluaXRpYWxpemVkLnZhbHVlID0gdHJ1ZTsKICAgIH0KICB9LAogIHsgaW1tZWRpYXRlOiB0cnVlIH0sCik7CgpkZWZpbmVFeHBvc2UoeyBjb2xsYXBzZSwgZXhwYW5kLCB0b2dnbGUgfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxDYXJkIDpjbGFzcz0iW29wZW4gPyAncHktMCBnYXAtMCcgOiAnJywgcHJvcHMuY2FyZENsYXNzXSI+CiAgICA8ZGl2CiAgICAgIHJlZj0id3JhcHBlclJlZiIKICAgICAgY2xhc3M9InJlbGF0aXZlIHRyYW5zaXRpb24tW2hlaWdodF0gZWFzZS1pbi1vdXQiCiAgICAgIDpzdHlsZT0ieyB0cmFuc2l0aW9uRHVyYXRpb246IGAke1RSQU5TSVRJT05fRFVSQVRJT059bXNgIH0iCiAgICA+CiAgICAgIDxUcmFuc2l0aW9uCiAgICAgICAgQGJlZm9yZS1lbnRlcj0ib25CZWZvcmVFbnRlciIKICAgICAgICBAZW50ZXI9Im9uRW50ZXIiCiAgICAgICAgQGFmdGVyLWVudGVyPSJvbkFmdGVyRW50ZXIiCiAgICAgICAgQGJlZm9yZS1sZWF2ZT0ib25CZWZvcmVMZWF2ZSIKICAgICAgICBAbGVhdmU9Im9uTGVhdmUiCiAgICAgICAgQGFmdGVyLWxlYXZlPSJvbkFmdGVyTGVhdmUiCiAgICAgID4KICAgICAgICA8ZGl2IHYtaWY9IiFvcGVuIiBrZXk9ImNvbGxhcHNlZCIgY2xhc3M9InctZnVsbCI+CiAgICAgICAgICA8Q2FyZENvbnRlbnQKICAgICAgICAgICAgOmNsYXNzPSJbCiAgICAgICAgICAgICAgY29sbGFwc2VkQ29udGVudENsYXNzLAogICAgICAgICAgICAgICdjdXJzb3ItcG9pbnRlciB0cmFuc2l0aW9uLWNvbG9ycyBkdXJhdGlvbi0yMDAgaG92ZXI6YmctbXV0ZWQvNTAnLAogICAgICAgICAgICBdIgogICAgICAgICAgICBAY2xpY2s9ImV4cGFuZCIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBmbGV4LTEgc3BhY2UteS0xIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj57eyB0aXRsZSB9fTwvZGl2PgogICAgICAgICAgICAgIDxkaXYgOmNsYXNzPSJzdW1tYXJ5Q2xhc3MiPgogICAgICAgICAgICAgICAgPHNsb3QgbmFtZT0ic3VtbWFyeSIgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHNocmluay0wIiBAY2xpY2suc3RvcD4KICAgICAgICAgICAgICA8c2xvdAogICAgICAgICAgICAgICAgdi1pZj0ic2xvdHNbJ2NvbGxhcHNlZC1hY3Rpb25zJ10iCiAgICAgICAgICAgICAgICBuYW1lPSJjb2xsYXBzZWQtYWN0aW9ucyIKICAgICAgICAgICAgICAgIDpvcGVuPSJvcGVuIgogICAgICAgICAgICAgICAgOmV4cGFuZD0iZXhwYW5kIgogICAgICAgICAgICAgICAgOmNvbGxhcHNlPSJjb2xsYXBzZSIKICAgICAgICAgICAgICAgIDp0b2dnbGU9InRvZ2dsZSIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ic2Vjb25kYXJ5IiBAY2xpY2s9ImV4cGFuZCI+e3sKICAgICAgICAgICAgICAgIHJlc29sdmVkRWRpdExhYmVsCiAgICAgICAgICAgICAgfX08L0J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IHYtZWxzZSBrZXk9ImV4cGFuZGVkIiBjbGFzcz0idy1mdWxsIj4KICAgICAgICAgIDxDYXJkQ29udGVudCA6Y2xhc3M9ImV4cGFuZGVkQ29udGVudENsYXNzIj4KICAgICAgICAgICAgPHNsb3QKICAgICAgICAgICAgICA6b3Blbj0ib3BlbiIKICAgICAgICAgICAgICA6ZXhwYW5kPSJleHBhbmQiCiAgICAgICAgICAgICAgOmNvbGxhcHNlPSJjb2xsYXBzZSIKICAgICAgICAgICAgICA6dG9nZ2xlPSJ0b2dnbGUiCiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDxkaXYgdi1pZj0ic2xvdHMuYWN0aW9ucyIgOmNsYXNzPSJhY3Rpb25zQ2xhc3MiPgogICAgICAgICAgICAgIDxzbG90CiAgICAgICAgICAgICAgICBuYW1lPSJhY3Rpb25zIgogICAgICAgICAgICAgICAgOm9wZW49Im9wZW4iCiAgICAgICAgICAgICAgICA6ZXhwYW5kPSJleHBhbmQiCiAgICAgICAgICAgICAgICA6Y29sbGFwc2U9ImNvbGxhcHNlIgogICAgICAgICAgICAgICAgOnRvZ2dsZT0idG9nZ2xlIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9UcmFuc2l0aW9uPgogICAgPC9kaXY+CiAgPC9DYXJkPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, ref, useSlots, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+
+interface Props {
+  title: string;
+  configured: boolean;
+  ready?: boolean;
+  editLabel?: string;
+  cardClass?: string;
+  collapsedContentClass?: string;
+  expandedContentClass?: string;
+  summaryClass?: string;
+  actionsClass?: string;
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  ready: true,
+  cardClass: "",
+  collapsedContentClass: "h-[40px] flex items-center justify-between gap-3",
+  expandedContentClass: "",
+  summaryClass: "text-xs text-muted-foreground truncate w-64 max-w-full",
+  actionsClass: "",
+});
+
+const { t } = useI18n();
+const slots = useSlots();
+const resolvedEditLabel = computed(
+  () => props.editLabel ?? t("shared.configCollapsibleCard.editConfig"),
+);
+
+const open = ref(false);
+const initialized = ref(false);
+const wrapperRef = ref<HTMLElement | null>(null);
+
+const TRANSITION_DURATION = 250;
+
+function expand() {
+  open.value = true;
+  initialized.value = true;
+}
+
+function collapse() {
+  open.value = false;
+  initialized.value = true;
+}
+
+function toggle() {
+  open.value = !open.value;
+  initialized.value = true;
+}
+
+function onBeforeEnter(element: Element) {
+  const el = element as HTMLElement;
+  el.style.opacity = "0";
+}
+
+function onEnter(element: Element, done: () => void) {
+  const el = element as HTMLElement;
+  const wrapper = wrapperRef.value;
+  if (!wrapper) return done();
+  el.style.width = "100%";
+  const targetHeight = el.offsetHeight;
+  void wrapper.offsetHeight;
+
+  wrapper.style.overflow = "hidden";
+  wrapper.style.height = `${targetHeight}px`;
+
+  el.style.transition = `opacity ${TRANSITION_DURATION}ms ease`;
+  el.style.opacity = "1";
+
+  setTimeout(done, TRANSITION_DURATION);
+}
+
+function onAfterEnter(element: Element) {
+  const el = element as HTMLElement;
+  el.style.opacity = "";
+  el.style.transition = "";
+  el.style.width = "";
+
+  const wrapper = wrapperRef.value;
+  if (wrapper) {
+    wrapper.style.height = "auto";
+    wrapper.style.overflow = "";
+  }
+}
+
+function onBeforeLeave() {
+  const wrapper = wrapperRef.value;
+  if (wrapper) {
+    wrapper.style.height = `${wrapper.offsetHeight}px`;
+    wrapper.style.overflow = "hidden";
+  }
+}
+
+function onLeave(element: Element, done: () => void) {
+  const el = element as HTMLElement;
+  el.style.position = "absolute";
+  el.style.top = "0";
+  el.style.left = "0";
+  el.style.width = "100%";
+
+  el.style.transition = `opacity ${TRANSITION_DURATION}ms ease`;
+  void el.offsetHeight;
+  el.style.opacity = "0";
+
+  setTimeout(done, TRANSITION_DURATION);
+}
+
+function onAfterLeave(element: Element) {
+  const el = element as HTMLElement;
+  el.style.position = "";
+  el.style.top = "";
+  el.style.left = "";
+  el.style.width = "";
+  el.style.opacity = "";
+  el.style.transition = "";
+}
+
+watch(
+  () => props.ready,
+  (ready) => {
+    if (ready && !initialized.value) {
+      open.value = !props.configured;
+      initialized.value = true;
+    }
+  },
+  { immediate: true },
+);
+
+defineExpose({ collapse, expand, toggle });
+</script>
+
+<template>
+  <Card :class="[open ? 'py-0 gap-0' : '', props.cardClass]">
+    <div
+      ref="wrapperRef"
+      class="relative transition-[height] ease-in-out"
+      :style="{ transitionDuration: `${TRANSITION_DURATION}ms` }"
+    >
+      <Transition
+        @before-enter="onBeforeEnter"
+        @enter="onEnter"
+        @after-enter="onAfterEnter"
+        @before-leave="onBeforeLeave"
+        @leave="onLeave"
+        @after-leave="onAfterLeave"
+      >
+        <div v-if="!open" key="collapsed" class="w-full">
+          <CardContent
+            :class="[
+              collapsedContentClass,
+              'cursor-pointer transition-colors duration-200 hover:bg-muted/50',
+            ]"
+            @click="expand"
+          >
+            <div class="min-w-0 flex-1 space-y-1">
+              <div class="text-sm font-medium">{{ title }}</div>
+              <div :class="summaryClass">
+                <slot name="summary" />
+              </div>
+            </div>
+            <div class="flex items-center gap-2 shrink-0" @click.stop>
+              <slot
+                v-if="slots['collapsed-actions']"
+                name="collapsed-actions"
+                :open="open"
+                :expand="expand"
+                :collapse="collapse"
+                :toggle="toggle"
+              />
+              <Button variant="secondary" @click="expand">{{
+                resolvedEditLabel
+              }}</Button>
+            </div>
+          </CardContent>
+        </div>
+
+        <div v-else key="expanded" class="w-full">
+          <CardContent :class="expandedContentClass">
+            <slot
+              :open="open"
+              :expand="expand"
+              :collapse="collapse"
+              :toggle="toggle"
+            />
+            <div v-if="slots.actions" :class="actionsClass">
+              <slot
+                name="actions"
+                :open="open"
+                :expand="expand"
+                :collapse="collapse"
+                :toggle="toggle"
+              />
+            </div>
+          </CardContent>
+        </div>
+      </Transition>
+    </div>
+  </Card>
+</template>

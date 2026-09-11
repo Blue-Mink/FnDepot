@@ -1,1 +1,104 @@
-aW1wb3J0IHR5cGUgdVBsb3QgZnJvbSAidXBsb3QiOwoKZXhwb3J0IHR5cGUgVGltZVNlcmllc1BvaW50ID0gcmVhZG9ubHkgWwogIG51bWJlciB8IHN0cmluZyB8IERhdGUsCiAgbnVtYmVyIHwgbnVsbCB8IHVuZGVmaW5lZCwKXTsKCmV4cG9ydCB0eXBlIFRpbWVTZXJpZXNDaGFydFNlcmllcyA9IHsKICBuYW1lOiBzdHJpbmc7CiAgZGF0YTogcmVhZG9ubHkgVGltZVNlcmllc1BvaW50W107CiAgY29sb3I6IHN0cmluZzsKICBmaWxsPzogc3RyaW5nOwogIHdpZHRoPzogbnVtYmVyOwp9OwoKZXhwb3J0IHR5cGUgVGltZVNlcmllc0xlZ2VuZEl0ZW0gPSB7CiAgbmFtZTogc3RyaW5nOwogIGNvbG9yOiBzdHJpbmc7Cn07Cgpjb25zdCBZX0FYSVNfTUlOX1NJWkUgPSA2MDsKY29uc3QgWV9BWElTX0xBQkVMX0dVVFRFUiA9IDEyOwoKZXhwb3J0IGNvbnN0IGdldFRpbWVTZXJpZXNZQXhpc1NpemUgPSAoCiAgbGFiZWxzOiByZWFkb25seSBzdHJpbmdbXSB8IG51bGwgfCB1bmRlZmluZWQsCiAgbWVhc3VyZVRleHQ6IChsYWJlbDogc3RyaW5nKSA9PiBudW1iZXIsCikgPT4gewogIC8vIHVQbG90IHBhc3NlcyBudWxsIGR1cmluZyBpdHMgaW5pdGlhbCBheGlzIHNpemluZyBwYXNzLCBkZXNwaXRlIGl0cwogIC8vIHB1YmxpYyBUeXBlU2NyaXB0IHNpZ25hdHVyZSBkZWNsYXJpbmcgdGhpcyBhcmd1bWVudCBhcyBzdHJpbmdbXS4KICBjb25zdCB3aWRlc3RMYWJlbCA9IChsYWJlbHMgPz8gW10pLnJlZHVjZSgod2lkdGgsIGxhYmVsKSA9PiB7CiAgICBjb25zdCBtZWFzdXJlZFdpZHRoID0gbWVhc3VyZVRleHQobGFiZWwpOwogICAgcmV0dXJuIE51bWJlci5pc0Zpbml0ZShtZWFzdXJlZFdpZHRoKQogICAgICA/IE1hdGgubWF4KHdpZHRoLCBtZWFzdXJlZFdpZHRoKQogICAgICA6IHdpZHRoOwogIH0sIDApOwoKICByZXR1cm4gTWF0aC5tYXgoCiAgICBZX0FYSVNfTUlOX1NJWkUsCiAgICBNYXRoLmNlaWwod2lkZXN0TGFiZWwgKyBZX0FYSVNfTEFCRUxfR1VUVEVSKSwKICApOwp9OwoKZXhwb3J0IGNvbnN0IHRvVGltZVNlcmllc1RpbWVzdGFtcE1zID0gKAogIHZhbHVlOiBUaW1lU2VyaWVzUG9pbnRbMF0sCik6IG51bWJlciB8IG51bGwgPT4gewogIGlmICh2YWx1ZSBpbnN0YW5jZW9mIERhdGUpIHsKICAgIGNvbnN0IHRpbWUgPSB2YWx1ZS5nZXRUaW1lKCk7CiAgICByZXR1cm4gTnVtYmVyLmlzRmluaXRlKHRpbWUpID8gdGltZSA6IG51bGw7CiAgfQogIGlmICh0eXBlb2YgdmFsdWUgPT09ICJudW1iZXIiKSB7CiAgICBpZiAoIU51bWJlci5pc0Zpbml0ZSh2YWx1ZSkpIHJldHVybiBudWxsOwogICAgcmV0dXJuIE1hdGguYWJzKHZhbHVlKSA8IDEwMF8wMDBfMDAwXzAwMCA/IHZhbHVlICogMTAwMCA6IHZhbHVlOwogIH0KICBjb25zdCBwYXJzZWQgPSBuZXcgRGF0ZSh2YWx1ZSkuZ2V0VGltZSgpOwogIHJldHVybiBOdW1iZXIuaXNGaW5pdGUocGFyc2VkKSA/IHBhcnNlZCA6IG51bGw7Cn07Cgpjb25zdCBub3JtYWxpemVOdW1iZXIgPSAoCiAgdmFsdWU6IG51bWJlciB8IG51bGwgfCB1bmRlZmluZWQsCik6IG51bWJlciB8IG51bGwgPT4gewogIGlmICh2YWx1ZSA9PT0gbnVsbCB8fCB2YWx1ZSA9PT0gdW5kZWZpbmVkKSByZXR1cm4gbnVsbDsKICBjb25zdCBub3JtYWxpemVkID0gTnVtYmVyKHZhbHVlKTsKICByZXR1cm4gTnVtYmVyLmlzRmluaXRlKG5vcm1hbGl6ZWQpID8gbm9ybWFsaXplZCA6IG51bGw7Cn07CgpleHBvcnQgY29uc3QgYWxpZ25UaW1lU2VyaWVzRGF0YSA9ICgKICBzZXJpZXM6IHJlYWRvbmx5IFRpbWVTZXJpZXNDaGFydFNlcmllc1tdLAopOiB1UGxvdC5BbGlnbmVkRGF0YSA9PiB7CiAgY29uc3QgeFNldCA9IG5ldyBTZXQ8bnVtYmVyPigpOwogIGNvbnN0IHNlcmllc01hcHMgPSBzZXJpZXMubWFwKChpdGVtKSA9PiB7CiAgICBjb25zdCBwb2ludHMgPSBuZXcgTWFwPG51bWJlciwgbnVtYmVyIHwgbnVsbD4oKTsKICAgIGZvciAoY29uc3QgcG9pbnQgb2YgaXRlbS5kYXRhKSB7CiAgICAgIGNvbnN0IHggPSB0b1RpbWVTZXJpZXNUaW1lc3RhbXBNcyhwb2ludFswXSk7CiAgICAgIGlmICh4ID09PSBudWxsKSBjb250aW51ZTsKICAgICAgeFNldC5hZGQoeCk7CiAgICAgIHBvaW50cy5zZXQoeCwgbm9ybWFsaXplTnVtYmVyKHBvaW50WzFdKSk7CiAgICB9CiAgICByZXR1cm4gcG9pbnRzOwogIH0pOwogIGNvbnN0IHhWYWx1ZXMgPSBBcnJheS5mcm9tKHhTZXQpLnNvcnQoKGxlZnQsIHJpZ2h0KSA9PiBsZWZ0IC0gcmlnaHQpOwogIHJldHVybiBbCiAgICB4VmFsdWVzLAogICAgLi4uc2VyaWVzTWFwcy5tYXAoKHBvaW50cykgPT4KICAgICAgeFZhbHVlcy5tYXAoKHgpID0+IHBvaW50cy5nZXQoeCkgPz8gbnVsbCksCiAgICApLAogIF0gYXMgdVBsb3QuQWxpZ25lZERhdGE7Cn07CgpleHBvcnQgY29uc3QgaGFzUmVuZGVyYWJsZVRpbWVTZXJpZXNEYXRhID0gKGRhdGE6IHVQbG90LkFsaWduZWREYXRhKSA9PgogIGRhdGEKICAgIC5zbGljZSgxKQogICAgLnNvbWUoKHZhbHVlcykgPT4KICAgICAgdmFsdWVzLnNvbWUoKHZhbHVlKSA9PiB2YWx1ZSAhPT0gbnVsbCAmJiB2YWx1ZSAhPT0gdW5kZWZpbmVkKSwKICAgICk7CgpleHBvcnQgY29uc3QgYnVpbGRUaW1lU2VyaWVzTGVnZW5kSXRlbXMgPSAoCiAgc2VyaWVzOiByZWFkb25seSBUaW1lU2VyaWVzQ2hhcnRTZXJpZXNbXSwKKTogVGltZVNlcmllc0xlZ2VuZEl0ZW1bXSA9PgogIHNlcmllcwogICAgLm1hcCgoaXRlbSwgaW5kZXgpID0+ICh7CiAgICAgIG5hbWU6IGl0ZW0ubmFtZS50cmltKCkgfHwgYFNlcmllcyAke2luZGV4ICsgMX1gLAogICAgICBjb2xvcjogaXRlbS5jb2xvciwKICAgIH0pKQogICAgLmZpbHRlcigoaXRlbSkgPT4gaXRlbS5uYW1lKTsK
+import type uPlot from "uplot";
+
+export type TimeSeriesPoint = readonly [
+  number | string | Date,
+  number | null | undefined,
+];
+
+export type TimeSeriesChartSeries = {
+  name: string;
+  data: readonly TimeSeriesPoint[];
+  color: string;
+  fill?: string;
+  width?: number;
+};
+
+export type TimeSeriesLegendItem = {
+  name: string;
+  color: string;
+};
+
+const Y_AXIS_MIN_SIZE = 60;
+const Y_AXIS_LABEL_GUTTER = 12;
+
+export const getTimeSeriesYAxisSize = (
+  labels: readonly string[] | null | undefined,
+  measureText: (label: string) => number,
+) => {
+  // uPlot passes null during its initial axis sizing pass, despite its
+  // public TypeScript signature declaring this argument as string[].
+  const widestLabel = (labels ?? []).reduce((width, label) => {
+    const measuredWidth = measureText(label);
+    return Number.isFinite(measuredWidth)
+      ? Math.max(width, measuredWidth)
+      : width;
+  }, 0);
+
+  return Math.max(
+    Y_AXIS_MIN_SIZE,
+    Math.ceil(widestLabel + Y_AXIS_LABEL_GUTTER),
+  );
+};
+
+export const toTimeSeriesTimestampMs = (
+  value: TimeSeriesPoint[0],
+): number | null => {
+  if (value instanceof Date) {
+    const time = value.getTime();
+    return Number.isFinite(time) ? time : null;
+  }
+  if (typeof value === "number") {
+    if (!Number.isFinite(value)) return null;
+    return Math.abs(value) < 100_000_000_000 ? value * 1000 : value;
+  }
+  const parsed = new Date(value).getTime();
+  return Number.isFinite(parsed) ? parsed : null;
+};
+
+const normalizeNumber = (
+  value: number | null | undefined,
+): number | null => {
+  if (value === null || value === undefined) return null;
+  const normalized = Number(value);
+  return Number.isFinite(normalized) ? normalized : null;
+};
+
+export const alignTimeSeriesData = (
+  series: readonly TimeSeriesChartSeries[],
+): uPlot.AlignedData => {
+  const xSet = new Set<number>();
+  const seriesMaps = series.map((item) => {
+    const points = new Map<number, number | null>();
+    for (const point of item.data) {
+      const x = toTimeSeriesTimestampMs(point[0]);
+      if (x === null) continue;
+      xSet.add(x);
+      points.set(x, normalizeNumber(point[1]));
+    }
+    return points;
+  });
+  const xValues = Array.from(xSet).sort((left, right) => left - right);
+  return [
+    xValues,
+    ...seriesMaps.map((points) =>
+      xValues.map((x) => points.get(x) ?? null),
+    ),
+  ] as uPlot.AlignedData;
+};
+
+export const hasRenderableTimeSeriesData = (data: uPlot.AlignedData) =>
+  data
+    .slice(1)
+    .some((values) =>
+      values.some((value) => value !== null && value !== undefined),
+    );
+
+export const buildTimeSeriesLegendItems = (
+  series: readonly TimeSeriesChartSeries[],
+): TimeSeriesLegendItem[] =>
+  series
+    .map((item, index) => ({
+      name: item.name.trim() || `Series ${index + 1}`,
+      color: item.color,
+    }))
+    .filter((item) => item.name);

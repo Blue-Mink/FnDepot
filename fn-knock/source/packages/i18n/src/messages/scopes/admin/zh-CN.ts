@@ -1,1 +1,13 @@
-aW1wb3J0IHsgemhDTkFkbWluIH0gZnJvbSAiLi4vLi4vYWRtaW4vemgtQ04iOwppbXBvcnQgeyB6aENOQXV0aCB9IGZyb20gIi4uLy4uL2F1dGgvemgtQ04iOwppbXBvcnQgeyB6aENOQ29tbW9uIH0gZnJvbSAiLi4vLi4vY29tbW9uL3poLUNOIjsKaW1wb3J0IHsgemhDTkxvY2FsZSB9IGZyb20gIi4uLy4uL2xvY2FsZS96aC1DTiI7CmltcG9ydCB7IHpoQ05TaGFyZWQgfSBmcm9tICIuLi8uLi9zaGFyZWQvemgtQ04iOwoKZXhwb3J0IGRlZmF1bHQgewogIGNvbW1vbjogemhDTkNvbW1vbiwKICBsb2NhbGU6IHpoQ05Mb2NhbGUsCiAgc2hhcmVkOiB6aENOU2hhcmVkLAogIGFkbWluOiB6aENOQWRtaW4sCiAgYXV0aDogemhDTkF1dGgsCn07Cg==
+import { zhCNAdmin } from "../../admin/zh-CN";
+import { zhCNAuth } from "../../auth/zh-CN";
+import { zhCNCommon } from "../../common/zh-CN";
+import { zhCNLocale } from "../../locale/zh-CN";
+import { zhCNShared } from "../../shared/zh-CN";
+
+export default {
+  common: zhCNCommon,
+  locale: zhCNLocale,
+  shared: zhCNShared,
+  admin: zhCNAdmin,
+  auth: zhCNAuth,
+};

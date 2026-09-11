@@ -1,1 +1,3 @@
-ZXhwb3J0ICogZnJvbSAiLi9kZG5zLW1vZGVsLXR5cGVzIjsKZXhwb3J0ICogZnJvbSAiLi9kZG5zLWNvbmZpZy1tb2RlbCI7CmV4cG9ydCAqIGZyb20gIi4vZGRucy12YWxpZGF0aW9uIjsK
+export * from "./ddns-model-types";
+export * from "./ddns-config-model";
+export * from "./ddns-validation";

@@ -1,1 +1,36 @@
-KGZ1bmN0aW9uICgpIHsKICAndXNlIHN0cmljdCc7CgogIHZhciBjb29raWVOYW1lID0gJ2ZuX2tub2NrX3N5bm90b2tlbl9zdGFnZSc7CiAgdmFyIHBhY2thZ2VQYXRoID0gJy93ZWJtYW4vM3JkcGFydHkvZm4ta25vY2stc3lub2xvZ3kvJzsKICB2YXIgc2VjdXJlQXR0cmlidXRlID0gd2luZG93LmxvY2F0aW9uLnByb3RvY29sID09PSAnaHR0cHM6JyA/ICc7IFNlY3VyZScgOiAnJzsKICB2YXIgdG9rZW4gPSAnJzsKICB2YXIgZGVjb2RlZFRva2VuID0gJyc7CgogIHRyeSB7CiAgICBpZiAod2luZG93Lm9wZW5lciAmJgogICAgICAgIHdpbmRvdy5vcGVuZXIuU1lOTyAmJgogICAgICAgIHdpbmRvdy5vcGVuZXIuU1lOTy5TRFMgJiYKICAgICAgICB3aW5kb3cub3BlbmVyLlNZTk8uU0RTLlNlc3Npb24pIHsKICAgICAgdG9rZW4gPSBTdHJpbmcod2luZG93Lm9wZW5lci5TWU5PLlNEUy5TZXNzaW9uLlN5bm9Ub2tlbiB8fCAnJyk7CiAgICB9CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIHRva2VuID0gJyc7CiAgfQoKICBpZiAoIXRva2VuKSB7CiAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnbGF1bmNoLXN0YXR1cycpLnRleHRDb250ZW50ID0KICAgICAgJ+aXoOazleivu+WPliBEU00g5Lya6K+d77yM6K+35LuOIERTTSDmoYzpnaLph43mlrDmiZPlvIDigJzmlbLpl6gga25vY2vigJ3jgIInOwogICAgcmV0dXJuOwogIH0KCiAgdHJ5IHsKICAgIGRlY29kZWRUb2tlbiA9IGRlY29kZVVSSUNvbXBvbmVudCh0b2tlbik7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGRlY29kZWRUb2tlbiA9IHRva2VuOwogIH0KCiAgZG9jdW1lbnQuY29va2llID0gY29va2llTmFtZSArICc9JyArIGVuY29kZVVSSUNvbXBvbmVudChkZWNvZGVkVG9rZW4pICsKICAgICc7IFBhdGg9JyArIHBhY2thZ2VQYXRoICsgc2VjdXJlQXR0cmlidXRlICsgJzsgU2FtZVNpdGU9U3RyaWN0JzsKICB3aW5kb3cubG9jYXRpb24ucmVwbGFjZShwYWNrYWdlUGF0aCArICdpbmRleC5jZ2kvP2ZuX2tub2NrX2F1dGhfYm9vdHN0cmFwPTEnKTsKfSgpKTsK
+(function () {
+  'use strict';
+
+  var cookieName = 'fn_knock_synotoken_stage';
+  var packagePath = '/webman/3rdparty/fn-knock-synology/';
+  var secureAttribute = window.location.protocol === 'https:' ? '; Secure' : '';
+  var token = '';
+  var decodedToken = '';
+
+  try {
+    if (window.opener &&
+        window.opener.SYNO &&
+        window.opener.SYNO.SDS &&
+        window.opener.SYNO.SDS.Session) {
+      token = String(window.opener.SYNO.SDS.Session.SynoToken || '');
+    }
+  } catch (error) {
+    token = '';
+  }
+
+  if (!token) {
+    document.getElementById('launch-status').textContent =
+      '无法读取 DSM 会话，请从 DSM 桌面重新打开“敲门 knock”。';
+    return;
+  }
+
+  try {
+    decodedToken = decodeURIComponent(token);
+  } catch (error) {
+    decodedToken = token;
+  }
+
+  document.cookie = cookieName + '=' + encodeURIComponent(decodedToken) +
+    '; Path=' + packagePath + secureAttribute + '; SameSite=Strict';
+  window.location.replace(packagePath + 'index.cgi/?fn_knock_auth_bootstrap=1');
+}());

@@ -1,1 +1,270 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvbk1vdW50ZWQsIHJlYWN0aXZlLCByZWYsIHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQWxlcnQsIEFsZXJ0RGVzY3JpcHRpb24sIEFsZXJ0VGl0bGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYWxlcnQiOwppbXBvcnQgewogIENhcmQsCiAgQ2FyZENvbnRlbnQsCiAgQ2FyZERlc2NyaXB0aW9uLAogIENhcmRIZWFkZXIsCiAgQ2FyZFRpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IHsgU2tlbGV0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2tlbGV0b24iOwppbXBvcnQgRG9jc0xpbmtCdXR0b24gZnJvbSAiQC9jb21wb25lbnRzL0RvY3NMaW5rQnV0dG9uLnZ1ZSI7CmltcG9ydCBGbG9hdGluZ0FjdGlvbkRvY2sgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9GbG9hdGluZ0FjdGlvbkRvY2sudnVlIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgR2F0ZXdheUxvZ3NBUEkgfSBmcm9tICJAL2xpYi9hcGkvZ2F0ZXdheSI7CmltcG9ydCB7IGRvY3NVcmxzIH0gZnJvbSAiLi4vLi4vbGliL2RvY3MiOwppbXBvcnQgR2F0ZXdheUxvZ2dpbmdEaXJlY3RvcnkgZnJvbSAiLi9HYXRld2F5TG9nZ2luZ0RpcmVjdG9yeS52dWUiOwppbXBvcnQgdHlwZSB7IEdhdGV3YXlMb2dnaW5nQ29uZmlnIH0gZnJvbSAiLi4vLi4vdHlwZXMiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IHVzZURlbGF5ZWRMb2FkaW5nIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VEZWxheWVkTG9hZGluZyI7CmltcG9ydCB7IHVzZUNvbmZpZ1N0b3JlIH0gZnJvbSAiLi4vLi4vc3RvcmUvY29uZmlnIjsKCmNvbnN0IGExMXlJZCA9IHVzZUlkKCk7Cgpjb25zdCBjb25maWdTdG9yZSA9IHVzZUNvbmZpZ1N0b3JlKCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBzZXR0aW5ncyA9IHJlZjxHYXRld2F5TG9nZ2luZ0NvbmZpZyB8IG51bGw+KG51bGwpOwpjb25zdCBmb3JtID0gcmVhY3RpdmU8CiAgUGljazwKICAgIEdhdGV3YXlMb2dnaW5nQ29uZmlnLAogICAgImVuYWJsZWQiIHwgInJlY29yZF9sb2NhbGhvc3QiIHwgIm1heF9kYXlzIiB8ICJjdXN0b21fbG9nc19kaXIiCiAgPgo+KHsKICBlbmFibGVkOiBmYWxzZSwKICByZWNvcmRfbG9jYWxob3N0OiBmYWxzZSwKICBtYXhfZGF5czogNywKICBjdXN0b21fbG9nc19kaXI6ICIiLAp9KTsKCmNvbnN0IHsgaXNQZW5kaW5nOiBpc0xvYWRpbmcsIHJ1bjogcnVuTG9hZFNldHRpbmdzIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5nYXRld2F5TG9nZ2luZy5sb2FkRmFpbGVkIiksIHsKICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgZXJyb3IsCiAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheUxvZ2dpbmcubG9hZERlc2NyaXB0aW9uIiksCiAgICAgICksCiAgICB9KTsKICB9LAp9KTsKY29uc3Qgc2hvd0xvYWRpbmdTa2VsZXRvbiA9IHVzZURlbGF5ZWRMb2FkaW5nKGlzTG9hZGluZyk7CmNvbnN0IHsgaXNQZW5kaW5nOiBpc1NhdmluZywgcnVuOiBydW5TYXZlU2V0dGluZ3MgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmdhdGV3YXlMb2dnaW5nLnNhdmVGYWlsZWQiKSwgewogICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICBlcnJvciwKICAgICAgICB0KCJhZG1pbi5nYXRld2F5TG9nZ2luZy5zYXZlRGVzY3JpcHRpb24iKSwKICAgICAgKSwKICAgIH0pOwogIH0sCn0pOwoKY29uc3QgaXNEaXJ0eSA9IGNvbXB1dGVkKCgpID0+IHsKICBpZiAoIXNldHRpbmdzLnZhbHVlKSByZXR1cm4gZmFsc2U7CiAgcmV0dXJuICgKICAgIHNldHRpbmdzLnZhbHVlLmVuYWJsZWQgIT09IGZvcm0uZW5hYmxlZCB8fAogICAgc2V0dGluZ3MudmFsdWUucmVjb3JkX2xvY2FsaG9zdCAhPT0gZm9ybS5yZWNvcmRfbG9jYWxob3N0IHx8CiAgICBzZXR0aW5ncy52YWx1ZS5tYXhfZGF5cyAhPT0gTnVtYmVyKGZvcm0ubWF4X2RheXMpIHx8CiAgICBzZXR0aW5ncy52YWx1ZS5jdXN0b21fbG9nc19kaXIgIT09IGZvcm0uY3VzdG9tX2xvZ3NfZGlyCiAgKTsKfSk7CmNvbnN0IGRyb3BwZWRFbnRyaWVzID0gY29tcHV0ZWQoKCkgPT4KICBNYXRoLm1heCgwLCBOdW1iZXIoc2V0dGluZ3MudmFsdWU/LmRyb3BwZWRfZW50cmllcyA/PyAwKSksCik7CmNvbnN0IGZvcm1hdENvdW50ID0gKHZhbHVlOiBudW1iZXIpID0+IG5ldyBJbnRsLk51bWJlckZvcm1hdCgpLmZvcm1hdCh2YWx1ZSk7Cgpjb25zdCBhcHBseUZyb21TZXR0aW5ncyA9IChkYXRhOiBHYXRld2F5TG9nZ2luZ0NvbmZpZykgPT4gewogIHNldHRpbmdzLnZhbHVlID0gZGF0YTsKICBmb3JtLmVuYWJsZWQgPSBkYXRhLmVuYWJsZWQ7CiAgZm9ybS5yZWNvcmRfbG9jYWxob3N0ID0gZGF0YS5yZWNvcmRfbG9jYWxob3N0OwogIGZvcm0ubWF4X2RheXMgPSBkYXRhLm1heF9kYXlzOwogIGZvcm0uY3VzdG9tX2xvZ3NfZGlyID0gZGF0YS5jdXN0b21fbG9nc19kaXIgfHwgIiI7Cn07Cgpjb25zdCBmZXRjaFNldHRpbmdzID0gYXN5bmMgKCkgPT4gewogIGF3YWl0IHJ1bkxvYWRTZXR0aW5ncyhhc3luYyAoKSA9PiB7CiAgICBjb25zdCBkYXRhID0gYXdhaXQgR2F0ZXdheUxvZ3NBUEkuZ2V0Q29uZmlnKCk7CiAgICBhcHBseUZyb21TZXR0aW5ncyhkYXRhKTsKICB9KTsKfTsKCmNvbnN0IHJlc2V0Rm9ybSA9ICgpID0+IHsKICBpZiAoc2V0dGluZ3MudmFsdWUpIGFwcGx5RnJvbVNldHRpbmdzKHNldHRpbmdzLnZhbHVlKTsKfTsKCmNvbnN0IHNhdmVTZXR0aW5ncyA9IGFzeW5jICgpID0+IHsKICBhd2FpdCBydW5TYXZlU2V0dGluZ3MoCiAgICBhc3luYyAoKSA9PiB7CiAgICAgIHRyeSB7CiAgICAgICAgcmV0dXJuIGF3YWl0IEdhdGV3YXlMb2dzQVBJLnVwZGF0ZUNvbmZpZyh7CiAgICAgICAgICBjdXN0b21fbG9nc19kaXI6IGZvcm0uY3VzdG9tX2xvZ3NfZGlyLAogICAgICAgICAgZW5hYmxlZDogZm9ybS5lbmFibGVkLAogICAgICAgICAgcmVjb3JkX2xvY2FsaG9zdDogZm9ybS5yZWNvcmRfbG9jYWxob3N0LAogICAgICAgICAgbWF4X2RheXM6IE1hdGgubWF4KDEsIE1hdGguZmxvb3IoTnVtYmVyKGZvcm0ubWF4X2RheXMpIHx8IDEpKSwKICAgICAgICB9KTsKICAgICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgICAvLyBBIHRpbWVvdXQgb3IgZmFpbGVkIHJvbGxiYWNrIG1heSBsZWF2ZSB0aGUgZ2F0ZXdheSBvbiBhbm90aGVyIGRpcmVjdG9yeS4KICAgICAgICAvLyBSZWZyZXNoIGFjdHVhbCBzdGF0ZSB3aXRob3V0IGRpc2NhcmRpbmcgdGhlIHVzZXIncyB1bnNhdmVkIGRyYWZ0LgogICAgICAgIHRyeSB7CiAgICAgICAgICBzZXR0aW5ncy52YWx1ZSA9IGF3YWl0IEdhdGV3YXlMb2dzQVBJLmdldENvbmZpZygpOwogICAgICAgIH0gY2F0Y2ggewogICAgICAgICAgaWYgKHNldHRpbmdzLnZhbHVlKQogICAgICAgICAgICBzZXR0aW5ncy52YWx1ZSA9IHsgLi4uc2V0dGluZ3MudmFsdWUsIGxvZ3NfZGlyOiAiIiB9OwogICAgICAgIH0KICAgICAgICB0aHJvdyBlcnJvcjsKICAgICAgfQogICAgfSwKICAgIHsKICAgICAgb25TdWNjZXNzOiBhc3luYyAoZGF0YSkgPT4gewogICAgICAgIGFwcGx5RnJvbVNldHRpbmdzKGRhdGEpOwogICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uZ2F0ZXdheUxvZ2dpbmcudXBkYXRlZCIpKTsKICAgICAgICBhd2FpdCBjb25maWdTdG9yZS5sb2FkQ29uZmlnKCk7CiAgICAgIH0sCiAgICB9LAogICk7Cn07Cgpvbk1vdW50ZWQoZmV0Y2hTZXR0aW5ncyk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxDYXJkPgogICAgPENhcmRIZWFkZXI+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEuNSI+CiAgICAgICAgICA8Q2FyZFRpdGxlIGNsYXNzPSJ0ZXh0LW1kIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvZ2dpbmcudGl0bGUiKSB9fQogICAgICAgICAgPC9DYXJkVGl0bGU+CiAgICAgICAgICA8Q2FyZERlc2NyaXB0aW9uPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5TG9nZ2luZy5zdG9yYWdlRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgPC9DYXJkRGVzY3JpcHRpb24+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPERvY3NMaW5rQnV0dG9uIDpocmVmPSJkb2NzVXJscy5ndWlkZXMucmVxdWVzdExvZ3MiIC8+CiAgICAgIDwvZGl2PgogICAgPC9DYXJkSGVhZGVyPgoKICAgIDxDYXJkQ29udGVudCB2LWlmPSJpc0xvYWRpbmcgJiYgc2hvd0xvYWRpbmdTa2VsZXRvbiIgY2xhc3M9ImJvcmRlci10IHAtMCI+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktNCBwLTYiPgogICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC02IHctMS8zIiAvPgogICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC00IHctMi8zIiAvPgogICAgICA8L2Rpdj4KICAgIDwvQ2FyZENvbnRlbnQ+CgogICAgPENhcmRDb250ZW50IHYtZWxzZS1pZj0iIWlzTG9hZGluZyIgY2xhc3M9ImJvcmRlci10IHAtMCBkaXZpZGUteSI+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBiZy1tdXRlZC8xMCBwLTYiPgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSBwci02Ij4KICAgICAgICAgIDxMYWJlbAogICAgICAgICAgICA6Zm9yPSJgJHthMTF5SWR9LWdhdGV3YXlsb2dnaW5nc2V0dGluZ3MtMWAiCiAgICAgICAgICAgIGNsYXNzPSJjdXJzb3ItcG9pbnRlciB0ZXh0LWJhc2UgZm9udC1tZWRpdW0iCiAgICAgICAgICAgIEBjbGljaz0iZm9ybS5lbmFibGVkID0gIWZvcm0uZW5hYmxlZCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvZ2dpbmcuZW5hYmxlTGFiZWwiKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvZ2dpbmcuZW5hYmxlRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPFN3aXRjaAogICAgICAgICAgOmlkPSJgJHthMTF5SWR9LWdhdGV3YXlsb2dnaW5nc2V0dGluZ3MtMWAiCiAgICAgICAgICB2LW1vZGVsPSJmb3JtLmVuYWJsZWQiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nIgogICAgICAgIC8+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGJnLW11dGVkLzEwIHAtNiI+CiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIHByLTYiPgogICAgICAgICAgPExhYmVsCiAgICAgICAgICAgIDpmb3I9ImAke2ExMXlJZH0tZ2F0ZXdheWxvZ2dpbmdzZXR0aW5ncy0yYCIKICAgICAgICAgICAgY2xhc3M9ImN1cnNvci1wb2ludGVyIHRleHQtYmFzZSBmb250LW1lZGl1bSIKICAgICAgICAgICAgQGNsaWNrPSJmb3JtLnJlY29yZF9sb2NhbGhvc3QgPSAhZm9ybS5yZWNvcmRfbG9jYWxob3N0IgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5TG9nZ2luZy5yZWNvcmRMb2NhbGhvc3RMYWJlbCIpIH19CiAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5TG9nZ2luZy5yZWNvcmRMb2NhbGhvc3REZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8U3dpdGNoCiAgICAgICAgICA6aWQ9ImAke2ExMXlJZH0tZ2F0ZXdheWxvZ2dpbmdzZXR0aW5ncy0yYCIKICAgICAgICAgIHYtbW9kZWw9ImZvcm0ucmVjb3JkX2xvY2FsaG9zdCIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmciCiAgICAgICAgLz4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2CiAgICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wganVzdGlmeS1iZXR3ZWVuIGdhcC00IHAtNiBzbTpmbGV4LXJvdyBzbTppdGVtcy1jZW50ZXIiCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEgcHItNiI+CiAgICAgICAgICA8TGFiZWwgOmZvcj0iYCR7YTExeUlkfS1nYXRld2F5bG9nZ2luZ3NldHRpbmdzLTNgIiBjbGFzcz0idGV4dC1iYXNlIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvZ2dpbmcucmV0ZW50aW9uTGFiZWwiKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvZ2dpbmcucmV0ZW50aW9uRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgc2hyaW5rLTAiPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1nYXRld2F5bG9nZ2luZ3NldHRpbmdzLTNgIgogICAgICAgICAgICB2LW1vZGVsLm51bWJlcj0iZm9ybS5tYXhfZGF5cyIKICAgICAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgICAgICBtaW49IjEiCiAgICAgICAgICAgIHN0ZXA9IjEiCiAgICAgICAgICAgIGNsYXNzPSJ3LTI0IHRleHQtY2VudGVyIgogICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nIgogICAgICAgICAgLz4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJ3LTEyIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57ewogICAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5TG9nZ2luZy5kYXlzVW5pdCIpCiAgICAgICAgICB9fTwvc3Bhbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8R2F0ZXdheUxvZ2dpbmdEaXJlY3RvcnkKICAgICAgICB2LW1vZGVsPSJmb3JtLmN1c3RvbV9sb2dzX2RpciIKICAgICAgICA6YWN0dWFsLWRpcmVjdG9yeT0ic2V0dGluZ3M/LmxvZ3NfZGlyIHx8ICcnIgogICAgICAgIDpkZWZhdWx0LWRpcmVjdG9yeT0ic2V0dGluZ3M/LmRlZmF1bHRfbG9nc19kaXIgfHwgJyciCiAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZyIKICAgICAgLz4KCiAgICAgIDxkaXYgdi1pZj0iZHJvcHBlZEVudHJpZXMgPiAwIiBjbGFzcz0icC02Ij4KICAgICAgICA8QWxlcnQgY2xhc3M9ImJvcmRlci1hbWJlci0yMDAgYmctYW1iZXItNTAgdGV4dC1hbWJlci05NTAiPgogICAgICAgICAgPEFsZXJ0VGl0bGU+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlMb2dnaW5nLmRyb3BXYXJuaW5nVGl0bGUiKSB9fQogICAgICAgICAgPC9BbGVydFRpdGxlPgogICAgICAgICAgPEFsZXJ0RGVzY3JpcHRpb24gY2xhc3M9InRleHQtc20gbGVhZGluZy02IHRleHQtYW1iZXItOTAwIj4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5TG9nZ2luZy5kcm9wV2FybmluZ0Rlc2NyaXB0aW9uIiwgewogICAgICAgICAgICAgICAgY291bnQ6IGZvcm1hdENvdW50KGRyb3BwZWRFbnRyaWVzKSwKICAgICAgICAgICAgICB9KQogICAgICAgICAgICB9fQogICAgICAgICAgPC9BbGVydERlc2NyaXB0aW9uPgogICAgICAgIDwvQWxlcnQ+CiAgICAgIDwvZGl2PgoKICAgICAgPEZsb2F0aW5nQWN0aW9uRG9jawogICAgICAgIDphY3RpdmU9ImlzRGlydHkiCiAgICAgICAgaW5saW5lLWNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWVuZCBnYXAtMyBwLTYiCiAgICAgID4KICAgICAgICA8dGVtcGxhdGUgI2lubGluZT4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgOmRpc2FibGVkPSIhaXNEaXJ0eSB8fCBpc1NhdmluZyIKICAgICAgICAgICAgQGNsaWNrPSJyZXNldEZvcm0iCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlMb2dnaW5nLnJlc2V0IikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPEJ1dHRvbiA6ZGlzYWJsZWQ9IiFpc0RpcnR5IHx8IGlzU2F2aW5nIiBAY2xpY2s9InNhdmVTZXR0aW5ncyI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlMb2dnaW5nLnNhdmVTZXR0aW5ncyIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L0Zsb2F0aW5nQWN0aW9uRG9jaz4KICAgIDwvQ2FyZENvbnRlbnQ+CiAgPC9DYXJkPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, onMounted, reactive, ref, useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import { Skeleton } from "@/components/ui/skeleton";
+import DocsLinkButton from "@/components/DocsLinkButton.vue";
+import FloatingActionDock from "@admin-shared/components/common/FloatingActionDock.vue";
+import { toast } from "@admin-shared/utils/toast";
+import { GatewayLogsAPI } from "@/lib/api/gateway";
+import { docsUrls } from "../../lib/docs";
+import GatewayLoggingDirectory from "./GatewayLoggingDirectory.vue";
+import type { GatewayLoggingConfig } from "../../types";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import { useConfigStore } from "../../store/config";
+
+const a11yId = useId();
+
+const configStore = useConfigStore();
+const { t } = useI18n();
+const settings = ref<GatewayLoggingConfig | null>(null);
+const form = reactive<
+  Pick<
+    GatewayLoggingConfig,
+    "enabled" | "record_localhost" | "max_days" | "custom_logs_dir"
+  >
+>({
+  enabled: false,
+  record_localhost: false,
+  max_days: 7,
+  custom_logs_dir: "",
+});
+
+const { isPending: isLoading, run: runLoadSettings } = useAsyncAction({
+  onError: (error) => {
+    toast.error(t("admin.gatewayLogging.loadFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.gatewayLogging.loadDescription"),
+      ),
+    });
+  },
+});
+const showLoadingSkeleton = useDelayedLoading(isLoading);
+const { isPending: isSaving, run: runSaveSettings } = useAsyncAction({
+  onError: (error) => {
+    toast.error(t("admin.gatewayLogging.saveFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.gatewayLogging.saveDescription"),
+      ),
+    });
+  },
+});
+
+const isDirty = computed(() => {
+  if (!settings.value) return false;
+  return (
+    settings.value.enabled !== form.enabled ||
+    settings.value.record_localhost !== form.record_localhost ||
+    settings.value.max_days !== Number(form.max_days) ||
+    settings.value.custom_logs_dir !== form.custom_logs_dir
+  );
+});
+const droppedEntries = computed(() =>
+  Math.max(0, Number(settings.value?.dropped_entries ?? 0)),
+);
+const formatCount = (value: number) => new Intl.NumberFormat().format(value);
+
+const applyFromSettings = (data: GatewayLoggingConfig) => {
+  settings.value = data;
+  form.enabled = data.enabled;
+  form.record_localhost = data.record_localhost;
+  form.max_days = data.max_days;
+  form.custom_logs_dir = data.custom_logs_dir || "";
+};
+
+const fetchSettings = async () => {
+  await runLoadSettings(async () => {
+    const data = await GatewayLogsAPI.getConfig();
+    applyFromSettings(data);
+  });
+};
+
+const resetForm = () => {
+  if (settings.value) applyFromSettings(settings.value);
+};
+
+const saveSettings = async () => {
+  await runSaveSettings(
+    async () => {
+      try {
+        return await GatewayLogsAPI.updateConfig({
+          custom_logs_dir: form.custom_logs_dir,
+          enabled: form.enabled,
+          record_localhost: form.record_localhost,
+          max_days: Math.max(1, Math.floor(Number(form.max_days) || 1)),
+        });
+      } catch (error) {
+        // A timeout or failed rollback may leave the gateway on another directory.
+        // Refresh actual state without discarding the user's unsaved draft.
+        try {
+          settings.value = await GatewayLogsAPI.getConfig();
+        } catch {
+          if (settings.value)
+            settings.value = { ...settings.value, logs_dir: "" };
+        }
+        throw error;
+      }
+    },
+    {
+      onSuccess: async (data) => {
+        applyFromSettings(data);
+        toast.success(t("admin.gatewayLogging.updated"));
+        await configStore.loadConfig();
+      },
+    },
+  );
+};
+
+onMounted(fetchSettings);
+</script>
+
+<template>
+  <Card>
+    <CardHeader>
+      <div class="flex items-start justify-between gap-3">
+        <div class="space-y-1.5">
+          <CardTitle class="text-md">
+            {{ t("admin.gatewayLogging.title") }}
+          </CardTitle>
+          <CardDescription>
+            {{ t("admin.gatewayLogging.storageDescription") }}
+          </CardDescription>
+        </div>
+        <DocsLinkButton :href="docsUrls.guides.requestLogs" />
+      </div>
+    </CardHeader>
+
+    <CardContent v-if="isLoading && showLoadingSkeleton" class="border-t p-0">
+      <div class="space-y-4 p-6">
+        <Skeleton class="h-6 w-1/3" />
+        <Skeleton class="h-4 w-2/3" />
+      </div>
+    </CardContent>
+
+    <CardContent v-else-if="!isLoading" class="border-t p-0 divide-y">
+      <div class="flex items-center justify-between bg-muted/10 p-6">
+        <div class="space-y-1 pr-6">
+          <Label
+            :for="`${a11yId}-gatewayloggingsettings-1`"
+            class="cursor-pointer text-base font-medium"
+            @click="form.enabled = !form.enabled"
+          >
+            {{ t("admin.gatewayLogging.enableLabel") }}
+          </Label>
+          <div class="text-sm text-muted-foreground">
+            {{ t("admin.gatewayLogging.enableDescription") }}
+          </div>
+        </div>
+        <Switch
+          :id="`${a11yId}-gatewayloggingsettings-1`"
+          v-model="form.enabled"
+          :disabled="isSaving"
+        />
+      </div>
+
+      <div class="flex items-center justify-between bg-muted/10 p-6">
+        <div class="space-y-1 pr-6">
+          <Label
+            :for="`${a11yId}-gatewayloggingsettings-2`"
+            class="cursor-pointer text-base font-medium"
+            @click="form.record_localhost = !form.record_localhost"
+          >
+            {{ t("admin.gatewayLogging.recordLocalhostLabel") }}
+          </Label>
+          <div class="text-sm text-muted-foreground">
+            {{ t("admin.gatewayLogging.recordLocalhostDescription") }}
+          </div>
+        </div>
+        <Switch
+          :id="`${a11yId}-gatewayloggingsettings-2`"
+          v-model="form.record_localhost"
+          :disabled="isSaving"
+        />
+      </div>
+
+      <div
+        class="flex flex-col justify-between gap-4 p-6 sm:flex-row sm:items-center"
+      >
+        <div class="space-y-1 pr-6">
+          <Label :for="`${a11yId}-gatewayloggingsettings-3`" class="text-base">
+            {{ t("admin.gatewayLogging.retentionLabel") }}
+          </Label>
+          <div class="text-sm text-muted-foreground">
+            {{ t("admin.gatewayLogging.retentionDescription") }}
+          </div>
+        </div>
+        <div class="flex items-center gap-2 shrink-0">
+          <Input
+            :id="`${a11yId}-gatewayloggingsettings-3`"
+            v-model.number="form.max_days"
+            type="number"
+            min="1"
+            step="1"
+            class="w-24 text-center"
+            :disabled="isSaving"
+          />
+          <span class="w-12 text-sm text-muted-foreground">{{
+            t("admin.gatewayLogging.daysUnit")
+          }}</span>
+        </div>
+      </div>
+
+      <GatewayLoggingDirectory
+        v-model="form.custom_logs_dir"
+        :actual-directory="settings?.logs_dir || ''"
+        :default-directory="settings?.default_logs_dir || ''"
+        :disabled="isSaving"
+      />
+
+      <div v-if="droppedEntries > 0" class="p-6">
+        <Alert class="border-amber-200 bg-amber-50 text-amber-950">
+          <AlertTitle>
+            {{ t("admin.gatewayLogging.dropWarningTitle") }}
+          </AlertTitle>
+          <AlertDescription class="text-sm leading-6 text-amber-900">
+            {{
+              t("admin.gatewayLogging.dropWarningDescription", {
+                count: formatCount(droppedEntries),
+              })
+            }}
+          </AlertDescription>
+        </Alert>
+      </div>
+
+      <FloatingActionDock
+        :active="isDirty"
+        inline-class="flex items-center justify-end gap-3 p-6"
+      >
+        <template #inline>
+          <Button
+            variant="outline"
+            :disabled="!isDirty || isSaving"
+            @click="resetForm"
+          >
+            {{ t("admin.gatewayLogging.reset") }}
+          </Button>
+          <Button :disabled="!isDirty || isSaving" @click="saveSettings">
+            {{ t("admin.gatewayLogging.saveSettings") }}
+          </Button>
+        </template>
+      </FloatingActionDock>
+    </CardContent>
+  </Card>
+</template>

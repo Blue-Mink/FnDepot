@@ -1,1 +1,587 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSB1c2UgY3JhdGU6OmNlcnRpZmljYXRlczo6ZG9tYWluX3V0aWxzOjp7CiAgICBpc19yZXF1aXJlbWVudF9jb3ZlcmVkX2J5X2NlcnRpZmljYXRlX2RvbWFpbnMsIG5vcm1hbGl6ZV9kb21haW5fbmFtZSwgdW5pcV9kb21haW5fc3RyaW5ncywKfTsKcHViKHN1cGVyKSB1c2UgY3JhdGU6OnRpbWVfdXRpbHM6Om5vZGVfaXNvX25vdyBhcyBub3dfbm9kZV9pc287CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX3N1YmRvbWFpbl9jZXJ0aWZpY2F0ZV9yZWNvbW1lbmRhdGlvbigKICAgIGF1dGhfcG9ydDogdTE2LAogICAgY29uZmlnOiAmVmFsdWUsCiAgICB0OiAmVHJhbnNsYXRvciwKKSAtPiBWYWx1ZSB7CiAgICBsZXQgcm9vdF9kb21haW4gPSBjb25maWcKICAgICAgICAucG9pbnRlcigiL3N1YmRvbWFpbl9tb2RlL3Jvb3RfZG9tYWluIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKG5vcm1hbGl6ZV9kb21haW5fbmFtZSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgYXV0aF9ob3N0ID0gYXV0aF9ob3N0X21hcHBpbmcoYXV0aF9wb3J0LCBjb25maWcpCiAgICAgICAgLm9yX2Vsc2UofHwgewogICAgICAgICAgICBjb25maWcKICAgICAgICAgICAgICAgIC5wb2ludGVyKCIvc3ViZG9tYWluX21vZGUvYXV0aF9ob3N0IikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgLm1hcChub3JtYWxpemVfZG9tYWluX25hbWUpCiAgICAgICAgICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgfSkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBhbGxfaG9zdHMgPSBob3N0X21hcHBpbmdfaG9zdHMoY29uZmlnKTsKCiAgICBsZXQgbXV0IG1vZGUgPSAibWFudWFsIjsKICAgIGxldCBtdXQgc3VtbWFyeSA9IHN1YmRvbWFpbl90ZXh0KHQsICJyZWNvbW1lbmRhdGlvbk1pc3NpbmdCYXNlIik7CiAgICBsZXQgbXV0IHdhcm5pbmdzID0gVmVjOjo8U3RyaW5nPjo6bmV3KCk7CiAgICBsZXQgbXV0IHJlY29tbWVuZGVkX2RvbWFpbnMgPSBWZWM6OjxTdHJpbmc+OjpuZXcoKTsKCiAgICBpZiAhcm9vdF9kb21haW4uaXNfZW1wdHkoKSB7CiAgICAgICAgbW9kZSA9ICJ3aWxkY2FyZF9wYXJlbnQiOwogICAgICAgIGxldCB3aWxkY2FyZF9kb21haW4gPSBmb3JtYXQhKCIqLntyb290X2RvbWFpbn0iKTsKICAgICAgICByZWNvbW1lbmRlZF9kb21haW5zID0gdW5pcV9kb21haW5fc3RyaW5ncyhbcm9vdF9kb21haW4uYXNfc3RyKCksIHdpbGRjYXJkX2RvbWFpbi5hc19zdHIoKV0pOwogICAgICAgIHN1bW1hcnkgPSBzdWJkb21haW5fdGV4dF9wYXJhbXMoCiAgICAgICAgICAgIHQsCiAgICAgICAgICAgICJyZWNvbW1lbmRhdGlvbldpbGRjYXJkU3VtbWFyeSIsCiAgICAgICAgICAgICZbKCJyb290RG9tYWluIiwgcm9vdF9kb21haW4uY2xvbmUoKSldLAogICAgICAgICk7CiAgICAgICAgaWYgIWF1dGhfaG9zdC5pc19lbXB0eSgpCiAgICAgICAgICAgICYmICFpc19yZXF1aXJlbWVudF9jb3ZlcmVkX2J5X2NlcnRpZmljYXRlX2RvbWFpbnMoJmF1dGhfaG9zdCwgJnJlY29tbWVuZGVkX2RvbWFpbnMpCiAgICAgICAgewogICAgICAgICAgICByZWNvbW1lbmRlZF9kb21haW5zID0gdW5pcV9kb21haW5fc3RyaW5ncygKICAgICAgICAgICAgICAgIHJlY29tbWVuZGVkX2RvbWFpbnMKICAgICAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAgICAgLm1hcChTdHJpbmc6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAuY2hhaW4oc3RkOjppdGVyOjpvbmNlKGF1dGhfaG9zdC5hc19zdHIoKSkpLAogICAgICAgICAgICApOwogICAgICAgICAgICB3YXJuaW5ncy5wdXNoKHN1YmRvbWFpbl90ZXh0X3BhcmFtcygKICAgICAgICAgICAgICAgIHQsCiAgICAgICAgICAgICAgICAiYXV0aE91dE9mUm9vdFdhcm5pbmciLAogICAgICAgICAgICAgICAgJlsKICAgICAgICAgICAgICAgICAgICAoImF1dGhIb3N0IiwgYXV0aF9ob3N0LmNsb25lKCkpLAogICAgICAgICAgICAgICAgICAgICgicm9vdERvbWFpbiIsIHJvb3RfZG9tYWluLmNsb25lKCkpLAogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgKSk7CiAgICAgICAgfQogICAgfSBlbHNlIGlmICFhdXRoX2hvc3QuaXNfZW1wdHkoKSB7CiAgICAgICAgbW9kZSA9ICJzaW5nbGVfaG9zdCI7CiAgICAgICAgcmVjb21tZW5kZWRfZG9tYWlucyA9IHZlYyFbYXV0aF9ob3N0LmNsb25lKCldOwogICAgICAgIHN1bW1hcnkgPSBzdWJkb21haW5fdGV4dF9wYXJhbXMoCiAgICAgICAgICAgIHQsCiAgICAgICAgICAgICJyZWNvbW1lbmRhdGlvblNpbmdsZUhvc3RTdW1tYXJ5IiwKICAgICAgICAgICAgJlsoImF1dGhIb3N0IiwgYXV0aF9ob3N0LmNsb25lKCkpXSwKICAgICAgICApOwogICAgICAgIHdhcm5pbmdzLnB1c2goc3ViZG9tYWluX3RleHQodCwgIndpbGRjYXJkU3VnZ2VzdGlvbiIpKTsKICAgIH0gZWxzZSB7CiAgICAgICAgd2FybmluZ3MucHVzaChzdWJkb21haW5fdGV4dCh0LCAiY29uZmlndXJlUm9vdE9yQXV0aCIpKTsKICAgIH0KCiAgICBpZiBhdXRoX2hvc3QuaXNfZW1wdHkoKSB7CiAgICAgICAgd2FybmluZ3MucHVzaChzdWJkb21haW5fdGV4dCh0LCAiYXV0aE1pc3NpbmdXYXJuaW5nIikpOwogICAgfQoKICAgIGxldCBjb3ZlcmVkX2hvc3RzID0gYWxsX2hvc3RzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXIofGhvc3R8IGlzX3JlcXVpcmVtZW50X2NvdmVyZWRfYnlfY2VydGlmaWNhdGVfZG9tYWlucyhob3N0LCAmcmVjb21tZW5kZWRfZG9tYWlucykpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgdW5jb3ZlcmVkX2hvc3RzID0gYWxsX2hvc3RzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXIofGhvc3R8ICFpc19yZXF1aXJlbWVudF9jb3ZlcmVkX2J5X2NlcnRpZmljYXRlX2RvbWFpbnMoaG9zdCwgJnJlY29tbWVuZGVkX2RvbWFpbnMpKQogICAgICAgIC5jbG9uZWQoKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwoKICAgIGlmICF1bmNvdmVyZWRfaG9zdHMuaXNfZW1wdHkoKSAmJiAhcmVjb21tZW5kZWRfZG9tYWlucy5pc19lbXB0eSgpIHsKICAgICAgICB3YXJuaW5ncy5wdXNoKHN1YmRvbWFpbl90ZXh0X3BhcmFtcygKICAgICAgICAgICAgdCwKICAgICAgICAgICAgInVuY292ZXJlZEhvc3RNYXBwaW5nc1dhcm5pbmciLAogICAgICAgICAgICAmWygiY291bnQiLCB1bmNvdmVyZWRfaG9zdHMubGVuKCkudG9fc3RyaW5nKCkpXSwKICAgICAgICApKTsKICAgIH0KCiAgICBqc29uISh7CiAgICAgICAgIm1vZGUiOiBtb2RlLAogICAgICAgICJyb290X2RvbWFpbiI6IGlmIHJvb3RfZG9tYWluLmlzX2VtcHR5KCkgeyBWYWx1ZTo6TnVsbCB9IGVsc2UgeyBqc29uIShyb290X2RvbWFpbikgfSwKICAgICAgICAiYXV0aF9ob3N0IjogaWYgYXV0aF9ob3N0LmlzX2VtcHR5KCkgeyBWYWx1ZTo6TnVsbCB9IGVsc2UgeyBqc29uIShhdXRoX2hvc3QpIH0sCiAgICAgICAgInJlY29tbWVuZGVkX2RvbWFpbnMiOiByZWNvbW1lbmRlZF9kb21haW5zLAogICAgICAgICJjb3ZlcmVkX2hvc3RzIjogY292ZXJlZF9ob3N0cywKICAgICAgICAidW5jb3ZlcmVkX2hvc3RzIjogdW5jb3ZlcmVkX2hvc3RzLAogICAgICAgICJ3YXJuaW5ncyI6IHdhcm5pbmdzLAogICAgICAgICJjYW5fYXV0b2ZpbGwiOiAhcmVjb21tZW5kZWRfZG9tYWlucy5pc19lbXB0eSgpLAogICAgICAgICJzdW1tYXJ5Ijogc3VtbWFyeSwKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gYnVpbGRfc3ViZG9tYWluX2NlcnRpZmljYXRlX2NvdmVyYWdlKAogICAgYXV0aF9wb3J0OiB1MTYsCiAgICBjb25maWc6ICZWYWx1ZSwKICAgIGNlcnRpZmljYXRlX2RvbWFpbnM6ICZbU3RyaW5nXSwKICAgIHQ6ICZUcmFuc2xhdG9yLAopIC0+IFZhbHVlIHsKICAgIGxldCByZWNvbW1lbmRhdGlvbiA9IGJ1aWxkX3N1YmRvbWFpbl9jZXJ0aWZpY2F0ZV9yZWNvbW1lbmRhdGlvbihhdXRoX3BvcnQsIGNvbmZpZywgdCk7CiAgICBsZXQgY3VycmVudF9jZXJ0aWZpY2F0ZV9kb21haW5zID0KICAgICAgICB1bmlxX2RvbWFpbl9zdHJpbmdzKGNlcnRpZmljYXRlX2RvbWFpbnMuaXRlcigpLm1hcChTdHJpbmc6OmFzX3N0cikpOwogICAgbGV0IGFsbF9ob3N0cyA9IGhvc3RfbWFwcGluZ19ob3N0cyhjb25maWcpOwogICAgbGV0IHJlY29tbWVuZGVkX2RvbWFpbnMgPSByZWNvbW1lbmRhdGlvbl9kb21haW5zKCZyZWNvbW1lbmRhdGlvbik7CiAgICBsZXQgYXV0aF9ob3N0ID0gcmVjb21tZW5kYXRpb24KICAgICAgICAuZ2V0KCJhdXRoX2hvc3QiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3IoIiIpCiAgICAgICAgLnRvX3N0cmluZygpOwogICAgbGV0IGNvbmNyZXRlX3JlcXVpcmVtZW50cyA9IHVuaXFfZG9tYWluX3N0cmluZ3MoCiAgICAgICAgc3RkOjppdGVyOjpvbmNlKGF1dGhfaG9zdC5hc19zdHIoKSkuY2hhaW4oYWxsX2hvc3RzLml0ZXIoKS5tYXAoU3RyaW5nOjphc19zdHIpKSwKICAgICk7CiAgICBsZXQgZWZmZWN0aXZlX3JlcXVpcmVtZW50cyA9IGlmIGNvbmNyZXRlX3JlcXVpcmVtZW50cy5pc19lbXB0eSgpIHsKICAgICAgICByZWNvbW1lbmRlZF9kb21haW5zLmNsb25lKCkKICAgIH0gZWxzZSB7CiAgICAgICAgY29uY3JldGVfcmVxdWlyZW1lbnRzLmNsb25lKCkKICAgIH07CiAgICBsZXQgY292ZXJlZF9yZWNvbW1lbmRlZF9kb21haW5zID0gcmVjb21tZW5kZWRfZG9tYWlucwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyKHxkb21haW58IHsKICAgICAgICAgICAgaXNfcmVxdWlyZW1lbnRfY292ZXJlZF9ieV9jZXJ0aWZpY2F0ZV9kb21haW5zKGRvbWFpbiwgJmN1cnJlbnRfY2VydGlmaWNhdGVfZG9tYWlucykKICAgICAgICB9KQogICAgICAgIC5jbG9uZWQoKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgbGV0IHVuY292ZXJlZF9yZWNvbW1lbmRlZF9kb21haW5zID0gcmVjb21tZW5kZWRfZG9tYWlucwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyKHxkb21haW58IHsKICAgICAgICAgICAgIWlzX3JlcXVpcmVtZW50X2NvdmVyZWRfYnlfY2VydGlmaWNhdGVfZG9tYWlucyhkb21haW4sICZjdXJyZW50X2NlcnRpZmljYXRlX2RvbWFpbnMpCiAgICAgICAgfSkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGxldCBjb3ZlcmVkX2hvc3RzID0gYWxsX2hvc3RzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXIofGhvc3R8IHsKICAgICAgICAgICAgaXNfcmVxdWlyZW1lbnRfY292ZXJlZF9ieV9jZXJ0aWZpY2F0ZV9kb21haW5zKGhvc3QsICZjdXJyZW50X2NlcnRpZmljYXRlX2RvbWFpbnMpCiAgICAgICAgfSkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGxldCB1bmNvdmVyZWRfaG9zdHMgPSBhbGxfaG9zdHMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZpbHRlcih8aG9zdHwgewogICAgICAgICAgICAhaXNfcmVxdWlyZW1lbnRfY292ZXJlZF9ieV9jZXJ0aWZpY2F0ZV9kb21haW5zKGhvc3QsICZjdXJyZW50X2NlcnRpZmljYXRlX2RvbWFpbnMpCiAgICAgICAgfSkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGxldCBjb3ZlcnNfYXV0aF9ob3N0ID0gaWYgYXV0aF9ob3N0LmlzX2VtcHR5KCkgewogICAgICAgIGZhbHNlCiAgICB9IGVsc2UgewogICAgICAgIGlzX3JlcXVpcmVtZW50X2NvdmVyZWRfYnlfY2VydGlmaWNhdGVfZG9tYWlucygmYXV0aF9ob3N0LCAmY3VycmVudF9jZXJ0aWZpY2F0ZV9kb21haW5zKQogICAgfTsKICAgIGxldCBjb3ZlcmVkX3JlcXVpcmVtZW50cyA9IGVmZmVjdGl2ZV9yZXF1aXJlbWVudHMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZpbHRlcih8cmVxdWlyZW1lbnR8IHsKICAgICAgICAgICAgaXNfcmVxdWlyZW1lbnRfY292ZXJlZF9ieV9jZXJ0aWZpY2F0ZV9kb21haW5zKHJlcXVpcmVtZW50LCAmY3VycmVudF9jZXJ0aWZpY2F0ZV9kb21haW5zKQogICAgICAgIH0pCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgdW5jb3ZlcmVkX3JlcXVpcmVtZW50cyA9IGVmZmVjdGl2ZV9yZXF1aXJlbWVudHMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZpbHRlcih8cmVxdWlyZW1lbnR8IHsKICAgICAgICAgICAgIWlzX3JlcXVpcmVtZW50X2NvdmVyZWRfYnlfY2VydGlmaWNhdGVfZG9tYWlucygKICAgICAgICAgICAgICAgIHJlcXVpcmVtZW50LAogICAgICAgICAgICAgICAgJmN1cnJlbnRfY2VydGlmaWNhdGVfZG9tYWlucywKICAgICAgICAgICAgKQogICAgICAgIH0pCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgaGFzX2NvbmNyZXRlX3JlcXVpcmVtZW50cyA9ICFjb25jcmV0ZV9yZXF1aXJlbWVudHMuaXNfZW1wdHkoKTsKCiAgICBsZXQgbXV0IHN0YXR1cyA9ICJtaXNzaW5nIjsKICAgIGxldCBtdXQgc3VtbWFyeSA9IHN1YmRvbWFpbl90ZXh0KHQsICJjb3ZlcmFnZU5vU3NsIik7CiAgICBsZXQgbXV0IHdhcm5pbmdzID0gcmVjb21tZW5kYXRpb24KICAgICAgICAuZ2V0KCJ3YXJuaW5ncyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAubWFwKHxpdGVtc3wgewogICAgICAgICAgICBpdGVtcwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLmZpbHRlcl9tYXAoVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCiAgICAgICAgICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKQogICAgICAgIH0pCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CgogICAgaWYgY3VycmVudF9jZXJ0aWZpY2F0ZV9kb21haW5zLmlzX2VtcHR5KCkgewogICAgICAgIGlmIHJlY29tbWVuZGF0aW9uLmdldCgiY2FuX2F1dG9maWxsIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpICE9IFNvbWUodHJ1ZSkgewogICAgICAgICAgICBzdW1tYXJ5ID0gcmVjb21tZW5kYXRpb24KICAgICAgICAgICAgICAgIC5nZXQoInN1bW1hcnkiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAudW53cmFwX29yKCIiKQogICAgICAgICAgICAgICAgLnRvX3N0cmluZygpOwogICAgICAgIH0KICAgIH0gZWxzZSBpZiB1bmNvdmVyZWRfcmVxdWlyZW1lbnRzLmlzX2VtcHR5KCkgewogICAgICAgIHN0YXR1cyA9ICJyZWFkeSI7CiAgICAgICAgc3VtbWFyeSA9IGlmIGhhc19jb25jcmV0ZV9yZXF1aXJlbWVudHMgewogICAgICAgICAgICBzdWJkb21haW5fdGV4dCh0LCAiY292ZXJhZ2VSZWFkeUNvbmNyZXRlIikKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBzdWJkb21haW5fdGV4dCh0LCAiY292ZXJhZ2VSZWFkeVJlY29tbWVuZGVkIikKICAgICAgICB9OwogICAgfSBlbHNlIGlmICFjb3ZlcmVkX3JlcXVpcmVtZW50cy5pc19lbXB0eSgpIHsKICAgICAgICBzdGF0dXMgPSAicGFydGlhbCI7CiAgICAgICAgc3VtbWFyeSA9IGlmIGhhc19jb25jcmV0ZV9yZXF1aXJlbWVudHMgewogICAgICAgICAgICBzdWJkb21haW5fdGV4dCh0LCAiY292ZXJhZ2VQYXJ0aWFsQ29uY3JldGUiKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHN1YmRvbWFpbl90ZXh0KHQsICJjb3ZlcmFnZVBhcnRpYWxSZWNvbW1lbmRlZCIpCiAgICAgICAgfTsKICAgIH0gZWxzZSB7CiAgICAgICAgc3VtbWFyeSA9IGlmIGhhc19jb25jcmV0ZV9yZXF1aXJlbWVudHMgewogICAgICAgICAgICBzdWJkb21haW5fdGV4dCh0LCAiY292ZXJhZ2VNaXNtYXRjaENvbmNyZXRlIikKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBzdWJkb21haW5fdGV4dCh0LCAiY292ZXJhZ2VNaXNtYXRjaFJlY29tbWVuZGVkIikKICAgICAgICB9OwogICAgfQoKICAgIGlmICFjdXJyZW50X2NlcnRpZmljYXRlX2RvbWFpbnMuaXNfZW1wdHkoKQogICAgICAgICYmIGhhc19jb25jcmV0ZV9yZXF1aXJlbWVudHMKICAgICAgICAmJiAhdW5jb3ZlcmVkX3JlcXVpcmVtZW50cy5pc19lbXB0eSgpCiAgICB7CiAgICAgICAgd2FybmluZ3MucHVzaChzdWJkb21haW5fdGV4dF9wYXJhbXMoCiAgICAgICAgICAgIHQsCiAgICAgICAgICAgICJjb3ZlcmFnZU1pc3NpbmdSZXF1aXJlZFdhcm5pbmciLAogICAgICAgICAgICAmWygiY291bnQiLCB1bmNvdmVyZWRfcmVxdWlyZW1lbnRzLmxlbigpLnRvX3N0cmluZygpKV0sCiAgICAgICAgKSk7CiAgICB9IGVsc2UgaWYgIWN1cnJlbnRfY2VydGlmaWNhdGVfZG9tYWlucy5pc19lbXB0eSgpCiAgICAgICAgJiYgIWhhc19jb25jcmV0ZV9yZXF1aXJlbWVudHMKICAgICAgICAmJiAhdW5jb3ZlcmVkX3JlY29tbWVuZGVkX2RvbWFpbnMuaXNfZW1wdHkoKQogICAgewogICAgICAgIHdhcm5pbmdzLnB1c2goc3ViZG9tYWluX3RleHRfcGFyYW1zKAogICAgICAgICAgICB0LAogICAgICAgICAgICAiY292ZXJhZ2VNaXNzaW5nUmVjb21tZW5kZWRXYXJuaW5nIiwKICAgICAgICAgICAgJlsoImNvdW50IiwgdW5jb3ZlcmVkX3JlY29tbWVuZGVkX2RvbWFpbnMubGVuKCkudG9fc3RyaW5nKCkpXSwKICAgICAgICApKTsKICAgIH0KCiAgICBpZiAhY3VycmVudF9jZXJ0aWZpY2F0ZV9kb21haW5zLmlzX2VtcHR5KCkgJiYgIWF1dGhfaG9zdC5pc19lbXB0eSgpICYmICFjb3ZlcnNfYXV0aF9ob3N0IHsKICAgICAgICB3YXJuaW5ncy5wdXNoKHN1YmRvbWFpbl90ZXh0X3BhcmFtcygKICAgICAgICAgICAgdCwKICAgICAgICAgICAgImNvdmVyYWdlQXV0aEhvc3RNaXNzaW5nV2FybmluZyIsCiAgICAgICAgICAgICZbKCJhdXRoSG9zdCIsIGF1dGhfaG9zdC5jbG9uZSgpKV0sCiAgICAgICAgKSk7CiAgICB9CgogICAganNvbiEoewogICAgICAgICJzdGF0dXMiOiBzdGF0dXMsCiAgICAgICAgImF1dGhfaG9zdCI6IGlmIGF1dGhfaG9zdC5pc19lbXB0eSgpIHsgVmFsdWU6Ok51bGwgfSBlbHNlIHsganNvbiEoYXV0aF9ob3N0KSB9LAogICAgICAgICJjZXJ0aWZpY2F0ZV9kb21haW5zIjogY3VycmVudF9jZXJ0aWZpY2F0ZV9kb21haW5zLAogICAgICAgICJyZWNvbW1lbmRlZF9kb21haW5zIjogcmVjb21tZW5kZWRfZG9tYWlucywKICAgICAgICAiY292ZXJlZF9yZWNvbW1lbmRlZF9kb21haW5zIjogY292ZXJlZF9yZWNvbW1lbmRlZF9kb21haW5zLAogICAgICAgICJ1bmNvdmVyZWRfcmVjb21tZW5kZWRfZG9tYWlucyI6IHVuY292ZXJlZF9yZWNvbW1lbmRlZF9kb21haW5zLAogICAgICAgICJjb3ZlcmVkX2hvc3RzIjogY292ZXJlZF9ob3N0cywKICAgICAgICAidW5jb3ZlcmVkX2hvc3RzIjogdW5jb3ZlcmVkX2hvc3RzLAogICAgICAgICJjb3ZlcnNfYXV0aF9ob3N0IjogY292ZXJzX2F1dGhfaG9zdCwKICAgICAgICAid2FybmluZ3MiOiB3YXJuaW5ncywKICAgICAgICAic3VtbWFyeSI6IHN1bW1hcnksCiAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX3N1YmRvbWFpbl9jZXJ0aWZpY2F0ZV9pbnZlbnRvcnlfY292ZXJhZ2UoCiAgICBhdXRoX3BvcnQ6IHUxNiwKICAgIGNvbmZpZzogJlZhbHVlLAogICAgY2VydGlmaWNhdGVzOiAmW0NlcnRpZmljYXRlQ292ZXJhZ2VJbnB1dF0sCiAgICBhY3RpdmVfY2VydGlmaWNhdGVfaWQ6IE9wdGlvbjwmc3RyPiwKICAgIGRlcGxveW1lbnRfbW9kZTogJnN0ciwKICAgIHQ6ICZUcmFuc2xhdG9yLAopIC0+IFZhbHVlIHsKICAgIGxldCByZWNvbW1lbmRhdGlvbiA9IGJ1aWxkX3N1YmRvbWFpbl9jZXJ0aWZpY2F0ZV9yZWNvbW1lbmRhdGlvbihhdXRoX3BvcnQsIGNvbmZpZywgdCk7CiAgICBsZXQgYWxsX2hvc3RzID0gaG9zdF9tYXBwaW5nX2hvc3RzKGNvbmZpZyk7CiAgICBsZXQgcmVjb21tZW5kZWRfZG9tYWlucyA9IHJlY29tbWVuZGF0aW9uX2RvbWFpbnMoJnJlY29tbWVuZGF0aW9uKTsKICAgIGxldCBhdXRoX2hvc3QgPSByZWNvbW1lbmRhdGlvbgogICAgICAgIC5nZXQoImF1dGhfaG9zdCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcigiIikKICAgICAgICAudG9fc3RyaW5nKCk7CiAgICBsZXQgY29uY3JldGVfcmVxdWlyZW1lbnRzID0gdW5pcV9kb21haW5fc3RyaW5ncygKICAgICAgICBzdGQ6Oml0ZXI6Om9uY2UoYXV0aF9ob3N0LmFzX3N0cigpKS5jaGFpbihhbGxfaG9zdHMuaXRlcigpLm1hcChTdHJpbmc6OmFzX3N0cikpLAogICAgKTsKICAgIGxldCByZXF1aXJlbWVudHMgPSBpZiBjb25jcmV0ZV9yZXF1aXJlbWVudHMuaXNfZW1wdHkoKSB7CiAgICAgICAgcmVjb21tZW5kZWRfZG9tYWlucwogICAgfSBlbHNlIHsKICAgICAgICBjb25jcmV0ZV9yZXF1aXJlbWVudHMKICAgIH07CgogICAgbGV0IGFuYWx5c2VzID0gY2VydGlmaWNhdGVzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5tYXAofGNlcnRpZmljYXRlfCB7CiAgICAgICAgICAgIGxldCBub3JtYWxpemVkX2RvbWFpbnMgPQogICAgICAgICAgICAgICAgdW5pcV9kb21haW5fc3RyaW5ncyhjZXJ0aWZpY2F0ZS5jZXJ0aWZpY2F0ZV9kb21haW5zLml0ZXIoKS5tYXAoU3RyaW5nOjphc19zdHIpKTsKICAgICAgICAgICAgbGV0IGNvdmVyYWdlID0KICAgICAgICAgICAgICAgIGJ1aWxkX3N1YmRvbWFpbl9jZXJ0aWZpY2F0ZV9jb3ZlcmFnZShhdXRoX3BvcnQsIGNvbmZpZywgJm5vcm1hbGl6ZWRfZG9tYWlucywgdCk7CiAgICAgICAgICAgIGxldCBjb3ZlcmVkX3JlcXVpcmVtZW50cyA9IHJlcXVpcmVtZW50cwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLmZpbHRlcih8cmVxdWlyZW1lbnR8IHsKICAgICAgICAgICAgICAgICAgICBpc19yZXF1aXJlbWVudF9jb3ZlcmVkX2J5X2NlcnRpZmljYXRlX2RvbWFpbnMocmVxdWlyZW1lbnQsICZub3JtYWxpemVkX2RvbWFpbnMpCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgLmNsb25lZCgpCiAgICAgICAgICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgICAgICAgICAgQ2VydGlmaWNhdGVDb3ZlcmFnZUFuYWx5c2lzIHsKICAgICAgICAgICAgICAgIGlkOiBjZXJ0aWZpY2F0ZS5pZC5jbG9uZSgpLAogICAgICAgICAgICAgICAgY292ZXJhZ2UsCiAgICAgICAgICAgICAgICBjb3ZlcmVkX3JlcXVpcmVtZW50cywKICAgICAgICAgICAgfQogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CgogICAgbGV0IGZ1bGx5X2NvdmVyaW5nID0gYW5hbHlzZXMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZpbHRlcih8aXRlbXwgaXRlbS5jb3ZlcmFnZS5nZXQoInN0YXR1cyIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoInJlYWR5IikpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgcGFydGlhbGx5X2NvdmVyaW5nID0gYW5hbHlzZXMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZpbHRlcih8aXRlbXwgewogICAgICAgICAgICBpdGVtLmNvdmVyYWdlLmdldCgic3RhdHVzIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgIT0gU29tZSgicmVhZHkiKQogICAgICAgICAgICAgICAgJiYgIWl0ZW0uY292ZXJlZF9yZXF1aXJlbWVudHMuaXNfZW1wdHkoKQogICAgICAgIH0pCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgYWN0aXZlX2FuYWx5c2lzID0gYWN0aXZlX2NlcnRpZmljYXRlX2lkCiAgICAgICAgLmFuZF90aGVuKHxpZHwgYW5hbHlzZXMuaXRlcigpLmZpbmQofGl0ZW18IGl0ZW0uaWQgPT0gaWQpKQogICAgICAgIC5jbG9uZWQoKTsKCiAgICBsZXQgbXV0IHVuY292ZXJlZF9yZXF1aXJlbWVudHMgPSByZXF1aXJlbWVudHMuaXRlcigpLmNsb25lZCgpLmNvbGxlY3Q6OjxCVHJlZVNldDxfPj4oKTsKICAgIGxldCBtdXQgY29tYmluZWRfY292ZXJpbmdfY2VydGlmaWNhdGVfaWRzID0gVmVjOjo8U3RyaW5nPjo6bmV3KCk7CiAgICBsZXQgbXV0IHJlbWFpbmluZyA9IGFuYWx5c2VzLmNsb25lKCk7CgogICAgd2hpbGUgIXVuY292ZXJlZF9yZXF1aXJlbWVudHMuaXNfZW1wdHkoKSAmJiAhcmVtYWluaW5nLmlzX2VtcHR5KCkgewogICAgICAgIGxldCBtdXQgYmVzdF9pbmRleCA9IE5vbmU7CiAgICAgICAgbGV0IG11dCBiZXN0X2dhaW4gPSAwX3VzaXplOwogICAgICAgIGZvciAoaW5kZXgsIGl0ZW0pIGluIHJlbWFpbmluZy5pdGVyKCkuZW51bWVyYXRlKCkgewogICAgICAgICAgICBsZXQgZ2FpbiA9IGl0ZW0KICAgICAgICAgICAgICAgIC5jb3ZlcmVkX3JlcXVpcmVtZW50cwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLmZpbHRlcih8cmVxdWlyZW1lbnR8IHVuY292ZXJlZF9yZXF1aXJlbWVudHMuY29udGFpbnMoKnJlcXVpcmVtZW50KSkKICAgICAgICAgICAgICAgIC5jb3VudCgpOwogICAgICAgICAgICBpZiBnYWluID4gYmVzdF9nYWluIHsKICAgICAgICAgICAgICAgIGJlc3RfZ2FpbiA9IGdhaW47CiAgICAgICAgICAgICAgICBiZXN0X2luZGV4ID0gU29tZShpbmRleCk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgbGV0IFNvbWUoYmVzdF9pbmRleCkgPSBiZXN0X2luZGV4IGVsc2UgewogICAgICAgICAgICBicmVhazsKICAgICAgICB9OwogICAgICAgIGlmIGJlc3RfZ2FpbiA9PSAwIHsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgfQogICAgICAgIGxldCBzZWxlY3RlZCA9IHJlbWFpbmluZy5yZW1vdmUoYmVzdF9pbmRleCk7CiAgICAgICAgY29tYmluZWRfY292ZXJpbmdfY2VydGlmaWNhdGVfaWRzLnB1c2goc2VsZWN0ZWQuaWQuY2xvbmUoKSk7CiAgICAgICAgZm9yIHJlcXVpcmVtZW50IGluIHNlbGVjdGVkLmNvdmVyZWRfcmVxdWlyZW1lbnRzIHsKICAgICAgICAgICAgdW5jb3ZlcmVkX3JlcXVpcmVtZW50cy5yZW1vdmUoJnJlcXVpcmVtZW50KTsKICAgICAgICB9CiAgICB9CgogICAgbGV0IGNvbWJpbmVkX3JlYWR5ID0gIXJlcXVpcmVtZW50cy5pc19lbXB0eSgpICYmIHVuY292ZXJlZF9yZXF1aXJlbWVudHMuaXNfZW1wdHkoKTsKICAgIGxldCBhY3RpdmVfcmVhZHkgPSBhY3RpdmVfYW5hbHlzaXMKICAgICAgICAuYXNfcmVmKCkKICAgICAgICAuYW5kX3RoZW4ofGl0ZW18IGl0ZW0uY292ZXJhZ2UuZ2V0KCJzdGF0dXMiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSkKICAgICAgICA9PSBTb21lKCJyZWFkeSIpOwogICAgbGV0IGRlcGxveW1lbnRfbW9kZSA9IG5vcm1hbGl6ZV9kZXBsb3ltZW50X21vZGUoU29tZShkZXBsb3ltZW50X21vZGUpKTsKCiAgICBsZXQgbXV0IHN0YXR1cyA9ICJtaXNzaW5nIjsKICAgIGxldCBzdW1tYXJ5OwogICAgbGV0IG11dCB3YXJuaW5ncyA9IFZlYzo6PFN0cmluZz46Om5ldygpOwoKICAgIGlmIGFjdGl2ZV9yZWFkeSB7CiAgICAgICAgc3RhdHVzID0gInJlYWR5IjsKICAgICAgICBzdW1tYXJ5ID0gc3ViZG9tYWluX3RleHQodCwgImludmVudG9yeUFjdGl2ZVJlYWR5Iik7CiAgICB9IGVsc2UgaWYgZnVsbHlfY292ZXJpbmcubGVuKCkgPT0gMSB7CiAgICAgICAgc3RhdHVzID0gInJlYWR5IjsKICAgICAgICBzdW1tYXJ5ID0gc3ViZG9tYWluX3RleHQodCwgImludmVudG9yeU9uZVJlYWR5Iik7CiAgICB9IGVsc2UgaWYgZnVsbHlfY292ZXJpbmcubGVuKCkgPiAxIHsKICAgICAgICBzdGF0dXMgPSAicmVhZHkiOwogICAgICAgIHN1bW1hcnkgPSBzdWJkb21haW5fdGV4dF9wYXJhbXMoCiAgICAgICAgICAgIHQsCiAgICAgICAgICAgICJpbnZlbnRvcnlNdWx0aXBsZVJlYWR5IiwKICAgICAgICAgICAgJlsoImNvdW50IiwgZnVsbHlfY292ZXJpbmcubGVuKCkudG9fc3RyaW5nKCkpXSwKICAgICAgICApOwogICAgfSBlbHNlIGlmIGNvbWJpbmVkX3JlYWR5ICYmIGRlcGxveW1lbnRfbW9kZSA9PSAibXVsdGlfc25pIiB7CiAgICAgICAgc3RhdHVzID0gInJlYWR5IjsKICAgICAgICBzdW1tYXJ5ID0gaWYgY29tYmluZWRfY292ZXJpbmdfY2VydGlmaWNhdGVfaWRzLmxlbigpID4gMSB7CiAgICAgICAgICAgIHN1YmRvbWFpbl90ZXh0KHQsICJpbnZlbnRvcnlDb21iaW5lZFJlYWR5IikKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBzdWJkb21haW5fdGV4dCh0LCAiaW52ZW50b3J5Q2FuZGlkYXRlUmVhZHkiKQogICAgICAgIH07CiAgICB9IGVsc2UgaWYgY29tYmluZWRfcmVhZHkgewogICAgICAgIHN0YXR1cyA9ICJwYXJ0aWFsIjsKICAgICAgICBzdW1tYXJ5ID0gc3ViZG9tYWluX3RleHQodCwgImludmVudG9yeUNvbWJpbmVkTmVlZHNNdWx0aVNuaSIpOwogICAgfSBlbHNlIGlmICFwYXJ0aWFsbHlfY292ZXJpbmcuaXNfZW1wdHkoKSB7CiAgICAgICAgc3RhdHVzID0gInBhcnRpYWwiOwogICAgICAgIHN1bW1hcnkgPSBzdWJkb21haW5fdGV4dCh0LCAiaW52ZW50b3J5UGFydGlhbENhbmRpZGF0ZXMiKTsKICAgIH0gZWxzZSBpZiByZWNvbW1lbmRhdGlvbi5nZXQoImNhbl9hdXRvZmlsbCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSA9PSBTb21lKHRydWUpIHsKICAgICAgICBzdW1tYXJ5ID0gc3ViZG9tYWluX3RleHQodCwgImludmVudG9yeU5vQ2VydGlmaWNhdGVDb3ZlcnNSZWNvbW1lbmRhdGlvbiIpOwogICAgfSBlbHNlIHsKICAgICAgICBzdW1tYXJ5ID0gcmVjb21tZW5kYXRpb24KICAgICAgICAgICAgLmdldCgic3VtbWFyeSIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAudW53cmFwX29yKCIiKQogICAgICAgICAgICAudG9fc3RyaW5nKCk7CiAgICB9CgogICAgaWYgY29tYmluZWRfcmVhZHkKICAgICAgICAmJiBjb21iaW5lZF9jb3ZlcmluZ19jZXJ0aWZpY2F0ZV9pZHMubGVuKCkgPiAxCiAgICAgICAgJiYgZGVwbG95bWVudF9tb2RlICE9ICJtdWx0aV9zbmkiCiAgICB7CiAgICAgICAgd2FybmluZ3MucHVzaChzdWJkb21haW5fdGV4dCh0LCAiaW52ZW50b3J5TXVsdGlDZXJ0UmVxdWlyZXNTbmlXYXJuaW5nIikpOwogICAgfQogICAgaWYgYWN0aXZlX2FuYWx5c2lzLmlzX3NvbWUoKSAmJiAhYWN0aXZlX3JlYWR5ICYmIGZ1bGx5X2NvdmVyaW5nLmxlbigpID09IDEgewogICAgICAgIHdhcm5pbmdzLnB1c2goc3ViZG9tYWluX3RleHQodCwgImludmVudG9yeVN3aXRjaFJlY29tbWVuZGVkV2FybmluZyIpKTsKICAgIH0KICAgIGlmIGFjdGl2ZV9hbmFseXNpcy5pc19ub25lKCkKICAgICAgICAmJiBmdWxseV9jb3ZlcmluZy5pc19lbXB0eSgpCiAgICAgICAgJiYgY29tYmluZWRfY292ZXJpbmdfY2VydGlmaWNhdGVfaWRzLmxlbigpID4gMQogICAgewogICAgICAgIHdhcm5pbmdzLnB1c2goc3ViZG9tYWluX3RleHQodCwgImludmVudG9yeUJldHRlckZvclNuaVdhcm5pbmciKSk7CiAgICB9CgogICAgbGV0IHN1Z2dlc3RlZF9jZXJ0aWZpY2F0ZV9pZCA9IGlmIGFjdGl2ZV9yZWFkeSB8fCBmdWxseV9jb3ZlcmluZy5sZW4oKSAhPSAxIHsKICAgICAgICBWYWx1ZTo6TnVsbAogICAgfSBlbHNlIHsKICAgICAgICBqc29uIShmdWxseV9jb3ZlcmluZ1swXS5pZCkKICAgIH07CgogICAganNvbiEoewogICAgICAgICJzdGF0dXMiOiBzdGF0dXMsCiAgICAgICAgImRlcGxveW1lbnRfbW9kZSI6IGRlcGxveW1lbnRfbW9kZSwKICAgICAgICAiYWN0aXZlX2NlcnRpZmljYXRlX2lkIjogYWN0aXZlX2FuYWx5c2lzLmFzX3JlZigpLm1hcCh8aXRlbXwgaXRlbS5pZC5hc19zdHIoKSksCiAgICAgICAgImZ1bGx5X2NvdmVyaW5nX2NlcnRpZmljYXRlX2lkcyI6IGZ1bGx5X2NvdmVyaW5nLml0ZXIoKS5tYXAofGl0ZW18IGl0ZW0uaWQuY2xvbmUoKSkuY29sbGVjdDo6PFZlYzxfPj4oKSwKICAgICAgICAicGFydGlhbGx5X2NvdmVyaW5nX2NlcnRpZmljYXRlX2lkcyI6IHBhcnRpYWxseV9jb3ZlcmluZy5pdGVyKCkubWFwKHxpdGVtfCBpdGVtLmlkLmNsb25lKCkpLmNvbGxlY3Q6OjxWZWM8Xz4+KCksCiAgICAgICAgImNvbWJpbmVkX2NvdmVyaW5nX2NlcnRpZmljYXRlX2lkcyI6IGNvbWJpbmVkX2NvdmVyaW5nX2NlcnRpZmljYXRlX2lkcywKICAgICAgICAic3VnZ2VzdGVkX2NlcnRpZmljYXRlX2lkIjogc3VnZ2VzdGVkX2NlcnRpZmljYXRlX2lkLAogICAgICAgICJjYW5fYXV0b19hY3RpdmF0ZSI6ICFhY3RpdmVfcmVhZHkgJiYgZnVsbHlfY292ZXJpbmcubGVuKCkgPT0gMSwKICAgICAgICAid2FybmluZ3MiOiB3YXJuaW5ncywKICAgICAgICAic3VtbWFyeSI6IHN1bW1hcnksCiAgICB9KQp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcpXQpwdWIoc3VwZXIpIHN0cnVjdCBDZXJ0aWZpY2F0ZUNvdmVyYWdlQW5hbHlzaXMgewogICAgaWQ6IFN0cmluZywKICAgIGNvdmVyYWdlOiBWYWx1ZSwKICAgIGNvdmVyZWRfcmVxdWlyZW1lbnRzOiBWZWM8U3RyaW5nPiwKfQoKcHViKHN1cGVyKSBmbiBjZXJ0aWZpY2F0ZV9kbnNfbmFtZXMoY2VydGlmaWNhdGU6ICZWYWx1ZSkgLT4gVmVjPFN0cmluZz4gewogICAgY2VydGlmaWNhdGUKICAgICAgICAuZ2V0KCJjZXJ0SW5mbyIpCiAgICAgICAgLm1hcChjZXJ0aWZpY2F0ZV9pbmZvX2Ruc19uYW1lcykKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQp9CgpwdWIoc3VwZXIpIGZuIGNlcnRpZmljYXRlX2luZm9fZG5zX25hbWVzKGluZm86ICZWYWx1ZSkgLT4gVmVjPFN0cmluZz4gewogICAgaW5mby5nZXQoImRuc05hbWVzIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5tYXAofGl0ZW1zfCB7CiAgICAgICAgICAgIGl0ZW1zCiAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAuZmlsdGVyX21hcChWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgLm1hcChzdHI6OnRvX3N0cmluZykKICAgICAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpCiAgICAgICAgfSkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQp9CgpwdWIoc3VwZXIpIGZuIHJlY29tbWVuZGF0aW9uX2RvbWFpbnMocmVjb21tZW5kYXRpb246ICZWYWx1ZSkgLT4gVmVjPFN0cmluZz4gewogICAgcmVjb21tZW5kYXRpb24KICAgICAgICAuZ2V0KCJyZWNvbW1lbmRlZF9kb21haW5zIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5tYXAofGl0ZW1zfCB7CiAgICAgICAgICAgIGl0ZW1zCiAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAuZmlsdGVyX21hcChWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgLm1hcChzdHI6OnRvX3N0cmluZykKICAgICAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpCiAgICAgICAgfSkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQp9CgpwdWIoc3VwZXIpIGZuIGhvc3RfbWFwcGluZ19ob3N0cyhjb25maWc6ICZWYWx1ZSkgLT4gVmVjPFN0cmluZz4gewogICAgY29uZmlnCiAgICAgICAgLmdldCgiaG9zdF9tYXBwaW5ncyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAubWFwKHxtYXBwaW5nc3wgewogICAgICAgICAgICB1bmlxX2RvbWFpbl9zdHJpbmdzKAogICAgICAgICAgICAgICAgbWFwcGluZ3MKICAgICAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAgICAgLmZpbHRlcl9tYXAofG1hcHBpbmd8IG1hcHBpbmcuZ2V0KCJob3N0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpLAogICAgICAgICAgICApCiAgICAgICAgfSkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQp9CgpwdWIoc3VwZXIpIGZuIGF1dGhfaG9zdF9tYXBwaW5nKGF1dGhfcG9ydDogdTE2LCBjb25maWc6ICZWYWx1ZSkgLT4gT3B0aW9uPFN0cmluZz4gewogICAgY29uZmlnCiAgICAgICAgLmdldCgiaG9zdF9tYXBwaW5ncyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSk/CiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maW5kKHxtYXBwaW5nfCBpc19hdXRoX3NlcnZpY2VfbWFwcGluZyhhdXRoX3BvcnQsIG1hcHBpbmcpKQogICAgICAgIC5hbmRfdGhlbih8bWFwcGluZ3wgbWFwcGluZy5nZXQoImhvc3QiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSkKICAgICAgICAubWFwKG5vcm1hbGl6ZV9kb21haW5fbmFtZSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCn0KCnB1YihzdXBlcikgZm4gaXNfYXV0aF9zZXJ2aWNlX21hcHBpbmcoYXV0aF9wb3J0OiB1MTYsIG1hcHBpbmc6ICZWYWx1ZSkgLT4gYm9vbCB7CiAgICBpZiBtYXBwaW5nLmdldCgic2VydmljZV9yb2xlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSgiYXV0aCIpIHsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KICAgIGxldCB0YXJnZXQgPSBtYXBwaW5nLmdldCgidGFyZ2V0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKTsKICAgIHBhcnNlX3RhcmdldF9wb3J0KHRhcmdldCkgPT0gU29tZShhdXRoX3BvcnQpCn0KCnB1YihzdXBlcikgdXNlIGNyYXRlOjpwcm94eV91dGlsczo6cGFyc2VfdXJsX3RhcmdldF9wb3J0X3UxNiBhcyBwYXJzZV90YXJnZXRfcG9ydDsKCnB1YihzdXBlcikgZm4gc3ViZG9tYWluX3RleHQodHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsIGtleTogJnN0cikgLT4gU3RyaW5nIHsKICAgIHRyYW5zbGF0b3IudCgmZm9ybWF0ISgic2VydmVyLnN1YmRvbWFpbk1vZGUue2tleX0iKSkKfQoKcHViKHN1cGVyKSBmbiBzdWJkb21haW5fdGV4dF9wYXJhbXMoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIGtleTogJnN0ciwKICAgIHBhcmFtczogJlsoJnN0ciwgU3RyaW5nKV0sCikgLT4gU3RyaW5nIHsKICAgIHRyYW5zbGF0b3IudF9wYXJhbXMoJmZvcm1hdCEoInNlcnZlci5zdWJkb21haW5Nb2RlLntrZXl9IiksIHBhcmFtcykKfQoKcHViKHN1cGVyKSBmbiBidWlsZF9zc2xfY2VydGlmaWNhdGVfaWQoY2VydDogJnN0ciwga2V5OiAmc3RyKSAtPiBTdHJpbmcgewogICAgbGV0IG11dCBoYXNoZXIgPSBTaGEyNTY6Om5ldygpOwogICAgaGFzaGVyLnVwZGF0ZShjZXJ0LmFzX2J5dGVzKCkpOwogICAgaGFzaGVyLnVwZGF0ZShiIlxuIik7CiAgICBoYXNoZXIudXBkYXRlKGtleS5hc19ieXRlcygpKTsKICAgIGxldCBkaWdlc3QgPSBoZXg6OmVuY29kZShoYXNoZXIuZmluYWxpemUoKSk7CiAgICBmb3JtYXQhKCJzc2xfe30iLCAmZGlnZXN0Wy4uMTZdKQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9jZXJ0aWZpY2F0ZV9zb3VyY2UodmFsdWU6IE9wdGlvbjwmc3RyPikgLT4gJidzdGF0aWMgc3RyIHsKICAgIG1hdGNoIHZhbHVlIHsKICAgICAgICBTb21lKCJhY21lIikgPT4gImFjbWUiLAogICAgICAgIFNvbWUoImNhIikgPT4gImNhIiwKICAgICAgICBTb21lKCJleHRlcm5hbCIpID0+ICJleHRlcm5hbCIsCiAgICAgICAgXyA9PiAibWFudWFsIiwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfZGVwbG95bWVudF9tb2RlKHZhbHVlOiBPcHRpb248JnN0cj4pIC0+ICYnc3RhdGljIHN0ciB7CiAgICBpZiB2YWx1ZSA9PSBTb21lKCJtdWx0aV9zbmkiKSB7CiAgICAgICAgIm11bHRpX3NuaSIKICAgIH0gZWxzZSB7CiAgICAgICAgInNpbmdsZV9hY3RpdmUiCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gc2hvdWxkX3N5bmNfc3NsX2RlcGxveW1lbnRfYWZ0ZXJfc2F2ZShhY3RpdmF0ZTogYm9vbCwgZGVwbG95bWVudF9tb2RlOiAmc3RyKSAtPiBib29sIHsKICAgIGFjdGl2YXRlIHx8IG5vcm1hbGl6ZV9kZXBsb3ltZW50X21vZGUoU29tZShkZXBsb3ltZW50X21vZGUpKSA9PSAibXVsdGlfc25pIgp9CgpwdWIoc3VwZXIpIGZuIGRlZmF1bHRfY2VydGlmaWNhdGVfbGFiZWwoc291cmNlOiAmc3RyLCBwcmltYXJ5X2RvbWFpbjogT3B0aW9uPCZzdHI+KSAtPiBTdHJpbmcgewogICAgaWYgbGV0IFNvbWUocHJpbWFyeV9kb21haW4pID0gcHJpbWFyeV9kb21haW4gewogICAgICAgIHJldHVybiBwcmltYXJ5X2RvbWFpbi50b19zdHJpbmcoKTsKICAgIH0KICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6bmV3KERFRkFVTFRfTE9DQUxFKTsKICAgIG1hdGNoIHNvdXJjZSB7CiAgICAgICAgImFjbWUiID0+IHRyYW5zbGF0b3IudCgic2VydmVyLnN0b3JlLmNlcnRpZmljYXRlTGFiZWxzLmFjbWUiKSwKICAgICAgICAiY2EiID0+IHRyYW5zbGF0b3IudCgic2VydmVyLnN0b3JlLmNlcnRpZmljYXRlTGFiZWxzLmNhIiksCiAgICAgICAgImV4dGVybmFsIiA9PiB0cmFuc2xhdG9yLnQoInNlcnZlci5zdG9yZS5jZXJ0aWZpY2F0ZUxhYmVscy5leHRlcm5hbCIpLAogICAgICAgICJjdXJyZW50IiA9PiB0cmFuc2xhdG9yLnQoInNlcnZlci5zdG9yZS5jZXJ0aWZpY2F0ZUxhYmVscy5jdXJyZW50IiksCiAgICAgICAgXyA9PiB0cmFuc2xhdG9yLnQoInNlcnZlci5zdG9yZS5jZXJ0aWZpY2F0ZUxhYmVscy5tYW51YWwiKSwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfdGltZXN0YW1wKHZhbHVlOiBPcHRpb248JlZhbHVlPikgLT4gT3B0aW9uPFN0cmluZz4gewogICAgbGV0IHJhdyA9IHZhbHVlLmFuZF90aGVuKFZhbHVlOjphc19zdHIpPy50cmltKCk7CiAgICB0aW1lX3V0aWxzOjpub3JtYWxpemVfbm9kZV9pc28ocmF3KQp9Cg==
+use super::*;
+
+pub(super) use crate::certificates::domain_utils::{
+    is_requirement_covered_by_certificate_domains, normalize_domain_name, uniq_domain_strings,
+};
+pub(super) use crate::time_utils::node_iso_now as now_node_iso;
+
+pub(super) fn build_subdomain_certificate_recommendation(
+    auth_port: u16,
+    config: &Value,
+    t: &Translator,
+) -> Value {
+    let root_domain = config
+        .pointer("/subdomain_mode/root_domain")
+        .and_then(Value::as_str)
+        .map(normalize_domain_name)
+        .filter(|value| !value.is_empty())
+        .unwrap_or_default();
+    let auth_host = auth_host_mapping(auth_port, config)
+        .or_else(|| {
+            config
+                .pointer("/subdomain_mode/auth_host")
+                .and_then(Value::as_str)
+                .map(normalize_domain_name)
+                .filter(|value| !value.is_empty())
+        })
+        .unwrap_or_default();
+    let all_hosts = host_mapping_hosts(config);
+
+    let mut mode = "manual";
+    let mut summary = subdomain_text(t, "recommendationMissingBase");
+    let mut warnings = Vec::<String>::new();
+    let mut recommended_domains = Vec::<String>::new();
+
+    if !root_domain.is_empty() {
+        mode = "wildcard_parent";
+        let wildcard_domain = format!("*.{root_domain}");
+        recommended_domains = uniq_domain_strings([root_domain.as_str(), wildcard_domain.as_str()]);
+        summary = subdomain_text_params(
+            t,
+            "recommendationWildcardSummary",
+            &[("rootDomain", root_domain.clone())],
+        );
+        if !auth_host.is_empty()
+            && !is_requirement_covered_by_certificate_domains(&auth_host, &recommended_domains)
+        {
+            recommended_domains = uniq_domain_strings(
+                recommended_domains
+                    .iter()
+                    .map(String::as_str)
+                    .chain(std::iter::once(auth_host.as_str())),
+            );
+            warnings.push(subdomain_text_params(
+                t,
+                "authOutOfRootWarning",
+                &[
+                    ("authHost", auth_host.clone()),
+                    ("rootDomain", root_domain.clone()),
+                ],
+            ));
+        }
+    } else if !auth_host.is_empty() {
+        mode = "single_host";
+        recommended_domains = vec![auth_host.clone()];
+        summary = subdomain_text_params(
+            t,
+            "recommendationSingleHostSummary",
+            &[("authHost", auth_host.clone())],
+        );
+        warnings.push(subdomain_text(t, "wildcardSuggestion"));
+    } else {
+        warnings.push(subdomain_text(t, "configureRootOrAuth"));
+    }
+
+    if auth_host.is_empty() {
+        warnings.push(subdomain_text(t, "authMissingWarning"));
+    }
+
+    let covered_hosts = all_hosts
+        .iter()
+        .filter(|host| is_requirement_covered_by_certificate_domains(host, &recommended_domains))
+        .cloned()
+        .collect::<Vec<_>>();
+    let uncovered_hosts = all_hosts
+        .iter()
+        .filter(|host| !is_requirement_covered_by_certificate_domains(host, &recommended_domains))
+        .cloned()
+        .collect::<Vec<_>>();
+
+    if !uncovered_hosts.is_empty() && !recommended_domains.is_empty() {
+        warnings.push(subdomain_text_params(
+            t,
+            "uncoveredHostMappingsWarning",
+            &[("count", uncovered_hosts.len().to_string())],
+        ));
+    }
+
+    json!({
+        "mode": mode,
+        "root_domain": if root_domain.is_empty() { Value::Null } else { json!(root_domain) },
+        "auth_host": if auth_host.is_empty() { Value::Null } else { json!(auth_host) },
+        "recommended_domains": recommended_domains,
+        "covered_hosts": covered_hosts,
+        "uncovered_hosts": uncovered_hosts,
+        "warnings": warnings,
+        "can_autofill": !recommended_domains.is_empty(),
+        "summary": summary,
+    })
+}
+
+pub(super) fn build_subdomain_certificate_coverage(
+    auth_port: u16,
+    config: &Value,
+    certificate_domains: &[String],
+    t: &Translator,
+) -> Value {
+    let recommendation = build_subdomain_certificate_recommendation(auth_port, config, t);
+    let current_certificate_domains =
+        uniq_domain_strings(certificate_domains.iter().map(String::as_str));
+    let all_hosts = host_mapping_hosts(config);
+    let recommended_domains = recommendation_domains(&recommendation);
+    let auth_host = recommendation
+        .get("auth_host")
+        .and_then(Value::as_str)
+        .unwrap_or("")
+        .to_string();
+    let concrete_requirements = uniq_domain_strings(
+        std::iter::once(auth_host.as_str()).chain(all_hosts.iter().map(String::as_str)),
+    );
+    let effective_requirements = if concrete_requirements.is_empty() {
+        recommended_domains.clone()
+    } else {
+        concrete_requirements.clone()
+    };
+    let covered_recommended_domains = recommended_domains
+        .iter()
+        .filter(|domain| {
+            is_requirement_covered_by_certificate_domains(domain, &current_certificate_domains)
+        })
+        .cloned()
+        .collect::<Vec<_>>();
+    let uncovered_recommended_domains = recommended_domains
+        .iter()
+        .filter(|domain| {
+            !is_requirement_covered_by_certificate_domains(domain, &current_certificate_domains)
+        })
+        .cloned()
+        .collect::<Vec<_>>();
+    let covered_hosts = all_hosts
+        .iter()
+        .filter(|host| {
+            is_requirement_covered_by_certificate_domains(host, &current_certificate_domains)
+        })
+        .cloned()
+        .collect::<Vec<_>>();
+    let uncovered_hosts = all_hosts
+        .iter()
+        .filter(|host| {
+            !is_requirement_covered_by_certificate_domains(host, &current_certificate_domains)
+        })
+        .cloned()
+        .collect::<Vec<_>>();
+    let covers_auth_host = if auth_host.is_empty() {
+        false
+    } else {
+        is_requirement_covered_by_certificate_domains(&auth_host, &current_certificate_domains)
+    };
+    let covered_requirements = effective_requirements
+        .iter()
+        .filter(|requirement| {
+            is_requirement_covered_by_certificate_domains(requirement, &current_certificate_domains)
+        })
+        .cloned()
+        .collect::<Vec<_>>();
+    let uncovered_requirements = effective_requirements
+        .iter()
+        .filter(|requirement| {
+            !is_requirement_covered_by_certificate_domains(
+                requirement,
+                &current_certificate_domains,
+            )
+        })
+        .cloned()
+        .collect::<Vec<_>>();
+    let has_concrete_requirements = !concrete_requirements.is_empty();
+
+    let mut status = "missing";
+    let mut summary = subdomain_text(t, "coverageNoSsl");
+    let mut warnings = recommendation
+        .get("warnings")
+        .and_then(Value::as_array)
+        .map(|items| {
+            items
+                .iter()
+                .filter_map(Value::as_str)
+                .map(str::to_string)
+                .collect::<Vec<_>>()
+        })
+        .unwrap_or_default();
+
+    if current_certificate_domains.is_empty() {
+        if recommendation.get("can_autofill").and_then(Value::as_bool) != Some(true) {
+            summary = recommendation
+                .get("summary")
+                .and_then(Value::as_str)
+                .unwrap_or("")
+                .to_string();
+        }
+    } else if uncovered_requirements.is_empty() {
+        status = "ready";
+        summary = if has_concrete_requirements {
+            subdomain_text(t, "coverageReadyConcrete")
+        } else {
+            subdomain_text(t, "coverageReadyRecommended")
+        };
+    } else if !covered_requirements.is_empty() {
+        status = "partial";
+        summary = if has_concrete_requirements {
+            subdomain_text(t, "coveragePartialConcrete")
+        } else {
+            subdomain_text(t, "coveragePartialRecommended")
+        };
+    } else {
+        summary = if has_concrete_requirements {
+            subdomain_text(t, "coverageMismatchConcrete")
+        } else {
+            subdomain_text(t, "coverageMismatchRecommended")
+        };
+    }
+
+    if !current_certificate_domains.is_empty()
+        && has_concrete_requirements
+        && !uncovered_requirements.is_empty()
+    {
+        warnings.push(subdomain_text_params(
+            t,
+            "coverageMissingRequiredWarning",
+            &[("count", uncovered_requirements.len().to_string())],
+        ));
+    } else if !current_certificate_domains.is_empty()
+        && !has_concrete_requirements
+        && !uncovered_recommended_domains.is_empty()
+    {
+        warnings.push(subdomain_text_params(
+            t,
+            "coverageMissingRecommendedWarning",
+            &[("count", uncovered_recommended_domains.len().to_string())],
+        ));
+    }
+
+    if !current_certificate_domains.is_empty() && !auth_host.is_empty() && !covers_auth_host {
+        warnings.push(subdomain_text_params(
+            t,
+            "coverageAuthHostMissingWarning",
+            &[("authHost", auth_host.clone())],
+        ));
+    }
+
+    json!({
+        "status": status,
+        "auth_host": if auth_host.is_empty() { Value::Null } else { json!(auth_host) },
+        "certificate_domains": current_certificate_domains,
+        "recommended_domains": recommended_domains,
+        "covered_recommended_domains": covered_recommended_domains,
+        "uncovered_recommended_domains": uncovered_recommended_domains,
+        "covered_hosts": covered_hosts,
+        "uncovered_hosts": uncovered_hosts,
+        "covers_auth_host": covers_auth_host,
+        "warnings": warnings,
+        "summary": summary,
+    })
+}
+
+pub(super) fn build_subdomain_certificate_inventory_coverage(
+    auth_port: u16,
+    config: &Value,
+    certificates: &[CertificateCoverageInput],
+    active_certificate_id: Option<&str>,
+    deployment_mode: &str,
+    t: &Translator,
+) -> Value {
+    let recommendation = build_subdomain_certificate_recommendation(auth_port, config, t);
+    let all_hosts = host_mapping_hosts(config);
+    let recommended_domains = recommendation_domains(&recommendation);
+    let auth_host = recommendation
+        .get("auth_host")
+        .and_then(Value::as_str)
+        .unwrap_or("")
+        .to_string();
+    let concrete_requirements = uniq_domain_strings(
+        std::iter::once(auth_host.as_str()).chain(all_hosts.iter().map(String::as_str)),
+    );
+    let requirements = if concrete_requirements.is_empty() {
+        recommended_domains
+    } else {
+        concrete_requirements
+    };
+
+    let analyses = certificates
+        .iter()
+        .map(|certificate| {
+            let normalized_domains =
+                uniq_domain_strings(certificate.certificate_domains.iter().map(String::as_str));
+            let coverage =
+                build_subdomain_certificate_coverage(auth_port, config, &normalized_domains, t);
+            let covered_requirements = requirements
+                .iter()
+                .filter(|requirement| {
+                    is_requirement_covered_by_certificate_domains(requirement, &normalized_domains)
+                })
+                .cloned()
+                .collect::<Vec<_>>();
+            CertificateCoverageAnalysis {
+                id: certificate.id.clone(),
+                coverage,
+                covered_requirements,
+            }
+        })
+        .collect::<Vec<_>>();
+
+    let fully_covering = analyses
+        .iter()
+        .filter(|item| item.coverage.get("status").and_then(Value::as_str) == Some("ready"))
+        .cloned()
+        .collect::<Vec<_>>();
+    let partially_covering = analyses
+        .iter()
+        .filter(|item| {
+            item.coverage.get("status").and_then(Value::as_str) != Some("ready")
+                && !item.covered_requirements.is_empty()
+        })
+        .cloned()
+        .collect::<Vec<_>>();
+    let active_analysis = active_certificate_id
+        .and_then(|id| analyses.iter().find(|item| item.id == id))
+        .cloned();
+
+    let mut uncovered_requirements = requirements.iter().cloned().collect::<BTreeSet<_>>();
+    let mut combined_covering_certificate_ids = Vec::<String>::new();
+    let mut remaining = analyses.clone();
+
+    while !uncovered_requirements.is_empty() && !remaining.is_empty() {
+        let mut best_index = None;
+        let mut best_gain = 0_usize;
+        for (index, item) in remaining.iter().enumerate() {
+            let gain = item
+                .covered_requirements
+                .iter()
+                .filter(|requirement| uncovered_requirements.contains(*requirement))
+                .count();
+            if gain > best_gain {
+                best_gain = gain;
+                best_index = Some(index);
+            }
+        }
+        let Some(best_index) = best_index else {
+            break;
+        };
+        if best_gain == 0 {
+            break;
+        }
+        let selected = remaining.remove(best_index);
+        combined_covering_certificate_ids.push(selected.id.clone());
+        for requirement in selected.covered_requirements {
+            uncovered_requirements.remove(&requirement);
+        }
+    }
+
+    let combined_ready = !requirements.is_empty() && uncovered_requirements.is_empty();
+    let active_ready = active_analysis
+        .as_ref()
+        .and_then(|item| item.coverage.get("status").and_then(Value::as_str))
+        == Some("ready");
+    let deployment_mode = normalize_deployment_mode(Some(deployment_mode));
+
+    let mut status = "missing";
+    let summary;
+    let mut warnings = Vec::<String>::new();
+
+    if active_ready {
+        status = "ready";
+        summary = subdomain_text(t, "inventoryActiveReady");
+    } else if fully_covering.len() == 1 {
+        status = "ready";
+        summary = subdomain_text(t, "inventoryOneReady");
+    } else if fully_covering.len() > 1 {
+        status = "ready";
+        summary = subdomain_text_params(
+            t,
+            "inventoryMultipleReady",
+            &[("count", fully_covering.len().to_string())],
+        );
+    } else if combined_ready && deployment_mode == "multi_sni" {
+        status = "ready";
+        summary = if combined_covering_certificate_ids.len() > 1 {
+            subdomain_text(t, "inventoryCombinedReady")
+        } else {
+            subdomain_text(t, "inventoryCandidateReady")
+        };
+    } else if combined_ready {
+        status = "partial";
+        summary = subdomain_text(t, "inventoryCombinedNeedsMultiSni");
+    } else if !partially_covering.is_empty() {
+        status = "partial";
+        summary = subdomain_text(t, "inventoryPartialCandidates");
+    } else if recommendation.get("can_autofill").and_then(Value::as_bool) == Some(true) {
+        summary = subdomain_text(t, "inventoryNoCertificateCoversRecommendation");
+    } else {
+        summary = recommendation
+            .get("summary")
+            .and_then(Value::as_str)
+            .unwrap_or("")
+            .to_string();
+    }
+
+    if combined_ready
+        && combined_covering_certificate_ids.len() > 1
+        && deployment_mode != "multi_sni"
+    {
+        warnings.push(subdomain_text(t, "inventoryMultiCertRequiresSniWarning"));
+    }
+    if active_analysis.is_some() && !active_ready && fully_covering.len() == 1 {
+        warnings.push(subdomain_text(t, "inventorySwitchRecommendedWarning"));
+    }
+    if active_analysis.is_none()
+        && fully_covering.is_empty()
+        && combined_covering_certificate_ids.len() > 1
+    {
+        warnings.push(subdomain_text(t, "inventoryBetterForSniWarning"));
+    }
+
+    let suggested_certificate_id = if active_ready || fully_covering.len() != 1 {
+        Value::Null
+    } else {
+        json!(fully_covering[0].id)
+    };
+
+    json!({
+        "status": status,
+        "deployment_mode": deployment_mode,
+        "active_certificate_id": active_analysis.as_ref().map(|item| item.id.as_str()),
+        "fully_covering_certificate_ids": fully_covering.iter().map(|item| item.id.clone()).collect::<Vec<_>>(),
+        "partially_covering_certificate_ids": partially_covering.iter().map(|item| item.id.clone()).collect::<Vec<_>>(),
+        "combined_covering_certificate_ids": combined_covering_certificate_ids,
+        "suggested_certificate_id": suggested_certificate_id,
+        "can_auto_activate": !active_ready && fully_covering.len() == 1,
+        "warnings": warnings,
+        "summary": summary,
+    })
+}
+
+#[derive(Clone, Debug)]
+pub(super) struct CertificateCoverageAnalysis {
+    id: String,
+    coverage: Value,
+    covered_requirements: Vec<String>,
+}
+
+pub(super) fn certificate_dns_names(certificate: &Value) -> Vec<String> {
+    certificate
+        .get("certInfo")
+        .map(certificate_info_dns_names)
+        .unwrap_or_default()
+}
+
+pub(super) fn certificate_info_dns_names(info: &Value) -> Vec<String> {
+    info.get("dnsNames")
+        .and_then(Value::as_array)
+        .map(|items| {
+            items
+                .iter()
+                .filter_map(Value::as_str)
+                .map(str::to_string)
+                .collect::<Vec<_>>()
+        })
+        .unwrap_or_default()
+}
+
+pub(super) fn recommendation_domains(recommendation: &Value) -> Vec<String> {
+    recommendation
+        .get("recommended_domains")
+        .and_then(Value::as_array)
+        .map(|items| {
+            items
+                .iter()
+                .filter_map(Value::as_str)
+                .map(str::to_string)
+                .collect::<Vec<_>>()
+        })
+        .unwrap_or_default()
+}
+
+pub(super) fn host_mapping_hosts(config: &Value) -> Vec<String> {
+    config
+        .get("host_mappings")
+        .and_then(Value::as_array)
+        .map(|mappings| {
+            uniq_domain_strings(
+                mappings
+                    .iter()
+                    .filter_map(|mapping| mapping.get("host").and_then(Value::as_str)),
+            )
+        })
+        .unwrap_or_default()
+}
+
+pub(super) fn auth_host_mapping(auth_port: u16, config: &Value) -> Option<String> {
+    config
+        .get("host_mappings")
+        .and_then(Value::as_array)?
+        .iter()
+        .find(|mapping| is_auth_service_mapping(auth_port, mapping))
+        .and_then(|mapping| mapping.get("host").and_then(Value::as_str))
+        .map(normalize_domain_name)
+        .filter(|value| !value.is_empty())
+}
+
+pub(super) fn is_auth_service_mapping(auth_port: u16, mapping: &Value) -> bool {
+    if mapping.get("service_role").and_then(Value::as_str) == Some("auth") {
+        return true;
+    }
+    let target = mapping.get("target").and_then(Value::as_str).unwrap_or("");
+    parse_target_port(target) == Some(auth_port)
+}
+
+pub(super) use crate::proxy_utils::parse_url_target_port_u16 as parse_target_port;
+
+pub(super) fn subdomain_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.subdomainMode.{key}"))
+}
+
+pub(super) fn subdomain_text_params(
+    translator: &Translator,
+    key: &str,
+    params: &[(&str, String)],
+) -> String {
+    translator.t_params(&format!("server.subdomainMode.{key}"), params)
+}
+
+pub(super) fn build_ssl_certificate_id(cert: &str, key: &str) -> String {
+    let mut hasher = Sha256::new();
+    hasher.update(cert.as_bytes());
+    hasher.update(b"\n");
+    hasher.update(key.as_bytes());
+    let digest = hex::encode(hasher.finalize());
+    format!("ssl_{}", &digest[..16])
+}
+
+pub(super) fn normalize_certificate_source(value: Option<&str>) -> &'static str {
+    match value {
+        Some("acme") => "acme",
+        Some("ca") => "ca",
+        Some("external") => "external",
+        _ => "manual",
+    }
+}
+
+pub(super) fn normalize_deployment_mode(value: Option<&str>) -> &'static str {
+    if value == Some("multi_sni") {
+        "multi_sni"
+    } else {
+        "single_active"
+    }
+}
+
+pub(super) fn should_sync_ssl_deployment_after_save(activate: bool, deployment_mode: &str) -> bool {
+    activate || normalize_deployment_mode(Some(deployment_mode)) == "multi_sni"
+}
+
+pub(super) fn default_certificate_label(source: &str, primary_domain: Option<&str>) -> String {
+    if let Some(primary_domain) = primary_domain {
+        return primary_domain.to_string();
+    }
+    let translator = Translator::new(DEFAULT_LOCALE);
+    match source {
+        "acme" => translator.t("server.store.certificateLabels.acme"),
+        "ca" => translator.t("server.store.certificateLabels.ca"),
+        "external" => translator.t("server.store.certificateLabels.external"),
+        "current" => translator.t("server.store.certificateLabels.current"),
+        _ => translator.t("server.store.certificateLabels.manual"),
+    }
+}
+
+pub(super) fn normalize_timestamp(value: Option<&Value>) -> Option<String> {
+    let raw = value.and_then(Value::as_str)?.trim();
+    time_utils::normalize_node_iso(raw)
+}

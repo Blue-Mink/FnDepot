@@ -1,1 +1,82 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7CiAgQWxlcnRUcmlhbmdsZSwKICBDaGV2cm9uUmlnaHQsCiAgUmVmcmVzaEN3LAogIFNoaWVsZENoZWNrLAp9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEFsZXJ0LCBBbGVydERlc2NyaXB0aW9uLCBBbGVydFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2FsZXJ0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB0eXBlIHsgU3ViZG9tYWluTWFwcGluZ0RpYWxvZ1Byb3BzIH0gZnJvbSAiLi9zdWJkb21haW4tbWFwcGluZy1kaWFsb2ctY29udHJhY3QiOwoKZGVmaW5lUHJvcHM8eyBkaWFsb2c6IFN1YmRvbWFpbk1hcHBpbmdEaWFsb2dQcm9wcyB9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPEFsZXJ0CiAgICB2LWlmPSIKICAgICAgIWRpYWxvZy5pc01hcHBpbmdBdXRoU2VydmljZSAmJgogICAgICBkaWFsb2cudmlzaWJpbGl0eUVkaXRvci5nbG9iYWxWaXNpYmlsaXR5TG9hZEVycm9yCiAgICAiCiAgICB2YXJpYW50PSJkZXN0cnVjdGl2ZSIKICAgIGNsYXNzPSJpdGVtcy1zdGFydCIKICA+CiAgICA8QWxlcnRUcmlhbmdsZSBjbGFzcz0iaC00IHctNCIgLz4KICAgIDxBbGVydFRpdGxlPgogICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS52aXNpYmlsaXR5TG9hZEZhaWxlZCIpIH19CiAgICA8L0FsZXJ0VGl0bGU+CiAgICA8QWxlcnREZXNjcmlwdGlvbiBjbGFzcz0ic3BhY2UteS0zIj4KICAgICAgPHAgY2xhc3M9ImJyZWFrLXdvcmRzIj4KICAgICAgICB7eyBkaWFsb2cudmlzaWJpbGl0eUVkaXRvci5nbG9iYWxWaXNpYmlsaXR5TG9hZEVycm9yIH19CiAgICAgIDwvcD4KICAgICAgPEJ1dHRvbgogICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgIHNpemU9InNtIgogICAgICAgIDpkaXNhYmxlZD0iZGlhbG9nLnZpc2liaWxpdHlFZGl0b3IuaXNHbG9iYWxWaXNpYmlsaXR5TG9hZGluZyIKICAgICAgICBAY2xpY2s9ImRpYWxvZy52aXNpYmlsaXR5RWRpdG9yLmxvYWRHbG9iYWxWaXNpYmlsaXR5IgogICAgICA+CiAgICAgICAgPFJlZnJlc2hDdwogICAgICAgICAgY2xhc3M9Im1yLTIgaC0zLjUgdy0zLjUiCiAgICAgICAgICA6Y2xhc3M9InsKICAgICAgICAgICAgJ2FuaW1hdGUtc3Bpbic6IGRpYWxvZy52aXNpYmlsaXR5RWRpdG9yLmlzR2xvYmFsVmlzaWJpbGl0eUxvYWRpbmcsCiAgICAgICAgICB9IgogICAgICAgIC8+CiAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkucmV0cnkiKSB9fQogICAgICA8L0J1dHRvbj4KICAgIDwvQWxlcnREZXNjcmlwdGlvbj4KICA8L0FsZXJ0PgoKICA8QnV0dG9uCiAgICB2LWlmPSJkaWFsb2cudmlzaWJpbGl0eUVkaXRvci52aXNpYmlsaXR5QXZhaWxhYmxlIgogICAgdHlwZT0iYnV0dG9uIgogICAgdmFyaWFudD0ib3V0bGluZSIKICAgIGNsYXNzPSJoLWF1dG8gdy1mdWxsIGp1c3RpZnktYmV0d2VlbiBnYXAtMyBweC00IHB5LTMgdGV4dC1sZWZ0IgogICAgQGNsaWNrPSJkaWFsb2cudmlzaWJpbGl0eUVkaXRvci5vcGVuVmlzaWJpbGl0eVZpZXciCiAgPgogICAgPHNwYW4gY2xhc3M9ImZsZXggbWluLXctMCBmbGV4LTEgaXRlbXMtc3RhcnQgZ2FwLTMiPgogICAgICA8U2hpZWxkQ2hlY2sgY2xhc3M9Im10LTAuNSBoLTQgdy00IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICAgICAgPHNwYW4gY2xhc3M9Im1pbi13LTAgZmxleC0xIHNwYWNlLXktMSI+CiAgICAgICAgPHNwYW4gY2xhc3M9ImJsb2NrIHRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkudmlzaWJpbGl0eVRpdGxlIikgfX0KICAgICAgICA8L3NwYW4+CiAgICAgICAgPHNwYW4KICAgICAgICAgIGNsYXNzPSJibG9jayB3aGl0ZXNwYWNlLW5vcm1hbCBicmVhay13b3JkcyB0ZXh0LXhzIGZvbnQtbm9ybWFsIGxlYWRpbmctNSIKICAgICAgICAgIDpjbGFzcz0iCiAgICAgICAgICAgIGRpYWxvZy52aXNpYmlsaXR5RWRpdG9yLnZpc2liaWxpdHlWYWxpZGF0aW9uTWVzc2FnZQogICAgICAgICAgICAgID8gJ3RleHQtZGVzdHJ1Y3RpdmUnCiAgICAgICAgICAgICAgOiAndGV4dC1tdXRlZC1mb3JlZ3JvdW5kJwogICAgICAgICAgIgogICAgICAgID4KICAgICAgICAgIHt7CiAgICAgICAgICAgIGRpYWxvZy52aXNpYmlsaXR5RWRpdG9yLnZpc2liaWxpdHlWYWxpZGF0aW9uTWVzc2FnZSB8fAogICAgICAgICAgICBkaWFsb2cudmlzaWJpbGl0eUVkaXRvci52aXNpYmlsaXR5U3VtbWFyeQogICAgICAgICAgfX0KICAgICAgICA8L3NwYW4+CiAgICAgIDwvc3Bhbj4KICAgIDwvc3Bhbj4KICAgIDxDaGV2cm9uUmlnaHQgY2xhc3M9ImgtNCB3LTQgc2hyaW5rLTAgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogIDwvQnV0dG9uPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import {
+  AlertTriangle,
+  ChevronRight,
+  RefreshCw,
+  ShieldCheck,
+} from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
+import type { SubdomainMappingDialogProps } from "./subdomain-mapping-dialog-contract";
+
+defineProps<{ dialog: SubdomainMappingDialogProps }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <Alert
+    v-if="
+      !dialog.isMappingAuthService &&
+      dialog.visibilityEditor.globalVisibilityLoadError
+    "
+    variant="destructive"
+    class="items-start"
+  >
+    <AlertTriangle class="h-4 w-4" />
+    <AlertTitle>
+      {{ t("admin.subdomainProxy.visibilityLoadFailed") }}
+    </AlertTitle>
+    <AlertDescription class="space-y-3">
+      <p class="break-words">
+        {{ dialog.visibilityEditor.globalVisibilityLoadError }}
+      </p>
+      <Button
+        type="button"
+        variant="outline"
+        size="sm"
+        :disabled="dialog.visibilityEditor.isGlobalVisibilityLoading"
+        @click="dialog.visibilityEditor.loadGlobalVisibility"
+      >
+        <RefreshCw
+          class="mr-2 h-3.5 w-3.5"
+          :class="{
+            'animate-spin': dialog.visibilityEditor.isGlobalVisibilityLoading,
+          }"
+        />
+        {{ t("admin.subdomainProxy.retry") }}
+      </Button>
+    </AlertDescription>
+  </Alert>
+
+  <Button
+    v-if="dialog.visibilityEditor.visibilityAvailable"
+    type="button"
+    variant="outline"
+    class="h-auto w-full justify-between gap-3 px-4 py-3 text-left"
+    @click="dialog.visibilityEditor.openVisibilityView"
+  >
+    <span class="flex min-w-0 flex-1 items-start gap-3">
+      <ShieldCheck class="mt-0.5 h-4 w-4 text-muted-foreground" />
+      <span class="min-w-0 flex-1 space-y-1">
+        <span class="block text-sm font-medium">
+          {{ t("admin.subdomainProxy.visibilityTitle") }}
+        </span>
+        <span
+          class="block whitespace-normal break-words text-xs font-normal leading-5"
+          :class="
+            dialog.visibilityEditor.visibilityValidationMessage
+              ? 'text-destructive'
+              : 'text-muted-foreground'
+          "
+        >
+          {{
+            dialog.visibilityEditor.visibilityValidationMessage ||
+            dialog.visibilityEditor.visibilitySummary
+          }}
+        </span>
+      </span>
+    </span>
+    <ChevronRight class="h-4 w-4 shrink-0 text-muted-foreground" />
+  </Button>
+</template>

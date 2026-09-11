@@ -1,1 +1,59 @@
-aW1wb3J0IHR5cGUgewogIERpc2NvdmVyZWRTZXJ2aWNlSW5mbywKICBTY2FuRGlzY292ZXJSZXNwb25zZSwKfSBmcm9tICJAL2xpYi9hcGkvc2NhbiI7CmltcG9ydCB0eXBlIHsgSG9zdE1hcHBpbmcgfSBmcm9tICJAL3R5cGVzIjsKCmV4cG9ydCB7CiAgZm9ybWF0SG9zdE1hcHBpbmdBdmFpbGFiaWxpdHlXaW5kb3csCiAgZ2V0QXZhaWxhYmlsaXR5V2luZG93VmFsaWRhdGlvbkVycm9yLAogIGdldEhvc3RNYXBwaW5nQXZhaWxhYmlsaXR5U3RhdGUsCiAgaXNBdmFpbGFiaWxpdHlXaW5kb3dPcGVuLAogIGlzQXZhaWxhYmlsaXR5V2luZG93VmFsaWQsCiAgaXNIb3N0TWFwcGluZ1VuYXZhaWxhYmxlLAogIG5vcm1hbGl6ZUhvc3RNYXBwaW5nQXZhaWxhYmlsaXR5LAogIHBhcnNlQXZhaWxhYmlsaXR5VGltZVRvTWludXRlcywKICB0eXBlIEhvc3RNYXBwaW5nQXZhaWxhYmlsaXR5U3RhdGUsCn0gZnJvbSAiQC9saWIvaG9zdC1tYXBwaW5nLWF2YWlsYWJpbGl0eSI7CgpleHBvcnQgdHlwZSBNYXBwaW5nSW5wdXRNb2RlID0gInN1YmRvbWFpbiIgfCAiZnVsbF9ob3N0IjsKCmV4cG9ydCB0eXBlIERpc2NvdmVyZWRIb3N0U2VydmljZSA9IERpc2NvdmVyZWRTZXJ2aWNlSW5mbyAmIHsKICBzdWdnZXN0ZWRTdWJkb21haW46IHN0cmluZzsKfTsKCmV4cG9ydCB0eXBlIERpc2NvdmVyZWRIb3N0UmVzcG9uc2UgPSBPbWl0PFNjYW5EaXNjb3ZlclJlc3BvbnNlLCAic2VydmljZXMiPiAmIHsKICBzZXJ2aWNlczogRGlzY292ZXJlZEhvc3RTZXJ2aWNlW107Cn07CgpleHBvcnQgdHlwZSBFZGdlQ2xpZW50SXBQcm92aWRlciA9ICJhbGl5dW5fZXNhIiB8ICJ0ZW5jZW50X2VkZ2VvbmUiOwoKZXhwb3J0IGNvbnN0IERFRkFVTFRfQVVUSF9TVUJET01BSU4gPSAiYXV0aCI7CmV4cG9ydCBjb25zdCBERUZBVUxUX0FDQ0VTU19NT0RFOiBIb3N0TWFwcGluZ1siYWNjZXNzX21vZGUiXSA9ICJsb2dpbl9maXJzdCI7CmV4cG9ydCBjb25zdCBERUZBVUxUX1BST1RPQ09MX01PREU6IEhvc3RNYXBwaW5nWyJwcm90b2NvbF9tb2RlIl0gPSAiYXV0byI7CmV4cG9ydCBjb25zdCBERUZBVUxUX1RBUkdFVF9QQVRIX01PREU6IEhvc3RNYXBwaW5nWyJ0YXJnZXRfcGF0aF9tb2RlIl0gPQogICJlbnRyeSI7CmV4cG9ydCBjb25zdCBIT01FX0FTU0lTVEFOVF9UQVJHRVRfUE9SVCA9IDgxMjM7CgpleHBvcnQgdHlwZSBEZWxldGVEaWFsb2dTdGF0ZSA9CiAgfCB7CiAgICAgIGtpbmQ6ICJjbGVhcl9hbGwiOwogICAgICBzdGVwOiAxIHwgMjsKICAgIH0KICB8IHsKICAgICAga2luZDogIm1hcHBpbmciOwogICAgICBob3N0OiBzdHJpbmc7CiAgICB9OwoKZXhwb3J0IHR5cGUgVHJhbnNsYXRpb25QYXJhbXMgPSBSZWNvcmQ8c3RyaW5nLCBzdHJpbmcgfCBudW1iZXI+OwoKZXhwb3J0IGludGVyZmFjZSBUcmFuc2xhdGlvblNwZWMgewogIGtleTogc3RyaW5nOwogIHBhcmFtcz86IFRyYW5zbGF0aW9uUGFyYW1zOwp9CgpleHBvcnQgaW50ZXJmYWNlIERlbGV0ZURpYWxvZ0NvcHkgewogIHRpdGxlOiBUcmFuc2xhdGlvblNwZWM7CiAgZGVzY3JpcHRpb246IFRyYW5zbGF0aW9uU3BlYzsKICBjb25maXJtTGFiZWw6IFRyYW5zbGF0aW9uU3BlYzsKfQo=
+import type {
+  DiscoveredServiceInfo,
+  ScanDiscoverResponse,
+} from "@/lib/api/scan";
+import type { HostMapping } from "@/types";
+
+export {
+  formatHostMappingAvailabilityWindow,
+  getAvailabilityWindowValidationError,
+  getHostMappingAvailabilityState,
+  isAvailabilityWindowOpen,
+  isAvailabilityWindowValid,
+  isHostMappingUnavailable,
+  normalizeHostMappingAvailability,
+  parseAvailabilityTimeToMinutes,
+  type HostMappingAvailabilityState,
+} from "@/lib/host-mapping-availability";
+
+export type MappingInputMode = "subdomain" | "full_host";
+
+export type DiscoveredHostService = DiscoveredServiceInfo & {
+  suggestedSubdomain: string;
+};
+
+export type DiscoveredHostResponse = Omit<ScanDiscoverResponse, "services"> & {
+  services: DiscoveredHostService[];
+};
+
+export type EdgeClientIpProvider = "aliyun_esa" | "tencent_edgeone";
+
+export const DEFAULT_AUTH_SUBDOMAIN = "auth";
+export const DEFAULT_ACCESS_MODE: HostMapping["access_mode"] = "login_first";
+export const DEFAULT_PROTOCOL_MODE: HostMapping["protocol_mode"] = "auto";
+export const DEFAULT_TARGET_PATH_MODE: HostMapping["target_path_mode"] =
+  "entry";
+export const HOME_ASSISTANT_TARGET_PORT = 8123;
+
+export type DeleteDialogState =
+  | {
+      kind: "clear_all";
+      step: 1 | 2;
+    }
+  | {
+      kind: "mapping";
+      host: string;
+    };
+
+export type TranslationParams = Record<string, string | number>;
+
+export interface TranslationSpec {
+  key: string;
+  params?: TranslationParams;
+}
+
+export interface DeleteDialogCopy {
+  title: TranslationSpec;
+  description: TranslationSpec;
+  confirmLabel: TranslationSpec;
+}

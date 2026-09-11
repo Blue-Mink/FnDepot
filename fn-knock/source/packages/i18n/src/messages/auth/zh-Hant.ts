@@ -1,1 +1,162 @@
-aW1wb3J0IHsgemhDTkF1dGggfSBmcm9tICIuL3poLUNOIjsKCmV4cG9ydCBjb25zdCB6aEhhbnRBdXRoID0gewogIC4uLnpoQ05BdXRoLAogIGF1dG9JcEdyYW50Q29tbWVudDogIueZu+WFpeW+jOiHquWLleaOiOasiiIsCiAgdGl0bGU6ICLlronlhajpqZforYkiLAogIGNhcHRjaGFGaXJzdDogIuiri+WFiOWujOaIkOS4i+aWueeahOS6uuapn+mpl+itiSIsCiAgb3RwUHJvbXB0OiAi6KuL6Ly45YWl5oKo55qE5YWt5L2N5pW45YuV5oWL5a+G56K85a6M5oiQ55m75YWlIiwKICBwYXNzd29yZFByb21wdDogIuiri+i8uOWFpeS9v+eUqOiAheWQjeeoseWSjOWvhueivOWujOaIkOeZu+WFpSIsCiAgbGRhcFByb21wdDogIuiri+i8uOWFpSBMREFQIOW4s+iZn+WSjOWvhueivOWujOaIkOeZu+WFpSIsCiAgdmVyaWZpZWQ6ICLpqZforYnpgJrpgY4iLAogIHZlcmlmeWluZzogIuato+WcqOmpl+itiS4uLiIsCiAgdmVyaWZ5RXJyb3I6ICLpqZforYnpjK/oqqQiLAogIHR1cm5zdGlsZU1pc3Npbmc6ICLnlbbliY0gVHVybnN0aWxlIOacquWujOaIkOmFjee9ru+8jOiri+iBr+e1oeeuoeeQhuWToeWhq+WvqyBzaXRlIGtleeOAgiIsCiAgdHVybnN0aWxlU2NyaXB0TG9hZEZhaWxlZDogIlR1cm5zdGlsZSDohbPmnKzovInlhaXlpLHmlZciLAogIHR1cm5zdGlsZVJlbmRlckZhaWxlZDogIlR1cm5zdGlsZSDmuLLmn5PlpLHmlZfvvIzoq4vnqI3lvozph43oqaYiLAogIHR1cm5zdGlsZVRpbWVvdXQ6ICJUdXJuc3RpbGUg6amX6K2J6LaF5pmC77yM6KuL6YeN6KmmIiwKICBwb3dVbnN1cHBvcnRlZEFsZ29yaXRobTogIuS4jeaUr+aPtOeahCBQb1cg566X5rOVIiwKICBwb3dJbnZhbGlkQ2hhbGxlbmdlOiAiUG9XIGNoYWxsZW5nZSDmlbjmk5rnhKHmlYgiLAogIHBvd1NvbHZlRmFpbGVkOiAiUG9XIOaxguino+WkseaVl++8jOiri+WIt+aWsOmggemdouW+jOmHjeippiIsCiAgbG9jYXRpb25SZXNvbHZpbmc6ICLlsazlnLDop6PmnpDkuK0uLi4iLAogIGxvY2F0aW9uVW5hdmFpbGFibGU6ICLlsazlnLDmmqvmnKrnjbLlj5YiLAogIG9wZW5HaXRodWI6ICLmiZPplosgR2l0SHViIOmgheebrumggSIsCiAgbWVudTogIumBuOWWriIsCiAgbG9naW5XaXRoUHJvdmlkZXI6ICLkvb/nlKgge3Byb3ZpZGVyfSDnmbvlhaUiLAogIHJldHJ5QWZ0ZXJTZWNvbmRzOiAie3NlY29uZHN9IOenkuW+jOmHjeippiIsCiAgdmVyaWZ5Tm93OiAi56uL5Y2z6amX6K2JIiwKICBwYXNzd29yZExvZ2luOiAi5biz6Jmf5a+G56K855m75YWlIiwKICB0b3RwTG9naW46ICJUT1RQIOeZu+WFpSIsCiAgbGRhcExvZ2luOiAiTERBUCDnmbvlhaUiLAogIGxkYXBQcm92aWRlcjogIuebrumMhOaPkOS+m+WVhiIsCiAgbGRhcFByb3ZpZGVyUmVxdWlyZWQ6ICLoq4vpgbjmk4fnm67pjITmj5DkvpvllYYiLAogIGxkYXBVc2VybmFtZTogIkxEQVAg5L2/55So6ICF5ZCN56ixIiwKICBsZGFwUGFzc3dvcmQ6ICJMREFQIOWvhueivCIsCiAgdXNlcm5hbWU6ICLkvb/nlKjogIXlkI3nqLEiLAogIHBhc3N3b3JkOiAi5a+G56K8IiwKICBzaG93UGFzc3dvcmQ6ICLpoa/npLrlr4bnorwiLAogIGhpZGVQYXNzd29yZDogIumaseiXj+WvhueivCIsCiAgdXNlcm5hbWVQYXNzd29yZFJlcXVpcmVkOiAi6KuL6Ly45YWl5L2/55So6ICF5ZCN56ix5ZKM5a+G56K8IiwKICBwYXNza2V5TG9naW46ICJQYXNza2V5IOS4gOmNteeZu+WFpSIsCiAgcmVtZW1iZXJNZTogIuiomOS9j+aIkSIsCiAgcGFzc2tleUJpbmRUaXRsZTogIumWi+WVnyBQYXNza2V5IOS4gOmNteeZu+WFpSIsCiAgcGFzc2tleUJpbmREZXNjcmlwdGlvbjoKICAgICLmmK/lkKblnKjnm67liY3oo53nva7kuIrntoHlrpogUGFzc2tlee+8n+e2geWumuW+jOWPr+ebtOaOpeS4gOmNteeZu+WFpeOAgiIsCiAgcGFzc2tleUJpbmRTa2lwUHJvbXB0OiAi5LiN5YaN5o+Q6YaSIiwKICBwYXNza2V5QmluZExhdGVyOiAi56iN5b6M5YaN6KqqIiwKICBwYXNza2V5QmluZE5vdzogIueri+WNs+mWi+WVnyIsCiAgY2FwdGNoYUNvbmZpZ0xvYWRGYWlsZWQ6ICLpqZforYnnorzoqK3lrprovInlhaXlpLHmlZfvvIzoq4vliLfmlrDpoIHpnaLlvozph43oqabjgIIiLAogIGNhcHRjaGFGYWlsZWQ6ICLkurrmqZ/pqZforYnlpLHmlZfvvIzoq4vph43oqaYiLAogIGxvZ2dlZE91dExvZ2luSXBHcmFudDoKICAgICLnm67liY3ngI/opr3lmajmnIPoqbHlt7LpgIDlh7rvvIznmbvlhaXmmYLmjojkuojnmoTnm67liY0gSVAg6Kiq5ZWP5qyK6ZmQ5Lmf5bey5pKk6Yq344CCIiwKICBsb2dnZWRPdXRNYW51YWxXaGl0ZWxpc3Q6ICLnm67liY3ngI/opr3lmajmnIPoqbHlt7LpgIDlh7rjgILnrqHnkIblk6Hnmb3lkI3llq7ku43nhLbmnInmlYjjgIIiLAogIGxvZ2dlZE91dExvY2FsRXhlbXB0OiAi55uu5YmN54CP6Ka95Zmo5pyD6Kmx5bey6YCA5Ye644CC55uu5YmN57ay6Lev5LuN5bGs5pa85YWN55m95ZCN5Zau56+E5ZyN44CCIiwKICBsb2dnZWRPdXREZWZhdWx0OiAi55uu5YmN54CP6Ka95Zmo5pyD6Kmx5bey6YCA5Ye677yM6KuL6YeN5paw6amX6K2J44CCIiwKICByZWRpcmVjdExvb3BCbG9ja2VkOgogICAgIuWBtea4rOWIsOmpl+itiemggeiIh+ebruaomeacjeWLmeS5i+mWk+eZvOeUn+mHjeikh+i3s+i9ie+8jOW3suaaq+WBnOiHquWLlei3s+i9ieOAguiri+WcqOatpOmggemHjeaWsOmpl+itie+8jOmpl+itieaIkOWKn+W+jOWwh+e5vOe6jOWtmOWPluebruaomeacjeWLmeOAgiIsCiAgcmVkaXJlY3RUYXJnZXRCbG9ja2VkOgogICAgIueZu+WFpei3s+i9ieebruaomeeEoeaViOaIluaMh+WQkeebruWJjempl+itiemgge+8jOW3sumYu+atoumHjeikh+i3s+i9ieOAguiri+mHjeaWsOmWi+WVn+WOn+acjeWLme+8jOaIluiBr+e1oeeuoeeQhuWToeaqouafpeeZu+WFpeWbnui3s+ioreWumuOAgiIsCiAgcmV0cnlTdWZmaXg6ICLvvIzoq4vlnKgge3NlY29uZHN9IOenkuW+jOmHjeippiIsCiAgaW52YWxpZE90cExlbmd0aDogIuiri+i8uOWFpeWujOaVtOeahCA2IOS9jei6q+S7vempl+itieeivCIsCiAgbG9naW5GYWlsZWQ6ICLpqZforYnlpLHmlZfvvIzoq4vph43oqaYiLAogIHBhc3NrZXlOb1Jlc3BvbnNlOiAi5pyq5Y+W5b6XIFBhc3NrZXkg5Zue5oeJIiwKICBwYXNza2V5VmVyaWZ5RmFpbGVkOiAiUGFzc2tleSDpqZforYnlpLHmlZciLAogIHBhc3NrZXlMb2dpbkZhaWxlZDogIlBhc3NrZXkg55m75YWl5aSx5pWX77yM6KuL6YeN6KmmIiwKICBvaWRjU3RhcnRGYWlsZWQ6ICLnhKHms5XnmbzotbflpJbpg6jnmbvlhaUiLAogIG9pZGNMb2dpbkZhaWxlZDogIuWklumDqOeZu+WFpeWkseaVl++8jOiri+mHjeippiIsCiAgcGFzc2tleUJpbmRJbnZhbGlkOiAi57aB5a6a5oaR6K2J54Sh5pWI77yM6KuL6YeN5paw55m75YWlIiwKICBwYXNza2V5QmluZEZhaWxlZDogIlBhc3NrZXkg57aB5a6a5aSx5pWXIiwKICBwYXNza2V5Q3JlYXRlQ2FuY2VsbGVkOiAiUGFzc2tleSDlu7rnq4vmnKrlrozmiJDvvIzlj6/og73lt7Llj5bmtojmiJbpgL7mmYIiLAogIHBhc3NrZXlDcmVhdGVVbmF2YWlsYWJsZToKICAgICLns7vntbHnhKHms5Xlu7rnq4sgUGFzc2tleeOAguiri+eiuuiqjeW3suioreWumuieouW5lemOluWumuS4puWVn+eUqOWvhueivOeuoeeQhuWZqO+8jOeEtuW+jOmHjeippuOAgiIsCiAgcGFzc2tleUFscmVhZHlSZWdpc3RlcmVkOgogICAgIuebruWJjeijnee9ruaIluWvhueivOeuoeeQhuWZqOW3suacieatpCBQYXNza2V577yM5Y+v55u05o6l5L2/55So77yM54Sh6ZyA6YeN6KSH57aB5a6aIiwKICBob21lOiB7CiAgICBzdGF0dXNUaXRsZXM6IHsKICAgICAgYnJvd3NlclNlc3Npb246ICLnm67liY3ngI/opr3lmajmnIPoqbHlt7LpqZforYkiLAogICAgICBzZXNzaW9uTWlncmF0aW9uOiAi54CP6Ka95Zmo5pyD6Kmx5bey5oGi5b6pIiwKICAgICAgZm5vc0ZpbmdlcnByaW50U2Vzc2lvbjogIuijnee9ruaMh+e0i+acg+ipseW3suaBouW+qSIsCiAgICAgIG1hbnVhbFdoaXRlbGlzdDogIueZveWQjeWWruioquWVj+W3suaUvuihjCIsCiAgICAgIGxvY2FsRXhlbXB0OiAi55uu5YmN57ay6Lev5bey5pS+6KGMIiwKICAgICAgZm5vc1NoYXJlOiAi5YiG5Lqr6Kiq5ZWP5bey5o6I5qyKIiwKICAgICAgbG9naW5JcEdyYW50OiAi5a6J5YWo6amX6K2J5bey6YCa6YGOIiwKICAgIH0sCiAgICBzdGF0dXNEZXNjcmlwdGlvbnM6IHsKICAgICAgYnJvd3NlclNlc3Npb246ICLnm67liY3ngI/opr3lmajmnIPoqbHlt7LooqvlhYHoqLHoqKrllY8iLAogICAgICBzZXNzaW9uTWlncmF0aW9uOiAi55uu5YmN54CP6Ka95Zmo5pyD6Kmx5bey6Zqo57ay6Lev5YiH5o+b5oGi5b6p6Kiq5ZWPIiwKICAgICAgZm5vc0ZpbmdlcnByaW50U2Vzc2lvbjogIuebruWJjeioquWVj+W3sueUsemjm+eJm+ijnee9ruaMh+e0i+acg+ipseaBouW+qSIsCiAgICAgIG1hbnVhbFdoaXRlbGlzdDogIuebruWJjSBJUCDlt7LlnKjnrqHnkIblk6Hnmb3lkI3llq7kuK0iLAogICAgICBsb2NhbEV4ZW1wdDogIuebruWJjee2sui3r+WcsOWdgOWxrOaWvOWFjeeZveWQjeWWruevhOWcjSIsCiAgICAgIGZub3NTaGFyZTogIuebruWJjeioquWVj+eUsemjm+eJm+WIhuS6q+mPiOi3r+aOiOasiiIsCiAgICAgIGxvZ2luSXBHcmFudDogIuaCqOeahCBJUCDlt7LooqvmjojmrIroqKrllY8iLAogICAgfSwKICAgIGxvZ291dEhpbnRzOiB7CiAgICAgIGJyb3dzZXJTZXNzaW9uOgogICAgICAgICLlpoLmnpzkuI3lho3pnIDopoHoqKrllY/vvIzoq4vpu57mk4rkuIvmlrnmjInpiJXnmbvlh7rjgILnmbvlh7rlvoznm67liY3ngI/opr3lmajpnIDopoHph43mlrDpqZforYnmiY3og73lho3mrKHpgLLlhaXjgIIiLAogICAgICBzZXNzaW9uTWlncmF0aW9uOgogICAgICAgICLlpoLmnpzkuI3lho3pnIDopoHoqKrllY/vvIzoq4vpu57mk4rkuIvmlrnmjInpiJXnmbvlh7rjgILnmbvlh7rlvoznm67liY3ngI/opr3lmajpnIDopoHph43mlrDpqZforYnvvIzkuKbmnIPmkqTpirfmnKzmrKHmnIPoqbHpgbfnp7vpl5zoga/nmoTmjojmrIrjgIIiLAogICAgICBmbm9zRmluZ2VycHJpbnRTZXNzaW9uOgogICAgICAgICLlpoLmnpzkuI3lho3pnIDopoHoqKrllY/vvIzoq4vpu57mk4rkuIvmlrnmjInpiJXnmbvlh7rjgILnmbvlh7rlvoznm67liY3mgaLlvqnnmoToo53nva7mjIfntIvmnIPoqbHmnIPntZDmnZ/vvIzkuKbmkqTpirfpl5zoga/mjojmrIrjgIIiLAogICAgICBsb2dpbklwR3JhbnQ6CiAgICAgICAgIuWmguaenOS4jeWGjemcgOimgeioquWVj++8jOiri+m7nuaTiuS4i+aWueaMiemIleeZu+WHuuOAgueZu+WHuuW+jOebruWJjeeAj+imveWZqOacg+ipseacg+e1kOadn++8jOeZu+WFpeaZguaOiOS6iOeahOebruWJjSBJUCDoqKrllY/mrIrpmZDkuZ/mnIPkuIDkvbXmkqTpirfjgIIiLAogICAgICBtYW51YWxXaGl0ZWxpc3Q6CiAgICAgICAgIuWmguaenOS4jeWGjemcgOimgeioquWVj++8jOiri+m7nuaTiuS4i+aWueaMiemIleeZu+WHuuOAgueZu+WHuuWPquacg+e1kOadn+ebruWJjeeAj+imveWZqOacg+ipse+8jOeuoeeQhuWToeeZveWQjeWWruS4jeacg+iiq+enu+mZpOOAgiIsCiAgICAgIGxvY2FsRXhlbXB0OgogICAgICAgICLlpoLmnpzkuI3lho3pnIDopoHoqKrllY/vvIzoq4vpu57mk4rkuIvmlrnmjInpiJXnmbvlh7rjgILnmbvlh7rlj6rmnIPntZDmnZ/nm67liY3ngI/opr3lmajmnIPoqbHvvIzlhY3nmb3lkI3llq7ntrLot6/oqKrllY/nr4TlnI3kuI3mnIPmlLnororjgIIiLAogICAgICBmbm9zU2hhcmU6CiAgICAgICAgIuWmguaenOS4jeWGjemcgOimgeioquWVj++8jOiri+m7nuaTiuS4i+aWueaMiemIleeZu+WHuuOAgueZu+WHuuW+jOebruWJjeWIhuS6q+ioquWVj+acg+ipseacg+e1kOadn++8jOmcgOimgemHjeaWsOmAsuWFpeWIhuS6q+mPiOi3r+OAgiIsCiAgICAgIGRlZmF1bHQ6ICLlpoLmnpzkuI3lho3pnIDopoHoqKrllY/vvIzoq4vpu57mk4rkuIvmlrnmjInpiJXnmbvlh7rkuKbmkqTpirfmgqjnmoTmjojmrIrjgIIiLAogICAgfSwKICAgIGxvZ291dERpYWxvZ0Rlc2NyaXB0aW9uczogewogICAgICBicm93c2VyU2Vzc2lvbjoKICAgICAgICAi55m75Ye65b6M5bCH57WQ5p2f55uu5YmN54CP6Ka95Zmo5pyD6Kmx77yM6ZyA6KaB6YeN5paw6amX6K2J5b6M5omN6IO95YaN5qyh6YCy5YWl44CCIiwKICAgICAgc2Vzc2lvbk1pZ3JhdGlvbjoKICAgICAgICAi55m75Ye65b6M5bCH57WQ5p2f55uu5YmN54CP6Ka95Zmo5pyD6Kmx77yM5Lim5pKk6Yq35pys5qyh5pyD6Kmx6YG356e76Zec6IGv55qE5o6I5qyK44CCIiwKICAgICAgZm5vc0ZpbmdlcnByaW50U2Vzc2lvbjoKICAgICAgICAi55m75Ye65b6M5bCH57WQ5p2f55uu5YmN5oGi5b6p55qE6KOd572u5oyH57SL5pyD6Kmx77yM5Lim5pKk6Yq36Zec6IGv5o6I5qyK44CCIiwKICAgICAgbG9naW5JcEdyYW50OgogICAgICAgICLnmbvlh7rlvozlsIfntZDmnZ/nm67liY3ngI/opr3lmajmnIPoqbHvvIzkuKbmkqTpirfpgJnmrKHnmbvlhaXmjojkuojnmoTnm67liY0gSVAg6Kiq5ZWP5qyK6ZmQ44CCIiwKICAgICAgbWFudWFsV2hpdGVsaXN0OgogICAgICAgICLnmbvlh7rlvozlj6rmnIPntZDmnZ/nm67liY3ngI/opr3lmajmnIPoqbHvvIznrqHnkIblk6HphY3nva7nmoTnmb3lkI3llq7kuI3mnIPooqvnp7vpmaTjgIIiLAogICAgICBsb2NhbEV4ZW1wdDoKICAgICAgICAi55m75Ye65b6M5Y+q5pyD57WQ5p2f55uu5YmN54CP6Ka95Zmo5pyD6Kmx77yM55uu5YmN57ay6Lev55qE5YWN55m95ZCN5Zau5bGs5oCn5LiN5pyD5pS56K6K44CCIiwKICAgICAgZm5vc1NoYXJlOgogICAgICAgICLnmbvlh7rlvozlsIfntZDmnZ/nm67liY3liIbkuqvoqKrllY/mnIPoqbHvvIzlpoLpnIDlho3mrKHoqKrllY/oq4vph43mlrDpgLLlhaXliIbkuqvpj4jot6/jgIIiLAogICAgICBkZWZhdWx0OiAi55m75Ye65b6M5bCH5pKk6Yq355uu5YmN6Kiq5ZWP5o6I5qyK77yM6ZyA6KaB6YeN5paw6amX6K2J5b6M5omN6IO95YaN5qyh6YCy5YWl44CCIiwKICAgIH0sCiAgICBlbmFibGVQYXNza2V5OiAi6ZaL5ZWfIFBhc3NrZXkg5LiA6Y2155m75YWlIiwKICAgIHBhc3NrZXlTdXBwb3J0ZWRVbmJvdW5kOiAi55uu5YmN54CP6Ka95Zmo5pSv5o+0IFBhc3NrZXnvvIzkvYblsJrmnKrntoHlrpoiLAogICAgYWRkUGFzc2tleTogIuWGjeaWsOWinuS4gOWAiyBQYXNza2V5IiwKICAgIHBhc3NrZXlBdmFpbGFibGVBZGREZXZpY2U6CiAgICAgICLluLPomZ/lt7LmnIkgUGFzc2tlee+8m+iLpeebruWJjeijnee9ruWwmuacquWQjOatpe+8jOWPr+WGjeaWsOWinuS4gOWAiyIsCiAgICBsb2dvdXREZWxheTogIueZu+WHuuaMiemIleWwh+WcqCB7c2Vjb25kc30g56eS5b6M6aGv56S6IiwKICAgIGxvZ291dDogIueZu+WHuiIsCiAgICBsb2dvdXRDb25maXJtVGl0bGU6ICLnorroqo3nmbvlh7oiLAogICAgY29uZmlybUxvZ291dDogIueiuuiqjeeZu+WHuiIsCiAgICBwYXNza2V5VG9rZW5NaXNzaW5nOiAi54Sh5rOV5Y+W5b6X57aB5a6a5oaR6K2JIiwKICB9LAogIGxkYXBCaW5kOiB7CiAgICB0aXRsZTogIue2geWumiBMREFQIOW4s+iZnyIsCiAgICBkZXNjcmlwdGlvbjogIumpl+itiSBMREFQIOi6q+S7veS4pue2geWumuWIsOePvuaciSBUT1RQIOaGkeaTmiIsCiAgICBjaGVja2luZ0ludml0ZTogIuato+WcqOaqouafpemCgOiri+mAo+e1kC4uLiIsCiAgICBiaW5kVG86ICLntoHlrprliLAiLAogICAgbWlzc2luZ1Rva2VuOiAi6YKA6KuL6YCj57WQ57y65bCRIHRva2VuIiwKICAgIGludml0ZUV4cGlyZWQ6ICLpgoDoq4vpgKPntZDlt7LlpLHmlYgiLAogICAgYmluZE5vdzogIumpl+itieS4pue2geWumiIsCiAgICBiaW5kRmFpbGVkOiAiTERBUCDluLPomZ/ntoHlrprlpLHmlZfvvIzoq4vph43oqaYiLAogIH0sCiAgb2lkY0JpbmQ6IHsKICAgIHRpdGxlOiAi57aB5a6a5aSW6YOo5biz6JmfIiwKICAgIGNoZWNraW5nSW52aXRlOiAi5q2j5Zyo5qqi5p+l6YKA6KuL6YCj57WQLi4uIiwKICAgIGJpbmRUbzogIue2geWumuWIsCIsCiAgICB1c2VQcm92aWRlcjogIuS9v+eUqCB7cHJvdmlkZXJ9IOe2geWumiIsCiAgICBpbnZhbGlkSW52aXRlOiAi6YKA6KuL6YCj57WQ5LiN5Y+v55SoIiwKICAgIHdhaXQ6ICLoq4vnqI3lgJkiLAogICAgc2VsZWN0UHJvdmlkZXI6ICLpgbjmk4fkuIDlgIvmj5DkvpvllYblrozmiJDnmbvlhaXkuKbntoHlrpoiLAogICAgbWlzc2luZ1Rva2VuOiAi6YKA6KuL6YCj57WQ57y65bCRIHRva2VuIiwKICAgIG5vUHJvdmlkZXJzOiAi55uu5YmN5rKS5pyJ5Y+v55So55qE5aSW6YOo55m75YWl5o+Q5L6b5ZWGIiwKICAgIGludml0ZUV4cGlyZWQ6ICLpgoDoq4vpgKPntZDlt7LlpLHmlYgiLAogICAgc3RhcnRGYWlsZWQ6ICLnhKHms5XnmbzotbflpJbpg6jluLPomZ/ntoHlrpoiLAogICAgYmluZEZhaWxlZDogIuWklumDqOW4s+iZn+e2geWumuWkseaVl++8jOiri+mHjeippiIsCiAgfSwKfTsK
+import { zhCNAuth } from "./zh-CN";
+
+export const zhHantAuth = {
+  ...zhCNAuth,
+  autoIpGrantComment: "登入後自動授權",
+  title: "安全驗證",
+  captchaFirst: "請先完成下方的人機驗證",
+  otpPrompt: "請輸入您的六位數動態密碼完成登入",
+  passwordPrompt: "請輸入使用者名稱和密碼完成登入",
+  ldapPrompt: "請輸入 LDAP 帳號和密碼完成登入",
+  verified: "驗證通過",
+  verifying: "正在驗證...",
+  verifyError: "驗證錯誤",
+  turnstileMissing: "當前 Turnstile 未完成配置，請聯絡管理員填寫 site key。",
+  turnstileScriptLoadFailed: "Turnstile 腳本載入失敗",
+  turnstileRenderFailed: "Turnstile 渲染失敗，請稍後重試",
+  turnstileTimeout: "Turnstile 驗證超時，請重試",
+  powUnsupportedAlgorithm: "不支援的 PoW 算法",
+  powInvalidChallenge: "PoW challenge 數據無效",
+  powSolveFailed: "PoW 求解失敗，請刷新頁面後重試",
+  locationResolving: "屬地解析中...",
+  locationUnavailable: "屬地暫未獲取",
+  openGithub: "打開 GitHub 項目頁",
+  menu: "選單",
+  loginWithProvider: "使用 {provider} 登入",
+  retryAfterSeconds: "{seconds} 秒後重試",
+  verifyNow: "立即驗證",
+  passwordLogin: "帳號密碼登入",
+  totpLogin: "TOTP 登入",
+  ldapLogin: "LDAP 登入",
+  ldapProvider: "目錄提供商",
+  ldapProviderRequired: "請選擇目錄提供商",
+  ldapUsername: "LDAP 使用者名稱",
+  ldapPassword: "LDAP 密碼",
+  username: "使用者名稱",
+  password: "密碼",
+  showPassword: "顯示密碼",
+  hidePassword: "隱藏密碼",
+  usernamePasswordRequired: "請輸入使用者名稱和密碼",
+  passkeyLogin: "Passkey 一鍵登入",
+  rememberMe: "記住我",
+  passkeyBindTitle: "開啟 Passkey 一鍵登入",
+  passkeyBindDescription:
+    "是否在目前裝置上綁定 Passkey？綁定後可直接一鍵登入。",
+  passkeyBindSkipPrompt: "不再提醒",
+  passkeyBindLater: "稍後再說",
+  passkeyBindNow: "立即開啟",
+  captchaConfigLoadFailed: "驗證碼設定載入失敗，請刷新頁面後重試。",
+  captchaFailed: "人機驗證失敗，請重試",
+  loggedOutLoginIpGrant:
+    "目前瀏覽器會話已退出，登入時授予的目前 IP 訪問權限也已撤銷。",
+  loggedOutManualWhitelist: "目前瀏覽器會話已退出。管理員白名單仍然有效。",
+  loggedOutLocalExempt: "目前瀏覽器會話已退出。目前網路仍屬於免白名單範圍。",
+  loggedOutDefault: "目前瀏覽器會話已退出，請重新驗證。",
+  redirectLoopBlocked:
+    "偵測到驗證頁與目標服務之間發生重複跳轉，已暫停自動跳轉。請在此頁重新驗證，驗證成功後將繼續存取目標服務。",
+  redirectTargetBlocked:
+    "登入跳轉目標無效或指向目前驗證頁，已阻止重複跳轉。請重新開啟原服務，或聯絡管理員檢查登入回跳設定。",
+  retrySuffix: "，請在 {seconds} 秒後重試",
+  invalidOtpLength: "請輸入完整的 6 位身份驗證碼",
+  loginFailed: "驗證失敗，請重試",
+  passkeyNoResponse: "未取得 Passkey 回應",
+  passkeyVerifyFailed: "Passkey 驗證失敗",
+  passkeyLoginFailed: "Passkey 登入失敗，請重試",
+  oidcStartFailed: "無法發起外部登入",
+  oidcLoginFailed: "外部登入失敗，請重試",
+  passkeyBindInvalid: "綁定憑證無效，請重新登入",
+  passkeyBindFailed: "Passkey 綁定失敗",
+  passkeyCreateCancelled: "Passkey 建立未完成，可能已取消或逾時",
+  passkeyCreateUnavailable:
+    "系統無法建立 Passkey。請確認已設定螢幕鎖定並啟用密碼管理器，然後重試。",
+  passkeyAlreadyRegistered:
+    "目前裝置或密碼管理器已有此 Passkey，可直接使用，無需重複綁定",
+  home: {
+    statusTitles: {
+      browserSession: "目前瀏覽器會話已驗證",
+      sessionMigration: "瀏覽器會話已恢復",
+      fnosFingerprintSession: "裝置指紋會話已恢復",
+      manualWhitelist: "白名單訪問已放行",
+      localExempt: "目前網路已放行",
+      fnosShare: "分享訪問已授權",
+      loginIpGrant: "安全驗證已通過",
+    },
+    statusDescriptions: {
+      browserSession: "目前瀏覽器會話已被允許訪問",
+      sessionMigration: "目前瀏覽器會話已隨網路切換恢復訪問",
+      fnosFingerprintSession: "目前訪問已由飛牛裝置指紋會話恢復",
+      manualWhitelist: "目前 IP 已在管理員白名單中",
+      localExempt: "目前網路地址屬於免白名單範圍",
+      fnosShare: "目前訪問由飛牛分享鏈路授權",
+      loginIpGrant: "您的 IP 已被授權訪問",
+    },
+    logoutHints: {
+      browserSession:
+        "如果不再需要訪問，請點擊下方按鈕登出。登出後目前瀏覽器需要重新驗證才能再次進入。",
+      sessionMigration:
+        "如果不再需要訪問，請點擊下方按鈕登出。登出後目前瀏覽器需要重新驗證，並會撤銷本次會話遷移關聯的授權。",
+      fnosFingerprintSession:
+        "如果不再需要訪問，請點擊下方按鈕登出。登出後目前恢復的裝置指紋會話會結束，並撤銷關聯授權。",
+      loginIpGrant:
+        "如果不再需要訪問，請點擊下方按鈕登出。登出後目前瀏覽器會話會結束，登入時授予的目前 IP 訪問權限也會一併撤銷。",
+      manualWhitelist:
+        "如果不再需要訪問，請點擊下方按鈕登出。登出只會結束目前瀏覽器會話，管理員白名單不會被移除。",
+      localExempt:
+        "如果不再需要訪問，請點擊下方按鈕登出。登出只會結束目前瀏覽器會話，免白名單網路訪問範圍不會改變。",
+      fnosShare:
+        "如果不再需要訪問，請點擊下方按鈕登出。登出後目前分享訪問會話會結束，需要重新進入分享鏈路。",
+      default: "如果不再需要訪問，請點擊下方按鈕登出並撤銷您的授權。",
+    },
+    logoutDialogDescriptions: {
+      browserSession:
+        "登出後將結束目前瀏覽器會話，需要重新驗證後才能再次進入。",
+      sessionMigration:
+        "登出後將結束目前瀏覽器會話，並撤銷本次會話遷移關聯的授權。",
+      fnosFingerprintSession:
+        "登出後將結束目前恢復的裝置指紋會話，並撤銷關聯授權。",
+      loginIpGrant:
+        "登出後將結束目前瀏覽器會話，並撤銷這次登入授予的目前 IP 訪問權限。",
+      manualWhitelist:
+        "登出後只會結束目前瀏覽器會話，管理員配置的白名單不會被移除。",
+      localExempt:
+        "登出後只會結束目前瀏覽器會話，目前網路的免白名單屬性不會改變。",
+      fnosShare:
+        "登出後將結束目前分享訪問會話，如需再次訪問請重新進入分享鏈路。",
+      default: "登出後將撤銷目前訪問授權，需要重新驗證後才能再次進入。",
+    },
+    enablePasskey: "開啟 Passkey 一鍵登入",
+    passkeySupportedUnbound: "目前瀏覽器支援 Passkey，但尚未綁定",
+    addPasskey: "再新增一個 Passkey",
+    passkeyAvailableAddDevice:
+      "帳號已有 Passkey；若目前裝置尚未同步，可再新增一個",
+    logoutDelay: "登出按鈕將在 {seconds} 秒後顯示",
+    logout: "登出",
+    logoutConfirmTitle: "確認登出",
+    confirmLogout: "確認登出",
+    passkeyTokenMissing: "無法取得綁定憑證",
+  },
+  ldapBind: {
+    title: "綁定 LDAP 帳號",
+    description: "驗證 LDAP 身份並綁定到現有 TOTP 憑據",
+    checkingInvite: "正在檢查邀請連結...",
+    bindTo: "綁定到",
+    missingToken: "邀請連結缺少 token",
+    inviteExpired: "邀請連結已失效",
+    bindNow: "驗證並綁定",
+    bindFailed: "LDAP 帳號綁定失敗，請重試",
+  },
+  oidcBind: {
+    title: "綁定外部帳號",
+    checkingInvite: "正在檢查邀請連結...",
+    bindTo: "綁定到",
+    useProvider: "使用 {provider} 綁定",
+    invalidInvite: "邀請連結不可用",
+    wait: "請稍候",
+    selectProvider: "選擇一個提供商完成登入並綁定",
+    missingToken: "邀請連結缺少 token",
+    noProviders: "目前沒有可用的外部登入提供商",
+    inviteExpired: "邀請連結已失效",
+    startFailed: "無法發起外部帳號綁定",
+    bindFailed: "外部帳號綁定失敗，請重試",
+  },
+};

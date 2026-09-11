@@ -1,1 +1,213 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEFsZXJ0LCBBbGVydERlc2NyaXB0aW9uLCBBbGVydFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2FsZXJ0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IExvZ1ZpZXdlciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvTG9nVmlld2VyLnZ1ZSI7CmltcG9ydCBDb25maWdDb2xsYXBzaWJsZUNhcmQgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL0NvbmZpZ0NvbGxhcHNpYmxlQ2FyZC52dWUiOwppbXBvcnQgeyBMb2FkZXJDaXJjbGUsIFRyYXNoMiwgVHJpYW5nbGVBbGVydCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCBUdW5uZWxTdXBlcnZpc29yU3RhdHVzIGZyb20gIkAvY29tcG9uZW50cy9UdW5uZWxTdXBlcnZpc29yU3RhdHVzLnZ1ZSI7CmltcG9ydCBDbG91ZGZsYXJlQXBpQ29ubmVjdGlvbkNhcmQgZnJvbSAiLi9jbG91ZGZsYXJlL0Nsb3VkZmxhcmVBcGlDb25uZWN0aW9uQ2FyZC52dWUiOwppbXBvcnQgQ2xvdWRmbGFyZU1hbmFnZWRUdW5uZWxDYXJkIGZyb20gIi4vY2xvdWRmbGFyZS9DbG91ZGZsYXJlTWFuYWdlZFR1bm5lbENhcmQudnVlIjsKaW1wb3J0IENsb3VkZmxhcmVNYW51YWxDb25maWdDYXJkIGZyb20gIi4vY2xvdWRmbGFyZS9DbG91ZGZsYXJlTWFudWFsQ29uZmlnQ2FyZC52dWUiOwppbXBvcnQgQ2xvdWRmbGFyZU9wdGltaXphdGlvbkNhcmQgZnJvbSAiLi9jbG91ZGZsYXJlL0Nsb3VkZmxhcmVPcHRpbWl6YXRpb25DYXJkLnZ1ZSI7CmltcG9ydCB7IHVzZUNsb3VkZmxhcmVUdW5uZWxDb250cm9sbGVyIH0gZnJvbSAiLi9jbG91ZGZsYXJlL3VzZUNsb3VkZmxhcmVUdW5uZWxDb250cm9sbGVyIjsKCmNvbnN0IGNvbnRyb2xsZXIgPSB1c2VDbG91ZGZsYXJlVHVubmVsQ29udHJvbGxlcigpOwpjb25zdCB7CiAgY2FuU3RhcnQsCiAgY2FuU3RvcCwKICBjbG91ZGZsYXJlZEluc3RhbGxhdGlvblN0YXR1cywKICBjbG91ZGZsYXJlZExvZ0FuYWx5c2lzLAogIGNsb3VkZmxhcmVkTG9nQW5hbHlzaXNNZXNzYWdlLAogIGNsb3VkZmxhcmVkVGFyZ2V0VmVyc2lvbiwKICBjb25maWdMb2FkZWQsCiAgZ290b1Jlc291cmNlcywKICBoYXNTdWJkb21haW5Sb290LAogIGlzQ2xlYXJpbmdMb2dzLAogIGlzUmV2ZXJzZVByb3h5U3ViZG9tYWluTW9kZSwKICBpc1N0YXJ0aW5nLAogIGlzU3RvcHBpbmcsCiAgbG9ncywKICBvbkNsZWFyTG9nc0NsaWNrLAogIHBpZCwKICBydW5uaW5nLAogIHNob3dJbml0RGlhbG9nLAogIHN0YXJ0Q2xvdWRmbGFyZWQsCiAgc3RvcENsb3VkZmxhcmVkLAogIHN1cGVydmlzb3IsCiAgdCwKfSA9IGNvbnRyb2xsZXI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktNiI+CiAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgPGRpdj4KICAgICAgICA8aDIgY2xhc3M9InRleHQteGwgZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLnRpdGxlIikgfX0KICAgICAgICA8L2gyPgogICAgICAgIDxwIGNsYXNzPSJtdC0xIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwubWFuYWdlZC5wYWdlRGVzY3JpcHRpb24iKSB9fQogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXggZ2FwLTIiPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHYtaWY9IiFzdXBlcnZpc29yLmRlc2lyZWRSdW5uaW5nICYmICFzdXBlcnZpc29yLnJ1bm5pbmciCiAgICAgICAgICA6ZGlzYWJsZWQ9IiFjYW5TdGFydCB8fCBpc1N0YXJ0aW5nIgogICAgICAgICAgQGNsaWNrPSJzdGFydENsb3VkZmxhcmVkIgogICAgICAgID4KICAgICAgICAgIDxMb2FkZXJDaXJjbGUgdi1pZj0iaXNTdGFydGluZyIgY2xhc3M9Im1yLTIgc2l6ZS00IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwuc3RhcnQiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHYtZWxzZQogICAgICAgICAgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9IiFjYW5TdG9wIHx8IGlzU3RvcHBpbmciCiAgICAgICAgICBAY2xpY2s9InN0b3BDbG91ZGZsYXJlZCIKICAgICAgICA+CiAgICAgICAgICA8TG9hZGVyQ2lyY2xlIHYtaWY9ImlzU3RvcHBpbmciIGNsYXNzPSJtci0yIHNpemUtNCBhbmltYXRlLXNwaW4iIC8+CiAgICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLnN0b3AiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxBbGVydAogICAgICB2LWlmPSJjbG91ZGZsYXJlZEluc3RhbGxhdGlvblN0YXR1cyA9PT0gJ291dGRhdGVkJyIKICAgICAgY2xhc3M9Iml0ZW1zLXN0YXJ0IHJvdW5kZWQteGwgYm9yZGVyLWFtYmVyLTMwMCBiZy1hbWJlci01MCB0ZXh0LWFtYmVyLTk1MCBkYXJrOmJvcmRlci1hbWJlci04MDAgZGFyazpiZy1hbWJlci05NTAvMzAgZGFyazp0ZXh0LWFtYmVyLTEwMCIKICAgICAgZGF0YS10ZXN0aWQ9ImNsb3VkZmxhcmVkLW91dGRhdGVkLXdhcm5pbmciCiAgICA+CiAgICAgIDxUcmlhbmdsZUFsZXJ0IGNsYXNzPSJzaXplLTQgdGV4dC1hbWJlci03MDAiIC8+CiAgICAgIDxBbGVydFRpdGxlPgogICAgICAgIHt7CiAgICAgICAgICB0KAogICAgICAgICAgICBydW5uaW5nCiAgICAgICAgICAgICAgPyAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vdXRkYXRlZFJ1bm5pbmdUaXRsZSIKICAgICAgICAgICAgICA6ICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm91dGRhdGVkU3RvcHBlZFRpdGxlIiwKICAgICAgICAgICkKICAgICAgICB9fQogICAgICA8L0FsZXJ0VGl0bGU+CiAgICAgIDxBbGVydERlc2NyaXB0aW9uIGNsYXNzPSJzcGFjZS15LTMgdGV4dC1hbWJlci05MDAgZGFyazp0ZXh0LWFtYmVyLTEwMCI+CiAgICAgICAgPHA+CiAgICAgICAgICB7ewogICAgICAgICAgICB0KAogICAgICAgICAgICAgIHJ1bm5pbmcKICAgICAgICAgICAgICAgID8gImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3V0ZGF0ZWRSdW5uaW5nRGVzY3JpcHRpb24iCiAgICAgICAgICAgICAgICA6ICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm91dGRhdGVkU3RvcHBlZERlc2NyaXB0aW9uIiwKICAgICAgICAgICAgICB7IHZlcnNpb246IGNsb3VkZmxhcmVkVGFyZ2V0VmVyc2lvbiB9LAogICAgICAgICAgICApCiAgICAgICAgICB9fQogICAgICAgIDwvcD4KICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIHNpemU9InNtIiBAY2xpY2s9ImdvdG9SZXNvdXJjZXMiPgogICAgICAgICAge3sgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5nb1VwZGF0ZSIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvQWxlcnREZXNjcmlwdGlvbj4KICAgIDwvQWxlcnQ+CgogICAgPEFsZXJ0CiAgICAgIHYtaWY9IiFpc1JldmVyc2VQcm94eVN1YmRvbWFpbk1vZGUgfHwgIWhhc1N1YmRvbWFpblJvb3QiCiAgICAgIHZhcmlhbnQ9ImRlc3RydWN0aXZlIgogICAgICBjbGFzcz0iaXRlbXMtc3RhcnQgcm91bmRlZC14bCIKICAgID4KICAgICAgPFRyaWFuZ2xlQWxlcnQgY2xhc3M9InNpemUtNCIgLz4KICAgICAgPEFsZXJ0VGl0bGU+e3sKICAgICAgICB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLnJvb3RNaXNzaW5nVGl0bGUiKQogICAgICB9fTwvQWxlcnRUaXRsZT4KICAgICAgPEFsZXJ0RGVzY3JpcHRpb24+CiAgICAgICAge3sgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5yb290TWlzc2luZ0Rlc2NyaXB0aW9uIikgfX0KICAgICAgPC9BbGVydERlc2NyaXB0aW9uPgogICAgPC9BbGVydD4KCiAgICA8Q29uZmlnQ29sbGFwc2libGVDYXJkCiAgICAgIDp0aXRsZT0idCgnYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5ydW50aW1lU3RhdHVzJykiCiAgICAgIDpjb25maWd1cmVkPSJmYWxzZSIKICAgICAgOnJlYWR5PSJjb25maWdMb2FkZWQiCiAgICAgIDplZGl0LWxhYmVsPSJ0KCdhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm1hbmFnZWQudmlld0RldGFpbHMnKSIKICAgICAgY29sbGFwc2VkLWNvbnRlbnQtY2xhc3M9Im1pbi1oLVs3NnB4XSBmbGV4IGZsZXgtY29sIGl0ZW1zLXN0YXJ0IGdhcC0zIHNtOmgtWzQwcHhdIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgIHN1bW1hcnktY2xhc3M9Im1heC13LWZ1bGwiCiAgICAgIGV4cGFuZGVkLWNvbnRlbnQtY2xhc3M9InAtMCBzbTpwLTAiCiAgICA+CiAgICAgIDx0ZW1wbGF0ZSAjc3VtbWFyeT4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgICAgPFR1bm5lbFN1cGVydmlzb3JTdGF0dXMgOnN1cGVydmlzb3I9InN1cGVydmlzb3IiIGNvbXBhY3QgLz4KICAgICAgICAgIDxzcGFuIHYtaWY9InJ1bm5pbmcgJiYgcGlkIiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICBQSUQ6IHt7IHBpZCB9fQogICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgICA8L3RlbXBsYXRlPgoKICAgICAgPHRlbXBsYXRlICNkZWZhdWx0PgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktNCBwLTQgc206cC02Ij4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtMyI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLXN0YXJ0IGdhcC00IHRleHQtc20iPgogICAgICAgICAgICAgIDxUdW5uZWxTdXBlcnZpc29yU3RhdHVzIDpzdXBlcnZpc29yPSJzdXBlcnZpc29yIiAvPgogICAgICAgICAgICAgIDxzcGFuIHYtaWY9InJ1bm5pbmcgJiYgcGlkIj5QSUQ6IHt7IHBpZCB9fTwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNDbGVhcmluZ0xvZ3MgfHwgbG9ncy5sZW5ndGggPT09IDAiCiAgICAgICAgICAgICAgQGNsaWNrPSJvbkNsZWFyTG9nc0NsaWNrIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFRyYXNoMiBjbGFzcz0ibXItMSBzaXplLTMuNSIgLz4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLmNsZWFyIikgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxMb2dWaWV3ZXIgOmxvZ3M9ImxvZ3MiIHJldmVyc2VkIHdyYXAgOnNob3ctaGVhZGVyPSJmYWxzZSIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC90ZW1wbGF0ZT4KCiAgICAgIDx0ZW1wbGF0ZSAjYWN0aW9ucz0ieyBjb2xsYXBzZSB9Ij4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0iZmxleCBqdXN0aWZ5LWVuZCByb3VuZGVkLWItbGcgYm9yZGVyLXQgYmctbXV0ZWQvMzAgcC00IHNtOnB4LTYiCiAgICAgICAgPgogICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBAY2xpY2s9ImNvbGxhcHNlIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5jb2xsYXBzZSIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC90ZW1wbGF0ZT4KICAgIDwvQ29uZmlnQ29sbGFwc2libGVDYXJkPgoKICAgIDxBbGVydAogICAgICB2LWlmPSJjbG91ZGZsYXJlZExvZ0FuYWx5c2lzIgogICAgICB2YXJpYW50PSJkZXN0cnVjdGl2ZSIKICAgICAgY2xhc3M9Iml0ZW1zLXN0YXJ0IHJvdW5kZWQteGwiCiAgICA+CiAgICAgIDxUcmlhbmdsZUFsZXJ0IGNsYXNzPSJzaXplLTQiIC8+CiAgICAgIDxBbGVydFRpdGxlPnt7CiAgICAgICAgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC50bHNNaXNtYXRjaFRpdGxlIikKICAgICAgfX08L0FsZXJ0VGl0bGU+CiAgICAgIDxBbGVydERlc2NyaXB0aW9uPgogICAgICAgIDxwPnt7IGNsb3VkZmxhcmVkTG9nQW5hbHlzaXNNZXNzYWdlIH19PC9wPgogICAgICA8L0FsZXJ0RGVzY3JpcHRpb24+CiAgICA8L0FsZXJ0PgoKICAgIDxDbG91ZGZsYXJlQXBpQ29ubmVjdGlvbkNhcmQgOmNvbnRyb2xsZXI9ImNvbnRyb2xsZXIiIC8+CiAgICA8Q2xvdWRmbGFyZU1hbmFnZWRUdW5uZWxDYXJkIDpjb250cm9sbGVyPSJjb250cm9sbGVyIiAvPgogICAgPENsb3VkZmxhcmVPcHRpbWl6YXRpb25DYXJkIDpjb250cm9sbGVyPSJjb250cm9sbGVyIiAvPgogICAgPENsb3VkZmxhcmVNYW51YWxDb25maWdDYXJkIDpjb250cm9sbGVyPSJjb250cm9sbGVyIiAvPgoKICAgIDxEaWFsb2cgdi1tb2RlbDpvcGVuPSJzaG93SW5pdERpYWxvZyI+CiAgICAgIDxEaWFsb2dDb250ZW50PgogICAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgICA8RGlhbG9nVGl0bGU+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwubm90SW5pdGlhbGl6ZWRUaXRsZSIpIH19CiAgICAgICAgICA8L0RpYWxvZ1RpdGxlPgogICAgICAgIDwvRGlhbG9nSGVhZGVyPgogICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm5vdEluaXRpYWxpemVkRGVzY3JpcHRpb24iKSB9fQogICAgICAgIDwvcD4KICAgICAgICA8RGlhbG9nRm9vdGVyPgogICAgICAgICAgPEJ1dHRvbiBAY2xpY2s9ImdvdG9SZXNvdXJjZXMiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLmdvSW5pdGlhbGl6ZSIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgICAgPC9EaWFsb2dDb250ZW50PgogICAgPC9EaWFsb2c+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import LogViewer from "@admin-shared/components/LogViewer.vue";
+import ConfigCollapsibleCard from "@admin-shared/components/ConfigCollapsibleCard.vue";
+import { LoaderCircle, Trash2, TriangleAlert } from "lucide-vue-next";
+import TunnelSupervisorStatus from "@/components/TunnelSupervisorStatus.vue";
+import CloudflareApiConnectionCard from "./cloudflare/CloudflareApiConnectionCard.vue";
+import CloudflareManagedTunnelCard from "./cloudflare/CloudflareManagedTunnelCard.vue";
+import CloudflareManualConfigCard from "./cloudflare/CloudflareManualConfigCard.vue";
+import CloudflareOptimizationCard from "./cloudflare/CloudflareOptimizationCard.vue";
+import { useCloudflareTunnelController } from "./cloudflare/useCloudflareTunnelController";
+
+const controller = useCloudflareTunnelController();
+const {
+  canStart,
+  canStop,
+  cloudflaredInstallationStatus,
+  cloudflaredLogAnalysis,
+  cloudflaredLogAnalysisMessage,
+  cloudflaredTargetVersion,
+  configLoaded,
+  gotoResources,
+  hasSubdomainRoot,
+  isClearingLogs,
+  isReverseProxySubdomainMode,
+  isStarting,
+  isStopping,
+  logs,
+  onClearLogsClick,
+  pid,
+  running,
+  showInitDialog,
+  startCloudflared,
+  stopCloudflared,
+  supervisor,
+  t,
+} = controller;
+</script>
+
+<template>
+  <div class="space-y-6">
+    <div class="flex flex-wrap items-center justify-between gap-3">
+      <div>
+        <h2 class="text-xl font-semibold">
+          {{ t("admin.cloudflareTunnel.title") }}
+        </h2>
+        <p class="mt-1 text-sm text-muted-foreground">
+          {{ t("admin.cloudflareTunnel.managed.pageDescription") }}
+        </p>
+      </div>
+      <div class="flex gap-2">
+        <Button
+          v-if="!supervisor.desiredRunning && !supervisor.running"
+          :disabled="!canStart || isStarting"
+          @click="startCloudflared"
+        >
+          <LoaderCircle v-if="isStarting" class="mr-2 size-4 animate-spin" />
+          {{ t("admin.cloudflareTunnel.start") }}
+        </Button>
+        <Button
+          v-else
+          variant="destructive"
+          :disabled="!canStop || isStopping"
+          @click="stopCloudflared"
+        >
+          <LoaderCircle v-if="isStopping" class="mr-2 size-4 animate-spin" />
+          {{ t("admin.cloudflareTunnel.stop") }}
+        </Button>
+      </div>
+    </div>
+
+    <Alert
+      v-if="cloudflaredInstallationStatus === 'outdated'"
+      class="items-start rounded-xl border-amber-300 bg-amber-50 text-amber-950 dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-100"
+      data-testid="cloudflared-outdated-warning"
+    >
+      <TriangleAlert class="size-4 text-amber-700" />
+      <AlertTitle>
+        {{
+          t(
+            running
+              ? "admin.cloudflareTunnel.outdatedRunningTitle"
+              : "admin.cloudflareTunnel.outdatedStoppedTitle",
+          )
+        }}
+      </AlertTitle>
+      <AlertDescription class="space-y-3 text-amber-900 dark:text-amber-100">
+        <p>
+          {{
+            t(
+              running
+                ? "admin.cloudflareTunnel.outdatedRunningDescription"
+                : "admin.cloudflareTunnel.outdatedStoppedDescription",
+              { version: cloudflaredTargetVersion },
+            )
+          }}
+        </p>
+        <Button variant="outline" size="sm" @click="gotoResources">
+          {{ t("admin.cloudflareTunnel.goUpdate") }}
+        </Button>
+      </AlertDescription>
+    </Alert>
+
+    <Alert
+      v-if="!isReverseProxySubdomainMode || !hasSubdomainRoot"
+      variant="destructive"
+      class="items-start rounded-xl"
+    >
+      <TriangleAlert class="size-4" />
+      <AlertTitle>{{
+        t("admin.cloudflareTunnel.rootMissingTitle")
+      }}</AlertTitle>
+      <AlertDescription>
+        {{ t("admin.cloudflareTunnel.rootMissingDescription") }}
+      </AlertDescription>
+    </Alert>
+
+    <ConfigCollapsibleCard
+      :title="t('admin.cloudflareTunnel.runtimeStatus')"
+      :configured="false"
+      :ready="configLoaded"
+      :edit-label="t('admin.cloudflareTunnel.managed.viewDetails')"
+      collapsed-content-class="min-h-[76px] flex flex-col items-start gap-3 sm:h-[40px] sm:flex-row sm:items-center sm:justify-between"
+      summary-class="max-w-full"
+      expanded-content-class="p-0 sm:p-0"
+    >
+      <template #summary>
+        <div class="flex flex-wrap items-center gap-3">
+          <TunnelSupervisorStatus :supervisor="supervisor" compact />
+          <span v-if="running && pid" class="text-xs text-muted-foreground">
+            PID: {{ pid }}
+          </span>
+        </div>
+      </template>
+
+      <template #default>
+        <div class="space-y-4 p-4 sm:p-6">
+          <div class="flex flex-wrap items-start justify-between gap-3">
+            <div class="flex flex-wrap items-start gap-4 text-sm">
+              <TunnelSupervisorStatus :supervisor="supervisor" />
+              <span v-if="running && pid">PID: {{ pid }}</span>
+            </div>
+            <Button
+              variant="outline"
+              size="sm"
+              :disabled="isClearingLogs || logs.length === 0"
+              @click="onClearLogsClick"
+            >
+              <Trash2 class="mr-1 size-3.5" />
+              {{ t("admin.cloudflareTunnel.clear") }}
+            </Button>
+          </div>
+          <LogViewer :logs="logs" reversed wrap :show-header="false" />
+        </div>
+      </template>
+
+      <template #actions="{ collapse }">
+        <div
+          class="flex justify-end rounded-b-lg border-t bg-muted/30 p-4 sm:px-6"
+        >
+          <Button variant="outline" @click="collapse">
+            {{ t("admin.cloudflareTunnel.collapse") }}
+          </Button>
+        </div>
+      </template>
+    </ConfigCollapsibleCard>
+
+    <Alert
+      v-if="cloudflaredLogAnalysis"
+      variant="destructive"
+      class="items-start rounded-xl"
+    >
+      <TriangleAlert class="size-4" />
+      <AlertTitle>{{
+        t("admin.cloudflareTunnel.tlsMismatchTitle")
+      }}</AlertTitle>
+      <AlertDescription>
+        <p>{{ cloudflaredLogAnalysisMessage }}</p>
+      </AlertDescription>
+    </Alert>
+
+    <CloudflareApiConnectionCard :controller="controller" />
+    <CloudflareManagedTunnelCard :controller="controller" />
+    <CloudflareOptimizationCard :controller="controller" />
+    <CloudflareManualConfigCard :controller="controller" />
+
+    <Dialog v-model:open="showInitDialog">
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>
+            {{ t("admin.cloudflareTunnel.notInitializedTitle") }}
+          </DialogTitle>
+        </DialogHeader>
+        <p class="text-sm text-muted-foreground">
+          {{ t("admin.cloudflareTunnel.notInitializedDescription") }}
+        </p>
+        <DialogFooter>
+          <Button @click="gotoResources">
+            {{ t("admin.cloudflareTunnel.goInitialize") }}
+          </Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  </div>
+</template>

@@ -1,1 +1,89 @@
-aW1wb3J0IHR5cGUgeyBHYXRld2F5TG9nVHJhbnNsYXRvciB9IGZyb20gIi4vZ2F0ZXdheS1yZXF1ZXN0LWxvZy10eXBlcyI7CgpleHBvcnQgY29uc3QgZ2V0VG9kYXlTdHJpbmcgPSAoKSA9PiB7CiAgY29uc3Qgbm93ID0gbmV3IERhdGUoKTsKICBjb25zdCB5ZWFyID0gbm93LmdldEZ1bGxZZWFyKCk7CiAgY29uc3QgbW9udGggPSBTdHJpbmcobm93LmdldE1vbnRoKCkgKyAxKS5wYWRTdGFydCgyLCAiMCIpOwogIGNvbnN0IGRheSA9IFN0cmluZyhub3cuZ2V0RGF0ZSgpKS5wYWRTdGFydCgyLCAiMCIpOwogIHJldHVybiBgJHt5ZWFyfS0ke21vbnRofS0ke2RheX1gOwp9OwoKZXhwb3J0IGNvbnN0IExJTUlUX09QVElPTlMgPSBbIjEwIiwgIjIwIiwgIjUwIiwgIjEwMCJdIGFzIGNvbnN0OwoKZXhwb3J0IGNvbnN0IFNUQVRVU19GSUxURVJfT1BUSU9OUyA9IFsKICB7IHZhbHVlOiAiYWxsIiwgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3Muc3RhdHVzRmlsdGVycy5hbGwiIH0sCiAgewogICAgdmFsdWU6ICIyeHgiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3Muc3RhdHVzRmlsdGVycy5zdWNjZXNzMnh4IiwKICB9LAogIHsKICAgIHZhbHVlOiAiM3h4IiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLnN0YXR1c0ZpbHRlcnMucmVkaXJlY3QzeHgiLAogIH0sCiAgewogICAgdmFsdWU6ICI0eHgiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3Muc3RhdHVzRmlsdGVycy5jbGllbnQ0eHgiLAogIH0sCiAgewogICAgdmFsdWU6ICI1eHgiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3Muc3RhdHVzRmlsdGVycy5zZXJ2ZXI1eHgiLAogIH0sCiAgewogICAgdmFsdWU6ICI0MDEiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3Muc3RhdHVzRmlsdGVycy51bmF1dGhvcml6ZWQ0MDEiLAogIH0sCiAgewogICAgdmFsdWU6ICI0MDMiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3Muc3RhdHVzRmlsdGVycy5mb3JiaWRkZW40MDMiLAogIH0sCiAgewogICAgdmFsdWU6ICI0MDQiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3Muc3RhdHVzRmlsdGVycy5ub3RGb3VuZDQwNCIsCiAgfSwKICB7CiAgICB2YWx1ZTogIjUwMCIsCiAgICBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5zdGF0dXNGaWx0ZXJzLnNlcnZlckVycm9yNTAwIiwKICB9LAogIHsKICAgIHZhbHVlOiAiNTAyIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLnN0YXR1c0ZpbHRlcnMuYmFkR2F0ZXdheTUwMiIsCiAgfSwKICB7CiAgICB2YWx1ZTogIjUwMyIsCiAgICBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5zdGF0dXNGaWx0ZXJzLnVuYXZhaWxhYmxlNTAzIiwKICB9LApdIGFzIGNvbnN0OwoKZXhwb3J0IGNvbnN0IExPR0lOX0ZJTFRFUl9PUFRJT05TID0gWwogIHsgdmFsdWU6ICJhbGwiLCBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5sb2dpbkZpbHRlcnMuYWxsIiB9LAogIHsgdmFsdWU6ICJ0cnVlIiwgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MubG9naW5GaWx0ZXJzLmxvZ2dlZEluIiB9LAogIHsKICAgIHZhbHVlOiAiZmFsc2UiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MubG9naW5GaWx0ZXJzLm5vdExvZ2dlZEluIiwKICB9LApdIGFzIGNvbnN0OwoKZXhwb3J0IGNvbnN0IFdBRl9GSUxURVJfT1BUSU9OUyA9IFsKICB7IHZhbHVlOiAiYWxsIiwgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3Mud2FmRmlsdGVycy5hbGwiIH0sCiAgeyB2YWx1ZTogImhhc193YWYiLCBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy53YWZGaWx0ZXJzLmhhc1dhZiIgfSwKICB7IHZhbHVlOiAibm9uZSIsIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLndhZkZpbHRlcnMubm9uZSIgfSwKXSBhcyBjb25zdDsKCmV4cG9ydCBjb25zdCBVTlJFQ09SREVEX0NSRURFTlRJQUxfRklMVEVSID0gIl9fdW5yZWNvcmRlZF9fIjsKCmV4cG9ydCB0eXBlIEdhdGV3YXlTdGF0dXNGaWx0ZXJWYWx1ZSA9CiAgKHR5cGVvZiBTVEFUVVNfRklMVEVSX09QVElPTlMpW251bWJlcl1bInZhbHVlIl07CmV4cG9ydCB0eXBlIEdhdGV3YXlMb2dpbkZpbHRlclZhbHVlID0KICAodHlwZW9mIExPR0lOX0ZJTFRFUl9PUFRJT05TKVtudW1iZXJdWyJ2YWx1ZSJdOwpleHBvcnQgdHlwZSBHYXRld2F5V0FGRmlsdGVyVmFsdWUgPQogICh0eXBlb2YgV0FGX0ZJTFRFUl9PUFRJT05TKVtudW1iZXJdWyJ2YWx1ZSJdOwoKZXhwb3J0IGNvbnN0IGdldEdhdGV3YXlMb2dPcHRpb25MYWJlbCA9IDwKICBUT3B0aW9uIGV4dGVuZHMgeyB2YWx1ZTogc3RyaW5nOyBsYWJlbEtleTogc3RyaW5nIH0sCj4oCiAgb3B0aW9uczogcmVhZG9ubHkgVE9wdGlvbltdLAogIHZhbHVlOiBzdHJpbmcsCiAgZmFsbGJhY2tMYWJlbEtleTogc3RyaW5nLAogIHQ6IEdhdGV3YXlMb2dUcmFuc2xhdG9yLAopID0+CiAgdChvcHRpb25zLmZpbmQoKGl0ZW0pID0+IGl0ZW0udmFsdWUgPT09IHZhbHVlKT8ubGFiZWxLZXkgfHwgZmFsbGJhY2tMYWJlbEtleSk7Cg==
+import type { GatewayLogTranslator } from "./gateway-request-log-types";
+
+export const getTodayString = () => {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const day = String(now.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+};
+
+export const LIMIT_OPTIONS = ["10", "20", "50", "100"] as const;
+
+export const STATUS_FILTER_OPTIONS = [
+  { value: "all", labelKey: "admin.gatewayRequestLogs.statusFilters.all" },
+  {
+    value: "2xx",
+    labelKey: "admin.gatewayRequestLogs.statusFilters.success2xx",
+  },
+  {
+    value: "3xx",
+    labelKey: "admin.gatewayRequestLogs.statusFilters.redirect3xx",
+  },
+  {
+    value: "4xx",
+    labelKey: "admin.gatewayRequestLogs.statusFilters.client4xx",
+  },
+  {
+    value: "5xx",
+    labelKey: "admin.gatewayRequestLogs.statusFilters.server5xx",
+  },
+  {
+    value: "401",
+    labelKey: "admin.gatewayRequestLogs.statusFilters.unauthorized401",
+  },
+  {
+    value: "403",
+    labelKey: "admin.gatewayRequestLogs.statusFilters.forbidden403",
+  },
+  {
+    value: "404",
+    labelKey: "admin.gatewayRequestLogs.statusFilters.notFound404",
+  },
+  {
+    value: "500",
+    labelKey: "admin.gatewayRequestLogs.statusFilters.serverError500",
+  },
+  {
+    value: "502",
+    labelKey: "admin.gatewayRequestLogs.statusFilters.badGateway502",
+  },
+  {
+    value: "503",
+    labelKey: "admin.gatewayRequestLogs.statusFilters.unavailable503",
+  },
+] as const;
+
+export const LOGIN_FILTER_OPTIONS = [
+  { value: "all", labelKey: "admin.gatewayRequestLogs.loginFilters.all" },
+  { value: "true", labelKey: "admin.gatewayRequestLogs.loginFilters.loggedIn" },
+  {
+    value: "false",
+    labelKey: "admin.gatewayRequestLogs.loginFilters.notLoggedIn",
+  },
+] as const;
+
+export const WAF_FILTER_OPTIONS = [
+  { value: "all", labelKey: "admin.gatewayRequestLogs.wafFilters.all" },
+  { value: "has_waf", labelKey: "admin.gatewayRequestLogs.wafFilters.hasWaf" },
+  { value: "none", labelKey: "admin.gatewayRequestLogs.wafFilters.none" },
+] as const;
+
+export const UNRECORDED_CREDENTIAL_FILTER = "__unrecorded__";
+
+export type GatewayStatusFilterValue =
+  (typeof STATUS_FILTER_OPTIONS)[number]["value"];
+export type GatewayLoginFilterValue =
+  (typeof LOGIN_FILTER_OPTIONS)[number]["value"];
+export type GatewayWAFFilterValue =
+  (typeof WAF_FILTER_OPTIONS)[number]["value"];
+
+export const getGatewayLogOptionLabel = <
+  TOption extends { value: string; labelKey: string },
+>(
+  options: readonly TOption[],
+  value: string,
+  fallbackLabelKey: string,
+  t: GatewayLogTranslator,
+) =>
+  t(options.find((item) => item.value === value)?.labelKey || fallbackLabelKey);

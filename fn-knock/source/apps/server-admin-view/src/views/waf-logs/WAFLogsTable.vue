@@ -1,1 +1,283 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJhbiwgRXllLCBSb3V0ZSwgVW5sb2NrIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQ2hlY2tib3ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2hlY2tib3giOwppbXBvcnQgewogIFRhYmxlLAogIFRhYmxlQm9keSwKICBUYWJsZUNlbGwsCiAgVGFibGVIZWFkLAogIFRhYmxlSGVhZGVyLAogIFRhYmxlUm93LAp9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJsZSI7CmltcG9ydCBDb25maXJtRGFuZ2VyUG9wb3ZlciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0NvbmZpcm1EYW5nZXJQb3BvdmVyLnZ1ZSI7CmltcG9ydCBIdW1hbkZyaWVuZGx5VGltZSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0h1bWFuRnJpZW5kbHlUaW1lLnZ1ZSI7CmltcG9ydCB0eXBlIHsgV0FGRXZlbnQgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHR5cGUgeyBTZWxlY3RhYmxlV2FmTG9nRW50cnkgfSBmcm9tICIuL3VzZVdhZkxvZ0lwU2VsZWN0aW9uIjsKCmRlZmluZVByb3BzPHsKICBhY3Rpb25MYWJlbDogKHZhbHVlPzogc3RyaW5nKSA9PiBzdHJpbmc7CiAgYWN0aW9uVmFyaWFudDogKAogICAgdmFsdWU/OiBzdHJpbmcsCiAgKSA9PiAiZGVmYXVsdCIgfCAic2Vjb25kYXJ5IiB8ICJkZXN0cnVjdGl2ZSIgfCAib3V0bGluZSI7CiAgYmxvY2tJcHNGcm9tV2FmTG9nczogKGlwczogc3RyaW5nW10pID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwogIGVudHJpZXM6IFNlbGVjdGFibGVXYWZMb2dFbnRyeVtdOwogIGZvcm1hdFByaW1hcnlSdWxlSWQ6IChlbnRyeTogV0FGRXZlbnQpID0+IHN0cmluZzsKICBmb3JtYXRSdWxlTG9jYXRpb25TdW1tYXJ5OiAoZW50cnk6IFdBRkV2ZW50KSA9PiBzdHJpbmc7CiAgZm9ybWF0UnVsZVN1bW1hcnk6IChlbnRyeTogV0FGRXZlbnQpID0+IHN0cmluZzsKICBnZXRFbnRyeURpc3BsYXlJcDogKGVudHJ5OiBXQUZFdmVudCkgPT4gc3RyaW5nOwogIGdldEVudHJ5SXBMb2NhdGlvblRleHQ6IChlbnRyeTogV0FGRXZlbnQpID0+IHN0cmluZzsKICBoYXNTZWxlY3RhYmxlRGlzcGxheWVkUm93czogYm9vbGVhbjsKICBpc0FsbERpc3BsYXllZFJvd3NTZWxlY3RlZDogYm9vbGVhbjsKICBpc0dlbmVyYWxCbGFja2xpc3RlZDogKGlwOiBzdHJpbmcpID0+IGJvb2xlYW47CiAgaXNNdXRhdGluZ0JsYWNrbGlzdElwczogYm9vbGVhbjsKICBsb2FkaW5nOiBib29sZWFuOwogIG1vZGVMYWJlbDogKHZhbHVlPzogc3RyaW5nKSA9PiBzdHJpbmc7CiAgcmVsZWFzZUlwc0Zyb21XYWZMb2dzOiAoaXBzOiBzdHJpbmdbXSkgPT4gUHJvbWlzZTx2b2lkPiB8IHZvaWQ7CiAgcm91dGVUeXBlTGFiZWw6ICh2YWx1ZT86IHN0cmluZyB8IG51bGwpID0+IHN0cmluZzsKICBzZWxlY3RlZFdhZkVudHJ5S2V5czogU2V0PHN0cmluZz47CiAgdG9nZ2xlV2FmRW50cnlTZWxlY3Rpb246IChrZXk/OiBzdHJpbmcpID0+IHZvaWQ7CiAgdmlld0RldGFpbHM6IChlbnRyeTogV0FGRXZlbnQpID0+IHZvaWQ7Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICJ1cGRhdGU6aXNBbGxEaXNwbGF5ZWRSb3dzU2VsZWN0ZWQiOiBbdmFsdWU6IGJvb2xlYW5dOwp9PigpOwoKY29uc3QgeyBsb2NhbGUsIHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0ibWluLWgtMCBmbGV4LTEgb3ZlcmZsb3ctYXV0byI+CiAgICA8VGFibGUgY2xhc3M9Im1pbi13LVs4ODBweF0iPgogICAgICA8VGFibGVIZWFkZXIgY2xhc3M9InN0aWNreSB0b3AtMCB6LTEwIGJnLWJhY2tncm91bmQvOTUgYmFja2Ryb3AtYmx1ciI+CiAgICAgICAgPFRhYmxlUm93PgogICAgICAgICAgPFRhYmxlSGVhZAogICAgICAgICAgICBjbGFzcz0iaC0xMCB3LVs0OHB4XSBtaW4tdy1bNDhweF0gdGV4dC1bMTFweF0gZm9udC1tZWRpdW0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgPgogICAgICAgICAgICA8Q2hlY2tib3gKICAgICAgICAgICAgICA6bW9kZWwtdmFsdWU9ImlzQWxsRGlzcGxheWVkUm93c1NlbGVjdGVkIgogICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24uc2VsZWN0QWxsJykiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSIhaGFzU2VsZWN0YWJsZURpc3BsYXllZFJvd3MiCiAgICAgICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iCiAgICAgICAgICAgICAgICAodmFsdWUpID0+CiAgICAgICAgICAgICAgICAgIGVtaXQoJ3VwZGF0ZTppc0FsbERpc3BsYXllZFJvd3NTZWxlY3RlZCcsIEJvb2xlYW4odmFsdWUpKQogICAgICAgICAgICAgICIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgPFRhYmxlSGVhZAogICAgICAgICAgICBjbGFzcz0iaC0xMCB3LVszMjBweF0gbWluLXctWzMyMHB4XSBtYXgtdy1bMzIwcHhdIHRleHQtWzExcHhdIGZvbnQtbWVkaXVtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPnt7IHQoImFkbWluLndhZkxvZ3MucmVxdWVzdENvbHVtbiIpIH19PC9UYWJsZUhlYWQKICAgICAgICAgID4KICAgICAgICAgIDxUYWJsZUhlYWQKICAgICAgICAgICAgY2xhc3M9ImgtMTAgdGV4dC1bMTFweF0gZm9udC1tZWRpdW0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICA+e3sgdCgiYWRtaW4ud2FmTG9ncy5zb3VyY2VDb2x1bW4iKSB9fTwvVGFibGVIZWFkCiAgICAgICAgICA+CiAgICAgICAgICA8VGFibGVIZWFkCiAgICAgICAgICAgIGNsYXNzPSJoLTEwIG1pbi13LVsyMjBweF0gdGV4dC1bMTFweF0gZm9udC1tZWRpdW0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICA+e3sgdCgiYWRtaW4ud2FmTG9ncy5ydWxlc0NvbHVtbiIpIH19PC9UYWJsZUhlYWQKICAgICAgICAgID4KICAgICAgICAgIDxUYWJsZUhlYWQKICAgICAgICAgICAgY2xhc3M9InN0aWNreSByaWdodC0wIHotMjAgaC0xMCBiZy1iYWNrZ3JvdW5kLzk1IHByLTQgdGV4dC1yaWdodCB0ZXh0LVsxMXB4XSBmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgID57eyB0KCJhZG1pbi53YWZMb2dzLmFjdGlvbkNvbHVtbiIpIH19PC9UYWJsZUhlYWQKICAgICAgICAgID4KICAgICAgICA8L1RhYmxlUm93PgogICAgICA8L1RhYmxlSGVhZGVyPgogICAgICA8VGFibGVCb2R5PgogICAgICAgIDxUYWJsZVJvdyB2LWlmPSJsb2FkaW5nICYmIGVudHJpZXMubGVuZ3RoID09PSAwIj4KICAgICAgICAgIDxUYWJsZUNlbGwKICAgICAgICAgICAgY29sc3Bhbj0iNSIKICAgICAgICAgICAgY2xhc3M9InB5LTEwIHRleHQtY2VudGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4ud2FmTG9ncy5sb2FkaW5nIikgfX0KICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgPFRhYmxlUm93IHYtZWxzZS1pZj0iZW50cmllcy5sZW5ndGggPT09IDAiPgogICAgICAgICAgPFRhYmxlQ2VsbAogICAgICAgICAgICBjb2xzcGFuPSI1IgogICAgICAgICAgICBjbGFzcz0icHktMTAgdGV4dC1jZW50ZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi53YWZMb2dzLmVtcHR5IikgfX0KICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgPFRhYmxlUm93CiAgICAgICAgICB2LWVsc2UKICAgICAgICAgIHYtZm9yPSJlbnRyeSBpbiBlbnRyaWVzIgogICAgICAgICAgOmtleT0iZW50cnkuc2VsZWN0aW9uS2V5IgogICAgICAgICAgY2xhc3M9Imdyb3VwIGFsaWduLXRvcCIKICAgICAgICA+CiAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJweS0yLjUiPgogICAgICAgICAgICA8Q2hlY2tib3gKICAgICAgICAgICAgICA6bW9kZWwtdmFsdWU9InNlbGVjdGVkV2FmRW50cnlLZXlzLmhhcyhlbnRyeS5zZWxlY3Rpb25LZXkpIgogICAgICAgICAgICAgIDphcmlhLWxhYmVsPSIKICAgICAgICAgICAgICAgIHQoJ2NvbW1vbi5zZWxlY3RJdGVtJywgewogICAgICAgICAgICAgICAgICBpdGVtOiBlbnRyeS5hY3Rpb25JcCB8fCBlbnRyeS5zZWxlY3Rpb25LZXksCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9IiFlbnRyeS5hY3Rpb25JcCIKICAgICAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJ0b2dnbGVXYWZFbnRyeVNlbGVjdGlvbihlbnRyeS5zZWxlY3Rpb25LZXkpIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsCiAgICAgICAgICAgIGNsYXNzPSJ3LVszMjBweF0gbWluLXctWzMyMHB4XSBtYXgtdy1bMzIwcHhdIHdoaXRlc3BhY2Utbm9ybWFsIHB5LTIuNSIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xLjUiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgY2xhc3M9ImlubGluZS1mbGV4IGgtNSBzaHJpbmstMCBpdGVtcy1jZW50ZXIgcm91bmRlZC1mdWxsIGJnLW11dGVkIHB4LTIgdGV4dC1bMTFweF0gZm9udC1tZWRpdW0gbGVhZGluZy1ub25lIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPEh1bWFuRnJpZW5kbHlUaW1lIDp2YWx1ZT0iZW50cnkudGltZSIgOmxvY2FsZT0ibG9jYWxlIiAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8QmFkZ2UgOnZhcmlhbnQ9ImFjdGlvblZhcmlhbnQoZW50cnkuYWN0aW9uKSIgY2xhc3M9InNocmluay0wIj4KICAgICAgICAgICAgICAgICAge3sgYWN0aW9uTGFiZWwoZW50cnkuYWN0aW9uKSB9fQogICAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAgZmxleC0xIj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0iZm9udC1tb25vIHRleHQtWzExcHhdIHRyYWNraW5nLVswLjEyZW1dIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICB7eyBlbnRyeS5tZXRob2QgfHwgIi0iIH19CiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJtaW4tdy0wIGZsZXgtMSB0cnVuY2F0ZSI+e3sKICAgICAgICAgICAgICAgICAgICAgIGVudHJ5Lmhvc3QgfHwgIi0iCiAgICAgICAgICAgICAgICAgICAgfX08L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgY2xhc3M9IndoaXRlc3BhY2Utbm9ybWFsIGJyZWFrLWFsbCBmb250LW1vbm8gdGV4dC1bMTFweF0gbGVhZGluZy01IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7eyBlbnRyeS5yZXF1ZXN0X3VyaSB8fCBlbnRyeS5wYXRoIHx8ICItIiB9fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAteC0yIGdhcC15LTEiPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgIHt7IHJvdXRlVHlwZUxhYmVsKGVudHJ5LnJvdXRlX3R5cGUpIH19CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC1bMTFweF0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAge3sgbW9kZUxhYmVsKGVudHJ5Lm1vZGUpIH19CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICB2LWlmPSJlbnRyeS5zdGF0dXMiCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJmb250LW1vbm8gdGV4dC1bMTFweF0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICBIVFRQIHt7IGVudHJ5LnN0YXR1cyB9fQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgdi1pZj0iZW50cnkucm91dGVfa2V5IgogICAgICAgICAgICAgICAgICBjbGFzcz0iYnJlYWstYWxsIHRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZC83NSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAge3sgZW50cnkucm91dGVfa2V5IH19CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJtaW4tdy1bMTUwcHhdIHB5LTIuNSI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZvbnQtbW9ubyB0ZXh0LXNtIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAge3sgZ2V0RW50cnlEaXNwbGF5SXAoZW50cnkpIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgdi1pZj0iZ2V0RW50cnlJcExvY2F0aW9uVGV4dChlbnRyeSkiCiAgICAgICAgICAgICAgY2xhc3M9InRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IGdldEVudHJ5SXBMb2NhdGlvblRleHQoZW50cnkpIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJweS0yLjUiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmb250LW1vbm8gdGV4dC14cyB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IGZvcm1hdFByaW1hcnlSdWxlSWQoZW50cnkpIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgdi1pZj0iZm9ybWF0UnVsZVN1bW1hcnkoZW50cnkpIgogICAgICAgICAgICAgIGNsYXNzPSJtdC0xIGxpbmUtY2xhbXAtMiB0ZXh0LVsxMXB4XSBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgZm9ybWF0UnVsZVN1bW1hcnkoZW50cnkpIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgdi1pZj0iZm9ybWF0UnVsZUxvY2F0aW9uU3VtbWFyeShlbnRyeSkiCiAgICAgICAgICAgICAgY2xhc3M9Im10LTEgbGluZS1jbGFtcC0xIGJyZWFrLWFsbCBmb250LW1vbm8gdGV4dC1bMTBweF0gbGVhZGluZy00IHRleHQtbXV0ZWQtZm9yZWdyb3VuZC83NSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IGZvcm1hdFJ1bGVMb2NhdGlvblN1bW1hcnkoZW50cnkpIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsCiAgICAgICAgICAgIGNsYXNzPSJzdGlja3kgcmlnaHQtMCB6LTEwIGJnLWJhY2tncm91bmQgcHktMi41IHByLTQgdGV4dC1yaWdodCIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBqdXN0aWZ5LWVuZCBnYXAtMSI+CiAgICAgICAgICAgICAgPFJvdXRlckxpbmsKICAgICAgICAgICAgICAgIDp0bz0iYC90cmFjZXMvJHtlbmNvZGVVUklDb21wb25lbnQoZW50cnkudHJhY2VfaWQpfWAiCiAgICAgICAgICAgICAgICBjbGFzcz0iaW5saW5lLWZsZXggaC04IHctOCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1tZCB0ZXh0LW11dGVkLWZvcmVncm91bmQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctYWNjZW50IGhvdmVyOnRleHQtZm9yZWdyb3VuZCBmb2N1cy12aXNpYmxlOm91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMiBmb2N1cy12aXNpYmxlOnJpbmctcmluZyIKICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi50cmFjZS5vcGVuJykiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPFJvdXRlIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgIDwvUm91dGVyTGluaz4KICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBjbGFzcz0ib3BhY2l0eS02MCB0cmFuc2l0aW9uLW9wYWNpdHkgZ3JvdXAtaG92ZXI6b3BhY2l0eS0xMDAgZ3JvdXAtZm9jdXMtd2l0aGluOm9wYWNpdHktMTAwIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICAgICAgICAgICAgICA6dGl0bGU9IgogICAgICAgICAgICAgICAgICAgIGlzR2VuZXJhbEJsYWNrbGlzdGVkKGVudHJ5LmFjdGlvbklwKQogICAgICAgICAgICAgICAgICAgICAgPyB0KCdhZG1pbi53YWZMb2dzLnVuYmxhY2tsaXN0T25lVGl0bGUnKQogICAgICAgICAgICAgICAgICAgICAgOiB0KCdhZG1pbi53YWZMb2dzLmJsYWNrbGlzdE9uZVRpdGxlJykKICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICA6ZGVzY3JpcHRpb249IgogICAgICAgICAgICAgICAgICAgIGlzR2VuZXJhbEJsYWNrbGlzdGVkKGVudHJ5LmFjdGlvbklwKQogICAgICAgICAgICAgICAgICAgICAgPyB0KCdhZG1pbi53YWZMb2dzLnVuYmxhY2tsaXN0T25lRGVzY3JpcHRpb24nLCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgaXA6IGVudHJ5LmFjdGlvbklwIHx8ICctJywKICAgICAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgICAgIDogdCgnYWRtaW4ud2FmTG9ncy5ibGFja2xpc3RPbmVEZXNjcmlwdGlvbicsIHsKICAgICAgICAgICAgICAgICAgICAgICAgICBpcDogZW50cnkuYWN0aW9uSXAgfHwgJy0nLAogICAgICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICAgIDpsb2FkaW5nPSJpc011dGF0aW5nQmxhY2tsaXN0SXBzIgogICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9IiFlbnRyeS5hY3Rpb25JcCB8fCBpc011dGF0aW5nQmxhY2tsaXN0SXBzIgogICAgICAgICAgICAgICAgICA6b24tY29uZmlybT0iCiAgICAgICAgICAgICAgICAgICAgKCkgPT4KICAgICAgICAgICAgICAgICAgICAgIGlzR2VuZXJhbEJsYWNrbGlzdGVkKGVudHJ5LmFjdGlvbklwKQogICAgICAgICAgICAgICAgICAgICAgICA/IHJlbGVhc2VJcHNGcm9tV2FmTG9ncyhbZW50cnkuYWN0aW9uSXBdKQogICAgICAgICAgICAgICAgICAgICAgICA6IGJsb2NrSXBzRnJvbVdhZkxvZ3MoW2VudHJ5LmFjdGlvbklwXSkKICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8dGVtcGxhdGUgI3RyaWdnZXI+CiAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICAgICAgICBzaXplPSJpY29uIgogICAgICAgICAgICAgICAgICAgICAgY2xhc3M9ImgtOCB3LTgiCiAgICAgICAgICAgICAgICAgICAgICA6Y2xhc3M9IgogICAgICAgICAgICAgICAgICAgICAgICBpc0dlbmVyYWxCbGFja2xpc3RlZChlbnRyeS5hY3Rpb25JcCkKICAgICAgICAgICAgICAgICAgICAgICAgICA/ICd0ZXh0LWZvcmVncm91bmQgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kJwogICAgICAgICAgICAgICAgICAgICAgICAgIDogJ3RleHQtZGVzdHJ1Y3RpdmUgaG92ZXI6dGV4dC1kZXN0cnVjdGl2ZScKICAgICAgICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iIWVudHJ5LmFjdGlvbklwIHx8IGlzTXV0YXRpbmdCbGFja2xpc3RJcHMiCiAgICAgICAgICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0iCiAgICAgICAgICAgICAgICAgICAgICAgIGlzR2VuZXJhbEJsYWNrbGlzdGVkKGVudHJ5LmFjdGlvbklwKQogICAgICAgICAgICAgICAgICAgICAgICAgID8gdCgnYWRtaW4ud2FmTG9ncy51bmJsYWNrbGlzdE9uZScpCiAgICAgICAgICAgICAgICAgICAgICAgICAgOiB0KCdhZG1pbi53YWZMb2dzLmJsYWNrbGlzdE9uZScpCiAgICAgICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPFVubG9jawogICAgICAgICAgICAgICAgICAgICAgICB2LWlmPSJpc0dlbmVyYWxCbGFja2xpc3RlZChlbnRyeS5hY3Rpb25JcCkiCiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJoLTQgdy00IgogICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICAgIDxCYW4gdi1lbHNlIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgICAgICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICAgICAgICAgIHNpemU9Imljb24iCiAgICAgICAgICAgICAgICBjbGFzcz0iaC04IHctOCB0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2NvbW1vbi52aWV3RGV0YWlscycpIgogICAgICAgICAgICAgICAgQGNsaWNrPSJ2aWV3RGV0YWlscyhlbnRyeSkiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPEV5ZSBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICA8L1RhYmxlUm93PgogICAgICA8L1RhYmxlQm9keT4KICAgIDwvVGFibGU+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Ban, Eye, Route, Unlock } from "lucide-vue-next";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import type { WAFEvent } from "@/types";
+import type { SelectableWafLogEntry } from "./useWafLogIpSelection";
+
+defineProps<{
+  actionLabel: (value?: string) => string;
+  actionVariant: (
+    value?: string,
+  ) => "default" | "secondary" | "destructive" | "outline";
+  blockIpsFromWafLogs: (ips: string[]) => Promise<void> | void;
+  entries: SelectableWafLogEntry[];
+  formatPrimaryRuleId: (entry: WAFEvent) => string;
+  formatRuleLocationSummary: (entry: WAFEvent) => string;
+  formatRuleSummary: (entry: WAFEvent) => string;
+  getEntryDisplayIp: (entry: WAFEvent) => string;
+  getEntryIpLocationText: (entry: WAFEvent) => string;
+  hasSelectableDisplayedRows: boolean;
+  isAllDisplayedRowsSelected: boolean;
+  isGeneralBlacklisted: (ip: string) => boolean;
+  isMutatingBlacklistIps: boolean;
+  loading: boolean;
+  modeLabel: (value?: string) => string;
+  releaseIpsFromWafLogs: (ips: string[]) => Promise<void> | void;
+  routeTypeLabel: (value?: string | null) => string;
+  selectedWafEntryKeys: Set<string>;
+  toggleWafEntrySelection: (key?: string) => void;
+  viewDetails: (entry: WAFEvent) => void;
+}>();
+
+const emit = defineEmits<{
+  "update:isAllDisplayedRowsSelected": [value: boolean];
+}>();
+
+const { locale, t } = useI18n();
+</script>
+
+<template>
+  <div class="min-h-0 flex-1 overflow-auto">
+    <Table class="min-w-[880px]">
+      <TableHeader class="sticky top-0 z-10 bg-background/95 backdrop-blur">
+        <TableRow>
+          <TableHead
+            class="h-10 w-[48px] min-w-[48px] text-[11px] font-medium text-muted-foreground"
+          >
+            <Checkbox
+              :model-value="isAllDisplayedRowsSelected"
+              :aria-label="t('common.selectAll')"
+              :disabled="!hasSelectableDisplayedRows"
+              @update:model-value="
+                (value) =>
+                  emit('update:isAllDisplayedRowsSelected', Boolean(value))
+              "
+            />
+          </TableHead>
+          <TableHead
+            class="h-10 w-[320px] min-w-[320px] max-w-[320px] text-[11px] font-medium text-muted-foreground"
+            >{{ t("admin.wafLogs.requestColumn") }}</TableHead
+          >
+          <TableHead
+            class="h-10 text-[11px] font-medium text-muted-foreground"
+            >{{ t("admin.wafLogs.sourceColumn") }}</TableHead
+          >
+          <TableHead
+            class="h-10 min-w-[220px] text-[11px] font-medium text-muted-foreground"
+            >{{ t("admin.wafLogs.rulesColumn") }}</TableHead
+          >
+          <TableHead
+            class="sticky right-0 z-20 h-10 bg-background/95 pr-4 text-right text-[11px] font-medium text-muted-foreground"
+            >{{ t("admin.wafLogs.actionColumn") }}</TableHead
+          >
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        <TableRow v-if="loading && entries.length === 0">
+          <TableCell
+            colspan="5"
+            class="py-10 text-center text-muted-foreground"
+          >
+            {{ t("admin.wafLogs.loading") }}
+          </TableCell>
+        </TableRow>
+        <TableRow v-else-if="entries.length === 0">
+          <TableCell
+            colspan="5"
+            class="py-10 text-center text-muted-foreground"
+          >
+            {{ t("admin.wafLogs.empty") }}
+          </TableCell>
+        </TableRow>
+        <TableRow
+          v-else
+          v-for="entry in entries"
+          :key="entry.selectionKey"
+          class="group align-top"
+        >
+          <TableCell class="py-2.5">
+            <Checkbox
+              :model-value="selectedWafEntryKeys.has(entry.selectionKey)"
+              :aria-label="
+                t('common.selectItem', {
+                  item: entry.actionIp || entry.selectionKey,
+                })
+              "
+              :disabled="!entry.actionIp"
+              @update:model-value="toggleWafEntrySelection(entry.selectionKey)"
+            />
+          </TableCell>
+          <TableCell
+            class="w-[320px] min-w-[320px] max-w-[320px] whitespace-normal py-2.5"
+          >
+            <div class="space-y-1.5">
+              <div class="flex items-center gap-2">
+                <div
+                  class="inline-flex h-5 shrink-0 items-center rounded-full bg-muted px-2 text-[11px] font-medium leading-none text-muted-foreground"
+                >
+                  <HumanFriendlyTime :value="entry.time" :locale="locale" />
+                </div>
+                <Badge :variant="actionVariant(entry.action)" class="shrink-0">
+                  {{ actionLabel(entry.action) }}
+                </Badge>
+                <div class="min-w-0 flex-1">
+                  <div class="flex items-center gap-2 text-sm text-foreground">
+                    <span
+                      class="font-mono text-[11px] tracking-[0.12em] text-muted-foreground"
+                    >
+                      {{ entry.method || "-" }}
+                    </span>
+                    <span class="min-w-0 flex-1 truncate">{{
+                      entry.host || "-"
+                    }}</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="whitespace-normal break-all font-mono text-[11px] leading-5 text-muted-foreground"
+              >
+                {{ entry.request_uri || entry.path || "-" }}
+              </div>
+              <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+                <span class="text-[11px] text-muted-foreground">
+                  {{ routeTypeLabel(entry.route_type) }}
+                </span>
+                <span class="text-[11px] text-muted-foreground">
+                  {{ modeLabel(entry.mode) }}
+                </span>
+                <span
+                  v-if="entry.status"
+                  class="font-mono text-[11px] text-muted-foreground"
+                >
+                  HTTP {{ entry.status }}
+                </span>
+                <span
+                  v-if="entry.route_key"
+                  class="break-all text-[11px] text-muted-foreground/75"
+                >
+                  {{ entry.route_key }}
+                </span>
+              </div>
+            </div>
+          </TableCell>
+          <TableCell class="min-w-[150px] py-2.5">
+            <div class="font-mono text-sm text-foreground">
+              {{ getEntryDisplayIp(entry) }}
+            </div>
+            <div
+              v-if="getEntryIpLocationText(entry)"
+              class="text-[11px] text-muted-foreground"
+            >
+              {{ getEntryIpLocationText(entry) }}
+            </div>
+          </TableCell>
+          <TableCell class="py-2.5">
+            <div class="font-mono text-xs text-foreground">
+              {{ formatPrimaryRuleId(entry) }}
+            </div>
+            <div
+              v-if="formatRuleSummary(entry)"
+              class="mt-1 line-clamp-2 text-[11px] leading-5 text-muted-foreground"
+            >
+              {{ formatRuleSummary(entry) }}
+            </div>
+            <div
+              v-if="formatRuleLocationSummary(entry)"
+              class="mt-1 line-clamp-1 break-all font-mono text-[10px] leading-4 text-muted-foreground/75"
+            >
+              {{ formatRuleLocationSummary(entry) }}
+            </div>
+          </TableCell>
+          <TableCell
+            class="sticky right-0 z-10 bg-background py-2.5 pr-4 text-right"
+          >
+            <div class="flex justify-end gap-1">
+              <RouterLink
+                :to="`/traces/${encodeURIComponent(entry.trace_id)}`"
+                class="inline-flex h-8 w-8 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-accent hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                :aria-label="t('admin.trace.open')"
+              >
+                <Route class="h-4 w-4" />
+              </RouterLink>
+              <div
+                class="opacity-60 transition-opacity group-hover:opacity-100 group-focus-within:opacity-100"
+              >
+                <ConfirmDangerPopover
+                  :title="
+                    isGeneralBlacklisted(entry.actionIp)
+                      ? t('admin.wafLogs.unblacklistOneTitle')
+                      : t('admin.wafLogs.blacklistOneTitle')
+                  "
+                  :description="
+                    isGeneralBlacklisted(entry.actionIp)
+                      ? t('admin.wafLogs.unblacklistOneDescription', {
+                          ip: entry.actionIp || '-',
+                        })
+                      : t('admin.wafLogs.blacklistOneDescription', {
+                          ip: entry.actionIp || '-',
+                        })
+                  "
+                  :loading="isMutatingBlacklistIps"
+                  :disabled="!entry.actionIp || isMutatingBlacklistIps"
+                  :on-confirm="
+                    () =>
+                      isGeneralBlacklisted(entry.actionIp)
+                        ? releaseIpsFromWafLogs([entry.actionIp])
+                        : blockIpsFromWafLogs([entry.actionIp])
+                  "
+                >
+                  <template #trigger>
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      class="h-8 w-8"
+                      :class="
+                        isGeneralBlacklisted(entry.actionIp)
+                          ? 'text-foreground hover:text-foreground'
+                          : 'text-destructive hover:text-destructive'
+                      "
+                      :disabled="!entry.actionIp || isMutatingBlacklistIps"
+                      :aria-label="
+                        isGeneralBlacklisted(entry.actionIp)
+                          ? t('admin.wafLogs.unblacklistOne')
+                          : t('admin.wafLogs.blacklistOne')
+                      "
+                    >
+                      <Unlock
+                        v-if="isGeneralBlacklisted(entry.actionIp)"
+                        class="h-4 w-4"
+                      />
+                      <Ban v-else class="h-4 w-4" />
+                    </Button>
+                  </template>
+                </ConfirmDangerPopover>
+              </div>
+              <Button
+                variant="ghost"
+                size="icon"
+                class="h-8 w-8 text-muted-foreground hover:text-foreground"
+                :aria-label="t('common.viewDetails')"
+                @click="viewDetails(entry)"
+              >
+                <Eye class="h-4 w-4" />
+              </Button>
+            </div>
+          </TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+  </div>
+</template>

@@ -1,1 +1,31 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgeyBpc1N5bm9sb2d5Q2dpQXBpUGF0aCB9IGZyb20gIi4uL3NyYy9saWIvYXBpL3N5bm9sb2d5LWNnaSI7CgpkZXNjcmliZSgiU3lub2xvZ3kgQ0dJIG1ldGhvZCBvdmVycmlkZSBkZXRlY3Rpb24iLCAoKSA9PiB7CiAgaXQoImVuYWJsZXMgbWV0aG9kIG92ZXJyaWRlcyBmb3IgdGhlIFN5bm9sb2d5IHBhY2thZ2UgQ0dJIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKAogICAgICBpc1N5bm9sb2d5Q2dpQXBpUGF0aCgKICAgICAgICAiL3dlYm1hbi8zcmRwYXJ0eS9mbi1rbm9jay1zeW5vbG9neS9pbmRleC5jZ2kvYXBpL2FkbWluIiwKICAgICAgKSwKICAgICAgdHJ1ZSwKICAgICk7CiAgfSk7CgogIGl0KCJkb2VzIG5vdCBjaGFuZ2UgZm5PUyBGUEsgcmVxdWVzdHMiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGlzU3lub2xvZ3lDZ2lBcGlQYXRoKCIvY2dpL1RoaXJkUGFydHkvZm4ta25vY2svaW5kZXguY2dpL2FwaS9hZG1pbiIpLAogICAgICBmYWxzZSwKICAgICk7CiAgfSk7CgogIGl0KCJkb2VzIG5vdCBjaGFuZ2Ugb3JkaW5hcnkgb3Igc2ltaWxhcmx5IG5hbWVkIGFwcGxpY2F0aW9uIHBhdGhzIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKGlzU3lub2xvZ3lDZ2lBcGlQYXRoKCIvYXBpL2FkbWluIiksIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgaXNTeW5vbG9neUNnaUFwaVBhdGgoCiAgICAgICAgIi93ZWJtYW4vM3JkcGFydHkvbXktZm4ta25vY2stc3lub2xvZ3kvaW5kZXguY2dpL2FwaS9hZG1pbiIsCiAgICAgICksCiAgICAgIGZhbHNlLAogICAgKTsKICB9KTsKfSk7Cg==
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import { isSynologyCgiApiPath } from "../src/lib/api/synology-cgi";
+
+describe("Synology CGI method override detection", () => {
+  it("enables method overrides for the Synology package CGI", () => {
+    assert.equal(
+      isSynologyCgiApiPath(
+        "/webman/3rdparty/fn-knock-synology/index.cgi/api/admin",
+      ),
+      true,
+    );
+  });
+
+  it("does not change fnOS FPK requests", () => {
+    assert.equal(
+      isSynologyCgiApiPath("/cgi/ThirdParty/fn-knock/index.cgi/api/admin"),
+      false,
+    );
+  });
+
+  it("does not change ordinary or similarly named application paths", () => {
+    assert.equal(isSynologyCgiApiPath("/api/admin"), false);
+    assert.equal(
+      isSynologyCgiApiPath(
+        "/webman/3rdparty/my-fn-knock-synology/index.cgi/api/admin",
+      ),
+      false,
+    );
+  });
+});

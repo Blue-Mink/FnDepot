@@ -1,1 +1,9 @@
-ZXhwb3J0IHsKICBlbiwKICBqYUpQLAogIGtvS1IsCiAgbWVzc2FnZXMsCiAgemhDTiwKICB6aEhhbnQsCiAgdHlwZSBJMThuTWVzc2FnZVNjaGVtYSwKfSBmcm9tICIuL21lc3NhZ2VzIjsK
+export {
+  en,
+  jaJP,
+  koKR,
+  messages,
+  zhCN,
+  zhHant,
+  type I18nMessageSchema,
+} from "./messages";

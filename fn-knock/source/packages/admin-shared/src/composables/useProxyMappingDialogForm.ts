@@ -1,1 +1,75 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlYWN0aXZlLCByZWYgfSBmcm9tICd2dWUnOwppbXBvcnQgdHlwZSB7IFByb3h5TWFwcGluZ0ZpZWxkcyB9IGZyb20gJ0BhZG1pbi1zaGFyZWQvdXRpbHMvcHJveHlNYXBwaW5nJzsKCnR5cGUgUHJveHlNYXBwaW5nRm9ybVZhbHVlID0gUHJveHlNYXBwaW5nRmllbGRzICYgewogIHJld3JpdGVfaHRtbDogYm9vbGVhbjsKICB1c2VfYXV0aDogYm9vbGVhbjsKICB1c2Vfcm9vdF9tb2RlOiBib29sZWFuOwogIHN0cmlwX3BhdGg6IGJvb2xlYW47Cn07Cgp0eXBlIFByb3h5TWFwcGluZ0VkaXRhYmxlID0gUHJveHlNYXBwaW5nRmllbGRzICYgUGFydGlhbDxQaWNrPFByb3h5TWFwcGluZ0Zvcm1WYWx1ZSwgJ3Jld3JpdGVfaHRtbCcgfCAndXNlX2F1dGgnIHwgJ3VzZV9yb290X21vZGUnIHwgJ3N0cmlwX3BhdGgnPj47CgpleHBvcnQgY29uc3QgdXNlUHJveHlNYXBwaW5nRGlhbG9nRm9ybSA9IDxUIGV4dGVuZHMgUHJveHlNYXBwaW5nRWRpdGFibGU+KAogIGRlZmF1bHRGbGFnczogUGljazxQcm94eU1hcHBpbmdGb3JtVmFsdWUsICdyZXdyaXRlX2h0bWwnIHwgJ3VzZV9hdXRoJyB8ICd1c2Vfcm9vdF9tb2RlJyB8ICdzdHJpcF9wYXRoJz4sCikgPT4gewogIGNvbnN0IG9wZW4gPSByZWYoZmFsc2UpOwogIGNvbnN0IGlzRWRpdGluZyA9IHJlZihmYWxzZSk7CiAgY29uc3QgZWRpdGluZ09yaWdpbmFsID0gcmVmPFQgfCBudWxsPihudWxsKTsKICBjb25zdCBmb3JtID0gcmVhY3RpdmU8UHJveHlNYXBwaW5nRm9ybVZhbHVlPih7CiAgICBwYXRoOiAnJywKICAgIHRhcmdldDogJycsCiAgICAuLi5kZWZhdWx0RmxhZ3MsCiAgfSk7CgogIGNvbnN0IGlzVmFsaWQgPSBjb21wdXRlZCgoKSA9PiBmb3JtLnBhdGgudHJpbSgpICE9PSAnJyAmJiBmb3JtLnRhcmdldC50cmltKCkgIT09ICcnKTsKCiAgY29uc3QgcmVzZXRGb3JtID0gKCkgPT4gewogICAgZm9ybS5wYXRoID0gJyc7CiAgICBmb3JtLnRhcmdldCA9ICcnOwogICAgZm9ybS5yZXdyaXRlX2h0bWwgPSBkZWZhdWx0RmxhZ3MucmV3cml0ZV9odG1sOwogICAgZm9ybS51c2VfYXV0aCA9IGRlZmF1bHRGbGFncy51c2VfYXV0aDsKICAgIGZvcm0udXNlX3Jvb3RfbW9kZSA9IGRlZmF1bHRGbGFncy51c2Vfcm9vdF9tb2RlOwogICAgZm9ybS5zdHJpcF9wYXRoID0gZGVmYXVsdEZsYWdzLnN0cmlwX3BhdGg7CiAgfTsKCiAgY29uc3Qgb3BlbkFkZCA9ICgpID0+IHsKICAgIGlzRWRpdGluZy52YWx1ZSA9IGZhbHNlOwogICAgZWRpdGluZ09yaWdpbmFsLnZhbHVlID0gbnVsbDsKICAgIHJlc2V0Rm9ybSgpOwogICAgb3Blbi52YWx1ZSA9IHRydWU7CiAgfTsKCiAgY29uc3Qgb3BlbkVkaXQgPSAobWFwcGluZzogVCkgPT4gewogICAgaXNFZGl0aW5nLnZhbHVlID0gdHJ1ZTsKICAgIGVkaXRpbmdPcmlnaW5hbC52YWx1ZSA9IG1hcHBpbmc7CiAgICBmb3JtLnBhdGggPSBtYXBwaW5nLnBhdGg7CiAgICBmb3JtLnRhcmdldCA9IG1hcHBpbmcudGFyZ2V0OwogICAgZm9ybS5yZXdyaXRlX2h0bWwgPSAhIW1hcHBpbmcucmV3cml0ZV9odG1sOwogICAgZm9ybS51c2VfYXV0aCA9ICEhbWFwcGluZy51c2VfYXV0aDsKICAgIGZvcm0udXNlX3Jvb3RfbW9kZSA9ICEhbWFwcGluZy51c2Vfcm9vdF9tb2RlOwogICAgZm9ybS5zdHJpcF9wYXRoID0gISFtYXBwaW5nLnN0cmlwX3BhdGg7CiAgICBvcGVuLnZhbHVlID0gdHJ1ZTsKICB9OwoKICBjb25zdCBjbG9zZSA9IChyZXNldCA9IGZhbHNlKSA9PiB7CiAgICBvcGVuLnZhbHVlID0gZmFsc2U7CiAgICBpZiAocmVzZXQpIHsKICAgICAgaXNFZGl0aW5nLnZhbHVlID0gZmFsc2U7CiAgICAgIGVkaXRpbmdPcmlnaW5hbC52YWx1ZSA9IG51bGw7CiAgICAgIHJlc2V0Rm9ybSgpOwogICAgfQogIH07CgogIHJldHVybiB7CiAgICBvcGVuLAogICAgaXNFZGl0aW5nLAogICAgZWRpdGluZ09yaWdpbmFsLAogICAgZm9ybSwKICAgIGlzVmFsaWQsCiAgICBvcGVuQWRkLAogICAgb3BlbkVkaXQsCiAgICBjbG9zZSwKICAgIHJlc2V0Rm9ybSwKICB9Owp9Owo=
+import { computed, reactive, ref } from 'vue';
+import type { ProxyMappingFields } from '@admin-shared/utils/proxyMapping';
+
+type ProxyMappingFormValue = ProxyMappingFields & {
+  rewrite_html: boolean;
+  use_auth: boolean;
+  use_root_mode: boolean;
+  strip_path: boolean;
+};
+
+type ProxyMappingEditable = ProxyMappingFields & Partial<Pick<ProxyMappingFormValue, 'rewrite_html' | 'use_auth' | 'use_root_mode' | 'strip_path'>>;
+
+export const useProxyMappingDialogForm = <T extends ProxyMappingEditable>(
+  defaultFlags: Pick<ProxyMappingFormValue, 'rewrite_html' | 'use_auth' | 'use_root_mode' | 'strip_path'>,
+) => {
+  const open = ref(false);
+  const isEditing = ref(false);
+  const editingOriginal = ref<T | null>(null);
+  const form = reactive<ProxyMappingFormValue>({
+    path: '',
+    target: '',
+    ...defaultFlags,
+  });
+
+  const isValid = computed(() => form.path.trim() !== '' && form.target.trim() !== '');
+
+  const resetForm = () => {
+    form.path = '';
+    form.target = '';
+    form.rewrite_html = defaultFlags.rewrite_html;
+    form.use_auth = defaultFlags.use_auth;
+    form.use_root_mode = defaultFlags.use_root_mode;
+    form.strip_path = defaultFlags.strip_path;
+  };
+
+  const openAdd = () => {
+    isEditing.value = false;
+    editingOriginal.value = null;
+    resetForm();
+    open.value = true;
+  };
+
+  const openEdit = (mapping: T) => {
+    isEditing.value = true;
+    editingOriginal.value = mapping;
+    form.path = mapping.path;
+    form.target = mapping.target;
+    form.rewrite_html = !!mapping.rewrite_html;
+    form.use_auth = !!mapping.use_auth;
+    form.use_root_mode = !!mapping.use_root_mode;
+    form.strip_path = !!mapping.strip_path;
+    open.value = true;
+  };
+
+  const close = (reset = false) => {
+    open.value = false;
+    if (reset) {
+      isEditing.value = false;
+      editingOriginal.value = null;
+      resetForm();
+    }
+  };
+
+  return {
+    open,
+    isEditing,
+    editingOriginal,
+    form,
+    isValid,
+    openAdd,
+    openEdit,
+    close,
+    resetForm,
+  };
+};

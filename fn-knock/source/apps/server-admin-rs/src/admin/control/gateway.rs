@@ -1,1 +1,37 @@
-dXNlIHNlcmRlX2pzb246OlZhbHVlOwoKdXNlIGNyYXRlOjp7CiAgICBwcm94eV9jb25maWc6OntzZWxmLCBidWlsZF9nYXRld2F5X2F1dGhfY29uZmlnfSwKICAgIHN0YXRlOjpBcHBTdGF0ZSwKfTsKCnB1YihzdXBlcikgYXN5bmMgZm4gcmVmcmVzaF9nYXRld2F5X2F1dGhfcnVudGltZShzdGF0ZTogJkFwcFN0YXRlKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgcHJveHlfY29uZmlnOjp3aXRoX2hvc3RfbWFwcGluZ3NfcnVudGltZV90cmFuc2FjdGlvbihzdGF0ZSwgfHN0YXRlfCBhc3luYyBtb3ZlIHsKICAgICAgICBsZXQgY29uZmlnID0gc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5nZXRfY29uZmlnKCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgICAgICBsZXQgYXV0aF9jb25maWcgPSBidWlsZF9nYXRld2F5X2F1dGhfY29uZmlnKCZjb25maWcpOwogICAgICAgIGVuc3VyZV9nb19zdWNjZXNzKAogICAgICAgICAgICBzdGF0ZQogICAgICAgICAgICAgICAgLmdhdGV3YXkKICAgICAgICAgICAgICAgIC5jbGllbnQKICAgICAgICAgICAgICAgIC5zZXRfYXV0aF9jb25maWcoJmF1dGhfY29uZmlnKQogICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT8sCiAgICAgICAgKQogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpCiAgICB9KQogICAgLmF3YWl0CiAgICAubWFwX2Vycihhbnlob3c6OkVycm9yOjptc2cpCn0KCnB1YihzdXBlcikgZm4gZW5zdXJlX2dvX3N1Y2Nlc3ModmFsdWU6IFZhbHVlKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgY3JhdGU6OmdvX2JhY2tlbmQ6OmVuc3VyZV9yZXNwb25zZV9zdWNjZXNzKAogICAgICAgICZ2YWx1ZSwKICAgICAgICAiR28gYmFja2VuZCByZXR1cm5lZCBhbiB1bnN1Y2Nlc3NmdWwgcmVzcG9uc2UiLAogICAgKQogICAgLm1hcF9lcnIoYW55aG93OjpFcnJvcjo6bXNnKQp9Cg==
+use serde_json::Value;
+
+use crate::{
+    proxy_config::{self, build_gateway_auth_config},
+    state::AppState,
+};
+
+pub(super) async fn refresh_gateway_auth_runtime(state: &AppState) -> anyhow::Result<()> {
+    proxy_config::with_host_mappings_runtime_transaction(state, |state| async move {
+        let config = state
+            .storage
+            .store
+            .get_config()
+            .await
+            .map_err(|error| error.to_string())?;
+        let auth_config = build_gateway_auth_config(&config);
+        ensure_go_success(
+            state
+                .gateway
+                .client
+                .set_auth_config(&auth_config)
+                .await
+                .map_err(|error| error.to_string())?,
+        )
+        .map_err(|error| error.to_string())
+    })
+    .await
+    .map_err(anyhow::Error::msg)
+}
+
+pub(super) fn ensure_go_success(value: Value) -> anyhow::Result<()> {
+    crate::go_backend::ensure_response_success(
+        &value,
+        "Go backend returned an unsuccessful response",
+    )
+    .map_err(anyhow::Error::msg)
+}

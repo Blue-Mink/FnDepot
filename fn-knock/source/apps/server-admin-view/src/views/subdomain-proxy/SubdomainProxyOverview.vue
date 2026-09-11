@@ -1,1 +1,230 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBTY2FuRGlzY292ZXJ5SW50ZW5zaXR5RGlhbG9nIGZyb20gIkAvY29tcG9uZW50cy9TY2FuRGlzY292ZXJ5SW50ZW5zaXR5RGlhbG9nLnZ1ZSI7CmltcG9ydCB7IGRvY3NVcmxzIH0gZnJvbSAiLi4vLi4vbGliL2RvY3MiOwppbXBvcnQgU3ViZG9tYWluTWFwcGluZ3NDYXJkIGZyb20gIi4vU3ViZG9tYWluTWFwcGluZ3NDYXJkLnZ1ZSI7CmltcG9ydCBTdWJkb21haW5Nb2RlQ29uZmlnQ2FyZCBmcm9tICIuL1N1YmRvbWFpbk1vZGVDb25maWdDYXJkLnZ1ZSI7CmltcG9ydCB0eXBlIHsgU3ViZG9tYWluUHJveHlPdmVydmlld0NvbnRyb2xsZXIgfSBmcm9tICIuL3VzZVN1YmRvbWFpblByb3h5UGFnZSI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsgY29udHJvbGxlcjogU3ViZG9tYWluUHJveHlPdmVydmlld0NvbnRyb2xsZXIgfT4oKTsKY29uc3QgewogIGFjdGl2ZURlZXBNb25pdG9ySG9zdHMsCiAgYWN0aXZlRWRnZUNsaWVudElwUHJvdmlkZXIsCiAgYWRkQXV0aFNlcnZpY2UsCiAgYXV0aFNlcnZpY2VNYXBwaW5nLAogIGF1dGhTZXJ2aWNlUHVibGljUG9ydCwKICBjYW5NYW5hZ2VOZXdNYXBwaW5ncywKICBjbGVhckRlZmF1bHRNYXBwaW5nLAogIGNvbmZpZ1N0b3JlLAogIGNvcHlNYXBwaW5nSG9zdCwKICBkaXNjb3ZlckJ1dHRvbkRpdmlkZXJDbGFzcywKICBkaXNjb3ZlckJ1dHRvblZhcmlhbnQsCiAgZHJhZ2dhYmxlVmlzaWJsZU1hcHBpbmdzLAogIGVkZ2VDbGllbnRJcFByb3ZpZGVyT3B0aW9ucywKICBleHBvcnRCb29rbWFya3MsCiAgZmlsdGVyZWRNYXBwaW5ncywKICBmb3JtYXRBdXRoU2VydmljZUhvc3RXaXRoUHVibGljUG9ydCwKICBmb3JtYXRBdmFpbGFiaWxpdHlXaW5kb3csCiAgZm9ybWF0SG9zdFdpdGhBY2Nlc3NFbnRyeVBvcnQsCiAgZ2V0QXZhaWxhYmlsaXR5U3RhdGUsCiAgZ2V0SG9zdFRyYWZmaWNTYW1wbGUsCiAgZ2V0TWFwcGluZ1RpdGxlRm9yRGlzcGxheSwKICBnbG9iYWxWaXNpYmlsaXR5RW5hYmxlZCwKICBnbG9iYWxXYWZFbmFibGVkLAogIGhhbmRsZU1hcHBpbmdTdGF0dXNUb29sdGlwT3BlbkNoYW5nZSwKICBoYW5kbGVNYXBwaW5nU3RhdHVzVG9vbHRpcFRyaWdnZXJDbGljaywKICBoYW5kbGVQcm90b2NvbEhlYWRlcnNXYXJuaW5nT3BlbkNoYW5nZSwKICBoYXNSZWd1bGFySG9zdE1hcHBpbmdzLAogIGhvc3RNYXBwaW5nR3JvdXBlZFZpZXcsCiAgaG9zdE1hcHBpbmdHcm91cHMsCiAgaXNBdXRoU2VydmljZVRhcmdldCwKICBpc0NsZWFyaW5nQWxsU3ViZG9tYWluQ29uZmlnLAogIGlzRGVmYXVsdERvbWFpbkF2YWlsYWJsZSwKICBpc0Rpc2NvdmVyaW5nLAogIGlzRWRnZUNsaWVudElQTW9kZUVkaXRhYmxlLAogIGlzRXhwb3J0aW5nQm9va21hcmtzLAogIGlzRmF2aWNvbkJyb2tlbiwKICBpc0dhdGV3YXlQb3J0YWxFbmFibGVkLAogIGlzTWFwcGluZ1N0YXR1c1Rvb2x0aXBPcGVuLAogIGlzTWFwcGluZ1VuYXZhaWxhYmxlLAogIGlzTW9kZURpcnR5LAogIGlzTW9kZVZhbGlkLAogIGlzUHJvdG9jb2xIZWFkZXJzV2FybmluZ09wZW4sCiAgaXNSZWZyZXNoaW5nVGl0bGVzLAogIGlzUm9vdERvbWFpblBlbmRpbmdTYXZlLAogIGlzU2F2aW5nTWFwcGluZ3MsCiAgaXNTYXZpbmdNb2RlLAogIGlzU2NhbkludGVuc2l0eURpYWxvZ09wZW4sCiAgaXNTdWJkb21haW5Nb2RlQ29uZmlndXJlZCwKICBpc1N5bmNpbmcsCiAgbWFya0Zhdmljb25Ccm9rZW4sCiAgbW9kZUZvcm0sCiAgbW92ZU1hcHBpbmdzVG9Hcm91cCwKICBvbWl0UHVibGljUG9ydENvbmZpZ3VyYXRpb24sCiAgb3BlbkFkdmFuY2VkQXV0aCwKICBvcGVuQmF0Y2hBdmFpbGFiaWxpdHksCiAgb3BlbkJhdGNoTXV0YXRpb24sCiAgb3BlbkF2YWlsYWJpbGl0eURpYWxvZywKICBvcGVuQ2xlYXJBbGxDb25maWdEaWFsb2csCiAgb3BlbkNyZWF0ZURpYWxvZywKICBvcGVuRGVlcE1vbml0b3IsCiAgb3BlbkRlbGV0ZU1hcHBpbmdEaWFsb2csCiAgb3BlbkRpc2NvdmVyRGlhbG9nLAogIG9wZW5FZGl0RGlhbG9nLAogIG9wZW5HYXRld2F5TG9jYXRpb25zLAogIG9wZW5Qcm90b2NvbEhlYWRlcnNXYXJuaW5nLAogIG9wZW5TdGFsZUNsZWFudXBEaWFsb2csCiAgb3BlblRhcmdldE9wdGltaXphdGlvbiwKICBvcGVuVG9nZ2xlTWFwcGluZ0RpYWxvZywKICByZWZyZXNoQWxsVGl0bGVzLAogIHJlbW92ZUF1dGhTZXJ2aWNlLAogIHJlc2V0TW9kZUZvcm0sCiAgcm9vdERvbWFpblZhbGlkYXRpb25NZXNzYWdlLAogIHNhdmVHcm91cGVkTWFwcGluZ09yZGVyLAogIHNhdmVNYXBwaW5nR3JvdXBzLAogIHNhdmVNYXBwaW5nT3JkZXIsCiAgc2F2ZU1vZGUsCiAgc2F2ZWRFZGdlQ2xpZW50SXBQcm92aWRlckxhYmVsLAogIHNhdmVkUm9vdERvbWFpbiwKICBzY2hlZHVsZUNsb3NlUHJvdG9jb2xIZWFkZXJzV2FybmluZywKICBzZWFyY2hRdWVyeSwKICBzZWxlY3RFZGdlQ2xpZW50SXBQcm92aWRlciwKICBzZXREZWZhdWx0TWFwcGluZywKICBzaG91bGRTaG93UHJvdG9jb2xIZWFkZXJzV2FybmluZywKICBzeW5jUm91dGVzLAogIHRvZ2dsZVByb3RvY29sSGVhZGVyc1dhcm5pbmcsCiAgdHJhZmZpY1JlYWx0aW1lU3RhdHMsCiAgdXBkYXRlSG9zdE1hcHBpbmdHcm91cGVkVmlldywKICB2aXNpYmxlTWFwcGluZ3MsCn0gPSBwcm9wcy5jb250cm9sbGVyOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJzcGFjZS15LTYiPgogICAgPFN1YmRvbWFpbk1vZGVDb25maWdDYXJkCiAgICAgIHYtbW9kZWw6YXV0aC1zZXJ2aWNlLXB1YmxpYy1wb3J0PSJhdXRoU2VydmljZVB1YmxpY1BvcnQiCiAgICAgIHYtbW9kZWw6ZWRnZS1jbGllbnQtaXAtZW5hYmxlZD0ibW9kZUZvcm0uZWRnZV9jbGllbnRfaXBfZW5hYmxlZCIKICAgICAgdi1tb2RlbDpyb290LWRvbWFpbj0ibW9kZUZvcm0ucm9vdF9kb21haW4iCiAgICAgIDphY3RpdmUtZWRnZS1jbGllbnQtaXAtcHJvdmlkZXI9ImFjdGl2ZUVkZ2VDbGllbnRJcFByb3ZpZGVyIgogICAgICA6YXV0aC1zZXJ2aWNlLW1hcHBpbmc9ImF1dGhTZXJ2aWNlTWFwcGluZyIKICAgICAgOmNvbmZpZ3VyZWQ9ImlzU3ViZG9tYWluTW9kZUNvbmZpZ3VyZWQiCiAgICAgIDpyZWFkeT0iIWNvbmZpZ1N0b3JlLmlzTG9hZGluZyIKICAgICAgOmVkZ2UtY2xpZW50LWlwLXByb3ZpZGVyLW9wdGlvbnM9ImVkZ2VDbGllbnRJcFByb3ZpZGVyT3B0aW9ucyIKICAgICAgOmZvcm1hdC1hdXRoLXNlcnZpY2UtaG9zdD0iZm9ybWF0QXV0aFNlcnZpY2VIb3N0V2l0aFB1YmxpY1BvcnQiCiAgICAgIDppcy1lZGdlLWNsaWVudC1pcC1tb2RlLWVkaXRhYmxlPSJpc0VkZ2VDbGllbnRJUE1vZGVFZGl0YWJsZSIKICAgICAgOmlzLW1vZGUtZGlydHk9ImlzTW9kZURpcnR5IgogICAgICA6aXMtbW9kZS12YWxpZD0iaXNNb2RlVmFsaWQiCiAgICAgIDppcy1zYXZpbmctbWFwcGluZ3M9ImlzU2F2aW5nTWFwcGluZ3MiCiAgICAgIDppcy1zYXZpbmctbW9kZT0iaXNTYXZpbmdNb2RlIgogICAgICA6b21pdC1wdWJsaWMtcG9ydC1jb25maWd1cmF0aW9uPSJvbWl0UHVibGljUG9ydENvbmZpZ3VyYXRpb24iCiAgICAgIDpyZW1vdmUtYXV0aC1zZXJ2aWNlPSJyZW1vdmVBdXRoU2VydmljZSIKICAgICAgOnJlc2V0LW1vZGUtZm9ybT0icmVzZXRNb2RlRm9ybSIKICAgICAgOnJvb3QtZG9tYWluLXZhbGlkYXRpb24tbWVzc2FnZT0icm9vdERvbWFpblZhbGlkYXRpb25NZXNzYWdlIgogICAgICA6c2F2ZS1tb2RlPSJzYXZlTW9kZSIKICAgICAgOnNhdmVkLWVkZ2UtY2xpZW50LWlwLXByb3ZpZGVyLWxhYmVsPSJzYXZlZEVkZ2VDbGllbnRJcFByb3ZpZGVyTGFiZWwiCiAgICAgIDpzYXZlZC1yb290LWRvbWFpbj0ic2F2ZWRSb290RG9tYWluIgogICAgICA6c2VsZWN0LWVkZ2UtY2xpZW50LWlwLXByb3ZpZGVyPSJzZWxlY3RFZGdlQ2xpZW50SXBQcm92aWRlciIKICAgIC8+CiAgICA8U3ViZG9tYWluTWFwcGluZ3NDYXJkCiAgICAgIHYtbW9kZWw6ZHJhZ2dhYmxlLW1hcHBpbmdzPSJkcmFnZ2FibGVWaXNpYmxlTWFwcGluZ3MiCiAgICAgIHYtbW9kZWw6c2VhcmNoLXF1ZXJ5PSJzZWFyY2hRdWVyeSIKICAgICAgOmFsbC1yZWd1bGFyLW1hcHBpbmdzPSJ2aXNpYmxlTWFwcGluZ3MiCiAgICAgIDphdXRoLXNlcnZpY2UtbWFwcGluZz0iYXV0aFNlcnZpY2VNYXBwaW5nIgogICAgICA6Y2FuLW1hbmFnZS1uZXctbWFwcGluZ3M9ImNhbk1hbmFnZU5ld01hcHBpbmdzIgogICAgICA6YWN0aXZlLWRlZXAtbW9uaXRvci1ob3N0cz0iYWN0aXZlRGVlcE1vbml0b3JIb3N0cyIKICAgICAgOmNhbi11c2UtZGVlcC1tb25pdG9yPSJjb25maWdTdG9yZS5jYW5Vc2VEZWVwTW9uaXRvciIKICAgICAgOmRpc2NvdmVyLWJ1dHRvbi1kaXZpZGVyLWNsYXNzPSJkaXNjb3ZlckJ1dHRvbkRpdmlkZXJDbGFzcyIKICAgICAgOmRpc2NvdmVyLWJ1dHRvbi12YXJpYW50PSJkaXNjb3ZlckJ1dHRvblZhcmlhbnQiCiAgICAgIDpkb2NzLWhyZWY9ImRvY3NVcmxzLmd1aWRlcy5zdWJkb21haW5Qcm94eSIKICAgICAgOmZpbHRlcmVkLW1hcHBpbmdzPSJmaWx0ZXJlZE1hcHBpbmdzIgogICAgICA6Zm9ybWF0LWF2YWlsYWJpbGl0eS13aW5kb3c9ImZvcm1hdEF2YWlsYWJpbGl0eVdpbmRvdyIKICAgICAgOmZvcm1hdC1ob3N0PSJmb3JtYXRIb3N0V2l0aEFjY2Vzc0VudHJ5UG9ydCIKICAgICAgOmdldC1hdmFpbGFiaWxpdHktc3RhdGU9ImdldEF2YWlsYWJpbGl0eVN0YXRlIgogICAgICA6Z2V0LWhvc3QtdHJhZmZpYy1zYW1wbGU9ImdldEhvc3RUcmFmZmljU2FtcGxlIgogICAgICA6Z2V0LW1hcHBpbmctdGl0bGUtZm9yLWRpc3BsYXk9ImdldE1hcHBpbmdUaXRsZUZvckRpc3BsYXkiCiAgICAgIDpnbG9iYWwtdmlzaWJpbGl0eS1lbmFibGVkPSJnbG9iYWxWaXNpYmlsaXR5RW5hYmxlZCIKICAgICAgOmdsb2JhbC13YWYtZW5hYmxlZD0iZ2xvYmFsV2FmRW5hYmxlZCIKICAgICAgOmdyb3VwZWQtdmlldz0iaG9zdE1hcHBpbmdHcm91cGVkVmlldyIKICAgICAgOmdyb3Vwcz0iaG9zdE1hcHBpbmdHcm91cHMiCiAgICAgIDpoYW5kbGUtbWFwcGluZy1zdGF0dXMtdG9vbHRpcC1vcGVuLWNoYW5nZT0iCiAgICAgICAgaGFuZGxlTWFwcGluZ1N0YXR1c1Rvb2x0aXBPcGVuQ2hhbmdlCiAgICAgICIKICAgICAgOmhhbmRsZS1tYXBwaW5nLXN0YXR1cy10b29sdGlwLXRyaWdnZXItY2xpY2s9IgogICAgICAgIGhhbmRsZU1hcHBpbmdTdGF0dXNUb29sdGlwVHJpZ2dlckNsaWNrCiAgICAgICIKICAgICAgOmhhbmRsZS1wcm90b2NvbC1oZWFkZXJzLXdhcm5pbmctb3Blbi1jaGFuZ2U9IgogICAgICAgIGhhbmRsZVByb3RvY29sSGVhZGVyc1dhcm5pbmdPcGVuQ2hhbmdlCiAgICAgICIKICAgICAgOmhhcy1yZWd1bGFyLWhvc3QtbWFwcGluZ3M9Imhhc1JlZ3VsYXJIb3N0TWFwcGluZ3MiCiAgICAgIDppcy1hdXRoLXNlcnZpY2UtdGFyZ2V0PSJpc0F1dGhTZXJ2aWNlVGFyZ2V0IgogICAgICA6aXMtY2xlYXJpbmctYWxsLXN1YmRvbWFpbi1jb25maWc9ImlzQ2xlYXJpbmdBbGxTdWJkb21haW5Db25maWciCiAgICAgIDppcy1jb25maWctbG9hZGluZz0iY29uZmlnU3RvcmUuaXNMb2FkaW5nIgogICAgICA6aXMtZGlzY292ZXJpbmc9ImlzRGlzY292ZXJpbmciCiAgICAgIDppcy1leHBvcnRpbmctYm9va21hcmtzPSJpc0V4cG9ydGluZ0Jvb2ttYXJrcyIKICAgICAgOmlzLWZhdmljb24tYnJva2VuPSJpc0Zhdmljb25Ccm9rZW4iCiAgICAgIDppcy1nYXRld2F5LXBvcnRhbC1lbmFibGVkPSJpc0dhdGV3YXlQb3J0YWxFbmFibGVkIgogICAgICA6aXMtZGVmYXVsdC1kb21haW4tYXZhaWxhYmxlPSJpc0RlZmF1bHREb21haW5BdmFpbGFibGUiCiAgICAgIDppcy1tYXBwaW5nLXVuYXZhaWxhYmxlPSJpc01hcHBpbmdVbmF2YWlsYWJsZSIKICAgICAgOmlzLW1hcHBpbmctc3RhdHVzLXRvb2x0aXAtb3Blbj0iaXNNYXBwaW5nU3RhdHVzVG9vbHRpcE9wZW4iCiAgICAgIDppcy1wcm90b2NvbC1oZWFkZXJzLXdhcm5pbmctb3Blbj0iaXNQcm90b2NvbEhlYWRlcnNXYXJuaW5nT3BlbiIKICAgICAgOmlzLXJlZnJlc2hpbmctdGl0bGVzPSJpc1JlZnJlc2hpbmdUaXRsZXMiCiAgICAgIDppcy1yb290LWRvbWFpbi1wZW5kaW5nLXNhdmU9ImlzUm9vdERvbWFpblBlbmRpbmdTYXZlIgogICAgICA6aXMtc2F2aW5nLW1hcHBpbmdzPSJpc1NhdmluZ01hcHBpbmdzIgogICAgICA6aXMtc3luY2luZz0iaXNTeW5jaW5nIgogICAgICA6bWFyay1mYXZpY29uLWJyb2tlbj0ibWFya0Zhdmljb25Ccm9rZW4iCiAgICAgIDpvcGVuLXByb3RvY29sLWhlYWRlcnMtd2FybmluZz0ib3BlblByb3RvY29sSGVhZGVyc1dhcm5pbmciCiAgICAgIDpyb290LWRvbWFpbi12YWxpZGF0aW9uLW1lc3NhZ2U9InJvb3REb21haW5WYWxpZGF0aW9uTWVzc2FnZSIKICAgICAgOnNhdmVkLXJvb3QtZG9tYWluPSJzYXZlZFJvb3REb21haW4iCiAgICAgIDpzY2hlZHVsZS1jbG9zZS1wcm90b2NvbC1oZWFkZXJzLXdhcm5pbmc9IgogICAgICAgIHNjaGVkdWxlQ2xvc2VQcm90b2NvbEhlYWRlcnNXYXJuaW5nCiAgICAgICIKICAgICAgOnNob3VsZC1zaG93LXByb3RvY29sLWhlYWRlcnMtd2FybmluZz0ic2hvdWxkU2hvd1Byb3RvY29sSGVhZGVyc1dhcm5pbmciCiAgICAgIDp0b2dnbGUtcHJvdG9jb2wtaGVhZGVycy13YXJuaW5nPSJ0b2dnbGVQcm90b2NvbEhlYWRlcnNXYXJuaW5nIgogICAgICA6dHJhZmZpYy10aW1lc3RhbXA9InRyYWZmaWNSZWFsdGltZVN0YXRzPy50aW1lc3RhbXAgPz8gbnVsbCIKICAgICAgOnZpc2libGUtbWFwcGluZ3MtY291bnQ9InZpc2libGVNYXBwaW5ncy5sZW5ndGgiCiAgICAgIEBhZGQtYXV0aC1zZXJ2aWNlPSJhZGRBdXRoU2VydmljZSIKICAgICAgQGJhdGNoLWRlbGV0ZT0iCiAgICAgICAgKGhvc3RzLCBvbkNvbXBsZXRlKSA9PiBvcGVuQmF0Y2hNdXRhdGlvbihob3N0cywgJ2RlbGV0ZScsIG9uQ29tcGxldGUpCiAgICAgICIKICAgICAgQGJhdGNoLWRpc2FibGU9IgogICAgICAgIChob3N0cywgb25Db21wbGV0ZSkgPT4gb3BlbkJhdGNoTXV0YXRpb24oaG9zdHMsICdkaXNhYmxlJywgb25Db21wbGV0ZSkKICAgICAgIgogICAgICBAYmF0Y2gtZW5hYmxlPSIKICAgICAgICAoaG9zdHMsIG9uQ29tcGxldGUpID0+IG9wZW5CYXRjaE11dGF0aW9uKGhvc3RzLCAnZW5hYmxlJywgb25Db21wbGV0ZSkKICAgICAgIgogICAgICBAYmF0Y2gtc2NoZWR1bGU9Im9wZW5CYXRjaEF2YWlsYWJpbGl0eSIKICAgICAgQGNsZWFyLWRlZmF1bHQ9ImNsZWFyRGVmYXVsdE1hcHBpbmciCiAgICAgIEBjb3B5LWhvc3Q9ImNvcHlNYXBwaW5nSG9zdCIKICAgICAgQGRlbGV0ZT0ib3BlbkRlbGV0ZU1hcHBpbmdEaWFsb2ciCiAgICAgIEBlZGl0PSJvcGVuRWRpdERpYWxvZyIKICAgICAgQGV4cG9ydC1ib29rbWFya3M9ImV4cG9ydEJvb2ttYXJrcyIKICAgICAgQG1vdmUtbWFwcGluZ3M9IgogICAgICAgIGFzeW5jIChob3N0cywgZ3JvdXBJZCwgb25Db21wbGV0ZSkgPT4gewogICAgICAgICAgaWYgKGF3YWl0IG1vdmVNYXBwaW5nc1RvR3JvdXAoaG9zdHMsIGdyb3VwSWQpKSBvbkNvbXBsZXRlPy4oKTsKICAgICAgICB9CiAgICAgICIKICAgICAgQG9wZW4tY2xlYXItYWxsLWNvbmZpZz0ib3BlbkNsZWFyQWxsQ29uZmlnRGlhbG9nIgogICAgICBAb3Blbi1jcmVhdGU9Im9wZW5DcmVhdGVEaWFsb2ciCiAgICAgIEBvcGVuLWRpc2NvdmVyPSJvcGVuRGlzY292ZXJEaWFsb2ciCiAgICAgIEBvcGVuLWRpc2NvdmVyLXNldHRpbmdzPSJpc1NjYW5JbnRlbnNpdHlEaWFsb2dPcGVuID0gdHJ1ZSIKICAgICAgQG9wZW4tYXZhaWxhYmlsaXR5PSJvcGVuQXZhaWxhYmlsaXR5RGlhbG9nIgogICAgICBAb3Blbi1nYXRld2F5LWxvY2F0aW9ucz0ib3BlbkdhdGV3YXlMb2NhdGlvbnMiCiAgICAgIEBvcGVuLWFkdmFuY2VkLWF1dGg9Im9wZW5BZHZhbmNlZEF1dGgiCiAgICAgIEBvcGVuLWRlZXAtbW9uaXRvcj0ib3BlbkRlZXBNb25pdG9yIgogICAgICBAb3Blbi1zdGFsZS1jbGVhbnVwPSJvcGVuU3RhbGVDbGVhbnVwRGlhbG9nIgogICAgICBAb3Blbi10YXJnZXQtb3B0aW1pemF0aW9uPSJvcGVuVGFyZ2V0T3B0aW1pemF0aW9uIgogICAgICBAcmVmcmVzaC1hbGwtdGl0bGVzPSJyZWZyZXNoQWxsVGl0bGVzIgogICAgICBAc2F2ZS1vcmRlcj0ic2F2ZU1hcHBpbmdPcmRlciIKICAgICAgQHNhdmUtZ3JvdXBlZC1vcmRlcj0ic2F2ZUdyb3VwZWRNYXBwaW5nT3JkZXIiCiAgICAgIEBzYXZlLWdyb3Vwcz0ic2F2ZU1hcHBpbmdHcm91cHMiCiAgICAgIEBzZXQtZGVmYXVsdD0ic2V0RGVmYXVsdE1hcHBpbmciCiAgICAgIEBzeW5jLXJvdXRlcz0ic3luY1JvdXRlcyIKICAgICAgQHRvZ2dsZS1lbmFibGVkPSJvcGVuVG9nZ2xlTWFwcGluZ0RpYWxvZyIKICAgICAgQHVwZGF0ZS1ncm91cGVkLXZpZXc9InVwZGF0ZUhvc3RNYXBwaW5nR3JvdXBlZFZpZXciCiAgICAvPgoKICAgIDxTY2FuRGlzY292ZXJ5SW50ZW5zaXR5RGlhbG9nCiAgICAgIHYtbW9kZWw6b3Blbj0iaXNTY2FuSW50ZW5zaXR5RGlhbG9nT3BlbiIKICAgICAgOmRpc2FibGVkPSJpc0Rpc2NvdmVyaW5nIgogICAgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import ScanDiscoveryIntensityDialog from "@/components/ScanDiscoveryIntensityDialog.vue";
+import { docsUrls } from "../../lib/docs";
+import SubdomainMappingsCard from "./SubdomainMappingsCard.vue";
+import SubdomainModeConfigCard from "./SubdomainModeConfigCard.vue";
+import type { SubdomainProxyOverviewController } from "./useSubdomainProxyPage";
+
+const props = defineProps<{ controller: SubdomainProxyOverviewController }>();
+const {
+  activeDeepMonitorHosts,
+  activeEdgeClientIpProvider,
+  addAuthService,
+  authServiceMapping,
+  authServicePublicPort,
+  canManageNewMappings,
+  clearDefaultMapping,
+  configStore,
+  copyMappingHost,
+  discoverButtonDividerClass,
+  discoverButtonVariant,
+  draggableVisibleMappings,
+  edgeClientIpProviderOptions,
+  exportBookmarks,
+  filteredMappings,
+  formatAuthServiceHostWithPublicPort,
+  formatAvailabilityWindow,
+  formatHostWithAccessEntryPort,
+  getAvailabilityState,
+  getHostTrafficSample,
+  getMappingTitleForDisplay,
+  globalVisibilityEnabled,
+  globalWafEnabled,
+  handleMappingStatusTooltipOpenChange,
+  handleMappingStatusTooltipTriggerClick,
+  handleProtocolHeadersWarningOpenChange,
+  hasRegularHostMappings,
+  hostMappingGroupedView,
+  hostMappingGroups,
+  isAuthServiceTarget,
+  isClearingAllSubdomainConfig,
+  isDefaultDomainAvailable,
+  isDiscovering,
+  isEdgeClientIPModeEditable,
+  isExportingBookmarks,
+  isFaviconBroken,
+  isGatewayPortalEnabled,
+  isMappingStatusTooltipOpen,
+  isMappingUnavailable,
+  isModeDirty,
+  isModeValid,
+  isProtocolHeadersWarningOpen,
+  isRefreshingTitles,
+  isRootDomainPendingSave,
+  isSavingMappings,
+  isSavingMode,
+  isScanIntensityDialogOpen,
+  isSubdomainModeConfigured,
+  isSyncing,
+  markFaviconBroken,
+  modeForm,
+  moveMappingsToGroup,
+  omitPublicPortConfiguration,
+  openAdvancedAuth,
+  openBatchAvailability,
+  openBatchMutation,
+  openAvailabilityDialog,
+  openClearAllConfigDialog,
+  openCreateDialog,
+  openDeepMonitor,
+  openDeleteMappingDialog,
+  openDiscoverDialog,
+  openEditDialog,
+  openGatewayLocations,
+  openProtocolHeadersWarning,
+  openStaleCleanupDialog,
+  openTargetOptimization,
+  openToggleMappingDialog,
+  refreshAllTitles,
+  removeAuthService,
+  resetModeForm,
+  rootDomainValidationMessage,
+  saveGroupedMappingOrder,
+  saveMappingGroups,
+  saveMappingOrder,
+  saveMode,
+  savedEdgeClientIpProviderLabel,
+  savedRootDomain,
+  scheduleCloseProtocolHeadersWarning,
+  searchQuery,
+  selectEdgeClientIpProvider,
+  setDefaultMapping,
+  shouldShowProtocolHeadersWarning,
+  syncRoutes,
+  toggleProtocolHeadersWarning,
+  trafficRealtimeStats,
+  updateHostMappingGroupedView,
+  visibleMappings,
+} = props.controller;
+</script>
+
+<template>
+  <div class="space-y-6">
+    <SubdomainModeConfigCard
+      v-model:auth-service-public-port="authServicePublicPort"
+      v-model:edge-client-ip-enabled="modeForm.edge_client_ip_enabled"
+      v-model:root-domain="modeForm.root_domain"
+      :active-edge-client-ip-provider="activeEdgeClientIpProvider"
+      :auth-service-mapping="authServiceMapping"
+      :configured="isSubdomainModeConfigured"
+      :ready="!configStore.isLoading"
+      :edge-client-ip-provider-options="edgeClientIpProviderOptions"
+      :format-auth-service-host="formatAuthServiceHostWithPublicPort"
+      :is-edge-client-ip-mode-editable="isEdgeClientIPModeEditable"
+      :is-mode-dirty="isModeDirty"
+      :is-mode-valid="isModeValid"
+      :is-saving-mappings="isSavingMappings"
+      :is-saving-mode="isSavingMode"
+      :omit-public-port-configuration="omitPublicPortConfiguration"
+      :remove-auth-service="removeAuthService"
+      :reset-mode-form="resetModeForm"
+      :root-domain-validation-message="rootDomainValidationMessage"
+      :save-mode="saveMode"
+      :saved-edge-client-ip-provider-label="savedEdgeClientIpProviderLabel"
+      :saved-root-domain="savedRootDomain"
+      :select-edge-client-ip-provider="selectEdgeClientIpProvider"
+    />
+    <SubdomainMappingsCard
+      v-model:draggable-mappings="draggableVisibleMappings"
+      v-model:search-query="searchQuery"
+      :all-regular-mappings="visibleMappings"
+      :auth-service-mapping="authServiceMapping"
+      :can-manage-new-mappings="canManageNewMappings"
+      :active-deep-monitor-hosts="activeDeepMonitorHosts"
+      :can-use-deep-monitor="configStore.canUseDeepMonitor"
+      :discover-button-divider-class="discoverButtonDividerClass"
+      :discover-button-variant="discoverButtonVariant"
+      :docs-href="docsUrls.guides.subdomainProxy"
+      :filtered-mappings="filteredMappings"
+      :format-availability-window="formatAvailabilityWindow"
+      :format-host="formatHostWithAccessEntryPort"
+      :get-availability-state="getAvailabilityState"
+      :get-host-traffic-sample="getHostTrafficSample"
+      :get-mapping-title-for-display="getMappingTitleForDisplay"
+      :global-visibility-enabled="globalVisibilityEnabled"
+      :global-waf-enabled="globalWafEnabled"
+      :grouped-view="hostMappingGroupedView"
+      :groups="hostMappingGroups"
+      :handle-mapping-status-tooltip-open-change="
+        handleMappingStatusTooltipOpenChange
+      "
+      :handle-mapping-status-tooltip-trigger-click="
+        handleMappingStatusTooltipTriggerClick
+      "
+      :handle-protocol-headers-warning-open-change="
+        handleProtocolHeadersWarningOpenChange
+      "
+      :has-regular-host-mappings="hasRegularHostMappings"
+      :is-auth-service-target="isAuthServiceTarget"
+      :is-clearing-all-subdomain-config="isClearingAllSubdomainConfig"
+      :is-config-loading="configStore.isLoading"
+      :is-discovering="isDiscovering"
+      :is-exporting-bookmarks="isExportingBookmarks"
+      :is-favicon-broken="isFaviconBroken"
+      :is-gateway-portal-enabled="isGatewayPortalEnabled"
+      :is-default-domain-available="isDefaultDomainAvailable"
+      :is-mapping-unavailable="isMappingUnavailable"
+      :is-mapping-status-tooltip-open="isMappingStatusTooltipOpen"
+      :is-protocol-headers-warning-open="isProtocolHeadersWarningOpen"
+      :is-refreshing-titles="isRefreshingTitles"
+      :is-root-domain-pending-save="isRootDomainPendingSave"
+      :is-saving-mappings="isSavingMappings"
+      :is-syncing="isSyncing"
+      :mark-favicon-broken="markFaviconBroken"
+      :open-protocol-headers-warning="openProtocolHeadersWarning"
+      :root-domain-validation-message="rootDomainValidationMessage"
+      :saved-root-domain="savedRootDomain"
+      :schedule-close-protocol-headers-warning="
+        scheduleCloseProtocolHeadersWarning
+      "
+      :should-show-protocol-headers-warning="shouldShowProtocolHeadersWarning"
+      :toggle-protocol-headers-warning="toggleProtocolHeadersWarning"
+      :traffic-timestamp="trafficRealtimeStats?.timestamp ?? null"
+      :visible-mappings-count="visibleMappings.length"
+      @add-auth-service="addAuthService"
+      @batch-delete="
+        (hosts, onComplete) => openBatchMutation(hosts, 'delete', onComplete)
+      "
+      @batch-disable="
+        (hosts, onComplete) => openBatchMutation(hosts, 'disable', onComplete)
+      "
+      @batch-enable="
+        (hosts, onComplete) => openBatchMutation(hosts, 'enable', onComplete)
+      "
+      @batch-schedule="openBatchAvailability"
+      @clear-default="clearDefaultMapping"
+      @copy-host="copyMappingHost"
+      @delete="openDeleteMappingDialog"
+      @edit="openEditDialog"
+      @export-bookmarks="exportBookmarks"
+      @move-mappings="
+        async (hosts, groupId, onComplete) => {
+          if (await moveMappingsToGroup(hosts, groupId)) onComplete?.();
+        }
+      "
+      @open-clear-all-config="openClearAllConfigDialog"
+      @open-create="openCreateDialog"
+      @open-discover="openDiscoverDialog"
+      @open-discover-settings="isScanIntensityDialogOpen = true"
+      @open-availability="openAvailabilityDialog"
+      @open-gateway-locations="openGatewayLocations"
+      @open-advanced-auth="openAdvancedAuth"
+      @open-deep-monitor="openDeepMonitor"
+      @open-stale-cleanup="openStaleCleanupDialog"
+      @open-target-optimization="openTargetOptimization"
+      @refresh-all-titles="refreshAllTitles"
+      @save-order="saveMappingOrder"
+      @save-grouped-order="saveGroupedMappingOrder"
+      @save-groups="saveMappingGroups"
+      @set-default="setDefaultMapping"
+      @sync-routes="syncRoutes"
+      @toggle-enabled="openToggleMappingDialog"
+      @update-grouped-view="updateHostMappingGroupedView"
+    />
+
+    <ScanDiscoveryIntensityDialog
+      v-model:open="isScanIntensityDialogOpen"
+      :disabled="isDiscovering"
+    />
+  </div>
+</template>

@@ -1,1 +1,97 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvbkJlZm9yZVVubW91bnQsIHJlZiwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIjsKaW1wb3J0IHR5cGUgeyBCdXR0b25WYXJpYW50cyB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgUmVmcmVzaEN3IH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKCmludGVyZmFjZSBQcm9wcyB7CiAgbG9hZGluZz86IGJvb2xlYW47CiAgZGlzYWJsZWQ/OiBib29sZWFuOwogIGxhYmVsPzogc3RyaW5nOwogIHNpemU/OiBCdXR0b25WYXJpYW50c1sic2l6ZSJdOwogIGljb25Pbmx5PzogYm9vbGVhbjsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdOwp9Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cyhkZWZpbmVQcm9wczxQcm9wcz4oKSwgewogIGxvYWRpbmc6IGZhbHNlLAogIGRpc2FibGVkOiBmYWxzZSwKICBzaXplOiAic20iLAogIGljb25Pbmx5OiBmYWxzZSwKfSk7CgpkZWZpbmVFbWl0czx7CiAgY2xpY2s6IFtdOwp9PigpOwoKY29uc3QgTUlOX1NQSU5fRFVSQVRJT05fTVMgPSA1MDA7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwoKY29uc3QgYW5pbWF0aW9uQWN0aXZlID0gcmVmKHByb3BzLmxvYWRpbmcpOwpjb25zdCBzcGluU3RhcnRlZEF0ID0gcmVmPG51bWJlciB8IG51bGw+KHByb3BzLmxvYWRpbmcgPyBEYXRlLm5vdygpIDogbnVsbCk7CmxldCBzdG9wVGltZXI6IFJldHVyblR5cGU8dHlwZW9mIHNldFRpbWVvdXQ+IHwgbnVsbCA9IG51bGw7Cgpjb25zdCBjbGVhclN0b3BUaW1lciA9ICgpID0+IHsKICBpZiAoc3RvcFRpbWVyKSB7CiAgICBjbGVhclRpbWVvdXQoc3RvcFRpbWVyKTsKICAgIHN0b3BUaW1lciA9IG51bGw7CiAgfQp9OwoKd2F0Y2goCiAgKCkgPT4gcHJvcHMubG9hZGluZywKICAobG9hZGluZykgPT4gewogICAgY2xlYXJTdG9wVGltZXIoKTsKCiAgICBpZiAobG9hZGluZykgewogICAgICBhbmltYXRpb25BY3RpdmUudmFsdWUgPSB0cnVlOwogICAgICBzcGluU3RhcnRlZEF0LnZhbHVlID0gRGF0ZS5ub3coKTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGlmICghYW5pbWF0aW9uQWN0aXZlLnZhbHVlKSB7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBjb25zdCBlbGFwc2VkID0gc3BpblN0YXJ0ZWRBdC52YWx1ZQogICAgICA/IERhdGUubm93KCkgLSBzcGluU3RhcnRlZEF0LnZhbHVlCiAgICAgIDogTUlOX1NQSU5fRFVSQVRJT05fTVM7CiAgICBjb25zdCByZW1haW5pbmcgPSBNYXRoLm1heChNSU5fU1BJTl9EVVJBVElPTl9NUyAtIGVsYXBzZWQsIDApOwoKICAgIHN0b3BUaW1lciA9IHNldFRpbWVvdXQoKCkgPT4gewogICAgICBhbmltYXRpb25BY3RpdmUudmFsdWUgPSBmYWxzZTsKICAgICAgc3BpblN0YXJ0ZWRBdC52YWx1ZSA9IG51bGw7CiAgICAgIHN0b3BUaW1lciA9IG51bGw7CiAgICB9LCByZW1haW5pbmcpOwogIH0sCik7CgpvbkJlZm9yZVVubW91bnQoKCkgPT4gewogIGNsZWFyU3RvcFRpbWVyKCk7Cn0pOwoKY29uc3QgaWNvbkNsYXNzID0gY29tcHV0ZWQoKCkgPT4gKHsKICAibXItMS41IjogIXByb3BzLmljb25Pbmx5LAogICJhbmltYXRlLXNwaW4iOiBhbmltYXRpb25BY3RpdmUudmFsdWUsCn0pKTsKY29uc3QgcmVzb2x2ZWRMYWJlbCA9IGNvbXB1dGVkKAogICgpID0+IHByb3BzLmxhYmVsIHx8IHQoImFkbWluLmNvbXBvbmVudHMucmVmcmVzaEJ1dHRvbi5sYWJlbCIpLAopOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8QnV0dG9uCiAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgOnNpemU9InByb3BzLnNpemUiCiAgICA6ZGlzYWJsZWQ9InByb3BzLmRpc2FibGVkIgogICAgOmNsYXNzPSJwcm9wcy5jbGFzcyIKICAgIDphcmlhLWxhYmVsPSJyZXNvbHZlZExhYmVsIgogICAgOnRpdGxlPSJwcm9wcy5pY29uT25seSA/IHJlc29sdmVkTGFiZWwgOiB1bmRlZmluZWQiCiAgICBAY2xpY2s9IiRlbWl0KCdjbGljaycpIgogID4KICAgIDxSZWZyZXNoQ3cgY2xhc3M9ImgtNCB3LTQiIDpjbGFzcz0iaWNvbkNsYXNzIiAvPgogICAgPHNwYW4gdi1pZj0iIXByb3BzLmljb25Pbmx5Ij57eyByZXNvbHZlZExhYmVsIH19PC9zcGFuPgogIDwvQnV0dG9uPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, onBeforeUnmount, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import type { HTMLAttributes } from "vue";
+import type { ButtonVariants } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
+import { RefreshCw } from "lucide-vue-next";
+
+interface Props {
+  loading?: boolean;
+  disabled?: boolean;
+  label?: string;
+  size?: ButtonVariants["size"];
+  iconOnly?: boolean;
+  class?: HTMLAttributes["class"];
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  loading: false,
+  disabled: false,
+  size: "sm",
+  iconOnly: false,
+});
+
+defineEmits<{
+  click: [];
+}>();
+
+const MIN_SPIN_DURATION_MS = 500;
+const { t } = useI18n();
+
+const animationActive = ref(props.loading);
+const spinStartedAt = ref<number | null>(props.loading ? Date.now() : null);
+let stopTimer: ReturnType<typeof setTimeout> | null = null;
+
+const clearStopTimer = () => {
+  if (stopTimer) {
+    clearTimeout(stopTimer);
+    stopTimer = null;
+  }
+};
+
+watch(
+  () => props.loading,
+  (loading) => {
+    clearStopTimer();
+
+    if (loading) {
+      animationActive.value = true;
+      spinStartedAt.value = Date.now();
+      return;
+    }
+
+    if (!animationActive.value) {
+      return;
+    }
+
+    const elapsed = spinStartedAt.value
+      ? Date.now() - spinStartedAt.value
+      : MIN_SPIN_DURATION_MS;
+    const remaining = Math.max(MIN_SPIN_DURATION_MS - elapsed, 0);
+
+    stopTimer = setTimeout(() => {
+      animationActive.value = false;
+      spinStartedAt.value = null;
+      stopTimer = null;
+    }, remaining);
+  },
+);
+
+onBeforeUnmount(() => {
+  clearStopTimer();
+});
+
+const iconClass = computed(() => ({
+  "mr-1.5": !props.iconOnly,
+  "animate-spin": animationActive.value,
+}));
+const resolvedLabel = computed(
+  () => props.label || t("admin.components.refreshButton.label"),
+);
+</script>
+
+<template>
+  <Button
+    variant="outline"
+    :size="props.size"
+    :disabled="props.disabled"
+    :class="props.class"
+    :aria-label="resolvedLabel"
+    :title="props.iconOnly ? resolvedLabel : undefined"
+    @click="$emit('click')"
+  >
+    <RefreshCw class="h-4 w-4" :class="iconClass" />
+    <span v-if="!props.iconOnly">{{ resolvedLabel }}</span>
+  </Button>
+</template>

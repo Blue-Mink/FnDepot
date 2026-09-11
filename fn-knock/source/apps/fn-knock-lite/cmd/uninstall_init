@@ -1,1 +1,5 @@
-IyEvYmluL2Jhc2gKCiMjIyBmbi1rbm9jayBMaXRlIG5ldmVyIG1hbmFnZXMgdGhlIGhvc3QgZmlyZXdhbGwgb3Igb3RoZXIgcHJpdmlsZWdlZCBzdGF0ZS4KCmV4aXQgMAo=
+#!/bin/bash
+
+### fn-knock Lite never manages the host firewall or other privileged state.
+
+exit 0

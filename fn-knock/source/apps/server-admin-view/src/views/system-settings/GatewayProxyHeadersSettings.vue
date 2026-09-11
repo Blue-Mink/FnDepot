@@ -1,1 +1,16 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IENvbmZpZ0FQSSB9IGZyb20gIkAvbGliL2FwaS9jb25maWciOwppbXBvcnQgR2F0ZXdheUhvc3RUb2dnbGVTZXR0aW5ncyBmcm9tICIuL0dhdGV3YXlIb3N0VG9nZ2xlU2V0dGluZ3MudnVlIjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPEdhdGV3YXlIb3N0VG9nZ2xlU2V0dGluZ3MKICAgIGNvbmZpZy1zdG9yZS1rZXk9ImdhdGV3YXlfcHJveHlfaGVhZGVycyIKICAgIGRlc2NyaXB0aW9uLWNvZGU9IlgtRm9yd2FyZGVkLSoiCiAgICBtZXNzYWdlLWtleS1wcmVmaXg9ImFkbWluLmdhdGV3YXlQcm94eUhlYWRlcnNTZXR0aW5ncyIKICAgIHRvZ2dsZS1jb2x1bW4tbGFiZWwta2V5PSJwcm94eUhlYWRlcnMiCiAgICB0b2dnbGUtZmllbGQ9InNlbmRfcHJveHlfaGVhZGVycyIKICAgIDpmZXRjaC1kZXRhaWxzPSJDb25maWdBUEkuZ2V0R2F0ZXdheVByb3h5SGVhZGVycyIKICAgIDpzYXZlLWRldGFpbHM9IkNvbmZpZ0FQSS51cGRhdGVHYXRld2F5UHJveHlIZWFkZXJzIgogIC8+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { ConfigAPI } from "@/lib/api/config";
+import GatewayHostToggleSettings from "./GatewayHostToggleSettings.vue";
+</script>
+
+<template>
+  <GatewayHostToggleSettings
+    config-store-key="gateway_proxy_headers"
+    description-code="X-Forwarded-*"
+    message-key-prefix="admin.gatewayProxyHeadersSettings"
+    toggle-column-label-key="proxyHeaders"
+    toggle-field="send_proxy_headers"
+    :fetch-details="ConfigAPI.getGatewayProxyHeaders"
+    :save-details="ConfigAPI.updateGatewayProxyHeaders"
+  />
+</template>

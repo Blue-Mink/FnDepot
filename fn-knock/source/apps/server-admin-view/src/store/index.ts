@@ -1,1 +1,3 @@
-aW1wb3J0IHsgY3JlYXRlUGluaWEgfSBmcm9tICdwaW5pYScKCmV4cG9ydCBjb25zdCBwaW5pYSA9IGNyZWF0ZVBpbmlhKCkK
+import { createPinia } from 'pinia'
+
+export const pinia = createPinia()

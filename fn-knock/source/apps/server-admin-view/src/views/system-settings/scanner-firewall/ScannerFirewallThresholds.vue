@@ -1,1 +1,96 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgdHlwZSB7IFNjYW5uZXJGaXJld2FsbFNldHRpbmdzTW9kZWwgfSBmcm9tICIuL3VzZVNjYW5uZXJGaXJld2FsbFNldHRpbmdzIjsKCmRlZmluZVByb3BzPHsgbW9kZWw6IFNjYW5uZXJGaXJld2FsbFNldHRpbmdzTW9kZWw7IGlkUHJlZml4OiBzdHJpbmcgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYKICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGp1c3RpZnktYmV0d2VlbiBnYXAtNCBwLTYgc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIgogID4KICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSBwci02Ij4KICAgICAgPExhYmVsIDpmb3I9ImAke2lkUHJlZml4fS13aW5kb3dgIiBjbGFzcz0idGV4dC1iYXNlIj4KICAgICAgICB7eyB0KCJhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy53aW5kb3dUaXRsZSIpIH19CiAgICAgIDwvTGFiZWw+CiAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0KCJhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy53aW5kb3dEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPHNwYW4KICAgICAgICAgIHYtaWY9Im1vZGVsLmRlcml2ZWRXaW5kb3dNaW51dGVzID4gbW9kZWwuZm9ybS53aW5kb3dNaW51dGVzIgogICAgICAgICAgY2xhc3M9ImJsb2NrIHRleHQtZGVzdHJ1Y3RpdmUgc206bWwtMSBzbTppbmxpbmUiCiAgICAgICAgPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgiYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MuZW5mb3JjZWRNaW5pbXVtIiwgewogICAgICAgICAgICAgIG1pbnV0ZXM6IG1vZGVsLmJhc2VXaW5kb3dNaW51dGVzLAogICAgICAgICAgICB9KQogICAgICAgICAgfX0KICAgICAgICA8L3NwYW4+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJmbGV4IHNocmluay0wIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgIDxJbnB1dAogICAgICAgIDppZD0iYCR7aWRQcmVmaXh9LXdpbmRvd2AiCiAgICAgICAgdi1tb2RlbC5udW1iZXI9Im1vZGVsLmZvcm0ud2luZG93TWludXRlcyIKICAgICAgICB0eXBlPSJudW1iZXIiCiAgICAgICAgbWluPSIxIgogICAgICAgIGNsYXNzPSJ3LTI0IHRleHQtY2VudGVyIgogICAgICAvPgogICAgICA8c3BhbiBjbGFzcz0idy0xMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MubWludXRlc1VuaXQiKSB9fQogICAgICA8L3NwYW4+CiAgICA8L2Rpdj4KICA8L2Rpdj4KCiAgPGRpdgogICAgY2xhc3M9ImZsZXggZmxleC1jb2wganVzdGlmeS1iZXR3ZWVuIGdhcC00IHAtNiBzbTpmbGV4LXJvdyBzbTppdGVtcy1jZW50ZXIiCiAgPgogICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIHByLTYiPgogICAgICA8TGFiZWwgOmZvcj0iYCR7aWRQcmVmaXh9LXRocmVzaG9sZGAiIGNsYXNzPSJ0ZXh0LWJhc2UiPgogICAgICAgIHt7IHQoImFkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLnRocmVzaG9sZFRpdGxlIikgfX0KICAgICAgPC9MYWJlbD4KICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIHt7IHQoImFkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLnRocmVzaG9sZERlc2NyaXB0aW9uIikgfX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImZsZXggc2hyaW5rLTAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgPElucHV0CiAgICAgICAgOmlkPSJgJHtpZFByZWZpeH0tdGhyZXNob2xkYCIKICAgICAgICB2LW1vZGVsLm51bWJlcj0ibW9kZWwuZm9ybS50aHJlc2hvbGQiCiAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgIG1pbj0iMSIKICAgICAgICBjbGFzcz0idy0yNCB0ZXh0LWNlbnRlciIKICAgICAgLz4KICAgICAgPHNwYW4gY2xhc3M9InctMTIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIHt7IHQoImFkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLnRpbWVzVW5pdCIpIH19CiAgICAgIDwvc3Bhbj4KICAgIDwvZGl2PgogIDwvZGl2PgoKICA8ZGl2CiAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQgcC02IHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciIKICA+CiAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEgcHItNiI+CiAgICAgIDxMYWJlbCA6Zm9yPSJgJHtpZFByZWZpeH0tdHRsYCIgY2xhc3M9InRleHQtYmFzZSI+CiAgICAgICAge3sgdCgiYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MuYmxhY2tsaXN0VHRsVGl0bGUiKSB9fQogICAgICA8L0xhYmVsPgogICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MuYmxhY2tsaXN0VHRsRGVzY3JpcHRpb24iKSB9fQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iZmxleCBzaHJpbmstMCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICA8SW5wdXQKICAgICAgICA6aWQ9ImAke2lkUHJlZml4fS10dGxgIgogICAgICAgIHYtbW9kZWwubnVtYmVyPSJtb2RlbC5mb3JtLmJsYWNrbGlzdFR0bERheXMiCiAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgIG1pbj0iMSIKICAgICAgICBjbGFzcz0idy0yNCB0ZXh0LWNlbnRlciIKICAgICAgLz4KICAgICAgPHNwYW4gY2xhc3M9InctMTIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIHt7IHQoImFkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLmRheXNVbml0IikgfX0KICAgICAgPC9zcGFuPgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import type { ScannerFirewallSettingsModel } from "./useScannerFirewallSettings";
+
+defineProps<{ model: ScannerFirewallSettingsModel; idPrefix: string }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div
+    class="flex flex-col justify-between gap-4 p-6 sm:flex-row sm:items-center"
+  >
+    <div class="space-y-1 pr-6">
+      <Label :for="`${idPrefix}-window`" class="text-base">
+        {{ t("admin.scannerFirewallSettings.windowTitle") }}
+      </Label>
+      <div class="text-sm text-muted-foreground">
+        {{ t("admin.scannerFirewallSettings.windowDescription") }}
+        <span
+          v-if="model.derivedWindowMinutes > model.form.windowMinutes"
+          class="block text-destructive sm:ml-1 sm:inline"
+        >
+          {{
+            t("admin.scannerFirewallSettings.enforcedMinimum", {
+              minutes: model.baseWindowMinutes,
+            })
+          }}
+        </span>
+      </div>
+    </div>
+    <div class="flex shrink-0 items-center gap-2">
+      <Input
+        :id="`${idPrefix}-window`"
+        v-model.number="model.form.windowMinutes"
+        type="number"
+        min="1"
+        class="w-24 text-center"
+      />
+      <span class="w-12 text-sm text-muted-foreground">
+        {{ t("admin.scannerFirewallSettings.minutesUnit") }}
+      </span>
+    </div>
+  </div>
+
+  <div
+    class="flex flex-col justify-between gap-4 p-6 sm:flex-row sm:items-center"
+  >
+    <div class="space-y-1 pr-6">
+      <Label :for="`${idPrefix}-threshold`" class="text-base">
+        {{ t("admin.scannerFirewallSettings.thresholdTitle") }}
+      </Label>
+      <div class="text-sm text-muted-foreground">
+        {{ t("admin.scannerFirewallSettings.thresholdDescription") }}
+      </div>
+    </div>
+    <div class="flex shrink-0 items-center gap-2">
+      <Input
+        :id="`${idPrefix}-threshold`"
+        v-model.number="model.form.threshold"
+        type="number"
+        min="1"
+        class="w-24 text-center"
+      />
+      <span class="w-12 text-sm text-muted-foreground">
+        {{ t("admin.scannerFirewallSettings.timesUnit") }}
+      </span>
+    </div>
+  </div>
+
+  <div
+    class="flex flex-col justify-between gap-4 p-6 sm:flex-row sm:items-center"
+  >
+    <div class="space-y-1 pr-6">
+      <Label :for="`${idPrefix}-ttl`" class="text-base">
+        {{ t("admin.scannerFirewallSettings.blacklistTtlTitle") }}
+      </Label>
+      <div class="text-sm text-muted-foreground">
+        {{ t("admin.scannerFirewallSettings.blacklistTtlDescription") }}
+      </div>
+    </div>
+    <div class="flex shrink-0 items-center gap-2">
+      <Input
+        :id="`${idPrefix}-ttl`"
+        v-model.number="model.form.blacklistTtlDays"
+        type="number"
+        min="1"
+        class="w-24 text-center"
+      />
+      <span class="w-12 text-sm text-muted-foreground">
+        {{ t("admin.scannerFirewallSettings.daysUnit") }}
+      </span>
+    </div>
+  </div>
+</template>

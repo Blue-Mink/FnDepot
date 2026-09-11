@@ -1,1 +1,59 @@
-dXNlIHN0ZDo6ewogICAgY29sbGVjdGlvbnM6Okhhc2hNYXAsCiAgICBzeW5jOjp7CiAgICAgICAgQXJjLAogICAgICAgIGF0b21pYzo6e0F0b21pY1U2NCwgT3JkZXJpbmd9LAogICAgfSwKfTsKCnVzZSB0b2tpbzo6c3luYzo6e011dGV4LCBOb3RpZnksIFNlbWFwaG9yZX07CgpwdWIgc3RydWN0IFBhbmVsU3luY1J1bnRpbWUgewogICAgcHViIGNvbmZpZ19sb2NrOiBNdXRleDwoKT4sCiAgICBjb25uZWN0aW9uX2xvY2tzOiBNdXRleDxIYXNoTWFwPFN0cmluZywgQXJjPE11dGV4PCgpPj4+PiwKICAgIHB1YiBzb3VyY2VfY2hhbmdlZDogTm90aWZ5LAogICAgcHViIHJ1bnNfaW52YWxpZGF0ZWQ6IE5vdGlmeSwKICAgIHB1YiBjb25jdXJyZW5jeTogU2VtYXBob3JlLAogICAgZ2VuZXJhdGlvbjogQXRvbWljVTY0LAp9CgppbXBsIERlZmF1bHQgZm9yIFBhbmVsU3luY1J1bnRpbWUgewogICAgZm4gZGVmYXVsdCgpIC0+IFNlbGYgewogICAgICAgIFNlbGY6Om5ldygpCiAgICB9Cn0KCmltcGwgUGFuZWxTeW5jUnVudGltZSB7CiAgICBwdWIgZm4gbmV3KCkgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7CiAgICAgICAgICAgIGNvbmZpZ19sb2NrOiBNdXRleDo6bmV3KCgpKSwKICAgICAgICAgICAgY29ubmVjdGlvbl9sb2NrczogTXV0ZXg6Om5ldyhIYXNoTWFwOjpuZXcoKSksCiAgICAgICAgICAgIHNvdXJjZV9jaGFuZ2VkOiBOb3RpZnk6Om5ldygpLAogICAgICAgICAgICBydW5zX2ludmFsaWRhdGVkOiBOb3RpZnk6Om5ldygpLAogICAgICAgICAgICBjb25jdXJyZW5jeTogU2VtYXBob3JlOjpuZXcoMiksCiAgICAgICAgICAgIGdlbmVyYXRpb246IEF0b21pY1U2NDo6bmV3KDApLAogICAgICAgIH0KICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gY29ubmVjdGlvbl9sb2NrKCZzZWxmLCBpZDogJnN0cikgLT4gQXJjPE11dGV4PCgpPj4gewogICAgICAgIHNlbGYuY29ubmVjdGlvbl9sb2NrcwogICAgICAgICAgICAubG9jaygpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuZW50cnkoaWQudG9fc3RyaW5nKCkpCiAgICAgICAgICAgIC5vcl9pbnNlcnRfd2l0aCh8fCBBcmM6Om5ldyhNdXRleDo6bmV3KCgpKSkpCiAgICAgICAgICAgIC5jbG9uZSgpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIGZvcmdldF9jb25uZWN0aW9uKCZzZWxmLCBpZDogJnN0cikgewogICAgICAgIHNlbGYuY29ubmVjdGlvbl9sb2Nrcy5sb2NrKCkuYXdhaXQucmVtb3ZlKGlkKTsKICAgIH0KCiAgICBwdWIgZm4gZ2VuZXJhdGlvbigmc2VsZikgLT4gdTY0IHsKICAgICAgICBzZWxmLmdlbmVyYXRpb24ubG9hZChPcmRlcmluZzo6QWNxdWlyZSkKICAgIH0KCiAgICBwdWIgZm4gaW52YWxpZGF0ZV9ydW5zKCZzZWxmKSB7CiAgICAgICAgc2VsZi5nZW5lcmF0aW9uLmZldGNoX2FkZCgxLCBPcmRlcmluZzo6QWNxUmVsKTsKICAgICAgICBzZWxmLnJ1bnNfaW52YWxpZGF0ZWQubm90aWZ5X3dhaXRlcnMoKTsKICAgIH0KfQo=
+use std::{
+    collections::HashMap,
+    sync::{
+        Arc,
+        atomic::{AtomicU64, Ordering},
+    },
+};
+
+use tokio::sync::{Mutex, Notify, Semaphore};
+
+pub struct PanelSyncRuntime {
+    pub config_lock: Mutex<()>,
+    connection_locks: Mutex<HashMap<String, Arc<Mutex<()>>>>,
+    pub source_changed: Notify,
+    pub runs_invalidated: Notify,
+    pub concurrency: Semaphore,
+    generation: AtomicU64,
+}
+
+impl Default for PanelSyncRuntime {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
+impl PanelSyncRuntime {
+    pub fn new() -> Self {
+        Self {
+            config_lock: Mutex::new(()),
+            connection_locks: Mutex::new(HashMap::new()),
+            source_changed: Notify::new(),
+            runs_invalidated: Notify::new(),
+            concurrency: Semaphore::new(2),
+            generation: AtomicU64::new(0),
+        }
+    }
+
+    pub async fn connection_lock(&self, id: &str) -> Arc<Mutex<()>> {
+        self.connection_locks
+            .lock()
+            .await
+            .entry(id.to_string())
+            .or_insert_with(|| Arc::new(Mutex::new(())))
+            .clone()
+    }
+
+    pub async fn forget_connection(&self, id: &str) {
+        self.connection_locks.lock().await.remove(id);
+    }
+
+    pub fn generation(&self) -> u64 {
+        self.generation.load(Ordering::Acquire)
+    }
+
+    pub fn invalidate_runs(&self) {
+        self.generation.fetch_add(1, Ordering::AcqRel);
+        self.runs_invalidated.notify_waiters();
+    }
+}

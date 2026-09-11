@@ -1,1 +1,249 @@
-aW1wb3J0IHR5cGUgeyBjb21wb25lbnRzIGFzIEFwaUNvbnRyYWN0Q29tcG9uZW50cyB9IGZyb20gIkBmbi1rbm9jay9hcGktY29udHJhY3QiOwoKdHlwZSBTeXN0ZW1FdmVudFNjaGVtYXMgPSBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXTsKCmV4cG9ydCB0eXBlIFN5c3RlbUV2ZW50UmVjb3JkID0gU3lzdGVtRXZlbnRTY2hlbWFzWyJTeXN0ZW1FdmVudERhdGEiXTsKZXhwb3J0IHR5cGUgU3lzdGVtRXZlbnRMaXN0UGF5bG9hZCA9IFN5c3RlbUV2ZW50U2NoZW1hc1siU3lzdGVtRXZlbnRMaXN0RGF0YSJdOwpleHBvcnQgdHlwZSBTeXN0ZW1FdmVudFR5cGUgPSBTeXN0ZW1FdmVudFJlY29yZFsidHlwZSJdOwpleHBvcnQgdHlwZSBTeXN0ZW1FdmVudExldmVsID0gU3lzdGVtRXZlbnRSZWNvcmRbImxldmVsIl07CmV4cG9ydCB0eXBlIFN5c3RlbUV2ZW50U291cmNlID0gU3lzdGVtRXZlbnRSZWNvcmRbInNvdXJjZSJdOwpleHBvcnQgdHlwZSBTeXN0ZW1FdmVudFN1YmplY3QgPSBTeXN0ZW1FdmVudFNjaGVtYXNbIlN5c3RlbUV2ZW50U3ViamVjdERhdGEiXTsKZXhwb3J0IHR5cGUgU3lzdGVtRXZlbnRTdWJqZWN0S2luZCA9IFN5c3RlbUV2ZW50U3ViamVjdFsia2luZCJdOwoKZXhwb3J0IHR5cGUgTm90aWZpY2F0aW9uUHJvdmlkZXJUeXBlID0KICB8ICJ3eHB1c2hlciIKICB8ICJzZXJ2ZXJjaGFuIgogIHwgInB1c2hwbHVzIgogIHwgIndlY29tIgogIHwgImRpbmd0YWxrIgogIHwgImZlaXNodSIKICB8ICJlbWFpbCIKICB8ICJ3ZWJob29rIgogIHwgInB1c2hkZWVyIgogIHwgImhhcm1vbnlvc21lb3ciCiAgfCAibWFnaWNwdXNoIgogIHwgImJhcmsiCiAgfCAidGVsZWdyYW0iOwoKZXhwb3J0IHR5cGUgTm90aWZpY2F0aW9uR3JvdXBCeSA9CiAgIkdMT0JBTCIgfCAiSVAiIHwgIlNFU1NJT04iIHwgIlNVQkpFQ1QiIHwgIkhPU1ROQU1FIiB8ICJQUk9WSURFUiI7CgpleHBvcnQgdHlwZSBOb3RpZmljYXRpb25UcmlnZ2VyU3RhdHVzID0KICAiY3JlYXRlZCIgfCAiZmFub3V0X2RvbmUiIHwgInBhcnRpYWxseV9mYWlsZWQiIHwgImNvbXBsZXRlZCI7CgpleHBvcnQgdHlwZSBOb3RpZmljYXRpb25EZWxpdmVyeVN0YXR1cyA9CiAgInF1ZXVlZCIgfCAic2VuZGluZyIgfCAic3VjY2VzcyIgfCAiZmFpbGVkIiB8ICJnYXZlX3VwIiB8ICJza2lwcGVkIjsKCmV4cG9ydCB0eXBlIE5vdGlmaWNhdGlvblRlc3RTdGF0dXMgPSAiaWRsZSIgfCAic3VjY2VzcyIgfCAiZmFpbGVkIjsKCmV4cG9ydCB0eXBlIE5vdGlmaWNhdGlvbk1lc3NhZ2VUZW1wbGF0ZU1vZGUgPSAiZGVmYXVsdCIgfCAiY3VzdG9tIjsKCmV4cG9ydCB0eXBlIE5vdGlmaWNhdGlvblRlbXBsYXRlT3ZlcnJpZGVNb2RlID0gImluaGVyaXQiIHwgImN1c3RvbSI7CgpleHBvcnQgdHlwZSBOb3RpZmljYXRpb25TZXZlcml0eSA9ICJpbmZvIiB8ICJ3YXJuIiB8ICJlcnJvciIgfCAiY3JpdGljYWwiOwoKZXhwb3J0IHR5cGUgTm90aWZpY2F0aW9uRmllbGRUeXBlID0KICBTeXN0ZW1FdmVudFNjaGVtYXNbIk5vdGlmaWNhdGlvblNjaGVtYUZpZWxkRGF0YSJdWyJ0eXBlIl07CgpleHBvcnQgaW50ZXJmYWNlIE5vdGlmaWNhdGlvbkhlYWRlckVudHJ5IHsKICBuYW1lOiBzdHJpbmc7CiAgdmFsdWU6IHN0cmluZzsKfQoKZXhwb3J0IHR5cGUgTm90aWZpY2F0aW9uU2NoZW1hQ29uc3RyYWludHMgPQogIFN5c3RlbUV2ZW50U2NoZW1hc1siTm90aWZpY2F0aW9uU2NoZW1hQ29uc3RyYWludHNEYXRhIl07CmV4cG9ydCB0eXBlIE5vdGlmaWNhdGlvbkhlYWRlckNvbnN0cmFpbnRzID0gRXh0cmFjdDwKICBOb3RpZmljYXRpb25TY2hlbWFDb25zdHJhaW50cywKICB7IGtpbmQ6ICJoZWFkZXJzIiB9Cj47CmV4cG9ydCB0eXBlIE5vdGlmaWNhdGlvbldlYmhvb2tCb2R5Q29uc3RyYWludHMgPSBFeHRyYWN0PAogIE5vdGlmaWNhdGlvblNjaGVtYUNvbnN0cmFpbnRzLAogIHsga2luZDogIndlYmhvb2tfYm9keSIgfQo+OwpleHBvcnQgdHlwZSBOb3RpZmljYXRpb25XZWJob29rQm9keVByZXZpZXcgPQogIFN5c3RlbUV2ZW50U2NoZW1hc1siTm90aWZpY2F0aW9uV2ViaG9va0JvZHlQcmV2aWV3RGF0YSJdOwoKZXhwb3J0IGludGVyZmFjZSBOb3RpZmljYXRpb25GaWVsZE9wdGlvbiB7CiAgbGFiZWw6IHN0cmluZzsKICB2YWx1ZTogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIE5vdGlmaWNhdGlvblNjaGVtYUZpZWxkIHsKICBrZXk6IHN0cmluZzsKICBsYWJlbDogc3RyaW5nOwogIGRlc2NyaXB0aW9uPzogc3RyaW5nOwogIHBsYWNlaG9sZGVyPzogc3RyaW5nOwogIHR5cGU6IE5vdGlmaWNhdGlvbkZpZWxkVHlwZTsKICByZXF1aXJlZD86IGJvb2xlYW47CiAgc2Vuc2l0aXZlPzogYm9vbGVhbjsKICBkZWZhdWx0X3ZhbHVlPzogdW5rbm93bjsKICBvcHRpb25zPzogTm90aWZpY2F0aW9uRmllbGRPcHRpb25bXTsKICBtaW4/OiBudW1iZXI7CiAgbWF4PzogbnVtYmVyOwogIGNvbnN0cmFpbnRzPzogTm90aWZpY2F0aW9uU2NoZW1hQ29uc3RyYWludHM7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgTm90aWZpY2F0aW9uUHJvdmlkZXJDYXBhYmlsaXRpZXMgewogIHN1cHBvcnRzX3RleHQ6IGJvb2xlYW47CiAgc3VwcG9ydHNfbWFya2Rvd246IGJvb2xlYW47CiAgc3VwcG9ydHNfcmljaF9ibG9ja3M6IGJvb2xlYW47CiAgc3VwcG9ydHNfYWN0aW9uczogYm9vbGVhbjsKICBzdXBwb3J0c19tZW50aW9uczogYm9vbGVhbjsKICBzdXBwb3J0c19hdHRhY2htZW50czogYm9vbGVhbjsKICBzdXBwb3J0c19wcm92aWRlcl9kZWR1cGVfa2V5OiBib29sZWFuOwogIG1heF9ib2R5X2xlbmd0aD86IG51bWJlciB8IG51bGw7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgTm90aWZpY2F0aW9uUHJvdmlkZXJEZWZpbml0aW9uIHsKICB0eXBlOiBOb3RpZmljYXRpb25Qcm92aWRlclR5cGU7CiAgbGFiZWw6IHN0cmluZzsKICBkZXNjcmlwdGlvbjogc3RyaW5nOwogIGNvbm5lY3Rpb25fc2NoZW1hOiBOb3RpZmljYXRpb25TY2hlbWFGaWVsZFtdOwogIHRhcmdldF9zY2hlbWE6IE5vdGlmaWNhdGlvblNjaGVtYUZpZWxkW107CiAgc2Vuc2l0aXZlX2ZpZWxkczogc3RyaW5nW107CiAgY2FwYWJpbGl0aWVzOiBOb3RpZmljYXRpb25Qcm92aWRlckNhcGFiaWxpdGllczsKfQoKZXhwb3J0IGludGVyZmFjZSBOb3RpZmljYXRpb25NZXNzYWdlRmFjdCB7CiAgbGFiZWw6IHN0cmluZzsKICB2YWx1ZTogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIE5vdGlmaWNhdGlvbk1lc3NhZ2VBY3Rpb24gewogIGxhYmVsOiBzdHJpbmc7CiAgdXJsOiBzdHJpbmc7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgTm90aWZpY2F0aW9uTWVzc2FnZSB7CiAgdGl0bGU6IHN0cmluZzsKICBzdW1tYXJ5OiBzdHJpbmc7CiAgYm9keV90ZXh0OiBzdHJpbmc7CiAgYm9keV9tYXJrZG93bj86IHN0cmluZzsKICBzZXZlcml0eTogTm90aWZpY2F0aW9uU2V2ZXJpdHk7CiAgZmFjdHM6IE5vdGlmaWNhdGlvbk1lc3NhZ2VGYWN0W107CiAgLyoqIFN0YWJsZSBkZXRhaWwga2V5czsgYWJzZW50IG9uIGhpc3RvcmljYWwgbWVzc2FnZXMuICovCiAgZmFjdF92YWx1ZXM/OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+OwogIGFjdGlvbnM6IE5vdGlmaWNhdGlvbk1lc3NhZ2VBY3Rpb25bXTsKICBtZW50aW9uczogc3RyaW5nW107CiAgZGVkdXBlX2tleT86IHN0cmluZzsKICBvY2N1cnJlZF9hdDogc3RyaW5nOwogIGV2ZW50X2lkPzogc3RyaW5nOwogIG1ldGFkYXRhPzogUmVjb3JkPHN0cmluZywgdW5rbm93bj47Cn0KCmV4cG9ydCBpbnRlcmZhY2UgTm90aWZpY2F0aW9uVGVtcGxhdGUgewogIHRpdGxlPzogc3RyaW5nOwogIGJvZHlfdGV4dD86IHN0cmluZzsKICBib2R5X21hcmtkb3duPzogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIE5vdGlmaWNhdGlvbkRlbGl2ZXJ5UG9saWN5IHsKICB0aW1lb3V0X3NlY29uZHM/OiBudW1iZXI7CiAgbWF4X2F0dGVtcHRzPzogbnVtYmVyOwogIGJhY2tvZmZfc2Vjb25kcz86IG51bWJlcjsKfQoKZXhwb3J0IGludGVyZmFjZSBOb3RpZmljYXRpb25Qcm92aWRlclZpZXcgewogIGlkOiBzdHJpbmc7CiAgbmFtZTogc3RyaW5nOwogIHR5cGU6IE5vdGlmaWNhdGlvblByb3ZpZGVyVHlwZTsKICBlbmFibGVkOiBib29sZWFuOwogIGNvbm5lY3Rpb25fY29uZmlnX21hc2tlZDogUmVjb3JkPHN0cmluZywgdW5rbm93bj47CiAgY3JlYXRlZF9hdDogc3RyaW5nOwogIHVwZGF0ZWRfYXQ6IHN0cmluZzsKICBsYXN0X3Rlc3RfYXQ/OiBzdHJpbmc7CiAgbGFzdF90ZXN0X3N0YXR1cz86IE5vdGlmaWNhdGlvblRlc3RTdGF0dXM7CiAgbGFzdF9lcnJvcj86IHN0cmluZyB8IG51bGw7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgTm90aWZpY2F0aW9uUHJvdmlkZXJEZXRhaWxWaWV3IGV4dGVuZHMgTm90aWZpY2F0aW9uUHJvdmlkZXJWaWV3IHsKICBjb25uZWN0aW9uX2NvbmZpZzogUmVjb3JkPHN0cmluZywgdW5rbm93bj47Cn0KCmV4cG9ydCBpbnRlcmZhY2UgTm90aWZpY2F0aW9uVGFyZ2V0QmluZGluZyB7CiAgaWQ6IHN0cmluZzsKICBwcm92aWRlcl9pZDogc3RyaW5nOwogIGVuYWJsZWQ6IGJvb2xlYW47CiAgdGFyZ2V0X2NvbmZpZzogUmVjb3JkPHN0cmluZywgdW5rbm93bj47CiAgdGVtcGxhdGVfb3ZlcnJpZGVfbW9kZTogTm90aWZpY2F0aW9uVGVtcGxhdGVPdmVycmlkZU1vZGU7CiAgdGVtcGxhdGVfb3ZlcnJpZGU/OiBOb3RpZmljYXRpb25UZW1wbGF0ZSB8IG51bGw7CiAgZGVsaXZlcnlfcG9saWN5PzogTm90aWZpY2F0aW9uRGVsaXZlcnlQb2xpY3kgfCBudWxsOwogIGNyZWF0ZWRfYXQ6IHN0cmluZzsKICB1cGRhdGVkX2F0OiBzdHJpbmc7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgTm90aWZpY2F0aW9uUnVsZSB7CiAgaWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgZW5hYmxlZDogYm9vbGVhbjsKICBldmVudF90eXBlOiBTeXN0ZW1FdmVudFR5cGU7CiAgZXZlbnRfbGV2ZWxfZmlsdGVyPzogU3lzdGVtRXZlbnRMZXZlbFtdOwogIGV2ZW50X3NvdXJjZV9maWx0ZXI/OiBTeXN0ZW1FdmVudFNvdXJjZVtdOwogIHdpbmRvd19zZWNvbmRzOiBudW1iZXI7CiAgdGhyZXNob2xkX2NvdW50OiBudW1iZXI7CiAgZ3JvdXBfYnk6IE5vdGlmaWNhdGlvbkdyb3VwQnk7CiAgY29vbGRvd25fc2Vjb25kczogbnVtYmVyOwogIHRhcmdldHM6IE5vdGlmaWNhdGlvblRhcmdldEJpbmRpbmdbXTsKICBtZXNzYWdlX3RlbXBsYXRlX21vZGU6IE5vdGlmaWNhdGlvbk1lc3NhZ2VUZW1wbGF0ZU1vZGU7CiAgbWVzc2FnZV90ZW1wbGF0ZT86IE5vdGlmaWNhdGlvblRlbXBsYXRlIHwgbnVsbDsKICBjcmVhdGVkX2F0OiBzdHJpbmc7CiAgdXBkYXRlZF9hdDogc3RyaW5nOwogIGxhc3RfdHJpZ2dlcmVkX2F0Pzogc3RyaW5nIHwgbnVsbDsKfQoKZXhwb3J0IGludGVyZmFjZSBOb3RpZmljYXRpb25UcmlnZ2VyIHsKICBpZDogc3RyaW5nOwogIHRyYWNlX2lkPzogc3RyaW5nIHwgbnVsbDsKICBydWxlX2lkOiBzdHJpbmc7CiAgZXZlbnRfaWQ6IHN0cmluZzsKICBncm91cF9rZXk6IHN0cmluZzsKICBtYXRjaGVkX2NvdW50OiBudW1iZXI7CiAgbWVzc2FnZV9zbmFwc2hvdDogTm90aWZpY2F0aW9uTWVzc2FnZTsKICBydWxlX3NuYXBzaG90OiBOb3RpZmljYXRpb25SdWxlOwogIHN0YXR1czogTm90aWZpY2F0aW9uVHJpZ2dlclN0YXR1czsKICBjcmVhdGVkX2F0OiBzdHJpbmc7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgTm90aWZpY2F0aW9uRGVsaXZlcnkgewogIGlkOiBzdHJpbmc7CiAgdHJhY2VfaWQ/OiBzdHJpbmcgfCBudWxsOwogIHRyaWdnZXJfaWQ6IHN0cmluZzsKICBydWxlX2lkOiBzdHJpbmc7CiAgdGFyZ2V0X2lkOiBzdHJpbmc7CiAgcHJvdmlkZXJfaWQ6IHN0cmluZzsKICBldmVudF9pZDogc3RyaW5nOwogIHN0YXR1czogTm90aWZpY2F0aW9uRGVsaXZlcnlTdGF0dXM7CiAgcmVhc29uPzogc3RyaW5nIHwgbnVsbDsKICBwcm92aWRlcl90eXBlOiBOb3RpZmljYXRpb25Qcm92aWRlclR5cGU7CiAgbWVzc2FnZV9zbmFwc2hvdDogTm90aWZpY2F0aW9uTWVzc2FnZTsKICB0YXJnZXRfc25hcHNob3Q6IE5vdGlmaWNhdGlvblRhcmdldEJpbmRpbmc7CiAgcHJvdmlkZXJfc25hcHNob3Q6IE5vdGlmaWNhdGlvblByb3ZpZGVyVmlldzsKICByZXF1ZXN0X3N1bW1hcnk/OiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiB8IG51bGw7CiAgcmVzcG9uc2Vfc3VtbWFyeT86IFJlY29yZDxzdHJpbmcsIHVua25vd24+IHwgbnVsbDsKICBhdHRlbXB0X2NvdW50OiBudW1iZXI7CiAgdHJpZ2dlcmVkX2F0OiBzdHJpbmc7CiAgc2VudF9hdD86IHN0cmluZyB8IG51bGw7CiAgbmV4dF9yZXRyeV9hdD86IHN0cmluZyB8IG51bGw7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgTm90aWZpY2F0aW9uUHJvdmlkZXJDYXRhbG9nUGF5bG9hZCB7CiAgcHJvdmlkZXJzOiBOb3RpZmljYXRpb25Qcm92aWRlckRlZmluaXRpb25bXTsKfQoKZXhwb3J0IGludGVyZmFjZSBOb3RpZmljYXRpb25Qcm92aWRlckxpc3RQYXlsb2FkIHsKICBwcm92aWRlcnM6IE5vdGlmaWNhdGlvblByb3ZpZGVyVmlld1tdOwp9CgpleHBvcnQgaW50ZXJmYWNlIE5vdGlmaWNhdGlvblJ1bGVMaXN0UGF5bG9hZCB7CiAgcnVsZXM6IE5vdGlmaWNhdGlvblJ1bGVbXTsKfQoKZXhwb3J0IGludGVyZmFjZSBOb3RpZmljYXRpb25UcmlnZ2VyTGlzdFBheWxvYWQgewogIHRyaWdnZXJzOiBOb3RpZmljYXRpb25UcmlnZ2VyW107CiAgdG90YWw6IG51bWJlcjsKfQoKZXhwb3J0IGludGVyZmFjZSBOb3RpZmljYXRpb25EZWxpdmVyeUxpc3RQYXlsb2FkIHsKICBkZWxpdmVyaWVzOiBOb3RpZmljYXRpb25EZWxpdmVyeVtdOwogIHRvdGFsOiBudW1iZXI7Cn0K
+import type { components as ApiContractComponents } from "@fn-knock/api-contract";
+
+type SystemEventSchemas = ApiContractComponents["schemas"];
+
+export type SystemEventRecord = SystemEventSchemas["SystemEventData"];
+export type SystemEventListPayload = SystemEventSchemas["SystemEventListData"];
+export type SystemEventType = SystemEventRecord["type"];
+export type SystemEventLevel = SystemEventRecord["level"];
+export type SystemEventSource = SystemEventRecord["source"];
+export type SystemEventSubject = SystemEventSchemas["SystemEventSubjectData"];
+export type SystemEventSubjectKind = SystemEventSubject["kind"];
+
+export type NotificationProviderType =
+  | "wxpusher"
+  | "serverchan"
+  | "pushplus"
+  | "wecom"
+  | "dingtalk"
+  | "feishu"
+  | "email"
+  | "webhook"
+  | "pushdeer"
+  | "harmonyosmeow"
+  | "magicpush"
+  | "bark"
+  | "telegram";
+
+export type NotificationGroupBy =
+  "GLOBAL" | "IP" | "SESSION" | "SUBJECT" | "HOSTNAME" | "PROVIDER";
+
+export type NotificationTriggerStatus =
+  "created" | "fanout_done" | "partially_failed" | "completed";
+
+export type NotificationDeliveryStatus =
+  "queued" | "sending" | "success" | "failed" | "gave_up" | "skipped";
+
+export type NotificationTestStatus = "idle" | "success" | "failed";
+
+export type NotificationMessageTemplateMode = "default" | "custom";
+
+export type NotificationTemplateOverrideMode = "inherit" | "custom";
+
+export type NotificationSeverity = "info" | "warn" | "error" | "critical";
+
+export type NotificationFieldType =
+  SystemEventSchemas["NotificationSchemaFieldData"]["type"];
+
+export interface NotificationHeaderEntry {
+  name: string;
+  value: string;
+}
+
+export type NotificationSchemaConstraints =
+  SystemEventSchemas["NotificationSchemaConstraintsData"];
+export type NotificationHeaderConstraints = Extract<
+  NotificationSchemaConstraints,
+  { kind: "headers" }
+>;
+export type NotificationWebhookBodyConstraints = Extract<
+  NotificationSchemaConstraints,
+  { kind: "webhook_body" }
+>;
+export type NotificationWebhookBodyPreview =
+  SystemEventSchemas["NotificationWebhookBodyPreviewData"];
+
+export interface NotificationFieldOption {
+  label: string;
+  value: string;
+}
+
+export interface NotificationSchemaField {
+  key: string;
+  label: string;
+  description?: string;
+  placeholder?: string;
+  type: NotificationFieldType;
+  required?: boolean;
+  sensitive?: boolean;
+  default_value?: unknown;
+  options?: NotificationFieldOption[];
+  min?: number;
+  max?: number;
+  constraints?: NotificationSchemaConstraints;
+}
+
+export interface NotificationProviderCapabilities {
+  supports_text: boolean;
+  supports_markdown: boolean;
+  supports_rich_blocks: boolean;
+  supports_actions: boolean;
+  supports_mentions: boolean;
+  supports_attachments: boolean;
+  supports_provider_dedupe_key: boolean;
+  max_body_length?: number | null;
+}
+
+export interface NotificationProviderDefinition {
+  type: NotificationProviderType;
+  label: string;
+  description: string;
+  connection_schema: NotificationSchemaField[];
+  target_schema: NotificationSchemaField[];
+  sensitive_fields: string[];
+  capabilities: NotificationProviderCapabilities;
+}
+
+export interface NotificationMessageFact {
+  label: string;
+  value: string;
+}
+
+export interface NotificationMessageAction {
+  label: string;
+  url: string;
+}
+
+export interface NotificationMessage {
+  title: string;
+  summary: string;
+  body_text: string;
+  body_markdown?: string;
+  severity: NotificationSeverity;
+  facts: NotificationMessageFact[];
+  /** Stable detail keys; absent on historical messages. */
+  fact_values?: Record<string, string>;
+  actions: NotificationMessageAction[];
+  mentions: string[];
+  dedupe_key?: string;
+  occurred_at: string;
+  event_id?: string;
+  metadata?: Record<string, unknown>;
+}
+
+export interface NotificationTemplate {
+  title?: string;
+  body_text?: string;
+  body_markdown?: string;
+}
+
+export interface NotificationDeliveryPolicy {
+  timeout_seconds?: number;
+  max_attempts?: number;
+  backoff_seconds?: number;
+}
+
+export interface NotificationProviderView {
+  id: string;
+  name: string;
+  type: NotificationProviderType;
+  enabled: boolean;
+  connection_config_masked: Record<string, unknown>;
+  created_at: string;
+  updated_at: string;
+  last_test_at?: string;
+  last_test_status?: NotificationTestStatus;
+  last_error?: string | null;
+}
+
+export interface NotificationProviderDetailView extends NotificationProviderView {
+  connection_config: Record<string, unknown>;
+}
+
+export interface NotificationTargetBinding {
+  id: string;
+  provider_id: string;
+  enabled: boolean;
+  target_config: Record<string, unknown>;
+  template_override_mode: NotificationTemplateOverrideMode;
+  template_override?: NotificationTemplate | null;
+  delivery_policy?: NotificationDeliveryPolicy | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface NotificationRule {
+  id: string;
+  name: string;
+  enabled: boolean;
+  event_type: SystemEventType;
+  event_level_filter?: SystemEventLevel[];
+  event_source_filter?: SystemEventSource[];
+  window_seconds: number;
+  threshold_count: number;
+  group_by: NotificationGroupBy;
+  cooldown_seconds: number;
+  targets: NotificationTargetBinding[];
+  message_template_mode: NotificationMessageTemplateMode;
+  message_template?: NotificationTemplate | null;
+  created_at: string;
+  updated_at: string;
+  last_triggered_at?: string | null;
+}
+
+export interface NotificationTrigger {
+  id: string;
+  trace_id?: string | null;
+  rule_id: string;
+  event_id: string;
+  group_key: string;
+  matched_count: number;
+  message_snapshot: NotificationMessage;
+  rule_snapshot: NotificationRule;
+  status: NotificationTriggerStatus;
+  created_at: string;
+}
+
+export interface NotificationDelivery {
+  id: string;
+  trace_id?: string | null;
+  trigger_id: string;
+  rule_id: string;
+  target_id: string;
+  provider_id: string;
+  event_id: string;
+  status: NotificationDeliveryStatus;
+  reason?: string | null;
+  provider_type: NotificationProviderType;
+  message_snapshot: NotificationMessage;
+  target_snapshot: NotificationTargetBinding;
+  provider_snapshot: NotificationProviderView;
+  request_summary?: Record<string, unknown> | null;
+  response_summary?: Record<string, unknown> | null;
+  attempt_count: number;
+  triggered_at: string;
+  sent_at?: string | null;
+  next_retry_at?: string | null;
+}
+
+export interface NotificationProviderCatalogPayload {
+  providers: NotificationProviderDefinition[];
+}
+
+export interface NotificationProviderListPayload {
+  providers: NotificationProviderView[];
+}
+
+export interface NotificationRuleListPayload {
+  rules: NotificationRule[];
+}
+
+export interface NotificationTriggerListPayload {
+  triggers: NotificationTrigger[];
+  total: number;
+}
+
+export interface NotificationDeliveryListPayload {
+  deliveries: NotificationDelivery[];
+  total: number;
+}

@@ -1,1 +1,489 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlYWN0aXZlLCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsKICBUZXJtaW5hbEFQSSwKICB0eXBlIFRlcm1pbmFsQXV0aE1ldGhvZCwKICB0eXBlIFRlcm1pbmFsQ3JlZGVudGlhbE11dGF0aW9uLAogIHR5cGUgVGVybWluYWxFcnJvckNvZGUsCiAgdHlwZSBUZXJtaW5hbFBhc3NwaHJhc2VNdXRhdGlvbiwKICB0eXBlIFRlcm1pbmFsVGFyZ2V0Q3JlYXRlSW5wdXQsCiAgdHlwZSBUZXJtaW5hbFRhcmdldFJlY29yZCwKICB0eXBlIFRlcm1pbmFsVGFyZ2V0VXBkYXRlSW5wdXQsCiAgdHlwZSBUZXJtaW5hbFRydXN0ZWRIb3N0S2V5LAp9IGZyb20gIkAvbGliL2FwaS90ZXJtaW5hbCI7CmltcG9ydCB7IGV4dHJhY3RUZXJtaW5hbEVycm9yIH0gZnJvbSAiLi90ZXJtaW5hbC1lcnJvcnMiOwoKZXhwb3J0IGludGVyZmFjZSBUZXJtaW5hbFRhcmdldERyYWZ0IHsKICBuYW1lOiBzdHJpbmc7CiAgaG9zdDogc3RyaW5nOwogIHBvcnQ6IG51bWJlcjsKICB1c2VybmFtZTogc3RyaW5nOwogIGF1dGhNZXRob2Q6IFRlcm1pbmFsQXV0aE1ldGhvZDsKICBzZWNyZXQ6IHN0cmluZzsKICBwYXNzcGhyYXNlOiBzdHJpbmc7CiAgY2xlYXJDcmVkZW50aWFsOiBib29sZWFuOwogIGNsZWFyUGFzc3BocmFzZTogYm9vbGVhbjsKICB0cnVzdGVkSG9zdEtleTogVGVybWluYWxUcnVzdGVkSG9zdEtleSB8IG51bGw7Cn0KCmNvbnN0IGVtcHR5RHJhZnQgPSAoKTogVGVybWluYWxUYXJnZXREcmFmdCA9PiAoewogIG5hbWU6ICIiLAogIGhvc3Q6ICIiLAogIHBvcnQ6IDIyLAogIHVzZXJuYW1lOiAiIiwKICBhdXRoTWV0aG9kOiAicGFzc3dvcmQiLAogIHNlY3JldDogIiIsCiAgcGFzc3BocmFzZTogIiIsCiAgY2xlYXJDcmVkZW50aWFsOiBmYWxzZSwKICBjbGVhclBhc3NwaHJhc2U6IGZhbHNlLAogIHRydXN0ZWRIb3N0S2V5OiBudWxsLAp9KTsKCmNvbnN0IGNvcHlEcmFmdCA9IChkcmFmdDogVGVybWluYWxUYXJnZXREcmFmdCwgc291cmNlOiBUZXJtaW5hbFRhcmdldERyYWZ0KSA9PgogIE9iamVjdC5hc3NpZ24oZHJhZnQsIHNvdXJjZSk7CgpleHBvcnQgY29uc3QgdXNlVGVybWluYWxUYXJnZXRFZGl0b3IgPSAoewogIGNhbmNlbFBlbmRpbmdTYXZlLAogIGNyZWF0ZVRhcmdldCwKICB1cGRhdGVUYXJnZXQsCn06IHsKICBjYW5jZWxQZW5kaW5nU2F2ZT86ICgpID0+IHZvaWQ7CiAgY3JlYXRlVGFyZ2V0OiAoCiAgICBwYXlsb2FkOiBUZXJtaW5hbFRhcmdldENyZWF0ZUlucHV0LAogICkgPT4gUHJvbWlzZTxUZXJtaW5hbFRhcmdldFJlY29yZD47CiAgdXBkYXRlVGFyZ2V0OiAoCiAgICB0YXJnZXRJZDogc3RyaW5nLAogICAgcGF5bG9hZDogVGVybWluYWxUYXJnZXRVcGRhdGVJbnB1dCwKICAgIGZvcmNlPzogYm9vbGVhbiwKICAgIGNvbmZpcm1hdGlvblRva2VuPzogc3RyaW5nLAogICkgPT4gUHJvbWlzZTxUZXJtaW5hbFRhcmdldFJlY29yZD47Cn0pID0+IHsKICBjb25zdCBvcGVuID0gcmVmKGZhbHNlKTsKICBjb25zdCBlZGl0aW5nVGFyZ2V0ID0gcmVmPFRlcm1pbmFsVGFyZ2V0UmVjb3JkIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgZHJhZnQgPSByZWFjdGl2ZTxUZXJtaW5hbFRhcmdldERyYWZ0PihlbXB0eURyYWZ0KCkpOwogIGNvbnN0IHBlbmRpbmdIb3N0S2V5ID0gcmVmPFRlcm1pbmFsVHJ1c3RlZEhvc3RLZXkgfCBudWxsPihudWxsKTsKICBjb25zdCB0ZXN0aW5nID0gcmVmKGZhbHNlKTsKICBjb25zdCBzYXZpbmcgPSByZWYoZmFsc2UpOwogIGNvbnN0IHRlc3RlZEdlbmVyYXRpb24gPSByZWY8bnVtYmVyIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgdmVyaWZpY2F0aW9uVG9rZW4gPSByZWYoIiIpOwogIGNvbnN0IGVycm9yID0gcmVmKCIiKTsKICBjb25zdCBlcnJvckNvZGUgPSByZWY8VGVybWluYWxFcnJvckNvZGUgfCBudWxsPihudWxsKTsKICBjb25zdCBjb25mbGljdGluZ0FjdGl2ZVNlc3Npb25Db3VudCA9IHJlZjxudW1iZXIgfCBudWxsPihudWxsKTsKICBjb25zdCBmb3JjZUNvbmZpcm1hdGlvblJlcXVpcmVkID0gcmVmKGZhbHNlKTsKICBjb25zdCBmb3JjZUNvbmZpcm1hdGlvblRva2VuID0gcmVmKCIiKTsKICBsZXQgY29ubmVjdGlvbkdlbmVyYXRpb24gPSAwOwogIGxldCBvcGVyYXRpb25HZW5lcmF0aW9uID0gMDsKICBsZXQgb3BlcmF0aW9uQ29udHJvbGxlcjogQWJvcnRDb250cm9sbGVyIHwgbnVsbCA9IG51bGw7CiAgbGV0IHN1cHByZXNzQ29ubmVjdGlvbkludmFsaWRhdGlvbiA9IGZhbHNlOwoKICBjb25zdCBjbGVhclNlbnNpdGl2ZURyYWZ0ID0gKCkgPT4gewogICAgc3VwcHJlc3NDb25uZWN0aW9uSW52YWxpZGF0aW9uID0gdHJ1ZTsKICAgIGRyYWZ0LnNlY3JldCA9ICIiOwogICAgZHJhZnQucGFzc3BocmFzZSA9ICIiOwogICAgcGVuZGluZ0hvc3RLZXkudmFsdWUgPSBudWxsOwogICAgdmVyaWZpY2F0aW9uVG9rZW4udmFsdWUgPSAiIjsKICAgIHN1cHByZXNzQ29ubmVjdGlvbkludmFsaWRhdGlvbiA9IGZhbHNlOwogIH07CgogIHdhdGNoKAogICAgWwogICAgICAoKSA9PiBkcmFmdC5ob3N0LAogICAgICAoKSA9PiBkcmFmdC5wb3J0LAogICAgICAoKSA9PiBkcmFmdC51c2VybmFtZSwKICAgICAgKCkgPT4gZHJhZnQuYXV0aE1ldGhvZCwKICAgICAgKCkgPT4gZHJhZnQuc2VjcmV0LAogICAgICAoKSA9PiBkcmFmdC5wYXNzcGhyYXNlLAogICAgICAoKSA9PiBkcmFmdC5jbGVhckNyZWRlbnRpYWwsCiAgICAgICgpID0+IGRyYWZ0LmNsZWFyUGFzc3BocmFzZSwKICAgICAgKCkgPT4gZHJhZnQudHJ1c3RlZEhvc3RLZXk/LmFsZ29yaXRobSwKICAgICAgKCkgPT4gZHJhZnQudHJ1c3RlZEhvc3RLZXk/LmZpbmdlcnByaW50LAogICAgXSwKICAgICgpID0+IHsKICAgICAgaWYgKHN1cHByZXNzQ29ubmVjdGlvbkludmFsaWRhdGlvbikgcmV0dXJuOwogICAgICBjb25uZWN0aW9uR2VuZXJhdGlvbiArPSAxOwogICAgICB0ZXN0ZWRHZW5lcmF0aW9uLnZhbHVlID0gbnVsbDsKICAgICAgdmVyaWZpY2F0aW9uVG9rZW4udmFsdWUgPSAiIjsKICAgICAgb3BlcmF0aW9uR2VuZXJhdGlvbiArPSAxOwogICAgICBvcGVyYXRpb25Db250cm9sbGVyPy5hYm9ydCgpOwogICAgICBvcGVyYXRpb25Db250cm9sbGVyID0gbnVsbDsKICAgICAgY2FuY2VsUGVuZGluZ1NhdmU/LigpOwogICAgICB0ZXN0aW5nLnZhbHVlID0gZmFsc2U7CiAgICAgIGVycm9yLnZhbHVlID0gIiI7CiAgICAgIGVycm9yQ29kZS52YWx1ZSA9IG51bGw7CiAgICAgIGNvbmZsaWN0aW5nQWN0aXZlU2Vzc2lvbkNvdW50LnZhbHVlID0gbnVsbDsKICAgICAgZm9yY2VDb25maXJtYXRpb25SZXF1aXJlZC52YWx1ZSA9IGZhbHNlOwogICAgICBmb3JjZUNvbmZpcm1hdGlvblRva2VuLnZhbHVlID0gIiI7CiAgICB9LAogICAgeyBmbHVzaDogInN5bmMiIH0sCiAgKTsKCiAgY29uc3QgZW5kcG9pbnRLZXkgPSBjb21wdXRlZCgoKSA9PiBgJHtkcmFmdC5ob3N0LnRyaW0oKX06JHtkcmFmdC5wb3J0fWApOwogIGNvbnN0IGNyZWRlbnRpYWxDb25maWd1cmVkID0gY29tcHV0ZWQoCiAgICAoKSA9PgogICAgICBlZGl0aW5nVGFyZ2V0LnZhbHVlPy5jcmVkZW50aWFsQ29uZmlndXJlZCA9PT0gdHJ1ZSAmJgogICAgICBlZGl0aW5nVGFyZ2V0LnZhbHVlLmF1dGhNZXRob2QgPT09IGRyYWZ0LmF1dGhNZXRob2QsCiAgKTsKICBjb25zdCBwYXNzcGhyYXNlQ29uZmlndXJlZCA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgZWRpdGluZ1RhcmdldC52YWx1ZT8ucGFzc3BocmFzZUNvbmZpZ3VyZWQgPT09IHRydWUgJiYKICAgICAgZHJhZnQuYXV0aE1ldGhvZCA9PT0gInByaXZhdGVLZXkiICYmCiAgICAgIGVkaXRpbmdUYXJnZXQudmFsdWUuYXV0aE1ldGhvZCA9PT0gZHJhZnQuYXV0aE1ldGhvZCwKICApOwogIGNvbnN0IGhhc0NyZWRlbnRpYWwgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoZHJhZnQuY2xlYXJDcmVkZW50aWFsKSByZXR1cm4gZmFsc2U7CiAgICByZXR1cm4gQm9vbGVhbihkcmFmdC5zZWNyZXQgfHwgY3JlZGVudGlhbENvbmZpZ3VyZWQudmFsdWUpOwogIH0pOwogIGNvbnN0IHRlc3RhYmxlID0gY29tcHV0ZWQoKCkgPT4KICAgIEJvb2xlYW4oCiAgICAgIGRyYWZ0Lmhvc3QudHJpbSgpICYmCiAgICAgIGRyYWZ0LnVzZXJuYW1lLnRyaW0oKSAmJgogICAgICBOdW1iZXIuaXNJbnRlZ2VyKGRyYWZ0LnBvcnQpICYmCiAgICAgIGRyYWZ0LnBvcnQgPj0gMSAmJgogICAgICBkcmFmdC5wb3J0IDw9IDY1NTM1ICYmCiAgICAgIGhhc0NyZWRlbnRpYWwudmFsdWUsCiAgICApLAogICk7CiAgY29uc3QgcmVxdWlyZXNTZXNzaW9uVGVybWluYXRpb24gPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBzYXZlZCA9IGVkaXRpbmdUYXJnZXQudmFsdWU7CiAgICBpZiAoIXNhdmVkKSByZXR1cm4gZmFsc2U7CiAgICByZXR1cm4gKAogICAgICBkcmFmdC5ob3N0LnRyaW0oKSAhPT0gc2F2ZWQuaG9zdCB8fAogICAgICBkcmFmdC5wb3J0ICE9PSBzYXZlZC5wb3J0IHx8CiAgICAgIGRyYWZ0LnVzZXJuYW1lLnRyaW0oKSAhPT0gc2F2ZWQudXNlcm5hbWUgfHwKICAgICAgZHJhZnQuYXV0aE1ldGhvZCAhPT0gc2F2ZWQuYXV0aE1ldGhvZCB8fAogICAgICBkcmFmdC50cnVzdGVkSG9zdEtleT8uYWxnb3JpdGhtICE9PSBzYXZlZC50cnVzdGVkSG9zdEtleT8uYWxnb3JpdGhtIHx8CiAgICAgIGRyYWZ0LnRydXN0ZWRIb3N0S2V5Py5maW5nZXJwcmludCAhPT0gc2F2ZWQudHJ1c3RlZEhvc3RLZXk/LmZpbmdlcnByaW50IHx8CiAgICAgIGNyZWRlbnRpYWxNdXRhdGlvbigpLmFjdGlvbiAhPT0gImtlZXAiIHx8CiAgICAgIHBhc3NwaHJhc2VNdXRhdGlvbigpLmFjdGlvbiAhPT0gImtlZXAiCiAgICApOwogIH0pOwogIGNvbnN0IHRlc3RlZCA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgQm9vbGVhbih2ZXJpZmljYXRpb25Ub2tlbi52YWx1ZSkgJiYKICAgICAgdGVzdGVkR2VuZXJhdGlvbi52YWx1ZSA9PT0gY29ubmVjdGlvbkdlbmVyYXRpb24sCiAgKTsKICBjb25zdCB2YWxpZCA9IGNvbXB1dGVkKCgpID0+CiAgICBCb29sZWFuKAogICAgICBkcmFmdC5uYW1lLnRyaW0oKSAmJgogICAgICBkcmFmdC5ob3N0LnRyaW0oKSAmJgogICAgICBkcmFmdC51c2VybmFtZS50cmltKCkgJiYKICAgICAgTnVtYmVyLmlzSW50ZWdlcihkcmFmdC5wb3J0KSAmJgogICAgICBkcmFmdC5wb3J0ID49IDEgJiYKICAgICAgZHJhZnQucG9ydCA8PSA2NTUzNSAmJgogICAgICBkcmFmdC50cnVzdGVkSG9zdEtleSAmJgogICAgICAoaGFzQ3JlZGVudGlhbC52YWx1ZSB8fCBkcmFmdC5jbGVhckNyZWRlbnRpYWwpLAogICAgKSwKICApOwogIGNvbnN0IGNhblNhdmUgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoCiAgICAgIGVkaXRpbmdUYXJnZXQudmFsdWUgJiYKICAgICAgIXJlcXVpcmVzU2Vzc2lvblRlcm1pbmF0aW9uLnZhbHVlICYmCiAgICAgIGRyYWZ0Lm5hbWUudHJpbSgpCiAgICApIHsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9CiAgICByZXR1cm4gdmFsaWQudmFsdWUgJiYgKGRyYWZ0LmNsZWFyQ3JlZGVudGlhbCB8fCB0ZXN0ZWQudmFsdWUpOwogIH0pOwoKICBjb25zdCByZXNldEFzeW5jU3RhdGUgPSAoKSA9PiB7CiAgICBvcGVyYXRpb25HZW5lcmF0aW9uICs9IDE7CiAgICBvcGVyYXRpb25Db250cm9sbGVyPy5hYm9ydCgpOwogICAgb3BlcmF0aW9uQ29udHJvbGxlciA9IG51bGw7CiAgICBjYW5jZWxQZW5kaW5nU2F2ZT8uKCk7CiAgICB0ZXN0aW5nLnZhbHVlID0gZmFsc2U7CiAgICBzYXZpbmcudmFsdWUgPSBmYWxzZTsKICAgIGVycm9yLnZhbHVlID0gIiI7CiAgICBlcnJvckNvZGUudmFsdWUgPSBudWxsOwogICAgY29uZmxpY3RpbmdBY3RpdmVTZXNzaW9uQ291bnQudmFsdWUgPSBudWxsOwogICAgZm9yY2VDb25maXJtYXRpb25SZXF1aXJlZC52YWx1ZSA9IGZhbHNlOwogICAgZm9yY2VDb25maXJtYXRpb25Ub2tlbi52YWx1ZSA9ICIiOwogIH07CgogIGNvbnN0IGJlZ2luQ3JlYXRlID0gKCkgPT4gewogICAgcmVzZXRBc3luY1N0YXRlKCk7CiAgICBlZGl0aW5nVGFyZ2V0LnZhbHVlID0gbnVsbDsKICAgIGNvcHlEcmFmdChkcmFmdCwgZW1wdHlEcmFmdCgpKTsKICAgIHBlbmRpbmdIb3N0S2V5LnZhbHVlID0gbnVsbDsKICAgIHRlc3RlZEdlbmVyYXRpb24udmFsdWUgPSBudWxsOwogICAgdmVyaWZpY2F0aW9uVG9rZW4udmFsdWUgPSAiIjsKICAgIG9wZW4udmFsdWUgPSB0cnVlOwogIH07CgogIGNvbnN0IGJlZ2luRWRpdCA9ICh0YXJnZXQ6IFRlcm1pbmFsVGFyZ2V0UmVjb3JkKSA9PiB7CiAgICByZXNldEFzeW5jU3RhdGUoKTsKICAgIGVkaXRpbmdUYXJnZXQudmFsdWUgPSB0YXJnZXQ7CiAgICBjb3B5RHJhZnQoZHJhZnQsIHsKICAgICAgbmFtZTogdGFyZ2V0Lm5hbWUsCiAgICAgIGhvc3Q6IHRhcmdldC5ob3N0LAogICAgICBwb3J0OiB0YXJnZXQucG9ydCwKICAgICAgdXNlcm5hbWU6IHRhcmdldC51c2VybmFtZSwKICAgICAgYXV0aE1ldGhvZDogdGFyZ2V0LmF1dGhNZXRob2QsCiAgICAgIHNlY3JldDogIiIsCiAgICAgIHBhc3NwaHJhc2U6ICIiLAogICAgICBjbGVhckNyZWRlbnRpYWw6IGZhbHNlLAogICAgICBjbGVhclBhc3NwaHJhc2U6IGZhbHNlLAogICAgICB0cnVzdGVkSG9zdEtleTogdGFyZ2V0LnRydXN0ZWRIb3N0S2V5CiAgICAgICAgPyB7IC4uLnRhcmdldC50cnVzdGVkSG9zdEtleSB9CiAgICAgICAgOiBudWxsLAogICAgfSk7CiAgICBwZW5kaW5nSG9zdEtleS52YWx1ZSA9IG51bGw7CiAgICB0ZXN0ZWRHZW5lcmF0aW9uLnZhbHVlID0gbnVsbDsKICAgIHZlcmlmaWNhdGlvblRva2VuLnZhbHVlID0gIiI7CiAgICBvcGVuLnZhbHVlID0gdHJ1ZTsKICB9OwoKICBjb25zdCBpbnZhbGlkYXRlVHJ1c3QgPSAoKSA9PiB7CiAgICBkcmFmdC50cnVzdGVkSG9zdEtleSA9IG51bGw7CiAgICBwZW5kaW5nSG9zdEtleS52YWx1ZSA9IG51bGw7CiAgfTsKCiAgY29uc3Qgc2V0RW5kcG9pbnQgPSAoZmllbGQ6ICJob3N0IiB8ICJwb3J0IiwgdmFsdWU6IHN0cmluZyB8IG51bWJlcikgPT4gewogICAgaWYgKGZpZWxkID09PSAiaG9zdCIpIGRyYWZ0Lmhvc3QgPSBTdHJpbmcodmFsdWUpOwogICAgZWxzZSBkcmFmdC5wb3J0ID0gTnVtYmVyKHZhbHVlKTsKICAgIGNvbnN0IHNhdmVkID0gZWRpdGluZ1RhcmdldC52YWx1ZTsKICAgIGlmICgKICAgICAgIXNhdmVkIHx8CiAgICAgIGRyYWZ0Lmhvc3QudHJpbSgpICE9PSBzYXZlZC5ob3N0IHx8CiAgICAgIGRyYWZ0LnBvcnQgIT09IHNhdmVkLnBvcnQKICAgICkgewogICAgICBpbnZhbGlkYXRlVHJ1c3QoKTsKICAgIH0gZWxzZSB7CiAgICAgIGRyYWZ0LnRydXN0ZWRIb3N0S2V5ID0gc2F2ZWQudHJ1c3RlZEhvc3RLZXkKICAgICAgICA/IHsgLi4uc2F2ZWQudHJ1c3RlZEhvc3RLZXkgfQogICAgICAgIDogbnVsbDsKICAgIH0KICB9OwoKICBjb25zdCBzZXRBdXRoTWV0aG9kID0gKGF1dGhNZXRob2Q6IFRlcm1pbmFsQXV0aE1ldGhvZCkgPT4gewogICAgaWYgKGRyYWZ0LmF1dGhNZXRob2QgPT09IGF1dGhNZXRob2QpIHJldHVybjsKICAgIGRyYWZ0LmF1dGhNZXRob2QgPSBhdXRoTWV0aG9kOwogICAgZHJhZnQuc2VjcmV0ID0gIiI7CiAgICBkcmFmdC5wYXNzcGhyYXNlID0gIiI7CiAgICBkcmFmdC5jbGVhckNyZWRlbnRpYWwgPSBmYWxzZTsKICAgIGRyYWZ0LmNsZWFyUGFzc3BocmFzZSA9IGZhbHNlOwogIH07CgogIGNvbnN0IGJlZ2luT3BlcmF0aW9uID0gKCkgPT4gewogICAgY29uc3QgZ2VuZXJhdGlvbiA9ICsrb3BlcmF0aW9uR2VuZXJhdGlvbjsKICAgIG9wZXJhdGlvbkNvbnRyb2xsZXI/LmFib3J0KCk7CiAgICBvcGVyYXRpb25Db250cm9sbGVyID0gbmV3IEFib3J0Q29udHJvbGxlcigpOwogICAgZXJyb3IudmFsdWUgPSAiIjsKICAgIGVycm9yQ29kZS52YWx1ZSA9IG51bGw7CiAgICBjb25mbGljdGluZ0FjdGl2ZVNlc3Npb25Db3VudC52YWx1ZSA9IG51bGw7CiAgICBmb3JjZUNvbmZpcm1hdGlvblRva2VuLnZhbHVlID0gIiI7CiAgICByZXR1cm4geyBnZW5lcmF0aW9uLCBzaWduYWw6IG9wZXJhdGlvbkNvbnRyb2xsZXIuc2lnbmFsIH07CiAgfTsKCiAgY29uc3QgY3JlZGVudGlhbE11dGF0aW9uID0gKCk6IFRlcm1pbmFsQ3JlZGVudGlhbE11dGF0aW9uID0+IHsKICAgIGlmIChkcmFmdC5jbGVhckNyZWRlbnRpYWwpIHJldHVybiB7IGFjdGlvbjogImNsZWFyIiB9OwogICAgaWYgKCFkcmFmdC5zZWNyZXQpIHJldHVybiB7IGFjdGlvbjogImtlZXAiIH07CiAgICByZXR1cm4geyBhY3Rpb246ICJyZXBsYWNlIiwgc2VjcmV0OiBkcmFmdC5zZWNyZXQgfTsKICB9OwoKICBjb25zdCBwYXNzcGhyYXNlTXV0YXRpb24gPSAoKTogVGVybWluYWxQYXNzcGhyYXNlTXV0YXRpb24gPT4gewogICAgaWYgKGRyYWZ0LmF1dGhNZXRob2QgIT09ICJwcml2YXRlS2V5IikgcmV0dXJuIHsgYWN0aW9uOiAia2VlcCIgfTsKICAgIGlmIChkcmFmdC5jbGVhckNyZWRlbnRpYWwgfHwgZHJhZnQuY2xlYXJQYXNzcGhyYXNlKSB7CiAgICAgIHJldHVybiB7IGFjdGlvbjogImNsZWFyIiB9OwogICAgfQogICAgaWYgKCFkcmFmdC5wYXNzcGhyYXNlKSByZXR1cm4geyBhY3Rpb246ICJrZWVwIiB9OwogICAgcmV0dXJuIHsgYWN0aW9uOiAicmVwbGFjZSIsIHNlY3JldDogZHJhZnQucGFzc3BocmFzZSB9OwogIH07CgogIGNvbnN0IGJ1aWxkUGF5bG9hZEZpZWxkcyA9ICgpID0+ICh7CiAgICBuYW1lOiBkcmFmdC5uYW1lLnRyaW0oKSwKICAgIGhvc3Q6IGRyYWZ0Lmhvc3QudHJpbSgpLAogICAgcG9ydDogZHJhZnQucG9ydCwKICAgIHVzZXJuYW1lOiBkcmFmdC51c2VybmFtZS50cmltKCksCiAgICBhdXRoTWV0aG9kOiBkcmFmdC5hdXRoTWV0aG9kLAogICAgdHJ1c3RlZEhvc3RLZXk6IGRyYWZ0LnRydXN0ZWRIb3N0S2V5ID8geyAuLi5kcmFmdC50cnVzdGVkSG9zdEtleSB9IDogbnVsbCwKICAgIGNyZWRlbnRpYWw6IGNyZWRlbnRpYWxNdXRhdGlvbigpLAogICAgcGFzc3BocmFzZTogcGFzc3BocmFzZU11dGF0aW9uKCksCiAgICAuLi4odmVyaWZpY2F0aW9uVG9rZW4udmFsdWUKICAgICAgPyB7IHZlcmlmaWNhdGlvblRva2VuOiB2ZXJpZmljYXRpb25Ub2tlbi52YWx1ZSB9CiAgICAgIDoge30pLAogIH0pOwoKICBjb25zdCBidWlsZENyZWF0ZVBheWxvYWQgPSAoKTogVGVybWluYWxUYXJnZXRDcmVhdGVJbnB1dCA9PgogICAgYnVpbGRQYXlsb2FkRmllbGRzKCk7CgogIGNvbnN0IGJ1aWxkVXBkYXRlUGF5bG9hZCA9ICgKICAgIHRhcmdldDogVGVybWluYWxUYXJnZXRSZWNvcmQsCiAgKTogVGVybWluYWxUYXJnZXRVcGRhdGVJbnB1dCA9PiAoewogICAgLi4uYnVpbGRQYXlsb2FkRmllbGRzKCksCiAgICByZXZpc2lvbjogdGFyZ2V0LnJldmlzaW9uLAogIH0pOwoKICBjb25zdCBzYW1lSG9zdEtleSA9ICgKICAgIGxlZnQ6IFRlcm1pbmFsVHJ1c3RlZEhvc3RLZXkgfCBudWxsLAogICAgcmlnaHQ6IFRlcm1pbmFsVHJ1c3RlZEhvc3RLZXksCiAgKSA9PgogICAgbGVmdD8uYWxnb3JpdGhtID09PSByaWdodC5hbGdvcml0aG0gJiYKICAgIGxlZnQuZmluZ2VycHJpbnQgPT09IHJpZ2h0LmZpbmdlcnByaW50OwoKICBjb25zdCBydW5Db25uZWN0aW9uVGVzdCA9IGFzeW5jIChza2lwUHJvYmU6IGJvb2xlYW4pID0+IHsKICAgIGlmICghdGVzdGFibGUudmFsdWUpIHJldHVybiBmYWxzZTsKICAgIGNvbnN0IHRlc3RlZENvbm5lY3Rpb25HZW5lcmF0aW9uID0gY29ubmVjdGlvbkdlbmVyYXRpb247CiAgICBjb25zdCBlbmRwb2ludCA9IGVuZHBvaW50S2V5LnZhbHVlOwogICAgY29uc3Qgb3BlcmF0aW9uID0gYmVnaW5PcGVyYXRpb24oKTsKICAgIHRlc3RpbmcudmFsdWUgPSB0cnVlOwogICAgcGVuZGluZ0hvc3RLZXkudmFsdWUgPSBudWxsOwogICAgdHJ5IHsKICAgICAgbGV0IHRydXN0ZWRIb3N0S2V5ID0gZHJhZnQudHJ1c3RlZEhvc3RLZXk7CiAgICAgIGlmICghc2tpcFByb2JlKSB7CiAgICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgVGVybWluYWxBUEkucHJvYmVIb3N0S2V5KAogICAgICAgICAgeyBob3N0OiBkcmFmdC5ob3N0LnRyaW0oKSwgcG9ydDogZHJhZnQucG9ydCB9LAogICAgICAgICAgb3BlcmF0aW9uLnNpZ25hbCwKICAgICAgICApOwogICAgICAgIGlmICgKICAgICAgICAgIG9wZXJhdGlvbi5nZW5lcmF0aW9uICE9PSBvcGVyYXRpb25HZW5lcmF0aW9uIHx8CiAgICAgICAgICB0ZXN0ZWRDb25uZWN0aW9uR2VuZXJhdGlvbiAhPT0gY29ubmVjdGlvbkdlbmVyYXRpb24gfHwKICAgICAgICAgIGVuZHBvaW50ICE9PSBlbmRwb2ludEtleS52YWx1ZQogICAgICAgICkgewogICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgIH0KICAgICAgICBjb25zdCBsaXZlSG9zdEtleSA9IHsKICAgICAgICAgIGFsZ29yaXRobTogcmVzdWx0LmFsZ29yaXRobSwKICAgICAgICAgIGZpbmdlcnByaW50OiByZXN1bHQuZmluZ2VycHJpbnQsCiAgICAgICAgfTsKICAgICAgICBpZiAoIXNhbWVIb3N0S2V5KHRydXN0ZWRIb3N0S2V5LCBsaXZlSG9zdEtleSkpIHsKICAgICAgICAgIHBlbmRpbmdIb3N0S2V5LnZhbHVlID0gbGl2ZUhvc3RLZXk7CiAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgfQogICAgICAgIHRydXN0ZWRIb3N0S2V5ID0gbGl2ZUhvc3RLZXk7CiAgICAgIH0KICAgICAgaWYgKCF0cnVzdGVkSG9zdEtleSkgcmV0dXJuIGZhbHNlOwogICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBUZXJtaW5hbEFQSS50ZXN0Q29ubmVjdGlvbigKICAgICAgICB7CiAgICAgICAgICAuLi4oZWRpdGluZ1RhcmdldC52YWx1ZSA/IHsgdGFyZ2V0SWQ6IGVkaXRpbmdUYXJnZXQudmFsdWUuaWQgfSA6IHt9KSwKICAgICAgICAgIGRyYWZ0OiB7CiAgICAgICAgICAgIGhvc3Q6IGRyYWZ0Lmhvc3QudHJpbSgpLAogICAgICAgICAgICBwb3J0OiBkcmFmdC5wb3J0LAogICAgICAgICAgICB1c2VybmFtZTogZHJhZnQudXNlcm5hbWUudHJpbSgpLAogICAgICAgICAgICBhdXRoTWV0aG9kOiBkcmFmdC5hdXRoTWV0aG9kLAogICAgICAgICAgICB0cnVzdGVkSG9zdEtleTogeyAuLi50cnVzdGVkSG9zdEtleSB9LAogICAgICAgICAgfSwKICAgICAgICAgIGNyZWRlbnRpYWw6IGNyZWRlbnRpYWxNdXRhdGlvbigpLAogICAgICAgICAgcGFzc3BocmFzZTogcGFzc3BocmFzZU11dGF0aW9uKCksCiAgICAgICAgfSwKICAgICAgICBvcGVyYXRpb24uc2lnbmFsLAogICAgICApOwogICAgICBpZiAoCiAgICAgICAgb3BlcmF0aW9uLmdlbmVyYXRpb24gIT09IG9wZXJhdGlvbkdlbmVyYXRpb24gfHwKICAgICAgICB0ZXN0ZWRDb25uZWN0aW9uR2VuZXJhdGlvbiAhPT0gY29ubmVjdGlvbkdlbmVyYXRpb24KICAgICAgKSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICB9CiAgICAgIHRlc3RlZEdlbmVyYXRpb24udmFsdWUgPSB0ZXN0ZWRDb25uZWN0aW9uR2VuZXJhdGlvbjsKICAgICAgdmVyaWZpY2F0aW9uVG9rZW4udmFsdWUgPSByZXN1bHQudmVyaWZpY2F0aW9uVG9rZW47CiAgICAgIHJldHVybiB0cnVlOwogICAgfSBjYXRjaCAocmVhc29uKSB7CiAgICAgIGlmICghb3BlcmF0aW9uLnNpZ25hbC5hYm9ydGVkKSB7CiAgICAgICAgY29uc3QgZmFpbHVyZSA9IGV4dHJhY3RUZXJtaW5hbEVycm9yKHJlYXNvbik7CiAgICAgICAgZXJyb3IudmFsdWUgPSBmYWlsdXJlLm1lc3NhZ2U7CiAgICAgICAgZXJyb3JDb2RlLnZhbHVlID0gZmFpbHVyZS5lcnJvckNvZGU7CiAgICAgIH0KICAgICAgcmV0dXJuIGZhbHNlOwogICAgfSBmaW5hbGx5IHsKICAgICAgaWYgKG9wZXJhdGlvbi5nZW5lcmF0aW9uID09PSBvcGVyYXRpb25HZW5lcmF0aW9uKSB0ZXN0aW5nLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3QgdGVzdENvbm5lY3Rpb24gPSAoKSA9PiBydW5Db25uZWN0aW9uVGVzdChmYWxzZSk7CgogIGNvbnN0IGNvbmZpcm1Ib3N0S2V5ID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgaG9zdEtleSA9IHBlbmRpbmdIb3N0S2V5LnZhbHVlOwogICAgaWYgKCFob3N0S2V5KSByZXR1cm4gZmFsc2U7CiAgICBwZW5kaW5nSG9zdEtleS52YWx1ZSA9IG51bGw7CiAgICBkcmFmdC50cnVzdGVkSG9zdEtleSA9IHsgLi4uaG9zdEtleSB9OwogICAgcmV0dXJuIHJ1bkNvbm5lY3Rpb25UZXN0KHRydWUpOwogIH07CgogIGNvbnN0IHNhdmUgPSBhc3luYyAoZm9yY2UgPSBmYWxzZSkgPT4gewogICAgaWYgKCFjYW5TYXZlLnZhbHVlKSByZXR1cm4gbnVsbDsKICAgIGNvbnN0IGdlbmVyYXRpb24gPSArK29wZXJhdGlvbkdlbmVyYXRpb247CiAgICBvcGVyYXRpb25Db250cm9sbGVyPy5hYm9ydCgpOwogICAgb3BlcmF0aW9uQ29udHJvbGxlciA9IG51bGw7CiAgICBzYXZpbmcudmFsdWUgPSB0cnVlOwogICAgZXJyb3IudmFsdWUgPSAiIjsKICAgIGVycm9yQ29kZS52YWx1ZSA9IG51bGw7CiAgICBjb25zdCBjb25maXJtZWRGb3JjZSA9IEJvb2xlYW4oCiAgICAgIGZvcmNlICYmCiAgICAgIGZvcmNlQ29uZmlybWF0aW9uUmVxdWlyZWQudmFsdWUgJiYKICAgICAgZm9yY2VDb25maXJtYXRpb25Ub2tlbi52YWx1ZSAmJgogICAgICByZXF1aXJlc1Nlc3Npb25UZXJtaW5hdGlvbi52YWx1ZSwKICAgICk7CiAgICB0cnkgewogICAgICBjb25zdCBjdXJyZW50VGFyZ2V0ID0gZWRpdGluZ1RhcmdldC52YWx1ZTsKICAgICAgY29uc3QgdGFyZ2V0ID0gY3VycmVudFRhcmdldAogICAgICAgID8gYXdhaXQgdXBkYXRlVGFyZ2V0KAogICAgICAgICAgICBjdXJyZW50VGFyZ2V0LmlkLAogICAgICAgICAgICBidWlsZFVwZGF0ZVBheWxvYWQoY3VycmVudFRhcmdldCksCiAgICAgICAgICAgIGNvbmZpcm1lZEZvcmNlLAogICAgICAgICAgICBjb25maXJtZWRGb3JjZSA/IGZvcmNlQ29uZmlybWF0aW9uVG9rZW4udmFsdWUgOiB1bmRlZmluZWQsCiAgICAgICAgICApCiAgICAgICAgOiBhd2FpdCBjcmVhdGVUYXJnZXQoYnVpbGRDcmVhdGVQYXlsb2FkKCkpOwogICAgICBpZiAoZ2VuZXJhdGlvbiAhPT0gb3BlcmF0aW9uR2VuZXJhdGlvbikgcmV0dXJuIG51bGw7CiAgICAgIGNsZWFyU2Vuc2l0aXZlRHJhZnQoKTsKICAgICAgY29uZmxpY3RpbmdBY3RpdmVTZXNzaW9uQ291bnQudmFsdWUgPSBudWxsOwogICAgICBmb3JjZUNvbmZpcm1hdGlvblJlcXVpcmVkLnZhbHVlID0gZmFsc2U7CiAgICAgIGZvcmNlQ29uZmlybWF0aW9uVG9rZW4udmFsdWUgPSAiIjsKICAgICAgb3Blbi52YWx1ZSA9IGZhbHNlOwogICAgICByZXR1cm4gdGFyZ2V0OwogICAgfSBjYXRjaCAocmVhc29uKSB7CiAgICAgIGlmIChnZW5lcmF0aW9uID09PSBvcGVyYXRpb25HZW5lcmF0aW9uKSB7CiAgICAgICAgY29uc3QgZmFpbHVyZSA9IGV4dHJhY3RUZXJtaW5hbEVycm9yKHJlYXNvbik7CiAgICAgICAgZXJyb3IudmFsdWUgPSBmYWlsdXJlLm1lc3NhZ2U7CiAgICAgICAgZXJyb3JDb2RlLnZhbHVlID0gZmFpbHVyZS5lcnJvckNvZGU7CiAgICAgICAgY29uZmxpY3RpbmdBY3RpdmVTZXNzaW9uQ291bnQudmFsdWUgPSBmYWlsdXJlLmFjdGl2ZVNlc3Npb25Db3VudDsKICAgICAgICBpZiAoCiAgICAgICAgICBmYWlsdXJlLmVycm9yQ29kZSA9PT0gImNvbmZsaWN0IiAmJgogICAgICAgICAgcmVxdWlyZXNTZXNzaW9uVGVybWluYXRpb24udmFsdWUgJiYKICAgICAgICAgIGZhaWx1cmUuY29uZmlybWF0aW9uVG9rZW4KICAgICAgICApIHsKICAgICAgICAgIGZvcmNlQ29uZmlybWF0aW9uUmVxdWlyZWQudmFsdWUgPSB0cnVlOwogICAgICAgICAgZm9yY2VDb25maXJtYXRpb25Ub2tlbi52YWx1ZSA9IGZhaWx1cmUuY29uZmlybWF0aW9uVG9rZW47CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIGZvcmNlQ29uZmlybWF0aW9uUmVxdWlyZWQudmFsdWUgPSBmYWxzZTsKICAgICAgICAgIGZvcmNlQ29uZmlybWF0aW9uVG9rZW4udmFsdWUgPSAiIjsKICAgICAgICB9CiAgICAgIH0KICAgICAgcmV0dXJuIG51bGw7CiAgICB9IGZpbmFsbHkgewogICAgICBpZiAoZ2VuZXJhdGlvbiA9PT0gb3BlcmF0aW9uR2VuZXJhdGlvbikgc2F2aW5nLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3QgY2xvc2UgPSAoKSA9PiB7CiAgICByZXNldEFzeW5jU3RhdGUoKTsKICAgIGNsZWFyU2Vuc2l0aXZlRHJhZnQoKTsKICAgIG9wZW4udmFsdWUgPSBmYWxzZTsKICB9OwoKICByZXR1cm4gewogICAgYmVnaW5DcmVhdGUsCiAgICBiZWdpbkVkaXQsCiAgICBjYW5TYXZlLAogICAgY2xvc2UsCiAgICBjb25maXJtSG9zdEtleSwKICAgIGNvbmZsaWN0aW5nQWN0aXZlU2Vzc2lvbkNvdW50LAogICAgY3JlZGVudGlhbENvbmZpZ3VyZWQsCiAgICBkcmFmdCwKICAgIGVkaXRpbmdUYXJnZXQsCiAgICBlcnJvciwKICAgIGVycm9yQ29kZSwKICAgIGZvcmNlQ29uZmlybWF0aW9uUmVxdWlyZWQsCiAgICBmb3JjZUNvbmZpcm1hdGlvblRva2VuLAogICAgb3BlbiwKICAgIHBlbmRpbmdIb3N0S2V5LAogICAgcGFzc3BocmFzZUNvbmZpZ3VyZWQsCiAgICByZXF1aXJlc1Nlc3Npb25UZXJtaW5hdGlvbiwKICAgIHNhdmUsCiAgICBzZXRBdXRoTWV0aG9kLAogICAgc2V0RW5kcG9pbnQsCiAgICB0ZXN0ZWQsCiAgICB0ZXN0YWJsZSwKICAgIHRlc3RpbmcsCiAgICBzYXZpbmcsCiAgICB0ZXN0Q29ubmVjdGlvbiwKICAgIHZhbGlkLAogIH07Cn07Cg==
+import { computed, reactive, ref, watch } from "vue";
+import {
+  TerminalAPI,
+  type TerminalAuthMethod,
+  type TerminalCredentialMutation,
+  type TerminalErrorCode,
+  type TerminalPassphraseMutation,
+  type TerminalTargetCreateInput,
+  type TerminalTargetRecord,
+  type TerminalTargetUpdateInput,
+  type TerminalTrustedHostKey,
+} from "@/lib/api/terminal";
+import { extractTerminalError } from "./terminal-errors";
+
+export interface TerminalTargetDraft {
+  name: string;
+  host: string;
+  port: number;
+  username: string;
+  authMethod: TerminalAuthMethod;
+  secret: string;
+  passphrase: string;
+  clearCredential: boolean;
+  clearPassphrase: boolean;
+  trustedHostKey: TerminalTrustedHostKey | null;
+}
+
+const emptyDraft = (): TerminalTargetDraft => ({
+  name: "",
+  host: "",
+  port: 22,
+  username: "",
+  authMethod: "password",
+  secret: "",
+  passphrase: "",
+  clearCredential: false,
+  clearPassphrase: false,
+  trustedHostKey: null,
+});
+
+const copyDraft = (draft: TerminalTargetDraft, source: TerminalTargetDraft) =>
+  Object.assign(draft, source);
+
+export const useTerminalTargetEditor = ({
+  cancelPendingSave,
+  createTarget,
+  updateTarget,
+}: {
+  cancelPendingSave?: () => void;
+  createTarget: (
+    payload: TerminalTargetCreateInput,
+  ) => Promise<TerminalTargetRecord>;
+  updateTarget: (
+    targetId: string,
+    payload: TerminalTargetUpdateInput,
+    force?: boolean,
+    confirmationToken?: string,
+  ) => Promise<TerminalTargetRecord>;
+}) => {
+  const open = ref(false);
+  const editingTarget = ref<TerminalTargetRecord | null>(null);
+  const draft = reactive<TerminalTargetDraft>(emptyDraft());
+  const pendingHostKey = ref<TerminalTrustedHostKey | null>(null);
+  const testing = ref(false);
+  const saving = ref(false);
+  const testedGeneration = ref<number | null>(null);
+  const verificationToken = ref("");
+  const error = ref("");
+  const errorCode = ref<TerminalErrorCode | null>(null);
+  const conflictingActiveSessionCount = ref<number | null>(null);
+  const forceConfirmationRequired = ref(false);
+  const forceConfirmationToken = ref("");
+  let connectionGeneration = 0;
+  let operationGeneration = 0;
+  let operationController: AbortController | null = null;
+  let suppressConnectionInvalidation = false;
+
+  const clearSensitiveDraft = () => {
+    suppressConnectionInvalidation = true;
+    draft.secret = "";
+    draft.passphrase = "";
+    pendingHostKey.value = null;
+    verificationToken.value = "";
+    suppressConnectionInvalidation = false;
+  };
+
+  watch(
+    [
+      () => draft.host,
+      () => draft.port,
+      () => draft.username,
+      () => draft.authMethod,
+      () => draft.secret,
+      () => draft.passphrase,
+      () => draft.clearCredential,
+      () => draft.clearPassphrase,
+      () => draft.trustedHostKey?.algorithm,
+      () => draft.trustedHostKey?.fingerprint,
+    ],
+    () => {
+      if (suppressConnectionInvalidation) return;
+      connectionGeneration += 1;
+      testedGeneration.value = null;
+      verificationToken.value = "";
+      operationGeneration += 1;
+      operationController?.abort();
+      operationController = null;
+      cancelPendingSave?.();
+      testing.value = false;
+      error.value = "";
+      errorCode.value = null;
+      conflictingActiveSessionCount.value = null;
+      forceConfirmationRequired.value = false;
+      forceConfirmationToken.value = "";
+    },
+    { flush: "sync" },
+  );
+
+  const endpointKey = computed(() => `${draft.host.trim()}:${draft.port}`);
+  const credentialConfigured = computed(
+    () =>
+      editingTarget.value?.credentialConfigured === true &&
+      editingTarget.value.authMethod === draft.authMethod,
+  );
+  const passphraseConfigured = computed(
+    () =>
+      editingTarget.value?.passphraseConfigured === true &&
+      draft.authMethod === "privateKey" &&
+      editingTarget.value.authMethod === draft.authMethod,
+  );
+  const hasCredential = computed(() => {
+    if (draft.clearCredential) return false;
+    return Boolean(draft.secret || credentialConfigured.value);
+  });
+  const testable = computed(() =>
+    Boolean(
+      draft.host.trim() &&
+      draft.username.trim() &&
+      Number.isInteger(draft.port) &&
+      draft.port >= 1 &&
+      draft.port <= 65535 &&
+      hasCredential.value,
+    ),
+  );
+  const requiresSessionTermination = computed(() => {
+    const saved = editingTarget.value;
+    if (!saved) return false;
+    return (
+      draft.host.trim() !== saved.host ||
+      draft.port !== saved.port ||
+      draft.username.trim() !== saved.username ||
+      draft.authMethod !== saved.authMethod ||
+      draft.trustedHostKey?.algorithm !== saved.trustedHostKey?.algorithm ||
+      draft.trustedHostKey?.fingerprint !== saved.trustedHostKey?.fingerprint ||
+      credentialMutation().action !== "keep" ||
+      passphraseMutation().action !== "keep"
+    );
+  });
+  const tested = computed(
+    () =>
+      Boolean(verificationToken.value) &&
+      testedGeneration.value === connectionGeneration,
+  );
+  const valid = computed(() =>
+    Boolean(
+      draft.name.trim() &&
+      draft.host.trim() &&
+      draft.username.trim() &&
+      Number.isInteger(draft.port) &&
+      draft.port >= 1 &&
+      draft.port <= 65535 &&
+      draft.trustedHostKey &&
+      (hasCredential.value || draft.clearCredential),
+    ),
+  );
+  const canSave = computed(() => {
+    if (
+      editingTarget.value &&
+      !requiresSessionTermination.value &&
+      draft.name.trim()
+    ) {
+      return true;
+    }
+    return valid.value && (draft.clearCredential || tested.value);
+  });
+
+  const resetAsyncState = () => {
+    operationGeneration += 1;
+    operationController?.abort();
+    operationController = null;
+    cancelPendingSave?.();
+    testing.value = false;
+    saving.value = false;
+    error.value = "";
+    errorCode.value = null;
+    conflictingActiveSessionCount.value = null;
+    forceConfirmationRequired.value = false;
+    forceConfirmationToken.value = "";
+  };
+
+  const beginCreate = () => {
+    resetAsyncState();
+    editingTarget.value = null;
+    copyDraft(draft, emptyDraft());
+    pendingHostKey.value = null;
+    testedGeneration.value = null;
+    verificationToken.value = "";
+    open.value = true;
+  };
+
+  const beginEdit = (target: TerminalTargetRecord) => {
+    resetAsyncState();
+    editingTarget.value = target;
+    copyDraft(draft, {
+      name: target.name,
+      host: target.host,
+      port: target.port,
+      username: target.username,
+      authMethod: target.authMethod,
+      secret: "",
+      passphrase: "",
+      clearCredential: false,
+      clearPassphrase: false,
+      trustedHostKey: target.trustedHostKey
+        ? { ...target.trustedHostKey }
+        : null,
+    });
+    pendingHostKey.value = null;
+    testedGeneration.value = null;
+    verificationToken.value = "";
+    open.value = true;
+  };
+
+  const invalidateTrust = () => {
+    draft.trustedHostKey = null;
+    pendingHostKey.value = null;
+  };
+
+  const setEndpoint = (field: "host" | "port", value: string | number) => {
+    if (field === "host") draft.host = String(value);
+    else draft.port = Number(value);
+    const saved = editingTarget.value;
+    if (
+      !saved ||
+      draft.host.trim() !== saved.host ||
+      draft.port !== saved.port
+    ) {
+      invalidateTrust();
+    } else {
+      draft.trustedHostKey = saved.trustedHostKey
+        ? { ...saved.trustedHostKey }
+        : null;
+    }
+  };
+
+  const setAuthMethod = (authMethod: TerminalAuthMethod) => {
+    if (draft.authMethod === authMethod) return;
+    draft.authMethod = authMethod;
+    draft.secret = "";
+    draft.passphrase = "";
+    draft.clearCredential = false;
+    draft.clearPassphrase = false;
+  };
+
+  const beginOperation = () => {
+    const generation = ++operationGeneration;
+    operationController?.abort();
+    operationController = new AbortController();
+    error.value = "";
+    errorCode.value = null;
+    conflictingActiveSessionCount.value = null;
+    forceConfirmationToken.value = "";
+    return { generation, signal: operationController.signal };
+  };
+
+  const credentialMutation = (): TerminalCredentialMutation => {
+    if (draft.clearCredential) return { action: "clear" };
+    if (!draft.secret) return { action: "keep" };
+    return { action: "replace", secret: draft.secret };
+  };
+
+  const passphraseMutation = (): TerminalPassphraseMutation => {
+    if (draft.authMethod !== "privateKey") return { action: "keep" };
+    if (draft.clearCredential || draft.clearPassphrase) {
+      return { action: "clear" };
+    }
+    if (!draft.passphrase) return { action: "keep" };
+    return { action: "replace", secret: draft.passphrase };
+  };
+
+  const buildPayloadFields = () => ({
+    name: draft.name.trim(),
+    host: draft.host.trim(),
+    port: draft.port,
+    username: draft.username.trim(),
+    authMethod: draft.authMethod,
+    trustedHostKey: draft.trustedHostKey ? { ...draft.trustedHostKey } : null,
+    credential: credentialMutation(),
+    passphrase: passphraseMutation(),
+    ...(verificationToken.value
+      ? { verificationToken: verificationToken.value }
+      : {}),
+  });
+
+  const buildCreatePayload = (): TerminalTargetCreateInput =>
+    buildPayloadFields();
+
+  const buildUpdatePayload = (
+    target: TerminalTargetRecord,
+  ): TerminalTargetUpdateInput => ({
+    ...buildPayloadFields(),
+    revision: target.revision,
+  });
+
+  const sameHostKey = (
+    left: TerminalTrustedHostKey | null,
+    right: TerminalTrustedHostKey,
+  ) =>
+    left?.algorithm === right.algorithm &&
+    left.fingerprint === right.fingerprint;
+
+  const runConnectionTest = async (skipProbe: boolean) => {
+    if (!testable.value) return false;
+    const testedConnectionGeneration = connectionGeneration;
+    const endpoint = endpointKey.value;
+    const operation = beginOperation();
+    testing.value = true;
+    pendingHostKey.value = null;
+    try {
+      let trustedHostKey = draft.trustedHostKey;
+      if (!skipProbe) {
+        const result = await TerminalAPI.probeHostKey(
+          { host: draft.host.trim(), port: draft.port },
+          operation.signal,
+        );
+        if (
+          operation.generation !== operationGeneration ||
+          testedConnectionGeneration !== connectionGeneration ||
+          endpoint !== endpointKey.value
+        ) {
+          return false;
+        }
+        const liveHostKey = {
+          algorithm: result.algorithm,
+          fingerprint: result.fingerprint,
+        };
+        if (!sameHostKey(trustedHostKey, liveHostKey)) {
+          pendingHostKey.value = liveHostKey;
+          return false;
+        }
+        trustedHostKey = liveHostKey;
+      }
+      if (!trustedHostKey) return false;
+      const result = await TerminalAPI.testConnection(
+        {
+          ...(editingTarget.value ? { targetId: editingTarget.value.id } : {}),
+          draft: {
+            host: draft.host.trim(),
+            port: draft.port,
+            username: draft.username.trim(),
+            authMethod: draft.authMethod,
+            trustedHostKey: { ...trustedHostKey },
+          },
+          credential: credentialMutation(),
+          passphrase: passphraseMutation(),
+        },
+        operation.signal,
+      );
+      if (
+        operation.generation !== operationGeneration ||
+        testedConnectionGeneration !== connectionGeneration
+      ) {
+        return false;
+      }
+      testedGeneration.value = testedConnectionGeneration;
+      verificationToken.value = result.verificationToken;
+      return true;
+    } catch (reason) {
+      if (!operation.signal.aborted) {
+        const failure = extractTerminalError(reason);
+        error.value = failure.message;
+        errorCode.value = failure.errorCode;
+      }
+      return false;
+    } finally {
+      if (operation.generation === operationGeneration) testing.value = false;
+    }
+  };
+
+  const testConnection = () => runConnectionTest(false);
+
+  const confirmHostKey = async () => {
+    const hostKey = pendingHostKey.value;
+    if (!hostKey) return false;
+    pendingHostKey.value = null;
+    draft.trustedHostKey = { ...hostKey };
+    return runConnectionTest(true);
+  };
+
+  const save = async (force = false) => {
+    if (!canSave.value) return null;
+    const generation = ++operationGeneration;
+    operationController?.abort();
+    operationController = null;
+    saving.value = true;
+    error.value = "";
+    errorCode.value = null;
+    const confirmedForce = Boolean(
+      force &&
+      forceConfirmationRequired.value &&
+      forceConfirmationToken.value &&
+      requiresSessionTermination.value,
+    );
+    try {
+      const currentTarget = editingTarget.value;
+      const target = currentTarget
+        ? await updateTarget(
+            currentTarget.id,
+            buildUpdatePayload(currentTarget),
+            confirmedForce,
+            confirmedForce ? forceConfirmationToken.value : undefined,
+          )
+        : await createTarget(buildCreatePayload());
+      if (generation !== operationGeneration) return null;
+      clearSensitiveDraft();
+      conflictingActiveSessionCount.value = null;
+      forceConfirmationRequired.value = false;
+      forceConfirmationToken.value = "";
+      open.value = false;
+      return target;
+    } catch (reason) {
+      if (generation === operationGeneration) {
+        const failure = extractTerminalError(reason);
+        error.value = failure.message;
+        errorCode.value = failure.errorCode;
+        conflictingActiveSessionCount.value = failure.activeSessionCount;
+        if (
+          failure.errorCode === "conflict" &&
+          requiresSessionTermination.value &&
+          failure.confirmationToken
+        ) {
+          forceConfirmationRequired.value = true;
+          forceConfirmationToken.value = failure.confirmationToken;
+        } else {
+          forceConfirmationRequired.value = false;
+          forceConfirmationToken.value = "";
+        }
+      }
+      return null;
+    } finally {
+      if (generation === operationGeneration) saving.value = false;
+    }
+  };
+
+  const close = () => {
+    resetAsyncState();
+    clearSensitiveDraft();
+    open.value = false;
+  };
+
+  return {
+    beginCreate,
+    beginEdit,
+    canSave,
+    close,
+    confirmHostKey,
+    conflictingActiveSessionCount,
+    credentialConfigured,
+    draft,
+    editingTarget,
+    error,
+    errorCode,
+    forceConfirmationRequired,
+    forceConfirmationToken,
+    open,
+    pendingHostKey,
+    passphraseConfigured,
+    requiresSessionTermination,
+    save,
+    setAuthMethod,
+    setEndpoint,
+    tested,
+    testable,
+    testing,
+    saving,
+    testConnection,
+    valid,
+  };
+};

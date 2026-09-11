@@ -1,1 +1,130 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvbkJlZm9yZVVubW91bnQsIHJlZiwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgeyBMb2FkZXIyLCBQb3dlciB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB0eXBlIHsgV09MVGFyZ2V0IH0gZnJvbSAiQC9saWIvYXBpL3dvbCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBvcGVuOiBib29sZWFuOwogIHRhcmdldDogV09MVGFyZ2V0IHwgbnVsbDsKICBsb2FkaW5nOiBib29sZWFuOwp9PigpOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICBjb25maXJtOiBbXTsKICAidXBkYXRlOm9wZW4iOiBbdmFsdWU6IGJvb2xlYW5dOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IGRlYWRsaW5lID0gcmVmKDApOwpjb25zdCBub3cgPSByZWYoMCk7CmxldCB0aW1lcjogbnVtYmVyIHwgbnVsbCA9IG51bGw7Cgpjb25zdCBzdG9wVGltZXIgPSAoKSA9PiB7CiAgaWYgKHRpbWVyICE9PSBudWxsKSBnbG9iYWxUaGlzLmNsZWFySW50ZXJ2YWwodGltZXIpOwogIHRpbWVyID0gbnVsbDsKfTsKCmNvbnN0IHN0YXJ0VGltZXIgPSAoKSA9PiB7CiAgc3RvcFRpbWVyKCk7CiAgbm93LnZhbHVlID0gRGF0ZS5ub3coKTsKICBkZWFkbGluZS52YWx1ZSA9IG5vdy52YWx1ZSArIDNfMDAwOwogIHRpbWVyID0gZ2xvYmFsVGhpcy5zZXRJbnRlcnZhbCgoKSA9PiB7CiAgICBub3cudmFsdWUgPSBEYXRlLm5vdygpOwogICAgaWYgKG5vdy52YWx1ZSA+PSBkZWFkbGluZS52YWx1ZSkgc3RvcFRpbWVyKCk7CiAgfSwgMTAwKTsKfTsKCndhdGNoKAogICgpID0+IFtwcm9wcy5vcGVuLCBwcm9wcy50YXJnZXQ/LmlkXSBhcyBjb25zdCwKICAoW29wZW5dKSA9PiB7CiAgICBpZiAob3Blbikgc3RhcnRUaW1lcigpOwogICAgZWxzZSBzdG9wVGltZXIoKTsKICB9LAogIHsgaW1tZWRpYXRlOiB0cnVlIH0sCik7Cm9uQmVmb3JlVW5tb3VudChzdG9wVGltZXIpOwoKY29uc3QgcmVtYWluaW5nU2Vjb25kcyA9IGNvbXB1dGVkKCgpID0+CiAgTWF0aC5tYXgoMCwgTWF0aC5jZWlsKChkZWFkbGluZS52YWx1ZSAtIG5vdy52YWx1ZSkgLyAxXzAwMCkpLAopOwpjb25zdCBjYW5Db25maXJtID0gY29tcHV0ZWQoCiAgKCkgPT4KICAgIHByb3BzLm9wZW4gJiYKICAgIEJvb2xlYW4ocHJvcHMudGFyZ2V0KSAmJgogICAgIXByb3BzLmxvYWRpbmcgJiYKICAgIGRlYWRsaW5lLnZhbHVlID4gMCAmJgogICAgbm93LnZhbHVlID49IGRlYWRsaW5lLnZhbHVlLAopOwpjb25zdCBjb25maXJtTGFiZWwgPSBjb21wdXRlZCgoKSA9PgogIHJlbWFpbmluZ1NlY29uZHMudmFsdWUgPiAwCiAgICA/IHQoImFkbWluLndvbC5zc2guY29uZmlybVNodXRkb3duQ291bnRkb3duIiwgewogICAgICAgIHNlY29uZHM6IHJlbWFpbmluZ1NlY29uZHMudmFsdWUsCiAgICAgIH0pCiAgICA6IHQoImFkbWluLndvbC5zc2guY29uZmlybVNodXRkb3duIiksCik7Cgpjb25zdCBjb25maXJtID0gKCkgPT4gewogIGlmICghY2FuQ29uZmlybS52YWx1ZSB8fCBEYXRlLm5vdygpIDwgZGVhZGxpbmUudmFsdWUpIHJldHVybjsKICBlbWl0KCJjb25maXJtIik7Cn07Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iZW1pdCgndXBkYXRlOm9wZW4nLCAkZXZlbnQpIj4KICAgIDxEaWFsb2dDb250ZW50CiAgICAgIGNsYXNzPSJtYXgtaC1bY2FsYygxMDBkdmgtMXJlbSldIHctW2NhbGMoMTAwJS0xcmVtKV0gb3ZlcmZsb3cteS1hdXRvIHNtOm1heC13LW1kIgogICAgPgogICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgIDxEaWFsb2dUaXRsZSBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1kZXN0cnVjdGl2ZSI+CiAgICAgICAgICA8UG93ZXIgY2xhc3M9ImgtNSB3LTUiIC8+CiAgICAgICAgICB7eyB0KCJhZG1pbi53b2wuc3NoLnNodXRkb3duVGl0bGUiKSB9fQogICAgICAgIDwvRGlhbG9nVGl0bGU+CiAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgiYWRtaW4ud29sLnNzaC5zaHV0ZG93bkRlc2NyaXB0aW9uIiwgewogICAgICAgICAgICAgIHRhcmdldDogdGFyZ2V0Py5uYW1lID8/ICIiLAogICAgICAgICAgICAgIGhvc3Q6IHRhcmdldD8uc3NoLmhvc3QgPz8gIiIsCiAgICAgICAgICAgIH0pCiAgICAgICAgICB9fQogICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgogICAgICA8ZGl2CiAgICAgICAgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1kZXN0cnVjdGl2ZS8zMCBiZy1kZXN0cnVjdGl2ZS81IHAtMyB0ZXh0LXNtIgogICAgICA+CiAgICAgICAge3sgdCgiYWRtaW4ud29sLnNzaC5zaHV0ZG93bldhcm5pbmciKSB9fQogICAgICA8L2Rpdj4KICAgICAgPERpYWxvZ0Zvb3Rlcj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgY2xhc3M9InctZnVsbCBzbTp3LWF1dG8iCiAgICAgICAgICA6ZGlzYWJsZWQ9ImxvYWRpbmciCiAgICAgICAgICBAY2xpY2s9ImVtaXQoJ3VwZGF0ZTpvcGVuJywgZmFsc2UpIgogICAgICAgID4KICAgICAgICAgIHt7IHQoImNvbW1vbi5jYW5jZWwiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIGRhdGEtdGVzdGlkPSJ3b2wtY29uZmlybS1zaHV0ZG93biIKICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIHZhcmlhbnQ9ImRlc3RydWN0aXZlIgogICAgICAgICAgY2xhc3M9InctZnVsbCBzbTp3LWF1dG8iCiAgICAgICAgICA6ZGlzYWJsZWQ9IiFjYW5Db25maXJtIgogICAgICAgICAgQGNsaWNrPSJjb25maXJtIgogICAgICAgID4KICAgICAgICAgIDxMb2FkZXIyIHYtaWY9ImxvYWRpbmciIGNsYXNzPSJtci0yIGgtNCB3LTQgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgICAge3sgY29uZmlybUxhYmVsIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, onBeforeUnmount, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Loader2, Power } from "lucide-vue-next";
+import type { WOLTarget } from "@/lib/api/wol";
+
+const props = defineProps<{
+  open: boolean;
+  target: WOLTarget | null;
+  loading: boolean;
+}>();
+
+const emit = defineEmits<{
+  confirm: [];
+  "update:open": [value: boolean];
+}>();
+
+const { t } = useI18n();
+const deadline = ref(0);
+const now = ref(0);
+let timer: number | null = null;
+
+const stopTimer = () => {
+  if (timer !== null) globalThis.clearInterval(timer);
+  timer = null;
+};
+
+const startTimer = () => {
+  stopTimer();
+  now.value = Date.now();
+  deadline.value = now.value + 3_000;
+  timer = globalThis.setInterval(() => {
+    now.value = Date.now();
+    if (now.value >= deadline.value) stopTimer();
+  }, 100);
+};
+
+watch(
+  () => [props.open, props.target?.id] as const,
+  ([open]) => {
+    if (open) startTimer();
+    else stopTimer();
+  },
+  { immediate: true },
+);
+onBeforeUnmount(stopTimer);
+
+const remainingSeconds = computed(() =>
+  Math.max(0, Math.ceil((deadline.value - now.value) / 1_000)),
+);
+const canConfirm = computed(
+  () =>
+    props.open &&
+    Boolean(props.target) &&
+    !props.loading &&
+    deadline.value > 0 &&
+    now.value >= deadline.value,
+);
+const confirmLabel = computed(() =>
+  remainingSeconds.value > 0
+    ? t("admin.wol.ssh.confirmShutdownCountdown", {
+        seconds: remainingSeconds.value,
+      })
+    : t("admin.wol.ssh.confirmShutdown"),
+);
+
+const confirm = () => {
+  if (!canConfirm.value || Date.now() < deadline.value) return;
+  emit("confirm");
+};
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent
+      class="max-h-[calc(100dvh-1rem)] w-[calc(100%-1rem)] overflow-y-auto sm:max-w-md"
+    >
+      <DialogHeader>
+        <DialogTitle class="flex items-center gap-2 text-destructive">
+          <Power class="h-5 w-5" />
+          {{ t("admin.wol.ssh.shutdownTitle") }}
+        </DialogTitle>
+        <DialogDescription>
+          {{
+            t("admin.wol.ssh.shutdownDescription", {
+              target: target?.name ?? "",
+              host: target?.ssh.host ?? "",
+            })
+          }}
+        </DialogDescription>
+      </DialogHeader>
+      <div
+        class="rounded-lg border border-destructive/30 bg-destructive/5 p-3 text-sm"
+      >
+        {{ t("admin.wol.ssh.shutdownWarning") }}
+      </div>
+      <DialogFooter>
+        <Button
+          type="button"
+          variant="outline"
+          class="w-full sm:w-auto"
+          :disabled="loading"
+          @click="emit('update:open', false)"
+        >
+          {{ t("common.cancel") }}
+        </Button>
+        <Button
+          data-testid="wol-confirm-shutdown"
+          type="button"
+          variant="destructive"
+          class="w-full sm:w-auto"
+          :disabled="!canConfirm"
+          @click="confirm"
+        >
+          <Loader2 v-if="loading" class="mr-2 h-4 w-4 animate-spin" />
+          {{ confirmLabel }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

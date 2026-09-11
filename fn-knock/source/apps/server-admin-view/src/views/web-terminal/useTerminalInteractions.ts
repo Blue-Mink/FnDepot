@@ -1,1 +1,103 @@
-aW1wb3J0IHR5cGUgeyBDb21wdXRlZFJlZiwgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHR5cGUgewogIFRlcm1pbmFsQXR0YWNobWVudFJlY29yZCwKICBUZXJtaW5hbFNlc3Npb25SZWNvcmQsCn0gZnJvbSAiQC9saWIvYXBpL3Rlcm1pbmFsIjsKaW1wb3J0IHsgdXNlVGVybWluYWxDb250ZXh0TWVudSB9IGZyb20gIi4vdXNlVGVybWluYWxDb250ZXh0TWVudSI7CmltcG9ydCB7IHVzZVRlcm1pbmFsRGlhbG9ncyB9IGZyb20gIi4vdXNlVGVybWluYWxEaWFsb2dzIjsKaW1wb3J0IHR5cGUgeyB1c2VUZXJtaW5hbEVtdWxhdG9yIH0gZnJvbSAiLi91c2VUZXJtaW5hbEVtdWxhdG9yIjsKaW1wb3J0IHR5cGUgeyB1c2VUZXJtaW5hbElucHV0UXVldWUgfSBmcm9tICIuL3VzZVRlcm1pbmFsSW5wdXRRdWV1ZSI7CgpleHBvcnQgY29uc3QgdXNlVGVybWluYWxJbnRlcmFjdGlvbnMgPSAoewogIGFjdGl2ZUF0dGFjaG1lbnQsCiAgY2FuY2VsUmVuYW1lU2Vzc2lvbiwKICBlbXVsYXRvciwKICBpbnB1dFF1ZXVlLAogIGlzVGVybWluYWxGdWxsc2NyZWVuLAogIHJlbmFtZVNlc3Npb24sCiAgc2VsZWN0ZWRTZXNzaW9uLAogIHNlc3Npb25zLAogIHNldFRlcm1pbmFsRnVsbHNjcmVlbiwKICB0cmFuc2xhdGUsCn06IHsKICBhY3RpdmVBdHRhY2htZW50OiBSZWY8VGVybWluYWxBdHRhY2htZW50UmVjb3JkIHwgbnVsbD47CiAgY2FuY2VsUmVuYW1lU2Vzc2lvbjogKCkgPT4gdm9pZDsKICBlbXVsYXRvcjogUmV0dXJuVHlwZTx0eXBlb2YgdXNlVGVybWluYWxFbXVsYXRvcj47CiAgaW5wdXRRdWV1ZTogUmV0dXJuVHlwZTx0eXBlb2YgdXNlVGVybWluYWxJbnB1dFF1ZXVlPjsKICBpc1Rlcm1pbmFsRnVsbHNjcmVlbjogUmVmPGJvb2xlYW4+OwogIHJlbmFtZVNlc3Npb246ICgKICAgIHNlc3Npb25JZDogc3RyaW5nLAogICAgdGl0bGU6IHN0cmluZywKICApID0+IFByb21pc2U8VGVybWluYWxTZXNzaW9uUmVjb3JkPjsKICBzZWxlY3RlZFNlc3Npb246IENvbXB1dGVkUmVmPFRlcm1pbmFsU2Vzc2lvblJlY29yZCB8IG51bGw+OwogIHNlc3Npb25zOiBSZWY8VGVybWluYWxTZXNzaW9uUmVjb3JkW10+OwogIHNldFRlcm1pbmFsRnVsbHNjcmVlbjogKGZ1bGxzY3JlZW46IGJvb2xlYW4pID0+IFByb21pc2U8dm9pZD47CiAgdHJhbnNsYXRlOiAoa2V5OiBzdHJpbmcpID0+IHN0cmluZzsKfSkgPT4gewogIGNvbnN0IGRpYWxvZ3MgPSB1c2VUZXJtaW5hbERpYWxvZ3MoewogICAgYWN0aXZlQXR0YWNobWVudCwKICAgIGNhbmNlbFJlbmFtZVNlc3Npb24sCiAgICBjbGVhckFybWVkTW9kaWZpZXI6IGVtdWxhdG9yLmNsZWFyQXJtZWRNb2RpZmllciwKICAgIGZvY3VzVGVybWluYWw6IGVtdWxhdG9yLmZvY3VzVGVybWluYWwsCiAgICBzZWxlY3RlZFNlc3Npb24sCiAgICBzZW5kUGF5bG9hZE5vdzogaW5wdXRRdWV1ZS5zZW5kVGVybWluYWxQYXlsb2FkTm93LAogICAgc2Vzc2lvbnMsCiAgICB0cmFuc2xhdGUsCiAgICB1cGRhdGVTZXNzaW9uVGl0bGU6IHJlbmFtZVNlc3Npb24sCiAgfSk7CiAgY29uc3QgY29udGV4dE1lbnUgPSB1c2VUZXJtaW5hbENvbnRleHRNZW51KHsKICAgIGFjdGl2ZUF0dGFjaG1lbnQsCiAgICBjbGVhckFybWVkTW9kaWZpZXI6IGVtdWxhdG9yLmNsZWFyQXJtZWRNb2RpZmllciwKICAgIGZvY3VzVGVybWluYWw6IGVtdWxhdG9yLmZvY3VzVGVybWluYWwsCiAgICBnZXRUZXJtaW5hbDogZW11bGF0b3IuZ2V0VGVybWluYWwsCiAgICBvcGVuTWFudWFsUGFzdGVEaWFsb2c6IGRpYWxvZ3Mub3Blbk1hbnVhbFBhc3RlRGlhbG9nLAogICAgdHJhbnNsYXRlLAogIH0pOwoKICBjb25zdCBoYW5kbGVXaW5kb3dLZXlkb3duID0gKGV2ZW50OiBLZXlib2FyZEV2ZW50KSA9PiB7CiAgICBpZiAoZXZlbnQua2V5ICE9PSAiRXNjYXBlIikgcmV0dXJuOwogICAgaWYgKGNvbnRleHRNZW51LnRlcm1pbmFsQ29udGV4dE1lbnVPcGVuLnZhbHVlKSB7CiAgICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KCk7CiAgICAgIGNvbnRleHRNZW51LmNsb3NlVGVybWluYWxDb250ZXh0TWVudSgpOwogICAgICBlbXVsYXRvci5mb2N1c1Rlcm1pbmFsKCk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGlmICghaXNUZXJtaW5hbEZ1bGxzY3JlZW4udmFsdWUpIHJldHVybjsKICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KCk7CiAgICB2b2lkIHNldFRlcm1pbmFsRnVsbHNjcmVlbihmYWxzZSk7CiAgfTsKCiAgY29uc3Qga2VlcFRlcm1pbmFsRm9jdXNlZCA9IChldmVudDogRXZlbnQpID0+IHsKICAgIGlmIChldmVudCBpbnN0YW5jZW9mIFBvaW50ZXJFdmVudCAmJiBldmVudC5wb2ludGVyVHlwZSAhPT0gIm1vdXNlIikgcmV0dXJuOwogICAgZXZlbnQucHJldmVudERlZmF1bHQoKTsKICAgIGVtdWxhdG9yLmZvY3VzVGVybWluYWwoKTsKICB9OwogIGNvbnN0IHNlbmRUb29sYmFyU2hvcnRjdXQgPSAodmFsdWU6IHN0cmluZykgPT4gewogICAgZW11bGF0b3IuY2xlYXJBcm1lZE1vZGlmaWVyKCk7CiAgICBpbnB1dFF1ZXVlLnF1ZXVlVGVybWluYWxJbnB1dCh2YWx1ZSwgeyBpbW1lZGlhdGU6IHRydWUgfSk7CiAgICBlbXVsYXRvci5mb2N1c1Rlcm1pbmFsKCk7CiAgfTsKICBjb25zdCBzdGFydCA9ICgpID0+IHsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJrZXlkb3duIiwgaGFuZGxlV2luZG93S2V5ZG93bik7CiAgICBkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKAogICAgICAicG9pbnRlcmRvd24iLAogICAgICBjb250ZXh0TWVudS5oYW5kbGVEb2N1bWVudFBvaW50ZXJEb3duLAogICAgKTsKICB9OwogIGNvbnN0IHN0b3AgPSAoKSA9PiB7CiAgICB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcigia2V5ZG93biIsIGhhbmRsZVdpbmRvd0tleWRvd24pOwogICAgZG9jdW1lbnQucmVtb3ZlRXZlbnRMaXN0ZW5lcigKICAgICAgInBvaW50ZXJkb3duIiwKICAgICAgY29udGV4dE1lbnUuaGFuZGxlRG9jdW1lbnRQb2ludGVyRG93biwKICAgICk7CiAgfTsKCiAgcmV0dXJuIHsKICAgIC4uLmNvbnRleHRNZW51LAogICAgLi4uZGlhbG9ncywKICAgIGtlZXBUZXJtaW5hbEZvY3VzZWQsCiAgICBzZW5kVG9vbGJhclNob3J0Y3V0LAogICAgc3RhcnQsCiAgICBzdG9wLAogIH07Cn07Cg==
+import type { ComputedRef, Ref } from "vue";
+import type {
+  TerminalAttachmentRecord,
+  TerminalSessionRecord,
+} from "@/lib/api/terminal";
+import { useTerminalContextMenu } from "./useTerminalContextMenu";
+import { useTerminalDialogs } from "./useTerminalDialogs";
+import type { useTerminalEmulator } from "./useTerminalEmulator";
+import type { useTerminalInputQueue } from "./useTerminalInputQueue";
+
+export const useTerminalInteractions = ({
+  activeAttachment,
+  cancelRenameSession,
+  emulator,
+  inputQueue,
+  isTerminalFullscreen,
+  renameSession,
+  selectedSession,
+  sessions,
+  setTerminalFullscreen,
+  translate,
+}: {
+  activeAttachment: Ref<TerminalAttachmentRecord | null>;
+  cancelRenameSession: () => void;
+  emulator: ReturnType<typeof useTerminalEmulator>;
+  inputQueue: ReturnType<typeof useTerminalInputQueue>;
+  isTerminalFullscreen: Ref<boolean>;
+  renameSession: (
+    sessionId: string,
+    title: string,
+  ) => Promise<TerminalSessionRecord>;
+  selectedSession: ComputedRef<TerminalSessionRecord | null>;
+  sessions: Ref<TerminalSessionRecord[]>;
+  setTerminalFullscreen: (fullscreen: boolean) => Promise<void>;
+  translate: (key: string) => string;
+}) => {
+  const dialogs = useTerminalDialogs({
+    activeAttachment,
+    cancelRenameSession,
+    clearArmedModifier: emulator.clearArmedModifier,
+    focusTerminal: emulator.focusTerminal,
+    selectedSession,
+    sendPayloadNow: inputQueue.sendTerminalPayloadNow,
+    sessions,
+    translate,
+    updateSessionTitle: renameSession,
+  });
+  const contextMenu = useTerminalContextMenu({
+    activeAttachment,
+    clearArmedModifier: emulator.clearArmedModifier,
+    focusTerminal: emulator.focusTerminal,
+    getTerminal: emulator.getTerminal,
+    openManualPasteDialog: dialogs.openManualPasteDialog,
+    translate,
+  });
+
+  const handleWindowKeydown = (event: KeyboardEvent) => {
+    if (event.key !== "Escape") return;
+    if (contextMenu.terminalContextMenuOpen.value) {
+      event.preventDefault();
+      contextMenu.closeTerminalContextMenu();
+      emulator.focusTerminal();
+      return;
+    }
+    if (!isTerminalFullscreen.value) return;
+    event.preventDefault();
+    void setTerminalFullscreen(false);
+  };
+
+  const keepTerminalFocused = (event: Event) => {
+    if (event instanceof PointerEvent && event.pointerType !== "mouse") return;
+    event.preventDefault();
+    emulator.focusTerminal();
+  };
+  const sendToolbarShortcut = (value: string) => {
+    emulator.clearArmedModifier();
+    inputQueue.queueTerminalInput(value, { immediate: true });
+    emulator.focusTerminal();
+  };
+  const start = () => {
+    window.addEventListener("keydown", handleWindowKeydown);
+    document.addEventListener(
+      "pointerdown",
+      contextMenu.handleDocumentPointerDown,
+    );
+  };
+  const stop = () => {
+    window.removeEventListener("keydown", handleWindowKeydown);
+    document.removeEventListener(
+      "pointerdown",
+      contextMenu.handleDocumentPointerDown,
+    );
+  };
+
+  return {
+    ...contextMenu,
+    ...dialogs,
+    keepTerminalFocused,
+    sendToolbarShortcut,
+    start,
+    stop,
+  };
+};

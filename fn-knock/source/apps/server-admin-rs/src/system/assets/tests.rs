@@ -1,1 +1,510 @@
-dXNlIHN0ZDo6ZnM7Cgp1c2Ugc3VwZXI6Oio7Cgphc3luYyBmbiBnZW5lcmljX2xpbnV4X3Rlc3Rfc3RhdGUoKSAtPiAodGVtcGZpbGU6OlRlbXBEaXIsIEFwcFN0YXRlKSB7CiAgICBsZXQgZGlyZWN0b3J5ID0gdGVtcGZpbGU6OnRlbXBkaXIoKS51bndyYXAoKTsKICAgIGxldCBtdXQgc2V0dGluZ3MgPSB7CiAgICAgICAgbGV0IF9lbnZpcm9ubWVudCA9IGNyYXRlOjp0ZXN0X3N1cHBvcnQ6OkVudkd1YXJkOjpuZXcoJltdKTsKICAgICAgICBjcmF0ZTo6c2V0dGluZ3M6OlNldHRpbmdzOjpmcm9tX2VudigpCiAgICB9OwogICAgc2V0dGluZ3MucnVudGltZV90YXJnZXQgPSAibGludXgiLnRvX3N0cmluZygpOwogICAgc2V0dGluZ3MuZGF0YV9kaXIgPSBkaXJlY3RvcnkucGF0aCgpLmpvaW4oImRhdGEiKTsKICAgIHNldHRpbmdzLmdhdGV3YXlfY29uZmlnX2RpciA9IGRpcmVjdG9yeS5wYXRoKCkuam9pbigiZ2F0ZXdheSIpOwogICAgc2V0dGluZ3Muc3FsaXRlX3BhdGggPSBkaXJlY3RvcnkucGF0aCgpLmpvaW4oImZuLWtub2NrLnNxbGl0ZTMiKTsKICAgIHNldHRpbmdzLmxlZ2FjeV9yZWRpc191cmwgPSBTdHJpbmc6Om5ldygpOwogICAgc2V0dGluZ3MuaW50ZXJuYWxfcnBjX3Rva2VuID0gInRlc3QtaW50ZXJuYWwtcnBjLXRva2VuIi50b19zdHJpbmcoKTsKCiAgICBsZXQgc3RhdGUgPSBBcHBTdGF0ZTo6bmV3KHNldHRpbmdzKS5hd2FpdC51bndyYXAoKTsKICAgIChkaXJlY3RvcnksIHN0YXRlKQp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBnZW5lcmljX2xpbnV4X3Jvb3RfcmVqZWN0c19jbG9ja19zeW5jX2FuZF9kbnNtYXNxX29wZXJhdGlvbnMoKSB7CiAgICBsZXQgcHJvZmlsZSA9IGNyYXRlOjpydW50aW1lX3Byb2ZpbGU6OlJ1bnRpbWVQcm9maWxlIHsKICAgICAgICBkZXBsb3ltZW50X3RhcmdldDogImxpbnV4Ii50b19zdHJpbmcoKSwKICAgICAgICBpc19kb2NrZXI6IGZhbHNlLAogICAgICAgIGlzX2xpbnV4OiB0cnVlLAogICAgICAgIGlzX21hY29zOiBmYWxzZSwKICAgICAgICBpc193aW5kb3dzOiBmYWxzZSwKICAgICAgICBpc19yb290X3Byb2Nlc3M6IHRydWUsCiAgICB9OwogICAgYXNzZXJ0ISghc3VwZXI6OnJ1bnRpbWU6OnN5c3RlbV9jbG9ja19zeW5jX2F2YWlsYWJsZV9mb3JfcHJvZmlsZSgKICAgICAgICAmcHJvZmlsZQogICAgKSk7CiAgICBhc3NlcnQhKCFzdXBlcjo6cnVudGltZTo6c21hcnRfY29ubmVjdF9hdmFpbGFibGVfZm9yX3Byb2ZpbGUoCiAgICAgICAgJnByb2ZpbGUKICAgICkpOwoKICAgIGxldCAoX2RpcmVjdG9yeSwgc3RhdGUpID0gZ2VuZXJpY19saW51eF90ZXN0X3N0YXRlKCkuYXdhaXQ7CiAgICBsZXQgY2xvY2tfcmVzcG9uc2UgPSBjbG9ja19zeW5jKGF4dW06OmV4dHJhY3Q6OlN0YXRlKHN0YXRlLmNsb25lKCkpKS5hd2FpdDsKICAgIGxldCBkbnNtYXNxX3N0YXR1c19yZXNwb25zZSA9IGRuc21hc3Ffc3RhdHVzKGF4dW06OmV4dHJhY3Q6OlN0YXRlKHN0YXRlLmNsb25lKCkpKS5hd2FpdDsKICAgIGxldCBkbnNtYXNxX2luc3RhbGxfcmVzcG9uc2UgPSBkbnNtYXNxX2luc3RhbGwoYXh1bTo6ZXh0cmFjdDo6U3RhdGUoc3RhdGUpKS5hd2FpdDsKCiAgICBhc3NlcnRfZXEhKGNsb2NrX3Jlc3BvbnNlLnN0YXR1cygpLCBheHVtOjpodHRwOjpTdGF0dXNDb2RlOjpGT1JCSURERU4pOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBkbnNtYXNxX3N0YXR1c19yZXNwb25zZS5zdGF0dXMoKSwKICAgICAgICBheHVtOjpodHRwOjpTdGF0dXNDb2RlOjpGT1JCSURERU4KICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGRuc21hc3FfaW5zdGFsbF9yZXNwb25zZS5zdGF0dXMoKSwKICAgICAgICBheHVtOjpodHRwOjpTdGF0dXNDb2RlOjpGT1JCSURERU4KICAgICk7Cn0KCiNbdGVzdF0KZm4gZGV0ZWN0c19mcnBfcGxhdGZvcm1fbmFtZXNfbGlrZV9ub2RlKCkgewogICAgbGV0IHBsYXRmb3JtID0gZGV0ZWN0X2ZycF9wbGF0Zm9ybSgpOwogICAgYXNzZXJ0ISgKICAgICAgICBbCiAgICAgICAgICAgICJkYXJ3aW4tYXJtNjQiLAogICAgICAgICAgICAiZGFyd2luLWFtZDY0IiwKICAgICAgICAgICAgImxpbnV4LWFtZDY0IiwKICAgICAgICAgICAgImxpbnV4LWFybTY0IiwKICAgICAgICAgICAgImxpbnV4LWFybSIsCiAgICAgICAgICAgICJ1bnN1cHBvcnRlZCIKICAgICAgICBdCiAgICAgICAgLmNvbnRhaW5zKCZwbGF0Zm9ybSkKICAgICk7Cn0KCiNbdGVzdF0KZm4gdmFsaWRhdGVzX2Rvd25sb2FkZWRfZGFyd2luX2JpbmFyeV9hcmNoaXRlY3R1cmVzKCkgewogICAgYXNzZXJ0IShkb3dubG9hZHM6OmRvd25sb2FkZWRfYXJjaGl0ZWN0dXJlX21hdGNoZXMoCiAgICAgICAgImRhcndpbi1hcm02NCIsCiAgICAgICAgIk1hY2gtTyA2NC1iaXQgZXhlY3V0YWJsZSBhcm02NCIKICAgICkpOwogICAgYXNzZXJ0IShkb3dubG9hZHM6OmRvd25sb2FkZWRfYXJjaGl0ZWN0dXJlX21hdGNoZXMoCiAgICAgICAgImRhcndpbi1hbWQ2NCIsCiAgICAgICAgIk1hY2gtTyA2NC1iaXQgZXhlY3V0YWJsZSB4ODZfNjQiCiAgICApKTsKICAgIGFzc2VydCEoIWRvd25sb2Fkczo6ZG93bmxvYWRlZF9hcmNoaXRlY3R1cmVfbWF0Y2hlcygKICAgICAgICAiZGFyd2luLWFybTY0IiwKICAgICAgICAiTWFjaC1PIDY0LWJpdCBleGVjdXRhYmxlIHg4Nl82NCIKICAgICkpOwogICAgYXNzZXJ0ISghZG93bmxvYWRzOjpkb3dubG9hZGVkX2FyY2hpdGVjdHVyZV9tYXRjaGVzKAogICAgICAgICJkYXJ3aW4tYXJtNjQiLAogICAgICAgICJNYWNoLU8gdW5pdmVyc2FsIGJpbmFyeSB3aXRoIDIgYXJjaGl0ZWN0dXJlczogW3g4Nl82NF0gW2FybTY0XSIKICAgICkpOwogICAgYXNzZXJ0IShkb3dubG9hZHM6OmRvd25sb2FkZWRfd2luZG93c19hcmNoaXRlY3R1cmVfbWF0Y2hlcygKICAgICAgICAid2luZG93cy1hbWQ2NCIsCiAgICAgICAgMHg4NjY0CiAgICApKTsKICAgIGFzc2VydCEoZG93bmxvYWRzOjpkb3dubG9hZGVkX3dpbmRvd3NfYXJjaGl0ZWN0dXJlX21hdGNoZXMoCiAgICAgICAgIndpbmRvd3MtMzg2IiwKICAgICAgICAweDAxNGMKICAgICkpOwogICAgYXNzZXJ0ISghZG93bmxvYWRzOjpkb3dubG9hZGVkX3dpbmRvd3NfYXJjaGl0ZWN0dXJlX21hdGNoZXMoCiAgICAgICAgIndpbmRvd3MtYW1kNjQiLAogICAgICAgIDB4MDE0YwogICAgKSk7Cn0KCiNbdGVzdF0KZm4gcmVqZWN0c191bnNhZmVfZnJwX2FyY2hpdmVfZW50cmllcygpIHsKICAgIGFzc2VydCEoZG93bmxvYWRzOjpmcnBfYXJjaGl2ZV9lbnRyeV9wYXRoX2lzX3NhZmUoCiAgICAgICAgImZycF8wLjcxLjBfZGFyd2luX2FybTY0IiwKICAgICAgICAiZnJwXzAuNzEuMF9kYXJ3aW5fYXJtNjQvZnJwYyIKICAgICkpOwogICAgZm9yIHVuc2FmZV9wYXRoIGluIFsKICAgICAgICAiLi4vZnJwYyIsCiAgICAgICAgIi90bXAvZnJwYyIsCiAgICAgICAgImFub3RoZXItcm9vdC9mcnBjIiwKICAgICAgICAiZnJwXzAuNzEuMF9kYXJ3aW5fYXJtNjQvLi4vZnJwYyIsCiAgICAgICAgImZycF8wLjcxLjBfZGFyd2luX2FybTY0Ly9mcnBjIiwKICAgIF0gewogICAgICAgIGFzc2VydCEoIWRvd25sb2Fkczo6ZnJwX2FyY2hpdmVfZW50cnlfcGF0aF9pc19zYWZlKAogICAgICAgICAgICAiZnJwXzAuNzEuMF9kYXJ3aW5fYXJtNjQiLAogICAgICAgICAgICB1bnNhZmVfcGF0aAogICAgICAgICkpOwogICAgfQogICAgYXNzZXJ0IShkb3dubG9hZHM6OmZycF9hcmNoaXZlX2VudHJ5X3R5cGVfaXNfc2FmZSgKICAgICAgICAiLXJ3eHIteHIteCByb290L3doZWVsIGZycGMiCiAgICApKTsKICAgIGFzc2VydCEoZG93bmxvYWRzOjpmcnBfYXJjaGl2ZV9lbnRyeV90eXBlX2lzX3NhZmUoCiAgICAgICAgImRyd3hyLXhyLXggcm9vdC93aGVlbCBkaXJlY3RvcnkiCiAgICApKTsKICAgIGZvciB1bnNhZmVfdHlwZSBpbiBbJ2wnLCAnaCcsICdjJywgJ2InLCAncCddIHsKICAgICAgICBhc3NlcnQhKCFkb3dubG9hZHM6OmZycF9hcmNoaXZlX2VudHJ5X3R5cGVfaXNfc2FmZSgmZm9ybWF0ISgKICAgICAgICAgICAgInt1bnNhZmVfdHlwZX1yd3hyLXhyLXggcm9vdC93aGVlbCBlbnRyeSIKICAgICAgICApKSk7CiAgICB9Cn0KCiNbdGVzdF0KZm4gYnVpbGRzX2ZycF9iaW5hcnlfcGF0aF9mb3Jfc3VwcG9ydGVkX3BsYXRmb3JtcygpIHsKICAgIGxldCBwYXRoID0gZnJwX2JpbmFyeV9wYXRoKFBhdGg6Om5ldygiL3RtcC9kYXRhIiksICJsaW51eC1hbWQ2NCIsICJmcnBjIikudW53cmFwKCk7CiAgICBhc3NlcnQhKHBhdGguZW5kc193aXRoKCJmcnAvZnJwXzAuNzEuMF9saW51eF9hbWQ2NC9mcnBjIikpOwogICAgYXNzZXJ0IShmcnBfYmluYXJ5X3BhdGgoUGF0aDo6bmV3KCIvdG1wL2RhdGEiKSwgInVuc3VwcG9ydGVkIiwgImZycGMiKS5pc19ub25lKCkpOwp9CgojW3Rlc3RdCmZuIHJlamVjdHNfZnJwX2FyY2hpdmVzX3dpdGhfYW5fdW5leHBlY3RlZF9jaGVja3N1bSgpIHsKICAgIGxldCB0ZW1wID0gdGVtcGZpbGU6OnRlbXBkaXIoKS51bndyYXAoKTsKICAgIGxldCBhcmNoaXZlID0gdGVtcC5wYXRoKCkuam9pbigiZnJwLnRhci5neiIpOwogICAgZnM6OndyaXRlKCZhcmNoaXZlLCBiImhlbGxvIikudW53cmFwKCk7CiAgICBhc3NlcnQhKAogICAgICAgIGRvd25sb2Fkczo6dmFsaWRhdGVfZnJwX2NoZWNrc3VtKAogICAgICAgICAgICAmYXJjaGl2ZSwKICAgICAgICAgICAgImxpbnV4LWFtZDY0IiwKICAgICAgICAgICAgIjJjZjI0ZGJhNWZiMGEzMGUyNmU4M2IyYWM1YjllMjllMWIxNjFlNWMxZmE3NDI1ZTczMDQzMzYyOTM4Yjk4MjQiLAogICAgICAgICkKICAgICAgICAuaXNfb2soKQogICAgKTsKICAgIGxldCBlcnJvciA9IGRvd25sb2Fkczo6dmFsaWRhdGVfZnJwX2NoZWNrc3VtKAogICAgICAgICZhcmNoaXZlLAogICAgICAgICJsaW51eC1hbWQ2NCIsCiAgICAgICAgIjg0ZjI3ZTM5ZjExMTY5ZjdhZGNlZjhlOGI3MGM5MzI5ZGUxNzc0N2IxZjE0ZGFkOWZiOTVlZWY1NjgyZWE3MTYiLAogICAgKQogICAgLnVud3JhcF9lcnIoKTsKICAgIGFzc2VydCEoZXJyb3IuY29udGFpbnMoIkZSUCBjaGVja3N1bSBtaXNtYXRjaCIpKTsKfQoKI1t0ZXN0XQpmbiBidWlsZHNfZG5zbWFzcV9ib290c3RyYXBfY29uZmlnX2xpa2Vfbm9kZSgpIHsKICAgIGxldCBjb25maWcgPSBkbnNtYXNxX2Jvb3RzdHJhcF9jb25maWcoKTsKICAgIGFzc2VydCEoY29uZmlnLmNvbnRhaW5zKCJsb2NhbC10dGw9MzAiKSk7CiAgICBhc3NlcnQhKGNvbmZpZy5jb250YWlucygibGlzdGVuLWFkZHJlc3M9MTI3LjAuMC4xIikpOwogICAgYXNzZXJ0IShjb25maWcuY29udGFpbnMoImJpbmQtaW50ZXJmYWNlcyIpKTsKICAgIGFzc2VydCEoY29uZmlnLmVuZHNfd2l0aCgnXG4nKSk7Cn0KCiNbdGVzdF0KZm4gZG5zbWFzcV9zZXJ2aWNlX2NvbW1hbmRzX2FyZV9zeW1tZXRyaWNfZm9yX3N5c3RlbWRfYW5kX3N5c3YoKSB7CiAgICBsZXQgc2lnbmF0dXJlcyA9IHxraW5kLCBhY3RpdmF0ZXwgewogICAgICAgIGRuc21hc3Ffc2VydmljZV9jb21tYW5kcyhraW5kLCBhY3RpdmF0ZSkKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAubWFwKHxjb21tYW5kfCAoY29tbWFuZC5wcm9ncmFtLCBjb21tYW5kLmFyZ3MudG9fdmVjKCksIGNvbW1hbmQuZmFpbHVyZV9rZXkpKQogICAgICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKQogICAgfTsKCiAgICBhc3NlcnRfZXEhKAogICAgICAgIHNpZ25hdHVyZXMoRG5zbWFzcVNlcnZpY2VLaW5kOjpTeXN0ZW1kLCB0cnVlKSwKICAgICAgICB2ZWMhWwogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAic3lzdGVtY3RsIiwKICAgICAgICAgICAgICAgIHZlYyFbImVuYWJsZSIsICJkbnNtYXNxIl0sCiAgICAgICAgICAgICAgICAiZW5hYmxlU2VydmljZUZhaWxlZCIKICAgICAgICAgICAgKSwKICAgICAgICAgICAgKCJzeXN0ZW1jdGwiLCB2ZWMhWyJyZXN0YXJ0IiwgImRuc21hc3EiXSwgInJlc3RhcnRGYWlsZWQiKSwKICAgICAgICBdCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzaWduYXR1cmVzKERuc21hc3FTZXJ2aWNlS2luZDo6U3lzdGVtZCwgZmFsc2UpLAogICAgICAgIHZlYyFbKAogICAgICAgICAgICAic3lzdGVtY3RsIiwKICAgICAgICAgICAgdmVjIVsiZGlzYWJsZSIsICItLW5vdyIsICJkbnNtYXNxIl0sCiAgICAgICAgICAgICJkaXNhYmxlU2VydmljZUZhaWxlZCIKICAgICAgICApXQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc2lnbmF0dXJlcyhEbnNtYXNxU2VydmljZUtpbmQ6OlN5c1YsIHRydWUpLAogICAgICAgIHZlYyFbCiAgICAgICAgICAgICgKICAgICAgICAgICAgICAgICJ1cGRhdGUtcmMuZCIsCiAgICAgICAgICAgICAgICB2ZWMhWyJkbnNtYXNxIiwgImRlZmF1bHRzIl0sCiAgICAgICAgICAgICAgICAiZW5hYmxlU2VydmljZUZhaWxlZCIKICAgICAgICAgICAgKSwKICAgICAgICAgICAgKCJzZXJ2aWNlIiwgdmVjIVsiZG5zbWFzcSIsICJyZXN0YXJ0Il0sICJyZXN0YXJ0RmFpbGVkIiksCiAgICAgICAgXQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc2lnbmF0dXJlcyhEbnNtYXNxU2VydmljZUtpbmQ6OlN5c1YsIGZhbHNlKSwKICAgICAgICB2ZWMhWwogICAgICAgICAgICAoInNlcnZpY2UiLCB2ZWMhWyJkbnNtYXNxIiwgInN0b3AiXSwgInN0b3BTZXJ2aWNlRmFpbGVkIiksCiAgICAgICAgICAgICgKICAgICAgICAgICAgICAgICJ1cGRhdGUtcmMuZCIsCiAgICAgICAgICAgICAgICB2ZWMhWyItZiIsICJkbnNtYXNxIiwgInJlbW92ZSJdLAogICAgICAgICAgICAgICAgImRpc2FibGVTZXJ2aWNlRmFpbGVkIgogICAgICAgICAgICApLAogICAgICAgIF0KICAgICk7Cn0KCiNbdGVzdF0KZm4gZG5zbWFzcV9zZXJ2aWNlX2tpbmRfcmVxdWlyZXNfYV9saXZlX3N5c3RlbWRfcnVudGltZSgpIHsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgZG5zbWFzcV9zZXJ2aWNlX2tpbmRfZm9yKHRydWUsIHRydWUsIHRydWUpLAogICAgICAgIFNvbWUoRG5zbWFzcVNlcnZpY2VLaW5kOjpTeXN0ZW1kKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgZG5zbWFzcV9zZXJ2aWNlX2tpbmRfZm9yKGZhbHNlLCB0cnVlLCB0cnVlKSwKICAgICAgICBTb21lKERuc21hc3FTZXJ2aWNlS2luZDo6U3lzVikKICAgICk7CiAgICBhc3NlcnRfZXEhKGRuc21hc3Ffc2VydmljZV9raW5kX2ZvcihmYWxzZSwgdHJ1ZSwgZmFsc2UpLCBOb25lKTsKfQoKI1t0ZXN0XQpmbiBkbnNtYXNxX2FjdGl2YXRpb25fZmFpbHVyZV9kb2VzX25vdF9zdGFydF90aGVfc2VydmljZSgpIHsKICAgIGxldCBjb21tYW5kcyA9IGRuc21hc3Ffc2VydmljZV9jb21tYW5kcyhEbnNtYXNxU2VydmljZUtpbmQ6OlN5c3RlbWQsIHRydWUpOwogICAgbGV0IG11dCBzZWVuID0gVmVjOjpuZXcoKTsKICAgIGxldCByZXN1bHQgPSBydW5fZG5zbWFzcV9zZXJ2aWNlX2NvbW1hbmRzX3dpdGgoY29tbWFuZHMsIHxjb21tYW5kfCB7CiAgICAgICAgc2Vlbi5wdXNoKGNvbW1hbmQuYXJncyk7CiAgICAgICAgRXJyKCJlbmFibGUgZmFpbGVkIi50b19zdHJpbmcoKSkKICAgIH0pOwoKICAgIGFzc2VydF9lcSEocmVzdWx0LCBFcnIoImVuYWJsZSBmYWlsZWQiLnRvX3N0cmluZygpKSk7CiAgICBhc3NlcnRfZXEhKHNlZW4sIHZlYyFbJlsiZW5hYmxlIiwgImRuc21hc3EiXVsuLl1dKTsKfQoKI1t0ZXN0XQpmbiBkbnNtYXNxX3NlcnZpY2VfY29tbWFuZF9mYWlsdXJlX2lzX3Byb3BhZ2F0ZWRfd2l0aG91dF9za2lwcGluZ19jbGVhbnVwKCkgewogICAgbGV0IGNvbW1hbmRzID0gZG5zbWFzcV9zZXJ2aWNlX2NvbW1hbmRzKERuc21hc3FTZXJ2aWNlS2luZDo6U3lzViwgZmFsc2UpOwogICAgbGV0IG11dCBzZWVuID0gVmVjOjpuZXcoKTsKICAgIGxldCByZXN1bHQgPSBydW5fZG5zbWFzcV9zZXJ2aWNlX2NvbW1hbmRzX3dpdGgoY29tbWFuZHMsIHxjb21tYW5kfCB7CiAgICAgICAgc2Vlbi5wdXNoKGNvbW1hbmQucHJvZ3JhbSk7CiAgICAgICAgaWYgY29tbWFuZC5wcm9ncmFtID09ICJzZXJ2aWNlIiB7CiAgICAgICAgICAgIEVycigic3RvcCBmYWlsZWQgd2l0aCBkZXRhaWwiLnRvX3N0cmluZygpKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIE9rKCgpKQogICAgICAgIH0KICAgIH0pOwoKICAgIGFzc2VydF9lcSEocmVzdWx0LCBFcnIoInN0b3AgZmFpbGVkIHdpdGggZGV0YWlsIi50b19zdHJpbmcoKSkpOwogICAgYXNzZXJ0X2VxIShzZWVuLCB2ZWMhWyJzZXJ2aWNlIiwgInVwZGF0ZS1yYy5kIl0pOwp9CgojW3Rlc3RdCmZuIGxvY2FsaXplc19zeXN0ZW1fYXNzZXRfYW5kX2Ruc21hc3FfbWVzc2FnZXMoKSB7CiAgICBsZXQgemggPSBUcmFuc2xhdG9yOjpuZXcoInpoLUNOIik7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHR1bm5lbF9tYW5hZ2VyX3RleHQoJnpoLCAiY2xvdWRmbGFyZWQiLCAiZG93bmxvYWRTdGFydGVkIiksCiAgICAgICAgIuW3suW8gOWni+S4i+i9vSBDbG91ZGZsYXJlZCIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGNsb3VkZmxhcmVkX2RlbGV0ZV91bnN1cHBvcnRlZF9tZXNzYWdlKCZ6aCwgInVuc3VwcG9ydGVkIikuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKCLlvZPliY3lubPlj7DkuI3lj5fmlK/mjIEiKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgY2xvdWRmbGFyZWRfZGVsZXRlX3Vuc3VwcG9ydGVkX21lc3NhZ2UoJnpoLCAiZGFyd2luLWFtZDY0IiksCiAgICAgICAgTm9uZQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgY2xvdWRmbGFyZWRfZGVsZXRlX3Vuc3VwcG9ydGVkX21lc3NhZ2UoJnpoLCAid2luZG93cy1hbWQ2NCIpLAogICAgICAgIE5vbmUKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHR1bm5lbF9tYW5hZ2VyX3RleHRfcGFyYW1zKAogICAgICAgICAgICAmemgsCiAgICAgICAgICAgICJmcnAiLAogICAgICAgICAgICAiZGVsZXRlRmFpbGVkIiwKICAgICAgICAgICAgJlsoImRldGFpbCIsICLmnYPpmZDkuI3otrMiLnRvX3N0cmluZygpKV0KICAgICAgICApLAogICAgICAgICLliKDpmaQgRlJQIOWksei0pe+8muadg+mZkOS4jei2syIKICAgICk7CiAgICBhc3NlcnRfZXEhKGRuc21hc3FfcmVhZHlfbWVzc2FnZSgmemgsICIyLjkwIiksICJkbnNtYXNxIOW3suWwsee7qu+8mjIuOTAiKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgZG5zbWFzcV9kZXRlY3RlZF9tZXNzYWdlKCZ6aCwgIjIuOTAiLCB0cnVlKSwKICAgICAgICAiZG5zbWFzcSDlt7Lmo4DmtYvliLDvvJoyLjkw77yM562J5b6F5Yid5aeL5YyW5oiW5ZCv5Yqo5pyN5YqhIgogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgZG5zbWFzcV9kZXRlY3RlZF9tZXNzYWdlKCZ6aCwgIjIuOTAiLCBmYWxzZSksCiAgICAgICAgIue8uuWwkeezu+e7n+acjeWKoe+8jOWIneWni+WMluaXtuS8muiHquWKqOihpeWFqCIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGRuc21hc3FfaW5zdGFsbF9zdGF0ZV90b19qc29uKCZEbnNtYXNxSW5zdGFsbFN0YXRlOjpkZWZhdWx0KCksICZ6aClbIm1lc3NhZ2UiXSwKICAgICAgICAi5pyq5qOA5rWL5YiwIGRuc21hc3HvvIzor7flhYjlrozmiJDlronoo4UiCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBub3JtYWxpemVfZG5zbWFzcV9lcnJvcigKICAgICAgICAgICAgJnpoLAogICAgICAgICAgICAiZmFpbGVkIHRvIGNyZWF0ZSBsaXN0ZW5pbmcgc29ja2V0IGZvciBwb3J0IDUzOiBBZGRyZXNzIGFscmVhZHkgaW4gdXNlIiwKICAgICAgICAgICAgInJlc3RhcnRGYWlsZWQiLAogICAgICAgICksCiAgICAgICAgIkROUyA1MyDnq6/lj6PkuI3lj6/nlKjvvIzor7flhYjph4rmlL7nq6/lj6PlkI7ph43or5XvvJpmYWlsZWQgdG8gY3JlYXRlIGxpc3RlbmluZyBzb2NrZXQgZm9yIHBvcnQgNTM6IEFkZHJlc3MgYWxyZWFkeSBpbiB1c2UiCiAgICApOwoKICAgIGxldCBlbiA9IFRyYW5zbGF0b3I6Om5ldygiZW4iKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgdHVubmVsX21hbmFnZXJfdGV4dCgmZW4sICJmcnAiLCAiZGVsZXRlU3VjY2VzcyIpLAogICAgICAgICJGUlAgZGVsZXRlZCIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGRuc21hc3FfdGV4dCgmZW4sICJjaGVja2luZ0Vudmlyb25tZW50IiksCiAgICAgICAgIkNoZWNraW5nIGRuc21hc3EgZW52aXJvbm1lbnQuLi4iCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBkbnNtYXNxX3RleHQoJmVuLCAiZGlzYWJsZVNlcnZpY2VGYWlsZWQiKSwKICAgICAgICAiRmFpbGVkIHRvIGRpc2FibGUgZG5zbWFzcSBvbiBib290IgogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgbm9ybWFsaXplX2Ruc21hc3FfZXJyb3IoCiAgICAgICAgICAgICZlbiwKICAgICAgICAgICAgInN5c3RlbWN0bCBmYWlsZWQ6IHBlcm1pc3Npb24gZGVuaWVkIiwKICAgICAgICAgICAgImRpc2FibGVTZXJ2aWNlRmFpbGVkIgogICAgICAgICksCiAgICAgICAgIkZhaWxlZCB0byBkaXNhYmxlIGRuc21hc3Egb24gYm9vdDogc3lzdGVtY3RsIGZhaWxlZDogcGVybWlzc2lvbiBkZW5pZWQiCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBub3JtYWxpemVfZG5zbWFzcV9lcnJvcigmZW4sICJhcHQgcGVybWlzc2lvbiBkZW5pZWQiLCAiYXB0VXBkYXRlRmFpbGVkIiksCiAgICAgICAgImFwdCBwZXJtaXNzaW9uIGRlbmllZCIKICAgICk7Cn0KCiNbdGVzdF0KZm4gcmVzb2x2ZXNfZG5zbWFzcV9pbnN0YWxsX3N0YXRlX2xpa2Vfbm9kZSgpIHsKICAgIGxldCB6aCA9IFRyYW5zbGF0b3I6Om5ldygiemgtQ04iKTsKCiAgICBsZXQgaW5zdGFsbGluZyA9IHJlc29sdmVfZG5zbWFzcV9pbnN0YWxsX3N0YXRlKAogICAgICAgICZ6aCwKICAgICAgICBTb21lKCIyLjkwIiksCiAgICAgICAgdHJ1ZSwKICAgICAgICB0cnVlLAogICAgICAgIHRydWUsCiAgICAgICAgZG5zbWFzcV9zdGF0ZSgiaW5zdGFsbGluZyIsIDQyLCAiaW5zdGFsbGluZyBub3ciLnRvX3N0cmluZygpKSwKICAgICk7CiAgICBhc3NlcnRfZXEhKGluc3RhbGxpbmcuc3RhdHVzLCAiaW5zdGFsbGluZyIpOwogICAgYXNzZXJ0X2VxIShpbnN0YWxsaW5nLnByb2dyZXNzLCA0Mik7CiAgICBhc3NlcnRfZXEhKGluc3RhbGxpbmcubWVzc2FnZSwgImluc3RhbGxpbmcgbm93Iik7CgogICAgbGV0IHByZXZpb3VzX2Vycm9yID0gZG5zbWFzcV9zdGF0ZSgiZXJyb3IiLCAwLCAiYmluZCBmYWlsZWQiLnRvX3N0cmluZygpKTsKICAgIGxldCBwcmVzZXJ2ZWRfZXJyb3IgPSByZXNvbHZlX2Ruc21hc3FfaW5zdGFsbF9zdGF0ZSgKICAgICAgICAmemgsCiAgICAgICAgU29tZSgiMi45MCIpLAogICAgICAgIGZhbHNlLAogICAgICAgIGZhbHNlLAogICAgICAgIHRydWUsCiAgICAgICAgcHJldmlvdXNfZXJyb3IuY2xvbmUoKSwKICAgICk7CiAgICBhc3NlcnRfZXEhKHByZXNlcnZlZF9lcnJvci5zdGF0dXMsICJlcnJvciIpOwogICAgYXNzZXJ0X2VxIShwcmVzZXJ2ZWRfZXJyb3IubWVzc2FnZSwgImJpbmQgZmFpbGVkIik7CgogICAgbGV0IHJlYWR5X292ZXJyaWRlc19lcnJvciA9CiAgICAgICAgcmVzb2x2ZV9kbnNtYXNxX2luc3RhbGxfc3RhdGUoJnpoLCBTb21lKCIyLjkwIiksIHRydWUsIHRydWUsIHRydWUsIHByZXZpb3VzX2Vycm9yKTsKICAgIGFzc2VydF9lcSEocmVhZHlfb3ZlcnJpZGVzX2Vycm9yLnN0YXR1cywgImluc3RhbGxlZCIpOwogICAgYXNzZXJ0X2VxIShyZWFkeV9vdmVycmlkZXNfZXJyb3IubWVzc2FnZSwgImRuc21hc3Eg5bey5bCx57uq77yaMi45MCIpOwoKICAgIGxldCBtaXNzaW5nX3NlcnZpY2UgPSByZXNvbHZlX2Ruc21hc3FfaW5zdGFsbF9zdGF0ZSgKICAgICAgICAmemgsCiAgICAgICAgU29tZSgiMi45MCIpLAogICAgICAgIGZhbHNlLAogICAgICAgIGZhbHNlLAogICAgICAgIGZhbHNlLAogICAgICAgIERuc21hc3FJbnN0YWxsU3RhdGU6OmRlZmF1bHQoKSwKICAgICk7CiAgICBhc3NlcnRfZXEhKG1pc3Npbmdfc2VydmljZS5zdGF0dXMsICJpbnN0YWxsZWQiKTsKICAgIGFzc2VydF9lcSEobWlzc2luZ19zZXJ2aWNlLm1lc3NhZ2UsICLnvLrlsJHns7vnu5/mnI3liqHvvIzliJ3lp4vljJbml7bkvJroh6rliqjooaXlhagiKTsKfQoKI1t0ZXN0XQpmbiBsb2NhbGl6ZXNfYXNzZXRfcHJvZ3Jlc3NfZXJyb3JzKCkgewogICAgbGV0IHpoID0gVHJhbnNsYXRvcjo6bmV3KCJ6aC1DTiIpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBsb2NhbGl6ZV9hc3NldF9wcm9ncmVzc19lcnJvcigmemgsICJmcnAiLCAiRG93bmxvYWQgY2FuY2VsbGVkIiksCiAgICAgICAgIuS4i+i9veW3suWPlua2iCIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGxvY2FsaXplX2Fzc2V0X3Byb2dyZXNzX2Vycm9yKCZ6aCwgImNsb3VkZmxhcmVkIiwgIkNsb3VkZmxhcmVkIHBsYXRmb3JtIGlzIHVuc3VwcG9ydGVkIiksCiAgICAgICAgIuW9k+WJjeW5s+WPsOS4jeWPl+aUr+aMgSIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGxvY2FsaXplX2Fzc2V0X3Byb2dyZXNzX2Vycm9yKCZ6aCwgImZycCIsICJGUlAgcGFja2FnZSBleHRyYWN0aW9uIGZhaWxlZCB3aXRoIGNvZGUgMiIpLAogICAgICAgICLop6PljovlpLHotKXvvIzpgIDlh7rnoIEgMiIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGxvY2FsaXplX2Fzc2V0X3Byb2dyZXNzX2Vycm9yKCZ6aCwgImZycCIsICJGUlAgZG93bmxvYWQgZmFpbGVkOiBIVFRQIDUwMyIpLAogICAgICAgICLkuIvovb3lpLHotKXvvJpIVFRQIDUwMyIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGxvY2FsaXplX2Fzc2V0X3Byb2dyZXNzX2Vycm9yKCZ6aCwgImZycCIsICJEb3dubG9hZCBmYWlsZWQiKSwKICAgICAgICAi5LiL6L295aSx6LSl77ya5pyq55+l6ZSZ6K+vIgogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgbG9jYWxpemVfYXNzZXRfcHJvZ3Jlc3NfZXJyb3IoCiAgICAgICAgICAgICZ6aCwKICAgICAgICAgICAgImZycCIsCiAgICAgICAgICAgICJGUlAgZG93bmxvYWQgZmFpbGVkOiBEb3dubG9hZCByZXNwb25zZSB0aW1lZCBvdXQgYWZ0ZXIgMTIwcyB3aXRob3V0IHJlY2VpdmluZyBkYXRhIgogICAgICAgICksCiAgICAgICAgIuS4i+i9veWksei0pe+8mui/nuaOpei2heaXtiIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGxvY2FsaXplX2Fzc2V0X3Byb2dyZXNzX2Vycm9yKAogICAgICAgICAgICAmemgsCiAgICAgICAgICAgICJmcnAiLAogICAgICAgICAgICAiRlJQIGRvd25sb2FkIGZhaWxlZDogRG93bmxvYWQgY29ubmVjdGlvbiB0aW1lZCBvdXQgYWZ0ZXIgMzBzIgogICAgICAgICksCiAgICAgICAgIuS4i+i9veWksei0pe+8mui/nuaOpei2heaXtiIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGxvY2FsaXplX2Fzc2V0X3Byb2dyZXNzX2Vycm9yKAogICAgICAgICAgICAmemgsCiAgICAgICAgICAgICJmcnAiLAogICAgICAgICAgICAiRlJQIGRvd25sb2FkIGZhaWxlZDogRG93bmxvYWQgdGltZWQgb3V0IGFmdGVyIDE4MDBzIHRvdGFsIgogICAgICAgICksCiAgICAgICAgIuS4i+i9veWksei0pe+8mui/nuaOpei2heaXtiIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGxvY2FsaXplX2Fzc2V0X3Byb2dyZXNzX2Vycm9yKCZ6aCwgImNsb3VkZmxhcmVkIiwgIkRvd25sb2FkIHJlc3BvbnNlIGJvZHkgaXMgdW5yZWFkYWJsZSIpLAogICAgICAgICLkuIvovb3lk43lupTkvZPkuI3lj6/or7siCiAgICApOwp9CgojW3Rlc3RdCmZuIHByZXNlcnZlc19jbG9ja19zeW5jX21ldGFkYXRhX2Fjcm9zc19zdGF0dXNfcmVmcmVzaCgpIHsKICAgIGxldCBwcmV2aW91cyA9IGpzb24hKHsKICAgICAgICAic3luY0luUHJvZ3Jlc3MiOiB0cnVlLAogICAgICAgICJsYXN0U3luY0F0IjogIjIwMjYtMDctMDdUMDE6MDI6MDNaIiwKICAgICAgICAibGFzdFN5bmNFcnJvciI6ICJib29tIiwKICAgICAgICAic3luY1N1bW1hcnkiOiAiZG9uZSIKICAgIH0pOwogICAgbGV0IG11dCBzdGF0dXMgPSBpbml0aWFsX2Nsb2NrX3N0YXR1cygpOwoKICAgIHByZXNlcnZlX2Nsb2NrX3N5bmNfbWV0YWRhdGFfZnJvbSgmbXV0IHN0YXR1cywgU29tZSgmcHJldmlvdXMpKTsKCiAgICBhc3NlcnRfZXEhKHN0YXR1c1sic3luY0luUHJvZ3Jlc3MiXSwgdHJ1ZSk7CiAgICBhc3NlcnRfZXEhKHN0YXR1c1sibGFzdFN5bmNBdCJdLCAiMjAyNi0wNy0wN1QwMTowMjowM1oiKTsKICAgIGFzc2VydF9lcSEoc3RhdHVzWyJsYXN0U3luY0Vycm9yIl0sICJib29tIik7CiAgICBhc3NlcnRfZXEhKHN0YXR1c1sic3luY1N1bW1hcnkiXSwgImRvbmUiKTsKfQoKI1t0ZXN0XQpmbiBjYWxjdWxhdGVzX2Nsb2NrX3N5bmNfdGFyZ2V0X2xpa2Vfbm9kZSgpIHsKICAgIGFzc2VydF9lcSEoY2xvY2tfc3luY190YXJnZXRfZXBvY2hfbXMoMTBfMDAwLCAxXzAwMCwgM181MDApLCAxMl81MDApOwogICAgYXNzZXJ0X2VxIShjbG9ja19zeW5jX3RhcmdldF9lcG9jaF9tcygxMF8wMDAsIDNfNTAwLCAxXzAwMCksIDEwXzAwMCk7Cn0KCiNbdGVzdF0KZm4gcm91bmRzX25ldHdvcmtfbGF0ZW5jeV9jb21wZW5zYXRpb25fbGlrZV9ub2RlKCkgewogICAgYXNzZXJ0X2VxIShuZXR3b3JrX2xhdGVuY3lfY29tcGVuc2F0aW9uX21zKDApLCAwKTsKICAgIGFzc2VydF9lcSEobmV0d29ya19sYXRlbmN5X2NvbXBlbnNhdGlvbl9tcygxKSwgMSk7CiAgICBhc3NlcnRfZXEhKG5ldHdvcmtfbGF0ZW5jeV9jb21wZW5zYXRpb25fbXMoMiksIDEpOwogICAgYXNzZXJ0X2VxIShuZXR3b3JrX2xhdGVuY3lfY29tcGVuc2F0aW9uX21zKDMpLCAyKTsKfQoKI1t0ZXN0XQpmbiBmb3JtYXRzX2RyaWZ0X3dpdGhfbm9kZV9yb3VuZGluZygpIHsKICAgIGxldCB6aCA9IFRyYW5zbGF0b3I6Om5ldygiemgtQ04iKTsKICAgIGFzc2VydF9lcSEoZm9ybWF0X2RyaWZ0KDkwXzEwMCwgJnpoKSwgIjEg5YiGIDMwIOenkiIpOwogICAgYXNzZXJ0X2VxIShmb3JtYXRfZHJpZnQoOTBfNTAwLCAmemgpLCAiMSDliIYgMzEg56eSIik7Cn0KCiNbdGVzdF0KZm4gc3VtbWFyaXplc19wcm9jZXNzX291dHB1dF90YWlsX2xpa2Vfbm9kZSgpIHsKICAgIGxldCBzdW1tYXJ5ID0gc3VtbWFyaXplX3Byb2Nlc3Nfb3V0cHV0KAogICAgICAgICAgICBiInN0ZG91dC0xXG5zdGRvdXQtMlxuIiwKICAgICAgICAgICAgYiJzdGRlcnItMVxuc3RkZXJyLTJcbnN0ZGVyci0zXG5zdGRlcnItNFxuc3RkZXJyLTVcbnN0ZGVyci02XG5zdGRlcnItN1xuc3RkZXJyLThcbnN0ZGVyci05XG4iLAogICAgICAgICk7CiAgICBhc3NlcnQhKCFzdW1tYXJ5LmNvbnRhaW5zKCJzdGRlcnItMSIpKTsKICAgIGFzc2VydCEoc3VtbWFyeS5jb250YWlucygic3RkZXJyLTkiKSk7CiAgICBhc3NlcnQhKHN1bW1hcnkuY29udGFpbnMoInN0ZG91dC0yIikpOwp9CgojW3Rlc3RdCmZuIGZvcm1hdHNfZXBvY2hfYXNfbG9jYWxpemVkX2JlaWppbmdfdGltZV9saWtlX25vZGUoKSB7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGZvcm1hdF9iZWlqaW5nX3RpbWUoMCwgInpoLUNOIikuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKCIxOTcwLzAxLzAxIDA4OjAwOjAwIikKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGZvcm1hdF9iZWlqaW5nX3RpbWUoMCwgImVuIikuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKCIwMS8wMS8xOTcwLCAwODowMDowMCIpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBmb3JtYXRfYmVpamluZ190aW1lKDAsICJ6aC1IYW50IikuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKCIxOTcwLzAxLzAxXHV7MjAwOX0wODowMDowMCIpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBmb3JtYXRfYmVpamluZ190aW1lKDAsICJrby1LUiIpLmFzX2RlcmVmKCksCiAgICAgICAgU29tZSgiMTk3MC4gMDEuIDAxLiAwODowMDowMCIpCiAgICApOwp9Cg==
+use std::fs;
+
+use super::*;
+
+async fn generic_linux_test_state() -> (tempfile::TempDir, AppState) {
+    let directory = tempfile::tempdir().unwrap();
+    let mut settings = {
+        let _environment = crate::test_support::EnvGuard::new(&[]);
+        crate::settings::Settings::from_env()
+    };
+    settings.runtime_target = "linux".to_string();
+    settings.data_dir = directory.path().join("data");
+    settings.gateway_config_dir = directory.path().join("gateway");
+    settings.sqlite_path = directory.path().join("fn-knock.sqlite3");
+    settings.legacy_redis_url = String::new();
+    settings.internal_rpc_token = "test-internal-rpc-token".to_string();
+
+    let state = AppState::new(settings).await.unwrap();
+    (directory, state)
+}
+
+#[tokio::test]
+async fn generic_linux_root_rejects_clock_sync_and_dnsmasq_operations() {
+    let profile = crate::runtime_profile::RuntimeProfile {
+        deployment_target: "linux".to_string(),
+        is_docker: false,
+        is_linux: true,
+        is_macos: false,
+        is_windows: false,
+        is_root_process: true,
+    };
+    assert!(!super::runtime::system_clock_sync_available_for_profile(
+        &profile
+    ));
+    assert!(!super::runtime::smart_connect_available_for_profile(
+        &profile
+    ));
+
+    let (_directory, state) = generic_linux_test_state().await;
+    let clock_response = clock_sync(axum::extract::State(state.clone())).await;
+    let dnsmasq_status_response = dnsmasq_status(axum::extract::State(state.clone())).await;
+    let dnsmasq_install_response = dnsmasq_install(axum::extract::State(state)).await;
+
+    assert_eq!(clock_response.status(), axum::http::StatusCode::FORBIDDEN);
+    assert_eq!(
+        dnsmasq_status_response.status(),
+        axum::http::StatusCode::FORBIDDEN
+    );
+    assert_eq!(
+        dnsmasq_install_response.status(),
+        axum::http::StatusCode::FORBIDDEN
+    );
+}
+
+#[test]
+fn detects_frp_platform_names_like_node() {
+    let platform = detect_frp_platform();
+    assert!(
+        [
+            "darwin-arm64",
+            "darwin-amd64",
+            "linux-amd64",
+            "linux-arm64",
+            "linux-arm",
+            "unsupported"
+        ]
+        .contains(&platform)
+    );
+}
+
+#[test]
+fn validates_downloaded_darwin_binary_architectures() {
+    assert!(downloads::downloaded_architecture_matches(
+        "darwin-arm64",
+        "Mach-O 64-bit executable arm64"
+    ));
+    assert!(downloads::downloaded_architecture_matches(
+        "darwin-amd64",
+        "Mach-O 64-bit executable x86_64"
+    ));
+    assert!(!downloads::downloaded_architecture_matches(
+        "darwin-arm64",
+        "Mach-O 64-bit executable x86_64"
+    ));
+    assert!(!downloads::downloaded_architecture_matches(
+        "darwin-arm64",
+        "Mach-O universal binary with 2 architectures: [x86_64] [arm64]"
+    ));
+    assert!(downloads::downloaded_windows_architecture_matches(
+        "windows-amd64",
+        0x8664
+    ));
+    assert!(downloads::downloaded_windows_architecture_matches(
+        "windows-386",
+        0x014c
+    ));
+    assert!(!downloads::downloaded_windows_architecture_matches(
+        "windows-amd64",
+        0x014c
+    ));
+}
+
+#[test]
+fn rejects_unsafe_frp_archive_entries() {
+    assert!(downloads::frp_archive_entry_path_is_safe(
+        "frp_0.71.0_darwin_arm64",
+        "frp_0.71.0_darwin_arm64/frpc"
+    ));
+    for unsafe_path in [
+        "../frpc",
+        "/tmp/frpc",
+        "another-root/frpc",
+        "frp_0.71.0_darwin_arm64/../frpc",
+        "frp_0.71.0_darwin_arm64//frpc",
+    ] {
+        assert!(!downloads::frp_archive_entry_path_is_safe(
+            "frp_0.71.0_darwin_arm64",
+            unsafe_path
+        ));
+    }
+    assert!(downloads::frp_archive_entry_type_is_safe(
+        "-rwxr-xr-x root/wheel frpc"
+    ));
+    assert!(downloads::frp_archive_entry_type_is_safe(
+        "drwxr-xr-x root/wheel directory"
+    ));
+    for unsafe_type in ['l', 'h', 'c', 'b', 'p'] {
+        assert!(!downloads::frp_archive_entry_type_is_safe(&format!(
+            "{unsafe_type}rwxr-xr-x root/wheel entry"
+        )));
+    }
+}
+
+#[test]
+fn builds_frp_binary_path_for_supported_platforms() {
+    let path = frp_binary_path(Path::new("/tmp/data"), "linux-amd64", "frpc").unwrap();
+    assert!(path.ends_with("frp/frp_0.71.0_linux_amd64/frpc"));
+    assert!(frp_binary_path(Path::new("/tmp/data"), "unsupported", "frpc").is_none());
+}
+
+#[test]
+fn rejects_frp_archives_with_an_unexpected_checksum() {
+    let temp = tempfile::tempdir().unwrap();
+    let archive = temp.path().join("frp.tar.gz");
+    fs::write(&archive, b"hello").unwrap();
+    assert!(
+        downloads::validate_frp_checksum(
+            &archive,
+            "linux-amd64",
+            "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824",
+        )
+        .is_ok()
+    );
+    let error = downloads::validate_frp_checksum(
+        &archive,
+        "linux-amd64",
+        "84f27e39f11169f7adcef8e8b70c9329de17747b1f14dad9fb95eef5682ea716",
+    )
+    .unwrap_err();
+    assert!(error.contains("FRP checksum mismatch"));
+}
+
+#[test]
+fn builds_dnsmasq_bootstrap_config_like_node() {
+    let config = dnsmasq_bootstrap_config();
+    assert!(config.contains("local-ttl=30"));
+    assert!(config.contains("listen-address=127.0.0.1"));
+    assert!(config.contains("bind-interfaces"));
+    assert!(config.ends_with('\n'));
+}
+
+#[test]
+fn dnsmasq_service_commands_are_symmetric_for_systemd_and_sysv() {
+    let signatures = |kind, activate| {
+        dnsmasq_service_commands(kind, activate)
+            .iter()
+            .map(|command| (command.program, command.args.to_vec(), command.failure_key))
+            .collect::<Vec<_>>()
+    };
+
+    assert_eq!(
+        signatures(DnsmasqServiceKind::Systemd, true),
+        vec![
+            (
+                "systemctl",
+                vec!["enable", "dnsmasq"],
+                "enableServiceFailed"
+            ),
+            ("systemctl", vec!["restart", "dnsmasq"], "restartFailed"),
+        ]
+    );
+    assert_eq!(
+        signatures(DnsmasqServiceKind::Systemd, false),
+        vec![(
+            "systemctl",
+            vec!["disable", "--now", "dnsmasq"],
+            "disableServiceFailed"
+        )]
+    );
+    assert_eq!(
+        signatures(DnsmasqServiceKind::SysV, true),
+        vec![
+            (
+                "update-rc.d",
+                vec!["dnsmasq", "defaults"],
+                "enableServiceFailed"
+            ),
+            ("service", vec!["dnsmasq", "restart"], "restartFailed"),
+        ]
+    );
+    assert_eq!(
+        signatures(DnsmasqServiceKind::SysV, false),
+        vec![
+            ("service", vec!["dnsmasq", "stop"], "stopServiceFailed"),
+            (
+                "update-rc.d",
+                vec!["-f", "dnsmasq", "remove"],
+                "disableServiceFailed"
+            ),
+        ]
+    );
+}
+
+#[test]
+fn dnsmasq_service_kind_requires_a_live_systemd_runtime() {
+    assert_eq!(
+        dnsmasq_service_kind_for(true, true, true),
+        Some(DnsmasqServiceKind::Systemd)
+    );
+    assert_eq!(
+        dnsmasq_service_kind_for(false, true, true),
+        Some(DnsmasqServiceKind::SysV)
+    );
+    assert_eq!(dnsmasq_service_kind_for(false, true, false), None);
+}
+
+#[test]
+fn dnsmasq_activation_failure_does_not_start_the_service() {
+    let commands = dnsmasq_service_commands(DnsmasqServiceKind::Systemd, true);
+    let mut seen = Vec::new();
+    let result = run_dnsmasq_service_commands_with(commands, |command| {
+        seen.push(command.args);
+        Err("enable failed".to_string())
+    });
+
+    assert_eq!(result, Err("enable failed".to_string()));
+    assert_eq!(seen, vec![&["enable", "dnsmasq"][..]]);
+}
+
+#[test]
+fn dnsmasq_service_command_failure_is_propagated_without_skipping_cleanup() {
+    let commands = dnsmasq_service_commands(DnsmasqServiceKind::SysV, false);
+    let mut seen = Vec::new();
+    let result = run_dnsmasq_service_commands_with(commands, |command| {
+        seen.push(command.program);
+        if command.program == "service" {
+            Err("stop failed with detail".to_string())
+        } else {
+            Ok(())
+        }
+    });
+
+    assert_eq!(result, Err("stop failed with detail".to_string()));
+    assert_eq!(seen, vec!["service", "update-rc.d"]);
+}
+
+#[test]
+fn localizes_system_asset_and_dnsmasq_messages() {
+    let zh = Translator::new("zh-CN");
+    assert_eq!(
+        tunnel_manager_text(&zh, "cloudflared", "downloadStarted"),
+        "已开始下载 Cloudflared"
+    );
+    assert_eq!(
+        cloudflared_delete_unsupported_message(&zh, "unsupported").as_deref(),
+        Some("当前平台不受支持")
+    );
+    assert_eq!(
+        cloudflared_delete_unsupported_message(&zh, "darwin-amd64"),
+        None
+    );
+    assert_eq!(
+        cloudflared_delete_unsupported_message(&zh, "windows-amd64"),
+        None
+    );
+    assert_eq!(
+        tunnel_manager_text_params(
+            &zh,
+            "frp",
+            "deleteFailed",
+            &[("detail", "权限不足".to_string())]
+        ),
+        "删除 FRP 失败：权限不足"
+    );
+    assert_eq!(dnsmasq_ready_message(&zh, "2.90"), "dnsmasq 已就绪：2.90");
+    assert_eq!(
+        dnsmasq_detected_message(&zh, "2.90", true),
+        "dnsmasq 已检测到：2.90，等待初始化或启动服务"
+    );
+    assert_eq!(
+        dnsmasq_detected_message(&zh, "2.90", false),
+        "缺少系统服务，初始化时会自动补全"
+    );
+    assert_eq!(
+        dnsmasq_install_state_to_json(&DnsmasqInstallState::default(), &zh)["message"],
+        "未检测到 dnsmasq，请先完成安装"
+    );
+    assert_eq!(
+        normalize_dnsmasq_error(
+            &zh,
+            "failed to create listening socket for port 53: Address already in use",
+            "restartFailed",
+        ),
+        "DNS 53 端口不可用，请先释放端口后重试：failed to create listening socket for port 53: Address already in use"
+    );
+
+    let en = Translator::new("en");
+    assert_eq!(
+        tunnel_manager_text(&en, "frp", "deleteSuccess"),
+        "FRP deleted"
+    );
+    assert_eq!(
+        dnsmasq_text(&en, "checkingEnvironment"),
+        "Checking dnsmasq environment..."
+    );
+    assert_eq!(
+        dnsmasq_text(&en, "disableServiceFailed"),
+        "Failed to disable dnsmasq on boot"
+    );
+    assert_eq!(
+        normalize_dnsmasq_error(
+            &en,
+            "systemctl failed: permission denied",
+            "disableServiceFailed"
+        ),
+        "Failed to disable dnsmasq on boot: systemctl failed: permission denied"
+    );
+    assert_eq!(
+        normalize_dnsmasq_error(&en, "apt permission denied", "aptUpdateFailed"),
+        "apt permission denied"
+    );
+}
+
+#[test]
+fn resolves_dnsmasq_install_state_like_node() {
+    let zh = Translator::new("zh-CN");
+
+    let installing = resolve_dnsmasq_install_state(
+        &zh,
+        Some("2.90"),
+        true,
+        true,
+        true,
+        dnsmasq_state("installing", 42, "installing now".to_string()),
+    );
+    assert_eq!(installing.status, "installing");
+    assert_eq!(installing.progress, 42);
+    assert_eq!(installing.message, "installing now");
+
+    let previous_error = dnsmasq_state("error", 0, "bind failed".to_string());
+    let preserved_error = resolve_dnsmasq_install_state(
+        &zh,
+        Some("2.90"),
+        false,
+        false,
+        true,
+        previous_error.clone(),
+    );
+    assert_eq!(preserved_error.status, "error");
+    assert_eq!(preserved_error.message, "bind failed");
+
+    let ready_overrides_error =
+        resolve_dnsmasq_install_state(&zh, Some("2.90"), true, true, true, previous_error);
+    assert_eq!(ready_overrides_error.status, "installed");
+    assert_eq!(ready_overrides_error.message, "dnsmasq 已就绪：2.90");
+
+    let missing_service = resolve_dnsmasq_install_state(
+        &zh,
+        Some("2.90"),
+        false,
+        false,
+        false,
+        DnsmasqInstallState::default(),
+    );
+    assert_eq!(missing_service.status, "installed");
+    assert_eq!(missing_service.message, "缺少系统服务，初始化时会自动补全");
+}
+
+#[test]
+fn localizes_asset_progress_errors() {
+    let zh = Translator::new("zh-CN");
+    assert_eq!(
+        localize_asset_progress_error(&zh, "frp", "Download cancelled"),
+        "下载已取消"
+    );
+    assert_eq!(
+        localize_asset_progress_error(&zh, "cloudflared", "Cloudflared platform is unsupported"),
+        "当前平台不受支持"
+    );
+    assert_eq!(
+        localize_asset_progress_error(&zh, "frp", "FRP package extraction failed with code 2"),
+        "解压失败，退出码 2"
+    );
+    assert_eq!(
+        localize_asset_progress_error(&zh, "frp", "FRP download failed: HTTP 503"),
+        "下载失败：HTTP 503"
+    );
+    assert_eq!(
+        localize_asset_progress_error(&zh, "frp", "Download failed"),
+        "下载失败：未知错误"
+    );
+    assert_eq!(
+        localize_asset_progress_error(
+            &zh,
+            "frp",
+            "FRP download failed: Download response timed out after 120s without receiving data"
+        ),
+        "下载失败：连接超时"
+    );
+    assert_eq!(
+        localize_asset_progress_error(
+            &zh,
+            "frp",
+            "FRP download failed: Download connection timed out after 30s"
+        ),
+        "下载失败：连接超时"
+    );
+    assert_eq!(
+        localize_asset_progress_error(
+            &zh,
+            "frp",
+            "FRP download failed: Download timed out after 1800s total"
+        ),
+        "下载失败：连接超时"
+    );
+    assert_eq!(
+        localize_asset_progress_error(&zh, "cloudflared", "Download response body is unreadable"),
+        "下载响应体不可读"
+    );
+}
+
+#[test]
+fn preserves_clock_sync_metadata_across_status_refresh() {
+    let previous = json!({
+        "syncInProgress": true,
+        "lastSyncAt": "2026-07-07T01:02:03Z",
+        "lastSyncError": "boom",
+        "syncSummary": "done"
+    });
+    let mut status = initial_clock_status();
+
+    preserve_clock_sync_metadata_from(&mut status, Some(&previous));
+
+    assert_eq!(status["syncInProgress"], true);
+    assert_eq!(status["lastSyncAt"], "2026-07-07T01:02:03Z");
+    assert_eq!(status["lastSyncError"], "boom");
+    assert_eq!(status["syncSummary"], "done");
+}
+
+#[test]
+fn calculates_clock_sync_target_like_node() {
+    assert_eq!(clock_sync_target_epoch_ms(10_000, 1_000, 3_500), 12_500);
+    assert_eq!(clock_sync_target_epoch_ms(10_000, 3_500, 1_000), 10_000);
+}
+
+#[test]
+fn rounds_network_latency_compensation_like_node() {
+    assert_eq!(network_latency_compensation_ms(0), 0);
+    assert_eq!(network_latency_compensation_ms(1), 1);
+    assert_eq!(network_latency_compensation_ms(2), 1);
+    assert_eq!(network_latency_compensation_ms(3), 2);
+}
+
+#[test]
+fn formats_drift_with_node_rounding() {
+    let zh = Translator::new("zh-CN");
+    assert_eq!(format_drift(90_100, &zh), "1 分 30 秒");
+    assert_eq!(format_drift(90_500, &zh), "1 分 31 秒");
+}
+
+#[test]
+fn summarizes_process_output_tail_like_node() {
+    let summary = summarize_process_output(
+            b"stdout-1\nstdout-2\n",
+            b"stderr-1\nstderr-2\nstderr-3\nstderr-4\nstderr-5\nstderr-6\nstderr-7\nstderr-8\nstderr-9\n",
+        );
+    assert!(!summary.contains("stderr-1"));
+    assert!(summary.contains("stderr-9"));
+    assert!(summary.contains("stdout-2"));
+}
+
+#[test]
+fn formats_epoch_as_localized_beijing_time_like_node() {
+    assert_eq!(
+        format_beijing_time(0, "zh-CN").as_deref(),
+        Some("1970/01/01 08:00:00")
+    );
+    assert_eq!(
+        format_beijing_time(0, "en").as_deref(),
+        Some("01/01/1970, 08:00:00")
+    );
+    assert_eq!(
+        format_beijing_time(0, "zh-Hant").as_deref(),
+        Some("1970/01/01\u{2009}08:00:00")
+    );
+    assert_eq!(
+        format_beijing_time(0, "ko-KR").as_deref(),
+        Some("1970. 01. 01. 08:00:00")
+    );
+}

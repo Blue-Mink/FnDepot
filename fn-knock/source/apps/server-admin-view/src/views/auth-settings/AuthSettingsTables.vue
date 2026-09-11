@@ -1,1 +1,110 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IENhcmQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCBBdXRoQWNjb3VudFRhYmxlIGZyb20gIi4vQXV0aEFjY291bnRUYWJsZS52dWUiOwppbXBvcnQgVG90cENyZWRlbnRpYWxUYWJsZSBmcm9tICIuL1RvdHBDcmVkZW50aWFsVGFibGUudnVlIjsKaW1wb3J0IHR5cGUgeyBBdXRoU2V0dGluZ3NQYWdlQ29udHJvbGxlciB9IGZyb20gIi4vdXNlQXV0aFNldHRpbmdzUGFnZSI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsgY29udHJvbGxlcjogQXV0aFNldHRpbmdzUGFnZUNvbnRyb2xsZXIgfT4oKTsKY29uc3QgewogIGF1dGhBY2NvdW50VGFibGVDbGFzcywKICBhdXRoQWNjb3VudFRhYmxlQ29sc3BhbiwKICBhdXRoQWNjb3VudHMsCiAgYXV0aExvZ2luTW9kZSwKICBjcmVkZW50aWFscywKICBnZXRTdWJkb21haW5BY2Nlc3NQcmV2aWV3LAogIGdldFN1YmRvbWFpbkFjY2Vzc1N1bW1hcnksCiAgZ29Ub1Bhc3NrZXlzLAogIGhhbmRsZUFjY291bnREb2NrZXJBZG1pblBhbmVsQWNjZXNzQ2hhbmdlLAogIGhhbmRsZUFkbWluUGFuZWxBY2Nlc3NUb29sdGlwQ2xpY2ssCiAgaGFuZGxlQWRtaW5QYW5lbEFjY2Vzc1Rvb2x0aXBPcGVuQ2hhbmdlLAogIGhhbmRsZURlbGV0ZSwKICBoYW5kbGVEZWxldGVBY2NvdW50LAogIGhhbmRsZURvY2tlckFkbWluUGFuZWxBY2Nlc3NDaGFuZ2UsCiAgaGFzRG9ja2VyQWRtaW5QYW5lbEFjY2VzcywKICBpc0FjY2Vzc1Njb3BlVXBkYXRpbmcsCiAgaXNBZG1pblBhbmVsQWNjZXNzVG9vbHRpcE9wZW4sCiAgaXNEZWxldGluZywKICBpc0xvYWRpbmcsCiAgaXNTdWJkb21haW5BY2Nlc3NVcGRhdGluZywKICBvcGVuQWNjb3VudFBhc3N3b3JkRGlhbG9nLAogIG9wZW5BY2NvdW50U3ViZG9tYWluQWNjZXNzRGlhbG9nLAogIG9wZW5DcmVhdGVBdXRoQWNjb3VudERpYWxvZywKICBvcGVuU3ViZG9tYWluQWNjZXNzRGlhbG9nLAogIHNhdmVBY2NvdW50VXNlcm5hbWUsCiAgc2F2ZUNvbW1lbnQsCiAgc2hvd0FkbWluUGFuZWxBY2Nlc3NDb2x1bW4sCiAgc2hvd0xvYWRpbmdTa2VsZXRvbiwKICB0b3RwVGFibGVDbGFzcywKICB0b3RwVGFibGVDb2xzcGFuLAogIHVzZXJuYW1lU2VjdXJpdHlXYXJuaW5nLAogIHZhbGlkYXRlQWNjb3VudFVzZXJuYW1lLAogIHZhbGlkYXRlQ29tbWVudCwKfSA9IHByb3BzLmNvbnRyb2xsZXI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxDYXJkPgogICAgPFRvdHBDcmVkZW50aWFsVGFibGUKICAgICAgdi1pZj0iYXV0aExvZ2luTW9kZSA9PT0gJ3RvdHAnIgogICAgICA6Y3JlZGVudGlhbHM9ImNyZWRlbnRpYWxzIgogICAgICA6Z2V0LXN1YmRvbWFpbi1hY2Nlc3MtcHJldmlldz0iZ2V0U3ViZG9tYWluQWNjZXNzUHJldmlldyIKICAgICAgOmdldC1zdWJkb21haW4tYWNjZXNzLXN1bW1hcnk9ImdldFN1YmRvbWFpbkFjY2Vzc1N1bW1hcnkiCiAgICAgIDpnby10by1wYXNza2V5cz0iZ29Ub1Bhc3NrZXlzIgogICAgICA6aGFuZGxlLWFkbWluLXBhbmVsLWFjY2Vzcy10b29sdGlwLWNsaWNrPSIKICAgICAgICBoYW5kbGVBZG1pblBhbmVsQWNjZXNzVG9vbHRpcENsaWNrCiAgICAgICIKICAgICAgOmhhbmRsZS1hZG1pbi1wYW5lbC1hY2Nlc3MtdG9vbHRpcC1vcGVuLWNoYW5nZT0iCiAgICAgICAgaGFuZGxlQWRtaW5QYW5lbEFjY2Vzc1Rvb2x0aXBPcGVuQ2hhbmdlCiAgICAgICIKICAgICAgOmhhbmRsZS1kZWxldGU9ImhhbmRsZURlbGV0ZSIKICAgICAgOmhhbmRsZS1kb2NrZXItYWRtaW4tcGFuZWwtYWNjZXNzLWNoYW5nZT0iCiAgICAgICAgaGFuZGxlRG9ja2VyQWRtaW5QYW5lbEFjY2Vzc0NoYW5nZQogICAgICAiCiAgICAgIDpoYXMtZG9ja2VyLWFkbWluLXBhbmVsLWFjY2Vzcz0iaGFzRG9ja2VyQWRtaW5QYW5lbEFjY2VzcyIKICAgICAgOmlzLWFjY2Vzcy1zY29wZS11cGRhdGluZz0iaXNBY2Nlc3NTY29wZVVwZGF0aW5nIgogICAgICA6aXMtYWRtaW4tcGFuZWwtYWNjZXNzLXRvb2x0aXAtb3Blbj0iaXNBZG1pblBhbmVsQWNjZXNzVG9vbHRpcE9wZW4iCiAgICAgIDppcy1kZWxldGluZz0iaXNEZWxldGluZyIKICAgICAgOmlzLWxvYWRpbmc9ImlzTG9hZGluZyIKICAgICAgOmlzLXN1YmRvbWFpbi1hY2Nlc3MtdXBkYXRpbmc9ImlzU3ViZG9tYWluQWNjZXNzVXBkYXRpbmciCiAgICAgIDpvcGVuLXN1YmRvbWFpbi1hY2Nlc3MtZGlhbG9nPSJvcGVuU3ViZG9tYWluQWNjZXNzRGlhbG9nIgogICAgICA6c2F2ZS1jb21tZW50PSJzYXZlQ29tbWVudCIKICAgICAgOnNob3ctYWRtaW4tcGFuZWwtYWNjZXNzLWNvbHVtbj0ic2hvd0FkbWluUGFuZWxBY2Nlc3NDb2x1bW4iCiAgICAgIDpzaG93LWxvYWRpbmctc2tlbGV0b249InNob3dMb2FkaW5nU2tlbGV0b24iCiAgICAgIDp0YWJsZS1jbGFzcz0idG90cFRhYmxlQ2xhc3MiCiAgICAgIDp0YWJsZS1jb2xzcGFuPSJ0b3RwVGFibGVDb2xzcGFuIgogICAgICA6dmFsaWRhdGUtY29tbWVudD0idmFsaWRhdGVDb21tZW50IgogICAgLz4KICAgIDxBdXRoQWNjb3VudFRhYmxlCiAgICAgIHYtZWxzZQogICAgICA6YWNjb3VudHM9ImF1dGhBY2NvdW50cyIKICAgICAgOmdldC1zdWJkb21haW4tYWNjZXNzLXByZXZpZXc9ImdldFN1YmRvbWFpbkFjY2Vzc1ByZXZpZXciCiAgICAgIDpnZXQtc3ViZG9tYWluLWFjY2Vzcy1zdW1tYXJ5PSJnZXRTdWJkb21haW5BY2Nlc3NTdW1tYXJ5IgogICAgICA6aGFuZGxlLWFkbWluLXBhbmVsLWFjY2Vzcy10b29sdGlwLWNsaWNrPSIKICAgICAgICBoYW5kbGVBZG1pblBhbmVsQWNjZXNzVG9vbHRpcENsaWNrCiAgICAgICIKICAgICAgOmhhbmRsZS1hZG1pbi1wYW5lbC1hY2Nlc3MtdG9vbHRpcC1vcGVuLWNoYW5nZT0iCiAgICAgICAgaGFuZGxlQWRtaW5QYW5lbEFjY2Vzc1Rvb2x0aXBPcGVuQ2hhbmdlCiAgICAgICIKICAgICAgOmhhbmRsZS1kZWxldGU9ImhhbmRsZURlbGV0ZUFjY291bnQiCiAgICAgIDpoYW5kbGUtZG9ja2VyLWFkbWluLXBhbmVsLWFjY2Vzcy1jaGFuZ2U9IgogICAgICAgIGhhbmRsZUFjY291bnREb2NrZXJBZG1pblBhbmVsQWNjZXNzQ2hhbmdlCiAgICAgICIKICAgICAgOmhhcy1kb2NrZXItYWRtaW4tcGFuZWwtYWNjZXNzPSJoYXNEb2NrZXJBZG1pblBhbmVsQWNjZXNzIgogICAgICA6aXMtYWNjZXNzLXNjb3BlLXVwZGF0aW5nPSJpc0FjY2Vzc1Njb3BlVXBkYXRpbmciCiAgICAgIDppcy1hZG1pbi1wYW5lbC1hY2Nlc3MtdG9vbHRpcC1vcGVuPSJpc0FkbWluUGFuZWxBY2Nlc3NUb29sdGlwT3BlbiIKICAgICAgOmlzLWRlbGV0aW5nPSJpc0RlbGV0aW5nIgogICAgICA6aXMtbG9hZGluZz0iaXNMb2FkaW5nIgogICAgICA6aXMtc3ViZG9tYWluLWFjY2Vzcy11cGRhdGluZz0iaXNTdWJkb21haW5BY2Nlc3NVcGRhdGluZyIKICAgICAgOm9wZW4tY3JlYXRlLWFjY291bnQtZGlhbG9nPSJvcGVuQ3JlYXRlQXV0aEFjY291bnREaWFsb2ciCiAgICAgIDpvcGVuLXBhc3N3b3JkLWRpYWxvZz0ib3BlbkFjY291bnRQYXNzd29yZERpYWxvZyIKICAgICAgOm9wZW4tc3ViZG9tYWluLWFjY2Vzcy1kaWFsb2c9Im9wZW5BY2NvdW50U3ViZG9tYWluQWNjZXNzRGlhbG9nIgogICAgICA6c2F2ZS11c2VybmFtZT0ic2F2ZUFjY291bnRVc2VybmFtZSIKICAgICAgOnNob3ctYWRtaW4tcGFuZWwtYWNjZXNzLWNvbHVtbj0ic2hvd0FkbWluUGFuZWxBY2Nlc3NDb2x1bW4iCiAgICAgIDpzaG93LWxvYWRpbmctc2tlbGV0b249InNob3dMb2FkaW5nU2tlbGV0b24iCiAgICAgIDp0YWJsZS1jbGFzcz0iYXV0aEFjY291bnRUYWJsZUNsYXNzIgogICAgICA6dGFibGUtY29sc3Bhbj0iYXV0aEFjY291bnRUYWJsZUNvbHNwYW4iCiAgICAgIDp1c2VybmFtZS1zZWN1cml0eS13YXJuaW5nPSJ1c2VybmFtZVNlY3VyaXR5V2FybmluZyIKICAgICAgOnZhbGlkYXRlLXVzZXJuYW1lPSJ2YWxpZGF0ZUFjY291bnRVc2VybmFtZSIKICAgIC8+CiAgPC9DYXJkPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { Card } from "@/components/ui/card";
+import AuthAccountTable from "./AuthAccountTable.vue";
+import TotpCredentialTable from "./TotpCredentialTable.vue";
+import type { AuthSettingsPageController } from "./useAuthSettingsPage";
+
+const props = defineProps<{ controller: AuthSettingsPageController }>();
+const {
+  authAccountTableClass,
+  authAccountTableColspan,
+  authAccounts,
+  authLoginMode,
+  credentials,
+  getSubdomainAccessPreview,
+  getSubdomainAccessSummary,
+  goToPasskeys,
+  handleAccountDockerAdminPanelAccessChange,
+  handleAdminPanelAccessTooltipClick,
+  handleAdminPanelAccessTooltipOpenChange,
+  handleDelete,
+  handleDeleteAccount,
+  handleDockerAdminPanelAccessChange,
+  hasDockerAdminPanelAccess,
+  isAccessScopeUpdating,
+  isAdminPanelAccessTooltipOpen,
+  isDeleting,
+  isLoading,
+  isSubdomainAccessUpdating,
+  openAccountPasswordDialog,
+  openAccountSubdomainAccessDialog,
+  openCreateAuthAccountDialog,
+  openSubdomainAccessDialog,
+  saveAccountUsername,
+  saveComment,
+  showAdminPanelAccessColumn,
+  showLoadingSkeleton,
+  totpTableClass,
+  totpTableColspan,
+  usernameSecurityWarning,
+  validateAccountUsername,
+  validateComment,
+} = props.controller;
+</script>
+
+<template>
+  <Card>
+    <TotpCredentialTable
+      v-if="authLoginMode === 'totp'"
+      :credentials="credentials"
+      :get-subdomain-access-preview="getSubdomainAccessPreview"
+      :get-subdomain-access-summary="getSubdomainAccessSummary"
+      :go-to-passkeys="goToPasskeys"
+      :handle-admin-panel-access-tooltip-click="
+        handleAdminPanelAccessTooltipClick
+      "
+      :handle-admin-panel-access-tooltip-open-change="
+        handleAdminPanelAccessTooltipOpenChange
+      "
+      :handle-delete="handleDelete"
+      :handle-docker-admin-panel-access-change="
+        handleDockerAdminPanelAccessChange
+      "
+      :has-docker-admin-panel-access="hasDockerAdminPanelAccess"
+      :is-access-scope-updating="isAccessScopeUpdating"
+      :is-admin-panel-access-tooltip-open="isAdminPanelAccessTooltipOpen"
+      :is-deleting="isDeleting"
+      :is-loading="isLoading"
+      :is-subdomain-access-updating="isSubdomainAccessUpdating"
+      :open-subdomain-access-dialog="openSubdomainAccessDialog"
+      :save-comment="saveComment"
+      :show-admin-panel-access-column="showAdminPanelAccessColumn"
+      :show-loading-skeleton="showLoadingSkeleton"
+      :table-class="totpTableClass"
+      :table-colspan="totpTableColspan"
+      :validate-comment="validateComment"
+    />
+    <AuthAccountTable
+      v-else
+      :accounts="authAccounts"
+      :get-subdomain-access-preview="getSubdomainAccessPreview"
+      :get-subdomain-access-summary="getSubdomainAccessSummary"
+      :handle-admin-panel-access-tooltip-click="
+        handleAdminPanelAccessTooltipClick
+      "
+      :handle-admin-panel-access-tooltip-open-change="
+        handleAdminPanelAccessTooltipOpenChange
+      "
+      :handle-delete="handleDeleteAccount"
+      :handle-docker-admin-panel-access-change="
+        handleAccountDockerAdminPanelAccessChange
+      "
+      :has-docker-admin-panel-access="hasDockerAdminPanelAccess"
+      :is-access-scope-updating="isAccessScopeUpdating"
+      :is-admin-panel-access-tooltip-open="isAdminPanelAccessTooltipOpen"
+      :is-deleting="isDeleting"
+      :is-loading="isLoading"
+      :is-subdomain-access-updating="isSubdomainAccessUpdating"
+      :open-create-account-dialog="openCreateAuthAccountDialog"
+      :open-password-dialog="openAccountPasswordDialog"
+      :open-subdomain-access-dialog="openAccountSubdomainAccessDialog"
+      :save-username="saveAccountUsername"
+      :show-admin-panel-access-column="showAdminPanelAccessColumn"
+      :show-loading-skeleton="showLoadingSkeleton"
+      :table-class="authAccountTableClass"
+      :table-colspan="authAccountTableColspan"
+      :username-security-warning="usernameSecurityWarning"
+      :validate-username="validateAccountUsername"
+    />
+  </Card>
+</template>

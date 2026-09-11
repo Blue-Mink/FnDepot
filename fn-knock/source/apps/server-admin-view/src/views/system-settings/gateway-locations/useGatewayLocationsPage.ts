@@ -1,1 +1,214 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgcmVmLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHVzZVJvdXRlLCB1c2VSb3V0ZXIgfSBmcm9tICJ2dWUtcm91dGVyIjsKaW1wb3J0IHsKICBleHRyYWN0RXJyb3JNZXNzYWdlLAogIHVzZUFzeW5jQWN0aW9uLAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB1c2VEZWxheWVkTG9hZGluZyB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlRGVsYXllZExvYWRpbmciOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyBpc0FueVN1YmRvbWFpblJvdXRpbmdNb2RlIH0gZnJvbSAiLi4vLi4vLi4vbGliL3JldmVyc2UtcHJveHktc3VibW9kZSI7CmltcG9ydCB7IHVzZUNvbmZpZ1N0b3JlIH0gZnJvbSAiLi4vLi4vLi4vc3RvcmUvY29uZmlnIjsKaW1wb3J0IHR5cGUgeyBIb3N0TG9jYXRpb24sIEhvc3RNYXBwaW5nIH0gZnJvbSAiLi4vLi4vLi4vdHlwZXMiOwppbXBvcnQgeyBpc1Byb3h5SG9zdE1hcHBpbmcgfSBmcm9tICIuLi8uLi8uLi9saWIvaG9zdC1tYXBwaW5nLXRhcmdldCI7CmltcG9ydCB7CiAgY2xvbmVMb2NhdGlvbiwKICBERUZBVUxUX1JFU1BPTlNFX0NPTlRFTlRfVFlQRSwKICBzbmFwc2hvdExvY2F0aW9ucywKfSBmcm9tICIuL2dhdGV3YXlMb2NhdGlvbk1vZGVsIjsKaW1wb3J0IHsgdXNlR2F0ZXdheUxvY2F0aW9uRWRpdG9yIH0gZnJvbSAiLi91c2VHYXRld2F5TG9jYXRpb25FZGl0b3IiOwoKdHlwZSBIb3N0TWFwcGluZ1RpdGxlSW5mbyA9IFBpY2s8SG9zdE1hcHBpbmcsICJ0aXRsZSIgfCAidGl0bGVfb3ZlcnJpZGUiPjsKCmV4cG9ydCBmdW5jdGlvbiB1c2VHYXRld2F5TG9jYXRpb25zUGFnZSgpIHsKICBjb25zdCByb3V0ZSA9IHVzZVJvdXRlKCk7CiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7CiAgY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwogIGNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IHNlbGVjdGVkSG9zdCA9IHJlZigiIik7CiAgY29uc3QgaXNIb3N0UGlja2VyT3BlbiA9IHJlZihmYWxzZSk7CiAgY29uc3QgZHJhZnRMb2NhdGlvbnMgPSByZWY8SG9zdExvY2F0aW9uW10+KFtdKTsKCiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzTG9hZGluZywgcnVuOiBydW5Mb2FkIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLmxvYWRGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MubG9hZERlc2NyaXB0aW9uIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwogIGNvbnN0IHNob3dMb2FkaW5nU2tlbGV0b24gPSB1c2VEZWxheWVkTG9hZGluZyhpc0xvYWRpbmcpOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1NhdmluZywgcnVuOiBydW5TYXZlIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLnNhdmVGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3Muc2F2ZURlc2NyaXB0aW9uIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwoKICBjb25zdCBhdmFpbGFibGVNYXBwaW5ncyA9IGNvbXB1dGVkKCgpID0+CiAgICAoY29uZmlnU3RvcmUuY29uZmlnPy5ob3N0X21hcHBpbmdzID8/IFtdKS5maWx0ZXIoCiAgICAgIChtYXBwaW5nKSA9PgogICAgICAgIG1hcHBpbmcuc2VydmljZV9yb2xlICE9PSAiYXV0aCIgJiYgaXNQcm94eUhvc3RNYXBwaW5nKG1hcHBpbmcpLAogICAgKSwKICApOwogIGNvbnN0IHNlbGVjdGVkTWFwcGluZyA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgYXZhaWxhYmxlTWFwcGluZ3MudmFsdWUuZmluZCgKICAgICAgICAobWFwcGluZykgPT4gbWFwcGluZy5ob3N0ID09PSBzZWxlY3RlZEhvc3QudmFsdWUsCiAgICAgICkgPz8gbnVsbCwKICApOwogIGNvbnN0IGlzQXZhaWxhYmxlID0gY29tcHV0ZWQoKCkgPT4KICAgIGlzQW55U3ViZG9tYWluUm91dGluZ01vZGUoY29uZmlnU3RvcmUuY29uZmlnKSwKICApOwogIGNvbnN0IGlzTWlzc2luZ0hvc3QgPSBjb21wdXRlZCgKICAgICgpID0+IEJvb2xlYW4oc2VsZWN0ZWRIb3N0LnZhbHVlKSAmJiBzZWxlY3RlZE1hcHBpbmcudmFsdWUgPT09IG51bGwsCiAgKTsKICBjb25zdCBpc0RpcnR5ID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3Qgc2F2ZWQgPSBzZWxlY3RlZE1hcHBpbmcudmFsdWU/LmxvY2F0aW9ucyA/PyBbXTsKICAgIHJldHVybiBzbmFwc2hvdExvY2F0aW9ucyhzYXZlZCkgIT09IHNuYXBzaG90TG9jYXRpb25zKGRyYWZ0TG9jYXRpb25zLnZhbHVlKTsKICB9KTsKICBjb25zdCBpbmRleGVkRHJhZnRMb2NhdGlvbnMgPSBjb21wdXRlZCgoKSA9PgogICAgZHJhZnRMb2NhdGlvbnMudmFsdWUubWFwKChsb2NhdGlvbiwgaW5kZXgpID0+ICh7IGxvY2F0aW9uLCBpbmRleCB9KSksCiAgKTsKICBjb25zdCBjYW5TYXZlID0gY29tcHV0ZWQoCiAgICAoKSA9PiBCb29sZWFuKHNlbGVjdGVkTWFwcGluZy52YWx1ZSkgJiYgaXNEaXJ0eS52YWx1ZSAmJiAhaXNTYXZpbmcudmFsdWUsCiAgKTsKCiAgY29uc3QgZ2V0TWFwcGluZ0Rpc3BsYXlUaXRsZSA9IChtYXBwaW5nPzogSG9zdE1hcHBpbmdUaXRsZUluZm8gfCBudWxsKSA9PgogICAgbWFwcGluZz8udGl0bGVfb3ZlcnJpZGUudHJpbSgpIHx8IG1hcHBpbmc/LnRpdGxlLnRyaW0oKSB8fCAiIjsKICBjb25zdCBnZXRNYXBwaW5nVGl0bGVGb3JEaXNwbGF5ID0gKG1hcHBpbmc/OiBIb3N0TWFwcGluZ1RpdGxlSW5mbyB8IG51bGwpID0+CiAgICBnZXRNYXBwaW5nRGlzcGxheVRpdGxlKG1hcHBpbmcpIHx8ICItIjsKCiAgY29uc3QgcmVzZXREcmFmdEZyb21TZWxlY3RlZCA9ICgpID0+IHsKICAgIGRyYWZ0TG9jYXRpb25zLnZhbHVlID0gKHNlbGVjdGVkTWFwcGluZy52YWx1ZT8ubG9jYXRpb25zID8/IFtdKS5tYXAoCiAgICAgIGNsb25lTG9jYXRpb24sCiAgICApOwogIH07CgogIGNvbnN0IHNlbGVjdEhvc3QgPSAoaG9zdDogc3RyaW5nKSA9PiB7CiAgICBzZWxlY3RlZEhvc3QudmFsdWUgPSBob3N0OwogICAgaWYgKGhvc3QpIHsKICAgICAgdm9pZCByb3V0ZXIucHVzaChgL3N1YmRvbWFpbnMvJHtlbmNvZGVVUklDb21wb25lbnQoaG9zdCl9L3BhdGhzYCk7CiAgICB9IGVsc2UgewogICAgICB2b2lkIHJvdXRlci5wdXNoKHsgcGF0aDogIi9tYXBwaW5ncyIsIHF1ZXJ5OiB7IHRhYjogInN1YmRvbWFpbiIgfSB9KTsKICAgIH0KICAgIHJlc2V0RHJhZnRGcm9tU2VsZWN0ZWQoKTsKICB9OwoKICBjb25zdCBvcGVuSG9zdFBpY2tlciA9ICgpID0+IHsKICAgIGlmICghaXNBdmFpbGFibGUudmFsdWUgfHwgYXZhaWxhYmxlTWFwcGluZ3MudmFsdWUubGVuZ3RoID09PSAwKSByZXR1cm47CiAgICBpc0hvc3RQaWNrZXJPcGVuLnZhbHVlID0gdHJ1ZTsKICB9OwogIGNvbnN0IHNlbGVjdEhvc3RGcm9tRGlhbG9nID0gKGhvc3Q6IHN0cmluZykgPT4gewogICAgc2VsZWN0SG9zdChob3N0KTsKICAgIGlzSG9zdFBpY2tlck9wZW4udmFsdWUgPSBmYWxzZTsKICB9OwogIGNvbnN0IGhhbmRsZUhvc3RQaWNrZXJPcGVuQ2hhbmdlID0gKG9wZW46IGJvb2xlYW4pID0+IHsKICAgIGlzSG9zdFBpY2tlck9wZW4udmFsdWUgPSBvcGVuOwogIH07CgogIGNvbnN0IGVuc3VyZVNlbGVjdGVkSG9zdCA9ICgpID0+IHsKICAgIGNvbnN0IHJlcXVlc3RlZEhvc3QgPQogICAgICB0eXBlb2Ygcm91dGUucGFyYW1zLmhvc3QgPT09ICJzdHJpbmciID8gcm91dGUucGFyYW1zLmhvc3QudHJpbSgpIDogIiI7CiAgICBzZWxlY3RlZEhvc3QudmFsdWUgPSByZXF1ZXN0ZWRIb3N0OwogICAgcmVzZXREcmFmdEZyb21TZWxlY3RlZCgpOwogIH07CgogIGNvbnN0IHBlcnNpc3RMb2NhdGlvbnMgPSBhc3luYyAobG9jYXRpb25zOiBIb3N0TG9jYXRpb25bXSkgPT4gewogICAgY29uc3QgaG9zdCA9IHNlbGVjdGVkSG9zdC52YWx1ZTsKICAgIGlmICghaG9zdCB8fCAhc2VsZWN0ZWRNYXBwaW5nLnZhbHVlKSByZXR1cm4gZmFsc2U7CiAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBydW5TYXZlKAogICAgICAoKSA9PgogICAgICAgIGNvbmZpZ1N0b3JlLnNhdmVIb3N0TWFwcGluZ3MoCiAgICAgICAgICAoY29uZmlnU3RvcmUuY29uZmlnPy5ob3N0X21hcHBpbmdzID8/IFtdKS5tYXAoKGl0ZW0pID0+CiAgICAgICAgICAgIGl0ZW0uaG9zdCA9PT0gaG9zdAogICAgICAgICAgICAgID8geyAuLi5pdGVtLCBsb2NhdGlvbnM6IGxvY2F0aW9ucy5tYXAoY2xvbmVMb2NhdGlvbikgfQogICAgICAgICAgICAgIDogaXRlbSwKICAgICAgICAgICksCiAgICAgICAgKSwKICAgICAgewogICAgICAgIG9uU3VjY2VzczogKCkgPT4gewogICAgICAgICAgcmVzZXREcmFmdEZyb21TZWxlY3RlZCgpOwogICAgICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3Muc2F2ZWQiKSk7CiAgICAgICAgfSwKICAgICAgfSwKICAgICk7CiAgICByZXR1cm4gcmVzdWx0ICE9PSB1bmRlZmluZWQ7CiAgfTsKCiAgY29uc3QgZWRpdG9yID0gdXNlR2F0ZXdheUxvY2F0aW9uRWRpdG9yKHsKICAgIGRyYWZ0TG9jYXRpb25zLAogICAgcGVyc2lzdExvY2F0aW9ucywKICB9KTsKICBjb25zdCBzYXZlTG9jYXRpb25zID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcGVyc2lzdExvY2F0aW9ucyhkcmFmdExvY2F0aW9ucy52YWx1ZSk7CiAgfTsKICBjb25zdCBmb3JtYXRBY3Rpb24gPSAobG9jYXRpb246IEhvc3RMb2NhdGlvbikgPT4KICAgIGxvY2F0aW9uLmFjdGlvbiA9PT0gInJlc3BvbnNlIgogICAgICA/IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5maXhlZFJlc3BvbnNlIikKICAgICAgOiB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MucHJveHlBY3Rpb24iKTsKICBjb25zdCBmb3JtYXRUYXJnZXQgPSAobG9jYXRpb246IEhvc3RMb2NhdGlvbikgPT4gewogICAgaWYgKGxvY2F0aW9uLmFjdGlvbiA9PT0gInJlc3BvbnNlIikgewogICAgICByZXR1cm4gYCR7bG9jYXRpb24ucmVzcG9uc2Uuc3RhdHVzIHx8IDIwMH0gJHtsb2NhdGlvbi5yZXNwb25zZS5jb250ZW50X3R5cGUgfHwgREVGQVVMVF9SRVNQT05TRV9DT05URU5UX1RZUEV9YDsKICAgIH0KICAgIHJldHVybiBsb2NhdGlvbi50YXJnZXQ7CiAgfTsKICBjb25zdCBmb3JtYXRBdXRoTW9kZSA9IChsb2NhdGlvbjogSG9zdExvY2F0aW9uKSA9PiB7CiAgICBpZiAobG9jYXRpb24uYXV0aF9tb2RlID09PSAicmVxdWlyZV9sb2dpbiIpIHsKICAgICAgcmV0dXJuIHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5hdXRoUmVxdWlyZUxvZ2luIik7CiAgICB9CiAgICBpZiAobG9jYXRpb24uYXV0aF9tb2RlID09PSAicHVibGljIikgewogICAgICByZXR1cm4gdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLmF1dGhQdWJsaWMiKTsKICAgIH0KICAgIHJldHVybiBzZWxlY3RlZE1hcHBpbmcudmFsdWU/LnVzZV9hdXRoCiAgICAgID8gdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLmF1dGhJbmhlcml0UHJvdGVjdGVkIikKICAgICAgOiB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MuYXV0aEluaGVyaXRQdWJsaWMiKTsKICB9OwogIGNvbnN0IGJhY2tUb1N1YmRvbWFpbnMgPSAoKSA9PgogICAgdm9pZCByb3V0ZXIucHVzaCh7IHBhdGg6ICIvbWFwcGluZ3MiLCBxdWVyeTogeyB0YWI6ICJzdWJkb21haW4iIH0gfSk7CgogIHdhdGNoKCgpID0+IHJvdXRlLnBhcmFtcy5ob3N0LCBlbnN1cmVTZWxlY3RlZEhvc3QpOwogIG9uTW91bnRlZChhc3luYyAoKSA9PiB7CiAgICBpZiAoIWNvbmZpZ1N0b3JlLmNvbmZpZykgewogICAgICBhd2FpdCBydW5Mb2FkKCgpID0+IGNvbmZpZ1N0b3JlLmxvYWRDb25maWcoKSk7CiAgICB9CiAgICBlbnN1cmVTZWxlY3RlZEhvc3QoKTsKICB9KTsKCiAgcmV0dXJuIHsKICAgIC4uLmVkaXRvciwKICAgIGF2YWlsYWJsZU1hcHBpbmdzLAogICAgY2FuU2F2ZSwKICAgIGRyYWZ0TG9jYXRpb25zLAogICAgZm9ybWF0QWN0aW9uLAogICAgZm9ybWF0QXV0aE1vZGUsCiAgICBmb3JtYXRUYXJnZXQsCiAgICBnZXRNYXBwaW5nVGl0bGVGb3JEaXNwbGF5LAogICAgaGFuZGxlSG9zdFBpY2tlck9wZW5DaGFuZ2UsCiAgICBpbmRleGVkRHJhZnRMb2NhdGlvbnMsCiAgICBpc0F2YWlsYWJsZSwKICAgIGlzRGlydHksCiAgICBpc0hvc3RQaWNrZXJPcGVuLAogICAgaXNMb2FkaW5nLAogICAgaXNNaXNzaW5nSG9zdCwKICAgIGlzU2F2aW5nLAogICAgb3Blbkhvc3RQaWNrZXIsCiAgICByZXNldERyYWZ0RnJvbVNlbGVjdGVkLAogICAgc2F2ZUxvY2F0aW9ucywKICAgIGJhY2tUb1N1YmRvbWFpbnMsCiAgICBzZWxlY3RlZEhvc3QsCiAgICBzZWxlY3RlZE1hcHBpbmcsCiAgICBzZWxlY3RIb3N0RnJvbURpYWxvZywKICAgIHNob3dMb2FkaW5nU2tlbGV0b24sCiAgfTsKfQoKZXhwb3J0IHR5cGUgR2F0ZXdheUxvY2F0aW9uc1BhZ2VDb250cm9sbGVyID0gUmV0dXJuVHlwZTwKICB0eXBlb2YgdXNlR2F0ZXdheUxvY2F0aW9uc1BhZ2UKPjsK
+import { computed, onMounted, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRoute, useRouter } from "vue-router";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import { toast } from "@admin-shared/utils/toast";
+import { isAnySubdomainRoutingMode } from "../../../lib/reverse-proxy-submode";
+import { useConfigStore } from "../../../store/config";
+import type { HostLocation, HostMapping } from "../../../types";
+import { isProxyHostMapping } from "../../../lib/host-mapping-target";
+import {
+  cloneLocation,
+  DEFAULT_RESPONSE_CONTENT_TYPE,
+  snapshotLocations,
+} from "./gatewayLocationModel";
+import { useGatewayLocationEditor } from "./useGatewayLocationEditor";
+
+type HostMappingTitleInfo = Pick<HostMapping, "title" | "title_override">;
+
+export function useGatewayLocationsPage() {
+  const route = useRoute();
+  const router = useRouter();
+  const configStore = useConfigStore();
+  const { t } = useI18n();
+  const selectedHost = ref("");
+  const isHostPickerOpen = ref(false);
+  const draftLocations = ref<HostLocation[]>([]);
+
+  const { isPending: isLoading, run: runLoad } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.gatewayLocationsSettings.loadFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.gatewayLocationsSettings.loadDescription"),
+        ),
+      });
+    },
+  });
+  const showLoadingSkeleton = useDelayedLoading(isLoading);
+  const { isPending: isSaving, run: runSave } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.gatewayLocationsSettings.saveFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.gatewayLocationsSettings.saveDescription"),
+        ),
+      });
+    },
+  });
+
+  const availableMappings = computed(() =>
+    (configStore.config?.host_mappings ?? []).filter(
+      (mapping) =>
+        mapping.service_role !== "auth" && isProxyHostMapping(mapping),
+    ),
+  );
+  const selectedMapping = computed(
+    () =>
+      availableMappings.value.find(
+        (mapping) => mapping.host === selectedHost.value,
+      ) ?? null,
+  );
+  const isAvailable = computed(() =>
+    isAnySubdomainRoutingMode(configStore.config),
+  );
+  const isMissingHost = computed(
+    () => Boolean(selectedHost.value) && selectedMapping.value === null,
+  );
+  const isDirty = computed(() => {
+    const saved = selectedMapping.value?.locations ?? [];
+    return snapshotLocations(saved) !== snapshotLocations(draftLocations.value);
+  });
+  const indexedDraftLocations = computed(() =>
+    draftLocations.value.map((location, index) => ({ location, index })),
+  );
+  const canSave = computed(
+    () => Boolean(selectedMapping.value) && isDirty.value && !isSaving.value,
+  );
+
+  const getMappingDisplayTitle = (mapping?: HostMappingTitleInfo | null) =>
+    mapping?.title_override.trim() || mapping?.title.trim() || "";
+  const getMappingTitleForDisplay = (mapping?: HostMappingTitleInfo | null) =>
+    getMappingDisplayTitle(mapping) || "-";
+
+  const resetDraftFromSelected = () => {
+    draftLocations.value = (selectedMapping.value?.locations ?? []).map(
+      cloneLocation,
+    );
+  };
+
+  const selectHost = (host: string) => {
+    selectedHost.value = host;
+    if (host) {
+      void router.push(`/subdomains/${encodeURIComponent(host)}/paths`);
+    } else {
+      void router.push({ path: "/mappings", query: { tab: "subdomain" } });
+    }
+    resetDraftFromSelected();
+  };
+
+  const openHostPicker = () => {
+    if (!isAvailable.value || availableMappings.value.length === 0) return;
+    isHostPickerOpen.value = true;
+  };
+  const selectHostFromDialog = (host: string) => {
+    selectHost(host);
+    isHostPickerOpen.value = false;
+  };
+  const handleHostPickerOpenChange = (open: boolean) => {
+    isHostPickerOpen.value = open;
+  };
+
+  const ensureSelectedHost = () => {
+    const requestedHost =
+      typeof route.params.host === "string" ? route.params.host.trim() : "";
+    selectedHost.value = requestedHost;
+    resetDraftFromSelected();
+  };
+
+  const persistLocations = async (locations: HostLocation[]) => {
+    const host = selectedHost.value;
+    if (!host || !selectedMapping.value) return false;
+    const result = await runSave(
+      () =>
+        configStore.saveHostMappings(
+          (configStore.config?.host_mappings ?? []).map((item) =>
+            item.host === host
+              ? { ...item, locations: locations.map(cloneLocation) }
+              : item,
+          ),
+        ),
+      {
+        onSuccess: () => {
+          resetDraftFromSelected();
+          toast.success(t("admin.gatewayLocationsSettings.saved"));
+        },
+      },
+    );
+    return result !== undefined;
+  };
+
+  const editor = useGatewayLocationEditor({
+    draftLocations,
+    persistLocations,
+  });
+  const saveLocations = async () => {
+    await persistLocations(draftLocations.value);
+  };
+  const formatAction = (location: HostLocation) =>
+    location.action === "response"
+      ? t("admin.gatewayLocationsSettings.fixedResponse")
+      : t("admin.gatewayLocationsSettings.proxyAction");
+  const formatTarget = (location: HostLocation) => {
+    if (location.action === "response") {
+      return `${location.response.status || 200} ${location.response.content_type || DEFAULT_RESPONSE_CONTENT_TYPE}`;
+    }
+    return location.target;
+  };
+  const formatAuthMode = (location: HostLocation) => {
+    if (location.auth_mode === "require_login") {
+      return t("admin.gatewayLocationsSettings.authRequireLogin");
+    }
+    if (location.auth_mode === "public") {
+      return t("admin.gatewayLocationsSettings.authPublic");
+    }
+    return selectedMapping.value?.use_auth
+      ? t("admin.gatewayLocationsSettings.authInheritProtected")
+      : t("admin.gatewayLocationsSettings.authInheritPublic");
+  };
+  const backToSubdomains = () =>
+    void router.push({ path: "/mappings", query: { tab: "subdomain" } });
+
+  watch(() => route.params.host, ensureSelectedHost);
+  onMounted(async () => {
+    if (!configStore.config) {
+      await runLoad(() => configStore.loadConfig());
+    }
+    ensureSelectedHost();
+  });
+
+  return {
+    ...editor,
+    availableMappings,
+    canSave,
+    draftLocations,
+    formatAction,
+    formatAuthMode,
+    formatTarget,
+    getMappingTitleForDisplay,
+    handleHostPickerOpenChange,
+    indexedDraftLocations,
+    isAvailable,
+    isDirty,
+    isHostPickerOpen,
+    isLoading,
+    isMissingHost,
+    isSaving,
+    openHostPicker,
+    resetDraftFromSelected,
+    saveLocations,
+    backToSubdomains,
+    selectedHost,
+    selectedMapping,
+    selectHostFromDialog,
+    showLoadingSkeleton,
+  };
+}
+
+export type GatewayLocationsPageController = ReturnType<
+  typeof useGatewayLocationsPage
+>;

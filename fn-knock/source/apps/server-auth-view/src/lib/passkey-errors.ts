@@ -1,1 +1,69 @@
-ZXhwb3J0IHR5cGUgUGFzc2tleVJlZ2lzdHJhdGlvbkVycm9yTWVzc2FnZXMgPSB7CiAgYWxyZWFkeVJlZ2lzdGVyZWQ6IHN0cmluZzsKICBjYW5jZWxsZWQ6IHN0cmluZzsKICBmYWlsZWQ6IHN0cmluZzsKICB1bmF2YWlsYWJsZTogc3RyaW5nOwp9OwoKdHlwZSBFcnJvckRldGFpbHMgPSB7CiAgbWVzc2FnZTogc3RyaW5nOwogIG5hbWU6IHN0cmluZzsKfTsKCmV4cG9ydCBjb25zdCBnZXRQYXNza2V5RXJyb3JEZXRhaWxzID0gKGVycm9yOiB1bmtub3duKTogRXJyb3JEZXRhaWxzID0+IHsKICBpZiAoIWVycm9yIHx8IHR5cGVvZiBlcnJvciAhPT0gIm9iamVjdCIpIHsKICAgIHJldHVybiB7CiAgICAgIG5hbWU6ICIiLAogICAgICBtZXNzYWdlOiB0eXBlb2YgZXJyb3IgPT09ICJzdHJpbmciID8gZXJyb3IgOiAiIiwKICAgIH07CiAgfQoKICBjb25zdCBjYW5kaWRhdGUgPSBlcnJvciBhcyB7IG1lc3NhZ2U/OiB1bmtub3duOyBuYW1lPzogdW5rbm93biB9OwogIHJldHVybiB7CiAgICBuYW1lOiB0eXBlb2YgY2FuZGlkYXRlLm5hbWUgPT09ICJzdHJpbmciID8gY2FuZGlkYXRlLm5hbWUgOiAiIiwKICAgIG1lc3NhZ2U6IHR5cGVvZiBjYW5kaWRhdGUubWVzc2FnZSA9PT0gInN0cmluZyIgPyBjYW5kaWRhdGUubWVzc2FnZSA6ICIiLAogIH07Cn07CgpleHBvcnQgY29uc3QgcmVzb2x2ZVBhc3NrZXlSZWdpc3RyYXRpb25FcnJvciA9ICgKICBlcnJvcjogdW5rbm93biwKICBtZXNzYWdlczogUGFzc2tleVJlZ2lzdHJhdGlvbkVycm9yTWVzc2FnZXMsCikgPT4gewogIGNvbnN0IGRldGFpbHMgPSBnZXRQYXNza2V5RXJyb3JEZXRhaWxzKGVycm9yKTsKCiAgc3dpdGNoIChkZXRhaWxzLm5hbWUpIHsKICAgIGNhc2UgIkFib3J0RXJyb3IiOgogICAgICByZXR1cm4gbWVzc2FnZXMuY2FuY2VsbGVkOwogICAgLy8gV2ViQXV0aG4gdXNlcyBOb3RBbGxvd2VkRXJyb3IgYXMgYSBjYXRjaC1hbGwgZm9yIGNhbmNlbGxhdGlvbiwgdGltZW91dCwKICAgIC8vIHBvbGljeSByZWplY3Rpb24sIGFuZCBhbiB1bmF2YWlsYWJsZSBhdXRoZW50aWNhdG9yLiBEbyBub3QgbWlzZGlhZ25vc2UKICAgIC8vIGV2ZXJ5IFdpbmRvd3MgcHJvdmlkZXIgZmFpbHVyZSBhcyB0aGUgdXNlciBjYW5jZWxsaW5nIHRoZSBwcm9tcHQuCiAgICBjYXNlICJOb3RBbGxvd2VkRXJyb3IiOgogICAgICByZXR1cm4gbWVzc2FnZXMudW5hdmFpbGFibGU7CiAgICBjYXNlICJJbnZhbGlkU3RhdGVFcnJvciI6CiAgICAgIHJldHVybiBtZXNzYWdlcy5hbHJlYWR5UmVnaXN0ZXJlZDsKICAgIGNhc2UgIkNvbnN0cmFpbnRFcnJvciI6CiAgICBjYXNlICJOb3RTdXBwb3J0ZWRFcnJvciI6CiAgICBjYXNlICJPcGVyYXRpb25FcnJvciI6CiAgICBjYXNlICJTZWN1cml0eUVycm9yIjoKICAgIGNhc2UgIlVua25vd25FcnJvciI6CiAgICAgIHJldHVybiBtZXNzYWdlcy51bmF2YWlsYWJsZTsKICAgIGRlZmF1bHQ6CiAgICAgIHJldHVybiBkZXRhaWxzLm1lc3NhZ2UudG9Mb3dlckNhc2UoKS5pbmNsdWRlcygidW5rbm93biB0cmFuc2llbnQgcmVhc29uIikKICAgICAgICA/IG1lc3NhZ2VzLnVuYXZhaWxhYmxlCiAgICAgICAgOiBtZXNzYWdlcy5mYWlsZWQ7CiAgfQp9OwoKY29uc3QgU1RBTkRBUkRfUFJPRklMRV9SRVRSWV9FUlJPUlMgPSBuZXcgU2V0KFsKICAiQ29uc3RyYWludEVycm9yIiwKICAiTm90U3VwcG9ydGVkRXJyb3IiLAogICJPcGVyYXRpb25FcnJvciIsCiAgIlVua25vd25FcnJvciIsCl0pOwoKZXhwb3J0IGNvbnN0IHNob3VsZFJldHJ5UGFzc2tleVJlZ2lzdHJhdGlvbldpdGhTdGFuZGFyZFByb2ZpbGUgPSAoCiAgZXJyb3I6IHVua25vd24sCiAgaXNBbmRyb2lkOiBib29sZWFuLAopID0+CiAgaXNBbmRyb2lkICYmCiAgU1RBTkRBUkRfUFJPRklMRV9SRVRSWV9FUlJPUlMuaGFzKGdldFBhc3NrZXlFcnJvckRldGFpbHMoZXJyb3IpLm5hbWUpOwo=
+export type PasskeyRegistrationErrorMessages = {
+  alreadyRegistered: string;
+  cancelled: string;
+  failed: string;
+  unavailable: string;
+};
+
+type ErrorDetails = {
+  message: string;
+  name: string;
+};
+
+export const getPasskeyErrorDetails = (error: unknown): ErrorDetails => {
+  if (!error || typeof error !== "object") {
+    return {
+      name: "",
+      message: typeof error === "string" ? error : "",
+    };
+  }
+
+  const candidate = error as { message?: unknown; name?: unknown };
+  return {
+    name: typeof candidate.name === "string" ? candidate.name : "",
+    message: typeof candidate.message === "string" ? candidate.message : "",
+  };
+};
+
+export const resolvePasskeyRegistrationError = (
+  error: unknown,
+  messages: PasskeyRegistrationErrorMessages,
+) => {
+  const details = getPasskeyErrorDetails(error);
+
+  switch (details.name) {
+    case "AbortError":
+      return messages.cancelled;
+    // WebAuthn uses NotAllowedError as a catch-all for cancellation, timeout,
+    // policy rejection, and an unavailable authenticator. Do not misdiagnose
+    // every Windows provider failure as the user cancelling the prompt.
+    case "NotAllowedError":
+      return messages.unavailable;
+    case "InvalidStateError":
+      return messages.alreadyRegistered;
+    case "ConstraintError":
+    case "NotSupportedError":
+    case "OperationError":
+    case "SecurityError":
+    case "UnknownError":
+      return messages.unavailable;
+    default:
+      return details.message.toLowerCase().includes("unknown transient reason")
+        ? messages.unavailable
+        : messages.failed;
+  }
+};
+
+const STANDARD_PROFILE_RETRY_ERRORS = new Set([
+  "ConstraintError",
+  "NotSupportedError",
+  "OperationError",
+  "UnknownError",
+]);
+
+export const shouldRetryPasskeyRegistrationWithStandardProfile = (
+  error: unknown,
+  isAndroid: boolean,
+) =>
+  isAndroid &&
+  STANDARD_PROFILE_RETRY_ERRORS.has(getPasskeyErrorDetails(error).name);

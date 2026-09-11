@@ -1,1 +1,482 @@
-bmFtZTogQ0kKCm9uOgogIHB1bGxfcmVxdWVzdDoKICBzY2hlZHVsZToKICAgIC0gY3JvbjogIjE3IDE4ICogKiAqIgogIHdvcmtmbG93X2Rpc3BhdGNoOgoKcGVybWlzc2lvbnM6CiAgY29udGVudHM6IHJlYWQKCmNvbmN1cnJlbmN5OgogIGdyb3VwOiBjaS0ke3sgZ2l0aHViLndvcmtmbG93IH19LSR7eyBnaXRodWIucmVmIH19CiAgY2FuY2VsLWluLXByb2dyZXNzOiAke3sgZ2l0aHViLmV2ZW50X25hbWUgIT0gJ3NjaGVkdWxlJyB9fQoKZW52OgogIENBUkdPX1RFUk1fQ09MT1I6IGFsd2F5cwogIE5PREVfVkVSU0lPTjogIjIyLjIyLjMiCiAgTlBNX1ZFUlNJT046ICIxMC44LjIiCiAgUFJPVE9DX1ZFUlNJT046ICIzNS4xIgogIFBST1RPQ19MSU5VWF9YODZfNjRfU0hBMjU2OiAiNjkzMGViZjYyYmQ0ZWE2MDdiOThmZmYwNTI1OTZjNmVlNTY0Yjk4MzViNGNlMTcyYzc1YTNmNTNhZTlkOTFiNyIKICBSVVNUX1ZFUlNJT046ICIxLjk2LjAiCiAgUlVTVFNFQ19BRFZJU09SWV9EQl9SRVZJU0lPTjogMzA5YWQyOWQ4ZmU0NDhiZjk4NjAxOWUwNWQ0N2I5ZTBlMjlhMjIxOAoKam9iczoKICBxdWFsaXR5OgogICAgaWY6IGdpdGh1Yi5ldmVudF9uYW1lICE9ICdzY2hlZHVsZScKICAgIHJ1bnMtb246IHVidW50dS0yNC4wNAogICAgdGltZW91dC1taW51dGVzOiA5MAogICAgZW52OgogICAgICBGTl9LTk9DS19HT19SRUFVVEhfUFJPWFlfRElSOiAke3sgZ2l0aHViLndvcmtzcGFjZSB9fS9Hby1SZWF1dGgtUHJveHkKICAgICAgRk5fS05PQ0tfUlVTVFNFQ19BRFZJU09SWV9EQjogJHt7IGdpdGh1Yi53b3Jrc3BhY2UgfX0vcnVzdHNlYy1hZHZpc29yeS1kYgoKICAgIHN0ZXBzOgogICAgICAtIG5hbWU6IENoZWNrb3V0IGZuLWtub2NrCiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEBkZTBmYWMyZTQ1MDBkYWJlMDAwOWU2NzIxNGZmNWY1NDQ3Y2U4M2RkICMgdjYuMC4yCiAgICAgICAgd2l0aDoKICAgICAgICAgIGZldGNoLWRlcHRoOiAwCiAgICAgICAgICBwZXJzaXN0LWNyZWRlbnRpYWxzOiBmYWxzZQoKICAgICAgLSBuYW1lOiBDaGVja291dCBHbyBnYXRld2F5CiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEBkZTBmYWMyZTQ1MDBkYWJlMDAwOWU2NzIxNGZmNWY1NDQ3Y2U4M2RkICMgdjYuMC4yCiAgICAgICAgd2l0aDoKICAgICAgICAgIHJlcG9zaXRvcnk6IGtjaS1sbmsvR28tUmVhdXRoLVByb3h5CiAgICAgICAgICBwYXRoOiBHby1SZWF1dGgtUHJveHkKICAgICAgICAgIGZldGNoLWRlcHRoOiAwCiAgICAgICAgICBwZXJzaXN0LWNyZWRlbnRpYWxzOiBmYWxzZQoKICAgICAgLSBuYW1lOiBSZWNvcmQgR28gZ2F0ZXdheSBjb21taXQKICAgICAgICBzaGVsbDogYmFzaAogICAgICAgIHJ1bjogfAogICAgICAgICAgc2hhPSIkKGdpdCAtQyBHby1SZWF1dGgtUHJveHkgcmV2LXBhcnNlIEhFQUQpIgogICAgICAgICAgcHJpbnRmICdGTl9LTk9DS19HQVRFV0FZX0NPTU1JVD0lc1xuJyAiJHtzaGF9IiA+PiAiJHtHSVRIVUJfRU5WfSIKCiAgICAgIC0gbmFtZTogQ2hlY2tvdXQgZnJvemVuIFJ1c3RTZWMgYWR2aXNvcnkgZGF0YWJhc2UKICAgICAgICB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QGRlMGZhYzJlNDUwMGRhYmUwMDA5ZTY3MjE0ZmY1ZjU0NDdjZTgzZGQgIyB2Ni4wLjIKICAgICAgICB3aXRoOgogICAgICAgICAgcmVwb3NpdG9yeTogUnVzdFNlYy9hZHZpc29yeS1kYgogICAgICAgICAgcGF0aDogcnVzdHNlYy1hZHZpc29yeS1kYgogICAgICAgICAgcmVmOiAke3sgZW52LlJVU1RTRUNfQURWSVNPUllfREJfUkVWSVNJT04gfX0KICAgICAgICAgIHBlcnNpc3QtY3JlZGVudGlhbHM6IGZhbHNlCgogICAgICAtIG5hbWU6IFNldCB1cCBOb2RlLmpzCiAgICAgICAgdXNlczogYWN0aW9ucy9zZXR1cC1ub2RlQDI0OTk3MDcyOWNiMGVmMzU4OTY0NGUyODk2NjQ1ZTVkYzViYTljMzggIyB2Ni41LjAKICAgICAgICB3aXRoOgogICAgICAgICAgbm9kZS12ZXJzaW9uOiAke3sgZW52Lk5PREVfVkVSU0lPTiB9fQogICAgICAgICAgY2FjaGU6IG5wbQoKICAgICAgLSBuYW1lOiBTZXQgdXAgR28KICAgICAgICB1c2VzOiBhY3Rpb25zL3NldHVwLWdvQDkyNGFlM2ExY2RlZDYxMzM3MmFiNTU5NTM1NmZiNTcyMGUyMmJhMTYgIyB2NgogICAgICAgIHdpdGg6CiAgICAgICAgICBnby12ZXJzaW9uLWZpbGU6IEdvLVJlYXV0aC1Qcm94eS9nby5tb2QKICAgICAgICAgIGNhY2hlLWRlcGVuZGVuY3ktcGF0aDogR28tUmVhdXRoLVByb3h5L2dvLnN1bQoKICAgICAgLSBuYW1lOiBTZXQgdXAgUnVzdAogICAgICAgIHVzZXM6IGR0b2xuYXkvcnVzdC10b29sY2hhaW5ANGJlNzA2NmFkYTYyZGQzOGRlMTBlN2I3MDE2NmJjNzRlZDE5OGMzMAogICAgICAgIHdpdGg6CiAgICAgICAgICB0b29sY2hhaW46ICR7eyBlbnYuUlVTVF9WRVJTSU9OIH19CiAgICAgICAgICBjb21wb25lbnRzOiBjbGlwcHkKCiAgICAgIC0gbmFtZTogUmVzdG9yZSBSdXN0IGJ1aWxkIGNhY2hlCiAgICAgICAgdXNlczogU3dhdGluZW0vcnVzdC1jYWNoZUAyMzg2OWE1YmQ2NmM3M2RiM2MwYWM0MDMzMWYzMjA2ZWIyMzc5MWRjICMgdjIuOS4xCiAgICAgICAgd2l0aDoKICAgICAgICAgIHNoYXJlZC1rZXk6IGxpbnV4LXF1YWxpdHkKICAgICAgICAgIGNhY2hlLWJpbjogImZhbHNlIgogICAgICAgICAgd29ya3NwYWNlczogfAogICAgICAgICAgICBhcHBzL3NlcnZlci1hZG1pbi1ycyAtPiB0YXJnZXQKICAgICAgICAgICAgYXBwcy9mbi1rbm9jay1kZXNrdG9wL25hdGl2ZSAtPiB0YXJnZXQKCiAgICAgIC0gbmFtZTogU2V0IHVwIHZlcmlmaWVkIHByb3RvYnVmIGNvbXBpbGVyCiAgICAgICAgc2hlbGw6IGJhc2gKICAgICAgICBydW46IHwKICAgICAgICAgIGFyY2hpdmU9IiR7UlVOTkVSX1RFTVB9L3Byb3RvYy0ke1BST1RPQ19WRVJTSU9OfS1saW51eC14ODZfNjQuemlwIgogICAgICAgICAgaW5zdGFsbF9kaXI9IiR7UlVOTkVSX1RFTVB9L3Byb3RvYy0ke1BST1RPQ19WRVJTSU9OfSIKICAgICAgICAgIGN1cmwgLS1mYWlsIC0tbG9jYXRpb24gLS1yZXRyeSA1IC0tcmV0cnktYWxsLWVycm9ycyBcCiAgICAgICAgICAgIC0tb3V0cHV0ICIke2FyY2hpdmV9IiBcCiAgICAgICAgICAgICJodHRwczovL2dpdGh1Yi5jb20vcHJvdG9jb2xidWZmZXJzL3Byb3RvYnVmL3JlbGVhc2VzL2Rvd25sb2FkL3Yke1BST1RPQ19WRVJTSU9OfS9wcm90b2MtJHtQUk9UT0NfVkVSU0lPTn0tbGludXgteDg2XzY0LnppcCIKICAgICAgICAgIHByaW50ZiAnJXMgICVzXG4nICIke1BST1RPQ19MSU5VWF9YODZfNjRfU0hBMjU2fSIgIiR7YXJjaGl2ZX0iIHwgc2hhMjU2c3VtIC0tY2hlY2sgLQogICAgICAgICAgbWtkaXIgLXAgIiR7aW5zdGFsbF9kaXJ9IgogICAgICAgICAgdW56aXAgLXEgIiR7YXJjaGl2ZX0iIC1kICIke2luc3RhbGxfZGlyfSIKICAgICAgICAgIHByaW50ZiAnJXNcbicgIiR7aW5zdGFsbF9kaXJ9L2JpbiIgPj4gIiR7R0lUSFVCX1BBVEh9IgoKICAgICAgLSBuYW1lOiBJbnN0YWxsIGxvY2tlZCBkZXBlbmRlbmNpZXMgYW5kIGF1ZGl0IHRvb2wKICAgICAgICBzaGVsbDogYmFzaAogICAgICAgIHJ1bjogfAogICAgICAgICAgbnBtIGluc3RhbGwgLS1nbG9iYWwgIm5wbUAke05QTV9WRVJTSU9OfSIKICAgICAgICAgIG5wbSBjaQogICAgICAgICAgY2FyZ28gaW5zdGFsbCBjYXJnby1hdWRpdCAtLXZlcnNpb24gMC4yMi4yIC0tbG9ja2VkCgogICAgICAtIG5hbWU6IFJ1biB1bmlmaWVkIHF1YWxpdHkgZ2F0ZQogICAgICAgIHJ1bjogbnBtIHJ1biBxdWFsaXR5OmNoZWNrCgogICAgICAtIG5hbWU6IFJlamVjdCBicmVha2luZyBIVFRQIGNvbnRyYWN0IGNoYW5nZXMKICAgICAgICBpZjogZ2l0aHViLmV2ZW50X25hbWUgPT0gJ3B1bGxfcmVxdWVzdCcKICAgICAgICBzaGVsbDogYmFzaAogICAgICAgIHJ1bjogfAogICAgICAgICAgYmFzZWxpbmU9IiR7UlVOTkVSX1RFTVB9L29wZW5hcGktYmFzZS5qc29uIgogICAgICAgICAgaWYgISBnaXQgc2hvdyAib3JpZ2luLyR7R0lUSFVCX0JBU0VfUkVGfTpwYWNrYWdlcy9hcGktY29udHJhY3Qvb3BlbmFwaS5qc29uIiA+ICIke2Jhc2VsaW5lfSI7IHRoZW4KICAgICAgICAgICAgZWNobyAiTm8gYmFzZSBPcGVuQVBJIGNvbnRyYWN0IGV4aXN0cyB5ZXQ7IGdlbmVyYXRlZC1maWxlIGNoZWNrcyBzdGlsbCBhcHBseSIKICAgICAgICAgICAgZXhpdCAwCiAgICAgICAgICBmaQogICAgICAgICAgY3VycmVudD0icGFja2FnZXMvYXBpLWNvbnRyYWN0L29wZW5hcGkuanNvbiIKICAgICAgICAgIGZpbHRlcmVkX2Jhc2VsaW5lPSIke1JVTk5FUl9URU1QfS9vcGVuYXBpLWJhc2UtZmlsdGVyZWQuanNvbiIKICAgICAgICAgIGZpbHRlcmVkX2N1cnJlbnQ9IiR7UlVOTkVSX1RFTVB9L29wZW5hcGktY3VycmVudC1maWx0ZXJlZC5qc29uIgogICAgICAgICAgbm9kZSAuL3NjcmlwdHMvZmlsdGVyLWludGVudGlvbmFsLXRlcm1pbmFsLW9wZW5hcGktYnJlYWtzLm1qcyBcCiAgICAgICAgICAgICIke2Jhc2VsaW5lfSIgIiR7Y3VycmVudH0iICIke2ZpbHRlcmVkX2Jhc2VsaW5lfSIgIiR7ZmlsdGVyZWRfY3VycmVudH0iCiAgICAgICAgICBnbyBpbnN0YWxsIGdpdGh1Yi5jb20vb2FzZGlmZi9vYXNkaWZmQHYxLjI2LjEKICAgICAgICAgICIkKGdvIGVudiBHT1BBVEgpL2Jpbi9vYXNkaWZmIiBicmVha2luZyAtLWZhaWwtb24gRVJSIC0tZm9ybWF0IGdpdGh1YmFjdGlvbnMgXAogICAgICAgICAgICAiJHtmaWx0ZXJlZF9iYXNlbGluZX0iICIke2ZpbHRlcmVkX2N1cnJlbnR9IgoKICAgICAgLSBuYW1lOiBWZXJpZnkgZ2VuZXJhdGVkIEdvIGNvbnRyb2wtcGxhbmUgc3R1YnMKICAgICAgICBzaGVsbDogYmFzaAogICAgICAgIHJ1bjogfAogICAgICAgICAgYmFzaCAuL3NjcmlwdHMvc3luYy1nby1ncnBjLWNvbnRyYWN0LnNoIEdvLVJlYXV0aC1Qcm94eQogICAgICAgICAgZ2l0IC1DIEdvLVJlYXV0aC1Qcm94eSBkaWZmIC0tZXhpdC1jb2RlIC0tIHBrZy9ncnBjL3BiCgogIHJ1bnRpbWUtcGVyZm9ybWFuY2U6CiAgICBpZjogZ2l0aHViLmV2ZW50X25hbWUgPT0gJ3B1bGxfcmVxdWVzdCcKICAgIHJ1bnMtb246IHVidW50dS0yNC4wNAogICAgdGltZW91dC1taW51dGVzOiA5MAoKICAgIHN0ZXBzOgogICAgICAtIG5hbWU6IENoZWNrb3V0IGZuLWtub2NrCiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEBkZTBmYWMyZTQ1MDBkYWJlMDAwOWU2NzIxNGZmNWY1NDQ3Y2U4M2RkICMgdjYuMC4yCiAgICAgICAgd2l0aDoKICAgICAgICAgIGZldGNoLWRlcHRoOiAwCiAgICAgICAgICBwZXJzaXN0LWNyZWRlbnRpYWxzOiBmYWxzZQoKICAgICAgLSBuYW1lOiBDaGVja291dCBHbyBnYXRld2F5CiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEBkZTBmYWMyZTQ1MDBkYWJlMDAwOWU2NzIxNGZmNWY1NDQ3Y2U4M2RkICMgdjYuMC4yCiAgICAgICAgd2l0aDoKICAgICAgICAgIHJlcG9zaXRvcnk6IGtjaS1sbmsvR28tUmVhdXRoLVByb3h5CiAgICAgICAgICBwYXRoOiBHby1SZWF1dGgtUHJveHkKICAgICAgICAgIGZldGNoLWRlcHRoOiAwCiAgICAgICAgICBwZXJzaXN0LWNyZWRlbnRpYWxzOiBmYWxzZQoKICAgICAgLSBuYW1lOiBSZWNvcmQgR28gZ2F0ZXdheSBjb21taXQKICAgICAgICBpZDogZ2F0ZXdheQogICAgICAgIHNoZWxsOiBiYXNoCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBzaGE9IiQoZ2l0IC1DIEdvLVJlYXV0aC1Qcm94eSByZXYtcGFyc2UgSEVBRCkiCiAgICAgICAgICBwcmludGYgJ3NoYT0lc1xuJyAiJHtzaGF9IiA+PiAiJHtHSVRIVUJfT1VUUFVUfSIKICAgICAgICAgIHByaW50ZiAnRk5fS05PQ0tfR0FURVdBWV9DT01NSVQ9JXNcbicgIiR7c2hhfSIgPj4gIiR7R0lUSFVCX0VOVn0iCgogICAgICAtIG5hbWU6IFNldCB1cCBOb2RlLmpzCiAgICAgICAgdXNlczogYWN0aW9ucy9zZXR1cC1ub2RlQDI0OTk3MDcyOWNiMGVmMzU4OTY0NGUyODk2NjQ1ZTVkYzViYTljMzggIyB2Ni41LjAKICAgICAgICB3aXRoOgogICAgICAgICAgbm9kZS12ZXJzaW9uOiAke3sgZW52Lk5PREVfVkVSU0lPTiB9fQogICAgICAgICAgY2FjaGU6IG5wbQoKICAgICAgLSBuYW1lOiBTZXQgdXAgR28KICAgICAgICB1c2VzOiBhY3Rpb25zL3NldHVwLWdvQDkyNGFlM2ExY2RlZDYxMzM3MmFiNTU5NTM1NmZiNTcyMGUyMmJhMTYgIyB2NgogICAgICAgIHdpdGg6CiAgICAgICAgICBnby12ZXJzaW9uLWZpbGU6IEdvLVJlYXV0aC1Qcm94eS9nby5tb2QKICAgICAgICAgIGNhY2hlLWRlcGVuZGVuY3ktcGF0aDogR28tUmVhdXRoLVByb3h5L2dvLnN1bQoKICAgICAgLSBuYW1lOiBTZXQgdXAgUnVzdAogICAgICAgIHVzZXM6IGR0b2xuYXkvcnVzdC10b29sY2hhaW5ANGJlNzA2NmFkYTYyZGQzOGRlMTBlN2I3MDE2NmJjNzRlZDE5OGMzMAogICAgICAgIHdpdGg6CiAgICAgICAgICB0b29sY2hhaW46ICR7eyBlbnYuUlVTVF9WRVJTSU9OIH19CgogICAgICAtIG5hbWU6IFJlc3RvcmUgY3VycmVudCBydW50aW1lIFJ1c3QgYnVpbGQgY2FjaGUKICAgICAgICB1c2VzOiBTd2F0aW5lbS9ydXN0LWNhY2hlQDIzODY5YTViZDY2YzczZGIzYzBhYzQwMzMxZjMyMDZlYjIzNzkxZGMgIyB2Mi45LjEKICAgICAgICB3aXRoOgogICAgICAgICAgc2hhcmVkLWtleTogbGludXgtcnVudGltZS1wZXJmb3JtYW5jZS1jdXJyZW50CiAgICAgICAgICBjYWNoZS1iaW46ICJmYWxzZSIKICAgICAgICAgIHdvcmtzcGFjZXM6IGFwcHMvc2VydmVyLWFkbWluLXJzIC0+IHRhcmdldAoKICAgICAgLSBuYW1lOiBCdWlsZCBjdXJyZW50IHJ1bnRpbWUgYXJ0aWZhY3RzCiAgICAgICAgc2hlbGw6IGJhc2gKICAgICAgICBydW46IHwKICAgICAgICAgIG5wbSBpbnN0YWxsIC0tZ2xvYmFsICJucG1AJHtOUE1fVkVSU0lPTn0iCiAgICAgICAgICBucG0gY2kKICAgICAgICAgIG5weCB0dXJibyBydW4gYnVpbGQgLS1maWx0ZXI9c2VydmVyLWFkbWluLXZpZXcgLS1maWx0ZXI9c2VydmVyLWF1dGgtdmlldwogICAgICAgICAgbnBtIHJ1biBydW50aW1lOmJ1aWxkCiAgICAgICAgICB2ZXJzaW9uPSIkKGpxIC1lciAudmVyc2lvbiB2ZXJzaW9uLmpzb24pIgogICAgICAgICAgKAogICAgICAgICAgICBjZCBHby1SZWF1dGgtUHJveHkKICAgICAgICAgICAgZ28gYnVpbGQgLXRyaW1wYXRoIFwKICAgICAgICAgICAgICAtbGRmbGFncyAiLXMgLXcgLVggZ28tcmVhdXRoLXByb3h5L3BrZy92ZXJzaW9uLlZlcnNpb249JHt2ZXJzaW9ufSAtWCBnby1yZWF1dGgtcHJveHkvcGtnL3ZlcnNpb24uQ29tbWl0PSR7eyBzdGVwcy5nYXRld2F5Lm91dHB1dHMuc2hhIH19IiBcCiAgICAgICAgICAgICAgLW8gIiR7UlVOTkVSX1RFTVB9L2dvLXJlYXV0aC1wcm94eS1jdXJyZW50IiAuL2NtZC9zZXJ2ZXIKICAgICAgICAgICAgZ28gdGVzdCAtYyAtbyAiJHtSVU5ORVJfVEVNUH0vZ28tc3RyZWFtLXRlc3RzIiAuL3BrZy9zdHJlYW0KICAgICAgICAgICkKCiAgICAgIC0gbmFtZTogQ2hlY2sgb3V0IGJhc2UgcnVudGltZSBzb3VyY2VzCiAgICAgICAgaWQ6IGJhc2VsaW5lCiAgICAgICAgc2hlbGw6IGJhc2gKICAgICAgICBydW46IHwKICAgICAgICAgIGJhc2Vfcm9vdD0iJHtSVU5ORVJfVEVNUH0vZm4ta25vY2stYmFzZSIKICAgICAgICAgIGJhc2VfZ2F0ZXdheT0iJHtSVU5ORVJfVEVNUH0vZ28tcmVhdXRoLXByb3h5LWJhc2Utc291cmNlIgogICAgICAgICAgYmFzZV9zaGE9IiR7eyBnaXRodWIuZXZlbnQucHVsbF9yZXF1ZXN0LmJhc2Uuc2hhIH19IgogICAgICAgICAgZ2l0IGZldGNoIC0tbm8tdGFncyBvcmlnaW4gIiR7YmFzZV9zaGF9IgogICAgICAgICAgZ2l0IHdvcmt0cmVlIGFkZCAtLWRldGFjaCAiJHtiYXNlX3Jvb3R9IiAiJHtiYXNlX3NoYX0iCiAgICAgICAgICBiYXNlX2dhdGV3YXlfY29tbWl0PSIkKGdpdCAtQyBHby1SZWF1dGgtUHJveHkgcmV2LXBhcnNlIEhFQUQpIgogICAgICAgICAgZ2l0IC1DIEdvLVJlYXV0aC1Qcm94eSB3b3JrdHJlZSBhZGQgLS1kZXRhY2ggIiR7YmFzZV9nYXRld2F5fSIgIiR7YmFzZV9nYXRld2F5X2NvbW1pdH0iCiAgICAgICAgICBwcmludGYgJ3Jvb3Q9JXNcbicgIiR7YmFzZV9yb290fSIgPj4gIiR7R0lUSFVCX09VVFBVVH0iCiAgICAgICAgICBwcmludGYgJ2dhdGV3YXk9JXNcbicgIiR7YmFzZV9nYXRld2F5fSIgPj4gIiR7R0lUSFVCX09VVFBVVH0iCiAgICAgICAgICBwcmludGYgJ2dhdGV3YXlfY29tbWl0PSVzXG4nICIke2Jhc2VfZ2F0ZXdheV9jb21taXR9IiA+PiAiJHtHSVRIVUJfT1VUUFVUfSIKCiAgICAgIC0gbmFtZTogQnVpbGQgYmFzZSBSdXN0IGFuZCBHbyBydW50aW1lIGJpbmFyaWVzCiAgICAgICAgc2hlbGw6IGJhc2gKICAgICAgICBydW46IHwKICAgICAgICAgIGJhc2VfdGFyZ2V0PSIke1JVTk5FUl9URU1QfS9mbi1rbm9jay1ydXN0LWJhc2UtdGFyZ2V0IgogICAgICAgICAgYmFzZV92ZXJzaW9uPSIkKGpxIC1lciAudmVyc2lvbiAiJHt7IHN0ZXBzLmJhc2VsaW5lLm91dHB1dHMucm9vdCB9fS92ZXJzaW9uLmpzb24iKSIKICAgICAgICAgIGJhc2VfbWFuaWZlc3Q9IiR7eyBzdGVwcy5iYXNlbGluZS5vdXRwdXRzLnJvb3QgfX0vYXBwcy9zZXJ2ZXItYWRtaW4tcnMvQ2FyZ28udG9tbCIKICAgICAgICAgIGJhc2VfcHJvZmlsZT0icnVudGltZS10ZXN0IgogICAgICAgICAgaWYgISBncmVwIC1FcSAnXlxbcHJvZmlsZVwucnVudGltZS10ZXN0XF0nICIke2Jhc2VfbWFuaWZlc3R9IjsgdGhlbgogICAgICAgICAgICAjIFByZS1wcm9maWxlIGJhc2VsaW5lcyB1c2VkIHRoZSBzYW1lIHJlbGVhc2Ugc2V0dGluZ3MgZXhjZXB0IGZvcgogICAgICAgICAgICAjIHJ1bnRpbWUtdGVzdCdzIGNoZWFwZXIgdGhpbiBMVE8uIFByZXNlcnZlIGFuIGVxdWl2YWxlbnQgY29tcGFyaXNvbi4KICAgICAgICAgICAgYmFzZV9wcm9maWxlPSJyZWxlYXNlIgogICAgICAgICAgICBleHBvcnQgQ0FSR09fUFJPRklMRV9SRUxFQVNFX0xUTz0idGhpbiIKICAgICAgICAgIGZpCiAgICAgICAgICBDQVJHT19UQVJHRVRfRElSPSIke2Jhc2VfdGFyZ2V0fSIgY2FyZ28gYnVpbGQgLS1sb2NrZWQgXAogICAgICAgICAgICAtLW1hbmlmZXN0LXBhdGggIiR7YmFzZV9tYW5pZmVzdH0iIFwKICAgICAgICAgICAgLS1wcm9maWxlICIke2Jhc2VfcHJvZmlsZX0iIC0tYmluIHNlcnZlci1hZG1pbi1ycwogICAgICAgICAgaW5zdGFsbCAtbSAwNzU1ICIke2Jhc2VfdGFyZ2V0fS8ke2Jhc2VfcHJvZmlsZX0vc2VydmVyLWFkbWluLXJzIiBcCiAgICAgICAgICAgICIke1JVTk5FUl9URU1QfS9zZXJ2ZXItYWRtaW4tcnMtYmFzZSIKICAgICAgICAgICgKICAgICAgICAgICAgY2QgIiR7eyBzdGVwcy5iYXNlbGluZS5vdXRwdXRzLmdhdGV3YXkgfX0iCiAgICAgICAgICAgIGdvIGJ1aWxkIC10cmltcGF0aCBcCiAgICAgICAgICAgICAgLWxkZmxhZ3MgIi1zIC13IC1YIGdvLXJlYXV0aC1wcm94eS9wa2cvdmVyc2lvbi5WZXJzaW9uPSR7YmFzZV92ZXJzaW9ufSAtWCBnby1yZWF1dGgtcHJveHkvcGtnL3ZlcnNpb24uQ29tbWl0PSR7eyBzdGVwcy5iYXNlbGluZS5vdXRwdXRzLmdhdGV3YXlfY29tbWl0IH19IiBcCiAgICAgICAgICAgICAgLW8gIiR7UlVOTkVSX1RFTVB9L2dvLXJlYXV0aC1wcm94eS1iYXNlIiAuL2NtZC9zZXJ2ZXIKICAgICAgICAgICkKCiAgICAgIC0gbmFtZTogRXhlcmNpc2UgY3VycmVudCBydW50aW1lIGluIGEgNTEyIE1pQiBjZ3JvdXAKICAgICAgICBzaGVsbDogYmFzaAogICAgICAgIHJ1bjogfAogICAgICAgICAgZG9ja2VyIHJ1biAtLXJtIFwKICAgICAgICAgICAgLS1tZW1vcnk9NTEybSAtLW1lbW9yeS1zd2FwPTUxMm0gLS1waWRzLWxpbWl0PTQwOTYgXAogICAgICAgICAgICAtdiAiJHtSVU5ORVJfVEVNUH06L2FydGlmYWN0cyIgXAogICAgICAgICAgICBub2RlOjIyLXRyaXhpZSBcCiAgICAgICAgICAgIC9hcnRpZmFjdHMvZ28tc3RyZWFtLXRlc3RzIC10ZXN0LnYKICAgICAgICAgIGRvY2tlciBydW4gLS1ybSBcCiAgICAgICAgICAgIC0tbWVtb3J5PTUxMm0gLS1tZW1vcnktc3dhcD01MTJtIC0tcGlkcy1saW1pdD00MDk2IFwKICAgICAgICAgICAgLXYgIiR7R0lUSFVCX1dPUktTUEFDRX06L3dvcmtzcGFjZSIgXAogICAgICAgICAgICAtdiAiJHtSVU5ORVJfVEVNUH06L2FydGlmYWN0cyIgXAogICAgICAgICAgICAtdyAvd29ya3NwYWNlIFwKICAgICAgICAgICAgLWUgRk5fS05PQ0tfUlVOVElNRV9QRVJGX1JVTlM9MSBcCiAgICAgICAgICAgIC1lIEZOX0tOT0NLX1JVTlRJTUVfUEVSRl9MT0FEX1JVTlM9MSBcCiAgICAgICAgICAgIC1lIEZOX0tOT0NLX1JVTlRJTUVfUEVSRl9MT0FEX1NFQ09ORFM9MzAgXAogICAgICAgICAgICAtZSBGTl9LTk9DS19SVU5USU1FX1BFUkZfUkVKRUNUX01FTU9SWV9MSU1JVF9NSUI9MjU3IFwKICAgICAgICAgICAgLWUgRk5fS05PQ0tfUlVOVElNRV9TRVJWRVJfQklOPS93b3Jrc3BhY2UvYXBwcy9zZXJ2ZXItYWRtaW4tcnMvdGFyZ2V0L3J1bnRpbWUtdGVzdC9zZXJ2ZXItYWRtaW4tcnMgXAogICAgICAgICAgICAtZSBGTl9LTk9DS19SVU5USU1FX1BFUkZfR0FURVdBWV9CSU49L2FydGlmYWN0cy9nby1yZWF1dGgtcHJveHktY3VycmVudCBcCiAgICAgICAgICAgIG5vZGU6MjItdHJpeGllIFwKICAgICAgICAgICAgbm9kZSBzY3JpcHRzL3J1bnRpbWUtcGVyZm9ybWFuY2UubWpzIFwKICAgICAgICAgICAgPiAiJHtSVU5ORVJfVEVNUH0vcnVudGltZS1wZXJmb3JtYW5jZS1jZ3JvdXAtNTEybS5qc29uIgogICAgICAgICAganEgLWUgJwogICAgICAgICAgICAuc2NoZW1hX3ZlcnNpb24gPT0gMiBhbmQKICAgICAgICAgICAgLmxvYWRfc2FtcGxlX2NvdW50ID09IDEgYW5kCiAgICAgICAgICAgIC5zYW1wbGVzWzBdLmNoZWNrcG9pbnRzLnN0YWJsZV8xMHMuZ2F0ZXdheV9tZW1vcnlfbGltaXRfYnl0ZXMgPT0gMTM0MjE3NzI4IGFuZAogICAgICAgICAgICAoLnNhbXBsZXNbMF0ubG9hZHMgfCBsZW5ndGgpID09IDQgYW5kCiAgICAgICAgICAgIC5zdW1tYXJ5Lm1hbmFnZW1lbnRfbGlmZXRpbWVfcGVha19yc3NfcDk1X2J5dGVzID4gMCBhbmQKICAgICAgICAgICAgLnN1bW1hcnkubWFuYWdlbWVudF9sb2FkX3BlYWtfcnNzX3A5NV9ieXRlcyA+IDAgYW5kCiAgICAgICAgICAgIC5zdW1tYXJ5Lm1hbmFnZW1lbnRfbG9jYWxlX3Jwc19wNTAgPiAwCiAgICAgICAgICAnICIke1JVTk5FUl9URU1QfS9ydW50aW1lLXBlcmZvcm1hbmNlLWNncm91cC01MTJtLmpzb24iID4vZGV2L251bGwKCiAgICAgIC0gbmFtZTogTWVhc3VyZSBiYXNlIGFuZCBjdXJyZW50IHJ1bnRpbWUgcGVyZm9ybWFuY2UKICAgICAgICBzaGVsbDogYmFzaAogICAgICAgIGVudjoKICAgICAgICAgIEZOX0tOT0NLX1JVTlRJTUVfUEVSRl9SVU5TOiAiNSIKICAgICAgICBydW46IHwKICAgICAgICAgIGN1cnJlbnQ9IiR7UlVOTkVSX1RFTVB9L3J1bnRpbWUtcGVyZm9ybWFuY2UtY3VycmVudC5qc29uIgogICAgICAgICAgYmFzZT0iJHtSVU5ORVJfVEVNUH0vcnVudGltZS1wZXJmb3JtYW5jZS1iYXNlLmpzb24iCiAgICAgICAgICBGTl9LTk9DS19SVU5USU1FX1NFUlZFUl9CSU49IiR7R0lUSFVCX1dPUktTUEFDRX0vYXBwcy9zZXJ2ZXItYWRtaW4tcnMvdGFyZ2V0L3J1bnRpbWUtdGVzdC9zZXJ2ZXItYWRtaW4tcnMiIFwKICAgICAgICAgIEZOX0tOT0NLX1JVTlRJTUVfUEVSRl9HQVRFV0FZX0JJTj0iJHtSVU5ORVJfVEVNUH0vZ28tcmVhdXRoLXByb3h5LWN1cnJlbnQiIFwKICAgICAgICAgICAgbm9kZSBzY3JpcHRzL3J1bnRpbWUtcGVyZm9ybWFuY2UubWpzID4gIiR7Y3VycmVudH0iCiAgICAgICAgICAjIEZyb250ZW5kIGRpc3QgcmVtYWlucyBmcm9tIHRoZSBjdXJyZW50IGNoZWNrb3V0IGZvciBib3RoIHJ1bnMsIHNvIHRoaXMKICAgICAgICAgICMgY29tcGFyaXNvbiBpc29sYXRlcyBSdXN0L0dvIHN0YXJ0dXAsIGxvYWQgYW5kIHJldGFpbmVkLW1lbW9yeSBjaGFuZ2VzLgogICAgICAgICAgRk5fS05PQ0tfUlVOVElNRV9TRVJWRVJfQklOPSIke1JVTk5FUl9URU1QfS9zZXJ2ZXItYWRtaW4tcnMtYmFzZSIgXAogICAgICAgICAgRk5fS05PQ0tfUlVOVElNRV9QRVJGX0dBVEVXQVlfQklOPSIke1JVTk5FUl9URU1QfS9nby1yZWF1dGgtcHJveHktYmFzZSIgXAogICAgICAgICAgRk5fS05PQ0tfUlVOVElNRV9QRVJGX0VYRVJDSVNFX01FTU9SWV9DT05GSUc9IjAiIFwKICAgICAgICAgIEZOX0tOT0NLX1JVTlRJTUVfUEVSRl9WRVJJRllfU1RBVElDPSIwIiBcCiAgICAgICAgICAgIG5vZGUgc2NyaXB0cy9ydW50aW1lLXBlcmZvcm1hbmNlLm1qcyA+ICIke2Jhc2V9IgogICAgICAgICAgbm9kZSBzY3JpcHRzL2NoZWNrLXJ1bnRpbWUtcGVyZm9ybWFuY2UubWpzIFwKICAgICAgICAgICAgLS1iYXNlICIke2Jhc2V9IiAtLWN1cnJlbnQgIiR7Y3VycmVudH0iIFwKICAgICAgICAgICAgLS1tYXgtcmVhZGluZXNzLXJlZ3Jlc3Npb24gMC4xMCAtLW1heC1yc3MtcmVncmVzc2lvbiAwLjA1CiAgICAgICAgICB7CiAgICAgICAgICAgIGVjaG8gJyMjIyBSdW50aW1lIHBlcmZvcm1hbmNlIFBSIGdhdGUnCiAgICAgICAgICAgIGVjaG8gJ0Jhc2UgYW5kIGN1cnJlbnQgdXNlIHRoZSBzYW1lIGZyZXNobHktYnVpbHQgZnJvbnRlbmQgYXNzZXRzOyBvbmx5IFJ1c3QvR28gcnVudGltZSBiaW5hcmllcyBkaWZmZXIuJwogICAgICAgICAgICBlY2hvICcjIyMjIEJhc2UnCiAgICAgICAgICAgIGVjaG8gJ2BgYGpzb24nCiAgICAgICAgICAgIGNhdCAiJHtiYXNlfSIKICAgICAgICAgICAgZWNobyAnYGBgJwogICAgICAgICAgICBlY2hvICcjIyMjIEN1cnJlbnQnCiAgICAgICAgICAgIGVjaG8gJ2BgYGpzb24nCiAgICAgICAgICAgIGNhdCAiJHtjdXJyZW50fSIKICAgICAgICAgICAgZWNobyAnYGBgJwogICAgICAgICAgfSA+PiAiJHtHSVRIVUJfU1RFUF9TVU1NQVJZfSIKCiAgICAgIC0gbmFtZTogQnVpbGQgYmFzZSBmcm9udGVuZCBhcnRpZmFjdHMKICAgICAgICBzaGVsbDogYmFzaAogICAgICAgIHJ1bjogfAogICAgICAgICAgKAogICAgICAgICAgICBjZCAiJHt7IHN0ZXBzLmJhc2VsaW5lLm91dHB1dHMucm9vdCB9fSIKICAgICAgICAgICAgbnBtIGNpCiAgICAgICAgICAgIG5weCB0dXJibyBydW4gYnVpbGQgLS1maWx0ZXI9c2VydmVyLWFkbWluLXZpZXcgLS1maWx0ZXI9c2VydmVyLWF1dGgtdmlldwogICAgICAgICAgKQoKICAgICAgLSBuYW1lOiBJbnN0YWxsIENocm9taXVtIGZvciBmcm9udGVuZCBwZXJmb3JtYW5jZQogICAgICAgIHJ1bjogbnB4IHBsYXl3cmlnaHQgaW5zdGFsbCAtLXdpdGgtZGVwcyBjaHJvbWl1bQoKICAgICAgLSBuYW1lOiBNZWFzdXJlIGJhc2UgYW5kIGN1cnJlbnQgZnJvbnRlbmQgcGVyZm9ybWFuY2UKICAgICAgICBzaGVsbDogYmFzaAogICAgICAgIGVudjoKICAgICAgICAgIEZOX0tOT0NLX0ZST05URU5EX1BFUkZfUlVOUzogIjUiCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBjdXJyZW50PSIke1JVTk5FUl9URU1QfS9mcm9udGVuZC1wZXJmb3JtYW5jZS1jdXJyZW50Lmpzb24iCiAgICAgICAgICBiYXNlPSIke1JVTk5FUl9URU1QfS9mcm9udGVuZC1wZXJmb3JtYW5jZS1iYXNlLmpzb24iCiAgICAgICAgICBGTl9LTk9DS19SVU5USU1FX1NFUlZFUl9CSU49IiR7R0lUSFVCX1dPUktTUEFDRX0vYXBwcy9zZXJ2ZXItYWRtaW4tcnMvdGFyZ2V0L3J1bnRpbWUtdGVzdC9zZXJ2ZXItYWRtaW4tcnMiIFwKICAgICAgICAgIEZOX0tOT0NLX0ZST05URU5EX1BFUkZfR0FURVdBWV9CSU49IiR7UlVOTkVSX1RFTVB9L2dvLXJlYXV0aC1wcm94eS1jdXJyZW50IiBcCiAgICAgICAgICAgIG5vZGUgc2NyaXB0cy9mcm9udGVuZC1wZXJmb3JtYW5jZS5tanMgPiAiJHtjdXJyZW50fSIKICAgICAgICAgIEZOX0tOT0NLX1JVTlRJTUVfU0VSVkVSX0JJTj0iJHtSVU5ORVJfVEVNUH0vc2VydmVyLWFkbWluLXJzLWJhc2UiIFwKICAgICAgICAgIEZOX0tOT0NLX0ZST05URU5EX1BFUkZfR0FURVdBWV9CSU49IiR7UlVOTkVSX1RFTVB9L2dvLXJlYXV0aC1wcm94eS1iYXNlIiBcCiAgICAgICAgICBGTl9LTk9DS19SVU5USU1FX0FETUlOX1NUQVRJQ19QQVRIPSIke3sgc3RlcHMuYmFzZWxpbmUub3V0cHV0cy5yb290IH19L2FwcHMvc2VydmVyLWFkbWluLXZpZXcvZGlzdCIgXAogICAgICAgICAgRk5fS05PQ0tfUlVOVElNRV9BVVRIX1NUQVRJQ19QQVRIPSIke3sgc3RlcHMuYmFzZWxpbmUub3V0cHV0cy5yb290IH19L2FwcHMvc2VydmVyLWF1dGgtdmlldy9kaXN0IiBcCiAgICAgICAgICBGTl9LTk9DS19GUk9OVEVORF9QRVJGX0VORk9SQ0VfUkVTT1VSQ0VTPSIwIiBcCiAgICAgICAgICAgIG5vZGUgc2NyaXB0cy9mcm9udGVuZC1wZXJmb3JtYW5jZS5tanMgPiAiJHtiYXNlfSIKICAgICAgICAgIG5vZGUgc2NyaXB0cy9jaGVjay1mcm9udGVuZC1wZXJmb3JtYW5jZS5tanMgXAogICAgICAgICAgICAtLWJhc2UgIiR7YmFzZX0iIC0tY3VycmVudCAiJHtjdXJyZW50fSIgLS1tYXgtcmVncmVzc2lvbiAwLjEwCiAgICAgICAgICB7CiAgICAgICAgICAgIGVjaG8gJyMjIyBGcm9udGVuZCBwZXJmb3JtYW5jZSBQUiBnYXRlJwogICAgICAgICAgICBlY2hvICdDb2xkIGNhY2hlLCA0w5cgQ1BVIHRocm90dGxlLCBGYXN0IDNHLCBmaXZlIHJ1bnMgcGVyIHJvdXRlL3Byb3ZpZGVyLicKICAgICAgICAgICAgZWNobyAnIyMjIyBCYXNlJwogICAgICAgICAgICBlY2hvICdgYGBqc29uJwogICAgICAgICAgICBjYXQgIiR7YmFzZX0iCiAgICAgICAgICAgIGVjaG8gJ2BgYCcKICAgICAgICAgICAgZWNobyAnIyMjIyBDdXJyZW50JwogICAgICAgICAgICBlY2hvICdgYGBqc29uJwogICAgICAgICAgICBjYXQgIiR7Y3VycmVudH0iCiAgICAgICAgICAgIGVjaG8gJ2BgYCcKICAgICAgICAgIH0gPj4gIiR7R0lUSFVCX1NURVBfU1VNTUFSWX0iCgogICAgICAtIG5hbWU6IFVwbG9hZCBydW50aW1lIHBlcmZvcm1hbmNlIGNvbXBhcmlzb24KICAgICAgICBpZjogYWx3YXlzKCkKICAgICAgICB1c2VzOiBhY3Rpb25zL3VwbG9hZC1hcnRpZmFjdEAwNDNmYjQ2ZDFhOTNjNzdhYWU2NTZlN2MxYzY0YTg3NWQxZmM2YTBhICMgdjcuMC4xCiAgICAgICAgd2l0aDoKICAgICAgICAgIG5hbWU6IHJ1bnRpbWUtcGVyZm9ybWFuY2UtcHItJHt7IGdpdGh1Yi5ldmVudC5wdWxsX3JlcXVlc3QubnVtYmVyIH19CiAgICAgICAgICBwYXRoOiB8CiAgICAgICAgICAgICR7eyBydW5uZXIudGVtcCB9fS9ydW50aW1lLXBlcmZvcm1hbmNlLWJhc2UuanNvbgogICAgICAgICAgICAke3sgcnVubmVyLnRlbXAgfX0vcnVudGltZS1wZXJmb3JtYW5jZS1jdXJyZW50Lmpzb24KICAgICAgICAgICAgJHt7IHJ1bm5lci50ZW1wIH19L3J1bnRpbWUtcGVyZm9ybWFuY2UtY2dyb3VwLTUxMm0uanNvbgogICAgICAgICAgICAke3sgcnVubmVyLnRlbXAgfX0vZnJvbnRlbmQtcGVyZm9ybWFuY2UtYmFzZS5qc29uCiAgICAgICAgICAgICR7eyBydW5uZXIudGVtcCB9fS9mcm9udGVuZC1wZXJmb3JtYW5jZS1jdXJyZW50Lmpzb24KICAgICAgICAgIGlmLW5vLWZpbGVzLWZvdW5kOiB3YXJuCiAgICAgICAgICByZXRlbnRpb24tZGF5czogMTQKCiAgYWNjZXNzaWJpbGl0eToKICAgIGlmOiBnaXRodWIuZXZlbnRfbmFtZSA9PSAnc2NoZWR1bGUnIHx8IGdpdGh1Yi5ldmVudF9uYW1lID09ICd3b3JrZmxvd19kaXNwYXRjaCcKICAgIHJ1bnMtb246IHVidW50dS0yNC4wNAogICAgdGltZW91dC1taW51dGVzOiA5MAoKICAgIHN0ZXBzOgogICAgICAtIG5hbWU6IENoZWNrb3V0IGZuLWtub2NrCiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEBkZTBmYWMyZTQ1MDBkYWJlMDAwOWU2NzIxNGZmNWY1NDQ3Y2U4M2RkICMgdjYuMC4yCiAgICAgICAgd2l0aDoKICAgICAgICAgIHBlcnNpc3QtY3JlZGVudGlhbHM6IGZhbHNlCgogICAgICAtIG5hbWU6IENoZWNrb3V0IEdvIGdhdGV3YXkKICAgICAgICB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QGRlMGZhYzJlNDUwMGRhYmUwMDA5ZTY3MjE0ZmY1ZjU0NDdjZTgzZGQgIyB2Ni4wLjIKICAgICAgICB3aXRoOgogICAgICAgICAgcmVwb3NpdG9yeToga2NpLWxuay9Hby1SZWF1dGgtUHJveHkKICAgICAgICAgIHBhdGg6IEdvLVJlYXV0aC1Qcm94eQogICAgICAgICAgZmV0Y2gtZGVwdGg6IDAKICAgICAgICAgIHBlcnNpc3QtY3JlZGVudGlhbHM6IGZhbHNlCgogICAgICAtIG5hbWU6IFJlY29yZCBHbyBnYXRld2F5IGNvbW1pdAogICAgICAgIGlkOiBnYXRld2F5CiAgICAgICAgc2hlbGw6IGJhc2gKICAgICAgICBydW46IHwKICAgICAgICAgIHNoYT0iJChnaXQgLUMgR28tUmVhdXRoLVByb3h5IHJldi1wYXJzZSBIRUFEKSIKICAgICAgICAgIHByaW50ZiAnc2hhPSVzXG4nICIke3NoYX0iID4+ICIke0dJVEhVQl9PVVRQVVR9IgogICAgICAgICAgcHJpbnRmICdGTl9LTk9DS19HQVRFV0FZX0NPTU1JVD0lc1xuJyAiJHtzaGF9IiA+PiAiJHtHSVRIVUJfRU5WfSIKCiAgICAgIC0gbmFtZTogU2V0IHVwIE5vZGUuanMKICAgICAgICB1c2VzOiBhY3Rpb25zL3NldHVwLW5vZGVAMjQ5OTcwNzI5Y2IwZWYzNTg5NjQ0ZTI4OTY2NDVlNWRjNWJhOWMzOCAjIHY2LjUuMAogICAgICAgIHdpdGg6CiAgICAgICAgICBub2RlLXZlcnNpb246ICR7eyBlbnYuTk9ERV9WRVJTSU9OIH19CiAgICAgICAgICBjYWNoZTogbnBtCgogICAgICAtIG5hbWU6IFNldCB1cCBHbwogICAgICAgIHVzZXM6IGFjdGlvbnMvc2V0dXAtZ29AOTI0YWUzYTFjZGVkNjEzMzcyYWI1NTk1MzU2ZmI1NzIwZTIyYmExNiAjIHY2CiAgICAgICAgd2l0aDoKICAgICAgICAgIGdvLXZlcnNpb24tZmlsZTogR28tUmVhdXRoLVByb3h5L2dvLm1vZAogICAgICAgICAgY2FjaGUtZGVwZW5kZW5jeS1wYXRoOiBHby1SZWF1dGgtUHJveHkvZ28uc3VtCgogICAgICAtIG5hbWU6IFNldCB1cCBSdXN0CiAgICAgICAgdXNlczogZHRvbG5heS9ydXN0LXRvb2xjaGFpbkA0YmU3MDY2YWRhNjJkZDM4ZGUxMGU3YjcwMTY2YmM3NGVkMTk4YzMwCiAgICAgICAgd2l0aDoKICAgICAgICAgIHRvb2xjaGFpbjogJHt7IGVudi5SVVNUX1ZFUlNJT04gfX0KCiAgICAgIC0gbmFtZTogUmVzdG9yZSBicm93c2VyIHJ1bnRpbWUgUnVzdCBidWlsZCBjYWNoZQogICAgICAgIHVzZXM6IFN3YXRpbmVtL3J1c3QtY2FjaGVAMjM4NjlhNWJkNjZjNzNkYjNjMGFjNDAzMzFmMzIwNmViMjM3OTFkYyAjIHYyLjkuMQogICAgICAgIHdpdGg6CiAgICAgICAgICBzaGFyZWQta2V5OiBsaW51eC1ydW50aW1lLWJyb3dzZXIKICAgICAgICAgIGNhY2hlLWJpbjogImZhbHNlIgogICAgICAgICAgd29ya3NwYWNlczogYXBwcy9zZXJ2ZXItYWRtaW4tcnMgLT4gdGFyZ2V0CgogICAgICAtIG5hbWU6IFNldCB1cCB2ZXJpZmllZCBwcm90b2J1ZiBjb21waWxlcgogICAgICAgIHNoZWxsOiBiYXNoCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBhcmNoaXZlPSIke1JVTk5FUl9URU1QfS9wcm90b2MtJHtQUk9UT0NfVkVSU0lPTn0tbGludXgteDg2XzY0LnppcCIKICAgICAgICAgIGluc3RhbGxfZGlyPSIke1JVTk5FUl9URU1QfS9wcm90b2MtJHtQUk9UT0NfVkVSU0lPTn0iCiAgICAgICAgICBjdXJsIC0tZmFpbCAtLWxvY2F0aW9uIC0tcmV0cnkgNSAtLXJldHJ5LWFsbC1lcnJvcnMgXAogICAgICAgICAgICAtLW91dHB1dCAiJHthcmNoaXZlfSIgXAogICAgICAgICAgICAiaHR0cHM6Ly9naXRodWIuY29tL3Byb3RvY29sYnVmZmVycy9wcm90b2J1Zi9yZWxlYXNlcy9kb3dubG9hZC92JHtQUk9UT0NfVkVSU0lPTn0vcHJvdG9jLSR7UFJPVE9DX1ZFUlNJT059LWxpbnV4LXg4Nl82NC56aXAiCiAgICAgICAgICBwcmludGYgJyVzICAlc1xuJyAiJHtQUk9UT0NfTElOVVhfWDg2XzY0X1NIQTI1Nn0iICIke2FyY2hpdmV9IiB8IHNoYTI1NnN1bSAtLWNoZWNrIC0KICAgICAgICAgIG1rZGlyIC1wICIke2luc3RhbGxfZGlyfSIKICAgICAgICAgIHVuemlwIC1xICIke2FyY2hpdmV9IiAtZCAiJHtpbnN0YWxsX2Rpcn0iCiAgICAgICAgICBwcmludGYgJyVzXG4nICIke2luc3RhbGxfZGlyfS9iaW4iID4+ICIke0dJVEhVQl9QQVRIfSIKCiAgICAgIC0gbmFtZTogQnVpbGQgcnVudGltZSBhbmQgaW5zdGFsbCBicm93c2VyCiAgICAgICAgc2hlbGw6IGJhc2gKICAgICAgICBydW46IHwKICAgICAgICAgIG5wbSBpbnN0YWxsIC0tZ2xvYmFsICJucG1AJHtOUE1fVkVSU0lPTn0iCiAgICAgICAgICBucG0gY2kKICAgICAgICAgIG5weCBwbGF5d3JpZ2h0IGluc3RhbGwgLS13aXRoLWRlcHMgY2hyb21pdW0KICAgICAgICAgIG5weCB0dXJibyBydW4gYnVpbGQgLS1maWx0ZXI9c2VydmVyLWFkbWluLXZpZXcgLS1maWx0ZXI9c2VydmVyLWF1dGgtdmlldwogICAgICAgICAgbnBtIHJ1biBydW50aW1lOmJ1aWxkCiAgICAgICAgICB2ZXJzaW9uPSIkKGpxIC1lciAudmVyc2lvbiB2ZXJzaW9uLmpzb24pIgogICAgICAgICAgZ2F0ZXdheV9jb21taXQ9IiR7eyBzdGVwcy5nYXRld2F5Lm91dHB1dHMuc2hhIH19IgogICAgICAgICAgKAogICAgICAgICAgICBjZCBHby1SZWF1dGgtUHJveHkKICAgICAgICAgICAgZ28gYnVpbGQgLXRyaW1wYXRoIFwKICAgICAgICAgICAgICAtbGRmbGFncyAiLXMgLXcgLVggZ28tcmVhdXRoLXByb3h5L3BrZy92ZXJzaW9uLlZlcnNpb249JHt2ZXJzaW9ufSAtWCBnby1yZWF1dGgtcHJveHkvcGtnL3ZlcnNpb24uQ29tbWl0PSR7Z2F0ZXdheV9jb21taXR9IiBcCiAgICAgICAgICAgICAgLW8gIiR7UlVOTkVSX1RFTVB9L2dvLXJlYXV0aC1wcm94eSIgLi9jbWQvc2VydmVyCiAgICAgICAgICApCgogICAgICAtIG5hbWU6IFJ1biBmdWxsIGFjY2Vzc2liaWxpdHkgYXVkaXQKICAgICAgICBlbnY6CiAgICAgICAgICBGTl9LTk9DS19BMTFZX0dBVEVXQVlfQklOOiAke3sgcnVubmVyLnRlbXAgfX0vZ28tcmVhdXRoLXByb3h5CiAgICAgICAgICBGTl9LTk9DS19SVU5USU1FX1NFUlZFUl9CSU46ICR7eyBnaXRodWIud29ya3NwYWNlIH19L2FwcHMvc2VydmVyLWFkbWluLXJzL3RhcmdldC9ydW50aW1lLXRlc3Qvc2VydmVyLWFkbWluLXJzCiAgICAgICAgcnVuOiBucG0gcnVuIGExMXk6YXVkaXQKCiAgICAgIC0gbmFtZTogUnVuIHByb3RlY3RlZCBydW50aW1lIGJyb3dzZXIgZmxvd3MKICAgICAgICBlbnY6CiAgICAgICAgICBGTl9LTk9DS19SVU5USU1FX0UyRV9HQVRFV0FZX0JJTjogJHt7IHJ1bm5lci50ZW1wIH19L2dvLXJlYXV0aC1wcm94eQogICAgICAgICAgRk5fS05PQ0tfUlVOVElNRV9TRVJWRVJfQklOOiAke3sgZ2l0aHViLndvcmtzcGFjZSB9fS9hcHBzL3NlcnZlci1hZG1pbi1ycy90YXJnZXQvcnVudGltZS10ZXN0L3NlcnZlci1hZG1pbi1ycwogICAgICAgIHJ1bjogbnBtIHJ1biBydW50aW1lOmUyZQoKICAgICAgLSBuYW1lOiBNZWFzdXJlIHJ1bnRpbWUgcmVhZGluZXNzIGFuZCBpZGxlIFJTUwogICAgICAgIGVudjoKICAgICAgICAgIEZOX0tOT0NLX1JVTlRJTUVfUEVSRl9HQVRFV0FZX0JJTjogJHt7IHJ1bm5lci50ZW1wIH19L2dvLXJlYXV0aC1wcm94eQogICAgICAgICAgRk5fS05PQ0tfUlVOVElNRV9TRVJWRVJfQklOOiAke3sgZ2l0aHViLndvcmtzcGFjZSB9fS9hcHBzL3NlcnZlci1hZG1pbi1ycy90YXJnZXQvcnVudGltZS10ZXN0L3NlcnZlci1hZG1pbi1ycwogICAgICAgICAgRk5fS05PQ0tfUlVOVElNRV9QRVJGX1JVTlM6ICI1IgogICAgICAgIHNoZWxsOiBiYXNoCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBzZXQgLW8gcGlwZWZhaWwKICAgICAgICAgIG5wbSBydW4gLS1zaWxlbnQgcnVudGltZTptZWFzdXJlIHwgdGVlICIke1JVTk5FUl9URU1QfS9ydW50aW1lLXBlcmZvcm1hbmNlLmpzb24iCiAgICAgICAgICB7CiAgICAgICAgICAgIGVjaG8gJyMjIyBSdW50aW1lIHBlcmZvcm1hbmNlIHNhbXBsZScKICAgICAgICAgICAgZWNobyAnYGBganNvbicKICAgICAgICAgICAgY2F0ICIke1JVTk5FUl9URU1QfS9ydW50aW1lLXBlcmZvcm1hbmNlLmpzb24iCiAgICAgICAgICAgIGVjaG8gJ2BgYCcKICAgICAgICAgIH0gPj4gIiR7R0lUSFVCX1NURVBfU1VNTUFSWX0iCgogICAgICAtIG5hbWU6IFVwbG9hZCBydW50aW1lIHBlcmZvcm1hbmNlIHNhbXBsZQogICAgICAgIHVzZXM6IGFjdGlvbnMvdXBsb2FkLWFydGlmYWN0QDA0M2ZiNDZkMWE5M2M3N2FhZTY1NmU3YzFjNjRhODc1ZDFmYzZhMGEgIyB2Ny4wLjEKICAgICAgICB3aXRoOgogICAgICAgICAgbmFtZTogcnVudGltZS1wZXJmb3JtYW5jZS0ke3sgZ2l0aHViLnJ1bl9pZCB9fQogICAgICAgICAgcGF0aDogJHt7IHJ1bm5lci50ZW1wIH19L3J1bnRpbWUtcGVyZm9ybWFuY2UuanNvbgogICAgICAgICAgaWYtbm8tZmlsZXMtZm91bmQ6IGVycm9yCiAgICAgICAgICByZXRlbnRpb24tZGF5czogMTQK
+name: CI
+
+on:
+  pull_request:
+  schedule:
+    - cron: "17 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name != 'schedule' }}
+
+env:
+  CARGO_TERM_COLOR: always
+  NODE_VERSION: "22.22.3"
+  NPM_VERSION: "10.8.2"
+  PROTOC_VERSION: "35.1"
+  PROTOC_LINUX_X86_64_SHA256: "6930ebf62bd4ea607b98fff052596c6ee564b9835b4ce172c75a3f53ae9d91b7"
+  RUST_VERSION: "1.96.0"
+  RUSTSEC_ADVISORY_DB_REVISION: 309ad29d8fe448bf986019e05d47b9e0e29a2218
+
+jobs:
+  quality:
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      FN_KNOCK_GO_REAUTH_PROXY_DIR: ${{ github.workspace }}/Go-Reauth-Proxy
+      FN_KNOCK_RUSTSEC_ADVISORY_DB: ${{ github.workspace }}/rustsec-advisory-db
+
+    steps:
+      - name: Checkout fn-knock
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Checkout Go gateway
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: kci-lnk/Go-Reauth-Proxy
+          path: Go-Reauth-Proxy
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Record Go gateway commit
+        shell: bash
+        run: |
+          sha="$(git -C Go-Reauth-Proxy rev-parse HEAD)"
+          printf 'FN_KNOCK_GATEWAY_COMMIT=%s\n' "${sha}" >> "${GITHUB_ENV}"
+
+      - name: Checkout frozen RustSec advisory database
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: RustSec/advisory-db
+          path: rustsec-advisory-db
+          ref: ${{ env.RUSTSEC_ADVISORY_DB_REVISION }}
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+
+      - name: Set up Go
+        uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6
+        with:
+          go-version-file: Go-Reauth-Proxy/go.mod
+          cache-dependency-path: Go-Reauth-Proxy/go.sum
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@4be7066ada62dd38de10e7b70166bc74ed198c30
+        with:
+          toolchain: ${{ env.RUST_VERSION }}
+          components: clippy
+
+      - name: Restore Rust build cache
+        uses: Swatinem/rust-cache@23869a5bd66c73db3c0ac40331f3206eb23791dc # v2.9.1
+        with:
+          shared-key: linux-quality
+          cache-bin: "false"
+          workspaces: |
+            apps/server-admin-rs -> target
+            apps/fn-knock-desktop/native -> target
+
+      - name: Set up verified protobuf compiler
+        shell: bash
+        run: |
+          archive="${RUNNER_TEMP}/protoc-${PROTOC_VERSION}-linux-x86_64.zip"
+          install_dir="${RUNNER_TEMP}/protoc-${PROTOC_VERSION}"
+          curl --fail --location --retry 5 --retry-all-errors \
+            --output "${archive}" \
+            "https://github.com/protocolbuffers/protobuf/releases/download/v${PROTOC_VERSION}/protoc-${PROTOC_VERSION}-linux-x86_64.zip"
+          printf '%s  %s\n' "${PROTOC_LINUX_X86_64_SHA256}" "${archive}" | sha256sum --check -
+          mkdir -p "${install_dir}"
+          unzip -q "${archive}" -d "${install_dir}"
+          printf '%s\n' "${install_dir}/bin" >> "${GITHUB_PATH}"
+
+      - name: Install locked dependencies and audit tool
+        shell: bash
+        run: |
+          npm install --global "npm@${NPM_VERSION}"
+          npm ci
+          cargo install cargo-audit --version 0.22.2 --locked
+
+      - name: Run unified quality gate
+        run: npm run quality:check
+
+      - name: Reject breaking HTTP contract changes
+        if: github.event_name == 'pull_request'
+        shell: bash
+        run: |
+          baseline="${RUNNER_TEMP}/openapi-base.json"
+          if ! git show "origin/${GITHUB_BASE_REF}:packages/api-contract/openapi.json" > "${baseline}"; then
+            echo "No base OpenAPI contract exists yet; generated-file checks still apply"
+            exit 0
+          fi
+          current="packages/api-contract/openapi.json"
+          filtered_baseline="${RUNNER_TEMP}/openapi-base-filtered.json"
+          filtered_current="${RUNNER_TEMP}/openapi-current-filtered.json"
+          node ./scripts/filter-intentional-terminal-openapi-breaks.mjs \
+            "${baseline}" "${current}" "${filtered_baseline}" "${filtered_current}"
+          go install github.com/oasdiff/oasdiff@v1.26.1
+          "$(go env GOPATH)/bin/oasdiff" breaking --fail-on ERR --format githubactions \
+            "${filtered_baseline}" "${filtered_current}"
+
+      - name: Verify generated Go control-plane stubs
+        shell: bash
+        run: |
+          bash ./scripts/sync-go-grpc-contract.sh Go-Reauth-Proxy
+          git -C Go-Reauth-Proxy diff --exit-code -- pkg/grpc/pb
+
+  runtime-performance:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout fn-knock
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Checkout Go gateway
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: kci-lnk/Go-Reauth-Proxy
+          path: Go-Reauth-Proxy
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Record Go gateway commit
+        id: gateway
+        shell: bash
+        run: |
+          sha="$(git -C Go-Reauth-Proxy rev-parse HEAD)"
+          printf 'sha=%s\n' "${sha}" >> "${GITHUB_OUTPUT}"
+          printf 'FN_KNOCK_GATEWAY_COMMIT=%s\n' "${sha}" >> "${GITHUB_ENV}"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+
+      - name: Set up Go
+        uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6
+        with:
+          go-version-file: Go-Reauth-Proxy/go.mod
+          cache-dependency-path: Go-Reauth-Proxy/go.sum
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@4be7066ada62dd38de10e7b70166bc74ed198c30
+        with:
+          toolchain: ${{ env.RUST_VERSION }}
+
+      - name: Restore current runtime Rust build cache
+        uses: Swatinem/rust-cache@23869a5bd66c73db3c0ac40331f3206eb23791dc # v2.9.1
+        with:
+          shared-key: linux-runtime-performance-current
+          cache-bin: "false"
+          workspaces: apps/server-admin-rs -> target
+
+      - name: Build current runtime artifacts
+        shell: bash
+        run: |
+          npm install --global "npm@${NPM_VERSION}"
+          npm ci
+          npx turbo run build --filter=server-admin-view --filter=server-auth-view
+          npm run runtime:build
+          version="$(jq -er .version version.json)"
+          (
+            cd Go-Reauth-Proxy
+            go build -trimpath \
+              -ldflags "-s -w -X go-reauth-proxy/pkg/version.Version=${version} -X go-reauth-proxy/pkg/version.Commit=${{ steps.gateway.outputs.sha }}" \
+              -o "${RUNNER_TEMP}/go-reauth-proxy-current" ./cmd/server
+            go test -c -o "${RUNNER_TEMP}/go-stream-tests" ./pkg/stream
+          )
+
+      - name: Check out base runtime sources
+        id: baseline
+        shell: bash
+        run: |
+          base_root="${RUNNER_TEMP}/fn-knock-base"
+          base_gateway="${RUNNER_TEMP}/go-reauth-proxy-base-source"
+          base_sha="${{ github.event.pull_request.base.sha }}"
+          git fetch --no-tags origin "${base_sha}"
+          git worktree add --detach "${base_root}" "${base_sha}"
+          base_gateway_commit="$(git -C Go-Reauth-Proxy rev-parse HEAD)"
+          git -C Go-Reauth-Proxy worktree add --detach "${base_gateway}" "${base_gateway_commit}"
+          printf 'root=%s\n' "${base_root}" >> "${GITHUB_OUTPUT}"
+          printf 'gateway=%s\n' "${base_gateway}" >> "${GITHUB_OUTPUT}"
+          printf 'gateway_commit=%s\n' "${base_gateway_commit}" >> "${GITHUB_OUTPUT}"
+
+      - name: Build base Rust and Go runtime binaries
+        shell: bash
+        run: |
+          base_target="${RUNNER_TEMP}/fn-knock-rust-base-target"
+          base_version="$(jq -er .version "${{ steps.baseline.outputs.root }}/version.json")"
+          base_manifest="${{ steps.baseline.outputs.root }}/apps/server-admin-rs/Cargo.toml"
+          base_profile="runtime-test"
+          if ! grep -Eq '^\[profile\.runtime-test\]' "${base_manifest}"; then
+            # Pre-profile baselines used the same release settings except for
+            # runtime-test's cheaper thin LTO. Preserve an equivalent comparison.
+            base_profile="release"
+            export CARGO_PROFILE_RELEASE_LTO="thin"
+          fi
+          CARGO_TARGET_DIR="${base_target}" cargo build --locked \
+            --manifest-path "${base_manifest}" \
+            --profile "${base_profile}" --bin server-admin-rs
+          install -m 0755 "${base_target}/${base_profile}/server-admin-rs" \
+            "${RUNNER_TEMP}/server-admin-rs-base"
+          (
+            cd "${{ steps.baseline.outputs.gateway }}"
+            go build -trimpath \
+              -ldflags "-s -w -X go-reauth-proxy/pkg/version.Version=${base_version} -X go-reauth-proxy/pkg/version.Commit=${{ steps.baseline.outputs.gateway_commit }}" \
+              -o "${RUNNER_TEMP}/go-reauth-proxy-base" ./cmd/server
+          )
+
+      - name: Exercise current runtime in a 512 MiB cgroup
+        shell: bash
+        run: |
+          docker run --rm \
+            --memory=512m --memory-swap=512m --pids-limit=4096 \
+            -v "${RUNNER_TEMP}:/artifacts" \
+            node:22-trixie \
+            /artifacts/go-stream-tests -test.v
+          docker run --rm \
+            --memory=512m --memory-swap=512m --pids-limit=4096 \
+            -v "${GITHUB_WORKSPACE}:/workspace" \
+            -v "${RUNNER_TEMP}:/artifacts" \
+            -w /workspace \
+            -e FN_KNOCK_RUNTIME_PERF_RUNS=1 \
+            -e FN_KNOCK_RUNTIME_PERF_LOAD_RUNS=1 \
+            -e FN_KNOCK_RUNTIME_PERF_LOAD_SECONDS=30 \
+            -e FN_KNOCK_RUNTIME_PERF_REJECT_MEMORY_LIMIT_MIB=257 \
+            -e FN_KNOCK_RUNTIME_SERVER_BIN=/workspace/apps/server-admin-rs/target/runtime-test/server-admin-rs \
+            -e FN_KNOCK_RUNTIME_PERF_GATEWAY_BIN=/artifacts/go-reauth-proxy-current \
+            node:22-trixie \
+            node scripts/runtime-performance.mjs \
+            > "${RUNNER_TEMP}/runtime-performance-cgroup-512m.json"
+          jq -e '
+            .schema_version == 2 and
+            .load_sample_count == 1 and
+            .samples[0].checkpoints.stable_10s.gateway_memory_limit_bytes == 134217728 and
+            (.samples[0].loads | length) == 4 and
+            .summary.management_lifetime_peak_rss_p95_bytes > 0 and
+            .summary.management_load_peak_rss_p95_bytes > 0 and
+            .summary.management_locale_rps_p50 > 0
+          ' "${RUNNER_TEMP}/runtime-performance-cgroup-512m.json" >/dev/null
+
+      - name: Measure base and current runtime performance
+        shell: bash
+        env:
+          FN_KNOCK_RUNTIME_PERF_RUNS: "5"
+        run: |
+          current="${RUNNER_TEMP}/runtime-performance-current.json"
+          base="${RUNNER_TEMP}/runtime-performance-base.json"
+          FN_KNOCK_RUNTIME_SERVER_BIN="${GITHUB_WORKSPACE}/apps/server-admin-rs/target/runtime-test/server-admin-rs" \
+          FN_KNOCK_RUNTIME_PERF_GATEWAY_BIN="${RUNNER_TEMP}/go-reauth-proxy-current" \
+            node scripts/runtime-performance.mjs > "${current}"
+          # Frontend dist remains from the current checkout for both runs, so this
+          # comparison isolates Rust/Go startup, load and retained-memory changes.
+          FN_KNOCK_RUNTIME_SERVER_BIN="${RUNNER_TEMP}/server-admin-rs-base" \
+          FN_KNOCK_RUNTIME_PERF_GATEWAY_BIN="${RUNNER_TEMP}/go-reauth-proxy-base" \
+          FN_KNOCK_RUNTIME_PERF_EXERCISE_MEMORY_CONFIG="0" \
+          FN_KNOCK_RUNTIME_PERF_VERIFY_STATIC="0" \
+            node scripts/runtime-performance.mjs > "${base}"
+          node scripts/check-runtime-performance.mjs \
+            --base "${base}" --current "${current}" \
+            --max-readiness-regression 0.10 --max-rss-regression 0.05
+          {
+            echo '### Runtime performance PR gate'
+            echo 'Base and current use the same freshly-built frontend assets; only Rust/Go runtime binaries differ.'
+            echo '#### Base'
+            echo '```json'
+            cat "${base}"
+            echo '```'
+            echo '#### Current'
+            echo '```json'
+            cat "${current}"
+            echo '```'
+          } >> "${GITHUB_STEP_SUMMARY}"
+
+      - name: Build base frontend artifacts
+        shell: bash
+        run: |
+          (
+            cd "${{ steps.baseline.outputs.root }}"
+            npm ci
+            npx turbo run build --filter=server-admin-view --filter=server-auth-view
+          )
+
+      - name: Install Chromium for frontend performance
+        run: npx playwright install --with-deps chromium
+
+      - name: Measure base and current frontend performance
+        shell: bash
+        env:
+          FN_KNOCK_FRONTEND_PERF_RUNS: "5"
+        run: |
+          current="${RUNNER_TEMP}/frontend-performance-current.json"
+          base="${RUNNER_TEMP}/frontend-performance-base.json"
+          FN_KNOCK_RUNTIME_SERVER_BIN="${GITHUB_WORKSPACE}/apps/server-admin-rs/target/runtime-test/server-admin-rs" \
+          FN_KNOCK_FRONTEND_PERF_GATEWAY_BIN="${RUNNER_TEMP}/go-reauth-proxy-current" \
+            node scripts/frontend-performance.mjs > "${current}"
+          FN_KNOCK_RUNTIME_SERVER_BIN="${RUNNER_TEMP}/server-admin-rs-base" \
+          FN_KNOCK_FRONTEND_PERF_GATEWAY_BIN="${RUNNER_TEMP}/go-reauth-proxy-base" \
+          FN_KNOCK_RUNTIME_ADMIN_STATIC_PATH="${{ steps.baseline.outputs.root }}/apps/server-admin-view/dist" \
+          FN_KNOCK_RUNTIME_AUTH_STATIC_PATH="${{ steps.baseline.outputs.root }}/apps/server-auth-view/dist" \
+          FN_KNOCK_FRONTEND_PERF_ENFORCE_RESOURCES="0" \
+            node scripts/frontend-performance.mjs > "${base}"
+          node scripts/check-frontend-performance.mjs \
+            --base "${base}" --current "${current}" --max-regression 0.10
+          {
+            echo '### Frontend performance PR gate'
+            echo 'Cold cache, 4× CPU throttle, Fast 3G, five runs per route/provider.'
+            echo '#### Base'
+            echo '```json'
+            cat "${base}"
+            echo '```'
+            echo '#### Current'
+            echo '```json'
+            cat "${current}"
+            echo '```'
+          } >> "${GITHUB_STEP_SUMMARY}"
+
+      - name: Upload runtime performance comparison
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: runtime-performance-pr-${{ github.event.pull_request.number }}
+          path: |
+            ${{ runner.temp }}/runtime-performance-base.json
+            ${{ runner.temp }}/runtime-performance-current.json
+            ${{ runner.temp }}/runtime-performance-cgroup-512m.json
+            ${{ runner.temp }}/frontend-performance-base.json
+            ${{ runner.temp }}/frontend-performance-current.json
+          if-no-files-found: warn
+          retention-days: 14
+
+  accessibility:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout fn-knock
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      - name: Checkout Go gateway
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: kci-lnk/Go-Reauth-Proxy
+          path: Go-Reauth-Proxy
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Record Go gateway commit
+        id: gateway
+        shell: bash
+        run: |
+          sha="$(git -C Go-Reauth-Proxy rev-parse HEAD)"
+          printf 'sha=%s\n' "${sha}" >> "${GITHUB_OUTPUT}"
+          printf 'FN_KNOCK_GATEWAY_COMMIT=%s\n' "${sha}" >> "${GITHUB_ENV}"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+
+      - name: Set up Go
+        uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6
+        with:
+          go-version-file: Go-Reauth-Proxy/go.mod
+          cache-dependency-path: Go-Reauth-Proxy/go.sum
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@4be7066ada62dd38de10e7b70166bc74ed198c30
+        with:
+          toolchain: ${{ env.RUST_VERSION }}
+
+      - name: Restore browser runtime Rust build cache
+        uses: Swatinem/rust-cache@23869a5bd66c73db3c0ac40331f3206eb23791dc # v2.9.1
+        with:
+          shared-key: linux-runtime-browser
+          cache-bin: "false"
+          workspaces: apps/server-admin-rs -> target
+
+      - name: Set up verified protobuf compiler
+        shell: bash
+        run: |
+          archive="${RUNNER_TEMP}/protoc-${PROTOC_VERSION}-linux-x86_64.zip"
+          install_dir="${RUNNER_TEMP}/protoc-${PROTOC_VERSION}"
+          curl --fail --location --retry 5 --retry-all-errors \
+            --output "${archive}" \
+            "https://github.com/protocolbuffers/protobuf/releases/download/v${PROTOC_VERSION}/protoc-${PROTOC_VERSION}-linux-x86_64.zip"
+          printf '%s  %s\n' "${PROTOC_LINUX_X86_64_SHA256}" "${archive}" | sha256sum --check -
+          mkdir -p "${install_dir}"
+          unzip -q "${archive}" -d "${install_dir}"
+          printf '%s\n' "${install_dir}/bin" >> "${GITHUB_PATH}"
+
+      - name: Build runtime and install browser
+        shell: bash
+        run: |
+          npm install --global "npm@${NPM_VERSION}"
+          npm ci
+          npx playwright install --with-deps chromium
+          npx turbo run build --filter=server-admin-view --filter=server-auth-view
+          npm run runtime:build
+          version="$(jq -er .version version.json)"
+          gateway_commit="${{ steps.gateway.outputs.sha }}"
+          (
+            cd Go-Reauth-Proxy
+            go build -trimpath \
+              -ldflags "-s -w -X go-reauth-proxy/pkg/version.Version=${version} -X go-reauth-proxy/pkg/version.Commit=${gateway_commit}" \
+              -o "${RUNNER_TEMP}/go-reauth-proxy" ./cmd/server
+          )
+
+      - name: Run full accessibility audit
+        env:
+          FN_KNOCK_A11Y_GATEWAY_BIN: ${{ runner.temp }}/go-reauth-proxy
+          FN_KNOCK_RUNTIME_SERVER_BIN: ${{ github.workspace }}/apps/server-admin-rs/target/runtime-test/server-admin-rs
+        run: npm run a11y:audit
+
+      - name: Run protected runtime browser flows
+        env:
+          FN_KNOCK_RUNTIME_E2E_GATEWAY_BIN: ${{ runner.temp }}/go-reauth-proxy
+          FN_KNOCK_RUNTIME_SERVER_BIN: ${{ github.workspace }}/apps/server-admin-rs/target/runtime-test/server-admin-rs
+        run: npm run runtime:e2e
+
+      - name: Measure runtime readiness and idle RSS
+        env:
+          FN_KNOCK_RUNTIME_PERF_GATEWAY_BIN: ${{ runner.temp }}/go-reauth-proxy
+          FN_KNOCK_RUNTIME_SERVER_BIN: ${{ github.workspace }}/apps/server-admin-rs/target/runtime-test/server-admin-rs
+          FN_KNOCK_RUNTIME_PERF_RUNS: "5"
+        shell: bash
+        run: |
+          set -o pipefail
+          npm run --silent runtime:measure | tee "${RUNNER_TEMP}/runtime-performance.json"
+          {
+            echo '### Runtime performance sample'
+            echo '```json'
+            cat "${RUNNER_TEMP}/runtime-performance.json"
+            echo '```'
+          } >> "${GITHUB_STEP_SUMMARY}"
+
+      - name: Upload runtime performance sample
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: runtime-performance-${{ github.run_id }}
+          path: ${{ runner.temp }}/runtime-performance.json
+          if-no-files-found: error
+          retention-days: 14

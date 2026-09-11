@@ -1,1 +1,161 @@
-ZXhwb3J0IGludGVyZmFjZSBDcmVkZW50aWFsRGlnZXN0U3RvcmFnZSB7CiAgZ2V0SXRlbShrZXk6IHN0cmluZyk6IHN0cmluZyB8IG51bGw7CiAgc2V0SXRlbShrZXk6IHN0cmluZywgdmFsdWU6IHN0cmluZyk6IHZvaWQ7CiAgcmVtb3ZlSXRlbShrZXk6IHN0cmluZyk6IHZvaWQ7Cn0KCnR5cGUgQ3JlZGVudGlhbElkSGFzaGVyID0gKGNyZWRlbnRpYWxJZDogc3RyaW5nKSA9PiBQcm9taXNlPHN0cmluZyB8IG51bGw+OwoKaW50ZXJmYWNlIFVzZUtub3duUGFzc2tleUNyZWRlbnRpYWxzT3B0aW9ucyB7CiAgc3RvcmFnZT86IENyZWRlbnRpYWxEaWdlc3RTdG9yYWdlIHwgbnVsbDsKICBzdG9yYWdlS2V5Pzogc3RyaW5nOwogIGhhc2hDcmVkZW50aWFsSWQ/OiBDcmVkZW50aWFsSWRIYXNoZXI7Cn0KCmV4cG9ydCBjb25zdCBLTk9XTl9QQVNTS0VZX0NSRURFTlRJQUxfRElHRVNUU19TVE9SQUdFX0tFWSA9CiAgInNlcnZlci1hdXRoLXZpZXc6a25vd24tcGFzc2tleS1jcmVkZW50aWFsLWRpZ2VzdHMiOwoKZXhwb3J0IGNvbnN0IG5vcm1hbGl6ZVBhc3NrZXlDcmVkZW50aWFsSWRzID0gKHZhbHVlOiB1bmtub3duKTogc3RyaW5nW10gPT4gewogIGlmICghQXJyYXkuaXNBcnJheSh2YWx1ZSkpIHsKICAgIHJldHVybiBbXTsKICB9CgogIHJldHVybiBbCiAgICAuLi5uZXcgU2V0KAogICAgICB2YWx1ZQogICAgICAgIC5maWx0ZXIoKGl0ZW0pOiBpdGVtIGlzIHN0cmluZyA9PiB0eXBlb2YgaXRlbSA9PT0gInN0cmluZyIpCiAgICAgICAgLm1hcCgoaXRlbSkgPT4gaXRlbS50cmltKCkpCiAgICAgICAgLmZpbHRlcihCb29sZWFuKSwKICAgICksCiAgXTsKfTsKCmNvbnN0IGdldEJyb3dzZXJTdG9yYWdlID0gKCk6IENyZWRlbnRpYWxEaWdlc3RTdG9yYWdlIHwgbnVsbCA9PiB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSB7CiAgICByZXR1cm4gbnVsbDsKICB9CgogIHRyeSB7CiAgICByZXR1cm4gd2luZG93LmxvY2FsU3RvcmFnZTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBudWxsOwogIH0KfTsKCmV4cG9ydCBjb25zdCBoYXNoUGFzc2tleUNyZWRlbnRpYWxJZDogQ3JlZGVudGlhbElkSGFzaGVyID0gYXN5bmMgKAogIGNyZWRlbnRpYWxJZCwKKSA9PiB7CiAgaWYgKAogICAgdHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIgfHwKICAgICF3aW5kb3cuaXNTZWN1cmVDb250ZXh0IHx8CiAgICB0eXBlb2Ygd2luZG93LmNyeXB0byA9PT0gInVuZGVmaW5lZCIgfHwKICAgICF3aW5kb3cuY3J5cHRvLnN1YnRsZQogICkgewogICAgcmV0dXJuIG51bGw7CiAgfQoKICBjb25zdCBub3JtYWxpemVkQ3JlZGVudGlhbElkID0gY3JlZGVudGlhbElkLnRyaW0oKTsKICBpZiAoIW5vcm1hbGl6ZWRDcmVkZW50aWFsSWQpIHsKICAgIHJldHVybiBudWxsOwogIH0KCiAgY29uc3QgYnl0ZXMgPSBuZXcgVGV4dEVuY29kZXIoKS5lbmNvZGUobm9ybWFsaXplZENyZWRlbnRpYWxJZCk7CiAgY29uc3QgZGlnZXN0ID0gYXdhaXQgd2luZG93LmNyeXB0by5zdWJ0bGUuZGlnZXN0KCJTSEEtMjU2IiwgYnl0ZXMpOwogIHJldHVybiBBcnJheS5mcm9tKG5ldyBVaW50OEFycmF5KGRpZ2VzdCksICh2YWx1ZSkgPT4KICAgIHZhbHVlLnRvU3RyaW5nKDE2KS5wYWRTdGFydCgyLCAiMCIpLAogICkuam9pbigiIik7Cn07CgpleHBvcnQgY29uc3QgdXNlS25vd25QYXNza2V5Q3JlZGVudGlhbHMgPSAoCiAgb3B0aW9uczogVXNlS25vd25QYXNza2V5Q3JlZGVudGlhbHNPcHRpb25zID0ge30sCikgPT4gewogIGNvbnN0IHN0b3JhZ2UgPQogICAgb3B0aW9ucy5zdG9yYWdlID09PSB1bmRlZmluZWQgPyBnZXRCcm93c2VyU3RvcmFnZSgpIDogb3B0aW9ucy5zdG9yYWdlOwogIGNvbnN0IHN0b3JhZ2VLZXkgPQogICAgb3B0aW9ucy5zdG9yYWdlS2V5ID8/IEtOT1dOX1BBU1NLRVlfQ1JFREVOVElBTF9ESUdFU1RTX1NUT1JBR0VfS0VZOwogIGNvbnN0IGhhc2hDcmVkZW50aWFsSWQgPSBvcHRpb25zLmhhc2hDcmVkZW50aWFsSWQgPz8gaGFzaFBhc3NrZXlDcmVkZW50aWFsSWQ7CgogIGNvbnN0IHJlYWRLbm93blBhc3NrZXlDcmVkZW50aWFsRGlnZXN0cyA9ICgpID0+IHsKICAgIGlmICghc3RvcmFnZSkgewogICAgICByZXR1cm4gW10gYXMgc3RyaW5nW107CiAgICB9CgogICAgdHJ5IHsKICAgICAgY29uc3QgcmF3ID0gc3RvcmFnZS5nZXRJdGVtKHN0b3JhZ2VLZXkpOwogICAgICByZXR1cm4gcmF3CiAgICAgICAgPyBub3JtYWxpemVQYXNza2V5Q3JlZGVudGlhbElkcyhKU09OLnBhcnNlKHJhdykpCiAgICAgICAgOiAoW10gYXMgc3RyaW5nW10pOwogICAgfSBjYXRjaCB7CiAgICAgIHJldHVybiBbXSBhcyBzdHJpbmdbXTsKICAgIH0KICB9OwoKICBjb25zdCBwZXJzaXN0S25vd25QYXNza2V5Q3JlZGVudGlhbERpZ2VzdHMgPSAoZGlnZXN0czogc3RyaW5nW10pID0+IHsKICAgIGlmICghc3RvcmFnZSkgewogICAgICByZXR1cm4gZmFsc2U7CiAgICB9CgogICAgdHJ5IHsKICAgICAgY29uc3Qgbm9ybWFsaXplZERpZ2VzdHMgPSBub3JtYWxpemVQYXNza2V5Q3JlZGVudGlhbElkcyhkaWdlc3RzKTsKICAgICAgaWYgKG5vcm1hbGl6ZWREaWdlc3RzLmxlbmd0aCA9PT0gMCkgewogICAgICAgIHN0b3JhZ2UucmVtb3ZlSXRlbShzdG9yYWdlS2V5KTsKICAgICAgfSBlbHNlIHsKICAgICAgICBzdG9yYWdlLnNldEl0ZW0oc3RvcmFnZUtleSwgSlNPTi5zdHJpbmdpZnkobm9ybWFsaXplZERpZ2VzdHMpKTsKICAgICAgfQogICAgICByZXR1cm4gdHJ1ZTsKICAgIH0gY2F0Y2ggewogICAgICByZXR1cm4gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3QgcmVtZW1iZXJLbm93blBhc3NrZXlDcmVkZW50aWFsSWQgPSBhc3luYyAoY3JlZGVudGlhbElkOiB1bmtub3duKSA9PiB7CiAgICBpZiAodHlwZW9mIGNyZWRlbnRpYWxJZCAhPT0gInN0cmluZyIpIHsKICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQoKICAgIGNvbnN0IGRpZ2VzdCA9IGF3YWl0IGhhc2hDcmVkZW50aWFsSWQoY3JlZGVudGlhbElkKTsKICAgIGlmICghZGlnZXN0KSB7CiAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBjb25zdCBrbm93bkRpZ2VzdHMgPSByZWFkS25vd25QYXNza2V5Q3JlZGVudGlhbERpZ2VzdHMoKTsKICAgIGlmIChrbm93bkRpZ2VzdHMuaW5jbHVkZXMoZGlnZXN0KSkgewogICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KCiAgICByZXR1cm4gcGVyc2lzdEtub3duUGFzc2tleUNyZWRlbnRpYWxEaWdlc3RzKFsuLi5rbm93bkRpZ2VzdHMsIGRpZ2VzdF0pOwogIH07CgogIGNvbnN0IHJlbWVtYmVyU29sZUtub3duUGFzc2tleUNyZWRlbnRpYWxJZCA9IGFzeW5jICgKICAgIGNyZWRlbnRpYWxJZHM6IHVua25vd24sCiAgKSA9PiB7CiAgICBjb25zdCBub3JtYWxpemVkSWRzID0gbm9ybWFsaXplUGFzc2tleUNyZWRlbnRpYWxJZHMoY3JlZGVudGlhbElkcyk7CiAgICByZXR1cm4gbm9ybWFsaXplZElkcy5sZW5ndGggPT09IDEKICAgICAgPyByZW1lbWJlcktub3duUGFzc2tleUNyZWRlbnRpYWxJZChub3JtYWxpemVkSWRzWzBdKQogICAgICA6IGZhbHNlOwogIH07CgogIGNvbnN0IGhhc0tub3duUGFzc2tleUNyZWRlbnRpYWwgPSBhc3luYyAoY3JlZGVudGlhbElkczogdW5rbm93bikgPT4gewogICAgY29uc3Qga25vd25EaWdlc3RzID0gbmV3IFNldChyZWFkS25vd25QYXNza2V5Q3JlZGVudGlhbERpZ2VzdHMoKSk7CiAgICBpZiAoa25vd25EaWdlc3RzLnNpemUgPT09IDApIHsKICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQoKICAgIGZvciAoY29uc3QgY3JlZGVudGlhbElkIG9mIG5vcm1hbGl6ZVBhc3NrZXlDcmVkZW50aWFsSWRzKGNyZWRlbnRpYWxJZHMpKSB7CiAgICAgIGNvbnN0IGRpZ2VzdCA9IGF3YWl0IGhhc2hDcmVkZW50aWFsSWQoY3JlZGVudGlhbElkKTsKICAgICAgaWYgKGRpZ2VzdCAmJiBrbm93bkRpZ2VzdHMuaGFzKGRpZ2VzdCkpIHsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgfQogICAgfQoKICAgIHJldHVybiBmYWxzZTsKICB9OwoKICByZXR1cm4gewogICAgaGFzS25vd25QYXNza2V5Q3JlZGVudGlhbCwKICAgIHBlcnNpc3RLbm93blBhc3NrZXlDcmVkZW50aWFsRGlnZXN0cywKICAgIHJlYWRLbm93blBhc3NrZXlDcmVkZW50aWFsRGlnZXN0cywKICAgIHJlbWVtYmVyS25vd25QYXNza2V5Q3JlZGVudGlhbElkLAogICAgcmVtZW1iZXJTb2xlS25vd25QYXNza2V5Q3JlZGVudGlhbElkLAogIH07Cn07Cg==
+export interface CredentialDigestStorage {
+  getItem(key: string): string | null;
+  setItem(key: string, value: string): void;
+  removeItem(key: string): void;
+}
+
+type CredentialIdHasher = (credentialId: string) => Promise<string | null>;
+
+interface UseKnownPasskeyCredentialsOptions {
+  storage?: CredentialDigestStorage | null;
+  storageKey?: string;
+  hashCredentialId?: CredentialIdHasher;
+}
+
+export const KNOWN_PASSKEY_CREDENTIAL_DIGESTS_STORAGE_KEY =
+  "server-auth-view:known-passkey-credential-digests";
+
+export const normalizePasskeyCredentialIds = (value: unknown): string[] => {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+
+  return [
+    ...new Set(
+      value
+        .filter((item): item is string => typeof item === "string")
+        .map((item) => item.trim())
+        .filter(Boolean),
+    ),
+  ];
+};
+
+const getBrowserStorage = (): CredentialDigestStorage | null => {
+  if (typeof window === "undefined") {
+    return null;
+  }
+
+  try {
+    return window.localStorage;
+  } catch {
+    return null;
+  }
+};
+
+export const hashPasskeyCredentialId: CredentialIdHasher = async (
+  credentialId,
+) => {
+  if (
+    typeof window === "undefined" ||
+    !window.isSecureContext ||
+    typeof window.crypto === "undefined" ||
+    !window.crypto.subtle
+  ) {
+    return null;
+  }
+
+  const normalizedCredentialId = credentialId.trim();
+  if (!normalizedCredentialId) {
+    return null;
+  }
+
+  const bytes = new TextEncoder().encode(normalizedCredentialId);
+  const digest = await window.crypto.subtle.digest("SHA-256", bytes);
+  return Array.from(new Uint8Array(digest), (value) =>
+    value.toString(16).padStart(2, "0"),
+  ).join("");
+};
+
+export const useKnownPasskeyCredentials = (
+  options: UseKnownPasskeyCredentialsOptions = {},
+) => {
+  const storage =
+    options.storage === undefined ? getBrowserStorage() : options.storage;
+  const storageKey =
+    options.storageKey ?? KNOWN_PASSKEY_CREDENTIAL_DIGESTS_STORAGE_KEY;
+  const hashCredentialId = options.hashCredentialId ?? hashPasskeyCredentialId;
+
+  const readKnownPasskeyCredentialDigests = () => {
+    if (!storage) {
+      return [] as string[];
+    }
+
+    try {
+      const raw = storage.getItem(storageKey);
+      return raw
+        ? normalizePasskeyCredentialIds(JSON.parse(raw))
+        : ([] as string[]);
+    } catch {
+      return [] as string[];
+    }
+  };
+
+  const persistKnownPasskeyCredentialDigests = (digests: string[]) => {
+    if (!storage) {
+      return false;
+    }
+
+    try {
+      const normalizedDigests = normalizePasskeyCredentialIds(digests);
+      if (normalizedDigests.length === 0) {
+        storage.removeItem(storageKey);
+      } else {
+        storage.setItem(storageKey, JSON.stringify(normalizedDigests));
+      }
+      return true;
+    } catch {
+      return false;
+    }
+  };
+
+  const rememberKnownPasskeyCredentialId = async (credentialId: unknown) => {
+    if (typeof credentialId !== "string") {
+      return false;
+    }
+
+    const digest = await hashCredentialId(credentialId);
+    if (!digest) {
+      return false;
+    }
+
+    const knownDigests = readKnownPasskeyCredentialDigests();
+    if (knownDigests.includes(digest)) {
+      return true;
+    }
+
+    return persistKnownPasskeyCredentialDigests([...knownDigests, digest]);
+  };
+
+  const rememberSoleKnownPasskeyCredentialId = async (
+    credentialIds: unknown,
+  ) => {
+    const normalizedIds = normalizePasskeyCredentialIds(credentialIds);
+    return normalizedIds.length === 1
+      ? rememberKnownPasskeyCredentialId(normalizedIds[0])
+      : false;
+  };
+
+  const hasKnownPasskeyCredential = async (credentialIds: unknown) => {
+    const knownDigests = new Set(readKnownPasskeyCredentialDigests());
+    if (knownDigests.size === 0) {
+      return false;
+    }
+
+    for (const credentialId of normalizePasskeyCredentialIds(credentialIds)) {
+      const digest = await hashCredentialId(credentialId);
+      if (digest && knownDigests.has(digest)) {
+        return true;
+      }
+    }
+
+    return false;
+  };
+
+  return {
+    hasKnownPasskeyCredential,
+    persistKnownPasskeyCredentialDigests,
+    readKnownPasskeyCredentialDigests,
+    rememberKnownPasskeyCredentialId,
+    rememberSoleKnownPasskeyCredentialId,
+  };
+};

@@ -1,1 +1,15 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUG9wb3ZlckFuY2hvclByb3BzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgUG9wb3ZlckFuY2hvciB9IGZyb20gInJla2EtdWkiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPFBvcG92ZXJBbmNob3JQcm9wcz4oKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UG9wb3ZlckFuY2hvcgogICAgZGF0YS1zbG90PSJwb3BvdmVyLWFuY2hvciIKICAgIHYtYmluZD0icHJvcHMiCiAgPgogICAgPHNsb3QgLz4KICA8L1BvcG92ZXJBbmNob3I+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { PopoverAnchorProps } from "reka-ui"
+import { PopoverAnchor } from "reka-ui"
+
+const props = defineProps<PopoverAnchorProps>()
+</script>
+
+<template>
+  <PopoverAnchor
+    data-slot="popover-anchor"
+    v-bind="props"
+  >
+    <slot />
+  </PopoverAnchor>
+</template>

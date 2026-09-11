@@ -1,1 +1,16 @@
-IyBDb2RlR3JhcGggZGF0YSBmaWxlcwojIFRoZXNlIGFyZSBsb2NhbCB0byBlYWNoIG1hY2hpbmUgYW5kIHNob3VsZCBub3QgYmUgY29tbWl0dGVkCgojIERhdGFiYXNlCiouZGIKKi5kYi13YWwKKi5kYi1zaG0KCiMgQ2FjaGUKY2FjaGUvCgojIExvZ3MKKi5sb2cKCiMgSG9vayBtYXJrZXJzCi5kaXJ0eQo=
+# CodeGraph data files
+# These are local to each machine and should not be committed
+
+# Database
+*.db
+*.db-wal
+*.db-shm
+
+# Cache
+cache/
+
+# Logs
+*.log
+
+# Hook markers
+.dirty

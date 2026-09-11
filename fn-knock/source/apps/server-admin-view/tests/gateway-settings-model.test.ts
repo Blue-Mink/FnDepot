@@ -1,1 +1,14 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgeyBERUZBVUxUX1JFVkVSU0VfUFJPWFlfVEhST1RUTEUgfSBmcm9tICIuLi9zcmMvdmlld3Mvc3lzdGVtLXNldHRpbmdzL2dhdGV3YXlTZXR0aW5nc01vZGVsIjsKCmRlc2NyaWJlKCJnYXRld2F5IHNldHRpbmdzIGRlZmF1bHRzIiwgKCkgPT4gewogIGl0KCJ1c2VzIHRoZSBleHBhbmRlZCByZXZlcnNlIHByb3h5IHRva2VuIGJ1Y2tldCIsICgpID0+IHsKICAgIGFzc2VydC5kZWVwRXF1YWwoREVGQVVMVF9SRVZFUlNFX1BST1hZX1RIUk9UVExFLCB7CiAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgIHJlcXVlc3RzX3Blcl9zZWNvbmQ6IDUwMCwKICAgICAgYnVyc3Q6IDEwMDAsCiAgICAgIGJsb2NrX3NlY29uZHM6IDMwLAogICAgfSk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import { DEFAULT_REVERSE_PROXY_THROTTLE } from "../src/views/system-settings/gatewaySettingsModel";
+
+describe("gateway settings defaults", () => {
+  it("uses the expanded reverse proxy token bucket", () => {
+    assert.deepEqual(DEFAULT_REVERSE_PROXY_THROTTLE, {
+      enabled: true,
+      requests_per_second: 500,
+      burst: 1000,
+      block_seconds: 30,
+    });
+  });
+});

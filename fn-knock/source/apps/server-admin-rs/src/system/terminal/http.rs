@@ -1,1 +1,498 @@
-dXNlIHN0ZDo6dGltZTo6RHVyYXRpb247Cgp1c2UgYXh1bTo6ewogICAgSnNvbiwKICAgIGV4dHJhY3Q6OntGcm9tUmVxdWVzdCwgRnJvbVJlcXVlc3RQYXJ0cywgUGF0aCwgUXVlcnksIFN0YXRlfSwKICAgIGh0dHA6OntTdGF0dXNDb2RlLCBoZWFkZXIsIHJlcXVlc3Q6OlBhcnRzfSwKICAgIHJlc3BvbnNlOjp7SW50b1Jlc3BvbnNlLCBSZXNwb25zZX0sCn07CnVzZSBiYXNlNjQ6OntFbmdpbmUgYXMgXywgZW5naW5lOjpnZW5lcmFsX3B1cnBvc2U6OlNUQU5EQVJEfTsKdXNlIHNlcmRlOjp7U2VyaWFsaXplLCBkZTo6RGVzZXJpYWxpemVPd25lZH07CnVzZSB1dG9pcGE6OlRvU2NoZW1hOwp1c2UgdXRvaXBhX2F4dW06Ontyb3V0ZXI6Ok9wZW5BcGlSb3V0ZXIsIHJvdXRlc307CnVzZSB1dWlkOjpVdWlkOwoKdXNlIGNyYXRlOjp7cmVzcG9uc2UsIHN0YXRlOjpBcHBTdGF0ZX07Cgp1c2Ugc3VwZXI6OnsKICAgIGFjY2Vzczo6e3NlbGYsIFRlcm1pbmFsQWNjZXNzLCBXZWJUZXJtaW5hbFNldHRpbmdzLCBXZWJUZXJtaW5hbFNldHRpbmdzSW5wdXR9LAogICAgZG9tYWluOjoqLAogICAgc2VydmljZSwKfTsKCmNvbnN0IE1BWF9JTlBVVF9CQVNFNjRfQllURVM6IHVzaXplID0gODdfMzg0OwoKc3RydWN0IFRlcm1pbmFsSnNvbjxUPihUKTsKCmltcGw8UywgVD4gRnJvbVJlcXVlc3Q8Uz4gZm9yIFRlcm1pbmFsSnNvbjxUPgp3aGVyZQogICAgUzogU2VuZCArIFN5bmMsCiAgICBUOiBEZXNlcmlhbGl6ZU93bmVkLAp7CiAgICB0eXBlIFJlamVjdGlvbiA9IFJlc3BvbnNlOwoKICAgIGFzeW5jIGZuIGZyb21fcmVxdWVzdCgKICAgICAgICByZXF1ZXN0OiBheHVtOjpleHRyYWN0OjpSZXF1ZXN0LAogICAgICAgIHN0YXRlOiAmUywKICAgICkgLT4gUmVzdWx0PFNlbGYsIFNlbGY6OlJlamVjdGlvbj4gewogICAgICAgIEpzb246OjxUPjo6ZnJvbV9yZXF1ZXN0KHJlcXVlc3QsIHN0YXRlKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcCh8SnNvbih2YWx1ZSl8IFNlbGYodmFsdWUpKQogICAgICAgICAgICAubWFwX2Vycih8X3wgdGVybWluYWxfZXJyb3IoVGVybWluYWxFcnJvcjo6aW52YWxpZCgiaW52YWxpZCB0ZXJtaW5hbCBKU09OIGJvZHkiKSkpCiAgICB9Cn0KCnN0cnVjdCBUZXJtaW5hbFF1ZXJ5PFQ+KFQpOwoKaW1wbDxTLCBUPiBGcm9tUmVxdWVzdFBhcnRzPFM+IGZvciBUZXJtaW5hbFF1ZXJ5PFQ+CndoZXJlCiAgICBTOiBTZW5kICsgU3luYywKICAgIFQ6IERlc2VyaWFsaXplT3duZWQsCnsKICAgIHR5cGUgUmVqZWN0aW9uID0gUmVzcG9uc2U7CgogICAgYXN5bmMgZm4gZnJvbV9yZXF1ZXN0X3BhcnRzKHBhcnRzOiAmbXV0IFBhcnRzLCBzdGF0ZTogJlMpIC0+IFJlc3VsdDxTZWxmLCBTZWxmOjpSZWplY3Rpb24+IHsKICAgICAgICBRdWVyeTo6PFQ+Ojpmcm9tX3JlcXVlc3RfcGFydHMocGFydHMsIHN0YXRlKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcCh8UXVlcnkodmFsdWUpfCBTZWxmKHZhbHVlKSkKICAgICAgICAgICAgLm1hcF9lcnIofF98IHRlcm1pbmFsX2Vycm9yKFRlcm1pbmFsRXJyb3I6OmludmFsaWQoImludmFsaWQgdGVybWluYWwgcXVlcnkiKSkpCiAgICB9Cn0KCnN0cnVjdCBUZXJtaW5hbElkKFN0cmluZyk7CgppbXBsPFM+IEZyb21SZXF1ZXN0UGFydHM8Uz4gZm9yIFRlcm1pbmFsSWQKd2hlcmUKICAgIFM6IFNlbmQgKyBTeW5jLAp7CiAgICB0eXBlIFJlamVjdGlvbiA9IFJlc3BvbnNlOwoKICAgIGFzeW5jIGZuIGZyb21fcmVxdWVzdF9wYXJ0cyhwYXJ0czogJm11dCBQYXJ0cywgc3RhdGU6ICZTKSAtPiBSZXN1bHQ8U2VsZiwgU2VsZjo6UmVqZWN0aW9uPiB7CiAgICAgICAgbGV0IFBhdGgoaWQpID0gUGF0aDo6PFN0cmluZz46OmZyb21fcmVxdWVzdF9wYXJ0cyhwYXJ0cywgc3RhdGUpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8X3wgdGVybWluYWxfZXJyb3IoVGVybWluYWxFcnJvcjo6aW52YWxpZCgiaW52YWxpZCB0ZXJtaW5hbCByZXNvdXJjZSBpZCIpKSk/OwogICAgICAgIGlmIFV1aWQ6OnBhcnNlX3N0cigmaWQpLmlzX2VycigpIHsKICAgICAgICAgICAgcmV0dXJuIEVycih0ZXJtaW5hbF9lcnJvcihUZXJtaW5hbEVycm9yOjppbnZhbGlkKAogICAgICAgICAgICAgICAgImludmFsaWQgdGVybWluYWwgcmVzb3VyY2UgaWQiLAogICAgICAgICAgICApKSk7CiAgICAgICAgfQogICAgICAgIE9rKFNlbGYoaWQpKQogICAgfQp9CgpwdWIgZm4gcm91dGVzKCkgLT4gT3BlbkFwaVJvdXRlcjxBcHBTdGF0ZT4gewogICAgT3BlbkFwaVJvdXRlcjo6bmV3KCkKICAgICAgICAucm91dGVzKHJvdXRlcyEoZ2V0X2ZlYXR1cmVfc2V0dGluZ3MsIHVwZGF0ZV9mZWF0dXJlX3NldHRpbmdzKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoZ2V0X2xvY2FsX3Rlcm1pbmFsLCB1cGRhdGVfbG9jYWxfdGVybWluYWwpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShjcmVhdGVfbG9jYWxfc2Vzc2lvbikpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGxpc3RfdGFyZ2V0cywgY3JlYXRlX3RhcmdldCkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF90YXJnZXQsIHVwZGF0ZV90YXJnZXQsIGRlbGV0ZV90YXJnZXQpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShwcm9iZV9ob3N0X2tleSkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHRlc3RfY29ubmVjdGlvbikpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGxpc3Rfc2Vzc2lvbnMpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShjcmVhdGVfc2Vzc2lvbikpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHJlbmFtZV9zZXNzaW9uLCBkZWxldGVfc2Vzc2lvbikpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGNyZWF0ZV9hdHRhY2htZW50KSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoYXR0YWNobWVudF9ldmVudHMpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShzZW5kX2lucHV0KSkKICAgICAgICAucm91dGVzKHJvdXRlcyEocmVzaXplKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoY2xhaW1fY29udHJvbCkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGRlbGV0ZV9hdHRhY2htZW50KSkKfQoKI1t1dG9pcGE6OnBhdGgoZ2V0LCBwYXRoID0gIi9hcGkvYWRtaW4vdGVybWluYWwvbG9jYWwiLCB0YWcgPSAidGVybWluYWwiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgYm9keSA9IExvY2FsVGVybWluYWxTdGF0dXMpKSldCmFzeW5jIGZuIGdldF9sb2NhbF90ZXJtaW5hbChfYWNjZXNzOiBUZXJtaW5hbEFjY2VzcywgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIHJlc3VsdChzZXJ2aWNlOjpsb2NhbF90ZXJtaW5hbF9zdGF0dXMoJnN0YXRlKS5hd2FpdCkKfQoKI1t1dG9pcGE6OnBhdGgocGF0Y2gsIHBhdGggPSAiL2FwaS9hZG1pbi90ZXJtaW5hbC9sb2NhbCIsIHRhZyA9ICJ0ZXJtaW5hbCIsIHBhcmFtcyhGb3JjZVF1ZXJ5KSwgcmVxdWVzdF9ib2R5ID0gTG9jYWxUZXJtaW5hbFNldHRpbmdzSW5wdXQsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBib2R5ID0gTG9jYWxUZXJtaW5hbFN0YXR1cyksIChzdGF0dXMgPSA0MDAsIGJvZHkgPSBUZXJtaW5hbEVycm9yRW52ZWxvcGUpLCAoc3RhdHVzID0gNDA5LCBib2R5ID0gVGVybWluYWxFcnJvckVudmVsb3BlKSwgKHN0YXR1cyA9IDUwMywgYm9keSA9IFRlcm1pbmFsRXJyb3JFbnZlbG9wZSkpKV0KYXN5bmMgZm4gdXBkYXRlX2xvY2FsX3Rlcm1pbmFsKAogICAgX2FjY2VzczogVGVybWluYWxBY2Nlc3MsCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIFRlcm1pbmFsUXVlcnkocXVlcnkpOiBUZXJtaW5hbFF1ZXJ5PEZvcmNlUXVlcnk+LAogICAgVGVybWluYWxKc29uKGlucHV0KTogVGVybWluYWxKc29uPExvY2FsVGVybWluYWxTZXR0aW5nc0lucHV0PiwKKSAtPiBSZXNwb25zZSB7CiAgICByZXN1bHQoCiAgICAgICAgc2VydmljZTo6dXBkYXRlX2xvY2FsX3Rlcm1pbmFsKAogICAgICAgICAgICAmc3RhdGUsCiAgICAgICAgICAgIGlucHV0LAogICAgICAgICAgICBxdWVyeS5mb3JjZSwKICAgICAgICAgICAgcXVlcnkuY29uZmlybWF0aW9uX3Rva2VuLmFzX2RlcmVmKCksCiAgICAgICAgKQogICAgICAgIC5hd2FpdCwKICAgICkKfQoKI1t1dG9pcGE6OnBhdGgocG9zdCwgcGF0aCA9ICIvYXBpL2FkbWluL3Rlcm1pbmFsL2xvY2FsL3Nlc3Npb25zIiwgdGFnID0gInRlcm1pbmFsIiwgcmVxdWVzdF9ib2R5ID0gQ3JlYXRlU2Vzc2lvbklucHV0LCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgYm9keSA9IFRlcm1pbmFsU2Vzc2lvbiksIChzdGF0dXMgPSA0MDksIGJvZHkgPSBUZXJtaW5hbEVycm9yRW52ZWxvcGUpLCAoc3RhdHVzID0gNTAyLCBib2R5ID0gVGVybWluYWxFcnJvckVudmVsb3BlKSwgKHN0YXR1cyA9IDUwMywgYm9keSA9IFRlcm1pbmFsRXJyb3JFbnZlbG9wZSkpKV0KYXN5bmMgZm4gY3JlYXRlX2xvY2FsX3Nlc3Npb24oCiAgICBfYWNjZXNzOiBUZXJtaW5hbEFjY2VzcywKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgVGVybWluYWxKc29uKGlucHV0KTogVGVybWluYWxKc29uPENyZWF0ZVNlc3Npb25JbnB1dD4sCikgLT4gUmVzcG9uc2UgewogICAgcmVzdWx0KHNlcnZpY2U6OmNyZWF0ZV9sb2NhbF9zZXNzaW9uKCZzdGF0ZSwgaW5wdXQpLmF3YWl0KQp9CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi90ZXJtaW5hbC90YXJnZXRzIiwgdGFnID0gInRlcm1pbmFsIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGJvZHkgPSBbVGVybWluYWxUYXJnZXRdKSkpXQphc3luYyBmbiBsaXN0X3RhcmdldHMoX2FjY2VzczogVGVybWluYWxBY2Nlc3MsIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICByZXN1bHQoc2VydmljZTo6dGFyZ2V0cygmc3RhdGUpLmF3YWl0KQp9CgojW3V0b2lwYTo6cGF0aChwb3N0LCBwYXRoID0gIi9hcGkvYWRtaW4vdGVybWluYWwvdGFyZ2V0cyIsIHRhZyA9ICJ0ZXJtaW5hbCIsIHJlcXVlc3RfYm9keSA9IFRhcmdldENyZWF0ZUlucHV0LCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgYm9keSA9IFRlcm1pbmFsVGFyZ2V0KSwgKHN0YXR1cyA9IDQwMCwgYm9keSA9IFRlcm1pbmFsRXJyb3JFbnZlbG9wZSkpKV0KYXN5bmMgZm4gY3JlYXRlX3RhcmdldCgKICAgIF9hY2Nlc3M6IFRlcm1pbmFsQWNjZXNzLAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBUZXJtaW5hbEpzb24oaW5wdXQpOiBUZXJtaW5hbEpzb248VGFyZ2V0Q3JlYXRlSW5wdXQ+LAopIC0+IFJlc3BvbnNlIHsKICAgIHJlc3VsdChzZXJ2aWNlOjpjcmVhdGVfdGFyZ2V0KCZzdGF0ZSwgaW5wdXQpLmF3YWl0KQp9CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi90ZXJtaW5hbC90YXJnZXRzL3tpZH0iLCB0YWcgPSAidGVybWluYWwiLCBwYXJhbXMoKCJpZCIgPSBTdHJpbmcsIFBhdGgpKSwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGJvZHkgPSBUZXJtaW5hbFRhcmdldCksIChzdGF0dXMgPSA0MDQsIGJvZHkgPSBUZXJtaW5hbEVycm9yRW52ZWxvcGUpKSldCmFzeW5jIGZuIGdldF90YXJnZXQoCiAgICBfYWNjZXNzOiBUZXJtaW5hbEFjY2VzcywKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgVGVybWluYWxJZChpZCk6IFRlcm1pbmFsSWQsCikgLT4gUmVzcG9uc2UgewogICAgcmVzdWx0KHNlcnZpY2U6OnRhcmdldCgmc3RhdGUsICZpZCkuYXdhaXQpCn0KCiNbdXRvaXBhOjpwYXRoKHBhdGNoLCBwYXRoID0gIi9hcGkvYWRtaW4vdGVybWluYWwvdGFyZ2V0cy97aWR9IiwgdGFnID0gInRlcm1pbmFsIiwgcGFyYW1zKCgiaWQiID0gU3RyaW5nLCBQYXRoKSwgRm9yY2VRdWVyeSksIHJlcXVlc3RfYm9keSA9IFRhcmdldFVwZGF0ZUlucHV0LCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgYm9keSA9IFRlcm1pbmFsVGFyZ2V0KSwgKHN0YXR1cyA9IDQwOSwgYm9keSA9IFRlcm1pbmFsRXJyb3JFbnZlbG9wZSkpKV0KYXN5bmMgZm4gdXBkYXRlX3RhcmdldCgKICAgIF9hY2Nlc3M6IFRlcm1pbmFsQWNjZXNzLAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBUZXJtaW5hbElkKGlkKTogVGVybWluYWxJZCwKICAgIFRlcm1pbmFsUXVlcnkocXVlcnkpOiBUZXJtaW5hbFF1ZXJ5PEZvcmNlUXVlcnk+LAogICAgVGVybWluYWxKc29uKGlucHV0KTogVGVybWluYWxKc29uPFRhcmdldFVwZGF0ZUlucHV0PiwKKSAtPiBSZXNwb25zZSB7CiAgICByZXN1bHQoCiAgICAgICAgc2VydmljZTo6dXBkYXRlX3RhcmdldCgKICAgICAgICAgICAgJnN0YXRlLAogICAgICAgICAgICAmaWQsCiAgICAgICAgICAgIGlucHV0LAogICAgICAgICAgICBxdWVyeS5mb3JjZSwKICAgICAgICAgICAgcXVlcnkuY29uZmlybWF0aW9uX3Rva2VuLmFzX2RlcmVmKCksCiAgICAgICAgKQogICAgICAgIC5hd2FpdCwKICAgICkKfQoKI1t1dG9pcGE6OnBhdGgoZGVsZXRlLCBwYXRoID0gIi9hcGkvYWRtaW4vdGVybWluYWwvdGFyZ2V0cy97aWR9IiwgdGFnID0gInRlcm1pbmFsIiwgcGFyYW1zKCgiaWQiID0gU3RyaW5nLCBQYXRoKSwgVGFyZ2V0RGVsZXRlUXVlcnkpLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCksIChzdGF0dXMgPSA0MDksIGJvZHkgPSBUZXJtaW5hbEVycm9yRW52ZWxvcGUpKSldCmFzeW5jIGZuIGRlbGV0ZV90YXJnZXQoCiAgICBfYWNjZXNzOiBUZXJtaW5hbEFjY2VzcywKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgVGVybWluYWxJZChpZCk6IFRlcm1pbmFsSWQsCiAgICBUZXJtaW5hbFF1ZXJ5KHF1ZXJ5KTogVGVybWluYWxRdWVyeTxUYXJnZXREZWxldGVRdWVyeT4sCikgLT4gUmVzcG9uc2UgewogICAgZW1wdHkoCiAgICAgICAgc2VydmljZTo6ZGVsZXRlX3RhcmdldCgKICAgICAgICAgICAgJnN0YXRlLAogICAgICAgICAgICAmaWQsCiAgICAgICAgICAgIHF1ZXJ5LnJldmlzaW9uLAogICAgICAgICAgICBxdWVyeS5mb3JjZSwKICAgICAgICAgICAgcXVlcnkuY29uZmlybWF0aW9uX3Rva2VuLmFzX2RlcmVmKCksCiAgICAgICAgKQogICAgICAgIC5hd2FpdCwKICAgICkKfQoKI1t1dG9pcGE6OnBhdGgocG9zdCwgcGF0aCA9ICIvYXBpL2FkbWluL3Rlcm1pbmFsL3RhcmdldHMvcHJvYmUtaG9zdC1rZXkiLCB0YWcgPSAidGVybWluYWwiLCByZXF1ZXN0X2JvZHkgPSBQcm9iZUhvc3RLZXlJbnB1dCwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGJvZHkgPSBIb3N0S2V5UHJvYmVSZXN1bHQpLCAoc3RhdHVzID0gNDAwLCBib2R5ID0gVGVybWluYWxFcnJvckVudmVsb3BlKSkpXQphc3luYyBmbiBwcm9iZV9ob3N0X2tleSgKICAgIF9hY2Nlc3M6IFRlcm1pbmFsQWNjZXNzLAogICAgVGVybWluYWxKc29uKGlucHV0KTogVGVybWluYWxKc29uPFByb2JlSG9zdEtleUlucHV0PiwKKSAtPiBSZXNwb25zZSB7CiAgICByZXN1bHQoc2VydmljZTo6cHJvYmVfaG9zdF9rZXkoaW5wdXQpLmF3YWl0KQp9CgojW3V0b2lwYTo6cGF0aChwb3N0LCBwYXRoID0gIi9hcGkvYWRtaW4vdGVybWluYWwvdGFyZ2V0cy90ZXN0LWNvbm5lY3Rpb24iLCB0YWcgPSAidGVybWluYWwiLCByZXF1ZXN0X2JvZHkgPSBUZXJtaW5hbFRlc3RDb25uZWN0aW9uSW5wdXQsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBib2R5ID0gQ29ubmVjdGlvblRlc3RSZXN1bHQpLCAoc3RhdHVzID0gNDAwLCBib2R5ID0gVGVybWluYWxFcnJvckVudmVsb3BlKSkpXQphc3luYyBmbiB0ZXN0X2Nvbm5lY3Rpb24oCiAgICBfYWNjZXNzOiBUZXJtaW5hbEFjY2VzcywKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgVGVybWluYWxKc29uKGlucHV0KTogVGVybWluYWxKc29uPFRlcm1pbmFsVGVzdENvbm5lY3Rpb25JbnB1dD4sCikgLT4gUmVzcG9uc2UgewogICAgcmVzdWx0KHNlcnZpY2U6OnRlc3RfY29ubmVjdGlvbigmc3RhdGUsIGlucHV0KS5hd2FpdCkKfQoKI1t1dG9pcGE6OnBhdGgoZ2V0LCBwYXRoID0gIi9hcGkvYWRtaW4vdGVybWluYWwvc2Vzc2lvbnMiLCB0YWcgPSAidGVybWluYWwiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgYm9keSA9IFNlc3Npb25MaXN0UmVzdWx0KSkpXQphc3luYyBmbiBsaXN0X3Nlc3Npb25zKF9hY2Nlc3M6IFRlcm1pbmFsQWNjZXNzLCBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPikgLT4gUmVzcG9uc2UgewogICAgcmVzcG9uc2U6Om9rKHNlcnZpY2U6OnNlc3Npb25zKCZzdGF0ZSkuYXdhaXQpLmludG9fcmVzcG9uc2UoKQp9CgojW3V0b2lwYTo6cGF0aChwb3N0LCBwYXRoID0gIi9hcGkvYWRtaW4vdGVybWluYWwvdGFyZ2V0cy97aWR9L3Nlc3Npb25zIiwgdGFnID0gInRlcm1pbmFsIiwgcGFyYW1zKCgiaWQiID0gU3RyaW5nLCBQYXRoKSksIHJlcXVlc3RfYm9keSA9IENyZWF0ZVNlc3Npb25JbnB1dCwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGJvZHkgPSBUZXJtaW5hbFNlc3Npb24pLCAoc3RhdHVzID0gNTAyLCBib2R5ID0gVGVybWluYWxFcnJvckVudmVsb3BlKSkpXQphc3luYyBmbiBjcmVhdGVfc2Vzc2lvbigKICAgIF9hY2Nlc3M6IFRlcm1pbmFsQWNjZXNzLAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBUZXJtaW5hbElkKGlkKTogVGVybWluYWxJZCwKICAgIFRlcm1pbmFsSnNvbihpbnB1dCk6IFRlcm1pbmFsSnNvbjxDcmVhdGVTZXNzaW9uSW5wdXQ+LAopIC0+IFJlc3BvbnNlIHsKICAgIHJlc3VsdChzZXJ2aWNlOjpjcmVhdGVfc2Vzc2lvbigmc3RhdGUsICZpZCwgaW5wdXQpLmF3YWl0KQp9CgojW3V0b2lwYTo6cGF0aChwYXRjaCwgcGF0aCA9ICIvYXBpL2FkbWluL3Rlcm1pbmFsL3Nlc3Npb25zL3tpZH0iLCB0YWcgPSAidGVybWluYWwiLCBwYXJhbXMoKCJpZCIgPSBTdHJpbmcsIFBhdGgpKSwgcmVxdWVzdF9ib2R5ID0gUmVuYW1lU2Vzc2lvbklucHV0LCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgYm9keSA9IFRlcm1pbmFsU2Vzc2lvbiksIChzdGF0dXMgPSA0MDQsIGJvZHkgPSBUZXJtaW5hbEVycm9yRW52ZWxvcGUpKSldCmFzeW5jIGZuIHJlbmFtZV9zZXNzaW9uKAogICAgX2FjY2VzczogVGVybWluYWxBY2Nlc3MsCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIFRlcm1pbmFsSWQoaWQpOiBUZXJtaW5hbElkLAogICAgVGVybWluYWxKc29uKGlucHV0KTogVGVybWluYWxKc29uPFJlbmFtZVNlc3Npb25JbnB1dD4sCikgLT4gUmVzcG9uc2UgewogICAgcmVzdWx0KHNlcnZpY2U6OnJlbmFtZV9zZXNzaW9uKCZzdGF0ZSwgJmlkLCBpbnB1dCkuYXdhaXQpCn0KCiNbdXRvaXBhOjpwYXRoKGRlbGV0ZSwgcGF0aCA9ICIvYXBpL2FkbWluL3Rlcm1pbmFsL3Nlc3Npb25zL3tpZH0iLCB0YWcgPSAidGVybWluYWwiLCBwYXJhbXMoKCJpZCIgPSBTdHJpbmcsIFBhdGgpKSwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDApLCAoc3RhdHVzID0gNDA0LCBib2R5ID0gVGVybWluYWxFcnJvckVudmVsb3BlKSkpXQphc3luYyBmbiBkZWxldGVfc2Vzc2lvbigKICAgIF9hY2Nlc3M6IFRlcm1pbmFsQWNjZXNzLAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBUZXJtaW5hbElkKGlkKTogVGVybWluYWxJZCwKKSAtPiBSZXNwb25zZSB7CiAgICBlbXB0eShzZXJ2aWNlOjp0ZXJtaW5hdGVfc2Vzc2lvbigmc3RhdGUsICZpZCkuYXdhaXQpCn0KCiNbdXRvaXBhOjpwYXRoKHBvc3QsIHBhdGggPSAiL2FwaS9hZG1pbi90ZXJtaW5hbC9zZXNzaW9ucy97aWR9L2F0dGFjaG1lbnRzIiwgdGFnID0gInRlcm1pbmFsIiwgcGFyYW1zKCgiaWQiID0gU3RyaW5nLCBQYXRoKSksIHJlcXVlc3RfYm9keSA9IENyZWF0ZUF0dGFjaG1lbnRJbnB1dCwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGJvZHkgPSBUZXJtaW5hbEF0dGFjaG1lbnQpLCAoc3RhdHVzID0gNDA0LCBib2R5ID0gVGVybWluYWxFcnJvckVudmVsb3BlKSkpXQphc3luYyBmbiBjcmVhdGVfYXR0YWNobWVudCgKICAgIF9hY2Nlc3M6IFRlcm1pbmFsQWNjZXNzLAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBUZXJtaW5hbElkKGlkKTogVGVybWluYWxJZCwKICAgIFRlcm1pbmFsSnNvbihpbnB1dCk6IFRlcm1pbmFsSnNvbjxDcmVhdGVBdHRhY2htZW50SW5wdXQ+LAopIC0+IFJlc3BvbnNlIHsKICAgIHJlc3VsdCgKICAgICAgICBzdGF0ZQogICAgICAgICAgICAudGVybWluYWwKICAgICAgICAgICAgLmNyZWF0ZV9hdHRhY2htZW50KCZpZCwgaW5wdXQuY29scywgaW5wdXQucm93cykKICAgICAgICAgICAgLmF3YWl0LAogICAgKQp9CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi90ZXJtaW5hbC9hdHRhY2htZW50cy97aWR9L2V2ZW50cyIsIHRhZyA9ICJ0ZXJtaW5hbCIsIHBhcmFtcygoImlkIiA9IFN0cmluZywgUGF0aCksIEV2ZW50c1F1ZXJ5KSwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGJvZHkgPSBFdmVudHNSZXN1bHQpLCAoc3RhdHVzID0gNDEwLCBib2R5ID0gVGVybWluYWxFcnJvckVudmVsb3BlKSkpXQphc3luYyBmbiBhdHRhY2htZW50X2V2ZW50cygKICAgIF9hY2Nlc3M6IFRlcm1pbmFsQWNjZXNzLAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBUZXJtaW5hbElkKGlkKTogVGVybWluYWxJZCwKICAgIFRlcm1pbmFsUXVlcnkocXVlcnkpOiBUZXJtaW5hbFF1ZXJ5PEV2ZW50c1F1ZXJ5PiwKKSAtPiBSZXNwb25zZSB7CiAgICByZXN1bHQoCiAgICAgICAgc3RhdGUKICAgICAgICAgICAgLnRlcm1pbmFsCiAgICAgICAgICAgIC5ldmVudHMoCiAgICAgICAgICAgICAgICAmaWQsCiAgICAgICAgICAgICAgICBxdWVyeS5hZnRlci51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICAgICAgICAgRHVyYXRpb246OmZyb21fbWlsbGlzKHF1ZXJ5LnRpbWVvdXRfbXMudW53cmFwX29yKDRfNTAwKSksCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0LAogICAgKQp9CgojW3V0b2lwYTo6cGF0aChwb3N0LCBwYXRoID0gIi9hcGkvYWRtaW4vdGVybWluYWwvYXR0YWNobWVudHMve2lkfS9pbnB1dCIsIHRhZyA9ICJ0ZXJtaW5hbCIsIHBhcmFtcygoImlkIiA9IFN0cmluZywgUGF0aCkpLCByZXF1ZXN0X2JvZHkgPSBJbnB1dFJlcXVlc3QsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwKSwgKHN0YXR1cyA9IDQwOSwgYm9keSA9IFRlcm1pbmFsRXJyb3JFbnZlbG9wZSkpKV0KYXN5bmMgZm4gc2VuZF9pbnB1dCgKICAgIF9hY2Nlc3M6IFRlcm1pbmFsQWNjZXNzLAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBUZXJtaW5hbElkKGlkKTogVGVybWluYWxJZCwKICAgIFRlcm1pbmFsSnNvbihpbnB1dCk6IFRlcm1pbmFsSnNvbjxJbnB1dFJlcXVlc3Q+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCBkZWNvZGVkID0gaWYgaW5wdXQuZGF0YV9iYXNlNjQubGVuKCkgPiBNQVhfSU5QVVRfQkFTRTY0X0JZVEVTIHsKICAgICAgICBFcnIoVGVybWluYWxFcnJvcjo6aW52YWxpZCgidGVybWluYWwgaW5wdXQgZXhjZWVkcyA2NCBLaUIiKSkKICAgIH0gZWxzZSB7CiAgICAgICAgU1RBTkRBUkQKICAgICAgICAgICAgLmRlY29kZShpbnB1dC5kYXRhX2Jhc2U2NC5hc19ieXRlcygpKQogICAgICAgICAgICAubWFwX2Vycih8X3wgVGVybWluYWxFcnJvcjo6aW52YWxpZCgidGVybWluYWwgaW5wdXQgaXMgbm90IHZhbGlkIGJhc2U2NCIpKQogICAgfTsKICAgIGxldCByZXN1bHQgPSBtYXRjaCBkZWNvZGVkIHsKICAgICAgICBPayhkYXRhKSA9PiB7CiAgICAgICAgICAgIHN0YXRlCiAgICAgICAgICAgICAgICAudGVybWluYWwKICAgICAgICAgICAgICAgIC5zZW5kX2lucHV0KCZpZCwgaW5wdXQuZ2VuZXJhdGlvbiwgaW5wdXQuc2VxdWVuY2UsIGRhdGEpCiAgICAgICAgICAgICAgICAuYXdhaXQKICAgICAgICB9CiAgICAgICAgRXJyKGVycm9yKSA9PiBFcnIoZXJyb3IpLAogICAgfTsKICAgIGVtcHR5KHJlc3VsdCkKfQoKI1t1dG9pcGE6OnBhdGgocG9zdCwgcGF0aCA9ICIvYXBpL2FkbWluL3Rlcm1pbmFsL2F0dGFjaG1lbnRzL3tpZH0vcmVzaXplIiwgdGFnID0gInRlcm1pbmFsIiwgcGFyYW1zKCgiaWQiID0gU3RyaW5nLCBQYXRoKSksIHJlcXVlc3RfYm9keSA9IFJlc2l6ZVJlcXVlc3QsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBib2R5ID0gVGVybWluYWxTZXNzaW9uKSwgKHN0YXR1cyA9IDQwOSwgYm9keSA9IFRlcm1pbmFsRXJyb3JFbnZlbG9wZSkpKV0KYXN5bmMgZm4gcmVzaXplKAogICAgX2FjY2VzczogVGVybWluYWxBY2Nlc3MsCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIFRlcm1pbmFsSWQoaWQpOiBUZXJtaW5hbElkLAogICAgVGVybWluYWxKc29uKGlucHV0KTogVGVybWluYWxKc29uPFJlc2l6ZVJlcXVlc3Q+LAopIC0+IFJlc3BvbnNlIHsKICAgIHJlc3VsdCgKICAgICAgICBzdGF0ZQogICAgICAgICAgICAudGVybWluYWwKICAgICAgICAgICAgLnJlc2l6ZSgKICAgICAgICAgICAgICAgICZpZCwKICAgICAgICAgICAgICAgIGlucHV0LmdlbmVyYXRpb24sCiAgICAgICAgICAgICAgICBpbnB1dC5yZXZpc2lvbiwKICAgICAgICAgICAgICAgIGlucHV0LmNvbHMsCiAgICAgICAgICAgICAgICBpbnB1dC5yb3dzLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdCwKICAgICkKfQoKI1t1dG9pcGE6OnBhdGgocG9zdCwgcGF0aCA9ICIvYXBpL2FkbWluL3Rlcm1pbmFsL2F0dGFjaG1lbnRzL3tpZH0vY29udHJvbCIsIHRhZyA9ICJ0ZXJtaW5hbCIsIHBhcmFtcygoImlkIiA9IFN0cmluZywgUGF0aCkpLCByZXF1ZXN0X2JvZHkgPSBDbGFpbUNvbnRyb2xSZXF1ZXN0LCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgYm9keSA9IFRlcm1pbmFsQXR0YWNobWVudCksIChzdGF0dXMgPSA0MDksIGJvZHkgPSBUZXJtaW5hbEVycm9yRW52ZWxvcGUpKSldCmFzeW5jIGZuIGNsYWltX2NvbnRyb2woCiAgICBfYWNjZXNzOiBUZXJtaW5hbEFjY2VzcywKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgVGVybWluYWxJZChpZCk6IFRlcm1pbmFsSWQsCiAgICBUZXJtaW5hbEpzb24oaW5wdXQpOiBUZXJtaW5hbEpzb248Q2xhaW1Db250cm9sUmVxdWVzdD4sCikgLT4gUmVzcG9uc2UgewogICAgcmVzdWx0KHN0YXRlLnRlcm1pbmFsLmNsYWltX2NvbnRyb2woJmlkLCBpbnB1dC5nZW5lcmF0aW9uKS5hd2FpdCkKfQoKI1t1dG9pcGE6OnBhdGgoZGVsZXRlLCBwYXRoID0gIi9hcGkvYWRtaW4vdGVybWluYWwvYXR0YWNobWVudHMve2lkfSIsIHRhZyA9ICJ0ZXJtaW5hbCIsIHBhcmFtcygoImlkIiA9IFN0cmluZywgUGF0aCkpLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCksIChzdGF0dXMgPSA0MTAsIGJvZHkgPSBUZXJtaW5hbEVycm9yRW52ZWxvcGUpKSldCmFzeW5jIGZuIGRlbGV0ZV9hdHRhY2htZW50KAogICAgX2FjY2VzczogVGVybWluYWxBY2Nlc3MsCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIFRlcm1pbmFsSWQoaWQpOiBUZXJtaW5hbElkLAopIC0+IFJlc3BvbnNlIHsKICAgIGVtcHR5KHN0YXRlLnRlcm1pbmFsLmRldGFjaCgmaWQpLmF3YWl0KQp9CgpmbiByZXN1bHQ8VDogU2VyaWFsaXplPihyZXN1bHQ6IFRlcm1pbmFsUmVzdWx0PFQ+KSAtPiBSZXNwb25zZSB7CiAgICBtYXRjaCByZXN1bHQgewogICAgICAgIE9rKHZhbHVlKSA9PiByZXNwb25zZTo6b2sodmFsdWUpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHRlcm1pbmFsX2Vycm9yKGVycm9yKSwKICAgIH0KfQoKZm4gZW1wdHkocmVzdWx0OiBUZXJtaW5hbFJlc3VsdDwoKT4pIC0+IFJlc3BvbnNlIHsKICAgIG1hdGNoIHJlc3VsdCB7CiAgICAgICAgT2soKCkpID0+IHJlc3BvbnNlOjpzdWNjZXNzX2VtcHR5KCkuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gdGVybWluYWxfZXJyb3IoZXJyb3IpLAogICAgfQp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIgc3RydWN0IFRlcm1pbmFsRXJyb3JFbnZlbG9wZSB7CiAgICBwdWIgc3VjY2VzczogYm9vbCwKICAgIHB1YiBlcnJvcl9jb2RlOiBUZXJtaW5hbEVycm9yQ29kZSwKICAgIHB1YiBtZXNzYWdlOiBTdHJpbmcsCiAgICAjW3NlcmRlKHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIildCiAgICBwdWIgYWN0aXZlX3Nlc3Npb25fY291bnQ6IE9wdGlvbjx1c2l6ZT4sCiAgICAjW3NlcmRlKHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIildCiAgICBwdWIgY29uZmlybWF0aW9uX3Rva2VuOiBPcHRpb248U3RyaW5nPiwKfQoKcHViKHN1cGVyKSBmbiB0ZXJtaW5hbF9lcnJvcihlcnJvcjogVGVybWluYWxFcnJvcikgLT4gUmVzcG9uc2UgewogICAgbGV0IHN0YXR1cyA9IG1hdGNoIGVycm9yLmNvZGUgewogICAgICAgIFRlcm1pbmFsRXJyb3JDb2RlOjpGZWF0dXJlRGlzYWJsZWQgPT4gU3RhdHVzQ29kZTo6Rk9SQklEREVOLAogICAgICAgIFRlcm1pbmFsRXJyb3JDb2RlOjpJbnZhbGlkUmVxdWVzdAogICAgICAgIHwgVGVybWluYWxFcnJvckNvZGU6Okhvc3RLZXlSZXF1aXJlZAogICAgICAgIHwgVGVybWluYWxFcnJvckNvZGU6OkxvY2FsVGVybWluYWxVbnN1cHBvcnRlZAogICAgICAgIHwgVGVybWluYWxFcnJvckNvZGU6OkxvY2FsVGVybWluYWxSaXNrQWNrbm93bGVkZ2VtZW50UmVxdWlyZWQgPT4gU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgVGVybWluYWxFcnJvckNvZGU6OlRhcmdldE5vdEZvdW5kIHwgVGVybWluYWxFcnJvckNvZGU6OlNlc3Npb25Ob3RGb3VuZCA9PiB7CiAgICAgICAgICAgIFN0YXR1c0NvZGU6Ok5PVF9GT1VORAogICAgICAgIH0KICAgICAgICBUZXJtaW5hbEVycm9yQ29kZTo6QXR0YWNobWVudEV4cGlyZWQgPT4gU3RhdHVzQ29kZTo6R09ORSwKICAgICAgICBUZXJtaW5hbEVycm9yQ29kZTo6SG9zdEtleU1pc21hdGNoCiAgICAgICAgfCBUZXJtaW5hbEVycm9yQ29kZTo6Q29udHJvbGxlckNvbmZsaWN0CiAgICAgICAgfCBUZXJtaW5hbEVycm9yQ29kZTo6VGFyZ2V0UmV2aXNpb25Db25mbGljdAogICAgICAgIHwgVGVybWluYWxFcnJvckNvZGU6OkxvY2FsVGVybWluYWxEaXNhYmxlZAogICAgICAgIHwgVGVybWluYWxFcnJvckNvZGU6OkxvY2FsVGVybWluYWxSZXZpc2lvbkNvbmZsaWN0CiAgICAgICAgfCBUZXJtaW5hbEVycm9yQ29kZTo6U2Vzc2lvbkxpbWl0UmVhY2hlZAogICAgICAgIHwgVGVybWluYWxFcnJvckNvZGU6OlNlc3Npb25Mb3N0CiAgICAgICAgfCBUZXJtaW5hbEVycm9yQ29kZTo6Q29uZmxpY3QgPT4gU3RhdHVzQ29kZTo6Q09ORkxJQ1QsCiAgICAgICAgVGVybWluYWxFcnJvckNvZGU6OkF1dGhlbnRpY2F0aW9uRmFpbGVkID0+IFN0YXR1c0NvZGU6OlVOQVVUSE9SSVpFRCwKICAgICAgICBUZXJtaW5hbEVycm9yQ29kZTo6UHR5UmVqZWN0ZWQKICAgICAgICB8IFRlcm1pbmFsRXJyb3JDb2RlOjpMb2NhbFB0eVN0YXJ0RmFpbGVkCiAgICAgICAgfCBUZXJtaW5hbEVycm9yQ29kZTo6VXBzdHJlYW1VbmF2YWlsYWJsZSA9PiBTdGF0dXNDb2RlOjpCQURfR0FURVdBWSwKICAgICAgICBUZXJtaW5hbEVycm9yQ29kZTo6TG9jYWxTaGVsbFVuYXZhaWxhYmxlIHwgVGVybWluYWxFcnJvckNvZGU6OlJlc291cmNlQnVzeSA9PiB7CiAgICAgICAgICAgIFN0YXR1c0NvZGU6OlNFUlZJQ0VfVU5BVkFJTEFCTEUKICAgICAgICB9CiAgICAgICAgVGVybWluYWxFcnJvckNvZGU6OkNvbm5lY3RUaW1lb3V0ID0+IFN0YXR1c0NvZGU6OkdBVEVXQVlfVElNRU9VVCwKICAgICAgICBUZXJtaW5hbEVycm9yQ29kZTo6SW50ZXJuYWxFcnJvciA9PiBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICB9OwogICAgbGV0IGJ1c3kgPSBlcnJvci5jb2RlID09IFRlcm1pbmFsRXJyb3JDb2RlOjpSZXNvdXJjZUJ1c3k7CiAgICBsZXQgbXV0IHJlc3BvbnNlID0gKAogICAgICAgIHN0YXR1cywKICAgICAgICBKc29uKFRlcm1pbmFsRXJyb3JFbnZlbG9wZSB7CiAgICAgICAgICAgIHN1Y2Nlc3M6IGZhbHNlLAogICAgICAgICAgICBlcnJvcl9jb2RlOiBlcnJvci5jb2RlLAogICAgICAgICAgICBtZXNzYWdlOiBlcnJvci5tZXNzYWdlLAogICAgICAgICAgICBhY3RpdmVfc2Vzc2lvbl9jb3VudDogZXJyb3IuYWN0aXZlX3Nlc3Npb25fY291bnQsCiAgICAgICAgICAgIGNvbmZpcm1hdGlvbl90b2tlbjogZXJyb3IuY29uZmlybWF0aW9uX3Rva2VuLAogICAgICAgIH0pLAogICAgKQogICAgICAgIC5pbnRvX3Jlc3BvbnNlKCk7CiAgICBpZiBidXN5IHsKICAgICAgICByZXNwb25zZS5oZWFkZXJzX211dCgpLmluc2VydCgKICAgICAgICAgICAgaGVhZGVyOjpSRVRSWV9BRlRFUiwKICAgICAgICAgICAgYXh1bTo6aHR0cDo6SGVhZGVyVmFsdWU6OmZyb21fc3RhdGljKCIzIiksCiAgICAgICAgKTsKICAgIH0KICAgIHJlc3BvbnNlCn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwogICAgdXNlIGF4dW06OnsKICAgICAgICBib2R5Ojp7Qm9keSwgdG9fYnl0ZXN9LAogICAgICAgIGh0dHA6OntSZXF1ZXN0LCBoZWFkZXI6OkNPTlRFTlRfVFlQRX0sCiAgICB9OwoKICAgICNbdG9raW86OnRlc3RdCiAgICBhc3luYyBmbiBtYWxmb3JtZWRfanNvbl91c2VzX3N0YWJsZV90ZXJtaW5hbF9lcnJvcl9lbnZlbG9wZSgpIHsKICAgICAgICBsZXQgcmVxdWVzdCA9IFJlcXVlc3Q6OmJ1aWxkZXIoKQogICAgICAgICAgICAubWV0aG9kKCJQT1NUIikKICAgICAgICAgICAgLnVyaSgiL2FwaS9hZG1pbi90ZXJtaW5hbC90YXJnZXRzL3Byb2JlLWhvc3Qta2V5IikKICAgICAgICAgICAgLmhlYWRlcihDT05URU5UX1RZUEUsICJhcHBsaWNhdGlvbi9qc29uIikKICAgICAgICAgICAgLmJvZHkoQm9keTo6ZnJvbShyIyJ7Imhvc3QiOiJsb2NhbGhvc3QiLCJwb3J0Ijo3MDAwMH0iIykpCiAgICAgICAgICAgIC51bndyYXAoKTsKICAgICAgICBsZXQgcmVzcG9uc2UgPSBtYXRjaCBUZXJtaW5hbEpzb246OjxQcm9iZUhvc3RLZXlJbnB1dD46OmZyb21fcmVxdWVzdChyZXF1ZXN0LCAmKCkpLmF3YWl0IHsKICAgICAgICAgICAgT2soXykgPT4gcGFuaWMhKCJvdXQtb2YtcmFuZ2UgcG9ydCBzaG91bGQgYmUgcmVqZWN0ZWQiKSwKICAgICAgICAgICAgRXJyKHJlc3BvbnNlKSA9PiByZXNwb25zZSwKICAgICAgICB9OwogICAgICAgIGFzc2VydF9lcSEocmVzcG9uc2Uuc3RhdHVzKCksIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNUKTsKICAgICAgICBsZXQgYm9keSA9IHRvX2J5dGVzKHJlc3BvbnNlLmludG9fYm9keSgpLCA2NCAqIDEwMjQpLmF3YWl0LnVud3JhcCgpOwogICAgICAgIGxldCBib2R5OiBzZXJkZV9qc29uOjpWYWx1ZSA9IHNlcmRlX2pzb246OmZyb21fc2xpY2UoJmJvZHkpLnVud3JhcCgpOwogICAgICAgIGFzc2VydF9lcSEoYm9keVsic3VjY2VzcyJdLCBmYWxzZSk7CiAgICAgICAgYXNzZXJ0X2VxIShib2R5WyJlcnJvckNvZGUiXSwgImludmFsaWRfcmVxdWVzdCIpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGxvY2FsX3Rlcm1pbmFsX2ZhaWx1cmVzX3VzZV9zdGFibGVfaHR0cF9zdGF0dXNlcygpIHsKICAgICAgICBmb3IgKGNvZGUsIGV4cGVjdGVkKSBpbiBbCiAgICAgICAgICAgICgKICAgICAgICAgICAgICAgIFRlcm1pbmFsRXJyb3JDb2RlOjpMb2NhbFRlcm1pbmFsVW5zdXBwb3J0ZWQsCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgKAogICAgICAgICAgICAgICAgVGVybWluYWxFcnJvckNvZGU6OkxvY2FsVGVybWluYWxSaXNrQWNrbm93bGVkZ2VtZW50UmVxdWlyZWQsCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgKAogICAgICAgICAgICAgICAgVGVybWluYWxFcnJvckNvZGU6OkxvY2FsVGVybWluYWxEaXNhYmxlZCwKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OkNPTkZMSUNULAogICAgICAgICAgICApLAogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICBUZXJtaW5hbEVycm9yQ29kZTo6TG9jYWxUZXJtaW5hbFJldmlzaW9uQ29uZmxpY3QsCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpDT05GTElDVCwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgKAogICAgICAgICAgICAgICAgVGVybWluYWxFcnJvckNvZGU6OkxvY2FsU2hlbGxVbmF2YWlsYWJsZSwKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OlNFUlZJQ0VfVU5BVkFJTEFCTEUsCiAgICAgICAgICAgICksCiAgICAgICAgICAgICgKICAgICAgICAgICAgICAgIFRlcm1pbmFsRXJyb3JDb2RlOjpMb2NhbFB0eVN0YXJ0RmFpbGVkLAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX0dBVEVXQVksCiAgICAgICAgICAgICksCiAgICAgICAgXSB7CiAgICAgICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgICAgICB0ZXJtaW5hbF9lcnJvcihUZXJtaW5hbEVycm9yOjpuZXcoY29kZSwgInRlc3QiKSkuc3RhdHVzKCksCiAgICAgICAgICAgICAgICBleHBlY3RlZAogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoZ2V0LCBwYXRoID0gIi9hcGkvYWRtaW4vdGVybWluYWwvc2V0dGluZ3MiLCB0YWcgPSAidGVybWluYWwiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgYm9keSA9IFdlYlRlcm1pbmFsU2V0dGluZ3MpKSldCmFzeW5jIGZuIGdldF9mZWF0dXJlX3NldHRpbmdzKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICByZXN1bHQoYWNjZXNzOjpzZXR0aW5ncygmc3RhdGUpLmF3YWl0KQp9CgojW3V0b2lwYTo6cGF0aChwYXRjaCwgcGF0aCA9ICIvYXBpL2FkbWluL3Rlcm1pbmFsL3NldHRpbmdzIiwgdGFnID0gInRlcm1pbmFsIiwgcmVxdWVzdF9ib2R5ID0gV2ViVGVybWluYWxTZXR0aW5nc0lucHV0LCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgYm9keSA9IFdlYlRlcm1pbmFsU2V0dGluZ3MpLCAoc3RhdHVzID0gNDA5LCBib2R5ID0gVGVybWluYWxFcnJvckVudmVsb3BlKSkpXQphc3luYyBmbiB1cGRhdGVfZmVhdHVyZV9zZXR0aW5ncygKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgVGVybWluYWxKc29uKGlucHV0KTogVGVybWluYWxKc29uPFdlYlRlcm1pbmFsU2V0dGluZ3NJbnB1dD4sCikgLT4gUmVzcG9uc2UgewogICAgcmVzdWx0KGFjY2Vzczo6dXBkYXRlKCZzdGF0ZSwgaW5wdXQpLmF3YWl0KQp9Cg==
+use std::time::Duration;
+
+use axum::{
+    Json,
+    extract::{FromRequest, FromRequestParts, Path, Query, State},
+    http::{StatusCode, header, request::Parts},
+    response::{IntoResponse, Response},
+};
+use base64::{Engine as _, engine::general_purpose::STANDARD};
+use serde::{Serialize, de::DeserializeOwned};
+use utoipa::ToSchema;
+use utoipa_axum::{router::OpenApiRouter, routes};
+use uuid::Uuid;
+
+use crate::{response, state::AppState};
+
+use super::{
+    access::{self, TerminalAccess, WebTerminalSettings, WebTerminalSettingsInput},
+    domain::*,
+    service,
+};
+
+const MAX_INPUT_BASE64_BYTES: usize = 87_384;
+
+struct TerminalJson<T>(T);
+
+impl<S, T> FromRequest<S> for TerminalJson<T>
+where
+    S: Send + Sync,
+    T: DeserializeOwned,
+{
+    type Rejection = Response;
+
+    async fn from_request(
+        request: axum::extract::Request,
+        state: &S,
+    ) -> Result<Self, Self::Rejection> {
+        Json::<T>::from_request(request, state)
+            .await
+            .map(|Json(value)| Self(value))
+            .map_err(|_| terminal_error(TerminalError::invalid("invalid terminal JSON body")))
+    }
+}
+
+struct TerminalQuery<T>(T);
+
+impl<S, T> FromRequestParts<S> for TerminalQuery<T>
+where
+    S: Send + Sync,
+    T: DeserializeOwned,
+{
+    type Rejection = Response;
+
+    async fn from_request_parts(parts: &mut Parts, state: &S) -> Result<Self, Self::Rejection> {
+        Query::<T>::from_request_parts(parts, state)
+            .await
+            .map(|Query(value)| Self(value))
+            .map_err(|_| terminal_error(TerminalError::invalid("invalid terminal query")))
+    }
+}
+
+struct TerminalId(String);
+
+impl<S> FromRequestParts<S> for TerminalId
+where
+    S: Send + Sync,
+{
+    type Rejection = Response;
+
+    async fn from_request_parts(parts: &mut Parts, state: &S) -> Result<Self, Self::Rejection> {
+        let Path(id) = Path::<String>::from_request_parts(parts, state)
+            .await
+            .map_err(|_| terminal_error(TerminalError::invalid("invalid terminal resource id")))?;
+        if Uuid::parse_str(&id).is_err() {
+            return Err(terminal_error(TerminalError::invalid(
+                "invalid terminal resource id",
+            )));
+        }
+        Ok(Self(id))
+    }
+}
+
+pub fn routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_feature_settings, update_feature_settings))
+        .routes(routes!(get_local_terminal, update_local_terminal))
+        .routes(routes!(create_local_session))
+        .routes(routes!(list_targets, create_target))
+        .routes(routes!(get_target, update_target, delete_target))
+        .routes(routes!(probe_host_key))
+        .routes(routes!(test_connection))
+        .routes(routes!(list_sessions))
+        .routes(routes!(create_session))
+        .routes(routes!(rename_session, delete_session))
+        .routes(routes!(create_attachment))
+        .routes(routes!(attachment_events))
+        .routes(routes!(send_input))
+        .routes(routes!(resize))
+        .routes(routes!(claim_control))
+        .routes(routes!(delete_attachment))
+}
+
+#[utoipa::path(get, path = "/api/admin/terminal/local", tag = "terminal", responses((status = 200, body = LocalTerminalStatus)))]
+async fn get_local_terminal(_access: TerminalAccess, State(state): State<AppState>) -> Response {
+    result(service::local_terminal_status(&state).await)
+}
+
+#[utoipa::path(patch, path = "/api/admin/terminal/local", tag = "terminal", params(ForceQuery), request_body = LocalTerminalSettingsInput, responses((status = 200, body = LocalTerminalStatus), (status = 400, body = TerminalErrorEnvelope), (status = 409, body = TerminalErrorEnvelope), (status = 503, body = TerminalErrorEnvelope)))]
+async fn update_local_terminal(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalQuery(query): TerminalQuery<ForceQuery>,
+    TerminalJson(input): TerminalJson<LocalTerminalSettingsInput>,
+) -> Response {
+    result(
+        service::update_local_terminal(
+            &state,
+            input,
+            query.force,
+            query.confirmation_token.as_deref(),
+        )
+        .await,
+    )
+}
+
+#[utoipa::path(post, path = "/api/admin/terminal/local/sessions", tag = "terminal", request_body = CreateSessionInput, responses((status = 200, body = TerminalSession), (status = 409, body = TerminalErrorEnvelope), (status = 502, body = TerminalErrorEnvelope), (status = 503, body = TerminalErrorEnvelope)))]
+async fn create_local_session(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalJson(input): TerminalJson<CreateSessionInput>,
+) -> Response {
+    result(service::create_local_session(&state, input).await)
+}
+
+#[utoipa::path(get, path = "/api/admin/terminal/targets", tag = "terminal", responses((status = 200, body = [TerminalTarget])))]
+async fn list_targets(_access: TerminalAccess, State(state): State<AppState>) -> Response {
+    result(service::targets(&state).await)
+}
+
+#[utoipa::path(post, path = "/api/admin/terminal/targets", tag = "terminal", request_body = TargetCreateInput, responses((status = 200, body = TerminalTarget), (status = 400, body = TerminalErrorEnvelope)))]
+async fn create_target(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalJson(input): TerminalJson<TargetCreateInput>,
+) -> Response {
+    result(service::create_target(&state, input).await)
+}
+
+#[utoipa::path(get, path = "/api/admin/terminal/targets/{id}", tag = "terminal", params(("id" = String, Path)), responses((status = 200, body = TerminalTarget), (status = 404, body = TerminalErrorEnvelope)))]
+async fn get_target(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalId(id): TerminalId,
+) -> Response {
+    result(service::target(&state, &id).await)
+}
+
+#[utoipa::path(patch, path = "/api/admin/terminal/targets/{id}", tag = "terminal", params(("id" = String, Path), ForceQuery), request_body = TargetUpdateInput, responses((status = 200, body = TerminalTarget), (status = 409, body = TerminalErrorEnvelope)))]
+async fn update_target(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalId(id): TerminalId,
+    TerminalQuery(query): TerminalQuery<ForceQuery>,
+    TerminalJson(input): TerminalJson<TargetUpdateInput>,
+) -> Response {
+    result(
+        service::update_target(
+            &state,
+            &id,
+            input,
+            query.force,
+            query.confirmation_token.as_deref(),
+        )
+        .await,
+    )
+}
+
+#[utoipa::path(delete, path = "/api/admin/terminal/targets/{id}", tag = "terminal", params(("id" = String, Path), TargetDeleteQuery), responses((status = 200), (status = 409, body = TerminalErrorEnvelope)))]
+async fn delete_target(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalId(id): TerminalId,
+    TerminalQuery(query): TerminalQuery<TargetDeleteQuery>,
+) -> Response {
+    empty(
+        service::delete_target(
+            &state,
+            &id,
+            query.revision,
+            query.force,
+            query.confirmation_token.as_deref(),
+        )
+        .await,
+    )
+}
+
+#[utoipa::path(post, path = "/api/admin/terminal/targets/probe-host-key", tag = "terminal", request_body = ProbeHostKeyInput, responses((status = 200, body = HostKeyProbeResult), (status = 400, body = TerminalErrorEnvelope)))]
+async fn probe_host_key(
+    _access: TerminalAccess,
+    TerminalJson(input): TerminalJson<ProbeHostKeyInput>,
+) -> Response {
+    result(service::probe_host_key(input).await)
+}
+
+#[utoipa::path(post, path = "/api/admin/terminal/targets/test-connection", tag = "terminal", request_body = TerminalTestConnectionInput, responses((status = 200, body = ConnectionTestResult), (status = 400, body = TerminalErrorEnvelope)))]
+async fn test_connection(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalJson(input): TerminalJson<TerminalTestConnectionInput>,
+) -> Response {
+    result(service::test_connection(&state, input).await)
+}
+
+#[utoipa::path(get, path = "/api/admin/terminal/sessions", tag = "terminal", responses((status = 200, body = SessionListResult)))]
+async fn list_sessions(_access: TerminalAccess, State(state): State<AppState>) -> Response {
+    response::ok(service::sessions(&state).await).into_response()
+}
+
+#[utoipa::path(post, path = "/api/admin/terminal/targets/{id}/sessions", tag = "terminal", params(("id" = String, Path)), request_body = CreateSessionInput, responses((status = 200, body = TerminalSession), (status = 502, body = TerminalErrorEnvelope)))]
+async fn create_session(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalId(id): TerminalId,
+    TerminalJson(input): TerminalJson<CreateSessionInput>,
+) -> Response {
+    result(service::create_session(&state, &id, input).await)
+}
+
+#[utoipa::path(patch, path = "/api/admin/terminal/sessions/{id}", tag = "terminal", params(("id" = String, Path)), request_body = RenameSessionInput, responses((status = 200, body = TerminalSession), (status = 404, body = TerminalErrorEnvelope)))]
+async fn rename_session(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalId(id): TerminalId,
+    TerminalJson(input): TerminalJson<RenameSessionInput>,
+) -> Response {
+    result(service::rename_session(&state, &id, input).await)
+}
+
+#[utoipa::path(delete, path = "/api/admin/terminal/sessions/{id}", tag = "terminal", params(("id" = String, Path)), responses((status = 200), (status = 404, body = TerminalErrorEnvelope)))]
+async fn delete_session(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalId(id): TerminalId,
+) -> Response {
+    empty(service::terminate_session(&state, &id).await)
+}
+
+#[utoipa::path(post, path = "/api/admin/terminal/sessions/{id}/attachments", tag = "terminal", params(("id" = String, Path)), request_body = CreateAttachmentInput, responses((status = 200, body = TerminalAttachment), (status = 404, body = TerminalErrorEnvelope)))]
+async fn create_attachment(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalId(id): TerminalId,
+    TerminalJson(input): TerminalJson<CreateAttachmentInput>,
+) -> Response {
+    result(
+        state
+            .terminal
+            .create_attachment(&id, input.cols, input.rows)
+            .await,
+    )
+}
+
+#[utoipa::path(get, path = "/api/admin/terminal/attachments/{id}/events", tag = "terminal", params(("id" = String, Path), EventsQuery), responses((status = 200, body = EventsResult), (status = 410, body = TerminalErrorEnvelope)))]
+async fn attachment_events(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalId(id): TerminalId,
+    TerminalQuery(query): TerminalQuery<EventsQuery>,
+) -> Response {
+    result(
+        state
+            .terminal
+            .events(
+                &id,
+                query.after.unwrap_or_default(),
+                Duration::from_millis(query.timeout_ms.unwrap_or(4_500)),
+            )
+            .await,
+    )
+}
+
+#[utoipa::path(post, path = "/api/admin/terminal/attachments/{id}/input", tag = "terminal", params(("id" = String, Path)), request_body = InputRequest, responses((status = 200), (status = 409, body = TerminalErrorEnvelope)))]
+async fn send_input(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalId(id): TerminalId,
+    TerminalJson(input): TerminalJson<InputRequest>,
+) -> Response {
+    let decoded = if input.data_base64.len() > MAX_INPUT_BASE64_BYTES {
+        Err(TerminalError::invalid("terminal input exceeds 64 KiB"))
+    } else {
+        STANDARD
+            .decode(input.data_base64.as_bytes())
+            .map_err(|_| TerminalError::invalid("terminal input is not valid base64"))
+    };
+    let result = match decoded {
+        Ok(data) => {
+            state
+                .terminal
+                .send_input(&id, input.generation, input.sequence, data)
+                .await
+        }
+        Err(error) => Err(error),
+    };
+    empty(result)
+}
+
+#[utoipa::path(post, path = "/api/admin/terminal/attachments/{id}/resize", tag = "terminal", params(("id" = String, Path)), request_body = ResizeRequest, responses((status = 200, body = TerminalSession), (status = 409, body = TerminalErrorEnvelope)))]
+async fn resize(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalId(id): TerminalId,
+    TerminalJson(input): TerminalJson<ResizeRequest>,
+) -> Response {
+    result(
+        state
+            .terminal
+            .resize(
+                &id,
+                input.generation,
+                input.revision,
+                input.cols,
+                input.rows,
+            )
+            .await,
+    )
+}
+
+#[utoipa::path(post, path = "/api/admin/terminal/attachments/{id}/control", tag = "terminal", params(("id" = String, Path)), request_body = ClaimControlRequest, responses((status = 200, body = TerminalAttachment), (status = 409, body = TerminalErrorEnvelope)))]
+async fn claim_control(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalId(id): TerminalId,
+    TerminalJson(input): TerminalJson<ClaimControlRequest>,
+) -> Response {
+    result(state.terminal.claim_control(&id, input.generation).await)
+}
+
+#[utoipa::path(delete, path = "/api/admin/terminal/attachments/{id}", tag = "terminal", params(("id" = String, Path)), responses((status = 200), (status = 410, body = TerminalErrorEnvelope)))]
+async fn delete_attachment(
+    _access: TerminalAccess,
+    State(state): State<AppState>,
+    TerminalId(id): TerminalId,
+) -> Response {
+    empty(state.terminal.detach(&id).await)
+}
+
+fn result<T: Serialize>(result: TerminalResult<T>) -> Response {
+    match result {
+        Ok(value) => response::ok(value).into_response(),
+        Err(error) => terminal_error(error),
+    }
+}
+
+fn empty(result: TerminalResult<()>) -> Response {
+    match result {
+        Ok(()) => response::success_empty().into_response(),
+        Err(error) => terminal_error(error),
+    }
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct TerminalErrorEnvelope {
+    pub success: bool,
+    pub error_code: TerminalErrorCode,
+    pub message: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub active_session_count: Option<usize>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub confirmation_token: Option<String>,
+}
+
+pub(super) fn terminal_error(error: TerminalError) -> Response {
+    let status = match error.code {
+        TerminalErrorCode::FeatureDisabled => StatusCode::FORBIDDEN,
+        TerminalErrorCode::InvalidRequest
+        | TerminalErrorCode::HostKeyRequired
+        | TerminalErrorCode::LocalTerminalUnsupported
+        | TerminalErrorCode::LocalTerminalRiskAcknowledgementRequired => StatusCode::BAD_REQUEST,
+        TerminalErrorCode::TargetNotFound | TerminalErrorCode::SessionNotFound => {
+            StatusCode::NOT_FOUND
+        }
+        TerminalErrorCode::AttachmentExpired => StatusCode::GONE,
+        TerminalErrorCode::HostKeyMismatch
+        | TerminalErrorCode::ControllerConflict
+        | TerminalErrorCode::TargetRevisionConflict
+        | TerminalErrorCode::LocalTerminalDisabled
+        | TerminalErrorCode::LocalTerminalRevisionConflict
+        | TerminalErrorCode::SessionLimitReached
+        | TerminalErrorCode::SessionLost
+        | TerminalErrorCode::Conflict => StatusCode::CONFLICT,
+        TerminalErrorCode::AuthenticationFailed => StatusCode::UNAUTHORIZED,
+        TerminalErrorCode::PtyRejected
+        | TerminalErrorCode::LocalPtyStartFailed
+        | TerminalErrorCode::UpstreamUnavailable => StatusCode::BAD_GATEWAY,
+        TerminalErrorCode::LocalShellUnavailable | TerminalErrorCode::ResourceBusy => {
+            StatusCode::SERVICE_UNAVAILABLE
+        }
+        TerminalErrorCode::ConnectTimeout => StatusCode::GATEWAY_TIMEOUT,
+        TerminalErrorCode::InternalError => StatusCode::INTERNAL_SERVER_ERROR,
+    };
+    let busy = error.code == TerminalErrorCode::ResourceBusy;
+    let mut response = (
+        status,
+        Json(TerminalErrorEnvelope {
+            success: false,
+            error_code: error.code,
+            message: error.message,
+            active_session_count: error.active_session_count,
+            confirmation_token: error.confirmation_token,
+        }),
+    )
+        .into_response();
+    if busy {
+        response.headers_mut().insert(
+            header::RETRY_AFTER,
+            axum::http::HeaderValue::from_static("3"),
+        );
+    }
+    response
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use axum::{
+        body::{Body, to_bytes},
+        http::{Request, header::CONTENT_TYPE},
+    };
+
+    #[tokio::test]
+    async fn malformed_json_uses_stable_terminal_error_envelope() {
+        let request = Request::builder()
+            .method("POST")
+            .uri("/api/admin/terminal/targets/probe-host-key")
+            .header(CONTENT_TYPE, "application/json")
+            .body(Body::from(r#"{"host":"localhost","port":70000}"#))
+            .unwrap();
+        let response = match TerminalJson::<ProbeHostKeyInput>::from_request(request, &()).await {
+            Ok(_) => panic!("out-of-range port should be rejected"),
+            Err(response) => response,
+        };
+        assert_eq!(response.status(), StatusCode::BAD_REQUEST);
+        let body = to_bytes(response.into_body(), 64 * 1024).await.unwrap();
+        let body: serde_json::Value = serde_json::from_slice(&body).unwrap();
+        assert_eq!(body["success"], false);
+        assert_eq!(body["errorCode"], "invalid_request");
+    }
+
+    #[test]
+    fn local_terminal_failures_use_stable_http_statuses() {
+        for (code, expected) in [
+            (
+                TerminalErrorCode::LocalTerminalUnsupported,
+                StatusCode::BAD_REQUEST,
+            ),
+            (
+                TerminalErrorCode::LocalTerminalRiskAcknowledgementRequired,
+                StatusCode::BAD_REQUEST,
+            ),
+            (
+                TerminalErrorCode::LocalTerminalDisabled,
+                StatusCode::CONFLICT,
+            ),
+            (
+                TerminalErrorCode::LocalTerminalRevisionConflict,
+                StatusCode::CONFLICT,
+            ),
+            (
+                TerminalErrorCode::LocalShellUnavailable,
+                StatusCode::SERVICE_UNAVAILABLE,
+            ),
+            (
+                TerminalErrorCode::LocalPtyStartFailed,
+                StatusCode::BAD_GATEWAY,
+            ),
+        ] {
+            assert_eq!(
+                terminal_error(TerminalError::new(code, "test")).status(),
+                expected
+            );
+        }
+    }
+}
+
+#[utoipa::path(get, path = "/api/admin/terminal/settings", tag = "terminal", responses((status = 200, body = WebTerminalSettings)))]
+async fn get_feature_settings(State(state): State<AppState>) -> Response {
+    result(access::settings(&state).await)
+}
+
+#[utoipa::path(patch, path = "/api/admin/terminal/settings", tag = "terminal", request_body = WebTerminalSettingsInput, responses((status = 200, body = WebTerminalSettings), (status = 409, body = TerminalErrorEnvelope)))]
+async fn update_feature_settings(
+    State(state): State<AppState>,
+    TerminalJson(input): TerminalJson<WebTerminalSettingsInput>,
+) -> Response {
+    result(access::update(&state, input).await)
+}

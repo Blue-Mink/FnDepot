@@ -1,1 +1,4 @@
-aW1wb3J0IHsgcmVmIH0gZnJvbSAidnVlIjsKCmV4cG9ydCBjb25zdCBpc1JvdXRlTmF2aWdhdGluZyA9IHJlZihmYWxzZSk7CmV4cG9ydCBjb25zdCBwZW5kaW5nTmF2UGF0aCA9IHJlZjxzdHJpbmcgfCBudWxsPihudWxsKTsK
+import { ref } from "vue";
+
+export const isRouteNavigating = ref(false);
+export const pendingNavPath = ref<string | null>(null);

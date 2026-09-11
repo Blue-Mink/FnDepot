@@ -1,1 +1,125 @@
-aW1wb3J0IGZzIGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgcGF0aCBmcm9tICJub2RlOnBhdGgiOwppbXBvcnQgcHJvY2VzcyBmcm9tICJub2RlOnByb2Nlc3MiOwoKY29uc3Qgc291cmNlUm9vdCA9IHBhdGgucmVzb2x2ZSgiYXBwcy9zZXJ2ZXItYWRtaW4tcnMvc3JjIik7CmNvbnN0IG1heERpcmVjdFNwYXduQ2FsbFNpdGVzID0gMTIyOwoKLy8gRGlyZWN0IHNwYXducyBhcmUgbGltaXRlZCB0byBleHBsaWNpdGx5IGF1ZGl0ZWQgb3duZXJzLCByZXF1ZXN0LXNjb3BlZAovLyBmYW4tb3V0LCBzdWJwcm9jZXNzIHBpcGUvd2FpdCB0YXNrcywgcGxhdGZvcm0gZW50cnkgcG9pbnRzLCBhbmQgdGVzdHMuCi8vIFJlZHVjaW5nIGEgY291bnQgaXMgYWx3YXlzIGFsbG93ZWQ7IGFkZGluZyBhIGNhbGwgc2l0ZSBvciBhIG5ldyBmaWxlIHJlcXVpcmVzCi8vIGFuIGludGVudGlvbmFsIGxpZmVjeWNsZSByZXZpZXcgYW5kIGEgYnVkZ2V0IHVwZGF0ZSBoZXJlLgpjb25zdCBhdWRpdGVkQnVkZ2V0cyA9IG5ldyBNYXAoCiAgT2JqZWN0LmVudHJpZXMoewogICAgImFwcC5ycyI6IDIsCiAgICAvLyBMb2NhbCBIVFRQIGZpeHR1cmVzOyBldmVyeSBzZXJ2ZXIgdGFzayBpcyBqb2luZWQgb3IgYXdhaXRlZCBieSBpdHMgdGVzdC4KICAgICJhdXRoL2Zub3Nfc2hhcmVfYnlwYXNzLnJzIjogNSwKICAgICJhdXRoL21vYmlsaXR5LnJzIjogMSwKICAgIC8vIENhbmNlbGxhdGlvbiBhbmQgY29uY3VycmVuY3kgcHJvYmVzOyBldmVyeSBoYW5kbGUgaXMgYWJvcnRlZCBvciBhd2FpdGVkLgogICAgImF1dGgvbW9iaWxpdHkvdGVzdHMucnMiOiA1LAogICAgLy8gQ2FuY2VsbGF0aW9uIGFuZCBxdWV1ZSBwcm9iZXM7IGV2ZXJ5IHRlc3Qtb3duZWQgaGFuZGxlIGlzIGFib3J0ZWQvYXdhaXRlZC4KICAgICJhdXRoL3Bhc3N3b3JkLnJzIjogMywKICAgIC8vIE9uZSByZXR1cm5lZCBicmlkZ2Ugb3duZXIgcGx1cyB0aHJlZSB0ZXN0LW9ubHkgd2FpdGVyczsgZXZlcnkgd2FpdGVyIGlzIGF3YWl0ZWQuCiAgICAiYXV0aC9yb3V0ZXMvYnJpZGdlLnJzIjogNCwKICAgICJjZXJ0aWZpY2F0ZXMvYWNtZS9qb2JzLnJzIjogNSwKICAgICJjZXJ0aWZpY2F0ZXMvYXV0b19odHRwcy5ycyI6IDEsCiAgICAiY29uZmlnL3J1bnRpbWUvdGVzdHMucnMiOiA1LAogICAgImRkbnMvcm91dGVzL3Rlc3RzLnJzIjogMiwKICAgICJkaXNjb3ZlcnkvY2lkci5ycyI6IDEsCiAgICAiZGlzY292ZXJ5L3NjYW5fYXNzZXRzL3Rlc3RzLnJzIjogNiwKICAgICJnYXRld2F5L3Byb3h5X2NvbmZpZy5ycyI6IDEsCiAgICAiZ2F0ZXdheS9wcm94eV9jb25maWcvdGVzdHMucnMiOiA4LAogICAgImluZnJhL2JhY2tncm91bmRfdGFza3MucnMiOiAxLAogICAgLy8gVGVzdC1vbmx5IFNNVFAgZml4dHVyZTsgYm91bmRlZCBieSBhIHRpbWVvdXQgYW5kIGF3YWl0ZWQgYnkgZXZlcnkgY2FsbGVyLgogICAgImluZnJhL21haWwucnMiOiAxLAogICAgLy8gVGVzdC1vbmx5IGRlbGl2ZXJ5IGNvbmN1cnJlbmN5IHByb2JlOyBpdHMgaGFuZGxlIGlzIGF3YWl0ZWQuCiAgICAic3lzdGVtL21haW50ZW5hbmNlL2JhY2t1cF9lbWFpbC90ZXN0cy5ycyI6IDEsCiAgICAvLyBUZXN0LW9ubHkgd2ViaG9vayBIVFRQIGZpeHR1cmVzOyBlYWNoIHRhc2sgaXMgYXdhaXRlZCBvciBleHBsaWNpdGx5IGFib3J0ZWQuCiAgICAibm90aWZpY2F0aW9ucy9yb3V0ZXMvdGVzdHMucnMiOiA0LAogICAgLy8gVGVzdC1vbmx5IGxvY2FsIEhUVFAgZml4dHVyZXM7IGV2ZXJ5IHJldHVybmVkIGhhbmRsZSBpcyBhd2FpdGVkIGJ5IGl0cyB0ZXN0LgogICAgInBhbmVsX3N5bmMvdGVzdHMucnMiOiAyLAogICAgInJ1bnRpbWVfaGVhbHRoLnJzIjogMSwKICAgIC8vIFNlcmlhbGl6YXRpb24gYW5kIGNvbmN1cnJlbmN5IHByb2JlczsgZXZlcnkgaGFuZGxlIGlzIGF3YWl0ZWQuCiAgICAic2VjdXJpdHkvd2hpdGVsaXN0L3Rlc3RzLnJzIjogMiwKICAgICJzdG9yYWdlL3JlZGlzX2NvbXBhdC90ZXN0cy9taWdyYXRpb25zLnJzIjogMiwKICAgIC8vIFRlc3Qtb25seSBjb25jdXJyZW5jeSBhbmQgbG9jYWwgZml4dHVyZSB0YXNrczsgZXZlcnkgaGFuZGxlIGlzIGpvaW5lZCwKICAgIC8vIGF3YWl0ZWQsIG9yIGV4cGxpY2l0bHkgYWJvcnRlZCBieSB0aGUgb3duaW5nIHRlc3QuCiAgICAic3RvcmFnZS9yZWRpc19zdG9yZS90ZXN0cy9hZ2dyZWdhdGVzLnJzIjogMiwKICAgICJzdG9yYWdlL3JlZGlzX3N0b3JlL3Rlc3RzL2FuYWx5dGljcy5ycyI6IDEsCiAgICAic3RvcmFnZS9yZWRpc19zdG9yZS90ZXN0cy9jb3JlLnJzIjogMiwKICAgICJzdG9yYWdlL3JlZGlzX3N0b3JlL3Rlc3RzL2V2ZW50c19ub3RpZmljYXRpb25zLnJzIjogNCwKICAgICJzdG9yYWdlL3JlZGlzX3N0b3JlL3Rlc3RzL2lkZW50aXR5LnJzIjogNSwKICAgICJzdG9yYWdlL3JlZGlzX3N0b3JlL3Rlc3RzL21vYmlsaXR5LnJzIjogMSwKICAgICJzdG9yYWdlL3JlZGlzX3N0b3JlL3Rlc3RzL21vYmlsaXR5X3JlY29uY2lsZS5ycyI6IDIsCiAgICAic3RvcmFnZS9yZWRpc19zdG9yZS90ZXN0cy9ub3RpZmljYXRpb25fcnVudGltZS5ycyI6IDMsCiAgICAic3RvcmFnZS9yZWRpc19zdG9yZS90ZXN0cy9zZWN1cml0eS5ycyI6IDMsCiAgICAvLyBQcmltYXJ5LWV4ZWN1dG9yIGJsb2NrZXIgcmV0dXJuZWQgdG8gZWFjaCB0ZXN0IGFuZCBleHBsaWNpdGx5IHJlbGVhc2VkL2F3YWl0ZWQuCiAgICAic3RvcmFnZS9yZWRpc19zdG9yZS90ZXN0cy9zdXBwb3J0LnJzIjogMSwKICAgIC8vIEluY2x1ZGVzIGNhbmNlbGxlZCBhcmNoaXZlL0hUVFAgY2FsbGVycywgZWFjaCBhYm9ydGVkIGFuZCBhd2FpdGVkIGJlZm9yZSByZWxlYXNpbmcgaXRzIHdvcmtlci4KICAgICJzeXN0ZW0vbWFpbnRlbmFuY2UvdGVzdHMucnMiOiA1LAogICAgLy8gT25lIHNlc3Npb24gb3duZXIgcmV0YWluZWQgYnkgVGVybWluYWxSdW50aW1lIGFuZCBqb2luZWQgb24gdGVybWluYXRlL3NodXRkb3duLAogICAgLy8gb25lIGluaXRpYWxpemF0aW9uIHByb2dyZXNzIGJyaWRnZSByZXR1cm5lZCB0byBhbmQgYXdhaXRlZCBieSB0aGF0IG93bmVyLCBhbmQKICAgIC8vIG9uZSB0ZXN0LW9ubHkgYWN0b3IgcmV0YWluZWQgYnkgdGhlIHNhbWUgcnVudGltZSB0YXNrIHJlZ2lzdHJ5LCBhbmQgb25lCiAgICAvLyBhYm9ydC9qb2luIGNhbmNlbGxhdGlvbiBwcm9iZSBvd25lZCBieSBBYm9ydE9uRHJvcEhhbmRsZSB1bnRpbCBjbGVhbnVwLgogICAgInN5c3RlbS90ZXJtaW5hbC9ydW50aW1lLnJzIjogNCwKICAgIC8vIFRlc3Qtb25seSBydXNzaCBzZXJ2ZXIgZml4dHVyZTsgZXZlcnkgcmV0dXJuZWQgaGFuZGxlIGlzIGV4cGxpY2l0bHkgYWJvcnRlZC4KICAgICJzeXN0ZW0vdGVybWluYWwvc3NoLnJzIjogMSwKICAgICJzeXN0ZW0vdXBkYXRlLnJzIjogMSwKICAgICJ0dW5uZWxzL2Nsb3VkZmxhcmVkL2Nsb3VkZmxhcmVfYXBpLnJzIjogNywKICAgICJ0dW5uZWxzL2Nsb3VkZmxhcmVkL21hbmFnZWQucnMiOiA1LAogICAgInR1bm5lbHMvc3VwZXJ2aXNvci5ycyI6IDYsCiAgICAid2luZG93c19zZXJ2aWNlLnJzIjogMSwKICAgIC8vIFRlc3Qtb25seSBnUlBDIGZpeHR1cmUgYW5kIG9sZC9uZXcgY29sbGVjdG9yIG93bmVyczsgd29ya2VycyBhcmUgam9pbmVkLAogICAgLy8gYW5kIHRoZSByZXR1cm5lZCBmaXh0dXJlIHNlcnZlciBpcyBhYm9ydGVkIGJ5IGVhY2ggb3duaW5nIHRlc3QuCiAgICAid2FmL3JvdXRlcy93b3JrZXJfdGVzdHMucnMiOiAzLAogICAgIndvbC9kaXNwYXRjaC5ycyI6IDIsCiAgICAid29sL2ludGVncmF0aW9ucy5ycyI6IDEsCiAgICAvLyBUZXN0LW9ubHkgcnVzc2ggZml4dHVyZTsgZWFjaCByZXR1cm5lZCBoYW5kbGUgaXMgZXhwbGljaXRseSBhYm9ydGVkIGJ5IGl0cyB0ZXN0LgogICAgIndvbC9zc2gucnMiOiAxLAogIH0pLAopOwoKZnVuY3Rpb24gcnVzdEZpbGVzKGRpcmVjdG9yeSkgewogIHJldHVybiBmcy5yZWFkZGlyU3luYyhkaXJlY3RvcnksIHsgd2l0aEZpbGVUeXBlczogdHJ1ZSB9KS5mbGF0TWFwKChlbnRyeSkgPT4gewogICAgY29uc3QgYWJzb2x1dGUgPSBwYXRoLmpvaW4oZGlyZWN0b3J5LCBlbnRyeS5uYW1lKTsKICAgIGlmIChlbnRyeS5pc0RpcmVjdG9yeSgpKSByZXR1cm4gcnVzdEZpbGVzKGFic29sdXRlKTsKICAgIHJldHVybiBlbnRyeS5pc0ZpbGUoKSAmJiBlbnRyeS5uYW1lLmVuZHNXaXRoKCIucnMiKSA/IFthYnNvbHV0ZV0gOiBbXTsKICB9KTsKfQoKY29uc3QgdmlvbGF0aW9ucyA9IFtdOwpsZXQgdG90YWwgPSAwOwpmb3IgKGNvbnN0IGFic29sdXRlIG9mIHJ1c3RGaWxlcyhzb3VyY2VSb290KSkgewogIGNvbnN0IHNvdXJjZSA9IGZzLnJlYWRGaWxlU3luYyhhYnNvbHV0ZSwgInV0ZjgiKTsKICBjb25zdCBjb3VudCA9IHNvdXJjZS5tYXRjaCgvXGJ0b2tpbzo6c3Bhd25ccypcKC9nKT8ubGVuZ3RoID8/IDA7CiAgaWYgKGNvdW50ID09PSAwKSBjb250aW51ZTsKICBjb25zdCByZWxhdGl2ZSA9IHBhdGgKICAgIC5yZWxhdGl2ZShzb3VyY2VSb290LCBhYnNvbHV0ZSkKICAgIC5zcGxpdChwYXRoLnNlcCkKICAgIC5qb2luKCIvIik7CiAgY29uc3QgYnVkZ2V0ID0gYXVkaXRlZEJ1ZGdldHMuZ2V0KHJlbGF0aXZlKTsKICB0b3RhbCArPSBjb3VudDsKICBpZiAoYnVkZ2V0ID09PSB1bmRlZmluZWQpIHsKICAgIHZpb2xhdGlvbnMucHVzaChgJHtyZWxhdGl2ZX06ICR7Y291bnR9IHVuYXVkaXRlZCBkaXJlY3Qgc3Bhd24gY2FsbChzKWApOwogIH0gZWxzZSBpZiAoY291bnQgPiBidWRnZXQpIHsKICAgIHZpb2xhdGlvbnMucHVzaCgKICAgICAgYCR7cmVsYXRpdmV9OiAke2NvdW50fSBkaXJlY3Qgc3Bhd25zIGV4Y2VlZCBhdWRpdGVkIGJ1ZGdldCAke2J1ZGdldH1gLAogICAgKTsKICB9Cn0KCmlmICh0b3RhbCA+IG1heERpcmVjdFNwYXduQ2FsbFNpdGVzKSB7CiAgdmlvbGF0aW9ucy5wdXNoKAogICAgYHJlcG9zaXRvcnkgdG90YWw6ICR7dG90YWx9IGRpcmVjdCBzcGF3bnMgZXhjZWVkIGZpeGVkIGF1ZGl0ZWQgdG90YWwgJHttYXhEaXJlY3RTcGF3bkNhbGxTaXRlc31gLAogICk7Cn0KCmlmICh2aW9sYXRpb25zLmxlbmd0aCA+IDApIHsKICBjb25zb2xlLmVycm9yKCJSdXN0IHRhc2sgbGlmZWN5Y2xlIGF1ZGl0IGZhaWxlZDoiKTsKICBmb3IgKGNvbnN0IHZpb2xhdGlvbiBvZiB2aW9sYXRpb25zKSBjb25zb2xlLmVycm9yKGAtICR7dmlvbGF0aW9ufWApOwogIHByb2Nlc3MuZXhpdCgxKTsKfQoKY29uc29sZS5sb2coCiAgYFJ1c3QgdGFzayBsaWZlY3ljbGUgYXVkaXQgcGFzc2VkICgke3RvdGFsfSBkaXJlY3Qgc3Bhd24gY2FsbCBzaXRlczsgbmV3IHNpdGVzIHJlcXVpcmUgZXhwbGljaXQgcmV2aWV3KS5gLAopOwo=
+import fs from "node:fs";
+import path from "node:path";
+import process from "node:process";
+
+const sourceRoot = path.resolve("apps/server-admin-rs/src");
+const maxDirectSpawnCallSites = 122;
+
+// Direct spawns are limited to explicitly audited owners, request-scoped
+// fan-out, subprocess pipe/wait tasks, platform entry points, and tests.
+// Reducing a count is always allowed; adding a call site or a new file requires
+// an intentional lifecycle review and a budget update here.
+const auditedBudgets = new Map(
+  Object.entries({
+    "app.rs": 2,
+    // Local HTTP fixtures; every server task is joined or awaited by its test.
+    "auth/fnos_share_bypass.rs": 5,
+    "auth/mobility.rs": 1,
+    // Cancellation and concurrency probes; every handle is aborted or awaited.
+    "auth/mobility/tests.rs": 5,
+    // Cancellation and queue probes; every test-owned handle is aborted/awaited.
+    "auth/password.rs": 3,
+    // One returned bridge owner plus three test-only waiters; every waiter is awaited.
+    "auth/routes/bridge.rs": 4,
+    "certificates/acme/jobs.rs": 5,
+    "certificates/auto_https.rs": 1,
+    "config/runtime/tests.rs": 5,
+    "ddns/routes/tests.rs": 2,
+    "discovery/cidr.rs": 1,
+    "discovery/scan_assets/tests.rs": 6,
+    "gateway/proxy_config.rs": 1,
+    "gateway/proxy_config/tests.rs": 8,
+    "infra/background_tasks.rs": 1,
+    // Test-only SMTP fixture; bounded by a timeout and awaited by every caller.
+    "infra/mail.rs": 1,
+    // Test-only delivery concurrency probe; its handle is awaited.
+    "system/maintenance/backup_email/tests.rs": 1,
+    // Test-only webhook HTTP fixtures; each task is awaited or explicitly aborted.
+    "notifications/routes/tests.rs": 4,
+    // Test-only local HTTP fixtures; every returned handle is awaited by its test.
+    "panel_sync/tests.rs": 2,
+    "runtime_health.rs": 1,
+    // Serialization and concurrency probes; every handle is awaited.
+    "security/whitelist/tests.rs": 2,
+    "storage/redis_compat/tests/migrations.rs": 2,
+    // Test-only concurrency and local fixture tasks; every handle is joined,
+    // awaited, or explicitly aborted by the owning test.
+    "storage/redis_store/tests/aggregates.rs": 2,
+    "storage/redis_store/tests/analytics.rs": 1,
+    "storage/redis_store/tests/core.rs": 2,
+    "storage/redis_store/tests/events_notifications.rs": 4,
+    "storage/redis_store/tests/identity.rs": 5,
+    "storage/redis_store/tests/mobility.rs": 1,
+    "storage/redis_store/tests/mobility_reconcile.rs": 2,
+    "storage/redis_store/tests/notification_runtime.rs": 3,
+    "storage/redis_store/tests/security.rs": 3,
+    // Primary-executor blocker returned to each test and explicitly released/awaited.
+    "storage/redis_store/tests/support.rs": 1,
+    // Includes cancelled archive/HTTP callers, each aborted and awaited before releasing its worker.
+    "system/maintenance/tests.rs": 5,
+    // One session owner retained by TerminalRuntime and joined on terminate/shutdown,
+    // one initialization progress bridge returned to and awaited by that owner, and
+    // one test-only actor retained by the same runtime task registry, and one
+    // abort/join cancellation probe owned by AbortOnDropHandle until cleanup.
+    "system/terminal/runtime.rs": 4,
+    // Test-only russh server fixture; every returned handle is explicitly aborted.
+    "system/terminal/ssh.rs": 1,
+    "system/update.rs": 1,
+    "tunnels/cloudflared/cloudflare_api.rs": 7,
+    "tunnels/cloudflared/managed.rs": 5,
+    "tunnels/supervisor.rs": 6,
+    "windows_service.rs": 1,
+    // Test-only gRPC fixture and old/new collector owners; workers are joined,
+    // and the returned fixture server is aborted by each owning test.
+    "waf/routes/worker_tests.rs": 3,
+    "wol/dispatch.rs": 2,
+    "wol/integrations.rs": 1,
+    // Test-only russh fixture; each returned handle is explicitly aborted by its test.
+    "wol/ssh.rs": 1,
+  }),
+);
+
+function rustFiles(directory) {
+  return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const absolute = path.join(directory, entry.name);
+    if (entry.isDirectory()) return rustFiles(absolute);
+    return entry.isFile() && entry.name.endsWith(".rs") ? [absolute] : [];
+  });
+}
+
+const violations = [];
+let total = 0;
+for (const absolute of rustFiles(sourceRoot)) {
+  const source = fs.readFileSync(absolute, "utf8");
+  const count = source.match(/\btokio::spawn\s*\(/g)?.length ?? 0;
+  if (count === 0) continue;
+  const relative = path
+    .relative(sourceRoot, absolute)
+    .split(path.sep)
+    .join("/");
+  const budget = auditedBudgets.get(relative);
+  total += count;
+  if (budget === undefined) {
+    violations.push(`${relative}: ${count} unaudited direct spawn call(s)`);
+  } else if (count > budget) {
+    violations.push(
+      `${relative}: ${count} direct spawns exceed audited budget ${budget}`,
+    );
+  }
+}
+
+if (total > maxDirectSpawnCallSites) {
+  violations.push(
+    `repository total: ${total} direct spawns exceed fixed audited total ${maxDirectSpawnCallSites}`,
+  );
+}
+
+if (violations.length > 0) {
+  console.error("Rust task lifecycle audit failed:");
+  for (const violation of violations) console.error(`- ${violation}`);
+  process.exit(1);
+}
+
+console.log(
+  `Rust task lifecycle audit passed (${total} direct spawn call sites; new sites require explicit review).`,
+);

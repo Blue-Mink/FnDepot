@@ -1,1 +1,106 @@
-aW1wb3J0IHR5cGUgeyBEYWlseUF2YWlsYWJpbGl0eSB9IGZyb20gIkAvdHlwZXMiOwoKZXhwb3J0IHR5cGUgRGFpbHlBdmFpbGFiaWxpdHlWYWxpZGF0aW9uRXJyb3IgPSAiaW52YWxpZF90aW1lIiB8ICJzYW1lX3RpbWUiOwoKZXhwb3J0IGNvbnN0IHBhcnNlQXZhaWxhYmlsaXR5VGltZVRvTWludXRlcyA9ICgKICB2YWx1ZTogc3RyaW5nLAopOiBudW1iZXIgfCBudWxsID0+IHsKICBjb25zdCB0cmltbWVkID0gdmFsdWUudHJpbSgpOwogIGlmICghL15cZHsyfTpcZHsyfSQvLnRlc3QodHJpbW1lZCkpIHJldHVybiBudWxsOwogIGNvbnN0IFtob3VyVGV4dCwgbWludXRlVGV4dF0gPSB0cmltbWVkLnNwbGl0KCI6Iik7CiAgY29uc3QgaG91ciA9IE51bWJlci5wYXJzZUludChob3VyVGV4dCB8fCAiIiwgMTApOwogIGNvbnN0IG1pbnV0ZSA9IE51bWJlci5wYXJzZUludChtaW51dGVUZXh0IHx8ICIiLCAxMCk7CiAgaWYgKAogICAgIU51bWJlci5pc0Zpbml0ZShob3VyKSB8fAogICAgIU51bWJlci5pc0Zpbml0ZShtaW51dGUpIHx8CiAgICBob3VyIDwgMCB8fAogICAgaG91ciA+IDIzIHx8CiAgICBtaW51dGUgPCAwIHx8CiAgICBtaW51dGUgPiA1OQogICkgewogICAgcmV0dXJuIG51bGw7CiAgfQogIHJldHVybiBob3VyICogNjAgKyBtaW51dGU7Cn07CgpleHBvcnQgY29uc3QgZ2V0QXZhaWxhYmlsaXR5V2luZG93VmFsaWRhdGlvbkVycm9yID0gKAogIHN0YXJ0VGltZTogc3RyaW5nLAogIGVuZFRpbWU6IHN0cmluZywKKTogRGFpbHlBdmFpbGFiaWxpdHlWYWxpZGF0aW9uRXJyb3IgfCBudWxsID0+IHsKICBjb25zdCBzdGFydE1pbnV0ZSA9IHBhcnNlQXZhaWxhYmlsaXR5VGltZVRvTWludXRlcyhzdGFydFRpbWUpOwogIGNvbnN0IGVuZE1pbnV0ZSA9IHBhcnNlQXZhaWxhYmlsaXR5VGltZVRvTWludXRlcyhlbmRUaW1lKTsKICBpZiAoc3RhcnRNaW51dGUgPT09IG51bGwgfHwgZW5kTWludXRlID09PSBudWxsKSByZXR1cm4gImludmFsaWRfdGltZSI7CiAgaWYgKHN0YXJ0TWludXRlID09PSBlbmRNaW51dGUpIHJldHVybiAic2FtZV90aW1lIjsKICByZXR1cm4gbnVsbDsKfTsKCmV4cG9ydCBjb25zdCBpc0F2YWlsYWJpbGl0eVdpbmRvd1ZhbGlkID0gKAogIHN0YXJ0VGltZTogc3RyaW5nLAogIGVuZFRpbWU6IHN0cmluZywKKTogYm9vbGVhbiA9PiB7CiAgcmV0dXJuIGdldEF2YWlsYWJpbGl0eVdpbmRvd1ZhbGlkYXRpb25FcnJvcihzdGFydFRpbWUsIGVuZFRpbWUpID09PSBudWxsOwp9OwoKZXhwb3J0IGNvbnN0IG5vcm1hbGl6ZURhaWx5QXZhaWxhYmlsaXR5ID0gKAogIHZhbHVlPzogUGFydGlhbDxEYWlseUF2YWlsYWJpbGl0eT4gfCBudWxsLAopOiBEYWlseUF2YWlsYWJpbGl0eSB8IG51bGwgPT4gewogIGlmICh2YWx1ZT8uZW5hYmxlZCAhPT0gdHJ1ZSkgcmV0dXJuIG51bGw7CiAgY29uc3Qgc3RhcnRUaW1lID0KICAgIHR5cGVvZiB2YWx1ZS5zdGFydF90aW1lID09PSAic3RyaW5nIiA/IHZhbHVlLnN0YXJ0X3RpbWUudHJpbSgpIDogIiI7CiAgY29uc3QgZW5kVGltZSA9CiAgICB0eXBlb2YgdmFsdWUuZW5kX3RpbWUgPT09ICJzdHJpbmciID8gdmFsdWUuZW5kX3RpbWUudHJpbSgpIDogIiI7CiAgaWYgKCFpc0F2YWlsYWJpbGl0eVdpbmRvd1ZhbGlkKHN0YXJ0VGltZSwgZW5kVGltZSkpIHJldHVybiBudWxsOwogIHJldHVybiB7CiAgICBlbmFibGVkOiB0cnVlLAogICAgc3RhcnRfdGltZTogc3RhcnRUaW1lLAogICAgZW5kX3RpbWU6IGVuZFRpbWUsCiAgfTsKfTsKCmNvbnN0IGN1cnJlbnRNaW51dGVGb3JUaW1lWm9uZSA9ICgKICBub3c6IERhdGUsCiAgdGltZVpvbmU/OiBzdHJpbmcgfCBudWxsLAopOiBudW1iZXIgPT4gewogIGlmICghdGltZVpvbmUpIHJldHVybiBub3cuZ2V0SG91cnMoKSAqIDYwICsgbm93LmdldE1pbnV0ZXMoKTsKICB0cnkgewogICAgY29uc3QgcGFydHMgPSBuZXcgSW50bC5EYXRlVGltZUZvcm1hdCgiZW4tVVMiLCB7CiAgICAgIGhvdXI6ICIyLWRpZ2l0IiwKICAgICAgaG91ckN5Y2xlOiAiaDIzIiwKICAgICAgbWludXRlOiAiMi1kaWdpdCIsCiAgICAgIHRpbWVab25lLAogICAgfSkuZm9ybWF0VG9QYXJ0cyhub3cpOwogICAgY29uc3QgaG91ciA9IE51bWJlcihwYXJ0cy5maW5kKChwYXJ0KSA9PiBwYXJ0LnR5cGUgPT09ICJob3VyIik/LnZhbHVlKTsKICAgIGNvbnN0IG1pbnV0ZSA9IE51bWJlcihwYXJ0cy5maW5kKChwYXJ0KSA9PiBwYXJ0LnR5cGUgPT09ICJtaW51dGUiKT8udmFsdWUpOwogICAgaWYgKE51bWJlci5pc0Zpbml0ZShob3VyKSAmJiBOdW1iZXIuaXNGaW5pdGUobWludXRlKSkgewogICAgICByZXR1cm4gaG91ciAqIDYwICsgbWludXRlOwogICAgfQogIH0gY2F0Y2ggewogICAgLy8gRmFsbCBiYWNrIHRvIHRoZSBicm93c2VyIHRpbWV6b25lIGlmIHRoZSBzZXJ2ZXIgcmVwb3J0cyBhbiB1bnN1cHBvcnRlZCB6b25lLgogIH0KICByZXR1cm4gbm93LmdldEhvdXJzKCkgKiA2MCArIG5vdy5nZXRNaW51dGVzKCk7Cn07CgpleHBvcnQgY29uc3QgaXNBdmFpbGFiaWxpdHlXaW5kb3dPcGVuID0gKAogIGF2YWlsYWJpbGl0eTogRGFpbHlBdmFpbGFiaWxpdHkgfCBudWxsIHwgdW5kZWZpbmVkLAogIG5vdyA9IG5ldyBEYXRlKCksCiAgdGltZVpvbmU/OiBzdHJpbmcgfCBudWxsLAopOiBib29sZWFuID0+IHsKICBpZiAoYXZhaWxhYmlsaXR5Py5lbmFibGVkICE9PSB0cnVlKSByZXR1cm4gdHJ1ZTsKICBjb25zdCBzdGFydE1pbnV0ZSA9IHBhcnNlQXZhaWxhYmlsaXR5VGltZVRvTWludXRlcyhhdmFpbGFiaWxpdHkuc3RhcnRfdGltZSk7CiAgY29uc3QgZW5kTWludXRlID0gcGFyc2VBdmFpbGFiaWxpdHlUaW1lVG9NaW51dGVzKGF2YWlsYWJpbGl0eS5lbmRfdGltZSk7CiAgaWYgKHN0YXJ0TWludXRlID09PSBudWxsIHx8IGVuZE1pbnV0ZSA9PT0gbnVsbCB8fCBzdGFydE1pbnV0ZSA9PT0gZW5kTWludXRlKSB7CiAgICByZXR1cm4gdHJ1ZTsKICB9CiAgY29uc3QgY3VycmVudE1pbnV0ZSA9IGN1cnJlbnRNaW51dGVGb3JUaW1lWm9uZShub3csIHRpbWVab25lKTsKICBpZiAoc3RhcnRNaW51dGUgPCBlbmRNaW51dGUpIHsKICAgIHJldHVybiBjdXJyZW50TWludXRlID49IHN0YXJ0TWludXRlICYmIGN1cnJlbnRNaW51dGUgPCBlbmRNaW51dGU7CiAgfQogIHJldHVybiBjdXJyZW50TWludXRlID49IHN0YXJ0TWludXRlIHx8IGN1cnJlbnRNaW51dGUgPCBlbmRNaW51dGU7Cn07CgpleHBvcnQgY29uc3QgZm9ybWF0RGFpbHlBdmFpbGFiaWxpdHlXaW5kb3cgPSAoCiAgYXZhaWxhYmlsaXR5OiBEYWlseUF2YWlsYWJpbGl0eSB8IG51bGwgfCB1bmRlZmluZWQsCik6IHN0cmluZyA9PiB7CiAgaWYgKGF2YWlsYWJpbGl0eT8uZW5hYmxlZCAhPT0gdHJ1ZSkgcmV0dXJuICIiOwogIHJldHVybiBgJHthdmFpbGFiaWxpdHkuc3RhcnRfdGltZS50cmltKCl9LSR7YXZhaWxhYmlsaXR5LmVuZF90aW1lLnRyaW0oKX1gOwp9Owo=
+import type { DailyAvailability } from "@/types";
+
+export type DailyAvailabilityValidationError = "invalid_time" | "same_time";
+
+export const parseAvailabilityTimeToMinutes = (
+  value: string,
+): number | null => {
+  const trimmed = value.trim();
+  if (!/^\d{2}:\d{2}$/.test(trimmed)) return null;
+  const [hourText, minuteText] = trimmed.split(":");
+  const hour = Number.parseInt(hourText || "", 10);
+  const minute = Number.parseInt(minuteText || "", 10);
+  if (
+    !Number.isFinite(hour) ||
+    !Number.isFinite(minute) ||
+    hour < 0 ||
+    hour > 23 ||
+    minute < 0 ||
+    minute > 59
+  ) {
+    return null;
+  }
+  return hour * 60 + minute;
+};
+
+export const getAvailabilityWindowValidationError = (
+  startTime: string,
+  endTime: string,
+): DailyAvailabilityValidationError | null => {
+  const startMinute = parseAvailabilityTimeToMinutes(startTime);
+  const endMinute = parseAvailabilityTimeToMinutes(endTime);
+  if (startMinute === null || endMinute === null) return "invalid_time";
+  if (startMinute === endMinute) return "same_time";
+  return null;
+};
+
+export const isAvailabilityWindowValid = (
+  startTime: string,
+  endTime: string,
+): boolean => {
+  return getAvailabilityWindowValidationError(startTime, endTime) === null;
+};
+
+export const normalizeDailyAvailability = (
+  value?: Partial<DailyAvailability> | null,
+): DailyAvailability | null => {
+  if (value?.enabled !== true) return null;
+  const startTime =
+    typeof value.start_time === "string" ? value.start_time.trim() : "";
+  const endTime =
+    typeof value.end_time === "string" ? value.end_time.trim() : "";
+  if (!isAvailabilityWindowValid(startTime, endTime)) return null;
+  return {
+    enabled: true,
+    start_time: startTime,
+    end_time: endTime,
+  };
+};
+
+const currentMinuteForTimeZone = (
+  now: Date,
+  timeZone?: string | null,
+): number => {
+  if (!timeZone) return now.getHours() * 60 + now.getMinutes();
+  try {
+    const parts = new Intl.DateTimeFormat("en-US", {
+      hour: "2-digit",
+      hourCycle: "h23",
+      minute: "2-digit",
+      timeZone,
+    }).formatToParts(now);
+    const hour = Number(parts.find((part) => part.type === "hour")?.value);
+    const minute = Number(parts.find((part) => part.type === "minute")?.value);
+    if (Number.isFinite(hour) && Number.isFinite(minute)) {
+      return hour * 60 + minute;
+    }
+  } catch {
+    // Fall back to the browser timezone if the server reports an unsupported zone.
+  }
+  return now.getHours() * 60 + now.getMinutes();
+};
+
+export const isAvailabilityWindowOpen = (
+  availability: DailyAvailability | null | undefined,
+  now = new Date(),
+  timeZone?: string | null,
+): boolean => {
+  if (availability?.enabled !== true) return true;
+  const startMinute = parseAvailabilityTimeToMinutes(availability.start_time);
+  const endMinute = parseAvailabilityTimeToMinutes(availability.end_time);
+  if (startMinute === null || endMinute === null || startMinute === endMinute) {
+    return true;
+  }
+  const currentMinute = currentMinuteForTimeZone(now, timeZone);
+  if (startMinute < endMinute) {
+    return currentMinute >= startMinute && currentMinute < endMinute;
+  }
+  return currentMinute >= startMinute || currentMinute < endMinute;
+};
+
+export const formatDailyAvailabilityWindow = (
+  availability: DailyAvailability | null | undefined,
+): string => {
+  if (availability?.enabled !== true) return "";
+  return `${availability.start_time.trim()}-${availability.end_time.trim()}`;
+};

@@ -1,1 +1,87 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgdHlwZSBDb21wdXRlZFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7CiAgYnVpbGREZWxldGVEaWFsb2dDb3B5LAogIHR5cGUgRGVsZXRlRGlhbG9nU3RhdGUsCiAgdHlwZSBUcmFuc2xhdGlvblBhcmFtcywKICB0eXBlIFRyYW5zbGF0aW9uU3BlYywKfSBmcm9tICIuL21vZGVsIjsKCmV4cG9ydCBjb25zdCB1c2VTdWJkb21haW5EZWxldGVEaWFsb2cgPSAoewogIG1hcHBpbmdzQ291bnQsCiAgdHJhbnNsYXRlLAp9OiB7CiAgbWFwcGluZ3NDb3VudDogQ29tcHV0ZWRSZWY8bnVtYmVyPjsKICB0cmFuc2xhdGU6IChrZXk6IHN0cmluZywgcGFyYW1zPzogVHJhbnNsYXRpb25QYXJhbXMpID0+IHN0cmluZzsKfSkgPT4gewogIGNvbnN0IGRlbGV0ZURpYWxvZ1N0YXRlID0gcmVmPERlbGV0ZURpYWxvZ1N0YXRlIHwgbnVsbD4obnVsbCk7CgogIGNvbnN0IHRyYW5zbGF0ZVNwZWMgPSAoc3BlYzogVHJhbnNsYXRpb25TcGVjIHwgbnVsbCB8IHVuZGVmaW5lZCkgPT4gewogICAgaWYgKCFzcGVjPy5rZXkpIHJldHVybiAiIjsKICAgIHJldHVybiB0cmFuc2xhdGUoc3BlYy5rZXksIHNwZWMucGFyYW1zKTsKICB9OwoKICBjb25zdCBkZWxldGVEaWFsb2dDb3B5ID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3QgdGFyZ2V0ID0gZGVsZXRlRGlhbG9nU3RhdGUudmFsdWU7CiAgICByZXR1cm4gdGFyZ2V0ID8gYnVpbGREZWxldGVEaWFsb2dDb3B5KHRhcmdldCwgbWFwcGluZ3NDb3VudC52YWx1ZSkgOiBudWxsOwogIH0pOwoKICBjb25zdCBjbG9zZURlbGV0ZURpYWxvZyA9ICgpID0+IHsKICAgIGRlbGV0ZURpYWxvZ1N0YXRlLnZhbHVlID0gbnVsbDsKICB9OwoKICBjb25zdCBoYW5kbGVEZWxldGVEaWFsb2dPcGVuQ2hhbmdlID0gKG5leHRPcGVuOiBib29sZWFuKSA9PiB7CiAgICBpZiAoIW5leHRPcGVuKSB7CiAgICAgIGNsb3NlRGVsZXRlRGlhbG9nKCk7CiAgICB9CiAgfTsKCiAgY29uc3Qgb3BlbkNsZWFyQWxsQ29uZmlnRGlhbG9nU3RhdGUgPSAoKSA9PiB7CiAgICBkZWxldGVEaWFsb2dTdGF0ZS52YWx1ZSA9IHsKICAgICAga2luZDogImNsZWFyX2FsbCIsCiAgICAgIHN0ZXA6IDEsCiAgICB9OwogIH07CgogIGNvbnN0IG9wZW5EZWxldGVNYXBwaW5nRGlhbG9nID0gKGhvc3Q6IHN0cmluZykgPT4gewogICAgZGVsZXRlRGlhbG9nU3RhdGUudmFsdWUgPSB7CiAgICAgIGtpbmQ6ICJtYXBwaW5nIiwKICAgICAgaG9zdCwKICAgIH07CiAgfTsKCiAgY29uc3QgYWR2YW5jZUNsZWFyQWxsQ29uZmlybWF0aW9uID0gKCkgPT4gewogICAgY29uc3QgdGFyZ2V0ID0gZGVsZXRlRGlhbG9nU3RhdGUudmFsdWU7CiAgICBpZiAodGFyZ2V0Py5raW5kICE9PSAiY2xlYXJfYWxsIiB8fCB0YXJnZXQuc3RlcCAhPT0gMSkgcmV0dXJuIGZhbHNlOwoKICAgIGRlbGV0ZURpYWxvZ1N0YXRlLnZhbHVlID0gewogICAgICBraW5kOiAiY2xlYXJfYWxsIiwKICAgICAgc3RlcDogMiwKICAgIH07CiAgICByZXR1cm4gdHJ1ZTsKICB9OwoKICBjb25zdCBkZWxldGVEaWFsb2dDb25maXJtTGFiZWwgPSBjb21wdXRlZCgKICAgICgpID0+CiAgICAgIHRyYW5zbGF0ZVNwZWMoZGVsZXRlRGlhbG9nQ29weS52YWx1ZT8uY29uZmlybUxhYmVsKSB8fAogICAgICB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LmNvbmZpcm0iKSwKICApOwogIGNvbnN0IGRlbGV0ZURpYWxvZ0Rlc2NyaXB0aW9uID0gY29tcHV0ZWQoKCkgPT4KICAgIHRyYW5zbGF0ZVNwZWMoZGVsZXRlRGlhbG9nQ29weS52YWx1ZT8uZGVzY3JpcHRpb24pLAogICk7CiAgY29uc3QgZGVsZXRlRGlhbG9nVGl0bGUgPSBjb21wdXRlZCgoKSA9PgogICAgdHJhbnNsYXRlU3BlYyhkZWxldGVEaWFsb2dDb3B5LnZhbHVlPy50aXRsZSksCiAgKTsKCiAgcmV0dXJuIHsKICAgIGFkdmFuY2VDbGVhckFsbENvbmZpcm1hdGlvbiwKICAgIGNsb3NlRGVsZXRlRGlhbG9nLAogICAgZGVsZXRlRGlhbG9nQ29uZmlybUxhYmVsLAogICAgZGVsZXRlRGlhbG9nRGVzY3JpcHRpb24sCiAgICBkZWxldGVEaWFsb2dTdGF0ZSwKICAgIGRlbGV0ZURpYWxvZ1RpdGxlLAogICAgaGFuZGxlRGVsZXRlRGlhbG9nT3BlbkNoYW5nZSwKICAgIGlzRGVsZXRlRGlhbG9nT3BlbjogY29tcHV0ZWQoKCkgPT4gZGVsZXRlRGlhbG9nU3RhdGUudmFsdWUgIT09IG51bGwpLAogICAgb3BlbkNsZWFyQWxsQ29uZmlnRGlhbG9nU3RhdGUsCiAgICBvcGVuRGVsZXRlTWFwcGluZ0RpYWxvZywKICB9Owp9Owo=
+import { computed, ref, type ComputedRef } from "vue";
+import {
+  buildDeleteDialogCopy,
+  type DeleteDialogState,
+  type TranslationParams,
+  type TranslationSpec,
+} from "./model";
+
+export const useSubdomainDeleteDialog = ({
+  mappingsCount,
+  translate,
+}: {
+  mappingsCount: ComputedRef<number>;
+  translate: (key: string, params?: TranslationParams) => string;
+}) => {
+  const deleteDialogState = ref<DeleteDialogState | null>(null);
+
+  const translateSpec = (spec: TranslationSpec | null | undefined) => {
+    if (!spec?.key) return "";
+    return translate(spec.key, spec.params);
+  };
+
+  const deleteDialogCopy = computed(() => {
+    const target = deleteDialogState.value;
+    return target ? buildDeleteDialogCopy(target, mappingsCount.value) : null;
+  });
+
+  const closeDeleteDialog = () => {
+    deleteDialogState.value = null;
+  };
+
+  const handleDeleteDialogOpenChange = (nextOpen: boolean) => {
+    if (!nextOpen) {
+      closeDeleteDialog();
+    }
+  };
+
+  const openClearAllConfigDialogState = () => {
+    deleteDialogState.value = {
+      kind: "clear_all",
+      step: 1,
+    };
+  };
+
+  const openDeleteMappingDialog = (host: string) => {
+    deleteDialogState.value = {
+      kind: "mapping",
+      host,
+    };
+  };
+
+  const advanceClearAllConfirmation = () => {
+    const target = deleteDialogState.value;
+    if (target?.kind !== "clear_all" || target.step !== 1) return false;
+
+    deleteDialogState.value = {
+      kind: "clear_all",
+      step: 2,
+    };
+    return true;
+  };
+
+  const deleteDialogConfirmLabel = computed(
+    () =>
+      translateSpec(deleteDialogCopy.value?.confirmLabel) ||
+      translate("admin.subdomainProxy.confirm"),
+  );
+  const deleteDialogDescription = computed(() =>
+    translateSpec(deleteDialogCopy.value?.description),
+  );
+  const deleteDialogTitle = computed(() =>
+    translateSpec(deleteDialogCopy.value?.title),
+  );
+
+  return {
+    advanceClearAllConfirmation,
+    closeDeleteDialog,
+    deleteDialogConfirmLabel,
+    deleteDialogDescription,
+    deleteDialogState,
+    deleteDialogTitle,
+    handleDeleteDialogOpenChange,
+    isDeleteDialogOpen: computed(() => deleteDialogState.value !== null),
+    openClearAllConfigDialogState,
+    openDeleteMappingDialog,
+  };
+};

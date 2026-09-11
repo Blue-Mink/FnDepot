@@ -1,1 +1,34 @@
-ZXhwb3J0IHR5cGUgUGVyc2lzdFByb3h5TWFwcGluZ3NPcHRpb25zID0gewogIGRlZmF1bHRSb3V0ZVBhdGg/OiBzdHJpbmcgfCBudWxsOwogIHJlc2V0UGFnZT86IGJvb2xlYW47CiAgcmVzZXRTZWFyY2g/OiBib29sZWFuOwogIG9uQWZ0ZXJQZXJzaXN0PzogKCkgPT4gdm9pZCB8IFByb21pc2U8dm9pZD47Cn07Cgp0eXBlIFBlcnNpc3RQcm94eU1hcHBpbmdzRGVwczxUPiA9IHsKICBzYXZlTWFwcGluZ3M6IChuZXdMaXN0OiBUW10pID0+IFByb21pc2U8dm9pZD47CiAgc2F2ZURlZmF1bHRSb3V0ZTogKHBhdGg6IHN0cmluZykgPT4gUHJvbWlzZTx2b2lkPjsKICByZXNldFBhZ2U/OiAoKSA9PiB2b2lkOwogIHJlc2V0U2VhcmNoPzogKCkgPT4gdm9pZDsKfTsKCmV4cG9ydCBjb25zdCBwZXJzaXN0UHJveHlNYXBwaW5ncyA9IGFzeW5jIDxUPigKICBuZXdMaXN0OiBUW10sCiAgZGVwczogUGVyc2lzdFByb3h5TWFwcGluZ3NEZXBzPFQ+LAogIG9wdGlvbnM6IFBlcnNpc3RQcm94eU1hcHBpbmdzT3B0aW9ucyA9IHt9LAopID0+IHsKICBhd2FpdCBkZXBzLnNhdmVNYXBwaW5ncyhuZXdMaXN0KTsKCiAgaWYgKG9wdGlvbnMuZGVmYXVsdFJvdXRlUGF0aCkgewogICAgYXdhaXQgZGVwcy5zYXZlRGVmYXVsdFJvdXRlKG9wdGlvbnMuZGVmYXVsdFJvdXRlUGF0aCk7CiAgfQogIGlmIChvcHRpb25zLnJlc2V0UGFnZSkgewogICAgZGVwcy5yZXNldFBhZ2U/LigpOwogIH0KICBpZiAob3B0aW9ucy5yZXNldFNlYXJjaCkgewogICAgZGVwcy5yZXNldFNlYXJjaD8uKCk7CiAgfQogIGlmIChvcHRpb25zLm9uQWZ0ZXJQZXJzaXN0KSB7CiAgICBhd2FpdCBvcHRpb25zLm9uQWZ0ZXJQZXJzaXN0KCk7CiAgfQp9Owo=
+export type PersistProxyMappingsOptions = {
+  defaultRoutePath?: string | null;
+  resetPage?: boolean;
+  resetSearch?: boolean;
+  onAfterPersist?: () => void | Promise<void>;
+};
+
+type PersistProxyMappingsDeps<T> = {
+  saveMappings: (newList: T[]) => Promise<void>;
+  saveDefaultRoute: (path: string) => Promise<void>;
+  resetPage?: () => void;
+  resetSearch?: () => void;
+};
+
+export const persistProxyMappings = async <T>(
+  newList: T[],
+  deps: PersistProxyMappingsDeps<T>,
+  options: PersistProxyMappingsOptions = {},
+) => {
+  await deps.saveMappings(newList);
+
+  if (options.defaultRoutePath) {
+    await deps.saveDefaultRoute(options.defaultRoutePath);
+  }
+  if (options.resetPage) {
+    deps.resetPage?.();
+  }
+  if (options.resetSearch) {
+    deps.resetSearch?.();
+  }
+  if (options.onAfterPersist) {
+    await options.onAfterPersist();
+  }
+};

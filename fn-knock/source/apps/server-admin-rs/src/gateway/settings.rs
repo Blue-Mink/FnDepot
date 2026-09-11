@@ -1,1 +1,317 @@
-dXNlIHN0ZDo6e2NvbGxlY3Rpb25zOjpCVHJlZVNldCwgbmV0OjpJcEFkZHJ9OwoKdXNlIGF4dW06OnsKICAgIGV4dHJhY3Q6OlN0YXRlLAogICAgaHR0cDo6U3RhdHVzQ29kZSwKICAgIHJlc3BvbnNlOjp7SW50b1Jlc3BvbnNlLCBSZXNwb25zZX0sCn07CnVzZSBpcG5ldDo6SXBOZXQ7CnVzZSBzZXJkZV9qc29uOjp7TWFwLCBWYWx1ZSwganNvbn07CnVzZSB1cmw6OlVybDsKCnVzZSBjcmF0ZTo6ewogICAgY2lkcjo6e0NpZHJPcGVyYXRvciwgQ2lkclJlZ2lvblF1ZXJ5LCBDb21waWxlZElwU2V0LCBjb21waWxlX2lwX3NldH0sCiAgICBpMThuOjpUcmFuc2xhdG9yLAogICAgcHJveHlfY29uZmlnOjp7c2VsZiwgYnVpbGRfZ2F0ZXdheV9hdXRoX2NvbmZpZ30sCiAgICByZXNwb25zZSwKICAgIHN0YXRlOjpBcHBTdGF0ZSwKICAgIHRpbWVfdXRpbHMsIHdoaXRlbGlzdCwKfTsKCmNvbnN0IEdBVEVXQVlfVklTSUJJTElUWV9SVU5USU1FX0tFWTogJnN0ciA9ICJmbl9rbm9jazpnYXRld2F5OnZpc2liaWxpdHk6cnVudGltZSI7CmNvbnN0IEdBVEVXQVlfUFJPWFlfSEVBREVSU19SVU5USU1FX0tFWTogJnN0ciA9ICJmbl9rbm9jazpnYXRld2F5OnByb3h5LWhlYWRlcnM6cnVudGltZSI7CmNvbnN0IEdBVEVXQVlfSE9TVF9SRVNQT05TRV9SVU5USU1FX0tFWTogJnN0ciA9ICJmbl9rbm9jazpnYXRld2F5Omhvc3QtcmVzcG9uc2U6cnVudGltZSI7CmNvbnN0IEdBVEVXQVlfUE9SVEFMX1RJVExFX0hPU1RfUlVMRVNfUEFUQ0hfRkxBR19LRVk6ICZzdHIgPQogICAgImZuX2tub2NrOnBhdGNoOmdhdGV3YXktcG9ydGFsLXRpdGxlLWhvc3QtcnVsZXM6djEiOwpjb25zdCBHQVRFV0FZX1BPUlRBTF9JQ09OX0hPU1RfUlVMRVNfUEFUQ0hfRkxBR19LRVk6ICZzdHIgPQogICAgImZuX2tub2NrOnBhdGNoOmdhdGV3YXktcG9ydGFsLWljb24taG9zdC1ydWxlczp2MSI7CmNvbnN0IEdPX0JBQ0tFTkRfVU5TVUNDRVNTRlVMX1JFU1BPTlNFOiAmc3RyID0gIkdvIGJhY2tlbmQgcmV0dXJuZWQgYW4gdW5zdWNjZXNzZnVsIHJlc3BvbnNlIjsKcHViKGNyYXRlKSBjb25zdCBERUZBVUxUX1JFVkVSU0VfUFJPWFlfVEhST1RUTEVfUkVRVUVTVFNfUEVSX1NFQ09ORDogaTY0ID0gNTAwOwpwdWIoY3JhdGUpIGNvbnN0IERFRkFVTFRfUkVWRVJTRV9QUk9YWV9USFJPVFRMRV9CVVJTVDogaTY0ID0gMV8wMDA7CnB1YihjcmF0ZSkgY29uc3QgREVGQVVMVF9SRVZFUlNFX1BST1hZX1RIUk9UVExFX0JMT0NLX1NFQ09ORFM6IGk2NCA9IDMwOwpwdWIoY3JhdGUpIGNvbnN0IERFRkFVTFRfR0FURVdBWV9HQ19QRVJDRU5UOiBpMzIgPSAxMDA7CnB1YihjcmF0ZSkgY29uc3QgTUlOX0dBVEVXQVlfR0NfUEVSQ0VOVDogaTMyID0gMjU7CnB1YihjcmF0ZSkgY29uc3QgTUFYX0dBVEVXQVlfR0NfUEVSQ0VOVDogaTMyID0gNTAwOwpwdWIoY3JhdGUpIGNvbnN0IE1JTl9HQVRFV0FZX01FTU9SWV9MSU1JVF9NSUI6IHU2NCA9IDY0OwpwdWIoY3JhdGUpIGNvbnN0IE1BWF9HQVRFV0FZX01FTU9SWV9MSU1JVF9NSUI6IHU2NCA9IDQwOTY7CmNvbnN0IERFRkFVTFRfQVVUT19NRU1PUllfTElNSVRfTUlCOiB1NjQgPSAyNTY7CmNvbnN0IE1JTl9BVVRPX01FTU9SWV9MSU1JVF9NSUI6IHU2NCA9IDEyODsKY29uc3QgTUFYX0FVVE9fTUVNT1JZX0xJTUlUX01JQjogdTY0ID0gNTEyOwpjb25zdCBNSUI6IHU2NCA9IDEwMjQgKiAxMDI0OwoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBQYXJ0aWFsRXEsIEVxKV0KcHViKGNyYXRlKSBzdHJ1Y3QgR2F0ZXdheU1lbW9yeVNldHRpbmdzIHsKICAgIHB1YihjcmF0ZSkgZ2NfcGVyY2VudDogaTMyLAogICAgcHViKGNyYXRlKSBtZW1vcnlfbGltaXRfbWliOiBPcHRpb248dTY0PiwKfQoKZm4gZ2F0ZXdheV9yb3V0ZV90ZXh0KHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLCBrZXk6ICZzdHIpIC0+IFN0cmluZyB7CiAgICB0cmFuc2xhdG9yLnQoJmZvcm1hdCEoInNlcnZlci5hZG1pbi5nYXRld2F5U2V0dGluZ3NSb3V0ZXMue2tleX0iKSkKfQoKZm4gZ2F0ZXdheV9yb3V0ZV90ZXh0X3BhcmFtcygKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAga2V5OiAmc3RyLAogICAgcGFyYW1zOiAmWygmc3RyLCBTdHJpbmcpXSwKKSAtPiBTdHJpbmcgewogICAgdHJhbnNsYXRvci50X3BhcmFtcygmZm9ybWF0ISgic2VydmVyLmFkbWluLmdhdGV3YXlTZXR0aW5nc1JvdXRlcy57a2V5fSIpLCBwYXJhbXMpCn0KCmZuIGxvY2FsaXplX2dhdGV3YXlfcm91dGVfbWVzc2FnZSh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwgbWVzc2FnZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIG1hdGNoIG1lc3NhZ2UudHJpbSgpIHsKICAgICAgICAiR2F0ZXdheSBwYXlsb2FkIG11c3QgYmUgYW4gb2JqZWN0IiB8ICJHYXRld2F5IHZpc2liaWxpdHkgcGF5bG9hZCBtdXN0IGJlIGFuIG9iamVjdCIgPT4gewogICAgICAgICAgICBnYXRld2F5X3JvdXRlX3RleHQodHJhbnNsYXRvciwgInBheWxvYWRPYmplY3RSZXF1aXJlZCIpCiAgICAgICAgfQogICAgICAgICJGYWlsZWQgdG8gbG9hZCBjb25maWciID0+IGdhdGV3YXlfcm91dGVfdGV4dCh0cmFuc2xhdG9yLCAibG9hZENvbmZpZ0ZhaWxlZCIpLAogICAgICAgICJGYWlsZWQgdG8gbG9hZCBydW50aW1lIiA9PiBnYXRld2F5X3JvdXRlX3RleHQodHJhbnNsYXRvciwgImxvYWRSdW50aW1lRmFpbGVkIiksCiAgICAgICAgR09fQkFDS0VORF9VTlNVQ0NFU1NGVUxfUkVTUE9OU0UgPT4gewogICAgICAgICAgICB0cmFuc2xhdG9yLnQoInNlcnZlci5hZG1pbi5ydW50aW1lQ29uZmlnUm91dGVzLnVwc3RyZWFtVW5hdmFpbGFibGUiKQogICAgICAgIH0KICAgICAgICBfID0+IGNyYXRlOjpjaWRyOjpsb2NhbGl6ZV9lcnJvcih0cmFuc2xhdG9yLCBtZXNzYWdlKSwKICAgIH0KfQoKcHViIGZuIGdhdGV3YXlfc2V0dGluZ3Nfcm91dGVzKCkgLT4gdXRvaXBhX2F4dW06OnJvdXRlcjo6T3BlbkFwaVJvdXRlcjxBcHBTdGF0ZT4gewogICAgaGFuZGxlcnM6OnJvdXRlcygpCn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gc3luY19nYXRld2F5X3NldHRpbmdzX29uX2Jvb3Qoc3RhdGU6IEFwcFN0YXRlKSB7CiAgICBsZXQgY29uZmlnID0gbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQgewogICAgICAgIE9rKGNvbmZpZykgPT4gY29uZmlnLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gbG9hZCBjb25maWcgZm9yIGdhdGV3YXkgc2V0dGluZ3MgYm9vdCBzeW5jIik7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICB9OwoKICAgIGlmIGxldCBFcnIoZXJyb3IpID0gc3luY19nYXRld2F5X3J1bnRpbWUoJnN0YXRlLCAmY29uZmlnKS5hd2FpdCB7CiAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIHN5bmMgZ2F0ZXdheSBiYXNlIHJ1bnRpbWUgb24gYm9vdCIpOwogICAgfQoKICAgIGlmIGxldCBFcnIoZXJyb3IpID0gc3luY19nYXRld2F5X21lbW9yeV9vbl9ib290KCZzdGF0ZSkuYXdhaXQgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byByZWZyZXNoIGdhdGV3YXkgbWVtb3J5IHJ1bnRpbWUgZHVyaW5nIGJvb3Qgc3luYyIpOwogICAgfQoKICAgIGxldCB2aXNpYmlsaXR5X3J1bnRpbWUgPSBtYXRjaCBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmdldF9qc29uX3ZhbHVlKEdBVEVXQVlfVklTSUJJTElUWV9SVU5USU1FX0tFWSkKICAgICAgICAuYXdhaXQKICAgIHsKICAgICAgICBPayhTb21lKHZhbHVlKSkgPT4gdmFsdWUsCiAgICAgICAgT2soTm9uZSkgPT4gZGVmYXVsdF9nYXRld2F5X3Zpc2liaWxpdHlfcnVudGltZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gbG9hZCBnYXRld2F5IHZpc2liaWxpdHkgcnVudGltZSBmb3IgYm9vdCBzeW5jIik7CiAgICAgICAgICAgIGRlZmF1bHRfZ2F0ZXdheV92aXNpYmlsaXR5X3J1bnRpbWUoKQogICAgICAgIH0KICAgIH07CiAgICBpZiBsZXQgRXJyKGVycm9yKSA9IHN5bmNfZ2F0ZXdheV92aXNpYmlsaXR5X3J1bnRpbWUoJnN0YXRlLCAmdmlzaWJpbGl0eV9ydW50aW1lKS5hd2FpdCB7CiAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIHN5bmMgZ2F0ZXdheSB2aXNpYmlsaXR5IHJ1bnRpbWUgb24gYm9vdCIpOwogICAgfQoKICAgIGxldCBwcm94eV9oZWFkZXJzX3J1bnRpbWUgPSBtYXRjaCBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmdldF9qc29uX3ZhbHVlKEdBVEVXQVlfUFJPWFlfSEVBREVSU19SVU5USU1FX0tFWSkKICAgICAgICAuYXdhaXQKICAgIHsKICAgICAgICBPayhTb21lKHZhbHVlKSkgPT4gdmFsdWUsCiAgICAgICAgT2soTm9uZSkgPT4gZGVmYXVsdF9nYXRld2F5X3Byb3h5X2hlYWRlcnNfcnVudGltZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gbG9hZCBnYXRld2F5IHByb3h5IGhlYWRlcnMgcnVudGltZSBmb3IgYm9vdCBzeW5jIik7CiAgICAgICAgICAgIGRlZmF1bHRfZ2F0ZXdheV9wcm94eV9oZWFkZXJzX3J1bnRpbWUoKQogICAgICAgIH0KICAgIH07CiAgICBpZiBsZXQgRXJyKGVycm9yKSA9IHN5bmNfZ2F0ZXdheV9wcm94eV9oZWFkZXJzX3J1bnRpbWUoJnN0YXRlLCAmcHJveHlfaGVhZGVyc19ydW50aW1lKS5hd2FpdCB7CiAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIHN5bmMgZ2F0ZXdheSBwcm94eSBoZWFkZXJzIHJ1bnRpbWUgb24gYm9vdCIpOwogICAgfQoKICAgIGxldCBob3N0X3Jlc3BvbnNlX3J1bnRpbWUgPSBtYXRjaCBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmdldF9qc29uX3ZhbHVlKEdBVEVXQVlfSE9TVF9SRVNQT05TRV9SVU5USU1FX0tFWSkKICAgICAgICAuYXdhaXQKICAgIHsKICAgICAgICBPayhTb21lKHZhbHVlKSkgPT4gdmFsdWUsCiAgICAgICAgT2soTm9uZSkgPT4gZGVmYXVsdF9nYXRld2F5X2hvc3RfcmVzcG9uc2VfcnVudGltZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gbG9hZCBnYXRld2F5IGhvc3QgcmVzcG9uc2UgcnVudGltZSBmb3IgYm9vdCBzeW5jIik7CiAgICAgICAgICAgIGRlZmF1bHRfZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlX3J1bnRpbWUoKQogICAgICAgIH0KICAgIH07CiAgICBpZiBsZXQgRXJyKGVycm9yKSA9CiAgICAgICAgc3luY19nYXRld2F5X2hvc3RfcmVzcG9uc2VfcnVudGltZSgmc3RhdGUsICZjb25maWcsICZob3N0X3Jlc3BvbnNlX3J1bnRpbWUpLmF3YWl0CiAgICB7CiAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIHN5bmMgZ2F0ZXdheSBob3N0IHJlc3BvbnNlIHJ1bnRpbWUgb24gYm9vdCIpOwogICAgfQp9CgpwdWIoY3JhdGUpIGZuIGdhdGV3YXlfbWVtb3J5X2djX3BlcmNlbnQoY29uZmlnOiAmVmFsdWUpIC0+IGkzMiB7CiAgICBjb25maWcKICAgICAgICAucG9pbnRlcigiL2dhdGV3YXlfbWVtb3J5L2djX3BlcmNlbnQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IGkzMjo6dHJ5X2Zyb20odmFsdWUpLm9rKCkpCiAgICAgICAgLmZpbHRlcih8dmFsdWV8IChNSU5fR0FURVdBWV9HQ19QRVJDRU5ULi49TUFYX0dBVEVXQVlfR0NfUEVSQ0VOVCkuY29udGFpbnModmFsdWUpKQogICAgICAgIC51bndyYXBfb3IoREVGQVVMVF9HQVRFV0FZX0dDX1BFUkNFTlQpCn0KCnB1YihjcmF0ZSkgZm4gZ2F0ZXdheV9tZW1vcnlfc2V0dGluZ3MoY29uZmlnOiAmVmFsdWUpIC0+IEdhdGV3YXlNZW1vcnlTZXR0aW5ncyB7CiAgICBHYXRld2F5TWVtb3J5U2V0dGluZ3MgewogICAgICAgIGdjX3BlcmNlbnQ6IGdhdGV3YXlfbWVtb3J5X2djX3BlcmNlbnQoY29uZmlnKSwKICAgICAgICBtZW1vcnlfbGltaXRfbWliOiBjb25maWcKICAgICAgICAgICAgLnBvaW50ZXIoIi9nYXRld2F5X21lbW9yeS9tZW1vcnlfbGltaXRfbWliIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc191NjQpCiAgICAgICAgICAgIC5maWx0ZXIofHZhbHVlfCB7CiAgICAgICAgICAgICAgICAoTUlOX0dBVEVXQVlfTUVNT1JZX0xJTUlUX01JQi4uPU1BWF9HQVRFV0FZX01FTU9SWV9MSU1JVF9NSUIpLmNvbnRhaW5zKHZhbHVlKQogICAgICAgICAgICB9KSwKICAgIH0KfQoKcHViKGNyYXRlKSBmbiBlZmZlY3RpdmVfaG9zdF9tZW1vcnlfYnl0ZXMoKSAtPiBPcHRpb248dTY0PiB7CiAgICBjcmF0ZTo6aW5mcmE6OnN5c3RlbV9yZXNvdXJjZXM6OmVmZmVjdGl2ZV9tZW1vcnlfYnl0ZXMoKS4wCn0KCnB1YihjcmF0ZSkgZm4gcmVzb2x2ZV9nYXRld2F5X21lbW9yeV9saW1pdF9ieXRlcyhzZXR0aW5nczogR2F0ZXdheU1lbW9yeVNldHRpbmdzKSAtPiB1NjQgewogICAgc2V0dGluZ3MubWVtb3J5X2xpbWl0X21pYi5tYXBfb3JfZWxzZSgKICAgICAgICB8fCBhdXRvX2dhdGV3YXlfbWVtb3J5X2xpbWl0X21pYihlZmZlY3RpdmVfaG9zdF9tZW1vcnlfYnl0ZXMoKSksCiAgICAgICAgfHZhbHVlfCB2YWx1ZS5jbGFtcChNSU5fR0FURVdBWV9NRU1PUllfTElNSVRfTUlCLCBNQVhfR0FURVdBWV9NRU1PUllfTElNSVRfTUlCKSwKICAgICkgKiBNSUIKfQoKZm4gYXV0b19nYXRld2F5X21lbW9yeV9saW1pdF9taWIoZWZmZWN0aXZlX21lbW9yeV9ieXRlczogT3B0aW9uPHU2ND4pIC0+IHU2NCB7CiAgICBlZmZlY3RpdmVfbWVtb3J5X2J5dGVzLm1hcF9vcihERUZBVUxUX0FVVE9fTUVNT1JZX0xJTUlUX01JQiwgfGJ5dGVzfCB7CiAgICAgICAgKGJ5dGVzIC8gTUlCIC8gNCkuY2xhbXAoTUlOX0FVVE9fTUVNT1JZX0xJTUlUX01JQiwgTUFYX0FVVE9fTUVNT1JZX0xJTUlUX01JQikKICAgIH0pCn0KCnB1YihjcmF0ZSkgZm4gdmFsaWRhdGVfZ2F0ZXdheV9tZW1vcnlfc2V0dGluZ3MoCiAgICBzZXR0aW5nczogR2F0ZXdheU1lbW9yeVNldHRpbmdzLAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBpZiAhKE1JTl9HQVRFV0FZX0dDX1BFUkNFTlQuLj1NQVhfR0FURVdBWV9HQ19QRVJDRU5UKS5jb250YWlucygmc2V0dGluZ3MuZ2NfcGVyY2VudCkgewogICAgICAgIGFueWhvdzo6YmFpbCEoCiAgICAgICAgICAgICJHQyBwZXJjZW50IG11c3QgYmUgYmV0d2VlbiB7TUlOX0dBVEVXQVlfR0NfUEVSQ0VOVH0gYW5kIHtNQVhfR0FURVdBWV9HQ19QRVJDRU5UfSIKICAgICAgICApOwogICAgfQogICAgaWYgbGV0IFNvbWUobWVtb3J5X2xpbWl0X21pYikgPSBzZXR0aW5ncy5tZW1vcnlfbGltaXRfbWliIHsKICAgICAgICBpZiAhKE1JTl9HQVRFV0FZX01FTU9SWV9MSU1JVF9NSUIuLj1NQVhfR0FURVdBWV9NRU1PUllfTElNSVRfTUlCKQogICAgICAgICAgICAuY29udGFpbnMoJm1lbW9yeV9saW1pdF9taWIpCiAgICAgICAgewogICAgICAgICAgICBhbnlob3c6OmJhaWwhKAogICAgICAgICAgICAgICAgIk1lbW9yeSBsaW1pdCBtdXN0IGJlIGJldHdlZW4ge01JTl9HQVRFV0FZX01FTU9SWV9MSU1JVF9NSUJ9IGFuZCB7TUFYX0dBVEVXQVlfTUVNT1JZX0xJTUlUX01JQn0gTWlCIgogICAgICAgICAgICApOwogICAgICAgIH0KICAgICAgICBpZiBsZXQgU29tZShob3N0X21lbW9yeV9ieXRlcykgPSBlZmZlY3RpdmVfaG9zdF9tZW1vcnlfYnl0ZXMoKQogICAgICAgICAgICAmJiBtZW1vcnlfbGltaXRfbWliLnNhdHVyYXRpbmdfbXVsKE1JQikgPiBob3N0X21lbW9yeV9ieXRlcyAvIDIKICAgICAgICB7CiAgICAgICAgICAgIGFueWhvdzo6YmFpbCEoIk1lbW9yeSBsaW1pdCBtdXN0IG5vdCBleGNlZWQgNTAlIG9mIGVmZmVjdGl2ZSBzeXN0ZW0gbWVtb3J5Iik7CiAgICAgICAgfQogICAgfQogICAgT2soKCkpCn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gc3luY19nYXRld2F5X21lbW9yeV9ydW50aW1lKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGNvbmZpZzogJlZhbHVlLAopIC0+IGFueWhvdzo6UmVzdWx0PEdhdGV3YXlNZW1vcnlTZXR0aW5ncz4gewogICAgbGV0IGV4cGVjdGVkID0gZ2F0ZXdheV9tZW1vcnlfc2V0dGluZ3MoY29uZmlnKTsKICAgIGFwcGx5X2dhdGV3YXlfbWVtb3J5X3NldHRpbmdzKHN0YXRlLCBleHBlY3RlZCkuYXdhaXQKfQoKcHViKGNyYXRlKSBhc3luYyBmbiBhcHBseV9nYXRld2F5X21lbW9yeV9zZXR0aW5ncygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBleHBlY3RlZDogR2F0ZXdheU1lbW9yeVNldHRpbmdzLAopIC0+IGFueWhvdzo6UmVzdWx0PEdhdGV3YXlNZW1vcnlTZXR0aW5ncz4gewogICAgYXBwbHlfZ2F0ZXdheV9tZW1vcnlfc2V0dGluZ3Nfd2l0aF9jbGllbnQoJnN0YXRlLmdhdGV3YXkuY2xpZW50LCBleHBlY3RlZCkuYXdhaXQKfQoKYXN5bmMgZm4gYXBwbHlfZ2F0ZXdheV9tZW1vcnlfc2V0dGluZ3Nfd2l0aF9jbGllbnQoCiAgICBjbGllbnQ6ICZjcmF0ZTo6Z29fYmFja2VuZDo6R29CYWNrZW5kQ2xpZW50LAogICAgZXhwZWN0ZWQ6IEdhdGV3YXlNZW1vcnlTZXR0aW5ncywKKSAtPiBhbnlob3c6OlJlc3VsdDxHYXRld2F5TWVtb3J5U2V0dGluZ3M+IHsKICAgIHZhbGlkYXRlX2dhdGV3YXlfbWVtb3J5X3NldHRpbmdzKGV4cGVjdGVkKT87CiAgICBsZXQgbWVtb3J5X2xpbWl0X2J5dGVzID0gcmVzb2x2ZV9nYXRld2F5X21lbW9yeV9saW1pdF9ieXRlcyhleHBlY3RlZCk7CiAgICBsZXQgKGFwcGxpZWRfZ2NfcGVyY2VudCwgYXBwbGllZF9tZW1vcnlfbGltaXRfYnl0ZXMpID0gY2xpZW50CiAgICAgICAgLnNldF9nYXRld2F5X21lbW9yeV9jb25maWcoZXhwZWN0ZWQuZ2NfcGVyY2VudCwgaTY0Ojp0cnlfZnJvbShtZW1vcnlfbGltaXRfYnl0ZXMpPykKICAgICAgICAuYXdhaXQ/OwogICAgaWYgYXBwbGllZF9nY19wZXJjZW50ICE9IGV4cGVjdGVkLmdjX3BlcmNlbnQKICAgICAgICB8fCB1NjQ6OnRyeV9mcm9tKGFwcGxpZWRfbWVtb3J5X2xpbWl0X2J5dGVzKS5vaygpICE9IFNvbWUobWVtb3J5X2xpbWl0X2J5dGVzKQogICAgewogICAgICAgIGFueWhvdzo6YmFpbCEoCiAgICAgICAgICAgICJHbyBnYXRld2F5IHJlcG9ydGVkIHVuZXhwZWN0ZWQgbWVtb3J5IHNldHRpbmdzOiBleHBlY3RlZF9nYz17fSwgYXBwbGllZF9nYz17fSwgZXhwZWN0ZWRfbGltaXQ9e30sIGFwcGxpZWRfbGltaXQ9e30iLAogICAgICAgICAgICBleHBlY3RlZC5nY19wZXJjZW50LAogICAgICAgICAgICBhcHBsaWVkX2djX3BlcmNlbnQsCiAgICAgICAgICAgIG1lbW9yeV9saW1pdF9ieXRlcywKICAgICAgICAgICAgYXBwbGllZF9tZW1vcnlfbGltaXRfYnl0ZXMsCiAgICAgICAgKTsKICAgIH0KICAgIE9rKGV4cGVjdGVkKQp9CgpwdWIoY3JhdGUpIGFzeW5jIGZuIHN5bmNfZ2F0ZXdheV9tZW1vcnlfb25fYm9vdCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCikgLT4gYW55aG93OjpSZXN1bHQ8R2F0ZXdheU1lbW9yeVNldHRpbmdzPiB7CiAgICBsZXQgX21lbW9yeV91cGRhdGVfZ3VhcmQgPSBzdGF0ZS5nYXRld2F5Lm1lbW9yeV91cGRhdGVfbG9jay5sb2NrKCkuYXdhaXQ7CiAgICBsZXQgY29uZmlnID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQ/OwogICAgc3luY19nYXRld2F5X21lbW9yeV9ydW50aW1lKHN0YXRlLCAmY29uZmlnKS5hd2FpdAp9CgpwdWIoY3JhdGUpIGFzeW5jIGZuIHN5bmNfZ2F0ZXdheV9tZW1vcnlfb25fYm9vdF93aXRoX3RpbWVvdXQoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgdGltZW91dDogc3RkOjp0aW1lOjpEdXJhdGlvbiwKKSAtPiBhbnlob3c6OlJlc3VsdDxHYXRld2F5TWVtb3J5U2V0dGluZ3M+IHsKICAgIGxldCBfbWVtb3J5X3VwZGF0ZV9ndWFyZCA9IHN0YXRlLmdhdGV3YXkubWVtb3J5X3VwZGF0ZV9sb2NrLmxvY2soKS5hd2FpdDsKICAgIGxldCBjb25maWcgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9jb25maWcoKS5hd2FpdD87CiAgICBsZXQgZXhwZWN0ZWQgPSBnYXRld2F5X21lbW9yeV9zZXR0aW5ncygmY29uZmlnKTsKICAgIGxldCBjbGllbnQgPSBzdGF0ZS5nYXRld2F5LmNsaWVudC53aXRoX3RpbWVvdXQodGltZW91dCk/OwogICAgYXBwbHlfZ2F0ZXdheV9tZW1vcnlfc2V0dGluZ3Nfd2l0aF9jbGllbnQoJmNsaWVudCwgZXhwZWN0ZWQpLmF3YWl0Cn0KCnN0cnVjdCBDb21waWxlZEdhdGV3YXlWaXNpYmlsaXR5IHsKICAgIGNvbmZpZzogVmFsdWUsCiAgICBydW50aW1lOiBWYWx1ZSwKICAgIHBvbGljeTogT3B0aW9uPGNyYXRlOjpjaWRyOjpDb21waWxlZElwU2V0PiwKfQoKcHViKGNyYXRlKSBzdHJ1Y3QgQ29tcGlsZWRIb3N0VmlzaWJpbGl0eSB7CiAgICBwdWIoY3JhdGUpIGNvbmZpZzogVmFsdWUsCiAgICBwdWIoY3JhdGUpIHBvbGljeTogY3JhdGU6OmNpZHI6OkNvbXBpbGVkSXBTZXQsCn0KCnN0cnVjdCBDb21waWxlZEdhdGV3YXlUYXJnZXRSdW50aW1lIHsKICAgIGNvbmZpZzogVmFsdWUsCiAgICBydW50aW1lOiBWYWx1ZSwKfQoKbW9kIGNvbXBpbGU7Cm1vZCBkZXRhaWxzOwptb2QgaGFuZGxlcnM7Cm1vZCBob3N0czsKbW9kIGh0dHAzOwptb2QgbWlncmF0ZTsKbW9kIG5vcm1hbGl6ZTsKbW9kIHBhdGNoOwptb2QgcHJveHlfcHJvdG9jb2w7Cm1vZCByb2xsYmFjazsKbW9kIHJ1bnRpbWU7CgpwdWIoY3JhdGUpIHVzZSBjb21waWxlOjpjb21waWxlX2hvc3RfdmlzaWJpbGl0eV9jb25maWc7CnVzZSBjb21waWxlOjoqOwp1c2UgZGV0YWlsczo6KjsKdXNlIGhvc3RzOjoqOwpwdWIoY3JhdGUpIHVzZSBtaWdyYXRlOjp7bWlncmF0ZV92aXNpYmlsaXR5X3BvbGljaWVzX2xvY2tlZCwgbWlncmF0ZV92aXNpYmlsaXR5X3BvbGljaWVzX29uX2Jvb3R9OwpwdWIoY3JhdGUpIHVzZSBub3JtYWxpemU6OmRlZmF1bHRfcmV2ZXJzZV9wcm94eV90aHJvdHRsZTsKdXNlIG5vcm1hbGl6ZTo6KjsKdXNlIHBhdGNoOjoqOwp1c2UgcHJveHlfcHJvdG9jb2w6Oio7CnVzZSByb2xsYmFjazo6KjsKdXNlIHJ1bnRpbWU6OnsKICAgIGFwcGx5X2dhdGV3YXlfcG9ydGFsX2hvc3RfcnVsZXNfcGF0Y2hlc19pZl9uZWVkZWQsIHN5bmNfZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlX3J1bnRpbWUsCiAgICBzeW5jX2dhdGV3YXlfcHJveHlfaGVhZGVyc19ydW50aW1lLCBzeW5jX2dhdGV3YXlfdmlzaWJpbGl0eV9ydW50aW1lLAp9OwpwdWIoY3JhdGUpIHVzZSBydW50aW1lOjp7CiAgICBzeW5jX2dhdGV3YXlfcnVudGltZSwgc3luY19nYXRld2F5X3RhcmdldF9ydW50aW1lX2Zvcl9jb25maWcsCiAgICBzeW5jX2dhdGV3YXlfdmlzaWJpbGl0eV9ydW50aW1lX2Zyb21fc3RvcmUsCn07CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzOwo=
+use std::{collections::BTreeSet, net::IpAddr};
+
+use axum::{
+    extract::State,
+    http::StatusCode,
+    response::{IntoResponse, Response},
+};
+use ipnet::IpNet;
+use serde_json::{Map, Value, json};
+use url::Url;
+
+use crate::{
+    cidr::{CidrOperator, CidrRegionQuery, CompiledIpSet, compile_ip_set},
+    i18n::Translator,
+    proxy_config::{self, build_gateway_auth_config},
+    response,
+    state::AppState,
+    time_utils, whitelist,
+};
+
+const GATEWAY_VISIBILITY_RUNTIME_KEY: &str = "fn_knock:gateway:visibility:runtime";
+const GATEWAY_PROXY_HEADERS_RUNTIME_KEY: &str = "fn_knock:gateway:proxy-headers:runtime";
+const GATEWAY_HOST_RESPONSE_RUNTIME_KEY: &str = "fn_knock:gateway:host-response:runtime";
+const GATEWAY_PORTAL_TITLE_HOST_RULES_PATCH_FLAG_KEY: &str =
+    "fn_knock:patch:gateway-portal-title-host-rules:v1";
+const GATEWAY_PORTAL_ICON_HOST_RULES_PATCH_FLAG_KEY: &str =
+    "fn_knock:patch:gateway-portal-icon-host-rules:v1";
+const GO_BACKEND_UNSUCCESSFUL_RESPONSE: &str = "Go backend returned an unsuccessful response";
+pub(crate) const DEFAULT_REVERSE_PROXY_THROTTLE_REQUESTS_PER_SECOND: i64 = 500;
+pub(crate) const DEFAULT_REVERSE_PROXY_THROTTLE_BURST: i64 = 1_000;
+pub(crate) const DEFAULT_REVERSE_PROXY_THROTTLE_BLOCK_SECONDS: i64 = 30;
+pub(crate) const DEFAULT_GATEWAY_GC_PERCENT: i32 = 100;
+pub(crate) const MIN_GATEWAY_GC_PERCENT: i32 = 25;
+pub(crate) const MAX_GATEWAY_GC_PERCENT: i32 = 500;
+pub(crate) const MIN_GATEWAY_MEMORY_LIMIT_MIB: u64 = 64;
+pub(crate) const MAX_GATEWAY_MEMORY_LIMIT_MIB: u64 = 4096;
+const DEFAULT_AUTO_MEMORY_LIMIT_MIB: u64 = 256;
+const MIN_AUTO_MEMORY_LIMIT_MIB: u64 = 128;
+const MAX_AUTO_MEMORY_LIMIT_MIB: u64 = 512;
+const MIB: u64 = 1024 * 1024;
+
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+pub(crate) struct GatewayMemorySettings {
+    pub(crate) gc_percent: i32,
+    pub(crate) memory_limit_mib: Option<u64>,
+}
+
+fn gateway_route_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.admin.gatewaySettingsRoutes.{key}"))
+}
+
+fn gateway_route_text_params(
+    translator: &Translator,
+    key: &str,
+    params: &[(&str, String)],
+) -> String {
+    translator.t_params(&format!("server.admin.gatewaySettingsRoutes.{key}"), params)
+}
+
+fn localize_gateway_route_message(translator: &Translator, message: &str) -> String {
+    match message.trim() {
+        "Gateway payload must be an object" | "Gateway visibility payload must be an object" => {
+            gateway_route_text(translator, "payloadObjectRequired")
+        }
+        "Failed to load config" => gateway_route_text(translator, "loadConfigFailed"),
+        "Failed to load runtime" => gateway_route_text(translator, "loadRuntimeFailed"),
+        GO_BACKEND_UNSUCCESSFUL_RESPONSE => {
+            translator.t("server.admin.runtimeConfigRoutes.upstreamUnavailable")
+        }
+        _ => crate::cidr::localize_error(translator, message),
+    }
+}
+
+pub fn gateway_settings_routes() -> utoipa_axum::router::OpenApiRouter<AppState> {
+    handlers::routes()
+}
+
+pub(crate) async fn sync_gateway_settings_on_boot(state: AppState) {
+    let config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => {
+            tracing::warn!(%error, "failed to load config for gateway settings boot sync");
+            return;
+        }
+    };
+
+    if let Err(error) = sync_gateway_runtime(&state, &config).await {
+        tracing::warn!(%error, "failed to sync gateway base runtime on boot");
+    }
+
+    if let Err(error) = sync_gateway_memory_on_boot(&state).await {
+        tracing::warn!(%error, "failed to refresh gateway memory runtime during boot sync");
+    }
+
+    let visibility_runtime = match state
+        .storage
+        .store
+        .get_json_value(GATEWAY_VISIBILITY_RUNTIME_KEY)
+        .await
+    {
+        Ok(Some(value)) => value,
+        Ok(None) => default_gateway_visibility_runtime(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load gateway visibility runtime for boot sync");
+            default_gateway_visibility_runtime()
+        }
+    };
+    if let Err(error) = sync_gateway_visibility_runtime(&state, &visibility_runtime).await {
+        tracing::warn!(%error, "failed to sync gateway visibility runtime on boot");
+    }
+
+    let proxy_headers_runtime = match state
+        .storage
+        .store
+        .get_json_value(GATEWAY_PROXY_HEADERS_RUNTIME_KEY)
+        .await
+    {
+        Ok(Some(value)) => value,
+        Ok(None) => default_gateway_proxy_headers_runtime(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load gateway proxy headers runtime for boot sync");
+            default_gateway_proxy_headers_runtime()
+        }
+    };
+    if let Err(error) = sync_gateway_proxy_headers_runtime(&state, &proxy_headers_runtime).await {
+        tracing::warn!(%error, "failed to sync gateway proxy headers runtime on boot");
+    }
+
+    let host_response_runtime = match state
+        .storage
+        .store
+        .get_json_value(GATEWAY_HOST_RESPONSE_RUNTIME_KEY)
+        .await
+    {
+        Ok(Some(value)) => value,
+        Ok(None) => default_gateway_host_response_runtime(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load gateway host response runtime for boot sync");
+            default_gateway_host_response_runtime()
+        }
+    };
+    if let Err(error) =
+        sync_gateway_host_response_runtime(&state, &config, &host_response_runtime).await
+    {
+        tracing::warn!(%error, "failed to sync gateway host response runtime on boot");
+    }
+}
+
+pub(crate) fn gateway_memory_gc_percent(config: &Value) -> i32 {
+    config
+        .pointer("/gateway_memory/gc_percent")
+        .and_then(Value::as_i64)
+        .and_then(|value| i32::try_from(value).ok())
+        .filter(|value| (MIN_GATEWAY_GC_PERCENT..=MAX_GATEWAY_GC_PERCENT).contains(value))
+        .unwrap_or(DEFAULT_GATEWAY_GC_PERCENT)
+}
+
+pub(crate) fn gateway_memory_settings(config: &Value) -> GatewayMemorySettings {
+    GatewayMemorySettings {
+        gc_percent: gateway_memory_gc_percent(config),
+        memory_limit_mib: config
+            .pointer("/gateway_memory/memory_limit_mib")
+            .and_then(Value::as_u64)
+            .filter(|value| {
+                (MIN_GATEWAY_MEMORY_LIMIT_MIB..=MAX_GATEWAY_MEMORY_LIMIT_MIB).contains(value)
+            }),
+    }
+}
+
+pub(crate) fn effective_host_memory_bytes() -> Option<u64> {
+    crate::infra::system_resources::effective_memory_bytes().0
+}
+
+pub(crate) fn resolve_gateway_memory_limit_bytes(settings: GatewayMemorySettings) -> u64 {
+    settings.memory_limit_mib.map_or_else(
+        || auto_gateway_memory_limit_mib(effective_host_memory_bytes()),
+        |value| value.clamp(MIN_GATEWAY_MEMORY_LIMIT_MIB, MAX_GATEWAY_MEMORY_LIMIT_MIB),
+    ) * MIB
+}
+
+fn auto_gateway_memory_limit_mib(effective_memory_bytes: Option<u64>) -> u64 {
+    effective_memory_bytes.map_or(DEFAULT_AUTO_MEMORY_LIMIT_MIB, |bytes| {
+        (bytes / MIB / 4).clamp(MIN_AUTO_MEMORY_LIMIT_MIB, MAX_AUTO_MEMORY_LIMIT_MIB)
+    })
+}
+
+pub(crate) fn validate_gateway_memory_settings(
+    settings: GatewayMemorySettings,
+) -> anyhow::Result<()> {
+    if !(MIN_GATEWAY_GC_PERCENT..=MAX_GATEWAY_GC_PERCENT).contains(&settings.gc_percent) {
+        anyhow::bail!(
+            "GC percent must be between {MIN_GATEWAY_GC_PERCENT} and {MAX_GATEWAY_GC_PERCENT}"
+        );
+    }
+    if let Some(memory_limit_mib) = settings.memory_limit_mib {
+        if !(MIN_GATEWAY_MEMORY_LIMIT_MIB..=MAX_GATEWAY_MEMORY_LIMIT_MIB)
+            .contains(&memory_limit_mib)
+        {
+            anyhow::bail!(
+                "Memory limit must be between {MIN_GATEWAY_MEMORY_LIMIT_MIB} and {MAX_GATEWAY_MEMORY_LIMIT_MIB} MiB"
+            );
+        }
+        if let Some(host_memory_bytes) = effective_host_memory_bytes()
+            && memory_limit_mib.saturating_mul(MIB) > host_memory_bytes / 2
+        {
+            anyhow::bail!("Memory limit must not exceed 50% of effective system memory");
+        }
+    }
+    Ok(())
+}
+
+pub(crate) async fn sync_gateway_memory_runtime(
+    state: &AppState,
+    config: &Value,
+) -> anyhow::Result<GatewayMemorySettings> {
+    let expected = gateway_memory_settings(config);
+    apply_gateway_memory_settings(state, expected).await
+}
+
+pub(crate) async fn apply_gateway_memory_settings(
+    state: &AppState,
+    expected: GatewayMemorySettings,
+) -> anyhow::Result<GatewayMemorySettings> {
+    apply_gateway_memory_settings_with_client(&state.gateway.client, expected).await
+}
+
+async fn apply_gateway_memory_settings_with_client(
+    client: &crate::go_backend::GoBackendClient,
+    expected: GatewayMemorySettings,
+) -> anyhow::Result<GatewayMemorySettings> {
+    validate_gateway_memory_settings(expected)?;
+    let memory_limit_bytes = resolve_gateway_memory_limit_bytes(expected);
+    let (applied_gc_percent, applied_memory_limit_bytes) = client
+        .set_gateway_memory_config(expected.gc_percent, i64::try_from(memory_limit_bytes)?)
+        .await?;
+    if applied_gc_percent != expected.gc_percent
+        || u64::try_from(applied_memory_limit_bytes).ok() != Some(memory_limit_bytes)
+    {
+        anyhow::bail!(
+            "Go gateway reported unexpected memory settings: expected_gc={}, applied_gc={}, expected_limit={}, applied_limit={}",
+            expected.gc_percent,
+            applied_gc_percent,
+            memory_limit_bytes,
+            applied_memory_limit_bytes,
+        );
+    }
+    Ok(expected)
+}
+
+pub(crate) async fn sync_gateway_memory_on_boot(
+    state: &AppState,
+) -> anyhow::Result<GatewayMemorySettings> {
+    let _memory_update_guard = state.gateway.memory_update_lock.lock().await;
+    let config = state.storage.store.get_config().await?;
+    sync_gateway_memory_runtime(state, &config).await
+}
+
+pub(crate) async fn sync_gateway_memory_on_boot_with_timeout(
+    state: &AppState,
+    timeout: std::time::Duration,
+) -> anyhow::Result<GatewayMemorySettings> {
+    let _memory_update_guard = state.gateway.memory_update_lock.lock().await;
+    let config = state.storage.store.get_config().await?;
+    let expected = gateway_memory_settings(&config);
+    let client = state.gateway.client.with_timeout(timeout)?;
+    apply_gateway_memory_settings_with_client(&client, expected).await
+}
+
+struct CompiledGatewayVisibility {
+    config: Value,
+    runtime: Value,
+    policy: Option<crate::cidr::CompiledIpSet>,
+}
+
+pub(crate) struct CompiledHostVisibility {
+    pub(crate) config: Value,
+    pub(crate) policy: crate::cidr::CompiledIpSet,
+}
+
+struct CompiledGatewayTargetRuntime {
+    config: Value,
+    runtime: Value,
+}
+
+mod compile;
+mod details;
+mod handlers;
+mod hosts;
+mod http3;
+mod migrate;
+mod normalize;
+mod patch;
+mod proxy_protocol;
+mod rollback;
+mod runtime;
+
+pub(crate) use compile::compile_host_visibility_config;
+use compile::*;
+use details::*;
+use hosts::*;
+pub(crate) use migrate::{migrate_visibility_policies_locked, migrate_visibility_policies_on_boot};
+pub(crate) use normalize::default_reverse_proxy_throttle;
+use normalize::*;
+use patch::*;
+use proxy_protocol::*;
+use rollback::*;
+use runtime::{
+    apply_gateway_portal_host_rules_patches_if_needed, sync_gateway_host_response_runtime,
+    sync_gateway_proxy_headers_runtime, sync_gateway_visibility_runtime,
+};
+pub(crate) use runtime::{
+    sync_gateway_runtime, sync_gateway_target_runtime_for_config,
+    sync_gateway_visibility_runtime_from_store,
+};
+
+#[cfg(test)]
+mod tests;

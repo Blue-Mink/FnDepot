@@ -1,1 +1,17 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBTY2FuRGlzY292ZXJ5SW50ZW5zaXR5RGlhbG9nIGZyb20gIkAvY29tcG9uZW50cy9TY2FuRGlzY292ZXJ5SW50ZW5zaXR5RGlhbG9nLnZ1ZSI7CmltcG9ydCBSZXZlcnNlUHJveHlEaWFsb2dzIGZyb20gIi4vcmV2ZXJzZS1wcm94eS9SZXZlcnNlUHJveHlEaWFsb2dzLnZ1ZSI7CmltcG9ydCBSZXZlcnNlUHJveHlNYXBwaW5nc0NhcmQgZnJvbSAiLi9yZXZlcnNlLXByb3h5L1JldmVyc2VQcm94eU1hcHBpbmdzQ2FyZC52dWUiOwppbXBvcnQgeyB1c2VSZXZlcnNlUHJveHlQYWdlIH0gZnJvbSAiLi9yZXZlcnNlLXByb3h5L3VzZVJldmVyc2VQcm94eVBhZ2UiOwoKY29uc3QgcGFnZSA9IHVzZVJldmVyc2VQcm94eVBhZ2UoKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFJldmVyc2VQcm94eU1hcHBpbmdzQ2FyZCA6bW9kZWw9InBhZ2UiIC8+CiAgPFNjYW5EaXNjb3ZlcnlJbnRlbnNpdHlEaWFsb2cKICAgIHYtbW9kZWw6b3Blbj0icGFnZS5pc1NjYW5JbnRlbnNpdHlEaWFsb2dPcGVuIgogICAgOmRpc2FibGVkPSJwYWdlLmlzRGlzY292ZXJpbmciCiAgLz4KICA8UmV2ZXJzZVByb3h5RGlhbG9ncyA6bW9kZWw9InBhZ2UiIC8+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import ScanDiscoveryIntensityDialog from "@/components/ScanDiscoveryIntensityDialog.vue";
+import ReverseProxyDialogs from "./reverse-proxy/ReverseProxyDialogs.vue";
+import ReverseProxyMappingsCard from "./reverse-proxy/ReverseProxyMappingsCard.vue";
+import { useReverseProxyPage } from "./reverse-proxy/useReverseProxyPage";
+
+const page = useReverseProxyPage();
+</script>
+
+<template>
+  <ReverseProxyMappingsCard :model="page" />
+  <ScanDiscoveryIntensityDialog
+    v-model:open="page.isScanIntensityDialogOpen"
+    :disabled="page.isDiscovering"
+  />
+  <ReverseProxyDialogs :model="page" />
+</template>

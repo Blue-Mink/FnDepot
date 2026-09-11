@@ -1,1 +1,55 @@
-aW1wb3J0IHR5cGUgeyBjb21wb25lbnRzIGFzIEFwaUNvbnRyYWN0Q29tcG9uZW50cyB9IGZyb20gIkBmbi1rbm9jay9hcGktY29udHJhY3QiOwppbXBvcnQgeyBhcGlDbGllbnQgfSBmcm9tICIuL2NsaWVudCI7Cgp0eXBlIFN0YXRpY1BhdGhQcm9iZUJvZHkgPQogIEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJTdGF0aWNQYXRoUHJvYmVCb2R5RGF0YSJdOwpleHBvcnQgdHlwZSBTdGF0aWNQYXRoUHJvYmVUYXJnZXRUeXBlID0gU3RhdGljUGF0aFByb2JlQm9keVsidGFyZ2V0X3R5cGUiXTsKZXhwb3J0IHR5cGUgU3RhdGljUGF0aFByb2JlUmVzdWx0ID0KICBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiU3RhdGljUGF0aFByb2JlUmVzdWx0RGF0YSJdOwpleHBvcnQgdHlwZSBTdGF0aWNQYXRoUHJvYmVFcnJvckNvZGUgPSBFeGNsdWRlPAogIFN0YXRpY1BhdGhQcm9iZVJlc3VsdFsiZXJyb3JfY29kZSJdLAogIG51bGwKPjsKCnR5cGUgU3RhdGljUGF0aEJyb3dzZUJvZHkgPQogIEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJTdGF0aWNQYXRoQnJvd3NlQm9keURhdGEiXTsKZXhwb3J0IHR5cGUgU3RhdGljUGF0aEJyb3dzZVJlc3VsdCA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIlN0YXRpY1BhdGhCcm93c2VSZXN1bHREYXRhIl07CmV4cG9ydCB0eXBlIFN0YXRpY1BhdGhCcm93c2VFbnRyeSA9IFN0YXRpY1BhdGhCcm93c2VSZXN1bHRbImVudHJpZXMiXVtudW1iZXJdOwoKZXhwb3J0IGNvbnN0IGNvbmZpZ0hvc3RNYXBwaW5nU3RhdGljQXBpID0gewogIGFzeW5jIGJyb3dzZUhvc3RNYXBwaW5nU3RhdGljUGF0aCgKICAgIHRhcmdldFR5cGU6IFN0YXRpY1BhdGhQcm9iZVRhcmdldFR5cGUsCiAgICBwYXRoOiBzdHJpbmcgfCBudWxsID0gbnVsbCwKICAgIGN1cnNvcjogc3RyaW5nIHwgbnVsbCA9IG51bGwsCiAgICBmb3JMb2dTdG9yYWdlID0gZmFsc2UsCiAgKTogUHJvbWlzZTxTdGF0aWNQYXRoQnJvd3NlUmVzdWx0PiB7CiAgICBjb25zdCBib2R5ID0gewogICAgICB0YXJnZXRfdHlwZTogdGFyZ2V0VHlwZSwKICAgICAgcGF0aCwKICAgICAgY3Vyc29yLAogICAgICAuLi4oZm9yTG9nU3RvcmFnZSA/IHsgZm9yX2xvZ19zdG9yYWdlOiB0cnVlIH0gOiB7fSksCiAgICB9IHNhdGlzZmllcyBTdGF0aWNQYXRoQnJvd3NlQm9keTsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KAogICAgICAiL2NvbmZpZy9ob3N0X21hcHBpbmdzL3N0YXRpY19wYXRoX2Jyb3dzZSIsCiAgICAgIGJvZHksCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBwcm9iZUhvc3RNYXBwaW5nU3RhdGljUGF0aCgKICAgIHRhcmdldFR5cGU6IFN0YXRpY1BhdGhQcm9iZVRhcmdldFR5cGUsCiAgICBwYXRoOiBzdHJpbmcsCiAgICBmb3JMb2dTdG9yYWdlID0gZmFsc2UsCiAgKTogUHJvbWlzZTxTdGF0aWNQYXRoUHJvYmVSZXN1bHQ+IHsKICAgIGNvbnN0IGJvZHkgPSB7CiAgICAgIHRhcmdldF90eXBlOiB0YXJnZXRUeXBlLAogICAgICBwYXRoLAogICAgICAuLi4oZm9yTG9nU3RvcmFnZSA/IHsgZm9yX2xvZ19zdG9yYWdlOiB0cnVlIH0gOiB7fSksCiAgICB9IHNhdGlzZmllcyBTdGF0aWNQYXRoUHJvYmVCb2R5OwogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoCiAgICAgICIvY29uZmlnL2hvc3RfbWFwcGluZ3Mvc3RhdGljX3BhdGhfcHJvYmUiLAogICAgICBib2R5LAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCn07Cg==
+import type { components as ApiContractComponents } from "@fn-knock/api-contract";
+import { apiClient } from "./client";
+
+type StaticPathProbeBody =
+  ApiContractComponents["schemas"]["StaticPathProbeBodyData"];
+export type StaticPathProbeTargetType = StaticPathProbeBody["target_type"];
+export type StaticPathProbeResult =
+  ApiContractComponents["schemas"]["StaticPathProbeResultData"];
+export type StaticPathProbeErrorCode = Exclude<
+  StaticPathProbeResult["error_code"],
+  null
+>;
+
+type StaticPathBrowseBody =
+  ApiContractComponents["schemas"]["StaticPathBrowseBodyData"];
+export type StaticPathBrowseResult =
+  ApiContractComponents["schemas"]["StaticPathBrowseResultData"];
+export type StaticPathBrowseEntry = StaticPathBrowseResult["entries"][number];
+
+export const configHostMappingStaticApi = {
+  async browseHostMappingStaticPath(
+    targetType: StaticPathProbeTargetType,
+    path: string | null = null,
+    cursor: string | null = null,
+    forLogStorage = false,
+  ): Promise<StaticPathBrowseResult> {
+    const body = {
+      target_type: targetType,
+      path,
+      cursor,
+      ...(forLogStorage ? { for_log_storage: true } : {}),
+    } satisfies StaticPathBrowseBody;
+    const res = await apiClient.post(
+      "/config/host_mappings/static_path_browse",
+      body,
+    );
+    return res.data.data;
+  },
+  async probeHostMappingStaticPath(
+    targetType: StaticPathProbeTargetType,
+    path: string,
+    forLogStorage = false,
+  ): Promise<StaticPathProbeResult> {
+    const body = {
+      target_type: targetType,
+      path,
+      ...(forLogStorage ? { for_log_storage: true } : {}),
+    } satisfies StaticPathProbeBody;
+    const res = await apiClient.post(
+      "/config/host_mappings/static_path_probe",
+      body,
+    );
+    return res.data.data;
+  },
+};

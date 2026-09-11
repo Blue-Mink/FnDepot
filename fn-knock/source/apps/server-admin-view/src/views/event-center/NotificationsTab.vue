@@ -1,1 +1,107 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdXNlUm91dGUsIHVzZVJvdXRlciB9IGZyb20gInZ1ZS1yb3V0ZXIiOwppbXBvcnQgewogIFJla2FUYWJzLAogIFJla2FUYWJzQ29udGVudCwKICBSZWthVGFic0xpc3QsCiAgUmVrYVRhYnNUcmlnZ2VyLAp9IGZyb20gIkAvY29tcG9uZW50cy9yZWthLXRhYnMiOwppbXBvcnQgeyB1c2VTeW5jZWRRdWVyeVRhYiB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlU3luY2VkUXVlcnlUYWIiOwppbXBvcnQgUHJvdmlkZXJzVGFiIGZyb20gIi4vbm90aWZpY2F0aW9ucy9Qcm92aWRlcnNUYWIudnVlIjsKaW1wb3J0IFJ1bGVzVGFiIGZyb20gIi4vbm90aWZpY2F0aW9ucy9SdWxlc1RhYi52dWUiOwppbXBvcnQgRGVsaXZlcmllc1RhYiBmcm9tICIuL25vdGlmaWNhdGlvbnMvRGVsaXZlcmllc1RhYi52dWUiOwoKY29uc3Qgbm90aWZpY2F0aW9uVGFicyA9IFsKICB7CiAgICB2YWx1ZTogInByb3ZpZGVycyIsCiAgICBsYWJlbEtleTogImFkbWluLm5vdGlmaWNhdGlvbnMudGFicy5wcm92aWRlcnMiLAogIH0sCiAgewogICAgdmFsdWU6ICJydWxlcyIsCiAgICBsYWJlbEtleTogImFkbWluLm5vdGlmaWNhdGlvbnMudGFicy5ydWxlcyIsCiAgfSwKICB7CiAgICB2YWx1ZTogImRlbGl2ZXJpZXMiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5ub3RpZmljYXRpb25zLnRhYnMuZGVsaXZlcmllcyIsCiAgfSwKXSBhcyBjb25zdDsKCnR5cGUgTm90aWZpY2F0aW9uVGFiVmFsdWUgPSAodHlwZW9mIG5vdGlmaWNhdGlvblRhYnMpW251bWJlcl1bInZhbHVlIl07Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7CmNvbnN0IHJvdXRlID0gdXNlUm91dGUoKTsKCmNvbnN0IGFsbG93ZWRUYWJzID0gbm90aWZpY2F0aW9uVGFicy5tYXAoKHRhYikgPT4gdGFiLnZhbHVlKTsKY29uc3QgaXNOb3RpZmljYXRpb25zUm91dGVBY3RpdmUgPSBjb21wdXRlZCgKICAoKSA9PiBTdHJpbmcocm91dGUucXVlcnkudGFiIHx8ICJldmVudHMiKSA9PT0gIm5vdGlmaWNhdGlvbnMiLAopOwoKY29uc3QgeyBjdXJyZW50VGFiLCBuYXZpZ2F0ZVRvIH0gPSB1c2VTeW5jZWRRdWVyeVRhYih7CiAgcm91dGUsCiAgcm91dGVyLAogIGRlZmF1bHRUYWI6ICJwcm92aWRlcnMiLAogIGFsbG93ZWRUYWJzLAogIHF1ZXJ5S2V5OiAibm90aWZpY2F0aW9uc1RhYiIsCiAgYWN0aXZlOiBpc05vdGlmaWNhdGlvbnNSb3V0ZUFjdGl2ZSwKfSk7Cgpjb25zdCB2aXNpdGVkVGFicyA9IHJlZjxOb3RpZmljYXRpb25UYWJWYWx1ZVtdPihbInByb3ZpZGVycyJdKTsKCndhdGNoKGN1cnJlbnRUYWIsIChuZXh0VGFiKSA9PiB7CiAgY29uc3Qgbm9ybWFsaXplZFRhYiA9IG5leHRUYWIgYXMgTm90aWZpY2F0aW9uVGFiVmFsdWU7CiAgaWYgKHZpc2l0ZWRUYWJzLnZhbHVlLmluY2x1ZGVzKG5vcm1hbGl6ZWRUYWIpKSByZXR1cm47CiAgdmlzaXRlZFRhYnMudmFsdWUgPSBbLi4udmlzaXRlZFRhYnMudmFsdWUsIG5vcm1hbGl6ZWRUYWJdOwp9KTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0ibWluLWgtMCI+CiAgICA8UmVrYVRhYnMKICAgICAgOm1vZGVsLXZhbHVlPSJjdXJyZW50VGFiIgogICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJuYXZpZ2F0ZVRvIgogICAgICA6dW5tb3VudC1vbi1oaWRlPSJmYWxzZSIKICAgICAgY2xhc3M9Im1pbi1oLTAgZ2FwLTAgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1ib3JkZXIvNzAgYmctY2FyZCBzaGFkb3ctc20iCiAgICA+CiAgICAgIDxkaXYgY2xhc3M9ImJvcmRlci1iIGJvcmRlci1ib3JkZXIvNzAgYmctbXV0ZWQvMjAgcHgtNCBzbTpweC02Ij4KICAgICAgICA8UmVrYVRhYnNMaXN0CiAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4ubm90aWZpY2F0aW9ucy50YWJzLmFyaWEnKSIKICAgICAgICAgIGNsYXNzPSJ3LWZpdCByb3VuZGVkLW5vbmUgYm9yZGVyLTAgYmctdHJhbnNwYXJlbnQgcHgtMCBhZnRlcjpyaWdodC0wIGFmdGVyOmxlZnQtMCBhZnRlcjpiZy1ib3JkZXIvNzAiCiAgICAgICAgICBpbmRpY2F0b3ItY2xhc3M9ImgtcHggYmctZm9yZWdyb3VuZCIKICAgICAgICA+CiAgICAgICAgICA8UmVrYVRhYnNUcmlnZ2VyCiAgICAgICAgICAgIHYtZm9yPSJ0YWIgaW4gbm90aWZpY2F0aW9uVGFicyIKICAgICAgICAgICAgOmtleT0idGFiLnZhbHVlIgogICAgICAgICAgICA6dmFsdWU9InRhYi52YWx1ZSIKICAgICAgICAgICAgY2xhc3M9Im1pbi13LVsxMDhweF0gcHgtNSB0ZXh0LW11dGVkLWZvcmVncm91bmQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctdHJhbnNwYXJlbnQgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIGZvY3VzLXZpc2libGU6cmluZy1yaW5nLzMwIGRhdGEtW3N0YXRlPWFjdGl2ZV06Zm9udC1zZW1pYm9sZCBkYXRhLVtzdGF0ZT1hY3RpdmVdOnRleHQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCh0YWIubGFiZWxLZXkpIH19CiAgICAgICAgICA8L1Jla2FUYWJzVHJpZ2dlcj4KICAgICAgICA8L1Jla2FUYWJzTGlzdD4KICAgICAgPC9kaXY+CgogICAgICA8UmVrYVRhYnNDb250ZW50IHZhbHVlPSJwcm92aWRlcnMiIGNsYXNzPSJtaW4taC0wIj4KICAgICAgICA8UHJvdmlkZXJzVGFiCiAgICAgICAgICB2LWlmPSJ2aXNpdGVkVGFicy5pbmNsdWRlcygncHJvdmlkZXJzJykiCiAgICAgICAgICA6YWN0aXZlPSJjdXJyZW50VGFiID09PSAncHJvdmlkZXJzJyIKICAgICAgICAvPgogICAgICA8L1Jla2FUYWJzQ29udGVudD4KCiAgICAgIDxSZWthVGFic0NvbnRlbnQgdmFsdWU9InJ1bGVzIiBjbGFzcz0ibWluLWgtMCI+CiAgICAgICAgPFJ1bGVzVGFiCiAgICAgICAgICB2LWlmPSJ2aXNpdGVkVGFicy5pbmNsdWRlcygncnVsZXMnKSIKICAgICAgICAgIDphY3RpdmU9ImN1cnJlbnRUYWIgPT09ICdydWxlcyciCiAgICAgICAgLz4KICAgICAgPC9SZWthVGFic0NvbnRlbnQ+CgogICAgICA8UmVrYVRhYnNDb250ZW50IHZhbHVlPSJkZWxpdmVyaWVzIiBjbGFzcz0ibWluLWgtMCI+CiAgICAgICAgPERlbGl2ZXJpZXNUYWIKICAgICAgICAgIHYtaWY9InZpc2l0ZWRUYWJzLmluY2x1ZGVzKCdkZWxpdmVyaWVzJykiCiAgICAgICAgICA6YWN0aXZlPSJjdXJyZW50VGFiID09PSAnZGVsaXZlcmllcyciCiAgICAgICAgLz4KICAgICAgPC9SZWthVGFic0NvbnRlbnQ+CiAgICA8L1Jla2FUYWJzPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRoute, useRouter } from "vue-router";
+import {
+  RekaTabs,
+  RekaTabsContent,
+  RekaTabsList,
+  RekaTabsTrigger,
+} from "@/components/reka-tabs";
+import { useSyncedQueryTab } from "@admin-shared/composables/useSyncedQueryTab";
+import ProvidersTab from "./notifications/ProvidersTab.vue";
+import RulesTab from "./notifications/RulesTab.vue";
+import DeliveriesTab from "./notifications/DeliveriesTab.vue";
+
+const notificationTabs = [
+  {
+    value: "providers",
+    labelKey: "admin.notifications.tabs.providers",
+  },
+  {
+    value: "rules",
+    labelKey: "admin.notifications.tabs.rules",
+  },
+  {
+    value: "deliveries",
+    labelKey: "admin.notifications.tabs.deliveries",
+  },
+] as const;
+
+type NotificationTabValue = (typeof notificationTabs)[number]["value"];
+
+const { t } = useI18n();
+const router = useRouter();
+const route = useRoute();
+
+const allowedTabs = notificationTabs.map((tab) => tab.value);
+const isNotificationsRouteActive = computed(
+  () => String(route.query.tab || "events") === "notifications",
+);
+
+const { currentTab, navigateTo } = useSyncedQueryTab({
+  route,
+  router,
+  defaultTab: "providers",
+  allowedTabs,
+  queryKey: "notificationsTab",
+  active: isNotificationsRouteActive,
+});
+
+const visitedTabs = ref<NotificationTabValue[]>(["providers"]);
+
+watch(currentTab, (nextTab) => {
+  const normalizedTab = nextTab as NotificationTabValue;
+  if (visitedTabs.value.includes(normalizedTab)) return;
+  visitedTabs.value = [...visitedTabs.value, normalizedTab];
+});
+</script>
+
+<template>
+  <div class="min-h-0">
+    <RekaTabs
+      :model-value="currentTab"
+      @update:model-value="navigateTo"
+      :unmount-on-hide="false"
+      class="min-h-0 gap-0 overflow-hidden rounded-xl border border-border/70 bg-card shadow-sm"
+    >
+      <div class="border-b border-border/70 bg-muted/20 px-4 sm:px-6">
+        <RekaTabsList
+          :aria-label="t('admin.notifications.tabs.aria')"
+          class="w-fit rounded-none border-0 bg-transparent px-0 after:right-0 after:left-0 after:bg-border/70"
+          indicator-class="h-px bg-foreground"
+        >
+          <RekaTabsTrigger
+            v-for="tab in notificationTabs"
+            :key="tab.value"
+            :value="tab.value"
+            class="min-w-[108px] px-5 text-muted-foreground transition-colors hover:bg-transparent hover:text-foreground focus-visible:ring-ring/30 data-[state=active]:font-semibold data-[state=active]:text-foreground"
+          >
+            {{ t(tab.labelKey) }}
+          </RekaTabsTrigger>
+        </RekaTabsList>
+      </div>
+
+      <RekaTabsContent value="providers" class="min-h-0">
+        <ProvidersTab
+          v-if="visitedTabs.includes('providers')"
+          :active="currentTab === 'providers'"
+        />
+      </RekaTabsContent>
+
+      <RekaTabsContent value="rules" class="min-h-0">
+        <RulesTab
+          v-if="visitedTabs.includes('rules')"
+          :active="currentTab === 'rules'"
+        />
+      </RekaTabsContent>
+
+      <RekaTabsContent value="deliveries" class="min-h-0">
+        <DeliveriesTab
+          v-if="visitedTabs.includes('deliveries')"
+          :active="currentTab === 'deliveries'"
+        />
+      </RekaTabsContent>
+    </RekaTabs>
+  </div>
+</template>

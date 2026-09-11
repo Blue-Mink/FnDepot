@@ -1,1 +1,19 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgQ29sbGFwc2libGVSb290RW1pdHMsIENvbGxhcHNpYmxlUm9vdFByb3BzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgQ29sbGFwc2libGVSb290LCB1c2VGb3J3YXJkUHJvcHNFbWl0cyB9IGZyb20gInJla2EtdWkiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPENvbGxhcHNpYmxlUm9vdFByb3BzPigpCmNvbnN0IGVtaXRzID0gZGVmaW5lRW1pdHM8Q29sbGFwc2libGVSb290RW1pdHM+KCkKCmNvbnN0IGZvcndhcmRlZCA9IHVzZUZvcndhcmRQcm9wc0VtaXRzKHByb3BzLCBlbWl0cykKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPENvbGxhcHNpYmxlUm9vdAogICAgdi1zbG90PSJzbG90UHJvcHMiCiAgICBkYXRhLXNsb3Q9ImNvbGxhcHNpYmxlIgogICAgdi1iaW5kPSJmb3J3YXJkZWQiCiAgPgogICAgPHNsb3Qgdi1iaW5kPSJzbG90UHJvcHMiIC8+CiAgPC9Db2xsYXBzaWJsZVJvb3Q+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { CollapsibleRootEmits, CollapsibleRootProps } from "reka-ui"
+import { CollapsibleRoot, useForwardPropsEmits } from "reka-ui"
+
+const props = defineProps<CollapsibleRootProps>()
+const emits = defineEmits<CollapsibleRootEmits>()
+
+const forwarded = useForwardPropsEmits(props, emits)
+</script>
+
+<template>
+  <CollapsibleRoot
+    v-slot="slotProps"
+    data-slot="collapsible"
+    v-bind="forwarded"
+  >
+    <slot v-bind="slotProps" />
+  </CollapsibleRoot>
+</template>

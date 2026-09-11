@@ -1,1 +1,387 @@
-aW1wb3J0IHR5cGUgewogIEFkdmFuY2VkQXV0aENvbmRpdGlvbiwKICBBZHZhbmNlZEF1dGhDb25kaXRpb25Db250cmFjdCwKICBBZHZhbmNlZEF1dGhDb25kaXRpb25UYXJnZXQsCiAgQWR2YW5jZWRBdXRoQ29uZmlnLAogIEFkdmFuY2VkQXV0aENvbmZpZ0NvbnRyYWN0LAogIEFkdmFuY2VkQXV0aE9wZXJhdG9yLAogIEFkdmFuY2VkQXV0aFJ1bGVHcm91cCwKfSBmcm9tICIuLi8uLi90eXBlcyI7CmltcG9ydCB7IGdldENpZHJSZWdpb25TZWxlY3Rpb25MYWJlbCB9IGZyb20gIi4uLy4uL3R5cGVzL2NpZHIiOwppbXBvcnQgewogIGZvcm1hdEFkdmFuY2VkQXV0aFZhbHVlTGlzdCwKICBnZXRTb3VyY2VOZXR3b3JrVmFsaWRhdGlvbklzc3VlLAogIHBhcnNlQWR2YW5jZWRBdXRoVmFsdWVMaXN0LAogIHBhcnNlU291cmNlTmV0d29ya1RleHRhcmVhLAogIHNvdXJjZU5ldHdvcmtJbnB1dEtpbmQsCn0gZnJvbSAiLi9hZHZhbmNlZC1hdXRoLXNvdXJjZS1uZXR3b3JrIjsKCmV4cG9ydCBjb25zdCBNQVhfQURWQU5DRURfQVVUSF9HUk9VUFMgPSAxNjsKZXhwb3J0IGNvbnN0IE1BWF9BRFZBTkNFRF9BVVRIX0NPTkRJVElPTlMgPSAxNjsKZXhwb3J0IGNvbnN0IFNFQ09ORFNfUEVSX01JTlVURSA9IDYwOwpleHBvcnQgY29uc3QgU0VDT05EU19QRVJfSE9VUiA9IDYwICogU0VDT05EU19QRVJfTUlOVVRFOwpleHBvcnQgY29uc3QgTUlOX0FEVkFOQ0VEX0FVVEhfVFRMX1NFQ09ORFMgPSA1ICogU0VDT05EU19QRVJfTUlOVVRFOwpleHBvcnQgY29uc3QgTUFYX0FEVkFOQ0VEX0FVVEhfSURMRV9UVExfU0VDT05EUyA9CiAgMzAgKiAyNCAqIFNFQ09ORFNfUEVSX0hPVVI7CmV4cG9ydCBjb25zdCBNQVhfQURWQU5DRURfQVVUSF9MSUZFVElNRV9TRUNPTkRTID0KICAzNjUgKiAyNCAqIFNFQ09ORFNfUEVSX0hPVVI7CmV4cG9ydCBjb25zdCBNSU5fQURWQU5DRURfQVVUSF9UVExfSE9VUlMgPSBOdW1iZXIoCiAgKE1JTl9BRFZBTkNFRF9BVVRIX1RUTF9TRUNPTkRTIC8gU0VDT05EU19QRVJfSE9VUikudG9GaXhlZCgyKSwKKTsKZXhwb3J0IGNvbnN0IE1BWF9BRFZBTkNFRF9BVVRIX0lETEVfVFRMX0hPVVJTID0KICBNQVhfQURWQU5DRURfQVVUSF9JRExFX1RUTF9TRUNPTkRTIC8gU0VDT05EU19QRVJfSE9VUjsKZXhwb3J0IGNvbnN0IE1BWF9BRFZBTkNFRF9BVVRIX0xJRkVUSU1FX0hPVVJTID0KICBNQVhfQURWQU5DRURfQVVUSF9MSUZFVElNRV9TRUNPTkRTIC8gU0VDT05EU19QRVJfSE9VUjsKCmV4cG9ydCBjb25zdCBhZHZhbmNlZEF1dGhUYXJnZXRPcHRpb25zOiBBcnJheTx7CiAgdmFsdWU6IEFkdmFuY2VkQXV0aENvbmRpdGlvblRhcmdldDsKICBsYWJlbEtleTogc3RyaW5nOwp9PiA9IFsKICB7IHZhbHVlOiAic291cmNlX2lwIiwgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgudGFyZ2V0U291cmNlSXAiIH0sCiAgeyB2YWx1ZTogInNvdXJjZV9yZWdpb24iLCBsYWJlbEtleTogImFkbWluLmFkdmFuY2VkQXV0aC50YXJnZXRTb3VyY2VSZWdpb24iIH0sCiAgeyB2YWx1ZTogInVybF9wYXRoIiwgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgudGFyZ2V0VXJsUGF0aCIgfSwKICB7CiAgICB2YWx1ZTogInJlcXVlc3RfaGVhZGVyIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uYWR2YW5jZWRBdXRoLnRhcmdldFJlcXVlc3RIZWFkZXIiLAogIH0sCiAgewogICAgdmFsdWU6ICJxdWVyeV9wYXJhbWV0ZXIiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgudGFyZ2V0UXVlcnlQYXJhbWV0ZXIiLAogIH0sCiAgeyB2YWx1ZTogImh0dHBfbWV0aG9kIiwgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgudGFyZ2V0SHR0cE1ldGhvZCIgfSwKXTsKCmNvbnN0IGNvbW1vbk5hbWVkVmFsdWVPcGVyYXRvcnM6IEFycmF5PHsKICB2YWx1ZTogQWR2YW5jZWRBdXRoT3BlcmF0b3I7CiAgbGFiZWxLZXk6IHN0cmluZzsKfT4gPSBbCiAgeyB2YWx1ZTogImV4aXN0cyIsIGxhYmVsS2V5OiAiYWRtaW4uYWR2YW5jZWRBdXRoLm9wZXJhdG9yRXhpc3RzIiB9LAogIHsgdmFsdWU6ICJub3RfZXhpc3RzIiwgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgub3BlcmF0b3JOb3RFeGlzdHMiIH0sCiAgeyB2YWx1ZTogImVxdWFscyIsIGxhYmVsS2V5OiAiYWRtaW4uYWR2YW5jZWRBdXRoLm9wZXJhdG9yRXF1YWxzIiB9LAogIHsgdmFsdWU6ICJub3RfZXF1YWxzIiwgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgub3BlcmF0b3JOb3RFcXVhbHMiIH0sCiAgeyB2YWx1ZTogImNvbnRhaW5zIiwgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgub3BlcmF0b3JDb250YWlucyIgfSwKICB7CiAgICB2YWx1ZTogIm5vdF9jb250YWlucyIsCiAgICBsYWJlbEtleTogImFkbWluLmFkdmFuY2VkQXV0aC5vcGVyYXRvck5vdENvbnRhaW5zIiwKICB9LAogIHsgdmFsdWU6ICJzdGFydHNfd2l0aCIsIGxhYmVsS2V5OiAiYWRtaW4uYWR2YW5jZWRBdXRoLm9wZXJhdG9yU3RhcnRzV2l0aCIgfSwKICB7CiAgICB2YWx1ZTogIm5vdF9zdGFydHNfd2l0aCIsCiAgICBsYWJlbEtleTogImFkbWluLmFkdmFuY2VkQXV0aC5vcGVyYXRvck5vdFN0YXJ0c1dpdGgiLAogIH0sCiAgeyB2YWx1ZTogImVuZHNfd2l0aCIsIGxhYmVsS2V5OiAiYWRtaW4uYWR2YW5jZWRBdXRoLm9wZXJhdG9yRW5kc1dpdGgiIH0sCiAgewogICAgdmFsdWU6ICJub3RfZW5kc193aXRoIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uYWR2YW5jZWRBdXRoLm9wZXJhdG9yTm90RW5kc1dpdGgiLAogIH0sCiAgeyB2YWx1ZTogInJlZ2V4IiwgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgub3BlcmF0b3JSZWdleCIgfSwKICB7IHZhbHVlOiAibm90X3JlZ2V4IiwgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgub3BlcmF0b3JOb3RSZWdleCIgfSwKXTsKCmV4cG9ydCBjb25zdCBhZHZhbmNlZEF1dGhPcGVyYXRvcnNCeVRhcmdldDogUmVjb3JkPAogIEFkdmFuY2VkQXV0aENvbmRpdGlvblRhcmdldCwKICBBcnJheTx7IHZhbHVlOiBBZHZhbmNlZEF1dGhPcGVyYXRvcjsgbGFiZWxLZXk6IHN0cmluZyB9Pgo+ID0gewogIHNvdXJjZV9pcDogWwogICAgeyB2YWx1ZTogImVxdWFscyIsIGxhYmVsS2V5OiAiYWRtaW4uYWR2YW5jZWRBdXRoLm9wZXJhdG9yRXF1YWxzIiB9LAogICAgeyB2YWx1ZTogIm5vdF9lcXVhbHMiLCBsYWJlbEtleTogImFkbWluLmFkdmFuY2VkQXV0aC5vcGVyYXRvck5vdEVxdWFscyIgfSwKICAgIHsgdmFsdWU6ICJpbl9jaWRyIiwgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgub3BlcmF0b3JJbkNpZHIiIH0sCiAgICB7IHZhbHVlOiAibm90X2luX2NpZHIiLCBsYWJlbEtleTogImFkbWluLmFkdmFuY2VkQXV0aC5vcGVyYXRvck5vdEluQ2lkciIgfSwKICBdLAogIHNvdXJjZV9yZWdpb246IFsKICAgIHsgdmFsdWU6ICJpbiIsIGxhYmVsS2V5OiAiYWRtaW4uYWR2YW5jZWRBdXRoLm9wZXJhdG9ySW5SZWdpb24iIH0sCiAgICB7IHZhbHVlOiAibm90X2luIiwgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgub3BlcmF0b3JOb3RJblJlZ2lvbiIgfSwKICBdLAogIHVybF9wYXRoOiBbCiAgICB7IHZhbHVlOiAiZXF1YWxzIiwgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgub3BlcmF0b3JFcXVhbHMiIH0sCiAgICB7IHZhbHVlOiAibm90X2VxdWFscyIsIGxhYmVsS2V5OiAiYWRtaW4uYWR2YW5jZWRBdXRoLm9wZXJhdG9yTm90RXF1YWxzIiB9LAogICAgeyB2YWx1ZTogInByZWZpeCIsIGxhYmVsS2V5OiAiYWRtaW4uYWR2YW5jZWRBdXRoLm9wZXJhdG9yUHJlZml4IiB9LAogICAgeyB2YWx1ZTogIm5vdF9wcmVmaXgiLCBsYWJlbEtleTogImFkbWluLmFkdmFuY2VkQXV0aC5vcGVyYXRvck5vdFByZWZpeCIgfSwKICAgIHsgdmFsdWU6ICJjb250YWlucyIsIGxhYmVsS2V5OiAiYWRtaW4uYWR2YW5jZWRBdXRoLm9wZXJhdG9yQ29udGFpbnMiIH0sCiAgICB7CiAgICAgIHZhbHVlOiAibm90X2NvbnRhaW5zIiwKICAgICAgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgub3BlcmF0b3JOb3RDb250YWlucyIsCiAgICB9LAogICAgeyB2YWx1ZTogInJlZ2V4IiwgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgub3BlcmF0b3JSZWdleCIgfSwKICAgIHsgdmFsdWU6ICJub3RfcmVnZXgiLCBsYWJlbEtleTogImFkbWluLmFkdmFuY2VkQXV0aC5vcGVyYXRvck5vdFJlZ2V4IiB9LAogIF0sCiAgcmVxdWVzdF9oZWFkZXI6IFsuLi5jb21tb25OYW1lZFZhbHVlT3BlcmF0b3JzXSwKICBxdWVyeV9wYXJhbWV0ZXI6IFsuLi5jb21tb25OYW1lZFZhbHVlT3BlcmF0b3JzXSwKICBodHRwX21ldGhvZDogWwogICAgeyB2YWx1ZTogImluIiwgbGFiZWxLZXk6ICJhZG1pbi5hZHZhbmNlZEF1dGgub3BlcmF0b3JNZXRob2RJbiIgfSwKICAgIHsgdmFsdWU6ICJub3RfaW4iLCBsYWJlbEtleTogImFkbWluLmFkdmFuY2VkQXV0aC5vcGVyYXRvck1ldGhvZE5vdEluIiB9LAogIF0sCn07Cgpjb25zdCBuZXdJZCA9IChwcmVmaXg6IHN0cmluZykgPT4KICBgJHtwcmVmaXh9LSR7TWF0aC5yYW5kb20oKS50b1N0cmluZygzNikuc2xpY2UoMiwgMTApfS0ke0RhdGUubm93KCkudG9TdHJpbmcoMzYpfWA7CgpleHBvcnQgY29uc3QgY3JlYXRlQmxhbmtBZHZhbmNlZEF1dGhDb25kaXRpb24gPSAoKTogQWR2YW5jZWRBdXRoQ29uZGl0aW9uID0+ICh7CiAgaWQ6IG5ld0lkKCJjb25kaXRpb24iKSwKICB0YXJnZXQ6ICJzb3VyY2VfaXAiLAogIG9wZXJhdG9yOiAiZXF1YWxzIiwKICBuYW1lOiAiIiwKICB2YWx1ZXM6IFsiIl0sCiAgc2VsZWN0aW9uczogW10sCn0pOwoKZXhwb3J0IGNvbnN0IGNyZWF0ZUJsYW5rQWR2YW5jZWRBdXRoR3JvdXAgPSAoKTogQWR2YW5jZWRBdXRoUnVsZUdyb3VwID0+ICh7CiAgaWQ6IG5ld0lkKCJncm91cCIpLAogIGNvbmRpdGlvbnM6IFtjcmVhdGVCbGFua0FkdmFuY2VkQXV0aENvbmRpdGlvbigpXSwKfSk7CgpleHBvcnQgY29uc3QgY2xvbmVBZHZhbmNlZEF1dGhDb25kaXRpb24gPSAoCiAgY29uZGl0aW9uOiBBZHZhbmNlZEF1dGhDb25kaXRpb25Db250cmFjdCB8IEFkdmFuY2VkQXV0aENvbmRpdGlvbiwKKTogQWR2YW5jZWRBdXRoQ29uZGl0aW9uID0+IHsKICBjb25zdCBjb21waWxlZFZhbHVlcyA9IGNvbmRpdGlvbi5jaWRycyA/PyBbXTsKICBjb25zdCB2YWx1ZXMgPSBjb25kaXRpb24udmFsdWVzPy5sZW5ndGgKICAgID8gWy4uLmNvbmRpdGlvbi52YWx1ZXNdCiAgICA6IGNvbmRpdGlvbi50YXJnZXQgPT09ICJzb3VyY2VfaXAiCiAgICAgID8gY29tcGlsZWRWYWx1ZXMubWFwKCh2YWx1ZSkgPT4KICAgICAgICAgIGNvbmRpdGlvbi5vcGVyYXRvciA9PT0gImVxdWFscyIgfHwgY29uZGl0aW9uLm9wZXJhdG9yID09PSAibm90X2VxdWFscyIKICAgICAgICAgICAgPyB2YWx1ZS5yZXBsYWNlKC9cLygzMnwxMjgpJC8sICIiKQogICAgICAgICAgICA6IHZhbHVlLAogICAgICAgICkKICAgICAgOiBbXTsKICByZXR1cm4gewogICAgLi4uY29uZGl0aW9uLAogICAgdmFsdWVzLAogICAgc2VsZWN0aW9uczogKGNvbmRpdGlvbi5zZWxlY3Rpb25zID8/IFtdKS5tYXAoKHNlbGVjdGlvbikgPT4gKHsKICAgICAgLi4uc2VsZWN0aW9uLAogICAgICBsYWJlbDogZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbkxhYmVsKHNlbGVjdGlvbiksCiAgICB9KSksCiAgICBjaWRyczogWy4uLmNvbXBpbGVkVmFsdWVzXSwKICB9Owp9OwoKZXhwb3J0IGNvbnN0IGNsb25lQWR2YW5jZWRBdXRoQ29uZmlnID0gKAogIGNvbmZpZzogQWR2YW5jZWRBdXRoQ29uZmlnQ29udHJhY3QgfCBBZHZhbmNlZEF1dGhDb25maWcsCik6IEFkdmFuY2VkQXV0aENvbmZpZyA9PiAoewogIGVuYWJsZWQ6IGNvbmZpZy5lbmFibGVkID09PSB0cnVlLAogIGlkbGVfdHRsX3NlY29uZHM6IE51bWJlcihjb25maWcuaWRsZV90dGxfc2Vjb25kcykgfHwgMjQgKiBTRUNPTkRTX1BFUl9IT1VSLAogIG1heF9saWZldGltZV9zZWNvbmRzOgogICAgTnVtYmVyKGNvbmZpZy5tYXhfbGlmZXRpbWVfc2Vjb25kcykgfHwgMzAgKiAyNCAqIFNFQ09ORFNfUEVSX0hPVVIsCiAgcG9saWN5X3ZlcnNpb246IGNvbmZpZy5wb2xpY3lfdmVyc2lvbiwKICBncm91cHM6IChjb25maWcuZ3JvdXBzID8/IFtdKS5tYXAoKGdyb3VwKSA9PiAoewogICAgaWQ6IGdyb3VwLmlkLAogICAgY29uZGl0aW9uczogKGdyb3VwLmNvbmRpdGlvbnMgPz8gW10pLm1hcChjbG9uZUFkdmFuY2VkQXV0aENvbmRpdGlvbiksCiAgfSkpLAp9KTsKCmV4cG9ydCBjb25zdCBnZXRBZHZhbmNlZEF1dGhTb3VyY2VJcERpc3BsYXlWYWx1ZSA9ICgKICBjb25kaXRpb246IEFkdmFuY2VkQXV0aENvbmRpdGlvbiwKKSA9PiB7CiAgY29uc3QgdmFsdWVzID0gY29uZGl0aW9uLnZhbHVlcz8ubGVuZ3RoCiAgICA/IGNvbmRpdGlvbi52YWx1ZXMKICAgIDogKGNvbmRpdGlvbi5jaWRycyA/PyBbXSk7CiAgcmV0dXJuIGZvcm1hdEFkdmFuY2VkQXV0aFZhbHVlTGlzdCgKICAgIHZhbHVlcy5tYXAoKHZhbHVlKSA9PiB7CiAgICAgIGlmICgKICAgICAgICBjb25kaXRpb24ub3BlcmF0b3IgPT09ICJlcXVhbHMiIHx8CiAgICAgICAgY29uZGl0aW9uLm9wZXJhdG9yID09PSAibm90X2VxdWFscyIKICAgICAgKSB7CiAgICAgICAgcmV0dXJuIHZhbHVlLnJlcGxhY2UoL1wvKDMyfDEyOCkkLywgIiIpOwogICAgICB9CiAgICAgIHJldHVybiB2YWx1ZTsKICAgIH0pLAogICk7Cn07CgpleHBvcnQgY29uc3QgZ2V0U291cmNlTmV0d29ya1RyYW5zbGF0aW9uS2V5ID0gKAogIGNvbmRpdGlvbjogQWR2YW5jZWRBdXRoQ29uZGl0aW9uLAogIHN1ZmZpeDogIkxhYmVsIiB8ICJQbGFjZWhvbGRlciIgfCAiSGludCIsCikgPT4KICBgYWRtaW4uYWR2YW5jZWRBdXRoLnNvdXJjZSR7c291cmNlTmV0d29ya0lucHV0S2luZChjb25kaXRpb24ub3BlcmF0b3IpID09PSAiYWRkcmVzcyIgPyAiSXAiIDogIkNpZHIifSR7c3VmZml4fWA7CgpleHBvcnQgY29uc3QgYWR2YW5jZWRBdXRoQ29uZGl0aW9uTmVlZHNWYWx1ZSA9ICgKICBjb25kaXRpb246IEFkdmFuY2VkQXV0aENvbmRpdGlvbiwKKSA9PgogIGNvbmRpdGlvbi50YXJnZXQgIT09ICJzb3VyY2VfcmVnaW9uIiAmJgogIGNvbmRpdGlvbi5vcGVyYXRvciAhPT0gImV4aXN0cyIgJiYKICBjb25kaXRpb24ub3BlcmF0b3IgIT09ICJub3RfZXhpc3RzIjsKCmV4cG9ydCBjb25zdCBjcmVhdGVBZHZhbmNlZEF1dGhSdWxlRWRpdG9yID0gKAogIGZvcm06IEFkdmFuY2VkQXV0aENvbmZpZywKICB2YWx1ZURyYWZ0czogUmVjb3JkPHN0cmluZywgc3RyaW5nPiwKKSA9PiB7CiAgY29uc3Qgc291cmNlSXBEaXNwbGF5VmFsdWUgPSBnZXRBZHZhbmNlZEF1dGhTb3VyY2VJcERpc3BsYXlWYWx1ZTsKICBjb25zdCBjbGVhclZhbHVlRHJhZnQgPSAoY29uZGl0aW9uOiBBZHZhbmNlZEF1dGhDb25kaXRpb24pID0+IHsKICAgIGRlbGV0ZSB2YWx1ZURyYWZ0c1tjb25kaXRpb24uaWRdOwogIH07CiAgY29uc3QgdmFsdWVUZXh0ID0gKGNvbmRpdGlvbjogQWR2YW5jZWRBdXRoQ29uZGl0aW9uKSA9PgogICAgZm9ybWF0QWR2YW5jZWRBdXRoVmFsdWVMaXN0KGNvbmRpdGlvbi52YWx1ZXMgPz8gW10pOwoKICByZXR1cm4gewogICAgc291cmNlSXBEaXNwbGF5VmFsdWUsCiAgICBzb3VyY2VOZXR3b3JrVHJhbnNsYXRpb25LZXk6IGdldFNvdXJjZU5ldHdvcmtUcmFuc2xhdGlvbktleSwKICAgIG5lZWRzVmFsdWU6IGFkdmFuY2VkQXV0aENvbmRpdGlvbk5lZWRzVmFsdWUsCiAgICBvcGVyYXRvcnNGb3I6ICh0YXJnZXQ6IEFkdmFuY2VkQXV0aENvbmRpdGlvblRhcmdldCkgPT4KICAgICAgYWR2YW5jZWRBdXRoT3BlcmF0b3JzQnlUYXJnZXRbdGFyZ2V0XSwKICAgIHNldFNvdXJjZUlwVmFsdWU6IChjb25kaXRpb246IEFkdmFuY2VkQXV0aENvbmRpdGlvbiwgdmFsdWU6IHN0cmluZykgPT4gewogICAgICB2YWx1ZURyYWZ0c1tjb25kaXRpb24uaWRdID0gdmFsdWU7CiAgICAgIGNvbmRpdGlvbi52YWx1ZXMgPSBwYXJzZVNvdXJjZU5ldHdvcmtUZXh0YXJlYSh2YWx1ZSk7CiAgICB9LAogICAgdmFsdWVUZXh0LAogICAgc2V0VmFsdWVUZXh0OiAoY29uZGl0aW9uOiBBZHZhbmNlZEF1dGhDb25kaXRpb24sIHZhbHVlOiBzdHJpbmcpID0+IHsKICAgICAgdmFsdWVEcmFmdHNbY29uZGl0aW9uLmlkXSA9IHZhbHVlOwogICAgICBjb25kaXRpb24udmFsdWVzID0gcGFyc2VBZHZhbmNlZEF1dGhWYWx1ZUxpc3QodmFsdWUpOwogICAgfSwKICAgIHZhbHVlSW5wdXRUZXh0OiAoY29uZGl0aW9uOiBBZHZhbmNlZEF1dGhDb25kaXRpb24pID0+CiAgICAgIHZhbHVlRHJhZnRzW2NvbmRpdGlvbi5pZF0gPz8KICAgICAgKGNvbmRpdGlvbi50YXJnZXQgPT09ICJzb3VyY2VfaXAiCiAgICAgICAgPyBzb3VyY2VJcERpc3BsYXlWYWx1ZShjb25kaXRpb24pCiAgICAgICAgOiB2YWx1ZVRleHQoY29uZGl0aW9uKSksCiAgICBub3JtYWxpemVWYWx1ZURyYWZ0OiAoY29uZGl0aW9uOiBBZHZhbmNlZEF1dGhDb25kaXRpb24pID0+IHsKICAgICAgdmFsdWVEcmFmdHNbY29uZGl0aW9uLmlkXSA9CiAgICAgICAgY29uZGl0aW9uLnRhcmdldCA9PT0gInNvdXJjZV9pcCIKICAgICAgICAgID8gc291cmNlSXBEaXNwbGF5VmFsdWUoY29uZGl0aW9uKQogICAgICAgICAgOiB2YWx1ZVRleHQoY29uZGl0aW9uKTsKICAgIH0sCiAgICB1cGRhdGVUYXJnZXQ6ICgKICAgICAgY29uZGl0aW9uOiBBZHZhbmNlZEF1dGhDb25kaXRpb24sCiAgICAgIHRhcmdldDogQWR2YW5jZWRBdXRoQ29uZGl0aW9uVGFyZ2V0LAogICAgKSA9PiB7CiAgICAgIGNsZWFyVmFsdWVEcmFmdChjb25kaXRpb24pOwogICAgICBjb25kaXRpb24udGFyZ2V0ID0gdGFyZ2V0OwogICAgICBjb25kaXRpb24ub3BlcmF0b3IgPQogICAgICAgIGFkdmFuY2VkQXV0aE9wZXJhdG9yc0J5VGFyZ2V0W3RhcmdldF1bMF0/LnZhbHVlID8/ICJlcXVhbHMiOwogICAgICBjb25kaXRpb24udmFsdWVzID0gdGFyZ2V0ID09PSAic291cmNlX3JlZ2lvbiIgPyBbXSA6IFsiIl07CiAgICAgIGNvbmRpdGlvbi5zZWxlY3Rpb25zID0gW107CiAgICAgIGNvbmRpdGlvbi5jaWRycyA9IHVuZGVmaW5lZDsKICAgIH0sCiAgICB1cGRhdGVPcGVyYXRvcjogKAogICAgICBjb25kaXRpb246IEFkdmFuY2VkQXV0aENvbmRpdGlvbiwKICAgICAgb3BlcmF0b3I6IEFkdmFuY2VkQXV0aE9wZXJhdG9yLAogICAgKSA9PiB7CiAgICAgIGNsZWFyVmFsdWVEcmFmdChjb25kaXRpb24pOwogICAgICBjb25kaXRpb24ub3BlcmF0b3IgPSBvcGVyYXRvcjsKICAgICAgaWYgKG9wZXJhdG9yID09PSAiZXhpc3RzIiB8fCBvcGVyYXRvciA9PT0gIm5vdF9leGlzdHMiKSB7CiAgICAgICAgY29uZGl0aW9uLnZhbHVlcyA9IFtdOwogICAgICB9CiAgICB9LAogICAgYWRkR3JvdXA6ICgpID0+IHsKICAgICAgaWYgKGZvcm0uZ3JvdXBzLmxlbmd0aCA+PSBNQVhfQURWQU5DRURfQVVUSF9HUk9VUFMpIHJldHVybjsKICAgICAgZm9ybS5ncm91cHMucHVzaChjcmVhdGVCbGFua0FkdmFuY2VkQXV0aEdyb3VwKCkpOwogICAgfSwKICAgIHJlbW92ZUdyb3VwOiAoZ3JvdXBJbmRleDogbnVtYmVyKSA9PiB7CiAgICAgIGZvcm0uZ3JvdXBzW2dyb3VwSW5kZXhdPy5jb25kaXRpb25zLmZvckVhY2goY2xlYXJWYWx1ZURyYWZ0KTsKICAgICAgZm9ybS5ncm91cHMuc3BsaWNlKGdyb3VwSW5kZXgsIDEpOwogICAgfSwKICAgIGFkZENvbmRpdGlvbjogKGdyb3VwOiBBZHZhbmNlZEF1dGhSdWxlR3JvdXApID0+IHsKICAgICAgaWYgKGdyb3VwLmNvbmRpdGlvbnMubGVuZ3RoID49IE1BWF9BRFZBTkNFRF9BVVRIX0NPTkRJVElPTlMpIHJldHVybjsKICAgICAgZ3JvdXAuY29uZGl0aW9ucy5wdXNoKGNyZWF0ZUJsYW5rQWR2YW5jZWRBdXRoQ29uZGl0aW9uKCkpOwogICAgfSwKICAgIHJlbW92ZUNvbmRpdGlvbjogKGdyb3VwOiBBZHZhbmNlZEF1dGhSdWxlR3JvdXAsIGluZGV4OiBudW1iZXIpID0+IHsKICAgICAgY29uc3QgY29uZGl0aW9uID0gZ3JvdXAuY29uZGl0aW9uc1tpbmRleF07CiAgICAgIGlmIChjb25kaXRpb24pIGNsZWFyVmFsdWVEcmFmdChjb25kaXRpb24pOwogICAgICBncm91cC5jb25kaXRpb25zLnNwbGljZShpbmRleCwgMSk7CiAgICB9LAogIH07Cn07CgpleHBvcnQgdHlwZSBBZHZhbmNlZEF1dGhSdWxlRWRpdG9yID0gUmV0dXJuVHlwZTwKICB0eXBlb2YgY3JlYXRlQWR2YW5jZWRBdXRoUnVsZUVkaXRvcgo+OwoKZXhwb3J0IGNvbnN0IHNlY29uZHNUb0FkdmFuY2VkQXV0aEhvdXJJbnB1dCA9IChzZWNvbmRzOiBudW1iZXIpID0+IHsKICBjb25zdCBob3VycyA9IHNlY29uZHMgLyBTRUNPTkRTX1BFUl9IT1VSOwogIHJldHVybiBOdW1iZXIuaXNJbnRlZ2VyKGhvdXJzKSA/IGhvdXJzIDogTnVtYmVyKGhvdXJzLnRvRml4ZWQoMikpOwp9OwoKZXhwb3J0IGNvbnN0IGFkdmFuY2VkQXV0aEhvdXJJbnB1dFRvU2Vjb25kcyA9ICgKICB2YWx1ZTogbnVtYmVyLAogIG1heGltdW06IG51bWJlciwKKSA9PiB7CiAgY29uc3QgaG91cnMgPSBOdW1iZXIodmFsdWUpOwogIGlmICghTnVtYmVyLmlzRmluaXRlKGhvdXJzKSkgcmV0dXJuIE1JTl9BRFZBTkNFRF9BVVRIX1RUTF9TRUNPTkRTOwogIHJldHVybiBNYXRoLm1pbigKICAgIG1heGltdW0sCiAgICBNYXRoLm1heCgKICAgICAgTUlOX0FEVkFOQ0VEX0FVVEhfVFRMX1NFQ09ORFMsCiAgICAgIE1hdGgucm91bmQoaG91cnMgKiA2MCkgKiBTRUNPTkRTX1BFUl9NSU5VVEUsCiAgICApLAogICk7Cn07CgpleHBvcnQgY29uc3Qgc25hcHNob3RBZHZhbmNlZEF1dGhDb25maWcgPSAoY29uZmlnOiBBZHZhbmNlZEF1dGhDb25maWcpID0+CiAgSlNPTi5zdHJpbmdpZnkoewogICAgZW5hYmxlZDogY29uZmlnLmVuYWJsZWQsCiAgICBpZGxlX3R0bF9zZWNvbmRzOiBjb25maWcuaWRsZV90dGxfc2Vjb25kcywKICAgIG1heF9saWZldGltZV9zZWNvbmRzOiBjb25maWcubWF4X2xpZmV0aW1lX3NlY29uZHMsCiAgICBncm91cHM6IGNvbmZpZy5ncm91cHMsCiAgfSk7CgpleHBvcnQgY29uc3QgaXNBZHZhbmNlZEF1dGhCcm9hZFJ1bGUgPSAoY29uZmlnOiBBZHZhbmNlZEF1dGhDb25maWcpID0+CiAgY29uZmlnLmdyb3Vwcy5zb21lKChncm91cCkgPT4gewogICAgY29uc3QgY29uZGl0aW9ucyA9IGdyb3VwLmNvbmRpdGlvbnM7CiAgICBpZiAoIWNvbmRpdGlvbnMubGVuZ3RoKSByZXR1cm4gZmFsc2U7CiAgICBpZiAoY29uZGl0aW9ucy5ldmVyeSgoY29uZGl0aW9uKSA9PiBjb25kaXRpb24ub3BlcmF0b3Iuc3RhcnRzV2l0aCgibm90XyIpKSkKICAgICAgcmV0dXJuIHRydWU7CiAgICBpZiAoY29uZGl0aW9ucy5sZW5ndGggPT09IDEgJiYgY29uZGl0aW9uc1swXT8udGFyZ2V0ID09PSAiaHR0cF9tZXRob2QiKQogICAgICByZXR1cm4gdHJ1ZTsKICAgIHJldHVybiBjb25kaXRpb25zLnNvbWUoCiAgICAgIChjb25kaXRpb24pID0+CiAgICAgICAgKGNvbmRpdGlvbi50YXJnZXQgPT09ICJ1cmxfcGF0aCIgJiYKICAgICAgICAgIChjb25kaXRpb24ub3BlcmF0b3IgPT09ICJwcmVmaXgiIHx8CiAgICAgICAgICAgIGNvbmRpdGlvbi5vcGVyYXRvciA9PT0gIm5vdF9wcmVmaXgiKSAmJgogICAgICAgICAgKGNvbmRpdGlvbi52YWx1ZXMgPz8gW10pLmluY2x1ZGVzKCIvIikpIHx8CiAgICAgICAgKGNvbmRpdGlvbi50YXJnZXQgPT09ICJzb3VyY2VfaXAiICYmCiAgICAgICAgICAoY29uZGl0aW9uLnZhbHVlcyA/PyBbXSkuc29tZSgodmFsdWUpID0+CiAgICAgICAgICAgIFsiMC4wLjAuMC8wIiwgIjo6LzAiXS5pbmNsdWRlcyh2YWx1ZS50cmltKCkpLAogICAgICAgICAgKSksCiAgICApOwogIH0pOwoKZXhwb3J0IHR5cGUgQWR2YW5jZWRBdXRoVmFsaWRhdGlvbklzc3VlID0KICB8IHsga2luZDogImludmFsaWQtcnVsZXMiIH0KICB8IHsga2luZDogImVtcHR5LWdyb3VwIiB9CiAgfCB7IGtpbmQ6ICJpbnZhbGlkLXNvdXJjZS1hZGRyZXNzIjsgbGluZTogbnVtYmVyIH0KICB8IHsga2luZDogImludmFsaWQtc291cmNlLWNpZHIiOyBsaW5lOiBudW1iZXIgfQogIHwgeyBraW5kOiAiaW52YWxpZC1jb25kaXRpb24iIH0KICB8IHsga2luZDogIm1heC1saWZldGltZS10b28tc2hvcnQiIH07CgpleHBvcnQgY29uc3QgZ2V0QWR2YW5jZWRBdXRoVmFsaWRhdGlvbklzc3VlID0gKAogIGNvbmZpZzogQWR2YW5jZWRBdXRoQ29uZmlnLAopOiBBZHZhbmNlZEF1dGhWYWxpZGF0aW9uSXNzdWUgfCBudWxsID0+IHsKICBpZiAoY29uZmlnLmVuYWJsZWQpIHsKICAgIGlmIChjb25maWcuZ3JvdXBzLmxlbmd0aCA9PT0gMCkgcmV0dXJuIHsga2luZDogImludmFsaWQtcnVsZXMiIH07CiAgICBpZiAoY29uZmlnLmdyb3Vwcy5zb21lKChncm91cCkgPT4gZ3JvdXAuY29uZGl0aW9ucy5sZW5ndGggPT09IDApKSB7CiAgICAgIHJldHVybiB7IGtpbmQ6ICJlbXB0eS1ncm91cCIgfTsKICAgIH0KICAgIGNvbnN0IGNvbmRpdGlvbnMgPSBjb25maWcuZ3JvdXBzLmZsYXRNYXAoKGdyb3VwKSA9PiBncm91cC5jb25kaXRpb25zKTsKICAgIGNvbnN0IGludmFsaWRTb3VyY2VOZXR3b3JrID0gY29uZGl0aW9ucwogICAgICAuZmlsdGVyKChjb25kaXRpb24pID0+IGNvbmRpdGlvbi50YXJnZXQgPT09ICJzb3VyY2VfaXAiKQogICAgICAubWFwKChjb25kaXRpb24pID0+CiAgICAgICAgZ2V0U291cmNlTmV0d29ya1ZhbGlkYXRpb25Jc3N1ZSgKICAgICAgICAgIGNvbmRpdGlvbi52YWx1ZXMgPz8gW10sCiAgICAgICAgICBjb25kaXRpb24ub3BlcmF0b3IsCiAgICAgICAgKSwKICAgICAgKQogICAgICAuZmluZCgoaXNzdWUpID0+IGlzc3VlICE9IG51bGwpOwogICAgaWYgKGludmFsaWRTb3VyY2VOZXR3b3JrKSB7CiAgICAgIHJldHVybiB7CiAgICAgICAga2luZDoKICAgICAgICAgIGludmFsaWRTb3VyY2VOZXR3b3JrLmtpbmQgPT09ICJhZGRyZXNzIgogICAgICAgICAgICA/ICJpbnZhbGlkLXNvdXJjZS1hZGRyZXNzIgogICAgICAgICAgICA6ICJpbnZhbGlkLXNvdXJjZS1jaWRyIiwKICAgICAgICBsaW5lOiBpbnZhbGlkU291cmNlTmV0d29yay5saW5lLAogICAgICB9OwogICAgfQogICAgY29uc3QgaW52YWxpZENvbmRpdGlvbiA9IGNvbmRpdGlvbnMuc29tZSgKICAgICAgKGNvbmRpdGlvbikgPT4KICAgICAgICAoY29uZGl0aW9uLnRhcmdldCA9PT0gInNvdXJjZV9yZWdpb24iICYmCiAgICAgICAgICAoY29uZGl0aW9uLnNlbGVjdGlvbnMgPz8gW10pLmxlbmd0aCA9PT0gMCkgfHwKICAgICAgICAoKGNvbmRpdGlvbi50YXJnZXQgPT09ICJyZXF1ZXN0X2hlYWRlciIgfHwKICAgICAgICAgIGNvbmRpdGlvbi50YXJnZXQgPT09ICJxdWVyeV9wYXJhbWV0ZXIiKSAmJgogICAgICAgICAgIWNvbmRpdGlvbi5uYW1lPy50cmltKCkpIHx8CiAgICAgICAgKGFkdmFuY2VkQXV0aENvbmRpdGlvbk5lZWRzVmFsdWUoY29uZGl0aW9uKSAmJgogICAgICAgICAgKChjb25kaXRpb24udmFsdWVzID8/IFtdKS5sZW5ndGggPT09IDAgfHwKICAgICAgICAgICAgKGNvbmRpdGlvbi52YWx1ZXMgPz8gW10pLnNvbWUoKHZhbHVlKSA9PiAhdmFsdWUudHJpbSgpKSkpLAogICAgKTsKICAgIGlmIChpbnZhbGlkQ29uZGl0aW9uKSByZXR1cm4geyBraW5kOiAiaW52YWxpZC1jb25kaXRpb24iIH07CiAgfQogIGlmIChjb25maWcubWF4X2xpZmV0aW1lX3NlY29uZHMgPCBjb25maWcuaWRsZV90dGxfc2Vjb25kcykgewogICAgcmV0dXJuIHsga2luZDogIm1heC1saWZldGltZS10b28tc2hvcnQiIH07CiAgfQogIHJldHVybiBudWxsOwp9Owo=
+import type {
+  AdvancedAuthCondition,
+  AdvancedAuthConditionContract,
+  AdvancedAuthConditionTarget,
+  AdvancedAuthConfig,
+  AdvancedAuthConfigContract,
+  AdvancedAuthOperator,
+  AdvancedAuthRuleGroup,
+} from "../../types";
+import { getCidrRegionSelectionLabel } from "../../types/cidr";
+import {
+  formatAdvancedAuthValueList,
+  getSourceNetworkValidationIssue,
+  parseAdvancedAuthValueList,
+  parseSourceNetworkTextarea,
+  sourceNetworkInputKind,
+} from "./advanced-auth-source-network";
+
+export const MAX_ADVANCED_AUTH_GROUPS = 16;
+export const MAX_ADVANCED_AUTH_CONDITIONS = 16;
+export const SECONDS_PER_MINUTE = 60;
+export const SECONDS_PER_HOUR = 60 * SECONDS_PER_MINUTE;
+export const MIN_ADVANCED_AUTH_TTL_SECONDS = 5 * SECONDS_PER_MINUTE;
+export const MAX_ADVANCED_AUTH_IDLE_TTL_SECONDS =
+  30 * 24 * SECONDS_PER_HOUR;
+export const MAX_ADVANCED_AUTH_LIFETIME_SECONDS =
+  365 * 24 * SECONDS_PER_HOUR;
+export const MIN_ADVANCED_AUTH_TTL_HOURS = Number(
+  (MIN_ADVANCED_AUTH_TTL_SECONDS / SECONDS_PER_HOUR).toFixed(2),
+);
+export const MAX_ADVANCED_AUTH_IDLE_TTL_HOURS =
+  MAX_ADVANCED_AUTH_IDLE_TTL_SECONDS / SECONDS_PER_HOUR;
+export const MAX_ADVANCED_AUTH_LIFETIME_HOURS =
+  MAX_ADVANCED_AUTH_LIFETIME_SECONDS / SECONDS_PER_HOUR;
+
+export const advancedAuthTargetOptions: Array<{
+  value: AdvancedAuthConditionTarget;
+  labelKey: string;
+}> = [
+  { value: "source_ip", labelKey: "admin.advancedAuth.targetSourceIp" },
+  { value: "source_region", labelKey: "admin.advancedAuth.targetSourceRegion" },
+  { value: "url_path", labelKey: "admin.advancedAuth.targetUrlPath" },
+  {
+    value: "request_header",
+    labelKey: "admin.advancedAuth.targetRequestHeader",
+  },
+  {
+    value: "query_parameter",
+    labelKey: "admin.advancedAuth.targetQueryParameter",
+  },
+  { value: "http_method", labelKey: "admin.advancedAuth.targetHttpMethod" },
+];
+
+const commonNamedValueOperators: Array<{
+  value: AdvancedAuthOperator;
+  labelKey: string;
+}> = [
+  { value: "exists", labelKey: "admin.advancedAuth.operatorExists" },
+  { value: "not_exists", labelKey: "admin.advancedAuth.operatorNotExists" },
+  { value: "equals", labelKey: "admin.advancedAuth.operatorEquals" },
+  { value: "not_equals", labelKey: "admin.advancedAuth.operatorNotEquals" },
+  { value: "contains", labelKey: "admin.advancedAuth.operatorContains" },
+  {
+    value: "not_contains",
+    labelKey: "admin.advancedAuth.operatorNotContains",
+  },
+  { value: "starts_with", labelKey: "admin.advancedAuth.operatorStartsWith" },
+  {
+    value: "not_starts_with",
+    labelKey: "admin.advancedAuth.operatorNotStartsWith",
+  },
+  { value: "ends_with", labelKey: "admin.advancedAuth.operatorEndsWith" },
+  {
+    value: "not_ends_with",
+    labelKey: "admin.advancedAuth.operatorNotEndsWith",
+  },
+  { value: "regex", labelKey: "admin.advancedAuth.operatorRegex" },
+  { value: "not_regex", labelKey: "admin.advancedAuth.operatorNotRegex" },
+];
+
+export const advancedAuthOperatorsByTarget: Record<
+  AdvancedAuthConditionTarget,
+  Array<{ value: AdvancedAuthOperator; labelKey: string }>
+> = {
+  source_ip: [
+    { value: "equals", labelKey: "admin.advancedAuth.operatorEquals" },
+    { value: "not_equals", labelKey: "admin.advancedAuth.operatorNotEquals" },
+    { value: "in_cidr", labelKey: "admin.advancedAuth.operatorInCidr" },
+    { value: "not_in_cidr", labelKey: "admin.advancedAuth.operatorNotInCidr" },
+  ],
+  source_region: [
+    { value: "in", labelKey: "admin.advancedAuth.operatorInRegion" },
+    { value: "not_in", labelKey: "admin.advancedAuth.operatorNotInRegion" },
+  ],
+  url_path: [
+    { value: "equals", labelKey: "admin.advancedAuth.operatorEquals" },
+    { value: "not_equals", labelKey: "admin.advancedAuth.operatorNotEquals" },
+    { value: "prefix", labelKey: "admin.advancedAuth.operatorPrefix" },
+    { value: "not_prefix", labelKey: "admin.advancedAuth.operatorNotPrefix" },
+    { value: "contains", labelKey: "admin.advancedAuth.operatorContains" },
+    {
+      value: "not_contains",
+      labelKey: "admin.advancedAuth.operatorNotContains",
+    },
+    { value: "regex", labelKey: "admin.advancedAuth.operatorRegex" },
+    { value: "not_regex", labelKey: "admin.advancedAuth.operatorNotRegex" },
+  ],
+  request_header: [...commonNamedValueOperators],
+  query_parameter: [...commonNamedValueOperators],
+  http_method: [
+    { value: "in", labelKey: "admin.advancedAuth.operatorMethodIn" },
+    { value: "not_in", labelKey: "admin.advancedAuth.operatorMethodNotIn" },
+  ],
+};
+
+const newId = (prefix: string) =>
+  `${prefix}-${Math.random().toString(36).slice(2, 10)}-${Date.now().toString(36)}`;
+
+export const createBlankAdvancedAuthCondition = (): AdvancedAuthCondition => ({
+  id: newId("condition"),
+  target: "source_ip",
+  operator: "equals",
+  name: "",
+  values: [""],
+  selections: [],
+});
+
+export const createBlankAdvancedAuthGroup = (): AdvancedAuthRuleGroup => ({
+  id: newId("group"),
+  conditions: [createBlankAdvancedAuthCondition()],
+});
+
+export const cloneAdvancedAuthCondition = (
+  condition: AdvancedAuthConditionContract | AdvancedAuthCondition,
+): AdvancedAuthCondition => {
+  const compiledValues = condition.cidrs ?? [];
+  const values = condition.values?.length
+    ? [...condition.values]
+    : condition.target === "source_ip"
+      ? compiledValues.map((value) =>
+          condition.operator === "equals" || condition.operator === "not_equals"
+            ? value.replace(/\/(32|128)$/, "")
+            : value,
+        )
+      : [];
+  return {
+    ...condition,
+    values,
+    selections: (condition.selections ?? []).map((selection) => ({
+      ...selection,
+      label: getCidrRegionSelectionLabel(selection),
+    })),
+    cidrs: [...compiledValues],
+  };
+};
+
+export const cloneAdvancedAuthConfig = (
+  config: AdvancedAuthConfigContract | AdvancedAuthConfig,
+): AdvancedAuthConfig => ({
+  enabled: config.enabled === true,
+  idle_ttl_seconds: Number(config.idle_ttl_seconds) || 24 * SECONDS_PER_HOUR,
+  max_lifetime_seconds:
+    Number(config.max_lifetime_seconds) || 30 * 24 * SECONDS_PER_HOUR,
+  policy_version: config.policy_version,
+  groups: (config.groups ?? []).map((group) => ({
+    id: group.id,
+    conditions: (group.conditions ?? []).map(cloneAdvancedAuthCondition),
+  })),
+});
+
+export const getAdvancedAuthSourceIpDisplayValue = (
+  condition: AdvancedAuthCondition,
+) => {
+  const values = condition.values?.length
+    ? condition.values
+    : (condition.cidrs ?? []);
+  return formatAdvancedAuthValueList(
+    values.map((value) => {
+      if (
+        condition.operator === "equals" ||
+        condition.operator === "not_equals"
+      ) {
+        return value.replace(/\/(32|128)$/, "");
+      }
+      return value;
+    }),
+  );
+};
+
+export const getSourceNetworkTranslationKey = (
+  condition: AdvancedAuthCondition,
+  suffix: "Label" | "Placeholder" | "Hint",
+) =>
+  `admin.advancedAuth.source${sourceNetworkInputKind(condition.operator) === "address" ? "Ip" : "Cidr"}${suffix}`;
+
+export const advancedAuthConditionNeedsValue = (
+  condition: AdvancedAuthCondition,
+) =>
+  condition.target !== "source_region" &&
+  condition.operator !== "exists" &&
+  condition.operator !== "not_exists";
+
+export const createAdvancedAuthRuleEditor = (
+  form: AdvancedAuthConfig,
+  valueDrafts: Record<string, string>,
+) => {
+  const sourceIpDisplayValue = getAdvancedAuthSourceIpDisplayValue;
+  const clearValueDraft = (condition: AdvancedAuthCondition) => {
+    delete valueDrafts[condition.id];
+  };
+  const valueText = (condition: AdvancedAuthCondition) =>
+    formatAdvancedAuthValueList(condition.values ?? []);
+
+  return {
+    sourceIpDisplayValue,
+    sourceNetworkTranslationKey: getSourceNetworkTranslationKey,
+    needsValue: advancedAuthConditionNeedsValue,
+    operatorsFor: (target: AdvancedAuthConditionTarget) =>
+      advancedAuthOperatorsByTarget[target],
+    setSourceIpValue: (condition: AdvancedAuthCondition, value: string) => {
+      valueDrafts[condition.id] = value;
+      condition.values = parseSourceNetworkTextarea(value);
+    },
+    valueText,
+    setValueText: (condition: AdvancedAuthCondition, value: string) => {
+      valueDrafts[condition.id] = value;
+      condition.values = parseAdvancedAuthValueList(value);
+    },
+    valueInputText: (condition: AdvancedAuthCondition) =>
+      valueDrafts[condition.id] ??
+      (condition.target === "source_ip"
+        ? sourceIpDisplayValue(condition)
+        : valueText(condition)),
+    normalizeValueDraft: (condition: AdvancedAuthCondition) => {
+      valueDrafts[condition.id] =
+        condition.target === "source_ip"
+          ? sourceIpDisplayValue(condition)
+          : valueText(condition);
+    },
+    updateTarget: (
+      condition: AdvancedAuthCondition,
+      target: AdvancedAuthConditionTarget,
+    ) => {
+      clearValueDraft(condition);
+      condition.target = target;
+      condition.operator =
+        advancedAuthOperatorsByTarget[target][0]?.value ?? "equals";
+      condition.values = target === "source_region" ? [] : [""];
+      condition.selections = [];
+      condition.cidrs = undefined;
+    },
+    updateOperator: (
+      condition: AdvancedAuthCondition,
+      operator: AdvancedAuthOperator,
+    ) => {
+      clearValueDraft(condition);
+      condition.operator = operator;
+      if (operator === "exists" || operator === "not_exists") {
+        condition.values = [];
+      }
+    },
+    addGroup: () => {
+      if (form.groups.length >= MAX_ADVANCED_AUTH_GROUPS) return;
+      form.groups.push(createBlankAdvancedAuthGroup());
+    },
+    removeGroup: (groupIndex: number) => {
+      form.groups[groupIndex]?.conditions.forEach(clearValueDraft);
+      form.groups.splice(groupIndex, 1);
+    },
+    addCondition: (group: AdvancedAuthRuleGroup) => {
+      if (group.conditions.length >= MAX_ADVANCED_AUTH_CONDITIONS) return;
+      group.conditions.push(createBlankAdvancedAuthCondition());
+    },
+    removeCondition: (group: AdvancedAuthRuleGroup, index: number) => {
+      const condition = group.conditions[index];
+      if (condition) clearValueDraft(condition);
+      group.conditions.splice(index, 1);
+    },
+  };
+};
+
+export type AdvancedAuthRuleEditor = ReturnType<
+  typeof createAdvancedAuthRuleEditor
+>;
+
+export const secondsToAdvancedAuthHourInput = (seconds: number) => {
+  const hours = seconds / SECONDS_PER_HOUR;
+  return Number.isInteger(hours) ? hours : Number(hours.toFixed(2));
+};
+
+export const advancedAuthHourInputToSeconds = (
+  value: number,
+  maximum: number,
+) => {
+  const hours = Number(value);
+  if (!Number.isFinite(hours)) return MIN_ADVANCED_AUTH_TTL_SECONDS;
+  return Math.min(
+    maximum,
+    Math.max(
+      MIN_ADVANCED_AUTH_TTL_SECONDS,
+      Math.round(hours * 60) * SECONDS_PER_MINUTE,
+    ),
+  );
+};
+
+export const snapshotAdvancedAuthConfig = (config: AdvancedAuthConfig) =>
+  JSON.stringify({
+    enabled: config.enabled,
+    idle_ttl_seconds: config.idle_ttl_seconds,
+    max_lifetime_seconds: config.max_lifetime_seconds,
+    groups: config.groups,
+  });
+
+export const isAdvancedAuthBroadRule = (config: AdvancedAuthConfig) =>
+  config.groups.some((group) => {
+    const conditions = group.conditions;
+    if (!conditions.length) return false;
+    if (conditions.every((condition) => condition.operator.startsWith("not_")))
+      return true;
+    if (conditions.length === 1 && conditions[0]?.target === "http_method")
+      return true;
+    return conditions.some(
+      (condition) =>
+        (condition.target === "url_path" &&
+          (condition.operator === "prefix" ||
+            condition.operator === "not_prefix") &&
+          (condition.values ?? []).includes("/")) ||
+        (condition.target === "source_ip" &&
+          (condition.values ?? []).some((value) =>
+            ["0.0.0.0/0", "::/0"].includes(value.trim()),
+          )),
+    );
+  });
+
+export type AdvancedAuthValidationIssue =
+  | { kind: "invalid-rules" }
+  | { kind: "empty-group" }
+  | { kind: "invalid-source-address"; line: number }
+  | { kind: "invalid-source-cidr"; line: number }
+  | { kind: "invalid-condition" }
+  | { kind: "max-lifetime-too-short" };
+
+export const getAdvancedAuthValidationIssue = (
+  config: AdvancedAuthConfig,
+): AdvancedAuthValidationIssue | null => {
+  if (config.enabled) {
+    if (config.groups.length === 0) return { kind: "invalid-rules" };
+    if (config.groups.some((group) => group.conditions.length === 0)) {
+      return { kind: "empty-group" };
+    }
+    const conditions = config.groups.flatMap((group) => group.conditions);
+    const invalidSourceNetwork = conditions
+      .filter((condition) => condition.target === "source_ip")
+      .map((condition) =>
+        getSourceNetworkValidationIssue(
+          condition.values ?? [],
+          condition.operator,
+        ),
+      )
+      .find((issue) => issue != null);
+    if (invalidSourceNetwork) {
+      return {
+        kind:
+          invalidSourceNetwork.kind === "address"
+            ? "invalid-source-address"
+            : "invalid-source-cidr",
+        line: invalidSourceNetwork.line,
+      };
+    }
+    const invalidCondition = conditions.some(
+      (condition) =>
+        (condition.target === "source_region" &&
+          (condition.selections ?? []).length === 0) ||
+        ((condition.target === "request_header" ||
+          condition.target === "query_parameter") &&
+          !condition.name?.trim()) ||
+        (advancedAuthConditionNeedsValue(condition) &&
+          ((condition.values ?? []).length === 0 ||
+            (condition.values ?? []).some((value) => !value.trim()))),
+    );
+    if (invalidCondition) return { kind: "invalid-condition" };
+  }
+  if (config.max_lifetime_seconds < config.idle_ttl_seconds) {
+    return { kind: "max-lifetime-too-short" };
+  }
+  return null;
+};

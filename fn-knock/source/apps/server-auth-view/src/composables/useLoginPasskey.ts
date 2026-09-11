@@ -1,1 +1,265 @@
-aW1wb3J0IHsgcmVmLCB0eXBlIFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7CiAgbm9ybWFsaXplUmVxdWVzdE9wdGlvbnMsCiAgc2VyaWFsaXplQ3JlZGVudGlhbCwKfSBmcm9tICJAZnJvbnRlbmQtY29yZS9wYXNza2V5L3V0aWxzIjsKaW1wb3J0IHsgYXBpQ2xpZW50IH0gZnJvbSAiQC9saWIvYXBpIjsKaW1wb3J0IHsgZ2V0UGFzc2tleUVycm9yRGV0YWlscyB9IGZyb20gIkAvbGliL3Bhc3NrZXktZXJyb3JzIjsKaW1wb3J0IHsgdXNlS25vd25QYXNza2V5Q3JlZGVudGlhbHMgfSBmcm9tICIuL3VzZUtub3duUGFzc2tleUNyZWRlbnRpYWxzIjsKaW1wb3J0IHsgdXNlUGFzc2tleVJlZ2lzdHJhdGlvbiB9IGZyb20gIi4vdXNlUGFzc2tleVJlZ2lzdHJhdGlvbiI7Cgpjb25zdCBQQVNTS0VZX0JJTkRfUFJPTVBUX1NUT1JBR0VfS0VZID0KICAic2VydmVyLWF1dGgtdmlldzpwYXNza2V5LWJpbmQtcHJvbXB0LWRpc21pc3NlZCI7Cgp0eXBlIFBhc3NrZXlCaW5kT2ZmZXIgPSB7CiAgYmluZF90b2tlbj86IHN0cmluZzsKICBjYW5fYmluZD86IGJvb2xlYW47CiAgY3JlZGVudGlhbF9pZHM/OiB1bmtub3duOwp9IHwgbnVsbDsKCmV4cG9ydCBjb25zdCB1c2VMb2dpblBhc3NrZXkgPSAoewogIGNsZWFyRXJyb3IsCiAgY29tcGxldGVMb2dpbiwKICBpc0xvZ2luQ29vbGluZ0Rvd24sCiAgaXNQYXNza2V5QXZhaWxhYmxlLAogIGlzUGFzc2tleVN1cHBvcnRlZCwKICByZWRpcmVjdFVyaSwKICByZW1lbWJlck1lLAogIHJlcG9ydEVycm9yLAogIHJlc29sdmVMb2dpbkNvb2xkb3duTWVzc2FnZSwKICB0cmFuc2xhdGUsCn06IHsKICBjbGVhckVycm9yOiAoKSA9PiB2b2lkOwogIGNvbXBsZXRlTG9naW46IChydW5UeXBlOiAwIHwgMSB8IDMsIHJlZGlyZWN0VG8/OiBzdHJpbmcgfCBudWxsKSA9PiB2b2lkOwogIGlzTG9naW5Db29saW5nRG93bjogUmVhZG9ubHk8UmVmPGJvb2xlYW4+PjsKICBpc1Bhc3NrZXlBdmFpbGFibGU6IFJlZjxib29sZWFuPjsKICBpc1Bhc3NrZXlTdXBwb3J0ZWQ6IFJlYWRvbmx5PFJlZjxib29sZWFuPj47CiAgcmVkaXJlY3RVcmk6IHN0cmluZyB8IG51bGw7CiAgcmVtZW1iZXJNZTogUmVmPGJvb2xlYW4+OwogIHJlcG9ydEVycm9yOiAobWVzc2FnZTogc3RyaW5nKSA9PiB2b2lkOwogIHJlc29sdmVMb2dpbkNvb2xkb3duTWVzc2FnZTogKG1lc3NhZ2U6IHN0cmluZywgcGF5bG9hZDogdW5rbm93bikgPT4gc3RyaW5nOwogIHRyYW5zbGF0ZTogKGtleTogc3RyaW5nKSA9PiBzdHJpbmc7Cn0pID0+IHsKICBjb25zdCBpc1Bhc3NrZXlMb2FkaW5nID0gcmVmKGZhbHNlKTsKICBjb25zdCBzaG93UGFzc2tleUJpbmREaWFsb2cgPSByZWYoZmFsc2UpOwogIGNvbnN0IGlzQmluZGluZ1Bhc3NrZXkgPSByZWYoZmFsc2UpOwogIGNvbnN0IHBhc3NrZXlCaW5kRXJyb3IgPSByZWYoIiIpOwogIGNvbnN0IHBhc3NrZXlCaW5kVG9rZW4gPSByZWYoIiIpOwogIGNvbnN0IHNraXBQYXNza2V5QmluZFByb21wdCA9IHJlZihmYWxzZSk7CiAgY29uc3QgcGVuZGluZ1J1blR5cGUgPSByZWY8MCB8IDEgfCAzIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgcGVuZGluZ1JlZGlyZWN0VG8gPSByZWY8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgeyByZWdpc3RlclBhc3NrZXlDcmVkZW50aWFsIH0gPSB1c2VQYXNza2V5UmVnaXN0cmF0aW9uKCk7CiAgY29uc3QgeyBoYXNLbm93blBhc3NrZXlDcmVkZW50aWFsLCByZW1lbWJlcktub3duUGFzc2tleUNyZWRlbnRpYWxJZCB9ID0KICAgIHVzZUtub3duUGFzc2tleUNyZWRlbnRpYWxzKCk7CgogIGNvbnN0IGlzUGFzc2tleUJpbmRQcm9tcHREaXNtaXNzZWQgPSAoKSA9PiB7CiAgICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHJldHVybiBmYWxzZTsKICAgIHRyeSB7CiAgICAgIHJldHVybiAoCiAgICAgICAgd2luZG93LmxvY2FsU3RvcmFnZS5nZXRJdGVtKFBBU1NLRVlfQklORF9QUk9NUFRfU1RPUkFHRV9LRVkpID09PSAiMSIKICAgICAgKTsKICAgIH0gY2F0Y2ggewogICAgICByZXR1cm4gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3QgcGVyc2lzdFBhc3NrZXlCaW5kUHJvbXB0UHJlZmVyZW5jZSA9ICgpID0+IHsKICAgIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIikgcmV0dXJuOwogICAgdHJ5IHsKICAgICAgaWYgKHNraXBQYXNza2V5QmluZFByb21wdC52YWx1ZSkgewogICAgICAgIHdpbmRvdy5sb2NhbFN0b3JhZ2Uuc2V0SXRlbShQQVNTS0VZX0JJTkRfUFJPTVBUX1NUT1JBR0VfS0VZLCAiMSIpOwogICAgICB9IGVsc2UgewogICAgICAgIHdpbmRvdy5sb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbShQQVNTS0VZX0JJTkRfUFJPTVBUX1NUT1JBR0VfS0VZKTsKICAgICAgfQogICAgfSBjYXRjaCB7CiAgICAgIC8vIFN0b3JhZ2UgaXMgb3B0aW9uYWw7IGxvZ2luIGNvbnRpbnVhdGlvbiBtdXN0IG5vdCBkZXBlbmQgb24gaXQuCiAgICB9CiAgfTsKCiAgY29uc3QgY2xlYXJQZW5kaW5nTG9naW4gPSAoKSA9PiB7CiAgICBwZW5kaW5nUnVuVHlwZS52YWx1ZSA9IG51bGw7CiAgICBwZW5kaW5nUmVkaXJlY3RUby52YWx1ZSA9IG51bGw7CiAgfTsKCiAgY29uc3QgZmluaXNoUGVuZGluZ0xvZ2luID0gKCkgPT4gewogICAgaWYgKHBlbmRpbmdSdW5UeXBlLnZhbHVlID09PSBudWxsKSByZXR1cm47CiAgICBjb25zdCBydW5UeXBlID0gcGVuZGluZ1J1blR5cGUudmFsdWU7CiAgICBjb25zdCByZWRpcmVjdFRvID0gcGVuZGluZ1JlZGlyZWN0VG8udmFsdWU7CiAgICBjbGVhclBlbmRpbmdMb2dpbigpOwogICAgY29tcGxldGVMb2dpbihydW5UeXBlLCByZWRpcmVjdFRvKTsKICB9OwoKICBjb25zdCBoYW5kbGVMb2dpblN1Y2Nlc3MgPSBhc3luYyAoewogICAgcGFzc2tleSwKICAgIHJlZGlyZWN0VG8sCiAgICBydW5UeXBlLAogIH06IHsKICAgIHBhc3NrZXk6IFBhc3NrZXlCaW5kT2ZmZXI7CiAgICByZWRpcmVjdFRvOiBzdHJpbmcgfCBudWxsOwogICAgcnVuVHlwZTogMCB8IDEgfCAzOwogIH0pID0+IHsKICAgIGlmIChpc1Bhc3NrZXlTdXBwb3J0ZWQudmFsdWUgJiYgcGFzc2tleT8uY2FuX2JpbmQgJiYgcGFzc2tleS5iaW5kX3Rva2VuKSB7CiAgICAgIGlmIChhd2FpdCBoYXNLbm93blBhc3NrZXlDcmVkZW50aWFsKHBhc3NrZXkuY3JlZGVudGlhbF9pZHMpKSB7CiAgICAgICAgY29tcGxldGVMb2dpbihydW5UeXBlLCByZWRpcmVjdFRvKTsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgICAgaWYgKGlzUGFzc2tleUJpbmRQcm9tcHREaXNtaXNzZWQoKSkgewogICAgICAgIGNvbXBsZXRlTG9naW4ocnVuVHlwZSwgcmVkaXJlY3RUbyk7CiAgICAgICAgcmV0dXJuOwogICAgICB9CgogICAgICBwYXNza2V5QmluZFRva2VuLnZhbHVlID0gcGFzc2tleS5iaW5kX3Rva2VuOwogICAgICBwZW5kaW5nUnVuVHlwZS52YWx1ZSA9IHJ1blR5cGU7CiAgICAgIHBlbmRpbmdSZWRpcmVjdFRvLnZhbHVlID0gcmVkaXJlY3RUbzsKICAgICAgc2tpcFBhc3NrZXlCaW5kUHJvbXB0LnZhbHVlID0gZmFsc2U7CiAgICAgIHNob3dQYXNza2V5QmluZERpYWxvZy52YWx1ZSA9IHRydWU7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGNvbXBsZXRlTG9naW4ocnVuVHlwZSwgcmVkaXJlY3RUbyk7CiAgfTsKCiAgY29uc3QgaGFuZGxlUGFzc2tleUxvZ2luID0gYXN5bmMgKCkgPT4gewogICAgaWYgKAogICAgICAhaXNQYXNza2V5U3VwcG9ydGVkLnZhbHVlIHx8CiAgICAgICFpc1Bhc3NrZXlBdmFpbGFibGUudmFsdWUgfHwKICAgICAgaXNMb2dpbkNvb2xpbmdEb3duLnZhbHVlIHx8CiAgICAgIGlzUGFzc2tleUxvYWRpbmcudmFsdWUKICAgICkgewogICAgICByZXR1cm47CiAgICB9CiAgICBpc1Bhc3NrZXlMb2FkaW5nLnZhbHVlID0gdHJ1ZTsKICAgIGNsZWFyRXJyb3IoKTsKICAgIGxldCByZXF1ZXN0UnBJZCA9ICIiOwogICAgdHJ5IHsKICAgICAgY29uc3Qgb3B0aW9uc1JlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvcGFzc2tleS9hdXRoL29wdGlvbnMiKTsKICAgICAgY29uc3QgcmVxdWVzdE9wdGlvbnMgPSBub3JtYWxpemVSZXF1ZXN0T3B0aW9ucyhvcHRpb25zUmVzLmRhdGEuZGF0YSk7CiAgICAgIHJlcXVlc3RScElkID0gcmVxdWVzdE9wdGlvbnMucnBJZCB8fCAiIjsKICAgICAgY29uc3QgY3JlZGVudGlhbCA9IGF3YWl0IG5hdmlnYXRvci5jcmVkZW50aWFscy5nZXQoewogICAgICAgIHB1YmxpY0tleTogcmVxdWVzdE9wdGlvbnMsCiAgICAgIH0pOwogICAgICBpZiAoIWNyZWRlbnRpYWwpIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IodHJhbnNsYXRlKCJhdXRoLnBhc3NrZXlOb1Jlc3BvbnNlIikpOwogICAgICB9CiAgICAgIGNvbnN0IHBheWxvYWQgPSBzZXJpYWxpemVDcmVkZW50aWFsKGNyZWRlbnRpYWwgYXMgUHVibGljS2V5Q3JlZGVudGlhbCk7CiAgICAgIGNvbnN0IHZlcmlmeVJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvcGFzc2tleS9hdXRoL3ZlcmlmeSIsIHsKICAgICAgICBjcmVkZW50aWFsOiBwYXlsb2FkLAogICAgICAgIHJlbWVtYmVyTWU6IHJlbWVtYmVyTWUudmFsdWUsCiAgICAgICAgcmVkaXJlY3RfdXJpOiByZWRpcmVjdFVyaSB8fCB1bmRlZmluZWQsCiAgICAgIH0pOwogICAgICBpZiAodmVyaWZ5UmVzLmRhdGEuc3VjY2VzcykgewogICAgICAgIGF3YWl0IHJlbWVtYmVyS25vd25QYXNza2V5Q3JlZGVudGlhbElkKHBheWxvYWQuaWQpOwogICAgICAgIGNvbXBsZXRlTG9naW4oCiAgICAgICAgICAodmVyaWZ5UmVzLmRhdGEuZGF0YT8ucnVuX3R5cGUgPz8gMykgYXMgMCB8IDEgfCAzLAogICAgICAgICAgdHlwZW9mIHZlcmlmeVJlcy5kYXRhLmRhdGE/LnJlZGlyZWN0X3RvID09PSAic3RyaW5nIgogICAgICAgICAgICA/IHZlcmlmeVJlcy5kYXRhLmRhdGEucmVkaXJlY3RfdG8KICAgICAgICAgICAgOiBudWxsLAogICAgICAgICk7CiAgICAgICAgcmV0dXJuOwogICAgICB9CiAgICAgIHRocm93IG5ldyBFcnJvcigKICAgICAgICByZXNvbHZlTG9naW5Db29sZG93bk1lc3NhZ2UoCiAgICAgICAgICB2ZXJpZnlSZXMuZGF0YS5tZXNzYWdlIHx8IHRyYW5zbGF0ZSgiYXV0aC5wYXNza2V5VmVyaWZ5RmFpbGVkIiksCiAgICAgICAgICB2ZXJpZnlSZXMuZGF0YSwKICAgICAgICApLAogICAgICApOwogICAgfSBjYXRjaCAoZXJyb3I6IGFueSkgewogICAgICBpZiAoIWVycm9yPy5yZXNwb25zZSkgewogICAgICAgIGNvbnN0IGRldGFpbHMgPSBnZXRQYXNza2V5RXJyb3JEZXRhaWxzKGVycm9yKTsKICAgICAgICBjb25zb2xlLndhcm4oIlBhc3NrZXkgYXV0aGVudGljYXRpb24gZmFpbGVkIiwgewogICAgICAgICAgbmFtZTogZGV0YWlscy5uYW1lLAogICAgICAgICAgbWVzc2FnZTogZGV0YWlscy5tZXNzYWdlLAogICAgICAgICAgb3JpZ2luOiB3aW5kb3cubG9jYXRpb24ub3JpZ2luLAogICAgICAgICAgcnBJZDogcmVxdWVzdFJwSWQsCiAgICAgICAgICBwbGF0Zm9ybToKICAgICAgICAgICAgKAogICAgICAgICAgICAgIG5hdmlnYXRvciBhcyBOYXZpZ2F0b3IgJiB7CiAgICAgICAgICAgICAgICB1c2VyQWdlbnREYXRhPzogeyBwbGF0Zm9ybT86IHN0cmluZyB9OwogICAgICAgICAgICAgIH0KICAgICAgICAgICAgKS51c2VyQWdlbnREYXRhPy5wbGF0Zm9ybSB8fCBuYXZpZ2F0b3IucGxhdGZvcm0sCiAgICAgICAgICBzZWN1cmVDb250ZXh0OiB3aW5kb3cuaXNTZWN1cmVDb250ZXh0LAogICAgICAgIH0pOwogICAgICB9CiAgICAgIHJlcG9ydEVycm9yKAogICAgICAgIHJlc29sdmVMb2dpbkNvb2xkb3duTWVzc2FnZSgKICAgICAgICAgIGVycm9yPy5yZXNwb25zZT8uZGF0YT8ubWVzc2FnZSB8fAogICAgICAgICAgICBlcnJvcj8ubWVzc2FnZSB8fAogICAgICAgICAgICB0cmFuc2xhdGUoImF1dGgucGFzc2tleUxvZ2luRmFpbGVkIiksCiAgICAgICAgICBlcnJvciwKICAgICAgICApLAogICAgICApOwogICAgfSBmaW5hbGx5IHsKICAgICAgaXNQYXNza2V5TG9hZGluZy52YWx1ZSA9IGZhbHNlOwogICAgfQogIH07CgogIGNvbnN0IGhhbmRsZVBhc3NrZXlCaW5kID0gYXN5bmMgKCkgPT4gewogICAgaWYgKGlzQmluZGluZ1Bhc3NrZXkudmFsdWUpIHJldHVybjsKICAgIGlmICghcGFzc2tleUJpbmRUb2tlbi52YWx1ZSkgewogICAgICBwYXNza2V5QmluZEVycm9yLnZhbHVlID0gdHJhbnNsYXRlKCJhdXRoLnBhc3NrZXlCaW5kSW52YWxpZCIpOwogICAgICByZXR1cm47CiAgICB9CiAgICBpc0JpbmRpbmdQYXNza2V5LnZhbHVlID0gdHJ1ZTsKICAgIHBhc3NrZXlCaW5kRXJyb3IudmFsdWUgPSAiIjsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHsgY3JlZGVudGlhbElkIH0gPSBhd2FpdCByZWdpc3RlclBhc3NrZXlDcmVkZW50aWFsKAogICAgICAgIHBhc3NrZXlCaW5kVG9rZW4udmFsdWUsCiAgICAgICAgewogICAgICAgICAgYWxyZWFkeVJlZ2lzdGVyZWQ6IHRyYW5zbGF0ZSgiYXV0aC5wYXNza2V5QWxyZWFkeVJlZ2lzdGVyZWQiKSwKICAgICAgICAgIGJpbmRGYWlsZWQ6IHRyYW5zbGF0ZSgiYXV0aC5wYXNza2V5QmluZEZhaWxlZCIpLAogICAgICAgICAgY2FuY2VsbGVkOiB0cmFuc2xhdGUoImF1dGgucGFzc2tleUNyZWF0ZUNhbmNlbGxlZCIpLAogICAgICAgICAgbm9SZXNwb25zZTogdHJhbnNsYXRlKCJhdXRoLnBhc3NrZXlOb1Jlc3BvbnNlIiksCiAgICAgICAgICB1bmF2YWlsYWJsZTogdHJhbnNsYXRlKCJhdXRoLnBhc3NrZXlDcmVhdGVVbmF2YWlsYWJsZSIpLAogICAgICAgIH0sCiAgICAgICk7CiAgICAgIGF3YWl0IHJlbWVtYmVyS25vd25QYXNza2V5Q3JlZGVudGlhbElkKGNyZWRlbnRpYWxJZCk7CiAgICAgIGlzUGFzc2tleUF2YWlsYWJsZS52YWx1ZSA9IHRydWU7CiAgICAgIHNob3dQYXNza2V5QmluZERpYWxvZy52YWx1ZSA9IGZhbHNlOwogICAgICBwYXNza2V5QmluZFRva2VuLnZhbHVlID0gIiI7CiAgICAgIHNraXBQYXNza2V5QmluZFByb21wdC52YWx1ZSA9IGZhbHNlOwogICAgICBmaW5pc2hQZW5kaW5nTG9naW4oKTsKICAgIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsKICAgICAgcGFzc2tleUJpbmRFcnJvci52YWx1ZSA9CiAgICAgICAgZXJyb3I/LnJlc3BvbnNlPy5kYXRhPy5tZXNzYWdlIHx8CiAgICAgICAgZXJyb3I/Lm1lc3NhZ2UgfHwKICAgICAgICB0cmFuc2xhdGUoImF1dGgucGFzc2tleUJpbmRGYWlsZWQiKTsKICAgIH0gZmluYWxseSB7CiAgICAgIGlzQmluZGluZ1Bhc3NrZXkudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9OwoKICBjb25zdCBza2lwUGFzc2tleUJpbmQgPSAoKSA9PiB7CiAgICBwZXJzaXN0UGFzc2tleUJpbmRQcm9tcHRQcmVmZXJlbmNlKCk7CiAgICBzaG93UGFzc2tleUJpbmREaWFsb2cudmFsdWUgPSBmYWxzZTsKICAgIHBhc3NrZXlCaW5kVG9rZW4udmFsdWUgPSAiIjsKICAgIHBhc3NrZXlCaW5kRXJyb3IudmFsdWUgPSAiIjsKICAgIHNraXBQYXNza2V5QmluZFByb21wdC52YWx1ZSA9IGZhbHNlOwogICAgZmluaXNoUGVuZGluZ0xvZ2luKCk7CiAgfTsKCiAgY29uc3QgaGFuZGxlUGFzc2tleUJpbmREaWFsb2dPcGVuQ2hhbmdlID0gKG9wZW46IGJvb2xlYW4pID0+IHsKICAgIGlmIChvcGVuKSB7CiAgICAgIHNob3dQYXNza2V5QmluZERpYWxvZy52YWx1ZSA9IHRydWU7CiAgICB9IGVsc2UgaWYgKHNob3dQYXNza2V5QmluZERpYWxvZy52YWx1ZSkgewogICAgICBza2lwUGFzc2tleUJpbmQoKTsKICAgIH0KICB9OwoKICBjb25zdCBpc0xvZ2luQ29tcGxldGlvblBlbmRpbmcgPSAoKSA9PgogICAgc2hvd1Bhc3NrZXlCaW5kRGlhbG9nLnZhbHVlIHx8CiAgICBwZW5kaW5nUnVuVHlwZS52YWx1ZSAhPT0gbnVsbCB8fAogICAgaXNCaW5kaW5nUGFzc2tleS52YWx1ZTsKCiAgcmV0dXJuIHsKICAgIGhhbmRsZUxvZ2luU3VjY2VzcywKICAgIGhhbmRsZVBhc3NrZXlCaW5kLAogICAgaGFuZGxlUGFzc2tleUJpbmREaWFsb2dPcGVuQ2hhbmdlLAogICAgaGFuZGxlUGFzc2tleUxvZ2luLAogICAgaXNCaW5kaW5nUGFzc2tleSwKICAgIGlzTG9naW5Db21wbGV0aW9uUGVuZGluZywKICAgIGlzUGFzc2tleUxvYWRpbmcsCiAgICBwYXNza2V5QmluZEVycm9yLAogICAgc2hvd1Bhc3NrZXlCaW5kRGlhbG9nLAogICAgc2tpcFBhc3NrZXlCaW5kLAogICAgc2tpcFBhc3NrZXlCaW5kUHJvbXB0LAogIH07Cn07Cg==
+import { ref, type Ref } from "vue";
+import {
+  normalizeRequestOptions,
+  serializeCredential,
+} from "@frontend-core/passkey/utils";
+import { apiClient } from "@/lib/api";
+import { getPasskeyErrorDetails } from "@/lib/passkey-errors";
+import { useKnownPasskeyCredentials } from "./useKnownPasskeyCredentials";
+import { usePasskeyRegistration } from "./usePasskeyRegistration";
+
+const PASSKEY_BIND_PROMPT_STORAGE_KEY =
+  "server-auth-view:passkey-bind-prompt-dismissed";
+
+type PasskeyBindOffer = {
+  bind_token?: string;
+  can_bind?: boolean;
+  credential_ids?: unknown;
+} | null;
+
+export const useLoginPasskey = ({
+  clearError,
+  completeLogin,
+  isLoginCoolingDown,
+  isPasskeyAvailable,
+  isPasskeySupported,
+  redirectUri,
+  rememberMe,
+  reportError,
+  resolveLoginCooldownMessage,
+  translate,
+}: {
+  clearError: () => void;
+  completeLogin: (runType: 0 | 1 | 3, redirectTo?: string | null) => void;
+  isLoginCoolingDown: Readonly<Ref<boolean>>;
+  isPasskeyAvailable: Ref<boolean>;
+  isPasskeySupported: Readonly<Ref<boolean>>;
+  redirectUri: string | null;
+  rememberMe: Ref<boolean>;
+  reportError: (message: string) => void;
+  resolveLoginCooldownMessage: (message: string, payload: unknown) => string;
+  translate: (key: string) => string;
+}) => {
+  const isPasskeyLoading = ref(false);
+  const showPasskeyBindDialog = ref(false);
+  const isBindingPasskey = ref(false);
+  const passkeyBindError = ref("");
+  const passkeyBindToken = ref("");
+  const skipPasskeyBindPrompt = ref(false);
+  const pendingRunType = ref<0 | 1 | 3 | null>(null);
+  const pendingRedirectTo = ref<string | null>(null);
+  const { registerPasskeyCredential } = usePasskeyRegistration();
+  const { hasKnownPasskeyCredential, rememberKnownPasskeyCredentialId } =
+    useKnownPasskeyCredentials();
+
+  const isPasskeyBindPromptDismissed = () => {
+    if (typeof window === "undefined") return false;
+    try {
+      return (
+        window.localStorage.getItem(PASSKEY_BIND_PROMPT_STORAGE_KEY) === "1"
+      );
+    } catch {
+      return false;
+    }
+  };
+
+  const persistPasskeyBindPromptPreference = () => {
+    if (typeof window === "undefined") return;
+    try {
+      if (skipPasskeyBindPrompt.value) {
+        window.localStorage.setItem(PASSKEY_BIND_PROMPT_STORAGE_KEY, "1");
+      } else {
+        window.localStorage.removeItem(PASSKEY_BIND_PROMPT_STORAGE_KEY);
+      }
+    } catch {
+      // Storage is optional; login continuation must not depend on it.
+    }
+  };
+
+  const clearPendingLogin = () => {
+    pendingRunType.value = null;
+    pendingRedirectTo.value = null;
+  };
+
+  const finishPendingLogin = () => {
+    if (pendingRunType.value === null) return;
+    const runType = pendingRunType.value;
+    const redirectTo = pendingRedirectTo.value;
+    clearPendingLogin();
+    completeLogin(runType, redirectTo);
+  };
+
+  const handleLoginSuccess = async ({
+    passkey,
+    redirectTo,
+    runType,
+  }: {
+    passkey: PasskeyBindOffer;
+    redirectTo: string | null;
+    runType: 0 | 1 | 3;
+  }) => {
+    if (isPasskeySupported.value && passkey?.can_bind && passkey.bind_token) {
+      if (await hasKnownPasskeyCredential(passkey.credential_ids)) {
+        completeLogin(runType, redirectTo);
+        return;
+      }
+      if (isPasskeyBindPromptDismissed()) {
+        completeLogin(runType, redirectTo);
+        return;
+      }
+
+      passkeyBindToken.value = passkey.bind_token;
+      pendingRunType.value = runType;
+      pendingRedirectTo.value = redirectTo;
+      skipPasskeyBindPrompt.value = false;
+      showPasskeyBindDialog.value = true;
+      return;
+    }
+    completeLogin(runType, redirectTo);
+  };
+
+  const handlePasskeyLogin = async () => {
+    if (
+      !isPasskeySupported.value ||
+      !isPasskeyAvailable.value ||
+      isLoginCoolingDown.value ||
+      isPasskeyLoading.value
+    ) {
+      return;
+    }
+    isPasskeyLoading.value = true;
+    clearError();
+    let requestRpId = "";
+    try {
+      const optionsRes = await apiClient.post("/passkey/auth/options");
+      const requestOptions = normalizeRequestOptions(optionsRes.data.data);
+      requestRpId = requestOptions.rpId || "";
+      const credential = await navigator.credentials.get({
+        publicKey: requestOptions,
+      });
+      if (!credential) {
+        throw new Error(translate("auth.passkeyNoResponse"));
+      }
+      const payload = serializeCredential(credential as PublicKeyCredential);
+      const verifyRes = await apiClient.post("/passkey/auth/verify", {
+        credential: payload,
+        rememberMe: rememberMe.value,
+        redirect_uri: redirectUri || undefined,
+      });
+      if (verifyRes.data.success) {
+        await rememberKnownPasskeyCredentialId(payload.id);
+        completeLogin(
+          (verifyRes.data.data?.run_type ?? 3) as 0 | 1 | 3,
+          typeof verifyRes.data.data?.redirect_to === "string"
+            ? verifyRes.data.data.redirect_to
+            : null,
+        );
+        return;
+      }
+      throw new Error(
+        resolveLoginCooldownMessage(
+          verifyRes.data.message || translate("auth.passkeyVerifyFailed"),
+          verifyRes.data,
+        ),
+      );
+    } catch (error: any) {
+      if (!error?.response) {
+        const details = getPasskeyErrorDetails(error);
+        console.warn("Passkey authentication failed", {
+          name: details.name,
+          message: details.message,
+          origin: window.location.origin,
+          rpId: requestRpId,
+          platform:
+            (
+              navigator as Navigator & {
+                userAgentData?: { platform?: string };
+              }
+            ).userAgentData?.platform || navigator.platform,
+          secureContext: window.isSecureContext,
+        });
+      }
+      reportError(
+        resolveLoginCooldownMessage(
+          error?.response?.data?.message ||
+            error?.message ||
+            translate("auth.passkeyLoginFailed"),
+          error,
+        ),
+      );
+    } finally {
+      isPasskeyLoading.value = false;
+    }
+  };
+
+  const handlePasskeyBind = async () => {
+    if (isBindingPasskey.value) return;
+    if (!passkeyBindToken.value) {
+      passkeyBindError.value = translate("auth.passkeyBindInvalid");
+      return;
+    }
+    isBindingPasskey.value = true;
+    passkeyBindError.value = "";
+    try {
+      const { credentialId } = await registerPasskeyCredential(
+        passkeyBindToken.value,
+        {
+          alreadyRegistered: translate("auth.passkeyAlreadyRegistered"),
+          bindFailed: translate("auth.passkeyBindFailed"),
+          cancelled: translate("auth.passkeyCreateCancelled"),
+          noResponse: translate("auth.passkeyNoResponse"),
+          unavailable: translate("auth.passkeyCreateUnavailable"),
+        },
+      );
+      await rememberKnownPasskeyCredentialId(credentialId);
+      isPasskeyAvailable.value = true;
+      showPasskeyBindDialog.value = false;
+      passkeyBindToken.value = "";
+      skipPasskeyBindPrompt.value = false;
+      finishPendingLogin();
+    } catch (error: any) {
+      passkeyBindError.value =
+        error?.response?.data?.message ||
+        error?.message ||
+        translate("auth.passkeyBindFailed");
+    } finally {
+      isBindingPasskey.value = false;
+    }
+  };
+
+  const skipPasskeyBind = () => {
+    persistPasskeyBindPromptPreference();
+    showPasskeyBindDialog.value = false;
+    passkeyBindToken.value = "";
+    passkeyBindError.value = "";
+    skipPasskeyBindPrompt.value = false;
+    finishPendingLogin();
+  };
+
+  const handlePasskeyBindDialogOpenChange = (open: boolean) => {
+    if (open) {
+      showPasskeyBindDialog.value = true;
+    } else if (showPasskeyBindDialog.value) {
+      skipPasskeyBind();
+    }
+  };
+
+  const isLoginCompletionPending = () =>
+    showPasskeyBindDialog.value ||
+    pendingRunType.value !== null ||
+    isBindingPasskey.value;
+
+  return {
+    handleLoginSuccess,
+    handlePasskeyBind,
+    handlePasskeyBindDialogOpenChange,
+    handlePasskeyLogin,
+    isBindingPasskey,
+    isLoginCompletionPending,
+    isPasskeyLoading,
+    passkeyBindError,
+    showPasskeyBindDialog,
+    skipPasskeyBind,
+    skipPasskeyBindPrompt,
+  };
+};

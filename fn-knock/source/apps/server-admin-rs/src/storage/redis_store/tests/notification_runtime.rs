@@ -1,1 +1,671 @@
-dXNlIHN1cGVyOjoqOwoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gbm90aWZpY2F0aW9uX3J1bnRpbWVfbGVhc2VfaGFzX29uZV93aW5uZXJfYW5kX3R5cGVkX2ZhaWx1cmVfcm9sbHNfYmFjaygpIHsKICAgIGxldCBkaXIgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHRlbXAgZGlyIik7CiAgICBsZXQgcGF0aCA9IGRpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpOwogICAgbGV0IHN0b3JlID0gU3RvcmU6OmNvbm5lY3QoJnBhdGgpLmF3YWl0LmV4cGVjdCgib3BlbiBzdG9yZSIpOwogICAgbGV0IG11dCB0YXNrcyA9IFZlYzo6bmV3KCk7CiAgICBmb3IgaW5kZXggaW4gMC4uMTYgewogICAgICAgIGxldCBzdG9yZSA9IHN0b3JlLmNsb25lKCk7CiAgICAgICAgdGFza3MucHVzaCh0b2tpbzo6c3Bhd24oYXN5bmMgbW92ZSB7CiAgICAgICAgICAgIGxldCB0b2tlbiA9IGZvcm1hdCEoIm93bmVyLXtpbmRleH0iKTsKICAgICAgICAgICAgbGV0IGFjcXVpcmVkID0gc3RvcmUKICAgICAgICAgICAgICAgIC5hY3F1aXJlX25vdGlmaWNhdGlvbl9ydW50aW1lX2xlYXNlKCJjb25jdXJyZW50IiwgJnRva2VuLCA2MCkKICAgICAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgICAgIE9rOjo8XywgY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VFcnJvcj4oKHRva2VuLCBhY3F1aXJlZCkpCiAgICAgICAgfSkpOwogICAgfQogICAgbGV0IG11dCB3aW5uZXIgPSBOb25lOwogICAgZm9yIHRhc2sgaW4gdGFza3MgewogICAgICAgIGxldCAodG9rZW4sIGFjcXVpcmVkKSA9IHRhc2suYXdhaXQudW53cmFwKCkudW53cmFwKCk7CiAgICAgICAgaWYgYWNxdWlyZWQgewogICAgICAgICAgICBhc3NlcnQhKHdpbm5lci5yZXBsYWNlKHRva2VuKS5pc19ub25lKCkpOwogICAgICAgIH0KICAgIH0KICAgIGxldCB3aW5uZXIgPSB3aW5uZXIuZXhwZWN0KCJvbmUgbGVhc2Ugd2lubmVyIik7CiAgICBsZXQgdHlwZWQgPSBzdG9yZQogICAgICAgIC50eXBlZAogICAgICAgIC50eXBlZF9ub3RpZmljYXRpb25fcnVudGltZQogICAgICAgIC5sb2FkX2xlYXNlKCJjb25jdXJyZW50IikKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCkKICAgICAgICAuZXhwZWN0KCJ0eXBlZCBub3RpZmljYXRpb24gbGVhc2UiKTsKICAgIGFzc2VydF9lcSEodHlwZWQudG9rZW4sIHdpbm5lcik7CiAgICBhc3NlcnQhKHR5cGVkLmV4cGlyZXNfYXRfbXMgPiBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCkpOwoKICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnBhdGgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlX2JhdGNoKAogICAgICAgICAgICAiQ1JFQVRFIFRSSUdHRVIgZmFpbF90eXBlZF9ub3RpZmljYXRpb25fbGVhc2VfaW5zZXJ0CiAgICAgICAgICAgICBCRUZPUkUgSU5TRVJUIE9OIG5vdGlmaWNhdGlvbl9ydW50aW1lX2xlYXNlcwogICAgICAgICAgICAgQkVHSU4KICAgICAgICAgICAgICAgU0VMRUNUIFJBSVNFKEZBSUwsICdmb3JjZWQgdHlwZWQgbm90aWZpY2F0aW9uIGxlYXNlIGZhaWx1cmUnKTsKICAgICAgICAgICAgIEVORDsiLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICBkcm9wKGNvbm5lY3Rpb24pOwogICAgYXNzZXJ0ISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuYWNxdWlyZV9ub3RpZmljYXRpb25fcnVudGltZV9sZWFzZSgicm9sbGJhY2siLCAib3duZXIiLCA2MCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5pc19lcnIoKQogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLmdldF9zdHJpbmdfdmFsdWUoJm5vdGlmaWNhdGlvbl9ydW50aW1lX2xvY2tfa2V5KCJyb2xsYmFjayIpKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pc19ub25lKCkKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfbm90aWZpY2F0aW9uX3J1bnRpbWUKICAgICAgICAgICAgLmxvYWRfbGVhc2UoInJvbGxiYWNrIikKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfbm9uZSgpCiAgICApOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBub3RpZmljYXRpb25fd2luZG93X2lzX2F0b21pY19yZXBhaXJzX3NoYWRvd19hbmRfcm9sbHNfYmFja190eXBlZF9mYWlsdXJlKCkgewogICAgbGV0IGRpciA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgdGVtcCBkaXIiKTsKICAgIGxldCBwYXRoID0gZGlyLnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIik7CiAgICBsZXQgc3RvcmUgPSBTdG9yZTo6Y29ubmVjdCgmcGF0aCkuYXdhaXQuZXhwZWN0KCJvcGVuIHN0b3JlIik7CiAgICBsZXQgaGFwcGVuZWRfYXRfbXMgPSBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCk7CiAgICBsZXQgbXV0IHRhc2tzID0gVmVjOjpuZXcoKTsKICAgIGZvciBpbmRleCBpbiAwLi4xNiB7CiAgICAgICAgbGV0IHN0b3JlID0gc3RvcmUuY2xvbmUoKTsKICAgICAgICB0YXNrcy5wdXNoKHRva2lvOjpzcGF3bihhc3luYyBtb3ZlIHsKICAgICAgICAgICAgc3RvcmUKICAgICAgICAgICAgICAgIC5hcHBlbmRfbm90aWZpY2F0aW9uX3dpbmRvd19oaXQoCiAgICAgICAgICAgICAgICAgICAgInJ1bGUtY29uY3VycmVudCIsCiAgICAgICAgICAgICAgICAgICAgImdsb2JhbCIsCiAgICAgICAgICAgICAgICAgICAgJmZvcm1hdCEoImV2ZW50LXtpbmRleH0iKSwKICAgICAgICAgICAgICAgICAgICBoYXBwZW5lZF9hdF9tcywKICAgICAgICAgICAgICAgICAgICA2MCwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgIH0pKTsKICAgIH0KICAgIGZvciB0YXNrIGluIHRhc2tzIHsKICAgICAgICBhc3NlcnQhKCgxLi49MTYpLmNvbnRhaW5zKCZ0YXNrLmF3YWl0LnVud3JhcCgpLnVud3JhcCgpKSk7CiAgICB9CiAgICBsZXQga2V5ID0gbm90aWZpY2F0aW9uX3dpbmRvd19rZXkoInJ1bGUtY29uY3VycmVudCIsICJnbG9iYWwiKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9ub3RpZmljYXRpb25fcnVudGltZQogICAgICAgICAgICAubG9hZF93aW5kb3coJmtleSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAubGVuKCksCiAgICAgICAgMTYKICAgICk7CgogICAgbGV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmcGF0aCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGUoCiAgICAgICAgICAgICJVUERBVEUgbm90aWZpY2F0aW9uX3J1bnRpbWVfd2luZG93X2hpdHMgU0VUIGhhcHBlbmVkX2F0X21zID0gMAogICAgICAgICAgICAgV0hFUkUgcnVudGltZV9rZXkgPSA/MSBBTkQgZXZlbnRfaWQgPSAnZXZlbnQtMCciLAogICAgICAgICAgICBbJmtleV0sCiAgICAgICAgKQogICAgICAgIC51bndyYXAoKTsKICAgIGRyb3AoY29ubmVjdGlvbik7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5hcHBlbmRfbm90aWZpY2F0aW9uX3dpbmRvd19oaXQoCiAgICAgICAgICAgICAgICAicnVsZS1jb25jdXJyZW50IiwKICAgICAgICAgICAgICAgICJnbG9iYWwiLAogICAgICAgICAgICAgICAgImV2ZW50LTE2IiwKICAgICAgICAgICAgICAgIGhhcHBlbmVkX2F0X21zLAogICAgICAgICAgICAgICAgNjAsCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKSwKICAgICAgICAxNwogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9ub3RpZmljYXRpb25fcnVudGltZQogICAgICAgICAgICAubG9hZF93aW5kb3coJmtleSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAubGVuKCksCiAgICAgICAgMTcKICAgICk7CiAgICBsZXQgc3RhdHVzID0gc3RvcmUudHlwZWRfbm90aWZpY2F0aW9uX3J1bnRpbWVfc2hhZG93X3N0YXR1cygpOwogICAgYXNzZXJ0ISghc3RhdHVzLmhlYWx0aHkpOwogICAgYXNzZXJ0X2VxIShzdGF0dXMubWlzbWF0Y2hfY291bnQsIDEpOwoKICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnBhdGgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlX2JhdGNoKAogICAgICAgICAgICAiQ1JFQVRFIFRSSUdHRVIgZmFpbF90eXBlZF9ub3RpZmljYXRpb25fd2luZG93X2luc2VydAogICAgICAgICAgICAgQkVGT1JFIElOU0VSVCBPTiBub3RpZmljYXRpb25fcnVudGltZV93aW5kb3dfaGl0cwogICAgICAgICAgICAgV0hFTiBuZXcucnVudGltZV9rZXkgTElLRSAnJXJ1bGUtcm9sbGJhY2slJwogICAgICAgICAgICAgQkVHSU4KICAgICAgICAgICAgICAgU0VMRUNUIFJBSVNFKEZBSUwsICdmb3JjZWQgdHlwZWQgbm90aWZpY2F0aW9uIHdpbmRvdyBmYWlsdXJlJyk7CiAgICAgICAgICAgICBFTkQ7IiwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgZHJvcChjb25uZWN0aW9uKTsKICAgIGxldCByb2xsYmFja19rZXkgPSBub3RpZmljYXRpb25fd2luZG93X2tleSgicnVsZS1yb2xsYmFjayIsICJnbG9iYWwiKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLmFwcGVuZF9ub3RpZmljYXRpb25fd2luZG93X2hpdCgKICAgICAgICAgICAgICAgICJydWxlLXJvbGxiYWNrIiwKICAgICAgICAgICAgICAgICJnbG9iYWwiLAogICAgICAgICAgICAgICAgImV2ZW50LXJvbGxiYWNrIiwKICAgICAgICAgICAgICAgIGhhcHBlbmVkX2F0X21zLAogICAgICAgICAgICAgICAgNjAsCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5pc19lcnIoKQogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnpyZXZyYW5nZV9zdHJpbmdzKCZyb2xsYmFja19rZXkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmlzX2VtcHR5KCkKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfbm90aWZpY2F0aW9uX3J1bnRpbWUKICAgICAgICAgICAgLmxvYWRfd2luZG93KCZyb2xsYmFja19rZXkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmlzX2VtcHR5KCkKICAgICk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIG5vdGlmaWNhdGlvbl9jb29sZG93bl9hbmRfcmVhZHlfcXVldWVfcmVwYWlyX2FuZF9yb2xsYmFja19hdG9taWNhbGx5KCkgewogICAgbGV0IGRpciA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgdGVtcCBkaXIiKTsKICAgIGxldCBwYXRoID0gZGlyLnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIik7CiAgICBsZXQgc3RvcmUgPSBTdG9yZTo6Y29ubmVjdCgmcGF0aCkuYXdhaXQuZXhwZWN0KCJvcGVuIHN0b3JlIik7CiAgICBsZXQgY29vbGRvd25fa2V5ID0gbm90aWZpY2F0aW9uX2Nvb2xkb3duX2tleSgicnVsZSIsICJncm91cCIpOwogICAgbGV0IHVudGlsID0gY3JhdGU6OnRpbWVfdXRpbHM6Omlzb19hZnRlcl9zZWNvbmRzKDYwKTsKICAgIHN0b3JlCiAgICAgICAgLnNldF9ub3RpZmljYXRpb25fY29vbGRvd25fdW50aWwoInJ1bGUiLCAiZ3JvdXAiLCAmdW50aWwsIDYwKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnBhdGgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlKAogICAgICAgICAgICAiVVBEQVRFIG5vdGlmaWNhdGlvbl9ydW50aW1lX2Nvb2xkb3ducyBTRVQgdW50aWxfaXNvID0gJ2NvcnJ1cHQnCiAgICAgICAgICAgICBXSEVSRSBydW50aW1lX2tleSA9ID8xIiwKICAgICAgICAgICAgWyZjb29sZG93bl9rZXldLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGUoCiAgICAgICAgICAgICJVUERBVEUgbm90aWZpY2F0aW9uX2RlbGl2ZXJ5X3JlYWR5X3F1ZXVlIFNFVCByZWFkeV9hdF9tcyA9IDk5OQogICAgICAgICAgICAgV0hFUkUgZGVsaXZlcnlfaWQgPSAncmVhZHktcmVwYWlyJyIsCiAgICAgICAgICAgIFtdLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICBkcm9wKGNvbm5lY3Rpb24pOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuZ2V0X25vdGlmaWNhdGlvbl9jb29sZG93bl91bnRpbCgicnVsZSIsICJncm91cCIpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmFzX2RlcmVmKCksCiAgICAgICAgU29tZSh1bnRpbC5hc19zdHIoKSkKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfbm90aWZpY2F0aW9uX3J1bnRpbWUKICAgICAgICAgICAgLmxvYWRfY29vbGRvd24oJmNvb2xkb3duX2tleSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLnVudGlsX2lzbywKICAgICAgICB1bnRpbAogICAgKTsKCiAgICBzdG9yZQogICAgICAgIC5lbnF1ZXVlX25vdGlmaWNhdGlvbl9kZWxpdmVyeSgicmVhZHktcmVwYWlyIiwgMTApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgbGV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmcGF0aCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGUoCiAgICAgICAgICAgICJVUERBVEUgbm90aWZpY2F0aW9uX2RlbGl2ZXJ5X3JlYWR5X3F1ZXVlIFNFVCByZWFkeV9hdF9tcyA9IDk5OQogICAgICAgICAgICAgV0hFUkUgZGVsaXZlcnlfaWQgPSAncmVhZHktcmVwYWlyJyIsCiAgICAgICAgICAgIFtdLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICBkcm9wKGNvbm5lY3Rpb24pOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAucHVsbF9yZWFkeV9ub3RpZmljYXRpb25fZGVsaXZlcnlfaWRzKDEwLCAyMCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKSwKICAgICAgICB2ZWMhWyJyZWFkeS1yZXBhaXIiLnRvX3N0cmluZygpXQogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9ub3RpZmljYXRpb25fcnVudGltZQogICAgICAgICAgICAubG9hZF9yZWFkeV9xdWV1ZSgpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmlzX2VtcHR5KCkKICAgICk7CgogICAgc3RvcmUKICAgICAgICAuZW5xdWV1ZV9ub3RpZmljYXRpb25fZGVsaXZlcnkoInJlYWR5LXJvbGxiYWNrIiwgMTApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgbGV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmcGF0aCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGVfYmF0Y2goCiAgICAgICAgICAgICJDUkVBVEUgVFJJR0dFUiBmYWlsX3R5cGVkX25vdGlmaWNhdGlvbl9yZWFkeV9kZWxldGUKICAgICAgICAgICAgIEJFRk9SRSBERUxFVEUgT04gbm90aWZpY2F0aW9uX2RlbGl2ZXJ5X3JlYWR5X3F1ZXVlCiAgICAgICAgICAgICBXSEVOIG9sZC5kZWxpdmVyeV9pZCA9ICdyZWFkeS1yb2xsYmFjaycKICAgICAgICAgICAgIEJFR0lOCiAgICAgICAgICAgICAgIFNFTEVDVCBSQUlTRShGQUlMLCAnZm9yY2VkIHR5cGVkIG5vdGlmaWNhdGlvbiByZWFkeSBmYWlsdXJlJyk7CiAgICAgICAgICAgICBFTkQ7IiwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgZHJvcChjb25uZWN0aW9uKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnB1bGxfcmVhZHlfbm90aWZpY2F0aW9uX2RlbGl2ZXJ5X2lkcygxMCwgMjApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuaXNfZXJyKCkKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC56cmV2cmFuZ2Vfc3RyaW5ncyhOT1RJRklDQVRJT05fREVMSVZFUklFU19SRUFEWV9LRVkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCksCiAgICAgICAgdmVjIVsicmVhZHktcm9sbGJhY2siLnRvX3N0cmluZygpXQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9ub3RpZmljYXRpb25fcnVudGltZQogICAgICAgICAgICAubG9hZF9yZWFkeV9xdWV1ZSgpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmxlbigpLAogICAgICAgIDEKICAgICk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIG5vdGlmaWNhdGlvbl9jb29sZG93bl9hbmRfcmVhZHlfZW5xdWV1ZV9yb2xsX2JhY2tfb25fdHlwZWRfZmFpbHVyZSgpIHsKICAgIGxldCBkaXIgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHRlbXAgZGlyIik7CiAgICBsZXQgcGF0aCA9IGRpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpOwogICAgbGV0IHN0b3JlID0gU3RvcmU6OmNvbm5lY3QoJnBhdGgpLmF3YWl0LmV4cGVjdCgib3BlbiBzdG9yZSIpOwogICAgbGV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmcGF0aCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGVfYmF0Y2goCiAgICAgICAgICAgICJDUkVBVEUgVFJJR0dFUiBmYWlsX3R5cGVkX25vdGlmaWNhdGlvbl9jb29sZG93bl9pbnNlcnQKICAgICAgICAgICAgIEJFRk9SRSBJTlNFUlQgT04gbm90aWZpY2F0aW9uX3J1bnRpbWVfY29vbGRvd25zCiAgICAgICAgICAgICBCRUdJTgogICAgICAgICAgICAgICBTRUxFQ1QgUkFJU0UoRkFJTCwgJ2ZvcmNlZCB0eXBlZCBub3RpZmljYXRpb24gY29vbGRvd24gZmFpbHVyZScpOwogICAgICAgICAgICAgRU5EOwogICAgICAgICAgICAgQ1JFQVRFIFRSSUdHRVIgZmFpbF90eXBlZF9ub3RpZmljYXRpb25fcmVhZHlfaW5zZXJ0CiAgICAgICAgICAgICBCRUZPUkUgSU5TRVJUIE9OIG5vdGlmaWNhdGlvbl9kZWxpdmVyeV9yZWFkeV9xdWV1ZQogICAgICAgICAgICAgQkVHSU4KICAgICAgICAgICAgICAgU0VMRUNUIFJBSVNFKEZBSUwsICdmb3JjZWQgdHlwZWQgbm90aWZpY2F0aW9uIHJlYWR5IGZhaWx1cmUnKTsKICAgICAgICAgICAgIEVORDsiLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICBkcm9wKGNvbm5lY3Rpb24pOwogICAgbGV0IGNvb2xkb3duX2tleSA9IG5vdGlmaWNhdGlvbl9jb29sZG93bl9rZXkoInJvbGxiYWNrLXJ1bGUiLCAiZ2xvYmFsIik7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5zZXRfbm90aWZpY2F0aW9uX2Nvb2xkb3duX3VudGlsKAogICAgICAgICAgICAgICAgInJvbGxiYWNrLXJ1bGUiLAogICAgICAgICAgICAgICAgImdsb2JhbCIsCiAgICAgICAgICAgICAgICAmY3JhdGU6OnRpbWVfdXRpbHM6Omlzb19hZnRlcl9zZWNvbmRzKDYwKSwKICAgICAgICAgICAgICAgIDYwLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuaXNfZXJyKCkKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5nZXRfc3RyaW5nX3ZhbHVlKCZjb29sZG93bl9rZXkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmlzX25vbmUoKQogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLmVucXVldWVfbm90aWZpY2F0aW9uX2RlbGl2ZXJ5KCJlbnF1ZXVlLXJvbGxiYWNrIiwgMTApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuaXNfZXJyKCkKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC56cmV2cmFuZ2Vfc3RyaW5ncyhOT1RJRklDQVRJT05fREVMSVZFUklFU19SRUFEWV9LRVkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmlzX2VtcHR5KCkKICAgICk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIG5vdGlmaWNhdGlvbl9yZWFkeV9xdWV1ZV9jbGFpbXNfZWFjaF9kZWxpdmVyeV9vbmNlX3VuZGVyX2NvbmN1cnJlbmN5KCkgewogICAgbGV0IChfZGlyLCBzdG9yZSkgPSBvcGVuX3Rlc3Rfc3RvcmUoKS5hd2FpdDsKICAgIGZvciBpbmRleCBpbiAwLi4zMiB7CiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLmVucXVldWVfbm90aWZpY2F0aW9uX2RlbGl2ZXJ5KCZmb3JtYXQhKCJkZWxpdmVyeS17aW5kZXg6MDJ9IiksIDEwKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpOwogICAgfQogICAgbGV0IG11dCB0YXNrcyA9IFZlYzo6bmV3KCk7CiAgICBmb3IgXyBpbiAwLi44IHsKICAgICAgICBsZXQgc3RvcmUgPSBzdG9yZS5jbG9uZSgpOwogICAgICAgIHRhc2tzLnB1c2godG9raW86OnNwYXduKGFzeW5jIG1vdmUgewogICAgICAgICAgICBzdG9yZS5wdWxsX3JlYWR5X25vdGlmaWNhdGlvbl9kZWxpdmVyeV9pZHMoOCwgMjApLmF3YWl0CiAgICAgICAgfSkpOwogICAgfQogICAgbGV0IG11dCBjbGFpbWVkID0gVmVjOjpuZXcoKTsKICAgIGZvciB0YXNrIGluIHRhc2tzIHsKICAgICAgICBjbGFpbWVkLmV4dGVuZCh0YXNrLmF3YWl0LnVud3JhcCgpLnVud3JhcCgpKTsKICAgIH0KICAgIGFzc2VydF9lcSEoY2xhaW1lZC5sZW4oKSwgMzIpOwogICAgY2xhaW1lZC5zb3J0KCk7CiAgICBjbGFpbWVkLmRlZHVwKCk7CiAgICBhc3NlcnRfZXEhKGNsYWltZWQubGVuKCksIDMyKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnpyZXZyYW5nZV9zdHJpbmdzKE5PVElGSUNBVElPTl9ERUxJVkVSSUVTX1JFQURZX0tFWSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfZW1wdHkoKQogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9ub3RpZmljYXRpb25fcnVudGltZQogICAgICAgICAgICAubG9hZF9yZWFkeV9xdWV1ZSgpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmlzX2VtcHR5KCkKICAgICk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIG5vdGlmaWNhdGlvbl9kZWxpdmVyeV9xdWV1ZV9yZWNvdmVyc19ub25fdGVybWluYWxfaGlzdG9yeV9hZnRlcl9jcmFzaCgpIHsKICAgIGxldCAoX2Rpciwgc3RvcmUpID0gb3Blbl90ZXN0X3N0b3JlKCkuYXdhaXQ7CiAgICBmb3IgKGlkLCBzdGF0dXMpIGluIFsKICAgICAgICAoImRlbGl2ZXJ5LXF1ZXVlZCIsICJxdWV1ZWQiKSwKICAgICAgICAoImRlbGl2ZXJ5LXNlbmRpbmciLCAic2VuZGluZyIpLAogICAgICAgICgiZGVsaXZlcnktc3VjY2VzcyIsICJzdWNjZXNzIiksCiAgICBdIHsKICAgICAgICBsZXQgZGVsaXZlcnkgPSBqc29uISh7CiAgICAgICAgICAgICJpZCI6IGlkLAogICAgICAgICAgICAic3RhdHVzIjogc3RhdHVzLAogICAgICAgICAgICAidHJpZ2dlcmVkX2F0IjogIjIwMjAtMDEtMDFUMDA6MDA6MDAuMDAwWiIKICAgICAgICB9KTsKICAgICAgICBzdG9yZQogICAgICAgICAgICAuc2F2ZV9ub3RpZmljYXRpb25fZGVsaXZlcnkoaWQsICZkZWxpdmVyeSwgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpLCA2MCwgZmFsc2UpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCk7CiAgICB9CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC56cmV2cmFuZ2Vfc3RyaW5ncyhOT1RJRklDQVRJT05fREVMSVZFUklFU19SRUFEWV9LRVkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmlzX2VtcHR5KCkKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5yZWJ1aWxkX25vdGlmaWNhdGlvbl9kZWxpdmVyeV9yZWFkeV9xdWV1ZSgpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCksCiAgICAgICAgMgogICAgKTsKICAgIGxldCBtdXQgcmVjb3ZlcmVkID0gc3RvcmUKICAgICAgICAucHVsbF9yZWFkeV9ub3RpZmljYXRpb25fZGVsaXZlcnlfaWRzKDEwLCBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCkpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgcmVjb3ZlcmVkLnNvcnQoKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgcmVjb3ZlcmVkLAogICAgICAgIHZlYyFbCiAgICAgICAgICAgICJkZWxpdmVyeS1xdWV1ZWQiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiZGVsaXZlcnktc2VuZGluZyIudG9fc3RyaW5nKCkKICAgICAgICBdCiAgICApOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBub3RpZmljYXRpb25fcnVudGltZV9kaXJlY3RfcmVzdG9yZV9hbmRfY2xlYXJfcmVidWlsZF9hbGxfdHlwZWRfc3RhdGUoKSB7CiAgICBsZXQgc291cmNlX2RpciA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgc291cmNlIHRlbXAgZGlyIik7CiAgICBsZXQgc291cmNlID0gU3RvcmU6OmNvbm5lY3Qoc291cmNlX2Rpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoIm9wZW4gc291cmNlIHN0b3JlIik7CiAgICBzb3VyY2UKICAgICAgICAuYWNxdWlyZV9ub3RpZmljYXRpb25fcnVudGltZV9sZWFzZSgicmVzdG9yZSIsICJvd25lciIsIDYwKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIHNvdXJjZQogICAgICAgIC5hcHBlbmRfbm90aWZpY2F0aW9uX3dpbmRvd19oaXQoCiAgICAgICAgICAgICJyZXN0b3JlLXJ1bGUiLAogICAgICAgICAgICAiZ2xvYmFsIiwKICAgICAgICAgICAgInJlc3RvcmUtZXZlbnQiLAogICAgICAgICAgICBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCksCiAgICAgICAgICAgIDYwLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBzb3VyY2UKICAgICAgICAuc2V0X25vdGlmaWNhdGlvbl9jb29sZG93bl91bnRpbCgKICAgICAgICAgICAgInJlc3RvcmUtcnVsZSIsCiAgICAgICAgICAgICJnbG9iYWwiLAogICAgICAgICAgICAmY3JhdGU6OnRpbWVfdXRpbHM6Omlzb19hZnRlcl9zZWNvbmRzKDYwKSwKICAgICAgICAgICAgNjAsCiAgICAgICAgKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIHNvdXJjZQogICAgICAgIC5lbnF1ZXVlX25vdGlmaWNhdGlvbl9kZWxpdmVyeSgicmVzdG9yZS1kZWxpdmVyeSIsIGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfbXMoKSkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBsZXQgZW50cmllcyA9IHNvdXJjZQogICAgICAgIC5leHBvcnRfYmFja3VwX2VudHJpZXNfYnlfcHJlZml4X2xpbWl0ZWQoImZuX2tub2NrOm5vdGlmaWNhdGlvbnM6IiwgMV8wMDBfMDAwLCB8X3wgdHJ1ZSkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CgogICAgbGV0IHRhcmdldF9kaXIgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHRhcmdldCB0ZW1wIGRpciIpOwogICAgbGV0IHRhcmdldF9wYXRoID0gdGFyZ2V0X2Rpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpOwogICAgbGV0IHRhcmdldCA9IFN0b3JlOjpjb25uZWN0KCZ0YXJnZXRfcGF0aCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJvcGVuIHRhcmdldCBzdG9yZSIpOwogICAgdGFyZ2V0CiAgICAgICAgLnJlcGxhY2VfYmFja3VwX2VudHJpZXNfYnlfcHJlZml4KCJmbl9rbm9jazoiLCAmZW50cmllcywgMjAwKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIGFzc2VydCEoCiAgICAgICAgdGFyZ2V0CiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfbm90aWZpY2F0aW9uX3J1bnRpbWUKICAgICAgICAgICAgLmxvYWRfbGVhc2UoInJlc3RvcmUiKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pc19zb21lKCkKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHRhcmdldAogICAgICAgICAgICAudHlwZWQKICAgICAgICAgICAgLnR5cGVkX25vdGlmaWNhdGlvbl9ydW50aW1lCiAgICAgICAgICAgIC5sb2FkX3dpbmRvdygmbm90aWZpY2F0aW9uX3dpbmRvd19rZXkoInJlc3RvcmUtcnVsZSIsICJnbG9iYWwiKSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAubGVuKCksCiAgICAgICAgMQogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgdGFyZ2V0CiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfbm90aWZpY2F0aW9uX3J1bnRpbWUKICAgICAgICAgICAgLmxvYWRfY29vbGRvd24oJm5vdGlmaWNhdGlvbl9jb29sZG93bl9rZXkoInJlc3RvcmUtcnVsZSIsICJnbG9iYWwiKSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfc29tZSgpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICB0YXJnZXQKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9ub3RpZmljYXRpb25fcnVudGltZQogICAgICAgICAgICAubG9hZF9yZWFkeV9xdWV1ZSgpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmxlbigpLAogICAgICAgIDEKICAgICk7CgogICAgdGFyZ2V0LmNsZWFyX2FsbF9rZXlzKCkuYXdhaXQudW53cmFwKCk7CiAgICBsZXQgY29ubmVjdGlvbiA9IG9wZW5fZml4dHVyZV9jb25uZWN0aW9uKCZ0YXJnZXRfcGF0aCk7CiAgICBsZXQgcmVtYWluaW5nOiBpNjQgPSBjb25uZWN0aW9uCiAgICAgICAgLnF1ZXJ5X3JvdygKICAgICAgICAgICAgIlNFTEVDVAogICAgICAgICAgICAgICAoU0VMRUNUIENPVU5UKCopIEZST00gbm90aWZpY2F0aW9uX3J1bnRpbWVfbGVhc2VzKSArCiAgICAgICAgICAgICAgIChTRUxFQ1QgQ09VTlQoKikgRlJPTSBub3RpZmljYXRpb25fcnVudGltZV9jb29sZG93bnMpICsKICAgICAgICAgICAgICAgKFNFTEVDVCBDT1VOVCgqKSBGUk9NIG5vdGlmaWNhdGlvbl9ydW50aW1lX3dpbmRvd19oaXRzKSArCiAgICAgICAgICAgICAgIChTRUxFQ1QgQ09VTlQoKikgRlJPTSBub3RpZmljYXRpb25fZGVsaXZlcnlfcmVhZHlfcXVldWUpIiwKICAgICAgICAgICAgW10sCiAgICAgICAgICAgIHxyb3d8IHJvdy5nZXQoMCksCiAgICAgICAgKQogICAgICAgIC51bndyYXAoKTsKICAgIGFzc2VydF9lcSEocmVtYWluaW5nLCAwKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gbm90aWZpY2F0aW9uX3J1bnRpbWVfZXhwaXJ5X25ldmVyX2xlYXZlc190eXBlZF9zdGF0ZV9hdXRob3JpdGF0aXZlKCkgewogICAgbGV0IGRpciA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgdGVtcCBkaXIiKTsKICAgIGxldCBwYXRoID0gZGlyLnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIik7CiAgICBsZXQgc3RvcmUgPSBTdG9yZTo6Y29ubmVjdCgmcGF0aCkuYXdhaXQuZXhwZWN0KCJvcGVuIHN0b3JlIik7CiAgICBsZXQgbGVhc2Vfa2V5ID0gbm90aWZpY2F0aW9uX3J1bnRpbWVfbG9ja19rZXkoImV4cGlyeSIpOwogICAgbGV0IGNvb2xkb3duX2tleSA9IG5vdGlmaWNhdGlvbl9jb29sZG93bl9rZXkoImV4cGlyeS1ydWxlIiwgImdsb2JhbCIpOwogICAgbGV0IHdpbmRvd19rZXkgPSBub3RpZmljYXRpb25fd2luZG93X2tleSgiZXhwaXJ5LXJ1bGUiLCAiZ2xvYmFsIik7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5hY3F1aXJlX25vdGlmaWNhdGlvbl9ydW50aW1lX2xlYXNlKCJleHBpcnkiLCAib2xkLW93bmVyIiwgNjApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICk7CiAgICBzdG9yZQogICAgICAgIC5zZXRfbm90aWZpY2F0aW9uX2Nvb2xkb3duX3VudGlsKAogICAgICAgICAgICAiZXhwaXJ5LXJ1bGUiLAogICAgICAgICAgICAiZ2xvYmFsIiwKICAgICAgICAgICAgJmNyYXRlOjp0aW1lX3V0aWxzOjppc29fYWZ0ZXJfc2Vjb25kcyg2MCksCiAgICAgICAgICAgIDYwLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBzdG9yZQogICAgICAgIC5hcHBlbmRfbm90aWZpY2F0aW9uX3dpbmRvd19oaXQoCiAgICAgICAgICAgICJleHBpcnktcnVsZSIsCiAgICAgICAgICAgICJnbG9iYWwiLAogICAgICAgICAgICAib2xkLWV2ZW50IiwKICAgICAgICAgICAgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpLAogICAgICAgICAgICA2MCwKICAgICAgICApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgc3RvcmUKICAgICAgICAuZW5xdWV1ZV9ub3RpZmljYXRpb25fZGVsaXZlcnkoImV4cGlyZWQtcmVhZHkiLCAxKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKCiAgICBsZXQgY29ubmVjdGlvbiA9IG9wZW5fZml4dHVyZV9jb25uZWN0aW9uKCZwYXRoKTsKICAgIGZvciBrZXkgaW4gWwogICAgICAgIGxlYXNlX2tleS5hc19zdHIoKSwKICAgICAgICBjb29sZG93bl9rZXkuYXNfc3RyKCksCiAgICAgICAgd2luZG93X2tleS5hc19zdHIoKSwKICAgICAgICBOT1RJRklDQVRJT05fREVMSVZFUklFU19SRUFEWV9LRVksCiAgICBdIHsKICAgICAgICBjb25uZWN0aW9uCiAgICAgICAgICAgIC5leGVjdXRlKCJVUERBVEUga3Zfa2V5cyBTRVQgZXhwaXJlc19hdF9tcyA9IDAgV0hFUkUga2V5ID0gPzEiLCBba2V5XSkKICAgICAgICAgICAgLnVud3JhcCgpOwogICAgfQogICAgZHJvcChjb25uZWN0aW9uKTsKCiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5hY3F1aXJlX25vdGlmaWNhdGlvbl9ydW50aW1lX2xlYXNlKCJleHBpcnkiLCAibmV3LW93bmVyIiwgNjApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfbm90aWZpY2F0aW9uX3J1bnRpbWUKICAgICAgICAgICAgLmxvYWRfbGVhc2UoImV4cGlyeSIpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC50b2tlbiwKICAgICAgICAibmV3LW93bmVyIgogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLmdldF9ub3RpZmljYXRpb25fY29vbGRvd25fdW50aWwoImV4cGlyeS1ydWxlIiwgImdsb2JhbCIpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmlzX25vbmUoKQogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9ub3RpZmljYXRpb25fcnVudGltZQogICAgICAgICAgICAubG9hZF9jb29sZG93bigmY29vbGRvd25fa2V5KQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pc19ub25lKCkKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5hcHBlbmRfbm90aWZpY2F0aW9uX3dpbmRvd19oaXQoCiAgICAgICAgICAgICAgICAiZXhwaXJ5LXJ1bGUiLAogICAgICAgICAgICAgICAgImdsb2JhbCIsCiAgICAgICAgICAgICAgICAibmV3LWV2ZW50IiwKICAgICAgICAgICAgICAgIGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfbXMoKSwKICAgICAgICAgICAgICAgIDYwLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCksCiAgICAgICAgMQogICAgKTsKICAgIGxldCBoaXRzID0gc3RvcmUKICAgICAgICAudHlwZWQKICAgICAgICAudHlwZWRfbm90aWZpY2F0aW9uX3J1bnRpbWUKICAgICAgICAubG9hZF93aW5kb3coJndpbmRvd19rZXkpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxIShoaXRzLmxlbigpLCAxKTsKICAgIGFzc2VydF9lcSEoaGl0c1swXS5ldmVudF9pZCwgIm5ldy1ldmVudCIpOwogICAgYXNzZXJ0ISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAucHVsbF9yZWFkeV9ub3RpZmljYXRpb25fZGVsaXZlcnlfaWRzKDEwLCBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmlzX2VtcHR5KCkKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfbm90aWZpY2F0aW9uX3J1bnRpbWUKICAgICAgICAgICAgLmxvYWRfcmVhZHlfcXVldWUoKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pc19lbXB0eSgpCiAgICApOwp9Cg==
+use super::*;
+
+#[tokio::test]
+async fn notification_runtime_lease_has_one_winner_and_typed_failure_rolls_back() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let mut tasks = Vec::new();
+    for index in 0..16 {
+        let store = store.clone();
+        tasks.push(tokio::spawn(async move {
+            let token = format!("owner-{index}");
+            let acquired = store
+                .acquire_notification_runtime_lease("concurrent", &token, 60)
+                .await?;
+            Ok::<_, crate::storage::StorageError>((token, acquired))
+        }));
+    }
+    let mut winner = None;
+    for task in tasks {
+        let (token, acquired) = task.await.unwrap().unwrap();
+        if acquired {
+            assert!(winner.replace(token).is_none());
+        }
+    }
+    let winner = winner.expect("one lease winner");
+    let typed = store
+        .typed
+        .typed_notification_runtime
+        .load_lease("concurrent")
+        .await
+        .unwrap()
+        .expect("typed notification lease");
+    assert_eq!(typed.token, winner);
+    assert!(typed.expires_at_ms > crate::time_utils::now_ms());
+
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute_batch(
+            "CREATE TRIGGER fail_typed_notification_lease_insert
+             BEFORE INSERT ON notification_runtime_leases
+             BEGIN
+               SELECT RAISE(FAIL, 'forced typed notification lease failure');
+             END;",
+        )
+        .unwrap();
+    drop(connection);
+    assert!(
+        store
+            .acquire_notification_runtime_lease("rollback", "owner", 60)
+            .await
+            .is_err()
+    );
+    assert!(
+        store
+            .get_string_value(&notification_runtime_lock_key("rollback"))
+            .await
+            .unwrap()
+            .is_none()
+    );
+    assert!(
+        store
+            .typed
+            .typed_notification_runtime
+            .load_lease("rollback")
+            .await
+            .unwrap()
+            .is_none()
+    );
+}
+
+#[tokio::test]
+async fn notification_window_is_atomic_repairs_shadow_and_rolls_back_typed_failure() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let happened_at_ms = crate::time_utils::now_ms();
+    let mut tasks = Vec::new();
+    for index in 0..16 {
+        let store = store.clone();
+        tasks.push(tokio::spawn(async move {
+            store
+                .append_notification_window_hit(
+                    "rule-concurrent",
+                    "global",
+                    &format!("event-{index}"),
+                    happened_at_ms,
+                    60,
+                )
+                .await
+        }));
+    }
+    for task in tasks {
+        assert!((1..=16).contains(&task.await.unwrap().unwrap()));
+    }
+    let key = notification_window_key("rule-concurrent", "global");
+    assert_eq!(
+        store
+            .typed
+            .typed_notification_runtime
+            .load_window(&key)
+            .await
+            .unwrap()
+            .len(),
+        16
+    );
+
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute(
+            "UPDATE notification_runtime_window_hits SET happened_at_ms = 0
+             WHERE runtime_key = ?1 AND event_id = 'event-0'",
+            [&key],
+        )
+        .unwrap();
+    drop(connection);
+    assert_eq!(
+        store
+            .append_notification_window_hit(
+                "rule-concurrent",
+                "global",
+                "event-16",
+                happened_at_ms,
+                60,
+            )
+            .await
+            .unwrap(),
+        17
+    );
+    assert_eq!(
+        store
+            .typed
+            .typed_notification_runtime
+            .load_window(&key)
+            .await
+            .unwrap()
+            .len(),
+        17
+    );
+    let status = store.typed_notification_runtime_shadow_status();
+    assert!(!status.healthy);
+    assert_eq!(status.mismatch_count, 1);
+
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute_batch(
+            "CREATE TRIGGER fail_typed_notification_window_insert
+             BEFORE INSERT ON notification_runtime_window_hits
+             WHEN new.runtime_key LIKE '%rule-rollback%'
+             BEGIN
+               SELECT RAISE(FAIL, 'forced typed notification window failure');
+             END;",
+        )
+        .unwrap();
+    drop(connection);
+    let rollback_key = notification_window_key("rule-rollback", "global");
+    assert!(
+        store
+            .append_notification_window_hit(
+                "rule-rollback",
+                "global",
+                "event-rollback",
+                happened_at_ms,
+                60,
+            )
+            .await
+            .is_err()
+    );
+    assert!(
+        store
+            .zrevrange_strings(&rollback_key)
+            .await
+            .unwrap()
+            .is_empty()
+    );
+    assert!(
+        store
+            .typed
+            .typed_notification_runtime
+            .load_window(&rollback_key)
+            .await
+            .unwrap()
+            .is_empty()
+    );
+}
+
+#[tokio::test]
+async fn notification_cooldown_and_ready_queue_repair_and_rollback_atomically() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let cooldown_key = notification_cooldown_key("rule", "group");
+    let until = crate::time_utils::iso_after_seconds(60);
+    store
+        .set_notification_cooldown_until("rule", "group", &until, 60)
+        .await
+        .unwrap();
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute(
+            "UPDATE notification_runtime_cooldowns SET until_iso = 'corrupt'
+             WHERE runtime_key = ?1",
+            [&cooldown_key],
+        )
+        .unwrap();
+    connection
+        .execute(
+            "UPDATE notification_delivery_ready_queue SET ready_at_ms = 999
+             WHERE delivery_id = 'ready-repair'",
+            [],
+        )
+        .unwrap();
+    drop(connection);
+    assert_eq!(
+        store
+            .get_notification_cooldown_until("rule", "group")
+            .await
+            .unwrap()
+            .as_deref(),
+        Some(until.as_str())
+    );
+    assert_eq!(
+        store
+            .typed
+            .typed_notification_runtime
+            .load_cooldown(&cooldown_key)
+            .await
+            .unwrap()
+            .unwrap()
+            .until_iso,
+        until
+    );
+
+    store
+        .enqueue_notification_delivery("ready-repair", 10)
+        .await
+        .unwrap();
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute(
+            "UPDATE notification_delivery_ready_queue SET ready_at_ms = 999
+             WHERE delivery_id = 'ready-repair'",
+            [],
+        )
+        .unwrap();
+    drop(connection);
+    assert_eq!(
+        store
+            .pull_ready_notification_delivery_ids(10, 20)
+            .await
+            .unwrap(),
+        vec!["ready-repair".to_string()]
+    );
+    assert!(
+        store
+            .typed
+            .typed_notification_runtime
+            .load_ready_queue()
+            .await
+            .unwrap()
+            .is_empty()
+    );
+
+    store
+        .enqueue_notification_delivery("ready-rollback", 10)
+        .await
+        .unwrap();
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute_batch(
+            "CREATE TRIGGER fail_typed_notification_ready_delete
+             BEFORE DELETE ON notification_delivery_ready_queue
+             WHEN old.delivery_id = 'ready-rollback'
+             BEGIN
+               SELECT RAISE(FAIL, 'forced typed notification ready failure');
+             END;",
+        )
+        .unwrap();
+    drop(connection);
+    assert!(
+        store
+            .pull_ready_notification_delivery_ids(10, 20)
+            .await
+            .is_err()
+    );
+    assert_eq!(
+        store
+            .zrevrange_strings(NOTIFICATION_DELIVERIES_READY_KEY)
+            .await
+            .unwrap(),
+        vec!["ready-rollback".to_string()]
+    );
+    assert_eq!(
+        store
+            .typed
+            .typed_notification_runtime
+            .load_ready_queue()
+            .await
+            .unwrap()
+            .len(),
+        1
+    );
+}
+
+#[tokio::test]
+async fn notification_cooldown_and_ready_enqueue_roll_back_on_typed_failure() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute_batch(
+            "CREATE TRIGGER fail_typed_notification_cooldown_insert
+             BEFORE INSERT ON notification_runtime_cooldowns
+             BEGIN
+               SELECT RAISE(FAIL, 'forced typed notification cooldown failure');
+             END;
+             CREATE TRIGGER fail_typed_notification_ready_insert
+             BEFORE INSERT ON notification_delivery_ready_queue
+             BEGIN
+               SELECT RAISE(FAIL, 'forced typed notification ready failure');
+             END;",
+        )
+        .unwrap();
+    drop(connection);
+    let cooldown_key = notification_cooldown_key("rollback-rule", "global");
+    assert!(
+        store
+            .set_notification_cooldown_until(
+                "rollback-rule",
+                "global",
+                &crate::time_utils::iso_after_seconds(60),
+                60,
+            )
+            .await
+            .is_err()
+    );
+    assert!(
+        store
+            .get_string_value(&cooldown_key)
+            .await
+            .unwrap()
+            .is_none()
+    );
+    assert!(
+        store
+            .enqueue_notification_delivery("enqueue-rollback", 10)
+            .await
+            .is_err()
+    );
+    assert!(
+        store
+            .zrevrange_strings(NOTIFICATION_DELIVERIES_READY_KEY)
+            .await
+            .unwrap()
+            .is_empty()
+    );
+}
+
+#[tokio::test]
+async fn notification_ready_queue_claims_each_delivery_once_under_concurrency() {
+    let (_dir, store) = open_test_store().await;
+    for index in 0..32 {
+        store
+            .enqueue_notification_delivery(&format!("delivery-{index:02}"), 10)
+            .await
+            .unwrap();
+    }
+    let mut tasks = Vec::new();
+    for _ in 0..8 {
+        let store = store.clone();
+        tasks.push(tokio::spawn(async move {
+            store.pull_ready_notification_delivery_ids(8, 20).await
+        }));
+    }
+    let mut claimed = Vec::new();
+    for task in tasks {
+        claimed.extend(task.await.unwrap().unwrap());
+    }
+    assert_eq!(claimed.len(), 32);
+    claimed.sort();
+    claimed.dedup();
+    assert_eq!(claimed.len(), 32);
+    assert!(
+        store
+            .zrevrange_strings(NOTIFICATION_DELIVERIES_READY_KEY)
+            .await
+            .unwrap()
+            .is_empty()
+    );
+    assert!(
+        store
+            .typed
+            .typed_notification_runtime
+            .load_ready_queue()
+            .await
+            .unwrap()
+            .is_empty()
+    );
+}
+
+#[tokio::test]
+async fn notification_delivery_queue_recovers_non_terminal_history_after_crash() {
+    let (_dir, store) = open_test_store().await;
+    for (id, status) in [
+        ("delivery-queued", "queued"),
+        ("delivery-sending", "sending"),
+        ("delivery-success", "success"),
+    ] {
+        let delivery = json!({
+            "id": id,
+            "status": status,
+            "triggered_at": "2020-01-01T00:00:00.000Z"
+        });
+        store
+            .save_notification_delivery(id, &delivery, crate::time_utils::now_ms(), 60, false)
+            .await
+            .unwrap();
+    }
+    assert!(
+        store
+            .zrevrange_strings(NOTIFICATION_DELIVERIES_READY_KEY)
+            .await
+            .unwrap()
+            .is_empty()
+    );
+    assert_eq!(
+        store
+            .rebuild_notification_delivery_ready_queue()
+            .await
+            .unwrap(),
+        2
+    );
+    let mut recovered = store
+        .pull_ready_notification_delivery_ids(10, crate::time_utils::now_ms())
+        .await
+        .unwrap();
+    recovered.sort();
+    assert_eq!(
+        recovered,
+        vec![
+            "delivery-queued".to_string(),
+            "delivery-sending".to_string()
+        ]
+    );
+}
+
+#[tokio::test]
+async fn notification_runtime_direct_restore_and_clear_rebuild_all_typed_state() {
+    let source_dir = tempfile::tempdir().expect("create source temp dir");
+    let source = Store::connect(source_dir.path().join("fn-knock.sqlite3"))
+        .await
+        .expect("open source store");
+    source
+        .acquire_notification_runtime_lease("restore", "owner", 60)
+        .await
+        .unwrap();
+    source
+        .append_notification_window_hit(
+            "restore-rule",
+            "global",
+            "restore-event",
+            crate::time_utils::now_ms(),
+            60,
+        )
+        .await
+        .unwrap();
+    source
+        .set_notification_cooldown_until(
+            "restore-rule",
+            "global",
+            &crate::time_utils::iso_after_seconds(60),
+            60,
+        )
+        .await
+        .unwrap();
+    source
+        .enqueue_notification_delivery("restore-delivery", crate::time_utils::now_ms())
+        .await
+        .unwrap();
+    let entries = source
+        .export_backup_entries_by_prefix_limited("fn_knock:notifications:", 1_000_000, |_| true)
+        .await
+        .unwrap();
+
+    let target_dir = tempfile::tempdir().expect("create target temp dir");
+    let target_path = target_dir.path().join("fn-knock.sqlite3");
+    let target = Store::connect(&target_path)
+        .await
+        .expect("open target store");
+    target
+        .replace_backup_entries_by_prefix("fn_knock:", &entries, 200)
+        .await
+        .unwrap();
+    assert!(
+        target
+            .typed
+            .typed_notification_runtime
+            .load_lease("restore")
+            .await
+            .unwrap()
+            .is_some()
+    );
+    assert_eq!(
+        target
+            .typed
+            .typed_notification_runtime
+            .load_window(&notification_window_key("restore-rule", "global"))
+            .await
+            .unwrap()
+            .len(),
+        1
+    );
+    assert!(
+        target
+            .typed
+            .typed_notification_runtime
+            .load_cooldown(&notification_cooldown_key("restore-rule", "global"))
+            .await
+            .unwrap()
+            .is_some()
+    );
+    assert_eq!(
+        target
+            .typed
+            .typed_notification_runtime
+            .load_ready_queue()
+            .await
+            .unwrap()
+            .len(),
+        1
+    );
+
+    target.clear_all_keys().await.unwrap();
+    let connection = open_fixture_connection(&target_path);
+    let remaining: i64 = connection
+        .query_row(
+            "SELECT
+               (SELECT COUNT(*) FROM notification_runtime_leases) +
+               (SELECT COUNT(*) FROM notification_runtime_cooldowns) +
+               (SELECT COUNT(*) FROM notification_runtime_window_hits) +
+               (SELECT COUNT(*) FROM notification_delivery_ready_queue)",
+            [],
+            |row| row.get(0),
+        )
+        .unwrap();
+    assert_eq!(remaining, 0);
+}
+
+#[tokio::test]
+async fn notification_runtime_expiry_never_leaves_typed_state_authoritative() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let lease_key = notification_runtime_lock_key("expiry");
+    let cooldown_key = notification_cooldown_key("expiry-rule", "global");
+    let window_key = notification_window_key("expiry-rule", "global");
+    assert!(
+        store
+            .acquire_notification_runtime_lease("expiry", "old-owner", 60)
+            .await
+            .unwrap()
+    );
+    store
+        .set_notification_cooldown_until(
+            "expiry-rule",
+            "global",
+            &crate::time_utils::iso_after_seconds(60),
+            60,
+        )
+        .await
+        .unwrap();
+    store
+        .append_notification_window_hit(
+            "expiry-rule",
+            "global",
+            "old-event",
+            crate::time_utils::now_ms(),
+            60,
+        )
+        .await
+        .unwrap();
+    store
+        .enqueue_notification_delivery("expired-ready", 1)
+        .await
+        .unwrap();
+
+    let connection = open_fixture_connection(&path);
+    for key in [
+        lease_key.as_str(),
+        cooldown_key.as_str(),
+        window_key.as_str(),
+        NOTIFICATION_DELIVERIES_READY_KEY,
+    ] {
+        connection
+            .execute("UPDATE kv_keys SET expires_at_ms = 0 WHERE key = ?1", [key])
+            .unwrap();
+    }
+    drop(connection);
+
+    assert!(
+        store
+            .acquire_notification_runtime_lease("expiry", "new-owner", 60)
+            .await
+            .unwrap()
+    );
+    assert_eq!(
+        store
+            .typed
+            .typed_notification_runtime
+            .load_lease("expiry")
+            .await
+            .unwrap()
+            .unwrap()
+            .token,
+        "new-owner"
+    );
+    assert!(
+        store
+            .get_notification_cooldown_until("expiry-rule", "global")
+            .await
+            .unwrap()
+            .is_none()
+    );
+    assert!(
+        store
+            .typed
+            .typed_notification_runtime
+            .load_cooldown(&cooldown_key)
+            .await
+            .unwrap()
+            .is_none()
+    );
+    assert_eq!(
+        store
+            .append_notification_window_hit(
+                "expiry-rule",
+                "global",
+                "new-event",
+                crate::time_utils::now_ms(),
+                60,
+            )
+            .await
+            .unwrap(),
+        1
+    );
+    let hits = store
+        .typed
+        .typed_notification_runtime
+        .load_window(&window_key)
+        .await
+        .unwrap();
+    assert_eq!(hits.len(), 1);
+    assert_eq!(hits[0].event_id, "new-event");
+    assert!(
+        store
+            .pull_ready_notification_delivery_ids(10, crate::time_utils::now_ms())
+            .await
+            .unwrap()
+            .is_empty()
+    );
+    assert!(
+        store
+            .typed
+            .typed_notification_runtime
+            .load_ready_queue()
+            .await
+            .unwrap()
+            .is_empty()
+    );
+}

@@ -1,1 +1,594 @@
-PHRlbXBsYXRlPgogIDxBdXRoU2hlbGw+CiAgICA8QXV0aENhcmQKICAgICAgY2FyZC1jbGFzcz0iYXV0aC1sb2dpbi1jYXJkIgogICAgICA6dGl0bGU9InQoJ2F1dGgudGl0bGUnKSIKICAgICAgOmRlc2NyaXB0aW9uPSIKICAgICAgICBpc0NhcHRjaGFWZXJpZmllZAogICAgICAgICAgPyBsb2dpbk1vZGUgPT09ICdwYXNzd29yZCcKICAgICAgICAgICAgPyB0KCdhdXRoLnBhc3N3b3JkUHJvbXB0JykKICAgICAgICAgICAgOiBjcmVkZW50aWFsS2luZCA9PT0gJ2xkYXAnCiAgICAgICAgICAgICAgPyB0KCdhdXRoLmxkYXBQcm9tcHQnKQogICAgICAgICAgICAgIDogdCgnYXV0aC5vdHBQcm9tcHQnKQogICAgICAgICAgOiB0KCdhdXRoLmNhcHRjaGFGaXJzdCcpCiAgICAgICIKICAgID4KICAgICAgPHRlbXBsYXRlICNoZWFkZXItZXh0cmE+CiAgICAgICAgPGRpdgogICAgICAgICAgdi1pZj0ibG9nb3V0Tm90aWNlIgogICAgICAgICAgY2xhc3M9Im10LTMgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlci83MCBiZy1tdXRlZC81MCBweC0zIHB5LTIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgPgogICAgICAgICAge3sgbG9nb3V0Tm90aWNlIH19CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdgogICAgICAgICAgdi1pZj0icmVkaXJlY3RHdWFyZE5vdGljZSIKICAgICAgICAgIGNsYXNzPSJtdC0zIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1kZXN0cnVjdGl2ZS8zMCBiZy1kZXN0cnVjdGl2ZS81IHB4LTMgcHktMiB0ZXh0LXNtIHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICByb2xlPSJhbGVydCIKICAgICAgICAgIGFyaWEtbGl2ZT0icG9saXRlIgogICAgICAgID4KICAgICAgICAgIHt7IHJlZGlyZWN0R3VhcmROb3RpY2UgfX0KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2CiAgICAgICAgICB2LWlmPSJvaWRjRXJyb3IiCiAgICAgICAgICBjbGFzcz0ibXQtMyByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItZGVzdHJ1Y3RpdmUvMzAgYmctZGVzdHJ1Y3RpdmUvNSBweC0zIHB5LTIgdGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgcm9sZT0iYWxlcnQiCiAgICAgICAgPgogICAgICAgICAge3sgb2lkY0Vycm9yIH19CiAgICAgICAgPC9kaXY+CiAgICAgIDwvdGVtcGxhdGU+CgogICAgICA8Zm9ybQogICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC02IGl0ZW1zLWNlbnRlciIKICAgICAgICBhdXRvY29tcGxldGU9Im9mZiIKICAgICAgICBAc3VibWl0LnByZXZlbnQ9ImhhbmRsZUxvZ2luIgogICAgICA+CiAgICAgICAgPGRpdgogICAgICAgICAgdi1pZj0iCiAgICAgICAgICAgICFpc0NhcHRjaGFWZXJpZmllZCAmJgogICAgICAgICAgICBhY3RpdmVDYXB0Y2hhUHJvdmlkZXIgPT09ICdwb3cnICYmCiAgICAgICAgICAgIGlzQ2FwdGNoYVByb3ZpZGVyQXZhaWxhYmxlICYmCiAgICAgICAgICAgIGNhblVzZU5hdGl2ZVBvdyAmJgogICAgICAgICAgICBpc05hdGl2ZVBvd01vZHVsZVJlYWR5CiAgICAgICAgICAiCiAgICAgICAgICBjbGFzcz0idy1mdWxsIGZsZXgganVzdGlmeS1jZW50ZXIgbXQtMiIKICAgICAgICA+CiAgICAgICAgICA8YWx0Y2hhLXdpZGdldAogICAgICAgICAgICByZWY9InBvd1dpZGdldFJlZiIKICAgICAgICAgICAgOmNoYWxsZW5nZXVybD0icG93Q2hhbGxlbmdlVXJsIgogICAgICAgICAgICA6Y3VzdG9tZmV0Y2gucHJvcD0icG93Q2hhbGxlbmdlRmV0Y2giCiAgICAgICAgICAgIEBzdGF0ZWNoYW5nZT0ib25Qb3dTdGF0ZUNoYW5nZSIKICAgICAgICAgICAgaGlkZWZvb3RlcgogICAgICAgICAgICBoaWRlbG9nbwogICAgICAgICAgICBjbGFzcz0idy1mdWxsIgogICAgICAgICAgICBzdHlsZT0iCiAgICAgICAgICAgICAgLS1hbHRjaGEtY29sb3ItYm9yZGVyOiBwaW5rOwogICAgICAgICAgICAgIC0tYWx0Y2hhLWJvcmRlci13aWR0aDogM3B4OwogICAgICAgICAgICAgIC0tYWx0Y2hhLWJvcmRlci1yYWRpdXM6IDhweDsKICAgICAgICAgICAgICAtLWFsdGNoYS1tYXgtd2lkdGg6IDM2MHB4OwogICAgICAgICAgICAiCiAgICAgICAgICAgIDpzdHJpbmdzPSJwb3dXaWRnZXRTdHJpbmdzIgogICAgICAgICAgPgogICAgICAgICAgPC9hbHRjaGEtd2lkZ2V0PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYKICAgICAgICAgIHYtZWxzZS1pZj0iIWlzQ2FwdGNoYVZlcmlmaWVkICYmIGlzQ2FwdGNoYUNvbmZpZ0xvYWRpbmciCiAgICAgICAgICBjbGFzcz0idy1mdWxsIG10LTIgc3BhY2UteS0zIgogICAgICAgID4KICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC0xMSB3LWZ1bGwgcm91bmRlZC1tZCIgLz4KICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC00IHctMi8zIHJvdW5kZWQtbWQgbXgtYXV0byIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2CiAgICAgICAgICB2LWVsc2UtaWY9IgogICAgICAgICAgICAhaXNDYXB0Y2hhVmVyaWZpZWQgJiYKICAgICAgICAgICAgYWN0aXZlQ2FwdGNoYVByb3ZpZGVyID09PSAncG93JyAmJgogICAgICAgICAgICBpc0NhcHRjaGFQcm92aWRlckF2YWlsYWJsZQogICAgICAgICAgIgogICAgICAgICAgY2xhc3M9InctZnVsbCBtdC0yIHNwYWNlLXktMyIKICAgICAgICA+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgY2xhc3M9InctZnVsbCIKICAgICAgICAgICAgOmRpc2FibGVkPSJpc1Bvd0ZhbGxiYWNrTG9hZGluZyIKICAgICAgICAgICAgQGNsaWNrPSJoYW5kbGVQb3dGYWxsYmFja1ZlcmlmeSIKICAgICAgICAgID4KICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICB2LWlmPSJpc1Bvd0ZhbGxiYWNrTG9hZGluZyIKICAgICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLWJhY2tncm91bmQgYm9yZGVyLXQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPjwvc3Bhbj4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICBpc1Bvd0ZhbGxiYWNrTG9hZGluZyA/IHQoImF1dGgudmVyaWZ5aW5nIikgOiB0KCJhdXRoLm5vdFJvYm90IikKICAgICAgICAgICAgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYKICAgICAgICAgIHYtZWxzZS1pZj0iCiAgICAgICAgICAgICFpc0NhcHRjaGFWZXJpZmllZCAmJgogICAgICAgICAgICBhY3RpdmVDYXB0Y2hhUHJvdmlkZXIgPT09ICd0dXJuc3RpbGUnICYmCiAgICAgICAgICAgIGlzQ2FwdGNoYVByb3ZpZGVyQXZhaWxhYmxlCiAgICAgICAgICAiCiAgICAgICAgICBjbGFzcz0idy1mdWxsIG10LTIgc3BhY2UteS0zIgogICAgICAgID4KICAgICAgICAgIDxUdXJuc3RpbGVXaWRnZXQKICAgICAgICAgICAgdi1pZj0iaGFzVHVybnN0aWxlU2l0ZUtleSIKICAgICAgICAgICAgcmVmPSJ0dXJuc3RpbGVXaWRnZXRSZWYiCiAgICAgICAgICAgIDpzaXRlLWtleT0iY2FwdGNoYUNvbmZpZz8udHVybnN0aWxlLnNpdGVfa2V5IHx8ICcnIgogICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzTG9hZGluZyB8fCBpc1Bhc3NrZXlMb2FkaW5nIgogICAgICAgICAgICBAdmVyaWZpZWQ9ImhhbmRsZVR1cm5zdGlsZVZlcmlmaWVkIgogICAgICAgICAgICBAZXhwaXJlZD0iaGFuZGxlQ2FwdGNoYVJlc2V0IgogICAgICAgICAgICBAcmVzZXQ9ImhhbmRsZUNhcHRjaGFSZXNldCIKICAgICAgICAgICAgQGVycm9yPSJoYW5kbGVUdXJuc3RpbGVFcnJvciIKICAgICAgICAgIC8+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIHYtZWxzZQogICAgICAgICAgICBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWRlc3RydWN0aXZlLzMwIGJnLWRlc3RydWN0aXZlLzUgcHgtNCBweS0zIHRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYXV0aC50dXJuc3RpbGVNaXNzaW5nIikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYKICAgICAgICAgIHYtZWxzZS1pZj0iIWlzQ2FwdGNoYVZlcmlmaWVkIgogICAgICAgICAgY2xhc3M9InctZnVsbCByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItZGVzdHJ1Y3RpdmUvMzAgYmctZGVzdHJ1Y3RpdmUvNSBweC00IHB5LTMgdGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgID4KICAgICAgICAgIHt7IGNhcHRjaGFVbmF2YWlsYWJsZVJlYXNvbiB9fQogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzPSJ3LWZ1bGwiIHYtaWY9ImlzUGFzc2tleVN1cHBvcnRlZCAmJiBpc1Bhc3NrZXlBdmFpbGFibGUiPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIDp2YXJpYW50PSJpc0NhcHRjaGFWZXJpZmllZCA/ICdzZWNvbmRhcnknIDogJ2RlZmF1bHQnIgogICAgICAgICAgICBjbGFzcz0idy1mdWxsIgogICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzUGFzc2tleUxvYWRpbmcgfHwgaXNMb2dpbkNvb2xpbmdEb3duIgogICAgICAgICAgICBAY2xpY2s9ImhhbmRsZVBhc3NrZXlMb2dpbiIKICAgICAgICAgID4KICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICB2LWlmPSJpc1Bhc3NrZXlMb2FkaW5nIgogICAgICAgICAgICAgIGNsYXNzPSJtci0yIGgtNCB3LTQgYW5pbWF0ZS1zcGluIHJvdW5kZWQtZnVsbCBib3JkZXItMiBib3JkZXItYmFja2dyb3VuZCBib3JkZXItdC1mb3JlZ3JvdW5kIgogICAgICAgICAgICA+PC9zcGFuPgogICAgICAgICAgICB7eyBwYXNza2V5QnV0dG9uTGFiZWwgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8T2lkY1Byb3ZpZGVyQnV0dG9ucwogICAgICAgICAgdi1pZj0iCiAgICAgICAgICAgIG9pZGNQcm92aWRlcnMubGVuZ3RoID4gMCAmJgogICAgICAgICAgICAoIWlzQ2FwdGNoYVZlcmlmaWVkIHx8IGFjdGl2ZUNhcHRjaGFQcm92aWRlciA9PT0gJ3R1cm5zdGlsZScpCiAgICAgICAgICAiCiAgICAgICAgICA6YWN0aXZlLXByb3ZpZGVyLWlkPSJhY3RpdmVPaWRjUHJvdmlkZXJJZCIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNPaWRjTG9hZGluZyB8fCBpc0xvZ2luQ29vbGluZ0Rvd24iCiAgICAgICAgICA6aXMtbG9hZGluZz0iaXNPaWRjTG9hZGluZyIKICAgICAgICAgIDpwcm92aWRlcnM9Im9pZGNQcm92aWRlcnMiCiAgICAgICAgICA6c2hvdy1kaXZpZGVyPSIKICAgICAgICAgICAgIWlzQ2FwdGNoYVZlcmlmaWVkICYmIGlzUGFzc2tleVN1cHBvcnRlZCAmJiBpc1Bhc3NrZXlBdmFpbGFibGUKICAgICAgICAgICIKICAgICAgICAgIEBsb2dpbj0iaGFuZGxlT2lkY0xvZ2luIgogICAgICAgIC8+CgogICAgICAgIDxMZGFwTG9naW5Db250cm9scwogICAgICAgICAgdi1pZj0iCiAgICAgICAgICAgIGlzQ2FwdGNoYVZlcmlmaWVkICYmCiAgICAgICAgICAgIGxvZ2luTW9kZSA9PT0gJ3RvdHAnICYmCiAgICAgICAgICAgIGxkYXBQcm92aWRlcnMubGVuZ3RoID4gMAogICAgICAgICAgIgogICAgICAgICAgdi1tb2RlbDpjcmVkZW50aWFsLWtpbmQ9ImNyZWRlbnRpYWxLaW5kIgogICAgICAgICAgdi1tb2RlbDpwcm92aWRlci1pZD0ibGRhcFByb3ZpZGVySWQiCiAgICAgICAgICB2LW1vZGVsOnVzZXJuYW1lPSJ1c2VybmFtZSIKICAgICAgICAgIHYtbW9kZWw6cGFzc3dvcmQ9InBhc3N3b3JkIgogICAgICAgICAgOnByb3ZpZGVycz0ibGRhcFByb3ZpZGVycyIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNMb2FkaW5nIHx8IGlzTG9naW5Db29saW5nRG93biIKICAgICAgICAvPgoKICAgICAgICA8ZGl2CiAgICAgICAgICB2LWlmPSJpc0NhcHRjaGFWZXJpZmllZCAmJiBsb2dpbk1vZGUgPT09ICdwYXNzd29yZCciCiAgICAgICAgICBjbGFzcz0idy1mdWxsIHNwYWNlLXktMyIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgICA8TGFiZWwgZm9yPSJsb2dpbi11c2VybmFtZSI+e3sgdCgiYXV0aC51c2VybmFtZSIpIH19PC9MYWJlbD4KICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgaWQ9ImxvZ2luLXVzZXJuYW1lIgogICAgICAgICAgICAgIHYtbW9kZWw9InVzZXJuYW1lIgogICAgICAgICAgICAgIGF1dG9jb21wbGV0ZT0idXNlcm5hbWUiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc0xvYWRpbmcgfHwgaXNMb2dpbkNvb2xpbmdEb3duIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgICA8TGFiZWwgZm9yPSJsb2dpbi1wYXNzd29yZCI+e3sgdCgiYXV0aC5wYXNzd29yZCIpIH19PC9MYWJlbD4KICAgICAgICAgICAgPGRpdiBjbGFzcz0icmVsYXRpdmUiPgogICAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgICAgaWQ9ImxvZ2luLXBhc3N3b3JkIgogICAgICAgICAgICAgICAgdi1tb2RlbD0icGFzc3dvcmQiCiAgICAgICAgICAgICAgICA6dHlwZT0iaXNQYXNzd29yZFZpc2libGUgPyAndGV4dCcgOiAncGFzc3dvcmQnIgogICAgICAgICAgICAgICAgYXV0b2NvbXBsZXRlPSJjdXJyZW50LXBhc3N3b3JkIgogICAgICAgICAgICAgICAgY2xhc3M9InByLTEwIgogICAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc0xvYWRpbmcgfHwgaXNMb2dpbkNvb2xpbmdEb3duIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICBzaXplPSJpY29uLXNtIgogICAgICAgICAgICAgICAgY2xhc3M9ImFic29sdXRlIHJpZ2h0LTEgdG9wLTEvMiAtdHJhbnNsYXRlLXktMS8yIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzTG9hZGluZyB8fCBpc0xvZ2luQ29vbGluZ0Rvd24iCiAgICAgICAgICAgICAgICA6dGl0bGU9IgogICAgICAgICAgICAgICAgICBpc1Bhc3N3b3JkVmlzaWJsZQogICAgICAgICAgICAgICAgICAgID8gdCgnYXV0aC5oaWRlUGFzc3dvcmQnKQogICAgICAgICAgICAgICAgICAgIDogdCgnYXV0aC5zaG93UGFzc3dvcmQnKQogICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgICAgICAgICAgICBpc1Bhc3N3b3JkVmlzaWJsZQogICAgICAgICAgICAgICAgICAgID8gdCgnYXV0aC5oaWRlUGFzc3dvcmQnKQogICAgICAgICAgICAgICAgICAgIDogdCgnYXV0aC5zaG93UGFzc3dvcmQnKQogICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgQGNsaWNrPSJpc1Bhc3N3b3JkVmlzaWJsZSA9ICFpc1Bhc3N3b3JkVmlzaWJsZSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8Y29tcG9uZW50CiAgICAgICAgICAgICAgICAgIDppcz0iaXNQYXNzd29yZFZpc2libGUgPyBFeWVPZmYgOiBFeWUiCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJoLTQgdy00IgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdgogICAgICAgICAgY2xhc3M9InctZnVsbCBmbGV4IGp1c3RpZnktY2VudGVyIgogICAgICAgICAgdi1pZj0iCiAgICAgICAgICAgIGlzQ2FwdGNoYVZlcmlmaWVkICYmCiAgICAgICAgICAgIGxvZ2luTW9kZSA9PT0gJ3RvdHAnICYmCiAgICAgICAgICAgIGNyZWRlbnRpYWxLaW5kID09PSAndG90cCcKICAgICAgICAgICIKICAgICAgICA+CiAgICAgICAgICA8SW5wdXRPVFAKICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2F1dGgub3RwUHJvbXB0JykiCiAgICAgICAgICAgIGlucHV0bW9kZT0ibnVtZXJpYyIKICAgICAgICAgICAgOm1heGxlbmd0aD0iNiIKICAgICAgICAgICAgdi1tb2RlbD0idG9rZW4iCiAgICAgICAgICAgIEBjb21wbGV0ZT0iaGFuZGxlT3RwQ29tcGxldGUiCiAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNMb2FkaW5nIHx8IGlzTG9naW5Db29saW5nRG93biIKICAgICAgICAgICAgYXV0b2NvbXBsZXRlPSJvbmUtdGltZS1jb2RlIgogICAgICAgICAgICBkYXRhLWZvcm0tdHlwZT0ib3RoZXIiCiAgICAgICAgICAgIGRhdGEtMXAtaWdub3JlPSJ0cnVlIgogICAgICAgICAgICBkYXRhLWxwaWdub3JlPSJ0cnVlIgogICAgICAgICAgICBkYXRhLWJ3aWdub3JlPSJ0cnVlIgogICAgICAgICAgPgogICAgICAgICAgICA8SW5wdXRPVFBHcm91cD4KICAgICAgICAgICAgICA8SW5wdXRPVFBTbG90IHYtZm9yPSJpIGluIDYiIDprZXk9ImkgLSAxIiA6aW5kZXg9ImkgLSAxIiAvPgogICAgICAgICAgICA8L0lucHV0T1RQR3JvdXA+CiAgICAgICAgICA8L0lucHV0T1RQPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8RGlhbG9nIDpvcGVuPSJzaG93RXJyb3JEaWFsb2ciIEB1cGRhdGU6b3Blbj0ic2hvd0Vycm9yRGlhbG9nID0gJGV2ZW50Ij4KICAgICAgICAgIDxEaWFsb2dDb250ZW50IDpzaG93LWNsb3NlLWJ1dHRvbj0iZmFsc2UiPgogICAgICAgICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgICAgICAgIDxEaWFsb2dUaXRsZT57eyB0KCJhdXRoLnRpcCIpIH19PC9EaWFsb2dUaXRsZT4KICAgICAgICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICAgICAgICB7eyBlcnJvck1lc3NhZ2UgfX0KICAgICAgICAgICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAgICA8L0RpYWxvZ0hlYWRlcj4KICAgICAgICAgICAgPERpYWxvZ0Zvb3Rlcj4KICAgICAgICAgICAgICA8QnV0dG9uIEBjbGljaz0ic2hvd0Vycm9yRGlhbG9nID0gZmFsc2UiPnt7CiAgICAgICAgICAgICAgICB0KCJhdXRoLm9rIikKICAgICAgICAgICAgICB9fTwvQnV0dG9uPgogICAgICAgICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgICAgICAgIDwvRGlhbG9nQ29udGVudD4KICAgICAgICA8L0RpYWxvZz4KICAgICAgICA8RGlhbG9nCiAgICAgICAgICA6b3Blbj0ic2hvd1Bhc3NrZXlCaW5kRGlhbG9nIgogICAgICAgICAgQHVwZGF0ZTpvcGVuPSJoYW5kbGVQYXNza2V5QmluZERpYWxvZ09wZW5DaGFuZ2UiCiAgICAgICAgPgogICAgICAgICAgPERpYWxvZ0NvbnRlbnQKICAgICAgICAgICAgOnNob3ctY2xvc2UtYnV0dG9uPSJmYWxzZSIKICAgICAgICAgICAgb3ZlcmxheS1jbGFzcz0iYmctYmxhY2svNTAgYmFja2Ryb3AtYmx1ci1zbSIKICAgICAgICAgID4KICAgICAgICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICAgICAgICA8RGlhbG9nVGl0bGU+e3sgdCgiYXV0aC5wYXNza2V5QmluZFRpdGxlIikgfX08L0RpYWxvZ1RpdGxlPgogICAgICAgICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgICAgICAgIHt7IHQoImF1dGgucGFzc2tleUJpbmREZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICB2LWlmPSJwYXNza2V5QmluZEVycm9yIgogICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LXNtIHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgcm9sZT0iYWxlcnQiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyBwYXNza2V5QmluZEVycm9yIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIHNwYWNlLXgtMyByb3VuZGVkLWxnIGJvcmRlciBiZy1tdXRlZC80MCBweC0zIHB5LTIiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8Q2hlY2tib3gKICAgICAgICAgICAgICAgIGlkPSJza2lwUGFzc2tleUJpbmRQcm9tcHQiCiAgICAgICAgICAgICAgICB2LW1vZGVsPSJza2lwUGFzc2tleUJpbmRQcm9tcHQiCiAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzQmluZGluZ1Bhc3NrZXkiCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8bGFiZWwKICAgICAgICAgICAgICAgIGZvcj0ic2tpcFBhc3NrZXlCaW5kUHJvbXB0IgogICAgICAgICAgICAgICAgY2xhc3M9ImN1cnNvci1wb2ludGVyIHNlbGVjdC1ub25lIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IHQoImF1dGgucGFzc2tleUJpbmRTa2lwUHJvbXB0IikgfX0KICAgICAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPERpYWxvZ0Zvb3RlciBjbGFzcz0iZ2FwLTIiPgogICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgQGNsaWNrPSJza2lwUGFzc2tleUJpbmQiPnt7CiAgICAgICAgICAgICAgICB0KCJhdXRoLnBhc3NrZXlCaW5kTGF0ZXIiKQogICAgICAgICAgICAgIH19PC9CdXR0b24+CiAgICAgICAgICAgICAgPEJ1dHRvbiA6ZGlzYWJsZWQ9ImlzQmluZGluZ1Bhc3NrZXkiIEBjbGljaz0iaGFuZGxlUGFzc2tleUJpbmQiPgogICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgdi1pZj0iaXNCaW5kaW5nUGFzc2tleSIKICAgICAgICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICA+PC9zcGFuPgogICAgICAgICAgICAgICAge3sgdCgiYXV0aC5wYXNza2V5QmluZE5vdyIpIH19CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgICAgICAgPC9EaWFsb2dDb250ZW50PgogICAgICAgIDwvRGlhbG9nPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHR5cGU9InN1Ym1pdCIKICAgICAgICAgIGNsYXNzPSJ3LWZ1bGwiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImlzTG9hZGluZyB8fCBpc0xvZ2luQ29vbGluZ0Rvd24iCiAgICAgICAgICB2LWlmPSJpc0NhcHRjaGFWZXJpZmllZCIKICAgICAgICAgIEBjbGljaz0iaGFuZGxlTG9naW4iCiAgICAgICAgPgogICAgICAgICAgPHNwYW4KICAgICAgICAgICAgdi1pZj0iaXNMb2FkaW5nIgogICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLWJhY2tncm91bmQgYm9yZGVyLXQtZm9yZWdyb3VuZCIKICAgICAgICAgID48L3NwYW4+CiAgICAgICAgICB7eyBsb2dpbkJ1dHRvbkxhYmVsIH19CiAgICAgICAgPC9CdXR0b24+CgogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzPSJ3LWZ1bGwgZmxleCBqdXN0aWZ5LWNlbnRlciIKICAgICAgICAgIHYtaWY9ImlzQ2FwdGNoYVZlcmlmaWVkIHx8IG9pZGNQcm92aWRlcnMubGVuZ3RoID4gMCIKICAgICAgICA+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBzcGFjZS14LTMgcHktMiBweC00IHJvdW5kZWQtbGcgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvNTAgY3Vyc29yLXBvaW50ZXIgZ3JvdXAiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxDaGVja2JveAogICAgICAgICAgICAgIGlkPSJyZW1lbWJlck1lIgogICAgICAgICAgICAgIHYtbW9kZWw9InJlbWVtYmVyTWUiCiAgICAgICAgICAgICAgY2xhc3M9ImRhdGEtW3N0YXRlPWNoZWNrZWRdOmJnLXByaW1hcnkgZGF0YS1bc3RhdGU9Y2hlY2tlZF06Ym9yZGVyLXByaW1hcnkiCiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDxsYWJlbAogICAgICAgICAgICAgIGZvcj0icmVtZW1iZXJNZSIKICAgICAgICAgICAgICBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSBsZWFkaW5nLW5vbmUgY3Vyc29yLXBvaW50ZXIgc2VsZWN0LW5vbmUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGdyb3VwLWhvdmVyOnRleHQtZm9yZWdyb3VuZCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHQoImF1dGgucmVtZW1iZXJNZSIpIH19CiAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9mb3JtPgogICAgPC9BdXRoQ2FyZD4KCiAgICA8dGVtcGxhdGUgI2Zvb3Rlcj4KICAgICAgPEF1dGhGb290ZXIKICAgICAgICA6Y2xpZW50LWlwPSJjbGllbnRJcCIKICAgICAgICA6aXAtbG9jYXRpb249ImlwTG9jYXRpb24iCiAgICAgICAgOmlwLWxvY2F0aW9uLXN0YXR1cz0iaXBMb2NhdGlvblN0YXR1cyIKICAgICAgLz4KICAgIDwvdGVtcGxhdGU+CiAgPC9BdXRoU2hlbGw+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KaW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBFeWUsIEV5ZU9mZiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDaGVja2JveCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jaGVja2JveCI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsKICBJbnB1dE9UUCwKICBJbnB1dE9UUEdyb3VwLAogIElucHV0T1RQU2xvdCwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQtb3RwIjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBTa2VsZXRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9za2VsZXRvbiI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHR5cGUgewogIEF1dGhMZGFwUHJvdmlkZXIsCiAgQXV0aE9pZGNQcm92aWRlciwKfSBmcm9tICJAZnJvbnRlbmQtY29yZS9hdXRoL3R5cGVzIjsKaW1wb3J0IHsgYnVpbGRBdXRoQXBpUGF0aCwgZmV0Y2hOb1N0b3JlIH0gZnJvbSAiQC9saWIvYXBpIjsKaW1wb3J0IHsgdXNlQ2xpZW50SXBMb2NhdGlvbiB9IGZyb20gIkAvbGliL2NsaWVudC1pcC1sb2NhdGlvbiI7CmltcG9ydCBBdXRoRm9vdGVyIGZyb20gIkAvY29tcG9uZW50cy9BdXRoRm9vdGVyLnZ1ZSI7CmltcG9ydCBBdXRoQ2FyZCBmcm9tICJAL2NvbXBvbmVudHMvQXV0aENhcmQudnVlIjsKaW1wb3J0IEF1dGhTaGVsbCBmcm9tICJAL2NvbXBvbmVudHMvQXV0aFNoZWxsLnZ1ZSI7CmltcG9ydCBMZGFwTG9naW5Db250cm9scyBmcm9tICJAL2NvbXBvbmVudHMvTGRhcExvZ2luQ29udHJvbHMudnVlIjsKaW1wb3J0IE9pZGNQcm92aWRlckJ1dHRvbnMgZnJvbSAiQC9jb21wb25lbnRzL09pZGNQcm92aWRlckJ1dHRvbnMudnVlIjsKaW1wb3J0IFR1cm5zdGlsZVdpZGdldCBmcm9tICJAL2NvbXBvbmVudHMvY2FwdGNoYS9UdXJuc3RpbGVXaWRnZXQudnVlIjsKaW1wb3J0IHsgdXNlQXV0aEJyb3dzZXJDYXBhYmlsaXRpZXMgfSBmcm9tICJAL2NvbXBvc2FibGVzL3VzZUF1dGhCcm93c2VyQ2FwYWJpbGl0aWVzIjsKaW1wb3J0IHsgdXNlQXV0aFN5c3RlbUNvbmZpZyB9IGZyb20gIkAvY29tcG9zYWJsZXMvdXNlQXV0aFN5c3RlbUNvbmZpZyI7CmltcG9ydCB7IHVzZUxvZ2luQ2FwdGNoYSB9IGZyb20gIkAvY29tcG9zYWJsZXMvdXNlTG9naW5DYXB0Y2hhIjsKaW1wb3J0IHsgdXNlTG9naW5Db29sZG93biB9IGZyb20gIkAvY29tcG9zYWJsZXMvdXNlTG9naW5Db29sZG93biI7CmltcG9ydCB7IHVzZUxvZ2luUGFzc2tleSB9IGZyb20gIkAvY29tcG9zYWJsZXMvdXNlTG9naW5QYXNza2V5IjsKaW1wb3J0IHsgdXNlTG9naW5SZWRpcmVjdCB9IGZyb20gIkAvY29tcG9zYWJsZXMvdXNlTG9naW5SZWRpcmVjdCI7CmltcG9ydCB7IHVzZUNyZWRlbnRpYWxMb2dpbiB9IGZyb20gIkAvY29tcG9zYWJsZXMvdXNlQ3JlZGVudGlhbExvZ2luIjsKaW1wb3J0IHsgdXNlTG9naW5Cb290c3RyYXAgfSBmcm9tICJAL2NvbXBvc2FibGVzL3VzZUxvZ2luQm9vdHN0cmFwIjsKaW1wb3J0IHsgdXNlT2lkY0xvZ2luIH0gZnJvbSAiQC9jb21wb3NhYmxlcy91c2VPaWRjTG9naW4iOwppbXBvcnQgeyB1c2VOYXRpdmVQb3dNb2R1bGUgfSBmcm9tICJAL2NvbXBvc2FibGVzL3VzZU5hdGl2ZVBvd01vZHVsZSI7Cgpjb25zdCBpMThuID0gdXNlSTE4bigpOwpjb25zdCB7IHQgfSA9IGkxOG47CmNvbnN0IHsKICBib290c3RyYXBHcmFudFR5cGUsCiAgY29tcGxldGVMb2dpbiwKICBsb2dvdXROb3RpY2UsCiAgbmF2aWdhdGVBZnRlckJvb3RzdHJhcCwKICByZWRpcmVjdEd1YXJkTm90aWNlLAogIHJlZGlyZWN0VXJpLAogIHJlc2V0UmVkaXJlY3RHdWFyZCwKfSA9IHVzZUxvZ2luUmVkaXJlY3QoewogIHRyYW5zbGF0ZTogKGtleSkgPT4gdChrZXkpLAp9KTsKCmNvbnN0IHRva2VuID0gcmVmKCIiKTsKY29uc3QgdXNlcm5hbWUgPSByZWYoIiIpOwpjb25zdCBwYXNzd29yZCA9IHJlZigiIik7CmNvbnN0IGlzUGFzc3dvcmRWaXNpYmxlID0gcmVmKGZhbHNlKTsKY29uc3QgcmVtZW1iZXJNZSA9IHJlZihmYWxzZSk7CmNvbnN0IGVycm9yTWVzc2FnZSA9IHJlZigiIik7CmNvbnN0IHNob3dFcnJvckRpYWxvZyA9IHJlZihmYWxzZSk7CmNvbnN0IGlzUGFzc2tleUF2YWlsYWJsZSA9IHJlZihmYWxzZSk7CmNvbnN0IGxkYXBQcm92aWRlcnMgPSByZWY8QXV0aExkYXBQcm92aWRlcltdPihbXSk7CmNvbnN0IGxkYXBQcm92aWRlcklkID0gcmVmKCIiKTsKY29uc3QgY3JlZGVudGlhbEtpbmQgPSByZWY8InRvdHAiIHwgImxkYXAiPigidG90cCIpOwpjb25zdCBvaWRjUHJvdmlkZXJzID0gcmVmPEF1dGhPaWRjUHJvdmlkZXJbXT4oW10pOwpjb25zdCBvaWRjRXJyb3IgPSByZWYoIiIpOwpjb25zdCBsb2dpbk1vZGUgPSByZWY8InRvdHAiIHwgInBhc3N3b3JkIj4oInRvdHAiKTsKd2F0Y2goY3JlZGVudGlhbEtpbmQsIChraW5kKSA9PiB7CiAgcGFzc3dvcmQudmFsdWUgPSAiIjsKICBpZiAoa2luZCA9PT0gInRvdHAiKSB1c2VybmFtZS52YWx1ZSA9ICIiOwp9KTsKY29uc3QgeyBjbGllbnRJcCwgaXBMb2NhdGlvbiwgaXBMb2NhdGlvblN0YXR1cywgc3RhcnRMb2NhdGlvblBvbGxpbmcgfSA9CiAgdXNlQ2xpZW50SXBMb2NhdGlvbigpOwoKY29uc3QgcmVwb3J0TG9naW5FcnJvciA9IChtZXNzYWdlOiBzdHJpbmcpID0+IHsKICBlcnJvck1lc3NhZ2UudmFsdWUgPSBtZXNzYWdlOwogIHNob3dFcnJvckRpYWxvZy52YWx1ZSA9IHRydWU7Cn07Cgpjb25zdCB7IGNhblVzZU5hdGl2ZVBvdywgaXNQYXNza2V5U3VwcG9ydGVkLCByZWZyZXNoQnJvd3NlckNhcGFiaWxpdGllcyB9ID0KICB1c2VBdXRoQnJvd3NlckNhcGFiaWxpdGllcygpOwpjb25zdCB7IGFwcGx5QXV0aFN5c3RlbUNvbmZpZyB9ID0gdXNlQXV0aFN5c3RlbUNvbmZpZyhpMThuKTsKY29uc3QgewogIGFjdGl2ZUNhcHRjaGFQcm92aWRlciwKICBjYXB0Y2hhQ29uZmlnLAogIGNhcHRjaGFTdWJtaXNzaW9uLAogIGNhcHRjaGFVbmF2YWlsYWJsZVJlYXNvbiwKICBoYW5kbGVQb3dGYWxsYmFja1ZlcmlmeSwKICBoYW5kbGVQb3dTdGF0ZUNoYW5nZTogb25Qb3dTdGF0ZUNoYW5nZSwKICBoYW5kbGVUdXJuc3RpbGVFcnJvciwKICBoYW5kbGVUdXJuc3RpbGVWZXJpZmllZCwKICBoYXNUdXJuc3RpbGVTaXRlS2V5LAogIGlzQ2FwdGNoYUNvbmZpZ0xvYWRpbmcsCiAgaXNDYXB0Y2hhUHJvdmlkZXJBdmFpbGFibGUsCiAgaXNDYXB0Y2hhVmVyaWZpZWQsCiAgaXNQb3dGYWxsYmFja0xvYWRpbmcsCiAgcG93V2lkZ2V0UmVmLAogIHBvd1dpZGdldFN0cmluZ3MsCiAgcmVzZXRDYXB0Y2hhOiBoYW5kbGVDYXB0Y2hhUmVzZXQsCiAgcmVzZXRDYXB0Y2hhV2lkZ2V0cywKICB0dXJuc3RpbGVXaWRnZXRSZWYsCn0gPSB1c2VMb2dpbkNhcHRjaGEoewogIGNhblVzZU5hdGl2ZVBvdywKICB0cmFuc2xhdGU6IChrZXkpID0+IHQoa2V5KSwKICBvbkVycm9yOiByZXBvcnRMb2dpbkVycm9yLAogIG9uVmVyaWZpZWQ6ICgpID0+IHsKICAgIGVycm9yTWVzc2FnZS52YWx1ZSA9ICIiOwogIH0sCn0pOwovLyBWdWUgYXNzaWducyBzdHJpbmcgdGVtcGxhdGUgcmVmcyBhdCBydW50aW1lOyBrZWVwIHRoZW0gdmlzaWJsZSB0byBUeXBlU2NyaXB0Lgp2b2lkIHBvd1dpZGdldFJlZjsKdm9pZCB0dXJuc3RpbGVXaWRnZXRSZWY7CmNvbnN0IGlzTmF0aXZlUG93TW9kdWxlUmVhZHkgPSB1c2VOYXRpdmVQb3dNb2R1bGUoYWN0aXZlQ2FwdGNoYVByb3ZpZGVyLCBjYW5Vc2VOYXRpdmVQb3cpOwpjb25zdCB7CiAgaXNDb29saW5nRG93bjogaXNMb2dpbkNvb2xpbmdEb3duLAogIHJlbWFpbmluZ1NlY29uZHM6IGxvZ2luQ29vbGRvd25TZWNvbmRzLAogIHJlc29sdmVNZXNzYWdlOiByZXNvbHZlTG9naW5Db29sZG93bk1lc3NhZ2UsCn0gPSB1c2VMb2dpbkNvb2xkb3duKHsKICBmb3JtYXRSZXRyeVN1ZmZpeDogKHNlY29uZHMpID0+IHQoImF1dGgucmV0cnlTdWZmaXgiLCB7IHNlY29uZHMgfSksCn0pOwpjb25zdCB7CiAgaGFuZGxlTG9naW5TdWNjZXNzLAogIGhhbmRsZVBhc3NrZXlCaW5kLAogIGhhbmRsZVBhc3NrZXlCaW5kRGlhbG9nT3BlbkNoYW5nZSwKICBoYW5kbGVQYXNza2V5TG9naW4sCiAgaXNCaW5kaW5nUGFzc2tleSwKICBpc0xvZ2luQ29tcGxldGlvblBlbmRpbmcsCiAgaXNQYXNza2V5TG9hZGluZywKICBwYXNza2V5QmluZEVycm9yLAogIHNob3dQYXNza2V5QmluZERpYWxvZywKICBza2lwUGFzc2tleUJpbmQsCiAgc2tpcFBhc3NrZXlCaW5kUHJvbXB0LAp9ID0gdXNlTG9naW5QYXNza2V5KHsKICBjbGVhckVycm9yOiAoKSA9PiB7CiAgICBlcnJvck1lc3NhZ2UudmFsdWUgPSAiIjsKICB9LAogIGNvbXBsZXRlTG9naW4sCiAgaXNMb2dpbkNvb2xpbmdEb3duLAogIGlzUGFzc2tleUF2YWlsYWJsZSwKICBpc1Bhc3NrZXlTdXBwb3J0ZWQsCiAgcmVkaXJlY3RVcmksCiAgcmVtZW1iZXJNZSwKICByZXBvcnRFcnJvcjogcmVwb3J0TG9naW5FcnJvciwKICByZXNvbHZlTG9naW5Db29sZG93bk1lc3NhZ2UsCiAgdHJhbnNsYXRlOiAoa2V5KSA9PiB0KGtleSksCn0pOwoKY29uc3QgcG93Q2hhbGxlbmdlVXJsID0gYnVpbGRBdXRoQXBpUGF0aCgiL2NoYWxsZW5nZSIpOwpjb25zdCBwb3dDaGFsbGVuZ2VGZXRjaCA9IChpbnB1dDogc3RyaW5nIHwgVVJMLCBpbml0PzogUmVxdWVzdEluaXQpID0+CiAgZmV0Y2hOb1N0b3JlKGlucHV0LCBpbml0KTsKY29uc3QgeyBoYW5kbGVMb2dpbiwgaGFuZGxlT3RwQ29tcGxldGUsIGlzTG9hZGluZywgbG9naW5CdXR0b25MYWJlbCB9ID0KICB1c2VDcmVkZW50aWFsTG9naW4oewogICAgY2FwdGNoYVN1Ym1pc3Npb24sCiAgICBjbGVhckVycm9yOiAoKSA9PiB7CiAgICAgIGVycm9yTWVzc2FnZS52YWx1ZSA9ICIiOwogICAgfSwKICAgIGhhbmRsZUxvZ2luU3VjY2VzcywKICAgIGlzQ2FwdGNoYVZlcmlmaWVkLAogICAgaXNMb2dpbkNvbXBsZXRpb25QZW5kaW5nLAogICAgaXNMb2dpbkNvb2xpbmdEb3duLAogICAgaXNQYXNza2V5U3VwcG9ydGVkLAogICAgY3JlZGVudGlhbEtpbmQsCiAgICBsZGFwUHJvdmlkZXJJZCwKICAgIGxvZ2luQ29vbGRvd25TZWNvbmRzLAogICAgbG9naW5Nb2RlLAogICAgcGFzc3dvcmQsCiAgICByZWRpcmVjdFVyaSwKICAgIHJlbWVtYmVyTWUsCiAgICByZXBvcnRFcnJvcjogcmVwb3J0TG9naW5FcnJvciwKICAgIHJlc2V0Q2FwdGNoYVdpZGdldHMsCiAgICByZXNvbHZlTG9naW5Db29sZG93bk1lc3NhZ2UsCiAgICB0b2tlbiwKICAgIHRyYW5zbGF0ZTogKGtleSwgcGFyYW1zKSA9PiAocGFyYW1zID8gdChrZXksIHBhcmFtcykgOiB0KGtleSkpLAogICAgdXNlcm5hbWUsCiAgfSk7Cgpjb25zdCB7IGFjdGl2ZU9pZGNQcm92aWRlcklkLCBoYW5kbGVPaWRjTG9naW4sIGlzT2lkY0xvYWRpbmcgfSA9IHVzZU9pZGNMb2dpbih7CiAgY2xlYXJFcnJvcjogKCkgPT4gewogICAgZXJyb3JNZXNzYWdlLnZhbHVlID0gIiI7CiAgfSwKICBpc0xvZ2luQ29vbGluZ0Rvd24sCiAgcmVkaXJlY3RVcmksCiAgcmVtZW1iZXJNZSwKICByZXBvcnRFcnJvcjogcmVwb3J0TG9naW5FcnJvciwKICByZXNldFJlZGlyZWN0R3VhcmQsCiAgdHJhbnNsYXRlOiAoa2V5KSA9PiB0KGtleSksCn0pOwoKdXNlTG9naW5Cb290c3RyYXAoewogIGFwcGx5QXV0aFN5c3RlbUNvbmZpZywKICBib290c3RyYXBHcmFudFR5cGUsCiAgY2FwdGNoYUNvbmZpZywKICBpc0NhcHRjaGFDb25maWdMb2FkaW5nLAogIGlzUGFzc2tleUF2YWlsYWJsZSwKICBsZGFwUHJvdmlkZXJJZCwKICBsZGFwUHJvdmlkZXJzLAogIGxvZ2luTW9kZSwKICBuYXZpZ2F0ZUFmdGVyQm9vdHN0cmFwLAogIG9pZGNFcnJvciwKICBvaWRjUHJvdmlkZXJzLAogIHJlZGlyZWN0VXJpLAogIHJlZnJlc2hCcm93c2VyQ2FwYWJpbGl0aWVzLAogIHJlcG9ydEVycm9yOiByZXBvcnRMb2dpbkVycm9yLAogIHN0YXJ0TG9jYXRpb25Qb2xsaW5nLAogIHRyYW5zbGF0ZTogKGtleSkgPT4gdChrZXkpLAp9KTsKCmNvbnN0IHBhc3NrZXlCdXR0b25MYWJlbCA9IGNvbXB1dGVkKCgpID0+IHsKICBpZiAoaXNQYXNza2V5TG9hZGluZy52YWx1ZSkgewogICAgcmV0dXJuIHQoImF1dGgudmVyaWZ5aW5nIik7CiAgfQogIGlmIChpc0xvZ2luQ29vbGluZ0Rvd24udmFsdWUpIHsKICAgIHJldHVybiB0KCJhdXRoLnJldHJ5QWZ0ZXJTZWNvbmRzIiwgewogICAgICBzZWNvbmRzOiBsb2dpbkNvb2xkb3duU2Vjb25kcy52YWx1ZSwKICAgIH0pOwogIH0KICByZXR1cm4gdCgiYXV0aC5wYXNza2V5TG9naW4iKTsKfSk7Cjwvc2NyaXB0Pgo=
+<template>
+  <AuthShell>
+    <AuthCard
+      card-class="auth-login-card"
+      :title="t('auth.title')"
+      :description="
+        isCaptchaVerified
+          ? loginMode === 'password'
+            ? t('auth.passwordPrompt')
+            : credentialKind === 'ldap'
+              ? t('auth.ldapPrompt')
+              : t('auth.otpPrompt')
+          : t('auth.captchaFirst')
+      "
+    >
+      <template #header-extra>
+        <div
+          v-if="logoutNotice"
+          class="mt-3 rounded-lg border border-border/70 bg-muted/50 px-3 py-2 text-sm text-muted-foreground"
+        >
+          {{ logoutNotice }}
+        </div>
+        <div
+          v-if="redirectGuardNotice"
+          class="mt-3 rounded-lg border border-destructive/30 bg-destructive/5 px-3 py-2 text-sm text-destructive"
+          role="alert"
+          aria-live="polite"
+        >
+          {{ redirectGuardNotice }}
+        </div>
+        <div
+          v-if="oidcError"
+          class="mt-3 rounded-lg border border-destructive/30 bg-destructive/5 px-3 py-2 text-sm text-destructive"
+          role="alert"
+        >
+          {{ oidcError }}
+        </div>
+      </template>
+
+      <form
+        class="flex flex-col gap-6 items-center"
+        autocomplete="off"
+        @submit.prevent="handleLogin"
+      >
+        <div
+          v-if="
+            !isCaptchaVerified &&
+            activeCaptchaProvider === 'pow' &&
+            isCaptchaProviderAvailable &&
+            canUseNativePow &&
+            isNativePowModuleReady
+          "
+          class="w-full flex justify-center mt-2"
+        >
+          <altcha-widget
+            ref="powWidgetRef"
+            :challengeurl="powChallengeUrl"
+            :customfetch.prop="powChallengeFetch"
+            @statechange="onPowStateChange"
+            hidefooter
+            hidelogo
+            class="w-full"
+            style="
+              --altcha-color-border: pink;
+              --altcha-border-width: 3px;
+              --altcha-border-radius: 8px;
+              --altcha-max-width: 360px;
+            "
+            :strings="powWidgetStrings"
+          >
+          </altcha-widget>
+        </div>
+        <div
+          v-else-if="!isCaptchaVerified && isCaptchaConfigLoading"
+          class="w-full mt-2 space-y-3"
+        >
+          <Skeleton class="h-11 w-full rounded-md" />
+          <Skeleton class="h-4 w-2/3 rounded-md mx-auto" />
+        </div>
+        <div
+          v-else-if="
+            !isCaptchaVerified &&
+            activeCaptchaProvider === 'pow' &&
+            isCaptchaProviderAvailable
+          "
+          class="w-full mt-2 space-y-3"
+        >
+          <Button
+            type="button"
+            class="w-full"
+            :disabled="isPowFallbackLoading"
+            @click="handlePowFallbackVerify"
+          >
+            <span
+              v-if="isPowFallbackLoading"
+              class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+            ></span>
+            {{
+              isPowFallbackLoading ? t("auth.verifying") : t("auth.notRobot")
+            }}
+          </Button>
+        </div>
+        <div
+          v-else-if="
+            !isCaptchaVerified &&
+            activeCaptchaProvider === 'turnstile' &&
+            isCaptchaProviderAvailable
+          "
+          class="w-full mt-2 space-y-3"
+        >
+          <TurnstileWidget
+            v-if="hasTurnstileSiteKey"
+            ref="turnstileWidgetRef"
+            :site-key="captchaConfig?.turnstile.site_key || ''"
+            :disabled="isLoading || isPasskeyLoading"
+            @verified="handleTurnstileVerified"
+            @expired="handleCaptchaReset"
+            @reset="handleCaptchaReset"
+            @error="handleTurnstileError"
+          />
+          <div
+            v-else
+            class="rounded-lg border border-destructive/30 bg-destructive/5 px-4 py-3 text-sm text-destructive"
+          >
+            {{ t("auth.turnstileMissing") }}
+          </div>
+        </div>
+        <div
+          v-else-if="!isCaptchaVerified"
+          class="w-full rounded-lg border border-destructive/30 bg-destructive/5 px-4 py-3 text-sm text-destructive"
+        >
+          {{ captchaUnavailableReason }}
+        </div>
+
+        <div class="w-full" v-if="isPasskeySupported && isPasskeyAvailable">
+          <Button
+            type="button"
+            :variant="isCaptchaVerified ? 'secondary' : 'default'"
+            class="w-full"
+            :disabled="isPasskeyLoading || isLoginCoolingDown"
+            @click="handlePasskeyLogin"
+          >
+            <span
+              v-if="isPasskeyLoading"
+              class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+            ></span>
+            {{ passkeyButtonLabel }}
+          </Button>
+        </div>
+
+        <OidcProviderButtons
+          v-if="
+            oidcProviders.length > 0 &&
+            (!isCaptchaVerified || activeCaptchaProvider === 'turnstile')
+          "
+          :active-provider-id="activeOidcProviderId"
+          :disabled="isOidcLoading || isLoginCoolingDown"
+          :is-loading="isOidcLoading"
+          :providers="oidcProviders"
+          :show-divider="
+            !isCaptchaVerified && isPasskeySupported && isPasskeyAvailable
+          "
+          @login="handleOidcLogin"
+        />
+
+        <LdapLoginControls
+          v-if="
+            isCaptchaVerified &&
+            loginMode === 'totp' &&
+            ldapProviders.length > 0
+          "
+          v-model:credential-kind="credentialKind"
+          v-model:provider-id="ldapProviderId"
+          v-model:username="username"
+          v-model:password="password"
+          :providers="ldapProviders"
+          :disabled="isLoading || isLoginCoolingDown"
+        />
+
+        <div
+          v-if="isCaptchaVerified && loginMode === 'password'"
+          class="w-full space-y-3"
+        >
+          <div class="space-y-2">
+            <Label for="login-username">{{ t("auth.username") }}</Label>
+            <Input
+              id="login-username"
+              v-model="username"
+              autocomplete="username"
+              :disabled="isLoading || isLoginCoolingDown"
+            />
+          </div>
+          <div class="space-y-2">
+            <Label for="login-password">{{ t("auth.password") }}</Label>
+            <div class="relative">
+              <Input
+                id="login-password"
+                v-model="password"
+                :type="isPasswordVisible ? 'text' : 'password'"
+                autocomplete="current-password"
+                class="pr-10"
+                :disabled="isLoading || isLoginCoolingDown"
+              />
+              <Button
+                type="button"
+                variant="ghost"
+                size="icon-sm"
+                class="absolute right-1 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+                :disabled="isLoading || isLoginCoolingDown"
+                :title="
+                  isPasswordVisible
+                    ? t('auth.hidePassword')
+                    : t('auth.showPassword')
+                "
+                :aria-label="
+                  isPasswordVisible
+                    ? t('auth.hidePassword')
+                    : t('auth.showPassword')
+                "
+                @click="isPasswordVisible = !isPasswordVisible"
+              >
+                <component
+                  :is="isPasswordVisible ? EyeOff : Eye"
+                  class="h-4 w-4"
+                />
+              </Button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="w-full flex justify-center"
+          v-if="
+            isCaptchaVerified &&
+            loginMode === 'totp' &&
+            credentialKind === 'totp'
+          "
+        >
+          <InputOTP
+            :aria-label="t('auth.otpPrompt')"
+            inputmode="numeric"
+            :maxlength="6"
+            v-model="token"
+            @complete="handleOtpComplete"
+            :disabled="isLoading || isLoginCoolingDown"
+            autocomplete="one-time-code"
+            data-form-type="other"
+            data-1p-ignore="true"
+            data-lpignore="true"
+            data-bwignore="true"
+          >
+            <InputOTPGroup>
+              <InputOTPSlot v-for="i in 6" :key="i - 1" :index="i - 1" />
+            </InputOTPGroup>
+          </InputOTP>
+        </div>
+
+        <Dialog :open="showErrorDialog" @update:open="showErrorDialog = $event">
+          <DialogContent :show-close-button="false">
+            <DialogHeader>
+              <DialogTitle>{{ t("auth.tip") }}</DialogTitle>
+              <DialogDescription>
+                {{ errorMessage }}
+              </DialogDescription>
+            </DialogHeader>
+            <DialogFooter>
+              <Button @click="showErrorDialog = false">{{
+                t("auth.ok")
+              }}</Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
+        <Dialog
+          :open="showPasskeyBindDialog"
+          @update:open="handlePasskeyBindDialogOpenChange"
+        >
+          <DialogContent
+            :show-close-button="false"
+            overlay-class="bg-black/50 backdrop-blur-sm"
+          >
+            <DialogHeader>
+              <DialogTitle>{{ t("auth.passkeyBindTitle") }}</DialogTitle>
+              <DialogDescription>
+                {{ t("auth.passkeyBindDescription") }}
+              </DialogDescription>
+            </DialogHeader>
+            <div
+              v-if="passkeyBindError"
+              class="text-sm text-destructive"
+              role="alert"
+            >
+              {{ passkeyBindError }}
+            </div>
+            <div
+              class="flex items-center space-x-3 rounded-lg border bg-muted/40 px-3 py-2"
+            >
+              <Checkbox
+                id="skipPasskeyBindPrompt"
+                v-model="skipPasskeyBindPrompt"
+                :disabled="isBindingPasskey"
+              />
+              <label
+                for="skipPasskeyBindPrompt"
+                class="cursor-pointer select-none text-sm text-muted-foreground"
+              >
+                {{ t("auth.passkeyBindSkipPrompt") }}
+              </label>
+            </div>
+            <DialogFooter class="gap-2">
+              <Button variant="outline" @click="skipPasskeyBind">{{
+                t("auth.passkeyBindLater")
+              }}</Button>
+              <Button :disabled="isBindingPasskey" @click="handlePasskeyBind">
+                <span
+                  v-if="isBindingPasskey"
+                  class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+                ></span>
+                {{ t("auth.passkeyBindNow") }}
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
+        <Button
+          type="submit"
+          class="w-full"
+          :disabled="isLoading || isLoginCoolingDown"
+          v-if="isCaptchaVerified"
+          @click="handleLogin"
+        >
+          <span
+            v-if="isLoading"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          ></span>
+          {{ loginButtonLabel }}
+        </Button>
+
+        <div
+          class="w-full flex justify-center"
+          v-if="isCaptchaVerified || oidcProviders.length > 0"
+        >
+          <div
+            class="flex items-center justify-center space-x-3 py-2 px-4 rounded-lg transition-colors hover:bg-muted/50 cursor-pointer group"
+          >
+            <Checkbox
+              id="rememberMe"
+              v-model="rememberMe"
+              class="data-[state=checked]:bg-primary data-[state=checked]:border-primary"
+            />
+            <label
+              for="rememberMe"
+              class="text-sm font-medium leading-none cursor-pointer select-none text-muted-foreground group-hover:text-foreground transition-colors"
+            >
+              {{ t("auth.rememberMe") }}
+            </label>
+          </div>
+        </div>
+      </form>
+    </AuthCard>
+
+    <template #footer>
+      <AuthFooter
+        :client-ip="clientIp"
+        :ip-location="ipLocation"
+        :ip-location-status="ipLocationStatus"
+      />
+    </template>
+  </AuthShell>
+</template>
+
+<script setup lang="ts">
+import { computed, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { Eye, EyeOff } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Input } from "@/components/ui/input";
+import {
+  InputOTP,
+  InputOTPGroup,
+  InputOTPSlot,
+} from "@/components/ui/input-otp";
+import { Label } from "@/components/ui/label";
+import { Skeleton } from "@/components/ui/skeleton";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import type {
+  AuthLdapProvider,
+  AuthOidcProvider,
+} from "@frontend-core/auth/types";
+import { buildAuthApiPath, fetchNoStore } from "@/lib/api";
+import { useClientIpLocation } from "@/lib/client-ip-location";
+import AuthFooter from "@/components/AuthFooter.vue";
+import AuthCard from "@/components/AuthCard.vue";
+import AuthShell from "@/components/AuthShell.vue";
+import LdapLoginControls from "@/components/LdapLoginControls.vue";
+import OidcProviderButtons from "@/components/OidcProviderButtons.vue";
+import TurnstileWidget from "@/components/captcha/TurnstileWidget.vue";
+import { useAuthBrowserCapabilities } from "@/composables/useAuthBrowserCapabilities";
+import { useAuthSystemConfig } from "@/composables/useAuthSystemConfig";
+import { useLoginCaptcha } from "@/composables/useLoginCaptcha";
+import { useLoginCooldown } from "@/composables/useLoginCooldown";
+import { useLoginPasskey } from "@/composables/useLoginPasskey";
+import { useLoginRedirect } from "@/composables/useLoginRedirect";
+import { useCredentialLogin } from "@/composables/useCredentialLogin";
+import { useLoginBootstrap } from "@/composables/useLoginBootstrap";
+import { useOidcLogin } from "@/composables/useOidcLogin";
+import { useNativePowModule } from "@/composables/useNativePowModule";
+
+const i18n = useI18n();
+const { t } = i18n;
+const {
+  bootstrapGrantType,
+  completeLogin,
+  logoutNotice,
+  navigateAfterBootstrap,
+  redirectGuardNotice,
+  redirectUri,
+  resetRedirectGuard,
+} = useLoginRedirect({
+  translate: (key) => t(key),
+});
+
+const token = ref("");
+const username = ref("");
+const password = ref("");
+const isPasswordVisible = ref(false);
+const rememberMe = ref(false);
+const errorMessage = ref("");
+const showErrorDialog = ref(false);
+const isPasskeyAvailable = ref(false);
+const ldapProviders = ref<AuthLdapProvider[]>([]);
+const ldapProviderId = ref("");
+const credentialKind = ref<"totp" | "ldap">("totp");
+const oidcProviders = ref<AuthOidcProvider[]>([]);
+const oidcError = ref("");
+const loginMode = ref<"totp" | "password">("totp");
+watch(credentialKind, (kind) => {
+  password.value = "";
+  if (kind === "totp") username.value = "";
+});
+const { clientIp, ipLocation, ipLocationStatus, startLocationPolling } =
+  useClientIpLocation();
+
+const reportLoginError = (message: string) => {
+  errorMessage.value = message;
+  showErrorDialog.value = true;
+};
+
+const { canUseNativePow, isPasskeySupported, refreshBrowserCapabilities } =
+  useAuthBrowserCapabilities();
+const { applyAuthSystemConfig } = useAuthSystemConfig(i18n);
+const {
+  activeCaptchaProvider,
+  captchaConfig,
+  captchaSubmission,
+  captchaUnavailableReason,
+  handlePowFallbackVerify,
+  handlePowStateChange: onPowStateChange,
+  handleTurnstileError,
+  handleTurnstileVerified,
+  hasTurnstileSiteKey,
+  isCaptchaConfigLoading,
+  isCaptchaProviderAvailable,
+  isCaptchaVerified,
+  isPowFallbackLoading,
+  powWidgetRef,
+  powWidgetStrings,
+  resetCaptcha: handleCaptchaReset,
+  resetCaptchaWidgets,
+  turnstileWidgetRef,
+} = useLoginCaptcha({
+  canUseNativePow,
+  translate: (key) => t(key),
+  onError: reportLoginError,
+  onVerified: () => {
+    errorMessage.value = "";
+  },
+});
+// Vue assigns string template refs at runtime; keep them visible to TypeScript.
+void powWidgetRef;
+void turnstileWidgetRef;
+const isNativePowModuleReady = useNativePowModule(activeCaptchaProvider, canUseNativePow);
+const {
+  isCoolingDown: isLoginCoolingDown,
+  remainingSeconds: loginCooldownSeconds,
+  resolveMessage: resolveLoginCooldownMessage,
+} = useLoginCooldown({
+  formatRetrySuffix: (seconds) => t("auth.retrySuffix", { seconds }),
+});
+const {
+  handleLoginSuccess,
+  handlePasskeyBind,
+  handlePasskeyBindDialogOpenChange,
+  handlePasskeyLogin,
+  isBindingPasskey,
+  isLoginCompletionPending,
+  isPasskeyLoading,
+  passkeyBindError,
+  showPasskeyBindDialog,
+  skipPasskeyBind,
+  skipPasskeyBindPrompt,
+} = useLoginPasskey({
+  clearError: () => {
+    errorMessage.value = "";
+  },
+  completeLogin,
+  isLoginCoolingDown,
+  isPasskeyAvailable,
+  isPasskeySupported,
+  redirectUri,
+  rememberMe,
+  reportError: reportLoginError,
+  resolveLoginCooldownMessage,
+  translate: (key) => t(key),
+});
+
+const powChallengeUrl = buildAuthApiPath("/challenge");
+const powChallengeFetch = (input: string | URL, init?: RequestInit) =>
+  fetchNoStore(input, init);
+const { handleLogin, handleOtpComplete, isLoading, loginButtonLabel } =
+  useCredentialLogin({
+    captchaSubmission,
+    clearError: () => {
+      errorMessage.value = "";
+    },
+    handleLoginSuccess,
+    isCaptchaVerified,
+    isLoginCompletionPending,
+    isLoginCoolingDown,
+    isPasskeySupported,
+    credentialKind,
+    ldapProviderId,
+    loginCooldownSeconds,
+    loginMode,
+    password,
+    redirectUri,
+    rememberMe,
+    reportError: reportLoginError,
+    resetCaptchaWidgets,
+    resolveLoginCooldownMessage,
+    token,
+    translate: (key, params) => (params ? t(key, params) : t(key)),
+    username,
+  });
+
+const { activeOidcProviderId, handleOidcLogin, isOidcLoading } = useOidcLogin({
+  clearError: () => {
+    errorMessage.value = "";
+  },
+  isLoginCoolingDown,
+  redirectUri,
+  rememberMe,
+  reportError: reportLoginError,
+  resetRedirectGuard,
+  translate: (key) => t(key),
+});
+
+useLoginBootstrap({
+  applyAuthSystemConfig,
+  bootstrapGrantType,
+  captchaConfig,
+  isCaptchaConfigLoading,
+  isPasskeyAvailable,
+  ldapProviderId,
+  ldapProviders,
+  loginMode,
+  navigateAfterBootstrap,
+  oidcError,
+  oidcProviders,
+  redirectUri,
+  refreshBrowserCapabilities,
+  reportError: reportLoginError,
+  startLocationPolling,
+  translate: (key) => t(key),
+});
+
+const passkeyButtonLabel = computed(() => {
+  if (isPasskeyLoading.value) {
+    return t("auth.verifying");
+  }
+  if (isLoginCoolingDown.value) {
+    return t("auth.retryAfterSeconds", {
+      seconds: loginCooldownSeconds.value,
+    });
+  }
+  return t("auth.passkeyLogin");
+});
+</script>

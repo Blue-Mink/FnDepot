@@ -1,1 +1,143 @@
-dXNlIHN1cGVyOjoqOwoKaW1wbCBTdG9yZSB7CiAgICAjW2FsbG93KGRlYWRfY29kZSldCiAgICBwdWIgYXN5bmMgZm4gc2V0X2pzb25fdmFsdWUoCiAgICAgICAgJnNlbGYsCiAgICAgICAga2V5OiAmc3RyLAogICAgICAgIHZhbHVlOiAmVmFsdWUsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgc2VsZi5zZXRfc3RyaW5nX3ZhbHVlKAogICAgICAgICAgICBrZXksCiAgICAgICAgICAgICZzZXJkZV9qc29uOjp0b19zdHJpbmcodmFsdWUpLnVud3JhcF9vcl9lbHNlKHxffCAie30iLnRvX3N0cmluZygpKSwKICAgICAgICApCiAgICAgICAgLmF3YWl0CiAgICB9CgogICAgcHViIGFzeW5jIGZuIHNldF9qc29uX3ZhbHVlc19hdG9taWNhbGx5KAogICAgICAgICZzZWxmLAogICAgICAgIHZhbHVlczogJlsoJnN0ciwgJlZhbHVlKV0sCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgLy8gcmVkaXNfY29tcGF0IGV4ZWN1dGVzIGV2ZXJ5IHBpcGVsaW5lIGluIG9uZSBTUUxpdGUgSU1NRURJQVRFCiAgICAgICAgLy8gdHJhbnNhY3Rpb24sIHNvIHRha2VvdmVyIHJlYWRlcnMgY2Fubm90IG9ic2VydmUgYSBwYXJ0aWFsIHNuYXBzaG90LgogICAgICAgIGxldCBtdXQgcGlwZSA9IHJlZGlzOjpwaXBlKCk7CiAgICAgICAgZm9yIChrZXksIHZhbHVlKSBpbiB2YWx1ZXMgewogICAgICAgICAgICBwaXBlLnNldCgKICAgICAgICAgICAgICAgICprZXksCiAgICAgICAgICAgICAgICBzZXJkZV9qc29uOjp0b19zdHJpbmcodmFsdWUpLnVud3JhcF9vcl9lbHNlKHxffCAie30iLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgKQogICAgICAgICAgICAuaWdub3JlKCk7CiAgICAgICAgfQogICAgICAgIHBpcGUucXVlcnlfYXN5bmM6OjwoKT4oJm11dCBjb25uKS5hd2FpdD87CiAgICAgICAgaWYgdmFsdWVzCiAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgLmFueSh8KGtleSwgXyl8IG1hdGNoZXMhKCprZXksIENPTkZJR19LRVkgfCBIT1NUX01BUFBJTkdTX0dFTkVSQVRJT05fS0VZKSkKICAgICAgICB7CiAgICAgICAgICAgIHNlbGYucmVmcmVzaF9jb25maWdfc25hcHNob3QoKS5hd2FpdD87CiAgICAgICAgfQogICAgICAgIE9rKCgpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBzZXRfanNvbl92YWx1ZV9leCgKICAgICAgICAmc2VsZiwKICAgICAgICBrZXk6ICZzdHIsCiAgICAgICAgdmFsdWU6ICZWYWx1ZSwKICAgICAgICB0dGxfc2Vjb25kczogdXNpemUsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgY29ubi5zZXRfZXgoCiAgICAgICAgICAgIGtleSwKICAgICAgICAgICAgc2VyZGVfanNvbjo6dG9fc3RyaW5nKHZhbHVlKS51bndyYXBfb3JfZWxzZSh8X3wgInt9Ii50b19zdHJpbmcoKSksCiAgICAgICAgICAgIHR0bF9zZWNvbmRzLm1heCgxKSBhcyB1NjQsCiAgICAgICAgKQogICAgICAgIC5hd2FpdAogICAgfQoKICAgIHB1YiBhc3luYyBmbiBzZXRfanNvbl92YWx1ZV9ueF9leCgKICAgICAgICAmc2VsZiwKICAgICAgICBrZXk6ICZzdHIsCiAgICAgICAgdmFsdWU6ICZWYWx1ZSwKICAgICAgICB0dGxfc2Vjb25kczogdXNpemUsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PGJvb2w+IHsKICAgICAgICBzZWxmLnZlcmlmeV93aGl0ZWxpc3RfcnVudGltZV9zaGFkb3dfa2V5KGtleSkuYXdhaXQ/OwogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCBzZXJpYWxpemVkID0gc2VyZGVfanNvbjo6dG9fc3RyaW5nKHZhbHVlKS51bndyYXBfb3JfZWxzZSh8X3wgInt9Ii50b19zdHJpbmcoKSk7CiAgICAgICAgbGV0IHJlc3VsdDogT3B0aW9uPFN0cmluZz4gPSByZWRpczo6Y21kKCJTRVQiKQogICAgICAgICAgICAuYXJnKGtleSkKICAgICAgICAgICAgLmFyZyhzZXJpYWxpemVkKQogICAgICAgICAgICAuYXJnKCJFWCIpCiAgICAgICAgICAgIC5hcmcodHRsX3NlY29uZHMubWF4KDEpKQogICAgICAgICAgICAuYXJnKCJOWCIpCiAgICAgICAgICAgIC5xdWVyeV9hc3luYygmbXV0IGNvbm4pCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgT2socmVzdWx0LmFzX2RlcmVmKCkgPT0gU29tZSgiT0siKSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gc2V0X2pzb25fbG9ja19pZl9vd25lZF9leCgKICAgICAgICAmc2VsZiwKICAgICAgICBrZXk6ICZzdHIsCiAgICAgICAgbG9ja19pZDogJnN0ciwKICAgICAgICB2YWx1ZTogJlZhbHVlLAogICAgICAgIHR0bF9zZWNvbmRzOiB1c2l6ZSwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgICAgIHNlbGYudmVyaWZ5X3doaXRlbGlzdF9ydW50aW1lX3NoYWRvd19rZXkoa2V5KS5hd2FpdD87CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IHNlcmlhbGl6ZWQgPSBzZXJkZV9qc29uOjp0b19zdHJpbmcodmFsdWUpLnVud3JhcF9vcl9lbHNlKHxffCAie30iLnRvX3N0cmluZygpKTsKICAgICAgICBsZXQgcmVzdWx0OiBpNjQgPSByZWRpczo6Y21kKCJFVkFMIikKICAgICAgICAgICAgLmFyZygKICAgICAgICAgICAgICAgIHIjIgotLSBmbi1rbm9jazpldmFsOmpzb24tbG9jay1yZWZyZXNoOnYxCmxvY2FsIHJhdyA9IHJlZGlzLmNhbGwoIkdFVCIsIEtFWVNbMV0pCmlmIG5vdCByYXcgdGhlbgogIHJldHVybiAwCmVuZApsb2NhbCBvaywgZGVjb2RlZCA9IHBjYWxsKGNqc29uLmRlY29kZSwgcmF3KQppZiBub3Qgb2sgb3IgdHlwZShkZWNvZGVkKSB+PSAidGFibGUiIG9yIGRlY29kZWRbImxvY2tJZCJdIH49IEFSR1ZbMV0gdGhlbgogIHJldHVybiAwCmVuZApyZWRpcy5jYWxsKCJTRVQiLCBLRVlTWzFdLCBBUkdWWzJdLCAiRVgiLCB0b251bWJlcihBUkdWWzNdKSkKcmV0dXJuIDEKIiMsCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmFyZygxKQogICAgICAgICAgICAuYXJnKGtleSkKICAgICAgICAgICAgLmFyZyhsb2NrX2lkKQogICAgICAgICAgICAuYXJnKHNlcmlhbGl6ZWQpCiAgICAgICAgICAgIC5hcmcodHRsX3NlY29uZHMubWF4KDEpLnRvX3N0cmluZygpKQogICAgICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIE9rKHJlc3VsdCA9PSAxKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBkZWxldGVfbG9ja19pZl9vd25lZCgKICAgICAgICAmc2VsZiwKICAgICAgICBrZXk6ICZzdHIsCiAgICAgICAgbG9ja19pZDogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgICAgIHNlbGYudmVyaWZ5X3doaXRlbGlzdF9ydW50aW1lX3NoYWRvd19rZXkoa2V5KS5hd2FpdD87CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IHJlc3VsdDogaTY0ID0gcmVkaXM6OmNtZCgiRVZBTCIpCiAgICAgICAgICAgIC5hcmcoCiAgICAgICAgICAgICAgICByIyIKLS0gZm4ta25vY2s6ZXZhbDpqc29uLWxvY2stcmVsZWFzZTp2MQpsb2NhbCByYXcgPSByZWRpcy5jYWxsKCJHRVQiLCBLRVlTWzFdKQppZiBub3QgcmF3IHRoZW4KICByZXR1cm4gMAplbmQKbG9jYWwgb2ssIGRlY29kZWQgPSBwY2FsbChjanNvbi5kZWNvZGUsIHJhdykKaWYgbm90IG9rIG9yIHR5cGUoZGVjb2RlZCkgfj0gInRhYmxlIiBvciBkZWNvZGVkWyJsb2NrSWQiXSB+PSBBUkdWWzFdIHRoZW4KICByZXR1cm4gMAplbmQKcmVkaXMuY2FsbCgiREVMIiwgS0VZU1sxXSkKcmV0dXJuIDEKIiMsCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmFyZygxKQogICAgICAgICAgICAuYXJnKGtleSkKICAgICAgICAgICAgLmFyZyhsb2NrX2lkKQogICAgICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIE9rKHJlc3VsdCA9PSAxKQogICAgfQp9Cg==
+use super::*;
+
+impl Store {
+    #[allow(dead_code)]
+    pub async fn set_json_value(
+        &self,
+        key: &str,
+        value: &Value,
+    ) -> crate::storage::StorageResult<()> {
+        self.set_string_value(
+            key,
+            &serde_json::to_string(value).unwrap_or_else(|_| "{}".to_string()),
+        )
+        .await
+    }
+
+    pub async fn set_json_values_atomically(
+        &self,
+        values: &[(&str, &Value)],
+    ) -> crate::storage::StorageResult<()> {
+        let mut conn = self.conn();
+        // redis_compat executes every pipeline in one SQLite IMMEDIATE
+        // transaction, so takeover readers cannot observe a partial snapshot.
+        let mut pipe = redis::pipe();
+        for (key, value) in values {
+            pipe.set(
+                *key,
+                serde_json::to_string(value).unwrap_or_else(|_| "{}".to_string()),
+            )
+            .ignore();
+        }
+        pipe.query_async::<()>(&mut conn).await?;
+        if values
+            .iter()
+            .any(|(key, _)| matches!(*key, CONFIG_KEY | HOST_MAPPINGS_GENERATION_KEY))
+        {
+            self.refresh_config_snapshot().await?;
+        }
+        Ok(())
+    }
+
+    pub async fn set_json_value_ex(
+        &self,
+        key: &str,
+        value: &Value,
+        ttl_seconds: usize,
+    ) -> crate::storage::StorageResult<()> {
+        let mut conn = self.conn();
+        conn.set_ex(
+            key,
+            serde_json::to_string(value).unwrap_or_else(|_| "{}".to_string()),
+            ttl_seconds.max(1) as u64,
+        )
+        .await
+    }
+
+    pub async fn set_json_value_nx_ex(
+        &self,
+        key: &str,
+        value: &Value,
+        ttl_seconds: usize,
+    ) -> crate::storage::StorageResult<bool> {
+        self.verify_whitelist_runtime_shadow_key(key).await?;
+        let mut conn = self.conn();
+        let serialized = serde_json::to_string(value).unwrap_or_else(|_| "{}".to_string());
+        let result: Option<String> = redis::cmd("SET")
+            .arg(key)
+            .arg(serialized)
+            .arg("EX")
+            .arg(ttl_seconds.max(1))
+            .arg("NX")
+            .query_async(&mut conn)
+            .await?;
+        Ok(result.as_deref() == Some("OK"))
+    }
+
+    pub async fn set_json_lock_if_owned_ex(
+        &self,
+        key: &str,
+        lock_id: &str,
+        value: &Value,
+        ttl_seconds: usize,
+    ) -> crate::storage::StorageResult<bool> {
+        self.verify_whitelist_runtime_shadow_key(key).await?;
+        let mut conn = self.conn();
+        let serialized = serde_json::to_string(value).unwrap_or_else(|_| "{}".to_string());
+        let result: i64 = redis::cmd("EVAL")
+            .arg(
+                r#"
+-- fn-knock:eval:json-lock-refresh:v1
+local raw = redis.call("GET", KEYS[1])
+if not raw then
+  return 0
+end
+local ok, decoded = pcall(cjson.decode, raw)
+if not ok or type(decoded) ~= "table" or decoded["lockId"] ~= ARGV[1] then
+  return 0
+end
+redis.call("SET", KEYS[1], ARGV[2], "EX", tonumber(ARGV[3]))
+return 1
+"#,
+            )
+            .arg(1)
+            .arg(key)
+            .arg(lock_id)
+            .arg(serialized)
+            .arg(ttl_seconds.max(1).to_string())
+            .query_async(&mut conn)
+            .await?;
+        Ok(result == 1)
+    }
+
+    pub async fn delete_lock_if_owned(
+        &self,
+        key: &str,
+        lock_id: &str,
+    ) -> crate::storage::StorageResult<bool> {
+        self.verify_whitelist_runtime_shadow_key(key).await?;
+        let mut conn = self.conn();
+        let result: i64 = redis::cmd("EVAL")
+            .arg(
+                r#"
+-- fn-knock:eval:json-lock-release:v1
+local raw = redis.call("GET", KEYS[1])
+if not raw then
+  return 0
+end
+local ok, decoded = pcall(cjson.decode, raw)
+if not ok or type(decoded) ~= "table" or decoded["lockId"] ~= ARGV[1] then
+  return 0
+end
+redis.call("DEL", KEYS[1])
+return 1
+"#,
+            )
+            .arg(1)
+            .arg(key)
+            .arg(lock_id)
+            .query_async(&mut conn)
+            .await?;
+        Ok(result == 1)
+    }
+}

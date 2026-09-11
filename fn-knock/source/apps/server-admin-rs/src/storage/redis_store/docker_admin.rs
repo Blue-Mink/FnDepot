@@ -1,1 +1,223 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBjb25zdCBET0NLRVJfQURNSU5fUEFTU1dPUkRfS0VZOiAmc3RyID0gImZuX2tub2NrOmRvY2tlcl9hZG1pbjpwYXNzd29yZDp2MSI7CnB1YihzdXBlcikgY29uc3QgRE9DS0VSX0FETUlOX1NFU1NJT05fUFJFRklYOiAmc3RyID0gImZuX2tub2NrOmRvY2tlcl9hZG1pbjpzZXNzaW9uOnYxOiI7CnB1YihzdXBlcikgY29uc3QgRE9DS0VSX0FETUlOX0xPR0lOX0JBQ0tPRkZfUFJFRklYOiAmc3RyID0KICAgICJmbl9rbm9jazpkb2NrZXJfYWRtaW46bG9naW5fYmFja29mZjp2MToiOwpwdWIoc3VwZXIpIGNvbnN0IERPQ0tFUl9BRE1JTl9MT0dJTl9CQUNLT0ZGX1RUTF9TRUNPTkRTOiBpNjQgPSAzXzYwMDsKcHViKHN1cGVyKSBjb25zdCBET0NLRVJfQURNSU5fTE9HSU5fQkFDS09GRl9CQVNFX0RFTEFZX01TOiBpNjQgPSAyXzAwMDsKcHViKHN1cGVyKSBjb25zdCBET0NLRVJfQURNSU5fTE9HSU5fQkFDS09GRl9NQVhfREVMQVlfTVM6IGk2NCA9IDE1ICogNjAgKiAxXzAwMDsKcHViKHN1cGVyKSBjb25zdCBET0NLRVJfQURNSU5fUkVHSVNURVJfTE9HSU5fRkFJTFVSRV9TQ1JJUFQ6ICZzdHIgPSByIyIKLS0gZm4ta25vY2s6ZXZhbDpkb2NrZXItYWRtaW4tbG9naW4tYmFja29mZjp2MQpsb2NhbCBrZXkgPSBLRVlTWzFdCmxvY2FsIGlwID0gQVJHVlsxXQpsb2NhbCBub3cgPSB0b251bWJlcihBUkdWWzJdKQpsb2NhbCBub3dJc28gPSBBUkdWWzNdCmxvY2FsIHR0bFNlY29uZHMgPSB0b251bWJlcihBUkdWWzRdKQpsb2NhbCBiYXNlRGVsYXkgPSB0b251bWJlcihBUkdWWzVdKQpsb2NhbCBtYXhEZWxheSA9IHRvbnVtYmVyKEFSR1ZbNl0pCgpsb2NhbCBhdHRlbXB0cyA9IDAKbG9jYWwgcmF3ID0gcmVkaXMuY2FsbCgnR0VUJywga2V5KQppZiByYXcgdGhlbgogIGxvY2FsIG9rLCBkZWNvZGVkID0gcGNhbGwoY2pzb24uZGVjb2RlLCByYXcpCiAgaWYgb2sgYW5kIHR5cGUoZGVjb2RlZCkgPT0gJ3RhYmxlJyBhbmQgdG9udW1iZXIoZGVjb2RlZC5hdHRlbXB0cykgdGhlbgogICAgYXR0ZW1wdHMgPSB0b251bWJlcihkZWNvZGVkLmF0dGVtcHRzKQogIGVuZAplbmQKYXR0ZW1wdHMgPSBhdHRlbXB0cyArIDEKbG9jYWwgZXhwb25lbnQgPSBtYXRoLm1pbihtYXRoLm1heChhdHRlbXB0cyAtIDEsIDApLCAzMCkKbG9jYWwgYmFja29mZk1zID0gbWF0aC5taW4oYmFzZURlbGF5ICogbWF0aC5wb3coMiwgZXhwb25lbnQpLCBtYXhEZWxheSkKbG9jYWwgYmxvY2tlZFVudGlsID0gbm93ICsgYmFja29mZk1zCnJlZGlzLmNhbGwoJ1NFVCcsIGtleSwgY2pzb24uZW5jb2RlKHsKICBpcCA9IGlwLAogIGF0dGVtcHRzID0gYXR0ZW1wdHMsCiAgbGFzdF9hdHRlbXB0X2F0ID0gbm93SXNvLAogIGJsb2NrZWRfdW50aWwgPSBibG9ja2VkVW50aWwsCn0pLCAnRVgnLCB0dGxTZWNvbmRzKQpyZXR1cm4geyBhdHRlbXB0cywgbWF0aC5mbG9vcigoYmFja29mZk1zICsgOTk5KSAvIDEwMDApLCBibG9ja2VkVW50aWwgfQoiIzsKCmltcGwgU3RvcmUgewogICAgcHViIGFzeW5jIGZuIGRvY2tlcl9hZG1pbl9wYXNzd29yZCgKICAgICAgICAmc2VsZiwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8T3B0aW9uPERvY2tlckFkbWluUGFzc3dvcmRSZWNvcmQ+PiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IHJhdzogT3B0aW9uPFN0cmluZz4gPSBjb25uLmdldChET0NLRVJfQURNSU5fUEFTU1dPUkRfS0VZKS5hd2FpdD87CiAgICAgICAgT2socmF3LmFuZF90aGVuKHx2YWx1ZXwgc2VyZGVfanNvbjo6ZnJvbV9zdHIoJnZhbHVlKS5vaygpKSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gc2V0X2RvY2tlcl9hZG1pbl9wYXNzd29yZCgKICAgICAgICAmc2VsZiwKICAgICAgICByZWNvcmQ6ICZEb2NrZXJBZG1pblBhc3N3b3JkUmVjb3JkLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGNvbm4uc2V0KAogICAgICAgICAgICBET0NLRVJfQURNSU5fUEFTU1dPUkRfS0VZLAogICAgICAgICAgICBzZXJkZV9qc29uOjp0b19zdHJpbmcocmVjb3JkKS51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gaW5zdGFsbF9kb2NrZXJfYWRtaW5fcGFzc3dvcmRfaWZfYWJzZW50X2FuZF9jbGVhcl9zZWN1cml0eV9zdGF0ZSgKICAgICAgICAmc2VsZiwKICAgICAgICByZWNvcmQ6ICZEb2NrZXJBZG1pblBhc3N3b3JkUmVjb3JkLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxib29sPiB7CiAgICAgICAgbGV0IHBhc3N3b3JkX2pzb24gPSBzZXJkZV9qc29uOjp0b19zdHJpbmcocmVjb3JkKT87CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5pbnN0YWxsX3Bhc3N3b3JkX2FuZF9kZWxldGVfc2VjdXJpdHlfc3RhdGVfYXRvbWljYWxseSgKICAgICAgICAgICAgICAgIERPQ0tFUl9BRE1JTl9QQVNTV09SRF9LRVksCiAgICAgICAgICAgICAgICAmcGFzc3dvcmRfanNvbiwKICAgICAgICAgICAgICAgIERPQ0tFUl9BRE1JTl9TRVNTSU9OX1BSRUZJWCwKICAgICAgICAgICAgICAgIERPQ0tFUl9BRE1JTl9MT0dJTl9CQUNLT0ZGX1BSRUZJWCwKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXdhaXQKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gZG9ja2VyX2FkbWluX3Nlc3Npb24oCiAgICAgICAgJnNlbGYsCiAgICAgICAgc2Vzc2lvbl9pZDogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8T3B0aW9uPERvY2tlckFkbWluU2Vzc2lvblJlY29yZD4+IHsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBsZXQgcmF3OiBPcHRpb248U3RyaW5nPiA9IGNvbm4KICAgICAgICAgICAgLmdldChmb3JtYXQhKCJ7RE9DS0VSX0FETUlOX1NFU1NJT05fUFJFRklYfXtzZXNzaW9uX2lkfSIpKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIGxldCBtYXRjaGVkID0gc2VsZgogICAgICAgICAgICAudHlwZWQKICAgICAgICAgICAgLnR5cGVkX2RvY2tlcl9hZG1pbgogICAgICAgICAgICAudmVyaWZ5X2FuZF9yZXBhaXJfc2Vzc2lvbihzZXNzaW9uX2lkKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIHNlbGYub2JzZXJ2ZV9kb2NrZXJfYWRtaW5fc2hhZG93X2NvbXBhcmlzb24obWF0Y2hlZCwgInNlc3Npb24iKTsKICAgICAgICBPayhyYXcuYW5kX3RoZW4ofHZhbHVlfCBzZXJkZV9qc29uOjpmcm9tX3N0cigmdmFsdWUpLm9rKCkpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBzZXRfZG9ja2VyX2FkbWluX3Nlc3Npb24oCiAgICAgICAgJnNlbGYsCiAgICAgICAgcmVjb3JkOiAmRG9ja2VyQWRtaW5TZXNzaW9uUmVjb3JkLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCB0dGwgPSBjcmF0ZTo6dGltZV91dGlsczo6cGFyc2VfaXNvX21zKCZyZWNvcmQuZXhwaXJlc19hdCkKICAgICAgICAgICAgLm1hcCh8ZXhwaXJlc19tc3wgKChleHBpcmVzX21zIC0gY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpKS5tYXgoMTAwMCkgLyAxMDAwKSBhcyB1NjQpCiAgICAgICAgICAgIC51bndyYXBfb3IocmVjb3JkLnR0bF9zZWNvbmRzLm1heCgxKSBhcyB1NjQpOwogICAgICAgIGNvbm4uc2V0X2V4KAogICAgICAgICAgICBmb3JtYXQhKCJ7RE9DS0VSX0FETUlOX1NFU1NJT05fUFJFRklYfXt9IiwgcmVjb3JkLmlkKSwKICAgICAgICAgICAgc2VyZGVfanNvbjo6dG9fc3RyaW5nKHJlY29yZCkudW53cmFwX29yX2RlZmF1bHQoKSwKICAgICAgICAgICAgdHRsLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gcmVmcmVzaF9kb2NrZXJfYWRtaW5fc2Vzc2lvbl9pZl9leGlzdHMoCiAgICAgICAgJnNlbGYsCiAgICAgICAgcmVjb3JkOiAmRG9ja2VyQWRtaW5TZXNzaW9uUmVjb3JkLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxib29sPiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IHR0bCA9IGNyYXRlOjp0aW1lX3V0aWxzOjpwYXJzZV9pc29fbXMoJnJlY29yZC5leHBpcmVzX2F0KQogICAgICAgICAgICAubWFwKHxleHBpcmVzX21zfCAoKGV4cGlyZXNfbXMgLSBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCkpLm1heCgxMDAwKSAvIDEwMDApIGFzIHU2NCkKICAgICAgICAgICAgLnVud3JhcF9vcihyZWNvcmQudHRsX3NlY29uZHMubWF4KDEpIGFzIHU2NCk7CiAgICAgICAgbGV0IHJlc3VsdDogT3B0aW9uPFN0cmluZz4gPSByZWRpczo6Y21kKCJTRVQiKQogICAgICAgICAgICAuYXJnKGZvcm1hdCEoIntET0NLRVJfQURNSU5fU0VTU0lPTl9QUkVGSVh9e30iLCByZWNvcmQuaWQpKQogICAgICAgICAgICAuYXJnKHNlcmRlX2pzb246OnRvX3N0cmluZyhyZWNvcmQpLnVud3JhcF9vcl9kZWZhdWx0KCkpCiAgICAgICAgICAgIC5hcmcoIkVYIikKICAgICAgICAgICAgLmFyZyh0dGwpCiAgICAgICAgICAgIC5hcmcoIlhYIikKICAgICAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBPayhyZXN1bHQuaXNfc29tZSgpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBkZWxldGVfZG9ja2VyX2FkbWluX3Nlc3Npb24oCiAgICAgICAgJnNlbGYsCiAgICAgICAgc2Vzc2lvbl9pZDogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBjb25uLmRlbChmb3JtYXQhKCJ7RE9DS0VSX0FETUlOX1NFU1NJT05fUFJFRklYfXtzZXNzaW9uX2lkfSIpKQogICAgICAgICAgICAuYXdhaXQKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gZG9ja2VyX2FkbWluX2xvZ2luX2F0dGVtcHQoCiAgICAgICAgJnNlbGYsCiAgICAgICAgaXA6ICZzdHIsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PE9wdGlvbjxMb2dpbkF0dGVtcHRSZWNvcmQ+PiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IHJhdzogT3B0aW9uPFN0cmluZz4gPSBjb25uCiAgICAgICAgICAgIC5nZXQoZm9ybWF0ISgie0RPQ0tFUl9BRE1JTl9MT0dJTl9CQUNLT0ZGX1BSRUZJWH17aXB9IikpCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgbGV0IG1hdGNoZWQgPSBzZWxmCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfZG9ja2VyX2FkbWluCiAgICAgICAgICAgIC52ZXJpZnlfYW5kX3JlcGFpcl9sb2dpbl9iYWNrb2ZmKGlwKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIHNlbGYub2JzZXJ2ZV9kb2NrZXJfYWRtaW5fc2hhZG93X2NvbXBhcmlzb24obWF0Y2hlZCwgImxvZ2luX2JhY2tvZmYiKTsKICAgICAgICBPayhyYXcuYW5kX3RoZW4ofHZhbHVlfCBzZXJkZV9qc29uOjpmcm9tX3N0cigmdmFsdWUpLm9rKCkpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiByZWdpc3Rlcl9kb2NrZXJfYWRtaW5fbG9naW5fZmFpbHVyZSgKICAgICAgICAmc2VsZiwKICAgICAgICBpcDogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KGk2NCwgaTY0KT4gewogICAgICAgIGxldCBub3dfbXMgPSBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCk7CiAgICAgICAgbGV0IG5vd19pc28gPSBjcmF0ZTo6dGltZV91dGlsczo6bm93X2lzbygpOwogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCByZXN1bHQ6IFZlYzxpNjQ+ID0gcmVkaXM6OmNtZCgiRVZBTCIpCiAgICAgICAgICAgIC5hcmcoRE9DS0VSX0FETUlOX1JFR0lTVEVSX0xPR0lOX0ZBSUxVUkVfU0NSSVBUKQogICAgICAgICAgICAuYXJnKDEpCiAgICAgICAgICAgIC5hcmcoZm9ybWF0ISgie0RPQ0tFUl9BRE1JTl9MT0dJTl9CQUNLT0ZGX1BSRUZJWH17aXB9IikpCiAgICAgICAgICAgIC5hcmcoaXApCiAgICAgICAgICAgIC5hcmcobm93X21zKQogICAgICAgICAgICAuYXJnKG5vd19pc28pCiAgICAgICAgICAgIC5hcmcoRE9DS0VSX0FETUlOX0xPR0lOX0JBQ0tPRkZfVFRMX1NFQ09ORFMpCiAgICAgICAgICAgIC5hcmcoRE9DS0VSX0FETUlOX0xPR0lOX0JBQ0tPRkZfQkFTRV9ERUxBWV9NUykKICAgICAgICAgICAgLmFyZyhET0NLRVJfQURNSU5fTE9HSU5fQkFDS09GRl9NQVhfREVMQVlfTVMpCiAgICAgICAgICAgIC5xdWVyeV9hc3luYygmbXV0IGNvbm4pCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgbGV0IHJldHJ5X2FmdGVyID0gcmVzdWx0LmdldCgxKS5jb3BpZWQoKS51bndyYXBfb3IoMSkubWF4KDEpOwogICAgICAgIGxldCBibG9ja2VkX3VudGlsID0gcmVzdWx0CiAgICAgICAgICAgIC5nZXQoMikKICAgICAgICAgICAgLmNvcGllZCgpCiAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCBub3dfbXMuc2F0dXJhdGluZ19hZGQoMl8wMDApKTsKICAgICAgICBPaygocmV0cnlfYWZ0ZXIsIGJsb2NrZWRfdW50aWwpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiByZXNldF9kb2NrZXJfYWRtaW5fbG9naW5fYXR0ZW1wdCgKICAgICAgICAmc2VsZiwKICAgICAgICBpcDogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBjb25uLmRlbChmb3JtYXQhKCJ7RE9DS0VSX0FETUlOX0xPR0lOX0JBQ0tPRkZfUFJFRklYfXtpcH0iKSkKICAgICAgICAgICAgLmF3YWl0CiAgICB9CgogICAgcHViIGFzeW5jIGZuIHJlc2V0X2RvY2tlcl9hZG1pbl9wYXNzd29yZF9zdGF0ZSgKICAgICAgICAmc2VsZiwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8RG9ja2VyQWRtaW5SZXNldFN1bW1hcnk+IHsKICAgICAgICBsZXQgKHBhc3N3b3JkX2NsZWFyZWQsIHNlc3Npb25zX2NsZWFyZWQsIGxvZ2luX2ZhaWx1cmVzX2NsZWFyZWQpID0gc2VsZgogICAgICAgICAgICAubWFuYWdlcgogICAgICAgICAgICAuZGVsZXRlX3NlY3VyaXR5X3N0YXRlX2F0b21pY2FsbHkoCiAgICAgICAgICAgICAgICBET0NLRVJfQURNSU5fUEFTU1dPUkRfS0VZLAogICAgICAgICAgICAgICAgRE9DS0VSX0FETUlOX1NFU1NJT05fUFJFRklYLAogICAgICAgICAgICAgICAgRE9DS0VSX0FETUlOX0xPR0lOX0JBQ0tPRkZfUFJFRklYLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdD87CgogICAgICAgIE9rKERvY2tlckFkbWluUmVzZXRTdW1tYXJ5IHsKICAgICAgICAgICAgcGFzc3dvcmRfY2xlYXJlZCwKICAgICAgICAgICAgc2Vzc2lvbnNfY2xlYXJlZCwKICAgICAgICAgICAgbG9naW5fZmFpbHVyZXNfY2xlYXJlZCwKICAgICAgICB9KQogICAgfQoKICAgIGZuIG9ic2VydmVfZG9ja2VyX2FkbWluX3NoYWRvd19jb21wYXJpc29uKCZzZWxmLCBtYXRjaGVkOiBib29sLCBraW5kOiAmJ3N0YXRpYyBzdHIpIHsKICAgICAgICBpZiBtYXRjaGVkIHsKICAgICAgICAgICAgaWYgc2VsZi50eXBlZF9kb2NrZXJfYWRtaW5fc2hhZG93Lm1hcmtfaGVhbHRoeSgpIHsKICAgICAgICAgICAgICAgIHRyYWNpbmc6OmluZm8hKCJ0eXBlZCBEb2NrZXItYWRtaW4gc2VjdXJpdHkgc2hhZG93IGNvbXBhcmlzb24gcmVjb3ZlcmVkIik7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBzZWxmLnR5cGVkX2RvY2tlcl9hZG1pbl9zaGFkb3cubWFya19taXNtYXRjaCgpOwogICAgICAgIHRyYWNpbmc6Ondhcm4hKAogICAgICAgICAgICBraW5kLAogICAgICAgICAgICAidHlwZWQgRG9ja2VyLWFkbWluIHNlY3VyaXR5IHNoYWRvdyBkaWZmZXJlZCBmcm9tIHRoZSBjb21wYXRpYmlsaXR5IHJlY29yZCBhbmQgd2FzIHJlcGFpcmVkIgogICAgICAgICk7CiAgICB9Cn0K
+use super::*;
+
+pub(super) const DOCKER_ADMIN_PASSWORD_KEY: &str = "fn_knock:docker_admin:password:v1";
+pub(super) const DOCKER_ADMIN_SESSION_PREFIX: &str = "fn_knock:docker_admin:session:v1:";
+pub(super) const DOCKER_ADMIN_LOGIN_BACKOFF_PREFIX: &str =
+    "fn_knock:docker_admin:login_backoff:v1:";
+pub(super) const DOCKER_ADMIN_LOGIN_BACKOFF_TTL_SECONDS: i64 = 3_600;
+pub(super) const DOCKER_ADMIN_LOGIN_BACKOFF_BASE_DELAY_MS: i64 = 2_000;
+pub(super) const DOCKER_ADMIN_LOGIN_BACKOFF_MAX_DELAY_MS: i64 = 15 * 60 * 1_000;
+pub(super) const DOCKER_ADMIN_REGISTER_LOGIN_FAILURE_SCRIPT: &str = r#"
+-- fn-knock:eval:docker-admin-login-backoff:v1
+local key = KEYS[1]
+local ip = ARGV[1]
+local now = tonumber(ARGV[2])
+local nowIso = ARGV[3]
+local ttlSeconds = tonumber(ARGV[4])
+local baseDelay = tonumber(ARGV[5])
+local maxDelay = tonumber(ARGV[6])
+
+local attempts = 0
+local raw = redis.call('GET', key)
+if raw then
+  local ok, decoded = pcall(cjson.decode, raw)
+  if ok and type(decoded) == 'table' and tonumber(decoded.attempts) then
+    attempts = tonumber(decoded.attempts)
+  end
+end
+attempts = attempts + 1
+local exponent = math.min(math.max(attempts - 1, 0), 30)
+local backoffMs = math.min(baseDelay * math.pow(2, exponent), maxDelay)
+local blockedUntil = now + backoffMs
+redis.call('SET', key, cjson.encode({
+  ip = ip,
+  attempts = attempts,
+  last_attempt_at = nowIso,
+  blocked_until = blockedUntil,
+}), 'EX', ttlSeconds)
+return { attempts, math.floor((backoffMs + 999) / 1000), blockedUntil }
+"#;
+
+impl Store {
+    pub async fn docker_admin_password(
+        &self,
+    ) -> crate::storage::StorageResult<Option<DockerAdminPasswordRecord>> {
+        let mut conn = self.conn();
+        let raw: Option<String> = conn.get(DOCKER_ADMIN_PASSWORD_KEY).await?;
+        Ok(raw.and_then(|value| serde_json::from_str(&value).ok()))
+    }
+
+    pub async fn set_docker_admin_password(
+        &self,
+        record: &DockerAdminPasswordRecord,
+    ) -> crate::storage::StorageResult<()> {
+        let mut conn = self.conn();
+        conn.set(
+            DOCKER_ADMIN_PASSWORD_KEY,
+            serde_json::to_string(record).unwrap_or_default(),
+        )
+        .await
+    }
+
+    pub async fn install_docker_admin_password_if_absent_and_clear_security_state(
+        &self,
+        record: &DockerAdminPasswordRecord,
+    ) -> crate::storage::StorageResult<bool> {
+        let password_json = serde_json::to_string(record)?;
+        self.manager
+            .install_password_and_delete_security_state_atomically(
+                DOCKER_ADMIN_PASSWORD_KEY,
+                &password_json,
+                DOCKER_ADMIN_SESSION_PREFIX,
+                DOCKER_ADMIN_LOGIN_BACKOFF_PREFIX,
+            )
+            .await
+    }
+
+    pub async fn docker_admin_session(
+        &self,
+        session_id: &str,
+    ) -> crate::storage::StorageResult<Option<DockerAdminSessionRecord>> {
+        let mut conn = self.conn();
+        let raw: Option<String> = conn
+            .get(format!("{DOCKER_ADMIN_SESSION_PREFIX}{session_id}"))
+            .await?;
+        let matched = self
+            .typed
+            .typed_docker_admin
+            .verify_and_repair_session(session_id)
+            .await?;
+        self.observe_docker_admin_shadow_comparison(matched, "session");
+        Ok(raw.and_then(|value| serde_json::from_str(&value).ok()))
+    }
+
+    pub async fn set_docker_admin_session(
+        &self,
+        record: &DockerAdminSessionRecord,
+    ) -> crate::storage::StorageResult<()> {
+        let mut conn = self.conn();
+        let ttl = crate::time_utils::parse_iso_ms(&record.expires_at)
+            .map(|expires_ms| ((expires_ms - crate::time_utils::now_ms()).max(1000) / 1000) as u64)
+            .unwrap_or(record.ttl_seconds.max(1) as u64);
+        conn.set_ex(
+            format!("{DOCKER_ADMIN_SESSION_PREFIX}{}", record.id),
+            serde_json::to_string(record).unwrap_or_default(),
+            ttl,
+        )
+        .await
+    }
+
+    pub async fn refresh_docker_admin_session_if_exists(
+        &self,
+        record: &DockerAdminSessionRecord,
+    ) -> crate::storage::StorageResult<bool> {
+        let mut conn = self.conn();
+        let ttl = crate::time_utils::parse_iso_ms(&record.expires_at)
+            .map(|expires_ms| ((expires_ms - crate::time_utils::now_ms()).max(1000) / 1000) as u64)
+            .unwrap_or(record.ttl_seconds.max(1) as u64);
+        let result: Option<String> = redis::cmd("SET")
+            .arg(format!("{DOCKER_ADMIN_SESSION_PREFIX}{}", record.id))
+            .arg(serde_json::to_string(record).unwrap_or_default())
+            .arg("EX")
+            .arg(ttl)
+            .arg("XX")
+            .query_async(&mut conn)
+            .await?;
+        Ok(result.is_some())
+    }
+
+    pub async fn delete_docker_admin_session(
+        &self,
+        session_id: &str,
+    ) -> crate::storage::StorageResult<()> {
+        let mut conn = self.conn();
+        conn.del(format!("{DOCKER_ADMIN_SESSION_PREFIX}{session_id}"))
+            .await
+    }
+
+    pub async fn docker_admin_login_attempt(
+        &self,
+        ip: &str,
+    ) -> crate::storage::StorageResult<Option<LoginAttemptRecord>> {
+        let mut conn = self.conn();
+        let raw: Option<String> = conn
+            .get(format!("{DOCKER_ADMIN_LOGIN_BACKOFF_PREFIX}{ip}"))
+            .await?;
+        let matched = self
+            .typed
+            .typed_docker_admin
+            .verify_and_repair_login_backoff(ip)
+            .await?;
+        self.observe_docker_admin_shadow_comparison(matched, "login_backoff");
+        Ok(raw.and_then(|value| serde_json::from_str(&value).ok()))
+    }
+
+    pub async fn register_docker_admin_login_failure(
+        &self,
+        ip: &str,
+    ) -> crate::storage::StorageResult<(i64, i64)> {
+        let now_ms = crate::time_utils::now_ms();
+        let now_iso = crate::time_utils::now_iso();
+        let mut conn = self.conn();
+        let result: Vec<i64> = redis::cmd("EVAL")
+            .arg(DOCKER_ADMIN_REGISTER_LOGIN_FAILURE_SCRIPT)
+            .arg(1)
+            .arg(format!("{DOCKER_ADMIN_LOGIN_BACKOFF_PREFIX}{ip}"))
+            .arg(ip)
+            .arg(now_ms)
+            .arg(now_iso)
+            .arg(DOCKER_ADMIN_LOGIN_BACKOFF_TTL_SECONDS)
+            .arg(DOCKER_ADMIN_LOGIN_BACKOFF_BASE_DELAY_MS)
+            .arg(DOCKER_ADMIN_LOGIN_BACKOFF_MAX_DELAY_MS)
+            .query_async(&mut conn)
+            .await?;
+        let retry_after = result.get(1).copied().unwrap_or(1).max(1);
+        let blocked_until = result
+            .get(2)
+            .copied()
+            .unwrap_or_else(|| now_ms.saturating_add(2_000));
+        Ok((retry_after, blocked_until))
+    }
+
+    pub async fn reset_docker_admin_login_attempt(
+        &self,
+        ip: &str,
+    ) -> crate::storage::StorageResult<()> {
+        let mut conn = self.conn();
+        conn.del(format!("{DOCKER_ADMIN_LOGIN_BACKOFF_PREFIX}{ip}"))
+            .await
+    }
+
+    pub async fn reset_docker_admin_password_state(
+        &self,
+    ) -> crate::storage::StorageResult<DockerAdminResetSummary> {
+        let (password_cleared, sessions_cleared, login_failures_cleared) = self
+            .manager
+            .delete_security_state_atomically(
+                DOCKER_ADMIN_PASSWORD_KEY,
+                DOCKER_ADMIN_SESSION_PREFIX,
+                DOCKER_ADMIN_LOGIN_BACKOFF_PREFIX,
+            )
+            .await?;
+
+        Ok(DockerAdminResetSummary {
+            password_cleared,
+            sessions_cleared,
+            login_failures_cleared,
+        })
+    }
+
+    fn observe_docker_admin_shadow_comparison(&self, matched: bool, kind: &'static str) {
+        if matched {
+            if self.typed_docker_admin_shadow.mark_healthy() {
+                tracing::info!("typed Docker-admin security shadow comparison recovered");
+            }
+            return;
+        }
+        self.typed_docker_admin_shadow.mark_mismatch();
+        tracing::warn!(
+            kind,
+            "typed Docker-admin security shadow differed from the compatibility record and was repaired"
+        );
+    }
+}

@@ -1,1 +1,8 @@
-ewogICJ2ZXJzaW9uIjogIjIuNC4xMSIsCiAgInJlbGVhc2VDaGFubmVsIjogInN0YWJsZSIsCiAgImdpdGh1YlVybCI6ICJodHRwczovL2dpdGh1Yi5jb20va2NpLWxuay9mbi1rbm9jay10dXJib3JlcG8iLAogICJnYXRld2F5Q29tbWl0IjogImE4YWM4MWYzNWE4Y2YzNzc1Zjg4ZTkwYjk0MzU0ZTYyNzE4YjYzOTAiLAogICJiYWNrdXBTY2hlbWFWZXJzaW9uIjogMSwKICAiYmFja3VwSW1wb3J0TWluVmVyc2lvbiI6ICIxLjQuMCIKfQo=
+{
+  "version": "2.4.11",
+  "releaseChannel": "stable",
+  "githubUrl": "https://github.com/kci-lnk/fn-knock-turborepo",
+  "gatewayCommit": "a8ac81f35a8cf3775f88e90b94354e62718b6390",
+  "backupSchemaVersion": 1,
+  "backupImportMinVersion": "1.4.0"
+}

@@ -1,1 +1,50 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHR5cGUgeyBHYXRld2F5UHJveHlQcm90b2NvbENvbmZpZyB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgR2F0ZXdheUVkaXRvclJvdyBmcm9tICIuL0dhdGV3YXlFZGl0b3JSb3cudnVlIjsKCmRlZmluZVByb3BzPHsgc3VtbWFyeTogR2F0ZXdheVByb3h5UHJvdG9jb2xDb25maWcgfCBudWxsIH0+KCk7CmRlZmluZUVtaXRzPHsgYWN0aW9uOiBbXSB9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPEdhdGV3YXlFZGl0b3JSb3cKICAgIDp0aXRsZT0idCgnYWRtaW4uZ2F0ZXdheVNldHRpbmdzLnByb3h5UHJvdG9jb2wnKSIKICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4uZ2F0ZXdheVNldHRpbmdzLnByb3h5UHJvdG9jb2xEZXNjcmlwdGlvbicpIgogICAgOmFjdGlvbi1sYWJlbD0idCgnYWRtaW4uZ2F0ZXdheVNldHRpbmdzLmVkaXRQcm94eVByb3RvY29sJykiCiAgICBAYWN0aW9uPSIkZW1pdCgnYWN0aW9uJykiCiAgPgogICAgPHRlbXBsYXRlICNiYWRnZXM+CiAgICAgIDxCYWRnZQogICAgICAgIDp2YXJpYW50PSJzdW1tYXJ5Py5lZmZlY3RpdmVfZW5hYmxlZCA/ICdkZWZhdWx0JyA6ICdzZWNvbmRhcnknIgogICAgICAgIGNsYXNzPSJyb3VuZGVkLWZ1bGwgcHgtMi41IgogICAgICA+CiAgICAgICAge3sKICAgICAgICAgIHN1bW1hcnk/LmVmZmVjdGl2ZV9lbmFibGVkCiAgICAgICAgICAgID8gdCgiYWRtaW4uZ2F0ZXdheVNldHRpbmdzLmVuYWJsZWQiKQogICAgICAgICAgICA6IHQoImFkbWluLmdhdGV3YXlTZXR0aW5ncy5kaXNhYmxlZCIpCiAgICAgICAgfX0KICAgICAgPC9CYWRnZT4KICAgICAgPEJhZGdlCiAgICAgICAgdi1pZj0ic3VtbWFyeT8ubWFuYWdlZF9mcnBfZW5hYmxlZCIKICAgICAgICB2YXJpYW50PSJzZWNvbmRhcnkiCiAgICAgICAgY2xhc3M9InJvdW5kZWQtZnVsbCBweC0yLjUiCiAgICAgID4KICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5U2V0dGluZ3MucHJveHlQcm90b2NvbE1hbmFnZWRGcnAiKSB9fQogICAgICA8L0JhZGdlPgogICAgICA8QmFkZ2UKICAgICAgICB2LWlmPSJzdW1tYXJ5Py5lbmFibGVkIgogICAgICAgIHZhcmlhbnQ9InNlY29uZGFyeSIKICAgICAgICBjbGFzcz0icm91bmRlZC1mdWxsIHB4LTIuNSIKICAgICAgPgogICAgICAgIHt7CiAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5U2V0dGluZ3MucHJveHlQcm90b2NvbFRydXN0ZWRDb3VudCIsIHsKICAgICAgICAgICAgY291bnQ6IHN1bW1hcnkudHJ1c3RlZF9zb3VyY2VzLmxlbmd0aCwKICAgICAgICAgIH0pCiAgICAgICAgfX0KICAgICAgPC9CYWRnZT4KICAgIDwvdGVtcGxhdGU+CiAgPC9HYXRld2F5RWRpdG9yUm93Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import type { GatewayProxyProtocolConfig } from "@/types";
+import GatewayEditorRow from "./GatewayEditorRow.vue";
+
+defineProps<{ summary: GatewayProxyProtocolConfig | null }>();
+defineEmits<{ action: [] }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <GatewayEditorRow
+    :title="t('admin.gatewaySettings.proxyProtocol')"
+    :description="t('admin.gatewaySettings.proxyProtocolDescription')"
+    :action-label="t('admin.gatewaySettings.editProxyProtocol')"
+    @action="$emit('action')"
+  >
+    <template #badges>
+      <Badge
+        :variant="summary?.effective_enabled ? 'default' : 'secondary'"
+        class="rounded-full px-2.5"
+      >
+        {{
+          summary?.effective_enabled
+            ? t("admin.gatewaySettings.enabled")
+            : t("admin.gatewaySettings.disabled")
+        }}
+      </Badge>
+      <Badge
+        v-if="summary?.managed_frp_enabled"
+        variant="secondary"
+        class="rounded-full px-2.5"
+      >
+        {{ t("admin.gatewaySettings.proxyProtocolManagedFrp") }}
+      </Badge>
+      <Badge
+        v-if="summary?.enabled"
+        variant="secondary"
+        class="rounded-full px-2.5"
+      >
+        {{
+          t("admin.gatewaySettings.proxyProtocolTrustedCount", {
+            count: summary.trusted_sources.length,
+          })
+        }}
+      </Badge>
+    </template>
+  </GatewayEditorRow>
+</template>

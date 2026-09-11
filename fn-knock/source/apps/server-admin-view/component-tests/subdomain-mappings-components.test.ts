@@ -1,1 +1,150 @@
-aW1wb3J0IHsgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBjcmVhdGVJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBkZXNjcmliZSwgZXhwZWN0LCBpdCB9IGZyb20gInZpdGVzdCI7CgppbXBvcnQgeyBjcmVhdGVEZWZhdWx0TWFwcGluZyB9IGZyb20gIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvbW9kZWwiOwppbXBvcnQgU3ViZG9tYWluTWFwcGluZ1RpdGxlQ2VsbCBmcm9tICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L1N1YmRvbWFpbk1hcHBpbmdUaXRsZUNlbGwudnVlIjsKaW1wb3J0IFN1YmRvbWFpbk1hcHBpbmdzQmF0Y2hBY3Rpb25zIGZyb20gIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvU3ViZG9tYWluTWFwcGluZ3NCYXRjaEFjdGlvbnMudnVlIjsKaW1wb3J0IFN1YmRvbWFpbk1hcHBpbmdzQ2FyZEhlYWRlciBmcm9tICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L1N1YmRvbWFpbk1hcHBpbmdzQ2FyZEhlYWRlci52dWUiOwoKY29uc3QgY3JlYXRlVGVzdEkxOG4gPSAoKSA9PgogIGNyZWF0ZUkxOG4oewogICAgbGVnYWN5OiBmYWxzZSwKICAgIGxvY2FsZTogImVuIiwKICAgIG1lc3NhZ2VzOiB7CiAgICAgIGVuOiB7CiAgICAgICAgY29tbW9uOiB7CiAgICAgICAgICBkb2NzOiAiRG9jcyIsCiAgICAgICAgICBtb3JlQWN0aW9uczogIk1vcmUgYWN0aW9ucyIsCiAgICAgICAgfSwKICAgICAgICBhZG1pbjogewogICAgICAgICAgc3ViZG9tYWluUHJveHk6IHsKICAgICAgICAgICAgYWRkQXV0aFNlcnZpY2U6ICJBZGQgYXV0aCBzZXJ2aWNlIiwKICAgICAgICAgICAgYmF0Y2hBY3Rpb25zOiAiQmF0Y2ggYWN0aW9ucyIsCiAgICAgICAgICAgIGNsZWFyU2VsZWN0aW9uOiAiQ2xlYXIgc2VsZWN0aW9uIiwKICAgICAgICAgICAgZWRpdDogIkVkaXQiLAogICAgICAgICAgICBlZGl0TWFwcGluZ0FyaWE6ICJFZGl0IHtob3N0fSIsCiAgICAgICAgICAgIGdyb3VwZWRWaWV3OiAiR3JvdXBlZCB2aWV3IiwKICAgICAgICAgICAgbWFuYWdlR3JvdXBzOiAiTWFuYWdlIGdyb3VwcyIsCiAgICAgICAgICAgIG1hcHBpbmdzRGVzY3JpcHRpb246ICJNYW5hZ2UgbWFwcGluZ3MiLAogICAgICAgICAgICBtYXBwaW5nc1RpdGxlOiAiTWFwcGluZ3MiLAogICAgICAgICAgICBtb3ZlVG9Hcm91cDogIk1vdmUgdG8gZ3JvdXAiLAogICAgICAgICAgICBzZWxlY3RlZE1hcHBpbmdzQ291bnQ6ICJ7Y291bnR9IHNlbGVjdGVkIiwKICAgICAgICAgICAgdW5ncm91cGVkOiAiVW5ncm91cGVkIiwKICAgICAgICAgIH0sCiAgICAgICAgfSwKICAgICAgfSwKICAgIH0sCiAgfSk7Cgpjb25zdCBoZWFkZXJQcm9wcyA9IHsKICBhdXRoU2VydmljZU1hcHBpbmc6IG51bGwsCiAgY2FuTWFuYWdlTmV3TWFwcGluZ3M6IHRydWUsCiAgZGlzY292ZXJCdXR0b25EaXZpZGVyQ2xhc3M6ICJib3JkZXItcHJpbWFyeSIsCiAgZGlzY292ZXJCdXR0b25WYXJpYW50OiAiZGVmYXVsdCIgYXMgY29uc3QsCiAgZG9jc0hyZWY6ICJodHRwczovL2V4YW1wbGUuY29tL2RvY3MiLAogIGdyb3VwZWRWaWV3OiBmYWxzZSwKICBoYXNSZWd1bGFySG9zdE1hcHBpbmdzOiBmYWxzZSwKICBpc0NsZWFyaW5nQWxsU3ViZG9tYWluQ29uZmlnOiBmYWxzZSwKICBpc0NvbmZpZ0xvYWRpbmc6IGZhbHNlLAogIGlzRGlzY292ZXJpbmc6IGZhbHNlLAogIGlzRXhwb3J0aW5nQm9va21hcmtzOiBmYWxzZSwKICBpc1JlZnJlc2hpbmdUaXRsZXM6IGZhbHNlLAogIGlzU2F2aW5nTWFwcGluZ3M6IGZhbHNlLAogIGlzU3luY2luZzogZmFsc2UsCiAgcHJveHlNYXBwaW5nc0NvdW50OiAwLAogIHZpc2libGVNYXBwaW5nc0NvdW50OiAwLAp9OwoKZGVzY3JpYmUoInN1YmRvbWFpbiBtYXBwaW5nIHByZXNlbnRhdGlvbiBjb21wb25lbnRzIiwgKCkgPT4gewogIGl0KCJrZWVwcyBncm91cGVkLXZpZXcgYW5kIGdyb3VwLW1hbmFnZW1lbnQgYWN0aW9ucyBpbmRlcGVuZGVudGx5IHR5cGVkIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KFN1YmRvbWFpbk1hcHBpbmdzQ2FyZEhlYWRlciwgewogICAgICBwcm9wczogaGVhZGVyUHJvcHMsCiAgICAgIGdsb2JhbDogeyBwbHVnaW5zOiBbY3JlYXRlVGVzdEkxOG4oKV0gfSwKICAgIH0pOwoKICAgIGNvbnN0IGdyb3VwZWRWaWV3QnV0dG9uID0gd3JhcHBlcgogICAgICAuZmluZEFsbCgiYnV0dG9uIikKICAgICAgLmZpbmQoKGJ1dHRvbikgPT4gYnV0dG9uLnRleHQoKS5pbmNsdWRlcygiR3JvdXBlZCB2aWV3IikpOwogICAgZXhwZWN0KGdyb3VwZWRWaWV3QnV0dG9uKS50b0JlRGVmaW5lZCgpOwogICAgYXdhaXQgZ3JvdXBlZFZpZXdCdXR0b24/LnRyaWdnZXIoImNsaWNrIik7CiAgICBleHBlY3Qod3JhcHBlci5lbWl0dGVkKCJ1cGRhdGUtZ3JvdXBlZC12aWV3IikpLnRvRXF1YWwoW1t0cnVlXV0pOwoKICAgIGF3YWl0IHdyYXBwZXIuc2V0UHJvcHMoeyBncm91cGVkVmlldzogdHJ1ZSB9KTsKICAgIGNvbnN0IG1hbmFnZUdyb3Vwc0J1dHRvbiA9IHdyYXBwZXIKICAgICAgLmZpbmRBbGwoImJ1dHRvbiIpCiAgICAgIC5maW5kKChidXR0b24pID0+IGJ1dHRvbi50ZXh0KCkuaW5jbHVkZXMoIk1hbmFnZSBncm91cHMiKSk7CiAgICBleHBlY3QobWFuYWdlR3JvdXBzQnV0dG9uKS50b0JlRGVmaW5lZCgpOwogICAgYXdhaXQgbWFuYWdlR3JvdXBzQnV0dG9uPy50cmlnZ2VyKCJjbGljayIpOwogICAgZXhwZWN0KHdyYXBwZXIuZW1pdHRlZCgibWFuYWdlLWdyb3VwcyIpKS50b0hhdmVMZW5ndGgoMSk7CiAgfSk7CgogIGl0KCJkaXNhYmxlcyBoZWFkZXIgbXV0YXRpb25zIHdoaWxlIG1hcHBpbmdzIGFyZSBiZWluZyBzYXZlZCIsICgpID0+IHsKICAgIGNvbnN0IHdyYXBwZXIgPSBtb3VudChTdWJkb21haW5NYXBwaW5nc0NhcmRIZWFkZXIsIHsKICAgICAgcHJvcHM6IHsKICAgICAgICAuLi5oZWFkZXJQcm9wcywKICAgICAgICBncm91cGVkVmlldzogdHJ1ZSwKICAgICAgICBpc1NhdmluZ01hcHBpbmdzOiB0cnVlLAogICAgICB9LAogICAgICBnbG9iYWw6IHsgcGx1Z2luczogW2NyZWF0ZVRlc3RJMThuKCldIH0sCiAgICB9KTsKCiAgICBmb3IgKGNvbnN0IGxhYmVsIG9mIFsiR3JvdXBlZCB2aWV3IiwgIk1hbmFnZSBncm91cHMiLCAiQWRkIGF1dGggc2VydmljZSJdKSB7CiAgICAgIGNvbnN0IGJ1dHRvbiA9IHdyYXBwZXIKICAgICAgICAuZmluZEFsbCgiYnV0dG9uIikKICAgICAgICAuZmluZCgoY2FuZGlkYXRlKSA9PiBjYW5kaWRhdGUudGV4dCgpLmluY2x1ZGVzKGxhYmVsKSk7CiAgICAgIGV4cGVjdChidXR0b24/LmF0dHJpYnV0ZXMoKSkudG9IYXZlUHJvcGVydHkoImRpc2FibGVkIik7CiAgICB9CiAgfSk7CgogIGl0KCJlbWl0cyBiYXRjaCBjbGVhciBhbmQgcm93IGVkaXQgYWN0aW9ucyB3aXRob3V0IGxlYWtpbmcgcGFyZW50IHN0YXRlIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgYmF0Y2ggPSBtb3VudChTdWJkb21haW5NYXBwaW5nc0JhdGNoQWN0aW9ucywgewogICAgICBwcm9wczogewogICAgICAgIGdyb3VwczogW3sgaWQ6ICJpbnRlcm5hbCIsIG5hbWU6ICJJbnRlcm5hbCIgfV0sCiAgICAgICAgc2F2aW5nOiBmYWxzZSwKICAgICAgICBzZWxlY3RlZENvdW50OiAyLAogICAgICB9LAogICAgICBnbG9iYWw6IHsgcGx1Z2luczogW2NyZWF0ZVRlc3RJMThuKCldIH0sCiAgICB9KTsKICAgIGNvbnN0IGNsZWFyQnV0dG9uID0gYmF0Y2gKICAgICAgLmZpbmRBbGwoImJ1dHRvbiIpCiAgICAgIC5maW5kKChidXR0b24pID0+IGJ1dHRvbi50ZXh0KCkuaW5jbHVkZXMoIkNsZWFyIHNlbGVjdGlvbiIpKTsKICAgIGF3YWl0IGNsZWFyQnV0dG9uPy50cmlnZ2VyKCJjbGljayIpOwogICAgZXhwZWN0KGJhdGNoLmVtaXR0ZWQoImNsZWFyIikpLnRvSGF2ZUxlbmd0aCgxKTsKICAgIGV4cGVjdChiYXRjaC5jbGFzc2VzKCkpLnRvQ29udGFpbigiZ3JpZCIpOwogICAgZXhwZWN0KGJhdGNoLmNsYXNzZXMoKSkudG9Db250YWluKCJncmlkLWNvbHMtMiIpOwogICAgZXhwZWN0KAogICAgICBiYXRjaAogICAgICAgIC5maW5kQWxsKCJidXR0b24iKQogICAgICAgIC5maWx0ZXIoKGJ1dHRvbikgPT4gYnV0dG9uLmNsYXNzZXMoKS5pbmNsdWRlcygiaC0xMCIpKSwKICAgICkudG9IYXZlTGVuZ3RoKDYpOwoKICAgIGNvbnN0IG1hcHBpbmcgPSB7CiAgICAgIC4uLmNyZWF0ZURlZmF1bHRNYXBwaW5nKCksCiAgICAgIGhvc3Q6ICJkZW1vLmV4YW1wbGUuY29tIiwKICAgICAgdGFyZ2V0OiAiaHR0cDovL2RlbW86ODA4MC8iLAogICAgICB0aXRsZTogIkRlbW8iLAogICAgfTsKICAgIGNvbnN0IHRpdGxlQ2VsbCA9IG1vdW50KFN1YmRvbWFpbk1hcHBpbmdUaXRsZUNlbGwsIHsKICAgICAgcHJvcHM6IHsKICAgICAgICBkZWVwTW9uaXRvckFjdGl2ZTogZmFsc2UsCiAgICAgICAgZm9ybWF0SG9zdDogKGhvc3QpID0+IGhvc3QsCiAgICAgICAgZ2V0TWFwcGluZ1RpdGxlRm9yRGlzcGxheTogKGl0ZW0pID0+IGl0ZW0udGl0bGUsCiAgICAgICAgaGFuZGxlUHJvdG9jb2xIZWFkZXJzV2FybmluZ09wZW5DaGFuZ2U6ICgpID0+IHVuZGVmaW5lZCwKICAgICAgICBpc1Byb3RvY29sSGVhZGVyc1dhcm5pbmdPcGVuOiAoKSA9PiBmYWxzZSwKICAgICAgICBtYXBwaW5nLAogICAgICAgIG9wZW5Qcm90b2NvbEhlYWRlcnNXYXJuaW5nOiAoKSA9PiB1bmRlZmluZWQsCiAgICAgICAgc2NoZWR1bGVDbG9zZVByb3RvY29sSGVhZGVyc1dhcm5pbmc6ICgpID0+IHVuZGVmaW5lZCwKICAgICAgICBzaG91bGRTaG93UHJvdG9jb2xIZWFkZXJzV2FybmluZzogKCkgPT4gZmFsc2UsCiAgICAgICAgdG9nZ2xlUHJvdG9jb2xIZWFkZXJzV2FybmluZzogKCkgPT4gdW5kZWZpbmVkLAogICAgICB9LAogICAgICBnbG9iYWw6IHsgcGx1Z2luczogW2NyZWF0ZVRlc3RJMThuKCldIH0sCiAgICB9KTsKICAgIGF3YWl0IHRpdGxlQ2VsbC5nZXQoJ1tkYXRhLWFmZm9yZGFuY2U9ImVkaXQiXScpLnRyaWdnZXIoImNsaWNrIik7CiAgICBleHBlY3QodGl0bGVDZWxsLmVtaXR0ZWQoImVkaXQiKSkudG9FcXVhbChbW21hcHBpbmddXSk7CgogICAgYXdhaXQgdGl0bGVDZWxsLnNldFByb3BzKHsgYXNDZWxsOiBmYWxzZSB9KTsKICAgIGV4cGVjdCh0aXRsZUNlbGwuZWxlbWVudC50YWdOYW1lKS50b0JlKCJESVYiKTsKICAgIGV4cGVjdCh0aXRsZUNlbGwuZ2V0KCdbZGF0YS1hZmZvcmRhbmNlPSJlZGl0Il0nKS50ZXh0KCkpLnRvQ29udGFpbigiRGVtbyIpOwogIH0pOwp9KTsK
+import { mount } from "@vue/test-utils";
+import { createI18n } from "vue-i18n";
+import { describe, expect, it } from "vitest";
+
+import { createDefaultMapping } from "../src/views/subdomain-proxy/model";
+import SubdomainMappingTitleCell from "../src/views/subdomain-proxy/SubdomainMappingTitleCell.vue";
+import SubdomainMappingsBatchActions from "../src/views/subdomain-proxy/SubdomainMappingsBatchActions.vue";
+import SubdomainMappingsCardHeader from "../src/views/subdomain-proxy/SubdomainMappingsCardHeader.vue";
+
+const createTestI18n = () =>
+  createI18n({
+    legacy: false,
+    locale: "en",
+    messages: {
+      en: {
+        common: {
+          docs: "Docs",
+          moreActions: "More actions",
+        },
+        admin: {
+          subdomainProxy: {
+            addAuthService: "Add auth service",
+            batchActions: "Batch actions",
+            clearSelection: "Clear selection",
+            edit: "Edit",
+            editMappingAria: "Edit {host}",
+            groupedView: "Grouped view",
+            manageGroups: "Manage groups",
+            mappingsDescription: "Manage mappings",
+            mappingsTitle: "Mappings",
+            moveToGroup: "Move to group",
+            selectedMappingsCount: "{count} selected",
+            ungrouped: "Ungrouped",
+          },
+        },
+      },
+    },
+  });
+
+const headerProps = {
+  authServiceMapping: null,
+  canManageNewMappings: true,
+  discoverButtonDividerClass: "border-primary",
+  discoverButtonVariant: "default" as const,
+  docsHref: "https://example.com/docs",
+  groupedView: false,
+  hasRegularHostMappings: false,
+  isClearingAllSubdomainConfig: false,
+  isConfigLoading: false,
+  isDiscovering: false,
+  isExportingBookmarks: false,
+  isRefreshingTitles: false,
+  isSavingMappings: false,
+  isSyncing: false,
+  proxyMappingsCount: 0,
+  visibleMappingsCount: 0,
+};
+
+describe("subdomain mapping presentation components", () => {
+  it("keeps grouped-view and group-management actions independently typed", async () => {
+    const wrapper = mount(SubdomainMappingsCardHeader, {
+      props: headerProps,
+      global: { plugins: [createTestI18n()] },
+    });
+
+    const groupedViewButton = wrapper
+      .findAll("button")
+      .find((button) => button.text().includes("Grouped view"));
+    expect(groupedViewButton).toBeDefined();
+    await groupedViewButton?.trigger("click");
+    expect(wrapper.emitted("update-grouped-view")).toEqual([[true]]);
+
+    await wrapper.setProps({ groupedView: true });
+    const manageGroupsButton = wrapper
+      .findAll("button")
+      .find((button) => button.text().includes("Manage groups"));
+    expect(manageGroupsButton).toBeDefined();
+    await manageGroupsButton?.trigger("click");
+    expect(wrapper.emitted("manage-groups")).toHaveLength(1);
+  });
+
+  it("disables header mutations while mappings are being saved", () => {
+    const wrapper = mount(SubdomainMappingsCardHeader, {
+      props: {
+        ...headerProps,
+        groupedView: true,
+        isSavingMappings: true,
+      },
+      global: { plugins: [createTestI18n()] },
+    });
+
+    for (const label of ["Grouped view", "Manage groups", "Add auth service"]) {
+      const button = wrapper
+        .findAll("button")
+        .find((candidate) => candidate.text().includes(label));
+      expect(button?.attributes()).toHaveProperty("disabled");
+    }
+  });
+
+  it("emits batch clear and row edit actions without leaking parent state", async () => {
+    const batch = mount(SubdomainMappingsBatchActions, {
+      props: {
+        groups: [{ id: "internal", name: "Internal" }],
+        saving: false,
+        selectedCount: 2,
+      },
+      global: { plugins: [createTestI18n()] },
+    });
+    const clearButton = batch
+      .findAll("button")
+      .find((button) => button.text().includes("Clear selection"));
+    await clearButton?.trigger("click");
+    expect(batch.emitted("clear")).toHaveLength(1);
+    expect(batch.classes()).toContain("grid");
+    expect(batch.classes()).toContain("grid-cols-2");
+    expect(
+      batch
+        .findAll("button")
+        .filter((button) => button.classes().includes("h-10")),
+    ).toHaveLength(6);
+
+    const mapping = {
+      ...createDefaultMapping(),
+      host: "demo.example.com",
+      target: "http://demo:8080/",
+      title: "Demo",
+    };
+    const titleCell = mount(SubdomainMappingTitleCell, {
+      props: {
+        deepMonitorActive: false,
+        formatHost: (host) => host,
+        getMappingTitleForDisplay: (item) => item.title,
+        handleProtocolHeadersWarningOpenChange: () => undefined,
+        isProtocolHeadersWarningOpen: () => false,
+        mapping,
+        openProtocolHeadersWarning: () => undefined,
+        scheduleCloseProtocolHeadersWarning: () => undefined,
+        shouldShowProtocolHeadersWarning: () => false,
+        toggleProtocolHeadersWarning: () => undefined,
+      },
+      global: { plugins: [createTestI18n()] },
+    });
+    await titleCell.get('[data-affordance="edit"]').trigger("click");
+    expect(titleCell.emitted("edit")).toEqual([[mapping]]);
+
+    await titleCell.setProps({ asCell: false });
+    expect(titleCell.element.tagName).toBe("DIV");
+    expect(titleCell.get('[data-affordance="edit"]').text()).toContain("Demo");
+  });
+});

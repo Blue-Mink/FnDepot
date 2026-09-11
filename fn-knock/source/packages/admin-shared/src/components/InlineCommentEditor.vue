@@ -1,1 +1,174 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9Imdyb3VwIHJlbGF0aXZlIG1pbi1oLVsyNHB4XSBtaW4tdy0wIG1heC13LWZ1bGwiPgogICAgPGRpdiBjbGFzcz0iZmxleCBtaW4tdy0wIGl0ZW1zLWNlbnRlciI+CiAgICAgIDxzcGFuCiAgICAgICAgdi1pZj0iIWlzRWRpdGluZyIKICAgICAgICBjbGFzcz0ibWluLXctMCBmbGV4LTEgdHJ1bmNhdGUgcHItNyB0ZXh0LXNtIgogICAgICAgIDp0aXRsZT0iZGlzcGxheVRleHQiCiAgICAgID4KICAgICAgICB7eyBkaXNwbGF5VGV4dCB9fQogICAgICA8L3NwYW4+CiAgICAgIDxJbnB1dAogICAgICAgIHYtZWxzZQogICAgICAgIHJlZj0iaW5wdXRSZWYiCiAgICAgICAgdi1tb2RlbD0iZHJhZnQiCiAgICAgICAgOmFyaWEtbGFiZWw9ImVkaXRMYWJlbCIKICAgICAgICBjbGFzcz0iaC03IG1pbi13LTAgZmxleC0xIHB4LTIgcHktMSB0ZXh0LXNtIgogICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmciCiAgICAgICAgOnBsYWNlaG9sZGVyPSJwbGFjZWhvbGRlclRleHQiCiAgICAgICAgQGtleXVwPSJoYW5kbGVLZXl1cCIKICAgICAgLz4KCiAgICAgIDxkaXYKICAgICAgICB2LWlmPSIhaXNFZGl0aW5nIgogICAgICAgIGNsYXNzPSJwb2ludGVyLWV2ZW50cy1ub25lIGFic29sdXRlIHJpZ2h0LTAgdG9wLTEvMiAtdHJhbnNsYXRlLXktMS8yIG9wYWNpdHktMCB0cmFuc2l0aW9uLW9wYWNpdHkgZ3JvdXAtaG92ZXI6cG9pbnRlci1ldmVudHMtYXV0byBncm91cC1ob3ZlcjpvcGFjaXR5LTEwMCBncm91cC1mb2N1cy13aXRoaW46cG9pbnRlci1ldmVudHMtYXV0byBncm91cC1mb2N1cy13aXRoaW46b3BhY2l0eS0xMDAgW0BtZWRpYShob3Zlcjpub25lKV06cG9pbnRlci1ldmVudHMtYXV0byBbQG1lZGlhKGhvdmVyOm5vbmUpXTpvcGFjaXR5LTEwMCIKICAgICAgPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgIGNsYXNzPSJoLTYgdy02IgogICAgICAgICAgOnRpdGxlPSJlZGl0TGFiZWwiCiAgICAgICAgICA6YXJpYS1sYWJlbD0iZWRpdExhYmVsIgogICAgICAgICAgQGNsaWNrPSJzdGFydEVkaXQiCiAgICAgICAgPgogICAgICAgICAgPFBlbmNpbCBjbGFzcz0iaC0zIHctMyIgLz4KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgdi1lbHNlIGNsYXNzPSJtbC0xIGZsZXggc2hyaW5rLTAgZ2FwLTEiPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgIGNsYXNzPSJoLTYgdy02IHRleHQtZ3JlZW4tNjAwIgogICAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZyIKICAgICAgICAgIDphcmlhLWxhYmVsPSJzYXZlTGFiZWwiCiAgICAgICAgICA6dGl0bGU9InNhdmVMYWJlbCIKICAgICAgICAgIEBjbGljaz0ic2F2ZUVkaXQiCiAgICAgICAgPgogICAgICAgICAgPENoZWNrIGNsYXNzPSJoLTMgdy0zIiAvPgogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgIGNsYXNzPSJoLTYgdy02IHRleHQtcmVkLTYwMCIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmciCiAgICAgICAgICA6YXJpYS1sYWJlbD0iY2FuY2VsTGFiZWwiCiAgICAgICAgICA6dGl0bGU9ImNhbmNlbExhYmVsIgogICAgICAgICAgQGNsaWNrPSJjYW5jZWxFZGl0IgogICAgICAgID4KICAgICAgICAgIDxYIGNsYXNzPSJoLTMgdy0zIiAvPgogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICAgPHAKICAgICAgdi1pZj0iaXNFZGl0aW5nICYmIHdhcm5pbmdNZXNzYWdlIgogICAgICBjbGFzcz0ibXQtMSB0ZXh0LXhzIHRleHQtYW1iZXItNjAwIGRhcms6dGV4dC1hbWJlci00MDAiCiAgICAgIHJvbGU9InN0YXR1cyIKICAgID4KICAgICAge3sgd2FybmluZ01lc3NhZ2UgfX0KICAgIDwvcD4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXAgbGFuZz0idHMiPgppbXBvcnQgeyBjb21wdXRlZCwgbmV4dFRpY2ssIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IFBlbmNpbCwgQ2hlY2ssIFggfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwoKdHlwZSBWYWxpZGF0ZUZuID0gKHZhbHVlOiBzdHJpbmcpID0+IHN0cmluZyB8IHZvaWQ7CnR5cGUgU2F2ZUZuID0gKHZhbHVlOiBzdHJpbmcpID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoCiAgZGVmaW5lUHJvcHM8ewogICAgdGV4dD86IHN0cmluZyB8IG51bGw7CiAgICBwbGFjZWhvbGRlcj86IHN0cmluZzsKICAgIGVtcHR5VGV4dD86IHN0cmluZzsKICAgIGFsbG93RW1wdHk/OiBib29sZWFuOwogICAgd2FybmluZz86IFZhbGlkYXRlRm47CiAgICB2YWxpZGF0ZT86IFZhbGlkYXRlRm47CiAgICBzYXZlOiBTYXZlRm47CiAgfT4oKSwKICB7CiAgICB0ZXh0OiAiIiwKICAgIGFsbG93RW1wdHk6IHRydWUsCiAgICB3YXJuaW5nOiB1bmRlZmluZWQsCiAgICB2YWxpZGF0ZTogdW5kZWZpbmVkLAogIH0sCik7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IGlzRWRpdGluZyA9IHJlZihmYWxzZSk7CmNvbnN0IGlzU2F2aW5nID0gcmVmKGZhbHNlKTsKY29uc3QgZHJhZnQgPSByZWYoIiIpOwpjb25zdCBpbnB1dFJlZiA9IHJlZjxJbnN0YW5jZVR5cGU8dHlwZW9mIElucHV0PiB8IG51bGw+KG51bGwpOwoKY29uc3Qgbm9ybWFsaXplZFRleHQgPSBjb21wdXRlZCgoKSA9PiBwcm9wcy50ZXh0ID8/ICIiKTsKY29uc3QgZGlzcGxheVRleHQgPSBjb21wdXRlZCgKICAoKSA9PiBub3JtYWxpemVkVGV4dC52YWx1ZSB8fCBwcm9wcy5lbXB0eVRleHQgfHwgIi0iLAopOwpjb25zdCBwbGFjZWhvbGRlclRleHQgPSBjb21wdXRlZCgKICAoKSA9PiBwcm9wcy5wbGFjZWhvbGRlciA/PyB0KCJzaGFyZWQuaW5saW5lQ29tbWVudEVkaXRvci5wbGFjZWhvbGRlciIpLAopOwpjb25zdCBlZGl0TGFiZWwgPSBjb21wdXRlZCgoKSA9PiB0KCJzaGFyZWQuaW5saW5lQ29tbWVudEVkaXRvci5lZGl0IikpOwpjb25zdCBzYXZlTGFiZWwgPSBjb21wdXRlZCgoKSA9PiB0KCJzaGFyZWQuaW5saW5lQ29tbWVudEVkaXRvci5zYXZlIikpOwpjb25zdCBjYW5jZWxMYWJlbCA9IGNvbXB1dGVkKCgpID0+IHQoInNoYXJlZC5pbmxpbmVDb21tZW50RWRpdG9yLmNhbmNlbCIpKTsKY29uc3Qgd2FybmluZ01lc3NhZ2UgPSBjb21wdXRlZCgoKSA9PiBwcm9wcy53YXJuaW5nPy4oZHJhZnQudmFsdWUudHJpbSgpKSk7Cgphc3luYyBmdW5jdGlvbiBzdGFydEVkaXQoKSB7CiAgZHJhZnQudmFsdWUgPSBub3JtYWxpemVkVGV4dC52YWx1ZTsKICBpc0VkaXRpbmcudmFsdWUgPSB0cnVlOwogIGF3YWl0IG5leHRUaWNrKCk7CiAgaW5wdXRSZWYudmFsdWU/LiRlbD8uZm9jdXM/LigpOwp9CgpmdW5jdGlvbiBjYW5jZWxFZGl0KCkgewogIGlzRWRpdGluZy52YWx1ZSA9IGZhbHNlOwogIGRyYWZ0LnZhbHVlID0gIiI7Cn0KCmZ1bmN0aW9uIGhhbmRsZUtleXVwKGV2ZW50OiBLZXlib2FyZEV2ZW50KSB7CiAgaWYgKGV2ZW50LmtleSA9PT0gIkVudGVyIikgewogICAgdm9pZCBzYXZlRWRpdCgpOwogICAgcmV0dXJuOwogIH0KCiAgaWYgKGV2ZW50LmtleSA9PT0gIkVzY2FwZSIpIHsKICAgIGNhbmNlbEVkaXQoKTsKICB9Cn0KCmFzeW5jIGZ1bmN0aW9uIHNhdmVFZGl0KCkgewogIGNvbnN0IG5leHRWYWx1ZSA9IGRyYWZ0LnZhbHVlLnRyaW0oKTsKCiAgaWYgKG5leHRWYWx1ZSA9PT0gbm9ybWFsaXplZFRleHQudmFsdWUpIHsKICAgIGNhbmNlbEVkaXQoKTsKICAgIHJldHVybjsKICB9CgogIGlmICghcHJvcHMuYWxsb3dFbXB0eSAmJiAhbmV4dFZhbHVlKSB7CiAgICB0b2FzdC5lcnJvcih0KCJzaGFyZWQuaW5saW5lQ29tbWVudEVkaXRvci5yZXF1aXJlZCIpKTsKICAgIHJldHVybjsKICB9CgogIGNvbnN0IHZhbGlkYXRpb25NZXNzYWdlID0gcHJvcHMudmFsaWRhdGU/LihuZXh0VmFsdWUpOwogIGlmICh2YWxpZGF0aW9uTWVzc2FnZSkgewogICAgdG9hc3QuZXJyb3IodmFsaWRhdGlvbk1lc3NhZ2UpOwogICAgcmV0dXJuOwogIH0KCiAgaXNTYXZpbmcudmFsdWUgPSB0cnVlOwogIHRyeSB7CiAgICBhd2FpdCBwcm9wcy5zYXZlKG5leHRWYWx1ZSk7CiAgICBjYW5jZWxFZGl0KCk7CiAgfSBjYXRjaCAoZXJyb3I6IGFueSkgewogICAgY29uc3QgbWVzc2FnZSA9CiAgICAgIGVycm9yPy5tZXNzYWdlIHx8IHQoInNoYXJlZC5pbmxpbmVDb21tZW50RWRpdG9yLnVwZGF0ZUZhaWxlZCIpOwogICAgdG9hc3QuZXJyb3IobWVzc2FnZSk7CiAgfSBmaW5hbGx5IHsKICAgIGlzU2F2aW5nLnZhbHVlID0gZmFsc2U7CiAgfQp9Cjwvc2NyaXB0Pgo=
+<template>
+  <div class="group relative min-h-[24px] min-w-0 max-w-full">
+    <div class="flex min-w-0 items-center">
+      <span
+        v-if="!isEditing"
+        class="min-w-0 flex-1 truncate pr-7 text-sm"
+        :title="displayText"
+      >
+        {{ displayText }}
+      </span>
+      <Input
+        v-else
+        ref="inputRef"
+        v-model="draft"
+        :aria-label="editLabel"
+        class="h-7 min-w-0 flex-1 px-2 py-1 text-sm"
+        :disabled="isSaving"
+        :placeholder="placeholderText"
+        @keyup="handleKeyup"
+      />
+
+      <div
+        v-if="!isEditing"
+        class="pointer-events-none absolute right-0 top-1/2 -translate-y-1/2 opacity-0 transition-opacity group-hover:pointer-events-auto group-hover:opacity-100 group-focus-within:pointer-events-auto group-focus-within:opacity-100 [@media(hover:none)]:pointer-events-auto [@media(hover:none)]:opacity-100"
+      >
+        <Button
+          variant="ghost"
+          size="icon"
+          class="h-6 w-6"
+          :title="editLabel"
+          :aria-label="editLabel"
+          @click="startEdit"
+        >
+          <Pencil class="h-3 w-3" />
+        </Button>
+      </div>
+      <div v-else class="ml-1 flex shrink-0 gap-1">
+        <Button
+          variant="ghost"
+          size="icon"
+          class="h-6 w-6 text-green-600"
+          :disabled="isSaving"
+          :aria-label="saveLabel"
+          :title="saveLabel"
+          @click="saveEdit"
+        >
+          <Check class="h-3 w-3" />
+        </Button>
+        <Button
+          variant="ghost"
+          size="icon"
+          class="h-6 w-6 text-red-600"
+          :disabled="isSaving"
+          :aria-label="cancelLabel"
+          :title="cancelLabel"
+          @click="cancelEdit"
+        >
+          <X class="h-3 w-3" />
+        </Button>
+      </div>
+    </div>
+    <p
+      v-if="isEditing && warningMessage"
+      class="mt-1 text-xs text-amber-600 dark:text-amber-400"
+      role="status"
+    >
+      {{ warningMessage }}
+    </p>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { computed, nextTick, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { Pencil, Check, X } from "lucide-vue-next";
+import { toast } from "@admin-shared/utils/toast";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+
+type ValidateFn = (value: string) => string | void;
+type SaveFn = (value: string) => Promise<void> | void;
+
+const props = withDefaults(
+  defineProps<{
+    text?: string | null;
+    placeholder?: string;
+    emptyText?: string;
+    allowEmpty?: boolean;
+    warning?: ValidateFn;
+    validate?: ValidateFn;
+    save: SaveFn;
+  }>(),
+  {
+    text: "",
+    allowEmpty: true,
+    warning: undefined,
+    validate: undefined,
+  },
+);
+
+const { t } = useI18n();
+
+const isEditing = ref(false);
+const isSaving = ref(false);
+const draft = ref("");
+const inputRef = ref<InstanceType<typeof Input> | null>(null);
+
+const normalizedText = computed(() => props.text ?? "");
+const displayText = computed(
+  () => normalizedText.value || props.emptyText || "-",
+);
+const placeholderText = computed(
+  () => props.placeholder ?? t("shared.inlineCommentEditor.placeholder"),
+);
+const editLabel = computed(() => t("shared.inlineCommentEditor.edit"));
+const saveLabel = computed(() => t("shared.inlineCommentEditor.save"));
+const cancelLabel = computed(() => t("shared.inlineCommentEditor.cancel"));
+const warningMessage = computed(() => props.warning?.(draft.value.trim()));
+
+async function startEdit() {
+  draft.value = normalizedText.value;
+  isEditing.value = true;
+  await nextTick();
+  inputRef.value?.$el?.focus?.();
+}
+
+function cancelEdit() {
+  isEditing.value = false;
+  draft.value = "";
+}
+
+function handleKeyup(event: KeyboardEvent) {
+  if (event.key === "Enter") {
+    void saveEdit();
+    return;
+  }
+
+  if (event.key === "Escape") {
+    cancelEdit();
+  }
+}
+
+async function saveEdit() {
+  const nextValue = draft.value.trim();
+
+  if (nextValue === normalizedText.value) {
+    cancelEdit();
+    return;
+  }
+
+  if (!props.allowEmpty && !nextValue) {
+    toast.error(t("shared.inlineCommentEditor.required"));
+    return;
+  }
+
+  const validationMessage = props.validate?.(nextValue);
+  if (validationMessage) {
+    toast.error(validationMessage);
+    return;
+  }
+
+  isSaving.value = true;
+  try {
+    await props.save(nextValue);
+    cancelEdit();
+  } catch (error: any) {
+    const message =
+      error?.message || t("shared.inlineCommentEditor.updateFailed");
+    toast.error(message);
+  } finally {
+    isSaving.value = false;
+  }
+}
+</script>

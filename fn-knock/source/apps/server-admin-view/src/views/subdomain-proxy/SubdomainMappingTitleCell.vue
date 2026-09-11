@@ -1,1 +1,153 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IENpcmNsZUFsZXJ0LCBQZW5jaWwgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgewogIFBvcG92ZXIsCiAgUG9wb3ZlckFuY2hvciwKICBQb3BvdmVyQ29udGVudCwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvcG9wb3ZlciI7CmltcG9ydCB7IFRhYmxlQ2VsbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJsZSI7CmltcG9ydCB0eXBlIHsgSG9zdE1hcHBpbmcgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsgZ2V0TWFwcGluZ0Rpc3BsYXlUaXRsZSB9IGZyb20gIi4vbW9kZWwiOwoKd2l0aERlZmF1bHRzKAogIGRlZmluZVByb3BzPHsKICAgIGFzQ2VsbD86IGJvb2xlYW47CiAgICBjb21wYWN0PzogYm9vbGVhbjsKICAgIGRlZXBNb25pdG9yQWN0aXZlOiBib29sZWFuOwogICAgZm9ybWF0SG9zdDogKGhvc3Q6IHN0cmluZykgPT4gc3RyaW5nOwogICAgZ2V0TWFwcGluZ1RpdGxlRm9yRGlzcGxheTogKG1hcHBpbmc6IEhvc3RNYXBwaW5nKSA9PiBzdHJpbmc7CiAgICBoYW5kbGVQcm90b2NvbEhlYWRlcnNXYXJuaW5nT3BlbkNoYW5nZTogKAogICAgICBob3N0OiBzdHJpbmcsCiAgICAgIG9wZW46IGJvb2xlYW4sCiAgICApID0+IHZvaWQ7CiAgICBpc1Byb3RvY29sSGVhZGVyc1dhcm5pbmdPcGVuOiAoaG9zdDogc3RyaW5nKSA9PiBib29sZWFuOwogICAgbWFwcGluZzogSG9zdE1hcHBpbmc7CiAgICBvcGVuUHJvdG9jb2xIZWFkZXJzV2FybmluZzogKGhvc3Q6IHN0cmluZykgPT4gdm9pZDsKICAgIHNjaGVkdWxlQ2xvc2VQcm90b2NvbEhlYWRlcnNXYXJuaW5nOiAoaG9zdDogc3RyaW5nKSA9PiB2b2lkOwogICAgc2hvdWxkU2hvd1Byb3RvY29sSGVhZGVyc1dhcm5pbmc6IChtYXBwaW5nOiBIb3N0TWFwcGluZykgPT4gYm9vbGVhbjsKICAgIHRvZ2dsZVByb3RvY29sSGVhZGVyc1dhcm5pbmc6IChob3N0OiBzdHJpbmcpID0+IHZvaWQ7CiAgfT4oKSwKICB7CiAgICBhc0NlbGw6IHRydWUsCiAgICBjb21wYWN0OiBmYWxzZSwKICB9LAopOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICBlZGl0OiBbbWFwcGluZzogSG9zdE1hcHBpbmddOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxjb21wb25lbnQKICAgIDppcz0iYXNDZWxsID8gVGFibGVDZWxsIDogJ2RpdiciCiAgICA6Y2xhc3M9IlsKICAgICAgJ21pbi13LTAgdGV4dC1zbScsCiAgICAgIGFzQ2VsbCA/ICdtYXBwaW5nLXN0aWNreS1jZWxsIG1hcHBpbmctdGl0bGUtY2VsbCcgOiAnJywKICAgIF0iCiAgICA6dGl0bGU9ImdldE1hcHBpbmdUaXRsZUZvckRpc3BsYXkobWFwcGluZykiCiAgPgogICAgPGRpdiBjbGFzcz0iZmxleCBtaW4tdy0wIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgIDxQb3BvdmVyCiAgICAgICAgdi1pZj0ic2hvdWxkU2hvd1Byb3RvY29sSGVhZGVyc1dhcm5pbmcobWFwcGluZykiCiAgICAgICAgOm9wZW49ImlzUHJvdG9jb2xIZWFkZXJzV2FybmluZ09wZW4obWFwcGluZy5ob3N0KSIKICAgICAgICBAdXBkYXRlOm9wZW49IgogICAgICAgICAgKG5leHRPcGVuKSA9PgogICAgICAgICAgICBoYW5kbGVQcm90b2NvbEhlYWRlcnNXYXJuaW5nT3BlbkNoYW5nZShtYXBwaW5nLmhvc3QsIG5leHRPcGVuKQogICAgICAgICIKICAgICAgPgogICAgICAgIDxQb3BvdmVyQW5jaG9yIGFzLWNoaWxkPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIGNsYXNzPSJpbmxpbmUtZmxleCBoLTUgdy01IHNocmluay0wIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLW1kIHRleHQtZGVzdHJ1Y3RpdmUgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctZGVzdHJ1Y3RpdmUvMTAgZm9jdXMtdmlzaWJsZTpvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpyaW5nLTIgZm9jdXMtdmlzaWJsZTpyaW5nLWRlc3RydWN0aXZlLzMwIgogICAgICAgICAgICA6Y2xhc3M9InsKICAgICAgICAgICAgICAnYmctZGVzdHJ1Y3RpdmUvMTAnOiBpc1Byb3RvY29sSGVhZGVyc1dhcm5pbmdPcGVuKG1hcHBpbmcuaG9zdCksCiAgICAgICAgICAgIH0iCiAgICAgICAgICAgIDphcmlhLWxhYmVsPSIKICAgICAgICAgICAgICB0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5ob21lQXNzaXN0YW50V2FybmluZ0FyaWEnLCB7CiAgICAgICAgICAgICAgICBob3N0OiBmb3JtYXRIb3N0KG1hcHBpbmcuaG9zdCksCiAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgIgogICAgICAgICAgICBAbW91c2VlbnRlcj0ib3BlblByb3RvY29sSGVhZGVyc1dhcm5pbmcobWFwcGluZy5ob3N0KSIKICAgICAgICAgICAgQG1vdXNlbGVhdmU9InNjaGVkdWxlQ2xvc2VQcm90b2NvbEhlYWRlcnNXYXJuaW5nKG1hcHBpbmcuaG9zdCkiCiAgICAgICAgICAgIEBmb2N1cz0ib3BlblByb3RvY29sSGVhZGVyc1dhcm5pbmcobWFwcGluZy5ob3N0KSIKICAgICAgICAgICAgQGJsdXI9InNjaGVkdWxlQ2xvc2VQcm90b2NvbEhlYWRlcnNXYXJuaW5nKG1hcHBpbmcuaG9zdCkiCiAgICAgICAgICAgIEBjbGljaz0idG9nZ2xlUHJvdG9jb2xIZWFkZXJzV2FybmluZyhtYXBwaW5nLmhvc3QpIgogICAgICAgICAgPgogICAgICAgICAgICA8Q2lyY2xlQWxlcnQgY2xhc3M9ImgtMy41IHctMy41IiAvPgogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9Qb3BvdmVyQW5jaG9yPgogICAgICAgIDxQb3BvdmVyQ29udGVudAogICAgICAgICAgc2lkZT0idG9wIgogICAgICAgICAgYWxpZ249InN0YXJ0IgogICAgICAgICAgY2xhc3M9InctNzIgYm9yZGVyLWRlc3RydWN0aXZlLzIwIHRleHQtbGVmdCIKICAgICAgICAgIEBtb3VzZWVudGVyPSJvcGVuUHJvdG9jb2xIZWFkZXJzV2FybmluZyhtYXBwaW5nLmhvc3QpIgogICAgICAgICAgQG1vdXNlbGVhdmU9InNjaGVkdWxlQ2xvc2VQcm90b2NvbEhlYWRlcnNXYXJuaW5nKG1hcHBpbmcuaG9zdCkiCiAgICAgICAgICBAZm9jdXNpbj0ib3BlblByb3RvY29sSGVhZGVyc1dhcm5pbmcobWFwcGluZy5ob3N0KSIKICAgICAgICAgIEBmb2N1c291dD0ic2NoZWR1bGVDbG9zZVByb3RvY29sSGVhZGVyc1dhcm5pbmcobWFwcGluZy5ob3N0KSIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTMiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgIDxDaXJjbGVBbGVydCBjbGFzcz0iaC00IHctNCB0ZXh0LWRlc3RydWN0aXZlIiAvPgogICAgICAgICAgICAgICAgPHAgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5ob21lQXNzaXN0YW50V2FybmluZ1RpdGxlIikgfX0KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmhvbWVBc3Npc3RhbnRXYXJuaW5nRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxhCiAgICAgICAgICAgICAgaHJlZj0iIy9zeXN0ZW0vZ2F0ZXdheS1wcm94eS1oZWFkZXJzIgogICAgICAgICAgICAgIGNsYXNzPSJpbmxpbmUtZmxleCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItZGVzdHJ1Y3RpdmUvMjAgYmctZGVzdHJ1Y3RpdmUvNSBweC0yLjUgcHktMS41IHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1kZXN0cnVjdGl2ZSB0cmFuc2l0aW9uIGhvdmVyOmJnLWRlc3RydWN0aXZlLzEwIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuZ29EaXNhYmxlUHJvdG9jb2xIZWFkZXJzIikgfX0KICAgICAgICAgICAgPC9hPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9Qb3BvdmVyQ29udGVudD4KICAgICAgPC9Qb3BvdmVyPgogICAgICA8c3BhbgogICAgICAgIHYtaWY9ImRlZXBNb25pdG9yQWN0aXZlIgogICAgICAgIGNsYXNzPSJpbmxpbmUtZmxleCBzaHJpbmstMCBpdGVtcy1jZW50ZXIgcm91bmRlZC1mdWxsIGJnLXByaW1hcnkvMTAgdGV4dC1bMTFweF0gZm9udC1tZWRpdW0gdGV4dC1wcmltYXJ5IgogICAgICAgIDpjbGFzcz0iY29tcGFjdCA/ICdoLTUgdy01IGp1c3RpZnktY2VudGVyJyA6ICdnYXAtMS41IHB4LTIgcHktMC41JyIKICAgICAgICA6dGl0bGU9InQoJ2FkbWluLnN1YmRvbWFpblByb3h5LmRlZXBNb25pdG9yQWN0aXZlJykiCiAgICAgID4KICAgICAgICA8c3BhbiBjbGFzcz0icmVsYXRpdmUgZmxleCBoLTEuNSB3LTEuNSI+CiAgICAgICAgICA8c3BhbgogICAgICAgICAgICBjbGFzcz0iYWJzb2x1dGUgaW5saW5lLWZsZXggaC1mdWxsIHctZnVsbCBhbmltYXRlLXBpbmcgcm91bmRlZC1mdWxsIGJnLXByaW1hcnkgb3BhY2l0eS03MCIKICAgICAgICAgIC8+CiAgICAgICAgICA8c3BhbgogICAgICAgICAgICBjbGFzcz0icmVsYXRpdmUgaW5saW5lLWZsZXggaC0xLjUgdy0xLjUgcm91bmRlZC1mdWxsIGJnLXByaW1hcnkiCiAgICAgICAgICAvPgogICAgICAgIDwvc3Bhbj4KICAgICAgICA8c3BhbiA6Y2xhc3M9InsgJ3NyLW9ubHknOiBjb21wYWN0IH0iPgogICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuZGVlcE1vbml0b3JBY3RpdmUiKSB9fQogICAgICAgIDwvc3Bhbj4KICAgICAgPC9zcGFuPgogICAgICA8YnV0dG9uCiAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgIGRhdGEtYWZmb3JkYW5jZT0iZWRpdCIKICAgICAgICBjbGFzcz0iZ3JvdXAvZWRpdCBpbmxpbmUtZmxleCBtaW4tdy0wIGZsZXgtMSBpdGVtcy1jZW50ZXIgZ2FwLTEuNSByb3VuZGVkLXNtIHRleHQtbGVmdCB0ZXh0LXNtIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOnRleHQtcHJpbWFyeSBmb2N1cy12aXNpYmxlOm91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMiBmb2N1cy12aXNpYmxlOnJpbmctcmluZyBmb2N1cy12aXNpYmxlOnJpbmctb2Zmc2V0LTIiCiAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5lZGl0JykiCiAgICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgICAgdCgnYWRtaW4uc3ViZG9tYWluUHJveHkuZWRpdE1hcHBpbmdBcmlhJywgewogICAgICAgICAgICBob3N0OiBmb3JtYXRIb3N0KG1hcHBpbmcuaG9zdCksCiAgICAgICAgICB9KQogICAgICAgICIKICAgICAgICBAY2xpY2s9ImVtaXQoJ2VkaXQnLCBtYXBwaW5nKSIKICAgICAgPgogICAgICAgIDxzcGFuIGNsYXNzPSJibG9jayB0cnVuY2F0ZSI+CiAgICAgICAgICB7eyBnZXRNYXBwaW5nRGlzcGxheVRpdGxlKG1hcHBpbmcpIH19CiAgICAgICAgPC9zcGFuPgogICAgICAgIDxQZW5jaWwKICAgICAgICAgIGNsYXNzPSJzaXplLTMuNSBzaHJpbmstMCB0ZXh0LW11dGVkLWZvcmVncm91bmQgb3BhY2l0eS0wIHRyYW5zaXRpb24tb3BhY2l0eSBncm91cC1ob3Zlci9lZGl0Om9wYWNpdHktMTAwIGdyb3VwLWZvY3VzLXZpc2libGUvZWRpdDpvcGFjaXR5LTEwMCBbQG1lZGlhKGhvdmVyOm5vbmUpXTpvcGFjaXR5LTEwMCIKICAgICAgICAgIGFyaWEtaGlkZGVuPSJ0cnVlIgogICAgICAgIC8+CiAgICAgIDwvYnV0dG9uPgogICAgPC9kaXY+CiAgPC9jb21wb25lbnQ+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { CircleAlert, Pencil } from "lucide-vue-next";
+import {
+  Popover,
+  PopoverAnchor,
+  PopoverContent,
+} from "@/components/ui/popover";
+import { TableCell } from "@/components/ui/table";
+import type { HostMapping } from "@/types";
+import { getMappingDisplayTitle } from "./model";
+
+withDefaults(
+  defineProps<{
+    asCell?: boolean;
+    compact?: boolean;
+    deepMonitorActive: boolean;
+    formatHost: (host: string) => string;
+    getMappingTitleForDisplay: (mapping: HostMapping) => string;
+    handleProtocolHeadersWarningOpenChange: (
+      host: string,
+      open: boolean,
+    ) => void;
+    isProtocolHeadersWarningOpen: (host: string) => boolean;
+    mapping: HostMapping;
+    openProtocolHeadersWarning: (host: string) => void;
+    scheduleCloseProtocolHeadersWarning: (host: string) => void;
+    shouldShowProtocolHeadersWarning: (mapping: HostMapping) => boolean;
+    toggleProtocolHeadersWarning: (host: string) => void;
+  }>(),
+  {
+    asCell: true,
+    compact: false,
+  },
+);
+
+const emit = defineEmits<{
+  edit: [mapping: HostMapping];
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <component
+    :is="asCell ? TableCell : 'div'"
+    :class="[
+      'min-w-0 text-sm',
+      asCell ? 'mapping-sticky-cell mapping-title-cell' : '',
+    ]"
+    :title="getMappingTitleForDisplay(mapping)"
+  >
+    <div class="flex min-w-0 items-center gap-2">
+      <Popover
+        v-if="shouldShowProtocolHeadersWarning(mapping)"
+        :open="isProtocolHeadersWarningOpen(mapping.host)"
+        @update:open="
+          (nextOpen) =>
+            handleProtocolHeadersWarningOpenChange(mapping.host, nextOpen)
+        "
+      >
+        <PopoverAnchor as-child>
+          <button
+            type="button"
+            class="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-md text-destructive transition-colors hover:bg-destructive/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-destructive/30"
+            :class="{
+              'bg-destructive/10': isProtocolHeadersWarningOpen(mapping.host),
+            }"
+            :aria-label="
+              t('admin.subdomainProxy.homeAssistantWarningAria', {
+                host: formatHost(mapping.host),
+              })
+            "
+            @mouseenter="openProtocolHeadersWarning(mapping.host)"
+            @mouseleave="scheduleCloseProtocolHeadersWarning(mapping.host)"
+            @focus="openProtocolHeadersWarning(mapping.host)"
+            @blur="scheduleCloseProtocolHeadersWarning(mapping.host)"
+            @click="toggleProtocolHeadersWarning(mapping.host)"
+          >
+            <CircleAlert class="h-3.5 w-3.5" />
+          </button>
+        </PopoverAnchor>
+        <PopoverContent
+          side="top"
+          align="start"
+          class="w-72 border-destructive/20 text-left"
+          @mouseenter="openProtocolHeadersWarning(mapping.host)"
+          @mouseleave="scheduleCloseProtocolHeadersWarning(mapping.host)"
+          @focusin="openProtocolHeadersWarning(mapping.host)"
+          @focusout="scheduleCloseProtocolHeadersWarning(mapping.host)"
+        >
+          <div class="space-y-3">
+            <div class="space-y-1">
+              <div class="flex items-center gap-2">
+                <CircleAlert class="h-4 w-4 text-destructive" />
+                <p class="text-sm font-medium">
+                  {{ t("admin.subdomainProxy.homeAssistantWarningTitle") }}
+                </p>
+              </div>
+              <p class="text-xs leading-5 text-muted-foreground">
+                {{ t("admin.subdomainProxy.homeAssistantWarningDescription") }}
+              </p>
+            </div>
+            <a
+              href="#/system/gateway-proxy-headers"
+              class="inline-flex rounded-md border border-destructive/20 bg-destructive/5 px-2.5 py-1.5 text-xs font-medium text-destructive transition hover:bg-destructive/10"
+            >
+              {{ t("admin.subdomainProxy.goDisableProtocolHeaders") }}
+            </a>
+          </div>
+        </PopoverContent>
+      </Popover>
+      <span
+        v-if="deepMonitorActive"
+        class="inline-flex shrink-0 items-center rounded-full bg-primary/10 text-[11px] font-medium text-primary"
+        :class="compact ? 'h-5 w-5 justify-center' : 'gap-1.5 px-2 py-0.5'"
+        :title="t('admin.subdomainProxy.deepMonitorActive')"
+      >
+        <span class="relative flex h-1.5 w-1.5">
+          <span
+            class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-70"
+          />
+          <span
+            class="relative inline-flex h-1.5 w-1.5 rounded-full bg-primary"
+          />
+        </span>
+        <span :class="{ 'sr-only': compact }">
+          {{ t("admin.subdomainProxy.deepMonitorActive") }}
+        </span>
+      </span>
+      <button
+        type="button"
+        data-affordance="edit"
+        class="group/edit inline-flex min-w-0 flex-1 items-center gap-1.5 rounded-sm text-left text-sm transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+        :title="t('admin.subdomainProxy.edit')"
+        :aria-label="
+          t('admin.subdomainProxy.editMappingAria', {
+            host: formatHost(mapping.host),
+          })
+        "
+        @click="emit('edit', mapping)"
+      >
+        <span class="block truncate">
+          {{ getMappingDisplayTitle(mapping) }}
+        </span>
+        <Pencil
+          class="size-3.5 shrink-0 text-muted-foreground opacity-0 transition-opacity group-hover/edit:opacity-100 group-focus-visible/edit:opacity-100 [@media(hover:none)]:opacity-100"
+          aria-hidden="true"
+        />
+      </button>
+    </div>
+  </component>
+</template>

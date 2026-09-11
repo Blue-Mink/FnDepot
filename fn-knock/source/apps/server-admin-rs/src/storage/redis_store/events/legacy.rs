@@ -1,1 +1,10 @@
-cHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgY29uc3QgRVZFTlRTX1NUUkVBTV9LRVk6ICZzdHIgPSAiZm5fa25vY2s6ZXZlbnRzOnN0cmVhbSI7CnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGNvbnN0IEVWRU5UU19JTkRFWF9LRVk6ICZzdHIgPSAiZm5fa25vY2s6ZXZlbnRzOmluZGV4IjsKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgY29uc3QgRVZFTlRTX0RBVEFfUFJFRklYOiAmc3RyID0gImZuX2tub2NrOmV2ZW50czpkYXRhOiI7CnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGNvbnN0IEVWRU5UU19ERURVUEVfUFJFRklYOiAmc3RyID0KICAgIGNyYXRlOjpzdG9yYWdlOjp0eXBlZF9ldmVudF9kZWR1cGU6OkRFRFVQRV9QUkVGSVg7CnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGNvbnN0IEVWRU5UU19TVFJFQU1fSURfUFJFRklYOiAmc3RyID0KICAgICJmbl9rbm9jazpldmVudHM6c3RyZWFtLWlkOiI7CnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGNvbnN0IEVWRU5UX0xJU1RfU0NBTl9DSFVOS19TSVpFOiBpc2l6ZSA9IDIwMDsKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgY29uc3QgRVZFTlRfQ0xFQVJfQ0hVTktfU0laRTogdXNpemUgPSA1MDA7CnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGNvbnN0IE1BWF9FVkVOVF9SRVRFTlRJT05fREFZUzogaTY0ID0gOTA7Cg==
+pub(in crate::storage::redis_store) const EVENTS_STREAM_KEY: &str = "fn_knock:events:stream";
+pub(in crate::storage::redis_store) const EVENTS_INDEX_KEY: &str = "fn_knock:events:index";
+pub(in crate::storage::redis_store) const EVENTS_DATA_PREFIX: &str = "fn_knock:events:data:";
+pub(in crate::storage::redis_store) const EVENTS_DEDUPE_PREFIX: &str =
+    crate::storage::typed_event_dedupe::DEDUPE_PREFIX;
+pub(in crate::storage::redis_store) const EVENTS_STREAM_ID_PREFIX: &str =
+    "fn_knock:events:stream-id:";
+pub(in crate::storage::redis_store) const EVENT_LIST_SCAN_CHUNK_SIZE: isize = 200;
+pub(in crate::storage::redis_store) const EVENT_CLEAR_CHUNK_SIZE: usize = 500;
+pub(in crate::storage::redis_store) const MAX_EVENT_RETENTION_DAYS: i64 = 90;

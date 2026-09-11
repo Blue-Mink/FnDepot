@@ -1,1 +1,99 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IENhbGVuZGFyQ2xvY2ssIFBvd2VyLCBQb3dlck9mZiwgVHJhc2gyIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB0eXBlIHsgSG9zdE1hcHBpbmdHcm91cCB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgU3ViZG9tYWluQmF0Y2hHcm91cE1lbnUgZnJvbSAiLi9TdWJkb21haW5CYXRjaEdyb3VwTWVudS52dWUiOwoKZGVmaW5lUHJvcHM8ewogIGdyb3VwczogSG9zdE1hcHBpbmdHcm91cFtdOwogIHNhdmluZzogYm9vbGVhbjsKICBzZWxlY3RlZENvdW50OiBudW1iZXI7Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIGNsZWFyOiBbXTsKICBkaXNhYmxlOiBbXTsKICBlbmFibGU6IFtdOwogIG1vdmU6IFtncm91cElkOiBzdHJpbmcgfCBudWxsXTsKICBzY2hlZHVsZTogW107CiAgZGVsZXRlOiBbXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICBjbGFzcz0iZ3JpZCBncmlkLWNvbHMtMiBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1tZCBib3JkZXIgYmctbXV0ZWQvMzUgcHgtMyBweS0zIHNtOmZsZXggc206ZmxleC13cmFwIHNtOmdhcC0zIHNtOnB5LTIiCiAgICByb2xlPSJ0b29sYmFyIgogICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLnN1YmRvbWFpblByb3h5LmJhdGNoQWN0aW9ucycpIgogID4KICAgIDxzcGFuIGNsYXNzPSJtaW4tdy0wIHRydW5jYXRlIHRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICB7ewogICAgICAgIHQoImFkbWluLnN1YmRvbWFpblByb3h5LnNlbGVjdGVkTWFwcGluZ3NDb3VudCIsIHsKICAgICAgICAgIGNvdW50OiBzZWxlY3RlZENvdW50LAogICAgICAgIH0pCiAgICAgIH19CiAgICA8L3NwYW4+CiAgICA8QnV0dG9uCiAgICAgIHNpemU9InNtIgogICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICA6ZGlzYWJsZWQ9InNhdmluZyIKICAgICAgY2xhc3M9ImgtMTAgdy1mdWxsIGp1c3RpZnktY2VudGVyIHNtOmgtOCBzbTp3LWF1dG8iCiAgICAgIEBjbGljaz0iZW1pdCgnY2xlYXInKSIKICAgID4KICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuY2xlYXJTZWxlY3Rpb24iKSB9fQogICAgPC9CdXR0b24+CiAgICA8U3ViZG9tYWluQmF0Y2hHcm91cE1lbnUKICAgICAgOmdyb3Vwcz0iZ3JvdXBzIgogICAgICA6c2F2aW5nPSJzYXZpbmciCiAgICAgIEBtb3ZlPSJlbWl0KCdtb3ZlJywgJGV2ZW50KSIKICAgIC8+CiAgICA8QnV0dG9uCiAgICAgIHNpemU9InNtIgogICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICA6ZGlzYWJsZWQ9InNhdmluZyIKICAgICAgY2xhc3M9ImgtMTAgdy1mdWxsIGp1c3RpZnktY2VudGVyIHNtOmgtOCBzbTp3LWF1dG8iCiAgICAgIEBjbGljaz0iZW1pdCgnZW5hYmxlJykiCiAgICA+CiAgICAgIDxQb3dlciBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5lbmFibGVNYXBwaW5nIikgfX0KICAgIDwvQnV0dG9uPgogICAgPEJ1dHRvbgogICAgICBzaXplPSJzbSIKICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgOmRpc2FibGVkPSJzYXZpbmciCiAgICAgIGNsYXNzPSJoLTEwIHctZnVsbCBqdXN0aWZ5LWNlbnRlciBzbTpoLTggc206dy1hdXRvIgogICAgICBAY2xpY2s9ImVtaXQoJ2Rpc2FibGUnKSIKICAgID4KICAgICAgPFBvd2VyT2ZmIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmRpc2FibGVNYXBwaW5nIikgfX0KICAgIDwvQnV0dG9uPgogICAgPEJ1dHRvbgogICAgICBzaXplPSJzbSIKICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgOmRpc2FibGVkPSJzYXZpbmciCiAgICAgIGNsYXNzPSJoLTEwIHctZnVsbCBqdXN0aWZ5LWNlbnRlciBzbTpoLTggc206dy1hdXRvIgogICAgICBAY2xpY2s9ImVtaXQoJ3NjaGVkdWxlJykiCiAgICA+CiAgICAgIDxDYWxlbmRhckNsb2NrIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgIDxzcGFuIGNsYXNzPSJzbTpoaWRkZW4iPnt7CiAgICAgICAgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuYmF0Y2hTY2hlZHVsZSIpCiAgICAgIH19PC9zcGFuPgogICAgICA8c3BhbiBjbGFzcz0iaGlkZGVuIHNtOmlubGluZSI+e3sKICAgICAgICB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zY2hlZHVsZUF2YWlsYWJpbGl0eSIpCiAgICAgIH19PC9zcGFuPgogICAgPC9CdXR0b24+CiAgICA8QnV0dG9uCiAgICAgIHNpemU9InNtIgogICAgICB2YXJpYW50PSJkZXN0cnVjdGl2ZSIKICAgICAgOmRpc2FibGVkPSJzYXZpbmciCiAgICAgIGNsYXNzPSJoLTEwIHctZnVsbCBqdXN0aWZ5LWNlbnRlciBzbTpoLTggc206dy1hdXRvIgogICAgICBAY2xpY2s9ImVtaXQoJ2RlbGV0ZScpIgogICAgPgogICAgICA8VHJhc2gyIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmRlbGV0ZSIpIH19CiAgICA8L0J1dHRvbj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { CalendarClock, Power, PowerOff, Trash2 } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import type { HostMappingGroup } from "@/types";
+import SubdomainBatchGroupMenu from "./SubdomainBatchGroupMenu.vue";
+
+defineProps<{
+  groups: HostMappingGroup[];
+  saving: boolean;
+  selectedCount: number;
+}>();
+
+const emit = defineEmits<{
+  clear: [];
+  disable: [];
+  enable: [];
+  move: [groupId: string | null];
+  schedule: [];
+  delete: [];
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <div
+    class="grid grid-cols-2 items-center gap-2 rounded-md border bg-muted/35 px-3 py-3 sm:flex sm:flex-wrap sm:gap-3 sm:py-2"
+    role="toolbar"
+    :aria-label="t('admin.subdomainProxy.batchActions')"
+  >
+    <span class="min-w-0 truncate text-sm font-medium">
+      {{
+        t("admin.subdomainProxy.selectedMappingsCount", {
+          count: selectedCount,
+        })
+      }}
+    </span>
+    <Button
+      size="sm"
+      variant="outline"
+      :disabled="saving"
+      class="h-10 w-full justify-center sm:h-8 sm:w-auto"
+      @click="emit('clear')"
+    >
+      {{ t("admin.subdomainProxy.clearSelection") }}
+    </Button>
+    <SubdomainBatchGroupMenu
+      :groups="groups"
+      :saving="saving"
+      @move="emit('move', $event)"
+    />
+    <Button
+      size="sm"
+      variant="outline"
+      :disabled="saving"
+      class="h-10 w-full justify-center sm:h-8 sm:w-auto"
+      @click="emit('enable')"
+    >
+      <Power class="mr-2 h-4 w-4" />
+      {{ t("admin.subdomainProxy.enableMapping") }}
+    </Button>
+    <Button
+      size="sm"
+      variant="outline"
+      :disabled="saving"
+      class="h-10 w-full justify-center sm:h-8 sm:w-auto"
+      @click="emit('disable')"
+    >
+      <PowerOff class="mr-2 h-4 w-4" />
+      {{ t("admin.subdomainProxy.disableMapping") }}
+    </Button>
+    <Button
+      size="sm"
+      variant="outline"
+      :disabled="saving"
+      class="h-10 w-full justify-center sm:h-8 sm:w-auto"
+      @click="emit('schedule')"
+    >
+      <CalendarClock class="mr-2 h-4 w-4" />
+      <span class="sm:hidden">{{
+        t("admin.subdomainProxy.batchSchedule")
+      }}</span>
+      <span class="hidden sm:inline">{{
+        t("admin.subdomainProxy.scheduleAvailability")
+      }}</span>
+    </Button>
+    <Button
+      size="sm"
+      variant="destructive"
+      :disabled="saving"
+      class="h-10 w-full justify-center sm:h-8 sm:w-auto"
+      @click="emit('delete')"
+    >
+      <Trash2 class="mr-2 h-4 w-4" />
+      {{ t("admin.subdomainProxy.delete") }}
+    </Button>
+  </div>
+</template>

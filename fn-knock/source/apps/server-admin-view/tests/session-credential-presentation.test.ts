@@ -1,1 +1,109 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgdGVzdCBmcm9tICJub2RlOnRlc3QiOwoKaW1wb3J0IHsKICBmb3JtYXRTZXNzaW9uQ3JlZGVudGlhbExvZ2luRGV0YWlsLAogIGdldFNlc3Npb25DcmVkZW50aWFsRGlzcGxheU5hbWUsCn0gZnJvbSAiLi4vc3JjL3ZpZXdzL3Nlc3Npb24tbWFuYWdlbWVudC9zZXNzaW9uQ3JlZGVudGlhbFByZXNlbnRhdGlvbiI7Cgpjb25zdCBtZXNzYWdlczogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICAiYWRtaW4uc2Vzc2lvbnMuY3JlZGVudGlhbE1ldGhvZHMudG90cCI6ICJUT1RQIiwKICAiYWRtaW4uc2Vzc2lvbnMuY3JlZGVudGlhbE1ldGhvZHMucGFzc2tleSI6ICJQYXNza2V5IiwKICAiYWRtaW4uc2Vzc2lvbnMuY3JlZGVudGlhbE1ldGhvZHMucGFzc3dvcmQiOiAi5a+G56CBIiwKICAiYWRtaW4uc2Vzc2lvbnMuY3JlZGVudGlhbE1ldGhvZHMub2lkYyI6ICJPSURDIiwKICAiYWRtaW4uc2Vzc2lvbnMuY3JlZGVudGlhbE1ldGhvZHMubGRhcCI6ICJMREFQIiwKfTsKCmNvbnN0IHRyYW5zbGF0ZSA9IChrZXk6IHN0cmluZywgcGFyYW1zPzogUmVjb3JkPHN0cmluZywgc3RyaW5nPikgPT4gewogIGlmIChrZXkgPT09ICJhZG1pbi5zZXNzaW9ucy5jcmVkZW50aWFsRGlzcGxheS5tZXRob2RXaXRoQ3JlZGVudGlhbCIpIHsKICAgIHJldHVybiBgJHtwYXJhbXM/Lm1ldGhvZH3vvJoke3BhcmFtcz8ubmFtZX1gOwogIH0KICBpZiAoa2V5ID09PSAiYWRtaW4uc2Vzc2lvbnMuY3JlZGVudGlhbERpc3BsYXkucmVsYXRpb24iKSB7CiAgICByZXR1cm4gYCR7cGFyYW1zPy5wYXJlbnR9IC8gJHtwYXJhbXM/LmNoaWxkfWA7CiAgfQogIHJldHVybiBtZXNzYWdlc1trZXldIHx8IGtleTsKfTsKCnRlc3QoImxpbmtlZCBUT1RQIG5hbWUgaXMgdGhlIHByaW1hcnkgc2Vzc2lvbiBjcmVkZW50aWFsIG5hbWUiLCAoKSA9PiB7CiAgY29uc3Qgc2Vzc2lvbiA9IHsKICAgIG1ldGhvZDogIlBBU1NLRVkiIGFzIGNvbnN0LAogICAgY3JlZGVudGlhbE5hbWU6ICJtYWNPUyIsCiAgICBsaW5rZWRUb3RwTmFtZTogImFkbWluIG1hYyIsCiAgfTsKCiAgYXNzZXJ0LmVxdWFsKGdldFNlc3Npb25DcmVkZW50aWFsRGlzcGxheU5hbWUoc2Vzc2lvbiksICJhZG1pbiBtYWMiKTsKICBhc3NlcnQuZXF1YWwoCiAgICBmb3JtYXRTZXNzaW9uQ3JlZGVudGlhbExvZ2luRGV0YWlsKHNlc3Npb24sIHRyYW5zbGF0ZSksCiAgICAiVE9UUO+8mmFkbWluIG1hYyAvIFBhc3NrZXnvvJptYWNPUyIsCiAgKTsKfSk7Cgp0ZXN0KCJkaXJlY3QgVE9UUCBzZXNzaW9ucyBzaG93IG9uZSBtZXRob2QgYW5kIGNyZWRlbnRpYWwgcGFpciIsICgpID0+IHsKICBjb25zdCBzZXNzaW9uID0gewogICAgbWV0aG9kOiAiVE9UUCIgYXMgY29uc3QsCiAgICBjcmVkZW50aWFsTmFtZTogImFkbWluIG1hYyIsCiAgfTsKCiAgYXNzZXJ0LmVxdWFsKGdldFNlc3Npb25DcmVkZW50aWFsRGlzcGxheU5hbWUoc2Vzc2lvbiksICJhZG1pbiBtYWMiKTsKICBhc3NlcnQuZXF1YWwoCiAgICBmb3JtYXRTZXNzaW9uQ3JlZGVudGlhbExvZ2luRGV0YWlsKHNlc3Npb24sIHRyYW5zbGF0ZSksCiAgICAiVE9UUO+8mmFkbWluIG1hYyIsCiAgKTsKfSk7Cgp0ZXN0KCJub24tVE9UUCBtZXRob2RzIHByZXNlcnZlIHRoZWlyIGNvbXBsZXRlIGxpbmtlZCBjcmVkZW50aWFsIHJlbGF0aW9uIiwgKCkgPT4gewogIGZvciAoY29uc3QgW21ldGhvZCwgbGFiZWwsIGNoaWxkXSBvZiBbCiAgICBbIlBBU1NXT1JEIiwgIuWvhueggSIsICJhZG1pbiJdLAogICAgWyJPSURDIiwgIk9JREMiLCAi5byg5LiJIl0sCiAgICBbIkxEQVAiLCAiTERBUCIsICJhbGljZSJdLAogIF0gYXMgY29uc3QpIHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgZm9ybWF0U2Vzc2lvbkNyZWRlbnRpYWxMb2dpbkRldGFpbCgKICAgICAgICB7CiAgICAgICAgICBtZXRob2QsCiAgICAgICAgICBjcmVkZW50aWFsTmFtZTogY2hpbGQsCiAgICAgICAgICBsaW5rZWRUb3RwTmFtZTogIuS4u+WHreivgSIsCiAgICAgICAgfSwKICAgICAgICB0cmFuc2xhdGUsCiAgICAgICksCiAgICAgIGBUT1RQ77ya5Li75Yet6K+BIC8gJHtsYWJlbH3vvJoke2NoaWxkfWAsCiAgICApOwogIH0KfSk7Cgp0ZXN0KCJsZWdhY3kgYW5kIGJsYW5rIHNlc3Npb24gbmFtZXMgZmFsbCBiYWNrIHdpdGhvdXQgZW1wdHkgbGFiZWxzIiwgKCkgPT4gewogIGFzc2VydC5lcXVhbCgKICAgIGdldFNlc3Npb25DcmVkZW50aWFsRGlzcGxheU5hbWUoewogICAgICBtZXRob2Q6ICJQQVNTS0VZIiwKICAgICAgY3JlZGVudGlhbE5hbWU6ICIgbWFjT1MgIiwKICAgICAgbGlua2VkVG90cE5hbWU6ICIgICAiLAogICAgfSksCiAgICAibWFjT1MiLAogICk7CiAgYXNzZXJ0LmVxdWFsKAogICAgZm9ybWF0U2Vzc2lvbkNyZWRlbnRpYWxMb2dpbkRldGFpbCgKICAgICAgewogICAgICAgIG1ldGhvZDogIlBBU1NLRVkiLAogICAgICAgIGNyZWRlbnRpYWxOYW1lOiAiIG1hY09TICIsCiAgICAgICAgbGlua2VkVG90cE5hbWU6ICIgICAiLAogICAgICB9LAogICAgICB0cmFuc2xhdGUsCiAgICApLAogICAgIlBhc3NrZXnvvJptYWNPUyIsCiAgKTsKICBhc3NlcnQuZXF1YWwoCiAgICBnZXRTZXNzaW9uQ3JlZGVudGlhbERpc3BsYXlOYW1lKHsKICAgICAgbWV0aG9kOiAiVE9UUCIsCiAgICAgIGNyZWRlbnRpYWxOYW1lOiAiICIsCiAgICAgIGxpbmtlZFRvdHBOYW1lOiAiIiwKICAgIH0pLAogICAgIi0iLAogICk7CiAgYXNzZXJ0LmVxdWFsKAogICAgZm9ybWF0U2Vzc2lvbkNyZWRlbnRpYWxMb2dpbkRldGFpbCgKICAgICAgeyBtZXRob2Q6ICJUT1RQIiwgY3JlZGVudGlhbE5hbWU6ICIiLCBsaW5rZWRUb3RwTmFtZTogIiIgfSwKICAgICAgdHJhbnNsYXRlLAogICAgKSwKICAgICJUT1RQIiwKICApOwp9KTsK
+import assert from "node:assert/strict";
+import test from "node:test";
+
+import {
+  formatSessionCredentialLoginDetail,
+  getSessionCredentialDisplayName,
+} from "../src/views/session-management/sessionCredentialPresentation";
+
+const messages: Record<string, string> = {
+  "admin.sessions.credentialMethods.totp": "TOTP",
+  "admin.sessions.credentialMethods.passkey": "Passkey",
+  "admin.sessions.credentialMethods.password": "密码",
+  "admin.sessions.credentialMethods.oidc": "OIDC",
+  "admin.sessions.credentialMethods.ldap": "LDAP",
+};
+
+const translate = (key: string, params?: Record<string, string>) => {
+  if (key === "admin.sessions.credentialDisplay.methodWithCredential") {
+    return `${params?.method}：${params?.name}`;
+  }
+  if (key === "admin.sessions.credentialDisplay.relation") {
+    return `${params?.parent} / ${params?.child}`;
+  }
+  return messages[key] || key;
+};
+
+test("linked TOTP name is the primary session credential name", () => {
+  const session = {
+    method: "PASSKEY" as const,
+    credentialName: "macOS",
+    linkedTotpName: "admin mac",
+  };
+
+  assert.equal(getSessionCredentialDisplayName(session), "admin mac");
+  assert.equal(
+    formatSessionCredentialLoginDetail(session, translate),
+    "TOTP：admin mac / Passkey：macOS",
+  );
+});
+
+test("direct TOTP sessions show one method and credential pair", () => {
+  const session = {
+    method: "TOTP" as const,
+    credentialName: "admin mac",
+  };
+
+  assert.equal(getSessionCredentialDisplayName(session), "admin mac");
+  assert.equal(
+    formatSessionCredentialLoginDetail(session, translate),
+    "TOTP：admin mac",
+  );
+});
+
+test("non-TOTP methods preserve their complete linked credential relation", () => {
+  for (const [method, label, child] of [
+    ["PASSWORD", "密码", "admin"],
+    ["OIDC", "OIDC", "张三"],
+    ["LDAP", "LDAP", "alice"],
+  ] as const) {
+    assert.equal(
+      formatSessionCredentialLoginDetail(
+        {
+          method,
+          credentialName: child,
+          linkedTotpName: "主凭证",
+        },
+        translate,
+      ),
+      `TOTP：主凭证 / ${label}：${child}`,
+    );
+  }
+});
+
+test("legacy and blank session names fall back without empty labels", () => {
+  assert.equal(
+    getSessionCredentialDisplayName({
+      method: "PASSKEY",
+      credentialName: " macOS ",
+      linkedTotpName: "   ",
+    }),
+    "macOS",
+  );
+  assert.equal(
+    formatSessionCredentialLoginDetail(
+      {
+        method: "PASSKEY",
+        credentialName: " macOS ",
+        linkedTotpName: "   ",
+      },
+      translate,
+    ),
+    "Passkey：macOS",
+  );
+  assert.equal(
+    getSessionCredentialDisplayName({
+      method: "TOTP",
+      credentialName: " ",
+      linkedTotpName: "",
+    }),
+    "-",
+  );
+  assert.equal(
+    formatSessionCredentialLoginDetail(
+      { method: "TOTP", credentialName: "", linkedTotpName: "" },
+      translate,
+    ),
+    "TOTP",
+  );
+});

@@ -1,1 +1,221 @@
-dXNlIHN1cGVyOjoqOwoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gc2V0X2NsZWFyc19leGlzdGluZ190dGwoKSB7CiAgICBsZXQgbXV0IGNvbm4gPSB0ZW1wX21hbmFnZXIoKS5hd2FpdDsKICAgIGNvbm4uc2V0X2V4KCJmbl9rbm9jazp0ZXN0OnN0cmluZyIsICJvbGQiLCA2MCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJzZXQgZXhwaXJpbmcgdmFsdWUiKTsKICAgIGFzc2VydCEoY29ubi50dGwoImZuX2tub2NrOnRlc3Q6c3RyaW5nIikuYXdhaXQuZXhwZWN0KCJyZWFkIHR0bCIpID4gMCk7CgogICAgY29ubi5zZXQoImZuX2tub2NrOnRlc3Q6c3RyaW5nIiwgIm5ldyIpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgib3ZlcndyaXRlIHZhbHVlIik7CiAgICBsZXQgdmFsdWU6IE9wdGlvbjxTdHJpbmc+ID0gY29ubi5nZXQoImZuX2tub2NrOnRlc3Q6c3RyaW5nIikuYXdhaXQuZXhwZWN0KCJyZWFkIHZhbHVlIik7CiAgICBhc3NlcnRfZXEhKHZhbHVlLmFzX2RlcmVmKCksIFNvbWUoIm5ldyIpKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgY29ubi50dGwoImZuX2tub2NrOnRlc3Q6c3RyaW5nIikKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5leHBlY3QoInJlYWQgY2xlYXJlZCB0dGwiKSwKICAgICAgICAtMQogICAgKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gc29ydGVkX3NldF9zY29yZV9ib3VuZHNfZm9sbG93X3JlZGlzX2V4Y2x1c2l2ZV9zeW50YXgoKSB7CiAgICBsZXQgbXV0IGNvbm4gPSB0ZW1wX21hbmFnZXIoKS5hd2FpdDsKICAgIGNvbm4uemFkZCgiZm5fa25vY2s6dGVzdDp6c2V0LWJvdW5kcyIsICJhIiwgMTApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgiemFkZCBhIik7CiAgICBjb25uLnphZGQoImZuX2tub2NrOnRlc3Q6enNldC1ib3VuZHMiLCAiYiIsIDIwKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInphZGQgYiIpOwogICAgY29ubi56YWRkKCJmbl9rbm9jazp0ZXN0OnpzZXQtYm91bmRzIiwgImMiLCAzMCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJ6YWRkIGMiKTsKCiAgICBsZXQgY291bnQ6IGk2NCA9IGNtZCgiWkNPVU5UIikKICAgICAgICAuYXJnKCJmbl9rbm9jazp0ZXN0OnpzZXQtYm91bmRzIikKICAgICAgICAuYXJnKCIxMCIpCiAgICAgICAgLmFyZygiKDMwIikKICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInpjb3VudCBleGNsdXNpdmUgbWF4Iik7CiAgICBhc3NlcnRfZXEhKGNvdW50LCAyKTsKCiAgICBsZXQgbWVtYmVyczogVmVjPFN0cmluZz4gPSBjbWQoIlpSQU5HRUJZU0NPUkUiKQogICAgICAgIC5hcmcoImZuX2tub2NrOnRlc3Q6enNldC1ib3VuZHMiKQogICAgICAgIC5hcmcoIigxMCIpCiAgICAgICAgLmFyZygiMzAiKQogICAgICAgIC5xdWVyeV9hc3luYygmbXV0IGNvbm4pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgienJhbmdlYnlzY29yZSBleGNsdXNpdmUgbWluIik7CiAgICBhc3NlcnRfZXEhKG1lbWJlcnMsIHZlYyFbImIiLnRvX3N0cmluZygpLCAiYyIudG9fc3RyaW5nKCldKTsKCiAgICBsZXQgcmV2ZXJzZV9wYWlyczogVmVjPFN0cmluZz4gPSBjbWQoIlpSRVZSQU5HRUJZU0NPUkUiKQogICAgICAgIC5hcmcoImZuX2tub2NrOnRlc3Q6enNldC1ib3VuZHMiKQogICAgICAgIC5hcmcoIitpbmYiKQogICAgICAgIC5hcmcoIigxMCIpCiAgICAgICAgLmFyZygiV0lUSFNDT1JFUyIpCiAgICAgICAgLmFyZygiTElNSVQiKQogICAgICAgIC5hcmcoMCkKICAgICAgICAuYXJnKDIpCiAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJ6cmV2cmFuZ2VieXNjb3JlIHJldmVyc2Ugc2NvcmUgYm91bmRzIik7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHJldmVyc2VfcGFpcnMsCiAgICAgICAgdmVjIVsKICAgICAgICAgICAgImMiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiMzAiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiYiIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICIyMCIudG9fc3RyaW5nKCksCiAgICAgICAgXQogICAgKTsKCiAgICBsZXQgXzogKCkgPSBjbWQoIlpSRU1SQU5HRUJZU0NPUkUiKQogICAgICAgIC5hcmcoImZuX2tub2NrOnRlc3Q6enNldC1ib3VuZHMiKQogICAgICAgIC5hcmcoIi1pbmYiKQogICAgICAgIC5hcmcoIigyMCIpCiAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJ6cmVtcmFuZ2VieXNjb3JlIGV4Y2x1c2l2ZSBtYXgiKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgY29ubi56cmFuZ2UoImZuX2tub2NrOnRlc3Q6enNldC1ib3VuZHMiLCAwLCAtMSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5leHBlY3QoInpyYW5nZSByZW1haW5pbmciKSwKICAgICAgICB2ZWMhWyJiIi50b19zdHJpbmcoKSwgImMiLnRvX3N0cmluZygpXQogICAgKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gcmFuZ2VzX291dHNpZGVfY29sbGVjdGlvbl9ib3VuZHNfYXJlX2VtcHR5KCkgewogICAgbGV0IG11dCBjb25uID0gdGVtcF9tYW5hZ2VyKCkuYXdhaXQ7CiAgICBsZXQgXzogKCkgPSBjbWQoIlJQVVNIIikKICAgICAgICAuYXJnKCJmbl9rbm9jazp0ZXN0OnJhbmdlLWxpc3QiKQogICAgICAgIC5hcmcodmVjIVsiYSIudG9fc3RyaW5nKCksICJiIi50b19zdHJpbmcoKSwgImMiLnRvX3N0cmluZygpXSkKICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInNlZWQgbGlzdCIpOwogICAgZm9yIChtZW1iZXIsIHNjb3JlKSBpbiBbKCJhIiwgMSksICgiYiIsIDIpLCAoImMiLCAzKV0gewogICAgICAgIGNvbm4uemFkZCgiZm5fa25vY2s6dGVzdDpyYW5nZS16c2V0IiwgbWVtYmVyLCBzY29yZSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5leHBlY3QoInNlZWQgenNldCIpOwogICAgfQoKICAgIGFzc2VydCEoCiAgICAgICAgY29ubi5scmFuZ2UoImZuX2tub2NrOnRlc3Q6cmFuZ2UtbGlzdCIsIDMsIC0xKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgibGlzdCBzdGFydCBhdCBsZW5ndGgiKQogICAgICAgICAgICAuaXNfZW1wdHkoKQogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgY29ubi56cmFuZ2UoImZuX2tub2NrOnRlc3Q6cmFuZ2UtenNldCIsIDQsIDEwKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgienNldCBzdGFydCBiZXlvbmQgbGVuZ3RoIikKICAgICAgICAgICAgLmlzX2VtcHR5KCkKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIGNvbm4ubHJhbmdlKCJmbl9rbm9jazp0ZXN0OnJhbmdlLWxpc3QiLCAwLCAtNCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5leHBlY3QoImxpc3QgZW5kIGJlZm9yZSBmaXJzdCBpdGVtIikKICAgICAgICAgICAgLmlzX2VtcHR5KCkKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGNvbm4uenJhbmdlKCJmbl9rbm9jazp0ZXN0OnJhbmdlLXpzZXQiLCAtMTAwLCAtMSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5leHBlY3QoImxhcmdlIG5lZ2F0aXZlIHN0YXJ0IiksCiAgICAgICAgdmVjIVsiYSIudG9fc3RyaW5nKCksICJiIi50b19zdHJpbmcoKSwgImMiLnRvX3N0cmluZygpXQogICAgKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gZW1wdHlfY29sbGVjdGlvbnNfcmVtb3ZlX3RoZWlyX3JlZGlzX2tleXMoKSB7CiAgICBsZXQgbXV0IGNvbm4gPSB0ZW1wX21hbmFnZXIoKS5hd2FpdDsKCiAgICBjb25uLmhzZXQoImZuX2tub2NrOnRlc3Q6ZW1wdHktaGFzaCIsICJmaWVsZCIsICJ2YWx1ZSIpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgic2VlZCBoYXNoIik7CiAgICBjb25uLmhkZWwoImZuX2tub2NrOnRlc3Q6ZW1wdHktaGFzaCIsICJmaWVsZCIpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgiZW1wdHkgaGFzaCIpOwogICAgYXNzZXJ0X2VxIShjb25uLmV4aXN0cygiZm5fa25vY2s6dGVzdDplbXB0eS1oYXNoIikuYXdhaXQudW53cmFwKCksIDApOwoKICAgIGNvbm4uc2FkZCgiZm5fa25vY2s6dGVzdDplbXB0eS1zZXQiLCAibWVtYmVyIikKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJzZWVkIHNldCIpOwogICAgY29ubi5zcmVtKCJmbl9rbm9jazp0ZXN0OmVtcHR5LXNldCIsICJtZW1iZXIiKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoImVtcHR5IHNldCIpOwogICAgYXNzZXJ0X2VxIShjb25uLmV4aXN0cygiZm5fa25vY2s6dGVzdDplbXB0eS1zZXQiKS5hd2FpdC51bndyYXAoKSwgMCk7CgogICAgY29ubi56YWRkKCJmbl9rbm9jazp0ZXN0OmVtcHR5LXpzZXQiLCAibWVtYmVyIiwgMSkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJzZWVkIHpzZXQiKTsKICAgIGxldCBfOiAoKSA9IGNtZCgiWlJFTVJBTkdFQllTQ09SRSIpCiAgICAgICAgLmFyZygiZm5fa25vY2s6dGVzdDplbXB0eS16c2V0IikKICAgICAgICAuYXJnKCItaW5mIikKICAgICAgICAuYXJnKCIraW5mIikKICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoImVtcHR5IHpzZXQiKTsKICAgIGFzc2VydF9lcSEoY29ubi5leGlzdHMoImZuX2tub2NrOnRlc3Q6ZW1wdHktenNldCIpLmF3YWl0LnVud3JhcCgpLCAwKTsKCiAgICBsZXQgXzogKCkgPSBjbWQoIlJQVVNIIikKICAgICAgICAuYXJnKCJmbl9rbm9jazp0ZXN0OmVtcHR5LWxpc3QiKQogICAgICAgIC5hcmcoInZhbHVlIikKICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInNlZWQgbGlzdCIpOwogICAgbGV0IF86ICgpID0gY21kKCJMVFJJTSIpCiAgICAgICAgLmFyZygiZm5fa25vY2s6dGVzdDplbXB0eS1saXN0IikKICAgICAgICAuYXJnKDEpCiAgICAgICAgLmFyZygwKQogICAgICAgIC5xdWVyeV9hc3luYygmbXV0IGNvbm4pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgiZW1wdHkgbGlzdCIpOwogICAgYXNzZXJ0X2VxIShjb25uLmV4aXN0cygiZm5fa25vY2s6dGVzdDplbXB0eS1saXN0IikuYXdhaXQudW53cmFwKCksIDApOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBhbmFseXRpY3NfYmF0Y2hfZXhjbHVkZXNfa2V5c190aGF0X2V4cGlyZV93aGlsZV93YWl0aW5nX2Zvcl9hZG1pc3Npb24oKSB7CiAgICBsZXQgY29ubiA9IHRlbXBfbWFuYWdlcigpLmF3YWl0OwogICAgbGV0IGtleSA9ICJmbl9rbm9jazp0ZXN0OmFuYWx5dGljcy1xdWV1ZWQtZXhwaXJ5IjsKICAgIGxldCBleHBpcmVzX2F0ID0gbm93X21zKCkgKyAxMDA7CiAgICBjb25uLmNhbGwobW92ZSB8Y29ubmVjdGlvbnwgewogICAgICAgIGxldCB0eCA9IGltbWVkaWF0ZV90cmFuc2FjdGlvbihjb25uZWN0aW9uKT87CiAgICAgICAgc2V0X3N0cmluZ190eCgmdHgsIGtleSwgImNhY2hlZCIsIFNvbWUoZXhwaXJlc19hdCkpPzsKICAgICAgICB0eC5jb21taXQoKT87CiAgICAgICAgT2soKCkpCiAgICB9KQogICAgLmF3YWl0CiAgICAudW53cmFwKCk7CiAgICBsZXQgcGVybWl0ID0gY29ubgogICAgICAgIC5hbmFseXRpY3NfYWRtaXNzaW9uCiAgICAgICAgLmNsb25lKCkKICAgICAgICAuYWNxdWlyZV9vd25lZCgpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgbGV0IHJlYWQgPSBjb25uLmdldF9saXZlX3N0cmluZ3NfYW5hbHl0aWNzKHZlYyFba2V5LnRvX3N0cmluZygpXSk7CiAgICB0b2tpbzo6cGluIShyZWFkKTsKICAgIHRva2lvOjpzZWxlY3QhIHsKICAgICAgICBfID0gJm11dCByZWFkID0+IHBhbmljISgiYW5hbHl0aWNzIGFkbWlzc2lvbiBzaG91bGQgc3RpbGwgYmUgb2NjdXBpZWQiKSwKICAgICAgICBfID0gdG9raW86OnRpbWU6OnNsZWVwKHN0ZDo6dGltZTo6RHVyYXRpb246OmZyb21fbWlsbGlzKDE1MCkpID0+IHt9CiAgICB9CiAgICBhc3NlcnQhKG5vd19tcygpID49IGV4cGlyZXNfYXQpOwogICAgZHJvcChwZXJtaXQpOwogICAgYXNzZXJ0X2VxIShyZWFkLmF3YWl0LnVud3JhcCgpLCB2ZWMhW05vbmVdKTsKICAgIGxldCBzdGlsbF9leGlzdHMgPSBjb25uCiAgICAgICAgLmNhbGwobW92ZSB8Y29ubmVjdGlvbnwgewogICAgICAgICAgICBjb25uZWN0aW9uCiAgICAgICAgICAgICAgICAucXVlcnlfcm93KAogICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgRVhJU1RTKFNFTEVDVCAxIEZST00ga3Zfa2V5cyBXSEVSRSBrZXkgPSA/MSkiLAogICAgICAgICAgICAgICAgICAgIFtrZXldLAogICAgICAgICAgICAgICAgICAgIHxyb3d8IHJvdy5nZXQ6OjxfLCBib29sPigwKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIC5tYXBfZXJyKEludG86OmludG8pCiAgICAgICAgfSkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBhc3NlcnQhKHN0aWxsX2V4aXN0cywgImFuYWx5dGljcyByZWFkcyBtdXN0IHJlbWFpbiByZWFkLW9ubHkiKTsKfQo=
+use super::*;
+
+#[tokio::test]
+async fn set_clears_existing_ttl() {
+    let mut conn = temp_manager().await;
+    conn.set_ex("fn_knock:test:string", "old", 60)
+        .await
+        .expect("set expiring value");
+    assert!(conn.ttl("fn_knock:test:string").await.expect("read ttl") > 0);
+
+    conn.set("fn_knock:test:string", "new")
+        .await
+        .expect("overwrite value");
+    let value: Option<String> = conn.get("fn_knock:test:string").await.expect("read value");
+    assert_eq!(value.as_deref(), Some("new"));
+    assert_eq!(
+        conn.ttl("fn_knock:test:string")
+            .await
+            .expect("read cleared ttl"),
+        -1
+    );
+}
+
+#[tokio::test]
+async fn sorted_set_score_bounds_follow_redis_exclusive_syntax() {
+    let mut conn = temp_manager().await;
+    conn.zadd("fn_knock:test:zset-bounds", "a", 10)
+        .await
+        .expect("zadd a");
+    conn.zadd("fn_knock:test:zset-bounds", "b", 20)
+        .await
+        .expect("zadd b");
+    conn.zadd("fn_knock:test:zset-bounds", "c", 30)
+        .await
+        .expect("zadd c");
+
+    let count: i64 = cmd("ZCOUNT")
+        .arg("fn_knock:test:zset-bounds")
+        .arg("10")
+        .arg("(30")
+        .query_async(&mut conn)
+        .await
+        .expect("zcount exclusive max");
+    assert_eq!(count, 2);
+
+    let members: Vec<String> = cmd("ZRANGEBYSCORE")
+        .arg("fn_knock:test:zset-bounds")
+        .arg("(10")
+        .arg("30")
+        .query_async(&mut conn)
+        .await
+        .expect("zrangebyscore exclusive min");
+    assert_eq!(members, vec!["b".to_string(), "c".to_string()]);
+
+    let reverse_pairs: Vec<String> = cmd("ZREVRANGEBYSCORE")
+        .arg("fn_knock:test:zset-bounds")
+        .arg("+inf")
+        .arg("(10")
+        .arg("WITHSCORES")
+        .arg("LIMIT")
+        .arg(0)
+        .arg(2)
+        .query_async(&mut conn)
+        .await
+        .expect("zrevrangebyscore reverse score bounds");
+    assert_eq!(
+        reverse_pairs,
+        vec![
+            "c".to_string(),
+            "30".to_string(),
+            "b".to_string(),
+            "20".to_string(),
+        ]
+    );
+
+    let _: () = cmd("ZREMRANGEBYSCORE")
+        .arg("fn_knock:test:zset-bounds")
+        .arg("-inf")
+        .arg("(20")
+        .query_async(&mut conn)
+        .await
+        .expect("zremrangebyscore exclusive max");
+    assert_eq!(
+        conn.zrange("fn_knock:test:zset-bounds", 0, -1)
+            .await
+            .expect("zrange remaining"),
+        vec!["b".to_string(), "c".to_string()]
+    );
+}
+
+#[tokio::test]
+async fn ranges_outside_collection_bounds_are_empty() {
+    let mut conn = temp_manager().await;
+    let _: () = cmd("RPUSH")
+        .arg("fn_knock:test:range-list")
+        .arg(vec!["a".to_string(), "b".to_string(), "c".to_string()])
+        .query_async(&mut conn)
+        .await
+        .expect("seed list");
+    for (member, score) in [("a", 1), ("b", 2), ("c", 3)] {
+        conn.zadd("fn_knock:test:range-zset", member, score)
+            .await
+            .expect("seed zset");
+    }
+
+    assert!(
+        conn.lrange("fn_knock:test:range-list", 3, -1)
+            .await
+            .expect("list start at length")
+            .is_empty()
+    );
+    assert!(
+        conn.zrange("fn_knock:test:range-zset", 4, 10)
+            .await
+            .expect("zset start beyond length")
+            .is_empty()
+    );
+    assert!(
+        conn.lrange("fn_knock:test:range-list", 0, -4)
+            .await
+            .expect("list end before first item")
+            .is_empty()
+    );
+    assert_eq!(
+        conn.zrange("fn_knock:test:range-zset", -100, -1)
+            .await
+            .expect("large negative start"),
+        vec!["a".to_string(), "b".to_string(), "c".to_string()]
+    );
+}
+
+#[tokio::test]
+async fn empty_collections_remove_their_redis_keys() {
+    let mut conn = temp_manager().await;
+
+    conn.hset("fn_knock:test:empty-hash", "field", "value")
+        .await
+        .expect("seed hash");
+    conn.hdel("fn_knock:test:empty-hash", "field")
+        .await
+        .expect("empty hash");
+    assert_eq!(conn.exists("fn_knock:test:empty-hash").await.unwrap(), 0);
+
+    conn.sadd("fn_knock:test:empty-set", "member")
+        .await
+        .expect("seed set");
+    conn.srem("fn_knock:test:empty-set", "member")
+        .await
+        .expect("empty set");
+    assert_eq!(conn.exists("fn_knock:test:empty-set").await.unwrap(), 0);
+
+    conn.zadd("fn_knock:test:empty-zset", "member", 1)
+        .await
+        .expect("seed zset");
+    let _: () = cmd("ZREMRANGEBYSCORE")
+        .arg("fn_knock:test:empty-zset")
+        .arg("-inf")
+        .arg("+inf")
+        .query_async(&mut conn)
+        .await
+        .expect("empty zset");
+    assert_eq!(conn.exists("fn_knock:test:empty-zset").await.unwrap(), 0);
+
+    let _: () = cmd("RPUSH")
+        .arg("fn_knock:test:empty-list")
+        .arg("value")
+        .query_async(&mut conn)
+        .await
+        .expect("seed list");
+    let _: () = cmd("LTRIM")
+        .arg("fn_knock:test:empty-list")
+        .arg(1)
+        .arg(0)
+        .query_async(&mut conn)
+        .await
+        .expect("empty list");
+    assert_eq!(conn.exists("fn_knock:test:empty-list").await.unwrap(), 0);
+}
+
+#[tokio::test]
+async fn analytics_batch_excludes_keys_that_expire_while_waiting_for_admission() {
+    let conn = temp_manager().await;
+    let key = "fn_knock:test:analytics-queued-expiry";
+    let expires_at = now_ms() + 100;
+    conn.call(move |connection| {
+        let tx = immediate_transaction(connection)?;
+        set_string_tx(&tx, key, "cached", Some(expires_at))?;
+        tx.commit()?;
+        Ok(())
+    })
+    .await
+    .unwrap();
+    let permit = conn
+        .analytics_admission
+        .clone()
+        .acquire_owned()
+        .await
+        .unwrap();
+    let read = conn.get_live_strings_analytics(vec![key.to_string()]);
+    tokio::pin!(read);
+    tokio::select! {
+        _ = &mut read => panic!("analytics admission should still be occupied"),
+        _ = tokio::time::sleep(std::time::Duration::from_millis(150)) => {}
+    }
+    assert!(now_ms() >= expires_at);
+    drop(permit);
+    assert_eq!(read.await.unwrap(), vec![None]);
+    let still_exists = conn
+        .call(move |connection| {
+            connection
+                .query_row(
+                    "SELECT EXISTS(SELECT 1 FROM kv_keys WHERE key = ?1)",
+                    [key],
+                    |row| row.get::<_, bool>(0),
+                )
+                .map_err(Into::into)
+        })
+        .await
+        .unwrap();
+    assert!(still_exists, "analytics reads must remain read-only");
+}

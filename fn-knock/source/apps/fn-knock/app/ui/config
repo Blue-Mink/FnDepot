@@ -1,1 +1,18 @@
-ewogICIudXJsIjogewogICAgImZuLWtub2NrLkFwcGxpY2F0aW9uIjogewogICAgICAibm9EaXNwbGF5IjogZmFsc2UsCiAgICAgICJhbGxVc2VycyI6IGZhbHNlLAogICAgICAiZmlsZVR5cGVzIjogW10sCiAgICAgICJjb250cm9sIjogewogICAgICAgICJhY2Nlc3NQZXJtIjogInJlYWRvbmx5IgogICAgICB9LAogICAgICAicHJvdG9jb2wiOiAiaHR0cCIsCiAgICAgICJ0aXRsZSI6ICLmlbLpl6hrbm9jayIsCiAgICAgICJpY29uIjogImltYWdlcy9JQ09OLlBORyIsCiAgICAgICJ0eXBlIjogImlmcmFtZSIsCgogICAgICAidXJsIjogIi9jZ2kvVGhpcmRQYXJ0eS9mbi1rbm9jay9pbmRleC5jZ2kvIgogICAgfQogIH0KfQo=
+{
+  ".url": {
+    "fn-knock.Application": {
+      "noDisplay": false,
+      "allUsers": false,
+      "fileTypes": [],
+      "control": {
+        "accessPerm": "readonly"
+      },
+      "protocol": "http",
+      "title": "敲门knock",
+      "icon": "images/ICON.PNG",
+      "type": "iframe",
+
+      "url": "/cgi/ThirdParty/fn-knock/index.cgi/"
+    }
+  }
+}

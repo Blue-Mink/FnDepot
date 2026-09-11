@@ -1,1 +1,14 @@
-IyEvYmluL3NoCnNldCAtZQoKWyAtbiAiJElQS0dfSU5TVFJPT1QiIF0gJiYgZXhpdCAwCgppZiBbIC14IC9ldGMvaW5pdC5kL2ZuLWtub2NrIF07IHRoZW4KCWlmICEgL2V0Yy9pbml0LmQvZm4ta25vY2sgc3RvcCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KCQllY2hvICJmbi1rbm9jazogZmFpbGVkIHRvIHN0b3Agc2VydmljZTsgcmVmdXNpbmcgdG8gcmVtb3ZlIG9yIHVwZ3JhZGUgcGFja2FnZSIgPiYyCgkJZXhpdCAxCglmaQoJL2V0Yy9pbml0LmQvZm4ta25vY2sgZGlzYWJsZSA+L2Rldi9udWxsIDI+JjEgfHwgdHJ1ZQpmaQoKZXhpdCAwCg==
+#!/bin/sh
+set -e
+
+[ -n "$IPKG_INSTROOT" ] && exit 0
+
+if [ -x /etc/init.d/fn-knock ]; then
+	if ! /etc/init.d/fn-knock stop >/dev/null 2>&1; then
+		echo "fn-knock: failed to stop service; refusing to remove or upgrade package" >&2
+		exit 1
+	fi
+	/etc/init.d/fn-knock disable >/dev/null 2>&1 || true
+fi
+
+exit 0

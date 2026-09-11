@@ -1,1 +1,22 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgVGFnc0lucHV0SXRlbURlbGV0ZVByb3BzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHR5cGUgeyBIVE1MQXR0cmlidXRlcyB9IGZyb20gInZ1ZSIKaW1wb3J0IHsgcmVhY3RpdmVPbWl0IH0gZnJvbSAiQHZ1ZXVzZS9jb3JlIgppbXBvcnQgeyBYIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IgppbXBvcnQgeyBUYWdzSW5wdXRJdGVtRGVsZXRlLCB1c2VGb3J3YXJkUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxUYWdzSW5wdXRJdGVtRGVsZXRlUHJvcHMgJiB7IGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0gfT4oKQoKY29uc3QgZGVsZWdhdGVkUHJvcHMgPSByZWFjdGl2ZU9taXQocHJvcHMsICJjbGFzcyIpCgpjb25zdCBmb3J3YXJkZWRQcm9wcyA9IHVzZUZvcndhcmRQcm9wcyhkZWxlZ2F0ZWRQcm9wcykKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFRhZ3NJbnB1dEl0ZW1EZWxldGUgdi1iaW5kPSJmb3J3YXJkZWRQcm9wcyIgOmNsYXNzPSJjbignZmxleCByb3VuZGVkIGJnLXRyYW5zcGFyZW50IG1yLTEnLCBwcm9wcy5jbGFzcykiPgogICAgPHNsb3Q+CiAgICAgIDxYIGNsYXNzPSJ3LTQgaC00IiAvPgogICAgPC9zbG90PgogIDwvVGFnc0lucHV0SXRlbURlbGV0ZT4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { TagsInputItemDeleteProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { X } from "lucide-vue-next"
+import { TagsInputItemDelete, useForwardProps } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<TagsInputItemDeleteProps & { class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwardedProps = useForwardProps(delegatedProps)
+</script>
+
+<template>
+  <TagsInputItemDelete v-bind="forwardedProps" :class="cn('flex rounded bg-transparent mr-1', props.class)">
+    <slot>
+      <X class="w-4 h-4" />
+    </slot>
+  </TagsInputItemDelete>
+</template>

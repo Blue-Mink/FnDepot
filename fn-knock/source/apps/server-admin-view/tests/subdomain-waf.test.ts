@@ -1,1 +1,55 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CgppbXBvcnQgewogIGNyZWF0ZURlZmF1bHRNYXBwaW5nLAogIG5vcm1hbGl6ZU1hcHBpbmdGb3JtLAp9IGZyb20gIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvbW9kZWwiOwppbXBvcnQgeyB0b0hvc3RNYXBwaW5nVXBkYXRlUGF5bG9hZCB9IGZyb20gIi4uL3NyYy9saWIvYXBpL2hvc3QtbWFwcGluZy1wYXlsb2FkIjsKCmRlc2NyaWJlKCJzdWJkb21haW4gV0FGIG1hcHBpbmcgc3RhdGUiLCAoKSA9PiB7CiAgaXQoImRlZmF1bHRzIG5ldyBtYXBwaW5ncyB0byBXQUYgZW5hYmxlZCIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbChjcmVhdGVEZWZhdWx0TWFwcGluZygpLndhZl9lbmFibGVkLCB0cnVlKTsKICB9KTsKCiAgaXQoInByZXNlcnZlcyBhIGJ1c2luZXNzLXN1YmRvbWFpbiBleGNlcHRpb24iLCAoKSA9PiB7CiAgICBjb25zdCBtYXBwaW5nID0gY3JlYXRlRGVmYXVsdE1hcHBpbmcoKTsKICAgIG1hcHBpbmcudGFyZ2V0ID0gImh0dHA6Ly8xMjcuMC4wLjE6ODA4MCI7CiAgICBtYXBwaW5nLndhZl9lbmFibGVkID0gZmFsc2U7CgogICAgY29uc3Qgbm9ybWFsaXplZCA9IG5vcm1hbGl6ZU1hcHBpbmdGb3JtKG1hcHBpbmcsIHsKICAgICAgaGFzRnJlc2hGYXZpY29uTWV0YWRhdGE6IGZhbHNlLAogICAgICBoYXNGcmVzaFRpdGxlTWV0YWRhdGE6IGZhbHNlLAogICAgICBob3N0OiAiYXBwLmV4YW1wbGUuY29tIiwKICAgICAgaXNBdXRoU2VydmljZVRhcmdldDogKCkgPT4gZmFsc2UsCiAgICAgIGlzV2ViU29ja2V0VGFyZ2V0OiAoKSA9PiBmYWxzZSwKICAgIH0pOwoKICAgIGFzc2VydC5lcXVhbChub3JtYWxpemVkLndhZl9lbmFibGVkLCBmYWxzZSk7CiAgfSk7CgogIGl0KCJmb3JjZXMgYXV0aGVudGljYXRpb24tc2VydmljZSBtYXBwaW5ncyB0byBpbmhlcml0IGdsb2JhbCBXQUYiLCAoKSA9PiB7CiAgICBjb25zdCBtYXBwaW5nID0gY3JlYXRlRGVmYXVsdE1hcHBpbmcoKTsKICAgIG1hcHBpbmcudGFyZ2V0ID0gImh0dHA6Ly8xMjcuMC4wLjE6Nzk5NyI7CiAgICBtYXBwaW5nLndhZl9lbmFibGVkID0gZmFsc2U7CgogICAgY29uc3Qgbm9ybWFsaXplZCA9IG5vcm1hbGl6ZU1hcHBpbmdGb3JtKG1hcHBpbmcsIHsKICAgICAgaGFzRnJlc2hGYXZpY29uTWV0YWRhdGE6IGZhbHNlLAogICAgICBoYXNGcmVzaFRpdGxlTWV0YWRhdGE6IGZhbHNlLAogICAgICBob3N0OiAiYXV0aC5leGFtcGxlLmNvbSIsCiAgICAgIGlzQXV0aFNlcnZpY2VUYXJnZXQ6ICgpID0+IHRydWUsCiAgICAgIGlzV2ViU29ja2V0VGFyZ2V0OiAoKSA9PiBmYWxzZSwKICAgIH0pOwoKICAgIGFzc2VydC5lcXVhbChub3JtYWxpemVkLndhZl9lbmFibGVkLCB0cnVlKTsKICB9KTsKCiAgaXQoImluY2x1ZGVzIHRoZSBXQUYgZGVjbGFyYXRpb24gaW4gdXBkYXRlIHBheWxvYWRzIiwgKCkgPT4gewogICAgY29uc3QgbWFwcGluZyA9IGNyZWF0ZURlZmF1bHRNYXBwaW5nKCk7CiAgICBtYXBwaW5nLndhZl9lbmFibGVkID0gZmFsc2U7CgogICAgYXNzZXJ0LmVxdWFsKHRvSG9zdE1hcHBpbmdVcGRhdGVQYXlsb2FkKG1hcHBpbmcpLndhZl9lbmFibGVkLCBmYWxzZSk7CiAgfSk7Cn0pOwo=
+/// <reference types="node" />
+
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
+
+import {
+  createDefaultMapping,
+  normalizeMappingForm,
+} from "../src/views/subdomain-proxy/model";
+import { toHostMappingUpdatePayload } from "../src/lib/api/host-mapping-payload";
+
+describe("subdomain WAF mapping state", () => {
+  it("defaults new mappings to WAF enabled", () => {
+    assert.equal(createDefaultMapping().waf_enabled, true);
+  });
+
+  it("preserves a business-subdomain exception", () => {
+    const mapping = createDefaultMapping();
+    mapping.target = "http://127.0.0.1:8080";
+    mapping.waf_enabled = false;
+
+    const normalized = normalizeMappingForm(mapping, {
+      hasFreshFaviconMetadata: false,
+      hasFreshTitleMetadata: false,
+      host: "app.example.com",
+      isAuthServiceTarget: () => false,
+      isWebSocketTarget: () => false,
+    });
+
+    assert.equal(normalized.waf_enabled, false);
+  });
+
+  it("forces authentication-service mappings to inherit global WAF", () => {
+    const mapping = createDefaultMapping();
+    mapping.target = "http://127.0.0.1:7997";
+    mapping.waf_enabled = false;
+
+    const normalized = normalizeMappingForm(mapping, {
+      hasFreshFaviconMetadata: false,
+      hasFreshTitleMetadata: false,
+      host: "auth.example.com",
+      isAuthServiceTarget: () => true,
+      isWebSocketTarget: () => false,
+    });
+
+    assert.equal(normalized.waf_enabled, true);
+  });
+
+  it("includes the WAF declaration in update payloads", () => {
+    const mapping = createDefaultMapping();
+    mapping.waf_enabled = false;
+
+    assert.equal(toHostMappingUpdatePayload(mapping).waf_enabled, false);
+  });
+});

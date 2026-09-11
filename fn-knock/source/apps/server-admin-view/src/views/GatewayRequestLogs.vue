@@ -1,1 +1,243 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tICJ2dWUtcm91dGVyIjsKaW1wb3J0IERldGFpbERpYWxvZyBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0RldGFpbERpYWxvZy52dWUiOwppbXBvcnQgRGV0YWlsRmllbGRzR3JpZCBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0RldGFpbEZpZWxkc0dyaWQudnVlIjsKaW1wb3J0IHR5cGUgeyBHYXRld2F5TG9nRW50cnkgfSBmcm9tICIuLi90eXBlcyI7CmltcG9ydCBHYXRld2F5UmVxdWVzdExvZ3NBY3Rpb25zIGZyb20gIi4vZ2F0ZXdheS1yZXF1ZXN0LWxvZ3MvR2F0ZXdheVJlcXVlc3RMb2dzQWN0aW9ucy52dWUiOwppbXBvcnQgR2F0ZXdheVJlcXVlc3RMb2dzRmlsdGVycyBmcm9tICIuL2dhdGV3YXktcmVxdWVzdC1sb2dzL0dhdGV3YXlSZXF1ZXN0TG9nc0ZpbHRlcnMudnVlIjsKaW1wb3J0IEdhdGV3YXlSZXF1ZXN0TG9nc1BhZ2luYXRpb24gZnJvbSAiLi9nYXRld2F5LXJlcXVlc3QtbG9ncy9HYXRld2F5UmVxdWVzdExvZ3NQYWdpbmF0aW9uLnZ1ZSI7CmltcG9ydCBHYXRld2F5UmVxdWVzdExvZ3NUYWJsZSBmcm9tICIuL2dhdGV3YXktcmVxdWVzdC1sb2dzL0dhdGV3YXlSZXF1ZXN0TG9nc1RhYmxlLnZ1ZSI7CmltcG9ydCB7CiAgYnVpbGRHYXRld2F5TG9nRGV0YWlsQ29weVRleHQsCiAgYnVpbGRHYXRld2F5TG9nRGV0YWlsSXRlbXMsCiAgYnVpbGRHYXRld2F5TG9nU2VsZWN0aW9uS2V5LAogIGdldEVudHJ5QWN0aW9uSXAsCiAgZ2V0RW50cnlDbGllbnRJcCwKfSBmcm9tICIuL2dhdGV3YXktcmVxdWVzdC1sb2dzL21vZGVsIjsKaW1wb3J0IHsgdXNlR2F0ZXdheUxvZ0lwU2VsZWN0aW9uIH0gZnJvbSAiLi9nYXRld2F5LXJlcXVlc3QtbG9ncy91c2VHYXRld2F5TG9nSXBTZWxlY3Rpb24iOwppbXBvcnQgeyB1c2VHYXRld2F5UmVxdWVzdExvZ3NSZXNvdXJjZSB9IGZyb20gIi4vZ2F0ZXdheS1yZXF1ZXN0LWxvZ3MvdXNlR2F0ZXdheVJlcXVlc3RMb2dzUmVzb3VyY2UiOwppbXBvcnQgVHJhY2VJZExpbmsgZnJvbSAiQC9jb21wb25lbnRzL1RyYWNlSWRMaW5rLnZ1ZSI7Cgpjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTsKY29uc3QgeyB0LCBsb2NhbGUgfSA9IHVzZUkxOG4oKTsKY29uc3QgaXNEZXRhaWxzT3BlbiA9IHJlZihmYWxzZSk7CmNvbnN0IGFjdGl2ZUVudHJ5ID0gcmVmPEdhdGV3YXlMb2dFbnRyeSB8IG51bGw+KG51bGwpOwpjb25zdCB7CiAgYWN0aXZlQ3JlZGVudGlhbExhYmVsLAogIGFjdGl2ZUxvZ2dlZEluTGFiZWwsCiAgYWN0aXZlU3RhdHVzTGFiZWwsCiAgYWN0aXZlV0FGU3RhdHVzTGFiZWwsCiAgYXZhaWxhYmxlRGF0ZXMsCiAgY2FuTG9hZE5ld2VyLAogIGNhbkxvYWRPbGRlciwKICBjcmVkZW50aWFsRmlsdGVyT3B0aW9ucywKICBjdXJyZW50Q3Vyc29yLAogIGN1cnNvclBhZ2VMYWJlbCwKICBkZWxldGVTZWxlY3RlZERhdGUsCiAgZW50cmllcywKICBnZXRTbmFwc2hvdCwKICBoYW5kbGVDcmVkZW50aWFsQ2hhbmdlLAogIGhhbmRsZURhdGVDaGFuZ2UsCiAgaGFuZGxlTGltaXRDaGFuZ2UsCiAgaGFuZGxlTG9hZEZpcnN0LAogIGhhbmRsZUxvYWROZXdlciwKICBoYW5kbGVMb2FkT2xkZXIsCiAgaGFuZGxlTG9nZ2VkSW5DaGFuZ2UsCiAgaGFuZGxlU2VhcmNoLAogIGhhbmRsZVN0YXR1c0NoYW5nZSwKICBoYW5kbGVXQUZTdGF0dXNDaGFuZ2UsCiAgaXNEZWxldGluZywKICBsaW1pdCwKICBsb2FkaW5nLAogIGxvZ3NEaXIsCiAgcmVmcmVzaEFsbCwKICBzZWFyY2hRdWVyeSwKICBzZWxlY3RlZENyZWRlbnRpYWwsCiAgc2VsZWN0ZWREYXRlLAogIHNlbGVjdGVkTG9nZ2VkSW4sCiAgc2VsZWN0ZWRMb2dFbnRyeUtleXMsCiAgc2VsZWN0ZWRTdGF0dXMsCiAgc2VsZWN0ZWRXQUZTdGF0dXMsCiAgc2hvdWxkRmxvYXRQYWdpbmF0aW9uLAogIHNob3dUYWJsZVNrZWxldG9uLAp9ID0gdXNlR2F0ZXdheVJlcXVlc3RMb2dzUmVzb3VyY2UoKTsKCmNvbnN0IHZpZXdEZXRhaWxzID0gKGVudHJ5OiBHYXRld2F5TG9nRW50cnkpID0+IHsKICBhY3RpdmVFbnRyeS52YWx1ZSA9IGVudHJ5OwogIGlzRGV0YWlsc09wZW4udmFsdWUgPSB0cnVlOwp9Owpjb25zdCBnb1RvV0FGVHJhY2UgPSAodHJhY2VJZD86IHN0cmluZykgPT4gewogIGlmICghdHJhY2VJZCkgcmV0dXJuOwogIHJvdXRlci5wdXNoKGAvdHJhY2VzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KHRyYWNlSWQpfWApOwp9Owpjb25zdCBnZXRFbnRyeVNlbGVjdGlvbktleSA9IChlbnRyeTogR2F0ZXdheUxvZ0VudHJ5LCBpbmRleDogbnVtYmVyKSA9PgogIGJ1aWxkR2F0ZXdheUxvZ1NlbGVjdGlvbktleShlbnRyeSwgaW5kZXgsIGN1cnJlbnRDdXJzb3IudmFsdWUpOwpjb25zdCBnZXRFbnRyeUlwU25hcHNob3QgPSAoZW50cnk6IEdhdGV3YXlMb2dFbnRyeSkgPT4KICBnZXRTbmFwc2hvdChnZXRFbnRyeUNsaWVudElwKGVudHJ5KSk7CmNvbnN0IGdldEVudHJ5SXBMb2NhdGlvbiA9IChlbnRyeTogR2F0ZXdheUxvZ0VudHJ5KSA9PgogIGdldEVudHJ5SXBTbmFwc2hvdChlbnRyeSk/LmxvY2F0aW9uIHx8IGVudHJ5LmlwTG9jYXRpb24gfHwgIiI7CmNvbnN0IGdldEVudHJ5SXBMb2NhdGlvblRleHQgPSAoZW50cnk6IEdhdGV3YXlMb2dFbnRyeSkgPT4gewogIGNvbnN0IHNuYXBzaG90ID0gZ2V0RW50cnlJcFNuYXBzaG90KGVudHJ5KTsKICBjb25zdCBsb2NhdGlvbiA9IHNuYXBzaG90Py5sb2NhdGlvbiB8fCBlbnRyeS5pcExvY2F0aW9uIHx8ICIiOwogIGlmIChsb2NhdGlvbikgcmV0dXJuIGxvY2F0aW9uOwogIGlmIChzbmFwc2hvdD8uc3RhdHVzID09PSAicXVldWVkIiB8fCBzbmFwc2hvdD8uc3RhdHVzID09PSAicHJvY2Vzc2luZyIpIHsKICAgIHJldHVybiB0KCJhZG1pbi5ob3N0QWN0aXZlSXBzLnJlc29sdmluZyIpOwogIH0KICBpZiAoc25hcHNob3Q/LnN0YXR1cyA9PT0gImZhaWxlZCIpIHsKICAgIHJldHVybiB0KCJhZG1pbi5ob3N0QWN0aXZlSXBzLnVuYXZhaWxhYmxlIik7CiAgfQogIHJldHVybiAiIjsKfTsKY29uc3QgZ2V0Q29ubmVjdGlvblNvdXJjZVRleHQgPSAoZW50cnk6IEdhdGV3YXlMb2dFbnRyeSkgPT4gewogIGNvbnN0IGNsaWVudElwID0gZ2V0RW50cnlDbGllbnRJcChlbnRyeSk7CiAgY29uc3QgcmVtb3RlSXAgPSBlbnRyeS5yZW1vdGVfaXAgfHwgIiI7CiAgaWYgKCFyZW1vdGVJcCB8fCByZW1vdGVJcCA9PT0gY2xpZW50SXApIHJldHVybiAiIjsKICByZXR1cm4gdCgiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmNvbm5lY3Rpb25Tb3VyY2UiLCB7IGlwOiByZW1vdGVJcCB9KTsKfTsKY29uc3QgZGlzcGxheWVkRW50cmllcyA9IGNvbXB1dGVkKCgpID0+CiAgZW50cmllcy52YWx1ZS5tYXAoKGVudHJ5LCBpbmRleCkgPT4gKHsKICAgIC4uLmVudHJ5LAogICAgY2xpZW50X2lwOiBnZXRFbnRyeUNsaWVudElwKGVudHJ5KSwKICAgIGlwTG9jYXRpb246IGdldEVudHJ5SXBMb2NhdGlvbihlbnRyeSksCiAgICBhY3Rpb25JcDogZ2V0RW50cnlBY3Rpb25JcChlbnRyeSksCiAgICBzZWxlY3Rpb25LZXk6IGdldEVudHJ5U2VsZWN0aW9uS2V5KGVudHJ5LCBpbmRleCksCiAgfSkpLAopOwoKY29uc3QgewogIGJsb2NrSXBzRnJvbUxvZ3MsCiAgaGFzU2VsZWN0YWJsZURpc3BsYXllZFJvd3MsCiAgaXNBbGxEaXNwbGF5ZWRSb3dzU2VsZWN0ZWQsCiAgaXNCbG9ja2luZ0lwcywKICBpc0dlbmVyYWxCbGFja2xpc3RlZCwKICBpc011dGF0aW5nQmxhY2tsaXN0SXBzLAogIGlzUmVsZWFzaW5nSXBzLAogIHJlbGVhc2VJcHNGcm9tTG9ncywKICBzZWxlY3RlZEJsb2NrZWRMb2dJcHMsCiAgc2VsZWN0ZWRVbmJsb2NrZWRMb2dJcHMsCiAgdG9nZ2xlTG9nRW50cnlTZWxlY3Rpb24sCn0gPSB1c2VHYXRld2F5TG9nSXBTZWxlY3Rpb24oewogIGRpc3BsYXllZEVudHJpZXMsCiAgc2VsZWN0ZWRMb2dFbnRyeUtleXMsCiAgdHJhbnNsYXRlOiAoa2V5LCBwYXJhbXMpID0+IChwYXJhbXMgPyB0KGtleSwgcGFyYW1zKSA6IHQoa2V5KSksCn0pOwoKY29uc3QgYWN0aXZlRW50cnlXaXRoSXBMb2NhdGlvbiA9IGNvbXB1dGVkKCgpID0+CiAgYWN0aXZlRW50cnkudmFsdWUKICAgID8gewogICAgICAgIC4uLmFjdGl2ZUVudHJ5LnZhbHVlLAogICAgICAgIGNsaWVudF9pcDogZ2V0RW50cnlDbGllbnRJcChhY3RpdmVFbnRyeS52YWx1ZSksCiAgICAgICAgaXBMb2NhdGlvbjogZ2V0RW50cnlJcExvY2F0aW9uKGFjdGl2ZUVudHJ5LnZhbHVlKSwKICAgICAgfQogICAgOiBudWxsLAopOwpjb25zdCBkZXRhaWxJdGVtcyA9IGNvbXB1dGVkKCgpID0+CiAgYnVpbGRHYXRld2F5TG9nRGV0YWlsSXRlbXMoCiAgICBhY3RpdmVFbnRyeVdpdGhJcExvY2F0aW9uLnZhbHVlLAogICAgdCwKICAgIFN0cmluZyhsb2NhbGUudmFsdWUpLAogICksCik7CmNvbnN0IGRldGFpbENvcHlUZXh0ID0gY29tcHV0ZWQoKCkgPT4KICBidWlsZEdhdGV3YXlMb2dEZXRhaWxDb3B5VGV4dChkZXRhaWxJdGVtcy52YWx1ZSksCik7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImZsZXggaC1mdWxsIGZsZXgtY29sIGdhcC0zIj4KICAgIDxUZWxlcG9ydCBkZWZlciB0bz0iI3JlcXVlc3QtYW5hbHlzaXMtbG9ncy1hY3Rpb25zIj4KICAgICAgPEdhdGV3YXlSZXF1ZXN0TG9nc0FjdGlvbnMKICAgICAgICA6YmxvY2staXBzPSJibG9ja0lwc0Zyb21Mb2dzIgogICAgICAgIDpkZWxldGUtc2VsZWN0ZWQtZGF0ZT0iZGVsZXRlU2VsZWN0ZWREYXRlIgogICAgICAgIDppcy1ibG9ja2luZz0iaXNCbG9ja2luZ0lwcyIKICAgICAgICA6aXMtZGVsZXRpbmc9ImlzRGVsZXRpbmciCiAgICAgICAgOmlzLW11dGF0aW5nPSJpc011dGF0aW5nQmxhY2tsaXN0SXBzIgogICAgICAgIDppcy1yZWxlYXNpbmc9ImlzUmVsZWFzaW5nSXBzIgogICAgICAgIDpsb2FkaW5nPSJsb2FkaW5nIgogICAgICAgIDpyZWZyZXNoPSJyZWZyZXNoQWxsIgogICAgICAgIDpyZWxlYXNlLWlwcz0icmVsZWFzZUlwc0Zyb21Mb2dzIgogICAgICAgIDpzZWxlY3RlZC1ibG9ja2VkLWlwcz0ic2VsZWN0ZWRCbG9ja2VkTG9nSXBzIgogICAgICAgIDpzZWxlY3RlZC1kYXRlPSJzZWxlY3RlZERhdGUiCiAgICAgICAgOnNlbGVjdGVkLXVuYmxvY2tlZC1pcHM9InNlbGVjdGVkVW5ibG9ja2VkTG9nSXBzIgogICAgICAvPgogICAgPC9UZWxlcG9ydD4KCiAgICA8ZGl2CiAgICAgIGNsYXNzPSJmbGV4IG1pbi1oLTAgZmxleC0xIGZsZXgtY29sIG92ZXJmbG93LWhpZGRlbiByb3VuZGVkLXhsIGJvcmRlciBiZy1iYWNrZ3JvdW5kIgogICAgPgogICAgICA8R2F0ZXdheVJlcXVlc3RMb2dzRmlsdGVycwogICAgICAgIHYtbW9kZWw6c2VhcmNoLXF1ZXJ5PSJzZWFyY2hRdWVyeSIKICAgICAgICA6YWN0aXZlLWNyZWRlbnRpYWwtbGFiZWw9ImFjdGl2ZUNyZWRlbnRpYWxMYWJlbCIKICAgICAgICA6YWN0aXZlLWxvZ2dlZC1pbi1sYWJlbD0iYWN0aXZlTG9nZ2VkSW5MYWJlbCIKICAgICAgICA6YWN0aXZlLXN0YXR1cy1sYWJlbD0iYWN0aXZlU3RhdHVzTGFiZWwiCiAgICAgICAgOmFjdGl2ZS13YWYtc3RhdHVzLWxhYmVsPSJhY3RpdmVXQUZTdGF0dXNMYWJlbCIKICAgICAgICA6YXZhaWxhYmxlLWRhdGVzPSJhdmFpbGFibGVEYXRlcyIKICAgICAgICA6Y3JlZGVudGlhbC1vcHRpb25zPSJjcmVkZW50aWFsRmlsdGVyT3B0aW9ucyIKICAgICAgICA6Y3Vyc29yLXBhZ2UtbGFiZWw9ImN1cnNvclBhZ2VMYWJlbCIKICAgICAgICA6ZW50cmllcy1jb3VudD0iZW50cmllcy5sZW5ndGgiCiAgICAgICAgOmhhbmRsZS1jcmVkZW50aWFsLWNoYW5nZT0iaGFuZGxlQ3JlZGVudGlhbENoYW5nZSIKICAgICAgICA6aGFuZGxlLWRhdGUtY2hhbmdlPSJoYW5kbGVEYXRlQ2hhbmdlIgogICAgICAgIDpoYW5kbGUtbG9nZ2VkLWluLWNoYW5nZT0iaGFuZGxlTG9nZ2VkSW5DaGFuZ2UiCiAgICAgICAgOmhhbmRsZS1zZWFyY2g9ImhhbmRsZVNlYXJjaCIKICAgICAgICA6aGFuZGxlLXN0YXR1cy1jaGFuZ2U9ImhhbmRsZVN0YXR1c0NoYW5nZSIKICAgICAgICA6aGFuZGxlLXdhZi1zdGF0dXMtY2hhbmdlPSJoYW5kbGVXQUZTdGF0dXNDaGFuZ2UiCiAgICAgICAgOmxvZ3MtZGlyPSJsb2dzRGlyIgogICAgICAgIDpzZWxlY3RlZC1jcmVkZW50aWFsPSJzZWxlY3RlZENyZWRlbnRpYWwiCiAgICAgICAgOnNlbGVjdGVkLWRhdGU9InNlbGVjdGVkRGF0ZSIKICAgICAgICA6c2VsZWN0ZWQtbG9nZ2VkLWluPSJzZWxlY3RlZExvZ2dlZEluIgogICAgICAgIDpzZWxlY3RlZC1zdGF0dXM9InNlbGVjdGVkU3RhdHVzIgogICAgICAgIDpzZWxlY3RlZC13YWYtc3RhdHVzPSJzZWxlY3RlZFdBRlN0YXR1cyIKICAgICAgLz4KCiAgICAgIDxHYXRld2F5UmVxdWVzdExvZ3NUYWJsZQogICAgICAgIHYtbW9kZWw6aXMtYWxsLWRpc3BsYXllZC1yb3dzLXNlbGVjdGVkPSJpc0FsbERpc3BsYXllZFJvd3NTZWxlY3RlZCIKICAgICAgICA6YmxvY2staXBzLWZyb20tbG9ncz0iYmxvY2tJcHNGcm9tTG9ncyIKICAgICAgICA6ZW50cmllcz0iZGlzcGxheWVkRW50cmllcyIKICAgICAgICA6ZW50cmllcy1jb3VudD0iZW50cmllcy5sZW5ndGgiCiAgICAgICAgOmdldC1jb25uZWN0aW9uLXNvdXJjZS10ZXh0PSJnZXRDb25uZWN0aW9uU291cmNlVGV4dCIKICAgICAgICA6Z2V0LWVudHJ5LWlwLWxvY2F0aW9uLXRleHQ9ImdldEVudHJ5SXBMb2NhdGlvblRleHQiCiAgICAgICAgOmdvLXRvLXdhZi10cmFjZT0iZ29Ub1dBRlRyYWNlIgogICAgICAgIDpoYXMtc2VsZWN0YWJsZS1kaXNwbGF5ZWQtcm93cz0iaGFzU2VsZWN0YWJsZURpc3BsYXllZFJvd3MiCiAgICAgICAgOmlzLWdlbmVyYWwtYmxhY2tsaXN0ZWQ9ImlzR2VuZXJhbEJsYWNrbGlzdGVkIgogICAgICAgIDppcy1tdXRhdGluZy1ibGFja2xpc3QtaXBzPSJpc011dGF0aW5nQmxhY2tsaXN0SXBzIgogICAgICAgIDpsb2FkaW5nPSJsb2FkaW5nIgogICAgICAgIDpyZWxlYXNlLWlwcy1mcm9tLWxvZ3M9InJlbGVhc2VJcHNGcm9tTG9ncyIKICAgICAgICA6c2VsZWN0ZWQtbG9nLWVudHJ5LWtleXM9InNlbGVjdGVkTG9nRW50cnlLZXlzIgogICAgICAgIDpzaG93LXRhYmxlLXNrZWxldG9uPSJzaG93VGFibGVTa2VsZXRvbiIKICAgICAgICA6dG9nZ2xlLWxvZy1lbnRyeS1zZWxlY3Rpb249InRvZ2dsZUxvZ0VudHJ5U2VsZWN0aW9uIgogICAgICAgIDp2aWV3LWRldGFpbHM9InZpZXdEZXRhaWxzIgogICAgICAvPgoKICAgICAgPEdhdGV3YXlSZXF1ZXN0TG9nc1BhZ2luYXRpb24KICAgICAgICA6Y2FuLWxvYWQtbmV3ZXI9ImNhbkxvYWROZXdlciIKICAgICAgICA6Y2FuLWxvYWQtb2xkZXI9ImNhbkxvYWRPbGRlciIKICAgICAgICA6Y3Vyc29yLXBhZ2UtbGFiZWw9ImN1cnNvclBhZ2VMYWJlbCIKICAgICAgICA6aGFuZGxlLWxpbWl0LWNoYW5nZT0iaGFuZGxlTGltaXRDaGFuZ2UiCiAgICAgICAgOmhhbmRsZS1sb2FkLWZpcnN0PSJoYW5kbGVMb2FkRmlyc3QiCiAgICAgICAgOmhhbmRsZS1sb2FkLW5ld2VyPSJoYW5kbGVMb2FkTmV3ZXIiCiAgICAgICAgOmhhbmRsZS1sb2FkLW9sZGVyPSJoYW5kbGVMb2FkT2xkZXIiCiAgICAgICAgOmxpbWl0PSJsaW1pdCIKICAgICAgICA6bG9hZGluZz0ibG9hZGluZyIKICAgICAgICA6c2hvdWxkLWZsb2F0PSJzaG91bGRGbG9hdFBhZ2luYXRpb24iCiAgICAgIC8+CiAgICA8L2Rpdj4KCiAgICA8RGV0YWlsRGlhbG9nCiAgICAgIHYtbW9kZWw6b3Blbj0iaXNEZXRhaWxzT3BlbiIKICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsVGl0bGUnKSIKICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsRGVzY3JpcHRpb24nKSIKICAgICAgbWF4LXdpZHRoLWNsYXNzPSJzbTptYXgtdy1bNjQwcHhdIgogICAgICBjbG9zZS12YXJpYW50PSJkZWZhdWx0IgogICAgICA6Y29weS10ZXh0PSJkZXRhaWxDb3B5VGV4dCIKICAgID4KICAgICAgPGRpdiB2LWlmPSJhY3RpdmVFbnRyeSIgY2xhc3M9InNwYWNlLXktNCI+CiAgICAgICAgPFRyYWNlSWRMaW5rCiAgICAgICAgICA6dHJhY2UtaWQ9ImFjdGl2ZUVudHJ5LnRyYWNlX2lkIHx8IGFjdGl2ZUVudHJ5LndhZl90cmFjZV9pZCIKICAgICAgICAvPgogICAgICAgIDxEZXRhaWxGaWVsZHNHcmlkIDppdGVtcz0iZGV0YWlsSXRlbXMiIC8+CiAgICAgIDwvZGl2PgogICAgPC9EZXRhaWxEaWFsb2c+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRouter } from "vue-router";
+import DetailDialog from "@admin-shared/components/common/DetailDialog.vue";
+import DetailFieldsGrid from "@admin-shared/components/common/DetailFieldsGrid.vue";
+import type { GatewayLogEntry } from "../types";
+import GatewayRequestLogsActions from "./gateway-request-logs/GatewayRequestLogsActions.vue";
+import GatewayRequestLogsFilters from "./gateway-request-logs/GatewayRequestLogsFilters.vue";
+import GatewayRequestLogsPagination from "./gateway-request-logs/GatewayRequestLogsPagination.vue";
+import GatewayRequestLogsTable from "./gateway-request-logs/GatewayRequestLogsTable.vue";
+import {
+  buildGatewayLogDetailCopyText,
+  buildGatewayLogDetailItems,
+  buildGatewayLogSelectionKey,
+  getEntryActionIp,
+  getEntryClientIp,
+} from "./gateway-request-logs/model";
+import { useGatewayLogIpSelection } from "./gateway-request-logs/useGatewayLogIpSelection";
+import { useGatewayRequestLogsResource } from "./gateway-request-logs/useGatewayRequestLogsResource";
+import TraceIdLink from "@/components/TraceIdLink.vue";
+
+const router = useRouter();
+const { t, locale } = useI18n();
+const isDetailsOpen = ref(false);
+const activeEntry = ref<GatewayLogEntry | null>(null);
+const {
+  activeCredentialLabel,
+  activeLoggedInLabel,
+  activeStatusLabel,
+  activeWAFStatusLabel,
+  availableDates,
+  canLoadNewer,
+  canLoadOlder,
+  credentialFilterOptions,
+  currentCursor,
+  cursorPageLabel,
+  deleteSelectedDate,
+  entries,
+  getSnapshot,
+  handleCredentialChange,
+  handleDateChange,
+  handleLimitChange,
+  handleLoadFirst,
+  handleLoadNewer,
+  handleLoadOlder,
+  handleLoggedInChange,
+  handleSearch,
+  handleStatusChange,
+  handleWAFStatusChange,
+  isDeleting,
+  limit,
+  loading,
+  logsDir,
+  refreshAll,
+  searchQuery,
+  selectedCredential,
+  selectedDate,
+  selectedLoggedIn,
+  selectedLogEntryKeys,
+  selectedStatus,
+  selectedWAFStatus,
+  shouldFloatPagination,
+  showTableSkeleton,
+} = useGatewayRequestLogsResource();
+
+const viewDetails = (entry: GatewayLogEntry) => {
+  activeEntry.value = entry;
+  isDetailsOpen.value = true;
+};
+const goToWAFTrace = (traceId?: string) => {
+  if (!traceId) return;
+  router.push(`/traces/${encodeURIComponent(traceId)}`);
+};
+const getEntrySelectionKey = (entry: GatewayLogEntry, index: number) =>
+  buildGatewayLogSelectionKey(entry, index, currentCursor.value);
+const getEntryIpSnapshot = (entry: GatewayLogEntry) =>
+  getSnapshot(getEntryClientIp(entry));
+const getEntryIpLocation = (entry: GatewayLogEntry) =>
+  getEntryIpSnapshot(entry)?.location || entry.ipLocation || "";
+const getEntryIpLocationText = (entry: GatewayLogEntry) => {
+  const snapshot = getEntryIpSnapshot(entry);
+  const location = snapshot?.location || entry.ipLocation || "";
+  if (location) return location;
+  if (snapshot?.status === "queued" || snapshot?.status === "processing") {
+    return t("admin.hostActiveIps.resolving");
+  }
+  if (snapshot?.status === "failed") {
+    return t("admin.hostActiveIps.unavailable");
+  }
+  return "";
+};
+const getConnectionSourceText = (entry: GatewayLogEntry) => {
+  const clientIp = getEntryClientIp(entry);
+  const remoteIp = entry.remote_ip || "";
+  if (!remoteIp || remoteIp === clientIp) return "";
+  return t("admin.gatewayRequestLogs.connectionSource", { ip: remoteIp });
+};
+const displayedEntries = computed(() =>
+  entries.value.map((entry, index) => ({
+    ...entry,
+    client_ip: getEntryClientIp(entry),
+    ipLocation: getEntryIpLocation(entry),
+    actionIp: getEntryActionIp(entry),
+    selectionKey: getEntrySelectionKey(entry, index),
+  })),
+);
+
+const {
+  blockIpsFromLogs,
+  hasSelectableDisplayedRows,
+  isAllDisplayedRowsSelected,
+  isBlockingIps,
+  isGeneralBlacklisted,
+  isMutatingBlacklistIps,
+  isReleasingIps,
+  releaseIpsFromLogs,
+  selectedBlockedLogIps,
+  selectedUnblockedLogIps,
+  toggleLogEntrySelection,
+} = useGatewayLogIpSelection({
+  displayedEntries,
+  selectedLogEntryKeys,
+  translate: (key, params) => (params ? t(key, params) : t(key)),
+});
+
+const activeEntryWithIpLocation = computed(() =>
+  activeEntry.value
+    ? {
+        ...activeEntry.value,
+        client_ip: getEntryClientIp(activeEntry.value),
+        ipLocation: getEntryIpLocation(activeEntry.value),
+      }
+    : null,
+);
+const detailItems = computed(() =>
+  buildGatewayLogDetailItems(
+    activeEntryWithIpLocation.value,
+    t,
+    String(locale.value),
+  ),
+);
+const detailCopyText = computed(() =>
+  buildGatewayLogDetailCopyText(detailItems.value),
+);
+</script>
+
+<template>
+  <div class="flex h-full flex-col gap-3">
+    <Teleport defer to="#request-analysis-logs-actions">
+      <GatewayRequestLogsActions
+        :block-ips="blockIpsFromLogs"
+        :delete-selected-date="deleteSelectedDate"
+        :is-blocking="isBlockingIps"
+        :is-deleting="isDeleting"
+        :is-mutating="isMutatingBlacklistIps"
+        :is-releasing="isReleasingIps"
+        :loading="loading"
+        :refresh="refreshAll"
+        :release-ips="releaseIpsFromLogs"
+        :selected-blocked-ips="selectedBlockedLogIps"
+        :selected-date="selectedDate"
+        :selected-unblocked-ips="selectedUnblockedLogIps"
+      />
+    </Teleport>
+
+    <div
+      class="flex min-h-0 flex-1 flex-col overflow-hidden rounded-xl border bg-background"
+    >
+      <GatewayRequestLogsFilters
+        v-model:search-query="searchQuery"
+        :active-credential-label="activeCredentialLabel"
+        :active-logged-in-label="activeLoggedInLabel"
+        :active-status-label="activeStatusLabel"
+        :active-waf-status-label="activeWAFStatusLabel"
+        :available-dates="availableDates"
+        :credential-options="credentialFilterOptions"
+        :cursor-page-label="cursorPageLabel"
+        :entries-count="entries.length"
+        :handle-credential-change="handleCredentialChange"
+        :handle-date-change="handleDateChange"
+        :handle-logged-in-change="handleLoggedInChange"
+        :handle-search="handleSearch"
+        :handle-status-change="handleStatusChange"
+        :handle-waf-status-change="handleWAFStatusChange"
+        :logs-dir="logsDir"
+        :selected-credential="selectedCredential"
+        :selected-date="selectedDate"
+        :selected-logged-in="selectedLoggedIn"
+        :selected-status="selectedStatus"
+        :selected-waf-status="selectedWAFStatus"
+      />
+
+      <GatewayRequestLogsTable
+        v-model:is-all-displayed-rows-selected="isAllDisplayedRowsSelected"
+        :block-ips-from-logs="blockIpsFromLogs"
+        :entries="displayedEntries"
+        :entries-count="entries.length"
+        :get-connection-source-text="getConnectionSourceText"
+        :get-entry-ip-location-text="getEntryIpLocationText"
+        :go-to-waf-trace="goToWAFTrace"
+        :has-selectable-displayed-rows="hasSelectableDisplayedRows"
+        :is-general-blacklisted="isGeneralBlacklisted"
+        :is-mutating-blacklist-ips="isMutatingBlacklistIps"
+        :loading="loading"
+        :release-ips-from-logs="releaseIpsFromLogs"
+        :selected-log-entry-keys="selectedLogEntryKeys"
+        :show-table-skeleton="showTableSkeleton"
+        :toggle-log-entry-selection="toggleLogEntrySelection"
+        :view-details="viewDetails"
+      />
+
+      <GatewayRequestLogsPagination
+        :can-load-newer="canLoadNewer"
+        :can-load-older="canLoadOlder"
+        :cursor-page-label="cursorPageLabel"
+        :handle-limit-change="handleLimitChange"
+        :handle-load-first="handleLoadFirst"
+        :handle-load-newer="handleLoadNewer"
+        :handle-load-older="handleLoadOlder"
+        :limit="limit"
+        :loading="loading"
+        :should-float="shouldFloatPagination"
+      />
+    </div>
+
+    <DetailDialog
+      v-model:open="isDetailsOpen"
+      :title="t('admin.gatewayRequestLogs.detailTitle')"
+      :description="t('admin.gatewayRequestLogs.detailDescription')"
+      max-width-class="sm:max-w-[640px]"
+      close-variant="default"
+      :copy-text="detailCopyText"
+    >
+      <div v-if="activeEntry" class="space-y-4">
+        <TraceIdLink
+          :trace-id="activeEntry.trace_id || activeEntry.waf_trace_id"
+        />
+        <DetailFieldsGrid :items="detailItems" />
+      </div>
+    </DetailDialog>
+  </div>
+</template>

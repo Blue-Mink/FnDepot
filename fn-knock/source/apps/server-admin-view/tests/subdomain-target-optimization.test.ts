@@ -1,1 +1,406 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IHJlYWRGaWxlU3luYyB9IGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgeyBhZnRlckVhY2gsIGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CmltcG9ydCB7IGNvbXB1dGVkLCBuZXh0VGljaywgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsKICBTY2FuQVBJLAogIHR5cGUgU2NhbkRpc2NvdmVyeUhvc3RDYW5kaWRhdGUsCiAgdHlwZSBTY2FuRGlzY292ZXJ5VGFyZ2V0c1Jlc3BvbnNlLAp9IGZyb20gIi4uL3NyYy9saWIvYXBpL3NjYW4iOwppbXBvcnQgdHlwZSB7IEhvc3RNYXBwaW5nIH0gZnJvbSAiLi4vc3JjL3R5cGVzIjsKaW1wb3J0IHsgY3JlYXRlRGVmYXVsdE1hcHBpbmcgfSBmcm9tICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L21vZGVsIjsKaW1wb3J0IHsKICBidWlsZFRhcmdldE9wdGltaXphdGlvbkRlc3RpbmF0aW9ucywKICBidWlsZFRhcmdldE9wdGltaXphdGlvblByZXZpZXdzLAogIHBhcnNlT3B0aW1pemFibGVUYXJnZXRIb3N0bmFtZSwKICByZXNvbHZlRGVmYXVsdFRhcmdldE9wdGltaXphdGlvbkRlc3RpbmF0aW9uLAogIHJld3JpdGVUYXJnZXRIb3N0bmFtZSwKfSBmcm9tICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L3N1YmRvbWFpbi10YXJnZXQtb3B0aW1pemF0aW9uIjsKaW1wb3J0IHsgdXNlU3ViZG9tYWluVGFyZ2V0T3B0aW1pemF0aW9uIH0gZnJvbSAiLi4vc3JjL3ZpZXdzL3N1YmRvbWFpbi1wcm94eS91c2VTdWJkb21haW5UYXJnZXRPcHRpbWl6YXRpb24iOwppbXBvcnQgeyB1c2VIb3N0VGFyZ2V0Q2FuZGlkYXRlQ2F0YWxvZyB9IGZyb20gIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvdXNlSG9zdFRhcmdldENhbmRpZGF0ZUNhdGFsb2ciOwoKY29uc3QgY2FuZGlkYXRlID0gKAogIGFkZHJlc3M6IHN0cmluZywKICBzb3VyY2U6IFNjYW5EaXNjb3ZlcnlIb3N0Q2FuZGlkYXRlWyJzb3VyY2UiXSwKKTogU2NhbkRpc2NvdmVyeUhvc3RDYW5kaWRhdGUgPT4gKHsKICBhZGRyZXNzLAogIGNpZHI6IGAke2FkZHJlc3N9LzMyYCwKICBpbmNsdWRlZEluQXV0b21hdGljU2NhbjogdHJ1ZSwKICByZWNvbW1lbmRlZDogc291cmNlID09PSAibG9vcGJhY2siLAogIHNvdXJjZSwKfSk7Cgpjb25zdCBuYXRpdmVDYW5kaWRhdGVzID0gWwogIGNhbmRpZGF0ZSgiMTI3LjAuMC4xIiwgImxvb3BiYWNrIiksCiAgY2FuZGlkYXRlKCIxOTIuMTY4LjUwLjgiLCAiaW50ZXJmYWNlIiksCiAgY2FuZGlkYXRlKCIxMC4yMC4wLjgiLCAiaW50ZXJmYWNlIiksCl07Cgpjb25zdCBtYXBwaW5nID0gKGhvc3Q6IHN0cmluZywgdGFyZ2V0OiBzdHJpbmcpOiBIb3N0TWFwcGluZyA9PiAoewogIC4uLmNyZWF0ZURlZmF1bHRNYXBwaW5nKCksCiAgaG9zdCwKICB0YXJnZXQsCn0pOwoKY29uc3QgcmVzcG9uc2UgPSAoCiAgaG9zdENhbmRpZGF0ZXM6IFNjYW5EaXNjb3ZlcnlIb3N0Q2FuZGlkYXRlW10sCik6IFNjYW5EaXNjb3ZlcnlUYXJnZXRzUmVzcG9uc2UgPT4KICAoewogICAgYXV0b21hdGljVGFyZ2V0czogW10sCiAgICBjdXN0b21UYXJnZXRzOiBbXSwKICAgIGVmZmVjdGl2ZUNpZHJzOiBbXSwKICAgIGhvc3RDYW5kaWRhdGVzLAogICAgbGltaXRzOiB7IG1heENpZHJzOiA4LCBtYXhIb3N0czogMjA0OCB9LAogICAgc2VsZWN0ZWRDaWRyczogW10sCiAgICBzZWxlY3RlZFRhcmdldHM6IFtdLAogICAgc2VsZWN0aW9uTW9kZTogImF1dG9tYXRpYyIsCiAgfSkgYXMgU2NhbkRpc2NvdmVyeVRhcmdldHNSZXNwb25zZTsKCmNvbnN0IG9yaWdpbmFsR2V0RGlzY292ZXJUYXJnZXRzID0gU2NhbkFQSS5nZXREaXNjb3ZlclRhcmdldHM7CmNvbnN0IG9yaWdpbmFsQ29uc29sZVdhcm4gPSBjb25zb2xlLndhcm47CmFmdGVyRWFjaCgoKSA9PiB7CiAgU2NhbkFQSS5nZXREaXNjb3ZlclRhcmdldHMgPSBvcmlnaW5hbEdldERpc2NvdmVyVGFyZ2V0czsKICBjb25zb2xlLndhcm4gPSBvcmlnaW5hbENvbnNvbGVXYXJuOwp9KTsKCmRlc2NyaWJlKCJzdWJkb21haW4gdGFyZ2V0IG9wdGltaXphdGlvbiBtb2RlbCIsICgpID0+IHsKICBpdCgicmV3cml0ZXMgb25seSB0aGUgSVB2NCBob3N0bmFtZSB3aGlsZSBwcmVzZXJ2aW5nIHRoZSBvcmlnaW5hbCB0YXJnZXQgdGV4dCIsICgpID0+IHsKICAgIGNvbnN0IHRhcmdldHMgPSBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjgwIiwKICAgICAgImh0dHBzOi8vdXNlcjpwYXNzQDEyNy4wLjAuMTo0NDMvcGF0aD9xPTEjcGFydCIsCiAgICAgICJ3czovLzEyNy4wLjAuMTo5MDAwL3NvY2tldCIsCiAgICAgICJ3c3M6Ly8xMjcuMC4wLjE6OTQ0My9zb2NrZXQ/dG9rZW49eWVzIiwKICAgICAgIiAgaHR0cDovLzEyNy4wLjAuMTo4MDgwL3BhdGggICIsCiAgICBdOwogICAgZm9yIChjb25zdCB0YXJnZXQgb2YgdGFyZ2V0cykgewogICAgICBhc3NlcnQuZXF1YWwoCiAgICAgICAgcmV3cml0ZVRhcmdldEhvc3RuYW1lKAogICAgICAgICAgdGFyZ2V0LAogICAgICAgICAgbmV3IFNldChbIjEyNy4wLjAuMSJdKSwKICAgICAgICAgICIxOTIuMTY4LjUwLjgiLAogICAgICAgICksCiAgICAgICAgdGFyZ2V0LnJlcGxhY2UoIjEyNy4wLjAuMSIsICIxOTIuMTY4LjUwLjgiKSwKICAgICAgKTsKICAgIH0KICB9KTsKCiAgaXQoInN0cmljdGx5IHJlamVjdHMgbG9jYWxob3N0LCBvdGhlciBsb29wYmFjayBhZGRyZXNzZXMsIGhvc3RuYW1lcywgYW5kIGludmFsaWQgdGFyZ2V0cyIsICgpID0+IHsKICAgIGZvciAoY29uc3QgdGFyZ2V0IG9mIFsKICAgICAgImh0dHA6Ly9sb2NhbGhvc3Q6ODA4MCIsCiAgICAgICJodHRwOi8vZGV2aWNlLmxvY2FsOjgwODAiLAogICAgICAiZnRwOi8vMTI3LjAuMC4xOjIxIiwKICAgICAgIjEyNy4wLjAuMTo4MDgwIiwKICAgICAgIm5vdCBhIHRhcmdldCIsCiAgICBdKSB7CiAgICAgIGFzc2VydC5lcXVhbChwYXJzZU9wdGltaXphYmxlVGFyZ2V0SG9zdG5hbWUodGFyZ2V0KSwgbnVsbCk7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICByZXdyaXRlVGFyZ2V0SG9zdG5hbWUoCiAgICAgICAgICB0YXJnZXQsCiAgICAgICAgICBuZXcgU2V0KFsiMTI3LjAuMC4xIl0pLAogICAgICAgICAgIjE5Mi4xNjguNTAuOCIsCiAgICAgICAgKSwKICAgICAgICBudWxsLAogICAgICApOwogICAgfQogICAgYXNzZXJ0LmVxdWFsKAogICAgICByZXdyaXRlVGFyZ2V0SG9zdG5hbWUoCiAgICAgICAgImh0dHA6Ly8xMjcuMC4wLjI6ODA4MCIsCiAgICAgICAgbmV3IFNldChbIjEyNy4wLjAuMSJdKSwKICAgICAgICAiMTkyLjE2OC41MC44IiwKICAgICAgKSwKICAgICAgbnVsbCwKICAgICk7CiAgfSk7CgogIGl0KCJuZXZlciBjb252ZXJ0cyB0aGUgcHJvdGVjdGVkIDEyNy4wLjAuMTo3OTk4IGJhY2tlbmQgdGFyZ2V0IiwgKCkgPT4gewogICAgZm9yIChjb25zdCB0YXJnZXQgb2YgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTo3OTk4IiwKICAgICAgImh0dHBzOi8vMTI3LjAuMC4xOjc5OTgvYWRtaW4/dGFiPXN0YXR1cyIsCiAgICAgICIgIGh0dHA6Ly8xMjcuMC4wLjE6Nzk5OC9oZWFsdGggICIsCiAgICBdKSB7CiAgICAgIGFzc2VydC5lcXVhbChwYXJzZU9wdGltaXphYmxlVGFyZ2V0SG9zdG5hbWUodGFyZ2V0KSwgbnVsbCk7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICByZXdyaXRlVGFyZ2V0SG9zdG5hbWUoCiAgICAgICAgICB0YXJnZXQsCiAgICAgICAgICBuZXcgU2V0KFsiMTI3LjAuMC4xIl0pLAogICAgICAgICAgIjE5Mi4xNjguNTAuOCIsCiAgICAgICAgKSwKICAgICAgICBudWxsLAogICAgICApOwogICAgfQoKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIGJ1aWxkVGFyZ2V0T3B0aW1pemF0aW9uUHJldmlld3MoewogICAgICAgIGNhbmRpZGF0ZXM6IG5hdGl2ZUNhbmRpZGF0ZXMsCiAgICAgICAgZGVzdGluYXRpb25BZGRyZXNzOiAiMTkyLjE2OC41MC44IiwKICAgICAgICBpc0F1dGhTZXJ2aWNlVGFyZ2V0OiAoKSA9PiBmYWxzZSwKICAgICAgICBpc0RvY2tlckRlcGxveW1lbnQ6IGZhbHNlLAogICAgICAgIG1hcHBpbmdzOiBbCiAgICAgICAgICBtYXBwaW5nKCJiYWNrZW5kLmV4YW1wbGUudGVzdCIsICJodHRwOi8vMTI3LjAuMC4xOjc5OTgiKSwKICAgICAgICAgIG1hcHBpbmcoImFwcC5leGFtcGxlLnRlc3QiLCAiaHR0cDovLzEyNy4wLjAuMTo4MDgwIiksCiAgICAgICAgXSwKICAgICAgfSkubWFwKChwcmV2aWV3KSA9PiBwcmV2aWV3Lmhvc3QpLAogICAgICBbImFwcC5leGFtcGxlLnRlc3QiXSwKICAgICk7CiAgfSk7CgogIGl0KCJjb252ZXJ0cyBvbmx5IGRldGVjdGVkIGxvY2FsIGludGVyZmFjZXMgYmFjayB0byBleGFjdCBsb29wYmFjayIsICgpID0+IHsKICAgIGNvbnN0IG1hcHBpbmdzID0gWwogICAgICBtYXBwaW5nKCJsb2NhbC5leGFtcGxlLnRlc3QiLCAiaHR0cDovLzE5Mi4xNjguNTAuODo4MDgwL3BhdGgiKSwKICAgICAgbWFwcGluZygib3RoZXIuZXhhbXBsZS50ZXN0IiwgImh0dHA6Ly8xOTIuMTY4LjUwLjk5OjgwODAiKSwKICAgICAgbWFwcGluZygibG9vcC5leGFtcGxlLnRlc3QiLCAiaHR0cDovLzEyNy4wLjAuMTo4MDgwIiksCiAgICBdOwogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgYnVpbGRUYXJnZXRPcHRpbWl6YXRpb25QcmV2aWV3cyh7CiAgICAgICAgY2FuZGlkYXRlczogbmF0aXZlQ2FuZGlkYXRlcywKICAgICAgICBkZXN0aW5hdGlvbkFkZHJlc3M6ICIxMjcuMC4wLjEiLAogICAgICAgIGlzQXV0aFNlcnZpY2VUYXJnZXQ6ICgpID0+IGZhbHNlLAogICAgICAgIGlzRG9ja2VyRGVwbG95bWVudDogZmFsc2UsCiAgICAgICAgbWFwcGluZ3MsCiAgICAgIH0pLAogICAgICBbCiAgICAgICAgewogICAgICAgICAgZGlyZWN0aW9uOiAibGFuX3RvX2xvb3BiYWNrIiwKICAgICAgICAgIGhvc3Q6ICJsb2NhbC5leGFtcGxlLnRlc3QiLAogICAgICAgICAgdGFyZ2V0OiAiaHR0cDovLzE5Mi4xNjguNTAuODo4MDgwL3BhdGgiLAogICAgICAgICAgbmV4dFRhcmdldDogImh0dHA6Ly8xMjcuMC4wLjE6ODA4MC9wYXRoIiwKICAgICAgICB9LAogICAgICBdLAogICAgKTsKICB9KTsKCiAgaXQoImtlZXBzIGxvb3BiYWNrIG91dCBvZiBEb2NrZXIgZGVzdGluYXRpb25zIGFuZCBpZ25vcmVzIGF1dGggbWFwcGluZ3MiLCAoKSA9PiB7CiAgICBjb25zdCBkb2NrZXJDYW5kaWRhdGVzID0gWwogICAgICBjYW5kaWRhdGUoIjEyNy4wLjAuMSIsICJsb29wYmFjayIpLAogICAgICBjYW5kaWRhdGUoIjE5Mi4xNjguNTAuOCIsICJwcm94eSIpLAogICAgXTsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIGJ1aWxkVGFyZ2V0T3B0aW1pemF0aW9uRGVzdGluYXRpb25zKGRvY2tlckNhbmRpZGF0ZXMsIHRydWUpLm1hcCgKICAgICAgICAoaXRlbSkgPT4gaXRlbS5hZGRyZXNzLAogICAgICApLAogICAgICBbIjE5Mi4xNjguNTAuOCJdLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgYnVpbGRUYXJnZXRPcHRpbWl6YXRpb25QcmV2aWV3cyh7CiAgICAgICAgY2FuZGlkYXRlczogZG9ja2VyQ2FuZGlkYXRlcywKICAgICAgICBkZXN0aW5hdGlvbkFkZHJlc3M6ICIxMjcuMC4wLjEiLAogICAgICAgIGlzQXV0aFNlcnZpY2VUYXJnZXQ6ICgpID0+IGZhbHNlLAogICAgICAgIGlzRG9ja2VyRGVwbG95bWVudDogdHJ1ZSwKICAgICAgICBtYXBwaW5nczogW21hcHBpbmcoImFwcC5leGFtcGxlLnRlc3QiLCAiaHR0cDovLzE5Mi4xNjguNTAuODo4MCIpXSwKICAgICAgfSkubGVuZ3RoLAogICAgICAwLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgYnVpbGRUYXJnZXRPcHRpbWl6YXRpb25QcmV2aWV3cyh7CiAgICAgICAgY2FuZGlkYXRlczogZG9ja2VyQ2FuZGlkYXRlcywKICAgICAgICBkZXN0aW5hdGlvbkFkZHJlc3M6ICIxOTIuMTY4LjUwLjgiLAogICAgICAgIGlzQXV0aFNlcnZpY2VUYXJnZXQ6ICh0YXJnZXQpID0+IHRhcmdldC5lbmRzV2l0aCgiOjc5OTciKSwKICAgICAgICBpc0RvY2tlckRlcGxveW1lbnQ6IHRydWUsCiAgICAgICAgbWFwcGluZ3M6IFsKICAgICAgICAgIG1hcHBpbmcoImFwcC5leGFtcGxlLnRlc3QiLCAiaHR0cDovLzEyNy4wLjAuMTo4MDgwIiksCiAgICAgICAgICBtYXBwaW5nKCJhdXRoLmV4YW1wbGUudGVzdCIsICJodHRwOi8vMTI3LjAuMC4xOjc5OTciKSwKICAgICAgICBdLAogICAgICB9KS5sZW5ndGgsCiAgICAgIDEsCiAgICApOwogIH0pOwoKICBpdCgicHJlZmVycyBMQU4gZm9yIGxvb3BiYWNrIG1hcHBpbmdzIGFuZCBvdGhlcndpc2Ugc2VsZWN0cyBsb29wYmFjayIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgcmVzb2x2ZURlZmF1bHRUYXJnZXRPcHRpbWl6YXRpb25EZXN0aW5hdGlvbih7CiAgICAgICAgY2FuZGlkYXRlczogbmF0aXZlQ2FuZGlkYXRlcywKICAgICAgICBpc0F1dGhTZXJ2aWNlVGFyZ2V0OiAoKSA9PiBmYWxzZSwKICAgICAgICBpc0RvY2tlckRlcGxveW1lbnQ6IGZhbHNlLAogICAgICAgIG1hcHBpbmdzOiBbbWFwcGluZygibG9vcC5leGFtcGxlLnRlc3QiLCAiaHR0cDovLzEyNy4wLjAuMTo4MDgwIildLAogICAgICB9KSwKICAgICAgIjE5Mi4xNjguNTAuOCIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICByZXNvbHZlRGVmYXVsdFRhcmdldE9wdGltaXphdGlvbkRlc3RpbmF0aW9uKHsKICAgICAgICBjYW5kaWRhdGVzOiBuYXRpdmVDYW5kaWRhdGVzLAogICAgICAgIGlzQXV0aFNlcnZpY2VUYXJnZXQ6ICgpID0+IGZhbHNlLAogICAgICAgIGlzRG9ja2VyRGVwbG95bWVudDogZmFsc2UsCiAgICAgICAgbWFwcGluZ3M6IFttYXBwaW5nKCJsYW4uZXhhbXBsZS50ZXN0IiwgImh0dHA6Ly8xMC4yMC4wLjg6ODA4MCIpXSwKICAgICAgfSksCiAgICAgICIxMjcuMC4wLjEiLAogICAgKTsKICB9KTsKfSk7CgpkZXNjcmliZSgic3ViZG9tYWluIHRhcmdldCBvcHRpbWl6YXRpb24gc3RhdGUiLCAoKSA9PiB7CiAgaXQoInJlcG9ydHMgY2FuZGlkYXRlIGZhaWx1cmVzIHdpdGggc2FmZSBuYXRpdmUgYW5kIERvY2tlciBmYWxsYmFja3MiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zb2xlLndhcm4gPSAoKSA9PiB1bmRlZmluZWQ7CiAgICBTY2FuQVBJLmdldERpc2NvdmVyVGFyZ2V0cyA9IGFzeW5jICgpID0+IHsKICAgICAgdGhyb3cgbmV3IEVycm9yKCJsb2FkIGZhaWxlZCIpOwogICAgfTsKICAgIGNvbnN0IG5hdGl2ZUNhdGFsb2cgPSB1c2VIb3N0VGFyZ2V0Q2FuZGlkYXRlQ2F0YWxvZyh7CiAgICAgIGlzRG9ja2VyRGVwbG95bWVudDogY29tcHV0ZWQoKCkgPT4gZmFsc2UpLAogICAgICBvcGVuOiBjb21wdXRlZCgoKSA9PiB0cnVlKSwKICAgIH0pOwogICAgYXdhaXQgbmV4dFRpY2soKTsKICAgIGF3YWl0IG5leHRUaWNrKCk7CiAgICBhc3NlcnQuZXF1YWwobmF0aXZlQ2F0YWxvZy5sb2FkRmFpbGVkLnZhbHVlLCB0cnVlKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIG5hdGl2ZUNhdGFsb2cuZWZmZWN0aXZlQ2FuZGlkYXRlcy52YWx1ZS5tYXAoKGl0ZW0pID0+IGl0ZW0uYWRkcmVzcyksCiAgICAgIFsiMTI3LjAuMC4xIl0sCiAgICApOwoKICAgIGNvbnN0IGRvY2tlckNhdGFsb2cgPSB1c2VIb3N0VGFyZ2V0Q2FuZGlkYXRlQ2F0YWxvZyh7CiAgICAgIGlzRG9ja2VyRGVwbG95bWVudDogY29tcHV0ZWQoKCkgPT4gdHJ1ZSksCiAgICAgIG9wZW46IGNvbXB1dGVkKCgpID0+IHRydWUpLAogICAgfSk7CiAgICBhd2FpdCBuZXh0VGljaygpOwogICAgYXdhaXQgbmV4dFRpY2soKTsKICAgIGFzc2VydC5lcXVhbChkb2NrZXJDYXRhbG9nLmxvYWRGYWlsZWQudmFsdWUsIHRydWUpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChkb2NrZXJDYXRhbG9nLmVmZmVjdGl2ZUNhbmRpZGF0ZXMudmFsdWUsIFtdKTsKICB9KTsKCiAgaXQoImRlZmF1bHRzIHRvIGFsbCBtYXRjaGluZyBtYXBwaW5ncywgc3VwcG9ydHMgcmVzZWxlY3Rpb24sIGFuZCBzYXZlcyBvbmx5IHNlbGVjdGVkIHJvd3MiLCBhc3luYyAoKSA9PiB7CiAgICBTY2FuQVBJLmdldERpc2NvdmVyVGFyZ2V0cyA9IGFzeW5jICgpID0+IHJlc3BvbnNlKG5hdGl2ZUNhbmRpZGF0ZXMpOwogICAgY29uc3QgbWFwcGluZ3MgPSByZWYoWwogICAgICBtYXBwaW5nKCJvbmUuZXhhbXBsZS50ZXN0IiwgImh0dHA6Ly8xMjcuMC4wLjE6ODA4MCIpLAogICAgICBtYXBwaW5nKCJ0d28uZXhhbXBsZS50ZXN0IiwgImh0dHBzOi8vMTI3LjAuMC4xOjg0NDMvcGF0aCIpLAogICAgICBtYXBwaW5nKCJsYW4uZXhhbXBsZS50ZXN0IiwgImh0dHA6Ly8xOTIuMTY4LjUwLjg6MzAwMCIpLAogICAgXSk7CiAgICBjb25zdCBzYXZlZCA9IHJlZjxIb3N0TWFwcGluZ1tdIHwgbnVsbD4obnVsbCk7CiAgICBjb25zdCBtb2RlbCA9IHVzZVN1YmRvbWFpblRhcmdldE9wdGltaXphdGlvbih7CiAgICAgIGFsbE1hcHBpbmdzOiBjb21wdXRlZCgoKSA9PiBtYXBwaW5ncy52YWx1ZSksCiAgICAgIGlzQXV0aFNlcnZpY2VUYXJnZXQ6ICgpID0+IGZhbHNlLAogICAgICBpc0RvY2tlckRlcGxveW1lbnQ6IGNvbXB1dGVkKCgpID0+IGZhbHNlKSwKICAgICAgaXNTYXZpbmdNYXBwaW5nczogcmVmKGZhbHNlKSwKICAgICAgcnVuU2F2ZU1hcHBpbmdzOiBhc3luYyAoYWN0aW9uKSA9PiBhY3Rpb24oKSwKICAgICAgc2F2ZUhvc3RNYXBwaW5nczogYXN5bmMgKG5leHQpID0+IHsKICAgICAgICBzYXZlZC52YWx1ZSA9IG5leHQ7CiAgICAgIH0sCiAgICAgIHRyYW5zbGF0ZTogKGtleSkgPT4ga2V5LAogICAgfSk7CgogICAgbW9kZWwub3BlbkRpYWxvZygpOwogICAgYXdhaXQgbmV4dFRpY2soKTsKICAgIGF3YWl0IG5leHRUaWNrKCk7CiAgICBhc3NlcnQuZXF1YWwobW9kZWwuZGVzdGluYXRpb25BZGRyZXNzLnZhbHVlLCAiMTkyLjE2OC41MC44Iik7CiAgICBhc3NlcnQuZXF1YWwobW9kZWwuc2VsZWN0ZWRDb3VudC52YWx1ZSwgMik7CgogICAgbW9kZWwuc2V0TWFwcGluZ1NlbGVjdGVkKCJ0d28uZXhhbXBsZS50ZXN0IiwgZmFsc2UpOwogICAgYXNzZXJ0LmVxdWFsKG1vZGVsLnNlbGVjdGVkQ291bnQudmFsdWUsIDEpOwogICAgYXdhaXQgbW9kZWwuc2F2ZU9wdGltaXplZFRhcmdldHMoKTsKCiAgICBhc3NlcnQuZXF1YWwobW9kZWwuaXNPcGVuLnZhbHVlLCBmYWxzZSk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHNhdmVkLnZhbHVlPy5maW5kKChpdGVtKSA9PiBpdGVtLmhvc3QgPT09ICJvbmUuZXhhbXBsZS50ZXN0Iik/LnRhcmdldCwKICAgICAgImh0dHA6Ly8xOTIuMTY4LjUwLjg6ODA4MCIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBzYXZlZC52YWx1ZT8uZmluZCgoaXRlbSkgPT4gaXRlbS5ob3N0ID09PSAidHdvLmV4YW1wbGUudGVzdCIpPy50YXJnZXQsCiAgICAgICJodHRwczovLzEyNy4wLjAuMTo4NDQzL3BhdGgiLAogICAgKTsKICB9KTsKCiAgaXQoInJlc2VsZWN0cyBhbGwgZWxpZ2libGUgcm93cyB3aGVuIHRoZSBkZXN0aW5hdGlvbiBjaGFuZ2VzIGFuZCBzdGF5cyBvcGVuIG9uIHNhdmUgZmFpbHVyZSIsIGFzeW5jICgpID0+IHsKICAgIFNjYW5BUEkuZ2V0RGlzY292ZXJUYXJnZXRzID0gYXN5bmMgKCkgPT4gcmVzcG9uc2UobmF0aXZlQ2FuZGlkYXRlcyk7CiAgICBjb25zdCBtb2RlbCA9IHVzZVN1YmRvbWFpblRhcmdldE9wdGltaXphdGlvbih7CiAgICAgIGFsbE1hcHBpbmdzOiBjb21wdXRlZCgoKSA9PiBbCiAgICAgICAgbWFwcGluZygibG9vcC5leGFtcGxlLnRlc3QiLCAiaHR0cDovLzEyNy4wLjAuMTo4MDgwIiksCiAgICAgICAgbWFwcGluZygibGFuLmV4YW1wbGUudGVzdCIsICJodHRwOi8vMTkyLjE2OC41MC44OjMwMDAiKSwKICAgICAgXSksCiAgICAgIGlzQXV0aFNlcnZpY2VUYXJnZXQ6ICgpID0+IGZhbHNlLAogICAgICBpc0RvY2tlckRlcGxveW1lbnQ6IGNvbXB1dGVkKCgpID0+IGZhbHNlKSwKICAgICAgaXNTYXZpbmdNYXBwaW5nczogcmVmKGZhbHNlKSwKICAgICAgcnVuU2F2ZU1hcHBpbmdzOiBhc3luYyAoYWN0aW9uKSA9PiB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgIHJldHVybiBhd2FpdCBhY3Rpb24oKTsKICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgIHJldHVybiB1bmRlZmluZWQ7CiAgICAgICAgfQogICAgICB9LAogICAgICBzYXZlSG9zdE1hcHBpbmdzOiBhc3luYyAoKSA9PiB7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKCJzYXZlIGZhaWxlZCIpOwogICAgICB9LAogICAgICB0cmFuc2xhdGU6IChrZXkpID0+IGtleSwKICAgIH0pOwoKICAgIG1vZGVsLm9wZW5EaWFsb2coKTsKICAgIGF3YWl0IG5leHRUaWNrKCk7CiAgICBhd2FpdCBuZXh0VGljaygpOwogICAgbW9kZWwuc2V0QWxsU2VsZWN0ZWQoZmFsc2UpOwogICAgbW9kZWwuc2V0RGVzdGluYXRpb25BZGRyZXNzKCIxMjcuMC4wLjEiKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIG1vZGVsLnByZXZpZXdzLnZhbHVlLm1hcCgoaXRlbSkgPT4gaXRlbS5ob3N0KSwKICAgICAgWyJsYW4uZXhhbXBsZS50ZXN0Il0sCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKG1vZGVsLnNlbGVjdGVkQ291bnQudmFsdWUsIDEpOwoKICAgIGF3YWl0IG1vZGVsLnNhdmVPcHRpbWl6ZWRUYXJnZXRzKCk7CiAgICBhc3NlcnQuZXF1YWwobW9kZWwuaXNPcGVuLnZhbHVlLCB0cnVlKTsKICAgIGFzc2VydC5lcXVhbChtb2RlbC5zZWxlY3RlZENvdW50LnZhbHVlLCAxKTsKICB9KTsKCiAgaXQoInJlY292ZXJzIHRvIGEgdmFsaWQgc2FmZSBkZXN0aW5hdGlvbiB3aGVuIGRlcGxveW1lbnQgbW9kZSBjaGFuZ2VzIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgZG9ja2VyID0gcmVmKGZhbHNlKTsKICAgIFNjYW5BUEkuZ2V0RGlzY292ZXJUYXJnZXRzID0gYXN5bmMgKCkgPT4KICAgICAgcmVzcG9uc2UoCiAgICAgICAgZG9ja2VyLnZhbHVlCiAgICAgICAgICA/IFtjYW5kaWRhdGUoIjEwLjIwLjAuOCIsICJjb25maWd1cmVkIildCiAgICAgICAgICA6IG5hdGl2ZUNhbmRpZGF0ZXMsCiAgICAgICk7CiAgICBjb25zdCBtb2RlbCA9IHVzZVN1YmRvbWFpblRhcmdldE9wdGltaXphdGlvbih7CiAgICAgIGFsbE1hcHBpbmdzOiBjb21wdXRlZCgoKSA9PiBbCiAgICAgICAgbWFwcGluZygibG9vcC5leGFtcGxlLnRlc3QiLCAiaHR0cDovLzEyNy4wLjAuMTo4MDgwIiksCiAgICAgICAgbWFwcGluZygibGFuLmV4YW1wbGUudGVzdCIsICJodHRwOi8vMTkyLjE2OC41MC44OjMwMDAiKSwKICAgICAgXSksCiAgICAgIGlzQXV0aFNlcnZpY2VUYXJnZXQ6ICgpID0+IGZhbHNlLAogICAgICBpc0RvY2tlckRlcGxveW1lbnQ6IGNvbXB1dGVkKCgpID0+IGRvY2tlci52YWx1ZSksCiAgICAgIGlzU2F2aW5nTWFwcGluZ3M6IHJlZihmYWxzZSksCiAgICAgIHJ1blNhdmVNYXBwaW5nczogYXN5bmMgKGFjdGlvbikgPT4gYWN0aW9uKCksCiAgICAgIHNhdmVIb3N0TWFwcGluZ3M6IGFzeW5jICgpID0+IHVuZGVmaW5lZCwKICAgICAgdHJhbnNsYXRlOiAoa2V5KSA9PiBrZXksCiAgICB9KTsKCiAgICBtb2RlbC5vcGVuRGlhbG9nKCk7CiAgICBhd2FpdCBuZXh0VGljaygpOwogICAgYXdhaXQgbmV4dFRpY2soKTsKICAgIG1vZGVsLnNldERlc3RpbmF0aW9uQWRkcmVzcygiMTI3LjAuMC4xIik7CiAgICBkb2NrZXIudmFsdWUgPSB0cnVlOwogICAgYXdhaXQgbmV4dFRpY2soKTsKICAgIGF3YWl0IG5leHRUaWNrKCk7CiAgICBhd2FpdCBuZXh0VGljaygpOwoKICAgIGFzc2VydC5lcXVhbChtb2RlbC5kZXN0aW5hdGlvbkFkZHJlc3MudmFsdWUsICIxMC4yMC4wLjgiKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIG1vZGVsLmRlc3RpbmF0aW9ucy52YWx1ZS5tYXAoKGl0ZW0pID0+IGl0ZW0uYWRkcmVzcyksCiAgICAgIFsiMTAuMjAuMC44Il0sCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKG1vZGVsLnNlbGVjdGVkQ291bnQudmFsdWUsIDEpOwogIH0pOwp9KTsKCmRlc2NyaWJlKCJzdWJkb21haW4gdGFyZ2V0IG9wdGltaXphdGlvbiBpbnRlcmZhY2UiLCAoKSA9PiB7CiAgaXQoIndpcmVzIHRoZSB0b3AgdXRpbGl0eSBtZW51IHRvIGEgcHJldmlldy1hbmQtY29uZmlybSBtdWx0aS1zZWxlY3QgZGlhbG9nIiwgKCkgPT4gewogICAgY29uc3QgcmVhZFNvdXJjZSA9IChwYXRoOiBzdHJpbmcpID0+CiAgICAgIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7CiAgICBjb25zdCBoZWFkZXIgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3N1YmRvbWFpbi1wcm94eS9TdWJkb21haW5NYXBwaW5nc0NhcmRIZWFkZXIudnVlIiwKICAgICk7CiAgICBjb25zdCBtYWludGVuYW5jZUl0ZW1zID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvU3ViZG9tYWluTWFwcGluZ3NNYWludGVuYW5jZU1lbnVJdGVtcy52dWUiLAogICAgKTsKICAgIGNvbnN0IGRpYWxvZyA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L1N1YmRvbWFpblRhcmdldE9wdGltaXphdGlvbkRpYWxvZy52dWUiLAogICAgKTsKICAgIGNvbnN0IG92ZXJ2aWV3ID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvU3ViZG9tYWluUHJveHlPdmVydmlldy52dWUiLAogICAgKTsKCiAgICBhc3NlcnQubWF0Y2goaGVhZGVyLCAvZW1pdFwoJ29wZW4tdGFyZ2V0LW9wdGltaXphdGlvbidcKS91KTsKICAgIGFzc2VydC5tYXRjaChoZWFkZXIsIC9TdWJkb21haW5NYXBwaW5nc01haW50ZW5hbmNlTWVudUl0ZW1zL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG1haW50ZW5hbmNlSXRlbXMsIC8haGFzTWFwcGluZ3MgXHxcfCBzYXZpbmcgXHxcfCBjbGVhcmluZy91KTsKICAgIGFzc2VydC5tYXRjaChvdmVydmlldywgL0BvcGVuLXRhcmdldC1vcHRpbWl6YXRpb249Im9wZW5UYXJnZXRPcHRpbWl6YXRpb24iL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZywgLzxTZWxlY3QvdSk7CiAgICBhc3NlcnQubWF0Y2goZGlhbG9nLCAvPENoZWNrYm94L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZywgL3ByZXZpZXdcLnRhcmdldC91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2csIC9wcmV2aWV3XC5uZXh0VGFyZ2V0L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZywgL3NhdmVPcHRpbWl6ZWRUYXJnZXRzL3UpOwogIH0pOwp9KTsK
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { afterEach, describe, it } from "node:test";
+import { computed, nextTick, ref } from "vue";
+import {
+  ScanAPI,
+  type ScanDiscoveryHostCandidate,
+  type ScanDiscoveryTargetsResponse,
+} from "../src/lib/api/scan";
+import type { HostMapping } from "../src/types";
+import { createDefaultMapping } from "../src/views/subdomain-proxy/model";
+import {
+  buildTargetOptimizationDestinations,
+  buildTargetOptimizationPreviews,
+  parseOptimizableTargetHostname,
+  resolveDefaultTargetOptimizationDestination,
+  rewriteTargetHostname,
+} from "../src/views/subdomain-proxy/subdomain-target-optimization";
+import { useSubdomainTargetOptimization } from "../src/views/subdomain-proxy/useSubdomainTargetOptimization";
+import { useHostTargetCandidateCatalog } from "../src/views/subdomain-proxy/useHostTargetCandidateCatalog";
+
+const candidate = (
+  address: string,
+  source: ScanDiscoveryHostCandidate["source"],
+): ScanDiscoveryHostCandidate => ({
+  address,
+  cidr: `${address}/32`,
+  includedInAutomaticScan: true,
+  recommended: source === "loopback",
+  source,
+});
+
+const nativeCandidates = [
+  candidate("127.0.0.1", "loopback"),
+  candidate("192.168.50.8", "interface"),
+  candidate("10.20.0.8", "interface"),
+];
+
+const mapping = (host: string, target: string): HostMapping => ({
+  ...createDefaultMapping(),
+  host,
+  target,
+});
+
+const response = (
+  hostCandidates: ScanDiscoveryHostCandidate[],
+): ScanDiscoveryTargetsResponse =>
+  ({
+    automaticTargets: [],
+    customTargets: [],
+    effectiveCidrs: [],
+    hostCandidates,
+    limits: { maxCidrs: 8, maxHosts: 2048 },
+    selectedCidrs: [],
+    selectedTargets: [],
+    selectionMode: "automatic",
+  }) as ScanDiscoveryTargetsResponse;
+
+const originalGetDiscoverTargets = ScanAPI.getDiscoverTargets;
+const originalConsoleWarn = console.warn;
+afterEach(() => {
+  ScanAPI.getDiscoverTargets = originalGetDiscoverTargets;
+  console.warn = originalConsoleWarn;
+});
+
+describe("subdomain target optimization model", () => {
+  it("rewrites only the IPv4 hostname while preserving the original target text", () => {
+    const targets = [
+      "http://127.0.0.1:80",
+      "https://user:pass@127.0.0.1:443/path?q=1#part",
+      "ws://127.0.0.1:9000/socket",
+      "wss://127.0.0.1:9443/socket?token=yes",
+      "  http://127.0.0.1:8080/path  ",
+    ];
+    for (const target of targets) {
+      assert.equal(
+        rewriteTargetHostname(
+          target,
+          new Set(["127.0.0.1"]),
+          "192.168.50.8",
+        ),
+        target.replace("127.0.0.1", "192.168.50.8"),
+      );
+    }
+  });
+
+  it("strictly rejects localhost, other loopback addresses, hostnames, and invalid targets", () => {
+    for (const target of [
+      "http://localhost:8080",
+      "http://device.local:8080",
+      "ftp://127.0.0.1:21",
+      "127.0.0.1:8080",
+      "not a target",
+    ]) {
+      assert.equal(parseOptimizableTargetHostname(target), null);
+      assert.equal(
+        rewriteTargetHostname(
+          target,
+          new Set(["127.0.0.1"]),
+          "192.168.50.8",
+        ),
+        null,
+      );
+    }
+    assert.equal(
+      rewriteTargetHostname(
+        "http://127.0.0.2:8080",
+        new Set(["127.0.0.1"]),
+        "192.168.50.8",
+      ),
+      null,
+    );
+  });
+
+  it("never converts the protected 127.0.0.1:7998 backend target", () => {
+    for (const target of [
+      "http://127.0.0.1:7998",
+      "https://127.0.0.1:7998/admin?tab=status",
+      "  http://127.0.0.1:7998/health  ",
+    ]) {
+      assert.equal(parseOptimizableTargetHostname(target), null);
+      assert.equal(
+        rewriteTargetHostname(
+          target,
+          new Set(["127.0.0.1"]),
+          "192.168.50.8",
+        ),
+        null,
+      );
+    }
+
+    assert.deepEqual(
+      buildTargetOptimizationPreviews({
+        candidates: nativeCandidates,
+        destinationAddress: "192.168.50.8",
+        isAuthServiceTarget: () => false,
+        isDockerDeployment: false,
+        mappings: [
+          mapping("backend.example.test", "http://127.0.0.1:7998"),
+          mapping("app.example.test", "http://127.0.0.1:8080"),
+        ],
+      }).map((preview) => preview.host),
+      ["app.example.test"],
+    );
+  });
+
+  it("converts only detected local interfaces back to exact loopback", () => {
+    const mappings = [
+      mapping("local.example.test", "http://192.168.50.8:8080/path"),
+      mapping("other.example.test", "http://192.168.50.99:8080"),
+      mapping("loop.example.test", "http://127.0.0.1:8080"),
+    ];
+    assert.deepEqual(
+      buildTargetOptimizationPreviews({
+        candidates: nativeCandidates,
+        destinationAddress: "127.0.0.1",
+        isAuthServiceTarget: () => false,
+        isDockerDeployment: false,
+        mappings,
+      }),
+      [
+        {
+          direction: "lan_to_loopback",
+          host: "local.example.test",
+          target: "http://192.168.50.8:8080/path",
+          nextTarget: "http://127.0.0.1:8080/path",
+        },
+      ],
+    );
+  });
+
+  it("keeps loopback out of Docker destinations and ignores auth mappings", () => {
+    const dockerCandidates = [
+      candidate("127.0.0.1", "loopback"),
+      candidate("192.168.50.8", "proxy"),
+    ];
+    assert.deepEqual(
+      buildTargetOptimizationDestinations(dockerCandidates, true).map(
+        (item) => item.address,
+      ),
+      ["192.168.50.8"],
+    );
+    assert.equal(
+      buildTargetOptimizationPreviews({
+        candidates: dockerCandidates,
+        destinationAddress: "127.0.0.1",
+        isAuthServiceTarget: () => false,
+        isDockerDeployment: true,
+        mappings: [mapping("app.example.test", "http://192.168.50.8:80")],
+      }).length,
+      0,
+    );
+    assert.equal(
+      buildTargetOptimizationPreviews({
+        candidates: dockerCandidates,
+        destinationAddress: "192.168.50.8",
+        isAuthServiceTarget: (target) => target.endsWith(":7997"),
+        isDockerDeployment: true,
+        mappings: [
+          mapping("app.example.test", "http://127.0.0.1:8080"),
+          mapping("auth.example.test", "http://127.0.0.1:7997"),
+        ],
+      }).length,
+      1,
+    );
+  });
+
+  it("prefers LAN for loopback mappings and otherwise selects loopback", () => {
+    assert.equal(
+      resolveDefaultTargetOptimizationDestination({
+        candidates: nativeCandidates,
+        isAuthServiceTarget: () => false,
+        isDockerDeployment: false,
+        mappings: [mapping("loop.example.test", "http://127.0.0.1:8080")],
+      }),
+      "192.168.50.8",
+    );
+    assert.equal(
+      resolveDefaultTargetOptimizationDestination({
+        candidates: nativeCandidates,
+        isAuthServiceTarget: () => false,
+        isDockerDeployment: false,
+        mappings: [mapping("lan.example.test", "http://10.20.0.8:8080")],
+      }),
+      "127.0.0.1",
+    );
+  });
+});
+
+describe("subdomain target optimization state", () => {
+  it("reports candidate failures with safe native and Docker fallbacks", async () => {
+    console.warn = () => undefined;
+    ScanAPI.getDiscoverTargets = async () => {
+      throw new Error("load failed");
+    };
+    const nativeCatalog = useHostTargetCandidateCatalog({
+      isDockerDeployment: computed(() => false),
+      open: computed(() => true),
+    });
+    await nextTick();
+    await nextTick();
+    assert.equal(nativeCatalog.loadFailed.value, true);
+    assert.deepEqual(
+      nativeCatalog.effectiveCandidates.value.map((item) => item.address),
+      ["127.0.0.1"],
+    );
+
+    const dockerCatalog = useHostTargetCandidateCatalog({
+      isDockerDeployment: computed(() => true),
+      open: computed(() => true),
+    });
+    await nextTick();
+    await nextTick();
+    assert.equal(dockerCatalog.loadFailed.value, true);
+    assert.deepEqual(dockerCatalog.effectiveCandidates.value, []);
+  });
+
+  it("defaults to all matching mappings, supports reselection, and saves only selected rows", async () => {
+    ScanAPI.getDiscoverTargets = async () => response(nativeCandidates);
+    const mappings = ref([
+      mapping("one.example.test", "http://127.0.0.1:8080"),
+      mapping("two.example.test", "https://127.0.0.1:8443/path"),
+      mapping("lan.example.test", "http://192.168.50.8:3000"),
+    ]);
+    const saved = ref<HostMapping[] | null>(null);
+    const model = useSubdomainTargetOptimization({
+      allMappings: computed(() => mappings.value),
+      isAuthServiceTarget: () => false,
+      isDockerDeployment: computed(() => false),
+      isSavingMappings: ref(false),
+      runSaveMappings: async (action) => action(),
+      saveHostMappings: async (next) => {
+        saved.value = next;
+      },
+      translate: (key) => key,
+    });
+
+    model.openDialog();
+    await nextTick();
+    await nextTick();
+    assert.equal(model.destinationAddress.value, "192.168.50.8");
+    assert.equal(model.selectedCount.value, 2);
+
+    model.setMappingSelected("two.example.test", false);
+    assert.equal(model.selectedCount.value, 1);
+    await model.saveOptimizedTargets();
+
+    assert.equal(model.isOpen.value, false);
+    assert.equal(
+      saved.value?.find((item) => item.host === "one.example.test")?.target,
+      "http://192.168.50.8:8080",
+    );
+    assert.equal(
+      saved.value?.find((item) => item.host === "two.example.test")?.target,
+      "https://127.0.0.1:8443/path",
+    );
+  });
+
+  it("reselects all eligible rows when the destination changes and stays open on save failure", async () => {
+    ScanAPI.getDiscoverTargets = async () => response(nativeCandidates);
+    const model = useSubdomainTargetOptimization({
+      allMappings: computed(() => [
+        mapping("loop.example.test", "http://127.0.0.1:8080"),
+        mapping("lan.example.test", "http://192.168.50.8:3000"),
+      ]),
+      isAuthServiceTarget: () => false,
+      isDockerDeployment: computed(() => false),
+      isSavingMappings: ref(false),
+      runSaveMappings: async (action) => {
+        try {
+          return await action();
+        } catch {
+          return undefined;
+        }
+      },
+      saveHostMappings: async () => {
+        throw new Error("save failed");
+      },
+      translate: (key) => key,
+    });
+
+    model.openDialog();
+    await nextTick();
+    await nextTick();
+    model.setAllSelected(false);
+    model.setDestinationAddress("127.0.0.1");
+    assert.deepEqual(
+      model.previews.value.map((item) => item.host),
+      ["lan.example.test"],
+    );
+    assert.equal(model.selectedCount.value, 1);
+
+    await model.saveOptimizedTargets();
+    assert.equal(model.isOpen.value, true);
+    assert.equal(model.selectedCount.value, 1);
+  });
+
+  it("recovers to a valid safe destination when deployment mode changes", async () => {
+    const docker = ref(false);
+    ScanAPI.getDiscoverTargets = async () =>
+      response(
+        docker.value
+          ? [candidate("10.20.0.8", "configured")]
+          : nativeCandidates,
+      );
+    const model = useSubdomainTargetOptimization({
+      allMappings: computed(() => [
+        mapping("loop.example.test", "http://127.0.0.1:8080"),
+        mapping("lan.example.test", "http://192.168.50.8:3000"),
+      ]),
+      isAuthServiceTarget: () => false,
+      isDockerDeployment: computed(() => docker.value),
+      isSavingMappings: ref(false),
+      runSaveMappings: async (action) => action(),
+      saveHostMappings: async () => undefined,
+      translate: (key) => key,
+    });
+
+    model.openDialog();
+    await nextTick();
+    await nextTick();
+    model.setDestinationAddress("127.0.0.1");
+    docker.value = true;
+    await nextTick();
+    await nextTick();
+    await nextTick();
+
+    assert.equal(model.destinationAddress.value, "10.20.0.8");
+    assert.deepEqual(
+      model.destinations.value.map((item) => item.address),
+      ["10.20.0.8"],
+    );
+    assert.equal(model.selectedCount.value, 1);
+  });
+});
+
+describe("subdomain target optimization interface", () => {
+  it("wires the top utility menu to a preview-and-confirm multi-select dialog", () => {
+    const readSource = (path: string) =>
+      readFileSync(new URL(path, import.meta.url), "utf8");
+    const header = readSource(
+      "../src/views/subdomain-proxy/SubdomainMappingsCardHeader.vue",
+    );
+    const maintenanceItems = readSource(
+      "../src/views/subdomain-proxy/SubdomainMappingsMaintenanceMenuItems.vue",
+    );
+    const dialog = readSource(
+      "../src/views/subdomain-proxy/SubdomainTargetOptimizationDialog.vue",
+    );
+    const overview = readSource(
+      "../src/views/subdomain-proxy/SubdomainProxyOverview.vue",
+    );
+
+    assert.match(header, /emit\('open-target-optimization'\)/u);
+    assert.match(header, /SubdomainMappingsMaintenanceMenuItems/u);
+    assert.match(maintenanceItems, /!hasMappings \|\| saving \|\| clearing/u);
+    assert.match(overview, /@open-target-optimization="openTargetOptimization"/u);
+    assert.match(dialog, /<Select/u);
+    assert.match(dialog, /<Checkbox/u);
+    assert.match(dialog, /preview\.target/u);
+    assert.match(dialog, /preview\.nextTarget/u);
+    assert.match(dialog, /saveOptimizedTargets/u);
+  });
+});

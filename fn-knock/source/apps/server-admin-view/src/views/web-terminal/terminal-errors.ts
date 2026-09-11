@@ -1,1 +1,114 @@
-aW1wb3J0IHsgZXh0cmFjdEVycm9yTWVzc2FnZSB9IGZyb20gIkBmcm9udGVuZC1jb3JlL2Vycm9ycy9leHRyYWN0RXJyb3JNZXNzYWdlIjsKaW1wb3J0IHR5cGUgewogIFRlcm1pbmFsRXJyb3JDb2RlLAogIFRlcm1pbmFsRXJyb3JFbnZlbG9wZSwKfSBmcm9tICJAL2xpYi9hcGkvdGVybWluYWwiOwoKY29uc3QgdGVybWluYWxFcnJvckNvZGVzID0gbmV3IFNldDxUZXJtaW5hbEVycm9yQ29kZT4oWwogICJmZWF0dXJlX2Rpc2FibGVkIiwKICAiaW52YWxpZF9yZXF1ZXN0IiwKICAidGFyZ2V0X25vdF9mb3VuZCIsCiAgInNlc3Npb25fbm90X2ZvdW5kIiwKICAiaG9zdF9rZXlfcmVxdWlyZWQiLAogICJob3N0X2tleV9taXNtYXRjaCIsCiAgImF1dGhlbnRpY2F0aW9uX2ZhaWxlZCIsCiAgInB0eV9yZWplY3RlZCIsCiAgInNlc3Npb25fbGltaXRfcmVhY2hlZCIsCiAgInNlc3Npb25fbG9zdCIsCiAgImF0dGFjaG1lbnRfZXhwaXJlZCIsCiAgImNvbnRyb2xsZXJfY29uZmxpY3QiLAogICJ0YXJnZXRfcmV2aXNpb25fY29uZmxpY3QiLAogICJsb2NhbF90ZXJtaW5hbF91bnN1cHBvcnRlZCIsCiAgImxvY2FsX3Rlcm1pbmFsX2Rpc2FibGVkIiwKICAibG9jYWxfdGVybWluYWxfcmlza19hY2tub3dsZWRnZW1lbnRfcmVxdWlyZWQiLAogICJsb2NhbF90ZXJtaW5hbF9yZXZpc2lvbl9jb25mbGljdCIsCiAgImxvY2FsX3NoZWxsX3VuYXZhaWxhYmxlIiwKICAibG9jYWxfcHR5X3N0YXJ0X2ZhaWxlZCIsCiAgImNvbm5lY3RfdGltZW91dCIsCiAgImNvbmZsaWN0IiwKICAidXBzdHJlYW1fdW5hdmFpbGFibGUiLAogICJyZXNvdXJjZV9idXN5IiwKICAiaW50ZXJuYWxfZXJyb3IiLApdKTsKCmV4cG9ydCB0eXBlIFRlcm1pbmFsUmVxdWVzdEVycm9yID0gewogIGFjdGl2ZVNlc3Npb25Db3VudDogbnVtYmVyIHwgbnVsbDsKICBjb25maXJtYXRpb25Ub2tlbjogc3RyaW5nIHwgbnVsbDsKICBlcnJvckNvZGU6IFRlcm1pbmFsRXJyb3JDb2RlIHwgbnVsbDsKICBtZXNzYWdlOiBzdHJpbmc7Cn07Cgpjb25zdCB0ZXJtaW5hbEVycm9yVHJhbnNsYXRpb25LZXlzOiBQYXJ0aWFsPFJlY29yZDxUZXJtaW5hbEVycm9yQ29kZSwgc3RyaW5nPj4gPQogIHsKICAgIGZlYXR1cmVfZGlzYWJsZWQ6ICJhZG1pbi53ZWJUZXJtaW5hbFNldHRpbmdzLmRpc2FibGVkIiwKICAgIGxvY2FsX3Rlcm1pbmFsX3Vuc3VwcG9ydGVkOgogICAgICAiYWRtaW4ud2ViVGVybWluYWwudGVybWluYWxFcnJvci5sb2NhbFRlcm1pbmFsVW5zdXBwb3J0ZWQiLAogICAgbG9jYWxfdGVybWluYWxfZGlzYWJsZWQ6CiAgICAgICJhZG1pbi53ZWJUZXJtaW5hbC50ZXJtaW5hbEVycm9yLmxvY2FsVGVybWluYWxEaXNhYmxlZCIsCiAgICBsb2NhbF90ZXJtaW5hbF9yaXNrX2Fja25vd2xlZGdlbWVudF9yZXF1aXJlZDoKICAgICAgImFkbWluLndlYlRlcm1pbmFsLnRlcm1pbmFsRXJyb3IubG9jYWxUZXJtaW5hbFJpc2tBY2tub3dsZWRnZW1lbnRSZXF1aXJlZCIsCiAgICBsb2NhbF90ZXJtaW5hbF9yZXZpc2lvbl9jb25mbGljdDoKICAgICAgImFkbWluLndlYlRlcm1pbmFsLnRlcm1pbmFsRXJyb3IubG9jYWxUZXJtaW5hbFJldmlzaW9uQ29uZmxpY3QiLAogICAgbG9jYWxfc2hlbGxfdW5hdmFpbGFibGU6CiAgICAgICJhZG1pbi53ZWJUZXJtaW5hbC50ZXJtaW5hbEVycm9yLmxvY2FsU2hlbGxVbmF2YWlsYWJsZSIsCiAgICBsb2NhbF9wdHlfc3RhcnRfZmFpbGVkOgogICAgICAiYWRtaW4ud2ViVGVybWluYWwudGVybWluYWxFcnJvci5sb2NhbFB0eVN0YXJ0RmFpbGVkIiwKICB9OwoKZXhwb3J0IGNvbnN0IGxvY2FsaXplVGVybWluYWxFcnJvciA9ICgKICBmYWlsdXJlOiBQaWNrPFRlcm1pbmFsUmVxdWVzdEVycm9yLCAiZXJyb3JDb2RlIiB8ICJtZXNzYWdlIj4sCiAgdHJhbnNsYXRlOiAoa2V5OiBzdHJpbmcpID0+IHN0cmluZywKKSA9PiB7CiAgY29uc3Qga2V5ID0gZmFpbHVyZS5lcnJvckNvZGUKICAgID8gdGVybWluYWxFcnJvclRyYW5zbGF0aW9uS2V5c1tmYWlsdXJlLmVycm9yQ29kZV0KICAgIDogdW5kZWZpbmVkOwogIHJldHVybiBrZXkgPyB0cmFuc2xhdGUoa2V5KSA6IGZhaWx1cmUubWVzc2FnZTsKfTsKCmNvbnN0IGdldFJlc3BvbnNlRGF0YSA9ICgKICBlcnJvcjogdW5rbm93biwKKTogKFBhcnRpYWw8VGVybWluYWxFcnJvckVudmVsb3BlPiAmIFJlY29yZDxzdHJpbmcsIHVua25vd24+KSB8IG51bGwgPT4gewogIGlmICghZXJyb3IgfHwgdHlwZW9mIGVycm9yICE9PSAib2JqZWN0IikgcmV0dXJuIG51bGw7CiAgY29uc3QgcmVzcG9uc2VEYXRhID0gKGVycm9yIGFzIHsgcmVzcG9uc2U/OiB7IGRhdGE/OiB1bmtub3duIH0gfSkucmVzcG9uc2UKICAgID8uZGF0YTsKICByZXR1cm4gcmVzcG9uc2VEYXRhICYmIHR5cGVvZiByZXNwb25zZURhdGEgPT09ICJvYmplY3QiCiAgICA/IChyZXNwb25zZURhdGEgYXMgUGFydGlhbDxUZXJtaW5hbEVycm9yRW52ZWxvcGU+ICYgUmVjb3JkPHN0cmluZywgdW5rbm93bj4pCiAgICA6IG51bGw7Cn07CgpleHBvcnQgY29uc3QgZXh0cmFjdFRlcm1pbmFsRXJyb3JDb2RlID0gKAogIGVycm9yOiB1bmtub3duLAopOiBUZXJtaW5hbEVycm9yQ29kZSB8IG51bGwgPT4gewogIGNvbnN0IGNvZGUgPSBnZXRSZXNwb25zZURhdGEoZXJyb3IpPy5lcnJvckNvZGU7CiAgcmV0dXJuIHR5cGVvZiBjb2RlID09PSAic3RyaW5nIiAmJgogICAgdGVybWluYWxFcnJvckNvZGVzLmhhcyhjb2RlIGFzIFRlcm1pbmFsRXJyb3JDb2RlKQogICAgPyAoY29kZSBhcyBUZXJtaW5hbEVycm9yQ29kZSkKICAgIDogbnVsbDsKfTsKCmV4cG9ydCBjb25zdCBleHRyYWN0VGVybWluYWxFcnJvciA9ICgKICBlcnJvcjogdW5rbm93biwKICBmYWxsYmFjayA9ICJUZXJtaW5hbCByZXF1ZXN0IGZhaWxlZCIsCik6IFRlcm1pbmFsUmVxdWVzdEVycm9yID0+IHsKICBjb25zdCBhY3RpdmVTZXNzaW9uQ291bnQgPSBnZXRSZXNwb25zZURhdGEoZXJyb3IpPy5hY3RpdmVTZXNzaW9uQ291bnQ7CiAgY29uc3QgY29uZmlybWF0aW9uVG9rZW4gPSBnZXRSZXNwb25zZURhdGEoZXJyb3IpPy5jb25maXJtYXRpb25Ub2tlbjsKICByZXR1cm4gewogICAgYWN0aXZlU2Vzc2lvbkNvdW50OgogICAgICB0eXBlb2YgYWN0aXZlU2Vzc2lvbkNvdW50ID09PSAibnVtYmVyIiAmJgogICAgICBOdW1iZXIuaXNTYWZlSW50ZWdlcihhY3RpdmVTZXNzaW9uQ291bnQpICYmCiAgICAgIGFjdGl2ZVNlc3Npb25Db3VudCA+PSAwCiAgICAgICAgPyBhY3RpdmVTZXNzaW9uQ291bnQKICAgICAgICA6IG51bGwsCiAgICBjb25maXJtYXRpb25Ub2tlbjoKICAgICAgdHlwZW9mIGNvbmZpcm1hdGlvblRva2VuID09PSAic3RyaW5nIiAmJiBjb25maXJtYXRpb25Ub2tlbi50cmltKCkKICAgICAgICA/IGNvbmZpcm1hdGlvblRva2VuCiAgICAgICAgOiBudWxsLAogICAgZXJyb3JDb2RlOiBleHRyYWN0VGVybWluYWxFcnJvckNvZGUoZXJyb3IpLAogICAgbWVzc2FnZTogZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgZmFsbGJhY2spLAogIH07Cn07CgpleHBvcnQgY29uc3QgZXh0cmFjdFRlcm1pbmFsRXJyb3JNZXNzYWdlID0gKAogIGVycm9yOiB1bmtub3duLAogIGZhbGxiYWNrPzogc3RyaW5nLAopID0+IGV4dHJhY3RUZXJtaW5hbEVycm9yKGVycm9yLCBmYWxsYmFjaykubWVzc2FnZTsK
+import { extractErrorMessage } from "@frontend-core/errors/extractErrorMessage";
+import type {
+  TerminalErrorCode,
+  TerminalErrorEnvelope,
+} from "@/lib/api/terminal";
+
+const terminalErrorCodes = new Set<TerminalErrorCode>([
+  "feature_disabled",
+  "invalid_request",
+  "target_not_found",
+  "session_not_found",
+  "host_key_required",
+  "host_key_mismatch",
+  "authentication_failed",
+  "pty_rejected",
+  "session_limit_reached",
+  "session_lost",
+  "attachment_expired",
+  "controller_conflict",
+  "target_revision_conflict",
+  "local_terminal_unsupported",
+  "local_terminal_disabled",
+  "local_terminal_risk_acknowledgement_required",
+  "local_terminal_revision_conflict",
+  "local_shell_unavailable",
+  "local_pty_start_failed",
+  "connect_timeout",
+  "conflict",
+  "upstream_unavailable",
+  "resource_busy",
+  "internal_error",
+]);
+
+export type TerminalRequestError = {
+  activeSessionCount: number | null;
+  confirmationToken: string | null;
+  errorCode: TerminalErrorCode | null;
+  message: string;
+};
+
+const terminalErrorTranslationKeys: Partial<Record<TerminalErrorCode, string>> =
+  {
+    feature_disabled: "admin.webTerminalSettings.disabled",
+    local_terminal_unsupported:
+      "admin.webTerminal.terminalError.localTerminalUnsupported",
+    local_terminal_disabled:
+      "admin.webTerminal.terminalError.localTerminalDisabled",
+    local_terminal_risk_acknowledgement_required:
+      "admin.webTerminal.terminalError.localTerminalRiskAcknowledgementRequired",
+    local_terminal_revision_conflict:
+      "admin.webTerminal.terminalError.localTerminalRevisionConflict",
+    local_shell_unavailable:
+      "admin.webTerminal.terminalError.localShellUnavailable",
+    local_pty_start_failed:
+      "admin.webTerminal.terminalError.localPtyStartFailed",
+  };
+
+export const localizeTerminalError = (
+  failure: Pick<TerminalRequestError, "errorCode" | "message">,
+  translate: (key: string) => string,
+) => {
+  const key = failure.errorCode
+    ? terminalErrorTranslationKeys[failure.errorCode]
+    : undefined;
+  return key ? translate(key) : failure.message;
+};
+
+const getResponseData = (
+  error: unknown,
+): (Partial<TerminalErrorEnvelope> & Record<string, unknown>) | null => {
+  if (!error || typeof error !== "object") return null;
+  const responseData = (error as { response?: { data?: unknown } }).response
+    ?.data;
+  return responseData && typeof responseData === "object"
+    ? (responseData as Partial<TerminalErrorEnvelope> & Record<string, unknown>)
+    : null;
+};
+
+export const extractTerminalErrorCode = (
+  error: unknown,
+): TerminalErrorCode | null => {
+  const code = getResponseData(error)?.errorCode;
+  return typeof code === "string" &&
+    terminalErrorCodes.has(code as TerminalErrorCode)
+    ? (code as TerminalErrorCode)
+    : null;
+};
+
+export const extractTerminalError = (
+  error: unknown,
+  fallback = "Terminal request failed",
+): TerminalRequestError => {
+  const activeSessionCount = getResponseData(error)?.activeSessionCount;
+  const confirmationToken = getResponseData(error)?.confirmationToken;
+  return {
+    activeSessionCount:
+      typeof activeSessionCount === "number" &&
+      Number.isSafeInteger(activeSessionCount) &&
+      activeSessionCount >= 0
+        ? activeSessionCount
+        : null,
+    confirmationToken:
+      typeof confirmationToken === "string" && confirmationToken.trim()
+        ? confirmationToken
+        : null,
+    errorCode: extractTerminalErrorCode(error),
+    message: extractErrorMessage(error, fallback),
+  };
+};
+
+export const extractTerminalErrorMessage = (
+  error: unknown,
+  fallback?: string,
+) => extractTerminalError(error, fallback).message;

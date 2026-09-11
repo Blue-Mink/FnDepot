@@ -1,1 +1,188 @@
-dXNlIGF4dW06OnsKICAgIEpzb24sIFJvdXRlciwKICAgIGV4dHJhY3Q6OntFeHRlbnNpb24sIFBhdGgsIFF1ZXJ5LCBTdGF0ZX0sCiAgICBodHRwOjp7SGVhZGVyTWFwLCBIZWFkZXJWYWx1ZSwgTWV0aG9kLCBTdGF0dXNDb2RlLCBVcmksIGhlYWRlcn0sCiAgICByZXNwb25zZTo6e0ludG9SZXNwb25zZSwgUmVzcG9uc2V9LAogICAgcm91dGluZzo6e2dldCwgaGVhZCwgcG9zdH0sCn07CnVzZSBiYXNlNjQ6OnsKICAgIEVuZ2luZSBhcyBfLAogICAgZW5naW5lOjpnZW5lcmFsX3B1cnBvc2U6OntTVEFOREFSRCBhcyBCQVNFNjRfU1RBTkRBUkQsIFVSTF9TQUZFX05PX1BBRH0sCn07CiNbY2ZnKHRlc3QpXQp1c2UgaXBuZXQ6OklwTmV0Owp1c2Ugc2VyZGU6OkRlc2VyaWFsaXplOwp1c2Ugc2VyZGVfanNvbjo6e1ZhbHVlLCBqc29ufTsKdXNlIHN0ZDo6e2NvbGxlY3Rpb25zOjpCVHJlZVNldCwgZW52LCBuZXQ6OklwQWRkcn07CnVzZSBzdWJ0bGU6OkNvbnN0YW50VGltZUVxOwp1c2UgdG90cF9yczo6e0FsZ29yaXRobSwgU2VjcmV0LCBUT1RQfTsKCnVzZSBjcmF0ZTo6ewogICAgYXV0aDo6bW9kZTo6e0F1dGhMb2dpbk1vZGUsIEF1dGhNZXRob2R9LAogICAgYXV0aF9tb2JpbGl0eTo6e3NlbGYsIENyZWF0ZUxvZ2luU2Vzc2lvbklucHV0fSwKICAgIGJhY2tvZmY6Om5vcm1hbGl6ZV9hdXRoX2ZhaWx1cmVfdHJhY2tpbmdfaXAsCiAgICBjb21tb25fYXV0aF9sb2NhdGlvbnMsIGNvb2tpZXMsIGZub3Nfc2hhcmVfYnlwYXNzLCBodHRwX3V0aWxzLAogICAgaTE4bjo6VHJhbnNsYXRvciwKICAgIGlwX2xvY2F0aW9uLAogICAgb2lkY19hZG1pbjo6ewogICAgICAgIGNhbGxiYWNrX2Jhc2VfdXJsLCBvaWRjX2dldF9wcm92aWRlciwgb2lkY19pbnNwZWN0X2ludml0ZSwgb2lkY19wdWJsaWNfcHJvdmlkZXJzLAogICAgfSwKICAgIG9pZGNfcnVudGltZTo6e2NvbnN1bWVfbG9naW5fZXJyb3JfZm9yX2Jvb3RzdHJhcCwgb2lkY19ydW50aW1lX3JvdXRlc30sCiAgICBwYXNza2V5X3J1bnRpbWU6OntidWlsZF9wYXNza2V5X2JpbmRfaW5mbywgcGFzc2tleV9yb3V0ZXMsIHB1YmxpY19wYXNza2V5X3N0YXR1c30sCiAgICByZXNwb25zZTo6e3NlbGYsIEFwaUVudmVsb3BlfSwKICAgIHJ1bnRpbWVfY29uZmlnLCBzY2FubmVyLAogICAgc3RhdGU6OkFwcFN0YXRlLAogICAgc3RvcmU6OntMb2dpblNlc3Npb24sIFRvdHBDcmVkZW50aWFsfSwKICAgIHN5c3RlbV9ldmVudHMsIHRpbWVfdXRpbHMsIHdoaXRlbGlzdCwKfTsKCm1vZCBicmlkZ2U7Cm1vZCBjYXB0Y2hhOwptb2QgaGFuZGxlcnM7Cm1vZCBwcmVmbGlnaHQ7Cm1vZCByZWRpcmVjdDsKbW9kIHN1YmRvbWFpbl9ncmFudDsKbW9kIHV0aWxzOwptb2QgdmVyaWZ5Owptb2Qgd29sOwoKcHViKGNyYXRlKSB1c2UgYnJpZGdlOjpzdGFydF9hdXRoX2JyaWRnZTsKcHViKGNyYXRlKSB1c2UgY2FwdGNoYTo6dmVyaWZ5X2NhcHRjaGE7CnVzZSBjYXB0Y2hhOjoqOwpwdWIoY3JhdGUpIHVzZSBoYW5kbGVyczo6YmFja29mZl9sb2dpbl9yZXNwb25zZTsKdXNlIGhhbmRsZXJzOjoqOwp1c2UgcHJlZmxpZ2h0OjoqOwpwdWIoY3JhdGUpIHVzZSBwcmVmbGlnaHQ6Ontsb2dpbl9zZXNzaW9uX2hhc19leHBpcmVkLCByZXZva2VfZXhwaXJlZF9wcmVzZW50ZWRfc2Vzc2lvbn07CnB1YihjcmF0ZSkgdXNlIHJlZGlyZWN0OjoqOwpwdWIoY3JhdGUpIHVzZSB1dGlsczo6KjsKdXNlIHZlcmlmeTo6KjsKCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHM7Cgpjb25zdCBUVVJOU1RJTEVfVkVSSUZZX1VSTDogJnN0ciA9ICJodHRwczovL2NoYWxsZW5nZXMuY2xvdWRmbGFyZS5jb20vdHVybnN0aWxlL3YwL3NpdGV2ZXJpZnkiOwpjb25zdCBQT1dfTUFYX05VTUJFUjogdTMyID0gcnVudGltZV9jb25maWc6OlBPV19ERUZBVUxUX0JBU0VfTUFYX05VTUJFUiBhcyB1MzI7CmNvbnN0IFJFQVVUSF9BQ0NFU1NfREVOSUVEX0hFQURFUjogJnN0ciA9ICJYLVJlYXV0aC1BY2Nlc3MtRGVuaWVkIjsKY29uc3QgUkVBVVRIX1NDT1BFX0RFTklFRDogJnN0ciA9ICJzY29wZSI7CmNvbnN0IFJFQVVUSF9TVUJET01BSU5fQUNDRVNTX0hFQURFUjogJnN0ciA9ICJYLVJlYXV0aC1TdWJkb21haW4tQWNjZXNzIjsKY29uc3QgUkVBVVRIX0FMTE9XRURfU1VCRE9NQUlOX0hPU1RTX0hFQURFUjogJnN0ciA9ICJYLVJlYXV0aC1BbGxvd2VkLVN1YmRvbWFpbi1Ib3N0cyI7CmNvbnN0IFJFQVVUSF9DUkVERU5USUFMX0lEX0hFQURFUjogJnN0ciA9ICJYLVJlYXV0aC1DcmVkZW50aWFsLUlkIjsKY29uc3QgUkVBVVRIX0NSRURFTlRJQUxfTkFNRV9IRUFERVI6ICZzdHIgPSAiWC1SZWF1dGgtQ3JlZGVudGlhbC1OYW1lIjsKY29uc3QgUkVBVVRIX0NSRURFTlRJQUxfTUVUSE9EX0hFQURFUjogJnN0ciA9ICJYLVJlYXV0aC1DcmVkZW50aWFsLU1ldGhvZCI7CmNvbnN0IFJFQVVUSF9MSU5LRURfVE9UUF9JRF9IRUFERVI6ICZzdHIgPSAiWC1SZWF1dGgtTGlua2VkLVRvdHAtSWQiOwpjb25zdCBSRUFVVEhfTElOS0VEX1RPVFBfTkFNRV9IRUFERVI6ICZzdHIgPSAiWC1SZWF1dGgtTGlua2VkLVRvdHAtTmFtZSI7CmNvbnN0IFJFQVVUSF9TVUJET01BSU5fQUNDRVNTX0NVU1RPTTogJnN0ciA9ICJjdXN0b20iOwpjb25zdCBUT1RQX1NVQkRPTUFJTl9BQ0NFU1NfU0VMRUNUX1BBR0U6ICZzdHIgPSAiX19idWlsdGluX3NlbGVjdF9fIjsKY29uc3QgVE9UUF9TVUJET01BSU5fQUNDRVNTX1NFTEVDVF9QQUdFX1BBVEg6ICZzdHIgPSAiL19fc2VsZWN0X18iOwpjb25zdCBUT1RQX1NVQkRPTUFJTl9BQ0NFU1NfV09MX1BBR0U6ICZzdHIgPSAiX19idWlsdGluX3dvbF9fIjsKY29uc3QgVE9UUF9TVUJET01BSU5fQUNDRVNTX1dPTF9QQUdFX1BBVEg6ICZzdHIgPSAiL19fd29sX18iOwpjb25zdCBBVVRIX0lERU5USVRZX0hFQURFUl9NQVhfTEVOR1RIOiB1c2l6ZSA9IDI1NjsKY29uc3QgQVVUSF9JREVOVElUWV9IRUFERVJfRU5DT0RJTkdfUFJFRklYOiAmc3RyID0gImI2NDoiOwoKI1tkZXJpdmUoRGVzZXJpYWxpemUpXQpzdHJ1Y3QgQm9vdHN0cmFwUXVlcnkgewogICAgcmVkaXJlY3RfdXJpOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUpXQpzdHJ1Y3QgT2lkY0ludml0ZVF1ZXJ5IHsKICAgIHRva2VuOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUpXQpzdHJ1Y3QgT2lkY0NsaWVudE1ldGFkYXRhUXVlcnkgewogICAgcHJvdmlkZXJfaWQ6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShEZXNlcmlhbGl6ZSldCnN0cnVjdCBMb2dpbkJvZHkgewogICAgbWV0aG9kOiBPcHRpb248U3RyaW5nPiwKICAgIHRva2VuOiBPcHRpb248U3RyaW5nPiwKICAgIHVzZXJuYW1lOiBPcHRpb248U3RyaW5nPiwKICAgIHBhc3N3b3JkOiBPcHRpb248U3RyaW5nPiwKICAgIHByb3ZpZGVyX2lkOiBPcHRpb248U3RyaW5nPiwKICAgIGNhcHRjaGE6IENhcHRjaGFTdWJtaXNzaW9uLAogICAgI1tzZXJkZShkZWZhdWx0LCByZW5hbWUgPSAicmVtZW1iZXJNZSIpXQogICAgcmVtZW1iZXJfbWU6IGJvb2wsCiAgICByZWRpcmVjdF91cmk6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShEZXNlcmlhbGl6ZSldCiNbc2VyZGUodGFnID0gInByb3ZpZGVyIildCnB1YihjcmF0ZSkgZW51bSBDYXB0Y2hhU3VibWlzc2lvbiB7CiAgICAjW3NlcmRlKHJlbmFtZSA9ICJwb3ciKV0KICAgIFBvdyB7IHByb29mOiBTdHJpbmcgfSwKICAgICNbc2VyZGUocmVuYW1lID0gInR1cm5zdGlsZSIpXQogICAgVHVybnN0aWxlIHsgdG9rZW46IFN0cmluZyB9LAp9CgpmbiBzZXJ2ZXJfdGV4dCh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwga2V5OiAmc3RyKSAtPiBTdHJpbmcgewogICAgdHJhbnNsYXRvci50KCZmb3JtYXQhKCJzZXJ2ZXIue2tleX0iKSkKfQoKZm4gc2VydmVyX3RleHRfcGFyYW1zKHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLCBrZXk6ICZzdHIsIHBhcmFtczogJlsoJnN0ciwgU3RyaW5nKV0pIC0+IFN0cmluZyB7CiAgICB0cmFuc2xhdG9yLnRfcGFyYW1zKCZmb3JtYXQhKCJzZXJ2ZXIue2tleX0iKSwgcGFyYW1zKQp9CgpmbiBhdXRoX3JvdXRlX3RleHQodHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsIGtleTogJnN0cikgLT4gU3RyaW5nIHsKICAgIHRyYW5zbGF0b3IudCgmZm9ybWF0ISgic2VydmVyLmF1dGhSb3V0ZXMue2tleX0iKSkKfQoKZm4gY2FwdGNoYV90ZXh0KHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLCBrZXk6ICZzdHIpIC0+IFN0cmluZyB7CiAgICB0cmFuc2xhdG9yLnQoJmZvcm1hdCEoInNlcnZlci5jYXB0Y2hhLntrZXl9IikpCn0KCmZuIGNhcHRjaGFfdGV4dF9wYXJhbXModHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsIGtleTogJnN0ciwgcGFyYW1zOiAmWygmc3RyLCBTdHJpbmcpXSkgLT4gU3RyaW5nIHsKICAgIHRyYW5zbGF0b3IudF9wYXJhbXMoJmZvcm1hdCEoInNlcnZlci5jYXB0Y2hhLntrZXl9IiksIHBhcmFtcykKfQoKZm4gb2lkY190ZXh0KHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLCBrZXk6ICZzdHIpIC0+IFN0cmluZyB7CiAgICB0cmFuc2xhdG9yLnQoJmZvcm1hdCEoInNlcnZlci5vaWRjLntrZXl9IikpCn0KCmZuIHRyYW5zbGF0b3JfZnJvbV9jb25maWcoY29uZmlnOiAmVmFsdWUpIC0+IFRyYW5zbGF0b3IgewogICAgbGV0IGxvY2FsZSA9IGNvbmZpZwogICAgICAgIC5nZXQoImxvY2FsZSIpCiAgICAgICAgLmFuZF90aGVuKHxsb2NhbGV8IGxvY2FsZS5nZXQoImRlZmF1bHRfbG9jYWxlIikpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcihjcmF0ZTo6aTE4bjo6REVGQVVMVF9MT0NBTEUpOwogICAgVHJhbnNsYXRvcjo6bmV3KGxvY2FsZSkKfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUpXQpzdHJ1Y3QgUG93UHJvb2YgewogICAgYWxnb3JpdGhtOiBPcHRpb248U3RyaW5nPiwKICAgIGNoYWxsZW5nZTogT3B0aW9uPFN0cmluZz4sCiAgICBudW1iZXI6IE9wdGlvbjxWYWx1ZT4sCiAgICBzYWx0OiBPcHRpb248U3RyaW5nPiwKICAgIHNpZ25hdHVyZTogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKERlYnVnLCBQYXJ0aWFsRXEsIEVxKV0Kc3RydWN0IFBvd1ZhbGlkYXRpb24gewogICAgbm9uY2U6IFN0cmluZywKfQoKcHViIGZuIGF1dGhfYXBpX3JvdXRlcygpIC0+IFJvdXRlcjxBcHBTdGF0ZT4gewogICAgUm91dGVyOjpuZXcoKQogICAgICAgIC5yb3V0ZSgiL2Jvb3RzdHJhcCIsIGdldChib290c3RyYXApKQogICAgICAgIC5yb3V0ZSgiL3Nlc3Npb24iLCBnZXQoc2Vzc2lvbikpCiAgICAgICAgLnJvdXRlKCIvY2FwdGNoYS9jb25maWciLCBnZXQoY2FwdGNoYV9jb25maWcpKQogICAgICAgIC5yb3V0ZSgiL2NoYWxsZW5nZSIsIGdldChjaGFsbGVuZ2UpKQogICAgICAgIC5yb3V0ZSgiL2lwIiwgZ2V0KGlwKSkKICAgICAgICAucm91dGUoIi9pcC9sb2NhdGlvbiIsIGdldChpcF9sb2NhdGlvbikpCiAgICAgICAgLnJvdXRlKCIvbG9naW4iLCBwb3N0KGxvZ2luKSkKICAgICAgICAucm91dGUoIi9sb2dvdXQiLCBnZXQobG9nb3V0KSkKICAgICAgICAucm91dGUoIi9wcmVmbGlnaHQiLCBoZWFkKHByZWZsaWdodCkpCiAgICAgICAgLnJvdXRlKCIvdmVyaWZ5IiwgZ2V0KHZlcmlmeSkpCiAgICAgICAgLnJvdXRlKCIvd29sL3RhcmdldHMiLCBnZXQod29sOjp0YXJnZXRzKSkKICAgICAgICAucm91dGUoIi93b2wvdGFyZ2V0cy97aWR9L3dha2UiLCBwb3N0KHdvbDo6d2FrZSkpCiAgICAgICAgLnJvdXRlKCIvd29sL3RhcmdldHMve2lkfS9zaHV0ZG93biIsIHBvc3Qod29sOjpzaHV0ZG93bikpCiAgICAgICAgLnJvdXRlKCIvb2lkYy9wcm92aWRlcnMiLCBnZXQob2lkY19wcm92aWRlcnMpKQogICAgICAgIC5yb3V0ZSgiL29pZGMvY2xpZW50LW1ldGFkYXRhIiwgZ2V0KG9pZGNfY2xpZW50X21ldGFkYXRhKSkKICAgICAgICAucm91dGUoIi9vaWRjL2ludml0ZSIsIGdldChvaWRjX2ludml0ZSkpCiAgICAgICAgLm1lcmdlKHBhc3NrZXlfcm91dGVzKCkpCiAgICAgICAgLm1lcmdlKG9pZGNfcnVudGltZV9yb3V0ZXMoKSkKICAgICAgICAubWVyZ2UoY3JhdGU6OmxkYXBfYXV0aDo6bGRhcF9ydW50aW1lX3JvdXRlcygpKQogICAgICAgIC5mYWxsYmFjayhhdXRoX2FwaV9ub3RfZm91bmQpCn0K
+use axum::{
+    Json, Router,
+    extract::{Extension, Path, Query, State},
+    http::{HeaderMap, HeaderValue, Method, StatusCode, Uri, header},
+    response::{IntoResponse, Response},
+    routing::{get, head, post},
+};
+use base64::{
+    Engine as _,
+    engine::general_purpose::{STANDARD as BASE64_STANDARD, URL_SAFE_NO_PAD},
+};
+#[cfg(test)]
+use ipnet::IpNet;
+use serde::Deserialize;
+use serde_json::{Value, json};
+use std::{collections::BTreeSet, env, net::IpAddr};
+use subtle::ConstantTimeEq;
+use totp_rs::{Algorithm, Secret, TOTP};
+
+use crate::{
+    auth::mode::{AuthLoginMode, AuthMethod},
+    auth_mobility::{self, CreateLoginSessionInput},
+    backoff::normalize_auth_failure_tracking_ip,
+    common_auth_locations, cookies, fnos_share_bypass, http_utils,
+    i18n::Translator,
+    ip_location,
+    oidc_admin::{
+        callback_base_url, oidc_get_provider, oidc_inspect_invite, oidc_public_providers,
+    },
+    oidc_runtime::{consume_login_error_for_bootstrap, oidc_runtime_routes},
+    passkey_runtime::{build_passkey_bind_info, passkey_routes, public_passkey_status},
+    response::{self, ApiEnvelope},
+    runtime_config, scanner,
+    state::AppState,
+    store::{LoginSession, TotpCredential},
+    system_events, time_utils, whitelist,
+};
+
+mod bridge;
+mod captcha;
+mod handlers;
+mod preflight;
+mod redirect;
+mod subdomain_grant;
+mod utils;
+mod verify;
+mod wol;
+
+pub(crate) use bridge::start_auth_bridge;
+pub(crate) use captcha::verify_captcha;
+use captcha::*;
+pub(crate) use handlers::backoff_login_response;
+use handlers::*;
+use preflight::*;
+pub(crate) use preflight::{login_session_has_expired, revoke_expired_presented_session};
+pub(crate) use redirect::*;
+pub(crate) use utils::*;
+use verify::*;
+
+#[cfg(test)]
+mod tests;
+
+const TURNSTILE_VERIFY_URL: &str = "https://challenges.cloudflare.com/turnstile/v0/siteverify";
+const POW_MAX_NUMBER: u32 = runtime_config::POW_DEFAULT_BASE_MAX_NUMBER as u32;
+const REAUTH_ACCESS_DENIED_HEADER: &str = "X-Reauth-Access-Denied";
+const REAUTH_SCOPE_DENIED: &str = "scope";
+const REAUTH_SUBDOMAIN_ACCESS_HEADER: &str = "X-Reauth-Subdomain-Access";
+const REAUTH_ALLOWED_SUBDOMAIN_HOSTS_HEADER: &str = "X-Reauth-Allowed-Subdomain-Hosts";
+const REAUTH_CREDENTIAL_ID_HEADER: &str = "X-Reauth-Credential-Id";
+const REAUTH_CREDENTIAL_NAME_HEADER: &str = "X-Reauth-Credential-Name";
+const REAUTH_CREDENTIAL_METHOD_HEADER: &str = "X-Reauth-Credential-Method";
+const REAUTH_LINKED_TOTP_ID_HEADER: &str = "X-Reauth-Linked-Totp-Id";
+const REAUTH_LINKED_TOTP_NAME_HEADER: &str = "X-Reauth-Linked-Totp-Name";
+const REAUTH_SUBDOMAIN_ACCESS_CUSTOM: &str = "custom";
+const TOTP_SUBDOMAIN_ACCESS_SELECT_PAGE: &str = "__builtin_select__";
+const TOTP_SUBDOMAIN_ACCESS_SELECT_PAGE_PATH: &str = "/__select__";
+const TOTP_SUBDOMAIN_ACCESS_WOL_PAGE: &str = "__builtin_wol__";
+const TOTP_SUBDOMAIN_ACCESS_WOL_PAGE_PATH: &str = "/__wol__";
+const AUTH_IDENTITY_HEADER_MAX_LENGTH: usize = 256;
+const AUTH_IDENTITY_HEADER_ENCODING_PREFIX: &str = "b64:";
+
+#[derive(Deserialize)]
+struct BootstrapQuery {
+    redirect_uri: Option<String>,
+}
+
+#[derive(Deserialize)]
+struct OidcInviteQuery {
+    token: Option<String>,
+}
+
+#[derive(Deserialize)]
+struct OidcClientMetadataQuery {
+    provider_id: Option<String>,
+}
+
+#[derive(Deserialize)]
+struct LoginBody {
+    method: Option<String>,
+    token: Option<String>,
+    username: Option<String>,
+    password: Option<String>,
+    provider_id: Option<String>,
+    captcha: CaptchaSubmission,
+    #[serde(default, rename = "rememberMe")]
+    remember_me: bool,
+    redirect_uri: Option<String>,
+}
+
+#[derive(Deserialize)]
+#[serde(tag = "provider")]
+pub(crate) enum CaptchaSubmission {
+    #[serde(rename = "pow")]
+    Pow { proof: String },
+    #[serde(rename = "turnstile")]
+    Turnstile { token: String },
+}
+
+fn server_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.{key}"))
+}
+
+fn server_text_params(translator: &Translator, key: &str, params: &[(&str, String)]) -> String {
+    translator.t_params(&format!("server.{key}"), params)
+}
+
+fn auth_route_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.authRoutes.{key}"))
+}
+
+fn captcha_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.captcha.{key}"))
+}
+
+fn captcha_text_params(translator: &Translator, key: &str, params: &[(&str, String)]) -> String {
+    translator.t_params(&format!("server.captcha.{key}"), params)
+}
+
+fn oidc_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.oidc.{key}"))
+}
+
+fn translator_from_config(config: &Value) -> Translator {
+    let locale = config
+        .get("locale")
+        .and_then(|locale| locale.get("default_locale"))
+        .and_then(Value::as_str)
+        .unwrap_or(crate::i18n::DEFAULT_LOCALE);
+    Translator::new(locale)
+}
+
+#[derive(Deserialize)]
+struct PowProof {
+    algorithm: Option<String>,
+    challenge: Option<String>,
+    number: Option<Value>,
+    salt: Option<String>,
+    signature: Option<String>,
+}
+
+#[derive(Debug, PartialEq, Eq)]
+struct PowValidation {
+    nonce: String,
+}
+
+pub fn auth_api_routes() -> Router<AppState> {
+    Router::new()
+        .route("/bootstrap", get(bootstrap))
+        .route("/session", get(session))
+        .route("/captcha/config", get(captcha_config))
+        .route("/challenge", get(challenge))
+        .route("/ip", get(ip))
+        .route("/ip/location", get(ip_location))
+        .route("/login", post(login))
+        .route("/logout", get(logout))
+        .route("/preflight", head(preflight))
+        .route("/verify", get(verify))
+        .route("/wol/targets", get(wol::targets))
+        .route("/wol/targets/{id}/wake", post(wol::wake))
+        .route("/wol/targets/{id}/shutdown", post(wol::shutdown))
+        .route("/oidc/providers", get(oidc_providers))
+        .route("/oidc/client-metadata", get(oidc_client_metadata))
+        .route("/oidc/invite", get(oidc_invite))
+        .merge(passkey_routes())
+        .merge(oidc_runtime_routes())
+        .merge(crate::ldap_auth::ldap_runtime_routes())
+        .fallback(auth_api_not_found)
+}

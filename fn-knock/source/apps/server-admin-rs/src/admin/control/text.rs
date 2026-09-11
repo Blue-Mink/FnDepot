@@ -1,1 +1,49 @@
-dXNlIGF4dW06Omh0dHA6OlN0YXR1c0NvZGU7Cgp1c2UgY3JhdGU6OmkxOG46OlRyYW5zbGF0b3I7Cgp1c2Ugc3VwZXI6OlRvdHBJbXBvcnRSb3V0ZUVycm9yOwoKcHViKHN1cGVyKSBmbiBhZG1pbl9jb250cm9sX3RleHQodHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsIGtleTogJnN0cikgLT4gU3RyaW5nIHsKICAgIHRyYW5zbGF0b3IudCgmZm9ybWF0ISgic2VydmVyLmFkbWluLntrZXl9IikpCn0KCnB1YihzdXBlcikgZm4gYWRtaW5fY29udHJvbF90ZXh0X3BhcmFtcygKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAga2V5OiAmc3RyLAogICAgcGFyYW1zOiAmWygmc3RyLCBTdHJpbmcpXSwKKSAtPiBTdHJpbmcgewogICAgdHJhbnNsYXRvci50X3BhcmFtcygmZm9ybWF0ISgic2VydmVyLmFkbWluLntrZXl9IiksIHBhcmFtcykKfQoKcHViKHN1cGVyKSBmbiB0b3RwX2ltcG9ydF9lcnJvcihzdGF0dXM6IFN0YXR1c0NvZGUsIGtleTogJidzdGF0aWMgc3RyKSAtPiBUb3RwSW1wb3J0Um91dGVFcnJvciB7CiAgICBUb3RwSW1wb3J0Um91dGVFcnJvciB7CiAgICAgICAgc3RhdHVzLAogICAgICAgIGtleSwKICAgICAgICBtYXg6IE5vbmUsCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gdG90cF9pbXBvcnRfZXJyb3Jfd2l0aF9tYXgoCiAgICBzdGF0dXM6IFN0YXR1c0NvZGUsCiAgICBrZXk6ICYnc3RhdGljIHN0ciwKICAgIG1heDogdXNpemUsCikgLT4gVG90cEltcG9ydFJvdXRlRXJyb3IgewogICAgVG90cEltcG9ydFJvdXRlRXJyb3IgewogICAgICAgIHN0YXR1cywKICAgICAgICBrZXksCiAgICAgICAgbWF4OiBTb21lKG1heCksCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gdG90cF9pbXBvcnRfZXJyb3JfbWVzc2FnZSgKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgZXJyb3I6ICZUb3RwSW1wb3J0Um91dGVFcnJvciwKKSAtPiBTdHJpbmcgewogICAgbGV0IGtleSA9IGZvcm1hdCEoInRvdHBJbXBvcnQue30iLCBlcnJvci5rZXkpOwogICAgaWYgbGV0IFNvbWUobWF4KSA9IGVycm9yLm1heCB7CiAgICAgICAgYWRtaW5fY29udHJvbF90ZXh0X3BhcmFtcyh0cmFuc2xhdG9yLCAma2V5LCAmWygibWF4IiwgbWF4LnRvX3N0cmluZygpKV0pCiAgICB9IGVsc2UgewogICAgICAgIGFkbWluX2NvbnRyb2xfdGV4dCh0cmFuc2xhdG9yLCAma2V5KQogICAgfQp9Cg==
+use axum::http::StatusCode;
+
+use crate::i18n::Translator;
+
+use super::TotpImportRouteError;
+
+pub(super) fn admin_control_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.admin.{key}"))
+}
+
+pub(super) fn admin_control_text_params(
+    translator: &Translator,
+    key: &str,
+    params: &[(&str, String)],
+) -> String {
+    translator.t_params(&format!("server.admin.{key}"), params)
+}
+
+pub(super) fn totp_import_error(status: StatusCode, key: &'static str) -> TotpImportRouteError {
+    TotpImportRouteError {
+        status,
+        key,
+        max: None,
+    }
+}
+
+pub(super) fn totp_import_error_with_max(
+    status: StatusCode,
+    key: &'static str,
+    max: usize,
+) -> TotpImportRouteError {
+    TotpImportRouteError {
+        status,
+        key,
+        max: Some(max),
+    }
+}
+
+pub(super) fn totp_import_error_message(
+    translator: &Translator,
+    error: &TotpImportRouteError,
+) -> String {
+    let key = format!("totpImport.{}", error.key);
+    if let Some(max) = error.max {
+        admin_control_text_params(translator, &key, &[("max", max.to_string())])
+    } else {
+        admin_control_text(translator, &key)
+    }
+}

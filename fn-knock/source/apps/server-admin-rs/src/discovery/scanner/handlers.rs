@@ -1,1 +1,256 @@
-dXNlIHN1cGVyOjoqOwp1c2UgdXRvaXBhX2F4dW06Ontyb3V0ZXI6Ok9wZW5BcGlSb3V0ZXIsIHJvdXRlc307CgpwdWIoc3VwZXIpIGZuIHJvdXRlcygpIC0+IE9wZW5BcGlSb3V0ZXI8QXBwU3RhdGU+IHsKICAgIE9wZW5BcGlSb3V0ZXI6Om5ldygpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF9zZXR0aW5ncywgdXBkYXRlX3NldHRpbmdzKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoZ2V0X3BhdGhfd2hpdGVsaXN0LCB1cGRhdGVfcGF0aF93aGl0ZWxpc3QpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShyZXNvbHZlX2ZhbHNlX3Bvc2l0aXZlKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEobGlzdF9ibGFja2xpc3QsIGRlbGV0ZV9ibGFja2xpc3QpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShnZXRfYmxhY2tsaXN0X3JlY29yZCwgZGVsZXRlX2JsYWNrbGlzdF9yZWNvcmQpKQp9CgojW3V0b2lwYTo6cGF0aCgKICAgIGdldCwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9zY2FubmVyL3BhdGgtd2hpdGVsaXN0IiwKICAgIHRhZyA9ICJzY2FubmVyIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX3NjYW5uZXJfcGF0aF93aGl0ZWxpc3QiLAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlNjYW5uZXIgcGF0aCB3aGl0ZWxpc3QiKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfcGF0aF93aGl0ZWxpc3QoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbWF0Y2ggcGF0aF93aGl0ZWxpc3Q6OmxvYWRfc2Nhbm5lcl9wYXRoX3doaXRlbGlzdCgmc3RhdGUpLmF3YWl0IHsKICAgICAgICBPayhzZXR0aW5ncykgPT4gcmVzcG9uc2U6Om9rKHNldHRpbmdzKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgRXJyKGVycm9yKSA9PiBzY2FubmVyX3BhdGhfd2hpdGVsaXN0X2Vycm9yKCZ0cmFuc2xhdG9yLCBlcnJvciwgImxvYWQiKSwKICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBwdXQsCiAgICBwYXRoID0gIi9hcGkvYWRtaW4vc2Nhbm5lci9wYXRoLXdoaXRlbGlzdCIsCiAgICB0YWcgPSAic2Nhbm5lciIsCiAgICBvcGVyYXRpb25faWQgPSAicHV0X2FwaV9hZG1pbl9zY2FubmVyX3BhdGhfd2hpdGVsaXN0IiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJVcGRhdGVkIHNjYW5uZXIgcGF0aCB3aGl0ZWxpc3QiKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiB1cGRhdGVfcGF0aF93aGl0ZWxpc3QoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIEpzb24oYm9keSk6IEpzb248VXBkYXRlU2Nhbm5lclBhdGhXaGl0ZWxpc3RCb2R5PiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIG1hdGNoIHBhdGhfd2hpdGVsaXN0OjpyZXBsYWNlX3NjYW5uZXJfcGF0aF93aGl0ZWxpc3QoJnN0YXRlLCBib2R5LnBhdGhzKS5hd2FpdCB7CiAgICAgICAgT2soc2V0dGluZ3MpID0+IHJlc3BvbnNlOjpvayhzZXR0aW5ncykuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gc2Nhbm5lcl9wYXRoX3doaXRlbGlzdF9lcnJvcigmdHJhbnNsYXRvciwgZXJyb3IsICJ1cGRhdGUiKSwKICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBwb3N0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL3NjYW5uZXIvcGF0aC13aGl0ZWxpc3QvZmFsc2UtcG9zaXRpdmUiLAogICAgdGFnID0gInNjYW5uZXIiLAogICAgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX3NjYW5uZXJfcGF0aF93aGl0ZWxpc3RfZmFsc2VfcG9zaXRpdmUiLAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkFsbG93ZWQgc2Nhbm5lciBmYWxzZSBwb3NpdGl2ZSIpKQopXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHJlc29sdmVfZmFsc2VfcG9zaXRpdmUoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIEpzb24oYm9keSk6IEpzb248U2Nhbm5lckZhbHNlUG9zaXRpdmVCb2R5PiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIG1hdGNoIHBhdGhfd2hpdGVsaXN0OjpyZXNvbHZlX3NjYW5uZXJfZmFsc2VfcG9zaXRpdmUoJnN0YXRlLCAmYm9keS5pcCwgJmJvZHkucGF0aCkuYXdhaXQgewogICAgICAgIE9rKHJlc3VsdCkgPT4gcmVzcG9uc2U6Om9rKHJlc3VsdCkuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gc2Nhbm5lcl9wYXRoX3doaXRlbGlzdF9lcnJvcigmdHJhbnNsYXRvciwgZXJyb3IsICJmYWxzZS1wb3NpdGl2ZSIpLAogICAgfQp9CgpmbiBzY2FubmVyX3BhdGhfd2hpdGVsaXN0X2Vycm9yKAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICBlcnJvcjogU2Nhbm5lckVycm9yLAogICAgb3BlcmF0aW9uOiAmc3RyLAopIC0+IFJlc3BvbnNlIHsKICAgIG1hdGNoIGVycm9yIHsKICAgICAgICBTY2FubmVyRXJyb3I6OkJhZFJlcXVlc3QobWVzc2FnZSkgPT4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwKICAgICAgICAgICAgbG9jYWxpemVfc2Nhbm5lcl9lcnJvcih0cmFuc2xhdG9yLCAmbWVzc2FnZSksCiAgICAgICAgKSwKICAgICAgICBlcnJvciA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgb3BlcmF0aW9uLCAic2Nhbm5lciBwYXRoIHdoaXRlbGlzdCBvcGVyYXRpb24gZmFpbGVkIik7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIHNjYW5uZXJfdGV4dCh0cmFuc2xhdG9yLCAicGF0aFdoaXRlbGlzdE9wZXJhdGlvbkZhaWxlZCIpLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9CgojW3V0b2lwYTo6cGF0aCgKICAgIGdldCwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9zY2FubmVyL3NldHRpbmdzIiwKICAgIHRhZyA9ICJzY2FubmVyIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX3NjYW5uZXJfc2V0dGluZ3MiLAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlNjYW5uZXIgc2V0dGluZ3MiKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfc2V0dGluZ3MoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbWF0Y2ggbG9hZF9zY2FubmVyX3NldHRpbmdzKCZzdGF0ZSkuYXdhaXQgewogICAgICAgIE9rKHNldHRpbmdzKSA9PiByZXNwb25zZTo6b2soc2V0dGluZ3MpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgc2Nhbm5lciBzZXR0aW5ncyIpOwogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICBzY2FubmVyX3RleHQoJnRyYW5zbGF0b3IsICJzZXR0aW5nc0xvYWRGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBwb3N0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL3NjYW5uZXIvc2V0dGluZ3MiLAogICAgdGFnID0gInNjYW5uZXIiLAogICAgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX3NjYW5uZXJfc2V0dGluZ3MiLAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlVwZGF0ZWQgc2Nhbm5lciBzZXR0aW5ncyIpKQopXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHVwZGF0ZV9zZXR0aW5ncygKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgSnNvbihib2R5KTogSnNvbjxVcGRhdGVTY2FubmVyU2V0dGluZ3NCb2R5PiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIG1hdGNoIHNhdmVfc2Nhbm5lcl9zZXR0aW5ncygmc3RhdGUsIGJvZHkpLmF3YWl0IHsKICAgICAgICBPayhzZXR0aW5ncykgPT4gcmVzcG9uc2U6Om9rKHNldHRpbmdzKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgRXJyKFNjYW5uZXJFcnJvcjo6QmFkUmVxdWVzdChtZXNzYWdlKSkgPT4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwKICAgICAgICAgICAgbG9jYWxpemVfc2Nhbm5lcl9lcnJvcigmdHJhbnNsYXRvciwgJm1lc3NhZ2UpLAogICAgICAgICksCiAgICAgICAgRXJyKFNjYW5uZXJFcnJvcjo6Q2lkcihtZXNzYWdlKSkgPT4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfR0FURVdBWSwKICAgICAgICAgICAgbG9jYWxpemVfY2lkcl9lcnJvcigmdHJhbnNsYXRvciwgJm1lc3NhZ2UpLAogICAgICAgICksCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byB1cGRhdGUgc2Nhbm5lciBzZXR0aW5ncyIpOwogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICBzY2FubmVyX3RleHQoJnRyYW5zbGF0b3IsICJzZXR0aW5nc1VwZGF0ZUZhaWxlZCIpLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9CgojW3V0b2lwYTo6cGF0aCgKICAgIGdldCwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9zY2FubmVyL2JsYWNrbGlzdCIsCiAgICB0YWcgPSAic2Nhbm5lciIsCiAgICBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9zY2FubmVyX2JsYWNrbGlzdCIsCiAgICByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiU2Nhbm5lciBibGFja2xpc3QgcGFnZSIpKQopXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGxpc3RfYmxhY2tsaXN0KAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBRdWVyeShxdWVyeSk6IFF1ZXJ5PExpc3RRdWVyeT4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICBsZXQgcGFnZSA9IHBhcnNlX2k2NChxdWVyeS5wYWdlLmFzX2RlcmVmKCksIDEpOwogICAgbGV0IGxpbWl0ID0gcGFyc2VfaTY0KHF1ZXJ5LmxpbWl0LmFzX2RlcmVmKCksIDIwKTsKICAgIGxldCBzZWFyY2ggPSBxdWVyeS5zZWFyY2guYXNfZGVyZWYoKS51bndyYXBfb3IoIiIpOwogICAgbWF0Y2ggc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5saXN0X3NjYW5uZXJfYmxhY2tsaXN0KHBhZ2UsIGxpbWl0LCBzZWFyY2gpCiAgICAgICAgLmF3YWl0CiAgICB7CiAgICAgICAgT2soZGF0YSkgPT4gcmVzcG9uc2U6Om9rKGRhdGEpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxpc3Qgc2Nhbm5lciBibGFja2xpc3QiKTsKICAgICAgICAgICAgcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgc2Nhbm5lcl90ZXh0KCZ0cmFuc2xhdG9yLCAiYmxhY2tsaXN0TG9hZEZhaWxlZCIpLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9CgojW3V0b2lwYTo6cGF0aCgKICAgIGdldCwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9zY2FubmVyL2JsYWNrbGlzdC97aXB9IiwKICAgIHRhZyA9ICJzY2FubmVyIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX3NjYW5uZXJfYmxhY2tsaXN0X19pcF8iLAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlNjYW5uZXIgYmxhY2tsaXN0IHJlY29yZCIpKQopXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGdldF9ibGFja2xpc3RfcmVjb3JkKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBQYXRoKGlwKTogUGF0aDxTdHJpbmc+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfc2Nhbm5lcl9ibGFja2xpc3RfcmVjb3JkKCZpcCkuYXdhaXQgewogICAgICAgIE9rKFNvbWUocmVjb3JkKSkgPT4gcmVzcG9uc2U6Om9rKHJlY29yZCkuaW50b19yZXNwb25zZSgpLAogICAgICAgIE9rKE5vbmUpID0+IHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgU3RhdHVzQ29kZTo6Tk9UX0ZPVU5ELAogICAgICAgICAgICBzY2FubmVyX3RleHQoJnRyYW5zbGF0b3IsICJyZWNvcmROb3RGb3VuZCIpLAogICAgICAgICksCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgJWlwLCAiZmFpbGVkIHRvIGxvYWQgc2Nhbm5lciBibGFja2xpc3QgcmVjb3JkIik7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIHNjYW5uZXJfdGV4dCgmdHJhbnNsYXRvciwgImJsYWNrbGlzdFJlY29yZExvYWRGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBkZWxldGUsCiAgICBwYXRoID0gIi9hcGkvYWRtaW4vc2Nhbm5lci9ibGFja2xpc3Qve2lwfSIsCiAgICB0YWcgPSAic2Nhbm5lciIsCiAgICBvcGVyYXRpb25faWQgPSAiZGVsZXRlX2FwaV9hZG1pbl9zY2FubmVyX2JsYWNrbGlzdF9faXBfIiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJTY2FubmVyIGJsYWNrbGlzdCByZWNvcmQgZGVsZXRlZCIpKQopXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGRlbGV0ZV9ibGFja2xpc3RfcmVjb3JkKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBQYXRoKGlwKTogUGF0aDxTdHJpbmc+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbGV0IGlwcyA9IHNhbml0aXplX3NjYW5uZXJfaXBzKFtpcF0pOwogICAgbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5yZW1vdmVfc2Nhbm5lcl9ibGFja2xpc3QoJmlwcykuYXdhaXQgewogICAgICAgIE9rKCgpKSA9PiByZXNwb25zZTo6c3VjY2Vzc19lbXB0eSgpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGRlbGV0ZSBzY2FubmVyIGJsYWNrbGlzdCByZWNvcmQiKTsKICAgICAgICAgICAgcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgc2Nhbm5lcl90ZXh0KCZ0cmFuc2xhdG9yLCAiYmxhY2tsaXN0UmVjb3JkRGVsZXRlRmFpbGVkIiksCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCiNbdXRvaXBhOjpwYXRoKAogICAgZGVsZXRlLAogICAgcGF0aCA9ICIvYXBpL2FkbWluL3NjYW5uZXIvYmxhY2tsaXN0IiwKICAgIHRhZyA9ICJzY2FubmVyIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJkZWxldGVfYXBpX2FkbWluX3NjYW5uZXJfYmxhY2tsaXN0IiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJTY2FubmVyIGJsYWNrbGlzdCByZWNvcmRzIGRlbGV0ZWQiKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiBkZWxldGVfYmxhY2tsaXN0KFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LCBib2R5OiBCeXRlcykgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICBsZXQgaXBzID0gbWF0Y2ggcGFyc2VfYmxhY2tsaXN0X2RlbGV0ZV9pcHMoJmJvZHkpIHsKICAgICAgICBPayhpcHMpID0+IGlwcywKICAgICAgICBFcnIobWVzc2FnZSkgPT4gewogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgICAgICAgICBsb2NhbGl6ZV9zY2FubmVyX2Vycm9yKCZ0cmFuc2xhdG9yLCBtZXNzYWdlKSwKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICB9OwogICAgaWYgaXBzLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgICAgICBzY2FubmVyX3RleHQoJnRyYW5zbGF0b3IsICJhdExlYXN0T25lSXBSZXF1aXJlZCIpLAogICAgICAgICk7CiAgICB9CiAgICBtYXRjaCBzdGF0ZS5zdG9yYWdlLnN0b3JlLnJlbW92ZV9zY2FubmVyX2JsYWNrbGlzdCgmaXBzKS5hd2FpdCB7CiAgICAgICAgT2soKCkpID0+IHJlc3BvbnNlOjpzdWNjZXNzX2VtcHR5KCkuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gZGVsZXRlIHNjYW5uZXIgYmxhY2tsaXN0IHJlY29yZHMiKTsKICAgICAgICAgICAgcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgc2Nhbm5lcl90ZXh0KCZ0cmFuc2xhdG9yLCAiYmxhY2tsaXN0UmVjb3Jkc0RlbGV0ZUZhaWxlZCIpLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9Cg==
+use super::*;
+use utoipa_axum::{router::OpenApiRouter, routes};
+
+pub(super) fn routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_settings, update_settings))
+        .routes(routes!(get_path_whitelist, update_path_whitelist))
+        .routes(routes!(resolve_false_positive))
+        .routes(routes!(list_blacklist, delete_blacklist))
+        .routes(routes!(get_blacklist_record, delete_blacklist_record))
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/scanner/path-whitelist",
+    tag = "scanner",
+    operation_id = "get_api_admin_scanner_path_whitelist",
+    responses((status = 200, description = "Scanner path whitelist"))
+)]
+pub(super) async fn get_path_whitelist(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match path_whitelist::load_scanner_path_whitelist(&state).await {
+        Ok(settings) => response::ok(settings).into_response(),
+        Err(error) => scanner_path_whitelist_error(&translator, error, "load"),
+    }
+}
+
+#[utoipa::path(
+    put,
+    path = "/api/admin/scanner/path-whitelist",
+    tag = "scanner",
+    operation_id = "put_api_admin_scanner_path_whitelist",
+    responses((status = 200, description = "Updated scanner path whitelist"))
+)]
+pub(super) async fn update_path_whitelist(
+    State(state): State<AppState>,
+    Json(body): Json<UpdateScannerPathWhitelistBody>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match path_whitelist::replace_scanner_path_whitelist(&state, body.paths).await {
+        Ok(settings) => response::ok(settings).into_response(),
+        Err(error) => scanner_path_whitelist_error(&translator, error, "update"),
+    }
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/scanner/path-whitelist/false-positive",
+    tag = "scanner",
+    operation_id = "post_api_admin_scanner_path_whitelist_false_positive",
+    responses((status = 200, description = "Allowed scanner false positive"))
+)]
+pub(super) async fn resolve_false_positive(
+    State(state): State<AppState>,
+    Json(body): Json<ScannerFalsePositiveBody>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match path_whitelist::resolve_scanner_false_positive(&state, &body.ip, &body.path).await {
+        Ok(result) => response::ok(result).into_response(),
+        Err(error) => scanner_path_whitelist_error(&translator, error, "false-positive"),
+    }
+}
+
+fn scanner_path_whitelist_error(
+    translator: &Translator,
+    error: ScannerError,
+    operation: &str,
+) -> Response {
+    match error {
+        ScannerError::BadRequest(message) => response::error(
+            StatusCode::BAD_REQUEST,
+            localize_scanner_error(translator, &message),
+        ),
+        error => {
+            tracing::warn!(%error, operation, "scanner path whitelist operation failed");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                scanner_text(translator, "pathWhitelistOperationFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/scanner/settings",
+    tag = "scanner",
+    operation_id = "get_api_admin_scanner_settings",
+    responses((status = 200, description = "Scanner settings"))
+)]
+pub(super) async fn get_settings(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match load_scanner_settings(&state).await {
+        Ok(settings) => response::ok(settings).into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load scanner settings");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                scanner_text(&translator, "settingsLoadFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/scanner/settings",
+    tag = "scanner",
+    operation_id = "post_api_admin_scanner_settings",
+    responses((status = 200, description = "Updated scanner settings"))
+)]
+pub(super) async fn update_settings(
+    State(state): State<AppState>,
+    Json(body): Json<UpdateScannerSettingsBody>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match save_scanner_settings(&state, body).await {
+        Ok(settings) => response::ok(settings).into_response(),
+        Err(ScannerError::BadRequest(message)) => response::error(
+            StatusCode::BAD_REQUEST,
+            localize_scanner_error(&translator, &message),
+        ),
+        Err(ScannerError::Cidr(message)) => response::error(
+            StatusCode::BAD_GATEWAY,
+            localize_cidr_error(&translator, &message),
+        ),
+        Err(error) => {
+            tracing::warn!(%error, "failed to update scanner settings");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                scanner_text(&translator, "settingsUpdateFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/scanner/blacklist",
+    tag = "scanner",
+    operation_id = "get_api_admin_scanner_blacklist",
+    responses((status = 200, description = "Scanner blacklist page"))
+)]
+pub(super) async fn list_blacklist(
+    State(state): State<AppState>,
+    Query(query): Query<ListQuery>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let page = parse_i64(query.page.as_deref(), 1);
+    let limit = parse_i64(query.limit.as_deref(), 20);
+    let search = query.search.as_deref().unwrap_or("");
+    match state
+        .storage
+        .store
+        .list_scanner_blacklist(page, limit, search)
+        .await
+    {
+        Ok(data) => response::ok(data).into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to list scanner blacklist");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                scanner_text(&translator, "blacklistLoadFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/scanner/blacklist/{ip}",
+    tag = "scanner",
+    operation_id = "get_api_admin_scanner_blacklist__ip_",
+    responses((status = 200, description = "Scanner blacklist record"))
+)]
+pub(super) async fn get_blacklist_record(
+    State(state): State<AppState>,
+    Path(ip): Path<String>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match state.storage.store.get_scanner_blacklist_record(&ip).await {
+        Ok(Some(record)) => response::ok(record).into_response(),
+        Ok(None) => response::error(
+            StatusCode::NOT_FOUND,
+            scanner_text(&translator, "recordNotFound"),
+        ),
+        Err(error) => {
+            tracing::warn!(%error, %ip, "failed to load scanner blacklist record");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                scanner_text(&translator, "blacklistRecordLoadFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    delete,
+    path = "/api/admin/scanner/blacklist/{ip}",
+    tag = "scanner",
+    operation_id = "delete_api_admin_scanner_blacklist__ip_",
+    responses((status = 200, description = "Scanner blacklist record deleted"))
+)]
+pub(super) async fn delete_blacklist_record(
+    State(state): State<AppState>,
+    Path(ip): Path<String>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let ips = sanitize_scanner_ips([ip]);
+    match state.storage.store.remove_scanner_blacklist(&ips).await {
+        Ok(()) => response::success_empty().into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to delete scanner blacklist record");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                scanner_text(&translator, "blacklistRecordDeleteFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    delete,
+    path = "/api/admin/scanner/blacklist",
+    tag = "scanner",
+    operation_id = "delete_api_admin_scanner_blacklist",
+    responses((status = 200, description = "Scanner blacklist records deleted"))
+)]
+pub(super) async fn delete_blacklist(State(state): State<AppState>, body: Bytes) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let ips = match parse_blacklist_delete_ips(&body) {
+        Ok(ips) => ips,
+        Err(message) => {
+            return response::error(
+                StatusCode::BAD_REQUEST,
+                localize_scanner_error(&translator, message),
+            );
+        }
+    };
+    if ips.is_empty() {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            scanner_text(&translator, "atLeastOneIpRequired"),
+        );
+    }
+    match state.storage.store.remove_scanner_blacklist(&ips).await {
+        Ok(()) => response::success_empty().into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to delete scanner blacklist records");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                scanner_text(&translator, "blacklistRecordsDeleteFailed"),
+            )
+        }
+    }
+}

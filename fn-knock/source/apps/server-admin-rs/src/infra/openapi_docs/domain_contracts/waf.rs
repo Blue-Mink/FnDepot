@@ -1,1 +1,247 @@
-dXNlIHNlcmRlOjpTZXJpYWxpemU7CnVzZSB1dG9pcGE6OlRvU2NoZW1hOwoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFdhZkNvbmZpZ0RhdGEgewogICAgZW5hYmxlZDogYm9vbCwKICAgIHN5c3RlbV9ydWxlc19hdXRvX3VwZGF0ZV9lbmFibGVkOiBib29sLAogICAgY29tbW9uX2xvY2F0aW9uX2V4ZW1wdF9lbmFibGVkOiBib29sLAogICAgcHJpdmF0ZV9pcF9leGVtcHRfZW5hYmxlZDogYm9vbCwKICAgIGJsb2NrX2JlaGF2aW9yOiBTdHJpbmcsCiAgICBtb2RlOiBTdHJpbmcsCiAgICBhY3RpdmVfYnVuZGxlX2lkOiBTdHJpbmcsCiAgICBydWxlc19kaXI6IFN0cmluZywKICAgIHBhcmFub2lhX2xldmVsOiBpNjQsCiAgICBleGVjdXRpbmdfcGFyYW5vaWFfbGV2ZWw6IGk2NCwKICAgIGluYm91bmRfYW5vbWFseV90aHJlc2hvbGQ6IGk2NCwKICAgIG91dGJvdW5kX2Fub21hbHlfdGhyZXNob2xkOiBpNjQsCiAgICByZXF1ZXN0X2JvZHlfYWNjZXNzOiBib29sLAogICAgcmVxdWVzdF9ib2R5X2xpbWl0X2J5dGVzOiBpNjQsCiAgICByZXF1ZXN0X2JvZHlfaW5fbWVtb3J5X2xpbWl0X2J5dGVzOiBpNjQsCiAgICByZXNwb25zZV9ib2R5X2FjY2VzczogYm9vbCwKICAgIGRpc2FibGVkX2hvc3RzOiBWZWM8U3RyaW5nPiwKICAgIGRpc2FibGVkX3BhdGhfcHJlZml4ZXM6IFZlYzxTdHJpbmc+LAogICAgbG9nX3JldGVudGlvbl9kYXlzOiBpNjQsCiAgICBkcmFpbl9pbnRlcnZhbF9zZWNvbmRzOiBpNjQsCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgdXBkYXRlZF9hdDogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBXYWZDb25maWdVcGRhdGVEYXRhIHsKICAgIGVuYWJsZWQ6IE9wdGlvbjxib29sPiwKICAgIHN5c3RlbV9ydWxlc19hdXRvX3VwZGF0ZV9lbmFibGVkOiBPcHRpb248Ym9vbD4sCiAgICBjb21tb25fbG9jYXRpb25fZXhlbXB0X2VuYWJsZWQ6IE9wdGlvbjxib29sPiwKICAgIHByaXZhdGVfaXBfZXhlbXB0X2VuYWJsZWQ6IE9wdGlvbjxib29sPiwKICAgIGJsb2NrX2JlaGF2aW9yOiBPcHRpb248U3RyaW5nPiwKICAgIHBhcmFub2lhX2xldmVsOiBPcHRpb248aTY0PiwKICAgIGV4ZWN1dGluZ19wYXJhbm9pYV9sZXZlbDogT3B0aW9uPGk2ND4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBXYWZTdGF0dXNEYXRhIHsKICAgIGVuYWJsZWQ6IGJvb2wsCiAgICBtb2RlOiBTdHJpbmcsCiAgICBsb2FkZWQ6IGJvb2wsCiAgICBidW5kbGVfaWQ6IFN0cmluZywKICAgIGJ1bmRsZV9oYXNoOiBTdHJpbmcsCiAgICBsb2FkZWRfYXQ6IFN0cmluZywKICAgIHJ1bGVzX2RpcjogU3RyaW5nLAogICAgcGVuZGluZ19ldmVudHM6IGk2NCwKICAgIGxhc3RfZXJyb3I6IFN0cmluZywKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFdhZk1hbmlmZXN0UnVsZURhdGEgewogICAgZmlsZW5hbWU6IFN0cmluZywKICAgIGRlc2NyaXB0aW9uOiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBXYWZNYW5pZmVzdFJ1bGVzRGVzY3JpcHRpb25EYXRhIHsKICAgIHJ1bGVzOiBPcHRpb248VmVjPFdhZk1hbmlmZXN0UnVsZURhdGE+PiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2FmUmVtb3RlTWFuaWZlc3REYXRhIHsKICAgIHJ1bGVzX2Rlc2NyaXB0aW9uOiBPcHRpb248V2FmTWFuaWZlc3RSdWxlc0Rlc2NyaXB0aW9uRGF0YT4sCiAgICBwYWNrYWdpbmdfdGltZTogT3B0aW9uPFN0cmluZz4sCiAgICB6aXBfZmlsZTogU3RyaW5nLAogICAgemlwX2hhc2g6IFN0cmluZywKICAgIGNvbW1pdF9oYXNoOiBPcHRpb248U3RyaW5nPiwKICAgIGNvbW1pdF9kYXRlOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFdhZlJ1bGVGaWxlRGF0YSB7CiAgICBzb3VyY2U6IFN0cmluZywKICAgIGZpbGVuYW1lOiBTdHJpbmcsCiAgICBkZXNjcmlwdGlvbjogU3RyaW5nLAogICAgcmVjb21tZW5kZWQ6IGJvb2wsCiAgICBlbmFibGVkOiBib29sLAogICAgc2l6ZV9ieXRlczogdTY0LAogICAgdXBkYXRlZF9hdDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2FmUnVsZUZpbGVDb250ZW50RGF0YSB7CiAgICBzb3VyY2U6IFN0cmluZywKICAgIGZpbGVuYW1lOiBTdHJpbmcsCiAgICBkZXNjcmlwdGlvbjogU3RyaW5nLAogICAgcmVjb21tZW5kZWQ6IGJvb2wsCiAgICBlbmFibGVkOiBib29sLAogICAgc2l6ZV9ieXRlczogdTY0LAogICAgdXBkYXRlZF9hdDogU3RyaW5nLAogICAgY29udGVudDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2FmU3lzdGVtU3luY1N0YXRlRGF0YSB7CiAgICB6aXBfZmlsZTogU3RyaW5nLAogICAgemlwX2hhc2g6IFN0cmluZywKICAgIHN5bmNlZF9hdDogU3RyaW5nLAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIHBhY2thZ2luZ190aW1lOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBjb21taXRfaGFzaDogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgY29tbWl0X2RhdGU6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2FmU3lzdGVtRGV0YWlsc0RhdGEgewogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIG1hbmlmZXN0OiBPcHRpb248V2FmUmVtb3RlTWFuaWZlc3REYXRhPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBtYW5pZmVzdF9jYWNoZWRfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIG1hbmlmZXN0X2xhc3RfY2hlY2tlZF9hdDogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgbWFuaWZlc3RfbGFzdF9lcnJvcjogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgc3luY2VkOiBPcHRpb248V2FmU3lzdGVtU3luY1N0YXRlRGF0YT4sCiAgICB1cGRhdGVfYXZhaWxhYmxlOiBib29sLAogICAgcnVsZXM6IFZlYzxXYWZSdWxlRmlsZURhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2FmQ3VzdG9tRGV0YWlsc0RhdGEgewogICAgcnVsZXM6IFZlYzxXYWZSdWxlRmlsZURhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2FmRGV0YWlsc0RhdGEgewogICAgY29uZmlnOiBXYWZDb25maWdEYXRhLAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIHN0YXR1czogT3B0aW9uPFdhZlN0YXR1c0RhdGE+LAogICAgcnVsZXNfZGlyOiBTdHJpbmcsCiAgICBzeXN0ZW06IFdhZlN5c3RlbURldGFpbHNEYXRhLAogICAgY3VzdG9tOiBXYWZDdXN0b21EZXRhaWxzRGF0YSwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFdhZk1hdGNoZWRWYXJpYWJsZURhdGEgewogICAgdmFyaWFibGU6IE9wdGlvbjxTdHJpbmc+LAogICAga2V5OiBPcHRpb248U3RyaW5nPiwKICAgIHZhbHVlX3ByZXZpZXc6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2FmUnVsZU1hdGNoRGF0YSB7CiAgICBpZDogaTY0LAogICAgbWVzc2FnZTogT3B0aW9uPFN0cmluZz4sCiAgICBkYXRhOiBPcHRpb248U3RyaW5nPiwKICAgIHNldmVyaXR5OiBPcHRpb248U3RyaW5nPiwKICAgIHBoYXNlOiBPcHRpb248aTY0PiwKICAgIGZpbGU6IE9wdGlvbjxTdHJpbmc+LAogICAgbGluZTogT3B0aW9uPGk2ND4sCiAgICB0YWdzOiBPcHRpb248VmVjPFN0cmluZz4+LAogICAgZGlzcnVwdGl2ZTogYm9vbCwKICAgIG1hdGNoZWRfdmFyaWFibGVzOiBPcHRpb248VmVjPFdhZk1hdGNoZWRWYXJpYWJsZURhdGE+PiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFdhZkludGVycnVwdGlvbkRhdGEgewogICAgcnVsZV9pZDogT3B0aW9uPGk2ND4sCiAgICBhY3Rpb246IE9wdGlvbjxTdHJpbmc+LAogICAgc3RhdHVzOiBPcHRpb248aTY0PiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFdhZkV2ZW50RGF0YSB7CiAgICB0cmFjZV9pZDogU3RyaW5nLAogICAgdHJhbnNhY3Rpb25faWQ6IE9wdGlvbjxTdHJpbmc+LAogICAgdGltZTogU3RyaW5nLAogICAgbW9kZTogU3RyaW5nLAogICAgYWN0aW9uOiBTdHJpbmcsCiAgICBzdGF0dXM6IE9wdGlvbjxpNjQ+LAogICAgY2xpZW50X2lwOiBPcHRpb248U3RyaW5nPiwKICAgIHJlbW90ZV9hZGRyOiBPcHRpb248U3RyaW5nPiwKICAgIG1ldGhvZDogT3B0aW9uPFN0cmluZz4sCiAgICBzY2hlbWU6IE9wdGlvbjxTdHJpbmc+LAogICAgaG9zdDogT3B0aW9uPFN0cmluZz4sCiAgICBwYXRoOiBPcHRpb248U3RyaW5nPiwKICAgIHF1ZXJ5OiBPcHRpb248U3RyaW5nPiwKICAgIHJlcXVlc3RfdXJpOiBPcHRpb248U3RyaW5nPiwKICAgIHVzZXJfYWdlbnQ6IE9wdGlvbjxTdHJpbmc+LAogICAgcmVmZXJlcjogT3B0aW9uPFN0cmluZz4sCiAgICByb3V0ZV90eXBlOiBPcHRpb248U3RyaW5nPiwKICAgIHJvdXRlX2tleTogT3B0aW9uPFN0cmluZz4sCiAgICB1cHN0cmVhbTogT3B0aW9uPFN0cmluZz4sCiAgICBidW5kbGVfaWQ6IE9wdGlvbjxTdHJpbmc+LAogICAgYnVuZGxlX2hhc2g6IE9wdGlvbjxTdHJpbmc+LAogICAgcnVsZV9pZHM6IE9wdGlvbjxWZWM8aTY0Pj4sCiAgICBydWxlczogT3B0aW9uPFZlYzxXYWZSdWxlTWF0Y2hEYXRhPj4sCiAgICBpbnRlcnJ1cHRpb246IE9wdGlvbjxXYWZJbnRlcnJ1cHRpb25EYXRhPiwKICAgIGVycm9yOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFdhZkRyYWluUmVzdWx0RGF0YSB7CiAgICBkcmFpbmVkOiBpNjQsCiAgICByZW1haW5pbmc6IGk2NCwKICAgIHNraXBwZWRfcmVhc29uOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFdhZkxvZ0VudHJpZXNEYXRhIHsKICAgIGRhdGU6IFN0cmluZywKICAgIGF2YWlsYWJsZV9kYXRlczogVmVjPFN0cmluZz4sCiAgICBjdXJzb3I6IFN0cmluZywKICAgIG5leHRfY3Vyc29yOiBTdHJpbmcsCiAgICBoYXNfbW9yZTogYm9vbCwKICAgIGxpbWl0OiBpNjQsCiAgICB0b3RhbDogaTY0LAogICAgaXRlbXM6IFZlYzxXYWZFdmVudERhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2FmTG9nRGVsZXRlRGF0YSB7CiAgICBkYXRlOiBTdHJpbmcsCiAgICBkZWxldGVkOiBib29sLAogICAgYXZhaWxhYmxlX2RhdGVzOiBWZWM8U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFdhZlJ1bGVUb2dnbGVCb2R5RGF0YSB7CiAgICBzb3VyY2U6IE9wdGlvbjxTdHJpbmc+LAogICAgZmlsZW5hbWVzOiBPcHRpb248VmVjPFN0cmluZz4+LAogICAgZW5hYmxlZDogYm9vbCwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFdhZlVwbG9hZEZpbGVEYXRhIHsKICAgIGZpbGVuYW1lOiBTdHJpbmcsCiAgICBjb250ZW50X2Jhc2U2NDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV2FmVXBsb2FkQm9keURhdGEgewogICAgZmlsZXM6IFZlYzxXYWZVcGxvYWRGaWxlRGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBXYWZMb2dEZWxldGVCb2R5RGF0YSB7CiAgICBkYXRlOiBPcHRpb248U3RyaW5nPiwKfQo=
+use serde::Serialize;
+use utoipa::ToSchema;
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafConfigData {
+    enabled: bool,
+    system_rules_auto_update_enabled: bool,
+    common_location_exempt_enabled: bool,
+    private_ip_exempt_enabled: bool,
+    block_behavior: String,
+    mode: String,
+    active_bundle_id: String,
+    rules_dir: String,
+    paranoia_level: i64,
+    executing_paranoia_level: i64,
+    inbound_anomaly_threshold: i64,
+    outbound_anomaly_threshold: i64,
+    request_body_access: bool,
+    request_body_limit_bytes: i64,
+    request_body_in_memory_limit_bytes: i64,
+    response_body_access: bool,
+    disabled_hosts: Vec<String>,
+    disabled_path_prefixes: Vec<String>,
+    log_retention_days: i64,
+    drain_interval_seconds: i64,
+    #[schema(required = true)]
+    updated_at: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafConfigUpdateData {
+    enabled: Option<bool>,
+    system_rules_auto_update_enabled: Option<bool>,
+    common_location_exempt_enabled: Option<bool>,
+    private_ip_exempt_enabled: Option<bool>,
+    block_behavior: Option<String>,
+    paranoia_level: Option<i64>,
+    executing_paranoia_level: Option<i64>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafStatusData {
+    enabled: bool,
+    mode: String,
+    loaded: bool,
+    bundle_id: String,
+    bundle_hash: String,
+    loaded_at: String,
+    rules_dir: String,
+    pending_events: i64,
+    last_error: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafManifestRuleData {
+    filename: String,
+    description: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafManifestRulesDescriptionData {
+    rules: Option<Vec<WafManifestRuleData>>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct WafRemoteManifestData {
+    rules_description: Option<WafManifestRulesDescriptionData>,
+    packaging_time: Option<String>,
+    zip_file: String,
+    zip_hash: String,
+    commit_hash: Option<String>,
+    commit_date: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafRuleFileData {
+    source: String,
+    filename: String,
+    description: String,
+    recommended: bool,
+    enabled: bool,
+    size_bytes: u64,
+    updated_at: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafRuleFileContentData {
+    source: String,
+    filename: String,
+    description: String,
+    recommended: bool,
+    enabled: bool,
+    size_bytes: u64,
+    updated_at: String,
+    content: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafSystemSyncStateData {
+    zip_file: String,
+    zip_hash: String,
+    synced_at: String,
+    #[schema(required = true)]
+    packaging_time: Option<String>,
+    #[schema(required = true)]
+    commit_hash: Option<String>,
+    #[schema(required = true)]
+    commit_date: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafSystemDetailsData {
+    #[schema(required = true)]
+    manifest: Option<WafRemoteManifestData>,
+    #[schema(required = true)]
+    manifest_cached_at: Option<String>,
+    #[schema(required = true)]
+    manifest_last_checked_at: Option<String>,
+    #[schema(required = true)]
+    manifest_last_error: Option<String>,
+    #[schema(required = true)]
+    synced: Option<WafSystemSyncStateData>,
+    update_available: bool,
+    rules: Vec<WafRuleFileData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafCustomDetailsData {
+    rules: Vec<WafRuleFileData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafDetailsData {
+    config: WafConfigData,
+    #[schema(required = true)]
+    status: Option<WafStatusData>,
+    rules_dir: String,
+    system: WafSystemDetailsData,
+    custom: WafCustomDetailsData,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafMatchedVariableData {
+    variable: Option<String>,
+    key: Option<String>,
+    value_preview: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafRuleMatchData {
+    id: i64,
+    message: Option<String>,
+    data: Option<String>,
+    severity: Option<String>,
+    phase: Option<i64>,
+    file: Option<String>,
+    line: Option<i64>,
+    tags: Option<Vec<String>>,
+    disruptive: bool,
+    matched_variables: Option<Vec<WafMatchedVariableData>>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafInterruptionData {
+    rule_id: Option<i64>,
+    action: Option<String>,
+    status: Option<i64>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafEventData {
+    trace_id: String,
+    transaction_id: Option<String>,
+    time: String,
+    mode: String,
+    action: String,
+    status: Option<i64>,
+    client_ip: Option<String>,
+    remote_addr: Option<String>,
+    method: Option<String>,
+    scheme: Option<String>,
+    host: Option<String>,
+    path: Option<String>,
+    query: Option<String>,
+    request_uri: Option<String>,
+    user_agent: Option<String>,
+    referer: Option<String>,
+    route_type: Option<String>,
+    route_key: Option<String>,
+    upstream: Option<String>,
+    bundle_id: Option<String>,
+    bundle_hash: Option<String>,
+    rule_ids: Option<Vec<i64>>,
+    rules: Option<Vec<WafRuleMatchData>>,
+    interruption: Option<WafInterruptionData>,
+    error: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafDrainResultData {
+    drained: i64,
+    remaining: i64,
+    skipped_reason: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafLogEntriesData {
+    date: String,
+    available_dates: Vec<String>,
+    cursor: String,
+    next_cursor: String,
+    has_more: bool,
+    limit: i64,
+    total: i64,
+    items: Vec<WafEventData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafLogDeleteData {
+    date: String,
+    deleted: bool,
+    available_dates: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafRuleToggleBodyData {
+    source: Option<String>,
+    filenames: Option<Vec<String>>,
+    enabled: bool,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafUploadFileData {
+    filename: String,
+    content_base64: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafUploadBodyData {
+    files: Vec<WafUploadFileData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct WafLogDeleteBodyData {
+    date: Option<String>,
+}

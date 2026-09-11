@@ -1,1 +1,329 @@
-dXNlIHN0ZDo6e2VudiwgZnMsIHBhdGg6OlBhdGhCdWZ9OwoKdXNlIGF4dW06OnsKICAgIGV4dHJhY3Q6OlN0YXRlLAogICAgaHR0cDo6U3RhdHVzQ29kZSwKICAgIHJlc3BvbnNlOjp7SW50b1Jlc3BvbnNlLCBSZXNwb25zZX0sCn07CnVzZSBzZXJkZTo6U2VyaWFsaXplOwp1c2Ugc2VyZGVfanNvbjo6VmFsdWU7CnVzZSB1dG9pcGFfYXh1bTo6e3JvdXRlcjo6T3BlbkFwaVJvdXRlciwgcm91dGVzfTsKCnVzZSBjcmF0ZTo6e2kxOG46OlRyYW5zbGF0b3IsIHJlc3BvbnNlLCBzdGF0ZTo6QXBwU3RhdGV9OwoKZm4gc3lzdGVtX2luZm9fcm91dGVfdGV4dCh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwga2V5OiAmc3RyKSAtPiBTdHJpbmcgewogICAgdHJhbnNsYXRvci50KCZmb3JtYXQhKCJzZXJ2ZXIuc3lzdGVtSW5mb1JvdXRlcy57a2V5fSIpKQp9CgojW2Rlcml2ZShEZWJ1ZywgU2VyaWFsaXplLCBQYXJ0aWFsRXEpXQpzdHJ1Y3QgQWNjZXNzRW50cnlJbmZvIHsKICAgIGVudjogJidzdGF0aWMgc3RyLAogICAgcG9ydDogU3RyaW5nLAogICAgI1tzZXJkZShyZW5hbWUgPSAiaXNEZWZhdWx0IildCiAgICBpc19kZWZhdWx0OiBib29sLAp9CgpwdWIgZm4gc3lzdGVtX2luZm9fcm91dGVzKCkgLT4gT3BlbkFwaVJvdXRlcjxBcHBTdGF0ZT4gewogICAgT3BlbkFwaVJvdXRlcjo6bmV3KCkucm91dGVzKHJvdXRlcyEoYWNjZXNzX2VudHJ5KSkKfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBnZXQsCiAgICBwYXRoID0gIi9hcGkvYWRtaW4vc3lzdGVtL2FjY2Vzcy1lbnRyeSIsCiAgICB0YWcgPSAic3lzdGVtIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX3N5c3RlbV9hY2Nlc3NfZW50cnkiLAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlJlc29sdmVkIHB1YmxpYyBtYW5hZ2VtZW50IGFjY2VzcyBlbnRyeSIpKQopXQphc3luYyBmbiBhY2Nlc3NfZW50cnkoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIG1hdGNoIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0IHsKICAgICAgICBPayhjb25maWcpID0+IHJlc3BvbnNlOjpvayhyZXNvbHZlX2FjY2Vzc19lbnRyeV9pbmZvKCZjb25maWcpKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gbG9hZCBjb25maWcgZm9yIGFjY2VzcyBlbnRyeSIpOwogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICBzeXN0ZW1faW5mb19yb3V0ZV90ZXh0KCZ0cmFuc2xhdG9yLCAibG9hZEFjY2Vzc0VudHJ5RmFpbGVkIiksCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCmZuIHJlc29sdmVfYWNjZXNzX2VudHJ5X2luZm8oY29uZmlnOiAmVmFsdWUpIC0+IEFjY2Vzc0VudHJ5SW5mbyB7CiAgICByZXNvbHZlX2FjY2Vzc19lbnRyeV9pbmZvX2Zyb21fc291cmNlcygKICAgICAgICBjb25maWcsCiAgICAgICAgcmVzb2x2ZV9mcnBjX3JlbW90ZV9wb3J0KCksCiAgICAgICAgZW52Ojp2YXIoIkdPX1JFUFJPWFlfUE9SVCIpLm9rKCksCiAgICApCn0KCmZuIHJlc29sdmVfYWNjZXNzX2VudHJ5X2luZm9fZnJvbV9zb3VyY2VzKAogICAgY29uZmlnOiAmVmFsdWUsCiAgICBmcnBjX3JlbW90ZV9wb3J0OiBPcHRpb248dTE2PiwKICAgIGxvY2FsX2dhdGV3YXlfcG9ydDogT3B0aW9uPFN0cmluZz4sCikgLT4gQWNjZXNzRW50cnlJbmZvIHsKICAgIGlmIGlzX3JldmVyc2VfcHJveHlfc3ViZG9tYWluX21vZGUoY29uZmlnKQogICAgICAgICYmICFpc19jbG91ZGZsYXJlZF9yZXZlcnNlX3Byb3h5X3N1YmRvbWFpbl9tb2RlKGNvbmZpZykKICAgICAgICAmJiBsZXQgU29tZShwb3J0KSA9IGZycGNfcmVtb3RlX3BvcnQKICAgIHsKICAgICAgICByZXR1cm4gQWNjZXNzRW50cnlJbmZvIHsKICAgICAgICAgICAgZW52OiAiRlJQX1JFTU9URV9QT1JUIiwKICAgICAgICAgICAgcG9ydDogcG9ydC50b19zdHJpbmcoKSwKICAgICAgICAgICAgaXNfZGVmYXVsdDogZmFsc2UsCiAgICAgICAgfTsKICAgIH0KICAgIHJlc29sdmVfbG9jYWxfZ2F0ZXdheV9wb3J0X2Zyb21fZW52KGxvY2FsX2dhdGV3YXlfcG9ydCkKfQoKZm4gaXNfY2xvdWRmbGFyZWRfcmV2ZXJzZV9wcm94eV9zdWJkb21haW5fbW9kZShjb25maWc6ICZWYWx1ZSkgLT4gYm9vbCB7CiAgICBpc19yZXZlcnNlX3Byb3h5X3N1YmRvbWFpbl9tb2RlKGNvbmZpZykKICAgICAgICAmJiBjb25maWcKICAgICAgICAgICAgLmdldCgiZGVmYXVsdF90dW5uZWwiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLnVud3JhcF9vcigiZnJwIikKICAgICAgICAgICAgPT0gImNsb3VkZmxhcmVkIgp9CgpwdWIoY3JhdGUpIGZuIHJlc29sdmVfcHVibGljX2dhdGV3YXlfcG9ydChjb25maWc6ICZWYWx1ZSkgLT4gT3B0aW9uPGk2ND4gewogICAgcmVzb2x2ZV9wdWJsaWNfZ2F0ZXdheV9wb3J0X2Zyb21fc291cmNlcygKICAgICAgICBjb25maWcsCiAgICAgICAgcmVzb2x2ZV9mcnBjX3JlbW90ZV9wb3J0KCksCiAgICAgICAgZW52Ojp2YXIoIkdPX1JFUFJPWFlfUE9SVCIpLm9rKCksCiAgICApCn0KCnB1YihjcmF0ZSkgZm4gcmVzb2x2ZV9wdWJsaWNfZ2F0ZXdheV9wb3J0X3UxNihjb25maWc6ICZWYWx1ZSkgLT4gT3B0aW9uPHUxNj4gewogICAgcmVzb2x2ZV9wdWJsaWNfZ2F0ZXdheV9wb3J0KGNvbmZpZykuYW5kX3RoZW4ofHBvcnR8IHUxNjo6dHJ5X2Zyb20ocG9ydCkub2soKSkKfQoKcHViKGNyYXRlKSBmbiByZXNvbHZlX2FjY2Vzc19lbnRyeV9wb3J0KGNvbmZpZzogJlZhbHVlKSAtPiBTdHJpbmcgewogICAgcmVzb2x2ZV9hY2Nlc3NfZW50cnlfaW5mbyhjb25maWcpLnBvcnQKfQoKZm4gcmVzb2x2ZV9wdWJsaWNfZ2F0ZXdheV9wb3J0X2Zyb21fc291cmNlcygKICAgIGNvbmZpZzogJlZhbHVlLAogICAgZnJwY19yZW1vdGVfcG9ydDogT3B0aW9uPHUxNj4sCiAgICBsb2NhbF9nYXRld2F5X3BvcnQ6IE9wdGlvbjxTdHJpbmc+LAopIC0+IE9wdGlvbjxpNjQ+IHsKICAgIHBhcnNlX3B1YmxpY19nYXRld2F5X3BvcnQoCiAgICAgICAgJnJlc29sdmVfYWNjZXNzX2VudHJ5X2luZm9fZnJvbV9zb3VyY2VzKGNvbmZpZywgZnJwY19yZW1vdGVfcG9ydCwgbG9jYWxfZ2F0ZXdheV9wb3J0KS5wb3J0LAogICAgKQp9CgpmbiBwYXJzZV9wdWJsaWNfZ2F0ZXdheV9wb3J0KHZhbHVlOiAmc3RyKSAtPiBPcHRpb248aTY0PiB7CiAgICBwYXJzZV9qc19wYXJzZV9pbnRfcmFkaXhfMTAodmFsdWUudHJpbV9zdGFydCgpKS5maWx0ZXIofHBvcnR8ICpwb3J0ID4gMCkKfQoKZm4gcmVzb2x2ZV9sb2NhbF9nYXRld2F5X3BvcnRfZnJvbV9lbnYodmFsdWU6IE9wdGlvbjxTdHJpbmc+KSAtPiBBY2Nlc3NFbnRyeUluZm8gewogICAgbWF0Y2ggdmFsdWUuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpIHsKICAgICAgICBTb21lKHBvcnQpID0+IEFjY2Vzc0VudHJ5SW5mbyB7CiAgICAgICAgICAgIGVudjogIkdPX1JFUFJPWFlfUE9SVCIsCiAgICAgICAgICAgIHBvcnQsCiAgICAgICAgICAgIGlzX2RlZmF1bHQ6IGZhbHNlLAogICAgICAgIH0sCiAgICAgICAgTm9uZSA9PiBBY2Nlc3NFbnRyeUluZm8gewogICAgICAgICAgICBlbnY6ICJHT19SRVBST1hZX1BPUlQiLAogICAgICAgICAgICBwb3J0OiAiNzk5OSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGlzX2RlZmF1bHQ6IHRydWUsCiAgICAgICAgfSwKICAgIH0KfQoKdXNlIGNyYXRlOjpwcm94eV91dGlsczo6aXNfcmV2ZXJzZV9wcm94eV9zdWJkb21haW5fbW9kZTsKCmZuIHJlc29sdmVfZnJwY19yZW1vdGVfcG9ydCgpIC0+IE9wdGlvbjx1MTY+IHsKICAgIGxldCBjb250ZW50ID0gZnM6OnJlYWRfdG9fc3RyaW5nKGRhdGFfZGlyKCkuam9pbigiZnJwIikuam9pbigiZnJwYy50b21sIikpLm9rKCk/OwogICAgZXh0cmFjdF9mcnBjX3JlbW90ZV9wb3J0KCZjb250ZW50KQp9CgpmbiBleHRyYWN0X2ZycGNfcmVtb3RlX3BvcnQoY29udGVudDogJnN0cikgLT4gT3B0aW9uPHUxNj4gewogICAgZm9yIGxpbmUgaW4gY29udGVudC5saW5lcygpIHsKICAgICAgICBsZXQgdHJpbW1lZCA9IGxpbmUudHJpbSgpOwogICAgICAgIGxldCBTb21lKChrZXksIHZhbHVlKSkgPSB0cmltbWVkLnNwbGl0X29uY2UoJz0nKSBlbHNlIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfTsKICAgICAgICBsZXQga2V5ID0ga2V5LnRyaW0oKTsKICAgICAgICBpZiBrZXkgIT0gInJlbW90ZVBvcnQiICYmIGtleSAhPSAicmVtb3RlX3BvcnQiIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCB2YWx1ZSA9IHZhbHVlLnRyaW0oKTsKICAgICAgICBpZiB2YWx1ZS5pc19lbXB0eSgpIHx8IHZhbHVlLmNoYXJzKCkuYW55KHxjaHwgIWNoLmlzX2FzY2lpX2RpZ2l0KCkpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBwYXJzZWQgPSB2YWx1ZS5wYXJzZTo6PHUzMj4oKS5vaygpPzsKICAgICAgICBpZiAoMS4uPTY1NTM1KS5jb250YWlucygmcGFyc2VkKSB7CiAgICAgICAgICAgIHJldHVybiBTb21lKHBhcnNlZCBhcyB1MTYpOwogICAgICAgIH0KICAgIH0KICAgIE5vbmUKfQoKdXNlIGNyYXRlOjpub2RlX2NvbXBhdDo6cGFyc2VfaTY0X3ByZWZpeCBhcyBwYXJzZV9qc19wYXJzZV9pbnRfcmFkaXhfMTA7CgpmbiBkYXRhX2RpcigpIC0+IFBhdGhCdWYgewogICAgaWYgbGV0IE9rKHBhdGgpID0gZW52Ojp2YXIoIkZOX0tOT0NLX0RBVEFfRElSIikgewogICAgICAgIGxldCB0cmltbWVkID0gcGF0aC50cmltKCk7CiAgICAgICAgaWYgIXRyaW1tZWQuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiBQYXRoQnVmOjpmcm9tKHRyaW1tZWQpOwogICAgICAgIH0KICAgIH0KCiAgICBsZXQgaG9tZSA9IGVudjo6dmFyKCJIT01FIikudW53cmFwX29yX2Vsc2UofF98ICIuIi50b19zdHJpbmcoKSk7CiAgICBtYXRjaCBlbnY6OmNvbnN0czo6T1MgewogICAgICAgICJtYWNvcyIgPT4gUGF0aEJ1Zjo6ZnJvbShob21lKQogICAgICAgICAgICAuam9pbigiTGlicmFyeSIpCiAgICAgICAgICAgIC5qb2luKCJBcHBsaWNhdGlvbiBTdXBwb3J0IikKICAgICAgICAgICAgLmpvaW4oImZuLWtub2NrIiksCiAgICAgICAgImxpbnV4IiA9PiBQYXRoQnVmOjpmcm9tKGhvbWUpCiAgICAgICAgICAgIC5qb2luKCIubG9jYWwiKQogICAgICAgICAgICAuam9pbigic2hhcmUiKQogICAgICAgICAgICAuam9pbigiZm4ta25vY2siKSwKICAgICAgICBfID0+IFBhdGhCdWY6OmZyb20oaG9tZSkuam9pbigiLmZuLWtub2NrIiksCiAgICB9Cn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwogICAgdXNlIHNlcmRlX2pzb246Ompzb247CgogICAgI1t0ZXN0XQogICAgZm4gZXh0cmFjdHNfZnJwY19yZW1vdGVfcG9ydF9saWtlX25vZGUoKSB7CiAgICAgICAgYXNzZXJ0X2VxIShleHRyYWN0X2ZycGNfcmVtb3RlX3BvcnQoInJlbW90ZVBvcnQgPSAxMjM0NSIpLCBTb21lKDEyMzQ1KSk7CiAgICAgICAgYXNzZXJ0X2VxIShleHRyYWN0X2ZycGNfcmVtb3RlX3BvcnQoInJlbW90ZV9wb3J0ID0gNDQzIiksIFNvbWUoNDQzKSk7CiAgICAgICAgYXNzZXJ0X2VxIShleHRyYWN0X2ZycGNfcmVtb3RlX3BvcnQoInJlbW90ZVBvcnQgPSA3MDAwMCIpLCBOb25lKTsKICAgICAgICBhc3NlcnRfZXEhKGV4dHJhY3RfZnJwY19yZW1vdGVfcG9ydCgicmVtb3RlUG9ydCA9IDQ0MyAjIG5vcGUiKSwgTm9uZSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gZGV0ZWN0c19yZXZlcnNlX3Byb3h5X3N1YmRvbWFpbl9tb2RlKCkgewogICAgICAgIGFzc2VydCEoaXNfcmV2ZXJzZV9wcm94eV9zdWJkb21haW5fbW9kZSgmanNvbiEoewogICAgICAgICAgICAicnVuX3R5cGUiOiAxLAogICAgICAgICAgICAicmV2ZXJzZV9wcm94eV9zdWJtb2RlIjogInN1YmRvbWFpbiIKICAgICAgICB9KSkpOwogICAgICAgIGFzc2VydCEoIWlzX3JldmVyc2VfcHJveHlfc3ViZG9tYWluX21vZGUoJmpzb24hKHsKICAgICAgICAgICAgInJ1bl90eXBlIjogMywKICAgICAgICAgICAgInJldmVyc2VfcHJveHlfc3VibW9kZSI6ICJzdWJkb21haW4iCiAgICAgICAgfSkpKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiByZXNvbHZlc19sb2NhbF9nYXRld2F5X3BvcnRfd2l0aF9ub2RlX2Vudl90cnV0aGluZXNzKCkgewogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHJlc29sdmVfbG9jYWxfZ2F0ZXdheV9wb3J0X2Zyb21fZW52KE5vbmUpLAogICAgICAgICAgICBBY2Nlc3NFbnRyeUluZm8gewogICAgICAgICAgICAgICAgZW52OiAiR09fUkVQUk9YWV9QT1JUIiwKICAgICAgICAgICAgICAgIHBvcnQ6ICI3OTk5Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgIGlzX2RlZmF1bHQ6IHRydWUKICAgICAgICAgICAgfQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgcmVzb2x2ZV9sb2NhbF9nYXRld2F5X3BvcnRfZnJvbV9lbnYoU29tZShTdHJpbmc6Om5ldygpKSksCiAgICAgICAgICAgIEFjY2Vzc0VudHJ5SW5mbyB7CiAgICAgICAgICAgICAgICBlbnY6ICJHT19SRVBST1hZX1BPUlQiLAogICAgICAgICAgICAgICAgcG9ydDogIjc5OTkiLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgaXNfZGVmYXVsdDogdHJ1ZQogICAgICAgICAgICB9CiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICByZXNvbHZlX2xvY2FsX2dhdGV3YXlfcG9ydF9mcm9tX2VudihTb21lKCIgICAiLnRvX3N0cmluZygpKSksCiAgICAgICAgICAgIEFjY2Vzc0VudHJ5SW5mbyB7CiAgICAgICAgICAgICAgICBlbnY6ICJHT19SRVBST1hZX1BPUlQiLAogICAgICAgICAgICAgICAgcG9ydDogIiAgICIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICBpc19kZWZhdWx0OiBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICByZXNvbHZlX2xvY2FsX2dhdGV3YXlfcG9ydF9mcm9tX2VudihTb21lKCIgODAwMCAiLnRvX3N0cmluZygpKSksCiAgICAgICAgICAgIEFjY2Vzc0VudHJ5SW5mbyB7CiAgICAgICAgICAgICAgICBlbnY6ICJHT19SRVBST1hZX1BPUlQiLAogICAgICAgICAgICAgICAgcG9ydDogIiA4MDAwICIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICBpc19kZWZhdWx0OiBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiByZXNvbHZlc19wdWJsaWNfZ2F0ZXdheV9wb3J0X2Zyb21fYWNjZXNzX2VudHJ5X2xpa2Vfbm9kZSgpIHsKICAgICAgICBsZXQgZGlyZWN0ID0ganNvbiEoeyAicnVuX3R5cGUiOiAwIH0pOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHJlc29sdmVfcHVibGljX2dhdGV3YXlfcG9ydF9mcm9tX3NvdXJjZXMoCiAgICAgICAgICAgICAgICAmZGlyZWN0LAogICAgICAgICAgICAgICAgU29tZSg0NDMpLAogICAgICAgICAgICAgICAgU29tZSgiIDgwMDB4ICIudG9fc3RyaW5nKCkpCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFNvbWUoODAwMCkKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHJlc29sdmVfcHVibGljX2dhdGV3YXlfcG9ydF9mcm9tX3NvdXJjZXMoJmRpcmVjdCwgTm9uZSwgU29tZSgiICAgIi50b19zdHJpbmcoKSkpLAogICAgICAgICAgICBOb25lCiAgICAgICAgKTsKCiAgICAgICAgbGV0IHJldmVyc2Vfc3ViZG9tYWluID0ganNvbiEoewogICAgICAgICAgICAicnVuX3R5cGUiOiAxLAogICAgICAgICAgICAicmV2ZXJzZV9wcm94eV9zdWJtb2RlIjogInN1YmRvbWFpbiIKICAgICAgICB9KTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICByZXNvbHZlX2FjY2Vzc19lbnRyeV9pbmZvX2Zyb21fc291cmNlcygKICAgICAgICAgICAgICAgICZyZXZlcnNlX3N1YmRvbWFpbiwKICAgICAgICAgICAgICAgIFNvbWUoNDQzKSwKICAgICAgICAgICAgICAgIFNvbWUoIjc5OTkiLnRvX3N0cmluZygpKQogICAgICAgICAgICApLAogICAgICAgICAgICBBY2Nlc3NFbnRyeUluZm8gewogICAgICAgICAgICAgICAgZW52OiAiRlJQX1JFTU9URV9QT1JUIiwKICAgICAgICAgICAgICAgIHBvcnQ6ICI0NDMiLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgaXNfZGVmYXVsdDogZmFsc2UKICAgICAgICAgICAgfQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgcmVzb2x2ZV9wdWJsaWNfZ2F0ZXdheV9wb3J0X2Zyb21fc291cmNlcygKICAgICAgICAgICAgICAgICZyZXZlcnNlX3N1YmRvbWFpbiwKICAgICAgICAgICAgICAgIFNvbWUoNDQzKSwKICAgICAgICAgICAgICAgIFNvbWUoIjc5OTkiLnRvX3N0cmluZygpKQogICAgICAgICAgICApLAogICAgICAgICAgICBTb21lKDQ0MykKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHJlc29sdmVfcHVibGljX2dhdGV3YXlfcG9ydF9mcm9tX3NvdXJjZXMoCiAgICAgICAgICAgICAgICAmcmV2ZXJzZV9zdWJkb21haW4sCiAgICAgICAgICAgICAgICBOb25lLAogICAgICAgICAgICAgICAgU29tZSgiNzk5OSIudG9fc3RyaW5nKCkpCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFNvbWUoNzk5OSkKICAgICAgICApOwoKICAgICAgICBsZXQgY2xvdWRmbGFyZWRfcmV2ZXJzZV9zdWJkb21haW4gPSBqc29uISh7CiAgICAgICAgICAgICJydW5fdHlwZSI6IDEsCiAgICAgICAgICAgICJyZXZlcnNlX3Byb3h5X3N1Ym1vZGUiOiAic3ViZG9tYWluIiwKICAgICAgICAgICAgImRlZmF1bHRfdHVubmVsIjogImNsb3VkZmxhcmVkIgogICAgICAgIH0pOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHJlc29sdmVfYWNjZXNzX2VudHJ5X2luZm9fZnJvbV9zb3VyY2VzKAogICAgICAgICAgICAgICAgJmNsb3VkZmxhcmVkX3JldmVyc2Vfc3ViZG9tYWluLAogICAgICAgICAgICAgICAgU29tZSgxNTEwMSksCiAgICAgICAgICAgICAgICBTb21lKCI3OTk5Ii50b19zdHJpbmcoKSkKICAgICAgICAgICAgKSwKICAgICAgICAgICAgQWNjZXNzRW50cnlJbmZvIHsKICAgICAgICAgICAgICAgIGVudjogIkdPX1JFUFJPWFlfUE9SVCIsCiAgICAgICAgICAgICAgICBwb3J0OiAiNzk5OSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICBpc19kZWZhdWx0OiBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICByZXNvbHZlX3B1YmxpY19nYXRld2F5X3BvcnRfZnJvbV9zb3VyY2VzKAogICAgICAgICAgICAgICAgJmNsb3VkZmxhcmVkX3JldmVyc2Vfc3ViZG9tYWluLAogICAgICAgICAgICAgICAgU29tZSgxNTEwMSksCiAgICAgICAgICAgICAgICBTb21lKCI3OTk5Ii50b19zdHJpbmcoKSkKICAgICAgICAgICAgKSwKICAgICAgICAgICAgU29tZSg3OTk5KQogICAgICAgICk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gbG9jYWxpemVzX3N5c3RlbV9pbmZvX3JvdXRlX3RleHQoKSB7CiAgICAgICAgbGV0IHpoID0gVHJhbnNsYXRvcjo6bmV3KCJ6aC1DTiIpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHN5c3RlbV9pbmZvX3JvdXRlX3RleHQoJnpoLCAibG9hZEFjY2Vzc0VudHJ5RmFpbGVkIiksCiAgICAgICAgICAgICLliqDovb3orr/pl67lhaXlj6PlpLHotKUiCiAgICAgICAgKTsKICAgIH0KfQo=
+use std::{env, fs, path::PathBuf};
+
+use axum::{
+    extract::State,
+    http::StatusCode,
+    response::{IntoResponse, Response},
+};
+use serde::Serialize;
+use serde_json::Value;
+use utoipa_axum::{router::OpenApiRouter, routes};
+
+use crate::{i18n::Translator, response, state::AppState};
+
+fn system_info_route_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.systemInfoRoutes.{key}"))
+}
+
+#[derive(Debug, Serialize, PartialEq)]
+struct AccessEntryInfo {
+    env: &'static str,
+    port: String,
+    #[serde(rename = "isDefault")]
+    is_default: bool,
+}
+
+pub fn system_info_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new().routes(routes!(access_entry))
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/system/access-entry",
+    tag = "system",
+    operation_id = "get_api_admin_system_access_entry",
+    responses((status = 200, description = "Resolved public management access entry"))
+)]
+async fn access_entry(State(state): State<AppState>) -> Response {
+    match state.storage.store.get_config().await {
+        Ok(config) => response::ok(resolve_access_entry_info(&config)).into_response(),
+        Err(error) => {
+            let translator = Translator::from_state(&state).await;
+            tracing::warn!(%error, "failed to load config for access entry");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                system_info_route_text(&translator, "loadAccessEntryFailed"),
+            )
+        }
+    }
+}
+
+fn resolve_access_entry_info(config: &Value) -> AccessEntryInfo {
+    resolve_access_entry_info_from_sources(
+        config,
+        resolve_frpc_remote_port(),
+        env::var("GO_REPROXY_PORT").ok(),
+    )
+}
+
+fn resolve_access_entry_info_from_sources(
+    config: &Value,
+    frpc_remote_port: Option<u16>,
+    local_gateway_port: Option<String>,
+) -> AccessEntryInfo {
+    if is_reverse_proxy_subdomain_mode(config)
+        && !is_cloudflared_reverse_proxy_subdomain_mode(config)
+        && let Some(port) = frpc_remote_port
+    {
+        return AccessEntryInfo {
+            env: "FRP_REMOTE_PORT",
+            port: port.to_string(),
+            is_default: false,
+        };
+    }
+    resolve_local_gateway_port_from_env(local_gateway_port)
+}
+
+fn is_cloudflared_reverse_proxy_subdomain_mode(config: &Value) -> bool {
+    is_reverse_proxy_subdomain_mode(config)
+        && config
+            .get("default_tunnel")
+            .and_then(Value::as_str)
+            .unwrap_or("frp")
+            == "cloudflared"
+}
+
+pub(crate) fn resolve_public_gateway_port(config: &Value) -> Option<i64> {
+    resolve_public_gateway_port_from_sources(
+        config,
+        resolve_frpc_remote_port(),
+        env::var("GO_REPROXY_PORT").ok(),
+    )
+}
+
+pub(crate) fn resolve_public_gateway_port_u16(config: &Value) -> Option<u16> {
+    resolve_public_gateway_port(config).and_then(|port| u16::try_from(port).ok())
+}
+
+pub(crate) fn resolve_access_entry_port(config: &Value) -> String {
+    resolve_access_entry_info(config).port
+}
+
+fn resolve_public_gateway_port_from_sources(
+    config: &Value,
+    frpc_remote_port: Option<u16>,
+    local_gateway_port: Option<String>,
+) -> Option<i64> {
+    parse_public_gateway_port(
+        &resolve_access_entry_info_from_sources(config, frpc_remote_port, local_gateway_port).port,
+    )
+}
+
+fn parse_public_gateway_port(value: &str) -> Option<i64> {
+    parse_js_parse_int_radix_10(value.trim_start()).filter(|port| *port > 0)
+}
+
+fn resolve_local_gateway_port_from_env(value: Option<String>) -> AccessEntryInfo {
+    match value.filter(|value| !value.is_empty()) {
+        Some(port) => AccessEntryInfo {
+            env: "GO_REPROXY_PORT",
+            port,
+            is_default: false,
+        },
+        None => AccessEntryInfo {
+            env: "GO_REPROXY_PORT",
+            port: "7999".to_string(),
+            is_default: true,
+        },
+    }
+}
+
+use crate::proxy_utils::is_reverse_proxy_subdomain_mode;
+
+fn resolve_frpc_remote_port() -> Option<u16> {
+    let content = fs::read_to_string(data_dir().join("frp").join("frpc.toml")).ok()?;
+    extract_frpc_remote_port(&content)
+}
+
+fn extract_frpc_remote_port(content: &str) -> Option<u16> {
+    for line in content.lines() {
+        let trimmed = line.trim();
+        let Some((key, value)) = trimmed.split_once('=') else {
+            continue;
+        };
+        let key = key.trim();
+        if key != "remotePort" && key != "remote_port" {
+            continue;
+        }
+        let value = value.trim();
+        if value.is_empty() || value.chars().any(|ch| !ch.is_ascii_digit()) {
+            continue;
+        }
+        let parsed = value.parse::<u32>().ok()?;
+        if (1..=65535).contains(&parsed) {
+            return Some(parsed as u16);
+        }
+    }
+    None
+}
+
+use crate::node_compat::parse_i64_prefix as parse_js_parse_int_radix_10;
+
+fn data_dir() -> PathBuf {
+    if let Ok(path) = env::var("FN_KNOCK_DATA_DIR") {
+        let trimmed = path.trim();
+        if !trimmed.is_empty() {
+            return PathBuf::from(trimmed);
+        }
+    }
+
+    let home = env::var("HOME").unwrap_or_else(|_| ".".to_string());
+    match env::consts::OS {
+        "macos" => PathBuf::from(home)
+            .join("Library")
+            .join("Application Support")
+            .join("fn-knock"),
+        "linux" => PathBuf::from(home)
+            .join(".local")
+            .join("share")
+            .join("fn-knock"),
+        _ => PathBuf::from(home).join(".fn-knock"),
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use serde_json::json;
+
+    #[test]
+    fn extracts_frpc_remote_port_like_node() {
+        assert_eq!(extract_frpc_remote_port("remotePort = 12345"), Some(12345));
+        assert_eq!(extract_frpc_remote_port("remote_port = 443"), Some(443));
+        assert_eq!(extract_frpc_remote_port("remotePort = 70000"), None);
+        assert_eq!(extract_frpc_remote_port("remotePort = 443 # nope"), None);
+    }
+
+    #[test]
+    fn detects_reverse_proxy_subdomain_mode() {
+        assert!(is_reverse_proxy_subdomain_mode(&json!({
+            "run_type": 1,
+            "reverse_proxy_submode": "subdomain"
+        })));
+        assert!(!is_reverse_proxy_subdomain_mode(&json!({
+            "run_type": 3,
+            "reverse_proxy_submode": "subdomain"
+        })));
+    }
+
+    #[test]
+    fn resolves_local_gateway_port_with_node_env_truthiness() {
+        assert_eq!(
+            resolve_local_gateway_port_from_env(None),
+            AccessEntryInfo {
+                env: "GO_REPROXY_PORT",
+                port: "7999".to_string(),
+                is_default: true
+            }
+        );
+        assert_eq!(
+            resolve_local_gateway_port_from_env(Some(String::new())),
+            AccessEntryInfo {
+                env: "GO_REPROXY_PORT",
+                port: "7999".to_string(),
+                is_default: true
+            }
+        );
+        assert_eq!(
+            resolve_local_gateway_port_from_env(Some("   ".to_string())),
+            AccessEntryInfo {
+                env: "GO_REPROXY_PORT",
+                port: "   ".to_string(),
+                is_default: false
+            }
+        );
+        assert_eq!(
+            resolve_local_gateway_port_from_env(Some(" 8000 ".to_string())),
+            AccessEntryInfo {
+                env: "GO_REPROXY_PORT",
+                port: " 8000 ".to_string(),
+                is_default: false
+            }
+        );
+    }
+
+    #[test]
+    fn resolves_public_gateway_port_from_access_entry_like_node() {
+        let direct = json!({ "run_type": 0 });
+        assert_eq!(
+            resolve_public_gateway_port_from_sources(
+                &direct,
+                Some(443),
+                Some(" 8000x ".to_string())
+            ),
+            Some(8000)
+        );
+        assert_eq!(
+            resolve_public_gateway_port_from_sources(&direct, None, Some("   ".to_string())),
+            None
+        );
+
+        let reverse_subdomain = json!({
+            "run_type": 1,
+            "reverse_proxy_submode": "subdomain"
+        });
+        assert_eq!(
+            resolve_access_entry_info_from_sources(
+                &reverse_subdomain,
+                Some(443),
+                Some("7999".to_string())
+            ),
+            AccessEntryInfo {
+                env: "FRP_REMOTE_PORT",
+                port: "443".to_string(),
+                is_default: false
+            }
+        );
+        assert_eq!(
+            resolve_public_gateway_port_from_sources(
+                &reverse_subdomain,
+                Some(443),
+                Some("7999".to_string())
+            ),
+            Some(443)
+        );
+        assert_eq!(
+            resolve_public_gateway_port_from_sources(
+                &reverse_subdomain,
+                None,
+                Some("7999".to_string())
+            ),
+            Some(7999)
+        );
+
+        let cloudflared_reverse_subdomain = json!({
+            "run_type": 1,
+            "reverse_proxy_submode": "subdomain",
+            "default_tunnel": "cloudflared"
+        });
+        assert_eq!(
+            resolve_access_entry_info_from_sources(
+                &cloudflared_reverse_subdomain,
+                Some(15101),
+                Some("7999".to_string())
+            ),
+            AccessEntryInfo {
+                env: "GO_REPROXY_PORT",
+                port: "7999".to_string(),
+                is_default: false
+            }
+        );
+        assert_eq!(
+            resolve_public_gateway_port_from_sources(
+                &cloudflared_reverse_subdomain,
+                Some(15101),
+                Some("7999".to_string())
+            ),
+            Some(7999)
+        );
+    }
+
+    #[test]
+    fn localizes_system_info_route_text() {
+        let zh = Translator::new("zh-CN");
+        assert_eq!(
+            system_info_route_text(&zh, "loadAccessEntryFailed"),
+            "加载访问入口失败"
+        );
+    }
+}

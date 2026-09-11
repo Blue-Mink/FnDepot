@@ -1,1 +1,85 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBjb25zdCBXSElURUxJU1RfTVVUQVRJT05fTUFYX1JFVFJJRVM6IHVzaXplID0gODsKCnB1YihzdXBlcikgZW51bSBUeXBlZFdoaXRlbGlzdE11dGF0aW9uIHsKICAgIFVwc2VydChUeXBlZFdoaXRlbGlzdERvY3VtZW50KSwKICAgIERlbGV0ZSB7CiAgICAgICAga2luZDogJidzdGF0aWMgc3RyLAogICAgICAgIGlkOiBTdHJpbmcsCiAgICB9LAogICAgUmVwbGFjZUtpbmQgewogICAgICAgIGtpbmQ6ICYnc3RhdGljIHN0ciwKICAgICAgICBkb2N1bWVudHM6IFZlYzxUeXBlZFdoaXRlbGlzdERvY3VtZW50PiwKICAgIH0sCn0KCnB1YihzdXBlcikgZm4gdHlwZWRfd2hpdGVsaXN0X3JlY29yZCgKICAgIHJlY29yZDogJldoaXRlbGlzdFJlY29yZCwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxUeXBlZFdoaXRlbGlzdERvY3VtZW50PiB7CiAgICBPayhUeXBlZFdoaXRlbGlzdERvY3VtZW50IHsKICAgICAgICBraW5kOiAicmVjb3JkIiwKICAgICAgICBpZDogcmVjb3JkLmlkLmNsb25lKCksCiAgICAgICAgZG9jdW1lbnRfanNvbjogc2VyZGVfanNvbjo6dG9fc3RyaW5nKHJlY29yZCk/LAogICAgICAgIHNvcnRfc2NvcmU6IHJlY29yZC5jcmVhdGVkX2F0LAogICAgICAgIGV4cGlyZXNfYXQ6IHJlY29yZC5leHBpcmVfYXQsCiAgICAgICAgc3RhdHVzOiByZWNvcmQuc3RhdHVzLmNsb25lKCksCiAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIHR5cGVkX3doaXRlbGlzdF9yZWdpb24oCiAgICByZWNvcmQ6ICZXaGl0ZWxpc3RSZWdpb25Hcm91cFJlY29yZCwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxUeXBlZFdoaXRlbGlzdERvY3VtZW50PiB7CiAgICBPayhUeXBlZFdoaXRlbGlzdERvY3VtZW50IHsKICAgICAgICBraW5kOiAicmVnaW9uIiwKICAgICAgICBpZDogcmVjb3JkLmlkLmNsb25lKCksCiAgICAgICAgZG9jdW1lbnRfanNvbjogc2VyZGVfanNvbjo6dG9fc3RyaW5nKHJlY29yZCk/LAogICAgICAgIHNvcnRfc2NvcmU6IHJlY29yZC5jcmVhdGVkX2F0LAogICAgICAgIGV4cGlyZXNfYXQ6IHJlY29yZC5leHBpcmVfYXQsCiAgICAgICAgc3RhdHVzOiByZWNvcmQuc3RhdHVzLmNsb25lKCksCiAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIHdoaXRlbGlzdF9yZWNvcmRfZnJvbV90eXBlZCgKICAgIGRvY3VtZW50OiBUeXBlZFdoaXRlbGlzdERvY3VtZW50LAopIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PFdoaXRlbGlzdFJlY29yZD4gewogICAgbGV0IHJlY29yZCA9IGRlc2VyaWFsaXplX3doaXRlbGlzdF9yZWNvcmQoJmRvY3VtZW50LmRvY3VtZW50X2pzb24pLm9rX29yX2Vsc2UofHwgewogICAgICAgIGNyYXRlOjpzdG9yYWdlOjpzdG9yYWdlX2Vycm9yKGZvcm1hdCEoCiAgICAgICAgICAgICJ0eXBlZCB3aGl0ZWxpc3QgcmVjb3JkIHt9IGlzIG1hbGZvcm1lZCIsCiAgICAgICAgICAgIGRvY3VtZW50LmlkCiAgICAgICAgKSkKICAgIH0pPzsKICAgIGlmIHJlY29yZC5pZCAhPSBkb2N1bWVudC5pZAogICAgICAgIHx8IHJlY29yZC5jcmVhdGVkX2F0ICE9IGRvY3VtZW50LnNvcnRfc2NvcmUKICAgICAgICB8fCByZWNvcmQuZXhwaXJlX2F0ICE9IGRvY3VtZW50LmV4cGlyZXNfYXQKICAgICAgICB8fCByZWNvcmQuc3RhdHVzICE9IGRvY3VtZW50LnN0YXR1cwogICAgewogICAgICAgIHJldHVybiBFcnIoY3JhdGU6OnN0b3JhZ2U6OnN0b3JhZ2VfZXJyb3IoZm9ybWF0ISgKICAgICAgICAgICAgInR5cGVkIHdoaXRlbGlzdCByZWNvcmQge30gbWV0YWRhdGEgbWlzbWF0Y2giLAogICAgICAgICAgICBkb2N1bWVudC5pZAogICAgICAgICkpKTsKICAgIH0KICAgIE9rKHJlY29yZCkKfQoKcHViKHN1cGVyKSBmbiB3aGl0ZWxpc3RfcmVnaW9uX2Zyb21fdHlwZWQoCiAgICBkb2N1bWVudDogVHlwZWRXaGl0ZWxpc3REb2N1bWVudCwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxXaGl0ZWxpc3RSZWdpb25Hcm91cFJlY29yZD4gewogICAgbGV0IHJlY29yZCA9IGRlc2VyaWFsaXplX3doaXRlbGlzdF9yZWdpb25fZ3JvdXAoJmRvY3VtZW50LmRvY3VtZW50X2pzb24pLm9rX29yX2Vsc2UofHwgewogICAgICAgIGNyYXRlOjpzdG9yYWdlOjpzdG9yYWdlX2Vycm9yKGZvcm1hdCEoCiAgICAgICAgICAgICJ0eXBlZCB3aGl0ZWxpc3QgcmVnaW9uIHt9IGlzIG1hbGZvcm1lZCIsCiAgICAgICAgICAgIGRvY3VtZW50LmlkCiAgICAgICAgKSkKICAgIH0pPzsKICAgIGlmIHJlY29yZC5pZCAhPSBkb2N1bWVudC5pZAogICAgICAgIHx8IHJlY29yZC5jcmVhdGVkX2F0ICE9IGRvY3VtZW50LnNvcnRfc2NvcmUKICAgICAgICB8fCByZWNvcmQuZXhwaXJlX2F0ICE9IGRvY3VtZW50LmV4cGlyZXNfYXQKICAgICAgICB8fCByZWNvcmQuc3RhdHVzICE9IGRvY3VtZW50LnN0YXR1cwogICAgewogICAgICAgIHJldHVybiBFcnIoY3JhdGU6OnN0b3JhZ2U6OnN0b3JhZ2VfZXJyb3IoZm9ybWF0ISgKICAgICAgICAgICAgInR5cGVkIHdoaXRlbGlzdCByZWdpb24ge30gbWV0YWRhdGEgbWlzbWF0Y2giLAogICAgICAgICAgICBkb2N1bWVudC5pZAogICAgICAgICkpKTsKICAgIH0KICAgIE9rKHJlY29yZCkKfQo=
+use super::*;
+
+pub(super) const WHITELIST_MUTATION_MAX_RETRIES: usize = 8;
+
+pub(super) enum TypedWhitelistMutation {
+    Upsert(TypedWhitelistDocument),
+    Delete {
+        kind: &'static str,
+        id: String,
+    },
+    ReplaceKind {
+        kind: &'static str,
+        documents: Vec<TypedWhitelistDocument>,
+    },
+}
+
+pub(super) fn typed_whitelist_record(
+    record: &WhitelistRecord,
+) -> crate::storage::StorageResult<TypedWhitelistDocument> {
+    Ok(TypedWhitelistDocument {
+        kind: "record",
+        id: record.id.clone(),
+        document_json: serde_json::to_string(record)?,
+        sort_score: record.created_at,
+        expires_at: record.expire_at,
+        status: record.status.clone(),
+    })
+}
+
+pub(super) fn typed_whitelist_region(
+    record: &WhitelistRegionGroupRecord,
+) -> crate::storage::StorageResult<TypedWhitelistDocument> {
+    Ok(TypedWhitelistDocument {
+        kind: "region",
+        id: record.id.clone(),
+        document_json: serde_json::to_string(record)?,
+        sort_score: record.created_at,
+        expires_at: record.expire_at,
+        status: record.status.clone(),
+    })
+}
+
+pub(super) fn whitelist_record_from_typed(
+    document: TypedWhitelistDocument,
+) -> crate::storage::StorageResult<WhitelistRecord> {
+    let record = deserialize_whitelist_record(&document.document_json).ok_or_else(|| {
+        crate::storage::storage_error(format!(
+            "typed whitelist record {} is malformed",
+            document.id
+        ))
+    })?;
+    if record.id != document.id
+        || record.created_at != document.sort_score
+        || record.expire_at != document.expires_at
+        || record.status != document.status
+    {
+        return Err(crate::storage::storage_error(format!(
+            "typed whitelist record {} metadata mismatch",
+            document.id
+        )));
+    }
+    Ok(record)
+}
+
+pub(super) fn whitelist_region_from_typed(
+    document: TypedWhitelistDocument,
+) -> crate::storage::StorageResult<WhitelistRegionGroupRecord> {
+    let record = deserialize_whitelist_region_group(&document.document_json).ok_or_else(|| {
+        crate::storage::storage_error(format!(
+            "typed whitelist region {} is malformed",
+            document.id
+        ))
+    })?;
+    if record.id != document.id
+        || record.created_at != document.sort_score
+        || record.expire_at != document.expires_at
+        || record.status != document.status
+    {
+        return Err(crate::storage::storage_error(format!(
+            "typed whitelist region {} metadata mismatch",
+            document.id
+        )));
+    }
+    Ok(record)
+}

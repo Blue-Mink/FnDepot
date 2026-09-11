@@ -1,1 +1,386 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktNiI+CiAgICA8Q2FyZD4KICAgICAgPENhcmRIZWFkZXI+CiAgICAgICAgPENhcmRUaXRsZQogICAgICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTMgc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIHNtOmp1c3RpZnktYmV0d2VlbiIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICA8c3Bhbj57eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy50aXRsZSIpIH19PC9zcGFuPgogICAgICAgICAgICA8QmFkZ2UKICAgICAgICAgICAgICB2LWlmPSJwcm90b2NvbE1hcHBpbmdFbmFibGVkICYmIHNjaGVkdWxlU3RhdGUiCiAgICAgICAgICAgICAgOnZhcmlhbnQ9InNjaGVkdWxlU3RhdGUgPT09ICdvcGVuJyA/ICdkZWZhdWx0JyA6ICdzZWNvbmRhcnknIgogICAgICAgICAgICAgIGNsYXNzPSJnYXAtMS41IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPENsb2NrMyBjbGFzcz0iaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgIHNjaGVkdWxlU3RhdGUgPT09ICJvcGVuIgogICAgICAgICAgICAgICAgICA/IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnNjaGVkdWxlT3BlbiIsIHsKICAgICAgICAgICAgICAgICAgICAgIHdpbmRvdzogc2NoZWR1bGVXaW5kb3csCiAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5zY2hlZHVsZUNsb3NlZCIsIHsKICAgICAgICAgICAgICAgICAgICAgIHdpbmRvdzogc2NoZWR1bGVXaW5kb3csCiAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICB9fQogICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4Ij4KICAgICAgICAgICAgICA8QnV0dG9uIGNsYXNzPSJyb3VuZGVkLXItbm9uZSIgQGNsaWNrPSJvcGVuQ3JlYXRlRGlhbG9nIj4KICAgICAgICAgICAgICAgIDxQbHVzIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5hZGRNYXBwaW5nIikgfX0KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8RHJvcGRvd25NZW51PgogICAgICAgICAgICAgICAgPERyb3Bkb3duTWVudVRyaWdnZXIgYXMtY2hpbGQ+CiAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICB2YXJpYW50PSJkZWZhdWx0IgogICAgICAgICAgICAgICAgICAgIHNpemU9Imljb24iCiAgICAgICAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2NvbW1vbi5tb3JlQWN0aW9ucycpIgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLWwtbm9uZSBib3JkZXItbCBib3JkZXItcHJpbWFyeS1mb3JlZ3JvdW5kLzIwIHB4LTIiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8Q2hldnJvbkRvd24gY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgPC9Ecm9wZG93bk1lbnVUcmlnZ2VyPgogICAgICAgICAgICAgICAgPERyb3Bkb3duTWVudUNvbnRlbnQgYWxpZ249ImVuZCI+CiAgICAgICAgICAgICAgICAgIDxEcm9wZG93bk1lbnVJdGVtCiAgICAgICAgICAgICAgICAgICAgQGNsaWNrPSJzeW5jUm91dGVzIgogICAgICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNTeW5jaW5nIHx8ICFwcm90b2NvbE1hcHBpbmdFbmFibGVkIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPFJlZnJlc2hDdwogICAgICAgICAgICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCIKICAgICAgICAgICAgICAgICAgICAgIDpjbGFzcz0ieyAnYW5pbWF0ZS1zcGluJzogaXNTeW5jaW5nIH0iCiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICAgICAgaXNTeW5jaW5nCiAgICAgICAgICAgICAgICAgICAgICAgID8gdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3Muc3luY2luZyIpCiAgICAgICAgICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3Muc3luY0dhdGV3YXkiKQogICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgIDwvRHJvcGRvd25NZW51SXRlbT4KICAgICAgICAgICAgICAgICAgPERyb3Bkb3duTWVudUl0ZW0gQGNsaWNrPSJvcGVuQXZhaWxhYmlsaXR5RGlhbG9nIj4KICAgICAgICAgICAgICAgICAgICA8Q2xvY2szIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3Muc2NoZWR1bGVBdmFpbGFiaWxpdHkiKSB9fQogICAgICAgICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUNvbnRlbnQ+CiAgICAgICAgICAgICAgPC9Ecm9wZG93bk1lbnU+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9DYXJkVGl0bGU+CiAgICAgICAgPENhcmREZXNjcmlwdGlvbj4KICAgICAgICAgIHt7IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLmRlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L0NhcmREZXNjcmlwdGlvbj4KICAgICAgPC9DYXJkSGVhZGVyPgoKICAgICAgPENhcmRDb250ZW50IGNsYXNzPSJzcGFjZS15LTQiPgogICAgICAgIDxTdHJlYW1NYXBwaW5nRGlzYWJsZWRBbGVydAogICAgICAgICAgdi1pZj0iIXByb3RvY29sTWFwcGluZ0VuYWJsZWQiCiAgICAgICAgICA6cnVudGltZS1pc3N1ZT0icHJvdG9jb2xNYXBwaW5nUnVudGltZUlzc3VlIgogICAgICAgIC8+CiAgICAgICAgPEFsZXJ0CiAgICAgICAgICB2LWVsc2UtaWY9InNjaGVkdWxlU3RhdGUgPT09ICdjbG9zZWQnIgogICAgICAgICAgY2xhc3M9Iml0ZW1zLXN0YXJ0IHJvdW5kZWQteGwgYm9yZGVyLWFtYmVyLTMwMCBiZy1hbWJlci01MC84MCB0ZXh0LWFtYmVyLTk1MCBzaGFkb3ctbm9uZSIKICAgICAgICA+CiAgICAgICAgICA8Q2xvY2szIGNsYXNzPSJtdC0wLjUgaC00IHctNCBzaHJpbmstMCIgLz4KICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgICAgIDxBbGVydFRpdGxlPnt7CiAgICAgICAgICAgICAgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3Muc2NoZWR1bGVDbG9zZWRUaXRsZSIpCiAgICAgICAgICAgIH19PC9BbGVydFRpdGxlPgogICAgICAgICAgICA8QWxlcnREZXNjcmlwdGlvbiBjbGFzcz0idGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1hbWJlci05MDAiPgogICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5zY2hlZHVsZUNsb3NlZERlc2NyaXB0aW9uIiwgewogICAgICAgICAgICAgICAgICB3aW5kb3c6IHNjaGVkdWxlV2luZG93LAogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICB9fQogICAgICAgICAgICA8L0FsZXJ0RGVzY3JpcHRpb24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L0FsZXJ0PgogICAgICAgIDxBbGVydAogICAgICAgICAgY2xhc3M9Iml0ZW1zLXN0YXJ0IHJvdW5kZWQteGwgYm9yZGVyLXppbmMtMjAwIGJnLXppbmMtNTAvNzAgdGV4dC16aW5jLTkwMCBzaGFkb3ctbm9uZSIKICAgICAgICA+CiAgICAgICAgICA8SW5mbyBjbGFzcz0ibXQtMC41IGgtNCB3LTQgc2hyaW5rLTAiIC8+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEiPgogICAgICAgICAgICA8QWxlcnRUaXRsZT57eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5hY2Nlc3NUaXRsZSIpIH19PC9BbGVydFRpdGxlPgogICAgICAgICAgICA8QWxlcnREZXNjcmlwdGlvbiBjbGFzcz0idGV4dC1zbSBsZWFkaW5nLTYgdGV4dC16aW5jLTcwMCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuYWNjZXNzRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgICA8L0FsZXJ0RGVzY3JpcHRpb24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L0FsZXJ0PgogICAgICAgIDxTdHJlYW1NYXBwaW5nVGFibGUKICAgICAgICAgIDptYXBwaW5ncz0iYWxsTWFwcGluZ3MiCiAgICAgICAgICA6cmVtb3ZpbmctbWFwcGluZy1rZXk9InJlbW92aW5nTWFwcGluZ0tleSIKICAgICAgICAgIDpwcm9iaW5nLW1hcHBpbmcta2V5PSJwcm9iaW5nTWFwcGluZ0tleSIKICAgICAgICAgIDp0cmFmZmljLXRpbWVzdGFtcD0idHJhZmZpY1JlYWx0aW1lU3RhdHM/LnRpbWVzdGFtcCA/PyBudWxsIgogICAgICAgICAgOmdldC1zdHJlYW0tdHJhZmZpYy1zYW1wbGU9ImdldFN0cmVhbVRyYWZmaWNTYW1wbGUiCiAgICAgICAgICA6b24tcmVtb3ZlPSJyZW1vdmVNYXBwaW5nIgogICAgICAgICAgOm9uLXNhdmUtY29tbWVudD0idXBkYXRlQ29tbWVudCIKICAgICAgICAgIEBlZGl0PSJvcGVuRWRpdERpYWxvZyIKICAgICAgICAgIEBwcm9iZT0icHJvYmVNYXBwaW5nIgogICAgICAgICAgQHBvbGljeT0ib3BlbkJ5cGFzc1BvbGljeSIKICAgICAgICAgIEBzZXJ2aWNlPSJvcGVuU2VydmljZVByb2ZpbGUiCiAgICAgICAgLz4KICAgICAgPC9DYXJkQ29udGVudD4KICAgIDwvQ2FyZD4KCiAgICA8U3RyZWFtTWFwcGluZ0VkaXRvckRpYWxvZwogICAgICB2LW1vZGVsOm9wZW49ImlzRGlhbG9nT3BlbiIKICAgICAgOmV4aXN0aW5nLW1hcHBpbmdzPSJhbGxNYXBwaW5ncyIKICAgICAgOm1hcHBpbmc9ImVkaXRpbmdNYXBwaW5nIgogICAgICA6c2F2aW5nPSJpc1NhdmluZyIKICAgICAgQHNhdmU9InNhdmVNYXBwaW5nIgogICAgLz4KICAgIDxTdHJlYW1NYXBwaW5nQXZhaWxhYmlsaXR5RGlhbG9nCiAgICAgIDpvcGVuPSJpc0F2YWlsYWJpbGl0eURpYWxvZ09wZW4iCiAgICAgIDplbmFibGVkPSJhdmFpbGFiaWxpdHlGb3JtRW5hYmxlZCIKICAgICAgOnN0YXJ0LXRpbWU9ImF2YWlsYWJpbGl0eUZvcm1TdGFydFRpbWUiCiAgICAgIDplbmQtdGltZT0iYXZhaWxhYmlsaXR5Rm9ybUVuZFRpbWUiCiAgICAgIDpsb2FkaW5nPSJpc1NhdmluZ0F2YWlsYWJpbGl0eSIKICAgICAgOnZhbGlkYXRpb24tbWVzc2FnZT0iYXZhaWxhYmlsaXR5VmFsaWRhdGlvbk1lc3NhZ2UiCiAgICAgIEB1cGRhdGU6b3Blbj0iaGFuZGxlQXZhaWxhYmlsaXR5RGlhbG9nT3BlbkNoYW5nZSIKICAgICAgQHVwZGF0ZTplbmFibGVkPSJhdmFpbGFiaWxpdHlGb3JtRW5hYmxlZCA9ICRldmVudCIKICAgICAgQHVwZGF0ZTpzdGFydC10aW1lPSJhdmFpbGFiaWxpdHlGb3JtU3RhcnRUaW1lID0gJGV2ZW50IgogICAgICBAdXBkYXRlOmVuZC10aW1lPSJhdmFpbGFiaWxpdHlGb3JtRW5kVGltZSA9ICRldmVudCIKICAgICAgQGNhbmNlbD0iY2xvc2VBdmFpbGFiaWxpdHlEaWFsb2ciCiAgICAgIEBzYXZlPSJzYXZlQXZhaWxhYmlsaXR5IgogICAgLz4KICAgIDxTdHJlYW1TZXJ2aWNlUHJvZmlsZURpYWxvZwogICAgICA6b3Blbj0iaXNTZXJ2aWNlUHJvZmlsZU9wZW4iCiAgICAgIDpsb2FkaW5nPSJpc1NhdmluZ1NlcnZpY2VQcm9maWxlIgogICAgICA6bWFwcGluZz0ic2VydmljZVByb2ZpbGVNYXBwaW5nIgogICAgICA6Y2F0YWxvZz0ic2VydmljZUNhdGFsb2ciCiAgICAgIDppbml0aWFsLXNlcnZpY2UtaWQ9InNlcnZpY2VQcm9maWxlSW5pdGlhbFNlcnZpY2VJZCIKICAgICAgQHVwZGF0ZTpvcGVuPSJzZXRTZXJ2aWNlUHJvZmlsZU9wZW4iCiAgICAgIEBjbGVhcj0iY2xlYXJTZXJ2aWNlUHJvZmlsZSIKICAgICAgQGNvbmZpcm09ImNvbmZpcm1TZXJ2aWNlUHJvZmlsZSIKICAgIC8+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KaW1wb3J0IHsgY29tcHV0ZWQsIG9uQmVmb3JlVW5tb3VudCwgb25Nb3VudGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBDaGV2cm9uRG93biwgQ2xvY2szLCBJbmZvLCBQbHVzLCBSZWZyZXNoQ3cgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBBbGVydCwgQWxlcnREZXNjcmlwdGlvbiwgQWxlcnRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9hbGVydCI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgQ2FyZCwKICBDYXJkQ29udGVudCwKICBDYXJkRGVzY3JpcHRpb24sCiAgQ2FyZEhlYWRlciwKICBDYXJkVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgewogIERyb3Bkb3duTWVudSwKICBEcm9wZG93bk1lbnVDb250ZW50LAogIERyb3Bkb3duTWVudUl0ZW0sCiAgRHJvcGRvd25NZW51VHJpZ2dlciwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZHJvcGRvd24tbWVudSI7CmltcG9ydCB7IGV4dHJhY3RFcnJvck1lc3NhZ2UgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgQ29uZmlnQVBJIH0gZnJvbSAiQC9saWIvYXBpL2NvbmZpZyI7CmltcG9ydCB7IERhc2hib2FyZEFQSSB9IGZyb20gIkAvbGliL2FwaS9kYXNoYm9hcmQiOwppbXBvcnQgeyB1c2VDb25maWdTdG9yZSB9IGZyb20gIi4uL3N0b3JlL2NvbmZpZyI7CmltcG9ydCB0eXBlIHsgU3RyZWFtTWFwcGluZywgU3RyZWFtVHJhZmZpY1N0YXRzIH0gZnJvbSAiLi4vdHlwZXMiOwppbXBvcnQgU3RyZWFtTWFwcGluZ0Rpc2FibGVkQWxlcnQgZnJvbSAiLi9zdHJlYW0tbWFwcGluZ3MvU3RyZWFtTWFwcGluZ0Rpc2FibGVkQWxlcnQudnVlIjsKaW1wb3J0IFN0cmVhbU1hcHBpbmdBdmFpbGFiaWxpdHlEaWFsb2cgZnJvbSAiLi9zdHJlYW0tbWFwcGluZ3MvU3RyZWFtTWFwcGluZ0F2YWlsYWJpbGl0eURpYWxvZy52dWUiOwppbXBvcnQgU3RyZWFtTWFwcGluZ0VkaXRvckRpYWxvZyBmcm9tICIuL3N0cmVhbS1tYXBwaW5ncy9TdHJlYW1NYXBwaW5nRWRpdG9yRGlhbG9nLnZ1ZSI7CmltcG9ydCBTdHJlYW1NYXBwaW5nVGFibGUgZnJvbSAiLi9zdHJlYW0tbWFwcGluZ3MvU3RyZWFtTWFwcGluZ1RhYmxlLnZ1ZSI7CmltcG9ydCBTdHJlYW1TZXJ2aWNlUHJvZmlsZURpYWxvZyBmcm9tICIuL3N0cmVhbS1tYXBwaW5ncy9TdHJlYW1TZXJ2aWNlUHJvZmlsZURpYWxvZy52dWUiOwppbXBvcnQgewogIGFwcGx5U3RyZWFtTWFwcGluZ1N1Ym1pc3Npb24sCiAgY29tcGFyZVN0cmVhbU1hcHBpbmdzLAogIGZvcm1hdE1hcHBpbmdMYWJlbCwKICBnZXRNYXBwaW5nS2V5LAogIG5vcm1hbGl6ZVN0cmVhbU1hcHBpbmcsCiAgcmVtb3ZlU3RyZWFtTWFwcGluZywKICBzdHJlYW1UcmFmZmljS2V5LAogIHR5cGUgU3RyZWFtTWFwcGluZ0VkaXRvclN1Ym1pc3Npb24sCiAgdXBkYXRlU3RyZWFtTWFwcGluZ0NvbW1lbnQsCn0gZnJvbSAiLi9zdHJlYW0tbWFwcGluZ3Mvc3RyZWFtTWFwcGluZ01vZGVsIjsKaW1wb3J0IHsgdXNlU3RyZWFtTWFwcGluZ0F2YWlsYWJpbGl0eSB9IGZyb20gIi4vc3RyZWFtLW1hcHBpbmdzL3VzZVN0cmVhbU1hcHBpbmdBdmFpbGFiaWxpdHkiOwppbXBvcnQgeyB1c2VTdHJlYW1NYXBwaW5nTmF2aWdhdGlvbiB9IGZyb20gIi4vc3RyZWFtLW1hcHBpbmdzL3VzZVN0cmVhbU1hcHBpbmdOYXZpZ2F0aW9uIjsKaW1wb3J0IHsgdXNlU3RyZWFtTWFwcGluZ1NlY3VyaXR5IH0gZnJvbSAiLi9zdHJlYW0tbWFwcGluZ3MvdXNlU3RyZWFtTWFwcGluZ1NlY3VyaXR5IjsKaW1wb3J0IHsgdXNlVHJhZmZpY1JlYWx0aW1lIH0gZnJvbSAiLi9zdWJkb21haW4tcHJveHkvdXNlVHJhZmZpY1JlYWx0aW1lIjsKCmNvbnN0IGNvbmZpZ1N0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IGlzRGlhbG9nT3BlbiA9IHJlZihmYWxzZSk7CmNvbnN0IGlzU2F2aW5nID0gcmVmKGZhbHNlKTsKY29uc3QgaXNTeW5jaW5nID0gcmVmKGZhbHNlKTsKY29uc3QgZWRpdGluZ01hcHBpbmcgPSByZWY8U3RyZWFtTWFwcGluZyB8IG51bGw+KG51bGwpOwpjb25zdCByZW1vdmluZ01hcHBpbmdLZXkgPSByZWY8c3RyaW5nIHwgbnVsbD4obnVsbCk7CmNvbnN0IHsgb3BlbkJ5cGFzc1BvbGljeSB9ID0gdXNlU3RyZWFtTWFwcGluZ05hdmlnYXRpb24oKTsKY29uc3QgewogIGNsZWFyU2VydmljZVByb2ZpbGUsCiAgY29uZmlybVNlcnZpY2VQcm9maWxlLAogIGlzU2F2aW5nU2VydmljZVByb2ZpbGUsCiAgaXNTZXJ2aWNlUHJvZmlsZU9wZW4sCiAgb3BlblNlcnZpY2VQcm9maWxlLAogIHByb2JlTWFwcGluZywKICBwcm9iaW5nTWFwcGluZ0tleSwKICBzZXRTZXJ2aWNlUHJvZmlsZU9wZW4sCiAgc2VydmljZUNhdGFsb2csCiAgc2VydmljZVByb2ZpbGVJbml0aWFsU2VydmljZUlkLAogIHNlcnZpY2VQcm9maWxlTWFwcGluZywKfSA9IHVzZVN0cmVhbU1hcHBpbmdTZWN1cml0eSgpOwpjb25zdCB7CiAgYXZhaWxhYmlsaXR5Rm9ybUVuYWJsZWQsCiAgYXZhaWxhYmlsaXR5Rm9ybUVuZFRpbWUsCiAgYXZhaWxhYmlsaXR5Rm9ybVN0YXJ0VGltZSwKICBhdmFpbGFiaWxpdHlWYWxpZGF0aW9uTWVzc2FnZSwKICBjbG9zZUF2YWlsYWJpbGl0eURpYWxvZywKICBoYW5kbGVBdmFpbGFiaWxpdHlEaWFsb2dPcGVuQ2hhbmdlLAogIGlzQXZhaWxhYmlsaXR5RGlhbG9nT3BlbiwKICBpc1NhdmluZ0F2YWlsYWJpbGl0eSwKICBvcGVuQXZhaWxhYmlsaXR5RGlhbG9nLAogIHNhdmVBdmFpbGFiaWxpdHksCiAgc2NoZWR1bGVTdGF0ZSwKICBzY2hlZHVsZVdpbmRvdywKfSA9IHVzZVN0cmVhbU1hcHBpbmdBdmFpbGFiaWxpdHkoKTsKY29uc3QgYWxsTWFwcGluZ3MgPSBjb21wdXRlZCgoKSA9PgogIFsuLi4oY29uZmlnU3RvcmUuY29uZmlnPy5zdHJlYW1fbWFwcGluZ3MgPz8gW10pXQogICAgLm1hcChub3JtYWxpemVTdHJlYW1NYXBwaW5nKQogICAgLnNvcnQoY29tcGFyZVN0cmVhbU1hcHBpbmdzKSwKKTsKY29uc3QgcHJvdG9jb2xNYXBwaW5nRW5hYmxlZCA9IGNvbXB1dGVkKAogICgpID0+IGNvbmZpZ1N0b3JlLmNvbmZpZz8ucHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlPy5lbmFibGVkID09PSB0cnVlLAopOwpjb25zdCBwcm90b2NvbE1hcHBpbmdSdW50aW1lSXNzdWUgPSBjb21wdXRlZCgKICAoKSA9PiBjb25maWdTdG9yZS5jb25maWc/LnByb3RvY29sX21hcHBpbmdfZmVhdHVyZT8ucnVudGltZV9pc3N1ZSA/PyBudWxsLAopOwoKY29uc3QgewogIHN0YXJ0VHJhZmZpY1JlYWx0aW1lUG9sbGluZywKICBzdG9wVHJhZmZpY1JlYWx0aW1lUG9sbGluZywKICB0cmFmZmljUmVhbHRpbWVTdGF0cywKfSA9IHVzZVRyYWZmaWNSZWFsdGltZSh7CiAgbG9hZDogKCkgPT4gRGFzaGJvYXJkQVBJLmdldFJlYWx0aW1lKCksCiAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICBjb25zb2xlLndhcm4oImxvYWQgc3RyZWFtIHRyYWZmaWMgcmVhbHRpbWUgZmFpbGVkOiIsIGVycm9yKTsKICB9LAp9KTsKCmNvbnN0IHN0cmVhbVRyYWZmaWNTYW1wbGVzID0gY29tcHV0ZWQoKCkgPT4gewogIGNvbnN0IHNhbXBsZXMgPSBuZXcgTWFwPHN0cmluZywgU3RyZWFtVHJhZmZpY1N0YXRzPigpOwogIGZvciAoY29uc3QgaXRlbSBvZiB0cmFmZmljUmVhbHRpbWVTdGF0cy52YWx1ZT8uYnlfc3RyZWFtID8/IFtdKSB7CiAgICBpZiAoaXRlbS5rZXkpIHNhbXBsZXMuc2V0KGl0ZW0ua2V5LCBpdGVtKTsKICB9CiAgcmV0dXJuIHNhbXBsZXM7Cn0pOwoKY29uc3QgZ2V0U3RyZWFtVHJhZmZpY1NhbXBsZSA9ICgKICBtYXBwaW5nOiBTdHJlYW1NYXBwaW5nLAopOiBTdHJlYW1UcmFmZmljU3RhdHMgfCBudWxsID0+CiAgc3RyZWFtVHJhZmZpY1NhbXBsZXMudmFsdWUuZ2V0KHN0cmVhbVRyYWZmaWNLZXkobWFwcGluZykpID8/IG51bGw7Cgpvbk1vdW50ZWQoc3RhcnRUcmFmZmljUmVhbHRpbWVQb2xsaW5nKTsKb25CZWZvcmVVbm1vdW50KHN0b3BUcmFmZmljUmVhbHRpbWVQb2xsaW5nKTsKCmZ1bmN0aW9uIG9wZW5DcmVhdGVEaWFsb2coKSB7CiAgZWRpdGluZ01hcHBpbmcudmFsdWUgPSBudWxsOwogIGlzRGlhbG9nT3Blbi52YWx1ZSA9IHRydWU7Cn0KCmZ1bmN0aW9uIG9wZW5FZGl0RGlhbG9nKG1hcHBpbmc6IFN0cmVhbU1hcHBpbmcpIHsKICBlZGl0aW5nTWFwcGluZy52YWx1ZSA9IG5vcm1hbGl6ZVN0cmVhbU1hcHBpbmcobWFwcGluZyk7CiAgaXNEaWFsb2dPcGVuLnZhbHVlID0gdHJ1ZTsKfQoKYXN5bmMgZnVuY3Rpb24gc2F2ZU1hcHBpbmcoc3VibWlzc2lvbjogU3RyZWFtTWFwcGluZ0VkaXRvclN1Ym1pc3Npb24pIHsKICBpc1NhdmluZy52YWx1ZSA9IHRydWU7CiAgdHJ5IHsKICAgIGF3YWl0IGNvbmZpZ1N0b3JlLnNhdmVTdHJlYW1NYXBwaW5ncygoY3VycmVudCkgPT4KICAgICAgYXBwbHlTdHJlYW1NYXBwaW5nU3VibWlzc2lvbihjdXJyZW50LCBzdWJtaXNzaW9uKSwKICAgICk7CiAgICB0b2FzdC5zdWNjZXNzKAogICAgICBnZXRTYXZlU3VjY2Vzc01lc3NhZ2UoCiAgICAgICAgc3VibWlzc2lvbi5tYXBwaW5ncy5sZW5ndGgsCiAgICAgICAgc3VibWlzc2lvbi5lZGl0aW5nS2V5ICE9PSBudWxsLAogICAgICApLAogICAgKTsKICAgIGlzRGlhbG9nT3Blbi52YWx1ZSA9IGZhbHNlOwogIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsKICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnNhdmVGYWlsZWQiKSwgewogICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiY29tbW9uLnRyeUxhdGVyIikpLAogICAgfSk7CiAgfSBmaW5hbGx5IHsKICAgIGlzU2F2aW5nLnZhbHVlID0gZmFsc2U7CiAgfQp9CgpmdW5jdGlvbiBnZXRTYXZlU3VjY2Vzc01lc3NhZ2Uoc2F2ZWRDb3VudDogbnVtYmVyLCBpc0VkaXRpbmc6IGJvb2xlYW4pOiBzdHJpbmcgewogIGNvbnN0IGFjdGlvbiA9IGlzRWRpdGluZwogICAgPyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5hY3Rpb25VcGRhdGUiKQogICAgOiB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5hY3Rpb25DcmVhdGUiKTsKICByZXR1cm4gc2F2ZWRDb3VudCA+IDEKICAgID8gdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3Muc2F2ZU1hbnkiLCB7IGFjdGlvbiwgY291bnQ6IHNhdmVkQ291bnQgfSkKICAgIDogdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3Muc2F2ZU9uZSIsIHsgYWN0aW9uIH0pOwp9CmFzeW5jIGZ1bmN0aW9uIHJlbW92ZU1hcHBpbmcobWFwcGluZzogU3RyZWFtTWFwcGluZyk6IFByb21pc2U8Ym9vbGVhbj4gewogIHJlbW92aW5nTWFwcGluZ0tleS52YWx1ZSA9IGdldE1hcHBpbmdLZXkobWFwcGluZyk7CiAgdHJ5IHsKICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGNvbmZpZ1N0b3JlLnNhdmVTdHJlYW1NYXBwaW5ncygKICAgICAgKGN1cnJlbnQpID0+IHJlbW92ZVN0cmVhbU1hcHBpbmcoY3VycmVudCwgZ2V0TWFwcGluZ0tleShtYXBwaW5nKSksCiAgICAgIHsgZGlzYWJsZUZlYXR1cmVPbkxlZ2FjeVJlcGFpckNvbmZsaWN0OiB0cnVlIH0sCiAgICApOwogICAgY29uc3QgZGVzY3JpcHRpb24gPSByZXN1bHQucHJvdG9jb2xNYXBwaW5nRGlzYWJsZWQKICAgICAgPyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5kaXNhYmxlZEZvckxlZ2FjeVJlcGFpciIpCiAgICAgIDogdW5kZWZpbmVkOwogICAgY29uc3QgbWVzc2FnZSA9IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnJlbW92ZVN1Y2Nlc3MiLCB7CiAgICAgIG1hcHBpbmc6IGZvcm1hdE1hcHBpbmdMYWJlbChtYXBwaW5nKSwKICAgIH0pOwogICAgdG9hc3Quc3VjY2VzcyhtZXNzYWdlLCB7IGRlc2NyaXB0aW9uIH0pOwogICAgcmV0dXJuIHRydWU7CiAgfSBjYXRjaCAoZXJyb3I6IGFueSkgewogICAgY29uc3QgdGl0bGVLZXkgPSBwcm90b2NvbE1hcHBpbmdFbmFibGVkLnZhbHVlCiAgICAgID8gImFkbWluLnN0cmVhbU1hcHBpbmdzLmRlbGV0ZUZhaWxlZCIKICAgICAgOiAiYWRtaW4uc3RyZWFtTWFwcGluZ3MuZGVsZXRlRmFpbGVkV2hpbGVEaXNhYmxlZCI7CiAgICB0b2FzdC5lcnJvcih0KHRpdGxlS2V5KSwgewogICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiY29tbW9uLnRyeUxhdGVyIikpLAogICAgfSk7CiAgICByZXR1cm4gZmFsc2U7CiAgfSBmaW5hbGx5IHsKICAgIHJlbW92aW5nTWFwcGluZ0tleS52YWx1ZSA9IG51bGw7CiAgfQp9Cgphc3luYyBmdW5jdGlvbiB1cGRhdGVDb21tZW50KG1hcHBpbmc6IFN0cmVhbU1hcHBpbmcsIGNvbW1lbnQ6IHN0cmluZykgewogIHRyeSB7CiAgICBjb25zdCBrZXkgPSBnZXRNYXBwaW5nS2V5KG1hcHBpbmcpOwogICAgYXdhaXQgY29uZmlnU3RvcmUuc2F2ZVN0cmVhbU1hcHBpbmdzKChjdXJyZW50KSA9PgogICAgICB1cGRhdGVTdHJlYW1NYXBwaW5nQ29tbWVudChjdXJyZW50LCBrZXksIGNvbW1lbnQpLAogICAgKTsKICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuY29tbWVudFVwZGF0ZWQiKSk7CiAgfSBjYXRjaCAoZXJyb3I6IGFueSkgewogICAgdGhyb3cgbmV3IEVycm9yKAogICAgICBleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5jb21tZW50VXBkYXRlRmFpbGVkIikpLAogICAgICB7IGNhdXNlOiBlcnJvciB9LAogICAgKTsKICB9Cn0KYXN5bmMgZnVuY3Rpb24gc3luY1JvdXRlcygpIHsKICBpc1N5bmNpbmcudmFsdWUgPSB0cnVlOwogIHRyeSB7CiAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBDb25maWdBUEkuc3luY1JvdXRlcygpOwogICAgaWYgKHJlc3VsdC5zdWNjZXNzKSB7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uc3RyZWFtTWFwcGluZ3Muc3luY1N1Y2Nlc3MiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5zeW5jRGVzY3JpcHRpb24iLCB7CiAgICAgICAgICBwYXRoUnVsZXM6IHJlc3VsdC5kYXRhPy5zeW5jZWRfcnVsZXMgPz8gMCwKICAgICAgICAgIGhvc3RSdWxlczogcmVzdWx0LmRhdGE/LnN5bmNlZF9ob3N0X3J1bGVzID8/IDAsCiAgICAgICAgICBzdHJlYW1SdWxlczogcmVzdWx0LmRhdGE/LnN5bmNlZF9zdHJlYW1fcnVsZXMgPz8gMCwKICAgICAgICB9KSwKICAgICAgfSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5zeW5jRmFpbGVkIiksIHsKICAgICAgZGVzY3JpcHRpb246IHJlc3VsdC5tZXNzYWdlIHx8IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnN5bmNOb1N1Y2Nlc3MiKSwKICAgIH0pOwogIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsKICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnN5bmNGYWlsZWQiKSwgewogICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiY29tbW9uLnRyeUxhdGVyIikpLAogICAgfSk7CiAgfSBmaW5hbGx5IHsKICAgIGlzU3luY2luZy52YWx1ZSA9IGZhbHNlOwogIH0KfQo8L3NjcmlwdD4K
+<template>
+  <div class="space-y-6">
+    <Card>
+      <CardHeader>
+        <CardTitle
+          class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"
+        >
+          <div class="flex flex-wrap items-center gap-2">
+            <span>{{ t("admin.streamMappings.title") }}</span>
+            <Badge
+              v-if="protocolMappingEnabled && scheduleState"
+              :variant="scheduleState === 'open' ? 'default' : 'secondary'"
+              class="gap-1.5"
+            >
+              <Clock3 class="h-3.5 w-3.5" />
+              {{
+                scheduleState === "open"
+                  ? t("admin.streamMappings.scheduleOpen", {
+                      window: scheduleWindow,
+                    })
+                  : t("admin.streamMappings.scheduleClosed", {
+                      window: scheduleWindow,
+                    })
+              }}
+            </Badge>
+          </div>
+          <div class="flex flex-wrap items-center gap-2">
+            <div class="flex">
+              <Button class="rounded-r-none" @click="openCreateDialog">
+                <Plus class="mr-2 h-4 w-4" />
+                {{ t("admin.streamMappings.addMapping") }}
+              </Button>
+              <DropdownMenu>
+                <DropdownMenuTrigger as-child>
+                  <Button
+                    variant="default"
+                    size="icon"
+                    :aria-label="t('common.moreActions')"
+                    class="rounded-l-none border-l border-primary-foreground/20 px-2"
+                  >
+                    <ChevronDown class="h-4 w-4" />
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                  <DropdownMenuItem
+                    @click="syncRoutes"
+                    :disabled="isSyncing || !protocolMappingEnabled"
+                  >
+                    <RefreshCw
+                      class="mr-2 h-4 w-4"
+                      :class="{ 'animate-spin': isSyncing }"
+                    />
+                    {{
+                      isSyncing
+                        ? t("admin.streamMappings.syncing")
+                        : t("admin.streamMappings.syncGateway")
+                    }}
+                  </DropdownMenuItem>
+                  <DropdownMenuItem @click="openAvailabilityDialog">
+                    <Clock3 class="mr-2 h-4 w-4" />
+                    {{ t("admin.streamMappings.scheduleAvailability") }}
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </div>
+          </div>
+        </CardTitle>
+        <CardDescription>
+          {{ t("admin.streamMappings.description") }}
+        </CardDescription>
+      </CardHeader>
+
+      <CardContent class="space-y-4">
+        <StreamMappingDisabledAlert
+          v-if="!protocolMappingEnabled"
+          :runtime-issue="protocolMappingRuntimeIssue"
+        />
+        <Alert
+          v-else-if="scheduleState === 'closed'"
+          class="items-start rounded-xl border-amber-300 bg-amber-50/80 text-amber-950 shadow-none"
+        >
+          <Clock3 class="mt-0.5 h-4 w-4 shrink-0" />
+          <div class="space-y-1">
+            <AlertTitle>{{
+              t("admin.streamMappings.scheduleClosedTitle")
+            }}</AlertTitle>
+            <AlertDescription class="text-sm leading-6 text-amber-900">
+              {{
+                t("admin.streamMappings.scheduleClosedDescription", {
+                  window: scheduleWindow,
+                })
+              }}
+            </AlertDescription>
+          </div>
+        </Alert>
+        <Alert
+          class="items-start rounded-xl border-zinc-200 bg-zinc-50/70 text-zinc-900 shadow-none"
+        >
+          <Info class="mt-0.5 h-4 w-4 shrink-0" />
+          <div class="space-y-1">
+            <AlertTitle>{{ t("admin.streamMappings.accessTitle") }}</AlertTitle>
+            <AlertDescription class="text-sm leading-6 text-zinc-700">
+              {{ t("admin.streamMappings.accessDescription") }}
+            </AlertDescription>
+          </div>
+        </Alert>
+        <StreamMappingTable
+          :mappings="allMappings"
+          :removing-mapping-key="removingMappingKey"
+          :probing-mapping-key="probingMappingKey"
+          :traffic-timestamp="trafficRealtimeStats?.timestamp ?? null"
+          :get-stream-traffic-sample="getStreamTrafficSample"
+          :on-remove="removeMapping"
+          :on-save-comment="updateComment"
+          @edit="openEditDialog"
+          @probe="probeMapping"
+          @policy="openBypassPolicy"
+          @service="openServiceProfile"
+        />
+      </CardContent>
+    </Card>
+
+    <StreamMappingEditorDialog
+      v-model:open="isDialogOpen"
+      :existing-mappings="allMappings"
+      :mapping="editingMapping"
+      :saving="isSaving"
+      @save="saveMapping"
+    />
+    <StreamMappingAvailabilityDialog
+      :open="isAvailabilityDialogOpen"
+      :enabled="availabilityFormEnabled"
+      :start-time="availabilityFormStartTime"
+      :end-time="availabilityFormEndTime"
+      :loading="isSavingAvailability"
+      :validation-message="availabilityValidationMessage"
+      @update:open="handleAvailabilityDialogOpenChange"
+      @update:enabled="availabilityFormEnabled = $event"
+      @update:start-time="availabilityFormStartTime = $event"
+      @update:end-time="availabilityFormEndTime = $event"
+      @cancel="closeAvailabilityDialog"
+      @save="saveAvailability"
+    />
+    <StreamServiceProfileDialog
+      :open="isServiceProfileOpen"
+      :loading="isSavingServiceProfile"
+      :mapping="serviceProfileMapping"
+      :catalog="serviceCatalog"
+      :initial-service-id="serviceProfileInitialServiceId"
+      @update:open="setServiceProfileOpen"
+      @clear="clearServiceProfile"
+      @confirm="confirmServiceProfile"
+    />
+  </div>
+</template>
+
+<script setup lang="ts">
+import { computed, onBeforeUnmount, onMounted, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { ChevronDown, Clock3, Info, Plus, RefreshCw } from "lucide-vue-next";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import { ConfigAPI } from "@/lib/api/config";
+import { DashboardAPI } from "@/lib/api/dashboard";
+import { useConfigStore } from "../store/config";
+import type { StreamMapping, StreamTrafficStats } from "../types";
+import StreamMappingDisabledAlert from "./stream-mappings/StreamMappingDisabledAlert.vue";
+import StreamMappingAvailabilityDialog from "./stream-mappings/StreamMappingAvailabilityDialog.vue";
+import StreamMappingEditorDialog from "./stream-mappings/StreamMappingEditorDialog.vue";
+import StreamMappingTable from "./stream-mappings/StreamMappingTable.vue";
+import StreamServiceProfileDialog from "./stream-mappings/StreamServiceProfileDialog.vue";
+import {
+  applyStreamMappingSubmission,
+  compareStreamMappings,
+  formatMappingLabel,
+  getMappingKey,
+  normalizeStreamMapping,
+  removeStreamMapping,
+  streamTrafficKey,
+  type StreamMappingEditorSubmission,
+  updateStreamMappingComment,
+} from "./stream-mappings/streamMappingModel";
+import { useStreamMappingAvailability } from "./stream-mappings/useStreamMappingAvailability";
+import { useStreamMappingNavigation } from "./stream-mappings/useStreamMappingNavigation";
+import { useStreamMappingSecurity } from "./stream-mappings/useStreamMappingSecurity";
+import { useTrafficRealtime } from "./subdomain-proxy/useTrafficRealtime";
+
+const configStore = useConfigStore();
+const { t } = useI18n();
+const isDialogOpen = ref(false);
+const isSaving = ref(false);
+const isSyncing = ref(false);
+const editingMapping = ref<StreamMapping | null>(null);
+const removingMappingKey = ref<string | null>(null);
+const { openBypassPolicy } = useStreamMappingNavigation();
+const {
+  clearServiceProfile,
+  confirmServiceProfile,
+  isSavingServiceProfile,
+  isServiceProfileOpen,
+  openServiceProfile,
+  probeMapping,
+  probingMappingKey,
+  setServiceProfileOpen,
+  serviceCatalog,
+  serviceProfileInitialServiceId,
+  serviceProfileMapping,
+} = useStreamMappingSecurity();
+const {
+  availabilityFormEnabled,
+  availabilityFormEndTime,
+  availabilityFormStartTime,
+  availabilityValidationMessage,
+  closeAvailabilityDialog,
+  handleAvailabilityDialogOpenChange,
+  isAvailabilityDialogOpen,
+  isSavingAvailability,
+  openAvailabilityDialog,
+  saveAvailability,
+  scheduleState,
+  scheduleWindow,
+} = useStreamMappingAvailability();
+const allMappings = computed(() =>
+  [...(configStore.config?.stream_mappings ?? [])]
+    .map(normalizeStreamMapping)
+    .sort(compareStreamMappings),
+);
+const protocolMappingEnabled = computed(
+  () => configStore.config?.protocol_mapping_feature?.enabled === true,
+);
+const protocolMappingRuntimeIssue = computed(
+  () => configStore.config?.protocol_mapping_feature?.runtime_issue ?? null,
+);
+
+const {
+  startTrafficRealtimePolling,
+  stopTrafficRealtimePolling,
+  trafficRealtimeStats,
+} = useTrafficRealtime({
+  load: () => DashboardAPI.getRealtime(),
+  onError: (error) => {
+    console.warn("load stream traffic realtime failed:", error);
+  },
+});
+
+const streamTrafficSamples = computed(() => {
+  const samples = new Map<string, StreamTrafficStats>();
+  for (const item of trafficRealtimeStats.value?.by_stream ?? []) {
+    if (item.key) samples.set(item.key, item);
+  }
+  return samples;
+});
+
+const getStreamTrafficSample = (
+  mapping: StreamMapping,
+): StreamTrafficStats | null =>
+  streamTrafficSamples.value.get(streamTrafficKey(mapping)) ?? null;
+
+onMounted(startTrafficRealtimePolling);
+onBeforeUnmount(stopTrafficRealtimePolling);
+
+function openCreateDialog() {
+  editingMapping.value = null;
+  isDialogOpen.value = true;
+}
+
+function openEditDialog(mapping: StreamMapping) {
+  editingMapping.value = normalizeStreamMapping(mapping);
+  isDialogOpen.value = true;
+}
+
+async function saveMapping(submission: StreamMappingEditorSubmission) {
+  isSaving.value = true;
+  try {
+    await configStore.saveStreamMappings((current) =>
+      applyStreamMappingSubmission(current, submission),
+    );
+    toast.success(
+      getSaveSuccessMessage(
+        submission.mappings.length,
+        submission.editingKey !== null,
+      ),
+    );
+    isDialogOpen.value = false;
+  } catch (error: any) {
+    toast.error(t("admin.streamMappings.saveFailed"), {
+      description: extractErrorMessage(error, t("common.tryLater")),
+    });
+  } finally {
+    isSaving.value = false;
+  }
+}
+
+function getSaveSuccessMessage(savedCount: number, isEditing: boolean): string {
+  const action = isEditing
+    ? t("admin.streamMappings.actionUpdate")
+    : t("admin.streamMappings.actionCreate");
+  return savedCount > 1
+    ? t("admin.streamMappings.saveMany", { action, count: savedCount })
+    : t("admin.streamMappings.saveOne", { action });
+}
+async function removeMapping(mapping: StreamMapping): Promise<boolean> {
+  removingMappingKey.value = getMappingKey(mapping);
+  try {
+    const result = await configStore.saveStreamMappings(
+      (current) => removeStreamMapping(current, getMappingKey(mapping)),
+      { disableFeatureOnLegacyRepairConflict: true },
+    );
+    const description = result.protocolMappingDisabled
+      ? t("admin.streamMappings.disabledForLegacyRepair")
+      : undefined;
+    const message = t("admin.streamMappings.removeSuccess", {
+      mapping: formatMappingLabel(mapping),
+    });
+    toast.success(message, { description });
+    return true;
+  } catch (error: any) {
+    const titleKey = protocolMappingEnabled.value
+      ? "admin.streamMappings.deleteFailed"
+      : "admin.streamMappings.deleteFailedWhileDisabled";
+    toast.error(t(titleKey), {
+      description: extractErrorMessage(error, t("common.tryLater")),
+    });
+    return false;
+  } finally {
+    removingMappingKey.value = null;
+  }
+}
+
+async function updateComment(mapping: StreamMapping, comment: string) {
+  try {
+    const key = getMappingKey(mapping);
+    await configStore.saveStreamMappings((current) =>
+      updateStreamMappingComment(current, key, comment),
+    );
+    toast.success(t("admin.streamMappings.commentUpdated"));
+  } catch (error: any) {
+    throw new Error(
+      extractErrorMessage(error, t("admin.streamMappings.commentUpdateFailed")),
+      { cause: error },
+    );
+  }
+}
+async function syncRoutes() {
+  isSyncing.value = true;
+  try {
+    const result = await ConfigAPI.syncRoutes();
+    if (result.success) {
+      toast.success(t("admin.streamMappings.syncSuccess"), {
+        description: t("admin.streamMappings.syncDescription", {
+          pathRules: result.data?.synced_rules ?? 0,
+          hostRules: result.data?.synced_host_rules ?? 0,
+          streamRules: result.data?.synced_stream_rules ?? 0,
+        }),
+      });
+      return;
+    }
+
+    toast.error(t("admin.streamMappings.syncFailed"), {
+      description: result.message || t("admin.streamMappings.syncNoSuccess"),
+    });
+  } catch (error: any) {
+    toast.error(t("admin.streamMappings.syncFailed"), {
+      description: extractErrorMessage(error, t("common.tryLater")),
+    });
+  } finally {
+    isSyncing.value = false;
+  }
+}
+</script>

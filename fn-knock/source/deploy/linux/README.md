@@ -1,1 +1,68 @@
-IyBmbi1rbm9jayBMaW51eAoKTGludXggcmVsZWFzZXMgc3VwcG9ydCBzeXN0ZW1kIGFuZCBBbHBpbmUgTGludXgncyBPcGVuUkMsIGFuZCBpbmNsdWRlIGBhbWQ2NGAsCmBhcm02NGAsIGFuZCBgYXJtdjdgIG11c2wgYnVuZGxlcy4KQnVpbGQgdGhlbSBmcm9tIHRoZSByZXBvc2l0b3J5IHJvb3Qgd2l0aDoKCmBgYGJhc2gKbnBtIHJ1biBmbi1rbm9jazpsaW51eDpwcmVwYXJlCmBgYAoKVGhlIGluc3RhbGxlciBpcyBwdWJsaXNoZWQgYXMgYGluc3RhbGwuc2hgLiBJdCBmaXJzdCBkZXRlY3RzIHdoZXRoZXIgZm4ta25vY2sKaXMgYWxyZWFkeSBpbnN0YWxsZWQgYW5kIGxldHMgdGhlIHVzZXIgaW5zdGFsbC91cGRhdGUsIG9wZW4gdGhlIG1hbmFnZW1lbnQKbWVudSwgY2hlY2sgc3RhdHVzLCBvciB1bmluc3RhbGwuIEJlZm9yZSBhY3RpdmF0aW9uIGl0IGNoZWNrcyBhbGwgZml2ZSBydW50aW1lCnBvcnRzLiBJZiBhIHBvcnQgaXMgb2NjdXBpZWQsIHRoZSBpbnN0YWxsZXIgb3BlbnMgdGhlIHBvcnQgY29uZmlndXJhdGlvbiBtZW51CnNvIGEgcmVwbGFjZW1lbnQgY2FuIGJlIHNlbGVjdGVkIGJlZm9yZSBjb250aW51aW5nLgoKT24gQWxwaW5lIExpbnV4LCBydW4gdGhlIGluc3RhbGxlciB3aXRoIGBzaGAuIEl0IGluc3RhbGxzIHRoZSByZXF1aXJlZCBCYXNoIGFuZApydW50aW1lIHBhY2thZ2VzIHRocm91Z2ggYGFwa2AsIHRoZW4gcmVnaXN0ZXJzIGZuLWtub2NrIGluIE9wZW5SQydzIGBkZWZhdWx0YApydW5sZXZlbC4gQSBub3JtYWxseSBib290ZWQgT3BlblJDIHN5c3RlbSBpcyByZXF1aXJlZDsgbWluaW1hbCBjb250YWluZXJzIHRoYXQKZG8gbm90IHJ1biBhbiBpbml0IHN5c3RlbSBhcmUgbm90IHN1cHBvcnRlZCBieSB0aGlzIGhvc3QgaW5zdGFsbGVyLgoKVGhlIG1hbmFnZW1lbnQgcGFuZWwgZGVmYXVsdHMgdG8gYDAuMC4wLjA6Nzk5MWAuIEZvciBwdWJsaWMgSW50ZXJuZXQgdXNlLApwbGFjZSBpdCBiZWhpbmQgYW4gSFRUUFMgcmV2ZXJzZSBwcm94eSB3aXRoIGFjY2VzcyBjb250cm9scyBpbnN0ZWFkIG9mIGV4cG9zaW5nCjc5OTEgZGlyZWN0bHk6CgpgYGBuZ2lueApzZXJ2ZXIgewogICAgbGlzdGVuIDQ0MyBzc2wgaHR0cDI7CiAgICBzZXJ2ZXJfbmFtZSBrbm9jay5leGFtcGxlLmNvbTsKICAgIHNzbF9jZXJ0aWZpY2F0ZSAvZXRjL25naW54L3NzbC9rbm9jay5leGFtcGxlLmNvbS5mdWxsY2hhaW4ucGVtOwogICAgc3NsX2NlcnRpZmljYXRlX2tleSAvZXRjL25naW54L3NzbC9rbm9jay5leGFtcGxlLmNvbS5rZXk7CgogICAgbG9jYXRpb24gLyB7CiAgICAgICAgcHJveHlfcGFzcyBodHRwOi8vMTI3LjAuMC4xOjc5OTE7CiAgICAgICAgcHJveHlfaHR0cF92ZXJzaW9uIDEuMTsKICAgICAgICBwcm94eV9zZXRfaGVhZGVyIEhvc3QgJGhvc3Q7CiAgICAgICAgcHJveHlfc2V0X2hlYWRlciBYLVJlYWwtSVAgJHJlbW90ZV9hZGRyOwogICAgICAgIHByb3h5X3NldF9oZWFkZXIgWC1Gb3J3YXJkZWQtRm9yICRwcm94eV9hZGRfeF9mb3J3YXJkZWRfZm9yOwogICAgICAgIHByb3h5X3NldF9oZWFkZXIgWC1Gb3J3YXJkZWQtUHJvdG8gJHNjaGVtZTsKICAgICAgICBwcm94eV9zZXRfaGVhZGVyIFVwZ3JhZGUgJGh0dHBfdXBncmFkZTsKICAgICAgICBwcm94eV9zZXRfaGVhZGVyIENvbm5lY3Rpb24gInVwZ3JhZGUiOwogICAgICAgIHByb3h5X3JlYWRfdGltZW91dCAzNjAwczsKICAgIH0KfQpgYGAKClJ1biBgc3VkbyBrbm9jayBuZ2lueGAgdG8gcHJpbnQgdGhlIHNhbWUgdGVtcGxhdGUgYWZ0ZXIgaW5zdGFsbGF0aW9uLiBMaW51eApydW50aW1lIG1vZGUgbmV2ZXIgbWFuYWdlcyBob3N0IGZpcmV3YWxsIHJ1bGVzIGFuZCBkb2VzIG5vdCBpbnZva2UgaXB0YWJsZXMuCgpSdW4gYHN1ZG8ga25vY2sgY29uZmlnYCB0byBjaGFuZ2UgcG9ydHMgYWZ0ZXIgaW5zdGFsbGF0aW9uLiBUaGUgY29tbWFuZCBzaG93cwp0aGUgY3VycmVudCBtYXBwaW5nIGluIGEgbnVtYmVyZWQgbGlzdC4gYDc5OTlgICh0aGUgR28gcHJveHkpIGlzIGxpc3RlZCBmaXJzdDsKZW50ZXIgYSBudW1iZXIgdG8gbW9kaWZ5IHRoYXQgbGlzdGVuZXIuIEl0IHdpbGwgbm90IHNhdmUgYSBjb25maWd1cmF0aW9uIHRoYXQKdXNlcyBhIGR1cGxpY2F0ZSBvciBvY2N1cGllZCBwb3J0LgoKVXNlZnVsIG1hbmFnZW1lbnQgY29tbWFuZHM6CgpgYGBiYXNoCnN1ZG8ga25vY2sgc3RhdHVzICAgICAgICAgICAgICAgICMgc2VydmljZSBzdGF0dXMsIFBJRHMsIGFuZCBSU1MgbWVtb3J5IHRvdGFscwpzdWRvIGtub2NrIHVwZGF0ZSAgICAgICAgICAgICAgICAjIGNvbXBhcmUgbG9jYWwvb25saW5lIHZlcnNpb25zLCB0aGVuIHVwZGF0ZSBvciByZWRlcGxveQpzdWRvIGtub2NrIHJlc2V0LXBhbmVsLXBhc3N3b3JkICAjIGNsZWFyIHBhbmVsIHBhc3N3b3JkLCBzZXNzaW9ucywgYW5kIGxvZ2luIGJhY2tvZmYKYGBgCgpUaGUgcGFzc3dvcmQgcmVzZXQgY29tbWFuZCBhc2tzIGZvciBjb25maXJtYXRpb24uIEFmdGVyIGl0IGNvbXBsZXRlcywgdGhlIG5leHQKdmlzaXQgdG8gdGhlIG1hbmFnZW1lbnQgcGFuZWwgZW50ZXJzIHRoZSBmaXJzdC10aW1lIHBhc3N3b3JkIHNldHVwIGZsb3cgYWdhaW4uCgojIyMgSFRUUC8zCgpIVFRQLzMg6buY6K6k5YWz6Zet44CC5ZCv55So5YmN6ZyA6KaBIFRMUyDor4HkuabvvIzlubbpop3lpJbmlL7ooYznvZHlhbPnmoQgVURQIOerr+WPo++8iOm7mOiupCBgNzk5OS91ZHBg77yJ77yM5L+d55WZIFRDUCDlhaXlj6PjgILlhaznvZHnq6/lj6PmmKDlsITkuI7pqozor4HmlrnlvI/op4EgW0hUVFAvMyDpg6jnvbLor7TmmI5dKC4uLy4uL2RvY3MvaHR0cDMubWQp44CCCg==
+# fn-knock Linux
+
+Linux releases support systemd and Alpine Linux's OpenRC, and include `amd64`,
+`arm64`, and `armv7` musl bundles.
+Build them from the repository root with:
+
+```bash
+npm run fn-knock:linux:prepare
+```
+
+The installer is published as `install.sh`. It first detects whether fn-knock
+is already installed and lets the user install/update, open the management
+menu, check status, or uninstall. Before activation it checks all five runtime
+ports. If a port is occupied, the installer opens the port configuration menu
+so a replacement can be selected before continuing.
+
+On Alpine Linux, run the installer with `sh`. It installs the required Bash and
+runtime packages through `apk`, then registers fn-knock in OpenRC's `default`
+runlevel. A normally booted OpenRC system is required; minimal containers that
+do not run an init system are not supported by this host installer.
+
+The management panel defaults to `0.0.0.0:7991`. For public Internet use,
+place it behind an HTTPS reverse proxy with access controls instead of exposing
+7991 directly:
+
+```nginx
+server {
+    listen 443 ssl http2;
+    server_name knock.example.com;
+    ssl_certificate /etc/nginx/ssl/knock.example.com.fullchain.pem;
+    ssl_certificate_key /etc/nginx/ssl/knock.example.com.key;
+
+    location / {
+        proxy_pass http://127.0.0.1:7991;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_read_timeout 3600s;
+    }
+}
+```
+
+Run `sudo knock nginx` to print the same template after installation. Linux
+runtime mode never manages host firewall rules and does not invoke iptables.
+
+Run `sudo knock config` to change ports after installation. The command shows
+the current mapping in a numbered list. `7999` (the Go proxy) is listed first;
+enter a number to modify that listener. It will not save a configuration that
+uses a duplicate or occupied port.
+
+Useful management commands:
+
+```bash
+sudo knock status                # service status, PIDs, and RSS memory totals
+sudo knock update                # compare local/online versions, then update or redeploy
+sudo knock reset-panel-password  # clear panel password, sessions, and login backoff
+```
+
+The password reset command asks for confirmation. After it completes, the next
+visit to the management panel enters the first-time password setup flow again.
+
+### HTTP/3
+
+HTTP/3 默认关闭。启用前需要 TLS 证书，并额外放行网关的 UDP 端口（默认 `7999/udp`），保留 TCP 入口。公网端口映射与验证方式见 [HTTP/3 部署说明](../../docs/http3.md)。

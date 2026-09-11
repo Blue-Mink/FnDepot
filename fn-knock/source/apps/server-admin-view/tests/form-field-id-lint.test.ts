@@ -1,1 +1,52 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgeyBMaW50ZXIgfSBmcm9tICJlc2xpbnQiOwppbXBvcnQgdnVlUGFyc2VyIGZyb20gInZ1ZS1lc2xpbnQtcGFyc2VyIjsKaW1wb3J0IHsgdnVlQTExeVByb2plY3RQbHVnaW4gfSBmcm9tICIuLi8uLi8uLi9wYWNrYWdlcy9lc2xpbnQtY29uZmlnL3Z1ZS1hMTF5LXByb2plY3QuanMiOwoKY29uc3QgcnVsZU5hbWUgPSAicHJvamVjdC1hMTF5L25vLXN0YXRpYy1mb3JtLWZpZWxkLWlkLWluLWxvb3AiOwoKY29uc3QgbGludFRlbXBsYXRlID0gKHNvdXJjZTogc3RyaW5nKSA9PgogIG5ldyBMaW50ZXIoKS52ZXJpZnkoCiAgICBzb3VyY2UsCiAgICBbCiAgICAgIHsKICAgICAgICBmaWxlczogWyIqKi8qLnZ1ZSJdLAogICAgICAgIGxhbmd1YWdlT3B0aW9uczogewogICAgICAgICAgcGFyc2VyOiB2dWVQYXJzZXIsCiAgICAgICAgICBwYXJzZXJPcHRpb25zOiB7IHNvdXJjZVR5cGU6ICJtb2R1bGUiIH0sCiAgICAgICAgfSwKICAgICAgICBwbHVnaW5zOiB7ICJwcm9qZWN0LWExMXkiOiB2dWVBMTF5UHJvamVjdFBsdWdpbiB9LAogICAgICAgIHJ1bGVzOiB7IFtydWxlTmFtZV06ICJlcnJvciIgfSwKICAgICAgfSwKICAgIF0sCiAgICB7IGZpbGVuYW1lOiAiZml4dHVyZS52dWUiIH0sCiAgKTsKCmRlc2NyaWJlKCJmb3JtIGZpZWxkIGlkIGxpbnQgZ3VhcmQiLCAoKSA9PiB7CiAgaXQoInJlamVjdHMgZml4ZWQgbGFiZWwgdGFyZ2V0cyBhbmQgY29udHJvbCBpZHMgaW5zaWRlIHYtZm9yIiwgKCkgPT4gewogICAgY29uc3QgbWVzc2FnZXMgPSBsaW50VGVtcGxhdGUoYAogICAgICA8dGVtcGxhdGU+CiAgICAgICAgPGRpdiB2LWZvcj0iZmllbGQgaW4gZmllbGRzIj4KICAgICAgICAgIDxMYWJlbCBmb3I9ImZpeGVkLWZpZWxkIj5GaWVsZDwvTGFiZWw+CiAgICAgICAgICA8SW5wdXQgaWQ9ImZpeGVkLWZpZWxkIiAvPgogICAgICAgIDwvZGl2PgogICAgICA8L3RlbXBsYXRlPgogICAgYCkuZmlsdGVyKChtZXNzYWdlKSA9PiBtZXNzYWdlLnJ1bGVJZCA9PT0gcnVsZU5hbWUpOwoKICAgIGFzc2VydC5lcXVhbChtZXNzYWdlcy5sZW5ndGgsIDIpOwogIH0pOwoKICBpdCgiYWNjZXB0cyBpZHMgZGVyaXZlZCBmcm9tIHRoZSBhY3RpdmUgbG9vcCBiaW5kaW5nIiwgKCkgPT4gewogICAgY29uc3QgbWVzc2FnZXMgPSBsaW50VGVtcGxhdGUoYAogICAgICA8dGVtcGxhdGU+CiAgICAgICAgPGRpdiB2LWZvcj0iZmllbGQgaW4gZmllbGRzIj4KICAgICAgICAgIDxMYWJlbCA6Zm9yPSInZmllbGQtJyArIGZpZWxkLmtleSI+RmllbGQ8L0xhYmVsPgogICAgICAgICAgPElucHV0IDppZD0iJ2ZpZWxkLScgKyBmaWVsZC5rZXkiIC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvdGVtcGxhdGU+CiAgICBgKS5maWx0ZXIoKG1lc3NhZ2UpID0+IG1lc3NhZ2UucnVsZUlkID09PSBydWxlTmFtZSk7CgogICAgYXNzZXJ0LmRlZXBFcXVhbChtZXNzYWdlcywgW10pOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import { Linter } from "eslint";
+import vueParser from "vue-eslint-parser";
+import { vueA11yProjectPlugin } from "../../../packages/eslint-config/vue-a11y-project.js";
+
+const ruleName = "project-a11y/no-static-form-field-id-in-loop";
+
+const lintTemplate = (source: string) =>
+  new Linter().verify(
+    source,
+    [
+      {
+        files: ["**/*.vue"],
+        languageOptions: {
+          parser: vueParser,
+          parserOptions: { sourceType: "module" },
+        },
+        plugins: { "project-a11y": vueA11yProjectPlugin },
+        rules: { [ruleName]: "error" },
+      },
+    ],
+    { filename: "fixture.vue" },
+  );
+
+describe("form field id lint guard", () => {
+  it("rejects fixed label targets and control ids inside v-for", () => {
+    const messages = lintTemplate(`
+      <template>
+        <div v-for="field in fields">
+          <Label for="fixed-field">Field</Label>
+          <Input id="fixed-field" />
+        </div>
+      </template>
+    `).filter((message) => message.ruleId === ruleName);
+
+    assert.equal(messages.length, 2);
+  });
+
+  it("accepts ids derived from the active loop binding", () => {
+    const messages = lintTemplate(`
+      <template>
+        <div v-for="field in fields">
+          <Label :for="'field-' + field.key">Field</Label>
+          <Input :id="'field-' + field.key" />
+        </div>
+      </template>
+    `).filter((message) => message.ruleId === ruleName);
+
+    assert.deepEqual(messages, []);
+  });
+});

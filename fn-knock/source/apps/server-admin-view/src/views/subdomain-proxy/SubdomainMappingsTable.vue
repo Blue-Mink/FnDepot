@@ -1,1 +1,135 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdXNlTWVkaWFRdWVyeU1hdGNoIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VNZWRpYVF1ZXJ5TWF0Y2giOwppbXBvcnQgeyBub3JtYWxpemVIb3N0TGlrZSB9IGZyb20gIi4vbW9kZWwiOwppbXBvcnQgU3ViZG9tYWluTWFwcGluZ3NEZXNrdG9wVGFibGUgZnJvbSAiLi9TdWJkb21haW5NYXBwaW5nc0Rlc2t0b3BUYWJsZS52dWUiOwppbXBvcnQgU3ViZG9tYWluTWFwcGluZ3NNb2JpbGVMaXN0IGZyb20gIi4vU3ViZG9tYWluTWFwcGluZ3NNb2JpbGVMaXN0LnZ1ZSI7CmltcG9ydCBTdWJkb21haW5NYXBwaW5nc0JhdGNoQWN0aW9ucyBmcm9tICIuL1N1YmRvbWFpbk1hcHBpbmdzQmF0Y2hBY3Rpb25zLnZ1ZSI7CmltcG9ydCB0eXBlIHsKICBTdWJkb21haW5NYXBwaW5nc0NhcmRQcm9wcywKICBTdWJkb21haW5NYXBwaW5nc1RhYmxlQWN0aW9ucywKfSBmcm9tICIuL3N1YmRvbWFpbi1tYXBwaW5ncy1jYXJkLWNvbnRyYWN0IjsKaW1wb3J0IHsgdXNlU3ViZG9tYWluTWFwcGluZ1RhYmxlU3RhdGUgfSBmcm9tICIuL3VzZVN1YmRvbWFpbk1hcHBpbmdUYWJsZVN0YXRlIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIGFjdGlvbnM6IFN1YmRvbWFpbk1hcHBpbmdzVGFibGVBY3Rpb25zOwogIG1vZGVsOiBTdWJkb21haW5NYXBwaW5nc0NhcmRQcm9wczsKICBzaG93R3JvdXBlZFZpZXc6IGJvb2xlYW47Cn0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBpc0Rlc2t0b3BWaWV3cG9ydCA9IHVzZU1lZGlhUXVlcnlNYXRjaCgiKG1pbi13aWR0aDogNzY4cHgpIik7CmNvbnN0IHNlbGVjdGlvbkNoZWNrYm94Q2xhc3MgPQogICJzaXplLVsxOHB4XSByb3VuZGVkLVs1cHhdIGJvcmRlci1tdXRlZC1mb3JlZ3JvdW5kLzQwIGJnLWJhY2tncm91bmQgc2hhZG93LW5vbmUgdHJhbnNpdGlvbi1bY29sb3IsYmFja2dyb3VuZC1jb2xvcixib3JkZXItY29sb3Isb3BhY2l0eV0gaG92ZXI6Ym9yZGVyLXByaW1hcnkvNzAgZGF0YS1bc3RhdGU9aW5kZXRlcm1pbmF0ZV06Ym9yZGVyLXByaW1hcnkgZGF0YS1bc3RhdGU9aW5kZXRlcm1pbmF0ZV06YmctcHJpbWFyeSBkYXRhLVtzdGF0ZT1pbmRldGVybWluYXRlXTp0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCI7CmNvbnN0IGFjdGl2ZURlZXBNb25pdG9ySG9zdFNldCA9IGNvbXB1dGVkKAogICgpID0+IG5ldyBTZXQocHJvcHMubW9kZWwuYWN0aXZlRGVlcE1vbml0b3JIb3N0cy5tYXAobm9ybWFsaXplSG9zdExpa2UpKSwKKTsKY29uc3QgaXNEZWVwTW9uaXRvckFjdGl2ZSA9IChob3N0OiBzdHJpbmcpID0+CiAgYWN0aXZlRGVlcE1vbml0b3JIb3N0U2V0LnZhbHVlLmhhcyhub3JtYWxpemVIb3N0TGlrZShob3N0KSk7CmNvbnN0IHsKICBhbGxWaXNpYmxlU2VsZWN0ZWQsCiAgY2xlYXJTZWxlY3Rpb24sCiAgZHJhZ0Rpc2FibGVkLAogIGdldFNlbGVjdGVkSG9zdHMsCiAgZ3JvdXBTZWN0aW9ucywKICBoYW5kbGVTb3J0RW5kLAogIGlzTWFwcGluZ1NlbGVjdGVkLAogIGlzU2VsZWN0aW9uTW9kZSwKICBpc1NlY3Rpb25Db2xsYXBzZWQsCiAgaXNTZWN0aW9uUGFydGlhbGx5U2VsZWN0ZWQsCiAgaXNTZWN0aW9uU2VsZWN0ZWQsCiAgbWFwcGluZ1NlbGVjdGlvblZpc2liaWxpdHlDbGFzcywKICBzZWxlY3RlZENvdW50LAogIHNldEFsbFZpc2libGVTZWxlY3RlZCwKICBzZXRNYXBwaW5nU2VsZWN0ZWQsCiAgc2V0U2VsZWN0aW9uTW9kZSwKICBzZXRTZWN0aW9uU2VsZWN0ZWQsCiAgc29tZVZpc2libGVTZWxlY3RlZCwKICB0b2dnbGVTZWN0aW9uQ29sbGFwc2VkLAogIHVwZGF0ZVNlY3Rpb25NYXBwaW5ncywKfSA9IHVzZVN1YmRvbWFpbk1hcHBpbmdUYWJsZVN0YXRlKHsKICBmaWx0ZXJlZE1hcHBpbmdzOiAoKSA9PiBwcm9wcy5tb2RlbC5maWx0ZXJlZE1hcHBpbmdzLAogIGdyb3VwczogKCkgPT4gcHJvcHMubW9kZWwuZ3JvdXBzLAogIGlzU2F2aW5nTWFwcGluZ3M6ICgpID0+IHByb3BzLm1vZGVsLmlzU2F2aW5nTWFwcGluZ3MsCiAgc2VhcmNoUXVlcnk6ICgpID0+IHByb3BzLm1vZGVsLnNlYXJjaFF1ZXJ5LAogIHNob3dHcm91cGVkVmlldzogKCkgPT4gcHJvcHMuc2hvd0dyb3VwZWRWaWV3LAogIGlzTWFwcGluZ1NlbGVjdGFibGU6IChtYXBwaW5nKSA9PgogICAgIXByb3BzLm1vZGVsLmlzQXV0aFNlcnZpY2VUYXJnZXQobWFwcGluZy50YXJnZXQpLAogIHVuZ3JvdXBlZExhYmVsOiAoKSA9PiB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS51bmdyb3VwZWQiKSwKICBvblNhdmVGbGF0T3JkZXI6IHByb3BzLmFjdGlvbnMuc2F2ZUZsYXRPcmRlciwKICBvblNhdmVHcm91cGVkT3JkZXI6IHByb3BzLmFjdGlvbnMuc2F2ZUdyb3VwZWRPcmRlciwKfSk7CmNvbnN0IG1vdmVTZWxlY3RlZCA9IChncm91cElkOiBzdHJpbmcgfCBudWxsKSA9PgogIHByb3BzLmFjdGlvbnMubW92ZU1hcHBpbmdzKGdldFNlbGVjdGVkSG9zdHMoKSwgZ3JvdXBJZCwgY2xlYXJTZWxlY3Rpb24pOwpjb25zdCBydW5CYXRjaEFjdGlvbiA9ICgKICBhY3Rpb246IChob3N0czogc3RyaW5nW10sIG9uQ29tcGxldGU6ICgpID0+IHZvaWQpID0+IHZvaWQsCikgPT4gYWN0aW9uKGdldFNlbGVjdGVkSG9zdHMoKSwgY2xlYXJTZWxlY3Rpb24pOwpkZWZpbmVFeHBvc2UoeyBjbGVhclNlbGVjdGlvbiwgc2V0U2VsZWN0aW9uTW9kZSB9KTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFN1YmRvbWFpbk1hcHBpbmdzQmF0Y2hBY3Rpb25zCiAgICB2LWlmPSJpc1NlbGVjdGlvbk1vZGUgJiYgc2VsZWN0ZWRDb3VudCA+IDAiCiAgICA6Z3JvdXBzPSJtb2RlbC5ncm91cHMiCiAgICA6c2F2aW5nPSJtb2RlbC5pc1NhdmluZ01hcHBpbmdzIgogICAgOnNlbGVjdGVkLWNvdW50PSJzZWxlY3RlZENvdW50IgogICAgQGNsZWFyPSJjbGVhclNlbGVjdGlvbiIKICAgIEBkZWxldGU9InJ1bkJhdGNoQWN0aW9uKGFjdGlvbnMuYmF0Y2hEZWxldGUpIgogICAgQGRpc2FibGU9InJ1bkJhdGNoQWN0aW9uKGFjdGlvbnMuYmF0Y2hEaXNhYmxlKSIKICAgIEBlbmFibGU9InJ1bkJhdGNoQWN0aW9uKGFjdGlvbnMuYmF0Y2hFbmFibGUpIgogICAgQG1vdmU9Im1vdmVTZWxlY3RlZCIKICAgIEBzY2hlZHVsZT0icnVuQmF0Y2hBY3Rpb24oYWN0aW9ucy5iYXRjaFNjaGVkdWxlKSIKICAvPgoKICA8c2xvdCBuYW1lPSJub3RpY2VzIiAvPgoKICA8U3ViZG9tYWluTWFwcGluZ3NNb2JpbGVMaXN0CiAgICB2LWlmPSIhaXNEZXNrdG9wVmlld3BvcnQiCiAgICA6YWN0aW9ucz0iYWN0aW9ucyIKICAgIDphbGwtdmlzaWJsZS1zZWxlY3RlZD0iYWxsVmlzaWJsZVNlbGVjdGVkIgogICAgOmRyYWctZGlzYWJsZWQ9ImRyYWdEaXNhYmxlZCIKICAgIDpncm91cC1zZWN0aW9ucz0iZ3JvdXBTZWN0aW9ucyIKICAgIDpoYW5kbGUtc29ydC1lbmQ9ImhhbmRsZVNvcnRFbmQiCiAgICA6aXMtZGVlcC1tb25pdG9yLWFjdGl2ZT0iaXNEZWVwTW9uaXRvckFjdGl2ZSIKICAgIDppcy1tYXBwaW5nLXNlbGVjdGVkPSJpc01hcHBpbmdTZWxlY3RlZCIKICAgIDppcy1zZWN0aW9uLWNvbGxhcHNlZD0iaXNTZWN0aW9uQ29sbGFwc2VkIgogICAgOmlzLXNlY3Rpb24tcGFydGlhbGx5LXNlbGVjdGVkPSJpc1NlY3Rpb25QYXJ0aWFsbHlTZWxlY3RlZCIKICAgIDppcy1zZWN0aW9uLXNlbGVjdGVkPSJpc1NlY3Rpb25TZWxlY3RlZCIKICAgIDptb2RlbD0ibW9kZWwiCiAgICA6c2VsZWN0ZWQtY291bnQ9InNlbGVjdGVkQ291bnQiCiAgICA6c2VsZWN0aW9uLWNoZWNrYm94LWNsYXNzPSJzZWxlY3Rpb25DaGVja2JveENsYXNzIgogICAgOnNlbGVjdGlvbi1tb2RlPSJpc1NlbGVjdGlvbk1vZGUiCiAgICA6c2V0LWFsbC12aXNpYmxlLXNlbGVjdGVkPSJzZXRBbGxWaXNpYmxlU2VsZWN0ZWQiCiAgICA6c2V0LW1hcHBpbmctc2VsZWN0ZWQ9InNldE1hcHBpbmdTZWxlY3RlZCIKICAgIDpzZXQtc2VjdGlvbi1zZWxlY3RlZD0ic2V0U2VjdGlvblNlbGVjdGVkIgogICAgOnNob3ctZ3JvdXBlZC12aWV3PSJzaG93R3JvdXBlZFZpZXciCiAgICA6c29tZS12aXNpYmxlLXNlbGVjdGVkPSJzb21lVmlzaWJsZVNlbGVjdGVkIgogICAgOnRvZ2dsZS1zZWN0aW9uLWNvbGxhcHNlZD0idG9nZ2xlU2VjdGlvbkNvbGxhcHNlZCIKICAgIDp1cGRhdGUtc2VjdGlvbi1tYXBwaW5ncz0idXBkYXRlU2VjdGlvbk1hcHBpbmdzIgogIC8+CgogIDxTdWJkb21haW5NYXBwaW5nc0Rlc2t0b3BUYWJsZQogICAgdi1lbHNlCiAgICA6YWN0aW9ucz0iYWN0aW9ucyIKICAgIDphbGwtdmlzaWJsZS1zZWxlY3RlZD0iYWxsVmlzaWJsZVNlbGVjdGVkIgogICAgOmRyYWctZGlzYWJsZWQ9ImRyYWdEaXNhYmxlZCIKICAgIDpncm91cC1zZWN0aW9ucz0iZ3JvdXBTZWN0aW9ucyIKICAgIDpoYW5kbGUtc29ydC1lbmQ9ImhhbmRsZVNvcnRFbmQiCiAgICA6aXMtZGVlcC1tb25pdG9yLWFjdGl2ZT0iaXNEZWVwTW9uaXRvckFjdGl2ZSIKICAgIDppcy1tYXBwaW5nLXNlbGVjdGVkPSJpc01hcHBpbmdTZWxlY3RlZCIKICAgIDppcy1zZWN0aW9uLWNvbGxhcHNlZD0iaXNTZWN0aW9uQ29sbGFwc2VkIgogICAgOmlzLXNlY3Rpb24tcGFydGlhbGx5LXNlbGVjdGVkPSJpc1NlY3Rpb25QYXJ0aWFsbHlTZWxlY3RlZCIKICAgIDppcy1zZWN0aW9uLXNlbGVjdGVkPSJpc1NlY3Rpb25TZWxlY3RlZCIKICAgIDptb2RlbD0ibW9kZWwiCiAgICA6c2VsZWN0aW9uLWNoZWNrYm94LWNsYXNzPSJzZWxlY3Rpb25DaGVja2JveENsYXNzIgogICAgOnNlbGVjdGlvbi1tb2RlPSJpc1NlbGVjdGlvbk1vZGUiCiAgICA6c2VsZWN0aW9uLXZpc2liaWxpdHktY2xhc3M9Im1hcHBpbmdTZWxlY3Rpb25WaXNpYmlsaXR5Q2xhc3MiCiAgICA6c2V0LWFsbC12aXNpYmxlLXNlbGVjdGVkPSJzZXRBbGxWaXNpYmxlU2VsZWN0ZWQiCiAgICA6c2V0LW1hcHBpbmctc2VsZWN0ZWQ9InNldE1hcHBpbmdTZWxlY3RlZCIKICAgIDpzZXQtc2VjdGlvbi1zZWxlY3RlZD0ic2V0U2VjdGlvblNlbGVjdGVkIgogICAgOnNob3ctZ3JvdXBlZC12aWV3PSJzaG93R3JvdXBlZFZpZXciCiAgICA6c29tZS12aXNpYmxlLXNlbGVjdGVkPSJzb21lVmlzaWJsZVNlbGVjdGVkIgogICAgOnRvZ2dsZS1zZWN0aW9uLWNvbGxhcHNlZD0idG9nZ2xlU2VjdGlvbkNvbGxhcHNlZCIKICAgIDp1cGRhdGUtc2VjdGlvbi1tYXBwaW5ncz0idXBkYXRlU2VjdGlvbk1hcHBpbmdzIgogIC8+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { useMediaQueryMatch } from "@admin-shared/composables/useMediaQueryMatch";
+import { normalizeHostLike } from "./model";
+import SubdomainMappingsDesktopTable from "./SubdomainMappingsDesktopTable.vue";
+import SubdomainMappingsMobileList from "./SubdomainMappingsMobileList.vue";
+import SubdomainMappingsBatchActions from "./SubdomainMappingsBatchActions.vue";
+import type {
+  SubdomainMappingsCardProps,
+  SubdomainMappingsTableActions,
+} from "./subdomain-mappings-card-contract";
+import { useSubdomainMappingTableState } from "./useSubdomainMappingTableState";
+
+const props = defineProps<{
+  actions: SubdomainMappingsTableActions;
+  model: SubdomainMappingsCardProps;
+  showGroupedView: boolean;
+}>();
+const { t } = useI18n();
+const isDesktopViewport = useMediaQueryMatch("(min-width: 768px)");
+const selectionCheckboxClass =
+  "size-[18px] rounded-[5px] border-muted-foreground/40 bg-background shadow-none transition-[color,background-color,border-color,opacity] hover:border-primary/70 data-[state=indeterminate]:border-primary data-[state=indeterminate]:bg-primary data-[state=indeterminate]:text-primary-foreground";
+const activeDeepMonitorHostSet = computed(
+  () => new Set(props.model.activeDeepMonitorHosts.map(normalizeHostLike)),
+);
+const isDeepMonitorActive = (host: string) =>
+  activeDeepMonitorHostSet.value.has(normalizeHostLike(host));
+const {
+  allVisibleSelected,
+  clearSelection,
+  dragDisabled,
+  getSelectedHosts,
+  groupSections,
+  handleSortEnd,
+  isMappingSelected,
+  isSelectionMode,
+  isSectionCollapsed,
+  isSectionPartiallySelected,
+  isSectionSelected,
+  mappingSelectionVisibilityClass,
+  selectedCount,
+  setAllVisibleSelected,
+  setMappingSelected,
+  setSelectionMode,
+  setSectionSelected,
+  someVisibleSelected,
+  toggleSectionCollapsed,
+  updateSectionMappings,
+} = useSubdomainMappingTableState({
+  filteredMappings: () => props.model.filteredMappings,
+  groups: () => props.model.groups,
+  isSavingMappings: () => props.model.isSavingMappings,
+  searchQuery: () => props.model.searchQuery,
+  showGroupedView: () => props.showGroupedView,
+  isMappingSelectable: (mapping) =>
+    !props.model.isAuthServiceTarget(mapping.target),
+  ungroupedLabel: () => t("admin.subdomainProxy.ungrouped"),
+  onSaveFlatOrder: props.actions.saveFlatOrder,
+  onSaveGroupedOrder: props.actions.saveGroupedOrder,
+});
+const moveSelected = (groupId: string | null) =>
+  props.actions.moveMappings(getSelectedHosts(), groupId, clearSelection);
+const runBatchAction = (
+  action: (hosts: string[], onComplete: () => void) => void,
+) => action(getSelectedHosts(), clearSelection);
+defineExpose({ clearSelection, setSelectionMode });
+</script>
+
+<template>
+  <SubdomainMappingsBatchActions
+    v-if="isSelectionMode && selectedCount > 0"
+    :groups="model.groups"
+    :saving="model.isSavingMappings"
+    :selected-count="selectedCount"
+    @clear="clearSelection"
+    @delete="runBatchAction(actions.batchDelete)"
+    @disable="runBatchAction(actions.batchDisable)"
+    @enable="runBatchAction(actions.batchEnable)"
+    @move="moveSelected"
+    @schedule="runBatchAction(actions.batchSchedule)"
+  />
+
+  <slot name="notices" />
+
+  <SubdomainMappingsMobileList
+    v-if="!isDesktopViewport"
+    :actions="actions"
+    :all-visible-selected="allVisibleSelected"
+    :drag-disabled="dragDisabled"
+    :group-sections="groupSections"
+    :handle-sort-end="handleSortEnd"
+    :is-deep-monitor-active="isDeepMonitorActive"
+    :is-mapping-selected="isMappingSelected"
+    :is-section-collapsed="isSectionCollapsed"
+    :is-section-partially-selected="isSectionPartiallySelected"
+    :is-section-selected="isSectionSelected"
+    :model="model"
+    :selected-count="selectedCount"
+    :selection-checkbox-class="selectionCheckboxClass"
+    :selection-mode="isSelectionMode"
+    :set-all-visible-selected="setAllVisibleSelected"
+    :set-mapping-selected="setMappingSelected"
+    :set-section-selected="setSectionSelected"
+    :show-grouped-view="showGroupedView"
+    :some-visible-selected="someVisibleSelected"
+    :toggle-section-collapsed="toggleSectionCollapsed"
+    :update-section-mappings="updateSectionMappings"
+  />
+
+  <SubdomainMappingsDesktopTable
+    v-else
+    :actions="actions"
+    :all-visible-selected="allVisibleSelected"
+    :drag-disabled="dragDisabled"
+    :group-sections="groupSections"
+    :handle-sort-end="handleSortEnd"
+    :is-deep-monitor-active="isDeepMonitorActive"
+    :is-mapping-selected="isMappingSelected"
+    :is-section-collapsed="isSectionCollapsed"
+    :is-section-partially-selected="isSectionPartiallySelected"
+    :is-section-selected="isSectionSelected"
+    :model="model"
+    :selection-checkbox-class="selectionCheckboxClass"
+    :selection-mode="isSelectionMode"
+    :selection-visibility-class="mappingSelectionVisibilityClass"
+    :set-all-visible-selected="setAllVisibleSelected"
+    :set-mapping-selected="setMappingSelected"
+    :set-section-selected="setSectionSelected"
+    :show-grouped-view="showGroupedView"
+    :some-visible-selected="someVisibleSelected"
+    :toggle-section-collapsed="toggleSectionCollapsed"
+    :update-section-mappings="updateSectionMappings"
+  />
+</template>

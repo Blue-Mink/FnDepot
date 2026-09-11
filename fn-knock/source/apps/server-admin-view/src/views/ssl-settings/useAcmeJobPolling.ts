@@ -1,1 +1,185 @@
-aW1wb3J0IHsgb25Vbm1vdW50ZWQsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7CiAgQWNtZUFQSSwKICB0eXBlIEFjbWVKb2JEYXRhLAogIHR5cGUgQWNtZUxvZ0FuYWx5c2lzLAp9IGZyb20gIkAvbGliL2FwaS9hY21lIjsKaW1wb3J0IHsKICBleHRyYWN0RXJyb3JNZXNzYWdlLAogIHVzZUFzeW5jQWN0aW9uLAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyBjcmVhdGVWaXNpYmlsaXR5UG9sbGVyIH0gZnJvbSAiQC9jb21wb3NhYmxlcy91c2VWaXNpYmlsaXR5UG9sbGluZyI7Cgp0eXBlIFVzZUFjbWVKb2JQb2xsaW5nT3B0aW9ucyA9IHsKICByZWZyZXNoT3ZlcnZpZXc6ICgpID0+IFByb21pc2U8dm9pZD47Cn07CgpleHBvcnQgZnVuY3Rpb24gdXNlQWNtZUpvYlBvbGxpbmcoewogIHJlZnJlc2hPdmVydmlldywKfTogVXNlQWNtZUpvYlBvbGxpbmdPcHRpb25zKSB7CiAgY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CiAgY29uc3Qgc2VsZWN0ZWRKb2JJZCA9IHJlZigiIik7CiAgY29uc3Qgam9iID0gcmVmPEFjbWVKb2JEYXRhIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgbG9ncyA9IHJlZjxzdHJpbmdbXT4oW10pOwogIGNvbnN0IGFuYWx5c2lzID0gcmVmPEFjbWVMb2dBbmFseXNpcyB8IG51bGw+KG51bGwpOwogIGxldCBpc0Rpc3Bvc2VkID0gZmFsc2U7CgogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1JlZnJlc2hpbmdMb2dzLCBydW46IHJ1blJlZnJlc2hMb2dzIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IoCiAgICAgICAgZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiYWRtaW4uYWNtZUNlcnQucmVmcmVzaExvZ3NGYWlsZWQiKSksCiAgICAgICk7CiAgICB9LAogIH0pOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1N0b3BwaW5nSm9iLCBydW46IHJ1blN0b3BKb2IgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcigKICAgICAgICBleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCB0KCJhZG1pbi5hY21lQ2VydC5zdG9wSm9iRmFpbGVkIikpLAogICAgICApOwogICAgfSwKICB9KTsKCiAgY29uc3QgcG9sbEpvYk9uY2UgPSBhc3luYyAoam9iSWQ6IHN0cmluZywgc2lnbmFsPzogQWJvcnRTaWduYWwpID0+IHsKICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBBY21lQVBJLnBvbGwoam9iSWQsIHsKICAgICAgbGltaXQ6IDUwMCwKICAgICAgb3JkZXI6ICJkZXNjIiwKICAgICAgc2lnbmFsLAogICAgfSk7CiAgICBpZiAoc2lnbmFsPy5hYm9ydGVkIHx8IHNlbGVjdGVkSm9iSWQudmFsdWUgIT09IGpvYklkKSByZXR1cm47CgogICAgam9iLnZhbHVlID0gZGF0YS5qb2I7CiAgICBsb2dzLnZhbHVlID0gZGF0YS5sb2dzOwogICAgYW5hbHlzaXMudmFsdWUgPSBkYXRhLmFuYWx5c2lzID8/IG51bGw7CgogICAgaWYgKAogICAgICBkYXRhLmpvYi5zdGF0dXMgPT09ICJzdWNjZWVkZWQiIHx8CiAgICAgIGRhdGEuam9iLnN0YXR1cyA9PT0gImZhaWxlZCIgfHwKICAgICAgZGF0YS5qb2Iuc3RhdHVzID09PSAic3RvcHBlZCIKICAgICkgewogICAgICBzdG9wUG9sbGluZygpOwogICAgICBhd2FpdCByZWZyZXNoT3ZlcnZpZXcoKTsKICAgIH0KICB9OwoKICBjb25zdCBzdGFydFBvbGxpbmcgPSAoam9iSWQ6IHN0cmluZykgPT4gewogICAgaWYgKGlzRGlzcG9zZWQpIHJldHVybjsKICAgIHNlbGVjdGVkSm9iSWQudmFsdWUgPSBqb2JJZDsKICAgIGpvYlBvbGxlci5zdGFydCgpOwogICAgam9iUG9sbGVyLnN5bmMoKTsKICB9OwoKICBjb25zdCBqb2JQb2xsZXIgPSBjcmVhdGVWaXNpYmlsaXR5UG9sbGVyKHsKICAgIGludGVydmFsTXM6IDJfMDAwLAogICAgdGFzazogYXN5bmMgKHNpZ25hbCkgPT4gewogICAgICBpZiAoIXNlbGVjdGVkSm9iSWQudmFsdWUpIHJldHVybjsKICAgICAgdHJ5IHsKICAgICAgICBhd2FpdCBwb2xsSm9iT25jZShzZWxlY3RlZEpvYklkLnZhbHVlLCBzaWduYWwpOwogICAgICB9IGNhdGNoIHsKICAgICAgICAvLyBLZWVwIHRoZSBsYXN0IHZpc2libGUgc3RhdGUgYW5kIHJldHJ5IG9uIHRoZSBuZXh0IGludGVydmFsLgogICAgICB9CiAgICB9LAogIH0pOwoKICBjb25zdCBzdG9wUG9sbGluZyA9IGpvYlBvbGxlci5zdG9wOwoKICBjb25zdCBzZWxlY3RKb2IgPSBhc3luYyAoam9iSWQ6IHN0cmluZywgYXV0b1BvbGw6IGJvb2xlYW4pID0+IHsKICAgIGlmICgham9iSWQpIHJldHVybjsKICAgIHN0b3BQb2xsaW5nKCk7CiAgICBzZWxlY3RlZEpvYklkLnZhbHVlID0gam9iSWQ7CiAgICBhd2FpdCBwb2xsSm9iT25jZShqb2JJZCk7CiAgICBpZiAoCiAgICAgIGF1dG9Qb2xsICYmCiAgICAgIChqb2IudmFsdWU/LnN0YXR1cyA9PT0gInF1ZXVlZCIgfHwgam9iLnZhbHVlPy5zdGF0dXMgPT09ICJydW5uaW5nIikKICAgICkgewogICAgICBzdGFydFBvbGxpbmcoam9iSWQpOwogICAgfSBlbHNlIHsKICAgICAgc3RvcFBvbGxpbmcoKTsKICAgIH0KICB9OwoKICBjb25zdCB2aWV3Sm9iID0gKGpvYklkOiBzdHJpbmcpID0+IHNlbGVjdEpvYihqb2JJZCwgZmFsc2UpOwoKICBjb25zdCByZWZyZXNoTG9ncyA9IGFzeW5jICgpID0+IHsKICAgIGlmICghc2VsZWN0ZWRKb2JJZC52YWx1ZSkgcmV0dXJuOwogICAgYXdhaXQgcnVuUmVmcmVzaExvZ3MoKCkgPT4gcG9sbEpvYk9uY2Uoc2VsZWN0ZWRKb2JJZC52YWx1ZSkpOwogIH07CgogIGNvbnN0IHN0b3BBY3RpdmVKb2IgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBydW5TdG9wSm9iKGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgQWNtZUFQSS5zdG9wQWN0aXZlSm9iKCk7CiAgICAgIHN0b3BQb2xsaW5nKCk7CiAgICAgIGNvbnN0IGtpbGxlZENvdW50ID0KICAgICAgICByZXN1bHQucHJvY2Vzc1Jlc3VsdC5tYXRjaGVkUGlkcy5sZW5ndGggLQogICAgICAgIHJlc3VsdC5wcm9jZXNzUmVzdWx0LnJlbWFpbmluZ1BpZHMubGVuZ3RoOwogICAgICBjb25zdCBzdG9wRXJyb3JzID0gcmVzdWx0LnByb2Nlc3NSZXN1bHQuZXJyb3JzOwogICAgICBjb25zdCByZW1haW5pbmdQaWRzID0gcmVzdWx0LnByb2Nlc3NSZXN1bHQucmVtYWluaW5nUGlkczsKICAgICAgaWYgKAogICAgICAgICFyZXN1bHQuc3RvcHBlZCAmJgogICAgICAgIChCb29sZWFuKHJlc3VsdC5qb2IpIHx8IHN0b3BFcnJvcnMubGVuZ3RoID4gMCB8fCByZW1haW5pbmdQaWRzLmxlbmd0aCA+IDApCiAgICAgICkgewogICAgICAgIGNvbnN0IGRldGFpbHMgPSBbCiAgICAgICAgICAuLi5zdG9wRXJyb3JzLAogICAgICAgICAgLi4uKHJlbWFpbmluZ1BpZHMubGVuZ3RoCiAgICAgICAgICAgID8gW2BQSUQ6ICR7cmVtYWluaW5nUGlkcy5qb2luKCIsICIpfWBdCiAgICAgICAgICAgIDogW10pLAogICAgICAgIF0uam9pbigiOyAiKTsKICAgICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5hY21lQ2VydC5zdG9wSm9iRmFpbGVkIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiBkZXRhaWxzIHx8IHVuZGVmaW5lZCwKICAgICAgICB9KTsKICAgICAgfSBlbHNlIGlmIChyZXN1bHQuc3RvcHBlZCkgewogICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uYWNtZUNlcnQuam9iU3RvcHBlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjoKICAgICAgICAgICAgcmVzdWx0LnByb2Nlc3NSZXN1bHQubWF0Y2hlZFBpZHMubGVuZ3RoID4gMAogICAgICAgICAgICAgID8gdCgiYWRtaW4uYWNtZUNlcnQuam9iU3RvcHBlZERlc2NyaXB0aW9uIiwgewogICAgICAgICAgICAgICAgICBjb3VudDogTWF0aC5tYXgoMCwga2lsbGVkQ291bnQpLAogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICA6IHQoImFkbWluLmFjbWVDZXJ0Lm5vUnVubmluZ1Byb2Nlc3NlcyIpLAogICAgICAgIH0pOwogICAgICB9IGVsc2UgewogICAgICAgIHRvYXN0LmluZm8odCgiYWRtaW4uYWNtZUNlcnQubm9BY3RpdmVKb2IiKSk7CiAgICAgIH0KCiAgICAgIGF3YWl0IHJlZnJlc2hPdmVydmlldygpOwogICAgICBjb25zdCBzdG9wcGVkSm9iSWQgPSByZXN1bHQuam9iPy5pZCB8fCBzZWxlY3RlZEpvYklkLnZhbHVlOwogICAgICBpZiAoc3RvcHBlZEpvYklkKSB7CiAgICAgICAgYXdhaXQgcG9sbEpvYk9uY2Uoc3RvcHBlZEpvYklkKTsKICAgICAgfQogICAgfSk7CiAgfTsKCiAgY29uc3QgY2xlYXJTZWxlY3RlZEpvYiA9ICgKICAgIGFwcGxpY2F0aW9uSWQ/OiBzdHJpbmcsCiAgICBvcHRpb25zOiB7IGluY2x1ZGVSdW5uaW5nPzogYm9vbGVhbiB9ID0ge30sCiAgKSA9PiB7CiAgICBpZiAoYXBwbGljYXRpb25JZCAmJiBqb2IudmFsdWU/LmFwcGxpY2F0aW9uSWQgIT09IGFwcGxpY2F0aW9uSWQpIHJldHVybjsKICAgIGlmIChvcHRpb25zLmluY2x1ZGVSdW5uaW5nID09PSBmYWxzZSAmJiBqb2IudmFsdWU/LnN0YXR1cyA9PT0gInJ1bm5pbmciKSB7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHN0b3BQb2xsaW5nKCk7CiAgICBzZWxlY3RlZEpvYklkLnZhbHVlID0gIiI7CiAgICBqb2IudmFsdWUgPSBudWxsOwogICAgbG9ncy52YWx1ZSA9IFtdOwogICAgYW5hbHlzaXMudmFsdWUgPSBudWxsOwogIH07CgogIG9uVW5tb3VudGVkKCgpID0+IHsKICAgIGlzRGlzcG9zZWQgPSB0cnVlOwogICAgc3RvcFBvbGxpbmcoKTsKICB9KTsKCiAgcmV0dXJuIHsKICAgIGFuYWx5c2lzLAogICAgY2xlYXJTZWxlY3RlZEpvYiwKICAgIGlzUmVmcmVzaGluZ0xvZ3MsCiAgICBpc1N0b3BwaW5nSm9iLAogICAgam9iLAogICAgbG9ncywKICAgIHJlZnJlc2hMb2dzLAogICAgc2VsZWN0Sm9iLAogICAgc2VsZWN0ZWRKb2JJZCwKICAgIHN0b3BBY3RpdmVKb2IsCiAgICB2aWV3Sm9iLAogIH07Cn0K
+import { onUnmounted, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  AcmeAPI,
+  type AcmeJobData,
+  type AcmeLogAnalysis,
+} from "@/lib/api/acme";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import { createVisibilityPoller } from "@/composables/useVisibilityPolling";
+
+type UseAcmeJobPollingOptions = {
+  refreshOverview: () => Promise<void>;
+};
+
+export function useAcmeJobPolling({
+  refreshOverview,
+}: UseAcmeJobPollingOptions) {
+  const { t } = useI18n();
+  const selectedJobId = ref("");
+  const job = ref<AcmeJobData | null>(null);
+  const logs = ref<string[]>([]);
+  const analysis = ref<AcmeLogAnalysis | null>(null);
+  let isDisposed = false;
+
+  const { isPending: isRefreshingLogs, run: runRefreshLogs } = useAsyncAction({
+    onError: (error) => {
+      toast.error(
+        extractErrorMessage(error, t("admin.acmeCert.refreshLogsFailed")),
+      );
+    },
+  });
+  const { isPending: isStoppingJob, run: runStopJob } = useAsyncAction({
+    onError: (error) => {
+      toast.error(
+        extractErrorMessage(error, t("admin.acmeCert.stopJobFailed")),
+      );
+    },
+  });
+
+  const pollJobOnce = async (jobId: string, signal?: AbortSignal) => {
+    const data = await AcmeAPI.poll(jobId, {
+      limit: 500,
+      order: "desc",
+      signal,
+    });
+    if (signal?.aborted || selectedJobId.value !== jobId) return;
+
+    job.value = data.job;
+    logs.value = data.logs;
+    analysis.value = data.analysis ?? null;
+
+    if (
+      data.job.status === "succeeded" ||
+      data.job.status === "failed" ||
+      data.job.status === "stopped"
+    ) {
+      stopPolling();
+      await refreshOverview();
+    }
+  };
+
+  const startPolling = (jobId: string) => {
+    if (isDisposed) return;
+    selectedJobId.value = jobId;
+    jobPoller.start();
+    jobPoller.sync();
+  };
+
+  const jobPoller = createVisibilityPoller({
+    intervalMs: 2_000,
+    task: async (signal) => {
+      if (!selectedJobId.value) return;
+      try {
+        await pollJobOnce(selectedJobId.value, signal);
+      } catch {
+        // Keep the last visible state and retry on the next interval.
+      }
+    },
+  });
+
+  const stopPolling = jobPoller.stop;
+
+  const selectJob = async (jobId: string, autoPoll: boolean) => {
+    if (!jobId) return;
+    stopPolling();
+    selectedJobId.value = jobId;
+    await pollJobOnce(jobId);
+    if (
+      autoPoll &&
+      (job.value?.status === "queued" || job.value?.status === "running")
+    ) {
+      startPolling(jobId);
+    } else {
+      stopPolling();
+    }
+  };
+
+  const viewJob = (jobId: string) => selectJob(jobId, false);
+
+  const refreshLogs = async () => {
+    if (!selectedJobId.value) return;
+    await runRefreshLogs(() => pollJobOnce(selectedJobId.value));
+  };
+
+  const stopActiveJob = async () => {
+    await runStopJob(async () => {
+      const result = await AcmeAPI.stopActiveJob();
+      stopPolling();
+      const killedCount =
+        result.processResult.matchedPids.length -
+        result.processResult.remainingPids.length;
+      const stopErrors = result.processResult.errors;
+      const remainingPids = result.processResult.remainingPids;
+      if (
+        !result.stopped &&
+        (Boolean(result.job) || stopErrors.length > 0 || remainingPids.length > 0)
+      ) {
+        const details = [
+          ...stopErrors,
+          ...(remainingPids.length
+            ? [`PID: ${remainingPids.join(", ")}`]
+            : []),
+        ].join("; ");
+        toast.error(t("admin.acmeCert.stopJobFailed"), {
+          description: details || undefined,
+        });
+      } else if (result.stopped) {
+        toast.success(t("admin.acmeCert.jobStopped"), {
+          description:
+            result.processResult.matchedPids.length > 0
+              ? t("admin.acmeCert.jobStoppedDescription", {
+                  count: Math.max(0, killedCount),
+                })
+              : t("admin.acmeCert.noRunningProcesses"),
+        });
+      } else {
+        toast.info(t("admin.acmeCert.noActiveJob"));
+      }
+
+      await refreshOverview();
+      const stoppedJobId = result.job?.id || selectedJobId.value;
+      if (stoppedJobId) {
+        await pollJobOnce(stoppedJobId);
+      }
+    });
+  };
+
+  const clearSelectedJob = (
+    applicationId?: string,
+    options: { includeRunning?: boolean } = {},
+  ) => {
+    if (applicationId && job.value?.applicationId !== applicationId) return;
+    if (options.includeRunning === false && job.value?.status === "running") {
+      return;
+    }
+    stopPolling();
+    selectedJobId.value = "";
+    job.value = null;
+    logs.value = [];
+    analysis.value = null;
+  };
+
+  onUnmounted(() => {
+    isDisposed = true;
+    stopPolling();
+  });
+
+  return {
+    analysis,
+    clearSelectedJob,
+    isRefreshingLogs,
+    isStoppingJob,
+    job,
+    logs,
+    refreshLogs,
+    selectJob,
+    selectedJobId,
+    stopActiveJob,
+    viewJob,
+  };
+}

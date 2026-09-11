@@ -1,1 +1,119 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCm1rZGlyIC1wICIke1JPT1RfRElSfS9kaXN0IgpURVNUX0RJUj0iJChta3RlbXAgLWQgIiR7Uk9PVF9ESVJ9L2Rpc3Qvb3BlbndydC10YXItY29tcGF0LXRlc3QuWFhYWFhYIikiCgpjbGVhbnVwKCkgewogIHJtIC1yZiAiJHtURVNUX0RJUn0iCn0KdHJhcCBjbGVhbnVwIEVYSVQKCnRlc3RfZmFpbCgpIHsKICBwcmludGYgJ1t0ZXN0LW9wZW53cnQtdGFyLWNvbXBhdF0gRVJST1I6ICVzXG4nICIkKiIgPiYyCiAgZXhpdCAxCn0KCnNvdXJjZSAiJHtST09UX0RJUn0vc2NyaXB0cy9idWlsZC1vcGVud3J0LWlway5zaCIKClZFUlNJT05fRklYVFVSRT0iJHtURVNUX0RJUn0vc2VydmVyLWFkbWluLXJzIgpFWFBFQ1RFRF9WRVJTSU9OPSIkKGZuX2tub2NrX2FwcF92ZXJzaW9uICIke1JPT1RfRElSfSIpIgpwcmludGYgJ2JpbmFyeSBmaXh0dXJlXG4nID4gIiR7VkVSU0lPTl9GSVhUVVJFfSIKaWYgKHZhbGlkYXRlX3J1c3RfYmFja2VuZF92ZXJzaW9uICIke1ZFUlNJT05fRklYVFVSRX0iICIke0VYUEVDVEVEX1ZFUlNJT059IiAiZml4dHVyZSIpID4vZGV2L251bGwgMj4mMTsgdGhlbgogIHRlc3RfZmFpbCAiUnVzdCBiYWNrZW5kIHZhbGlkYXRpb24gYWNjZXB0ZWQgbWlzc2luZyBwcm9kdWN0IHZlcnNpb24gbWV0YWRhdGEiCmZpCnByaW50ZiAnMC4wLjBcbicgPiAiJHtWRVJTSU9OX0ZJWFRVUkV9LnZlcnNpb24iCmlmICh2YWxpZGF0ZV9ydXN0X2JhY2tlbmRfdmVyc2lvbiAiJHtWRVJTSU9OX0ZJWFRVUkV9IiAiJHtFWFBFQ1RFRF9WRVJTSU9OfSIgImZpeHR1cmUiKSA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICB0ZXN0X2ZhaWwgIlJ1c3QgYmFja2VuZCB2YWxpZGF0aW9uIGFjY2VwdGVkIHN0YWxlIHByb2R1Y3QgdmVyc2lvbiBtZXRhZGF0YSIKZmkKcHJpbnRmICclc1xuJyAiJHtFWFBFQ1RFRF9WRVJTSU9OfSIgPiAiJHtWRVJTSU9OX0ZJWFRVUkV9LnZlcnNpb24iCnZhbGlkYXRlX3J1c3RfYmFja2VuZF92ZXJzaW9uICIke1ZFUlNJT05fRklYVFVSRX0iICIke0VYUEVDVEVEX1ZFUlNJT059IiAiZml4dHVyZSIKCk1PVU5UX1NBRkVfQ0hFQ0tfQ09VTlQ9IiQoCiAgZ3JlcCAtRmMgJ2ZpbmQgL2luc3BlY3QgLW1pbmRlcHRoIDEnICIke1JPT1RfRElSfS9zY3JpcHRzL2J1aWxkLW9wZW53cnQtaXBrLnNoIgopIgpbICIke01PVU5UX1NBRkVfQ0hFQ0tfQ09VTlR9IiAtZXEgMiBdIHx8IFwKICB0ZXN0X2ZhaWwgImJvdGggQVBLIG93bmVyc2hpcCBjaGVja3MgbXVzdCBza2lwIHRoZSBiaW5kLW1vdW50ZWQgZXh0cmFjdGlvbiByb290IgoKT1dORVJfUkVTVE9SRV9DT1VOVD0iJCgKICBncmVwIC1GYyAndHJhcCAiY2hvd24gLVIgJHtpbnNwZWN0X293bmVyfSAvaW5zcGVjdCIgRVhJVCcgXAogICAgIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvYnVpbGQtb3BlbndydC1pcGsuc2giCikiClsgIiR7T1dORVJfUkVTVE9SRV9DT1VOVH0iIC1lcSAyIF0gfHwgXAogIHRlc3RfZmFpbCAiYm90aCBBUEsgb3duZXJzaGlwIGNoZWNrcyBtdXN0IHJlc3RvcmUgZXh0cmFjdGVkIGZpbGVzIHRvIHRoZSBob3N0IG93bmVyIgoKY29uZmlndXJlX3Rhcl9jb21wYXRpYmlsaXR5CmNhc2UgIiR7VEFSX0ZMQVZPUn0iIGluCiAgYnNkKQogICAgWyAiJHtUQVJfT1dORVJfQVJHU1sqXX0iID0gIi0tdWlkIDAgLS1naWQgMCAtLXVuYW1lIHJvb3QgLS1nbmFtZSByb290IiBdIHx8IFwKICAgICAgdGVzdF9mYWlsICJ1bmV4cGVjdGVkIGJzZHRhciBvd25lciBhcmd1bWVudHM6ICR7VEFSX09XTkVSX0FSR1NbKl19IgogICAgOzsKICBnbnUpCiAgICBbICIke1RBUl9PV05FUl9BUkdTWypdfSIgPSAiLS1vd25lcj0wIC0tZ3JvdXA9MCAtLW51bWVyaWMtb3duZXIgLS1zb3J0PW5hbWUiIF0gfHwgXAogICAgICB0ZXN0X2ZhaWwgInVuZXhwZWN0ZWQgR05VIHRhciBvd25lciBhcmd1bWVudHM6ICR7VEFSX09XTkVSX0FSR1NbKl19IgogICAgOzsKICAqKQogICAgdGVzdF9mYWlsICJ1bmV4cGVjdGVkIHRhciBmbGF2b3I6ICR7VEFSX0ZMQVZPUn0iCiAgICA7Owplc2FjCgpTT1VSQ0VfRElSPSIke1RFU1RfRElSfS9zb3VyY2UiClBBQ0tBR0VfRElSPSIke1RFU1RfRElSfS9wYWNrYWdlIgpDT05URU5UX1RBUj0iJHtURVNUX0RJUn0vY29udGVudC50YXIuZ3oiCk5PTl9ST09UX1RBUj0iJHtURVNUX0RJUn0vbm9uLXJvb3QudGFyLmd6IgpJUEtfVEFSPSIke1RFU1RfRElSfS9wYWNrYWdlLmlwayIKbWtkaXIgLXAgIiR7U09VUkNFX0RJUn0iICIke1BBQ0tBR0VfRElSfSIKcHJpbnRmICdmaXh0dXJlXG4nID4gIiR7U09VUkNFX0RJUn0vcGF5bG9hZCIKCmNyZWF0ZV90YXJiYWxsICIke1NPVVJDRV9ESVJ9IiAiJHtDT05URU5UX1RBUn0iCnZhbGlkYXRlX3Jvb3Rfb3duZXJzaGlwICIke0NPTlRFTlRfVEFSfSIKdGFyIC10emYgIiR7Q09OVEVOVF9UQVJ9IiB8IG5vcm1hbGl6ZV90YXJfbGlzdGluZyB8IGdyZXAgLUZ4cSAicGF5bG9hZCIgfHwgXAogIHRlc3RfZmFpbCAiY29udGVudCB0YXJiYWxsIGlzIG1pc3NpbmcgaXRzIHBheWxvYWQiCgpjYXNlICIke1RBUl9GTEFWT1J9IiBpbgogIGJzZCkKICAgIENPUFlGSUxFX0RJU0FCTEU9MSB0YXIgLS11aWQgMSAtLWdpZCAxIC0tdW5hbWUgZGFlbW9uIC0tZ25hbWUgZGFlbW9uIFwKICAgICAgLS1mb3JtYXQ9dXN0YXIgLWN6ZiAiJHtOT05fUk9PVF9UQVJ9IiAtQyAiJHtTT1VSQ0VfRElSfSIgLgogICAgOzsKICBnbnUpCiAgICB0YXIgLS1vd25lcj0xIC0tZ3JvdXA9MSAtLW51bWVyaWMtb3duZXIgLS1mb3JtYXQ9dXN0YXIgXAogICAgICAtY3pmICIke05PTl9ST09UX1RBUn0iIC1DICIke1NPVVJDRV9ESVJ9IiAuCiAgICA7Owplc2FjCmlmICh2YWxpZGF0ZV9yb290X293bmVyc2hpcCAiJHtOT05fUk9PVF9UQVJ9IikgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgdGVzdF9mYWlsICIke1RBUl9GTEFWT1J9IG93bmVyc2hpcCB2YWxpZGF0aW9uIGFjY2VwdGVkIGEgbm9uLXJvb3QgYXJjaGl2ZSIKZmkKCnByaW50ZiAnMi4wXG4nID4gIiR7UEFDS0FHRV9ESVJ9L2RlYmlhbi1iaW5hcnkiCmNwICIke0NPTlRFTlRfVEFSfSIgIiR7UEFDS0FHRV9ESVJ9L2RhdGEudGFyLmd6IgpjcCAiJHtDT05URU5UX1RBUn0iICIke1BBQ0tBR0VfRElSfS9jb250cm9sLnRhci5neiIKY3JlYXRlX3Rhcl9pcGtfYXJjaGl2ZSAiJHtQQUNLQUdFX0RJUn0iICIke0lQS19UQVJ9Igp2YWxpZGF0ZV9yb290X293bmVyc2hpcCAiJHtJUEtfVEFSfSIKCklQS19MSVNUSU5HPSIkKHRhciAtdHpmICIke0lQS19UQVJ9IiB8IG5vcm1hbGl6ZV90YXJfbGlzdGluZykiClsgIiR7SVBLX0xJU1RJTkd9IiA9ICQnZGViaWFuLWJpbmFyeVxuZGF0YS50YXIuZ3pcbmNvbnRyb2wudGFyLmd6JyBdIHx8IHsKICBwcmludGYgJyVzXG4nICIke0lQS19MSVNUSU5HfSIgPiYyCiAgdGVzdF9mYWlsICJ0YXItZm9ybWF0IElQSyBtZW1iZXIgb3JkZXIgY2hhbmdlZCIKfQoKTEFSR0VfUEFZTE9BRF9MSVNUSU5HPSIkKHsKICBwcmludGYgJyVzXG4nIFwKICAgICJ1c3IvbGliZXhlYy9mbi1rbm9jay1maXJld2FsbCIgXAogICAgImV0Yy9jb25maWcvZm4ta25vY2siIFwKICAgICJldGMvaW5pdC5kL2ZuLWtub2NrIiBcCiAgICAidXNyL2xpYi9mbi1rbm9jay9zZXJ2ZXIvc2VydmVyLWFkbWluL3Jlc291cmNlcy9hY21lc2guemlwIiBcCiAgICAidXNyL2xpYi9mbi1rbm9jay9zZXJ2ZXIvc2VydmVyLWFkbWluLXJzIiBcCiAgICAidXNyL2xpYi9mbi1rbm9jay9iaW4vc2VydmVyLWFkbWluLXJzIiBcCiAgICAidXNyL2xpYi9mbi1rbm9jay91aS93d3cvaW5kZXguaHRtbCIgXAogICAgInVzci9saWIvZm4ta25vY2svc2VydmVyL2dvLXJlYXV0aC1wcm94eS1saW51eC1hbWQ2NCIgXAogICAgInVzci9zaGFyZS9sdWNpL21lbnUuZC9sdWNpLWFwcC1mbi1rbm9jay5qc29uIiBcCiAgICAidXNyL3NoYXJlL3JwY2QvYWNsLmQvbHVjaS1hcHAtZm4ta25vY2suanNvbiIgXAogICAgInd3dy9sdWNpLXN0YXRpYy9yZXNvdXJjZXMvdmlldy9mbi1rbm9jay5qcyIgXAogICAgInd3dy9sdWNpLXN0YXRpYy9yZXNvdXJjZXMvdmlldy9mbi1rbm9jay1vcGVud3J0LmpzIiBcCiAgICAid3d3L2x1Y2ktc3RhdGljL3Jlc291cmNlcy9mbi1rbm9jay9mbi1rbm9jay5wbmciCiAgYXdrICdCRUdJTiB7IGZvciAoaSA9IDA7IGkgPCAyMDAwMDsgaSArPSAxKSBwcmludGYgInVzci9zaGFyZS9mbi1rbm9jay9maXh0dXJlLSUwNWRcXG4iLCBpIH0nCn0pIgp2YWxpZGF0ZV9wYXlsb2FkX2xpc3RpbmcgIiR7TEFSR0VfUEFZTE9BRF9MSVNUSU5HfSIgYW1kNjQKCnByaW50ZiAnW3Rlc3Qtb3BlbndydC10YXItY29tcGF0XSAlcyB0YXIgY29tcGF0aWJpbGl0eSBwYXNzZWRcbicgIiR7VEFSX0ZMQVZPUn0iCg==
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+mkdir -p "${ROOT_DIR}/dist"
+TEST_DIR="$(mktemp -d "${ROOT_DIR}/dist/openwrt-tar-compat-test.XXXXXX")"
+
+cleanup() {
+  rm -rf "${TEST_DIR}"
+}
+trap cleanup EXIT
+
+test_fail() {
+  printf '[test-openwrt-tar-compat] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+source "${ROOT_DIR}/scripts/build-openwrt-ipk.sh"
+
+VERSION_FIXTURE="${TEST_DIR}/server-admin-rs"
+EXPECTED_VERSION="$(fn_knock_app_version "${ROOT_DIR}")"
+printf 'binary fixture\n' > "${VERSION_FIXTURE}"
+if (validate_rust_backend_version "${VERSION_FIXTURE}" "${EXPECTED_VERSION}" "fixture") >/dev/null 2>&1; then
+  test_fail "Rust backend validation accepted missing product version metadata"
+fi
+printf '0.0.0\n' > "${VERSION_FIXTURE}.version"
+if (validate_rust_backend_version "${VERSION_FIXTURE}" "${EXPECTED_VERSION}" "fixture") >/dev/null 2>&1; then
+  test_fail "Rust backend validation accepted stale product version metadata"
+fi
+printf '%s\n' "${EXPECTED_VERSION}" > "${VERSION_FIXTURE}.version"
+validate_rust_backend_version "${VERSION_FIXTURE}" "${EXPECTED_VERSION}" "fixture"
+
+MOUNT_SAFE_CHECK_COUNT="$(
+  grep -Fc 'find /inspect -mindepth 1' "${ROOT_DIR}/scripts/build-openwrt-ipk.sh"
+)"
+[ "${MOUNT_SAFE_CHECK_COUNT}" -eq 2 ] || \
+  test_fail "both APK ownership checks must skip the bind-mounted extraction root"
+
+OWNER_RESTORE_COUNT="$(
+  grep -Fc 'trap "chown -R ${inspect_owner} /inspect" EXIT' \
+    "${ROOT_DIR}/scripts/build-openwrt-ipk.sh"
+)"
+[ "${OWNER_RESTORE_COUNT}" -eq 2 ] || \
+  test_fail "both APK ownership checks must restore extracted files to the host owner"
+
+configure_tar_compatibility
+case "${TAR_FLAVOR}" in
+  bsd)
+    [ "${TAR_OWNER_ARGS[*]}" = "--uid 0 --gid 0 --uname root --gname root" ] || \
+      test_fail "unexpected bsdtar owner arguments: ${TAR_OWNER_ARGS[*]}"
+    ;;
+  gnu)
+    [ "${TAR_OWNER_ARGS[*]}" = "--owner=0 --group=0 --numeric-owner --sort=name" ] || \
+      test_fail "unexpected GNU tar owner arguments: ${TAR_OWNER_ARGS[*]}"
+    ;;
+  *)
+    test_fail "unexpected tar flavor: ${TAR_FLAVOR}"
+    ;;
+esac
+
+SOURCE_DIR="${TEST_DIR}/source"
+PACKAGE_DIR="${TEST_DIR}/package"
+CONTENT_TAR="${TEST_DIR}/content.tar.gz"
+NON_ROOT_TAR="${TEST_DIR}/non-root.tar.gz"
+IPK_TAR="${TEST_DIR}/package.ipk"
+mkdir -p "${SOURCE_DIR}" "${PACKAGE_DIR}"
+printf 'fixture\n' > "${SOURCE_DIR}/payload"
+
+create_tarball "${SOURCE_DIR}" "${CONTENT_TAR}"
+validate_root_ownership "${CONTENT_TAR}"
+tar -tzf "${CONTENT_TAR}" | normalize_tar_listing | grep -Fxq "payload" || \
+  test_fail "content tarball is missing its payload"
+
+case "${TAR_FLAVOR}" in
+  bsd)
+    COPYFILE_DISABLE=1 tar --uid 1 --gid 1 --uname daemon --gname daemon \
+      --format=ustar -czf "${NON_ROOT_TAR}" -C "${SOURCE_DIR}" .
+    ;;
+  gnu)
+    tar --owner=1 --group=1 --numeric-owner --format=ustar \
+      -czf "${NON_ROOT_TAR}" -C "${SOURCE_DIR}" .
+    ;;
+esac
+if (validate_root_ownership "${NON_ROOT_TAR}") >/dev/null 2>&1; then
+  test_fail "${TAR_FLAVOR} ownership validation accepted a non-root archive"
+fi
+
+printf '2.0\n' > "${PACKAGE_DIR}/debian-binary"
+cp "${CONTENT_TAR}" "${PACKAGE_DIR}/data.tar.gz"
+cp "${CONTENT_TAR}" "${PACKAGE_DIR}/control.tar.gz"
+create_tar_ipk_archive "${PACKAGE_DIR}" "${IPK_TAR}"
+validate_root_ownership "${IPK_TAR}"
+
+IPK_LISTING="$(tar -tzf "${IPK_TAR}" | normalize_tar_listing)"
+[ "${IPK_LISTING}" = $'debian-binary\ndata.tar.gz\ncontrol.tar.gz' ] || {
+  printf '%s\n' "${IPK_LISTING}" >&2
+  test_fail "tar-format IPK member order changed"
+}
+
+LARGE_PAYLOAD_LISTING="$({
+  printf '%s\n' \
+    "usr/libexec/fn-knock-firewall" \
+    "etc/config/fn-knock" \
+    "etc/init.d/fn-knock" \
+    "usr/lib/fn-knock/server/server-admin/resources/acmesh.zip" \
+    "usr/lib/fn-knock/server/server-admin-rs" \
+    "usr/lib/fn-knock/bin/server-admin-rs" \
+    "usr/lib/fn-knock/ui/www/index.html" \
+    "usr/lib/fn-knock/server/go-reauth-proxy-linux-amd64" \
+    "usr/share/luci/menu.d/luci-app-fn-knock.json" \
+    "usr/share/rpcd/acl.d/luci-app-fn-knock.json" \
+    "www/luci-static/resources/view/fn-knock.js" \
+    "www/luci-static/resources/view/fn-knock-openwrt.js" \
+    "www/luci-static/resources/fn-knock/fn-knock.png"
+  awk 'BEGIN { for (i = 0; i < 20000; i += 1) printf "usr/share/fn-knock/fixture-%05d\\n", i }'
+})"
+validate_payload_listing "${LARGE_PAYLOAD_LISTING}" amd64
+
+printf '[test-openwrt-tar-compat] %s tar compatibility passed\n' "${TAR_FLAVOR}"

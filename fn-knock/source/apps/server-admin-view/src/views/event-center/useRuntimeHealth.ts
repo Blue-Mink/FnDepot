@@ -1,1 +1,228 @@
-aW1wb3J0IHsKICBjb21wdXRlZCwKICBvbk1vdW50ZWQsCiAgb25Vbm1vdW50ZWQsCiAgcmVmLAogIHRvVmFsdWUsCiAgd2F0Y2gsCiAgdHlwZSBNYXliZVJlZk9yR2V0dGVyLAp9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAidnVlLXNvbm5lciI7CmltcG9ydCB7IEV2ZW50Q2VudGVyQVBJIH0gZnJvbSAiQC9saWIvYXBpL2V2ZW50cyI7CmltcG9ydCB7IFJ1bnRpbWVIZWFsdGhBUEkgfSBmcm9tICJAL2xpYi9hcGkvcnVudGltZS1oZWFsdGgiOwppbXBvcnQgeyBjcmVhdGVWaXNpYmlsaXR5UG9sbGVyIH0gZnJvbSAiQC9jb21wb3NhYmxlcy91c2VWaXNpYmlsaXR5UG9sbGluZyI7CmltcG9ydCB0eXBlIHsKICBSdW50aW1lQ29tcG9uZW50SGVhbHRoLAogIFJ1bnRpbWVIZWFsdGhTbmFwc2hvdCwKICBSdW50aW1lTG9nQ29tcG9uZW50LAogIFJ1bnRpbWVPcGVyYXRpb25hbExvZ0VudHJ5LAogIFN5c3RlbUV2ZW50UmVjb3JkLAp9IGZyb20gIkAvdHlwZXMiOwoKY29uc3QgY29tcG9uZW50T3JkZXIgPSBbCiAgIm1hbmFnZW1lbnQiLAogICJnYXRld2F5X3Byb2Nlc3MiLAogICJnYXRld2F5X2RhdGFwbGFuZSIsCiAgImF1dGhfYnJpZGdlIiwKICAic3RvcmFnZSIsCiAgImNvbmZpZ19zeW5jIiwKXSBhcyBjb25zdDsKCmV4cG9ydCBjb25zdCB1c2VSdW50aW1lSGVhbHRoID0gKG9wdGlvbnM6IHsKICBhY3RpdmU6IE1heWJlUmVmT3JHZXR0ZXI8Ym9vbGVhbj47Cn0pID0+IHsKICBjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKICBjb25zdCBzbmFwc2hvdCA9IHJlZjxSdW50aW1lSGVhbHRoU25hcHNob3QgfCBudWxsPihudWxsKTsKICBjb25zdCByZWNlbnRFdmVudHMgPSByZWY8U3lzdGVtRXZlbnRSZWNvcmRbXT4oW10pOwogIGNvbnN0IGxvYWRpbmcgPSByZWYoZmFsc2UpOwogIGNvbnN0IGV4cG9ydGluZyA9IHJlZihmYWxzZSk7CiAgY29uc3QgY29weWluZyA9IHJlZihmYWxzZSk7CiAgY29uc3QgbG9nRGlhbG9nT3BlbiA9IHJlZihmYWxzZSk7CiAgY29uc3QgbG9nQ29tcG9uZW50ID0gcmVmPFJ1bnRpbWVMb2dDb21wb25lbnQgfCBudWxsPihudWxsKTsKICBjb25zdCBsb2dFbnRyaWVzID0gcmVmPFJ1bnRpbWVPcGVyYXRpb25hbExvZ0VudHJ5W10+KFtdKTsKICBjb25zdCBsb2dHZW5lcmF0ZWRBdCA9IHJlZjxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBsb2dzTG9hZGluZyA9IHJlZihmYWxzZSk7CiAgY29uc3QgbG9nc0NsZWFyaW5nID0gcmVmKGZhbHNlKTsKICBjb25zdCBnYXRld2F5TWVtb3J5RGlhbG9nT3BlbiA9IHJlZihmYWxzZSk7CiAgbGV0IGxvZ1JlcXVlc3RJZCA9IDA7CgogIGNvbnN0IGNvbXBvbmVudHMgPSBjb21wdXRlZCgoKSA9PgogICAgY29tcG9uZW50T3JkZXIKICAgICAgLm1hcCgoaWQpID0+IHNuYXBzaG90LnZhbHVlPy5jb21wb25lbnRzW2lkXSkKICAgICAgLmZpbHRlcigoY29tcG9uZW50KTogY29tcG9uZW50IGlzIFJ1bnRpbWVDb21wb25lbnRIZWFsdGggPT4gISFjb21wb25lbnQpLAogICk7CiAgY29uc3QgaGFzUHJvY2Vzc0RldGFpbHMgPSAoY29tcG9uZW50OiBSdW50aW1lQ29tcG9uZW50SGVhbHRoKSA9PgogICAgY29tcG9uZW50LnByb2Nlc3Nfc3RhdGUgIT09ICJub3RfYXBwbGljYWJsZSI7CiAgY29uc3QgcHJvY2Vzc0NvbXBvbmVudHMgPSBjb21wdXRlZCgoKSA9PgogICAgY29tcG9uZW50cy52YWx1ZS5maWx0ZXIoaGFzUHJvY2Vzc0RldGFpbHMpLAogICk7CiAgY29uc3Qgc2VydmljZUNvbXBvbmVudHMgPSBjb21wdXRlZCgoKSA9PgogICAgY29tcG9uZW50cy52YWx1ZS5maWx0ZXIoKGNvbXBvbmVudCkgPT4gIWhhc1Byb2Nlc3NEZXRhaWxzKGNvbXBvbmVudCkpLAogICk7CiAgY29uc3QgaXNMb2dDb21wb25lbnQgPSAoCiAgICBjb21wb25lbnQ6IFJ1bnRpbWVDb21wb25lbnRIZWFsdGgsCiAgKTogY29tcG9uZW50IGlzIFJ1bnRpbWVDb21wb25lbnRIZWFsdGggJiB7IGlkOiBSdW50aW1lTG9nQ29tcG9uZW50IH0gPT4KICAgIGNvbXBvbmVudC5pZCA9PT0gIm1hbmFnZW1lbnQiIHx8IGNvbXBvbmVudC5pZCA9PT0gImdhdGV3YXlfcHJvY2VzcyI7CiAgY29uc3Qgc2VsZWN0ZWRMb2dDb21wb25lbnROYW1lID0gY29tcHV0ZWQoKCkgPT4KICAgIGxvZ0NvbXBvbmVudC52YWx1ZQogICAgICA/IHQoYGFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUuY29tcG9uZW50cy4ke2xvZ0NvbXBvbmVudC52YWx1ZX1gKQogICAgICA6ICIiLAogICk7CgogIGNvbnN0IGZldGNoUnVudGltZSA9IGFzeW5jIChzaG93RXJyb3IgPSB0cnVlLCBzaWduYWw/OiBBYm9ydFNpZ25hbCkgPT4gewogICAgaWYgKGxvYWRpbmcudmFsdWUpIHJldHVybjsKICAgIGxvYWRpbmcudmFsdWUgPSB0cnVlOwogICAgdHJ5IHsKICAgICAgY29uc3QgW2hlYWx0aCwgZXZlbnRzXSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgICAgICBSdW50aW1lSGVhbHRoQVBJLmdldEhlYWx0aChzaWduYWwpLAogICAgICAgIEV2ZW50Q2VudGVyQVBJLmdldEV2ZW50cygKICAgICAgICAgIHsKICAgICAgICAgICAgcGFnZTogMSwKICAgICAgICAgICAgbGltaXQ6ICIyMCIsCiAgICAgICAgICAgIHNlYXJjaDogIiIsCiAgICAgICAgICAgIHNvdXJjZTogIlJVTlRJTUVfTU9OSVRPUiIsCiAgICAgICAgICB9LAogICAgICAgICAgc2lnbmFsLAogICAgICAgICksCiAgICAgIF0pOwogICAgICBpZiAoc2lnbmFsPy5hYm9ydGVkKSByZXR1cm47CiAgICAgIHNuYXBzaG90LnZhbHVlID0gaGVhbHRoLmRhdGE7CiAgICAgIHJlY2VudEV2ZW50cy52YWx1ZSA9IGV2ZW50cy5kYXRhLmV2ZW50czsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGlmIChzaWduYWw/LmFib3J0ZWQpIHJldHVybjsKICAgICAgaWYgKHNob3dFcnJvcikgewogICAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUubG9hZEZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yLm1lc3NhZ2UgOiBTdHJpbmcoZXJyb3IpLAogICAgICAgIH0pOwogICAgICB9CiAgICB9IGZpbmFsbHkgewogICAgICBsb2FkaW5nLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3QgcnVudGltZVBvbGxlciA9IGNyZWF0ZVZpc2liaWxpdHlQb2xsZXIoewogICAgaW50ZXJ2YWxNczogNV8wMDAsCiAgICBlbmFibGVkOiAoKSA9PiB0b1ZhbHVlKG9wdGlvbnMuYWN0aXZlKSwKICAgIHRhc2s6IChzaWduYWwpID0+IGZldGNoUnVudGltZShzbmFwc2hvdC52YWx1ZSA9PT0gbnVsbCwgc2lnbmFsKSwKICB9KTsKCiAgY29uc3QgY29weURpYWdub3N0aWNzID0gYXN5bmMgKCkgPT4gewogICAgY29weWluZy52YWx1ZSA9IHRydWU7CiAgICB0cnkgewogICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBSdW50aW1lSGVhbHRoQVBJLmdldERpYWdub3N0aWNzKCk7CiAgICAgIGF3YWl0IG5hdmlnYXRvci5jbGlwYm9hcmQud3JpdGVUZXh0KEpTT04uc3RyaW5naWZ5KHJlc3VsdC5kYXRhLCBudWxsLCAyKSk7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5jb3B5U3VjY2VzcyIpKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUuY29weUZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGVycm9yIGluc3RhbmNlb2YgRXJyb3IgPyBlcnJvci5tZXNzYWdlIDogU3RyaW5nKGVycm9yKSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBjb3B5aW5nLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3QgZXhwb3J0RGlhZ25vc3RpY3MgPSBhc3luYyAoKSA9PiB7CiAgICBleHBvcnRpbmcudmFsdWUgPSB0cnVlOwogICAgdHJ5IHsKICAgICAgY29uc3QgeyBibG9iLCBmaWxlbmFtZSB9ID0gYXdhaXQgUnVudGltZUhlYWx0aEFQSS5kb3dubG9hZEFyY2hpdmUoKTsKICAgICAgY29uc3QgdXJsID0gVVJMLmNyZWF0ZU9iamVjdFVSTChibG9iKTsKICAgICAgY29uc3QgYW5jaG9yID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgiYSIpOwogICAgICBhbmNob3IuaHJlZiA9IHVybDsKICAgICAgYW5jaG9yLmRvd25sb2FkID0gZmlsZW5hbWU7CiAgICAgIGFuY2hvci5jbGljaygpOwogICAgICBVUkwucmV2b2tlT2JqZWN0VVJMKHVybCk7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5leHBvcnRTdWNjZXNzIikpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5leHBvcnRGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBlcnJvciBpbnN0YW5jZW9mIEVycm9yID8gZXJyb3IubWVzc2FnZSA6IFN0cmluZyhlcnJvciksCiAgICAgIH0pOwogICAgfSBmaW5hbGx5IHsKICAgICAgZXhwb3J0aW5nLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3QgbG9hZFJ1bnRpbWVMb2dzID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgY29tcG9uZW50ID0gbG9nQ29tcG9uZW50LnZhbHVlOwogICAgaWYgKCFjb21wb25lbnQgfHwgbG9nc0xvYWRpbmcudmFsdWUpIHJldHVybjsKICAgIGNvbnN0IHJlcXVlc3RJZCA9ICsrbG9nUmVxdWVzdElkOwogICAgbG9nc0xvYWRpbmcudmFsdWUgPSB0cnVlOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgUnVudGltZUhlYWx0aEFQSS5nZXRMb2dzKGNvbXBvbmVudCk7CiAgICAgIGlmIChyZXF1ZXN0SWQgIT09IGxvZ1JlcXVlc3RJZCkgcmV0dXJuOwogICAgICBsb2dFbnRyaWVzLnZhbHVlID0gcmVzdWx0LmRhdGEuZW50cmllczsKICAgICAgbG9nR2VuZXJhdGVkQXQudmFsdWUgPSByZXN1bHQuZGF0YS5nZW5lcmF0ZWRfYXQ7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBpZiAocmVxdWVzdElkICE9PSBsb2dSZXF1ZXN0SWQpIHJldHVybjsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5sb2dMb2FkRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yLm1lc3NhZ2UgOiBTdHJpbmcoZXJyb3IpLAogICAgICB9KTsKICAgIH0gZmluYWxseSB7CiAgICAgIGlmIChyZXF1ZXN0SWQgPT09IGxvZ1JlcXVlc3RJZCkgbG9nc0xvYWRpbmcudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9OwoKICBjb25zdCBvcGVuUnVudGltZUxvZ3MgPSAoY29tcG9uZW50OiBSdW50aW1lQ29tcG9uZW50SGVhbHRoKSA9PiB7CiAgICBpZiAoIWlzTG9nQ29tcG9uZW50KGNvbXBvbmVudCkpIHJldHVybjsKICAgIGxvZ0NvbXBvbmVudC52YWx1ZSA9IGNvbXBvbmVudC5pZDsKICAgIGxvZ0VudHJpZXMudmFsdWUgPSBbXTsKICAgIGxvZ0dlbmVyYXRlZEF0LnZhbHVlID0gbnVsbDsKICAgIGxvZ0RpYWxvZ09wZW4udmFsdWUgPSB0cnVlOwogICAgdm9pZCBsb2FkUnVudGltZUxvZ3MoKTsKICB9OwoKICBjb25zdCBvcGVuR2F0ZXdheU1lbW9yeURpYWxvZyA9IChjb21wb25lbnQ6IFJ1bnRpbWVDb21wb25lbnRIZWFsdGgpID0+IHsKICAgIGlmIChjb21wb25lbnQuaWQgPT09ICJnYXRld2F5X3Byb2Nlc3MiKSB7CiAgICAgIGdhdGV3YXlNZW1vcnlEaWFsb2dPcGVuLnZhbHVlID0gdHJ1ZTsKICAgIH0KICB9OwoKICBjb25zdCBjbGVhclJ1bnRpbWVMb2dzID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgY29tcG9uZW50ID0gbG9nQ29tcG9uZW50LnZhbHVlOwogICAgaWYgKCFjb21wb25lbnQgfHwgbG9nc0NsZWFyaW5nLnZhbHVlKSByZXR1cm47CiAgICBsb2dzQ2xlYXJpbmcudmFsdWUgPSB0cnVlOwogICAgKytsb2dSZXF1ZXN0SWQ7CiAgICB0cnkgewogICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBSdW50aW1lSGVhbHRoQVBJLmNsZWFyTG9ncyhjb21wb25lbnQpOwogICAgICBsb2dFbnRyaWVzLnZhbHVlID0gW107CiAgICAgIGxvZ0dlbmVyYXRlZEF0LnZhbHVlID0gcmVzdWx0LmRhdGEuY2xlYXJlZF9hdDsKICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5ldmVudENlbnRlci5ydW50aW1lLmxvZ0NsZWFyU3VjY2VzcyIpKTsKICAgICAgdm9pZCBmZXRjaFJ1bnRpbWUoZmFsc2UpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5sb2dDbGVhckZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGVycm9yIGluc3RhbmNlb2YgRXJyb3IgPyBlcnJvci5tZXNzYWdlIDogU3RyaW5nKGVycm9yKSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBsb2dzQ2xlYXJpbmcudmFsdWUgPSBmYWxzZTsKICAgICAgbG9nc0xvYWRpbmcudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9OwoKICB3YXRjaCgoKSA9PiB0b1ZhbHVlKG9wdGlvbnMuYWN0aXZlKSwgcnVudGltZVBvbGxlci5zeW5jKTsKICBvbk1vdW50ZWQocnVudGltZVBvbGxlci5zdGFydCk7CiAgb25Vbm1vdW50ZWQocnVudGltZVBvbGxlci5zdG9wKTsKCiAgcmV0dXJuIHsKICAgIGNsZWFyUnVudGltZUxvZ3MsCiAgICBjb3B5aW5nLAogICAgZXhwb3J0aW5nLAogICAgZmV0Y2hSdW50aW1lLAogICAgZ2F0ZXdheU1lbW9yeURpYWxvZ09wZW4sCiAgICBsb2FkUnVudGltZUxvZ3MsCiAgICBsb2FkaW5nLAogICAgbG9nRGlhbG9nT3BlbiwKICAgIGxvZ0VudHJpZXMsCiAgICBsb2dHZW5lcmF0ZWRBdCwKICAgIGxvZ3NDbGVhcmluZywKICAgIGxvZ3NMb2FkaW5nLAogICAgb3BlbkdhdGV3YXlNZW1vcnlEaWFsb2csCiAgICBvcGVuUnVudGltZUxvZ3MsCiAgICBwcm9jZXNzQ29tcG9uZW50cywKICAgIHJlY2VudEV2ZW50cywKICAgIHNlbGVjdGVkTG9nQ29tcG9uZW50TmFtZSwKICAgIHNlcnZpY2VDb21wb25lbnRzLAogICAgc25hcHNob3QsCiAgICBjb3B5RGlhZ25vc3RpY3MsCiAgICBleHBvcnREaWFnbm9zdGljcywKICB9Owp9Owo=
+import {
+  computed,
+  onMounted,
+  onUnmounted,
+  ref,
+  toValue,
+  watch,
+  type MaybeRefOrGetter,
+} from "vue";
+import { useI18n } from "vue-i18n";
+import { toast } from "vue-sonner";
+import { EventCenterAPI } from "@/lib/api/events";
+import { RuntimeHealthAPI } from "@/lib/api/runtime-health";
+import { createVisibilityPoller } from "@/composables/useVisibilityPolling";
+import type {
+  RuntimeComponentHealth,
+  RuntimeHealthSnapshot,
+  RuntimeLogComponent,
+  RuntimeOperationalLogEntry,
+  SystemEventRecord,
+} from "@/types";
+
+const componentOrder = [
+  "management",
+  "gateway_process",
+  "gateway_dataplane",
+  "auth_bridge",
+  "storage",
+  "config_sync",
+] as const;
+
+export const useRuntimeHealth = (options: {
+  active: MaybeRefOrGetter<boolean>;
+}) => {
+  const { t } = useI18n();
+  const snapshot = ref<RuntimeHealthSnapshot | null>(null);
+  const recentEvents = ref<SystemEventRecord[]>([]);
+  const loading = ref(false);
+  const exporting = ref(false);
+  const copying = ref(false);
+  const logDialogOpen = ref(false);
+  const logComponent = ref<RuntimeLogComponent | null>(null);
+  const logEntries = ref<RuntimeOperationalLogEntry[]>([]);
+  const logGeneratedAt = ref<string | null>(null);
+  const logsLoading = ref(false);
+  const logsClearing = ref(false);
+  const gatewayMemoryDialogOpen = ref(false);
+  let logRequestId = 0;
+
+  const components = computed(() =>
+    componentOrder
+      .map((id) => snapshot.value?.components[id])
+      .filter((component): component is RuntimeComponentHealth => !!component),
+  );
+  const hasProcessDetails = (component: RuntimeComponentHealth) =>
+    component.process_state !== "not_applicable";
+  const processComponents = computed(() =>
+    components.value.filter(hasProcessDetails),
+  );
+  const serviceComponents = computed(() =>
+    components.value.filter((component) => !hasProcessDetails(component)),
+  );
+  const isLogComponent = (
+    component: RuntimeComponentHealth,
+  ): component is RuntimeComponentHealth & { id: RuntimeLogComponent } =>
+    component.id === "management" || component.id === "gateway_process";
+  const selectedLogComponentName = computed(() =>
+    logComponent.value
+      ? t(`admin.eventCenter.runtime.components.${logComponent.value}`)
+      : "",
+  );
+
+  const fetchRuntime = async (showError = true, signal?: AbortSignal) => {
+    if (loading.value) return;
+    loading.value = true;
+    try {
+      const [health, events] = await Promise.all([
+        RuntimeHealthAPI.getHealth(signal),
+        EventCenterAPI.getEvents(
+          {
+            page: 1,
+            limit: "20",
+            search: "",
+            source: "RUNTIME_MONITOR",
+          },
+          signal,
+        ),
+      ]);
+      if (signal?.aborted) return;
+      snapshot.value = health.data;
+      recentEvents.value = events.data.events;
+    } catch (error) {
+      if (signal?.aborted) return;
+      if (showError) {
+        toast.error(t("admin.eventCenter.runtime.loadFailed"), {
+          description: error instanceof Error ? error.message : String(error),
+        });
+      }
+    } finally {
+      loading.value = false;
+    }
+  };
+
+  const runtimePoller = createVisibilityPoller({
+    intervalMs: 5_000,
+    enabled: () => toValue(options.active),
+    task: (signal) => fetchRuntime(snapshot.value === null, signal),
+  });
+
+  const copyDiagnostics = async () => {
+    copying.value = true;
+    try {
+      const result = await RuntimeHealthAPI.getDiagnostics();
+      await navigator.clipboard.writeText(JSON.stringify(result.data, null, 2));
+      toast.success(t("admin.eventCenter.runtime.copySuccess"));
+    } catch (error) {
+      toast.error(t("admin.eventCenter.runtime.copyFailed"), {
+        description: error instanceof Error ? error.message : String(error),
+      });
+    } finally {
+      copying.value = false;
+    }
+  };
+
+  const exportDiagnostics = async () => {
+    exporting.value = true;
+    try {
+      const { blob, filename } = await RuntimeHealthAPI.downloadArchive();
+      const url = URL.createObjectURL(blob);
+      const anchor = document.createElement("a");
+      anchor.href = url;
+      anchor.download = filename;
+      anchor.click();
+      URL.revokeObjectURL(url);
+      toast.success(t("admin.eventCenter.runtime.exportSuccess"));
+    } catch (error) {
+      toast.error(t("admin.eventCenter.runtime.exportFailed"), {
+        description: error instanceof Error ? error.message : String(error),
+      });
+    } finally {
+      exporting.value = false;
+    }
+  };
+
+  const loadRuntimeLogs = async () => {
+    const component = logComponent.value;
+    if (!component || logsLoading.value) return;
+    const requestId = ++logRequestId;
+    logsLoading.value = true;
+    try {
+      const result = await RuntimeHealthAPI.getLogs(component);
+      if (requestId !== logRequestId) return;
+      logEntries.value = result.data.entries;
+      logGeneratedAt.value = result.data.generated_at;
+    } catch (error) {
+      if (requestId !== logRequestId) return;
+      toast.error(t("admin.eventCenter.runtime.logLoadFailed"), {
+        description: error instanceof Error ? error.message : String(error),
+      });
+    } finally {
+      if (requestId === logRequestId) logsLoading.value = false;
+    }
+  };
+
+  const openRuntimeLogs = (component: RuntimeComponentHealth) => {
+    if (!isLogComponent(component)) return;
+    logComponent.value = component.id;
+    logEntries.value = [];
+    logGeneratedAt.value = null;
+    logDialogOpen.value = true;
+    void loadRuntimeLogs();
+  };
+
+  const openGatewayMemoryDialog = (component: RuntimeComponentHealth) => {
+    if (component.id === "gateway_process") {
+      gatewayMemoryDialogOpen.value = true;
+    }
+  };
+
+  const clearRuntimeLogs = async () => {
+    const component = logComponent.value;
+    if (!component || logsClearing.value) return;
+    logsClearing.value = true;
+    ++logRequestId;
+    try {
+      const result = await RuntimeHealthAPI.clearLogs(component);
+      logEntries.value = [];
+      logGeneratedAt.value = result.data.cleared_at;
+      toast.success(t("admin.eventCenter.runtime.logClearSuccess"));
+      void fetchRuntime(false);
+    } catch (error) {
+      toast.error(t("admin.eventCenter.runtime.logClearFailed"), {
+        description: error instanceof Error ? error.message : String(error),
+      });
+    } finally {
+      logsClearing.value = false;
+      logsLoading.value = false;
+    }
+  };
+
+  watch(() => toValue(options.active), runtimePoller.sync);
+  onMounted(runtimePoller.start);
+  onUnmounted(runtimePoller.stop);
+
+  return {
+    clearRuntimeLogs,
+    copying,
+    exporting,
+    fetchRuntime,
+    gatewayMemoryDialogOpen,
+    loadRuntimeLogs,
+    loading,
+    logDialogOpen,
+    logEntries,
+    logGeneratedAt,
+    logsClearing,
+    logsLoading,
+    openGatewayMemoryDialog,
+    openRuntimeLogs,
+    processComponents,
+    recentEvents,
+    selectedLogComponentName,
+    serviceComponents,
+    snapshot,
+    copyDiagnostics,
+    exportDiagnostics,
+  };
+};

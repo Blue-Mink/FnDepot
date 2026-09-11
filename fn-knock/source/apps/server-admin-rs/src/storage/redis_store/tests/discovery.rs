@@ -1,1 +1,108 @@
-dXNlIHN1cGVyOjoqOwoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gYW5hbHl0aWNzX2xvY2F0aW9uX2JhdGNoZXNfcHJlc2VydmVfb3JkZXJfYW5kX2V4cGlyeV93aXRob3V0X3ByaW1hcnlfYWNjZXNzKCkgewogICAgbGV0IChfZGlyZWN0b3J5LCBzdG9yZSkgPSBvcGVuX3Rlc3Rfc3RvcmUoKS5hd2FpdDsKICAgIGxldCBtdXQgaXBzID0gKDAuLjMwMCkKICAgICAgICAubWFwKHxpbmRleHwgZm9ybWF0ISgiMTk4LjUxLjEwMC57aW5kZXh9IikpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgbXV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmc3RvcmUucGF0aCk7CiAgICBsZXQgdHggPSBjb25uZWN0aW9uLnRyYW5zYWN0aW9uKCkudW53cmFwKCk7CiAgICBmb3IgKGluZGV4LCBpcCkgaW4gaXBzLml0ZXIoKS5lbnVtZXJhdGUoKSB7CiAgICAgICAgZm9yIGtpbmQgaW4gWyJjYWNoZSIsICJzdGF0ZSJdIHsKICAgICAgICAgICAgbGV0IGtleSA9IGZvcm1hdCEoImZuX2tub2NrOmlwX2xvY2F0aW9uOntraW5kfTp7aXB9Iik7CiAgICAgICAgICAgIGxldCBleHBpcmVzX2F0ID0gaWYgaW5kZXggPT0gMSAmJiBraW5kID09ICJjYWNoZSIgewogICAgICAgICAgICAgICAgU29tZSgwX2k2NCkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIE5vbmUKICAgICAgICAgICAgfTsKICAgICAgICAgICAgdHguZXhlY3V0ZSgKICAgICAgICAgICAgICAgICJJTlNFUlQgSU5UTyBrdl9rZXlzKGtleSwga2luZCwgZXhwaXJlc19hdF9tcykgVkFMVUVTICg/MSwgJ3N0cmluZycsID8yKSIsCiAgICAgICAgICAgICAgICB0b2tpb19ydXNxbGl0ZTo6cnVzcWxpdGU6OnBhcmFtcyFba2V5LCBleHBpcmVzX2F0XSwKICAgICAgICAgICAgKQogICAgICAgICAgICAudW53cmFwKCk7CiAgICAgICAgICAgIGxldCB2YWx1ZSA9IGlmIGluZGV4ID09IDIgJiYga2luZCA9PSAiY2FjaGUiIHsKICAgICAgICAgICAgICAgICJtYWxmb3JtZWQtanNvbiIudG9fc3RyaW5nKCkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGpzb24hKHsgImluZGV4IjogaW5kZXgsICJraW5kIjoga2luZCB9KS50b19zdHJpbmcoKQogICAgICAgICAgICB9OwogICAgICAgICAgICB0eC5leGVjdXRlKAogICAgICAgICAgICAgICAgIklOU0VSVCBJTlRPIGt2X3N0cmluZ3Moa2V5LCB2YWx1ZSkgVkFMVUVTICg/MSwgPzIpIiwKICAgICAgICAgICAgICAgIFsma2V5LCAmdmFsdWVdLAogICAgICAgICAgICApCiAgICAgICAgICAgIC51bndyYXAoKTsKICAgICAgICB9CiAgICB9CiAgICB0eC5jb21taXQoKS51bndyYXAoKTsKICAgIGlwcy5wdXNoKGlwc1swXS5jbG9uZSgpKTsKICAgIGlwcy5wdXNoKCJtaXNzaW5nIi50b19zdHJpbmcoKSk7CgogICAgbGV0IChyZWxlYXNlLCBibG9ja2VyKSA9IGJsb2NrX3ByaW1hcnlfZXhlY3V0b3IoJnN0b3JlKS5hd2FpdDsKICAgIGxldCByZXN1bHQgPSB0b2tpbzo6dGltZTo6dGltZW91dCgKICAgICAgICBzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX3NlY3MoMiksCiAgICAgICAgc3RvcmUuZ2V0X2lwX2xvY2F0aW9uX3JlY29yZHNfYW5hbHl0aWNzKCZpcHMpLAogICAgKQogICAgLmF3YWl0OwogICAgcmVsZWFzZS5zZW5kKCgpKS51bndyYXAoKTsKICAgIGJsb2NrZXIuYXdhaXQudW53cmFwKCk7CiAgICBsZXQgcmVjb3JkcyA9IHJlc3VsdAogICAgICAgIC5leHBlY3QoImFuYWx5dGljcyBtdXN0IG5vdCB3YWl0IGZvciB0aGUgcHJpbWFyeSB3cml0ZXIiKQogICAgICAgIC51bndyYXAoKTsKICAgIGFzc2VydF9lcSEocmVjb3Jkcy5sZW4oKSwgaXBzLmxlbigpKTsKICAgIGZvciAoaW5kZXgsIChjYWNoZSwgc3RhdGUpKSBpbiByZWNvcmRzLml0ZXIoKS50YWtlKDMwMCkuZW51bWVyYXRlKCkgewogICAgICAgIGlmIGluZGV4ID09IDEgfHwgaW5kZXggPT0gMiB7CiAgICAgICAgICAgIGFzc2VydF9lcSEoKmNhY2hlLCBOb25lKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBhc3NlcnRfZXEhKGNhY2hlLmFzX3JlZigpLnVud3JhcCgpWyJpbmRleCJdLCBqc29uIShpbmRleCkpOwogICAgICAgIH0KICAgICAgICBhc3NlcnRfZXEhKHN0YXRlLmFzX3JlZigpLnVud3JhcCgpWyJpbmRleCJdLCBqc29uIShpbmRleCkpOwogICAgfQogICAgYXNzZXJ0X2VxISgKICAgICAgICByZWNvcmRzWzMwMF0sIHJlY29yZHNbMF0sCiAgICAgICAgImR1cGxpY2F0ZSBJUHMgcmV0YWluIHRoZWlyIHBvc2l0aW9uIgogICAgKTsKICAgIGFzc2VydF9lcSEocmVjb3Jkc1szMDFdLCAoTm9uZSwgTm9uZSkpOwogICAgbGV0IGV4cGlyZWRfc3RpbGxfZXhpc3RzOiBib29sID0gY29ubmVjdGlvbi5xdWVyeV9yb3coCiAgICAgICAgIlNFTEVDVCBFWElTVFMoU0VMRUNUIDEgRlJPTSBrdl9rZXlzIFdIRVJFIGtleSA9ICdmbl9rbm9jazppcF9sb2NhdGlvbjpjYWNoZToxOTguNTEuMTAwLjEnKSIsCiAgICAgICAgW10sCiAgICAgICAgfHJvd3wgcm93LmdldCgwKSwKICAgICkudW53cmFwKCk7CiAgICBhc3NlcnQhKAogICAgICAgIGV4cGlyZWRfc3RpbGxfZXhpc3RzLAogICAgICAgICJyZWFkLW9ubHkgYW5hbHl0aWNzIG11c3Qgbm90IHBlcmZvcm0gVFRMIGNsZWFudXAiCiAgICApOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBpcF9sb2NhdGlvbl9sb2NrX2Nhbl9vbmx5X2JlX3JlbGVhc2VkX2J5X2l0c19vd25lcigpIHsKICAgIGxldCAoX2RpcmVjdG9yeSwgc3RvcmUpID0gb3Blbl90ZXN0X3N0b3JlKCkuYXdhaXQ7CiAgICBsZXQgaXAgPSAiMjAzLjAuMTEzLjEwIjsKCiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5hY3F1aXJlX2lwX2xvY2F0aW9uX2xvY2soaXAsICJvd25lci1hIiwgNjApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuZXhwZWN0KCJhY3F1aXJlIGluaXRpYWwgbG9jayIpCiAgICApOwogICAgc3RvcmUKICAgICAgICAucmVsZWFzZV9pcF9sb2NhdGlvbl9sb2NrKGlwLCAib3duZXItYiIpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgiaWdub3JlIG5vbi1vd25lciByZWxlYXNlIik7CiAgICBhc3NlcnQhKAogICAgICAgICFzdG9yZQogICAgICAgICAgICAuYWNxdWlyZV9pcF9sb2NhdGlvbl9sb2NrKGlwLCAib3duZXItYyIsIDYwKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgibG9jayByZW1haW5zIG93bmVkIikKICAgICk7CgogICAgc3RvcmUKICAgICAgICAucmVsZWFzZV9pcF9sb2NhdGlvbl9sb2NrKGlwLCAib3duZXItYSIpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgicmVsZWFzZSBvd25lZCBsb2NrIik7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5hY3F1aXJlX2lwX2xvY2F0aW9uX2xvY2soaXAsICJvd25lci1jIiwgNjApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuZXhwZWN0KCJhY3F1aXJlIGFmdGVyIG93bmVyIHJlbGVhc2UiKQogICAgKTsKfQo=
+use super::*;
+
+#[tokio::test]
+async fn analytics_location_batches_preserve_order_and_expiry_without_primary_access() {
+    let (_directory, store) = open_test_store().await;
+    let mut ips = (0..300)
+        .map(|index| format!("198.51.100.{index}"))
+        .collect::<Vec<_>>();
+    let mut connection = open_fixture_connection(&store.path);
+    let tx = connection.transaction().unwrap();
+    for (index, ip) in ips.iter().enumerate() {
+        for kind in ["cache", "state"] {
+            let key = format!("fn_knock:ip_location:{kind}:{ip}");
+            let expires_at = if index == 1 && kind == "cache" {
+                Some(0_i64)
+            } else {
+                None
+            };
+            tx.execute(
+                "INSERT INTO kv_keys(key, kind, expires_at_ms) VALUES (?1, 'string', ?2)",
+                tokio_rusqlite::rusqlite::params![key, expires_at],
+            )
+            .unwrap();
+            let value = if index == 2 && kind == "cache" {
+                "malformed-json".to_string()
+            } else {
+                json!({ "index": index, "kind": kind }).to_string()
+            };
+            tx.execute(
+                "INSERT INTO kv_strings(key, value) VALUES (?1, ?2)",
+                [&key, &value],
+            )
+            .unwrap();
+        }
+    }
+    tx.commit().unwrap();
+    ips.push(ips[0].clone());
+    ips.push("missing".to_string());
+
+    let (release, blocker) = block_primary_executor(&store).await;
+    let result = tokio::time::timeout(
+        std::time::Duration::from_secs(2),
+        store.get_ip_location_records_analytics(&ips),
+    )
+    .await;
+    release.send(()).unwrap();
+    blocker.await.unwrap();
+    let records = result
+        .expect("analytics must not wait for the primary writer")
+        .unwrap();
+    assert_eq!(records.len(), ips.len());
+    for (index, (cache, state)) in records.iter().take(300).enumerate() {
+        if index == 1 || index == 2 {
+            assert_eq!(*cache, None);
+        } else {
+            assert_eq!(cache.as_ref().unwrap()["index"], json!(index));
+        }
+        assert_eq!(state.as_ref().unwrap()["index"], json!(index));
+    }
+    assert_eq!(
+        records[300], records[0],
+        "duplicate IPs retain their position"
+    );
+    assert_eq!(records[301], (None, None));
+    let expired_still_exists: bool = connection.query_row(
+        "SELECT EXISTS(SELECT 1 FROM kv_keys WHERE key = 'fn_knock:ip_location:cache:198.51.100.1')",
+        [],
+        |row| row.get(0),
+    ).unwrap();
+    assert!(
+        expired_still_exists,
+        "read-only analytics must not perform TTL cleanup"
+    );
+}
+
+#[tokio::test]
+async fn ip_location_lock_can_only_be_released_by_its_owner() {
+    let (_directory, store) = open_test_store().await;
+    let ip = "203.0.113.10";
+
+    assert!(
+        store
+            .acquire_ip_location_lock(ip, "owner-a", 60)
+            .await
+            .expect("acquire initial lock")
+    );
+    store
+        .release_ip_location_lock(ip, "owner-b")
+        .await
+        .expect("ignore non-owner release");
+    assert!(
+        !store
+            .acquire_ip_location_lock(ip, "owner-c", 60)
+            .await
+            .expect("lock remains owned")
+    );
+
+    store
+        .release_ip_location_lock(ip, "owner-a")
+        .await
+        .expect("release owned lock");
+    assert!(
+        store
+            .acquire_ip_location_lock(ip, "owner-c", 60)
+            .await
+            .expect("acquire after owner release")
+    );
+}

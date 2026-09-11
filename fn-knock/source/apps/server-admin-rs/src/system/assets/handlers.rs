@@ -1,1 +1,288 @@
-dXNlIHN0ZDo6ZnM7Cgp1c2UgYXh1bTo6ewogICAgZXh0cmFjdDo6U3RhdGUsCiAgICBodHRwOjpTdGF0dXNDb2RlLAogICAgcmVzcG9uc2U6OntJbnRvUmVzcG9uc2UsIFJlc3BvbnNlfSwKfTsKdXNlIHNlcmRlX2pzb246OntWYWx1ZSwganNvbn07Cgp1c2UgY3JhdGU6OnsKICAgIGNsb3VkZmxhcmVkLAogICAgY2xvdWRmbGFyZWRfdXRpbHM6OnsKICAgICAgICBjbG91ZGZsYXJlZF9hc3NldF9uYW1lLCBjbG91ZGZsYXJlZF9iaW5hcnlfcGF0aCwgY2xvdWRmbGFyZWRfaW5zdGFsbF9tZXRhZGF0YV9wYXRoLAogICAgfSwKICAgIGkxOG46OlRyYW5zbGF0b3IsCiAgICByZXNwb25zZSwKICAgIHN0YXRlOjpBcHBTdGF0ZSwKfTsKCnVzZSBzdXBlcjo6ewogICAgY2xvY2s6OntjYWNoZWRfY2xvY2tfc3RhdHVzLCByZWZyZXNoX2Nsb2NrX3N0YXR1cywgc3luY19zeXN0ZW1fY2xvY2t9LAogICAgZG5zbWFzcTo6ewogICAgICAgIGJ1aWxkX2Ruc21hc3Ffc3RhdHVzX3dpdGhfdHJhbnNsYXRvciwgZG5zbWFzcV9pbnN0YWxsX3N0YXRlX2pzb24sCiAgICAgICAgaW5zdGFsbF9kbnNtYXNxX2JhY2tncm91bmQsIHNldF9kbnNtYXNxX2luc3RhbGxfc3RhdGUsCiAgICB9LAogICAgZG93bmxvYWRzOjp7CiAgICAgICAgYnVpbGRfY2xvdWRmbGFyZWRfc3RhdHVzLCBidWlsZF9mcnBfc3RhdHVzLCBkZXRlY3RfY2xvdWRmbGFyZWRfcGxhdGZvcm0sCiAgICAgICAgZGV0ZWN0X2ZycF9wbGF0Zm9ybSwgZG93bmxvYWRfY2xvdWRmbGFyZWQsIGRvd25sb2FkX2ZycCwgZnJwX2V4dHJhY3RlZF9kaXIsIHJlcXVlc3RfY2FuY2VsLAogICAgICAgIHJlc2V0X3Byb2dyZXNzLCBzdGFydF9kb3dubG9hZCwKICAgIH0sCiAgICBydW50aW1lOjp7CiAgICAgICAgc21hcnRfY29ubmVjdF9hdmFpbGFibGUsIHNtYXJ0X2Nvbm5lY3RfdW5hdmFpbGFibGVfbWVzc2FnZSwgc3lzdGVtX2Nsb2NrX3N5bmNfYXZhaWxhYmxlLAogICAgICAgIHN5c3RlbV9jbG9ja191bmF2YWlsYWJsZV9tZXNzYWdlLAogICAgfSwKICAgIHRleHQ6OntkbnNtYXNxX3RleHQsIHR1bm5lbF9tYW5hZ2VyX3RleHQsIHR1bm5lbF9tYW5hZ2VyX3RleHRfcGFyYW1zfSwKfTsKCiNbdXRvaXBhOjpwYXRoKAogICAgZ2V0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL3N5c3RlbS9jbG9jay9zdGF0dXMiLAogICAgdGFnID0gInN5c3RlbSIsCiAgICBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9zeXN0ZW1fY2xvY2tfc3RhdHVzIiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJDYWNoZWQgc3lzdGVtIGNsb2NrIHN0YXR1cyIpKQopXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGNsb2NrX3N0YXR1cyhTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICByZXNwb25zZTo6b2soY2FjaGVkX2Nsb2NrX3N0YXR1cygmc3RhdGUsICZ0cmFuc2xhdG9yKS5hd2FpdCkuaW50b19yZXNwb25zZSgpCn0KCiNbdXRvaXBhOjpwYXRoKAogICAgcG9zdCwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9zeXN0ZW0vY2xvY2svY2hlY2siLAogICAgdGFnID0gInN5c3RlbSIsCiAgICBvcGVyYXRpb25faWQgPSAicG9zdF9hcGlfYWRtaW5fc3lzdGVtX2Nsb2NrX2NoZWNrIiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJSZWZyZXNoZWQgc3lzdGVtIGNsb2NrIHN0YXR1cyIpKQopXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGNsb2NrX2NoZWNrKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIHJlc3BvbnNlOjpvayhyZWZyZXNoX2Nsb2NrX3N0YXR1cygmc3RhdGUsICZ0cmFuc2xhdG9yKS5hd2FpdCkuaW50b19yZXNwb25zZSgpCn0KCiNbdXRvaXBhOjpwYXRoKAogICAgcG9zdCwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9zeXN0ZW0vY2xvY2svc3luYyIsCiAgICB0YWcgPSAic3lzdGVtIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJwb3N0X2FwaV9hZG1pbl9zeXN0ZW1fY2xvY2tfc3luYyIsCiAgICByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiU3lzdGVtIGNsb2NrIHN5bmNocm9uaXphdGlvbiByZXN1bHQiKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiBjbG9ja19zeW5jKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGlmICFzeXN0ZW1fY2xvY2tfc3luY19hdmFpbGFibGUoJnN0YXRlKSB7CiAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgU3RhdHVzQ29kZTo6Rk9SQklEREVOLAogICAgICAgICAgICBzeXN0ZW1fY2xvY2tfdW5hdmFpbGFibGVfbWVzc2FnZSgmc3RhdGUsICZ0cmFuc2xhdG9yKSwKICAgICAgICApOwogICAgfQogICAgbWF0Y2ggc3luY19zeXN0ZW1fY2xvY2soJnN0YXRlLCAmdHJhbnNsYXRvcikuYXdhaXQgewogICAgICAgIE9rKChtZXNzYWdlLCBkYXRhKSkgPT4gYXh1bTo6SnNvbihqc29uISh7CiAgICAgICAgICAgICJzdWNjZXNzIjogdHJ1ZSwKICAgICAgICAgICAgIm1lc3NhZ2UiOiBtZXNzYWdlLAogICAgICAgICAgICAiZGF0YSI6IGRhdGEKICAgICAgICB9KSkKICAgICAgICAuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gcmVzcG9uc2U6OmVycm9yKFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULCBlcnJvciksCiAgICB9Cn0KCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL3N5c3RlbS9jbG91ZGZsYXJlZC9zdGF0dXMiLCB0YWcgPSAic3lzdGVtIiwgb3BlcmF0aW9uX2lkID0gImdldF9hcGlfYWRtaW5fc3lzdGVtX2Nsb3VkZmxhcmVkX3N0YXR1cyIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJDbG91ZGZsYXJlZCBiaW5hcnkgc3RhdHVzIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBjbG91ZGZsYXJlZF9zdGF0dXMoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgcmVzcG9uc2U6Om9rKGJ1aWxkX2Nsb3VkZmxhcmVkX3N0YXR1cygKICAgICAgICAmc3RhdGUuc2V0dGluZ3MuZGF0YV9kaXIsCiAgICAgICAgJnRyYW5zbGF0b3IsCiAgICApKQogICAgLmludG9fcmVzcG9uc2UoKQp9CgojW3V0b2lwYTo6cGF0aChwb3N0LCBwYXRoID0gIi9hcGkvYWRtaW4vc3lzdGVtL2Nsb3VkZmxhcmVkL2Rvd25sb2FkIiwgdGFnID0gInN5c3RlbSIsIG9wZXJhdGlvbl9pZCA9ICJwb3N0X2FwaV9hZG1pbl9zeXN0ZW1fY2xvdWRmbGFyZWRfZG93bmxvYWQiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiQ2xvdWRmbGFyZWQgZG93bmxvYWQgc3RhcnRlZCIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gY2xvdWRmbGFyZWRfZG93bmxvYWQoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgaWYgc3RhcnRfZG93bmxvYWQoImNsb3VkZmxhcmVkIikgewogICAgICAgIGxldCB0YXNrX3N0YXRlID0gc3RhdGUuY2xvbmUoKTsKICAgICAgICBzdGF0ZS5zcGF3bl9iYWNrZ3JvdW5kKCJjbG91ZGZsYXJlZC1kb3dubG9hZCIsIGRvd25sb2FkX2Nsb3VkZmxhcmVkKHRhc2tfc3RhdGUpKTsKICAgIH0KICAgIHJlc3BvbnNlOjpzdWNjZXNzX21lc3NhZ2UodHVubmVsX21hbmFnZXJfdGV4dCgKICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAiY2xvdWRmbGFyZWQiLAogICAgICAgICJkb3dubG9hZFN0YXJ0ZWQiLAogICAgKSkKICAgIC5pbnRvX3Jlc3BvbnNlKCkKfQoKI1t1dG9pcGE6OnBhdGgocG9zdCwgcGF0aCA9ICIvYXBpL2FkbWluL3N5c3RlbS9jbG91ZGZsYXJlZC9jYW5jZWwiLCB0YWcgPSAic3lzdGVtIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX3N5c3RlbV9jbG91ZGZsYXJlZF9jYW5jZWwiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiQ2xvdWRmbGFyZWQgZG93bmxvYWQgY2FuY2VsbGVkIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBjbG91ZGZsYXJlZF9jYW5jZWwoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgcmVxdWVzdF9jYW5jZWwoImNsb3VkZmxhcmVkIik7CiAgICByZXNwb25zZTo6c3VjY2Vzc19tZXNzYWdlKHR1bm5lbF9tYW5hZ2VyX3RleHQoCiAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgImNsb3VkZmxhcmVkIiwKICAgICAgICAiZG93bmxvYWRDYW5jZWxsZWQiLAogICAgKSkKICAgIC5pbnRvX3Jlc3BvbnNlKCkKfQoKI1t1dG9pcGE6OnBhdGgoZGVsZXRlLCBwYXRoID0gIi9hcGkvYWRtaW4vc3lzdGVtL2Nsb3VkZmxhcmVkIiwgdGFnID0gInN5c3RlbSIsIG9wZXJhdGlvbl9pZCA9ICJkZWxldGVfYXBpX2FkbWluX3N5c3RlbV9jbG91ZGZsYXJlZCIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJDbG91ZGZsYXJlZCBiaW5hcnkgcmVtb3ZlZCIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gY2xvdWRmbGFyZWRfZGVsZXRlKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGxldCBwbGF0Zm9ybSA9IGRldGVjdF9jbG91ZGZsYXJlZF9wbGF0Zm9ybSgpOwogICAgaWYgbGV0IFNvbWUobWVzc2FnZSkgPSBjbG91ZGZsYXJlZF9kZWxldGVfdW5zdXBwb3J0ZWRfbWVzc2FnZSgmdHJhbnNsYXRvciwgcGxhdGZvcm0pIHsKICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwgbWVzc2FnZSk7CiAgICB9CiAgICBsZXQgU29tZShwYXRoKSA9IGNsb3VkZmxhcmVkX2JpbmFyeV9wYXRoKCZzdGF0ZS5zZXR0aW5ncy5kYXRhX2RpciwgcGxhdGZvcm0pIGVsc2UgewogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgdHVubmVsX21hbmFnZXJfdGV4dCgmdHJhbnNsYXRvciwgImNsb3VkZmxhcmVkIiwgInBsYXRmb3JtVW5zdXBwb3J0ZWQiKSwKICAgICAgICApOwogICAgfTsKICAgIGxldCBfbWFuYWdlX2d1YXJkID0gc3RhdGUudHVubmVsLmNsb3VkZmxhcmVkX21hbmFnZV9sb2NrLmxvY2soKS5hd2FpdDsKICAgIGxldCBzaG91bGRfcmVzdW1lID0gbWF0Y2ggY2xvdWRmbGFyZWQ6OnBhdXNlX2Nsb3VkZmxhcmVkX2Zvcl9hc3NldF91cGRhdGUoJnN0YXRlKS5hd2FpdCB7CiAgICAgICAgT2sodmFsdWUpID0+IHZhbHVlLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gc3RvcCBjbG91ZGZsYXJlZCBiZWZvcmUgZGVsZXRpbmcgaXRzIGJpbmFyeSIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwgZXJyb3IpOwogICAgICAgIH0KICAgIH07CiAgICBpZiBwYXRoLmV4aXN0cygpCiAgICAgICAgJiYgbGV0IEVycihlcnJvcikgPSBmczo6cmVtb3ZlX2ZpbGUoJnBhdGgpCiAgICB7CiAgICAgICAgaWYgbGV0IEVycihyZXN1bWVfZXJyb3IpID0KICAgICAgICAgICAgY2xvdWRmbGFyZWQ6OnJlc3VtZV9jbG91ZGZsYXJlZF9hZnRlcl9hc3NldF91cGRhdGUoJnN0YXRlLCBzaG91bGRfcmVzdW1lKS5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgdHJhY2luZzo6ZXJyb3IhKCVyZXN1bWVfZXJyb3IsICJmYWlsZWQgdG8gcmVzdW1lIGNsb3VkZmxhcmVkIGFmdGVyIGRlbGV0ZSBmYWlsdXJlIik7CiAgICAgICAgfQogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgcGF0aCA9ICVwYXRoLmRpc3BsYXkoKSwgImZhaWxlZCB0byBkZWxldGUgY2xvdWRmbGFyZWQgYmluYXJ5Iik7CiAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICB0dW5uZWxfbWFuYWdlcl90ZXh0X3BhcmFtcygKICAgICAgICAgICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgImNsb3VkZmxhcmVkIiwKICAgICAgICAgICAgICAgICJkZWxldGVGYWlsZWQiLAogICAgICAgICAgICAgICAgJlsoImRldGFpbCIsIGVycm9yLnRvX3N0cmluZygpKV0sCiAgICAgICAgICAgICksCiAgICAgICAgKTsKICAgIH0KICAgIGxldCBtZXRhZGF0YV9wYXRoID0gY2xvdWRmbGFyZWRfaW5zdGFsbF9tZXRhZGF0YV9wYXRoKCZzdGF0ZS5zZXR0aW5ncy5kYXRhX2Rpcik7CiAgICBpZiBtZXRhZGF0YV9wYXRoLmV4aXN0cygpCiAgICAgICAgJiYgbGV0IEVycihlcnJvcikgPSBmczo6cmVtb3ZlX2ZpbGUoJm1ldGFkYXRhX3BhdGgpCiAgICB7CiAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCBwYXRoID0gJW1ldGFkYXRhX3BhdGguZGlzcGxheSgpLCAiZmFpbGVkIHRvIGRlbGV0ZSBjbG91ZGZsYXJlZCBpbnN0YWxsIG1ldGFkYXRhIik7CiAgICB9CiAgICByZXNldF9wcm9ncmVzcygiY2xvdWRmbGFyZWQiKTsKICAgIHJlc3BvbnNlOjpzdWNjZXNzX21lc3NhZ2UodHVubmVsX21hbmFnZXJfdGV4dCgKICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAiY2xvdWRmbGFyZWQiLAogICAgICAgICJkZWxldGVTdWNjZXNzIiwKICAgICkpCiAgICAuaW50b19yZXNwb25zZSgpCn0KCnB1YihzdXBlcikgZm4gY2xvdWRmbGFyZWRfZGVsZXRlX3Vuc3VwcG9ydGVkX21lc3NhZ2UoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIHBsYXRmb3JtOiAmc3RyLAopIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIGNsb3VkZmxhcmVkX2Fzc2V0X25hbWUocGxhdGZvcm0pCiAgICAgICAgLmlzX25vbmUoKQogICAgICAgIC50aGVuKHx8IHR1bm5lbF9tYW5hZ2VyX3RleHQodHJhbnNsYXRvciwgImNsb3VkZmxhcmVkIiwgInBsYXRmb3JtVW5zdXBwb3J0ZWQiKSkKfQoKI1t1dG9pcGE6OnBhdGgoZ2V0LCBwYXRoID0gIi9hcGkvYWRtaW4vc3lzdGVtL2ZycC9zdGF0dXMiLCB0YWcgPSAic3lzdGVtIiwgb3BlcmF0aW9uX2lkID0gImdldF9hcGlfYWRtaW5fc3lzdGVtX2ZycF9zdGF0dXMiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiRlJQIGJpbmFyeSBzdGF0dXMiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGZycF9zdGF0dXMoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgcmVzcG9uc2U6Om9rKGJ1aWxkX2ZycF9zdGF0dXMoJnN0YXRlLnNldHRpbmdzLmRhdGFfZGlyLCAmdHJhbnNsYXRvcikpLmludG9fcmVzcG9uc2UoKQp9CgojW3V0b2lwYTo6cGF0aChwb3N0LCBwYXRoID0gIi9hcGkvYWRtaW4vc3lzdGVtL2ZycC9kb3dubG9hZCIsIHRhZyA9ICJzeXN0ZW0iLCBvcGVyYXRpb25faWQgPSAicG9zdF9hcGlfYWRtaW5fc3lzdGVtX2ZycF9kb3dubG9hZCIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJGUlAgZG93bmxvYWQgc3RhcnRlZCIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gZnJwX2Rvd25sb2FkKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGlmIHN0YXJ0X2Rvd25sb2FkKCJmcnAiKSB7CiAgICAgICAgbGV0IHRhc2tfc3RhdGUgPSBzdGF0ZS5jbG9uZSgpOwogICAgICAgIHN0YXRlLnNwYXduX2JhY2tncm91bmQoImZycC1kb3dubG9hZCIsIGRvd25sb2FkX2ZycCh0YXNrX3N0YXRlKSk7CiAgICB9CiAgICByZXNwb25zZTo6c3VjY2Vzc19tZXNzYWdlKHR1bm5lbF9tYW5hZ2VyX3RleHQoJnRyYW5zbGF0b3IsICJmcnAiLCAiZG93bmxvYWRTdGFydGVkIikpCiAgICAgICAgLmludG9fcmVzcG9uc2UoKQp9CgojW3V0b2lwYTo6cGF0aChwb3N0LCBwYXRoID0gIi9hcGkvYWRtaW4vc3lzdGVtL2ZycC9jYW5jZWwiLCB0YWcgPSAic3lzdGVtIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX3N5c3RlbV9mcnBfY2FuY2VsIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkZSUCBkb3dubG9hZCBjYW5jZWxsZWQiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGZycF9jYW5jZWwoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgcmVxdWVzdF9jYW5jZWwoImZycCIpOwogICAgcmVzcG9uc2U6OnN1Y2Nlc3NfbWVzc2FnZSh0dW5uZWxfbWFuYWdlcl90ZXh0KCZ0cmFuc2xhdG9yLCAiZnJwIiwgImRvd25sb2FkQ2FuY2VsbGVkIikpCiAgICAgICAgLmludG9fcmVzcG9uc2UoKQp9CgojW3V0b2lwYTo6cGF0aChkZWxldGUsIHBhdGggPSAiL2FwaS9hZG1pbi9zeXN0ZW0vZnJwIiwgdGFnID0gInN5c3RlbSIsIG9wZXJhdGlvbl9pZCA9ICJkZWxldGVfYXBpX2FkbWluX3N5c3RlbV9mcnAiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiRlJQIGJpbmFyeSByZW1vdmVkIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBmcnBfZGVsZXRlKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGxldCBmcnBfZGlyID0gc3RhdGUuc2V0dGluZ3MuZGF0YV9kaXIuam9pbigiZnJwIik7CiAgICBsZXQgdGFyX3BhdGggPSBmcnBfZGlyLmpvaW4oImZycC50YXIuZ3oiKTsKICAgIGlmIHRhcl9wYXRoLmV4aXN0cygpIHsKICAgICAgICBsZXQgXyA9IGZzOjpyZW1vdmVfZmlsZSh0YXJfcGF0aCk7CiAgICB9CiAgICBsZXQgcGxhdGZvcm0gPSBkZXRlY3RfZnJwX3BsYXRmb3JtKCk7CiAgICBpZiBsZXQgU29tZShwYXRoKSA9IGZycF9leHRyYWN0ZWRfZGlyKCZzdGF0ZS5zZXR0aW5ncy5kYXRhX2RpciwgcGxhdGZvcm0pCiAgICAgICAgJiYgcGF0aC5leGlzdHMoKQogICAgICAgICYmIGxldCBFcnIoZXJyb3IpID0gZnM6OnJlbW92ZV9kaXJfYWxsKCZwYXRoKQogICAgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgcGF0aCA9ICVwYXRoLmRpc3BsYXkoKSwgImZhaWxlZCB0byBkZWxldGUgZnJwIGRpcmVjdG9yeSIpOwogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgdHVubmVsX21hbmFnZXJfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJmcnAiLAogICAgICAgICAgICAgICAgImRlbGV0ZUZhaWxlZCIsCiAgICAgICAgICAgICAgICAmWygiZGV0YWlsIiwgZXJyb3IudG9fc3RyaW5nKCkpXSwKICAgICAgICAgICAgKSwKICAgICAgICApOwogICAgfQogICAgcmVzZXRfcHJvZ3Jlc3MoImZycCIpOwogICAgcmVzcG9uc2U6OnN1Y2Nlc3NfbWVzc2FnZSh0dW5uZWxfbWFuYWdlcl90ZXh0KCZ0cmFuc2xhdG9yLCAiZnJwIiwgImRlbGV0ZVN1Y2Nlc3MiKSkKICAgICAgICAuaW50b19yZXNwb25zZSgpCn0KCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL3N5c3RlbS9kbnNtYXNxL3N0YXR1cyIsIHRhZyA9ICJzeXN0ZW0iLCBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9zeXN0ZW1fZG5zbWFzcV9zdGF0dXMiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiZG5zbWFzcSBydW50aW1lIHN0YXR1cyIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gZG5zbWFzcV9zdGF0dXMoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgaWYgIXNtYXJ0X2Nvbm5lY3RfYXZhaWxhYmxlKCZzdGF0ZSkgewogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkZPUkJJRERFTiwKICAgICAgICAgICAgc21hcnRfY29ubmVjdF91bmF2YWlsYWJsZV9tZXNzYWdlKCZzdGF0ZSwgJnRyYW5zbGF0b3IpLAogICAgICAgICk7CiAgICB9CiAgICByZXNwb25zZTo6b2soYnVpbGRfZG5zbWFzcV9zdGF0dXNfd2l0aF90cmFuc2xhdG9yKCZ0cmFuc2xhdG9yKSkuaW50b19yZXNwb25zZSgpCn0KCiNbdXRvaXBhOjpwYXRoKHBvc3QsIHBhdGggPSAiL2FwaS9hZG1pbi9zeXN0ZW0vZG5zbWFzcS9pbnN0YWxsIiwgdGFnID0gInN5c3RlbSIsIG9wZXJhdGlvbl9pZCA9ICJwb3N0X2FwaV9hZG1pbl9zeXN0ZW1fZG5zbWFzcV9pbnN0YWxsIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gImRuc21hc3EgaW5zdGFsbGF0aW9uIHN0YXRlIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBkbnNtYXNxX2luc3RhbGwoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgaWYgIXNtYXJ0X2Nvbm5lY3RfYXZhaWxhYmxlKCZzdGF0ZSkgewogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkZPUkJJRERFTiwKICAgICAgICAgICAgc21hcnRfY29ubmVjdF91bmF2YWlsYWJsZV9tZXNzYWdlKCZzdGF0ZSwgJnRyYW5zbGF0b3IpLAogICAgICAgICk7CiAgICB9CiAgICBsZXQgc3RhdHVzID0gYnVpbGRfZG5zbWFzcV9zdGF0dXNfd2l0aF90cmFuc2xhdG9yKCZ0cmFuc2xhdG9yKTsKICAgIGlmIHN0YXR1cwogICAgICAgIC5wb2ludGVyKCIvaW5zdGFsbF9zdGF0ZS9zdGF0dXMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgID09IFNvbWUoImluc3RhbGxpbmciKQogICAgewogICAgICAgIHJldHVybiByZXNwb25zZTo6b2soc3RhdHVzWyJpbnN0YWxsX3N0YXRlIl0uY2xvbmUoKSkuaW50b19yZXNwb25zZSgpOwogICAgfQogICAgaWYgc3RhdHVzLmdldCgiaW5zdGFsbGVkIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpID09IFNvbWUodHJ1ZSkKICAgICAgICAmJiBzdGF0dXMuZ2V0KCJzZXJ2aWNlX2FjdGl2ZSIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSA9PSBTb21lKHRydWUpCiAgICAgICAgJiYgc3RhdHVzLmdldCgiaW5pdGlhbGl6ZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgPT0gU29tZSh0cnVlKQogICAgewogICAgICAgIHJldHVybiByZXNwb25zZTo6b2soc3RhdHVzWyJpbnN0YWxsX3N0YXRlIl0uY2xvbmUoKSkuaW50b19yZXNwb25zZSgpOwogICAgfQoKICAgIHNldF9kbnNtYXNxX2luc3RhbGxfc3RhdGUoCiAgICAgICAgImluc3RhbGxpbmciLAogICAgICAgIDEwLAogICAgICAgIGRuc21hc3FfdGV4dCgmdHJhbnNsYXRvciwgImNoZWNraW5nRW52aXJvbm1lbnQiKSwKICAgICk7CiAgICBsZXQgYWxyZWFkeV9pbnN0YWxsZWQgPSBzdGF0dXMuZ2V0KCJpbnN0YWxsZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgPT0gU29tZSh0cnVlKTsKICAgIGxldCBpbnN0YWxsX3RyYW5zbGF0b3IgPSB0cmFuc2xhdG9yLmNsb25lKCk7CiAgICBzdGQ6OnRocmVhZDo6c3Bhd24obW92ZSB8fCBpbnN0YWxsX2Ruc21hc3FfYmFja2dyb3VuZChhbHJlYWR5X2luc3RhbGxlZCwgaW5zdGFsbF90cmFuc2xhdG9yKSk7CiAgICByZXNwb25zZTo6b2soZG5zbWFzcV9pbnN0YWxsX3N0YXRlX2pzb24oJnRyYW5zbGF0b3IpKS5pbnRvX3Jlc3BvbnNlKCkKfQo=
+use std::fs;
+
+use axum::{
+    extract::State,
+    http::StatusCode,
+    response::{IntoResponse, Response},
+};
+use serde_json::{Value, json};
+
+use crate::{
+    cloudflared,
+    cloudflared_utils::{
+        cloudflared_asset_name, cloudflared_binary_path, cloudflared_install_metadata_path,
+    },
+    i18n::Translator,
+    response,
+    state::AppState,
+};
+
+use super::{
+    clock::{cached_clock_status, refresh_clock_status, sync_system_clock},
+    dnsmasq::{
+        build_dnsmasq_status_with_translator, dnsmasq_install_state_json,
+        install_dnsmasq_background, set_dnsmasq_install_state,
+    },
+    downloads::{
+        build_cloudflared_status, build_frp_status, detect_cloudflared_platform,
+        detect_frp_platform, download_cloudflared, download_frp, frp_extracted_dir, request_cancel,
+        reset_progress, start_download,
+    },
+    runtime::{
+        smart_connect_available, smart_connect_unavailable_message, system_clock_sync_available,
+        system_clock_unavailable_message,
+    },
+    text::{dnsmasq_text, tunnel_manager_text, tunnel_manager_text_params},
+};
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/system/clock/status",
+    tag = "system",
+    operation_id = "get_api_admin_system_clock_status",
+    responses((status = 200, description = "Cached system clock status"))
+)]
+pub(super) async fn clock_status(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    response::ok(cached_clock_status(&state, &translator).await).into_response()
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/system/clock/check",
+    tag = "system",
+    operation_id = "post_api_admin_system_clock_check",
+    responses((status = 200, description = "Refreshed system clock status"))
+)]
+pub(super) async fn clock_check(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    response::ok(refresh_clock_status(&state, &translator).await).into_response()
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/system/clock/sync",
+    tag = "system",
+    operation_id = "post_api_admin_system_clock_sync",
+    responses((status = 200, description = "System clock synchronization result"))
+)]
+pub(super) async fn clock_sync(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    if !system_clock_sync_available(&state) {
+        return response::error(
+            StatusCode::FORBIDDEN,
+            system_clock_unavailable_message(&state, &translator),
+        );
+    }
+    match sync_system_clock(&state, &translator).await {
+        Ok((message, data)) => axum::Json(json!({
+            "success": true,
+            "message": message,
+            "data": data
+        }))
+        .into_response(),
+        Err(error) => response::error(StatusCode::BAD_REQUEST, error),
+    }
+}
+
+#[utoipa::path(get, path = "/api/admin/system/cloudflared/status", tag = "system", operation_id = "get_api_admin_system_cloudflared_status", responses((status = 200, description = "Cloudflared binary status")))]
+pub(super) async fn cloudflared_status(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    response::ok(build_cloudflared_status(
+        &state.settings.data_dir,
+        &translator,
+    ))
+    .into_response()
+}
+
+#[utoipa::path(post, path = "/api/admin/system/cloudflared/download", tag = "system", operation_id = "post_api_admin_system_cloudflared_download", responses((status = 200, description = "Cloudflared download started")))]
+pub(super) async fn cloudflared_download(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    if start_download("cloudflared") {
+        let task_state = state.clone();
+        state.spawn_background("cloudflared-download", download_cloudflared(task_state));
+    }
+    response::success_message(tunnel_manager_text(
+        &translator,
+        "cloudflared",
+        "downloadStarted",
+    ))
+    .into_response()
+}
+
+#[utoipa::path(post, path = "/api/admin/system/cloudflared/cancel", tag = "system", operation_id = "post_api_admin_system_cloudflared_cancel", responses((status = 200, description = "Cloudflared download cancelled")))]
+pub(super) async fn cloudflared_cancel(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    request_cancel("cloudflared");
+    response::success_message(tunnel_manager_text(
+        &translator,
+        "cloudflared",
+        "downloadCancelled",
+    ))
+    .into_response()
+}
+
+#[utoipa::path(delete, path = "/api/admin/system/cloudflared", tag = "system", operation_id = "delete_api_admin_system_cloudflared", responses((status = 200, description = "Cloudflared binary removed")))]
+pub(super) async fn cloudflared_delete(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let platform = detect_cloudflared_platform();
+    if let Some(message) = cloudflared_delete_unsupported_message(&translator, platform) {
+        return response::error(StatusCode::INTERNAL_SERVER_ERROR, message);
+    }
+    let Some(path) = cloudflared_binary_path(&state.settings.data_dir, platform) else {
+        return response::error(
+            StatusCode::INTERNAL_SERVER_ERROR,
+            tunnel_manager_text(&translator, "cloudflared", "platformUnsupported"),
+        );
+    };
+    let _manage_guard = state.tunnel.cloudflared_manage_lock.lock().await;
+    let should_resume = match cloudflared::pause_cloudflared_for_asset_update(&state).await {
+        Ok(value) => value,
+        Err(error) => {
+            tracing::warn!(%error, "failed to stop cloudflared before deleting its binary");
+            return response::error(StatusCode::INTERNAL_SERVER_ERROR, error);
+        }
+    };
+    if path.exists()
+        && let Err(error) = fs::remove_file(&path)
+    {
+        if let Err(resume_error) =
+            cloudflared::resume_cloudflared_after_asset_update(&state, should_resume).await
+        {
+            tracing::error!(%resume_error, "failed to resume cloudflared after delete failure");
+        }
+        tracing::warn!(%error, path = %path.display(), "failed to delete cloudflared binary");
+        return response::error(
+            StatusCode::INTERNAL_SERVER_ERROR,
+            tunnel_manager_text_params(
+                &translator,
+                "cloudflared",
+                "deleteFailed",
+                &[("detail", error.to_string())],
+            ),
+        );
+    }
+    let metadata_path = cloudflared_install_metadata_path(&state.settings.data_dir);
+    if metadata_path.exists()
+        && let Err(error) = fs::remove_file(&metadata_path)
+    {
+        tracing::warn!(%error, path = %metadata_path.display(), "failed to delete cloudflared install metadata");
+    }
+    reset_progress("cloudflared");
+    response::success_message(tunnel_manager_text(
+        &translator,
+        "cloudflared",
+        "deleteSuccess",
+    ))
+    .into_response()
+}
+
+pub(super) fn cloudflared_delete_unsupported_message(
+    translator: &Translator,
+    platform: &str,
+) -> Option<String> {
+    cloudflared_asset_name(platform)
+        .is_none()
+        .then(|| tunnel_manager_text(translator, "cloudflared", "platformUnsupported"))
+}
+
+#[utoipa::path(get, path = "/api/admin/system/frp/status", tag = "system", operation_id = "get_api_admin_system_frp_status", responses((status = 200, description = "FRP binary status")))]
+pub(super) async fn frp_status(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    response::ok(build_frp_status(&state.settings.data_dir, &translator)).into_response()
+}
+
+#[utoipa::path(post, path = "/api/admin/system/frp/download", tag = "system", operation_id = "post_api_admin_system_frp_download", responses((status = 200, description = "FRP download started")))]
+pub(super) async fn frp_download(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    if start_download("frp") {
+        let task_state = state.clone();
+        state.spawn_background("frp-download", download_frp(task_state));
+    }
+    response::success_message(tunnel_manager_text(&translator, "frp", "downloadStarted"))
+        .into_response()
+}
+
+#[utoipa::path(post, path = "/api/admin/system/frp/cancel", tag = "system", operation_id = "post_api_admin_system_frp_cancel", responses((status = 200, description = "FRP download cancelled")))]
+pub(super) async fn frp_cancel(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    request_cancel("frp");
+    response::success_message(tunnel_manager_text(&translator, "frp", "downloadCancelled"))
+        .into_response()
+}
+
+#[utoipa::path(delete, path = "/api/admin/system/frp", tag = "system", operation_id = "delete_api_admin_system_frp", responses((status = 200, description = "FRP binary removed")))]
+pub(super) async fn frp_delete(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let frp_dir = state.settings.data_dir.join("frp");
+    let tar_path = frp_dir.join("frp.tar.gz");
+    if tar_path.exists() {
+        let _ = fs::remove_file(tar_path);
+    }
+    let platform = detect_frp_platform();
+    if let Some(path) = frp_extracted_dir(&state.settings.data_dir, platform)
+        && path.exists()
+        && let Err(error) = fs::remove_dir_all(&path)
+    {
+        tracing::warn!(%error, path = %path.display(), "failed to delete frp directory");
+        return response::error(
+            StatusCode::INTERNAL_SERVER_ERROR,
+            tunnel_manager_text_params(
+                &translator,
+                "frp",
+                "deleteFailed",
+                &[("detail", error.to_string())],
+            ),
+        );
+    }
+    reset_progress("frp");
+    response::success_message(tunnel_manager_text(&translator, "frp", "deleteSuccess"))
+        .into_response()
+}
+
+#[utoipa::path(get, path = "/api/admin/system/dnsmasq/status", tag = "system", operation_id = "get_api_admin_system_dnsmasq_status", responses((status = 200, description = "dnsmasq runtime status")))]
+pub(super) async fn dnsmasq_status(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    if !smart_connect_available(&state) {
+        return response::error(
+            StatusCode::FORBIDDEN,
+            smart_connect_unavailable_message(&state, &translator),
+        );
+    }
+    response::ok(build_dnsmasq_status_with_translator(&translator)).into_response()
+}
+
+#[utoipa::path(post, path = "/api/admin/system/dnsmasq/install", tag = "system", operation_id = "post_api_admin_system_dnsmasq_install", responses((status = 200, description = "dnsmasq installation state")))]
+pub(super) async fn dnsmasq_install(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    if !smart_connect_available(&state) {
+        return response::error(
+            StatusCode::FORBIDDEN,
+            smart_connect_unavailable_message(&state, &translator),
+        );
+    }
+    let status = build_dnsmasq_status_with_translator(&translator);
+    if status
+        .pointer("/install_state/status")
+        .and_then(Value::as_str)
+        == Some("installing")
+    {
+        return response::ok(status["install_state"].clone()).into_response();
+    }
+    if status.get("installed").and_then(Value::as_bool) == Some(true)
+        && status.get("service_active").and_then(Value::as_bool) == Some(true)
+        && status.get("initialized").and_then(Value::as_bool) == Some(true)
+    {
+        return response::ok(status["install_state"].clone()).into_response();
+    }
+
+    set_dnsmasq_install_state(
+        "installing",
+        10,
+        dnsmasq_text(&translator, "checkingEnvironment"),
+    );
+    let already_installed = status.get("installed").and_then(Value::as_bool) == Some(true);
+    let install_translator = translator.clone();
+    std::thread::spawn(move || install_dnsmasq_background(already_installed, install_translator));
+    response::ok(dnsmasq_install_state_json(&translator)).into_response()
+}

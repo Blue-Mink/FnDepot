@@ -1,1 +1,71 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCB1c2VJZCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwoKY29uc3QgYTExeUlkID0gdXNlSWQoKTsKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKAogIGRlZmluZVByb3BzPHsKICAgIGRpc2FibGVkPzogYm9vbGVhbjsKICAgIG1pbj86IG51bWJlcjsKICAgIG1vZGVsVmFsdWU6IG51bWJlcjsKICAgIHN0ZXA/OiBudW1iZXI7CiAgICBzdW1tYXJ5Pzogc3RyaW5nOwogICAgdGl0bGU6IHN0cmluZzsKICAgIHVuaXRMYWJlbDogc3RyaW5nOwogICAgdW5pdFdpZHRoQ2xhc3M/OiBzdHJpbmc7CiAgfT4oKSwKICB7CiAgICBkaXNhYmxlZDogZmFsc2UsCiAgICBtaW46IDEsCiAgICBzdGVwOiAxLAogICAgc3VtbWFyeTogIiIsCiAgICB1bml0V2lkdGhDbGFzczogInctMTYiLAogIH0sCik7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICJ1cGRhdGU6bW9kZWxWYWx1ZSI6IFt2YWx1ZTogbnVtYmVyXTsKfT4oKTsKCmNvbnN0IGxvY2FsVmFsdWUgPSBjb21wdXRlZCh7CiAgZ2V0OiAoKSA9PiBwcm9wcy5tb2RlbFZhbHVlLAogIHNldDogKHZhbHVlKSA9PiBlbWl0KCJ1cGRhdGU6bW9kZWxWYWx1ZSIsIHZhbHVlKSwKfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYKICAgIGNsYXNzPSJncmlkIGdhcC0zIHAtNiBzbTpncmlkLWNvbHMtW21pbm1heCgwLDFmcilfYXV0b10gc206aXRlbXMtY2VudGVyIHNtOmdhcC00IgogID4KICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSBwci02Ij4KICAgICAgPExhYmVsIDpmb3I9ImAke2ExMXlJZH0tZ2F0ZXdheW51bWJlcnNldHRpbmdyb3ctMWAiIGNsYXNzPSJ0ZXh0LWJhc2UiPnt7CiAgICAgICAgdGl0bGUKICAgICAgfX08L0xhYmVsPgogICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgPHNsb3QgbmFtZT0iZGVzY3JpcHRpb24iIC8+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJmbGV4IHNocmluay0wIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgIDxJbnB1dAogICAgICAgIDppZD0iYCR7YTExeUlkfS1nYXRld2F5bnVtYmVyc2V0dGluZ3Jvdy0xYCIKICAgICAgICB2LW1vZGVsLm51bWJlcj0ibG9jYWxWYWx1ZSIKICAgICAgICB0eXBlPSJudW1iZXIiCiAgICAgICAgOm1pbj0ibWluIgogICAgICAgIDpzdGVwPSJzdGVwIgogICAgICAgIGNsYXNzPSJ3LTI0IHRleHQtY2VudGVyIgogICAgICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQiCiAgICAgIC8+CiAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgOmNsYXNzPSJ1bml0V2lkdGhDbGFzcyI+CiAgICAgICAge3sgdW5pdExhYmVsIH19CiAgICAgIDwvc3Bhbj4KICAgIDwvZGl2PgogICAgPGRpdgogICAgICB2LWlmPSJzdW1tYXJ5IgogICAgICBjbGFzcz0ic206Y29sLXNwYW4tMiAtbXQtMSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgID4KICAgICAge3sgc3VtbWFyeSB9fQogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, useId } from "vue";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+
+const a11yId = useId();
+
+const props = withDefaults(
+  defineProps<{
+    disabled?: boolean;
+    min?: number;
+    modelValue: number;
+    step?: number;
+    summary?: string;
+    title: string;
+    unitLabel: string;
+    unitWidthClass?: string;
+  }>(),
+  {
+    disabled: false,
+    min: 1,
+    step: 1,
+    summary: "",
+    unitWidthClass: "w-16",
+  },
+);
+
+const emit = defineEmits<{
+  "update:modelValue": [value: number];
+}>();
+
+const localValue = computed({
+  get: () => props.modelValue,
+  set: (value) => emit("update:modelValue", value),
+});
+</script>
+
+<template>
+  <div
+    class="grid gap-3 p-6 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-4"
+  >
+    <div class="space-y-1 pr-6">
+      <Label :for="`${a11yId}-gatewaynumbersettingrow-1`" class="text-base">{{
+        title
+      }}</Label>
+      <div class="text-sm text-muted-foreground">
+        <slot name="description" />
+      </div>
+    </div>
+    <div class="flex shrink-0 items-center gap-2">
+      <Input
+        :id="`${a11yId}-gatewaynumbersettingrow-1`"
+        v-model.number="localValue"
+        type="number"
+        :min="min"
+        :step="step"
+        class="w-24 text-center"
+        :disabled="disabled"
+      />
+      <span class="text-sm text-muted-foreground" :class="unitWidthClass">
+        {{ unitLabel }}
+      </span>
+    </div>
+    <div
+      v-if="summary"
+      class="sm:col-span-2 -mt-1 text-xs text-muted-foreground"
+    >
+      {{ summary }}
+    </div>
+  </div>
+</template>

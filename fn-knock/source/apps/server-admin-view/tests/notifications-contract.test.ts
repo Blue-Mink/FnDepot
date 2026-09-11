@@ -1,1 +1,211 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgp0eXBlIFNjaGVtYSA9IHsKICAkcmVmPzogc3RyaW5nOwogIGNvbnN0PzogYm9vbGVhbiB8IG51bWJlciB8IHN0cmluZzsKICBkZWZhdWx0PzogbnVtYmVyIHwgc3RyaW5nOwogIGVudW0/OiBzdHJpbmdbXTsKICBtYXhpbXVtPzogbnVtYmVyOwogIG1pbmltdW0/OiBudW1iZXI7CiAgbWluSXRlbXM/OiBudW1iZXI7CiAgb25lT2Y/OiBTY2hlbWFbXTsKICBwcm9wZXJ0aWVzPzogUmVjb3JkPHN0cmluZywgU2NoZW1hPjsKICByZXF1aXJlZD86IHN0cmluZ1tdOwogIHdyaXRlT25seT86IGJvb2xlYW47Cn07Cgp0eXBlIE9wZXJhdGlvbiA9IHsKICAieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiPzogc3RyaW5nOwogIHBhcmFtZXRlcnM/OiBBcnJheTx7IG5hbWU/OiBzdHJpbmc7IHNjaGVtYT86IFNjaGVtYSB9PjsKICByZXF1ZXN0Qm9keT86IHsKICAgIGNvbnRlbnQ/OiBSZWNvcmQ8c3RyaW5nLCB7IHNjaGVtYT86IFNjaGVtYSB9PjsKICB9OwogIHJlc3BvbnNlcz86IFJlY29yZDxzdHJpbmcsIHsgY29udGVudD86IFJlY29yZDxzdHJpbmcsIHsgc2NoZW1hPzogU2NoZW1hIH0+IH0+Owp9OwoKY29uc3QgY29udHJhY3QgPSBKU09OLnBhcnNlKAogIHJlYWRTb3VyY2UoIi4uLy4uLy4uL3BhY2thZ2VzL2FwaS1jb250cmFjdC9vcGVuYXBpLmpzb24iKSwKKSBhcyB7CiAgY29tcG9uZW50czogeyBzY2hlbWFzOiBSZWNvcmQ8c3RyaW5nLCBTY2hlbWE+IH07CiAgcGF0aHM6IFJlY29yZDxzdHJpbmcsIFJlY29yZDxzdHJpbmcsIE9wZXJhdGlvbj4+Owp9OwoKZGVzY3JpYmUoIm5vdGlmaWNhdGlvbnMgQVBJIGNvbnRyYWN0IiwgKCkgPT4gewogIGl0KCJrZWVwcyBldmVyeSBub3RpZmljYXRpb25zIG9wZXJhdGlvbiBvbiB0aGUgcnVudGltZSBVdG9pcGEgcm91dGVyIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBbbWV0aG9kLCBwYXRoXSBvZiBbCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vbm90aWZpY2F0aW9ucy9wcm92aWRlcnMvY2F0YWxvZyJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL25vdGlmaWNhdGlvbnMvcHJvdmlkZXJzIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL25vdGlmaWNhdGlvbnMvcHJvdmlkZXJzIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL25vdGlmaWNhdGlvbnMvcHJvdmlkZXJzL3Rlc3QiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vbm90aWZpY2F0aW9ucy9wcm92aWRlcnMvd2ViaG9vay9wcmV2aWV3Il0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vbm90aWZpY2F0aW9ucy9wcm92aWRlcnMve2lkfSJdLAogICAgICBbInBhdGNoIiwgIi9hcGkvYWRtaW4vbm90aWZpY2F0aW9ucy9wcm92aWRlcnMve2lkfSJdLAogICAgICBbImRlbGV0ZSIsICIvYXBpL2FkbWluL25vdGlmaWNhdGlvbnMvcHJvdmlkZXJzL3tpZH0iXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vbm90aWZpY2F0aW9ucy9wcm92aWRlcnMve2lkfS90ZXN0Il0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vbm90aWZpY2F0aW9ucy9ydWxlcyJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9ub3RpZmljYXRpb25zL3J1bGVzIl0sCiAgICAgIFsicGF0Y2giLCAiL2FwaS9hZG1pbi9ub3RpZmljYXRpb25zL3J1bGVzL3tpZH0iXSwKICAgICAgWyJkZWxldGUiLCAiL2FwaS9hZG1pbi9ub3RpZmljYXRpb25zL3J1bGVzL3tpZH0iXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9ub3RpZmljYXRpb25zL3RyaWdnZXJzIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vbm90aWZpY2F0aW9ucy9kZWxpdmVyaWVzIl0sCiAgICAgIFsiZGVsZXRlIiwgIi9hcGkvYWRtaW4vbm90aWZpY2F0aW9ucy9kZWxpdmVyaWVzIl0sCiAgICBdIGFzIGNvbnN0KSB7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICBjb250cmFjdC5wYXRoc1twYXRoXT8uW21ldGhvZF0/LlsieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiXSwKICAgICAgICAidXRvaXBhIiwKICAgICAgICBgJHttZXRob2QudG9VcHBlckNhc2UoKX0gJHtwYXRofWAsCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJzZXBhcmF0ZXMgbWFza2VkIGxpc3RzLCBhdXRoZW50aWNhdGVkIGRldGFpbCwgYW5kIHNlY3JldC1iZWFyaW5nIHdyaXRlcyIsICgpID0+IHsKICAgIGNvbnN0IGNyZWF0ZSA9CiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5Ob3RpZmljYXRpb25Qcm92aWRlckNyZWF0ZUJvZHlEYXRhOwogICAgY29uc3QgdXBkYXRlID0KICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLk5vdGlmaWNhdGlvblByb3ZpZGVyVXBkYXRlQm9keURhdGE7CiAgICBjb25zdCBkZXRhaWwgPSBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuTm90aWZpY2F0aW9uUHJvdmlkZXJEZXRhaWxEYXRhOwogICAgYXNzZXJ0LmVxdWFsKGNyZWF0ZS5wcm9wZXJ0aWVzPy5jb25uZWN0aW9uX2NvbmZpZz8ud3JpdGVPbmx5LCB0cnVlKTsKICAgIGFzc2VydC5lcXVhbCh1cGRhdGUucHJvcGVydGllcz8uY29ubmVjdGlvbl9jb25maWc/LndyaXRlT25seSwgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwoZGV0YWlsLnByb3BlcnRpZXM/LmNvbm5lY3Rpb25fY29uZmlnPy53cml0ZU9ubHksIHVuZGVmaW5lZCk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5Ob3RpZmljYXRpb25Qcm92aWRlckRhdGEucHJvcGVydGllcwogICAgICAgID8uY29ubmVjdGlvbl9jb25maWcsCiAgICAgIHVuZGVmaW5lZCwKICAgICk7CiAgICBhc3NlcnQub2soCiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5Ob3RpZmljYXRpb25Qcm92aWRlckRhdGEucmVxdWlyZWQ/LmluY2x1ZGVzKAogICAgICAgICJjb25uZWN0aW9uX2NvbmZpZ19tYXNrZWQiLAogICAgICApLAogICAgKTsKICB9KTsKCiAgaXQoInVzZXMgYSBkaXJlY3QgcHJvdmlkZXItdGVzdCByZXNwb25zZSB3aG9zZSBzdWNjZXNzIG1heSBiZSBmYWxzZSIsICgpID0+IHsKICAgIGZvciAoY29uc3QgcGF0aCBvZiBbCiAgICAgICIvYXBpL2FkbWluL25vdGlmaWNhdGlvbnMvcHJvdmlkZXJzL3Rlc3QiLAogICAgICAiL2FwaS9hZG1pbi9ub3RpZmljYXRpb25zL3Byb3ZpZGVycy97aWR9L3Rlc3QiLAogICAgXSkgewogICAgICBhc3NlcnQuZXF1YWwoCiAgICAgICAgY29udHJhY3QucGF0aHNbcGF0aF0ucG9zdC5yZXNwb25zZXM/LlsiMjAwIl0/LmNvbnRlbnQ/LlsKICAgICAgICAgICJhcHBsaWNhdGlvbi9qc29uIgogICAgICAgIF0/LnNjaGVtYT8uJHJlZiwKICAgICAgICAiIy9jb21wb25lbnRzL3NjaGVtYXMvTm90aWZpY2F0aW9uUHJvdmlkZXJUZXN0UmVzcG9uc2VEYXRhIiwKICAgICAgKTsKICAgIH0KICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLk5vdGlmaWNhdGlvblByb3ZpZGVyVGVzdFJlc3BvbnNlRGF0YQogICAgICAgIC5wcm9wZXJ0aWVzPy5zdWNjZXNzPy5jb25zdCwKICAgICAgdW5kZWZpbmVkLAogICAgKTsKICB9KTsKCiAgaXQoInByZXNlcnZlcyBydWxlIGFuZCByZXRyeS1wb2xpY3kgYm91bmRzIiwgKCkgPT4gewogICAgY29uc3QgcnVsZSA9IGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5Ob3RpZmljYXRpb25SdWxlQ3JlYXRlQm9keURhdGE7CiAgICBhc3NlcnQuZXF1YWwocnVsZS5wcm9wZXJ0aWVzPy50YXJnZXRzPy5taW5JdGVtcywgMSk7CiAgICBhc3NlcnQuZXF1YWwocnVsZS5wcm9wZXJ0aWVzPy53aW5kb3dfc2Vjb25kcz8ubWluaW11bSwgMSk7CiAgICBhc3NlcnQuZXF1YWwocnVsZS5wcm9wZXJ0aWVzPy53aW5kb3dfc2Vjb25kcz8ubWF4aW11bSwgODZfNDAwKTsKICAgIGFzc2VydC5lcXVhbChydWxlLnByb3BlcnRpZXM/LnRocmVzaG9sZF9jb3VudD8ubWF4aW11bSwgOV85OTkpOwogICAgYXNzZXJ0LmVxdWFsKHJ1bGUucHJvcGVydGllcz8uY29vbGRvd25fc2Vjb25kcz8ubWluaW11bSwgMCk7CgogICAgY29uc3QgcG9saWN5ID0gY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLk5vdGlmaWNhdGlvbkRlbGl2ZXJ5UG9saWN5RGF0YTsKICAgIGFzc2VydC5lcXVhbChwb2xpY3kucHJvcGVydGllcz8udGltZW91dF9zZWNvbmRzPy5tYXhpbXVtLCAzMCk7CiAgICBhc3NlcnQuZXF1YWwocG9saWN5LnByb3BlcnRpZXM/Lm1heF9hdHRlbXB0cz8ubWF4aW11bSwgMTApOwogICAgYXNzZXJ0LmVxdWFsKHBvbGljeS5wcm9wZXJ0aWVzPy5iYWNrb2ZmX3NlY29uZHM/Lm1pbmltdW0sIDUpOwogICAgYXNzZXJ0LmVxdWFsKHBvbGljeS5wcm9wZXJ0aWVzPy5iYWNrb2ZmX3NlY29uZHM/Lm1heGltdW0sIDNfNjAwKTsKICB9KTsKCiAgaXQoInB1Ymxpc2hlcyB0eXBlZCB3ZWJob29rIGhlYWRlciBhbmQgYm9keSBmaWVsZHMgYW5kIGNvbnN0cmFpbnRzIiwgKCkgPT4gewogICAgY29uc3QgZmllbGQgPSBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuTm90aWZpY2F0aW9uU2NoZW1hRmllbGREYXRhOwogICAgYXNzZXJ0Lm9rKGZpZWxkLnByb3BlcnRpZXM/LnR5cGU/LmVudW0/LmluY2x1ZGVzKCJoZWFkZXJzIikpOwogICAgYXNzZXJ0Lm9rKGZpZWxkLnByb3BlcnRpZXM/LnR5cGU/LmVudW0/LmluY2x1ZGVzKCJ3ZWJob29rX2JvZHkiKSk7CiAgICBjb25zdCBjb25zdHJhaW50UmVmcyA9CiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5Ob3RpZmljYXRpb25TY2hlbWFDb25zdHJhaW50c0RhdGEub25lT2Y/Lm1hcCgKICAgICAgICAoaXRlbSkgPT4gaXRlbS4kcmVmLAogICAgICApOwogICAgYXNzZXJ0LmRlZXBFcXVhbChjb25zdHJhaW50UmVmcywgWwogICAgICAiIy9jb21wb25lbnRzL3NjaGVtYXMvTm90aWZpY2F0aW9uSGVhZGVyQ29uc3RyYWludHNEYXRhIiwKICAgICAgIiMvY29tcG9uZW50cy9zY2hlbWFzL05vdGlmaWNhdGlvbldlYmhvb2tCb2R5Q29uc3RyYWludHNEYXRhIiwKICAgIF0pOwoKICAgIGNvbnN0IGNvbnN0cmFpbnRzID0KICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLk5vdGlmaWNhdGlvbkhlYWRlckNvbnN0cmFpbnRzRGF0YTsKICAgIGZvciAoY29uc3QgcHJvcGVydHkgb2YgWwogICAgICAibWF4X2l0ZW1zIiwKICAgICAgIm1heF9uYW1lX2J5dGVzIiwKICAgICAgIm1heF92YWx1ZV9ieXRlcyIsCiAgICAgICJtYXhfdG90YWxfYnl0ZXMiLAogICAgICAicmVzZXJ2ZWRfbmFtZXMiLAogICAgXSkgewogICAgICBhc3NlcnQub2soY29uc3RyYWludHMucmVxdWlyZWQ/LmluY2x1ZGVzKHByb3BlcnR5KSwgcHJvcGVydHkpOwogICAgfQoKICAgIGNvbnN0IGJvZHlDb25zdHJhaW50cyA9CiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5Ob3RpZmljYXRpb25XZWJob29rQm9keUNvbnN0cmFpbnRzRGF0YTsKICAgIGZvciAoY29uc3QgcHJvcGVydHkgb2YgWwogICAgICAia2luZCIsCiAgICAgICJzY29wZSIsCiAgICAgICJmb3JtYXRzIiwKICAgICAgInZhcmlhYmxlX3Jvb3RzIiwKICAgICAgIm1heF90ZW1wbGF0ZV9ieXRlcyIsCiAgICAgICJtYXhfc2FtcGxlX2J5dGVzIiwKICAgICAgIm1heF9wbGFjZWhvbGRlcnMiLAogICAgICAibWF4X3JlbmRlcmVkX2J5dGVzIiwKICAgICAgIm1heF9jb250ZW50X3R5cGVfYnl0ZXMiLAogICAgXSkgewogICAgICBhc3NlcnQub2soYm9keUNvbnN0cmFpbnRzLnJlcXVpcmVkPy5pbmNsdWRlcyhwcm9wZXJ0eSksIHByb3BlcnR5KTsKICAgIH0KCiAgICBjb25zdCB0ZXN0Qm9keSA9CiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5Ob3RpZmljYXRpb25Qcm92aWRlclRlc3RCb2R5RGF0YTsKICAgIGFzc2VydC5vayh0ZXN0Qm9keS5wcm9wZXJ0aWVzPy50YXJnZXRfY29uZmlnKTsKICAgIGFzc2VydC5vayh0ZXN0Qm9keS5wcm9wZXJ0aWVzPy5zYW1wbGVfY29udGV4dCk7CiAgICBjb25zdCBwcmV2aWV3Qm9keSA9CiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5Ob3RpZmljYXRpb25XZWJob29rQm9keVByZXZpZXdCb2R5RGF0YTsKICAgIGFzc2VydC5vayhwcmV2aWV3Qm9keS5wcm9wZXJ0aWVzPy5pZCk7CiAgICBhc3NlcnQub2socHJldmlld0JvZHkucHJvcGVydGllcz8uY29ubmVjdGlvbl9jb25maWcpOwogICAgYXNzZXJ0Lm5vdEVxdWFsKHByZXZpZXdCb2R5LnJlcXVpcmVkPy5pbmNsdWRlcygiaWQiKSwgdHJ1ZSk7CiAgICBhc3NlcnQubm90RXF1YWwocHJldmlld0JvZHkucmVxdWlyZWQ/LmluY2x1ZGVzKCJ0eXBlIiksIHRydWUpOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9ub3RpZmljYXRpb25zL3Byb3ZpZGVycy93ZWJob29rL3ByZXZpZXciXS5wb3N0CiAgICAgICAgLnJlc3BvbnNlcz8uWyIyMDAiXT8uY29udGVudD8uWyJhcHBsaWNhdGlvbi9qc29uIl0/LnNjaGVtYT8ucHJvcGVydGllcwogICAgICAgID8uZGF0YT8uJHJlZiwKICAgICAgIiMvY29tcG9uZW50cy9zY2hlbWFzL05vdGlmaWNhdGlvbldlYmhvb2tCb2R5UHJldmlld0RhdGEiLAogICAgKTsKCiAgICBjb25zdCBnZW5lcmF0ZWRUeXBlcyA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi8uLi8uLi9wYWNrYWdlcy9hcGktY29udHJhY3Qvc3JjL3NjaGVtYS5kLnRzIiwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGdlbmVyYXRlZFR5cGVzLAogICAgICAvdHlwZTogInN0cmluZyIgXHwgIm51bWJlciIgXHwgImJvb2xlYW4iIFx8ICJzZWxlY3QiIFx8ICJqc29uIiBcfCAiaGVhZGVycyIgXHwgIndlYmhvb2tfYm9keSIvdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGdlbmVyYXRlZFR5cGVzLAogICAgICAvTm90aWZpY2F0aW9uU2NoZW1hQ29uc3RyYWludHNEYXRhOiBjb21wb25lbnRzXFsic2NoZW1hcyJcXVxbIk5vdGlmaWNhdGlvbkhlYWRlckNvbnN0cmFpbnRzRGF0YSJcXSBcfCBjb21wb25lbnRzXFsic2NoZW1hcyJcXVxbIk5vdGlmaWNhdGlvbldlYmhvb2tCb2R5Q29uc3RyYWludHNEYXRhIlxdL3UsCiAgICApOwogIH0pOwoKICBpdCgiZGVyaXZlcyBmcm9udGVuZCBwcm92aWRlciwgcnVsZSwgaGlzdG9yeSwgYW5kIGNsZWFyIHJlcXVlc3QgdHlwZXMiLCAoKSA9PiB7CiAgICBjb25zdCBhcGkgPSByZWFkU291cmNlKCIuLi9zcmMvbGliL2FwaS9ldmVudHMudHMiKTsKICAgIGZvciAoY29uc3Qgc2NoZW1hIG9mIFsKICAgICAgIk5vdGlmaWNhdGlvblByb3ZpZGVyQ3JlYXRlQm9keURhdGEiLAogICAgICAiTm90aWZpY2F0aW9uUHJvdmlkZXJVcGRhdGVCb2R5RGF0YSIsCiAgICAgICJOb3RpZmljYXRpb25Qcm92aWRlclRlc3RCb2R5RGF0YSIsCiAgICAgICJOb3RpZmljYXRpb25XZWJob29rQm9keVByZXZpZXdCb2R5RGF0YSIsCiAgICAgICJOb3RpZmljYXRpb25SdWxlQ3JlYXRlQm9keURhdGEiLAogICAgICAiTm90aWZpY2F0aW9uUnVsZVVwZGF0ZUJvZHlEYXRhIiwKICAgICAgIk5vdGlmaWNhdGlvbkRlbGl2ZXJ5Q2xlYXJCb2R5RGF0YSIsCiAgICBdKSB7CiAgICAgIGFzc2VydC5tYXRjaChhcGksIG5ldyBSZWdFeHAoYFxcWyIke3NjaGVtYX0iXFxdYCwgInUiKSwgc2NoZW1hKTsKICAgIH0KICAgIGFzc2VydC5tYXRjaChhcGksIC9nZXRfYXBpX2FkbWluX25vdGlmaWNhdGlvbnNfdHJpZ2dlcnMvdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvZ2V0X2FwaV9hZG1pbl9ub3RpZmljYXRpb25zX2RlbGl2ZXJpZXMvdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvc2F0aXNmaWVzIE5vdGlmaWNhdGlvblRyaWdnZXJRdWVyeS91KTsKICAgIGFzc2VydC5tYXRjaChhcGksIC9zYXRpc2ZpZXMgTm90aWZpY2F0aW9uRGVsaXZlcnlRdWVyeS91KTsKICAgIGFzc2VydC5tYXRjaChhcGksIC9zYXRpc2ZpZXMgTm90aWZpY2F0aW9uRGVsaXZlcnlDbGVhckJvZHkvdSk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+type Schema = {
+  $ref?: string;
+  const?: boolean | number | string;
+  default?: number | string;
+  enum?: string[];
+  maximum?: number;
+  minimum?: number;
+  minItems?: number;
+  oneOf?: Schema[];
+  properties?: Record<string, Schema>;
+  required?: string[];
+  writeOnly?: boolean;
+};
+
+type Operation = {
+  "x-fn-knock-contract-source"?: string;
+  parameters?: Array<{ name?: string; schema?: Schema }>;
+  requestBody?: {
+    content?: Record<string, { schema?: Schema }>;
+  };
+  responses?: Record<string, { content?: Record<string, { schema?: Schema }> }>;
+};
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  components: { schemas: Record<string, Schema> };
+  paths: Record<string, Record<string, Operation>>;
+};
+
+describe("notifications API contract", () => {
+  it("keeps every notifications operation on the runtime Utoipa router", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/notifications/providers/catalog"],
+      ["get", "/api/admin/notifications/providers"],
+      ["post", "/api/admin/notifications/providers"],
+      ["post", "/api/admin/notifications/providers/test"],
+      ["post", "/api/admin/notifications/providers/webhook/preview"],
+      ["get", "/api/admin/notifications/providers/{id}"],
+      ["patch", "/api/admin/notifications/providers/{id}"],
+      ["delete", "/api/admin/notifications/providers/{id}"],
+      ["post", "/api/admin/notifications/providers/{id}/test"],
+      ["get", "/api/admin/notifications/rules"],
+      ["post", "/api/admin/notifications/rules"],
+      ["patch", "/api/admin/notifications/rules/{id}"],
+      ["delete", "/api/admin/notifications/rules/{id}"],
+      ["get", "/api/admin/notifications/triggers"],
+      ["get", "/api/admin/notifications/deliveries"],
+      ["delete", "/api/admin/notifications/deliveries"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("separates masked lists, authenticated detail, and secret-bearing writes", () => {
+    const create =
+      contract.components.schemas.NotificationProviderCreateBodyData;
+    const update =
+      contract.components.schemas.NotificationProviderUpdateBodyData;
+    const detail = contract.components.schemas.NotificationProviderDetailData;
+    assert.equal(create.properties?.connection_config?.writeOnly, true);
+    assert.equal(update.properties?.connection_config?.writeOnly, true);
+    assert.equal(detail.properties?.connection_config?.writeOnly, undefined);
+    assert.equal(
+      contract.components.schemas.NotificationProviderData.properties
+        ?.connection_config,
+      undefined,
+    );
+    assert.ok(
+      contract.components.schemas.NotificationProviderData.required?.includes(
+        "connection_config_masked",
+      ),
+    );
+  });
+
+  it("uses a direct provider-test response whose success may be false", () => {
+    for (const path of [
+      "/api/admin/notifications/providers/test",
+      "/api/admin/notifications/providers/{id}/test",
+    ]) {
+      assert.equal(
+        contract.paths[path].post.responses?.["200"]?.content?.[
+          "application/json"
+        ]?.schema?.$ref,
+        "#/components/schemas/NotificationProviderTestResponseData",
+      );
+    }
+    assert.equal(
+      contract.components.schemas.NotificationProviderTestResponseData
+        .properties?.success?.const,
+      undefined,
+    );
+  });
+
+  it("preserves rule and retry-policy bounds", () => {
+    const rule = contract.components.schemas.NotificationRuleCreateBodyData;
+    assert.equal(rule.properties?.targets?.minItems, 1);
+    assert.equal(rule.properties?.window_seconds?.minimum, 1);
+    assert.equal(rule.properties?.window_seconds?.maximum, 86_400);
+    assert.equal(rule.properties?.threshold_count?.maximum, 9_999);
+    assert.equal(rule.properties?.cooldown_seconds?.minimum, 0);
+
+    const policy = contract.components.schemas.NotificationDeliveryPolicyData;
+    assert.equal(policy.properties?.timeout_seconds?.maximum, 30);
+    assert.equal(policy.properties?.max_attempts?.maximum, 10);
+    assert.equal(policy.properties?.backoff_seconds?.minimum, 5);
+    assert.equal(policy.properties?.backoff_seconds?.maximum, 3_600);
+  });
+
+  it("publishes typed webhook header and body fields and constraints", () => {
+    const field = contract.components.schemas.NotificationSchemaFieldData;
+    assert.ok(field.properties?.type?.enum?.includes("headers"));
+    assert.ok(field.properties?.type?.enum?.includes("webhook_body"));
+    const constraintRefs =
+      contract.components.schemas.NotificationSchemaConstraintsData.oneOf?.map(
+        (item) => item.$ref,
+      );
+    assert.deepEqual(constraintRefs, [
+      "#/components/schemas/NotificationHeaderConstraintsData",
+      "#/components/schemas/NotificationWebhookBodyConstraintsData",
+    ]);
+
+    const constraints =
+      contract.components.schemas.NotificationHeaderConstraintsData;
+    for (const property of [
+      "max_items",
+      "max_name_bytes",
+      "max_value_bytes",
+      "max_total_bytes",
+      "reserved_names",
+    ]) {
+      assert.ok(constraints.required?.includes(property), property);
+    }
+
+    const bodyConstraints =
+      contract.components.schemas.NotificationWebhookBodyConstraintsData;
+    for (const property of [
+      "kind",
+      "scope",
+      "formats",
+      "variable_roots",
+      "max_template_bytes",
+      "max_sample_bytes",
+      "max_placeholders",
+      "max_rendered_bytes",
+      "max_content_type_bytes",
+    ]) {
+      assert.ok(bodyConstraints.required?.includes(property), property);
+    }
+
+    const testBody =
+      contract.components.schemas.NotificationProviderTestBodyData;
+    assert.ok(testBody.properties?.target_config);
+    assert.ok(testBody.properties?.sample_context);
+    const previewBody =
+      contract.components.schemas.NotificationWebhookBodyPreviewBodyData;
+    assert.ok(previewBody.properties?.id);
+    assert.ok(previewBody.properties?.connection_config);
+    assert.notEqual(previewBody.required?.includes("id"), true);
+    assert.notEqual(previewBody.required?.includes("type"), true);
+    assert.equal(
+      contract.paths["/api/admin/notifications/providers/webhook/preview"].post
+        .responses?.["200"]?.content?.["application/json"]?.schema?.properties
+        ?.data?.$ref,
+      "#/components/schemas/NotificationWebhookBodyPreviewData",
+    );
+
+    const generatedTypes = readSource(
+      "../../../packages/api-contract/src/schema.d.ts",
+    );
+    assert.match(
+      generatedTypes,
+      /type: "string" \| "number" \| "boolean" \| "select" \| "json" \| "headers" \| "webhook_body"/u,
+    );
+    assert.match(
+      generatedTypes,
+      /NotificationSchemaConstraintsData: components\["schemas"\]\["NotificationHeaderConstraintsData"\] \| components\["schemas"\]\["NotificationWebhookBodyConstraintsData"\]/u,
+    );
+  });
+
+  it("derives frontend provider, rule, history, and clear request types", () => {
+    const api = readSource("../src/lib/api/events.ts");
+    for (const schema of [
+      "NotificationProviderCreateBodyData",
+      "NotificationProviderUpdateBodyData",
+      "NotificationProviderTestBodyData",
+      "NotificationWebhookBodyPreviewBodyData",
+      "NotificationRuleCreateBodyData",
+      "NotificationRuleUpdateBodyData",
+      "NotificationDeliveryClearBodyData",
+    ]) {
+      assert.match(api, new RegExp(`\\["${schema}"\\]`, "u"), schema);
+    }
+    assert.match(api, /get_api_admin_notifications_triggers/u);
+    assert.match(api, /get_api_admin_notifications_deliveries/u);
+    assert.match(api, /satisfies NotificationTriggerQuery/u);
+    assert.match(api, /satisfies NotificationDeliveryQuery/u);
+    assert.match(api, /satisfies NotificationDeliveryClearBody/u);
+  });
+});

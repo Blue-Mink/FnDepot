@@ -1,1 +1,234 @@
-dXNlIHN0ZDo6ewogICAgZnMsCiAgICBwYXRoOjp7UGF0aCwgUGF0aEJ1Zn0sCn07CgojW2Rlcml2ZShDbG9uZSwgQ29weSwgRGVidWcsIFBhcnRpYWxFcSwgRXEpXQpwdWIoY3JhdGUpIGVudW0gRnJwSW5zdGFsbGF0aW9uU3RhdHVzIHsKICAgIE1pc3NpbmcsCiAgICBPdXRkYXRlZCwKICAgIEN1cnJlbnQsCn0KCmltcGwgRnJwSW5zdGFsbGF0aW9uU3RhdHVzIHsKICAgIHB1YihjcmF0ZSkgY29uc3QgZm4gYXNfc3RyKHNlbGYpIC0+ICYnc3RhdGljIHN0ciB7CiAgICAgICAgbWF0Y2ggc2VsZiB7CiAgICAgICAgICAgIFNlbGY6Ok1pc3NpbmcgPT4gIm1pc3NpbmciLAogICAgICAgICAgICBTZWxmOjpPdXRkYXRlZCA9PiAib3V0ZGF0ZWQiLAogICAgICAgICAgICBTZWxmOjpDdXJyZW50ID0+ICJjdXJyZW50IiwKICAgICAgICB9CiAgICB9Cn0KCnB1YihjcmF0ZSkgY29uc3QgRlJQX1ZFUlNJT046ICZzdHIgPSAiMC43MS4wIjsKCnB1YihjcmF0ZSkgZm4gZGV0ZWN0X2ZycF9wbGF0Zm9ybSgpIC0+ICYnc3RhdGljIHN0ciB7CiAgICBtYXRjaCAoc3RkOjplbnY6OmNvbnN0czo6T1MsIHN0ZDo6ZW52Ojpjb25zdHM6OkFSQ0gpIHsKICAgICAgICAoIm1hY29zIiwgImFhcmNoNjQiKSA9PiAiZGFyd2luLWFybTY0IiwKICAgICAgICAoIm1hY29zIiwgIng4Nl82NCIpID0+ICJkYXJ3aW4tYW1kNjQiLAogICAgICAgICgibGludXgiLCAieDg2XzY0IikgPT4gImxpbnV4LWFtZDY0IiwKICAgICAgICAoImxpbnV4IiwgImFhcmNoNjQiKSA9PiAibGludXgtYXJtNjQiLAogICAgICAgICgibGludXgiLCAiYXJtIikgfCAoImxpbnV4IiwgImFybXY3IikgPT4gImxpbnV4LWFybSIsCiAgICAgICAgXyA9PiAidW5zdXBwb3J0ZWQiLAogICAgfQp9CgpwdWIoY3JhdGUpIGZuIGZycF9hcmNoaXZlX25hbWUocGxhdGZvcm06ICZzdHIpIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIG1hdGNoIHBsYXRmb3JtIHsKICAgICAgICAibGludXgtYW1kNjQiID0+IFNvbWUoZm9ybWF0ISgiZnJwX3tGUlBfVkVSU0lPTn1fbGludXhfYW1kNjQiKSksCiAgICAgICAgImxpbnV4LWFybTY0IiA9PiBTb21lKGZvcm1hdCEoImZycF97RlJQX1ZFUlNJT059X2xpbnV4X2FybTY0IikpLAogICAgICAgICJsaW51eC1hcm0iID0+IFNvbWUoZm9ybWF0ISgiZnJwX3tGUlBfVkVSU0lPTn1fbGludXhfYXJtIikpLAogICAgICAgICJkYXJ3aW4tYXJtNjQiID0+IFNvbWUoZm9ybWF0ISgiZnJwX3tGUlBfVkVSU0lPTn1fZGFyd2luX2FybTY0IikpLAogICAgICAgICJkYXJ3aW4tYW1kNjQiID0+IFNvbWUoZm9ybWF0ISgiZnJwX3tGUlBfVkVSU0lPTn1fZGFyd2luX2FtZDY0IikpLAogICAgICAgIF8gPT4gTm9uZSwKICAgIH0KfQoKcHViKGNyYXRlKSBmbiBmcnBfYXJjaGl2ZV9zaGEyNTYocGxhdGZvcm06ICZzdHIpIC0+IE9wdGlvbjwmJ3N0YXRpYyBzdHI+IHsKICAgIG1hdGNoIHBsYXRmb3JtIHsKICAgICAgICAibGludXgtYW1kNjQiID0+IFNvbWUoIjg0ZjI3ZTM5ZjExMTY5ZjdhZGNlZjhlOGI3MGM5MzI5ZGUxNzc0N2IxZjE0ZGFkOWZiOTVlZWY1NjgyZWE3MTYiKSwKICAgICAgICAibGludXgtYXJtIiA9PiBTb21lKCJmNDBhOTg0ZjgzZThkMzRhOTI0MWIwYmU0YTlkNWZiY2ZlNTEzYTRhNWMwMjJiODRhMDI2MzdmZjZkMzY4MzNiIiksCiAgICAgICAgImxpbnV4LWFybTY0IiA9PiBTb21lKCJmMzNjMjkzYzI3NWQ4ZmM2OGM2NTRiNmZiYThmMTBiMjU1MWQ2NDYzZDA5YTlmYzljZmZiNzIyN2VhZTgyMjY2IiksCiAgICAgICAgImRhcndpbi1hbWQ2NCIgPT4gU29tZSgiMWIxYjRlMmYxODM2ZTIxZTg3MzNmMWRkZGFhY2Q0ZWQ5YWU2N2Q3ZGJlZTM5MDQ2YjlkN2I3ZWRhNjI1MzYzNyIpLAogICAgICAgICJkYXJ3aW4tYXJtNjQiID0+IFNvbWUoIjQ1YmUwMmIxODY4NjBkMzc1ZWQ0OWE4OTQxYWU5NTY5NjI4YTU0YmYxNGU2N2ZjMzZiMjljOThjOTlkYWJjYzYiKSwKICAgICAgICBfID0+IE5vbmUsCiAgICB9Cn0KCnB1YihjcmF0ZSkgZm4gZnJwX2JpbmFyeV9wYXRoKGRhdGFfZGlyOiAmUGF0aCwgcGxhdGZvcm06ICZzdHIsIGJpbmFyeTogJnN0cikgLT4gT3B0aW9uPFBhdGhCdWY+IHsKICAgIGZycF9leHRyYWN0ZWRfZGlyKGRhdGFfZGlyLCBwbGF0Zm9ybSkubWFwKHxhcmNoaXZlfCBhcmNoaXZlLmpvaW4oYmluYXJ5KSkKfQoKcHViKGNyYXRlKSBmbiBmcnBfZXh0cmFjdGVkX2RpcihkYXRhX2RpcjogJlBhdGgsIHBsYXRmb3JtOiAmc3RyKSAtPiBPcHRpb248UGF0aEJ1Zj4gewogICAgZnJwX2FyY2hpdmVfbmFtZShwbGF0Zm9ybSkubWFwKHxhcmNoaXZlX25hbWV8IGRhdGFfZGlyLmpvaW4oImZycCIpLmpvaW4oYXJjaGl2ZV9uYW1lKSkKfQoKcHViKGNyYXRlKSBmbiBmcnBfaW5zdGFsbGF0aW9uX3N0YXR1cyhkYXRhX2RpcjogJlBhdGgsIHBsYXRmb3JtOiAmc3RyKSAtPiBGcnBJbnN0YWxsYXRpb25TdGF0dXMgewogICAgbGV0IFNvbWUoY3VycmVudF9hcmNoaXZlKSA9IGZycF9hcmNoaXZlX25hbWUocGxhdGZvcm0pIGVsc2UgewogICAgICAgIHJldHVybiBGcnBJbnN0YWxsYXRpb25TdGF0dXM6Ok1pc3Npbmc7CiAgICB9OwogICAgbGV0IGZycF9kaXIgPSBkYXRhX2Rpci5qb2luKCJmcnAiKTsKICAgIGxldCBjdXJyZW50X3Jvb3QgPSBmcnBfZGlyLmpvaW4oJmN1cnJlbnRfYXJjaGl2ZSk7CiAgICBpZiBmcnBfcm9vdF9oYXNfYmluYXJpZXMoJmN1cnJlbnRfcm9vdCkgewogICAgICAgIHJldHVybiBGcnBJbnN0YWxsYXRpb25TdGF0dXM6OkN1cnJlbnQ7CiAgICB9CgogICAgLy8gU3VjY2Vzc2Z1bCBtYW5hZ2VkIGluc3RhbGxzIGtlZXAgdGhlIGRvd25sb2FkZWQgYXJjaGl2ZS4gUmVxdWlyaW5nIGl0CiAgICAvLyBwcmV2ZW50cyBhIGRlbGliZXJhdGVseSBkZWxldGVkIHJlc291cmNlIGZyb20gYmVpbmcgcmVkaXNjb3ZlcmVkIG9ubHkKICAgIC8vIGJlY2F1c2UgYW4gb2xkZXIgZXh0cmFjdGVkIGRpcmVjdG9yeSB3YXMgbGVmdCBiZWhpbmQuCiAgICBpZiAhZnJwX2Rpci5qb2luKCJmcnAudGFyLmd6IikuaXNfZmlsZSgpIHsKICAgICAgICByZXR1cm4gRnJwSW5zdGFsbGF0aW9uU3RhdHVzOjpNaXNzaW5nOwogICAgfQogICAgbGV0IFNvbWUocGxhdGZvcm1fc3VmZml4KSA9IGZycF9wbGF0Zm9ybV9hcmNoaXZlX3N1ZmZpeChwbGF0Zm9ybSkgZWxzZSB7CiAgICAgICAgcmV0dXJuIEZycEluc3RhbGxhdGlvblN0YXR1czo6TWlzc2luZzsKICAgIH07CiAgICBsZXQgT2soZW50cmllcykgPSBmczo6cmVhZF9kaXIoJmZycF9kaXIpIGVsc2UgewogICAgICAgIHJldHVybiBGcnBJbnN0YWxsYXRpb25TdGF0dXM6Ok1pc3Npbmc7CiAgICB9OwogICAgbGV0IGhhc19vdXRkYXRlZF9pbnN0YWxsID0gZW50cmllcy5maWx0ZXJfbWFwKFJlc3VsdDo6b2spLmFueSh8ZW50cnl8IHsKICAgICAgICBsZXQgT2soZmlsZV90eXBlKSA9IGVudHJ5LmZpbGVfdHlwZSgpIGVsc2UgewogICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgfTsKICAgICAgICBpZiAhZmlsZV90eXBlLmlzX2RpcigpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgIH0KICAgICAgICBsZXQgbmFtZSA9IGVudHJ5LmZpbGVfbmFtZSgpOwogICAgICAgIGxldCBTb21lKG5hbWUpID0gbmFtZS50b19zdHIoKSBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgIH07CiAgICAgICAgbmFtZSAhPSBjdXJyZW50X2FyY2hpdmUKICAgICAgICAgICAgJiYgbmFtZQogICAgICAgICAgICAgICAgLnN0cmlwX3ByZWZpeCgiZnJwXyIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5zdHJpcF9zdWZmaXgocGxhdGZvcm1fc3VmZml4KSkKICAgICAgICAgICAgICAgIC5pc19zb21lX2FuZCh8dmVyc2lvbnwgIXZlcnNpb24uaXNfZW1wdHkoKSkKICAgICAgICAgICAgJiYgZnJwX3Jvb3RfaGFzX2JpbmFyaWVzKCZlbnRyeS5wYXRoKCkpCiAgICB9KTsKICAgIGlmIGhhc19vdXRkYXRlZF9pbnN0YWxsIHsKICAgICAgICBGcnBJbnN0YWxsYXRpb25TdGF0dXM6Ok91dGRhdGVkCiAgICB9IGVsc2UgewogICAgICAgIEZycEluc3RhbGxhdGlvblN0YXR1czo6TWlzc2luZwogICAgfQp9CgpmbiBmcnBfcm9vdF9oYXNfYmluYXJpZXMocm9vdDogJlBhdGgpIC0+IGJvb2wgewogICAgcm9vdC5qb2luKCJmcnBjIikuaXNfZmlsZSgpICYmIHJvb3Quam9pbigiZnJwcyIpLmlzX2ZpbGUoKQp9CgpmbiBmcnBfcGxhdGZvcm1fYXJjaGl2ZV9zdWZmaXgocGxhdGZvcm06ICZzdHIpIC0+IE9wdGlvbjwmJ3N0YXRpYyBzdHI+IHsKICAgIG1hdGNoIHBsYXRmb3JtIHsKICAgICAgICAibGludXgtYW1kNjQiID0+IFNvbWUoIl9saW51eF9hbWQ2NCIpLAogICAgICAgICJsaW51eC1hcm02NCIgPT4gU29tZSgiX2xpbnV4X2FybTY0IiksCiAgICAgICAgImxpbnV4LWFybSIgPT4gU29tZSgiX2xpbnV4X2FybSIpLAogICAgICAgICJkYXJ3aW4tYXJtNjQiID0+IFNvbWUoIl9kYXJ3aW5fYXJtNjQiKSwKICAgICAgICAiZGFyd2luLWFtZDY0IiA9PiBTb21lKCJfZGFyd2luX2FtZDY0IiksCiAgICAgICAgXyA9PiBOb25lLAogICAgfQp9CgpwdWIoY3JhdGUpIGZuIGZycF9naXRodWJfYXJjaGl2ZV91cmwoYXJjaGl2ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoImh0dHBzOi8vZ2l0aHViLmNvbS9mYXRlZGllci9mcnAvcmVsZWFzZXMvZG93bmxvYWQvdntGUlBfVkVSU0lPTn0ve2FyY2hpdmV9LnRhci5neiIpCn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwoKICAgICNbdGVzdF0KICAgIGZuIGJ1aWxkc19mcnBfYXJjaGl2ZV9wYXRoc19mcm9tX3NpbmdsZV92ZXJzaW9uKCkgewogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGZycF9hcmNoaXZlX25hbWUoImxpbnV4LWFtZDY0IiksCiAgICAgICAgICAgIFNvbWUoImZycF8wLjcxLjBfbGludXhfYW1kNjQiLnRvX3N0cmluZygpKQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZnJwX2JpbmFyeV9wYXRoKFBhdGg6Om5ldygiL3RtcC9kYXRhIiksICJsaW51eC1hbWQ2NCIsICJmcnBjIikudW53cmFwKCksCiAgICAgICAgICAgIFBhdGg6Om5ldygiL3RtcC9kYXRhL2ZycC9mcnBfMC43MS4wX2xpbnV4X2FtZDY0L2ZycGMiKQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZnJwX2dpdGh1Yl9hcmNoaXZlX3VybCgiZnJwXzAuNzEuMF9saW51eF9hbWQ2NCIpLAogICAgICAgICAgICAiaHR0cHM6Ly9naXRodWIuY29tL2ZhdGVkaWVyL2ZycC9yZWxlYXNlcy9kb3dubG9hZC92MC43MS4wL2ZycF8wLjcxLjBfbGludXhfYW1kNjQudGFyLmd6IgogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZnJwX2FyY2hpdmVfbmFtZSgiZGFyd2luLWFtZDY0IiksCiAgICAgICAgICAgIFNvbWUoImZycF8wLjcxLjBfZGFyd2luX2FtZDY0Ii50b19zdHJpbmcoKSkKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGZycF9hcmNoaXZlX3NoYTI1NigibGludXgtYW1kNjQiKSwKICAgICAgICAgICAgU29tZSgiODRmMjdlMzlmMTExNjlmN2FkY2VmOGU4YjcwYzkzMjlkZTE3NzQ3YjFmMTRkYWQ5ZmI5NWVlZjU2ODJlYTcxNiIpCiAgICAgICAgKTsKICAgICAgICBhc3NlcnQhKGZycF9hcmNoaXZlX25hbWUoInVuc3VwcG9ydGVkIikuaXNfbm9uZSgpKTsKICAgICAgICBhc3NlcnQhKGZycF9hcmNoaXZlX3NoYTI1NigidW5zdXBwb3J0ZWQiKS5pc19ub25lKCkpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHBpbnNfZXZlcnlfc3VwcG9ydGVkX2FyY2hpdmVfdG9fdGhlX29mZmljaWFsX2NoZWNrc3VtKCkgewogICAgICAgIGZvciAocGxhdGZvcm0sIGV4cGVjdGVkKSBpbiBbCiAgICAgICAgICAgICgKICAgICAgICAgICAgICAgICJsaW51eC1hbWQ2NCIsCiAgICAgICAgICAgICAgICAiODRmMjdlMzlmMTExNjlmN2FkY2VmOGU4YjcwYzkzMjlkZTE3NzQ3YjFmMTRkYWQ5ZmI5NWVlZjU2ODJlYTcxNiIsCiAgICAgICAgICAgICksCiAgICAgICAgICAgICgKICAgICAgICAgICAgICAgICJsaW51eC1hcm0iLAogICAgICAgICAgICAgICAgImY0MGE5ODRmODNlOGQzNGE5MjQxYjBiZTRhOWQ1ZmJjZmU1MTNhNGE1YzAyMmI4NGEwMjYzN2ZmNmQzNjgzM2IiLAogICAgICAgICAgICApLAogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAibGludXgtYXJtNjQiLAogICAgICAgICAgICAgICAgImYzM2MyOTNjMjc1ZDhmYzY4YzY1NGI2ZmJhOGYxMGIyNTUxZDY0NjNkMDlhOWZjOWNmZmI3MjI3ZWFlODIyNjYiLAogICAgICAgICAgICApLAogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAiZGFyd2luLWFtZDY0IiwKICAgICAgICAgICAgICAgICIxYjFiNGUyZjE4MzZlMjFlODczM2YxZGRkYWFjZDRlZDlhZTY3ZDdkYmVlMzkwNDZiOWQ3YjdlZGE2MjUzNjM3IiwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgKAogICAgICAgICAgICAgICAgImRhcndpbi1hcm02NCIsCiAgICAgICAgICAgICAgICAiNDViZTAyYjE4Njg2MGQzNzVlZDQ5YTg5NDFhZTk1Njk2MjhhNTRiZjE0ZTY3ZmMzNmIyOWM5OGM5OWRhYmNjNiIsCiAgICAgICAgICAgICksCiAgICAgICAgXSB7CiAgICAgICAgICAgIGFzc2VydF9lcSEoZnJwX2FyY2hpdmVfc2hhMjU2KHBsYXRmb3JtKSwgU29tZShleHBlY3RlZCksICJ7cGxhdGZvcm19Iik7CiAgICAgICAgfQogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGRpc3Rpbmd1aXNoZXNfbWlzc2luZ19vdXRkYXRlZF9hbmRfY3VycmVudF9pbnN0YWxsYXRpb25zKCkgewogICAgICAgIGxldCB0ZW1wID0gdGVtcGZpbGU6OnRlbXBkaXIoKS51bndyYXAoKTsKICAgICAgICBsZXQgZGF0YV9kaXIgPSB0ZW1wLnBhdGgoKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBmcnBfaW5zdGFsbGF0aW9uX3N0YXR1cyhkYXRhX2RpciwgImxpbnV4LWFtZDY0IiksCiAgICAgICAgICAgIEZycEluc3RhbGxhdGlvblN0YXR1czo6TWlzc2luZwogICAgICAgICk7CgogICAgICAgIGxldCBmcnBfZGlyID0gZGF0YV9kaXIuam9pbigiZnJwIik7CiAgICAgICAgbGV0IG9sZF9yb290ID0gZnJwX2Rpci5qb2luKCJmcnBfMC43MC4wX2xpbnV4X2FtZDY0Iik7CiAgICAgICAgZnM6OmNyZWF0ZV9kaXJfYWxsKCZvbGRfcm9vdCkudW53cmFwKCk7CiAgICAgICAgZnM6OndyaXRlKG9sZF9yb290LmpvaW4oImZycGMiKSwgYiJvbGQiKS51bndyYXAoKTsKICAgICAgICBmczo6d3JpdGUob2xkX3Jvb3Quam9pbigiZnJwcyIpLCBiIm9sZCIpLnVud3JhcCgpOwogICAgICAgIGZzOjp3cml0ZShmcnBfZGlyLmpvaW4oImZycC50YXIuZ3oiKSwgYiJhcmNoaXZlIikudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZnJwX2luc3RhbGxhdGlvbl9zdGF0dXMoZGF0YV9kaXIsICJsaW51eC1hbWQ2NCIpLAogICAgICAgICAgICBGcnBJbnN0YWxsYXRpb25TdGF0dXM6Ok91dGRhdGVkCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBmcnBfaW5zdGFsbGF0aW9uX3N0YXR1cyhkYXRhX2RpciwgImRhcndpbi1hbWQ2NCIpLAogICAgICAgICAgICBGcnBJbnN0YWxsYXRpb25TdGF0dXM6Ok1pc3NpbmcKICAgICAgICApOwoKICAgICAgICBsZXQgY3VycmVudF9yb290ID0gZnJwX2V4dHJhY3RlZF9kaXIoZGF0YV9kaXIsICJsaW51eC1hbWQ2NCIpLnVud3JhcCgpOwogICAgICAgIGZzOjpjcmVhdGVfZGlyX2FsbCgmY3VycmVudF9yb290KS51bndyYXAoKTsKICAgICAgICBmczo6d3JpdGUoY3VycmVudF9yb290LmpvaW4oImZycGMiKSwgYiJjdXJyZW50IikudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZnJwX2luc3RhbGxhdGlvbl9zdGF0dXMoZGF0YV9kaXIsICJsaW51eC1hbWQ2NCIpLAogICAgICAgICAgICBGcnBJbnN0YWxsYXRpb25TdGF0dXM6Ok91dGRhdGVkCiAgICAgICAgKTsKICAgICAgICBmczo6d3JpdGUoY3VycmVudF9yb290LmpvaW4oImZycHMiKSwgYiJjdXJyZW50IikudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZnJwX2luc3RhbGxhdGlvbl9zdGF0dXMoZGF0YV9kaXIsICJsaW51eC1hbWQ2NCIpLAogICAgICAgICAgICBGcnBJbnN0YWxsYXRpb25TdGF0dXM6OkN1cnJlbnQKICAgICAgICApOwoKICAgICAgICBmczo6cmVtb3ZlX2ZpbGUoY3VycmVudF9yb290LmpvaW4oImZycGMiKSkudW53cmFwKCk7CiAgICAgICAgZnM6OnJlbW92ZV9maWxlKGZycF9kaXIuam9pbigiZnJwLnRhci5neiIpKS51bndyYXAoKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBmcnBfaW5zdGFsbGF0aW9uX3N0YXR1cyhkYXRhX2RpciwgImxpbnV4LWFtZDY0IiksCiAgICAgICAgICAgIEZycEluc3RhbGxhdGlvblN0YXR1czo6TWlzc2luZwogICAgICAgICk7CiAgICB9Cn0K
+use std::{
+    fs,
+    path::{Path, PathBuf},
+};
+
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+pub(crate) enum FrpInstallationStatus {
+    Missing,
+    Outdated,
+    Current,
+}
+
+impl FrpInstallationStatus {
+    pub(crate) const fn as_str(self) -> &'static str {
+        match self {
+            Self::Missing => "missing",
+            Self::Outdated => "outdated",
+            Self::Current => "current",
+        }
+    }
+}
+
+pub(crate) const FRP_VERSION: &str = "0.71.0";
+
+pub(crate) fn detect_frp_platform() -> &'static str {
+    match (std::env::consts::OS, std::env::consts::ARCH) {
+        ("macos", "aarch64") => "darwin-arm64",
+        ("macos", "x86_64") => "darwin-amd64",
+        ("linux", "x86_64") => "linux-amd64",
+        ("linux", "aarch64") => "linux-arm64",
+        ("linux", "arm") | ("linux", "armv7") => "linux-arm",
+        _ => "unsupported",
+    }
+}
+
+pub(crate) fn frp_archive_name(platform: &str) -> Option<String> {
+    match platform {
+        "linux-amd64" => Some(format!("frp_{FRP_VERSION}_linux_amd64")),
+        "linux-arm64" => Some(format!("frp_{FRP_VERSION}_linux_arm64")),
+        "linux-arm" => Some(format!("frp_{FRP_VERSION}_linux_arm")),
+        "darwin-arm64" => Some(format!("frp_{FRP_VERSION}_darwin_arm64")),
+        "darwin-amd64" => Some(format!("frp_{FRP_VERSION}_darwin_amd64")),
+        _ => None,
+    }
+}
+
+pub(crate) fn frp_archive_sha256(platform: &str) -> Option<&'static str> {
+    match platform {
+        "linux-amd64" => Some("84f27e39f11169f7adcef8e8b70c9329de17747b1f14dad9fb95eef5682ea716"),
+        "linux-arm" => Some("f40a984f83e8d34a9241b0be4a9d5fbcfe513a4a5c022b84a02637ff6d36833b"),
+        "linux-arm64" => Some("f33c293c275d8fc68c654b6fba8f10b2551d6463d09a9fc9cffb7227eae82266"),
+        "darwin-amd64" => Some("1b1b4e2f1836e21e8733f1dddaacd4ed9ae67d7dbee39046b9d7b7eda6253637"),
+        "darwin-arm64" => Some("45be02b186860d375ed49a8941ae9569628a54bf14e67fc36b29c98c99dabcc6"),
+        _ => None,
+    }
+}
+
+pub(crate) fn frp_binary_path(data_dir: &Path, platform: &str, binary: &str) -> Option<PathBuf> {
+    frp_extracted_dir(data_dir, platform).map(|archive| archive.join(binary))
+}
+
+pub(crate) fn frp_extracted_dir(data_dir: &Path, platform: &str) -> Option<PathBuf> {
+    frp_archive_name(platform).map(|archive_name| data_dir.join("frp").join(archive_name))
+}
+
+pub(crate) fn frp_installation_status(data_dir: &Path, platform: &str) -> FrpInstallationStatus {
+    let Some(current_archive) = frp_archive_name(platform) else {
+        return FrpInstallationStatus::Missing;
+    };
+    let frp_dir = data_dir.join("frp");
+    let current_root = frp_dir.join(&current_archive);
+    if frp_root_has_binaries(&current_root) {
+        return FrpInstallationStatus::Current;
+    }
+
+    // Successful managed installs keep the downloaded archive. Requiring it
+    // prevents a deliberately deleted resource from being rediscovered only
+    // because an older extracted directory was left behind.
+    if !frp_dir.join("frp.tar.gz").is_file() {
+        return FrpInstallationStatus::Missing;
+    }
+    let Some(platform_suffix) = frp_platform_archive_suffix(platform) else {
+        return FrpInstallationStatus::Missing;
+    };
+    let Ok(entries) = fs::read_dir(&frp_dir) else {
+        return FrpInstallationStatus::Missing;
+    };
+    let has_outdated_install = entries.filter_map(Result::ok).any(|entry| {
+        let Ok(file_type) = entry.file_type() else {
+            return false;
+        };
+        if !file_type.is_dir() {
+            return false;
+        }
+        let name = entry.file_name();
+        let Some(name) = name.to_str() else {
+            return false;
+        };
+        name != current_archive
+            && name
+                .strip_prefix("frp_")
+                .and_then(|value| value.strip_suffix(platform_suffix))
+                .is_some_and(|version| !version.is_empty())
+            && frp_root_has_binaries(&entry.path())
+    });
+    if has_outdated_install {
+        FrpInstallationStatus::Outdated
+    } else {
+        FrpInstallationStatus::Missing
+    }
+}
+
+fn frp_root_has_binaries(root: &Path) -> bool {
+    root.join("frpc").is_file() && root.join("frps").is_file()
+}
+
+fn frp_platform_archive_suffix(platform: &str) -> Option<&'static str> {
+    match platform {
+        "linux-amd64" => Some("_linux_amd64"),
+        "linux-arm64" => Some("_linux_arm64"),
+        "linux-arm" => Some("_linux_arm"),
+        "darwin-arm64" => Some("_darwin_arm64"),
+        "darwin-amd64" => Some("_darwin_amd64"),
+        _ => None,
+    }
+}
+
+pub(crate) fn frp_github_archive_url(archive: &str) -> String {
+    format!("https://github.com/fatedier/frp/releases/download/v{FRP_VERSION}/{archive}.tar.gz")
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn builds_frp_archive_paths_from_single_version() {
+        assert_eq!(
+            frp_archive_name("linux-amd64"),
+            Some("frp_0.71.0_linux_amd64".to_string())
+        );
+        assert_eq!(
+            frp_binary_path(Path::new("/tmp/data"), "linux-amd64", "frpc").unwrap(),
+            Path::new("/tmp/data/frp/frp_0.71.0_linux_amd64/frpc")
+        );
+        assert_eq!(
+            frp_github_archive_url("frp_0.71.0_linux_amd64"),
+            "https://github.com/fatedier/frp/releases/download/v0.71.0/frp_0.71.0_linux_amd64.tar.gz"
+        );
+        assert_eq!(
+            frp_archive_name("darwin-amd64"),
+            Some("frp_0.71.0_darwin_amd64".to_string())
+        );
+        assert_eq!(
+            frp_archive_sha256("linux-amd64"),
+            Some("84f27e39f11169f7adcef8e8b70c9329de17747b1f14dad9fb95eef5682ea716")
+        );
+        assert!(frp_archive_name("unsupported").is_none());
+        assert!(frp_archive_sha256("unsupported").is_none());
+    }
+
+    #[test]
+    fn pins_every_supported_archive_to_the_official_checksum() {
+        for (platform, expected) in [
+            (
+                "linux-amd64",
+                "84f27e39f11169f7adcef8e8b70c9329de17747b1f14dad9fb95eef5682ea716",
+            ),
+            (
+                "linux-arm",
+                "f40a984f83e8d34a9241b0be4a9d5fbcfe513a4a5c022b84a02637ff6d36833b",
+            ),
+            (
+                "linux-arm64",
+                "f33c293c275d8fc68c654b6fba8f10b2551d6463d09a9fc9cffb7227eae82266",
+            ),
+            (
+                "darwin-amd64",
+                "1b1b4e2f1836e21e8733f1dddaacd4ed9ae67d7dbee39046b9d7b7eda6253637",
+            ),
+            (
+                "darwin-arm64",
+                "45be02b186860d375ed49a8941ae9569628a54bf14e67fc36b29c98c99dabcc6",
+            ),
+        ] {
+            assert_eq!(frp_archive_sha256(platform), Some(expected), "{platform}");
+        }
+    }
+
+    #[test]
+    fn distinguishes_missing_outdated_and_current_installations() {
+        let temp = tempfile::tempdir().unwrap();
+        let data_dir = temp.path();
+        assert_eq!(
+            frp_installation_status(data_dir, "linux-amd64"),
+            FrpInstallationStatus::Missing
+        );
+
+        let frp_dir = data_dir.join("frp");
+        let old_root = frp_dir.join("frp_0.70.0_linux_amd64");
+        fs::create_dir_all(&old_root).unwrap();
+        fs::write(old_root.join("frpc"), b"old").unwrap();
+        fs::write(old_root.join("frps"), b"old").unwrap();
+        fs::write(frp_dir.join("frp.tar.gz"), b"archive").unwrap();
+        assert_eq!(
+            frp_installation_status(data_dir, "linux-amd64"),
+            FrpInstallationStatus::Outdated
+        );
+        assert_eq!(
+            frp_installation_status(data_dir, "darwin-amd64"),
+            FrpInstallationStatus::Missing
+        );
+
+        let current_root = frp_extracted_dir(data_dir, "linux-amd64").unwrap();
+        fs::create_dir_all(&current_root).unwrap();
+        fs::write(current_root.join("frpc"), b"current").unwrap();
+        assert_eq!(
+            frp_installation_status(data_dir, "linux-amd64"),
+            FrpInstallationStatus::Outdated
+        );
+        fs::write(current_root.join("frps"), b"current").unwrap();
+        assert_eq!(
+            frp_installation_status(data_dir, "linux-amd64"),
+            FrpInstallationStatus::Current
+        );
+
+        fs::remove_file(current_root.join("frpc")).unwrap();
+        fs::remove_file(frp_dir.join("frp.tar.gz")).unwrap();
+        assert_eq!(
+            frp_installation_status(data_dir, "linux-amd64"),
+            FrpInstallationStatus::Missing
+        );
+    }
+}

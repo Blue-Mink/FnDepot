@@ -1,1 +1,21 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRGlhbG9nRGVzY3JpcHRpb25Qcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgRGlhbG9nRGVzY3JpcHRpb24gfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxEaWFsb2dEZXNjcmlwdGlvblByb3BzICYgeyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdIH0+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nRGVzY3JpcHRpb24KICAgIGRhdGEtc2xvdD0ic2hlZXQtZGVzY3JpcHRpb24iCiAgICA6Y2xhc3M9ImNuKCd0ZXh0LW11dGVkLWZvcmVncm91bmQgdGV4dC1zbScsIHByb3BzLmNsYXNzKSIKICAgIHYtYmluZD0iZGVsZWdhdGVkUHJvcHMiCiAgPgogICAgPHNsb3QgLz4KICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { DialogDescriptionProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { DialogDescription } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<DialogDescriptionProps & { class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+</script>
+
+<template>
+  <DialogDescription
+    data-slot="sheet-description"
+    :class="cn('text-muted-foreground text-sm', props.class)"
+    v-bind="delegatedProps"
+  >
+    <slot />
+  </DialogDescription>
+</template>

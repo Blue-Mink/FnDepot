@@ -1,1 +1,63 @@
-I1tjZmcodW5peCldCnVzZSBzdGQ6Om9zOjp1bml4Ojpmczo6UGVybWlzc2lvbnNFeHQ7CnVzZSBzdGQ6OnsKICAgIGNtcDo6T3JkZXJpbmcsCiAgICBjb2xsZWN0aW9uczo6e0JUcmVlTWFwLCBCVHJlZVNldCwgSGFzaE1hcH0sCiAgICBmbXQ6OkRpc3BsYXksCiAgICBwYXRoOjp7UGF0aCwgUGF0aEJ1Zn0sCiAgICBzeW5jOjp7CiAgICAgICAgQXJjLAogICAgICAgIGF0b21pYzo6e0F0b21pY1U2NCwgT3JkZXJpbmcgYXMgQXRvbWljT3JkZXJpbmd9LAogICAgfSwKICAgIHRpbWU6OntJbnN0YW50LCBTeXN0ZW1UaW1lLCBVTklYX0VQT0NIfSwKfTsKCnVzZSBzZXJkZV9qc29uOjp7VmFsdWUsIGpzb259Owp1c2Ugc2hhMjo6e0RpZ2VzdCwgU2hhMjU2fTsKdXNlIHRva2lvOjpzeW5jOjp7UndMb2NrLCBTZW1hcGhvcmUsIFRyeUFjcXVpcmVFcnJvcn07CnVzZSB0b2tpb19ydXNxbGl0ZTo6ewogICAgQ29ubmVjdGlvbiwgT3B0aW9uYWxFeHRlbnNpb24sCiAgICBydXNxbGl0ZTo6e3NlbGYsIFRvU3FsLCBwYXJhbXMsIHBhcmFtc19mcm9tX2l0ZXJ9LAp9OwoKdXNlIGNyYXRlOjpzdG9yYWdlOjp7U3RvcmFnZUVycm9yLCBTdG9yYWdlUmVzdWx0LCBzdG9yYWdlX2Vycm9yfTsKCm1vZCBjb21tYW5kOwptb2QgY29ubmVjdGlvbjsKbW9kIGNvbm5lY3Rpb25fb3BzOwptb2QgZXZhbDsKbW9kIGV4ZWN1dG9yOwptb2QgaW50ZXJmYWNlOwptb2QgbW9iaWxpdHlfc25hcHNob3Q7Cm1vZCBwZXJzaXN0ZW5jZTsKbW9kIHByaW1pdGl2ZXM7Cm1vZCBxdWVyeTsKbW9kIHNjaGVtYTsKbW9kIHNoYWRvd19zeW5jOwptb2QgdHJhbnNhY3Rpb25zOwoKdXNlIGV2YWw6Oio7CnVzZSBleGVjdXRvcjo6KjsKdXNlIGludGVyZmFjZTo6KjsKdXNlIG1vYmlsaXR5X3NuYXBzaG90OjoqOwp1c2UgcGVyc2lzdGVuY2U6Oio7CnVzZSBwcmltaXRpdmVzOjoqOwp1c2UgcXVlcnk6Oio7CnVzZSBzY2hlbWE6Oio7CnVzZSBzaGFkb3dfc3luYzo6KjsKdXNlIHRyYW5zYWN0aW9uczo6KjsKCiNbYWxsb3codW51c2VkX2ltcG9ydHMpXQpwdWIoY3JhdGUpIHVzZSBjb21tYW5kOjp7Q21kLCBQaXBlbGluZSwgY21kLCBwaXBlfTsKI1thbGxvdyh1bnVzZWRfaW1wb3J0cyldCnB1YihjcmF0ZSkgdXNlIGludGVyZmFjZTo6ewogICAgQXN5bmNDb21tYW5kcywgQ21kT3V0cHV0LCBDb25uZWN0aW9uTWFuYWdlciwgUHJpbWFyeVF1ZXVlU3RhdHVzLCBSZWRpc0Vycm9yLCBSZWRpc1Jlc3VsdCwKICAgIHN0cmVhbXMsCn07CnB1YihjcmF0ZSkgdXNlIHByaW1pdGl2ZXM6OnN0cmluZ19nZXRfdHg7CnB1YihjcmF0ZSkgdXNlIHRyYW5zYWN0aW9uczo6ewogICAgZXhlY3V0ZV9jb21tYW5kX2luX3RyYW5zYWN0aW9uLCBoYXNoX2VudHJpZXNfaW5fdHJhbnNhY3Rpb24sIGhhc2hfZmllbGRfbWF0Y2hlc19pbl90cmFuc2FjdGlvbiwKfTsKCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHM7Cg==
+#[cfg(unix)]
+use std::os::unix::fs::PermissionsExt;
+use std::{
+    cmp::Ordering,
+    collections::{BTreeMap, BTreeSet, HashMap},
+    fmt::Display,
+    path::{Path, PathBuf},
+    sync::{
+        Arc,
+        atomic::{AtomicU64, Ordering as AtomicOrdering},
+    },
+    time::{Instant, SystemTime, UNIX_EPOCH},
+};
+
+use serde_json::{Value, json};
+use sha2::{Digest, Sha256};
+use tokio::sync::{RwLock, Semaphore, TryAcquireError};
+use tokio_rusqlite::{
+    Connection, OptionalExtension,
+    rusqlite::{self, ToSql, params, params_from_iter},
+};
+
+use crate::storage::{StorageError, StorageResult, storage_error};
+
+mod command;
+mod connection;
+mod connection_ops;
+mod eval;
+mod executor;
+mod interface;
+mod mobility_snapshot;
+mod persistence;
+mod primitives;
+mod query;
+mod schema;
+mod shadow_sync;
+mod transactions;
+
+use eval::*;
+use executor::*;
+use interface::*;
+use mobility_snapshot::*;
+use persistence::*;
+use primitives::*;
+use query::*;
+use schema::*;
+use shadow_sync::*;
+use transactions::*;
+
+#[allow(unused_imports)]
+pub(crate) use command::{Cmd, Pipeline, cmd, pipe};
+#[allow(unused_imports)]
+pub(crate) use interface::{
+    AsyncCommands, CmdOutput, ConnectionManager, PrimaryQueueStatus, RedisError, RedisResult,
+    streams,
+};
+pub(crate) use primitives::string_get_tx;
+pub(crate) use transactions::{
+    execute_command_in_transaction, hash_entries_in_transaction, hash_field_matches_in_transaction,
+};
+
+#[cfg(test)]
+mod tests;

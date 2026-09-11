@@ -1,1 +1,408 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvbk1vdW50ZWQsIHJlYWN0aXZlLCByZWYsIHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IEZsb2F0aW5nQWN0aW9uRG9jayBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0Zsb2F0aW5nQWN0aW9uRG9jay52dWUiOwppbXBvcnQgewogIHVzZUFzeW5jQWN0aW9uLAogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IHBhcnNlQ2lkclRleHRhcmVhIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9jaWRyIjsKaW1wb3J0IHsKICBCcmVhZGNydW1iLAogIEJyZWFkY3J1bWJJdGVtLAogIEJyZWFkY3J1bWJMaW5rLAogIEJyZWFkY3J1bWJMaXN0LAogIEJyZWFkY3J1bWJQYWdlLAogIEJyZWFkY3J1bWJTZXBhcmF0b3IsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JyZWFkY3J1bWIiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBDYXJkLAogIENhcmRDb250ZW50LAogIENhcmREZXNjcmlwdGlvbiwKICBDYXJkSGVhZGVyLAogIENhcmRUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsgU3dpdGNoIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N3aXRjaCI7CmltcG9ydCB7IFRleHRhcmVhIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RleHRhcmVhIjsKaW1wb3J0IENpZHJSZWdpb25TZWxlY3RvciBmcm9tICJAL2NvbXBvbmVudHMvQ2lkclJlZ2lvblNlbGVjdG9yLnZ1ZSI7CmltcG9ydCB7IENvbmZpZ0FQSSB9IGZyb20gIkAvbGliL2FwaS9jb25maWciOwppbXBvcnQgdHlwZSB7CiAgR2F0ZXdheVZpc2liaWxpdHlEZXRhaWxzLAogIEdhdGV3YXlWaXNpYmlsaXR5U2VsZWN0aW9uLAp9IGZyb20gIi4uLy4uL3R5cGVzIjsKaW1wb3J0IHsgZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbktleSB9IGZyb20gIi4uLy4uL3R5cGVzL2NpZHIiOwoKY29uc3QgYTExeUlkID0gdXNlSWQoKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBzZXR0aW5ncyA9IHJlZjxHYXRld2F5VmlzaWJpbGl0eURldGFpbHMgfCBudWxsPihudWxsKTsKY29uc3QgbG9hZEVycm9yID0gcmVmKCIiKTsKCmNvbnN0IGZvcm0gPSByZWFjdGl2ZSh7CiAgZW5hYmxlZDogZmFsc2UsCiAgc2VsZWN0aW9uczogW10gYXMgR2F0ZXdheVZpc2liaWxpdHlTZWxlY3Rpb25bXSwKICBjdXN0b21DaWRyc1RleHQ6ICIiLAp9KTsKCmNvbnN0IGN1c3RvbUNpZHJzU3RhdGUgPSBjb21wdXRlZCgoKSA9PgogIHBhcnNlQ2lkclRleHRhcmVhKGZvcm0uY3VzdG9tQ2lkcnNUZXh0KSwKKTsKCmNvbnN0IGN1c3RvbUNpZHJDb3VudCA9IGNvbXB1dGVkKCgpID0+IGN1c3RvbUNpZHJzU3RhdGUudmFsdWUuY2lkcnMubGVuZ3RoKTsKY29uc3QgaW52YWxpZEN1c3RvbUNpZHJzID0gY29tcHV0ZWQoKCkgPT4gY3VzdG9tQ2lkcnNTdGF0ZS52YWx1ZS5pbnZhbGlkKTsKY29uc3QgdmlzaWJpbGl0eUlucHV0c0Rpc2FibGVkID0gY29tcHV0ZWQoCiAgKCkgPT4gaXNTYXZpbmcudmFsdWUgfHwgIWZvcm0uZW5hYmxlZCwKKTsKCmNvbnN0IGhhc1Zpc2libGVUYXJnZXRzID0gY29tcHV0ZWQoCiAgKCkgPT4gZm9ybS5zZWxlY3Rpb25zLmxlbmd0aCA+IDAgfHwgY3VzdG9tQ2lkcnNTdGF0ZS52YWx1ZS5jaWRycy5sZW5ndGggPiAwLAopOwoKY29uc3QgZm9ybVNuYXBzaG90ID0gY29tcHV0ZWQoKCkgPT4KICBKU09OLnN0cmluZ2lmeSh7CiAgICBlbmFibGVkOiBmb3JtLmVuYWJsZWQsCiAgICBzZWxlY3Rpb25zOiBmb3JtLnNlbGVjdGlvbnMubWFwKChpdGVtKSA9PiBnZXRDaWRyUmVnaW9uU2VsZWN0aW9uS2V5KGl0ZW0pKSwKICAgIGN1c3RvbV9jaWRyczogY3VzdG9tQ2lkcnNTdGF0ZS52YWx1ZS5jaWRycywKICB9KSwKKTsKCmNvbnN0IHNhdmVkU25hcHNob3QgPSBjb21wdXRlZCgoKSA9PgogIEpTT04uc3RyaW5naWZ5KHsKICAgIGVuYWJsZWQ6IHNldHRpbmdzLnZhbHVlPy5jb25maWcuZW5hYmxlZCA/PyBmYWxzZSwKICAgIHNlbGVjdGlvbnM6IChzZXR0aW5ncy52YWx1ZT8uY29uZmlnLnNlbGVjdGlvbnMgPz8gW10pLm1hcCgoaXRlbSkgPT4KICAgICAgZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbktleShpdGVtKSwKICAgICksCiAgICBjdXN0b21fY2lkcnM6IHNldHRpbmdzLnZhbHVlPy5jb25maWcuY3VzdG9tX2NpZHJzID8/IFtdLAogIH0pLAopOwoKY29uc3QgaXNEaXJ0eSA9IGNvbXB1dGVkKCgpID0+IGZvcm1TbmFwc2hvdC52YWx1ZSAhPT0gc2F2ZWRTbmFwc2hvdC52YWx1ZSk7Cgpjb25zdCBzYXZlQmxvY2tlZFJlYXNvbiA9IGNvbXB1dGVkKCgpID0+IHsKICBpZiAoaW52YWxpZEN1c3RvbUNpZHJzLnZhbHVlLmxlbmd0aCA+IDApIHsKICAgIHJldHVybiB0KCJhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLmZpeEN1c3RvbUNpZHJzIik7CiAgfQogIHJldHVybiAiIjsKfSk7Cgpjb25zdCB7IGlzUGVuZGluZzogaXNMb2FkaW5nLCBydW46IHJ1bkxvYWQgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgIGxvYWRFcnJvci52YWx1ZSA9IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgIGVycm9yLAogICAgICB0KCJhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLmxvYWRGYWlsZWREZXNjcmlwdGlvbiIpLAogICAgKTsKICB9LAp9KTsKCmNvbnN0IHsgaXNQZW5kaW5nOiBpc1NhdmluZywgcnVuOiBydW5TYXZlIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLnNhdmVGYWlsZWQiKSwgewogICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICBlcnJvciwKICAgICAgICB0KCJhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLnNhdmVGYWlsZWREZXNjcmlwdGlvbiIpLAogICAgICApLAogICAgfSk7CiAgfSwKfSk7Cgpjb25zdCBhcHBseURldGFpbHMgPSAoZGV0YWlsczogR2F0ZXdheVZpc2liaWxpdHlEZXRhaWxzKSA9PiB7CiAgc2V0dGluZ3MudmFsdWUgPSB7CiAgICBjb25maWc6IHsKICAgICAgZW5hYmxlZDogZGV0YWlscy5jb25maWcuZW5hYmxlZCwKICAgICAgc2VsZWN0aW9uczogZGV0YWlscy5jb25maWcuc2VsZWN0aW9ucy5tYXAoKGl0ZW0pID0+ICh7IC4uLml0ZW0gfSkpLAogICAgICBjdXN0b21fY2lkcnM6IFsuLi5kZXRhaWxzLmNvbmZpZy5jdXN0b21fY2lkcnNdLAogICAgfSwKICAgIHN1bW1hcnk6IHsgLi4uZGV0YWlscy5zdW1tYXJ5IH0sCiAgfTsKCiAgZm9ybS5lbmFibGVkID0gZGV0YWlscy5jb25maWcuZW5hYmxlZDsKICBmb3JtLnNlbGVjdGlvbnMgPSBkZXRhaWxzLmNvbmZpZy5zZWxlY3Rpb25zLm1hcCgoaXRlbSkgPT4gKHsgLi4uaXRlbSB9KSk7CiAgZm9ybS5jdXN0b21DaWRyc1RleHQgPSBkZXRhaWxzLmNvbmZpZy5jdXN0b21fY2lkcnMuam9pbigiXG4iKTsKfTsKCmNvbnN0IGZldGNoRGV0YWlscyA9IGFzeW5jICgpID0+IHsKICBhd2FpdCBydW5Mb2FkKGFzeW5jICgpID0+IHsKICAgIGxvYWRFcnJvci52YWx1ZSA9ICIiOwogICAgY29uc3QgZGV0YWlscyA9IGF3YWl0IENvbmZpZ0FQSS5nZXRHYXRld2F5VmlzaWJpbGl0eSgpOwogICAgYXBwbHlEZXRhaWxzKGRldGFpbHMpOwogIH0pOwp9OwoKY29uc3QgcmVzZXRGb3JtID0gKCkgPT4gewogIGlmICghc2V0dGluZ3MudmFsdWUpIHJldHVybjsKICBhcHBseURldGFpbHMoc2V0dGluZ3MudmFsdWUpOwp9OwoKY29uc3Qgc2F2ZVNldHRpbmdzID0gYXN5bmMgKCkgPT4gewogIGlmIChpbnZhbGlkQ3VzdG9tQ2lkcnMudmFsdWUubGVuZ3RoID4gMCkgewogICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZ2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy5jaWRyVmFsaWRhdGlvbkZhaWxlZCIpLCB7CiAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLmZpeEVudHJpZXMiLCB7CiAgICAgICAgaXRlbXM6IGludmFsaWRDdXN0b21DaWRycy52YWx1ZS5qb2luKCLjgIEiKSwKICAgICAgfSksCiAgICB9KTsKICAgIHJldHVybjsKICB9CgogIGF3YWl0IHJ1blNhdmUoCiAgICAoKSA9PgogICAgICBDb25maWdBUEkudXBkYXRlR2F0ZXdheVZpc2liaWxpdHkoewogICAgICAgIGVuYWJsZWQ6IGZvcm0uZW5hYmxlZCwKICAgICAgICBzZWxlY3Rpb25zOiBmb3JtLnNlbGVjdGlvbnMubWFwKChpdGVtKSA9PiAoewogICAgICAgICAgcHJvdmluY2U6IGl0ZW0ucHJvdmluY2UsCiAgICAgICAgICBxdWVyeV9jaXR5OiBpdGVtLnF1ZXJ5X2NpdHksCiAgICAgICAgICBvcGVyYXRvcjogaXRlbS5vcGVyYXRvciwKICAgICAgICB9KSksCiAgICAgICAgY3VzdG9tX2NpZHJzOiBjdXN0b21DaWRyc1N0YXRlLnZhbHVlLmNpZHJzLAogICAgICB9KSwKICAgIHsKICAgICAgb25TdWNjZXNzOiBhc3luYyAoZGV0YWlscykgPT4gewogICAgICAgIGFwcGx5RGV0YWlscyhkZXRhaWxzKTsKICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmdhdGV3YXlWaXNpYmlsaXR5U2V0dGluZ3MudXBkYXRlZCIpKTsKICAgICAgfSwKICAgIH0sCiAgKTsKfTsKCm9uTW91bnRlZCgoKSA9PiB7CiAgdm9pZCBmZXRjaERldGFpbHMoKTsKfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktNiI+CiAgICA8QnJlYWRjcnVtYj4KICAgICAgPEJyZWFkY3J1bWJMaXN0PgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iTGluayBocmVmPSIjL3N5c3RlbSI+e3sKICAgICAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy5zeXN0ZW1TZXR0aW5ncyIpCiAgICAgICAgICB9fTwvQnJlYWRjcnVtYkxpbms+CiAgICAgICAgPC9CcmVhZGNydW1iSXRlbT4KICAgICAgICA8QnJlYWRjcnVtYlNlcGFyYXRvciAvPgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iTGluayBocmVmPSIjL3N5c3RlbT90YWI9Z2F0ZXdheSI+e3sKICAgICAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy5nYXRld2F5IikKICAgICAgICAgIH19PC9CcmVhZGNydW1iTGluaz4KICAgICAgICA8L0JyZWFkY3J1bWJJdGVtPgogICAgICAgIDxCcmVhZGNydW1iU2VwYXJhdG9yIC8+CiAgICAgICAgPEJyZWFkY3J1bWJJdGVtPgogICAgICAgICAgPEJyZWFkY3J1bWJQYWdlPnt7CiAgICAgICAgICAgIHQoImFkbWluLmdhdGV3YXlWaXNpYmlsaXR5U2V0dGluZ3MudGl0bGUiKQogICAgICAgICAgfX08L0JyZWFkY3J1bWJQYWdlPgogICAgICAgIDwvQnJlYWRjcnVtYkl0ZW0+CiAgICAgIDwvQnJlYWRjcnVtYkxpc3Q+CiAgICA8L0JyZWFkY3J1bWI+CgogICAgPENhcmQgY2xhc3M9ImJvcmRlci1ib3JkZXIvNjAgc2hhZG93LW5vbmUiPgogICAgICA8Q2FyZEhlYWRlciBjbGFzcz0ic3BhY2UteS0zIj4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEuNSI+CiAgICAgICAgICA8Q2FyZFRpdGxlIGNsYXNzPSJ0ZXh0LXhsIj57ewogICAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLnRpdGxlIikKICAgICAgICAgIH19PC9DYXJkVGl0bGU+CiAgICAgICAgICA8Q2FyZERlc2NyaXB0aW9uIGNsYXNzPSJtYXgtdy0zeGwgbGVhZGluZy02Ij4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy5kZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICA8L0NhcmREZXNjcmlwdGlvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9DYXJkSGVhZGVyPgoKICAgICAgPENhcmRDb250ZW50IGNsYXNzPSJzcGFjZS15LTYiPgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9ImlzTG9hZGluZyIKICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLXhsIGJvcmRlciBib3JkZXItYm9yZGVyLzYwIGJnLW11dGVkLzIwIHB4LTUgcHktMTIgdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICByb2xlPSJzdGF0dXMiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy5sb2FkaW5nQ29uZmlnIikgfX0KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdgogICAgICAgICAgdi1lbHNlLWlmPSJsb2FkRXJyb3IiCiAgICAgICAgICBjbGFzcz0icm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWRlc3RydWN0aXZlLzI1IGJnLWRlc3RydWN0aXZlLzUgcHgtNSBweS00IHRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgIHJvbGU9ImFsZXJ0IgogICAgICAgID4KICAgICAgICAgIHt7IGxvYWRFcnJvciB9fQogICAgICAgIDwvZGl2PgoKICAgICAgICA8dGVtcGxhdGUgdi1lbHNlPgogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzcz0icm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1ib3JkZXIvNjAgYmctbXV0ZWQvMTAgcHgtNCBweS00IgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTIiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgPExhYmVsCiAgICAgICAgICAgICAgICAgICAgOmZvcj0iYCR7YTExeUlkfS1nYXRld2F5dmlzaWJpbGl0eXNldHRpbmdzLTFgIgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LWJhc2UgZm9udC1tZWRpdW0iCiAgICAgICAgICAgICAgICAgICAgPnt7CiAgICAgICAgICAgICAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLnZpc2liaWxpdHlDb25zdHJhaW50IikKICAgICAgICAgICAgICAgICAgICB9fTwvTGFiZWwKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIDxTd2l0Y2gKICAgICAgICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1nYXRld2F5dmlzaWJpbGl0eXNldHRpbmdzLTFgIgogICAgICAgICAgICAgICAgdi1tb2RlbD0iZm9ybS5lbmFibGVkIgogICAgICAgICAgICAgICAgY2xhc3M9Im10LTAuNSBzaHJpbmstMCIKICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmciCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzPSJvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJvcmRlci82MCI+CiAgICAgICAgICAgIDx0ZW1wbGF0ZSB2LWlmPSJmb3JtLmVuYWJsZWQiPgogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIHYtaWY9IiFoYXNWaXNpYmxlVGFyZ2V0cyIKICAgICAgICAgICAgICAgIGNsYXNzPSJib3JkZXItYiBib3JkZXItYW1iZXItNTAwLzIwIGJnLWFtYmVyLTUwMC8xMCBweC01IHB5LTMgdGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1hbWJlci04MDAgZGFyazp0ZXh0LWFtYmVyLTIwMCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLmVtcHR5UnVsZXNIaW50IikgfX0KICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgPHNlY3Rpb24gY2xhc3M9InNwYWNlLXktNCBwLTUiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1iYXNlIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy5yZWdpb25TY29wZSIpIH19CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxDaWRyUmVnaW9uU2VsZWN0b3IKICAgICAgICAgICAgICAgICAgdi1tb2RlbD0iZm9ybS5zZWxlY3Rpb25zIgogICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9InZpc2liaWxpdHlJbnB1dHNEaXNhYmxlZCIKICAgICAgICAgICAgICAgICAgOmRlc2NyaXB0aW9uPSIKICAgICAgICAgICAgICAgICAgICB0KCdhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLnJlZ2lvblNjb3BlSGludCcpCiAgICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgICAgOnRleHQ9InsKICAgICAgICAgICAgICAgICAgICBhZGQ6IHQoJ2FkbWluLmdhdGV3YXlWaXNpYmlsaXR5U2V0dGluZ3Muc2F2ZVNlbGVjdGlvbicpLAogICAgICAgICAgICAgICAgICAgIGFkZFJlZ2lvbjogdCgKICAgICAgICAgICAgICAgICAgICAgICdhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLm1hbmFnZVJlZ2lvbnMnLAogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgY2FuY2VsOiB0KCdjb21tb24uY2FuY2VsJyksCiAgICAgICAgICAgICAgICAgICAgZGlhbG9nRGVzY3JpcHRpb246IHQoCiAgICAgICAgICAgICAgICAgICAgICAnYWRtaW4uZ2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy5hZGRSZWdpb25EZXNjcmlwdGlvbicsCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICBsb2FkRmFpbGVkOiB0KAogICAgICAgICAgICAgICAgICAgICAgJ2FkbWluLmdhdGV3YXlWaXNpYmlsaXR5U2V0dGluZ3MuY2l0eUxvYWRGYWlsZWQnLAogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgbG9hZEZhaWxlZERlc2NyaXB0aW9uOiB0KAogICAgICAgICAgICAgICAgICAgICAgJ2FkbWluLmdhdGV3YXlWaXNpYmlsaXR5U2V0dGluZ3MuY2l0eUxvYWRGYWlsZWREZXNjcmlwdGlvbicsCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICBsb2FkaW5nOiB0KCdhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLmxvYWRpbmcnKSwKICAgICAgICAgICAgICAgICAgICBub1JlZ2lvbnM6IHQoJ2FkbWluLmdhdGV3YXlWaXNpYmlsaXR5U2V0dGluZ3Mubm9SZWdpb25zJyksCiAgICAgICAgICAgICAgICAgICAgcHJvdmluY2U6IHQoJ2FkbWluLmdhdGV3YXlWaXNpYmlsaXR5U2V0dGluZ3MucHJvdmluY2UnKSwKICAgICAgICAgICAgICAgICAgICByZXRyeTogdCgnYWRtaW4uc3ViZG9tYWluUHJveHkucmV0cnknKSwKICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZENvdW50OiAoY291bnQpID0+CiAgICAgICAgICAgICAgICAgICAgICB0KCdhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLnNlbGVjdGVkUmVnaW9uQ291bnQnLCB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvdW50LAogICAgICAgICAgICAgICAgICAgICAgfSksCiAgICAgICAgICAgICAgICAgICAgc2NvcGU6IHQoJ2FkbWluLmdhdGV3YXlWaXNpYmlsaXR5U2V0dGluZ3Muc2NvcGUnKSwKICAgICAgICAgICAgICAgICAgICBzZWxlY3RDaXR5OiB0KCdhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLnNlbGVjdENpdHknKSwKICAgICAgICAgICAgICAgICAgICBzZWxlY3RQcm92aW5jZTogdCgKICAgICAgICAgICAgICAgICAgICAgICdhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLnNlbGVjdFByb3ZpbmNlJywKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgIHNlbGVjdFByb3ZpbmNlRmlyc3Q6IHQoCiAgICAgICAgICAgICAgICAgICAgICAnYWRtaW4uZ2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy5zZWxlY3RQcm92aW5jZUZpcnN0JywKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgIHVuYXZhaWxhYmxlOiB0KAogICAgICAgICAgICAgICAgICAgICAgJ2FkbWluLmdhdGV3YXlWaXNpYmlsaXR5U2V0dGluZ3MudW5hdmFpbGFibGVTZWxlY3Rpb24nLAogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgIH0iCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgICAgICAgPHNlY3Rpb24gY2xhc3M9InNwYWNlLXktNCBib3JkZXItdCBib3JkZXItYm9yZGVyLzYwIHAtNSI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEiPgogICAgICAgICAgICAgICAgICA8TGFiZWwKICAgICAgICAgICAgICAgICAgICA6Zm9yPSJgJHthMTF5SWR9LWdhdGV3YXl2aXNpYmlsaXR5c2V0dGluZ3MtMmAiCiAgICAgICAgICAgICAgICAgICAgY2xhc3M9InRleHQtYmFzZSIKICAgICAgICAgICAgICAgICAgICA+e3sKICAgICAgICAgICAgICAgICAgICAgIHQoImFkbWluLmdhdGV3YXlWaXNpYmlsaXR5U2V0dGluZ3MuY3VzdG9tQ2lkcnMiKQogICAgICAgICAgICAgICAgICAgIH19PC9MYWJlbAogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIGxlYWRpbmctNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLmN1c3RvbUNpZHJzSGludEJlZm9yZSIpCiAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICA8Y29kZT4xLjIuMy4wLzI0PC9jb2RlPgogICAgICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgICAgICB0KAogICAgICAgICAgICAgICAgICAgICAgICAiYWRtaW4uZ2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy5jdXN0b21DaWRyc0hpbnRCZXR3ZWVuIiwKICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgIDxjb2RlPjI0MDg6ODAwMDo6LzI0PC9jb2RlPgogICAgICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLmN1c3RvbUNpZHJzSGludEFmdGVyIikKICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICA8VGV4dGFyZWEKICAgICAgICAgICAgICAgICAgOmlkPSJgJHthMTF5SWR9LWdhdGV3YXl2aXNpYmlsaXR5c2V0dGluZ3MtMmAiCiAgICAgICAgICAgICAgICAgIHYtbW9kZWw9ImZvcm0uY3VzdG9tQ2lkcnNUZXh0IgogICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9InZpc2liaWxpdHlJbnB1dHNEaXNhYmxlZCIKICAgICAgICAgICAgICAgICAgY2xhc3M9Im1pbi1oLTM2IGZvbnQtbW9ubyB0ZXh0LXNtIgogICAgICAgICAgICAgICAgICA6cGxhY2Vob2xkZXI9IgogICAgICAgICAgICAgICAgICAgIHQoJ2FkbWluLmdhdGV3YXlWaXNpYmlsaXR5U2V0dGluZ3MuY2lkclBsYWNlaG9sZGVyJykKICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgLz4KCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBnYXAteC00IGdhcC15LTIgdGV4dC1zbSI+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgICAgICB0KAogICAgICAgICAgICAgICAgICAgICAgICAiYWRtaW4uZ2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy5jdXN0b21DaWRyc1JlY29nbml6ZWQiLAogICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgY291bnQ6IGN1c3RvbUNpZHJDb3VudCwKICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgdi1pZj0iaW52YWxpZEN1c3RvbUNpZHJzLmxlbmd0aCA+IDAiCiAgICAgICAgICAgICAgICAgICAgY2xhc3M9InRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy5pbnZhbGlkQ2lkcnMiLCB7CiAgICAgICAgICAgICAgICAgICAgICAgIGl0ZW1zOiBpbnZhbGlkQ3VzdG9tQ2lkcnMuam9pbigi44CBIiksCiAgICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPHNwYW4gdi1lbHNlIGNsYXNzPSJ0ZXh0LWVtZXJhbGQtNjAwIj4KICAgICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLmNpZHJWYWxpZCIpIH19CiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvc2VjdGlvbj4KICAgICAgICAgICAgPC90ZW1wbGF0ZT4KCiAgICAgICAgICAgIDxGbG9hdGluZ0FjdGlvbkRvY2sgOmFjdGl2ZT0iaXNEaXJ0eSIgaW5saW5lLWNsYXNzPSJzcGFjZS15LTQgcC01Ij4KICAgICAgICAgICAgICA8dGVtcGxhdGUgI2lubGluZT4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWVuZCBnYXAtMyI+CiAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iIWlzRGlydHkgfHwgaXNTYXZpbmciCiAgICAgICAgICAgICAgICAgICAgQGNsaWNrPSJyZXNldEZvcm0iCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLnJlc2V0IikgfX0KICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9IgogICAgICAgICAgICAgICAgICAgICAgIWlzRGlydHkgfHwgaXNTYXZpbmcgfHwgQm9vbGVhbihzYXZlQmxvY2tlZFJlYXNvbikKICAgICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICAgICAgQGNsaWNrPSJzYXZlU2V0dGluZ3MiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICAgICAgdi1pZj0iaXNTYXZpbmciCiAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLWJhY2tncm91bmQgYm9yZGVyLXQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgICA+PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgICAgICBpc1NhdmluZwogICAgICAgICAgICAgICAgICAgICAgICA/IHQoImFkbWluLmdhdGV3YXlWaXNpYmlsaXR5U2V0dGluZ3Muc2F2aW5nQW5kU3luY2luZyIpCiAgICAgICAgICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uZ2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy5zYXZlQW5kU3luYyIpCiAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgICA8L0Zsb2F0aW5nQWN0aW9uRG9jaz4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICA8L0NhcmQ+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, onMounted, reactive, ref, useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { toast } from "@admin-shared/utils/toast";
+import FloatingActionDock from "@admin-shared/components/common/FloatingActionDock.vue";
+import {
+  useAsyncAction,
+  extractErrorMessage,
+} from "@admin-shared/composables/useAsyncAction";
+import { parseCidrTextarea } from "@admin-shared/utils/cidr";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import { Textarea } from "@/components/ui/textarea";
+import CidrRegionSelector from "@/components/CidrRegionSelector.vue";
+import { ConfigAPI } from "@/lib/api/config";
+import type {
+  GatewayVisibilityDetails,
+  GatewayVisibilitySelection,
+} from "../../types";
+import { getCidrRegionSelectionKey } from "../../types/cidr";
+
+const a11yId = useId();
+
+const { t } = useI18n();
+const settings = ref<GatewayVisibilityDetails | null>(null);
+const loadError = ref("");
+
+const form = reactive({
+  enabled: false,
+  selections: [] as GatewayVisibilitySelection[],
+  customCidrsText: "",
+});
+
+const customCidrsState = computed(() =>
+  parseCidrTextarea(form.customCidrsText),
+);
+
+const customCidrCount = computed(() => customCidrsState.value.cidrs.length);
+const invalidCustomCidrs = computed(() => customCidrsState.value.invalid);
+const visibilityInputsDisabled = computed(
+  () => isSaving.value || !form.enabled,
+);
+
+const hasVisibleTargets = computed(
+  () => form.selections.length > 0 || customCidrsState.value.cidrs.length > 0,
+);
+
+const formSnapshot = computed(() =>
+  JSON.stringify({
+    enabled: form.enabled,
+    selections: form.selections.map((item) => getCidrRegionSelectionKey(item)),
+    custom_cidrs: customCidrsState.value.cidrs,
+  }),
+);
+
+const savedSnapshot = computed(() =>
+  JSON.stringify({
+    enabled: settings.value?.config.enabled ?? false,
+    selections: (settings.value?.config.selections ?? []).map((item) =>
+      getCidrRegionSelectionKey(item),
+    ),
+    custom_cidrs: settings.value?.config.custom_cidrs ?? [],
+  }),
+);
+
+const isDirty = computed(() => formSnapshot.value !== savedSnapshot.value);
+
+const saveBlockedReason = computed(() => {
+  if (invalidCustomCidrs.value.length > 0) {
+    return t("admin.gatewayVisibilitySettings.fixCustomCidrs");
+  }
+  return "";
+});
+
+const { isPending: isLoading, run: runLoad } = useAsyncAction({
+  onError: (error) => {
+    loadError.value = extractErrorMessage(
+      error,
+      t("admin.gatewayVisibilitySettings.loadFailedDescription"),
+    );
+  },
+});
+
+const { isPending: isSaving, run: runSave } = useAsyncAction({
+  onError: (error) => {
+    toast.error(t("admin.gatewayVisibilitySettings.saveFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.gatewayVisibilitySettings.saveFailedDescription"),
+      ),
+    });
+  },
+});
+
+const applyDetails = (details: GatewayVisibilityDetails) => {
+  settings.value = {
+    config: {
+      enabled: details.config.enabled,
+      selections: details.config.selections.map((item) => ({ ...item })),
+      custom_cidrs: [...details.config.custom_cidrs],
+    },
+    summary: { ...details.summary },
+  };
+
+  form.enabled = details.config.enabled;
+  form.selections = details.config.selections.map((item) => ({ ...item }));
+  form.customCidrsText = details.config.custom_cidrs.join("\n");
+};
+
+const fetchDetails = async () => {
+  await runLoad(async () => {
+    loadError.value = "";
+    const details = await ConfigAPI.getGatewayVisibility();
+    applyDetails(details);
+  });
+};
+
+const resetForm = () => {
+  if (!settings.value) return;
+  applyDetails(settings.value);
+};
+
+const saveSettings = async () => {
+  if (invalidCustomCidrs.value.length > 0) {
+    toast.error(t("admin.gatewayVisibilitySettings.cidrValidationFailed"), {
+      description: t("admin.gatewayVisibilitySettings.fixEntries", {
+        items: invalidCustomCidrs.value.join("、"),
+      }),
+    });
+    return;
+  }
+
+  await runSave(
+    () =>
+      ConfigAPI.updateGatewayVisibility({
+        enabled: form.enabled,
+        selections: form.selections.map((item) => ({
+          province: item.province,
+          query_city: item.query_city,
+          operator: item.operator,
+        })),
+        custom_cidrs: customCidrsState.value.cidrs,
+      }),
+    {
+      onSuccess: async (details) => {
+        applyDetails(details);
+        toast.success(t("admin.gatewayVisibilitySettings.updated"));
+      },
+    },
+  );
+};
+
+onMounted(() => {
+  void fetchDetails();
+});
+</script>
+
+<template>
+  <div class="space-y-6">
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system">{{
+            t("admin.gatewayVisibilitySettings.systemSettings")
+          }}</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system?tab=gateway">{{
+            t("admin.gatewayVisibilitySettings.gateway")
+          }}</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbPage>{{
+            t("admin.gatewayVisibilitySettings.title")
+          }}</BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+
+    <Card class="border-border/60 shadow-none">
+      <CardHeader class="space-y-3">
+        <div class="space-y-1.5">
+          <CardTitle class="text-xl">{{
+            t("admin.gatewayVisibilitySettings.title")
+          }}</CardTitle>
+          <CardDescription class="max-w-3xl leading-6">
+            {{ t("admin.gatewayVisibilitySettings.description") }}
+          </CardDescription>
+        </div>
+      </CardHeader>
+
+      <CardContent class="space-y-6">
+        <div
+          v-if="isLoading"
+          class="rounded-xl border border-border/60 bg-muted/20 px-5 py-12 text-center text-sm text-muted-foreground"
+          role="status"
+        >
+          {{ t("admin.gatewayVisibilitySettings.loadingConfig") }}
+        </div>
+
+        <div
+          v-else-if="loadError"
+          class="rounded-xl border border-destructive/25 bg-destructive/5 px-5 py-4 text-sm text-destructive"
+          role="alert"
+        >
+          {{ loadError }}
+        </div>
+
+        <template v-else>
+          <div
+            class="rounded-2xl border border-border/60 bg-muted/10 px-4 py-4"
+          >
+            <div class="flex items-start justify-between gap-4">
+              <div class="min-w-0 space-y-2">
+                <div class="flex flex-wrap items-center gap-2">
+                  <Label
+                    :for="`${a11yId}-gatewayvisibilitysettings-1`"
+                    class="text-base font-medium"
+                    >{{
+                      t("admin.gatewayVisibilitySettings.visibilityConstraint")
+                    }}</Label
+                  >
+                </div>
+              </div>
+
+              <Switch
+                :id="`${a11yId}-gatewayvisibilitysettings-1`"
+                v-model="form.enabled"
+                class="mt-0.5 shrink-0"
+                :disabled="isSaving"
+              />
+            </div>
+          </div>
+
+          <div class="overflow-hidden rounded-xl border border-border/60">
+            <template v-if="form.enabled">
+              <div
+                v-if="!hasVisibleTargets"
+                class="border-b border-amber-500/20 bg-amber-500/10 px-5 py-3 text-sm leading-6 text-amber-800 dark:text-amber-200"
+              >
+                {{ t("admin.gatewayVisibilitySettings.emptyRulesHint") }}
+              </div>
+
+              <section class="space-y-4 p-5">
+                <div class="text-base font-medium">
+                  {{ t("admin.gatewayVisibilitySettings.regionScope") }}
+                </div>
+                <CidrRegionSelector
+                  v-model="form.selections"
+                  :disabled="visibilityInputsDisabled"
+                  :description="
+                    t('admin.gatewayVisibilitySettings.regionScopeHint')
+                  "
+                  :text="{
+                    add: t('admin.gatewayVisibilitySettings.saveSelection'),
+                    addRegion: t(
+                      'admin.gatewayVisibilitySettings.manageRegions',
+                    ),
+                    cancel: t('common.cancel'),
+                    dialogDescription: t(
+                      'admin.gatewayVisibilitySettings.addRegionDescription',
+                    ),
+                    loadFailed: t(
+                      'admin.gatewayVisibilitySettings.cityLoadFailed',
+                    ),
+                    loadFailedDescription: t(
+                      'admin.gatewayVisibilitySettings.cityLoadFailedDescription',
+                    ),
+                    loading: t('admin.gatewayVisibilitySettings.loading'),
+                    noRegions: t('admin.gatewayVisibilitySettings.noRegions'),
+                    province: t('admin.gatewayVisibilitySettings.province'),
+                    retry: t('admin.subdomainProxy.retry'),
+                    selectedCount: (count) =>
+                      t('admin.gatewayVisibilitySettings.selectedRegionCount', {
+                        count,
+                      }),
+                    scope: t('admin.gatewayVisibilitySettings.scope'),
+                    selectCity: t('admin.gatewayVisibilitySettings.selectCity'),
+                    selectProvince: t(
+                      'admin.gatewayVisibilitySettings.selectProvince',
+                    ),
+                    selectProvinceFirst: t(
+                      'admin.gatewayVisibilitySettings.selectProvinceFirst',
+                    ),
+                    unavailable: t(
+                      'admin.gatewayVisibilitySettings.unavailableSelection',
+                    ),
+                  }"
+                />
+              </section>
+
+              <section class="space-y-4 border-t border-border/60 p-5">
+                <div class="space-y-1">
+                  <Label
+                    :for="`${a11yId}-gatewayvisibilitysettings-2`"
+                    class="text-base"
+                    >{{
+                      t("admin.gatewayVisibilitySettings.customCidrs")
+                    }}</Label
+                  >
+                  <p class="text-sm leading-6 text-muted-foreground">
+                    {{
+                      t("admin.gatewayVisibilitySettings.customCidrsHintBefore")
+                    }}
+                    <code>1.2.3.0/24</code>
+                    {{
+                      t(
+                        "admin.gatewayVisibilitySettings.customCidrsHintBetween",
+                      )
+                    }}
+                    <code>2408:8000::/24</code>
+                    {{
+                      t("admin.gatewayVisibilitySettings.customCidrsHintAfter")
+                    }}
+                  </p>
+                </div>
+
+                <Textarea
+                  :id="`${a11yId}-gatewayvisibilitysettings-2`"
+                  v-model="form.customCidrsText"
+                  :disabled="visibilityInputsDisabled"
+                  class="min-h-36 font-mono text-sm"
+                  :placeholder="
+                    t('admin.gatewayVisibilitySettings.cidrPlaceholder')
+                  "
+                />
+
+                <div class="flex flex-wrap gap-x-4 gap-y-2 text-sm">
+                  <span class="text-muted-foreground">
+                    {{
+                      t(
+                        "admin.gatewayVisibilitySettings.customCidrsRecognized",
+                        {
+                          count: customCidrCount,
+                        },
+                      )
+                    }}
+                  </span>
+                  <span
+                    v-if="invalidCustomCidrs.length > 0"
+                    class="text-destructive"
+                  >
+                    {{
+                      t("admin.gatewayVisibilitySettings.invalidCidrs", {
+                        items: invalidCustomCidrs.join("、"),
+                      })
+                    }}
+                  </span>
+                  <span v-else class="text-emerald-600">
+                    {{ t("admin.gatewayVisibilitySettings.cidrValid") }}
+                  </span>
+                </div>
+              </section>
+            </template>
+
+            <FloatingActionDock :active="isDirty" inline-class="space-y-4 p-5">
+              <template #inline>
+                <div class="flex flex-wrap items-center justify-end gap-3">
+                  <Button
+                    variant="outline"
+                    :disabled="!isDirty || isSaving"
+                    @click="resetForm"
+                  >
+                    {{ t("admin.gatewayVisibilitySettings.reset") }}
+                  </Button>
+                  <Button
+                    :disabled="
+                      !isDirty || isSaving || Boolean(saveBlockedReason)
+                    "
+                    @click="saveSettings"
+                  >
+                    <span
+                      v-if="isSaving"
+                      class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+                    ></span>
+                    {{
+                      isSaving
+                        ? t("admin.gatewayVisibilitySettings.savingAndSyncing")
+                        : t("admin.gatewayVisibilitySettings.saveAndSync")
+                    }}
+                  </Button>
+                </div>
+              </template>
+            </FloatingActionDock>
+          </div>
+        </template>
+      </CardContent>
+    </Card>
+  </div>
+</template>

@@ -1,1 +1,133 @@
-aW1wb3J0IHsgb25Nb3VudGVkLCB0eXBlIFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdXNlRGVsYXllZExvYWRpbmcgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZURlbGF5ZWRMb2FkaW5nIjsKaW1wb3J0IHsgQ29uZmlnQVBJIH0gZnJvbSAiQC9saWIvYXBpL2NvbmZpZyI7CmltcG9ydCB0eXBlIHsKICBBdXRoQWNjb3VudCwKICBBdXRoTG9naW5Nb2RlLAogIEF1dGhMb2dpbk1vZGVTdGF0dXMsCiAgSG9zdE1hcHBpbmcsCiAgU3RyZWFtTWFwcGluZywKICBUT1RQQ3JlZGVudGlhbCwKfSBmcm9tICIuLi8uLi90eXBlcyI7CgppbnRlcmZhY2UgVXNlQXV0aFNldHRpbmdzUmVzb3VyY2VPcHRpb25zIHsKICBhdXRoQWNjb3VudHM6IFJlZjxBdXRoQWNjb3VudFtdPjsKICBhdXRoTG9naW5Nb2RlOiBSZWY8QXV0aExvZ2luTW9kZT47CiAgYXV0aE1vZGVTdGF0dXM6IFJlZjxBdXRoTG9naW5Nb2RlU3RhdHVzIHwgbnVsbD47CiAgY3JlZGVudGlhbHM6IFJlZjxUT1RQQ3JlZGVudGlhbFtdPjsKICBob3N0TWFwcGluZ3M6IFJlZjxIb3N0TWFwcGluZ1tdPjsKICBzdHJlYW1NYXBwaW5nczogUmVmPFN0cmVhbU1hcHBpbmdbXT47CiAgbm9ybWFsaXplQXV0aEFjY291bnQ6IChhY2NvdW50OiBBdXRoQWNjb3VudCkgPT4gQXV0aEFjY291bnQ7CiAgbm9ybWFsaXplQ3JlZGVudGlhbDogKGNyZWRlbnRpYWw6IFRPVFBDcmVkZW50aWFsKSA9PiBUT1RQQ3JlZGVudGlhbDsKICB0cmFuc2xhdGU6IChrZXk6IHN0cmluZykgPT4gc3RyaW5nOwp9CgpleHBvcnQgZnVuY3Rpb24gdXNlQXV0aFNldHRpbmdzUmVzb3VyY2UoewogIGF1dGhBY2NvdW50cywKICBhdXRoTG9naW5Nb2RlLAogIGF1dGhNb2RlU3RhdHVzLAogIGNyZWRlbnRpYWxzLAogIGhvc3RNYXBwaW5ncywKICBzdHJlYW1NYXBwaW5ncywKICBub3JtYWxpemVBdXRoQWNjb3VudCwKICBub3JtYWxpemVDcmVkZW50aWFsLAogIHRyYW5zbGF0ZSwKfTogVXNlQXV0aFNldHRpbmdzUmVzb3VyY2VPcHRpb25zKSB7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzTG9hZGluZywgcnVuOiBydW5Mb2FkU3RhdHVzIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgY29uc29sZS5lcnJvcigiRmFpbGVkIHRvIGdldCBUT1RQIHN0YXR1czoiLCBlcnJvcik7CiAgICB9LAogIH0pOwogIGNvbnN0IHNob3dMb2FkaW5nU2tlbGV0b24gPSB1c2VEZWxheWVkTG9hZGluZyhpc0xvYWRpbmcpOwogIGNvbnN0IHsgcnVuOiBydW5TYXZlQ29tbWVudCB9ID0gdXNlQXN5bmNBY3Rpb24oeyByZXRocm93OiB0cnVlIH0pOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc0RlbGV0aW5nLCBydW46IHJ1bkRlbGV0ZUNyZWRlbnRpYWwgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcigKICAgICAgICBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0cmFuc2xhdGUoImFkbWluLmF1dGhTZXR0aW5ncy5kZWxldGVGYWlsZWQiKSwKICAgICAgICApLAogICAgICApOwogICAgfSwKICB9KTsKCiAgY29uc3QgZmV0Y2hTdGF0dXMgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBydW5Mb2FkU3RhdHVzKGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgW3JlcywgbWFwcGluZ3MsIHN0cmVhbXMsIG1vZGVTdGF0dXMsIGFjY291bnRzXSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgICAgICBDb25maWdBUEkuZ2V0VE9UUFN0YXR1cygpLAogICAgICAgIENvbmZpZ0FQSS5nZXRIb3N0TWFwcGluZ3MoKQogICAgICAgICAgLnRoZW4oKHNuYXBzaG90KSA9PiBzbmFwc2hvdC5tYXBwaW5ncykKICAgICAgICAgIC5jYXRjaCgoZXJyb3IpID0+IHsKICAgICAgICAgICAgY29uc29sZS5lcnJvcigiRmFpbGVkIHRvIGdldCBob3N0IG1hcHBpbmdzOiIsIGVycm9yKTsKICAgICAgICAgICAgcmV0dXJuIFtdIGFzIEhvc3RNYXBwaW5nW107CiAgICAgICAgICB9KSwKICAgICAgICBDb25maWdBUEkuZ2V0U3RyZWFtTWFwcGluZ3MoKS5jYXRjaCgoZXJyb3IpID0+IHsKICAgICAgICAgIGNvbnNvbGUuZXJyb3IoIkZhaWxlZCB0byBnZXQgc3RyZWFtIG1hcHBpbmdzOiIsIGVycm9yKTsKICAgICAgICAgIHJldHVybiBbXSBhcyBTdHJlYW1NYXBwaW5nW107CiAgICAgICAgfSksCiAgICAgICAgQ29uZmlnQVBJLmdldEF1dGhMb2dpbk1vZGUoKSwKICAgICAgICBDb25maWdBUEkuZ2V0QXV0aEFjY291bnRzKCkuY2F0Y2goKGVycm9yKSA9PiB7CiAgICAgICAgICBjb25zb2xlLmVycm9yKCJGYWlsZWQgdG8gZ2V0IGF1dGggYWNjb3VudHM6IiwgZXJyb3IpOwogICAgICAgICAgcmV0dXJuIFtdIGFzIEF1dGhBY2NvdW50W107CiAgICAgICAgfSksCiAgICAgIF0pOwogICAgICBob3N0TWFwcGluZ3MudmFsdWUgPSBtYXBwaW5nczsKICAgICAgc3RyZWFtTWFwcGluZ3MudmFsdWUgPSBzdHJlYW1zOwogICAgICBjcmVkZW50aWFscy52YWx1ZSA9IChyZXMuY3JlZGVudGlhbHMgfHwgW10pLm1hcChub3JtYWxpemVDcmVkZW50aWFsKTsKICAgICAgYXV0aE1vZGVTdGF0dXMudmFsdWUgPSBtb2RlU3RhdHVzOwogICAgICBhdXRoTG9naW5Nb2RlLnZhbHVlID0gbW9kZVN0YXR1cy5tb2RlIHx8ICJ0b3RwIjsKICAgICAgYXV0aEFjY291bnRzLnZhbHVlID0gKGFjY291bnRzIHx8IFtdKS5tYXAobm9ybWFsaXplQXV0aEFjY291bnQpOwogICAgfSk7CiAgfTsKCiAgY29uc3Qgc2F2ZUNvbW1lbnQgPSBhc3luYyAoaWQ6IHN0cmluZywgbmV3VGV4dDogc3RyaW5nKSA9PiB7CiAgICBhd2FpdCBydW5TYXZlQ29tbWVudCgoKSA9PiBDb25maWdBUEkudXBkYXRlVE9UUENvbW1lbnQoaWQsIG5ld1RleHQpLCB7CiAgICAgIG9uU3VjY2VzczogKCkgPT4gewogICAgICAgIGNvbnN0IHRhcmdldCA9IGNyZWRlbnRpYWxzLnZhbHVlLmZpbmQoKGl0ZW0pID0+IGl0ZW0uaWQgPT09IGlkKTsKICAgICAgICBpZiAodGFyZ2V0KSB0YXJnZXQuY29tbWVudCA9IG5ld1RleHQ7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0cmFuc2xhdGUoImFkbWluLmF1dGhTZXR0aW5ncy5jb21tZW50VXBkYXRlZCIpKTsKICAgICAgfSwKICAgICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKAogICAgICAgICAgZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgICAgZXJyb3IsCiAgICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uYXV0aFNldHRpbmdzLnJlbmFtZUVycm9yIiksCiAgICAgICAgICApLAogICAgICAgICk7CiAgICAgIH0sCiAgICB9KTsKICB9OwoKICBjb25zdCBoYW5kbGVEZWxldGUgPSBhc3luYyAodG90cElkOiBzdHJpbmcpID0+IHsKICAgIGF3YWl0IHJ1bkRlbGV0ZUNyZWRlbnRpYWwoYXN5bmMgKCkgPT4gewogICAgICBhd2FpdCBDb25maWdBUEkuZGVsZXRlVE9UUCh0b3RwSWQpOwogICAgICBhd2FpdCBmZXRjaFN0YXR1cygpOwogICAgICB0b2FzdC5zdWNjZXNzKHRyYW5zbGF0ZSgiYWRtaW4uYXV0aFNldHRpbmdzLnRva2VuRGVsZXRlZCIpKTsKICAgIH0pOwogIH07CgogIGNvbnN0IGhhbmRsZURlbGV0ZUFjY291bnQgPSBhc3luYyAoYWNjb3VudElkOiBzdHJpbmcpID0+IHsKICAgIGF3YWl0IHJ1bkRlbGV0ZUNyZWRlbnRpYWwoYXN5bmMgKCkgPT4gewogICAgICBhd2FpdCBDb25maWdBUEkuZGVsZXRlQXV0aEFjY291bnQoYWNjb3VudElkKTsKICAgICAgYXdhaXQgZmV0Y2hTdGF0dXMoKTsKICAgICAgdG9hc3Quc3VjY2Vzcyh0cmFuc2xhdGUoImFkbWluLmF1dGhTZXR0aW5ncy5hY2NvdW50RGVsZXRlZCIpKTsKICAgIH0pOwogIH07CgogIG9uTW91bnRlZChmZXRjaFN0YXR1cyk7CgogIHJldHVybiB7CiAgICBmZXRjaFN0YXR1cywKICAgIGhhbmRsZURlbGV0ZSwKICAgIGhhbmRsZURlbGV0ZUFjY291bnQsCiAgICBpc0RlbGV0aW5nLAogICAgaXNMb2FkaW5nLAogICAgc2F2ZUNvbW1lbnQsCiAgICBzaG93TG9hZGluZ1NrZWxldG9uLAogIH07Cn0K
+import { onMounted, type Ref } from "vue";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import { ConfigAPI } from "@/lib/api/config";
+import type {
+  AuthAccount,
+  AuthLoginMode,
+  AuthLoginModeStatus,
+  HostMapping,
+  StreamMapping,
+  TOTPCredential,
+} from "../../types";
+
+interface UseAuthSettingsResourceOptions {
+  authAccounts: Ref<AuthAccount[]>;
+  authLoginMode: Ref<AuthLoginMode>;
+  authModeStatus: Ref<AuthLoginModeStatus | null>;
+  credentials: Ref<TOTPCredential[]>;
+  hostMappings: Ref<HostMapping[]>;
+  streamMappings: Ref<StreamMapping[]>;
+  normalizeAuthAccount: (account: AuthAccount) => AuthAccount;
+  normalizeCredential: (credential: TOTPCredential) => TOTPCredential;
+  translate: (key: string) => string;
+}
+
+export function useAuthSettingsResource({
+  authAccounts,
+  authLoginMode,
+  authModeStatus,
+  credentials,
+  hostMappings,
+  streamMappings,
+  normalizeAuthAccount,
+  normalizeCredential,
+  translate,
+}: UseAuthSettingsResourceOptions) {
+  const { isPending: isLoading, run: runLoadStatus } = useAsyncAction({
+    onError: (error) => {
+      console.error("Failed to get TOTP status:", error);
+    },
+  });
+  const showLoadingSkeleton = useDelayedLoading(isLoading);
+  const { run: runSaveComment } = useAsyncAction({ rethrow: true });
+  const { isPending: isDeleting, run: runDeleteCredential } = useAsyncAction({
+    onError: (error) => {
+      toast.error(
+        extractErrorMessage(
+          error,
+          translate("admin.authSettings.deleteFailed"),
+        ),
+      );
+    },
+  });
+
+  const fetchStatus = async () => {
+    await runLoadStatus(async () => {
+      const [res, mappings, streams, modeStatus, accounts] = await Promise.all([
+        ConfigAPI.getTOTPStatus(),
+        ConfigAPI.getHostMappings()
+          .then((snapshot) => snapshot.mappings)
+          .catch((error) => {
+            console.error("Failed to get host mappings:", error);
+            return [] as HostMapping[];
+          }),
+        ConfigAPI.getStreamMappings().catch((error) => {
+          console.error("Failed to get stream mappings:", error);
+          return [] as StreamMapping[];
+        }),
+        ConfigAPI.getAuthLoginMode(),
+        ConfigAPI.getAuthAccounts().catch((error) => {
+          console.error("Failed to get auth accounts:", error);
+          return [] as AuthAccount[];
+        }),
+      ]);
+      hostMappings.value = mappings;
+      streamMappings.value = streams;
+      credentials.value = (res.credentials || []).map(normalizeCredential);
+      authModeStatus.value = modeStatus;
+      authLoginMode.value = modeStatus.mode || "totp";
+      authAccounts.value = (accounts || []).map(normalizeAuthAccount);
+    });
+  };
+
+  const saveComment = async (id: string, newText: string) => {
+    await runSaveComment(() => ConfigAPI.updateTOTPComment(id, newText), {
+      onSuccess: () => {
+        const target = credentials.value.find((item) => item.id === id);
+        if (target) target.comment = newText;
+        toast.success(translate("admin.authSettings.commentUpdated"));
+      },
+      onError: (error) => {
+        throw new Error(
+          extractErrorMessage(
+            error,
+            translate("admin.authSettings.renameError"),
+          ),
+        );
+      },
+    });
+  };
+
+  const handleDelete = async (totpId: string) => {
+    await runDeleteCredential(async () => {
+      await ConfigAPI.deleteTOTP(totpId);
+      await fetchStatus();
+      toast.success(translate("admin.authSettings.tokenDeleted"));
+    });
+  };
+
+  const handleDeleteAccount = async (accountId: string) => {
+    await runDeleteCredential(async () => {
+      await ConfigAPI.deleteAuthAccount(accountId);
+      await fetchStatus();
+      toast.success(translate("admin.authSettings.accountDeleted"));
+    });
+  };
+
+  onMounted(fetchStatus);
+
+  return {
+    fetchStatus,
+    handleDelete,
+    handleDeleteAccount,
+    isDeleting,
+    isLoading,
+    saveComment,
+    showLoadingSkeleton,
+  };
+}

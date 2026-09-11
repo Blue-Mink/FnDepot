@@ -1,1 +1,16 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gInZ1ZS1yb3V0ZXIiOwppbXBvcnQgeyBQYW5lbHNUb3BMZWZ0IH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgRHJvcGRvd25NZW51SXRlbSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9kcm9wZG93bi1tZW51IjsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERyb3Bkb3duTWVudUl0ZW0gQHNlbGVjdD0icm91dGVyLnB1c2goJy9zdWJkb21haW5zL3BhbmVsLXN5bmMnKSI+CiAgICA8UGFuZWxzVG9wTGVmdCBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAge3sgdCgiYWRtaW4ucGFuZWxTeW5jLm1lbnVFbnRyeSIpIH19CiAgPC9Ecm9wZG93bk1lbnVJdGVtPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { useRouter } from "vue-router";
+import { PanelsTopLeft } from "lucide-vue-next";
+import { DropdownMenuItem } from "@/components/ui/dropdown-menu";
+
+const { t } = useI18n();
+const router = useRouter();
+</script>
+
+<template>
+  <DropdownMenuItem @select="router.push('/subdomains/panel-sync')">
+    <PanelsTopLeft class="mr-2 h-4 w-4" />
+    {{ t("admin.panelSync.menuEntry") }}
+  </DropdownMenuItem>
+</template>

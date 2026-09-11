@@ -1,1 +1,473 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgd2F0Y2gsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgQ29uZmlnQVBJIH0gZnJvbSAiQC9saWIvYXBpL2NvbmZpZyI7CmltcG9ydCB0eXBlIHsKICBBcHBDb25maWcsCiAgR2F0ZXdheUhvc3RSZXNwb25zZURldGFpbHMsCiAgR2F0ZXdheVByb3h5SGVhZGVyc0RldGFpbHMsCiAgSG9zdE1hcHBpbmcsCn0gZnJvbSAiQC90eXBlcyI7CmltcG9ydCB7IGlzUHJveHlIb3N0TWFwcGluZyB9IGZyb20gIkAvbGliL2hvc3QtbWFwcGluZy10YXJnZXQiOwppbXBvcnQgewogIEhPTUVfQVNTSVNUQU5UX1RBUkdFVF9QT1JULAogIGhhc1NhbWVEaXNhYmxlZEhvc3RzLAogIG1lcmdlR2F0ZXdheURpc2FibGVkSG9zdHNGb3JNYXBwaW5nLAogIG5vcm1hbGl6ZURpc2FibGVkSG9zdHMsCiAgbm9ybWFsaXplSG9zdExpa2UsCiAgcGFyc2VUYXJnZXRQb3J0LAp9IGZyb20gIi4vbW9kZWwiOwoKdHlwZSBUcmFuc2xhdGUgPSAoa2V5OiBzdHJpbmcpID0+IHN0cmluZzsKCmV4cG9ydCBjb25zdCB1c2VNYXBwaW5nR2F0ZXdheUFkdmFuY2VkID0gKHsKICBnZXRDb25maWcsCiAgZ2V0RXJyb3JNZXNzYWdlLAogIGlzRGlhbG9nT3BlbiwKICBpc0dhdGV3YXlBZHZhbmNlZEF2YWlsYWJsZUJ5TW9kZSwKICBpc01hcHBpbmdBdXRoU2VydmljZSwKICBpc01hcHBpbmdQcm94eSwKICBtYXBwaW5nRHJhZnRIb3N0LAogIHNldEdhdGV3YXlIb3N0UmVzcG9uc2VEaXNhYmxlZEhvc3RzLAogIHNldEdhdGV3YXlQcm94eUhlYWRlcnNEaXNhYmxlZEhvc3RzLAogIHRyYW5zbGF0ZSwKICB2aXNpYmxlTWFwcGluZ3MsCn06IHsKICBnZXRDb25maWc6ICgpID0+IEFwcENvbmZpZyB8IG51bGwgfCB1bmRlZmluZWQ7CiAgZ2V0RXJyb3JNZXNzYWdlOiAoZXJyb3I6IHVua25vd24sIGZhbGxiYWNrOiBzdHJpbmcpID0+IHN0cmluZzsKICBpc0RpYWxvZ09wZW46IFJlZjxib29sZWFuPjsKICBpc0dhdGV3YXlBZHZhbmNlZEF2YWlsYWJsZUJ5TW9kZTogUmVmPGJvb2xlYW4+OwogIGlzTWFwcGluZ0F1dGhTZXJ2aWNlOiBSZWY8Ym9vbGVhbj47CiAgaXNNYXBwaW5nUHJveHk6IFJlZjxib29sZWFuPjsKICBtYXBwaW5nRHJhZnRIb3N0OiBSZWY8c3RyaW5nPjsKICBzZXRHYXRld2F5SG9zdFJlc3BvbnNlRGlzYWJsZWRIb3N0czogKGRpc2FibGVkSG9zdHM6IHN0cmluZ1tdKSA9PiB2b2lkOwogIHNldEdhdGV3YXlQcm94eUhlYWRlcnNEaXNhYmxlZEhvc3RzOiAoZGlzYWJsZWRIb3N0czogc3RyaW5nW10pID0+IHZvaWQ7CiAgdHJhbnNsYXRlOiBUcmFuc2xhdGU7CiAgdmlzaWJsZU1hcHBpbmdzOiBSZWY8SG9zdE1hcHBpbmdbXT47Cn0pID0+IHsKICBjb25zdCBnYXRld2F5UHJveHlIZWFkZXJzRGV0YWlscyA9IHJlZjxHYXRld2F5UHJveHlIZWFkZXJzRGV0YWlscyB8IG51bGw+KAogICAgbnVsbCwKICApOwogIGNvbnN0IGdhdGV3YXlIb3N0UmVzcG9uc2VEZXRhaWxzID0gcmVmPEdhdGV3YXlIb3N0UmVzcG9uc2VEZXRhaWxzIHwgbnVsbD4oCiAgICBudWxsLAogICk7CiAgY29uc3QgaXNMb2FkaW5nR2F0ZXdheVByb3h5SGVhZGVycyA9IHJlZihmYWxzZSk7CiAgY29uc3QgaXNMb2FkaW5nR2F0ZXdheUhvc3RSZXNwb25zZSA9IHJlZihmYWxzZSk7CiAgY29uc3QgZ2F0ZXdheVByb3h5SGVhZGVyc0xvYWRFcnJvciA9IHJlZigiIik7CiAgY29uc3QgZ2F0ZXdheUhvc3RSZXNwb25zZUxvYWRFcnJvciA9IHJlZigiIik7CiAgY29uc3Qgc2VuZFByb3h5SGVhZGVycyA9IHJlZih0cnVlKTsKICBjb25zdCBwcmVzZXJ2ZUhvc3QgPSByZWYodHJ1ZSk7CiAgY29uc3Qgc2VuZFByb3h5SGVhZGVyc1RvdWNoZWQgPSByZWYoZmFsc2UpOwogIGNvbnN0IHByZXNlcnZlSG9zdFRvdWNoZWQgPSByZWYoZmFsc2UpOwogIGNvbnN0IG1hcHBpbmdBZHZhbmNlZENsZWFudXBIb3N0cyA9IHJlZjxzdHJpbmdbXT4oW10pOwogIGNvbnN0IGlzR2F0ZXdheUFkdmFuY2VkTG9hZGluZyA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgaXNNYXBwaW5nUHJveHkudmFsdWUgJiYKICAgICAgKGlzTG9hZGluZ0dhdGV3YXlQcm94eUhlYWRlcnMudmFsdWUgfHwKICAgICAgICBpc0xvYWRpbmdHYXRld2F5SG9zdFJlc3BvbnNlLnZhbHVlKSwKICApOwoKICBsZXQgZ2F0ZXdheVByb3h5SGVhZGVyc1JlcXVlc3RJZCA9IDA7CiAgbGV0IGdhdGV3YXlIb3N0UmVzcG9uc2VSZXF1ZXN0SWQgPSAwOwoKICBjb25zdCBzZW5kUHJveHlIZWFkZXJzTW9kZWwgPSBjb21wdXRlZCh7CiAgICBnZXQ6ICgpID0+IHNlbmRQcm94eUhlYWRlcnMudmFsdWUsCiAgICBzZXQ6ICh2YWx1ZTogYm9vbGVhbikgPT4gewogICAgICBzZW5kUHJveHlIZWFkZXJzVG91Y2hlZC52YWx1ZSA9IHRydWU7CiAgICAgIHNlbmRQcm94eUhlYWRlcnMudmFsdWUgPSB2YWx1ZTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IHByZXNlcnZlSG9zdE1vZGVsID0gY29tcHV0ZWQoewogICAgZ2V0OiAoKSA9PiBwcmVzZXJ2ZUhvc3QudmFsdWUsCiAgICBzZXQ6ICh2YWx1ZTogYm9vbGVhbikgPT4gewogICAgICBwcmVzZXJ2ZUhvc3RUb3VjaGVkLnZhbHVlID0gdHJ1ZTsKICAgICAgcHJlc2VydmVIb3N0LnZhbHVlID0gdmFsdWU7CiAgICB9LAogIH0pOwoKICBjb25zdCBnYXRld2F5UHJveHlIZWFkZXJzQmxvY2tlZFJlYXNvbiA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGlmIChpc01hcHBpbmdBdXRoU2VydmljZS52YWx1ZSkKICAgICAgcmV0dXJuIHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkucHJveHlIZWFkZXJzQXV0aEJsb2NrZWQiKTsKICAgIGlmIChpc0xvYWRpbmdHYXRld2F5UHJveHlIZWFkZXJzLnZhbHVlKQogICAgICByZXR1cm4gdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5wcm94eUhlYWRlcnNMb2FkaW5nIik7CiAgICBpZiAoZ2F0ZXdheVByb3h5SGVhZGVyc0xvYWRFcnJvci52YWx1ZSkgewogICAgICByZXR1cm4gZ2F0ZXdheVByb3h5SGVhZGVyc0xvYWRFcnJvci52YWx1ZTsKICAgIH0KICAgIGlmIChnYXRld2F5UHJveHlIZWFkZXJzRGV0YWlscy52YWx1ZSkgewogICAgICByZXR1cm4gZ2F0ZXdheVByb3h5SGVhZGVyc0RldGFpbHMudmFsdWUuYXZhaWxhYmlsaXR5LmF2YWlsYWJsZQogICAgICAgID8gIiIKICAgICAgICA6IGdhdGV3YXlQcm94eUhlYWRlcnNEZXRhaWxzLnZhbHVlLmF2YWlsYWJpbGl0eS5yZWFzb247CiAgICB9CiAgICBpZiAoIWlzR2F0ZXdheUFkdmFuY2VkQXZhaWxhYmxlQnlNb2RlLnZhbHVlKSB7CiAgICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LnByb3h5SGVhZGVyc01vZGVCbG9ja2VkIik7CiAgICB9CiAgICByZXR1cm4gIiI7CiAgfSk7CgogIGNvbnN0IGdhdGV3YXlIb3N0UmVzcG9uc2VCbG9ja2VkUmVhc29uID0gY29tcHV0ZWQoKCkgPT4gewogICAgaWYgKGlzTWFwcGluZ0F1dGhTZXJ2aWNlLnZhbHVlKQogICAgICByZXR1cm4gdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5ob3N0UmVzcG9uc2VBdXRoQmxvY2tlZCIpOwogICAgaWYgKGlzTG9hZGluZ0dhdGV3YXlIb3N0UmVzcG9uc2UudmFsdWUpCiAgICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5Lmhvc3RSZXNwb25zZUxvYWRpbmciKTsKICAgIGlmIChnYXRld2F5SG9zdFJlc3BvbnNlTG9hZEVycm9yLnZhbHVlKSB7CiAgICAgIHJldHVybiBnYXRld2F5SG9zdFJlc3BvbnNlTG9hZEVycm9yLnZhbHVlOwogICAgfQogICAgaWYgKGdhdGV3YXlIb3N0UmVzcG9uc2VEZXRhaWxzLnZhbHVlKSB7CiAgICAgIHJldHVybiBnYXRld2F5SG9zdFJlc3BvbnNlRGV0YWlscy52YWx1ZS5hdmFpbGFiaWxpdHkuYXZhaWxhYmxlCiAgICAgICAgPyAiIgogICAgICAgIDogZ2F0ZXdheUhvc3RSZXNwb25zZURldGFpbHMudmFsdWUuYXZhaWxhYmlsaXR5LnJlYXNvbjsKICAgIH0KICAgIGlmICghaXNHYXRld2F5QWR2YW5jZWRBdmFpbGFibGVCeU1vZGUudmFsdWUpIHsKICAgICAgcmV0dXJuIHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuaG9zdFJlc3BvbnNlTW9kZUJsb2NrZWQiKTsKICAgIH0KICAgIHJldHVybiAiIjsKICB9KTsKCiAgY29uc3QgaGFzUHJvdG9jb2xIZWFkZXJzU2Vuc2l0aXZlTWFwcGluZ3MgPSBjb21wdXRlZCgoKSA9PgogICAgdmlzaWJsZU1hcHBpbmdzLnZhbHVlLnNvbWUoCiAgICAgIChtYXBwaW5nKSA9PgogICAgICAgIGlzUHJveHlIb3N0TWFwcGluZyhtYXBwaW5nKSAmJgogICAgICAgIHBhcnNlVGFyZ2V0UG9ydChtYXBwaW5nLnRhcmdldCkgPT09IEhPTUVfQVNTSVNUQU5UX1RBUkdFVF9QT1JULAogICAgKSwKICApOwoKICBjb25zdCBsaXN0ZWRHYXRld2F5UHJveHlIZWFkZXJUYXJnZXRzID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3QgdGFyZ2V0cyA9IG5ldyBTZXQ8c3RyaW5nPigpOwoKICAgIGZvciAoY29uc3QgaXRlbSBvZiBnYXRld2F5UHJveHlIZWFkZXJzRGV0YWlscy52YWx1ZT8uaXRlbXMgPz8gW10pIHsKICAgICAgY29uc3QgdGFyZ2V0ID0gaXRlbS50YXJnZXQudHJpbSgpOwogICAgICBpZiAodGFyZ2V0KSB7CiAgICAgICAgdGFyZ2V0cy5hZGQodGFyZ2V0KTsKICAgICAgfQogICAgfQoKICAgIHJldHVybiB0YXJnZXRzOwogIH0pOwoKICBjb25zdCBkaXNhYmxlZEdhdGV3YXlQcm94eUhlYWRlclRhcmdldHMgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCB0YXJnZXRzID0gbmV3IFNldDxzdHJpbmc+KCk7CiAgICBjb25zdCBkaXNhYmxlZEhvc3RzID0gbmV3IFNldCgKICAgICAgbm9ybWFsaXplRGlzYWJsZWRIb3N0cygKICAgICAgICBnYXRld2F5UHJveHlIZWFkZXJzRGV0YWlscy52YWx1ZT8uY29uZmlnLmRpc2FibGVkX2hvc3RzID8/CiAgICAgICAgICBnZXRDb25maWcoKT8uZ2F0ZXdheV9wcm94eV9oZWFkZXJzPy5kaXNhYmxlZF9ob3N0cywKICAgICAgKSwKICAgICk7CgogICAgZm9yIChjb25zdCBtYXBwaW5nIG9mIHZpc2libGVNYXBwaW5ncy52YWx1ZSkgewogICAgICBpZiAoIWlzUHJveHlIb3N0TWFwcGluZyhtYXBwaW5nKSkgY29udGludWU7CiAgICAgIGNvbnN0IHRhcmdldCA9IG1hcHBpbmcudGFyZ2V0LnRyaW0oKTsKICAgICAgaWYgKHRhcmdldCAmJiBkaXNhYmxlZEhvc3RzLmhhcyhub3JtYWxpemVIb3N0TGlrZShtYXBwaW5nLmhvc3QpKSkgewogICAgICAgIHRhcmdldHMuYWRkKHRhcmdldCk7CiAgICAgIH0KICAgIH0KCiAgICBpZiAoZ2F0ZXdheVByb3h5SGVhZGVyc0RldGFpbHMudmFsdWUpIHsKICAgICAgZm9yIChjb25zdCBpdGVtIG9mIGdhdGV3YXlQcm94eUhlYWRlcnNEZXRhaWxzLnZhbHVlLml0ZW1zKSB7CiAgICAgICAgY29uc3QgdGFyZ2V0ID0gaXRlbS50YXJnZXQudHJpbSgpOwogICAgICAgIGlmICh0YXJnZXQgJiYgaXRlbS5zZW5kX3Byb3h5X2hlYWRlcnMgPT09IGZhbHNlKSB7CiAgICAgICAgICB0YXJnZXRzLmFkZCh0YXJnZXQpOwogICAgICAgIH0KICAgICAgfQogICAgICByZXR1cm4gdGFyZ2V0czsKICAgIH0KCiAgICByZXR1cm4gdGFyZ2V0czsKICB9KTsKCiAgY29uc3QgdmlzaWJsZU1hcHBpbmdzU2lnbmF0dXJlID0gY29tcHV0ZWQoKCkgPT4KICAgIHZpc2libGVNYXBwaW5ncy52YWx1ZQogICAgICAubWFwKAogICAgICAgIChtYXBwaW5nKSA9PgogICAgICAgICAgYCR7bm9ybWFsaXplSG9zdExpa2UobWFwcGluZy5ob3N0KX06OiR7aXNQcm94eUhvc3RNYXBwaW5nKG1hcHBpbmcpID8gbWFwcGluZy50YXJnZXQudHJpbSgpIDogInN0YXRpYyJ9YCwKICAgICAgKQogICAgICAuam9pbigifCIpLAogICk7CgogIGNvbnN0IGNhbmNlbEdhdGV3YXlQcm94eUhlYWRlcnNMb2FkID0gKCkgPT4gewogICAgZ2F0ZXdheVByb3h5SGVhZGVyc1JlcXVlc3RJZCArPSAxOwogICAgaXNMb2FkaW5nR2F0ZXdheVByb3h5SGVhZGVycy52YWx1ZSA9IGZhbHNlOwogIH07CgogIGNvbnN0IGNhbmNlbEdhdGV3YXlIb3N0UmVzcG9uc2VMb2FkID0gKCkgPT4gewogICAgZ2F0ZXdheUhvc3RSZXNwb25zZVJlcXVlc3RJZCArPSAxOwogICAgaXNMb2FkaW5nR2F0ZXdheUhvc3RSZXNwb25zZS52YWx1ZSA9IGZhbHNlOwogIH07CgogIGNvbnN0IHJlc29sdmVTZW5kUHJveHlIZWFkZXJzRm9ySG9zdCA9IChob3N0OiBzdHJpbmcpOiBib29sZWFuID0+IHsKICAgIGNvbnN0IG5vcm1hbGl6ZWRIb3N0ID0gbm9ybWFsaXplSG9zdExpa2UoaG9zdCk7CiAgICBpZiAoIW5vcm1hbGl6ZWRIb3N0KSByZXR1cm4gdHJ1ZTsKCiAgICBjb25zdCBkaXNhYmxlZEhvc3RzID0gbmV3IFNldCgKICAgICAgbm9ybWFsaXplRGlzYWJsZWRIb3N0cygKICAgICAgICBnYXRld2F5UHJveHlIZWFkZXJzRGV0YWlscy52YWx1ZT8uY29uZmlnLmRpc2FibGVkX2hvc3RzID8/CiAgICAgICAgICBnZXRDb25maWcoKT8uZ2F0ZXdheV9wcm94eV9oZWFkZXJzPy5kaXNhYmxlZF9ob3N0cywKICAgICAgKSwKICAgICk7CiAgICByZXR1cm4gIWRpc2FibGVkSG9zdHMuaGFzKG5vcm1hbGl6ZWRIb3N0KTsKICB9OwoKICBjb25zdCByZXNvbHZlUHJlc2VydmVIb3N0Rm9ySG9zdCA9IChob3N0OiBzdHJpbmcpOiBib29sZWFuID0+IHsKICAgIGNvbnN0IG5vcm1hbGl6ZWRIb3N0ID0gbm9ybWFsaXplSG9zdExpa2UoaG9zdCk7CiAgICBpZiAoIW5vcm1hbGl6ZWRIb3N0KSByZXR1cm4gdHJ1ZTsKCiAgICBjb25zdCBkaXNhYmxlZEhvc3RzID0gbmV3IFNldCgKICAgICAgbm9ybWFsaXplRGlzYWJsZWRIb3N0cygKICAgICAgICBnYXRld2F5SG9zdFJlc3BvbnNlRGV0YWlscy52YWx1ZT8uY29uZmlnLmRpc2FibGVkX2hvc3RzID8/CiAgICAgICAgICBnZXRDb25maWcoKT8uZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlPy5kaXNhYmxlZF9ob3N0cywKICAgICAgKSwKICAgICk7CiAgICByZXR1cm4gIWRpc2FibGVkSG9zdHMuaGFzKG5vcm1hbGl6ZWRIb3N0KTsKICB9OwoKICBjb25zdCBhcHBseU1hcHBpbmdHYXRld2F5RHJhZnRGcm9tQ29uZmlnID0gKAogICAgaG9zdCA9IG1hcHBpbmdEcmFmdEhvc3QudmFsdWUsCiAgKSA9PiB7CiAgICBjb25zdCBub3JtYWxpemVkSG9zdCA9IG5vcm1hbGl6ZUhvc3RMaWtlKGhvc3QpOwogICAgaWYgKCFzZW5kUHJveHlIZWFkZXJzVG91Y2hlZC52YWx1ZSkgewogICAgICBzZW5kUHJveHlIZWFkZXJzLnZhbHVlID0gcmVzb2x2ZVNlbmRQcm94eUhlYWRlcnNGb3JIb3N0KG5vcm1hbGl6ZWRIb3N0KTsKICAgIH0KICAgIGlmICghcHJlc2VydmVIb3N0VG91Y2hlZC52YWx1ZSkgewogICAgICBwcmVzZXJ2ZUhvc3QudmFsdWUgPSByZXNvbHZlUHJlc2VydmVIb3N0Rm9ySG9zdChub3JtYWxpemVkSG9zdCk7CiAgICB9CiAgfTsKCiAgY29uc3QgYXBwbHlHYXRld2F5UHJveHlIZWFkZXJzRGV0YWlscyA9ICgKICAgIGRldGFpbHM6IEdhdGV3YXlQcm94eUhlYWRlcnNEZXRhaWxzLAogICkgPT4gewogICAgZ2F0ZXdheVByb3h5SGVhZGVyc0RldGFpbHMudmFsdWUgPSBkZXRhaWxzOwogICAgc2V0R2F0ZXdheVByb3h5SGVhZGVyc0Rpc2FibGVkSG9zdHMoWy4uLmRldGFpbHMuY29uZmlnLmRpc2FibGVkX2hvc3RzXSk7CiAgICBhcHBseU1hcHBpbmdHYXRld2F5RHJhZnRGcm9tQ29uZmlnKCk7CiAgfTsKCiAgY29uc3QgYXBwbHlHYXRld2F5SG9zdFJlc3BvbnNlRGV0YWlscyA9ICgKICAgIGRldGFpbHM6IEdhdGV3YXlIb3N0UmVzcG9uc2VEZXRhaWxzLAogICkgPT4gewogICAgZ2F0ZXdheUhvc3RSZXNwb25zZURldGFpbHMudmFsdWUgPSBkZXRhaWxzOwogICAgc2V0R2F0ZXdheUhvc3RSZXNwb25zZURpc2FibGVkSG9zdHMoWy4uLmRldGFpbHMuY29uZmlnLmRpc2FibGVkX2hvc3RzXSk7CiAgICBhcHBseU1hcHBpbmdHYXRld2F5RHJhZnRGcm9tQ29uZmlnKCk7CiAgfTsKCiAgY29uc3QgcmVzZXRHYXRld2F5QWR2YW5jZWRTdGF0ZSA9IChob3N0ID0gIiIpID0+IHsKICAgIG1hcHBpbmdBZHZhbmNlZENsZWFudXBIb3N0cy52YWx1ZSA9IFtdOwogICAgc2VuZFByb3h5SGVhZGVyc1RvdWNoZWQudmFsdWUgPSBmYWxzZTsKICAgIHByZXNlcnZlSG9zdFRvdWNoZWQudmFsdWUgPSBmYWxzZTsKICAgIHNlbmRQcm94eUhlYWRlcnMudmFsdWUgPSByZXNvbHZlU2VuZFByb3h5SGVhZGVyc0Zvckhvc3QoaG9zdCk7CiAgICBwcmVzZXJ2ZUhvc3QudmFsdWUgPSByZXNvbHZlUHJlc2VydmVIb3N0Rm9ySG9zdChob3N0KTsKICAgIGdhdGV3YXlQcm94eUhlYWRlcnNMb2FkRXJyb3IudmFsdWUgPSAiIjsKICAgIGdhdGV3YXlIb3N0UmVzcG9uc2VMb2FkRXJyb3IudmFsdWUgPSAiIjsKICB9OwoKICBjb25zdCBhZGRNYXBwaW5nQWR2YW5jZWRDbGVhbnVwSG9zdCA9IChob3N0OiBzdHJpbmcgfCBudWxsKSA9PiB7CiAgICBjb25zdCBub3JtYWxpemVkSG9zdCA9IGhvc3QgPyBub3JtYWxpemVIb3N0TGlrZShob3N0KSA6ICIiOwogICAgaWYgKCFub3JtYWxpemVkSG9zdCkgcmV0dXJuOwogICAgaWYgKG1hcHBpbmdBZHZhbmNlZENsZWFudXBIb3N0cy52YWx1ZS5pbmNsdWRlcyhub3JtYWxpemVkSG9zdCkpIHJldHVybjsKICAgIG1hcHBpbmdBZHZhbmNlZENsZWFudXBIb3N0cy52YWx1ZSA9IFsKICAgICAgLi4ubWFwcGluZ0FkdmFuY2VkQ2xlYW51cEhvc3RzLnZhbHVlLAogICAgICBub3JtYWxpemVkSG9zdCwKICAgIF07CiAgfTsKCiAgY29uc3QgY29sbGVjdE1hcHBpbmdBZHZhbmNlZENsZWFudXBIb3N0cyA9ICgKICAgIHByZXZpb3VzSG9zdDogc3RyaW5nIHwgbnVsbCwKICApOiBzdHJpbmdbXSA9PgogICAgbm9ybWFsaXplRGlzYWJsZWRIb3N0cyhbCiAgICAgIC4uLm1hcHBpbmdBZHZhbmNlZENsZWFudXBIb3N0cy52YWx1ZSwKICAgICAgLi4uKHByZXZpb3VzSG9zdCA/IFtwcmV2aW91c0hvc3RdIDogW10pLAogICAgXSk7CgogIGNvbnN0IGxvYWRHYXRld2F5UHJveHlIZWFkZXJzRGV0YWlscyA9IGFzeW5jICgKICAgIG9wdGlvbnM6IHsgZm9yY2U/OiBib29sZWFuOyB0cmFja0xvYWRpbmc/OiBib29sZWFuIH0gPSB7fSwKICApID0+IHsKICAgIGNvbnN0IHJlcXVlc3RJZCA9ICsrZ2F0ZXdheVByb3h5SGVhZGVyc1JlcXVlc3RJZDsKCiAgICBpZiAoIW9wdGlvbnMuZm9yY2UgJiYgIWhhc1Byb3RvY29sSGVhZGVyc1NlbnNpdGl2ZU1hcHBpbmdzLnZhbHVlKSB7CiAgICAgIGdhdGV3YXlQcm94eUhlYWRlcnNEZXRhaWxzLnZhbHVlID0gbnVsbDsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGlmIChvcHRpb25zLnRyYWNrTG9hZGluZykgewogICAgICBpc0xvYWRpbmdHYXRld2F5UHJveHlIZWFkZXJzLnZhbHVlID0gdHJ1ZTsKICAgICAgZ2F0ZXdheVByb3h5SGVhZGVyc0xvYWRFcnJvci52YWx1ZSA9ICIiOwogICAgfQoKICAgIHRyeSB7CiAgICAgIGNvbnN0IGRldGFpbHMgPSBhd2FpdCBDb25maWdBUEkuZ2V0R2F0ZXdheVByb3h5SGVhZGVycygpOwogICAgICBpZiAocmVxdWVzdElkICE9PSBnYXRld2F5UHJveHlIZWFkZXJzUmVxdWVzdElkKSB7CiAgICAgICAgcmV0dXJuOwogICAgICB9CiAgICAgIGFwcGx5R2F0ZXdheVByb3h5SGVhZGVyc0RldGFpbHMoZGV0YWlscyk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBpZiAocmVxdWVzdElkICE9PSBnYXRld2F5UHJveHlIZWFkZXJzUmVxdWVzdElkKSB7CiAgICAgICAgcmV0dXJuOwogICAgICB9CiAgICAgIGlmIChvcHRpb25zLnRyYWNrTG9hZGluZykgewogICAgICAgIGdhdGV3YXlQcm94eUhlYWRlcnNMb2FkRXJyb3IudmFsdWUgPSBnZXRFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkucHJveHlIZWFkZXJzTG9hZEZhaWxlZCIpLAogICAgICAgICk7CiAgICAgIH0KICAgICAgY29uc29sZS53YXJuKCJsb2FkIGdhdGV3YXkgcHJveHkgaGVhZGVycyBmYWlsZWQ6IiwgZXJyb3IpOwogICAgfSBmaW5hbGx5IHsKICAgICAgaWYgKG9wdGlvbnMudHJhY2tMb2FkaW5nICYmIHJlcXVlc3RJZCA9PT0gZ2F0ZXdheVByb3h5SGVhZGVyc1JlcXVlc3RJZCkgewogICAgICAgIGlzTG9hZGluZ0dhdGV3YXlQcm94eUhlYWRlcnMudmFsdWUgPSBmYWxzZTsKICAgICAgfQogICAgfQogIH07CgogIGNvbnN0IGxvYWRHYXRld2F5SG9zdFJlc3BvbnNlRGV0YWlscyA9IGFzeW5jICgKICAgIG9wdGlvbnM6IHsgdHJhY2tMb2FkaW5nPzogYm9vbGVhbiB9ID0ge30sCiAgKSA9PiB7CiAgICBjb25zdCByZXF1ZXN0SWQgPSArK2dhdGV3YXlIb3N0UmVzcG9uc2VSZXF1ZXN0SWQ7CgogICAgaWYgKG9wdGlvbnMudHJhY2tMb2FkaW5nKSB7CiAgICAgIGlzTG9hZGluZ0dhdGV3YXlIb3N0UmVzcG9uc2UudmFsdWUgPSB0cnVlOwogICAgICBnYXRld2F5SG9zdFJlc3BvbnNlTG9hZEVycm9yLnZhbHVlID0gIiI7CiAgICB9CgogICAgdHJ5IHsKICAgICAgY29uc3QgZGV0YWlscyA9IGF3YWl0IENvbmZpZ0FQSS5nZXRHYXRld2F5SG9zdFJlc3BvbnNlKCk7CiAgICAgIGlmIChyZXF1ZXN0SWQgIT09IGdhdGV3YXlIb3N0UmVzcG9uc2VSZXF1ZXN0SWQpIHsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgICAgYXBwbHlHYXRld2F5SG9zdFJlc3BvbnNlRGV0YWlscyhkZXRhaWxzKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGlmIChyZXF1ZXN0SWQgIT09IGdhdGV3YXlIb3N0UmVzcG9uc2VSZXF1ZXN0SWQpIHsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgICAgaWYgKG9wdGlvbnMudHJhY2tMb2FkaW5nKSB7CiAgICAgICAgZ2F0ZXdheUhvc3RSZXNwb25zZUxvYWRFcnJvci52YWx1ZSA9IGdldEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5ob3N0UmVzcG9uc2VMb2FkRmFpbGVkIiksCiAgICAgICAgKTsKICAgICAgfQogICAgICBjb25zb2xlLndhcm4oImxvYWQgZ2F0ZXdheSBob3N0IHJlc3BvbnNlIGZhaWxlZDoiLCBlcnJvcik7CiAgICB9IGZpbmFsbHkgewogICAgICBpZiAob3B0aW9ucy50cmFja0xvYWRpbmcgJiYgcmVxdWVzdElkID09PSBnYXRld2F5SG9zdFJlc3BvbnNlUmVxdWVzdElkKSB7CiAgICAgICAgaXNMb2FkaW5nR2F0ZXdheUhvc3RSZXNwb25zZS52YWx1ZSA9IGZhbHNlOwogICAgICB9CiAgICB9CiAgfTsKCiAgY29uc3QgbG9hZEdhdGV3YXlBZHZhbmNlZERldGFpbHMgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoIWlzTWFwcGluZ1Byb3h5LnZhbHVlKSB7CiAgICAgIGNhbmNlbEdhdGV3YXlQcm94eUhlYWRlcnNMb2FkKCk7CiAgICAgIGNhbmNlbEdhdGV3YXlIb3N0UmVzcG9uc2VMb2FkKCk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGF3YWl0IFByb21pc2UuYWxsKFsKICAgICAgbG9hZEdhdGV3YXlQcm94eUhlYWRlcnNEZXRhaWxzKHsgZm9yY2U6IHRydWUsIHRyYWNrTG9hZGluZzogdHJ1ZSB9KSwKICAgICAgbG9hZEdhdGV3YXlIb3N0UmVzcG9uc2VEZXRhaWxzKHsgdHJhY2tMb2FkaW5nOiB0cnVlIH0pLAogICAgXSk7CiAgfTsKCiAgY29uc3Qgc2F2ZU1hcHBpbmdHYXRld2F5QWR2YW5jZWQgPSBhc3luYyAoCiAgICBub3JtYWxpemVkOiBIb3N0TWFwcGluZywKICAgIHByZXZpb3VzSG9zdDogc3RyaW5nIHwgbnVsbCwKICApID0+IHsKICAgIGNvbnN0IGNvbmZpZ3VyZVByb3h5ID0KICAgICAgbm9ybWFsaXplZC5zZXJ2aWNlX3JvbGUgIT09ICJhdXRoIiAmJiBpc1Byb3h5SG9zdE1hcHBpbmcobm9ybWFsaXplZCk7CiAgICBjb25zdCBuZXh0Q29uZmlnSG9zdCA9IGNvbmZpZ3VyZVByb3h5ID8gbm9ybWFsaXplZC5ob3N0IDogIiI7CiAgICBjb25zdCBjbGVhbnVwSG9zdHMgPSBjb2xsZWN0TWFwcGluZ0FkdmFuY2VkQ2xlYW51cEhvc3RzKHByZXZpb3VzSG9zdCk7CiAgICBjb25zdCBjdXJyZW50UHJveHlEaXNhYmxlZEhvc3RzID0gbm9ybWFsaXplRGlzYWJsZWRIb3N0cygKICAgICAgZ2F0ZXdheVByb3h5SGVhZGVyc0RldGFpbHMudmFsdWU/LmNvbmZpZy5kaXNhYmxlZF9ob3N0cyA/PwogICAgICAgIGdldENvbmZpZygpPy5nYXRld2F5X3Byb3h5X2hlYWRlcnM/LmRpc2FibGVkX2hvc3RzLAogICAgKTsKICAgIGNvbnN0IGN1cnJlbnRIb3N0UmVzcG9uc2VEaXNhYmxlZEhvc3RzID0gbm9ybWFsaXplRGlzYWJsZWRIb3N0cygKICAgICAgZ2F0ZXdheUhvc3RSZXNwb25zZURldGFpbHMudmFsdWU/LmNvbmZpZy5kaXNhYmxlZF9ob3N0cyA/PwogICAgICAgIGdldENvbmZpZygpPy5nYXRld2F5X2hvc3RfcmVzcG9uc2U/LmRpc2FibGVkX2hvc3RzLAogICAgKTsKICAgIGNvbnN0IG5leHRQcm94eURpc2FibGVkSG9zdHMgPSBtZXJnZUdhdGV3YXlEaXNhYmxlZEhvc3RzRm9yTWFwcGluZygKICAgICAgY3VycmVudFByb3h5RGlzYWJsZWRIb3N0cywKICAgICAgY2xlYW51cEhvc3RzLAogICAgICBuZXh0Q29uZmlnSG9zdCwKICAgICAgY29uZmlndXJlUHJveHkgPyBzZW5kUHJveHlIZWFkZXJzLnZhbHVlIDogdHJ1ZSwKICAgICk7CiAgICBjb25zdCBuZXh0SG9zdFJlc3BvbnNlRGlzYWJsZWRIb3N0cyA9IG1lcmdlR2F0ZXdheURpc2FibGVkSG9zdHNGb3JNYXBwaW5nKAogICAgICBjdXJyZW50SG9zdFJlc3BvbnNlRGlzYWJsZWRIb3N0cywKICAgICAgY2xlYW51cEhvc3RzLAogICAgICBuZXh0Q29uZmlnSG9zdCwKICAgICAgY29uZmlndXJlUHJveHkgPyBwcmVzZXJ2ZUhvc3QudmFsdWUgOiB0cnVlLAogICAgKTsKICAgIGNvbnN0IHNob3VsZFVwZGF0ZVByb3h5SGVhZGVycyA9ICFoYXNTYW1lRGlzYWJsZWRIb3N0cygKICAgICAgY3VycmVudFByb3h5RGlzYWJsZWRIb3N0cywKICAgICAgbmV4dFByb3h5RGlzYWJsZWRIb3N0cywKICAgICk7CiAgICBjb25zdCBzaG91bGRVcGRhdGVIb3N0UmVzcG9uc2UgPSAhaGFzU2FtZURpc2FibGVkSG9zdHMoCiAgICAgIGN1cnJlbnRIb3N0UmVzcG9uc2VEaXNhYmxlZEhvc3RzLAogICAgICBuZXh0SG9zdFJlc3BvbnNlRGlzYWJsZWRIb3N0cywKICAgICk7CgogICAgaWYgKHNob3VsZFVwZGF0ZVByb3h5SGVhZGVycykgewogICAgICBjYW5jZWxHYXRld2F5UHJveHlIZWFkZXJzTG9hZCgpOwogICAgICBjb25zdCBkZXRhaWxzID0gYXdhaXQgQ29uZmlnQVBJLnVwZGF0ZUdhdGV3YXlQcm94eUhlYWRlcnMoewogICAgICAgIGRpc2FibGVkX2hvc3RzOiBuZXh0UHJveHlEaXNhYmxlZEhvc3RzLAogICAgICB9KTsKICAgICAgYXBwbHlHYXRld2F5UHJveHlIZWFkZXJzRGV0YWlscyhkZXRhaWxzKTsKICAgIH0KCiAgICBpZiAoc2hvdWxkVXBkYXRlSG9zdFJlc3BvbnNlKSB7CiAgICAgIGNhbmNlbEdhdGV3YXlIb3N0UmVzcG9uc2VMb2FkKCk7CiAgICAgIGNvbnN0IGRldGFpbHMgPSBhd2FpdCBDb25maWdBUEkudXBkYXRlR2F0ZXdheUhvc3RSZXNwb25zZSh7CiAgICAgICAgZGlzYWJsZWRfaG9zdHM6IG5leHRIb3N0UmVzcG9uc2VEaXNhYmxlZEhvc3RzLAogICAgICB9KTsKICAgICAgYXBwbHlHYXRld2F5SG9zdFJlc3BvbnNlRGV0YWlscyhkZXRhaWxzKTsKICAgIH0KICB9OwoKICBjb25zdCBzaG91bGRTaG93UHJvdG9jb2xIZWFkZXJzV2FybmluZyA9IChtYXBwaW5nOiBIb3N0TWFwcGluZyk6IGJvb2xlYW4gPT4gewogICAgaWYgKCFpc1Byb3h5SG9zdE1hcHBpbmcobWFwcGluZykpIHJldHVybiBmYWxzZTsKICAgIGNvbnN0IHRhcmdldCA9IG1hcHBpbmcudGFyZ2V0LnRyaW0oKTsKICAgIGlmICghdGFyZ2V0IHx8IHBhcnNlVGFyZ2V0UG9ydCh0YXJnZXQpICE9PSBIT01FX0FTU0lTVEFOVF9UQVJHRVRfUE9SVCkgewogICAgICByZXR1cm4gZmFsc2U7CiAgICB9CgogICAgaWYgKAogICAgICBnYXRld2F5UHJveHlIZWFkZXJzRGV0YWlscy52YWx1ZSAmJgogICAgICAhbGlzdGVkR2F0ZXdheVByb3h5SGVhZGVyVGFyZ2V0cy52YWx1ZS5oYXModGFyZ2V0KQogICAgKSB7CiAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICByZXR1cm4gIWRpc2FibGVkR2F0ZXdheVByb3h5SGVhZGVyVGFyZ2V0cy52YWx1ZS5oYXModGFyZ2V0KTsKICB9OwoKICB3YXRjaChpc01hcHBpbmdQcm94eSwgKHByb3h5KSA9PiB7CiAgICBpZiAoIWlzRGlhbG9nT3Blbi52YWx1ZSkgcmV0dXJuOwogICAgaWYgKHByb3h5KSB2b2lkIGxvYWRHYXRld2F5QWR2YW5jZWREZXRhaWxzKCk7CiAgICBlbHNlIHsKICAgICAgY2FuY2VsR2F0ZXdheVByb3h5SGVhZGVyc0xvYWQoKTsKICAgICAgY2FuY2VsR2F0ZXdheUhvc3RSZXNwb25zZUxvYWQoKTsKICAgIH0KICB9KTsKCiAgd2F0Y2goCiAgICB2aXNpYmxlTWFwcGluZ3NTaWduYXR1cmUsCiAgICAoKSA9PiB7CiAgICAgIHZvaWQgbG9hZEdhdGV3YXlQcm94eUhlYWRlcnNEZXRhaWxzKCk7CiAgICB9LAogICAgeyBpbW1lZGlhdGU6IHRydWUgfSwKICApOwoKICB3YXRjaCgKICAgIFttYXBwaW5nRHJhZnRIb3N0LCBnYXRld2F5UHJveHlIZWFkZXJzRGV0YWlscywgZ2F0ZXdheUhvc3RSZXNwb25zZURldGFpbHNdLAogICAgKCkgPT4gewogICAgICBpZiAoaXNEaWFsb2dPcGVuLnZhbHVlKSB7CiAgICAgICAgYXBwbHlNYXBwaW5nR2F0ZXdheURyYWZ0RnJvbUNvbmZpZygpOwogICAgICB9CiAgICB9LAogICk7CgogIHJldHVybiB7CiAgICBnYXRld2F5SG9zdFJlc3BvbnNlQmxvY2tlZFJlYXNvbiwKICAgIGlzR2F0ZXdheUFkdmFuY2VkTG9hZGluZywKICAgIGdhdGV3YXlQcm94eUhlYWRlcnNCbG9ja2VkUmVhc29uLAogICAgbG9hZEdhdGV3YXlBZHZhbmNlZERldGFpbHMsCiAgICBwcmVzZXJ2ZUhvc3QsCiAgICBwcmVzZXJ2ZUhvc3RNb2RlbCwKICAgIHJlc2V0R2F0ZXdheUFkdmFuY2VkU3RhdGUsCiAgICBzYXZlTWFwcGluZ0dhdGV3YXlBZHZhbmNlZCwKICAgIHNlbmRQcm94eUhlYWRlcnMsCiAgICBzZW5kUHJveHlIZWFkZXJzTW9kZWwsCiAgICBzaG91bGRTaG93UHJvdG9jb2xIZWFkZXJzV2FybmluZywKICAgIGFkZE1hcHBpbmdBZHZhbmNlZENsZWFudXBIb3N0LAogIH07Cn07Cg==
+import { computed, ref, watch, type Ref } from "vue";
+import { ConfigAPI } from "@/lib/api/config";
+import type {
+  AppConfig,
+  GatewayHostResponseDetails,
+  GatewayProxyHeadersDetails,
+  HostMapping,
+} from "@/types";
+import { isProxyHostMapping } from "@/lib/host-mapping-target";
+import {
+  HOME_ASSISTANT_TARGET_PORT,
+  hasSameDisabledHosts,
+  mergeGatewayDisabledHostsForMapping,
+  normalizeDisabledHosts,
+  normalizeHostLike,
+  parseTargetPort,
+} from "./model";
+
+type Translate = (key: string) => string;
+
+export const useMappingGatewayAdvanced = ({
+  getConfig,
+  getErrorMessage,
+  isDialogOpen,
+  isGatewayAdvancedAvailableByMode,
+  isMappingAuthService,
+  isMappingProxy,
+  mappingDraftHost,
+  setGatewayHostResponseDisabledHosts,
+  setGatewayProxyHeadersDisabledHosts,
+  translate,
+  visibleMappings,
+}: {
+  getConfig: () => AppConfig | null | undefined;
+  getErrorMessage: (error: unknown, fallback: string) => string;
+  isDialogOpen: Ref<boolean>;
+  isGatewayAdvancedAvailableByMode: Ref<boolean>;
+  isMappingAuthService: Ref<boolean>;
+  isMappingProxy: Ref<boolean>;
+  mappingDraftHost: Ref<string>;
+  setGatewayHostResponseDisabledHosts: (disabledHosts: string[]) => void;
+  setGatewayProxyHeadersDisabledHosts: (disabledHosts: string[]) => void;
+  translate: Translate;
+  visibleMappings: Ref<HostMapping[]>;
+}) => {
+  const gatewayProxyHeadersDetails = ref<GatewayProxyHeadersDetails | null>(
+    null,
+  );
+  const gatewayHostResponseDetails = ref<GatewayHostResponseDetails | null>(
+    null,
+  );
+  const isLoadingGatewayProxyHeaders = ref(false);
+  const isLoadingGatewayHostResponse = ref(false);
+  const gatewayProxyHeadersLoadError = ref("");
+  const gatewayHostResponseLoadError = ref("");
+  const sendProxyHeaders = ref(true);
+  const preserveHost = ref(true);
+  const sendProxyHeadersTouched = ref(false);
+  const preserveHostTouched = ref(false);
+  const mappingAdvancedCleanupHosts = ref<string[]>([]);
+  const isGatewayAdvancedLoading = computed(
+    () =>
+      isMappingProxy.value &&
+      (isLoadingGatewayProxyHeaders.value ||
+        isLoadingGatewayHostResponse.value),
+  );
+
+  let gatewayProxyHeadersRequestId = 0;
+  let gatewayHostResponseRequestId = 0;
+
+  const sendProxyHeadersModel = computed({
+    get: () => sendProxyHeaders.value,
+    set: (value: boolean) => {
+      sendProxyHeadersTouched.value = true;
+      sendProxyHeaders.value = value;
+    },
+  });
+
+  const preserveHostModel = computed({
+    get: () => preserveHost.value,
+    set: (value: boolean) => {
+      preserveHostTouched.value = true;
+      preserveHost.value = value;
+    },
+  });
+
+  const gatewayProxyHeadersBlockedReason = computed(() => {
+    if (isMappingAuthService.value)
+      return translate("admin.subdomainProxy.proxyHeadersAuthBlocked");
+    if (isLoadingGatewayProxyHeaders.value)
+      return translate("admin.subdomainProxy.proxyHeadersLoading");
+    if (gatewayProxyHeadersLoadError.value) {
+      return gatewayProxyHeadersLoadError.value;
+    }
+    if (gatewayProxyHeadersDetails.value) {
+      return gatewayProxyHeadersDetails.value.availability.available
+        ? ""
+        : gatewayProxyHeadersDetails.value.availability.reason;
+    }
+    if (!isGatewayAdvancedAvailableByMode.value) {
+      return translate("admin.subdomainProxy.proxyHeadersModeBlocked");
+    }
+    return "";
+  });
+
+  const gatewayHostResponseBlockedReason = computed(() => {
+    if (isMappingAuthService.value)
+      return translate("admin.subdomainProxy.hostResponseAuthBlocked");
+    if (isLoadingGatewayHostResponse.value)
+      return translate("admin.subdomainProxy.hostResponseLoading");
+    if (gatewayHostResponseLoadError.value) {
+      return gatewayHostResponseLoadError.value;
+    }
+    if (gatewayHostResponseDetails.value) {
+      return gatewayHostResponseDetails.value.availability.available
+        ? ""
+        : gatewayHostResponseDetails.value.availability.reason;
+    }
+    if (!isGatewayAdvancedAvailableByMode.value) {
+      return translate("admin.subdomainProxy.hostResponseModeBlocked");
+    }
+    return "";
+  });
+
+  const hasProtocolHeadersSensitiveMappings = computed(() =>
+    visibleMappings.value.some(
+      (mapping) =>
+        isProxyHostMapping(mapping) &&
+        parseTargetPort(mapping.target) === HOME_ASSISTANT_TARGET_PORT,
+    ),
+  );
+
+  const listedGatewayProxyHeaderTargets = computed(() => {
+    const targets = new Set<string>();
+
+    for (const item of gatewayProxyHeadersDetails.value?.items ?? []) {
+      const target = item.target.trim();
+      if (target) {
+        targets.add(target);
+      }
+    }
+
+    return targets;
+  });
+
+  const disabledGatewayProxyHeaderTargets = computed(() => {
+    const targets = new Set<string>();
+    const disabledHosts = new Set(
+      normalizeDisabledHosts(
+        gatewayProxyHeadersDetails.value?.config.disabled_hosts ??
+          getConfig()?.gateway_proxy_headers?.disabled_hosts,
+      ),
+    );
+
+    for (const mapping of visibleMappings.value) {
+      if (!isProxyHostMapping(mapping)) continue;
+      const target = mapping.target.trim();
+      if (target && disabledHosts.has(normalizeHostLike(mapping.host))) {
+        targets.add(target);
+      }
+    }
+
+    if (gatewayProxyHeadersDetails.value) {
+      for (const item of gatewayProxyHeadersDetails.value.items) {
+        const target = item.target.trim();
+        if (target && item.send_proxy_headers === false) {
+          targets.add(target);
+        }
+      }
+      return targets;
+    }
+
+    return targets;
+  });
+
+  const visibleMappingsSignature = computed(() =>
+    visibleMappings.value
+      .map(
+        (mapping) =>
+          `${normalizeHostLike(mapping.host)}::${isProxyHostMapping(mapping) ? mapping.target.trim() : "static"}`,
+      )
+      .join("|"),
+  );
+
+  const cancelGatewayProxyHeadersLoad = () => {
+    gatewayProxyHeadersRequestId += 1;
+    isLoadingGatewayProxyHeaders.value = false;
+  };
+
+  const cancelGatewayHostResponseLoad = () => {
+    gatewayHostResponseRequestId += 1;
+    isLoadingGatewayHostResponse.value = false;
+  };
+
+  const resolveSendProxyHeadersForHost = (host: string): boolean => {
+    const normalizedHost = normalizeHostLike(host);
+    if (!normalizedHost) return true;
+
+    const disabledHosts = new Set(
+      normalizeDisabledHosts(
+        gatewayProxyHeadersDetails.value?.config.disabled_hosts ??
+          getConfig()?.gateway_proxy_headers?.disabled_hosts,
+      ),
+    );
+    return !disabledHosts.has(normalizedHost);
+  };
+
+  const resolvePreserveHostForHost = (host: string): boolean => {
+    const normalizedHost = normalizeHostLike(host);
+    if (!normalizedHost) return true;
+
+    const disabledHosts = new Set(
+      normalizeDisabledHosts(
+        gatewayHostResponseDetails.value?.config.disabled_hosts ??
+          getConfig()?.gateway_host_response?.disabled_hosts,
+      ),
+    );
+    return !disabledHosts.has(normalizedHost);
+  };
+
+  const applyMappingGatewayDraftFromConfig = (
+    host = mappingDraftHost.value,
+  ) => {
+    const normalizedHost = normalizeHostLike(host);
+    if (!sendProxyHeadersTouched.value) {
+      sendProxyHeaders.value = resolveSendProxyHeadersForHost(normalizedHost);
+    }
+    if (!preserveHostTouched.value) {
+      preserveHost.value = resolvePreserveHostForHost(normalizedHost);
+    }
+  };
+
+  const applyGatewayProxyHeadersDetails = (
+    details: GatewayProxyHeadersDetails,
+  ) => {
+    gatewayProxyHeadersDetails.value = details;
+    setGatewayProxyHeadersDisabledHosts([...details.config.disabled_hosts]);
+    applyMappingGatewayDraftFromConfig();
+  };
+
+  const applyGatewayHostResponseDetails = (
+    details: GatewayHostResponseDetails,
+  ) => {
+    gatewayHostResponseDetails.value = details;
+    setGatewayHostResponseDisabledHosts([...details.config.disabled_hosts]);
+    applyMappingGatewayDraftFromConfig();
+  };
+
+  const resetGatewayAdvancedState = (host = "") => {
+    mappingAdvancedCleanupHosts.value = [];
+    sendProxyHeadersTouched.value = false;
+    preserveHostTouched.value = false;
+    sendProxyHeaders.value = resolveSendProxyHeadersForHost(host);
+    preserveHost.value = resolvePreserveHostForHost(host);
+    gatewayProxyHeadersLoadError.value = "";
+    gatewayHostResponseLoadError.value = "";
+  };
+
+  const addMappingAdvancedCleanupHost = (host: string | null) => {
+    const normalizedHost = host ? normalizeHostLike(host) : "";
+    if (!normalizedHost) return;
+    if (mappingAdvancedCleanupHosts.value.includes(normalizedHost)) return;
+    mappingAdvancedCleanupHosts.value = [
+      ...mappingAdvancedCleanupHosts.value,
+      normalizedHost,
+    ];
+  };
+
+  const collectMappingAdvancedCleanupHosts = (
+    previousHost: string | null,
+  ): string[] =>
+    normalizeDisabledHosts([
+      ...mappingAdvancedCleanupHosts.value,
+      ...(previousHost ? [previousHost] : []),
+    ]);
+
+  const loadGatewayProxyHeadersDetails = async (
+    options: { force?: boolean; trackLoading?: boolean } = {},
+  ) => {
+    const requestId = ++gatewayProxyHeadersRequestId;
+
+    if (!options.force && !hasProtocolHeadersSensitiveMappings.value) {
+      gatewayProxyHeadersDetails.value = null;
+      return;
+    }
+
+    if (options.trackLoading) {
+      isLoadingGatewayProxyHeaders.value = true;
+      gatewayProxyHeadersLoadError.value = "";
+    }
+
+    try {
+      const details = await ConfigAPI.getGatewayProxyHeaders();
+      if (requestId !== gatewayProxyHeadersRequestId) {
+        return;
+      }
+      applyGatewayProxyHeadersDetails(details);
+    } catch (error) {
+      if (requestId !== gatewayProxyHeadersRequestId) {
+        return;
+      }
+      if (options.trackLoading) {
+        gatewayProxyHeadersLoadError.value = getErrorMessage(
+          error,
+          translate("admin.subdomainProxy.proxyHeadersLoadFailed"),
+        );
+      }
+      console.warn("load gateway proxy headers failed:", error);
+    } finally {
+      if (options.trackLoading && requestId === gatewayProxyHeadersRequestId) {
+        isLoadingGatewayProxyHeaders.value = false;
+      }
+    }
+  };
+
+  const loadGatewayHostResponseDetails = async (
+    options: { trackLoading?: boolean } = {},
+  ) => {
+    const requestId = ++gatewayHostResponseRequestId;
+
+    if (options.trackLoading) {
+      isLoadingGatewayHostResponse.value = true;
+      gatewayHostResponseLoadError.value = "";
+    }
+
+    try {
+      const details = await ConfigAPI.getGatewayHostResponse();
+      if (requestId !== gatewayHostResponseRequestId) {
+        return;
+      }
+      applyGatewayHostResponseDetails(details);
+    } catch (error) {
+      if (requestId !== gatewayHostResponseRequestId) {
+        return;
+      }
+      if (options.trackLoading) {
+        gatewayHostResponseLoadError.value = getErrorMessage(
+          error,
+          translate("admin.subdomainProxy.hostResponseLoadFailed"),
+        );
+      }
+      console.warn("load gateway host response failed:", error);
+    } finally {
+      if (options.trackLoading && requestId === gatewayHostResponseRequestId) {
+        isLoadingGatewayHostResponse.value = false;
+      }
+    }
+  };
+
+  const loadGatewayAdvancedDetails = async () => {
+    if (!isMappingProxy.value) {
+      cancelGatewayProxyHeadersLoad();
+      cancelGatewayHostResponseLoad();
+      return;
+    }
+    await Promise.all([
+      loadGatewayProxyHeadersDetails({ force: true, trackLoading: true }),
+      loadGatewayHostResponseDetails({ trackLoading: true }),
+    ]);
+  };
+
+  const saveMappingGatewayAdvanced = async (
+    normalized: HostMapping,
+    previousHost: string | null,
+  ) => {
+    const configureProxy =
+      normalized.service_role !== "auth" && isProxyHostMapping(normalized);
+    const nextConfigHost = configureProxy ? normalized.host : "";
+    const cleanupHosts = collectMappingAdvancedCleanupHosts(previousHost);
+    const currentProxyDisabledHosts = normalizeDisabledHosts(
+      gatewayProxyHeadersDetails.value?.config.disabled_hosts ??
+        getConfig()?.gateway_proxy_headers?.disabled_hosts,
+    );
+    const currentHostResponseDisabledHosts = normalizeDisabledHosts(
+      gatewayHostResponseDetails.value?.config.disabled_hosts ??
+        getConfig()?.gateway_host_response?.disabled_hosts,
+    );
+    const nextProxyDisabledHosts = mergeGatewayDisabledHostsForMapping(
+      currentProxyDisabledHosts,
+      cleanupHosts,
+      nextConfigHost,
+      configureProxy ? sendProxyHeaders.value : true,
+    );
+    const nextHostResponseDisabledHosts = mergeGatewayDisabledHostsForMapping(
+      currentHostResponseDisabledHosts,
+      cleanupHosts,
+      nextConfigHost,
+      configureProxy ? preserveHost.value : true,
+    );
+    const shouldUpdateProxyHeaders = !hasSameDisabledHosts(
+      currentProxyDisabledHosts,
+      nextProxyDisabledHosts,
+    );
+    const shouldUpdateHostResponse = !hasSameDisabledHosts(
+      currentHostResponseDisabledHosts,
+      nextHostResponseDisabledHosts,
+    );
+
+    if (shouldUpdateProxyHeaders) {
+      cancelGatewayProxyHeadersLoad();
+      const details = await ConfigAPI.updateGatewayProxyHeaders({
+        disabled_hosts: nextProxyDisabledHosts,
+      });
+      applyGatewayProxyHeadersDetails(details);
+    }
+
+    if (shouldUpdateHostResponse) {
+      cancelGatewayHostResponseLoad();
+      const details = await ConfigAPI.updateGatewayHostResponse({
+        disabled_hosts: nextHostResponseDisabledHosts,
+      });
+      applyGatewayHostResponseDetails(details);
+    }
+  };
+
+  const shouldShowProtocolHeadersWarning = (mapping: HostMapping): boolean => {
+    if (!isProxyHostMapping(mapping)) return false;
+    const target = mapping.target.trim();
+    if (!target || parseTargetPort(target) !== HOME_ASSISTANT_TARGET_PORT) {
+      return false;
+    }
+
+    if (
+      gatewayProxyHeadersDetails.value &&
+      !listedGatewayProxyHeaderTargets.value.has(target)
+    ) {
+      return false;
+    }
+
+    return !disabledGatewayProxyHeaderTargets.value.has(target);
+  };
+
+  watch(isMappingProxy, (proxy) => {
+    if (!isDialogOpen.value) return;
+    if (proxy) void loadGatewayAdvancedDetails();
+    else {
+      cancelGatewayProxyHeadersLoad();
+      cancelGatewayHostResponseLoad();
+    }
+  });
+
+  watch(
+    visibleMappingsSignature,
+    () => {
+      void loadGatewayProxyHeadersDetails();
+    },
+    { immediate: true },
+  );
+
+  watch(
+    [mappingDraftHost, gatewayProxyHeadersDetails, gatewayHostResponseDetails],
+    () => {
+      if (isDialogOpen.value) {
+        applyMappingGatewayDraftFromConfig();
+      }
+    },
+  );
+
+  return {
+    gatewayHostResponseBlockedReason,
+    isGatewayAdvancedLoading,
+    gatewayProxyHeadersBlockedReason,
+    loadGatewayAdvancedDetails,
+    preserveHost,
+    preserveHostModel,
+    resetGatewayAdvancedState,
+    saveMappingGatewayAdvanced,
+    sendProxyHeaders,
+    sendProxyHeadersModel,
+    shouldShowProtocolHeadersWarning,
+    addMappingAdvancedCleanupHost,
+  };
+};

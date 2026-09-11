@@ -1,1 +1,15 @@
-ZXhwb3J0IGZ1bmN0aW9uIGRvd25sb2FkQmxvYihibG9iOiBCbG9iLCBmaWxlbmFtZTogc3RyaW5nKSB7CiAgY29uc3QgdXJsID0gVVJMLmNyZWF0ZU9iamVjdFVSTChibG9iKTsKICBjb25zdCBhbmNob3IgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdhJyk7CiAgYW5jaG9yLmhyZWYgPSB1cmw7CiAgYW5jaG9yLmRvd25sb2FkID0gZmlsZW5hbWU7CiAgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChhbmNob3IpOwogIHRyeSB7CiAgICBhbmNob3IuY2xpY2soKTsKICB9IGZpbmFsbHkgewogICAgYW5jaG9yLnJlbW92ZSgpOwogICAgLy8gV2ViS2l0IGNhbiBzdGFydCBjb25zdW1pbmcgdGhlIG9iamVjdCBVUkwgYWZ0ZXIgdGhlIGNsaWNrIGhhbmRsZXIgcmV0dXJucy4KICAgIC8vIFJldm9raW5nIHN5bmNocm9ub3VzbHkgcmFjZXMgdGhhdCB3b3JrIGFuZCBjYW4gcHJvZHVjZSBhbiBlbXB0eSBkb3dubG9hZC4KICAgIHNldFRpbWVvdXQoKCkgPT4gVVJMLnJldm9rZU9iamVjdFVSTCh1cmwpLCAxXzAwMCk7CiAgfQp9Cg==
+export function downloadBlob(blob: Blob, filename: string) {
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement('a');
+  anchor.href = url;
+  anchor.download = filename;
+  document.body.appendChild(anchor);
+  try {
+    anchor.click();
+  } finally {
+    anchor.remove();
+    // WebKit can start consuming the object URL after the click handler returns.
+    // Revoking synchronously races that work and can produce an empty download.
+    setTimeout(() => URL.revokeObjectURL(url), 1_000);
+  }
+}

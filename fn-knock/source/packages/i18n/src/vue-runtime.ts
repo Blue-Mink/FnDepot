@@ -1,1 +1,153 @@
-aW1wb3J0IHsgY3JlYXRlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsKICBERUZBVUxUX0xPQ0FMRSwKICBMT0NBTEVfQ09PS0lFX05BTUUsCiAgTE9DQUxFX1NUT1JBR0VfS0VZLAogIHR5cGUgTG9jYWxlQ29kZSwKICB0eXBlIE1lc3NhZ2VQYXJhbXMsCiAgbm9ybWFsaXplTG9jYWxlLAogIHJlc29sdmVMb2NhbGUsCn0gZnJvbSAiLi9jb3JlIjsKaW1wb3J0IHsKICBlbnN1cmVTY29wZWRMb2NhbGVSZWFkeSwKICBnZXRBY3RpdmVCcm93c2VyU2NvcGUsCiAgZ2V0U2NvcGVkTG9jYWxlTWVzc2FnZXMsCiAgbG9hZFNjb3BlZExvY2FsZU1lc3NhZ2VzLAogIHNldEFjdGl2ZUJyb3dzZXJMb2NhbGUsCiAgdHJhbnNsYXRlTG9hZGVkQnJvd3Nlck1lc3NhZ2UsCiAgdHlwZSBCcm93c2VySTE4blNjb3BlLAogIHR5cGUgU2NvcGVkTG9jYWxlTWVzc2FnZXMsCn0gZnJvbSAiLi9icm93c2VyLXJ1bnRpbWUiOwoKZXhwb3J0IGludGVyZmFjZSBDcmVhdGVGbktub2NrSTE4bk9wdGlvbnMgewogIHNjb3BlPzogQnJvd3NlckkxOG5TY29wZTsKICBkZWZhdWx0TG9jYWxlPzogc3RyaW5nIHwgbnVsbDsKfQoKdHlwZSBWdWVMb2NhbGVNZXNzYWdlID0gUmVjb3JkPHN0cmluZywgYW55PjsKdHlwZSBWdWVMb2NhbGVNZXNzYWdlcyA9IFJlY29yZDxzdHJpbmcsIFZ1ZUxvY2FsZU1lc3NhZ2U+OwoKdHlwZSBMb2NhbGVNZXNzYWdlVGFyZ2V0ID0gewogIGxvY2FsZTogeyB2YWx1ZTogc3RyaW5nIH07CiAgc2V0TG9jYWxlTWVzc2FnZTogKGxvY2FsZTogTG9jYWxlQ29kZSwgbWVzc2FnZTogVnVlTG9jYWxlTWVzc2FnZSkgPT4gdm9pZDsKfTsKCmNvbnN0IHRvVnVlTG9jYWxlTWVzc2FnZSA9IChtZXNzYWdlczogU2NvcGVkTG9jYWxlTWVzc2FnZXMpOiBWdWVMb2NhbGVNZXNzYWdlID0+CiAgbWVzc2FnZXMgYXMgVnVlTG9jYWxlTWVzc2FnZTsKCmNvbnN0IHRvVnVlTG9jYWxlTWVzc2FnZXMgPSAoCiAgbWVzc2FnZXM6IFBhcnRpYWw8UmVjb3JkPExvY2FsZUNvZGUsIFNjb3BlZExvY2FsZU1lc3NhZ2VzPj4sCik6IFZ1ZUxvY2FsZU1lc3NhZ2VzID0+IG1lc3NhZ2VzIGFzIFZ1ZUxvY2FsZU1lc3NhZ2VzOwoKY29uc3QgZ2V0TG9jYWxlTWVzc2FnZVRhcmdldCA9IChpMThuOiB1bmtub3duKTogTG9jYWxlTWVzc2FnZVRhcmdldCA9PiB7CiAgY29uc3QgbWF5YmVHbG9iYWwgPSAoaTE4biBhcyB7IGdsb2JhbD86IExvY2FsZU1lc3NhZ2VUYXJnZXQgfSkuZ2xvYmFsOwogIHJldHVybiBtYXliZUdsb2JhbCA/PyAoaTE4biBhcyBMb2NhbGVNZXNzYWdlVGFyZ2V0KTsKfTsKCmNvbnN0IGJyb3dzZXJMb2NhbGVJbnB1dHMgPSAoKSA9PiB7CiAgaWYgKHR5cGVvZiBkb2N1bWVudCA9PT0gInVuZGVmaW5lZCIpIHsKICAgIHJldHVybiB7IGNvb2tpZUhlYWRlcjogbnVsbCwgc3RvcmFnZUxvY2FsZTogbnVsbCB9OwogIH0KICBsZXQgc3RvcmFnZUxvY2FsZTogc3RyaW5nIHwgbnVsbCA9IG51bGw7CiAgdHJ5IHsKICAgIHN0b3JhZ2VMb2NhbGUgPQogICAgICBnbG9iYWxUaGlzLmxvY2FsU3RvcmFnZT8uZ2V0SXRlbShMT0NBTEVfU1RPUkFHRV9LRVkpID8/IG51bGw7CiAgfSBjYXRjaCB7CiAgICBzdG9yYWdlTG9jYWxlID0gbnVsbDsKICB9CiAgcmV0dXJuIHsgY29va2llSGVhZGVyOiBkb2N1bWVudC5jb29raWUsIHN0b3JhZ2VMb2NhbGUgfTsKfTsKCmV4cG9ydCBjb25zdCBoYXNCcm93c2VyTG9jYWxlUHJlZmVyZW5jZSA9ICgpOiBib29sZWFuID0+IHsKICBjb25zdCB7IGNvb2tpZUhlYWRlciwgc3RvcmFnZUxvY2FsZSB9ID0gYnJvd3NlckxvY2FsZUlucHV0cygpOwogIHJldHVybiBCb29sZWFuKAogICAgcmVzb2x2ZUxvY2FsZSh7IGNvb2tpZUhlYWRlciwgc3RvcmFnZUxvY2FsZSwgZGVmYXVsdExvY2FsZTogIiIgfSkgIT09CiAgICAgIERFRkFVTFRfTE9DQUxFIHx8CiAgICBub3JtYWxpemVMb2NhbGUoc3RvcmFnZUxvY2FsZSkgfHwKICAgIFN0cmluZyhjb29raWVIZWFkZXIgPz8gIiIpLmluY2x1ZGVzKGAke0xPQ0FMRV9DT09LSUVfTkFNRX09YCksCiAgKTsKfTsKCmV4cG9ydCBjb25zdCBhcHBseURvY3VtZW50TG9jYWxlID0gKGxvY2FsZTogTG9jYWxlQ29kZSkgPT4gewogIGlmICh0eXBlb2YgZG9jdW1lbnQgIT09ICJ1bmRlZmluZWQiKSB7CiAgICBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQubGFuZyA9IGxvY2FsZTsKICB9Cn07CgpleHBvcnQgY29uc3QgZGV0ZWN0QnJvd3NlckxvY2FsZSA9ICgKICBkZWZhdWx0TG9jYWxlOiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkID0gREVGQVVMVF9MT0NBTEUsCik6IExvY2FsZUNvZGUgPT4gewogIGNvbnN0IHsgY29va2llSGVhZGVyLCBzdG9yYWdlTG9jYWxlIH0gPSBicm93c2VyTG9jYWxlSW5wdXRzKCk7CiAgcmV0dXJuIHJlc29sdmVMb2NhbGUoeyBjb29raWVIZWFkZXIsIHN0b3JhZ2VMb2NhbGUsIGRlZmF1bHRMb2NhbGUgfSk7Cn07CgpleHBvcnQgY29uc3QgcGVyc2lzdEJyb3dzZXJMb2NhbGUgPSAobG9jYWxlOiBMb2NhbGVDb2RlKSA9PiB7CiAgYXBwbHlEb2N1bWVudExvY2FsZShsb2NhbGUpOwogIGlmICh0eXBlb2YgZG9jdW1lbnQgPT09ICJ1bmRlZmluZWQiKSByZXR1cm47CiAgZG9jdW1lbnQuY29va2llID0gYCR7TE9DQUxFX0NPT0tJRV9OQU1FfT0ke2VuY29kZVVSSUNvbXBvbmVudChsb2NhbGUpfTsgUGF0aD0vOyBNYXgtQWdlPTMxNTM2MDAwOyBTYW1lU2l0ZT1MYXhgOwogIHRyeSB7CiAgICBnbG9iYWxUaGlzLmxvY2FsU3RvcmFnZT8uc2V0SXRlbShMT0NBTEVfU1RPUkFHRV9LRVksIGxvY2FsZSk7CiAgfSBjYXRjaCB7CiAgICAvLyBTdG9yYWdlIGNhbiBiZSBkaXNhYmxlZCBpbiBoYXJkZW5lZCBvciBwcml2YXRlIGJyb3dzZXIgY29udGV4dHMuIFRoZQogICAgLy8gZmlyc3QtcGFydHkgY29va2llIHJlbWFpbnMgdGhlIGNyb3NzLWxvYWQgcHJlZmVyZW5jZS4KICB9Cn07CgpleHBvcnQgY29uc3QgY3JlYXRlU2NvcGVkRm5Lbm9ja0kxOG4gPSBhc3luYyAoCiAgc2NvcGU6IEJyb3dzZXJJMThuU2NvcGUsCiAgeyBkZWZhdWx0TG9jYWxlIH06IFBpY2s8Q3JlYXRlRm5Lbm9ja0kxOG5PcHRpb25zLCAiZGVmYXVsdExvY2FsZSI+ID0ge30sCikgPT4gewogIGNvbnN0IHByZWZlcnJlZExvY2FsZSA9IGRldGVjdEJyb3dzZXJMb2NhbGUoZGVmYXVsdExvY2FsZSk7CiAgbGV0IGxvY2FsZSA9IHByZWZlcnJlZExvY2FsZTsKICB0cnkgewogICAgYXdhaXQgZW5zdXJlU2NvcGVkTG9jYWxlUmVhZHkoc2NvcGUsIHByZWZlcnJlZExvY2FsZSk7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGlmIChwcmVmZXJyZWRMb2NhbGUgPT09IERFRkFVTFRfTE9DQUxFKSB0aHJvdyBlcnJvcjsKCiAgICAvLyBBIHBlcnNpc3RlZCBsb2NhbGUgcG9pbnRzIGF0IGl0cyBvd24gZmluZ2VycHJpbnRlZCBjaHVuay4gQWZ0ZXIgYW4KICAgIC8vIHVwZ3JhZGUsIGFuIGVtYmVkZGVkIGJyb3dzZXIgY2FuIHJldGFpbiB0aGF0IHByZWZlcmVuY2Ugd2hpbGUgaG9sZGluZyBhCiAgICAvLyBzdGFsZSBkb2N1bWVudCBvciBhIGJyb2tlbiByZXByZXNlbnRhdGlvbiBvZiB0aGUgY2h1bmsuIEtlZXAgdGhlIGFwcAogICAgLy8gbW91bnRhYmxlIGJ5IGZhbGxpbmcgYmFjayB0byB0aGUgZGVmYXVsdCBsb2NhbGUuIFBlcnNpc3RpbmcgdGhlIGZhbGxiYWNrCiAgICAvLyBhbHNvIHByZXZlbnRzIHJlcGVhdCBmYWlsdXJlcyBpbiBjbGllbnRzIHdoZXJlIGJyb3dzZXIgc3RvcmFnZSBpcyB0aGUKICAgIC8vIGFjdGl2ZSBsb2NhbGUgc291cmNlLgogICAgY29uc29sZS53YXJuKAogICAgICBgW2kxOG5dIGZhaWxlZCB0byBsb2FkICR7c2NvcGV9IGxvY2FsZSAiJHtwcmVmZXJyZWRMb2NhbGV9IjsgZmFsbGluZyBiYWNrIHRvICIke0RFRkFVTFRfTE9DQUxFfSJgLAogICAgICBlcnJvciwKICAgICk7CiAgICBhd2FpdCBlbnN1cmVTY29wZWRMb2NhbGVSZWFkeShzY29wZSwgREVGQVVMVF9MT0NBTEUpOwogICAgbG9jYWxlID0gREVGQVVMVF9MT0NBTEU7CiAgICBwZXJzaXN0QnJvd3NlckxvY2FsZShERUZBVUxUX0xPQ0FMRSk7CiAgfQogIHNldEFjdGl2ZUJyb3dzZXJMb2NhbGUoc2NvcGUsIGxvY2FsZSk7CiAgYXBwbHlEb2N1bWVudExvY2FsZShsb2NhbGUpOwogIHJldHVybiBjcmVhdGVJMThuKHsKICAgIGxlZ2FjeTogZmFsc2UsCiAgICBsb2NhbGUsCiAgICBmYWxsYmFja0xvY2FsZTogZmFsc2UsCiAgICBtZXNzYWdlczogdG9WdWVMb2NhbGVNZXNzYWdlcyhnZXRTY29wZWRMb2NhbGVNZXNzYWdlcyhzY29wZSwgbG9jYWxlKSksCiAgfSk7Cn07CgpleHBvcnQgY29uc3Qgc2V0Rm5Lbm9ja0xvY2FsZSA9IGFzeW5jICgKICBpMThuOiB1bmtub3duLAogIHZhbHVlOiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkLAopOiBQcm9taXNlPExvY2FsZUNvZGU+ID0+IHsKICBjb25zdCBsb2NhbGUgPSBub3JtYWxpemVMb2NhbGUodmFsdWUpID8/IERFRkFVTFRfTE9DQUxFOwogIGNvbnN0IHNjb3BlID0gZ2V0QWN0aXZlQnJvd3NlclNjb3BlKCk7CiAgYXdhaXQgZW5zdXJlU2NvcGVkTG9jYWxlUmVhZHkoc2NvcGUsIGxvY2FsZSk7CgogIGNvbnN0IHRhcmdldCA9IGdldExvY2FsZU1lc3NhZ2VUYXJnZXQoaTE4bik7CiAgY29uc3QgbWVzc2FnZXMgPSBhd2FpdCBsb2FkU2NvcGVkTG9jYWxlTWVzc2FnZXMoc2NvcGUsIGxvY2FsZSk7CiAgdGFyZ2V0LnNldExvY2FsZU1lc3NhZ2UobG9jYWxlLCB0b1Z1ZUxvY2FsZU1lc3NhZ2UobWVzc2FnZXMpKTsKCiAgdGFyZ2V0LmxvY2FsZS52YWx1ZSA9IGxvY2FsZTsKICBzZXRBY3RpdmVCcm93c2VyTG9jYWxlKHNjb3BlLCBsb2NhbGUpOwogIHBlcnNpc3RCcm93c2VyTG9jYWxlKGxvY2FsZSk7CiAgcmV0dXJuIGxvY2FsZTsKfTsKCmV4cG9ydCBjb25zdCBicm93c2VyVCA9ICgKICBrZXk6IHN0cmluZywKICBwYXJhbXM/OiBNZXNzYWdlUGFyYW1zLAogIGRlZmF1bHRMb2NhbGU/OiBzdHJpbmcgfCBudWxsLAopOiBzdHJpbmcgPT4gdHJhbnNsYXRlTG9hZGVkQnJvd3Nlck1lc3NhZ2Uoa2V5LCBwYXJhbXMsIGRlZmF1bHRMb2NhbGUpOwo=
+import { createI18n } from "vue-i18n";
+import {
+  DEFAULT_LOCALE,
+  LOCALE_COOKIE_NAME,
+  LOCALE_STORAGE_KEY,
+  type LocaleCode,
+  type MessageParams,
+  normalizeLocale,
+  resolveLocale,
+} from "./core";
+import {
+  ensureScopedLocaleReady,
+  getActiveBrowserScope,
+  getScopedLocaleMessages,
+  loadScopedLocaleMessages,
+  setActiveBrowserLocale,
+  translateLoadedBrowserMessage,
+  type BrowserI18nScope,
+  type ScopedLocaleMessages,
+} from "./browser-runtime";
+
+export interface CreateFnKnockI18nOptions {
+  scope?: BrowserI18nScope;
+  defaultLocale?: string | null;
+}
+
+type VueLocaleMessage = Record<string, any>;
+type VueLocaleMessages = Record<string, VueLocaleMessage>;
+
+type LocaleMessageTarget = {
+  locale: { value: string };
+  setLocaleMessage: (locale: LocaleCode, message: VueLocaleMessage) => void;
+};
+
+const toVueLocaleMessage = (messages: ScopedLocaleMessages): VueLocaleMessage =>
+  messages as VueLocaleMessage;
+
+const toVueLocaleMessages = (
+  messages: Partial<Record<LocaleCode, ScopedLocaleMessages>>,
+): VueLocaleMessages => messages as VueLocaleMessages;
+
+const getLocaleMessageTarget = (i18n: unknown): LocaleMessageTarget => {
+  const maybeGlobal = (i18n as { global?: LocaleMessageTarget }).global;
+  return maybeGlobal ?? (i18n as LocaleMessageTarget);
+};
+
+const browserLocaleInputs = () => {
+  if (typeof document === "undefined") {
+    return { cookieHeader: null, storageLocale: null };
+  }
+  let storageLocale: string | null = null;
+  try {
+    storageLocale =
+      globalThis.localStorage?.getItem(LOCALE_STORAGE_KEY) ?? null;
+  } catch {
+    storageLocale = null;
+  }
+  return { cookieHeader: document.cookie, storageLocale };
+};
+
+export const hasBrowserLocalePreference = (): boolean => {
+  const { cookieHeader, storageLocale } = browserLocaleInputs();
+  return Boolean(
+    resolveLocale({ cookieHeader, storageLocale, defaultLocale: "" }) !==
+      DEFAULT_LOCALE ||
+    normalizeLocale(storageLocale) ||
+    String(cookieHeader ?? "").includes(`${LOCALE_COOKIE_NAME}=`),
+  );
+};
+
+export const applyDocumentLocale = (locale: LocaleCode) => {
+  if (typeof document !== "undefined") {
+    document.documentElement.lang = locale;
+  }
+};
+
+export const detectBrowserLocale = (
+  defaultLocale: string | null | undefined = DEFAULT_LOCALE,
+): LocaleCode => {
+  const { cookieHeader, storageLocale } = browserLocaleInputs();
+  return resolveLocale({ cookieHeader, storageLocale, defaultLocale });
+};
+
+export const persistBrowserLocale = (locale: LocaleCode) => {
+  applyDocumentLocale(locale);
+  if (typeof document === "undefined") return;
+  document.cookie = `${LOCALE_COOKIE_NAME}=${encodeURIComponent(locale)}; Path=/; Max-Age=31536000; SameSite=Lax`;
+  try {
+    globalThis.localStorage?.setItem(LOCALE_STORAGE_KEY, locale);
+  } catch {
+    // Storage can be disabled in hardened or private browser contexts. The
+    // first-party cookie remains the cross-load preference.
+  }
+};
+
+export const createScopedFnKnockI18n = async (
+  scope: BrowserI18nScope,
+  { defaultLocale }: Pick<CreateFnKnockI18nOptions, "defaultLocale"> = {},
+) => {
+  const preferredLocale = detectBrowserLocale(defaultLocale);
+  let locale = preferredLocale;
+  try {
+    await ensureScopedLocaleReady(scope, preferredLocale);
+  } catch (error) {
+    if (preferredLocale === DEFAULT_LOCALE) throw error;
+
+    // A persisted locale points at its own fingerprinted chunk. After an
+    // upgrade, an embedded browser can retain that preference while holding a
+    // stale document or a broken representation of the chunk. Keep the app
+    // mountable by falling back to the default locale. Persisting the fallback
+    // also prevents repeat failures in clients where browser storage is the
+    // active locale source.
+    console.warn(
+      `[i18n] failed to load ${scope} locale "${preferredLocale}"; falling back to "${DEFAULT_LOCALE}"`,
+      error,
+    );
+    await ensureScopedLocaleReady(scope, DEFAULT_LOCALE);
+    locale = DEFAULT_LOCALE;
+    persistBrowserLocale(DEFAULT_LOCALE);
+  }
+  setActiveBrowserLocale(scope, locale);
+  applyDocumentLocale(locale);
+  return createI18n({
+    legacy: false,
+    locale,
+    fallbackLocale: false,
+    messages: toVueLocaleMessages(getScopedLocaleMessages(scope, locale)),
+  });
+};
+
+export const setFnKnockLocale = async (
+  i18n: unknown,
+  value: string | null | undefined,
+): Promise<LocaleCode> => {
+  const locale = normalizeLocale(value) ?? DEFAULT_LOCALE;
+  const scope = getActiveBrowserScope();
+  await ensureScopedLocaleReady(scope, locale);
+
+  const target = getLocaleMessageTarget(i18n);
+  const messages = await loadScopedLocaleMessages(scope, locale);
+  target.setLocaleMessage(locale, toVueLocaleMessage(messages));
+
+  target.locale.value = locale;
+  setActiveBrowserLocale(scope, locale);
+  persistBrowserLocale(locale);
+  return locale;
+};
+
+export const browserT = (
+  key: string,
+  params?: MessageParams,
+  defaultLocale?: string | null,
+): string => translateLoadedBrowserMessage(key, params, defaultLocale);

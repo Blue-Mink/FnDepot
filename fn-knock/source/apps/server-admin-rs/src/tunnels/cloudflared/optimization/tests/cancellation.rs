@@ -1,1 +1,11 @@
-I1t0ZXN0XQpmbiBjYW5jZWxsZWRfc2Nhbl9yZXF1ZXN0c19kb19ub3RfYmxvY2tfdGhlX25leHRfc2VyaWFsaXplZF9zY2FuKCkgewogICAgYXNzZXJ0IShzY2FuX2pvYl9hY3RpdmUoCiAgICAgICAgJmpzb24hKHsgInN0YXR1cyI6ICJydW5uaW5nIiwgImNhbmNlbFJlcXVlc3RlZCI6IGZhbHNlIH0pCiAgICApKTsKICAgIGFzc2VydCEoIXNjYW5fam9iX2FjdGl2ZSgKICAgICAgICAmanNvbiEoeyAic3RhdHVzIjogInJ1bm5pbmciLCAiY2FuY2VsUmVxdWVzdGVkIjogdHJ1ZSB9KQogICAgKSk7CiAgICBhc3NlcnQhKCFzY2FuX2pvYl9hY3RpdmUoJmpzb24hKHsgInN0YXR1cyI6ICJjb21wbGV0ZWQiIH0pKSk7Cn0KdXNlIHN1cGVyOjoqOwo=
+#[test]
+fn cancelled_scan_requests_do_not_block_the_next_serialized_scan() {
+    assert!(scan_job_active(
+        &json!({ "status": "running", "cancelRequested": false })
+    ));
+    assert!(!scan_job_active(
+        &json!({ "status": "running", "cancelRequested": true })
+    ));
+    assert!(!scan_job_active(&json!({ "status": "completed" })));
+}
+use super::*;

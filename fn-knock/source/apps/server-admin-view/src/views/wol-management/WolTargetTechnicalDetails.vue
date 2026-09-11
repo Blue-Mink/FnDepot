@@ -1,1 +1,59 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB0eXBlIHsgV09MVGFyZ2V0IH0gZnJvbSAiQC9saWIvYXBpL3dvbCI7CgpkZWZpbmVQcm9wczx7CiAgdGFyZ2V0OiBXT0xUYXJnZXQ7CiAgaGFzUmVsYXlzOiBib29sZWFuOwogIHN0YXR1c0xhYmVsOiBzdHJpbmc7CiAgY2hlY2tlZEF0TGFiZWw6IHN0cmluZzsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJncmlkIGdhcC00IHNtOmdyaWQtY29scy0yIHNtOmdhcC02Ij4KICAgIDxkaXY+CiAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3sgdCgiYWRtaW4ud29sLm1hYyIpIH19PC9wPgogICAgICA8cCBjbGFzcz0ibXQtMSBicmVhay1hbGwgZm9udC1tb25vIHRleHQtc20iPnt7IHRhcmdldC5tYWMgfX08L3A+CiAgICA8L2Rpdj4KICAgIDxkaXY+CiAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4ud29sLnN0YXR1cy5sYWJlbCIpIH19CiAgICAgIDwvcD4KICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJtdC0xIGdyaWQgZ2FwLTEgdGV4dC1zbSBzbTpmbGV4IHNtOmZsZXgtd3JhcCBzbTppdGVtcy1jZW50ZXIgc206Z2FwLXgtMyIKICAgICAgPgogICAgICAgIDxzcGFuIGNsYXNzPSJmb250LW1lZGl1bSI+e3sgc3RhdHVzTGFiZWwgfX08L3NwYW4+CiAgICAgICAgPHNwYW4gY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57eyBjaGVja2VkQXRMYWJlbCB9fTwvc3Bhbj4KICAgICAgICA8c3BhbgogICAgICAgICAgdi1pZj0idGFyZ2V0LnN0YXR1cy5vYnNlcnZlZElwIHx8IHRhcmdldC5pcEFkZHJlc3MiCiAgICAgICAgICBjbGFzcz0iZm9udC1tb25vIHRleHQteHMiCiAgICAgICAgPgogICAgICAgICAge3sgdGFyZ2V0LnN0YXR1cy5vYnNlcnZlZElwIHx8IHRhcmdldC5pcEFkZHJlc3MgfX0KICAgICAgICA8L3NwYW4+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8ZGl2IHYtaWY9Imhhc1JlbGF5cyIgY2xhc3M9InNtOmNvbC1zcGFuLTIiPgogICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIHt7IHQoImFkbWluLndvbC5kZWxpdmVyeVBhdGgiKSB9fQogICAgICA8L3A+CiAgICAgIDxkaXYgY2xhc3M9Im10LTEgdGV4dC1zbSI+CiAgICAgICAgPHRlbXBsYXRlIHYtaWY9InRhcmdldC5kZWxpdmVyeU1vZGUgPT09ICdsb2NhbCciPgogICAgICAgICAgPHA+e3sgdCgiYWRtaW4ud29sLmxvY2FsRGVsaXZlcnkiKSB9fTwvcD4KICAgICAgICAgIDxwCiAgICAgICAgICAgIHYtaWY9InRhcmdldC5icm9hZGNhc3RBZGRyZXNzIgogICAgICAgICAgICBjbGFzcz0ibXQtMC41IGJyZWFrLWFsbCBmb250LW1vbm8gdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHRhcmdldC5icm9hZGNhc3RBZGRyZXNzIH19OjkKICAgICAgICAgIDwvcD4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgIDxwIHYtZWxzZS1pZj0idGFyZ2V0LnJlbGF5Ij57eyB0YXJnZXQucmVsYXkubmFtZSB9fTwvcD4KICAgICAgICA8cCB2LWVsc2UgY2xhc3M9InRleHQtZGVzdHJ1Y3RpdmUiPgogICAgICAgICAge3sgdCgiYWRtaW4ud29sLnJlbGF5TWlzc2luZyIpIH19CiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import type { WOLTarget } from "@/lib/api/wol";
+
+defineProps<{
+  target: WOLTarget;
+  hasRelays: boolean;
+  statusLabel: string;
+  checkedAtLabel: string;
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <div class="grid gap-4 sm:grid-cols-2 sm:gap-6">
+    <div>
+      <p class="text-xs text-muted-foreground">{{ t("admin.wol.mac") }}</p>
+      <p class="mt-1 break-all font-mono text-sm">{{ target.mac }}</p>
+    </div>
+    <div>
+      <p class="text-xs text-muted-foreground">
+        {{ t("admin.wol.status.label") }}
+      </p>
+      <div
+        class="mt-1 grid gap-1 text-sm sm:flex sm:flex-wrap sm:items-center sm:gap-x-3"
+      >
+        <span class="font-medium">{{ statusLabel }}</span>
+        <span class="text-xs text-muted-foreground">{{ checkedAtLabel }}</span>
+        <span
+          v-if="target.status.observedIp || target.ipAddress"
+          class="font-mono text-xs"
+        >
+          {{ target.status.observedIp || target.ipAddress }}
+        </span>
+      </div>
+    </div>
+    <div v-if="hasRelays" class="sm:col-span-2">
+      <p class="text-xs text-muted-foreground">
+        {{ t("admin.wol.deliveryPath") }}
+      </p>
+      <div class="mt-1 text-sm">
+        <template v-if="target.deliveryMode === 'local'">
+          <p>{{ t("admin.wol.localDelivery") }}</p>
+          <p
+            v-if="target.broadcastAddress"
+            class="mt-0.5 break-all font-mono text-xs text-muted-foreground"
+          >
+            {{ target.broadcastAddress }}:9
+          </p>
+        </template>
+        <p v-else-if="target.relay">{{ target.relay.name }}</p>
+        <p v-else class="text-destructive">
+          {{ t("admin.wol.relayMissing") }}
+        </p>
+      </div>
+    </div>
+  </div>
+</template>

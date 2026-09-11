@@ -1,1 +1,230 @@
-PHRlbXBsYXRlPgogIDxkaXYgdi1pZj0icHJvcHMuYWN0aXZlIiBjbGFzcz0iZHluYW1pYy13aGl0ZS1iYWNrZ3JvdW5kIiBhcmlhLWhpZGRlbj0idHJ1ZSI+CiAgICA8c3ZnIGNsYXNzPSJkeW5hbWljLXdoaXRlLWJhY2tncm91bmRfX2ZpbHRlcnMiIGZvY3VzYWJsZT0iZmFsc2UiPgogICAgICA8ZGVmcz4KICAgICAgICA8ZmlsdGVyCiAgICAgICAgICBpZD0iZHluYW1pYy13aGl0ZS1saXF1aWQtZ2xhc3MtZmlsdGVyIgogICAgICAgICAgeD0iLTEyJSIKICAgICAgICAgIHk9Ii0xMiUiCiAgICAgICAgICB3aWR0aD0iMTI0JSIKICAgICAgICAgIGhlaWdodD0iMTI0JSIKICAgICAgICAgIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiIKICAgICAgICA+CiAgICAgICAgICA8ZmVUdXJidWxlbmNlCiAgICAgICAgICAgIHR5cGU9ImZyYWN0YWxOb2lzZSIKICAgICAgICAgICAgYmFzZUZyZXF1ZW5jeT0iMC4wMjYgMC4wMTgiCiAgICAgICAgICAgIG51bU9jdGF2ZXM9IjIiCiAgICAgICAgICAgIHNlZWQ9IjciCiAgICAgICAgICAgIHJlc3VsdD0iZHluYW1pY1doaXRlTm9pc2UiCiAgICAgICAgICAvPgogICAgICAgICAgPGZlR2F1c3NpYW5CbHVyCiAgICAgICAgICAgIGluPSJkeW5hbWljV2hpdGVOb2lzZSIKICAgICAgICAgICAgc3RkRGV2aWF0aW9uPSIwLjU1IgogICAgICAgICAgICByZXN1bHQ9ImR5bmFtaWNXaGl0ZVNvZnROb2lzZSIKICAgICAgICAgIC8+CiAgICAgICAgICA8ZmVDb21wb25lbnRUcmFuc2ZlcgogICAgICAgICAgICBpbj0iZHluYW1pY1doaXRlU29mdE5vaXNlIgogICAgICAgICAgICByZXN1bHQ9ImR5bmFtaWNXaGl0ZURpc3BsYWNlbWVudE1hcCIKICAgICAgICAgID4KICAgICAgICAgICAgPGZlRnVuY1IKICAgICAgICAgICAgICB0eXBlPSJnYW1tYSIKICAgICAgICAgICAgICBhbXBsaXR1ZGU9IjEuOCIKICAgICAgICAgICAgICBleHBvbmVudD0iMC43MiIKICAgICAgICAgICAgICBvZmZzZXQ9Ii0wLjE4IgogICAgICAgICAgICAvPgogICAgICAgICAgICA8ZmVGdW5jRwogICAgICAgICAgICAgIHR5cGU9ImdhbW1hIgogICAgICAgICAgICAgIGFtcGxpdHVkZT0iMS44IgogICAgICAgICAgICAgIGV4cG9uZW50PSIwLjcyIgogICAgICAgICAgICAgIG9mZnNldD0iLTAuMTgiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2ZlQ29tcG9uZW50VHJhbnNmZXI+CiAgICAgICAgICA8ZmVEaXNwbGFjZW1lbnRNYXAKICAgICAgICAgICAgaW49IlNvdXJjZUdyYXBoaWMiCiAgICAgICAgICAgIGluMj0iZHluYW1pY1doaXRlRGlzcGxhY2VtZW50TWFwIgogICAgICAgICAgICBzY2FsZT0iNDYiCiAgICAgICAgICAgIHhDaGFubmVsU2VsZWN0b3I9IlIiCiAgICAgICAgICAgIHlDaGFubmVsU2VsZWN0b3I9IkciCiAgICAgICAgICAvPgogICAgICAgIDwvZmlsdGVyPgogICAgICA8L2RlZnM+CiAgICA8L3N2Zz4KICAgIDxkaXYKICAgICAgOmlkPSJEWU5BTUlDX1dISVRFX0JBQ0tHUk9VTkRfRE9NX0lEIgogICAgICBjbGFzcz0iZHluYW1pYy13aGl0ZS1iYWNrZ3JvdW5kX19jYW52YXMiCiAgICA+PC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KaW1wb3J0IHsgbmV4dFRpY2ssIG9uQmVmb3JlVW5tb3VudCwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgYWJzdHJhY3RTaGFwZUJnVXJsIGZyb20gIi4uLy4uL2Fzc2V0cy9saWIvQWJzdHJhY3RTaGFwZUJnLm1pbi5qcz91cmwiOwoKdHlwZSBBYnN0cmFjdFNoYXBlQmdPcHRpb25zID0gewogIGRvbTogc3RyaW5nOwogIGNvbG9yczogc3RyaW5nW107CiAgbG9vcDogYm9vbGVhbjsKfTsKCnR5cGUgQWJzdHJhY3RTaGFwZUJnSW5zdGFuY2UgPSB7CiAgX3VwZGF0ZT86ICgpID0+IHZvaWQ7CiAgY2FudmFzTWFuYWdlcj86IHsKICAgIGRlc3Ryb3k/OiAoKSA9PiB2b2lkOwogIH07CiAgZGVzdHJveT86ICgpID0+IHZvaWQ7CiAgbG9vcD86IGJvb2xlYW47CiAgcmVtb3ZlPzogKCkgPT4gdm9pZDsKfTsKCmRlY2xhcmUgZ2xvYmFsIHsKICBpbnRlcmZhY2UgV2luZG93IHsKICAgIENvbG9yNEJnPzogewogICAgICBBYnN0cmFjdFNoYXBlQmc6IG5ldyAoCiAgICAgICAgb3B0aW9uczogQWJzdHJhY3RTaGFwZUJnT3B0aW9ucywKICAgICAgKSA9PiBBYnN0cmFjdFNoYXBlQmdJbnN0YW5jZTsKICAgIH07CiAgfQp9Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBhY3RpdmU6IGJvb2xlYW47Cn0+KCk7Cgpjb25zdCBEWU5BTUlDX1dISVRFX0JBQ0tHUk9VTkRfRE9NX0lEID0gImJveCI7CmNvbnN0IERZTkFNSUNfV0hJVEVfQkFDS0dST1VORF9DT0xPUlMgPSBbCiAgIiNmNWY1ZjUiLAogICIjZTNlM2UzIiwKICAiI2U4ZThlOCIsCiAgIiNlYmViZWIiLAogICIjZjBmMGYwIiwKICAiI2ZmZmZmZiIsCl07CgpsZXQgYWN0aXZhdGlvblRva2VuID0gMDsKbGV0IGJhY2tncm91bmRJbnN0YW5jZTogQWJzdHJhY3RTaGFwZUJnSW5zdGFuY2UgfCBudWxsID0gbnVsbDsKbGV0IHNjcmlwdExvYWRQcm9taXNlOiBQcm9taXNlPHZvaWQ+IHwgbnVsbCA9IG51bGw7Cgpjb25zdCBoYXNXZWJHTFN1cHBvcnQgPSAoKSA9PiB7CiAgdHJ5IHsKICAgIGNvbnN0IGNhbnZhcyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoImNhbnZhcyIpOwogICAgcmV0dXJuIEJvb2xlYW4oCiAgICAgIGNhbnZhcy5nZXRDb250ZXh0KCJ3ZWJnbCIpIHx8CiAgICAgIGNhbnZhcy5nZXRDb250ZXh0KCJleHBlcmltZW50YWwtd2ViZ2wiKSB8fAogICAgICBjYW52YXMuZ2V0Q29udGV4dCgid2ViZ2wyIiksCiAgICApOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIGZhbHNlOwogIH0KfTsKCmNvbnN0IGVuc3VyZUFic3RyYWN0U2hhcGVTY3JpcHQgPSAoKSA9PiB7CiAgaWYgKHdpbmRvdy5Db2xvcjRCZz8uQWJzdHJhY3RTaGFwZUJnKSByZXR1cm4gUHJvbWlzZS5yZXNvbHZlKCk7CiAgaWYgKHNjcmlwdExvYWRQcm9taXNlKSByZXR1cm4gc2NyaXB0TG9hZFByb21pc2U7CgogIHNjcmlwdExvYWRQcm9taXNlID0gbmV3IFByb21pc2U8dm9pZD4oKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgY29uc3Qgc2NyaXB0ID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7CiAgICBzY3JpcHQuc3JjID0gYWJzdHJhY3RTaGFwZUJnVXJsOwogICAgc2NyaXB0LmFzeW5jID0gdHJ1ZTsKICAgIHNjcmlwdC5kYXRhc2V0LmZuS25vY2tBYnN0cmFjdFNoYXBlQmcgPSAidHJ1ZSI7CiAgICBzY3JpcHQub25sb2FkID0gKCkgPT4gcmVzb2x2ZSgpOwogICAgc2NyaXB0Lm9uZXJyb3IgPSAoKSA9PiB7CiAgICAgIHNjcmlwdExvYWRQcm9taXNlID0gbnVsbDsKICAgICAgcmVqZWN0KG5ldyBFcnJvcigiRmFpbGVkIHRvIGxvYWQgZHluYW1pYyB3aGl0ZSBiYWNrZ3JvdW5kIHNjcmlwdCIpKTsKICAgIH07CiAgICBkb2N1bWVudC5oZWFkLmFwcGVuZENoaWxkKHNjcmlwdCk7CiAgfSk7CgogIHJldHVybiBzY3JpcHRMb2FkUHJvbWlzZTsKfTsKCmNvbnN0IGNsZWFyQmFja2dyb3VuZENvbnRhaW5lciA9ICgpID0+IHsKICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChEWU5BTUlDX1dISVRFX0JBQ0tHUk9VTkRfRE9NX0lEKT8ucmVwbGFjZUNoaWxkcmVuKCk7Cn07Cgpjb25zdCBkaXNwb3NlQmFja2dyb3VuZEluc3RhbmNlID0gKCkgPT4gewogIHRyeSB7CiAgICBpZiAoYmFja2dyb3VuZEluc3RhbmNlKSB7CiAgICAgIGJhY2tncm91bmRJbnN0YW5jZS5sb29wID0gZmFsc2U7CiAgICAgIGJhY2tncm91bmRJbnN0YW5jZS5fdXBkYXRlID0gKCkgPT4ge307CiAgICB9CiAgICBiYWNrZ3JvdW5kSW5zdGFuY2U/LmNhbnZhc01hbmFnZXI/LmRlc3Ryb3k/LigpOwogICAgYmFja2dyb3VuZEluc3RhbmNlPy5kZXN0cm95Py4oKTsKICAgIGJhY2tncm91bmRJbnN0YW5jZT8ucmVtb3ZlPy4oKTsKICB9IGNhdGNoIChlcnJvcikgewogICAgY29uc29sZS53YXJuKCJGYWlsZWQgdG8gZGlzcG9zZSBkeW5hbWljIHdoaXRlIGJhY2tncm91bmQ6IiwgZXJyb3IpOwogIH0gZmluYWxseSB7CiAgICBiYWNrZ3JvdW5kSW5zdGFuY2UgPSBudWxsOwogICAgY2xlYXJCYWNrZ3JvdW5kQ29udGFpbmVyKCk7CiAgfQp9OwoKY29uc3QgaW5pdGlhbGl6ZUJhY2tncm91bmQgPSBhc3luYyAoaXNTdGlsbEFjdGl2ZTogKCkgPT4gYm9vbGVhbikgPT4gewogIGNvbnN0IGN1cnJlbnRUb2tlbiA9ICsrYWN0aXZhdGlvblRva2VuOwoKICBpZiAoIWhhc1dlYkdMU3VwcG9ydCgpKSB7CiAgICBjb25zb2xlLndhcm4oIldlYkdMIG5vdCBzdXBwb3J0ZWQsIHNraXBwaW5nIGR5bmFtaWMgd2hpdGUgYmFja2dyb3VuZCIpOwogICAgcmV0dXJuOwogIH0KCiAgdHJ5IHsKICAgIGF3YWl0IGVuc3VyZUFic3RyYWN0U2hhcGVTY3JpcHQoKTsKICAgIGF3YWl0IG5leHRUaWNrKCk7CgogICAgY29uc3QgY29udGFpbmVyID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoRFlOQU1JQ19XSElURV9CQUNLR1JPVU5EX0RPTV9JRCk7CiAgICBpZiAoIWlzU3RpbGxBY3RpdmUoKSB8fCBjdXJyZW50VG9rZW4gIT09IGFjdGl2YXRpb25Ub2tlbiB8fCAhY29udGFpbmVyKSB7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBkaXNwb3NlQmFja2dyb3VuZEluc3RhbmNlKCk7CiAgICBiYWNrZ3JvdW5kSW5zdGFuY2UgPSBuZXcgd2luZG93LkNvbG9yNEJnIS5BYnN0cmFjdFNoYXBlQmcoewogICAgICBkb206IERZTkFNSUNfV0hJVEVfQkFDS0dST1VORF9ET01fSUQsCiAgICAgIGNvbG9yczogWy4uLkRZTkFNSUNfV0hJVEVfQkFDS0dST1VORF9DT0xPUlNdLAogICAgICBsb29wOiB0cnVlLAogICAgfSk7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGNvbnNvbGUud2FybigiRmFpbGVkIHRvIGluaXRpYWxpemUgZHluYW1pYyB3aGl0ZSBiYWNrZ3JvdW5kOiIsIGVycm9yKTsKICB9Cn07Cgp3YXRjaCgKICAoKSA9PiBwcm9wcy5hY3RpdmUsCiAgKGlzQWN0aXZlKSA9PiB7CiAgICBhY3RpdmF0aW9uVG9rZW4gKz0gMTsKCiAgICBpZiAoIWlzQWN0aXZlKSB7CiAgICAgIGRpc3Bvc2VCYWNrZ3JvdW5kSW5zdGFuY2UoKTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIHZvaWQgaW5pdGlhbGl6ZUJhY2tncm91bmQoKCkgPT4gcHJvcHMuYWN0aXZlKTsKICB9LAogIHsgaW1tZWRpYXRlOiB0cnVlIH0sCik7CgpvbkJlZm9yZVVubW91bnQoKCkgPT4gewogIGFjdGl2YXRpb25Ub2tlbiArPSAxOwogIGRpc3Bvc2VCYWNrZ3JvdW5kSW5zdGFuY2UoKTsKfSk7Cjwvc2NyaXB0PgoKPHN0eWxlIHNjb3BlZD4KLmR5bmFtaWMtd2hpdGUtYmFja2dyb3VuZCB7CiAgcG9pbnRlci1ldmVudHM6IG5vbmU7CiAgcG9zaXRpb246IGZpeGVkOwogIGluc2V0OiAwOwogIHotaW5kZXg6IC0xMDsKICBvdmVyZmxvdzogaGlkZGVuOwogIGJhY2tncm91bmQ6ICNmZmZmZmY7Cn0KCi5keW5hbWljLXdoaXRlLWJhY2tncm91bmRfX2NhbnZhcyB7CiAgcG9zaXRpb246IGFic29sdXRlOwogIGluc2V0OiAwOwp9CgouZHluYW1pYy13aGl0ZS1iYWNrZ3JvdW5kX19maWx0ZXJzIHsKICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgd2lkdGg6IDA7CiAgaGVpZ2h0OiAwOwp9Cjwvc3R5bGU+Cg==
+<template>
+  <div v-if="props.active" class="dynamic-white-background" aria-hidden="true">
+    <svg class="dynamic-white-background__filters" focusable="false">
+      <defs>
+        <filter
+          id="dynamic-white-liquid-glass-filter"
+          x="-12%"
+          y="-12%"
+          width="124%"
+          height="124%"
+          color-interpolation-filters="sRGB"
+        >
+          <feTurbulence
+            type="fractalNoise"
+            baseFrequency="0.026 0.018"
+            numOctaves="2"
+            seed="7"
+            result="dynamicWhiteNoise"
+          />
+          <feGaussianBlur
+            in="dynamicWhiteNoise"
+            stdDeviation="0.55"
+            result="dynamicWhiteSoftNoise"
+          />
+          <feComponentTransfer
+            in="dynamicWhiteSoftNoise"
+            result="dynamicWhiteDisplacementMap"
+          >
+            <feFuncR
+              type="gamma"
+              amplitude="1.8"
+              exponent="0.72"
+              offset="-0.18"
+            />
+            <feFuncG
+              type="gamma"
+              amplitude="1.8"
+              exponent="0.72"
+              offset="-0.18"
+            />
+          </feComponentTransfer>
+          <feDisplacementMap
+            in="SourceGraphic"
+            in2="dynamicWhiteDisplacementMap"
+            scale="46"
+            xChannelSelector="R"
+            yChannelSelector="G"
+          />
+        </filter>
+      </defs>
+    </svg>
+    <div
+      :id="DYNAMIC_WHITE_BACKGROUND_DOM_ID"
+      class="dynamic-white-background__canvas"
+    ></div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { nextTick, onBeforeUnmount, watch } from "vue";
+import abstractShapeBgUrl from "../../assets/lib/AbstractShapeBg.min.js?url";
+
+type AbstractShapeBgOptions = {
+  dom: string;
+  colors: string[];
+  loop: boolean;
+};
+
+type AbstractShapeBgInstance = {
+  _update?: () => void;
+  canvasManager?: {
+    destroy?: () => void;
+  };
+  destroy?: () => void;
+  loop?: boolean;
+  remove?: () => void;
+};
+
+declare global {
+  interface Window {
+    Color4Bg?: {
+      AbstractShapeBg: new (
+        options: AbstractShapeBgOptions,
+      ) => AbstractShapeBgInstance;
+    };
+  }
+}
+
+const props = defineProps<{
+  active: boolean;
+}>();
+
+const DYNAMIC_WHITE_BACKGROUND_DOM_ID = "box";
+const DYNAMIC_WHITE_BACKGROUND_COLORS = [
+  "#f5f5f5",
+  "#e3e3e3",
+  "#e8e8e8",
+  "#ebebeb",
+  "#f0f0f0",
+  "#ffffff",
+];
+
+let activationToken = 0;
+let backgroundInstance: AbstractShapeBgInstance | null = null;
+let scriptLoadPromise: Promise<void> | null = null;
+
+const hasWebGLSupport = () => {
+  try {
+    const canvas = document.createElement("canvas");
+    return Boolean(
+      canvas.getContext("webgl") ||
+      canvas.getContext("experimental-webgl") ||
+      canvas.getContext("webgl2"),
+    );
+  } catch {
+    return false;
+  }
+};
+
+const ensureAbstractShapeScript = () => {
+  if (window.Color4Bg?.AbstractShapeBg) return Promise.resolve();
+  if (scriptLoadPromise) return scriptLoadPromise;
+
+  scriptLoadPromise = new Promise<void>((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = abstractShapeBgUrl;
+    script.async = true;
+    script.dataset.fnKnockAbstractShapeBg = "true";
+    script.onload = () => resolve();
+    script.onerror = () => {
+      scriptLoadPromise = null;
+      reject(new Error("Failed to load dynamic white background script"));
+    };
+    document.head.appendChild(script);
+  });
+
+  return scriptLoadPromise;
+};
+
+const clearBackgroundContainer = () => {
+  document.getElementById(DYNAMIC_WHITE_BACKGROUND_DOM_ID)?.replaceChildren();
+};
+
+const disposeBackgroundInstance = () => {
+  try {
+    if (backgroundInstance) {
+      backgroundInstance.loop = false;
+      backgroundInstance._update = () => {};
+    }
+    backgroundInstance?.canvasManager?.destroy?.();
+    backgroundInstance?.destroy?.();
+    backgroundInstance?.remove?.();
+  } catch (error) {
+    console.warn("Failed to dispose dynamic white background:", error);
+  } finally {
+    backgroundInstance = null;
+    clearBackgroundContainer();
+  }
+};
+
+const initializeBackground = async (isStillActive: () => boolean) => {
+  const currentToken = ++activationToken;
+
+  if (!hasWebGLSupport()) {
+    console.warn("WebGL not supported, skipping dynamic white background");
+    return;
+  }
+
+  try {
+    await ensureAbstractShapeScript();
+    await nextTick();
+
+    const container = document.getElementById(DYNAMIC_WHITE_BACKGROUND_DOM_ID);
+    if (!isStillActive() || currentToken !== activationToken || !container) {
+      return;
+    }
+
+    disposeBackgroundInstance();
+    backgroundInstance = new window.Color4Bg!.AbstractShapeBg({
+      dom: DYNAMIC_WHITE_BACKGROUND_DOM_ID,
+      colors: [...DYNAMIC_WHITE_BACKGROUND_COLORS],
+      loop: true,
+    });
+  } catch (error) {
+    console.warn("Failed to initialize dynamic white background:", error);
+  }
+};
+
+watch(
+  () => props.active,
+  (isActive) => {
+    activationToken += 1;
+
+    if (!isActive) {
+      disposeBackgroundInstance();
+      return;
+    }
+
+    void initializeBackground(() => props.active);
+  },
+  { immediate: true },
+);
+
+onBeforeUnmount(() => {
+  activationToken += 1;
+  disposeBackgroundInstance();
+});
+</script>
+
+<style scoped>
+.dynamic-white-background {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.dynamic-white-background__canvas {
+  position: absolute;
+  inset: 0;
+}
+
+.dynamic-white-background__filters {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+</style>

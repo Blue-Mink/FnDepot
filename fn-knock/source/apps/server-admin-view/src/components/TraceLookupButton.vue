@@ -1,1 +1,69 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gInZ1ZS1yb3V0ZXIiOwppbXBvcnQgeyBSb3V0ZSB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBpc1RyYWNlSWQsIG5vcm1hbGl6ZVRyYWNlSWQgfSBmcm9tICJAL2xpYi90cmFjZS1pZCI7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7CmNvbnN0IG9wZW4gPSByZWYoZmFsc2UpOwpjb25zdCB2YWx1ZSA9IHJlZigiIik7CmNvbnN0IGludmFsaWQgPSByZWYoZmFsc2UpOwoKY29uc3Qgc3VibWl0ID0gKCkgPT4gewogIGNvbnN0IHRyYWNlSWQgPSBub3JtYWxpemVUcmFjZUlkKHZhbHVlLnZhbHVlKTsKICBpbnZhbGlkLnZhbHVlID0gIWlzVHJhY2VJZCh0cmFjZUlkKTsKICBpZiAoaW52YWxpZC52YWx1ZSkgcmV0dXJuOwogIG9wZW4udmFsdWUgPSBmYWxzZTsKICB2b2lkIHJvdXRlci5wdXNoKGAvdHJhY2VzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KHRyYWNlSWQpfWApOwp9Owo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIGNsYXNzPSJzaHJpbmstMCIgQGNsaWNrPSJvcGVuID0gdHJ1ZSI+CiAgICA8Um91dGUgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgIHt7IHQoImFkbWluLnRyYWNlLmxvb2t1cCIpIH19CiAgPC9CdXR0b24+CgogIDxEaWFsb2cgdi1tb2RlbDpvcGVuPSJvcGVuIj4KICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJzbTptYXgtdy1bNTYwcHhdIj4KICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICA8RGlhbG9nVGl0bGU+e3sgdCgiYWRtaW4udHJhY2UubG9va3VwVGl0bGUiKSB9fTwvRGlhbG9nVGl0bGU+CiAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAge3sgdCgiYWRtaW4udHJhY2UubG9va3VwRGVzY3JpcHRpb24iKSB9fQogICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgogICAgICA8Zm9ybSBjbGFzcz0ic3BhY2UteS0yIiBAc3VibWl0LnByZXZlbnQ9InN1Ym1pdCI+CiAgICAgICAgPExhYmVsIGZvcj0idHJhY2UtaWQtcXVlcnkiPnt7IHQoImFkbWluLnRyYWNlLmxhYmVsIikgfX08L0xhYmVsPgogICAgICAgIDxJbnB1dAogICAgICAgICAgaWQ9InRyYWNlLWlkLXF1ZXJ5IgogICAgICAgICAgdi1tb2RlbD0idmFsdWUiCiAgICAgICAgICBhdXRvY29tcGxldGU9Im9mZiIKICAgICAgICAgIHNwZWxsY2hlY2s9ImZhbHNlIgogICAgICAgICAgY2xhc3M9ImZvbnQtbW9ubyIKICAgICAgICAgIDphcmlhLWludmFsaWQ9ImludmFsaWQiCiAgICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLnRyYWNlLmlucHV0UGxhY2Vob2xkZXInKSIKICAgICAgICAgIEBpbnB1dD0iaW52YWxpZCA9IGZhbHNlIgogICAgICAgIC8+CiAgICAgICAgPHAgdi1pZj0iaW52YWxpZCIgY2xhc3M9InRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSIgcm9sZT0iYWxlcnQiPgogICAgICAgICAge3sgdCgiYWRtaW4udHJhY2UuaW52YWxpZCIpIH19CiAgICAgICAgPC9wPgogICAgICAgIDxEaWFsb2dGb290ZXIgY2xhc3M9InB0LTMiPgogICAgICAgICAgPEJ1dHRvbiB0eXBlPSJzdWJtaXQiPnt7IHQoImFkbWluLnRyYWNlLnNlYXJjaCIpIH19PC9CdXR0b24+CiAgICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICAgIDwvZm9ybT4KICAgIDwvRGlhbG9nQ29udGVudD4KICA8L0RpYWxvZz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRouter } from "vue-router";
+import { Route } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { isTraceId, normalizeTraceId } from "@/lib/trace-id";
+
+const { t } = useI18n();
+const router = useRouter();
+const open = ref(false);
+const value = ref("");
+const invalid = ref(false);
+
+const submit = () => {
+  const traceId = normalizeTraceId(value.value);
+  invalid.value = !isTraceId(traceId);
+  if (invalid.value) return;
+  open.value = false;
+  void router.push(`/traces/${encodeURIComponent(traceId)}`);
+};
+</script>
+
+<template>
+  <Button variant="outline" class="shrink-0" @click="open = true">
+    <Route class="mr-2 h-4 w-4" />
+    {{ t("admin.trace.lookup") }}
+  </Button>
+
+  <Dialog v-model:open="open">
+    <DialogContent class="sm:max-w-[560px]">
+      <DialogHeader>
+        <DialogTitle>{{ t("admin.trace.lookupTitle") }}</DialogTitle>
+        <DialogDescription>
+          {{ t("admin.trace.lookupDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+      <form class="space-y-2" @submit.prevent="submit">
+        <Label for="trace-id-query">{{ t("admin.trace.label") }}</Label>
+        <Input
+          id="trace-id-query"
+          v-model="value"
+          autocomplete="off"
+          spellcheck="false"
+          class="font-mono"
+          :aria-invalid="invalid"
+          :placeholder="t('admin.trace.inputPlaceholder')"
+          @input="invalid = false"
+        />
+        <p v-if="invalid" class="text-sm text-destructive" role="alert">
+          {{ t("admin.trace.invalid") }}
+        </p>
+        <DialogFooter class="pt-3">
+          <Button type="submit">{{ t("admin.trace.search") }}</Button>
+        </DialogFooter>
+      </form>
+    </DialogContent>
+  </Dialog>
+</template>

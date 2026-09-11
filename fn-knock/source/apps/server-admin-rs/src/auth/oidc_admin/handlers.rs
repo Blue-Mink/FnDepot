@@ -1,1 +1,431 @@
-dXNlIGF4dW06OnsKICAgIEpzb24sCiAgICBleHRyYWN0Ojp7UGF0aCwgU3RhdGV9LAogICAgaHR0cDo6e0hlYWRlck1hcCwgU3RhdHVzQ29kZSwgVXJpfSwKICAgIHJlc3BvbnNlOjp7SW50b1Jlc3BvbnNlLCBSZXNwb25zZX0sCn07CnVzZSBzZXJkZV9qc29uOjp7TWFwLCBWYWx1ZSwganNvbn07Cgp1c2UgY3JhdGU6OntpMThuOjpUcmFuc2xhdG9yLCByZXNwb25zZSwgc3RhdGU6OkFwcFN0YXRlLCB0aW1lX3V0aWxzfTsKCnVzZSBzdXBlcjo6ewogICAgREVGQVVMVF9JTlZJVEVfVFRMX1NFQ09ORFMsCiAgICBkaXNjb3Zlcnk6OnJ1bl9wcm92aWRlcl90ZXN0LAogICAgcHJvdmlkZXI6OnsKICAgICAgICBidWlsZF9uZXdfcHJvdmlkZXIsIGJ1aWxkX3VwZGF0ZWRfcHJvdmlkZXIsIG1hc2tfcHJvdmlkZXIsCiAgICAgICAgbWlzc2luZ19yZXF1aXJlZF9wcm92aWRlcl9maWVsZHMsIG5vcm1hbGl6ZV9zdHJpbmcsIHByb3ZpZGVyX2NhdGFsb2csCiAgICB9LAogICAgc3RvcmFnZTo6ewogICAgICAgIG9pZGNfZGVsZXRlX2JpbmRpbmcsIG9pZGNfZGVsZXRlX3Byb3ZpZGVyLCBvaWRjX2dldF9wcm92aWRlciwgb2lkY19saXN0X2JpbmRpbmdzLAogICAgICAgIG9pZGNfbGlzdF9wcm92aWRlcnMsIG9pZGNfc2F2ZV9wcm92aWRlciwKICAgIH0sCiAgICB0ZXh0OjpvaWRjX3RleHQsCiAgICB0b2tlbnM6OntjcmVhdGVfcHVibGljX3Rva2VuLCBpbnZpdGVfa2V5LCBzaGEyNTZfaGV4fSwKICAgIHVybHM6OntjYWxsYmFja19iYXNlX3VybCwgaW52aXRlX2Jhc2VfdXJsfSwKfTsKCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL2F1dGgvb2lkYy9jYXRhbG9nIiwgdGFnID0gImF1dGgtb2lkYyIsIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX2F1dGhfb2lkY19jYXRhbG9nIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIk9JREMgcHJvdmlkZXIgY2F0YWxvZyIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gY2F0YWxvZyhTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICByZXNwb25zZTo6b2soanNvbiEoeyAicHJvdmlkZXJzIjogcHJvdmlkZXJfY2F0YWxvZygmdHJhbnNsYXRvcikgfSkpLmludG9fcmVzcG9uc2UoKQp9CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi9hdXRoL29pZGMvcHJvdmlkZXJzIiwgdGFnID0gImF1dGgtb2lkYyIsIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX2F1dGhfb2lkY19wcm92aWRlcnMiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiT0lEQyBwcm92aWRlcnMiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGxpc3RfcHJvdmlkZXJzKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBoZWFkZXJzOiBIZWFkZXJNYXAsCiAgICB1cmk6IFVyaSwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGxldCBwcm92aWRlcnMgPSBtYXRjaCBvaWRjX2xpc3RfcHJvdmlkZXJzKCZzdGF0ZSkuYXdhaXQgewogICAgICAgIE9rKHByb3ZpZGVycykgPT4gcHJvdmlkZXJzLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gbGlzdCBPSURDIHByb3ZpZGVycyIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgb2lkY190ZXh0KCZ0cmFuc2xhdG9yLCAibGlzdFByb3ZpZGVyc0ZhaWxlZCIpLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH07CiAgICBsZXQgY29uZmlnID0gbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQgewogICAgICAgIE9rKGNvbmZpZykgPT4gY29uZmlnLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gbG9hZCBjb25maWcgZm9yIE9JREMgcHJvdmlkZXIgY2FsbGJhY2sgVVJMcyIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgb2lkY190ZXh0KCZ0cmFuc2xhdG9yLCAibG9hZENvbmZpZ0ZhaWxlZCIpLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH07CiAgICBsZXQgY2FsbGJhY2tfYmFzZV91cmwgPSBjYWxsYmFja19iYXNlX3VybCgmaGVhZGVycywgJnVyaSwgJmNvbmZpZyk7CiAgICBsZXQgdmlld3MgPSBwcm92aWRlcnMKICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAubWFwKHxwcm92aWRlcnwgbWFza19wcm92aWRlcihwcm92aWRlciwgY2FsbGJhY2tfYmFzZV91cmwuYXNfZGVyZWYoKSkpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICByZXNwb25zZTo6b2soanNvbiEoeyAicHJvdmlkZXJzIjogdmlld3MgfSkpLmludG9fcmVzcG9uc2UoKQp9CgojW3V0b2lwYTo6cGF0aChwb3N0LCBwYXRoID0gIi9hcGkvYWRtaW4vYXV0aC9vaWRjL3Byb3ZpZGVycyIsIHRhZyA9ICJhdXRoLW9pZGMiLCBvcGVyYXRpb25faWQgPSAicG9zdF9hcGlfYWRtaW5fYXV0aF9vaWRjX3Byb3ZpZGVycyIsIHJlcXVlc3RfYm9keSA9IHNlcmRlX2pzb246OlZhbHVlLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiQ3JlYXRlZCBPSURDIHByb3ZpZGVyIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBjcmVhdGVfcHJvdmlkZXIoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIEpzb24oYm9keSk6IEpzb248VmFsdWU+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbGV0IFNvbWUob2JqZWN0KSA9IGJvZHkuYXNfb2JqZWN0KCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgICAgIG9pZGNfdGV4dCgmdHJhbnNsYXRvciwgInByb3ZpZGVyUGF5bG9hZE9iamVjdCIpLAogICAgICAgICk7CiAgICB9OwogICAgbWF0Y2ggYnVpbGRfbmV3X3Byb3ZpZGVyKG9iamVjdCwgJnRyYW5zbGF0b3IpIHsKICAgICAgICBPayhwcm92aWRlcikgPT4gbWF0Y2ggb2lkY19zYXZlX3Byb3ZpZGVyKCZzdGF0ZSwgJnByb3ZpZGVyKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKCgpKSA9PiByZXNwb25zZTo6b2sobWFza19wcm92aWRlcihwcm92aWRlciwgTm9uZSkpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gc2F2ZSBPSURDIHByb3ZpZGVyIik7CiAgICAgICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgICAgIG9pZGNfdGV4dCgmdHJhbnNsYXRvciwgImNyZWF0ZVByb3ZpZGVyRmFpbGVkIiksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIEVycihtZXNzYWdlKSA9PiByZXNwb25zZTo6ZXJyb3IoU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsIG1lc3NhZ2UpLAogICAgfQp9CgojW3V0b2lwYTo6cGF0aChwYXRjaCwgcGF0aCA9ICIvYXBpL2FkbWluL2F1dGgvb2lkYy9wcm92aWRlcnMve2lkfSIsIHRhZyA9ICJhdXRoLW9pZGMiLCBvcGVyYXRpb25faWQgPSAicGF0Y2hfYXBpX2FkbWluX2F1dGhfb2lkY19wcm92aWRlcnNfYnlfaWQiLCByZXF1ZXN0X2JvZHkgPSBzZXJkZV9qc29uOjpWYWx1ZSwgcGFyYW1zKCgiaWQiID0gU3RyaW5nLCBQYXRoLCBkZXNjcmlwdGlvbiA9ICJPSURDIHByb3ZpZGVyIGlkZW50aWZpZXIiKSksIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJVcGRhdGVkIE9JREMgcHJvdmlkZXIiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHVwZGF0ZV9wcm92aWRlcigKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgUGF0aChpZCk6IFBhdGg8U3RyaW5nPiwKICAgIEpzb24oYm9keSk6IEpzb248VmFsdWU+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbGV0IFNvbWUob2JqZWN0KSA9IGJvZHkuYXNfb2JqZWN0KCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgICAgIG9pZGNfdGV4dCgmdHJhbnNsYXRvciwgInByb3ZpZGVyUGF5bG9hZE9iamVjdCIpLAogICAgICAgICk7CiAgICB9OwogICAgbGV0IGV4aXN0aW5nID0gbWF0Y2ggb2lkY19nZXRfcHJvdmlkZXIoJnN0YXRlLCAmaWQpLmF3YWl0IHsKICAgICAgICBPayhTb21lKHByb3ZpZGVyKSkgPT4gcHJvdmlkZXIsCiAgICAgICAgT2soTm9uZSkgPT4gewogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgICAgICAgICBvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJwcm92aWRlck5vdEZvdW5kIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICVpZCwgImZhaWxlZCB0byBsb2FkIE9JREMgcHJvdmlkZXIgZm9yIHVwZGF0ZSIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgb2lkY190ZXh0KCZ0cmFuc2xhdG9yLCAibG9hZFByb3ZpZGVyRmFpbGVkIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfTsKICAgIG1hdGNoIGJ1aWxkX3VwZGF0ZWRfcHJvdmlkZXIoZXhpc3RpbmcsIG9iamVjdCwgJnRyYW5zbGF0b3IpIHsKICAgICAgICBPayhwcm92aWRlcikgPT4gbWF0Y2ggb2lkY19zYXZlX3Byb3ZpZGVyKCZzdGF0ZSwgJnByb3ZpZGVyKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKCgpKSA9PiByZXNwb25zZTo6b2sobWFza19wcm92aWRlcihwcm92aWRlciwgTm9uZSkpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICVpZCwgImZhaWxlZCB0byBzYXZlIE9JREMgcHJvdmlkZXIgdXBkYXRlIik7CiAgICAgICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgICAgIG9pZGNfdGV4dCgmdHJhbnNsYXRvciwgInVwZGF0ZVByb3ZpZGVyRmFpbGVkIiksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIEVycihtZXNzYWdlKSA9PiByZXNwb25zZTo6ZXJyb3IoU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsIG1lc3NhZ2UpLAogICAgfQp9CgojW3V0b2lwYTo6cGF0aChkZWxldGUsIHBhdGggPSAiL2FwaS9hZG1pbi9hdXRoL29pZGMvcHJvdmlkZXJzL3tpZH0iLCB0YWcgPSAiYXV0aC1vaWRjIiwgb3BlcmF0aW9uX2lkID0gImRlbGV0ZV9hcGlfYWRtaW5fYXV0aF9vaWRjX3Byb3ZpZGVyc19ieV9pZCIsIHBhcmFtcygoImlkIiA9IFN0cmluZywgUGF0aCwgZGVzY3JpcHRpb24gPSAiT0lEQyBwcm92aWRlciBpZGVudGlmaWVyIikpLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiRGVsZXRlZCBPSURDIHByb3ZpZGVyIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBkZWxldGVfcHJvdmlkZXIoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIFBhdGgoaWQpOiBQYXRoPFN0cmluZz4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICBtYXRjaCBvaWRjX2dldF9wcm92aWRlcigmc3RhdGUsICZpZCkuYXdhaXQgewogICAgICAgIE9rKFNvbWUoXykpID0+IHt9CiAgICAgICAgT2soTm9uZSkgPT4gewogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgICAgICAgICBvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJwcm92aWRlck5vdEZvdW5kIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICVpZCwgImZhaWxlZCB0byBsb2FkIE9JREMgcHJvdmlkZXIgZm9yIGRlbGV0ZSIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgb2lkY190ZXh0KCZ0cmFuc2xhdG9yLCAibG9hZFByb3ZpZGVyRmFpbGVkIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfQogICAgbWF0Y2ggb2lkY19kZWxldGVfcHJvdmlkZXIoJnN0YXRlLCAmaWQpLmF3YWl0IHsKICAgICAgICBPaygoKSkgPT4gcmVzcG9uc2U6OnN1Y2Nlc3NfZW1wdHkoKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgJWlkLCAiZmFpbGVkIHRvIGRlbGV0ZSBPSURDIHByb3ZpZGVyIik7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIG9pZGNfdGV4dCgmdHJhbnNsYXRvciwgImRlbGV0ZVByb3ZpZGVyRmFpbGVkIiksCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCiNbdXRvaXBhOjpwYXRoKHBvc3QsIHBhdGggPSAiL2FwaS9hZG1pbi9hdXRoL29pZGMvcHJvdmlkZXJzL3tpZH0vdGVzdCIsIHRhZyA9ICJhdXRoLW9pZGMiLCBvcGVyYXRpb25faWQgPSAicG9zdF9hcGlfYWRtaW5fYXV0aF9vaWRjX3Byb3ZpZGVyc19ieV9pZF90ZXN0IiwgcGFyYW1zKCgiaWQiID0gU3RyaW5nLCBQYXRoLCBkZXNjcmlwdGlvbiA9ICJPSURDIHByb3ZpZGVyIGlkZW50aWZpZXIiKSksIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJPSURDIHByb3ZpZGVyIGNvbm5lY3Rpb24gdGVzdCByZXN1bHQiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHRlc3RfcHJvdmlkZXIoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIFBhdGgoaWQpOiBQYXRoPFN0cmluZz4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICBsZXQgcHJvdmlkZXIgPSBtYXRjaCBvaWRjX2dldF9wcm92aWRlcigmc3RhdGUsICZpZCkuYXdhaXQgewogICAgICAgIE9rKFNvbWUocHJvdmlkZXIpKSA9PiBwcm92aWRlciwKICAgICAgICBPayhOb25lKSA9PiB7CiAgICAgICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwKICAgICAgICAgICAgICAgIG9pZGNfdGV4dCgmdHJhbnNsYXRvciwgInByb3ZpZGVyTm90Rm91bmQiKSwKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgJWlkLCAiZmFpbGVkIHRvIGxvYWQgT0lEQyBwcm92aWRlciBmb3IgdGVzdCIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgb2lkY190ZXh0KCZ0cmFuc2xhdG9yLCAibG9hZFByb3ZpZGVyRmFpbGVkIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfTsKCiAgICBsZXQgKHN1Y2Nlc3MsIG1lc3NhZ2UpID0gbWF0Y2ggcnVuX3Byb3ZpZGVyX3Rlc3QoJnByb3ZpZGVyLCAmdHJhbnNsYXRvcikuYXdhaXQgewogICAgICAgIE9rKCgpKSA9PiAodHJ1ZSwgb2lkY190ZXh0KCZ0cmFuc2xhdG9yLCAiY29ubmVjdGlvblRlc3RTdWNjZXNzIikpLAogICAgICAgIEVycihtZXNzYWdlKSA9PiAoZmFsc2UsIG1lc3NhZ2UpLAogICAgfTsKICAgIGxldCBtdXQgdXBkYXRlZCA9IHByb3ZpZGVyOwogICAgaWYgbGV0IFNvbWUob2JqZWN0KSA9IHVwZGF0ZWQuYXNfb2JqZWN0X211dCgpIHsKICAgICAgICBsZXQgbm93ID0gdGltZV91dGlsczo6bm93X2lzbygpOwogICAgICAgIG9iamVjdC5pbnNlcnQoImxhc3RfdGVzdF9hdCIudG9fc3RyaW5nKCksIFZhbHVlOjpTdHJpbmcobm93LmNsb25lKCkpKTsKICAgICAgICBvYmplY3QuaW5zZXJ0KAogICAgICAgICAgICAibGFzdF90ZXN0X3N0YXR1cyIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIFZhbHVlOjpTdHJpbmcoaWYgc3VjY2VzcyB7ICJzdWNjZXNzIiB9IGVsc2UgeyAiZmFpbGVkIiB9LnRvX3N0cmluZygpKSwKICAgICAgICApOwogICAgICAgIG9iamVjdC5pbnNlcnQoCiAgICAgICAgICAgICJsYXN0X2Vycm9yIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgaWYgc3VjY2VzcyB7CiAgICAgICAgICAgICAgICBWYWx1ZTo6TnVsbAogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgVmFsdWU6OlN0cmluZyhtZXNzYWdlLmNsb25lKCkpCiAgICAgICAgICAgIH0sCiAgICAgICAgKTsKICAgICAgICBvYmplY3QuaW5zZXJ0KCJ1cGRhdGVkX2F0Ii50b19zdHJpbmcoKSwgVmFsdWU6OlN0cmluZyhub3cpKTsKICAgIH0KICAgIGlmIGxldCBFcnIoZXJyb3IpID0gb2lkY19zYXZlX3Byb3ZpZGVyKCZzdGF0ZSwgJnVwZGF0ZWQpLmF3YWl0IHsKICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICVpZCwgImZhaWxlZCB0byBzYXZlIE9JREMgcHJvdmlkZXIgdGVzdCByZXN1bHQiKTsKICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgIG9pZGNfdGV4dCgmdHJhbnNsYXRvciwgInRlc3RQcm92aWRlckZhaWxlZCIpLAogICAgICAgICk7CiAgICB9CgogICAgSnNvbihqc29uISh7ICJzdWNjZXNzIjogc3VjY2VzcywgIm1lc3NhZ2UiOiBtZXNzYWdlIH0pKS5pbnRvX3Jlc3BvbnNlKCkKfQoKI1t1dG9pcGE6OnBhdGgoZ2V0LCBwYXRoID0gIi9hcGkvYWRtaW4vYXV0aC9vaWRjL3RvdHAve3RvdHBfaWR9L2JpbmRpbmdzIiwgdGFnID0gImF1dGgtb2lkYyIsIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX2F1dGhfb2lkY190b3RwX2J5X3RvdHBfaWRfYmluZGluZ3MiLCBwYXJhbXMoKCJ0b3RwX2lkIiA9IFN0cmluZywgUGF0aCwgZGVzY3JpcHRpb24gPSAiVE9UUCBjcmVkZW50aWFsIGlkZW50aWZpZXIiKSksIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJPSURDIGJpbmRpbmdzIGZvciBhIFRPVFAgY3JlZGVudGlhbCIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gbGlzdF9iaW5kaW5nc19ieV90b3RwKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBQYXRoKHRvdHBfaWQpOiBQYXRoPFN0cmluZz4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICBtYXRjaCBvaWRjX2xpc3RfYmluZGluZ3MoJnN0YXRlKS5hd2FpdCB7CiAgICAgICAgT2soYmluZGluZ3MpID0+IHsKICAgICAgICAgICAgbGV0IHByb3ZpZGVycyA9IG9pZGNfbGlzdF9wcm92aWRlcnMoJnN0YXRlKS5hd2FpdC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgICAgICAgICBsZXQgdG90cHMgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF90b3RwcygpLmF3YWl0LnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICAgICAgICAgIGxldCB2aWV3cyA9IGJpbmRpbmdzCiAgICAgICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgICAgIC5maWx0ZXIofGJpbmRpbmd8IGJpbmRpbmcuZ2V0KCJ0b3RwX2lkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSgmdG90cF9pZCkpCiAgICAgICAgICAgICAgICAubWFwKHxtdXQgYmluZGluZ3wgewogICAgICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKG9iamVjdCkgPSBiaW5kaW5nLmFzX29iamVjdF9tdXQoKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKHByb3ZpZGVyX25hbWUpID0gcHJvdmlkZXJzCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZmluZCh8cHJvdmlkZXJ8IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcm92aWRlci5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPT0gb2JqZWN0LmdldCgicHJvdmlkZXJfaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbih8cHJvdmlkZXJ8IHByb3ZpZGVyLmdldCgibmFtZSIpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9iamVjdC5pbnNlcnQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInByb3ZpZGVyX25hbWUiLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFZhbHVlOjpTdHJpbmcocHJvdmlkZXJfbmFtZS50b19zdHJpbmcoKSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKHRvdHBfbmFtZSkgPSB0b3RwcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZpbmQofHRvdHB8IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTb21lKHRvdHAuaWQuYXNfc3RyKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID09IG9iamVjdC5nZXQoInRvdHBfaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5tYXAofHRvdHB8IHRvdHAuY29tbWVudC5jbG9uZSgpKQogICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvYmplY3QuaW5zZXJ0KCJ0b3RwX25hbWUiLnRvX3N0cmluZygpLCBWYWx1ZTo6U3RyaW5nKHRvdHBfbmFtZSkpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGJpbmRpbmcKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgICAgICAgICAgcmVzcG9uc2U6Om9rKGpzb24hKHsgImJpbmRpbmdzIjogdmlld3MgfSkpLmludG9fcmVzcG9uc2UoKQogICAgICAgIH0KICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAldG90cF9pZCwgImZhaWxlZCB0byBsaXN0IE9JREMgYmluZGluZ3MiKTsKICAgICAgICAgICAgcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgb2lkY190ZXh0KCZ0cmFuc2xhdG9yLCAibGlzdEJpbmRpbmdzRmFpbGVkIiksCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCiNbdXRvaXBhOjpwYXRoKHBvc3QsIHBhdGggPSAiL2FwaS9hZG1pbi9hdXRoL29pZGMvaW52aXRhdGlvbnMiLCB0YWcgPSAiYXV0aC1vaWRjIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX2F1dGhfb2lkY19pbnZpdGF0aW9ucyIsIHJlcXVlc3RfYm9keSA9IHNlcmRlX2pzb246OlZhbHVlLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiQ3JlYXRlZCBPSURDIGJpbmRpbmcgaW52aXRhdGlvbiIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gY3JlYXRlX2ludml0YXRpb24oCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIGhlYWRlcnM6IEhlYWRlck1hcCwKICAgIHVyaTogVXJpLAogICAgSnNvbihib2R5KTogSnNvbjxWYWx1ZT4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICBsZXQgU29tZShvYmplY3QpID0gYm9keS5hc19vYmplY3QoKSBlbHNlIHsKICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwKICAgICAgICAgICAgb2lkY190ZXh0KCZ0cmFuc2xhdG9yLCAiaW52aXRhdGlvblBheWxvYWRPYmplY3QiKSwKICAgICAgICApOwogICAgfTsKICAgIGxldCBTb21lKHRvdHBfaWQpID0gbm9ybWFsaXplX3N0cmluZyhvYmplY3QuZ2V0KCJ0b3RwX2lkIikpIGVsc2UgewogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgICAgICBvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJ0b3RwUmVxdWlyZWQiKSwKICAgICAgICApOwogICAgfTsKICAgIGxldCBTb21lKHByb3ZpZGVyX2lkKSA9IG5vcm1hbGl6ZV9zdHJpbmcob2JqZWN0LmdldCgicHJvdmlkZXJfaWQiKSkgZWxzZSB7CiAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgICAgIG9pZGNfdGV4dCgmdHJhbnNsYXRvciwgInNlbGVjdFByb3ZpZGVyIiksCiAgICAgICAgKTsKICAgIH07CgogICAgbGV0IHRvdHBzID0gbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfdG90cHMoKS5hd2FpdCB7CiAgICAgICAgT2sodG90cHMpID0+IHRvdHBzLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gbG9hZCBUT1RQIGNyZWRlbnRpYWxzIGZvciBPSURDIGludml0ZSIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgb2lkY190ZXh0KCZ0cmFuc2xhdG9yLCAibG9hZFRvdHBGYWlsZWQiKSwKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICB9OwogICAgaWYgIXRvdHBzLml0ZXIoKS5hbnkofHRvdHB8IHRvdHAuaWQgPT0gdG90cF9pZCkgewogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgICAgICBvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJ0b3RwTWlzc2luZyIpLAogICAgICAgICk7CiAgICB9CgogICAgbGV0IHByb3ZpZGVyID0gbWF0Y2ggb2lkY19nZXRfcHJvdmlkZXIoJnN0YXRlLCAmcHJvdmlkZXJfaWQpLmF3YWl0IHsKICAgICAgICBPayhTb21lKHByb3ZpZGVyKSkgPT4gcHJvdmlkZXIsCiAgICAgICAgT2soTm9uZSkgPT4gewogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgICAgICAgICBvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJwcm92aWRlck5vdEZvdW5kIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICVwcm92aWRlcl9pZCwgImZhaWxlZCB0byBsb2FkIE9JREMgcHJvdmlkZXIgZm9yIGludml0ZSIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgb2lkY190ZXh0KCZ0cmFuc2xhdG9yLCAibG9hZFByb3ZpZGVyRmFpbGVkIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfTsKICAgIGlmIHByb3ZpZGVyLmdldCgiZW5hYmxlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSAhPSBTb21lKHRydWUpCiAgICAgICAgfHwgIW1pc3NpbmdfcmVxdWlyZWRfcHJvdmlkZXJfZmllbGRzKCZwcm92aWRlcikuaXNfZW1wdHkoKQogICAgewogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgICAgICBvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJwcm92aWRlclVuYXZhaWxhYmxlIiksCiAgICAgICAgKTsKICAgIH0KCiAgICBsZXQgY29uZmlnID0gbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQgewogICAgICAgIE9rKGNvbmZpZykgPT4gY29uZmlnLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gbG9hZCBjb25maWcgZm9yIE9JREMgaW52aXRlIFVSTCIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgb2lkY190ZXh0KCZ0cmFuc2xhdG9yLCAibG9hZENvbmZpZ0ZhaWxlZCIpLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH07CiAgICBsZXQgU29tZShiYXNlX3VybCkgPSBpbnZpdGVfYmFzZV91cmwoJmhlYWRlcnMsICZ1cmksICZjb25maWcpIGVsc2UgewogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgICAgICBvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJpbnZpdGVVcmxCdWlsZEZhaWxlZCIpLAogICAgICAgICk7CiAgICB9OwogICAgbGV0IHRva2VuID0gY3JlYXRlX3B1YmxpY190b2tlbigpOwogICAgbGV0IHRva2VuX2hhc2ggPSBzaGEyNTZfaGV4KCZ0b2tlbik7CiAgICBsZXQgY3JlYXRlZF9hdCA9IHRpbWVfdXRpbHM6Om5vd19pc28oKTsKICAgIGxldCBleHBpcmVzX2F0ID0gdGltZV91dGlsczo6aXNvX2FmdGVyX3NlY29uZHMoREVGQVVMVF9JTlZJVEVfVFRMX1NFQ09ORFMgYXMgaTY0KTsKICAgIGxldCBtdXQgaW52aXRlID0gTWFwOjpuZXcoKTsKICAgIGludml0ZS5pbnNlcnQoInRva2VuX2hhc2giLnRvX3N0cmluZygpLCBWYWx1ZTo6U3RyaW5nKHRva2VuX2hhc2guY2xvbmUoKSkpOwogICAgaW52aXRlLmluc2VydCgidG90cF9pZCIudG9fc3RyaW5nKCksIFZhbHVlOjpTdHJpbmcodG90cF9pZCkpOwogICAgaW52aXRlLmluc2VydCgicHJvdmlkZXJfaWQiLnRvX3N0cmluZygpLCBWYWx1ZTo6U3RyaW5nKHByb3ZpZGVyX2lkKSk7CiAgICBpbnZpdGUuaW5zZXJ0KCJjcmVhdGVkX2F0Ii50b19zdHJpbmcoKSwgVmFsdWU6OlN0cmluZyhjcmVhdGVkX2F0KSk7CiAgICBpbnZpdGUuaW5zZXJ0KCJleHBpcmVzX2F0Ii50b19zdHJpbmcoKSwgVmFsdWU6OlN0cmluZyhleHBpcmVzX2F0LmNsb25lKCkpKTsKICAgIGlmIGxldCBTb21lKG5vdGUpID0gbm9ybWFsaXplX3N0cmluZyhvYmplY3QuZ2V0KCJub3RlIikpIHsKICAgICAgICBpbnZpdGUuaW5zZXJ0KCJub3RlIi50b19zdHJpbmcoKSwgVmFsdWU6OlN0cmluZyhub3RlKSk7CiAgICB9CiAgICBsZXQgaW52aXRlX3ZhbHVlID0gVmFsdWU6Ok9iamVjdChpbnZpdGUpOwogICAgaWYgbGV0IEVycihlcnJvcikgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNldF9qc29uX3ZhbHVlX2V4KAogICAgICAgICAgICAmaW52aXRlX2tleSgmdG9rZW5faGFzaCksCiAgICAgICAgICAgICZpbnZpdGVfdmFsdWUsCiAgICAgICAgICAgIERFRkFVTFRfSU5WSVRFX1RUTF9TRUNPTkRTLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgIHsKICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gc2F2ZSBPSURDIGludml0ZSIpOwogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgb2lkY190ZXh0KCZ0cmFuc2xhdG9yLCAiY3JlYXRlSW52aXRlRmFpbGVkIiksCiAgICAgICAgKTsKICAgIH0KCiAgICByZXNwb25zZTo6b2soanNvbiEoewogICAgICAgICJpbnZpdGVfdXJsIjogZm9ybWF0ISgKICAgICAgICAgICAgInt9L2FwaS9hdXRoL29pZGMvYmluZD90b2tlbj17fSIsCiAgICAgICAgICAgIGJhc2VfdXJsLnRyaW1fZW5kX21hdGNoZXMoJy8nKSwKICAgICAgICAgICAgY3JhdGU6Omh0dHBfdXRpbHM6OnVybF9lbmNvZGVfY29tcG9uZW50KCZ0b2tlbikKICAgICAgICApLAogICAgICAgICJleHBpcmVzX2F0IjogZXhwaXJlc19hdCwKICAgIH0pKQogICAgLmludG9fcmVzcG9uc2UoKQp9CgojW3V0b2lwYTo6cGF0aChkZWxldGUsIHBhdGggPSAiL2FwaS9hZG1pbi9hdXRoL29pZGMvYmluZGluZ3Mve2lkfSIsIHRhZyA9ICJhdXRoLW9pZGMiLCBvcGVyYXRpb25faWQgPSAiZGVsZXRlX2FwaV9hZG1pbl9hdXRoX29pZGNfYmluZGluZ3NfYnlfaWQiLCBwYXJhbXMoKCJpZCIgPSBTdHJpbmcsIFBhdGgsIGRlc2NyaXB0aW9uID0gIk9JREMgYmluZGluZyBpZGVudGlmaWVyIikpLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiRGVsZXRlZCBPSURDIGJpbmRpbmciKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGRlbGV0ZV9iaW5kaW5nKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBQYXRoKGlkKTogUGF0aDxTdHJpbmc+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbWF0Y2ggb2lkY19kZWxldGVfYmluZGluZygmc3RhdGUsICZpZCkuYXdhaXQgewogICAgICAgIE9rKHRydWUpID0+IHJlc3BvbnNlOjpzdWNjZXNzX2VtcHR5KCkuaW50b19yZXNwb25zZSgpLAogICAgICAgIE9rKGZhbHNlKSA9PiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgICAgICBvaWRjX3RleHQoJnRyYW5zbGF0b3IsICJiaW5kaW5nTm90Rm91bmQiKSwKICAgICAgICApLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICVpZCwgImZhaWxlZCB0byBkZWxldGUgT0lEQyBiaW5kaW5nIik7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIG9pZGNfdGV4dCgmdHJhbnNsYXRvciwgImRlbGV0ZUJpbmRpbmdGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQo=
+use axum::{
+    Json,
+    extract::{Path, State},
+    http::{HeaderMap, StatusCode, Uri},
+    response::{IntoResponse, Response},
+};
+use serde_json::{Map, Value, json};
+
+use crate::{i18n::Translator, response, state::AppState, time_utils};
+
+use super::{
+    DEFAULT_INVITE_TTL_SECONDS,
+    discovery::run_provider_test,
+    provider::{
+        build_new_provider, build_updated_provider, mask_provider,
+        missing_required_provider_fields, normalize_string, provider_catalog,
+    },
+    storage::{
+        oidc_delete_binding, oidc_delete_provider, oidc_get_provider, oidc_list_bindings,
+        oidc_list_providers, oidc_save_provider,
+    },
+    text::oidc_text,
+    tokens::{create_public_token, invite_key, sha256_hex},
+    urls::{callback_base_url, invite_base_url},
+};
+
+#[utoipa::path(get, path = "/api/admin/auth/oidc/catalog", tag = "auth-oidc", operation_id = "get_api_admin_auth_oidc_catalog", responses((status = 200, description = "OIDC provider catalog")))]
+pub(super) async fn catalog(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    response::ok(json!({ "providers": provider_catalog(&translator) })).into_response()
+}
+
+#[utoipa::path(get, path = "/api/admin/auth/oidc/providers", tag = "auth-oidc", operation_id = "get_api_admin_auth_oidc_providers", responses((status = 200, description = "OIDC providers")))]
+pub(super) async fn list_providers(
+    State(state): State<AppState>,
+    headers: HeaderMap,
+    uri: Uri,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let providers = match oidc_list_providers(&state).await {
+        Ok(providers) => providers,
+        Err(error) => {
+            tracing::warn!(%error, "failed to list OIDC providers");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                oidc_text(&translator, "listProvidersFailed"),
+            );
+        }
+    };
+    let config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => {
+            tracing::warn!(%error, "failed to load config for OIDC provider callback URLs");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                oidc_text(&translator, "loadConfigFailed"),
+            );
+        }
+    };
+    let callback_base_url = callback_base_url(&headers, &uri, &config);
+    let views = providers
+        .into_iter()
+        .map(|provider| mask_provider(provider, callback_base_url.as_deref()))
+        .collect::<Vec<_>>();
+    response::ok(json!({ "providers": views })).into_response()
+}
+
+#[utoipa::path(post, path = "/api/admin/auth/oidc/providers", tag = "auth-oidc", operation_id = "post_api_admin_auth_oidc_providers", request_body = serde_json::Value, responses((status = 200, description = "Created OIDC provider")))]
+pub(super) async fn create_provider(
+    State(state): State<AppState>,
+    Json(body): Json<Value>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let Some(object) = body.as_object() else {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            oidc_text(&translator, "providerPayloadObject"),
+        );
+    };
+    match build_new_provider(object, &translator) {
+        Ok(provider) => match oidc_save_provider(&state, &provider).await {
+            Ok(()) => response::ok(mask_provider(provider, None)).into_response(),
+            Err(error) => {
+                tracing::warn!(%error, "failed to save OIDC provider");
+                response::error(
+                    StatusCode::INTERNAL_SERVER_ERROR,
+                    oidc_text(&translator, "createProviderFailed"),
+                )
+            }
+        },
+        Err(message) => response::error(StatusCode::BAD_REQUEST, message),
+    }
+}
+
+#[utoipa::path(patch, path = "/api/admin/auth/oidc/providers/{id}", tag = "auth-oidc", operation_id = "patch_api_admin_auth_oidc_providers_by_id", request_body = serde_json::Value, params(("id" = String, Path, description = "OIDC provider identifier")), responses((status = 200, description = "Updated OIDC provider")))]
+pub(super) async fn update_provider(
+    State(state): State<AppState>,
+    Path(id): Path<String>,
+    Json(body): Json<Value>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let Some(object) = body.as_object() else {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            oidc_text(&translator, "providerPayloadObject"),
+        );
+    };
+    let existing = match oidc_get_provider(&state, &id).await {
+        Ok(Some(provider)) => provider,
+        Ok(None) => {
+            return response::error(
+                StatusCode::BAD_REQUEST,
+                oidc_text(&translator, "providerNotFound"),
+            );
+        }
+        Err(error) => {
+            tracing::warn!(%error, %id, "failed to load OIDC provider for update");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                oidc_text(&translator, "loadProviderFailed"),
+            );
+        }
+    };
+    match build_updated_provider(existing, object, &translator) {
+        Ok(provider) => match oidc_save_provider(&state, &provider).await {
+            Ok(()) => response::ok(mask_provider(provider, None)).into_response(),
+            Err(error) => {
+                tracing::warn!(%error, %id, "failed to save OIDC provider update");
+                response::error(
+                    StatusCode::INTERNAL_SERVER_ERROR,
+                    oidc_text(&translator, "updateProviderFailed"),
+                )
+            }
+        },
+        Err(message) => response::error(StatusCode::BAD_REQUEST, message),
+    }
+}
+
+#[utoipa::path(delete, path = "/api/admin/auth/oidc/providers/{id}", tag = "auth-oidc", operation_id = "delete_api_admin_auth_oidc_providers_by_id", params(("id" = String, Path, description = "OIDC provider identifier")), responses((status = 200, description = "Deleted OIDC provider")))]
+pub(super) async fn delete_provider(
+    State(state): State<AppState>,
+    Path(id): Path<String>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match oidc_get_provider(&state, &id).await {
+        Ok(Some(_)) => {}
+        Ok(None) => {
+            return response::error(
+                StatusCode::BAD_REQUEST,
+                oidc_text(&translator, "providerNotFound"),
+            );
+        }
+        Err(error) => {
+            tracing::warn!(%error, %id, "failed to load OIDC provider for delete");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                oidc_text(&translator, "loadProviderFailed"),
+            );
+        }
+    }
+    match oidc_delete_provider(&state, &id).await {
+        Ok(()) => response::success_empty().into_response(),
+        Err(error) => {
+            tracing::warn!(%error, %id, "failed to delete OIDC provider");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                oidc_text(&translator, "deleteProviderFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(post, path = "/api/admin/auth/oidc/providers/{id}/test", tag = "auth-oidc", operation_id = "post_api_admin_auth_oidc_providers_by_id_test", params(("id" = String, Path, description = "OIDC provider identifier")), responses((status = 200, description = "OIDC provider connection test result")))]
+pub(super) async fn test_provider(
+    State(state): State<AppState>,
+    Path(id): Path<String>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let provider = match oidc_get_provider(&state, &id).await {
+        Ok(Some(provider)) => provider,
+        Ok(None) => {
+            return response::error(
+                StatusCode::BAD_REQUEST,
+                oidc_text(&translator, "providerNotFound"),
+            );
+        }
+        Err(error) => {
+            tracing::warn!(%error, %id, "failed to load OIDC provider for test");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                oidc_text(&translator, "loadProviderFailed"),
+            );
+        }
+    };
+
+    let (success, message) = match run_provider_test(&provider, &translator).await {
+        Ok(()) => (true, oidc_text(&translator, "connectionTestSuccess")),
+        Err(message) => (false, message),
+    };
+    let mut updated = provider;
+    if let Some(object) = updated.as_object_mut() {
+        let now = time_utils::now_iso();
+        object.insert("last_test_at".to_string(), Value::String(now.clone()));
+        object.insert(
+            "last_test_status".to_string(),
+            Value::String(if success { "success" } else { "failed" }.to_string()),
+        );
+        object.insert(
+            "last_error".to_string(),
+            if success {
+                Value::Null
+            } else {
+                Value::String(message.clone())
+            },
+        );
+        object.insert("updated_at".to_string(), Value::String(now));
+    }
+    if let Err(error) = oidc_save_provider(&state, &updated).await {
+        tracing::warn!(%error, %id, "failed to save OIDC provider test result");
+        return response::error(
+            StatusCode::INTERNAL_SERVER_ERROR,
+            oidc_text(&translator, "testProviderFailed"),
+        );
+    }
+
+    Json(json!({ "success": success, "message": message })).into_response()
+}
+
+#[utoipa::path(get, path = "/api/admin/auth/oidc/totp/{totp_id}/bindings", tag = "auth-oidc", operation_id = "get_api_admin_auth_oidc_totp_by_totp_id_bindings", params(("totp_id" = String, Path, description = "TOTP credential identifier")), responses((status = 200, description = "OIDC bindings for a TOTP credential")))]
+pub(super) async fn list_bindings_by_totp(
+    State(state): State<AppState>,
+    Path(totp_id): Path<String>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match oidc_list_bindings(&state).await {
+        Ok(bindings) => {
+            let providers = oidc_list_providers(&state).await.unwrap_or_default();
+            let totps = state.storage.store.get_totps().await.unwrap_or_default();
+            let views = bindings
+                .into_iter()
+                .filter(|binding| binding.get("totp_id").and_then(Value::as_str) == Some(&totp_id))
+                .map(|mut binding| {
+                    if let Some(object) = binding.as_object_mut() {
+                        if let Some(provider_name) = providers
+                            .iter()
+                            .find(|provider| {
+                                provider.get("id").and_then(Value::as_str)
+                                    == object.get("provider_id").and_then(Value::as_str)
+                            })
+                            .and_then(|provider| provider.get("name"))
+                            .and_then(Value::as_str)
+                        {
+                            object.insert(
+                                "provider_name".to_string(),
+                                Value::String(provider_name.to_string()),
+                            );
+                        }
+                        if let Some(totp_name) = totps
+                            .iter()
+                            .find(|totp| {
+                                Some(totp.id.as_str())
+                                    == object.get("totp_id").and_then(Value::as_str)
+                            })
+                            .map(|totp| totp.comment.clone())
+                        {
+                            object.insert("totp_name".to_string(), Value::String(totp_name));
+                        }
+                    }
+                    binding
+                })
+                .collect::<Vec<_>>();
+            response::ok(json!({ "bindings": views })).into_response()
+        }
+        Err(error) => {
+            tracing::warn!(%error, %totp_id, "failed to list OIDC bindings");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                oidc_text(&translator, "listBindingsFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(post, path = "/api/admin/auth/oidc/invitations", tag = "auth-oidc", operation_id = "post_api_admin_auth_oidc_invitations", request_body = serde_json::Value, responses((status = 200, description = "Created OIDC binding invitation")))]
+pub(super) async fn create_invitation(
+    State(state): State<AppState>,
+    headers: HeaderMap,
+    uri: Uri,
+    Json(body): Json<Value>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let Some(object) = body.as_object() else {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            oidc_text(&translator, "invitationPayloadObject"),
+        );
+    };
+    let Some(totp_id) = normalize_string(object.get("totp_id")) else {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            oidc_text(&translator, "totpRequired"),
+        );
+    };
+    let Some(provider_id) = normalize_string(object.get("provider_id")) else {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            oidc_text(&translator, "selectProvider"),
+        );
+    };
+
+    let totps = match state.storage.store.get_totps().await {
+        Ok(totps) => totps,
+        Err(error) => {
+            tracing::warn!(%error, "failed to load TOTP credentials for OIDC invite");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                oidc_text(&translator, "loadTotpFailed"),
+            );
+        }
+    };
+    if !totps.iter().any(|totp| totp.id == totp_id) {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            oidc_text(&translator, "totpMissing"),
+        );
+    }
+
+    let provider = match oidc_get_provider(&state, &provider_id).await {
+        Ok(Some(provider)) => provider,
+        Ok(None) => {
+            return response::error(
+                StatusCode::BAD_REQUEST,
+                oidc_text(&translator, "providerNotFound"),
+            );
+        }
+        Err(error) => {
+            tracing::warn!(%error, %provider_id, "failed to load OIDC provider for invite");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                oidc_text(&translator, "loadProviderFailed"),
+            );
+        }
+    };
+    if provider.get("enabled").and_then(Value::as_bool) != Some(true)
+        || !missing_required_provider_fields(&provider).is_empty()
+    {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            oidc_text(&translator, "providerUnavailable"),
+        );
+    }
+
+    let config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => {
+            tracing::warn!(%error, "failed to load config for OIDC invite URL");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                oidc_text(&translator, "loadConfigFailed"),
+            );
+        }
+    };
+    let Some(base_url) = invite_base_url(&headers, &uri, &config) else {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            oidc_text(&translator, "inviteUrlBuildFailed"),
+        );
+    };
+    let token = create_public_token();
+    let token_hash = sha256_hex(&token);
+    let created_at = time_utils::now_iso();
+    let expires_at = time_utils::iso_after_seconds(DEFAULT_INVITE_TTL_SECONDS as i64);
+    let mut invite = Map::new();
+    invite.insert("token_hash".to_string(), Value::String(token_hash.clone()));
+    invite.insert("totp_id".to_string(), Value::String(totp_id));
+    invite.insert("provider_id".to_string(), Value::String(provider_id));
+    invite.insert("created_at".to_string(), Value::String(created_at));
+    invite.insert("expires_at".to_string(), Value::String(expires_at.clone()));
+    if let Some(note) = normalize_string(object.get("note")) {
+        invite.insert("note".to_string(), Value::String(note));
+    }
+    let invite_value = Value::Object(invite);
+    if let Err(error) = state
+        .storage
+        .store
+        .set_json_value_ex(
+            &invite_key(&token_hash),
+            &invite_value,
+            DEFAULT_INVITE_TTL_SECONDS,
+        )
+        .await
+    {
+        tracing::warn!(%error, "failed to save OIDC invite");
+        return response::error(
+            StatusCode::INTERNAL_SERVER_ERROR,
+            oidc_text(&translator, "createInviteFailed"),
+        );
+    }
+
+    response::ok(json!({
+        "invite_url": format!(
+            "{}/api/auth/oidc/bind?token={}",
+            base_url.trim_end_matches('/'),
+            crate::http_utils::url_encode_component(&token)
+        ),
+        "expires_at": expires_at,
+    }))
+    .into_response()
+}
+
+#[utoipa::path(delete, path = "/api/admin/auth/oidc/bindings/{id}", tag = "auth-oidc", operation_id = "delete_api_admin_auth_oidc_bindings_by_id", params(("id" = String, Path, description = "OIDC binding identifier")), responses((status = 200, description = "Deleted OIDC binding")))]
+pub(super) async fn delete_binding(
+    State(state): State<AppState>,
+    Path(id): Path<String>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match oidc_delete_binding(&state, &id).await {
+        Ok(true) => response::success_empty().into_response(),
+        Ok(false) => response::error(
+            StatusCode::BAD_REQUEST,
+            oidc_text(&translator, "bindingNotFound"),
+        ),
+        Err(error) => {
+            tracing::warn!(%error, %id, "failed to delete OIDC binding");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                oidc_text(&translator, "deleteBindingFailed"),
+            )
+        }
+    }
+}

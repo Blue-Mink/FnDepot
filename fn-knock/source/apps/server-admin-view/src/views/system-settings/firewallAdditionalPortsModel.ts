@@ -1,1 +1,69 @@
-aW1wb3J0IHR5cGUgeyBGaXJld2FsbEFkZGl0aW9uYWxQb3J0c0RldGFpbHMgfSBmcm9tICJAL3R5cGVzIjsKCmV4cG9ydCBjb25zdCBNQVhfRklSRVdBTExfQURESVRJT05BTF9QT1JUUyA9IDEyODsKCmV4cG9ydCB0eXBlIEZpcmV3YWxsQWRkaXRpb25hbFBvcnRzU3VjY2Vzc01lc3NhZ2VLZXkgPQogIHwgInNhdmVkQW5kQXBwbGllZERlc2NyaXB0aW9uIgogIHwgInNhdmVkRm9yTGF0ZXJEZXNjcmlwdGlvbiIKICB8ICJzYXZlZEZvckxhdGVyTWFudWFsRGVzY3JpcHRpb24iOwoKZXhwb3J0IGNvbnN0IHJlc29sdmVGaXJld2FsbEFkZGl0aW9uYWxQb3J0c1N1Y2Nlc3NNZXNzYWdlS2V5ID0gKAogIHJlc3VsdDogUGljazxGaXJld2FsbEFkZGl0aW9uYWxQb3J0c0RldGFpbHMsICJhcHBsaWVkTm93Ij4sCiAgYXV0b01hbmFnZUZpcmV3YWxsRW5hYmxlZDogYm9vbGVhbiwKKTogRmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNTdWNjZXNzTWVzc2FnZUtleSA9PiB7CiAgaWYgKHJlc3VsdC5hcHBsaWVkTm93KSByZXR1cm4gInNhdmVkQW5kQXBwbGllZERlc2NyaXB0aW9uIjsKICByZXR1cm4gYXV0b01hbmFnZUZpcmV3YWxsRW5hYmxlZAogICAgPyAic2F2ZWRGb3JMYXRlckRlc2NyaXB0aW9uIgogICAgOiAic2F2ZWRGb3JMYXRlck1hbnVhbERlc2NyaXB0aW9uIjsKfTsKCmV4cG9ydCB0eXBlIEZpcmV3YWxsQWRkaXRpb25hbFBvcnRWYWxpZGF0aW9uQ29kZSA9CiAgInJlcXVpcmVkIiB8ICJpbnRlZ2VyIiB8ICJyYW5nZSIgfCAiZHVwbGljYXRlIiB8ICJ0b29NYW55IjsKCmV4cG9ydCB0eXBlIEZpcmV3YWxsQWRkaXRpb25hbFBvcnRWYWxpZGF0aW9uID0KICB8IHsgdmFsaWQ6IHRydWU7IHBvcnRzOiBudW1iZXJbXSB9CiAgfCB7CiAgICAgIHZhbGlkOiBmYWxzZTsKICAgICAgY29kZTogRmlyZXdhbGxBZGRpdGlvbmFsUG9ydFZhbGlkYXRpb25Db2RlOwogICAgICBpbmRleD86IG51bWJlcjsKICAgIH07CgpleHBvcnQgY29uc3QgdmFsaWRhdGVGaXJld2FsbEFkZGl0aW9uYWxQb3J0RHJhZnQgPSAoCiAgdmFsdWVzOiByZWFkb25seSBzdHJpbmdbXSwKKTogRmlyZXdhbGxBZGRpdGlvbmFsUG9ydFZhbGlkYXRpb24gPT4gewogIGlmICh2YWx1ZXMubGVuZ3RoID4gTUFYX0ZJUkVXQUxMX0FERElUSU9OQUxfUE9SVFMpIHsKICAgIHJldHVybiB7IHZhbGlkOiBmYWxzZSwgY29kZTogInRvb01hbnkiIH07CiAgfQogIGNvbnN0IHBvcnRzOiBudW1iZXJbXSA9IFtdOwogIGNvbnN0IHNlZW4gPSBuZXcgU2V0PG51bWJlcj4oKTsKICBmb3IgKGNvbnN0IFtpbmRleCwgdmFsdWVdIG9mIHZhbHVlcy5lbnRyaWVzKCkpIHsKICAgIGNvbnN0IG5vcm1hbGl6ZWQgPSB2YWx1ZS50cmltKCk7CiAgICBpZiAoIW5vcm1hbGl6ZWQpIHJldHVybiB7IHZhbGlkOiBmYWxzZSwgY29kZTogInJlcXVpcmVkIiwgaW5kZXggfTsKICAgIGlmICghL15cZCskL3UudGVzdChub3JtYWxpemVkKSkgewogICAgICByZXR1cm4geyB2YWxpZDogZmFsc2UsIGNvZGU6ICJpbnRlZ2VyIiwgaW5kZXggfTsKICAgIH0KICAgIGNvbnN0IHBvcnQgPSBOdW1iZXIobm9ybWFsaXplZCk7CiAgICBpZiAoIU51bWJlci5pc1NhZmVJbnRlZ2VyKHBvcnQpKSB7CiAgICAgIHJldHVybiB7IHZhbGlkOiBmYWxzZSwgY29kZTogImludGVnZXIiLCBpbmRleCB9OwogICAgfQogICAgaWYgKHBvcnQgPCAxIHx8IHBvcnQgPiA2NTUzNSkgewogICAgICByZXR1cm4geyB2YWxpZDogZmFsc2UsIGNvZGU6ICJyYW5nZSIsIGluZGV4IH07CiAgICB9CiAgICBpZiAoc2Vlbi5oYXMocG9ydCkpIHsKICAgICAgcmV0dXJuIHsgdmFsaWQ6IGZhbHNlLCBjb2RlOiAiZHVwbGljYXRlIiwgaW5kZXggfTsKICAgIH0KICAgIHNlZW4uYWRkKHBvcnQpOwogICAgcG9ydHMucHVzaChwb3J0KTsKICB9CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIHBvcnRzOiBwb3J0cy5zb3J0KChsZWZ0LCByaWdodCkgPT4gbGVmdCAtIHJpZ2h0KSB9Owp9OwoKZXhwb3J0IGNvbnN0IGFyZUZpcmV3YWxsUG9ydExpc3RzRXF1YWwgPSAoCiAgbGVmdDogcmVhZG9ubHkgbnVtYmVyW10sCiAgcmlnaHQ6IHJlYWRvbmx5IG51bWJlcltdLAopID0+IHsKICBpZiAobGVmdC5sZW5ndGggIT09IHJpZ2h0Lmxlbmd0aCkgcmV0dXJuIGZhbHNlOwogIGNvbnN0IHNvcnRlZExlZnQgPSBbLi4ubGVmdF0uc29ydCgoYSwgYikgPT4gYSAtIGIpOwogIGNvbnN0IHNvcnRlZFJpZ2h0ID0gWy4uLnJpZ2h0XS5zb3J0KChhLCBiKSA9PiBhIC0gYik7CiAgcmV0dXJuIHNvcnRlZExlZnQuZXZlcnkoKHBvcnQsIGluZGV4KSA9PiBwb3J0ID09PSBzb3J0ZWRSaWdodFtpbmRleF0pOwp9Owo=
+import type { FirewallAdditionalPortsDetails } from "@/types";
+
+export const MAX_FIREWALL_ADDITIONAL_PORTS = 128;
+
+export type FirewallAdditionalPortsSuccessMessageKey =
+  | "savedAndAppliedDescription"
+  | "savedForLaterDescription"
+  | "savedForLaterManualDescription";
+
+export const resolveFirewallAdditionalPortsSuccessMessageKey = (
+  result: Pick<FirewallAdditionalPortsDetails, "appliedNow">,
+  autoManageFirewallEnabled: boolean,
+): FirewallAdditionalPortsSuccessMessageKey => {
+  if (result.appliedNow) return "savedAndAppliedDescription";
+  return autoManageFirewallEnabled
+    ? "savedForLaterDescription"
+    : "savedForLaterManualDescription";
+};
+
+export type FirewallAdditionalPortValidationCode =
+  "required" | "integer" | "range" | "duplicate" | "tooMany";
+
+export type FirewallAdditionalPortValidation =
+  | { valid: true; ports: number[] }
+  | {
+      valid: false;
+      code: FirewallAdditionalPortValidationCode;
+      index?: number;
+    };
+
+export const validateFirewallAdditionalPortDraft = (
+  values: readonly string[],
+): FirewallAdditionalPortValidation => {
+  if (values.length > MAX_FIREWALL_ADDITIONAL_PORTS) {
+    return { valid: false, code: "tooMany" };
+  }
+  const ports: number[] = [];
+  const seen = new Set<number>();
+  for (const [index, value] of values.entries()) {
+    const normalized = value.trim();
+    if (!normalized) return { valid: false, code: "required", index };
+    if (!/^\d+$/u.test(normalized)) {
+      return { valid: false, code: "integer", index };
+    }
+    const port = Number(normalized);
+    if (!Number.isSafeInteger(port)) {
+      return { valid: false, code: "integer", index };
+    }
+    if (port < 1 || port > 65535) {
+      return { valid: false, code: "range", index };
+    }
+    if (seen.has(port)) {
+      return { valid: false, code: "duplicate", index };
+    }
+    seen.add(port);
+    ports.push(port);
+  }
+  return { valid: true, ports: ports.sort((left, right) => left - right) };
+};
+
+export const areFirewallPortListsEqual = (
+  left: readonly number[],
+  right: readonly number[],
+) => {
+  if (left.length !== right.length) return false;
+  const sortedLeft = [...left].sort((a, b) => a - b);
+  const sortedRight = [...right].sort((a, b) => a - b);
+  return sortedLeft.every((port, index) => port === sortedRight[index]);
+};

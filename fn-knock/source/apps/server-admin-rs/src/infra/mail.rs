@@ -1,1 +1,200 @@
-Ly8hIFRyYW5zcG9ydC1vbmx5IG1haWwgaW5mcmFzdHJ1Y3R1cmUuIENhbGxlcnMgb3duIGNvbmZpZ3VyYXRpb24gYW5kIHJldHJ5IHBvbGljeS4KdXNlIGxldHRyZTo6ewogICAgQXN5bmNTbXRwVHJhbnNwb3J0LCBBc3luY1RyYW5zcG9ydCwgTWVzc2FnZSwgVG9raW8xRXhlY3V0b3IsCiAgICBtZXNzYWdlOjp7QXR0YWNobWVudCwgTWFpbGJveCwgTXVsdGlQYXJ0LCBTaW5nbGVQYXJ0LCBoZWFkZXI6OkNvbnRlbnRUeXBlfSwKICAgIHRyYW5zcG9ydDo6c210cDo6ewogICAgICAgIGF1dGhlbnRpY2F0aW9uOjp7Q3JlZGVudGlhbHMsIE1lY2hhbmlzbX0sCiAgICAgICAgY2xpZW50OjpUbHMsCiAgICAgICAgcmVzcG9uc2U6OlJlc3BvbnNlLAogICAgfSwKfTsKdXNlIHNlcmRlOjp7RGVzZXJpYWxpemUsIFNlcmlhbGl6ZX07CnVzZSBzdGQ6OnRpbWU6OkR1cmF0aW9uOwp1c2UgdXRvaXBhOjpUb1NjaGVtYTsKCiNbZGVyaXZlKENsb25lLCBTZXJpYWxpemUsIERlc2VyaWFsaXplLCBUb1NjaGVtYSwgUGFydGlhbEVxLCBFcSldCiNbc2VyZGUoZGVmYXVsdCldCnB1YihjcmF0ZSkgc3RydWN0IFNtdHBDb25maWcgewogICAgcHViIGhvc3Q6IFN0cmluZywKICAgIHB1YiBwb3J0OiB1MTYsCiAgICBwdWIgc2VjdXJpdHk6IFN0cmluZywKICAgIHB1YiBhdXRoX21vZGU6IFN0cmluZywKICAgIHB1YiB1c2VybmFtZTogU3RyaW5nLAogICAgcHViIHRpbWVvdXRfc2Vjb25kczogdTY0LAp9CmltcGwgRGVmYXVsdCBmb3IgU210cENvbmZpZyB7CiAgICBmbiBkZWZhdWx0KCkgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7CiAgICAgICAgICAgIGhvc3Q6IFN0cmluZzo6bmV3KCksCiAgICAgICAgICAgIHBvcnQ6IDQ2NSwKICAgICAgICAgICAgc2VjdXJpdHk6ICJzc2xfdGxzIi5pbnRvKCksCiAgICAgICAgICAgIGF1dGhfbW9kZTogImF1dG8iLmludG8oKSwKICAgICAgICAgICAgdXNlcm5hbWU6IFN0cmluZzo6bmV3KCksCiAgICAgICAgICAgIHRpbWVvdXRfc2Vjb25kczogMzAsCiAgICAgICAgfQogICAgfQp9CiNbZGVyaXZlKERlYnVnKV0KcHViKGNyYXRlKSBzdHJ1Y3QgTWFpbEVycm9yIHsKICAgIHB1YiBjb2RlOiAmJ3N0YXRpYyBzdHIsCiAgICBwdWIgcmV0cnlhYmxlOiBib29sLAp9CmltcGwgc3RkOjpmbXQ6OkRpc3BsYXkgZm9yIE1haWxFcnJvciB7CiAgICBmbiBmbXQoJnNlbGYsIGY6ICZtdXQgc3RkOjpmbXQ6OkZvcm1hdHRlcjwnXz4pIC0+IHN0ZDo6Zm10OjpSZXN1bHQgewogICAgICAgIGYud3JpdGVfc3RyKHNlbGYuY29kZSkKICAgIH0KfQppbXBsIHN0ZDo6ZXJyb3I6OkVycm9yIGZvciBNYWlsRXJyb3Ige30KaW1wbCBNYWlsRXJyb3IgewogICAgcHViIGZuIHBlcm1hbmVudChjb2RlOiAmJ3N0YXRpYyBzdHIpIC0+IFNlbGYgewogICAgICAgIFNlbGYgewogICAgICAgICAgICBjb2RlLAogICAgICAgICAgICByZXRyeWFibGU6IGZhbHNlLAogICAgICAgIH0KICAgIH0KfQpwdWIoY3JhdGUpIHN0cnVjdCBNYWlsQXR0YWNobWVudCB7CiAgICBwdWIgZmlsZW5hbWU6IFN0cmluZywKICAgIHB1YiBieXRlczogVmVjPHU4PiwKfQpwdWIoY3JhdGUpIHN0cnVjdCBNYWlsTWVzc2FnZSB7CiAgICBwdWIgZnJvbTogTWFpbGJveCwKICAgIHB1YiB0bzogVmVjPE1haWxib3g+LAogICAgcHViIHN1YmplY3Q6IFN0cmluZywKICAgIHB1YiBib2R5OiBTdHJpbmcsCiAgICBwdWIgbWVzc2FnZV9pZDogU3RyaW5nLAogICAgcHViIGF0dGFjaG1lbnQ6IE9wdGlvbjxNYWlsQXR0YWNobWVudD4sCn0KaW1wbCBNYWlsTWVzc2FnZSB7CiAgICBwdWIgZm4gYnVpbGQoc2VsZikgLT4gUmVzdWx0PE1lc3NhZ2UsIE1haWxFcnJvcj4gewogICAgICAgIGlmIHNlbGYudG8uaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoTWFpbEVycm9yOjpwZXJtYW5lbnQoInJlY2lwaWVudF9yZXF1aXJlZCIpKTsKICAgICAgICB9CiAgICAgICAgbGV0IG11dCBidWlsZGVyID0gTWVzc2FnZTo6YnVpbGRlcigpCiAgICAgICAgICAgIC5mcm9tKHNlbGYuZnJvbSkKICAgICAgICAgICAgLnN1YmplY3Qoc2VsZi5zdWJqZWN0KQogICAgICAgICAgICAubWVzc2FnZV9pZChTb21lKHNlbGYubWVzc2FnZV9pZCkpOwogICAgICAgIGZvciBhZGRyZXNzIGluIHNlbGYudG8gewogICAgICAgICAgICBidWlsZGVyID0gYnVpbGRlci50byhhZGRyZXNzKTsKICAgICAgICB9CiAgICAgICAgbGV0IGJvZHkgPSBTaW5nbGVQYXJ0OjpwbGFpbihzZWxmLmJvZHkpOwogICAgICAgIGxldCByZXN1bHQgPSBpZiBsZXQgU29tZShhdHRhY2htZW50KSA9IHNlbGYuYXR0YWNobWVudCB7CiAgICAgICAgICAgIGJ1aWxkZXIubXVsdGlwYXJ0KAogICAgICAgICAgICAgICAgTXVsdGlQYXJ0OjptaXhlZCgpLnNpbmdsZXBhcnQoYm9keSkuc2luZ2xlcGFydCgKICAgICAgICAgICAgICAgICAgICBBdHRhY2htZW50OjpuZXcoYXR0YWNobWVudC5maWxlbmFtZSkuYm9keSgKICAgICAgICAgICAgICAgICAgICAgICAgYXR0YWNobWVudC5ieXRlcywKICAgICAgICAgICAgICAgICAgICAgICAgQ29udGVudFR5cGU6OnBhcnNlKCJhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0iKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLm1hcF9lcnIofF98IE1haWxFcnJvcjo6cGVybWFuZW50KCJpbnZhbGlkX2NvbnRlbnRfdHlwZSIpKT8sCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBidWlsZGVyLnNpbmdsZXBhcnQoYm9keSkKICAgICAgICB9OwogICAgICAgIHJlc3VsdC5tYXBfZXJyKHxffCBNYWlsRXJyb3I6OnBlcm1hbmVudCgiaW52YWxpZF9tZXNzYWdlIikpCiAgICB9Cn0KcHViKGNyYXRlKSBmbiB0cmFuc3BvcnQoCiAgICBjb25maWc6ICZTbXRwQ29uZmlnLAogICAgcGFzc3dvcmQ6ICZzdHIsCikgLT4gUmVzdWx0PEFzeW5jU210cFRyYW5zcG9ydDxUb2tpbzFFeGVjdXRvcj4sIE1haWxFcnJvcj4gewogICAgbGV0IG11dCBidWlsZGVyID0gbWF0Y2ggY29uZmlnLnNlY3VyaXR5LmFzX3N0cigpIHsKICAgICAgICAibm9uZSIgPT4gewogICAgICAgICAgICBBc3luY1NtdHBUcmFuc3BvcnQ6OjxUb2tpbzFFeGVjdXRvcj46OmJ1aWxkZXJfZGFuZ2Vyb3VzKCZjb25maWcuaG9zdCkudGxzKFRsczo6Tm9uZSkKICAgICAgICB9CiAgICAgICAgInN0YXJ0dGxzIiA9PiBBc3luY1NtdHBUcmFuc3BvcnQ6OjxUb2tpbzFFeGVjdXRvcj46OnN0YXJ0dGxzX3JlbGF5KCZjb25maWcuaG9zdCkKICAgICAgICAgICAgLm1hcF9lcnIofF98IE1haWxFcnJvcjo6cGVybWFuZW50KCJpbnZhbGlkX3NtdHBfaG9zdCIpKT8sCiAgICAgICAgInNzbF90bHMiID0+IEFzeW5jU210cFRyYW5zcG9ydDo6PFRva2lvMUV4ZWN1dG9yPjo6cmVsYXkoJmNvbmZpZy5ob3N0KQogICAgICAgICAgICAubWFwX2Vycih8X3wgTWFpbEVycm9yOjpwZXJtYW5lbnQoImludmFsaWRfc210cF9ob3N0IikpPywKICAgICAgICBfID0+IHJldHVybiBFcnIoTWFpbEVycm9yOjpwZXJtYW5lbnQoImludmFsaWRfdGxzX21vZGUiKSksCiAgICB9CiAgICAucG9ydChjb25maWcucG9ydCk7CiAgICBpZiBjb25maWcuYXV0aF9tb2RlICE9ICJub25lIiAmJiAhY29uZmlnLnVzZXJuYW1lLnRyaW0oKS5pc19lbXB0eSgpIHsKICAgICAgICBidWlsZGVyID0gYnVpbGRlci5jcmVkZW50aWFscyhDcmVkZW50aWFsczo6bmV3KGNvbmZpZy51c2VybmFtZS5jbG9uZSgpLCBwYXNzd29yZC5pbnRvKCkpKTsKICAgICAgICBidWlsZGVyID0gbWF0Y2ggY29uZmlnLmF1dGhfbW9kZS5hc19zdHIoKSB7CiAgICAgICAgICAgICJwbGFpbiIgPT4gYnVpbGRlci5hdXRoZW50aWNhdGlvbih2ZWMhW01lY2hhbmlzbTo6UGxhaW5dKSwKICAgICAgICAgICAgImxvZ2luIiA9PiBidWlsZGVyLmF1dGhlbnRpY2F0aW9uKHZlYyFbTWVjaGFuaXNtOjpMb2dpbl0pLAogICAgICAgICAgICBfID0+IGJ1aWxkZXIsCiAgICAgICAgfTsKICAgIH0KICAgIE9rKGJ1aWxkZXIuYnVpbGQoKSkKfQpwdWIoY3JhdGUpIGFzeW5jIGZuIHNlbmQoCiAgICBjb25maWc6ICZTbXRwQ29uZmlnLAogICAgcGFzc3dvcmQ6ICZzdHIsCiAgICBtZXNzYWdlOiBNZXNzYWdlLAopIC0+IFJlc3VsdDxSZXNwb25zZSwgTWFpbEVycm9yPiB7CiAgICBsZXQgbWFpbGVyID0gdHJhbnNwb3J0KGNvbmZpZywgcGFzc3dvcmQpPzsKICAgIG1hdGNoIHRva2lvOjp0aW1lOjp0aW1lb3V0KAogICAgICAgIER1cmF0aW9uOjpmcm9tX3NlY3MoY29uZmlnLnRpbWVvdXRfc2Vjb25kcy5jbGFtcCgxLCAxMjApKSwKICAgICAgICBtYWlsZXIuc2VuZChtZXNzYWdlKSwKICAgICkKICAgIC5hd2FpdAogICAgewogICAgICAgIE9rKE9rKHJlc3BvbnNlKSkgPT4gT2socmVzcG9uc2UpLAogICAgICAgIE9rKEVycihlcnJvcikpID0+IEVycihNYWlsRXJyb3IgewogICAgICAgICAgICBjb2RlOiBpZiBlcnJvci5pc19wZXJtYW5lbnQoKSB7CiAgICAgICAgICAgICAgICAic210cF9yZWplY3RlZCIKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICJzbXRwX3VuYXZhaWxhYmxlIgogICAgICAgICAgICB9LAogICAgICAgICAgICByZXRyeWFibGU6ICFlcnJvci5pc19wZXJtYW5lbnQoKSAmJiAhZXJyb3IuaXNfY2xpZW50KCksCiAgICAgICAgfSksCiAgICAgICAgRXJyKF8pID0+IEVycihNYWlsRXJyb3IgewogICAgICAgICAgICBjb2RlOiAic210cF90aW1lb3V0IiwKICAgICAgICAgICAgcmV0cnlhYmxlOiB0cnVlLAogICAgICAgIH0pLAogICAgfQp9CgojW2NmZyh0ZXN0KV0KcHViKGNyYXRlKSBtb2QgdGVzdF9zdXBwb3J0IHsKICAgIHVzZSB0b2tpbzo6ewogICAgICAgIGlvOjp7QXN5bmNCdWZSZWFkRXh0LCBBc3luY1dyaXRlRXh0LCBCdWZSZWFkZXJ9LAogICAgICAgIG5ldDo6VGNwTGlzdGVuZXIsCiAgICB9OwogICAgcHViIGFzeW5jIGZuIHNtdHAocmVwbHk6ICYnc3RhdGljIHN0cikgLT4gKHUxNiwgdG9raW86OnRhc2s6OkpvaW5IYW5kbGU8U3RyaW5nPikgewogICAgICAgIGxldCBsaXN0ZW5lciA9IFRjcExpc3RlbmVyOjpiaW5kKCIxMjcuMC4wLjE6MCIpLmF3YWl0LnVud3JhcCgpOwogICAgICAgIGxldCBwb3J0ID0gbGlzdGVuZXIubG9jYWxfYWRkcigpLnVud3JhcCgpLnBvcnQoKTsKICAgICAgICBsZXQgdGFzayA9IHRva2lvOjpzcGF3bihhc3luYyBtb3ZlIHsKICAgICAgICAgICAgdG9raW86OnRpbWU6OnRpbWVvdXQoc3RkOjp0aW1lOjpEdXJhdGlvbjo6ZnJvbV9zZWNzKDEwKSwgYXN5bmMgbW92ZSB7CiAgICAgICAgICAgICAgICBsZXQgKHN0cmVhbSwgXykgPSBsaXN0ZW5lci5hY2NlcHQoKS5hd2FpdC51bndyYXAoKTsKICAgICAgICAgICAgICAgIGxldCAocmVhZCwgbXV0IHdyaXRlKSA9IHN0cmVhbS5pbnRvX3NwbGl0KCk7CiAgICAgICAgICAgICAgICB3cml0ZQogICAgICAgICAgICAgICAgICAgIC53cml0ZV9hbGwoYiIyMjAgbG9jYWxob3N0IHRlc3QgU01UUFxyXG4iKQogICAgICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgICAgIC51bndyYXAoKTsKICAgICAgICAgICAgICAgIGxldCBtdXQgbGluZXMgPSBCdWZSZWFkZXI6Om5ldyhyZWFkKS5saW5lcygpOwogICAgICAgICAgICAgICAgbGV0IG11dCBkYXRhID0gZmFsc2U7CiAgICAgICAgICAgICAgICBsZXQgbXV0IGNhcHR1cmVkID0gU3RyaW5nOjpuZXcoKTsKICAgICAgICAgICAgICAgIHdoaWxlIGxldCBTb21lKGxpbmUpID0gbGluZXMubmV4dF9saW5lKCkuYXdhaXQudW53cmFwKCkgewogICAgICAgICAgICAgICAgICAgIGlmIGRhdGEgewogICAgICAgICAgICAgICAgICAgICAgICBpZiBsaW5lID09ICIuIiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3cml0ZS53cml0ZV9hbGwoYiIyNTAgcXVldWVkXHJcbiIpLmF3YWl0LnVud3JhcCgpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGF0YSA9IGZhbHNlOwogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2FwdHVyZWQucHVzaF9zdHIoJmxpbmUpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2FwdHVyZWQucHVzaF9zdHIoIlxyXG4iKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiBsaW5lLnN0YXJ0c193aXRoKCJFSExPIikgewogICAgICAgICAgICAgICAgICAgICAgICB3cml0ZS53cml0ZV9hbGwoYiIyNTAgbG9jYWxob3N0XHJcbiIpLmF3YWl0LnVud3JhcCgpOwogICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiBsaW5lLnN0YXJ0c193aXRoKCJSQ1BUIikgewogICAgICAgICAgICAgICAgICAgICAgICB3cml0ZS53cml0ZV9hbGwocmVwbHkuYXNfYnl0ZXMoKSkuYXdhaXQudW53cmFwKCk7CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIGlmIGxpbmUgPT0gIkRBVEEiIHsKICAgICAgICAgICAgICAgICAgICAgICAgd3JpdGUud3JpdGVfYWxsKGIiMzU0IHNlbmQgZGF0YVxyXG4iKS5hd2FpdC51bndyYXAoKTsKICAgICAgICAgICAgICAgICAgICAgICAgZGF0YSA9IHRydWU7CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIGlmIGxpbmUgPT0gIlFVSVQiIHsKICAgICAgICAgICAgICAgICAgICAgICAgbGV0IF8gPSB3cml0ZS53cml0ZV9hbGwoYiIyMjEgZ29vZGJ5ZVxyXG4iKS5hd2FpdDsKICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgd3JpdGUud3JpdGVfYWxsKGIiMjUwIE9LXHJcbiIpLmF3YWl0LnVud3JhcCgpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNhcHR1cmVkCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICB9KTsKICAgICAgICAocG9ydCwgdGFzaykKICAgIH0KfQo=
+//! Transport-only mail infrastructure. Callers own configuration and retry policy.
+use lettre::{
+    AsyncSmtpTransport, AsyncTransport, Message, Tokio1Executor,
+    message::{Attachment, Mailbox, MultiPart, SinglePart, header::ContentType},
+    transport::smtp::{
+        authentication::{Credentials, Mechanism},
+        client::Tls,
+        response::Response,
+    },
+};
+use serde::{Deserialize, Serialize};
+use std::time::Duration;
+use utoipa::ToSchema;
+
+#[derive(Clone, Serialize, Deserialize, ToSchema, PartialEq, Eq)]
+#[serde(default)]
+pub(crate) struct SmtpConfig {
+    pub host: String,
+    pub port: u16,
+    pub security: String,
+    pub auth_mode: String,
+    pub username: String,
+    pub timeout_seconds: u64,
+}
+impl Default for SmtpConfig {
+    fn default() -> Self {
+        Self {
+            host: String::new(),
+            port: 465,
+            security: "ssl_tls".into(),
+            auth_mode: "auto".into(),
+            username: String::new(),
+            timeout_seconds: 30,
+        }
+    }
+}
+#[derive(Debug)]
+pub(crate) struct MailError {
+    pub code: &'static str,
+    pub retryable: bool,
+}
+impl std::fmt::Display for MailError {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        f.write_str(self.code)
+    }
+}
+impl std::error::Error for MailError {}
+impl MailError {
+    pub fn permanent(code: &'static str) -> Self {
+        Self {
+            code,
+            retryable: false,
+        }
+    }
+}
+pub(crate) struct MailAttachment {
+    pub filename: String,
+    pub bytes: Vec<u8>,
+}
+pub(crate) struct MailMessage {
+    pub from: Mailbox,
+    pub to: Vec<Mailbox>,
+    pub subject: String,
+    pub body: String,
+    pub message_id: String,
+    pub attachment: Option<MailAttachment>,
+}
+impl MailMessage {
+    pub fn build(self) -> Result<Message, MailError> {
+        if self.to.is_empty() {
+            return Err(MailError::permanent("recipient_required"));
+        }
+        let mut builder = Message::builder()
+            .from(self.from)
+            .subject(self.subject)
+            .message_id(Some(self.message_id));
+        for address in self.to {
+            builder = builder.to(address);
+        }
+        let body = SinglePart::plain(self.body);
+        let result = if let Some(attachment) = self.attachment {
+            builder.multipart(
+                MultiPart::mixed().singlepart(body).singlepart(
+                    Attachment::new(attachment.filename).body(
+                        attachment.bytes,
+                        ContentType::parse("application/octet-stream")
+                            .map_err(|_| MailError::permanent("invalid_content_type"))?,
+                    ),
+                ),
+            )
+        } else {
+            builder.singlepart(body)
+        };
+        result.map_err(|_| MailError::permanent("invalid_message"))
+    }
+}
+pub(crate) fn transport(
+    config: &SmtpConfig,
+    password: &str,
+) -> Result<AsyncSmtpTransport<Tokio1Executor>, MailError> {
+    let mut builder = match config.security.as_str() {
+        "none" => {
+            AsyncSmtpTransport::<Tokio1Executor>::builder_dangerous(&config.host).tls(Tls::None)
+        }
+        "starttls" => AsyncSmtpTransport::<Tokio1Executor>::starttls_relay(&config.host)
+            .map_err(|_| MailError::permanent("invalid_smtp_host"))?,
+        "ssl_tls" => AsyncSmtpTransport::<Tokio1Executor>::relay(&config.host)
+            .map_err(|_| MailError::permanent("invalid_smtp_host"))?,
+        _ => return Err(MailError::permanent("invalid_tls_mode")),
+    }
+    .port(config.port);
+    if config.auth_mode != "none" && !config.username.trim().is_empty() {
+        builder = builder.credentials(Credentials::new(config.username.clone(), password.into()));
+        builder = match config.auth_mode.as_str() {
+            "plain" => builder.authentication(vec![Mechanism::Plain]),
+            "login" => builder.authentication(vec![Mechanism::Login]),
+            _ => builder,
+        };
+    }
+    Ok(builder.build())
+}
+pub(crate) async fn send(
+    config: &SmtpConfig,
+    password: &str,
+    message: Message,
+) -> Result<Response, MailError> {
+    let mailer = transport(config, password)?;
+    match tokio::time::timeout(
+        Duration::from_secs(config.timeout_seconds.clamp(1, 120)),
+        mailer.send(message),
+    )
+    .await
+    {
+        Ok(Ok(response)) => Ok(response),
+        Ok(Err(error)) => Err(MailError {
+            code: if error.is_permanent() {
+                "smtp_rejected"
+            } else {
+                "smtp_unavailable"
+            },
+            retryable: !error.is_permanent() && !error.is_client(),
+        }),
+        Err(_) => Err(MailError {
+            code: "smtp_timeout",
+            retryable: true,
+        }),
+    }
+}
+
+#[cfg(test)]
+pub(crate) mod test_support {
+    use tokio::{
+        io::{AsyncBufReadExt, AsyncWriteExt, BufReader},
+        net::TcpListener,
+    };
+    pub async fn smtp(reply: &'static str) -> (u16, tokio::task::JoinHandle<String>) {
+        let listener = TcpListener::bind("127.0.0.1:0").await.unwrap();
+        let port = listener.local_addr().unwrap().port();
+        let task = tokio::spawn(async move {
+            tokio::time::timeout(std::time::Duration::from_secs(10), async move {
+                let (stream, _) = listener.accept().await.unwrap();
+                let (read, mut write) = stream.into_split();
+                write
+                    .write_all(b"220 localhost test SMTP\r\n")
+                    .await
+                    .unwrap();
+                let mut lines = BufReader::new(read).lines();
+                let mut data = false;
+                let mut captured = String::new();
+                while let Some(line) = lines.next_line().await.unwrap() {
+                    if data {
+                        if line == "." {
+                            write.write_all(b"250 queued\r\n").await.unwrap();
+                            data = false;
+                        } else {
+                            captured.push_str(&line);
+                            captured.push_str("\r\n");
+                        }
+                    } else if line.starts_with("EHLO") {
+                        write.write_all(b"250 localhost\r\n").await.unwrap();
+                    } else if line.starts_with("RCPT") {
+                        write.write_all(reply.as_bytes()).await.unwrap();
+                    } else if line == "DATA" {
+                        write.write_all(b"354 send data\r\n").await.unwrap();
+                        data = true;
+                    } else if line == "QUIT" {
+                        let _ = write.write_all(b"221 goodbye\r\n").await;
+                        break;
+                    } else {
+                        write.write_all(b"250 OK\r\n").await.unwrap();
+                    }
+                }
+                captured
+            })
+            .await
+            .unwrap()
+        });
+        (port, task)
+    }
+}

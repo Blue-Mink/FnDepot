@@ -1,1 +1,242 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQ2hldnJvbkRvd24sIENoZXZyb25VcCwgRm9sZGVyT3BlbiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsgU3dpdGNoIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N3aXRjaCI7CmltcG9ydCB7CiAgVGFnc0lucHV0LAogIFRhZ3NJbnB1dElucHV0LAogIFRhZ3NJbnB1dEl0ZW0sCiAgVGFnc0lucHV0SXRlbURlbGV0ZSwKICBUYWdzSW5wdXRJdGVtVGV4dCwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFncy1pbnB1dCI7CmltcG9ydCB7IHVzZUNvbmZpZ1N0b3JlIH0gZnJvbSAiQC9zdG9yZS9jb25maWciOwppbXBvcnQgdHlwZSB7IEhvc3RNYXBwaW5nU3RhdGljU2VydmUsIEhvc3RNYXBwaW5nVGFyZ2V0VHlwZSB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgewogIGdldFN0YXRpY1NlcnZlVmFsaWRhdGlvbklzc3VlLAogIHR5cGUgU3RhdGljU2VydmVWYWxpZGF0aW9uSXNzdWUsCn0gZnJvbSAiLi9ob3N0LW1hcHBpbmctdGFyZ2V0LW1vZGVsIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIG1vZGVsVmFsdWU6IEhvc3RNYXBwaW5nU3RhdGljU2VydmU7CiAgdGFyZ2V0VHlwZTogRXhjbHVkZTxIb3N0TWFwcGluZ1RhcmdldFR5cGUsICJwcm94eSI+Owp9PigpOwpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIGJyb3dzZTogW3RhcmdldFR5cGU6IEV4Y2x1ZGU8SG9zdE1hcHBpbmdUYXJnZXRUeXBlLCAicHJveHkiPiwgcGF0aDogc3RyaW5nXTsKICAidXBkYXRlOm1vZGVsVmFsdWUiOiBbdmFsdWU6IEhvc3RNYXBwaW5nU3RhdGljU2VydmVdOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IGNvbmZpZ1N0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKCmNvbnN0IHBhdGNoU3RhdGljU2VydmUgPSAocGF0Y2g6IFBhcnRpYWw8SG9zdE1hcHBpbmdTdGF0aWNTZXJ2ZT4pID0+IHsKICBlbWl0KCJ1cGRhdGU6bW9kZWxWYWx1ZSIsIHsgLi4ucHJvcHMubW9kZWxWYWx1ZSwgLi4ucGF0Y2ggfSk7Cn07CmNvbnN0IHBhdGhNb2RlbCA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IHByb3BzLm1vZGVsVmFsdWUucGF0aCwKICBzZXQ6IChwYXRoOiBzdHJpbmcpID0+IHBhdGNoU3RhdGljU2VydmUoeyBwYXRoIH0pLAp9KTsKY29uc3QgaW5kZXhGaWxlc01vZGVsID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcHJvcHMubW9kZWxWYWx1ZS5pbmRleF9maWxlcywKICBzZXQ6IChpbmRleEZpbGVzOiBzdHJpbmdbXSkgPT4gcGF0Y2hTdGF0aWNTZXJ2ZSh7IGluZGV4X2ZpbGVzOiBpbmRleEZpbGVzIH0pLAp9KTsKY29uc3QgbGlzdGluZ0VuYWJsZWRNb2RlbCA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IHByb3BzLm1vZGVsVmFsdWUuZGlyZWN0b3J5X2xpc3RpbmcuZW5hYmxlZCwKICBzZXQ6IChlbmFibGVkOiBib29sZWFuKSA9PgogICAgcGF0Y2hTdGF0aWNTZXJ2ZSh7CiAgICAgIGRpcmVjdG9yeV9saXN0aW5nOiB7CiAgICAgICAgZW5hYmxlZCwKICAgICAgICByZW5kZXJfcmVhZG1lOgogICAgICAgICAgZW5hYmxlZCAmJiBwcm9wcy5tb2RlbFZhbHVlLmRpcmVjdG9yeV9saXN0aW5nLnJlbmRlcl9yZWFkbWUsCiAgICAgIH0sCiAgICB9KSwKfSk7CmNvbnN0IHJlbmRlclJlYWRtZU1vZGVsID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcHJvcHMubW9kZWxWYWx1ZS5kaXJlY3RvcnlfbGlzdGluZy5yZW5kZXJfcmVhZG1lLAogIHNldDogKHJlbmRlclJlYWRtZTogYm9vbGVhbikgPT4KICAgIHBhdGNoU3RhdGljU2VydmUoewogICAgICBkaXJlY3RvcnlfbGlzdGluZzogewogICAgICAgIGVuYWJsZWQ6IHJlbmRlclJlYWRtZSB8fCBwcm9wcy5tb2RlbFZhbHVlLmRpcmVjdG9yeV9saXN0aW5nLmVuYWJsZWQsCiAgICAgICAgcmVuZGVyX3JlYWRtZTogcmVuZGVyUmVhZG1lLAogICAgICB9LAogICAgfSksCn0pOwpjb25zdCBwYXRoUGxhY2Vob2xkZXIgPSBjb21wdXRlZCgoKSA9PiB7CiAgaWYgKGNvbmZpZ1N0b3JlLmlzV2luZG93c0RlcGxveW1lbnQpIHsKICAgIHJldHVybiBwcm9wcy50YXJnZXRUeXBlID09PSAiZGlyZWN0b3J5IgogICAgICA/ICJDOlxcU2l0ZXNcXGRvY3MiCiAgICAgIDogIkM6XFxTaXRlc1xcZG9jc1xcbWFudWFsLnBkZiI7CiAgfQogIHJldHVybiBwcm9wcy50YXJnZXRUeXBlID09PSAiZGlyZWN0b3J5IgogICAgPyAiL3Nydi9zaXRlIgogICAgOiAiL3Nydi9zaXRlL21hbnVhbC5wZGYiOwp9KTsKY29uc3QgdmFsaWRhdGlvbklzc3VlID0gY29tcHV0ZWQ8U3RhdGljU2VydmVWYWxpZGF0aW9uSXNzdWUgfCBudWxsPigoKSA9PgogIGdldFN0YXRpY1NlcnZlVmFsaWRhdGlvbklzc3VlKHsKICAgIGlzV2luZG93czogY29uZmlnU3RvcmUuaXNXaW5kb3dzRGVwbG95bWVudCwKICAgIHN0YXRpY1NlcnZlOiBwcm9wcy5tb2RlbFZhbHVlLAogICAgdGFyZ2V0VHlwZTogcHJvcHMudGFyZ2V0VHlwZSwKICB9KSwKKTsKY29uc3QgcGF0aFZhbGlkYXRpb25Jc3N1ZSA9IGNvbXB1dGVkKCgpID0+IHsKICBjb25zdCBpc3N1ZSA9IHZhbGlkYXRpb25Jc3N1ZS52YWx1ZTsKICByZXR1cm4gaXNzdWUgPT09ICJwYXRoX3JlcXVpcmVkIiB8fAogICAgaXNzdWUgPT09ICJwYXRoX25vdF9hYnNvbHV0ZSIgfHwKICAgIGlzc3VlID09PSAicGF0aF9oYXNfcGFyZW50X3NlZ21lbnQiIHx8CiAgICBpc3N1ZSA9PT0gInBhdGhfdW5zYWZlIgogICAgPyBpc3N1ZQogICAgOiBudWxsOwp9KTsKY29uc3QgcGF0aFZhbGlkYXRpb25NZXNzYWdlID0gY29tcHV0ZWQoKCkgPT4KICBwYXRoVmFsaWRhdGlvbklzc3VlLnZhbHVlCiAgICA/IHQoCiAgICAgICAgYGFkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLnZhbGlkYXRpb24uJHtwYXRoVmFsaWRhdGlvbklzc3VlLnZhbHVlfWAsCiAgICAgICkKICAgIDogIiIsCik7CmNvbnN0IGluZGV4RmlsZXNWYWxpZGF0aW9uTWVzc2FnZSA9IGNvbXB1dGVkKCgpID0+CiAgdmFsaWRhdGlvbklzc3VlLnZhbHVlICYmICFwYXRoVmFsaWRhdGlvbklzc3VlLnZhbHVlCiAgICA/IHQoYGFkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLnZhbGlkYXRpb24uJHt2YWxpZGF0aW9uSXNzdWUudmFsdWV9YCkKICAgIDogIiIsCik7CmNvbnN0IG1vdmVJbmRleEZpbGUgPSAoaW5kZXg6IG51bWJlciwgb2Zmc2V0OiAtMSB8IDEpID0+IHsKICBjb25zdCBuZXh0SW5kZXggPSBpbmRleCArIG9mZnNldDsKICBpZiAobmV4dEluZGV4IDwgMCB8fCBuZXh0SW5kZXggPj0gaW5kZXhGaWxlc01vZGVsLnZhbHVlLmxlbmd0aCkgcmV0dXJuOwogIGNvbnN0IG5leHQgPSBbLi4uaW5kZXhGaWxlc01vZGVsLnZhbHVlXTsKICBjb25zdCBmaWxlbmFtZSA9IG5leHRbaW5kZXhdOwogIGlmIChmaWxlbmFtZSA9PT0gdW5kZWZpbmVkKSByZXR1cm47CiAgbmV4dC5zcGxpY2UoaW5kZXgsIDEpOwogIG5leHQuc3BsaWNlKG5leHRJbmRleCwgMCwgZmlsZW5hbWUpOwogIGluZGV4RmlsZXNNb2RlbC52YWx1ZSA9IG5leHQ7Cn07Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktNCByb3VuZGVkLWxnIGJvcmRlciBiZy1tdXRlZC8xNSBweC00IHB5LTQiPgogICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgPExhYmVsIGZvcj0ibWFwcGluZy1zdGF0aWMtcGF0aCI+CiAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUucGF0aExhYmVsIikgfX0KICAgICAgPC9MYWJlbD4KICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgZ2FwLTIgc206ZmxleC1ub3dyYXAiPgogICAgICAgIDxJbnB1dAogICAgICAgICAgaWQ9Im1hcHBpbmctc3RhdGljLXBhdGgiCiAgICAgICAgICB2LW1vZGVsPSJwYXRoTW9kZWwiCiAgICAgICAgICBjbGFzcz0iZm9udC1tb25vIgogICAgICAgICAgOnBsYWNlaG9sZGVyPSJwYXRoUGxhY2Vob2xkZXIiCiAgICAgICAgLz4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgY2xhc3M9InNocmluay0wIgogICAgICAgICAgZGF0YS10ZXN0aWQ9ImJyb3dzZS1zdGF0aWMtcGF0aCIKICAgICAgICAgIEBjbGljaz0iZW1pdCgnYnJvd3NlJywgdGFyZ2V0VHlwZSwgcGF0aE1vZGVsKSIKICAgICAgICA+CiAgICAgICAgICA8Rm9sZGVyT3BlbiBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUuYnJvd3Nlci5vcGVuIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CiAgICAgIDxwIHYtaWY9InBhdGhWYWxpZGF0aW9uTWVzc2FnZSIgY2xhc3M9InRleHQteHMgdGV4dC1kZXN0cnVjdGl2ZSI+CiAgICAgICAge3sgcGF0aFZhbGlkYXRpb25NZXNzYWdlIH19CiAgICAgIDwvcD4KICAgICAgPHAgY2xhc3M9InRleHQteHMgbGVhZGluZy01IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUucGF0aEhpbnQiKSB9fQogICAgICA8L3A+CiAgICAgIDxwCiAgICAgICAgdi1pZj0iY29uZmlnU3RvcmUuaXNEb2NrZXJEZXBsb3ltZW50IgogICAgICAgIGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgID4KICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdGF0aWNTZXJ2ZS5wYXRoRG9ja2VySGludCIpIH19CiAgICAgIDwvcD4KICAgIDwvZGl2PgoKICAgIDx0ZW1wbGF0ZSB2LWlmPSJ0YXJnZXRUeXBlID09PSAnZGlyZWN0b3J5JyI+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgPExhYmVsIGZvcj0ibWFwcGluZy1pbmRleC1maWxlcyI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdGF0aWNTZXJ2ZS5pbmRleEZpbGVzIikgfX0KICAgICAgICA8L0xhYmVsPgogICAgICAgIDxUYWdzSW5wdXQKICAgICAgICAgIHYtbW9kZWw9ImluZGV4RmlsZXNNb2RlbCIKICAgICAgICAgIGFkZC1vbi1ibHVyCiAgICAgICAgICBjbGFzcz0ibWluLWgtMTAiCiAgICAgICAgICA6YXJpYS1pbnZhbGlkPSIhIWluZGV4RmlsZXNWYWxpZGF0aW9uTWVzc2FnZSIKICAgICAgICA+CiAgICAgICAgICA8VGFnc0lucHV0SXRlbQogICAgICAgICAgICB2LWZvcj0iKGZpbGVuYW1lLCBpbmRleCkgaW4gaW5kZXhGaWxlc01vZGVsIgogICAgICAgICAgICA6a2V5PSJgJHtmaWxlbmFtZX0tJHtpbmRleH1gIgogICAgICAgICAgICA6dmFsdWU9ImZpbGVuYW1lIgogICAgICAgICAgPgogICAgICAgICAgICA8VGFnc0lucHV0SXRlbVRleHQgLz4KICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICBjbGFzcz0icm91bmRlZCBwLTAuNSB0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6YmctbXV0ZWQgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIGRpc2FibGVkOm9wYWNpdHktMzAiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJpbmRleCA9PT0gMCIKICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUubW92ZUluZGV4VXAnKSIKICAgICAgICAgICAgICBAY2xpY2sucHJldmVudD0ibW92ZUluZGV4RmlsZShpbmRleCwgLTEpIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPENoZXZyb25VcCBjbGFzcz0iaC0zIHctMyIgLz4KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgY2xhc3M9InJvdW5kZWQgcC0wLjUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGhvdmVyOmJnLW11dGVkIGhvdmVyOnRleHQtZm9yZWdyb3VuZCBkaXNhYmxlZDpvcGFjaXR5LTMwIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iaW5kZXggPT09IGluZGV4RmlsZXNNb2RlbC5sZW5ndGggLSAxIgogICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5zdGF0aWNTZXJ2ZS5tb3ZlSW5kZXhEb3duJykiCiAgICAgICAgICAgICAgQGNsaWNrLnByZXZlbnQ9Im1vdmVJbmRleEZpbGUoaW5kZXgsIDEpIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPENoZXZyb25Eb3duIGNsYXNzPSJoLTMgdy0zIiAvPgogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPFRhZ3NJbnB1dEl0ZW1EZWxldGUgLz4KICAgICAgICAgIDwvVGFnc0lucHV0SXRlbT4KICAgICAgICAgIDxUYWdzSW5wdXRJbnB1dAogICAgICAgICAgICBpZD0ibWFwcGluZy1pbmRleC1maWxlcyIKICAgICAgICAgICAgOnBsYWNlaG9sZGVyPSIKICAgICAgICAgICAgICBpbmRleEZpbGVzTW9kZWwubGVuZ3RoID09PSAwCiAgICAgICAgICAgICAgICA/IHQoJ2FkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLmluZGV4RmlsZXNQbGFjZWhvbGRlcicpCiAgICAgICAgICAgICAgICA6ICcnCiAgICAgICAgICAgICIKICAgICAgICAgIC8+CiAgICAgICAgPC9UYWdzSW5wdXQ+CiAgICAgICAgPHAgY2xhc3M9InRleHQteHMgbGVhZGluZy01IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdGF0aWNTZXJ2ZS5pbmRleEZpbGVzSGludCIpIH19CiAgICAgICAgPC9wPgogICAgICAgIDxwIHYtaWY9ImluZGV4RmlsZXNWYWxpZGF0aW9uTWVzc2FnZSIgY2xhc3M9InRleHQteHMgdGV4dC1kZXN0cnVjdGl2ZSI+CiAgICAgICAgICB7eyBpbmRleEZpbGVzVmFsaWRhdGlvbk1lc3NhZ2UgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQgcm91bmRlZC1sZyBib3JkZXIgYmctYmFja2dyb3VuZCBweC0zIHB5LTMiCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIHNwYWNlLXktMSI+CiAgICAgICAgICA8TGFiZWwgZm9yPSJtYXBwaW5nLWRpcmVjdG9yeS1saXN0aW5nIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUuZGlyZWN0b3J5TGlzdGluZyIpIH19CiAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgPHAgY2xhc3M9InRleHQteHMgbGVhZGluZy01IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLmRpcmVjdG9yeUxpc3RpbmdIaW50IikgfX0KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8U3dpdGNoIGlkPSJtYXBwaW5nLWRpcmVjdG9yeS1saXN0aW5nIiB2LW1vZGVsPSJsaXN0aW5nRW5hYmxlZE1vZGVsIiAvPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC00IHJvdW5kZWQtbGcgYm9yZGVyIGJnLWJhY2tncm91bmQgcHgtMyBweS0zIgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTEiPgogICAgICAgICAgPExhYmVsIGZvcj0ibWFwcGluZy1yZW5kZXItcmVhZG1lIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUucmVuZGVyUmVhZG1lIikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUucmVuZGVyUmVhZG1lSGludCIpIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPFN3aXRjaAogICAgICAgICAgaWQ9Im1hcHBpbmctcmVuZGVyLXJlYWRtZSIKICAgICAgICAgIHYtbW9kZWw9InJlbmRlclJlYWRtZU1vZGVsIgogICAgICAgICAgOmRpc2FibGVkPSIhbGlzdGluZ0VuYWJsZWRNb2RlbCIKICAgICAgICAvPgogICAgICA8L2Rpdj4KICAgIDwvdGVtcGxhdGU+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { ChevronDown, ChevronUp, FolderOpen } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import {
+  TagsInput,
+  TagsInputInput,
+  TagsInputItem,
+  TagsInputItemDelete,
+  TagsInputItemText,
+} from "@/components/ui/tags-input";
+import { useConfigStore } from "@/store/config";
+import type { HostMappingStaticServe, HostMappingTargetType } from "@/types";
+import {
+  getStaticServeValidationIssue,
+  type StaticServeValidationIssue,
+} from "./host-mapping-target-model";
+
+const props = defineProps<{
+  modelValue: HostMappingStaticServe;
+  targetType: Exclude<HostMappingTargetType, "proxy">;
+}>();
+const emit = defineEmits<{
+  browse: [targetType: Exclude<HostMappingTargetType, "proxy">, path: string];
+  "update:modelValue": [value: HostMappingStaticServe];
+}>();
+
+const { t } = useI18n();
+const configStore = useConfigStore();
+
+const patchStaticServe = (patch: Partial<HostMappingStaticServe>) => {
+  emit("update:modelValue", { ...props.modelValue, ...patch });
+};
+const pathModel = computed({
+  get: () => props.modelValue.path,
+  set: (path: string) => patchStaticServe({ path }),
+});
+const indexFilesModel = computed({
+  get: () => props.modelValue.index_files,
+  set: (indexFiles: string[]) => patchStaticServe({ index_files: indexFiles }),
+});
+const listingEnabledModel = computed({
+  get: () => props.modelValue.directory_listing.enabled,
+  set: (enabled: boolean) =>
+    patchStaticServe({
+      directory_listing: {
+        enabled,
+        render_readme:
+          enabled && props.modelValue.directory_listing.render_readme,
+      },
+    }),
+});
+const renderReadmeModel = computed({
+  get: () => props.modelValue.directory_listing.render_readme,
+  set: (renderReadme: boolean) =>
+    patchStaticServe({
+      directory_listing: {
+        enabled: renderReadme || props.modelValue.directory_listing.enabled,
+        render_readme: renderReadme,
+      },
+    }),
+});
+const pathPlaceholder = computed(() => {
+  if (configStore.isWindowsDeployment) {
+    return props.targetType === "directory"
+      ? "C:\\Sites\\docs"
+      : "C:\\Sites\\docs\\manual.pdf";
+  }
+  return props.targetType === "directory"
+    ? "/srv/site"
+    : "/srv/site/manual.pdf";
+});
+const validationIssue = computed<StaticServeValidationIssue | null>(() =>
+  getStaticServeValidationIssue({
+    isWindows: configStore.isWindowsDeployment,
+    staticServe: props.modelValue,
+    targetType: props.targetType,
+  }),
+);
+const pathValidationIssue = computed(() => {
+  const issue = validationIssue.value;
+  return issue === "path_required" ||
+    issue === "path_not_absolute" ||
+    issue === "path_has_parent_segment" ||
+    issue === "path_unsafe"
+    ? issue
+    : null;
+});
+const pathValidationMessage = computed(() =>
+  pathValidationIssue.value
+    ? t(
+        `admin.subdomainProxy.staticServe.validation.${pathValidationIssue.value}`,
+      )
+    : "",
+);
+const indexFilesValidationMessage = computed(() =>
+  validationIssue.value && !pathValidationIssue.value
+    ? t(`admin.subdomainProxy.staticServe.validation.${validationIssue.value}`)
+    : "",
+);
+const moveIndexFile = (index: number, offset: -1 | 1) => {
+  const nextIndex = index + offset;
+  if (nextIndex < 0 || nextIndex >= indexFilesModel.value.length) return;
+  const next = [...indexFilesModel.value];
+  const filename = next[index];
+  if (filename === undefined) return;
+  next.splice(index, 1);
+  next.splice(nextIndex, 0, filename);
+  indexFilesModel.value = next;
+};
+</script>
+
+<template>
+  <div class="space-y-4 rounded-lg border bg-muted/15 px-4 py-4">
+    <div class="space-y-2">
+      <Label for="mapping-static-path">
+        {{ t("admin.subdomainProxy.staticServe.pathLabel") }}
+      </Label>
+      <div class="flex flex-wrap gap-2 sm:flex-nowrap">
+        <Input
+          id="mapping-static-path"
+          v-model="pathModel"
+          class="font-mono"
+          :placeholder="pathPlaceholder"
+        />
+        <Button
+          type="button"
+          variant="outline"
+          class="shrink-0"
+          data-testid="browse-static-path"
+          @click="emit('browse', targetType, pathModel)"
+        >
+          <FolderOpen class="mr-2 h-4 w-4" />
+          {{ t("admin.subdomainProxy.staticServe.browser.open") }}
+        </Button>
+      </div>
+      <p v-if="pathValidationMessage" class="text-xs text-destructive">
+        {{ pathValidationMessage }}
+      </p>
+      <p class="text-xs leading-5 text-muted-foreground">
+        {{ t("admin.subdomainProxy.staticServe.pathHint") }}
+      </p>
+      <p
+        v-if="configStore.isDockerDeployment"
+        class="text-xs leading-5 text-muted-foreground"
+      >
+        {{ t("admin.subdomainProxy.staticServe.pathDockerHint") }}
+      </p>
+    </div>
+
+    <template v-if="targetType === 'directory'">
+      <div class="space-y-2">
+        <Label for="mapping-index-files">
+          {{ t("admin.subdomainProxy.staticServe.indexFiles") }}
+        </Label>
+        <TagsInput
+          v-model="indexFilesModel"
+          add-on-blur
+          class="min-h-10"
+          :aria-invalid="!!indexFilesValidationMessage"
+        >
+          <TagsInputItem
+            v-for="(filename, index) in indexFilesModel"
+            :key="`${filename}-${index}`"
+            :value="filename"
+          >
+            <TagsInputItemText />
+            <button
+              type="button"
+              class="rounded p-0.5 text-muted-foreground hover:bg-muted hover:text-foreground disabled:opacity-30"
+              :disabled="index === 0"
+              :aria-label="t('admin.subdomainProxy.staticServe.moveIndexUp')"
+              @click.prevent="moveIndexFile(index, -1)"
+            >
+              <ChevronUp class="h-3 w-3" />
+            </button>
+            <button
+              type="button"
+              class="rounded p-0.5 text-muted-foreground hover:bg-muted hover:text-foreground disabled:opacity-30"
+              :disabled="index === indexFilesModel.length - 1"
+              :aria-label="t('admin.subdomainProxy.staticServe.moveIndexDown')"
+              @click.prevent="moveIndexFile(index, 1)"
+            >
+              <ChevronDown class="h-3 w-3" />
+            </button>
+            <TagsInputItemDelete />
+          </TagsInputItem>
+          <TagsInputInput
+            id="mapping-index-files"
+            :placeholder="
+              indexFilesModel.length === 0
+                ? t('admin.subdomainProxy.staticServe.indexFilesPlaceholder')
+                : ''
+            "
+          />
+        </TagsInput>
+        <p class="text-xs leading-5 text-muted-foreground">
+          {{ t("admin.subdomainProxy.staticServe.indexFilesHint") }}
+        </p>
+        <p v-if="indexFilesValidationMessage" class="text-xs text-destructive">
+          {{ indexFilesValidationMessage }}
+        </p>
+      </div>
+
+      <div
+        class="flex items-center justify-between gap-4 rounded-lg border bg-background px-3 py-3"
+      >
+        <div class="min-w-0 space-y-1">
+          <Label for="mapping-directory-listing">
+            {{ t("admin.subdomainProxy.staticServe.directoryListing") }}
+          </Label>
+          <p class="text-xs leading-5 text-muted-foreground">
+            {{ t("admin.subdomainProxy.staticServe.directoryListingHint") }}
+          </p>
+        </div>
+        <Switch id="mapping-directory-listing" v-model="listingEnabledModel" />
+      </div>
+
+      <div
+        class="flex items-center justify-between gap-4 rounded-lg border bg-background px-3 py-3"
+      >
+        <div class="min-w-0 space-y-1">
+          <Label for="mapping-render-readme">
+            {{ t("admin.subdomainProxy.staticServe.renderReadme") }}
+          </Label>
+          <p class="text-xs leading-5 text-muted-foreground">
+            {{ t("admin.subdomainProxy.staticServe.renderReadmeHint") }}
+          </p>
+        </div>
+        <Switch
+          id="mapping-render-readme"
+          v-model="renderReadmeModel"
+          :disabled="!listingEnabledModel"
+        />
+      </div>
+    </template>
+  </div>
+</template>

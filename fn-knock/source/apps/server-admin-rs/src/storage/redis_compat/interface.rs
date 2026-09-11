@@ -1,1 +1,518 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGNyYXRlKSB0eXBlIFJlZGlzUmVzdWx0PFQ+ID0gU3RvcmFnZVJlc3VsdDxUPjsKI1thbGxvdyhkZWFkX2NvZGUpXQpwdWIoY3JhdGUpIHR5cGUgUmVkaXNFcnJvciA9IFN0b3JhZ2VFcnJvcjsKCiNbYWxsb3coZGVhZF9jb2RlKV0KcHViKGNyYXRlKSB0cmFpdCBBc3luY0NvbW1hbmRzIHt9CgojW2Rlcml2ZShDbG9uZSldCnB1YihjcmF0ZSkgc3RydWN0IENvbm5lY3Rpb25NYW5hZ2VyIHsKICAgIHB1YihzdXBlcikgZGI6IENvbm5lY3Rpb24sCiAgICBwdWIoc3VwZXIpIGFuYWx5dGljc19kYjogQ29ubmVjdGlvbiwKICAgIHB1YihzdXBlcikgYXV0aF9yZWFkX2RiOiBDb25uZWN0aW9uLAogICAgcHViKHN1cGVyKSBoZWFsdGhfZGI6IENvbm5lY3Rpb24sCiAgICBwdWIoc3VwZXIpIGNoZWNrcG9pbnRfZ2F0ZTogQXJjPFJ3TG9jazwoKT4+LAogICAgcHViKHN1cGVyKSBwcmltYXJ5X2FkbWlzc2lvbjogQXJjPFNlbWFwaG9yZT4sCiAgICBwdWIoc3VwZXIpIGFuYWx5dGljc19hZG1pc3Npb246IEFyYzxTZW1hcGhvcmU+LAogICAgcHViKHN1cGVyKSBhdXRoX3JlYWRfYWRtaXNzaW9uOiBBcmM8U2VtYXBob3JlPiwKICAgIHB1YihzdXBlcikgaGVhbHRoX2FkbWlzc2lvbjogQXJjPFNlbWFwaG9yZT4sCiAgICBwdWIoc3VwZXIpIHByaW1hcnlfbWV0cmljczogQXJjPFByaW1hcnlFeGVjdXRvck1ldHJpY3M+LAogICAgcHViKHN1cGVyKSBvcGVyYXRpb25fcmVjb3JkZXI6IEFyYzxjcmF0ZTo6cnVudGltZV9oZWFsdGg6Om9wZXJhdGlvbnM6Ok9wZXJhdGlvblJlY29yZGVyPiwKICAgICNbY2ZnKHRlc3QpXQogICAgcHViKHN1cGVyKSBwYXRoOiBQYXRoQnVmLAp9CgojW2Rlcml2ZShDbG9uZSwgQ29weSwgRGVidWcsIERlZmF1bHQsIFBhcnRpYWxFcSwgRXEpXQpwdWIoY3JhdGUpIHN0cnVjdCBQcmltYXJ5UXVldWVTdGF0dXMgewogICAgcHViKGNyYXRlKSBxdWV1ZV9kZXB0aDogdTY0LAogICAgcHViKGNyYXRlKSBxdWV1ZV9kZXB0aF9wZWFrOiB1NjQsCiAgICBwdWIoY3JhdGUpIHF1ZXVlX3dhaXRfbXM6IHU2NCwKICAgIHB1YihjcmF0ZSkgcXVldWVfd2FpdF9wZWFrX21zOiB1NjQsCiAgICBwdWIoY3JhdGUpIGFjdGl2ZV9vcGVyYXRpb25fbXM6IHU2NCwKICAgIHB1YihjcmF0ZSkgY2FuY2VsZWRfb3BlcmF0aW9uczogdTY0LAp9CgojW2Rlcml2ZShEZWZhdWx0KV0KcHViKHN1cGVyKSBzdHJ1Y3QgUHJpbWFyeUV4ZWN1dG9yTWV0cmljcyB7CiAgICB3YWl0aW5nOiBBdG9taWNVNjQsCiAgICB3YWl0aW5nX3BlYWs6IEF0b21pY1U2NCwKICAgIGxhc3Rfd2FpdF9tczogQXRvbWljVTY0LAogICAgd2FpdF9wZWFrX21zOiBBdG9taWNVNjQsCiAgICBhY3RpdmVfc2luY2VfbXM6IEF0b21pY1U2NCwKICAgIGNhbmNlbGVkOiBBdG9taWNVNjQsCn0KCmltcGwgUHJpbWFyeUV4ZWN1dG9yTWV0cmljcyB7CiAgICBwdWIoc3VwZXIpIGZuIGJlZ2luX3dhaXQoc2VsZjogJkFyYzxTZWxmPikgLT4gUHJpbWFyeVF1ZXVlV2FpdGVyIHsKICAgICAgICBsZXQgZGVwdGggPSBzZWxmLndhaXRpbmcuZmV0Y2hfYWRkKDEsIEF0b21pY09yZGVyaW5nOjpBY3FSZWwpICsgMTsKICAgICAgICBzZWxmLndhaXRpbmdfcGVhay5mZXRjaF9tYXgoZGVwdGgsIEF0b21pY09yZGVyaW5nOjpSZWxheGVkKTsKICAgICAgICBQcmltYXJ5UXVldWVXYWl0ZXIgewogICAgICAgICAgICBtZXRyaWNzOiBzZWxmLmNsb25lKCksCiAgICAgICAgICAgIHN0YXJ0ZWQ6IEluc3RhbnQ6Om5vdygpLAogICAgICAgICAgICBhZG1pdHRlZDogZmFsc2UsCiAgICAgICAgfQogICAgfQoKICAgIHB1YihzdXBlcikgZm4gYmVnaW5fZXhlY3V0aW9uKHNlbGY6ICZBcmM8U2VsZj4sIHdhaXRfbXM6IHU2NCkgLT4gUHJpbWFyeUV4ZWN1dGlvbiB7CiAgICAgICAgc2VsZi5sYXN0X3dhaXRfbXMuc3RvcmUod2FpdF9tcywgQXRvbWljT3JkZXJpbmc6OlJlbGVhc2UpOwogICAgICAgIHNlbGYud2FpdF9wZWFrX21zCiAgICAgICAgICAgIC5mZXRjaF9tYXgod2FpdF9tcywgQXRvbWljT3JkZXJpbmc6OlJlbGF4ZWQpOwogICAgICAgIHNlbGYuYWN0aXZlX3NpbmNlX21zCiAgICAgICAgICAgIC5zdG9yZSh1bml4X3RpbWVfbXMoKSwgQXRvbWljT3JkZXJpbmc6OlJlbGVhc2UpOwogICAgICAgIFByaW1hcnlFeGVjdXRpb24gewogICAgICAgICAgICBtZXRyaWNzOiBzZWxmLmNsb25lKCksCiAgICAgICAgfQogICAgfQoKICAgIHB1YihzdXBlcikgZm4gc3RhdHVzKCZzZWxmKSAtPiBQcmltYXJ5UXVldWVTdGF0dXMgewogICAgICAgIGxldCBhY3RpdmVfc2luY2VfbXMgPSBzZWxmLmFjdGl2ZV9zaW5jZV9tcy5sb2FkKEF0b21pY09yZGVyaW5nOjpBY3F1aXJlKTsKICAgICAgICBsZXQgYWN0aXZlX29wZXJhdGlvbl9tcyA9IGlmIGFjdGl2ZV9zaW5jZV9tcyA9PSAwIHsKICAgICAgICAgICAgMAogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHVuaXhfdGltZV9tcygpLnNhdHVyYXRpbmdfc3ViKGFjdGl2ZV9zaW5jZV9tcykKICAgICAgICB9OwogICAgICAgIFByaW1hcnlRdWV1ZVN0YXR1cyB7CiAgICAgICAgICAgIHF1ZXVlX2RlcHRoOiBzZWxmLndhaXRpbmcubG9hZChBdG9taWNPcmRlcmluZzo6QWNxdWlyZSksCiAgICAgICAgICAgIHF1ZXVlX2RlcHRoX3BlYWs6IHNlbGYud2FpdGluZ19wZWFrLmxvYWQoQXRvbWljT3JkZXJpbmc6OlJlbGF4ZWQpLAogICAgICAgICAgICBxdWV1ZV93YWl0X21zOiBzZWxmLmxhc3Rfd2FpdF9tcy5sb2FkKEF0b21pY09yZGVyaW5nOjpSZWxheGVkKSwKICAgICAgICAgICAgcXVldWVfd2FpdF9wZWFrX21zOiBzZWxmLndhaXRfcGVha19tcy5sb2FkKEF0b21pY09yZGVyaW5nOjpSZWxheGVkKSwKICAgICAgICAgICAgYWN0aXZlX29wZXJhdGlvbl9tcywKICAgICAgICAgICAgY2FuY2VsZWRfb3BlcmF0aW9uczogc2VsZi5jYW5jZWxlZC5sb2FkKEF0b21pY09yZGVyaW5nOjpSZWxheGVkKSwKICAgICAgICB9CiAgICB9Cn0KCnB1YihzdXBlcikgc3RydWN0IFByaW1hcnlRdWV1ZVdhaXRlciB7CiAgICBtZXRyaWNzOiBBcmM8UHJpbWFyeUV4ZWN1dG9yTWV0cmljcz4sCiAgICBzdGFydGVkOiBJbnN0YW50LAogICAgYWRtaXR0ZWQ6IGJvb2wsCn0KCmltcGwgUHJpbWFyeVF1ZXVlV2FpdGVyIHsKICAgIHB1YihzdXBlcikgZm4gYWRtaXQobXV0IHNlbGYpIC0+IHU2NCB7CiAgICAgICAgc2VsZi5hZG1pdHRlZCA9IHRydWU7CiAgICAgICAgc2VsZi5tZXRyaWNzLndhaXRpbmcuZmV0Y2hfc3ViKDEsIEF0b21pY09yZGVyaW5nOjpBY3FSZWwpOwogICAgICAgIHNlbGYuc3RhcnRlZC5lbGFwc2VkKCkuYXNfbWlsbGlzKCkgYXMgdTY0CiAgICB9Cn0KCmltcGwgRHJvcCBmb3IgUHJpbWFyeVF1ZXVlV2FpdGVyIHsKICAgIGZuIGRyb3AoJm11dCBzZWxmKSB7CiAgICAgICAgaWYgc2VsZi5hZG1pdHRlZCB7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgc2VsZi5tZXRyaWNzLndhaXRpbmcuZmV0Y2hfc3ViKDEsIEF0b21pY09yZGVyaW5nOjpBY3FSZWwpOwogICAgICAgIHNlbGYubWV0cmljcy5jYW5jZWxlZC5mZXRjaF9hZGQoMSwgQXRvbWljT3JkZXJpbmc6OlJlbGF4ZWQpOwogICAgfQp9CgpwdWIoc3VwZXIpIHN0cnVjdCBQcmltYXJ5RXhlY3V0aW9uIHsKICAgIG1ldHJpY3M6IEFyYzxQcmltYXJ5RXhlY3V0b3JNZXRyaWNzPiwKfQoKaW1wbCBEcm9wIGZvciBQcmltYXJ5RXhlY3V0aW9uIHsKICAgIGZuIGRyb3AoJm11dCBzZWxmKSB7CiAgICAgICAgc2VsZi5tZXRyaWNzCiAgICAgICAgICAgIC5hY3RpdmVfc2luY2VfbXMKICAgICAgICAgICAgLnN0b3JlKDAsIEF0b21pY09yZGVyaW5nOjpSZWxlYXNlKTsKICAgIH0KfQoKZm4gdW5peF90aW1lX21zKCkgLT4gdTY0IHsKICAgIFN5c3RlbVRpbWU6Om5vdygpCiAgICAgICAgLmR1cmF0aW9uX3NpbmNlKFVOSVhfRVBPQ0gpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICAuYXNfbWlsbGlzKCkgYXMgdTY0Cn0KCmltcGwgQXN5bmNDb21tYW5kcyBmb3IgQ29ubmVjdGlvbk1hbmFnZXIge30KCnB1YihjcmF0ZSkgbW9kIHN0cmVhbXMgewogICAgdXNlIHN1cGVyOjoqOwoKICAgICNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVmYXVsdCldCiAgICBwdWIoY3JhdGUpIHN0cnVjdCBTdHJlYW1SZWFkT3B0aW9ucyB7CiAgICAgICAgcHViKGNyYXRlKSBjb3VudDogT3B0aW9uPHVzaXplPiwKICAgIH0KCiAgICBpbXBsIFN0cmVhbVJlYWRPcHRpb25zIHsKICAgICAgICBwdWIoY3JhdGUpIGZuIGNvdW50KG11dCBzZWxmLCBjb3VudDogdXNpemUpIC0+IFNlbGYgewogICAgICAgICAgICBzZWxmLmNvdW50ID0gU29tZShjb3VudCk7CiAgICAgICAgICAgIHNlbGYKICAgICAgICB9CiAgICB9CgogICAgI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZWZhdWx0KV0KICAgIHB1YihjcmF0ZSkgc3RydWN0IFN0cmVhbVJhbmdlUmVwbHkgewogICAgICAgIHB1YihjcmF0ZSkgaWRzOiBWZWM8U3RyZWFtSWQ+LAogICAgfQoKICAgICNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVmYXVsdCldCiAgICBwdWIoY3JhdGUpIHN0cnVjdCBTdHJlYW1SZWFkUmVwbHkgewogICAgICAgIHB1YihjcmF0ZSkga2V5czogVmVjPFN0cmVhbUtleT4sCiAgICB9CgogICAgI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZWZhdWx0KV0KICAgIHB1YihjcmF0ZSkgc3RydWN0IFN0cmVhbUtleSB7CiAgICAgICAgI1thbGxvdyhkZWFkX2NvZGUpXQogICAgICAgIHB1YihjcmF0ZSkga2V5OiBTdHJpbmcsCiAgICAgICAgcHViKGNyYXRlKSBpZHM6IFZlYzxTdHJlYW1JZD4sCiAgICB9CgogICAgI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZWZhdWx0KV0KICAgIHB1YihjcmF0ZSkgc3RydWN0IFN0cmVhbUlkIHsKICAgICAgICBwdWIoY3JhdGUpIGlkOiBTdHJpbmcsCiAgICAgICAgZmllbGRzOiBIYXNoTWFwPFN0cmluZywgU3RyaW5nPiwKICAgIH0KCiAgICBpbXBsIFN0cmVhbUlkIHsKICAgICAgICBwdWIoY3JhdGUpIGZuIG5ldyhpZDogU3RyaW5nLCBmaWVsZHM6IEhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+KSAtPiBTZWxmIHsKICAgICAgICAgICAgU2VsZiB7IGlkLCBmaWVsZHMgfQogICAgICAgIH0KCiAgICAgICAgcHViKGNyYXRlKSBmbiBnZXQ8VDogRnJvbVN0cmVhbUZpZWxkPigmc2VsZiwgZmllbGQ6ICZzdHIpIC0+IE9wdGlvbjxUPiB7CiAgICAgICAgICAgIHNlbGYuZmllbGRzCiAgICAgICAgICAgICAgICAuZ2V0KGZpZWxkKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgVDo6ZnJvbV9maWVsZCh2YWx1ZSkpCiAgICAgICAgfQogICAgfQoKICAgIHB1YihjcmF0ZSkgdHJhaXQgRnJvbVN0cmVhbUZpZWxkOiBTaXplZCB7CiAgICAgICAgZm4gZnJvbV9maWVsZCh2YWx1ZTogJnN0cikgLT4gT3B0aW9uPFNlbGY+OwogICAgfQoKICAgIGltcGwgRnJvbVN0cmVhbUZpZWxkIGZvciBTdHJpbmcgewogICAgICAgIGZuIGZyb21fZmllbGQodmFsdWU6ICZzdHIpIC0+IE9wdGlvbjxTZWxmPiB7CiAgICAgICAgICAgIFNvbWUodmFsdWUudG9fc3RyaW5nKCkpCiAgICAgICAgfQogICAgfQp9CgpwdWIoY3JhdGUpIGVudW0gQ21kT3V0cHV0IHsKICAgIE5pbCwKICAgIEludChpNjQpLAogICAgU3RyaW5nKFN0cmluZyksCiAgICBPcHRpb25hbFN0cmluZyhPcHRpb248U3RyaW5nPiksCiAgICBTdHJpbmdzKFZlYzxTdHJpbmc+KSwKICAgIE9wdGlvbmFsU3RyaW5ncyhWZWM8T3B0aW9uPFN0cmluZz4+KSwKICAgIFN0cmluZ1BhaXJzKFZlYzxTdHJpbmc+KSwKICAgIFpQYWlycyhWZWM8KFN0cmluZywgZjY0KT4pLAogICAgU3RyZWFtRW50cmllcyhWZWM8KFN0cmluZywgVmVjPFN0cmluZz4pPiksCiAgICBTY2FuKFN0cmluZywgVmVjPFN0cmluZz4pLAogICAgSW50cyhWZWM8aTY0PiksCn0KCnB1YihjcmF0ZSkgdHJhaXQgRnJvbUNtZE91dHB1dDogU2l6ZWQgewogICAgZm4gZnJvbV9jbWRfb3V0cHV0KG91dHB1dDogQ21kT3V0cHV0KSAtPiBSZWRpc1Jlc3VsdDxTZWxmPjsKfQoKaW1wbCBGcm9tQ21kT3V0cHV0IGZvciAoKSB7CiAgICBmbiBmcm9tX2NtZF9vdXRwdXQoXzogQ21kT3V0cHV0KSAtPiBSZWRpc1Jlc3VsdDxTZWxmPiB7CiAgICAgICAgT2soKCkpCiAgICB9Cn0KCmltcGwgRnJvbUNtZE91dHB1dCBmb3IgaTY0IHsKICAgIGZuIGZyb21fY21kX291dHB1dChvdXRwdXQ6IENtZE91dHB1dCkgLT4gUmVkaXNSZXN1bHQ8U2VsZj4gewogICAgICAgIG1hdGNoIG91dHB1dCB7CiAgICAgICAgICAgIENtZE91dHB1dDo6SW50KHZhbHVlKSA9PiBPayh2YWx1ZSksCiAgICAgICAgICAgIF8gPT4gRXJyKHN0b3JhZ2VfZXJyb3IoInVuZXhwZWN0ZWQgaW50ZWdlciBjb21tYW5kIHJlc3VsdCIpKSwKICAgICAgICB9CiAgICB9Cn0KCmltcGwgRnJvbUNtZE91dHB1dCBmb3IgdXNpemUgewogICAgZm4gZnJvbV9jbWRfb3V0cHV0KG91dHB1dDogQ21kT3V0cHV0KSAtPiBSZWRpc1Jlc3VsdDxTZWxmPiB7CiAgICAgICAgbWF0Y2ggb3V0cHV0IHsKICAgICAgICAgICAgQ21kT3V0cHV0OjpJbnQodmFsdWUpID0+IE9rKHZhbHVlLm1heCgwKSBhcyB1c2l6ZSksCiAgICAgICAgICAgIF8gPT4gRXJyKHN0b3JhZ2VfZXJyb3IoInVuZXhwZWN0ZWQgdXNpemUgY29tbWFuZCByZXN1bHQiKSksCiAgICAgICAgfQogICAgfQp9CgppbXBsIEZyb21DbWRPdXRwdXQgZm9yIFN0cmluZyB7CiAgICBmbiBmcm9tX2NtZF9vdXRwdXQob3V0cHV0OiBDbWRPdXRwdXQpIC0+IFJlZGlzUmVzdWx0PFNlbGY+IHsKICAgICAgICBtYXRjaCBvdXRwdXQgewogICAgICAgICAgICBDbWRPdXRwdXQ6OlN0cmluZyh2YWx1ZSkgPT4gT2sodmFsdWUpLAogICAgICAgICAgICBDbWRPdXRwdXQ6Ok9wdGlvbmFsU3RyaW5nKFNvbWUodmFsdWUpKSA9PiBPayh2YWx1ZSksCiAgICAgICAgICAgIF8gPT4gRXJyKHN0b3JhZ2VfZXJyb3IoInVuZXhwZWN0ZWQgc3RyaW5nIGNvbW1hbmQgcmVzdWx0IikpLAogICAgICAgIH0KICAgIH0KfQoKaW1wbCBGcm9tQ21kT3V0cHV0IGZvciBPcHRpb248U3RyaW5nPiB7CiAgICBmbiBmcm9tX2NtZF9vdXRwdXQob3V0cHV0OiBDbWRPdXRwdXQpIC0+IFJlZGlzUmVzdWx0PFNlbGY+IHsKICAgICAgICBtYXRjaCBvdXRwdXQgewogICAgICAgICAgICBDbWRPdXRwdXQ6Ok9wdGlvbmFsU3RyaW5nKHZhbHVlKSA9PiBPayh2YWx1ZSksCiAgICAgICAgICAgIENtZE91dHB1dDo6U3RyaW5nKHZhbHVlKSA9PiBPayhTb21lKHZhbHVlKSksCiAgICAgICAgICAgIENtZE91dHB1dDo6TmlsID0+IE9rKE5vbmUpLAogICAgICAgICAgICBfID0+IEVycihzdG9yYWdlX2Vycm9yKCJ1bmV4cGVjdGVkIG9wdGlvbmFsIHN0cmluZyBjb21tYW5kIHJlc3VsdCIpKSwKICAgICAgICB9CiAgICB9Cn0KCmltcGwgRnJvbUNtZE91dHB1dCBmb3IgVmVjPFN0cmluZz4gewogICAgZm4gZnJvbV9jbWRfb3V0cHV0KG91dHB1dDogQ21kT3V0cHV0KSAtPiBSZWRpc1Jlc3VsdDxTZWxmPiB7CiAgICAgICAgbWF0Y2ggb3V0cHV0IHsKICAgICAgICAgICAgQ21kT3V0cHV0OjpTdHJpbmdzKHZhbHVlKSB8IENtZE91dHB1dDo6U3RyaW5nUGFpcnModmFsdWUpID0+IE9rKHZhbHVlKSwKICAgICAgICAgICAgXyA9PiBFcnIoc3RvcmFnZV9lcnJvcigidW5leHBlY3RlZCBzdHJpbmcgdmVjdG9yIGNvbW1hbmQgcmVzdWx0IikpLAogICAgICAgIH0KICAgIH0KfQoKaW1wbCBGcm9tQ21kT3V0cHV0IGZvciBWZWM8T3B0aW9uPFN0cmluZz4+IHsKICAgIGZuIGZyb21fY21kX291dHB1dChvdXRwdXQ6IENtZE91dHB1dCkgLT4gUmVkaXNSZXN1bHQ8U2VsZj4gewogICAgICAgIG1hdGNoIG91dHB1dCB7CiAgICAgICAgICAgIENtZE91dHB1dDo6T3B0aW9uYWxTdHJpbmdzKHZhbHVlKSA9PiBPayh2YWx1ZSksCiAgICAgICAgICAgIF8gPT4gRXJyKHN0b3JhZ2VfZXJyb3IoCiAgICAgICAgICAgICAgICAidW5leHBlY3RlZCBvcHRpb25hbCBzdHJpbmcgdmVjdG9yIGNvbW1hbmQgcmVzdWx0IiwKICAgICAgICAgICAgKSksCiAgICAgICAgfQogICAgfQp9CgppbXBsIEZyb21DbWRPdXRwdXQgZm9yIFZlYzxpNjQ+IHsKICAgIGZuIGZyb21fY21kX291dHB1dChvdXRwdXQ6IENtZE91dHB1dCkgLT4gUmVkaXNSZXN1bHQ8U2VsZj4gewogICAgICAgIG1hdGNoIG91dHB1dCB7CiAgICAgICAgICAgIENtZE91dHB1dDo6SW50cyh2YWx1ZSkgPT4gT2sodmFsdWUpLAogICAgICAgICAgICBfID0+IEVycihzdG9yYWdlX2Vycm9yKCJ1bmV4cGVjdGVkIGludGVnZXIgdmVjdG9yIGNvbW1hbmQgcmVzdWx0IikpLAogICAgICAgIH0KICAgIH0KfQoKaW1wbCBGcm9tQ21kT3V0cHV0IGZvciAoU3RyaW5nLCBWZWM8U3RyaW5nPikgewogICAgZm4gZnJvbV9jbWRfb3V0cHV0KG91dHB1dDogQ21kT3V0cHV0KSAtPiBSZWRpc1Jlc3VsdDxTZWxmPiB7CiAgICAgICAgbWF0Y2ggb3V0cHV0IHsKICAgICAgICAgICAgQ21kT3V0cHV0OjpTY2FuKGN1cnNvciwga2V5cykgPT4gT2soKGN1cnNvciwga2V5cykpLAogICAgICAgICAgICBfID0+IEVycihzdG9yYWdlX2Vycm9yKCJ1bmV4cGVjdGVkIHNjYW4gY29tbWFuZCByZXN1bHQiKSksCiAgICAgICAgfQogICAgfQp9CgppbXBsIEZyb21DbWRPdXRwdXQgZm9yIFZlYzwoU3RyaW5nLCBmNjQpPiB7CiAgICBmbiBmcm9tX2NtZF9vdXRwdXQob3V0cHV0OiBDbWRPdXRwdXQpIC0+IFJlZGlzUmVzdWx0PFNlbGY+IHsKICAgICAgICBtYXRjaCBvdXRwdXQgewogICAgICAgICAgICBDbWRPdXRwdXQ6OlpQYWlycyh2YWx1ZSkgPT4gT2sodmFsdWUpLAogICAgICAgICAgICBfID0+IEVycihzdG9yYWdlX2Vycm9yKCJ1bmV4cGVjdGVkIHpzZXQgcGFpciBjb21tYW5kIHJlc3VsdCIpKSwKICAgICAgICB9CiAgICB9Cn0KCmltcGwgRnJvbUNtZE91dHB1dCBmb3IgVmVjPChTdHJpbmcsIFZlYzxTdHJpbmc+KT4gewogICAgZm4gZnJvbV9jbWRfb3V0cHV0KG91dHB1dDogQ21kT3V0cHV0KSAtPiBSZWRpc1Jlc3VsdDxTZWxmPiB7CiAgICAgICAgbWF0Y2ggb3V0cHV0IHsKICAgICAgICAgICAgQ21kT3V0cHV0OjpTdHJlYW1FbnRyaWVzKHZhbHVlKSA9PiBPayh2YWx1ZSksCiAgICAgICAgICAgIF8gPT4gRXJyKHN0b3JhZ2VfZXJyb3IoInVuZXhwZWN0ZWQgc3RyZWFtIGNvbW1hbmQgcmVzdWx0IikpLAogICAgICAgIH0KICAgIH0KfQoKcHViKGNyYXRlKSB0cmFpdCBGcm9tUGlwZU91dHB1dDogU2l6ZWQgewogICAgZm4gZnJvbV9waXBlX291dHB1dHMob3V0cHV0czogVmVjPENtZE91dHB1dD4pIC0+IFJlZGlzUmVzdWx0PFNlbGY+Owp9CgppbXBsIEZyb21QaXBlT3V0cHV0IGZvciAoKSB7CiAgICBmbiBmcm9tX3BpcGVfb3V0cHV0cyhfOiBWZWM8Q21kT3V0cHV0PikgLT4gUmVkaXNSZXN1bHQ8U2VsZj4gewogICAgICAgIE9rKCgpKQogICAgfQp9CgppbXBsIEZyb21QaXBlT3V0cHV0IGZvciBWZWM8aTY0PiB7CiAgICBmbiBmcm9tX3BpcGVfb3V0cHV0cyhvdXRwdXRzOiBWZWM8Q21kT3V0cHV0PikgLT4gUmVkaXNSZXN1bHQ8U2VsZj4gewogICAgICAgIG91dHB1dHMKICAgICAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgICAgIC5tYXAofG91dHB1dHwgbWF0Y2ggb3V0cHV0IHsKICAgICAgICAgICAgICAgIENtZE91dHB1dDo6SW50KHZhbHVlKSA9PiBPayh2YWx1ZSksCiAgICAgICAgICAgICAgICBfID0+IEVycihzdG9yYWdlX2Vycm9yKCJ1bmV4cGVjdGVkIHBpcGVsaW5lIGludGVnZXIgcmVzdWx0IikpLAogICAgICAgICAgICB9KQogICAgICAgICAgICAuY29sbGVjdCgpCiAgICB9Cn0KCnB1YihjcmF0ZSkgdHJhaXQgRnJvbU9wdGlvbmFsU3RyaW5nOiBTaXplZCB7CiAgICBmbiBmcm9tX29wdGlvbmFsX3N0cmluZyh2YWx1ZTogT3B0aW9uPFN0cmluZz4pIC0+IFJlZGlzUmVzdWx0PFNlbGY+Owp9CgppbXBsIEZyb21PcHRpb25hbFN0cmluZyBmb3IgT3B0aW9uPFN0cmluZz4gewogICAgZm4gZnJvbV9vcHRpb25hbF9zdHJpbmcodmFsdWU6IE9wdGlvbjxTdHJpbmc+KSAtPiBSZWRpc1Jlc3VsdDxTZWxmPiB7CiAgICAgICAgT2sodmFsdWUpCiAgICB9Cn0KCmltcGwgRnJvbU9wdGlvbmFsU3RyaW5nIGZvciBTdHJpbmcgewogICAgZm4gZnJvbV9vcHRpb25hbF9zdHJpbmcodmFsdWU6IE9wdGlvbjxTdHJpbmc+KSAtPiBSZWRpc1Jlc3VsdDxTZWxmPiB7CiAgICAgICAgdmFsdWUub2tfb3JfZWxzZSh8fCBzdG9yYWdlX2Vycm9yKCJtaXNzaW5nIHN0cmluZyB2YWx1ZSIpKQogICAgfQp9CgpwdWIoY3JhdGUpIHRyYWl0IEZyb21EZWxldGVDb3VudDogU2l6ZWQgewogICAgZm4gZnJvbV9kZWxldGVfY291bnQodmFsdWU6IHVzaXplKSAtPiBTZWxmOwp9CgppbXBsIEZyb21EZWxldGVDb3VudCBmb3IgKCkgewogICAgZm4gZnJvbV9kZWxldGVfY291bnQoXzogdXNpemUpIC0+IFNlbGYge30KfQoKaW1wbCBGcm9tRGVsZXRlQ291bnQgZm9yIHVzaXplIHsKICAgIGZuIGZyb21fZGVsZXRlX2NvdW50KHZhbHVlOiB1c2l6ZSkgLT4gU2VsZiB7CiAgICAgICAgdmFsdWUKICAgIH0KfQoKaW1wbCBGcm9tRGVsZXRlQ291bnQgZm9yIGk2NCB7CiAgICBmbiBmcm9tX2RlbGV0ZV9jb3VudCh2YWx1ZTogdXNpemUpIC0+IFNlbGYgewogICAgICAgIHZhbHVlIGFzIGk2NAogICAgfQp9CgpwdWIoY3JhdGUpIHRyYWl0IEludG9LZXkgewogICAgZm4gaW50b19rZXkoc2VsZikgLT4gU3RyaW5nOwp9CgppbXBsIEludG9LZXkgZm9yICZzdHIgewogICAgZm4gaW50b19rZXkoc2VsZikgLT4gU3RyaW5nIHsKICAgICAgICBzZWxmLnRvX3N0cmluZygpCiAgICB9Cn0KCmltcGwgSW50b0tleSBmb3IgU3RyaW5nIHsKICAgIGZuIGludG9fa2V5KHNlbGYpIC0+IFN0cmluZyB7CiAgICAgICAgc2VsZgogICAgfQp9CgppbXBsIEludG9LZXkgZm9yICZTdHJpbmcgewogICAgZm4gaW50b19rZXkoc2VsZikgLT4gU3RyaW5nIHsKICAgICAgICBzZWxmLmNsb25lKCkKICAgIH0KfQoKcHViKGNyYXRlKSB0cmFpdCBJbnRvS2V5cyB7CiAgICBmbiBpbnRvX2tleXMoc2VsZikgLT4gVmVjPFN0cmluZz47Cn0KCmltcGw8VDogSW50b0tleT4gSW50b0tleXMgZm9yIFQgewogICAgZm4gaW50b19rZXlzKHNlbGYpIC0+IFZlYzxTdHJpbmc+IHsKICAgICAgICB2ZWMhW3NlbGYuaW50b19rZXkoKV0KICAgIH0KfQoKaW1wbCBJbnRvS2V5cyBmb3IgJltTdHJpbmddIHsKICAgIGZuIGludG9fa2V5cyhzZWxmKSAtPiBWZWM8U3RyaW5nPiB7CiAgICAgICAgc2VsZi50b192ZWMoKQogICAgfQp9CgppbXBsIEludG9LZXlzIGZvciAmVmVjPFN0cmluZz4gewogICAgZm4gaW50b19rZXlzKHNlbGYpIC0+IFZlYzxTdHJpbmc+IHsKICAgICAgICBzZWxmLmNsb25lKCkKICAgIH0KfQoKaW1wbCBJbnRvS2V5cyBmb3IgVmVjPFN0cmluZz4gewogICAgZm4gaW50b19rZXlzKHNlbGYpIC0+IFZlYzxTdHJpbmc+IHsKICAgICAgICBzZWxmCiAgICB9Cn0KCmltcGw8Y29uc3QgTjogdXNpemU+IEludG9LZXlzIGZvciAmWyZzdHI7IE5dIHsKICAgIGZuIGludG9fa2V5cyhzZWxmKSAtPiBWZWM8U3RyaW5nPiB7CiAgICAgICAgc2VsZi5pdGVyKCkubWFwKHx2YWx1ZXwgKCp2YWx1ZSkudG9fc3RyaW5nKCkpLmNvbGxlY3QoKQogICAgfQp9CgpwdWIoY3JhdGUpIHRyYWl0IEludG9NZW1iZXJzIHsKICAgIGZuIGludG9fbWVtYmVycyhzZWxmKSAtPiBWZWM8U3RyaW5nPjsKfQoKaW1wbDxUOiBJbnRvS2V5PiBJbnRvTWVtYmVycyBmb3IgVCB7CiAgICBmbiBpbnRvX21lbWJlcnMoc2VsZikgLT4gVmVjPFN0cmluZz4gewogICAgICAgIHZlYyFbc2VsZi5pbnRvX2tleSgpXQogICAgfQp9CgppbXBsIEludG9NZW1iZXJzIGZvciAmW1N0cmluZ10gewogICAgZm4gaW50b19tZW1iZXJzKHNlbGYpIC0+IFZlYzxTdHJpbmc+IHsKICAgICAgICBzZWxmLnRvX3ZlYygpCiAgICB9Cn0KCmltcGwgSW50b01lbWJlcnMgZm9yICZWZWM8U3RyaW5nPiB7CiAgICBmbiBpbnRvX21lbWJlcnMoc2VsZikgLT4gVmVjPFN0cmluZz4gewogICAgICAgIHNlbGYuY2xvbmUoKQogICAgfQp9CgppbXBsIEludG9NZW1iZXJzIGZvciBWZWM8U3RyaW5nPiB7CiAgICBmbiBpbnRvX21lbWJlcnMoc2VsZikgLT4gVmVjPFN0cmluZz4gewogICAgICAgIHNlbGYKICAgIH0KfQoKcHViKGNyYXRlKSB0cmFpdCBUb1JlZGlzQXJncyB7CiAgICBmbiBhcHBlbmRfYXJncygmc2VsZiwgYXJnczogJm11dCBWZWM8U3RyaW5nPik7Cn0KCm1hY3JvX3J1bGVzISBpbXBsX2Rpc3BsYXlfYXJnIHsKICAgICgkKCR0eTp0eSksKiAkKCwpPykgPT4gewogICAgICAgICQoCiAgICAgICAgICAgIGltcGwgVG9SZWRpc0FyZ3MgZm9yICR0eSB7CiAgICAgICAgICAgICAgICBmbiBhcHBlbmRfYXJncygmc2VsZiwgYXJnczogJm11dCBWZWM8U3RyaW5nPikgewogICAgICAgICAgICAgICAgICAgIGFyZ3MucHVzaChzZWxmLnRvX3N0cmluZygpKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICkqCiAgICB9Owp9CgppbXBsX2Rpc3BsYXlfYXJnIShpNjQsIGkzMiwgaXNpemUsIHVzaXplLCB1NjQsIHUzMiwgZjY0KTsKCmltcGwgVG9SZWRpc0FyZ3MgZm9yICZzdHIgewogICAgZm4gYXBwZW5kX2FyZ3MoJnNlbGYsIGFyZ3M6ICZtdXQgVmVjPFN0cmluZz4pIHsKICAgICAgICBhcmdzLnB1c2goKCpzZWxmKS50b19zdHJpbmcoKSk7CiAgICB9Cn0KCmltcGwgVG9SZWRpc0FyZ3MgZm9yIFN0cmluZyB7CiAgICBmbiBhcHBlbmRfYXJncygmc2VsZiwgYXJnczogJm11dCBWZWM8U3RyaW5nPikgewogICAgICAgIGFyZ3MucHVzaChzZWxmLmNsb25lKCkpOwogICAgfQp9CgppbXBsIFRvUmVkaXNBcmdzIGZvciAmU3RyaW5nIHsKICAgIGZuIGFwcGVuZF9hcmdzKCZzZWxmLCBhcmdzOiAmbXV0IFZlYzxTdHJpbmc+KSB7CiAgICAgICAgYXJncy5wdXNoKCgqc2VsZikuY2xvbmUoKSk7CiAgICB9Cn0KCmltcGwgVG9SZWRpc0FyZ3MgZm9yICZbU3RyaW5nXSB7CiAgICBmbiBhcHBlbmRfYXJncygmc2VsZiwgYXJnczogJm11dCBWZWM8U3RyaW5nPikgewogICAgICAgIGFyZ3MuZXh0ZW5kKHNlbGYuaXRlcigpLmNsb25lZCgpKTsKICAgIH0KfQoKaW1wbCBUb1JlZGlzQXJncyBmb3IgJlZlYzxTdHJpbmc+IHsKICAgIGZuIGFwcGVuZF9hcmdzKCZzZWxmLCBhcmdzOiAmbXV0IFZlYzxTdHJpbmc+KSB7CiAgICAgICAgYXJncy5leHRlbmQoc2VsZi5pdGVyKCkuY2xvbmVkKCkpOwogICAgfQp9CgppbXBsIFRvUmVkaXNBcmdzIGZvciBWZWM8U3RyaW5nPiB7CiAgICBmbiBhcHBlbmRfYXJncygmc2VsZiwgYXJnczogJm11dCBWZWM8U3RyaW5nPikgewogICAgICAgIGFyZ3MuZXh0ZW5kKHNlbGYuaXRlcigpLmNsb25lZCgpKTsKICAgIH0KfQoKaW1wbCBUb1JlZGlzQXJncyBmb3IgVmVjPCZTdHJpbmc+IHsKICAgIGZuIGFwcGVuZF9hcmdzKCZzZWxmLCBhcmdzOiAmbXV0IFZlYzxTdHJpbmc+KSB7CiAgICAgICAgYXJncy5leHRlbmQoc2VsZi5pdGVyKCkubWFwKHx2YWx1ZXwgKCp2YWx1ZSkuY2xvbmUoKSkpOwogICAgfQp9CgppbXBsPGNvbnN0IE46IHVzaXplPiBUb1JlZGlzQXJncyBmb3IgJlsmc3RyOyBOXSB7CiAgICBmbiBhcHBlbmRfYXJncygmc2VsZiwgYXJnczogJm11dCBWZWM8U3RyaW5nPikgewogICAgICAgIGFyZ3MuZXh0ZW5kKHNlbGYuaXRlcigpLm1hcCh8dmFsdWV8ICgqdmFsdWUpLnRvX3N0cmluZygpKSk7CiAgICB9Cn0K
+use super::*;
+
+pub(crate) type RedisResult<T> = StorageResult<T>;
+#[allow(dead_code)]
+pub(crate) type RedisError = StorageError;
+
+#[allow(dead_code)]
+pub(crate) trait AsyncCommands {}
+
+#[derive(Clone)]
+pub(crate) struct ConnectionManager {
+    pub(super) db: Connection,
+    pub(super) analytics_db: Connection,
+    pub(super) auth_read_db: Connection,
+    pub(super) health_db: Connection,
+    pub(super) checkpoint_gate: Arc<RwLock<()>>,
+    pub(super) primary_admission: Arc<Semaphore>,
+    pub(super) analytics_admission: Arc<Semaphore>,
+    pub(super) auth_read_admission: Arc<Semaphore>,
+    pub(super) health_admission: Arc<Semaphore>,
+    pub(super) primary_metrics: Arc<PrimaryExecutorMetrics>,
+    pub(super) operation_recorder: Arc<crate::runtime_health::operations::OperationRecorder>,
+    #[cfg(test)]
+    pub(super) path: PathBuf,
+}
+
+#[derive(Clone, Copy, Debug, Default, PartialEq, Eq)]
+pub(crate) struct PrimaryQueueStatus {
+    pub(crate) queue_depth: u64,
+    pub(crate) queue_depth_peak: u64,
+    pub(crate) queue_wait_ms: u64,
+    pub(crate) queue_wait_peak_ms: u64,
+    pub(crate) active_operation_ms: u64,
+    pub(crate) canceled_operations: u64,
+}
+
+#[derive(Default)]
+pub(super) struct PrimaryExecutorMetrics {
+    waiting: AtomicU64,
+    waiting_peak: AtomicU64,
+    last_wait_ms: AtomicU64,
+    wait_peak_ms: AtomicU64,
+    active_since_ms: AtomicU64,
+    canceled: AtomicU64,
+}
+
+impl PrimaryExecutorMetrics {
+    pub(super) fn begin_wait(self: &Arc<Self>) -> PrimaryQueueWaiter {
+        let depth = self.waiting.fetch_add(1, AtomicOrdering::AcqRel) + 1;
+        self.waiting_peak.fetch_max(depth, AtomicOrdering::Relaxed);
+        PrimaryQueueWaiter {
+            metrics: self.clone(),
+            started: Instant::now(),
+            admitted: false,
+        }
+    }
+
+    pub(super) fn begin_execution(self: &Arc<Self>, wait_ms: u64) -> PrimaryExecution {
+        self.last_wait_ms.store(wait_ms, AtomicOrdering::Release);
+        self.wait_peak_ms
+            .fetch_max(wait_ms, AtomicOrdering::Relaxed);
+        self.active_since_ms
+            .store(unix_time_ms(), AtomicOrdering::Release);
+        PrimaryExecution {
+            metrics: self.clone(),
+        }
+    }
+
+    pub(super) fn status(&self) -> PrimaryQueueStatus {
+        let active_since_ms = self.active_since_ms.load(AtomicOrdering::Acquire);
+        let active_operation_ms = if active_since_ms == 0 {
+            0
+        } else {
+            unix_time_ms().saturating_sub(active_since_ms)
+        };
+        PrimaryQueueStatus {
+            queue_depth: self.waiting.load(AtomicOrdering::Acquire),
+            queue_depth_peak: self.waiting_peak.load(AtomicOrdering::Relaxed),
+            queue_wait_ms: self.last_wait_ms.load(AtomicOrdering::Relaxed),
+            queue_wait_peak_ms: self.wait_peak_ms.load(AtomicOrdering::Relaxed),
+            active_operation_ms,
+            canceled_operations: self.canceled.load(AtomicOrdering::Relaxed),
+        }
+    }
+}
+
+pub(super) struct PrimaryQueueWaiter {
+    metrics: Arc<PrimaryExecutorMetrics>,
+    started: Instant,
+    admitted: bool,
+}
+
+impl PrimaryQueueWaiter {
+    pub(super) fn admit(mut self) -> u64 {
+        self.admitted = true;
+        self.metrics.waiting.fetch_sub(1, AtomicOrdering::AcqRel);
+        self.started.elapsed().as_millis() as u64
+    }
+}
+
+impl Drop for PrimaryQueueWaiter {
+    fn drop(&mut self) {
+        if self.admitted {
+            return;
+        }
+        self.metrics.waiting.fetch_sub(1, AtomicOrdering::AcqRel);
+        self.metrics.canceled.fetch_add(1, AtomicOrdering::Relaxed);
+    }
+}
+
+pub(super) struct PrimaryExecution {
+    metrics: Arc<PrimaryExecutorMetrics>,
+}
+
+impl Drop for PrimaryExecution {
+    fn drop(&mut self) {
+        self.metrics
+            .active_since_ms
+            .store(0, AtomicOrdering::Release);
+    }
+}
+
+fn unix_time_ms() -> u64 {
+    SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .unwrap_or_default()
+        .as_millis() as u64
+}
+
+impl AsyncCommands for ConnectionManager {}
+
+pub(crate) mod streams {
+    use super::*;
+
+    #[derive(Clone, Debug, Default)]
+    pub(crate) struct StreamReadOptions {
+        pub(crate) count: Option<usize>,
+    }
+
+    impl StreamReadOptions {
+        pub(crate) fn count(mut self, count: usize) -> Self {
+            self.count = Some(count);
+            self
+        }
+    }
+
+    #[derive(Clone, Debug, Default)]
+    pub(crate) struct StreamRangeReply {
+        pub(crate) ids: Vec<StreamId>,
+    }
+
+    #[derive(Clone, Debug, Default)]
+    pub(crate) struct StreamReadReply {
+        pub(crate) keys: Vec<StreamKey>,
+    }
+
+    #[derive(Clone, Debug, Default)]
+    pub(crate) struct StreamKey {
+        #[allow(dead_code)]
+        pub(crate) key: String,
+        pub(crate) ids: Vec<StreamId>,
+    }
+
+    #[derive(Clone, Debug, Default)]
+    pub(crate) struct StreamId {
+        pub(crate) id: String,
+        fields: HashMap<String, String>,
+    }
+
+    impl StreamId {
+        pub(crate) fn new(id: String, fields: HashMap<String, String>) -> Self {
+            Self { id, fields }
+        }
+
+        pub(crate) fn get<T: FromStreamField>(&self, field: &str) -> Option<T> {
+            self.fields
+                .get(field)
+                .and_then(|value| T::from_field(value))
+        }
+    }
+
+    pub(crate) trait FromStreamField: Sized {
+        fn from_field(value: &str) -> Option<Self>;
+    }
+
+    impl FromStreamField for String {
+        fn from_field(value: &str) -> Option<Self> {
+            Some(value.to_string())
+        }
+    }
+}
+
+pub(crate) enum CmdOutput {
+    Nil,
+    Int(i64),
+    String(String),
+    OptionalString(Option<String>),
+    Strings(Vec<String>),
+    OptionalStrings(Vec<Option<String>>),
+    StringPairs(Vec<String>),
+    ZPairs(Vec<(String, f64)>),
+    StreamEntries(Vec<(String, Vec<String>)>),
+    Scan(String, Vec<String>),
+    Ints(Vec<i64>),
+}
+
+pub(crate) trait FromCmdOutput: Sized {
+    fn from_cmd_output(output: CmdOutput) -> RedisResult<Self>;
+}
+
+impl FromCmdOutput for () {
+    fn from_cmd_output(_: CmdOutput) -> RedisResult<Self> {
+        Ok(())
+    }
+}
+
+impl FromCmdOutput for i64 {
+    fn from_cmd_output(output: CmdOutput) -> RedisResult<Self> {
+        match output {
+            CmdOutput::Int(value) => Ok(value),
+            _ => Err(storage_error("unexpected integer command result")),
+        }
+    }
+}
+
+impl FromCmdOutput for usize {
+    fn from_cmd_output(output: CmdOutput) -> RedisResult<Self> {
+        match output {
+            CmdOutput::Int(value) => Ok(value.max(0) as usize),
+            _ => Err(storage_error("unexpected usize command result")),
+        }
+    }
+}
+
+impl FromCmdOutput for String {
+    fn from_cmd_output(output: CmdOutput) -> RedisResult<Self> {
+        match output {
+            CmdOutput::String(value) => Ok(value),
+            CmdOutput::OptionalString(Some(value)) => Ok(value),
+            _ => Err(storage_error("unexpected string command result")),
+        }
+    }
+}
+
+impl FromCmdOutput for Option<String> {
+    fn from_cmd_output(output: CmdOutput) -> RedisResult<Self> {
+        match output {
+            CmdOutput::OptionalString(value) => Ok(value),
+            CmdOutput::String(value) => Ok(Some(value)),
+            CmdOutput::Nil => Ok(None),
+            _ => Err(storage_error("unexpected optional string command result")),
+        }
+    }
+}
+
+impl FromCmdOutput for Vec<String> {
+    fn from_cmd_output(output: CmdOutput) -> RedisResult<Self> {
+        match output {
+            CmdOutput::Strings(value) | CmdOutput::StringPairs(value) => Ok(value),
+            _ => Err(storage_error("unexpected string vector command result")),
+        }
+    }
+}
+
+impl FromCmdOutput for Vec<Option<String>> {
+    fn from_cmd_output(output: CmdOutput) -> RedisResult<Self> {
+        match output {
+            CmdOutput::OptionalStrings(value) => Ok(value),
+            _ => Err(storage_error(
+                "unexpected optional string vector command result",
+            )),
+        }
+    }
+}
+
+impl FromCmdOutput for Vec<i64> {
+    fn from_cmd_output(output: CmdOutput) -> RedisResult<Self> {
+        match output {
+            CmdOutput::Ints(value) => Ok(value),
+            _ => Err(storage_error("unexpected integer vector command result")),
+        }
+    }
+}
+
+impl FromCmdOutput for (String, Vec<String>) {
+    fn from_cmd_output(output: CmdOutput) -> RedisResult<Self> {
+        match output {
+            CmdOutput::Scan(cursor, keys) => Ok((cursor, keys)),
+            _ => Err(storage_error("unexpected scan command result")),
+        }
+    }
+}
+
+impl FromCmdOutput for Vec<(String, f64)> {
+    fn from_cmd_output(output: CmdOutput) -> RedisResult<Self> {
+        match output {
+            CmdOutput::ZPairs(value) => Ok(value),
+            _ => Err(storage_error("unexpected zset pair command result")),
+        }
+    }
+}
+
+impl FromCmdOutput for Vec<(String, Vec<String>)> {
+    fn from_cmd_output(output: CmdOutput) -> RedisResult<Self> {
+        match output {
+            CmdOutput::StreamEntries(value) => Ok(value),
+            _ => Err(storage_error("unexpected stream command result")),
+        }
+    }
+}
+
+pub(crate) trait FromPipeOutput: Sized {
+    fn from_pipe_outputs(outputs: Vec<CmdOutput>) -> RedisResult<Self>;
+}
+
+impl FromPipeOutput for () {
+    fn from_pipe_outputs(_: Vec<CmdOutput>) -> RedisResult<Self> {
+        Ok(())
+    }
+}
+
+impl FromPipeOutput for Vec<i64> {
+    fn from_pipe_outputs(outputs: Vec<CmdOutput>) -> RedisResult<Self> {
+        outputs
+            .into_iter()
+            .map(|output| match output {
+                CmdOutput::Int(value) => Ok(value),
+                _ => Err(storage_error("unexpected pipeline integer result")),
+            })
+            .collect()
+    }
+}
+
+pub(crate) trait FromOptionalString: Sized {
+    fn from_optional_string(value: Option<String>) -> RedisResult<Self>;
+}
+
+impl FromOptionalString for Option<String> {
+    fn from_optional_string(value: Option<String>) -> RedisResult<Self> {
+        Ok(value)
+    }
+}
+
+impl FromOptionalString for String {
+    fn from_optional_string(value: Option<String>) -> RedisResult<Self> {
+        value.ok_or_else(|| storage_error("missing string value"))
+    }
+}
+
+pub(crate) trait FromDeleteCount: Sized {
+    fn from_delete_count(value: usize) -> Self;
+}
+
+impl FromDeleteCount for () {
+    fn from_delete_count(_: usize) -> Self {}
+}
+
+impl FromDeleteCount for usize {
+    fn from_delete_count(value: usize) -> Self {
+        value
+    }
+}
+
+impl FromDeleteCount for i64 {
+    fn from_delete_count(value: usize) -> Self {
+        value as i64
+    }
+}
+
+pub(crate) trait IntoKey {
+    fn into_key(self) -> String;
+}
+
+impl IntoKey for &str {
+    fn into_key(self) -> String {
+        self.to_string()
+    }
+}
+
+impl IntoKey for String {
+    fn into_key(self) -> String {
+        self
+    }
+}
+
+impl IntoKey for &String {
+    fn into_key(self) -> String {
+        self.clone()
+    }
+}
+
+pub(crate) trait IntoKeys {
+    fn into_keys(self) -> Vec<String>;
+}
+
+impl<T: IntoKey> IntoKeys for T {
+    fn into_keys(self) -> Vec<String> {
+        vec![self.into_key()]
+    }
+}
+
+impl IntoKeys for &[String] {
+    fn into_keys(self) -> Vec<String> {
+        self.to_vec()
+    }
+}
+
+impl IntoKeys for &Vec<String> {
+    fn into_keys(self) -> Vec<String> {
+        self.clone()
+    }
+}
+
+impl IntoKeys for Vec<String> {
+    fn into_keys(self) -> Vec<String> {
+        self
+    }
+}
+
+impl<const N: usize> IntoKeys for &[&str; N] {
+    fn into_keys(self) -> Vec<String> {
+        self.iter().map(|value| (*value).to_string()).collect()
+    }
+}
+
+pub(crate) trait IntoMembers {
+    fn into_members(self) -> Vec<String>;
+}
+
+impl<T: IntoKey> IntoMembers for T {
+    fn into_members(self) -> Vec<String> {
+        vec![self.into_key()]
+    }
+}
+
+impl IntoMembers for &[String] {
+    fn into_members(self) -> Vec<String> {
+        self.to_vec()
+    }
+}
+
+impl IntoMembers for &Vec<String> {
+    fn into_members(self) -> Vec<String> {
+        self.clone()
+    }
+}
+
+impl IntoMembers for Vec<String> {
+    fn into_members(self) -> Vec<String> {
+        self
+    }
+}
+
+pub(crate) trait ToRedisArgs {
+    fn append_args(&self, args: &mut Vec<String>);
+}
+
+macro_rules! impl_display_arg {
+    ($($ty:ty),* $(,)?) => {
+        $(
+            impl ToRedisArgs for $ty {
+                fn append_args(&self, args: &mut Vec<String>) {
+                    args.push(self.to_string());
+                }
+            }
+        )*
+    };
+}
+
+impl_display_arg!(i64, i32, isize, usize, u64, u32, f64);
+
+impl ToRedisArgs for &str {
+    fn append_args(&self, args: &mut Vec<String>) {
+        args.push((*self).to_string());
+    }
+}
+
+impl ToRedisArgs for String {
+    fn append_args(&self, args: &mut Vec<String>) {
+        args.push(self.clone());
+    }
+}
+
+impl ToRedisArgs for &String {
+    fn append_args(&self, args: &mut Vec<String>) {
+        args.push((*self).clone());
+    }
+}
+
+impl ToRedisArgs for &[String] {
+    fn append_args(&self, args: &mut Vec<String>) {
+        args.extend(self.iter().cloned());
+    }
+}
+
+impl ToRedisArgs for &Vec<String> {
+    fn append_args(&self, args: &mut Vec<String>) {
+        args.extend(self.iter().cloned());
+    }
+}
+
+impl ToRedisArgs for Vec<String> {
+    fn append_args(&self, args: &mut Vec<String>) {
+        args.extend(self.iter().cloned());
+    }
+}
+
+impl ToRedisArgs for Vec<&String> {
+    fn append_args(&self, args: &mut Vec<String>) {
+        args.extend(self.iter().map(|value| (*value).clone()));
+    }
+}
+
+impl<const N: usize> ToRedisArgs for &[&str; N] {
+    fn append_args(&self, args: &mut Vec<String>) {
+        args.extend(self.iter().map(|value| (*value).to_string()));
+    }
+}

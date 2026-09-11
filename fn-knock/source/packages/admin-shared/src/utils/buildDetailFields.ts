@@ -1,1 +1,48 @@
-ZXhwb3J0IHR5cGUgRGV0YWlsRmllbGRJdGVtID0gewogIGtleTogc3RyaW5nOwogIGxhYmVsOiBzdHJpbmc7CiAgdmFsdWU6IHN0cmluZyB8IG51bWJlciB8IGJvb2xlYW47Cn07Cgp0eXBlIERldGFpbEZpZWxkRGVmaW5pdGlvbjxUIGV4dGVuZHMgUmVjb3JkPHN0cmluZywgYW55Pj4gPSB7CiAga2V5OiBrZXlvZiBUIHwgc3RyaW5nOwogIGxhYmVsOiBzdHJpbmc7CiAgZm9ybWF0PzogKHZhbHVlOiBhbnksIHJlY29yZDogVCkgPT4gc3RyaW5nIHwgbnVtYmVyIHwgYm9vbGVhbjsKICBpbmNsdWRlV2hlblVuZGVmaW5lZD86IGJvb2xlYW47Cn07Cgpjb25zdCBERUZBVUxUX0VNUFRZX1ZBTFVFID0gJy0nOwoKdHlwZSBCdWlsZERldGFpbEZpZWxkc09wdGlvbnMgPSB7CiAgZm9ybWF0PzogKGtleTogc3RyaW5nLCB2YWx1ZTogYW55KSA9PiBzdHJpbmcgfCBudW1iZXIgfCBib29sZWFuOwogIGVtcHR5VmFsdWU/OiBzdHJpbmcgfCBudW1iZXIgfCBib29sZWFuOwp9OwoKZXhwb3J0IGNvbnN0IGJ1aWxkRGV0YWlsRmllbGRzID0gPFQgZXh0ZW5kcyBSZWNvcmQ8c3RyaW5nLCBhbnk+PigKICByZWNvcmQ6IFQgfCBudWxsIHwgdW5kZWZpbmVkLAogIGRlZmluaXRpb25zOiBSZWFkb25seUFycmF5PERldGFpbEZpZWxkRGVmaW5pdGlvbjxUPj4sCiAgb3B0aW9uczogQnVpbGREZXRhaWxGaWVsZHNPcHRpb25zID0ge30sCik6IERldGFpbEZpZWxkSXRlbVtdID0+IHsKICBpZiAoIXJlY29yZCkgcmV0dXJuIFtdOwoKICByZXR1cm4gZGVmaW5pdGlvbnMKICAgIC5maWx0ZXIoKGRlZmluaXRpb24pID0+IHsKICAgICAgaWYgKGRlZmluaXRpb24uaW5jbHVkZVdoZW5VbmRlZmluZWQpIHJldHVybiB0cnVlOwogICAgICBjb25zdCB2YWx1ZSA9IHJlY29yZFtkZWZpbml0aW9uLmtleSBhcyBrZXlvZiBUXTsKICAgICAgcmV0dXJuIHZhbHVlICE9PSB1bmRlZmluZWQ7CiAgICB9KQogICAgLm1hcCgoZGVmaW5pdGlvbikgPT4gewogICAgICBjb25zdCByYXcgPSByZWNvcmRbZGVmaW5pdGlvbi5rZXkgYXMga2V5b2YgVF07CiAgICAgIGNvbnN0IGZvcm1hdHRlZCA9IGRlZmluaXRpb24uZm9ybWF0CiAgICAgICAgPyBkZWZpbml0aW9uLmZvcm1hdChyYXcsIHJlY29yZCkKICAgICAgICA6IG9wdGlvbnMuZm9ybWF0CiAgICAgICAgICA/IG9wdGlvbnMuZm9ybWF0KFN0cmluZyhkZWZpbml0aW9uLmtleSksIHJhdykKICAgICAgICAgIDogcmF3OwogICAgICBjb25zdCB2YWx1ZSA9IGZvcm1hdHRlZCA/PyBvcHRpb25zLmVtcHR5VmFsdWUgPz8gREVGQVVMVF9FTVBUWV9WQUxVRTsKICAgICAgcmV0dXJuIHsKICAgICAgICBrZXk6IFN0cmluZyhkZWZpbml0aW9uLmtleSksCiAgICAgICAgbGFiZWw6IGRlZmluaXRpb24ubGFiZWwsCiAgICAgICAgdmFsdWUsCiAgICAgIH07CiAgICB9KTsKfTsK
+export type DetailFieldItem = {
+  key: string;
+  label: string;
+  value: string | number | boolean;
+};
+
+type DetailFieldDefinition<T extends Record<string, any>> = {
+  key: keyof T | string;
+  label: string;
+  format?: (value: any, record: T) => string | number | boolean;
+  includeWhenUndefined?: boolean;
+};
+
+const DEFAULT_EMPTY_VALUE = '-';
+
+type BuildDetailFieldsOptions = {
+  format?: (key: string, value: any) => string | number | boolean;
+  emptyValue?: string | number | boolean;
+};
+
+export const buildDetailFields = <T extends Record<string, any>>(
+  record: T | null | undefined,
+  definitions: ReadonlyArray<DetailFieldDefinition<T>>,
+  options: BuildDetailFieldsOptions = {},
+): DetailFieldItem[] => {
+  if (!record) return [];
+
+  return definitions
+    .filter((definition) => {
+      if (definition.includeWhenUndefined) return true;
+      const value = record[definition.key as keyof T];
+      return value !== undefined;
+    })
+    .map((definition) => {
+      const raw = record[definition.key as keyof T];
+      const formatted = definition.format
+        ? definition.format(raw, record)
+        : options.format
+          ? options.format(String(definition.key), raw)
+          : raw;
+      const value = formatted ?? options.emptyValue ?? DEFAULT_EMPTY_VALUE;
+      return {
+        key: String(definition.key),
+        label: definition.label,
+        value,
+      };
+    });
+};

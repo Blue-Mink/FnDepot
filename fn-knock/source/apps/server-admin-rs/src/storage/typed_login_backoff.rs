@@ -1,1 +1,410 @@
-dXNlIHN0ZDo6Y29sbGVjdGlvbnM6OkJUcmVlTWFwOwoKdXNlIHRva2lvX3J1c3FsaXRlOjpydXNxbGl0ZTo6e09wdGlvbmFsRXh0ZW5zaW9uLCBUcmFuc2FjdGlvbiwgVHJhbnNhY3Rpb25CZWhhdmlvciwgcGFyYW1zfTsKCnVzZSBzdXBlcjo6e1N0b3JhZ2VSZXN1bHQsIHJlZGlzX2NvbXBhdDo6Q29ubmVjdGlvbk1hbmFnZXIsIHN0b3JhZ2VfZXJyb3J9OwoKcHViKGNyYXRlKSBjb25zdCBMT0dJTl9CQUNLT0ZGX1BSRUZJWDogJnN0ciA9ICJmbl9rbm9jazpsb2dpbl9iYWNrb2ZmOiI7Cgpjb25zdCBTQ0hFTUFfVkVSU0lPTjogaTY0ID0gMTsKY29uc3QgU0NIRU1BX05BTUU6ICZzdHIgPSAidHlwZWRfbG9naW5fYmFja29mZl9hdHRlbXB0cyI7CmNvbnN0IFNDSEVNQV9TUUw6ICZzdHIgPSByIyIKQ1JFQVRFIFRBQkxFIGxvZ2luX2JhY2tvZmZfYXR0ZW1wdHMgKAogIGlwIFRFWFQgUFJJTUFSWSBLRVkgQ0hFQ0sgKGlwIDw+ICcnKSwKICBzdGF0ZV9qc29uIFRFWFQgTk9UIE5VTEwsCiAgZXhwaXJlc19hdF9tcyBJTlRFR0VSIE5PVCBOVUxMIENIRUNLIChleHBpcmVzX2F0X21zID49IDApLAogIHVwZGF0ZWRfYXRfbXMgSU5URUdFUiBOT1QgTlVMTAopOwpDUkVBVEUgSU5ERVggaWR4X2xvZ2luX2JhY2tvZmZfYXR0ZW1wdHNfZXhwaXJ5CiAgT04gbG9naW5fYmFja29mZl9hdHRlbXB0cyhleHBpcmVzX2F0X21zKTsKIiM7CmNvbnN0IE1JR1JBVElPTlNfU1FMOiAmc3RyID0gciMiCkNSRUFURSBUQUJMRSBJRiBOT1QgRVhJU1RTIHR5cGVkX2xvZ2luX2JhY2tvZmZfc2NoZW1hX21pZ3JhdGlvbnMgKAogIHZlcnNpb24gSU5URUdFUiBQUklNQVJZIEtFWSwKICBuYW1lIFRFWFQgTk9UIE5VTEwsCiAgY2hlY2tzdW0gVEVYVCBOT1QgTlVMTCwKICBhcHBsaWVkX2F0X21zIElOVEVHRVIgTk9UIE5VTEwKKTsKIiM7CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFBhcnRpYWxFcSwgRXEpXQpwdWIoY3JhdGUpIHN0cnVjdCBUeXBlZExvZ2luQmFja29mZkF0dGVtcHQgewogICAgcHViKGNyYXRlKSBpcDogU3RyaW5nLAogICAgcHViKGNyYXRlKSBzdGF0ZV9qc29uOiBTdHJpbmcsCiAgICBwdWIoY3JhdGUpIGV4cGlyZXNfYXRfbXM6IGk2NCwKfQoKI1tkZXJpdmUoQ2xvbmUpXQpwdWIoY3JhdGUpIHN0cnVjdCBUeXBlZExvZ2luQmFja29mZlJlcG9zaXRvcnkgewogICAgbWFuYWdlcjogQ29ubmVjdGlvbk1hbmFnZXIsCn0KCmltcGwgVHlwZWRMb2dpbkJhY2tvZmZSZXBvc2l0b3J5IHsKICAgIHB1YihjcmF0ZSkgZm4gbmV3KG1hbmFnZXI6IENvbm5lY3Rpb25NYW5hZ2VyKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsgbWFuYWdlciB9CiAgICB9CgogICAgcHViKGNyYXRlKSBhc3luYyBmbiBpbml0aWFsaXplKCZzZWxmKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5jYWxsKHxjb25ufCB7CiAgICAgICAgICAgICAgICBsZXQgdHggPSBjb25uLnRyYW5zYWN0aW9uX3dpdGhfYmVoYXZpb3IoVHJhbnNhY3Rpb25CZWhhdmlvcjo6SW1tZWRpYXRlKT87CiAgICAgICAgICAgICAgICB0eC5leGVjdXRlX2JhdGNoKE1JR1JBVElPTlNfU1FMKT87CiAgICAgICAgICAgICAgICBsZXQgY2hlY2tzdW0gPSBjcmF0ZTo6Y3J5cHRvX3V0aWxzOjpzaGEyNTZfaGV4X2J5dGVzKFNDSEVNQV9TUUwpOwogICAgICAgICAgICAgICAgbGV0IGFwcGxpZWQgPSB0eAogICAgICAgICAgICAgICAgICAgIC5xdWVyeV9yb3coCiAgICAgICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgbmFtZSwgY2hlY2tzdW0gRlJPTSB0eXBlZF9sb2dpbl9iYWNrb2ZmX3NjaGVtYV9taWdyYXRpb25zIFdIRVJFIHZlcnNpb24gPSA/MSIsCiAgICAgICAgICAgICAgICAgICAgICAgIFtTQ0hFTUFfVkVSU0lPTl0sCiAgICAgICAgICAgICAgICAgICAgICAgIHxyb3d8IE9rKChyb3cuZ2V0Ojo8XywgU3RyaW5nPigwKT8sIHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDEpPykpLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAub3B0aW9uYWwoKT87CiAgICAgICAgICAgICAgICBtYXRjaCBhcHBsaWVkIHsKICAgICAgICAgICAgICAgICAgICBTb21lKChuYW1lLCBzdG9yZWQpKSBpZiBuYW1lID09IFNDSEVNQV9OQU1FICYmIHN0b3JlZCA9PSBjaGVja3N1bSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxldCBleGlzdHMgPSB0eC5xdWVyeV9yb3coCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiU0VMRUNUIEVYSVNUUyhTRUxFQ1QgMSBGUk9NIHNxbGl0ZV9tYXN0ZXIgV0hFUkUgdHlwZSA9ICd0YWJsZScgQU5EIG5hbWUgPSAnbG9naW5fYmFja29mZl9hdHRlbXB0cycpIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgfHJvd3wgcm93LmdldDo6PF8sIGJvb2w+KDApLAogICAgICAgICAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgIWV4aXN0cyB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gRXJyKHN0b3JhZ2VfZXJyb3IoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInR5cGVkIGxvZ2luLWJhY2tvZmYgbWlncmF0aW9uIGlzIHJlY29yZGVkIGJ1dCBpdHMgdGFibGUgaXMgbWlzc2luZyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBTb21lKChuYW1lLCBfKSkgaWYgbmFtZSAhPSBTQ0hFTUFfTkFNRSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigidHlwZWQgbG9naW4tYmFja29mZiBtaWdyYXRpb24gbmFtZSBtaXNtYXRjaCIpKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgU29tZShfKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0eXBlZCBsb2dpbi1iYWNrb2ZmIG1pZ3JhdGlvbiBjaGVja3N1bSBtaXNtYXRjaCIsCiAgICAgICAgICAgICAgICAgICAgICAgICkpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBOb25lID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgdHguZXhlY3V0ZV9iYXRjaChTQ0hFTUFfU1FMKT87CiAgICAgICAgICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiSU5TRVJUIElOVE8gdHlwZWRfbG9naW5fYmFja29mZl9zY2hlbWFfbWlncmF0aW9ucyh2ZXJzaW9uLCBuYW1lLCBjaGVja3N1bSwgYXBwbGllZF9hdF9tcykgVkFMVUVTICg/MSwgPzIsID8zLCA/NCkiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1zIVsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTQ0hFTUFfVkVSU0lPTiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTQ0hFTUFfTkFNRSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGVja3N1bSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB0eC5jb21taXQoKT87CiAgICAgICAgICAgICAgICBPaygoKSkKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmF3YWl0CiAgICB9CgogICAgcHViKGNyYXRlKSBhc3luYyBmbiByZWJ1aWxkX2Zyb21fbGVnYWN5KCZzZWxmKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5jYWxsKHxjb25ufCB7CiAgICAgICAgICAgICAgICBsZXQgdHggPSBjb25uLnRyYW5zYWN0aW9uX3dpdGhfYmVoYXZpb3IoVHJhbnNhY3Rpb25CZWhhdmlvcjo6SW1tZWRpYXRlKT87CiAgICAgICAgICAgICAgICBTZWxmOjpyZWJ1aWxkX2Zyb21fbGVnYWN5X3R4KCZ0eCk/OwogICAgICAgICAgICAgICAgdHguY29tbWl0KCk/OwogICAgICAgICAgICAgICAgT2soKCkpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gcmVidWlsZF9mcm9tX2xlZ2FjeV90eCh0eDogJlRyYW5zYWN0aW9uPCdfPikgLT4gU3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGxldCBsZWdhY3kgPSBsZWdhY3lfYXR0ZW1wdHNfdHgodHgpPzsKICAgICAgICBsZXQgbXV0IHN0YWxlID0gewogICAgICAgICAgICBsZXQgbXV0IHN0YXRlbWVudCA9IHR4LnByZXBhcmUoIlNFTEVDVCBpcCBGUk9NIGxvZ2luX2JhY2tvZmZfYXR0ZW1wdHMiKT87CiAgICAgICAgICAgIHN0YXRlbWVudAogICAgICAgICAgICAgICAgLnF1ZXJ5X21hcChbXSwgfHJvd3wgcm93LmdldDo6PF8sIFN0cmluZz4oMCkpPwogICAgICAgICAgICAgICAgLmNvbGxlY3Q6OjxSZXN1bHQ8VmVjPF8+LCBfPj4oKT8KICAgICAgICB9OwogICAgICAgIGZvciBhdHRlbXB0IGluIGxlZ2FjeS52YWx1ZXMoKSB7CiAgICAgICAgICAgIHN0YWxlLnJldGFpbih8aXB8IGlwICE9ICZhdHRlbXB0LmlwKTsKICAgICAgICAgICAgdXBzZXJ0X3R4KHR4LCBhdHRlbXB0KT87CiAgICAgICAgfQogICAgICAgIGZvciBpcCBpbiBzdGFsZSB7CiAgICAgICAgICAgIHR4LmV4ZWN1dGUoIkRFTEVURSBGUk9NIGxvZ2luX2JhY2tvZmZfYXR0ZW1wdHMgV0hFUkUgaXAgPSA/MSIsIFtpcF0pPzsKICAgICAgICB9CiAgICAgICAgT2soKCkpCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiByZWNvbmNpbGVfbGVnYWN5X2tleXNfdHgoCiAgICAgICAgdHg6ICZUcmFuc2FjdGlvbjwnXz4sCiAgICAgICAga2V5czogJltTdHJpbmddLAogICAgKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgZm9yIGtleSBpbiBrZXlzIHsKICAgICAgICAgICAgbGV0IFNvbWUoaXApID0ga2V5LnN0cmlwX3ByZWZpeChMT0dJTl9CQUNLT0ZGX1BSRUZJWCkgZWxzZSB7CiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgfTsKICAgICAgICAgICAgaWYgaXAuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gU2VsZjo6cmVidWlsZF9mcm9tX2xlZ2FjeV90eCh0eCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgbWF0Y2ggbGl2ZV9sZWdhY3lfYXR0ZW1wdF90eCh0eCwgaXApPyB7CiAgICAgICAgICAgICAgICBTb21lKGF0dGVtcHQpID0+IHVwc2VydF90eCh0eCwgJmF0dGVtcHQpPywKICAgICAgICAgICAgICAgIE5vbmUgPT4gewogICAgICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGUoIkRFTEVURSBGUk9NIGxvZ2luX2JhY2tvZmZfYXR0ZW1wdHMgV0hFUkUgaXAgPSA/MSIsIFtpcF0pPzsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBPaygoKSkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGFzeW5jIGZuIHZlcmlmeV9hbmRfcmVwYWlyKCZzZWxmLCBpcDogJnN0cikgLT4gU3RvcmFnZVJlc3VsdDxib29sPiB7CiAgICAgICAgbGV0IGlwID0gaXAudG9fc3RyaW5nKCk7CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5jYWxsKG1vdmUgfGNvbm58IHsKICAgICAgICAgICAgICAgIGxldCB0eCA9IGNvbm4udHJhbnNhY3Rpb25fd2l0aF9iZWhhdmlvcihUcmFuc2FjdGlvbkJlaGF2aW9yOjpJbW1lZGlhdGUpPzsKICAgICAgICAgICAgICAgIGxldCBsZWdhY3kgPSBsaXZlX2xlZ2FjeV9hdHRlbXB0X3R4KCZ0eCwgJmlwKT87CiAgICAgICAgICAgICAgICBsZXQgbGVnYWN5X2ludmFsaWQgPSBsaXZlX2xlZ2FjeV9yYXdfdHgoJnR4LCAmaXApPwogICAgICAgICAgICAgICAgICAgIC5pc19zb21lX2FuZCh8KHN0YXRlX2pzb24sIF8pfCAhdmFsaWRfc3RhdGVfanNvbigmc3RhdGVfanNvbikpOwogICAgICAgICAgICAgICAgbGV0IHR5cGVkID0gdHlwZWRfYXR0ZW1wdF90eCgmdHgsICZpcCk/OwogICAgICAgICAgICAgICAgbGV0IG1hdGNoZWQgPSAhbGVnYWN5X2ludmFsaWQgJiYgdHlwZWQgPT0gbGVnYWN5OwogICAgICAgICAgICAgICAgaWYgIW1hdGNoZWQgewogICAgICAgICAgICAgICAgICAgIG1hdGNoIGxlZ2FjeSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFNvbWUoYXR0ZW1wdCkgPT4gdXBzZXJ0X3R4KCZ0eCwgJmF0dGVtcHQpPywKICAgICAgICAgICAgICAgICAgICAgICAgTm9uZSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eC5leGVjdXRlKCJERUxFVEUgRlJPTSBsb2dpbl9iYWNrb2ZmX2F0dGVtcHRzIFdIRVJFIGlwID0gPzEiLCBbJmlwXSk/OwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdHguY29tbWl0KCk/OwogICAgICAgICAgICAgICAgT2sobWF0Y2hlZCkKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmF3YWl0CiAgICB9CgogICAgcHViKGNyYXRlKSBhc3luYyBmbiB2ZXJpZnlfYW5kX3JlcGFpcl9hbGwoJnNlbGYpIC0+IFN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgICAgIHNlbGYubWFuYWdlcgogICAgICAgICAgICAuY2FsbCh8Y29ubnwgewogICAgICAgICAgICAgICAgbGV0IHR4ID0gY29ubi50cmFuc2FjdGlvbl93aXRoX2JlaGF2aW9yKFRyYW5zYWN0aW9uQmVoYXZpb3I6OkltbWVkaWF0ZSk/OwogICAgICAgICAgICAgICAgbGV0IGxlZ2FjeSA9IGxlZ2FjeV9hdHRlbXB0c190eCgmdHgpPzsKICAgICAgICAgICAgICAgIGxldCB0eXBlZCA9IHR5cGVkX2F0dGVtcHRzX3R4KCZ0eCk/OwogICAgICAgICAgICAgICAgbGV0IG1hdGNoZWQgPSBpbnZhbGlkX2xlZ2FjeV9hdHRlbXB0X2NvdW50X3R4KCZ0eCk/ID09IDAgJiYgdHlwZWQgPT0gbGVnYWN5OwogICAgICAgICAgICAgICAgaWYgIW1hdGNoZWQgewogICAgICAgICAgICAgICAgICAgIFNlbGY6OnJlYnVpbGRfZnJvbV9sZWdhY3lfdHgoJnR4KT87CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB0eC5jb21taXQoKT87CiAgICAgICAgICAgICAgICBPayhtYXRjaGVkKQogICAgICAgICAgICB9KQogICAgICAgICAgICAuYXdhaXQKICAgIH0KCiAgICAjW2NmZyh0ZXN0KV0KICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gbG9hZCgmc2VsZiwgaXA6ICZzdHIpIC0+IFN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFR5cGVkTG9naW5CYWNrb2ZmQXR0ZW1wdD4+IHsKICAgICAgICBsZXQgaXAgPSBpcC50b19zdHJpbmcoKTsKICAgICAgICBzZWxmLm1hbmFnZXIKICAgICAgICAgICAgLmNhbGwobW92ZSB8Y29ubnwgdHlwZWRfYXR0ZW1wdF9jb25uKGNvbm4sICZpcCkpCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgICNbY2ZnKHRlc3QpXQogICAgcHViKGNyYXRlKSBhc3luYyBmbiBjb3VudCgmc2VsZikgLT4gU3RvcmFnZVJlc3VsdDxpNjQ+IHsKICAgICAgICBzZWxmLm1hbmFnZXIKICAgICAgICAgICAgLmNhbGwofGNvbm58IHsKICAgICAgICAgICAgICAgIGNvbm4ucXVlcnlfcm93KCJTRUxFQ1QgQ09VTlQoKikgRlJPTSBsb2dpbl9iYWNrb2ZmX2F0dGVtcHRzIiwgW10sIHxyb3d8IHsKICAgICAgICAgICAgICAgICAgICByb3cuZ2V0Ojo8XywgaTY0PigwKQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC5tYXBfZXJyKEludG86OmludG8pCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQp9CgpmbiB2YWxpZF9zdGF0ZV9qc29uKHJhdzogJnN0cikgLT4gYm9vbCB7CiAgICBsZXQgT2sodmFsdWUpID0gc2VyZGVfanNvbjo6ZnJvbV9zdHI6OjxzZXJkZV9qc29uOjpWYWx1ZT4ocmF3KSBlbHNlIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9OwogICAgbGV0IFNvbWUob2JqZWN0KSA9IHZhbHVlLmFzX29iamVjdCgpIGVsc2UgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH07CiAgICBvYmplY3QuZ2V0KCJpcCIpLmlzX3NvbWVfYW5kKHNlcmRlX2pzb246OlZhbHVlOjppc19zdHJpbmcpCiAgICAgICAgJiYgb2JqZWN0CiAgICAgICAgICAgIC5nZXQoImF0dGVtcHRzIikKICAgICAgICAgICAgLmFuZF90aGVuKHNlcmRlX2pzb246OlZhbHVlOjphc19pNjQpCiAgICAgICAgICAgIC5pc19zb21lX2FuZCh8YXR0ZW1wdHN8IGF0dGVtcHRzID49IDApCiAgICAgICAgJiYgb2JqZWN0CiAgICAgICAgICAgIC5nZXQoImJsb2NrZWRVbnRpbCIpCiAgICAgICAgICAgIC5hbmRfdGhlbihzZXJkZV9qc29uOjpWYWx1ZTo6YXNfaTY0KQogICAgICAgICAgICAuaXNfc29tZSgpCn0KCmZuIGxpdmVfbGVnYWN5X2F0dGVtcHRfdHgoCiAgICB0eDogJlRyYW5zYWN0aW9uPCdfPiwKICAgIGlwOiAmc3RyLAopIC0+IFN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFR5cGVkTG9naW5CYWNrb2ZmQXR0ZW1wdD4+IHsKICAgIGxldCBTb21lKChzdGF0ZV9qc29uLCBleHBpcmVzX2F0X21zKSkgPSBsaXZlX2xlZ2FjeV9yYXdfdHgodHgsIGlwKT8gZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfTsKICAgIGlmICF2YWxpZF9zdGF0ZV9qc29uKCZzdGF0ZV9qc29uKSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfQogICAgT2soU29tZShUeXBlZExvZ2luQmFja29mZkF0dGVtcHQgewogICAgICAgIGlwOiBpcC50b19zdHJpbmcoKSwKICAgICAgICBzdGF0ZV9qc29uLAogICAgICAgIGV4cGlyZXNfYXRfbXMsCiAgICB9KSkKfQoKZm4gbGl2ZV9sZWdhY3lfcmF3X3R4KHR4OiAmVHJhbnNhY3Rpb248J18+LCBpcDogJnN0cikgLT4gU3RvcmFnZVJlc3VsdDxPcHRpb248KFN0cmluZywgaTY0KT4+IHsKICAgIGxldCBrZXkgPSBmb3JtYXQhKCJ7TE9HSU5fQkFDS09GRl9QUkVGSVh9e2lwfSIpOwogICAgbGV0IG5vdyA9IGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfbXMoKTsKICAgIHR4LnF1ZXJ5X3JvdygKICAgICAgICAiU0VMRUNUIHN0cmluZ3MudmFsdWUsIGtleXMuZXhwaXJlc19hdF9tcwogICAgICAgICAgICAgRlJPTSBrdl9rZXlzIEFTIGtleXMKICAgICAgICAgICAgIEpPSU4ga3Zfc3RyaW5ncyBBUyBzdHJpbmdzIE9OIHN0cmluZ3Mua2V5ID0ga2V5cy5rZXkKICAgICAgICAgICAgIFdIRVJFIGtleXMua2V5ID0gPzEKICAgICAgICAgICAgICAgQU5EIGtleXMua2luZCA9ICdzdHJpbmcnCiAgICAgICAgICAgICAgIEFORCBrZXlzLmV4cGlyZXNfYXRfbXMgSVMgTk9UIE5VTEwKICAgICAgICAgICAgICAgQU5EIGtleXMuZXhwaXJlc19hdF9tcyA+ID8yIiwKICAgICAgICBwYXJhbXMhW2tleSwgbm93XSwKICAgICAgICB8cm93fCBPaygocm93LmdldDo6PF8sIFN0cmluZz4oMCk/LCByb3cuZ2V0Ojo8XywgaTY0PigxKT8pKSwKICAgICkKICAgIC5vcHRpb25hbCgpCiAgICAubWFwX2VycihJbnRvOjppbnRvKQp9CgpmbiBsZWdhY3lfYXR0ZW1wdHNfdHgoCiAgICB0eDogJlRyYW5zYWN0aW9uPCdfPiwKKSAtPiBTdG9yYWdlUmVzdWx0PEJUcmVlTWFwPFN0cmluZywgVHlwZWRMb2dpbkJhY2tvZmZBdHRlbXB0Pj4gewogICAgbGV0IHBhdHRlcm4gPSBmb3JtYXQhKCJ7TE9HSU5fQkFDS09GRl9QUkVGSVh9JSIpOwogICAgbGV0IG5vdyA9IGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfbXMoKTsKICAgIGxldCBtdXQgc3RhdGVtZW50ID0gdHgucHJlcGFyZSgKICAgICAgICAiU0VMRUNUIGtleXMua2V5LCBzdHJpbmdzLnZhbHVlLCBrZXlzLmV4cGlyZXNfYXRfbXMKICAgICAgICAgRlJPTSBrdl9rZXlzIEFTIGtleXMKICAgICAgICAgSk9JTiBrdl9zdHJpbmdzIEFTIHN0cmluZ3MgT04gc3RyaW5ncy5rZXkgPSBrZXlzLmtleQogICAgICAgICBXSEVSRSBrZXlzLmtleSBMSUtFID8xCiAgICAgICAgICAgQU5EIGtleXMua2luZCA9ICdzdHJpbmcnCiAgICAgICAgICAgQU5EIGtleXMuZXhwaXJlc19hdF9tcyBJUyBOT1QgTlVMTAogICAgICAgICAgIEFORCBrZXlzLmV4cGlyZXNfYXRfbXMgPiA/MgogICAgICAgICBPUkRFUiBCWSBrZXlzLmtleSIsCiAgICApPzsKICAgIGxldCByb3dzID0gc3RhdGVtZW50LnF1ZXJ5X21hcChwYXJhbXMhW3BhdHRlcm4sIG5vd10sIHxyb3d8IHsKICAgICAgICBPaygoCiAgICAgICAgICAgIHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDApPywKICAgICAgICAgICAgcm93LmdldDo6PF8sIFN0cmluZz4oMSk/LAogICAgICAgICAgICByb3cuZ2V0Ojo8XywgaTY0PigyKT8sCiAgICAgICAgKSkKICAgIH0pPzsKICAgIGxldCBtdXQgYXR0ZW1wdHMgPSBCVHJlZU1hcDo6bmV3KCk7CiAgICBmb3Igcm93IGluIHJvd3MgewogICAgICAgIGxldCAoa2V5LCBzdGF0ZV9qc29uLCBleHBpcmVzX2F0X21zKSA9IHJvdz87CiAgICAgICAgbGV0IFNvbWUoaXApID0ga2V5LnN0cmlwX3ByZWZpeChMT0dJTl9CQUNLT0ZGX1BSRUZJWCkgZWxzZSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH07CiAgICAgICAgaWYgaXAuaXNfZW1wdHkoKSB8fCAhdmFsaWRfc3RhdGVfanNvbigmc3RhdGVfanNvbikgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgYXR0ZW1wdHMuaW5zZXJ0KAogICAgICAgICAgICBpcC50b19zdHJpbmcoKSwKICAgICAgICAgICAgVHlwZWRMb2dpbkJhY2tvZmZBdHRlbXB0IHsKICAgICAgICAgICAgICAgIGlwOiBpcC50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgIHN0YXRlX2pzb24sCiAgICAgICAgICAgICAgICBleHBpcmVzX2F0X21zLAogICAgICAgICAgICB9LAogICAgICAgICk7CiAgICB9CiAgICBPayhhdHRlbXB0cykKfQoKZm4gdHlwZWRfYXR0ZW1wdF90eCgKICAgIHR4OiAmVHJhbnNhY3Rpb248J18+LAogICAgaXA6ICZzdHIsCikgLT4gU3RvcmFnZVJlc3VsdDxPcHRpb248VHlwZWRMb2dpbkJhY2tvZmZBdHRlbXB0Pj4gewogICAgdHgucXVlcnlfcm93KAogICAgICAgICJTRUxFQ1Qgc3RhdGVfanNvbiwgZXhwaXJlc19hdF9tcyBGUk9NIGxvZ2luX2JhY2tvZmZfYXR0ZW1wdHMgV0hFUkUgaXAgPSA/MSIsCiAgICAgICAgW2lwXSwKICAgICAgICB8cm93fCB7CiAgICAgICAgICAgIE9rKFR5cGVkTG9naW5CYWNrb2ZmQXR0ZW1wdCB7CiAgICAgICAgICAgICAgICBpcDogaXAudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICBzdGF0ZV9qc29uOiByb3cuZ2V0KDApPywKICAgICAgICAgICAgICAgIGV4cGlyZXNfYXRfbXM6IHJvdy5nZXQoMSk/LAogICAgICAgICAgICB9KQogICAgICAgIH0sCiAgICApCiAgICAub3B0aW9uYWwoKQogICAgLm1hcF9lcnIoSW50bzo6aW50bykKfQoKI1tjZmcodGVzdCldCmZuIHR5cGVkX2F0dGVtcHRfY29ubigKICAgIGNvbm46ICZ0b2tpb19ydXNxbGl0ZTo6cnVzcWxpdGU6OkNvbm5lY3Rpb24sCiAgICBpcDogJnN0ciwKKSAtPiBTdG9yYWdlUmVzdWx0PE9wdGlvbjxUeXBlZExvZ2luQmFja29mZkF0dGVtcHQ+PiB7CiAgICBjb25uLnF1ZXJ5X3JvdygKICAgICAgICAiU0VMRUNUIHN0YXRlX2pzb24sIGV4cGlyZXNfYXRfbXMgRlJPTSBsb2dpbl9iYWNrb2ZmX2F0dGVtcHRzIFdIRVJFIGlwID0gPzEiLAogICAgICAgIFtpcF0sCiAgICAgICAgfHJvd3wgewogICAgICAgICAgICBPayhUeXBlZExvZ2luQmFja29mZkF0dGVtcHQgewogICAgICAgICAgICAgICAgaXA6IGlwLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgc3RhdGVfanNvbjogcm93LmdldCgwKT8sCiAgICAgICAgICAgICAgICBleHBpcmVzX2F0X21zOiByb3cuZ2V0KDEpPywKICAgICAgICAgICAgfSkKICAgICAgICB9LAogICAgKQogICAgLm9wdGlvbmFsKCkKICAgIC5tYXBfZXJyKEludG86OmludG8pCn0KCmZuIHR5cGVkX2F0dGVtcHRzX3R4KAogICAgdHg6ICZUcmFuc2FjdGlvbjwnXz4sCikgLT4gU3RvcmFnZVJlc3VsdDxCVHJlZU1hcDxTdHJpbmcsIFR5cGVkTG9naW5CYWNrb2ZmQXR0ZW1wdD4+IHsKICAgIGxldCBtdXQgc3RhdGVtZW50ID0KICAgICAgICB0eC5wcmVwYXJlKCJTRUxFQ1QgaXAsIHN0YXRlX2pzb24sIGV4cGlyZXNfYXRfbXMgRlJPTSBsb2dpbl9iYWNrb2ZmX2F0dGVtcHRzIE9SREVSIEJZIGlwIik/OwogICAgbGV0IHJvd3MgPSBzdGF0ZW1lbnQucXVlcnlfbWFwKFtdLCB8cm93fCB7CiAgICAgICAgbGV0IGlwID0gcm93LmdldDo6PF8sIFN0cmluZz4oMCk/OwogICAgICAgIE9rKFR5cGVkTG9naW5CYWNrb2ZmQXR0ZW1wdCB7CiAgICAgICAgICAgIGlwLAogICAgICAgICAgICBzdGF0ZV9qc29uOiByb3cuZ2V0KDEpPywKICAgICAgICAgICAgZXhwaXJlc19hdF9tczogcm93LmdldCgyKT8sCiAgICAgICAgfSkKICAgIH0pPzsKICAgIGxldCBtdXQgYXR0ZW1wdHMgPSBCVHJlZU1hcDo6bmV3KCk7CiAgICBmb3IgYXR0ZW1wdCBpbiByb3dzIHsKICAgICAgICBsZXQgYXR0ZW1wdCA9IGF0dGVtcHQ/OwogICAgICAgIGF0dGVtcHRzLmluc2VydChhdHRlbXB0LmlwLmNsb25lKCksIGF0dGVtcHQpOwogICAgfQogICAgT2soYXR0ZW1wdHMpCn0KCmZuIGludmFsaWRfbGVnYWN5X2F0dGVtcHRfY291bnRfdHgodHg6ICZUcmFuc2FjdGlvbjwnXz4pIC0+IFN0b3JhZ2VSZXN1bHQ8aTY0PiB7CiAgICBsZXQgcGF0dGVybiA9IGZvcm1hdCEoIntMT0dJTl9CQUNLT0ZGX1BSRUZJWH0lIik7CiAgICBsZXQgbm93ID0gY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpOwogICAgbGV0IG11dCBzdGF0ZW1lbnQgPSB0eC5wcmVwYXJlKAogICAgICAgICJTRUxFQ1Qgc3RyaW5ncy52YWx1ZQogICAgICAgICBGUk9NIGt2X2tleXMgQVMga2V5cwogICAgICAgICBKT0lOIGt2X3N0cmluZ3MgQVMgc3RyaW5ncyBPTiBzdHJpbmdzLmtleSA9IGtleXMua2V5CiAgICAgICAgIFdIRVJFIGtleXMua2V5IExJS0UgPzEKICAgICAgICAgICBBTkQga2V5cy5raW5kID0gJ3N0cmluZycKICAgICAgICAgICBBTkQga2V5cy5leHBpcmVzX2F0X21zIElTIE5PVCBOVUxMCiAgICAgICAgICAgQU5EIGtleXMuZXhwaXJlc19hdF9tcyA+ID8yIiwKICAgICk/OwogICAgbGV0IHJvd3MgPSBzdGF0ZW1lbnQucXVlcnlfbWFwKHBhcmFtcyFbcGF0dGVybiwgbm93XSwgfHJvd3wgcm93LmdldDo6PF8sIFN0cmluZz4oMCkpPzsKICAgIGxldCBtdXQgaW52YWxpZCA9IDBfaTY0OwogICAgZm9yIHJhdyBpbiByb3dzIHsKICAgICAgICBpZiAhdmFsaWRfc3RhdGVfanNvbigmcmF3PykgewogICAgICAgICAgICBpbnZhbGlkICs9IDE7CiAgICAgICAgfQogICAgfQogICAgT2soaW52YWxpZCkKfQoKZm4gdXBzZXJ0X3R4KHR4OiAmVHJhbnNhY3Rpb248J18+LCBhdHRlbXB0OiAmVHlwZWRMb2dpbkJhY2tvZmZBdHRlbXB0KSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICBpZiBhdHRlbXB0LmlwLmlzX2VtcHR5KCkgfHwgIXZhbGlkX3N0YXRlX2pzb24oJmF0dGVtcHQuc3RhdGVfanNvbikgewogICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigiaW52YWxpZCB0eXBlZCBsb2dpbi1iYWNrb2ZmIGF0dGVtcHQiKSk7CiAgICB9CiAgICB0eC5leGVjdXRlKAogICAgICAgICJJTlNFUlQgSU5UTyBsb2dpbl9iYWNrb2ZmX2F0dGVtcHRzKGlwLCBzdGF0ZV9qc29uLCBleHBpcmVzX2F0X21zLCB1cGRhdGVkX2F0X21zKQogICAgICAgICBWQUxVRVMgKD8xLCA/MiwgPzMsID80KQogICAgICAgICBPTiBDT05GTElDVChpcCkgRE8gVVBEQVRFIFNFVAogICAgICAgICAgIHN0YXRlX2pzb24gPSBleGNsdWRlZC5zdGF0ZV9qc29uLAogICAgICAgICAgIGV4cGlyZXNfYXRfbXMgPSBleGNsdWRlZC5leHBpcmVzX2F0X21zLAogICAgICAgICAgIHVwZGF0ZWRfYXRfbXMgPSBleGNsdWRlZC51cGRhdGVkX2F0X21zCiAgICAgICAgIFdIRVJFIGxvZ2luX2JhY2tvZmZfYXR0ZW1wdHMuc3RhdGVfanNvbiA8PiBleGNsdWRlZC5zdGF0ZV9qc29uCiAgICAgICAgICAgIE9SIGxvZ2luX2JhY2tvZmZfYXR0ZW1wdHMuZXhwaXJlc19hdF9tcyA8PiBleGNsdWRlZC5leHBpcmVzX2F0X21zIiwKICAgICAgICBwYXJhbXMhWwogICAgICAgICAgICBhdHRlbXB0LmlwLAogICAgICAgICAgICBhdHRlbXB0LnN0YXRlX2pzb24sCiAgICAgICAgICAgIGF0dGVtcHQuZXhwaXJlc19hdF9tcywKICAgICAgICAgICAgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpLAogICAgICAgIF0sCiAgICApPzsKICAgIE9rKCgpKQp9Cg==
+use std::collections::BTreeMap;
+
+use tokio_rusqlite::rusqlite::{OptionalExtension, Transaction, TransactionBehavior, params};
+
+use super::{StorageResult, redis_compat::ConnectionManager, storage_error};
+
+pub(crate) const LOGIN_BACKOFF_PREFIX: &str = "fn_knock:login_backoff:";
+
+const SCHEMA_VERSION: i64 = 1;
+const SCHEMA_NAME: &str = "typed_login_backoff_attempts";
+const SCHEMA_SQL: &str = r#"
+CREATE TABLE login_backoff_attempts (
+  ip TEXT PRIMARY KEY CHECK (ip <> ''),
+  state_json TEXT NOT NULL,
+  expires_at_ms INTEGER NOT NULL CHECK (expires_at_ms >= 0),
+  updated_at_ms INTEGER NOT NULL
+);
+CREATE INDEX idx_login_backoff_attempts_expiry
+  ON login_backoff_attempts(expires_at_ms);
+"#;
+const MIGRATIONS_SQL: &str = r#"
+CREATE TABLE IF NOT EXISTS typed_login_backoff_schema_migrations (
+  version INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  checksum TEXT NOT NULL,
+  applied_at_ms INTEGER NOT NULL
+);
+"#;
+
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub(crate) struct TypedLoginBackoffAttempt {
+    pub(crate) ip: String,
+    pub(crate) state_json: String,
+    pub(crate) expires_at_ms: i64,
+}
+
+#[derive(Clone)]
+pub(crate) struct TypedLoginBackoffRepository {
+    manager: ConnectionManager,
+}
+
+impl TypedLoginBackoffRepository {
+    pub(crate) fn new(manager: ConnectionManager) -> Self {
+        Self { manager }
+    }
+
+    pub(crate) async fn initialize(&self) -> StorageResult<()> {
+        self.manager
+            .call(|conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                tx.execute_batch(MIGRATIONS_SQL)?;
+                let checksum = crate::crypto_utils::sha256_hex_bytes(SCHEMA_SQL);
+                let applied = tx
+                    .query_row(
+                        "SELECT name, checksum FROM typed_login_backoff_schema_migrations WHERE version = ?1",
+                        [SCHEMA_VERSION],
+                        |row| Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?)),
+                    )
+                    .optional()?;
+                match applied {
+                    Some((name, stored)) if name == SCHEMA_NAME && stored == checksum => {
+                        let exists = tx.query_row(
+                            "SELECT EXISTS(SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'login_backoff_attempts')",
+                            [],
+                            |row| row.get::<_, bool>(0),
+                        )?;
+                        if !exists {
+                            return Err(storage_error(
+                                "typed login-backoff migration is recorded but its table is missing",
+                            ));
+                        }
+                    }
+                    Some((name, _)) if name != SCHEMA_NAME => {
+                        return Err(storage_error("typed login-backoff migration name mismatch"));
+                    }
+                    Some(_) => {
+                        return Err(storage_error(
+                            "typed login-backoff migration checksum mismatch",
+                        ));
+                    }
+                    None => {
+                        tx.execute_batch(SCHEMA_SQL)?;
+                        tx.execute(
+                            "INSERT INTO typed_login_backoff_schema_migrations(version, name, checksum, applied_at_ms) VALUES (?1, ?2, ?3, ?4)",
+                            params![
+                                SCHEMA_VERSION,
+                                SCHEMA_NAME,
+                                checksum,
+                                crate::time_utils::now_ms(),
+                            ],
+                        )?;
+                    }
+                }
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub(crate) async fn rebuild_from_legacy(&self) -> StorageResult<()> {
+        self.manager
+            .call(|conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                Self::rebuild_from_legacy_tx(&tx)?;
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub(crate) fn rebuild_from_legacy_tx(tx: &Transaction<'_>) -> StorageResult<()> {
+        let legacy = legacy_attempts_tx(tx)?;
+        let mut stale = {
+            let mut statement = tx.prepare("SELECT ip FROM login_backoff_attempts")?;
+            statement
+                .query_map([], |row| row.get::<_, String>(0))?
+                .collect::<Result<Vec<_>, _>>()?
+        };
+        for attempt in legacy.values() {
+            stale.retain(|ip| ip != &attempt.ip);
+            upsert_tx(tx, attempt)?;
+        }
+        for ip in stale {
+            tx.execute("DELETE FROM login_backoff_attempts WHERE ip = ?1", [ip])?;
+        }
+        Ok(())
+    }
+
+    pub(crate) fn reconcile_legacy_keys_tx(
+        tx: &Transaction<'_>,
+        keys: &[String],
+    ) -> StorageResult<()> {
+        for key in keys {
+            let Some(ip) = key.strip_prefix(LOGIN_BACKOFF_PREFIX) else {
+                continue;
+            };
+            if ip.is_empty() {
+                return Self::rebuild_from_legacy_tx(tx);
+            }
+            match live_legacy_attempt_tx(tx, ip)? {
+                Some(attempt) => upsert_tx(tx, &attempt)?,
+                None => {
+                    tx.execute("DELETE FROM login_backoff_attempts WHERE ip = ?1", [ip])?;
+                }
+            }
+        }
+        Ok(())
+    }
+
+    pub(crate) async fn verify_and_repair(&self, ip: &str) -> StorageResult<bool> {
+        let ip = ip.to_string();
+        self.manager
+            .call(move |conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                let legacy = live_legacy_attempt_tx(&tx, &ip)?;
+                let legacy_invalid = live_legacy_raw_tx(&tx, &ip)?
+                    .is_some_and(|(state_json, _)| !valid_state_json(&state_json));
+                let typed = typed_attempt_tx(&tx, &ip)?;
+                let matched = !legacy_invalid && typed == legacy;
+                if !matched {
+                    match legacy {
+                        Some(attempt) => upsert_tx(&tx, &attempt)?,
+                        None => {
+                            tx.execute("DELETE FROM login_backoff_attempts WHERE ip = ?1", [&ip])?;
+                        }
+                    }
+                }
+                tx.commit()?;
+                Ok(matched)
+            })
+            .await
+    }
+
+    pub(crate) async fn verify_and_repair_all(&self) -> StorageResult<bool> {
+        self.manager
+            .call(|conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                let legacy = legacy_attempts_tx(&tx)?;
+                let typed = typed_attempts_tx(&tx)?;
+                let matched = invalid_legacy_attempt_count_tx(&tx)? == 0 && typed == legacy;
+                if !matched {
+                    Self::rebuild_from_legacy_tx(&tx)?;
+                }
+                tx.commit()?;
+                Ok(matched)
+            })
+            .await
+    }
+
+    #[cfg(test)]
+    pub(crate) async fn load(&self, ip: &str) -> StorageResult<Option<TypedLoginBackoffAttempt>> {
+        let ip = ip.to_string();
+        self.manager
+            .call(move |conn| typed_attempt_conn(conn, &ip))
+            .await
+    }
+
+    #[cfg(test)]
+    pub(crate) async fn count(&self) -> StorageResult<i64> {
+        self.manager
+            .call(|conn| {
+                conn.query_row("SELECT COUNT(*) FROM login_backoff_attempts", [], |row| {
+                    row.get::<_, i64>(0)
+                })
+                .map_err(Into::into)
+            })
+            .await
+    }
+}
+
+fn valid_state_json(raw: &str) -> bool {
+    let Ok(value) = serde_json::from_str::<serde_json::Value>(raw) else {
+        return false;
+    };
+    let Some(object) = value.as_object() else {
+        return false;
+    };
+    object.get("ip").is_some_and(serde_json::Value::is_string)
+        && object
+            .get("attempts")
+            .and_then(serde_json::Value::as_i64)
+            .is_some_and(|attempts| attempts >= 0)
+        && object
+            .get("blockedUntil")
+            .and_then(serde_json::Value::as_i64)
+            .is_some()
+}
+
+fn live_legacy_attempt_tx(
+    tx: &Transaction<'_>,
+    ip: &str,
+) -> StorageResult<Option<TypedLoginBackoffAttempt>> {
+    let Some((state_json, expires_at_ms)) = live_legacy_raw_tx(tx, ip)? else {
+        return Ok(None);
+    };
+    if !valid_state_json(&state_json) {
+        return Ok(None);
+    }
+    Ok(Some(TypedLoginBackoffAttempt {
+        ip: ip.to_string(),
+        state_json,
+        expires_at_ms,
+    }))
+}
+
+fn live_legacy_raw_tx(tx: &Transaction<'_>, ip: &str) -> StorageResult<Option<(String, i64)>> {
+    let key = format!("{LOGIN_BACKOFF_PREFIX}{ip}");
+    let now = crate::time_utils::now_ms();
+    tx.query_row(
+        "SELECT strings.value, keys.expires_at_ms
+             FROM kv_keys AS keys
+             JOIN kv_strings AS strings ON strings.key = keys.key
+             WHERE keys.key = ?1
+               AND keys.kind = 'string'
+               AND keys.expires_at_ms IS NOT NULL
+               AND keys.expires_at_ms > ?2",
+        params![key, now],
+        |row| Ok((row.get::<_, String>(0)?, row.get::<_, i64>(1)?)),
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+fn legacy_attempts_tx(
+    tx: &Transaction<'_>,
+) -> StorageResult<BTreeMap<String, TypedLoginBackoffAttempt>> {
+    let pattern = format!("{LOGIN_BACKOFF_PREFIX}%");
+    let now = crate::time_utils::now_ms();
+    let mut statement = tx.prepare(
+        "SELECT keys.key, strings.value, keys.expires_at_ms
+         FROM kv_keys AS keys
+         JOIN kv_strings AS strings ON strings.key = keys.key
+         WHERE keys.key LIKE ?1
+           AND keys.kind = 'string'
+           AND keys.expires_at_ms IS NOT NULL
+           AND keys.expires_at_ms > ?2
+         ORDER BY keys.key",
+    )?;
+    let rows = statement.query_map(params![pattern, now], |row| {
+        Ok((
+            row.get::<_, String>(0)?,
+            row.get::<_, String>(1)?,
+            row.get::<_, i64>(2)?,
+        ))
+    })?;
+    let mut attempts = BTreeMap::new();
+    for row in rows {
+        let (key, state_json, expires_at_ms) = row?;
+        let Some(ip) = key.strip_prefix(LOGIN_BACKOFF_PREFIX) else {
+            continue;
+        };
+        if ip.is_empty() || !valid_state_json(&state_json) {
+            continue;
+        }
+        attempts.insert(
+            ip.to_string(),
+            TypedLoginBackoffAttempt {
+                ip: ip.to_string(),
+                state_json,
+                expires_at_ms,
+            },
+        );
+    }
+    Ok(attempts)
+}
+
+fn typed_attempt_tx(
+    tx: &Transaction<'_>,
+    ip: &str,
+) -> StorageResult<Option<TypedLoginBackoffAttempt>> {
+    tx.query_row(
+        "SELECT state_json, expires_at_ms FROM login_backoff_attempts WHERE ip = ?1",
+        [ip],
+        |row| {
+            Ok(TypedLoginBackoffAttempt {
+                ip: ip.to_string(),
+                state_json: row.get(0)?,
+                expires_at_ms: row.get(1)?,
+            })
+        },
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+#[cfg(test)]
+fn typed_attempt_conn(
+    conn: &tokio_rusqlite::rusqlite::Connection,
+    ip: &str,
+) -> StorageResult<Option<TypedLoginBackoffAttempt>> {
+    conn.query_row(
+        "SELECT state_json, expires_at_ms FROM login_backoff_attempts WHERE ip = ?1",
+        [ip],
+        |row| {
+            Ok(TypedLoginBackoffAttempt {
+                ip: ip.to_string(),
+                state_json: row.get(0)?,
+                expires_at_ms: row.get(1)?,
+            })
+        },
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+fn typed_attempts_tx(
+    tx: &Transaction<'_>,
+) -> StorageResult<BTreeMap<String, TypedLoginBackoffAttempt>> {
+    let mut statement =
+        tx.prepare("SELECT ip, state_json, expires_at_ms FROM login_backoff_attempts ORDER BY ip")?;
+    let rows = statement.query_map([], |row| {
+        let ip = row.get::<_, String>(0)?;
+        Ok(TypedLoginBackoffAttempt {
+            ip,
+            state_json: row.get(1)?,
+            expires_at_ms: row.get(2)?,
+        })
+    })?;
+    let mut attempts = BTreeMap::new();
+    for attempt in rows {
+        let attempt = attempt?;
+        attempts.insert(attempt.ip.clone(), attempt);
+    }
+    Ok(attempts)
+}
+
+fn invalid_legacy_attempt_count_tx(tx: &Transaction<'_>) -> StorageResult<i64> {
+    let pattern = format!("{LOGIN_BACKOFF_PREFIX}%");
+    let now = crate::time_utils::now_ms();
+    let mut statement = tx.prepare(
+        "SELECT strings.value
+         FROM kv_keys AS keys
+         JOIN kv_strings AS strings ON strings.key = keys.key
+         WHERE keys.key LIKE ?1
+           AND keys.kind = 'string'
+           AND keys.expires_at_ms IS NOT NULL
+           AND keys.expires_at_ms > ?2",
+    )?;
+    let rows = statement.query_map(params![pattern, now], |row| row.get::<_, String>(0))?;
+    let mut invalid = 0_i64;
+    for raw in rows {
+        if !valid_state_json(&raw?) {
+            invalid += 1;
+        }
+    }
+    Ok(invalid)
+}
+
+fn upsert_tx(tx: &Transaction<'_>, attempt: &TypedLoginBackoffAttempt) -> StorageResult<()> {
+    if attempt.ip.is_empty() || !valid_state_json(&attempt.state_json) {
+        return Err(storage_error("invalid typed login-backoff attempt"));
+    }
+    tx.execute(
+        "INSERT INTO login_backoff_attempts(ip, state_json, expires_at_ms, updated_at_ms)
+         VALUES (?1, ?2, ?3, ?4)
+         ON CONFLICT(ip) DO UPDATE SET
+           state_json = excluded.state_json,
+           expires_at_ms = excluded.expires_at_ms,
+           updated_at_ms = excluded.updated_at_ms
+         WHERE login_backoff_attempts.state_json <> excluded.state_json
+            OR login_backoff_attempts.expires_at_ms <> excluded.expires_at_ms",
+        params![
+            attempt.ip,
+            attempt.state_json,
+            attempt.expires_at_ms,
+            crate::time_utils::now_ms(),
+        ],
+    )?;
+    Ok(())
+}

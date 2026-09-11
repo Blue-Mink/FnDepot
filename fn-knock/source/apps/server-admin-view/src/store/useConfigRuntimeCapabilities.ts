@@ -1,1 +1,131 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsKICBnZXRFZmZlY3RpdmVSdW50aW1lQ2FwYWJpbGl0aWVzLAogIGdldEVmZmVjdGl2ZVJ1bnRpbWVQcm9maWxlLAp9IGZyb20gIkBydW50aW1lLWRlYnVnIjsKaW1wb3J0IHR5cGUgeyBBcHBDb25maWcgfSBmcm9tICIuLi90eXBlcyI7CmltcG9ydCB7IGlzUHJvdGVjdGVkQWRtaW5QYW5lbERlcGxveW1lbnRUYXJnZXQgfSBmcm9tICIuLi9saWIvYWRtaW4tcGFuZWwtcnVudGltZSI7CmltcG9ydCB7IGNhblVzZUZub3NDb25uZWN0V2FmRm9yUnVudGltZSB9IGZyb20gIi4uL2xpYi9mbm9zLWNvbm5lY3Qtd2FmIjsKCmV4cG9ydCBjb25zdCB1c2VDb25maWdSdW50aW1lQ2FwYWJpbGl0aWVzID0gKGNvbmZpZzogUmVmPEFwcENvbmZpZyB8IG51bGw+KSA9PiB7CiAgY29uc3QgcnVudGltZVByb2ZpbGUgPSBjb21wdXRlZCgoKSA9PgogICAgZ2V0RWZmZWN0aXZlUnVudGltZVByb2ZpbGUoY29uZmlnLnZhbHVlPy5ydW50aW1lX3Byb2ZpbGUpLAogICk7CiAgY29uc3QgY2FwYWJpbGl0aWVzID0gY29tcHV0ZWQoKCkgPT4KICAgIGdldEVmZmVjdGl2ZVJ1bnRpbWVDYXBhYmlsaXRpZXMoY29uZmlnLnZhbHVlPy5jYXBhYmlsaXRpZXMpLAogICk7CiAgY29uc3QgaXNEb2NrZXJEZXBsb3ltZW50ID0gY29tcHV0ZWQoCiAgICAoKSA9PiBydW50aW1lUHJvZmlsZS52YWx1ZT8uaXNfZG9ja2VyID09PSB0cnVlLAogICk7CiAgY29uc3QgaXNGcGtEZXBsb3ltZW50ID0gY29tcHV0ZWQoCiAgICAoKSA9PiBydW50aW1lUHJvZmlsZS52YWx1ZT8uZGVwbG95bWVudF90YXJnZXQgPT09ICJmcGsiLAogICk7CiAgY29uc3QgaXNGcGtMaXRlRGVwbG95bWVudCA9IGNvbXB1dGVkKAogICAgKCkgPT4gcnVudGltZVByb2ZpbGUudmFsdWU/LmRlcGxveW1lbnRfdGFyZ2V0ID09PSAiZnBrLWxpdGUiLAogICk7CiAgY29uc3QgaXNPcGVuV3J0RGVwbG95bWVudCA9IGNvbXB1dGVkKAogICAgKCkgPT4gcnVudGltZVByb2ZpbGUudmFsdWU/LmRlcGxveW1lbnRfdGFyZ2V0ID09PSAib3BlbndydCIsCiAgKTsKICBjb25zdCBpc0xpbnV4RGVwbG95bWVudCA9IGNvbXB1dGVkKAogICAgKCkgPT4gcnVudGltZVByb2ZpbGUudmFsdWU/LmRlcGxveW1lbnRfdGFyZ2V0ID09PSAibGludXgiLAogICk7CiAgY29uc3QgaXNTeW5vbG9neURlcGxveW1lbnQgPSBjb21wdXRlZCgKICAgICgpID0+IHJ1bnRpbWVQcm9maWxlLnZhbHVlPy5kZXBsb3ltZW50X3RhcmdldCA9PT0gInN5bm9sb2d5IiwKICApOwogIGNvbnN0IGlzV2luZG93c0RlcGxveW1lbnQgPSBjb21wdXRlZCgKICAgICgpID0+IHJ1bnRpbWVQcm9maWxlLnZhbHVlPy5kZXBsb3ltZW50X3RhcmdldCA9PT0gIndpbmRvd3MiLAogICk7CiAgY29uc3QgaXNQcm90ZWN0ZWRBZG1pblBhbmVsRGVwbG95bWVudCA9IGNvbXB1dGVkKCgpID0+CiAgICBpc1Byb3RlY3RlZEFkbWluUGFuZWxEZXBsb3ltZW50VGFyZ2V0KAogICAgICBydW50aW1lUHJvZmlsZS52YWx1ZT8uZGVwbG95bWVudF90YXJnZXQsCiAgICApLAogICk7CiAgY29uc3QgY2FuVXNlRGlyZWN0TW9kZSA9IGNvbXB1dGVkKAogICAgKCkgPT4gY2FwYWJpbGl0aWVzLnZhbHVlPy5kaXJlY3RfbW9kZV9hdmFpbGFibGUgPT09IHRydWUsCiAgKTsKICBjb25zdCBjYW5NYW5hZ2VIb3N0RmlyZXdhbGwgPSBjb21wdXRlZCgKICAgICgpID0+IGNhcGFiaWxpdGllcy52YWx1ZT8uaG9zdF9maXJld2FsbF9hdmFpbGFibGUgPT09IHRydWUsCiAgKTsKICBjb25zdCBjYW5Vc2VTbWFydENvbm5lY3QgPSBjb21wdXRlZCgKICAgICgpID0+IGNhcGFiaWxpdGllcy52YWx1ZT8uc21hcnRfY29ubmVjdF9hdmFpbGFibGUgPT09IHRydWUsCiAgKTsKICBjb25zdCBjYW5Vc2VGbm9zQ2VydGlmaWNhdGVTeW5jID0gY29tcHV0ZWQoCiAgICAoKSA9PiBjYXBhYmlsaXRpZXMudmFsdWU/LmZub3NfY2VydGlmaWNhdGVfc3luY19hdmFpbGFibGUgPT09IHRydWUsCiAgKTsKICBjb25zdCBjYW5TZWxmVXBkYXRlID0gY29tcHV0ZWQoCiAgICAoKSA9PiBjYXBhYmlsaXRpZXMudmFsdWU/LnNlbGZfdXBkYXRlX2F2YWlsYWJsZSA9PT0gdHJ1ZSwKICApOwogIGNvbnN0IGNhblN5bmNTeXN0ZW1DbG9jayA9IGNvbXB1dGVkKAogICAgKCkgPT4gY2FwYWJpbGl0aWVzLnZhbHVlPy5zeXN0ZW1fY2xvY2tfc3luY19hdmFpbGFibGUgPT09IHRydWUsCiAgKTsKICBjb25zdCBjYW5Vc2VEZWVwTW9uaXRvciA9IGNvbXB1dGVkKAogICAgKCkgPT4gY2FwYWJpbGl0aWVzLnZhbHVlPy5kZWVwX21vbml0b3JfYXZhaWxhYmxlID09PSB0cnVlLAogICk7CiAgY29uc3QgY2FuVXNlQXV0b0h0dHBzID0gY29tcHV0ZWQoCiAgICAoKSA9PiBjYXBhYmlsaXRpZXMudmFsdWU/LmF1dG9faHR0cHNfYXZhaWxhYmxlICE9PSBmYWxzZSwKICApOwogIGNvbnN0IGNhblVzZUZub3NOZXR3b3JrVHVuaW5nID0gY29tcHV0ZWQoCiAgICAoKSA9PiBjYXBhYmlsaXRpZXMudmFsdWU/LmZub3NfbmV0d29ya190dW5pbmdfYXZhaWxhYmxlICE9PSBmYWxzZSwKICApOwogIGNvbnN0IGNhblVzZUZub3NDb25uZWN0V2FmID0gY29tcHV0ZWQoKCkgPT4KICAgIGNhblVzZUZub3NDb25uZWN0V2FmRm9yUnVudGltZShydW50aW1lUHJvZmlsZS52YWx1ZSwgY2FwYWJpbGl0aWVzLnZhbHVlKSwKICApOwogIGNvbnN0IGhhc1NoYXJlZFJvb3QgPSBjb21wdXRlZCgKICAgICgpID0+IGNhcGFiaWxpdGllcy52YWx1ZT8uc2hhcmVkX3Jvb3RfYXZhaWxhYmxlID09PSB0cnVlLAogICk7CiAgY29uc3QgY2FuVXNlQWNtZSA9IGNvbXB1dGVkKAogICAgKCkgPT4gY2FwYWJpbGl0aWVzLnZhbHVlPy5hY21lX2F2YWlsYWJsZSAhPT0gZmFsc2UsCiAgKTsKICBjb25zdCBpc0FjbWVSZXNvdXJjZVJlcXVpcmVkID0gY29tcHV0ZWQoCiAgICAoKSA9PiBjYXBhYmlsaXRpZXMudmFsdWU/LmFjbWVfcmVzb3VyY2VfcmVxdWlyZWQgPT09IHRydWUsCiAgKTsKICBjb25zdCBjYW5Vc2VDbG91ZGZsYXJlZCA9IGNvbXB1dGVkKAogICAgKCkgPT4gY2FwYWJpbGl0aWVzLnZhbHVlPy5jbG91ZGZsYXJlZF9hdmFpbGFibGUgIT09IGZhbHNlLAogICk7CiAgY29uc3QgY2FuVXNlRnJwYyA9IGNvbXB1dGVkKAogICAgKCkgPT4gY2FwYWJpbGl0aWVzLnZhbHVlPy5mcnBjX2F2YWlsYWJsZSAhPT0gZmFsc2UsCiAgKTsKICBjb25zdCBjYW5Vc2VTc2hTZWN1cml0eSA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgY2FwYWJpbGl0aWVzLnZhbHVlPy5zc2hfc2VjdXJpdHlfYXZhaWxhYmxlID8/CiAgICAgIGNhcGFiaWxpdGllcy52YWx1ZT8uaG9zdF9maXJld2FsbF9hdmFpbGFibGUgPz8KICAgICAgZmFsc2UsCiAgKTsKICBjb25zdCBjYW5Vc2VTeXN0ZW1SZXNvdXJjZU1vbml0b3IgPSBjb21wdXRlZCgKICAgICgpID0+IGNhcGFiaWxpdGllcy52YWx1ZT8uc3lzdGVtX3Jlc291cmNlX21vbml0b3JfYXZhaWxhYmxlICE9PSBmYWxzZSwKICApOwogIGNvbnN0IGlzRGVza3RvcFVwZGF0ZU1hbmFnZWQgPSBjb21wdXRlZCgKICAgICgpID0+IGNhcGFiaWxpdGllcy52YWx1ZT8uZGVza3RvcF91cGRhdGVfbWFuYWdlZCA9PT0gdHJ1ZSwKICApOwoKICByZXR1cm4gewogICAgcnVudGltZVByb2ZpbGUsCiAgICBjYXBhYmlsaXRpZXMsCiAgICBpc0RvY2tlckRlcGxveW1lbnQsCiAgICBpc0Zwa0RlcGxveW1lbnQsCiAgICBpc0Zwa0xpdGVEZXBsb3ltZW50LAogICAgaXNPcGVuV3J0RGVwbG95bWVudCwKICAgIGlzTGludXhEZXBsb3ltZW50LAogICAgaXNTeW5vbG9neURlcGxveW1lbnQsCiAgICBpc1dpbmRvd3NEZXBsb3ltZW50LAogICAgaXNQcm90ZWN0ZWRBZG1pblBhbmVsRGVwbG95bWVudCwKICAgIGNhblVzZURpcmVjdE1vZGUsCiAgICBjYW5NYW5hZ2VIb3N0RmlyZXdhbGwsCiAgICBjYW5Vc2VTbWFydENvbm5lY3QsCiAgICBjYW5Vc2VGbm9zQ2VydGlmaWNhdGVTeW5jLAogICAgY2FuU2VsZlVwZGF0ZSwKICAgIGNhblN5bmNTeXN0ZW1DbG9jaywKICAgIGNhblVzZURlZXBNb25pdG9yLAogICAgY2FuVXNlQXV0b0h0dHBzLAogICAgY2FuVXNlRm5vc05ldHdvcmtUdW5pbmcsCiAgICBjYW5Vc2VGbm9zQ29ubmVjdFdhZiwKICAgIGhhc1NoYXJlZFJvb3QsCiAgICBjYW5Vc2VBY21lLAogICAgaXNBY21lUmVzb3VyY2VSZXF1aXJlZCwKICAgIGNhblVzZUNsb3VkZmxhcmVkLAogICAgY2FuVXNlRnJwYywKICAgIGNhblVzZVNzaFNlY3VyaXR5LAogICAgY2FuVXNlU3lzdGVtUmVzb3VyY2VNb25pdG9yLAogICAgaXNEZXNrdG9wVXBkYXRlTWFuYWdlZCwKICB9Owp9Owo=
+import { computed, type Ref } from "vue";
+import {
+  getEffectiveRuntimeCapabilities,
+  getEffectiveRuntimeProfile,
+} from "@runtime-debug";
+import type { AppConfig } from "../types";
+import { isProtectedAdminPanelDeploymentTarget } from "../lib/admin-panel-runtime";
+import { canUseFnosConnectWafForRuntime } from "../lib/fnos-connect-waf";
+
+export const useConfigRuntimeCapabilities = (config: Ref<AppConfig | null>) => {
+  const runtimeProfile = computed(() =>
+    getEffectiveRuntimeProfile(config.value?.runtime_profile),
+  );
+  const capabilities = computed(() =>
+    getEffectiveRuntimeCapabilities(config.value?.capabilities),
+  );
+  const isDockerDeployment = computed(
+    () => runtimeProfile.value?.is_docker === true,
+  );
+  const isFpkDeployment = computed(
+    () => runtimeProfile.value?.deployment_target === "fpk",
+  );
+  const isFpkLiteDeployment = computed(
+    () => runtimeProfile.value?.deployment_target === "fpk-lite",
+  );
+  const isOpenWrtDeployment = computed(
+    () => runtimeProfile.value?.deployment_target === "openwrt",
+  );
+  const isLinuxDeployment = computed(
+    () => runtimeProfile.value?.deployment_target === "linux",
+  );
+  const isSynologyDeployment = computed(
+    () => runtimeProfile.value?.deployment_target === "synology",
+  );
+  const isWindowsDeployment = computed(
+    () => runtimeProfile.value?.deployment_target === "windows",
+  );
+  const isProtectedAdminPanelDeployment = computed(() =>
+    isProtectedAdminPanelDeploymentTarget(
+      runtimeProfile.value?.deployment_target,
+    ),
+  );
+  const canUseDirectMode = computed(
+    () => capabilities.value?.direct_mode_available === true,
+  );
+  const canManageHostFirewall = computed(
+    () => capabilities.value?.host_firewall_available === true,
+  );
+  const canUseSmartConnect = computed(
+    () => capabilities.value?.smart_connect_available === true,
+  );
+  const canUseFnosCertificateSync = computed(
+    () => capabilities.value?.fnos_certificate_sync_available === true,
+  );
+  const canSelfUpdate = computed(
+    () => capabilities.value?.self_update_available === true,
+  );
+  const canSyncSystemClock = computed(
+    () => capabilities.value?.system_clock_sync_available === true,
+  );
+  const canUseDeepMonitor = computed(
+    () => capabilities.value?.deep_monitor_available === true,
+  );
+  const canUseAutoHttps = computed(
+    () => capabilities.value?.auto_https_available !== false,
+  );
+  const canUseFnosNetworkTuning = computed(
+    () => capabilities.value?.fnos_network_tuning_available !== false,
+  );
+  const canUseFnosConnectWaf = computed(() =>
+    canUseFnosConnectWafForRuntime(runtimeProfile.value, capabilities.value),
+  );
+  const hasSharedRoot = computed(
+    () => capabilities.value?.shared_root_available === true,
+  );
+  const canUseAcme = computed(
+    () => capabilities.value?.acme_available !== false,
+  );
+  const isAcmeResourceRequired = computed(
+    () => capabilities.value?.acme_resource_required === true,
+  );
+  const canUseCloudflared = computed(
+    () => capabilities.value?.cloudflared_available !== false,
+  );
+  const canUseFrpc = computed(
+    () => capabilities.value?.frpc_available !== false,
+  );
+  const canUseSshSecurity = computed(
+    () =>
+      capabilities.value?.ssh_security_available ??
+      capabilities.value?.host_firewall_available ??
+      false,
+  );
+  const canUseSystemResourceMonitor = computed(
+    () => capabilities.value?.system_resource_monitor_available !== false,
+  );
+  const isDesktopUpdateManaged = computed(
+    () => capabilities.value?.desktop_update_managed === true,
+  );
+
+  return {
+    runtimeProfile,
+    capabilities,
+    isDockerDeployment,
+    isFpkDeployment,
+    isFpkLiteDeployment,
+    isOpenWrtDeployment,
+    isLinuxDeployment,
+    isSynologyDeployment,
+    isWindowsDeployment,
+    isProtectedAdminPanelDeployment,
+    canUseDirectMode,
+    canManageHostFirewall,
+    canUseSmartConnect,
+    canUseFnosCertificateSync,
+    canSelfUpdate,
+    canSyncSystemClock,
+    canUseDeepMonitor,
+    canUseAutoHttps,
+    canUseFnosNetworkTuning,
+    canUseFnosConnectWaf,
+    hasSharedRoot,
+    canUseAcme,
+    isAcmeResourceRequired,
+    canUseCloudflared,
+    canUseFrpc,
+    canUseSshSecurity,
+    canUseSystemResourceMonitor,
+    isDesktopUpdateManaged,
+  };
+};

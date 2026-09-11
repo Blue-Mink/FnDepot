@@ -1,1 +1,198 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IG9uTW91bnRlZCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCBIdW1hbkZyaWVuZGx5VGltZSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0h1bWFuRnJpZW5kbHlUaW1lLnZ1ZSI7CmltcG9ydCBQYWdlZFRhYmxlRm9vdGVyIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9saXN0L1BhZ2VkVGFibGVGb290ZXIudnVlIjsKaW1wb3J0IFNlYXJjaElucHV0IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9TZWFyY2hJbnB1dC52dWUiOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgewogIFNlbGVjdCwKICBTZWxlY3RDb250ZW50LAogIFNlbGVjdEl0ZW0sCiAgU2VsZWN0VHJpZ2dlciwKICBTZWxlY3RWYWx1ZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKaW1wb3J0IHsKICBUYWJsZSwKICBUYWJsZUJvZHksCiAgVGFibGVDZWxsLAogIFRhYmxlSGVhZCwKICBUYWJsZUhlYWRlciwKICBUYWJsZVJvdywKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFibGUiOwppbXBvcnQgUmVmcmVzaEJ1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvUmVmcmVzaEJ1dHRvbi52dWUiOwppbXBvcnQgeyBMb2FkZXIyIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgU1NIU2VjdXJpdHlBUEkgfSBmcm9tICJAL2xpYi9hcGkvc2VjdXJpdHkiOwppbXBvcnQgeyB1c2VTU0hMb2dpbkxvZ3MgfSBmcm9tICIuL3VzZVNTSExvZ2luTG9ncyI7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IHsKICBoYW5kbGVMb2dMaW1pdENoYW5nZSwKICBoYW5kbGVMb2dQYWdlQ2hhbmdlLAogIGhhbmRsZUxvZ1NlYXJjaCwKICBpc0xvYWRpbmdMb2dzLAogIGxvYWRMb2dzLAogIGxvZ0l0ZW1zLAogIGxvZ0xpbWl0LAogIGxvZ091dGNvbWUsCiAgbG9nUGFnZSwKICBsb2dQYXJzZWRMaW1pdCwKICBsb2dTZWFyY2gsCiAgbG9nVG90YWwsCn0gPSB1c2VTU0hMb2dpbkxvZ3MoewogIGZldGNoTG9nczogKHBhcmFtcykgPT4gU1NIU2VjdXJpdHlBUEkuZ2V0TG9naW5Mb2dzKHBhcmFtcyksCiAgdHJhbnNsYXRlOiAoa2V5KSA9PiB0KGtleSksCn0pOwoKb25Nb3VudGVkKCgpID0+IHsKICB2b2lkIGxvYWRMb2dzKCk7Cn0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJzcGFjZS15LTMiPgogICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgPFNlYXJjaElucHV0CiAgICAgICAgdi1tb2RlbD0ibG9nU2VhcmNoIgogICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uc3NoU2VjdXJpdHkuc2VhcmNoTG9nc1BsYWNlaG9sZGVyJykiCiAgICAgICAgY2xhc3M9InctZnVsbCBtYXgtdy14cyIKICAgICAgICBAc2VhcmNoPSJoYW5kbGVMb2dTZWFyY2giCiAgICAgIC8+CiAgICAgIDxTZWxlY3Qgdi1tb2RlbD0ibG9nT3V0Y29tZSI+CiAgICAgICAgPFNlbGVjdFRyaWdnZXIKICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi5zc2hTZWN1cml0eS5hbGxSZXN1bHRzJykiCiAgICAgICAgICBjbGFzcz0idy1bMTQwcHhdIgogICAgICAgID4KICAgICAgICAgIDxTZWxlY3RWYWx1ZSAvPgogICAgICAgIDwvU2VsZWN0VHJpZ2dlcj4KICAgICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJhbGwiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zc2hTZWN1cml0eS5hbGxSZXN1bHRzIikgfX0KICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJzdWNjZXNzIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc3NoU2VjdXJpdHkuc3VjY2VzcyIpIH19CiAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0iZmFpbHVyZSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnNzaFNlY3VyaXR5LmZhaWx1cmUiKSB9fQogICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgPC9TZWxlY3Q+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXgtMSI+PC9kaXY+CiAgICAgIDxSZWZyZXNoQnV0dG9uCiAgICAgICAgOmxvYWRpbmc9ImlzTG9hZGluZ0xvZ3MiCiAgICAgICAgOmRpc2FibGVkPSJpc0xvYWRpbmdMb2dzIgogICAgICAgIEBjbGljaz0ibG9hZExvZ3MiCiAgICAgIC8+CiAgICA8L2Rpdj4KCiAgICA8Q2FyZCBjbGFzcz0iYm9yZGVyLWJvcmRlci82MCBzaGFkb3ctbm9uZSI+CiAgICAgIDxDYXJkQ29udGVudCBjbGFzcz0icC0wIj4KICAgICAgICA8ZGl2IGNsYXNzPSJvdmVyZmxvdy1hdXRvIj4KICAgICAgICAgIDxUYWJsZSBjbGFzcz0ibWluLXctWzc2MHB4XSI+CiAgICAgICAgICAgIDxUYWJsZUhlYWRlcj4KICAgICAgICAgICAgICA8VGFibGVSb3c+CiAgICAgICAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJoLTExIHctWzE2OHB4XSBweC00Ij4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3NoU2VjdXJpdHkudGltZSIpIH19CiAgICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9ImgtMTEgdy1bOTJweF0gcHgtNCI+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnNzaFNlY3VyaXR5LnJlc3VsdCIpIH19CiAgICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9ImgtMTEgbWluLXctWzE2MHB4XSBweC00Ij4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3NoU2VjdXJpdHkudXNlciIpIH19CiAgICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9ImgtMTEgbWluLXctWzIyMHB4XSBweC00Ij4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3NoU2VjdXJpdHkuaXBMb2NhdGlvbiIpIH19CiAgICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9ImgtMTEgbWluLXctWzE4MHB4XSBweC00Ij4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3NoU2VjdXJpdHkubWV0aG9kIikgfX0KICAgICAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICAgIDwvVGFibGVIZWFkZXI+CiAgICAgICAgICAgIDxUYWJsZUJvZHk+CiAgICAgICAgICAgICAgPFRhYmxlUm93IHYtaWY9ImlzTG9hZGluZ0xvZ3MiPgogICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjb2xzcGFuPSI1IiBjbGFzcz0icHgtNCBweS0xMCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgICAgIDxMb2FkZXIyCiAgICAgICAgICAgICAgICAgICAgY2xhc3M9Im14LWF1dG8gaC02IHctNiBhbmltYXRlLXNwaW4gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgICA8VGFibGVSb3cgdi1lbHNlLWlmPSJsb2dJdGVtcy5sZW5ndGggPT09IDAiPgogICAgICAgICAgICAgICAgPFRhYmxlQ2VsbAogICAgICAgICAgICAgICAgICBjb2xzcGFuPSI1IgogICAgICAgICAgICAgICAgICBjbGFzcz0icHgtNCBweS0xMCB0ZXh0LWNlbnRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnNzaFNlY3VyaXR5Lm5vTG9naW5Mb2dzIikgfX0KICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICAgICAgPFRhYmxlUm93IHYtZm9yPSJlbnRyeSBpbiBsb2dJdGVtcyIgdi1lbHNlIDprZXk9ImVudHJ5LmlkIj4KICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InB4LTQgcHktMyBhbGlnbi10b3Agd2hpdGVzcGFjZS1ub3dyYXAiPgogICAgICAgICAgICAgICAgICA8SHVtYW5GcmllbmRseVRpbWUgOnZhbHVlPSJlbnRyeS5oYXBwZW5lZF9hdCIgLz4KICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0icHgtNCBweS0zIGFsaWduLXRvcCI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgICAgICAgICA8QmFkZ2UKICAgICAgICAgICAgICAgICAgICAgIDp2YXJpYW50PSIKICAgICAgICAgICAgICAgICAgICAgICAgZW50cnkub3V0Y29tZSA9PT0gJ3N1Y2Nlc3MnID8gJ2RlZmF1bHQnIDogJ3NlY29uZGFyeScKICAgICAgICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICAgICAgICBlbnRyeS5vdXRjb21lID09PSAic3VjY2VzcyIKICAgICAgICAgICAgICAgICAgICAgICAgICA/IHQoImFkbWluLnNzaFNlY3VyaXR5LnN1Y2Nlc3MiKQogICAgICAgICAgICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uc3NoU2VjdXJpdHkuZmFpbHVyZSIpCiAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICA8VGFibGVDZWxsCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJtaW4tdy1bMTYwcHhdIHB4LTQgcHktMyBhbGlnbi10b3Agd2hpdGVzcGFjZS1ub3JtYWwiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZvbnQtbWVkaXVtIj57eyBlbnRyeS51c2VybmFtZSB9fTwvZGl2PgogICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgdi1pZj0iZW50cnkuaW52YWxpZF91c2VyIgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnNzaFNlY3VyaXR5LmludmFsaWRVc2VyIikgfX0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwKICAgICAgICAgICAgICAgICAgY2xhc3M9Im1pbi13LVsyMjBweF0gcHgtNCBweS0zIGFsaWduLXRvcCB3aGl0ZXNwYWNlLW5vcm1hbCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZm9udC1tb25vIHRleHQtc20iPnt7IGVudHJ5LmlwIH19PC9kaXY+CiAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICB2LWlmPSJlbnRyeS5pcExvY2F0aW9uIgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJtdC0wLjUgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7eyBlbnRyeS5pcExvY2F0aW9uIH19CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICA8VGFibGVDZWxsCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJtaW4tdy1bMTgwcHhdIHB4LTQgcHktMyBhbGlnbi10b3Agd2hpdGVzcGFjZS1ub3JtYWwiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJicmVhay13b3JkcyI+CiAgICAgICAgICAgICAgICAgICAge3sgZW50cnkuYXV0aF9tZXRob2QgfHwgIi0iIH19CiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICB2LWlmPSJlbnRyeS5wb3J0IgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgd2hpdGVzcGFjZS1ub3dyYXAiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAvIHt7IGVudHJ5LnBvcnQgfX0KICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgPC9UYWJsZUJvZHk+CiAgICAgICAgICA8L1RhYmxlPgogICAgICAgIDwvZGl2PgogICAgICAgIDxQYWdlZFRhYmxlRm9vdGVyCiAgICAgICAgICA6dG90YWw9ImxvZ1RvdGFsIgogICAgICAgICAgOnBhZ2U9ImxvZ1BhZ2UiCiAgICAgICAgICA6bGltaXQ9ImxvZ0xpbWl0IgogICAgICAgICAgOml0ZW1zLXBlci1wYWdlPSJsb2dQYXJzZWRMaW1pdCIKICAgICAgICAgIEB1cGRhdGU6cGFnZT0iaGFuZGxlTG9nUGFnZUNoYW5nZSIKICAgICAgICAgIEB1cGRhdGU6bGltaXQ9ImhhbmRsZUxvZ0xpbWl0Q2hhbmdlIgogICAgICAgIC8+CiAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICA8L0NhcmQ+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { onMounted } from "vue";
+import { useI18n } from "vue-i18n";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import PagedTableFooter from "@admin-shared/components/list/PagedTableFooter.vue";
+import SearchInput from "@admin-shared/components/SearchInput.vue";
+import { Badge } from "@/components/ui/badge";
+import { Card, CardContent } from "@/components/ui/card";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import RefreshButton from "@/components/RefreshButton.vue";
+import { Loader2 } from "lucide-vue-next";
+import { SSHSecurityAPI } from "@/lib/api/security";
+import { useSSHLoginLogs } from "./useSSHLoginLogs";
+
+const { t } = useI18n();
+
+const {
+  handleLogLimitChange,
+  handleLogPageChange,
+  handleLogSearch,
+  isLoadingLogs,
+  loadLogs,
+  logItems,
+  logLimit,
+  logOutcome,
+  logPage,
+  logParsedLimit,
+  logSearch,
+  logTotal,
+} = useSSHLoginLogs({
+  fetchLogs: (params) => SSHSecurityAPI.getLoginLogs(params),
+  translate: (key) => t(key),
+});
+
+onMounted(() => {
+  void loadLogs();
+});
+</script>
+
+<template>
+  <div class="space-y-3">
+    <div class="flex flex-wrap items-center gap-2">
+      <SearchInput
+        v-model="logSearch"
+        :placeholder="t('admin.sshSecurity.searchLogsPlaceholder')"
+        class="w-full max-w-xs"
+        @search="handleLogSearch"
+      />
+      <Select v-model="logOutcome">
+        <SelectTrigger
+          :aria-label="t('admin.sshSecurity.allResults')"
+          class="w-[140px]"
+        >
+          <SelectValue />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem value="all">
+            {{ t("admin.sshSecurity.allResults") }}
+          </SelectItem>
+          <SelectItem value="success">
+            {{ t("admin.sshSecurity.success") }}
+          </SelectItem>
+          <SelectItem value="failure">
+            {{ t("admin.sshSecurity.failure") }}
+          </SelectItem>
+        </SelectContent>
+      </Select>
+      <div class="flex-1"></div>
+      <RefreshButton
+        :loading="isLoadingLogs"
+        :disabled="isLoadingLogs"
+        @click="loadLogs"
+      />
+    </div>
+
+    <Card class="border-border/60 shadow-none">
+      <CardContent class="p-0">
+        <div class="overflow-auto">
+          <Table class="min-w-[760px]">
+            <TableHeader>
+              <TableRow>
+                <TableHead class="h-11 w-[168px] px-4">
+                  {{ t("admin.sshSecurity.time") }}
+                </TableHead>
+                <TableHead class="h-11 w-[92px] px-4">
+                  {{ t("admin.sshSecurity.result") }}
+                </TableHead>
+                <TableHead class="h-11 min-w-[160px] px-4">
+                  {{ t("admin.sshSecurity.user") }}
+                </TableHead>
+                <TableHead class="h-11 min-w-[220px] px-4">
+                  {{ t("admin.sshSecurity.ipLocation") }}
+                </TableHead>
+                <TableHead class="h-11 min-w-[180px] px-4">
+                  {{ t("admin.sshSecurity.method") }}
+                </TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              <TableRow v-if="isLoadingLogs">
+                <TableCell colspan="5" class="px-4 py-10 text-center">
+                  <Loader2
+                    class="mx-auto h-6 w-6 animate-spin text-muted-foreground"
+                  />
+                </TableCell>
+              </TableRow>
+              <TableRow v-else-if="logItems.length === 0">
+                <TableCell
+                  colspan="5"
+                  class="px-4 py-10 text-center text-muted-foreground"
+                >
+                  {{ t("admin.sshSecurity.noLoginLogs") }}
+                </TableCell>
+              </TableRow>
+              <TableRow v-for="entry in logItems" v-else :key="entry.id">
+                <TableCell class="px-4 py-3 align-top whitespace-nowrap">
+                  <HumanFriendlyTime :value="entry.happened_at" />
+                </TableCell>
+                <TableCell class="px-4 py-3 align-top">
+                  <div class="flex flex-wrap items-center gap-1.5">
+                    <Badge
+                      :variant="
+                        entry.outcome === 'success' ? 'default' : 'secondary'
+                      "
+                    >
+                      {{
+                        entry.outcome === "success"
+                          ? t("admin.sshSecurity.success")
+                          : t("admin.sshSecurity.failure")
+                      }}
+                    </Badge>
+                  </div>
+                </TableCell>
+                <TableCell
+                  class="min-w-[160px] px-4 py-3 align-top whitespace-normal"
+                >
+                  <div class="font-medium">{{ entry.username }}</div>
+                  <div
+                    v-if="entry.invalid_user"
+                    class="text-xs text-muted-foreground"
+                  >
+                    {{ t("admin.sshSecurity.invalidUser") }}
+                  </div>
+                </TableCell>
+                <TableCell
+                  class="min-w-[220px] px-4 py-3 align-top whitespace-normal"
+                >
+                  <div class="font-mono text-sm">{{ entry.ip }}</div>
+                  <div
+                    v-if="entry.ipLocation"
+                    class="mt-0.5 text-xs text-muted-foreground"
+                  >
+                    {{ entry.ipLocation }}
+                  </div>
+                </TableCell>
+                <TableCell
+                  class="min-w-[180px] px-4 py-3 align-top whitespace-normal"
+                >
+                  <span class="break-words">
+                    {{ entry.auth_method || "-" }}
+                  </span>
+                  <span
+                    v-if="entry.port"
+                    class="text-muted-foreground whitespace-nowrap"
+                  >
+                    / {{ entry.port }}
+                  </span>
+                </TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </div>
+        <PagedTableFooter
+          :total="logTotal"
+          :page="logPage"
+          :limit="logLimit"
+          :items-per-page="logParsedLimit"
+          @update:page="handleLogPageChange"
+          @update:limit="handleLogLimitChange"
+        />
+      </CardContent>
+    </Card>
+  </div>
+</template>

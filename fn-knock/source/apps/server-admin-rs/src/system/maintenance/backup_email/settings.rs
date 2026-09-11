@@ -1,1 +1,182 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpzeXN0ZW06Om1haW50ZW5hbmNlKSBmbiB2YWxpZGF0ZSgKICAgIGNvbmZpZzogJkJhY2t1cEVtYWlsQ29uZmlnLAopIC0+IFJlc3VsdDwoKSwgQmFja3VwSW1wb3J0RXJyb3I+IHsKICAgIGlmICEoMS4uPTEwMCkuY29udGFpbnMoJmNvbmZpZy5hdHRhY2htZW50X2xpbWl0X21pYikKICAgICAgICB8fCAhKDEuLj0xMjApLmNvbnRhaW5zKCZjb25maWcuc210cC50aW1lb3V0X3NlY29uZHMpCiAgICAgICAgfHwgY29uZmlnLnNtdHAucG9ydCA9PSAwCiAgICAgICAgfHwgIVsic3NsX3RscyIsICJzdGFydHRscyIsICJub25lIl0uY29udGFpbnMoJmNvbmZpZy5zbXRwLnNlY3VyaXR5LmFzX3N0cigpKQogICAgICAgIHx8ICFbImF1dG8iLCAicGxhaW4iLCAibG9naW4iLCAibm9uZSJdLmNvbnRhaW5zKCZjb25maWcuc210cC5hdXRoX21vZGUuYXNfc3RyKCkpCiAgICB7CiAgICAgICAgcmV0dXJuIEVycihCYWNrdXBJbXBvcnRFcnJvcjo6YmFkX3JlcXVlc3QoCiAgICAgICAgICAgICJJbnZhbGlkIGJhY2t1cCBlbWFpbCBjb25maWd1cmF0aW9uIiwKICAgICAgICApKTsKICAgIH0KICAgIGlmIGNvbmZpZy5lbmFibGVkIHsKICAgICAgICBpZiBjb25maWcuc210cC5ob3N0LnRyaW0oKS5pc19lbXB0eSgpCiAgICAgICAgICAgIHx8IGNvbmZpZy5zbXRwLmhvc3QuY29udGFpbnMoWydccicsICdcbiddKQogICAgICAgICAgICB8fCBjb25maWcudG9fYWRkcmVzc2VzLmlzX2VtcHR5KCkKICAgICAgICAgICAgfHwgY29uZmlnLnRvX2FkZHJlc3Nlcy5sZW4oKSA+IDEwMAogICAgICAgIHsKICAgICAgICAgICAgcmV0dXJuIEVycihCYWNrdXBJbXBvcnRFcnJvcjo6YmFkX3JlcXVlc3QoCiAgICAgICAgICAgICAgICAiU01UUCBob3N0IGFuZCByZWNpcGllbnRzIGFyZSByZXF1aXJlZCIsCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgICAgICBhZGRyZXNzZXMoY29uZmlnKS5tYXBfZXJyKHxffCBCYWNrdXBJbXBvcnRFcnJvcjo6YmFkX3JlcXVlc3QoIkludmFsaWQgZW1haWwgYWRkcmVzcyIpKT87CiAgICAgICAgaWYgY29uZmlnLnNtdHAuYXV0aF9tb2RlICE9ICJub25lIiAmJiBjb25maWcuc210cC51c2VybmFtZS50cmltKCkuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoQmFja3VwSW1wb3J0RXJyb3I6OmJhZF9yZXF1ZXN0KCJTTVRQIHVzZXJuYW1lIGlzIHJlcXVpcmVkIikpOwogICAgICAgIH0KICAgIH0KICAgIE9rKCgpKQp9CmZuIGFkZHJlc3Nlcyhjb25maWc6ICZCYWNrdXBFbWFpbENvbmZpZykgLT4gUmVzdWx0PChNYWlsYm94LCBWZWM8TWFpbGJveD4pLCBNYWlsRXJyb3I+IHsKICAgIGxldCBmcm9tID0gY29uZmlnCiAgICAgICAgLmZyb21fYWRkcmVzcwogICAgICAgIC5wYXJzZSgpCiAgICAgICAgLm1hcF9lcnIofF98IE1haWxFcnJvcjo6cGVybWFuZW50KCJpbnZhbGlkX3NlbmRlciIpKT87CiAgICBsZXQgdG8gPSBjb25maWcKICAgICAgICAudG9fYWRkcmVzc2VzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5tYXAofGFkZHJlc3N8IHsKICAgICAgICAgICAgYWRkcmVzcwogICAgICAgICAgICAgICAgLnBhcnNlOjo8TWFpbGJveD4oKQogICAgICAgICAgICAgICAgLm1hcF9lcnIofF98IE1haWxFcnJvcjo6cGVybWFuZW50KCJpbnZhbGlkX3JlY2lwaWVudCIpKQogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3Q6OjxSZXN1bHQ8VmVjPF8+LCBfPj4oKT87CiAgICBPaygoTWFpbGJveDo6bmV3KFNvbWUoY29uZmlnLmZyb21fbmFtZS5jbG9uZSgpKSwgZnJvbSksIHRvKSkKfQpwdWIoaW4gY3JhdGU6OnN5c3RlbTo6bWFpbnRlbmFuY2UpIGZuIHByZXBhcmVfdXBkYXRlKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGVtYWlsOiAmbXV0IEVtYWlsU3RhdGUsCiAgICB1cGRhdGU6IEJhY2t1cEVtYWlsVXBkYXRlLAogICAgYmFja3VwX2VuYWJsZWQ6IGJvb2wsCikgLT4gUmVzdWx0PE9wdGlvbjxTdHJpbmc+LCBCYWNrdXBJbXBvcnRFcnJvcj4gewogICAgdmFsaWRhdGUoJnVwZGF0ZS5jb25maWcpPzsKICAgIGlmIHVwZGF0ZS5jbGVhcl9wYXNzd29yZAogICAgICAgICYmIHVwZGF0ZQogICAgICAgICAgICAucGFzc3dvcmQKICAgICAgICAgICAgLmFzX3JlZigpCiAgICAgICAgICAgIC5pc19zb21lX2FuZCh8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgewogICAgICAgIHJldHVybiBFcnIoQmFja3VwSW1wb3J0RXJyb3I6OmJhZF9yZXF1ZXN0KAogICAgICAgICAgICAiQ29uZmxpY3RpbmcgcGFzc3dvcmQgdXBkYXRlIiwKICAgICAgICApKTsKICAgIH0KICAgIGxldCBjaGFuZ2VkID0gZW1haWwuY29uZmlnICE9IHVwZGF0ZS5jb25maWcKICAgICAgICB8fCB1cGRhdGUKICAgICAgICAgICAgLnBhc3N3b3JkCiAgICAgICAgICAgIC5hc19yZWYoKQogICAgICAgICAgICAuaXNfc29tZV9hbmQofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICB8fCAodXBkYXRlLmNsZWFyX3Bhc3N3b3JkICYmIGVtYWlsLnNlY3JldF9pZC5pc19zb21lKCkpOwogICAgbGV0IG11dCBzdGFnZWQgPSBOb25lOwogICAgaWYgbGV0IFNvbWUocGFzc3dvcmQpID0gdXBkYXRlLnBhc3N3b3JkLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKSB7CiAgICAgICAgbGV0IGlkID0gVXVpZDo6bmV3X3Y0KCkudG9fc3RyaW5nKCk7CiAgICAgICAgc2VjcmV0cyhzdGF0ZSkKICAgICAgICAgICAgLndyaXRlKCZpZCwgJnBhc3N3b3JkKQogICAgICAgICAgICAubWFwX2VycihCYWNrdXBJbXBvcnRFcnJvcjo6aW50ZXJuYWwpPzsKICAgICAgICBlbWFpbC5zZWNyZXRfaWQgPSBTb21lKGlkLmNsb25lKCkpOwogICAgICAgIHN0YWdlZCA9IFNvbWUoaWQpOwogICAgfSBlbHNlIGlmIHVwZGF0ZS5jbGVhcl9wYXNzd29yZCB7CiAgICAgICAgZW1haWwuc2VjcmV0X2lkID0gTm9uZTsKICAgIH0KICAgIGlmIGNoYW5nZWQgewogICAgICAgIGVtYWlsLnJldmlzaW9uID0gVXVpZDo6bmV3X3Y0KCkudG9fc3RyaW5nKCk7CiAgICB9CiAgICBlbWFpbC5jb25maWcgPSB1cGRhdGUuY29uZmlnOwogICAgY2FuY2VsX3BlbmRpbmcoZW1haWwsIGJhY2t1cF9lbmFibGVkLCBjaGFuZ2VkKTsKICAgIE9rKHN0YWdlZCkKfQpwdWIoaW4gY3JhdGU6OnN5c3RlbTo6bWFpbnRlbmFuY2UpIGZuIGNhbmNlbF9wZW5kaW5nKAogICAgZW1haWw6ICZtdXQgRW1haWxTdGF0ZSwKICAgIGJhY2t1cF9lbmFibGVkOiBib29sLAogICAgY2hhbmdlZDogYm9vbCwKKSB7CiAgICBmb3Igam9iIGluICZtdXQgZW1haWwuam9icyB7CiAgICAgICAgaWYgam9iLnN0YXR1cyA9PSBKb2JTdGF0dXM6OlBlbmRpbmcgJiYgKGNoYW5nZWQgfHwgIWJhY2t1cF9lbmFibGVkIHx8ICFlbWFpbC5jb25maWcuZW5hYmxlZCkKICAgICAgICB7CiAgICAgICAgICAgIGpvYi5zdGF0dXMgPSBKb2JTdGF0dXM6OkNhbmNlbGxlZDsKICAgICAgICB9CiAgICB9Cn0KcHViKGluIGNyYXRlOjpzeXN0ZW06Om1haW50ZW5hbmNlKSBmbiBkaXNjYXJkX3NlY3JldChzdGF0ZTogJkFwcFN0YXRlLCBpZDogT3B0aW9uPCZzdHI+KSB7CiAgICBpZiBsZXQgU29tZShpZCkgPSBpZCB7CiAgICAgICAgbGV0IF8gPSBzZWNyZXRzKHN0YXRlKS5kZWxldGUoaWQpOwogICAgfQp9CnB1YihzdXBlcikgZm4gcGFzc3dvcmQoc3RhdGU6ICZBcHBTdGF0ZSwgZW1haWw6ICZFbWFpbFN0YXRlKSAtPiBSZXN1bHQ8U3RyaW5nLCBNYWlsRXJyb3I+IHsKICAgIG1hdGNoIGVtYWlsLnNlY3JldF9pZC5hc19kZXJlZigpIHsKICAgICAgICBOb25lID0+IE9rKFN0cmluZzo6bmV3KCkpLAogICAgICAgIFNvbWUoaWQpID0+IHNlY3JldHMoc3RhdGUpCiAgICAgICAgICAgIC5yZWFkKGlkKQogICAgICAgICAgICAubWFwX2Vycih8X3wgTWFpbEVycm9yOjpwZXJtYW5lbnQoImNyZWRlbnRpYWxfdW5hdmFpbGFibGUiKSk/CiAgICAgICAgICAgIC5va19vcl9lbHNlKHx8IE1haWxFcnJvcjo6cGVybWFuZW50KCJjcmVkZW50aWFsX3VuYXZhaWxhYmxlIikpLAogICAgfQp9CnB1YihzdXBlcikgZm4gbWVzc2FnZSgKICAgIGNvbmZpZzogJkJhY2t1cEVtYWlsQ29uZmlnLAogICAgc3ViamVjdDogU3RyaW5nLAogICAgYm9keTogU3RyaW5nLAogICAgaWQ6ICZzdHIsCiAgICBhdHRhY2htZW50OiBPcHRpb248TWFpbEF0dGFjaG1lbnQ+LAopIC0+IFJlc3VsdDxsZXR0cmU6Ok1lc3NhZ2UsIE1haWxFcnJvcj4gewogICAgbGV0IChmcm9tLCB0bykgPSBhZGRyZXNzZXMoY29uZmlnKT87CiAgICBNYWlsTWVzc2FnZSB7CiAgICAgICAgZnJvbSwKICAgICAgICB0bywKICAgICAgICBzdWJqZWN0LAogICAgICAgIGJvZHksCiAgICAgICAgbWVzc2FnZV9pZDogZm9ybWF0ISgie2lkfUBiYWNrdXAuZm4ta25vY2subG9jYWwiKSwKICAgICAgICBhdHRhY2htZW50LAogICAgfQogICAgLmJ1aWxkKCkKfQpwdWIoaW4gY3JhdGU6OnN5c3RlbTo6bWFpbnRlbmFuY2UpIGFzeW5jIGZuIHRlc3RfZW1haWwoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgbXV0IHVwZGF0ZTogQmFja3VwRW1haWxVcGRhdGUsCikgLT4gUmVzdWx0PFZhbHVlLCBCYWNrdXBJbXBvcnRFcnJvcj4gewogICAgaWYgdXBkYXRlLmNsZWFyX3Bhc3N3b3JkCiAgICAgICAgJiYgdXBkYXRlCiAgICAgICAgICAgIC5wYXNzd29yZAogICAgICAgICAgICAuYXNfcmVmKCkKICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICB7CiAgICAgICAgcmV0dXJuIEVycihCYWNrdXBJbXBvcnRFcnJvcjo6YmFkX3JlcXVlc3QoCiAgICAgICAgICAgICJDb25mbGljdGluZyBwYXNzd29yZCB1cGRhdGUiLAogICAgICAgICkpOwogICAgfQogICAgdXBkYXRlLmNvbmZpZy5lbmFibGVkID0gdHJ1ZTsKICAgIHZhbGlkYXRlKCZ1cGRhdGUuY29uZmlnKT87CiAgICBsZXQgZ3VhcmQgPSBzdGF0ZS5tYWludGVuYW5jZS5hdXRvbWF0aWNfYmFja3VwX2xvY2subG9jaygpLmF3YWl0OwogICAgbGV0IGVtYWlsID0gbG9hZChzdGF0ZSkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8X3wgQmFja3VwSW1wb3J0RXJyb3I6OmludGVybmFsKCJDYW5ub3QgbG9hZCBlbWFpbCBjb25maWd1cmF0aW9uIikpPzsKICAgIGxldCBwYXNzd29yZCA9IGlmIHVwZGF0ZS5jbGVhcl9wYXNzd29yZCB7CiAgICAgICAgU3RyaW5nOjpuZXcoKQogICAgfSBlbHNlIGlmIGxldCBTb21lKHZhbHVlKSA9IHVwZGF0ZS5wYXNzd29yZC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkgewogICAgICAgIHZhbHVlCiAgICB9IGVsc2UgewogICAgICAgIHBhc3N3b3JkKHN0YXRlLCAmZW1haWwpLm1hcF9lcnIofGVycm9yfCBCYWNrdXBJbXBvcnRFcnJvcjo6aW50ZXJuYWwoZXJyb3IuY29kZSkpPwogICAgfTsKICAgIGRyb3AoZ3VhcmQpOwogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKHN0YXRlKS5hd2FpdDsKICAgIGxldCBtZXNzYWdlID0gbWVzc2FnZSgKICAgICAgICAmdXBkYXRlLmNvbmZpZywKICAgICAgICBtYWludGVuYW5jZV9iYWNrdXBfdGV4dCgmdHJhbnNsYXRvciwgImVtYWlsVGVzdFN1YmplY3QiKSwKICAgICAgICBtYWludGVuYW5jZV9iYWNrdXBfdGV4dCgmdHJhbnNsYXRvciwgImVtYWlsVGVzdEJvZHkiKSwKICAgICAgICAmVXVpZDo6bmV3X3Y0KCkudG9fc3RyaW5nKCksCiAgICAgICAgU29tZShNYWlsQXR0YWNobWVudCB7CiAgICAgICAgICAgIGZpbGVuYW1lOiAiYmFja3VwLWVtYWlsLXRlc3QudHh0Ii5pbnRvKCksCiAgICAgICAgICAgIGJ5dGVzOiBiImZuLWtub2NrIGJhY2t1cCBlbWFpbCB0ZXN0XG4iLnRvX3ZlYygpLAogICAgICAgIH0pLAogICAgKQogICAgLm1hcF9lcnIofGVycm9yfCBCYWNrdXBJbXBvcnRFcnJvcjo6YmFkX3JlcXVlc3QoZXJyb3IuY29kZSkpPzsKICAgIG1haWw6OnNlbmQoJnVwZGF0ZS5jb25maWcuc210cCwgJnBhc3N3b3JkLCBtZXNzYWdlKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgQmFja3VwSW1wb3J0RXJyb3I6OmJhZF9yZXF1ZXN0KGVycm9yLmNvZGUpKT87CiAgICBPayhqc29uISh7InN1Y2Nlc3MiOnRydWV9KSkKfQoKcHViKGluIGNyYXRlOjpzeXN0ZW06Om1haW50ZW5hbmNlKSBmbiBjbGVhcl9jcmVkZW50aWFscyhzdGF0ZTogJkFwcFN0YXRlKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgc2VjcmV0cyhzdGF0ZSkuY2xlYXJfYWxsKCkKfQo=
+use super::*;
+
+pub(in crate::system::maintenance) fn validate(
+    config: &BackupEmailConfig,
+) -> Result<(), BackupImportError> {
+    if !(1..=100).contains(&config.attachment_limit_mib)
+        || !(1..=120).contains(&config.smtp.timeout_seconds)
+        || config.smtp.port == 0
+        || !["ssl_tls", "starttls", "none"].contains(&config.smtp.security.as_str())
+        || !["auto", "plain", "login", "none"].contains(&config.smtp.auth_mode.as_str())
+    {
+        return Err(BackupImportError::bad_request(
+            "Invalid backup email configuration",
+        ));
+    }
+    if config.enabled {
+        if config.smtp.host.trim().is_empty()
+            || config.smtp.host.contains(['\r', '\n'])
+            || config.to_addresses.is_empty()
+            || config.to_addresses.len() > 100
+        {
+            return Err(BackupImportError::bad_request(
+                "SMTP host and recipients are required",
+            ));
+        }
+        addresses(config).map_err(|_| BackupImportError::bad_request("Invalid email address"))?;
+        if config.smtp.auth_mode != "none" && config.smtp.username.trim().is_empty() {
+            return Err(BackupImportError::bad_request("SMTP username is required"));
+        }
+    }
+    Ok(())
+}
+fn addresses(config: &BackupEmailConfig) -> Result<(Mailbox, Vec<Mailbox>), MailError> {
+    let from = config
+        .from_address
+        .parse()
+        .map_err(|_| MailError::permanent("invalid_sender"))?;
+    let to = config
+        .to_addresses
+        .iter()
+        .map(|address| {
+            address
+                .parse::<Mailbox>()
+                .map_err(|_| MailError::permanent("invalid_recipient"))
+        })
+        .collect::<Result<Vec<_>, _>>()?;
+    Ok((Mailbox::new(Some(config.from_name.clone()), from), to))
+}
+pub(in crate::system::maintenance) fn prepare_update(
+    state: &AppState,
+    email: &mut EmailState,
+    update: BackupEmailUpdate,
+    backup_enabled: bool,
+) -> Result<Option<String>, BackupImportError> {
+    validate(&update.config)?;
+    if update.clear_password
+        && update
+            .password
+            .as_ref()
+            .is_some_and(|value| !value.is_empty())
+    {
+        return Err(BackupImportError::bad_request(
+            "Conflicting password update",
+        ));
+    }
+    let changed = email.config != update.config
+        || update
+            .password
+            .as_ref()
+            .is_some_and(|value| !value.is_empty())
+        || (update.clear_password && email.secret_id.is_some());
+    let mut staged = None;
+    if let Some(password) = update.password.filter(|value| !value.is_empty()) {
+        let id = Uuid::new_v4().to_string();
+        secrets(state)
+            .write(&id, &password)
+            .map_err(BackupImportError::internal)?;
+        email.secret_id = Some(id.clone());
+        staged = Some(id);
+    } else if update.clear_password {
+        email.secret_id = None;
+    }
+    if changed {
+        email.revision = Uuid::new_v4().to_string();
+    }
+    email.config = update.config;
+    cancel_pending(email, backup_enabled, changed);
+    Ok(staged)
+}
+pub(in crate::system::maintenance) fn cancel_pending(
+    email: &mut EmailState,
+    backup_enabled: bool,
+    changed: bool,
+) {
+    for job in &mut email.jobs {
+        if job.status == JobStatus::Pending && (changed || !backup_enabled || !email.config.enabled)
+        {
+            job.status = JobStatus::Cancelled;
+        }
+    }
+}
+pub(in crate::system::maintenance) fn discard_secret(state: &AppState, id: Option<&str>) {
+    if let Some(id) = id {
+        let _ = secrets(state).delete(id);
+    }
+}
+pub(super) fn password(state: &AppState, email: &EmailState) -> Result<String, MailError> {
+    match email.secret_id.as_deref() {
+        None => Ok(String::new()),
+        Some(id) => secrets(state)
+            .read(id)
+            .map_err(|_| MailError::permanent("credential_unavailable"))?
+            .ok_or_else(|| MailError::permanent("credential_unavailable")),
+    }
+}
+pub(super) fn message(
+    config: &BackupEmailConfig,
+    subject: String,
+    body: String,
+    id: &str,
+    attachment: Option<MailAttachment>,
+) -> Result<lettre::Message, MailError> {
+    let (from, to) = addresses(config)?;
+    MailMessage {
+        from,
+        to,
+        subject,
+        body,
+        message_id: format!("{id}@backup.fn-knock.local"),
+        attachment,
+    }
+    .build()
+}
+pub(in crate::system::maintenance) async fn test_email(
+    state: &AppState,
+    mut update: BackupEmailUpdate,
+) -> Result<Value, BackupImportError> {
+    if update.clear_password
+        && update
+            .password
+            .as_ref()
+            .is_some_and(|value| !value.is_empty())
+    {
+        return Err(BackupImportError::bad_request(
+            "Conflicting password update",
+        ));
+    }
+    update.config.enabled = true;
+    validate(&update.config)?;
+    let guard = state.maintenance.automatic_backup_lock.lock().await;
+    let email = load(state)
+        .await
+        .map_err(|_| BackupImportError::internal("Cannot load email configuration"))?;
+    let password = if update.clear_password {
+        String::new()
+    } else if let Some(value) = update.password.filter(|value| !value.is_empty()) {
+        value
+    } else {
+        password(state, &email).map_err(|error| BackupImportError::internal(error.code))?
+    };
+    drop(guard);
+    let translator = Translator::from_state(state).await;
+    let message = message(
+        &update.config,
+        maintenance_backup_text(&translator, "emailTestSubject"),
+        maintenance_backup_text(&translator, "emailTestBody"),
+        &Uuid::new_v4().to_string(),
+        Some(MailAttachment {
+            filename: "backup-email-test.txt".into(),
+            bytes: b"fn-knock backup email test\n".to_vec(),
+        }),
+    )
+    .map_err(|error| BackupImportError::bad_request(error.code))?;
+    mail::send(&update.config.smtp, &password, message)
+        .await
+        .map_err(|error| BackupImportError::bad_request(error.code))?;
+    Ok(json!({"success":true}))
+}
+
+pub(in crate::system::maintenance) fn clear_credentials(state: &AppState) -> Result<(), String> {
+    secrets(state).clear_all()
+}

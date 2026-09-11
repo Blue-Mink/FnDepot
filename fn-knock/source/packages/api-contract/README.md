@@ -1,1 +1,5 @@
-IyBAZm4ta25vY2svYXBpLWNvbnRyYWN0CgpDaGVja2VkIE9wZW5BUEkgMy4xIGFuZCBnZW5lcmF0ZWQgVHlwZVNjcmlwdCB0eXBlcyBmb3IgdGhlIGZuLWtub2NrIG1hbmFnZW1lbnQgQVBJLgoKUnVuIGBucG0gcnVuIGFwaTpnZW5lcmF0ZWAgZnJvbSB0aGUgcmVwb3NpdG9yeSByb290IGFmdGVyIGNoYW5naW5nIEhUVFAgcm91dGVzIG9yIHNjaGVtYXMuIENJIHJ1bnMgYG5wbSBydW4gYXBpOmNoZWNrYCBhbmQgZmFpbHMgd2hlbiBlaXRoZXIgZ2VuZXJhdGVkIGZpbGUgaXMgc3RhbGUuCg==
+# @fn-knock/api-contract
+
+Checked OpenAPI 3.1 and generated TypeScript types for the fn-knock management API.
+
+Run `npm run api:generate` from the repository root after changing HTTP routes or schemas. CI runs `npm run api:check` and fails when either generated file is stale.

@@ -1,1 +1,115 @@
-aW1wb3J0IGh0dHAgZnJvbSAibm9kZTpodHRwIjsKCi8vIEtlZXAgY2xpZW50IGFsbG9jYXRpb25zLCB0aW1lcnMgYW5kIGNhbmNlbGxhdGlvbiBsaXN0ZW5lcnMgYm91bmRlZCBieSB0aGUKLy8gbnVtYmVyIG9mIGNvbmN1cnJlbnQgcmVxdWVzdHMsIHJhdGhlciB0aGFuIHRoZSB0b3RhbCByZXF1ZXN0cyBpbiBhIHJ1bi4KZXhwb3J0IGNvbnN0IGNyZWF0ZUxvYWRDbGllbnQgPSAoewogIHVybCwKICBjb25jdXJyZW5jeSwKICBleHBlY3RlZFJlc3BvbnNlQnl0ZXMsCiAgcmVzcG9uc2VWYWxpZGF0aW9uLAogIHRpbWVvdXRNcyA9IDEwXzAwMCwKfSkgPT4gewogIGNvbnN0IGVuZHBvaW50ID0gbmV3IFVSTCh1cmwpOwogIGlmIChlbmRwb2ludC5wcm90b2NvbCAhPT0gImh0dHA6IikgewogICAgdGhyb3cgbmV3IEVycm9yKCJydW50aW1lIGxvYWQgcmVxdWlyZXMgdGhlIG93bmVkIEhUVFAgZml4dHVyZSBlbmRwb2ludCIpOwogIH0KICBjb25zdCBjb2xsZWN0Qm9keSA9IHJlc3BvbnNlVmFsaWRhdGlvbiA9PT0gImxvY2FsZSI7CiAgY29uc3QgbWF4Qm9keUJ5dGVzID0gZXhwZWN0ZWRSZXNwb25zZUJ5dGVzID8/IDQwOTY7CiAgY29uc3QgYWdlbnQgPSBuZXcgaHR0cC5BZ2VudCh7CiAgICBrZWVwQWxpdmU6IHRydWUsCiAgICBtYXhTb2NrZXRzOiBjb25jdXJyZW5jeSwKICAgIG1heEZyZWVTb2NrZXRzOiBjb25jdXJyZW5jeSwKICB9KTsKICBjb25zdCBjb3VudGVycyA9IHsKICAgIGFjdGl2ZV9yZXF1ZXN0czogMCwKICAgIGFjdGl2ZV9kZWFkbGluZXM6IDAsCiAgICBhY3RpdmVfYWJvcnRfbGlzdGVuZXJzOiAwLAogIH07CiAgbGV0IGNsb3NlZCA9IGZhbHNlOwogIGNvbnN0IHJlcXVlc3QgPSAoc2lnbmFsKSA9PgogICAgbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgICBpZiAoY2xvc2VkKSByZXR1cm4gcmVqZWN0KG5ldyBFcnJvcigicnVudGltZSBsb2FkIGNsaWVudCBpcyBjbG9zZWQiKSk7CiAgICAgIGlmIChzaWduYWwuYWJvcnRlZCkgcmV0dXJuIHJlamVjdChzaWduYWwucmVhc29uKTsKICAgICAgbGV0IHJlcTsKICAgICAgbGV0IHJlc3BvbnNlOwogICAgICBsZXQgdGltZXI7CiAgICAgIGxldCBmaW5pc2hlZCA9IGZhbHNlOwogICAgICBsZXQgYnl0ZXMgPSAwOwogICAgICBjb25zdCBjaHVua3MgPSBbXTsKICAgICAgY291bnRlcnMuYWN0aXZlX3JlcXVlc3RzICs9IDE7CiAgICAgIGNvbnN0IGZpbmlzaCA9IChlcnJvciwgdmFsdWUpID0+IHsKICAgICAgICBpZiAoZmluaXNoZWQpIHJldHVybjsKICAgICAgICBmaW5pc2hlZCA9IHRydWU7CiAgICAgICAgY2xlYXJUaW1lb3V0KHRpbWVyKTsKICAgICAgICBjb3VudGVycy5hY3RpdmVfZGVhZGxpbmVzIC09IDE7CiAgICAgICAgc2lnbmFsLnJlbW92ZUV2ZW50TGlzdGVuZXIoImFib3J0Iiwgb25BYm9ydCk7CiAgICAgICAgY291bnRlcnMuYWN0aXZlX2Fib3J0X2xpc3RlbmVycyAtPSAxOwogICAgICAgIGNvdW50ZXJzLmFjdGl2ZV9yZXF1ZXN0cyAtPSAxOwogICAgICAgIGlmIChlcnJvcikgewogICAgICAgICAgcmVzcG9uc2U/LmRlc3Ryb3koKTsKICAgICAgICAgIHJlcT8uZGVzdHJveSgpOwogICAgICAgICAgcmVqZWN0KGVycm9yKTsKICAgICAgICB9IGVsc2UgcmVzb2x2ZSh2YWx1ZSk7CiAgICAgIH07CiAgICAgIGNvbnN0IG9uQWJvcnQgPSAoKSA9PiBmaW5pc2goc2lnbmFsLnJlYXNvbik7CiAgICAgIHNpZ25hbC5hZGRFdmVudExpc3RlbmVyKCJhYm9ydCIsIG9uQWJvcnQsIHsgb25jZTogdHJ1ZSB9KTsKICAgICAgY291bnRlcnMuYWN0aXZlX2Fib3J0X2xpc3RlbmVycyArPSAxOwogICAgICB0aW1lciA9IHNldFRpbWVvdXQoCiAgICAgICAgKCkgPT4KICAgICAgICAgIGZpbmlzaCgKICAgICAgICAgICAgbmV3IEVycm9yKGBydW50aW1lIHJlcXVlc3QgZXhjZWVkZWQgJHt0aW1lb3V0TXN9IG1zIGRlYWRsaW5lYCksCiAgICAgICAgICApLAogICAgICAgIHRpbWVvdXRNcywKICAgICAgKTsKICAgICAgY291bnRlcnMuYWN0aXZlX2RlYWRsaW5lcyArPSAxOwogICAgICB0cnkgewogICAgICAgIHJlcSA9IGh0dHAucmVxdWVzdCgKICAgICAgICAgIGVuZHBvaW50LAogICAgICAgICAgeyBtZXRob2Q6ICJHRVQiLCBhZ2VudCwgaGVhZGVyczogeyAiYWNjZXB0LWVuY29kaW5nIjogImlkZW50aXR5IiB9IH0sCiAgICAgICAgICAoaW5jb21pbmcpID0+IHsKICAgICAgICAgICAgcmVzcG9uc2UgPSBpbmNvbWluZzsKICAgICAgICAgICAgaW5jb21pbmcub24oImRhdGEiLCAoY2h1bmspID0+IHsKICAgICAgICAgICAgICBpZiAoZmluaXNoZWQpIHJldHVybjsKICAgICAgICAgICAgICBieXRlcyArPSBjaHVuay5sZW5ndGg7CiAgICAgICAgICAgICAgaWYgKGJ5dGVzID4gbWF4Qm9keUJ5dGVzKSB7CiAgICAgICAgICAgICAgICBmaW5pc2goCiAgICAgICAgICAgICAgICAgIG5ldyBFcnJvcihgcnVudGltZSByZXNwb25zZSBleGNlZWRlZCAke21heEJvZHlCeXRlc30gYnl0ZXNgKSwKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIC8vIEJpbmFyeSBmaXh0dXJlcyBuZWVkIGxlbmd0aCB2YWxpZGF0aW9uLCBub3QgYSBzZWNvbmQgY29weSBvZgogICAgICAgICAgICAgIC8vIGV2ZXJ5IG11bHRpLW1lZ2FieXRlIHJlc3BvbnNlIGluIHRoZSBiZW5jaG1hcmsgY2xpZW50IGhlYXAuCiAgICAgICAgICAgICAgaWYgKGNvbGxlY3RCb2R5KSBjaHVua3MucHVzaChjaHVuayk7CiAgICAgICAgICAgIH0pOwogICAgICAgICAgICBpbmNvbWluZy5vbigiZW5kIiwgKCkgPT4gewogICAgICAgICAgICAgIGlmICghZmluaXNoZWQpIHsKICAgICAgICAgICAgICAgIGZpbmlzaChudWxsLCB7CiAgICAgICAgICAgICAgICAgIHN0YXR1czogaW5jb21pbmcuc3RhdHVzQ29kZSwKICAgICAgICAgICAgICAgICAgYnl0ZXMsCiAgICAgICAgICAgICAgICAgIGJvZHk6IGNvbGxlY3RCb2R5ID8gQnVmZmVyLmNvbmNhdChjaHVua3MsIGJ5dGVzKSA6IHVuZGVmaW5lZCwKICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIGluY29taW5nLm9uKCJhYm9ydGVkIiwgKCkgPT4KICAgICAgICAgICAgICBmaW5pc2goCiAgICAgICAgICAgICAgICBuZXcgRXJyb3IoInJ1bnRpbWUgcmVzcG9uc2UgYWJvcnRlZCBiZWZvcmUgaXRzIGNvbXBsZXRlIGJvZHkiKSwKICAgICAgICAgICAgICApLAogICAgICAgICAgICApOwogICAgICAgICAgICBpbmNvbWluZy5vbigiZXJyb3IiLCBmaW5pc2gpOwogICAgICAgICAgfSwKICAgICAgICApOwogICAgICAgIHJlcS5vbigiZXJyb3IiLCBmaW5pc2gpOwogICAgICAgIHJlcS5lbmQoKTsKICAgICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgICBmaW5pc2goZXJyb3IpOwogICAgICB9CiAgICB9KTsKICByZXR1cm4gewogICAgcmVxdWVzdCwKICAgIGRpYWdub3N0aWNzOiAoKSA9PiAoeyAuLi5jb3VudGVycyB9KSwKICAgIGNsb3NlOiAoKSA9PiB7CiAgICAgIGNsb3NlZCA9IHRydWU7CiAgICAgIGFnZW50LmRlc3Ryb3koKTsKICAgIH0sCiAgfTsKfTsK
+import http from "node:http";
+
+// Keep client allocations, timers and cancellation listeners bounded by the
+// number of concurrent requests, rather than the total requests in a run.
+export const createLoadClient = ({
+  url,
+  concurrency,
+  expectedResponseBytes,
+  responseValidation,
+  timeoutMs = 10_000,
+}) => {
+  const endpoint = new URL(url);
+  if (endpoint.protocol !== "http:") {
+    throw new Error("runtime load requires the owned HTTP fixture endpoint");
+  }
+  const collectBody = responseValidation === "locale";
+  const maxBodyBytes = expectedResponseBytes ?? 4096;
+  const agent = new http.Agent({
+    keepAlive: true,
+    maxSockets: concurrency,
+    maxFreeSockets: concurrency,
+  });
+  const counters = {
+    active_requests: 0,
+    active_deadlines: 0,
+    active_abort_listeners: 0,
+  };
+  let closed = false;
+  const request = (signal) =>
+    new Promise((resolve, reject) => {
+      if (closed) return reject(new Error("runtime load client is closed"));
+      if (signal.aborted) return reject(signal.reason);
+      let req;
+      let response;
+      let timer;
+      let finished = false;
+      let bytes = 0;
+      const chunks = [];
+      counters.active_requests += 1;
+      const finish = (error, value) => {
+        if (finished) return;
+        finished = true;
+        clearTimeout(timer);
+        counters.active_deadlines -= 1;
+        signal.removeEventListener("abort", onAbort);
+        counters.active_abort_listeners -= 1;
+        counters.active_requests -= 1;
+        if (error) {
+          response?.destroy();
+          req?.destroy();
+          reject(error);
+        } else resolve(value);
+      };
+      const onAbort = () => finish(signal.reason);
+      signal.addEventListener("abort", onAbort, { once: true });
+      counters.active_abort_listeners += 1;
+      timer = setTimeout(
+        () =>
+          finish(
+            new Error(`runtime request exceeded ${timeoutMs} ms deadline`),
+          ),
+        timeoutMs,
+      );
+      counters.active_deadlines += 1;
+      try {
+        req = http.request(
+          endpoint,
+          { method: "GET", agent, headers: { "accept-encoding": "identity" } },
+          (incoming) => {
+            response = incoming;
+            incoming.on("data", (chunk) => {
+              if (finished) return;
+              bytes += chunk.length;
+              if (bytes > maxBodyBytes) {
+                finish(
+                  new Error(`runtime response exceeded ${maxBodyBytes} bytes`),
+                );
+                return;
+              }
+              // Binary fixtures need length validation, not a second copy of
+              // every multi-megabyte response in the benchmark client heap.
+              if (collectBody) chunks.push(chunk);
+            });
+            incoming.on("end", () => {
+              if (!finished) {
+                finish(null, {
+                  status: incoming.statusCode,
+                  bytes,
+                  body: collectBody ? Buffer.concat(chunks, bytes) : undefined,
+                });
+              }
+            });
+            incoming.on("aborted", () =>
+              finish(
+                new Error("runtime response aborted before its complete body"),
+              ),
+            );
+            incoming.on("error", finish);
+          },
+        );
+        req.on("error", finish);
+        req.end();
+      } catch (error) {
+        finish(error);
+      }
+    });
+  return {
+    request,
+    diagnostics: () => ({ ...counters }),
+    close: () => {
+      closed = true;
+      agent.destroy();
+    },
+  };
+};

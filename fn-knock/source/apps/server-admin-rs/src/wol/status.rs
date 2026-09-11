@@ -1,1 +1,418 @@
-dXNlIGZuX2tub2NrX3dvbF9wcm90b2NvbDo6TWFjQWRkcmVzczsKdXNlIHNlcmRlOjpTZXJpYWxpemU7CnVzZSBzdGQ6OntuZXQ6OklwdjRBZGRyLCB0aW1lOjpEdXJhdGlvbn07CnVzZSB0b2tpbzo6e3Rhc2s6OkpvaW5TZXQsIHRpbWV9OwoKdXNlIGNyYXRlOjp7c3RhdGU6OkFwcFN0YXRlLCB0aW1lX3V0aWxzfTsKCnVzZSBzdXBlcjo6ewogICAgZGlzcGF0Y2g6OntEaXNwYXRjaEVycm9yLCBkaXNwYXRjaF9zdGF0dXN9LAogICAgcHJvYmU6OntEZXZpY2VQcm9iZVJlc3VsdCwgRGV2aWNlUHJvYmVTdGF0ZX0sCiAgICBzZWNyZXRzOjpzZWNyZXRfc3RvcmUsCiAgICBzdG9yZTo6ewogICAgICAgIFRhcmdldFJlY29yZCwgVGFyZ2V0U3RhdHVzUmVjb3JkLCBsaXN0X3RhcmdldHMsIGxvYWRfcmVsYXksIGxvYWRfdGFyZ2V0LAogICAgICAgIGxvYWRfdGFyZ2V0X3N0YXR1cywgc2F2ZV90YXJnZXRfc3RhdHVzLAogICAgfSwKfTsKCmNvbnN0IENIRUNLX0lOVEVSVkFMOiBEdXJhdGlvbiA9IER1cmF0aW9uOjpmcm9tX3NlY3MoNjApOwpjb25zdCBTVEFUVVNfU1RBTEVfQUZURVJfTVM6IGk2NCA9IDEyMF8wMDA7CmNvbnN0IENIRUNLX0NPTkNVUlJFTkNZOiB1c2l6ZSA9IDE2OwoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBTZXJpYWxpemUpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IFRhcmdldFN0YXR1c1ZpZXcgewogICAgcHViIHN0YXRlOiBTdHJpbmcsCiAgICBwdWIgY2hlY2tlZF9hdDogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIgbGFzdF9vbmxpbmVfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgcHViIG9ic2VydmVkX2lwOiBPcHRpb248U3RyaW5nPiwKICAgIHB1YiBsYXN0X2Vycm9yOiBPcHRpb248U3RyaW5nPiwKfQoKcHViKGNyYXRlKSBmbiBzdGFydF93b2xfdGFza3Moc3RhdGU6IEFwcFN0YXRlKSB7CiAgICBzdXBlcjo6cmVsYXk6OnN0YXJ0X3dvbF9yZWxheV90YXNrcyhzdGF0ZS5jbG9uZSgpKTsKICAgIHN1cGVyOjppbnRlZ3JhdGlvbnM6OnN0YXJ0X2ludGVncmF0aW9uX3Rhc2tzKHN0YXRlLmNsb25lKCkpOwogICAgbGV0IHRhc2tfc3RhdGUgPSBzdGF0ZS5jbG9uZSgpOwogICAgc3RhdGUuc3Bhd25fYmFja2dyb3VuZCgid29sLXN0YXR1cy1zdXBlcnZpc29yIiwgYXN5bmMgbW92ZSB7CiAgICAgICAgc3RhdHVzX3N1cGVydmlzb3IodGFza19zdGF0ZSkuYXdhaXQ7CiAgICB9KTsKfQoKYXN5bmMgZm4gc3RhdHVzX3N1cGVydmlzb3Ioc3RhdGU6IEFwcFN0YXRlKSB7CiAgICBsZXQgbXV0IHJ1bnRpbWVfcmVsb2FkID0gc3RhdGUud29sLnJ1bnRpbWVfcmVsb2FkLnN1YnNjcmliZSgpOwogICAgbG9vcCB7CiAgICAgICAgaWYgc3RhdGUuc2h1dGRvd24uaXNfY2FuY2VsbGVkKCkgewogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIG1hdGNoIHN1cGVyOjpmZWF0dXJlX2VuYWJsZWRfZm9yX3N0YXRlKCZzdGF0ZSkuYXdhaXQgewogICAgICAgICAgICBPayh0cnVlKSA9PiB7CiAgICAgICAgICAgICAgICBpZiBydW5fc3RhdHVzX2N5Y2xlKCZzdGF0ZSwgJm11dCBydW50aW1lX3JlbG9hZCkuYXdhaXQgewogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIE9rKGZhbHNlKSA9PiB7CiAgICAgICAgICAgICAgICB0b2tpbzo6c2VsZWN0ISB7CiAgICAgICAgICAgICAgICAgICAgXyA9IHN0YXRlLnNodXRkb3duLmNhbmNlbGxlZCgpID0+IHJldHVybiwKICAgICAgICAgICAgICAgICAgICBfID0gcnVudGltZV9yZWxvYWQuY2hhbmdlZCgpID0+IGNvbnRpbnVlLAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIEVycihlcnJvcikgPT4gdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgV29MIGZlYXR1cmUgZm9yIHN0YXR1cyB3b3JrZXIiKSwKICAgICAgICB9CiAgICAgICAgdG9raW86OnNlbGVjdCEgewogICAgICAgICAgICBfID0gc3RhdGUuc2h1dGRvd24uY2FuY2VsbGVkKCkgPT4gcmV0dXJuLAogICAgICAgICAgICBfID0gcnVudGltZV9yZWxvYWQuY2hhbmdlZCgpID0+IGNvbnRpbnVlLAogICAgICAgICAgICBfID0gdGltZTo6c2xlZXAoQ0hFQ0tfSU5URVJWQUwpID0+IHt9CiAgICAgICAgfQogICAgfQp9CgovLy8gUmV0dXJucyBgdHJ1ZWAgd2hlbiBhIHJ1bnRpbWUgcmVsb2FkIG9yIHNodXRkb3duIGludGVycnVwdGVkIHRoZSBjeWNsZS4KYXN5bmMgZm4gcnVuX3N0YXR1c19jeWNsZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBydW50aW1lX3JlbG9hZDogJm11dCB0b2tpbzo6c3luYzo6d2F0Y2g6OlJlY2VpdmVyPHU2ND4sCikgLT4gYm9vbCB7CiAgICBsZXQgdGFyZ2V0cyA9IG1hdGNoIGxpc3RfdGFyZ2V0cyhzdGF0ZSkuYXdhaXQgewogICAgICAgIE9rKHRhcmdldHMpID0+IHRhcmdldHMsCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBsb2FkIFdvTCB0YXJnZXRzIGZvciBvbmxpbmUgY2hlY2tzIik7CiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9CiAgICB9OwogICAgbGV0IG11dCB0YXJnZXRzID0gdGFyZ2V0cy5pbnRvX2l0ZXIoKS5maWx0ZXIofHRhcmdldHwgdGFyZ2V0LmVuYWJsZWQpOwogICAgbGV0IG11dCB0YXNrcyA9IEpvaW5TZXQ6Om5ldygpOwogICAgZm9yIF8gaW4gMC4uQ0hFQ0tfQ09OQ1VSUkVOQ1kgewogICAgICAgIGxldCBTb21lKHRhcmdldCkgPSB0YXJnZXRzLm5leHQoKSBlbHNlIHsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgfTsKICAgICAgICBzcGF3bl90YXJnZXRfY2hlY2soJm11dCB0YXNrcywgc3RhdGUsIHRhcmdldCk7CiAgICB9CiAgICB3aGlsZSAhdGFza3MuaXNfZW1wdHkoKSB7CiAgICAgICAgdG9raW86OnNlbGVjdCEgewogICAgICAgICAgICBfID0gc3RhdGUuc2h1dGRvd24uY2FuY2VsbGVkKCkgPT4gewogICAgICAgICAgICAgICAgdGFza3MuYWJvcnRfYWxsKCk7CiAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICAgICAgfQogICAgICAgICAgICBfID0gcnVudGltZV9yZWxvYWQuY2hhbmdlZCgpID0+IHsKICAgICAgICAgICAgICAgIHRhc2tzLmFib3J0X2FsbCgpOwogICAgICAgICAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmVzdWx0ID0gdGFza3Muam9pbl9uZXh0KCkgPT4gewogICAgICAgICAgICAgICAgaWYgbGV0IFNvbWUoRXJyKGVycm9yKSkgPSByZXN1bHQgewogICAgICAgICAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgIldvTCBvbmxpbmUgY2hlY2sgdGFzayBmYWlsZWQiKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKHRhcmdldCkgPSB0YXJnZXRzLm5leHQoKSB7CiAgICAgICAgICAgICAgICAgICAgc3Bhd25fdGFyZ2V0X2NoZWNrKCZtdXQgdGFza3MsIHN0YXRlLCB0YXJnZXQpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQogICAgZmFsc2UKfQoKZm4gc3Bhd25fdGFyZ2V0X2NoZWNrKHRhc2tzOiAmbXV0IEpvaW5TZXQ8KCk+LCBzdGF0ZTogJkFwcFN0YXRlLCB0YXJnZXQ6IFRhcmdldFJlY29yZCkgewogICAgbGV0IHN0YXRlID0gc3RhdGUuY2xvbmUoKTsKICAgIHRhc2tzLnNwYXduKGFzeW5jIG1vdmUgewogICAgICAgIGlmIGxldCBFcnIoZXJyb3IpID0gY2hlY2tfdGFyZ2V0KCZzdGF0ZSwgdGFyZ2V0KS5hd2FpdCB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBwZXJzaXN0IFdvTCB0YXJnZXQgc3RhdHVzIik7CiAgICAgICAgfQogICAgfSk7Cn0KCnB1YihzdXBlcikgZm4gc2NoZWR1bGVfdGFyZ2V0X3JlY2hlY2tzKHN0YXRlOiBBcHBTdGF0ZSwgdGFyZ2V0X2lkOiBTdHJpbmcpIHsKICAgIGxldCB0YXNrX3N0YXRlID0gc3RhdGUuY2xvbmUoKTsKICAgIHN0YXRlLnNwYXduX2JhY2tncm91bmQoIndvbC10YXJnZXQtcmVjaGVjayIsIGFzeW5jIG1vdmUgewogICAgICAgIHRva2lvOjpzZWxlY3QhIHsKICAgICAgICAgICAgXyA9IHRhc2tfc3RhdGUuc2h1dGRvd24uY2FuY2VsbGVkKCkgPT4gcmV0dXJuLAogICAgICAgICAgICBfID0gdGltZTo6c2xlZXAoRHVyYXRpb246OmZyb21fc2Vjcyg1KSkgPT4ge30KICAgICAgICB9CiAgICAgICAgbGV0IF8gPSBjaGVja190YXJnZXRfYnlfaWQoJnRhc2tfc3RhdGUsICZ0YXJnZXRfaWQpLmF3YWl0OwogICAgICAgIHRva2lvOjpzZWxlY3QhIHsKICAgICAgICAgICAgXyA9IHRhc2tfc3RhdGUuc2h1dGRvd24uY2FuY2VsbGVkKCkgPT4gcmV0dXJuLAogICAgICAgICAgICBfID0gdGltZTo6c2xlZXAoRHVyYXRpb246OmZyb21fc2VjcygxNSkpID0+IHt9CiAgICAgICAgfQogICAgICAgIGxldCBfID0gY2hlY2tfdGFyZ2V0X2J5X2lkKCZ0YXNrX3N0YXRlLCAmdGFyZ2V0X2lkKS5hd2FpdDsKICAgIH0pOwp9CgpwdWIoc3VwZXIpIGZuIHNjaGVkdWxlX3RhcmdldF9zaHV0ZG93bl9yZWNoZWNrcyhzdGF0ZTogQXBwU3RhdGUsIHRhcmdldF9pZDogU3RyaW5nKSB7CiAgICBsZXQgdGFza19zdGF0ZSA9IHN0YXRlLmNsb25lKCk7CiAgICBzdGF0ZS5zcGF3bl9iYWNrZ3JvdW5kKCJ3b2wtdGFyZ2V0LXNodXRkb3duLXJlY2hlY2siLCBhc3luYyBtb3ZlIHsKICAgICAgICBsZXQgbXV0IGVsYXBzZWQgPSAwX3U2NDsKICAgICAgICBmb3IgZGVhZGxpbmUgaW4gWzVfdTY0LCAyMCwgMzVdIHsKICAgICAgICAgICAgdG9raW86OnNlbGVjdCEgewogICAgICAgICAgICAgICAgXyA9IHRhc2tfc3RhdGUuc2h1dGRvd24uY2FuY2VsbGVkKCkgPT4gcmV0dXJuLAogICAgICAgICAgICAgICAgXyA9IHRpbWU6OnNsZWVwKER1cmF0aW9uOjpmcm9tX3NlY3MoZGVhZGxpbmUgLSBlbGFwc2VkKSkgPT4ge30KICAgICAgICAgICAgfQogICAgICAgICAgICBlbGFwc2VkID0gZGVhZGxpbmU7CiAgICAgICAgICAgIGxldCBfID0gY2hlY2tfdGFyZ2V0X2J5X2lkKCZ0YXNrX3N0YXRlLCAmdGFyZ2V0X2lkKS5hd2FpdDsKICAgICAgICB9CiAgICB9KTsKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBjaGVja190YXJnZXRfYnlfaWQoc3RhdGU6ICZBcHBTdGF0ZSwgaWQ6ICZzdHIpIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBpZiAhc3VwZXI6OmZlYXR1cmVfZW5hYmxlZF9mb3Jfc3RhdGUoc3RhdGUpLmF3YWl0PyB7CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH0KICAgIGxldCBTb21lKHRhcmdldCkgPSBsb2FkX3RhcmdldChzdGF0ZSwgaWQpLmF3YWl0PyBlbHNlIHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfTsKICAgIGlmICF0YXJnZXQuZW5hYmxlZCB7CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH0KICAgIGNoZWNrX3RhcmdldChzdGF0ZSwgdGFyZ2V0KS5hd2FpdAp9Cgphc3luYyBmbiBjaGVja190YXJnZXQoc3RhdGU6ICZBcHBTdGF0ZSwgdGFyZ2V0OiBUYXJnZXRSZWNvcmQpIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgcHJldmlvdXMgPSBsb2FkX3RhcmdldF9zdGF0dXMoc3RhdGUsICZ0YXJnZXQuaWQpLmF3YWl0PzsKICAgIGxldCBjb25maWd1cmVkX2lwID0gdGFyZ2V0CiAgICAgICAgLmlwX2FkZHJlc3MKICAgICAgICAuYXNfZGVyZWYoKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnBhcnNlOjo8SXB2NEFkZHI+KCkub2soKSk7CiAgICBsZXQgb2JzZXJ2ZWRfaXAgPSBwcmV2aW91cwogICAgICAgIC5vYnNlcnZlZF9pcAogICAgICAgIC5hc19kZXJlZigpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUucGFyc2U6OjxJcHY0QWRkcj4oKS5vaygpKTsKICAgIGxldCBwcmVmZXJyZWRfaXAgPSBjb25maWd1cmVkX2lwLm9yKG9ic2VydmVkX2lwKTsKICAgIGxldCBtYWMgPSBtYXRjaCB0YXJnZXQubWFjLnBhcnNlOjo8TWFjQWRkcmVzcz4oKSB7CiAgICAgICAgT2sobWFjKSA9PiBtYWMsCiAgICAgICAgRXJyKF8pID0+IHsKICAgICAgICAgICAgcmV0dXJuIHBlcnNpc3RfcmVzdWx0X2lmX2N1cnJlbnQoCiAgICAgICAgICAgICAgICBzdGF0ZSwKICAgICAgICAgICAgICAgICZ0YXJnZXQsCiAgICAgICAgICAgICAgICBwcmV2aW91cywKICAgICAgICAgICAgICAgIERldmljZVByb2JlUmVzdWx0IHsKICAgICAgICAgICAgICAgICAgICBzdGF0ZTogRGV2aWNlUHJvYmVTdGF0ZTo6VW5rbm93biwKICAgICAgICAgICAgICAgICAgICBvYnNlcnZlZF9pcDogcHJlZmVycmVkX2lwLAogICAgICAgICAgICAgICAgICAgIGVycm9yOiBTb21lKCJUYXJnZXQgTUFDIGFkZHJlc3MgaXMgaW52YWxpZCIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXdhaXQ7CiAgICAgICAgfQogICAgfTsKCiAgICBsZXQgcmVzdWx0ID0gbWF0Y2ggdGFyZ2V0LnJlbGF5X2lkLmFzX2RlcmVmKCkgewogICAgICAgIFNvbWUocmVsYXlfaWQpID0+IHJlbW90ZV9wcm9iZShzdGF0ZSwgcmVsYXlfaWQsIG1hYywgcHJlZmVycmVkX2lwKS5hd2FpdCwKICAgICAgICBOb25lID0+IHsKICAgICAgICAgICAgc3VwZXI6OnByb2JlOjpwcm9iZV9kZXZpY2VfY2FuZGlkYXRlc19ib3VuZGVkKAogICAgICAgICAgICAgICAgbWFjLAogICAgICAgICAgICAgICAgW2NvbmZpZ3VyZWRfaXAsIG9ic2VydmVkX2lwXS5pbnRvX2l0ZXIoKS5mbGF0dGVuKCksCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgfQogICAgfTsKICAgIHBlcnNpc3RfcmVzdWx0X2lmX2N1cnJlbnQoc3RhdGUsICZ0YXJnZXQsIHByZXZpb3VzLCByZXN1bHQpLmF3YWl0Cn0KCmFzeW5jIGZuIHJlbW90ZV9wcm9iZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICByZWxheV9pZDogJnN0ciwKICAgIG1hYzogTWFjQWRkcmVzcywKICAgIHByZWZlcnJlZF9pcDogT3B0aW9uPElwdjRBZGRyPiwKKSAtPiBEZXZpY2VQcm9iZVJlc3VsdCB7CiAgICBsZXQgcmVsYXkgPSBtYXRjaCBsb2FkX3JlbGF5KHN0YXRlLCByZWxheV9pZCkuYXdhaXQgewogICAgICAgIE9rKFNvbWUocmVsYXkpKSBpZiByZWxheS5lbmFibGVkID0+IHJlbGF5LAogICAgICAgIE9rKF8pID0+IHJldHVybiB1bmtub3duKHByZWZlcnJlZF9pcCwgIlJlbGF5IGlzIHVuYXZhaWxhYmxlIiksCiAgICAgICAgRXJyKGVycm9yKSA9PiByZXR1cm4gdW5rbm93bihwcmVmZXJyZWRfaXAsIGVycm9yLnRvX3N0cmluZygpKSwKICAgIH07CiAgICBsZXQgcHNrID0gbWF0Y2ggc2VjcmV0X3N0b3JlKHN0YXRlKS5yZWFkKCZyZWxheS5pZCwgcmVsYXkua2V5X3ZlcnNpb24pIHsKICAgICAgICBPayhTb21lKHBzaykpID0+IHBzaywKICAgICAgICBPayhOb25lKSA9PiByZXR1cm4gdW5rbm93bihwcmVmZXJyZWRfaXAsICJSZWxheSBQU0sgaXMgbm90IGNvbmZpZ3VyZWQiKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHJldHVybiB1bmtub3duKHByZWZlcnJlZF9pcCwgZXJyb3IpLAogICAgfTsKICAgIG1hdGNoIGRpc3BhdGNoX3N0YXR1cygmcmVsYXksICZwc2ssIG1hYywgcHJlZmVycmVkX2lwKS5hd2FpdCB7CiAgICAgICAgT2socmVzdWx0KSA9PiBEZXZpY2VQcm9iZVJlc3VsdCB7CiAgICAgICAgICAgIHN0YXRlOiByZXN1bHQuc3RhdGUsCiAgICAgICAgICAgIG9ic2VydmVkX2lwOiByZXN1bHQub2JzZXJ2ZWRfaXAub3IocHJlZmVycmVkX2lwKSwKICAgICAgICAgICAgZXJyb3I6IE5vbmUsCiAgICAgICAgfSwKICAgICAgICBFcnIoZXJyb3IpID0+IHVua25vd24ocHJlZmVycmVkX2lwLCBkaXNwYXRjaF9lcnJvcl90ZXh0KCZlcnJvcikpLAogICAgfQp9CgpmbiB1bmtub3duKHByZWZlcnJlZF9pcDogT3B0aW9uPElwdjRBZGRyPiwgZXJyb3I6IGltcGwgSW50bzxTdHJpbmc+KSAtPiBEZXZpY2VQcm9iZVJlc3VsdCB7CiAgICBEZXZpY2VQcm9iZVJlc3VsdCB7CiAgICAgICAgc3RhdGU6IERldmljZVByb2JlU3RhdGU6OlVua25vd24sCiAgICAgICAgb2JzZXJ2ZWRfaXA6IHByZWZlcnJlZF9pcCwKICAgICAgICBlcnJvcjogU29tZShlcnJvci5pbnRvKCkpLAogICAgfQp9CgpmbiBkaXNwYXRjaF9lcnJvcl90ZXh0KGVycm9yOiAmRGlzcGF0Y2hFcnJvcikgLT4gU3RyaW5nIHsKICAgIG1hdGNoIGVycm9yIHsKICAgICAgICBEaXNwYXRjaEVycm9yOjpOZXR3b3JrIHsgbWVzc2FnZSwgLi4gfSA9PiBtZXNzYWdlLmNsb25lKCksCiAgICAgICAgRGlzcGF0Y2hFcnJvcjo6VGltZW91dCB7IC4uIH0gPT4gIlJlbGF5IHN0YXR1cyByZXF1ZXN0IHRpbWVkIG91dCIudG9fc3RyaW5nKCksCiAgICAgICAgRGlzcGF0Y2hFcnJvcjo6UmVsYXkgeyBzdGF0dXMsIC4uIH0gPT4gZm9ybWF0ISgiUmVsYXkgcmV0dXJuZWQge3N0YXR1czo/fSIpLAogICAgfQp9Cgphc3luYyBmbiBwZXJzaXN0X3Jlc3VsdCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBpZDogJnN0ciwKICAgIHByZXZpb3VzOiBUYXJnZXRTdGF0dXNSZWNvcmQsCiAgICByZXN1bHQ6IERldmljZVByb2JlUmVzdWx0LAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgbm93ID0gdGltZV91dGlsczo6bm93X2lzbygpOwogICAgbGV0IG9ubGluZSA9IHJlc3VsdC5zdGF0ZSA9PSBEZXZpY2VQcm9iZVN0YXRlOjpPbmxpbmU7CiAgICBsZXQgc3RhdGVfbmFtZSA9IHN0YXRlX25hbWUocmVzdWx0LnN0YXRlKS50b19zdHJpbmcoKTsKICAgIGxldCBzdGF0ZV9jaGFuZ2VkID0gcHJldmlvdXMuc3RhdGUgIT0gc3RhdGVfbmFtZTsKICAgIHNhdmVfdGFyZ2V0X3N0YXR1cygKICAgICAgICBzdGF0ZSwKICAgICAgICBpZCwKICAgICAgICAmVGFyZ2V0U3RhdHVzUmVjb3JkIHsKICAgICAgICAgICAgc3RhdGU6IHN0YXRlX25hbWUuY2xvbmUoKSwKICAgICAgICAgICAgY2hlY2tlZF9hdDogU29tZShub3cuY2xvbmUoKSksCiAgICAgICAgICAgIGxhc3Rfb25saW5lX2F0OiBpZiBvbmxpbmUgewogICAgICAgICAgICAgICAgU29tZShub3cpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBwcmV2aW91cy5sYXN0X29ubGluZV9hdAogICAgICAgICAgICB9LAogICAgICAgICAgICBvYnNlcnZlZF9pcDogcmVzdWx0CiAgICAgICAgICAgICAgICAub2JzZXJ2ZWRfaXAKICAgICAgICAgICAgICAgIC5tYXAofHZhbHVlfCB2YWx1ZS50b19zdHJpbmcoKSkKICAgICAgICAgICAgICAgIC5vcihwcmV2aW91cy5vYnNlcnZlZF9pcCksCiAgICAgICAgICAgIGxhc3RfZXJyb3I6IHJlc3VsdC5lcnJvciwKICAgICAgICB9LAogICAgKQogICAgLmF3YWl0PzsKICAgIGlmIHN0YXRlX2NoYW5nZWQgewogICAgICAgIGxldCBfID0gc3RhdGUud29sLnN0YXR1c191cGRhdGVzLnNlbmQoc2VyZGVfanNvbjo6anNvbiEoewogICAgICAgICAgICAidGFyZ2V0SWQiOiBpZCwKICAgICAgICAgICAgInN0YXRlIjogc3RhdGVfbmFtZSwKICAgICAgICB9KSk7CiAgICB9CiAgICBPaygoKSkKfQoKYXN5bmMgZm4gcGVyc2lzdF9yZXN1bHRfaWZfY3VycmVudCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBjaGVja2VkX3RhcmdldDogJlRhcmdldFJlY29yZCwKICAgIHByZXZpb3VzOiBUYXJnZXRTdGF0dXNSZWNvcmQsCiAgICByZXN1bHQ6IERldmljZVByb2JlUmVzdWx0LAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICAvLyBDUlVEIHVzZXMgdGhlIHNhbWUgbG9jay4gUmUtcmVhZCBvbmx5IHdoaWxlIGhvbGRpbmcgaXQgc28gYW4gb2xkIHByb2JlCiAgICAvLyBjYW5ub3QgcmVjcmVhdGUgc3RhdHVzIGFmdGVyIGRlbGV0aW9uIG9yIG92ZXJ3cml0ZSB0aGUgcmVzZXQgcGVyZm9ybWVkCiAgICAvLyBieSBhbiBhZGRyZXNzL01BQy9SZWxheSBlZGl0LgogICAgbGV0IF9ndWFyZCA9IHN0YXRlLndvbC5jb25maWdfbG9jay5sb2NrKCkuYXdhaXQ7CiAgICBsZXQgU29tZShjdXJyZW50KSA9IGxvYWRfdGFyZ2V0KHN0YXRlLCAmY2hlY2tlZF90YXJnZXQuaWQpLmF3YWl0PyBlbHNlIHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfTsKICAgIGlmICFzYW1lX3Byb2JlX2lkZW50aXR5KCZjdXJyZW50LCBjaGVja2VkX3RhcmdldCkgewogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CiAgICBwZXJzaXN0X3Jlc3VsdChzdGF0ZSwgJmNoZWNrZWRfdGFyZ2V0LmlkLCBwcmV2aW91cywgcmVzdWx0KS5hd2FpdAp9CgpmbiBzYW1lX3Byb2JlX2lkZW50aXR5KGN1cnJlbnQ6ICZUYXJnZXRSZWNvcmQsIGNoZWNrZWQ6ICZUYXJnZXRSZWNvcmQpIC0+IGJvb2wgewogICAgY3VycmVudC5lbmFibGVkCiAgICAgICAgJiYgY3VycmVudC5tYWMgPT0gY2hlY2tlZC5tYWMKICAgICAgICAmJiBjdXJyZW50LmlwX2FkZHJlc3MgPT0gY2hlY2tlZC5pcF9hZGRyZXNzCiAgICAgICAgJiYgY3VycmVudC5yZWxheV9pZCA9PSBjaGVja2VkLnJlbGF5X2lkCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc3RhdHVzX3ZpZXcoc3RhdGU6ICZBcHBTdGF0ZSwgaWQ6ICZzdHIpIC0+IGFueWhvdzo6UmVzdWx0PFRhcmdldFN0YXR1c1ZpZXc+IHsKICAgIGxldCByZWNvcmQgPSBsb2FkX3RhcmdldF9zdGF0dXMoc3RhdGUsIGlkKS5hd2FpdD87CiAgICBPayhzdGF0dXNfdmlld19mcm9tX3JlY29yZChyZWNvcmQsIHRpbWVfdXRpbHM6Om5vd19tcygpKSkKfQoKZm4gc3RhdHVzX3ZpZXdfZnJvbV9yZWNvcmQocmVjb3JkOiBUYXJnZXRTdGF0dXNSZWNvcmQsIG5vd19tczogaTY0KSAtPiBUYXJnZXRTdGF0dXNWaWV3IHsKICAgIGxldCBmcmVzaCA9IHJlY29yZAogICAgICAgIC5jaGVja2VkX2F0CiAgICAgICAgLmFzX2RlcmVmKCkKICAgICAgICAuYW5kX3RoZW4odGltZV91dGlsczo6cGFyc2VfaXNvX21zKQogICAgICAgIC5pc19zb21lX2FuZCh8Y2hlY2tlZF9hdHwgewogICAgICAgICAgICBsZXQgYWdlID0gbm93X21zLnNhdHVyYXRpbmdfc3ViKGNoZWNrZWRfYXQpOwogICAgICAgICAgICAoMC4uPVNUQVRVU19TVEFMRV9BRlRFUl9NUykuY29udGFpbnMoJmFnZSkKICAgICAgICB9KTsKICAgIGxldCBub3JtYWxpemVkX3N0YXRlID0gbWF0Y2ggcmVjb3JkLnN0YXRlLmFzX3N0cigpIHsKICAgICAgICAib25saW5lIiB8ICJvZmZsaW5lIiB8ICJ1bmtub3duIiA9PiByZWNvcmQuc3RhdGUuYXNfc3RyKCksCiAgICAgICAgXyA9PiAidW5rbm93biIsCiAgICB9OwogICAgVGFyZ2V0U3RhdHVzVmlldyB7CiAgICAgICAgc3RhdGU6IGlmIGZyZXNoIHsgbm9ybWFsaXplZF9zdGF0ZSB9IGVsc2UgeyAidW5rbm93biIgfS50b19zdHJpbmcoKSwKICAgICAgICBjaGVja2VkX2F0OiByZWNvcmQuY2hlY2tlZF9hdCwKICAgICAgICBsYXN0X29ubGluZV9hdDogcmVjb3JkLmxhc3Rfb25saW5lX2F0LAogICAgICAgIG9ic2VydmVkX2lwOiByZWNvcmQub2JzZXJ2ZWRfaXAsCiAgICAgICAgbGFzdF9lcnJvcjogcmVjb3JkLmxhc3RfZXJyb3IsCiAgICB9Cn0KCmZuIHN0YXRlX25hbWUoc3RhdGU6IERldmljZVByb2JlU3RhdGUpIC0+ICYnc3RhdGljIHN0ciB7CiAgICBtYXRjaCBzdGF0ZSB7CiAgICAgICAgRGV2aWNlUHJvYmVTdGF0ZTo6T25saW5lID0+ICJvbmxpbmUiLAogICAgICAgIERldmljZVByb2JlU3RhdGU6Ok9mZmxpbmUgPT4gIm9mZmxpbmUiLAogICAgICAgIERldmljZVByb2JlU3RhdGU6OlVua25vd24gPT4gInVua25vd24iLAogICAgfQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKCiAgICAjW3Rlc3RdCiAgICBmbiBzdGFsZV9zdGF0dXNfZGVncmFkZXNfdG9fdW5rbm93bl93aXRob3V0X2xvc2luZ19oaXN0b3J5KCkgewogICAgICAgIGxldCByZWNvcmQgPSBUYXJnZXRTdGF0dXNSZWNvcmQgewogICAgICAgICAgICBzdGF0ZTogIm9ubGluZSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGNoZWNrZWRfYXQ6IFNvbWUoIjIwMjQtMDEtMDFUMDA6MDA6MDBaIi50b19zdHJpbmcoKSksCiAgICAgICAgICAgIGxhc3Rfb25saW5lX2F0OiBTb21lKCIyMDI0LTAxLTAxVDAwOjAwOjAwWiIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICBvYnNlcnZlZF9pcDogU29tZSgiMTkyLjAuMi4xMCIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICBsYXN0X2Vycm9yOiBOb25lLAogICAgICAgIH07CiAgICAgICAgbGV0IHZpZXcgPSBzdGF0dXNfdmlld19mcm9tX3JlY29yZChyZWNvcmQsIDFfNzA0XzA2N18zMjFfMDAwKTsKICAgICAgICBhc3NlcnRfZXEhKHZpZXcuc3RhdGUsICJ1bmtub3duIik7CiAgICAgICAgYXNzZXJ0X2VxISh2aWV3Lmxhc3Rfb25saW5lX2F0LmFzX2RlcmVmKCksIFNvbWUoIjIwMjQtMDEtMDFUMDA6MDA6MDBaIikpOwogICAgICAgIGFzc2VydF9lcSEodmlldy5vYnNlcnZlZF9pcC5hc19kZXJlZigpLCBTb21lKCIxOTIuMC4yLjEwIikpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGZ1dHVyZV9vcl9pbnZhbGlkX3N0YXR1c19uZXZlcl9yZXBvcnRzX29ubGluZSgpIHsKICAgICAgICBmb3IgcmVjb3JkIGluIFsKICAgICAgICAgICAgVGFyZ2V0U3RhdHVzUmVjb3JkIHsKICAgICAgICAgICAgICAgIHN0YXRlOiAib25saW5lIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgIGNoZWNrZWRfYXQ6IFNvbWUoIjIwOTktMDEtMDFUMDA6MDA6MDBaIi50b19zdHJpbmcoKSksCiAgICAgICAgICAgICAgICAuLlRhcmdldFN0YXR1c1JlY29yZDo6ZGVmYXVsdCgpCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIFRhcmdldFN0YXR1c1JlY29yZCB7CiAgICAgICAgICAgICAgICBzdGF0ZTogInVuZXhwZWN0ZWQiLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgY2hlY2tlZF9hdDogU29tZSgiMjAyNC0wMS0wMVQwMDowMDowMFoiLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgICAgIC4uVGFyZ2V0U3RhdHVzUmVjb3JkOjpkZWZhdWx0KCkKICAgICAgICAgICAgfSwKICAgICAgICBdIHsKICAgICAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgICAgIHN0YXR1c192aWV3X2Zyb21fcmVjb3JkKHJlY29yZCwgMV83MDRfMDY3XzIwMF8wMDApLnN0YXRlLAogICAgICAgICAgICAgICAgInVua25vd24iCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHByb2JlX2lkZW50aXR5X2NoYW5nZXNfaW52YWxpZGF0ZV9pbl9mbGlnaHRfcmVzdWx0cygpIHsKICAgICAgICBsZXQgY2hlY2tlZCA9IFRhcmdldFJlY29yZCB7CiAgICAgICAgICAgIGlkOiAidGFyZ2V0Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgbmFtZTogIlRhcmdldCIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIG1hYzogIjAyOjExOjIyOjMzOjQ0OjU1Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgcmVsYXlfaWQ6IE5vbmUsCiAgICAgICAgICAgIGJyb2FkY2FzdF9hZGRyZXNzOiBOb25lLAogICAgICAgICAgICBpcF9hZGRyZXNzOiBTb21lKCIxOTIuMC4yLjEwIi50b19zdHJpbmcoKSksCiAgICAgICAgICAgIGludGVncmF0aW9uczogc3VwZXI6OnN1cGVyOjpzdG9yZTo6VGFyZ2V0SW50ZWdyYXRpb25zOjpkZWZhdWx0KCksCiAgICAgICAgICAgIHNzaDogc3VwZXI6OnN1cGVyOjpzdG9yZTo6VGFyZ2V0U3NoQ29uZmlnOjpkZWZhdWx0KCksCiAgICAgICAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgICAgICAgIGNyZWF0ZWRfYXQ6IFN0cmluZzo6bmV3KCksCiAgICAgICAgICAgIHVwZGF0ZWRfYXQ6IFN0cmluZzo6bmV3KCksCiAgICAgICAgfTsKICAgICAgICBhc3NlcnQhKHNhbWVfcHJvYmVfaWRlbnRpdHkoJmNoZWNrZWQsICZjaGVja2VkKSk7CiAgICAgICAgYXNzZXJ0ISghc2FtZV9wcm9iZV9pZGVudGl0eSgKICAgICAgICAgICAgJlRhcmdldFJlY29yZCB7CiAgICAgICAgICAgICAgICBpcF9hZGRyZXNzOiBTb21lKCIxOTIuMC4yLjExIi50b19zdHJpbmcoKSksCiAgICAgICAgICAgICAgICAuLmNoZWNrZWQuY2xvbmUoKQogICAgICAgICAgICB9LAogICAgICAgICAgICAmY2hlY2tlZAogICAgICAgICkpOwogICAgICAgIGFzc2VydCEoIXNhbWVfcHJvYmVfaWRlbnRpdHkoCiAgICAgICAgICAgICZUYXJnZXRSZWNvcmQgewogICAgICAgICAgICAgICAgZW5hYmxlZDogZmFsc2UsCiAgICAgICAgICAgICAgICAuLmNoZWNrZWQuY2xvbmUoKQogICAgICAgICAgICB9LAogICAgICAgICAgICAmY2hlY2tlZAogICAgICAgICkpOwogICAgfQp9Cg==
+use fn_knock_wol_protocol::MacAddress;
+use serde::Serialize;
+use std::{net::Ipv4Addr, time::Duration};
+use tokio::{task::JoinSet, time};
+
+use crate::{state::AppState, time_utils};
+
+use super::{
+    dispatch::{DispatchError, dispatch_status},
+    probe::{DeviceProbeResult, DeviceProbeState},
+    secrets::secret_store,
+    store::{
+        TargetRecord, TargetStatusRecord, list_targets, load_relay, load_target,
+        load_target_status, save_target_status,
+    },
+};
+
+const CHECK_INTERVAL: Duration = Duration::from_secs(60);
+const STATUS_STALE_AFTER_MS: i64 = 120_000;
+const CHECK_CONCURRENCY: usize = 16;
+
+#[derive(Clone, Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct TargetStatusView {
+    pub state: String,
+    pub checked_at: Option<String>,
+    pub last_online_at: Option<String>,
+    pub observed_ip: Option<String>,
+    pub last_error: Option<String>,
+}
+
+pub(crate) fn start_wol_tasks(state: AppState) {
+    super::relay::start_wol_relay_tasks(state.clone());
+    super::integrations::start_integration_tasks(state.clone());
+    let task_state = state.clone();
+    state.spawn_background("wol-status-supervisor", async move {
+        status_supervisor(task_state).await;
+    });
+}
+
+async fn status_supervisor(state: AppState) {
+    let mut runtime_reload = state.wol.runtime_reload.subscribe();
+    loop {
+        if state.shutdown.is_cancelled() {
+            return;
+        }
+        match super::feature_enabled_for_state(&state).await {
+            Ok(true) => {
+                if run_status_cycle(&state, &mut runtime_reload).await {
+                    continue;
+                }
+            }
+            Ok(false) => {
+                tokio::select! {
+                    _ = state.shutdown.cancelled() => return,
+                    _ = runtime_reload.changed() => continue,
+                }
+            }
+            Err(error) => tracing::warn!(%error, "failed to load WoL feature for status worker"),
+        }
+        tokio::select! {
+            _ = state.shutdown.cancelled() => return,
+            _ = runtime_reload.changed() => continue,
+            _ = time::sleep(CHECK_INTERVAL) => {}
+        }
+    }
+}
+
+/// Returns `true` when a runtime reload or shutdown interrupted the cycle.
+async fn run_status_cycle(
+    state: &AppState,
+    runtime_reload: &mut tokio::sync::watch::Receiver<u64>,
+) -> bool {
+    let targets = match list_targets(state).await {
+        Ok(targets) => targets,
+        Err(error) => {
+            tracing::warn!(%error, "failed to load WoL targets for online checks");
+            return false;
+        }
+    };
+    let mut targets = targets.into_iter().filter(|target| target.enabled);
+    let mut tasks = JoinSet::new();
+    for _ in 0..CHECK_CONCURRENCY {
+        let Some(target) = targets.next() else {
+            break;
+        };
+        spawn_target_check(&mut tasks, state, target);
+    }
+    while !tasks.is_empty() {
+        tokio::select! {
+            _ = state.shutdown.cancelled() => {
+                tasks.abort_all();
+                return true;
+            }
+            _ = runtime_reload.changed() => {
+                tasks.abort_all();
+                return true;
+            }
+            result = tasks.join_next() => {
+                if let Some(Err(error)) = result {
+                    tracing::warn!(%error, "WoL online check task failed");
+                }
+                if let Some(target) = targets.next() {
+                    spawn_target_check(&mut tasks, state, target);
+                }
+            }
+        }
+    }
+    false
+}
+
+fn spawn_target_check(tasks: &mut JoinSet<()>, state: &AppState, target: TargetRecord) {
+    let state = state.clone();
+    tasks.spawn(async move {
+        if let Err(error) = check_target(&state, target).await {
+            tracing::warn!(%error, "failed to persist WoL target status");
+        }
+    });
+}
+
+pub(super) fn schedule_target_rechecks(state: AppState, target_id: String) {
+    let task_state = state.clone();
+    state.spawn_background("wol-target-recheck", async move {
+        tokio::select! {
+            _ = task_state.shutdown.cancelled() => return,
+            _ = time::sleep(Duration::from_secs(5)) => {}
+        }
+        let _ = check_target_by_id(&task_state, &target_id).await;
+        tokio::select! {
+            _ = task_state.shutdown.cancelled() => return,
+            _ = time::sleep(Duration::from_secs(15)) => {}
+        }
+        let _ = check_target_by_id(&task_state, &target_id).await;
+    });
+}
+
+pub(super) fn schedule_target_shutdown_rechecks(state: AppState, target_id: String) {
+    let task_state = state.clone();
+    state.spawn_background("wol-target-shutdown-recheck", async move {
+        let mut elapsed = 0_u64;
+        for deadline in [5_u64, 20, 35] {
+            tokio::select! {
+                _ = task_state.shutdown.cancelled() => return,
+                _ = time::sleep(Duration::from_secs(deadline - elapsed)) => {}
+            }
+            elapsed = deadline;
+            let _ = check_target_by_id(&task_state, &target_id).await;
+        }
+    });
+}
+
+pub(super) async fn check_target_by_id(state: &AppState, id: &str) -> anyhow::Result<()> {
+    if !super::feature_enabled_for_state(state).await? {
+        return Ok(());
+    }
+    let Some(target) = load_target(state, id).await? else {
+        return Ok(());
+    };
+    if !target.enabled {
+        return Ok(());
+    }
+    check_target(state, target).await
+}
+
+async fn check_target(state: &AppState, target: TargetRecord) -> anyhow::Result<()> {
+    let previous = load_target_status(state, &target.id).await?;
+    let configured_ip = target
+        .ip_address
+        .as_deref()
+        .and_then(|value| value.parse::<Ipv4Addr>().ok());
+    let observed_ip = previous
+        .observed_ip
+        .as_deref()
+        .and_then(|value| value.parse::<Ipv4Addr>().ok());
+    let preferred_ip = configured_ip.or(observed_ip);
+    let mac = match target.mac.parse::<MacAddress>() {
+        Ok(mac) => mac,
+        Err(_) => {
+            return persist_result_if_current(
+                state,
+                &target,
+                previous,
+                DeviceProbeResult {
+                    state: DeviceProbeState::Unknown,
+                    observed_ip: preferred_ip,
+                    error: Some("Target MAC address is invalid".to_string()),
+                },
+            )
+            .await;
+        }
+    };
+
+    let result = match target.relay_id.as_deref() {
+        Some(relay_id) => remote_probe(state, relay_id, mac, preferred_ip).await,
+        None => {
+            super::probe::probe_device_candidates_bounded(
+                mac,
+                [configured_ip, observed_ip].into_iter().flatten(),
+            )
+            .await
+        }
+    };
+    persist_result_if_current(state, &target, previous, result).await
+}
+
+async fn remote_probe(
+    state: &AppState,
+    relay_id: &str,
+    mac: MacAddress,
+    preferred_ip: Option<Ipv4Addr>,
+) -> DeviceProbeResult {
+    let relay = match load_relay(state, relay_id).await {
+        Ok(Some(relay)) if relay.enabled => relay,
+        Ok(_) => return unknown(preferred_ip, "Relay is unavailable"),
+        Err(error) => return unknown(preferred_ip, error.to_string()),
+    };
+    let psk = match secret_store(state).read(&relay.id, relay.key_version) {
+        Ok(Some(psk)) => psk,
+        Ok(None) => return unknown(preferred_ip, "Relay PSK is not configured"),
+        Err(error) => return unknown(preferred_ip, error),
+    };
+    match dispatch_status(&relay, &psk, mac, preferred_ip).await {
+        Ok(result) => DeviceProbeResult {
+            state: result.state,
+            observed_ip: result.observed_ip.or(preferred_ip),
+            error: None,
+        },
+        Err(error) => unknown(preferred_ip, dispatch_error_text(&error)),
+    }
+}
+
+fn unknown(preferred_ip: Option<Ipv4Addr>, error: impl Into<String>) -> DeviceProbeResult {
+    DeviceProbeResult {
+        state: DeviceProbeState::Unknown,
+        observed_ip: preferred_ip,
+        error: Some(error.into()),
+    }
+}
+
+fn dispatch_error_text(error: &DispatchError) -> String {
+    match error {
+        DispatchError::Network { message, .. } => message.clone(),
+        DispatchError::Timeout { .. } => "Relay status request timed out".to_string(),
+        DispatchError::Relay { status, .. } => format!("Relay returned {status:?}"),
+    }
+}
+
+async fn persist_result(
+    state: &AppState,
+    id: &str,
+    previous: TargetStatusRecord,
+    result: DeviceProbeResult,
+) -> anyhow::Result<()> {
+    let now = time_utils::now_iso();
+    let online = result.state == DeviceProbeState::Online;
+    let state_name = state_name(result.state).to_string();
+    let state_changed = previous.state != state_name;
+    save_target_status(
+        state,
+        id,
+        &TargetStatusRecord {
+            state: state_name.clone(),
+            checked_at: Some(now.clone()),
+            last_online_at: if online {
+                Some(now)
+            } else {
+                previous.last_online_at
+            },
+            observed_ip: result
+                .observed_ip
+                .map(|value| value.to_string())
+                .or(previous.observed_ip),
+            last_error: result.error,
+        },
+    )
+    .await?;
+    if state_changed {
+        let _ = state.wol.status_updates.send(serde_json::json!({
+            "targetId": id,
+            "state": state_name,
+        }));
+    }
+    Ok(())
+}
+
+async fn persist_result_if_current(
+    state: &AppState,
+    checked_target: &TargetRecord,
+    previous: TargetStatusRecord,
+    result: DeviceProbeResult,
+) -> anyhow::Result<()> {
+    // CRUD uses the same lock. Re-read only while holding it so an old probe
+    // cannot recreate status after deletion or overwrite the reset performed
+    // by an address/MAC/Relay edit.
+    let _guard = state.wol.config_lock.lock().await;
+    let Some(current) = load_target(state, &checked_target.id).await? else {
+        return Ok(());
+    };
+    if !same_probe_identity(&current, checked_target) {
+        return Ok(());
+    }
+    persist_result(state, &checked_target.id, previous, result).await
+}
+
+fn same_probe_identity(current: &TargetRecord, checked: &TargetRecord) -> bool {
+    current.enabled
+        && current.mac == checked.mac
+        && current.ip_address == checked.ip_address
+        && current.relay_id == checked.relay_id
+}
+
+pub(super) async fn status_view(state: &AppState, id: &str) -> anyhow::Result<TargetStatusView> {
+    let record = load_target_status(state, id).await?;
+    Ok(status_view_from_record(record, time_utils::now_ms()))
+}
+
+fn status_view_from_record(record: TargetStatusRecord, now_ms: i64) -> TargetStatusView {
+    let fresh = record
+        .checked_at
+        .as_deref()
+        .and_then(time_utils::parse_iso_ms)
+        .is_some_and(|checked_at| {
+            let age = now_ms.saturating_sub(checked_at);
+            (0..=STATUS_STALE_AFTER_MS).contains(&age)
+        });
+    let normalized_state = match record.state.as_str() {
+        "online" | "offline" | "unknown" => record.state.as_str(),
+        _ => "unknown",
+    };
+    TargetStatusView {
+        state: if fresh { normalized_state } else { "unknown" }.to_string(),
+        checked_at: record.checked_at,
+        last_online_at: record.last_online_at,
+        observed_ip: record.observed_ip,
+        last_error: record.last_error,
+    }
+}
+
+fn state_name(state: DeviceProbeState) -> &'static str {
+    match state {
+        DeviceProbeState::Online => "online",
+        DeviceProbeState::Offline => "offline",
+        DeviceProbeState::Unknown => "unknown",
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn stale_status_degrades_to_unknown_without_losing_history() {
+        let record = TargetStatusRecord {
+            state: "online".to_string(),
+            checked_at: Some("2024-01-01T00:00:00Z".to_string()),
+            last_online_at: Some("2024-01-01T00:00:00Z".to_string()),
+            observed_ip: Some("192.0.2.10".to_string()),
+            last_error: None,
+        };
+        let view = status_view_from_record(record, 1_704_067_321_000);
+        assert_eq!(view.state, "unknown");
+        assert_eq!(view.last_online_at.as_deref(), Some("2024-01-01T00:00:00Z"));
+        assert_eq!(view.observed_ip.as_deref(), Some("192.0.2.10"));
+    }
+
+    #[test]
+    fn future_or_invalid_status_never_reports_online() {
+        for record in [
+            TargetStatusRecord {
+                state: "online".to_string(),
+                checked_at: Some("2099-01-01T00:00:00Z".to_string()),
+                ..TargetStatusRecord::default()
+            },
+            TargetStatusRecord {
+                state: "unexpected".to_string(),
+                checked_at: Some("2024-01-01T00:00:00Z".to_string()),
+                ..TargetStatusRecord::default()
+            },
+        ] {
+            assert_eq!(
+                status_view_from_record(record, 1_704_067_200_000).state,
+                "unknown"
+            );
+        }
+    }
+
+    #[test]
+    fn probe_identity_changes_invalidate_in_flight_results() {
+        let checked = TargetRecord {
+            id: "target".to_string(),
+            name: "Target".to_string(),
+            mac: "02:11:22:33:44:55".to_string(),
+            relay_id: None,
+            broadcast_address: None,
+            ip_address: Some("192.0.2.10".to_string()),
+            integrations: super::super::store::TargetIntegrations::default(),
+            ssh: super::super::store::TargetSshConfig::default(),
+            enabled: true,
+            created_at: String::new(),
+            updated_at: String::new(),
+        };
+        assert!(same_probe_identity(&checked, &checked));
+        assert!(!same_probe_identity(
+            &TargetRecord {
+                ip_address: Some("192.0.2.11".to_string()),
+                ..checked.clone()
+            },
+            &checked
+        ));
+        assert!(!same_probe_identity(
+            &TargetRecord {
+                enabled: false,
+                ..checked.clone()
+            },
+            &checked
+        ));
+    }
+}

@@ -1,1 +1,207 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG5leHRUaWNrLCByZWYsIHR5cGUgQ29tcG9uZW50UHVibGljSW5zdGFuY2UgfSBmcm9tICJ2dWUiOwppbXBvcnQgewogIERFRkFVTFRfVEVSTUlOQUxfSEVJR0hUX1BYLAogIERFU0tUT1BfVEVSTUlOQUxfQk9UVE9NX0dBUF9QWCwKICBNQVhfVEVSTUlOQUxfSEVJR0hUX0RFU0tUT1BfUFgsCiAgTU9CSUxFX0tFWUJPQVJEX0lOU0VUX1RIUkVTSE9MRF9QWCwKICBNT0JJTEVfVEVSTUlOQUxfQk9UVE9NX0dBUF9QWCwKfSBmcm9tICIuL3Rlcm1pbmFsLXJ1bnRpbWUiOwppbXBvcnQgewogIGNyZWF0ZVBhZ2VTY3JvbGxMb2NrLAogIGRldGVjdENvbXBhY3RWaWV3cG9ydCwKICBnZXRWaXN1YWxWaWV3cG9ydE1ldHJpY3MsCn0gZnJvbSAiLi90ZXJtaW5hbC1kb20iOwoKZXhwb3J0IGNvbnN0IHVzZVRlcm1pbmFsVmlld3BvcnRMYXlvdXQgPSAoewogIGZvY3VzVGVybWluYWwsCiAgc2NoZWR1bGVGaXQsCiAgc3luY1Rlcm1pbmFsVGV4dElucHV0QW5jaG9yLAp9OiB7CiAgZm9jdXNUZXJtaW5hbDogKCkgPT4gdm9pZDsKICBzY2hlZHVsZUZpdDogKCkgPT4gdm9pZDsKICBzeW5jVGVybWluYWxUZXh0SW5wdXRBbmNob3I6ICgpID0+IHZvaWQ7Cn0pID0+IHsKICBjb25zdCB0ZXJtaW5hbFNoZWxsUmVmID0gcmVmPEhUTUxFbGVtZW50IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgdGVybWluYWxQYW5lbFJlZiA9IHJlZjxIVE1MRWxlbWVudCB8IG51bGw+KG51bGwpOwogIGNvbnN0IHRlcm1pbmFsRnJhbWVSZWYgPSByZWY8SFRNTEVsZW1lbnQgfCBudWxsPihudWxsKTsKICBjb25zdCBtb2JpbGVBY2Nlc3NvcnlCYXJSZWYgPSByZWY8SFRNTEVsZW1lbnQgfCBudWxsPihudWxsKTsKICBjb25zdCB0ZXJtaW5hbFN0YXR1c1JlZiA9IHJlZjxIVE1MRWxlbWVudCB8IG51bGw+KG51bGwpOwogIGNvbnN0IHRlcm1pbmFsSGVpZ2h0ID0gcmVmKGAke0RFRkFVTFRfVEVSTUlOQUxfSEVJR0hUX1BYfXB4YCk7CiAgY29uc3QgY29tcGFjdFZpZXdwb3J0ID0gcmVmKGZhbHNlKTsKICBjb25zdCBpc1Rlcm1pbmFsRnVsbHNjcmVlbiA9IHJlZihmYWxzZSk7CiAgY29uc3QgcGFnZVNjcm9sbExvY2sgPSBjcmVhdGVQYWdlU2Nyb2xsTG9jaygpOwoKICBjb25zdCByZXNvbHZlSHRtbEVsZW1lbnQgPSAoCiAgICB0YXJnZXQ6IEVsZW1lbnQgfCBDb21wb25lbnRQdWJsaWNJbnN0YW5jZSB8IG51bGwsCiAgKTogSFRNTEVsZW1lbnQgfCBudWxsID0+ICh0YXJnZXQgaW5zdGFuY2VvZiBIVE1MRWxlbWVudCA/IHRhcmdldCA6IG51bGwpOwoKICBjb25zdCBzZXRUZXJtaW5hbFNoZWxsUmVmID0gKAogICAgdGFyZ2V0OiBFbGVtZW50IHwgQ29tcG9uZW50UHVibGljSW5zdGFuY2UgfCBudWxsLAogICkgPT4gewogICAgdGVybWluYWxTaGVsbFJlZi52YWx1ZSA9IHJlc29sdmVIdG1sRWxlbWVudCh0YXJnZXQpOwogIH07CgogIGNvbnN0IHNldFRlcm1pbmFsUGFuZWxSZWYgPSAoCiAgICB0YXJnZXQ6IEVsZW1lbnQgfCBDb21wb25lbnRQdWJsaWNJbnN0YW5jZSB8IG51bGwsCiAgKSA9PiB7CiAgICB0ZXJtaW5hbFBhbmVsUmVmLnZhbHVlID0gcmVzb2x2ZUh0bWxFbGVtZW50KHRhcmdldCk7CiAgfTsKCiAgY29uc3Qgc2V0TW9iaWxlQWNjZXNzb3J5QmFyUmVmID0gKAogICAgdGFyZ2V0OiBFbGVtZW50IHwgQ29tcG9uZW50UHVibGljSW5zdGFuY2UgfCBudWxsLAogICkgPT4gewogICAgbW9iaWxlQWNjZXNzb3J5QmFyUmVmLnZhbHVlID0gcmVzb2x2ZUh0bWxFbGVtZW50KHRhcmdldCk7CiAgfTsKCiAgY29uc3Qgc2V0VGVybWluYWxTdGF0dXNSZWYgPSAoCiAgICB0YXJnZXQ6IEVsZW1lbnQgfCBDb21wb25lbnRQdWJsaWNJbnN0YW5jZSB8IG51bGwsCiAgKSA9PiB7CiAgICB0ZXJtaW5hbFN0YXR1c1JlZi52YWx1ZSA9IHJlc29sdmVIdG1sRWxlbWVudCh0YXJnZXQpOwogIH07CgogIGNvbnN0IHNob3dNb2JpbGVBY2Nlc3NvcnlCYXIgPSBjb21wdXRlZCgoKSA9PiBjb21wYWN0Vmlld3BvcnQudmFsdWUpOwogIGNvbnN0IHRlcm1pbmFsUGFuZWxDbGFzcyA9IGNvbXB1dGVkKCgpID0+CiAgICBpc1Rlcm1pbmFsRnVsbHNjcmVlbi52YWx1ZQogICAgICA/ICJmaXhlZCB6LTUwIGZsZXggb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtWzI0cHhdIGJnLWJhY2tncm91bmQvOTQgcC0yIHNoYWRvdy1bMF8yNHB4Xzk2cHhfcmdiYSgxNSwyMyw0MiwwLjM0KV0gYmFja2Ryb3AtYmx1ci1tZCBzbTpwLTMiCiAgICAgIDogIiIsCiAgKTsKICBjb25zdCB0ZXJtaW5hbFBhbmVsU3R5bGUgPSBjb21wdXRlZCgoKSA9PgogICAgaXNUZXJtaW5hbEZ1bGxzY3JlZW4udmFsdWUKICAgICAgPyB7CiAgICAgICAgICB0b3A6ICJtYXgoZW52KHNhZmUtYXJlYS1pbnNldC10b3ApLCAwLjVyZW0pIiwKICAgICAgICAgIHJpZ2h0OiAibWF4KGVudihzYWZlLWFyZWEtaW5zZXQtcmlnaHQpLCAwLjVyZW0pIiwKICAgICAgICAgIGJvdHRvbTogIm1heChlbnYoc2FmZS1hcmVhLWluc2V0LWJvdHRvbSksIDAuNXJlbSkiLAogICAgICAgICAgbGVmdDogIm1heChlbnYoc2FmZS1hcmVhLWluc2V0LWxlZnQpLCAwLjVyZW0pIiwKICAgICAgICB9CiAgICAgIDogdW5kZWZpbmVkLAogICk7CiAgY29uc3QgdGVybWluYWxGcmFtZVN0eWxlID0gY29tcHV0ZWQoKCkgPT4gewogICAgaWYgKGlzVGVybWluYWxGdWxsc2NyZWVuLnZhbHVlKSB7CiAgICAgIHJldHVybiB7CiAgICAgICAgbWluSGVpZ2h0OiAiMCIsCiAgICAgICAgbWF4SGVpZ2h0OiAibm9uZSIsCiAgICAgIH07CiAgICB9CgogICAgcmV0dXJuIGNvbXBhY3RWaWV3cG9ydC52YWx1ZQogICAgICA/IHsKICAgICAgICAgIGhlaWdodDogdGVybWluYWxIZWlnaHQudmFsdWUsCiAgICAgICAgICBtaW5IZWlnaHQ6IHRlcm1pbmFsSGVpZ2h0LnZhbHVlLAogICAgICAgIH0KICAgICAgOiB7CiAgICAgICAgICBtYXhIZWlnaHQ6IHRlcm1pbmFsSGVpZ2h0LnZhbHVlLAogICAgICAgIH07CiAgfSk7CgogIGNvbnN0IHN5bmNWaWV3cG9ydEhlaWdodCA9ICgpID0+IHsKICAgIGNvbXBhY3RWaWV3cG9ydC52YWx1ZSA9IGRldGVjdENvbXBhY3RWaWV3cG9ydCgpOwogICAgc3luY1Rlcm1pbmFsVGV4dElucHV0QW5jaG9yKCk7CiAgICBjb25zdCBtZWFzdXJlbWVudFRhcmdldCA9IGlzVGVybWluYWxGdWxsc2NyZWVuLnZhbHVlCiAgICAgID8gdGVybWluYWxQYW5lbFJlZi52YWx1ZQogICAgICA6IHRlcm1pbmFsRnJhbWVSZWYudmFsdWUgfHwgdGVybWluYWxTaGVsbFJlZi52YWx1ZTsKICAgIGlmICghbWVhc3VyZW1lbnRUYXJnZXQpIHJldHVybjsKCiAgICBjb25zdCByZWN0ID0gbWVhc3VyZW1lbnRUYXJnZXQuZ2V0Qm91bmRpbmdDbGllbnRSZWN0KCk7CiAgICBjb25zdCB2aWV3cG9ydE1ldHJpY3MgPSBnZXRWaXN1YWxWaWV3cG9ydE1ldHJpY3MoKTsKICAgIGNvbnN0IGFjY2Vzc29yeUhlaWdodCA9CiAgICAgIGNvbXBhY3RWaWV3cG9ydC52YWx1ZSAmJiBzaG93TW9iaWxlQWNjZXNzb3J5QmFyLnZhbHVlCiAgICAgICAgPyAobW9iaWxlQWNjZXNzb3J5QmFyUmVmLnZhbHVlPy5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKS5oZWlnaHQgPz8gMCkKICAgICAgICA6IDA7CiAgICBjb25zdCBzdGF0dXNIZWlnaHQgPQogICAgICB0ZXJtaW5hbFN0YXR1c1JlZi52YWx1ZT8uZ2V0Qm91bmRpbmdDbGllbnRSZWN0KCkuaGVpZ2h0ID8/IDA7CiAgICBjb25zdCBib3R0b21HYXAgPSBjb21wYWN0Vmlld3BvcnQudmFsdWUKICAgICAgPyBNT0JJTEVfVEVSTUlOQUxfQk9UVE9NX0dBUF9QWAogICAgICA6IERFU0tUT1BfVEVSTUlOQUxfQk9UVE9NX0dBUF9QWDsKICAgIGNvbnN0IHJlc2VydmVkSGVpZ2h0ID0gTWF0aC5jZWlsKAogICAgICBhY2Nlc3NvcnlIZWlnaHQgKyBzdGF0dXNIZWlnaHQgKyBib3R0b21HYXAsCiAgICApOwogICAgY29uc3QgYXZhaWxhYmxlID0gTWF0aC5mbG9vcigKICAgICAgdmlld3BvcnRNZXRyaWNzLnZpc2libGVCb3R0b20gLSByZWN0LnRvcCAtIHJlc2VydmVkSGVpZ2h0LAogICAgKTsKICAgIGNvbnN0IG5leHRIZWlnaHQgPQogICAgICBhdmFpbGFibGUgPiAwCiAgICAgICAgPyBjb21wYWN0Vmlld3BvcnQudmFsdWUKICAgICAgICAgID8gYXZhaWxhYmxlCiAgICAgICAgICA6IE1hdGgubWluKE1BWF9URVJNSU5BTF9IRUlHSFRfREVTS1RPUF9QWCwgYXZhaWxhYmxlKQogICAgICAgIDogREVGQVVMVF9URVJNSU5BTF9IRUlHSFRfUFg7CiAgICB0ZXJtaW5hbEhlaWdodC52YWx1ZSA9IGAke25leHRIZWlnaHR9cHhgOwogICAgc2NoZWR1bGVGaXQoKTsKCiAgICBpZiAoCiAgICAgICFpc1Rlcm1pbmFsRnVsbHNjcmVlbi52YWx1ZSAmJgogICAgICBjb21wYWN0Vmlld3BvcnQudmFsdWUgJiYKICAgICAgdmlld3BvcnRNZXRyaWNzLmtleWJvYXJkSW5zZXQgPj0gTU9CSUxFX0tFWUJPQVJEX0lOU0VUX1RIUkVTSE9MRF9QWAogICAgKSB7CiAgICAgIHZvaWQgbmV4dFRpY2soKCkgPT4gewogICAgICAgIGNvbnN0IGZyYW1lUmVjdCA9IHRlcm1pbmFsRnJhbWVSZWYudmFsdWU/LmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpOwogICAgICAgIGlmICghZnJhbWVSZWN0KSByZXR1cm47CgogICAgICAgIGNvbnN0IHZpc2libGVUb3AgPSB2aWV3cG9ydE1ldHJpY3Mub2Zmc2V0VG9wICsgODsKICAgICAgICBjb25zdCB2aXNpYmxlQm90dG9tID0gdmlld3BvcnRNZXRyaWNzLnZpc2libGVCb3R0b20gLSA4OwogICAgICAgIGlmIChmcmFtZVJlY3QudG9wIDwgdmlzaWJsZVRvcCB8fCBmcmFtZVJlY3QuYm90dG9tID4gdmlzaWJsZUJvdHRvbSkgewogICAgICAgICAgdGVybWluYWxGcmFtZVJlZi52YWx1ZT8uc2Nyb2xsSW50b1ZpZXcoewogICAgICAgICAgICBibG9jazogIm5lYXJlc3QiLAogICAgICAgICAgICBpbmxpbmU6ICJuZWFyZXN0IiwKICAgICAgICAgIH0pOwogICAgICAgIH0KICAgICAgfSk7CiAgICB9CiAgfTsKCiAgY29uc3Qgc2V0VGVybWluYWxGdWxsc2NyZWVuID0gYXN5bmMgKG5leHRGdWxsc2NyZWVuOiBib29sZWFuKSA9PiB7CiAgICBpZiAobmV4dEZ1bGxzY3JlZW4gPT09IGlzVGVybWluYWxGdWxsc2NyZWVuLnZhbHVlKSB7CiAgICAgIGlmIChuZXh0RnVsbHNjcmVlbikgewogICAgICAgIGZvY3VzVGVybWluYWwoKTsKICAgICAgfQogICAgICByZXR1cm47CiAgICB9CgogICAgaXNUZXJtaW5hbEZ1bGxzY3JlZW4udmFsdWUgPSBuZXh0RnVsbHNjcmVlbjsKICAgIGlmIChuZXh0RnVsbHNjcmVlbikgewogICAgICBwYWdlU2Nyb2xsTG9jay5sb2NrKCk7CiAgICB9IGVsc2UgewogICAgICBwYWdlU2Nyb2xsTG9jay51bmxvY2soKTsKICAgIH0KCiAgICBhd2FpdCBuZXh0VGljaygpOwogICAgc3luY1ZpZXdwb3J0SGVpZ2h0KCk7CiAgICBmb2N1c1Rlcm1pbmFsKCk7CiAgfTsKCiAgY29uc3QgdG9nZ2xlVGVybWluYWxGdWxsc2NyZWVuID0gKCkgPT4gewogICAgdm9pZCBzZXRUZXJtaW5hbEZ1bGxzY3JlZW4oIWlzVGVybWluYWxGdWxsc2NyZWVuLnZhbHVlKTsKICB9OwoKICBjb25zdCBzdGFydFZpZXdwb3J0VHJhY2tpbmcgPSAoKSA9PiB7CiAgICBjb21wYWN0Vmlld3BvcnQudmFsdWUgPSBkZXRlY3RDb21wYWN0Vmlld3BvcnQoKTsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJyZXNpemUiLCBzeW5jVmlld3BvcnRIZWlnaHQpOwogICAgd2luZG93LnZpc3VhbFZpZXdwb3J0Py5hZGRFdmVudExpc3RlbmVyKCJyZXNpemUiLCBzeW5jVmlld3BvcnRIZWlnaHQpOwogICAgd2luZG93LnZpc3VhbFZpZXdwb3J0Py5hZGRFdmVudExpc3RlbmVyKCJzY3JvbGwiLCBzeW5jVmlld3BvcnRIZWlnaHQpOwogIH07CgogIGNvbnN0IHN0b3BWaWV3cG9ydFRyYWNraW5nID0gKCkgPT4gewogICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoInJlc2l6ZSIsIHN5bmNWaWV3cG9ydEhlaWdodCk7CiAgICB3aW5kb3cudmlzdWFsVmlld3BvcnQ/LnJlbW92ZUV2ZW50TGlzdGVuZXIoInJlc2l6ZSIsIHN5bmNWaWV3cG9ydEhlaWdodCk7CiAgICB3aW5kb3cudmlzdWFsVmlld3BvcnQ/LnJlbW92ZUV2ZW50TGlzdGVuZXIoInNjcm9sbCIsIHN5bmNWaWV3cG9ydEhlaWdodCk7CiAgICBwYWdlU2Nyb2xsTG9jay51bmxvY2soKTsKICB9OwoKICByZXR1cm4gewogICAgY29tcGFjdFZpZXdwb3J0LAogICAgaXNUZXJtaW5hbEZ1bGxzY3JlZW4sCiAgICBzZXRNb2JpbGVBY2Nlc3NvcnlCYXJSZWYsCiAgICBzZXRUZXJtaW5hbEZ1bGxzY3JlZW4sCiAgICBzZXRUZXJtaW5hbFBhbmVsUmVmLAogICAgc2V0VGVybWluYWxTaGVsbFJlZiwKICAgIHNldFRlcm1pbmFsU3RhdHVzUmVmLAogICAgc2hvd01vYmlsZUFjY2Vzc29yeUJhciwKICAgIHN0YXJ0Vmlld3BvcnRUcmFja2luZywKICAgIHN0b3BWaWV3cG9ydFRyYWNraW5nLAogICAgc3luY1ZpZXdwb3J0SGVpZ2h0LAogICAgdGVybWluYWxGcmFtZVJlZiwKICAgIHRlcm1pbmFsRnJhbWVTdHlsZSwKICAgIHRlcm1pbmFsUGFuZWxDbGFzcywKICAgIHRlcm1pbmFsUGFuZWxTdHlsZSwKICAgIHRvZ2dsZVRlcm1pbmFsRnVsbHNjcmVlbiwKICB9Owp9Owo=
+import { computed, nextTick, ref, type ComponentPublicInstance } from "vue";
+import {
+  DEFAULT_TERMINAL_HEIGHT_PX,
+  DESKTOP_TERMINAL_BOTTOM_GAP_PX,
+  MAX_TERMINAL_HEIGHT_DESKTOP_PX,
+  MOBILE_KEYBOARD_INSET_THRESHOLD_PX,
+  MOBILE_TERMINAL_BOTTOM_GAP_PX,
+} from "./terminal-runtime";
+import {
+  createPageScrollLock,
+  detectCompactViewport,
+  getVisualViewportMetrics,
+} from "./terminal-dom";
+
+export const useTerminalViewportLayout = ({
+  focusTerminal,
+  scheduleFit,
+  syncTerminalTextInputAnchor,
+}: {
+  focusTerminal: () => void;
+  scheduleFit: () => void;
+  syncTerminalTextInputAnchor: () => void;
+}) => {
+  const terminalShellRef = ref<HTMLElement | null>(null);
+  const terminalPanelRef = ref<HTMLElement | null>(null);
+  const terminalFrameRef = ref<HTMLElement | null>(null);
+  const mobileAccessoryBarRef = ref<HTMLElement | null>(null);
+  const terminalStatusRef = ref<HTMLElement | null>(null);
+  const terminalHeight = ref(`${DEFAULT_TERMINAL_HEIGHT_PX}px`);
+  const compactViewport = ref(false);
+  const isTerminalFullscreen = ref(false);
+  const pageScrollLock = createPageScrollLock();
+
+  const resolveHtmlElement = (
+    target: Element | ComponentPublicInstance | null,
+  ): HTMLElement | null => (target instanceof HTMLElement ? target : null);
+
+  const setTerminalShellRef = (
+    target: Element | ComponentPublicInstance | null,
+  ) => {
+    terminalShellRef.value = resolveHtmlElement(target);
+  };
+
+  const setTerminalPanelRef = (
+    target: Element | ComponentPublicInstance | null,
+  ) => {
+    terminalPanelRef.value = resolveHtmlElement(target);
+  };
+
+  const setMobileAccessoryBarRef = (
+    target: Element | ComponentPublicInstance | null,
+  ) => {
+    mobileAccessoryBarRef.value = resolveHtmlElement(target);
+  };
+
+  const setTerminalStatusRef = (
+    target: Element | ComponentPublicInstance | null,
+  ) => {
+    terminalStatusRef.value = resolveHtmlElement(target);
+  };
+
+  const showMobileAccessoryBar = computed(() => compactViewport.value);
+  const terminalPanelClass = computed(() =>
+    isTerminalFullscreen.value
+      ? "fixed z-50 flex overflow-hidden rounded-[24px] bg-background/94 p-2 shadow-[0_24px_96px_rgba(15,23,42,0.34)] backdrop-blur-md sm:p-3"
+      : "",
+  );
+  const terminalPanelStyle = computed(() =>
+    isTerminalFullscreen.value
+      ? {
+          top: "max(env(safe-area-inset-top), 0.5rem)",
+          right: "max(env(safe-area-inset-right), 0.5rem)",
+          bottom: "max(env(safe-area-inset-bottom), 0.5rem)",
+          left: "max(env(safe-area-inset-left), 0.5rem)",
+        }
+      : undefined,
+  );
+  const terminalFrameStyle = computed(() => {
+    if (isTerminalFullscreen.value) {
+      return {
+        minHeight: "0",
+        maxHeight: "none",
+      };
+    }
+
+    return compactViewport.value
+      ? {
+          height: terminalHeight.value,
+          minHeight: terminalHeight.value,
+        }
+      : {
+          maxHeight: terminalHeight.value,
+        };
+  });
+
+  const syncViewportHeight = () => {
+    compactViewport.value = detectCompactViewport();
+    syncTerminalTextInputAnchor();
+    const measurementTarget = isTerminalFullscreen.value
+      ? terminalPanelRef.value
+      : terminalFrameRef.value || terminalShellRef.value;
+    if (!measurementTarget) return;
+
+    const rect = measurementTarget.getBoundingClientRect();
+    const viewportMetrics = getVisualViewportMetrics();
+    const accessoryHeight =
+      compactViewport.value && showMobileAccessoryBar.value
+        ? (mobileAccessoryBarRef.value?.getBoundingClientRect().height ?? 0)
+        : 0;
+    const statusHeight =
+      terminalStatusRef.value?.getBoundingClientRect().height ?? 0;
+    const bottomGap = compactViewport.value
+      ? MOBILE_TERMINAL_BOTTOM_GAP_PX
+      : DESKTOP_TERMINAL_BOTTOM_GAP_PX;
+    const reservedHeight = Math.ceil(
+      accessoryHeight + statusHeight + bottomGap,
+    );
+    const available = Math.floor(
+      viewportMetrics.visibleBottom - rect.top - reservedHeight,
+    );
+    const nextHeight =
+      available > 0
+        ? compactViewport.value
+          ? available
+          : Math.min(MAX_TERMINAL_HEIGHT_DESKTOP_PX, available)
+        : DEFAULT_TERMINAL_HEIGHT_PX;
+    terminalHeight.value = `${nextHeight}px`;
+    scheduleFit();
+
+    if (
+      !isTerminalFullscreen.value &&
+      compactViewport.value &&
+      viewportMetrics.keyboardInset >= MOBILE_KEYBOARD_INSET_THRESHOLD_PX
+    ) {
+      void nextTick(() => {
+        const frameRect = terminalFrameRef.value?.getBoundingClientRect();
+        if (!frameRect) return;
+
+        const visibleTop = viewportMetrics.offsetTop + 8;
+        const visibleBottom = viewportMetrics.visibleBottom - 8;
+        if (frameRect.top < visibleTop || frameRect.bottom > visibleBottom) {
+          terminalFrameRef.value?.scrollIntoView({
+            block: "nearest",
+            inline: "nearest",
+          });
+        }
+      });
+    }
+  };
+
+  const setTerminalFullscreen = async (nextFullscreen: boolean) => {
+    if (nextFullscreen === isTerminalFullscreen.value) {
+      if (nextFullscreen) {
+        focusTerminal();
+      }
+      return;
+    }
+
+    isTerminalFullscreen.value = nextFullscreen;
+    if (nextFullscreen) {
+      pageScrollLock.lock();
+    } else {
+      pageScrollLock.unlock();
+    }
+
+    await nextTick();
+    syncViewportHeight();
+    focusTerminal();
+  };
+
+  const toggleTerminalFullscreen = () => {
+    void setTerminalFullscreen(!isTerminalFullscreen.value);
+  };
+
+  const startViewportTracking = () => {
+    compactViewport.value = detectCompactViewport();
+    window.addEventListener("resize", syncViewportHeight);
+    window.visualViewport?.addEventListener("resize", syncViewportHeight);
+    window.visualViewport?.addEventListener("scroll", syncViewportHeight);
+  };
+
+  const stopViewportTracking = () => {
+    window.removeEventListener("resize", syncViewportHeight);
+    window.visualViewport?.removeEventListener("resize", syncViewportHeight);
+    window.visualViewport?.removeEventListener("scroll", syncViewportHeight);
+    pageScrollLock.unlock();
+  };
+
+  return {
+    compactViewport,
+    isTerminalFullscreen,
+    setMobileAccessoryBarRef,
+    setTerminalFullscreen,
+    setTerminalPanelRef,
+    setTerminalShellRef,
+    setTerminalStatusRef,
+    showMobileAccessoryBar,
+    startViewportTracking,
+    stopViewportTracking,
+    syncViewportHeight,
+    terminalFrameRef,
+    terminalFrameStyle,
+    terminalPanelClass,
+    terminalPanelStyle,
+    toggleTerminalFullscreen,
+  };
+};

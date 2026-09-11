@@ -1,1 +1,152 @@
-PHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iZW1pdCgndXBkYXRlOm9wZW4nLCAkZXZlbnQpIj4KICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJzbTptYXgtdy1bNTIwcHhdIj4KICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICA8RGlhbG9nVGl0bGU+e3sKICAgICAgICAgIHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnNlbGVjdFNlcnZpY2VUaXRsZSIpCiAgICAgICAgfX08L0RpYWxvZ1RpdGxlPgogICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgIHt7IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnNlbGVjdFNlcnZpY2VEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgPExhYmVsIGZvcj0ic3RyZWFtLXNlcnZpY2Utc2VsZWN0Ij57ewogICAgICAgICAgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3Muc2VydmljZVByb2ZpbGUiKQogICAgICAgIH19PC9MYWJlbD4KICAgICAgICA8c2VsZWN0CiAgICAgICAgICBpZD0ic3RyZWFtLXNlcnZpY2Utc2VsZWN0IgogICAgICAgICAgdi1tb2RlbD0ic2VsZWN0ZWQiCiAgICAgICAgICBjbGFzcz0iaC0xMCB3LWZ1bGwgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWlucHV0IGJnLWJhY2tncm91bmQgcHgtMyB0ZXh0LXNtIgogICAgICAgICAgOmRpc2FibGVkPSJsb2FkaW5nIgogICAgICAgID4KICAgICAgICAgIDxvcHRpb24gdmFsdWU9IiIgZGlzYWJsZWQ+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnNlbGVjdFNlcnZpY2VQbGFjZWhvbGRlciIpIH19CiAgICAgICAgICA8L29wdGlvbj4KICAgICAgICAgIDxvcHRpb24KICAgICAgICAgICAgdi1mb3I9Iml0ZW0gaW4gY29tcGF0aWJsZUl0ZW1zIgogICAgICAgICAgICA6a2V5PSJpdGVtLnNlcnZpY2VfaWQiCiAgICAgICAgICAgIDp2YWx1ZT0iaXRlbS5zZXJ2aWNlX2lkIgogICAgICAgICAgPgogICAgICAgICAgICB7eyBzZXJ2aWNlT3B0aW9uTGFiZWwoaXRlbSkgfX0KICAgICAgICAgIDwvb3B0aW9uPgogICAgICAgIDwvc2VsZWN0PgogICAgICAgIDxwCiAgICAgICAgICBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLXByaW1hcnkvMTUgYmctcHJpbWFyeS81IHAtMyB0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgPgogICAgICAgICAge3sKICAgICAgICAgICAgc2VsZWN0ZWRJdGVtICYmICFzZWxlY3RlZEl0ZW0uc3RyaWN0X2NhcGFibGUKICAgICAgICAgICAgICA/IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnNlbGVjdFNlcnZpY2VJZGVudGlmaWNhdGlvbk9ubHlXYXJuaW5nIikKICAgICAgICAgICAgICA6IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnNlbGVjdFNlcnZpY2VXYXJuaW5nIikKICAgICAgICAgIH19CiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KICAgICAgPERpYWxvZ0Zvb3Rlcj4KICAgICAgICA8Q29uZmlybURhbmdlclBvcG92ZXIKICAgICAgICAgIHYtaWY9ImNhbkNsZWFyIgogICAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5zdHJlYW1NYXBwaW5ncy5jbGVhclNlcnZpY2VUaXRsZScpIgogICAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5zdHJlYW1NYXBwaW5ncy5jbGVhclNlcnZpY2VEZXNjcmlwdGlvbicpIgogICAgICAgICAgOmNvbmZpcm0tdGV4dD0idCgnYWRtaW4uc3RyZWFtTWFwcGluZ3MuY2xlYXJTZXJ2aWNlQ29uZmlybScpIgogICAgICAgICAgOmxvYWRpbmc9ImxvYWRpbmciCiAgICAgICAgICA6ZGlzYWJsZWQ9ImxvYWRpbmciCiAgICAgICAgICA6b24tY29uZmlybT0iKCkgPT4gZW1pdCgnY2xlYXInKSIKICAgICAgICAgIGNvbnRlbnQtY2xhc3M9InctODAgdGV4dC1sZWZ0IgogICAgICAgID4KICAgICAgICAgIDx0ZW1wbGF0ZSAjdHJpZ2dlcj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHZhcmlhbnQ9ImRlc3RydWN0aXZlLW91dGxpbmUiCiAgICAgICAgICAgICAgY2xhc3M9InNtOm1yLWF1dG8iCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJsb2FkaW5nIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuY2xlYXJTZXJ2aWNlIikgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgIDwvQ29uZmlybURhbmdlclBvcG92ZXI+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIDpkaXNhYmxlZD0ibG9hZGluZyIKICAgICAgICAgIEBjbGljaz0iZW1pdCgndXBkYXRlOm9wZW4nLCBmYWxzZSkiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuY2FuY2VsIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICA6ZGlzYWJsZWQ9ImxvYWRpbmcgfHwgIWNhbkNvbmZpcm0iCiAgICAgICAgICBAY2xpY2s9ImVtaXQoJ2NvbmZpcm0nLCBzZWxlY3RlZCkiCiAgICAgICAgPgogICAgICAgICAge3sKICAgICAgICAgICAgbG9hZGluZwogICAgICAgICAgICAgID8gdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3Muc2F2aW5nUG9saWN5IikKICAgICAgICAgICAgICA6IHNlbGVjdGVkSXRlbSAmJiAhc2VsZWN0ZWRJdGVtLnN0cmljdF9jYXBhYmxlCiAgICAgICAgICAgICAgICA/IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLmNvbmZpcm1TZXJ2aWNlSWRlbnRpZmljYXRpb25Pbmx5IikKICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuY29uZmlybVNlcnZpY2UiKQogICAgICAgICAgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KaW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgQ29uZmlybURhbmdlclBvcG92ZXIgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtRGFuZ2VyUG9wb3Zlci52dWUiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB0eXBlIHsgU3RyZWFtTWFwcGluZyB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgdHlwZSB7CiAgU3RyZWFtU2VydmljZUNhdGFsb2csCiAgU3RyZWFtU2VydmljZURlc2NyaXB0b3IsCn0gZnJvbSAiQC9saWIvYXBpL2NvbmZpZyI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBvcGVuOiBib29sZWFuOwogIGxvYWRpbmc6IGJvb2xlYW47CiAgbWFwcGluZzogU3RyZWFtTWFwcGluZyB8IG51bGw7CiAgY2F0YWxvZzogU3RyZWFtU2VydmljZUNhdGFsb2cgfCBudWxsOwogIGluaXRpYWxTZXJ2aWNlSWQ6IHN0cmluZzsKfT4oKTsKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICBjbGVhcjogW107CiAgY29uZmlybTogW3NlcnZpY2VJZDogc3RyaW5nXTsKICAidXBkYXRlOm9wZW4iOiBbb3BlbjogYm9vbGVhbl07Cn0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBzZWxlY3RlZCA9IHJlZigiIik7CmNvbnN0IGNhbkNsZWFyID0gY29tcHV0ZWQoCiAgKCkgPT4KICAgIHByb3BzLm1hcHBpbmc/LnNlcnZpY2VfcHJvZmlsZT8uc291cmNlID09PSAibWFudWFsIiAmJgogICAgQm9vbGVhbihwcm9wcy5pbml0aWFsU2VydmljZUlkKSwKKTsKY29uc3QgY29tcGF0aWJsZUl0ZW1zID0gY29tcHV0ZWQoKCkgPT4KICAocHJvcHMuY2F0YWxvZz8uaXRlbXMgPz8gW10pLmZpbHRlcigKICAgIChpdGVtKSA9PgogICAgICBCb29sZWFuKHByb3BzLm1hcHBpbmcpICYmCiAgICAgIGl0ZW0udHJhbnNwb3J0cy5pbmNsdWRlcyhwcm9wcy5tYXBwaW5nIS5wcm90b2NvbCksCiAgKSwKKTsKY29uc3Qgc2VsZWN0ZWRJdGVtID0gY29tcHV0ZWQoKCkgPT4KICBjb21wYXRpYmxlSXRlbXMudmFsdWUuZmluZCgoaXRlbSkgPT4gaXRlbS5zZXJ2aWNlX2lkID09PSBzZWxlY3RlZC52YWx1ZSksCik7CmNvbnN0IGNhbkNvbmZpcm0gPSBjb21wdXRlZCgoKSA9PgogIGNvbXBhdGlibGVJdGVtcy52YWx1ZS5zb21lKChpdGVtKSA9PiBpdGVtLnNlcnZpY2VfaWQgPT09IHNlbGVjdGVkLnZhbHVlKSwKKTsKZnVuY3Rpb24gc2VydmljZU9wdGlvbkxhYmVsKGl0ZW06IFN0cmVhbVNlcnZpY2VEZXNjcmlwdG9yKSB7CiAgY29uc3QgbGFiZWwgPSBgJHtpdGVtLmRpc3BsYXlfbmFtZX0gwrcgJHtpdGVtLnNlcnZpY2VfZmFtaWx5fWA7CiAgcmV0dXJuIGl0ZW0uc3RyaWN0X2NhcGFibGUKICAgID8gbGFiZWwKICAgIDogYCR7bGFiZWx9IMK3ICR7dCgiYWRtaW4uc3RyZWFtTWFwcGluZ3Muc2VydmljZUlkZW50aWZpY2F0aW9uT25seSIpfWA7Cn0Kd2F0Y2goCiAgKCkgPT4gW3Byb3BzLm9wZW4sIHByb3BzLm1hcHBpbmcsIHByb3BzLmluaXRpYWxTZXJ2aWNlSWRdIGFzIGNvbnN0LAogICgpID0+IHsKICAgIGlmIChwcm9wcy5vcGVuKSBzZWxlY3RlZC52YWx1ZSA9IHByb3BzLmluaXRpYWxTZXJ2aWNlSWQ7CiAgfSwKKTsKPC9zY3JpcHQ+Cg==
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="sm:max-w-[520px]">
+      <DialogHeader>
+        <DialogTitle>{{
+          t("admin.streamMappings.selectServiceTitle")
+        }}</DialogTitle>
+        <DialogDescription>
+          {{ t("admin.streamMappings.selectServiceDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+      <div class="space-y-2">
+        <Label for="stream-service-select">{{
+          t("admin.streamMappings.serviceProfile")
+        }}</Label>
+        <select
+          id="stream-service-select"
+          v-model="selected"
+          class="h-10 w-full rounded-md border border-input bg-background px-3 text-sm"
+          :disabled="loading"
+        >
+          <option value="" disabled>
+            {{ t("admin.streamMappings.selectServicePlaceholder") }}
+          </option>
+          <option
+            v-for="item in compatibleItems"
+            :key="item.service_id"
+            :value="item.service_id"
+          >
+            {{ serviceOptionLabel(item) }}
+          </option>
+        </select>
+        <p
+          class="rounded-lg border border-primary/15 bg-primary/5 p-3 text-xs leading-5 text-muted-foreground"
+        >
+          {{
+            selectedItem && !selectedItem.strict_capable
+              ? t("admin.streamMappings.selectServiceIdentificationOnlyWarning")
+              : t("admin.streamMappings.selectServiceWarning")
+          }}
+        </p>
+      </div>
+      <DialogFooter>
+        <ConfirmDangerPopover
+          v-if="canClear"
+          :title="t('admin.streamMappings.clearServiceTitle')"
+          :description="t('admin.streamMappings.clearServiceDescription')"
+          :confirm-text="t('admin.streamMappings.clearServiceConfirm')"
+          :loading="loading"
+          :disabled="loading"
+          :on-confirm="() => emit('clear')"
+          content-class="w-80 text-left"
+        >
+          <template #trigger>
+            <Button
+              variant="destructive-outline"
+              class="sm:mr-auto"
+              :disabled="loading"
+            >
+              {{ t("admin.streamMappings.clearService") }}
+            </Button>
+          </template>
+        </ConfirmDangerPopover>
+        <Button
+          variant="outline"
+          :disabled="loading"
+          @click="emit('update:open', false)"
+        >
+          {{ t("admin.streamMappings.cancel") }}
+        </Button>
+        <Button
+          :disabled="loading || !canConfirm"
+          @click="emit('confirm', selected)"
+        >
+          {{
+            loading
+              ? t("admin.streamMappings.savingPolicy")
+              : selectedItem && !selectedItem.strict_capable
+                ? t("admin.streamMappings.confirmServiceIdentificationOnly")
+                : t("admin.streamMappings.confirmService")
+          }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>
+
+<script setup lang="ts">
+import { computed, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Label } from "@/components/ui/label";
+import type { StreamMapping } from "@/types";
+import type {
+  StreamServiceCatalog,
+  StreamServiceDescriptor,
+} from "@/lib/api/config";
+
+const props = defineProps<{
+  open: boolean;
+  loading: boolean;
+  mapping: StreamMapping | null;
+  catalog: StreamServiceCatalog | null;
+  initialServiceId: string;
+}>();
+const emit = defineEmits<{
+  clear: [];
+  confirm: [serviceId: string];
+  "update:open": [open: boolean];
+}>();
+const { t } = useI18n();
+const selected = ref("");
+const canClear = computed(
+  () =>
+    props.mapping?.service_profile?.source === "manual" &&
+    Boolean(props.initialServiceId),
+);
+const compatibleItems = computed(() =>
+  (props.catalog?.items ?? []).filter(
+    (item) =>
+      Boolean(props.mapping) &&
+      item.transports.includes(props.mapping!.protocol),
+  ),
+);
+const selectedItem = computed(() =>
+  compatibleItems.value.find((item) => item.service_id === selected.value),
+);
+const canConfirm = computed(() =>
+  compatibleItems.value.some((item) => item.service_id === selected.value),
+);
+function serviceOptionLabel(item: StreamServiceDescriptor) {
+  const label = `${item.display_name} · ${item.service_family}`;
+  return item.strict_capable
+    ? label
+    : `${label} · ${t("admin.streamMappings.serviceIdentificationOnly")}`;
+}
+watch(
+  () => [props.open, props.mapping, props.initialServiceId] as const,
+  () => {
+    if (props.open) selected.value = props.initialServiceId;
+  },
+);
+</script>

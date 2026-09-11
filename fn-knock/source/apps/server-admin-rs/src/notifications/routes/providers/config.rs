@@ -1,1 +1,217 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIG1pc3NpbmdfY29uZmlnX3Jlc3VsdChtZXNzYWdlOiAmc3RyKSAtPiBQcm92aWRlclRlc3RSZXN1bHQgewogICAgUHJvdmlkZXJUZXN0UmVzdWx0IHsKICAgICAgICBzdWNjZXNzOiBmYWxzZSwKICAgICAgICByZXRyeWFibGU6IGZhbHNlLAogICAgICAgIG1lc3NhZ2U6IG1lc3NhZ2UudG9fc3RyaW5nKCksCiAgICAgICAgcmVxdWVzdF9zdW1tYXJ5OiBOb25lLAogICAgICAgIHJlc3BvbnNlX3N1bW1hcnk6IE5vbmUsCiAgICB9Cn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBmbiBwcm92aWRlcl90aW1lb3V0X3NlY29uZHMoCiAgICBwcm92aWRlcjogJlZhbHVlLAogICAgZmFsbGJhY2s6IGk2NCwKKSAtPiBpNjQgewogICAgcHJvdmlkZXIKICAgICAgICAuZ2V0KCJjb25uZWN0aW9uX2NvbmZpZyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3QpCiAgICAgICAgLmFuZF90aGVuKHxjb25maWd8IGNvbmZpZy5nZXQoInRpbWVvdXRfc2Vjb25kcyIpKQogICAgICAgIC5tYXAofHZhbHVlfCB2YWx1ZV90b19pNjQodmFsdWUsIGZhbGxiYWNrKSkKICAgICAgICAudW53cmFwX29yKGZhbGxiYWNrKQogICAgICAgIC5jbGFtcCgxLCAzMCkKfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIHByb3ZpZGVyX2NvbmZpZyhwcm92aWRlcjogJlZhbHVlKSAtPiBNYXA8U3RyaW5nLCBWYWx1ZT4gewogICAgcHJvdmlkZXIKICAgICAgICAuZ2V0KCJjb25uZWN0aW9uX2NvbmZpZyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3QpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIHZhbGlkYXRlX3Byb3ZpZGVyX2Nvbm5lY3Rpb25fY29uZmlnKAogICAgZGVmaW5pdGlvbjogJlByb3ZpZGVyRGVmaW5pdGlvbiwKICAgIGNvbmZpZzogJk1hcDxTdHJpbmcsIFZhbHVlPiwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IE5vdGlmeVJlc3VsdDwoKT4gewogICAgdmFsaWRhdGVfcHJvdmlkZXJfY29ubmVjdGlvbl9wYXRjaChkZWZpbml0aW9uLCBjb25maWcsIHRyYW5zbGF0b3IpPzsKICAgIGlmIGRlZmluaXRpb24ucHJvdmlkZXJfdHlwZSA9PSAiaGFybW9ueW9zbWVvdyIKICAgICAgICAmJiAhaGFybW9ueW9zbWVvd19uaWNrbmFtZV9pc192YWxpZCgmY29uZmlnX3RleHQoY29uZmlnLCAibmlja25hbWUiKSkKICAgIHsKICAgICAgICByZXR1cm4gRXJyKE5vdGlmeUVycm9yOjpCYWRSZXF1ZXN0KG5vdGlmaWNhdGlvbl9wcm92aWRlcl9lcnJvcl90ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAiaGFybW9ueW9zbWVvdyIsCiAgICAgICAgICAgICJpbnZhbGlkTmlja25hbWUiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSkpOwogICAgfQogICAgT2soKCkpCn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBmbiB2YWxpZGF0ZV9wcm92aWRlcl9jb25uZWN0aW9uX3BhdGNoKAogICAgZGVmaW5pdGlvbjogJlByb3ZpZGVyRGVmaW5pdGlvbiwKICAgIGNvbmZpZzogJk1hcDxTdHJpbmcsIFZhbHVlPiwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IE5vdGlmeVJlc3VsdDwoKT4gewogICAgaWYgZGVmaW5pdGlvbi5wcm92aWRlcl90eXBlID09ICJ3ZWJob29rIgogICAgICAgICYmIGxldCBTb21lKGhlYWRlcnMpID0gY29uZmlnLmdldCgiY3VzdG9tX2hlYWRlcnMiKQogICAgewogICAgICAgIHBhcnNlX3dlYmhvb2tfY3VzdG9tX2hlYWRlcnMoaGVhZGVycykKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBOb3RpZnlFcnJvcjo6QmFkUmVxdWVzdChlcnJvci50ZXh0KHRyYW5zbGF0b3IpKSk/OwogICAgfQogICAgaWYgZGVmaW5pdGlvbi5wcm92aWRlcl90eXBlID09ICJ3ZWJob29rIgogICAgICAgICYmIGxldCBTb21lKGJvZHkpID0gY29uZmlnLmdldCgiYm9keV9jb25maWciKQogICAgewogICAgICAgIHBhcnNlX3dlYmhvb2tfYm9keV9jb25maWcoYm9keSwgV2ViaG9va0JvZHlTY29wZTo6UHJvdmlkZXIpCiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgTm90aWZ5RXJyb3I6OkJhZFJlcXVlc3QoZXJyb3IudGV4dCh0cmFuc2xhdG9yKSkpPzsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgZm4gdGFyZ2V0X2NvbmZpZyh0YXJnZXQ6ICZWYWx1ZSkgLT4gTWFwPFN0cmluZywgVmFsdWU+IHsKICAgIHRhcmdldAogICAgICAgIC5nZXQoInRhcmdldF9jb25maWciKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfb2JqZWN0KQogICAgICAgIC5jbG9uZWQoKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBmbiBjb25maWdfdGV4dCgKICAgIGNvbmZpZzogJk1hcDxTdHJpbmcsIFZhbHVlPiwKICAgIGtleTogJnN0ciwKKSAtPiBTdHJpbmcgewogICAgY29uZmlnCiAgICAgICAgLmdldChrZXkpCiAgICAgICAgLm1hcCh2YWx1ZV90b190cmltbWVkX3N0cmluZykKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgZm4gZmlyc3RfY29uZmlnX3RleHQoCiAgICBjb25maWc6ICZNYXA8U3RyaW5nLCBWYWx1ZT4sCiAgICBrZXlzOiAmWyZzdHJdLAopIC0+IFN0cmluZyB7CiAgICBrZXlzLml0ZXIoKQogICAgICAgIC5maW5kX21hcCh8a2V5fCB7CiAgICAgICAgICAgIGxldCB2YWx1ZSA9IGNvbmZpZ190ZXh0KGNvbmZpZywga2V5KTsKICAgICAgICAgICAgKCF2YWx1ZS5pc19lbXB0eSgpKS50aGVuX3NvbWUodmFsdWUpCiAgICAgICAgfSkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgZm4gZWZmZWN0aXZlX2NvbmZpZ192YWx1ZSgKICAgIHByb3ZpZGVyX2NvbmZpZzogJk1hcDxTdHJpbmcsIFZhbHVlPiwKICAgIHRhcmdldF9jb25maWc6ICZNYXA8U3RyaW5nLCBWYWx1ZT4sCiAgICBrZXlzOiAmWyZzdHJdLAopIC0+IE9wdGlvbjxWYWx1ZT4gewogICAgZm9yIGtleSBpbiBrZXlzIHsKICAgICAgICBpZiBsZXQgU29tZSh2YWx1ZSkgPSB0YXJnZXRfY29uZmlnLmdldCgqa2V5KQogICAgICAgICAgICAmJiAhdmFsdWVfaXNfZW1wdHkodmFsdWUpCiAgICAgICAgICAgICYmIHZhbHVlX3RvX3RyaW1tZWRfc3RyaW5nKHZhbHVlKSAhPSAiX19pbmhlcml0X18iCiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gU29tZSh2YWx1ZS5jbG9uZSgpKTsKICAgICAgICB9CiAgICB9CiAgICBmb3Iga2V5IGluIGtleXMgewogICAgICAgIGlmIGxldCBTb21lKHZhbHVlKSA9IHByb3ZpZGVyX2NvbmZpZy5nZXQoKmtleSkKICAgICAgICAgICAgJiYgIXZhbHVlX2lzX2VtcHR5KHZhbHVlKQogICAgICAgIHsKICAgICAgICAgICAgcmV0dXJuIFNvbWUodmFsdWUuY2xvbmUoKSk7CiAgICAgICAgfQogICAgfQogICAgTm9uZQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgZm4gdmFsdWVfaXNfZW1wdHkodmFsdWU6ICZWYWx1ZSkgLT4gYm9vbCB7CiAgICBtYXRjaCB2YWx1ZSB7CiAgICAgICAgVmFsdWU6Ok51bGwgPT4gdHJ1ZSwKICAgICAgICBWYWx1ZTo6U3RyaW5nKHZhbHVlKSA9PiB2YWx1ZS50cmltKCkuaXNfZW1wdHkoKSwKICAgICAgICBfID0+IGZhbHNlLAogICAgfQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgZm4gc3BsaXRfdmFsdWVzKHZhbHVlOiBPcHRpb248JlZhbHVlPikgLT4gVmVjPFN0cmluZz4gewogICAgbWF0Y2ggdmFsdWUgewogICAgICAgIFNvbWUoVmFsdWU6OkFycmF5KHZhbHVlcykpID0+IHZhbHVlcwogICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgIC5tYXAodmFsdWVfdG9fdHJpbW1lZF9zdHJpbmcpCiAgICAgICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICAgICAgLmNvbGxlY3QoKSwKICAgICAgICBTb21lKHZhbHVlKSA9PiB2YWx1ZV90b190cmltbWVkX3N0cmluZyh2YWx1ZSkKICAgICAgICAgICAgLnNwbGl0KFsnLCcsICdcbiddKQogICAgICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgICAgICAgICAuY29sbGVjdCgpLAogICAgICAgIE5vbmUgPT4gVmVjOjpuZXcoKSwKICAgIH0KfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIHBhcnNlX3RvcGljX2lkcygKICAgIHZhbHVlOiBPcHRpb248JlZhbHVlPiwKKSAtPiAoVmVjPGk2ND4sIFZlYzxTdHJpbmc+KSB7CiAgICBsZXQgbXV0IGlkcyA9IFZlYzo6bmV3KCk7CiAgICBsZXQgbXV0IGludmFsaWQgPSBWZWM6Om5ldygpOwogICAgZm9yIGl0ZW0gaW4gc3BsaXRfdmFsdWVzKHZhbHVlKSB7CiAgICAgICAgaWYgIWl0ZW0uY2hhcnMoKS5hbGwofGNofCBjaC5pc19hc2NpaV9kaWdpdCgpKSB7CiAgICAgICAgICAgIGludmFsaWQucHVzaChpdGVtKTsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIG1hdGNoIGl0ZW0ucGFyc2U6OjxpNjQ+KCkgewogICAgICAgICAgICBPayh2YWx1ZSkgaWYgdmFsdWUgPiAwID0+IGlkcy5wdXNoKHZhbHVlKSwKICAgICAgICAgICAgXyA9PiBpbnZhbGlkLnB1c2goaXRlbSksCiAgICAgICAgfQogICAgfQogICAgKGlkcywgaW52YWxpZCkKfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIG9wdGlvbmFsX3Bvc2l0aXZlX2k2NCgKICAgIHZhbHVlOiBPcHRpb248JlZhbHVlPiwKKSAtPiBPcHRpb248aTY0PiB7CiAgICB2YWx1ZQogICAgICAgIC5tYXAofHZhbHVlfCB2YWx1ZV90b19pNjQodmFsdWUsIDApKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAqdmFsdWUgPiAwKQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgZm4gb3B0aW9uYWxfbm9ubmVnYXRpdmVfaTY0KAogICAgdmFsdWU6IE9wdGlvbjwmVmFsdWU+LAopIC0+IE9wdGlvbjxpNjQ+IHsKICAgIHZhbHVlCiAgICAgICAgLm1hcCh8dmFsdWV8IHZhbHVlX3RvX2k2NCh2YWx1ZSwgLTEpKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAqdmFsdWUgPj0gMCkKfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIG1lc3NhZ2VfdGV4dChtZXNzYWdlOiAmVmFsdWUsIGtleTogJnN0cikgLT4gU3RyaW5nIHsKICAgIG1lc3NhZ2UKICAgICAgICAuZ2V0KGtleSkKICAgICAgICAubWFwKHZhbHVlX3RvX3RyaW1tZWRfc3RyaW5nKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBmbiBtZXNzYWdlX3RpdGxlKG1lc3NhZ2U6ICZWYWx1ZSkgLT4gU3RyaW5nIHsKICAgIGRlZmF1bHRfc3RyaW5nKAogICAgICAgIG1lc3NhZ2VfdGV4dChtZXNzYWdlLCAidGl0bGUiKS5pZl9lbXB0eShtZXNzYWdlX3RleHQobWVzc2FnZSwgInN1bW1hcnkiKSksCiAgICAgICAgREVGQVVMVF9OT1RJRklDQVRJT05fTUVTU0FHRV9USVRMRSwKICAgICkKfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIG1lc3NhZ2Vfc3VtbWFyeShtZXNzYWdlOiAmVmFsdWUpIC0+IFN0cmluZyB7CiAgICBtZXNzYWdlX3RleHQobWVzc2FnZSwgInN1bW1hcnkiKQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgdXNlIGNyYXRlOjp0ZXh0X3V0aWxzOjp7RW1wdHlTdHJpbmdFeHQsIGRlZmF1bHRfc3RyaW5nfTsKCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBmbiBub25fZW1wdHlfb3IoCiAgICBmaXJzdDogU3RyaW5nLAogICAgc2Vjb25kOiBTdHJpbmcsCiAgICB0aGlyZDogJnN0ciwKKSAtPiBTdHJpbmcgewogICAgaWYgIWZpcnN0LnRyaW0oKS5pc19lbXB0eSgpIHsKICAgICAgICBmaXJzdAogICAgfSBlbHNlIGlmICFzZWNvbmQudHJpbSgpLmlzX2VtcHR5KCkgewogICAgICAgIHNlY29uZAogICAgfSBlbHNlIHsKICAgICAgICB0aGlyZC50b19zdHJpbmcoKQogICAgfQp9Cg==
+use super::*;
+
+pub(in crate::notifications::routes) fn missing_config_result(message: &str) -> ProviderTestResult {
+    ProviderTestResult {
+        success: false,
+        retryable: false,
+        message: message.to_string(),
+        request_summary: None,
+        response_summary: None,
+    }
+}
+
+pub(in crate::notifications::routes) fn provider_timeout_seconds(
+    provider: &Value,
+    fallback: i64,
+) -> i64 {
+    provider
+        .get("connection_config")
+        .and_then(Value::as_object)
+        .and_then(|config| config.get("timeout_seconds"))
+        .map(|value| value_to_i64(value, fallback))
+        .unwrap_or(fallback)
+        .clamp(1, 30)
+}
+
+pub(in crate::notifications::routes) fn provider_config(provider: &Value) -> Map<String, Value> {
+    provider
+        .get("connection_config")
+        .and_then(Value::as_object)
+        .cloned()
+        .unwrap_or_default()
+}
+
+pub(in crate::notifications::routes) fn validate_provider_connection_config(
+    definition: &ProviderDefinition,
+    config: &Map<String, Value>,
+    translator: &Translator,
+) -> NotifyResult<()> {
+    validate_provider_connection_patch(definition, config, translator)?;
+    if definition.provider_type == "harmonyosmeow"
+        && !harmonyosmeow_nickname_is_valid(&config_text(config, "nickname"))
+    {
+        return Err(NotifyError::BadRequest(notification_provider_error_text(
+            translator,
+            "harmonyosmeow",
+            "invalidNickname",
+            &[],
+        )));
+    }
+    Ok(())
+}
+
+pub(in crate::notifications::routes) fn validate_provider_connection_patch(
+    definition: &ProviderDefinition,
+    config: &Map<String, Value>,
+    translator: &Translator,
+) -> NotifyResult<()> {
+    if definition.provider_type == "webhook"
+        && let Some(headers) = config.get("custom_headers")
+    {
+        parse_webhook_custom_headers(headers)
+            .map_err(|error| NotifyError::BadRequest(error.text(translator)))?;
+    }
+    if definition.provider_type == "webhook"
+        && let Some(body) = config.get("body_config")
+    {
+        parse_webhook_body_config(body, WebhookBodyScope::Provider)
+            .map_err(|error| NotifyError::BadRequest(error.text(translator)))?;
+    }
+    Ok(())
+}
+
+pub(in crate::notifications::routes) fn target_config(target: &Value) -> Map<String, Value> {
+    target
+        .get("target_config")
+        .and_then(Value::as_object)
+        .cloned()
+        .unwrap_or_default()
+}
+
+pub(in crate::notifications::routes) fn config_text(
+    config: &Map<String, Value>,
+    key: &str,
+) -> String {
+    config
+        .get(key)
+        .map(value_to_trimmed_string)
+        .unwrap_or_default()
+}
+
+pub(in crate::notifications::routes) fn first_config_text(
+    config: &Map<String, Value>,
+    keys: &[&str],
+) -> String {
+    keys.iter()
+        .find_map(|key| {
+            let value = config_text(config, key);
+            (!value.is_empty()).then_some(value)
+        })
+        .unwrap_or_default()
+}
+
+pub(in crate::notifications::routes) fn effective_config_value(
+    provider_config: &Map<String, Value>,
+    target_config: &Map<String, Value>,
+    keys: &[&str],
+) -> Option<Value> {
+    for key in keys {
+        if let Some(value) = target_config.get(*key)
+            && !value_is_empty(value)
+            && value_to_trimmed_string(value) != "__inherit__"
+        {
+            return Some(value.clone());
+        }
+    }
+    for key in keys {
+        if let Some(value) = provider_config.get(*key)
+            && !value_is_empty(value)
+        {
+            return Some(value.clone());
+        }
+    }
+    None
+}
+
+pub(in crate::notifications::routes) fn value_is_empty(value: &Value) -> bool {
+    match value {
+        Value::Null => true,
+        Value::String(value) => value.trim().is_empty(),
+        _ => false,
+    }
+}
+
+pub(in crate::notifications::routes) fn split_values(value: Option<&Value>) -> Vec<String> {
+    match value {
+        Some(Value::Array(values)) => values
+            .iter()
+            .map(value_to_trimmed_string)
+            .filter(|value| !value.is_empty())
+            .collect(),
+        Some(value) => value_to_trimmed_string(value)
+            .split([',', '\n'])
+            .map(str::trim)
+            .filter(|value| !value.is_empty())
+            .map(str::to_string)
+            .collect(),
+        None => Vec::new(),
+    }
+}
+
+pub(in crate::notifications::routes) fn parse_topic_ids(
+    value: Option<&Value>,
+) -> (Vec<i64>, Vec<String>) {
+    let mut ids = Vec::new();
+    let mut invalid = Vec::new();
+    for item in split_values(value) {
+        if !item.chars().all(|ch| ch.is_ascii_digit()) {
+            invalid.push(item);
+            continue;
+        }
+        match item.parse::<i64>() {
+            Ok(value) if value > 0 => ids.push(value),
+            _ => invalid.push(item),
+        }
+    }
+    (ids, invalid)
+}
+
+pub(in crate::notifications::routes) fn optional_positive_i64(
+    value: Option<&Value>,
+) -> Option<i64> {
+    value
+        .map(|value| value_to_i64(value, 0))
+        .filter(|value| *value > 0)
+}
+
+pub(in crate::notifications::routes) fn optional_nonnegative_i64(
+    value: Option<&Value>,
+) -> Option<i64> {
+    value
+        .map(|value| value_to_i64(value, -1))
+        .filter(|value| *value >= 0)
+}
+
+pub(in crate::notifications::routes) fn message_text(message: &Value, key: &str) -> String {
+    message
+        .get(key)
+        .map(value_to_trimmed_string)
+        .unwrap_or_default()
+}
+
+pub(in crate::notifications::routes) fn message_title(message: &Value) -> String {
+    default_string(
+        message_text(message, "title").if_empty(message_text(message, "summary")),
+        DEFAULT_NOTIFICATION_MESSAGE_TITLE,
+    )
+}
+
+pub(in crate::notifications::routes) fn message_summary(message: &Value) -> String {
+    message_text(message, "summary")
+}
+
+pub(in crate::notifications::routes) use crate::text_utils::{EmptyStringExt, default_string};
+
+pub(in crate::notifications::routes) fn non_empty_or(
+    first: String,
+    second: String,
+    third: &str,
+) -> String {
+    if !first.trim().is_empty() {
+        first
+    } else if !second.trim().is_empty() {
+        second
+    } else {
+        third.to_string()
+    }
+}

@@ -1,1 +1,427 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBjb25zdCBXQUZfTE9HX0RBVEVfUFJFRklYOiAmc3RyID0gImZuX2tub2NrOndhZjpsb2dzOiI7CnB1YihzdXBlcikgY29uc3QgV0FGX0xPR19FVkVOVF9QUkVGSVg6ICZzdHIgPSAiZm5fa25vY2s6d2FmOmxvZzoiOwpwdWIoc3VwZXIpIGNvbnN0IFdBRl9MT0dfU1RBVFNfUFJFRklYOiAmc3RyID0gImZuX2tub2NrOndhZjpzdGF0czoiOwpwdWIoc3VwZXIpIGNvbnN0IFdBRl9MT0dfREFURVNfSU5ERVhfS0VZOiAmc3RyID0gImZuX2tub2NrOndhZjpsb2dzOmRhdGVzIjsKcHViKHN1cGVyKSBjb25zdCBXQUZfTE9HX0RBVEVTX0lOREVYX01JR1JBVEVEX0tFWTogJnN0ciA9ICJmbl9rbm9jazp3YWY6bG9nczpkYXRlczptaWdyYXRlZCI7CgpwdWIoc3VwZXIpIGZuIHdhZl9sb2dfZGF0ZV9rZXkoZGF0ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntXQUZfTE9HX0RBVEVfUFJFRklYfXtkYXRlfSIpCn0KCnB1YihzdXBlcikgZm4gd2FmX2xvZ19ldmVudF9rZXkodHJhY2VfaWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7V0FGX0xPR19FVkVOVF9QUkVGSVh9e3RyYWNlX2lkfSIpCn0KCnB1YihzdXBlcikgZm4gd2FmX2xvZ19zdGF0c19rZXkoZGF0ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntXQUZfTE9HX1NUQVRTX1BSRUZJWH17ZGF0ZX0iKQp9CgpwdWIoc3VwZXIpIGZuIHdhZl9sb2dfZXZlbnRfc2NvcmUoZXZlbnQ6ICZWYWx1ZSkgLT4gaTY0IHsKICAgIGV2ZW50CiAgICAgICAgLmdldCgidGltZSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLmFuZF90aGVuKGNyYXRlOjp0aW1lX3V0aWxzOjpwYXJzZV9pc29fbXMpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfbXMpCn0KCnB1YihzdXBlcikgZm4gaXNfd2FmX2xvZ19kYXRlKHZhbHVlOiAmc3RyKSAtPiBib29sIHsKICAgIGxldCBieXRlcyA9IHZhbHVlLmFzX2J5dGVzKCk7CiAgICBieXRlcy5sZW4oKSA9PSAxMAogICAgICAgICYmIGJ5dGVzWzRdID09IGInLScKICAgICAgICAmJiBieXRlc1s3XSA9PSBiJy0nCiAgICAgICAgJiYgYnl0ZXMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAuZW51bWVyYXRlKCkKICAgICAgICAgICAgLmFsbCh8KGluZGV4LCBieXRlKXwgaW5kZXggPT0gNCB8fCBpbmRleCA9PSA3IHx8IGJ5dGUuaXNfYXNjaWlfZGlnaXQoKSkKfQoKcHViKHN1cGVyKSBmbiBkZXNjZW5kaW5nX3N0cmluZ3ModmFsdWVzOiBCVHJlZVNldDxTdHJpbmc+KSAtPiBWZWM8U3RyaW5nPiB7CiAgICB2YWx1ZXMuaW50b19pdGVyKCkucmV2KCkuY29sbGVjdCgpCn0KCnB1YihzdXBlcikgZm4gd2FmX2xvZ19kYXRlX3Njb3JlKGRhdGU6ICZzdHIpIC0+IGk2NCB7CiAgICBsZXQgbXV0IHBhcnRzID0gZGF0ZS5zcGxpdCgnLScpOwogICAgbGV0IHllYXIgPSBwYXJ0cy5uZXh0KCkuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5wYXJzZTo6PGkzMj4oKS5vaygpKTsKICAgIGxldCBtb250aCA9IHBhcnRzLm5leHQoKS5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnBhcnNlOjo8dTg+KCkub2soKSk7CiAgICBsZXQgZGF5ID0gcGFydHMubmV4dCgpLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUucGFyc2U6Ojx1OD4oKS5vaygpKTsKICAgIGxldCAoU29tZSh5ZWFyKSwgU29tZShtb250aCksIFNvbWUoZGF5KSkgPSAoeWVhciwgbW9udGgsIGRheSkgZWxzZSB7CiAgICAgICAgcmV0dXJuIDA7CiAgICB9OwogICAgbGV0IE9rKG1vbnRoKSA9IHRpbWU6Ok1vbnRoOjp0cnlfZnJvbShtb250aCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIDA7CiAgICB9OwogICAgbGV0IE9rKGRhdGUpID0gdGltZTo6RGF0ZTo6ZnJvbV9jYWxlbmRhcl9kYXRlKHllYXIsIG1vbnRoLCBkYXkpIGVsc2UgewogICAgICAgIHJldHVybiAwOwogICAgfTsKICAgIGRhdGUud2l0aF90aW1lKHRpbWU6OlRpbWU6Ok1JRE5JR0hUKQogICAgICAgIC5hc3N1bWVfdXRjKCkKICAgICAgICAudW5peF90aW1lc3RhbXAoKQogICAgICAgICogMTAwMAp9CgpwdWIoc3VwZXIpIGZuIHdhZl9sb2dfZGF0ZXNfZm9yX3JhbmdlKGZyb21fbXM6IGk2NCwgdG9fbXM6IGk2NCkgLT4gVmVjPFN0cmluZz4gewogICAgY29uc3QgREFZX01TOiBpNjQgPSA4Nl80MDBfMDAwOwogICAgbGV0IHN0YXJ0X2RheSA9IChmcm9tX21zLm1heCgwKS5kaXZfZXVjbGlkKERBWV9NUykgLSAxKS5tYXgoMCk7CiAgICBsZXQgZW5kX2RheSA9IHRvX21zLm1heChmcm9tX21zKS5kaXZfZXVjbGlkKERBWV9NUykgKyAxOwogICAgbGV0IG11dCBkYXRlcyA9IEJUcmVlU2V0OjpuZXcoKTsKICAgIGZvciBkYXkgaW4gc3RhcnRfZGF5Li49ZW5kX2RheSB7CiAgICAgICAgbGV0IHRpbWVzdGFtcCA9IGRheS5zYXR1cmF0aW5nX211bChEQVlfTVMpLmRpdl9ldWNsaWQoMTAwMCk7CiAgICAgICAgaWYgbGV0IE9rKGRhdGVfdGltZSkgPSB0aW1lOjpPZmZzZXREYXRlVGltZTo6ZnJvbV91bml4X3RpbWVzdGFtcCh0aW1lc3RhbXApIHsKICAgICAgICAgICAgbGV0IGRhdGUgPSBkYXRlX3RpbWUuZGF0ZSgpOwogICAgICAgICAgICBkYXRlcy5pbnNlcnQoZm9ybWF0ISgKICAgICAgICAgICAgICAgICJ7OjA0fS17OjAyfS17OjAyfSIsCiAgICAgICAgICAgICAgICBkYXRlLnllYXIoKSwKICAgICAgICAgICAgICAgIHU4Ojpmcm9tKGRhdGUubW9udGgoKSksCiAgICAgICAgICAgICAgICBkYXRlLmRheSgpCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgIH0KICAgIGRhdGVzLmludG9faXRlcigpLmNvbGxlY3QoKQp9Cgp1c2UgdG9raW9fcnVzcWxpdGU6OnJ1c3FsaXRlOjp7VHJhbnNhY3Rpb25CZWhhdmlvciwgcGFyYW1zfTsKCnN0cnVjdCBQZXJzaXN0YWJsZVdhZkV2ZW50IHsKICAgIHRyYWNlX2lkOiBTdHJpbmcsCiAgICBldmVudF9rZXk6IFN0cmluZywKICAgIGRhdGU6IFN0cmluZywKICAgIHNjb3JlOiBpNjQsCiAgICBhY3Rpb246IFN0cmluZywKICAgIHNlcmlhbGl6ZWQ6IFN0cmluZywKfQoKaW1wbCBTdG9yZSB7CiAgICBwdWIgYXN5bmMgZm4gY291bnRfd2FmX2xvZ3NfZm9yX2J1Y2tldHMoCiAgICAgICAgJnNlbGYsCiAgICAgICAgYnVja2V0X3N0YXJ0czogJltpNjRdLAogICAgICAgIHRvX21zOiBpNjQsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PChpNjQsIFZlYzxpNjQ+KT4gewogICAgICAgIGlmIGJ1Y2tldF9zdGFydHMuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiBPaygoMCwgVmVjOjpuZXcoKSkpOwogICAgICAgIH0KICAgICAgICBsZXQgc3RlcCA9IGlmIGJ1Y2tldF9zdGFydHMubGVuKCkgPiAxIHsKICAgICAgICAgICAgKGJ1Y2tldF9zdGFydHNbMV0gLSBidWNrZXRfc3RhcnRzWzBdKS5tYXgoMSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAxCiAgICAgICAgfTsKICAgICAgICBsZXQgbXV0IHRvdGFsID0gMF9pNjQ7CiAgICAgICAgbGV0IG11dCBjb3VudHMgPSB2ZWMhWzBfaTY0OyBidWNrZXRfc3RhcnRzLmxlbigpXTsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKCiAgICAgICAgZm9yIChidWNrZXRfaW5kZXgsIGJ1Y2tldF9zdGFydCkgaW4gYnVja2V0X3N0YXJ0cy5pdGVyKCkuZW51bWVyYXRlKCkgewogICAgICAgICAgICBsZXQgYnVja2V0X2VuZCA9IGlmIGJ1Y2tldF9pbmRleCA9PSBidWNrZXRfc3RhcnRzLmxlbigpIC0gMSB7CiAgICAgICAgICAgICAgICB0b19tcwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgdG9fbXMubWluKGJ1Y2tldF9zdGFydCArIHN0ZXApCiAgICAgICAgICAgIH07CiAgICAgICAgICAgIGxldCBlbmRfYXJnID0gaWYgYnVja2V0X2luZGV4ID09IGJ1Y2tldF9zdGFydHMubGVuKCkgLSAxIHsKICAgICAgICAgICAgICAgIGJ1Y2tldF9lbmQudG9fc3RyaW5nKCkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGZvcm1hdCEoIih7YnVja2V0X2VuZH0iKQogICAgICAgICAgICB9OwogICAgICAgICAgICBmb3IgZGF0ZSBpbiB3YWZfbG9nX2RhdGVzX2Zvcl9yYW5nZSgqYnVja2V0X3N0YXJ0LCBidWNrZXRfZW5kKSB7CiAgICAgICAgICAgICAgICBsZXQgY291bnQ6IGk2NCA9IHJlZGlzOjpjbWQoIlpDT1VOVCIpCiAgICAgICAgICAgICAgICAgICAgLmFyZyh3YWZfbG9nX2RhdGVfa2V5KCZkYXRlKSkKICAgICAgICAgICAgICAgICAgICAuYXJnKCpidWNrZXRfc3RhcnQpCiAgICAgICAgICAgICAgICAgICAgLmFyZygmZW5kX2FyZykKICAgICAgICAgICAgICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgICAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgICAgICAgICBjb3VudHNbYnVja2V0X2luZGV4XSArPSBjb3VudDsKICAgICAgICAgICAgICAgIHRvdGFsICs9IGNvdW50OwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBPaygodG90YWwsIGNvdW50cykpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIHBlcnNpc3Rfd2FmX2V2ZW50cygKICAgICAgICAmc2VsZiwKICAgICAgICBldmVudHM6ICZbVmFsdWVdLAogICAgICAgIHJldGVudGlvbl9kYXlzOiBpNjQsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgaWYgZXZlbnRzLmlzX2VtcHR5KCkgewogICAgICAgICAgICByZXR1cm4gT2soKCkpOwogICAgICAgIH0KICAgICAgICBsZXQgdHRsX3NlY29uZHMgPSByZXRlbnRpb25fZGF5cy5jbGFtcCgxLCAzNjUpICogODZfNDAwOwogICAgICAgIGxldCBjdXRvZmZfZGF0ZSA9CiAgICAgICAgICAgIGNyYXRlOjp0aW1lX3V0aWxzOjpsb2NhbF9kYXRlX2Zyb21fbXMoY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpIC0gdHRsX3NlY29uZHMgKiAxMDAwKTsKICAgICAgICBsZXQgY3V0b2ZmX2RhdGVfc2NvcmUgPSB3YWZfbG9nX2RhdGVfc2NvcmUoJmN1dG9mZl9kYXRlKTsKICAgICAgICBsZXQgcHJlcGFyZWQgPSBldmVudHMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAuZmlsdGVyX21hcCh8ZXZlbnR8IHsKICAgICAgICAgICAgICAgIGxldCB0cmFjZV9pZCA9IGV2ZW50LmdldCgidHJhY2VfaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKT8udHJpbSgpOwogICAgICAgICAgICAgICAgaWYgdHJhY2VfaWQuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIE5vbmU7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBsZXQgc2NvcmUgPSB3YWZfbG9nX2V2ZW50X3Njb3JlKGV2ZW50KTsKICAgICAgICAgICAgICAgIFNvbWUoUGVyc2lzdGFibGVXYWZFdmVudCB7CiAgICAgICAgICAgICAgICAgICAgdHJhY2VfaWQ6IHRyYWNlX2lkLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgICAgIGV2ZW50X2tleTogd2FmX2xvZ19ldmVudF9rZXkodHJhY2VfaWQpLAogICAgICAgICAgICAgICAgICAgIGRhdGU6IGNyYXRlOjp0aW1lX3V0aWxzOjpsb2NhbF9kYXRlX2Zyb21fbXMoc2NvcmUpLAogICAgICAgICAgICAgICAgICAgIHNjb3JlLAogICAgICAgICAgICAgICAgICAgIGFjdGlvbjogZXZlbnQKICAgICAgICAgICAgICAgICAgICAgICAgLmdldCgiYWN0aW9uIikKICAgICAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3IoImxvZyIpCiAgICAgICAgICAgICAgICAgICAgICAgIC50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICAgICBzZXJpYWxpemVkOiBzZXJkZV9qc29uOjp0b19zdHJpbmcoZXZlbnQpLnVud3JhcF9vcl9kZWZhdWx0KCksCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICB9KQogICAgICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgICAgICBpZiBwcmVwYXJlZC5pc19lbXB0eSgpIHsKICAgICAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgICAgICB9CgogICAgICAgIHNlbGYuY29ubigpCiAgICAgICAgICAgIC5jYWxsKG1vdmUgfGNvbm5lY3Rpb258IHsKICAgICAgICAgICAgICAgIGxldCB0eCA9IGNvbm5lY3Rpb24udHJhbnNhY3Rpb25fd2l0aF9iZWhhdmlvcihUcmFuc2FjdGlvbkJlaGF2aW9yOjpJbW1lZGlhdGUpPzsKICAgICAgICAgICAgICAgIGxldCBub3dfbXMgPSBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCk7CiAgICAgICAgICAgICAgICBsZXQgbXV0IHRvdWNoZWRfZGF0ZXMgPSBCVHJlZVNldDo6bmV3KCk7CgogICAgICAgICAgICAgICAgZm9yIGV2ZW50IGluIHByZXBhcmVkIHsKICAgICAgICAgICAgICAgICAgICBsZXQgYWxyZWFkeV9wZXJzaXN0ZWQ6IGJvb2wgPSB0eC5xdWVyeV9yb3coCiAgICAgICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgRVhJU1RTKFNFTEVDVCAxIEZST00ga3Zfa2V5cyBXSEVSRSBrZXkgPSA/MSBBTkQga2luZCA9ICdzdHJpbmcnIEFORCAoZXhwaXJlc19hdF9tcyBJUyBOVUxMIE9SIGV4cGlyZXNfYXRfbXMgPiA/MikpIiwKICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1zIVtldmVudC5ldmVudF9rZXksIG5vd19tc10sCiAgICAgICAgICAgICAgICAgICAgICAgIHxyb3d8IHJvdy5nZXQoMCksCiAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICAgICAgcmVkaXM6OmV4ZWN1dGVfY29tbWFuZF9pbl90cmFuc2FjdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgJnR4LAogICAgICAgICAgICAgICAgICAgICAgICAiU0VURVgiLAogICAgICAgICAgICAgICAgICAgICAgICB2ZWMhWwogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXZlbnQuZXZlbnRfa2V5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHRsX3NlY29uZHMudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBldmVudC5zZXJpYWxpemVkLAogICAgICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAgICk/OwogICAgICAgICAgICAgICAgICAgIHJlZGlzOjpleGVjdXRlX2NvbW1hbmRfaW5fdHJhbnNhY3Rpb24oCiAgICAgICAgICAgICAgICAgICAgICAgICZ0eCwKICAgICAgICAgICAgICAgICAgICAgICAgIlpBREQiLAogICAgICAgICAgICAgICAgICAgICAgICB2ZWMhWwogICAgICAgICAgICAgICAgICAgICAgICAgICAgd2FmX2xvZ19kYXRlX2tleSgmZXZlbnQuZGF0ZSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBldmVudC5zY29yZS50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV2ZW50LnRyYWNlX2lkLAogICAgICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAgICk/OwogICAgICAgICAgICAgICAgICAgIHJlZGlzOjpleGVjdXRlX2NvbW1hbmRfaW5fdHJhbnNhY3Rpb24oCiAgICAgICAgICAgICAgICAgICAgICAgICZ0eCwKICAgICAgICAgICAgICAgICAgICAgICAgIkVYUElSRSIsCiAgICAgICAgICAgICAgICAgICAgICAgIHZlYyFbd2FmX2xvZ19kYXRlX2tleSgmZXZlbnQuZGF0ZSksIHR0bF9zZWNvbmRzLnRvX3N0cmluZygpXSwKICAgICAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgICAgICAgICBpZiAhYWxyZWFkeV9wZXJzaXN0ZWQgewogICAgICAgICAgICAgICAgICAgICAgICByZWRpczo6ZXhlY3V0ZV9jb21tYW5kX2luX3RyYW5zYWN0aW9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJnR4LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIkhJTkNSQlkiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmVjIVt3YWZfbG9nX3N0YXRzX2tleSgmZXZlbnQuZGF0ZSksICJldmVudHMiLnRvX3N0cmluZygpLCAiMSIudG9fc3RyaW5nKCldLAogICAgICAgICAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgICAgICAgICAgICAgcmVkaXM6OmV4ZWN1dGVfY29tbWFuZF9pbl90cmFuc2FjdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICZ0eCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJISU5DUkJZIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZlYyFbCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2FmX2xvZ19zdGF0c19rZXkoJmV2ZW50LmRhdGUpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvcm1hdCEoImFjdGlvbjp7fSIsIGV2ZW50LmFjdGlvbiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIjEiLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJlZGlzOjpleGVjdXRlX2NvbW1hbmRfaW5fdHJhbnNhY3Rpb24oCiAgICAgICAgICAgICAgICAgICAgICAgICZ0eCwKICAgICAgICAgICAgICAgICAgICAgICAgIkVYUElSRSIsCiAgICAgICAgICAgICAgICAgICAgICAgIHZlYyFbd2FmX2xvZ19zdGF0c19rZXkoJmV2ZW50LmRhdGUpLCB0dGxfc2Vjb25kcy50b19zdHJpbmcoKV0sCiAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICAgICAgdG91Y2hlZF9kYXRlcy5pbnNlcnQoZXZlbnQuZGF0ZSk7CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgZm9yIGRhdGUgaW4gdG91Y2hlZF9kYXRlcyB7CiAgICAgICAgICAgICAgICAgICAgcmVkaXM6OmV4ZWN1dGVfY29tbWFuZF9pbl90cmFuc2FjdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgJnR4LAogICAgICAgICAgICAgICAgICAgICAgICAiWkFERCIsCiAgICAgICAgICAgICAgICAgICAgICAgIHZlYyFbCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBXQUZfTE9HX0RBVEVTX0lOREVYX0tFWS50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdhZl9sb2dfZGF0ZV9zY29yZSgmZGF0ZSkudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkYXRlLAogICAgICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAgICk/OwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcmVkaXM6OmV4ZWN1dGVfY29tbWFuZF9pbl90cmFuc2FjdGlvbigKICAgICAgICAgICAgICAgICAgICAmdHgsCiAgICAgICAgICAgICAgICAgICAgIlpSRU1SQU5HRUJZU0NPUkUiLAogICAgICAgICAgICAgICAgICAgIHZlYyFbCiAgICAgICAgICAgICAgICAgICAgICAgIFdBRl9MT0dfREFURVNfSU5ERVhfS0VZLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgICAgICAgICAiMCIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICAgICAgICAgIGZvcm1hdCEoIih7Y3V0b2ZmX2RhdGVfc2NvcmV9IiksCiAgICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICk/OwogICAgICAgICAgICAgICAgdHguY29tbWl0KCk/OwogICAgICAgICAgICAgICAgT2soKCkpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgIHB1YiBhc3luYyBmbiBsaXN0X3dhZl9sb2dfZGF0ZXMoCiAgICAgICAgJnNlbGYsCiAgICAgICAgdG9kYXk6ICZzdHIsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PFZlYzxTdHJpbmc+PiB7CiAgICAgICAgbGV0IG1pZ3JhdGVkID0gc2VsZgogICAgICAgICAgICAuZ2V0X3N0cmluZ192YWx1ZShXQUZfTE9HX0RBVEVTX0lOREVYX01JR1JBVEVEX0tFWSkKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBpZiBtaWdyYXRlZC5pc19ub25lKCkgewogICAgICAgICAgICByZXR1cm4gc2VsZi5zY2FuX3dhZl9sb2dfZGF0ZXNfYW5kX2JhY2tmaWxsX2luZGV4KHRvZGF5KS5hd2FpdDsKICAgICAgICB9CgogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCBpbmRleGVkX2RhdGVzOiBWZWM8U3RyaW5nPiA9IGNvbm4uenJldnJhbmdlKFdBRl9MT0dfREFURVNfSU5ERVhfS0VZLCAwLCAtMSkuYXdhaXQ/OwogICAgICAgIGlmIGluZGV4ZWRfZGF0ZXMuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiBPayh2ZWMhW3RvZGF5LnRvX3N0cmluZygpXSk7CiAgICAgICAgfQoKICAgICAgICBsZXQgbXV0IGRhdGVzID0gQlRyZWVTZXQ6Om5ldygpOwogICAgICAgIGRhdGVzLmluc2VydCh0b2RheS50b19zdHJpbmcoKSk7CiAgICAgICAgbGV0IG11dCBzdGFsZV9kYXRlcyA9IFZlYzo6bmV3KCk7CiAgICAgICAgZm9yIGRhdGUgaW4gaW5kZXhlZF9kYXRlcwogICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgLmZpbHRlcih8ZGF0ZXwgaXNfd2FmX2xvZ19kYXRlKGRhdGUpKQogICAgICAgIHsKICAgICAgICAgICAgbGV0IGNvdW50OiBpNjQgPSBjb25uLnpjYXJkKHdhZl9sb2dfZGF0ZV9rZXkoJmRhdGUpKS5hd2FpdD87CiAgICAgICAgICAgIGlmIGNvdW50ID4gMCB7CiAgICAgICAgICAgICAgICBkYXRlcy5pbnNlcnQoZGF0ZSk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBzdGFsZV9kYXRlcy5wdXNoKGRhdGUpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGlmICFzdGFsZV9kYXRlcy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgbGV0IG11dCBwaXBlID0gcmVkaXM6OnBpcGUoKTsKICAgICAgICAgICAgcGlwZS56cmVtKFdBRl9MT0dfREFURVNfSU5ERVhfS0VZLCBzdGFsZV9kYXRlcykuaWdub3JlKCk7CiAgICAgICAgICAgIGxldCBfOiAoKSA9IHBpcGUucXVlcnlfYXN5bmMoJm11dCBjb25uKS5hd2FpdD87CiAgICAgICAgfQoKICAgICAgICBPayhkZXNjZW5kaW5nX3N0cmluZ3MoZGF0ZXMpKQogICAgfQoKICAgIGFzeW5jIGZuIHNjYW5fd2FmX2xvZ19kYXRlc19hbmRfYmFja2ZpbGxfaW5kZXgoCiAgICAgICAgJnNlbGYsCiAgICAgICAgdG9kYXk6ICZzdHIsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PFZlYzxTdHJpbmc+PiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IG11dCBjdXJzb3IgPSAiMCIudG9fc3RyaW5nKCk7CiAgICAgICAgbGV0IG11dCBkYXRlcyA9IEJUcmVlU2V0OjpuZXcoKTsKICAgICAgICBsb29wIHsKICAgICAgICAgICAgbGV0IChuZXh0X2N1cnNvciwgYmF0Y2gpOiAoU3RyaW5nLCBWZWM8U3RyaW5nPikgPSByZWRpczo6Y21kKCJTQ0FOIikKICAgICAgICAgICAgICAgIC5hcmcoJmN1cnNvcikKICAgICAgICAgICAgICAgIC5hcmcoIk1BVENIIikKICAgICAgICAgICAgICAgIC5hcmcoZm9ybWF0ISgie1dBRl9MT0dfREFURV9QUkVGSVh9KiIpKQogICAgICAgICAgICAgICAgLmFyZygiQ09VTlQiKQogICAgICAgICAgICAgICAgLmFyZygxMDApCiAgICAgICAgICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICAgICAgZm9yIGtleSBpbiBiYXRjaCB7CiAgICAgICAgICAgICAgICBsZXQgZGF0ZSA9IGtleS5zdHJpcF9wcmVmaXgoV0FGX0xPR19EQVRFX1BSRUZJWCkudW53cmFwX29yKCIiKTsKICAgICAgICAgICAgICAgIGlmIGlzX3dhZl9sb2dfZGF0ZShkYXRlKSB7CiAgICAgICAgICAgICAgICAgICAgZGF0ZXMuaW5zZXJ0KGRhdGUudG9fc3RyaW5nKCkpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIG5leHRfY3Vyc29yID09ICIwIiB7CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgfQogICAgICAgICAgICBjdXJzb3IgPSBuZXh0X2N1cnNvcjsKICAgICAgICB9CgogICAgICAgIGxldCBtdXQgcGlwZSA9IHJlZGlzOjpwaXBlKCk7CiAgICAgICAgZm9yIGRhdGUgaW4gJmRhdGVzIHsKICAgICAgICAgICAgcGlwZS56YWRkKFdBRl9MT0dfREFURVNfSU5ERVhfS0VZLCBkYXRlLCB3YWZfbG9nX2RhdGVfc2NvcmUoZGF0ZSkpCiAgICAgICAgICAgICAgICAuaWdub3JlKCk7CiAgICAgICAgfQogICAgICAgIHBpcGUuc2V0KFdBRl9MT0dfREFURVNfSU5ERVhfTUlHUkFURURfS0VZLCAiMSIpLmlnbm9yZSgpOwogICAgICAgIGxldCBfOiAoKSA9IHBpcGUucXVlcnlfYXN5bmMoJm11dCBjb25uKS5hd2FpdD87CiAgICAgICAgZGF0ZXMuaW5zZXJ0KHRvZGF5LnRvX3N0cmluZygpKTsKICAgICAgICBPayhkZXNjZW5kaW5nX3N0cmluZ3MoZGF0ZXMpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiB3YWZfbG9nX2RhdGVfdG90YWwoJnNlbGYsIGRhdGU6ICZzdHIpIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PGk2ND4gewogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGNvbm4uemNhcmQod2FmX2xvZ19kYXRlX2tleShkYXRlKSkuYXdhaXQKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gd2FmX2xvZ19pZHNfZGVzYygKICAgICAgICAmc2VsZiwKICAgICAgICBkYXRlOiAmc3RyLAogICAgICAgIHN0YXJ0OiBpc2l6ZSwKICAgICAgICBlbmQ6IGlzaXplLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxWZWM8U3RyaW5nPj4gewogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGNvbm4uenJldnJhbmdlKHdhZl9sb2dfZGF0ZV9rZXkoZGF0ZSksIHN0YXJ0LCBlbmQpLmF3YWl0CiAgICB9CgogICAgcHViIGFzeW5jIGZuIHdhZl9sb2dfZXZlbnRzX2J5X2lkcygKICAgICAgICAmc2VsZiwKICAgICAgICBpZHM6ICZbU3RyaW5nXSwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8VmVjPE9wdGlvbjxWYWx1ZT4+PiB7CiAgICAgICAgaWYgaWRzLmlzX2VtcHR5KCkgewogICAgICAgICAgICByZXR1cm4gT2soVmVjOjpuZXcoKSk7CiAgICAgICAgfQogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCByYXdzOiBWZWM8T3B0aW9uPFN0cmluZz4+ID0gcmVkaXM6OmNtZCgiTUdFVCIpCiAgICAgICAgICAgIC5hcmcoCiAgICAgICAgICAgICAgICBpZHMuaXRlcigpCiAgICAgICAgICAgICAgICAgICAgLm1hcCh8aWR8IHdhZl9sb2dfZXZlbnRfa2V5KGlkKSkKICAgICAgICAgICAgICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKSwKICAgICAgICAgICAgKQogICAgICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIE9rKHJhd3MKICAgICAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgICAgIC5tYXAofHJhd3wgcmF3LmFuZF90aGVuKHx2YWx1ZXwgc2VyZGVfanNvbjo6ZnJvbV9zdHI6OjxWYWx1ZT4oJnZhbHVlKS5vaygpKSkKICAgICAgICAgICAgLmNvbGxlY3QoKSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gZ2V0X3dhZl9sb2dfZXZlbnQoCiAgICAgICAgJnNlbGYsCiAgICAgICAgdHJhY2VfaWQ6ICZzdHIsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PE9wdGlvbjxWYWx1ZT4+IHsKICAgICAgICBzZWxmLmdldF9qc29uX3ZhbHVlKCZ3YWZfbG9nX2V2ZW50X2tleSh0cmFjZV9pZCkpLmF3YWl0CiAgICB9CgogICAgcHViIGFzeW5jIGZuIHJlbW92ZV93YWZfbG9nX3N0YWxlX2lkcygKICAgICAgICAmc2VsZiwKICAgICAgICBkYXRlOiAmc3RyLAogICAgICAgIGlkczogJltTdHJpbmddLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGxldCB1bmlxdWVfaWRzID0gdW5pcXVlX25vbl9lbXB0eV9zdHJpbmdzKGlkcyk7CiAgICAgICAgaWYgdW5pcXVlX2lkcy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgICAgICB9CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgZm9yIGNodW5rIGluIHVuaXF1ZV9pZHMuY2h1bmtzKDUwMCkgewogICAgICAgICAgICBsZXQgbXV0IHBpcGUgPSByZWRpczo6cGlwZSgpOwogICAgICAgICAgICBwaXBlLnpyZW0od2FmX2xvZ19kYXRlX2tleShkYXRlKSwgY2h1bmspLmlnbm9yZSgpOwogICAgICAgICAgICBsZXQgXzogKCkgPSBwaXBlLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikuYXdhaXQ/OwogICAgICAgIH0KICAgICAgICBPaygoKSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gZGVsZXRlX3dhZl9sb2dfZGF0ZSgmc2VsZiwgZGF0ZTogJnN0cikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCBtdXQgZGVsZXRlZF9jb3VudCA9IDB1c2l6ZTsKICAgICAgICBsb29wIHsKICAgICAgICAgICAgbGV0IGlkczogVmVjPFN0cmluZz4gPSBjb25uLnpyYW5nZSh3YWZfbG9nX2RhdGVfa2V5KGRhdGUpLCAwLCA0OTkpLmF3YWl0PzsKICAgICAgICAgICAgaWYgaWRzLmlzX2VtcHR5KCkgewogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgbGV0IG11dCBwaXBlID0gcmVkaXM6OnBpcGUoKTsKICAgICAgICAgICAgZm9yIGlkIGluICZpZHMgewogICAgICAgICAgICAgICAgcGlwZS5kZWwod2FmX2xvZ19ldmVudF9rZXkoaWQpKS5pZ25vcmUoKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBwaXBlLnpyZW0od2FmX2xvZ19kYXRlX2tleShkYXRlKSwgaWRzLmNsb25lKCkpLmlnbm9yZSgpOwogICAgICAgICAgICBsZXQgXzogKCkgPSBwaXBlLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikuYXdhaXQ/OwogICAgICAgICAgICBkZWxldGVkX2NvdW50ICs9IGlkcy5sZW4oKTsKICAgICAgICB9CgogICAgICAgIGxldCBtdXQgcGlwZSA9IHJlZGlzOjpwaXBlKCk7CiAgICAgICAgcGlwZS5kZWwod2FmX2xvZ19kYXRlX2tleShkYXRlKSkuaWdub3JlKCk7CiAgICAgICAgcGlwZS5kZWwod2FmX2xvZ19zdGF0c19rZXkoZGF0ZSkpLmlnbm9yZSgpOwogICAgICAgIHBpcGUuenJlbShXQUZfTE9HX0RBVEVTX0lOREVYX0tFWSwgZGF0ZSkuaWdub3JlKCk7CiAgICAgICAgbGV0IF86ICgpID0gcGlwZS5xdWVyeV9hc3luYygmbXV0IGNvbm4pLmF3YWl0PzsKICAgICAgICBPayhkZWxldGVkX2NvdW50ID4gMCkKICAgIH0KfQo=
+use super::*;
+
+pub(super) const WAF_LOG_DATE_PREFIX: &str = "fn_knock:waf:logs:";
+pub(super) const WAF_LOG_EVENT_PREFIX: &str = "fn_knock:waf:log:";
+pub(super) const WAF_LOG_STATS_PREFIX: &str = "fn_knock:waf:stats:";
+pub(super) const WAF_LOG_DATES_INDEX_KEY: &str = "fn_knock:waf:logs:dates";
+pub(super) const WAF_LOG_DATES_INDEX_MIGRATED_KEY: &str = "fn_knock:waf:logs:dates:migrated";
+
+pub(super) fn waf_log_date_key(date: &str) -> String {
+    format!("{WAF_LOG_DATE_PREFIX}{date}")
+}
+
+pub(super) fn waf_log_event_key(trace_id: &str) -> String {
+    format!("{WAF_LOG_EVENT_PREFIX}{trace_id}")
+}
+
+pub(super) fn waf_log_stats_key(date: &str) -> String {
+    format!("{WAF_LOG_STATS_PREFIX}{date}")
+}
+
+pub(super) fn waf_log_event_score(event: &Value) -> i64 {
+    event
+        .get("time")
+        .and_then(Value::as_str)
+        .and_then(crate::time_utils::parse_iso_ms)
+        .unwrap_or_else(crate::time_utils::now_ms)
+}
+
+pub(super) fn is_waf_log_date(value: &str) -> bool {
+    let bytes = value.as_bytes();
+    bytes.len() == 10
+        && bytes[4] == b'-'
+        && bytes[7] == b'-'
+        && bytes
+            .iter()
+            .enumerate()
+            .all(|(index, byte)| index == 4 || index == 7 || byte.is_ascii_digit())
+}
+
+pub(super) fn descending_strings(values: BTreeSet<String>) -> Vec<String> {
+    values.into_iter().rev().collect()
+}
+
+pub(super) fn waf_log_date_score(date: &str) -> i64 {
+    let mut parts = date.split('-');
+    let year = parts.next().and_then(|value| value.parse::<i32>().ok());
+    let month = parts.next().and_then(|value| value.parse::<u8>().ok());
+    let day = parts.next().and_then(|value| value.parse::<u8>().ok());
+    let (Some(year), Some(month), Some(day)) = (year, month, day) else {
+        return 0;
+    };
+    let Ok(month) = time::Month::try_from(month) else {
+        return 0;
+    };
+    let Ok(date) = time::Date::from_calendar_date(year, month, day) else {
+        return 0;
+    };
+    date.with_time(time::Time::MIDNIGHT)
+        .assume_utc()
+        .unix_timestamp()
+        * 1000
+}
+
+pub(super) fn waf_log_dates_for_range(from_ms: i64, to_ms: i64) -> Vec<String> {
+    const DAY_MS: i64 = 86_400_000;
+    let start_day = (from_ms.max(0).div_euclid(DAY_MS) - 1).max(0);
+    let end_day = to_ms.max(from_ms).div_euclid(DAY_MS) + 1;
+    let mut dates = BTreeSet::new();
+    for day in start_day..=end_day {
+        let timestamp = day.saturating_mul(DAY_MS).div_euclid(1000);
+        if let Ok(date_time) = time::OffsetDateTime::from_unix_timestamp(timestamp) {
+            let date = date_time.date();
+            dates.insert(format!(
+                "{:04}-{:02}-{:02}",
+                date.year(),
+                u8::from(date.month()),
+                date.day()
+            ));
+        }
+    }
+    dates.into_iter().collect()
+}
+
+use tokio_rusqlite::rusqlite::{TransactionBehavior, params};
+
+struct PersistableWafEvent {
+    trace_id: String,
+    event_key: String,
+    date: String,
+    score: i64,
+    action: String,
+    serialized: String,
+}
+
+impl Store {
+    pub async fn count_waf_logs_for_buckets(
+        &self,
+        bucket_starts: &[i64],
+        to_ms: i64,
+    ) -> crate::storage::StorageResult<(i64, Vec<i64>)> {
+        if bucket_starts.is_empty() {
+            return Ok((0, Vec::new()));
+        }
+        let step = if bucket_starts.len() > 1 {
+            (bucket_starts[1] - bucket_starts[0]).max(1)
+        } else {
+            1
+        };
+        let mut total = 0_i64;
+        let mut counts = vec![0_i64; bucket_starts.len()];
+        let mut conn = self.conn();
+
+        for (bucket_index, bucket_start) in bucket_starts.iter().enumerate() {
+            let bucket_end = if bucket_index == bucket_starts.len() - 1 {
+                to_ms
+            } else {
+                to_ms.min(bucket_start + step)
+            };
+            let end_arg = if bucket_index == bucket_starts.len() - 1 {
+                bucket_end.to_string()
+            } else {
+                format!("({bucket_end}")
+            };
+            for date in waf_log_dates_for_range(*bucket_start, bucket_end) {
+                let count: i64 = redis::cmd("ZCOUNT")
+                    .arg(waf_log_date_key(&date))
+                    .arg(*bucket_start)
+                    .arg(&end_arg)
+                    .query_async(&mut conn)
+                    .await?;
+                counts[bucket_index] += count;
+                total += count;
+            }
+        }
+
+        Ok((total, counts))
+    }
+
+    pub async fn persist_waf_events(
+        &self,
+        events: &[Value],
+        retention_days: i64,
+    ) -> crate::storage::StorageResult<()> {
+        if events.is_empty() {
+            return Ok(());
+        }
+        let ttl_seconds = retention_days.clamp(1, 365) * 86_400;
+        let cutoff_date =
+            crate::time_utils::local_date_from_ms(crate::time_utils::now_ms() - ttl_seconds * 1000);
+        let cutoff_date_score = waf_log_date_score(&cutoff_date);
+        let prepared = events
+            .iter()
+            .filter_map(|event| {
+                let trace_id = event.get("trace_id").and_then(Value::as_str)?.trim();
+                if trace_id.is_empty() {
+                    return None;
+                }
+                let score = waf_log_event_score(event);
+                Some(PersistableWafEvent {
+                    trace_id: trace_id.to_string(),
+                    event_key: waf_log_event_key(trace_id),
+                    date: crate::time_utils::local_date_from_ms(score),
+                    score,
+                    action: event
+                        .get("action")
+                        .and_then(Value::as_str)
+                        .unwrap_or("log")
+                        .to_string(),
+                    serialized: serde_json::to_string(event).unwrap_or_default(),
+                })
+            })
+            .collect::<Vec<_>>();
+        if prepared.is_empty() {
+            return Ok(());
+        }
+
+        self.conn()
+            .call(move |connection| {
+                let tx = connection.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                let now_ms = crate::time_utils::now_ms();
+                let mut touched_dates = BTreeSet::new();
+
+                for event in prepared {
+                    let already_persisted: bool = tx.query_row(
+                        "SELECT EXISTS(SELECT 1 FROM kv_keys WHERE key = ?1 AND kind = 'string' AND (expires_at_ms IS NULL OR expires_at_ms > ?2))",
+                        params![event.event_key, now_ms],
+                        |row| row.get(0),
+                    )?;
+                    redis::execute_command_in_transaction(
+                        &tx,
+                        "SETEX",
+                        vec![
+                            event.event_key,
+                            ttl_seconds.to_string(),
+                            event.serialized,
+                        ],
+                    )?;
+                    redis::execute_command_in_transaction(
+                        &tx,
+                        "ZADD",
+                        vec![
+                            waf_log_date_key(&event.date),
+                            event.score.to_string(),
+                            event.trace_id,
+                        ],
+                    )?;
+                    redis::execute_command_in_transaction(
+                        &tx,
+                        "EXPIRE",
+                        vec![waf_log_date_key(&event.date), ttl_seconds.to_string()],
+                    )?;
+                    if !already_persisted {
+                        redis::execute_command_in_transaction(
+                            &tx,
+                            "HINCRBY",
+                            vec![waf_log_stats_key(&event.date), "events".to_string(), "1".to_string()],
+                        )?;
+                        redis::execute_command_in_transaction(
+                            &tx,
+                            "HINCRBY",
+                            vec![
+                                waf_log_stats_key(&event.date),
+                                format!("action:{}", event.action),
+                                "1".to_string(),
+                            ],
+                        )?;
+                    }
+                    redis::execute_command_in_transaction(
+                        &tx,
+                        "EXPIRE",
+                        vec![waf_log_stats_key(&event.date), ttl_seconds.to_string()],
+                    )?;
+                    touched_dates.insert(event.date);
+                }
+
+                for date in touched_dates {
+                    redis::execute_command_in_transaction(
+                        &tx,
+                        "ZADD",
+                        vec![
+                            WAF_LOG_DATES_INDEX_KEY.to_string(),
+                            waf_log_date_score(&date).to_string(),
+                            date,
+                        ],
+                    )?;
+                }
+                redis::execute_command_in_transaction(
+                    &tx,
+                    "ZREMRANGEBYSCORE",
+                    vec![
+                        WAF_LOG_DATES_INDEX_KEY.to_string(),
+                        "0".to_string(),
+                        format!("({cutoff_date_score}"),
+                    ],
+                )?;
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub async fn list_waf_log_dates(
+        &self,
+        today: &str,
+    ) -> crate::storage::StorageResult<Vec<String>> {
+        let migrated = self
+            .get_string_value(WAF_LOG_DATES_INDEX_MIGRATED_KEY)
+            .await?;
+        if migrated.is_none() {
+            return self.scan_waf_log_dates_and_backfill_index(today).await;
+        }
+
+        let mut conn = self.conn();
+        let indexed_dates: Vec<String> = conn.zrevrange(WAF_LOG_DATES_INDEX_KEY, 0, -1).await?;
+        if indexed_dates.is_empty() {
+            return Ok(vec![today.to_string()]);
+        }
+
+        let mut dates = BTreeSet::new();
+        dates.insert(today.to_string());
+        let mut stale_dates = Vec::new();
+        for date in indexed_dates
+            .into_iter()
+            .filter(|date| is_waf_log_date(date))
+        {
+            let count: i64 = conn.zcard(waf_log_date_key(&date)).await?;
+            if count > 0 {
+                dates.insert(date);
+            } else {
+                stale_dates.push(date);
+            }
+        }
+        if !stale_dates.is_empty() {
+            let mut pipe = redis::pipe();
+            pipe.zrem(WAF_LOG_DATES_INDEX_KEY, stale_dates).ignore();
+            let _: () = pipe.query_async(&mut conn).await?;
+        }
+
+        Ok(descending_strings(dates))
+    }
+
+    async fn scan_waf_log_dates_and_backfill_index(
+        &self,
+        today: &str,
+    ) -> crate::storage::StorageResult<Vec<String>> {
+        let mut conn = self.conn();
+        let mut cursor = "0".to_string();
+        let mut dates = BTreeSet::new();
+        loop {
+            let (next_cursor, batch): (String, Vec<String>) = redis::cmd("SCAN")
+                .arg(&cursor)
+                .arg("MATCH")
+                .arg(format!("{WAF_LOG_DATE_PREFIX}*"))
+                .arg("COUNT")
+                .arg(100)
+                .query_async(&mut conn)
+                .await?;
+            for key in batch {
+                let date = key.strip_prefix(WAF_LOG_DATE_PREFIX).unwrap_or("");
+                if is_waf_log_date(date) {
+                    dates.insert(date.to_string());
+                }
+            }
+            if next_cursor == "0" {
+                break;
+            }
+            cursor = next_cursor;
+        }
+
+        let mut pipe = redis::pipe();
+        for date in &dates {
+            pipe.zadd(WAF_LOG_DATES_INDEX_KEY, date, waf_log_date_score(date))
+                .ignore();
+        }
+        pipe.set(WAF_LOG_DATES_INDEX_MIGRATED_KEY, "1").ignore();
+        let _: () = pipe.query_async(&mut conn).await?;
+        dates.insert(today.to_string());
+        Ok(descending_strings(dates))
+    }
+
+    pub async fn waf_log_date_total(&self, date: &str) -> crate::storage::StorageResult<i64> {
+        let mut conn = self.conn();
+        conn.zcard(waf_log_date_key(date)).await
+    }
+
+    pub async fn waf_log_ids_desc(
+        &self,
+        date: &str,
+        start: isize,
+        end: isize,
+    ) -> crate::storage::StorageResult<Vec<String>> {
+        let mut conn = self.conn();
+        conn.zrevrange(waf_log_date_key(date), start, end).await
+    }
+
+    pub async fn waf_log_events_by_ids(
+        &self,
+        ids: &[String],
+    ) -> crate::storage::StorageResult<Vec<Option<Value>>> {
+        if ids.is_empty() {
+            return Ok(Vec::new());
+        }
+        let mut conn = self.conn();
+        let raws: Vec<Option<String>> = redis::cmd("MGET")
+            .arg(
+                ids.iter()
+                    .map(|id| waf_log_event_key(id))
+                    .collect::<Vec<_>>(),
+            )
+            .query_async(&mut conn)
+            .await?;
+        Ok(raws
+            .into_iter()
+            .map(|raw| raw.and_then(|value| serde_json::from_str::<Value>(&value).ok()))
+            .collect())
+    }
+
+    pub async fn get_waf_log_event(
+        &self,
+        trace_id: &str,
+    ) -> crate::storage::StorageResult<Option<Value>> {
+        self.get_json_value(&waf_log_event_key(trace_id)).await
+    }
+
+    pub async fn remove_waf_log_stale_ids(
+        &self,
+        date: &str,
+        ids: &[String],
+    ) -> crate::storage::StorageResult<()> {
+        let unique_ids = unique_non_empty_strings(ids);
+        if unique_ids.is_empty() {
+            return Ok(());
+        }
+        let mut conn = self.conn();
+        for chunk in unique_ids.chunks(500) {
+            let mut pipe = redis::pipe();
+            pipe.zrem(waf_log_date_key(date), chunk).ignore();
+            let _: () = pipe.query_async(&mut conn).await?;
+        }
+        Ok(())
+    }
+
+    pub async fn delete_waf_log_date(&self, date: &str) -> crate::storage::StorageResult<bool> {
+        let mut conn = self.conn();
+        let mut deleted_count = 0usize;
+        loop {
+            let ids: Vec<String> = conn.zrange(waf_log_date_key(date), 0, 499).await?;
+            if ids.is_empty() {
+                break;
+            }
+            let mut pipe = redis::pipe();
+            for id in &ids {
+                pipe.del(waf_log_event_key(id)).ignore();
+            }
+            pipe.zrem(waf_log_date_key(date), ids.clone()).ignore();
+            let _: () = pipe.query_async(&mut conn).await?;
+            deleted_count += ids.len();
+        }
+
+        let mut pipe = redis::pipe();
+        pipe.del(waf_log_date_key(date)).ignore();
+        pipe.del(waf_log_stats_key(date)).ignore();
+        pipe.zrem(WAF_LOG_DATES_INDEX_KEY, date).ignore();
+        let _: () = pipe.query_async(&mut conn).await?;
+        Ok(deleted_count > 0)
+    }
+}

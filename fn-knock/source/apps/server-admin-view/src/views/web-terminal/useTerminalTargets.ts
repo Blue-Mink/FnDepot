@@ -1,1 +1,325 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7CiAgVGVybWluYWxBUEksCiAgdHlwZSBUZXJtaW5hbERlc3RpbmF0aW9uLAogIHR5cGUgVGVybWluYWxFcnJvckNvZGUsCiAgdHlwZSBUZXJtaW5hbExvY2FsU3RhdHVzLAogIHR5cGUgVGVybWluYWxTc2hEZXN0aW5hdGlvbiwKICB0eXBlIFRlcm1pbmFsVGFyZ2V0Q3JlYXRlSW5wdXQsCiAgdHlwZSBUZXJtaW5hbFRhcmdldFVwZGF0ZUlucHV0LAp9IGZyb20gIkAvbGliL2FwaS90ZXJtaW5hbCI7CmltcG9ydCB7IGV4dHJhY3RUZXJtaW5hbEVycm9yIH0gZnJvbSAiLi90ZXJtaW5hbC1lcnJvcnMiOwoKY29uc3QgUkVDRU5UX1RBUkdFVF9LRVkgPSAiZm4ta25vY2s6dGVybWluYWw6bGFzdC10YXJnZXQiOwoKY29uc3QgcmVhZFJlY2VudFRhcmdldCA9ICgpID0+IHsKICB0cnkgewogICAgcmV0dXJuIGxvY2FsU3RvcmFnZS5nZXRJdGVtKFJFQ0VOVF9UQVJHRVRfS0VZKSA/PyAiIjsKICB9IGNhdGNoIHsKICAgIHJldHVybiAiIjsKICB9Cn07Cgp0eXBlIE9wZXJhdGlvblNsb3QgPSB7CiAgY29udHJvbGxlcjogQWJvcnRDb250cm9sbGVyIHwgbnVsbDsKICBnZW5lcmF0aW9uOiBudW1iZXI7Cn07Cgpjb25zdCBuZXdPcGVyYXRpb25TbG90ID0gKCk6IE9wZXJhdGlvblNsb3QgPT4gKHsKICBjb250cm9sbGVyOiBudWxsLAogIGdlbmVyYXRpb246IDAsCn0pOwoKZXhwb3J0IGNvbnN0IHVzZVRlcm1pbmFsVGFyZ2V0cyA9ICgpID0+IHsKICBjb25zdCBzc2hUYXJnZXRzID0gcmVmPFRlcm1pbmFsU3NoRGVzdGluYXRpb25bXT4oW10pOwogIGNvbnN0IGxvY2FsU3RhdHVzID0gcmVmPFRlcm1pbmFsTG9jYWxTdGF0dXMgfCBudWxsPihudWxsKTsKICBjb25zdCBzZWxlY3RlZFRhcmdldElkID0gcmVmKCIiKTsKICBjb25zdCBsb2FkaW5nID0gcmVmKGZhbHNlKTsKICBjb25zdCB1cGRhdGluZ0xvY2FsID0gcmVmKGZhbHNlKTsKICBjb25zdCBlcnJvciA9IHJlZigiIik7CiAgY29uc3QgZXJyb3JDb2RlID0gcmVmPFRlcm1pbmFsRXJyb3JDb2RlIHwgbnVsbD4obnVsbCk7CiAgbGV0IGxvYWRHZW5lcmF0aW9uID0gMDsKICBsZXQgbG9hZENvbnRyb2xsZXI6IEFib3J0Q29udHJvbGxlciB8IG51bGwgPSBudWxsOwogIGNvbnN0IGNyZWF0ZU9wZXJhdGlvbiA9IG5ld09wZXJhdGlvblNsb3QoKTsKICBjb25zdCB1cGRhdGVPcGVyYXRpb24gPSBuZXdPcGVyYXRpb25TbG90KCk7CiAgY29uc3QgZGVsZXRlT3BlcmF0aW9uID0gbmV3T3BlcmF0aW9uU2xvdCgpOwogIGNvbnN0IGxvY2FsT3BlcmF0aW9uID0gbmV3T3BlcmF0aW9uU2xvdCgpOwoKICBjb25zdCB0YXJnZXRzID0gY29tcHV0ZWQ8VGVybWluYWxEZXN0aW5hdGlvbltdPigoKSA9PiB7CiAgICBjb25zdCBsb2NhbCA9IGxvY2FsU3RhdHVzLnZhbHVlOwogICAgcmV0dXJuIFsKICAgICAgLi4uKGxvY2FsPy5zdXBwb3J0ZWQKICAgICAgICA/IFsKICAgICAgICAgICAgewogICAgICAgICAgICAgIC4uLmxvY2FsLAogICAgICAgICAgICAgIGlkOiAibG9jYWwiIGFzIGNvbnN0LAogICAgICAgICAgICAgIGtpbmQ6ICJsb2NhbCIgYXMgY29uc3QsCiAgICAgICAgICAgICAgbmFtZTogIkxvY2FsIiBhcyBjb25zdCwKICAgICAgICAgICAgfSwKICAgICAgICAgIF0KICAgICAgICA6IFtdKSwKICAgICAgLi4uc3NoVGFyZ2V0cy52YWx1ZSwKICAgIF07CiAgfSk7CgogIGNvbnN0IGJlZ2luT3BlcmF0aW9uID0gKHNsb3Q6IE9wZXJhdGlvblNsb3QpID0+IHsKICAgIHNsb3QuZ2VuZXJhdGlvbiArPSAxOwogICAgc2xvdC5jb250cm9sbGVyPy5hYm9ydCgpOwogICAgc2xvdC5jb250cm9sbGVyID0gbmV3IEFib3J0Q29udHJvbGxlcigpOwogICAgcmV0dXJuIHsgZ2VuZXJhdGlvbjogc2xvdC5nZW5lcmF0aW9uLCBzaWduYWw6IHNsb3QuY29udHJvbGxlci5zaWduYWwgfTsKICB9OwogIGNvbnN0IGlzQ3VycmVudCA9IChzbG90OiBPcGVyYXRpb25TbG90LCBnZW5lcmF0aW9uOiBudW1iZXIpID0+CiAgICBzbG90LmdlbmVyYXRpb24gPT09IGdlbmVyYXRpb24gJiYgIXNsb3QuY29udHJvbGxlcj8uc2lnbmFsLmFib3J0ZWQ7CiAgY29uc3QgY2FuY2VsT3BlcmF0aW9uID0gKHNsb3Q6IE9wZXJhdGlvblNsb3QpID0+IHsKICAgIHNsb3QuZ2VuZXJhdGlvbiArPSAxOwogICAgc2xvdC5jb250cm9sbGVyPy5hYm9ydCgpOwogICAgc2xvdC5jb250cm9sbGVyID0gbnVsbDsKICB9OwogIGNvbnN0IGNhbmNlbE11dGF0aW9ucyA9ICgpID0+IHsKICAgIGNhbmNlbE9wZXJhdGlvbihjcmVhdGVPcGVyYXRpb24pOwogICAgY2FuY2VsT3BlcmF0aW9uKHVwZGF0ZU9wZXJhdGlvbik7CiAgICBjYW5jZWxPcGVyYXRpb24oZGVsZXRlT3BlcmF0aW9uKTsKICAgIGNhbmNlbE9wZXJhdGlvbihsb2NhbE9wZXJhdGlvbik7CiAgfTsKICBjb25zdCBjYW5jZWxFZGl0cyA9ICgpID0+IHsKICAgIGNhbmNlbE9wZXJhdGlvbihjcmVhdGVPcGVyYXRpb24pOwogICAgY2FuY2VsT3BlcmF0aW9uKHVwZGF0ZU9wZXJhdGlvbik7CiAgfTsKCiAgY29uc3Qgc2VsZWN0ZWRUYXJnZXQgPSBjb21wdXRlZCgKICAgICgpID0+CiAgICAgIHRhcmdldHMudmFsdWUuZmluZCgodGFyZ2V0KSA9PiB0YXJnZXQuaWQgPT09IHNlbGVjdGVkVGFyZ2V0SWQudmFsdWUpID8/CiAgICAgIG51bGwsCiAgKTsKCiAgY29uc3QgY29tbWl0U2VsZWN0aW9uID0gKHRhcmdldElkOiBzdHJpbmcpID0+IHsKICAgIGlmICghdGFyZ2V0cy52YWx1ZS5zb21lKCh0YXJnZXQpID0+IHRhcmdldC5pZCA9PT0gdGFyZ2V0SWQpKSByZXR1cm47CiAgICBzZWxlY3RlZFRhcmdldElkLnZhbHVlID0gdGFyZ2V0SWQ7CiAgICB0cnkgewogICAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShSRUNFTlRfVEFSR0VUX0tFWSwgdGFyZ2V0SWQpOwogICAgfSBjYXRjaCB7CiAgICAgIC8vIFNlbGVjdGlvbiBwZXJzaXN0ZW5jZSBpcyBvcHRpb25hbC4KICAgIH0KICB9OwoKICBjb25zdCBzZWxlY3RUYXJnZXQgPSAodGFyZ2V0SWQ6IHN0cmluZykgPT4gewogICAgaWYgKHRhcmdldElkID09PSBzZWxlY3RlZFRhcmdldElkLnZhbHVlKSByZXR1cm47CiAgICBjYW5jZWxNdXRhdGlvbnMoKTsKICAgIGNvbW1pdFNlbGVjdGlvbih0YXJnZXRJZCk7CiAgfTsKCiAgY29uc3QgcmVjb25jaWxlU2VsZWN0aW9uID0gKCkgPT4gewogICAgaWYgKAogICAgICBzZWxlY3RlZFRhcmdldElkLnZhbHVlICYmCiAgICAgIHRhcmdldHMudmFsdWUuc29tZSgodGFyZ2V0KSA9PiB0YXJnZXQuaWQgPT09IHNlbGVjdGVkVGFyZ2V0SWQudmFsdWUpCiAgICApIHsKICAgICAgcmV0dXJuOwogICAgfQogICAgY29uc3QgcmVjZW50VGFyZ2V0ID0gcmVhZFJlY2VudFRhcmdldCgpOwogICAgY29uc3QgbmV4dCA9CiAgICAgIHRhcmdldHMudmFsdWUuZmluZCgodGFyZ2V0KSA9PiB0YXJnZXQuaWQgPT09IHJlY2VudFRhcmdldCkgPz8KICAgICAgdGFyZ2V0cy52YWx1ZVswXSA/PwogICAgICBudWxsOwogICAgc2VsZWN0ZWRUYXJnZXRJZC52YWx1ZSA9IG5leHQ/LmlkID8/ICIiOwogIH07CgogIGNvbnN0IGxvYWRUYXJnZXRzID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgZ2VuZXJhdGlvbiA9ICsrbG9hZEdlbmVyYXRpb247CiAgICBsb2FkQ29udHJvbGxlcj8uYWJvcnQoKTsKICAgIGxvYWRDb250cm9sbGVyID0gbmV3IEFib3J0Q29udHJvbGxlcigpOwogICAgbG9hZGluZy52YWx1ZSA9IHRydWU7CiAgICBlcnJvci52YWx1ZSA9ICIiOwogICAgZXJyb3JDb2RlLnZhbHVlID0gbnVsbDsKICAgIHRyeSB7CiAgICAgIGNvbnN0IFtsb2NhbFJlc3VsdCwgc3NoUmVzdWx0XSA9IGF3YWl0IFByb21pc2UuYWxsU2V0dGxlZChbCiAgICAgICAgVGVybWluYWxBUEkuZ2V0TG9jYWxTdGF0dXMobG9hZENvbnRyb2xsZXIuc2lnbmFsKSwKICAgICAgICBUZXJtaW5hbEFQSS5saXN0VGFyZ2V0cyhsb2FkQ29udHJvbGxlci5zaWduYWwpLAogICAgICBdKTsKICAgICAgaWYgKGdlbmVyYXRpb24gIT09IGxvYWRHZW5lcmF0aW9uIHx8IGxvYWRDb250cm9sbGVyLnNpZ25hbC5hYm9ydGVkKQogICAgICAgIHJldHVybjsKICAgICAgaWYgKHNzaFJlc3VsdC5zdGF0dXMgPT09ICJyZWplY3RlZCIpIHRocm93IHNzaFJlc3VsdC5yZWFzb247CiAgICAgIHNzaFRhcmdldHMudmFsdWUgPSBzc2hSZXN1bHQudmFsdWUubWFwKCh0YXJnZXQpID0+ICh7CiAgICAgICAgLi4udGFyZ2V0LAogICAgICAgIGtpbmQ6ICJzc2giLAogICAgICB9KSk7CiAgICAgIGlmIChsb2NhbFJlc3VsdC5zdGF0dXMgPT09ICJmdWxmaWxsZWQiKSB7CiAgICAgICAgbG9jYWxTdGF0dXMudmFsdWUgPSBsb2NhbFJlc3VsdC52YWx1ZTsKICAgICAgfSBlbHNlIHsKICAgICAgICAvLyBUaGUgbG9jYWwgYmFja2VuZCBpcyBvcHRpb25hbC4gRmFpbCBpdCBjbG9zZWQgd2l0aG91dCBoaWRpbmcgU1NICiAgICAgICAgLy8gZGVzdGluYXRpb25zIHRoYXQgd2VyZSBsb2FkZWQgc3VjY2Vzc2Z1bGx5LgogICAgICAgIGxvY2FsU3RhdHVzLnZhbHVlID0gbnVsbDsKICAgICAgICBjb25zdCBmYWlsdXJlID0gZXh0cmFjdFRlcm1pbmFsRXJyb3IobG9jYWxSZXN1bHQucmVhc29uKTsKICAgICAgICBlcnJvci52YWx1ZSA9IGZhaWx1cmUubWVzc2FnZTsKICAgICAgICBlcnJvckNvZGUudmFsdWUgPSBmYWlsdXJlLmVycm9yQ29kZTsKICAgICAgfQogICAgICByZWNvbmNpbGVTZWxlY3Rpb24oKTsKICAgIH0gY2F0Y2ggKHJlYXNvbikgewogICAgICBpZiAoZ2VuZXJhdGlvbiAhPT0gbG9hZEdlbmVyYXRpb24gfHwgbG9hZENvbnRyb2xsZXIuc2lnbmFsLmFib3J0ZWQpCiAgICAgICAgcmV0dXJuOwogICAgICBjb25zdCBmYWlsdXJlID0gZXh0cmFjdFRlcm1pbmFsRXJyb3IocmVhc29uKTsKICAgICAgZXJyb3IudmFsdWUgPSBmYWlsdXJlLm1lc3NhZ2U7CiAgICAgIGVycm9yQ29kZS52YWx1ZSA9IGZhaWx1cmUuZXJyb3JDb2RlOwogICAgICB0aHJvdyByZWFzb247CiAgICB9IGZpbmFsbHkgewogICAgICBpZiAoZ2VuZXJhdGlvbiA9PT0gbG9hZEdlbmVyYXRpb24pIGxvYWRpbmcudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9OwoKICBjb25zdCBjcmVhdGVUYXJnZXQgPSBhc3luYyAocGF5bG9hZDogVGVybWluYWxUYXJnZXRDcmVhdGVJbnB1dCkgPT4gewogICAgY29uc3Qgb3BlcmF0aW9uID0gYmVnaW5PcGVyYXRpb24oY3JlYXRlT3BlcmF0aW9uKTsKICAgIGVycm9yLnZhbHVlID0gIiI7CiAgICBlcnJvckNvZGUudmFsdWUgPSBudWxsOwogICAgdHJ5IHsKICAgICAgY29uc3QgY3JlYXRlZCA9IGF3YWl0IFRlcm1pbmFsQVBJLmNyZWF0ZVRhcmdldChwYXlsb2FkLCBvcGVyYXRpb24uc2lnbmFsKTsKICAgICAgaWYgKCFpc0N1cnJlbnQoY3JlYXRlT3BlcmF0aW9uLCBvcGVyYXRpb24uZ2VuZXJhdGlvbikpIHsKICAgICAgICB0aHJvdyBuZXcgRE9NRXhjZXB0aW9uKCJBYm9ydGVkIiwgIkFib3J0RXJyb3IiKTsKICAgICAgfQogICAgICBzc2hUYXJnZXRzLnZhbHVlID0gWy4uLnNzaFRhcmdldHMudmFsdWUsIHsgLi4uY3JlYXRlZCwga2luZDogInNzaCIgfV07CiAgICAgIGNvbW1pdFNlbGVjdGlvbihjcmVhdGVkLmlkKTsKICAgICAgcmV0dXJuIGNyZWF0ZWQ7CiAgICB9IGNhdGNoIChyZWFzb24pIHsKICAgICAgaWYgKGlzQ3VycmVudChjcmVhdGVPcGVyYXRpb24sIG9wZXJhdGlvbi5nZW5lcmF0aW9uKSkgewogICAgICAgIGNvbnN0IGZhaWx1cmUgPSBleHRyYWN0VGVybWluYWxFcnJvcihyZWFzb24pOwogICAgICAgIGVycm9yLnZhbHVlID0gZmFpbHVyZS5tZXNzYWdlOwogICAgICAgIGVycm9yQ29kZS52YWx1ZSA9IGZhaWx1cmUuZXJyb3JDb2RlOwogICAgICB9CiAgICAgIHRocm93IHJlYXNvbjsKICAgIH0KICB9OwoKICBjb25zdCB1cGRhdGVUYXJnZXQgPSBhc3luYyAoCiAgICB0YXJnZXRJZDogc3RyaW5nLAogICAgcGF5bG9hZDogVGVybWluYWxUYXJnZXRVcGRhdGVJbnB1dCwKICAgIGZvcmNlID0gZmFsc2UsCiAgICBjb25maXJtYXRpb25Ub2tlbj86IHN0cmluZywKICApID0+IHsKICAgIGNvbnN0IG9wZXJhdGlvbiA9IGJlZ2luT3BlcmF0aW9uKHVwZGF0ZU9wZXJhdGlvbik7CiAgICBlcnJvci52YWx1ZSA9ICIiOwogICAgZXJyb3JDb2RlLnZhbHVlID0gbnVsbDsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHVwZGF0ZWQgPSBhd2FpdCBUZXJtaW5hbEFQSS51cGRhdGVUYXJnZXQoCiAgICAgICAgdGFyZ2V0SWQsCiAgICAgICAgcGF5bG9hZCwKICAgICAgICBmb3JjZSwKICAgICAgICBjb25maXJtYXRpb25Ub2tlbiwKICAgICAgICBvcGVyYXRpb24uc2lnbmFsLAogICAgICApOwogICAgICBpZiAoIWlzQ3VycmVudCh1cGRhdGVPcGVyYXRpb24sIG9wZXJhdGlvbi5nZW5lcmF0aW9uKSkgewogICAgICAgIHRocm93IG5ldyBET01FeGNlcHRpb24oIkFib3J0ZWQiLCAiQWJvcnRFcnJvciIpOwogICAgICB9CiAgICAgIHNzaFRhcmdldHMudmFsdWUgPSBzc2hUYXJnZXRzLnZhbHVlLm1hcCgodGFyZ2V0KSA9PgogICAgICAgIHRhcmdldC5pZCA9PT0gdXBkYXRlZC5pZCA/IHsgLi4udXBkYXRlZCwga2luZDogInNzaCIgfSA6IHRhcmdldCwKICAgICAgKTsKICAgICAgcmV0dXJuIHVwZGF0ZWQ7CiAgICB9IGNhdGNoIChyZWFzb24pIHsKICAgICAgaWYgKGlzQ3VycmVudCh1cGRhdGVPcGVyYXRpb24sIG9wZXJhdGlvbi5nZW5lcmF0aW9uKSkgewogICAgICAgIGNvbnN0IGZhaWx1cmUgPSBleHRyYWN0VGVybWluYWxFcnJvcihyZWFzb24pOwogICAgICAgIGVycm9yLnZhbHVlID0gZmFpbHVyZS5tZXNzYWdlOwogICAgICAgIGVycm9yQ29kZS52YWx1ZSA9IGZhaWx1cmUuZXJyb3JDb2RlOwogICAgICB9CiAgICAgIHRocm93IHJlYXNvbjsKICAgIH0KICB9OwoKICBjb25zdCBkZWxldGVUYXJnZXQgPSBhc3luYyAoCiAgICB0YXJnZXRJZDogc3RyaW5nLAogICAgcmV2aXNpb246IG51bWJlciwKICAgIGZvcmNlID0gZmFsc2UsCiAgICBjb25maXJtYXRpb25Ub2tlbj86IHN0cmluZywKICApID0+IHsKICAgIGNvbnN0IG9wZXJhdGlvbiA9IGJlZ2luT3BlcmF0aW9uKGRlbGV0ZU9wZXJhdGlvbik7CiAgICBlcnJvci52YWx1ZSA9ICIiOwogICAgZXJyb3JDb2RlLnZhbHVlID0gbnVsbDsKICAgIHRyeSB7CiAgICAgIGF3YWl0IFRlcm1pbmFsQVBJLmRlbGV0ZVRhcmdldCgKICAgICAgICB0YXJnZXRJZCwKICAgICAgICByZXZpc2lvbiwKICAgICAgICBmb3JjZSwKICAgICAgICBjb25maXJtYXRpb25Ub2tlbiwKICAgICAgICBvcGVyYXRpb24uc2lnbmFsLAogICAgICApOwogICAgICBpZiAoIWlzQ3VycmVudChkZWxldGVPcGVyYXRpb24sIG9wZXJhdGlvbi5nZW5lcmF0aW9uKSkgcmV0dXJuOwogICAgICBzc2hUYXJnZXRzLnZhbHVlID0gc3NoVGFyZ2V0cy52YWx1ZS5maWx0ZXIoCiAgICAgICAgKHRhcmdldCkgPT4gdGFyZ2V0LmlkICE9PSB0YXJnZXRJZCwKICAgICAgKTsKICAgICAgcmVjb25jaWxlU2VsZWN0aW9uKCk7CiAgICB9IGNhdGNoIChyZWFzb24pIHsKICAgICAgaWYgKGlzQ3VycmVudChkZWxldGVPcGVyYXRpb24sIG9wZXJhdGlvbi5nZW5lcmF0aW9uKSkgewogICAgICAgIGNvbnN0IGZhaWx1cmUgPSBleHRyYWN0VGVybWluYWxFcnJvcihyZWFzb24pOwogICAgICAgIGVycm9yLnZhbHVlID0gZmFpbHVyZS5tZXNzYWdlOwogICAgICAgIGVycm9yQ29kZS52YWx1ZSA9IGZhaWx1cmUuZXJyb3JDb2RlOwogICAgICB9CiAgICAgIHRocm93IHJlYXNvbjsKICAgIH0KICB9OwoKICBjb25zdCB1cGRhdGVMb2NhbFRlcm1pbmFsID0gYXN5bmMgKAogICAgZW5hYmxlZDogYm9vbGVhbiwKICAgIGFja25vd2xlZGdlUmlzayA9IGZhbHNlLAogICAgZm9yY2UgPSBmYWxzZSwKICAgIGNvbmZpcm1hdGlvblRva2VuPzogc3RyaW5nLAogICkgPT4gewogICAgY29uc3Qgc3RhdHVzID0gbG9jYWxTdGF0dXMudmFsdWU7CiAgICBpZiAoIXN0YXR1cykgdGhyb3cgbmV3IEVycm9yKCJsb2NhbCB0ZXJtaW5hbCBzdGF0dXMgaXMgdW5hdmFpbGFibGUiKTsKICAgIGNvbnN0IG9wZXJhdGlvbiA9IGJlZ2luT3BlcmF0aW9uKGxvY2FsT3BlcmF0aW9uKTsKICAgIHVwZGF0aW5nTG9jYWwudmFsdWUgPSB0cnVlOwogICAgZXJyb3IudmFsdWUgPSAiIjsKICAgIGVycm9yQ29kZS52YWx1ZSA9IG51bGw7CiAgICB0cnkgewogICAgICBjb25zdCB1cGRhdGVkID0gYXdhaXQgVGVybWluYWxBUEkudXBkYXRlTG9jYWxTdGF0dXMoCiAgICAgICAgewogICAgICAgICAgZW5hYmxlZCwKICAgICAgICAgIHJldmlzaW9uOiBzdGF0dXMucmV2aXNpb24sCiAgICAgICAgICBhY2tub3dsZWRnZVJpc2ssCiAgICAgICAgfSwKICAgICAgICBmb3JjZSwKICAgICAgICBjb25maXJtYXRpb25Ub2tlbiwKICAgICAgICBvcGVyYXRpb24uc2lnbmFsLAogICAgICApOwogICAgICBpZiAoIWlzQ3VycmVudChsb2NhbE9wZXJhdGlvbiwgb3BlcmF0aW9uLmdlbmVyYXRpb24pKSB7CiAgICAgICAgdGhyb3cgbmV3IERPTUV4Y2VwdGlvbigiQWJvcnRlZCIsICJBYm9ydEVycm9yIik7CiAgICAgIH0KICAgICAgbG9jYWxTdGF0dXMudmFsdWUgPSB1cGRhdGVkOwogICAgICByZWNvbmNpbGVTZWxlY3Rpb24oKTsKICAgICAgcmV0dXJuIHVwZGF0ZWQ7CiAgICB9IGNhdGNoIChyZWFzb24pIHsKICAgICAgaWYgKGlzQ3VycmVudChsb2NhbE9wZXJhdGlvbiwgb3BlcmF0aW9uLmdlbmVyYXRpb24pKSB7CiAgICAgICAgY29uc3QgZmFpbHVyZSA9IGV4dHJhY3RUZXJtaW5hbEVycm9yKHJlYXNvbik7CiAgICAgICAgZXJyb3IudmFsdWUgPSBmYWlsdXJlLm1lc3NhZ2U7CiAgICAgICAgZXJyb3JDb2RlLnZhbHVlID0gZmFpbHVyZS5lcnJvckNvZGU7CiAgICAgIH0KICAgICAgdGhyb3cgcmVhc29uOwogICAgfSBmaW5hbGx5IHsKICAgICAgaWYgKGlzQ3VycmVudChsb2NhbE9wZXJhdGlvbiwgb3BlcmF0aW9uLmdlbmVyYXRpb24pKSB7CiAgICAgICAgdXBkYXRpbmdMb2NhbC52YWx1ZSA9IGZhbHNlOwogICAgICB9CiAgICB9CiAgfTsKCiAgY29uc3QgZGlzcG9zZSA9ICgpID0+IHsKICAgIGxvYWRHZW5lcmF0aW9uICs9IDE7CiAgICBsb2FkQ29udHJvbGxlcj8uYWJvcnQoKTsKICAgIGxvYWRDb250cm9sbGVyID0gbnVsbDsKICAgIGNhbmNlbE11dGF0aW9ucygpOwogIH07CgogIHJldHVybiB7CiAgICBjcmVhdGVUYXJnZXQsCiAgICBjYW5jZWxFZGl0cywKICAgIGNhbmNlbE11dGF0aW9ucywKICAgIGRlbGV0ZVRhcmdldCwKICAgIGRpc3Bvc2UsCiAgICBlcnJvciwKICAgIGVycm9yQ29kZSwKICAgIGxvYWRUYXJnZXRzLAogICAgbG9jYWxTdGF0dXMsCiAgICBsb2FkaW5nLAogICAgc2VsZWN0ZWRUYXJnZXQsCiAgICBzZWxlY3RlZFRhcmdldElkLAogICAgc2VsZWN0VGFyZ2V0LAogICAgdGFyZ2V0cywKICAgIHVwZGF0ZUxvY2FsVGVybWluYWwsCiAgICB1cGRhdGluZ0xvY2FsLAogICAgdXBkYXRlVGFyZ2V0LAogIH07Cn07Cg==
+import { computed, ref } from "vue";
+import {
+  TerminalAPI,
+  type TerminalDestination,
+  type TerminalErrorCode,
+  type TerminalLocalStatus,
+  type TerminalSshDestination,
+  type TerminalTargetCreateInput,
+  type TerminalTargetUpdateInput,
+} from "@/lib/api/terminal";
+import { extractTerminalError } from "./terminal-errors";
+
+const RECENT_TARGET_KEY = "fn-knock:terminal:last-target";
+
+const readRecentTarget = () => {
+  try {
+    return localStorage.getItem(RECENT_TARGET_KEY) ?? "";
+  } catch {
+    return "";
+  }
+};
+
+type OperationSlot = {
+  controller: AbortController | null;
+  generation: number;
+};
+
+const newOperationSlot = (): OperationSlot => ({
+  controller: null,
+  generation: 0,
+});
+
+export const useTerminalTargets = () => {
+  const sshTargets = ref<TerminalSshDestination[]>([]);
+  const localStatus = ref<TerminalLocalStatus | null>(null);
+  const selectedTargetId = ref("");
+  const loading = ref(false);
+  const updatingLocal = ref(false);
+  const error = ref("");
+  const errorCode = ref<TerminalErrorCode | null>(null);
+  let loadGeneration = 0;
+  let loadController: AbortController | null = null;
+  const createOperation = newOperationSlot();
+  const updateOperation = newOperationSlot();
+  const deleteOperation = newOperationSlot();
+  const localOperation = newOperationSlot();
+
+  const targets = computed<TerminalDestination[]>(() => {
+    const local = localStatus.value;
+    return [
+      ...(local?.supported
+        ? [
+            {
+              ...local,
+              id: "local" as const,
+              kind: "local" as const,
+              name: "Local" as const,
+            },
+          ]
+        : []),
+      ...sshTargets.value,
+    ];
+  });
+
+  const beginOperation = (slot: OperationSlot) => {
+    slot.generation += 1;
+    slot.controller?.abort();
+    slot.controller = new AbortController();
+    return { generation: slot.generation, signal: slot.controller.signal };
+  };
+  const isCurrent = (slot: OperationSlot, generation: number) =>
+    slot.generation === generation && !slot.controller?.signal.aborted;
+  const cancelOperation = (slot: OperationSlot) => {
+    slot.generation += 1;
+    slot.controller?.abort();
+    slot.controller = null;
+  };
+  const cancelMutations = () => {
+    cancelOperation(createOperation);
+    cancelOperation(updateOperation);
+    cancelOperation(deleteOperation);
+    cancelOperation(localOperation);
+  };
+  const cancelEdits = () => {
+    cancelOperation(createOperation);
+    cancelOperation(updateOperation);
+  };
+
+  const selectedTarget = computed(
+    () =>
+      targets.value.find((target) => target.id === selectedTargetId.value) ??
+      null,
+  );
+
+  const commitSelection = (targetId: string) => {
+    if (!targets.value.some((target) => target.id === targetId)) return;
+    selectedTargetId.value = targetId;
+    try {
+      localStorage.setItem(RECENT_TARGET_KEY, targetId);
+    } catch {
+      // Selection persistence is optional.
+    }
+  };
+
+  const selectTarget = (targetId: string) => {
+    if (targetId === selectedTargetId.value) return;
+    cancelMutations();
+    commitSelection(targetId);
+  };
+
+  const reconcileSelection = () => {
+    if (
+      selectedTargetId.value &&
+      targets.value.some((target) => target.id === selectedTargetId.value)
+    ) {
+      return;
+    }
+    const recentTarget = readRecentTarget();
+    const next =
+      targets.value.find((target) => target.id === recentTarget) ??
+      targets.value[0] ??
+      null;
+    selectedTargetId.value = next?.id ?? "";
+  };
+
+  const loadTargets = async () => {
+    const generation = ++loadGeneration;
+    loadController?.abort();
+    loadController = new AbortController();
+    loading.value = true;
+    error.value = "";
+    errorCode.value = null;
+    try {
+      const [localResult, sshResult] = await Promise.allSettled([
+        TerminalAPI.getLocalStatus(loadController.signal),
+        TerminalAPI.listTargets(loadController.signal),
+      ]);
+      if (generation !== loadGeneration || loadController.signal.aborted)
+        return;
+      if (sshResult.status === "rejected") throw sshResult.reason;
+      sshTargets.value = sshResult.value.map((target) => ({
+        ...target,
+        kind: "ssh",
+      }));
+      if (localResult.status === "fulfilled") {
+        localStatus.value = localResult.value;
+      } else {
+        // The local backend is optional. Fail it closed without hiding SSH
+        // destinations that were loaded successfully.
+        localStatus.value = null;
+        const failure = extractTerminalError(localResult.reason);
+        error.value = failure.message;
+        errorCode.value = failure.errorCode;
+      }
+      reconcileSelection();
+    } catch (reason) {
+      if (generation !== loadGeneration || loadController.signal.aborted)
+        return;
+      const failure = extractTerminalError(reason);
+      error.value = failure.message;
+      errorCode.value = failure.errorCode;
+      throw reason;
+    } finally {
+      if (generation === loadGeneration) loading.value = false;
+    }
+  };
+
+  const createTarget = async (payload: TerminalTargetCreateInput) => {
+    const operation = beginOperation(createOperation);
+    error.value = "";
+    errorCode.value = null;
+    try {
+      const created = await TerminalAPI.createTarget(payload, operation.signal);
+      if (!isCurrent(createOperation, operation.generation)) {
+        throw new DOMException("Aborted", "AbortError");
+      }
+      sshTargets.value = [...sshTargets.value, { ...created, kind: "ssh" }];
+      commitSelection(created.id);
+      return created;
+    } catch (reason) {
+      if (isCurrent(createOperation, operation.generation)) {
+        const failure = extractTerminalError(reason);
+        error.value = failure.message;
+        errorCode.value = failure.errorCode;
+      }
+      throw reason;
+    }
+  };
+
+  const updateTarget = async (
+    targetId: string,
+    payload: TerminalTargetUpdateInput,
+    force = false,
+    confirmationToken?: string,
+  ) => {
+    const operation = beginOperation(updateOperation);
+    error.value = "";
+    errorCode.value = null;
+    try {
+      const updated = await TerminalAPI.updateTarget(
+        targetId,
+        payload,
+        force,
+        confirmationToken,
+        operation.signal,
+      );
+      if (!isCurrent(updateOperation, operation.generation)) {
+        throw new DOMException("Aborted", "AbortError");
+      }
+      sshTargets.value = sshTargets.value.map((target) =>
+        target.id === updated.id ? { ...updated, kind: "ssh" } : target,
+      );
+      return updated;
+    } catch (reason) {
+      if (isCurrent(updateOperation, operation.generation)) {
+        const failure = extractTerminalError(reason);
+        error.value = failure.message;
+        errorCode.value = failure.errorCode;
+      }
+      throw reason;
+    }
+  };
+
+  const deleteTarget = async (
+    targetId: string,
+    revision: number,
+    force = false,
+    confirmationToken?: string,
+  ) => {
+    const operation = beginOperation(deleteOperation);
+    error.value = "";
+    errorCode.value = null;
+    try {
+      await TerminalAPI.deleteTarget(
+        targetId,
+        revision,
+        force,
+        confirmationToken,
+        operation.signal,
+      );
+      if (!isCurrent(deleteOperation, operation.generation)) return;
+      sshTargets.value = sshTargets.value.filter(
+        (target) => target.id !== targetId,
+      );
+      reconcileSelection();
+    } catch (reason) {
+      if (isCurrent(deleteOperation, operation.generation)) {
+        const failure = extractTerminalError(reason);
+        error.value = failure.message;
+        errorCode.value = failure.errorCode;
+      }
+      throw reason;
+    }
+  };
+
+  const updateLocalTerminal = async (
+    enabled: boolean,
+    acknowledgeRisk = false,
+    force = false,
+    confirmationToken?: string,
+  ) => {
+    const status = localStatus.value;
+    if (!status) throw new Error("local terminal status is unavailable");
+    const operation = beginOperation(localOperation);
+    updatingLocal.value = true;
+    error.value = "";
+    errorCode.value = null;
+    try {
+      const updated = await TerminalAPI.updateLocalStatus(
+        {
+          enabled,
+          revision: status.revision,
+          acknowledgeRisk,
+        },
+        force,
+        confirmationToken,
+        operation.signal,
+      );
+      if (!isCurrent(localOperation, operation.generation)) {
+        throw new DOMException("Aborted", "AbortError");
+      }
+      localStatus.value = updated;
+      reconcileSelection();
+      return updated;
+    } catch (reason) {
+      if (isCurrent(localOperation, operation.generation)) {
+        const failure = extractTerminalError(reason);
+        error.value = failure.message;
+        errorCode.value = failure.errorCode;
+      }
+      throw reason;
+    } finally {
+      if (isCurrent(localOperation, operation.generation)) {
+        updatingLocal.value = false;
+      }
+    }
+  };
+
+  const dispose = () => {
+    loadGeneration += 1;
+    loadController?.abort();
+    loadController = null;
+    cancelMutations();
+  };
+
+  return {
+    createTarget,
+    cancelEdits,
+    cancelMutations,
+    deleteTarget,
+    dispose,
+    error,
+    errorCode,
+    loadTargets,
+    localStatus,
+    loading,
+    selectedTarget,
+    selectedTargetId,
+    selectTarget,
+    targets,
+    updateLocalTerminal,
+    updatingLocal,
+    updateTarget,
+  };
+};

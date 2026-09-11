@@ -1,1 +1,145 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50LCBDYXJkSGVhZGVyLCBDYXJkVGl0bGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7IFRhYnNDb250ZW50IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RhYnMiOwppbXBvcnQgQ29uZmlybURhbmdlclBvcG92ZXIgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtRGFuZ2VyUG9wb3Zlci52dWUiOwppbXBvcnQgeyBDYWJsZSwgTGluazIsIExvYWRlcjIsIFBlbmNpbCwgUGx1cywgVHJhc2gyIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IFdPTExvY2FsUmVsYXlTZXR0aW5ncyBmcm9tICIuL1dPTExvY2FsUmVsYXlTZXR0aW5ncy52dWUiOwppbXBvcnQgdHlwZSB7IFdvbE1hbmFnZW1lbnRQYWdlQ29udHJvbGxlciB9IGZyb20gIi4vdXNlV29sTWFuYWdlbWVudFBhZ2UiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7IGNvbnRyb2xsZXI6IFdvbE1hbmFnZW1lbnRQYWdlQ29udHJvbGxlciB9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgewogIGRlbGV0ZVJlbGF5LAogIGRlbGV0aW5nUmVsYXlJZHMsCiAgbG9jYWxSZWxheSwKICBsb2NhbFJlbGF5Rm9ybSwKICBvcGVuQ3JlYXRlUmVsYXksCiAgb3BlbkVkaXRSZWxheSwKICBwYWlyTG9jYWxSZWxheSwKICBwcm9iZVJlbGF5LAogIHByb2JpbmdSZWxheUlkcywKICByZWxheXMsCiAgcm90YXRlUmVsYXksCiAgcm90YXRpbmdSZWxheUlkcywKICBzYXZlTG9jYWxSZWxheSwKICBzYXZpbmdMb2NhbFJlbGF5LAp9ID0gcHJvcHMuY29udHJvbGxlcjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFRhYnNDb250ZW50IHZhbHVlPSJyZWxheXMiIGNsYXNzPSJzcGFjZS15LTQgcHQtMiI+CiAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICA8cCBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIHt7IHQoImFkbWluLndvbC5yZWxheXNEZXNjcmlwdGlvbiIpIH19CiAgICAgIDwvcD4KICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgQGNsaWNrPSJvcGVuQ3JlYXRlUmVsYXkiPgogICAgICAgIDxQbHVzIGNsYXNzPSJtci0xLjUgaC00IHctNCIgLz4KICAgICAgICB7eyB0KCJhZG1pbi53b2wuYWRkUmVsYXkiKSB9fQogICAgICA8L0J1dHRvbj4KICAgIDwvZGl2PgogICAgPGRpdgogICAgICB2LWlmPSIhcmVsYXlzLmxlbmd0aCIKICAgICAgY2xhc3M9InJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1kYXNoZWQgcHgtNSBweS0xMiB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgID4KICAgICAge3sgdCgiYWRtaW4ud29sLm5vUmVsYXlzIikgfX0KICAgIDwvZGl2PgogICAgPGRpdiB2LWVsc2UgY2xhc3M9ImdyaWQgZ2FwLTMgeGw6Z3JpZC1jb2xzLTIiPgogICAgICA8Q2FyZCB2LWZvcj0icmVsYXkgaW4gcmVsYXlzIiA6a2V5PSJyZWxheS5pZCIgY2xhc3M9ImdhcC0zIj4KICAgICAgICA8Q2FyZEhlYWRlciBjbGFzcz0icGItMCI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtMyI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAiPgogICAgICAgICAgICAgIDxDYXJkVGl0bGUgY2xhc3M9InRydW5jYXRlIHRleHQtYmFzZSI+e3sgcmVsYXkubmFtZSB9fTwvQ2FyZFRpdGxlPgogICAgICAgICAgICAgIDxwIGNsYXNzPSJtdC0xIGZvbnQtbW9ubyB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICB7eyByZWxheS5hZGRyZXNzCiAgICAgICAgICAgICAgICB9fTxzcGFuIHYtaWY9InJlbGF5LnBvcnQgIT09IDQwMDA5Ij46e3sgcmVsYXkucG9ydCB9fTwvc3Bhbj4KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8QmFkZ2UgOnZhcmlhbnQ9InJlbGF5LmVuYWJsZWQgPyAnZGVmYXVsdCcgOiAnc2Vjb25kYXJ5JyI+CiAgICAgICAgICAgICAge3sgcmVsYXkuZW5hYmxlZCA/IHQoImFkbWluLndvbC5hY3RpdmUiKSA6IHQoImFkbWluLndvbC5kaXNhYmxlZCIpIH19CiAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L0NhcmRIZWFkZXI+CiAgICAgICAgPENhcmRDb250ZW50IGNsYXNzPSJzcGFjZS15LTQiPgogICAgICAgICAgPEJhZGdlCiAgICAgICAgICAgIGNsYXNzPSJ3LWZpdCIKICAgICAgICAgICAgOnZhcmlhbnQ9InJlbGF5LnBza0NvbmZpZ3VyZWQgPyAnb3V0bGluZScgOiAnc2Vjb25kYXJ5JyIKICAgICAgICAgID4KICAgICAgICAgICAgPExpbmsyIGNsYXNzPSJtci0xIGgtMyB3LTMiIC8+CiAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgcmVsYXkucHNrQ29uZmlndXJlZAogICAgICAgICAgICAgICAgPyB0KCJhZG1pbi53b2wucmVsYXlQYWlyZWQiKQogICAgICAgICAgICAgICAgOiB0KCJhZG1pbi53b2wucmVsYXlXYWl0aW5nRm9yUGFpcmluZyIpCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAganVzdGlmeS1lbmQgZ2FwLTIiPgogICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIHNpemU9InNtIiBAY2xpY2s9Im9wZW5FZGl0UmVsYXkocmVsYXkpIj4KICAgICAgICAgICAgICA8UGVuY2lsIGNsYXNzPSJtci0xLjUgaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4ud29sLmVkaXQiKSB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgICAgICFyZWxheS5lbmFibGVkIHx8CiAgICAgICAgICAgICAgICAhcmVsYXkucHNrQ29uZmlndXJlZCB8fAogICAgICAgICAgICAgICAgcHJvYmluZ1JlbGF5SWRzLmhhcyhyZWxheS5pZCkKICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgQGNsaWNrPSJwcm9iZVJlbGF5KHJlbGF5KSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxMb2FkZXIyCiAgICAgICAgICAgICAgICB2LWlmPSJwcm9iaW5nUmVsYXlJZHMuaGFzKHJlbGF5LmlkKSIKICAgICAgICAgICAgICAgIGNsYXNzPSJtci0xLjUgaC0zLjUgdy0zLjUgYW5pbWF0ZS1zcGluIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPENhYmxlIHYtZWxzZSBjbGFzcz0ibXItMS41IGgtMy41IHctMy41IiAvPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLndvbC5wcm9iZSIpIH19CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8Q29uZmlybURhbmdlclBvcG92ZXIKICAgICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLndvbC5yb3RhdGVUaXRsZScpIgogICAgICAgICAgICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4ud29sLnJvdGF0ZURlc2NyaXB0aW9uJykiCiAgICAgICAgICAgICAgOmNvbmZpcm0tdGV4dD0idCgnYWRtaW4ud29sLnJlcGFpcicpIgogICAgICAgICAgICAgIDpsb2FkaW5nPSJyb3RhdGluZ1JlbGF5SWRzLmhhcyhyZWxheS5pZCkiCiAgICAgICAgICAgICAgOm9uLWNvbmZpcm09IigpID0+IHJvdGF0ZVJlbGF5KHJlbGF5KSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDx0ZW1wbGF0ZSAjdHJpZ2dlcj4KICAgICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgc2l6ZT0ic20iPgogICAgICAgICAgICAgICAgICA8TGluazIgY2xhc3M9Im1yLTEuNSBoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ud29sLnJlcGFpciIpIH19CiAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgICA8L0NvbmZpcm1EYW5nZXJQb3BvdmVyPgogICAgICAgICAgICA8Q29uZmlybURhbmdlclBvcG92ZXIKICAgICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLndvbC5kZWxldGVSZWxheVRpdGxlJykiCiAgICAgICAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi53b2wuZGVsZXRlUmVsYXlEZXNjcmlwdGlvbicpIgogICAgICAgICAgICAgIDpsb2FkaW5nPSJkZWxldGluZ1JlbGF5SWRzLmhhcyhyZWxheS5pZCkiCiAgICAgICAgICAgICAgOm9uLWNvbmZpcm09IigpID0+IGRlbGV0ZVJlbGF5KHJlbGF5KSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDx0ZW1wbGF0ZSAjdHJpZ2dlcj4KICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi53b2wuZGVsZXRlUmVsYXlUaXRsZScpIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8VHJhc2gyIGNsYXNzPSJoLTMuNSB3LTMuNSB0ZXh0LWRlc3RydWN0aXZlIiAvPgogICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICAgIDwvQ2FyZD4KICAgIDwvZGl2PgoKICAgIDxkaXYgY2xhc3M9ImJvcmRlci10IHB0LTUiPgogICAgICA8V09MTG9jYWxSZWxheVNldHRpbmdzCiAgICAgICAgOm1vZGVsPSJsb2NhbFJlbGF5Rm9ybSIKICAgICAgICA6cHNrLWNvbmZpZ3VyZWQ9ImxvY2FsUmVsYXk/LmNvbmZpZy5wc2tDb25maWd1cmVkID8/IGZhbHNlIgogICAgICAgIDpydW50aW1lPSJsb2NhbFJlbGF5Py5ydW50aW1lID8/IG51bGwiCiAgICAgICAgOnNhdmluZz0ic2F2aW5nTG9jYWxSZWxheSIKICAgICAgICBAcGFpcj0icGFpckxvY2FsUmVsYXkiCiAgICAgICAgQHNhdmU9InNhdmVMb2NhbFJlbGF5IgogICAgICAvPgogICAgPC9kaXY+CiAgPC9UYWJzQ29udGVudD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { TabsContent } from "@/components/ui/tabs";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import { Cable, Link2, Loader2, Pencil, Plus, Trash2 } from "lucide-vue-next";
+import WOLLocalRelaySettings from "./WOLLocalRelaySettings.vue";
+import type { WolManagementPageController } from "./useWolManagementPage";
+
+const props = defineProps<{ controller: WolManagementPageController }>();
+const { t } = useI18n();
+const {
+  deleteRelay,
+  deletingRelayIds,
+  localRelay,
+  localRelayForm,
+  openCreateRelay,
+  openEditRelay,
+  pairLocalRelay,
+  probeRelay,
+  probingRelayIds,
+  relays,
+  rotateRelay,
+  rotatingRelayIds,
+  saveLocalRelay,
+  savingLocalRelay,
+} = props.controller;
+</script>
+
+<template>
+  <TabsContent value="relays" class="space-y-4 pt-2">
+    <div class="flex items-center justify-between gap-3">
+      <p class="text-sm text-muted-foreground">
+        {{ t("admin.wol.relaysDescription") }}
+      </p>
+      <Button size="sm" @click="openCreateRelay">
+        <Plus class="mr-1.5 h-4 w-4" />
+        {{ t("admin.wol.addRelay") }}
+      </Button>
+    </div>
+    <div
+      v-if="!relays.length"
+      class="rounded-xl border border-dashed px-5 py-12 text-center text-sm text-muted-foreground"
+    >
+      {{ t("admin.wol.noRelays") }}
+    </div>
+    <div v-else class="grid gap-3 xl:grid-cols-2">
+      <Card v-for="relay in relays" :key="relay.id" class="gap-3">
+        <CardHeader class="pb-0">
+          <div class="flex items-start justify-between gap-3">
+            <div class="min-w-0">
+              <CardTitle class="truncate text-base">{{ relay.name }}</CardTitle>
+              <p class="mt-1 font-mono text-xs text-muted-foreground">
+                {{ relay.address
+                }}<span v-if="relay.port !== 40009">:{{ relay.port }}</span>
+              </p>
+            </div>
+            <Badge :variant="relay.enabled ? 'default' : 'secondary'">
+              {{ relay.enabled ? t("admin.wol.active") : t("admin.wol.disabled") }}
+            </Badge>
+          </div>
+        </CardHeader>
+        <CardContent class="space-y-4">
+          <Badge
+            class="w-fit"
+            :variant="relay.pskConfigured ? 'outline' : 'secondary'"
+          >
+            <Link2 class="mr-1 h-3 w-3" />
+            {{
+              relay.pskConfigured
+                ? t("admin.wol.relayPaired")
+                : t("admin.wol.relayWaitingForPairing")
+            }}
+          </Badge>
+          <div class="flex flex-wrap justify-end gap-2">
+            <Button variant="outline" size="sm" @click="openEditRelay(relay)">
+              <Pencil class="mr-1.5 h-3.5 w-3.5" />
+              {{ t("admin.wol.edit") }}
+            </Button>
+            <Button
+              variant="outline"
+              size="sm"
+              :disabled="
+                !relay.enabled ||
+                !relay.pskConfigured ||
+                probingRelayIds.has(relay.id)
+              "
+              @click="probeRelay(relay)"
+            >
+              <Loader2
+                v-if="probingRelayIds.has(relay.id)"
+                class="mr-1.5 h-3.5 w-3.5 animate-spin"
+              />
+              <Cable v-else class="mr-1.5 h-3.5 w-3.5" />
+              {{ t("admin.wol.probe") }}
+            </Button>
+            <ConfirmDangerPopover
+              :title="t('admin.wol.rotateTitle')"
+              :description="t('admin.wol.rotateDescription')"
+              :confirm-text="t('admin.wol.repair')"
+              :loading="rotatingRelayIds.has(relay.id)"
+              :on-confirm="() => rotateRelay(relay)"
+            >
+              <template #trigger>
+                <Button variant="outline" size="sm">
+                  <Link2 class="mr-1.5 h-3.5 w-3.5" />
+                  {{ t("admin.wol.repair") }}
+                </Button>
+              </template>
+            </ConfirmDangerPopover>
+            <ConfirmDangerPopover
+              :title="t('admin.wol.deleteRelayTitle')"
+              :description="t('admin.wol.deleteRelayDescription')"
+              :loading="deletingRelayIds.has(relay.id)"
+              :on-confirm="() => deleteRelay(relay)"
+            >
+              <template #trigger>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  :aria-label="t('admin.wol.deleteRelayTitle')"
+                >
+                  <Trash2 class="h-3.5 w-3.5 text-destructive" />
+                </Button>
+              </template>
+            </ConfirmDangerPopover>
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+
+    <div class="border-t pt-5">
+      <WOLLocalRelaySettings
+        :model="localRelayForm"
+        :psk-configured="localRelay?.config.pskConfigured ?? false"
+        :runtime="localRelay?.runtime ?? null"
+        :saving="savingLocalRelay"
+        @pair="pairLocalRelay"
+        @save="saveLocalRelay"
+      />
+    </div>
+  </TabsContent>
+</template>

@@ -1,1 +1,5 @@
-aW1wb3J0IHR5cGUgeyB1c2VBY21lQ2VydGlmaWNhdGVDb250cm9sbGVyIH0gZnJvbSAiLi91c2VBY21lQ2VydGlmaWNhdGVDb250cm9sbGVyIjsKCmV4cG9ydCB0eXBlIEFjbWVDZXJ0aWZpY2F0ZUNvbnRyb2xsZXIgPSBSZXR1cm5UeXBlPAogIHR5cGVvZiB1c2VBY21lQ2VydGlmaWNhdGVDb250cm9sbGVyCj47Cg==
+import type { useAcmeCertificateController } from "./useAcmeCertificateController";
+
+export type AcmeCertificateController = ReturnType<
+  typeof useAcmeCertificateController
+>;

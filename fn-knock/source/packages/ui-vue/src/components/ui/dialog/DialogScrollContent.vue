@@ -1,1 +1,59 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRGlhbG9nQ29udGVudEVtaXRzLCBEaWFsb2dDb250ZW50UHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyByZWFjdGl2ZU9taXQgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7IFggfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiCmltcG9ydCB7CiAgRGlhbG9nQ2xvc2UsCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dPdmVybGF5LAogIERpYWxvZ1BvcnRhbCwKICB1c2VGb3J3YXJkUHJvcHNFbWl0cywKfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKZGVmaW5lT3B0aW9ucyh7CiAgaW5oZXJpdEF0dHJzOiBmYWxzZSwKfSkKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8RGlhbG9nQ29udGVudFByb3BzICYgeyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdIH0+KCkKY29uc3QgZW1pdHMgPSBkZWZpbmVFbWl0czxEaWFsb2dDb250ZW50RW1pdHM+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQoKY29uc3QgZm9yd2FyZGVkID0gdXNlRm9yd2FyZFByb3BzRW1pdHMoZGVsZWdhdGVkUHJvcHMsIGVtaXRzKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nUG9ydGFsPgogICAgPERpYWxvZ092ZXJsYXkKICAgICAgY2xhc3M9ImZpeGVkIGluc2V0LTAgei01MCBncmlkIHBsYWNlLWl0ZW1zLWNlbnRlciBvdmVyZmxvdy15LWF1dG8gYmctYmxhY2svODAgIGRhdGEtW3N0YXRlPW9wZW5dOmFuaW1hdGUtaW4gZGF0YS1bc3RhdGU9Y2xvc2VkXTphbmltYXRlLW91dCBkYXRhLVtzdGF0ZT1jbG9zZWRdOmZhZGUtb3V0LTAgZGF0YS1bc3RhdGU9b3Blbl06ZmFkZS1pbi0wIgogICAgPgogICAgICA8RGlhbG9nQ29udGVudAogICAgICAgIDpjbGFzcz0iCiAgICAgICAgICBjbigKICAgICAgICAgICAgJ3JlbGF0aXZlIHotNTAgZ3JpZCB3LWZ1bGwgbWF4LXctbGcgbXktOCBnYXAtNCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1iYWNrZ3JvdW5kIHAtNiBzaGFkb3ctbGcgZHVyYXRpb24tMjAwIHNtOnJvdW5kZWQtbGcgbWQ6dy1mdWxsJywKICAgICAgICAgICAgcHJvcHMuY2xhc3MsCiAgICAgICAgICApCiAgICAgICAgIgogICAgICAgIHYtYmluZD0ieyAuLi4kYXR0cnMsIC4uLmZvcndhcmRlZCB9IgogICAgICAgIEBwb2ludGVyLWRvd24tb3V0c2lkZT0iKGV2ZW50KSA9PiB7CiAgICAgICAgICBjb25zdCBvcmlnaW5hbEV2ZW50ID0gZXZlbnQuZGV0YWlsLm9yaWdpbmFsRXZlbnQ7CiAgICAgICAgICBjb25zdCB0YXJnZXQgPSBvcmlnaW5hbEV2ZW50LnRhcmdldCBhcyBIVE1MRWxlbWVudDsKICAgICAgICAgIGlmIChvcmlnaW5hbEV2ZW50Lm9mZnNldFggPiB0YXJnZXQuY2xpZW50V2lkdGggfHwgb3JpZ2luYWxFdmVudC5vZmZzZXRZID4gdGFyZ2V0LmNsaWVudEhlaWdodCkgewogICAgICAgICAgICBldmVudC5wcmV2ZW50RGVmYXVsdCgpOwogICAgICAgICAgfQogICAgICAgIH0iCiAgICAgID4KICAgICAgICA8c2xvdCAvPgoKICAgICAgICA8RGlhbG9nQ2xvc2UKICAgICAgICAgIGNsYXNzPSJhYnNvbHV0ZSB0b3AtNCByaWdodC00IHAtMC41IHRyYW5zaXRpb24tY29sb3JzIHJvdW5kZWQtbWQgaG92ZXI6Ymctc2Vjb25kYXJ5IgogICAgICAgID4KICAgICAgICAgIDxYIGNsYXNzPSJ3LTQgaC00IiAvPgogICAgICAgICAgPHNwYW4gY2xhc3M9InNyLW9ubHkiPkNsb3NlPC9zcGFuPgogICAgICAgIDwvRGlhbG9nQ2xvc2U+CiAgICAgIDwvRGlhbG9nQ29udGVudD4KICAgIDwvRGlhbG9nT3ZlcmxheT4KICA8L0RpYWxvZ1BvcnRhbD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { DialogContentEmits, DialogContentProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { X } from "lucide-vue-next"
+import {
+  DialogClose,
+  DialogContent,
+  DialogOverlay,
+  DialogPortal,
+  useForwardPropsEmits,
+} from "reka-ui"
+import { cn } from "@/lib/utils"
+
+defineOptions({
+  inheritAttrs: false,
+})
+
+const props = defineProps<DialogContentProps & { class?: HTMLAttributes["class"] }>()
+const emits = defineEmits<DialogContentEmits>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwarded = useForwardPropsEmits(delegatedProps, emits)
+</script>
+
+<template>
+  <DialogPortal>
+    <DialogOverlay
+      class="fixed inset-0 z-50 grid place-items-center overflow-y-auto bg-black/80  data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0"
+    >
+      <DialogContent
+        :class="
+          cn(
+            'relative z-50 grid w-full max-w-lg my-8 gap-4 border border-border bg-background p-6 shadow-lg duration-200 sm:rounded-lg md:w-full',
+            props.class,
+          )
+        "
+        v-bind="{ ...$attrs, ...forwarded }"
+        @pointer-down-outside="(event) => {
+          const originalEvent = event.detail.originalEvent;
+          const target = originalEvent.target as HTMLElement;
+          if (originalEvent.offsetX > target.clientWidth || originalEvent.offsetY > target.clientHeight) {
+            event.preventDefault();
+          }
+        }"
+      >
+        <slot />
+
+        <DialogClose
+          class="absolute top-4 right-4 p-0.5 transition-colors rounded-md hover:bg-secondary"
+        >
+          <X class="w-4 h-4" />
+          <span class="sr-only">Close</span>
+        </DialogClose>
+      </DialogContent>
+    </DialogOverlay>
+  </DialogPortal>
+</template>

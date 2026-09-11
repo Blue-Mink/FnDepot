@@ -1,1 +1,23 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IENhcmQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCBUZXJtaW5hbFRhcmdldHNOYXZpZ2F0aW9uIGZyb20gIi4vVGVybWluYWxUYXJnZXRzTmF2aWdhdGlvbi52dWUiOwppbXBvcnQgVGVybWluYWxXb3Jrc3BhY2VQYW5lbCBmcm9tICIuL1Rlcm1pbmFsV29ya3NwYWNlUGFuZWwudnVlIjsKaW1wb3J0IHR5cGUgeyBXZWJUZXJtaW5hbFBhZ2VDb250cm9sbGVyIH0gZnJvbSAiLi91c2VXZWJUZXJtaW5hbFBhZ2UiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7IGNvbnRyb2xsZXI6IFdlYlRlcm1pbmFsUGFnZUNvbnRyb2xsZXIgfT4oKTsKY29uc3QgeyBzZXRUZXJtaW5hbFNoZWxsUmVmIH0gPSBwcm9wcy5jb250cm9sbGVyOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICA6cmVmPSJzZXRUZXJtaW5hbFNoZWxsUmVmIgogICAgY2xhc3M9Im1pbi1oLTAgbWluLXctMCBmbGV4LTEgbWQ6bWluLWgtWzgwdmhdIgogID4KICAgIDxDYXJkIGNsYXNzPSJoLWZ1bGwgbWluLWgtMCBtaW4tdy0wIG92ZXJmbG93LWhpZGRlbiBweS0wIj4KICAgICAgPGRpdiBjbGFzcz0iZmxleCBoLWZ1bGwgbWluLWgtMCBtaW4tdy0wIj4KICAgICAgICA8VGVybWluYWxUYXJnZXRzTmF2aWdhdGlvbiA6Y29udHJvbGxlcj0iY29udHJvbGxlciIgLz4KICAgICAgICA8VGVybWluYWxXb3Jrc3BhY2VQYW5lbCA6Y29udHJvbGxlcj0iY29udHJvbGxlciIgLz4KICAgICAgPC9kaXY+CiAgICA8L0NhcmQ+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { Card } from "@/components/ui/card";
+import TerminalTargetsNavigation from "./TerminalTargetsNavigation.vue";
+import TerminalWorkspacePanel from "./TerminalWorkspacePanel.vue";
+import type { WebTerminalPageController } from "./useWebTerminalPage";
+
+const props = defineProps<{ controller: WebTerminalPageController }>();
+const { setTerminalShellRef } = props.controller;
+</script>
+
+<template>
+  <div
+    :ref="setTerminalShellRef"
+    class="min-h-0 min-w-0 flex-1 md:min-h-[80vh]"
+  >
+    <Card class="h-full min-h-0 min-w-0 overflow-hidden py-0">
+      <div class="flex h-full min-h-0 min-w-0">
+        <TerminalTargetsNavigation :controller="controller" />
+        <TerminalWorkspacePanel :controller="controller" />
+      </div>
+    </Card>
+  </div>
+</template>

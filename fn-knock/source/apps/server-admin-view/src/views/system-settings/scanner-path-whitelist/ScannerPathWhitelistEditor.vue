@@ -1,1 +1,78 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IFBsdXMsIFRyYXNoMiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHR5cGUgeyBTY2FubmVyUGF0aFdoaXRlbGlzdFNldHRpbmdzTW9kZWwgfSBmcm9tICIuL3VzZVNjYW5uZXJQYXRoV2hpdGVsaXN0U2V0dGluZ3MiOwoKZGVmaW5lUHJvcHM8eyBtb2RlbDogU2Nhbm5lclBhdGhXaGl0ZWxpc3RTZXR0aW5nc01vZGVsIH0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJzcGFjZS15LTQiPgogICAgPGRpdgogICAgICB2LWlmPSJtb2RlbC5lbnRyaWVzLmxlbmd0aCA9PT0gMCIKICAgICAgY2xhc3M9InJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1kYXNoZWQgcHgtNSBweS0xMCB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgID4KICAgICAge3sgdCgiYWRtaW4uc2Nhbm5lclBhdGhXaGl0ZWxpc3QuZW1wdHkiKSB9fQogICAgPC9kaXY+CgogICAgPGRpdgogICAgICB2LWVsc2UKICAgICAgY2xhc3M9ImRpdmlkZS15IG92ZXJmbG93LWhpZGRlbiByb3VuZGVkLXhsIGJvcmRlciBiZy1iYWNrZ3JvdW5kIgogICAgPgogICAgICA8ZGl2CiAgICAgICAgdi1mb3I9IihlbnRyeSwgaW5kZXgpIGluIG1vZGVsLmVudHJpZXMiCiAgICAgICAgOmtleT0iZW50cnkuaWQiCiAgICAgICAgY2xhc3M9InNwYWNlLXktMiBweC00IHB5LTMiCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgICA8TGFiZWwgOmZvcj0iYHNjYW5uZXItcGF0aC0ke2VudHJ5LmlkfWAiIGNsYXNzPSJzci1vbmx5Ij4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICB0KCJhZG1pbi5zY2FubmVyUGF0aFdoaXRlbGlzdC5wYXRoTGFiZWwiLCB7IGluZGV4OiBpbmRleCArIDEgfSkKICAgICAgICAgICAgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgOmlkPSJgc2Nhbm5lci1wYXRoLSR7ZW50cnkuaWR9YCIKICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJlbnRyeS52YWx1ZSIKICAgICAgICAgICAgY2xhc3M9ImZvbnQtbW9ubyB0ZXh0LXNtIgogICAgICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLnNjYW5uZXJQYXRoV2hpdGVsaXN0LnBhdGhQbGFjZWhvbGRlcicpIgogICAgICAgICAgICA6YXJpYS1pbnZhbGlkPSJCb29sZWFuKG1vZGVsLmVudHJ5RXJyb3JzW2VudHJ5LmlkXSkiCiAgICAgICAgICAgIDpkaXNhYmxlZD0ibW9kZWwuaXNTYXZpbmciCiAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9Im1vZGVsLnNldEVudHJ5UGF0aChlbnRyeS5pZCwgU3RyaW5nKCRldmVudCkpIgogICAgICAgICAgLz4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgICAgY2xhc3M9InNocmluay0wIHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi5zY2FubmVyUGF0aFdoaXRlbGlzdC5yZW1vdmVQYXRoJykiCiAgICAgICAgICAgIDpkaXNhYmxlZD0ibW9kZWwuaXNTYXZpbmciCiAgICAgICAgICAgIEBjbGljaz0ibW9kZWwucmVtb3ZlRW50cnkoZW50cnkuaWQpIgogICAgICAgICAgPgogICAgICAgICAgICA8VHJhc2gyIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPHAKICAgICAgICAgIHYtaWY9Im1vZGVsLmVudHJ5RXJyb3JzW2VudHJ5LmlkXSIKICAgICAgICAgIGNsYXNzPSJ0ZXh0LXhzIHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICByb2xlPSJhbGVydCIKICAgICAgICA+CiAgICAgICAgICB7eyBtb2RlbC5lbnRyeUVycm9yc1tlbnRyeS5pZF0gfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CgogICAgPEJ1dHRvbgogICAgICB0eXBlPSJidXR0b24iCiAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgIDpkaXNhYmxlZD0ibW9kZWwuaXNTYXZpbmciCiAgICAgIEBjbGljaz0ibW9kZWwuYWRkRW50cnkiCiAgICA+CiAgICAgIDxQbHVzIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgIHt7IHQoImFkbWluLnNjYW5uZXJQYXRoV2hpdGVsaXN0LmFkZFBhdGgiKSB9fQogICAgPC9CdXR0b24+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Plus, Trash2 } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import type { ScannerPathWhitelistSettingsModel } from "./useScannerPathWhitelistSettings";
+
+defineProps<{ model: ScannerPathWhitelistSettingsModel }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div class="space-y-4">
+    <div
+      v-if="model.entries.length === 0"
+      class="rounded-xl border border-dashed px-5 py-10 text-center text-sm text-muted-foreground"
+    >
+      {{ t("admin.scannerPathWhitelist.empty") }}
+    </div>
+
+    <div
+      v-else
+      class="divide-y overflow-hidden rounded-xl border bg-background"
+    >
+      <div
+        v-for="(entry, index) in model.entries"
+        :key="entry.id"
+        class="space-y-2 px-4 py-3"
+      >
+        <div class="flex items-center gap-3">
+          <Label :for="`scanner-path-${entry.id}`" class="sr-only">
+            {{
+              t("admin.scannerPathWhitelist.pathLabel", { index: index + 1 })
+            }}
+          </Label>
+          <Input
+            :id="`scanner-path-${entry.id}`"
+            :model-value="entry.value"
+            class="font-mono text-sm"
+            :placeholder="t('admin.scannerPathWhitelist.pathPlaceholder')"
+            :aria-invalid="Boolean(model.entryErrors[entry.id])"
+            :disabled="model.isSaving"
+            @update:model-value="model.setEntryPath(entry.id, String($event))"
+          />
+          <Button
+            type="button"
+            variant="ghost"
+            size="icon"
+            class="shrink-0 text-destructive"
+            :aria-label="t('admin.scannerPathWhitelist.removePath')"
+            :disabled="model.isSaving"
+            @click="model.removeEntry(entry.id)"
+          >
+            <Trash2 class="h-4 w-4" />
+          </Button>
+        </div>
+        <p
+          v-if="model.entryErrors[entry.id]"
+          class="text-xs text-destructive"
+          role="alert"
+        >
+          {{ model.entryErrors[entry.id] }}
+        </p>
+      </div>
+    </div>
+
+    <Button
+      type="button"
+      variant="outline"
+      :disabled="model.isSaving"
+      @click="model.addEntry"
+    >
+      <Plus class="mr-2 h-4 w-4" />
+      {{ t("admin.scannerPathWhitelist.addPath") }}
+    </Button>
+  </div>
+</template>

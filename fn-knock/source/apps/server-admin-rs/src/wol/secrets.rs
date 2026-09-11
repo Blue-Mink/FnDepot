@@ -1,1 +1,524 @@
-dXNlIGFlc19nY206OnsKICAgIEFlczI1NkdjbSwgTm9uY2UsCiAgICBhZWFkOjp7QWVhZCwgS2V5SW5pdCwgUGF5bG9hZH0sCn07CnVzZSBiYXNlNjQ6OntFbmdpbmUgYXMgXywgZW5naW5lOjpnZW5lcmFsX3B1cnBvc2U6OlNUQU5EQVJEfTsKdXNlIHNlcmRlOjp7RGVzZXJpYWxpemUsIFNlcmlhbGl6ZX07CnVzZSBzdGQ6OnsKICAgIGZzOjp7c2VsZiwgT3Blbk9wdGlvbnN9LAogICAgaW86OldyaXRlLAogICAgcGF0aDo6e1BhdGgsIFBhdGhCdWZ9LAogICAgc3luYzo6TXV0ZXgsCn07Cgp1c2UgY3JhdGU6OntjcnlwdG9fdXRpbHM6OnJhbmRvbV9ieXRlcywgc3RhdGU6OkFwcFN0YXRlfTsKCmNvbnN0IEtFWV9GSUxFOiAmc3RyID0gInNlY3JldC5rZXkiOwpjb25zdCBFTlZFTE9QRV9WRVJTSU9OOiB1OCA9IDE7CmNvbnN0IE1BWF9TRUNSRVRfSURfTEVOR1RIOiB1c2l6ZSA9IDY0OwpzdGF0aWMgS0VZX0NSRUFUSU9OX0xPQ0s6IE11dGV4PCgpPiA9IE11dGV4OjpuZXcoKCkpOwoKI1tkZXJpdmUoU2VyaWFsaXplLCBEZXNlcmlhbGl6ZSldCnN0cnVjdCBTZWNyZXRFbnZlbG9wZSB7CiAgICB2ZXJzaW9uOiB1OCwKICAgIG5vbmNlOiBTdHJpbmcsCiAgICBjaXBoZXJ0ZXh0OiBTdHJpbmcsCn0KCiNbZGVyaXZlKENsb25lKV0KcHViKHN1cGVyKSBzdHJ1Y3QgV29sU2VjcmV0U3RvcmUgewogICAgZGlyOiBQYXRoQnVmLAp9CgpwdWIoc3VwZXIpIGZuIHNlY3JldF9zdG9yZShzdGF0ZTogJkFwcFN0YXRlKSAtPiBXb2xTZWNyZXRTdG9yZSB7CiAgICBXb2xTZWNyZXRTdG9yZTo6bmV3KHN0YXRlLnNldHRpbmdzLmRhdGFfZGlyLmpvaW4oIndvbCIpKQp9CgpwdWIoc3VwZXIpIGZuIGxvY2FsX3JlbGF5X3NlY3JldF9pZChyZWxheV9pZDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoImxvY2FsLXtyZWxheV9pZH0iKQp9CgojW2Rlcml2ZShDbG9uZSwgQ29weSwgRGVidWcsIFBhcnRpYWxFcSwgRXEpXQpwdWIoc3VwZXIpIGVudW0gSW50ZWdyYXRpb25DcmVkZW50aWFsS2luZCB7CiAgICBCbGlua2VyLAogICAgQmVtZmEsCn0KCiNbZGVyaXZlKENsb25lLCBDb3B5LCBEZWJ1ZywgUGFydGlhbEVxLCBFcSldCnB1YihzdXBlcikgZW51bSBTc2hDcmVkZW50aWFsS2luZCB7CiAgICBQYXNzd29yZCwKICAgIFByaXZhdGVLZXksCiAgICBQcml2YXRlS2V5UGFzc3BocmFzZSwKfQoKaW1wbCBTc2hDcmVkZW50aWFsS2luZCB7CiAgICBmbiBuYW1lKHNlbGYpIC0+ICYnc3RhdGljIHN0ciB7CiAgICAgICAgbWF0Y2ggc2VsZiB7CiAgICAgICAgICAgIFNlbGY6OlBhc3N3b3JkID0+ICJzc2gtcGFzc3dvcmQiLAogICAgICAgICAgICBTZWxmOjpQcml2YXRlS2V5ID0+ICJzc2gtcHJpdmF0ZS1rZXkiLAogICAgICAgICAgICBTZWxmOjpQcml2YXRlS2V5UGFzc3BocmFzZSA9PiAic3NoLXByaXZhdGUta2V5LXBhc3NwaHJhc2UiLAogICAgICAgIH0KICAgIH0KfQoKaW1wbCBJbnRlZ3JhdGlvbkNyZWRlbnRpYWxLaW5kIHsKICAgIGZuIG5hbWUoc2VsZikgLT4gJidzdGF0aWMgc3RyIHsKICAgICAgICBtYXRjaCBzZWxmIHsKICAgICAgICAgICAgU2VsZjo6QmxpbmtlciA9PiAiYmxpbmtlciIsCiAgICAgICAgICAgIFNlbGY6OkJlbWZhID0+ICJiZW1mYSIsCiAgICAgICAgfQogICAgfQp9CgppbXBsIFdvbFNlY3JldFN0b3JlIHsKICAgIGZuIG5ldyhkaXI6IGltcGwgSW50bzxQYXRoQnVmPikgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7IGRpcjogZGlyLmludG8oKSB9CiAgICB9CgogICAgcHViKHN1cGVyKSBmbiBjb25maWd1cmVkKCZzZWxmLCByZWxheV9pZDogJnN0cikgLT4gYm9vbCB7CiAgICAgICAgdmFsaWRhdGVfc2VjcmV0X2lkKHJlbGF5X2lkKS5pc19vaygpICYmIHNlbGYuc2VjcmV0X3BhdGgocmVsYXlfaWQpLmlzX2ZpbGUoKQogICAgfQoKICAgIHB1YihzdXBlcikgZm4gcmVhZCgmc2VsZiwgcmVsYXlfaWQ6ICZzdHIsIGtleV92ZXJzaW9uOiB1MzIpIC0+IFJlc3VsdDxPcHRpb248VmVjPHU4Pj4sIFN0cmluZz4gewogICAgICAgIHNlbGYucmVhZF93aXRoX2FhZChyZWxheV9pZCwgJnNlY3JldF9hYWQocmVsYXlfaWQsIGtleV92ZXJzaW9uKSkKICAgIH0KCiAgICBwdWIoc3VwZXIpIGZuIHJlYWRfaW50ZWdyYXRpb24oCiAgICAgICAgJnNlbGYsCiAgICAgICAgdGFyZ2V0X2lkOiAmc3RyLAogICAgICAgIGtpbmQ6IEludGVncmF0aW9uQ3JlZGVudGlhbEtpbmQsCiAgICApIC0+IFJlc3VsdDxPcHRpb248VmVjPHU4Pj4sIFN0cmluZz4gewogICAgICAgIGxldCBpZCA9IGludGVncmF0aW9uX3NlY3JldF9pZCh0YXJnZXRfaWQsIGtpbmQpOwogICAgICAgIHNlbGYucmVhZF93aXRoX2FhZCgmaWQsICZpbnRlZ3JhdGlvbl9zZWNyZXRfYWFkKHRhcmdldF9pZCwga2luZCkpCiAgICB9CgogICAgcHViKHN1cGVyKSBmbiByZWFkX3NzaCgKICAgICAgICAmc2VsZiwKICAgICAgICB0YXJnZXRfaWQ6ICZzdHIsCiAgICAgICAga2luZDogU3NoQ3JlZGVudGlhbEtpbmQsCiAgICApIC0+IFJlc3VsdDxPcHRpb248VmVjPHU4Pj4sIFN0cmluZz4gewogICAgICAgIGxldCBpZCA9IHNzaF9zZWNyZXRfaWQodGFyZ2V0X2lkLCBraW5kKTsKICAgICAgICBzZWxmLnJlYWRfd2l0aF9hYWQoJmlkLCAmc3NoX3NlY3JldF9hYWQodGFyZ2V0X2lkLCBraW5kKSkKICAgIH0KCiAgICBmbiByZWFkX3dpdGhfYWFkKCZzZWxmLCBpZDogJnN0ciwgYWFkOiAmW3U4XSkgLT4gUmVzdWx0PE9wdGlvbjxWZWM8dTg+PiwgU3RyaW5nPiB7CiAgICAgICAgdmFsaWRhdGVfc2VjcmV0X2lkKGlkKT87CiAgICAgICAgbGV0IHBhdGggPSBzZWxmLnNlY3JldF9wYXRoKGlkKTsKICAgICAgICBpZiBwYXRoLmV4aXN0cygpIHsKICAgICAgICAgICAgc2VjdXJlX2ZpbGUoJnBhdGgpPzsKICAgICAgICB9CiAgICAgICAgbGV0IHJhdyA9IG1hdGNoIGZzOjpyZWFkKCZwYXRoKSB7CiAgICAgICAgICAgIE9rKHJhdykgPT4gcmF3LAogICAgICAgICAgICBFcnIoZXJyb3IpIGlmIGVycm9yLmtpbmQoKSA9PSBzdGQ6OmlvOjpFcnJvcktpbmQ6Ok5vdEZvdW5kID0+IHJldHVybiBPayhOb25lKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiByZXR1cm4gRXJyKGZvcm1hdCEoImZhaWxlZCB0byByZWFkIGVuY3J5cHRlZCBXb0wgUFNLOiB7ZXJyb3J9IikpLAogICAgICAgIH07CiAgICAgICAgbGV0IGVudmVsb3BlID0gc2VyZGVfanNvbjo6ZnJvbV9zbGljZTo6PFNlY3JldEVudmVsb3BlPigmcmF3KQogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGZvcm1hdCEoImVuY3J5cHRlZCBXb0wgUFNLIGlzIGludmFsaWQ6IHtlcnJvcn0iKSk/OwogICAgICAgIGlmIGVudmVsb3BlLnZlcnNpb24gIT0gRU5WRUxPUEVfVkVSU0lPTiB7CiAgICAgICAgICAgIHJldHVybiBFcnIoImVuY3J5cHRlZCBXb0wgUFNLIHZlcnNpb24gaXMgdW5zdXBwb3J0ZWQiLnRvX3N0cmluZygpKTsKICAgICAgICB9CiAgICAgICAgbGV0IG5vbmNlID0gU1RBTkRBUkQKICAgICAgICAgICAgLmRlY29kZShlbnZlbG9wZS5ub25jZSkKICAgICAgICAgICAgLm1hcF9lcnIofF98ICJlbmNyeXB0ZWQgV29MIFBTSyBub25jZSBpcyBpbnZhbGlkIi50b19zdHJpbmcoKSk/OwogICAgICAgIGxldCBjaXBoZXJ0ZXh0ID0gU1RBTkRBUkQKICAgICAgICAgICAgLmRlY29kZShlbnZlbG9wZS5jaXBoZXJ0ZXh0KQogICAgICAgICAgICAubWFwX2Vycih8X3wgImVuY3J5cHRlZCBXb0wgUFNLIHBheWxvYWQgaXMgaW52YWxpZCIudG9fc3RyaW5nKCkpPzsKICAgICAgICBpZiBub25jZS5sZW4oKSAhPSAxMiB7CiAgICAgICAgICAgIHJldHVybiBFcnIoImVuY3J5cHRlZCBXb0wgUFNLIG5vbmNlIGxlbmd0aCBpcyBpbnZhbGlkIi50b19zdHJpbmcoKSk7CiAgICAgICAgfQogICAgICAgIGxldCBrZXkgPSBzZWxmLnJlYWRfa2V5KCk/OwogICAgICAgIGxldCBjaXBoZXIgPSBBZXMyNTZHY206Om5ld19mcm9tX3NsaWNlKCZrZXkpCiAgICAgICAgICAgIC5tYXBfZXJyKHxffCAiV29MIGNyZWRlbnRpYWwga2V5IGlzIGludmFsaWQiLnRvX3N0cmluZygpKT87CiAgICAgICAgY2lwaGVyCiAgICAgICAgICAgIC5kZWNyeXB0KAogICAgICAgICAgICAgICAgTm9uY2U6OmZyb21fc2xpY2UoJm5vbmNlKSwKICAgICAgICAgICAgICAgIFBheWxvYWQgewogICAgICAgICAgICAgICAgICAgIG1zZzogJmNpcGhlcnRleHQsCiAgICAgICAgICAgICAgICAgICAgYWFkLAogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgKQogICAgICAgICAgICAubWFwKFNvbWUpCiAgICAgICAgICAgIC5tYXBfZXJyKHxffCAiZW5jcnlwdGVkIFdvTCBQU0sgY2Fubm90IGJlIGRlY3J5cHRlZCIudG9fc3RyaW5nKCkpCiAgICB9CgogICAgcHViKHN1cGVyKSBmbiB3cml0ZSgKICAgICAgICAmc2VsZiwKICAgICAgICByZWxheV9pZDogJnN0ciwKICAgICAgICBrZXlfdmVyc2lvbjogdTMyLAogICAgICAgIHZhbHVlOiAmW3U4XSwKICAgICkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgICAgICBzZWxmLndyaXRlX3dpdGhfYWFkKHJlbGF5X2lkLCB2YWx1ZSwgJnNlY3JldF9hYWQocmVsYXlfaWQsIGtleV92ZXJzaW9uKSkKICAgIH0KCiAgICBwdWIoc3VwZXIpIGZuIHdyaXRlX2ludGVncmF0aW9uKAogICAgICAgICZzZWxmLAogICAgICAgIHRhcmdldF9pZDogJnN0ciwKICAgICAgICBraW5kOiBJbnRlZ3JhdGlvbkNyZWRlbnRpYWxLaW5kLAogICAgICAgIHZhbHVlOiAmW3U4XSwKICAgICkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgICAgICBsZXQgaWQgPSBpbnRlZ3JhdGlvbl9zZWNyZXRfaWQodGFyZ2V0X2lkLCBraW5kKTsKICAgICAgICBzZWxmLndyaXRlX3dpdGhfYWFkKCZpZCwgdmFsdWUsICZpbnRlZ3JhdGlvbl9zZWNyZXRfYWFkKHRhcmdldF9pZCwga2luZCkpCiAgICB9CgogICAgcHViKHN1cGVyKSBmbiB3cml0ZV9zc2goCiAgICAgICAgJnNlbGYsCiAgICAgICAgdGFyZ2V0X2lkOiAmc3RyLAogICAgICAgIGtpbmQ6IFNzaENyZWRlbnRpYWxLaW5kLAogICAgICAgIHZhbHVlOiAmW3U4XSwKICAgICkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgICAgICBsZXQgaWQgPSBzc2hfc2VjcmV0X2lkKHRhcmdldF9pZCwga2luZCk7CiAgICAgICAgc2VsZi53cml0ZV93aXRoX2FhZCgmaWQsIHZhbHVlLCAmc3NoX3NlY3JldF9hYWQodGFyZ2V0X2lkLCBraW5kKSkKICAgIH0KCiAgICBmbiB3cml0ZV93aXRoX2FhZCgmc2VsZiwgaWQ6ICZzdHIsIHZhbHVlOiAmW3U4XSwgYWFkOiAmW3U4XSkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgICAgICB2YWxpZGF0ZV9zZWNyZXRfaWQoaWQpPzsKICAgICAgICBzZWxmLmVuc3VyZV9sYXlvdXQoKT87CiAgICAgICAgbGV0IGtleSA9IHNlbGYubG9hZF9vcl9jcmVhdGVfa2V5KCk/OwogICAgICAgIGxldCBub25jZSA9IHJhbmRvbV9ieXRlczo6PDEyPigpOwogICAgICAgIGxldCBjaXBoZXIgPSBBZXMyNTZHY206Om5ld19mcm9tX3NsaWNlKCZrZXkpCiAgICAgICAgICAgIC5tYXBfZXJyKHxffCAiV29MIGNyZWRlbnRpYWwga2V5IGlzIGludmFsaWQiLnRvX3N0cmluZygpKT87CiAgICAgICAgbGV0IGNpcGhlcnRleHQgPSBjaXBoZXIKICAgICAgICAgICAgLmVuY3J5cHQoTm9uY2U6OmZyb21fc2xpY2UoJm5vbmNlKSwgUGF5bG9hZCB7IG1zZzogdmFsdWUsIGFhZCB9KQogICAgICAgICAgICAubWFwX2Vycih8X3wgImZhaWxlZCB0byBlbmNyeXB0IFdvTCBQU0siLnRvX3N0cmluZygpKT87CiAgICAgICAgbGV0IGJ5dGVzID0gc2VyZGVfanNvbjo6dG9fdmVjKCZTZWNyZXRFbnZlbG9wZSB7CiAgICAgICAgICAgIHZlcnNpb246IEVOVkVMT1BFX1ZFUlNJT04sCiAgICAgICAgICAgIG5vbmNlOiBTVEFOREFSRC5lbmNvZGUobm9uY2UpLAogICAgICAgICAgICBjaXBoZXJ0ZXh0OiBTVEFOREFSRC5lbmNvZGUoY2lwaGVydGV4dCksCiAgICAgICAgfSkKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGZvcm1hdCEoImZhaWxlZCB0byBlbmNvZGUgV29MIFBTSzoge2Vycm9yfSIpKT87CiAgICAgICAgYXRvbWljX3ByaXZhdGVfd3JpdGUoJnNlbGYuc2VjcmV0X3BhdGgoaWQpLCAmYnl0ZXMpCiAgICB9CgogICAgcHViKHN1cGVyKSBmbiBpbnRlZ3JhdGlvbl9jb25maWd1cmVkKAogICAgICAgICZzZWxmLAogICAgICAgIHRhcmdldF9pZDogJnN0ciwKICAgICAgICBraW5kOiBJbnRlZ3JhdGlvbkNyZWRlbnRpYWxLaW5kLAogICAgKSAtPiBib29sIHsKICAgICAgICBzZWxmLmNvbmZpZ3VyZWQoJmludGVncmF0aW9uX3NlY3JldF9pZCh0YXJnZXRfaWQsIGtpbmQpKQogICAgfQoKICAgIHB1YihzdXBlcikgZm4gc3NoX2NvbmZpZ3VyZWQoJnNlbGYsIHRhcmdldF9pZDogJnN0ciwga2luZDogU3NoQ3JlZGVudGlhbEtpbmQpIC0+IGJvb2wgewogICAgICAgIHNlbGYuY29uZmlndXJlZCgmc3NoX3NlY3JldF9pZCh0YXJnZXRfaWQsIGtpbmQpKQogICAgfQoKICAgIHB1YihzdXBlcikgZm4gZGVsZXRlX2ludGVncmF0aW9uKAogICAgICAgICZzZWxmLAogICAgICAgIHRhcmdldF9pZDogJnN0ciwKICAgICAgICBraW5kOiBJbnRlZ3JhdGlvbkNyZWRlbnRpYWxLaW5kLAogICAgKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgICAgIHNlbGYuZGVsZXRlKCZpbnRlZ3JhdGlvbl9zZWNyZXRfaWQodGFyZ2V0X2lkLCBraW5kKSkKICAgIH0KCiAgICBwdWIoc3VwZXIpIGZuIGRlbGV0ZV9zc2goCiAgICAgICAgJnNlbGYsCiAgICAgICAgdGFyZ2V0X2lkOiAmc3RyLAogICAgICAgIGtpbmQ6IFNzaENyZWRlbnRpYWxLaW5kLAogICAgKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgICAgIHNlbGYuZGVsZXRlKCZzc2hfc2VjcmV0X2lkKHRhcmdldF9pZCwga2luZCkpCiAgICB9CgogICAgcHViKHN1cGVyKSBmbiBkZWxldGUoJnNlbGYsIHJlbGF5X2lkOiAmc3RyKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgICAgIHZhbGlkYXRlX3NlY3JldF9pZChyZWxheV9pZCk/OwogICAgICAgIG1hdGNoIGZzOjpyZW1vdmVfZmlsZShzZWxmLnNlY3JldF9wYXRoKHJlbGF5X2lkKSkgewogICAgICAgICAgICBPaygoKSkgPT4gc3luY19kaXJlY3RvcnkoJnNlbGYuc2VjcmV0c19kaXIoKSksCiAgICAgICAgICAgIEVycihlcnJvcikgaWYgZXJyb3Iua2luZCgpID09IHN0ZDo6aW86OkVycm9yS2luZDo6Tm90Rm91bmQgPT4gT2soKCkpLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IEVycihmb3JtYXQhKCJmYWlsZWQgdG8gcmVtb3ZlIFdvTCBQU0s6IHtlcnJvcn0iKSksCiAgICAgICAgfQogICAgfQoKICAgIHB1YihzdXBlcikgZm4gY2xlYXJfYWxsKCZzZWxmKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgICAgIGxldCBzZWNyZXRzID0gc2VsZi5zZWNyZXRzX2RpcigpOwogICAgICAgIG1hdGNoIGZzOjpyZW1vdmVfZGlyX2FsbCgmc2VjcmV0cykgewogICAgICAgICAgICBPaygoKSkgPT4gewogICAgICAgICAgICAgICAgZnM6OmNyZWF0ZV9kaXJfYWxsKCZzZWNyZXRzKS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgICAgICAgICAgICAgIHNlY3VyZV9kaXJlY3RvcnkoJnNlY3JldHMpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgRXJyKGVycm9yKSBpZiBlcnJvci5raW5kKCkgPT0gc3RkOjppbzo6RXJyb3JLaW5kOjpOb3RGb3VuZCA9PiBPaygoKSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gRXJyKGZvcm1hdCEoImZhaWxlZCB0byBjbGVhciBXb0wgUFNLczoge2Vycm9yfSIpKSwKICAgICAgICB9CiAgICB9CgogICAgZm4gZW5zdXJlX2xheW91dCgmc2VsZikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgICAgICBmczo6Y3JlYXRlX2Rpcl9hbGwoc2VsZi5zZWNyZXRzX2RpcigpKS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgICAgICBzZWN1cmVfZGlyZWN0b3J5KCZzZWxmLmRpcik/OwogICAgICAgIHNlY3VyZV9kaXJlY3RvcnkoJnNlbGYuc2VjcmV0c19kaXIoKSkKICAgIH0KCiAgICBmbiBzZWNyZXRzX2Rpcigmc2VsZikgLT4gUGF0aEJ1ZiB7CiAgICAgICAgc2VsZi5kaXIuam9pbigic2VjcmV0cyIpCiAgICB9CgogICAgZm4gc2VjcmV0X3BhdGgoJnNlbGYsIHJlbGF5X2lkOiAmc3RyKSAtPiBQYXRoQnVmIHsKICAgICAgICBzZWxmLnNlY3JldHNfZGlyKCkuam9pbihmb3JtYXQhKCJ7cmVsYXlfaWR9LmVuYyIpKQogICAgfQoKICAgIGZuIHJlYWRfa2V5KCZzZWxmKSAtPiBSZXN1bHQ8W3U4OyAzMl0sIFN0cmluZz4gewogICAgICAgIGxldCBwYXRoID0gc2VsZi5kaXIuam9pbihLRVlfRklMRSk7CiAgICAgICAgaWYgcGF0aC5leGlzdHMoKSB7CiAgICAgICAgICAgIHNlY3VyZV9maWxlKCZwYXRoKT87CiAgICAgICAgfQogICAgICAgIGZzOjpyZWFkKCZwYXRoKQogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGZvcm1hdCEoImZhaWxlZCB0byByZWFkIFdvTCBjcmVkZW50aWFsIGtleToge2Vycm9yfSIpKT8KICAgICAgICAgICAgLnRyeV9pbnRvKCkKICAgICAgICAgICAgLm1hcF9lcnIofF98ICJXb0wgY3JlZGVudGlhbCBrZXkgaGFzIGFuIGludmFsaWQgbGVuZ3RoIi50b19zdHJpbmcoKSkKICAgIH0KCiAgICBmbiBsb2FkX29yX2NyZWF0ZV9rZXkoJnNlbGYpIC0+IFJlc3VsdDxbdTg7IDMyXSwgU3RyaW5nPiB7CiAgICAgICAgbGV0IF9ndWFyZCA9IEtFWV9DUkVBVElPTl9MT0NLCiAgICAgICAgICAgIC5sb2NrKCkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHxwb2lzb25lZHwgcG9pc29uZWQuaW50b19pbm5lcigpKTsKICAgICAgICBtYXRjaCBzZWxmLnJlYWRfa2V5KCkgewogICAgICAgICAgICBPayhrZXkpID0+IE9rKGtleSksCiAgICAgICAgICAgIEVycihfKSBpZiAhc2VsZi5kaXIuam9pbihLRVlfRklMRSkuZXhpc3RzKCkgPT4gewogICAgICAgICAgICAgICAgbGV0IGtleSA9IHJhbmRvbV9ieXRlczo6PDMyPigpOwogICAgICAgICAgICAgICAgYXRvbWljX3ByaXZhdGVfd3JpdGUoJnNlbGYuZGlyLmpvaW4oS0VZX0ZJTEUpLCAma2V5KT87CiAgICAgICAgICAgICAgICBPayhrZXkpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBFcnIoZXJyb3IpLAogICAgICAgIH0KICAgIH0KfQoKZm4gdmFsaWRhdGVfc2VjcmV0X2lkKHZhbHVlOiAmc3RyKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgaWYgdmFsdWUuaXNfZW1wdHkoKQogICAgICAgIHx8IHZhbHVlLmxlbigpID4gTUFYX1NFQ1JFVF9JRF9MRU5HVEgKICAgICAgICB8fCAhdmFsdWUKICAgICAgICAgICAgLmJ5dGVzKCkKICAgICAgICAgICAgLmFsbCh8Ynl0ZXwgYnl0ZS5pc19hc2NpaV9hbHBoYW51bWVyaWMoKSB8fCBieXRlID09IGInLScpCiAgICB7CiAgICAgICAgcmV0dXJuIEVycigiV29MIGNyZWRlbnRpYWwgaWRlbnRpZmllciBpcyBpbnZhbGlkIi50b19zdHJpbmcoKSk7CiAgICB9CiAgICBPaygoKSkKfQoKZm4gc2VjcmV0X2FhZChyZWxheV9pZDogJnN0ciwga2V5X3ZlcnNpb246IHUzMikgLT4gVmVjPHU4PiB7CiAgICBmb3JtYXQhKCJmbi1rbm9jazp3b2w6cmVsYXk6e3JlbGF5X2lkfTprZXk6e2tleV92ZXJzaW9ufTp2MSIpLmludG9fYnl0ZXMoKQp9CgpmbiBpbnRlZ3JhdGlvbl9zZWNyZXRfaWQodGFyZ2V0X2lkOiAmc3RyLCBraW5kOiBJbnRlZ3JhdGlvbkNyZWRlbnRpYWxLaW5kKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgie30te3RhcmdldF9pZH0iLCBraW5kLm5hbWUoKSkKfQoKZm4gaW50ZWdyYXRpb25fc2VjcmV0X2FhZCh0YXJnZXRfaWQ6ICZzdHIsIGtpbmQ6IEludGVncmF0aW9uQ3JlZGVudGlhbEtpbmQpIC0+IFZlYzx1OD4gewogICAgZm9ybWF0ISgKICAgICAgICAiZm4ta25vY2s6d29sOmludGVncmF0aW9uOnt9OnRhcmdldDp7dGFyZ2V0X2lkfTpjcmVkZW50aWFsOnYxIiwKICAgICAgICBraW5kLm5hbWUoKQogICAgKQogICAgLmludG9fYnl0ZXMoKQp9CgpmbiBzc2hfc2VjcmV0X2lkKHRhcmdldF9pZDogJnN0ciwga2luZDogU3NoQ3JlZGVudGlhbEtpbmQpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7fS17dGFyZ2V0X2lkfSIsIGtpbmQubmFtZSgpKQp9CgpmbiBzc2hfc2VjcmV0X2FhZCh0YXJnZXRfaWQ6ICZzdHIsIGtpbmQ6IFNzaENyZWRlbnRpYWxLaW5kKSAtPiBWZWM8dTg+IHsKICAgIGZvcm1hdCEoCiAgICAgICAgImZuLWtub2NrOndvbDpzc2g6e306dGFyZ2V0Ont0YXJnZXRfaWR9OmNyZWRlbnRpYWw6djEiLAogICAgICAgIGtpbmQubmFtZSgpCiAgICApCiAgICAuaW50b19ieXRlcygpCn0KCmZuIGF0b21pY19wcml2YXRlX3dyaXRlKHBhdGg6ICZQYXRoLCBieXRlczogJlt1OF0pIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBsZXQgcGFyZW50ID0gcGF0aAogICAgICAgIC5wYXJlbnQoKQogICAgICAgIC5va19vcl9lbHNlKHx8ICJpbnZhbGlkIFdvTCBzZWNyZXQgcGF0aCIudG9fc3RyaW5nKCkpPzsKICAgIGZzOjpjcmVhdGVfZGlyX2FsbChwYXJlbnQpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgc2VjdXJlX2RpcmVjdG9yeShwYXJlbnQpPzsKICAgIGxldCB0ZW1wb3JhcnkgPSBwYXJlbnQuam9pbihmb3JtYXQhKAogICAgICAgICIud29sLXNlY3JldC57fS57fS50bXAiLAogICAgICAgIHN0ZDo6cHJvY2Vzczo6aWQoKSwKICAgICAgICBoZXg6OmVuY29kZShyYW5kb21fYnl0ZXM6Ojw4PigpKQogICAgKSk7CiAgICBsZXQgcmVzdWx0ID0gKHx8IHsKICAgICAgICBsZXQgbXV0IG9wdGlvbnMgPSBPcGVuT3B0aW9uczo6bmV3KCk7CiAgICAgICAgb3B0aW9ucy53cml0ZSh0cnVlKS5jcmVhdGVfbmV3KHRydWUpOwogICAgICAgICNbY2ZnKHVuaXgpXQogICAgICAgIHsKICAgICAgICAgICAgdXNlIHN0ZDo6b3M6OnVuaXg6OmZzOjpPcGVuT3B0aW9uc0V4dDsKICAgICAgICAgICAgb3B0aW9ucy5tb2RlKDBvNjAwKTsKICAgICAgICB9CiAgICAgICAgbGV0IG11dCBmaWxlID0gb3B0aW9ucwogICAgICAgICAgICAub3BlbigmdGVtcG9yYXJ5KQogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICAgICAgZmlsZS53cml0ZV9hbGwoYnl0ZXMpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgICAgIGZpbGUuc3luY19hbGwoKS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgICAgICBkcm9wKGZpbGUpOwogICAgICAgIHJlcGxhY2VfZmlsZSgmdGVtcG9yYXJ5LCBwYXRoKT87CiAgICAgICAgc2VjdXJlX2ZpbGUocGF0aCk/OwogICAgICAgIHN5bmNfZGlyZWN0b3J5KHBhcmVudCkKICAgIH0pKCk7CiAgICBpZiByZXN1bHQuaXNfZXJyKCkgewogICAgICAgIGxldCBfID0gZnM6OnJlbW92ZV9maWxlKCZ0ZW1wb3JhcnkpOwogICAgfQogICAgcmVzdWx0Cn0KCiNbY2ZnKG5vdCh3aW5kb3dzKSldCmZuIHJlcGxhY2VfZmlsZSh0ZW1wb3Jhcnk6ICZQYXRoLCBwYXRoOiAmUGF0aCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGZzOjpyZW5hbWUodGVtcG9yYXJ5LCBwYXRoKS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpCn0KCiNbY2ZnKHdpbmRvd3MpXQpmbiByZXBsYWNlX2ZpbGUodGVtcG9yYXJ5OiAmUGF0aCwgcGF0aDogJlBhdGgpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBpZiBwYXRoLmV4aXN0cygpIHsKICAgICAgICBmczo6cmVtb3ZlX2ZpbGUocGF0aCkubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICB9CiAgICBmczo6cmVuYW1lKHRlbXBvcmFyeSwgcGF0aCkubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKQp9CgojW2NmZyh1bml4KV0KZm4gc3luY19kaXJlY3RvcnkocGF0aDogJlBhdGgpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBmczo6RmlsZTo6b3BlbihwYXRoKQogICAgICAgIC5hbmRfdGhlbih8ZGlyZWN0b3J5fCBkaXJlY3Rvcnkuc3luY19hbGwoKSkKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKQp9CgojW2NmZyhub3QodW5peCkpXQpmbiBzeW5jX2RpcmVjdG9yeShfcGF0aDogJlBhdGgpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBPaygoKSkKfQoKI1tjZmcodW5peCldCmZuIHNlY3VyZV9kaXJlY3RvcnkocGF0aDogJlBhdGgpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICB1c2Ugc3RkOjpvczo6dW5peDo6ZnM6OlBlcm1pc3Npb25zRXh0OwogICAgZnM6OnNldF9wZXJtaXNzaW9ucyhwYXRoLCBmczo6UGVybWlzc2lvbnM6OmZyb21fbW9kZSgwbzcwMCkpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSkKfQoKI1tjZmcobm90KHVuaXgpKV0KZm4gc2VjdXJlX2RpcmVjdG9yeShfcGF0aDogJlBhdGgpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBPaygoKSkKfQoKI1tjZmcodW5peCldCmZuIHNlY3VyZV9maWxlKHBhdGg6ICZQYXRoKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgdXNlIHN0ZDo6b3M6OnVuaXg6OmZzOjpQZXJtaXNzaW9uc0V4dDsKICAgIGZzOjpzZXRfcGVybWlzc2lvbnMocGF0aCwgZnM6OlBlcm1pc3Npb25zOjpmcm9tX21vZGUoMG82MDApKS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpCn0KCiNbY2ZnKG5vdCh1bml4KSldCmZuIHNlY3VyZV9maWxlKF9wYXRoOiAmUGF0aCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIE9rKCgpKQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKCiAgICAjW3Rlc3RdCiAgICBmbiBlbmNyeXB0c19hbmRfYmluZHNfcHNrX3RvX3JlbGF5X2FuZF92ZXJzaW9uKCkgewogICAgICAgIGxldCBkaXJlY3RvcnkgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLnVud3JhcCgpOwogICAgICAgIGxldCBzdG9yZSA9IFdvbFNlY3JldFN0b3JlOjpuZXcoZGlyZWN0b3J5LnBhdGgoKSk7CiAgICAgICAgbGV0IHBzayA9IFs3X3U4OyAzMl07CiAgICAgICAgc3RvcmUud3JpdGUoInJlbGF5LWEiLCAxLCAmcHNrKS51bndyYXAoKTsKICAgICAgICBhc3NlcnRfZXEhKHN0b3JlLnJlYWQoInJlbGF5LWEiLCAxKS51bndyYXAoKS51bndyYXAoKSwgcHNrKTsKICAgICAgICBhc3NlcnQhKHN0b3JlLnJlYWQoInJlbGF5LWEiLCAyKS5pc19lcnIoKSk7CiAgICAgICAgYXNzZXJ0IShzdG9yZS5yZWFkKCJyZWxheS1iIiwgMSkudW53cmFwKCkuaXNfbm9uZSgpKTsKICAgICAgICBsZXQgcmF3ID0gZnM6OnJlYWRfdG9fc3RyaW5nKHN0b3JlLnNlY3JldF9wYXRoKCJyZWxheS1hIikpLnVud3JhcCgpOwogICAgICAgIGFzc2VydCEoIXJhdy5jb250YWlucygmU1RBTkRBUkQuZW5jb2RlKHBzaykpKTsKICAgICAgICBzdG9yZS5jbGVhcl9hbGwoKS51bndyYXAoKTsKICAgICAgICBhc3NlcnQhKCFzdG9yZS5jb25maWd1cmVkKCJyZWxheS1hIikpOwogICAgICAgIGFzc2VydCEoc3RvcmUucmVhZCgicmVsYXktYSIsIDEpLnVud3JhcCgpLmlzX25vbmUoKSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gZW5jcnlwdHNfYW5kX3NlcGFyYXRlc19zc2hfY3JlZGVudGlhbHMoKSB7CiAgICAgICAgbGV0IGRpcmVjdG9yeSA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkudW53cmFwKCk7CiAgICAgICAgbGV0IHN0b3JlID0gV29sU2VjcmV0U3RvcmU6Om5ldyhkaXJlY3RvcnkucGF0aCgpKTsKICAgICAgICBzdG9yZQogICAgICAgICAgICAud3JpdGVfc3NoKCJ0YXJnZXQtYSIsIFNzaENyZWRlbnRpYWxLaW5kOjpQYXNzd29yZCwgYiJzZWNyZXQiKQogICAgICAgICAgICAudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc3RvcmUKICAgICAgICAgICAgICAgIC5yZWFkX3NzaCgidGFyZ2V0LWEiLCBTc2hDcmVkZW50aWFsS2luZDo6UGFzc3dvcmQpCiAgICAgICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgICAgIC51bndyYXAoKSwKICAgICAgICAgICAgYiJzZWNyZXQiCiAgICAgICAgKTsKICAgICAgICBhc3NlcnQhKAogICAgICAgICAgICBzdG9yZQogICAgICAgICAgICAgICAgLnJlYWRfc3NoKCJ0YXJnZXQtYSIsIFNzaENyZWRlbnRpYWxLaW5kOjpQcml2YXRlS2V5KQogICAgICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgICAgICAuaXNfbm9uZSgpCiAgICAgICAgKTsKICAgICAgICBhc3NlcnQhKAogICAgICAgICAgICBzdG9yZQogICAgICAgICAgICAgICAgLnJlYWRfc3NoKCJ0YXJnZXQtYiIsIFNzaENyZWRlbnRpYWxLaW5kOjpQYXNzd29yZCkKICAgICAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAgICAgLmlzX25vbmUoKQogICAgICAgICk7CiAgICAgICAgbGV0IHJhdyA9IGZzOjpyZWFkX3RvX3N0cmluZygKICAgICAgICAgICAgc3RvcmUuc2VjcmV0X3BhdGgoJnNzaF9zZWNyZXRfaWQoInRhcmdldC1hIiwgU3NoQ3JlZGVudGlhbEtpbmQ6OlBhc3N3b3JkKSksCiAgICAgICAgKQogICAgICAgIC51bndyYXAoKTsKICAgICAgICBhc3NlcnQhKCFyYXcuY29udGFpbnMoInNlY3JldCIpKTsKCiAgICAgICAgZnM6OmNvcHkoCiAgICAgICAgICAgIHN0b3JlLnNlY3JldF9wYXRoKCZzc2hfc2VjcmV0X2lkKCJ0YXJnZXQtYSIsIFNzaENyZWRlbnRpYWxLaW5kOjpQYXNzd29yZCkpLAogICAgICAgICAgICBzdG9yZS5zZWNyZXRfcGF0aCgmc3NoX3NlY3JldF9pZCgidGFyZ2V0LWEiLCBTc2hDcmVkZW50aWFsS2luZDo6UHJpdmF0ZUtleSkpLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgc3RvcmUKICAgICAgICAgICAgICAgIC5yZWFkX3NzaCgidGFyZ2V0LWEiLCBTc2hDcmVkZW50aWFsS2luZDo6UHJpdmF0ZUtleSkKICAgICAgICAgICAgICAgIC5pc19lcnIoKQogICAgICAgICk7CiAgICAgICAgZnM6OmNvcHkoCiAgICAgICAgICAgIHN0b3JlLnNlY3JldF9wYXRoKCZzc2hfc2VjcmV0X2lkKCJ0YXJnZXQtYSIsIFNzaENyZWRlbnRpYWxLaW5kOjpQYXNzd29yZCkpLAogICAgICAgICAgICBzdG9yZS5zZWNyZXRfcGF0aCgmc3NoX3NlY3JldF9pZCgidGFyZ2V0LWIiLCBTc2hDcmVkZW50aWFsS2luZDo6UGFzc3dvcmQpKSwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgICAgIGFzc2VydCEoCiAgICAgICAgICAgIHN0b3JlCiAgICAgICAgICAgICAgICAucmVhZF9zc2goInRhcmdldC1iIiwgU3NoQ3JlZGVudGlhbEtpbmQ6OlBhc3N3b3JkKQogICAgICAgICAgICAgICAgLmlzX2VycigpCiAgICAgICAgKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBpbnRlZ3JhdGlvbl9jcmVkZW50aWFsc191c2VfaW5kZXBlbmRlbnRfYWFkX2RvbWFpbnMoKSB7CiAgICAgICAgbGV0IGRpcmVjdG9yeSA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkudW53cmFwKCk7CiAgICAgICAgbGV0IHN0b3JlID0gV29sU2VjcmV0U3RvcmU6Om5ldyhkaXJlY3RvcnkucGF0aCgpKTsKICAgICAgICBzdG9yZQogICAgICAgICAgICAud3JpdGVfaW50ZWdyYXRpb24oCiAgICAgICAgICAgICAgICAidGFyZ2V0LWEiLAogICAgICAgICAgICAgICAgSW50ZWdyYXRpb25DcmVkZW50aWFsS2luZDo6QmxpbmtlciwKICAgICAgICAgICAgICAgIGIiZGV2aWNlLWtleSIsCiAgICAgICAgICAgICkKICAgICAgICAgICAgLnVud3JhcCgpOwogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC53cml0ZV9pbnRlZ3JhdGlvbigidGFyZ2V0LWEiLCBJbnRlZ3JhdGlvbkNyZWRlbnRpYWxLaW5kOjpCZW1mYSwgYiJwcml2YXRlLWtleSIpCiAgICAgICAgICAgIC51bndyYXAoKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBzdG9yZQogICAgICAgICAgICAgICAgLnJlYWRfaW50ZWdyYXRpb24oInRhcmdldC1hIiwgSW50ZWdyYXRpb25DcmVkZW50aWFsS2luZDo6QmxpbmtlcikKICAgICAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAgICAgLnVud3JhcCgpLAogICAgICAgICAgICBiImRldmljZS1rZXkiCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBzdG9yZQogICAgICAgICAgICAgICAgLnJlYWRfaW50ZWdyYXRpb24oInRhcmdldC1hIiwgSW50ZWdyYXRpb25DcmVkZW50aWFsS2luZDo6QmVtZmEpCiAgICAgICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgICAgIC51bndyYXAoKSwKICAgICAgICAgICAgYiJwcml2YXRlLWtleSIKICAgICAgICApOwogICAgICAgIGFzc2VydF9uZSEoCiAgICAgICAgICAgIGZzOjpyZWFkKHN0b3JlLnNlY3JldF9wYXRoKCJibGlua2VyLXRhcmdldC1hIikpLnVud3JhcCgpLAogICAgICAgICAgICBmczo6cmVhZChzdG9yZS5zZWNyZXRfcGF0aCgiYmVtZmEtdGFyZ2V0LWEiKSkudW53cmFwKCkKICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHJlamVjdHNfc2VjcmV0X3BhdGhfdHJhdmVyc2FsX2lkZW50aWZpZXJzKCkgewogICAgICAgIGxldCBkaXJlY3RvcnkgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLnVud3JhcCgpOwogICAgICAgIGxldCBzdG9yZSA9IFdvbFNlY3JldFN0b3JlOjpuZXcoZGlyZWN0b3J5LnBhdGgoKS5qb2luKCJ3b2wiKSk7CiAgICAgICAgZm9yIGludmFsaWQgaW4gWyIiLCAiLi4vZXNjYXBlIiwgInJlbGF5L2VzY2FwZSIsICJyZWxheVxcZXNjYXBlIl0gewogICAgICAgICAgICBhc3NlcnQhKHN0b3JlLndyaXRlKGludmFsaWQsIDEsICZbNzsgMzJdKS5pc19lcnIoKSk7CiAgICAgICAgICAgIGFzc2VydCEoc3RvcmUucmVhZChpbnZhbGlkLCAxKS5pc19lcnIoKSk7CiAgICAgICAgICAgIGFzc2VydCEoc3RvcmUuZGVsZXRlKGludmFsaWQpLmlzX2VycigpKTsKICAgICAgICAgICAgYXNzZXJ0ISghc3RvcmUuY29uZmlndXJlZChpbnZhbGlkKSk7CiAgICAgICAgfQogICAgICAgIGFzc2VydCEoIWRpcmVjdG9yeS5wYXRoKCkuam9pbigiZXNjYXBlLmVuYyIpLmV4aXN0cygpKTsKICAgIH0KfQo=
+use aes_gcm::{
+    Aes256Gcm, Nonce,
+    aead::{Aead, KeyInit, Payload},
+};
+use base64::{Engine as _, engine::general_purpose::STANDARD};
+use serde::{Deserialize, Serialize};
+use std::{
+    fs::{self, OpenOptions},
+    io::Write,
+    path::{Path, PathBuf},
+    sync::Mutex,
+};
+
+use crate::{crypto_utils::random_bytes, state::AppState};
+
+const KEY_FILE: &str = "secret.key";
+const ENVELOPE_VERSION: u8 = 1;
+const MAX_SECRET_ID_LENGTH: usize = 64;
+static KEY_CREATION_LOCK: Mutex<()> = Mutex::new(());
+
+#[derive(Serialize, Deserialize)]
+struct SecretEnvelope {
+    version: u8,
+    nonce: String,
+    ciphertext: String,
+}
+
+#[derive(Clone)]
+pub(super) struct WolSecretStore {
+    dir: PathBuf,
+}
+
+pub(super) fn secret_store(state: &AppState) -> WolSecretStore {
+    WolSecretStore::new(state.settings.data_dir.join("wol"))
+}
+
+pub(super) fn local_relay_secret_id(relay_id: &str) -> String {
+    format!("local-{relay_id}")
+}
+
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+pub(super) enum IntegrationCredentialKind {
+    Blinker,
+    Bemfa,
+}
+
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+pub(super) enum SshCredentialKind {
+    Password,
+    PrivateKey,
+    PrivateKeyPassphrase,
+}
+
+impl SshCredentialKind {
+    fn name(self) -> &'static str {
+        match self {
+            Self::Password => "ssh-password",
+            Self::PrivateKey => "ssh-private-key",
+            Self::PrivateKeyPassphrase => "ssh-private-key-passphrase",
+        }
+    }
+}
+
+impl IntegrationCredentialKind {
+    fn name(self) -> &'static str {
+        match self {
+            Self::Blinker => "blinker",
+            Self::Bemfa => "bemfa",
+        }
+    }
+}
+
+impl WolSecretStore {
+    fn new(dir: impl Into<PathBuf>) -> Self {
+        Self { dir: dir.into() }
+    }
+
+    pub(super) fn configured(&self, relay_id: &str) -> bool {
+        validate_secret_id(relay_id).is_ok() && self.secret_path(relay_id).is_file()
+    }
+
+    pub(super) fn read(&self, relay_id: &str, key_version: u32) -> Result<Option<Vec<u8>>, String> {
+        self.read_with_aad(relay_id, &secret_aad(relay_id, key_version))
+    }
+
+    pub(super) fn read_integration(
+        &self,
+        target_id: &str,
+        kind: IntegrationCredentialKind,
+    ) -> Result<Option<Vec<u8>>, String> {
+        let id = integration_secret_id(target_id, kind);
+        self.read_with_aad(&id, &integration_secret_aad(target_id, kind))
+    }
+
+    pub(super) fn read_ssh(
+        &self,
+        target_id: &str,
+        kind: SshCredentialKind,
+    ) -> Result<Option<Vec<u8>>, String> {
+        let id = ssh_secret_id(target_id, kind);
+        self.read_with_aad(&id, &ssh_secret_aad(target_id, kind))
+    }
+
+    fn read_with_aad(&self, id: &str, aad: &[u8]) -> Result<Option<Vec<u8>>, String> {
+        validate_secret_id(id)?;
+        let path = self.secret_path(id);
+        if path.exists() {
+            secure_file(&path)?;
+        }
+        let raw = match fs::read(&path) {
+            Ok(raw) => raw,
+            Err(error) if error.kind() == std::io::ErrorKind::NotFound => return Ok(None),
+            Err(error) => return Err(format!("failed to read encrypted WoL PSK: {error}")),
+        };
+        let envelope = serde_json::from_slice::<SecretEnvelope>(&raw)
+            .map_err(|error| format!("encrypted WoL PSK is invalid: {error}"))?;
+        if envelope.version != ENVELOPE_VERSION {
+            return Err("encrypted WoL PSK version is unsupported".to_string());
+        }
+        let nonce = STANDARD
+            .decode(envelope.nonce)
+            .map_err(|_| "encrypted WoL PSK nonce is invalid".to_string())?;
+        let ciphertext = STANDARD
+            .decode(envelope.ciphertext)
+            .map_err(|_| "encrypted WoL PSK payload is invalid".to_string())?;
+        if nonce.len() != 12 {
+            return Err("encrypted WoL PSK nonce length is invalid".to_string());
+        }
+        let key = self.read_key()?;
+        let cipher = Aes256Gcm::new_from_slice(&key)
+            .map_err(|_| "WoL credential key is invalid".to_string())?;
+        cipher
+            .decrypt(
+                Nonce::from_slice(&nonce),
+                Payload {
+                    msg: &ciphertext,
+                    aad,
+                },
+            )
+            .map(Some)
+            .map_err(|_| "encrypted WoL PSK cannot be decrypted".to_string())
+    }
+
+    pub(super) fn write(
+        &self,
+        relay_id: &str,
+        key_version: u32,
+        value: &[u8],
+    ) -> Result<(), String> {
+        self.write_with_aad(relay_id, value, &secret_aad(relay_id, key_version))
+    }
+
+    pub(super) fn write_integration(
+        &self,
+        target_id: &str,
+        kind: IntegrationCredentialKind,
+        value: &[u8],
+    ) -> Result<(), String> {
+        let id = integration_secret_id(target_id, kind);
+        self.write_with_aad(&id, value, &integration_secret_aad(target_id, kind))
+    }
+
+    pub(super) fn write_ssh(
+        &self,
+        target_id: &str,
+        kind: SshCredentialKind,
+        value: &[u8],
+    ) -> Result<(), String> {
+        let id = ssh_secret_id(target_id, kind);
+        self.write_with_aad(&id, value, &ssh_secret_aad(target_id, kind))
+    }
+
+    fn write_with_aad(&self, id: &str, value: &[u8], aad: &[u8]) -> Result<(), String> {
+        validate_secret_id(id)?;
+        self.ensure_layout()?;
+        let key = self.load_or_create_key()?;
+        let nonce = random_bytes::<12>();
+        let cipher = Aes256Gcm::new_from_slice(&key)
+            .map_err(|_| "WoL credential key is invalid".to_string())?;
+        let ciphertext = cipher
+            .encrypt(Nonce::from_slice(&nonce), Payload { msg: value, aad })
+            .map_err(|_| "failed to encrypt WoL PSK".to_string())?;
+        let bytes = serde_json::to_vec(&SecretEnvelope {
+            version: ENVELOPE_VERSION,
+            nonce: STANDARD.encode(nonce),
+            ciphertext: STANDARD.encode(ciphertext),
+        })
+        .map_err(|error| format!("failed to encode WoL PSK: {error}"))?;
+        atomic_private_write(&self.secret_path(id), &bytes)
+    }
+
+    pub(super) fn integration_configured(
+        &self,
+        target_id: &str,
+        kind: IntegrationCredentialKind,
+    ) -> bool {
+        self.configured(&integration_secret_id(target_id, kind))
+    }
+
+    pub(super) fn ssh_configured(&self, target_id: &str, kind: SshCredentialKind) -> bool {
+        self.configured(&ssh_secret_id(target_id, kind))
+    }
+
+    pub(super) fn delete_integration(
+        &self,
+        target_id: &str,
+        kind: IntegrationCredentialKind,
+    ) -> Result<(), String> {
+        self.delete(&integration_secret_id(target_id, kind))
+    }
+
+    pub(super) fn delete_ssh(
+        &self,
+        target_id: &str,
+        kind: SshCredentialKind,
+    ) -> Result<(), String> {
+        self.delete(&ssh_secret_id(target_id, kind))
+    }
+
+    pub(super) fn delete(&self, relay_id: &str) -> Result<(), String> {
+        validate_secret_id(relay_id)?;
+        match fs::remove_file(self.secret_path(relay_id)) {
+            Ok(()) => sync_directory(&self.secrets_dir()),
+            Err(error) if error.kind() == std::io::ErrorKind::NotFound => Ok(()),
+            Err(error) => Err(format!("failed to remove WoL PSK: {error}")),
+        }
+    }
+
+    pub(super) fn clear_all(&self) -> Result<(), String> {
+        let secrets = self.secrets_dir();
+        match fs::remove_dir_all(&secrets) {
+            Ok(()) => {
+                fs::create_dir_all(&secrets).map_err(|error| error.to_string())?;
+                secure_directory(&secrets)
+            }
+            Err(error) if error.kind() == std::io::ErrorKind::NotFound => Ok(()),
+            Err(error) => Err(format!("failed to clear WoL PSKs: {error}")),
+        }
+    }
+
+    fn ensure_layout(&self) -> Result<(), String> {
+        fs::create_dir_all(self.secrets_dir()).map_err(|error| error.to_string())?;
+        secure_directory(&self.dir)?;
+        secure_directory(&self.secrets_dir())
+    }
+
+    fn secrets_dir(&self) -> PathBuf {
+        self.dir.join("secrets")
+    }
+
+    fn secret_path(&self, relay_id: &str) -> PathBuf {
+        self.secrets_dir().join(format!("{relay_id}.enc"))
+    }
+
+    fn read_key(&self) -> Result<[u8; 32], String> {
+        let path = self.dir.join(KEY_FILE);
+        if path.exists() {
+            secure_file(&path)?;
+        }
+        fs::read(&path)
+            .map_err(|error| format!("failed to read WoL credential key: {error}"))?
+            .try_into()
+            .map_err(|_| "WoL credential key has an invalid length".to_string())
+    }
+
+    fn load_or_create_key(&self) -> Result<[u8; 32], String> {
+        let _guard = KEY_CREATION_LOCK
+            .lock()
+            .unwrap_or_else(|poisoned| poisoned.into_inner());
+        match self.read_key() {
+            Ok(key) => Ok(key),
+            Err(_) if !self.dir.join(KEY_FILE).exists() => {
+                let key = random_bytes::<32>();
+                atomic_private_write(&self.dir.join(KEY_FILE), &key)?;
+                Ok(key)
+            }
+            Err(error) => Err(error),
+        }
+    }
+}
+
+fn validate_secret_id(value: &str) -> Result<(), String> {
+    if value.is_empty()
+        || value.len() > MAX_SECRET_ID_LENGTH
+        || !value
+            .bytes()
+            .all(|byte| byte.is_ascii_alphanumeric() || byte == b'-')
+    {
+        return Err("WoL credential identifier is invalid".to_string());
+    }
+    Ok(())
+}
+
+fn secret_aad(relay_id: &str, key_version: u32) -> Vec<u8> {
+    format!("fn-knock:wol:relay:{relay_id}:key:{key_version}:v1").into_bytes()
+}
+
+fn integration_secret_id(target_id: &str, kind: IntegrationCredentialKind) -> String {
+    format!("{}-{target_id}", kind.name())
+}
+
+fn integration_secret_aad(target_id: &str, kind: IntegrationCredentialKind) -> Vec<u8> {
+    format!(
+        "fn-knock:wol:integration:{}:target:{target_id}:credential:v1",
+        kind.name()
+    )
+    .into_bytes()
+}
+
+fn ssh_secret_id(target_id: &str, kind: SshCredentialKind) -> String {
+    format!("{}-{target_id}", kind.name())
+}
+
+fn ssh_secret_aad(target_id: &str, kind: SshCredentialKind) -> Vec<u8> {
+    format!(
+        "fn-knock:wol:ssh:{}:target:{target_id}:credential:v1",
+        kind.name()
+    )
+    .into_bytes()
+}
+
+fn atomic_private_write(path: &Path, bytes: &[u8]) -> Result<(), String> {
+    let parent = path
+        .parent()
+        .ok_or_else(|| "invalid WoL secret path".to_string())?;
+    fs::create_dir_all(parent).map_err(|error| error.to_string())?;
+    secure_directory(parent)?;
+    let temporary = parent.join(format!(
+        ".wol-secret.{}.{}.tmp",
+        std::process::id(),
+        hex::encode(random_bytes::<8>())
+    ));
+    let result = (|| {
+        let mut options = OpenOptions::new();
+        options.write(true).create_new(true);
+        #[cfg(unix)]
+        {
+            use std::os::unix::fs::OpenOptionsExt;
+            options.mode(0o600);
+        }
+        let mut file = options
+            .open(&temporary)
+            .map_err(|error| error.to_string())?;
+        file.write_all(bytes).map_err(|error| error.to_string())?;
+        file.sync_all().map_err(|error| error.to_string())?;
+        drop(file);
+        replace_file(&temporary, path)?;
+        secure_file(path)?;
+        sync_directory(parent)
+    })();
+    if result.is_err() {
+        let _ = fs::remove_file(&temporary);
+    }
+    result
+}
+
+#[cfg(not(windows))]
+fn replace_file(temporary: &Path, path: &Path) -> Result<(), String> {
+    fs::rename(temporary, path).map_err(|error| error.to_string())
+}
+
+#[cfg(windows)]
+fn replace_file(temporary: &Path, path: &Path) -> Result<(), String> {
+    if path.exists() {
+        fs::remove_file(path).map_err(|error| error.to_string())?;
+    }
+    fs::rename(temporary, path).map_err(|error| error.to_string())
+}
+
+#[cfg(unix)]
+fn sync_directory(path: &Path) -> Result<(), String> {
+    fs::File::open(path)
+        .and_then(|directory| directory.sync_all())
+        .map_err(|error| error.to_string())
+}
+
+#[cfg(not(unix))]
+fn sync_directory(_path: &Path) -> Result<(), String> {
+    Ok(())
+}
+
+#[cfg(unix)]
+fn secure_directory(path: &Path) -> Result<(), String> {
+    use std::os::unix::fs::PermissionsExt;
+    fs::set_permissions(path, fs::Permissions::from_mode(0o700)).map_err(|error| error.to_string())
+}
+
+#[cfg(not(unix))]
+fn secure_directory(_path: &Path) -> Result<(), String> {
+    Ok(())
+}
+
+#[cfg(unix)]
+fn secure_file(path: &Path) -> Result<(), String> {
+    use std::os::unix::fs::PermissionsExt;
+    fs::set_permissions(path, fs::Permissions::from_mode(0o600)).map_err(|error| error.to_string())
+}
+
+#[cfg(not(unix))]
+fn secure_file(_path: &Path) -> Result<(), String> {
+    Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn encrypts_and_binds_psk_to_relay_and_version() {
+        let directory = tempfile::tempdir().unwrap();
+        let store = WolSecretStore::new(directory.path());
+        let psk = [7_u8; 32];
+        store.write("relay-a", 1, &psk).unwrap();
+        assert_eq!(store.read("relay-a", 1).unwrap().unwrap(), psk);
+        assert!(store.read("relay-a", 2).is_err());
+        assert!(store.read("relay-b", 1).unwrap().is_none());
+        let raw = fs::read_to_string(store.secret_path("relay-a")).unwrap();
+        assert!(!raw.contains(&STANDARD.encode(psk)));
+        store.clear_all().unwrap();
+        assert!(!store.configured("relay-a"));
+        assert!(store.read("relay-a", 1).unwrap().is_none());
+    }
+
+    #[test]
+    fn encrypts_and_separates_ssh_credentials() {
+        let directory = tempfile::tempdir().unwrap();
+        let store = WolSecretStore::new(directory.path());
+        store
+            .write_ssh("target-a", SshCredentialKind::Password, b"secret")
+            .unwrap();
+        assert_eq!(
+            store
+                .read_ssh("target-a", SshCredentialKind::Password)
+                .unwrap()
+                .unwrap(),
+            b"secret"
+        );
+        assert!(
+            store
+                .read_ssh("target-a", SshCredentialKind::PrivateKey)
+                .unwrap()
+                .is_none()
+        );
+        assert!(
+            store
+                .read_ssh("target-b", SshCredentialKind::Password)
+                .unwrap()
+                .is_none()
+        );
+        let raw = fs::read_to_string(
+            store.secret_path(&ssh_secret_id("target-a", SshCredentialKind::Password)),
+        )
+        .unwrap();
+        assert!(!raw.contains("secret"));
+
+        fs::copy(
+            store.secret_path(&ssh_secret_id("target-a", SshCredentialKind::Password)),
+            store.secret_path(&ssh_secret_id("target-a", SshCredentialKind::PrivateKey)),
+        )
+        .unwrap();
+        assert!(
+            store
+                .read_ssh("target-a", SshCredentialKind::PrivateKey)
+                .is_err()
+        );
+        fs::copy(
+            store.secret_path(&ssh_secret_id("target-a", SshCredentialKind::Password)),
+            store.secret_path(&ssh_secret_id("target-b", SshCredentialKind::Password)),
+        )
+        .unwrap();
+        assert!(
+            store
+                .read_ssh("target-b", SshCredentialKind::Password)
+                .is_err()
+        );
+    }
+
+    #[test]
+    fn integration_credentials_use_independent_aad_domains() {
+        let directory = tempfile::tempdir().unwrap();
+        let store = WolSecretStore::new(directory.path());
+        store
+            .write_integration(
+                "target-a",
+                IntegrationCredentialKind::Blinker,
+                b"device-key",
+            )
+            .unwrap();
+        store
+            .write_integration("target-a", IntegrationCredentialKind::Bemfa, b"private-key")
+            .unwrap();
+        assert_eq!(
+            store
+                .read_integration("target-a", IntegrationCredentialKind::Blinker)
+                .unwrap()
+                .unwrap(),
+            b"device-key"
+        );
+        assert_eq!(
+            store
+                .read_integration("target-a", IntegrationCredentialKind::Bemfa)
+                .unwrap()
+                .unwrap(),
+            b"private-key"
+        );
+        assert_ne!(
+            fs::read(store.secret_path("blinker-target-a")).unwrap(),
+            fs::read(store.secret_path("bemfa-target-a")).unwrap()
+        );
+    }
+
+    #[test]
+    fn rejects_secret_path_traversal_identifiers() {
+        let directory = tempfile::tempdir().unwrap();
+        let store = WolSecretStore::new(directory.path().join("wol"));
+        for invalid in ["", "../escape", "relay/escape", "relay\\escape"] {
+            assert!(store.write(invalid, 1, &[7; 32]).is_err());
+            assert!(store.read(invalid, 1).is_err());
+            assert!(store.delete(invalid).is_err());
+            assert!(!store.configured(invalid));
+        }
+        assert!(!directory.path().join("escape.enc").exists());
+    }
+}

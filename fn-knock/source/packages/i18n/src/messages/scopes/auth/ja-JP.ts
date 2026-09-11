@@ -1,1 +1,11 @@
-aW1wb3J0IHsgamFKUEF1dGggfSBmcm9tICIuLi8uLi9hdXRoL2phLUpQIjsKaW1wb3J0IHsgamFKUENvbW1vbiB9IGZyb20gIi4uLy4uL2NvbW1vbi9qYS1KUCI7CmltcG9ydCB7IGphSlBMb2NhbGUgfSBmcm9tICIuLi8uLi9sb2NhbGUvamEtSlAiOwppbXBvcnQgeyBqYUpQU2hhcmVkIH0gZnJvbSAiLi4vLi4vc2hhcmVkL2phLUpQIjsKCmV4cG9ydCBkZWZhdWx0IHsKICBjb21tb246IGphSlBDb21tb24sCiAgbG9jYWxlOiBqYUpQTG9jYWxlLAogIHNoYXJlZDogamFKUFNoYXJlZCwKICBhdXRoOiBqYUpQQXV0aCwKfTsK
+import { jaJPAuth } from "../../auth/ja-JP";
+import { jaJPCommon } from "../../common/ja-JP";
+import { jaJPLocale } from "../../locale/ja-JP";
+import { jaJPShared } from "../../shared/ja-JP";
+
+export default {
+  common: jaJPCommon,
+  locale: jaJPLocale,
+  shared: jaJPShared,
+  auth: jaJPAuth,
+};

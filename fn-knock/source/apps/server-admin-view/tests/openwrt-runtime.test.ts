@@ -1,1 +1,56 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgppbXBvcnQgeyByZXNvbHZlUnVudGltZUNhcGFiaWxpdHlSZWRpcmVjdCB9IGZyb20gIi4uL3NyYy9yb3V0ZXIvcnVudGltZS1hY2Nlc3MiOwppbXBvcnQgewogIHByaXZpbGVnZWROYXZpZ2F0aW9uVmlzaWJpbGl0eSwKICBzbWFydENvbm5lY3RGZWF0dXJlRW50cnlWaXNpYmxlLAp9IGZyb20gIi4uL3NyYy92aWV3cy9sYXlvdXQvcnVudGltZS1uYXZpZ2F0aW9uIjsKCmRlc2NyaWJlKCJPcGVuV3J0IHJ1bnRpbWUgYmVoYXZpb3IiLCAoKSA9PiB7CiAgY29uc3Qgb3BlbldydFJvdXRlQWNjZXNzID0gewogICAgY2FuVXNlU3NoU2VjdXJpdHk6IGZhbHNlLAogICAgc3NoU2VjdXJpdHlFbmFibGVkOiBmYWxzZSwKICAgIGNhblVzZVNtYXJ0Q29ubmVjdDogZmFsc2UsCiAgICBjYW5Vc2VGbm9zQ2VydGlmaWNhdGVTeW5jOiBmYWxzZSwKICB9OwoKICBpdCgia2VlcHMgdGhlIFNTSCB0ZXJtaW5hbCByb3V0ZSB3aGlsZSByZWRpcmVjdGluZyB1bnN1cHBvcnRlZCBob3N0IGZlYXR1cmVzIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKAogICAgICByZXNvbHZlUnVudGltZUNhcGFiaWxpdHlSZWRpcmVjdCgiL3Rlcm1pbmFsIiwgb3BlbldydFJvdXRlQWNjZXNzKSwKICAgICAgbnVsbCwKICAgICk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICByZXNvbHZlUnVudGltZUNhcGFiaWxpdHlSZWRpcmVjdCgiL3NzaC1zZWN1cml0eSIsIG9wZW5XcnRSb3V0ZUFjY2VzcyksCiAgICAgIHsgcGF0aDogIi9zeXN0ZW0iLCBxdWVyeTogeyB0YWI6ICJmZWF0dXJlcyIgfSB9LAogICAgKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIHJlc29sdmVSdW50aW1lQ2FwYWJpbGl0eVJlZGlyZWN0KAogICAgICAgICIvc3lzdGVtL3NtYXJ0LWNvbm5lY3QiLAogICAgICAgIG9wZW5XcnRSb3V0ZUFjY2VzcywKICAgICAgKSwKICAgICAgeyBwYXRoOiAiL3N5c3RlbSIsIHF1ZXJ5OiB7IHRhYjogImZlYXR1cmVzIiB9IH0sCiAgICApOwogIH0pOwoKICBpdCgiaGlkZXMgU1NIIHNlY3VyaXR5IGFuZCBTbWFydCBDb25uZWN0IGVudHJpZXMiLCAoKSA9PiB7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBwcml2aWxlZ2VkTmF2aWdhdGlvblZpc2liaWxpdHkoewogICAgICAgIGNhblVzZVNzaFNlY3VyaXR5OiBmYWxzZSwKICAgICAgICBzc2hTZWN1cml0eUVuYWJsZWQ6IHRydWUsCiAgICAgIH0pLAogICAgICB7IHNzaFNlY3VyaXR5OiBmYWxzZSB9LAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgc21hcnRDb25uZWN0RmVhdHVyZUVudHJ5VmlzaWJsZSh7CiAgICAgICAgaXNGcGtMaXRlRGVwbG95bWVudDogZmFsc2UsCiAgICAgICAgaXNEb2NrZXJEZXBsb3ltZW50OiBmYWxzZSwKICAgICAgICBpc09wZW5XcnREZXBsb3ltZW50OiB0cnVlLAogICAgICAgIGlzU3lub2xvZ3lEZXBsb3ltZW50OiBmYWxzZSwKICAgICAgfSksCiAgICAgIGZhbHNlLAogICAgKTsKICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import { resolveRuntimeCapabilityRedirect } from "../src/router/runtime-access";
+import {
+  privilegedNavigationVisibility,
+  smartConnectFeatureEntryVisible,
+} from "../src/views/layout/runtime-navigation";
+
+describe("OpenWrt runtime behavior", () => {
+  const openWrtRouteAccess = {
+    canUseSshSecurity: false,
+    sshSecurityEnabled: false,
+    canUseSmartConnect: false,
+    canUseFnosCertificateSync: false,
+  };
+
+  it("keeps the SSH terminal route while redirecting unsupported host features", () => {
+    assert.equal(
+      resolveRuntimeCapabilityRedirect("/terminal", openWrtRouteAccess),
+      null,
+    );
+    assert.deepEqual(
+      resolveRuntimeCapabilityRedirect("/ssh-security", openWrtRouteAccess),
+      { path: "/system", query: { tab: "features" } },
+    );
+    assert.deepEqual(
+      resolveRuntimeCapabilityRedirect(
+        "/system/smart-connect",
+        openWrtRouteAccess,
+      ),
+      { path: "/system", query: { tab: "features" } },
+    );
+  });
+
+  it("hides SSH security and Smart Connect entries", () => {
+    assert.deepEqual(
+      privilegedNavigationVisibility({
+        canUseSshSecurity: false,
+        sshSecurityEnabled: true,
+      }),
+      { sshSecurity: false },
+    );
+    assert.equal(
+      smartConnectFeatureEntryVisible({
+        isFpkLiteDeployment: false,
+        isDockerDeployment: false,
+        isOpenWrtDeployment: true,
+        isSynologyDeployment: false,
+      }),
+      false,
+    );
+  });
+});

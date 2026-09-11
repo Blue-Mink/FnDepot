@@ -1,1 +1,66 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEFycm93TGVmdFJpZ2h0IH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CgpkZWZpbmVQcm9wczx7CiAgYWN0aW9uTGFiZWw6IHN0cmluZzsKICBkZXNjcmlwdGlvbjogc3RyaW5nOwogIGZpZWxkczogc3RyaW5nW107CiAgbG9hZGluZz86IGJvb2xlYW47CiAgc291cmNlTGFiZWw6IHN0cmluZzsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgYXBwbHk6IFtdOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIvODAgYmctYmFja2dyb3VuZC83MCBweC0zLjUgcHktMyI+CiAgICA8ZGl2CiAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLXN0YXJ0IHNtOmp1c3RpZnktYmV0d2VlbiIKICAgID4KICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBncmlkIGdhcC0xLjUiPgogICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICA8QXJyb3dMZWZ0UmlnaHQgY2xhc3M9ImgtMy41IHctMy41IiAvPgogICAgICAgICAgPHNwYW4+e3sgdCgiYWRtaW4uY29tcG9uZW50cy5jcmVkZW50aWFsVHJhbnNmZXJIaW50LnRpdGxlIikgfX08L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPHAgY2xhc3M9InRleHQtc20gbGVhZGluZy02IHRleHQtZm9yZWdyb3VuZC85MCI+e3sgZGVzY3JpcHRpb24gfX08L3A+CiAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHQoImFkbWluLmNvbXBvbmVudHMuY3JlZGVudGlhbFRyYW5zZmVySGludC5zb3VyY2VIaW50IiwgewogICAgICAgICAgICAgIHNvdXJjZTogc291cmNlTGFiZWwsCiAgICAgICAgICAgIH0pCiAgICAgICAgICB9fQogICAgICAgIDwvcD4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBnYXAtMS41Ij4KICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIHYtZm9yPSJmaWVsZCBpbiBmaWVsZHMiCiAgICAgICAgICAgIDprZXk9ImZpZWxkIgogICAgICAgICAgICBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgYmctbXV0ZWQvMzUgcHgtMiBweS0wLjUgZm9udC1tb25vIHRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgZmllbGQgfX0KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8QnV0dG9uCiAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgY2xhc3M9InNocmluay0wIgogICAgICAgIDpkaXNhYmxlZD0ibG9hZGluZyIKICAgICAgICBAY2xpY2s9ImVtaXQoJ2FwcGx5JykiCiAgICAgID4KICAgICAgICB7ewogICAgICAgICAgbG9hZGluZwogICAgICAgICAgICA/IHQoImFkbWluLmNvbXBvbmVudHMuY3JlZGVudGlhbFRyYW5zZmVySGludC5wcm9jZXNzaW5nIikKICAgICAgICAgICAgOiBhY3Rpb25MYWJlbAogICAgICAgIH19CiAgICAgIDwvQnV0dG9uPgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { ArrowLeftRight } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+
+defineProps<{
+  actionLabel: string;
+  description: string;
+  fields: string[];
+  loading?: boolean;
+  sourceLabel: string;
+}>();
+
+const emit = defineEmits<{
+  apply: [];
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <div class="rounded-lg border border-border/80 bg-background/70 px-3.5 py-3">
+    <div
+      class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+    >
+      <div class="min-w-0 grid gap-1.5">
+        <div class="flex items-center gap-2 text-[11px] text-muted-foreground">
+          <ArrowLeftRight class="h-3.5 w-3.5" />
+          <span>{{ t("admin.components.credentialTransferHint.title") }}</span>
+        </div>
+        <p class="text-sm leading-6 text-foreground/90">{{ description }}</p>
+        <p class="text-xs text-muted-foreground">
+          {{
+            t("admin.components.credentialTransferHint.sourceHint", {
+              source: sourceLabel,
+            })
+          }}
+        </p>
+        <div class="flex flex-wrap gap-1.5">
+          <span
+            v-for="field in fields"
+            :key="field"
+            class="rounded-md border bg-muted/35 px-2 py-0.5 font-mono text-[11px] text-muted-foreground"
+          >
+            {{ field }}
+          </span>
+        </div>
+      </div>
+
+      <Button
+        type="button"
+        variant="outline"
+        size="sm"
+        class="shrink-0"
+        :disabled="loading"
+        @click="emit('apply')"
+      >
+        {{
+          loading
+            ? t("admin.components.credentialTransferHint.processing")
+            : actionLabel
+        }}
+      </Button>
+    </div>
+  </div>
+</template>

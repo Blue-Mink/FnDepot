@@ -1,1 +1,27 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRHJvcGRvd25NZW51U3ViQ29udGVudEVtaXRzLCBEcm9wZG93bk1lbnVTdWJDb250ZW50UHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyByZWFjdGl2ZU9taXQgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7CiAgRHJvcGRvd25NZW51U3ViQ29udGVudCwKICB1c2VGb3J3YXJkUHJvcHNFbWl0cywKfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxEcm9wZG93bk1lbnVTdWJDb250ZW50UHJvcHMgJiB7IGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0gfT4oKQpjb25zdCBlbWl0cyA9IGRlZmluZUVtaXRzPERyb3Bkb3duTWVudVN1YkNvbnRlbnRFbWl0cz4oKQoKY29uc3QgZGVsZWdhdGVkUHJvcHMgPSByZWFjdGl2ZU9taXQocHJvcHMsICJjbGFzcyIpCgpjb25zdCBmb3J3YXJkZWQgPSB1c2VGb3J3YXJkUHJvcHNFbWl0cyhkZWxlZ2F0ZWRQcm9wcywgZW1pdHMpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEcm9wZG93bk1lbnVTdWJDb250ZW50CiAgICBkYXRhLXNsb3Q9ImRyb3Bkb3duLW1lbnUtc3ViLWNvbnRlbnQiCiAgICB2LWJpbmQ9ImZvcndhcmRlZCIKICAgIDpjbGFzcz0iY24oJ2JnLXBvcG92ZXIgdGV4dC1wb3BvdmVyLWZvcmVncm91bmQgZGF0YS1bc3RhdGU9b3Blbl06YW5pbWF0ZS1pbiBkYXRhLVtzdGF0ZT1jbG9zZWRdOmFuaW1hdGUtb3V0IGRhdGEtW3N0YXRlPWNsb3NlZF06ZmFkZS1vdXQtMCBkYXRhLVtzdGF0ZT1vcGVuXTpmYWRlLWluLTAgZGF0YS1bc3RhdGU9Y2xvc2VkXTp6b29tLW91dC05NSBkYXRhLVtzdGF0ZT1vcGVuXTp6b29tLWluLTk1IGRhdGEtW3NpZGU9Ym90dG9tXTpzbGlkZS1pbi1mcm9tLXRvcC0yIGRhdGEtW3NpZGU9bGVmdF06c2xpZGUtaW4tZnJvbS1yaWdodC0yIGRhdGEtW3NpZGU9cmlnaHRdOnNsaWRlLWluLWZyb20tbGVmdC0yIGRhdGEtW3NpZGU9dG9wXTpzbGlkZS1pbi1mcm9tLWJvdHRvbS0yIHotNTAgbWluLXctWzhyZW1dIG9yaWdpbi0oLS1yZWthLWRyb3Bkb3duLW1lbnUtY29udGVudC10cmFuc2Zvcm0tb3JpZ2luKSBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1tZCBib3JkZXIgcC0xIHNoYWRvdy1sZycsIHByb3BzLmNsYXNzKSIKICA+CiAgICA8c2xvdCAvPgogIDwvRHJvcGRvd25NZW51U3ViQ29udGVudD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { DropdownMenuSubContentEmits, DropdownMenuSubContentProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import {
+  DropdownMenuSubContent,
+  useForwardPropsEmits,
+} from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<DropdownMenuSubContentProps & { class?: HTMLAttributes["class"] }>()
+const emits = defineEmits<DropdownMenuSubContentEmits>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwarded = useForwardPropsEmits(delegatedProps, emits)
+</script>
+
+<template>
+  <DropdownMenuSubContent
+    data-slot="dropdown-menu-sub-content"
+    v-bind="forwarded"
+    :class="cn('bg-popover text-popover-foreground data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 z-50 min-w-[8rem] origin-(--reka-dropdown-menu-content-transform-origin) overflow-hidden rounded-md border p-1 shadow-lg', props.class)"
+  >
+    <slot />
+  </DropdownMenuSubContent>
+</template>

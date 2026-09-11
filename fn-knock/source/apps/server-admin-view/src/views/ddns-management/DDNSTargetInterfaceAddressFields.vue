@@ -1,1 +1,165 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IHR5cGUgeyBERE5TVGFyZ2V0QWRkcmVzc0ZpZWxkc1Byb3BzIH0gZnJvbSAiLi9kZG5zLXRhcmdldC1kaWFsb2ctY29udHJhY3QiOwppbXBvcnQgREROU0ludGVyZmFjZVNlbGVjdG9yRWRpdG9yIGZyb20gIi4vREROU0ludGVyZmFjZVNlbGVjdG9yRWRpdG9yLnZ1ZSI7CmltcG9ydCB7CiAgQUxMT1dfUFJJVkFURV9BRERSRVNTRVNfS0VZLAogIElOVEVSRkFDRV9JUFY0X0lOREVYX0tFWSwKICBJTlRFUkZBQ0VfSVBWNF9TRUxFQ1RPUl9LRVksCiAgSU5URVJGQUNFX0lQVjZfSU5ERVhfS0VZLAogIElOVEVSRkFDRV9JUFY2X1NFTEVDVE9SX0tFWSwKICBORVRXT1JLX0lOVEVSRkFDRV9LRVksCn0gZnJvbSAiLi9tb2RlbCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsgbW9kZWw6IERETlNUYXJnZXRBZGRyZXNzRmllbGRzUHJvcHMgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IGFsbG93UHJpdmF0ZUFkZHJlc3NlcyA9IGNvbXB1dGVkKAogICgpID0+IHByb3BzLm1vZGVsLnN0YXRlLmNvbmZpZ1tBTExPV19QUklWQVRFX0FERFJFU1NFU19LRVldID09PSAidHJ1ZSIsCik7CmNvbnN0IHNlbGVjdGVkTmV0d29ya0ludGVyZmFjZSA9IGNvbXB1dGVkKAogICgpID0+CiAgICBwcm9wcy5tb2RlbC5yZXNvbHZlZE5ldHdvcmtJbnRlcmZhY2VzLmZpbmQoCiAgICAgIChpdGVtKSA9PiBpdGVtLm5hbWUgPT09IHByb3BzLm1vZGVsLnN0YXRlLmNvbmZpZ1tORVRXT1JLX0lOVEVSRkFDRV9LRVldLAogICAgKSB8fCBudWxsLAopOwpjb25zdCB1cGRhdGVTZWxlY3RvciA9IChmYW1pbHk6ICJpcHY0IiB8ICJpcHY2IiwgdmFsdWU6IHN0cmluZykgPT4gewogIGNvbnN0IHNlbGVjdG9yS2V5ID0KICAgIGZhbWlseSA9PT0gImlwdjQiCiAgICAgID8gSU5URVJGQUNFX0lQVjRfU0VMRUNUT1JfS0VZCiAgICAgIDogSU5URVJGQUNFX0lQVjZfU0VMRUNUT1JfS0VZOwogIGNvbnN0IGluZGV4S2V5ID0KICAgIGZhbWlseSA9PT0gImlwdjQiID8gSU5URVJGQUNFX0lQVjRfSU5ERVhfS0VZIDogSU5URVJGQUNFX0lQVjZfSU5ERVhfS0VZOwogIHByb3BzLm1vZGVsLnN0YXRlLmNvbmZpZ1tzZWxlY3RvcktleV0gPSB2YWx1ZTsKICBwcm9wcy5tb2RlbC5zdGF0ZS5jb25maWdbaW5kZXhLZXldID0gIiI7Cn07Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDx0ZW1wbGF0ZSB2LWlmPSJtb2RlbC5zaG91bGRTaG93SW50ZXJmYWNlQmxvY2siPgogICAgPGRpdgogICAgICBjbGFzcz0iZ3JpZCBpdGVtcy1zdGFydCBnYXAtMiBwLTQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvMTAgc206Z3JpZC1jb2xzLVsxODBweF8xZnJdIHNtOnAtNSBtZDpncmlkLWNvbHMtWzIyMHB4XzFmcl0iCiAgICA+CiAgICAgIDxkaXYgY2xhc3M9Im10LTEuNSBzcGFjZS15LTEiPgogICAgICAgIDxMYWJlbAogICAgICAgICAgZm9yPSJkZG5zLXRhcmdldC1hbGxvdy1wcml2YXRlLWFkZHJlc3NlcyIKICAgICAgICAgIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIgogICAgICAgID4KICAgICAgICAgIHt7IHQoImFkbWluLmRkbnMuYWxsb3dQcml2YXRlQWRkcmVzc2VzIikgfX0KICAgICAgICA8L0xhYmVsPgogICAgICAgIDxwIGNsYXNzPSJoaWRkZW4gcHItNCB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTpibG9jayI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLmFsbG93UHJpdmF0ZUFkZHJlc3Nlc0hpbnQiKSB9fQogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9InctZnVsbCBtYXgtdy1tZCBzcGFjZS15LTIiPgogICAgICAgIDxkaXYgY2xhc3M9ImZsZXggbWluLWgtMTAgaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICAgIDxTd2l0Y2gKICAgICAgICAgICAgaWQ9ImRkbnMtdGFyZ2V0LWFsbG93LXByaXZhdGUtYWRkcmVzc2VzIgogICAgICAgICAgICA6bW9kZWwtdmFsdWU9ImFsbG93UHJpdmF0ZUFkZHJlc3NlcyIKICAgICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iCiAgICAgICAgICAgICAgbW9kZWwuc3RhdGUuY29uZmlnW0FMTE9XX1BSSVZBVEVfQUREUkVTU0VTX0tFWV0gPSAkZXZlbnQKICAgICAgICAgICAgICAgID8gJ3RydWUnCiAgICAgICAgICAgICAgICA6ICdmYWxzZScKICAgICAgICAgICAgIgogICAgICAgICAgLz4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgdCgKICAgICAgICAgICAgICAgIGFsbG93UHJpdmF0ZUFkZHJlc3NlcwogICAgICAgICAgICAgICAgICA/ICJhZG1pbi5kZG5zLmFsbG93ZWRMYWJlbCIKICAgICAgICAgICAgICAgICAgOiAiYWRtaW4uZGRucy5maWx0ZXJlZExhYmVsIiwKICAgICAgICAgICAgICApCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPHAKICAgICAgICAgIHYtaWY9ImFsbG93UHJpdmF0ZUFkZHJlc3NlcyIKICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYW1iZXItNTAwLzMwIGJnLWFtYmVyLTUwMC81IHB4LTMgcHktMiB0ZXh0LVsxMXB4XSBsZWFkaW5nLTUgdGV4dC1hbWJlci03MDAgZGFyazp0ZXh0LWFtYmVyLTMwMCIKICAgICAgICA+CiAgICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLmFsbG93UHJpdmF0ZUFkZHJlc3Nlc1dhcm5pbmciKSB9fQogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8ZGl2CiAgICAgIGNsYXNzPSJncmlkIGl0ZW1zLXN0YXJ0IGdhcC0yIHAtNCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy1tdXRlZC8xMCBzbTpncmlkLWNvbHMtWzE4MHB4XzFmcl0gc206cC01IG1kOmdyaWQtY29scy1bMjIwcHhfMWZyXSIKICAgID4KICAgICAgPGRpdiBjbGFzcz0ibXQtMS41IHNwYWNlLXktMSI+CiAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLmludGVyZmFjZUFkZHJlc3NIZWxwVGl0bGUiKSB9fQogICAgICAgIDwvZGl2PgogICAgICAgIDxwIGNsYXNzPSJoaWRkZW4gcHItNCB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTpibG9jayI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLmludGVyZmFjZUFkZHJlc3NIZWxwIikgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2CiAgICAgICAgY2xhc3M9InctZnVsbCBtYXgtdy1tZCBzcGFjZS15LTIgdGV4dC1bMTFweF0gbGVhZGluZy01IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgPgogICAgICAgIDxwPnt7IHQoImFkbWluLmRkbnMuYWRkcmVzc09yZGVySGVscCIpIH19PC9wPgogICAgICAgIDxwPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgKICAgICAgICAgICAgICBhbGxvd1ByaXZhdGVBZGRyZXNzZXMKICAgICAgICAgICAgICAgID8gImFkbWluLmRkbnMucHJpdmF0ZUFkZHJlc3NIZWxwIgogICAgICAgICAgICAgICAgOiAiYWRtaW4uZGRucy5maWx0ZXJlZEFkZHJlc3NIZWxwIiwKICAgICAgICAgICAgKQogICAgICAgICAgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC90ZW1wbGF0ZT4KCiAgPGRpdgogICAgdi1pZj0ibW9kZWwudXBkYXRlU2NvcGUgIT09ICdpcHY2X29ubHknICYmIG1vZGVsLnNob3VsZFNob3dJbnRlcmZhY2VCbG9jayIKICAgIGNsYXNzPSJncmlkIGl0ZW1zLXN0YXJ0IGdhcC0yIHAtNCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy1tdXRlZC8xMCBzbTpncmlkLWNvbHMtWzE4MHB4XzFmcl0gc206cC01IG1kOmdyaWQtY29scy1bMjIwcHhfMWZyXSIKICA+CiAgICA8ZGl2IGNsYXNzPSJtdC0xLjUgc3BhY2UteS0xIj4KICAgICAgPExhYmVsIGZvcj0iZGRucy10YXJnZXQtaXB2NCIgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgIHt7IHQoImFkbWluLmRkbnMuc2VsZWN0SXB2NExhYmVsIikgfX0KICAgICAgPC9MYWJlbD4KICAgICAgPHAgY2xhc3M9ImhpZGRlbiBwci00IHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHNtOmJsb2NrIj4KICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLnNlbGVjdElwdjRIaW50IikgfX0KICAgICAgPC9wPgogICAgPC9kaXY+CiAgICA8REROU0ludGVyZmFjZVNlbGVjdG9yRWRpdG9yCiAgICAgIDphbGxvdy1wcml2YXRlLWFkZHJlc3Nlcz0iYWxsb3dQcml2YXRlQWRkcmVzc2VzIgogICAgICA6Y3VycmVudC1hZGRyZXNzPSIKICAgICAgICBtb2RlbC5zdGF0ZS5zZWxlY3Rpb25BbmNob3I/LmlwdjQgfHwgbW9kZWwuc3RhdGUubGFzdElQPy5pcHY0CiAgICAgICIKICAgICAgZmFtaWx5PSJpcHY0IgogICAgICBpZC1wcmVmaXg9ImRkbnMtdGFyZ2V0LWlwdjQiCiAgICAgIDpsZWdhY3ktaW5kZXg9Im1vZGVsLnN0YXRlLmNvbmZpZ1tJTlRFUkZBQ0VfSVBWNF9JTkRFWF9LRVldIgogICAgICA6bW9kZWwtdmFsdWU9Im1vZGVsLnN0YXRlLmNvbmZpZ1tJTlRFUkZBQ0VfSVBWNF9TRUxFQ1RPUl9LRVldIgogICAgICA6bmV0d29yay1pbnRlcmZhY2U9InNlbGVjdGVkTmV0d29ya0ludGVyZmFjZSIKICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0idXBkYXRlU2VsZWN0b3IoJ2lwdjQnLCAkZXZlbnQpIgogICAgLz4KICA8L2Rpdj4KCiAgPGRpdgogICAgdi1pZj0ibW9kZWwudXBkYXRlU2NvcGUgIT09ICdpcHY0X29ubHknICYmIG1vZGVsLnNob3VsZFNob3dJbnRlcmZhY2VCbG9jayIKICAgIGNsYXNzPSJncmlkIGl0ZW1zLXN0YXJ0IGdhcC0yIHAtNCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy1tdXRlZC8xMCBzbTpncmlkLWNvbHMtWzE4MHB4XzFmcl0gc206cC01IG1kOmdyaWQtY29scy1bMjIwcHhfMWZyXSIKICA+CiAgICA8ZGl2IGNsYXNzPSJtdC0xLjUgc3BhY2UteS0xIj4KICAgICAgPExhYmVsIGZvcj0iZGRucy10YXJnZXQtaXB2NiIgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgIHt7IHQoImFkbWluLmRkbnMuc2VsZWN0SXB2NkxhYmVsIikgfX0KICAgICAgPC9MYWJlbD4KICAgICAgPHAgY2xhc3M9ImhpZGRlbiBwci00IHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHNtOmJsb2NrIj4KICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLnNlbGVjdElwdjZIaW50IikgfX0KICAgICAgPC9wPgogICAgPC9kaXY+CiAgICA8REROU0ludGVyZmFjZVNlbGVjdG9yRWRpdG9yCiAgICAgIDphbGxvdy1wcml2YXRlLWFkZHJlc3Nlcz0iYWxsb3dQcml2YXRlQWRkcmVzc2VzIgogICAgICA6Y3VycmVudC1hZGRyZXNzPSIKICAgICAgICBtb2RlbC5zdGF0ZS5zZWxlY3Rpb25BbmNob3I/LmlwdjYgfHwgbW9kZWwuc3RhdGUubGFzdElQPy5pcHY2CiAgICAgICIKICAgICAgZmFtaWx5PSJpcHY2IgogICAgICBpZC1wcmVmaXg9ImRkbnMtdGFyZ2V0LWlwdjYiCiAgICAgIDpsZWdhY3ktaW5kZXg9Im1vZGVsLnN0YXRlLmNvbmZpZ1tJTlRFUkZBQ0VfSVBWNl9JTkRFWF9LRVldIgogICAgICA6bW9kZWwtdmFsdWU9Im1vZGVsLnN0YXRlLmNvbmZpZ1tJTlRFUkZBQ0VfSVBWNl9TRUxFQ1RPUl9LRVldIgogICAgICA6bmV0d29yay1pbnRlcmZhY2U9InNlbGVjdGVkTmV0d29ya0ludGVyZmFjZSIKICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0idXBkYXRlU2VsZWN0b3IoJ2lwdjYnLCAkZXZlbnQpIgogICAgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import type { DDNSTargetAddressFieldsProps } from "./ddns-target-dialog-contract";
+import DDNSInterfaceSelectorEditor from "./DDNSInterfaceSelectorEditor.vue";
+import {
+  ALLOW_PRIVATE_ADDRESSES_KEY,
+  INTERFACE_IPV4_INDEX_KEY,
+  INTERFACE_IPV4_SELECTOR_KEY,
+  INTERFACE_IPV6_INDEX_KEY,
+  INTERFACE_IPV6_SELECTOR_KEY,
+  NETWORK_INTERFACE_KEY,
+} from "./model";
+
+const props = defineProps<{ model: DDNSTargetAddressFieldsProps }>();
+const { t } = useI18n();
+const allowPrivateAddresses = computed(
+  () => props.model.state.config[ALLOW_PRIVATE_ADDRESSES_KEY] === "true",
+);
+const selectedNetworkInterface = computed(
+  () =>
+    props.model.resolvedNetworkInterfaces.find(
+      (item) => item.name === props.model.state.config[NETWORK_INTERFACE_KEY],
+    ) || null,
+);
+const updateSelector = (family: "ipv4" | "ipv6", value: string) => {
+  const selectorKey =
+    family === "ipv4"
+      ? INTERFACE_IPV4_SELECTOR_KEY
+      : INTERFACE_IPV6_SELECTOR_KEY;
+  const indexKey =
+    family === "ipv4" ? INTERFACE_IPV4_INDEX_KEY : INTERFACE_IPV6_INDEX_KEY;
+  props.model.state.config[selectorKey] = value;
+  props.model.state.config[indexKey] = "";
+};
+</script>
+
+<template>
+  <template v-if="model.shouldShowInterfaceBlock">
+    <div
+      class="grid items-start gap-2 p-4 transition-colors hover:bg-muted/10 sm:grid-cols-[180px_1fr] sm:p-5 md:grid-cols-[220px_1fr]"
+    >
+      <div class="mt-1.5 space-y-1">
+        <Label
+          for="ddns-target-allow-private-addresses"
+          class="text-sm font-medium"
+        >
+          {{ t("admin.ddns.allowPrivateAddresses") }}
+        </Label>
+        <p class="hidden pr-4 text-xs text-muted-foreground sm:block">
+          {{ t("admin.ddns.allowPrivateAddressesHint") }}
+        </p>
+      </div>
+      <div class="w-full max-w-md space-y-2">
+        <div class="flex min-h-10 items-center gap-3">
+          <Switch
+            id="ddns-target-allow-private-addresses"
+            :model-value="allowPrivateAddresses"
+            @update:model-value="
+              model.state.config[ALLOW_PRIVATE_ADDRESSES_KEY] = $event
+                ? 'true'
+                : 'false'
+            "
+          />
+          <span class="text-sm text-muted-foreground">
+            {{
+              t(
+                allowPrivateAddresses
+                  ? "admin.ddns.allowedLabel"
+                  : "admin.ddns.filteredLabel",
+              )
+            }}
+          </span>
+        </div>
+        <p
+          v-if="allowPrivateAddresses"
+          class="rounded-md border border-amber-500/30 bg-amber-500/5 px-3 py-2 text-[11px] leading-5 text-amber-700 dark:text-amber-300"
+        >
+          {{ t("admin.ddns.allowPrivateAddressesWarning") }}
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="grid items-start gap-2 p-4 transition-colors hover:bg-muted/10 sm:grid-cols-[180px_1fr] sm:p-5 md:grid-cols-[220px_1fr]"
+    >
+      <div class="mt-1.5 space-y-1">
+        <div class="text-sm font-medium">
+          {{ t("admin.ddns.interfaceAddressHelpTitle") }}
+        </div>
+        <p class="hidden pr-4 text-xs text-muted-foreground sm:block">
+          {{ t("admin.ddns.interfaceAddressHelp") }}
+        </p>
+      </div>
+      <div
+        class="w-full max-w-md space-y-2 text-[11px] leading-5 text-muted-foreground"
+      >
+        <p>{{ t("admin.ddns.addressOrderHelp") }}</p>
+        <p>
+          {{
+            t(
+              allowPrivateAddresses
+                ? "admin.ddns.privateAddressHelp"
+                : "admin.ddns.filteredAddressHelp",
+            )
+          }}
+        </p>
+      </div>
+    </div>
+  </template>
+
+  <div
+    v-if="model.updateScope !== 'ipv6_only' && model.shouldShowInterfaceBlock"
+    class="grid items-start gap-2 p-4 transition-colors hover:bg-muted/10 sm:grid-cols-[180px_1fr] sm:p-5 md:grid-cols-[220px_1fr]"
+  >
+    <div class="mt-1.5 space-y-1">
+      <Label for="ddns-target-ipv4" class="text-sm font-medium">
+        {{ t("admin.ddns.selectIpv4Label") }}
+      </Label>
+      <p class="hidden pr-4 text-xs text-muted-foreground sm:block">
+        {{ t("admin.ddns.selectIpv4Hint") }}
+      </p>
+    </div>
+    <DDNSInterfaceSelectorEditor
+      :allow-private-addresses="allowPrivateAddresses"
+      :current-address="
+        model.state.selectionAnchor?.ipv4 || model.state.lastIP?.ipv4
+      "
+      family="ipv4"
+      id-prefix="ddns-target-ipv4"
+      :legacy-index="model.state.config[INTERFACE_IPV4_INDEX_KEY]"
+      :model-value="model.state.config[INTERFACE_IPV4_SELECTOR_KEY]"
+      :network-interface="selectedNetworkInterface"
+      @update:model-value="updateSelector('ipv4', $event)"
+    />
+  </div>
+
+  <div
+    v-if="model.updateScope !== 'ipv4_only' && model.shouldShowInterfaceBlock"
+    class="grid items-start gap-2 p-4 transition-colors hover:bg-muted/10 sm:grid-cols-[180px_1fr] sm:p-5 md:grid-cols-[220px_1fr]"
+  >
+    <div class="mt-1.5 space-y-1">
+      <Label for="ddns-target-ipv6" class="text-sm font-medium">
+        {{ t("admin.ddns.selectIpv6Label") }}
+      </Label>
+      <p class="hidden pr-4 text-xs text-muted-foreground sm:block">
+        {{ t("admin.ddns.selectIpv6Hint") }}
+      </p>
+    </div>
+    <DDNSInterfaceSelectorEditor
+      :allow-private-addresses="allowPrivateAddresses"
+      :current-address="
+        model.state.selectionAnchor?.ipv6 || model.state.lastIP?.ipv6
+      "
+      family="ipv6"
+      id-prefix="ddns-target-ipv6"
+      :legacy-index="model.state.config[INTERFACE_IPV6_INDEX_KEY]"
+      :model-value="model.state.config[INTERFACE_IPV6_SELECTOR_KEY]"
+      :network-interface="selectedNetworkInterface"
+      @update:model-value="updateSelector('ipv6', $event)"
+    />
+  </div>
+</template>

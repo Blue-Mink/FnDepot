@@ -1,1 +1,86 @@
-aW1wb3J0IHR5cGUgeyBDYXB0Y2hhUHVibGljU2V0dGluZ3MgfSBmcm9tICIuLi9jYXB0Y2hhL3R5cGVzIjsKaW1wb3J0IHR5cGUgeyBMb2NhbGVDb25maWcgfSBmcm9tICJAZm4ta25vY2svaTE4bi9jb3JlIjsKaW1wb3J0IHR5cGUgeyBBcHBlYXJhbmNlQ29uZmlnIH0gZnJvbSAiLi4vYXBwZWFyYW5jZSI7CgpleHBvcnQgdHlwZSBBdXRoQ2xpZW50SW5mbyA9IHsKICBpcDogc3RyaW5nOwp9OwoKZXhwb3J0IHR5cGUgQXV0aENsaWVudExvY2F0aW9uU3RhdHVzID0KICAiaWRsZSIgfCAicXVldWVkIiB8ICJwcm9jZXNzaW5nIiB8ICJzdWNjZXNzIiB8ICJmYWlsZWQiIHwgInNraXBwZWQiOwoKZXhwb3J0IHR5cGUgQXV0aENsaWVudExvY2F0aW9uRGF0YSA9IHsKICBpcDogc3RyaW5nOwogIGxvY2F0aW9uOiBzdHJpbmc7CiAgc3RhdHVzOiBBdXRoQ2xpZW50TG9jYXRpb25TdGF0dXM7CiAgYXR0ZW1wdHM6IG51bWJlcjsKICBtYXhBdHRlbXB0czogbnVtYmVyOwogIGVycm9yPzogc3RyaW5nOwp9OwoKZXhwb3J0IHR5cGUgQXV0aEdyYW50VHlwZSA9CiAgfCAibG9jYWxfZXhlbXB0IgogIHwgIm1hbnVhbF93aGl0ZWxpc3QiCiAgfCAibG9naW5faXBfZ3JhbnQiCiAgfCAiYnJvd3Nlcl9zZXNzaW9uIgogIHwgInNlc3Npb25fbWlncmF0aW9uIgogIHwgImZub3NfZmluZ2VycHJpbnRfc2Vzc2lvbiIKICB8ICJmbm9zX3NoYXJlIjsKCmV4cG9ydCB0eXBlIEF1dGhBY2Nlc3NTdGF0ZSA9IHsKICBhdXRoZW50aWNhdGVkOiBib29sZWFuOwogIG1lc3NhZ2U6IHN0cmluZzsKICBncmFudF90eXBlPzogQXV0aEdyYW50VHlwZTsKICBsb2dpbl9tb2RlPzogInRvdHAiIHwgInBhc3N3b3JkIjsKfTsKCmV4cG9ydCB0eXBlIEF1dGhQYXNza2V5U3RhdGUgPSB7CiAgYXZhaWxhYmxlOiBib29sZWFuOwogIG1vZGU/OiAiYXV0aF9ob3N0IiB8ICJwYXJlbnRfZG9tYWluIjsKICBycF9pZD86IHN0cmluZzsKfTsKCmV4cG9ydCB0eXBlIEF1dGhPaWRjUHJvdmlkZXIgPSB7CiAgaWQ6IHN0cmluZzsKICB0eXBlOiBzdHJpbmc7CiAgbmFtZTogc3RyaW5nOwogIHByb3RvY29sPzogc3RyaW5nOwp9OwoKZXhwb3J0IHR5cGUgQXV0aE9pZGNTdGF0ZSA9IHsKICBwcm92aWRlcnM6IEF1dGhPaWRjUHJvdmlkZXJbXTsKICBsb2dpbl9lcnJvcj86IHN0cmluZzsKfTsKCmV4cG9ydCB0eXBlIEF1dGhMZGFwUHJvdmlkZXIgPSB7CiAgaWQ6IHN0cmluZzsKICB0eXBlOiAib3BlbmxkYXAiIHwgImFjdGl2ZV9kaXJlY3RvcnkiIHwgImN1c3RvbSI7CiAgbmFtZTogc3RyaW5nOwogIHByb3RvY29sOiAibGRhcCI7Cn07CgpleHBvcnQgdHlwZSBBdXRoTGRhcFN0YXRlID0gewogIHByb3ZpZGVyczogQXV0aExkYXBQcm92aWRlcltdOwp9OwoKZXhwb3J0IHR5cGUgQXV0aEJvb3RzdHJhcERhdGEgPSB7CiAgbG9jYWxlOiBMb2NhbGVDb25maWc7CiAgYXBwZWFyYW5jZTogQXBwZWFyYW5jZUNvbmZpZzsKICBhdXRoOiBBdXRoQWNjZXNzU3RhdGU7CiAgY2xpZW50OiBBdXRoQ2xpZW50SW5mbzsKICBjYXB0Y2hhOiBDYXB0Y2hhUHVibGljU2V0dGluZ3M7CiAgcGFzc2tleTogQXV0aFBhc3NrZXlTdGF0ZTsKICBvaWRjPzogQXV0aE9pZGNTdGF0ZTsKICBsZGFwPzogQXV0aExkYXBTdGF0ZTsKICByZWRpcmVjdF90bz86IHN0cmluZzsKfTsKCmV4cG9ydCB0eXBlIEF1dGhTZXNzaW9uRGF0YSA9IHsKICBsb2NhbGU6IExvY2FsZUNvbmZpZzsKICBhcHBlYXJhbmNlOiBBcHBlYXJhbmNlQ29uZmlnOwogIGF1dGg6IEF1dGhBY2Nlc3NTdGF0ZTsKICBjbGllbnQ6IEF1dGhDbGllbnRJbmZvOwogIHBhc3NrZXk6IEF1dGhQYXNza2V5U3RhdGU7CiAgb2lkYz86IEF1dGhPaWRjU3RhdGU7CiAgbGRhcD86IEF1dGhMZGFwU3RhdGU7Cn07Cg==
+import type { CaptchaPublicSettings } from "../captcha/types";
+import type { LocaleConfig } from "@fn-knock/i18n/core";
+import type { AppearanceConfig } from "../appearance";
+
+export type AuthClientInfo = {
+  ip: string;
+};
+
+export type AuthClientLocationStatus =
+  "idle" | "queued" | "processing" | "success" | "failed" | "skipped";
+
+export type AuthClientLocationData = {
+  ip: string;
+  location: string;
+  status: AuthClientLocationStatus;
+  attempts: number;
+  maxAttempts: number;
+  error?: string;
+};
+
+export type AuthGrantType =
+  | "local_exempt"
+  | "manual_whitelist"
+  | "login_ip_grant"
+  | "browser_session"
+  | "session_migration"
+  | "fnos_fingerprint_session"
+  | "fnos_share";
+
+export type AuthAccessState = {
+  authenticated: boolean;
+  message: string;
+  grant_type?: AuthGrantType;
+  login_mode?: "totp" | "password";
+};
+
+export type AuthPasskeyState = {
+  available: boolean;
+  mode?: "auth_host" | "parent_domain";
+  rp_id?: string;
+};
+
+export type AuthOidcProvider = {
+  id: string;
+  type: string;
+  name: string;
+  protocol?: string;
+};
+
+export type AuthOidcState = {
+  providers: AuthOidcProvider[];
+  login_error?: string;
+};
+
+export type AuthLdapProvider = {
+  id: string;
+  type: "openldap" | "active_directory" | "custom";
+  name: string;
+  protocol: "ldap";
+};
+
+export type AuthLdapState = {
+  providers: AuthLdapProvider[];
+};
+
+export type AuthBootstrapData = {
+  locale: LocaleConfig;
+  appearance: AppearanceConfig;
+  auth: AuthAccessState;
+  client: AuthClientInfo;
+  captcha: CaptchaPublicSettings;
+  passkey: AuthPasskeyState;
+  oidc?: AuthOidcState;
+  ldap?: AuthLdapState;
+  redirect_to?: string;
+};
+
+export type AuthSessionData = {
+  locale: LocaleConfig;
+  appearance: AppearanceConfig;
+  auth: AuthAccessState;
+  client: AuthClientInfo;
+  passkey: AuthPasskeyState;
+  oidc?: AuthOidcState;
+  ldap?: AuthLdapState;
+};

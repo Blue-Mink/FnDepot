@@ -1,1 +1,103 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGR5bnY2X2NhdGFsb2dfZW50cnkoKSAtPiBWYWx1ZSB7CiAgICBwcm92aWRlcigKICAgICAgICAiZHludjYiLAogICAgICAgICJkeW52NiIsCiAgICAgICAgdmVjIVsKICAgICAgICAgICAgZmllbGQoInRva2VuIiwgIkhUVFAgVG9rZW4iLCAicGFzc3dvcmQiLCAiZHludjYgSFRUUCBUb2tlbiIsIHRydWUpLAogICAgICAgICAgICBmaWVsZCgiem9uZSIsICJab25lIiwgInRleHQiLCAibXlob3N0LmR5bnY2Lm5ldCIsIHRydWUpLAogICAgICAgICAgICBmaWVsZCgKICAgICAgICAgICAgICAgICJpcHY2cHJlZml4IiwKICAgICAgICAgICAgICAgICJJUHY2IFByZWZpeCIsCiAgICAgICAgICAgICAgICAidGV4dCIsCiAgICAgICAgICAgICAgICAiMjAwMTpkYjg6MTIzNDo6LzY0IiwKICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICApLAogICAgICAgIF0sCiAgICApCn0KCnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBhc3luYyBmbiB1cGRhdGVfZHludjYoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIGNvbmZpZzogJkhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgaHR0cF9vcHRpb25zOiAmREROU0h0dHBDbGllbnRPcHRpb25zLAogICAgaXB2NDogT3B0aW9uPCZzdHI+LAogICAgaXB2NjogT3B0aW9uPCZzdHI+LAopIC0+IGFueWhvdzo6UmVzdWx0PERETlNQcm92aWRlclVwZGF0ZVJlc3VsdD4gewogICAgbGV0IHRva2VuID0gY29uZmlnX3ZhbHVlKGNvbmZpZywgInRva2VuIik7CiAgICBsZXQgem9uZSA9IGNvbmZpZ192YWx1ZShjb25maWcsICJ6b25lIik7CiAgICBpZiB0b2tlbi5pc19lbXB0eSgpIHx8IHpvbmUuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE9rKHByb3ZpZGVyX2ZhaWx1cmUoZGRuc190ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAicHJvdmlkZXJzLmR5bnY2LmNvbmZpZ0luY29tcGxldGUiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSkpOwogICAgfQogICAgaWYgaXB2NC5pc19ub25lKCkgJiYgaXB2Ni5pc19ub25lKCkgJiYgY29uZmlnX3ZhbHVlKGNvbmZpZywgImlwdjZwcmVmaXgiKS5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gT2socHJvdmlkZXJfZmFpbHVyZShkZG5zX3RleHQoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJkdWFsU3RhY2tVbmF2YWlsYWJsZSIsCiAgICAgICAgICAgICZbXSwKICAgICAgICApKSk7CiAgICB9CiAgICBsZXQgbXV0IHF1ZXJ5ID0gdmVjIVsoImhvc3RuYW1lIiwgem9uZSksICgidG9rZW4iLCB0b2tlbildOwogICAgaWYgbGV0IFNvbWUoaXB2NCkgPSBpcHY0IHsKICAgICAgICBxdWVyeS5wdXNoKCgiaXB2NCIsIGlwdjQudG9fc3RyaW5nKCkpKTsKICAgIH0KICAgIGlmIGxldCBTb21lKGlwdjYpID0gaXB2NiB7CiAgICAgICAgcXVlcnkucHVzaCgoImlwdjYiLCBpcHY2LnRvX3N0cmluZygpKSk7CiAgICB9CiAgICBsZXQgaXB2NnByZWZpeCA9IGNvbmZpZ192YWx1ZShjb25maWcsICJpcHY2cHJlZml4Iik7CiAgICBpZiAhaXB2NnByZWZpeC5pc19lbXB0eSgpIHsKICAgICAgICBxdWVyeS5wdXNoKCgiaXB2NnByZWZpeCIsIGlwdjZwcmVmaXgpKTsKICAgIH0KICAgIGxldCBjbGllbnQgPSBkZG5zX2h0dHBfY2xpZW50KHRyYW5zbGF0b3IsIGh0dHBfb3B0aW9ucykKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IHByb3ZpZGVyX3JlcXVlc3RfZXJyb3IodHJhbnNsYXRvciwgImR5bnY2IiwgZXJyb3IpKT87CiAgICBsZXQgcmVzcG9uc2UgPSBjbGllbnQKICAgICAgICAuZ2V0KGJ1aWxkX3F1ZXJ5X3VybCgiaHR0cHM6Ly9keW52Ni5jb20vYXBpL3VwZGF0ZSIsICZxdWVyeSkpCiAgICAgICAgLnNlbmQoKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgcHJvdmlkZXJfcmVxdWVzdF9lcnJvcih0cmFuc2xhdG9yLCAiZHludjYiLCBlcnJvcikpPzsKICAgIGxldCBzdGF0dXMgPSByZXNwb25zZS5zdGF0dXMoKTsKICAgIGxldCB0ZXh0ID0gcmVzcG9uc2VfdGV4dChyZXNwb25zZSkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IHByb3ZpZGVyX3JlcXVlc3RfZXJyb3IodHJhbnNsYXRvciwgImR5bnY2IiwgZXJyb3IpKT87CiAgICBpZiBzdGF0dXMuaXNfc3VjY2VzcygpICYmICh0ZXh0LmNvbnRhaW5zKCJ1cGRhdGVkIikgfHwgdGV4dC5jb250YWlucygidW5jaGFuZ2VkIikpIHsKICAgICAgICBPayhERE5TUHJvdmlkZXJVcGRhdGVSZXN1bHQgewogICAgICAgICAgICBzdWNjZXNzOiB0cnVlLAogICAgICAgICAgICBtZXNzYWdlOiBkZG5zX3RleHQoCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgInByb3ZpZGVycy5keW52Ni5zdWNjZXNzIiwKICAgICAgICAgICAgICAgICZbCiAgICAgICAgICAgICAgICAgICAgKCJkZXRhaWwiLCB0ZXh0KSwKICAgICAgICAgICAgICAgICAgICAoInBhcmFtcyIsIGR5bnY2X3NlbnRfcGFyYW1zKHRyYW5zbGF0b3IsIGlwdjQsIGlwdjYsIGNvbmZpZykpLAogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgKSwKICAgICAgICB9KQogICAgfSBlbHNlIHsKICAgICAgICBPayhwcm92aWRlcl9mYWlsdXJlKGRkbnNfdGV4dCgKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgInByb3ZpZGVycy5keW52Ni51cGRhdGVGYWlsZWQiLAogICAgICAgICAgICAmWygic3RhdHVzIiwgc3RhdHVzLmFzX3UxNigpLnRvX3N0cmluZygpKSwgKCJkZXRhaWwiLCB0ZXh0KV0sCiAgICAgICAgKSkpCiAgICB9Cn0KCnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBmbiBkeW52Nl9zZW50X3BhcmFtcygKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgaXB2NDogT3B0aW9uPCZzdHI+LAogICAgaXB2NjogT3B0aW9uPCZzdHI+LAogICAgY29uZmlnOiAmSGFzaE1hcDxTdHJpbmcsIFN0cmluZz4sCikgLT4gU3RyaW5nIHsKICAgIGxldCBlbXB0eSA9IGRkbnNfdGV4dCh0cmFuc2xhdG9yLCAicHJvdmlkZXJzLmR5bnY2LmVtcHR5IiwgJltdKTsKICAgIGxldCBtdXQgcGFydHMgPSB2ZWMhWwogICAgICAgIGZvcm1hdCEoImlwdjQ9e30iLCBpcHY0LnVud3JhcF9vcihlbXB0eS5hc19zdHIoKSkpLAogICAgICAgIGZvcm1hdCEoImlwdjY9e30iLCBpcHY2LnVud3JhcF9vcihlbXB0eS5hc19zdHIoKSkpLAogICAgXTsKICAgIGxldCBpcHY2cHJlZml4ID0gY29uZmlnX3ZhbHVlKGNvbmZpZywgImlwdjZwcmVmaXgiKTsKICAgIGlmICFpcHY2cHJlZml4LmlzX2VtcHR5KCkgewogICAgICAgIHBhcnRzLnB1c2goZm9ybWF0ISgiaXB2NnByZWZpeD17aXB2NnByZWZpeH0iKSk7CiAgICB9CiAgICBwYXJ0cy5qb2luKCIsICIpCn0K
+use super::*;
+
+pub(in crate::ddns::routes) fn dynv6_catalog_entry() -> Value {
+    provider(
+        "dynv6",
+        "dynv6",
+        vec![
+            field("token", "HTTP Token", "password", "dynv6 HTTP Token", true),
+            field("zone", "Zone", "text", "myhost.dynv6.net", true),
+            field(
+                "ipv6prefix",
+                "IPv6 Prefix",
+                "text",
+                "2001:db8:1234::/64",
+                false,
+            ),
+        ],
+    )
+}
+
+pub(in crate::ddns::routes) async fn update_dynv6(
+    translator: &Translator,
+    config: &HashMap<String, String>,
+    http_options: &DDNSHttpClientOptions,
+    ipv4: Option<&str>,
+    ipv6: Option<&str>,
+) -> anyhow::Result<DDNSProviderUpdateResult> {
+    let token = config_value(config, "token");
+    let zone = config_value(config, "zone");
+    if token.is_empty() || zone.is_empty() {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.dynv6.configIncomplete",
+            &[],
+        )));
+    }
+    if ipv4.is_none() && ipv6.is_none() && config_value(config, "ipv6prefix").is_empty() {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "dualStackUnavailable",
+            &[],
+        )));
+    }
+    let mut query = vec![("hostname", zone), ("token", token)];
+    if let Some(ipv4) = ipv4 {
+        query.push(("ipv4", ipv4.to_string()));
+    }
+    if let Some(ipv6) = ipv6 {
+        query.push(("ipv6", ipv6.to_string()));
+    }
+    let ipv6prefix = config_value(config, "ipv6prefix");
+    if !ipv6prefix.is_empty() {
+        query.push(("ipv6prefix", ipv6prefix));
+    }
+    let client = ddns_http_client(translator, http_options)
+        .map_err(|error| provider_request_error(translator, "dynv6", error))?;
+    let response = client
+        .get(build_query_url("https://dynv6.com/api/update", &query))
+        .send()
+        .await
+        .map_err(|error| provider_request_error(translator, "dynv6", error))?;
+    let status = response.status();
+    let text = response_text(response)
+        .await
+        .map_err(|error| provider_request_error(translator, "dynv6", error))?;
+    if status.is_success() && (text.contains("updated") || text.contains("unchanged")) {
+        Ok(DDNSProviderUpdateResult {
+            success: true,
+            message: ddns_text(
+                translator,
+                "providers.dynv6.success",
+                &[
+                    ("detail", text),
+                    ("params", dynv6_sent_params(translator, ipv4, ipv6, config)),
+                ],
+            ),
+        })
+    } else {
+        Ok(provider_failure(ddns_text(
+            translator,
+            "providers.dynv6.updateFailed",
+            &[("status", status.as_u16().to_string()), ("detail", text)],
+        )))
+    }
+}
+
+pub(in crate::ddns::routes) fn dynv6_sent_params(
+    translator: &Translator,
+    ipv4: Option<&str>,
+    ipv6: Option<&str>,
+    config: &HashMap<String, String>,
+) -> String {
+    let empty = ddns_text(translator, "providers.dynv6.empty", &[]);
+    let mut parts = vec![
+        format!("ipv4={}", ipv4.unwrap_or(empty.as_str())),
+        format!("ipv6={}", ipv6.unwrap_or(empty.as_str())),
+    ];
+    let ipv6prefix = config_value(config, "ipv6prefix");
+    if !ipv6prefix.is_empty() {
+        parts.push(format!("ipv6prefix={ipv6prefix}"));
+    }
+    parts.join(", ")
+}

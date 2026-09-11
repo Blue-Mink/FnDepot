@@ -1,1 +1,31 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUHJpbWl0aXZlUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgdHlwZSB7IEJ1dHRvblZhcmlhbnRzIH0gZnJvbSAiLiIKaW1wb3J0IHsgUHJpbWl0aXZlIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKaW1wb3J0IHsgYnV0dG9uVmFyaWFudHMgfSBmcm9tICIuIgoKaW50ZXJmYWNlIFByb3BzIGV4dGVuZHMgUHJpbWl0aXZlUHJvcHMgewogIHZhcmlhbnQ/OiBCdXR0b25WYXJpYW50c1sidmFyaWFudCJdCiAgc2l6ZT86IEJ1dHRvblZhcmlhbnRzWyJzaXplIl0KICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0KCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKGRlZmluZVByb3BzPFByb3BzPigpLCB7CiAgYXM6ICJidXR0b24iLAp9KQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UHJpbWl0aXZlCiAgICBkYXRhLXNsb3Q9ImJ1dHRvbiIKICAgIDpkYXRhLXZhcmlhbnQ9InZhcmlhbnQiCiAgICA6ZGF0YS1zaXplPSJzaXplIgogICAgOmFzPSJhcyIKICAgIDphcy1jaGlsZD0iYXNDaGlsZCIKICAgIDpjbGFzcz0iY24oYnV0dG9uVmFyaWFudHMoeyB2YXJpYW50LCBzaXplIH0pLCBwcm9wcy5jbGFzcykiCiAgPgogICAgPHNsb3QgLz4KICA8L1ByaW1pdGl2ZT4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { PrimitiveProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import type { ButtonVariants } from "."
+import { Primitive } from "reka-ui"
+import { cn } from "@/lib/utils"
+import { buttonVariants } from "."
+
+interface Props extends PrimitiveProps {
+  variant?: ButtonVariants["variant"]
+  size?: ButtonVariants["size"]
+  class?: HTMLAttributes["class"]
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  as: "button",
+})
+</script>
+
+<template>
+  <Primitive
+    data-slot="button"
+    :data-variant="variant"
+    :data-size="size"
+    :as="as"
+    :as-child="asChild"
+    :class="cn(buttonVariants({ variant, size }), props.class)"
+  >
+    <slot />
+  </Primitive>
+</template>

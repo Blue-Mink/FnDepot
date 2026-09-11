@@ -1,1 +1,185 @@
-dXNlIHN1cGVyOjoqOwoKaW1wbCBTdG9yZSB7CiAgICAvLy8gQXRvbWljYWxseSBjb25zdW1lcyBhbiBMREFQIGludml0YXRpb24gYW5kIHJlc2VydmVzL3BlcnNpc3RzIGl0cwogICAgLy8vIHByb3ZpZGVyLXNjb3BlZCBkaXJlY3RvcnkgaWRlbnRpdHkuIFJldHVybnMgZmFsc2Ugd2hlbiB0aGUgaW52aXRhdGlvbgogICAgLy8vIGlzIGdvbmUgb3IgdGhlIGlkZW50aXR5IGhhcyBhbHJlYWR5IGJlZW4gY2xhaW1lZC4KICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gY2xhaW1fbGRhcF9iaW5kaW5nX2FuZF9jb25zdW1lX2ludml0ZSgKICAgICAgICAmc2VsZiwKICAgICAgICBjbGFpbTogTGRhcEJpbmRpbmdDbGFpbTwnXz4sCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PGJvb2w+IHsKICAgICAgICBsZXQgYmluZGluZ19yYXcgPSBzZXJkZV9qc29uOjp0b19zdHJpbmcoY2xhaW0uYmluZGluZyk/OwogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCBjbGFpbWVkOiBpNjQgPSByZWRpczo6Y21kKCJFVkFMIikKICAgICAgICAgICAgLmFyZygKICAgICAgICAgICAgICAgIHIjIgotLSBmbi1rbm9jazpldmFsOmNsYWltLWxkYXAtYmluZGluZzp2Mgpsb2NhbCBpbnZpdGVfcmF3ID0gcmVkaXMuY2FsbCgiR0VUIiwgS0VZU1sxXSkKaWYgbm90IGludml0ZV9yYXcgdGhlbgogIHJldHVybiAwCmVuZApsb2NhbCBkZWNvZGVkLCBpbnZpdGUgPSBwY2FsbChjanNvbi5kZWNvZGUsIGludml0ZV9yYXcpCmlmIG5vdCBkZWNvZGVkIG9yIHR5cGUoaW52aXRlKSB+PSAidGFibGUiIHRoZW4KICByZXR1cm4gMAplbmQKaWYgdG9zdHJpbmcoaW52aXRlWyJwcm92aWRlcl9pZCJdIG9yICIiKSB+PSBBUkdWWzRdCiAgb3IgdG9zdHJpbmcoaW52aXRlWyJ0b3RwX2lkIl0gb3IgIiIpIH49IEFSR1ZbNV0gdGhlbgogIHJldHVybiAwCmVuZAppZiByZWRpcy5jYWxsKCJFWElTVFMiLCBLRVlTWzJdKSA9PSAxIG9yIHJlZGlzLmNhbGwoIkVYSVNUUyIsIEtFWVNbM10pID09IDEgdGhlbgogIHJldHVybiAwCmVuZApyZWRpcy5jYWxsKCJTRVQiLCBLRVlTWzJdLCBBUkdWWzFdKQpyZWRpcy5jYWxsKCJTRVQiLCBLRVlTWzNdLCBBUkdWWzJdKQpyZWRpcy5jYWxsKCJaQUREIiwgS0VZU1s0XSwgQVJHVlszXSwgQVJHVlsxXSkKcmVkaXMuY2FsbCgiREVMIiwgS0VZU1sxXSkKcmV0dXJuIDEKIiMsCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmFyZyg0KQogICAgICAgICAgICAuYXJnKGNsYWltLmludml0ZV9rZXkpCiAgICAgICAgICAgIC5hcmcoY2xhaW0uc3ViamVjdF9rZXkpCiAgICAgICAgICAgIC5hcmcoY2xhaW0uYmluZGluZ19rZXkpCiAgICAgICAgICAgIC5hcmcoY2xhaW0uYmluZGluZ3NfaW5kZXhfa2V5KQogICAgICAgICAgICAuYXJnKGNsYWltLmJpbmRpbmdfaWQpCiAgICAgICAgICAgIC5hcmcoYmluZGluZ19yYXcpCiAgICAgICAgICAgIC5hcmcoY2xhaW0uc2NvcmUpCiAgICAgICAgICAgIC5hcmcoY2xhaW0ucHJvdmlkZXJfaWQpCiAgICAgICAgICAgIC5hcmcoY2xhaW0udG90cF9pZCkKICAgICAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBPayhjbGFpbWVkID09IDEpCiAgICB9CgogICAgLy8vIFVwZGF0ZXMgYmluZGluZyBtZXRhZGF0YSBvbmx5IHdoaWxlIHRoZSBwcm92aWRlci1zY29wZWQgc3ViamVjdCBzdGlsbAogICAgLy8vIHBvaW50cyBhdCB0aGUgc2FtZSBiaW5kaW5nLiBUaGlzIHByZXZlbnRzIGEgY29uY3VycmVudCBhZG1pbgogICAgLy8vIHJldm9jYXRpb24gZnJvbSBiZWluZyByZXN1cnJlY3RlZCBieSBhbiBpbi1mbGlnaHQgbG9naW4uCiAgICBwdWIoY3JhdGUpIGFzeW5jIGZuIHVwZGF0ZV9iaW5kaW5nX2lmX293bmVkKAogICAgICAgICZzZWxmLAogICAgICAgIHVwZGF0ZTogT3duZWRCaW5kaW5nVXBkYXRlPCdfPiwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgICAgIGlmIHVwZGF0ZS5iaW5kaW5nX2lkLmlzX2VtcHR5KCkKICAgICAgICAgICAgfHwgdXBkYXRlLnN1YmplY3Rfa2V5LmlzX2VtcHR5KCkKICAgICAgICAgICAgfHwgdXBkYXRlLmJpbmRpbmdfa2V5LmlzX2VtcHR5KCkKICAgICAgICAgICAgfHwgdXBkYXRlLmJpbmRpbmdzX2luZGV4X2tleS5pc19lbXB0eSgpCiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gT2soZmFsc2UpOwogICAgICAgIH0KICAgICAgICBsZXQgYmluZGluZ19yYXcgPSBzZXJkZV9qc29uOjp0b19zdHJpbmcodXBkYXRlLmJpbmRpbmcpPzsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBsZXQgdXBkYXRlZDogaTY0ID0gcmVkaXM6OmNtZCgiRVZBTCIpCiAgICAgICAgICAgIC5hcmcoCiAgICAgICAgICAgICAgICByIyIKLS0gZm4ta25vY2s6ZXZhbDp1cGRhdGUtb3duZWQtYmluZGluZzp2MQppZiByZWRpcy5jYWxsKCJHRVQiLCBLRVlTWzFdKSB+PSBBUkdWWzFdCiAgb3IgcmVkaXMuY2FsbCgiRVhJU1RTIiwgS0VZU1syXSkgPT0gMCB0aGVuCiAgcmV0dXJuIDAKZW5kCnJlZGlzLmNhbGwoIlNFVCIsIEtFWVNbMl0sIEFSR1ZbMl0pCnJlZGlzLmNhbGwoIlpBREQiLCBLRVlTWzNdLCBBUkdWWzNdLCBBUkdWWzFdKQpyZXR1cm4gMQoiIywKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXJnKDMpCiAgICAgICAgICAgIC5hcmcodXBkYXRlLnN1YmplY3Rfa2V5KQogICAgICAgICAgICAuYXJnKHVwZGF0ZS5iaW5kaW5nX2tleSkKICAgICAgICAgICAgLmFyZyh1cGRhdGUuYmluZGluZ3NfaW5kZXhfa2V5KQogICAgICAgICAgICAuYXJnKHVwZGF0ZS5iaW5kaW5nX2lkKQogICAgICAgICAgICAuYXJnKGJpbmRpbmdfcmF3KQogICAgICAgICAgICAuYXJnKHVwZGF0ZS5zY29yZSkKICAgICAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBPayh1cGRhdGVkID09IDEpCiAgICB9CgogICAgLy8vIFJlbW92ZXMgYSBiaW5kaW5nIGRvY3VtZW50LCBpdHMgc3ViamVjdCBvd25lciwgYW5kIGl0cyBsaXN0IGluZGV4IGluCiAgICAvLy8gb25lIHRyYW5zYWN0aW9uLiBBIHN0YWxlIGNhbGxlciBjYW4gbmV2ZXIgZGVsZXRlIGEgc3ViamVjdCBvd25lciB0aGF0CiAgICAvLy8gaGFzIGFscmVhZHkgbW92ZWQgdG8gYSBkaWZmZXJlbnQgYmluZGluZy4KICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gZGVsZXRlX2JpbmRpbmdfaWZfb3duZWQoCiAgICAgICAgJnNlbGYsCiAgICAgICAgZGVsZXRpb246IE93bmVkQmluZGluZ0RlbGV0ZTwnXz4sCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PGJvb2w+IHsKICAgICAgICBpZiBkZWxldGlvbi5iaW5kaW5nX2lkLmlzX2VtcHR5KCkKICAgICAgICAgICAgfHwgZGVsZXRpb24uc3ViamVjdF9rZXkuaXNfZW1wdHkoKQogICAgICAgICAgICB8fCBkZWxldGlvbi5iaW5kaW5nX2tleS5pc19lbXB0eSgpCiAgICAgICAgICAgIHx8IGRlbGV0aW9uLmJpbmRpbmdzX2luZGV4X2tleS5pc19lbXB0eSgpCiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gT2soZmFsc2UpOwogICAgICAgIH0KICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBsZXQgZGVsZXRlZDogaTY0ID0gcmVkaXM6OmNtZCgiRVZBTCIpCiAgICAgICAgICAgIC5hcmcoCiAgICAgICAgICAgICAgICByIyIKLS0gZm4ta25vY2s6ZXZhbDpkZWxldGUtb3duZWQtYmluZGluZzp2MQppZiByZWRpcy5jYWxsKCJFWElTVFMiLCBLRVlTWzJdKSA9PSAwIHRoZW4KICByZXR1cm4gMAplbmQKcmVkaXMuY2FsbCgiREVMIiwgS0VZU1syXSkKaWYgcmVkaXMuY2FsbCgiR0VUIiwgS0VZU1sxXSkgPT0gQVJHVlsxXSB0aGVuCiAgcmVkaXMuY2FsbCgiREVMIiwgS0VZU1sxXSkKZW5kCnJlZGlzLmNhbGwoIlpSRU0iLCBLRVlTWzNdLCBBUkdWWzFdKQpyZXR1cm4gMQoiIywKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXJnKDMpCiAgICAgICAgICAgIC5hcmcoZGVsZXRpb24uc3ViamVjdF9rZXkpCiAgICAgICAgICAgIC5hcmcoZGVsZXRpb24uYmluZGluZ19rZXkpCiAgICAgICAgICAgIC5hcmcoZGVsZXRpb24uYmluZGluZ3NfaW5kZXhfa2V5KQogICAgICAgICAgICAuYXJnKGRlbGV0aW9uLmJpbmRpbmdfaWQpCiAgICAgICAgICAgIC5xdWVyeV9hc3luYygmbXV0IGNvbm4pCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgT2soZGVsZXRlZCA9PSAxKQogICAgfQoKICAgIC8vLyBDb25zdW1lcyBhbiBPSURDIGludml0YXRpb24gb25seSBpbiB0aGUgc2FtZSB0cmFuc2FjdGlvbiB0aGF0IGNsYWltcwogICAgLy8vIChvciByZWZyZXNoZXMpIGl0cyBwcm92aWRlci1zY29wZWQgc3ViamVjdCBiaW5kaW5nLgogICAgcHViKGNyYXRlKSBhc3luYyBmbiBjbGFpbV9vaWRjX2JpbmRpbmdfYW5kX2NvbnN1bWVfaW52aXRlKAogICAgICAgICZzZWxmLAogICAgICAgIGNsYWltOiBPaWRjQmluZGluZ0NsYWltPCdfPiwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgICAgIGlmIGNsYWltLmJpbmRpbmdfaWQuaXNfZW1wdHkoKQogICAgICAgICAgICB8fCBjbGFpbS5wcm92aWRlcl9pZC5pc19lbXB0eSgpCiAgICAgICAgICAgIHx8IGNsYWltLnRvdHBfaWQuaXNfZW1wdHkoKQogICAgICAgICAgICB8fCBjbGFpbS5zdWJqZWN0X2tleS5pc19lbXB0eSgpCiAgICAgICAgICAgIHx8IGNsYWltLmJpbmRpbmdfa2V5LmlzX2VtcHR5KCkKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICAgICAgfQogICAgICAgIGxldCBiaW5kaW5nX3JhdyA9IHNlcmRlX2pzb246OnRvX3N0cmluZyhjbGFpbS5iaW5kaW5nKT87CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IGNsYWltZWQ6IGk2NCA9IHJlZGlzOjpjbWQoIkVWQUwiKQogICAgICAgICAgICAuYXJnKAogICAgICAgICAgICAgICAgciMiCi0tIGZuLWtub2NrOmV2YWw6Y2xhaW0tb2lkYy1iaW5kaW5nOnYxCmxvY2FsIGludml0ZV9yYXcgPSByZWRpcy5jYWxsKCJHRVQiLCBLRVlTWzFdKQppZiBub3QgaW52aXRlX3JhdyB0aGVuIHJldHVybiAwIGVuZApsb2NhbCBkZWNvZGVkLCBpbnZpdGUgPSBwY2FsbChjanNvbi5kZWNvZGUsIGludml0ZV9yYXcpCmlmIG5vdCBkZWNvZGVkIG9yIHR5cGUoaW52aXRlKSB+PSAidGFibGUiIHRoZW4gcmV0dXJuIDAgZW5kCmlmIGludml0ZVsidXNlZF9hdCJdIH49IG5pbAogIG9yIHRvc3RyaW5nKGludml0ZVsicHJvdmlkZXJfaWQiXSBvciAiIikgfj0gQVJHVls0XQogIG9yIHRvc3RyaW5nKGludml0ZVsidG90cF9pZCJdIG9yICIiKSB+PSBBUkdWWzVdIHRoZW4gcmV0dXJuIDAgZW5kCmxvY2FsIGN1cnJlbnRfYmluZGluZyA9IHJlZGlzLmNhbGwoIkdFVCIsIEtFWVNbMl0pCmlmIGN1cnJlbnRfYmluZGluZyBhbmQgY3VycmVudF9iaW5kaW5nIH49IEFSR1ZbMV0gdGhlbiByZXR1cm4gMCBlbmQKcmVkaXMuY2FsbCgiU0VUIiwgS0VZU1syXSwgQVJHVlsxXSkKcmVkaXMuY2FsbCgiU0VUIiwgS0VZU1szXSwgQVJHVlsyXSkKcmVkaXMuY2FsbCgiWkFERCIsIEtFWVNbNF0sIEFSR1ZbM10sIEFSR1ZbMV0pCnJlZGlzLmNhbGwoIkRFTCIsIEtFWVNbMV0pCnJldHVybiAxCiIjLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hcmcoNCkKICAgICAgICAgICAgLmFyZyhjbGFpbS5pbnZpdGVfa2V5KQogICAgICAgICAgICAuYXJnKGNsYWltLnN1YmplY3Rfa2V5KQogICAgICAgICAgICAuYXJnKGNsYWltLmJpbmRpbmdfa2V5KQogICAgICAgICAgICAuYXJnKGNsYWltLmJpbmRpbmdzX2luZGV4X2tleSkKICAgICAgICAgICAgLmFyZyhjbGFpbS5iaW5kaW5nX2lkKQogICAgICAgICAgICAuYXJnKGJpbmRpbmdfcmF3KQogICAgICAgICAgICAuYXJnKGNsYWltLnNjb3JlKQogICAgICAgICAgICAuYXJnKGNsYWltLnByb3ZpZGVyX2lkKQogICAgICAgICAgICAuYXJnKGNsYWltLnRvdHBfaWQpCiAgICAgICAgICAgIC5xdWVyeV9hc3luYygmbXV0IGNvbm4pCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgT2soY2xhaW1lZCA9PSAxKQogICAgfQp9Cg==
+use super::*;
+
+impl Store {
+    /// Atomically consumes an LDAP invitation and reserves/persists its
+    /// provider-scoped directory identity. Returns false when the invitation
+    /// is gone or the identity has already been claimed.
+    pub(crate) async fn claim_ldap_binding_and_consume_invite(
+        &self,
+        claim: LdapBindingClaim<'_>,
+    ) -> crate::storage::StorageResult<bool> {
+        let binding_raw = serde_json::to_string(claim.binding)?;
+        let mut conn = self.conn();
+        let claimed: i64 = redis::cmd("EVAL")
+            .arg(
+                r#"
+-- fn-knock:eval:claim-ldap-binding:v2
+local invite_raw = redis.call("GET", KEYS[1])
+if not invite_raw then
+  return 0
+end
+local decoded, invite = pcall(cjson.decode, invite_raw)
+if not decoded or type(invite) ~= "table" then
+  return 0
+end
+if tostring(invite["provider_id"] or "") ~= ARGV[4]
+  or tostring(invite["totp_id"] or "") ~= ARGV[5] then
+  return 0
+end
+if redis.call("EXISTS", KEYS[2]) == 1 or redis.call("EXISTS", KEYS[3]) == 1 then
+  return 0
+end
+redis.call("SET", KEYS[2], ARGV[1])
+redis.call("SET", KEYS[3], ARGV[2])
+redis.call("ZADD", KEYS[4], ARGV[3], ARGV[1])
+redis.call("DEL", KEYS[1])
+return 1
+"#,
+            )
+            .arg(4)
+            .arg(claim.invite_key)
+            .arg(claim.subject_key)
+            .arg(claim.binding_key)
+            .arg(claim.bindings_index_key)
+            .arg(claim.binding_id)
+            .arg(binding_raw)
+            .arg(claim.score)
+            .arg(claim.provider_id)
+            .arg(claim.totp_id)
+            .query_async(&mut conn)
+            .await?;
+        Ok(claimed == 1)
+    }
+
+    /// Updates binding metadata only while the provider-scoped subject still
+    /// points at the same binding. This prevents a concurrent admin
+    /// revocation from being resurrected by an in-flight login.
+    pub(crate) async fn update_binding_if_owned(
+        &self,
+        update: OwnedBindingUpdate<'_>,
+    ) -> crate::storage::StorageResult<bool> {
+        if update.binding_id.is_empty()
+            || update.subject_key.is_empty()
+            || update.binding_key.is_empty()
+            || update.bindings_index_key.is_empty()
+        {
+            return Ok(false);
+        }
+        let binding_raw = serde_json::to_string(update.binding)?;
+        let mut conn = self.conn();
+        let updated: i64 = redis::cmd("EVAL")
+            .arg(
+                r#"
+-- fn-knock:eval:update-owned-binding:v1
+if redis.call("GET", KEYS[1]) ~= ARGV[1]
+  or redis.call("EXISTS", KEYS[2]) == 0 then
+  return 0
+end
+redis.call("SET", KEYS[2], ARGV[2])
+redis.call("ZADD", KEYS[3], ARGV[3], ARGV[1])
+return 1
+"#,
+            )
+            .arg(3)
+            .arg(update.subject_key)
+            .arg(update.binding_key)
+            .arg(update.bindings_index_key)
+            .arg(update.binding_id)
+            .arg(binding_raw)
+            .arg(update.score)
+            .query_async(&mut conn)
+            .await?;
+        Ok(updated == 1)
+    }
+
+    /// Removes a binding document, its subject owner, and its list index in
+    /// one transaction. A stale caller can never delete a subject owner that
+    /// has already moved to a different binding.
+    pub(crate) async fn delete_binding_if_owned(
+        &self,
+        deletion: OwnedBindingDelete<'_>,
+    ) -> crate::storage::StorageResult<bool> {
+        if deletion.binding_id.is_empty()
+            || deletion.subject_key.is_empty()
+            || deletion.binding_key.is_empty()
+            || deletion.bindings_index_key.is_empty()
+        {
+            return Ok(false);
+        }
+        let mut conn = self.conn();
+        let deleted: i64 = redis::cmd("EVAL")
+            .arg(
+                r#"
+-- fn-knock:eval:delete-owned-binding:v1
+if redis.call("EXISTS", KEYS[2]) == 0 then
+  return 0
+end
+redis.call("DEL", KEYS[2])
+if redis.call("GET", KEYS[1]) == ARGV[1] then
+  redis.call("DEL", KEYS[1])
+end
+redis.call("ZREM", KEYS[3], ARGV[1])
+return 1
+"#,
+            )
+            .arg(3)
+            .arg(deletion.subject_key)
+            .arg(deletion.binding_key)
+            .arg(deletion.bindings_index_key)
+            .arg(deletion.binding_id)
+            .query_async(&mut conn)
+            .await?;
+        Ok(deleted == 1)
+    }
+
+    /// Consumes an OIDC invitation only in the same transaction that claims
+    /// (or refreshes) its provider-scoped subject binding.
+    pub(crate) async fn claim_oidc_binding_and_consume_invite(
+        &self,
+        claim: OidcBindingClaim<'_>,
+    ) -> crate::storage::StorageResult<bool> {
+        if claim.binding_id.is_empty()
+            || claim.provider_id.is_empty()
+            || claim.totp_id.is_empty()
+            || claim.subject_key.is_empty()
+            || claim.binding_key.is_empty()
+        {
+            return Ok(false);
+        }
+        let binding_raw = serde_json::to_string(claim.binding)?;
+        let mut conn = self.conn();
+        let claimed: i64 = redis::cmd("EVAL")
+            .arg(
+                r#"
+-- fn-knock:eval:claim-oidc-binding:v1
+local invite_raw = redis.call("GET", KEYS[1])
+if not invite_raw then return 0 end
+local decoded, invite = pcall(cjson.decode, invite_raw)
+if not decoded or type(invite) ~= "table" then return 0 end
+if invite["used_at"] ~= nil
+  or tostring(invite["provider_id"] or "") ~= ARGV[4]
+  or tostring(invite["totp_id"] or "") ~= ARGV[5] then return 0 end
+local current_binding = redis.call("GET", KEYS[2])
+if current_binding and current_binding ~= ARGV[1] then return 0 end
+redis.call("SET", KEYS[2], ARGV[1])
+redis.call("SET", KEYS[3], ARGV[2])
+redis.call("ZADD", KEYS[4], ARGV[3], ARGV[1])
+redis.call("DEL", KEYS[1])
+return 1
+"#,
+            )
+            .arg(4)
+            .arg(claim.invite_key)
+            .arg(claim.subject_key)
+            .arg(claim.binding_key)
+            .arg(claim.bindings_index_key)
+            .arg(claim.binding_id)
+            .arg(binding_raw)
+            .arg(claim.score)
+            .arg(claim.provider_id)
+            .arg(claim.totp_id)
+            .query_async(&mut conn)
+            .await?;
+        Ok(claimed == 1)
+    }
+}

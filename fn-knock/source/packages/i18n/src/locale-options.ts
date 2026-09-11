@@ -1,1 +1,15 @@
-ZXhwb3J0IGNvbnN0IExPQ0FMRV9ESVNQTEFZX05BTUVTID0gewogICJ6aC1DTiI6ICLkuK3mlofnroDkvZMiLAogICJ6aC1IYW50IjogIuS4reaWh+ato+mrlCIsCiAgZW46ICJFbmdsaXNoIiwKICAia28tS1IiOiAi7ZWc6rWt7Ja0IiwKICAiamEtSlAiOiAi5pel5pys6KqeIiwKfSBhcyBjb25zdDsKCmV4cG9ydCBjb25zdCBMT0NBTEVfT1BUSU9OUyA9IFsKICB7IGNvZGU6ICJ6aC1DTiIsIGxhYmVsOiBMT0NBTEVfRElTUExBWV9OQU1FU1siemgtQ04iXSB9LAogIHsgY29kZTogInpoLUhhbnQiLCBsYWJlbDogTE9DQUxFX0RJU1BMQVlfTkFNRVNbInpoLUhhbnQiXSB9LAogIHsgY29kZTogImVuIiwgbGFiZWw6IExPQ0FMRV9ESVNQTEFZX05BTUVTLmVuIH0sCiAgeyBjb2RlOiAia28tS1IiLCBsYWJlbDogTE9DQUxFX0RJU1BMQVlfTkFNRVNbImtvLUtSIl0gfSwKICB7IGNvZGU6ICJqYS1KUCIsIGxhYmVsOiBMT0NBTEVfRElTUExBWV9OQU1FU1siamEtSlAiXSB9LApdIGFzIGNvbnN0Owo=
+export const LOCALE_DISPLAY_NAMES = {
+  "zh-CN": "中文简体",
+  "zh-Hant": "中文正體",
+  en: "English",
+  "ko-KR": "한국어",
+  "ja-JP": "日本語",
+} as const;
+
+export const LOCALE_OPTIONS = [
+  { code: "zh-CN", label: LOCALE_DISPLAY_NAMES["zh-CN"] },
+  { code: "zh-Hant", label: LOCALE_DISPLAY_NAMES["zh-Hant"] },
+  { code: "en", label: LOCALE_DISPLAY_NAMES.en },
+  { code: "ko-KR", label: LOCALE_DISPLAY_NAMES["ko-KR"] },
+  { code: "ja-JP", label: LOCALE_DISPLAY_NAMES["ja-JP"] },
+] as const;

@@ -1,1 +1,554 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBta2RpciwgbWtkdGVtcCwgcmVhZEZpbGUsIHdyaXRlRmlsZSB9IGZyb20gIm5vZGU6ZnMvcHJvbWlzZXMiOwppbXBvcnQgb3MgZnJvbSAibm9kZTpvcyI7CmltcG9ydCBwYXRoIGZyb20gIm5vZGU6cGF0aCI7CmltcG9ydCB7IHNldFRpbWVvdXQgYXMgZGVsYXkgfSBmcm9tICJub2RlOnRpbWVycy9wcm9taXNlcyI7CmltcG9ydCB7IGNocm9taXVtIH0gZnJvbSAicGxheXdyaWdodCI7CmltcG9ydCB7IGZldGNoUnVudGltZSwgc3RhcnRSdW50aW1lIH0gZnJvbSAiLi9ydW50aW1lLXRlc3QtaGFybmVzcy5tanMiOwoKY29uc3QgcGFzc3dvcmQgPSAicnVudGltZTEyMyI7CmNvbnN0IGRlYnVnUGF0aCA9ICIvcnVudGltZS1oZWFsdGgvZGVidWciOwpjb25zdCBjYXB0dXJlUGF0aCA9IGAke2RlYnVnUGF0aH0vY2FwdHVyZWA7CmNvbnN0IG1lbW9yeVBhdGggPSBgJHtkZWJ1Z1BhdGh9L21lbW9yeWA7CmNvbnN0IHBvbGxpbmdRdWlldFdpbmRvd01zID0gMl81MDA7CmNvbnN0IGFydGlmYWN0RGlyID0gcHJvY2Vzcy5lbnYuRk5fS05PQ0tfUlVOVElNRV9ERUJVR19FMkVfT1VUUFVUX0RJUgogID8gcGF0aC5yZXNvbHZlKHByb2Nlc3MuZW52LkZOX0tOT0NLX1JVTlRJTUVfREVCVUdfRTJFX09VVFBVVF9ESVIpCiAgOiBhd2FpdCBta2R0ZW1wKHBhdGguam9pbihvcy50bXBkaXIoKSwgImZuLWtub2NrLWRlYnVnLWV2aWRlbmNlLSIpKTsKCmNvbnN0IGFwaVJlcXVlc3QgPSBhc3luYyAocGFnZSwgcmVxdWVzdFBhdGgsIG1ldGhvZCA9ICJHRVQiKSA9PiB7CiAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcGFnZS5ldmFsdWF0ZSgKICAgIGFzeW5jICh7IHJlcXVlc3RQYXRoLCBtZXRob2QgfSkgPT4gewogICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKGAvYXBpL2FkbWluJHtyZXF1ZXN0UGF0aH1gLCB7CiAgICAgICAgbWV0aG9kLAogICAgICAgIGNyZWRlbnRpYWxzOiAiaW5jbHVkZSIsCiAgICAgICAgc2lnbmFsOiBBYm9ydFNpZ25hbC50aW1lb3V0KDEwXzAwMCksCiAgICAgIH0pOwogICAgICByZXR1cm4geyBzdGF0dXM6IHJlc3BvbnNlLnN0YXR1cywgYm9keTogYXdhaXQgcmVzcG9uc2UuanNvbigpIH07CiAgICB9LAogICAgeyByZXF1ZXN0UGF0aCwgbWV0aG9kIH0sCiAgKTsKICBhc3NlcnQuZXF1YWwocmVzdWx0LnN0YXR1cywgMjAwLCBgJHttZXRob2R9ICR7cmVxdWVzdFBhdGh9IGZhaWxlZGApOwogIGFzc2VydC5vayhyZXN1bHQuYm9keS5zdWNjZXNzLCBgJHttZXRob2R9ICR7cmVxdWVzdFBhdGh9IHdhcyB1bnN1Y2Nlc3NmdWxgKTsKICByZXR1cm4gcmVzdWx0LmJvZHkuZGF0YTsKfTsKCmNvbnN0IHN1Ym1pdEdhdGVQYXNzd29yZCA9IGFzeW5jIChwYWdlLCBhdXRvY29tcGxldGUpID0+IHsKICBjb25zdCBpbnB1dCA9IHBhZ2UubG9jYXRvcihgaW5wdXRbYXV0b2NvbXBsZXRlPSIke2F1dG9jb21wbGV0ZX0iXWApOwogIGF3YWl0IGlucHV0LndhaXRGb3IoeyBzdGF0ZTogInZpc2libGUiIH0pOwogIGF3YWl0IGlucHV0LmZpbGwocGFzc3dvcmQpOwogIGlmIChhdXRvY29tcGxldGUgPT09ICJjdXJyZW50LXBhc3N3b3JkIikgewogICAgYXdhaXQgcGFnZS5sb2NhdG9yKCIjZG9ja2VyQWRtaW5SZW1lbWJlck1lIikuY2xpY2soKTsKICB9CiAgYXdhaXQgcGFnZS5sb2NhdG9yKCdmb3JtIGJ1dHRvblt0eXBlPSJzdWJtaXQiXScpLmNsaWNrKCk7CiAgYXdhaXQgcGFnZS5sb2NhdG9yKCIjbWFpbi1jb250ZW50Iikud2FpdEZvcih7IHN0YXRlOiAidmlzaWJsZSIgfSk7Cn07Cgpjb25zdCB3YWl0Rm9yQXBpID0gKHBhZ2UsIHJlcXVlc3RQYXRoLCBtZXRob2QgPSAiR0VUIikgPT4KICBwYWdlLndhaXRGb3JSZXNwb25zZSgKICAgIChyZXNwb25zZSkgPT4KICAgICAgbmV3IFVSTChyZXNwb25zZS51cmwoKSkucGF0aG5hbWUgPT09IGAvYXBpL2FkbWluJHtyZXF1ZXN0UGF0aH1gICYmCiAgICAgIHJlc3BvbnNlLnJlcXVlc3QoKS5tZXRob2QoKSA9PT0gbWV0aG9kLAogICk7Cgpjb25zdCBjbGlja0FuZFJlYWQgPSBhc3luYyAocGFnZSwgYnV0dG9uLCByZXF1ZXN0UGF0aCwgbWV0aG9kKSA9PiB7CiAgY29uc3QgW3Jlc3BvbnNlXSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgIHdhaXRGb3JBcGkocGFnZSwgcmVxdWVzdFBhdGgsIG1ldGhvZCksCiAgICBidXR0b24uY2xpY2soKSwKICBdKTsKICBhc3NlcnQuZXF1YWwocmVzcG9uc2Uuc3RhdHVzKCksIDIwMCwgYCR7bWV0aG9kfSAke3JlcXVlc3RQYXRofSBmYWlsZWRgKTsKICBjb25zdCBib2R5ID0gYXdhaXQgcmVzcG9uc2UuanNvbigpOwogIGFzc2VydC5vayhib2R5LnN1Y2Nlc3MpOwogIHJldHVybiBib2R5LmRhdGE7Cn07Cgpjb25zdCBhc3NlcnRDYXB0dXJlSWRsZSA9IChyZXBvcnQpID0+IHsKICBhc3NlcnQuZXF1YWwocmVwb3J0LmNhcHR1cmUuc3RhdHVzLCAiaWRsZSIpOwogIGFzc2VydC5lcXVhbChyZXBvcnQuY2FwdHVyZS5pZCwgbnVsbCk7CiAgYXNzZXJ0LmRlZXBFcXVhbChyZXBvcnQuY2FwdHVyZS5zYW1wbGVzLCBbXSk7CiAgYXNzZXJ0LmVxdWFsKHJlcG9ydC5jYXB0dXJlLm9wZXJhdGlvbnMuYWN0aXZlLCBmYWxzZSk7CiAgYXNzZXJ0LmRlZXBFcXVhbChyZXBvcnQuY2FwdHVyZS5vcGVyYXRpb25zLm9wZXJhdGlvbnMsIFtdKTsKfTsKCmNvbnN0IGFzc2VydE5vU2Vuc2l0aXZlVGVzdFZhbHVlcyA9ICh2YWx1ZSkgPT4gewogIGNvbnN0IHNlcmlhbGl6ZWQgPSBKU09OLnN0cmluZ2lmeSh2YWx1ZSk7CiAgZm9yIChjb25zdCBtYXJrZXIgb2YgWwogICAgcGFzc3dvcmQsCiAgICAicnVudGltZS1hdWRpdC1pbnRlcm5hbC10b2tlbiIsCiAgICAicnVudGltZS1hdWRpdC1obWFjLXNlY3JldCIsCiAgXSkgewogICAgYXNzZXJ0Lm9rKCFzZXJpYWxpemVkLmluY2x1ZGVzKG1hcmtlciksICJkaWFnbm9zdGljcyBleHBvc2VkIGEgY3JlZGVudGlhbCIpOwogIH0KfTsKCmNvbnN0IGFzc2VydFNhbXBsZXMgPSAoY2FwdHVyZSwgcnVudGltZU9zKSA9PiB7CiAgYXNzZXJ0Lm9rKGNhcHR1cmUuc2FtcGxlcy5sZW5ndGggPj0gNTAsICJ0b28gZmV3IHNhbXBsZXMgaW4gdGhlIHJlYWwgbWludXRlIik7CiAgYXNzZXJ0Lm9rKGNhcHR1cmUuc2FtcGxlcy5sZW5ndGggPD0gNjEsICJjYXB0dXJlIGV4Y2VlZGVkIGl0cyBzYW1wbGUgYm91bmQiKTsKICBhc3NlcnQuZXF1YWwoY2FwdHVyZS5zYW1wbGVzWzBdLnJlc291cmNlLmNwdV9wZXJjZW50LCBudWxsKTsKICBpZiAoWyJsaW51eCIsICJtYWNvcyJdLmluY2x1ZGVzKHJ1bnRpbWVPcykpIHsKICAgIGFzc2VydC5vaygKICAgICAgY2FwdHVyZS5zYW1wbGVzCiAgICAgICAgLnNsaWNlKDEpCiAgICAgICAgLnNvbWUoKHNhbXBsZSkgPT4gTnVtYmVyLmlzRmluaXRlKHNhbXBsZS5yZXNvdXJjZS5jcHVfcGVyY2VudCkpLAogICAgICAiY2FwdHVyZSBuZXZlciBtZWFzdXJlZCBhIENQVSBkZWx0YSIsCiAgICApOwogIH0gZWxzZSB7CiAgICBhc3NlcnQub2soCiAgICAgIGNhcHR1cmUuc2FtcGxlcy5ldmVyeSgKICAgICAgICAoc2FtcGxlKSA9PgogICAgICAgICAgc2FtcGxlLnJlc291cmNlLmNwdV9wZXJjZW50ID09PSBudWxsICYmCiAgICAgICAgICBzYW1wbGUucmVzb3VyY2UuZXJyb3JzLmluY2x1ZGVzKCJwcm9jZXNzX2NwdV91bnN1cHBvcnRlZCIpLAogICAgICApLAogICAgICAidW5zdXBwb3J0ZWQgcGxhdGZvcm0gZGlkIG5vdCBleHBsaWNpdGx5IHJlcG9ydCBtaXNzaW5nIENQVSBzdXBwb3J0IiwKICAgICk7CiAgfQogIGZvciAoY29uc3QgW2luZGV4LCBzYW1wbGVdIG9mIGNhcHR1cmUuc2FtcGxlcy5lbnRyaWVzKCkpIHsKICAgIGFzc2VydC5vayhzYW1wbGUuZWxhcHNlZF9tcyA+PSAwKTsKICAgIGlmIChpbmRleCA+IDApIHsKICAgICAgYXNzZXJ0Lm9rKHNhbXBsZS5lbGFwc2VkX21zID49IGNhcHR1cmUuc2FtcGxlc1tpbmRleCAtIDFdLmVsYXBzZWRfbXMpOwogICAgfQogICAgYXNzZXJ0Lm9rKHNhbXBsZS5yZXNvdXJjZS50aHJlYWRfY3B1Lmxlbmd0aCA8PSA4KTsKICAgIGFzc2VydC5vaygKICAgICAgc2FtcGxlLnJlc291cmNlLmNwdV9wZXJjZW50ID09PSBudWxsIHx8IHNhbXBsZS5yZXNvdXJjZS5jcHVfcGVyY2VudCA+PSAwLAogICAgKTsKICAgIGFzc2VydC5vaygKICAgICAgc2FtcGxlLnJlc291cmNlLnJzc19ieXRlcyA9PT0gbnVsbCB8fCBzYW1wbGUucmVzb3VyY2UucnNzX2J5dGVzID4gMCwKICAgICk7CiAgfQp9OwoKbGV0IHJ1bnRpbWU7CmxldCBicm93c2VyOwpsZXQgcGFnZTsKbGV0IHZpc2liaWxpdHlSZXN0b3JlOwpjb25zdCBjaGVja3MgPSBbXTsKY29uc3QgcGFnZUVycm9ycyA9IFtdOwpjb25zdCBzdW1tYXJ5ID0gewogIHN0YXJ0ZWRfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwKICBjaGVja3MsCiAgdW5hdXRoZW50aWNhdGVkX21ldGhvZHM6IFtdLAogIGFydGlmYWN0czoge30sCn07Cgpjb25zdCBwYXNzZWQgPSAobmFtZSkgPT4gewogIGNoZWNrcy5wdXNoKG5hbWUpOwogIGNvbnNvbGUubG9nKGBbcnVudGltZS1kZWJ1Zy1lMmVdICR7bmFtZX1gKTsKfTsKCnRyeSB7CiAgYXdhaXQgbWtkaXIoYXJ0aWZhY3REaXIsIHsgcmVjdXJzaXZlOiB0cnVlIH0pOwogIC8vIERlbGliZXJhdGVseSBkbyBub3QgYWNjZXB0IGFuIGV4dGVybmFsIFVSTDogc2V0dXAgYW5kIG11dGF0aW9ucyBiZWxvbmcgb25seQogIC8vIHRvIHRoZSBpc29sYXRlZCBydW50aW1lIGFuZCBpdHMgdGVtcG9yYXJ5IFNRTGl0ZSBkYXRhYmFzZS4KICBjb25zb2xlLmxvZygiW3J1bnRpbWUtZGVidWctZTJlXSBzdGFydGluZyBpc29sYXRlZCBSdXN0L0dvIHJ1bnRpbWUiKTsKICBydW50aW1lID0gYXdhaXQgc3RhcnRSdW50aW1lKHsKICAgIGdhdGV3YXlCaW5hcnk6CiAgICAgIHByb2Nlc3MuZW52LkZOX0tOT0NLX1JVTlRJTUVfRTJFX0dBVEVXQVlfQklOID8/CiAgICAgIHByb2Nlc3MuZW52LkZOX0tOT0NLX0ExMVlfR0FURVdBWV9CSU4sCiAgICBwcm90ZWN0ZWRBZG1pbjogdHJ1ZSwKICAgIHRlbXBQcmVmaXg6ICJmbi1rbm9jay1ydW50aW1lLWRlYnVnLWUyZS0iLAogIH0pOwogIGNvbnNvbGUubG9nKAogICAgIltydW50aW1lLWRlYnVnLWUyZV0gcnVudGltZSByZWFkeTsgY2hlY2tpbmcgcHJvdGVjdGVkIHNldHVwL2xvZ2luIiwKICApOwogIGJyb3dzZXIgPSBhd2FpdCBjaHJvbWl1bS5sYXVuY2goeyBoZWFkbGVzczogdHJ1ZSB9KTsKICBjb25zdCBjb250ZXh0ID0gYXdhaXQgYnJvd3Nlci5uZXdDb250ZXh0KHsKICAgIGxvY2FsZTogInpoLUNOIiwKICAgIHZpZXdwb3J0OiB7IHdpZHRoOiAxNDQwLCBoZWlnaHQ6IDEwODAgfSwKICAgIGFjY2VwdERvd25sb2FkczogdHJ1ZSwKICB9KTsKICBwYWdlID0gYXdhaXQgY29udGV4dC5uZXdQYWdlKCk7CiAgcGFnZS5zZXREZWZhdWx0VGltZW91dCgyMF8wMDApOwogIHBhZ2Uub24oInBhZ2VlcnJvciIsIChlcnJvcikgPT4gcGFnZUVycm9ycy5wdXNoKGVycm9yLm1lc3NhZ2UpKTsKICBsZXQgZGVidWdSZWFkcyA9IDA7CiAgcGFnZS5vbigicmVxdWVzdCIsIChyZXF1ZXN0KSA9PiB7CiAgICBpZiAoCiAgICAgIHJlcXVlc3QubWV0aG9kKCkgPT09ICJHRVQiICYmCiAgICAgIG5ldyBVUkwocmVxdWVzdC51cmwoKSkucGF0aG5hbWUgPT09IGAvYXBpL2FkbWluJHtkZWJ1Z1BhdGh9YAogICAgKSB7CiAgICAgIGRlYnVnUmVhZHMgKz0gMTsKICAgIH0KICB9KTsKCiAgYXdhaXQgcGFnZS5nb3RvKHJ1bnRpbWUuYWRtaW5VcmwsIHsgd2FpdFVudGlsOiAiZG9tY29udGVudGxvYWRlZCIgfSk7CiAgYXdhaXQgc3VibWl0R2F0ZVBhc3N3b3JkKHBhZ2UsICJuZXctcGFzc3dvcmQiKTsKICBhd2FpdCBwYWdlLmdvdG8oImFib3V0OmJsYW5rIik7CiAgYXdhaXQgY29udGV4dC5jbGVhckNvb2tpZXMoKTsKCiAgZm9yIChjb25zdCBbbWV0aG9kLCByZXF1ZXN0UGF0aF0gb2YgWwogICAgWyJHRVQiLCBkZWJ1Z1BhdGhdLAogICAgWyJQT1NUIiwgY2FwdHVyZVBhdGhdLAogICAgWyJERUxFVEUiLCBjYXB0dXJlUGF0aF0sCiAgICBbIlBPU1QiLCBtZW1vcnlQYXRoXSwKICBdKSB7CiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoUnVudGltZSgKICAgICAgYCR7cnVudGltZS5hZG1pblVybH0vYXBpL2FkbWluJHtyZXF1ZXN0UGF0aH1gLAogICAgICB7IG1ldGhvZCwgcmVkaXJlY3Q6ICJtYW51YWwiIH0sCiAgICApOwogICAgY29uc3Qgc3RhdHVzID0gcmVzcG9uc2Uuc3RhdHVzOwogICAgYXdhaXQgcmVzcG9uc2UuYm9keT8uY2FuY2VsKCk7CiAgICBhc3NlcnQub2soCiAgICAgIHN0YXR1cyA9PT0gNDAxIHx8IHN0YXR1cyA9PT0gNDAzLAogICAgICBgdW5hdXRoZW50aWNhdGVkICR7bWV0aG9kfSAke3JlcXVlc3RQYXRofSByZXR1cm5lZCAke3N0YXR1c31gLAogICAgKTsKICAgIHN1bW1hcnkudW5hdXRoZW50aWNhdGVkX21ldGhvZHMucHVzaCh7IG1ldGhvZCwgcGF0aDogcmVxdWVzdFBhdGgsIHN0YXR1cyB9KTsKICB9CiAgcGFzc2VkKCJhbGwgZm91ciBkZWJ1ZyBtZXRob2RzIHJlamVjdCB1bmF1dGhlbnRpY2F0ZWQgcmVxdWVzdHMiKTsKCiAgYXdhaXQgcGFnZS5nb3RvKHJ1bnRpbWUuYWRtaW5VcmwsIHsgd2FpdFVudGlsOiAiZG9tY29udGVudGxvYWRlZCIgfSk7CiAgYXdhaXQgc3VibWl0R2F0ZVBhc3N3b3JkKHBhZ2UsICJjdXJyZW50LXBhc3N3b3JkIik7CiAgYXNzZXJ0Q2FwdHVyZUlkbGUoYXdhaXQgYXBpUmVxdWVzdChwYWdlLCBkZWJ1Z1BhdGgpKTsKICBhc3NlcnRDYXB0dXJlSWRsZShhd2FpdCBhcGlSZXF1ZXN0KHBhZ2UsIGRlYnVnUGF0aCkpOwogIHBhc3NlZCgicHJvdGVjdGVkIHNldHVwL2xvZ2luIHN1Y2NlZWRzOyBpbml0aWFsIEdFVCBuZXZlciBzdGFydHMgY2FwdHVyZSIpOwoKICBhd2FpdCBwYWdlLmdvdG8oYCR7cnVudGltZS5hZG1pblVybH0vIy9ldmVudHM/dGFiPXJ1bnRpbWVgLCB7CiAgICB3YWl0VW50aWw6ICJkb21jb250ZW50bG9hZGVkIiwKICB9KTsKICBjb25zdCBydW50aW1lVGFiID0gcGFnZS5nZXRCeVJvbGUoInRhYiIsIHsgbmFtZTogIueKtuaAgSIsIGV4YWN0OiB0cnVlIH0pOwogIGF3YWl0IHJ1bnRpbWVUYWIud2FpdEZvcih7IHN0YXRlOiAidmlzaWJsZSIgfSk7CiAgYXNzZXJ0LmVxdWFsKGF3YWl0IHJ1bnRpbWVUYWIuZ2V0QXR0cmlidXRlKCJhcmlhLXNlbGVjdGVkIiksICJ0cnVlIik7CiAgY29uc3QgdG9vbGJhckVudHJ5ID0gcGFnZS5nZXRCeVJvbGUoImJ1dHRvbiIsIHsKICAgIG5hbWU6ICLov5DooYzor4rmlq0iLAogICAgZXhhY3Q6IHRydWUsCiAgfSk7CiAgY29uc3QgbWFuYWdlbWVudENhcmQgPSBwYWdlLmxvY2F0b3IoImFydGljbGUiKS5maWx0ZXIoewogICAgaGFzOiBwYWdlLmdldEJ5VGV4dCgi566h55CG5pyN5YqhIiwgeyBleGFjdDogdHJ1ZSB9KSwKICB9KTsKICBjb25zdCBtYW5hZ2VtZW50RW50cnkgPSBtYW5hZ2VtZW50Q2FyZC5nZXRCeVJvbGUoImJ1dHRvbiIsIHsKICAgIG5hbWU6ICLmn6XnnIvor4rmlq0iLAogICAgZXhhY3Q6IHRydWUsCiAgfSk7CiAgYXdhaXQgdG9vbGJhckVudHJ5LndhaXRGb3IoeyBzdGF0ZTogInZpc2libGUiIH0pOwogIGF3YWl0IG1hbmFnZW1lbnRFbnRyeS53YWl0Rm9yKHsgc3RhdGU6ICJ2aXNpYmxlIiB9KTsKICBjb25zdCBzY3JlZW5zaG90ID0gYXN5bmMgKGZpbGVOYW1lKSA9PiB7CiAgICAvLyBWdWUgcm91dGUgdHJhbnNpdGlvbnMgY2FuIHN0aWxsIGJlIGZhZGluZyBhZnRlciB0aGUgdGFyZ2V0IGlzIHZpc2libGUuCiAgICBhd2FpdCBkZWxheSgzNTApOwogICAgY29uc3QgZmlsZVBhdGggPSBwYXRoLmpvaW4oYXJ0aWZhY3REaXIsIGZpbGVOYW1lKTsKICAgIGF3YWl0IHBhZ2Uuc2NyZWVuc2hvdCh7CiAgICAgIHBhdGg6IGZpbGVQYXRoLAogICAgICBmdWxsUGFnZTogZmFsc2UsCiAgICAgIGFuaW1hdGlvbnM6ICJkaXNhYmxlZCIsCiAgICB9KTsKICAgIHJldHVybiBmaWxlUGF0aDsKICB9OwogIHN1bW1hcnkuYXJ0aWZhY3RzLnN0YXR1c19kZXNrdG9wID0gYXdhaXQgc2NyZWVuc2hvdCgic3RhdHVzLWRlc2t0b3AucG5nIik7CgogIGNvbnN0IGRpYWxvZyA9IHBhZ2UuZ2V0QnlSb2xlKCJkaWFsb2ciLCB7CiAgICBuYW1lOiAiUnVzdCDov5DooYzor4rmlq0iLAogICAgZXhhY3Q6IHRydWUsCiAgfSk7CiAgY29uc3Qgb3BlbkRpYWxvZyA9IGFzeW5jIChidXR0b24pID0+IHsKICAgIGNvbnN0IFtyZXNwb25zZV0gPSBhd2FpdCBQcm9taXNlLmFsbChbCiAgICAgIHdhaXRGb3JBcGkocGFnZSwgZGVidWdQYXRoKSwKICAgICAgYnV0dG9uLmNsaWNrKCksCiAgICAgIGRpYWxvZy53YWl0Rm9yKHsgc3RhdGU6ICJ2aXNpYmxlIiB9KSwKICAgIF0pOwogICAgYXNzZXJ0LmVxdWFsKHJlc3BvbnNlLnN0YXR1cygpLCAyMDApOwogICAgcmV0dXJuIChhd2FpdCByZXNwb25zZS5qc29uKCkpLmRhdGE7CiAgfTsKICBjb25zdCBjbG9zZURpYWxvZyA9IGFzeW5jICgpID0+IHsKICAgIGF3YWl0IHBhZ2Uua2V5Ym9hcmQucHJlc3MoIkVzY2FwZSIpOwogICAgYXdhaXQgZGlhbG9nLndhaXRGb3IoeyBzdGF0ZTogImhpZGRlbiIgfSk7CiAgfTsKICBjb25zdCBhc3NlcnROb1BvbGxpbmcgPSBhc3luYyAobGFiZWwpID0+IHsKICAgIC8vIEFsbG93IGEgcmVxdWVzdCBhbHJlYWR5IGVtaXR0ZWQgYmVmb3JlIGNsb3NlL3Zpc2liaWxpdHljaGFuZ2UgdG8gc2V0dGxlLgogICAgYXdhaXQgZGVsYXkoMTUwKTsKICAgIGNvbnN0IGJlZm9yZSA9IGRlYnVnUmVhZHM7CiAgICBhd2FpdCBkZWxheShwb2xsaW5nUXVpZXRXaW5kb3dNcyk7CiAgICBhc3NlcnQuZXF1YWwoZGVidWdSZWFkcywgYmVmb3JlLCBgJHtsYWJlbH0gY29udGludWVkIGRlYnVnIEdFVCBwb2xsaW5nYCk7CiAgfTsKCiAgYXNzZXJ0Q2FwdHVyZUlkbGUoYXdhaXQgb3BlbkRpYWxvZyh0b29sYmFyRW50cnkpKTsKICBjb25zdCByZWFkc1doZW5PcGVuID0gZGVidWdSZWFkczsKICBhd2FpdCBkZWxheShwb2xsaW5nUXVpZXRXaW5kb3dNcyk7CiAgYXNzZXJ0Lm9rKGRlYnVnUmVhZHMgPiByZWFkc1doZW5PcGVuLCAidmlzaWJsZSBkaWFsb2cgZGlkIG5vdCBwb2xsIik7CiAgYXdhaXQgY2xvc2VEaWFsb2coKTsKICBhd2FpdCBhc3NlcnROb1BvbGxpbmcoImNsb3NlZCBkaWFsb2ciKTsKICBhc3NlcnRDYXB0dXJlSWRsZShhd2FpdCBvcGVuRGlhbG9nKG1hbmFnZW1lbnRFbnRyeSkpOwogIHBhc3NlZCgKICAgICJzdGF0dXMgdG9vbGJhciBhbmQgbWFuYWdlbWVudCBjYXJkIG9wZW4gdGhlIGRpYWxvZzsgY2xvc2Ugc3RvcHMgcG9sbGluZyIsCiAgKTsKCiAgY29uc3Qgc3RhcnRCdXR0b24gPSBkaWFsb2cuZ2V0QnlSb2xlKCJidXR0b24iLCB7CiAgICBuYW1lOiAi5byA5aeLIDYwIOenkumHh+agtyIsCiAgICBleGFjdDogdHJ1ZSwKICB9KTsKICBjb25zdCBzdG9wQnV0dG9uID0gZGlhbG9nLmdldEJ5Um9sZSgiYnV0dG9uIiwgewogICAgbmFtZTogIuWBnOatouW5tuS/neeVmee7k+aenCIsCiAgICBleGFjdDogdHJ1ZSwKICB9KTsKICBjb25zdCBmaXJzdCA9IGF3YWl0IGNsaWNrQW5kUmVhZChwYWdlLCBzdGFydEJ1dHRvbiwgY2FwdHVyZVBhdGgsICJQT1NUIik7CiAgYXNzZXJ0LmVxdWFsKGZpcnN0LmNhcHR1cmUuc3RhdHVzLCAicnVubmluZyIpOwogIGFzc2VydC5vayhmaXJzdC5jYXB0dXJlLmlkKTsKICBhc3NlcnQuZXF1YWwoZmlyc3QuY2FwdHVyZS5vcGVyYXRpb25zLmFjdGl2ZSwgdHJ1ZSk7CiAgY29uc3QgcmVwZWF0ZWQgPSBhd2FpdCBhcGlSZXF1ZXN0KHBhZ2UsIGNhcHR1cmVQYXRoLCAiUE9TVCIpOwogIGFzc2VydC5lcXVhbChyZXBlYXRlZC5jYXB0dXJlLmlkLCBmaXJzdC5jYXB0dXJlLmlkKTsKICBhd2FpdCBhcGlSZXF1ZXN0KHBhZ2UsICIvY29uZmlnL2FwcGVhcmFuY2UiKTsKICBhd2FpdCBkZWxheSgxXzI1MCk7CiAgY29uc3Qgc3RvcHBlZCA9IGF3YWl0IGNsaWNrQW5kUmVhZChwYWdlLCBzdG9wQnV0dG9uLCBjYXB0dXJlUGF0aCwgIkRFTEVURSIpOwogIGFzc2VydC5lcXVhbChzdG9wcGVkLmNhcHR1cmUuc3RhdHVzLCAic3RvcHBlZCIpOwogIGFzc2VydC5lcXVhbChzdG9wcGVkLmNhcHR1cmUub3BlcmF0aW9ucy5hY3RpdmUsIGZhbHNlKTsKICBhd2FpdCBkZWxheSgyXzEwMCk7CiAgY29uc3QgbGF0ZXJTdG9wcGVkID0gYXdhaXQgYXBpUmVxdWVzdChwYWdlLCBkZWJ1Z1BhdGgpOwogIGFzc2VydC5kZWVwRXF1YWwoCiAgICBsYXRlclN0b3BwZWQuY2FwdHVyZSwKICAgIHN0b3BwZWQuY2FwdHVyZSwKICAgICJzdG9wcGVkIHJlcG9ydCBjaGFuZ2VkIiwKICApOwogIHN1bW1hcnkubWFudWFsX3N0b3BfcmVwb3J0X2Zyb3plbiA9IHRydWU7CiAgcGFzc2VkKAogICAgInJlcGVhdGVkIHN0YXJ0IGlzIGlkZW1wb3RlbnQgYW5kIHN0b3AgZnJlZXplcyBzYW1wbGVzIGFuZCBvcGVyYXRpb25zIiwKICApOwoKICBjb25zdCBtZW1vcnkgPSBhd2FpdCBjbGlja0FuZFJlYWQoCiAgICBwYWdlLAogICAgZGlhbG9nLmdldEJ5Um9sZSgiYnV0dG9uIiwgeyBuYW1lOiAi6YeH6ZuG5YaF5a2Y6K+m5oOFIiwgZXhhY3Q6IHRydWUgfSksCiAgICBtZW1vcnlQYXRoLAogICAgIlBPU1QiLAogICk7CiAgYXNzZXJ0Lm9rKG1lbW9yeS5tZW1vcnk/LmNvbGxlY3RlZF9hdCk7CiAgYXNzZXJ0Lm9rKAogICAgWyJhdmFpbGFibGUiLCAicGFydGlhbCIsICJ1bnN1cHBvcnRlZCIsICJ1bmF2YWlsYWJsZSJdLmluY2x1ZGVzKAogICAgICBtZW1vcnkubWVtb3J5LnN0YXR1cywKICAgICksCiAgKTsKICBhc3NlcnQub2sobWVtb3J5Lm1lbW9yeS5sYXJnZXN0X2Fub255bW91c19yZWdpb25zLmxlbmd0aCA8PSA4KTsKICBhc3NlcnQuZXF1YWwobWVtb3J5LmNhcHR1cmUuc3RhdHVzLCAic3RvcHBlZCIpOwogIGFzc2VydC5lcXVhbChtZW1vcnkubWVtb3J5X3JlZnJlc2hpbmcsIGZhbHNlKTsKICBhc3NlcnROb1NlbnNpdGl2ZVRlc3RWYWx1ZXMobWVtb3J5KTsKICBzdW1tYXJ5Lm1lbW9yeV9zdGF0dXMgPSBtZW1vcnkubWVtb3J5LnN0YXR1czsKICBwYXNzZWQoIm1hbnVhbCBtZW1vcnkgY29sbGVjdGlvbiBpcyBib3VuZGVkIGFuZCBkb2VzIG5vdCByZXN0YXJ0IGNhcHR1cmUiKTsKCiAgY29uc3QgZnVsbFN0YXJ0ZWRBdCA9IHBlcmZvcm1hbmNlLm5vdygpOwogIGNvbnN0IGZ1bGwgPSBhd2FpdCBjbGlja0FuZFJlYWQocGFnZSwgc3RhcnRCdXR0b24sIGNhcHR1cmVQYXRoLCAiUE9TVCIpOwogIGFzc2VydC5lcXVhbChmdWxsLmNhcHR1cmUuc3RhdHVzLCAicnVubmluZyIpOwogIGFzc2VydC5ub3RFcXVhbChmdWxsLmNhcHR1cmUuaWQsIGZpcnN0LmNhcHR1cmUuaWQpOwogIGF3YWl0IGFwaVJlcXVlc3QocGFnZSwgIi9jb25maWcvYXBwZWFyYW5jZSIpOwogIGF3YWl0IGNsb3NlRGlhbG9nKCk7CiAgYXdhaXQgYXNzZXJ0Tm9Qb2xsaW5nKCJkaWFsb2cgY2xvc2VkIGR1cmluZyBjYXB0dXJlIik7CiAgYXNzZXJ0LmVxdWFsKChhd2FpdCBvcGVuRGlhbG9nKHRvb2xiYXJFbnRyeSkpLmNhcHR1cmUuaWQsIGZ1bGwuY2FwdHVyZS5pZCk7CgogIC8vIFByZWZlciByZWFsIGJyb3dzZXIgdmlzaWJpbGl0eS4gSGVhZGxlc3MgQ2hyb21pdW0gYnVpbGRzIHRoYXQga2VlcCBldmVyeQogIC8vIHRhYiB2aXNpYmxlIHVzZSBhIGRvY3VtZW50ZWQgRE9NIHZpc2liaWxpdHljaGFuZ2Ugc2ltdWxhdGlvbjsgcmVjb3JkIHdoaWNoCiAgLy8gbW9kZSByYW4gcmF0aGVyIHRoYW4gY2xhaW1pbmcgYW4gT1MtbGV2ZWwgYmFja2dyb3VuZCB0cmFuc2l0aW9uIG9jY3VycmVkLgogIGNvbnN0IGZvcmVncm91bmQgPSBhd2FpdCBjb250ZXh0Lm5ld1BhZ2UoKTsKICBhd2FpdCBmb3JlZ3JvdW5kLmdvdG8oImFib3V0OmJsYW5rIik7CiAgYXdhaXQgZm9yZWdyb3VuZC5icmluZ1RvRnJvbnQoKTsKICBjb25zdCBuYXRpdmVIaWRkZW4gPSBhd2FpdCBwYWdlLmV2YWx1YXRlKCgpID0+IGRvY3VtZW50LmhpZGRlbik7CiAgaWYgKG5hdGl2ZUhpZGRlbikgewogICAgc3VtbWFyeS5iYWNrZ3JvdW5kX3Zpc2liaWxpdHlfbW9kZSA9ICJuYXRpdmVfYmFja2dyb3VuZF90YWIiOwogICAgdmlzaWJpbGl0eVJlc3RvcmUgPSBhc3luYyAoKSA9PiB7CiAgICAgIGF3YWl0IHBhZ2UuYnJpbmdUb0Zyb250KCk7CiAgICAgIGF3YWl0IGZvcmVncm91bmQuY2xvc2UoKTsKICAgIH07CiAgfSBlbHNlIHsKICAgIHN1bW1hcnkuYmFja2dyb3VuZF92aXNpYmlsaXR5X21vZGUgPSAic2ltdWxhdGVkX3Zpc2liaWxpdHljaGFuZ2UiOwogICAgYXdhaXQgcGFnZS5ldmFsdWF0ZSgoKSA9PiB7CiAgICAgIHdpbmRvdy5fX3J1bnRpbWVEZWJ1Z1Zpc2liaWxpdHlEZXNjcmlwdG9yID0KICAgICAgICBPYmplY3QuZ2V0T3duUHJvcGVydHlEZXNjcmlwdG9yKGRvY3VtZW50LCAiaGlkZGVuIik7CiAgICAgIE9iamVjdC5kZWZpbmVQcm9wZXJ0eShkb2N1bWVudCwgImhpZGRlbiIsIHsKICAgICAgICBjb25maWd1cmFibGU6IHRydWUsCiAgICAgICAgZ2V0OiAoKSA9PiB0cnVlLAogICAgICB9KTsKICAgICAgZG9jdW1lbnQuZGlzcGF0Y2hFdmVudChuZXcgRXZlbnQoInZpc2liaWxpdHljaGFuZ2UiKSk7CiAgICB9KTsKICAgIHZpc2liaWxpdHlSZXN0b3JlID0gYXN5bmMgKCkgPT4gewogICAgICBhd2FpdCBwYWdlLmV2YWx1YXRlKCgpID0+IHsKICAgICAgICBjb25zdCBkZXNjcmlwdG9yID0gd2luZG93Ll9fcnVudGltZURlYnVnVmlzaWJpbGl0eURlc2NyaXB0b3I7CiAgICAgICAgaWYgKGRlc2NyaXB0b3IpIE9iamVjdC5kZWZpbmVQcm9wZXJ0eShkb2N1bWVudCwgImhpZGRlbiIsIGRlc2NyaXB0b3IpOwogICAgICAgIGVsc2UgZGVsZXRlIGRvY3VtZW50LmhpZGRlbjsKICAgICAgICBkZWxldGUgd2luZG93Ll9fcnVudGltZURlYnVnVmlzaWJpbGl0eURlc2NyaXB0b3I7CiAgICAgICAgZG9jdW1lbnQuZGlzcGF0Y2hFdmVudChuZXcgRXZlbnQoInZpc2liaWxpdHljaGFuZ2UiKSk7CiAgICAgIH0pOwogICAgICBhd2FpdCBwYWdlLmJyaW5nVG9Gcm9udCgpOwogICAgICBhd2FpdCBmb3JlZ3JvdW5kLmNsb3NlKCk7CiAgICB9OwogIH0KICBhd2FpdCBhc3NlcnROb1BvbGxpbmcoImJhY2tncm91bmQgZGlhbG9nIik7CiAgY29uc3QgW3Jlc3VtZWRdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgd2FpdEZvckFwaShwYWdlLCBkZWJ1Z1BhdGgpLAogICAgdmlzaWJpbGl0eVJlc3RvcmUoKSwKICBdKTsKICB2aXNpYmlsaXR5UmVzdG9yZSA9IG51bGw7CiAgYXNzZXJ0LmVxdWFsKHJlc3VtZWQuc3RhdHVzKCksIDIwMCk7CiAgYXdhaXQgY2xvc2VEaWFsb2coKTsKICBwYXNzZWQoCiAgICBgYmFja2dyb3VuZCB2aXNpYmlsaXR5IHN0b3BzIHBvbGxpbmcgKCR7c3VtbWFyeS5iYWNrZ3JvdW5kX3Zpc2liaWxpdHlfbW9kZX0pYCwKICApOwoKICBsZXQgY29tcGxldGVkOwogIGxldCBsYXN0UHJvZ3Jlc3NBdCA9IHBlcmZvcm1hbmNlLm5vdygpOwogIGNvbnN0IGNvbXBsZXRpb25EZWFkbGluZSA9IGZ1bGxTdGFydGVkQXQgKyA3NV8wMDA7CiAgd2hpbGUgKHBlcmZvcm1hbmNlLm5vdygpIDwgY29tcGxldGlvbkRlYWRsaW5lKSB7CiAgICBjb25zdCByZXBvcnQgPSBhd2FpdCBhcGlSZXF1ZXN0KHBhZ2UsIGRlYnVnUGF0aCk7CiAgICBhc3NlcnQuZXF1YWwocmVwb3J0LmNhcHR1cmUuaWQsIGZ1bGwuY2FwdHVyZS5pZCk7CiAgICBpZiAocmVwb3J0LmNhcHR1cmUuc3RhdHVzID09PSAiY29tcGxldGVkIikgewogICAgICBjb21wbGV0ZWQgPSByZXBvcnQ7CiAgICAgIGJyZWFrOwogICAgfQogICAgYXNzZXJ0LmVxdWFsKHJlcG9ydC5jYXB0dXJlLnN0YXR1cywgInJ1bm5pbmciKTsKICAgIGlmIChwZXJmb3JtYW5jZS5ub3coKSAtIGxhc3RQcm9ncmVzc0F0ID49IDE1XzAwMCkgewogICAgICBjb25zb2xlLmxvZygKICAgICAgICBgW3J1bnRpbWUtZGVidWctZTJlXSByZWFsIGNhcHR1cmUgZWxhcHNlZCAke3JlcG9ydC5jYXB0dXJlLmVsYXBzZWRfbXN9IG1zYCwKICAgICAgKTsKICAgICAgbGFzdFByb2dyZXNzQXQgPSBwZXJmb3JtYW5jZS5ub3coKTsKICAgIH0KICAgIGF3YWl0IGRlbGF5KDJfMDAwKTsKICB9CiAgYXNzZXJ0Lm9rKGNvbXBsZXRlZCwgImNhcHR1cmUgZmFpbGVkIHRvIGNvbXBsZXRlIHdpdGhpbiBpdHMgZGVhZGxpbmUiKTsKICBjb25zdCBhY3R1YWxEdXJhdGlvbiA9IHBlcmZvcm1hbmNlLm5vdygpIC0gZnVsbFN0YXJ0ZWRBdDsKICBhc3NlcnQub2soCiAgICBhY3R1YWxEdXJhdGlvbiA+PSA1OV8wMDAsCiAgICAiY2FwdHVyZSBmaW5pc2hlZCBiZWZvcmUgYSByZWFsIG1pbnV0ZSBlbGFwc2VkIiwKICApOwogIGFzc2VydC5vayhjb21wbGV0ZWQuY2FwdHVyZS5lbGFwc2VkX21zID49IDU5XzAwMCk7CiAgYXNzZXJ0LmVxdWFsKGNvbXBsZXRlZC5jYXB0dXJlLm9wZXJhdGlvbnMuYWN0aXZlLCBmYWxzZSk7CiAgYXNzZXJ0U2FtcGxlcyhjb21wbGV0ZWQuY2FwdHVyZSwgY29tcGxldGVkLnByb2Nlc3Mub3MpOwogIGFzc2VydC5vaygKICAgIGNvbXBsZXRlZC5jYXB0dXJlLm9wZXJhdGlvbnMub3BlcmF0aW9ucy5zb21lKChyb3cpID0+IHJvdy5jYWxscyA+IDApLAogICk7CiAgYXdhaXQgZGVsYXkoMl8xMDApOwogIGFzc2VydC5kZWVwRXF1YWwoCiAgICAoYXdhaXQgYXBpUmVxdWVzdChwYWdlLCBkZWJ1Z1BhdGgpKS5jYXB0dXJlLAogICAgY29tcGxldGVkLmNhcHR1cmUsCiAgKTsKICBzdW1tYXJ5LmNvbXBsZXRlZF9yZXBvcnRfZnJvemVuID0gdHJ1ZTsKICBhc3NlcnROb1NlbnNpdGl2ZVRlc3RWYWx1ZXMoY29tcGxldGVkKTsKICBzdW1tYXJ5LmF1dG9fc3RvcF9lbGFwc2VkX21zID0gTWF0aC5yb3VuZChhY3R1YWxEdXJhdGlvbik7CiAgc3VtbWFyeS5zYW1wbGVfY291bnQgPSBjb21wbGV0ZWQuY2FwdHVyZS5zYW1wbGVzLmxlbmd0aDsKICBzdW1tYXJ5Lm9wZXJhdGlvbl9sYWJlbHMgPSBjb21wbGV0ZWQuY2FwdHVyZS5vcGVyYXRpb25zLm9wZXJhdGlvbnMubWFwKAogICAgKHJvdykgPT4gcm93LmxhYmVsLAogICk7CiAgcGFzc2VkKCJyZWFsIDYwLXNlY29uZCBjYXB0dXJlIGF1dG8tc3RvcHMgd2l0aCBib3VuZGVkLCBmcm96ZW4gbWVhc3VyZW1lbnRzIik7CgogIGF3YWl0IG9wZW5EaWFsb2codG9vbGJhckVudHJ5KTsKICBhd2FpdCBkaWFsb2cKICAgIC5nZXRCeVRleHQoIuW3suWujOaIkCIsIHsgZXhhY3Q6IHRydWUgfSkKICAgIC53YWl0Rm9yKHsgc3RhdGU6ICJ2aXNpYmxlIiB9KTsKICBzdW1tYXJ5LmFydGlmYWN0cy5kZWJ1Z19kZXNrdG9wID0gYXdhaXQgc2NyZWVuc2hvdCgiZGVidWctZGVza3RvcC5wbmciKTsKICBjb25zdCBzcWxpdGVIZWFkaW5nID0gZGlhbG9nLmdldEJ5Um9sZSgiaGVhZGluZyIsIHsKICAgIG5hbWU6ICJTUUxpdGUg5pON5L2cIiwKICAgIGV4YWN0OiB0cnVlLAogIH0pOwogIGF3YWl0IHNxbGl0ZUhlYWRpbmcuc2Nyb2xsSW50b1ZpZXdJZk5lZWRlZCgpOwogIHN1bW1hcnkuYXJ0aWZhY3RzLm9wZXJhdGlvbnNfZGVza3RvcCA9IGF3YWl0IHNjcmVlbnNob3QoCiAgICAib3BlcmF0aW9ucy1kZXNrdG9wLnBuZyIsCiAgKTsKICBjb25zdCBbZG93bmxvYWRdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgcGFnZS53YWl0Rm9yRXZlbnQoImRvd25sb2FkIiksCiAgICBkaWFsb2cuZ2V0QnlSb2xlKCJidXR0b24iLCB7IG5hbWU6ICLlr7zlh7ogSlNPTiIsIGV4YWN0OiB0cnVlIH0pLmNsaWNrKCksCiAgXSk7CiAgYXNzZXJ0Lm1hdGNoKAogICAgZG93bmxvYWQuc3VnZ2VzdGVkRmlsZW5hbWUoKSwKICAgIC9eZm4ta25vY2stcnVudGltZS1kZWJ1Zy1cZCstXGQrXC5qc29uJC8sCiAgKTsKICBzdW1tYXJ5LmFydGlmYWN0cy5yZXBvcnQgPSBwYXRoLmpvaW4oCiAgICBhcnRpZmFjdERpciwKICAgICJydW50aW1lLWRlYnVnLXJlcG9ydC5qc29uIiwKICApOwogIGF3YWl0IGRvd25sb2FkLnNhdmVBcyhzdW1tYXJ5LmFydGlmYWN0cy5yZXBvcnQpOwogIGNvbnN0IGV4cG9ydGVkID0gSlNPTi5wYXJzZShhd2FpdCByZWFkRmlsZShzdW1tYXJ5LmFydGlmYWN0cy5yZXBvcnQsICJ1dGY4IikpOwogIGFzc2VydC5kZWVwRXF1YWwoZXhwb3J0ZWQuY2FwdHVyZSwgY29tcGxldGVkLmNhcHR1cmUpOwogIGFzc2VydE5vU2Vuc2l0aXZlVGVzdFZhbHVlcyhleHBvcnRlZCk7CgogIGNvbnN0IGRpYWdub3N0aWNzID0gYXdhaXQgYXBpUmVxdWVzdChwYWdlLCAiL3J1bnRpbWUtaGVhbHRoL2RpYWdub3N0aWNzIik7CiAgY29uc3Qgb2xkRXhwb3J0T3BlcmF0aW9ucyA9CiAgICBkaWFnbm9zdGljcy5ydW50aW1lX2RlYnVnLmNhcHR1cmUub3BlcmF0aW9ucy5vcGVyYXRpb25zOwogIGFzc2VydC5kZWVwRXF1YWwoCiAgICBvbGRFeHBvcnRPcGVyYXRpb25zLm1hcCgoeyBraW5kLCBsYWJlbCB9KSA9PiAoeyBraW5kLCBsYWJlbCB9KSksCiAgICBleHBvcnRlZC5jYXB0dXJlLm9wZXJhdGlvbnMub3BlcmF0aW9ucy5tYXAoKHsga2luZCwgbGFiZWwgfSkgPT4gKHsKICAgICAga2luZCwKICAgICAgbGFiZWwsCiAgICB9KSksCiAgICAiZXhpc3RpbmcgZGlhZ25vc3RpY3MgZXhwb3J0IHJlZGFjdGVkIG9yIGxvc3Qgb3BlcmF0aW9uIG5hbWVzIiwKICApOwogIGFzc2VydE5vU2Vuc2l0aXZlVGVzdFZhbHVlcyhkaWFnbm9zdGljcyk7CiAgcGFzc2VkKAogICAgIkpTT04gZG93bmxvYWQgbWF0Y2hlcyBjYXB0dXJlOyBleGlzdGluZyBkaWFnbm9zdGljcyBwcmVzZXJ2ZXMgb3BlcmF0aW9uIG5hbWVzIiwKICApOwoKICBhd2FpdCBwYWdlLnNldFZpZXdwb3J0U2l6ZSh7IHdpZHRoOiAzOTAsIGhlaWdodDogODQ0IH0pOwogIGF3YWl0IGRlbGF5KDIwMCk7CiAgY29uc3QgZGlhbG9nU2Nyb2xsID0gZGlhbG9nLmxvY2F0b3IoIi5vdmVyZmxvdy15LWF1dG8iKS5maXJzdCgpOwogIGF3YWl0IGRpYWxvZ1Njcm9sbC5ldmFsdWF0ZSgoZWxlbWVudCkgPT4gewogICAgZWxlbWVudC5zY3JvbGxUb3AgPSAwOwogIH0pOwogIGNvbnN0IGJvdW5kcyA9IGF3YWl0IGRpYWxvZy5ib3VuZGluZ0JveCgpOwogIGFzc2VydC5vaygKICAgIGJvdW5kcyAmJiBib3VuZHMueCA+PSAtMSAmJiBib3VuZHMueCArIGJvdW5kcy53aWR0aCA8PSAzOTEsCiAgICAibW9iaWxlIGRpYWxvZyBvdmVyZmxvd3MgdGhlIHZpZXdwb3J0IiwKICApOwogIHN1bW1hcnkuYXJ0aWZhY3RzLmRlYnVnX21vYmlsZSA9IGF3YWl0IHNjcmVlbnNob3QoImRlYnVnLW1vYmlsZS5wbmciKTsKICBhd2FpdCBzcWxpdGVIZWFkaW5nLnNjcm9sbEludG9WaWV3SWZOZWVkZWQoKTsKICBjb25zdCBvcGVyYXRpb25TZWN0aW9uID0gc3FsaXRlSGVhZGluZy5sb2NhdG9yKCJ4cGF0aD1hbmNlc3Rvcjo6c2VjdGlvblsxXSIpOwogIGNvbnN0IG9wZXJhdGlvbkJvdW5kcyA9IGF3YWl0IG9wZXJhdGlvblNlY3Rpb24uYm91bmRpbmdCb3goKTsKICBhc3NlcnQub2soCiAgICBvcGVyYXRpb25Cb3VuZHMgJiYKICAgICAgb3BlcmF0aW9uQm91bmRzLnggPj0gYm91bmRzLnggJiYKICAgICAgb3BlcmF0aW9uQm91bmRzLnggKyBvcGVyYXRpb25Cb3VuZHMud2lkdGggPD0gYm91bmRzLnggKyBib3VuZHMud2lkdGgsCiAgICAibG9uZyBvcGVyYXRpb24gbGFiZWxzIGV4cGFuZCB0aGUgbW9iaWxlIGRpYWxvZyIsCiAgKTsKICBzdW1tYXJ5LmFydGlmYWN0cy5vcGVyYXRpb25zX21vYmlsZSA9IGF3YWl0IHNjcmVlbnNob3QoCiAgICAib3BlcmF0aW9ucy1tb2JpbGUucG5nIiwKICApOwogIGF3YWl0IHBhZ2UuZXZhbHVhdGUoKCkgPT4gewogICAgd2luZG93LmxvY2F0aW9uLmhhc2ggPSAiIy9ldmVudHM/dGFiPWV2ZW50cyI7CiAgfSk7CiAgLy8gVGhlIGRlZmF1bHQgRXZlbnRzIHRhYiBpcyBjYW5vbmljYWxpemVkIHRvICMvZXZlbnRzIHdpdGhvdXQgYSBxdWVyeS4KICBhd2FpdCBwYWdlLndhaXRGb3JGdW5jdGlvbigoKSA9PiB7CiAgICBjb25zdCBbcGF0aG5hbWUsIHF1ZXJ5XSA9IHdpbmRvdy5sb2NhdGlvbi5oYXNoLnNsaWNlKDEpLnNwbGl0KCI/Iik7CiAgICByZXR1cm4gKAogICAgICBwYXRobmFtZSA9PT0gIi9ldmVudHMiICYmCiAgICAgIChuZXcgVVJMU2VhcmNoUGFyYW1zKHF1ZXJ5KS5nZXQoInRhYiIpID8/ICJldmVudHMiKSA9PT0gImV2ZW50cyIgJiYKICAgICAgWy4uLmRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJ1tyb2xlPSJ0YWIiXScpXS5zb21lKAogICAgICAgICh0YWIpID0+CiAgICAgICAgICB0YWIudGV4dENvbnRlbnQudHJpbSgpID09PSAi5LqL5Lu2IiAmJgogICAgICAgICAgdGFiLmdldEF0dHJpYnV0ZSgiYXJpYS1zZWxlY3RlZCIpID09PSAidHJ1ZSIsCiAgICAgICkKICAgICk7CiAgfSk7CiAgYXdhaXQgYXNzZXJ0Tm9Qb2xsaW5nKCJpbmFjdGl2ZSBydW50aW1lIHRhYiIpOwogIHBhc3NlZCgKICAgICIzOTBweCBkaWFsb2cgc3RheXMgd2l0aGluIHZpZXdwb3J0OyBsZWF2aW5nIHJ1bnRpbWUgdGFiIHN0b3BzIHBvbGxpbmciLAogICk7CgogIGFzc2VydC5kZWVwRXF1YWwoCiAgICBwYWdlRXJyb3JzLAogICAgW10sCiAgICAiYnJvd3NlciBlbWl0dGVkIHVuaGFuZGxlZCBKYXZhU2NyaXB0IGVycm9ycyIsCiAgKTsKICBzdW1tYXJ5LnBhZ2VfZXJyb3JzID0gcGFnZUVycm9yczsKICBzdW1tYXJ5LnBhZ2VfZXJyb3JfY291bnQgPSBwYWdlRXJyb3JzLmxlbmd0aDsKICBzdW1tYXJ5LnN0YXR1cyA9ICJwYXNzZWQiOwogIHN1bW1hcnkuZmluaXNoZWRfYXQgPSBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCk7CiAgYXdhaXQgd3JpdGVGaWxlKAogICAgcGF0aC5qb2luKGFydGlmYWN0RGlyLCAic3VtbWFyeS5qc29uIiksCiAgICBKU09OLnN0cmluZ2lmeShzdW1tYXJ5LCBudWxsLCAyKSArICJcbiIsCiAgKTsKICBjb25zb2xlLmxvZyhgW3J1bnRpbWUtZGVidWctZTJlXSBwYXNzZWQ7IGFydGlmYWN0czogJHthcnRpZmFjdERpcn1gKTsKfSBjYXRjaCAoZXJyb3IpIHsKICBzdW1tYXJ5LnN0YXR1cyA9ICJmYWlsZWQiOwogIHN1bW1hcnkuZXJyb3IgPSBTdHJpbmcoZXJyb3I/LnN0YWNrID8/IGVycm9yKTsKICBzdW1tYXJ5LnBhZ2VfZXJyb3JzID0gcGFnZUVycm9yczsKICBzdW1tYXJ5LnBhZ2VfZXJyb3JfY291bnQgPSBwYWdlRXJyb3JzLmxlbmd0aDsKICBzdW1tYXJ5LmZhaWxlZF91cmwgPSBwYWdlPy51cmwoKTsKICBzdW1tYXJ5LmZpbmlzaGVkX2F0ID0gbmV3IERhdGUoKS50b0lTT1N0cmluZygpOwogIGlmIChwYWdlICYmICFwYWdlLmlzQ2xvc2VkKCkpIHsKICAgIGF3YWl0IHBhZ2UKICAgICAgLnNjcmVlbnNob3QoewogICAgICAgIHBhdGg6IHBhdGguam9pbihhcnRpZmFjdERpciwgImZhaWx1cmUucG5nIiksCiAgICAgICAgZnVsbFBhZ2U6IHRydWUsCiAgICAgIH0pCiAgICAgIC5jYXRjaCgoKSA9PiB7fSk7CiAgfQogIGF3YWl0IHdyaXRlRmlsZSgKICAgIHBhdGguam9pbihhcnRpZmFjdERpciwgInN1bW1hcnkuanNvbiIpLAogICAgSlNPTi5zdHJpbmdpZnkoc3VtbWFyeSwgbnVsbCwgMikgKyAiXG4iLAogICk7CiAgdGhyb3cgZXJyb3I7Cn0gZmluYWxseSB7CiAgYXdhaXQgdmlzaWJpbGl0eVJlc3RvcmU/LigpLmNhdGNoKCgpID0+IHt9KTsKICB0cnkgewogICAgYXdhaXQgYnJvd3Nlcj8uY2xvc2UoKTsKICB9IGZpbmFsbHkgewogICAgYXdhaXQgcnVudGltZT8uc3RvcCgpOwogIH0KfQo=
+import assert from "node:assert/strict";
+import { mkdir, mkdtemp, readFile, writeFile } from "node:fs/promises";
+import os from "node:os";
+import path from "node:path";
+import { setTimeout as delay } from "node:timers/promises";
+import { chromium } from "playwright";
+import { fetchRuntime, startRuntime } from "./runtime-test-harness.mjs";
+
+const password = "runtime123";
+const debugPath = "/runtime-health/debug";
+const capturePath = `${debugPath}/capture`;
+const memoryPath = `${debugPath}/memory`;
+const pollingQuietWindowMs = 2_500;
+const artifactDir = process.env.FN_KNOCK_RUNTIME_DEBUG_E2E_OUTPUT_DIR
+  ? path.resolve(process.env.FN_KNOCK_RUNTIME_DEBUG_E2E_OUTPUT_DIR)
+  : await mkdtemp(path.join(os.tmpdir(), "fn-knock-debug-evidence-"));
+
+const apiRequest = async (page, requestPath, method = "GET") => {
+  const result = await page.evaluate(
+    async ({ requestPath, method }) => {
+      const response = await fetch(`/api/admin${requestPath}`, {
+        method,
+        credentials: "include",
+        signal: AbortSignal.timeout(10_000),
+      });
+      return { status: response.status, body: await response.json() };
+    },
+    { requestPath, method },
+  );
+  assert.equal(result.status, 200, `${method} ${requestPath} failed`);
+  assert.ok(result.body.success, `${method} ${requestPath} was unsuccessful`);
+  return result.body.data;
+};
+
+const submitGatePassword = async (page, autocomplete) => {
+  const input = page.locator(`input[autocomplete="${autocomplete}"]`);
+  await input.waitFor({ state: "visible" });
+  await input.fill(password);
+  if (autocomplete === "current-password") {
+    await page.locator("#dockerAdminRememberMe").click();
+  }
+  await page.locator('form button[type="submit"]').click();
+  await page.locator("#main-content").waitFor({ state: "visible" });
+};
+
+const waitForApi = (page, requestPath, method = "GET") =>
+  page.waitForResponse(
+    (response) =>
+      new URL(response.url()).pathname === `/api/admin${requestPath}` &&
+      response.request().method() === method,
+  );
+
+const clickAndRead = async (page, button, requestPath, method) => {
+  const [response] = await Promise.all([
+    waitForApi(page, requestPath, method),
+    button.click(),
+  ]);
+  assert.equal(response.status(), 200, `${method} ${requestPath} failed`);
+  const body = await response.json();
+  assert.ok(body.success);
+  return body.data;
+};
+
+const assertCaptureIdle = (report) => {
+  assert.equal(report.capture.status, "idle");
+  assert.equal(report.capture.id, null);
+  assert.deepEqual(report.capture.samples, []);
+  assert.equal(report.capture.operations.active, false);
+  assert.deepEqual(report.capture.operations.operations, []);
+};
+
+const assertNoSensitiveTestValues = (value) => {
+  const serialized = JSON.stringify(value);
+  for (const marker of [
+    password,
+    "runtime-audit-internal-token",
+    "runtime-audit-hmac-secret",
+  ]) {
+    assert.ok(!serialized.includes(marker), "diagnostics exposed a credential");
+  }
+};
+
+const assertSamples = (capture, runtimeOs) => {
+  assert.ok(capture.samples.length >= 50, "too few samples in the real minute");
+  assert.ok(capture.samples.length <= 61, "capture exceeded its sample bound");
+  assert.equal(capture.samples[0].resource.cpu_percent, null);
+  if (["linux", "macos"].includes(runtimeOs)) {
+    assert.ok(
+      capture.samples
+        .slice(1)
+        .some((sample) => Number.isFinite(sample.resource.cpu_percent)),
+      "capture never measured a CPU delta",
+    );
+  } else {
+    assert.ok(
+      capture.samples.every(
+        (sample) =>
+          sample.resource.cpu_percent === null &&
+          sample.resource.errors.includes("process_cpu_unsupported"),
+      ),
+      "unsupported platform did not explicitly report missing CPU support",
+    );
+  }
+  for (const [index, sample] of capture.samples.entries()) {
+    assert.ok(sample.elapsed_ms >= 0);
+    if (index > 0) {
+      assert.ok(sample.elapsed_ms >= capture.samples[index - 1].elapsed_ms);
+    }
+    assert.ok(sample.resource.thread_cpu.length <= 8);
+    assert.ok(
+      sample.resource.cpu_percent === null || sample.resource.cpu_percent >= 0,
+    );
+    assert.ok(
+      sample.resource.rss_bytes === null || sample.resource.rss_bytes > 0,
+    );
+  }
+};
+
+let runtime;
+let browser;
+let page;
+let visibilityRestore;
+const checks = [];
+const pageErrors = [];
+const summary = {
+  started_at: new Date().toISOString(),
+  checks,
+  unauthenticated_methods: [],
+  artifacts: {},
+};
+
+const passed = (name) => {
+  checks.push(name);
+  console.log(`[runtime-debug-e2e] ${name}`);
+};
+
+try {
+  await mkdir(artifactDir, { recursive: true });
+  // Deliberately do not accept an external URL: setup and mutations belong only
+  // to the isolated runtime and its temporary SQLite database.
+  console.log("[runtime-debug-e2e] starting isolated Rust/Go runtime");
+  runtime = await startRuntime({
+    gatewayBinary:
+      process.env.FN_KNOCK_RUNTIME_E2E_GATEWAY_BIN ??
+      process.env.FN_KNOCK_A11Y_GATEWAY_BIN,
+    protectedAdmin: true,
+    tempPrefix: "fn-knock-runtime-debug-e2e-",
+  });
+  console.log(
+    "[runtime-debug-e2e] runtime ready; checking protected setup/login",
+  );
+  browser = await chromium.launch({ headless: true });
+  const context = await browser.newContext({
+    locale: "zh-CN",
+    viewport: { width: 1440, height: 1080 },
+    acceptDownloads: true,
+  });
+  page = await context.newPage();
+  page.setDefaultTimeout(20_000);
+  page.on("pageerror", (error) => pageErrors.push(error.message));
+  let debugReads = 0;
+  page.on("request", (request) => {
+    if (
+      request.method() === "GET" &&
+      new URL(request.url()).pathname === `/api/admin${debugPath}`
+    ) {
+      debugReads += 1;
+    }
+  });
+
+  await page.goto(runtime.adminUrl, { waitUntil: "domcontentloaded" });
+  await submitGatePassword(page, "new-password");
+  await page.goto("about:blank");
+  await context.clearCookies();
+
+  for (const [method, requestPath] of [
+    ["GET", debugPath],
+    ["POST", capturePath],
+    ["DELETE", capturePath],
+    ["POST", memoryPath],
+  ]) {
+    const response = await fetchRuntime(
+      `${runtime.adminUrl}/api/admin${requestPath}`,
+      { method, redirect: "manual" },
+    );
+    const status = response.status;
+    await response.body?.cancel();
+    assert.ok(
+      status === 401 || status === 403,
+      `unauthenticated ${method} ${requestPath} returned ${status}`,
+    );
+    summary.unauthenticated_methods.push({ method, path: requestPath, status });
+  }
+  passed("all four debug methods reject unauthenticated requests");
+
+  await page.goto(runtime.adminUrl, { waitUntil: "domcontentloaded" });
+  await submitGatePassword(page, "current-password");
+  assertCaptureIdle(await apiRequest(page, debugPath));
+  assertCaptureIdle(await apiRequest(page, debugPath));
+  passed("protected setup/login succeeds; initial GET never starts capture");
+
+  await page.goto(`${runtime.adminUrl}/#/events?tab=runtime`, {
+    waitUntil: "domcontentloaded",
+  });
+  const runtimeTab = page.getByRole("tab", { name: "状态", exact: true });
+  await runtimeTab.waitFor({ state: "visible" });
+  assert.equal(await runtimeTab.getAttribute("aria-selected"), "true");
+  const toolbarEntry = page.getByRole("button", {
+    name: "运行诊断",
+    exact: true,
+  });
+  const managementCard = page.locator("article").filter({
+    has: page.getByText("管理服务", { exact: true }),
+  });
+  const managementEntry = managementCard.getByRole("button", {
+    name: "查看诊断",
+    exact: true,
+  });
+  await toolbarEntry.waitFor({ state: "visible" });
+  await managementEntry.waitFor({ state: "visible" });
+  const screenshot = async (fileName) => {
+    // Vue route transitions can still be fading after the target is visible.
+    await delay(350);
+    const filePath = path.join(artifactDir, fileName);
+    await page.screenshot({
+      path: filePath,
+      fullPage: false,
+      animations: "disabled",
+    });
+    return filePath;
+  };
+  summary.artifacts.status_desktop = await screenshot("status-desktop.png");
+
+  const dialog = page.getByRole("dialog", {
+    name: "Rust 运行诊断",
+    exact: true,
+  });
+  const openDialog = async (button) => {
+    const [response] = await Promise.all([
+      waitForApi(page, debugPath),
+      button.click(),
+      dialog.waitFor({ state: "visible" }),
+    ]);
+    assert.equal(response.status(), 200);
+    return (await response.json()).data;
+  };
+  const closeDialog = async () => {
+    await page.keyboard.press("Escape");
+    await dialog.waitFor({ state: "hidden" });
+  };
+  const assertNoPolling = async (label) => {
+    // Allow a request already emitted before close/visibilitychange to settle.
+    await delay(150);
+    const before = debugReads;
+    await delay(pollingQuietWindowMs);
+    assert.equal(debugReads, before, `${label} continued debug GET polling`);
+  };
+
+  assertCaptureIdle(await openDialog(toolbarEntry));
+  const readsWhenOpen = debugReads;
+  await delay(pollingQuietWindowMs);
+  assert.ok(debugReads > readsWhenOpen, "visible dialog did not poll");
+  await closeDialog();
+  await assertNoPolling("closed dialog");
+  assertCaptureIdle(await openDialog(managementEntry));
+  passed(
+    "status toolbar and management card open the dialog; close stops polling",
+  );
+
+  const startButton = dialog.getByRole("button", {
+    name: "开始 60 秒采样",
+    exact: true,
+  });
+  const stopButton = dialog.getByRole("button", {
+    name: "停止并保留结果",
+    exact: true,
+  });
+  const first = await clickAndRead(page, startButton, capturePath, "POST");
+  assert.equal(first.capture.status, "running");
+  assert.ok(first.capture.id);
+  assert.equal(first.capture.operations.active, true);
+  const repeated = await apiRequest(page, capturePath, "POST");
+  assert.equal(repeated.capture.id, first.capture.id);
+  await apiRequest(page, "/config/appearance");
+  await delay(1_250);
+  const stopped = await clickAndRead(page, stopButton, capturePath, "DELETE");
+  assert.equal(stopped.capture.status, "stopped");
+  assert.equal(stopped.capture.operations.active, false);
+  await delay(2_100);
+  const laterStopped = await apiRequest(page, debugPath);
+  assert.deepEqual(
+    laterStopped.capture,
+    stopped.capture,
+    "stopped report changed",
+  );
+  summary.manual_stop_report_frozen = true;
+  passed(
+    "repeated start is idempotent and stop freezes samples and operations",
+  );
+
+  const memory = await clickAndRead(
+    page,
+    dialog.getByRole("button", { name: "采集内存详情", exact: true }),
+    memoryPath,
+    "POST",
+  );
+  assert.ok(memory.memory?.collected_at);
+  assert.ok(
+    ["available", "partial", "unsupported", "unavailable"].includes(
+      memory.memory.status,
+    ),
+  );
+  assert.ok(memory.memory.largest_anonymous_regions.length <= 8);
+  assert.equal(memory.capture.status, "stopped");
+  assert.equal(memory.memory_refreshing, false);
+  assertNoSensitiveTestValues(memory);
+  summary.memory_status = memory.memory.status;
+  passed("manual memory collection is bounded and does not restart capture");
+
+  const fullStartedAt = performance.now();
+  const full = await clickAndRead(page, startButton, capturePath, "POST");
+  assert.equal(full.capture.status, "running");
+  assert.notEqual(full.capture.id, first.capture.id);
+  await apiRequest(page, "/config/appearance");
+  await closeDialog();
+  await assertNoPolling("dialog closed during capture");
+  assert.equal((await openDialog(toolbarEntry)).capture.id, full.capture.id);
+
+  // Prefer real browser visibility. Headless Chromium builds that keep every
+  // tab visible use a documented DOM visibilitychange simulation; record which
+  // mode ran rather than claiming an OS-level background transition occurred.
+  const foreground = await context.newPage();
+  await foreground.goto("about:blank");
+  await foreground.bringToFront();
+  const nativeHidden = await page.evaluate(() => document.hidden);
+  if (nativeHidden) {
+    summary.background_visibility_mode = "native_background_tab";
+    visibilityRestore = async () => {
+      await page.bringToFront();
+      await foreground.close();
+    };
+  } else {
+    summary.background_visibility_mode = "simulated_visibilitychange";
+    await page.evaluate(() => {
+      window.__runtimeDebugVisibilityDescriptor =
+        Object.getOwnPropertyDescriptor(document, "hidden");
+      Object.defineProperty(document, "hidden", {
+        configurable: true,
+        get: () => true,
+      });
+      document.dispatchEvent(new Event("visibilitychange"));
+    });
+    visibilityRestore = async () => {
+      await page.evaluate(() => {
+        const descriptor = window.__runtimeDebugVisibilityDescriptor;
+        if (descriptor) Object.defineProperty(document, "hidden", descriptor);
+        else delete document.hidden;
+        delete window.__runtimeDebugVisibilityDescriptor;
+        document.dispatchEvent(new Event("visibilitychange"));
+      });
+      await page.bringToFront();
+      await foreground.close();
+    };
+  }
+  await assertNoPolling("background dialog");
+  const [resumed] = await Promise.all([
+    waitForApi(page, debugPath),
+    visibilityRestore(),
+  ]);
+  visibilityRestore = null;
+  assert.equal(resumed.status(), 200);
+  await closeDialog();
+  passed(
+    `background visibility stops polling (${summary.background_visibility_mode})`,
+  );
+
+  let completed;
+  let lastProgressAt = performance.now();
+  const completionDeadline = fullStartedAt + 75_000;
+  while (performance.now() < completionDeadline) {
+    const report = await apiRequest(page, debugPath);
+    assert.equal(report.capture.id, full.capture.id);
+    if (report.capture.status === "completed") {
+      completed = report;
+      break;
+    }
+    assert.equal(report.capture.status, "running");
+    if (performance.now() - lastProgressAt >= 15_000) {
+      console.log(
+        `[runtime-debug-e2e] real capture elapsed ${report.capture.elapsed_ms} ms`,
+      );
+      lastProgressAt = performance.now();
+    }
+    await delay(2_000);
+  }
+  assert.ok(completed, "capture failed to complete within its deadline");
+  const actualDuration = performance.now() - fullStartedAt;
+  assert.ok(
+    actualDuration >= 59_000,
+    "capture finished before a real minute elapsed",
+  );
+  assert.ok(completed.capture.elapsed_ms >= 59_000);
+  assert.equal(completed.capture.operations.active, false);
+  assertSamples(completed.capture, completed.process.os);
+  assert.ok(
+    completed.capture.operations.operations.some((row) => row.calls > 0),
+  );
+  await delay(2_100);
+  assert.deepEqual(
+    (await apiRequest(page, debugPath)).capture,
+    completed.capture,
+  );
+  summary.completed_report_frozen = true;
+  assertNoSensitiveTestValues(completed);
+  summary.auto_stop_elapsed_ms = Math.round(actualDuration);
+  summary.sample_count = completed.capture.samples.length;
+  summary.operation_labels = completed.capture.operations.operations.map(
+    (row) => row.label,
+  );
+  passed("real 60-second capture auto-stops with bounded, frozen measurements");
+
+  await openDialog(toolbarEntry);
+  await dialog
+    .getByText("已完成", { exact: true })
+    .waitFor({ state: "visible" });
+  summary.artifacts.debug_desktop = await screenshot("debug-desktop.png");
+  const sqliteHeading = dialog.getByRole("heading", {
+    name: "SQLite 操作",
+    exact: true,
+  });
+  await sqliteHeading.scrollIntoViewIfNeeded();
+  summary.artifacts.operations_desktop = await screenshot(
+    "operations-desktop.png",
+  );
+  const [download] = await Promise.all([
+    page.waitForEvent("download"),
+    dialog.getByRole("button", { name: "导出 JSON", exact: true }).click(),
+  ]);
+  assert.match(
+    download.suggestedFilename(),
+    /^fn-knock-runtime-debug-\d+-\d+\.json$/,
+  );
+  summary.artifacts.report = path.join(
+    artifactDir,
+    "runtime-debug-report.json",
+  );
+  await download.saveAs(summary.artifacts.report);
+  const exported = JSON.parse(await readFile(summary.artifacts.report, "utf8"));
+  assert.deepEqual(exported.capture, completed.capture);
+  assertNoSensitiveTestValues(exported);
+
+  const diagnostics = await apiRequest(page, "/runtime-health/diagnostics");
+  const oldExportOperations =
+    diagnostics.runtime_debug.capture.operations.operations;
+  assert.deepEqual(
+    oldExportOperations.map(({ kind, label }) => ({ kind, label })),
+    exported.capture.operations.operations.map(({ kind, label }) => ({
+      kind,
+      label,
+    })),
+    "existing diagnostics export redacted or lost operation names",
+  );
+  assertNoSensitiveTestValues(diagnostics);
+  passed(
+    "JSON download matches capture; existing diagnostics preserves operation names",
+  );
+
+  await page.setViewportSize({ width: 390, height: 844 });
+  await delay(200);
+  const dialogScroll = dialog.locator(".overflow-y-auto").first();
+  await dialogScroll.evaluate((element) => {
+    element.scrollTop = 0;
+  });
+  const bounds = await dialog.boundingBox();
+  assert.ok(
+    bounds && bounds.x >= -1 && bounds.x + bounds.width <= 391,
+    "mobile dialog overflows the viewport",
+  );
+  summary.artifacts.debug_mobile = await screenshot("debug-mobile.png");
+  await sqliteHeading.scrollIntoViewIfNeeded();
+  const operationSection = sqliteHeading.locator("xpath=ancestor::section[1]");
+  const operationBounds = await operationSection.boundingBox();
+  assert.ok(
+    operationBounds &&
+      operationBounds.x >= bounds.x &&
+      operationBounds.x + operationBounds.width <= bounds.x + bounds.width,
+    "long operation labels expand the mobile dialog",
+  );
+  summary.artifacts.operations_mobile = await screenshot(
+    "operations-mobile.png",
+  );
+  await page.evaluate(() => {
+    window.location.hash = "#/events?tab=events";
+  });
+  // The default Events tab is canonicalized to #/events without a query.
+  await page.waitForFunction(() => {
+    const [pathname, query] = window.location.hash.slice(1).split("?");
+    return (
+      pathname === "/events" &&
+      (new URLSearchParams(query).get("tab") ?? "events") === "events" &&
+      [...document.querySelectorAll('[role="tab"]')].some(
+        (tab) =>
+          tab.textContent.trim() === "事件" &&
+          tab.getAttribute("aria-selected") === "true",
+      )
+    );
+  });
+  await assertNoPolling("inactive runtime tab");
+  passed(
+    "390px dialog stays within viewport; leaving runtime tab stops polling",
+  );
+
+  assert.deepEqual(
+    pageErrors,
+    [],
+    "browser emitted unhandled JavaScript errors",
+  );
+  summary.page_errors = pageErrors;
+  summary.page_error_count = pageErrors.length;
+  summary.status = "passed";
+  summary.finished_at = new Date().toISOString();
+  await writeFile(
+    path.join(artifactDir, "summary.json"),
+    JSON.stringify(summary, null, 2) + "\n",
+  );
+  console.log(`[runtime-debug-e2e] passed; artifacts: ${artifactDir}`);
+} catch (error) {
+  summary.status = "failed";
+  summary.error = String(error?.stack ?? error);
+  summary.page_errors = pageErrors;
+  summary.page_error_count = pageErrors.length;
+  summary.failed_url = page?.url();
+  summary.finished_at = new Date().toISOString();
+  if (page && !page.isClosed()) {
+    await page
+      .screenshot({
+        path: path.join(artifactDir, "failure.png"),
+        fullPage: true,
+      })
+      .catch(() => {});
+  }
+  await writeFile(
+    path.join(artifactDir, "summary.json"),
+    JSON.stringify(summary, null, 2) + "\n",
+  );
+  throw error;
+} finally {
+  await visibilityRestore?.().catch(() => {});
+  try {
+    await browser?.close();
+  } finally {
+    await runtime?.stop();
+  }
+}

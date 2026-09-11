@@ -1,1 +1,333 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IHJlYWRGaWxlLCByZWFkZGlyIH0gZnJvbSAibm9kZTpmcy9wcm9taXNlcyI7CmltcG9ydCB7IGV4dG5hbWUsIGpvaW4sIHJlbGF0aXZlIH0gZnJvbSAibm9kZTpwYXRoIjsKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCB9IGZyb20gIm5vZGU6dXJsIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKaW1wb3J0IHsgbmV4dFRpY2ssIHJlZiB9IGZyb20gInZ1ZSI7CgppbXBvcnQgeyBjcmVhdGVDaWRyUmVnaW9uU2VsZWN0b3JTdGF0ZSB9IGZyb20gIi4uL3NyYy9jb21wb25lbnRzL2NpZHItcmVnaW9uLXNlbGVjdG9yLXN0YXRlIjsKaW1wb3J0IHsKICBnZXRDaWRyUmVnaW9uU2VsZWN0aW9uS2V5LAogIGdldENpZHJSZWdpb25TZWxlY3Rpb25MYWJlbCwKfSBmcm9tICIuLi9zcmMvdHlwZXMvY2lkciI7CmltcG9ydCB0eXBlIHsKICBDaWRyQ2FwYWJpbGl0aWVzUGF5bG9hZCwKICBHYXRld2F5VmlzaWJpbGl0eVNlbGVjdGlvbiwKfSBmcm9tICIuLi9zcmMvdHlwZXMiOwoKY29uc3Qgc3JjUm9vdCA9IGZpbGVVUkxUb1BhdGgobmV3IFVSTCgiLi4vc3JjIiwgaW1wb3J0Lm1ldGEudXJsKSk7CmNvbnN0IHNlbGVjdG9yUGF0aCA9ICJjb21wb25lbnRzL0NpZHJSZWdpb25TZWxlY3Rvci52dWUiOwpjb25zdCBzZWxlY3RvclN0YXRlUGF0aCA9ICJjb21wb25lbnRzL2NpZHItcmVnaW9uLXNlbGVjdG9yLXN0YXRlLnRzIjsKY29uc3Qgc2VsZWN0b3JDb25zdW1lcnMgPSBbCiAgInZpZXdzL2lwLXdoaXRlbGlzdC9XaGl0ZWxpc3RBZGREaWFsb2cudnVlIiwKICAidmlld3Mvc3NoLXNlY3VyaXR5L1NTSFNlY3VyaXR5Rm9ybUZpZWxkcy52dWUiLAogICJ2aWV3cy9zdWJkb21haW4tcHJveHkvU3ViZG9tYWluTWFwcGluZ1Zpc2liaWxpdHlQYW5lbC52dWUiLAogICJ2aWV3cy9zeXN0ZW0tc2V0dGluZ3MvR2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy52dWUiLAogICJ2aWV3cy9zeXN0ZW0tc2V0dGluZ3Mvc2Nhbm5lci1maXJld2FsbC9TY2FubmVyRmlyZXdhbGxFeGVtcHRpb25zLnZ1ZSIsCl07Cgpjb25zdCBsaXN0U291cmNlRmlsZXMgPSBhc3luYyAoZGlyZWN0b3J5OiBzdHJpbmcpOiBQcm9taXNlPHN0cmluZ1tdPiA9PiB7CiAgY29uc3QgZW50cmllcyA9IGF3YWl0IHJlYWRkaXIoZGlyZWN0b3J5LCB7IHdpdGhGaWxlVHlwZXM6IHRydWUgfSk7CiAgY29uc3QgZmlsZXMgPSBhd2FpdCBQcm9taXNlLmFsbCgKICAgIGVudHJpZXMubWFwKGFzeW5jIChlbnRyeSkgPT4gewogICAgICBjb25zdCBwYXRoID0gam9pbihkaXJlY3RvcnksIGVudHJ5Lm5hbWUpOwogICAgICByZXR1cm4gZW50cnkuaXNEaXJlY3RvcnkoKSA/IGxpc3RTb3VyY2VGaWxlcyhwYXRoKSA6IFtwYXRoXTsKICAgIH0pLAogICk7CiAgcmV0dXJuIGZpbGVzLmZsYXQoKS5maWx0ZXIoKHBhdGgpID0+IFsiLnRzIiwgIi52dWUiXS5pbmNsdWRlcyhleHRuYW1lKHBhdGgpKSk7Cn07Cgpjb25zdCBjYXBhYmlsaXRpZXMgPSAoc3VwcG9ydGVkOiBib29sZWFuKTogQ2lkckNhcGFiaWxpdGllc1BheWxvYWQgPT4gKHsKICBzb3VyY2U6ICJjdXN0b20iLAogIG9wZXJhdG9yRmlsdGVyaW5nOiB7CiAgICBzdXBwb3J0ZWQsCiAgICBvcGVyYXRvcnM6IFsi55S15L+hIiwgIuiBlOmAmiIsICLnp7vliqgiXSwKICAgIG1pbmltdW1Db250YWluZXJWZXJzaW9uOiAiMC4xLjMiLAogIH0sCn0pOwpjb25zdCBwcm92aW5jZSA9IHsKICBsYWJlbDogIuaxn+iLj+ecgSIsCiAgdmFsdWU6ICLmsZ/oi4/nnIEiLAogIGNpdHlDb3VudDogMiwKICBpc011bmljaXBhbGl0eTogZmFsc2UsCn07CmNvbnN0IGNpdHkgPSB7CiAgbGFiZWw6ICLljZfkuqzluIIiLAogIHZhbHVlOiAi5Y2X5Lqs5biCIiwKICBxdWVyeUNpdHk6ICLljZfkuqzluIIiLAogIGlzUHJvdmluY2VXaWRlOiBmYWxzZSwKICBpc011bmljaXBhbGl0eTogZmFsc2UsCiAgaXB2NENvdW50OiAxLAogIGlwdjZDb3VudDogMSwKfTsKY29uc3Qgc2Vjb25kQ2l0eSA9IHsKICAuLi5jaXR5LAogIGxhYmVsOiAi6IuP5bee5biCIiwKICB2YWx1ZTogIuiLj+W3nuW4giIsCiAgcXVlcnlDaXR5OiAi6IuP5bee5biCIiwKfTsKY29uc3QgcHJvdmluY2VXaWRlID0gewogIC4uLmNpdHksCiAgbGFiZWw6ICLmsZ/oi4/lhajnnIEiLAogIHZhbHVlOiAiX19wcm92aW5jZV9hbGxfXyIsCiAgcXVlcnlDaXR5OiBudWxsLAogIGlzUHJvdmluY2VXaWRlOiB0cnVlLAp9Owpjb25zdCBzZWxlY3Rpb25Gcm9tT3B0aW9uID0gKAogIG9wdGlvbjogdHlwZW9mIGNpdHkgfCB0eXBlb2YgcHJvdmluY2VXaWRlLAogIG9wZXJhdG9yOiBHYXRld2F5VmlzaWJpbGl0eVNlbGVjdGlvblsib3BlcmF0b3IiXSA9IG51bGwsCik6IEdhdGV3YXlWaXNpYmlsaXR5U2VsZWN0aW9uID0+ICh7CiAgcHJvdmluY2U6IHByb3ZpbmNlLnZhbHVlLAogIGNpdHk6IG9wdGlvbi5pc1Byb3ZpbmNlV2lkZSA/IG51bGwgOiBvcHRpb24ubGFiZWwsCiAgbGFiZWw6IG9wZXJhdG9yID8gYCR7b3B0aW9uLmxhYmVsfSDCtyAke29wZXJhdG9yfWAgOiBvcHRpb24ubGFiZWwsCiAgdmFsdWU6IG9wdGlvbi52YWx1ZSwKICBxdWVyeV9jaXR5OiBvcHRpb24ucXVlcnlDaXR5LAogIG9wZXJhdG9yLAogIGlzX3Byb3ZpbmNlX3dpZGU6IG9wdGlvbi5pc1Byb3ZpbmNlV2lkZSwKICBpc19tdW5pY2lwYWxpdHk6IG9wdGlvbi5pc011bmljaXBhbGl0eSwKfSk7CmNvbnN0IGZsdXNoUHJvbWlzZXMgPSAoKSA9PgogIG5ldyBQcm9taXNlPHZvaWQ+KChyZXNvbHZlKSA9PiBzZXRJbW1lZGlhdGUocmVzb2x2ZSkpOwoKY29uc3QgY3JlYXRlU3RhdGUgPSAoCiAgc2VsZWN0aW9ucyA9IHJlZjxHYXRld2F5VmlzaWJpbGl0eVNlbGVjdGlvbltdPihbXSksCiAgb3BlcmF0b3JTdXBwb3J0ID0gdHJ1ZSwKKSA9PgogIGNyZWF0ZUNpZHJSZWdpb25TZWxlY3RvclN0YXRlKHsKICAgIGRpc2FibGVkOiByZWYoZmFsc2UpLAogICAgZm9ybWF0TG9hZEVycm9yOiBTdHJpbmcsCiAgICBsb2FkQ2FwYWJpbGl0aWVzOiBhc3luYyAoKSA9PiBjYXBhYmlsaXRpZXMob3BlcmF0b3JTdXBwb3J0KSwKICAgIGxvYWRDaXRpZXM6IGFzeW5jICgpID0+ICh7IG9wdGlvbnM6IFtwcm92aW5jZVdpZGUsIGNpdHksIHNlY29uZENpdHldIH0pLAogICAgbG9hZFByb3ZpbmNlczogYXN5bmMgKCkgPT4gKHsgb3B0aW9uczogW3Byb3ZpbmNlXSB9KSwKICAgIG9uTG9hZEVycm9yOiAoKSA9PiBhc3NlcnQuZmFpbCgibG9hZGluZyBzaG91bGQgc3VjY2VlZCIpLAogICAgc2VsZWN0aW9ucywKICB9KTsKCmRlc2NyaWJlKCJDSURSIHJlZ2lvbiBzZWxlY3RvciIsICgpID0+IHsKICBpdCgiYnVpbGRzIHN0YWJsZSBrZXlzIGZyb20gcHJvdmluY2UsIGNpdHksIGFuZCBvcGVyYXRvciIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbktleSh7IHByb3ZpbmNlOiAi5rWZ5rGf55yBIiwgcXVlcnlfY2l0eTogIuadreW3nuW4giIgfSksCiAgICAgICLmtZnmsZ/nnIE6OuadreW3nuW4gjo6IiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGdldENpZHJSZWdpb25TZWxlY3Rpb25LZXkoewogICAgICAgIHByb3ZpbmNlOiAi5rWZ5rGf55yBIiwKICAgICAgICBxdWVyeV9jaXR5OiAi5p2t5bee5biCIiwKICAgICAgICBvcGVyYXRvcjogIuenu+WKqCIsCiAgICAgIH0pLAogICAgICAi5rWZ5rGf55yBOjrmna3lt57luII6Ouenu+WKqCIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBnZXRDaWRyUmVnaW9uU2VsZWN0aW9uTGFiZWwoewogICAgICAgIHByb3ZpbmNlOiAi5rWZ5rGf55yBIiwKICAgICAgICBxdWVyeV9jaXR5OiAi5p2t5bee5biCIiwKICAgICAgICBvcGVyYXRvcjogIuenu+WKqCIsCiAgICAgIH0pLAogICAgICAi5p2t5bee5biCIMK3IOenu+WKqCIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBnZXRDaWRyUmVnaW9uU2VsZWN0aW9uTGFiZWwoewogICAgICAgIHByb3ZpbmNlOiAi5rWZ5rGf55yBIiwKICAgICAgICBjaXR5OiAi5p2t5bee5biCIiwKICAgICAgICBsYWJlbDogIuadreW3nuW4giIsCiAgICAgICAgcXVlcnlfY2l0eTogIuadreW3nuW4giIsCiAgICAgICAgb3BlcmF0b3I6ICLnlLXkv6EiLAogICAgICB9KSwKICAgICAgIuadreW3nuW4giDCtyDnlLXkv6EiLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbkxhYmVsKAogICAgICAgIHsKICAgICAgICAgIHByb3ZpbmNlOiAi5rWZ5rGf55yBIiwKICAgICAgICAgIHF1ZXJ5X2NpdHk6ICLmna3lt57luIIiLAogICAgICAgICAgb3BlcmF0b3I6ICLnp7vliqgiLAogICAgICAgIH0sCiAgICAgICAgeyBpbmNsdWRlUHJvdmluY2U6IHRydWUgfSwKICAgICAgKSwKICAgICAgIua1meaxn+ecgSAvIOadreW3nuW4giDCtyDnp7vliqgiLAogICAgKTsKICB9KTsKCiAgaXQoInNhdmVzIG11bHRpcGxlIGNpdGllcyBpbiB0aGUgYWxsLW9wZXJhdG9yIGxheWVyIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgc2VsZWN0aW9ucyA9IHJlZjxHYXRld2F5VmlzaWJpbGl0eVNlbGVjdGlvbltdPihbXSk7CiAgICBjb25zdCBzdGF0ZSA9IGNyZWF0ZVN0YXRlKHNlbGVjdGlvbnMpOwogICAgYXdhaXQgc3RhdGUubG9hZFByb3ZpbmNlcygpOwogICAgc3RhdGUub3BlbkRpYWxvZygpOwogICAgYXdhaXQgZmx1c2hQcm9taXNlcygpOwoKICAgIHN0YXRlLnRvZ2dsZUNpdHkoIuaxn+iLj+ecgTo65Y2X5Lqs5biCOjoiLCB0cnVlKTsKICAgIHN0YXRlLnRvZ2dsZUNpdHkoIuaxn+iLj+ecgTo66IuP5bee5biCOjoiLCB0cnVlKTsKICAgIGFzc2VydC5lcXVhbChzdGF0ZS5zZWxlY3RlZENpdHlDb3VudC52YWx1ZSwgMik7CiAgICBzdGF0ZS5zYXZlUHJvdmluY2VTZWxlY3Rpb25zKCk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKHNlbGVjdGlvbnMudmFsdWUubWFwKGdldENpZHJSZWdpb25TZWxlY3Rpb25LZXkpLCBbCiAgICAgICLmsZ/oi4/nnIE6OuWNl+S6rOW4gjo6IiwKICAgICAgIuaxn+iLj+ecgTo66IuP5bee5biCOjoiLAogICAgXSk7CiAgICBzdGF0ZS5kaXNwb3NlKCk7CiAgfSk7CgogIGl0KCJzdXBwb3J0cyBtdWx0aXBsZSBjYXJyaWVycyBhbmQgbm9ybWFsaXplcyBhbGwtY2FycmllciBvdmVybGFwIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgc2VsZWN0aW9ucyA9IHJlZjxHYXRld2F5VmlzaWJpbGl0eVNlbGVjdGlvbltdPihbXSk7CiAgICBjb25zdCBzdGF0ZSA9IGNyZWF0ZVN0YXRlKHNlbGVjdGlvbnMpOwogICAgYXdhaXQgc3RhdGUubG9hZENhcGFiaWxpdGllcygpOwogICAgc3RhdGUuc2VsZWN0UHJvdmluY2UocHJvdmluY2UudmFsdWUpOwogICAgYXdhaXQgZmx1c2hQcm9taXNlcygpOwoKICAgIHN0YXRlLnNlbGVjdE9wZXJhdG9yKCLnp7vliqgiKTsKICAgIHN0YXRlLnRvZ2dsZUNpdHkoIuaxn+iLj+ecgTo65Y2X5Lqs5biCOjrnp7vliqgiLCB0cnVlKTsKICAgIHN0YXRlLnNlbGVjdE9wZXJhdG9yKCLnlLXkv6EiKTsKICAgIHN0YXRlLnRvZ2dsZUNpdHkoIuaxn+iLj+ecgTo65Y2X5Lqs5biCOjrnlLXkv6EiLCB0cnVlKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoc3RhdGUuZHJhZnQuc2VsZWN0aW9ucy5tYXAoZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbktleSksIFsKICAgICAgIuaxn+iLj+ecgTo65Y2X5Lqs5biCOjrnp7vliqgiLAogICAgICAi5rGf6IuP55yBOjrljZfkuqzluII6OueUteS/oSIsCiAgICBdKTsKCiAgICBzdGF0ZS5zZWxlY3RPcGVyYXRvcihudWxsKTsKICAgIHN0YXRlLnRvZ2dsZUNpdHkoIuaxn+iLj+ecgTo65Y2X5Lqs5biCOjoiLCB0cnVlKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoc3RhdGUuZHJhZnQuc2VsZWN0aW9ucy5tYXAoZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbktleSksIFsKICAgICAgIuaxn+iLj+ecgTo65Y2X5Lqs5biCOjoiLAogICAgXSk7CgogICAgc3RhdGUuc2VsZWN0T3BlcmF0b3IoIuenu+WKqCIpOwogICAgc3RhdGUudG9nZ2xlQ2l0eSgi5rGf6IuP55yBOjrljZfkuqzluII6Ouenu+WKqCIsIHRydWUpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChzdGF0ZS5kcmFmdC5zZWxlY3Rpb25zLm1hcChnZXRDaWRyUmVnaW9uU2VsZWN0aW9uS2V5KSwgWwogICAgICAi5rGf6IuP55yBOjrljZfkuqzluII6Ouenu+WKqCIsCiAgICBdKTsKICAgIHN0YXRlLmRpc3Bvc2UoKTsKICB9KTsKCiAgaXQoImtlZXBzIHByb3ZpbmNlLXdpZGUgYW5kIGNpdHkgY2hvaWNlcyBleGNsdXNpdmUgd2l0aGluIGVhY2ggY2FycmllciIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHN0YXRlID0gY3JlYXRlU3RhdGUoKTsKICAgIGF3YWl0IHN0YXRlLmxvYWRDYXBhYmlsaXRpZXMoKTsKICAgIHN0YXRlLnNlbGVjdFByb3ZpbmNlKHByb3ZpbmNlLnZhbHVlKTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgIHN0YXRlLnNlbGVjdE9wZXJhdG9yKCLnp7vliqgiKTsKICAgIHN0YXRlLnRvZ2dsZUNpdHkoIuaxn+iLj+ecgTo65Y2X5Lqs5biCOjrnp7vliqgiLCB0cnVlKTsKICAgIHN0YXRlLnRvZ2dsZUNpdHkoIuaxn+iLj+ecgTo6Ojrnp7vliqgiLCB0cnVlKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoc3RhdGUuZHJhZnQuc2VsZWN0aW9ucy5tYXAoZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbktleSksIFsKICAgICAgIuaxn+iLj+ecgTo6Ojrnp7vliqgiLAogICAgXSk7CgogICAgc3RhdGUuc2VsZWN0T3BlcmF0b3IoIueUteS/oSIpOwogICAgc3RhdGUudG9nZ2xlQ2l0eSgi5rGf6IuP55yBOjrljZfkuqzluII6OueUteS/oSIsIHRydWUpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChzdGF0ZS5kcmFmdC5zZWxlY3Rpb25zLm1hcChnZXRDaWRyUmVnaW9uU2VsZWN0aW9uS2V5KSwgWwogICAgICAi5rGf6IuP55yBOjo6Ouenu+WKqCIsCiAgICAgICLmsZ/oi4/nnIE6OuWNl+S6rOW4gjo655S15L+hIiwKICAgIF0pOwogICAgc3RhdGUuZGlzcG9zZSgpOwogIH0pOwoKICBpdCgiZGVncmFkZXMgdG8gcmVndWxhciByZWdpb24gc2VsZWN0aW9uIGZvciBsZWdhY3kgY29udGFpbmVycyIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGV4aXN0aW5nID0gc2VsZWN0aW9uRnJvbU9wdGlvbihjaXR5LCAi56e75YqoIik7CiAgICBjb25zdCBzZWxlY3Rpb25zID0gcmVmKFtleGlzdGluZ10pOwogICAgY29uc3Qgc3RhdGUgPSBjcmVhdGVTdGF0ZShzZWxlY3Rpb25zLCBmYWxzZSk7CiAgICBhd2FpdCBzdGF0ZS5sb2FkQ2FwYWJpbGl0aWVzKCk7CiAgICBhc3NlcnQuZXF1YWwoc3RhdGUub3BlcmF0b3JGaWx0ZXJpbmdTdXBwb3J0ZWQudmFsdWUsIGZhbHNlKTsKICAgIHN0YXRlLnNlbGVjdE9wZXJhdG9yKCLnp7vliqgiKTsKICAgIGFzc2VydC5lcXVhbChzdGF0ZS5kcmFmdC5vcGVyYXRvciwgbnVsbCk7CiAgICBzdGF0ZS5yZW1vdmVSZWdpb24oZXhpc3RpbmcpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChzZWxlY3Rpb25zLnZhbHVlLCBbXSk7CiAgICBzdGF0ZS5kaXNwb3NlKCk7CiAgfSk7CgogIGl0KCJpZ25vcmVzIHN0YWxlIGNpdHkgcmVzcG9uc2VzIiwgYXN5bmMgKCkgPT4gewogICAgbGV0IHJlc29sdmVGaXJzdCE6ICh2YWx1ZTogeyBvcHRpb25zOiBbdHlwZW9mIGNpdHldIH0pID0+IHZvaWQ7CiAgICBsZXQgcmVzb2x2ZVNlY29uZCE6ICh2YWx1ZTogeyBvcHRpb25zOiBbdHlwZW9mIGNpdHldIH0pID0+IHZvaWQ7CiAgICBjb25zdCBmaXJzdFJlc3BvbnNlID0gbmV3IFByb21pc2U8eyBvcHRpb25zOiBbdHlwZW9mIGNpdHldIH0+KChyZXNvbHZlKSA9PiB7CiAgICAgIHJlc29sdmVGaXJzdCA9IHJlc29sdmU7CiAgICB9KTsKICAgIGNvbnN0IHNlY29uZFJlc3BvbnNlID0gbmV3IFByb21pc2U8eyBvcHRpb25zOiBbdHlwZW9mIGNpdHldIH0+KAogICAgICAocmVzb2x2ZSkgPT4gewogICAgICAgIHJlc29sdmVTZWNvbmQgPSByZXNvbHZlOwogICAgICB9LAogICAgKTsKICAgIGNvbnN0IHN0YXRlID0gY3JlYXRlQ2lkclJlZ2lvblNlbGVjdG9yU3RhdGUoewogICAgICBkaXNhYmxlZDogcmVmKGZhbHNlKSwKICAgICAgZm9ybWF0TG9hZEVycm9yOiBTdHJpbmcsCiAgICAgIGxvYWRDYXBhYmlsaXRpZXM6IGFzeW5jICgpID0+IGNhcGFiaWxpdGllcyh0cnVlKSwKICAgICAgbG9hZENpdGllczogKG5hbWUpID0+IChuYW1lID09PSAiZmlyc3QiID8gZmlyc3RSZXNwb25zZSA6IHNlY29uZFJlc3BvbnNlKSwKICAgICAgbG9hZFByb3ZpbmNlczogYXN5bmMgKCkgPT4gKHsgb3B0aW9uczogW3Byb3ZpbmNlXSB9KSwKICAgICAgb25Mb2FkRXJyb3I6ICgpID0+IGFzc2VydC5mYWlsKCJsb2FkaW5nIHNob3VsZCBzdWNjZWVkIiksCiAgICAgIHNlbGVjdGlvbnM6IHJlZihbXSksCiAgICB9KTsKCiAgICBjb25zdCBmaXJzdFJlcXVlc3QgPSBzdGF0ZS5sb2FkQ2l0eU9wdGlvbnMoImZpcnN0Iik7CiAgICBjb25zdCBzZWNvbmRSZXF1ZXN0ID0gc3RhdGUubG9hZENpdHlPcHRpb25zKCJzZWNvbmQiKTsKICAgIHJlc29sdmVTZWNvbmQoeyBvcHRpb25zOiBbeyAuLi5jaXR5LCBsYWJlbDogIuaWsOWfjuW4giIgfV0gfSk7CiAgICBhd2FpdCBzZWNvbmRSZXF1ZXN0OwogICAgcmVzb2x2ZUZpcnN0KHsgb3B0aW9uczogW3sgLi4uY2l0eSwgbGFiZWw6ICLml6fln47luIIiIH1dIH0pOwogICAgYXdhaXQgZmlyc3RSZXF1ZXN0OwogICAgYXNzZXJ0LmVxdWFsKHN0YXRlLmNpdHlPcHRpb25zLnZhbHVlWzBdPy5sYWJlbCwgIuaWsOWfjuW4giIpOwogICAgc3RhdGUuZGlzcG9zZSgpOwogIH0pOwoKICBpdCgiY2xvc2VzIGFuZCBjbGVhcnMgdGhlIGRyYWZ0IHdoZW4gZGlzYWJsZWQiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBkaXNhYmxlZCA9IHJlZihmYWxzZSk7CiAgICBjb25zdCBzdGF0ZSA9IGNyZWF0ZUNpZHJSZWdpb25TZWxlY3RvclN0YXRlKHsKICAgICAgZGlzYWJsZWQsCiAgICAgIGZvcm1hdExvYWRFcnJvcjogU3RyaW5nLAogICAgICBsb2FkQ2FwYWJpbGl0aWVzOiBhc3luYyAoKSA9PiBjYXBhYmlsaXRpZXModHJ1ZSksCiAgICAgIGxvYWRDaXRpZXM6IGFzeW5jICgpID0+ICh7IG9wdGlvbnM6IFtjaXR5XSB9KSwKICAgICAgbG9hZFByb3ZpbmNlczogYXN5bmMgKCkgPT4gKHsgb3B0aW9uczogW3Byb3ZpbmNlXSB9KSwKICAgICAgb25Mb2FkRXJyb3I6ICgpID0+IGFzc2VydC5mYWlsKCJsb2FkaW5nIHNob3VsZCBzdWNjZWVkIiksCiAgICAgIHNlbGVjdGlvbnM6IHJlZihbXSksCiAgICB9KTsKICAgIGF3YWl0IHN0YXRlLmxvYWRQcm92aW5jZXMoKTsKICAgIHN0YXRlLm9wZW5EaWFsb2coKTsKICAgIGRpc2FibGVkLnZhbHVlID0gdHJ1ZTsKICAgIGF3YWl0IG5leHRUaWNrKCk7CiAgICBhc3NlcnQuZXF1YWwoc3RhdGUuaXNEaWFsb2dPcGVuLnZhbHVlLCBmYWxzZSk7CiAgICBhc3NlcnQuZXF1YWwoc3RhdGUuZHJhZnQucHJvdmluY2UsICIiKTsKICAgIHN0YXRlLmRpc3Bvc2UoKTsKICB9KTsKCiAgaXQoImtlZXBzIGFsbCBmaXZlIGJ1c2luZXNzIGVudHJ5IHBvaW50cyBvbiB0aGUgc2hhcmVkIGNvbXBvbmVudCIsIGFzeW5jICgpID0+IHsKICAgIGF3YWl0IFByb21pc2UuYWxsKAogICAgICBzZWxlY3RvckNvbnN1bWVycy5tYXAoYXN5bmMgKHBhdGgpID0+IHsKICAgICAgICBjb25zdCBzb3VyY2UgPSBhd2FpdCByZWFkRmlsZShqb2luKHNyY1Jvb3QsIHBhdGgpLCAidXRmOCIpOwogICAgICAgIGFzc2VydC5lcXVhbChzb3VyY2UubWF0Y2goLzxDaWRyUmVnaW9uU2VsZWN0b3JcYi9ndSk/Lmxlbmd0aCwgMSk7CiAgICAgICAgYXNzZXJ0LmRvZXNOb3RNYXRjaCgKICAgICAgICAgIHNvdXJjZSwKICAgICAgICAgIC9cYkNpZHJBUElcYnxcYnJlZ2lvbkRyYWZ0XGJ8XGJjaXR5T3B0aW9uc0xvYWRpbmdcYi91LAogICAgICAgICk7CiAgICAgIH0pLAogICAgKTsKICB9KTsKCiAgaXQoImtlZXBzIENJRFIgbG9hZGluZyBhbmQgc2VsZWN0aW9uIGxvZ2ljIGVuY2Fwc3VsYXRlZCIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHNvdXJjZUZpbGVzID0gYXdhaXQgbGlzdFNvdXJjZUZpbGVzKHNyY1Jvb3QpOwogICAgY29uc3QgdmlvbGF0aW9uczogc3RyaW5nW10gPSBbXTsKICAgIGF3YWl0IFByb21pc2UuYWxsKAogICAgICBzb3VyY2VGaWxlcy5tYXAoYXN5bmMgKHBhdGgpID0+IHsKICAgICAgICBjb25zdCBzb3VyY2UgPSBhd2FpdCByZWFkRmlsZShwYXRoLCAidXRmOCIpOwogICAgICAgIGNvbnN0IHNvdXJjZVBhdGggPSByZWxhdGl2ZShzcmNSb290LCBwYXRoKTsKICAgICAgICBjb25zdCBpc1NlbGVjdG9ySW1wbGVtZW50YXRpb24gPQogICAgICAgICAgc291cmNlUGF0aCA9PT0gc2VsZWN0b3JQYXRoIHx8IHNvdXJjZVBhdGggPT09IHNlbGVjdG9yU3RhdGVQYXRoOwogICAgICAgIGNvbnN0IGlzU2VsZWN0b3JEb21haW5Tb3VyY2UgPQogICAgICAgICAgaXNTZWxlY3RvckltcGxlbWVudGF0aW9uIHx8IHNvdXJjZVBhdGggPT09ICJ0eXBlcy9jaWRyLnRzIjsKICAgICAgICBpZiAoIWlzU2VsZWN0b3JJbXBsZW1lbnRhdGlvbiAmJiAvXGJDaWRyQVBJXHMqXC4vdS50ZXN0KHNvdXJjZSkpIHsKICAgICAgICAgIHZpb2xhdGlvbnMucHVzaChzb3VyY2VQYXRoKTsKICAgICAgICB9CiAgICAgICAgaWYgKAogICAgICAgICAgc291cmNlUGF0aCAhPT0gImxpYi9hcGkvZ2F0ZXdheS50cyIgJiYKICAgICAgICAgIC9bIiddXC9jaWRyXC8oPzpjYXBhYmlsaXRpZXN8cHJvdmluY2VzfGNpdGllc3xzZWxlY3RvcilbIiddL3UudGVzdCgKICAgICAgICAgICAgc291cmNlLAogICAgICAgICAgKQogICAgICAgICkgewogICAgICAgICAgdmlvbGF0aW9ucy5wdXNoKHNvdXJjZVBhdGgpOwogICAgICAgIH0KICAgICAgICBpZiAoCiAgICAgICAgICAhaXNTZWxlY3RvckRvbWFpblNvdXJjZSAmJgogICAgICAgICAgL1xiKD86cmVnaW9uRHJhZnR8Y2l0eU9wdGlvbnNMb2FkaW5nfENpZHJDaXR5T3B0aW9ufENpZHJQcm92aW5jZU9wdGlvbilcYi91LnRlc3QoCiAgICAgICAgICAgIHNvdXJjZSwKICAgICAgICAgICkKICAgICAgICApIHsKICAgICAgICAgIHZpb2xhdGlvbnMucHVzaChzb3VyY2VQYXRoKTsKICAgICAgICB9CiAgICAgIH0pLAogICAgKTsKICAgIGFzc2VydC5kZWVwRXF1YWwodmlvbGF0aW9ucy5zb3J0KCksIFtdKTsKICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { readFile, readdir } from "node:fs/promises";
+import { extname, join, relative } from "node:path";
+import { fileURLToPath } from "node:url";
+import { describe, it } from "node:test";
+import { nextTick, ref } from "vue";
+
+import { createCidrRegionSelectorState } from "../src/components/cidr-region-selector-state";
+import {
+  getCidrRegionSelectionKey,
+  getCidrRegionSelectionLabel,
+} from "../src/types/cidr";
+import type {
+  CidrCapabilitiesPayload,
+  GatewayVisibilitySelection,
+} from "../src/types";
+
+const srcRoot = fileURLToPath(new URL("../src", import.meta.url));
+const selectorPath = "components/CidrRegionSelector.vue";
+const selectorStatePath = "components/cidr-region-selector-state.ts";
+const selectorConsumers = [
+  "views/ip-whitelist/WhitelistAddDialog.vue",
+  "views/ssh-security/SSHSecurityFormFields.vue",
+  "views/subdomain-proxy/SubdomainMappingVisibilityPanel.vue",
+  "views/system-settings/GatewayVisibilitySettings.vue",
+  "views/system-settings/scanner-firewall/ScannerFirewallExemptions.vue",
+];
+
+const listSourceFiles = async (directory: string): Promise<string[]> => {
+  const entries = await readdir(directory, { withFileTypes: true });
+  const files = await Promise.all(
+    entries.map(async (entry) => {
+      const path = join(directory, entry.name);
+      return entry.isDirectory() ? listSourceFiles(path) : [path];
+    }),
+  );
+  return files.flat().filter((path) => [".ts", ".vue"].includes(extname(path)));
+};
+
+const capabilities = (supported: boolean): CidrCapabilitiesPayload => ({
+  source: "custom",
+  operatorFiltering: {
+    supported,
+    operators: ["电信", "联通", "移动"],
+    minimumContainerVersion: "0.1.3",
+  },
+});
+const province = {
+  label: "江苏省",
+  value: "江苏省",
+  cityCount: 2,
+  isMunicipality: false,
+};
+const city = {
+  label: "南京市",
+  value: "南京市",
+  queryCity: "南京市",
+  isProvinceWide: false,
+  isMunicipality: false,
+  ipv4Count: 1,
+  ipv6Count: 1,
+};
+const secondCity = {
+  ...city,
+  label: "苏州市",
+  value: "苏州市",
+  queryCity: "苏州市",
+};
+const provinceWide = {
+  ...city,
+  label: "江苏全省",
+  value: "__province_all__",
+  queryCity: null,
+  isProvinceWide: true,
+};
+const selectionFromOption = (
+  option: typeof city | typeof provinceWide,
+  operator: GatewayVisibilitySelection["operator"] = null,
+): GatewayVisibilitySelection => ({
+  province: province.value,
+  city: option.isProvinceWide ? null : option.label,
+  label: operator ? `${option.label} · ${operator}` : option.label,
+  value: option.value,
+  query_city: option.queryCity,
+  operator,
+  is_province_wide: option.isProvinceWide,
+  is_municipality: option.isMunicipality,
+});
+const flushPromises = () =>
+  new Promise<void>((resolve) => setImmediate(resolve));
+
+const createState = (
+  selections = ref<GatewayVisibilitySelection[]>([]),
+  operatorSupport = true,
+) =>
+  createCidrRegionSelectorState({
+    disabled: ref(false),
+    formatLoadError: String,
+    loadCapabilities: async () => capabilities(operatorSupport),
+    loadCities: async () => ({ options: [provinceWide, city, secondCity] }),
+    loadProvinces: async () => ({ options: [province] }),
+    onLoadError: () => assert.fail("loading should succeed"),
+    selections,
+  });
+
+describe("CIDR region selector", () => {
+  it("builds stable keys from province, city, and operator", () => {
+    assert.equal(
+      getCidrRegionSelectionKey({ province: "浙江省", query_city: "杭州市" }),
+      "浙江省::杭州市::",
+    );
+    assert.equal(
+      getCidrRegionSelectionKey({
+        province: "浙江省",
+        query_city: "杭州市",
+        operator: "移动",
+      }),
+      "浙江省::杭州市::移动",
+    );
+    assert.equal(
+      getCidrRegionSelectionLabel({
+        province: "浙江省",
+        query_city: "杭州市",
+        operator: "移动",
+      }),
+      "杭州市 · 移动",
+    );
+    assert.equal(
+      getCidrRegionSelectionLabel({
+        province: "浙江省",
+        city: "杭州市",
+        label: "杭州市",
+        query_city: "杭州市",
+        operator: "电信",
+      }),
+      "杭州市 · 电信",
+    );
+    assert.equal(
+      getCidrRegionSelectionLabel(
+        {
+          province: "浙江省",
+          query_city: "杭州市",
+          operator: "移动",
+        },
+        { includeProvince: true },
+      ),
+      "浙江省 / 杭州市 · 移动",
+    );
+  });
+
+  it("saves multiple cities in the all-operator layer", async () => {
+    const selections = ref<GatewayVisibilitySelection[]>([]);
+    const state = createState(selections);
+    await state.loadProvinces();
+    state.openDialog();
+    await flushPromises();
+
+    state.toggleCity("江苏省::南京市::", true);
+    state.toggleCity("江苏省::苏州市::", true);
+    assert.equal(state.selectedCityCount.value, 2);
+    state.saveProvinceSelections();
+    assert.deepEqual(selections.value.map(getCidrRegionSelectionKey), [
+      "江苏省::南京市::",
+      "江苏省::苏州市::",
+    ]);
+    state.dispose();
+  });
+
+  it("supports multiple carriers and normalizes all-carrier overlap", async () => {
+    const selections = ref<GatewayVisibilitySelection[]>([]);
+    const state = createState(selections);
+    await state.loadCapabilities();
+    state.selectProvince(province.value);
+    await flushPromises();
+
+    state.selectOperator("移动");
+    state.toggleCity("江苏省::南京市::移动", true);
+    state.selectOperator("电信");
+    state.toggleCity("江苏省::南京市::电信", true);
+    assert.deepEqual(state.draft.selections.map(getCidrRegionSelectionKey), [
+      "江苏省::南京市::移动",
+      "江苏省::南京市::电信",
+    ]);
+
+    state.selectOperator(null);
+    state.toggleCity("江苏省::南京市::", true);
+    assert.deepEqual(state.draft.selections.map(getCidrRegionSelectionKey), [
+      "江苏省::南京市::",
+    ]);
+
+    state.selectOperator("移动");
+    state.toggleCity("江苏省::南京市::移动", true);
+    assert.deepEqual(state.draft.selections.map(getCidrRegionSelectionKey), [
+      "江苏省::南京市::移动",
+    ]);
+    state.dispose();
+  });
+
+  it("keeps province-wide and city choices exclusive within each carrier", async () => {
+    const state = createState();
+    await state.loadCapabilities();
+    state.selectProvince(province.value);
+    await flushPromises();
+    state.selectOperator("移动");
+    state.toggleCity("江苏省::南京市::移动", true);
+    state.toggleCity("江苏省::::移动", true);
+    assert.deepEqual(state.draft.selections.map(getCidrRegionSelectionKey), [
+      "江苏省::::移动",
+    ]);
+
+    state.selectOperator("电信");
+    state.toggleCity("江苏省::南京市::电信", true);
+    assert.deepEqual(state.draft.selections.map(getCidrRegionSelectionKey), [
+      "江苏省::::移动",
+      "江苏省::南京市::电信",
+    ]);
+    state.dispose();
+  });
+
+  it("degrades to regular region selection for legacy containers", async () => {
+    const existing = selectionFromOption(city, "移动");
+    const selections = ref([existing]);
+    const state = createState(selections, false);
+    await state.loadCapabilities();
+    assert.equal(state.operatorFilteringSupported.value, false);
+    state.selectOperator("移动");
+    assert.equal(state.draft.operator, null);
+    state.removeRegion(existing);
+    assert.deepEqual(selections.value, []);
+    state.dispose();
+  });
+
+  it("ignores stale city responses", async () => {
+    let resolveFirst!: (value: { options: [typeof city] }) => void;
+    let resolveSecond!: (value: { options: [typeof city] }) => void;
+    const firstResponse = new Promise<{ options: [typeof city] }>((resolve) => {
+      resolveFirst = resolve;
+    });
+    const secondResponse = new Promise<{ options: [typeof city] }>(
+      (resolve) => {
+        resolveSecond = resolve;
+      },
+    );
+    const state = createCidrRegionSelectorState({
+      disabled: ref(false),
+      formatLoadError: String,
+      loadCapabilities: async () => capabilities(true),
+      loadCities: (name) => (name === "first" ? firstResponse : secondResponse),
+      loadProvinces: async () => ({ options: [province] }),
+      onLoadError: () => assert.fail("loading should succeed"),
+      selections: ref([]),
+    });
+
+    const firstRequest = state.loadCityOptions("first");
+    const secondRequest = state.loadCityOptions("second");
+    resolveSecond({ options: [{ ...city, label: "新城市" }] });
+    await secondRequest;
+    resolveFirst({ options: [{ ...city, label: "旧城市" }] });
+    await firstRequest;
+    assert.equal(state.cityOptions.value[0]?.label, "新城市");
+    state.dispose();
+  });
+
+  it("closes and clears the draft when disabled", async () => {
+    const disabled = ref(false);
+    const state = createCidrRegionSelectorState({
+      disabled,
+      formatLoadError: String,
+      loadCapabilities: async () => capabilities(true),
+      loadCities: async () => ({ options: [city] }),
+      loadProvinces: async () => ({ options: [province] }),
+      onLoadError: () => assert.fail("loading should succeed"),
+      selections: ref([]),
+    });
+    await state.loadProvinces();
+    state.openDialog();
+    disabled.value = true;
+    await nextTick();
+    assert.equal(state.isDialogOpen.value, false);
+    assert.equal(state.draft.province, "");
+    state.dispose();
+  });
+
+  it("keeps all five business entry points on the shared component", async () => {
+    await Promise.all(
+      selectorConsumers.map(async (path) => {
+        const source = await readFile(join(srcRoot, path), "utf8");
+        assert.equal(source.match(/<CidrRegionSelector\b/gu)?.length, 1);
+        assert.doesNotMatch(
+          source,
+          /\bCidrAPI\b|\bregionDraft\b|\bcityOptionsLoading\b/u,
+        );
+      }),
+    );
+  });
+
+  it("keeps CIDR loading and selection logic encapsulated", async () => {
+    const sourceFiles = await listSourceFiles(srcRoot);
+    const violations: string[] = [];
+    await Promise.all(
+      sourceFiles.map(async (path) => {
+        const source = await readFile(path, "utf8");
+        const sourcePath = relative(srcRoot, path);
+        const isSelectorImplementation =
+          sourcePath === selectorPath || sourcePath === selectorStatePath;
+        const isSelectorDomainSource =
+          isSelectorImplementation || sourcePath === "types/cidr.ts";
+        if (!isSelectorImplementation && /\bCidrAPI\s*\./u.test(source)) {
+          violations.push(sourcePath);
+        }
+        if (
+          sourcePath !== "lib/api/gateway.ts" &&
+          /["']\/cidr\/(?:capabilities|provinces|cities|selector)["']/u.test(
+            source,
+          )
+        ) {
+          violations.push(sourcePath);
+        }
+        if (
+          !isSelectorDomainSource &&
+          /\b(?:regionDraft|cityOptionsLoading|CidrCityOption|CidrProvinceOption)\b/u.test(
+            source,
+          )
+        ) {
+          violations.push(sourcePath);
+        }
+      }),
+    );
+    assert.deepEqual(violations.sort(), []);
+  });
+});

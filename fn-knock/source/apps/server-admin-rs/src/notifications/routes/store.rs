@@ -1,1 +1,320 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiBsb2FkX3Byb3ZpZGVycyhzdGF0ZTogJkFwcFN0YXRlKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxWZWM8VmFsdWU+PiB7CiAgICBzdGF0ZS5zdG9yYWdlLnN0b3JlLmxvYWRfbm90aWZpY2F0aW9uX3Byb3ZpZGVycygpLmF3YWl0Cn0KCnB1YihzdXBlcikgYXN5bmMgZm4gbG9hZF9wcm92aWRlcigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBpZDogJnN0ciwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxPcHRpb248VmFsdWU+PiB7CiAgICBzdGF0ZS5zdG9yYWdlLnN0b3JlLmxvYWRfbm90aWZpY2F0aW9uX3Byb3ZpZGVyKGlkKS5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHNhdmVfcHJvdmlkZXJfcmF3KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHByb3ZpZGVyOiAmVmFsdWUsCikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgIGxldCBpZCA9IHByb3ZpZGVyCiAgICAgICAgLmdldCgiaWQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgbGV0IHNjb3JlID0gaXNvX3Njb3JlX21zKAogICAgICAgIHByb3ZpZGVyCiAgICAgICAgICAgIC5nZXQoInVwZGF0ZWRfYXQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLm9yX2Vsc2UofHwgcHJvdmlkZXIuZ2V0KCJjcmVhdGVkX2F0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpLAogICAgKTsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2F2ZV9ub3RpZmljYXRpb25fcHJvdmlkZXIoaWQsIHByb3ZpZGVyLCBzY29yZSkKICAgICAgICAuYXdhaXQKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBsb2FkX3J1bGVzKHN0YXRlOiAmQXBwU3RhdGUpIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PFZlYzxWYWx1ZT4+IHsKICAgIHN0YXRlLnN0b3JhZ2Uuc3RvcmUubG9hZF9ub3RpZmljYXRpb25fcnVsZXMoKS5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGxvYWRfcnVsZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBpZDogJnN0ciwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxPcHRpb248VmFsdWU+PiB7CiAgICBzdGF0ZS5zdG9yYWdlLnN0b3JlLmxvYWRfbm90aWZpY2F0aW9uX3J1bGUoaWQpLmF3YWl0Cn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc2F2ZV9ydWxlX3JhdygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBydWxlOiAmVmFsdWUsCikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgIGxldCBpZCA9IHJ1bGUuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgc2NvcmUgPSBpc29fc2NvcmVfbXMoCiAgICAgICAgcnVsZS5nZXQoInVwZGF0ZWRfYXQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLm9yX2Vsc2UofHwgcnVsZS5nZXQoImNyZWF0ZWRfYXQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSksCiAgICApOwogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5zYXZlX25vdGlmaWNhdGlvbl9ydWxlKGlkLCBydWxlLCBzY29yZSkKICAgICAgICAuYXdhaXQKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBsb2FkX3RyaWdnZXIoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaWQ6ICZzdHIsCikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFZhbHVlPj4gewogICAgc3RhdGUuc3RvcmFnZS5zdG9yZS5sb2FkX25vdGlmaWNhdGlvbl90cmlnZ2VyKGlkKS5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHNhdmVfdHJpZ2dlcl9yYXcoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgdHJpZ2dlcjogJlZhbHVlLAopIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICBsZXQgaWQgPSB0cmlnZ2VyCiAgICAgICAgLmdldCgiaWQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgbGV0IGNyZWF0ZWRfYXQgPSB0cmlnZ2VyLmdldCgiY3JlYXRlZF9hdCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpOwogICAgbGV0IHR0bCA9IGhpc3RvcnlfdHRsX3NlY29uZHMoY3JlYXRlZF9hdCk7CiAgICBsZXQgXyA9IHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2F2ZV9ub3RpZmljYXRpb25fdHJpZ2dlcihpZCwgdHJpZ2dlciwgaXNvX3Njb3JlX21zKGNyZWF0ZWRfYXQpLCB0dGwsIGZhbHNlKQogICAgICAgIC5hd2FpdD87CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzYXZlX3RyaWdnZXJfaWZfYWJzZW50KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHRyaWdnZXI6ICZWYWx1ZSwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxib29sPiB7CiAgICBsZXQgaWQgPSB0cmlnZ2VyCiAgICAgICAgLmdldCgiaWQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgbGV0IGNyZWF0ZWRfYXQgPSB0cmlnZ2VyLmdldCgiY3JlYXRlZF9hdCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpOwogICAgbGV0IHR0bCA9IGhpc3RvcnlfdHRsX3NlY29uZHMoY3JlYXRlZF9hdCk7CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNhdmVfbm90aWZpY2F0aW9uX3RyaWdnZXIoaWQsIHRyaWdnZXIsIGlzb19zY29yZV9tcyhjcmVhdGVkX2F0KSwgdHRsLCB0cnVlKQogICAgICAgIC5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGxvYWRfZGVsaXZlcnkoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaWQ6ICZzdHIsCikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFZhbHVlPj4gewogICAgc3RhdGUuc3RvcmFnZS5zdG9yZS5sb2FkX25vdGlmaWNhdGlvbl9kZWxpdmVyeShpZCkuYXdhaXQKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzYXZlX2RlbGl2ZXJ5X3JhdygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBkZWxpdmVyeTogJlZhbHVlLAopIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICBsZXQgaWQgPSBkZWxpdmVyeQogICAgICAgIC5nZXQoImlkIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCB0cmlnZ2VyZWRfYXQgPSBkZWxpdmVyeS5nZXQoInRyaWdnZXJlZF9hdCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpOwogICAgbGV0IHR0bCA9IGhpc3RvcnlfdHRsX3NlY29uZHModHJpZ2dlcmVkX2F0KTsKICAgIGxldCBfID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5zYXZlX25vdGlmaWNhdGlvbl9kZWxpdmVyeShpZCwgZGVsaXZlcnksIGlzb19zY29yZV9tcyh0cmlnZ2VyZWRfYXQpLCB0dGwsIGZhbHNlKQogICAgICAgIC5hd2FpdD87CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzYXZlX2RlbGl2ZXJ5X2lmX2Fic2VudCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBkZWxpdmVyeTogJlZhbHVlLAopIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PGJvb2w+IHsKICAgIGxldCBpZCA9IGRlbGl2ZXJ5CiAgICAgICAgLmdldCgiaWQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgbGV0IHRyaWdnZXJlZF9hdCA9IGRlbGl2ZXJ5LmdldCgidHJpZ2dlcmVkX2F0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cik7CiAgICBsZXQgdHRsID0gaGlzdG9yeV90dGxfc2Vjb25kcyh0cmlnZ2VyZWRfYXQpOwogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5zYXZlX25vdGlmaWNhdGlvbl9kZWxpdmVyeShpZCwgZGVsaXZlcnksIGlzb19zY29yZV9tcyh0cmlnZ2VyZWRfYXQpLCB0dGwsIHRydWUpCiAgICAgICAgLmF3YWl0Cn0KCnB1YihzdXBlcikgZm4gaGlzdG9yeV90dGxfc2Vjb25kcyhoYXBwZW5lZF9hdDogT3B0aW9uPCZzdHI+KSAtPiB1c2l6ZSB7CiAgICBsZXQgZXhwaXJlc19hdCA9IGhhcHBlbmVkX2F0CiAgICAgICAgLmFuZF90aGVuKHRpbWVfdXRpbHM6OnBhcnNlX2lzb19tcykKICAgICAgICAudW53cmFwX29yX2Vsc2UodGltZV91dGlsczo6bm93X21zKQogICAgICAgICsgSElTVE9SWV9SRVRFTlRJT05fVFRMX1NFQ09ORFMgKiAxMDAwOwogICAgKCgoZXhwaXJlc19hdCAtIHRpbWVfdXRpbHM6Om5vd19tcygpKS5tYXgoMTAwMCkgKyA5OTkpIC8gMTAwMCkgYXMgdXNpemUKfQoKcHViKHN1cGVyKSBhc3luYyBmbiByZWZyZXNoX3RyaWdnZXJfc3RhdHVzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHRyaWdnZXJfaWQ6ICZzdHIsCikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIGlmIHRyaWdnZXJfaWQuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH0KICAgIGxldCBTb21lKHRyaWdnZXIpID0gbG9hZF90cmlnZ2VyKHN0YXRlLCB0cmlnZ2VyX2lkKS5hd2FpdD8gZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH07CiAgICBsZXQgKGRlbGl2ZXJpZXMsIF8pID0gbGlzdF9oaXN0b3J5KAogICAgICAgIHN0YXRlLAogICAgICAgIERFTElWRVJJRVNfSU5ERVhfS0VZLAogICAgICAgIERFTElWRVJJRVNfREFUQV9QUkVGSVgsCiAgICAgICAgMSwKICAgICAgICBpNjQ6Ok1BWCwKICAgICAgICB8ZGVsaXZlcnl8IGRlbGl2ZXJ5LmdldCgidHJpZ2dlcl9pZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUodHJpZ2dlcl9pZCksCiAgICApCiAgICAuYXdhaXQ/OwogICAgaWYgZGVsaXZlcmllcy5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQogICAgaWYgZGVsaXZlcmllcy5pdGVyKCkuYW55KHxkZWxpdmVyeXwgewogICAgICAgICFpc190ZXJtaW5hbF9kZWxpdmVyeV9zdGF0dXMoZGVsaXZlcnkuZ2V0KCJzdGF0dXMiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSkKICAgIH0pIHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQogICAgbGV0IGFsbF9zdWNjZWVkZWQgPSBkZWxpdmVyaWVzLml0ZXIoKS5hbGwofGRlbGl2ZXJ5fCB7CiAgICAgICAgbWF0Y2hlcyEoCiAgICAgICAgICAgIGRlbGl2ZXJ5LmdldCgic3RhdHVzIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0ciksCiAgICAgICAgICAgIFNvbWUoInN1Y2Nlc3MiIHwgInNraXBwZWQiKQogICAgICAgICkKICAgIH0pOwogICAgbGV0IG11dCB1cGRhdGVkID0gdHJpZ2dlci5hc19vYmplY3QoKS5jbG9uZWQoKS51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgdXBkYXRlZC5pbnNlcnQoCiAgICAgICAgInN0YXR1cyIudG9fc3RyaW5nKCksCiAgICAgICAgVmFsdWU6OlN0cmluZyhpZiBhbGxfc3VjY2VlZGVkIHsKICAgICAgICAgICAgImNvbXBsZXRlZCIudG9fc3RyaW5nKCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAicGFydGlhbGx5X2ZhaWxlZCIudG9fc3RyaW5nKCkKICAgICAgICB9KSwKICAgICk7CiAgICBzYXZlX3RyaWdnZXJfcmF3KHN0YXRlLCAmVmFsdWU6Ok9iamVjdCh1cGRhdGVkKSkuYXdhaXQ/OwogICAgT2soKCkpCn0KCnB1YihzdXBlcikgZm4gZmluZF9ydWxlX3RhcmdldChydWxlOiAmVmFsdWUsIHRhcmdldF9pZDogJnN0cikgLT4gT3B0aW9uPFZhbHVlPiB7CiAgICBydWxlLmdldCgidGFyZ2V0cyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSk/CiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maW5kKHx0YXJnZXR8IHRhcmdldC5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSh0YXJnZXRfaWQpKQogICAgICAgIC5jbG9uZWQoKQp9CgpwdWIoc3VwZXIpIHN0cnVjdCBEZWxpdmVyeVBvbGljeSB7CiAgICBwdWIoc3VwZXIpIHRpbWVvdXRfc2Vjb25kczogaTY0LAogICAgcHViKHN1cGVyKSBtYXhfYXR0ZW1wdHM6IGk2NCwKICAgIHB1YihzdXBlcikgYmFja29mZl9zZWNvbmRzOiBpNjQsCn0KCnB1YihzdXBlcikgZm4gcmVzb2x2ZV9kZWxpdmVyeV9wb2xpY3kodmFsdWU6IE9wdGlvbjwmVmFsdWU+KSAtPiBEZWxpdmVyeVBvbGljeSB7CiAgICBsZXQgb2JqZWN0ID0gdmFsdWUuYW5kX3RoZW4oVmFsdWU6OmFzX29iamVjdCk7CiAgICBEZWxpdmVyeVBvbGljeSB7CiAgICAgICAgdGltZW91dF9zZWNvbmRzOiBvYmplY3QKICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuZ2V0KCJ0aW1lb3V0X3NlY29uZHMiKSkKICAgICAgICAgICAgLm1hcCh8dmFsdWV8IHZhbHVlX3RvX2k2NCh2YWx1ZSwgNSkpCiAgICAgICAgICAgIC51bndyYXBfb3IoNSkKICAgICAgICAgICAgLmNsYW1wKDEsIDMwKSwKICAgICAgICBtYXhfYXR0ZW1wdHM6IG9iamVjdAogICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5nZXQoIm1heF9hdHRlbXB0cyIpKQogICAgICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWVfdG9faTY0KHZhbHVlLCAzKSkKICAgICAgICAgICAgLnVud3JhcF9vcigzKQogICAgICAgICAgICAuY2xhbXAoMSwgMTApLAogICAgICAgIGJhY2tvZmZfc2Vjb25kczogb2JqZWN0CiAgICAgICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLmdldCgiYmFja29mZl9zZWNvbmRzIikpCiAgICAgICAgICAgIC5tYXAofHZhbHVlfCB2YWx1ZV90b19pNjQodmFsdWUsIDMwKSkKICAgICAgICAgICAgLnVud3JhcF9vcigzMCkKICAgICAgICAgICAgLmNsYW1wKDUsIDM2MDApLAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIHJlc29sdmVfZGVsaXZlcnlfcmVhZHlfYXRfbXMoZGVsaXZlcnk6ICZWYWx1ZSkgLT4gaTY0IHsKICAgIGRlbGl2ZXJ5CiAgICAgICAgLmdldCgibmV4dF9yZXRyeV9hdCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLmFuZF90aGVuKHRpbWVfdXRpbHM6OnBhcnNlX2lzb19tcykKICAgICAgICAub3JfZWxzZSh8fCB7CiAgICAgICAgICAgIGRlbGl2ZXJ5CiAgICAgICAgICAgICAgICAuZ2V0KCJ0cmlnZ2VyZWRfYXQiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4odGltZV91dGlsczo6cGFyc2VfaXNvX21zKQogICAgICAgIH0pCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHRpbWVfdXRpbHM6Om5vd19tcykKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBsaXN0X2hpc3Rvcnk8Rj4oCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaW5kZXhfa2V5OiAmc3RyLAogICAgX2RhdGFfcHJlZml4OiAmc3RyLAogICAgcGFnZTogaTY0LAogICAgbGltaXQ6IGk2NCwKICAgIG1hdGNoZXM6IEYsCikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KFZlYzxWYWx1ZT4sIGk2NCk+CndoZXJlCiAgICBGOiBGbigmVmFsdWUpIC0+IGJvb2wsCnsKICAgIGxldCBraW5kID0gbWF0Y2ggaW5kZXhfa2V5IHsKICAgICAgICBUUklHR0VSU19JTkRFWF9LRVkgPT4gInRyaWdnZXIiLAogICAgICAgIERFTElWRVJJRVNfSU5ERVhfS0VZID0+ICJkZWxpdmVyeSIsCiAgICAgICAgXyA9PiB7CiAgICAgICAgICAgIHJldHVybiBFcnIoY3JhdGU6OnN0b3JhZ2U6OnN0b3JhZ2VfZXJyb3IoCiAgICAgICAgICAgICAgICAiaW52YWxpZCBub3RpZmljYXRpb24gaGlzdG9yeSBpbmRleCIsCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgIH07CiAgICBsZXQgdmFsdWVzID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5sb2FkX25vdGlmaWNhdGlvbl9oaXN0b3J5KGtpbmQpLmF3YWl0PzsKICAgIGxldCBwYWdlX3N0YXJ0ID0gKHBhZ2Uuc2F0dXJhdGluZ19zdWIoMSkpLnNhdHVyYXRpbmdfbXVsKGxpbWl0KTsKICAgIGxldCBtdXQgbWF0Y2hlZF90b3RhbCA9IDBfaTY0OwogICAgbGV0IG11dCBpdGVtcyA9IFZlYzo6bmV3KCk7CgogICAgZm9yIHZhbHVlIGluIHZhbHVlcyB7CiAgICAgICAgaWYgIW1hdGNoZXMoJnZhbHVlKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBpZiBtYXRjaGVkX3RvdGFsID49IHBhZ2Vfc3RhcnQgJiYgKGl0ZW1zLmxlbigpIGFzIGk2NCkgPCBsaW1pdCB7CiAgICAgICAgICAgIGl0ZW1zLnB1c2goc2FuaXRpemVfbm90aWZpY2F0aW9uX3JlY29yZCh2YWx1ZSkpOwogICAgICAgIH0KICAgICAgICBtYXRjaGVkX3RvdGFsICs9IDE7CiAgICB9CiAgICBPaygoaXRlbXMsIG1hdGNoZWRfdG90YWwpKQp9CgpwdWIoc3VwZXIpIHN0cnVjdCBDbGVhckRlbGl2ZXJ5RmlsdGVyIHsKICAgIHB1YihzdXBlcikgcnVsZV9pZDogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIoc3VwZXIpIHByb3ZpZGVyX2lkOiBPcHRpb248U3RyaW5nPiwKICAgIHB1YihzdXBlcikgdHJpZ2dlcl9pZDogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIoc3VwZXIpIHN0YXR1czogT3B0aW9uPFN0cmluZz4sCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gY2xlYXJfZGVsaXZlcnlfdmFsdWVzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGZpbHRlcjogQ2xlYXJEZWxpdmVyeUZpbHRlciwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDx1c2l6ZT4gewogICAgbGV0IGRlbGl2ZXJpZXMgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmxvYWRfbm90aWZpY2F0aW9uX2hpc3RvcnkoImRlbGl2ZXJ5IikKICAgICAgICAuYXdhaXQ/OwogICAgbGV0IG11dCBtYXRjaGVkX2lkcyA9IFZlYzo6bmV3KCk7CiAgICBmb3IgdmFsdWUgaW4gZGVsaXZlcmllcyB7CiAgICAgICAgaWYgbWF0Y2hlc19vcHRpb25hbF9zdHJpbmcoJnZhbHVlLCAicnVsZV9pZCIsIGZpbHRlci5ydWxlX2lkLmFzX2RlcmVmKCkpCiAgICAgICAgICAgICYmIG1hdGNoZXNfb3B0aW9uYWxfc3RyaW5nKCZ2YWx1ZSwgInByb3ZpZGVyX2lkIiwgZmlsdGVyLnByb3ZpZGVyX2lkLmFzX2RlcmVmKCkpCiAgICAgICAgICAgICYmIG1hdGNoZXNfb3B0aW9uYWxfc3RyaW5nKCZ2YWx1ZSwgInRyaWdnZXJfaWQiLCBmaWx0ZXIudHJpZ2dlcl9pZC5hc19kZXJlZigpKQogICAgICAgICAgICAmJiBtYXRjaGVzX29wdGlvbmFsX3N0cmluZygmdmFsdWUsICJzdGF0dXMiLCBmaWx0ZXIuc3RhdHVzLmFzX2RlcmVmKCkpCiAgICAgICAgICAgICYmIGxldCBTb21lKGlkKSA9IHZhbHVlLmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIHsKICAgICAgICAgICAgbWF0Y2hlZF9pZHMucHVzaChpZC50b19zdHJpbmcoKSk7CiAgICAgICAgfQogICAgfQogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5kZWxldGVfbm90aWZpY2F0aW9uX2RlbGl2ZXJpZXMoJm1hdGNoZWRfaWRzKQogICAgICAgIC5hd2FpdD87CiAgICBPayhtYXRjaGVkX2lkcy5sZW4oKSkKfQo=
+use super::*;
+
+pub(super) async fn load_providers(state: &AppState) -> crate::storage::StorageResult<Vec<Value>> {
+    state.storage.store.load_notification_providers().await
+}
+
+pub(super) async fn load_provider(
+    state: &AppState,
+    id: &str,
+) -> crate::storage::StorageResult<Option<Value>> {
+    state.storage.store.load_notification_provider(id).await
+}
+
+pub(super) async fn save_provider_raw(
+    state: &AppState,
+    provider: &Value,
+) -> crate::storage::StorageResult<()> {
+    let id = provider
+        .get("id")
+        .and_then(Value::as_str)
+        .unwrap_or_default();
+    let score = iso_score_ms(
+        provider
+            .get("updated_at")
+            .and_then(Value::as_str)
+            .or_else(|| provider.get("created_at").and_then(Value::as_str)),
+    );
+    state
+        .storage
+        .store
+        .save_notification_provider(id, provider, score)
+        .await
+}
+
+pub(super) async fn load_rules(state: &AppState) -> crate::storage::StorageResult<Vec<Value>> {
+    state.storage.store.load_notification_rules().await
+}
+
+pub(super) async fn load_rule(
+    state: &AppState,
+    id: &str,
+) -> crate::storage::StorageResult<Option<Value>> {
+    state.storage.store.load_notification_rule(id).await
+}
+
+pub(super) async fn save_rule_raw(
+    state: &AppState,
+    rule: &Value,
+) -> crate::storage::StorageResult<()> {
+    let id = rule.get("id").and_then(Value::as_str).unwrap_or_default();
+    let score = iso_score_ms(
+        rule.get("updated_at")
+            .and_then(Value::as_str)
+            .or_else(|| rule.get("created_at").and_then(Value::as_str)),
+    );
+    state
+        .storage
+        .store
+        .save_notification_rule(id, rule, score)
+        .await
+}
+
+pub(super) async fn load_trigger(
+    state: &AppState,
+    id: &str,
+) -> crate::storage::StorageResult<Option<Value>> {
+    state.storage.store.load_notification_trigger(id).await
+}
+
+pub(super) async fn save_trigger_raw(
+    state: &AppState,
+    trigger: &Value,
+) -> crate::storage::StorageResult<()> {
+    let id = trigger
+        .get("id")
+        .and_then(Value::as_str)
+        .unwrap_or_default();
+    let created_at = trigger.get("created_at").and_then(Value::as_str);
+    let ttl = history_ttl_seconds(created_at);
+    let _ = state
+        .storage
+        .store
+        .save_notification_trigger(id, trigger, iso_score_ms(created_at), ttl, false)
+        .await?;
+    Ok(())
+}
+
+pub(super) async fn save_trigger_if_absent(
+    state: &AppState,
+    trigger: &Value,
+) -> crate::storage::StorageResult<bool> {
+    let id = trigger
+        .get("id")
+        .and_then(Value::as_str)
+        .unwrap_or_default();
+    let created_at = trigger.get("created_at").and_then(Value::as_str);
+    let ttl = history_ttl_seconds(created_at);
+    state
+        .storage
+        .store
+        .save_notification_trigger(id, trigger, iso_score_ms(created_at), ttl, true)
+        .await
+}
+
+pub(super) async fn load_delivery(
+    state: &AppState,
+    id: &str,
+) -> crate::storage::StorageResult<Option<Value>> {
+    state.storage.store.load_notification_delivery(id).await
+}
+
+pub(super) async fn save_delivery_raw(
+    state: &AppState,
+    delivery: &Value,
+) -> crate::storage::StorageResult<()> {
+    let id = delivery
+        .get("id")
+        .and_then(Value::as_str)
+        .unwrap_or_default();
+    let triggered_at = delivery.get("triggered_at").and_then(Value::as_str);
+    let ttl = history_ttl_seconds(triggered_at);
+    let _ = state
+        .storage
+        .store
+        .save_notification_delivery(id, delivery, iso_score_ms(triggered_at), ttl, false)
+        .await?;
+    Ok(())
+}
+
+pub(super) async fn save_delivery_if_absent(
+    state: &AppState,
+    delivery: &Value,
+) -> crate::storage::StorageResult<bool> {
+    let id = delivery
+        .get("id")
+        .and_then(Value::as_str)
+        .unwrap_or_default();
+    let triggered_at = delivery.get("triggered_at").and_then(Value::as_str);
+    let ttl = history_ttl_seconds(triggered_at);
+    state
+        .storage
+        .store
+        .save_notification_delivery(id, delivery, iso_score_ms(triggered_at), ttl, true)
+        .await
+}
+
+pub(super) fn history_ttl_seconds(happened_at: Option<&str>) -> usize {
+    let expires_at = happened_at
+        .and_then(time_utils::parse_iso_ms)
+        .unwrap_or_else(time_utils::now_ms)
+        + HISTORY_RETENTION_TTL_SECONDS * 1000;
+    (((expires_at - time_utils::now_ms()).max(1000) + 999) / 1000) as usize
+}
+
+pub(super) async fn refresh_trigger_status(
+    state: &AppState,
+    trigger_id: &str,
+) -> anyhow::Result<()> {
+    if trigger_id.is_empty() {
+        return Ok(());
+    }
+    let Some(trigger) = load_trigger(state, trigger_id).await? else {
+        return Ok(());
+    };
+    let (deliveries, _) = list_history(
+        state,
+        DELIVERIES_INDEX_KEY,
+        DELIVERIES_DATA_PREFIX,
+        1,
+        i64::MAX,
+        |delivery| delivery.get("trigger_id").and_then(Value::as_str) == Some(trigger_id),
+    )
+    .await?;
+    if deliveries.is_empty() {
+        return Ok(());
+    }
+    if deliveries.iter().any(|delivery| {
+        !is_terminal_delivery_status(delivery.get("status").and_then(Value::as_str))
+    }) {
+        return Ok(());
+    }
+    let all_succeeded = deliveries.iter().all(|delivery| {
+        matches!(
+            delivery.get("status").and_then(Value::as_str),
+            Some("success" | "skipped")
+        )
+    });
+    let mut updated = trigger.as_object().cloned().unwrap_or_default();
+    updated.insert(
+        "status".to_string(),
+        Value::String(if all_succeeded {
+            "completed".to_string()
+        } else {
+            "partially_failed".to_string()
+        }),
+    );
+    save_trigger_raw(state, &Value::Object(updated)).await?;
+    Ok(())
+}
+
+pub(super) fn find_rule_target(rule: &Value, target_id: &str) -> Option<Value> {
+    rule.get("targets")
+        .and_then(Value::as_array)?
+        .iter()
+        .find(|target| target.get("id").and_then(Value::as_str) == Some(target_id))
+        .cloned()
+}
+
+pub(super) struct DeliveryPolicy {
+    pub(super) timeout_seconds: i64,
+    pub(super) max_attempts: i64,
+    pub(super) backoff_seconds: i64,
+}
+
+pub(super) fn resolve_delivery_policy(value: Option<&Value>) -> DeliveryPolicy {
+    let object = value.and_then(Value::as_object);
+    DeliveryPolicy {
+        timeout_seconds: object
+            .and_then(|value| value.get("timeout_seconds"))
+            .map(|value| value_to_i64(value, 5))
+            .unwrap_or(5)
+            .clamp(1, 30),
+        max_attempts: object
+            .and_then(|value| value.get("max_attempts"))
+            .map(|value| value_to_i64(value, 3))
+            .unwrap_or(3)
+            .clamp(1, 10),
+        backoff_seconds: object
+            .and_then(|value| value.get("backoff_seconds"))
+            .map(|value| value_to_i64(value, 30))
+            .unwrap_or(30)
+            .clamp(5, 3600),
+    }
+}
+
+pub(super) fn resolve_delivery_ready_at_ms(delivery: &Value) -> i64 {
+    delivery
+        .get("next_retry_at")
+        .and_then(Value::as_str)
+        .and_then(time_utils::parse_iso_ms)
+        .or_else(|| {
+            delivery
+                .get("triggered_at")
+                .and_then(Value::as_str)
+                .and_then(time_utils::parse_iso_ms)
+        })
+        .unwrap_or_else(time_utils::now_ms)
+}
+
+pub(super) async fn list_history<F>(
+    state: &AppState,
+    index_key: &str,
+    _data_prefix: &str,
+    page: i64,
+    limit: i64,
+    matches: F,
+) -> crate::storage::StorageResult<(Vec<Value>, i64)>
+where
+    F: Fn(&Value) -> bool,
+{
+    let kind = match index_key {
+        TRIGGERS_INDEX_KEY => "trigger",
+        DELIVERIES_INDEX_KEY => "delivery",
+        _ => {
+            return Err(crate::storage::storage_error(
+                "invalid notification history index",
+            ));
+        }
+    };
+    let values = state.storage.store.load_notification_history(kind).await?;
+    let page_start = (page.saturating_sub(1)).saturating_mul(limit);
+    let mut matched_total = 0_i64;
+    let mut items = Vec::new();
+
+    for value in values {
+        if !matches(&value) {
+            continue;
+        }
+        if matched_total >= page_start && (items.len() as i64) < limit {
+            items.push(sanitize_notification_record(value));
+        }
+        matched_total += 1;
+    }
+    Ok((items, matched_total))
+}
+
+pub(super) struct ClearDeliveryFilter {
+    pub(super) rule_id: Option<String>,
+    pub(super) provider_id: Option<String>,
+    pub(super) trigger_id: Option<String>,
+    pub(super) status: Option<String>,
+}
+
+pub(super) async fn clear_delivery_values(
+    state: &AppState,
+    filter: ClearDeliveryFilter,
+) -> crate::storage::StorageResult<usize> {
+    let deliveries = state
+        .storage
+        .store
+        .load_notification_history("delivery")
+        .await?;
+    let mut matched_ids = Vec::new();
+    for value in deliveries {
+        if matches_optional_string(&value, "rule_id", filter.rule_id.as_deref())
+            && matches_optional_string(&value, "provider_id", filter.provider_id.as_deref())
+            && matches_optional_string(&value, "trigger_id", filter.trigger_id.as_deref())
+            && matches_optional_string(&value, "status", filter.status.as_deref())
+            && let Some(id) = value.get("id").and_then(Value::as_str)
+        {
+            matched_ids.push(id.to_string());
+        }
+    }
+    state
+        .storage
+        .store
+        .delete_notification_deliveries(&matched_ids)
+        .await?;
+    Ok(matched_ids.len())
+}

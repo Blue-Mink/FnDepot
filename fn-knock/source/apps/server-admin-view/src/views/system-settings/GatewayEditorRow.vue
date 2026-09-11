@@ -1,1 +1,56 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cygKICBkZWZpbmVQcm9wczx7CiAgICBhY3Rpb25MYWJlbDogc3RyaW5nOwogICAgZGVzY3JpcHRpb246IHN0cmluZzsKICAgIGRpc2FibGVkPzogYm9vbGVhbjsKICAgIGRpc2FibGVkUmVhc29uPzogc3RyaW5nOwogICAgdGl0bGU6IHN0cmluZzsKICB9PigpLAogIHsKICAgIGRpc2FibGVkOiBmYWxzZSwKICAgIGRpc2FibGVkUmVhc29uOiAiIiwKICB9LAopOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICBhY3Rpb246IFtdOwp9PigpOwoKY29uc3QgbXV0ZWRDbGFzcyA9IGNvbXB1dGVkKCgpID0+CiAgcHJvcHMuZGlzYWJsZWQgPyAidGV4dC16aW5jLTUwMCIgOiAidGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiwKKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtNCBwLTYgbGc6Z3JpZC1jb2xzLVttaW5tYXgoMCwxZnIpX2F1dG9dIGxnOml0ZW1zLWNlbnRlciI+CiAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTMiPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzPSJ0ZXh0LWJhc2UgZm9udC1tZWRpdW0iCiAgICAgICAgICA6Y2xhc3M9ImRpc2FibGVkID8gJ3RleHQtemluYy01MDAnIDogJyciCiAgICAgICAgPgogICAgICAgICAge3sgdGl0bGUgfX0KICAgICAgICA8L2Rpdj4KICAgICAgICA8c2xvdCBuYW1lPSJiYWRnZXMiIC8+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIGxlYWRpbmctNiIgOmNsYXNzPSJtdXRlZENsYXNzIj4KICAgICAgICB7eyBkZXNjcmlwdGlvbiB9fQogICAgICA8L2Rpdj4KICAgICAgPGRpdgogICAgICAgIHYtaWY9ImRpc2FibGVkICYmIGRpc2FibGVkUmVhc29uIgogICAgICAgIGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LXppbmMtNTAwIgogICAgICA+CiAgICAgICAge3sgZGlzYWJsZWRSZWFzb24gfX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImZsZXgganVzdGlmeS1zdGFydCBsZzpqdXN0aWZ5LWVuZCI+CiAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgOmRpc2FibGVkPSJkaXNhYmxlZCIgQGNsaWNrPSJlbWl0KCdhY3Rpb24nKSI+CiAgICAgICAge3sgYWN0aW9uTGFiZWwgfX0KICAgICAgPC9CdXR0b24+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+import { Button } from "@/components/ui/button";
+
+const props = withDefaults(
+  defineProps<{
+    actionLabel: string;
+    description: string;
+    disabled?: boolean;
+    disabledReason?: string;
+    title: string;
+  }>(),
+  {
+    disabled: false,
+    disabledReason: "",
+  },
+);
+
+const emit = defineEmits<{
+  action: [];
+}>();
+
+const mutedClass = computed(() =>
+  props.disabled ? "text-zinc-500" : "text-muted-foreground",
+);
+</script>
+
+<template>
+  <div class="grid gap-4 p-6 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
+    <div class="space-y-3">
+      <div class="flex flex-wrap items-center gap-2">
+        <div
+          class="text-base font-medium"
+          :class="disabled ? 'text-zinc-500' : ''"
+        >
+          {{ title }}
+        </div>
+        <slot name="badges" />
+      </div>
+      <div class="text-sm leading-6" :class="mutedClass">
+        {{ description }}
+      </div>
+      <div
+        v-if="disabled && disabledReason"
+        class="text-xs leading-5 text-zinc-500"
+      >
+        {{ disabledReason }}
+      </div>
+    </div>
+    <div class="flex justify-start lg:justify-end">
+      <Button variant="outline" :disabled="disabled" @click="emit('action')">
+        {{ actionLabel }}
+      </Button>
+    </div>
+  </div>
+</template>

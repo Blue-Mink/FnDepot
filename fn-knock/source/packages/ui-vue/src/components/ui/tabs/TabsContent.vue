@@ -1,1 +1,52 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgVGFic0NvbnRlbnRQcm9wcyB9IGZyb20gInJla2EtdWkiOwppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgcmVhY3RpdmVPbWl0IH0gZnJvbSAiQHZ1ZXVzZS9jb3JlIjsKaW1wb3J0IHsgY29tcHV0ZWQsIG9uQmVmb3JlVW5tb3VudCwgb25Nb3VudGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgVGFic0NvbnRlbnQgfSBmcm9tICJyZWthLXVpIjsKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyI7CmltcG9ydCB7IHVzZVRhYnNNb3Rpb25Db250ZXh0IH0gZnJvbSAiLi90YWJzLW1vdGlvbiI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPAogIFRhYnNDb250ZW50UHJvcHMgJiB7IGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0gfQo+KCk7Cgpjb25zdCBkZWxlZ2F0ZWRQcm9wcyA9IHJlYWN0aXZlT21pdChwcm9wcywgImNsYXNzIik7CmNvbnN0IHRhYnNNb3Rpb24gPSB1c2VUYWJzTW90aW9uQ29udGV4dCgpOwoKY29uc3QgbW90aW9uQ2xhc3NlcyA9IGNvbXB1dGVkKCgpID0+IHsKICBzd2l0Y2ggKHRhYnNNb3Rpb24/Lm1vdGlvbkRpcmVjdGlvbi52YWx1ZSkgewogICAgY2FzZSAiZnJvbS1lbmQiOgogICAgICByZXR1cm4gImRhdGEtW3N0YXRlPWFjdGl2ZV06c2xpZGUtaW4tZnJvbS1yaWdodC00IGRhdGEtW3N0YXRlPWluYWN0aXZlXTpzbGlkZS1vdXQtdG8tbGVmdC00IjsKICAgIGNhc2UgImZyb20tc3RhcnQiOgogICAgICByZXR1cm4gImRhdGEtW3N0YXRlPWFjdGl2ZV06c2xpZGUtaW4tZnJvbS1sZWZ0LTQgZGF0YS1bc3RhdGU9aW5hY3RpdmVdOnNsaWRlLW91dC10by1yaWdodC00IjsKICAgIGRlZmF1bHQ6CiAgICAgIHJldHVybiAiIjsKICB9Cn0pOwoKb25Nb3VudGVkKCgpID0+IHsKICB0YWJzTW90aW9uPy5yZWdpc3RlckNvbnRlbnQocHJvcHMudmFsdWUpOwp9KTsKCm9uQmVmb3JlVW5tb3VudCgoKSA9PiB7CiAgdGFic01vdGlvbj8udW5yZWdpc3RlckNvbnRlbnQocHJvcHMudmFsdWUpOwp9KTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFRhYnNDb250ZW50CiAgICBkYXRhLXNsb3Q9InRhYnMtY29udGVudCIKICAgIDpjbGFzcz0iCiAgICAgIGNuKAogICAgICAgICdmbGV4LTEgb3V0bGluZS1ub25lIG1vdGlvbi1zYWZlOmRhdGEtW3N0YXRlPWFjdGl2ZV06YW5pbWF0ZS1pbiBtb3Rpb24tc2FmZTpkYXRhLVtzdGF0ZT1pbmFjdGl2ZV06YW5pbWF0ZS1vdXQgbW90aW9uLXNhZmU6ZGF0YS1bc3RhdGU9YWN0aXZlXTpmYWRlLWluLTAgbW90aW9uLXNhZmU6ZGF0YS1bc3RhdGU9aW5hY3RpdmVdOmZhZGUtb3V0LTAgbW90aW9uLXNhZmU6ZGF0YS1bc3RhdGU9YWN0aXZlXTpkdXJhdGlvbi0zMDAgbW90aW9uLXNhZmU6ZGF0YS1bc3RhdGU9aW5hY3RpdmVdOmR1cmF0aW9uLTIwMCBtb3Rpb24tc2FmZTpkYXRhLVtzdGF0ZT1hY3RpdmVdOmVhc2Utb3V0IG1vdGlvbi1zYWZlOmRhdGEtW3N0YXRlPWluYWN0aXZlXTplYXNlLWluIG1vdGlvbi1zYWZlOndpbGwtY2hhbmdlLVt0cmFuc2Zvcm0sb3BhY2l0eV0nLAogICAgICAgIG1vdGlvbkNsYXNzZXMsCiAgICAgICAgcHJvcHMuY2xhc3MsCiAgICAgICkKICAgICIKICAgIDpkYXRhLW1vdGlvbj0idGFic01vdGlvbj8ubW90aW9uRGlyZWN0aW9uLnZhbHVlID8/ICdub25lJyIKICAgIHYtYmluZD0iZGVsZWdhdGVkUHJvcHMiCiAgPgogICAgPHNsb3QgLz4KICA8L1RhYnNDb250ZW50Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { TabsContentProps } from "reka-ui";
+import type { HTMLAttributes } from "vue";
+import { reactiveOmit } from "@vueuse/core";
+import { computed, onBeforeUnmount, onMounted } from "vue";
+import { TabsContent } from "reka-ui";
+import { cn } from "@/lib/utils";
+import { useTabsMotionContext } from "./tabs-motion";
+
+const props = defineProps<
+  TabsContentProps & { class?: HTMLAttributes["class"] }
+>();
+
+const delegatedProps = reactiveOmit(props, "class");
+const tabsMotion = useTabsMotionContext();
+
+const motionClasses = computed(() => {
+  switch (tabsMotion?.motionDirection.value) {
+    case "from-end":
+      return "data-[state=active]:slide-in-from-right-4 data-[state=inactive]:slide-out-to-left-4";
+    case "from-start":
+      return "data-[state=active]:slide-in-from-left-4 data-[state=inactive]:slide-out-to-right-4";
+    default:
+      return "";
+  }
+});
+
+onMounted(() => {
+  tabsMotion?.registerContent(props.value);
+});
+
+onBeforeUnmount(() => {
+  tabsMotion?.unregisterContent(props.value);
+});
+</script>
+
+<template>
+  <TabsContent
+    data-slot="tabs-content"
+    :class="
+      cn(
+        'flex-1 outline-none motion-safe:data-[state=active]:animate-in motion-safe:data-[state=inactive]:animate-out motion-safe:data-[state=active]:fade-in-0 motion-safe:data-[state=inactive]:fade-out-0 motion-safe:data-[state=active]:duration-300 motion-safe:data-[state=inactive]:duration-200 motion-safe:data-[state=active]:ease-out motion-safe:data-[state=inactive]:ease-in motion-safe:will-change-[transform,opacity]',
+        motionClasses,
+        props.class,
+      )
+    "
+    :data-motion="tabsMotion?.motionDirection.value ?? 'none'"
+    v-bind="delegatedProps"
+  >
+    <slot />
+  </TabsContent>
+</template>

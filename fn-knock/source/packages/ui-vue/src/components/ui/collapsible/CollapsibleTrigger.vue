@@ -1,1 +1,15 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgQ29sbGFwc2libGVUcmlnZ2VyUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBDb2xsYXBzaWJsZVRyaWdnZXIgfSBmcm9tICJyZWthLXVpIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxDb2xsYXBzaWJsZVRyaWdnZXJQcm9wcz4oKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8Q29sbGFwc2libGVUcmlnZ2VyCiAgICBkYXRhLXNsb3Q9ImNvbGxhcHNpYmxlLXRyaWdnZXIiCiAgICB2LWJpbmQ9InByb3BzIgogID4KICAgIDxzbG90IC8+CiAgPC9Db2xsYXBzaWJsZVRyaWdnZXI+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { CollapsibleTriggerProps } from "reka-ui"
+import { CollapsibleTrigger } from "reka-ui"
+
+const props = defineProps<CollapsibleTriggerProps>()
+</script>
+
+<template>
+  <CollapsibleTrigger
+    data-slot="collapsible-trigger"
+    v-bind="props"
+  >
+    <slot />
+  </CollapsibleTrigger>
+</template>

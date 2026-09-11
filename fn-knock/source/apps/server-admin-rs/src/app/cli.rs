@@ -1,1 +1,109 @@
-dXNlIHN0ZDo6ZW52OwoKdXNlIGFueWhvdzo6Q29udGV4dDsKdXNlIHNlcmRlX2pzb246Ompzb247Cgp1c2UgY3JhdGU6OnsKICAgIGkxOG46OntERUZBVUxUX0xPQ0FMRSwgVHJhbnNsYXRvcn0sCiAgICBzZXR0aW5nczo6U2V0dGluZ3MsCiAgICBzdG9yYWdlOjpsZWdhY3lfcmVkaXNfbWlncmF0aW9uOjp7c2VsZiwgTGVnYWN5UmVkaXNNaWdyYXRpb25PcHRpb25zfSwKICAgIHN0b3JlOjpTdG9yZSwKfTsKCnB1YihzdXBlcikgZm4gcHJpbnRfaGVscCgpIHsKICAgIHByaW50bG4hKCJzZXJ2ZXItYWRtaW4tcnMiKTsKICAgIHByaW50bG4hKCk7CiAgICBwcmludGxuISgiQ29tbWFuZHM6Iik7CiAgICBwcmludGxuISgiICByZXNldC1wYW5lbC1wYXNzd29yZCAgICBDbGVhciBhZG1pbiBwYW5lbCBwYXNzd29yZC9zZXNzaW9uIHN0YXRlIik7CiAgICBwcmludGxuISgKICAgICAgICAiICBtaWdyYXRlLXJlZGlzLXRvLXNxbGl0ZSBJbXBvcnQgbGVnYWN5IFJlZGlzIGZuX2tub2NrOiogZGF0YSBpbnRvIFNRTGl0ZSwgdGhlbiBkZWxldGUgc291cmNlIGtleXMiCiAgICApOwp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHJlc2V0X3BhbmVsX3Bhc3N3b3JkX2NvbW1hbmQoKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgbGV0IGFyZ3MgPSBlbnY6OmFyZ3MoKS5za2lwKDIpLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBpZiBhcmdzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5hbnkofGFyZ3wgbWF0Y2hlcyEoYXJnLmFzX3N0cigpLCAiLWgiIHwgIi0taGVscCIpKQogICAgewogICAgICAgIGxldCBsb2NhbGUgPSBlbnY6OnZhcigiRk5fS05PQ0tfTE9DQUxFIikudW53cmFwX29yX2Vsc2UofF98IERFRkFVTFRfTE9DQUxFLnRvX3N0cmluZygpKTsKICAgICAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6Om5ldyhsb2NhbGUpOwogICAgICAgIHByaW50bG4hKCJ7fSIsIHRyYW5zbGF0b3IudCgic2VydmVyLmRvY2tlckFkbWluUGFuZWwucmVzZXRIZWxwIikpOwogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CiAgICBpZiBsZXQgU29tZShhcmcpID0gYXJncy5maXJzdCgpIHsKICAgICAgICBhbnlob3c6OmJhaWwhKCJ1bmtub3duIGFyZ3VtZW50IGZvciByZXNldC1wYW5lbC1wYXNzd29yZDoge2FyZ30iKTsKICAgIH0KCiAgICBsZXQgc2V0dGluZ3MgPSBTZXR0aW5nczo6ZnJvbV9lbnYoKTsKICAgIGxldCBzdG9yZSA9IFN0b3JlOjpjb25uZWN0KCZzZXR0aW5ncy5zcWxpdGVfcGF0aCkKICAgICAgICAuYXdhaXQKICAgICAgICAuY29udGV4dCgib3BlbiBTUUxpdGUgc3RvcmFnZSBmb3IgYWRtaW4gcGFuZWwgcGFzc3dvcmQgcmVzZXQiKT87CiAgICBsZXQgbG9jYWxlID0gc3RvcmUKICAgICAgICAubG9jYWxlKCkKICAgICAgICAuYXdhaXQKICAgICAgICAub2soKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHsKICAgICAgICAgICAgdmFsdWUKICAgICAgICAgICAgICAgIC5nZXQoImRlZmF1bHRfbG9jYWxlIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihzZXJkZV9qc29uOjpWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgLm1hcChzdHI6OnRvX3N0cmluZykKICAgICAgICB9KQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCBERUZBVUxUX0xPQ0FMRS50b19zdHJpbmcoKSk7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6Om5ldyhsb2NhbGUpOwoKICAgIGxldCBzdW1tYXJ5ID0gc3RvcmUucmVzZXRfZG9ja2VyX2FkbWluX3Bhc3N3b3JkX3N0YXRlKCkuYXdhaXQ/OwogICAgcHJpbnRsbiEoInt9IiwgdHJhbnNsYXRvci50KCJzZXJ2ZXIuZG9ja2VyQWRtaW5QYW5lbC5yZXNldENsZWFyZWQiKSk7CiAgICBwcmludGxuISgKICAgICAgICAie30iLAogICAgICAgIHNlcmRlX2pzb246OnRvX3N0cmluZ19wcmV0dHkoJmpzb24hKHsKICAgICAgICAgICAgInBhc3N3b3JkQ2xlYXJlZCI6IHN1bW1hcnkucGFzc3dvcmRfY2xlYXJlZCwKICAgICAgICAgICAgInNlc3Npb25zQ2xlYXJlZCI6IHN1bW1hcnkuc2Vzc2lvbnNfY2xlYXJlZCwKICAgICAgICAgICAgImxvZ2luRmFpbHVyZXNDbGVhcmVkIjogc3VtbWFyeS5sb2dpbl9mYWlsdXJlc19jbGVhcmVkLAogICAgICAgIH0pKT8KICAgICk7CiAgICBwcmludGxuISgie30iLCB0cmFuc2xhdG9yLnQoInNlcnZlci5kb2NrZXJBZG1pblBhbmVsLnJlc2V0TmV4dFZpc2l0IikpOwogICAgT2soKCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gbWlncmF0ZV9yZWRpc190b19zcWxpdGVfY29tbWFuZCgpIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgYXJncyA9IGVudjo6YXJncygpLnNraXAoMikuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGxldCBmb3JjZSA9IGFyZ3MuaXRlcigpLmFueSh8YXJnfCBhcmcgPT0gIi0tZm9yY2UiKTsKICAgIGlmIGFyZ3MKICAgICAgICAuaXRlcigpCiAgICAgICAgLmFueSh8YXJnfCBtYXRjaGVzIShhcmcuYXNfc3RyKCksICItaCIgfCAiLS1oZWxwIikpCiAgICB7CiAgICAgICAgcHJpbnRsbiEoIlVzYWdlOiBzZXJ2ZXItYWRtaW4tcnMgbWlncmF0ZS1yZWRpcy10by1zcWxpdGUgWy0tZm9yY2VdIik7CiAgICAgICAgcHJpbnRsbiEoKTsKICAgICAgICBwcmludGxuISgiSW1wb3J0cyBsZWdhY3kgUmVkaXMgZm5fa25vY2s6KiBkYXRhIGludG8gdGhlIGNvbmZpZ3VyZWQgU1FMaXRlIGRhdGFiYXNlLiIpOwogICAgICAgIHByaW50bG4hKAogICAgICAgICAgICAiQnkgZGVmYXVsdCBpdCB3aWxsIG5vdCBvdmVyd3JpdGUgYW4gU1FMaXRlIGRhdGFiYXNlIHRoYXQgYWxyZWFkeSBoYXMgZm5fa25vY2s6KiBrZXlzLiIKICAgICAgICApOwogICAgICAgIHByaW50bG4hKCJBZnRlciBhIHN1Y2Nlc3NmdWwgaW1wb3J0IGl0IGRlbGV0ZXMgbGVnYWN5IGZuX2tub2NrOioga2V5cyBmcm9tIHNvdXJjZSBSZWRpcy4iKTsKICAgICAgICBwcmludGxuISgiVXNlIC0tZm9yY2UgdG8gY2xlYXIgdGhlIFNRTGl0ZSBmbl9rbm9jazoqIGtleXNwYWNlIGJlZm9yZSBpbXBvcnRpbmcuIik7CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH0KICAgIGlmIGxldCBTb21lKGFyZykgPSBhcmdzLml0ZXIoKS5maW5kKHxhcmd8IGFyZy5hc19zdHIoKSAhPSAiLS1mb3JjZSIpIHsKICAgICAgICBhbnlob3c6OmJhaWwhKCJ1bmtub3duIGFyZ3VtZW50IGZvciBtaWdyYXRlLXJlZGlzLXRvLXNxbGl0ZToge2FyZ30iKTsKICAgIH0KCiAgICBsZXQgc2V0dGluZ3MgPSBTZXR0aW5nczo6ZnJvbV9lbnYoKTsKICAgIGlmICFsZWdhY3lfcmVkaXNfbWlncmF0aW9uOjptaWdyYXRpb25fYWxsb3dlZF9mb3JfcnVudGltZV90YXJnZXQoJnNldHRpbmdzLnJ1bnRpbWVfdGFyZ2V0KSB7CiAgICAgICAgYW55aG93OjpiYWlsISgibGVnYWN5IFJlZGlzIG1pZ3JhdGlvbiBpcyB1bmF2YWlsYWJsZSBmb3IgZnBrLWxpdGUiKTsKICAgIH0KICAgIGxldCBzdG9yZSA9IFN0b3JlOjpjb25uZWN0KCZzZXR0aW5ncy5zcWxpdGVfcGF0aCkKICAgICAgICAuYXdhaXQKICAgICAgICAuY29udGV4dCgib3BlbiBTUUxpdGUgc3RvcmFnZSBmb3IgbGVnYWN5IFJlZGlzIG1pZ3JhdGlvbiIpPzsKICAgIGxldCBvdXRjb21lID0gbGVnYWN5X3JlZGlzX21pZ3JhdGlvbjo6bWlncmF0ZV9pZl9hdmFpbGFibGUoCiAgICAgICAgJnN0b3JlLAogICAgICAgICZzZXR0aW5ncy5sZWdhY3lfcmVkaXNfdXJsLAogICAgICAgIExlZ2FjeVJlZGlzTWlncmF0aW9uT3B0aW9ucyB7CiAgICAgICAgICAgIHJlcXVpcmVfc291cmNlOiB0cnVlLAogICAgICAgICAgICBmb3JjZSwKICAgICAgICAgICAgY2xlYW51cF9zb3VyY2U6IHRydWUsCiAgICAgICAgfSwKICAgICkKICAgIC5hd2FpdD87CiAgICBwcmludGxuISgie30iLCBvdXRjb21lLnN1bW1hcnkoKSk7CiAgICBPaygoKSkKfQo=
+use std::env;
+
+use anyhow::Context;
+use serde_json::json;
+
+use crate::{
+    i18n::{DEFAULT_LOCALE, Translator},
+    settings::Settings,
+    storage::legacy_redis_migration::{self, LegacyRedisMigrationOptions},
+    store::Store,
+};
+
+pub(super) fn print_help() {
+    println!("server-admin-rs");
+    println!();
+    println!("Commands:");
+    println!("  reset-panel-password    Clear admin panel password/session state");
+    println!(
+        "  migrate-redis-to-sqlite Import legacy Redis fn_knock:* data into SQLite, then delete source keys"
+    );
+}
+
+pub(super) async fn reset_panel_password_command() -> anyhow::Result<()> {
+    let args = env::args().skip(2).collect::<Vec<_>>();
+    if args
+        .iter()
+        .any(|arg| matches!(arg.as_str(), "-h" | "--help"))
+    {
+        let locale = env::var("FN_KNOCK_LOCALE").unwrap_or_else(|_| DEFAULT_LOCALE.to_string());
+        let translator = Translator::new(locale);
+        println!("{}", translator.t("server.dockerAdminPanel.resetHelp"));
+        return Ok(());
+    }
+    if let Some(arg) = args.first() {
+        anyhow::bail!("unknown argument for reset-panel-password: {arg}");
+    }
+
+    let settings = Settings::from_env();
+    let store = Store::connect(&settings.sqlite_path)
+        .await
+        .context("open SQLite storage for admin panel password reset")?;
+    let locale = store
+        .locale()
+        .await
+        .ok()
+        .and_then(|value| {
+            value
+                .get("default_locale")
+                .and_then(serde_json::Value::as_str)
+                .map(str::to_string)
+        })
+        .unwrap_or_else(|| DEFAULT_LOCALE.to_string());
+    let translator = Translator::new(locale);
+
+    let summary = store.reset_docker_admin_password_state().await?;
+    println!("{}", translator.t("server.dockerAdminPanel.resetCleared"));
+    println!(
+        "{}",
+        serde_json::to_string_pretty(&json!({
+            "passwordCleared": summary.password_cleared,
+            "sessionsCleared": summary.sessions_cleared,
+            "loginFailuresCleared": summary.login_failures_cleared,
+        }))?
+    );
+    println!("{}", translator.t("server.dockerAdminPanel.resetNextVisit"));
+    Ok(())
+}
+
+pub(super) async fn migrate_redis_to_sqlite_command() -> anyhow::Result<()> {
+    let args = env::args().skip(2).collect::<Vec<_>>();
+    let force = args.iter().any(|arg| arg == "--force");
+    if args
+        .iter()
+        .any(|arg| matches!(arg.as_str(), "-h" | "--help"))
+    {
+        println!("Usage: server-admin-rs migrate-redis-to-sqlite [--force]");
+        println!();
+        println!("Imports legacy Redis fn_knock:* data into the configured SQLite database.");
+        println!(
+            "By default it will not overwrite an SQLite database that already has fn_knock:* keys."
+        );
+        println!("After a successful import it deletes legacy fn_knock:* keys from source Redis.");
+        println!("Use --force to clear the SQLite fn_knock:* keyspace before importing.");
+        return Ok(());
+    }
+    if let Some(arg) = args.iter().find(|arg| arg.as_str() != "--force") {
+        anyhow::bail!("unknown argument for migrate-redis-to-sqlite: {arg}");
+    }
+
+    let settings = Settings::from_env();
+    if !legacy_redis_migration::migration_allowed_for_runtime_target(&settings.runtime_target) {
+        anyhow::bail!("legacy Redis migration is unavailable for fpk-lite");
+    }
+    let store = Store::connect(&settings.sqlite_path)
+        .await
+        .context("open SQLite storage for legacy Redis migration")?;
+    let outcome = legacy_redis_migration::migrate_if_available(
+        &store,
+        &settings.legacy_redis_url,
+        LegacyRedisMigrationOptions {
+            require_source: true,
+            force,
+            cleanup_source: true,
+        },
+    )
+    .await?;
+    println!("{}", outcome.summary());
+    Ok(())
+}

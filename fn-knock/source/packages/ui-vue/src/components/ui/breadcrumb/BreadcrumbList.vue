@@ -1,1 +1,17 @@
-PHNjcmlwdCBsYW5nPSJ0cyIgc2V0dXA+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPG9sCiAgICBkYXRhLXNsb3Q9ImJyZWFkY3J1bWItbGlzdCIKICAgIDpjbGFzcz0iY24oJ3RleHQtbXV0ZWQtZm9yZWdyb3VuZCBmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSB0ZXh0LXNtIGJyZWFrLXdvcmRzIHNtOmdhcC0yLjUnLCBwcm9wcy5jbGFzcykiCiAgPgogICAgPHNsb3QgLz4KICA8L29sPgo8L3RlbXBsYXRlPgo=
+<script lang="ts" setup>
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <ol
+    data-slot="breadcrumb-list"
+    :class="cn('text-muted-foreground flex flex-wrap items-center gap-1.5 text-sm break-words sm:gap-2.5', props.class)"
+  >
+    <slot />
+  </ol>
+</template>

@@ -1,1 +1,245 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IFRyYXNoMiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCBDaWRyUmVnaW9uU2VsZWN0b3IgZnJvbSAiQC9jb21wb25lbnRzL0NpZHJSZWdpb25TZWxlY3Rvci52dWUiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB0eXBlIHsKICBBZHZhbmNlZEF1dGhDb25kaXRpb24sCiAgQWR2YW5jZWRBdXRoQ29uZGl0aW9uVGFyZ2V0LAogIEFkdmFuY2VkQXV0aE9wZXJhdG9yLAogIEFkdmFuY2VkQXV0aFJ1bGVHcm91cCwKfSBmcm9tICIuLi8uLi90eXBlcyI7CmltcG9ydCBBZHZhbmNlZEF1dGhIZWFkZXJOYW1lRmllbGQgZnJvbSAiLi9BZHZhbmNlZEF1dGhIZWFkZXJOYW1lRmllbGQudnVlIjsKaW1wb3J0IHsKICBhZHZhbmNlZEF1dGhUYXJnZXRPcHRpb25zLAogIHR5cGUgQWR2YW5jZWRBdXRoUnVsZUVkaXRvciwKfSBmcm9tICIuL2FkdmFuY2VkLWF1dGgtZm9ybSI7CmltcG9ydCB0eXBlIHsgQWR2YW5jZWRBdXRoUmVnaW9uU2VsZWN0b3JUZXh0IH0gZnJvbSAiLi9hZHZhbmNlZC1hdXRoLXJ1bGUtY29udHJhY3QiOwoKZGVmaW5lUHJvcHM8ewogIGNvbmRpdGlvbjogQWR2YW5jZWRBdXRoQ29uZGl0aW9uOwogIGNvbmRpdGlvbkluZGV4OiBudW1iZXI7CiAgZWRpdG9yOiBBZHZhbmNlZEF1dGhSdWxlRWRpdG9yOwogIGdyb3VwOiBBZHZhbmNlZEF1dGhSdWxlR3JvdXA7CiAgbXVsdGlwbGU6IGJvb2xlYW47CiAgcmVnaW9uVGV4dDogQWR2YW5jZWRBdXRoUmVnaW9uU2VsZWN0b3JUZXh0OwogIHNhdmluZzogYm9vbGVhbjsKfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHRhcmdldE9wdGlvbnMgPSBhZHZhbmNlZEF1dGhUYXJnZXRPcHRpb25zOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICB2LWlmPSJjb25kaXRpb25JbmRleCA+IDAiCiAgICBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcHktMC41IHNtOmhpZGRlbiIKICA+CiAgICA8c3BhbiBjbGFzcz0iaC1weCBmbGV4LTEgYmctYm9yZGVyLzgwIj48L3NwYW4+CiAgICA8c3BhbgogICAgICBjbGFzcz0icm91bmRlZCBib3JkZXIgYm9yZGVyLWJvcmRlci84MCBiZy1iYWNrZ3JvdW5kIHB4LTEuNSBweS0wLjUgdGV4dC1bMTBweF0gZm9udC1tZWRpdW0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgPgogICAgICBBTkQKICAgIDwvc3Bhbj4KICAgIDxzcGFuIGNsYXNzPSJoLXB4IGZsZXgtMSBiZy1ib3JkZXIvODAiPjwvc3Bhbj4KICA8L2Rpdj4KCiAgPGRpdgogICAgY2xhc3M9InJlbGF0aXZlIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIvNjAgYmctYmFja2dyb3VuZC84MCBwLTMgc2hhZG93LW5vbmUiCiAgICA6Y2xhc3M9IgogICAgICBtdWx0aXBsZQogICAgICAgID8gJ3NtOmJlZm9yZTphYnNvbHV0ZSBzbTpiZWZvcmU6dG9wLTEvMiBzbTpiZWZvcmU6LWxlZnQtWzEuMzc1cmVtXSBzbTpiZWZvcmU6aC1weCBzbTpiZWZvcmU6dy1bMS4zNzVyZW1dIHNtOmJlZm9yZTpiZy1ib3JkZXInCiAgICAgICAgOiAnJwogICAgIgogID4KICAgIDxkaXYgY2xhc3M9ImZsZXggbWluLXctMCBpdGVtcy1zdGFydCBnYXAtMS41IHNtOmdhcC0yIj4KICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJncmlkIG1pbi13LTAgZmxleC0xIGdhcC0zIHNtOmdyaWQtY29scy0yIgogICAgICAgIDpjbGFzcz0iCiAgICAgICAgICBjb25kaXRpb24udGFyZ2V0ID09PSAncmVxdWVzdF9oZWFkZXInIHx8CiAgICAgICAgICBjb25kaXRpb24udGFyZ2V0ID09PSAncXVlcnlfcGFyYW1ldGVyJwogICAgICAgICAgICA/IGVkaXRvci5uZWVkc1ZhbHVlKGNvbmRpdGlvbikKICAgICAgICAgICAgICA/ICd4bDpncmlkLWNvbHMtW21pbm1heCg4LjVyZW0sMC44ZnIpX21pbm1heCgxMHJlbSwxZnIpX21pbm1heCg4LjVyZW0sMC44ZnIpX21pbm1heCgxM3JlbSwxLjVmcildJwogICAgICAgICAgICAgIDogJ3hsOmdyaWQtY29scy1bbWlubWF4KDguNXJlbSwwLjhmcilfbWlubWF4KDEwcmVtLDFmcilfbWlubWF4KDguNXJlbSwwLjhmcildJwogICAgICAgICAgICA6IGNvbmRpdGlvbi50YXJnZXQgPT09ICdzb3VyY2VfcmVnaW9uJyB8fAogICAgICAgICAgICAgICAgZWRpdG9yLm5lZWRzVmFsdWUoY29uZGl0aW9uKQogICAgICAgICAgICAgID8gJ3hsOmdyaWQtY29scy1bbWlubWF4KDlyZW0sMC44ZnIpX21pbm1heCg5cmVtLDAuOGZyKV9taW5tYXgoMTVyZW0sMS44ZnIpXScKICAgICAgICAgICAgICA6ICd4bDpncmlkLWNvbHMtW21pbm1heCg5cmVtLDFmcilfbWlubWF4KDlyZW0sMWZyKV0nCiAgICAgICAgIgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTEuNSI+CiAgICAgICAgICA8TGFiZWwgOmZvcj0iYGFkdmFuY2VkLWF1dGgtdGFyZ2V0LSR7Y29uZGl0aW9uLmlkfWAiIGNsYXNzPSJ0ZXh0LXhzIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uYWR2YW5jZWRBdXRoLm1hdGNoVGFyZ2V0IikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8c2VsZWN0CiAgICAgICAgICAgIDppZD0iYGFkdmFuY2VkLWF1dGgtdGFyZ2V0LSR7Y29uZGl0aW9uLmlkfWAiCiAgICAgICAgICAgIGNsYXNzPSJoLTkgdy1mdWxsIG1pbi13LTAgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWlucHV0IGJnLWJhY2tncm91bmQgcHgtMyB0ZXh0LXNtIHNoYWRvdy14cyBvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpib3JkZXItcmluZyBmb2N1cy12aXNpYmxlOnJpbmctWzNweF0gZm9jdXMtdmlzaWJsZTpyaW5nLXJpbmcvNTAiCiAgICAgICAgICAgIDp2YWx1ZT0iY29uZGl0aW9uLnRhcmdldCIKICAgICAgICAgICAgOmRpc2FibGVkPSJzYXZpbmciCiAgICAgICAgICAgIEBjaGFuZ2U9IgogICAgICAgICAgICAgIGVkaXRvci51cGRhdGVUYXJnZXQoCiAgICAgICAgICAgICAgICBjb25kaXRpb24sCiAgICAgICAgICAgICAgICAoJGV2ZW50LnRhcmdldCBhcyBIVE1MU2VsZWN0RWxlbWVudCkKICAgICAgICAgICAgICAgICAgLnZhbHVlIGFzIEFkdmFuY2VkQXV0aENvbmRpdGlvblRhcmdldCwKICAgICAgICAgICAgICApCiAgICAgICAgICAgICIKICAgICAgICAgID4KICAgICAgICAgICAgPG9wdGlvbgogICAgICAgICAgICAgIHYtZm9yPSJ0YXJnZXQgaW4gdGFyZ2V0T3B0aW9ucyIKICAgICAgICAgICAgICA6a2V5PSJ0YXJnZXQudmFsdWUiCiAgICAgICAgICAgICAgOnZhbHVlPSJ0YXJnZXQudmFsdWUiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KHRhcmdldC5sYWJlbEtleSkgfX0KICAgICAgICAgICAgPC9vcHRpb24+CiAgICAgICAgICA8L3NlbGVjdD4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdgogICAgICAgICAgdi1pZj0iCiAgICAgICAgICAgIGNvbmRpdGlvbi50YXJnZXQgPT09ICdyZXF1ZXN0X2hlYWRlcicgfHwKICAgICAgICAgICAgY29uZGl0aW9uLnRhcmdldCA9PT0gJ3F1ZXJ5X3BhcmFtZXRlcicKICAgICAgICAgICIKICAgICAgICAgIGNsYXNzPSJtaW4tdy0wIHNwYWNlLXktMS41IgogICAgICAgID4KICAgICAgICAgIDxMYWJlbCBjbGFzcz0idGV4dC14cyIgOmZvcj0iYGFkdmFuY2VkLWF1dGgtbmFtZS0ke2NvbmRpdGlvbi5pZH1gIj4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICBjb25kaXRpb24udGFyZ2V0ID09PSAicmVxdWVzdF9oZWFkZXIiCiAgICAgICAgICAgICAgICA/IHQoImFkbWluLmFkdmFuY2VkQXV0aC5oZWFkZXJOYW1lIikKICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uYWR2YW5jZWRBdXRoLnF1ZXJ5TmFtZSIpCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgPEFkdmFuY2VkQXV0aEhlYWRlck5hbWVGaWVsZAogICAgICAgICAgICB2LWlmPSJjb25kaXRpb24udGFyZ2V0ID09PSAncmVxdWVzdF9oZWFkZXInIgogICAgICAgICAgICA6aWQ9ImBhZHZhbmNlZC1hdXRoLW5hbWUtJHtjb25kaXRpb24uaWR9YCIKICAgICAgICAgICAgdi1tb2RlbD0iY29uZGl0aW9uLm5hbWUiCiAgICAgICAgICAgIDpkaXNhYmxlZD0ic2F2aW5nIgogICAgICAgICAgLz4KICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICB2LWVsc2UKICAgICAgICAgICAgOmlkPSJgYWR2YW5jZWQtYXV0aC1uYW1lLSR7Y29uZGl0aW9uLmlkfWAiCiAgICAgICAgICAgIHYtbW9kZWw9ImNvbmRpdGlvbi5uYW1lIgogICAgICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLmFkdmFuY2VkQXV0aC5uYW1lUGxhY2Vob2xkZXInKSIKICAgICAgICAgICAgOmRpc2FibGVkPSJzYXZpbmciCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIHNwYWNlLXktMS41Ij4KICAgICAgICAgIDxMYWJlbAogICAgICAgICAgICA6Zm9yPSJgYWR2YW5jZWQtYXV0aC1vcGVyYXRvci0ke2NvbmRpdGlvbi5pZH1gIgogICAgICAgICAgICBjbGFzcz0idGV4dC14cyIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uYWR2YW5jZWRBdXRoLm1hdGNoT3BlcmF0b3IiKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxzZWxlY3QKICAgICAgICAgICAgOmlkPSJgYWR2YW5jZWQtYXV0aC1vcGVyYXRvci0ke2NvbmRpdGlvbi5pZH1gIgogICAgICAgICAgICBjbGFzcz0iaC05IHctZnVsbCBtaW4tdy0wIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1pbnB1dCBiZy1iYWNrZ3JvdW5kIHB4LTMgdGV4dC1zbSBzaGFkb3cteHMgb3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6Ym9yZGVyLXJpbmcgZm9jdXMtdmlzaWJsZTpyaW5nLVszcHhdIGZvY3VzLXZpc2libGU6cmluZy1yaW5nLzUwIgogICAgICAgICAgICA6dmFsdWU9ImNvbmRpdGlvbi5vcGVyYXRvciIKICAgICAgICAgICAgOmRpc2FibGVkPSJzYXZpbmciCiAgICAgICAgICAgIEBjaGFuZ2U9IgogICAgICAgICAgICAgIGVkaXRvci51cGRhdGVPcGVyYXRvcigKICAgICAgICAgICAgICAgIGNvbmRpdGlvbiwKICAgICAgICAgICAgICAgICgkZXZlbnQudGFyZ2V0IGFzIEhUTUxTZWxlY3RFbGVtZW50KS52YWx1ZSBhcyBBZHZhbmNlZEF1dGhPcGVyYXRvciwKICAgICAgICAgICAgICApCiAgICAgICAgICAgICIKICAgICAgICAgID4KICAgICAgICAgICAgPG9wdGlvbgogICAgICAgICAgICAgIHYtZm9yPSJvcGVyYXRvciBpbiBlZGl0b3Iub3BlcmF0b3JzRm9yKGNvbmRpdGlvbi50YXJnZXQpIgogICAgICAgICAgICAgIDprZXk9Im9wZXJhdG9yLnZhbHVlIgogICAgICAgICAgICAgIDp2YWx1ZT0ib3BlcmF0b3IudmFsdWUiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KG9wZXJhdG9yLmxhYmVsS2V5KSB9fQogICAgICAgICAgICA8L29wdGlvbj4KICAgICAgICAgIDwvc2VsZWN0PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2CiAgICAgICAgICB2LWlmPSJjb25kaXRpb24udGFyZ2V0ID09PSAnc291cmNlX3JlZ2lvbiciCiAgICAgICAgICBjbGFzcz0ibWluLXctMCBzcGFjZS15LTEuNSBzbTpjb2wtc3Bhbi0yIHhsOmNvbC1zcGFuLTEiCiAgICAgICAgPgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyBmb250LW1lZGl1bSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmFkdmFuY2VkQXV0aC5tYXRjaFZhbHVlIikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPENpZHJSZWdpb25TZWxlY3RvcgogICAgICAgICAgICB2LW1vZGVsPSJjb25kaXRpb24uc2VsZWN0aW9ucyIKICAgICAgICAgICAgbGF5b3V0PSJjb21wYWN0IgogICAgICAgICAgICA6ZGlzYWJsZWQ9InNhdmluZyIKICAgICAgICAgICAgOnRleHQ9InJlZ2lvblRleHQiCiAgICAgICAgICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4uYWR2YW5jZWRBdXRoLnJlZ2lvbkRlc2NyaXB0aW9uJykiCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2CiAgICAgICAgICB2LWVsc2UtaWY9ImVkaXRvci5uZWVkc1ZhbHVlKGNvbmRpdGlvbikiCiAgICAgICAgICBjbGFzcz0ibWluLXctMCBzcGFjZS15LTEuNSIKICAgICAgICAgIDpjbGFzcz0iCiAgICAgICAgICAgIGNvbmRpdGlvbi50YXJnZXQgPT09ICdyZXF1ZXN0X2hlYWRlcicgfHwKICAgICAgICAgICAgY29uZGl0aW9uLnRhcmdldCA9PT0gJ3F1ZXJ5X3BhcmFtZXRlcicKICAgICAgICAgICAgICA/ICd4bDpjb2wtc3Bhbi0xJwogICAgICAgICAgICAgIDogJ3NtOmNvbC1zcGFuLTIgeGw6Y29sLXNwYW4tMScKICAgICAgICAgICIKICAgICAgICA+CiAgICAgICAgICA8TGFiZWwKICAgICAgICAgICAgOmZvcj0iYGFkdmFuY2VkLWF1dGgtdmFsdWUtJHtjb25kaXRpb24uaWR9YCIKICAgICAgICAgICAgY2xhc3M9InRleHQteHMiCiAgICAgICAgICAgIDp0aXRsZT0iCiAgICAgICAgICAgICAgY29uZGl0aW9uLnRhcmdldCA9PT0gJ2h0dHBfbWV0aG9kJwogICAgICAgICAgICAgICAgPyB0KCdhZG1pbi5hZHZhbmNlZEF1dGgubWV0aG9kSGludCcpCiAgICAgICAgICAgICAgICA6IGNvbmRpdGlvbi50YXJnZXQgPT09ICdzb3VyY2VfaXAnCiAgICAgICAgICAgICAgICAgID8gdChlZGl0b3Iuc291cmNlTmV0d29ya1RyYW5zbGF0aW9uS2V5KGNvbmRpdGlvbiwgJ0hpbnQnKSkKICAgICAgICAgICAgICAgICAgOiB0KCdhZG1pbi5hZHZhbmNlZEF1dGgudmFsdWVIaW50JykKICAgICAgICAgICAgIgogICAgICAgICAgPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIGNvbmRpdGlvbi50YXJnZXQgPT09ICJzb3VyY2VfaXAiCiAgICAgICAgICAgICAgICA/IHQoZWRpdG9yLnNvdXJjZU5ldHdvcmtUcmFuc2xhdGlvbktleShjb25kaXRpb24sICJMYWJlbCIpKQogICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5hZHZhbmNlZEF1dGgubWF0Y2hWYWx1ZSIpCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIDppZD0iYGFkdmFuY2VkLWF1dGgtdmFsdWUtJHtjb25kaXRpb24uaWR9YCIKICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJlZGl0b3IudmFsdWVJbnB1dFRleHQoY29uZGl0aW9uKSIKICAgICAgICAgICAgOmNsYXNzPSJjb25kaXRpb24udGFyZ2V0ID09PSAnc291cmNlX2lwJyA/ICdmb250LW1vbm8nIDogJyciCiAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0iCiAgICAgICAgICAgICAgY29uZGl0aW9uLnRhcmdldCA9PT0gJ3NvdXJjZV9pcCcKICAgICAgICAgICAgICAgID8gdCgKICAgICAgICAgICAgICAgICAgICBlZGl0b3Iuc291cmNlTmV0d29ya1RyYW5zbGF0aW9uS2V5KAogICAgICAgICAgICAgICAgICAgICAgY29uZGl0aW9uLAogICAgICAgICAgICAgICAgICAgICAgJ1BsYWNlaG9sZGVyJywKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICA6IHQoJ2FkbWluLmFkdmFuY2VkQXV0aC52YWx1ZVBsYWNlaG9sZGVyJykKICAgICAgICAgICAgIgogICAgICAgICAgICA6dGl0bGU9IgogICAgICAgICAgICAgIGNvbmRpdGlvbi50YXJnZXQgPT09ICdodHRwX21ldGhvZCcKICAgICAgICAgICAgICAgID8gdCgnYWRtaW4uYWR2YW5jZWRBdXRoLm1ldGhvZEhpbnQnKQogICAgICAgICAgICAgICAgOiBjb25kaXRpb24udGFyZ2V0ID09PSAnc291cmNlX2lwJwogICAgICAgICAgICAgICAgICA/IHQoZWRpdG9yLnNvdXJjZU5ldHdvcmtUcmFuc2xhdGlvbktleShjb25kaXRpb24sICdIaW50JykpCiAgICAgICAgICAgICAgICAgIDogdCgnYWRtaW4uYWR2YW5jZWRBdXRoLnZhbHVlSGludCcpCiAgICAgICAgICAgICIKICAgICAgICAgICAgOmRpc2FibGVkPSJzYXZpbmciCiAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9IgogICAgICAgICAgICAgIGNvbmRpdGlvbi50YXJnZXQgPT09ICdzb3VyY2VfaXAnCiAgICAgICAgICAgICAgICA/IGVkaXRvci5zZXRTb3VyY2VJcFZhbHVlKGNvbmRpdGlvbiwgU3RyaW5nKCRldmVudCkpCiAgICAgICAgICAgICAgICA6IGVkaXRvci5zZXRWYWx1ZVRleHQoY29uZGl0aW9uLCBTdHJpbmcoJGV2ZW50KSkKICAgICAgICAgICAgIgogICAgICAgICAgICBAYmx1cj0iZWRpdG9yLm5vcm1hbGl6ZVZhbHVlRHJhZnQoY29uZGl0aW9uKSIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPEJ1dHRvbgogICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgIHNpemU9Imljb24iCiAgICAgICAgY2xhc3M9Imdyb3VwIGFic29sdXRlIHRvcC0xLjUgcmlnaHQtMS41IGgtNyB3LTcgc2hyaW5rLTAgc206c3RhdGljIHNtOm10LTUuNSBzbTpoLTggc206dy04IgogICAgICAgIDpkaXNhYmxlZD0ic2F2aW5nIgogICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi5hZHZhbmNlZEF1dGguZGVsZXRlQ29uZGl0aW9uJykiCiAgICAgICAgQGNsaWNrPSJlZGl0b3IucmVtb3ZlQ29uZGl0aW9uKGdyb3VwLCBjb25kaXRpb25JbmRleCkiCiAgICAgID4KICAgICAgICA8VHJhc2gyCiAgICAgICAgICBjbGFzcz0iaC00IHctNCB0ZXh0LW11dGVkLWZvcmVncm91bmQgdHJhbnNpdGlvbi1jb2xvcnMgZ3JvdXAtaG92ZXI6dGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAvPgogICAgICA8L0J1dHRvbj4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { Trash2 } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import CidrRegionSelector from "@/components/CidrRegionSelector.vue";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import type {
+  AdvancedAuthCondition,
+  AdvancedAuthConditionTarget,
+  AdvancedAuthOperator,
+  AdvancedAuthRuleGroup,
+} from "../../types";
+import AdvancedAuthHeaderNameField from "./AdvancedAuthHeaderNameField.vue";
+import {
+  advancedAuthTargetOptions,
+  type AdvancedAuthRuleEditor,
+} from "./advanced-auth-form";
+import type { AdvancedAuthRegionSelectorText } from "./advanced-auth-rule-contract";
+
+defineProps<{
+  condition: AdvancedAuthCondition;
+  conditionIndex: number;
+  editor: AdvancedAuthRuleEditor;
+  group: AdvancedAuthRuleGroup;
+  multiple: boolean;
+  regionText: AdvancedAuthRegionSelectorText;
+  saving: boolean;
+}>();
+const { t } = useI18n();
+const targetOptions = advancedAuthTargetOptions;
+</script>
+
+<template>
+  <div
+    v-if="conditionIndex > 0"
+    class="flex items-center gap-2 py-0.5 sm:hidden"
+  >
+    <span class="h-px flex-1 bg-border/80"></span>
+    <span
+      class="rounded border border-border/80 bg-background px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground"
+    >
+      AND
+    </span>
+    <span class="h-px flex-1 bg-border/80"></span>
+  </div>
+
+  <div
+    class="relative rounded-lg border border-border/60 bg-background/80 p-3 shadow-none"
+    :class="
+      multiple
+        ? 'sm:before:absolute sm:before:top-1/2 sm:before:-left-[1.375rem] sm:before:h-px sm:before:w-[1.375rem] sm:before:bg-border'
+        : ''
+    "
+  >
+    <div class="flex min-w-0 items-start gap-1.5 sm:gap-2">
+      <div
+        class="grid min-w-0 flex-1 gap-3 sm:grid-cols-2"
+        :class="
+          condition.target === 'request_header' ||
+          condition.target === 'query_parameter'
+            ? editor.needsValue(condition)
+              ? 'xl:grid-cols-[minmax(8.5rem,0.8fr)_minmax(10rem,1fr)_minmax(8.5rem,0.8fr)_minmax(13rem,1.5fr)]'
+              : 'xl:grid-cols-[minmax(8.5rem,0.8fr)_minmax(10rem,1fr)_minmax(8.5rem,0.8fr)]'
+            : condition.target === 'source_region' ||
+                editor.needsValue(condition)
+              ? 'xl:grid-cols-[minmax(9rem,0.8fr)_minmax(9rem,0.8fr)_minmax(15rem,1.8fr)]'
+              : 'xl:grid-cols-[minmax(9rem,1fr)_minmax(9rem,1fr)]'
+        "
+      >
+        <div class="min-w-0 space-y-1.5">
+          <Label :for="`advanced-auth-target-${condition.id}`" class="text-xs">
+            {{ t("admin.advancedAuth.matchTarget") }}
+          </Label>
+          <select
+            :id="`advanced-auth-target-${condition.id}`"
+            class="h-9 w-full min-w-0 rounded-md border border-input bg-background px-3 text-sm shadow-xs outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50"
+            :value="condition.target"
+            :disabled="saving"
+            @change="
+              editor.updateTarget(
+                condition,
+                ($event.target as HTMLSelectElement)
+                  .value as AdvancedAuthConditionTarget,
+              )
+            "
+          >
+            <option
+              v-for="target in targetOptions"
+              :key="target.value"
+              :value="target.value"
+            >
+              {{ t(target.labelKey) }}
+            </option>
+          </select>
+        </div>
+
+        <div
+          v-if="
+            condition.target === 'request_header' ||
+            condition.target === 'query_parameter'
+          "
+          class="min-w-0 space-y-1.5"
+        >
+          <Label class="text-xs" :for="`advanced-auth-name-${condition.id}`">
+            {{
+              condition.target === "request_header"
+                ? t("admin.advancedAuth.headerName")
+                : t("admin.advancedAuth.queryName")
+            }}
+          </Label>
+          <AdvancedAuthHeaderNameField
+            v-if="condition.target === 'request_header'"
+            :id="`advanced-auth-name-${condition.id}`"
+            v-model="condition.name"
+            :disabled="saving"
+          />
+          <Input
+            v-else
+            :id="`advanced-auth-name-${condition.id}`"
+            v-model="condition.name"
+            :placeholder="t('admin.advancedAuth.namePlaceholder')"
+            :disabled="saving"
+          />
+        </div>
+
+        <div class="min-w-0 space-y-1.5">
+          <Label
+            :for="`advanced-auth-operator-${condition.id}`"
+            class="text-xs"
+          >
+            {{ t("admin.advancedAuth.matchOperator") }}
+          </Label>
+          <select
+            :id="`advanced-auth-operator-${condition.id}`"
+            class="h-9 w-full min-w-0 rounded-md border border-input bg-background px-3 text-sm shadow-xs outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50"
+            :value="condition.operator"
+            :disabled="saving"
+            @change="
+              editor.updateOperator(
+                condition,
+                ($event.target as HTMLSelectElement).value as AdvancedAuthOperator,
+              )
+            "
+          >
+            <option
+              v-for="operator in editor.operatorsFor(condition.target)"
+              :key="operator.value"
+              :value="operator.value"
+            >
+              {{ t(operator.labelKey) }}
+            </option>
+          </select>
+        </div>
+
+        <div
+          v-if="condition.target === 'source_region'"
+          class="min-w-0 space-y-1.5 sm:col-span-2 xl:col-span-1"
+        >
+          <div class="text-xs font-medium">
+            {{ t("admin.advancedAuth.matchValue") }}
+          </div>
+          <CidrRegionSelector
+            v-model="condition.selections"
+            layout="compact"
+            :disabled="saving"
+            :text="regionText"
+            :description="t('admin.advancedAuth.regionDescription')"
+          />
+        </div>
+
+        <div
+          v-else-if="editor.needsValue(condition)"
+          class="min-w-0 space-y-1.5"
+          :class="
+            condition.target === 'request_header' ||
+            condition.target === 'query_parameter'
+              ? 'xl:col-span-1'
+              : 'sm:col-span-2 xl:col-span-1'
+          "
+        >
+          <Label
+            :for="`advanced-auth-value-${condition.id}`"
+            class="text-xs"
+            :title="
+              condition.target === 'http_method'
+                ? t('admin.advancedAuth.methodHint')
+                : condition.target === 'source_ip'
+                  ? t(editor.sourceNetworkTranslationKey(condition, 'Hint'))
+                  : t('admin.advancedAuth.valueHint')
+            "
+          >
+            {{
+              condition.target === "source_ip"
+                ? t(editor.sourceNetworkTranslationKey(condition, "Label"))
+                : t("admin.advancedAuth.matchValue")
+            }}
+          </Label>
+          <Input
+            :id="`advanced-auth-value-${condition.id}`"
+            :model-value="editor.valueInputText(condition)"
+            :class="condition.target === 'source_ip' ? 'font-mono' : ''"
+            :placeholder="
+              condition.target === 'source_ip'
+                ? t(
+                    editor.sourceNetworkTranslationKey(
+                      condition,
+                      'Placeholder',
+                    ),
+                  )
+                : t('admin.advancedAuth.valuePlaceholder')
+            "
+            :title="
+              condition.target === 'http_method'
+                ? t('admin.advancedAuth.methodHint')
+                : condition.target === 'source_ip'
+                  ? t(editor.sourceNetworkTranslationKey(condition, 'Hint'))
+                  : t('admin.advancedAuth.valueHint')
+            "
+            :disabled="saving"
+            @update:model-value="
+              condition.target === 'source_ip'
+                ? editor.setSourceIpValue(condition, String($event))
+                : editor.setValueText(condition, String($event))
+            "
+            @blur="editor.normalizeValueDraft(condition)"
+          />
+        </div>
+      </div>
+
+      <Button
+        variant="ghost"
+        size="icon"
+        class="group absolute top-1.5 right-1.5 h-7 w-7 shrink-0 sm:static sm:mt-5.5 sm:h-8 sm:w-8"
+        :disabled="saving"
+        :aria-label="t('admin.advancedAuth.deleteCondition')"
+        @click="editor.removeCondition(group, conditionIndex)"
+      >
+        <Trash2
+          class="h-4 w-4 text-muted-foreground transition-colors group-hover:text-destructive"
+        />
+      </Button>
+    </div>
+  </div>
+</template>

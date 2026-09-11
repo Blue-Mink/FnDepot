@@ -1,1 +1,283 @@
-dXNlIHN1cGVyOjoqOwoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gdHJhZmZpY19kaWFnbm9zdGljc19kaXN0aW5ndWlzaF9zbmFwc2hvdF9wZXJzaXN0ZW5jZV9mcm9tX3JldGVudGlvbl9wcnVuaW5nKCkgewogICAgbGV0IChfZGlyLCBzdG9yZSkgPSBvcGVuX3Rlc3Rfc3RvcmUoKS5hd2FpdDsKICAgIGxldCByZWNvcmRlciA9IHN0b3JlLmRpYWdub3N0aWNzKCk7CiAgICBsZXQgZ2VuZXJhdGlvbiA9IHJlY29yZGVyLnN0YXJ0KCk7CiAgICBsZXQgbm93ID0gY2hyb25vX2xpa2Vfbm93X3NlY29uZHMoKTsKICAgIGxldCBob3N0ID0gImRpYWdub3N0aWMtcHJpdmF0ZS1ob3N0LmV4YW1wbGUuY29tIjsKICAgIGxldCByZWNvcmQgPSBUcmFmZmljU25hcHNob3RSZWNvcmQgewogICAgICAgIGhvc3Q6IFNvbWUoaG9zdC50b19zdHJpbmcoKSksCiAgICAgICAgc3RyZWFtOiBOb25lLAogICAgICAgIHRvdGFsX2luOiAxMC4wLAogICAgICAgIHRvdGFsX291dDogMjAuMCwKICAgICAgICBlcnJvcl81eHg6IDAuMCwKICAgIH07CiAgICBzdG9yZQogICAgICAgIC5yZWNvcmRfdHJhZmZpY19zbmFwc2hvdCgiZ2xvYmFsIiwgJltyZWNvcmRdLCBub3cgLSAxMjAsIDYwKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIGFzc2VydF9lcSEoc3RvcmUuY2xlYW51cF90cmFmZmljX21ldHJpY3MoNjApLmF3YWl0LnVud3JhcCgpLCAzKTsKICAgIHJlY29yZGVyLnN0b3AoZ2VuZXJhdGlvbik7CgogICAgbGV0IHNuYXBzaG90ID0gcmVjb3JkZXIuc25hcHNob3QoKTsKICAgIGZvciBsYWJlbCBpbiBbInRyYWZmaWMuc25hcHNob3QucGVyc2lzdCIsICJ0cmFmZmljLnJldGVudGlvbi5wcnVuZSJdIHsKICAgICAgICBsZXQgb3BlcmF0aW9uID0gc25hcHNob3QKICAgICAgICAgICAgLm9wZXJhdGlvbnMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAuZmluZCh8b3BlcmF0aW9ufCBvcGVyYXRpb24ua2luZCA9PSAic3FsaXRlX3ByaW1hcnkiICYmIG9wZXJhdGlvbi5sYWJlbCA9PSBsYWJlbCkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IHBhbmljISgibWlzc2luZyBhY3R1YWwgU1FMaXRlIG9wZXJhdGlvbiB7bGFiZWx9IikpOwogICAgICAgIGFzc2VydF9lcSEob3BlcmF0aW9uLmNhbGxzLCAxKTsKICAgICAgICBhc3NlcnRfZXEhKG9wZXJhdGlvbi5mYWlsdXJlcywgMCk7CiAgICAgICAgYXNzZXJ0X2VxIShvcGVyYXRpb24uY2FuY2VsbGVkLCAwKTsKICAgICAgICBhc3NlcnRfZXEhKG9wZXJhdGlvbi5pbl9mbGlnaHQsIDApOwogICAgICAgICNbY2ZnKHVuaXgpXQogICAgICAgIGFzc2VydCEob3BlcmF0aW9uLnRvdGFsX2NwdV9tcy5pc19zb21lKCkpOwogICAgfQogICAgYXNzZXJ0IShzbmFwc2hvdC5vcGVyYXRpb25zLml0ZXIoKS5hbGwofG9wZXJhdGlvbnwgewogICAgICAgICFvcGVyYXRpb24ubGFiZWwuY29udGFpbnMoImV4ZWN1dGVfcGlwZWxpbmUiKSAmJiAhb3BlcmF0aW9uLmxhYmVsLmNvbnRhaW5zKGhvc3QpCiAgICB9KSk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5saXN0X3RyYWZmaWNfcG9pbnRzKCJnbG9iYWwiLCAiaW4iLCBub3cgLSAxODAsIG5vdywgU29tZShob3N0KSwgTm9uZSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfZW1wdHkoKSwKICAgICAgICAibmFtZWQgZXhlY3V0aW9uIG11c3Qgc3RpbGwgcmVtb3ZlIGV4cGlyZWQgdHJhZmZpYyBwb2ludHMiCiAgICApOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiB0cmFmZmljX2NsZWFudXBfcHJ1bmVzX3N0YWxlX3Nlcmllc19pbl9iYXRjaGVzX2FuZF9wcmVzZXJ2ZXNfbGl2ZV9jb3VudGVycygpIHsKICAgIGxldCAoX2Rpciwgc3RvcmUpID0gb3Blbl90ZXN0X3N0b3JlKCkuYXdhaXQ7CiAgICBsZXQgbm93ID0gY2hyb25vX2xpa2Vfbm93X3NlY29uZHMoKTsKICAgIGxldCBzdGFsZSA9ICgwLi40MCkKICAgICAgICAubWFwKHxpbmRleHwgVHJhZmZpY1NuYXBzaG90UmVjb3JkIHsKICAgICAgICAgICAgaG9zdDogU29tZShmb3JtYXQhKCJzdGFsZS17aW5kZXh9LmV4YW1wbGUuY29tIikpLAogICAgICAgICAgICBzdHJlYW06IE5vbmUsCiAgICAgICAgICAgIHRvdGFsX2luOiAxMC4wLAogICAgICAgICAgICB0b3RhbF9vdXQ6IDIwLjAsCiAgICAgICAgICAgIGVycm9yXzV4eDogMC4wLAogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBzdG9yZQogICAgICAgIC5yZWNvcmRfdHJhZmZpY19zbmFwc2hvdCgiZ2xvYmFsIiwgJnN0YWxlLCBub3cgLSAxMjAsIDYwKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIGxldCBsaXZlID0gVHJhZmZpY1NuYXBzaG90UmVjb3JkIHsKICAgICAgICBob3N0OiBOb25lLAogICAgICAgIHN0cmVhbTogTm9uZSwKICAgICAgICB0b3RhbF9pbjogMTAwLjAsCiAgICAgICAgdG90YWxfb3V0OiAyMDAuMCwKICAgICAgICBlcnJvcl81eHg6IDAuMCwKICAgIH07CiAgICBzdG9yZQogICAgICAgIC5yZWNvcmRfdHJhZmZpY19zbmFwc2hvdCgiZ2xvYmFsIiwgJltsaXZlXSwgbm93LCA2MCkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKHN0b3JlLmNsZWFudXBfdHJhZmZpY19tZXRyaWNzKDYwKS5hd2FpdC51bndyYXAoKSwgMTIzKTsKCiAgICBsZXQgdHJhZmZpY19rZXlzID0gc3RvcmUKICAgICAgICAuY29ubigpCiAgICAgICAgLnNtZW1iZXJzKHN1cGVyOjpzdXBlcjo6dHJhZmZpYzo6VFJBRkZJQ19LRVlfSU5ERVgpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxISh0cmFmZmljX2tleXMubGVuKCksIDIpOwogICAgYXNzZXJ0ISh0cmFmZmljX2tleXMuaXRlcigpLmFsbCh8a2V5fCAha2V5LmNvbnRhaW5zKCJzdGFsZSIpKSk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5nZXRfc3RyaW5nX3ZhbHVlKCJmbl9rbm9jazp0cmFmZmljOmxhc3Q6Z2xvYmFsOmluIikKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKSwKICAgICAgICBTb21lKCIxMDAiLnRvX3N0cmluZygpKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLmdldF9zdHJpbmdfdmFsdWUoImZuX2tub2NrOnRyYWZmaWM6bGFzdDpnbG9iYWw6aG9zdDpzdGFsZS0wLmV4YW1wbGUuY29tOmluIikKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKSwKICAgICAgICBOb25lCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAubGlzdF9lcnJvcjV4eF9wb2ludHMoImdsb2JhbCIsIG5vdyAtIDEsIG5vdywgTm9uZSwgTm9uZSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKSwKICAgICAgICB2ZWMhW1RyYWZmaWNEZWx0YVBvaW50IHsKICAgICAgICAgICAgdHM6IG5vdywKICAgICAgICAgICAgZGVsdGE6IDAuMAogICAgICAgIH1dLAogICAgICAgICJhIHplcm8tdmFsdWVkIHBvaW50IHN0aWxsIGtlZXBzIGl0cyBzZXJpZXMgYW5kIGNvdW50ZXIgYWxpdmUiCiAgICApOwogICAgYXNzZXJ0X2VxIShzdG9yZS5jbGVhbnVwX3RyYWZmaWNfbWV0cmljcyg2MCkuYXdhaXQudW53cmFwKCksIDMpOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBzb3J0ZWRfc2V0X3JlY29yZF9jYXBfcmVtb3Zlc19vbGRlc3RfbWVtYmVycygpIHsKICAgIGxldCAoX2Rpciwgc3RvcmUpID0gb3Blbl90ZXN0X3N0b3JlKCkuYXdhaXQ7CiAgICBmb3IgKG1lbWJlciwgc2NvcmUpIGluIFsoIm9sZCIsIDEpLCAoIm1pZGRsZSIsIDIpLCAoIm5ldyIsIDMpXSB7CiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnphZGRfc3RyaW5nX21lbWJlcigiZm5fa25vY2s6dGVzdDpib3VuZGVkLWhpc3RvcnkiLCBtZW1iZXIsIHNjb3JlKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpOwogICAgfQogICAgbGV0IHJlbW92ZWQgPSBzdG9yZQogICAgICAgIC50cmltX29sZGVzdF96c2V0X21lbWJlcnMoImZuX2tub2NrOnRlc3Q6Ym91bmRlZC1oaXN0b3J5IiwgMikKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKHJlbW92ZWQsIHZlYyFbIm9sZCIudG9fc3RyaW5nKCldKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnpyZXZyYW5nZV9zdHJpbmdzKCJmbl9rbm9jazp0ZXN0OmJvdW5kZWQtaGlzdG9yeSIpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCksCiAgICAgICAgdmVjIVsibmV3Ii50b19zdHJpbmcoKSwgIm1pZGRsZSIudG9fc3RyaW5nKCldCiAgICApOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBleHBpcmVkX2tleV9nY19waHlzaWNhbGx5X3JlbW92ZXNfdW5yZWFkX2tleXMoKSB7CiAgICBsZXQgKF9kaXIsIHN0b3JlKSA9IG9wZW5fdGVzdF9zdG9yZSgpLmF3YWl0OwogICAgbGV0IGtleSA9ICJmbl9rbm9jazp0ZXN0OmV4cGlyZWQtZ2MiOwogICAgc3RvcmUKICAgICAgICAuc2V0X3N0cmluZ192YWx1ZV93aXRoX29wdGlvbmFsX3R0bChrZXksICJzdGFsZSIsIFNvbWUoNjApKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnN0b3JlLnBhdGgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlKCJVUERBVEUga3Zfa2V5cyBTRVQgZXhwaXJlc19hdF9tcyA9IDAgV0hFUkUga2V5ID0gPzEiLCBba2V5XSkKICAgICAgICAudW53cmFwKCk7CiAgICBkcm9wKGNvbm5lY3Rpb24pOwoKICAgIGFzc2VydF9lcSEoc3RvcmUucHVyZ2VfZXhwaXJlZF9rZXlzKCkuYXdhaXQudW53cmFwKCksIDEpOwogICAgYXNzZXJ0X2VxIShzdG9yZS5tYW5hZ2VyLmtleV9jb3VudF9ieV9wcmVmaXgoa2V5KS5hd2FpdC51bndyYXAoKSwgMCk7Cn0KCiNbdGVzdF0KZm4gcGFyc2VzX3RyYWZmaWNfbWVtYmVyc19hbmRfaWdub3Jlc19pbnZhbGlkX3ZhbHVlcygpIHsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgcGFyc2VfdHJhZmZpY19wb2ludHMoJlsKICAgICAgICAgICAgIjEwOjUiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiYmFkIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgIjExOm5vcGUiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiMTI6MCIudG9fc3RyaW5nKCkKICAgICAgICBdKSwKICAgICAgICB2ZWMhWwogICAgICAgICAgICBUcmFmZmljRGVsdGFQb2ludCB7IHRzOiAxMCwgZGVsdGE6IDUuMCB9LAogICAgICAgICAgICBUcmFmZmljRGVsdGFQb2ludCB7IHRzOiAxMiwgZGVsdGE6IDAuMCB9CiAgICAgICAgXQogICAgKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gdHJhZmZpY19oaXN0b3J5X3JlYWRzX2RvX25vdF93YWl0X2Zvcl9wcmltYXJ5X3N0b3JhZ2VfZXhlY3V0b3IoKSB7CiAgICBsZXQgKF9kaXIsIHN0b3JlKSA9IG9wZW5fdGVzdF9zdG9yZSgpLmF3YWl0OwogICAgbGV0IG1hbmFnZXIgPSBzdG9yZS5tYW5hZ2VyLmNsb25lKCk7CiAgICBsZXQgKHN0YXJ0ZWRfdHgsIHN0YXJ0ZWRfcngpID0gdG9raW86OnN5bmM6Om9uZXNob3Q6OmNoYW5uZWwoKTsKICAgIGxldCAocmVsZWFzZV90eCwgcmVsZWFzZV9yeCkgPSBzdGQ6OnN5bmM6Om1wc2M6OmNoYW5uZWwoKTsKICAgIGxldCBibG9ja2VyID0gdG9raW86OnNwYXduKGFzeW5jIG1vdmUgewogICAgICAgIG1hbmFnZXIKICAgICAgICAgICAgLmNhbGwobW92ZSB8X2Nvbm58IC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgICAgICAgICBsZXQgXyA9IHN0YXJ0ZWRfdHguc2VuZCgoKSk7CiAgICAgICAgICAgICAgICByZWxlYXNlX3J4CiAgICAgICAgICAgICAgICAgICAgLnJlY3ZfdGltZW91dChzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX3NlY3MoNSkpCiAgICAgICAgICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNyYXRlOjpzdG9yYWdlOjpzdG9yYWdlX2Vycm9yKGZvcm1hdCEoInJlbGVhc2UgYmxvY2tlcjoge2Vycm9yfSIpKQogICAgICAgICAgICAgICAgICAgIH0pPzsKICAgICAgICAgICAgICAgIE9rKCgpKQogICAgICAgICAgICB9KQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgicHJpbWFyeSBleGVjdXRvciBibG9ja2VyIik7CiAgICB9KTsKICAgIHN0YXJ0ZWRfcnguYXdhaXQuZXhwZWN0KCJwcmltYXJ5IGV4ZWN1dG9yIHN0YXJ0ZWQiKTsKCiAgICBsZXQgcG9pbnRzID0gdG9raW86OnRpbWU6OnRpbWVvdXQoCiAgICAgICAgc3RkOjp0aW1lOjpEdXJhdGlvbjo6ZnJvbV9zZWNzKDIpLAogICAgICAgIHN0b3JlLmxpc3RfdHJhZmZpY19wb2ludHMoImdsb2JhbCIsICJpbiIsIDAsIDEwLCBOb25lLCBOb25lKSwKICAgICkKICAgIC5hd2FpdDsKICAgIHJlbGVhc2VfdHguc2VuZCgoKSkuZXhwZWN0KCJyZWxlYXNlIHByaW1hcnkgZXhlY3V0b3IiKTsKICAgIGxldCBwb2ludHMgPSBwb2ludHMKICAgICAgICAuZXhwZWN0KCJhbmFseXRpY3MgcmVhZCBzaG91bGQgdXNlIGl0cyBpc29sYXRlZCBleGVjdXRvciIpCiAgICAgICAgLmV4cGVjdCgidHJhZmZpYyBoaXN0b3J5IHJlYWQiKTsKICAgIGFzc2VydCEocG9pbnRzLmlzX2VtcHR5KCkpOwogICAgYmxvY2tlci5hd2FpdC5leHBlY3QoInByaW1hcnkgZXhlY3V0b3IgdGFzayIpOwp9CgojW3Rlc3RdCmZuIHRyYWZmaWNfY2xlYW51cF9tYXBzX21ldHJpY19rZXlzX3RvX2xhc3RfdG90YWxfa2V5cygpIHsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3VwZXI6OnRyYWZmaWM6OnRyYWZmaWNfbGFzdF90b3RhbF9rZXlfZm9yX21ldHJpY19rZXkoCiAgICAgICAgICAgICJmbl9rbm9jazp0cmFmZmljOmdsb2JhbDpob3N0OmV4YW1wbGUuY29tOmluIgogICAgICAgICkKICAgICAgICAuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKCJmbl9rbm9jazp0cmFmZmljOmxhc3Q6Z2xvYmFsOmhvc3Q6ZXhhbXBsZS5jb206aW4iKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3VwZXI6OnRyYWZmaWM6OnRyYWZmaWNfbGFzdF90b3RhbF9rZXlfZm9yX21ldHJpY19rZXkoImZuX2tub2NrOnRyYWZmaWM6Z2xvYmFsOm91dCIpCiAgICAgICAgICAgIC5hc19kZXJlZigpLAogICAgICAgIFNvbWUoImZuX2tub2NrOnRyYWZmaWM6bGFzdDpnbG9iYWw6b3V0IikKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN1cGVyOjp0cmFmZmljOjp0cmFmZmljX2xhc3RfdG90YWxfa2V5X2Zvcl9tZXRyaWNfa2V5KCJmbl9rbm9jazplcnJvcnM6Z2xvYmFsOjV4eCIpCiAgICAgICAgICAgIC5hc19kZXJlZigpLAogICAgICAgIFNvbWUoImZuX2tub2NrOmVycm9yczpsYXN0Omdsb2JhbDo1eHgiKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3VwZXI6OnRyYWZmaWM6OnRyYWZmaWNfbGFzdF90b3RhbF9rZXlfZm9yX21ldHJpY19rZXkoImZuX2tub2NrOnRyYWZmaWM6Z2xvYmFsOmJhZCIpLAogICAgICAgIE5vbmUKICAgICk7Cn0KCiNbdGVzdF0KZm4gY291bnRlcl9kZWx0YV9oYW5kbGVzX2ZpcnN0X3NhbXBsZV9hbmRfcmVzZXRzKCkgewogICAgYXNzZXJ0X2VxIShjb21wdXRlX2NvdW50ZXJfZGVsdGEoMTAwLjAsIE5vbmUpLCAxMDAuMCk7CiAgICBhc3NlcnRfZXEhKGNvbXB1dGVfY291bnRlcl9kZWx0YSgxMjAuMCwgU29tZSgxMDAuMCkpLCAyMC4wKTsKICAgIGFzc2VydF9lcSEoY29tcHV0ZV9jb3VudGVyX2RlbHRhKDEyLjAsIFNvbWUoMTAwLjApKSwgMTIuMCk7CiAgICBhc3NlcnRfZXEhKGNvbXB1dGVfY291bnRlcl9kZWx0YSgtMS4wLCBTb21lKDEwMC4wKSksIDAuMCk7Cn0KCiNbdGVzdF0KZm4gd2FmX2xvZ19kYXRlc19pbmNsdWRlX25laWdoYm9yaW5nX3V0Y19kYXlzKCkgewogICAgbGV0IGRhdGVzID0gd2FmX2xvZ19kYXRlc19mb3JfcmFuZ2UoMV83MDRfMDY3XzIwMF8wMDAsIDFfNzA0XzE1M182MDBfMDAwKTsKICAgIGFzc2VydCEoZGF0ZXMuY29udGFpbnMoJiIyMDIzLTEyLTMxIi50b19zdHJpbmcoKSkpOwogICAgYXNzZXJ0IShkYXRlcy5jb250YWlucygmIjIwMjQtMDEtMDEiLnRvX3N0cmluZygpKSk7CiAgICBhc3NlcnQhKGRhdGVzLmNvbnRhaW5zKCYiMjAyNC0wMS0wMiIudG9fc3RyaW5nKCkpKTsKICAgIGFzc2VydCEoZGF0ZXMuY29udGFpbnMoJiIyMDI0LTAxLTAzIi50b19zdHJpbmcoKSkpOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiB3YWZfZXZlbnRfcGVyc2lzdGVuY2VfaXNfYXRvbWljX2FuZF9pZGVtcG90ZW50X2Zvcl9sZWFzZV9yZXRyaWVzKCkgewogICAgbGV0IChfZGlyLCBzdG9yZSkgPSBvcGVuX3Rlc3Rfc3RvcmUoKS5hd2FpdDsKICAgIGxldCBldmVudCA9IGpzb24hKHsKICAgICAgICAidHJhY2VfaWQiOiAid2FmX3JldHJ5IiwKICAgICAgICAidGltZSI6ICIyMDI2LTA4LTE1VDE1OjI4OjIwWiIsCiAgICAgICAgImFjdGlvbiI6ICJkZW55IiwKICAgICAgICAic3RhdHVzIjogNDAzLAogICAgICAgICJydWxlX2lkcyI6IFs5MjExNTBdCiAgICB9KTsKICAgIGxldCBldmVudHMgPSB2ZWMhW2V2ZW50LmNsb25lKCldOwoKICAgIGxldCAoZmlyc3QsIGR1cGxpY2F0ZSkgPSB0b2tpbzo6am9pbiEoCiAgICAgICAgc3RvcmUucGVyc2lzdF93YWZfZXZlbnRzKCZldmVudHMsIDcpLAogICAgICAgIHN0b3JlLnBlcnNpc3Rfd2FmX2V2ZW50cygmZXZlbnRzLCA3KQogICAgKTsKICAgIGZpcnN0LmV4cGVjdCgicGVyc2lzdCBsZWFzZWQgZXZlbnQiKTsKICAgIGR1cGxpY2F0ZS5leHBlY3QoInBlcnNpc3QgZHVwbGljYXRlIGxlYXNlIGRlbGl2ZXJ5Iik7CgogICAgYXNzZXJ0X2VxISgKICAgICAgICBzdG9yZS5nZXRfd2FmX2xvZ19ldmVudCgid2FmX3JldHJ5IikuYXdhaXQudW53cmFwKCksCiAgICAgICAgU29tZShldmVudCkKICAgICk7CiAgICBsZXQgc2NvcmUgPSBjcmF0ZTo6dGltZV91dGlsczo6cGFyc2VfaXNvX21zKCIyMDI2LTA4LTE1VDE1OjI4OjIwWiIpLnVud3JhcCgpOwogICAgbGV0IGRhdGUgPSBjcmF0ZTo6dGltZV91dGlsczo6bG9jYWxfZGF0ZV9mcm9tX21zKHNjb3JlKTsKICAgIGFzc2VydF9lcSEoc3RvcmUud2FmX2xvZ19kYXRlX3RvdGFsKCZkYXRlKS5hd2FpdC51bndyYXAoKSwgMSk7CiAgICBsZXQgc3RhdHMgPSBzdG9yZQogICAgICAgIC5jb25uKCkKICAgICAgICAuaGdldGFsbCgmd2FmX2xvZ19zdGF0c19rZXkoJmRhdGUpKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIGFzc2VydF9lcSEoc3RhdHMuZ2V0KCJldmVudHMiKS5tYXAoU3RyaW5nOjphc19zdHIpLCBTb21lKCIxIikpOwogICAgYXNzZXJ0X2VxIShzdGF0cy5nZXQoImFjdGlvbjpkZW55IikubWFwKFN0cmluZzo6YXNfc3RyKSwgU29tZSgiMSIpKTsKfQo=
+use super::*;
+
+#[tokio::test]
+async fn traffic_diagnostics_distinguish_snapshot_persistence_from_retention_pruning() {
+    let (_dir, store) = open_test_store().await;
+    let recorder = store.diagnostics();
+    let generation = recorder.start();
+    let now = chrono_like_now_seconds();
+    let host = "diagnostic-private-host.example.com";
+    let record = TrafficSnapshotRecord {
+        host: Some(host.to_string()),
+        stream: None,
+        total_in: 10.0,
+        total_out: 20.0,
+        error_5xx: 0.0,
+    };
+    store
+        .record_traffic_snapshot("global", &[record], now - 120, 60)
+        .await
+        .unwrap();
+    assert_eq!(store.cleanup_traffic_metrics(60).await.unwrap(), 3);
+    recorder.stop(generation);
+
+    let snapshot = recorder.snapshot();
+    for label in ["traffic.snapshot.persist", "traffic.retention.prune"] {
+        let operation = snapshot
+            .operations
+            .iter()
+            .find(|operation| operation.kind == "sqlite_primary" && operation.label == label)
+            .unwrap_or_else(|| panic!("missing actual SQLite operation {label}"));
+        assert_eq!(operation.calls, 1);
+        assert_eq!(operation.failures, 0);
+        assert_eq!(operation.cancelled, 0);
+        assert_eq!(operation.in_flight, 0);
+        #[cfg(unix)]
+        assert!(operation.total_cpu_ms.is_some());
+    }
+    assert!(snapshot.operations.iter().all(|operation| {
+        !operation.label.contains("execute_pipeline") && !operation.label.contains(host)
+    }));
+    assert!(
+        store
+            .list_traffic_points("global", "in", now - 180, now, Some(host), None)
+            .await
+            .unwrap()
+            .is_empty(),
+        "named execution must still remove expired traffic points"
+    );
+}
+
+#[tokio::test]
+async fn traffic_cleanup_prunes_stale_series_in_batches_and_preserves_live_counters() {
+    let (_dir, store) = open_test_store().await;
+    let now = chrono_like_now_seconds();
+    let stale = (0..40)
+        .map(|index| TrafficSnapshotRecord {
+            host: Some(format!("stale-{index}.example.com")),
+            stream: None,
+            total_in: 10.0,
+            total_out: 20.0,
+            error_5xx: 0.0,
+        })
+        .collect::<Vec<_>>();
+    store
+        .record_traffic_snapshot("global", &stale, now - 120, 60)
+        .await
+        .unwrap();
+    let live = TrafficSnapshotRecord {
+        host: None,
+        stream: None,
+        total_in: 100.0,
+        total_out: 200.0,
+        error_5xx: 0.0,
+    };
+    store
+        .record_traffic_snapshot("global", &[live], now, 60)
+        .await
+        .unwrap();
+    assert_eq!(store.cleanup_traffic_metrics(60).await.unwrap(), 123);
+
+    let traffic_keys = store
+        .conn()
+        .smembers(super::super::traffic::TRAFFIC_KEY_INDEX)
+        .await
+        .unwrap();
+    assert_eq!(traffic_keys.len(), 2);
+    assert!(traffic_keys.iter().all(|key| !key.contains("stale")));
+    assert_eq!(
+        store
+            .get_string_value("fn_knock:traffic:last:global:in")
+            .await
+            .unwrap(),
+        Some("100".to_string())
+    );
+    assert_eq!(
+        store
+            .get_string_value("fn_knock:traffic:last:global:host:stale-0.example.com:in")
+            .await
+            .unwrap(),
+        None
+    );
+    assert_eq!(
+        store
+            .list_error5xx_points("global", now - 1, now, None, None)
+            .await
+            .unwrap(),
+        vec![TrafficDeltaPoint {
+            ts: now,
+            delta: 0.0
+        }],
+        "a zero-valued point still keeps its series and counter alive"
+    );
+    assert_eq!(store.cleanup_traffic_metrics(60).await.unwrap(), 3);
+}
+
+#[tokio::test]
+async fn sorted_set_record_cap_removes_oldest_members() {
+    let (_dir, store) = open_test_store().await;
+    for (member, score) in [("old", 1), ("middle", 2), ("new", 3)] {
+        store
+            .zadd_string_member("fn_knock:test:bounded-history", member, score)
+            .await
+            .unwrap();
+    }
+    let removed = store
+        .trim_oldest_zset_members("fn_knock:test:bounded-history", 2)
+        .await
+        .unwrap();
+    assert_eq!(removed, vec!["old".to_string()]);
+    assert_eq!(
+        store
+            .zrevrange_strings("fn_knock:test:bounded-history")
+            .await
+            .unwrap(),
+        vec!["new".to_string(), "middle".to_string()]
+    );
+}
+
+#[tokio::test]
+async fn expired_key_gc_physically_removes_unread_keys() {
+    let (_dir, store) = open_test_store().await;
+    let key = "fn_knock:test:expired-gc";
+    store
+        .set_string_value_with_optional_ttl(key, "stale", Some(60))
+        .await
+        .unwrap();
+    let connection = open_fixture_connection(&store.path);
+    connection
+        .execute("UPDATE kv_keys SET expires_at_ms = 0 WHERE key = ?1", [key])
+        .unwrap();
+    drop(connection);
+
+    assert_eq!(store.purge_expired_keys().await.unwrap(), 1);
+    assert_eq!(store.manager.key_count_by_prefix(key).await.unwrap(), 0);
+}
+
+#[test]
+fn parses_traffic_members_and_ignores_invalid_values() {
+    assert_eq!(
+        parse_traffic_points(&[
+            "10:5".to_string(),
+            "bad".to_string(),
+            "11:nope".to_string(),
+            "12:0".to_string()
+        ]),
+        vec![
+            TrafficDeltaPoint { ts: 10, delta: 5.0 },
+            TrafficDeltaPoint { ts: 12, delta: 0.0 }
+        ]
+    );
+}
+
+#[tokio::test]
+async fn traffic_history_reads_do_not_wait_for_primary_storage_executor() {
+    let (_dir, store) = open_test_store().await;
+    let manager = store.manager.clone();
+    let (started_tx, started_rx) = tokio::sync::oneshot::channel();
+    let (release_tx, release_rx) = std::sync::mpsc::channel();
+    let blocker = tokio::spawn(async move {
+        manager
+            .call(move |_conn| -> crate::storage::StorageResult<()> {
+                let _ = started_tx.send(());
+                release_rx
+                    .recv_timeout(std::time::Duration::from_secs(5))
+                    .map_err(|error| {
+                        crate::storage::storage_error(format!("release blocker: {error}"))
+                    })?;
+                Ok(())
+            })
+            .await
+            .expect("primary executor blocker");
+    });
+    started_rx.await.expect("primary executor started");
+
+    let points = tokio::time::timeout(
+        std::time::Duration::from_secs(2),
+        store.list_traffic_points("global", "in", 0, 10, None, None),
+    )
+    .await;
+    release_tx.send(()).expect("release primary executor");
+    let points = points
+        .expect("analytics read should use its isolated executor")
+        .expect("traffic history read");
+    assert!(points.is_empty());
+    blocker.await.expect("primary executor task");
+}
+
+#[test]
+fn traffic_cleanup_maps_metric_keys_to_last_total_keys() {
+    assert_eq!(
+        super::traffic::traffic_last_total_key_for_metric_key(
+            "fn_knock:traffic:global:host:example.com:in"
+        )
+        .as_deref(),
+        Some("fn_knock:traffic:last:global:host:example.com:in")
+    );
+    assert_eq!(
+        super::traffic::traffic_last_total_key_for_metric_key("fn_knock:traffic:global:out")
+            .as_deref(),
+        Some("fn_knock:traffic:last:global:out")
+    );
+    assert_eq!(
+        super::traffic::traffic_last_total_key_for_metric_key("fn_knock:errors:global:5xx")
+            .as_deref(),
+        Some("fn_knock:errors:last:global:5xx")
+    );
+    assert_eq!(
+        super::traffic::traffic_last_total_key_for_metric_key("fn_knock:traffic:global:bad"),
+        None
+    );
+}
+
+#[test]
+fn counter_delta_handles_first_sample_and_resets() {
+    assert_eq!(compute_counter_delta(100.0, None), 100.0);
+    assert_eq!(compute_counter_delta(120.0, Some(100.0)), 20.0);
+    assert_eq!(compute_counter_delta(12.0, Some(100.0)), 12.0);
+    assert_eq!(compute_counter_delta(-1.0, Some(100.0)), 0.0);
+}
+
+#[test]
+fn waf_log_dates_include_neighboring_utc_days() {
+    let dates = waf_log_dates_for_range(1_704_067_200_000, 1_704_153_600_000);
+    assert!(dates.contains(&"2023-12-31".to_string()));
+    assert!(dates.contains(&"2024-01-01".to_string()));
+    assert!(dates.contains(&"2024-01-02".to_string()));
+    assert!(dates.contains(&"2024-01-03".to_string()));
+}
+
+#[tokio::test]
+async fn waf_event_persistence_is_atomic_and_idempotent_for_lease_retries() {
+    let (_dir, store) = open_test_store().await;
+    let event = json!({
+        "trace_id": "waf_retry",
+        "time": "2026-08-15T15:28:20Z",
+        "action": "deny",
+        "status": 403,
+        "rule_ids": [921150]
+    });
+    let events = vec![event.clone()];
+
+    let (first, duplicate) = tokio::join!(
+        store.persist_waf_events(&events, 7),
+        store.persist_waf_events(&events, 7)
+    );
+    first.expect("persist leased event");
+    duplicate.expect("persist duplicate lease delivery");
+
+    assert_eq!(
+        store.get_waf_log_event("waf_retry").await.unwrap(),
+        Some(event)
+    );
+    let score = crate::time_utils::parse_iso_ms("2026-08-15T15:28:20Z").unwrap();
+    let date = crate::time_utils::local_date_from_ms(score);
+    assert_eq!(store.waf_log_date_total(&date).await.unwrap(), 1);
+    let stats = store
+        .conn()
+        .hgetall(&waf_log_stats_key(&date))
+        .await
+        .unwrap();
+    assert_eq!(stats.get("events").map(String::as_str), Some("1"));
+    assert_eq!(stats.get("action:deny").map(String::as_str), Some("1"));
+}

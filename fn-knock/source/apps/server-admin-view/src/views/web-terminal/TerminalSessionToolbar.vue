@@ -1,1 +1,208 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCBDb25maXJtRGFuZ2VyUG9wb3ZlciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0NvbmZpcm1EYW5nZXJQb3BvdmVyLnZ1ZSI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBUYWJzLCBUYWJzTGlzdCwgVGFic1RyaWdnZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFicyI7CmltcG9ydCBMaXZlU3RhdHVzQmFkZ2UgZnJvbSAiQC9jb21wb25lbnRzL0xpdmVTdGF0dXNCYWRnZS52dWUiOwppbXBvcnQgewogIExvYWRlckNpcmNsZSwKICBNb25pdG9yVXAsCiAgUGVuY2lsLAogIFBsdXMsCiAgUmVmcmVzaENjdywKICBTZW5kLAogIFNlcnZlciwKICBUcmFzaDIsCn0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHR5cGUgewogIFRlcm1pbmFsRGVzdGluYXRpb24sCiAgVGVybWluYWxTZXNzaW9uUmVjb3JkLAp9IGZyb20gIkAvbGliL2FwaS90ZXJtaW5hbCI7CgpkZWZpbmVQcm9wczx7CiAgY29ubmVjdGlvblN0YXRlOiAiaWRsZSIgfCAiY29ubmVjdGluZyIgfCAiY29ubmVjdGVkIiB8ICJlcnJvciI7CiAgY2FuQ2xhaW1Db250cm9sOiBib29sZWFuOwogIGNsYWltQ29udHJvbDogKCkgPT4gUHJvbWlzZTx2b2lkPiB8IHZvaWQ7CiAgY3JlYXRlU2Vzc2lvbjogKCkgPT4gUHJvbWlzZTxUZXJtaW5hbFNlc3Npb25SZWNvcmQgfCBudWxsPiB8IHZvaWQ7CiAgZGVzdHJveVNlbGVjdGVkU2Vzc2lvbjogKCkgPT4gUHJvbWlzZTx2b2lkPiB8IHZvaWQ7CiAgZGVzdHJveVNlc3Npb25EZXNjcmlwdGlvbjogc3RyaW5nOwogIGhhbmRsZVNlc3Npb25UYWJDaGFuZ2U6IChzZXNzaW9uSWQ6IHN0cmluZyB8IG51bWJlcikgPT4gUHJvbWlzZTx2b2lkPiB8IHZvaWQ7CiAgaXNCb290aW5nOiBib29sZWFuOwogIGlzQ3JlYXRpbmc6IGJvb2xlYW47CiAgaXNLaWxsaW5nOiBib29sZWFuOwogIGlzUmVuYW1pbmdTZXNzaW9uOiBib29sZWFuOwogIGtlZXBUZXJtaW5hbEZvY3VzZWQ6IChldmVudDogRXZlbnQpID0+IHZvaWQ7CiAgb3BlblJlbmFtZURpYWxvZzogKCkgPT4gdm9pZDsKICBvcGVuU2VuZERpYWxvZzogKCkgPT4gdm9pZDsKICBvcGVuVGFyZ2V0RHJhd2VyOiAoKSA9PiB2b2lkOwogIHJlY29ubmVjdFNlc3Npb246ICgpID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwogIHNlbGVjdGVkU2Vzc2lvbjogVGVybWluYWxTZXNzaW9uUmVjb3JkIHwgbnVsbDsKICBzZWxlY3RlZFNlc3Npb25JZDogc3RyaW5nOwogIHNlbGVjdGVkVGFyZ2V0OiBUZXJtaW5hbERlc3RpbmF0aW9uIHwgbnVsbDsKICBzZXNzaW9uczogVGVybWluYWxTZXNzaW9uUmVjb3JkW107CiAgc3RhdHVzVG9uZTogc3RyaW5nOwogIHRvb2xiYXJEaXNhYmxlZDogYm9vbGVhbjsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJzaHJpbmstMCBmbGV4IGZsZXgtY29sIGdhcC0yLjUgbGc6ZmxleC1yb3cgbGc6aXRlbXMtY2VudGVyIj4KICAgIDxkaXYgY2xhc3M9ImZsZXggbWluLXctMCBmbGV4LW5vd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTEgc206Z2FwLTIiPgogICAgICA8QnV0dG9uCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICBzaXplPSJzbSIKICAgICAgICBjbGFzcz0ibWluLXctMCBmbGV4LTEgbWF4LXctWzIxMHB4XSBtZDpoaWRkZW4iCiAgICAgICAgOmRpc2FibGVkPSJpc0Jvb3RpbmciCiAgICAgICAgQGNsaWNrPSJvcGVuVGFyZ2V0RHJhd2VyIgogICAgICA+CiAgICAgICAgPFNlcnZlciBjbGFzcz0ibXItMS41IGgtNCB3LTQgc2hyaW5rLTAiIC8+CiAgICAgICAgPHNwYW4gY2xhc3M9InRydW5jYXRlIj4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHNlbGVjdGVkVGFyZ2V0Py5raW5kID09PSAibG9jYWwiCiAgICAgICAgICAgICAgPyB0KCJhZG1pbi53ZWJUZXJtaW5hbC5sb2NhbFRhcmdldCIpCiAgICAgICAgICAgICAgOiBzZWxlY3RlZFRhcmdldD8ubmFtZSB8fAogICAgICAgICAgICAgICAgdCgiYWRtaW4ud2ViVGVybWluYWwudGFyZ2V0cyIsICJUZXJtaW5hbCB0YXJnZXRzIikKICAgICAgICAgIH19CiAgICAgICAgPC9zcGFuPgogICAgICA8L0J1dHRvbj4KCiAgICAgIDxkaXYgY2xhc3M9ImZsZXggc2hyaW5rLTAgaXRlbXMtY2VudGVyIGdhcC0xIHNtOmdhcC0yIHNtOnBsLTIiPgogICAgICAgIDxMaXZlU3RhdHVzQmFkZ2UKICAgICAgICAgIHYtaWY9ImNvbm5lY3Rpb25TdGF0ZSA9PT0gJ2Nvbm5lY3RlZCciCiAgICAgICAgICA6YWN0aXZlPSJ0cnVlIgogICAgICAgICAgOmFjdGl2ZS1sYWJlbD0idCgnYWRtaW4ud2ViVGVybWluYWwuc3RhdHVzQ29ubmVjdGVkJykiCiAgICAgICAgICBjbGFzcz0ibXQtcHggc206bXItMyIKICAgICAgICAvPgogICAgICAgIDxzcGFuCiAgICAgICAgICB2LWVsc2UKICAgICAgICAgIDphcmlhLWxhYmVsPSJzdGF0dXNUb25lIgogICAgICAgICAgOnRpdGxlPSJzdGF0dXNUb25lIgogICAgICAgICAgY2xhc3M9ImlubGluZS1mbGV4IGgtMiB3LTIgc2hyaW5rLTAgcm91bmRlZC1mdWxsIGJnLXppbmMtMzAwIGFsaWduLW1pZGRsZSIKICAgICAgICAgIHJvbGU9InN0YXR1cyIKICAgICAgICAvPgoKICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgc2l6ZT0iaWNvbi1zbSIKICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlci1ib3JkZXIvNzAgYmctYmFja2dyb3VuZC84NSBzaGFkb3ctbm9uZSIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNDcmVhdGluZyB8fCBpc0Jvb3RpbmciCiAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4ud2ViVGVybWluYWwubmV3U2Vzc2lvbkFyaWEnKSIKICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4ud2ViVGVybWluYWwubmV3U2Vzc2lvbicpIgogICAgICAgICAgQGNsaWNrPSJjcmVhdGVTZXNzaW9uIgogICAgICAgID4KICAgICAgICAgIDxMb2FkZXJDaXJjbGUgdi1pZj0iaXNDcmVhdGluZyIgY2xhc3M9ImgtNCB3LTQgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgICAgPFBsdXMgdi1lbHNlIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgPHNwYW4gY2xhc3M9InNyLW9ubHkiPnt7IHQoImFkbWluLndlYlRlcm1pbmFsLm5ld1Nlc3Npb24iKSB9fTwvc3Bhbj4KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgc2l6ZT0iaWNvbi1zbSIKICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlci1ib3JkZXIvNzAgYmctYmFja2dyb3VuZC84NSBzaGFkb3ctbm9uZSIKICAgICAgICAgIDpkaXNhYmxlZD0iIXNlbGVjdGVkU2Vzc2lvbiB8fCBpc1JlbmFtaW5nU2Vzc2lvbiIKICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi53ZWJUZXJtaW5hbC5yZW5hbWVTZXNzaW9uJykiCiAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLndlYlRlcm1pbmFsLnJlbmFtZVNlc3Npb24nKSIKICAgICAgICAgIEBjbGljaz0ib3BlblJlbmFtZURpYWxvZyIKICAgICAgICA+CiAgICAgICAgICA8TG9hZGVyQ2lyY2xlIHYtaWY9ImlzUmVuYW1pbmdTZXNzaW9uIiBjbGFzcz0iaC00IHctNCBhbmltYXRlLXNwaW4iIC8+CiAgICAgICAgICA8UGVuY2lsIHYtZWxzZSBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJzci1vbmx5Ij57ewogICAgICAgICAgICB0KCJhZG1pbi53ZWJUZXJtaW5hbC5yZW5hbWVTZXNzaW9uIikKICAgICAgICAgIH19PC9zcGFuPgogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICBzaXplPSJpY29uLXNtIgogICAgICAgICAgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyLWJvcmRlci83MCBiZy1iYWNrZ3JvdW5kLzg1IHNoYWRvdy1ub25lIgogICAgICAgICAgOmRpc2FibGVkPSIhc2VsZWN0ZWRTZXNzaW9uIHx8IGNvbm5lY3Rpb25TdGF0ZSA9PT0gJ2Nvbm5lY3RpbmcnIgogICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLndlYlRlcm1pbmFsLnJlY29ubmVjdEFyaWEnKSIKICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4ud2ViVGVybWluYWwucmVjb25uZWN0JykiCiAgICAgICAgICBAcG9pbnRlcmRvd249ImtlZXBUZXJtaW5hbEZvY3VzZWQiCiAgICAgICAgICBAY2xpY2s9InJlY29ubmVjdFNlc3Npb24iCiAgICAgICAgPgogICAgICAgICAgPFJlZnJlc2hDY3cgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICA8c3BhbiBjbGFzcz0ic3Itb25seSI+e3sgdCgiYWRtaW4ud2ViVGVybWluYWwucmVjb25uZWN0IikgfX08L3NwYW4+CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIHNpemU9Imljb24tc20iCiAgICAgICAgICBjbGFzcz0icm91bmRlZC1sZyBib3JkZXItYm9yZGVyLzcwIGJnLWJhY2tncm91bmQvODUgc2hhZG93LW5vbmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9InRvb2xiYXJEaXNhYmxlZCIKICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi53ZWJUZXJtaW5hbC5zZW5kQXJpYScpIgogICAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi53ZWJUZXJtaW5hbC5zZW5kJykiCiAgICAgICAgICBAY2xpY2s9Im9wZW5TZW5kRGlhbG9nIgogICAgICAgID4KICAgICAgICAgIDxTZW5kIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgPHNwYW4gY2xhc3M9InNyLW9ubHkiPnt7IHQoImFkbWluLndlYlRlcm1pbmFsLnNlbmQiKSB9fTwvc3Bhbj4KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CgogICAgICA8QnV0dG9uCiAgICAgICAgdi1pZj0iY2FuQ2xhaW1Db250cm9sICYmIHNlbGVjdGVkU2Vzc2lvbiIKICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgIHNpemU9InNtIgogICAgICAgIDpkaXNhYmxlZD0iY29ubmVjdGlvblN0YXRlICE9PSAnY29ubmVjdGVkJyIKICAgICAgICBAY2xpY2s9ImNsYWltQ29udHJvbCIKICAgICAgPgogICAgICAgIDxNb25pdG9yVXAgY2xhc3M9Im1yLTEuNSBoLTMuNSB3LTMuNSIgLz4KICAgICAgICB7eyB0KCJhZG1pbi53ZWJUZXJtaW5hbC50YWtlQ29udHJvbCIsICJUYWtlIGNvbnRyb2wiKSB9fQogICAgICA8L0J1dHRvbj4KCiAgICAgIDxkaXYgY2xhc3M9ImgtOCB3LXB4IHNocmluay0wIGJnLWJvcmRlci83MCIgLz4KCiAgICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICAgIDp0aXRsZT0idCgnYWRtaW4ud2ViVGVybWluYWwuZW5kQ29uZmlybVRpdGxlJykiCiAgICAgICAgOmRlc2NyaXB0aW9uPSJkZXN0cm95U2Vzc2lvbkRlc2NyaXB0aW9uIgogICAgICAgIDpjb25maXJtLXRleHQ9InQoJ2FkbWluLndlYlRlcm1pbmFsLmVuZFNlc3Npb24nKSIKICAgICAgICA6bG9hZGluZz0iaXNLaWxsaW5nIgogICAgICAgIDpkaXNhYmxlZD0iIXNlbGVjdGVkU2Vzc2lvbiB8fCBpc0tpbGxpbmciCiAgICAgICAgOm9uLWNvbmZpcm09ImRlc3Ryb3lTZWxlY3RlZFNlc3Npb24iCiAgICAgICAgY29udGVudC1jbGFzcz0idy03MiB0ZXh0LWxlZnQiCiAgICAgID4KICAgICAgICA8dGVtcGxhdGUgI3RyaWdnZXI+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICBzaXplPSJpY29uLXNtIgogICAgICAgICAgICBjbGFzcz0icm91bmRlZC1sZyB0ZXh0LWRlc3RydWN0aXZlIGhvdmVyOmJnLWRlc3RydWN0aXZlLzEwIGhvdmVyOnRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgIDpkaXNhYmxlZD0iIXNlbGVjdGVkU2Vzc2lvbiB8fCBpc0tpbGxpbmciCiAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi53ZWJUZXJtaW5hbC5lbmRDdXJyZW50U2Vzc2lvbicpIgogICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLndlYlRlcm1pbmFsLmVuZFNlc3Npb24nKSIKICAgICAgICAgID4KICAgICAgICAgICAgPFRyYXNoMiBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9InNyLW9ubHkiPnt7IHQoImFkbWluLndlYlRlcm1pbmFsLmVuZFNlc3Npb24iKSB9fTwvc3Bhbj4KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwvQ29uZmlybURhbmdlclBvcG92ZXI+CiAgICA8L2Rpdj4KCiAgICA8ZGl2CiAgICAgIHYtaWY9InNlc3Npb25zLmxlbmd0aCA+IDEiCiAgICAgIGNsYXNzPSJoLXB4IHctZnVsbCBzaHJpbmstMCBiZy1ib3JkZXIvNzAgbGc6aC05IGxnOnctcHgiCiAgICAvPgoKICAgIDxUYWJzCiAgICAgIHYtaWY9InNlc3Npb25zLmxlbmd0aCA+IDEiCiAgICAgIDptb2RlbC12YWx1ZT0ic2VsZWN0ZWRTZXNzaW9uSWQiCiAgICAgIGNsYXNzPSJtaW4tdy0wIGZsZXgtMSIKICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iaGFuZGxlU2Vzc2lvblRhYkNoYW5nZSIKICAgID4KICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJvdmVyZmxvdy14LWF1dG8gcGItMSBbc2Nyb2xsYmFyLXdpZHRoOm5vbmVdIFsmOjotd2Via2l0LXNjcm9sbGJhcl06aGlkZGVuIGxnOnBiLTAiCiAgICAgID4KICAgICAgICA8VGFic0xpc3QKICAgICAgICAgIGNsYXNzPSJpbmxpbmUtZmxleCBoLTkgbWluLXctbWF4IGl0ZW1zLWNlbnRlciBnYXAtMSByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyLzcwIGJnLWJhY2tncm91bmQvNzIgcC0xIGxnOm1sLWF1dG8iCiAgICAgICAgPgogICAgICAgICAgPFRhYnNUcmlnZ2VyCiAgICAgICAgICAgIHYtZm9yPSJzZXNzaW9uIGluIHNlc3Npb25zIgogICAgICAgICAgICA6a2V5PSJzZXNzaW9uLmlkIgogICAgICAgICAgICA6dmFsdWU9InNlc3Npb24uaWQiCiAgICAgICAgICAgIGNsYXNzPSJoLTcgbWluLXctWzkycHhdIG1heC13LVsxNDhweF0gcm91bmRlZC1tZCBweC0yLjUgdGV4dC1bMTFweF0gZm9udC1tZWRpdW0gc206bWluLXctWzExMHB4XSBzbTptYXgtdy1bMTgwcHhdIHNtOnRleHQteHMiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0cnVuY2F0ZSI+e3sgc2Vzc2lvbi50aXRsZSB9fTwvc3Bhbj4KICAgICAgICAgIDwvVGFic1RyaWdnZXI+CiAgICAgICAgPC9UYWJzTGlzdD4KICAgICAgPC9kaXY+CiAgICA8L1RhYnM+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import { Button } from "@/components/ui/button";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import LiveStatusBadge from "@/components/LiveStatusBadge.vue";
+import {
+  LoaderCircle,
+  MonitorUp,
+  Pencil,
+  Plus,
+  RefreshCcw,
+  Send,
+  Server,
+  Trash2,
+} from "lucide-vue-next";
+import type {
+  TerminalDestination,
+  TerminalSessionRecord,
+} from "@/lib/api/terminal";
+
+defineProps<{
+  connectionState: "idle" | "connecting" | "connected" | "error";
+  canClaimControl: boolean;
+  claimControl: () => Promise<void> | void;
+  createSession: () => Promise<TerminalSessionRecord | null> | void;
+  destroySelectedSession: () => Promise<void> | void;
+  destroySessionDescription: string;
+  handleSessionTabChange: (sessionId: string | number) => Promise<void> | void;
+  isBooting: boolean;
+  isCreating: boolean;
+  isKilling: boolean;
+  isRenamingSession: boolean;
+  keepTerminalFocused: (event: Event) => void;
+  openRenameDialog: () => void;
+  openSendDialog: () => void;
+  openTargetDrawer: () => void;
+  reconnectSession: () => Promise<void> | void;
+  selectedSession: TerminalSessionRecord | null;
+  selectedSessionId: string;
+  selectedTarget: TerminalDestination | null;
+  sessions: TerminalSessionRecord[];
+  statusTone: string;
+  toolbarDisabled: boolean;
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <div class="shrink-0 flex flex-col gap-2.5 lg:flex-row lg:items-center">
+    <div class="flex min-w-0 flex-nowrap items-center gap-1 sm:gap-2">
+      <Button
+        variant="outline"
+        size="sm"
+        class="min-w-0 flex-1 max-w-[210px] md:hidden"
+        :disabled="isBooting"
+        @click="openTargetDrawer"
+      >
+        <Server class="mr-1.5 h-4 w-4 shrink-0" />
+        <span class="truncate">
+          {{
+            selectedTarget?.kind === "local"
+              ? t("admin.webTerminal.localTarget")
+              : selectedTarget?.name ||
+                t("admin.webTerminal.targets", "Terminal targets")
+          }}
+        </span>
+      </Button>
+
+      <div class="flex shrink-0 items-center gap-1 sm:gap-2 sm:pl-2">
+        <LiveStatusBadge
+          v-if="connectionState === 'connected'"
+          :active="true"
+          :active-label="t('admin.webTerminal.statusConnected')"
+          class="mt-px sm:mr-3"
+        />
+        <span
+          v-else
+          :aria-label="statusTone"
+          :title="statusTone"
+          class="inline-flex h-2 w-2 shrink-0 rounded-full bg-zinc-300 align-middle"
+          role="status"
+        />
+
+        <Button
+          variant="outline"
+          size="icon-sm"
+          class="rounded-lg border-border/70 bg-background/85 shadow-none"
+          :disabled="isCreating || isBooting"
+          :aria-label="t('admin.webTerminal.newSessionAria')"
+          :title="t('admin.webTerminal.newSession')"
+          @click="createSession"
+        >
+          <LoaderCircle v-if="isCreating" class="h-4 w-4 animate-spin" />
+          <Plus v-else class="h-4 w-4" />
+          <span class="sr-only">{{ t("admin.webTerminal.newSession") }}</span>
+        </Button>
+        <Button
+          variant="outline"
+          size="icon-sm"
+          class="rounded-lg border-border/70 bg-background/85 shadow-none"
+          :disabled="!selectedSession || isRenamingSession"
+          :aria-label="t('admin.webTerminal.renameSession')"
+          :title="t('admin.webTerminal.renameSession')"
+          @click="openRenameDialog"
+        >
+          <LoaderCircle v-if="isRenamingSession" class="h-4 w-4 animate-spin" />
+          <Pencil v-else class="h-4 w-4" />
+          <span class="sr-only">{{
+            t("admin.webTerminal.renameSession")
+          }}</span>
+        </Button>
+        <Button
+          variant="outline"
+          size="icon-sm"
+          class="rounded-lg border-border/70 bg-background/85 shadow-none"
+          :disabled="!selectedSession || connectionState === 'connecting'"
+          :aria-label="t('admin.webTerminal.reconnectAria')"
+          :title="t('admin.webTerminal.reconnect')"
+          @pointerdown="keepTerminalFocused"
+          @click="reconnectSession"
+        >
+          <RefreshCcw class="h-4 w-4" />
+          <span class="sr-only">{{ t("admin.webTerminal.reconnect") }}</span>
+        </Button>
+        <Button
+          variant="outline"
+          size="icon-sm"
+          class="rounded-lg border-border/70 bg-background/85 shadow-none"
+          :disabled="toolbarDisabled"
+          :aria-label="t('admin.webTerminal.sendAria')"
+          :title="t('admin.webTerminal.send')"
+          @click="openSendDialog"
+        >
+          <Send class="h-4 w-4" />
+          <span class="sr-only">{{ t("admin.webTerminal.send") }}</span>
+        </Button>
+      </div>
+
+      <Button
+        v-if="canClaimControl && selectedSession"
+        variant="outline"
+        size="sm"
+        :disabled="connectionState !== 'connected'"
+        @click="claimControl"
+      >
+        <MonitorUp class="mr-1.5 h-3.5 w-3.5" />
+        {{ t("admin.webTerminal.takeControl", "Take control") }}
+      </Button>
+
+      <div class="h-8 w-px shrink-0 bg-border/70" />
+
+      <ConfirmDangerPopover
+        :title="t('admin.webTerminal.endConfirmTitle')"
+        :description="destroySessionDescription"
+        :confirm-text="t('admin.webTerminal.endSession')"
+        :loading="isKilling"
+        :disabled="!selectedSession || isKilling"
+        :on-confirm="destroySelectedSession"
+        content-class="w-72 text-left"
+      >
+        <template #trigger>
+          <Button
+            variant="ghost"
+            size="icon-sm"
+            class="rounded-lg text-destructive hover:bg-destructive/10 hover:text-destructive"
+            :disabled="!selectedSession || isKilling"
+            :aria-label="t('admin.webTerminal.endCurrentSession')"
+            :title="t('admin.webTerminal.endSession')"
+          >
+            <Trash2 class="h-4 w-4" />
+            <span class="sr-only">{{ t("admin.webTerminal.endSession") }}</span>
+          </Button>
+        </template>
+      </ConfirmDangerPopover>
+    </div>
+
+    <div
+      v-if="sessions.length > 1"
+      class="h-px w-full shrink-0 bg-border/70 lg:h-9 lg:w-px"
+    />
+
+    <Tabs
+      v-if="sessions.length > 1"
+      :model-value="selectedSessionId"
+      class="min-w-0 flex-1"
+      @update:model-value="handleSessionTabChange"
+    >
+      <div
+        class="overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:pb-0"
+      >
+        <TabsList
+          class="inline-flex h-9 min-w-max items-center gap-1 rounded-lg border border-border/70 bg-background/72 p-1 lg:ml-auto"
+        >
+          <TabsTrigger
+            v-for="session in sessions"
+            :key="session.id"
+            :value="session.id"
+            class="h-7 min-w-[92px] max-w-[148px] rounded-md px-2.5 text-[11px] font-medium sm:min-w-[110px] sm:max-w-[180px] sm:text-xs"
+          >
+            <span class="truncate">{{ session.title }}</span>
+          </TabsTrigger>
+        </TabsList>
+      </div>
+    </Tabs>
+  </div>
+</template>

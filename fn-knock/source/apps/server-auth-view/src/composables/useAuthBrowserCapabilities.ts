@@ -1,1 +1,28 @@
-aW1wb3J0IHsgcmVmIH0gZnJvbSAidnVlIjsKCmV4cG9ydCBjb25zdCB1c2VBdXRoQnJvd3NlckNhcGFiaWxpdGllcyA9ICgpID0+IHsKICBjb25zdCBpc1Bhc3NrZXlTdXBwb3J0ZWQgPSByZWYoZmFsc2UpOwogIGNvbnN0IGNhblVzZU5hdGl2ZVBvdyA9IHJlZih0cnVlKTsKCiAgY29uc3QgcmVmcmVzaEJyb3dzZXJDYXBhYmlsaXRpZXMgPSAoKSA9PiB7CiAgICBpc1Bhc3NrZXlTdXBwb3J0ZWQudmFsdWUgPQogICAgICB0eXBlb2Ygd2luZG93ICE9PSAidW5kZWZpbmVkIiAmJgogICAgICB3aW5kb3cuaXNTZWN1cmVDb250ZXh0ICYmCiAgICAgIHR5cGVvZiB3aW5kb3cuUHVibGljS2V5Q3JlZGVudGlhbCA9PT0gImZ1bmN0aW9uIiAmJgogICAgICB0eXBlb2YgbmF2aWdhdG9yICE9PSAidW5kZWZpbmVkIiAmJgogICAgICB0eXBlb2YgbmF2aWdhdG9yLmNyZWRlbnRpYWxzPy5jcmVhdGUgPT09ICJmdW5jdGlvbiIgJiYKICAgICAgdHlwZW9mIG5hdmlnYXRvci5jcmVkZW50aWFscz8uZ2V0ID09PSAiZnVuY3Rpb24iOwogICAgY2FuVXNlTmF0aXZlUG93LnZhbHVlID0KICAgICAgdHlwZW9mIHdpbmRvdyAhPT0gInVuZGVmaW5lZCIgJiYKICAgICAgd2luZG93LmlzU2VjdXJlQ29udGV4dCAmJgogICAgICB0eXBlb2Ygd2luZG93LmNyeXB0byAhPT0gInVuZGVmaW5lZCIgJiYKICAgICAgISF3aW5kb3cuY3J5cHRvLnN1YnRsZSAmJgogICAgICB0eXBlb2Ygd2luZG93LmNyeXB0by5zdWJ0bGUuZGlnZXN0ID09PSAiZnVuY3Rpb24iOwogIH07CgogIHJldHVybiB7CiAgICBjYW5Vc2VOYXRpdmVQb3csCiAgICBpc1Bhc3NrZXlTdXBwb3J0ZWQsCiAgICByZWZyZXNoQnJvd3NlckNhcGFiaWxpdGllcywKICB9Owp9Owo=
+import { ref } from "vue";
+
+export const useAuthBrowserCapabilities = () => {
+  const isPasskeySupported = ref(false);
+  const canUseNativePow = ref(true);
+
+  const refreshBrowserCapabilities = () => {
+    isPasskeySupported.value =
+      typeof window !== "undefined" &&
+      window.isSecureContext &&
+      typeof window.PublicKeyCredential === "function" &&
+      typeof navigator !== "undefined" &&
+      typeof navigator.credentials?.create === "function" &&
+      typeof navigator.credentials?.get === "function";
+    canUseNativePow.value =
+      typeof window !== "undefined" &&
+      window.isSecureContext &&
+      typeof window.crypto !== "undefined" &&
+      !!window.crypto.subtle &&
+      typeof window.crypto.subtle.digest === "function";
+  };
+
+  return {
+    canUseNativePow,
+    isPasskeySupported,
+    refreshBrowserCapabilities,
+  };
+};

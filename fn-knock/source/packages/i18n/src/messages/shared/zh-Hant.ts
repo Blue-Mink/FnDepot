@@ -1,1 +1,117 @@
-ZXhwb3J0IGNvbnN0IHpoSGFudFNoYXJlZCA9IHsKICBiaW5hcnlEb3dubG9hZDogewogICAgY3VycmVudFBsYXRmb3JtOiAi55W25YmN5bmz5Y+wIiwKICAgIHN1cHBvcnRlZDogIuWPl+aUr+aPtCIsCiAgICB1bnN1cHBvcnRlZDogIuS4jeWPl+aUr+aPtCIsCiAgICByZXNvdXJjZVN0YXR1czogIuizh+a6kOeLgOaFiyIsCiAgICByZWFkeUxhYmVsOiAi5bey5bCx57eSIiwKICAgIHBlbmRpbmdMYWJlbDogIuacquWwsee3kiIsCiAgICBkb3dubG9hZFByb2dyZXNzOiAi5LiL6LyJ6YCy5bqmIiwKICAgIGVycm9yUHJlZml4OiAi6Yyv6Kqk77yaIiwKICAgIGRvd25sb2FkQnV0dG9uOiAi5LiL6LyJ6LOH5rqQIiwKICAgIHJlZG93bmxvYWQ6ICLph43mlrDkuIvovIkiLAogICAgcmVkb3dubG9hZENvbmZpcm1UaXRsZTogIueiuuiqjemHjeaWsOS4i+i8ieizh+a6kO+8nyIsCiAgICByZWRvd25sb2FkQ29uZmlybURlc2NyaXB0aW9uOiAi5q2k5pON5L2c5pyD6KaG6JOL54++5pyJ5paH5Lu244CCIiwKICAgIGNvbmZpcm1SZWRvd25sb2FkOiAi56K66KqN6YeN5paw5LiL6LyJIiwKICAgIGRlbGV0ZTogIuWIqumZpCIsCiAgICBkZWxldGVDb25maXJtVGl0bGU6ICLnorroqo3liKrpmaTos4fmupDvvJ8iLAogICAgZGVsZXRlQ29uZmlybURlc2NyaXB0aW9uOiAi5Yiq6Zmk5b6M6ZyA6YeN5paw5LiL6LyJ5omN6IO95L2/55So44CCIiwKICAgIGNvbmZpcm1EZWxldGU6ICLnorroqo3liKrpmaQiLAogICAgZG93bmxvYWRpbmc6ICLkuIvovInkuK3vvIzoq4vnqI3lgJkuLi4iLAogICAgY2FuY2VsVGFzazogIuWPlua2iOS7u+WLmSIsCiAgfSwKICBkYXRhU2hhcmVGaWxlUGlja2VyOiB7CiAgICB0aXRsZTogIuW+numjm+eJm+S4remBuOaTh+aWh+S7tiIsCiAgICBkZXNjcmlwdGlvbjogIuW+nuaHieeUqOagueebrumMhOS4remBuOaTh+S4gOWAi+WPr+iugOWPlueahOaWh+S7tuOAgiIsCiAgICBkaXJlY3RvcnlMYWJlbDogIuaHieeUqOaWh+S7tiIsCiAgICBhbGVydFRpdGxlOiAi55uu6YyE6K6A5Y+W5aSx5pWXIiwKICAgIHVuYXZhaWxhYmxlRGVzY3JpcHRpb246CiAgICAgICLnm67pjITmmqvkuI3lj6/oqKrllY/vvIzoq4vnorroqo3mh4nnlKjlt7Llronoo53kuKblt7LnlJ/miJDlhbHkuqvnm67pjITjgIIiLAogICAgY29uZmlybVRleHQ6ICLkvb/nlKjmraTmlofku7YiLAogICAgYXZhaWxhYmxlRGVzY3JpcHRpb246ICLlt7Lmib7liLAge2NvdW50fSDlgIvlj6/nlKjmlofku7YiLAogICAgbm9NYXRjaGVkRmlsZXM6ICLmspLmnInljLnphY3nmoTmlofku7YiLAogICAgbm9NYXRjaGVkRGVzY3JpcHRpb246ICLmj5vkuIDlgIvpl5zpjbXoqZ7oqaboqabvvIzmiJbliLfmlrDnm67pjITliJfooajjgIIiLAogICAgZW1wdHlUaXRsZTogIuWFseS6q+ebrumMhOS4remChOaykuacieWPr+eUqOaWh+S7tiIsCiAgICBlbXB0eURlc2NyaXB0aW9uOgogICAgICAi55W25YmN55uu6YyE6KOh5rKS5pyJ56ym5ZCI5qKd5Lu255qE5paH5Lu277yM6KuL5pS+5YWl5pSv5o+055qE5paH5Lu26aGe5Z6L5b6M5YaN5L6G6YG45pOH44CCIiwKICAgIG5vRXh0ZW5zaW9uOiAi54Sh5b6M57a0IiwKICB9LAogIGNlcnRTb3VyY2VGaWVsZDogewogICAgdXBsb2FkRnJvbVBob25lOiAi5b6e5omL5qmf5LiK5YKzIiwKICAgIHVwbG9hZEZyb21Db21wdXRlcjogIuW+numbu+iFpuS4iuWCsyIsCiAgICB1cGxvYWRGaWxlOiAi5LiK5YKz5paH5Lu2IiwKICAgIGNob29zZVNvdXJjZVRpdGxlOiAi6YG45pOH5paH5Lu25L6G5rqQIiwKICAgIGNob29zZVNvdXJjZURlc2NyaXB0aW9uOiAi5YWI6YG45pOH5bCO5YWl5pa55byP77yM5YaN6K6A5Y+WIHtsYWJlbH0g5paH5Lu244CCIiwKICAgIGxvY2FsRmlsZURlc2NyaXB0aW9uOiAi5b6e6Kit5YKZ5Lit6YG45pOHIHt0eXBlc30g5paH5Lu25Lim6Ieq5YuV6K6A5Y+WIiwKICAgIGNob29zZUZyb21Gbm9zOiAi5b6e6aOb54mb5Lit6YG45pOHIiwKICAgIHNoYXJlZEZpbGVEZXNjcmlwdGlvbjogIuW+niB7c2hhcmVOYW1lfSDmoLnnm67pjITlj4rkuInlsaTku6XlhaforoDlj5blt7LmnInmlofku7YiLAogICAgcGlja2VyVGl0bGU6ICLlvp7po5vniZvkuK3pgbjmk4d7bGFiZWx9IiwKICAgIHBpY2tlckRlc2NyaXB0aW9uOiAi6KuL5YWI5bCH6K2J5pu45paH5Lu256e75YuV5YiwIOaHieeUqOaVuOaTmi0+IGZuLWtub2Nr55uu6YyE5LiLIiwKICAgIHJlYWRGaWxlOiAi6K6A5Y+W5q2k5paH5Lu2IiwKICB9LAogIGxvZ1ZpZXdlcjogewogICAgdGl0bGU6ICLpgYvooYzml6XoqowiLAogICAgZW1wdHlUZXh0OiAi5pqr54Sh5pel6KqMIiwKICAgIGxpbmVDb3VudDogIntjb3VudH0g6KGMIiwKICB9LAogIGRldGFpbERpYWxvZzogewogICAgY2xvc2U6ICLpl5zplokiLAogICAgY29weUxvZzogIuikh+ijveaXpeiqjCIsCiAgICBjb3B5U3VjY2VzczogIuaXpeiqjOW3suikh+ijvSIsCiAgICBjb3B5VW52ZXJpZmllZDogIuW3suWYl+ippuikh+ijveaXpeiqjCIsCiAgICBjb3B5VW52ZXJpZmllZERlc2NyaXB0aW9uOiAi5pel6KqM5bey6KSH6KO9IiwKICAgIGNvcHlGYWlsZWQ6ICLopIfoo73ml6XoqozlpLHmlZciLAogICAgbWFudWFsQ29weUhpbnQ6ICLnm67liY3poIHpnaLlj6/og73pgYvooYzlnKjlj5fpmZDnkrDlooPkuK3vvIzoq4vmiYvli5XopIfoo73jgIIiLAogIH0sCiAgaW5saW5lQ29tbWVudEVkaXRvcjogewogICAgcGxhY2Vob2xkZXI6ICLovLjlhaXlgpnoqLsuLi4iLAogICAgZWRpdDogIue3qOi8r+WCmeiouyIsCiAgICBzYXZlOiAi5L+d5a2Y5YKZ6Ki7IiwKICAgIGNhbmNlbDogIuWPlua2iOe3qOi8ryIsCiAgICByZXF1aXJlZDogIuWCmeiou+WQjeeoseS4jeiDveeCuuepuiIsCiAgICB1cGRhdGVGYWlsZWQ6ICLmm7TmlrDlgpnoqLvlpLHmlZciLAogIH0sCiAgZGVmYXVsdFJvdXRlQ29uZmlybTogewogICAgY2xlYXJUaXRsZTogIueiuuiqjea4hemZpOmgkOiorei3r+eUse+8nyIsCiAgICBzZXRUaXRsZTogIueiuuiqjeioreWumumgkOiorei3r+eUse+8nyIsCiAgICBjbGVhckZub3NEZXNjcmlwdGlvbjoKICAgICAgIuS9oOato+WcqOa4hemZpCB7cG9ydH0g56uv5Y+j5pyN5YuZ55qE6aCQ6Kit6Lev55Sx77yM5Y+v6IO95b2x6Z+/6aOb54mbIE9TIOeahOmgkOioreWFpeWPo+ioquWVj+OAgiIsCiAgICBjbGVhckRlc2NyaXB0aW9uOgogICAgICAi5riF6Zmk5b6M5bCH5LiN5YaN5pyJ6aCQ6Kit6Lev55Sx77yM5pyq5ZG95Lit6Lev5b6R55qE6KuL5rGC5Y+v6IO954Sh5rOV5oyJ6aCQ5pyf6L2J55m844CCIiwKICAgIHNldERlc2NyaXB0aW9uOgogICAgICAi55uu5YmN6aCQ6Kit6Lev55Sx54K6IHtwb3J0fSDnq6/lj6PmnI3li5nvvIzliIfmj5vliLDlhbbku5bot6/nlLHlvozlj6/og73lvbHpn7/po5vniZsgT1Mg55qE6aCQ6Kit5YWl5Y+j44CCIiwKICB9LAogIGNlcnRGb3JtOiB7CiAgICBzc2xDZXJ0OiAiU1NMIOitieabuCIsCiAgICBwcml2YXRlS2V5OiAi56eB6ZGwIiwKICB9LAogIHBhZ2VkVGFibGVGb290ZXI6IHsKICAgIHRvdGFsOiAi5YWxIHt0b3RhbH0ge2l0ZW1UZXh0fSIsCiAgICByZWNvcmRzOiAi5qKd6KiY6YyEIiwKICAgIHBhZ2VTaXplT3B0aW9uOiAie2NvdW50fSDmop0iLAogIH0sCiAgZG5zQ3JlZGVudGlhbEJyaWRnZTogewogICAgcHJvdmlkZXJzOiB7CiAgICAgIGNsb3VkZmxhcmU6ICJDbG91ZGZsYXJlIiwKICAgICAgYWxpZG5zOiAi6Zi/6YeM6ZuyIEROUyIsCiAgICAgIGRuc3BvZDogIkROU1BvZCIsCiAgICAgIHRlbmNlbnRjbG91ZDogIumosOioiumbsiBETlMiLAogICAgICBlZGdlb25lOiAi6aiw6KiK6ZuyIEVkZ2VPbmUiLAogICAgICBlZGdlb25lQ25hbWU6ICLpqLDoqIrpm7IgRWRnZU9uZe+8iENOQU1FIOaOpeWFpe+8iSIsCiAgICAgIGdvZGFkZHk6ICJHb0RhZGR5IiwKICAgICAgcG9ya2J1bjogIlBvcmtidW4iLAogICAgICBkeW52NjogImR5bnY2IiwKICAgICAgZHVja2RuczogIkR1Y2tETlMiLAogICAgfSwKICB9LAogIHByb3h5VGFyZ2V0SW5wdXRGaWVsZDogewogICAgaGludDogIuW3puWBtOmBuOaTh+WNlOitsO+8jOWPs+WBtOWhq+WvqyBJUCDlkoznq6/lj6PvvJvmnKrloavlr6vnq6/lj6PmmYLmnIPmjInljZTorbDpu5joqo3nq6/lj6Poh6rli5Xoo5zpvYrjgIIiLAogICAgc3VnZ2VzdGlvbnNMYWJlbDogIuebruaomeWcsOWdgOWAmemBuCIsCiAgfSwKICBjb25maWdDb2xsYXBzaWJsZUNhcmQ6IHsKICAgIGVkaXRDb25maWc6ICLnt6jovK/phY3nva4iLAogIH0sCiAgc3RyZWFtUHJvdG9jb2xNdWx0aVNlbGVjdDogewogICAgYXJpYUxhYmVsOiAi5YKz6Ly45Y2U6K2wIiwKICB9LAp9Owo=
+export const zhHantShared = {
+  binaryDownload: {
+    currentPlatform: "當前平台",
+    supported: "受支援",
+    unsupported: "不受支援",
+    resourceStatus: "資源狀態",
+    readyLabel: "已就緒",
+    pendingLabel: "未就緒",
+    downloadProgress: "下載進度",
+    errorPrefix: "錯誤：",
+    downloadButton: "下載資源",
+    redownload: "重新下載",
+    redownloadConfirmTitle: "確認重新下載資源？",
+    redownloadConfirmDescription: "此操作會覆蓋現有文件。",
+    confirmRedownload: "確認重新下載",
+    delete: "刪除",
+    deleteConfirmTitle: "確認刪除資源？",
+    deleteConfirmDescription: "刪除後需重新下載才能使用。",
+    confirmDelete: "確認刪除",
+    downloading: "下載中，請稍候...",
+    cancelTask: "取消任務",
+  },
+  dataShareFilePicker: {
+    title: "從飛牛中選擇文件",
+    description: "從應用根目錄中選擇一個可讀取的文件。",
+    directoryLabel: "應用文件",
+    alertTitle: "目錄讀取失敗",
+    unavailableDescription:
+      "目錄暫不可訪問，請確認應用已安裝並已生成共享目錄。",
+    confirmText: "使用此文件",
+    availableDescription: "已找到 {count} 個可用文件",
+    noMatchedFiles: "沒有匹配的文件",
+    noMatchedDescription: "換一個關鍵詞試試，或刷新目錄列表。",
+    emptyTitle: "共享目錄中還沒有可用文件",
+    emptyDescription:
+      "當前目錄裡沒有符合條件的文件，請放入支援的文件類型後再來選擇。",
+    noExtension: "無後綴",
+  },
+  certSourceField: {
+    uploadFromPhone: "從手機上傳",
+    uploadFromComputer: "從電腦上傳",
+    uploadFile: "上傳文件",
+    chooseSourceTitle: "選擇文件來源",
+    chooseSourceDescription: "先選擇導入方式，再讀取 {label} 文件。",
+    localFileDescription: "從設備中選擇 {types} 文件並自動讀取",
+    chooseFromFnos: "從飛牛中選擇",
+    sharedFileDescription: "從 {shareName} 根目錄及三層以內讀取已有文件",
+    pickerTitle: "從飛牛中選擇{label}",
+    pickerDescription: "請先將證書文件移動到 應用數據-> fn-knock目錄下",
+    readFile: "讀取此文件",
+  },
+  logViewer: {
+    title: "運行日誌",
+    emptyText: "暫無日誌",
+    lineCount: "{count} 行",
+  },
+  detailDialog: {
+    close: "關閉",
+    copyLog: "複製日誌",
+    copySuccess: "日誌已複製",
+    copyUnverified: "已嘗試複製日誌",
+    copyUnverifiedDescription: "日誌已複製",
+    copyFailed: "複製日誌失敗",
+    manualCopyHint: "目前頁面可能運行在受限環境中，請手動複製。",
+  },
+  inlineCommentEditor: {
+    placeholder: "輸入備註...",
+    edit: "編輯備註",
+    save: "保存備註",
+    cancel: "取消編輯",
+    required: "備註名稱不能為空",
+    updateFailed: "更新備註失敗",
+  },
+  defaultRouteConfirm: {
+    clearTitle: "確認清除預設路由？",
+    setTitle: "確認設定預設路由？",
+    clearFnosDescription:
+      "你正在清除 {port} 端口服務的預設路由，可能影響飛牛 OS 的預設入口訪問。",
+    clearDescription:
+      "清除後將不再有預設路由，未命中路徑的請求可能無法按預期轉發。",
+    setDescription:
+      "目前預設路由為 {port} 端口服務，切換到其他路由後可能影響飛牛 OS 的預設入口。",
+  },
+  certForm: {
+    sslCert: "SSL 證書",
+    privateKey: "私鑰",
+  },
+  pagedTableFooter: {
+    total: "共 {total} {itemText}",
+    records: "條記錄",
+    pageSizeOption: "{count} 條",
+  },
+  dnsCredentialBridge: {
+    providers: {
+      cloudflare: "Cloudflare",
+      alidns: "阿里雲 DNS",
+      dnspod: "DNSPod",
+      tencentcloud: "騰訊雲 DNS",
+      edgeone: "騰訊雲 EdgeOne",
+      edgeoneCname: "騰訊雲 EdgeOne（CNAME 接入）",
+      godaddy: "GoDaddy",
+      porkbun: "Porkbun",
+      dynv6: "dynv6",
+      duckdns: "DuckDNS",
+    },
+  },
+  proxyTargetInputField: {
+    hint: "左側選擇協議，右側填寫 IP 和端口；未填寫端口時會按協議默認端口自動補齊。",
+    suggestionsLabel: "目標地址候選",
+  },
+  configCollapsibleCard: {
+    editConfig: "編輯配置",
+  },
+  streamProtocolMultiSelect: {
+    ariaLabel: "傳輸協議",
+  },
+};

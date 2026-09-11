@@ -1,1 +1,159 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCldPUktfRElSPSIkKG1rdGVtcCAtZCAiJHtUTVBESVI6LS90bXB9L2ZuLWtub2NrLXJlbGVhc2UtY2xpLXRlc3QuWFhYWFhYIikiCkZJWFRVUkU9IiR7V09SS19ESVJ9L2ZpeHR1cmUiCkdPX0ZJWFRVUkU9IiR7V09SS19ESVJ9L0dvLVJlYXV0aC1Qcm94eSIKQ1VSUkVOVF9WRVJTSU9OPSIkKGpxIC1yICcudmVyc2lvbicgIiR7Uk9PVF9ESVJ9L3ZlcnNpb24uanNvbiIpIgpJRlM9LiByZWFkIC1yIENVUlJFTlRfTUFKT1IgQ1VSUkVOVF9NSU5PUiBDVVJSRU5UX1BBVENIIDw8PCAiJHtDVVJSRU5UX1ZFUlNJT059IgpORVhUX1BBVENIPSIke0NVUlJFTlRfTUFKT1J9LiR7Q1VSUkVOVF9NSU5PUn0uJCgoQ1VSUkVOVF9QQVRDSCArIDEpKSIKTkVYVF9NSU5PUj0iJHtDVVJSRU5UX01BSk9SfS4kKChDVVJSRU5UX01JTk9SICsgMSkpLjAiCgpjbGVhbnVwKCkgewogIHJtIC1yZiAiJHtXT1JLX0RJUn0iCn0KdHJhcCBjbGVhbnVwIEVYSVQKCmZhaWwoKSB7CiAgcHJpbnRmICdbdGVzdC1yZWxlYXNlLWNsaV0gRVJST1I6ICVzXG4nICIkKiIgPiYyCiAgZXhpdCAxCn0KCmV4cGVjdF9mYWlsdXJlKCkgewogIGxvY2FsIGV4cGVjdGVkPSIkMSIKICBzaGlmdAogIGxvY2FsIG91dHB1dAogIGlmIG91dHB1dD0iJCgiJEAiIDI+JjEpIjsgdGhlbgogICAgZmFpbCAiY29tbWFuZCB1bmV4cGVjdGVkbHkgc3VjY2VlZGVkOiAkKiIKICBmaQogIHByaW50ZiAnJXNcbicgIiR7b3V0cHV0fSIgfCBncmVwIC1GcSAiJHtleHBlY3RlZH0iIHx8IFwKICAgIGZhaWwgImZhaWx1cmUgZGlkIG5vdCBjb250YWluICcke2V4cGVjdGVkfSc6ICR7b3V0cHV0fSIKfQoKcnVuX2NsaSgpIHsKICBGTl9LTk9DS19ST09UX0RJUj0iJHtGSVhUVVJFfSIgXAogIEZOX0tOT0NLX0dPX1JFQVVUSF9QUk9YWV9ESVI9IiR7R09fRklYVFVSRX0iIFwKICBGTl9LTk9DS19QUkVGTElHSFRfU0tJUF9DQVJHT19NRVRBREFUQT0xIFwKICAgIG5vZGUgIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvZm4ta25vY2stcmVsZWFzZS5tanMiICIkQCIKfQoKbWtkaXIgLXAgXAogICIke0ZJWFRVUkV9L2FwcHMvZm4ta25vY2siIFwKICAiJHtGSVhUVVJFfS9hcHBzL3NlcnZlci1hZG1pbi1ycyIgXAogICIke0ZJWFRVUkV9L2FwcHMvZm4ta25vY2stZGVza3RvcC9uYXRpdmUiIFwKICAiJHtGSVhUVVJFfS9hcHBzL2ZuLWtub2NrLWRlc2t0b3AiIFwKICAiJHtGSVhUVVJFfS9wYWNrYWdlcy9hcGktY29udHJhY3QiIFwKICAiJHtGSVhUVVJFfS9wYWNrYWdlcy9ncnBjLWNvbnRyYWN0cy9wcm90by9mbmtub2NrL3YxIiBcCiAgIiR7RklYVFVSRX0vcmVsZWFzZS1ub3RlcyIgXAogICIke0ZJWFRVUkV9L3NjcmlwdHMiIFwKICAiJHtHT19GSVhUVVJFfS9wa2cvZ3JwYy9wYiIgXAogICIke0dPX0ZJWFRVUkV9L3BrZy92ZXJzaW9uIgoKZm9yIHJlbGF0aXZlX3BhdGggaW4gXAogIHZlcnNpb24uanNvbiBcCiAgYXBwcy9mbi1rbm9jay9tYW5pZmVzdCBcCiAgYXBwcy9zZXJ2ZXItYWRtaW4tcnMvQ2FyZ28udG9tbCBcCiAgYXBwcy9zZXJ2ZXItYWRtaW4tcnMvQ2FyZ28ubG9jayBcCiAgYXBwcy9mbi1rbm9jay1kZXNrdG9wL3BhY2thZ2UuanNvbiBcCiAgcGFja2FnZXMvYXBpLWNvbnRyYWN0L3BhY2thZ2UuanNvbiBcCiAgcGFja2FnZS1sb2NrLmpzb24gXAogIGFwcHMvZm4ta25vY2stZGVza3RvcC9uYXRpdmUvQ2FyZ28udG9tbCBcCiAgYXBwcy9mbi1rbm9jay1kZXNrdG9wL25hdGl2ZS9DYXJnby5sb2NrIFwKICAicmVsZWFzZS1ub3Rlcy8ke0NVUlJFTlRfVkVSU0lPTn0ubWQiIFwKICBwYWNrYWdlcy9ncnBjLWNvbnRyYWN0cy9wcm90by9mbmtub2NrL3YxL2dhdGV3YXkucHJvdG8gXAogIHNjcmlwdHMvY29udHJvbC1hcGktdmVyc2lvbi5zaCBcCiAgc2NyaXB0cy9yZWxlYXNlLXByZWZsaWdodC5zaApkbwogIGNwICIke1JPT1RfRElSfS8ke3JlbGF0aXZlX3BhdGh9IiAiJHtGSVhUVVJFfS8ke3JlbGF0aXZlX3BhdGh9Igpkb25lCgpjcCAiJHtST09UX0RJUn0vc2NyaXB0cy90ZXN0cy9maXh0dXJlcy9nZW5lcmF0ZS1hcGktY29udHJhY3Qtc3R1Yi5tanMiIFwKICAiJHtGSVhUVVJFfS9zY3JpcHRzL2dlbmVyYXRlLWFwaS1jb250cmFjdC5tanMiCgpnaXQgLUMgIiR7RklYVFVSRX0iIGluaXQgLXEKZ2l0IC1DICIke0ZJWFRVUkV9IiBjb25maWcgdXNlci5lbWFpbCB0ZXN0QGV4YW1wbGUuaW52YWxpZApnaXQgLUMgIiR7RklYVFVSRX0iIGNvbmZpZyB1c2VyLm5hbWUgIlJlbGVhc2UgQ0xJIFRlc3QiCmdpdCAtQyAiJHtGSVhUVVJFfSIgYWRkIC4KZ2l0IC1DICIke0ZJWFRVUkV9IiBjb21taXQgLXFtICJjaG9yZTogY3VycmVudCByZWxlYXNlIgpnaXQgLUMgIiR7RklYVFVSRX0iIHRhZyAtYSAidiR7Q1VSUkVOVF9WRVJTSU9OfSIgLW0gIlJlbGVhc2UgdiR7Q1VSUkVOVF9WRVJTSU9OfSIKcHJpbnRmICdyZWxlYXNlIGZpeHR1cmVcbicgPiAiJHtGSVhUVVJFfS9yZWxlYXNlLWNoYW5nZS50eHQiCmdpdCAtQyAiJHtGSVhUVVJFfSIgYWRkIHJlbGVhc2UtY2hhbmdlLnR4dApnaXQgLUMgIiR7RklYVFVSRX0iIGNvbW1pdCAtcW0gImZlYXQ6IGluY2x1ZGUgcmVsZWFzZSBDTEkgZml4dHVyZSIKCnByaW50ZiAncGFja2FnZSB2ZXJzaW9uXG5cbnZhciAoXG5cdFZlcnNpb24gPSAiJXMiXG5cdENvbW1pdCA9ICJ1bmtub3duIlxuKVxuJyBcCiAgIiR7Q1VSUkVOVF9WRVJTSU9OfSIgPiAiJHtHT19GSVhUVVJFfS9wa2cvdmVyc2lvbi92ZXJzaW9uLmdvIgpDT05UUk9MX0FQSV9WRVJTSU9OPSIkKGJhc2ggIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvY29udHJvbC1hcGktdmVyc2lvbi5zaCIpIgpwcmludGYgJ3BhY2thZ2UgcGJcblxudHlwZSBDb250cm9sQXBpVmVyc2lvbiBpbnQzMlxuXG5jb25zdCAoXG5cdENvbnRyb2xBcGlWZXJzaW9uX0NPTlRST0xfQVBJX1ZFUlNJT05fQ1VSUkVOVCBDb250cm9sQXBpVmVyc2lvbiA9ICVzXG4pXG4nIFwKICAiJHtDT05UUk9MX0FQSV9WRVJTSU9OfSIgPiAiJHtHT19GSVhUVVJFfS9wa2cvZ3JwYy9wYi9nYXRld2F5LnBiLmdvIgpwcmludGYgInZlcnNpb246ICczJ1xudmFyczpcbiAgVkVSU0lPTjogJ3t7LkZOX0tOT0NLX1ZFUlNJT04gfCBkZWZhdWx0IFwiJXNcIn19J1xuIiBcCiAgIiR7Q1VSUkVOVF9WRVJTSU9OfSIgPiAiJHtHT19GSVhUVVJFfS9UYXNrZmlsZS55bWwiCmdpdCAtQyAiJHtHT19GSVhUVVJFfSIgaW5pdCAtcQpnaXQgLUMgIiR7R09fRklYVFVSRX0iIGNvbmZpZyB1c2VyLmVtYWlsIHRlc3RAZXhhbXBsZS5pbnZhbGlkCmdpdCAtQyAiJHtHT19GSVhUVVJFfSIgY29uZmlnIHVzZXIubmFtZSAiUmVsZWFzZSBDTEkgVGVzdCIKZ2l0IC1DICIke0dPX0ZJWFRVUkV9IiBhZGQgLgpnaXQgLUMgIiR7R09fRklYVFVSRX0iIGNvbW1pdCAtcW0gImNob3JlOiBjdXJyZW50IGdhdGV3YXkgcmVsZWFzZSIKR0FURVdBWV9GSVhUVVJFX0NPTU1JVD0iJChnaXQgLUMgIiR7R09fRklYVFVSRX0iIHJldi1wYXJzZSBIRUFEKSIKanEgLS1hcmcgY29tbWl0ICIke0dBVEVXQVlfRklYVFVSRV9DT01NSVR9IiAnLmdhdGV3YXlDb21taXQgPSAkY29tbWl0JyBcCiAgIiR7RklYVFVSRX0vdmVyc2lvbi5qc29uIiA+ICIke0ZJWFRVUkV9L3ZlcnNpb24uanNvbi50bXAiCm12ICIke0ZJWFRVUkV9L3ZlcnNpb24uanNvbi50bXAiICIke0ZJWFRVUkV9L3ZlcnNpb24uanNvbiIKZ2l0IC1DICIke0ZJWFRVUkV9IiBhZGQgdmVyc2lvbi5qc29uCmdpdCAtQyAiJHtGSVhUVVJFfSIgY29tbWl0IC1xbSAiY2hvcmU6IHBpbiBnYXRld2F5IGZpeHR1cmUiCgpydW5fY2xpIHN0YXR1cyA+L2Rldi9udWxsCnJ1bl9jbGkgZ2F0ZXdheS1jaGVjayAiJHtDVVJSRU5UX1ZFUlNJT059IiA+L2Rldi9udWxsCnJ1bl9jbGkgcHJlcGFyZSBwYXRjaCAtLWRyeS1ydW4gPiAiJHtXT1JLX0RJUn0vcGF0Y2gtZHJ5LXJ1bi50eHQiCmdyZXAgLUZxICIke0NVUlJFTlRfVkVSU0lPTn0gLT4gJHtORVhUX1BBVENIfSIgIiR7V09SS19ESVJ9L3BhdGNoLWRyeS1ydW4udHh0IiB8fCBcCiAgZmFpbCAicGF0Y2ggZHJ5LXJ1biBkaWQgbm90IHNlbGVjdCAke05FWFRfUEFUQ0h9IgpbICIkKGpxIC1yICcudmVyc2lvbicgIiR7RklYVFVSRX0vdmVyc2lvbi5qc29uIikiID0gIiR7Q1VSUkVOVF9WRVJTSU9OfSIgXSB8fCBcCiAgZmFpbCAiZHJ5LXJ1biBtb2RpZmllZCB2ZXJzaW9uLmpzb24iClsgISAtZSAiJHtGSVhUVVJFfS9yZWxlYXNlLW5vdGVzLyR7TkVYVF9QQVRDSH0ubWQiIF0gfHwgXAogIGZhaWwgImRyeS1ydW4gY3JlYXRlZCByZWxlYXNlIG5vdGVzIgpbICEgLWUgIiR7RklYVFVSRX0vcGFja2FnZXMvYXBpLWNvbnRyYWN0L29wZW5hcGkuanNvbiIgXSB8fCBcCiAgZmFpbCAiZHJ5LXJ1biBnZW5lcmF0ZWQgdGhlIE9wZW5BUEkgY29udHJhY3QiCgpydW5fY2xpIHByZXBhcmUgbWlub3IgLS1kcnktcnVuID4gIiR7V09SS19ESVJ9L21pbm9yLWRyeS1ydW4udHh0IgpncmVwIC1GcSAiJHtDVVJSRU5UX1ZFUlNJT059IC0+ICR7TkVYVF9NSU5PUn0iICIke1dPUktfRElSfS9taW5vci1kcnktcnVuLnR4dCIgfHwgXAogIGZhaWwgIm1pbm9yIGRyeS1ydW4gZGlkIG5vdCBzZWxlY3QgJHtORVhUX01JTk9SfSIKCnByaW50ZiAnIyBDdXN0b20gcmVsZWFzZSBub3Rlc1xuXG4tIFJldmlld2VkIGNoYW5nZS5cbicgPiAiJHtXT1JLX0RJUn0vY3VzdG9tLW5vdGVzLm1kIgpydW5fY2xpIHByZXBhcmUgcGF0Y2ggLS1kcnktcnVuIC0tbm90ZXMtZmlsZSAiJHtXT1JLX0RJUn0vY3VzdG9tLW5vdGVzLm1kIiBcCiAgPiAiJHtXT1JLX0RJUn0vY3VzdG9tLW5vdGVzLWRyeS1ydW4udHh0IgpncmVwIC1GcSAtLSAiLSBSZXZpZXdlZCBjaGFuZ2UuIiAiJHtXT1JLX0RJUn0vY3VzdG9tLW5vdGVzLWRyeS1ydW4udHh0IiB8fCBcCiAgZmFpbCAiY3VzdG9tIHJlbGVhc2Ugbm90ZXMgd2VyZSBub3QgbG9hZGVkIgoKcnVuX2NsaSBwcmVwYXJlIHBhdGNoID4gIiR7V09SS19ESVJ9L3ByZXBhcmUudHh0IgpncmVwIC1GcSAicHJlcGFyZWQgdiR7TkVYVF9QQVRDSH0iICIke1dPUktfRElSfS9wcmVwYXJlLnR4dCIgfHwgXAogIGZhaWwgInByZXBhcmUgZGlkIG5vdCBmaW5pc2ggc3VjY2Vzc2Z1bGx5IgpncmVwIC1GcSAiIyBmbi1rbm9jayAke05FWFRfUEFUQ0h9IiAiJHtGSVhUVVJFfS9yZWxlYXNlLW5vdGVzLyR7TkVYVF9QQVRDSH0ubWQiIHx8IFwKICBmYWlsICJnZW5lcmF0ZWQgcmVsZWFzZSBub3RlcyBoYXZlIHRoZSB3cm9uZyBoZWFkaW5nIgpncmVwIC1GcSAtLSAiLSBmZWF0OiBpbmNsdWRlIHJlbGVhc2UgQ0xJIGZpeHR1cmUiIFwKICAiJHtGSVhUVVJFfS9yZWxlYXNlLW5vdGVzLyR7TkVYVF9QQVRDSH0ubWQiIHx8IFwKICBmYWlsICJnZW5lcmF0ZWQgcmVsZWFzZSBub3RlcyBkbyBub3QgY29udGFpbiBjb21taXQgc3ViamVjdHMiCmdyZXAgLUZxICJWZXJzaW9uID0gXCIke05FWFRfUEFUQ0h9XCIiICIke0dPX0ZJWFRVUkV9L3BrZy92ZXJzaW9uL3ZlcnNpb24uZ28iIHx8IFwKICBmYWlsICJHbyBnYXRld2F5IHNvdXJjZSB2ZXJzaW9uIHdhcyBub3QgdXBkYXRlZCIKZ3JlcCAtRnEgImRlZmF1bHQgXCIke05FWFRfUEFUQ0h9XCIiICIke0dPX0ZJWFRVUkV9L1Rhc2tmaWxlLnltbCIgfHwgXAogIGZhaWwgIkdvIGdhdGV3YXkgVGFza2ZpbGUgdmVyc2lvbiB3YXMgbm90IHVwZGF0ZWQiClsgIiQoanEgLXIgJy5pbmZvLnZlcnNpb24nICIke0ZJWFRVUkV9L3BhY2thZ2VzL2FwaS1jb250cmFjdC9vcGVuYXBpLmpzb24iKSIgPSAiJHtORVhUX1BBVENIfSIgXSB8fCBcCiAgZmFpbCAicHJlcGFyZSBkaWQgbm90IHJlZ2VuZXJhdGUgdGhlIE9wZW5BUEkgY29udHJhY3QgYWZ0ZXIgdXBkYXRpbmcgdmVyc2lvbnMiCmdyZXAgLUZxICJyZWdlbmVyYXRpbmcgT3BlbkFQSSBhbmQgVHlwZVNjcmlwdCBjb250cmFjdHMgZm9yICR7TkVYVF9QQVRDSH0iIFwKICAiJHtXT1JLX0RJUn0vcHJlcGFyZS50eHQiIHx8IFwKICBmYWlsICJwcmVwYXJlIGRpZCBub3QgcmVwb3J0IEFQSSBjb250cmFjdCByZWdlbmVyYXRpb24iCgpydW5fY2xpIHN0YXR1cyA+L2Rldi9udWxsCnJ1bl9jbGkgY2hlY2sgIiR7TkVYVF9QQVRDSH0iID4vZGV2L251bGwKZXhwZWN0X2ZhaWx1cmUgIkdpdCB3b3JrdHJlZXMgbXVzdCBiZSBjbGVhbiIgcnVuX2NsaSBwcmVwYXJlIG1pbm9yCgpzZWQgLWkuYmFrICJzL2RlZmF1bHQgXCIke05FWFRfUEFUQ0h9XCIvZGVmYXVsdCBcIjAuMC4wXCIvIiBcCiAgIiR7R09fRklYVFVSRX0vVGFza2ZpbGUueW1sIgpleHBlY3RfZmFpbHVyZSAiR28gZ2F0ZXdheSB2ZXJzaW9ucyBhcmUgbm90IGFsaWduZWQiIFwKICBydW5fY2xpIGdhdGV3YXktY2hlY2sgIiR7TkVYVF9QQVRDSH0iCgpzZWQgLWkuYmFrICJzL2RlZmF1bHQgXCIwLjAuMFwiL2RlZmF1bHQgXCIke05FWFRfUEFUQ0h9XCIvIiBcCiAgIiR7R09fRklYVFVSRX0vVGFza2ZpbGUueW1sIgpzZWQgLUUgLWkuYmFrIFwKICAncy9Db250cm9sQXBpVmVyc2lvbl9DT05UUk9MX0FQSV9WRVJTSU9OX0NVUlJFTlQgQ29udHJvbEFwaVZlcnNpb24gPSBbMC05XSsvQ29udHJvbEFwaVZlcnNpb25fQ09OVFJPTF9BUElfVkVSU0lPTl9DVVJSRU5UIENvbnRyb2xBcGlWZXJzaW9uID0gOTk5LycgXAogICIke0dPX0ZJWFRVUkV9L3BrZy9ncnBjL3BiL2dhdGV3YXkucGIuZ28iCmV4cGVjdF9mYWlsdXJlICJkb2VzIG5vdCBtYXRjaCBnYXRld2F5LnByb3RvIiBydW5fY2xpIGdhdGV3YXktY2hlY2sgIiR7TkVYVF9QQVRDSH0iCgpwcmludGYgJ1t0ZXN0LXJlbGVhc2UtY2xpXSBhbGwgcmVsZWFzZSBDTEkgdGVzdHMgcGFzc2VkXG4nCg==
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+WORK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/fn-knock-release-cli-test.XXXXXX")"
+FIXTURE="${WORK_DIR}/fixture"
+GO_FIXTURE="${WORK_DIR}/Go-Reauth-Proxy"
+CURRENT_VERSION="$(jq -r '.version' "${ROOT_DIR}/version.json")"
+IFS=. read -r CURRENT_MAJOR CURRENT_MINOR CURRENT_PATCH <<< "${CURRENT_VERSION}"
+NEXT_PATCH="${CURRENT_MAJOR}.${CURRENT_MINOR}.$((CURRENT_PATCH + 1))"
+NEXT_MINOR="${CURRENT_MAJOR}.$((CURRENT_MINOR + 1)).0"
+
+cleanup() {
+  rm -rf "${WORK_DIR}"
+}
+trap cleanup EXIT
+
+fail() {
+  printf '[test-release-cli] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+expect_failure() {
+  local expected="$1"
+  shift
+  local output
+  if output="$("$@" 2>&1)"; then
+    fail "command unexpectedly succeeded: $*"
+  fi
+  printf '%s\n' "${output}" | grep -Fq "${expected}" || \
+    fail "failure did not contain '${expected}': ${output}"
+}
+
+run_cli() {
+  FN_KNOCK_ROOT_DIR="${FIXTURE}" \
+  FN_KNOCK_GO_REAUTH_PROXY_DIR="${GO_FIXTURE}" \
+  FN_KNOCK_PREFLIGHT_SKIP_CARGO_METADATA=1 \
+    node "${ROOT_DIR}/scripts/fn-knock-release.mjs" "$@"
+}
+
+mkdir -p \
+  "${FIXTURE}/apps/fn-knock" \
+  "${FIXTURE}/apps/server-admin-rs" \
+  "${FIXTURE}/apps/fn-knock-desktop/native" \
+  "${FIXTURE}/apps/fn-knock-desktop" \
+  "${FIXTURE}/packages/api-contract" \
+  "${FIXTURE}/packages/grpc-contracts/proto/fnknock/v1" \
+  "${FIXTURE}/release-notes" \
+  "${FIXTURE}/scripts" \
+  "${GO_FIXTURE}/pkg/grpc/pb" \
+  "${GO_FIXTURE}/pkg/version"
+
+for relative_path in \
+  version.json \
+  apps/fn-knock/manifest \
+  apps/server-admin-rs/Cargo.toml \
+  apps/server-admin-rs/Cargo.lock \
+  apps/fn-knock-desktop/package.json \
+  packages/api-contract/package.json \
+  package-lock.json \
+  apps/fn-knock-desktop/native/Cargo.toml \
+  apps/fn-knock-desktop/native/Cargo.lock \
+  "release-notes/${CURRENT_VERSION}.md" \
+  packages/grpc-contracts/proto/fnknock/v1/gateway.proto \
+  scripts/control-api-version.sh \
+  scripts/release-preflight.sh
+do
+  cp "${ROOT_DIR}/${relative_path}" "${FIXTURE}/${relative_path}"
+done
+
+cp "${ROOT_DIR}/scripts/tests/fixtures/generate-api-contract-stub.mjs" \
+  "${FIXTURE}/scripts/generate-api-contract.mjs"
+
+git -C "${FIXTURE}" init -q
+git -C "${FIXTURE}" config user.email test@example.invalid
+git -C "${FIXTURE}" config user.name "Release CLI Test"
+git -C "${FIXTURE}" add .
+git -C "${FIXTURE}" commit -qm "chore: current release"
+git -C "${FIXTURE}" tag -a "v${CURRENT_VERSION}" -m "Release v${CURRENT_VERSION}"
+printf 'release fixture\n' > "${FIXTURE}/release-change.txt"
+git -C "${FIXTURE}" add release-change.txt
+git -C "${FIXTURE}" commit -qm "feat: include release CLI fixture"
+
+printf 'package version\n\nvar (\n\tVersion = "%s"\n\tCommit = "unknown"\n)\n' \
+  "${CURRENT_VERSION}" > "${GO_FIXTURE}/pkg/version/version.go"
+CONTROL_API_VERSION="$(bash "${ROOT_DIR}/scripts/control-api-version.sh")"
+printf 'package pb\n\ntype ControlApiVersion int32\n\nconst (\n\tControlApiVersion_CONTROL_API_VERSION_CURRENT ControlApiVersion = %s\n)\n' \
+  "${CONTROL_API_VERSION}" > "${GO_FIXTURE}/pkg/grpc/pb/gateway.pb.go"
+printf "version: '3'\nvars:\n  VERSION: '{{.FN_KNOCK_VERSION | default \"%s\"}}'\n" \
+  "${CURRENT_VERSION}" > "${GO_FIXTURE}/Taskfile.yml"
+git -C "${GO_FIXTURE}" init -q
+git -C "${GO_FIXTURE}" config user.email test@example.invalid
+git -C "${GO_FIXTURE}" config user.name "Release CLI Test"
+git -C "${GO_FIXTURE}" add .
+git -C "${GO_FIXTURE}" commit -qm "chore: current gateway release"
+GATEWAY_FIXTURE_COMMIT="$(git -C "${GO_FIXTURE}" rev-parse HEAD)"
+jq --arg commit "${GATEWAY_FIXTURE_COMMIT}" '.gatewayCommit = $commit' \
+  "${FIXTURE}/version.json" > "${FIXTURE}/version.json.tmp"
+mv "${FIXTURE}/version.json.tmp" "${FIXTURE}/version.json"
+git -C "${FIXTURE}" add version.json
+git -C "${FIXTURE}" commit -qm "chore: pin gateway fixture"
+
+run_cli status >/dev/null
+run_cli gateway-check "${CURRENT_VERSION}" >/dev/null
+run_cli prepare patch --dry-run > "${WORK_DIR}/patch-dry-run.txt"
+grep -Fq "${CURRENT_VERSION} -> ${NEXT_PATCH}" "${WORK_DIR}/patch-dry-run.txt" || \
+  fail "patch dry-run did not select ${NEXT_PATCH}"
+[ "$(jq -r '.version' "${FIXTURE}/version.json")" = "${CURRENT_VERSION}" ] || \
+  fail "dry-run modified version.json"
+[ ! -e "${FIXTURE}/release-notes/${NEXT_PATCH}.md" ] || \
+  fail "dry-run created release notes"
+[ ! -e "${FIXTURE}/packages/api-contract/openapi.json" ] || \
+  fail "dry-run generated the OpenAPI contract"
+
+run_cli prepare minor --dry-run > "${WORK_DIR}/minor-dry-run.txt"
+grep -Fq "${CURRENT_VERSION} -> ${NEXT_MINOR}" "${WORK_DIR}/minor-dry-run.txt" || \
+  fail "minor dry-run did not select ${NEXT_MINOR}"
+
+printf '# Custom release notes\n\n- Reviewed change.\n' > "${WORK_DIR}/custom-notes.md"
+run_cli prepare patch --dry-run --notes-file "${WORK_DIR}/custom-notes.md" \
+  > "${WORK_DIR}/custom-notes-dry-run.txt"
+grep -Fq -- "- Reviewed change." "${WORK_DIR}/custom-notes-dry-run.txt" || \
+  fail "custom release notes were not loaded"
+
+run_cli prepare patch > "${WORK_DIR}/prepare.txt"
+grep -Fq "prepared v${NEXT_PATCH}" "${WORK_DIR}/prepare.txt" || \
+  fail "prepare did not finish successfully"
+grep -Fq "# fn-knock ${NEXT_PATCH}" "${FIXTURE}/release-notes/${NEXT_PATCH}.md" || \
+  fail "generated release notes have the wrong heading"
+grep -Fq -- "- feat: include release CLI fixture" \
+  "${FIXTURE}/release-notes/${NEXT_PATCH}.md" || \
+  fail "generated release notes do not contain commit subjects"
+grep -Fq "Version = \"${NEXT_PATCH}\"" "${GO_FIXTURE}/pkg/version/version.go" || \
+  fail "Go gateway source version was not updated"
+grep -Fq "default \"${NEXT_PATCH}\"" "${GO_FIXTURE}/Taskfile.yml" || \
+  fail "Go gateway Taskfile version was not updated"
+[ "$(jq -r '.info.version' "${FIXTURE}/packages/api-contract/openapi.json")" = "${NEXT_PATCH}" ] || \
+  fail "prepare did not regenerate the OpenAPI contract after updating versions"
+grep -Fq "regenerating OpenAPI and TypeScript contracts for ${NEXT_PATCH}" \
+  "${WORK_DIR}/prepare.txt" || \
+  fail "prepare did not report API contract regeneration"
+
+run_cli status >/dev/null
+run_cli check "${NEXT_PATCH}" >/dev/null
+expect_failure "Git worktrees must be clean" run_cli prepare minor
+
+sed -i.bak "s/default \"${NEXT_PATCH}\"/default \"0.0.0\"/" \
+  "${GO_FIXTURE}/Taskfile.yml"
+expect_failure "Go gateway versions are not aligned" \
+  run_cli gateway-check "${NEXT_PATCH}"
+
+sed -i.bak "s/default \"0.0.0\"/default \"${NEXT_PATCH}\"/" \
+  "${GO_FIXTURE}/Taskfile.yml"
+sed -E -i.bak \
+  's/ControlApiVersion_CONTROL_API_VERSION_CURRENT ControlApiVersion = [0-9]+/ControlApiVersion_CONTROL_API_VERSION_CURRENT ControlApiVersion = 999/' \
+  "${GO_FIXTURE}/pkg/grpc/pb/gateway.pb.go"
+expect_failure "does not match gateway.proto" run_cli gateway-check "${NEXT_PATCH}"
+
+printf '[test-release-cli] all release CLI tests passed\n'

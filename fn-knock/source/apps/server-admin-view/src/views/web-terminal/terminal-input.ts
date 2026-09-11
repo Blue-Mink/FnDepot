@@ -1,1 +1,166 @@
-aW1wb3J0IHsKICBBU0NJSV9URVJNSU5BTF9SRVNQT05TRV9QQVRURVJOLAogIExFR0FDWV9NT1VTRV9TRVFVRU5DRV9QUkVGSVgsCiAgUkVNT1RFX1JFU1BPTlNFX0NPREVQT0lOVF9TQU1QTEVfTElNSVQsCiAgdGV4dEVuY29kZXIsCn0gZnJvbSAiLi90ZXJtaW5hbC1ydW50aW1lIjsKCmV4cG9ydCBjb25zdCBlbmNvZGVJbnB1dFRvQmFzZTY0ID0gKHZhbHVlOiBzdHJpbmcpOiBzdHJpbmcgPT4gewogIGNvbnN0IGJ5dGVzID0gZW5jb2RlVGVybWluYWxJbnB1dFRvQnl0ZXModmFsdWUpOwogIGxldCBiaW5hcnkgPSAiIjsKICBieXRlcy5mb3JFYWNoKChieXRlKSA9PiB7CiAgICBiaW5hcnkgKz0gU3RyaW5nLmZyb21DaGFyQ29kZShieXRlKTsKICB9KTsKICByZXR1cm4gYnRvYShiaW5hcnkpOwp9OwoKY29uc3QgYXBwZW5kVXRmOEJ5dGVzID0gKHRhcmdldDogbnVtYmVyW10sIHZhbHVlOiBzdHJpbmcpOiB2b2lkID0+IHsKICB0ZXh0RW5jb2Rlci5lbmNvZGUodmFsdWUpLmZvckVhY2goKGJ5dGUpID0+IHRhcmdldC5wdXNoKGJ5dGUpKTsKfTsKCmV4cG9ydCBjb25zdCBlbmNvZGVUZXJtaW5hbElucHV0VG9CeXRlcyA9ICh2YWx1ZTogc3RyaW5nKTogVWludDhBcnJheSA9PiB7CiAgaWYgKCF2YWx1ZS5pbmNsdWRlcyhMRUdBQ1lfTU9VU0VfU0VRVUVOQ0VfUFJFRklYKSkgewogICAgcmV0dXJuIHRleHRFbmNvZGVyLmVuY29kZSh2YWx1ZSk7CiAgfQoKICBjb25zdCBieXRlczogbnVtYmVyW10gPSBbXTsKICBsZXQgY3Vyc29yID0gMDsKCiAgd2hpbGUgKGN1cnNvciA8IHZhbHVlLmxlbmd0aCkgewogICAgY29uc3Qgc2VxdWVuY2VTdGFydCA9IHZhbHVlLmluZGV4T2YoTEVHQUNZX01PVVNFX1NFUVVFTkNFX1BSRUZJWCwgY3Vyc29yKTsKICAgIGlmIChzZXF1ZW5jZVN0YXJ0ID09PSAtMSB8fCBzZXF1ZW5jZVN0YXJ0ICsgNiA+IHZhbHVlLmxlbmd0aCkgewogICAgICBhcHBlbmRVdGY4Qnl0ZXMoYnl0ZXMsIHZhbHVlLnNsaWNlKGN1cnNvcikpOwogICAgICBicmVhazsKICAgIH0KCiAgICBhcHBlbmRVdGY4Qnl0ZXMoYnl0ZXMsIHZhbHVlLnNsaWNlKGN1cnNvciwgc2VxdWVuY2VTdGFydCkpOwogICAgYnl0ZXMucHVzaCgweDFiLCAweDViLCAweDRkKTsKICAgIGZvciAobGV0IG9mZnNldCA9IDM7IG9mZnNldCA8IDY7IG9mZnNldCArPSAxKSB7CiAgICAgIGJ5dGVzLnB1c2godmFsdWUuY2hhckNvZGVBdChzZXF1ZW5jZVN0YXJ0ICsgb2Zmc2V0KSAmIDB4ZmYpOwogICAgfQogICAgY3Vyc29yID0gc2VxdWVuY2VTdGFydCArIDY7CiAgfQoKICByZXR1cm4gVWludDhBcnJheS5mcm9tKGJ5dGVzKTsKfTsKCmV4cG9ydCBjb25zdCBnZXRJbnB1dEJ5dGVMZW5ndGggPSAodmFsdWU6IHN0cmluZyk6IG51bWJlciA9PgogIGVuY29kZVRlcm1pbmFsSW5wdXRUb0J5dGVzKHZhbHVlKS5ieXRlTGVuZ3RoOwoKLyoqCiAqIFNwbGl0cyB0ZXJtaW5hbCBpbnB1dCB3aXRob3V0IGN1dHRpbmcgYSBVbmljb2RlIGNvZGUgcG9pbnQgb3IgdGhlIHNpeC1ieXRlCiAqIGxlZ2FjeSBYMTAgbW91c2Ugc2VxdWVuY2UgdW5kZXJzdG9vZCBieSBgZW5jb2RlVGVybWluYWxJbnB1dFRvQnl0ZXNgLgogKi8KZXhwb3J0IGNvbnN0IHNwbGl0VGVybWluYWxJbnB1dEJ5Qnl0ZUxlbmd0aCA9ICgKICB2YWx1ZTogc3RyaW5nLAogIG1heEJ5dGVzOiBudW1iZXIsCik6IHN0cmluZ1tdID0+IHsKICBpZiAoIXZhbHVlKSByZXR1cm4gW107CiAgaWYgKCFOdW1iZXIuaXNTYWZlSW50ZWdlcihtYXhCeXRlcykgfHwgbWF4Qnl0ZXMgPCAxKSB7CiAgICB0aHJvdyBuZXcgUmFuZ2VFcnJvcigiVGVybWluYWwgaW5wdXQgY2h1bmsgc2l6ZSBtdXN0IGJlIHBvc2l0aXZlIik7CiAgfQoKICBjb25zdCBjaHVua3M6IHN0cmluZ1tdID0gW107CiAgbGV0IGNodW5rID0gIiI7CiAgbGV0IGNodW5rQnl0ZXMgPSAwOwogIGxldCBjdXJzb3IgPSAwOwogIHdoaWxlIChjdXJzb3IgPCB2YWx1ZS5sZW5ndGgpIHsKICAgIGNvbnN0IGxlZ2FjeU1vdXNlU2VxdWVuY2UgPSB2YWx1ZS5zdGFydHNXaXRoKAogICAgICBMRUdBQ1lfTU9VU0VfU0VRVUVOQ0VfUFJFRklYLAogICAgICBjdXJzb3IsCiAgICApOwogICAgY29uc3QgdG9rZW5MZW5ndGggPSBsZWdhY3lNb3VzZVNlcXVlbmNlCiAgICAgID8gTWF0aC5taW4oNiwgdmFsdWUubGVuZ3RoIC0gY3Vyc29yKQogICAgICA6ICh2YWx1ZS5jb2RlUG9pbnRBdChjdXJzb3IpID8/IDApID4gMHhmZmZmCiAgICAgICAgPyAyCiAgICAgICAgOiAxOwogICAgY29uc3QgdG9rZW4gPSB2YWx1ZS5zbGljZShjdXJzb3IsIGN1cnNvciArIHRva2VuTGVuZ3RoKTsKICAgIGNvbnN0IHRva2VuQnl0ZXMgPSBnZXRJbnB1dEJ5dGVMZW5ndGgodG9rZW4pOwogICAgaWYgKGNodW5rICYmIGNodW5rQnl0ZXMgKyB0b2tlbkJ5dGVzID4gbWF4Qnl0ZXMpIHsKICAgICAgY2h1bmtzLnB1c2goY2h1bmspOwogICAgICBjaHVuayA9ICIiOwogICAgICBjaHVua0J5dGVzID0gMDsKICAgIH0KICAgIC8vIGBtYXhCeXRlc2AgaXMgbXVjaCBsYXJnZXIgdGhhbiBldmVyeSBhdG9taWMgdG9rZW4gaW4gcHJvZHVjdGlvbi4gS2VlcAogICAgLy8gdGhpcyBicmFuY2ggdG90YWwgZm9yIGNhbGxlcnMgdXNpbmcgYSBzbWFsbGVyIHZhbHVlIGluIHRlc3RzIG9yIHRvb2xzLgogICAgaWYgKCFjaHVuayAmJiB0b2tlbkJ5dGVzID4gbWF4Qnl0ZXMpIHsKICAgICAgY2h1bmtzLnB1c2godG9rZW4pOwogICAgfSBlbHNlIHsKICAgICAgY2h1bmsgKz0gdG9rZW47CiAgICAgIGNodW5rQnl0ZXMgKz0gdG9rZW5CeXRlczsKICAgIH0KICAgIGN1cnNvciArPSB0b2tlbkxlbmd0aDsKICB9CiAgaWYgKGNodW5rKSBjaHVua3MucHVzaChjaHVuayk7CiAgcmV0dXJuIGNodW5rczsKfTsKCmNvbnN0IGhhc0FzY2lpQ29udHJvbEJ5dGUgPSAodmFsdWU6IHN0cmluZyk6IGJvb2xlYW4gPT4gewogIGZvciAobGV0IGluZGV4ID0gMDsgaW5kZXggPCB2YWx1ZS5sZW5ndGg7IGluZGV4ICs9IDEpIHsKICAgIGNvbnN0IGNvZGUgPSB2YWx1ZS5jaGFyQ29kZUF0KGluZGV4KTsKICAgIGlmIChjb2RlIDwgMHgyMCB8fCBjb2RlID09PSAweDdmKSB7CiAgICAgIHJldHVybiB0cnVlOwogICAgfQogIH0KICByZXR1cm4gZmFsc2U7Cn07CgpleHBvcnQgY29uc3QgaXNTYWZlUmVtb3RlVGVybWluYWxSZXNwb25zZSA9ICh2YWx1ZTogc3RyaW5nKTogYm9vbGVhbiA9PgogIHZhbHVlLmxlbmd0aCA+IDAgJiYKICBBU0NJSV9URVJNSU5BTF9SRVNQT05TRV9QQVRURVJOLnRlc3QodmFsdWUpICYmCiAgKHZhbHVlLmluY2x1ZGVzKCJcdTAwMWIiKSB8fCBoYXNBc2NpaUNvbnRyb2xCeXRlKHZhbHVlKSk7CgpleHBvcnQgY29uc3Qgc3VtbWFyaXplVGVybWluYWxSZXNwb25zZUNvZGVQb2ludHMgPSAodmFsdWU6IHN0cmluZyk6IHN0cmluZyA9PgogIEFycmF5LmZyb20odmFsdWUpCiAgICAuc2xpY2UoMCwgUkVNT1RFX1JFU1BPTlNFX0NPREVQT0lOVF9TQU1QTEVfTElNSVQpCiAgICAubWFwKChjaGFyKSA9PiBgVSske2NoYXIuY29kZVBvaW50QXQoMCk/LnRvU3RyaW5nKDE2KS50b1VwcGVyQ2FzZSgpfWApCiAgICAuam9pbigiICIpOwoKZXhwb3J0IGNvbnN0IGRlY29kZUJhc2U2NFRvQnl0ZXMgPSAodmFsdWU6IHN0cmluZyk6IFVpbnQ4QXJyYXkgPT4gewogIGNvbnN0IGJpbmFyeSA9IGF0b2IodmFsdWUpOwogIGNvbnN0IGJ5dGVzID0gbmV3IFVpbnQ4QXJyYXkoYmluYXJ5Lmxlbmd0aCk7CiAgZm9yIChsZXQgaW5kZXggPSAwOyBpbmRleCA8IGJpbmFyeS5sZW5ndGg7IGluZGV4ICs9IDEpIHsKICAgIGJ5dGVzW2luZGV4XSA9IGJpbmFyeS5jaGFyQ29kZUF0KGluZGV4KTsKICB9CiAgcmV0dXJuIGJ5dGVzOwp9OwoKZXhwb3J0IGNvbnN0IGJ1aWxkVGVybWluYWxTaXplS2V5ID0gKGNvbHM6IG51bWJlciwgcm93czogbnVtYmVyKTogc3RyaW5nID0+CiAgYCR7Y29sc314JHtyb3dzfWA7CgpleHBvcnQgY29uc3QgZW5jb2RlQ3RybElucHV0ID0gKHZhbHVlOiBzdHJpbmcpOiBzdHJpbmcgfCBudWxsID0+IHsKICBpZiAodmFsdWUubGVuZ3RoICE9PSAxKSByZXR1cm4gbnVsbDsKICBjb25zdCBkaXJlY3RNYXA6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgICAiICI6ICJcdTAwMDAiLAogICAgIkAiOiAiXHUwMDAwIiwKICAgICJgIjogIlx1MDAwMCIsCiAgICAiMiI6ICJcdTAwMDAiLAogICAgIlsiOiAiXHUwMDFiIiwKICAgICJ7IjogIlx1MDAxYiIsCiAgICAiMyI6ICJcdTAwMWIiLAogICAgIlxcIjogIlx1MDAxYyIsCiAgICAifCI6ICJcdTAwMWMiLAogICAgIjQiOiAiXHUwMDFjIiwKICAgICJdIjogIlx1MDAxZCIsCiAgICAifSI6ICJcdTAwMWQiLAogICAgIjUiOiAiXHUwMDFkIiwKICAgICJeIjogIlx1MDAxZSIsCiAgICAifiI6ICJcdTAwMWUiLAogICAgIjYiOiAiXHUwMDFlIiwKICAgIF86ICJcdTAwMWYiLAogICAgIjciOiAiXHUwMDFmIiwKICAgICI/IjogIlx1MDA3ZiIsCiAgICAiOCI6ICJcdTAwN2YiLAogIH07CgogIGlmIChkaXJlY3RNYXBbdmFsdWVdKSB7CiAgICByZXR1cm4gZGlyZWN0TWFwW3ZhbHVlXTsKICB9CgogIGNvbnN0IGNvZGUgPSB2YWx1ZS50b1VwcGVyQ2FzZSgpLmNoYXJDb2RlQXQoMCk7CiAgaWYgKGNvZGUgPj0gNjUgJiYgY29kZSA8PSA5MCkgewogICAgcmV0dXJuIFN0cmluZy5mcm9tQ2hhckNvZGUoY29kZSAtIDY0KTsKICB9CgogIHJldHVybiBudWxsOwp9Owo=
+import {
+  ASCII_TERMINAL_RESPONSE_PATTERN,
+  LEGACY_MOUSE_SEQUENCE_PREFIX,
+  REMOTE_RESPONSE_CODEPOINT_SAMPLE_LIMIT,
+  textEncoder,
+} from "./terminal-runtime";
+
+export const encodeInputToBase64 = (value: string): string => {
+  const bytes = encodeTerminalInputToBytes(value);
+  let binary = "";
+  bytes.forEach((byte) => {
+    binary += String.fromCharCode(byte);
+  });
+  return btoa(binary);
+};
+
+const appendUtf8Bytes = (target: number[], value: string): void => {
+  textEncoder.encode(value).forEach((byte) => target.push(byte));
+};
+
+export const encodeTerminalInputToBytes = (value: string): Uint8Array => {
+  if (!value.includes(LEGACY_MOUSE_SEQUENCE_PREFIX)) {
+    return textEncoder.encode(value);
+  }
+
+  const bytes: number[] = [];
+  let cursor = 0;
+
+  while (cursor < value.length) {
+    const sequenceStart = value.indexOf(LEGACY_MOUSE_SEQUENCE_PREFIX, cursor);
+    if (sequenceStart === -1 || sequenceStart + 6 > value.length) {
+      appendUtf8Bytes(bytes, value.slice(cursor));
+      break;
+    }
+
+    appendUtf8Bytes(bytes, value.slice(cursor, sequenceStart));
+    bytes.push(0x1b, 0x5b, 0x4d);
+    for (let offset = 3; offset < 6; offset += 1) {
+      bytes.push(value.charCodeAt(sequenceStart + offset) & 0xff);
+    }
+    cursor = sequenceStart + 6;
+  }
+
+  return Uint8Array.from(bytes);
+};
+
+export const getInputByteLength = (value: string): number =>
+  encodeTerminalInputToBytes(value).byteLength;
+
+/**
+ * Splits terminal input without cutting a Unicode code point or the six-byte
+ * legacy X10 mouse sequence understood by `encodeTerminalInputToBytes`.
+ */
+export const splitTerminalInputByByteLength = (
+  value: string,
+  maxBytes: number,
+): string[] => {
+  if (!value) return [];
+  if (!Number.isSafeInteger(maxBytes) || maxBytes < 1) {
+    throw new RangeError("Terminal input chunk size must be positive");
+  }
+
+  const chunks: string[] = [];
+  let chunk = "";
+  let chunkBytes = 0;
+  let cursor = 0;
+  while (cursor < value.length) {
+    const legacyMouseSequence = value.startsWith(
+      LEGACY_MOUSE_SEQUENCE_PREFIX,
+      cursor,
+    );
+    const tokenLength = legacyMouseSequence
+      ? Math.min(6, value.length - cursor)
+      : (value.codePointAt(cursor) ?? 0) > 0xffff
+        ? 2
+        : 1;
+    const token = value.slice(cursor, cursor + tokenLength);
+    const tokenBytes = getInputByteLength(token);
+    if (chunk && chunkBytes + tokenBytes > maxBytes) {
+      chunks.push(chunk);
+      chunk = "";
+      chunkBytes = 0;
+    }
+    // `maxBytes` is much larger than every atomic token in production. Keep
+    // this branch total for callers using a smaller value in tests or tools.
+    if (!chunk && tokenBytes > maxBytes) {
+      chunks.push(token);
+    } else {
+      chunk += token;
+      chunkBytes += tokenBytes;
+    }
+    cursor += tokenLength;
+  }
+  if (chunk) chunks.push(chunk);
+  return chunks;
+};
+
+const hasAsciiControlByte = (value: string): boolean => {
+  for (let index = 0; index < value.length; index += 1) {
+    const code = value.charCodeAt(index);
+    if (code < 0x20 || code === 0x7f) {
+      return true;
+    }
+  }
+  return false;
+};
+
+export const isSafeRemoteTerminalResponse = (value: string): boolean =>
+  value.length > 0 &&
+  ASCII_TERMINAL_RESPONSE_PATTERN.test(value) &&
+  (value.includes("\u001b") || hasAsciiControlByte(value));
+
+export const summarizeTerminalResponseCodePoints = (value: string): string =>
+  Array.from(value)
+    .slice(0, REMOTE_RESPONSE_CODEPOINT_SAMPLE_LIMIT)
+    .map((char) => `U+${char.codePointAt(0)?.toString(16).toUpperCase()}`)
+    .join(" ");
+
+export const decodeBase64ToBytes = (value: string): Uint8Array => {
+  const binary = atob(value);
+  const bytes = new Uint8Array(binary.length);
+  for (let index = 0; index < binary.length; index += 1) {
+    bytes[index] = binary.charCodeAt(index);
+  }
+  return bytes;
+};
+
+export const buildTerminalSizeKey = (cols: number, rows: number): string =>
+  `${cols}x${rows}`;
+
+export const encodeCtrlInput = (value: string): string | null => {
+  if (value.length !== 1) return null;
+  const directMap: Record<string, string> = {
+    " ": "\u0000",
+    "@": "\u0000",
+    "`": "\u0000",
+    "2": "\u0000",
+    "[": "\u001b",
+    "{": "\u001b",
+    "3": "\u001b",
+    "\\": "\u001c",
+    "|": "\u001c",
+    "4": "\u001c",
+    "]": "\u001d",
+    "}": "\u001d",
+    "5": "\u001d",
+    "^": "\u001e",
+    "~": "\u001e",
+    "6": "\u001e",
+    _: "\u001f",
+    "7": "\u001f",
+    "?": "\u007f",
+    "8": "\u007f",
+  };
+
+  if (directMap[value]) {
+    return directMap[value];
+  }
+
+  const code = value.toUpperCase().charCodeAt(0);
+  if (code >= 65 && code <= 90) {
+    return String.fromCharCode(code - 64);
+  }
+
+  return null;
+};

@@ -1,1 +1,39 @@
-PHRlbXBsYXRlPgogIDxhCiAgICBocmVmPSIjbWFpbi1jb250ZW50IgogICAgY2xhc3M9InNyLW9ubHkgZml4ZWQgbGVmdC00IHRvcC00IHotWzEwMF0gcm91bmRlZC1tZCBiZy1iYWNrZ3JvdW5kIHB4LTQgcHktMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZm9yZWdyb3VuZCBzaGFkb3ctbGcgZm9jdXM6bm90LXNyLW9ubHkgZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOnJpbmctMiBmb2N1czpyaW5nLXJpbmciCiAgICBAY2xpY2sucHJldmVudD0iZm9jdXNNYWluQ29udGVudCIKICA+CiAgICB7eyB0KCJhZG1pbi5uYXYuc2tpcFRvQ29udGVudCIpIH19CiAgPC9hPgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IG5leHRUaWNrLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICByb3V0ZVBhdGg6IHN0cmluZzsKICBwYWdlTGFiZWw6IHN0cmluZzsKICBpc0xpdGU6IGJvb2xlYW47Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IGZvY3VzTWFpbkNvbnRlbnQgPSAoKSA9PiB7CiAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoIm1haW4tY29udGVudCIpPy5mb2N1cyh7IHByZXZlbnRTY3JvbGw6IHRydWUgfSk7Cn07Cgp3YXRjaCgKICAoKSA9PiBwcm9wcy5yb3V0ZVBhdGgsCiAgKCkgPT4gdm9pZCBuZXh0VGljayhmb2N1c01haW5Db250ZW50KSwKKTsKCndhdGNoKAogICgpID0+IFtwcm9wcy5wYWdlTGFiZWwsIHByb3BzLmlzTGl0ZV0gYXMgY29uc3QsCiAgKFtsYWJlbCwgaXNMaXRlXSkgPT4gewogICAgZG9jdW1lbnQudGl0bGUgPSBgJHtsYWJlbH0gwrcgJHtpc0xpdGUgPyAiZm4ta25vY2sgTGl0ZSIgOiAiZm4ta25vY2sifWA7CiAgfSwKICB7IGltbWVkaWF0ZTogdHJ1ZSB9LAopOwo8L3NjcmlwdD4K
+<template>
+  <a
+    href="#main-content"
+    class="sr-only fixed left-4 top-4 z-[100] rounded-md bg-background px-4 py-2 text-sm font-medium text-foreground shadow-lg focus:not-sr-only focus:outline-none focus:ring-2 focus:ring-ring"
+    @click.prevent="focusMainContent"
+  >
+    {{ t("admin.nav.skipToContent") }}
+  </a>
+</template>
+
+<script setup lang="ts">
+import { nextTick, watch } from "vue";
+import { useI18n } from "vue-i18n";
+
+const props = defineProps<{
+  routePath: string;
+  pageLabel: string;
+  isLite: boolean;
+}>();
+
+const { t } = useI18n();
+
+const focusMainContent = () => {
+  document.getElementById("main-content")?.focus({ preventScroll: true });
+};
+
+watch(
+  () => props.routePath,
+  () => void nextTick(focusMainContent),
+);
+
+watch(
+  () => [props.pageLabel, props.isLite] as const,
+  ([label, isLite]) => {
+    document.title = `${label} · ${isLite ? "fn-knock Lite" : "fn-knock"}`;
+  },
+  { immediate: true },
+);
+</script>

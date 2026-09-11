@@ -1,1 +1,194 @@
-dXNlIHNlcmRlX2pzb246OntWYWx1ZSwganNvbn07CnVzZSB0aW1lOjp7RHVyYXRpb24sIE9mZnNldERhdGVUaW1lLCBmb3JtYXRfZGVzY3JpcHRpb246OndlbGxfa25vd246OlJmYzMzMzl9OwoKdXNlIGNyYXRlOjpzdGF0ZTo6QXBwU3RhdGU7Cgp1c2Ugc3VwZXI6Om1vZGVsOjp7TWFuYWdlZFN0YXRlLCBQYW5lbENvbm5lY3Rpb24sIFJ1blN1bW1hcnksIFN5bmNSdW59OwoKY29uc3QgQ09OTkVDVElPTlNfS0VZOiAmc3RyID0gImZuX2tub2NrOnBhbmVsX3N5bmM6Y29ubmVjdGlvbnMiOwpjb25zdCBNQU5BR0VEX1BSRUZJWDogJnN0ciA9ICJmbl9rbm9jazpwYW5lbF9zeW5jOm1hbmFnZWQ6IjsKcHViIGNvbnN0IFJVTlRJTUVfUFJFRklYOiAmc3RyID0gImZuX2tub2NrOnBhbmVsX3N5bmM6cnVudGltZToiOwpjb25zdCBSVU5fVFRMX1NFQ09ORFM6IHVzaXplID0gMzAgKiAyNCAqIDYwICogNjA7CgpwdWIgc3RydWN0IFJlcG9zaXRvcnk8J2E+IHsKICAgIHN0YXRlOiAmJ2EgQXBwU3RhdGUsCn0KCmltcGw8J2E+IFJlcG9zaXRvcnk8J2E+IHsKICAgIHB1YiBmbiBuZXcoc3RhdGU6ICYnYSBBcHBTdGF0ZSkgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7IHN0YXRlIH0KICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gY29ubmVjdGlvbnMoJnNlbGYpIC0+IFJlc3VsdDxWZWM8UGFuZWxDb25uZWN0aW9uPiwgU3RyaW5nPiB7CiAgICAgICAgbGV0IHZhbHVlID0gc2VsZgogICAgICAgICAgICAuc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5nZXRfanNvbl92YWx1ZShDT05ORUNUSU9OU19LRVkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICAgICAgdmFsdWUKICAgICAgICAgICAgLm1hcChzZXJkZV9qc29uOjpmcm9tX3ZhbHVlKQogICAgICAgICAgICAudHJhbnNwb3NlKCkKICAgICAgICAgICAgLm1hcCh8dmFsdWV8IHZhbHVlLnVud3JhcF9vcl9kZWZhdWx0KCkpCiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZm9ybWF0ISgi6Z2i5p2/6L+e5o6l6YWN572u5bey5o2f5Z2POiB7ZXJyb3J9IikpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIGNvbm5lY3Rpb24oJnNlbGYsIGlkOiAmc3RyKSAtPiBSZXN1bHQ8T3B0aW9uPFBhbmVsQ29ubmVjdGlvbj4sIFN0cmluZz4gewogICAgICAgIE9rKHNlbGYKICAgICAgICAgICAgLmNvbm5lY3Rpb25zKCkKICAgICAgICAgICAgLmF3YWl0PwogICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgLmZpbmQofGl0ZW18IGl0ZW0uaWQgPT0gaWQpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBzYXZlX2Nvbm5lY3Rpb25zKCZzZWxmLCBjb25uZWN0aW9uczogJltQYW5lbENvbm5lY3Rpb25dKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgICAgIHNlbGYuc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5zZXRfanNvbl92YWx1ZSgKICAgICAgICAgICAgICAgIENPTk5FQ1RJT05TX0tFWSwKICAgICAgICAgICAgICAgICZzZXJkZV9qc29uOjp0b192YWx1ZShjb25uZWN0aW9ucykudW53cmFwX29yKFZhbHVlOjpBcnJheShWZWM6Om5ldygpKSksCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIG1hbmFnZWQoJnNlbGYsIGlkOiAmc3RyKSAtPiBSZXN1bHQ8TWFuYWdlZFN0YXRlLCBTdHJpbmc+IHsKICAgICAgICBzZWxmLnN0YXRlCiAgICAgICAgICAgIC5zdG9yYWdlCiAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAuZ2V0X2pzb25fdmFsdWUoJmZvcm1hdCEoIntNQU5BR0VEX1BSRUZJWH17aWR9IikpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT8KICAgICAgICAgICAgLm1hcChzZXJkZV9qc29uOjpmcm9tX3ZhbHVlKQogICAgICAgICAgICAudHJhbnNwb3NlKCkKICAgICAgICAgICAgLm1hcCh8dmFsdWV8IHZhbHVlLnVud3JhcF9vcl9kZWZhdWx0KCkpCiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZm9ybWF0ISgi6Z2i5p2/5omA5pyJ5p2D54q25oCB5bey5o2f5Z2POiB7ZXJyb3J9IikpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIHNhdmVfbWFuYWdlZCgmc2VsZiwgaWQ6ICZzdHIsIG1hbmFnZWQ6ICZNYW5hZ2VkU3RhdGUpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICAgICAgc2VsZi5zdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnNldF9qc29uX3ZhbHVlKAogICAgICAgICAgICAgICAgJmZvcm1hdCEoIntNQU5BR0VEX1BSRUZJWH17aWR9IiksCiAgICAgICAgICAgICAgICAmc2VyZGVfanNvbjo6dG9fdmFsdWUobWFuYWdlZCkudW53cmFwX29yKGpzb24hKHt9KSksCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIGNsZWFyX21hbmFnZWQoJnNlbGYsIGlkOiAmc3RyKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgICAgIHNlbGYuc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5kZWxldGVfa2V5KCZmb3JtYXQhKCJ7TUFOQUdFRF9QUkVGSVh9e2lkfSIpKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gc2F2ZV9ydW4oJnNlbGYsIHJ1bjogJlN5bmNSdW4pIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICAgICAgc2VsZi5zdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnNldF9qc29uX3ZhbHVlX2V4KAogICAgICAgICAgICAgICAgJnJ1bl9rZXkoJnJ1bi5pZCksCiAgICAgICAgICAgICAgICAmc2VyZGVfanNvbjo6dG9fdmFsdWUocnVuKS51bndyYXBfb3IoanNvbiEoe30pKSwKICAgICAgICAgICAgICAgIFJVTl9UVExfU0VDT05EUywKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgICAgIGxldCBpbmRleF9rZXkgPSBydW5faW5kZXhfa2V5KCZydW4uY29ubmVjdGlvbl9pZCk7CiAgICAgICAgbGV0IG11dCBpZHMgPSBzZWxmCiAgICAgICAgICAgIC5zdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLmdldF9qc29uX3ZhbHVlKCZpbmRleF9rZXkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT8KICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgc2VyZGVfanNvbjo6ZnJvbV92YWx1ZTo6PFZlYzxTdHJpbmc+Pih2YWx1ZSkub2soKSkKICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICAgICAgaWRzLnJldGFpbih8aWR8IGlkICE9ICZydW4uaWQpOwogICAgICAgIGlkcy5pbnNlcnQoMCwgcnVuLmlkLmNsb25lKCkpOwogICAgICAgIGxldCBldmljdGVkID0gaWYgaWRzLmxlbigpID4gMjAgewogICAgICAgICAgICBpZHMuc3BsaXRfb2ZmKDIwKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIFZlYzo6bmV3KCkKICAgICAgICB9OwogICAgICAgIHNlbGYuc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5zZXRfanNvbl92YWx1ZV9leCgmaW5kZXhfa2V5LCAmanNvbiEoaWRzKSwgUlVOX1RUTF9TRUNPTkRTKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgICAgIGZvciBpZCBpbiBldmljdGVkIHsKICAgICAgICAgICAgc2VsZi5zdGF0ZQogICAgICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAgICAgLmRlbGV0ZV9rZXkoJnJ1bl9rZXkoJmlkKSkKICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgICAgIH0KICAgICAgICBPaygoKSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gcnVuKCZzZWxmLCBpZDogJnN0cikgLT4gUmVzdWx0PE9wdGlvbjxTeW5jUnVuPiwgU3RyaW5nPiB7CiAgICAgICAgc2VsZi5zdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLmdldF9qc29uX3ZhbHVlKCZydW5fa2V5KGlkKSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPwogICAgICAgICAgICAubWFwKHNlcmRlX2pzb246OmZyb21fdmFsdWUpCiAgICAgICAgICAgIC50cmFuc3Bvc2UoKQogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBydW5zKCZzZWxmLCBjb25uZWN0aW9uX2lkOiAmc3RyKSAtPiBSZXN1bHQ8VmVjPFN5bmNSdW4+LCBTdHJpbmc+IHsKICAgICAgICBsZXQgaWRzID0gc2VsZgogICAgICAgICAgICAuc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5nZXRfanNvbl92YWx1ZSgmcnVuX2luZGV4X2tleShjb25uZWN0aW9uX2lkKSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPwogICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCBzZXJkZV9qc29uOjpmcm9tX3ZhbHVlOjo8VmVjPFN0cmluZz4+KHZhbHVlKS5vaygpKQogICAgICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgICAgICBsZXQgbXV0IHJ1bnMgPSBWZWM6Om5ldygpOwogICAgICAgIGZvciBpZCBpbiBpZHMuaW50b19pdGVyKCkudGFrZSgyMCkgewogICAgICAgICAgICBpZiBsZXQgU29tZShydW4pID0gc2VsZi5ydW4oJmlkKS5hd2FpdD8gewogICAgICAgICAgICAgICAgcnVucy5wdXNoKHJ1bik7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgT2socnVucykKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gZGVjb3JhdGUoCiAgICAgICAgJnNlbGYsCiAgICAgICAgbXV0IGNvbm5lY3Rpb246IFBhbmVsQ29ubmVjdGlvbiwKICAgICkgLT4gUmVzdWx0PFBhbmVsQ29ubmVjdGlvbiwgU3RyaW5nPiB7CiAgICAgICAgbGV0IHJ1bnMgPSBzZWxmLnJ1bnMoJmNvbm5lY3Rpb24uaWQpLmF3YWl0PzsKICAgICAgICBjb25uZWN0aW9uLmxhc3RfcnVuID0gcnVucy5maXJzdCgpLm1hcChSdW5TdW1tYXJ5Ojpmcm9tKTsKICAgICAgICBjb25uZWN0aW9uLm5leHRfc3luY19hdCA9CiAgICAgICAgICAgIGlmIGNvbm5lY3Rpb24uYXV0b19zeW5jLmVuYWJsZWQgJiYgY29ubmVjdGlvbi52ZXJpZmllZF9hdC5pc19zb21lKCkgewogICAgICAgICAgICAgICAgbGV0IGJhc2UgPSBydW5zCiAgICAgICAgICAgICAgICAgICAgLmZpcnN0KCkKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofHJ1bnwgT2Zmc2V0RGF0ZVRpbWU6OnBhcnNlKCZydW4uc3RhcnRlZF9hdCwgJlJmYzMzMzkpLm9rKCkpCiAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKE9mZnNldERhdGVUaW1lOjpub3dfdXRjKTsKICAgICAgICAgICAgICAgIChiYXNlICsgRHVyYXRpb246Om1pbnV0ZXMoY29ubmVjdGlvbi5hdXRvX3N5bmMuaW50ZXJ2YWxfbWludXRlcy5pbnRvKCkpKQogICAgICAgICAgICAgICAgICAgIC5mb3JtYXQoJlJmYzMzMzkpCiAgICAgICAgICAgICAgICAgICAgLm9rKCkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIE5vbmUKICAgICAgICAgICAgfTsKICAgICAgICBPayhjb25uZWN0aW9uKQogICAgfQp9CgpmbiBydW5fa2V5KGlkOiAmc3RyKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgie1JVTlRJTUVfUFJFRklYfXJ1bjp7aWR9IikKfQpmbiBydW5faW5kZXhfa2V5KGlkOiAmc3RyKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgie1JVTlRJTUVfUFJFRklYfWNvbm5lY3Rpb246e2lkfTpydW5zIikKfQo=
+use serde_json::{Value, json};
+use time::{Duration, OffsetDateTime, format_description::well_known::Rfc3339};
+
+use crate::state::AppState;
+
+use super::model::{ManagedState, PanelConnection, RunSummary, SyncRun};
+
+const CONNECTIONS_KEY: &str = "fn_knock:panel_sync:connections";
+const MANAGED_PREFIX: &str = "fn_knock:panel_sync:managed:";
+pub const RUNTIME_PREFIX: &str = "fn_knock:panel_sync:runtime:";
+const RUN_TTL_SECONDS: usize = 30 * 24 * 60 * 60;
+
+pub struct Repository<'a> {
+    state: &'a AppState,
+}
+
+impl<'a> Repository<'a> {
+    pub fn new(state: &'a AppState) -> Self {
+        Self { state }
+    }
+
+    pub async fn connections(&self) -> Result<Vec<PanelConnection>, String> {
+        let value = self
+            .state
+            .storage
+            .store
+            .get_json_value(CONNECTIONS_KEY)
+            .await
+            .map_err(|error| error.to_string())?;
+        value
+            .map(serde_json::from_value)
+            .transpose()
+            .map(|value| value.unwrap_or_default())
+            .map_err(|error| format!("面板连接配置已损坏: {error}"))
+    }
+
+    pub async fn connection(&self, id: &str) -> Result<Option<PanelConnection>, String> {
+        Ok(self
+            .connections()
+            .await?
+            .into_iter()
+            .find(|item| item.id == id))
+    }
+
+    pub async fn save_connections(&self, connections: &[PanelConnection]) -> Result<(), String> {
+        self.state
+            .storage
+            .store
+            .set_json_value(
+                CONNECTIONS_KEY,
+                &serde_json::to_value(connections).unwrap_or(Value::Array(Vec::new())),
+            )
+            .await
+            .map_err(|error| error.to_string())
+    }
+
+    pub async fn managed(&self, id: &str) -> Result<ManagedState, String> {
+        self.state
+            .storage
+            .store
+            .get_json_value(&format!("{MANAGED_PREFIX}{id}"))
+            .await
+            .map_err(|error| error.to_string())?
+            .map(serde_json::from_value)
+            .transpose()
+            .map(|value| value.unwrap_or_default())
+            .map_err(|error| format!("面板所有权状态已损坏: {error}"))
+    }
+
+    pub async fn save_managed(&self, id: &str, managed: &ManagedState) -> Result<(), String> {
+        self.state
+            .storage
+            .store
+            .set_json_value(
+                &format!("{MANAGED_PREFIX}{id}"),
+                &serde_json::to_value(managed).unwrap_or(json!({})),
+            )
+            .await
+            .map_err(|error| error.to_string())
+    }
+
+    pub async fn clear_managed(&self, id: &str) -> Result<(), String> {
+        self.state
+            .storage
+            .store
+            .delete_key(&format!("{MANAGED_PREFIX}{id}"))
+            .await
+            .map_err(|error| error.to_string())
+    }
+
+    pub async fn save_run(&self, run: &SyncRun) -> Result<(), String> {
+        self.state
+            .storage
+            .store
+            .set_json_value_ex(
+                &run_key(&run.id),
+                &serde_json::to_value(run).unwrap_or(json!({})),
+                RUN_TTL_SECONDS,
+            )
+            .await
+            .map_err(|error| error.to_string())?;
+        let index_key = run_index_key(&run.connection_id);
+        let mut ids = self
+            .state
+            .storage
+            .store
+            .get_json_value(&index_key)
+            .await
+            .map_err(|error| error.to_string())?
+            .and_then(|value| serde_json::from_value::<Vec<String>>(value).ok())
+            .unwrap_or_default();
+        ids.retain(|id| id != &run.id);
+        ids.insert(0, run.id.clone());
+        let evicted = if ids.len() > 20 {
+            ids.split_off(20)
+        } else {
+            Vec::new()
+        };
+        self.state
+            .storage
+            .store
+            .set_json_value_ex(&index_key, &json!(ids), RUN_TTL_SECONDS)
+            .await
+            .map_err(|error| error.to_string())?;
+        for id in evicted {
+            self.state
+                .storage
+                .store
+                .delete_key(&run_key(&id))
+                .await
+                .map_err(|error| error.to_string())?;
+        }
+        Ok(())
+    }
+
+    pub async fn run(&self, id: &str) -> Result<Option<SyncRun>, String> {
+        self.state
+            .storage
+            .store
+            .get_json_value(&run_key(id))
+            .await
+            .map_err(|error| error.to_string())?
+            .map(serde_json::from_value)
+            .transpose()
+            .map_err(|error| error.to_string())
+    }
+
+    pub async fn runs(&self, connection_id: &str) -> Result<Vec<SyncRun>, String> {
+        let ids = self
+            .state
+            .storage
+            .store
+            .get_json_value(&run_index_key(connection_id))
+            .await
+            .map_err(|error| error.to_string())?
+            .and_then(|value| serde_json::from_value::<Vec<String>>(value).ok())
+            .unwrap_or_default();
+        let mut runs = Vec::new();
+        for id in ids.into_iter().take(20) {
+            if let Some(run) = self.run(&id).await? {
+                runs.push(run);
+            }
+        }
+        Ok(runs)
+    }
+
+    pub async fn decorate(
+        &self,
+        mut connection: PanelConnection,
+    ) -> Result<PanelConnection, String> {
+        let runs = self.runs(&connection.id).await?;
+        connection.last_run = runs.first().map(RunSummary::from);
+        connection.next_sync_at =
+            if connection.auto_sync.enabled && connection.verified_at.is_some() {
+                let base = runs
+                    .first()
+                    .and_then(|run| OffsetDateTime::parse(&run.started_at, &Rfc3339).ok())
+                    .unwrap_or_else(OffsetDateTime::now_utc);
+                (base + Duration::minutes(connection.auto_sync.interval_minutes.into()))
+                    .format(&Rfc3339)
+                    .ok()
+            } else {
+                None
+            };
+        Ok(connection)
+    }
+}
+
+fn run_key(id: &str) -> String {
+    format!("{RUNTIME_PREFIX}run:{id}")
+}
+fn run_index_key(id: &str) -> String {
+    format!("{RUNTIME_PREFIX}connection:{id}:runs")
+}

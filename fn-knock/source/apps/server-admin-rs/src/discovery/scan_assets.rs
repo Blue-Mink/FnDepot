@@ -1,1 +1,175 @@
-dXNlIHN0ZDo6ewogICAgY29sbGVjdGlvbnM6OntCVHJlZVNldCwgSGFzaE1hcH0sCiAgICBlbnYsCiAgICBuZXQ6OntJcHY0QWRkciwgVG9Tb2NrZXRBZGRyc30sCiAgICBzeW5jOjp7CiAgICAgICAgQXJjLCBNdXRleCwgTXV0ZXhHdWFyZCwgT25jZUxvY2ssCiAgICAgICAgYXRvbWljOjp7QXRvbWljQm9vbCwgQXRvbWljVXNpemUsIE9yZGVyaW5nfSwKICAgIH0sCiAgICB0aW1lOjp7RHVyYXRpb24sIEluc3RhbnR9LAp9OwoKdXNlIGF4dW06OnsKICAgIEpzb24sIFJvdXRlciwKICAgIGV4dHJhY3Q6OntQYXRoLCBRdWVyeSwgU3RhdGV9LAogICAgaHR0cDo6e0hlYWRlck1hcCwgU3RhdHVzQ29kZX0sCiAgICByZXNwb25zZTo6e0ludG9SZXNwb25zZSwgUmVzcG9uc2V9LAp9Owp1c2Ugc2VyZGU6OkRlc2VyaWFsaXplOwp1c2Ugc2VyZGVfanNvbjo6e1ZhbHVlLCBqc29ufTsKdXNlIHRva2lvOjp7CiAgICBuZXQ6OlRjcFN0cmVhbSwKICAgIHN5bmM6OntOb3RpZnksIE93bmVkU2VtYXBob3JlUGVybWl0LCBTZW1hcGhvcmV9LAogICAgdGFzazo6Sm9pblNldCwKICAgIHRpbWU6OnRpbWVvdXQsCn07CnVzZSB1cmw6OlVybDsKdXNlIHV0b2lwYV9heHVtOjp7cm91dGVyOjpPcGVuQXBpUm91dGVyLCByb3V0ZXN9OwoKdXNlIGNyYXRlOjp7aTE4bjo6VHJhbnNsYXRvciwgbmV0X3V0aWxzLCByZXNwb25zZSwgcnVudGltZV9wcm9maWxlLCBzdGF0ZTo6QXBwU3RhdGV9OwoKbW9kIGFuYWx5emVyOwptb2QgaGFuZGxlcnM7Cm1vZCBob3N0X3Byb2JlOwptb2QgaW50ZW5zaXR5Owptb2Qgam9iczsKbW9kIG5ldHdvcms7Cm1vZCBydW5uZXI7Cm1vZCB0YXJnZXRzOwoKdXNlIGFuYWx5emVyOjoqOwp1c2UgaGFuZGxlcnM6Oio7CnVzZSBob3N0X3Byb2JlOjoqOwp1c2UgaW50ZW5zaXR5OjoqOwp1c2Ugam9iczo6KjsKdXNlIG5ldHdvcms6Oio7CnVzZSBydW5uZXI6Oio7CnVzZSB0YXJnZXRzOjoqOwoKI1tjZmcodGVzdCldCm1vZCB0ZXN0czsKCmNvbnN0IE1BWF9TQ0FOX0NJRFJTOiB1c2l6ZSA9IDE2Owpjb25zdCBNQVhfU0NBTl9IT1NUUzogdTY0ID0gMTAyNDsKY29uc3QgRE9DS0VSX0RJU0NPVkVSX0lQX0hFQURFUjogJnN0ciA9ICJ4LWZuLWtub2NrLWRvY2tlci1kaXNjb3Zlci1pcCI7CmNvbnN0IERPQ0tFUl9ESVNDT1ZFUl9DSURSU19IRUFERVI6ICZzdHIgPSAieC1mbi1rbm9jay1kb2NrZXItZGlzY292ZXItY2lkcnMiOwpjb25zdCBESVNDT1ZFUl9KT0JfQUNUSVZFX1RUTF9NUzogaTY0ID0gMzAgKiA2MCAqIDEwMDA7CmNvbnN0IERJU0NPVkVSX0pPQl9ET05FX1RUTF9NUzogaTY0ID0gNSAqIDYwICogMTAwMDsKY29uc3QgRElTQ09WRVJfSk9CX01BWF9BQ1RJVkU6IHVzaXplID0gNDsKY29uc3QgRElTQ09WRVJfSk9CX01BWF9SRVRBSU5FRDogdXNpemUgPSA2NDsKY29uc3QgTE9PUEJBQ0tfRElTQ09WRVJZX0hPU1Q6ICZzdHIgPSAiMTI3LjAuMC4xIjsKY29uc3QgRElTQ09WRVJZX1BPUlRfUkFOR0VfU1RBUlQ6IHUxNiA9IDgwOwpjb25zdCBESVNDT1ZFUllfUE9SVF9SQU5HRV9FTkQ6IHUxNiA9IDYwXzAwMDsKY29uc3QgRElTQ09WRVJZX1RJTUVPVVRfTVM6IHU2NCA9IDgwOwpjb25zdCBESVNDT1ZFUllfSFRUUF9USU1FT1VUX01TOiB1NjQgPSAyXzAwMDsKY29uc3QgRElTQ09WRVJZX0hUVFBfVVNFUl9BR0VOVDogJnN0ciA9ICJGbi1Lbm9jay1TY2FubmVyLzEuMCI7CmNvbnN0IE1BWF9ESVNDT1ZFUllfQVBJX1JFU1BPTlNFX0JZVEVTOiB1c2l6ZSA9IDI1NiAqIDEwMjQ7CmNvbnN0IE5FVFdPUktfSE9TVF9DT05DVVJSRU5DWTogdXNpemUgPSA2Owpjb25zdCBMT0NBTF9TRUxGX0RJU0NPVkVSWV9TS0lQX1BPUlRTOiAmW3UxNl0gPSAmWzgwXTsKCiNbZGVyaXZlKENsb25lLCBDb3B5KV0Kc3RydWN0IERpc2NvdmVyeVBvcnRSYW5nZSB7CiAgICBzdGFydDogdTE2LAogICAgZW5kOiB1MTYsCn0KCnN0cnVjdCBEaXNjb3ZlcnlIb3N0R3JvdXAgewogICAgaG9zdHM6IFZlYzxTdHJpbmc+LAogICAgc2tpcF9wb3J0czogVmVjPHUxNj4sCn0KCiNbZGVyaXZlKERlc2VyaWFsaXplKV0Kc3RydWN0IERpc2NvdmVyVGFyZ2V0c0JvZHkgewogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIGN1c3RvbV9jaWRyczogVmVjPFN0cmluZz4sCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgc2VsZWN0ZWRfY2lkcnM6IFZlYzxTdHJpbmc+LAp9CgojW2Rlcml2ZShEZXNlcmlhbGl6ZSldCnN0cnVjdCBEaXNjb3ZlckpvYkJvZHkgewogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHRhcmdldF9jaWRyczogVmVjPFN0cmluZz4sCn0KCiNbZGVyaXZlKERlc2VyaWFsaXplKV0Kc3RydWN0IERpc2NvdmVyU2V0dGluZ3NCb2R5IHsKICAgIGludGVuc2l0eV9tb2RlOiBTdHJpbmcsCiAgICBpbnRlbnNpdHlfbGV2ZWw6IFN0cmluZywKfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUpXQpzdHJ1Y3QgRGlzY292ZXJKb2JRdWVyeSB7CiAgICBjdXJzb3I6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShEZXNlcmlhbGl6ZSldCnN0cnVjdCBIb3N0TWFwcGluZ1Byb2JlQm9keSB7CiAgICBob3N0czogT3B0aW9uPFZlYzxTdHJpbmc+PiwKfQoKI1tkZXJpdmUoQ2xvbmUpXQpzdHJ1Y3QgUGFyc2VkSXB2NENpZHIgewogICAgY2lkcjogU3RyaW5nLAogICAgZmlyc3RfaG9zdDogdTMyLAogICAgbGFzdF9ob3N0OiB1MzIsCiAgICBob3N0X2NvdW50OiB1NjQsCn0KCnN0cnVjdCBEaXNjb3ZlckpvYiB7CiAgICBpZDogU3RyaW5nLAogICAgY2FuY2VsOiBBcmM8QXRvbWljQm9vbD4sCiAgICBjcmVhdGVkX2F0OiBpNjQsCiAgICB1cGRhdGVkX2F0OiBpNjQsCiAgICBzdGF0ZTogU3RyaW5nLAogICAgbWV0YTogT3B0aW9uPFZhbHVlPiwKICAgIHByb2dyZXNzOiBPcHRpb248VmFsdWU+LAogICAgc2VydmljZV9ldmVudHM6IFZlYzxWYWx1ZT4sCiAgICBzZXJ2aWNlX21hcDogVmVjPChTdHJpbmcsIFZhbHVlKT4sCiAgICByZXN1bHQ6IE9wdGlvbjxWYWx1ZT4sCiAgICBlcnJvcjogT3B0aW9uPFN0cmluZz4sCn0KCnR5cGUgRGlzY292ZXJKb2JIYW5kbGUgPSBBcmM8TXV0ZXg8RGlzY292ZXJKb2I+PjsKCnN0YXRpYyBESVNDT1ZFUl9KT0JTOiBPbmNlTG9jazxNdXRleDxIYXNoTWFwPFN0cmluZywgRGlzY292ZXJKb2JIYW5kbGU+Pj4gPSBPbmNlTG9jazo6bmV3KCk7CnN0YXRpYyBESVNDT1ZFUllfR0xPQkFMX1BST0JFX0JVREdFVDogT25jZUxvY2s8QXJjPEdsb2JhbFByb2JlQnVkZ2V0Pj4gPSBPbmNlTG9jazo6bmV3KCk7CgojW2Rlcml2ZShDbG9uZSldCnN0cnVjdCBEaXNjb3ZlcnlQcm94eVJ1bGUgewogICAgcGF0aDogU3RyaW5nLAogICAgcmV3cml0ZV9odG1sOiBib29sLAogICAgdXNlX3Jvb3RfbW9kZTogYm9vbCwKfQoKI1tkZXJpdmUoQ2xvbmUpXQpzdHJ1Y3QgRGlzY292ZXJ5QW5hbHl6ZXJSdWxlIHsKICAgIG5hbWU6IFN0cmluZywKICAgIGxhYmVsOiBTdHJpbmcsCiAgICBwcm94eTogRGlzY292ZXJ5UHJveHlSdWxlLAogICAgaXNfZGVmYXVsdDogYm9vbCwKfQoKc3RydWN0IERpc2NvdmVyeUh0dHBSZXN1bHQgewogICAgaG9zdDogU3RyaW5nLAogICAgcG9ydDogdTE2LAogICAgc3RhdHVzOiB1MTYsCiAgICBoZWFkZXJzOiBIYXNoTWFwPFN0cmluZywgU3RyaW5nPiwKICAgIGJvZHk6IFN0cmluZywKfQoKcHViIGZuIHNjYW5fYXNzZXRfcm91dGVzKCkgLT4gUm91dGVyPEFwcFN0YXRlPiB7CiAgICBzY2FuX2Fzc2V0X29wZW5hcGlfcm91dGVzKCkuaW50bygpCn0KCnB1YihjcmF0ZSkgZm4gc2Nhbl9hc3NldF9vcGVuYXBpX3JvdXRlcygpIC0+IE9wZW5BcGlSb3V0ZXI8QXBwU3RhdGU+IHsKICAgIE9wZW5BcGlSb3V0ZXI6Om5ldygpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF9kaXNjb3Zlcl90YXJnZXRzKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoc2F2ZV9kaXNjb3Zlcl90YXJnZXRzKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoZ2V0X2Rpc2NvdmVyX3NldHRpbmdzKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoc2F2ZV9kaXNjb3Zlcl9zZXR0aW5ncykpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHN0YXJ0X2Rpc2NvdmVyX2pvYikpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF9kaXNjb3Zlcl9qb2IpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShjYW5jZWxfZGlzY292ZXJfam9iX3JvdXRlKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEocHJvYmVfaG9zdF9tYXBwaW5ncykpCn0K
+use std::{
+    collections::{BTreeSet, HashMap},
+    env,
+    net::{Ipv4Addr, ToSocketAddrs},
+    sync::{
+        Arc, Mutex, MutexGuard, OnceLock,
+        atomic::{AtomicBool, AtomicUsize, Ordering},
+    },
+    time::{Duration, Instant},
+};
+
+use axum::{
+    Json, Router,
+    extract::{Path, Query, State},
+    http::{HeaderMap, StatusCode},
+    response::{IntoResponse, Response},
+};
+use serde::Deserialize;
+use serde_json::{Value, json};
+use tokio::{
+    net::TcpStream,
+    sync::{Notify, OwnedSemaphorePermit, Semaphore},
+    task::JoinSet,
+    time::timeout,
+};
+use url::Url;
+use utoipa_axum::{router::OpenApiRouter, routes};
+
+use crate::{i18n::Translator, net_utils, response, runtime_profile, state::AppState};
+
+mod analyzer;
+mod handlers;
+mod host_probe;
+mod intensity;
+mod jobs;
+mod network;
+mod runner;
+mod targets;
+
+use analyzer::*;
+use handlers::*;
+use host_probe::*;
+use intensity::*;
+use jobs::*;
+use network::*;
+use runner::*;
+use targets::*;
+
+#[cfg(test)]
+mod tests;
+
+const MAX_SCAN_CIDRS: usize = 16;
+const MAX_SCAN_HOSTS: u64 = 1024;
+const DOCKER_DISCOVER_IP_HEADER: &str = "x-fn-knock-docker-discover-ip";
+const DOCKER_DISCOVER_CIDRS_HEADER: &str = "x-fn-knock-docker-discover-cidrs";
+const DISCOVER_JOB_ACTIVE_TTL_MS: i64 = 30 * 60 * 1000;
+const DISCOVER_JOB_DONE_TTL_MS: i64 = 5 * 60 * 1000;
+const DISCOVER_JOB_MAX_ACTIVE: usize = 4;
+const DISCOVER_JOB_MAX_RETAINED: usize = 64;
+const LOOPBACK_DISCOVERY_HOST: &str = "127.0.0.1";
+const DISCOVERY_PORT_RANGE_START: u16 = 80;
+const DISCOVERY_PORT_RANGE_END: u16 = 60_000;
+const DISCOVERY_TIMEOUT_MS: u64 = 80;
+const DISCOVERY_HTTP_TIMEOUT_MS: u64 = 2_000;
+const DISCOVERY_HTTP_USER_AGENT: &str = "Fn-Knock-Scanner/1.0";
+const MAX_DISCOVERY_API_RESPONSE_BYTES: usize = 256 * 1024;
+const NETWORK_HOST_CONCURRENCY: usize = 6;
+const LOCAL_SELF_DISCOVERY_SKIP_PORTS: &[u16] = &[80];
+
+#[derive(Clone, Copy)]
+struct DiscoveryPortRange {
+    start: u16,
+    end: u16,
+}
+
+struct DiscoveryHostGroup {
+    hosts: Vec<String>,
+    skip_ports: Vec<u16>,
+}
+
+#[derive(Deserialize)]
+struct DiscoverTargetsBody {
+    #[serde(default)]
+    custom_cidrs: Vec<String>,
+    #[serde(default)]
+    selected_cidrs: Vec<String>,
+}
+
+#[derive(Deserialize)]
+struct DiscoverJobBody {
+    #[serde(default)]
+    target_cidrs: Vec<String>,
+}
+
+#[derive(Deserialize)]
+struct DiscoverSettingsBody {
+    intensity_mode: String,
+    intensity_level: String,
+}
+
+#[derive(Deserialize)]
+struct DiscoverJobQuery {
+    cursor: Option<String>,
+}
+
+#[derive(Deserialize)]
+struct HostMappingProbeBody {
+    hosts: Option<Vec<String>>,
+}
+
+#[derive(Clone)]
+struct ParsedIpv4Cidr {
+    cidr: String,
+    first_host: u32,
+    last_host: u32,
+    host_count: u64,
+}
+
+struct DiscoverJob {
+    id: String,
+    cancel: Arc<AtomicBool>,
+    created_at: i64,
+    updated_at: i64,
+    state: String,
+    meta: Option<Value>,
+    progress: Option<Value>,
+    service_events: Vec<Value>,
+    service_map: Vec<(String, Value)>,
+    result: Option<Value>,
+    error: Option<String>,
+}
+
+type DiscoverJobHandle = Arc<Mutex<DiscoverJob>>;
+
+static DISCOVER_JOBS: OnceLock<Mutex<HashMap<String, DiscoverJobHandle>>> = OnceLock::new();
+static DISCOVERY_GLOBAL_PROBE_BUDGET: OnceLock<Arc<GlobalProbeBudget>> = OnceLock::new();
+
+#[derive(Clone)]
+struct DiscoveryProxyRule {
+    path: String,
+    rewrite_html: bool,
+    use_root_mode: bool,
+}
+
+#[derive(Clone)]
+struct DiscoveryAnalyzerRule {
+    name: String,
+    label: String,
+    proxy: DiscoveryProxyRule,
+    is_default: bool,
+}
+
+struct DiscoveryHttpResult {
+    host: String,
+    port: u16,
+    status: u16,
+    headers: HashMap<String, String>,
+    body: String,
+}
+
+pub fn scan_asset_routes() -> Router<AppState> {
+    scan_asset_openapi_routes().into()
+}
+
+pub(crate) fn scan_asset_openapi_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_discover_targets))
+        .routes(routes!(save_discover_targets))
+        .routes(routes!(get_discover_settings))
+        .routes(routes!(save_discover_settings))
+        .routes(routes!(start_discover_job))
+        .routes(routes!(get_discover_job))
+        .routes(routes!(cancel_discover_job_route))
+        .routes(routes!(probe_host_mappings))
+}

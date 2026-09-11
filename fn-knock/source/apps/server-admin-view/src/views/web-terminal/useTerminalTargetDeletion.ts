@@ -1,1 +1,148 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgdHlwZSB7CiAgVGVybWluYWxTZXNzaW9uUmVjb3JkLAogIFRlcm1pbmFsVGFyZ2V0UmVjb3JkLAp9IGZyb20gIkAvbGliL2FwaS90ZXJtaW5hbCI7CmltcG9ydCB7IGV4dHJhY3RUZXJtaW5hbEVycm9yIH0gZnJvbSAiLi90ZXJtaW5hbC1lcnJvcnMiOwoKZXhwb3J0IGNvbnN0IHVzZVRlcm1pbmFsVGFyZ2V0RGVsZXRpb24gPSAoewogIGFjdGl2ZVNlc3Npb25Db3VudCwKICBhdHRhY2hlZFNlc3Npb25JZCwKICBkZWxldGVUYXJnZXQ6IHJlcXVlc3REZWxldGVUYXJnZXQsCiAgZGV0YWNoLAogIHJlbW92ZVNlc3Npb25zRm9yVGFyZ2V0LAogIHNlc3Npb25zLAogIHRyYW5zbGF0ZSwKfTogewogIGFjdGl2ZVNlc3Npb25Db3VudDogKHRhcmdldElkOiBzdHJpbmcpID0+IG51bWJlcjsKICBhdHRhY2hlZFNlc3Npb25JZDogUmVhZG9ubHk8UmVmPHN0cmluZz4+OwogIGRlbGV0ZVRhcmdldDogKAogICAgdGFyZ2V0SWQ6IHN0cmluZywKICAgIHJldmlzaW9uOiBudW1iZXIsCiAgICBmb3JjZTogYm9vbGVhbiwKICAgIGNvbmZpcm1hdGlvblRva2VuPzogc3RyaW5nLAogICkgPT4gUHJvbWlzZTx2b2lkPjsKICBkZXRhY2g6ICgpID0+IFByb21pc2U8dm9pZD47CiAgcmVtb3ZlU2Vzc2lvbnNGb3JUYXJnZXQ6ICh0YXJnZXRJZDogc3RyaW5nKSA9PiB2b2lkOwogIHNlc3Npb25zOiBSZWFkb25seTxSZWY8VGVybWluYWxTZXNzaW9uUmVjb3JkW10+PjsKICB0cmFuc2xhdGU6IChrZXk6IHN0cmluZywgZmFsbGJhY2s6IHN0cmluZykgPT4gc3RyaW5nOwp9KSA9PiB7CiAgY29uc3QgcGVuZGluZ0ZvcmNlRGVsZXRlVGFyZ2V0ID0gcmVmPFRlcm1pbmFsVGFyZ2V0UmVjb3JkIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgcGVuZGluZ0ZvcmNlRGVsZXRlTWVzc2FnZSA9IHJlZigiIik7CiAgY29uc3QgcGVuZGluZ0ZvcmNlRGVsZXRlQWN0aXZlQ291bnQgPSByZWYoMCk7CiAgY29uc3QgcGVuZGluZ0ZvcmNlRGVsZXRlQ29uZmlybWF0aW9uVG9rZW4gPSByZWYoIiIpOwogIGNvbnN0IGZvcmNlRGVsZXRpbmdUYXJnZXQgPSByZWYoZmFsc2UpOwogIGxldCBvcGVyYXRpb25HZW5lcmF0aW9uID0gMDsKCiAgY29uc3QgcmVzZXRQcm9tcHQgPSAoKSA9PiB7CiAgICBwZW5kaW5nRm9yY2VEZWxldGVUYXJnZXQudmFsdWUgPSBudWxsOwogICAgcGVuZGluZ0ZvcmNlRGVsZXRlTWVzc2FnZS52YWx1ZSA9ICIiOwogICAgcGVuZGluZ0ZvcmNlRGVsZXRlQWN0aXZlQ291bnQudmFsdWUgPSAwOwogICAgcGVuZGluZ0ZvcmNlRGVsZXRlQ29uZmlybWF0aW9uVG9rZW4udmFsdWUgPSAiIjsKICB9OwoKICBjb25zdCBmaW5pc2hUYXJnZXREZWxldGlvbiA9IGFzeW5jICgKICAgIHRhcmdldDogVGVybWluYWxUYXJnZXRSZWNvcmQsCiAgICBnZW5lcmF0aW9uOiBudW1iZXIsCiAgKSA9PiB7CiAgICBjb25zdCBhdHRhY2hlZFNlc3Npb24gPSBzZXNzaW9ucy52YWx1ZS5maW5kKAogICAgICAoc2Vzc2lvbikgPT4gc2Vzc2lvbi5pZCA9PT0gYXR0YWNoZWRTZXNzaW9uSWQudmFsdWUsCiAgICApOwogICAgaWYgKGF0dGFjaGVkU2Vzc2lvbj8udGFyZ2V0SWQgPT09IHRhcmdldC5pZCkgYXdhaXQgZGV0YWNoKCk7CiAgICBpZiAoZ2VuZXJhdGlvbiAhPT0gb3BlcmF0aW9uR2VuZXJhdGlvbikgcmV0dXJuOwogICAgcmVtb3ZlU2Vzc2lvbnNGb3JUYXJnZXQodGFyZ2V0LmlkKTsKICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgIHRyYW5zbGF0ZSgiYWRtaW4ud2ViVGVybWluYWwudGFyZ2V0RGVsZXRlZCIsICJTU0ggdGFyZ2V0IGRlbGV0ZWQiKSwKICAgICk7CiAgfTsKCiAgY29uc3QgZGVsZXRlVGFyZ2V0ID0gYXN5bmMgKHRhcmdldDogVGVybWluYWxUYXJnZXRSZWNvcmQpID0+IHsKICAgIGNvbnN0IGdlbmVyYXRpb24gPSArK29wZXJhdGlvbkdlbmVyYXRpb247CiAgICB0cnkgewogICAgICBhd2FpdCByZXF1ZXN0RGVsZXRlVGFyZ2V0KHRhcmdldC5pZCwgdGFyZ2V0LnJldmlzaW9uLCBmYWxzZSwgdW5kZWZpbmVkKTsKICAgICAgaWYgKGdlbmVyYXRpb24gIT09IG9wZXJhdGlvbkdlbmVyYXRpb24pIHJldHVybjsKICAgICAgYXdhaXQgZmluaXNoVGFyZ2V0RGVsZXRpb24odGFyZ2V0LCBnZW5lcmF0aW9uKTsKICAgIH0gY2F0Y2ggKHJlYXNvbikgewogICAgICBpZiAoZ2VuZXJhdGlvbiAhPT0gb3BlcmF0aW9uR2VuZXJhdGlvbikgcmV0dXJuOwogICAgICBjb25zdCBmYWlsdXJlID0gZXh0cmFjdFRlcm1pbmFsRXJyb3IoCiAgICAgICAgcmVhc29uLAogICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4ud2ViVGVybWluYWwudGFyZ2V0RGVsZXRlRmFpbGVkIiwgIkRlbGV0ZSBmYWlsZWQiKSwKICAgICAgKTsKICAgICAgaWYgKGZhaWx1cmUuZXJyb3JDb2RlID09PSAiY29uZmxpY3QiICYmIGZhaWx1cmUuY29uZmlybWF0aW9uVG9rZW4pIHsKICAgICAgICBwZW5kaW5nRm9yY2VEZWxldGVUYXJnZXQudmFsdWUgPSB0YXJnZXQ7CiAgICAgICAgcGVuZGluZ0ZvcmNlRGVsZXRlTWVzc2FnZS52YWx1ZSA9IGZhaWx1cmUubWVzc2FnZTsKICAgICAgICBwZW5kaW5nRm9yY2VEZWxldGVDb25maXJtYXRpb25Ub2tlbi52YWx1ZSA9IGZhaWx1cmUuY29uZmlybWF0aW9uVG9rZW47CiAgICAgICAgcGVuZGluZ0ZvcmNlRGVsZXRlQWN0aXZlQ291bnQudmFsdWUgPQogICAgICAgICAgZmFpbHVyZS5hY3RpdmVTZXNzaW9uQ291bnQgPz8gYWN0aXZlU2Vzc2lvbkNvdW50KHRhcmdldC5pZCk7CiAgICAgICAgcmV0dXJuOwogICAgICB9CiAgICAgIHRvYXN0LmVycm9yKAogICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4ud2ViVGVybWluYWwudGFyZ2V0RGVsZXRlRmFpbGVkIiwgIkRlbGV0ZSBmYWlsZWQiKSwKICAgICAgICB7IGRlc2NyaXB0aW9uOiBmYWlsdXJlLm1lc3NhZ2UgfSwKICAgICAgKTsKICAgIH0KICB9OwoKICBjb25zdCBjbG9zZUZvcmNlRGVsZXRlVGFyZ2V0ID0gKCkgPT4gewogICAgaWYgKGZvcmNlRGVsZXRpbmdUYXJnZXQudmFsdWUpIHJldHVybjsKICAgIG9wZXJhdGlvbkdlbmVyYXRpb24gKz0gMTsKICAgIHJlc2V0UHJvbXB0KCk7CiAgfTsKCiAgY29uc3QgY29uZmlybUZvcmNlRGVsZXRlVGFyZ2V0ID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgdGFyZ2V0ID0gcGVuZGluZ0ZvcmNlRGVsZXRlVGFyZ2V0LnZhbHVlOwogICAgY29uc3QgY29uZmlybWF0aW9uVG9rZW4gPSBwZW5kaW5nRm9yY2VEZWxldGVDb25maXJtYXRpb25Ub2tlbi52YWx1ZTsKICAgIGlmICghdGFyZ2V0IHx8ICFjb25maXJtYXRpb25Ub2tlbiB8fCBmb3JjZURlbGV0aW5nVGFyZ2V0LnZhbHVlKSByZXR1cm47CiAgICBjb25zdCBnZW5lcmF0aW9uID0gKytvcGVyYXRpb25HZW5lcmF0aW9uOwogICAgZm9yY2VEZWxldGluZ1RhcmdldC52YWx1ZSA9IHRydWU7CiAgICB0cnkgewogICAgICBhd2FpdCByZXF1ZXN0RGVsZXRlVGFyZ2V0KAogICAgICAgIHRhcmdldC5pZCwKICAgICAgICB0YXJnZXQucmV2aXNpb24sCiAgICAgICAgdHJ1ZSwKICAgICAgICBjb25maXJtYXRpb25Ub2tlbiwKICAgICAgKTsKICAgICAgaWYgKGdlbmVyYXRpb24gIT09IG9wZXJhdGlvbkdlbmVyYXRpb24pIHJldHVybjsKICAgICAgYXdhaXQgZmluaXNoVGFyZ2V0RGVsZXRpb24odGFyZ2V0LCBnZW5lcmF0aW9uKTsKICAgICAgaWYgKGdlbmVyYXRpb24gPT09IG9wZXJhdGlvbkdlbmVyYXRpb24pIHJlc2V0UHJvbXB0KCk7CiAgICB9IGNhdGNoIChyZWFzb24pIHsKICAgICAgaWYgKGdlbmVyYXRpb24gIT09IG9wZXJhdGlvbkdlbmVyYXRpb24pIHJldHVybjsKICAgICAgY29uc3QgZmFpbHVyZSA9IGV4dHJhY3RUZXJtaW5hbEVycm9yKAogICAgICAgIHJlYXNvbiwKICAgICAgICB0cmFuc2xhdGUoImFkbWluLndlYlRlcm1pbmFsLnRhcmdldERlbGV0ZUZhaWxlZCIsICJEZWxldGUgZmFpbGVkIiksCiAgICAgICk7CiAgICAgIHBlbmRpbmdGb3JjZURlbGV0ZU1lc3NhZ2UudmFsdWUgPSBmYWlsdXJlLm1lc3NhZ2U7CiAgICAgIGlmIChmYWlsdXJlLmNvbmZpcm1hdGlvblRva2VuKSB7CiAgICAgICAgcGVuZGluZ0ZvcmNlRGVsZXRlQ29uZmlybWF0aW9uVG9rZW4udmFsdWUgPSBmYWlsdXJlLmNvbmZpcm1hdGlvblRva2VuOwogICAgICB9IGVsc2UgewogICAgICAgIHBlbmRpbmdGb3JjZURlbGV0ZUNvbmZpcm1hdGlvblRva2VuLnZhbHVlID0gIiI7CiAgICAgIH0KICAgICAgaWYgKGZhaWx1cmUuYWN0aXZlU2Vzc2lvbkNvdW50ICE9PSBudWxsKSB7CiAgICAgICAgcGVuZGluZ0ZvcmNlRGVsZXRlQWN0aXZlQ291bnQudmFsdWUgPSBmYWlsdXJlLmFjdGl2ZVNlc3Npb25Db3VudDsKICAgICAgfQogICAgfSBmaW5hbGx5IHsKICAgICAgaWYgKGdlbmVyYXRpb24gPT09IG9wZXJhdGlvbkdlbmVyYXRpb24pIGZvcmNlRGVsZXRpbmdUYXJnZXQudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9OwoKICBjb25zdCBkaXNwb3NlID0gKCkgPT4gewogICAgb3BlcmF0aW9uR2VuZXJhdGlvbiArPSAxOwogICAgcmVzZXRQcm9tcHQoKTsKICB9OwoKICByZXR1cm4gewogICAgY2FuQ29uZmlybUZvcmNlRGVsZXRlOiBjb21wdXRlZCgoKSA9PgogICAgICBCb29sZWFuKHBlbmRpbmdGb3JjZURlbGV0ZUNvbmZpcm1hdGlvblRva2VuLnZhbHVlKSwKICAgICksCiAgICBjbG9zZUZvcmNlRGVsZXRlVGFyZ2V0LAogICAgY29uZmlybUZvcmNlRGVsZXRlVGFyZ2V0LAogICAgZGVsZXRlVGFyZ2V0LAogICAgZGlzcG9zZSwKICAgIGZvcmNlRGVsZXRpbmdUYXJnZXQsCiAgICBwZW5kaW5nRm9yY2VEZWxldGVBY3RpdmVDb3VudCwKICAgIHBlbmRpbmdGb3JjZURlbGV0ZUNvbmZpcm1hdGlvblRva2VuLAogICAgcGVuZGluZ0ZvcmNlRGVsZXRlTWVzc2FnZSwKICAgIHBlbmRpbmdGb3JjZURlbGV0ZVRhcmdldCwKICB9Owp9Owo=
+import { computed, ref, type Ref } from "vue";
+import { toast } from "@admin-shared/utils/toast";
+import type {
+  TerminalSessionRecord,
+  TerminalTargetRecord,
+} from "@/lib/api/terminal";
+import { extractTerminalError } from "./terminal-errors";
+
+export const useTerminalTargetDeletion = ({
+  activeSessionCount,
+  attachedSessionId,
+  deleteTarget: requestDeleteTarget,
+  detach,
+  removeSessionsForTarget,
+  sessions,
+  translate,
+}: {
+  activeSessionCount: (targetId: string) => number;
+  attachedSessionId: Readonly<Ref<string>>;
+  deleteTarget: (
+    targetId: string,
+    revision: number,
+    force: boolean,
+    confirmationToken?: string,
+  ) => Promise<void>;
+  detach: () => Promise<void>;
+  removeSessionsForTarget: (targetId: string) => void;
+  sessions: Readonly<Ref<TerminalSessionRecord[]>>;
+  translate: (key: string, fallback: string) => string;
+}) => {
+  const pendingForceDeleteTarget = ref<TerminalTargetRecord | null>(null);
+  const pendingForceDeleteMessage = ref("");
+  const pendingForceDeleteActiveCount = ref(0);
+  const pendingForceDeleteConfirmationToken = ref("");
+  const forceDeletingTarget = ref(false);
+  let operationGeneration = 0;
+
+  const resetPrompt = () => {
+    pendingForceDeleteTarget.value = null;
+    pendingForceDeleteMessage.value = "";
+    pendingForceDeleteActiveCount.value = 0;
+    pendingForceDeleteConfirmationToken.value = "";
+  };
+
+  const finishTargetDeletion = async (
+    target: TerminalTargetRecord,
+    generation: number,
+  ) => {
+    const attachedSession = sessions.value.find(
+      (session) => session.id === attachedSessionId.value,
+    );
+    if (attachedSession?.targetId === target.id) await detach();
+    if (generation !== operationGeneration) return;
+    removeSessionsForTarget(target.id);
+    toast.success(
+      translate("admin.webTerminal.targetDeleted", "SSH target deleted"),
+    );
+  };
+
+  const deleteTarget = async (target: TerminalTargetRecord) => {
+    const generation = ++operationGeneration;
+    try {
+      await requestDeleteTarget(target.id, target.revision, false, undefined);
+      if (generation !== operationGeneration) return;
+      await finishTargetDeletion(target, generation);
+    } catch (reason) {
+      if (generation !== operationGeneration) return;
+      const failure = extractTerminalError(
+        reason,
+        translate("admin.webTerminal.targetDeleteFailed", "Delete failed"),
+      );
+      if (failure.errorCode === "conflict" && failure.confirmationToken) {
+        pendingForceDeleteTarget.value = target;
+        pendingForceDeleteMessage.value = failure.message;
+        pendingForceDeleteConfirmationToken.value = failure.confirmationToken;
+        pendingForceDeleteActiveCount.value =
+          failure.activeSessionCount ?? activeSessionCount(target.id);
+        return;
+      }
+      toast.error(
+        translate("admin.webTerminal.targetDeleteFailed", "Delete failed"),
+        { description: failure.message },
+      );
+    }
+  };
+
+  const closeForceDeleteTarget = () => {
+    if (forceDeletingTarget.value) return;
+    operationGeneration += 1;
+    resetPrompt();
+  };
+
+  const confirmForceDeleteTarget = async () => {
+    const target = pendingForceDeleteTarget.value;
+    const confirmationToken = pendingForceDeleteConfirmationToken.value;
+    if (!target || !confirmationToken || forceDeletingTarget.value) return;
+    const generation = ++operationGeneration;
+    forceDeletingTarget.value = true;
+    try {
+      await requestDeleteTarget(
+        target.id,
+        target.revision,
+        true,
+        confirmationToken,
+      );
+      if (generation !== operationGeneration) return;
+      await finishTargetDeletion(target, generation);
+      if (generation === operationGeneration) resetPrompt();
+    } catch (reason) {
+      if (generation !== operationGeneration) return;
+      const failure = extractTerminalError(
+        reason,
+        translate("admin.webTerminal.targetDeleteFailed", "Delete failed"),
+      );
+      pendingForceDeleteMessage.value = failure.message;
+      if (failure.confirmationToken) {
+        pendingForceDeleteConfirmationToken.value = failure.confirmationToken;
+      } else {
+        pendingForceDeleteConfirmationToken.value = "";
+      }
+      if (failure.activeSessionCount !== null) {
+        pendingForceDeleteActiveCount.value = failure.activeSessionCount;
+      }
+    } finally {
+      if (generation === operationGeneration) forceDeletingTarget.value = false;
+    }
+  };
+
+  const dispose = () => {
+    operationGeneration += 1;
+    resetPrompt();
+  };
+
+  return {
+    canConfirmForceDelete: computed(() =>
+      Boolean(pendingForceDeleteConfirmationToken.value),
+    ),
+    closeForceDeleteTarget,
+    confirmForceDeleteTarget,
+    deleteTarget,
+    dispose,
+    forceDeletingTarget,
+    pendingForceDeleteActiveCount,
+    pendingForceDeleteConfirmationToken,
+    pendingForceDeleteMessage,
+    pendingForceDeleteTarget,
+  };
+};

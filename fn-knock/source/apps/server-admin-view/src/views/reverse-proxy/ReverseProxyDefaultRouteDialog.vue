@@ -1,1 +1,60 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CgpkZWZpbmVQcm9wczx7CiAgZGVzY3JpcHRpb246IHN0cmluZzsKICBvcGVuOiBib29sZWFuOwogIHNhdmluZzogYm9vbGVhbjsKICBzaG93Rm5vc0hpbnQ6IGJvb2xlYW47CiAgdGl0bGU6IHN0cmluZzsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgY2FuY2VsOiBbXTsKICBjb25maXJtOiBbXTsKICAidXBkYXRlOm9wZW4iOiBbb3BlbjogYm9vbGVhbl07Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERpYWxvZyA6b3Blbj0ib3BlbiIgQHVwZGF0ZTpvcGVuPSJlbWl0KCd1cGRhdGU6b3BlbicsICRldmVudCkiPgogICAgPERpYWxvZ0NvbnRlbnQgY2xhc3M9InNtOm1heC13LVs1MjBweF0iPgogICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgIDxEaWFsb2dUaXRsZT57eyB0aXRsZSB9fTwvRGlhbG9nVGl0bGU+CiAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uIGNsYXNzPSJzcGFjZS15LTIgdGV4dC1sZWZ0Ij4KICAgICAgICAgIDxwPnt7IGRlc2NyaXB0aW9uIH19PC9wPgogICAgICAgICAgPHAgdi1pZj0ic2hvd0Zub3NIaW50IiBjbGFzcz0idGV4dC1hbWJlci02MDAiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5yZXZlcnNlUHJveHkuZm5vc0RlZmF1bHRSb3V0ZUhpbnQiKSB9fQogICAgICAgICAgPC9wPgogICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgogICAgICA8RGlhbG9nRm9vdGVyPgogICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgOmRpc2FibGVkPSJzYXZpbmciIEBjbGljaz0iZW1pdCgnY2FuY2VsJykiPgogICAgICAgICAge3sgdCgiYWRtaW4ucmV2ZXJzZVByb3h5LmNhbmNlbCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9InNhdmluZyIKICAgICAgICAgIEBjbGljaz0iZW1pdCgnY29uZmlybScpIgogICAgICAgID4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHNhdmluZwogICAgICAgICAgICAgID8gdCgiYWRtaW4ucmV2ZXJzZVByb3h5LnByb2Nlc3NpbmciKQogICAgICAgICAgICAgIDogdCgiYWRtaW4ucmV2ZXJzZVByb3h5LmNvbnRpbnVlQWN0aW9uIikKICAgICAgICAgIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+
+defineProps<{
+  description: string;
+  open: boolean;
+  saving: boolean;
+  showFnosHint: boolean;
+  title: string;
+}>();
+
+const emit = defineEmits<{
+  cancel: [];
+  confirm: [];
+  "update:open": [open: boolean];
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="sm:max-w-[520px]">
+      <DialogHeader>
+        <DialogTitle>{{ title }}</DialogTitle>
+        <DialogDescription class="space-y-2 text-left">
+          <p>{{ description }}</p>
+          <p v-if="showFnosHint" class="text-amber-600">
+            {{ t("admin.reverseProxy.fnosDefaultRouteHint") }}
+          </p>
+        </DialogDescription>
+      </DialogHeader>
+      <DialogFooter>
+        <Button variant="outline" :disabled="saving" @click="emit('cancel')">
+          {{ t("admin.reverseProxy.cancel") }}
+        </Button>
+        <Button
+          variant="destructive"
+          :disabled="saving"
+          @click="emit('confirm')"
+        >
+          {{
+            saving
+              ? t("admin.reverseProxy.processing")
+              : t("admin.reverseProxy.continueAction")
+          }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

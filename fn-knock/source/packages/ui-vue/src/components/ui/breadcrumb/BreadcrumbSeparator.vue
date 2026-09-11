@@ -1,1 +1,22 @@
-PHNjcmlwdCBsYW5nPSJ0cyIgc2V0dXA+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IENoZXZyb25SaWdodCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0KfT4oKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8bGkKICAgIGRhdGEtc2xvdD0iYnJlYWRjcnVtYi1zZXBhcmF0b3IiCiAgICByb2xlPSJwcmVzZW50YXRpb24iCiAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgIDpjbGFzcz0iY24oJ1smPnN2Z106c2l6ZS0zLjUnLCBwcm9wcy5jbGFzcykiCiAgPgogICAgPHNsb3Q+CiAgICAgIDxDaGV2cm9uUmlnaHQgLz4KICAgIDwvc2xvdD4KICA8L2xpPgo8L3RlbXBsYXRlPgo=
+<script lang="ts" setup>
+import type { HTMLAttributes } from "vue"
+import { ChevronRight } from "lucide-vue-next"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <li
+    data-slot="breadcrumb-separator"
+    role="presentation"
+    aria-hidden="true"
+    :class="cn('[&>svg]:size-3.5', props.class)"
+  >
+    <slot>
+      <ChevronRight />
+    </slot>
+  </li>
+</template>

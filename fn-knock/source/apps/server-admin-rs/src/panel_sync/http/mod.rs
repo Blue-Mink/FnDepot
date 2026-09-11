@@ -1,1 +1,18 @@
-dXNlIHV0b2lwYV9heHVtOjp7cm91dGVyOjpPcGVuQXBpUm91dGVyLCByb3V0ZXN9OwoKdXNlIGNyYXRlOjpzdGF0ZTo6QXBwU3RhdGU7Cgptb2QgY29ubmVjdGlvbnM7Cm1vZCBydW5zOwoKcHViIGZuIHJvdXRlcygpIC0+IE9wZW5BcGlSb3V0ZXI8QXBwU3RhdGU+IHsKICAgIE9wZW5BcGlSb3V0ZXI6Om5ldygpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGNvbm5lY3Rpb25zOjpwcm92aWRlcnMpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShjb25uZWN0aW9uczo6bGlzdCwgY29ubmVjdGlvbnM6OmNyZWF0ZSkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGNvbm5lY3Rpb25zOjp1cGRhdGUsIGNvbm5lY3Rpb25zOjpkZWxldGUpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShjb25uZWN0aW9uczo6dGVzdCkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGNvbm5lY3Rpb25zOjpwcmV2aWV3KSkKICAgICAgICAucm91dGVzKHJvdXRlcyEocnVuczo6c3luYykpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHJ1bnM6Omxpc3QpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShydW5zOjpnZXQpKQp9Cg==
+use utoipa_axum::{router::OpenApiRouter, routes};
+
+use crate::state::AppState;
+
+mod connections;
+mod runs;
+
+pub fn routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(connections::providers))
+        .routes(routes!(connections::list, connections::create))
+        .routes(routes!(connections::update, connections::delete))
+        .routes(routes!(connections::test))
+        .routes(routes!(connections::preview))
+        .routes(routes!(runs::sync))
+        .routes(routes!(runs::list))
+        .routes(routes!(runs::get))
+}

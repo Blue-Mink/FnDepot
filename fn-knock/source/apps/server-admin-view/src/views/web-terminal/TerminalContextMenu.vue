@@ -1,1 +1,77 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiwgdHlwZSBDU1NQcm9wZXJ0aWVzIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQ2xpcGJvYXJkUGFzdGUsIENvcHksIFRleHRTZWxlY3QgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwoKZGVmaW5lUHJvcHM8ewogIGNhblBhc3RlOiBib29sZWFuOwogIGhhc1NlbGVjdGlvbjogYm9vbGVhbjsKICBtZW51U3R5bGU6IENTU1Byb3BlcnRpZXM7CiAgb3BlbjogYm9vbGVhbjsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgY2xvc2U6IFtdOwogIGNvcHk6IFtdOwogIHBhc3RlOiBbXTsKICBzZWxlY3RBbGw6IFtdOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHJvb3RFbGVtZW50ID0gcmVmPEhUTUxFbGVtZW50IHwgbnVsbD4obnVsbCk7Cgpjb25zdCBoYW5kbGVGb2N1c091dCA9IChldmVudDogRm9jdXNFdmVudCkgPT4gewogIGNvbnN0IG5leHRUYXJnZXQgPSBldmVudC5yZWxhdGVkVGFyZ2V0OwogIGlmIChuZXh0VGFyZ2V0IGluc3RhbmNlb2YgTm9kZSAmJiByb290RWxlbWVudC52YWx1ZT8uY29udGFpbnMobmV4dFRhcmdldCkpIHsKICAgIHJldHVybjsKICB9CiAgZW1pdCgiY2xvc2UiKTsKfTsKCmRlZmluZUV4cG9zZSh7CiAgcm9vdEVsZW1lbnQsCn0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICB2LWlmPSJvcGVuIgogICAgcmVmPSJyb290RWxlbWVudCIKICAgIDpzdHlsZT0ibWVudVN0eWxlIgogICAgY2xhc3M9ImZpeGVkIHotWzcwXSB3LTQ0IG92ZXJmbG93LWhpZGRlbiByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItd2hpdGUvMTIgYmctWyMyOTI5MmRdLzk1IHAtMSB0ZXh0LXNtIHRleHQtd2hpdGUgc2hhZG93LVswXzE2cHhfNDRweF9yZ2JhKDAsMCwwLDAuMzgpXSBvdXRsaW5lLW5vbmUgYmFja2Ryb3AtYmx1ci14bCIKICAgIHJvbGU9Imdyb3VwIgogICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLndlYlRlcm1pbmFsLmNvbnRleHRNZW51JykiCiAgICB0YWJpbmRleD0iLTEiCiAgICBAY29udGV4dG1lbnUucHJldmVudC5zdG9wCiAgICBAcG9pbnRlcmRvd24uc3RvcAogICAgQGNsaWNrLnN0b3AKICAgIEBmb2N1c291dD0iaGFuZGxlRm9jdXNPdXQiCiAgPgogICAgPGJ1dHRvbgogICAgICB0eXBlPSJidXR0b24iCiAgICAgIGNsYXNzPSJmbGV4IGgtOSB3LWZ1bGwgaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtbWQgcHgtMi41IHRleHQtbGVmdCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy13aGl0ZS8xMCBkaXNhYmxlZDpjdXJzb3Itbm90LWFsbG93ZWQgZGlzYWJsZWQ6dGV4dC13aGl0ZS8zNSBkaXNhYmxlZDpob3ZlcjpiZy10cmFuc3BhcmVudCIKICAgICAgOmRpc2FibGVkPSIhaGFzU2VsZWN0aW9uIgogICAgICBAY2xpY2s9ImVtaXQoJ2NvcHknKSIKICAgID4KICAgICAgPENvcHkgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgIDxzcGFuPnt7IHQoImFkbWluLndlYlRlcm1pbmFsLmNvcHkiKSB9fTwvc3Bhbj4KICAgIDwvYnV0dG9uPgogICAgPGJ1dHRvbgogICAgICB0eXBlPSJidXR0b24iCiAgICAgIGNsYXNzPSJmbGV4IGgtOSB3LWZ1bGwgaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtbWQgcHgtMi41IHRleHQtbGVmdCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy13aGl0ZS8xMCBkaXNhYmxlZDpjdXJzb3Itbm90LWFsbG93ZWQgZGlzYWJsZWQ6dGV4dC13aGl0ZS8zNSBkaXNhYmxlZDpob3ZlcjpiZy10cmFuc3BhcmVudCIKICAgICAgOmRpc2FibGVkPSIhY2FuUGFzdGUiCiAgICAgIEBjbGljaz0iZW1pdCgncGFzdGUnKSIKICAgID4KICAgICAgPENsaXBib2FyZFBhc3RlIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICA8c3Bhbj57eyB0KCJhZG1pbi53ZWJUZXJtaW5hbC5wYXN0ZSIpIH19PC9zcGFuPgogICAgPC9idXR0b24+CiAgICA8YnV0dG9uCiAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgY2xhc3M9ImZsZXggaC05IHctZnVsbCBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1tZCBweC0yLjUgdGV4dC1sZWZ0IHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLXdoaXRlLzEwIgogICAgICBAY2xpY2s9ImVtaXQoJ3NlbGVjdEFsbCcpIgogICAgPgogICAgICA8VGV4dFNlbGVjdCBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgPHNwYW4+e3sgdCgiYWRtaW4ud2ViVGVybWluYWwuc2VsZWN0QWxsIikgfX08L3NwYW4+CiAgICA8L2J1dHRvbj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { ref, type CSSProperties } from "vue";
+import { useI18n } from "vue-i18n";
+import { ClipboardPaste, Copy, TextSelect } from "lucide-vue-next";
+
+defineProps<{
+  canPaste: boolean;
+  hasSelection: boolean;
+  menuStyle: CSSProperties;
+  open: boolean;
+}>();
+
+const emit = defineEmits<{
+  close: [];
+  copy: [];
+  paste: [];
+  selectAll: [];
+}>();
+
+const { t } = useI18n();
+const rootElement = ref<HTMLElement | null>(null);
+
+const handleFocusOut = (event: FocusEvent) => {
+  const nextTarget = event.relatedTarget;
+  if (nextTarget instanceof Node && rootElement.value?.contains(nextTarget)) {
+    return;
+  }
+  emit("close");
+};
+
+defineExpose({
+  rootElement,
+});
+</script>
+
+<template>
+  <div
+    v-if="open"
+    ref="rootElement"
+    :style="menuStyle"
+    class="fixed z-[70] w-44 overflow-hidden rounded-lg border border-white/12 bg-[#29292d]/95 p-1 text-sm text-white shadow-[0_16px_44px_rgba(0,0,0,0.38)] outline-none backdrop-blur-xl"
+    role="group"
+    :aria-label="t('admin.webTerminal.contextMenu')"
+    tabindex="-1"
+    @contextmenu.prevent.stop
+    @pointerdown.stop
+    @click.stop
+    @focusout="handleFocusOut"
+  >
+    <button
+      type="button"
+      class="flex h-9 w-full items-center gap-2 rounded-md px-2.5 text-left transition-colors hover:bg-white/10 disabled:cursor-not-allowed disabled:text-white/35 disabled:hover:bg-transparent"
+      :disabled="!hasSelection"
+      @click="emit('copy')"
+    >
+      <Copy class="h-4 w-4" />
+      <span>{{ t("admin.webTerminal.copy") }}</span>
+    </button>
+    <button
+      type="button"
+      class="flex h-9 w-full items-center gap-2 rounded-md px-2.5 text-left transition-colors hover:bg-white/10 disabled:cursor-not-allowed disabled:text-white/35 disabled:hover:bg-transparent"
+      :disabled="!canPaste"
+      @click="emit('paste')"
+    >
+      <ClipboardPaste class="h-4 w-4" />
+      <span>{{ t("admin.webTerminal.paste") }}</span>
+    </button>
+    <button
+      type="button"
+      class="flex h-9 w-full items-center gap-2 rounded-md px-2.5 text-left transition-colors hover:bg-white/10"
+      @click="emit('selectAll')"
+    >
+      <TextSelect class="h-4 w-4" />
+      <span>{{ t("admin.webTerminal.selectAll") }}</span>
+    </button>
+  </div>
+</template>

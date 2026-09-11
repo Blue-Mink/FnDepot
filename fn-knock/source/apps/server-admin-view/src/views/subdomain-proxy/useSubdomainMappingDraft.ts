@@ -1,1 +1,142 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgdHlwZSBDb21wdXRlZFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7CiAgY29tcG9zZUhvc3RGcm9tU3ViZG9tYWluLAogIGV4dHJhY3RTdWJkb21haW5Gcm9tSG9zdCwKICBub3JtYWxpemVIb3N0TGlrZSwKICByZXNvbHZlTWFwcGluZ0VkaXRvclN0YXRlLAogIHR5cGUgTWFwcGluZ0lucHV0TW9kZSwKICB0eXBlIFRyYW5zbGF0aW9uUGFyYW1zLAp9IGZyb20gIi4vbW9kZWwiOwoKZXhwb3J0IGNvbnN0IHVzZVN1YmRvbWFpbk1hcHBpbmdEcmFmdCA9ICh7CiAgY2FuVXNlUm9vdERvbWFpblN1ZmZpeCwKICBvblN1YmRvbWFpbkV4dHJhY3Rpb25NaXNzLAogIHNhdmVkUm9vdERvbWFpbiwKICB0cmFuc2xhdGUsCn06IHsKICBjYW5Vc2VSb290RG9tYWluU3VmZml4OiBDb21wdXRlZFJlZjxib29sZWFuPjsKICBvblN1YmRvbWFpbkV4dHJhY3Rpb25NaXNzOiAoZG9tYWluOiBzdHJpbmcpID0+IHZvaWQ7CiAgc2F2ZWRSb290RG9tYWluOiBDb21wdXRlZFJlZjxzdHJpbmc+OwogIHRyYW5zbGF0ZTogKGtleTogc3RyaW5nLCBwYXJhbXM/OiBUcmFuc2xhdGlvblBhcmFtcykgPT4gc3RyaW5nOwp9KSA9PiB7CiAgY29uc3QgbWFwcGluZ0lucHV0TW9kZSA9IHJlZjxNYXBwaW5nSW5wdXRNb2RlPigic3ViZG9tYWluIik7CiAgY29uc3QgbWFwcGluZ1N1YmRvbWFpbiA9IHJlZigiIik7CgogIGNvbnN0IG1hcHBpbmdNb2RlRGVzY3JpcHRpb24gPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAobWFwcGluZ0lucHV0TW9kZS52YWx1ZSA9PT0gInN1YmRvbWFpbiIgJiYgY2FuVXNlUm9vdERvbWFpblN1ZmZpeC52YWx1ZSkgewogICAgICByZXR1cm4gdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdWJkb21haW5Nb2RlRGVzY3JpcHRpb24iLCB7CiAgICAgICAgZG9tYWluOiBzYXZlZFJvb3REb21haW4udmFsdWUsCiAgICAgIH0pOwogICAgfQoKICAgIGlmIChjYW5Vc2VSb290RG9tYWluU3VmZml4LnZhbHVlKSB7CiAgICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LmZ1bGxIb3N0TW9kZURlc2NyaXB0aW9uIiwgewogICAgICAgIGRvbWFpbjogc2F2ZWRSb290RG9tYWluLnZhbHVlLAogICAgICB9KTsKICAgIH0KCiAgICBpZiAoIXNhdmVkUm9vdERvbWFpbi52YWx1ZSkgewogICAgICByZXR1cm4gdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdWZmaXhBZnRlclNhdmluZ1Jvb3QiKTsKICAgIH0KCiAgICByZXR1cm4gdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdWZmaXhBZnRlclNhdmluZ0NoYW5nZXMiKTsKICB9KTsKCiAgY29uc3QgbWFwcGluZ0lucHV0TGFiZWwgPSBjb21wdXRlZCgoKSA9PgogICAgbWFwcGluZ0lucHV0TW9kZS52YWx1ZSA9PT0gInN1YmRvbWFpbiIKICAgICAgPyB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LnN1YmRvbWFpblByZWZpeCIpCiAgICAgIDogdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5mdWxsSG9zdCIpLAogICk7CgogIGNvbnN0IGZ1bGxIb3N0SW5wdXRIaW50ID0gY29tcHV0ZWQoKCkgPT4gewogICAgaWYgKGNhblVzZVJvb3REb21haW5TdWZmaXgudmFsdWUpIHsKICAgICAgcmV0dXJuIHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuZnVsbEhvc3RJbnB1dEhpbnRXaXRoUm9vdCIsIHsKICAgICAgICBkb21haW46IHNhdmVkUm9vdERvbWFpbi52YWx1ZSwKICAgICAgfSk7CiAgICB9CgogICAgcmV0dXJuIHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuZnVsbEhvc3RJbnB1dEhpbnQiKTsKICB9KTsKCiAgY29uc3QgY29tcG9zZWRQcmV2aWV3SG9zdCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGlmIChtYXBwaW5nSW5wdXRNb2RlLnZhbHVlID09PSAiZnVsbF9ob3N0IikgewogICAgICByZXR1cm4gbm9ybWFsaXplSG9zdExpa2UobWFwcGluZ1N1YmRvbWFpbi52YWx1ZSkgfHwgIiI7CiAgICB9CiAgICByZXR1cm4gY29tcG9zZUhvc3RGcm9tU3ViZG9tYWluKAogICAgICBtYXBwaW5nU3ViZG9tYWluLnZhbHVlLAogICAgICBzYXZlZFJvb3REb21haW4udmFsdWUsCiAgICApOwogIH0pOwoKICBjb25zdCBtYXBwaW5nRHJhZnRIb3N0ID0gY29tcHV0ZWQoKCkgPT4gY29tcG9zZWRQcmV2aWV3SG9zdC52YWx1ZSk7CgogIGNvbnN0IHNldE1hcHBpbmdTdWJkb21haW4gPSAodmFsdWU6IHN0cmluZykgPT4gewogICAgbWFwcGluZ1N1YmRvbWFpbi52YWx1ZSA9IHZhbHVlOwogIH07CgogIGNvbnN0IHNldE1hcHBpbmdJbnB1dE1vZGUgPSAobmV4dE1vZGU6IE1hcHBpbmdJbnB1dE1vZGUpID0+IHsKICAgIGlmIChuZXh0TW9kZSA9PT0gInN1YmRvbWFpbiIgJiYgIWNhblVzZVJvb3REb21haW5TdWZmaXgudmFsdWUpIHsKICAgICAgbWFwcGluZ0lucHV0TW9kZS52YWx1ZSA9ICJmdWxsX2hvc3QiOwogICAgICByZXR1cm47CiAgICB9CgogICAgaWYgKG5leHRNb2RlID09PSBtYXBwaW5nSW5wdXRNb2RlLnZhbHVlKSByZXR1cm47CgogICAgY29uc3QgY3VycmVudFZhbHVlID0gbWFwcGluZ1N1YmRvbWFpbi52YWx1ZTsKICAgIGlmIChuZXh0TW9kZSA9PT0gImZ1bGxfaG9zdCIpIHsKICAgICAgbWFwcGluZ1N1YmRvbWFpbi52YWx1ZSA9CiAgICAgICAgbWFwcGluZ0lucHV0TW9kZS52YWx1ZSA9PT0gInN1YmRvbWFpbiIKICAgICAgICAgID8gY29tcG9zZUhvc3RGcm9tU3ViZG9tYWluKGN1cnJlbnRWYWx1ZSwgc2F2ZWRSb290RG9tYWluLnZhbHVlKSB8fAogICAgICAgICAgICBub3JtYWxpemVIb3N0TGlrZShjdXJyZW50VmFsdWUpCiAgICAgICAgICA6IG5vcm1hbGl6ZUhvc3RMaWtlKGN1cnJlbnRWYWx1ZSk7CiAgICAgIG1hcHBpbmdJbnB1dE1vZGUudmFsdWUgPSAiZnVsbF9ob3N0IjsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGNvbnN0IGV4dHJhY3RlZFN1YmRvbWFpbiA9IGV4dHJhY3RTdWJkb21haW5Gcm9tSG9zdCgKICAgICAgY3VycmVudFZhbHVlLAogICAgICBzYXZlZFJvb3REb21haW4udmFsdWUsCiAgICApOwoKICAgIG1hcHBpbmdJbnB1dE1vZGUudmFsdWUgPSAic3ViZG9tYWluIjsKICAgIG1hcHBpbmdTdWJkb21haW4udmFsdWUgPSBleHRyYWN0ZWRTdWJkb21haW4gPz8gIiI7CgogICAgaWYgKGN1cnJlbnRWYWx1ZS50cmltKCkgJiYgIWV4dHJhY3RlZFN1YmRvbWFpbikgewogICAgICBvblN1YmRvbWFpbkV4dHJhY3Rpb25NaXNzKHNhdmVkUm9vdERvbWFpbi52YWx1ZSk7CiAgICB9CiAgfTsKCiAgY29uc3QgaGFuZGxlTWFwcGluZ0lucHV0TW9kZUNoYW5nZSA9IChuZXh0TW9kZTogTWFwcGluZ0lucHV0TW9kZSkgPT4gewogICAgc2V0TWFwcGluZ0lucHV0TW9kZShuZXh0TW9kZSk7CiAgfTsKCiAgY29uc3QgcmVzZXRNYXBwaW5nRHJhZnRJbnB1dCA9ICgpID0+IHsKICAgIG1hcHBpbmdJbnB1dE1vZGUudmFsdWUgPSBjYW5Vc2VSb290RG9tYWluU3VmZml4LnZhbHVlCiAgICAgID8gInN1YmRvbWFpbiIKICAgICAgOiAiZnVsbF9ob3N0IjsKICAgIG1hcHBpbmdTdWJkb21haW4udmFsdWUgPSAiIjsKICB9OwoKICBjb25zdCBzZXRNYXBwaW5nRHJhZnRJbnB1dEZyb21Ib3N0ID0gKGhvc3Q6IHN0cmluZykgPT4gewogICAgY29uc3QgZWRpdG9yU3RhdGUgPSByZXNvbHZlTWFwcGluZ0VkaXRvclN0YXRlKAogICAgICBob3N0LAogICAgICBjYW5Vc2VSb290RG9tYWluU3VmZml4LnZhbHVlID8gc2F2ZWRSb290RG9tYWluLnZhbHVlIDogIiIsCiAgICApOwogICAgbWFwcGluZ0lucHV0TW9kZS52YWx1ZSA9IGVkaXRvclN0YXRlLm1vZGU7CiAgICBtYXBwaW5nU3ViZG9tYWluLnZhbHVlID0gZWRpdG9yU3RhdGUudmFsdWU7CiAgfTsKCiAgcmV0dXJuIHsKICAgIGNvbXBvc2VkUHJldmlld0hvc3QsCiAgICBmdWxsSG9zdElucHV0SGludCwKICAgIGhhbmRsZU1hcHBpbmdJbnB1dE1vZGVDaGFuZ2UsCiAgICBtYXBwaW5nRHJhZnRIb3N0LAogICAgbWFwcGluZ0lucHV0TGFiZWwsCiAgICBtYXBwaW5nSW5wdXRNb2RlLAogICAgbWFwcGluZ01vZGVEZXNjcmlwdGlvbiwKICAgIG1hcHBpbmdTdWJkb21haW4sCiAgICByZXNldE1hcHBpbmdEcmFmdElucHV0LAogICAgc2V0TWFwcGluZ0RyYWZ0SW5wdXRGcm9tSG9zdCwKICAgIHNldE1hcHBpbmdTdWJkb21haW4sCiAgfTsKfTsK
+import { computed, ref, type ComputedRef } from "vue";
+import {
+  composeHostFromSubdomain,
+  extractSubdomainFromHost,
+  normalizeHostLike,
+  resolveMappingEditorState,
+  type MappingInputMode,
+  type TranslationParams,
+} from "./model";
+
+export const useSubdomainMappingDraft = ({
+  canUseRootDomainSuffix,
+  onSubdomainExtractionMiss,
+  savedRootDomain,
+  translate,
+}: {
+  canUseRootDomainSuffix: ComputedRef<boolean>;
+  onSubdomainExtractionMiss: (domain: string) => void;
+  savedRootDomain: ComputedRef<string>;
+  translate: (key: string, params?: TranslationParams) => string;
+}) => {
+  const mappingInputMode = ref<MappingInputMode>("subdomain");
+  const mappingSubdomain = ref("");
+
+  const mappingModeDescription = computed(() => {
+    if (mappingInputMode.value === "subdomain" && canUseRootDomainSuffix.value) {
+      return translate("admin.subdomainProxy.subdomainModeDescription", {
+        domain: savedRootDomain.value,
+      });
+    }
+
+    if (canUseRootDomainSuffix.value) {
+      return translate("admin.subdomainProxy.fullHostModeDescription", {
+        domain: savedRootDomain.value,
+      });
+    }
+
+    if (!savedRootDomain.value) {
+      return translate("admin.subdomainProxy.suffixAfterSavingRoot");
+    }
+
+    return translate("admin.subdomainProxy.suffixAfterSavingChanges");
+  });
+
+  const mappingInputLabel = computed(() =>
+    mappingInputMode.value === "subdomain"
+      ? translate("admin.subdomainProxy.subdomainPrefix")
+      : translate("admin.subdomainProxy.fullHost"),
+  );
+
+  const fullHostInputHint = computed(() => {
+    if (canUseRootDomainSuffix.value) {
+      return translate("admin.subdomainProxy.fullHostInputHintWithRoot", {
+        domain: savedRootDomain.value,
+      });
+    }
+
+    return translate("admin.subdomainProxy.fullHostInputHint");
+  });
+
+  const composedPreviewHost = computed(() => {
+    if (mappingInputMode.value === "full_host") {
+      return normalizeHostLike(mappingSubdomain.value) || "";
+    }
+    return composeHostFromSubdomain(
+      mappingSubdomain.value,
+      savedRootDomain.value,
+    );
+  });
+
+  const mappingDraftHost = computed(() => composedPreviewHost.value);
+
+  const setMappingSubdomain = (value: string) => {
+    mappingSubdomain.value = value;
+  };
+
+  const setMappingInputMode = (nextMode: MappingInputMode) => {
+    if (nextMode === "subdomain" && !canUseRootDomainSuffix.value) {
+      mappingInputMode.value = "full_host";
+      return;
+    }
+
+    if (nextMode === mappingInputMode.value) return;
+
+    const currentValue = mappingSubdomain.value;
+    if (nextMode === "full_host") {
+      mappingSubdomain.value =
+        mappingInputMode.value === "subdomain"
+          ? composeHostFromSubdomain(currentValue, savedRootDomain.value) ||
+            normalizeHostLike(currentValue)
+          : normalizeHostLike(currentValue);
+      mappingInputMode.value = "full_host";
+      return;
+    }
+
+    const extractedSubdomain = extractSubdomainFromHost(
+      currentValue,
+      savedRootDomain.value,
+    );
+
+    mappingInputMode.value = "subdomain";
+    mappingSubdomain.value = extractedSubdomain ?? "";
+
+    if (currentValue.trim() && !extractedSubdomain) {
+      onSubdomainExtractionMiss(savedRootDomain.value);
+    }
+  };
+
+  const handleMappingInputModeChange = (nextMode: MappingInputMode) => {
+    setMappingInputMode(nextMode);
+  };
+
+  const resetMappingDraftInput = () => {
+    mappingInputMode.value = canUseRootDomainSuffix.value
+      ? "subdomain"
+      : "full_host";
+    mappingSubdomain.value = "";
+  };
+
+  const setMappingDraftInputFromHost = (host: string) => {
+    const editorState = resolveMappingEditorState(
+      host,
+      canUseRootDomainSuffix.value ? savedRootDomain.value : "",
+    );
+    mappingInputMode.value = editorState.mode;
+    mappingSubdomain.value = editorState.value;
+  };
+
+  return {
+    composedPreviewHost,
+    fullHostInputHint,
+    handleMappingInputModeChange,
+    mappingDraftHost,
+    mappingInputLabel,
+    mappingInputMode,
+    mappingModeDescription,
+    mappingSubdomain,
+    resetMappingDraftInput,
+    setMappingDraftInputFromHost,
+    setMappingSubdomain,
+  };
+};

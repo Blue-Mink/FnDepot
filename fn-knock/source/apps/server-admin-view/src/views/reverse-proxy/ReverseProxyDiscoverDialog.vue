@@ -1,1 +1,310 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBFeHRlcm5hbExpbmssIFJlZnJlc2hDdywgU2xpZGVyc0hvcml6b250YWwsIFggfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgUmVmcmVzaEJ1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvUmVmcmVzaEJ1dHRvbi52dWUiOwppbXBvcnQgU2NhbkRpc2NvdmVyeVRhcmdldHNTZXR0aW5ncyBmcm9tICJAL2NvbXBvbmVudHMvU2NhbkRpc2NvdmVyeVRhcmdldHNTZXR0aW5ncy52dWUiOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7CiAgVGFibGUsCiAgVGFibGVCb2R5LAogIFRhYmxlQ2VsbCwKICBUYWJsZUhlYWQsCiAgVGFibGVIZWFkZXIsCiAgVGFibGVSb3csCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RhYmxlIjsKaW1wb3J0IHsKICB0eXBlIERpc2NvdmVyZWRTZXJ2aWNlSW5mbywKICB0eXBlIFNjYW5EaXNjb3ZlclJlc3BvbnNlLAp9IGZyb20gIkAvbGliL2FwaS9zY2FuIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIGRpc2NvdmVyZWREYXRhOiBTY2FuRGlzY292ZXJSZXNwb25zZSB8IG51bGw7CiAgaXNBbGxTZWxlY3RlZDogYm9vbGVhbjsKICBpc0Rpc2NvdmVyaW5nOiBib29sZWFuOwogIGlzU2F2aW5nOiBib29sZWFuOwogIGlzU2VsZWN0aW9uVmFsaWQ6IGJvb2xlYW47CiAgaXNTZXR0aW5nc09wZW46IGJvb2xlYW47CiAgb3BlbjogYm9vbGVhbjsKICByZXNvbHZlU2VydmljZUhvc3Q6IChzZXJ2aWNlOiBEaXNjb3ZlcmVkU2VydmljZUluZm8pID0+IHN0cmluZzsKICBzZWxlY3RlZFNlcnZpY2VzOiBEaXNjb3ZlcmVkU2VydmljZUluZm9bXTsKICBzaG93SG9zdENvbHVtbjogYm9vbGVhbjsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgY2FuY2VsOiBbXTsKICBzYXZlOiBbXTsKICBzY2FuOiBbXTsKICBzdG9wU2NhbjogW107CiAgdG9nZ2xlQWxsOiBbZXZlbnQ6IEV2ZW50XTsKICB0b2dnbGVTZXR0aW5nczogW107CiAgInVwZGF0ZTpvcGVuIjogW29wZW46IGJvb2xlYW5dOwogICJ1cGRhdGU6c2VsZWN0ZWRTZXJ2aWNlcyI6IFtzZXJ2aWNlczogRGlzY292ZXJlZFNlcnZpY2VJbmZvW11dOwp9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3Qgc2V0dGluZ3NSZWYgPSByZWY8SW5zdGFuY2VUeXBlPAogIHR5cGVvZiBTY2FuRGlzY292ZXJ5VGFyZ2V0c1NldHRpbmdzCj4gfCBudWxsPihudWxsKTsKY29uc3Qgc2VsZWN0ZWRTZXJ2aWNlc01vZGVsID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcHJvcHMuc2VsZWN0ZWRTZXJ2aWNlcywKICBzZXQ6IChzZXJ2aWNlczogRGlzY292ZXJlZFNlcnZpY2VJbmZvW10pID0+IHsKICAgIGVtaXQoInVwZGF0ZTpzZWxlY3RlZFNlcnZpY2VzIiwgc2VydmljZXMpOwogIH0sCn0pOwoKZGVmaW5lRXhwb3NlKHsKICBlbnN1cmVTYXZlZDogKCkgPT4gc2V0dGluZ3NSZWYudmFsdWU/LmVuc3VyZVNhdmVkKCksCiAgbG9hZFRhcmdldHM6ICgpID0+IHNldHRpbmdzUmVmLnZhbHVlPy5sb2FkVGFyZ2V0cygpLAp9KTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERpYWxvZyA6b3Blbj0ib3BlbiIgQHVwZGF0ZTpvcGVuPSJlbWl0KCd1cGRhdGU6b3BlbicsICRldmVudCkiPgogICAgPERpYWxvZ0NvbnRlbnQKICAgICAgY2xhc3M9ImZsZXggbWF4LWgtWzg1dmhdIG1heC13LVtjYWxjKDEwMHZ3LTJyZW0pXSBmbGV4LWNvbCBvdmVyZmxvdy1oaWRkZW4gc206bWF4LXctWzgwMHB4XSIKICAgID4KICAgICAgPERpYWxvZ0hlYWRlciBjbGFzcz0ic2hyaW5rLTAiPgogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzPSJmbGV4IG1pbi13LTAgZmxleC1jb2wgZ2FwLTMgc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIHNtOmp1c3RpZnktYmV0d2VlbiIKICAgICAgICA+CiAgICAgICAgICA8RGlhbG9nVGl0bGU+e3sgdCgiYWRtaW4ucmV2ZXJzZVByb3h5LmRpc2NvdmVyVGl0bGUiKSB9fTwvRGlhbG9nVGl0bGU+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzPSJmbGV4IHctZml0IG1heC13LWZ1bGwgbWluLXctMCBzZWxmLWNlbnRlciBpdGVtcy1jZW50ZXIgZ2FwLTIgc206c2VsZi1hdXRvIgogICAgICAgICAgPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICBzaXplPSJpY29uIgogICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24uc2V0dGluZ3MnKSIKICAgICAgICAgICAgICBjbGFzcz0iaC0xMSB3LTExIHNtOmgtOSBzbTp3LTkiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc0Rpc2NvdmVyaW5nIgogICAgICAgICAgICAgIEBjbGljaz0iZW1pdCgndG9nZ2xlU2V0dGluZ3MnKSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxTbGlkZXJzSG9yaXpvbnRhbCBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDxSZWZyZXNoQnV0dG9uCiAgICAgICAgICAgICAgY2xhc3M9ImgtMTEgdy1hdXRvIG1heC13LVtjYWxjKDEwMHZ3LTdyZW0pXSBtaW4tdy0wICFzaHJpbmsganVzdGlmeS1jZW50ZXIgb3ZlcmZsb3ctaGlkZGVuIHNtOmgtOSBbJj5zcGFuXTptaW4tdy0wIFsmPnNwYW5dOnRydW5jYXRlIgogICAgICAgICAgICAgIDpsYWJlbD0idCgnYWRtaW4ucmV2ZXJzZVByb3h5LnJlZnJlc2hTZXJ2aWNlcycpIgogICAgICAgICAgICAgIDpsb2FkaW5nPSJpc0Rpc2NvdmVyaW5nIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNEaXNjb3ZlcmluZyIKICAgICAgICAgICAgICBAY2xpY2s9ImVtaXQoJ3NjYW4nKSIKICAgICAgICAgICAgLz4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHYtaWY9ImlzRGlzY292ZXJpbmciCiAgICAgICAgICAgICAgY2xhc3M9ImgtMTEgc206aC05IgogICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgQGNsaWNrPSJlbWl0KCdzdG9wU2NhbicpIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFggY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5yZXZlcnNlUHJveHkuY2FuY2VsIikgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICB7eyB0KCJhZG1pbi5yZXZlcnNlUHJveHkuZGlzY292ZXJEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICA8U2NhbkRpc2NvdmVyeVRhcmdldHNTZXR0aW5ncwogICAgICAgICAgcmVmPSJzZXR0aW5nc1JlZiIKICAgICAgICAgIHYtc2hvdz0iaXNTZXR0aW5nc09wZW4iCiAgICAgICAgICBjbGFzcz0ibXQtMyIKICAgICAgICAvPgogICAgICA8L0RpYWxvZ0hlYWRlcj4KCiAgICAgIDxkaXYgY2xhc3M9Im1pbi1oLTAgZmxleC0xIG92ZXJmbG93LWF1dG8iPgogICAgICAgIDxkaXYgY2xhc3M9InB5LTIiPgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSIKICAgICAgICAgICAgICBpc0Rpc2NvdmVyaW5nICYmCiAgICAgICAgICAgICAgKCFkaXNjb3ZlcmVkRGF0YSB8fCBkaXNjb3ZlcmVkRGF0YS5zZXJ2aWNlcy5sZW5ndGggPT09IDApCiAgICAgICAgICAgICIKICAgICAgICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHNwYWNlLXktNCBweS0xNiIKICAgICAgICAgID4KICAgICAgICAgICAgPFJlZnJlc2hDdyBjbGFzcz0iaC04IHctOCBhbmltYXRlLXNwaW4gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLnJldmVyc2VQcm94eS5wcm9iaW5nIikgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWVsc2UtaWY9IgogICAgICAgICAgICAgICFpc0Rpc2NvdmVyaW5nICYmCiAgICAgICAgICAgICAgZGlzY292ZXJlZERhdGEgJiYKICAgICAgICAgICAgICBkaXNjb3ZlcmVkRGF0YS5zZXJ2aWNlcy5sZW5ndGggPT09IDAKICAgICAgICAgICAgIgogICAgICAgICAgICBjbGFzcz0icHktMTYgdGV4dC1jZW50ZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5yZXZlcnNlUHJveHkuZGlzY292ZXJFbXB0eSIpIH19CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIHYtZWxzZS1pZj0iZGlzY292ZXJlZERhdGEgJiYgZGlzY292ZXJlZERhdGEuc2VydmljZXMubGVuZ3RoID4gMCIKICAgICAgICAgICAgY2xhc3M9InJvdW5kZWQtbWQgYm9yZGVyIGJnLWJhY2tncm91bmQiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxUYWJsZQogICAgICAgICAgICAgIGNsYXNzPSJtaW4tdy1bNDJyZW1dIHRhYmxlLWZpeGVkIgogICAgICAgICAgICAgIGNvbnRhaW5lci1jbGFzcz0ib3ZlcmZsb3ctdmlzaWJsZSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxUYWJsZUhlYWRlcgogICAgICAgICAgICAgICAgY2xhc3M9InN0aWNreSB0b3AtMCB6LTEwIGJnLWJhY2tncm91bmQgc2hhZG93LXNtIFsmX3RoXTpzdGlja3kgWyZfdGhdOnRvcC0wIFsmX3RoXTp6LTEwIFsmX3RoXTpiZy1iYWNrZ3JvdW5kIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxUYWJsZVJvdz4KICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy0xMSB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgICAgICAgICB0eXBlPSJjaGVja2JveCIKICAgICAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24uc2VsZWN0QWxsJykiCiAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0iaC00IHctNCBjdXJzb3ItcG9pbnRlciByb3VuZGVkIGJvcmRlci1ncmF5LTMwMCB0ZXh0LXByaW1hcnkiCiAgICAgICAgICAgICAgICAgICAgICA6Y2hlY2tlZD0iaXNBbGxTZWxlY3RlZCIKICAgICAgICAgICAgICAgICAgICAgIEBjaGFuZ2U9ImVtaXQoJ3RvZ2dsZUFsbCcsICRldmVudCkiCiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgdi1pZj0ic2hvd0hvc3RDb2x1bW4iIGNsYXNzPSJ3LVsxMDBweF0iPgogICAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnJldmVyc2VQcm94eS5kaXNjb3ZlckNvbHVtbnMuaG9zdCIpIH19CiAgICAgICAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJ3LTE2Ij4KICAgICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5yZXZlcnNlUHJveHkuZGlzY292ZXJDb2x1bW5zLnBvcnQiKSB9fQogICAgICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bODhweF0iPgogICAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnJldmVyc2VQcm94eS5kaXNjb3ZlckNvbHVtbnMuc3RhdHVzIikgfX0KICAgICAgICAgICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9InctWzE4MHB4XSI+CiAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucmV2ZXJzZVByb3h5LmRpc2NvdmVyQ29sdW1ucy5zZXJ2aWNlSWQiKSB9fQogICAgICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bMjAwcHhdIj4KICAgICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5yZXZlcnNlUHJveHkuZGlzY292ZXJDb2x1bW5zLnN1Z2dlc3RlZFBhdGgiKSB9fQogICAgICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICAgICAgPC9UYWJsZUhlYWRlcj4KICAgICAgICAgICAgICA8VGFibGVCb2R5PgogICAgICAgICAgICAgICAgPFRhYmxlUm93CiAgICAgICAgICAgICAgICAgIHYtZm9yPSIoc2VydmljZSwgaW5kZXgpIGluIGRpc2NvdmVyZWREYXRhLnNlcnZpY2VzIgogICAgICAgICAgICAgICAgICA6a2V5PSJpbmRleCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0idGV4dC1jZW50ZXIiPgogICAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgICAgdi1tb2RlbD0ic2VsZWN0ZWRTZXJ2aWNlc01vZGVsIgogICAgICAgICAgICAgICAgICAgICAgdHlwZT0iY2hlY2tib3giCiAgICAgICAgICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0iCiAgICAgICAgICAgICAgICAgICAgICAgIHQoJ2NvbW1vbi5zZWxlY3RJdGVtJywgewogICAgICAgICAgICAgICAgICAgICAgICAgIGl0ZW06IGAke3Jlc29sdmVTZXJ2aWNlSG9zdChzZXJ2aWNlKX06JHtzZXJ2aWNlLnBvcnR9YCwKICAgICAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJoLTQgdy00IGN1cnNvci1wb2ludGVyIHJvdW5kZWQgYm9yZGVyLWdyYXktMzAwIHRleHQtcHJpbWFyeSIKICAgICAgICAgICAgICAgICAgICAgIDp2YWx1ZT0ic2VydmljZSIKICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbAogICAgICAgICAgICAgICAgICAgIHYtaWY9InNob3dIb3N0Q29sdW1uIgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJtYXgtdy1bMTAwcHhdIGZvbnQtbW9ubyB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0iYmxvY2sgbWF4LXctZnVsbCB0cnVuY2F0ZSIKICAgICAgICAgICAgICAgICAgICAgIDp0aXRsZT0icmVzb2x2ZVNlcnZpY2VIb3N0KHNlcnZpY2UpIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIHt7IHJlc29sdmVTZXJ2aWNlSG9zdChzZXJ2aWNlKSB9fQogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9ImZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICBhcy1jaGlsZAogICAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0ibGluayIKICAgICAgICAgICAgICAgICAgICAgIGRhdGEtYWZmb3JkYW5jZT0iZGV0YWlscyIKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJoLWF1dG8gZ2FwLTEgcC0wIGZvbnQtbWVkaXVtIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIDxhCiAgICAgICAgICAgICAgICAgICAgICAgIDpocmVmPSJgaHR0cDovLyR7cmVzb2x2ZVNlcnZpY2VIb3N0KHNlcnZpY2UpfToke3NlcnZpY2UucG9ydH1gIgogICAgICAgICAgICAgICAgICAgICAgICB0YXJnZXQ9Il9ibGFuayIKICAgICAgICAgICAgICAgICAgICAgICAgcmVsPSJub29wZW5lciBub3JlZmVycmVyIgogICAgICAgICAgICAgICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLnJldmVyc2VQcm94eS5vcGVuTmV3V2luZG93JykiCiAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIHt7IHNlcnZpY2UucG9ydCB9fQogICAgICAgICAgICAgICAgICAgICAgICA8RXh0ZXJuYWxMaW5rIGNsYXNzPSJzaXplLTMuNSIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgICAgICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICB2LWlmPSJzZXJ2aWNlLmh0dHBTdGF0dXMgPT09IDQwMSIKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkIGJnLWFtYmVyLTUwMC8xMCBweC0yIHB5LTAuNSB0ZXh0LXhzIHRleHQtYW1iZXItNjAwIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnJldmVyc2VQcm94eS5hdXRoUmVxdWlyZWRTaG9ydCIpIH19CiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICB2LWVsc2UKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkIGJnLWdyZWVuLTUwMC8xMCBweC0yIHB5LTAuNSB0ZXh0LXhzIHRleHQtZ3JlZW4tNjAwIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIHt7IHNlcnZpY2UuaHR0cFN0YXR1cyB9fQogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9Im1heC13LVsxODBweF0iPgogICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICB2LWlmPSJzZXJ2aWNlLmRldGFpbC5sYWJlbCIKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJibG9jayBtYXgtdy1mdWxsIHRydW5jYXRlIHRleHQtc20iCiAgICAgICAgICAgICAgICAgICAgICA6dGl0bGU9InNlcnZpY2UuZGV0YWlsLmxhYmVsIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIHt7IHNlcnZpY2UuZGV0YWlsLmxhYmVsIH19CiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIHYtZWxzZSBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXJlZC01MDAiPgogICAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucmV2ZXJzZVByb3h5LnVua25vd25TZXJ2aWNlIikgfX0KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgICAgICAgICAgICAgICAgICB0KCdhZG1pbi5yZXZlcnNlUHJveHkucmVxdWlyZWRQYXRoUGxhY2Vob2xkZXInKQogICAgICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICAgICAgdi1tb2RlbD0ic2VydmljZS5kZXRhaWwucnVsZS5wYXRoIgogICAgICAgICAgICAgICAgICAgICAgOnBsYWNlaG9sZGVyPSIKICAgICAgICAgICAgICAgICAgICAgICAgdCgnYWRtaW4ucmV2ZXJzZVByb3h5LnJlcXVpcmVkUGF0aFBsYWNlaG9sZGVyJykKICAgICAgICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJoLTggbWluLXctMCB0ZXh0LXNtIgogICAgICAgICAgICAgICAgICAgICAgOmNsYXNzPSJ7CiAgICAgICAgICAgICAgICAgICAgICAgICdib3JkZXItZGVzdHJ1Y3RpdmUgZm9jdXMtdmlzaWJsZTpyaW5nLWRlc3RydWN0aXZlJzoKICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZFNlcnZpY2VzLmluY2x1ZGVzKHNlcnZpY2UpICYmCiAgICAgICAgICAgICAgICAgICAgICAgICAgIXNlcnZpY2UuZGV0YWlsLnJ1bGUucGF0aC50cmltKCksCiAgICAgICAgICAgICAgICAgICAgICB9IgogICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgICA8L1RhYmxlQm9keT4KICAgICAgICAgICAgPC9UYWJsZT4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxEaWFsb2dGb290ZXIKICAgICAgICBjbGFzcz0ibXQtMiBzaHJpbmstMCBpdGVtcy1jZW50ZXIgc206ZmxleC1ub3dyYXAgc206anVzdGlmeS1iZXR3ZWVuIgogICAgICA+CiAgICAgICAgPHNwYW4gY2xhc3M9InctZnVsbCB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTptaW4tdy0wIHNtOmZsZXgtMSI+CiAgICAgICAgICA8dGVtcGxhdGUgdi1pZj0iZGlzY292ZXJlZERhdGEiPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIHQoImFkbWluLnJldmVyc2VQcm94eS5zZWxlY3RlZEl0ZW1zIiwgewogICAgICAgICAgICAgICAgY291bnQ6IGAke3NlbGVjdGVkU2VydmljZXMubGVuZ3RofS8ke2Rpc2NvdmVyZWREYXRhLnNlcnZpY2VzLmxlbmd0aH1gLAogICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgIDwvc3Bhbj4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IHNocmluay0wIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0iZW1pdCgnY2FuY2VsJykiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5yZXZlcnNlUHJveHkuY2FuY2VsIikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICA6ZGlzYWJsZWQ9IgogICAgICAgICAgICAgIHNlbGVjdGVkU2VydmljZXMubGVuZ3RoID09PSAwIHx8ICFpc1NlbGVjdGlvblZhbGlkIHx8IGlzU2F2aW5nCiAgICAgICAgICAgICIKICAgICAgICAgICAgQGNsaWNrPSJlbWl0KCdzYXZlJykiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnJldmVyc2VQcm94eS5hZGRTZWxlY3RlZCIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { ExternalLink, RefreshCw, SlidersHorizontal, X } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import RefreshButton from "@/components/RefreshButton.vue";
+import ScanDiscoveryTargetsSettings from "@/components/ScanDiscoveryTargetsSettings.vue";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import {
+  type DiscoveredServiceInfo,
+  type ScanDiscoverResponse,
+} from "@/lib/api/scan";
+
+const props = defineProps<{
+  discoveredData: ScanDiscoverResponse | null;
+  isAllSelected: boolean;
+  isDiscovering: boolean;
+  isSaving: boolean;
+  isSelectionValid: boolean;
+  isSettingsOpen: boolean;
+  open: boolean;
+  resolveServiceHost: (service: DiscoveredServiceInfo) => string;
+  selectedServices: DiscoveredServiceInfo[];
+  showHostColumn: boolean;
+}>();
+
+const emit = defineEmits<{
+  cancel: [];
+  save: [];
+  scan: [];
+  stopScan: [];
+  toggleAll: [event: Event];
+  toggleSettings: [];
+  "update:open": [open: boolean];
+  "update:selectedServices": [services: DiscoveredServiceInfo[]];
+}>();
+const { t } = useI18n();
+const settingsRef = ref<InstanceType<
+  typeof ScanDiscoveryTargetsSettings
+> | null>(null);
+const selectedServicesModel = computed({
+  get: () => props.selectedServices,
+  set: (services: DiscoveredServiceInfo[]) => {
+    emit("update:selectedServices", services);
+  },
+});
+
+defineExpose({
+  ensureSaved: () => settingsRef.value?.ensureSaved(),
+  loadTargets: () => settingsRef.value?.loadTargets(),
+});
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent
+      class="flex max-h-[85vh] max-w-[calc(100vw-2rem)] flex-col overflow-hidden sm:max-w-[800px]"
+    >
+      <DialogHeader class="shrink-0">
+        <div
+          class="flex min-w-0 flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"
+        >
+          <DialogTitle>{{ t("admin.reverseProxy.discoverTitle") }}</DialogTitle>
+          <div
+            class="flex w-fit max-w-full min-w-0 self-center items-center gap-2 sm:self-auto"
+          >
+            <Button
+              variant="outline"
+              size="icon"
+              :aria-label="t('common.settings')"
+              class="h-11 w-11 sm:h-9 sm:w-9"
+              :disabled="isDiscovering"
+              @click="emit('toggleSettings')"
+            >
+              <SlidersHorizontal class="h-4 w-4" />
+            </Button>
+            <RefreshButton
+              class="h-11 w-auto max-w-[calc(100vw-7rem)] min-w-0 !shrink justify-center overflow-hidden sm:h-9 [&>span]:min-w-0 [&>span]:truncate"
+              :label="t('admin.reverseProxy.refreshServices')"
+              :loading="isDiscovering"
+              :disabled="isDiscovering"
+              @click="emit('scan')"
+            />
+            <Button
+              v-if="isDiscovering"
+              class="h-11 sm:h-9"
+              variant="outline"
+              @click="emit('stopScan')"
+            >
+              <X class="mr-2 h-4 w-4" />
+              {{ t("admin.reverseProxy.cancel") }}
+            </Button>
+          </div>
+        </div>
+        <DialogDescription>
+          {{ t("admin.reverseProxy.discoverDescription") }}
+        </DialogDescription>
+        <ScanDiscoveryTargetsSettings
+          ref="settingsRef"
+          v-show="isSettingsOpen"
+          class="mt-3"
+        />
+      </DialogHeader>
+
+      <div class="min-h-0 flex-1 overflow-auto">
+        <div class="py-2">
+          <div
+            v-if="
+              isDiscovering &&
+              (!discoveredData || discoveredData.services.length === 0)
+            "
+            class="flex flex-col items-center justify-center space-y-4 py-16"
+          >
+            <RefreshCw class="h-8 w-8 animate-spin text-muted-foreground" />
+            <p class="text-sm text-muted-foreground">
+              {{ t("admin.reverseProxy.probing") }}
+            </p>
+          </div>
+
+          <div
+            v-else-if="
+              !isDiscovering &&
+              discoveredData &&
+              discoveredData.services.length === 0
+            "
+            class="py-16 text-center text-muted-foreground"
+          >
+            {{ t("admin.reverseProxy.discoverEmpty") }}
+          </div>
+
+          <div
+            v-else-if="discoveredData && discoveredData.services.length > 0"
+            class="rounded-md border bg-background"
+          >
+            <Table
+              class="min-w-[42rem] table-fixed"
+              container-class="overflow-visible"
+            >
+              <TableHeader
+                class="sticky top-0 z-10 bg-background shadow-sm [&_th]:sticky [&_th]:top-0 [&_th]:z-10 [&_th]:bg-background"
+              >
+                <TableRow>
+                  <TableHead class="w-11 text-center">
+                    <input
+                      type="checkbox"
+                      :aria-label="t('common.selectAll')"
+                      class="h-4 w-4 cursor-pointer rounded border-gray-300 text-primary"
+                      :checked="isAllSelected"
+                      @change="emit('toggleAll', $event)"
+                    />
+                  </TableHead>
+                  <TableHead v-if="showHostColumn" class="w-[100px]">
+                    {{ t("admin.reverseProxy.discoverColumns.host") }}
+                  </TableHead>
+                  <TableHead class="w-16">
+                    {{ t("admin.reverseProxy.discoverColumns.port") }}
+                  </TableHead>
+                  <TableHead class="w-[88px]">
+                    {{ t("admin.reverseProxy.discoverColumns.status") }}
+                  </TableHead>
+                  <TableHead class="w-[180px]">
+                    {{ t("admin.reverseProxy.discoverColumns.serviceId") }}
+                  </TableHead>
+                  <TableHead class="w-[200px]">
+                    {{ t("admin.reverseProxy.discoverColumns.suggestedPath") }}
+                  </TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow
+                  v-for="(service, index) in discoveredData.services"
+                  :key="index"
+                >
+                  <TableCell class="text-center">
+                    <input
+                      v-model="selectedServicesModel"
+                      type="checkbox"
+                      :aria-label="
+                        t('common.selectItem', {
+                          item: `${resolveServiceHost(service)}:${service.port}`,
+                        })
+                      "
+                      class="h-4 w-4 cursor-pointer rounded border-gray-300 text-primary"
+                      :value="service"
+                    />
+                  </TableCell>
+                  <TableCell
+                    v-if="showHostColumn"
+                    class="max-w-[100px] font-mono text-xs text-muted-foreground"
+                  >
+                    <span
+                      class="block max-w-full truncate"
+                      :title="resolveServiceHost(service)"
+                    >
+                      {{ resolveServiceHost(service) }}
+                    </span>
+                  </TableCell>
+                  <TableCell class="font-medium">
+                    <Button
+                      as-child
+                      variant="link"
+                      data-affordance="details"
+                      class="h-auto gap-1 p-0 font-medium"
+                    >
+                      <a
+                        :href="`http://${resolveServiceHost(service)}:${service.port}`"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        :title="t('admin.reverseProxy.openNewWindow')"
+                      >
+                        {{ service.port }}
+                        <ExternalLink class="size-3.5" aria-hidden="true" />
+                      </a>
+                    </Button>
+                  </TableCell>
+                  <TableCell>
+                    <span
+                      v-if="service.httpStatus === 401"
+                      class="rounded bg-amber-500/10 px-2 py-0.5 text-xs text-amber-600"
+                    >
+                      {{ t("admin.reverseProxy.authRequiredShort") }}
+                    </span>
+                    <span
+                      v-else
+                      class="rounded bg-green-500/10 px-2 py-0.5 text-xs text-green-600"
+                    >
+                      {{ service.httpStatus }}
+                    </span>
+                  </TableCell>
+                  <TableCell class="max-w-[180px]">
+                    <span
+                      v-if="service.detail.label"
+                      class="block max-w-full truncate text-sm"
+                      :title="service.detail.label"
+                    >
+                      {{ service.detail.label }}
+                    </span>
+                    <span v-else class="text-sm font-medium text-red-500">
+                      {{ t("admin.reverseProxy.unknownService") }}
+                    </span>
+                  </TableCell>
+                  <TableCell>
+                    <Input
+                      :aria-label="
+                        t('admin.reverseProxy.requiredPathPlaceholder')
+                      "
+                      v-model="service.detail.rule.path"
+                      :placeholder="
+                        t('admin.reverseProxy.requiredPathPlaceholder')
+                      "
+                      class="h-8 min-w-0 text-sm"
+                      :class="{
+                        'border-destructive focus-visible:ring-destructive':
+                          selectedServices.includes(service) &&
+                          !service.detail.rule.path.trim(),
+                      }"
+                    />
+                  </TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </div>
+        </div>
+      </div>
+
+      <DialogFooter
+        class="mt-2 shrink-0 items-center sm:flex-nowrap sm:justify-between"
+      >
+        <span class="w-full text-sm text-muted-foreground sm:min-w-0 sm:flex-1">
+          <template v-if="discoveredData">
+            {{
+              t("admin.reverseProxy.selectedItems", {
+                count: `${selectedServices.length}/${discoveredData.services.length}`,
+              })
+            }}
+          </template>
+        </span>
+        <div class="flex shrink-0 items-center gap-2">
+          <Button variant="outline" @click="emit('cancel')">
+            {{ t("admin.reverseProxy.cancel") }}
+          </Button>
+          <Button
+            :disabled="
+              selectedServices.length === 0 || !isSelectionValid || isSaving
+            "
+            @click="emit('save')"
+          >
+            {{ t("admin.reverseProxy.addSelected") }}
+          </Button>
+        </div>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

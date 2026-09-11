@@ -1,1 +1,111 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IFNoaWVsZENoZWNrLCBTaGllbGRPZmYsIFN0YXIgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB0eXBlIHsgU3ViZG9tYWluTWFwcGluZ1N0YXR1c0luZGljYXRvcnNQcm9wcyB9IGZyb20gIi4vc3ViZG9tYWluLW1hcHBpbmctc3RhdHVzLWNvbnRyYWN0IjsKaW1wb3J0IFN1YmRvbWFpbk1hcHBpbmdTdGF0dXNUb29sdGlwIGZyb20gIi4vU3ViZG9tYWluTWFwcGluZ1N0YXR1c1Rvb2x0aXAudnVlIjsKCmRlZmluZVByb3BzPHsgbW9kZWw6IFN1YmRvbWFpbk1hcHBpbmdTdGF0dXNJbmRpY2F0b3JzUHJvcHMgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cgpjb25zdCBmb3JtYXREdXJhdGlvbiA9IChzZWNvbmRzOiBudW1iZXIpOiBzdHJpbmcgPT4gewogIGNvbnN0IHRvdGFsTWludXRlcyA9IE1hdGgubWF4KDEsIE1hdGgucm91bmQoc2Vjb25kcyAvIDYwKSk7CiAgaWYgKHRvdGFsTWludXRlcyAlICgyNCAqIDYwKSA9PT0gMCkgcmV0dXJuIGAke3RvdGFsTWludXRlcyAvICgyNCAqIDYwKX1kYDsKICBpZiAodG90YWxNaW51dGVzICUgNjAgPT09IDApIHJldHVybiBgJHt0b3RhbE1pbnV0ZXMgLyA2MH1oYDsKICByZXR1cm4gYCR7dG90YWxNaW51dGVzfW1gOwp9Owo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8QmFkZ2Ugdi1pZj0ibW9kZWwuaXNBdXRoU2VydmljZSIgdmFyaWFudD0iZGVmYXVsdCI+CiAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5hdXRoU2VydmljZUJhZGdlIikgfX0KICA8L0JhZGdlPgoKICA8U3ViZG9tYWluTWFwcGluZ1N0YXR1c1Rvb2x0aXAKICAgIHYtaWY9Im1vZGVsLm1hcHBpbmcuaXNfZGVmYXVsdCIKICAgIDptb2RlbD0ibW9kZWwiCiAgICB0b29sdGlwPSJkZWZhdWx0LWRvbWFpbiIKICA+CiAgICA8dGVtcGxhdGUgI3RyaWdnZXI9InsgaGFuZGxlQ2xpY2sgfSI+CiAgICAgIDxidXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgY2xhc3M9ImlubGluZS1mbGV4IGgtNSB3LTUgc2hyaW5rLTAgY3Vyc29yLWhlbHAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIGZvY3VzLXZpc2libGU6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0yIGZvY3VzLXZpc2libGU6cmluZy1yaW5nLzQwIgogICAgICAgIDpjbGFzcz0iCiAgICAgICAgICBtb2RlbC5pc0RlZmF1bHREb21haW5BdmFpbGFibGUKICAgICAgICAgICAgPyAndGV4dC1tdXRlZC1mb3JlZ3JvdW5kJwogICAgICAgICAgICA6ICd0ZXh0LWFtYmVyLTYwMCBkYXJrOnRleHQtYW1iZXItMzAwJwogICAgICAgICIKICAgICAgICA6YXJpYS1sYWJlbD0iCiAgICAgICAgICB0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5kZWZhdWx0RG9tYWluQXJpYScsIHsKICAgICAgICAgICAgaG9zdDogbW9kZWwuZm9ybWF0SG9zdChtb2RlbC5tYXBwaW5nLmhvc3QpLAogICAgICAgICAgfSkKICAgICAgICAiCiAgICAgICAgQGNsaWNrPSJoYW5kbGVDbGljayIKICAgICAgPgogICAgICAgIDxTdGFyIGNsYXNzPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgPC9idXR0b24+CiAgICA8L3RlbXBsYXRlPgogICAgPHA+CiAgICAgIHt7CiAgICAgICAgbW9kZWwuaXNEZWZhdWx0RG9tYWluQXZhaWxhYmxlCiAgICAgICAgICA/IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmRlZmF1bHREb21haW4iKQogICAgICAgICAgOiB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5kZWZhdWx0RG9tYWluSW5hY3RpdmUiKQogICAgICB9fQogICAgPC9wPgogIDwvU3ViZG9tYWluTWFwcGluZ1N0YXR1c1Rvb2x0aXA+CgogIDxTdWJkb21haW5NYXBwaW5nU3RhdHVzVG9vbHRpcAogICAgdi1pZj0ibW9kZWwubWFwcGluZy51c2VfYXV0aCIKICAgIDptb2RlbD0ibW9kZWwiCiAgICB0b29sdGlwPSJhdXRoZW50aWNhdGlvbiIKICA+CiAgICA8dGVtcGxhdGUgI3RyaWdnZXI9InsgaGFuZGxlQ2xpY2sgfSI+CiAgICAgIDxidXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgY2xhc3M9ImlubGluZS1mbGV4IGgtNSB3LTUgc2hyaW5rLTAgY3Vyc29yLWhlbHAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLW11dGVkIGhvdmVyOnRleHQtZm9yZWdyb3VuZCBmb2N1cy12aXNpYmxlOm91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMiBmb2N1cy12aXNpYmxlOnJpbmctcmluZy80MCIKICAgICAgICA6YXJpYS1sYWJlbD0iCiAgICAgICAgICB0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5zdGF0dXNBdXRoUmVxdWlyZWRBcmlhJywgewogICAgICAgICAgICBob3N0OiBtb2RlbC5mb3JtYXRIb3N0KG1vZGVsLm1hcHBpbmcuaG9zdCksCiAgICAgICAgICB9KQogICAgICAgICIKICAgICAgICBAY2xpY2s9ImhhbmRsZUNsaWNrIgogICAgICA+CiAgICAgICAgPFNoaWVsZENoZWNrIGNsYXNzPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgPC9idXR0b24+CiAgICA8L3RlbXBsYXRlPgogICAgPHA+e3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdHVzQXV0aFJlcXVpcmVkVG9vbHRpcCIpIH19PC9wPgogIDwvU3ViZG9tYWluTWFwcGluZ1N0YXR1c1Rvb2x0aXA+CgogIDxTdWJkb21haW5NYXBwaW5nU3RhdHVzVG9vbHRpcAogICAgdi1pZj0ibW9kZWwubWFwcGluZy5hZHZhbmNlZF9hdXRoPy5lbmFibGVkID09PSB0cnVlIgogICAgOm1vZGVsPSJtb2RlbCIKICAgIHRvb2x0aXA9ImFkdmFuY2VkLWF1dGgiCiAgPgogICAgPHRlbXBsYXRlICN0cmlnZ2VyPSJ7IGhhbmRsZUNsaWNrIH0iPgogICAgICA8YnV0dG9uCiAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgIGNsYXNzPSJpbmxpbmUtZmxleCBoLTUgdy01IHNocmluay0wIGN1cnNvci1oZWxwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLW1kIHRleHQtcHJpbWFyeSB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy1wcmltYXJ5LzEwIGZvY3VzLXZpc2libGU6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0yIGZvY3VzLXZpc2libGU6cmluZy1yaW5nLzQwIgogICAgICAgIDphcmlhLWxhYmVsPSIKICAgICAgICAgIHQoJ2FkbWluLnN1YmRvbWFpblByb3h5LmFkdmFuY2VkQXV0aEVuYWJsZWRBcmlhJywgewogICAgICAgICAgICBob3N0OiBtb2RlbC5mb3JtYXRIb3N0KG1vZGVsLm1hcHBpbmcuaG9zdCksCiAgICAgICAgICB9KQogICAgICAgICIKICAgICAgICBAY2xpY2s9ImhhbmRsZUNsaWNrIgogICAgICA+CiAgICAgICAgPFNoaWVsZE9mZiBjbGFzcz0iaC0zLjUgdy0zLjUiIC8+CiAgICAgIDwvYnV0dG9uPgogICAgPC90ZW1wbGF0ZT4KICAgIDxwPgogICAgICB7ewogICAgICAgIHQoImFkbWluLnN1YmRvbWFpblByb3h5LmFkdmFuY2VkQXV0aEVuYWJsZWRUb29sdGlwIiwgewogICAgICAgICAgZ3JvdXBzOiBtb2RlbC5tYXBwaW5nLmFkdmFuY2VkX2F1dGguZ3JvdXBzLmxlbmd0aCwKICAgICAgICAgIGlkbGU6IGZvcm1hdER1cmF0aW9uKG1vZGVsLm1hcHBpbmcuYWR2YW5jZWRfYXV0aC5pZGxlX3R0bF9zZWNvbmRzKSwKICAgICAgICB9KQogICAgICB9fQogICAgPC9wPgogIDwvU3ViZG9tYWluTWFwcGluZ1N0YXR1c1Rvb2x0aXA+CgogIDxCYWRnZSB2LWlmPSIhbW9kZWwubWFwcGluZy51c2VfYXV0aCIgdmFyaWFudD0ic2Vjb25kYXJ5Ij4KICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnB1YmxpY0FjY2VzcyIpIH19CiAgPC9CYWRnZT4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { ShieldCheck, ShieldOff, Star } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import type { SubdomainMappingStatusIndicatorsProps } from "./subdomain-mapping-status-contract";
+import SubdomainMappingStatusTooltip from "./SubdomainMappingStatusTooltip.vue";
+
+defineProps<{ model: SubdomainMappingStatusIndicatorsProps }>();
+const { t } = useI18n();
+
+const formatDuration = (seconds: number): string => {
+  const totalMinutes = Math.max(1, Math.round(seconds / 60));
+  if (totalMinutes % (24 * 60) === 0) return `${totalMinutes / (24 * 60)}d`;
+  if (totalMinutes % 60 === 0) return `${totalMinutes / 60}h`;
+  return `${totalMinutes}m`;
+};
+</script>
+
+<template>
+  <Badge v-if="model.isAuthService" variant="default">
+    {{ t("admin.subdomainProxy.authServiceBadge") }}
+  </Badge>
+
+  <SubdomainMappingStatusTooltip
+    v-if="model.mapping.is_default"
+    :model="model"
+    tooltip="default-domain"
+  >
+    <template #trigger="{ handleClick }">
+      <button
+        type="button"
+        class="inline-flex h-5 w-5 shrink-0 cursor-help items-center justify-center rounded-md transition-colors hover:bg-muted hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/40"
+        :class="
+          model.isDefaultDomainAvailable
+            ? 'text-muted-foreground'
+            : 'text-amber-600 dark:text-amber-300'
+        "
+        :aria-label="
+          t('admin.subdomainProxy.defaultDomainAria', {
+            host: model.formatHost(model.mapping.host),
+          })
+        "
+        @click="handleClick"
+      >
+        <Star class="h-3.5 w-3.5" />
+      </button>
+    </template>
+    <p>
+      {{
+        model.isDefaultDomainAvailable
+          ? t("admin.subdomainProxy.defaultDomain")
+          : t("admin.subdomainProxy.defaultDomainInactive")
+      }}
+    </p>
+  </SubdomainMappingStatusTooltip>
+
+  <SubdomainMappingStatusTooltip
+    v-if="model.mapping.use_auth"
+    :model="model"
+    tooltip="authentication"
+  >
+    <template #trigger="{ handleClick }">
+      <button
+        type="button"
+        class="inline-flex h-5 w-5 shrink-0 cursor-help items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-muted hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/40"
+        :aria-label="
+          t('admin.subdomainProxy.statusAuthRequiredAria', {
+            host: model.formatHost(model.mapping.host),
+          })
+        "
+        @click="handleClick"
+      >
+        <ShieldCheck class="h-3.5 w-3.5" />
+      </button>
+    </template>
+    <p>{{ t("admin.subdomainProxy.statusAuthRequiredTooltip") }}</p>
+  </SubdomainMappingStatusTooltip>
+
+  <SubdomainMappingStatusTooltip
+    v-if="model.mapping.advanced_auth?.enabled === true"
+    :model="model"
+    tooltip="advanced-auth"
+  >
+    <template #trigger="{ handleClick }">
+      <button
+        type="button"
+        class="inline-flex h-5 w-5 shrink-0 cursor-help items-center justify-center rounded-md text-primary transition-colors hover:bg-primary/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/40"
+        :aria-label="
+          t('admin.subdomainProxy.advancedAuthEnabledAria', {
+            host: model.formatHost(model.mapping.host),
+          })
+        "
+        @click="handleClick"
+      >
+        <ShieldOff class="h-3.5 w-3.5" />
+      </button>
+    </template>
+    <p>
+      {{
+        t("admin.subdomainProxy.advancedAuthEnabledTooltip", {
+          groups: model.mapping.advanced_auth.groups.length,
+          idle: formatDuration(model.mapping.advanced_auth.idle_ttl_seconds),
+        })
+      }}
+    </p>
+  </SubdomainMappingStatusTooltip>
+
+  <Badge v-if="!model.mapping.use_auth" variant="secondary">
+    {{ t("admin.subdomainProxy.publicAccess") }}
+  </Badge>
+</template>

@@ -1,1 +1,34 @@
-cHViIG1vZCBhZGFwdGVyczsKbW9kIGNyZWRlbnRpYWxzOwpwdWIgbW9kIGh0dHA7CnB1YiBtb2QgbW9kZWw7CnB1YiBtb2Qgb3duZXJzaGlwOwpwdWIgbW9kIHByb2plY3Rpb247CnB1YiBtb2QgcmVwb3NpdG9yeTsKcHViIG1vZCBydW50aW1lOwpwdWIgbW9kIHNjaGVkdWxlcjsKcHViIG1vZCBzZXJ2aWNlOwoKcHViIHVzZSBodHRwOjpyb3V0ZXMgYXMgcGFuZWxfc3luY19yb3V0ZXM7CnB1YiB1c2UgcnVudGltZTo6UGFuZWxTeW5jUnVudGltZTsKCnB1YiBmbiBzdGFydF9wYW5lbF9zeW5jX3Rhc2tzKHN0YXRlOiBjcmF0ZTo6c3RhdGU6OkFwcFN0YXRlKSB7CiAgICBzY2hlZHVsZXI6OnN0YXJ0KHN0YXRlKTsKfQoKcHViIGZuIG5vdGlmeV9zb3VyY2VfY2hhbmdlZChzdGF0ZTogJmNyYXRlOjpzdGF0ZTo6QXBwU3RhdGUpIHsKICAgIHN0YXRlLnBhbmVsX3N5bmMuc291cmNlX2NoYW5nZWQubm90aWZ5X29uZSgpOwp9CgpwdWIgYXN5bmMgZm4gY2xlYXJfY3JlZGVudGlhbHNfYWZ0ZXJfYmFja3VwX3Jlc3RvcmUoCiAgICBzdGF0ZTogJmNyYXRlOjpzdGF0ZTo6QXBwU3RhdGUsCikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIHNlcnZpY2U6OmNsZWFyX2NyZWRlbnRpYWxzX2FmdGVyX2JhY2t1cF9yZXN0b3JlKHN0YXRlKS5hd2FpdAp9CgpwdWIgZm4gY2xlYXJfYWxsX2NyZWRlbnRpYWxzKHN0YXRlOiAmY3JhdGU6OnN0YXRlOjpBcHBTdGF0ZSkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIHNlcnZpY2U6OmNsZWFyX2FsbF9jcmVkZW50aWFscyhzdGF0ZSkKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0czsK
+pub mod adapters;
+mod credentials;
+pub mod http;
+pub mod model;
+pub mod ownership;
+pub mod projection;
+pub mod repository;
+pub mod runtime;
+pub mod scheduler;
+pub mod service;
+
+pub use http::routes as panel_sync_routes;
+pub use runtime::PanelSyncRuntime;
+
+pub fn start_panel_sync_tasks(state: crate::state::AppState) {
+    scheduler::start(state);
+}
+
+pub fn notify_source_changed(state: &crate::state::AppState) {
+    state.panel_sync.source_changed.notify_one();
+}
+
+pub async fn clear_credentials_after_backup_restore(
+    state: &crate::state::AppState,
+) -> Result<(), String> {
+    service::clear_credentials_after_backup_restore(state).await
+}
+
+pub fn clear_all_credentials(state: &crate::state::AppState) -> Result<(), String> {
+    service::clear_all_credentials(state)
+}
+
+#[cfg(test)]
+mod tests;

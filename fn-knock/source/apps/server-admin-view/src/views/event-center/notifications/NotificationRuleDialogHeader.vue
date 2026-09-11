@@ -1,1 +1,45 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB0eXBlIHsgTm90aWZpY2F0aW9uUnVsZUVkaXRvckNvbnRyb2xsZXIgfSBmcm9tICIuL25vdGlmaWNhdGlvbi1ydWxlLWVkaXRvci1jb250cmFjdCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsgY29udHJvbGxlcjogTm90aWZpY2F0aW9uUnVsZUVkaXRvckNvbnRyb2xsZXIgfT4oKTsKY29uc3QgewogIGRpYWxvZ0Rlc2NyaXB0aW9uVGV4dCwKICBkaWFsb2dNb2RlQmFkZ2VMYWJlbCwKICBkaWFsb2dTZWxlY3Rpb25CYWRnZUxhYmVsLAogIGRpYWxvZ1RhcmdldHNCYWRnZUxhYmVsLAogIGRpYWxvZ1RpdGxlVGV4dCwKfSA9IHByb3BzLmNvbnRyb2xsZXI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2dIZWFkZXIKICAgIGNsYXNzPSJib3JkZXItYiBiZy1ncmFkaWVudC10by1yIGZyb20tbXV0ZWQvNDAgdmlhLWJhY2tncm91bmQgdG8tYmFja2dyb3VuZCBweC00IHB5LTUgc206cHgtNiIKICA+CiAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTMiPgogICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEuNSI+CiAgICAgICAgPERpYWxvZ1RpdGxlPnt7IGRpYWxvZ1RpdGxlVGV4dCB9fTwvRGlhbG9nVGl0bGU+CiAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPnt7IGRpYWxvZ0Rlc2NyaXB0aW9uVGV4dCB9fTwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgIDxCYWRnZQogICAgICAgICAgdmFyaWFudD0ic2Vjb25kYXJ5IgogICAgICAgICAgY2xhc3M9InJvdW5kZWQtZnVsbCBiZy1wcmltYXJ5LzEwIHB4LTMgcHktMSB0ZXh0LXByaW1hcnkiCiAgICAgICAgPgogICAgICAgICAge3sgZGlhbG9nTW9kZUJhZGdlTGFiZWwgfX0KICAgICAgICA8L0JhZGdlPgogICAgICAgIDxCYWRnZSB2YXJpYW50PSJvdXRsaW5lIiBjbGFzcz0icm91bmRlZC1mdWxsIHB4LTMgcHktMSI+CiAgICAgICAgICB7eyBkaWFsb2dTZWxlY3Rpb25CYWRnZUxhYmVsIH19CiAgICAgICAgPC9CYWRnZT4KICAgICAgICA8QmFkZ2UgdmFyaWFudD0ib3V0bGluZSIgY2xhc3M9InJvdW5kZWQtZnVsbCBweC0zIHB5LTEiPgogICAgICAgICAge3sgZGlhbG9nVGFyZ2V0c0JhZGdlTGFiZWwgfX0KICAgICAgICA8L0JhZGdlPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvRGlhbG9nSGVhZGVyPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { Badge } from "@/components/ui/badge";
+import {
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import type { NotificationRuleEditorController } from "./notification-rule-editor-contract";
+
+const props = defineProps<{ controller: NotificationRuleEditorController }>();
+const {
+  dialogDescriptionText,
+  dialogModeBadgeLabel,
+  dialogSelectionBadgeLabel,
+  dialogTargetsBadgeLabel,
+  dialogTitleText,
+} = props.controller;
+</script>
+
+<template>
+  <DialogHeader
+    class="border-b bg-gradient-to-r from-muted/40 via-background to-background px-4 py-5 sm:px-6"
+  >
+    <div class="space-y-3">
+      <div class="space-y-1.5">
+        <DialogTitle>{{ dialogTitleText }}</DialogTitle>
+        <DialogDescription>{{ dialogDescriptionText }}</DialogDescription>
+      </div>
+      <div class="flex flex-wrap items-center gap-2">
+        <Badge
+          variant="secondary"
+          class="rounded-full bg-primary/10 px-3 py-1 text-primary"
+        >
+          {{ dialogModeBadgeLabel }}
+        </Badge>
+        <Badge variant="outline" class="rounded-full px-3 py-1">
+          {{ dialogSelectionBadgeLabel }}
+        </Badge>
+        <Badge variant="outline" class="rounded-full px-3 py-1">
+          {{ dialogTargetsBadgeLabel }}
+        </Badge>
+      </div>
+    </div>
+  </DialogHeader>
+</template>

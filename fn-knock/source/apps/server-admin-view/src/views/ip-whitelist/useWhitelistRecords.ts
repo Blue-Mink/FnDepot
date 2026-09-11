@@ -1,1 +1,82 @@
-aW1wb3J0IHsgb25Nb3VudGVkLCBvblVubW91bnRlZCwgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsKICBleHRyYWN0RXJyb3JNZXNzYWdlLAogIHVzZUFzeW5jQWN0aW9uLAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgewogIFdoaXRlbGlzdEFQSSwKICB0eXBlIFdoaXRlTGlzdFJlY29yZCwKICB0eXBlIFdoaXRlbGlzdFJlZ2lvbkdyb3VwUmVjb3JkLAp9IGZyb20gIkAvbGliL2FwaS93aGl0ZWxpc3QiOwppbXBvcnQgeyBjcmVhdGVWaXNpYmlsaXR5UG9sbGVyIH0gZnJvbSAiQC9jb21wb3NhYmxlcy91c2VWaXNpYmlsaXR5UG9sbGluZyI7Cgp0eXBlIFRyYW5zbGF0ZSA9IChrZXk6IHN0cmluZykgPT4gc3RyaW5nOwoKZXhwb3J0IGZ1bmN0aW9uIHVzZVdoaXRlbGlzdFJlY29yZHModHJhbnNsYXRlOiBUcmFuc2xhdGUpIHsKICBjb25zdCByZWNvcmRzID0gcmVmPFdoaXRlTGlzdFJlY29yZFtdPihbXSk7CiAgY29uc3QgcmVnaW9uR3JvdXBzID0gcmVmPFdoaXRlbGlzdFJlZ2lvbkdyb3VwUmVjb3JkW10+KFtdKTsKICBjb25zdCBpc0luaXRpYWxpemluZyA9IHJlZih0cnVlKTsKCiAgY29uc3QgeyBpc1BlbmRpbmc6IGxvYWRpbmcsIHJ1bjogcnVuRmV0Y2hSZWNvcmRzIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IodHJhbnNsYXRlKCJhZG1pbi5pcFdoaXRlbGlzdC5uZXR3b3JrTG9hZFRpdGxlIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdHJhbnNsYXRlKCJhZG1pbi5pcFdoaXRlbGlzdC5sb2FkRmFpbGVkIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwoKICBhc3luYyBmdW5jdGlvbiBmZXRjaFJlY29yZHMoKSB7CiAgICBhd2FpdCBydW5GZXRjaFJlY29yZHMoCiAgICAgIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCBbcmVjb3Jkc1Jlc3BvbnNlLCByZWdpb25zUmVzcG9uc2VdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgICAgICAgV2hpdGVsaXN0QVBJLmdldFJlY29yZHMoKSwKICAgICAgICAgIFdoaXRlbGlzdEFQSS5nZXRSZWdpb25zKCksCiAgICAgICAgXSk7CgogICAgICAgIGlmIChyZWNvcmRzUmVzcG9uc2Uuc3VjY2VzcykgewogICAgICAgICAgcmVjb3Jkcy52YWx1ZSA9IHJlY29yZHNSZXNwb25zZS5kYXRhOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICB0b2FzdC5lcnJvcih0cmFuc2xhdGUoImFkbWluLmlwV2hpdGVsaXN0LmdldEZhaWxlZCIpLCB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uOiByZWNvcmRzUmVzcG9uc2UubWVzc2FnZSA/PyB1bmRlZmluZWQsCiAgICAgICAgICB9KTsKICAgICAgICB9CgogICAgICAgIGlmIChyZWdpb25zUmVzcG9uc2Uuc3VjY2VzcyAmJiByZWdpb25zUmVzcG9uc2UuZGF0YSkgewogICAgICAgICAgcmVnaW9uR3JvdXBzLnZhbHVlID0gcmVnaW9uc1Jlc3BvbnNlLmRhdGE7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QucmVnaW9uR3JvdXBzTG9hZEZhaWxlZCIpLCB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uOiByZWdpb25zUmVzcG9uc2UubWVzc2FnZSA/PyB1bmRlZmluZWQsCiAgICAgICAgICB9KTsKICAgICAgICB9CiAgICAgIH0sCiAgICAgIHsKICAgICAgICBvbkZpbmFsbHk6ICgpID0+IHsKICAgICAgICAgIGlzSW5pdGlhbGl6aW5nLnZhbHVlID0gZmFsc2U7CiAgICAgICAgfSwKICAgICAgfSwKICAgICk7CiAgfQoKICBjb25zdCByZWNvcmRzUG9sbGVyID0gY3JlYXRlVmlzaWJpbGl0eVBvbGxlcih7CiAgICBpbnRlcnZhbE1zOiAzMF8wMDAsCiAgICB0YXNrOiBmZXRjaFJlY29yZHMsCiAgfSk7CgogIG9uTW91bnRlZCgoKSA9PiB7CiAgICByZWNvcmRzUG9sbGVyLnN0YXJ0KCk7CiAgfSk7CgogIG9uVW5tb3VudGVkKHJlY29yZHNQb2xsZXIuc3RvcCk7CgogIHJldHVybiB7CiAgICBmZXRjaFJlY29yZHMsCiAgICBpc0luaXRpYWxpemluZywKICAgIGxvYWRpbmcsCiAgICByZWNvcmRzLAogICAgcmVnaW9uR3JvdXBzLAogIH07Cn0K
+import { onMounted, onUnmounted, ref } from "vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  WhitelistAPI,
+  type WhiteListRecord,
+  type WhitelistRegionGroupRecord,
+} from "@/lib/api/whitelist";
+import { createVisibilityPoller } from "@/composables/useVisibilityPolling";
+
+type Translate = (key: string) => string;
+
+export function useWhitelistRecords(translate: Translate) {
+  const records = ref<WhiteListRecord[]>([]);
+  const regionGroups = ref<WhitelistRegionGroupRecord[]>([]);
+  const isInitializing = ref(true);
+
+  const { isPending: loading, run: runFetchRecords } = useAsyncAction({
+    onError: (error) => {
+      toast.error(translate("admin.ipWhitelist.networkLoadTitle"), {
+        description: extractErrorMessage(
+          error,
+          translate("admin.ipWhitelist.loadFailed"),
+        ),
+      });
+    },
+  });
+
+  async function fetchRecords() {
+    await runFetchRecords(
+      async () => {
+        const [recordsResponse, regionsResponse] = await Promise.all([
+          WhitelistAPI.getRecords(),
+          WhitelistAPI.getRegions(),
+        ]);
+
+        if (recordsResponse.success) {
+          records.value = recordsResponse.data;
+        } else {
+          toast.error(translate("admin.ipWhitelist.getFailed"), {
+            description: recordsResponse.message ?? undefined,
+          });
+        }
+
+        if (regionsResponse.success && regionsResponse.data) {
+          regionGroups.value = regionsResponse.data;
+        } else {
+          toast.error(translate("admin.ipWhitelist.regionGroupsLoadFailed"), {
+            description: regionsResponse.message ?? undefined,
+          });
+        }
+      },
+      {
+        onFinally: () => {
+          isInitializing.value = false;
+        },
+      },
+    );
+  }
+
+  const recordsPoller = createVisibilityPoller({
+    intervalMs: 30_000,
+    task: fetchRecords,
+  });
+
+  onMounted(() => {
+    recordsPoller.start();
+  });
+
+  onUnmounted(recordsPoller.stop);
+
+  return {
+    fetchRecords,
+    isInitializing,
+    loading,
+    records,
+    regionGroups,
+  };
+}

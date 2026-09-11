@@ -1,1 +1,51 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiB9IGZyb20gJ3Z1ZSc7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICd2dWUtaTE4bic7Cgp0eXBlIERlZmF1bHRSb3V0ZUFjdGlvbiA9ICdjbGVhcicgfCAnc2V0JzsKCmV4cG9ydCBjb25zdCB1c2VEZWZhdWx0Um91dGVDb25maXJtID0gKGRlZmF1bHRTeXN0ZW1Qb3J0OiBudW1iZXIpID0+IHsKICBjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKICBjb25zdCBvcGVuID0gcmVmKGZhbHNlKTsKICBjb25zdCBwZW5kaW5nUGF0aCA9IHJlZjxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBwZW5kaW5nQWN0aW9uID0gcmVmPERlZmF1bHRSb3V0ZUFjdGlvbiB8IG51bGw+KG51bGwpOwogIGNvbnN0IHBlbmRpbmdUYXJnZXRQb3J0ID0gcmVmPG51bWJlciB8IG51bGw+KG51bGwpOwoKICBjb25zdCBzaG93RGVmYXVsdFJvdXRlRm5vc0hpbnQgPSBjb21wdXRlZCgoKSA9PiBwZW5kaW5nVGFyZ2V0UG9ydC52YWx1ZSA9PT0gZGVmYXVsdFN5c3RlbVBvcnQpOwogIGNvbnN0IGRpYWxvZ1RpdGxlID0gY29tcHV0ZWQoKCkgPT4KICAgIHBlbmRpbmdBY3Rpb24udmFsdWUgPT09ICdjbGVhcicKICAgICAgPyB0KCdzaGFyZWQuZGVmYXVsdFJvdXRlQ29uZmlybS5jbGVhclRpdGxlJykKICAgICAgOiB0KCdzaGFyZWQuZGVmYXVsdFJvdXRlQ29uZmlybS5zZXRUaXRsZScpLAogICk7CiAgY29uc3QgZGlhbG9nRGVzY3JpcHRpb24gPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAocGVuZGluZ0FjdGlvbi52YWx1ZSA9PT0gJ2NsZWFyJykgewogICAgICByZXR1cm4gc2hvd0RlZmF1bHRSb3V0ZUZub3NIaW50LnZhbHVlCiAgICAgICAgPyB0KCdzaGFyZWQuZGVmYXVsdFJvdXRlQ29uZmlybS5jbGVhckZub3NEZXNjcmlwdGlvbicsIHsgcG9ydDogZGVmYXVsdFN5c3RlbVBvcnQgfSkKICAgICAgICA6IHQoJ3NoYXJlZC5kZWZhdWx0Um91dGVDb25maXJtLmNsZWFyRGVzY3JpcHRpb24nKTsKICAgIH0KICAgIHJldHVybiB0KCdzaGFyZWQuZGVmYXVsdFJvdXRlQ29uZmlybS5zZXREZXNjcmlwdGlvbicsIHsgcG9ydDogZGVmYXVsdFN5c3RlbVBvcnQgfSk7CiAgfSk7CgogIGNvbnN0IHF1ZXVlID0gKHBhdGg6IHN0cmluZywgYWN0aW9uOiBEZWZhdWx0Um91dGVBY3Rpb24sIHRhcmdldFBvcnQ6IG51bWJlciB8IG51bGwpID0+IHsKICAgIHBlbmRpbmdQYXRoLnZhbHVlID0gcGF0aDsKICAgIHBlbmRpbmdBY3Rpb24udmFsdWUgPSBhY3Rpb247CiAgICBwZW5kaW5nVGFyZ2V0UG9ydC52YWx1ZSA9IHRhcmdldFBvcnQ7CiAgICBvcGVuLnZhbHVlID0gdHJ1ZTsKICB9OwoKICBjb25zdCByZXNldCA9ICgpID0+IHsKICAgIG9wZW4udmFsdWUgPSBmYWxzZTsKICAgIHBlbmRpbmdQYXRoLnZhbHVlID0gbnVsbDsKICAgIHBlbmRpbmdBY3Rpb24udmFsdWUgPSBudWxsOwogICAgcGVuZGluZ1RhcmdldFBvcnQudmFsdWUgPSBudWxsOwogIH07CgogIHJldHVybiB7CiAgICBvcGVuLAogICAgcGVuZGluZ1BhdGgsCiAgICBzaG93RGVmYXVsdFJvdXRlRm5vc0hpbnQsCiAgICBkaWFsb2dUaXRsZSwKICAgIGRpYWxvZ0Rlc2NyaXB0aW9uLAogICAgcXVldWUsCiAgICByZXNldCwKICB9Owp9Owo=
+import { computed, ref } from 'vue';
+import { useI18n } from 'vue-i18n';
+
+type DefaultRouteAction = 'clear' | 'set';
+
+export const useDefaultRouteConfirm = (defaultSystemPort: number) => {
+  const { t } = useI18n();
+  const open = ref(false);
+  const pendingPath = ref<string | null>(null);
+  const pendingAction = ref<DefaultRouteAction | null>(null);
+  const pendingTargetPort = ref<number | null>(null);
+
+  const showDefaultRouteFnosHint = computed(() => pendingTargetPort.value === defaultSystemPort);
+  const dialogTitle = computed(() =>
+    pendingAction.value === 'clear'
+      ? t('shared.defaultRouteConfirm.clearTitle')
+      : t('shared.defaultRouteConfirm.setTitle'),
+  );
+  const dialogDescription = computed(() => {
+    if (pendingAction.value === 'clear') {
+      return showDefaultRouteFnosHint.value
+        ? t('shared.defaultRouteConfirm.clearFnosDescription', { port: defaultSystemPort })
+        : t('shared.defaultRouteConfirm.clearDescription');
+    }
+    return t('shared.defaultRouteConfirm.setDescription', { port: defaultSystemPort });
+  });
+
+  const queue = (path: string, action: DefaultRouteAction, targetPort: number | null) => {
+    pendingPath.value = path;
+    pendingAction.value = action;
+    pendingTargetPort.value = targetPort;
+    open.value = true;
+  };
+
+  const reset = () => {
+    open.value = false;
+    pendingPath.value = null;
+    pendingAction.value = null;
+    pendingTargetPort.value = null;
+  };
+
+  return {
+    open,
+    pendingPath,
+    showDefaultRouteFnosHint,
+    dialogTitle,
+    dialogDescription,
+    queue,
+    reset,
+  };
+};

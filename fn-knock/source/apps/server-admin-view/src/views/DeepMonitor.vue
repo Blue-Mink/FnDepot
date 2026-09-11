@@ -1,1 +1,410 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBuZXh0VGljaywgb25Nb3VudGVkLCBvblVubW91bnRlZCwgcmVmLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHVzZVJvdXRlIH0gZnJvbSAidnVlLXJvdXRlciI7CmltcG9ydCB7IEFjdGl2aXR5LCBEb3dubG9hZCwgRXJhc2VyLCBTcXVhcmUgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyBEZWVwTW9uaXRvckFQSSB9IGZyb20gIkAvbGliL2FwaS9kZWVwLW1vbml0b3IiOwppbXBvcnQgdHlwZSB7IERlZXBNb25pdG9yRXZlbnRTdW1tYXJ5LCBEZWVwTW9uaXRvclNlc3Npb24gfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsKICBCcmVhZGNydW1iLAogIEJyZWFkY3J1bWJJdGVtLAogIEJyZWFkY3J1bWJMaW5rLAogIEJyZWFkY3J1bWJMaXN0LAogIEJyZWFkY3J1bWJQYWdlLAogIEJyZWFkY3J1bWJTZXBhcmF0b3IsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JyZWFkY3J1bWIiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgY3JlYXRlVmlzaWJpbGl0eVBvbGxlciB9IGZyb20gIkAvY29tcG9zYWJsZXMvdXNlVmlzaWJpbGl0eVBvbGxpbmciOwoKY29uc3QgREVGQVVMVF9EVVJBVElPTl9TRUNPTkRTID0gMzAgKiA2MDsKY29uc3QgTE9HX0xJTkVfTElNSVQgPSAxMDAwOwpjb25zdCBMT0dfTElORV9DSEFSQUNURVJfTElNSVQgPSAyMDQ4OwoKY29uc3QgeyB0LCB0ZSB9ID0gdXNlSTE4bigpOwpjb25zdCByb3V0ZSA9IHVzZVJvdXRlKCk7CmNvbnN0IGhvc3QgPSBjb21wdXRlZCgoKSA9PgogIHR5cGVvZiByb3V0ZS5wYXJhbXMuaG9zdCA9PT0gInN0cmluZyIgPyByb3V0ZS5wYXJhbXMuaG9zdC50cmltKCkgOiAiIiwKKTsKY29uc3Qgc2Vzc2lvbiA9IHJlZjxEZWVwTW9uaXRvclNlc3Npb24gfCBudWxsPihudWxsKTsKY29uc3QgbG9nTGluZXMgPSByZWY8c3RyaW5nW10+KFtdKTsKY29uc3QgbGFzdFNlcXVlbmNlID0gcmVmKDApOwpjb25zdCBkaXNjYXJkZWRMaW5lcyA9IHJlZigwKTsKY29uc3QgbXV0YXRpbmcgPSByZWYoZmFsc2UpOwpjb25zdCBsb2FkaW5nID0gcmVmKGZhbHNlKTsKY29uc3Qgbm93ID0gcmVmKERhdGUubm93KCkpOwpjb25zdCBsb2dWaWV3cG9ydCA9IHJlZjxIVE1MRWxlbWVudCB8IG51bGw+KG51bGwpOwpsZXQgc291cmNlOiBFdmVudFNvdXJjZSB8IG51bGwgPSBudWxsOwpsZXQgY2xvY2s6IG51bWJlciB8IHVuZGVmaW5lZDsKbGV0IGlzRGlzcG9zZWQgPSBmYWxzZTsKCmNvbnN0IG5vcm1hbGl6ZUhvc3QgPSAodmFsdWU6IHN0cmluZykgPT4KICB2YWx1ZS50cmltKCkudG9Mb3dlckNhc2UoKS5yZXBsYWNlKC9cLiskLywgIiIpOwpjb25zdCBhY3RpdmUgPSBjb21wdXRlZCgoKSA9PiBzZXNzaW9uLnZhbHVlPy5zdGF0ZSA9PT0gImFjdGl2ZSIpOwpjb25zdCBzdGF0ZUxhYmVsID0gY29tcHV0ZWQoKCkgPT4gewogIGNvbnN0IHZhbHVlID0gc2Vzc2lvbi52YWx1ZT8uc3RhdGU7CiAgaWYgKCF2YWx1ZSkgcmV0dXJuIHQoImFkbWluLmRlZXBNb25pdG9yLnJlYWR5Iik7CiAgY29uc3Qga2V5ID0gYGFkbWluLmRlZXBNb25pdG9yLnN0YXRlcy4ke3ZhbHVlfWA7CiAgcmV0dXJuIHRlKGtleSkgPyB0KGtleSkgOiB2YWx1ZTsKfSk7CmNvbnN0IHJlbWFpbmluZyA9IGNvbXB1dGVkKCgpID0+IHsKICBpZiAoIWFjdGl2ZS52YWx1ZSkgcmV0dXJuICIiOwogIGNvbnN0IGRlYWRsaW5lID0gRGF0ZS5wYXJzZShzZXNzaW9uLnZhbHVlPy5kZWFkbGluZV9hdCB8fCAiIik7CiAgaWYgKCFOdW1iZXIuaXNGaW5pdGUoZGVhZGxpbmUpKSByZXR1cm4gIiI7CiAgY29uc3Qgc2Vjb25kcyA9IE1hdGgubWF4KDAsIE1hdGguZmxvb3IoKGRlYWRsaW5lIC0gbm93LnZhbHVlKSAvIDEwMDApKTsKICByZXR1cm4gYCR7TWF0aC5mbG9vcihzZWNvbmRzIC8gNjApfToke1N0cmluZyhzZWNvbmRzICUgNjApLnBhZFN0YXJ0KDIsICIwIil9YDsKfSk7CmNvbnN0IGxvZ1RleHQgPSBjb21wdXRlZCgoKSA9PiBsb2dMaW5lcy52YWx1ZS5qb2luKCJcbiIpKTsKCmNvbnN0IGZvcm1hdEJ5dGVzID0gKHZhbHVlOiBudW1iZXIpID0+IHsKICBpZiAoIXZhbHVlKSByZXR1cm4gIjAgQiI7CiAgY29uc3QgdW5pdHMgPSBbIkIiLCAiS2lCIiwgIk1pQiIsICJHaUIiXTsKICBjb25zdCB1bml0ID0gTWF0aC5taW4oCiAgICBNYXRoLmZsb29yKE1hdGgubG9nKHZhbHVlKSAvIE1hdGgubG9nKDEwMjQpKSwKICAgIHVuaXRzLmxlbmd0aCAtIDEsCiAgKTsKICByZXR1cm4gYCR7KHZhbHVlIC8gMTAyNCAqKiB1bml0KS50b0ZpeGVkKHVuaXQgPyAxIDogMCl9ICR7dW5pdHNbdW5pdF19YDsKfTsKCmNvbnN0IGVycm9yTWVzc2FnZSA9IChlcnJvcjogdW5rbm93bikgPT4KICBlcnJvciBpbnN0YW5jZW9mIEVycm9yID8gZXJyb3IubWVzc2FnZSA6IHQoImFkbWluLmRlZXBNb25pdG9yLnJlcXVlc3RGYWlsZWQiKTsKCmNvbnN0IGNsZWFuTG9nVmFsdWUgPSAodmFsdWU6IHN0cmluZyB8IG51bWJlciB8IHVuZGVmaW5lZCkgPT4KICBTdHJpbmcodmFsdWUgPz8gIiIpCiAgICAucmVwbGFjZSgvW1xyXG5cdF0rL2csICIgIikKICAgIC50cmltKCk7Cgpjb25zdCBmb3JtYXRMb2dMaW5lID0gKGl0ZW06IERlZXBNb25pdG9yRXZlbnRTdW1tYXJ5KSA9PiB7CiAgY29uc3QgcmVxdWVzdCA9IFtpdGVtLm1ldGhvZCwgaXRlbS5wYXRoXQogICAgLm1hcChjbGVhbkxvZ1ZhbHVlKQogICAgLmZpbHRlcihCb29sZWFuKQogICAgLmpvaW4oIiAiKTsKICBjb25zdCBmaWVsZHMgPSBbCiAgICBgWyR7Y2xlYW5Mb2dWYWx1ZShpdGVtLnRpbWUpIHx8IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKX1dYCwKICAgIGNsZWFuTG9nVmFsdWUoaXRlbS50eXBlKSwKICAgIGl0ZW0uZGlyZWN0aW9uID8gYGRpcmVjdGlvbj0ke2NsZWFuTG9nVmFsdWUoaXRlbS5kaXJlY3Rpb24pfWAgOiAiIiwKICAgIGl0ZW0uY2xpZW50X2lwID8gYGlwPSR7Y2xlYW5Mb2dWYWx1ZShpdGVtLmNsaWVudF9pcCl9YCA6ICIiLAogICAgaXRlbS5pZGVudGl0eSA/IGBpZGVudGl0eT0ke2NsZWFuTG9nVmFsdWUoaXRlbS5pZGVudGl0eSl9YCA6ICIiLAogICAgcmVxdWVzdCwKICAgIGl0ZW0uc3RhdHVzID8gYHN0YXR1cz0ke2l0ZW0uc3RhdHVzfWAgOiAiIiwKICAgIGl0ZW0ucGF5bG9hZF9ieXRlcyA/IGBieXRlcz0ke2l0ZW0ucGF5bG9hZF9ieXRlc31gIDogIiIsCiAgICBjbGVhbkxvZ1ZhbHVlKGl0ZW0ubm90aWNlKSwKICBdLmZpbHRlcihCb29sZWFuKTsKICBjb25zdCBsaW5lID0gZmllbGRzLmpvaW4oIiAiKTsKICByZXR1cm4gbGluZS5sZW5ndGggPiBMT0dfTElORV9DSEFSQUNURVJfTElNSVQKICAgID8gYCR7bGluZS5zbGljZSgwLCBMT0dfTElORV9DSEFSQUNURVJfTElNSVQpfeKApmAKICAgIDogbGluZTsKfTsKCmNvbnN0IHNjcm9sbFRvTGF0ZXN0ID0gKCkgPT4gewogIHZvaWQgbmV4dFRpY2soKCkgPT4gewogICAgY29uc3QgZWxlbWVudCA9IGxvZ1ZpZXdwb3J0LnZhbHVlOwogICAgaWYgKGVsZW1lbnQpIGVsZW1lbnQuc2Nyb2xsVG9wID0gZWxlbWVudC5zY3JvbGxIZWlnaHQ7CiAgfSk7Cn07Cgpjb25zdCBhcHBlbmRFdmVudCA9IChpdGVtOiBEZWVwTW9uaXRvckV2ZW50U3VtbWFyeSwgYXV0b1Njcm9sbCA9IHRydWUpID0+IHsKICBpZiAoaXRlbS5zZXF1ZW5jZSA8PSBsYXN0U2VxdWVuY2UudmFsdWUpIHJldHVybjsKICBsYXN0U2VxdWVuY2UudmFsdWUgPSBpdGVtLnNlcXVlbmNlOwogIGNvbnN0IG5leHQgPSBbLi4ubG9nTGluZXMudmFsdWUsIGZvcm1hdExvZ0xpbmUoaXRlbSldOwogIGlmIChuZXh0Lmxlbmd0aCA+IExPR19MSU5FX0xJTUlUKSB7CiAgICBjb25zdCBvdmVyZmxvdyA9IG5leHQubGVuZ3RoIC0gTE9HX0xJTkVfTElNSVQ7CiAgICBuZXh0LnNwbGljZSgwLCBvdmVyZmxvdyk7CiAgICBkaXNjYXJkZWRMaW5lcy52YWx1ZSArPSBvdmVyZmxvdzsKICB9CiAgbG9nTGluZXMudmFsdWUgPSBuZXh0OwogIGlmIChzZXNzaW9uLnZhbHVlKSB7CiAgICBzZXNzaW9uLnZhbHVlLmV2ZW50X2NvdW50ID0gTWF0aC5tYXgoCiAgICAgIHNlc3Npb24udmFsdWUuZXZlbnRfY291bnQsCiAgICAgIGl0ZW0uc2VxdWVuY2UsCiAgICApOwogIH0KICBpZiAoYXV0b1Njcm9sbCkgc2Nyb2xsVG9MYXRlc3QoKTsKfTsKCmNvbnN0IGNsb3NlTGl2ZSA9ICgpID0+IHsKICBzb3VyY2U/LmNsb3NlKCk7CiAgc291cmNlID0gbnVsbDsKfTsKCmNvbnN0IG9wZW5MaXZlID0gKCkgPT4gewogIGNsb3NlTGl2ZSgpOwogIGlmICghc2Vzc2lvbi52YWx1ZSB8fCAhYWN0aXZlLnZhbHVlKSByZXR1cm47CiAgc291cmNlID0gbmV3IEV2ZW50U291cmNlKAogICAgRGVlcE1vbml0b3JBUEkubGl2ZVVybChzZXNzaW9uLnZhbHVlLmlkLCBsYXN0U2VxdWVuY2UudmFsdWUpLAogICAgeyB3aXRoQ3JlZGVudGlhbHM6IHRydWUgfSwKICApOwogIHNvdXJjZS5hZGRFdmVudExpc3RlbmVyKCJ0cmFmZmljIiwgKHJhdykgPT4gewogICAgdHJ5IHsKICAgICAgYXBwZW5kRXZlbnQoCiAgICAgICAgSlNPTi5wYXJzZSgKICAgICAgICAgIChyYXcgYXMgTWVzc2FnZUV2ZW50PHN0cmluZz4pLmRhdGEsCiAgICAgICAgKSBhcyBEZWVwTW9uaXRvckV2ZW50U3VtbWFyeSwKICAgICAgKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGNvbnNvbGUud2FybigiaW52YWxpZCBkZWVwIG1vbml0b3IgZXZlbnQiLCBlcnJvcik7CiAgICB9CiAgfSk7Cn07Cgpjb25zdCByZXNldExvZ1N0cmVhbSA9ICgpID0+IHsKICBjbG9zZUxpdmUoKTsKICBsb2dMaW5lcy52YWx1ZSA9IFtdOwogIGxhc3RTZXF1ZW5jZS52YWx1ZSA9IDA7CiAgZGlzY2FyZGVkTGluZXMudmFsdWUgPSAwOwp9OwoKY29uc3QgbG9hZFJlY2VudEV2ZW50cyA9IGFzeW5jIChzaWduYWw/OiBBYm9ydFNpZ25hbCkgPT4gewogIGNvbnN0IGN1cnJlbnQgPSBzZXNzaW9uLnZhbHVlOwogIGlmICghY3VycmVudCkgcmV0dXJuOwogIGxvYWRpbmcudmFsdWUgPSB0cnVlOwogIHRyeSB7CiAgICBjb25zdCBhcHByb3hpbWF0ZUZpcnN0U2VxdWVuY2UgPSBNYXRoLm1heCgKICAgICAgMCwKICAgICAgY3VycmVudC5ldmVudF9jb3VudCAtIExPR19MSU5FX0xJTUlULAogICAgKTsKICAgIGRpc2NhcmRlZExpbmVzLnZhbHVlID0gYXBwcm94aW1hdGVGaXJzdFNlcXVlbmNlOwogICAgbGV0IGN1cnNvciA9IFN0cmluZyhhcHByb3hpbWF0ZUZpcnN0U2VxdWVuY2UpOwogICAgbGV0IGhhc01vcmUgPSB0cnVlOwogICAgd2hpbGUgKGhhc01vcmUgJiYgbG9nTGluZXMudmFsdWUubGVuZ3RoIDwgTE9HX0xJTkVfTElNSVQpIHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgRGVlcE1vbml0b3JBUEkuZXZlbnRzKAogICAgICAgIGN1cnJlbnQuaWQsCiAgICAgICAgewogICAgICAgICAgY3Vyc29yLAogICAgICAgICAgbGltaXQ6IDIwMCwKICAgICAgICB9LAogICAgICAgIHNpZ25hbCwKICAgICAgKTsKICAgICAgZm9yIChjb25zdCBpdGVtIG9mIHJlc3VsdC5pdGVtcykgYXBwZW5kRXZlbnQoaXRlbSwgZmFsc2UpOwogICAgICBjdXJzb3IgPSByZXN1bHQubmV4dF9jdXJzb3I7CiAgICAgIGhhc01vcmUgPSByZXN1bHQuaGFzX21vcmUgJiYgcmVzdWx0Lml0ZW1zLmxlbmd0aCA+IDA7CiAgICB9CiAgICBzY3JvbGxUb0xhdGVzdCgpOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICB0b2FzdC5lcnJvcihlcnJvck1lc3NhZ2UoZXJyb3IpKTsKICB9IGZpbmFsbHkgewogICAgbG9hZGluZy52YWx1ZSA9IGZhbHNlOwogIH0KfTsKCmNvbnN0IHJlZnJlc2hTZXNzaW9uID0gYXN5bmMgKAogIGZvcmNlUmVsb2FkID0gZmFsc2UsCiAgc2lsZW50ID0gZmFsc2UsCiAgc2lnbmFsPzogQWJvcnRTaWduYWwsCikgPT4gewogIGlmIChtdXRhdGluZy52YWx1ZSAmJiAhZm9yY2VSZWxvYWQpIHJldHVybjsKICB0cnkgewogICAgY29uc3QgaXRlbXMgPSAoYXdhaXQgRGVlcE1vbml0b3JBUEkubGlzdChzaWduYWwpKS5maWx0ZXIoCiAgICAgIChpdGVtKSA9PiBub3JtYWxpemVIb3N0KGl0ZW0uaG9zdCkgPT09IG5vcm1hbGl6ZUhvc3QoaG9zdC52YWx1ZSksCiAgICApOwogICAgY29uc3QgbmV4dCA9CiAgICAgIGl0ZW1zLmZpbmQoKGl0ZW0pID0+IGl0ZW0uc3RhdGUgPT09ICJhY3RpdmUiKSA/PyBpdGVtc1swXSA/PyBudWxsOwogICAgY29uc3QgY2hhbmdlZCA9IGZvcmNlUmVsb2FkIHx8IG5leHQ/LmlkICE9PSBzZXNzaW9uLnZhbHVlPy5pZDsKICAgIHNlc3Npb24udmFsdWUgPSBuZXh0OwogICAgaWYgKGNoYW5nZWQpIHsKICAgICAgcmVzZXRMb2dTdHJlYW0oKTsKICAgICAgYXdhaXQgbG9hZFJlY2VudEV2ZW50cyhzaWduYWwpOwogICAgICBvcGVuTGl2ZSgpOwogICAgfSBlbHNlIGlmICghYWN0aXZlLnZhbHVlKSB7CiAgICAgIGNsb3NlTGl2ZSgpOwogICAgfSBlbHNlIGlmICghc291cmNlKSB7CiAgICAgIG9wZW5MaXZlKCk7CiAgICB9CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGlmICghc2lsZW50KSB0b2FzdC5lcnJvcihlcnJvck1lc3NhZ2UoZXJyb3IpKTsKICB9Cn07Cgpjb25zdCBzZXNzaW9uUG9sbGVyID0gY3JlYXRlVmlzaWJpbGl0eVBvbGxlcih7CiAgaW50ZXJ2YWxNczogNV8wMDAsCiAgdGFzazogKHNpZ25hbCkgPT4gcmVmcmVzaFNlc3Npb24oZmFsc2UsIHRydWUsIHNpZ25hbCksCn0pOwoKY29uc3Qgc3RhcnQgPSBhc3luYyAoKSA9PiB7CiAgaWYgKCFob3N0LnZhbHVlIHx8IGFjdGl2ZS52YWx1ZSkgcmV0dXJuOwogIG11dGF0aW5nLnZhbHVlID0gdHJ1ZTsKICB0cnkgewogICAgc2Vzc2lvbi52YWx1ZSA9IGF3YWl0IERlZXBNb25pdG9yQVBJLnN0YXJ0KHsKICAgICAgaG9zdDogaG9zdC52YWx1ZSwKICAgICAgZHVyYXRpb25fc2Vjb25kczogREVGQVVMVF9EVVJBVElPTl9TRUNPTkRTLAogICAgfSk7CiAgICByZXNldExvZ1N0cmVhbSgpOwogICAgb3BlbkxpdmUoKTsKICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uZGVlcE1vbml0b3Iuc3RhcnRlZCIpKTsKICB9IGNhdGNoIChlcnJvcikgewogICAgdG9hc3QuZXJyb3IoZXJyb3JNZXNzYWdlKGVycm9yKSk7CiAgfSBmaW5hbGx5IHsKICAgIG11dGF0aW5nLnZhbHVlID0gZmFsc2U7CiAgfQp9OwoKY29uc3Qgc3RvcCA9IGFzeW5jICgpID0+IHsKICBpZiAoIXNlc3Npb24udmFsdWUgfHwgIWFjdGl2ZS52YWx1ZSkgcmV0dXJuOwogIG11dGF0aW5nLnZhbHVlID0gdHJ1ZTsKICB0cnkgewogICAgc2Vzc2lvbi52YWx1ZSA9IGF3YWl0IERlZXBNb25pdG9yQVBJLnN0b3Aoc2Vzc2lvbi52YWx1ZS5pZCk7CiAgICBjbG9zZUxpdmUoKTsKICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uZGVlcE1vbml0b3Iuc3RvcHBlZCIpKTsKICB9IGNhdGNoIChlcnJvcikgewogICAgdG9hc3QuZXJyb3IoZXJyb3JNZXNzYWdlKGVycm9yKSk7CiAgfSBmaW5hbGx5IHsKICAgIG11dGF0aW5nLnZhbHVlID0gZmFsc2U7CiAgfQp9OwoKY29uc3QgY2xlYXIgPSBhc3luYyAoKSA9PiB7CiAgaWYgKGFjdGl2ZS52YWx1ZSkgcmV0dXJuOwogIG11dGF0aW5nLnZhbHVlID0gdHJ1ZTsKICB0cnkgewogICAgY29uc3Qgc2Vzc2lvbnMgPSAoYXdhaXQgRGVlcE1vbml0b3JBUEkubGlzdCgpKS5maWx0ZXIoCiAgICAgIChpdGVtKSA9PgogICAgICAgIGl0ZW0uc3RhdGUgIT09ICJhY3RpdmUiICYmCiAgICAgICAgbm9ybWFsaXplSG9zdChpdGVtLmhvc3QpID09PSBub3JtYWxpemVIb3N0KGhvc3QudmFsdWUpLAogICAgKTsKICAgIGZvciAoY29uc3QgaXRlbSBvZiBzZXNzaW9ucykgYXdhaXQgRGVlcE1vbml0b3JBUEkuZGVsZXRlKGl0ZW0uaWQpOwogICAgc2Vzc2lvbi52YWx1ZSA9IG51bGw7CiAgICByZXNldExvZ1N0cmVhbSgpOwogICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5kZWVwTW9uaXRvci5jbGVhcmVkIikpOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICB0b2FzdC5lcnJvcihlcnJvck1lc3NhZ2UoZXJyb3IpKTsKICB9IGZpbmFsbHkgewogICAgbXV0YXRpbmcudmFsdWUgPSBmYWxzZTsKICB9Cn07Cgp3YXRjaChob3N0LCAoKSA9PiBzZXNzaW9uUG9sbGVyLnN5bmMoKSk7Cgpvbk1vdW50ZWQoYXN5bmMgKCkgPT4gewogIGNsb2NrID0gd2luZG93LnNldEludGVydmFsKCgpID0+IChub3cudmFsdWUgPSBEYXRlLm5vdygpKSwgMTAwMCk7CiAgYXdhaXQgcmVmcmVzaFNlc3Npb24odHJ1ZSk7CiAgaWYgKGlzRGlzcG9zZWQpIHJldHVybjsKCiAgc2Vzc2lvblBvbGxlci5zdGFydCgpOwp9KTsKCm9uVW5tb3VudGVkKCgpID0+IHsKICBpc0Rpc3Bvc2VkID0gdHJ1ZTsKICBjbG9zZUxpdmUoKTsKICBpZiAoY2xvY2spIHdpbmRvdy5jbGVhckludGVydmFsKGNsb2NrKTsKICBzZXNzaW9uUG9sbGVyLnN0b3AoKTsKfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktNSI+CiAgICA8QnJlYWRjcnVtYj4KICAgICAgPEJyZWFkY3J1bWJMaXN0PgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iTGluayBocmVmPSIjL21hcHBpbmdzP3RhYj1zdWJkb21haW4iPnt7CiAgICAgICAgICAgIHQoImFkbWluLm5hdi5tYXBwaW5nTWFuYWdlbWVudCIpCiAgICAgICAgICB9fTwvQnJlYWRjcnVtYkxpbms+CiAgICAgICAgPC9CcmVhZGNydW1iSXRlbT4KICAgICAgICA8QnJlYWRjcnVtYlNlcGFyYXRvciAvPgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iUGFnZT57eyB0KCJhZG1pbi5kZWVwTW9uaXRvci50aXRsZSIpIH19PC9CcmVhZGNydW1iUGFnZT4KICAgICAgICA8L0JyZWFkY3J1bWJJdGVtPgogICAgICA8L0JyZWFkY3J1bWJMaXN0PgogICAgPC9CcmVhZGNydW1iPgoKICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAiPgogICAgICAgIDxoMSBjbGFzcz0idGV4dC0yeGwgZm9udC1zZW1pYm9sZCB0cmFja2luZy10aWdodCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5kZWVwTW9uaXRvci50aXRsZSIpIH19CiAgICAgICAgPC9oMT4KICAgICAgICA8cCBjbGFzcz0ibXQtMSBicmVhay1hbGwgZm9udC1tb25vIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7IGhvc3QgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1lbmQgZ2FwLTIiPgogICAgICAgIDxCdXR0b24gdi1pZj0iIWFjdGl2ZSIgOmRpc2FibGVkPSJtdXRhdGluZyB8fCAhaG9zdCIgQGNsaWNrPSJzdGFydCI+CiAgICAgICAgICA8QWN0aXZpdHkgY2xhc3M9Im1yLTIgaC00IHctNCIgLz57eyB0KCJhZG1pbi5kZWVwTW9uaXRvci5zdGFydCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbiB2LWVsc2UgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiIDpkaXNhYmxlZD0ibXV0YXRpbmciIEBjbGljaz0ic3RvcCI+CiAgICAgICAgICA8U3F1YXJlIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+e3sgdCgiYWRtaW4uZGVlcE1vbml0b3Iuc3RvcCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbiB2LWlmPSJzZXNzaW9uIiB2YXJpYW50PSJvdXRsaW5lIiBhcy1jaGlsZD4KICAgICAgICAgIDxhCiAgICAgICAgICAgIDpocmVmPSJEZWVwTW9uaXRvckFQSS5hcmNoaXZlVXJsKHNlc3Npb24uaWQpIgogICAgICAgICAgICA6ZG93bmxvYWQ9ImBkZWVwLW1vbml0b3ItJHtzZXNzaW9uLmlkfS56aXBgIgogICAgICAgICAgPgogICAgICAgICAgICA8RG93bmxvYWQgY2xhc3M9Im1yLTIgaC00IHctNCIgLz57ewogICAgICAgICAgICAgIHQoImFkbWluLmRlZXBNb25pdG9yLmRvd25sb2FkTG9ncyIpCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L2E+CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbiB2LWVsc2UgdmFyaWFudD0ib3V0bGluZSIgZGlzYWJsZWQ+CiAgICAgICAgICA8RG93bmxvYWQgY2xhc3M9Im1yLTIgaC00IHctNCIgLz57ewogICAgICAgICAgICB0KCJhZG1pbi5kZWVwTW9uaXRvci5kb3dubG9hZExvZ3MiKQogICAgICAgICAgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgOmRpc2FibGVkPSJtdXRhdGluZyB8fCBhY3RpdmUgfHwgIXNlc3Npb24iCiAgICAgICAgICBAY2xpY2s9ImNsZWFyIgogICAgICAgID4KICAgICAgICAgIDxFcmFzZXIgY2xhc3M9Im1yLTIgaC00IHctNCIgLz57eyB0KCJhZG1pbi5kZWVwTW9uaXRvci5jbGVhckxvZ3MiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxkaXYKICAgICAgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAteC0zIGdhcC15LTEgYm9yZGVyLXkgcHktMyB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgID4KICAgICAgPHNwYW4gY2xhc3M9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBmb250LW1lZGl1bSB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgIDxzcGFuIGNsYXNzPSJyZWxhdGl2ZSBmbGV4IGgtMiB3LTIiPgogICAgICAgICAgPHNwYW4KICAgICAgICAgICAgdi1pZj0iYWN0aXZlIgogICAgICAgICAgICBjbGFzcz0iYWJzb2x1dGUgaW5saW5lLWZsZXggaC1mdWxsIHctZnVsbCBhbmltYXRlLXBpbmcgcm91bmRlZC1mdWxsIGJnLWVtZXJhbGQtNTAwIG9wYWNpdHktNzAiCiAgICAgICAgICAvPgogICAgICAgICAgPHNwYW4KICAgICAgICAgICAgY2xhc3M9InJlbGF0aXZlIGlubGluZS1mbGV4IGgtMiB3LTIgcm91bmRlZC1mdWxsIgogICAgICAgICAgICA6Y2xhc3M9ImFjdGl2ZSA/ICdiZy1lbWVyYWxkLTUwMCcgOiAnYmctbXV0ZWQtZm9yZWdyb3VuZC81MCciCiAgICAgICAgICAvPgogICAgICAgIDwvc3Bhbj4KICAgICAgICB7eyBzdGF0ZUxhYmVsIH19CiAgICAgIDwvc3Bhbj4KICAgICAgPHRlbXBsYXRlIHYtaWY9InNlc3Npb24iPgogICAgICAgIDxzcGFuIHYtaWY9InJlbWFpbmluZyI+e3sgcmVtYWluaW5nIH19PC9zcGFuPgogICAgICAgIDxzcGFuPnt7IGZvcm1hdEJ5dGVzKHNlc3Npb24uYnl0ZXNfc3RvcmVkKSB9fTwvc3Bhbj4KICAgICAgICA8c3Bhbj57ewogICAgICAgICAgdCgiYWRtaW4uZGVlcE1vbml0b3IuZXZlbnRDb3VudCIsIHsgY291bnQ6IHNlc3Npb24uZXZlbnRfY291bnQgfSkKICAgICAgICB9fTwvc3Bhbj4KICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPHNwYW4gY2xhc3M9Im1sLWF1dG8iPnt7CiAgICAgICAgdCgiYWRtaW4uZGVlcE1vbml0b3IuY2FwdHVyZURlZmF1bHRzIiwgewogICAgICAgICAgbWludXRlczogREVGQVVMVF9EVVJBVElPTl9TRUNPTkRTIC8gNjAsCiAgICAgICAgfSkKICAgICAgfX08L3NwYW4+CiAgICA8L2Rpdj4KCiAgICA8c2VjdGlvbgogICAgICBjbGFzcz0ib3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbGcgYm9yZGVyIGJnLXppbmMtOTUwIHRleHQtemluYy0xMDAiCiAgICA+CiAgICAgIDxoZWFkZXIKICAgICAgICBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIGJvcmRlci1iIGJvcmRlci13aGl0ZS8xMCBweC00IHB5LTIgZm9udC1tb25vIHRleHQteHMgdGV4dC16aW5jLTQwMCIKICAgICAgPgogICAgICAgIDxzcGFuPnt7IHQoImFkbWluLmRlZXBNb25pdG9yLmxpdmVMb2ciKSB9fTwvc3Bhbj4KICAgICAgICA8c3Bhbj7Ctzwvc3Bhbj4KICAgICAgICA8c3Bhbj57ewogICAgICAgICAgdCgiYWRtaW4uZGVlcE1vbml0b3IubG9nTGluZUxpbWl0IiwgeyBjb3VudDogTE9HX0xJTkVfTElNSVQgfSkKICAgICAgICB9fTwvc3Bhbj4KICAgICAgICA8c3BhbiB2LWlmPSJkaXNjYXJkZWRMaW5lcyI+wrc8L3NwYW4+CiAgICAgICAgPHNwYW4gdi1pZj0iZGlzY2FyZGVkTGluZXMiPnt7CiAgICAgICAgICB0KCJhZG1pbi5kZWVwTW9uaXRvci5vbGRlckxpbmVzRGlzY2FyZGVkIiwgewogICAgICAgICAgICBjb3VudDogZGlzY2FyZGVkTGluZXMsCiAgICAgICAgICB9KQogICAgICAgIH19PC9zcGFuPgogICAgICA8L2hlYWRlcj4KICAgICAgPHByZQogICAgICAgIHJlZj0ibG9nVmlld3BvcnQiCiAgICAgICAgY2xhc3M9ImgtW21pbig2NXZoLDQ0cmVtKV0gbWluLWgtODAgb3ZlcmZsb3ctYXV0byBwLTQgZm9udC1tb25vIHRleHQteHMgbGVhZGluZy01IgogICAgICAgIDpjbGFzcz0ieyAnZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdGV4dC16aW5jLTUwMCc6ICFsb2dUZXh0IH0iCiAgICAgICAgPnt7CiAgICAgICAgICBsb2dUZXh0IHx8CiAgICAgICAgICAobG9hZGluZwogICAgICAgICAgICA/IHQoImNvbW1vbi5sb2FkaW5nIikKICAgICAgICAgICAgOiB0KCJhZG1pbi5kZWVwTW9uaXRvci53YWl0aW5nRm9yVHJhZmZpYyIpKQogICAgICAgIH19PC9wcmU+CiAgICA8L3NlY3Rpb24+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, nextTick, onMounted, onUnmounted, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRoute } from "vue-router";
+import { Activity, Download, Eraser, Square } from "lucide-vue-next";
+import { toast } from "@admin-shared/utils/toast";
+import { DeepMonitorAPI } from "@/lib/api/deep-monitor";
+import type { DeepMonitorEventSummary, DeepMonitorSession } from "@/types";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import { Button } from "@/components/ui/button";
+import { createVisibilityPoller } from "@/composables/useVisibilityPolling";
+
+const DEFAULT_DURATION_SECONDS = 30 * 60;
+const LOG_LINE_LIMIT = 1000;
+const LOG_LINE_CHARACTER_LIMIT = 2048;
+
+const { t, te } = useI18n();
+const route = useRoute();
+const host = computed(() =>
+  typeof route.params.host === "string" ? route.params.host.trim() : "",
+);
+const session = ref<DeepMonitorSession | null>(null);
+const logLines = ref<string[]>([]);
+const lastSequence = ref(0);
+const discardedLines = ref(0);
+const mutating = ref(false);
+const loading = ref(false);
+const now = ref(Date.now());
+const logViewport = ref<HTMLElement | null>(null);
+let source: EventSource | null = null;
+let clock: number | undefined;
+let isDisposed = false;
+
+const normalizeHost = (value: string) =>
+  value.trim().toLowerCase().replace(/\.+$/, "");
+const active = computed(() => session.value?.state === "active");
+const stateLabel = computed(() => {
+  const value = session.value?.state;
+  if (!value) return t("admin.deepMonitor.ready");
+  const key = `admin.deepMonitor.states.${value}`;
+  return te(key) ? t(key) : value;
+});
+const remaining = computed(() => {
+  if (!active.value) return "";
+  const deadline = Date.parse(session.value?.deadline_at || "");
+  if (!Number.isFinite(deadline)) return "";
+  const seconds = Math.max(0, Math.floor((deadline - now.value) / 1000));
+  return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
+});
+const logText = computed(() => logLines.value.join("\n"));
+
+const formatBytes = (value: number) => {
+  if (!value) return "0 B";
+  const units = ["B", "KiB", "MiB", "GiB"];
+  const unit = Math.min(
+    Math.floor(Math.log(value) / Math.log(1024)),
+    units.length - 1,
+  );
+  return `${(value / 1024 ** unit).toFixed(unit ? 1 : 0)} ${units[unit]}`;
+};
+
+const errorMessage = (error: unknown) =>
+  error instanceof Error ? error.message : t("admin.deepMonitor.requestFailed");
+
+const cleanLogValue = (value: string | number | undefined) =>
+  String(value ?? "")
+    .replace(/[\r\n\t]+/g, " ")
+    .trim();
+
+const formatLogLine = (item: DeepMonitorEventSummary) => {
+  const request = [item.method, item.path]
+    .map(cleanLogValue)
+    .filter(Boolean)
+    .join(" ");
+  const fields = [
+    `[${cleanLogValue(item.time) || new Date().toISOString()}]`,
+    cleanLogValue(item.type),
+    item.direction ? `direction=${cleanLogValue(item.direction)}` : "",
+    item.client_ip ? `ip=${cleanLogValue(item.client_ip)}` : "",
+    item.identity ? `identity=${cleanLogValue(item.identity)}` : "",
+    request,
+    item.status ? `status=${item.status}` : "",
+    item.payload_bytes ? `bytes=${item.payload_bytes}` : "",
+    cleanLogValue(item.notice),
+  ].filter(Boolean);
+  const line = fields.join(" ");
+  return line.length > LOG_LINE_CHARACTER_LIMIT
+    ? `${line.slice(0, LOG_LINE_CHARACTER_LIMIT)}…`
+    : line;
+};
+
+const scrollToLatest = () => {
+  void nextTick(() => {
+    const element = logViewport.value;
+    if (element) element.scrollTop = element.scrollHeight;
+  });
+};
+
+const appendEvent = (item: DeepMonitorEventSummary, autoScroll = true) => {
+  if (item.sequence <= lastSequence.value) return;
+  lastSequence.value = item.sequence;
+  const next = [...logLines.value, formatLogLine(item)];
+  if (next.length > LOG_LINE_LIMIT) {
+    const overflow = next.length - LOG_LINE_LIMIT;
+    next.splice(0, overflow);
+    discardedLines.value += overflow;
+  }
+  logLines.value = next;
+  if (session.value) {
+    session.value.event_count = Math.max(
+      session.value.event_count,
+      item.sequence,
+    );
+  }
+  if (autoScroll) scrollToLatest();
+};
+
+const closeLive = () => {
+  source?.close();
+  source = null;
+};
+
+const openLive = () => {
+  closeLive();
+  if (!session.value || !active.value) return;
+  source = new EventSource(
+    DeepMonitorAPI.liveUrl(session.value.id, lastSequence.value),
+    { withCredentials: true },
+  );
+  source.addEventListener("traffic", (raw) => {
+    try {
+      appendEvent(
+        JSON.parse(
+          (raw as MessageEvent<string>).data,
+        ) as DeepMonitorEventSummary,
+      );
+    } catch (error) {
+      console.warn("invalid deep monitor event", error);
+    }
+  });
+};
+
+const resetLogStream = () => {
+  closeLive();
+  logLines.value = [];
+  lastSequence.value = 0;
+  discardedLines.value = 0;
+};
+
+const loadRecentEvents = async (signal?: AbortSignal) => {
+  const current = session.value;
+  if (!current) return;
+  loading.value = true;
+  try {
+    const approximateFirstSequence = Math.max(
+      0,
+      current.event_count - LOG_LINE_LIMIT,
+    );
+    discardedLines.value = approximateFirstSequence;
+    let cursor = String(approximateFirstSequence);
+    let hasMore = true;
+    while (hasMore && logLines.value.length < LOG_LINE_LIMIT) {
+      const result = await DeepMonitorAPI.events(
+        current.id,
+        {
+          cursor,
+          limit: 200,
+        },
+        signal,
+      );
+      for (const item of result.items) appendEvent(item, false);
+      cursor = result.next_cursor;
+      hasMore = result.has_more && result.items.length > 0;
+    }
+    scrollToLatest();
+  } catch (error) {
+    toast.error(errorMessage(error));
+  } finally {
+    loading.value = false;
+  }
+};
+
+const refreshSession = async (
+  forceReload = false,
+  silent = false,
+  signal?: AbortSignal,
+) => {
+  if (mutating.value && !forceReload) return;
+  try {
+    const items = (await DeepMonitorAPI.list(signal)).filter(
+      (item) => normalizeHost(item.host) === normalizeHost(host.value),
+    );
+    const next =
+      items.find((item) => item.state === "active") ?? items[0] ?? null;
+    const changed = forceReload || next?.id !== session.value?.id;
+    session.value = next;
+    if (changed) {
+      resetLogStream();
+      await loadRecentEvents(signal);
+      openLive();
+    } else if (!active.value) {
+      closeLive();
+    } else if (!source) {
+      openLive();
+    }
+  } catch (error) {
+    if (!silent) toast.error(errorMessage(error));
+  }
+};
+
+const sessionPoller = createVisibilityPoller({
+  intervalMs: 5_000,
+  task: (signal) => refreshSession(false, true, signal),
+});
+
+const start = async () => {
+  if (!host.value || active.value) return;
+  mutating.value = true;
+  try {
+    session.value = await DeepMonitorAPI.start({
+      host: host.value,
+      duration_seconds: DEFAULT_DURATION_SECONDS,
+    });
+    resetLogStream();
+    openLive();
+    toast.success(t("admin.deepMonitor.started"));
+  } catch (error) {
+    toast.error(errorMessage(error));
+  } finally {
+    mutating.value = false;
+  }
+};
+
+const stop = async () => {
+  if (!session.value || !active.value) return;
+  mutating.value = true;
+  try {
+    session.value = await DeepMonitorAPI.stop(session.value.id);
+    closeLive();
+    toast.success(t("admin.deepMonitor.stopped"));
+  } catch (error) {
+    toast.error(errorMessage(error));
+  } finally {
+    mutating.value = false;
+  }
+};
+
+const clear = async () => {
+  if (active.value) return;
+  mutating.value = true;
+  try {
+    const sessions = (await DeepMonitorAPI.list()).filter(
+      (item) =>
+        item.state !== "active" &&
+        normalizeHost(item.host) === normalizeHost(host.value),
+    );
+    for (const item of sessions) await DeepMonitorAPI.delete(item.id);
+    session.value = null;
+    resetLogStream();
+    toast.success(t("admin.deepMonitor.cleared"));
+  } catch (error) {
+    toast.error(errorMessage(error));
+  } finally {
+    mutating.value = false;
+  }
+};
+
+watch(host, () => sessionPoller.sync());
+
+onMounted(async () => {
+  clock = window.setInterval(() => (now.value = Date.now()), 1000);
+  await refreshSession(true);
+  if (isDisposed) return;
+
+  sessionPoller.start();
+});
+
+onUnmounted(() => {
+  isDisposed = true;
+  closeLive();
+  if (clock) window.clearInterval(clock);
+  sessionPoller.stop();
+});
+</script>
+
+<template>
+  <div class="space-y-5">
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/mappings?tab=subdomain">{{
+            t("admin.nav.mappingManagement")
+          }}</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbPage>{{ t("admin.deepMonitor.title") }}</BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+
+    <div class="flex flex-wrap items-start justify-between gap-4">
+      <div class="min-w-0">
+        <h1 class="text-2xl font-semibold tracking-tight">
+          {{ t("admin.deepMonitor.title") }}
+        </h1>
+        <p class="mt-1 break-all font-mono text-sm text-muted-foreground">
+          {{ host }}
+        </p>
+      </div>
+      <div class="flex flex-wrap items-center justify-end gap-2">
+        <Button v-if="!active" :disabled="mutating || !host" @click="start">
+          <Activity class="mr-2 h-4 w-4" />{{ t("admin.deepMonitor.start") }}
+        </Button>
+        <Button v-else variant="destructive" :disabled="mutating" @click="stop">
+          <Square class="mr-2 h-4 w-4" />{{ t("admin.deepMonitor.stop") }}
+        </Button>
+        <Button v-if="session" variant="outline" as-child>
+          <a
+            :href="DeepMonitorAPI.archiveUrl(session.id)"
+            :download="`deep-monitor-${session.id}.zip`"
+          >
+            <Download class="mr-2 h-4 w-4" />{{
+              t("admin.deepMonitor.downloadLogs")
+            }}
+          </a>
+        </Button>
+        <Button v-else variant="outline" disabled>
+          <Download class="mr-2 h-4 w-4" />{{
+            t("admin.deepMonitor.downloadLogs")
+          }}
+        </Button>
+        <Button
+          variant="outline"
+          :disabled="mutating || active || !session"
+          @click="clear"
+        >
+          <Eraser class="mr-2 h-4 w-4" />{{ t("admin.deepMonitor.clearLogs") }}
+        </Button>
+      </div>
+    </div>
+
+    <div
+      class="flex flex-wrap items-center gap-x-3 gap-y-1 border-y py-3 text-sm text-muted-foreground"
+    >
+      <span class="inline-flex items-center gap-2 font-medium text-foreground">
+        <span class="relative flex h-2 w-2">
+          <span
+            v-if="active"
+            class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-500 opacity-70"
+          />
+          <span
+            class="relative inline-flex h-2 w-2 rounded-full"
+            :class="active ? 'bg-emerald-500' : 'bg-muted-foreground/50'"
+          />
+        </span>
+        {{ stateLabel }}
+      </span>
+      <template v-if="session">
+        <span v-if="remaining">{{ remaining }}</span>
+        <span>{{ formatBytes(session.bytes_stored) }}</span>
+        <span>{{
+          t("admin.deepMonitor.eventCount", { count: session.event_count })
+        }}</span>
+      </template>
+      <span class="ml-auto">{{
+        t("admin.deepMonitor.captureDefaults", {
+          minutes: DEFAULT_DURATION_SECONDS / 60,
+        })
+      }}</span>
+    </div>
+
+    <section
+      class="overflow-hidden rounded-lg border bg-zinc-950 text-zinc-100"
+    >
+      <header
+        class="flex flex-wrap items-center gap-2 border-b border-white/10 px-4 py-2 font-mono text-xs text-zinc-400"
+      >
+        <span>{{ t("admin.deepMonitor.liveLog") }}</span>
+        <span>·</span>
+        <span>{{
+          t("admin.deepMonitor.logLineLimit", { count: LOG_LINE_LIMIT })
+        }}</span>
+        <span v-if="discardedLines">·</span>
+        <span v-if="discardedLines">{{
+          t("admin.deepMonitor.olderLinesDiscarded", {
+            count: discardedLines,
+          })
+        }}</span>
+      </header>
+      <pre
+        ref="logViewport"
+        class="h-[min(65vh,44rem)] min-h-80 overflow-auto p-4 font-mono text-xs leading-5"
+        :class="{ 'flex items-center justify-center text-zinc-500': !logText }"
+        >{{
+          logText ||
+          (loading
+            ? t("common.loading")
+            : t("admin.deepMonitor.waitingForTraffic"))
+        }}</pre>
+    </section>
+  </div>
+</template>

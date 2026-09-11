@@ -1,1 +1,521 @@
-dXNlIHN0ZDo6ewogICAgZnM6OntzZWxmLCBPcGVuT3B0aW9uc30sCiAgICBpbzo6V3JpdGUsCiAgICBwYXRoOjp7UGF0aCwgUGF0aEJ1Zn0sCiAgICBzeW5jOjpNdXRleCwKfTsKCnVzZSBhZXNfZ2NtOjp7CiAgICBBZXMyNTZHY20sIE5vbmNlLAogICAgYWVhZDo6e0FlYWQsIEtleUluaXQsIFBheWxvYWR9LAp9Owp1c2UgYmFzZTY0Ojp7RW5naW5lIGFzIF8sIGVuZ2luZTo6Z2VuZXJhbF9wdXJwb3NlOjpTVEFOREFSRH07CnVzZSBzZXJkZTo6e0Rlc2VyaWFsaXplLCBTZXJpYWxpemV9OwoKdXNlIGNyYXRlOjp7Y3J5cHRvX3V0aWxzOjpyYW5kb21fYnl0ZXMsIGZzX3V0aWxzLCBzdGF0ZTo6QXBwU3RhdGV9OwoKdXNlIHN1cGVyOjpkb21haW46OntBdXRoTWV0aG9kLCBUZXJtaW5hbEVycm9yLCBUZXJtaW5hbFJlc3VsdH07Cgpjb25zdCBFTlZFTE9QRV9WRVJTSU9OOiB1OCA9IDE7CmNvbnN0IEJVTkRMRV9WRVJTSU9OOiB1OCA9IDE7CmNvbnN0IEtFWV9GSUxFOiAmc3RyID0gInNlY3JldC5rZXkiOwpjb25zdCBNQVhfRU5WRUxPUEVfQllURVM6IHU2NCA9IDQgKiAxMDI0ICogMTAyNDsKc3RhdGljIFNFQ1JFVF9PUEVSQVRJT05fTE9DSzogTXV0ZXg8KCk+ID0gTXV0ZXg6Om5ldygoKSk7CgojW2Rlcml2ZShDbG9uZSwgQ29weSwgRGVidWcsIFBhcnRpYWxFcSwgRXEpXQpwdWIgZW51bSBDcmVkZW50aWFsS2luZCB7CiAgICBQYXNzd29yZCwKICAgIFByaXZhdGVLZXksCiAgICAjW2NmZyh0ZXN0KV0KICAgIFBhc3NwaHJhc2UsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVmYXVsdCwgUGFydGlhbEVxLCBFcSldCnB1YihzdXBlcikgc3RydWN0IENyZWRlbnRpYWxCdW5kbGUgewogICAgcHViIGF1dGhfbWV0aG9kOiBPcHRpb248QXV0aE1ldGhvZD4sCiAgICBwdWIgdGFyZ2V0X3JldmlzaW9uOiB1NjQsCiAgICBwdWIgcGFzc3dvcmQ6IE9wdGlvbjxWZWM8dTg+PiwKICAgIHB1YiBwcml2YXRlX2tleTogT3B0aW9uPFZlYzx1OD4+LAogICAgcHViIHBhc3NwaHJhc2U6IE9wdGlvbjxWZWM8dTg+PiwKfQoKaW1wbCBDcmVkZW50aWFsQnVuZGxlIHsKICAgICNbY2ZnKHRlc3QpXQogICAgZm4gZ2V0KCZzZWxmLCBraW5kOiBDcmVkZW50aWFsS2luZCkgLT4gT3B0aW9uPCZbdThdPiB7CiAgICAgICAgbWF0Y2gga2luZCB7CiAgICAgICAgICAgIENyZWRlbnRpYWxLaW5kOjpQYXNzd29yZCA9PiBzZWxmLnBhc3N3b3JkLmFzX2RlcmVmKCksCiAgICAgICAgICAgIENyZWRlbnRpYWxLaW5kOjpQcml2YXRlS2V5ID0+IHNlbGYucHJpdmF0ZV9rZXkuYXNfZGVyZWYoKSwKICAgICAgICAgICAgI1tjZmcodGVzdCldCiAgICAgICAgICAgIENyZWRlbnRpYWxLaW5kOjpQYXNzcGhyYXNlID0+IHNlbGYucGFzc3BocmFzZS5hc19kZXJlZigpLAogICAgICAgIH0KICAgIH0KCiAgICAjW2NmZyh0ZXN0KV0KICAgIGZuIHNldCgmbXV0IHNlbGYsIGtpbmQ6IENyZWRlbnRpYWxLaW5kLCB2YWx1ZTogT3B0aW9uPFZlYzx1OD4+KSB7CiAgICAgICAgbWF0Y2gga2luZCB7CiAgICAgICAgICAgIENyZWRlbnRpYWxLaW5kOjpQYXNzd29yZCA9PiBzZWxmLnBhc3N3b3JkID0gdmFsdWUsCiAgICAgICAgICAgIENyZWRlbnRpYWxLaW5kOjpQcml2YXRlS2V5ID0+IHNlbGYucHJpdmF0ZV9rZXkgPSB2YWx1ZSwKICAgICAgICAgICAgI1tjZmcodGVzdCldCiAgICAgICAgICAgIENyZWRlbnRpYWxLaW5kOjpQYXNzcGhyYXNlID0+IHNlbGYucGFzc3BocmFzZSA9IHZhbHVlLAogICAgICAgIH0KICAgIH0KCiAgICBwdWIoc3VwZXIpIGZuIGlzX2VtcHR5KCZzZWxmKSAtPiBib29sIHsKICAgICAgICBzZWxmLnBhc3N3b3JkLmlzX25vbmUoKSAmJiBzZWxmLnByaXZhdGVfa2V5LmlzX25vbmUoKSAmJiBzZWxmLnBhc3NwaHJhc2UuaXNfbm9uZSgpCiAgICB9Cn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUpXQpzdHJ1Y3QgU2VjcmV0RW52ZWxvcGUgewogICAgdmVyc2lvbjogdTgsCiAgICBub25jZTogU3RyaW5nLAogICAgY2lwaGVydGV4dDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIERlc2VyaWFsaXplKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpzdHJ1Y3QgRW5jb2RlZENyZWRlbnRpYWxCdW5kbGUgewogICAgdmVyc2lvbjogdTgsCiAgICBhdXRoX21ldGhvZDogT3B0aW9uPEF1dGhNZXRob2Q+LAogICAgdGFyZ2V0X3JldmlzaW9uOiB1NjQsCiAgICBwYXNzd29yZDogT3B0aW9uPFN0cmluZz4sCiAgICBwcml2YXRlX2tleTogT3B0aW9uPFN0cmluZz4sCiAgICBwYXNzcGhyYXNlOiBPcHRpb248U3RyaW5nPiwKfQoKaW1wbCBGcm9tPCZDcmVkZW50aWFsQnVuZGxlPiBmb3IgRW5jb2RlZENyZWRlbnRpYWxCdW5kbGUgewogICAgZm4gZnJvbShidW5kbGU6ICZDcmVkZW50aWFsQnVuZGxlKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsKICAgICAgICAgICAgdmVyc2lvbjogQlVORExFX1ZFUlNJT04sCiAgICAgICAgICAgIGF1dGhfbWV0aG9kOiBidW5kbGUuYXV0aF9tZXRob2QsCiAgICAgICAgICAgIHRhcmdldF9yZXZpc2lvbjogYnVuZGxlLnRhcmdldF9yZXZpc2lvbiwKICAgICAgICAgICAgcGFzc3dvcmQ6IGJ1bmRsZS5wYXNzd29yZC5hc19yZWYoKS5tYXAofHZhbHVlfCBTVEFOREFSRC5lbmNvZGUodmFsdWUpKSwKICAgICAgICAgICAgcHJpdmF0ZV9rZXk6IGJ1bmRsZQogICAgICAgICAgICAgICAgLnByaXZhdGVfa2V5CiAgICAgICAgICAgICAgICAuYXNfcmVmKCkKICAgICAgICAgICAgICAgIC5tYXAofHZhbHVlfCBTVEFOREFSRC5lbmNvZGUodmFsdWUpKSwKICAgICAgICAgICAgcGFzc3BocmFzZTogYnVuZGxlCiAgICAgICAgICAgICAgICAucGFzc3BocmFzZQogICAgICAgICAgICAgICAgLmFzX3JlZigpCiAgICAgICAgICAgICAgICAubWFwKHx2YWx1ZXwgU1RBTkRBUkQuZW5jb2RlKHZhbHVlKSksCiAgICAgICAgfQogICAgfQp9CgppbXBsIFRyeUZyb208RW5jb2RlZENyZWRlbnRpYWxCdW5kbGU+IGZvciBDcmVkZW50aWFsQnVuZGxlIHsKICAgIHR5cGUgRXJyb3IgPSBUZXJtaW5hbEVycm9yOwoKICAgIGZuIHRyeV9mcm9tKGJ1bmRsZTogRW5jb2RlZENyZWRlbnRpYWxCdW5kbGUpIC0+IFJlc3VsdDxTZWxmLCBTZWxmOjpFcnJvcj4gewogICAgICAgIGlmIGJ1bmRsZS52ZXJzaW9uICE9IEJVTkRMRV9WRVJTSU9OIHsKICAgICAgICAgICAgcmV0dXJuIEVycihUZXJtaW5hbEVycm9yOjppbnRlcm5hbCgKICAgICAgICAgICAgICAgICJ0ZXJtaW5hbCBjcmVkZW50aWFsIGJ1bmRsZSB2ZXJzaW9uIGlzIHVuc3VwcG9ydGVkIiwKICAgICAgICAgICAgKSk7CiAgICAgICAgfQogICAgICAgIGxldCBkZWNvZGUgPSB8dmFsdWU6IE9wdGlvbjxTdHJpbmc+fCB7CiAgICAgICAgICAgIHZhbHVlCiAgICAgICAgICAgICAgICAubWFwKHx2YWx1ZXwgU1RBTkRBUkQuZGVjb2RlKHZhbHVlKSkKICAgICAgICAgICAgICAgIC50cmFuc3Bvc2UoKQogICAgICAgICAgICAgICAgLm1hcF9lcnIofF98IFRlcm1pbmFsRXJyb3I6OmludGVybmFsKCJ0ZXJtaW5hbCBjcmVkZW50aWFsIGJ1bmRsZSBpcyBpbnZhbGlkIikpCiAgICAgICAgfTsKICAgICAgICBPayhTZWxmIHsKICAgICAgICAgICAgYXV0aF9tZXRob2Q6IGJ1bmRsZS5hdXRoX21ldGhvZCwKICAgICAgICAgICAgdGFyZ2V0X3JldmlzaW9uOiBidW5kbGUudGFyZ2V0X3JldmlzaW9uLAogICAgICAgICAgICBwYXNzd29yZDogZGVjb2RlKGJ1bmRsZS5wYXNzd29yZCk/LAogICAgICAgICAgICBwcml2YXRlX2tleTogZGVjb2RlKGJ1bmRsZS5wcml2YXRlX2tleSk/LAogICAgICAgICAgICBwYXNzcGhyYXNlOiBkZWNvZGUoYnVuZGxlLnBhc3NwaHJhc2UpPywKICAgICAgICB9KQogICAgfQp9CgojW2Rlcml2ZShDbG9uZSldCnB1YiBzdHJ1Y3QgVGVybWluYWxTZWNyZXRTdG9yZSB7CiAgICBkaXI6IFBhdGhCdWYsCn0KCmltcGwgVGVybWluYWxTZWNyZXRTdG9yZSB7CiAgICBwdWIgZm4gZnJvbV9zdGF0ZShzdGF0ZTogJkFwcFN0YXRlKSAtPiBTZWxmIHsKICAgICAgICBTZWxmOjpuZXcoc3RhdGUuc2V0dGluZ3MuZGF0YV9kaXIuam9pbigidGVybWluYWwiKSkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIG5ldyhkaXI6IGltcGwgSW50bzxQYXRoQnVmPikgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7IGRpcjogZGlyLmludG8oKSB9CiAgICB9CgogICAgI1tjZmcodGVzdCldCiAgICBwdWIgZm4gcmVhZCgmc2VsZiwgdGFyZ2V0X2lkOiAmc3RyLCBraW5kOiBDcmVkZW50aWFsS2luZCkgLT4gVGVybWluYWxSZXN1bHQ8T3B0aW9uPFZlYzx1OD4+PiB7CiAgICAgICAgT2soc2VsZi5yZWFkX2J1bmRsZSh0YXJnZXRfaWQpPy5nZXQoa2luZCkubWFwKDxbdThdPjo6dG9fdmVjKSkKICAgIH0KCiAgICAjW2NmZyh0ZXN0KV0KICAgIHB1YiBmbiB3cml0ZSgmc2VsZiwgdGFyZ2V0X2lkOiAmc3RyLCBraW5kOiBDcmVkZW50aWFsS2luZCwgdmFsdWU6ICZbdThdKSAtPiBUZXJtaW5hbFJlc3VsdDwoKT4gewogICAgICAgIGlmIHZhbHVlLmlzX2VtcHR5KCkgewogICAgICAgICAgICByZXR1cm4gRXJyKFRlcm1pbmFsRXJyb3I6OmludmFsaWQoCiAgICAgICAgICAgICAgICAidGVybWluYWwgY3JlZGVudGlhbCBjYW5ub3QgYmUgZW1wdHkiLAogICAgICAgICAgICApKTsKICAgICAgICB9CiAgICAgICAgc2VsZi51cGRhdGVfYnVuZGxlKHRhcmdldF9pZCwgfGJ1bmRsZXwgewogICAgICAgICAgICBidW5kbGUuc2V0KGtpbmQsIFNvbWUodmFsdWUudG9fdmVjKCkpKTsKICAgICAgICAgICAgT2soKCkpCiAgICAgICAgfSkKICAgIH0KCiAgICAjW2NmZyh0ZXN0KV0KICAgIHB1YiBmbiBkZWxldGUoJnNlbGYsIHRhcmdldF9pZDogJnN0ciwga2luZDogQ3JlZGVudGlhbEtpbmQpIC0+IFRlcm1pbmFsUmVzdWx0PCgpPiB7CiAgICAgICAgc2VsZi51cGRhdGVfYnVuZGxlKHRhcmdldF9pZCwgfGJ1bmRsZXwgewogICAgICAgICAgICBidW5kbGUuc2V0KGtpbmQsIE5vbmUpOwogICAgICAgICAgICBPaygoKSkKICAgICAgICB9KQogICAgfQoKICAgIHB1YihzdXBlcikgZm4gcmVhZF9idW5kbGUoJnNlbGYsIHRhcmdldF9pZDogJnN0cikgLT4gVGVybWluYWxSZXN1bHQ8Q3JlZGVudGlhbEJ1bmRsZT4gewogICAgICAgIHZhbGlkYXRlX3RhcmdldF9pZCh0YXJnZXRfaWQpPzsKICAgICAgICBsZXQgX2d1YXJkID0gU0VDUkVUX09QRVJBVElPTl9MT0NLCiAgICAgICAgICAgIC5sb2NrKCkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHxwb2lzb25lZHwgcG9pc29uZWQuaW50b19pbm5lcigpKTsKICAgICAgICBzZWxmLnJlYWRfYnVuZGxlX2xvY2tlZCh0YXJnZXRfaWQpCiAgICB9CgogICAgcHViKHN1cGVyKSBmbiB3cml0ZV9idW5kbGUoCiAgICAgICAgJnNlbGYsCiAgICAgICAgdGFyZ2V0X2lkOiAmc3RyLAogICAgICAgIGJ1bmRsZTogJkNyZWRlbnRpYWxCdW5kbGUsCiAgICApIC0+IFRlcm1pbmFsUmVzdWx0PCgpPiB7CiAgICAgICAgdmFsaWRhdGVfdGFyZ2V0X2lkKHRhcmdldF9pZCk/OwogICAgICAgIGxldCBfZ3VhcmQgPSBTRUNSRVRfT1BFUkFUSU9OX0xPQ0sKICAgICAgICAgICAgLmxvY2soKQogICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofHBvaXNvbmVkfCBwb2lzb25lZC5pbnRvX2lubmVyKCkpOwogICAgICAgIHNlbGYud3JpdGVfYnVuZGxlX2xvY2tlZCh0YXJnZXRfaWQsIGJ1bmRsZSkKICAgIH0KCiAgICBwdWIoc3VwZXIpIGZuIHVwZGF0ZV9idW5kbGU8Rj4oJnNlbGYsIHRhcmdldF9pZDogJnN0ciwgdXBkYXRlOiBGKSAtPiBUZXJtaW5hbFJlc3VsdDwoKT4KICAgIHdoZXJlCiAgICAgICAgRjogRm5PbmNlKCZtdXQgQ3JlZGVudGlhbEJ1bmRsZSkgLT4gVGVybWluYWxSZXN1bHQ8KCk+LAogICAgewogICAgICAgIHZhbGlkYXRlX3RhcmdldF9pZCh0YXJnZXRfaWQpPzsKICAgICAgICBsZXQgX2d1YXJkID0gU0VDUkVUX09QRVJBVElPTl9MT0NLCiAgICAgICAgICAgIC5sb2NrKCkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHxwb2lzb25lZHwgcG9pc29uZWQuaW50b19pbm5lcigpKTsKICAgICAgICBsZXQgbXV0IGJ1bmRsZSA9IHNlbGYucmVhZF9idW5kbGVfbG9ja2VkKHRhcmdldF9pZCk/OwogICAgICAgIHVwZGF0ZSgmbXV0IGJ1bmRsZSk/OwogICAgICAgIHNlbGYud3JpdGVfYnVuZGxlX2xvY2tlZCh0YXJnZXRfaWQsICZidW5kbGUpCiAgICB9CgogICAgcHViIGZuIGRlbGV0ZV90YXJnZXQoJnNlbGYsIHRhcmdldF9pZDogJnN0cikgLT4gVGVybWluYWxSZXN1bHQ8KCk+IHsKICAgICAgICB2YWxpZGF0ZV90YXJnZXRfaWQodGFyZ2V0X2lkKT87CiAgICAgICAgbGV0IF9ndWFyZCA9IFNFQ1JFVF9PUEVSQVRJT05fTE9DSwogICAgICAgICAgICAubG9jaygpCiAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8cG9pc29uZWR8IHBvaXNvbmVkLmludG9faW5uZXIoKSk7CiAgICAgICAgc2VsZi5kZWxldGVfYnVuZGxlX2xvY2tlZCh0YXJnZXRfaWQpCiAgICB9CgogICAgcHViIGZuIGNsZWFyX2FsbCgmc2VsZikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgICAgICBsZXQgX2d1YXJkID0gU0VDUkVUX09QRVJBVElPTl9MT0NLCiAgICAgICAgICAgIC5sb2NrKCkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHxwb2lzb25lZHwgcG9pc29uZWQuaW50b19pbm5lcigpKTsKICAgICAgICBsZXQgcGF0aCA9IHNlbGYuc2VjcmV0c19kaXIoKTsKICAgICAgICBpZiBzZWxmLmRpci5leGlzdHMoKSB7CiAgICAgICAgICAgIGVuc3VyZV9yZWd1bGFyX2RpcmVjdG9yeSgmc2VsZi5kaXIpPzsKICAgICAgICB9CiAgICAgICAgaWYgcGF0aC5leGlzdHMoKSB7CiAgICAgICAgICAgIGVuc3VyZV9yZWd1bGFyX2RpcmVjdG9yeSgmcGF0aCk/OwogICAgICAgIH0KICAgICAgICBtYXRjaCBmczo6cmVtb3ZlX2Rpcl9hbGwoJnBhdGgpIHsKICAgICAgICAgICAgT2soKCkpID0+IHsKICAgICAgICAgICAgICAgIGZzOjpjcmVhdGVfZGlyX2FsbCgmcGF0aCkubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICAgICAgICAgICAgICBzZWN1cmVfZGlyZWN0b3J5KCZzZWxmLmRpcik/OwogICAgICAgICAgICAgICAgc2VjdXJlX2RpcmVjdG9yeSgmcGF0aCkKICAgICAgICAgICAgfQogICAgICAgICAgICBFcnIoZXJyb3IpIGlmIGVycm9yLmtpbmQoKSA9PSBzdGQ6OmlvOjpFcnJvcktpbmQ6Ok5vdEZvdW5kID0+IE9rKCgpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBFcnIoZXJyb3IudG9fc3RyaW5nKCkpLAogICAgICAgIH0KICAgIH0KCiAgICBmbiByZWFkX2J1bmRsZV9sb2NrZWQoJnNlbGYsIHRhcmdldF9pZDogJnN0cikgLT4gVGVybWluYWxSZXN1bHQ8Q3JlZGVudGlhbEJ1bmRsZT4gewogICAgICAgIGlmICFzZWxmCiAgICAgICAgICAgIC52YWxpZGF0ZV9leGlzdGluZ19sYXlvdXQoKQogICAgICAgICAgICAubWFwX2VycihUZXJtaW5hbEVycm9yOjppbnRlcm5hbCk/CiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gT2soQ3JlZGVudGlhbEJ1bmRsZTo6ZGVmYXVsdCgpKTsKICAgICAgICB9CiAgICAgICAgbGV0IHBhdGggPSBzZWxmLmJ1bmRsZV9wYXRoKHRhcmdldF9pZCk7CiAgICAgICAgbGV0IG1ldGFkYXRhID0gbWF0Y2ggZnM6OnN5bWxpbmtfbWV0YWRhdGEoJnBhdGgpIHsKICAgICAgICAgICAgT2sobWV0YWRhdGEpID0+IG1ldGFkYXRhLAogICAgICAgICAgICBFcnIoZXJyb3IpIGlmIGVycm9yLmtpbmQoKSA9PSBzdGQ6OmlvOjpFcnJvcktpbmQ6Ok5vdEZvdW5kID0+IHsKICAgICAgICAgICAgICAgIHJldHVybiBPayhDcmVkZW50aWFsQnVuZGxlOjpkZWZhdWx0KCkpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIEVycihlcnJvcikgPT4gcmV0dXJuIEVycihUZXJtaW5hbEVycm9yOjppbnRlcm5hbChlcnJvci50b19zdHJpbmcoKSkpLAogICAgICAgIH07CiAgICAgICAgaWYgbWV0YWRhdGEubGVuKCkgPiBNQVhfRU5WRUxPUEVfQllURVMgewogICAgICAgICAgICByZXR1cm4gRXJyKFRlcm1pbmFsRXJyb3I6OmludGVybmFsKAogICAgICAgICAgICAgICAgInRlcm1pbmFsIGNyZWRlbnRpYWwgZW52ZWxvcGUgZXhjZWVkcyB0aGUgc2l6ZSBsaW1pdCIsCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgICAgICBlbnN1cmVfcmVndWxhcl9maWxlKCZwYXRoLCAmbWV0YWRhdGEpLm1hcF9lcnIoVGVybWluYWxFcnJvcjo6aW50ZXJuYWwpPzsKICAgICAgICBsZXQgcmF3ID0gZnM6OnJlYWQoJnBhdGgpLm1hcF9lcnIofGVycm9yfCBUZXJtaW5hbEVycm9yOjppbnRlcm5hbChlcnJvci50b19zdHJpbmcoKSkpPzsKICAgICAgICBsZXQgZW52ZWxvcGU6IFNlY3JldEVudmVsb3BlID0gc2VyZGVfanNvbjo6ZnJvbV9zbGljZSgmcmF3KQogICAgICAgICAgICAubWFwX2Vycih8X3wgVGVybWluYWxFcnJvcjo6aW50ZXJuYWwoInRlcm1pbmFsIGNyZWRlbnRpYWwgZW52ZWxvcGUgaXMgaW52YWxpZCIpKT87CiAgICAgICAgaWYgZW52ZWxvcGUudmVyc2lvbiAhPSBFTlZFTE9QRV9WRVJTSU9OIHsKICAgICAgICAgICAgcmV0dXJuIEVycihUZXJtaW5hbEVycm9yOjppbnRlcm5hbCgKICAgICAgICAgICAgICAgICJ0ZXJtaW5hbCBjcmVkZW50aWFsIGVudmVsb3BlIHZlcnNpb24gaXMgdW5zdXBwb3J0ZWQiLAogICAgICAgICAgICApKTsKICAgICAgICB9CiAgICAgICAgbGV0IG5vbmNlID0gU1RBTkRBUkQKICAgICAgICAgICAgLmRlY29kZShlbnZlbG9wZS5ub25jZSkKICAgICAgICAgICAgLm1hcF9lcnIofF98IFRlcm1pbmFsRXJyb3I6OmludGVybmFsKCJ0ZXJtaW5hbCBjcmVkZW50aWFsIG5vbmNlIGlzIGludmFsaWQiKSk/OwogICAgICAgIGxldCBjaXBoZXJ0ZXh0ID0gU1RBTkRBUkQKICAgICAgICAgICAgLmRlY29kZShlbnZlbG9wZS5jaXBoZXJ0ZXh0KQogICAgICAgICAgICAubWFwX2Vycih8X3wgVGVybWluYWxFcnJvcjo6aW50ZXJuYWwoInRlcm1pbmFsIGNyZWRlbnRpYWwgcGF5bG9hZCBpcyBpbnZhbGlkIikpPzsKICAgICAgICBpZiBub25jZS5sZW4oKSAhPSAxMiB7CiAgICAgICAgICAgIHJldHVybiBFcnIoVGVybWluYWxFcnJvcjo6aW50ZXJuYWwoCiAgICAgICAgICAgICAgICAidGVybWluYWwgY3JlZGVudGlhbCBub25jZSBsZW5ndGggaXMgaW52YWxpZCIsCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgICAgICBsZXQga2V5ID0gc2VsZi5yZWFkX2tleSgpPzsKICAgICAgICBsZXQgY2lwaGVyID0gQWVzMjU2R2NtOjpuZXdfZnJvbV9zbGljZSgma2V5KQogICAgICAgICAgICAubWFwX2Vycih8X3wgVGVybWluYWxFcnJvcjo6aW50ZXJuYWwoInRlcm1pbmFsIGNyZWRlbnRpYWwga2V5IGlzIGludmFsaWQiKSk/OwogICAgICAgIGxldCBwbGFpbnRleHQgPSBjaXBoZXIKICAgICAgICAgICAgLmRlY3J5cHQoCiAgICAgICAgICAgICAgICBOb25jZTo6ZnJvbV9zbGljZSgmbm9uY2UpLAogICAgICAgICAgICAgICAgUGF5bG9hZCB7CiAgICAgICAgICAgICAgICAgICAgbXNnOiAmY2lwaGVydGV4dCwKICAgICAgICAgICAgICAgICAgICBhYWQ6ICZidW5kbGVfYWFkKHRhcmdldF9pZCksCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICApCiAgICAgICAgICAgIC5tYXBfZXJyKHxffCBUZXJtaW5hbEVycm9yOjppbnRlcm5hbCgidGVybWluYWwgY3JlZGVudGlhbCBjYW5ub3QgYmUgZGVjcnlwdGVkIikpPzsKICAgICAgICBsZXQgYnVuZGxlOiBFbmNvZGVkQ3JlZGVudGlhbEJ1bmRsZSA9IHNlcmRlX2pzb246OmZyb21fc2xpY2UoJnBsYWludGV4dCkKICAgICAgICAgICAgLm1hcF9lcnIofF98IFRlcm1pbmFsRXJyb3I6OmludGVybmFsKCJ0ZXJtaW5hbCBjcmVkZW50aWFsIGJ1bmRsZSBpcyBpbnZhbGlkIikpPzsKICAgICAgICBidW5kbGUudHJ5X2ludG8oKQogICAgfQoKICAgIGZuIHdyaXRlX2J1bmRsZV9sb2NrZWQoCiAgICAgICAgJnNlbGYsCiAgICAgICAgdGFyZ2V0X2lkOiAmc3RyLAogICAgICAgIGJ1bmRsZTogJkNyZWRlbnRpYWxCdW5kbGUsCiAgICApIC0+IFRlcm1pbmFsUmVzdWx0PCgpPiB7CiAgICAgICAgaWYgYnVuZGxlLmlzX2VtcHR5KCkgewogICAgICAgICAgICByZXR1cm4gc2VsZi5kZWxldGVfYnVuZGxlX2xvY2tlZCh0YXJnZXRfaWQpOwogICAgICAgIH0KICAgICAgICBzZWxmLmVuc3VyZV9sYXlvdXQoKS5tYXBfZXJyKFRlcm1pbmFsRXJyb3I6OmludGVybmFsKT87CiAgICAgICAgbGV0IHBsYWludGV4dCA9IHNlcmRlX2pzb246OnRvX3ZlYygmRW5jb2RlZENyZWRlbnRpYWxCdW5kbGU6OmZyb20oYnVuZGxlKSkKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBUZXJtaW5hbEVycm9yOjppbnRlcm5hbChlcnJvci50b19zdHJpbmcoKSkpPzsKICAgICAgICBsZXQga2V5ID0gc2VsZi5sb2FkX29yX2NyZWF0ZV9rZXkoKT87CiAgICAgICAgbGV0IG5vbmNlID0gcmFuZG9tX2J5dGVzOjo8MTI+KCk7CiAgICAgICAgbGV0IGNpcGhlciA9IEFlczI1NkdjbTo6bmV3X2Zyb21fc2xpY2UoJmtleSkKICAgICAgICAgICAgLm1hcF9lcnIofF98IFRlcm1pbmFsRXJyb3I6OmludGVybmFsKCJ0ZXJtaW5hbCBjcmVkZW50aWFsIGtleSBpcyBpbnZhbGlkIikpPzsKICAgICAgICBsZXQgY2lwaGVydGV4dCA9IGNpcGhlcgogICAgICAgICAgICAuZW5jcnlwdCgKICAgICAgICAgICAgICAgIE5vbmNlOjpmcm9tX3NsaWNlKCZub25jZSksCiAgICAgICAgICAgICAgICBQYXlsb2FkIHsKICAgICAgICAgICAgICAgICAgICBtc2c6ICZwbGFpbnRleHQsCiAgICAgICAgICAgICAgICAgICAgYWFkOiAmYnVuZGxlX2FhZCh0YXJnZXRfaWQpLAogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgKQogICAgICAgICAgICAubWFwX2Vycih8X3wgVGVybWluYWxFcnJvcjo6aW50ZXJuYWwoImZhaWxlZCB0byBlbmNyeXB0IHRlcm1pbmFsIGNyZWRlbnRpYWwiKSk/OwogICAgICAgIGxldCBlbmNvZGVkID0gc2VyZGVfanNvbjo6dG9fdmVjKCZTZWNyZXRFbnZlbG9wZSB7CiAgICAgICAgICAgIHZlcnNpb246IEVOVkVMT1BFX1ZFUlNJT04sCiAgICAgICAgICAgIG5vbmNlOiBTVEFOREFSRC5lbmNvZGUobm9uY2UpLAogICAgICAgICAgICBjaXBoZXJ0ZXh0OiBTVEFOREFSRC5lbmNvZGUoY2lwaGVydGV4dCksCiAgICAgICAgfSkKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IFRlcm1pbmFsRXJyb3I6OmludGVybmFsKGVycm9yLnRvX3N0cmluZygpKSk/OwogICAgICAgIGF0b21pY19wcml2YXRlX3dyaXRlKCZzZWxmLmJ1bmRsZV9wYXRoKHRhcmdldF9pZCksICZlbmNvZGVkKQogICAgICAgICAgICAubWFwX2VycihUZXJtaW5hbEVycm9yOjppbnRlcm5hbCkKICAgIH0KCiAgICBmbiBkZWxldGVfYnVuZGxlX2xvY2tlZCgmc2VsZiwgdGFyZ2V0X2lkOiAmc3RyKSAtPiBUZXJtaW5hbFJlc3VsdDwoKT4gewogICAgICAgIG1hdGNoIGZzOjpyZW1vdmVfZmlsZShzZWxmLmJ1bmRsZV9wYXRoKHRhcmdldF9pZCkpIHsKICAgICAgICAgICAgT2soKCkpID0+IHN5bmNfZGlyZWN0b3J5KCZzZWxmLnNlY3JldHNfZGlyKCkpLm1hcF9lcnIoVGVybWluYWxFcnJvcjo6aW50ZXJuYWwpLAogICAgICAgICAgICBFcnIoZXJyb3IpIGlmIGVycm9yLmtpbmQoKSA9PSBzdGQ6OmlvOjpFcnJvcktpbmQ6Ok5vdEZvdW5kID0+IE9rKCgpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBFcnIoVGVybWluYWxFcnJvcjo6aW50ZXJuYWwoZXJyb3IudG9fc3RyaW5nKCkpKSwKICAgICAgICB9CiAgICB9CgogICAgZm4gZW5zdXJlX2xheW91dCgmc2VsZikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgICAgICBmczo6Y3JlYXRlX2Rpcl9hbGwoc2VsZi5zZWNyZXRzX2RpcigpKS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgICAgICBlbnN1cmVfcmVndWxhcl9kaXJlY3RvcnkoJnNlbGYuZGlyKT87CiAgICAgICAgZW5zdXJlX3JlZ3VsYXJfZGlyZWN0b3J5KCZzZWxmLnNlY3JldHNfZGlyKCkpPzsKICAgICAgICBzZWN1cmVfZGlyZWN0b3J5KCZzZWxmLmRpcik/OwogICAgICAgIHNlY3VyZV9kaXJlY3RvcnkoJnNlbGYuc2VjcmV0c19kaXIoKSkKICAgIH0KCiAgICBmbiB2YWxpZGF0ZV9leGlzdGluZ19sYXlvdXQoJnNlbGYpIC0+IFJlc3VsdDxib29sLCBTdHJpbmc+IHsKICAgICAgICBtYXRjaCBmczo6c3ltbGlua19tZXRhZGF0YSgmc2VsZi5kaXIpIHsKICAgICAgICAgICAgT2soXykgPT4gZW5zdXJlX3JlZ3VsYXJfZGlyZWN0b3J5KCZzZWxmLmRpcik/LAogICAgICAgICAgICBFcnIoZXJyb3IpIGlmIGVycm9yLmtpbmQoKSA9PSBzdGQ6OmlvOjpFcnJvcktpbmQ6Ok5vdEZvdW5kID0+IHJldHVybiBPayhmYWxzZSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gcmV0dXJuIEVycihlcnJvci50b19zdHJpbmcoKSksCiAgICAgICAgfQogICAgICAgIG1hdGNoIGZzOjpzeW1saW5rX21ldGFkYXRhKHNlbGYuc2VjcmV0c19kaXIoKSkgewogICAgICAgICAgICBPayhfKSA9PiBlbnN1cmVfcmVndWxhcl9kaXJlY3RvcnkoJnNlbGYuc2VjcmV0c19kaXIoKSk/LAogICAgICAgICAgICBFcnIoZXJyb3IpIGlmIGVycm9yLmtpbmQoKSA9PSBzdGQ6OmlvOjpFcnJvcktpbmQ6Ok5vdEZvdW5kID0+IHJldHVybiBPayhmYWxzZSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gcmV0dXJuIEVycihlcnJvci50b19zdHJpbmcoKSksCiAgICAgICAgfQogICAgICAgIE9rKHRydWUpCiAgICB9CgogICAgZm4gc2VjcmV0c19kaXIoJnNlbGYpIC0+IFBhdGhCdWYgewogICAgICAgIHNlbGYuZGlyLmpvaW4oInNlY3JldHMiKQogICAgfQoKICAgIGZuIGJ1bmRsZV9wYXRoKCZzZWxmLCB0YXJnZXRfaWQ6ICZzdHIpIC0+IFBhdGhCdWYgewogICAgICAgIHNlbGYuc2VjcmV0c19kaXIoKS5qb2luKGZvcm1hdCEoInRhcmdldC17dGFyZ2V0X2lkfS5lbmMiKSkKICAgIH0KCiAgICBmbiByZWFkX2tleSgmc2VsZikgLT4gVGVybWluYWxSZXN1bHQ8W3U4OyAzMl0+IHsKICAgICAgICBsZXQgcGF0aCA9IHNlbGYuZGlyLmpvaW4oS0VZX0ZJTEUpOwogICAgICAgIGxldCBtZXRhZGF0YSA9IGZzOjpzeW1saW5rX21ldGFkYXRhKCZwYXRoKQogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IFRlcm1pbmFsRXJyb3I6OmludGVybmFsKGVycm9yLnRvX3N0cmluZygpKSk/OwogICAgICAgIGVuc3VyZV9yZWd1bGFyX2ZpbGUoJnBhdGgsICZtZXRhZGF0YSkubWFwX2VycihUZXJtaW5hbEVycm9yOjppbnRlcm5hbCk/OwogICAgICAgIGZzOjpyZWFkKHBhdGgpCiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgVGVybWluYWxFcnJvcjo6aW50ZXJuYWwoZXJyb3IudG9fc3RyaW5nKCkpKT8KICAgICAgICAgICAgLnRyeV9pbnRvKCkKICAgICAgICAgICAgLm1hcF9lcnIofF98IFRlcm1pbmFsRXJyb3I6OmludGVybmFsKCJ0ZXJtaW5hbCBjcmVkZW50aWFsIGtleSBoYXMgaW52YWxpZCBsZW5ndGgiKSkKICAgIH0KCiAgICBmbiBsb2FkX29yX2NyZWF0ZV9rZXkoJnNlbGYpIC0+IFRlcm1pbmFsUmVzdWx0PFt1ODsgMzJdPiB7CiAgICAgICAgbWF0Y2ggc2VsZi5yZWFkX2tleSgpIHsKICAgICAgICAgICAgT2soa2V5KSA9PiBPayhrZXkpLAogICAgICAgICAgICBFcnIoXykgaWYgIXNlbGYuZGlyLmpvaW4oS0VZX0ZJTEUpLmV4aXN0cygpID0+IHsKICAgICAgICAgICAgICAgIGxldCBrZXkgPSByYW5kb21fYnl0ZXM6OjwzMj4oKTsKICAgICAgICAgICAgICAgIGF0b21pY19wcml2YXRlX3dyaXRlKCZzZWxmLmRpci5qb2luKEtFWV9GSUxFKSwgJmtleSkKICAgICAgICAgICAgICAgICAgICAubWFwX2VycihUZXJtaW5hbEVycm9yOjppbnRlcm5hbCk/OwogICAgICAgICAgICAgICAgT2soa2V5KQogICAgICAgICAgICB9CiAgICAgICAgICAgIEVycihlcnJvcikgPT4gRXJyKGVycm9yKSwKICAgICAgICB9CiAgICB9Cn0KCmZuIHZhbGlkYXRlX3RhcmdldF9pZCh2YWx1ZTogJnN0cikgLT4gVGVybWluYWxSZXN1bHQ8KCk+IHsKICAgIGlmIHZhbHVlLmlzX2VtcHR5KCkKICAgICAgICB8fCB2YWx1ZS5sZW4oKSA+IDY0CiAgICAgICAgfHwgIXZhbHVlCiAgICAgICAgICAgIC5ieXRlcygpCiAgICAgICAgICAgIC5hbGwofGJ5dGV8IGJ5dGUuaXNfYXNjaWlfYWxwaGFudW1lcmljKCkgfHwgYnl0ZSA9PSBiJy0nKQogICAgewogICAgICAgIHJldHVybiBFcnIoVGVybWluYWxFcnJvcjo6aW52YWxpZCgKICAgICAgICAgICAgInRlcm1pbmFsIGNyZWRlbnRpYWwgdGFyZ2V0IGlkZW50aWZpZXIgaXMgaW52YWxpZCIsCiAgICAgICAgKSk7CiAgICB9CiAgICBPaygoKSkKfQoKZm4gYnVuZGxlX2FhZCh0YXJnZXRfaWQ6ICZzdHIpIC0+IFZlYzx1OD4gewogICAgZm9ybWF0ISgiZm4ta25vY2s6dGVybWluYWw6dGFyZ2V0Ont0YXJnZXRfaWR9OmNyZWRlbnRpYWwtYnVuZGxlOnYxIikuaW50b19ieXRlcygpCn0KCmZuIGF0b21pY19wcml2YXRlX3dyaXRlKHBhdGg6ICZQYXRoLCBieXRlczogJlt1OF0pIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBsZXQgcGFyZW50ID0gcGF0aAogICAgICAgIC5wYXJlbnQoKQogICAgICAgIC5va19vcl9lbHNlKHx8ICJpbnZhbGlkIHRlcm1pbmFsIHNlY3JldCBwYXRoIi50b19zdHJpbmcoKSk/OwogICAgZnM6OmNyZWF0ZV9kaXJfYWxsKHBhcmVudCkubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICBlbnN1cmVfcmVndWxhcl9kaXJlY3RvcnkocGFyZW50KT87CiAgICBzZWN1cmVfZGlyZWN0b3J5KHBhcmVudCk/OwogICAgbGV0IHRlbXBvcmFyeSA9IHBhcmVudC5qb2luKGZvcm1hdCEoCiAgICAgICAgIi50ZXJtaW5hbC1zZWNyZXQue30ue30udG1wIiwKICAgICAgICBzdGQ6OnByb2Nlc3M6OmlkKCksCiAgICAgICAgaGV4OjplbmNvZGUocmFuZG9tX2J5dGVzOjo8OD4oKSkKICAgICkpOwogICAgbGV0IHJlc3VsdCA9ICh8fCB7CiAgICAgICAgbGV0IG11dCBvcHRpb25zID0gT3Blbk9wdGlvbnM6Om5ldygpOwogICAgICAgIG9wdGlvbnMud3JpdGUodHJ1ZSkuY3JlYXRlX25ldyh0cnVlKTsKICAgICAgICAjW2NmZyh1bml4KV0KICAgICAgICB7CiAgICAgICAgICAgIHVzZSBzdGQ6Om9zOjp1bml4Ojpmczo6T3Blbk9wdGlvbnNFeHQ7CiAgICAgICAgICAgIG9wdGlvbnMubW9kZSgwbzYwMCk7CiAgICAgICAgfQogICAgICAgIGxldCBtdXQgZmlsZSA9IG9wdGlvbnMKICAgICAgICAgICAgLm9wZW4oJnRlbXBvcmFyeSkKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgICAgIGZpbGUud3JpdGVfYWxsKGJ5dGVzKS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgICAgICBmaWxlLnN5bmNfYWxsKCkubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICAgICAgZHJvcChmaWxlKTsKICAgICAgICBzZWN1cmVfZmlsZSgmdGVtcG9yYXJ5KT87CiAgICAgICAgZnNfdXRpbHM6OnJlcGxhY2VfZmlsZSgmdGVtcG9yYXJ5LCBwYXRoKS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgICAgICBzZWN1cmVfZmlsZShwYXRoKT87CiAgICAgICAgc3luY19kaXJlY3RvcnkocGFyZW50KQogICAgfSkoKTsKICAgIGlmIHJlc3VsdC5pc19lcnIoKSB7CiAgICAgICAgbGV0IF8gPSBmczo6cmVtb3ZlX2ZpbGUodGVtcG9yYXJ5KTsKICAgIH0KICAgIHJlc3VsdAp9CgpmbiBlbnN1cmVfcmVndWxhcl9kaXJlY3RvcnkocGF0aDogJlBhdGgpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBsZXQgbWV0YWRhdGEgPSBmczo6c3ltbGlua19tZXRhZGF0YShwYXRoKS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIGlmICFtZXRhZGF0YS5maWxlX3R5cGUoKS5pc19kaXIoKSB8fCBtZXRhZGF0YV9pc19yZXBhcnNlX3BvaW50KCZtZXRhZGF0YSkgewogICAgICAgIHJldHVybiBFcnIoZm9ybWF0ISgKICAgICAgICAgICAgInRlcm1pbmFsIHNlY3JldCBkaXJlY3RvcnkgaXMgbm90IGEgcmVndWxhciBkaXJlY3Rvcnk6IHt9IiwKICAgICAgICAgICAgcGF0aC5kaXNwbGF5KCkKICAgICAgICApKTsKICAgIH0KICAgIE9rKCgpKQp9CgpmbiBlbnN1cmVfcmVndWxhcl9maWxlKHBhdGg6ICZQYXRoLCBtZXRhZGF0YTogJmZzOjpNZXRhZGF0YSkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGlmICFtZXRhZGF0YS5maWxlX3R5cGUoKS5pc19maWxlKCkgfHwgbWV0YWRhdGFfaXNfcmVwYXJzZV9wb2ludChtZXRhZGF0YSkgewogICAgICAgIHJldHVybiBFcnIoZm9ybWF0ISgKICAgICAgICAgICAgInRlcm1pbmFsIHNlY3JldCBwYXRoIGlzIG5vdCBhIHJlZ3VsYXIgZmlsZToge30iLAogICAgICAgICAgICBwYXRoLmRpc3BsYXkoKQogICAgICAgICkpOwogICAgfQogICAgT2soKCkpCn0KCiNbY2ZnKHdpbmRvd3MpXQpmbiBtZXRhZGF0YV9pc19yZXBhcnNlX3BvaW50KG1ldGFkYXRhOiAmZnM6Ok1ldGFkYXRhKSAtPiBib29sIHsKICAgIHVzZSBzdGQ6Om9zOjp3aW5kb3dzOjpmczo6TWV0YWRhdGFFeHQ7CiAgICB1c2Ugd2luZG93c19zeXM6OldpbjMyOjpTdG9yYWdlOjpGaWxlU3lzdGVtOjpGSUxFX0FUVFJJQlVURV9SRVBBUlNFX1BPSU5UOwoKICAgIG1ldGFkYXRhLmZpbGVfYXR0cmlidXRlcygpICYgRklMRV9BVFRSSUJVVEVfUkVQQVJTRV9QT0lOVCAhPSAwCn0KCiNbY2ZnKG5vdCh3aW5kb3dzKSldCmZuIG1ldGFkYXRhX2lzX3JlcGFyc2VfcG9pbnQobWV0YWRhdGE6ICZmczo6TWV0YWRhdGEpIC0+IGJvb2wgewogICAgbWV0YWRhdGEuZmlsZV90eXBlKCkuaXNfc3ltbGluaygpCn0KCiNbY2ZnKHVuaXgpXQpmbiBzeW5jX2RpcmVjdG9yeShwYXRoOiAmUGF0aCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGZzOjpGaWxlOjpvcGVuKHBhdGgpCiAgICAgICAgLmFuZF90aGVuKHxkaXJlY3Rvcnl8IGRpcmVjdG9yeS5zeW5jX2FsbCgpKQogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpCn0KCiNbY2ZnKG5vdCh1bml4KSldCmZuIHN5bmNfZGlyZWN0b3J5KF9wYXRoOiAmUGF0aCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIE9rKCgpKQp9CgojW2NmZyh1bml4KV0KZm4gc2VjdXJlX2RpcmVjdG9yeShwYXRoOiAmUGF0aCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIHVzZSBzdGQ6Om9zOjp1bml4Ojpmczo6UGVybWlzc2lvbnNFeHQ7CiAgICBmczo6c2V0X3Blcm1pc3Npb25zKHBhdGgsIGZzOjpQZXJtaXNzaW9uczo6ZnJvbV9tb2RlKDBvNzAwKSkubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKQp9CgojW2NmZyh3aW5kb3dzKV0KZm4gc2VjdXJlX2RpcmVjdG9yeShwYXRoOiAmUGF0aCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIHNlY3VyZV93aW5kb3dzX3BhdGgocGF0aCwgdHJ1ZSkKfQoKI1tjZmcoYWxsKG5vdCh1bml4KSwgbm90KHdpbmRvd3MpKSldCmZuIHNlY3VyZV9kaXJlY3RvcnkoX3BhdGg6ICZQYXRoKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgT2soKCkpCn0KCiNbY2ZnKHVuaXgpXQpmbiBzZWN1cmVfZmlsZShwYXRoOiAmUGF0aCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIHVzZSBzdGQ6Om9zOjp1bml4Ojpmczo6UGVybWlzc2lvbnNFeHQ7CiAgICBmczo6c2V0X3Blcm1pc3Npb25zKHBhdGgsIGZzOjpQZXJtaXNzaW9uczo6ZnJvbV9tb2RlKDBvNjAwKSkubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKQp9CgojW2NmZyh3aW5kb3dzKV0KZm4gc2VjdXJlX2ZpbGUocGF0aDogJlBhdGgpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBzZWN1cmVfd2luZG93c19wYXRoKHBhdGgsIGZhbHNlKQp9CgojW2NmZyhhbGwobm90KHVuaXgpLCBub3Qod2luZG93cykpKV0KZm4gc2VjdXJlX2ZpbGUoX3BhdGg6ICZQYXRoKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgT2soKCkpCn0KCiNbY2ZnKHdpbmRvd3MpXQp1c2UgY3JhdGU6OmluZnJhOjpwcml2YXRlX3Blcm1pc3Npb25zOjpzZWN1cmVfd2luZG93c19wYXRoOwo=
+use std::{
+    fs::{self, OpenOptions},
+    io::Write,
+    path::{Path, PathBuf},
+    sync::Mutex,
+};
+
+use aes_gcm::{
+    Aes256Gcm, Nonce,
+    aead::{Aead, KeyInit, Payload},
+};
+use base64::{Engine as _, engine::general_purpose::STANDARD};
+use serde::{Deserialize, Serialize};
+
+use crate::{crypto_utils::random_bytes, fs_utils, state::AppState};
+
+use super::domain::{AuthMethod, TerminalError, TerminalResult};
+
+const ENVELOPE_VERSION: u8 = 1;
+const BUNDLE_VERSION: u8 = 1;
+const KEY_FILE: &str = "secret.key";
+const MAX_ENVELOPE_BYTES: u64 = 4 * 1024 * 1024;
+static SECRET_OPERATION_LOCK: Mutex<()> = Mutex::new(());
+
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+pub enum CredentialKind {
+    Password,
+    PrivateKey,
+    #[cfg(test)]
+    Passphrase,
+}
+
+#[derive(Clone, Debug, Default, PartialEq, Eq)]
+pub(super) struct CredentialBundle {
+    pub auth_method: Option<AuthMethod>,
+    pub target_revision: u64,
+    pub password: Option<Vec<u8>>,
+    pub private_key: Option<Vec<u8>>,
+    pub passphrase: Option<Vec<u8>>,
+}
+
+impl CredentialBundle {
+    #[cfg(test)]
+    fn get(&self, kind: CredentialKind) -> Option<&[u8]> {
+        match kind {
+            CredentialKind::Password => self.password.as_deref(),
+            CredentialKind::PrivateKey => self.private_key.as_deref(),
+            #[cfg(test)]
+            CredentialKind::Passphrase => self.passphrase.as_deref(),
+        }
+    }
+
+    #[cfg(test)]
+    fn set(&mut self, kind: CredentialKind, value: Option<Vec<u8>>) {
+        match kind {
+            CredentialKind::Password => self.password = value,
+            CredentialKind::PrivateKey => self.private_key = value,
+            #[cfg(test)]
+            CredentialKind::Passphrase => self.passphrase = value,
+        }
+    }
+
+    pub(super) fn is_empty(&self) -> bool {
+        self.password.is_none() && self.private_key.is_none() && self.passphrase.is_none()
+    }
+}
+
+#[derive(Serialize, Deserialize)]
+struct SecretEnvelope {
+    version: u8,
+    nonce: String,
+    ciphertext: String,
+}
+
+#[derive(Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+struct EncodedCredentialBundle {
+    version: u8,
+    auth_method: Option<AuthMethod>,
+    target_revision: u64,
+    password: Option<String>,
+    private_key: Option<String>,
+    passphrase: Option<String>,
+}
+
+impl From<&CredentialBundle> for EncodedCredentialBundle {
+    fn from(bundle: &CredentialBundle) -> Self {
+        Self {
+            version: BUNDLE_VERSION,
+            auth_method: bundle.auth_method,
+            target_revision: bundle.target_revision,
+            password: bundle.password.as_ref().map(|value| STANDARD.encode(value)),
+            private_key: bundle
+                .private_key
+                .as_ref()
+                .map(|value| STANDARD.encode(value)),
+            passphrase: bundle
+                .passphrase
+                .as_ref()
+                .map(|value| STANDARD.encode(value)),
+        }
+    }
+}
+
+impl TryFrom<EncodedCredentialBundle> for CredentialBundle {
+    type Error = TerminalError;
+
+    fn try_from(bundle: EncodedCredentialBundle) -> Result<Self, Self::Error> {
+        if bundle.version != BUNDLE_VERSION {
+            return Err(TerminalError::internal(
+                "terminal credential bundle version is unsupported",
+            ));
+        }
+        let decode = |value: Option<String>| {
+            value
+                .map(|value| STANDARD.decode(value))
+                .transpose()
+                .map_err(|_| TerminalError::internal("terminal credential bundle is invalid"))
+        };
+        Ok(Self {
+            auth_method: bundle.auth_method,
+            target_revision: bundle.target_revision,
+            password: decode(bundle.password)?,
+            private_key: decode(bundle.private_key)?,
+            passphrase: decode(bundle.passphrase)?,
+        })
+    }
+}
+
+#[derive(Clone)]
+pub struct TerminalSecretStore {
+    dir: PathBuf,
+}
+
+impl TerminalSecretStore {
+    pub fn from_state(state: &AppState) -> Self {
+        Self::new(state.settings.data_dir.join("terminal"))
+    }
+
+    pub(crate) fn new(dir: impl Into<PathBuf>) -> Self {
+        Self { dir: dir.into() }
+    }
+
+    #[cfg(test)]
+    pub fn read(&self, target_id: &str, kind: CredentialKind) -> TerminalResult<Option<Vec<u8>>> {
+        Ok(self.read_bundle(target_id)?.get(kind).map(<[u8]>::to_vec))
+    }
+
+    #[cfg(test)]
+    pub fn write(&self, target_id: &str, kind: CredentialKind, value: &[u8]) -> TerminalResult<()> {
+        if value.is_empty() {
+            return Err(TerminalError::invalid(
+                "terminal credential cannot be empty",
+            ));
+        }
+        self.update_bundle(target_id, |bundle| {
+            bundle.set(kind, Some(value.to_vec()));
+            Ok(())
+        })
+    }
+
+    #[cfg(test)]
+    pub fn delete(&self, target_id: &str, kind: CredentialKind) -> TerminalResult<()> {
+        self.update_bundle(target_id, |bundle| {
+            bundle.set(kind, None);
+            Ok(())
+        })
+    }
+
+    pub(super) fn read_bundle(&self, target_id: &str) -> TerminalResult<CredentialBundle> {
+        validate_target_id(target_id)?;
+        let _guard = SECRET_OPERATION_LOCK
+            .lock()
+            .unwrap_or_else(|poisoned| poisoned.into_inner());
+        self.read_bundle_locked(target_id)
+    }
+
+    pub(super) fn write_bundle(
+        &self,
+        target_id: &str,
+        bundle: &CredentialBundle,
+    ) -> TerminalResult<()> {
+        validate_target_id(target_id)?;
+        let _guard = SECRET_OPERATION_LOCK
+            .lock()
+            .unwrap_or_else(|poisoned| poisoned.into_inner());
+        self.write_bundle_locked(target_id, bundle)
+    }
+
+    pub(super) fn update_bundle<F>(&self, target_id: &str, update: F) -> TerminalResult<()>
+    where
+        F: FnOnce(&mut CredentialBundle) -> TerminalResult<()>,
+    {
+        validate_target_id(target_id)?;
+        let _guard = SECRET_OPERATION_LOCK
+            .lock()
+            .unwrap_or_else(|poisoned| poisoned.into_inner());
+        let mut bundle = self.read_bundle_locked(target_id)?;
+        update(&mut bundle)?;
+        self.write_bundle_locked(target_id, &bundle)
+    }
+
+    pub fn delete_target(&self, target_id: &str) -> TerminalResult<()> {
+        validate_target_id(target_id)?;
+        let _guard = SECRET_OPERATION_LOCK
+            .lock()
+            .unwrap_or_else(|poisoned| poisoned.into_inner());
+        self.delete_bundle_locked(target_id)
+    }
+
+    pub fn clear_all(&self) -> Result<(), String> {
+        let _guard = SECRET_OPERATION_LOCK
+            .lock()
+            .unwrap_or_else(|poisoned| poisoned.into_inner());
+        let path = self.secrets_dir();
+        if self.dir.exists() {
+            ensure_regular_directory(&self.dir)?;
+        }
+        if path.exists() {
+            ensure_regular_directory(&path)?;
+        }
+        match fs::remove_dir_all(&path) {
+            Ok(()) => {
+                fs::create_dir_all(&path).map_err(|error| error.to_string())?;
+                secure_directory(&self.dir)?;
+                secure_directory(&path)
+            }
+            Err(error) if error.kind() == std::io::ErrorKind::NotFound => Ok(()),
+            Err(error) => Err(error.to_string()),
+        }
+    }
+
+    fn read_bundle_locked(&self, target_id: &str) -> TerminalResult<CredentialBundle> {
+        if !self
+            .validate_existing_layout()
+            .map_err(TerminalError::internal)?
+        {
+            return Ok(CredentialBundle::default());
+        }
+        let path = self.bundle_path(target_id);
+        let metadata = match fs::symlink_metadata(&path) {
+            Ok(metadata) => metadata,
+            Err(error) if error.kind() == std::io::ErrorKind::NotFound => {
+                return Ok(CredentialBundle::default());
+            }
+            Err(error) => return Err(TerminalError::internal(error.to_string())),
+        };
+        if metadata.len() > MAX_ENVELOPE_BYTES {
+            return Err(TerminalError::internal(
+                "terminal credential envelope exceeds the size limit",
+            ));
+        }
+        ensure_regular_file(&path, &metadata).map_err(TerminalError::internal)?;
+        let raw = fs::read(&path).map_err(|error| TerminalError::internal(error.to_string()))?;
+        let envelope: SecretEnvelope = serde_json::from_slice(&raw)
+            .map_err(|_| TerminalError::internal("terminal credential envelope is invalid"))?;
+        if envelope.version != ENVELOPE_VERSION {
+            return Err(TerminalError::internal(
+                "terminal credential envelope version is unsupported",
+            ));
+        }
+        let nonce = STANDARD
+            .decode(envelope.nonce)
+            .map_err(|_| TerminalError::internal("terminal credential nonce is invalid"))?;
+        let ciphertext = STANDARD
+            .decode(envelope.ciphertext)
+            .map_err(|_| TerminalError::internal("terminal credential payload is invalid"))?;
+        if nonce.len() != 12 {
+            return Err(TerminalError::internal(
+                "terminal credential nonce length is invalid",
+            ));
+        }
+        let key = self.read_key()?;
+        let cipher = Aes256Gcm::new_from_slice(&key)
+            .map_err(|_| TerminalError::internal("terminal credential key is invalid"))?;
+        let plaintext = cipher
+            .decrypt(
+                Nonce::from_slice(&nonce),
+                Payload {
+                    msg: &ciphertext,
+                    aad: &bundle_aad(target_id),
+                },
+            )
+            .map_err(|_| TerminalError::internal("terminal credential cannot be decrypted"))?;
+        let bundle: EncodedCredentialBundle = serde_json::from_slice(&plaintext)
+            .map_err(|_| TerminalError::internal("terminal credential bundle is invalid"))?;
+        bundle.try_into()
+    }
+
+    fn write_bundle_locked(
+        &self,
+        target_id: &str,
+        bundle: &CredentialBundle,
+    ) -> TerminalResult<()> {
+        if bundle.is_empty() {
+            return self.delete_bundle_locked(target_id);
+        }
+        self.ensure_layout().map_err(TerminalError::internal)?;
+        let plaintext = serde_json::to_vec(&EncodedCredentialBundle::from(bundle))
+            .map_err(|error| TerminalError::internal(error.to_string()))?;
+        let key = self.load_or_create_key()?;
+        let nonce = random_bytes::<12>();
+        let cipher = Aes256Gcm::new_from_slice(&key)
+            .map_err(|_| TerminalError::internal("terminal credential key is invalid"))?;
+        let ciphertext = cipher
+            .encrypt(
+                Nonce::from_slice(&nonce),
+                Payload {
+                    msg: &plaintext,
+                    aad: &bundle_aad(target_id),
+                },
+            )
+            .map_err(|_| TerminalError::internal("failed to encrypt terminal credential"))?;
+        let encoded = serde_json::to_vec(&SecretEnvelope {
+            version: ENVELOPE_VERSION,
+            nonce: STANDARD.encode(nonce),
+            ciphertext: STANDARD.encode(ciphertext),
+        })
+        .map_err(|error| TerminalError::internal(error.to_string()))?;
+        atomic_private_write(&self.bundle_path(target_id), &encoded)
+            .map_err(TerminalError::internal)
+    }
+
+    fn delete_bundle_locked(&self, target_id: &str) -> TerminalResult<()> {
+        match fs::remove_file(self.bundle_path(target_id)) {
+            Ok(()) => sync_directory(&self.secrets_dir()).map_err(TerminalError::internal),
+            Err(error) if error.kind() == std::io::ErrorKind::NotFound => Ok(()),
+            Err(error) => Err(TerminalError::internal(error.to_string())),
+        }
+    }
+
+    fn ensure_layout(&self) -> Result<(), String> {
+        fs::create_dir_all(self.secrets_dir()).map_err(|error| error.to_string())?;
+        ensure_regular_directory(&self.dir)?;
+        ensure_regular_directory(&self.secrets_dir())?;
+        secure_directory(&self.dir)?;
+        secure_directory(&self.secrets_dir())
+    }
+
+    fn validate_existing_layout(&self) -> Result<bool, String> {
+        match fs::symlink_metadata(&self.dir) {
+            Ok(_) => ensure_regular_directory(&self.dir)?,
+            Err(error) if error.kind() == std::io::ErrorKind::NotFound => return Ok(false),
+            Err(error) => return Err(error.to_string()),
+        }
+        match fs::symlink_metadata(self.secrets_dir()) {
+            Ok(_) => ensure_regular_directory(&self.secrets_dir())?,
+            Err(error) if error.kind() == std::io::ErrorKind::NotFound => return Ok(false),
+            Err(error) => return Err(error.to_string()),
+        }
+        Ok(true)
+    }
+
+    fn secrets_dir(&self) -> PathBuf {
+        self.dir.join("secrets")
+    }
+
+    fn bundle_path(&self, target_id: &str) -> PathBuf {
+        self.secrets_dir().join(format!("target-{target_id}.enc"))
+    }
+
+    fn read_key(&self) -> TerminalResult<[u8; 32]> {
+        let path = self.dir.join(KEY_FILE);
+        let metadata = fs::symlink_metadata(&path)
+            .map_err(|error| TerminalError::internal(error.to_string()))?;
+        ensure_regular_file(&path, &metadata).map_err(TerminalError::internal)?;
+        fs::read(path)
+            .map_err(|error| TerminalError::internal(error.to_string()))?
+            .try_into()
+            .map_err(|_| TerminalError::internal("terminal credential key has invalid length"))
+    }
+
+    fn load_or_create_key(&self) -> TerminalResult<[u8; 32]> {
+        match self.read_key() {
+            Ok(key) => Ok(key),
+            Err(_) if !self.dir.join(KEY_FILE).exists() => {
+                let key = random_bytes::<32>();
+                atomic_private_write(&self.dir.join(KEY_FILE), &key)
+                    .map_err(TerminalError::internal)?;
+                Ok(key)
+            }
+            Err(error) => Err(error),
+        }
+    }
+}
+
+fn validate_target_id(value: &str) -> TerminalResult<()> {
+    if value.is_empty()
+        || value.len() > 64
+        || !value
+            .bytes()
+            .all(|byte| byte.is_ascii_alphanumeric() || byte == b'-')
+    {
+        return Err(TerminalError::invalid(
+            "terminal credential target identifier is invalid",
+        ));
+    }
+    Ok(())
+}
+
+fn bundle_aad(target_id: &str) -> Vec<u8> {
+    format!("fn-knock:terminal:target:{target_id}:credential-bundle:v1").into_bytes()
+}
+
+fn atomic_private_write(path: &Path, bytes: &[u8]) -> Result<(), String> {
+    let parent = path
+        .parent()
+        .ok_or_else(|| "invalid terminal secret path".to_string())?;
+    fs::create_dir_all(parent).map_err(|error| error.to_string())?;
+    ensure_regular_directory(parent)?;
+    secure_directory(parent)?;
+    let temporary = parent.join(format!(
+        ".terminal-secret.{}.{}.tmp",
+        std::process::id(),
+        hex::encode(random_bytes::<8>())
+    ));
+    let result = (|| {
+        let mut options = OpenOptions::new();
+        options.write(true).create_new(true);
+        #[cfg(unix)]
+        {
+            use std::os::unix::fs::OpenOptionsExt;
+            options.mode(0o600);
+        }
+        let mut file = options
+            .open(&temporary)
+            .map_err(|error| error.to_string())?;
+        file.write_all(bytes).map_err(|error| error.to_string())?;
+        file.sync_all().map_err(|error| error.to_string())?;
+        drop(file);
+        secure_file(&temporary)?;
+        fs_utils::replace_file(&temporary, path).map_err(|error| error.to_string())?;
+        secure_file(path)?;
+        sync_directory(parent)
+    })();
+    if result.is_err() {
+        let _ = fs::remove_file(temporary);
+    }
+    result
+}
+
+fn ensure_regular_directory(path: &Path) -> Result<(), String> {
+    let metadata = fs::symlink_metadata(path).map_err(|error| error.to_string())?;
+    if !metadata.file_type().is_dir() || metadata_is_reparse_point(&metadata) {
+        return Err(format!(
+            "terminal secret directory is not a regular directory: {}",
+            path.display()
+        ));
+    }
+    Ok(())
+}
+
+fn ensure_regular_file(path: &Path, metadata: &fs::Metadata) -> Result<(), String> {
+    if !metadata.file_type().is_file() || metadata_is_reparse_point(metadata) {
+        return Err(format!(
+            "terminal secret path is not a regular file: {}",
+            path.display()
+        ));
+    }
+    Ok(())
+}
+
+#[cfg(windows)]
+fn metadata_is_reparse_point(metadata: &fs::Metadata) -> bool {
+    use std::os::windows::fs::MetadataExt;
+    use windows_sys::Win32::Storage::FileSystem::FILE_ATTRIBUTE_REPARSE_POINT;
+
+    metadata.file_attributes() & FILE_ATTRIBUTE_REPARSE_POINT != 0
+}
+
+#[cfg(not(windows))]
+fn metadata_is_reparse_point(metadata: &fs::Metadata) -> bool {
+    metadata.file_type().is_symlink()
+}
+
+#[cfg(unix)]
+fn sync_directory(path: &Path) -> Result<(), String> {
+    fs::File::open(path)
+        .and_then(|directory| directory.sync_all())
+        .map_err(|error| error.to_string())
+}
+
+#[cfg(not(unix))]
+fn sync_directory(_path: &Path) -> Result<(), String> {
+    Ok(())
+}
+
+#[cfg(unix)]
+fn secure_directory(path: &Path) -> Result<(), String> {
+    use std::os::unix::fs::PermissionsExt;
+    fs::set_permissions(path, fs::Permissions::from_mode(0o700)).map_err(|error| error.to_string())
+}
+
+#[cfg(windows)]
+fn secure_directory(path: &Path) -> Result<(), String> {
+    secure_windows_path(path, true)
+}
+
+#[cfg(all(not(unix), not(windows)))]
+fn secure_directory(_path: &Path) -> Result<(), String> {
+    Ok(())
+}
+
+#[cfg(unix)]
+fn secure_file(path: &Path) -> Result<(), String> {
+    use std::os::unix::fs::PermissionsExt;
+    fs::set_permissions(path, fs::Permissions::from_mode(0o600)).map_err(|error| error.to_string())
+}
+
+#[cfg(windows)]
+fn secure_file(path: &Path) -> Result<(), String> {
+    secure_windows_path(path, false)
+}
+
+#[cfg(all(not(unix), not(windows)))]
+fn secure_file(_path: &Path) -> Result<(), String> {
+    Ok(())
+}
+
+#[cfg(windows)]
+use crate::infra::private_permissions::secure_windows_path;

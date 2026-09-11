@@ -1,1 +1,69 @@
-aW1wb3J0IHR5cGUgeyBIb3N0TG9jYXRpb24gfSBmcm9tICJAL3R5cGVzIjsKCmV4cG9ydCB0eXBlIEdhdGV3YXlMb2NhdGlvbkhlYWRlclJvdyA9IHsKICBuYW1lOiBzdHJpbmc7CiAgdmFsdWU6IHN0cmluZzsKfTsKCmV4cG9ydCB0eXBlIEdhdGV3YXlMb2NhdGlvbkZvcm0gPSBPbWl0PEhvc3RMb2NhdGlvbiwgInJlc3BvbnNlIj4gJiB7CiAgcmVzcG9uc2U6IEhvc3RMb2NhdGlvblsicmVzcG9uc2UiXTsKICBoZWFkZXJzOiBHYXRld2F5TG9jYXRpb25IZWFkZXJSb3dbXTsKfTsKCmV4cG9ydCBjb25zdCBERUZBVUxUX1JFU1BPTlNFX0NPTlRFTlRfVFlQRSA9ICJ0ZXh0L3BsYWluOyBjaGFyc2V0PXV0Zi04IjsKCmV4cG9ydCBjb25zdCBjcmVhdGVEZWZhdWx0TG9jYXRpb24gPSAoKTogSG9zdExvY2F0aW9uID0+ICh7CiAgcGF0aDogIiIsCiAgbWF0Y2g6ICJleGFjdCIsCiAgYWN0aW9uOiAicHJveHkiLAogIHRhcmdldDogIiIsCiAgc3RyaXBfcGF0aDogdHJ1ZSwKICByZXdyaXRlX2h0bWw6IHRydWUsCiAgYXV0aF9tb2RlOiAiaW5oZXJpdCIsCiAgcmVzcG9uc2U6IHsKICAgIHN0YXR1czogMjAwLAogICAgY29udGVudF90eXBlOiBERUZBVUxUX1JFU1BPTlNFX0NPTlRFTlRfVFlQRSwKICAgIGhlYWRlcnM6IHt9LAogICAgYm9keTogIiIsCiAgfSwKfSk7CgpleHBvcnQgY29uc3QgY3JlYXRlRGVmYXVsdExvY2F0aW9uRm9ybSA9ICgpOiBHYXRld2F5TG9jYXRpb25Gb3JtID0+ICh7CiAgLi4uY3JlYXRlRGVmYXVsdExvY2F0aW9uKCksCiAgaGVhZGVyczogW10sCn0pOwoKZXhwb3J0IGNvbnN0IGNsb25lTG9jYXRpb24gPSAobG9jYXRpb246IEhvc3RMb2NhdGlvbik6IEhvc3RMb2NhdGlvbiA9PiAoewogIC4uLmxvY2F0aW9uLAogIGF1dGhfbW9kZToKICAgIGxvY2F0aW9uLmF1dGhfbW9kZSA9PT0gInB1YmxpYyIgfHwgbG9jYXRpb24uYXV0aF9tb2RlID09PSAicmVxdWlyZV9sb2dpbiIKICAgICAgPyBsb2NhdGlvbi5hdXRoX21vZGUKICAgICAgOiAiaW5oZXJpdCIsCiAgcmVzcG9uc2U6IHsKICAgIHN0YXR1czogbG9jYXRpb24ucmVzcG9uc2U/LnN0YXR1cyA/PyAyMDAsCiAgICBjb250ZW50X3R5cGU6CiAgICAgIGxvY2F0aW9uLnJlc3BvbnNlPy5jb250ZW50X3R5cGU/LnRyaW0oKSB8fCBERUZBVUxUX1JFU1BPTlNFX0NPTlRFTlRfVFlQRSwKICAgIGhlYWRlcnM6IHsgLi4uKGxvY2F0aW9uLnJlc3BvbnNlPy5oZWFkZXJzID8/IHt9KSB9LAogICAgYm9keTogbG9jYXRpb24ucmVzcG9uc2U/LmJvZHkgPz8gIiIsCiAgfSwKfSk7CgpleHBvcnQgY29uc3Qgc25hcHNob3RMb2NhdGlvbnMgPSAobG9jYXRpb25zOiByZWFkb25seSBIb3N0TG9jYXRpb25bXSk6IHN0cmluZyA9PgogIEpTT04uc3RyaW5naWZ5KGxvY2F0aW9ucy5tYXAoY2xvbmVMb2NhdGlvbikpOwoKZXhwb3J0IGNvbnN0IGNsZWFuSG9zdExvY2F0aW9uUGF0aCA9ICh2YWx1ZTogc3RyaW5nKTogc3RyaW5nID0+IHsKICBjb25zdCByYXcgPSB2YWx1ZS50cmltKCk7CiAgaWYgKCFyYXcuc3RhcnRzV2l0aCgiLyIpKSByZXR1cm4gcmF3OwoKICBjb25zdCBzZWdtZW50czogc3RyaW5nW10gPSBbXTsKICBmb3IgKGNvbnN0IHNlZ21lbnQgb2YgcmF3LnNwbGl0KCIvIikpIHsKICAgIGlmICghc2VnbWVudCB8fCBzZWdtZW50ID09PSAiLiIpIGNvbnRpbnVlOwogICAgaWYgKHNlZ21lbnQgPT09ICIuLiIpIHsKICAgICAgc2VnbWVudHMucG9wKCk7CiAgICAgIGNvbnRpbnVlOwogICAgfQogICAgc2VnbWVudHMucHVzaChzZWdtZW50KTsKICB9CgogIHJldHVybiBgLyR7c2VnbWVudHMuam9pbigiLyIpfWA7Cn07Cg==
+import type { HostLocation } from "@/types";
+
+export type GatewayLocationHeaderRow = {
+  name: string;
+  value: string;
+};
+
+export type GatewayLocationForm = Omit<HostLocation, "response"> & {
+  response: HostLocation["response"];
+  headers: GatewayLocationHeaderRow[];
+};
+
+export const DEFAULT_RESPONSE_CONTENT_TYPE = "text/plain; charset=utf-8";
+
+export const createDefaultLocation = (): HostLocation => ({
+  path: "",
+  match: "exact",
+  action: "proxy",
+  target: "",
+  strip_path: true,
+  rewrite_html: true,
+  auth_mode: "inherit",
+  response: {
+    status: 200,
+    content_type: DEFAULT_RESPONSE_CONTENT_TYPE,
+    headers: {},
+    body: "",
+  },
+});
+
+export const createDefaultLocationForm = (): GatewayLocationForm => ({
+  ...createDefaultLocation(),
+  headers: [],
+});
+
+export const cloneLocation = (location: HostLocation): HostLocation => ({
+  ...location,
+  auth_mode:
+    location.auth_mode === "public" || location.auth_mode === "require_login"
+      ? location.auth_mode
+      : "inherit",
+  response: {
+    status: location.response?.status ?? 200,
+    content_type:
+      location.response?.content_type?.trim() || DEFAULT_RESPONSE_CONTENT_TYPE,
+    headers: { ...(location.response?.headers ?? {}) },
+    body: location.response?.body ?? "",
+  },
+});
+
+export const snapshotLocations = (locations: readonly HostLocation[]): string =>
+  JSON.stringify(locations.map(cloneLocation));
+
+export const cleanHostLocationPath = (value: string): string => {
+  const raw = value.trim();
+  if (!raw.startsWith("/")) return raw;
+
+  const segments: string[] = [];
+  for (const segment of raw.split("/")) {
+    if (!segment || segment === ".") continue;
+    if (segment === "..") {
+      segments.pop();
+      continue;
+    }
+    segments.push(segment);
+  }
+
+  return `/${segments.join("/")}`;
+};

@@ -1,1 +1,428 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBFeWUsIEZsYXNrQ29uaWNhbCwgUGx1cyB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsKICBTZWxlY3QsCiAgU2VsZWN0Q29udGVudCwKICBTZWxlY3RJdGVtLAogIFNlbGVjdFRyaWdnZXIsCiAgU2VsZWN0VmFsdWUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NlbGVjdCI7CmltcG9ydCBDb2RlTWlycm9yRWRpdG9yIGZyb20gIkAvY29tcG9uZW50cy9Db2RlTWlycm9yRWRpdG9yLnZ1ZSI7CmltcG9ydCB0eXBlIHsKICBXZWJob29rQm9keUNvbmZpZywKICBXZWJob29rQm9keUNvbnN0cmFpbnRzLAogIFdlYmhvb2tCb2R5Rm9ybWF0LAogIFdlYmhvb2tCb2R5TW9kZSwKICBXZWJob29rQm9keVByZXZpZXcsCiAgV2ViaG9va0JvZHlTY29wZSwKfSBmcm9tICIuL3dlYmhvb2stYm9keSI7CmltcG9ydCB7CiAgY29lcmNlV2ViaG9va0JvZHlDb25maWcsCiAgY3JlYXRlV2ViaG9va1NhbXBsZUNvbnRleHQsCiAgREVGQVVMVF9XRUJIT09LX0JPRFlfQ09OU1RSQUlOVFMsCiAgdmFsaWRhdGVXZWJob29rQm9keUNvbmZpZywKICB2YWxpZGF0ZVdlYmhvb2tTYW1wbGVDb250ZXh0LAogIFdFQkhPT0tfQk9EWV9WQVJJQUJMRVMsCn0gZnJvbSAiLi93ZWJob29rLWJvZHkiOwoKaW1wb3J0IHsKICBXRUJIT09LX0NPTU1PTl9GQUNUUywKICBXRUJIT09LX0VWRU5UX0ZBQ1RTLAogIFdFQkhPT0tfRkFDVF9MQUJFTFMsCn0gZnJvbSAiLi93ZWJob29rLWZhY3RzIjsKCmNvbnN0IGZhY3RMYWJlbCA9IChrZXk6IHN0cmluZykgPT4KICBrZXkgPT09ICJob3N0IgogICAgPyAiSG9zdCIKICAgIDogdChgYWRtaW4ubm90aWZpY2F0aW9ucy5ib2R5LmZhY3RMYWJlbHMuJHtXRUJIT09LX0ZBQ1RfTEFCRUxTW2tleV19YCk7Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cygKICBkZWZpbmVQcm9wczx7CiAgICBtb2RlbFZhbHVlOiB1bmtub3duOwogICAgY29uc3RyYWludHM/OiBXZWJob29rQm9keUNvbnN0cmFpbnRzOwogICAgc2FtcGxlQ29udGV4dD86IHN0cmluZzsKICAgIHByZXZpZXc/OiBXZWJob29rQm9keVByZXZpZXcgfCBudWxsOwogICAgcHJldmlld2luZz86IGJvb2xlYW47CiAgICB0ZXN0aW5nPzogYm9vbGVhbjsKICB9PigpLAogIHsKICAgIGNvbnN0cmFpbnRzOiAoKSA9PiBERUZBVUxUX1dFQkhPT0tfQk9EWV9DT05TVFJBSU5UUywKICAgIHNhbXBsZUNvbnRleHQ6ICIiLAogICAgcHJldmlldzogbnVsbCwKICAgIHByZXZpZXdpbmc6IGZhbHNlLAogICAgdGVzdGluZzogZmFsc2UsCiAgfSwKKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgInVwZGF0ZTptb2RlbFZhbHVlIjogW3ZhbHVlOiBXZWJob29rQm9keUNvbmZpZ107CiAgInVwZGF0ZTpzYW1wbGVDb250ZXh0IjogW3ZhbHVlOiBzdHJpbmddOwogIHByZXZpZXc6IFtdOwogIHRlc3Q6IFtdOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHRlbXBsYXRlRWRpdG9yID0gcmVmPEluc3RhbmNlVHlwZTx0eXBlb2YgQ29kZU1pcnJvckVkaXRvcj4gfCBudWxsPihudWxsKTsKY29uc3QgZW5jb2RlciA9IG5ldyBUZXh0RW5jb2RlcigpOwoKY29uc3Qgc2NvcGUgPSBjb21wdXRlZDxXZWJob29rQm9keVNjb3BlPigoKSA9PgogIHByb3BzLmNvbnN0cmFpbnRzLnNjb3BlID09PSAidGFyZ2V0IiA/ICJ0YXJnZXQiIDogInByb3ZpZGVyIiwKKTsKY29uc3QgY29uZmlnID0gY29tcHV0ZWQoKCkgPT4KICBjb2VyY2VXZWJob29rQm9keUNvbmZpZyhwcm9wcy5tb2RlbFZhbHVlLCBzY29wZS52YWx1ZSksCik7CmNvbnN0IGN1c3RvbSA9IGNvbXB1dGVkKCgpID0+IGNvbmZpZy52YWx1ZS5tb2RlID09PSAiY3VzdG9tIik7CmNvbnN0IGlzc3VlcyA9IGNvbXB1dGVkKCgpID0+CiAgdmFsaWRhdGVXZWJob29rQm9keUNvbmZpZyhwcm9wcy5tb2RlbFZhbHVlLCBwcm9wcy5jb25zdHJhaW50cywgc2NvcGUudmFsdWUpLAopOwpjb25zdCBzYW1wbGVUZXh0ID0gY29tcHV0ZWQoKCkgPT4gcHJvcHMuc2FtcGxlQ29udGV4dCk7CmNvbnN0IHNhbXBsZUlzc3VlID0gY29tcHV0ZWQoKCkgPT4gewogIGNvbnN0IGlzc3VlID0gdmFsaWRhdGVXZWJob29rU2FtcGxlQ29udGV4dCgKICAgIHNhbXBsZVRleHQudmFsdWUsCiAgICBwcm9wcy5jb25zdHJhaW50cywKICApWzBdOwogIGlmICghaXNzdWUpIHJldHVybiAiIjsKICByZXR1cm4gdChgYWRtaW4ubm90aWZpY2F0aW9ucy5ib2R5LmVycm9ycy4ke2lzc3VlLmNvZGV9YCwgewogICAgbWF4OiBwcm9wcy5jb25zdHJhaW50cy5tYXhfc2FtcGxlX2J5dGVzIHx8IDY0ICogMTAyNCwKICB9KTsKfSk7CmNvbnN0IGludmFsaWQgPSBjb21wdXRlZCgKICAoKSA9PiBpc3N1ZXMudmFsdWUubGVuZ3RoID4gMCB8fCBCb29sZWFuKHNhbXBsZUlzc3VlLnZhbHVlKSwKKTsKY29uc3QgdGVtcGxhdGVCeXRlcyA9IGNvbXB1dGVkKAogICgpID0+IGVuY29kZXIuZW5jb2RlKGNvbmZpZy52YWx1ZS50ZW1wbGF0ZSB8fCAiIikubGVuZ3RoLAopOwoKY29uc3QgZGVmYXVsdEN1c3RvbVRlbXBsYXRlID0gYHsKICAic291cmNlIjogImZuX2tub2NrIiwKICAicHJvdmlkZXJfdHlwZSI6ICJ3ZWJob29rIiwKICAibWVzc2FnZSI6ICJ7e21lc3NhZ2V9fSIsCiAgImNvbnRleHQiOiAie3tjb250ZXh0fX0iLAogICJwYXlsb2FkIjogewogICAgImV2ZW50IjogInt7ZXZlbnR9fSIsCiAgICAiZXh0cmFfYm9keSI6ICJ7e2xlZ2FjeS5leHRyYV9ib2R5fX0iCiAgfQp9YDsKCmNvbnN0IHVwZGF0ZUNvbmZpZyA9IChwYXRjaDogUGFydGlhbDxXZWJob29rQm9keUNvbmZpZz4pID0+IHsKICBlbWl0KCJ1cGRhdGU6bW9kZWxWYWx1ZSIsIHsgLi4uY29uZmlnLnZhbHVlLCAuLi5wYXRjaCB9KTsKfTsKCmNvbnN0IHVwZGF0ZU1vZGUgPSAodmFsdWU6IHVua25vd24pID0+IHsKICBjb25zdCBtb2RlID0gU3RyaW5nKHZhbHVlKSBhcyBXZWJob29rQm9keU1vZGU7CiAgaWYgKG1vZGUgIT09ICJjdXN0b20iKSB7CiAgICBlbWl0KCJ1cGRhdGU6bW9kZWxWYWx1ZSIsIHsgbW9kZSB9KTsKICAgIHJldHVybjsKICB9CiAgZW1pdCgidXBkYXRlOm1vZGVsVmFsdWUiLCB7CiAgICBtb2RlOiAiY3VzdG9tIiwKICAgIGZvcm1hdDogY29uZmlnLnZhbHVlLmZvcm1hdCB8fCAianNvbiIsCiAgICBjb250ZW50X3R5cGU6IGNvbmZpZy52YWx1ZS5jb250ZW50X3R5cGUgfHwgImFwcGxpY2F0aW9uL2pzb24iLAogICAgdGVtcGxhdGU6IGNvbmZpZy52YWx1ZS50ZW1wbGF0ZSB8fCBkZWZhdWx0Q3VzdG9tVGVtcGxhdGUsCiAgfSk7Cn07Cgpjb25zdCB1cGRhdGVGb3JtYXQgPSAodmFsdWU6IHVua25vd24pID0+IHsKICBjb25zdCBmb3JtYXQgPSBTdHJpbmcodmFsdWUpIGFzIFdlYmhvb2tCb2R5Rm9ybWF0OwogIGNvbnN0IHByZXZpb3VzRGVmYXVsdCA9CiAgICBjb25maWcudmFsdWUuZm9ybWF0ID09PSAidGV4dCIKICAgICAgPyAidGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOCIKICAgICAgOiAiYXBwbGljYXRpb24vanNvbiI7CiAgdXBkYXRlQ29uZmlnKHsKICAgIGZvcm1hdCwKICAgIGNvbnRlbnRfdHlwZToKICAgICAgIWNvbmZpZy52YWx1ZS5jb250ZW50X3R5cGUgfHwKICAgICAgY29uZmlnLnZhbHVlLmNvbnRlbnRfdHlwZSA9PT0gcHJldmlvdXNEZWZhdWx0CiAgICAgICAgPyBmb3JtYXQgPT09ICJqc29uIgogICAgICAgICAgPyAiYXBwbGljYXRpb24vanNvbiIKICAgICAgICAgIDogInRleHQvcGxhaW47IGNoYXJzZXQ9dXRmLTgiCiAgICAgICAgOiBjb25maWcudmFsdWUuY29udGVudF90eXBlLAogIH0pOwp9OwoKY29uc3QgZm9ybWF0VGVtcGxhdGUgPSAoKSA9PiB7CiAgaWYgKGNvbmZpZy52YWx1ZS5mb3JtYXQgIT09ICJqc29uIikgcmV0dXJuOwogIHRyeSB7CiAgICBjb25zdCBwYXJzZWQgPSBKU09OLnBhcnNlKGNvbmZpZy52YWx1ZS50ZW1wbGF0ZSB8fCAiIik7CiAgICB1cGRhdGVDb25maWcoeyB0ZW1wbGF0ZTogSlNPTi5zdHJpbmdpZnkocGFyc2VkLCBudWxsLCAyKSB9KTsKICB9IGNhdGNoIHsKICAgIC8vIFRoZSBpbmxpbmUgdmFsaWRhdGlvbiBhbHJlYWR5IGV4cGxhaW5zIHRoZSBzeW50YXggcHJvYmxlbS4KICB9Cn07Cgpjb25zdCBpbnNlcnRWYXJpYWJsZSA9IChwYXRoOiBzdHJpbmcpID0+IHsKICB0ZW1wbGF0ZUVkaXRvci52YWx1ZT8uaW5zZXJ0VGV4dChge3ske3BhdGh9fX1gKTsKfTsKCmNvbnN0IGlzc3VlVGV4dCA9IGNvbXB1dGVkKCgpID0+IHsKICBjb25zdCBpc3N1ZSA9IGlzc3Vlcy52YWx1ZVswXTsKICBpZiAoIWlzc3VlKSByZXR1cm4gIiI7CiAgcmV0dXJuIHQoYGFkbWluLm5vdGlmaWNhdGlvbnMuYm9keS5lcnJvcnMuJHtpc3N1ZS5jb2RlfWAsIHsKICAgIGRldGFpbDogaXNzdWUuZGV0YWlsIHx8ICIiLAogICAgbWF4OgogICAgICBpc3N1ZS5jb2RlID09PSAidGVtcGxhdGVUb29MYXJnZSIKICAgICAgICA/IHByb3BzLmNvbnN0cmFpbnRzLm1heF90ZW1wbGF0ZV9ieXRlcyB8fCA2NCAqIDEwMjQKICAgICAgICA6IGlzc3VlLmNvZGUgPT09ICJ0b29NYW55VmFyaWFibGVzIgogICAgICAgICAgPyBwcm9wcy5jb25zdHJhaW50cy5tYXhfcGxhY2Vob2xkZXJzIHx8IDI1NgogICAgICAgICAgOiBwcm9wcy5jb25zdHJhaW50cy5tYXhfY29udGVudF90eXBlX2J5dGVzIHx8IDI1NiwKICB9KTsKfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9Im1pbi13LTAgbWF4LXctZnVsbCBzcGFjZS15LTQiPgogICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMyBzbTpncmlkLWNvbHMtMiI+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ib2R5Lm1vZGUiKSB9fQogICAgICAgIDwvZGl2PgogICAgICAgIDxTZWxlY3QgOm1vZGVsLXZhbHVlPSJjb25maWcubW9kZSIgQHVwZGF0ZTptb2RlbC12YWx1ZT0idXBkYXRlTW9kZSI+CiAgICAgICAgICA8U2VsZWN0VHJpZ2dlciA6YXJpYS1sYWJlbD0idCgnYWRtaW4ubm90aWZpY2F0aW9ucy5ib2R5Lm1vZGUnKSI+CiAgICAgICAgICAgIDxTZWxlY3RWYWx1ZSAvPgogICAgICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgIDxTZWxlY3RJdGVtIDp2YWx1ZT0ic2NvcGUgPT09ICdwcm92aWRlcicgPyAnc3RhbmRhcmQnIDogJ2luaGVyaXQnIj4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgc2NvcGUgPT09ICJwcm92aWRlciIKICAgICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLmJvZHkuc3RhbmRhcmQiKQogICAgICAgICAgICAgICAgICA6IHQoImFkbWluLm5vdGlmaWNhdGlvbnMuYm9keS5pbmhlcml0IikKICAgICAgICAgICAgICB9fQogICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJjdXN0b20iPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMuYm9keS5jdXN0b20iKSB9fQogICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgICAgPC9TZWxlY3Q+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiB2LWlmPSJjdXN0b20iIGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMuYm9keS5mb3JtYXQiKSB9fQogICAgICAgIDwvZGl2PgogICAgICAgIDxTZWxlY3QgOm1vZGVsLXZhbHVlPSJjb25maWcuZm9ybWF0IiBAdXBkYXRlOm1vZGVsLXZhbHVlPSJ1cGRhdGVGb3JtYXQiPgogICAgICAgICAgPFNlbGVjdFRyaWdnZXIgOmFyaWEtbGFiZWw9InQoJ2FkbWluLm5vdGlmaWNhdGlvbnMuYm9keS5mb3JtYXQnKSI+CiAgICAgICAgICAgIDxTZWxlY3RWYWx1ZSAvPgogICAgICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJqc29uIj5KU09OPC9TZWxlY3RJdGVtPgogICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0idGV4dCI+VGV4dDwvU2VsZWN0SXRlbT4KICAgICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgICA8L1NlbGVjdD4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8dGVtcGxhdGUgdi1pZj0iY3VzdG9tIj4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICBDb250ZW50LVR5cGUKICAgICAgICA8L2Rpdj4KICAgICAgICA8SW5wdXQKICAgICAgICAgIGFyaWEtbGFiZWw9IkNvbnRlbnQtVHlwZSIKICAgICAgICAgIDptb2RlbC12YWx1ZT0iY29uZmlnLmNvbnRlbnRfdHlwZSB8fCAnJyIKICAgICAgICAgIHBsYWNlaG9sZGVyPSJhcHBsaWNhdGlvbi9qc29uIgogICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iCiAgICAgICAgICAgICh2YWx1ZSkgPT4gdXBkYXRlQ29uZmlnKHsgY29udGVudF90eXBlOiBTdHJpbmcodmFsdWUpIH0pCiAgICAgICAgICAiCiAgICAgICAgLz4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTIiPgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLmJvZHkudGVtcGxhdGUiKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgIDxCYWRnZSB2YXJpYW50PSJzZWNvbmRhcnkiIGNsYXNzPSJmb250LW1vbm8gdGV4dC1bMTFweF0iPgogICAgICAgICAgICAgIHt7IHRlbXBsYXRlQnl0ZXMgfX0gQgogICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgdi1pZj0iY29uZmlnLmZvcm1hdCA9PT0gJ2pzb24nIgogICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgIEBjbGljaz0iZm9ybWF0VGVtcGxhdGUiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLmJvZHkuZm9ybWF0SnNvbiIpIH19CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPENvZGVNaXJyb3JFZGl0b3IKICAgICAgICAgIHJlZj0idGVtcGxhdGVFZGl0b3IiCiAgICAgICAgICBjbGFzcz0ibWluLXctMCBtYXgtdy1mdWxsIgogICAgICAgICAgOm1vZGVsLXZhbHVlPSJjb25maWcudGVtcGxhdGUgfHwgJyciCiAgICAgICAgICA6bGFuZ3VhZ2U9ImNvbmZpZy5mb3JtYXQgPT09ICdqc29uJyA/ICdqc29uJyA6ICd0ZXh0JyIKICAgICAgICAgIG1pbi1oZWlnaHQ9IjI0MHB4IgogICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLm5vdGlmaWNhdGlvbnMuYm9keS50ZW1wbGF0ZScpIgogICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iKHZhbHVlKSA9PiB1cGRhdGVDb25maWcoeyB0ZW1wbGF0ZTogdmFsdWUgfSkiCiAgICAgICAgLz4KICAgICAgICA8cCB2LWlmPSJpc3N1ZVRleHQiIGNsYXNzPSJ0ZXh0LXhzIHRleHQtZGVzdHJ1Y3RpdmUiIHJvbGU9ImFsZXJ0Ij4KICAgICAgICAgIHt7IGlzc3VlVGV4dCB9fQogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CgogICAgICA8ZGV0YWlscyBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlci83MCBwLTMiPgogICAgICAgIDxzdW1tYXJ5IGNsYXNzPSJjdXJzb3ItcG9pbnRlciB0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMuYm9keS52YXJpYWJsZXMiKSB9fQogICAgICAgIDwvc3VtbWFyeT4KICAgICAgICA8cCBjbGFzcz0ibXQtMiB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLmJvZHkudmFyaWFibGVzSGVscCIpIH19CiAgICAgICAgPC9wPgogICAgICAgIDxkaXYgY2xhc3M9Im10LTMgZmxleCBtYXgtaC00NCBmbGV4LXdyYXAgZ2FwLTIgb3ZlcmZsb3cteS1hdXRvIj4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdi1mb3I9InBhdGggaW4gV0VCSE9PS19CT0RZX1ZBUklBQkxFUyIKICAgICAgICAgICAgOmtleT0icGF0aCIKICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgY2xhc3M9ImgtNyBmb250LW1vbm8gdGV4dC1bMTFweF0iCiAgICAgICAgICAgIEBjbGljaz0iaW5zZXJ0VmFyaWFibGUocGF0aCkiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxQbHVzIGNsYXNzPSJtci0xIGgtMyB3LTMiIC8+e3sgcGF0aCB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGV0YWlscz4KCiAgICAgIDxkZXRhaWxzCiAgICAgICAgY2xhc3M9InJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIvNzAgcC0zIgogICAgICAgIGRhdGEtdGVzdGlkPSJmYWN0LXZhcmlhYmxlcyIKICAgICAgPgogICAgICAgIDxzdW1tYXJ5IGNsYXNzPSJjdXJzb3ItcG9pbnRlciB0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMuYm9keS5mYWN0VmFyaWFibGVzIikgfX0KICAgICAgICA8L3N1bW1hcnk+CiAgICAgICAgPHAgY2xhc3M9Im10LTIgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ib2R5LmZhY3RWYXJpYWJsZXNIZWxwIikgfX0KICAgICAgICA8L3A+CiAgICAgICAgPGRpdiBjbGFzcz0ibXQtMyBtYXgtaC04MCBzcGFjZS15LTMgb3ZlcmZsb3cteS1hdXRvIj4KICAgICAgICAgIDxkZXRhaWxzCiAgICAgICAgICAgIHYtZm9yPSJncm91cCBpbiBbCiAgICAgICAgICAgICAgeyBldmVudDogJycsIGtleXM6IFdFQkhPT0tfQ09NTU9OX0ZBQ1RTIH0sCiAgICAgICAgICAgICAgLi4uV0VCSE9PS19FVkVOVF9GQUNUUywKICAgICAgICAgICAgXSIKICAgICAgICAgICAgOmtleT0iZ3JvdXAuZXZlbnQiCiAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkIGJvcmRlciBwLTIiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxzdW1tYXJ5IGNsYXNzPSJjdXJzb3ItcG9pbnRlciB0ZXh0LXNtIj4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgZ3JvdXAuZXZlbnQKICAgICAgICAgICAgICAgICAgPyB0KGBhZG1pbi5ldmVudENlbnRlci5ldmVudFR5cGVzLiR7Z3JvdXAuZXZlbnR9YCkKICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5ub3RpZmljYXRpb25zLmJvZHkuY29tbW9uRmFjdHMiKQogICAgICAgICAgICAgIH19CiAgICAgICAgICAgIDwvc3VtbWFyeT4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMiBncmlkIGdhcC0xIj4KICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICB2LWZvcj0ia2V5IGluIGdyb3VwLmtleXMiCiAgICAgICAgICAgICAgICA6a2V5PSJrZXkiCiAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgICAgY2xhc3M9ImgtYXV0byBtaW4tdy0wIGp1c3RpZnktc3RhcnQgd2hpdGVzcGFjZS1ub3JtYWwgcHktMiB0ZXh0LWxlZnQiCiAgICAgICAgICAgICAgICBAY2xpY2s9Imluc2VydFZhcmlhYmxlKGBtZXNzYWdlLmZhY3RfdmFsdWVzLiR7a2V5fWApIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxQbHVzIGNsYXNzPSJtci0yIGgtMyB3LTMgc2hyaW5rLTAiIC8+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0ibWluLXctMCIKICAgICAgICAgICAgICAgICAgPjxzcGFuIGNsYXNzPSJibG9jayB0ZXh0LXhzIj57eyBmYWN0TGFiZWwoa2V5KSB9fTwvc3BhbgogICAgICAgICAgICAgICAgICA+PGNvZGUgY2xhc3M9ImJsb2NrIGJyZWFrLWFsbCB0ZXh0LVsxMXB4XSIKICAgICAgICAgICAgICAgICAgICA+bWVzc2FnZS5mYWN0X3ZhbHVlcy57eyBrZXkgfX08L2NvZGUKICAgICAgICAgICAgICAgICAgPjwvc3BhbgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGV0YWlscz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kZXRhaWxzPgogICAgPC90ZW1wbGF0ZT4KCiAgICA8ZGV0YWlscyBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlci83MCBwLTMiPgogICAgICA8c3VtbWFyeSBjbGFzcz0iY3Vyc29yLXBvaW50ZXIgdGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAge3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ib2R5LnNhbXBsZUNvbnRleHQiKSB9fQogICAgICA8L3N1bW1hcnk+CiAgICAgIDxwIGNsYXNzPSJtdC0yIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLmJvZHkuc2FtcGxlSGVscCIpIH19CiAgICAgIDwvcD4KICAgICAgPEJ1dHRvbgogICAgICAgIHYtaWY9IiFzYW1wbGVDb250ZXh0LnRyaW0oKSIKICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICBzaXplPSJzbSIKICAgICAgICBjbGFzcz0ibXQtMiIKICAgICAgICBAY2xpY2s9ImVtaXQoJ3VwZGF0ZTpzYW1wbGVDb250ZXh0JywgY3JlYXRlV2ViaG9va1NhbXBsZUNvbnRleHQoKSkiCiAgICAgID4KICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLmJvZHkubG9hZFNhbXBsZSIpIH19CiAgICAgIDwvQnV0dG9uPgogICAgICA8ZGl2IGNsYXNzPSJtdC0zIj4KICAgICAgICA8Q29kZU1pcnJvckVkaXRvcgogICAgICAgICAgY2xhc3M9Im1pbi13LTAgbWF4LXctZnVsbCIKICAgICAgICAgIDptb2RlbC12YWx1ZT0ic2FtcGxlVGV4dCIKICAgICAgICAgIGxhbmd1YWdlPSJqc29uIgogICAgICAgICAgbWluLWhlaWdodD0iMjIwcHgiCiAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4ubm90aWZpY2F0aW9ucy5ib2R5LnNhbXBsZUNvbnRleHQnKSIKICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9Iih2YWx1ZSkgPT4gZW1pdCgndXBkYXRlOnNhbXBsZUNvbnRleHQnLCB2YWx1ZSkiCiAgICAgICAgLz4KICAgICAgPC9kaXY+CiAgICAgIDxwIHYtaWY9InNhbXBsZUlzc3VlIiBjbGFzcz0ibXQtMiB0ZXh0LXhzIHRleHQtZGVzdHJ1Y3RpdmUiIHJvbGU9ImFsZXJ0Ij4KICAgICAgICB7eyBzYW1wbGVJc3N1ZSB9fQogICAgICA8L3A+CiAgICA8L2RldGFpbHM+CgogICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgZ2FwLTIiPgogICAgICA8QnV0dG9uCiAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgOmRpc2FibGVkPSJpbnZhbGlkIHx8IHByZXZpZXdpbmcgfHwgdGVzdGluZyIKICAgICAgICBAY2xpY2s9ImVtaXQoJ3ByZXZpZXcnKSIKICAgICAgPgogICAgICAgIDxFeWUgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICB7ewogICAgICAgICAgcHJldmlld2luZwogICAgICAgICAgICA/IHQoImFkbWluLm5vdGlmaWNhdGlvbnMuYm9keS5wcmV2aWV3aW5nIikKICAgICAgICAgICAgOiB0KCJhZG1pbi5ub3RpZmljYXRpb25zLmJvZHkucHJldmlldyIpCiAgICAgICAgfX0KICAgICAgPC9CdXR0b24+CiAgICAgIDxCdXR0b24KICAgICAgICB2LWlmPSJzY29wZSA9PT0gJ3RhcmdldCciCiAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgIHZhcmlhbnQ9InNlY29uZGFyeSIKICAgICAgICBzaXplPSJzbSIKICAgICAgICA6ZGlzYWJsZWQ9ImludmFsaWQgfHwgcHJldmlld2luZyB8fCB0ZXN0aW5nIgogICAgICAgIEBjbGljaz0iZW1pdCgndGVzdCcpIgogICAgICA+CiAgICAgICAgPEZsYXNrQ29uaWNhbCBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgIHt7CiAgICAgICAgICB0ZXN0aW5nCiAgICAgICAgICAgID8gdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ib2R5LnRlc3RpbmciKQogICAgICAgICAgICA6IHQoImFkbWluLm5vdGlmaWNhdGlvbnMuYm9keS50ZXN0U2VuZCIpCiAgICAgICAgfX0KICAgICAgPC9CdXR0b24+CiAgICA8L2Rpdj4KCiAgICA8ZGl2CiAgICAgIHYtaWY9InByZXZpZXciCiAgICAgIGNsYXNzPSJtaW4tdy0wIG1heC13LWZ1bGwgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIvNzAgYmctbXV0ZWQvMjAiCiAgICA+CiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0iZmxleCBtaW4tdy0wIGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIgYm9yZGVyLWIgYm9yZGVyLWJvcmRlci83MCBweC0zIHB5LTIgdGV4dC14cyIKICAgICAgPgogICAgICAgIDxCYWRnZSB2YXJpYW50PSJzZWNvbmRhcnkiPnt7IHByZXZpZXcuZm9ybWF0IH19PC9CYWRnZT4KICAgICAgICA8c3BhbiBjbGFzcz0ibWluLXctMCBicmVhay1hbGwgZm9udC1tb25vIj57ewogICAgICAgICAgcHJldmlldy5jb250ZW50X3R5cGUKICAgICAgICB9fTwvc3Bhbj4KICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57eyBwcmV2aWV3LmJ5dGVfbGVuZ3RoIH19IEI8L3NwYW4+CiAgICAgIDwvZGl2PgogICAgICA8cHJlCiAgICAgICAgY2xhc3M9Im0tMCBibG9jayBtYXgtaC04MCB3LWZ1bGwgbWluLXctMCBtYXgtdy1mdWxsIG92ZXJmbG93LXgtaGlkZGVuIG92ZXJmbG93LXktYXV0byB3aGl0ZXNwYWNlLXByZS13cmFwIGJyZWFrLXdvcmRzIHAtMyB0ZXh0LXhzIFtvdmVyZmxvdy13cmFwOmFueXdoZXJlXSIKICAgICAgICA+e3sgcHJldmlldy5ib2R5IH19PC9wcmU+CiAgICAgIDxkaXYKICAgICAgICB2LWlmPSJwcmV2aWV3Lm1pc3NpbmdfdmFyaWFibGVzLmxlbmd0aCIKICAgICAgICBjbGFzcz0iYnJlYWstd29yZHMgYm9yZGVyLXQgYm9yZGVyLWFtYmVyLTIwMCBiZy1hbWJlci01MCBweC0zIHB5LTIgdGV4dC14cyB0ZXh0LWFtYmVyLTgwMCBbb3ZlcmZsb3ctd3JhcDphbnl3aGVyZV0iCiAgICAgID4KICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLmJvZHkubWlzc2luZ1ZhcmlhYmxlcyIpIH19OgogICAgICAgIHt7IHByZXZpZXcubWlzc2luZ192YXJpYWJsZXMuam9pbigiLCAiKSB9fQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { Eye, FlaskConical, Plus } from "lucide-vue-next";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import CodeMirrorEditor from "@/components/CodeMirrorEditor.vue";
+import type {
+  WebhookBodyConfig,
+  WebhookBodyConstraints,
+  WebhookBodyFormat,
+  WebhookBodyMode,
+  WebhookBodyPreview,
+  WebhookBodyScope,
+} from "./webhook-body";
+import {
+  coerceWebhookBodyConfig,
+  createWebhookSampleContext,
+  DEFAULT_WEBHOOK_BODY_CONSTRAINTS,
+  validateWebhookBodyConfig,
+  validateWebhookSampleContext,
+  WEBHOOK_BODY_VARIABLES,
+} from "./webhook-body";
+
+import {
+  WEBHOOK_COMMON_FACTS,
+  WEBHOOK_EVENT_FACTS,
+  WEBHOOK_FACT_LABELS,
+} from "./webhook-facts";
+
+const factLabel = (key: string) =>
+  key === "host"
+    ? "Host"
+    : t(`admin.notifications.body.factLabels.${WEBHOOK_FACT_LABELS[key]}`);
+
+const props = withDefaults(
+  defineProps<{
+    modelValue: unknown;
+    constraints?: WebhookBodyConstraints;
+    sampleContext?: string;
+    preview?: WebhookBodyPreview | null;
+    previewing?: boolean;
+    testing?: boolean;
+  }>(),
+  {
+    constraints: () => DEFAULT_WEBHOOK_BODY_CONSTRAINTS,
+    sampleContext: "",
+    preview: null,
+    previewing: false,
+    testing: false,
+  },
+);
+
+const emit = defineEmits<{
+  "update:modelValue": [value: WebhookBodyConfig];
+  "update:sampleContext": [value: string];
+  preview: [];
+  test: [];
+}>();
+
+const { t } = useI18n();
+const templateEditor = ref<InstanceType<typeof CodeMirrorEditor> | null>(null);
+const encoder = new TextEncoder();
+
+const scope = computed<WebhookBodyScope>(() =>
+  props.constraints.scope === "target" ? "target" : "provider",
+);
+const config = computed(() =>
+  coerceWebhookBodyConfig(props.modelValue, scope.value),
+);
+const custom = computed(() => config.value.mode === "custom");
+const issues = computed(() =>
+  validateWebhookBodyConfig(props.modelValue, props.constraints, scope.value),
+);
+const sampleText = computed(() => props.sampleContext);
+const sampleIssue = computed(() => {
+  const issue = validateWebhookSampleContext(
+    sampleText.value,
+    props.constraints,
+  )[0];
+  if (!issue) return "";
+  return t(`admin.notifications.body.errors.${issue.code}`, {
+    max: props.constraints.max_sample_bytes || 64 * 1024,
+  });
+});
+const invalid = computed(
+  () => issues.value.length > 0 || Boolean(sampleIssue.value),
+);
+const templateBytes = computed(
+  () => encoder.encode(config.value.template || "").length,
+);
+
+const defaultCustomTemplate = `{
+  "source": "fn_knock",
+  "provider_type": "webhook",
+  "message": "{{message}}",
+  "context": "{{context}}",
+  "payload": {
+    "event": "{{event}}",
+    "extra_body": "{{legacy.extra_body}}"
+  }
+}`;
+
+const updateConfig = (patch: Partial<WebhookBodyConfig>) => {
+  emit("update:modelValue", { ...config.value, ...patch });
+};
+
+const updateMode = (value: unknown) => {
+  const mode = String(value) as WebhookBodyMode;
+  if (mode !== "custom") {
+    emit("update:modelValue", { mode });
+    return;
+  }
+  emit("update:modelValue", {
+    mode: "custom",
+    format: config.value.format || "json",
+    content_type: config.value.content_type || "application/json",
+    template: config.value.template || defaultCustomTemplate,
+  });
+};
+
+const updateFormat = (value: unknown) => {
+  const format = String(value) as WebhookBodyFormat;
+  const previousDefault =
+    config.value.format === "text"
+      ? "text/plain; charset=utf-8"
+      : "application/json";
+  updateConfig({
+    format,
+    content_type:
+      !config.value.content_type ||
+      config.value.content_type === previousDefault
+        ? format === "json"
+          ? "application/json"
+          : "text/plain; charset=utf-8"
+        : config.value.content_type,
+  });
+};
+
+const formatTemplate = () => {
+  if (config.value.format !== "json") return;
+  try {
+    const parsed = JSON.parse(config.value.template || "");
+    updateConfig({ template: JSON.stringify(parsed, null, 2) });
+  } catch {
+    // The inline validation already explains the syntax problem.
+  }
+};
+
+const insertVariable = (path: string) => {
+  templateEditor.value?.insertText(`{{${path}}}`);
+};
+
+const issueText = computed(() => {
+  const issue = issues.value[0];
+  if (!issue) return "";
+  return t(`admin.notifications.body.errors.${issue.code}`, {
+    detail: issue.detail || "",
+    max:
+      issue.code === "templateTooLarge"
+        ? props.constraints.max_template_bytes || 64 * 1024
+        : issue.code === "tooManyVariables"
+          ? props.constraints.max_placeholders || 256
+          : props.constraints.max_content_type_bytes || 256,
+  });
+});
+</script>
+
+<template>
+  <div class="min-w-0 max-w-full space-y-4">
+    <div class="grid gap-3 sm:grid-cols-2">
+      <div class="space-y-2">
+        <div class="text-xs font-medium text-muted-foreground">
+          {{ t("admin.notifications.body.mode") }}
+        </div>
+        <Select :model-value="config.mode" @update:model-value="updateMode">
+          <SelectTrigger :aria-label="t('admin.notifications.body.mode')">
+            <SelectValue />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem :value="scope === 'provider' ? 'standard' : 'inherit'">
+              {{
+                scope === "provider"
+                  ? t("admin.notifications.body.standard")
+                  : t("admin.notifications.body.inherit")
+              }}
+            </SelectItem>
+            <SelectItem value="custom">
+              {{ t("admin.notifications.body.custom") }}
+            </SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
+
+      <div v-if="custom" class="space-y-2">
+        <div class="text-xs font-medium text-muted-foreground">
+          {{ t("admin.notifications.body.format") }}
+        </div>
+        <Select :model-value="config.format" @update:model-value="updateFormat">
+          <SelectTrigger :aria-label="t('admin.notifications.body.format')">
+            <SelectValue />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="json">JSON</SelectItem>
+            <SelectItem value="text">Text</SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
+    </div>
+
+    <template v-if="custom">
+      <div class="space-y-2">
+        <div class="text-xs font-medium text-muted-foreground">
+          Content-Type
+        </div>
+        <Input
+          aria-label="Content-Type"
+          :model-value="config.content_type || ''"
+          placeholder="application/json"
+          @update:model-value="
+            (value) => updateConfig({ content_type: String(value) })
+          "
+        />
+      </div>
+
+      <div class="space-y-2">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <div class="text-xs font-medium text-muted-foreground">
+            {{ t("admin.notifications.body.template") }}
+          </div>
+          <div class="flex items-center gap-2">
+            <Badge variant="secondary" class="font-mono text-[11px]">
+              {{ templateBytes }} B
+            </Badge>
+            <Button
+              v-if="config.format === 'json'"
+              type="button"
+              variant="outline"
+              size="sm"
+              @click="formatTemplate"
+            >
+              {{ t("admin.notifications.body.formatJson") }}
+            </Button>
+          </div>
+        </div>
+        <CodeMirrorEditor
+          ref="templateEditor"
+          class="min-w-0 max-w-full"
+          :model-value="config.template || ''"
+          :language="config.format === 'json' ? 'json' : 'text'"
+          min-height="240px"
+          :aria-label="t('admin.notifications.body.template')"
+          @update:model-value="(value) => updateConfig({ template: value })"
+        />
+        <p v-if="issueText" class="text-xs text-destructive" role="alert">
+          {{ issueText }}
+        </p>
+      </div>
+
+      <details class="rounded-md border border-border/70 p-3">
+        <summary class="cursor-pointer text-sm font-medium">
+          {{ t("admin.notifications.body.variables") }}
+        </summary>
+        <p class="mt-2 text-xs text-muted-foreground">
+          {{ t("admin.notifications.body.variablesHelp") }}
+        </p>
+        <div class="mt-3 flex max-h-44 flex-wrap gap-2 overflow-y-auto">
+          <Button
+            v-for="path in WEBHOOK_BODY_VARIABLES"
+            :key="path"
+            type="button"
+            variant="outline"
+            size="sm"
+            class="h-7 font-mono text-[11px]"
+            @click="insertVariable(path)"
+          >
+            <Plus class="mr-1 h-3 w-3" />{{ path }}
+          </Button>
+        </div>
+      </details>
+
+      <details
+        class="rounded-md border border-border/70 p-3"
+        data-testid="fact-variables"
+      >
+        <summary class="cursor-pointer text-sm font-medium">
+          {{ t("admin.notifications.body.factVariables") }}
+        </summary>
+        <p class="mt-2 text-xs text-muted-foreground">
+          {{ t("admin.notifications.body.factVariablesHelp") }}
+        </p>
+        <div class="mt-3 max-h-80 space-y-3 overflow-y-auto">
+          <details
+            v-for="group in [
+              { event: '', keys: WEBHOOK_COMMON_FACTS },
+              ...WEBHOOK_EVENT_FACTS,
+            ]"
+            :key="group.event"
+            class="rounded border p-2"
+          >
+            <summary class="cursor-pointer text-sm">
+              {{
+                group.event
+                  ? t(`admin.eventCenter.eventTypes.${group.event}`)
+                  : t("admin.notifications.body.commonFacts")
+              }}
+            </summary>
+            <div class="mt-2 grid gap-1">
+              <Button
+                v-for="key in group.keys"
+                :key="key"
+                type="button"
+                variant="outline"
+                class="h-auto min-w-0 justify-start whitespace-normal py-2 text-left"
+                @click="insertVariable(`message.fact_values.${key}`)"
+              >
+                <Plus class="mr-2 h-3 w-3 shrink-0" />
+                <span class="min-w-0"
+                  ><span class="block text-xs">{{ factLabel(key) }}</span
+                  ><code class="block break-all text-[11px]"
+                    >message.fact_values.{{ key }}</code
+                  ></span
+                >
+              </Button>
+            </div>
+          </details>
+        </div>
+      </details>
+    </template>
+
+    <details class="rounded-md border border-border/70 p-3">
+      <summary class="cursor-pointer text-sm font-medium">
+        {{ t("admin.notifications.body.sampleContext") }}
+      </summary>
+      <p class="mt-2 text-xs text-muted-foreground">
+        {{ t("admin.notifications.body.sampleHelp") }}
+      </p>
+      <Button
+        v-if="!sampleContext.trim()"
+        type="button"
+        variant="outline"
+        size="sm"
+        class="mt-2"
+        @click="emit('update:sampleContext', createWebhookSampleContext())"
+      >
+        {{ t("admin.notifications.body.loadSample") }}
+      </Button>
+      <div class="mt-3">
+        <CodeMirrorEditor
+          class="min-w-0 max-w-full"
+          :model-value="sampleText"
+          language="json"
+          min-height="220px"
+          :aria-label="t('admin.notifications.body.sampleContext')"
+          @update:model-value="(value) => emit('update:sampleContext', value)"
+        />
+      </div>
+      <p v-if="sampleIssue" class="mt-2 text-xs text-destructive" role="alert">
+        {{ sampleIssue }}
+      </p>
+    </details>
+
+    <div class="flex flex-wrap gap-2">
+      <Button
+        type="button"
+        variant="outline"
+        size="sm"
+        :disabled="invalid || previewing || testing"
+        @click="emit('preview')"
+      >
+        <Eye class="mr-2 h-4 w-4" />
+        {{
+          previewing
+            ? t("admin.notifications.body.previewing")
+            : t("admin.notifications.body.preview")
+        }}
+      </Button>
+      <Button
+        v-if="scope === 'target'"
+        type="button"
+        variant="secondary"
+        size="sm"
+        :disabled="invalid || previewing || testing"
+        @click="emit('test')"
+      >
+        <FlaskConical class="mr-2 h-4 w-4" />
+        {{
+          testing
+            ? t("admin.notifications.body.testing")
+            : t("admin.notifications.body.testSend")
+        }}
+      </Button>
+    </div>
+
+    <div
+      v-if="preview"
+      class="min-w-0 max-w-full overflow-hidden rounded-md border border-border/70 bg-muted/20"
+    >
+      <div
+        class="flex min-w-0 flex-wrap items-center gap-2 border-b border-border/70 px-3 py-2 text-xs"
+      >
+        <Badge variant="secondary">{{ preview.format }}</Badge>
+        <span class="min-w-0 break-all font-mono">{{
+          preview.content_type
+        }}</span>
+        <span class="text-muted-foreground">{{ preview.byte_length }} B</span>
+      </div>
+      <pre
+        class="m-0 block max-h-80 w-full min-w-0 max-w-full overflow-x-hidden overflow-y-auto whitespace-pre-wrap break-words p-3 text-xs [overflow-wrap:anywhere]"
+        >{{ preview.body }}</pre>
+      <div
+        v-if="preview.missing_variables.length"
+        class="break-words border-t border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-800 [overflow-wrap:anywhere]"
+      >
+        {{ t("admin.notifications.body.missingVariables") }}:
+        {{ preview.missing_variables.join(", ") }}
+      </div>
+    </div>
+  </div>
+</template>

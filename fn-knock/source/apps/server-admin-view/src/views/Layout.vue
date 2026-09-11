@@ -1,1 +1,459 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImZsZXggbWluLWgtZHZoIHctZnVsbCBmbGV4LWNvbCBiZy1tdXRlZC80MCI+CiAgICA8Um91dGVBY2Nlc3NpYmlsaXR5CiAgICAgIDpyb3V0ZS1wYXRoPSJyb3V0ZS5wYXRoIgogICAgICA6cGFnZS1sYWJlbD0iY3VycmVudE5hdkxhYmVsIgogICAgICA6aXMtbGl0ZT0iY29uZmlnU3RvcmUuaXNGcGtMaXRlRGVwbG95bWVudCIKICAgIC8+CiAgICA8TGF5b3V0TG9hZFN0YXR1cyAvPgogICAgPGRpdgogICAgICBjbGFzcz0ic3RpY2t5IHRvcC0wIHotMjAgYm9yZGVyLWIgYmctYmFja2dyb3VuZC85NSBiYWNrZHJvcC1ibHVyIHNtOmhpZGRlbiIKICAgID4KICAgICAgPGRpdiBjbGFzcz0ibXgtYXV0byBmbGV4IGgtMTQgbWF4LXctWzk2cmVtXSBpdGVtcy1jZW50ZXIgZ2FwLTIgcHgtNCI+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0iaWNvbiIgQGNsaWNrPSJpc01vYmlsZU5hdk9wZW4gPSB0cnVlIj4KICAgICAgICAgIDxNZW51IGNsYXNzPSJoLTUgdy01IiAvPgogICAgICAgICAgPHNwYW4gY2xhc3M9InNyLW9ubHkiPnt7IHQoImFkbWluLm5hdi5vcGVuTmF2aWdhdGlvbiIpIH19PC9zcGFuPgogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxwIGNsYXNzPSJtaW4tdy0wIGZsZXgtMSB0cnVuY2F0ZSB0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgIHt7IGN1cnJlbnROYXZMYWJlbCB9fQogICAgICAgIDwvcD4KICAgICAgICA8VGhlbWVNb2RlVG9nZ2xlIC8+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CgogICAgPFNoZWV0IHYtaWY9ImlzTW9iaWxlTmF2T3BlbiIgdi1tb2RlbDpvcGVuPSJpc01vYmlsZU5hdk9wZW4iPgogICAgICA8U2hlZXRDb250ZW50IHNpZGU9ImxlZnQiIGNsYXNzPSJ3LVs2NnZ3XSBtYXgtdy1bMjQwcHhdIHAtMCI+CiAgICAgICAgPFNoZWV0SGVhZGVyIGNsYXNzPSJzci1vbmx5Ij4KICAgICAgICAgIDxTaGVldFRpdGxlPnt7IHQoImFkbWluLm5hdi5uYXZpZ2F0aW9uTWVudSIpIH19PC9TaGVldFRpdGxlPgogICAgICAgIDwvU2hlZXRIZWFkZXI+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBoLWZ1bGwgZmxleC1jb2wiPgogICAgICAgICAgPGRpdiBjbGFzcz0iYm9yZGVyLWIgcHgtNCBweS0zIHRleHQtc20gZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLm5hdi5uYXZpZ2F0aW9uTWVudSIpIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxMYXlvdXRTY3JvbGxBcmVhCiAgICAgICAgICAgIGhpbnQtb24tbW91bnQgY2xhc3M9ImZsZXgtMSIgY29udGVudC1jbGFzcz0ic3BhY2UteS0yIHAtMyIKICAgICAgICAgICAgOmNsYXNzPSJ7ICdzaWRlYmFyLW1lbnUtZWRpdGluZyc6IGlzU2lkZWJhck1lbnVPcmRlck1vZGUgfSIKICAgICAgICAgID4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHYtZm9yPSJpdGVtIGluIG5hdkl0ZW1zIgogICAgICAgICAgICAgIDprZXk9Iml0ZW0ucGF0aCIKICAgICAgICAgICAgICA6dmFyaWFudD0iaXNOYXZBY3RpdmUoaXRlbS5wYXRoKSA/ICdkZWZhdWx0JyA6ICdnaG9zdCciCiAgICAgICAgICAgICAgY2xhc3M9InctZnVsbCBqdXN0aWZ5LXN0YXJ0IGdhcC0zIHNlbGVjdC1ub25lIFstd2Via2l0LXVzZXItc2VsZWN0Om5vbmVdIFstd2Via2l0LXRvdWNoLWNhbGxvdXQ6bm9uZV0iCiAgICAgICAgICAgICAgQGNsaWNrPSJuYXZpZ2F0ZVRvKGl0ZW0ucGF0aCkiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8Y29tcG9uZW50IDppcz0iaXRlbS5pY29uIiBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgICA8c3Bhbj57eyBpdGVtLm5hbWUgfX08L3NwYW4+CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9MYXlvdXRTY3JvbGxBcmVhPgogICAgICAgICAgPGRpdiBjbGFzcz0iYm9yZGVyLXQgcC0zIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWItNSBmbGV4IGp1c3RpZnktY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICA8VGhlbWVNb2RlVG9nZ2xlIC8+CiAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgIGNsYXNzPSJoLTggbWF4LXctZnVsbCBnYXAtMS41IHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIvNjAgYmctYmFja2dyb3VuZC83MCBweC0yLjUgdGV4dC14cyBzaGFkb3ctbm9uZSBob3ZlcjpiZy1tdXRlZCIKICAgICAgICAgICAgICAgIDp0aXRsZT0idCgnbG9jYWxlLmxhYmVsJykiCiAgICAgICAgICAgICAgICBAY2xpY2s9Im9wZW5Mb2NhbGVEaWFsb2ciCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPExhbmd1YWdlcyBjbGFzcz0iaC0zLjUgdy0zLjUgc2hyaW5rLTAiIC8+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0ibWF4LXctWzUuMjVyZW1dIHRydW5jYXRlIj57ewogICAgICAgICAgICAgICAgICBzZWxlY3RlZExvY2FsZUxhYmVsCiAgICAgICAgICAgICAgICB9fTwvc3Bhbj4KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8Q29uZmlybURhbmdlclBvcG92ZXIKICAgICAgICAgICAgICAgIHYtaWY9InNob3VsZFNob3dQYW5lbExvZ291dCIKICAgICAgICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4uZG9ja2VyQWRtaW4ubG9nb3V0Q29uZmlybVRpdGxlJykiCiAgICAgICAgICAgICAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLmRvY2tlckFkbWluLmxvZ291dENvbmZpcm1EZXNjcmlwdGlvbicpIgogICAgICAgICAgICAgICAgOmNvbmZpcm0tdGV4dD0idCgnYWRtaW4uZG9ja2VyQWRtaW4ubG9nb3V0Q29uZmlybScpIgogICAgICAgICAgICAgICAgOmxvYWRpbmc9ImRvY2tlckFkbWluQXV0aFN0b3JlLmlzU3VibWl0dGluZyIKICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iZG9ja2VyQWRtaW5BdXRoU3RvcmUuaXNTdWJtaXR0aW5nIgogICAgICAgICAgICAgICAgOm9uLWNvbmZpcm09ImhhbmRsZVBhbmVsTG9nb3V0IgogICAgICAgICAgICAgICAgY29udGVudC1jbGFzcz0idy03MiB0ZXh0LWxlZnQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJoLTggdy04IHNocmluay0wIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1kZXN0cnVjdGl2ZS8yMCBiZy1kZXN0cnVjdGl2ZS81IHAtMCB0ZXh0LWRlc3RydWN0aXZlIHNoYWRvdy1ub25lIGhvdmVyOmJnLWRlc3RydWN0aXZlLzEwIGhvdmVyOnRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJkb2NrZXJBZG1pbkF1dGhTdG9yZS5pc1N1Ym1pdHRpbmciCiAgICAgICAgICAgICAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5kb2NrZXJBZG1pbi5sb2dvdXQnKSIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxMb2dPdXQgY2xhc3M9ImgtMy41IHctMy41IiAvPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJzci1vbmx5Ij57ewogICAgICAgICAgICAgICAgICAgICAgdCgiYWRtaW4uZG9ja2VyQWRtaW4ubG9nb3V0IikKICAgICAgICAgICAgICAgICAgICB9fTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgICAgIDwvQ29uZmlybURhbmdlclBvcG92ZXI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8cCBjbGFzcz0ibWItMiB0ZXh0LWNlbnRlciB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtcHJpbWFyeS83MCI+CiAgICAgICAgICAgICAgPGEKICAgICAgICAgICAgICAgIDpocmVmPSJBUFBfR0lUSFVCX1VSTCIKICAgICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgICAgcmVsPSJub29wZW5lciBub3JlZmVycmVyIgogICAgICAgICAgICAgICAgY2xhc3M9ImlubGluZS1mbGV4IG1heC13LWZ1bGwgaXRlbXMtY2VudGVyIGdhcC0xLjUgcm91bmRlZC1mdWxsIHB4LTIuNSBweS0xIGxlYWRpbmctbm9uZSB0cmFuc2l0aW9uLWNvbG9ycyBob3Zlcjp0ZXh0LWZvcmVncm91bmQgaG92ZXI6YmctYmFja2dyb3VuZC83MCIKICAgICAgICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4ubmF2Lm9wZW5HaXRodWInKSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8R2l0aHViIGNsYXNzPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgICAgIDxzcGFuPnt7IGN1cnJlbnRWZXJzaW9uTGFiZWwgfX08L3NwYW4+CiAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXgganVzdGlmeS1jZW50ZXIgcGItMTAiPgogICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgIHZhcmlhbnQ9InNlY29uZGFyeSIKICAgICAgICAgICAgICAgIGNsYXNzPSJ3LWF1dG8gbWluLXctMjgganVzdGlmeS1jZW50ZXIgcHgtNSIKICAgICAgICAgICAgICAgIEBjbGljaz0ibmF2aWdhdGVUbygnL2Fib3V0JykiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgYWJvdXRFbnRyeUxhYmVsIH19CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvU2hlZXRDb250ZW50PgogICAgPC9TaGVldD4KCiAgICA8ZGl2CiAgICAgIGNsYXNzPSJteC1hdXRvIGZsZXggdy1mdWxsIG1heC13LVs5NnJlbV0gbWluLXctMCBmbGV4LTEgbWluLWgtMCBmbGV4LWNvbCBnYXAtNCBweC00IHB5LTQgc206ZmxleC1yb3cgc206Z2FwLTQgc206cHgtNiBzbTpweS02IGxnOmdhcC01IgogICAgPgogICAgICA8YXNpZGUKICAgICAgICBjbGFzcz0iaGlkZGVuIHNocmluay0wIHNtOnN0aWNreSBzbTp0b3AtNiBzbTpibG9jayBzbTpoLVtjYWxjKDEwMGR2aC0zcmVtKV0gc206dy0zNiBtZDp3LVs5LjI1cmVtXSB4bDp3LVs5LjVyZW1dIgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBoLWZ1bGwgbWluLWgtMCBmbGV4LWNvbCBnYXAtMyI+CiAgICAgICAgICA8TGF5b3V0U2Nyb2xsQXJlYSByZXNlcnZlLXJhaWwtZ3V0dGVyIGNsYXNzPSJtaW4taC0wIGZsZXgtMSIgY29udGVudC1jbGFzcz0iZmxleCBtaW4taC1mdWxsIGZsZXgtY29sIGl0ZW1zLXN0cmV0Y2ggZ2FwLTEuNSIKICAgICAgICAgICAgOmNsYXNzPSJ7ICdzaWRlYmFyLW1lbnUtZWRpdGluZyc6IGlzU2lkZWJhck1lbnVPcmRlck1vZGUgfSIKICAgICAgICAgID4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHYtZm9yPSJpdGVtIGluIG5hdkl0ZW1zIgogICAgICAgICAgICAgIDprZXk9Iml0ZW0ucGF0aCIKICAgICAgICAgICAgICA6dmFyaWFudD0iaXNOYXZBY3RpdmUoaXRlbS5wYXRoKSA/ICdkZWZhdWx0JyA6ICdnaG9zdCciCiAgICAgICAgICAgICAgOmNsYXNzPSJbCiAgICAgICAgICAgICAgICAnbWluLXctMCB3LWZ1bGwganVzdGlmeS1zdGFydCBnYXAtMiBvdmVyZmxvdy1oaWRkZW4gc2VsZWN0LW5vbmUgWy13ZWJraXQtdXNlci1zZWxlY3Q6bm9uZV0gWy13ZWJraXQtdG91Y2gtY2FsbG91dDpub25lXSBweC0yLjUgdHJhbnNpdGlvbi1bdHJhbnNmb3JtLGJveC1zaGFkb3csYmFja2dyb3VuZC1jb2xvcixjb2xvcl0gZHVyYXRpb24tMTUwJywKICAgICAgICAgICAgICAgIGlzTmF2QWN0aXZlKGl0ZW0ucGF0aCkKICAgICAgICAgICAgICAgICAgPyAnc2hhZG93LXNtIHNoYWRvdy1wcmltYXJ5LzE1JwogICAgICAgICAgICAgICAgICA6ICdob3ZlcjotdHJhbnNsYXRlLXktWzFweF0nLAogICAgICAgICAgICAgIF0iCiAgICAgICAgICAgICAgQGNsaWNrPSJuYXZpZ2F0ZVRvKGl0ZW0ucGF0aCkiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8Y29tcG9uZW50IDppcz0iaXRlbS5pY29uIiBjbGFzcz0iaC00IHctNCBzaHJpbmstMCIgLz4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0ibWluLXctMCB0cnVuY2F0ZSI+e3sgaXRlbS5uYW1lIH19PC9zcGFuPgogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvTGF5b3V0U2Nyb2xsQXJlYT4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9Im1iLTUgZmxleCBqdXN0aWZ5LWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgPFRoZW1lTW9kZVRvZ2dsZSAvPgogICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICBjbGFzcz0iaC04IG1heC13LWZ1bGwganVzdGlmeS1jZW50ZXIgZ2FwLTEuNSByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyLzYwIGJnLWJhY2tncm91bmQvNzAgcHgtMi41IHRleHQteHMgc2hhZG93LW5vbmUgaG92ZXI6YmctbXV0ZWQiCiAgICAgICAgICAgICAgICA6dGl0bGU9InQoJ2xvY2FsZS5sYWJlbCcpIgogICAgICAgICAgICAgICAgQGNsaWNrPSJvcGVuTG9jYWxlRGlhbG9nIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxMYW5ndWFnZXMgY2xhc3M9ImgtMy41IHctMy41IHNocmluay0wIiAvPgogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICAgICAgICAgICAgdi1pZj0ic2hvdWxkU2hvd1BhbmVsTG9nb3V0IgogICAgICAgICAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5kb2NrZXJBZG1pbi5sb2dvdXRDb25maXJtVGl0bGUnKSIKICAgICAgICAgICAgICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4uZG9ja2VyQWRtaW4ubG9nb3V0Q29uZmlybURlc2NyaXB0aW9uJykiCiAgICAgICAgICAgICAgICA6Y29uZmlybS10ZXh0PSJ0KCdhZG1pbi5kb2NrZXJBZG1pbi5sb2dvdXRDb25maXJtJykiCiAgICAgICAgICAgICAgICA6bG9hZGluZz0iZG9ja2VyQWRtaW5BdXRoU3RvcmUuaXNTdWJtaXR0aW5nIgogICAgICAgICAgICAgICAgOmRpc2FibGVkPSJkb2NrZXJBZG1pbkF1dGhTdG9yZS5pc1N1Ym1pdHRpbmciCiAgICAgICAgICAgICAgICA6b24tY29uZmlybT0iaGFuZGxlUGFuZWxMb2dvdXQiCiAgICAgICAgICAgICAgICBjb250ZW50LWNsYXNzPSJ3LTY0IHRleHQtbGVmdCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8dGVtcGxhdGUgI3RyaWdnZXI+CiAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICAgICAgY2xhc3M9ImgtOCB3LTggc2hyaW5rLTAgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWRlc3RydWN0aXZlLzIwIGJnLWRlc3RydWN0aXZlLzUgcC0wIHRleHQtZGVzdHJ1Y3RpdmUgc2hhZG93LW5vbmUgaG92ZXI6YmctZGVzdHJ1Y3RpdmUvMTAgaG92ZXI6dGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImRvY2tlckFkbWluQXV0aFN0b3JlLmlzU3VibWl0dGluZyIKICAgICAgICAgICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLmRvY2tlckFkbWluLmxvZ291dCcpIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPExvZ091dCBjbGFzcz0iaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InNyLW9ubHkiPnt7CiAgICAgICAgICAgICAgICAgICAgICB0KCJhZG1pbi5kb2NrZXJBZG1pbi5sb2dvdXQiKQogICAgICAgICAgICAgICAgICAgIH19PC9zcGFuPgogICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxwCiAgICAgICAgICAgICAgY2xhc3M9Im1iLTIgbWluLXctMCB0ZXh0LWNlbnRlciB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtcHJpbWFyeS83MCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxhCiAgICAgICAgICAgICAgICA6aHJlZj0iQVBQX0dJVEhVQl9VUkwiCiAgICAgICAgICAgICAgICB0YXJnZXQ9Il9ibGFuayIKICAgICAgICAgICAgICAgIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIKICAgICAgICAgICAgICAgIGNsYXNzPSJpbmxpbmUtZmxleCBtYXgtdy1mdWxsIGl0ZW1zLWNlbnRlciBnYXAtMS41IHJvdW5kZWQtZnVsbCBweC0yLjUgcHktMSBsZWFkaW5nLW5vbmUgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIGhvdmVyOmJnLWJhY2tncm91bmQvNzAiCiAgICAgICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLm5hdi5vcGVuR2l0aHViJykiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPEdpdGh1YiBjbGFzcz0iaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgICAgICAgICA8c3Bhbj57eyBjdXJyZW50VmVyc2lvbkxhYmVsIH19PC9zcGFuPgogICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktY2VudGVyIj4KICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICB2YXJpYW50PSJzZWNvbmRhcnkiCiAgICAgICAgICAgICAgICBjbGFzcz0iaC04IHctYXV0byBtaW4tdy0yNCBqdXN0aWZ5LWNlbnRlciBweC0zIgogICAgICAgICAgICAgICAgQGNsaWNrPSJuYXZpZ2F0ZVRvKCcvYWJvdXQnKSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7eyBhYm91dEVudHJ5TGFiZWwgfX0KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9hc2lkZT4KCiAgICAgIDxtYWluCiAgICAgICAgaWQ9Im1haW4tY29udGVudCIKICAgICAgICBjbGFzcz0iZmxleC0xIHctZnVsbCBtaW4tdy0wIgogICAgICAgIDphcmlhLWJ1c3k9ImlzUm91dGVOYXZpZ2F0aW5nIgogICAgICAgIHRhYmluZGV4PSItMSIKICAgICAgPgogICAgICAgIDxoMSBjbGFzcz0ic3Itb25seSI+e3sgY3VycmVudE5hdkxhYmVsIH19PC9oMT4KICAgICAgICA8Q29uc29sZUFwcGxpY2F0aW9uQmFyIHYtaWY9InJvdXRlLm5hbWUgPT09ICdEYXNoYm9hcmQnIiAvPgogICAgICAgIDxMYXlvdXRTdGF0dXNCYW5uZXJzIDpuYXZpZ2F0ZS10bz0ibmF2aWdhdGVUbyIgLz4KICAgICAgICA8ZGl2CiAgICAgICAgICB2LWlmPSJpc1JvdXRlTmF2aWdhdGluZyIKICAgICAgICAgIGNsYXNzPSJteC1hdXRvIG1iLTQgZmxleCB3LWZ1bGwgbWF4LXctN3hsIGp1c3RpZnktZW5kIgogICAgICAgID4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgY2xhc3M9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiByb3VuZGVkLWZ1bGwgYm9yZGVyIGJvcmRlci1ib3JkZXIvNzAgYmctYmFja2dyb3VuZC84OCBweC0zIHB5LTEuNSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzaGFkb3ctc20gYmFja2Ryb3AtYmx1ciIKICAgICAgICAgICAgcm9sZT0ic3RhdHVzIgogICAgICAgICAgPgogICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgIGNsYXNzPSJoLTEuNSB3LTEuNSByb3VuZGVkLWZ1bGwgYmctcHJpbWFyeSBhbmltYXRlLXB1bHNlIgogICAgICAgICAgICA+PC9zcGFuPgogICAgICAgICAgICA8c3Bhbj57eyB0KCJjb21tb24ucGFnZVN3aXRjaGluZyIpIH19PC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPFJvdXRlQ29udGVudEJvdW5kYXJ5IHYtaWY9IiFjb25maWdTdG9yZS5pc0xvYWRpbmcgJiYgIWNvbmZpZ1N0b3JlLmlzRXJyb3IiIDpyZXNldC1rZXk9InJvdXRlLmZ1bGxQYXRoIiAvPgogICAgICAgIDxkaXYKICAgICAgICAgIHYtZWxzZS1pZj0iY29uZmlnU3RvcmUuaXNMb2FkaW5nIgogICAgICAgICAgY2xhc3M9ImZsZXggaC1mdWxsIG1pbi1oLVs0MDBweF0gaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIgogICAgICAgICAgYXJpYS1oaWRkZW49InRydWUiCiAgICAgICAgPgogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzcz0iaC04IHctOCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci1iLTIgYm9yZGVyLXByaW1hcnkiCiAgICAgICAgICA+PC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvbWFpbj4KICAgIDwvZGl2PgoKICAgIDxMYXlvdXRMb2NhbGVEaWFsb2cKICAgICAgdi1pZj0iaXNMb2NhbGVEaWFsb2dPcGVuIgogICAgICB2LW1vZGVsOm9wZW49ImlzTG9jYWxlRGlhbG9nT3BlbiIKICAgICAgOmlzLXNhdmluZz0iaXNTYXZpbmdMb2NhbGUiCiAgICAgIDpvcHRpb25zPSJsb2NhbGVPcHRpb25zIgogICAgICA6c2VsZWN0ZWQtbG9jYWxlPSJzZWxlY3RlZExvY2FsZSIKICAgICAgQHNlbGVjdD0iaGFuZGxlTG9jYWxlU2VsZWN0IgogICAgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXAgbGFuZz0idHMiPgppbXBvcnQgeyBjb21wdXRlZCwgb25Nb3VudGVkLCBvblVubW91bnRlZCwgcmVmLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCBSb3V0ZUNvbnRlbnRCb3VuZGFyeSBmcm9tICIuL2xheW91dC9Sb3V0ZUNvbnRlbnRCb3VuZGFyeS52dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBpc05hdmlnYXRpb25GYWlsdXJlLCB1c2VSb3V0ZSwgdXNlUm91dGVyIH0gZnJvbSAidnVlLXJvdXRlciI7CmltcG9ydCB7IHVzZUNvbmZpZ1N0b3JlIH0gZnJvbSAiLi4vc3RvcmUvY29uZmlnIjsKaW1wb3J0IHsgdXNlRG9ja2VyQWRtaW5BdXRoU3RvcmUgfSBmcm9tICIuLi9zdG9yZS9kb2NrZXJBZG1pbkF1dGgiOwppbXBvcnQgeyB1c2VTeXN0ZW1DbG9ja1N0b3JlIH0gZnJvbSAiLi4vc3RvcmUvc3lzdGVtQ2xvY2siOwppbXBvcnQgeyB1c2VVcGRhdGVTdG9yZSB9IGZyb20gIi4uL3N0b3JlL3VwZGF0ZSI7CmltcG9ydCB7IGlzUm91dGVOYXZpZ2F0aW5nLCBwZW5kaW5nTmF2UGF0aCB9IGZyb20gIi4uL3JvdXRlci9uYXZpZ2F0aW9uLXN0YXRlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IFRoZW1lTW9kZVRvZ2dsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS90aGVtZS10b2dnbGUiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgewogIExPQ0FMRV9ESVNQTEFZX05BTUVTLAogIFNVUFBPUlRFRF9MT0NBTEVTLAogIHR5cGUgTG9jYWxlQ29kZSwKICBub3JtYWxpemVMb2NhbGUsCn0gZnJvbSAiQGZuLWtub2NrL2kxOG4vY29yZSI7CmltcG9ydCB7IHNldEZuS25vY2tMb2NhbGUgfSBmcm9tICJAZm4ta25vY2svaTE4bi92dWUvYWRtaW4iOwpjb25zdCBBUFBfR0lUSFVCX1VSTCA9ICJodHRwczovL2dpdGh1Yi5jb20va2NpLWxuay9mbi1rbm9jay10dXJib3JlcG8iOwppbXBvcnQgeyBHaXRodWIsIExhbmd1YWdlcywgTG9nT3V0LCBNZW51IH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IExheW91dExvYWRTdGF0dXMgZnJvbSAiLi9sYXlvdXQvTGF5b3V0TG9hZFN0YXR1cy52dWUiOwppbXBvcnQgTGF5b3V0U2Nyb2xsQXJlYSBmcm9tICIuL2xheW91dC9MYXlvdXRTY3JvbGxBcmVhLnZ1ZSI7CmltcG9ydCBMYXlvdXRTdGF0dXNCYW5uZXJzIGZyb20gIi4vbGF5b3V0L0xheW91dFN0YXR1c0Jhbm5lcnMudnVlIjsKaW1wb3J0IHsgdXNlRGlhbG9nRm9jdXNSZXN0b3JlIH0gZnJvbSAiLi9sYXlvdXQvdXNlRGlhbG9nRm9jdXNSZXN0b3JlIjsKaW1wb3J0IHsgdXNlTGF5b3V0TmF2aWdhdGlvbiB9IGZyb20gIi4vbGF5b3V0L3VzZUxheW91dE5hdmlnYXRpb24iOwppbXBvcnQgUm91dGVBY2Nlc3NpYmlsaXR5IGZyb20gIi4uL2NvbXBvbmVudHMvUm91dGVBY2Nlc3NpYmlsaXR5LnZ1ZSI7CmltcG9ydCB7CiAgQ29uc29sZUFwcGxpY2F0aW9uQmFyLAogIENvbmZpcm1EYW5nZXJQb3BvdmVyLAogIExheW91dExvY2FsZURpYWxvZywKICBTaGVldCwKICBTaGVldENvbnRlbnQsCiAgU2hlZXRIZWFkZXIsCiAgU2hlZXRUaXRsZSwKfSBmcm9tICIuL2xheW91dC9hc3luY0NvbXBvbmVudHMiOwoKY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7CmNvbnN0IHJvdXRlID0gdXNlUm91dGUoKTsKY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwpjb25zdCBkb2NrZXJBZG1pbkF1dGhTdG9yZSA9IHVzZURvY2tlckFkbWluQXV0aFN0b3JlKCk7CmNvbnN0IHN5c3RlbUNsb2NrU3RvcmUgPSB1c2VTeXN0ZW1DbG9ja1N0b3JlKCk7CmNvbnN0IHVwZGF0ZVN0b3JlID0gdXNlVXBkYXRlU3RvcmUoKTsKY29uc3QgewogIGFib3V0RW50cnlMYWJlbCwKICBjdXJyZW50TmF2TGFiZWwsCiAgY3VycmVudFZlcnNpb25MYWJlbCwKICBpc05hdkFjdGl2ZSwKICBuYXZJdGVtcywKfSA9IHVzZUxheW91dE5hdmlnYXRpb24oKTsKY29uc3QgaXNNb2JpbGVOYXZPcGVuID0gcmVmKGZhbHNlKTsKY29uc3QgaXNMb2NhbGVEaWFsb2dPcGVuID0gcmVmKGZhbHNlKTsKY29uc3QgaXNTYXZpbmdMb2NhbGUgPSByZWYoZmFsc2UpOwpjb25zdCB7IG9wZW5EaWFsb2c6IG9wZW5Mb2NhbGVEaWFsb2cgfSA9IHVzZURpYWxvZ0ZvY3VzUmVzdG9yZShpc0xvY2FsZURpYWxvZ09wZW4pOwpjb25zdCBpMThuID0gdXNlSTE4bigpOwpjb25zdCB7IHQsIGxvY2FsZSB9ID0gaTE4bjsKY29uc3Qgc2VsZWN0ZWRMb2NhbGUgPSByZWY8TG9jYWxlQ29kZT4oCiAgbm9ybWFsaXplTG9jYWxlKFN0cmluZyhsb2NhbGUudmFsdWUpKSA/PyAiemgtQ04iLAopOwoKY29uc3QgbG9jYWxlT3B0aW9ucyA9IFNVUFBPUlRFRF9MT0NBTEVTLm1hcCgodmFsdWUpID0+ICh7CiAgdmFsdWUsCiAgbGFiZWw6IExPQ0FMRV9ESVNQTEFZX05BTUVTW3ZhbHVlXSwKfSkpOwoKY29uc3Qgc2VsZWN0ZWRMb2NhbGVMYWJlbCA9IGNvbXB1dGVkKAogICgpID0+IExPQ0FMRV9ESVNQTEFZX05BTUVTW3NlbGVjdGVkTG9jYWxlLnZhbHVlXSwKKTsKY29uc3Qgc2hvdWxkU2hvd1BhbmVsTG9nb3V0ID0gY29tcHV0ZWQoCiAgKCkgPT4KICAgIGRvY2tlckFkbWluQXV0aFN0b3JlLmlzRW5hYmxlZCAmJgogICAgZG9ja2VyQWRtaW5BdXRoU3RvcmUuaXNBdXRoZW50aWNhdGVkICYmCiAgICBkb2NrZXJBZG1pbkF1dGhTdG9yZS5hdXRoU291cmNlICE9PSAicmVhdXRoX3Nlc3Npb24iLAopOwpjb25zdCBpc1NpZGViYXJNZW51T3JkZXJNb2RlID0gY29tcHV0ZWQoCiAgKCkgPT4KICAgIHJvdXRlLnBhdGggPT09ICIvc3lzdGVtL3NpZGViYXItbWVudS1vcmRlciIgJiYKICAgIEJvb2xlYW4oY29uZmlnU3RvcmUuY29uZmlnKSAmJgogICAgIWNvbmZpZ1N0b3JlLmlzTG9hZGluZyAmJgogICAgIWNvbmZpZ1N0b3JlLmlzRXJyb3IsCik7CnR5cGUgV2luZG93V2l0aElkbGVDYWxsYmFjayA9IFdpbmRvdyAmIHsKICByZXF1ZXN0SWRsZUNhbGxiYWNrPzogKAogICAgY2FsbGJhY2s6IElkbGVSZXF1ZXN0Q2FsbGJhY2ssCiAgICBvcHRpb25zPzogSWRsZVJlcXVlc3RPcHRpb25zLAogICkgPT4gbnVtYmVyOwp9OwoKY29uc3QgcnVuQWZ0ZXJGaXJzdFBhaW50ID0gKGNhbGxiYWNrOiAoKSA9PiB2b2lkKSA9PiB7CiAgd2luZG93LnJlcXVlc3RBbmltYXRpb25GcmFtZSgoKSA9PiB7CiAgICBjb25zdCByZXF1ZXN0SWRsZUNhbGxiYWNrID0gKHdpbmRvdyBhcyBXaW5kb3dXaXRoSWRsZUNhbGxiYWNrKQogICAgICAucmVxdWVzdElkbGVDYWxsYmFjazsKICAgIGlmIChyZXF1ZXN0SWRsZUNhbGxiYWNrKSB7CiAgICAgIHJlcXVlc3RJZGxlQ2FsbGJhY2soY2FsbGJhY2ssIHsgdGltZW91dDogMTUwMCB9KTsKICAgICAgcmV0dXJuOwogICAgfQogICAgd2luZG93LnNldFRpbWVvdXQoY2FsbGJhY2ssIDI1MCk7CiAgfSk7Cn07CmxldCBpc0Rpc3Bvc2VkID0gZmFsc2U7Cm9uTW91bnRlZCgoKSA9PiB7CiAgdm9pZCBjb25maWdTdG9yZS5sb2FkQ29uZmlnKCkuZmluYWxseSgoKSA9PiB7CiAgICBydW5BZnRlckZpcnN0UGFpbnQoKCkgPT4gewogICAgICBpZiAoaXNEaXNwb3NlZCkgcmV0dXJuOwogICAgICBpZiAoY29uZmlnU3RvcmUuY2FuU3luY1N5c3RlbUNsb2NrKSB7CiAgICAgICAgdm9pZCBzeXN0ZW1DbG9ja1N0b3JlLmluaXRpYWxpemUoKTsKICAgICAgfQogICAgICAvLyBFdmVyeSBwbGF0Zm9ybSBwb2xscyB1cGRhdGUgc3RhdHVzIHNvIHZlcnNpb24gYW5kIHVwZGF0ZSBub3RpY2VzIHN0YXkKICAgICAgLy8gY3VycmVudC4gSW5zdGFsbGF0aW9uIHJlbWFpbnMgY2FwYWJpbGl0eS1nYXRlZCBpbiB0aGUgdXBkYXRlIHBhZ2UuCiAgICAgIHZvaWQgdXBkYXRlU3RvcmUuaW5pdGlhbGl6ZSgpOwogICAgfSk7CiAgfSk7Cn0pOwoKb25Vbm1vdW50ZWQoKCkgPT4gewogIGlzRGlzcG9zZWQgPSB0cnVlOwogIHN5c3RlbUNsb2NrU3RvcmUuc3RvcFBvbGxpbmcoKTsKICB1cGRhdGVTdG9yZS5zdG9wUG9sbGluZygpOwp9KTsKCmNvbnN0IG5hdmlnYXRlVG8gPSBhc3luYyAocGF0aDogc3RyaW5nKSA9PiB7CiAgaXNNb2JpbGVOYXZPcGVuLnZhbHVlID0gZmFsc2U7CiAgaWYgKHJvdXRlLnBhdGggPT09IHBhdGgpIHJldHVybjsKICBwZW5kaW5nTmF2UGF0aC52YWx1ZSA9IHBhdGg7CiAgdHJ5IHsKICAgIGNvbnN0IGZhaWx1cmUgPSBhd2FpdCByb3V0ZXIucHVzaChwYXRoKTsKICAgIGlmIChpc05hdmlnYXRpb25GYWlsdXJlKGZhaWx1cmUpKSB7CiAgICAgIHBlbmRpbmdOYXZQYXRoLnZhbHVlID0gbnVsbDsKICAgIH0KICB9IGNhdGNoIChlcnJvcikgewogICAgcGVuZGluZ05hdlBhdGgudmFsdWUgPSBudWxsOwogICAgY29uc3QgbWVzc2FnZSA9CiAgICAgIGVycm9yIGluc3RhbmNlb2YgRXJyb3IgPyBlcnJvci5tZXNzYWdlIDogdCgiYWRtaW4ucm91dGUubG9hZEZhaWxlZFJldHJ5Iik7CiAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5yb3V0ZS5uYXZpZ2F0aW9uRmFpbGVkIiksIHsgZGVzY3JpcHRpb246IG1lc3NhZ2UgfSk7CiAgfQp9OwoKY29uc3QgYXBwbHlTeXN0ZW1Mb2NhbGUgPSBhc3luYyAodmFsdWU6IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQpID0+IHsKICBjb25zdCBuZXh0ID0gYXdhaXQgc2V0Rm5Lbm9ja0xvY2FsZShpMThuLCB2YWx1ZSk7CiAgc2VsZWN0ZWRMb2NhbGUudmFsdWUgPSBuZXh0OwogIHJldHVybiBuZXh0Owp9OwoKY29uc3QgaGFuZGxlTG9jYWxlU2VsZWN0ID0gYXN5bmMgKHZhbHVlOiBMb2NhbGVDb2RlKSA9PiB7CiAgY29uc3QgbmV4dCA9IG5vcm1hbGl6ZUxvY2FsZSh2YWx1ZSkgPz8gInpoLUNOIjsKICBpZiAoCiAgICBzZWxlY3RlZExvY2FsZS52YWx1ZSA9PT0gbmV4dCAmJgogICAgY29uZmlnU3RvcmUuY29uZmlnPy5sb2NhbGU/LmRlZmF1bHRfbG9jYWxlID09PSBuZXh0CiAgKSB7CiAgICBpc0xvY2FsZURpYWxvZ09wZW4udmFsdWUgPSBmYWxzZTsKICAgIHJldHVybjsKICB9CgogIGlzU2F2aW5nTG9jYWxlLnZhbHVlID0gdHJ1ZTsKICB0cnkgewogICAgY29uc3Qgc2F2ZWQgPSBhd2FpdCBjb25maWdTdG9yZS5zYXZlTG9jYWxlQ29uZmlnKHsgZGVmYXVsdF9sb2NhbGU6IG5leHQgfSk7CiAgICBhd2FpdCBhcHBseVN5c3RlbUxvY2FsZShzYXZlZC5kZWZhdWx0X2xvY2FsZSk7CiAgICBpc0xvY2FsZURpYWxvZ09wZW4udmFsdWUgPSBmYWxzZTsKICAgIHRvYXN0LnN1Y2Nlc3ModCgibG9jYWxlLnNhdmVkIikpOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICBjb25zdCBtZXNzYWdlID0KICAgICAgZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yLm1lc3NhZ2UgOiB0KCJsb2NhbGUuc2F2ZUZhaWxlZCIpOwogICAgdG9hc3QuZXJyb3IodCgibG9jYWxlLnNhdmVGYWlsZWQiKSwgeyBkZXNjcmlwdGlvbjogbWVzc2FnZSB9KTsKICB9IGZpbmFsbHkgewogICAgaXNTYXZpbmdMb2NhbGUudmFsdWUgPSBmYWxzZTsKICB9Cn07Cgpjb25zdCBoYW5kbGVQYW5lbExvZ291dCA9IGFzeW5jICgpID0+IHsKICB0cnkgewogICAgYXdhaXQgZG9ja2VyQWRtaW5BdXRoU3RvcmUubG9nb3V0KCk7CiAgICBpc01vYmlsZU5hdk9wZW4udmFsdWUgPSBmYWxzZTsKICB9IGNhdGNoIChlcnJvcikgewogICAgY29uc3QgbWVzc2FnZSA9CiAgICAgIGVycm9yIGluc3RhbmNlb2YgRXJyb3IgPyBlcnJvci5tZXNzYWdlIDogdCgiY29tbW9uLnRyeUxhdGVyIik7CiAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5kb2NrZXJBZG1pbi5sb2dvdXRGYWlsZWQiKSwgeyBkZXNjcmlwdGlvbjogbWVzc2FnZSB9KTsKICB9Cn07Cgp3YXRjaCgKICAoKSA9PiByb3V0ZS5wYXRoLAogICgpID0+IHsKICAgIGlzTW9iaWxlTmF2T3Blbi52YWx1ZSA9IGZhbHNlOwogIH0sCik7Cgp3YXRjaCgKICAoKSA9PiBsb2NhbGUudmFsdWUsCiAgKG5leHQpID0+IHsKICAgIHNlbGVjdGVkTG9jYWxlLnZhbHVlID0gbm9ybWFsaXplTG9jYWxlKFN0cmluZyhuZXh0KSkgPz8gInpoLUNOIjsKICB9LAopOwoKd2F0Y2goCiAgKCkgPT4gY29uZmlnU3RvcmUuY29uZmlnPy5sb2NhbGU/LmRlZmF1bHRfbG9jYWxlLAogIChuZXh0KSA9PiB7CiAgICBpZiAoIW5leHQpIHJldHVybjsKICAgIHZvaWQgYXBwbHlTeXN0ZW1Mb2NhbGUobmV4dCkuY2F0Y2goKGVycm9yKSA9PiB7CiAgICAgIGNvbnNvbGUuZXJyb3IoIkZhaWxlZCB0byBhcHBseSBzeXN0ZW0gbG9jYWxlIiwgZXJyb3IpOwogICAgfSk7CiAgfSwKICB7IGltbWVkaWF0ZTogdHJ1ZSB9LAopOwo8L3NjcmlwdD4K
+<template>
+  <div class="flex min-h-dvh w-full flex-col bg-muted/40">
+    <RouteAccessibility
+      :route-path="route.path"
+      :page-label="currentNavLabel"
+      :is-lite="configStore.isFpkLiteDeployment"
+    />
+    <LayoutLoadStatus />
+    <div
+      class="sticky top-0 z-20 border-b bg-background/95 backdrop-blur sm:hidden"
+    >
+      <div class="mx-auto flex h-14 max-w-[96rem] items-center gap-2 px-4">
+        <Button variant="ghost" size="icon" @click="isMobileNavOpen = true">
+          <Menu class="h-5 w-5" />
+          <span class="sr-only">{{ t("admin.nav.openNavigation") }}</span>
+        </Button>
+        <p class="min-w-0 flex-1 truncate text-sm font-medium">
+          {{ currentNavLabel }}
+        </p>
+        <ThemeModeToggle />
+      </div>
+    </div>
+
+    <Sheet v-if="isMobileNavOpen" v-model:open="isMobileNavOpen">
+      <SheetContent side="left" class="w-[66vw] max-w-[240px] p-0">
+        <SheetHeader class="sr-only">
+          <SheetTitle>{{ t("admin.nav.navigationMenu") }}</SheetTitle>
+        </SheetHeader>
+        <div class="flex h-full flex-col">
+          <div class="border-b px-4 py-3 text-sm font-semibold">
+            {{ t("admin.nav.navigationMenu") }}
+          </div>
+          <LayoutScrollArea
+            hint-on-mount class="flex-1" content-class="space-y-2 p-3"
+            :class="{ 'sidebar-menu-editing': isSidebarMenuOrderMode }"
+          >
+            <Button
+              v-for="item in navItems"
+              :key="item.path"
+              :variant="isNavActive(item.path) ? 'default' : 'ghost'"
+              class="w-full justify-start gap-3 select-none [-webkit-user-select:none] [-webkit-touch-callout:none]"
+              @click="navigateTo(item.path)"
+            >
+              <component :is="item.icon" class="h-4 w-4" />
+              <span>{{ item.name }}</span>
+            </Button>
+          </LayoutScrollArea>
+          <div class="border-t p-3">
+            <div class="mb-5 flex justify-center gap-2">
+              <ThemeModeToggle />
+              <Button
+                variant="ghost"
+                size="sm"
+                class="h-8 max-w-full gap-1.5 rounded-md border border-border/60 bg-background/70 px-2.5 text-xs shadow-none hover:bg-muted"
+                :title="t('locale.label')"
+                @click="openLocaleDialog"
+              >
+                <Languages class="h-3.5 w-3.5 shrink-0" />
+                <span class="max-w-[5.25rem] truncate">{{
+                  selectedLocaleLabel
+                }}</span>
+              </Button>
+              <ConfirmDangerPopover
+                v-if="shouldShowPanelLogout"
+                :title="t('admin.dockerAdmin.logoutConfirmTitle')"
+                :description="t('admin.dockerAdmin.logoutConfirmDescription')"
+                :confirm-text="t('admin.dockerAdmin.logoutConfirm')"
+                :loading="dockerAdminAuthStore.isSubmitting"
+                :disabled="dockerAdminAuthStore.isSubmitting"
+                :on-confirm="handlePanelLogout"
+                content-class="w-72 text-left"
+              >
+                <template #trigger>
+                  <Button
+                    type="button"
+                    variant="ghost"
+                    size="sm"
+                    class="h-8 w-8 shrink-0 rounded-md border border-destructive/20 bg-destructive/5 p-0 text-destructive shadow-none hover:bg-destructive/10 hover:text-destructive"
+                    :disabled="dockerAdminAuthStore.isSubmitting"
+                    :title="t('admin.dockerAdmin.logout')"
+                  >
+                    <LogOut class="h-3.5 w-3.5" />
+                    <span class="sr-only">{{
+                      t("admin.dockerAdmin.logout")
+                    }}</span>
+                  </Button>
+                </template>
+              </ConfirmDangerPopover>
+            </div>
+            <p class="mb-2 text-center text-xs font-medium text-primary/70">
+              <a
+                :href="APP_GITHUB_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex max-w-full items-center gap-1.5 rounded-full px-2.5 py-1 leading-none transition-colors hover:text-foreground hover:bg-background/70"
+                :title="t('admin.nav.openGithub')"
+              >
+                <Github class="h-3.5 w-3.5" />
+                <span>{{ currentVersionLabel }}</span>
+              </a>
+            </p>
+            <div class="flex justify-center pb-10">
+              <Button
+                variant="secondary"
+                class="w-auto min-w-28 justify-center px-5"
+                @click="navigateTo('/about')"
+              >
+                {{ aboutEntryLabel }}
+              </Button>
+            </div>
+          </div>
+        </div>
+      </SheetContent>
+    </Sheet>
+
+    <div
+      class="mx-auto flex w-full max-w-[96rem] min-w-0 flex-1 min-h-0 flex-col gap-4 px-4 py-4 sm:flex-row sm:gap-4 sm:px-6 sm:py-6 lg:gap-5"
+    >
+      <aside
+        class="hidden shrink-0 sm:sticky sm:top-6 sm:block sm:h-[calc(100dvh-3rem)] sm:w-36 md:w-[9.25rem] xl:w-[9.5rem]"
+      >
+        <div class="flex h-full min-h-0 flex-col gap-3">
+          <LayoutScrollArea reserve-rail-gutter class="min-h-0 flex-1" content-class="flex min-h-full flex-col items-stretch gap-1.5"
+            :class="{ 'sidebar-menu-editing': isSidebarMenuOrderMode }"
+          >
+            <Button
+              v-for="item in navItems"
+              :key="item.path"
+              :variant="isNavActive(item.path) ? 'default' : 'ghost'"
+              :class="[
+                'min-w-0 w-full justify-start gap-2 overflow-hidden select-none [-webkit-user-select:none] [-webkit-touch-callout:none] px-2.5 transition-[transform,box-shadow,background-color,color] duration-150',
+                isNavActive(item.path)
+                  ? 'shadow-sm shadow-primary/15'
+                  : 'hover:-translate-y-[1px]',
+              ]"
+              @click="navigateTo(item.path)"
+            >
+              <component :is="item.icon" class="h-4 w-4 shrink-0" />
+              <span class="min-w-0 truncate">{{ item.name }}</span>
+            </Button>
+          </LayoutScrollArea>
+          <div>
+            <div class="mb-5 flex justify-center gap-2">
+              <ThemeModeToggle />
+              <Button
+                variant="ghost"
+                size="sm"
+                class="h-8 max-w-full justify-center gap-1.5 rounded-md border border-border/60 bg-background/70 px-2.5 text-xs shadow-none hover:bg-muted"
+                :title="t('locale.label')"
+                @click="openLocaleDialog"
+              >
+                <Languages class="h-3.5 w-3.5 shrink-0" />
+              </Button>
+              <ConfirmDangerPopover
+                v-if="shouldShowPanelLogout"
+                :title="t('admin.dockerAdmin.logoutConfirmTitle')"
+                :description="t('admin.dockerAdmin.logoutConfirmDescription')"
+                :confirm-text="t('admin.dockerAdmin.logoutConfirm')"
+                :loading="dockerAdminAuthStore.isSubmitting"
+                :disabled="dockerAdminAuthStore.isSubmitting"
+                :on-confirm="handlePanelLogout"
+                content-class="w-64 text-left"
+              >
+                <template #trigger>
+                  <Button
+                    type="button"
+                    variant="ghost"
+                    size="sm"
+                    class="h-8 w-8 shrink-0 rounded-md border border-destructive/20 bg-destructive/5 p-0 text-destructive shadow-none hover:bg-destructive/10 hover:text-destructive"
+                    :disabled="dockerAdminAuthStore.isSubmitting"
+                    :title="t('admin.dockerAdmin.logout')"
+                  >
+                    <LogOut class="h-3.5 w-3.5" />
+                    <span class="sr-only">{{
+                      t("admin.dockerAdmin.logout")
+                    }}</span>
+                  </Button>
+                </template>
+              </ConfirmDangerPopover>
+            </div>
+            <p
+              class="mb-2 min-w-0 text-center text-xs font-medium text-primary/70"
+            >
+              <a
+                :href="APP_GITHUB_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex max-w-full items-center gap-1.5 rounded-full px-2.5 py-1 leading-none transition-colors hover:text-foreground hover:bg-background/70"
+                :title="t('admin.nav.openGithub')"
+              >
+                <Github class="h-3.5 w-3.5" />
+                <span>{{ currentVersionLabel }}</span>
+              </a>
+            </p>
+            <div class="flex justify-center">
+              <Button
+                variant="secondary"
+                class="h-8 w-auto min-w-24 justify-center px-3"
+                @click="navigateTo('/about')"
+              >
+                {{ aboutEntryLabel }}
+              </Button>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <main
+        id="main-content"
+        class="flex-1 w-full min-w-0"
+        :aria-busy="isRouteNavigating"
+        tabindex="-1"
+      >
+        <h1 class="sr-only">{{ currentNavLabel }}</h1>
+        <ConsoleApplicationBar v-if="route.name === 'Dashboard'" />
+        <LayoutStatusBanners :navigate-to="navigateTo" />
+        <div
+          v-if="isRouteNavigating"
+          class="mx-auto mb-4 flex w-full max-w-7xl justify-end"
+        >
+          <div
+            class="inline-flex items-center gap-2 rounded-full border border-border/70 bg-background/88 px-3 py-1.5 text-xs text-muted-foreground shadow-sm backdrop-blur"
+            role="status"
+          >
+            <span
+              class="h-1.5 w-1.5 rounded-full bg-primary animate-pulse"
+            ></span>
+            <span>{{ t("common.pageSwitching") }}</span>
+          </div>
+        </div>
+        <RouteContentBoundary v-if="!configStore.isLoading && !configStore.isError" :reset-key="route.fullPath" />
+        <div
+          v-else-if="configStore.isLoading"
+          class="flex h-full min-h-[400px] items-center justify-center"
+          aria-hidden="true"
+        >
+          <div
+            class="h-8 w-8 animate-spin rounded-full border-b-2 border-primary"
+          ></div>
+        </div>
+      </main>
+    </div>
+
+    <LayoutLocaleDialog
+      v-if="isLocaleDialogOpen"
+      v-model:open="isLocaleDialogOpen"
+      :is-saving="isSavingLocale"
+      :options="localeOptions"
+      :selected-locale="selectedLocale"
+      @select="handleLocaleSelect"
+    />
+  </div>
+</template>
+
+<script setup lang="ts">
+import { computed, onMounted, onUnmounted, ref, watch } from "vue";
+import RouteContentBoundary from "./layout/RouteContentBoundary.vue";
+import { useI18n } from "vue-i18n";
+import { isNavigationFailure, useRoute, useRouter } from "vue-router";
+import { useConfigStore } from "../store/config";
+import { useDockerAdminAuthStore } from "../store/dockerAdminAuth";
+import { useSystemClockStore } from "../store/systemClock";
+import { useUpdateStore } from "../store/update";
+import { isRouteNavigating, pendingNavPath } from "../router/navigation-state";
+import { Button } from "@/components/ui/button";
+import { ThemeModeToggle } from "@/components/ui/theme-toggle";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  LOCALE_DISPLAY_NAMES,
+  SUPPORTED_LOCALES,
+  type LocaleCode,
+  normalizeLocale,
+} from "@fn-knock/i18n/core";
+import { setFnKnockLocale } from "@fn-knock/i18n/vue/admin";
+const APP_GITHUB_URL = "https://github.com/kci-lnk/fn-knock-turborepo";
+import { Github, Languages, LogOut, Menu } from "lucide-vue-next";
+import LayoutLoadStatus from "./layout/LayoutLoadStatus.vue";
+import LayoutScrollArea from "./layout/LayoutScrollArea.vue";
+import LayoutStatusBanners from "./layout/LayoutStatusBanners.vue";
+import { useDialogFocusRestore } from "./layout/useDialogFocusRestore";
+import { useLayoutNavigation } from "./layout/useLayoutNavigation";
+import RouteAccessibility from "../components/RouteAccessibility.vue";
+import {
+  ConsoleApplicationBar,
+  ConfirmDangerPopover,
+  LayoutLocaleDialog,
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+} from "./layout/asyncComponents";
+
+const router = useRouter();
+const route = useRoute();
+const configStore = useConfigStore();
+const dockerAdminAuthStore = useDockerAdminAuthStore();
+const systemClockStore = useSystemClockStore();
+const updateStore = useUpdateStore();
+const {
+  aboutEntryLabel,
+  currentNavLabel,
+  currentVersionLabel,
+  isNavActive,
+  navItems,
+} = useLayoutNavigation();
+const isMobileNavOpen = ref(false);
+const isLocaleDialogOpen = ref(false);
+const isSavingLocale = ref(false);
+const { openDialog: openLocaleDialog } = useDialogFocusRestore(isLocaleDialogOpen);
+const i18n = useI18n();
+const { t, locale } = i18n;
+const selectedLocale = ref<LocaleCode>(
+  normalizeLocale(String(locale.value)) ?? "zh-CN",
+);
+
+const localeOptions = SUPPORTED_LOCALES.map((value) => ({
+  value,
+  label: LOCALE_DISPLAY_NAMES[value],
+}));
+
+const selectedLocaleLabel = computed(
+  () => LOCALE_DISPLAY_NAMES[selectedLocale.value],
+);
+const shouldShowPanelLogout = computed(
+  () =>
+    dockerAdminAuthStore.isEnabled &&
+    dockerAdminAuthStore.isAuthenticated &&
+    dockerAdminAuthStore.authSource !== "reauth_session",
+);
+const isSidebarMenuOrderMode = computed(
+  () =>
+    route.path === "/system/sidebar-menu-order" &&
+    Boolean(configStore.config) &&
+    !configStore.isLoading &&
+    !configStore.isError,
+);
+type WindowWithIdleCallback = Window & {
+  requestIdleCallback?: (
+    callback: IdleRequestCallback,
+    options?: IdleRequestOptions,
+  ) => number;
+};
+
+const runAfterFirstPaint = (callback: () => void) => {
+  window.requestAnimationFrame(() => {
+    const requestIdleCallback = (window as WindowWithIdleCallback)
+      .requestIdleCallback;
+    if (requestIdleCallback) {
+      requestIdleCallback(callback, { timeout: 1500 });
+      return;
+    }
+    window.setTimeout(callback, 250);
+  });
+};
+let isDisposed = false;
+onMounted(() => {
+  void configStore.loadConfig().finally(() => {
+    runAfterFirstPaint(() => {
+      if (isDisposed) return;
+      if (configStore.canSyncSystemClock) {
+        void systemClockStore.initialize();
+      }
+      // Every platform polls update status so version and update notices stay
+      // current. Installation remains capability-gated in the update page.
+      void updateStore.initialize();
+    });
+  });
+});
+
+onUnmounted(() => {
+  isDisposed = true;
+  systemClockStore.stopPolling();
+  updateStore.stopPolling();
+});
+
+const navigateTo = async (path: string) => {
+  isMobileNavOpen.value = false;
+  if (route.path === path) return;
+  pendingNavPath.value = path;
+  try {
+    const failure = await router.push(path);
+    if (isNavigationFailure(failure)) {
+      pendingNavPath.value = null;
+    }
+  } catch (error) {
+    pendingNavPath.value = null;
+    const message =
+      error instanceof Error ? error.message : t("admin.route.loadFailedRetry");
+    toast.error(t("admin.route.navigationFailed"), { description: message });
+  }
+};
+
+const applySystemLocale = async (value: string | null | undefined) => {
+  const next = await setFnKnockLocale(i18n, value);
+  selectedLocale.value = next;
+  return next;
+};
+
+const handleLocaleSelect = async (value: LocaleCode) => {
+  const next = normalizeLocale(value) ?? "zh-CN";
+  if (
+    selectedLocale.value === next &&
+    configStore.config?.locale?.default_locale === next
+  ) {
+    isLocaleDialogOpen.value = false;
+    return;
+  }
+
+  isSavingLocale.value = true;
+  try {
+    const saved = await configStore.saveLocaleConfig({ default_locale: next });
+    await applySystemLocale(saved.default_locale);
+    isLocaleDialogOpen.value = false;
+    toast.success(t("locale.saved"));
+  } catch (error) {
+    const message =
+      error instanceof Error ? error.message : t("locale.saveFailed");
+    toast.error(t("locale.saveFailed"), { description: message });
+  } finally {
+    isSavingLocale.value = false;
+  }
+};
+
+const handlePanelLogout = async () => {
+  try {
+    await dockerAdminAuthStore.logout();
+    isMobileNavOpen.value = false;
+  } catch (error) {
+    const message =
+      error instanceof Error ? error.message : t("common.tryLater");
+    toast.error(t("admin.dockerAdmin.logoutFailed"), { description: message });
+  }
+};
+
+watch(
+  () => route.path,
+  () => {
+    isMobileNavOpen.value = false;
+  },
+);
+
+watch(
+  () => locale.value,
+  (next) => {
+    selectedLocale.value = normalizeLocale(String(next)) ?? "zh-CN";
+  },
+);
+
+watch(
+  () => configStore.config?.locale?.default_locale,
+  (next) => {
+    if (!next) return;
+    void applySystemLocale(next).catch((error) => {
+      console.error("Failed to apply system locale", error);
+    });
+  },
+  { immediate: true },
+);
+</script>

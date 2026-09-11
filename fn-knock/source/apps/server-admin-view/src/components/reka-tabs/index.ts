@@ -1,1 +1,4 @@
-ZXhwb3J0IHsgZGVmYXVsdCBhcyBSZWthVGFicyB9IGZyb20gIi4vUmVrYVRhYnMudnVlIjsKZXhwb3J0IHsgZGVmYXVsdCBhcyBSZWthVGFic0NvbnRlbnQgfSBmcm9tICIuL1Jla2FUYWJzQ29udGVudC52dWUiOwpleHBvcnQgeyBkZWZhdWx0IGFzIFJla2FUYWJzTGlzdCB9IGZyb20gIi4vUmVrYVRhYnNMaXN0LnZ1ZSI7CmV4cG9ydCB7IGRlZmF1bHQgYXMgUmVrYVRhYnNUcmlnZ2VyIH0gZnJvbSAiLi9SZWthVGFic1RyaWdnZXIudnVlIjsK
+export { default as RekaTabs } from "./RekaTabs.vue";
+export { default as RekaTabsContent } from "./RekaTabsContent.vue";
+export { default as RekaTabsList } from "./RekaTabsList.vue";
+export { default as RekaTabsTrigger } from "./RekaTabsTrigger.vue";

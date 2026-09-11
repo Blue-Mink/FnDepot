@@ -1,1 +1,160 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CgppbXBvcnQgeyB0b0hvc3RNYXBwaW5nVXBkYXRlUGF5bG9hZCB9IGZyb20gIi4uL3NyYy9saWIvYXBpL2hvc3QtbWFwcGluZy1wYXlsb2FkIjsKaW1wb3J0IHsKICBnZXRNYXBwaW5nRmF2aWNvblNvdXJjZSwKICBnZXRNYXBwaW5nRmF2aWNvblNyYywKICBjcmVhdGVEZWZhdWx0TWFwcGluZywKICBub3JtYWxpemVNYXBwaW5nRm9ybSwKfSBmcm9tICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L21vZGVsIjsKaW1wb3J0IHsKICBnZXRNYXBwaW5nSWNvbkZpbGVWYWxpZGF0aW9uSXNzdWUsCiAgTWFwcGluZ0ljb25Qcm9jZXNzaW5nRXJyb3IsCiAgTUFQUElOR19JQ09OX0ZJTEVfQUNDRVBULAogIE1BWF9NQVBQSU5HX0lDT05fU09VUkNFX0JZVEVTLAogIGlzTWFwcGluZ0ljb25QcmVkb21pbmFudGx5V2hpdGUsCiAgcHJlcGFyZU1hcHBpbmdJY29uU3ZnU291cmNlLAp9IGZyb20gIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvbWFwcGluZy1pY29uIjsKCmNvbnN0IEFVVE9fSUNPTiA9ICJkYXRhOmltYWdlL3BuZztiYXNlNjQsWVhWMGJ3PT0iOwpjb25zdCBDVVNUT01fSUNPTiA9ICJkYXRhOmltYWdlL3dlYnA7YmFzZTY0LFkzVnpkRzl0IjsKCmRlc2NyaWJlKCJzdWJkb21haW4gY3VzdG9tIGljb24iLCAoKSA9PiB7CiAgaXQoInByZWZlcnMgdGhlIGN1c3RvbSBpY29uIGFuZCByZXBvcnRzIGl0cyBzb3VyY2UiLCAoKSA9PiB7CiAgICBjb25zdCBtYXBwaW5nID0gY3JlYXRlRGVmYXVsdE1hcHBpbmcoKTsKICAgIG1hcHBpbmcuZmF2aWNvbiA9IEFVVE9fSUNPTjsKICAgIG1hcHBpbmcuZmF2aWNvbl9vdmVycmlkZSA9IENVU1RPTV9JQ09OOwoKICAgIGFzc2VydC5lcXVhbChnZXRNYXBwaW5nRmF2aWNvblNyYyhtYXBwaW5nKSwgQ1VTVE9NX0lDT04pOwogICAgYXNzZXJ0LmVxdWFsKGdldE1hcHBpbmdGYXZpY29uU291cmNlKG1hcHBpbmcpLCAiY3VzdG9tIik7CgogICAgbWFwcGluZy5mYXZpY29uX292ZXJyaWRlID0gIiI7CiAgICBhc3NlcnQuZXF1YWwoZ2V0TWFwcGluZ0Zhdmljb25TcmMobWFwcGluZyksIEFVVE9fSUNPTik7CiAgICBhc3NlcnQuZXF1YWwoZ2V0TWFwcGluZ0Zhdmljb25Tb3VyY2UobWFwcGluZyksICJhdXRvIik7CgogICAgbWFwcGluZy5mYXZpY29uID0gIiI7CiAgICBhc3NlcnQuZXF1YWwoZ2V0TWFwcGluZ0Zhdmljb25Tb3VyY2UobWFwcGluZyksICJtaXNzaW5nIik7CiAgfSk7CgogIGl0KCJwZXJzaXN0cyBvdmVycmlkZXMgd2hpbGUgb25seSBzdWJtaXR0aW5nIHJlZnJlc2hlZCBtZXRhZGF0YSBleHBsaWNpdGx5IiwgKCkgPT4gewogICAgY29uc3QgbWFwcGluZyA9IGNyZWF0ZURlZmF1bHRNYXBwaW5nKCk7CiAgICBtYXBwaW5nLmZhdmljb24gPSBBVVRPX0lDT047CiAgICBtYXBwaW5nLmZhdmljb25fb3ZlcnJpZGUgPSBDVVNUT01fSUNPTjsKICAgIG1hcHBpbmcudGl0bGUgPSAiQ29sbGVjdGVkIHRpdGxlIjsKCiAgICBjb25zdCBvcmRpbmFyeSA9IHRvSG9zdE1hcHBpbmdVcGRhdGVQYXlsb2FkKG1hcHBpbmcpOwogICAgYXNzZXJ0LmVxdWFsKG9yZGluYXJ5LmZhdmljb25fb3ZlcnJpZGUsIENVU1RPTV9JQ09OKTsKICAgIGFzc2VydC5lcXVhbCgiZmF2aWNvbiIgaW4gb3JkaW5hcnksIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbCgidGl0bGUiIGluIG9yZGluYXJ5LCBmYWxzZSk7CgogICAgY29uc3QgcmVmcmVzaGVkID0gdG9Ib3N0TWFwcGluZ1VwZGF0ZVBheWxvYWQobWFwcGluZywgewogICAgICBpbmNsdWRlRmF2aWNvbjogdHJ1ZSwKICAgICAgaW5jbHVkZVRpdGxlOiB0cnVlLAogICAgfSk7CiAgICBhc3NlcnQuZXF1YWwocmVmcmVzaGVkLmZhdmljb24sIEFVVE9fSUNPTik7CiAgICBhc3NlcnQuZXF1YWwocmVmcmVzaGVkLnRpdGxlLCAiQ29sbGVjdGVkIHRpdGxlIik7CiAgfSk7CgogIGl0KCJrZWVwcyB0aGUgY3VzdG9tIGljb24gd2hlbiBhIHRhcmdldCBjaGFuZ2UgaW52YWxpZGF0ZXMgYXV0b21hdGljIG1ldGFkYXRhIiwgKCkgPT4gewogICAgY29uc3QgbWFwcGluZyA9IGNyZWF0ZURlZmF1bHRNYXBwaW5nKCk7CiAgICBtYXBwaW5nLnRhcmdldCA9ICJodHRwOi8vMTI3LjAuMC4xOjgwODAiOwogICAgbWFwcGluZy5mYXZpY29uID0gQVVUT19JQ09OOwogICAgbWFwcGluZy5mYXZpY29uX292ZXJyaWRlID0gQ1VTVE9NX0lDT047CgogICAgY29uc3Qgbm9ybWFsaXplZCA9IG5vcm1hbGl6ZU1hcHBpbmdGb3JtKG1hcHBpbmcsIHsKICAgICAgaGFzRnJlc2hGYXZpY29uTWV0YWRhdGE6IGZhbHNlLAogICAgICBoYXNGcmVzaFRpdGxlTWV0YWRhdGE6IGZhbHNlLAogICAgICBob3N0OiAiYXBwLmV4YW1wbGUuY29tIiwKICAgICAgaXNBdXRoU2VydmljZVRhcmdldDogKCkgPT4gZmFsc2UsCiAgICAgIGlzV2ViU29ja2V0VGFyZ2V0OiAoKSA9PiBmYWxzZSwKICAgIH0pOwoKICAgIGFzc2VydC5lcXVhbChub3JtYWxpemVkLmZhdmljb24sICIiKTsKICAgIGFzc2VydC5lcXVhbChub3JtYWxpemVkLmZhdmljb25fb3ZlcnJpZGUsIENVU1RPTV9JQ09OKTsKICB9KTsKCiAgaXQoInZhbGlkYXRlcyBzdXBwb3J0ZWQgc291cmNlIGZvcm1hdHMgYW5kIHRoZSBzb3VyY2Ugc2l6ZSBsaW1pdCIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgZ2V0TWFwcGluZ0ljb25GaWxlVmFsaWRhdGlvbklzc3VlKHsKICAgICAgICBuYW1lOiAiaWNvbi5wbmciLAogICAgICAgIHNpemU6IDEwMjQsCiAgICAgICAgdHlwZTogImltYWdlL3BuZyIsCiAgICAgIH0pLAogICAgICBudWxsLAogICAgKTsKICAgIGZvciAoY29uc3QgZmlsZSBvZiBbCiAgICAgIHsgbmFtZTogImljb24uc3ZnIiwgc2l6ZTogMTAyNCwgdHlwZTogImltYWdlL3N2Zyt4bWwiIH0sCiAgICAgIHsgbmFtZTogImljb24uYXZpZiIsIHNpemU6IDEwMjQsIHR5cGU6ICJpbWFnZS9hdmlmIiB9LAogICAgICB7IG5hbWU6ICJpY29uLndlYnAiLCBzaXplOiAxMDI0LCB0eXBlOiAiaW1hZ2UveC13ZWJwIiB9LAogICAgICB7IG5hbWU6ICJpY29uLndlYnAiLCBzaXplOiAxMDI0LCB0eXBlOiAiYXBwbGljYXRpb24veC11bmtub3duIiB9LAogICAgXSkgewogICAgICBhc3NlcnQuZXF1YWwoZ2V0TWFwcGluZ0ljb25GaWxlVmFsaWRhdGlvbklzc3VlKGZpbGUpLCBudWxsKTsKICAgIH0KICAgIGFzc2VydC5tYXRjaChNQVBQSU5HX0lDT05fRklMRV9BQ0NFUFQsIC9cLnN2Zy8pOwogICAgYXNzZXJ0Lm1hdGNoKE1BUFBJTkdfSUNPTl9GSUxFX0FDQ0VQVCwgL1wuYXZpZi8pOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBnZXRNYXBwaW5nSWNvbkZpbGVWYWxpZGF0aW9uSXNzdWUoewogICAgICAgIG5hbWU6ICJpY29uLndlYnAiLAogICAgICAgIHNpemU6IE1BWF9NQVBQSU5HX0lDT05fU09VUkNFX0JZVEVTICsgMSwKICAgICAgICB0eXBlOiAiaW1hZ2Uvd2VicCIsCiAgICAgIH0pLAogICAgICAic291cmNlX3Rvb19sYXJnZSIsCiAgICApOwogIH0pOwoKICBpdCgiZGV0ZWN0cyBwcmVkb21pbmFudGx5IHdoaXRlIGljb24gcGl4ZWxzIHdoaWxlIGlnbm9yaW5nIHRyYW5zcGFyZW5jeSIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgaXNNYXBwaW5nSWNvblByZWRvbWluYW50bHlXaGl0ZSgKICAgICAgICBuZXcgVWludDhDbGFtcGVkQXJyYXkoWwogICAgICAgICAgMjU1LCAyNTUsIDI1NSwgMjU1LCAyNDQsIDI0NCwgMjQ0LCAyNTUsIDAsIDAsIDAsIDAsCiAgICAgICAgXSksCiAgICAgICksCiAgICAgIHRydWUsCiAgICApOwoKICAgIGFzc2VydC5lcXVhbCgKICAgICAgaXNNYXBwaW5nSWNvblByZWRvbWluYW50bHlXaGl0ZSgKICAgICAgICBuZXcgVWludDhDbGFtcGVkQXJyYXkoWzI1NSwgMjU1LCAyNTUsIDI1NSwgMzEsIDQxLCA1NSwgMjU1XSksCiAgICAgICksCiAgICAgIGZhbHNlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgaXNNYXBwaW5nSWNvblByZWRvbWluYW50bHlXaGl0ZSgKICAgICAgICBuZXcgVWludDhDbGFtcGVkQXJyYXkoWzI1NSwgMjM1LCA4MCwgMjU1XSksCiAgICAgICksCiAgICAgIGZhbHNlLAogICAgKTsKICB9KTsKCiAgaXQoInN0cmlwcyBhIHN0YW5kYXJkIGV4dGVybmFsIFNWRyBkb2N0eXBlIGJlZm9yZSBwYXJzaW5nIiwgKCkgPT4gewogICAgY29uc3Qgc291cmNlID0gYDw/eG1sIHZlcnNpb249IjEuMCIgc3RhbmRhbG9uZT0ibm8iPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiLz48L3N2Zz5gOwoKICAgIGNvbnN0IHByZXBhcmVkID0gcHJlcGFyZU1hcHBpbmdJY29uU3ZnU291cmNlKHNvdXJjZSk7CgogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChwcmVwYXJlZCwgLzwhZG9jdHlwZS9pKTsKICAgIGFzc2VydC5tYXRjaChwcmVwYXJlZCwgL148XD94bWxbXj5dKlw/PjxzdmcvKTsKICAgIGFzc2VydC5tYXRjaChwcmVwYXJlZCwgLzxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiXC8+Lyk7CiAgfSk7CgogIGl0KCJyZWplY3RzIGVudGl0eSBkZWNsYXJhdGlvbnMgYW5kIHVuc2FmZSBTVkcgZG9jdHlwZXMiLCAoKSA9PiB7CiAgICBjb25zdCB1bnNhZmVTb3VyY2VzID0gWwogICAgICBgPCFET0NUWVBFIHN2ZyBbPCFFTlRJVFkgcGF5bG9hZCBTWVNURU0gImZpbGU6Ly8vZXRjL3Bhc3N3ZCI+XT48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRleHQ+JnBheWxvYWQ7PC90ZXh0Pjwvc3ZnPmAsCiAgICAgIGA8IURPQ1RZUEUgc3ZnIFs8IUVMRU1FTlQgc3ZnIEFOWT5dPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIi8+YCwKICAgICAgYDwhRE9DVFlQRSBodG1sIFNZU1RFTSAiaHR0cHM6Ly9leGFtcGxlLmNvbS9leGFtcGxlLmR0ZCI+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciLz5gLAogICAgICBgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciLz48IURPQ1RZUEUgc3ZnIFNZU1RFTSAiaHR0cHM6Ly9leGFtcGxlLmNvbS9leGFtcGxlLmR0ZCI+YCwKICAgICAgYDwhRE9DVFlQRSBzdmc+PCFET0NUWVBFIHN2Zz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIvPmAsCiAgICBdOwoKICAgIGZvciAoY29uc3Qgc291cmNlIG9mIHVuc2FmZVNvdXJjZXMpIHsKICAgICAgYXNzZXJ0LnRocm93cygKICAgICAgICAoKSA9PiBwcmVwYXJlTWFwcGluZ0ljb25TdmdTb3VyY2Uoc291cmNlKSwKICAgICAgICAoZXJyb3IpID0+CiAgICAgICAgICBlcnJvciBpbnN0YW5jZW9mIE1hcHBpbmdJY29uUHJvY2Vzc2luZ0Vycm9yICYmCiAgICAgICAgICBlcnJvci5raW5kID09PSAiZGVjb2RlX2ZhaWxlZCIsCiAgICAgICk7CiAgICB9CiAgfSk7Cn0pOwo=
+/// <reference types="node" />
+
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
+
+import { toHostMappingUpdatePayload } from "../src/lib/api/host-mapping-payload";
+import {
+  getMappingFaviconSource,
+  getMappingFaviconSrc,
+  createDefaultMapping,
+  normalizeMappingForm,
+} from "../src/views/subdomain-proxy/model";
+import {
+  getMappingIconFileValidationIssue,
+  MappingIconProcessingError,
+  MAPPING_ICON_FILE_ACCEPT,
+  MAX_MAPPING_ICON_SOURCE_BYTES,
+  isMappingIconPredominantlyWhite,
+  prepareMappingIconSvgSource,
+} from "../src/views/subdomain-proxy/mapping-icon";
+
+const AUTO_ICON = "data:image/png;base64,YXV0bw==";
+const CUSTOM_ICON = "data:image/webp;base64,Y3VzdG9t";
+
+describe("subdomain custom icon", () => {
+  it("prefers the custom icon and reports its source", () => {
+    const mapping = createDefaultMapping();
+    mapping.favicon = AUTO_ICON;
+    mapping.favicon_override = CUSTOM_ICON;
+
+    assert.equal(getMappingFaviconSrc(mapping), CUSTOM_ICON);
+    assert.equal(getMappingFaviconSource(mapping), "custom");
+
+    mapping.favicon_override = "";
+    assert.equal(getMappingFaviconSrc(mapping), AUTO_ICON);
+    assert.equal(getMappingFaviconSource(mapping), "auto");
+
+    mapping.favicon = "";
+    assert.equal(getMappingFaviconSource(mapping), "missing");
+  });
+
+  it("persists overrides while only submitting refreshed metadata explicitly", () => {
+    const mapping = createDefaultMapping();
+    mapping.favicon = AUTO_ICON;
+    mapping.favicon_override = CUSTOM_ICON;
+    mapping.title = "Collected title";
+
+    const ordinary = toHostMappingUpdatePayload(mapping);
+    assert.equal(ordinary.favicon_override, CUSTOM_ICON);
+    assert.equal("favicon" in ordinary, false);
+    assert.equal("title" in ordinary, false);
+
+    const refreshed = toHostMappingUpdatePayload(mapping, {
+      includeFavicon: true,
+      includeTitle: true,
+    });
+    assert.equal(refreshed.favicon, AUTO_ICON);
+    assert.equal(refreshed.title, "Collected title");
+  });
+
+  it("keeps the custom icon when a target change invalidates automatic metadata", () => {
+    const mapping = createDefaultMapping();
+    mapping.target = "http://127.0.0.1:8080";
+    mapping.favicon = AUTO_ICON;
+    mapping.favicon_override = CUSTOM_ICON;
+
+    const normalized = normalizeMappingForm(mapping, {
+      hasFreshFaviconMetadata: false,
+      hasFreshTitleMetadata: false,
+      host: "app.example.com",
+      isAuthServiceTarget: () => false,
+      isWebSocketTarget: () => false,
+    });
+
+    assert.equal(normalized.favicon, "");
+    assert.equal(normalized.favicon_override, CUSTOM_ICON);
+  });
+
+  it("validates supported source formats and the source size limit", () => {
+    assert.equal(
+      getMappingIconFileValidationIssue({
+        name: "icon.png",
+        size: 1024,
+        type: "image/png",
+      }),
+      null,
+    );
+    for (const file of [
+      { name: "icon.svg", size: 1024, type: "image/svg+xml" },
+      { name: "icon.avif", size: 1024, type: "image/avif" },
+      { name: "icon.webp", size: 1024, type: "image/x-webp" },
+      { name: "icon.webp", size: 1024, type: "application/x-unknown" },
+    ]) {
+      assert.equal(getMappingIconFileValidationIssue(file), null);
+    }
+    assert.match(MAPPING_ICON_FILE_ACCEPT, /\.svg/);
+    assert.match(MAPPING_ICON_FILE_ACCEPT, /\.avif/);
+    assert.equal(
+      getMappingIconFileValidationIssue({
+        name: "icon.webp",
+        size: MAX_MAPPING_ICON_SOURCE_BYTES + 1,
+        type: "image/webp",
+      }),
+      "source_too_large",
+    );
+  });
+
+  it("detects predominantly white icon pixels while ignoring transparency", () => {
+    assert.equal(
+      isMappingIconPredominantlyWhite(
+        new Uint8ClampedArray([
+          255, 255, 255, 255, 244, 244, 244, 255, 0, 0, 0, 0,
+        ]),
+      ),
+      true,
+    );
+
+    assert.equal(
+      isMappingIconPredominantlyWhite(
+        new Uint8ClampedArray([255, 255, 255, 255, 31, 41, 55, 255]),
+      ),
+      false,
+    );
+    assert.equal(
+      isMappingIconPredominantlyWhite(
+        new Uint8ClampedArray([255, 235, 80, 255]),
+      ),
+      false,
+    );
+  });
+
+  it("strips a standard external SVG doctype before parsing", () => {
+    const source = `<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z"/></svg>`;
+
+    const prepared = prepareMappingIconSvgSource(source);
+
+    assert.doesNotMatch(prepared, /<!doctype/i);
+    assert.match(prepared, /^<\?xml[^>]*\?><svg/);
+    assert.match(prepared, /<path d="M0 0h24v24H0z"\/>/);
+  });
+
+  it("rejects entity declarations and unsafe SVG doctypes", () => {
+    const unsafeSources = [
+      `<!DOCTYPE svg [<!ENTITY payload SYSTEM "file:///etc/passwd">]><svg xmlns="http://www.w3.org/2000/svg"><text>&payload;</text></svg>`,
+      `<!DOCTYPE svg [<!ELEMENT svg ANY>]><svg xmlns="http://www.w3.org/2000/svg"/>`,
+      `<!DOCTYPE html SYSTEM "https://example.com/example.dtd"><svg xmlns="http://www.w3.org/2000/svg"/>`,
+      `<svg xmlns="http://www.w3.org/2000/svg"/><!DOCTYPE svg SYSTEM "https://example.com/example.dtd">`,
+      `<!DOCTYPE svg><!DOCTYPE svg><svg xmlns="http://www.w3.org/2000/svg"/>`,
+    ];
+
+    for (const source of unsafeSources) {
+      assert.throws(
+        () => prepareMappingIconSvgSource(source),
+        (error) =>
+          error instanceof MappingIconProcessingError &&
+          error.kind === "decode_failed",
+      );
+    }
+  });
+});

@@ -1,1 +1,88 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgZm4gcXVldWVfd2hpdGVsaXN0X2luZGV4ZXMoCiAgICBwaXBlOiAmbXV0IHJlZGlzOjpQaXBlbGluZSwKICAgIHJlY29yZDogJldoaXRlbGlzdFJlY29yZCwKKSB7CiAgICBtYXRjaCByZWNvcmQudGFyZ2V0X3R5cGUoKSB7CiAgICAgICAgImNpZHIiID0+IHsKICAgICAgICAgICAgcGlwZS5zYWRkKFdISVRFTElTVF9DSURSX1JFQ09SRFMsICZyZWNvcmQuaWQpLmlnbm9yZSgpOwogICAgICAgIH0KICAgICAgICAiY25hbWUiID0+IHsKICAgICAgICAgICAgZm9yIHRhcmdldCBpbiByZWNvcmQuY29uY3JldGVfdGFyZ2V0cygpIHsKICAgICAgICAgICAgICAgIGlmIHRhcmdldC50YXJnZXRfdHlwZSA9PSAiaXAiIHsKICAgICAgICAgICAgICAgICAgICBwaXBlLnNhZGQoV0hJVEVMSVNUX0lQUywgJnRhcmdldC50YXJnZXQpLmlnbm9yZSgpOwogICAgICAgICAgICAgICAgICAgIHBpcGUuc2FkZCh3aGl0ZWxpc3RfaXBfcmVjb3Jkc19rZXkoJnRhcmdldC50YXJnZXQpLCAmcmVjb3JkLmlkKQogICAgICAgICAgICAgICAgICAgICAgICAuaWdub3JlKCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgXyA9PiB7CiAgICAgICAgICAgIHBpcGUuc2FkZChXSElURUxJU1RfSVBTLCAmcmVjb3JkLmlwKS5pZ25vcmUoKTsKICAgICAgICAgICAgcGlwZS5zYWRkKHdoaXRlbGlzdF9pcF9yZWNvcmRzX2tleSgmcmVjb3JkLmlwKSwgJnJlY29yZC5pZCkKICAgICAgICAgICAgICAgIC5pZ25vcmUoKTsKICAgICAgICB9CiAgICB9Cn0KCnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGZuIHF1ZXVlX3JlbW92ZV93aGl0ZWxpc3RfaW5kZXhlcygKICAgIHBpcGU6ICZtdXQgcmVkaXM6OlBpcGVsaW5lLAogICAgcmVjb3JkOiAmV2hpdGVsaXN0UmVjb3JkLAopIHsKICAgIG1hdGNoIHJlY29yZC50YXJnZXRfdHlwZSgpIHsKICAgICAgICAiY2lkciIgPT4gewogICAgICAgICAgICBwaXBlLnNyZW0oV0hJVEVMSVNUX0NJRFJfUkVDT1JEUywgJnJlY29yZC5pZCkuaWdub3JlKCk7CiAgICAgICAgfQogICAgICAgICJjbmFtZSIgPT4gewogICAgICAgICAgICBmb3IgdGFyZ2V0IGluIHJlY29yZC5jb25jcmV0ZV90YXJnZXRzKCkgewogICAgICAgICAgICAgICAgaWYgdGFyZ2V0LnRhcmdldF90eXBlID09ICJpcCIgewogICAgICAgICAgICAgICAgICAgIHBpcGUuc3JlbSh3aGl0ZWxpc3RfaXBfcmVjb3Jkc19rZXkoJnRhcmdldC50YXJnZXQpLCAmcmVjb3JkLmlkKQogICAgICAgICAgICAgICAgICAgICAgICAuaWdub3JlKCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgXyA9PiB7CiAgICAgICAgICAgIHBpcGUuc3JlbSh3aGl0ZWxpc3RfaXBfcmVjb3Jkc19rZXkoJnJlY29yZC5pcCksICZyZWNvcmQuaWQpCiAgICAgICAgICAgICAgICAuaWdub3JlKCk7CiAgICAgICAgfQogICAgfQp9CgpwdWIoaW4gY3JhdGU6OnN0b3JhZ2U6OnJlZGlzX3N0b3JlKSBmbiB3aGl0ZWxpc3Rfc3RhbGVfaXBfaW5kZXhfdGFyZ2V0cygKICAgIHJlY29yZDogJldoaXRlbGlzdFJlY29yZCwKKSAtPiBWZWM8U3RyaW5nPiB7CiAgICBsZXQgbXV0IHRhcmdldHMgPSBWZWM6Om5ldygpOwogICAgZm9yIHRhcmdldCBpbiByZWNvcmQuY29uY3JldGVfdGFyZ2V0cygpIHsKICAgICAgICBpZiB0YXJnZXQudGFyZ2V0X3R5cGUgIT0gImlwIiB8fCB0YXJnZXRzLml0ZXIoKS5hbnkofHZhbHVlfCB2YWx1ZSA9PSAmdGFyZ2V0LnRhcmdldCkgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgdGFyZ2V0cy5wdXNoKHRhcmdldC50YXJnZXQpOwogICAgfQogICAgdGFyZ2V0cwp9CnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGZuIHVuaXF1ZV9jb25jcmV0ZV90YXJnZXRzKAogICAgdGFyZ2V0czogJltXaGl0ZWxpc3RDb25jcmV0ZVRhcmdldF0sCikgLT4gVmVjPFdoaXRlbGlzdENvbmNyZXRlVGFyZ2V0PiB7CiAgICBsZXQgbXV0IHVuaXF1ZSA9IFZlYzo6bmV3KCk7CiAgICBmb3IgdGFyZ2V0IGluIHRhcmdldHMgewogICAgICAgIGlmIHVuaXF1ZS5pdGVyKCkuYW55KHxjYW5kaWRhdGU6ICZXaGl0ZWxpc3RDb25jcmV0ZVRhcmdldHwgewogICAgICAgICAgICBjYW5kaWRhdGUudGFyZ2V0ID09IHRhcmdldC50YXJnZXQgJiYgY2FuZGlkYXRlLnRhcmdldF90eXBlID09IHRhcmdldC50YXJnZXRfdHlwZQogICAgICAgIH0pIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIHVuaXF1ZS5wdXNoKHRhcmdldC5jbG9uZSgpKTsKICAgIH0KICAgIHVuaXF1ZQp9CgpwdWIoaW4gY3JhdGU6OnN0b3JhZ2U6OnJlZGlzX3N0b3JlKSBmbiB1bmlxdWVfbm9uX2VtcHR5X3N0cmluZ3ModmFsdWVzOiAmW1N0cmluZ10pIC0+IFZlYzxTdHJpbmc+IHsKICAgIGxldCBtdXQgdW5pcXVlID0gVmVjOjpuZXcoKTsKICAgIGZvciB2YWx1ZSBpbiB2YWx1ZXMgewogICAgICAgIGxldCBub3JtYWxpemVkID0gdmFsdWUudHJpbSgpOwogICAgICAgIGlmIG5vcm1hbGl6ZWQuaXNfZW1wdHkoKSB8fCB1bmlxdWUuaXRlcigpLmFueSh8aXRlbTogJlN0cmluZ3wgaXRlbSA9PSBub3JtYWxpemVkKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICB1bmlxdWUucHVzaChub3JtYWxpemVkLnRvX3N0cmluZygpKTsKICAgIH0KICAgIHVuaXF1ZQp9Cg==
+use super::*;
+
+pub(in crate::storage::redis_store) fn queue_whitelist_indexes(
+    pipe: &mut redis::Pipeline,
+    record: &WhitelistRecord,
+) {
+    match record.target_type() {
+        "cidr" => {
+            pipe.sadd(WHITELIST_CIDR_RECORDS, &record.id).ignore();
+        }
+        "cname" => {
+            for target in record.concrete_targets() {
+                if target.target_type == "ip" {
+                    pipe.sadd(WHITELIST_IPS, &target.target).ignore();
+                    pipe.sadd(whitelist_ip_records_key(&target.target), &record.id)
+                        .ignore();
+                }
+            }
+        }
+        _ => {
+            pipe.sadd(WHITELIST_IPS, &record.ip).ignore();
+            pipe.sadd(whitelist_ip_records_key(&record.ip), &record.id)
+                .ignore();
+        }
+    }
+}
+
+pub(in crate::storage::redis_store) fn queue_remove_whitelist_indexes(
+    pipe: &mut redis::Pipeline,
+    record: &WhitelistRecord,
+) {
+    match record.target_type() {
+        "cidr" => {
+            pipe.srem(WHITELIST_CIDR_RECORDS, &record.id).ignore();
+        }
+        "cname" => {
+            for target in record.concrete_targets() {
+                if target.target_type == "ip" {
+                    pipe.srem(whitelist_ip_records_key(&target.target), &record.id)
+                        .ignore();
+                }
+            }
+        }
+        _ => {
+            pipe.srem(whitelist_ip_records_key(&record.ip), &record.id)
+                .ignore();
+        }
+    }
+}
+
+pub(in crate::storage::redis_store) fn whitelist_stale_ip_index_targets(
+    record: &WhitelistRecord,
+) -> Vec<String> {
+    let mut targets = Vec::new();
+    for target in record.concrete_targets() {
+        if target.target_type != "ip" || targets.iter().any(|value| value == &target.target) {
+            continue;
+        }
+        targets.push(target.target);
+    }
+    targets
+}
+pub(in crate::storage::redis_store) fn unique_concrete_targets(
+    targets: &[WhitelistConcreteTarget],
+) -> Vec<WhitelistConcreteTarget> {
+    let mut unique = Vec::new();
+    for target in targets {
+        if unique.iter().any(|candidate: &WhitelistConcreteTarget| {
+            candidate.target == target.target && candidate.target_type == target.target_type
+        }) {
+            continue;
+        }
+        unique.push(target.clone());
+    }
+    unique
+}
+
+pub(in crate::storage::redis_store) fn unique_non_empty_strings(values: &[String]) -> Vec<String> {
+    let mut unique = Vec::new();
+    for value in values {
+        let normalized = value.trim();
+        if normalized.is_empty() || unique.iter().any(|item: &String| item == normalized) {
+            continue;
+        }
+        unique.push(normalized.to_string());
+    }
+    unique
+}

@@ -1,1 +1,112 @@
-aW1wb3J0IHsgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBjcmVhdGVJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBkZWZpbmVDb21wb25lbnQsIGgsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IGJlZm9yZUVhY2gsIGRlc2NyaWJlLCBleHBlY3QsIGl0LCB2aSB9IGZyb20gInZpdGVzdCI7Cgpjb25zdCBpc1RvdWNoSW50ZXJhY3Rpb24gPSByZWYodHJ1ZSk7Cgp2aS5tb2NrKCJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZU1lZGlhUXVlcnlNYXRjaCIsICgpID0+ICh7CiAgdXNlTWVkaWFRdWVyeU1hdGNoOiAoKSA9PiBpc1RvdWNoSW50ZXJhY3Rpb24sCn0pKTsKCmltcG9ydCBTZXNzaW9uQ3JlZGVudGlhbE5hbWUgZnJvbSAiLi4vc3JjL3ZpZXdzL3Nlc3Npb24tbWFuYWdlbWVudC9TZXNzaW9uQ3JlZGVudGlhbE5hbWUudnVlIjsKCmNvbnN0IFBhc3NUaHJvdWdoID0gZGVmaW5lQ29tcG9uZW50KHsKICBzZXR1cChfLCB7IHNsb3RzIH0pIHsKICAgIHJldHVybiAoKSA9PiBoKCJkaXYiLCBzbG90cy5kZWZhdWx0Py4oKSk7CiAgfSwKfSk7Cgpjb25zdCBUb29sdGlwU3R1YiA9IGRlZmluZUNvbXBvbmVudCh7CiAgbmFtZTogIlRvb2x0aXAiLAogIHByb3BzOiB7IG9wZW46IEJvb2xlYW4gfSwKICBlbWl0czogWyJ1cGRhdGU6b3BlbiJdLAogIHNldHVwKF8sIHsgc2xvdHMgfSkgewogICAgcmV0dXJuICgpID0+IGgoImRpdiIsIHsgImRhdGEtdG9vbHRpcCI6ICIiIH0sIHNsb3RzLmRlZmF1bHQ/LigpKTsKICB9LAp9KTsKCmNvbnN0IG1vdW50Q3JlZGVudGlhbCA9ICgpID0+IHsKICBjb25zdCBpMThuID0gY3JlYXRlSTE4bih7CiAgICBsZWdhY3k6IGZhbHNlLAogICAgbG9jYWxlOiAiemgtQ04iLAogICAgbWVzc2FnZXM6IHsKICAgICAgInpoLUNOIjogewogICAgICAgIGFkbWluOiB7CiAgICAgICAgICBzZXNzaW9uczogewogICAgICAgICAgICBjcmVkZW50aWFsTWV0aG9kczogewogICAgICAgICAgICAgIHRvdHA6ICJUT1RQIiwKICAgICAgICAgICAgICBwYXNza2V5OiAiUGFzc2tleSIsCiAgICAgICAgICAgICAgcGFzc3dvcmQ6ICLlr4bnoIEiLAogICAgICAgICAgICAgIG9pZGM6ICJPSURDIiwKICAgICAgICAgICAgICBsZGFwOiAiTERBUCIsCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIGNyZWRlbnRpYWxEaXNwbGF5OiB7CiAgICAgICAgICAgICAgbWV0aG9kV2l0aENyZWRlbnRpYWw6ICJ7bWV0aG9kfe+8mntuYW1lfSIsCiAgICAgICAgICAgICAgcmVsYXRpb246ICJ7cGFyZW50fSAvIHtjaGlsZH0iLAogICAgICAgICAgICB9LAogICAgICAgICAgfSwKICAgICAgICB9LAogICAgICB9LAogICAgfSwKICB9KTsKCiAgcmV0dXJuIG1vdW50KFNlc3Npb25DcmVkZW50aWFsTmFtZSwgewogICAgcHJvcHM6IHsKICAgICAgc2Vzc2lvbjogewogICAgICAgIG1ldGhvZDogIlBBU1NLRVkiLAogICAgICAgIGNyZWRlbnRpYWxOYW1lOiAibWFjT1MiLAogICAgICAgIGxpbmtlZFRvdHBOYW1lOiAiYWRtaW4gbWFjIiwKICAgICAgfSwKICAgIH0sCiAgICBnbG9iYWw6IHsKICAgICAgcGx1Z2luczogW2kxOG5dLAogICAgICBzdHViczogewogICAgICAgIFRvb2x0aXA6IFRvb2x0aXBTdHViLAogICAgICAgIFRvb2x0aXBQcm92aWRlcjogUGFzc1Rocm91Z2gsCiAgICAgICAgVG9vbHRpcFRyaWdnZXI6IFBhc3NUaHJvdWdoLAogICAgICAgIFRvb2x0aXBDb250ZW50OiBQYXNzVGhyb3VnaCwKICAgICAgfSwKICAgIH0sCiAgfSk7Cn07CgpkZXNjcmliZSgiU2Vzc2lvbkNyZWRlbnRpYWxOYW1lIiwgKCkgPT4gewogIGJlZm9yZUVhY2goKCkgPT4gewogICAgaXNUb3VjaEludGVyYWN0aW9uLnZhbHVlID0gdHJ1ZTsKICB9KTsKCiAgaXQoInNob3dzIHRoZSBwYXJlbnQgbmFtZSBhbmQgY29tcGxldGUgbG9naW4gcmVsYXRpb24iLCAoKSA9PiB7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnRDcmVkZW50aWFsKCk7CiAgICBleHBlY3Qod3JhcHBlci5nZXQoImJ1dHRvbiIpLnRleHQoKSkudG9CZSgiYWRtaW4gbWFjIik7CiAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLnRvQ29udGFpbigiVE9UUO+8mmFkbWluIG1hYyAvIFBhc3NrZXnvvJptYWNPUyIpOwogIH0pOwoKICBpdCgidG9nZ2xlcyBvbiB0b3VjaCBhbmQgY2xvc2VzIHdoZW4gdGhlIHRvb2x0aXAgcmVxdWVzdHMgaXQiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnRDcmVkZW50aWFsKCk7CiAgICBjb25zdCB0b29sdGlwID0gd3JhcHBlci5nZXRDb21wb25lbnQoVG9vbHRpcFN0dWIpOwoKICAgIGV4cGVjdCh0b29sdGlwLnByb3BzKCJvcGVuIikpLnRvQmUoZmFsc2UpOwogICAgYXdhaXQgd3JhcHBlci5nZXQoImJ1dHRvbiIpLnRyaWdnZXIoImNsaWNrIik7CiAgICBleHBlY3QodG9vbHRpcC5wcm9wcygib3BlbiIpKS50b0JlKHRydWUpOwogICAgYXdhaXQgd3JhcHBlci5nZXQoImJ1dHRvbiIpLnRyaWdnZXIoImNsaWNrIik7CiAgICBleHBlY3QodG9vbHRpcC5wcm9wcygib3BlbiIpKS50b0JlKGZhbHNlKTsKCiAgICBhd2FpdCB3cmFwcGVyLmdldCgiYnV0dG9uIikudHJpZ2dlcigiY2xpY2siKTsKICAgIHRvb2x0aXAudm0uJGVtaXQoInVwZGF0ZTpvcGVuIiwgZmFsc2UpOwogICAgYXdhaXQgd3JhcHBlci52bS4kbmV4dFRpY2soKTsKICAgIGV4cGVjdCh0b29sdGlwLnByb3BzKCJvcGVuIikpLnRvQmUoZmFsc2UpOwogIH0pOwoKICBpdCgibGVhdmVzIGRlc2t0b3AgaG92ZXIgYW5kIGZvY3VzIGJlaGF2aW9yIHRvIHRoZSB0b29sdGlwIHByaW1pdGl2ZSIsIGFzeW5jICgpID0+IHsKICAgIGlzVG91Y2hJbnRlcmFjdGlvbi52YWx1ZSA9IGZhbHNlOwogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50Q3JlZGVudGlhbCgpOwogICAgY29uc3QgdG9vbHRpcCA9IHdyYXBwZXIuZ2V0Q29tcG9uZW50KFRvb2x0aXBTdHViKTsKCiAgICBhd2FpdCB3cmFwcGVyLmdldCgiYnV0dG9uIikudHJpZ2dlcigiY2xpY2siKTsKICAgIGV4cGVjdCh0b29sdGlwLnByb3BzKCJvcGVuIikpLnRvQmUoZmFsc2UpOwogICAgdG9vbHRpcC52bS4kZW1pdCgidXBkYXRlOm9wZW4iLCB0cnVlKTsKICAgIGF3YWl0IHdyYXBwZXIudm0uJG5leHRUaWNrKCk7CiAgICBleHBlY3QodG9vbHRpcC5wcm9wcygib3BlbiIpKS50b0JlKHRydWUpOwogIH0pOwp9KTsK
+import { mount } from "@vue/test-utils";
+import { createI18n } from "vue-i18n";
+import { defineComponent, h, ref } from "vue";
+import { beforeEach, describe, expect, it, vi } from "vitest";
+
+const isTouchInteraction = ref(true);
+
+vi.mock("@admin-shared/composables/useMediaQueryMatch", () => ({
+  useMediaQueryMatch: () => isTouchInteraction,
+}));
+
+import SessionCredentialName from "../src/views/session-management/SessionCredentialName.vue";
+
+const PassThrough = defineComponent({
+  setup(_, { slots }) {
+    return () => h("div", slots.default?.());
+  },
+});
+
+const TooltipStub = defineComponent({
+  name: "Tooltip",
+  props: { open: Boolean },
+  emits: ["update:open"],
+  setup(_, { slots }) {
+    return () => h("div", { "data-tooltip": "" }, slots.default?.());
+  },
+});
+
+const mountCredential = () => {
+  const i18n = createI18n({
+    legacy: false,
+    locale: "zh-CN",
+    messages: {
+      "zh-CN": {
+        admin: {
+          sessions: {
+            credentialMethods: {
+              totp: "TOTP",
+              passkey: "Passkey",
+              password: "密码",
+              oidc: "OIDC",
+              ldap: "LDAP",
+            },
+            credentialDisplay: {
+              methodWithCredential: "{method}：{name}",
+              relation: "{parent} / {child}",
+            },
+          },
+        },
+      },
+    },
+  });
+
+  return mount(SessionCredentialName, {
+    props: {
+      session: {
+        method: "PASSKEY",
+        credentialName: "macOS",
+        linkedTotpName: "admin mac",
+      },
+    },
+    global: {
+      plugins: [i18n],
+      stubs: {
+        Tooltip: TooltipStub,
+        TooltipProvider: PassThrough,
+        TooltipTrigger: PassThrough,
+        TooltipContent: PassThrough,
+      },
+    },
+  });
+};
+
+describe("SessionCredentialName", () => {
+  beforeEach(() => {
+    isTouchInteraction.value = true;
+  });
+
+  it("shows the parent name and complete login relation", () => {
+    const wrapper = mountCredential();
+    expect(wrapper.get("button").text()).toBe("admin mac");
+    expect(wrapper.text()).toContain("TOTP：admin mac / Passkey：macOS");
+  });
+
+  it("toggles on touch and closes when the tooltip requests it", async () => {
+    const wrapper = mountCredential();
+    const tooltip = wrapper.getComponent(TooltipStub);
+
+    expect(tooltip.props("open")).toBe(false);
+    await wrapper.get("button").trigger("click");
+    expect(tooltip.props("open")).toBe(true);
+    await wrapper.get("button").trigger("click");
+    expect(tooltip.props("open")).toBe(false);
+
+    await wrapper.get("button").trigger("click");
+    tooltip.vm.$emit("update:open", false);
+    await wrapper.vm.$nextTick();
+    expect(tooltip.props("open")).toBe(false);
+  });
+
+  it("leaves desktop hover and focus behavior to the tooltip primitive", async () => {
+    isTouchInteraction.value = false;
+    const wrapper = mountCredential();
+    const tooltip = wrapper.getComponent(TooltipStub);
+
+    await wrapper.get("button").trigger("click");
+    expect(tooltip.props("open")).toBe(false);
+    tooltip.vm.$emit("update:open", true);
+    await wrapper.vm.$nextTick();
+    expect(tooltip.props("open")).toBe(true);
+  });
+});

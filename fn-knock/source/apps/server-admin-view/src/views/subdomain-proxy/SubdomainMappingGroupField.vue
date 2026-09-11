@@ -1,1 +1,47 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgewogIFNlbGVjdCwKICBTZWxlY3RDb250ZW50LAogIFNlbGVjdEl0ZW0sCiAgU2VsZWN0VHJpZ2dlciwKICBTZWxlY3RWYWx1ZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKaW1wb3J0IHR5cGUgeyBIb3N0TWFwcGluZ0dyb3VwIH0gZnJvbSAiQC90eXBlcyI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBkaXNhYmxlZDogYm9vbGVhbjsKICBncm91cHM6IEhvc3RNYXBwaW5nR3JvdXBbXTsKICBtb2RlbFZhbHVlOiBzdHJpbmcgfCBudWxsOwp9PigpOwpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICJ1cGRhdGU6bW9kZWxWYWx1ZSI6IFtncm91cElkOiBzdHJpbmcgfCBudWxsXTsKfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IG1vZGVsID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcHJvcHMubW9kZWxWYWx1ZSA/PyAiX191bmdyb3VwZWRfXyIsCiAgc2V0OiAodmFsdWU6IHN0cmluZykgPT4KICAgIGVtaXQoInVwZGF0ZTptb2RlbFZhbHVlIiwgdmFsdWUgPT09ICJfX3VuZ3JvdXBlZF9fIiA/IG51bGwgOiB2YWx1ZSksCn0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgPExhYmVsIGZvcj0ibWFwcGluZy1ncm91cCI+e3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuZ3JvdXBOYW1lIikgfX08L0xhYmVsPgogICAgPFNlbGVjdCB2LW1vZGVsPSJtb2RlbCIgOmRpc2FibGVkPSJkaXNhYmxlZCI+CiAgICAgIDxTZWxlY3RUcmlnZ2VyIGlkPSJtYXBwaW5nLWdyb3VwIiBjbGFzcz0idy1mdWxsIj4KICAgICAgICA8U2VsZWN0VmFsdWUgLz4KICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0iX191bmdyb3VwZWRfXyI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS51bmdyb3VwZWQiKSB9fQogICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICA8U2VsZWN0SXRlbSB2LWZvcj0iZ3JvdXAgaW4gZ3JvdXBzIiA6a2V5PSJncm91cC5pZCIgOnZhbHVlPSJncm91cC5pZCI+CiAgICAgICAgICB7eyBncm91cC5uYW1lIH19CiAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICA8L1NlbGVjdD4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import type { HostMappingGroup } from "@/types";
+
+const props = defineProps<{
+  disabled: boolean;
+  groups: HostMappingGroup[];
+  modelValue: string | null;
+}>();
+const emit = defineEmits<{
+  "update:modelValue": [groupId: string | null];
+}>();
+const { t } = useI18n();
+const model = computed({
+  get: () => props.modelValue ?? "__ungrouped__",
+  set: (value: string) =>
+    emit("update:modelValue", value === "__ungrouped__" ? null : value),
+});
+</script>
+
+<template>
+  <div class="space-y-2">
+    <Label for="mapping-group">{{ t("admin.subdomainProxy.groupName") }}</Label>
+    <Select v-model="model" :disabled="disabled">
+      <SelectTrigger id="mapping-group" class="w-full">
+        <SelectValue />
+      </SelectTrigger>
+      <SelectContent>
+        <SelectItem value="__ungrouped__">
+          {{ t("admin.subdomainProxy.ungrouped") }}
+        </SelectItem>
+        <SelectItem v-for="group in groups" :key="group.id" :value="group.id">
+          {{ group.name }}
+        </SelectItem>
+      </SelectContent>
+    </Select>
+  </div>
+</template>

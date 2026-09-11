@@ -1,1 +1,5 @@
-IyEvYmluL2Jhc2gKCiMjIyBUaGlzIHNjcmlwdCBpcyBjYWxsZWQgYWZ0ZXIgdGhlIHVzZXIgdW5pbnN0YWxscyB0aGUgYXBwbGljYXRpb24uCgpleGl0IDA=
+#!/bin/bash
+
+### This script is called after the user uninstalls the application.
+
+exit 0

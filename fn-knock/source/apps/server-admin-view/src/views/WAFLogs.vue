@@ -1,1 +1,236 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgdHlwZSB7IFdBRkV2ZW50IH0gZnJvbSAiLi4vdHlwZXMiOwppbXBvcnQgRGV0YWlsRGlhbG9nIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vRGV0YWlsRGlhbG9nLnZ1ZSI7CmltcG9ydCBEZXRhaWxGaWVsZHNHcmlkIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vRGV0YWlsRmllbGRzR3JpZC52dWUiOwppbXBvcnQgeyBub3JtYWxpemVJcEtleSB9IGZyb20gIi4uL2NvbXBvc2FibGVzL3VzZUlwTG9jYXRpb25CYXRjaCI7CmltcG9ydCB7IHVzZVdhZkxvZ0lwU2VsZWN0aW9uIH0gZnJvbSAiLi93YWYtbG9ncy91c2VXYWZMb2dJcFNlbGVjdGlvbiI7CmltcG9ydCB7IHVzZVdhZkxvZ0Rpc3BsYXkgfSBmcm9tICIuL3dhZi1sb2dzL3VzZVdhZkxvZ0Rpc3BsYXkiOwppbXBvcnQgewogIGdldFdhZkV2ZW50U291cmNlSXAsCiAgdXNlV2FmTG9nc1Jlc291cmNlLAp9IGZyb20gIi4vd2FmLWxvZ3MvdXNlV2FmTG9nc1Jlc291cmNlIjsKaW1wb3J0IFdBRkxvZ3NUYWJsZSBmcm9tICIuL3dhZi1sb2dzL1dBRkxvZ3NUYWJsZS52dWUiOwppbXBvcnQgV0FGTG9nc0ZpbHRlcnMgZnJvbSAiLi93YWYtbG9ncy9XQUZMb2dzRmlsdGVycy52dWUiOwppbXBvcnQgV0FGTG9nc0hlYWRlciBmcm9tICIuL3dhZi1sb2dzL1dBRkxvZ3NIZWFkZXIudnVlIjsKaW1wb3J0IFdBRkxvZ3NQYWdpbmF0aW9uIGZyb20gIi4vd2FmLWxvZ3MvV0FGTG9nc1BhZ2luYXRpb24udnVlIjsKaW1wb3J0IFRyYWNlSWRMaW5rIGZyb20gIkAvY29tcG9uZW50cy9UcmFjZUlkTGluay52dWUiOwoKY29uc3QgeyB0LCBsb2NhbGUgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IGlzRGV0YWlsc09wZW4gPSByZWYoZmFsc2UpOwpjb25zdCBhY3RpdmVFdmVudCA9IHJlZjxXQUZFdmVudCB8IG51bGw+KG51bGwpOwpjb25zdCB7CiAgYXZhaWxhYmxlRGF0ZXMsCiAgY2FuTG9hZE5ld2VyLAogIGNhbkxvYWRPbGRlciwKICBjdXJyZW50Q3Vyc29yLAogIGN1cnNvclBhZ2VMYWJlbCwKICBkZWxldGVTZWxlY3RlZERhdGUsCiAgZW50cmllcywKICBnZXRTbmFwc2hvdCwKICBoYW5kbGVEYXRlQ2hhbmdlLAogIGhhbmRsZUxpbWl0Q2hhbmdlLAogIGhhbmRsZUxvYWRGaXJzdCwKICBoYW5kbGVMb2FkTmV3ZXIsCiAgaGFuZGxlTG9hZE9sZGVyLAogIGhhbmRsZVNlYXJjaCwKICBpc0RlbGV0aW5nLAogIGxpbWl0LAogIGxvYWRpbmcsCiAgcmVmcmVzaEFsbCwKICBzZWFyY2hRdWVyeSwKICBzZWxlY3RlZERhdGUsCiAgc2VsZWN0ZWRXYWZFbnRyeUtleXMsCiAgc2hvdWxkRmxvYXRQYWdpbmF0aW9uLAogIHRyYWNlRmlsdGVyLAp9ID0gdXNlV2FmTG9nc1Jlc291cmNlKCk7CmNvbnN0IHZpZXdEZXRhaWxzID0gKGV2ZW50OiBXQUZFdmVudCkgPT4gewogIGFjdGl2ZUV2ZW50LnZhbHVlID0gZXZlbnQ7CiAgaXNEZXRhaWxzT3Blbi52YWx1ZSA9IHRydWU7Cn07Cgpjb25zdCBnZXRFbnRyeUFjdGlvbklwID0gKGV2ZW50OiBXQUZFdmVudCkgPT4gewogIGNvbnN0IHNvdXJjZUlwID0gZ2V0V2FmRXZlbnRTb3VyY2VJcChldmVudCk7CiAgcmV0dXJuIG5vcm1hbGl6ZUlwS2V5KHNvdXJjZUlwKSB8fCBzb3VyY2VJcC50cmltKCk7Cn07Cgpjb25zdCBnZXRFbnRyeVNlbGVjdGlvbktleSA9IChldmVudDogV0FGRXZlbnQsIGluZGV4OiBudW1iZXIpID0+CiAgZXZlbnQudHJhY2VfaWQgfHwKICBbCiAgICBjdXJyZW50Q3Vyc29yLnZhbHVlIHx8ICJmaXJzdCIsCiAgICBpbmRleCwKICAgIGV2ZW50LnRpbWUgfHwgIiIsCiAgICBldmVudC50cmFuc2FjdGlvbl9pZCB8fCAiIiwKICAgIGV2ZW50LnJlcXVlc3RfdXJpIHx8IGV2ZW50LnBhdGggfHwgIiIsCiAgICBnZXRFbnRyeUFjdGlvbklwKGV2ZW50KSwKICBdLmpvaW4oInwiKTsKCmNvbnN0IGdldEVudHJ5RGlzcGxheUlwID0gKGV2ZW50OiBXQUZFdmVudCkgPT4gewogIGNvbnN0IHNvdXJjZUlwID0gZ2V0V2FmRXZlbnRTb3VyY2VJcChldmVudCk7CiAgcmV0dXJuIG5vcm1hbGl6ZUlwS2V5KHNvdXJjZUlwKSB8fCBzb3VyY2VJcCB8fCAiLSI7Cn07Cgpjb25zdCBnZXRFbnRyeUlwU25hcHNob3QgPSAoZXZlbnQ6IFdBRkV2ZW50KSA9PgogIGdldFNuYXBzaG90KGdldFdhZkV2ZW50U291cmNlSXAoZXZlbnQpKTsKCmNvbnN0IGdldEVudHJ5SXBMb2NhdGlvbiA9IChldmVudDogV0FGRXZlbnQpID0+CiAgZ2V0RW50cnlJcFNuYXBzaG90KGV2ZW50KT8ubG9jYXRpb24gfHwgIiI7Cgpjb25zdCBnZXRFbnRyeUlwTG9jYXRpb25UZXh0ID0gKGV2ZW50OiBXQUZFdmVudCkgPT4gewogIGNvbnN0IHNuYXBzaG90ID0gZ2V0RW50cnlJcFNuYXBzaG90KGV2ZW50KTsKICBjb25zdCBsb2NhdGlvbiA9IHNuYXBzaG90Py5sb2NhdGlvbiB8fCAiIjsKICBpZiAobG9jYXRpb24pIHJldHVybiBsb2NhdGlvbjsKCiAgaWYgKHNuYXBzaG90Py5zdGF0dXMgPT09ICJxdWV1ZWQiIHx8IHNuYXBzaG90Py5zdGF0dXMgPT09ICJwcm9jZXNzaW5nIikgewogICAgcmV0dXJuIHQoImFkbWluLmhvc3RBY3RpdmVJcHMucmVzb2x2aW5nIik7CiAgfQoKICBpZiAoc25hcHNob3Q/LnN0YXR1cyA9PT0gImZhaWxlZCIpIHsKICAgIHJldHVybiB0KCJhZG1pbi5ob3N0QWN0aXZlSXBzLnVuYXZhaWxhYmxlIik7CiAgfQoKICByZXR1cm4gIiI7Cn07Cgpjb25zdCBkaXNwbGF5ZWRFbnRyaWVzID0gY29tcHV0ZWQoKCkgPT4KICBlbnRyaWVzLnZhbHVlLm1hcCgoZW50cnksIGluZGV4KSA9PiAoewogICAgLi4uZW50cnksCiAgICBpcExvY2F0aW9uOiBnZXRFbnRyeUlwTG9jYXRpb24oZW50cnkpLAogICAgYWN0aW9uSXA6IGdldEVudHJ5QWN0aW9uSXAoZW50cnkpLAogICAgc2VsZWN0aW9uS2V5OiBnZXRFbnRyeVNlbGVjdGlvbktleShlbnRyeSwgaW5kZXgpLAogIH0pKSwKKTsKCmNvbnN0IHsKICBibG9ja0lwc0Zyb21XYWZMb2dzLAogIGhhc1NlbGVjdGFibGVEaXNwbGF5ZWRSb3dzLAogIGlzQWxsRGlzcGxheWVkUm93c1NlbGVjdGVkLAogIGlzQmxvY2tpbmdJcHMsCiAgaXNHZW5lcmFsQmxhY2tsaXN0ZWQsCiAgaXNNdXRhdGluZ0JsYWNrbGlzdElwcywKICBpc1JlbGVhc2luZ0lwcywKICByZWxlYXNlSXBzRnJvbVdhZkxvZ3MsCiAgc2VsZWN0ZWRCbG9ja2VkV2FmSXBzLAogIHNlbGVjdGVkVW5ibG9ja2VkV2FmSXBzLAogIHRvZ2dsZVdhZkVudHJ5U2VsZWN0aW9uLAp9ID0gdXNlV2FmTG9nSXBTZWxlY3Rpb24oewogIGRpc3BsYXllZEVudHJpZXMsCiAgc2VsZWN0ZWRXYWZFbnRyeUtleXMsCiAgdHJhbnNsYXRlOiAoa2V5LCBwYXJhbXMpID0+IChwYXJhbXMgPyB0KGtleSwgcGFyYW1zKSA6IHQoa2V5KSksCn0pOwoKY29uc3QgYWN0aXZlRXZlbnRXaXRoSXBMb2NhdGlvbiA9IGNvbXB1dGVkKCgpID0+CiAgYWN0aXZlRXZlbnQudmFsdWUKICAgID8gewogICAgICAgIC4uLmFjdGl2ZUV2ZW50LnZhbHVlLAogICAgICAgIGlwTG9jYXRpb246IGdldEVudHJ5SXBMb2NhdGlvbihhY3RpdmVFdmVudC52YWx1ZSksCiAgICAgIH0KICAgIDogbnVsbCwKKTsKCmNvbnN0IHsKICBhY3Rpb25MYWJlbCwKICBhY3Rpb25WYXJpYW50LAogIGRldGFpbENvcHlUZXh0LAogIGRldGFpbEl0ZW1zLAogIGZvcm1hdFByaW1hcnlSdWxlSWQsCiAgZm9ybWF0UnVsZUxvY2F0aW9uU3VtbWFyeSwKICBmb3JtYXRSdWxlU3VtbWFyeSwKICBtb2RlTGFiZWwsCiAgcm91dGVUeXBlTGFiZWwsCn0gPSB1c2VXYWZMb2dEaXNwbGF5KHsKICBhY3RpdmVFdmVudCwKICBhY3RpdmVFdmVudFdpdGhJcExvY2F0aW9uLAogIGxvY2FsZSwKICB0cmFuc2xhdGU6IChrZXksIHBhcmFtcykgPT4gKHBhcmFtcyA/IHQoa2V5LCBwYXJhbXMpIDogdChrZXkpKSwKfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImZsZXggaC1mdWxsIGZsZXgtY29sIGdhcC0zIj4KICAgIDxUZWxlcG9ydCBkZWZlciB0bz0iI3JlcXVlc3QtYW5hbHlzaXMtd2FmLWFjdGlvbnMiPgogICAgICA8V0FGTG9nc0hlYWRlcgogICAgICAgIGNvbXBhY3QKICAgICAgICA6aXMtYmxvY2tpbmctaXBzPSJpc0Jsb2NraW5nSXBzIgogICAgICAgIDppcy1kZWxldGluZz0iaXNEZWxldGluZyIKICAgICAgICA6aXMtbXV0YXRpbmctYmxhY2tsaXN0LWlwcz0iaXNNdXRhdGluZ0JsYWNrbGlzdElwcyIKICAgICAgICA6aXMtcmVsZWFzaW5nLWlwcz0iaXNSZWxlYXNpbmdJcHMiCiAgICAgICAgOmxvYWRpbmc9ImxvYWRpbmciCiAgICAgICAgOnNlbGVjdGVkLWJsb2NrZWQtY291bnQ9InNlbGVjdGVkQmxvY2tlZFdhZklwcy5sZW5ndGgiCiAgICAgICAgOnNlbGVjdGVkLWRhdGU9InNlbGVjdGVkRGF0ZSIKICAgICAgICA6c2VsZWN0ZWQtdW5ibG9ja2VkLWNvdW50PSJzZWxlY3RlZFVuYmxvY2tlZFdhZklwcy5sZW5ndGgiCiAgICAgICAgQGJsb2NrLXNlbGVjdGVkPSJibG9ja0lwc0Zyb21XYWZMb2dzKHNlbGVjdGVkVW5ibG9ja2VkV2FmSXBzKSIKICAgICAgICBAZGVsZXRlLWRhdGU9ImRlbGV0ZVNlbGVjdGVkRGF0ZSIKICAgICAgICBAcmVmcmVzaD0icmVmcmVzaEFsbCIKICAgICAgICBAcmVsZWFzZS1zZWxlY3RlZD0icmVsZWFzZUlwc0Zyb21XYWZMb2dzKHNlbGVjdGVkQmxvY2tlZFdhZklwcykiCiAgICAgIC8+CiAgICA8L1RlbGVwb3J0PgoKICAgIDxkaXYKICAgICAgY2xhc3M9ImZsZXggbWluLWgtMCBmbGV4LTEgZmxleC1jb2wgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQteGwgYm9yZGVyIGJnLWJhY2tncm91bmQiCiAgICA+CiAgICAgIDxXQUZMb2dzRmlsdGVycwogICAgICAgIHYtbW9kZWw6c2VhcmNoLXF1ZXJ5PSJzZWFyY2hRdWVyeSIKICAgICAgICA6YXZhaWxhYmxlLWRhdGVzPSJhdmFpbGFibGVEYXRlcyIKICAgICAgICA6Y3Vyc29yLXBhZ2UtbGFiZWw9ImN1cnNvclBhZ2VMYWJlbCIKICAgICAgICA6ZW50cnktY291bnQ9ImVudHJpZXMubGVuZ3RoIgogICAgICAgIDpzZWxlY3RlZC1kYXRlPSJzZWxlY3RlZERhdGUiCiAgICAgICAgOnRyYWNlLWZpbHRlcj0idHJhY2VGaWx0ZXIiCiAgICAgICAgQGRhdGUtY2hhbmdlPSJoYW5kbGVEYXRlQ2hhbmdlIgogICAgICAgIEBzZWFyY2g9ImhhbmRsZVNlYXJjaCIKICAgICAgLz4KCiAgICAgIDxXQUZMb2dzVGFibGUKICAgICAgICB2LW1vZGVsOmlzLWFsbC1kaXNwbGF5ZWQtcm93cy1zZWxlY3RlZD0iaXNBbGxEaXNwbGF5ZWRSb3dzU2VsZWN0ZWQiCiAgICAgICAgOmFjdGlvbi1sYWJlbD0iYWN0aW9uTGFiZWwiCiAgICAgICAgOmFjdGlvbi12YXJpYW50PSJhY3Rpb25WYXJpYW50IgogICAgICAgIDpibG9jay1pcHMtZnJvbS13YWYtbG9ncz0iYmxvY2tJcHNGcm9tV2FmTG9ncyIKICAgICAgICA6ZW50cmllcz0iZGlzcGxheWVkRW50cmllcyIKICAgICAgICA6Zm9ybWF0LXByaW1hcnktcnVsZS1pZD0iZm9ybWF0UHJpbWFyeVJ1bGVJZCIKICAgICAgICA6Zm9ybWF0LXJ1bGUtbG9jYXRpb24tc3VtbWFyeT0iZm9ybWF0UnVsZUxvY2F0aW9uU3VtbWFyeSIKICAgICAgICA6Zm9ybWF0LXJ1bGUtc3VtbWFyeT0iZm9ybWF0UnVsZVN1bW1hcnkiCiAgICAgICAgOmdldC1lbnRyeS1kaXNwbGF5LWlwPSJnZXRFbnRyeURpc3BsYXlJcCIKICAgICAgICA6Z2V0LWVudHJ5LWlwLWxvY2F0aW9uLXRleHQ9ImdldEVudHJ5SXBMb2NhdGlvblRleHQiCiAgICAgICAgOmhhcy1zZWxlY3RhYmxlLWRpc3BsYXllZC1yb3dzPSJoYXNTZWxlY3RhYmxlRGlzcGxheWVkUm93cyIKICAgICAgICA6aXMtZ2VuZXJhbC1ibGFja2xpc3RlZD0iaXNHZW5lcmFsQmxhY2tsaXN0ZWQiCiAgICAgICAgOmlzLW11dGF0aW5nLWJsYWNrbGlzdC1pcHM9ImlzTXV0YXRpbmdCbGFja2xpc3RJcHMiCiAgICAgICAgOmxvYWRpbmc9ImxvYWRpbmciCiAgICAgICAgOm1vZGUtbGFiZWw9Im1vZGVMYWJlbCIKICAgICAgICA6cmVsZWFzZS1pcHMtZnJvbS13YWYtbG9ncz0icmVsZWFzZUlwc0Zyb21XYWZMb2dzIgogICAgICAgIDpyb3V0ZS10eXBlLWxhYmVsPSJyb3V0ZVR5cGVMYWJlbCIKICAgICAgICA6c2VsZWN0ZWQtd2FmLWVudHJ5LWtleXM9InNlbGVjdGVkV2FmRW50cnlLZXlzIgogICAgICAgIDp0b2dnbGUtd2FmLWVudHJ5LXNlbGVjdGlvbj0idG9nZ2xlV2FmRW50cnlTZWxlY3Rpb24iCiAgICAgICAgOnZpZXctZGV0YWlscz0idmlld0RldGFpbHMiCiAgICAgIC8+CgogICAgICA8V0FGTG9nc1BhZ2luYXRpb24KICAgICAgICA6Y2FuLWxvYWQtbmV3ZXI9ImNhbkxvYWROZXdlciIKICAgICAgICA6Y2FuLWxvYWQtb2xkZXI9ImNhbkxvYWRPbGRlciIKICAgICAgICA6Y3Vyc29yLXBhZ2UtbGFiZWw9ImN1cnNvclBhZ2VMYWJlbCIKICAgICAgICA6aGFuZGxlLWxpbWl0LWNoYW5nZT0iaGFuZGxlTGltaXRDaGFuZ2UiCiAgICAgICAgOmhhbmRsZS1sb2FkLWZpcnN0PSJoYW5kbGVMb2FkRmlyc3QiCiAgICAgICAgOmhhbmRsZS1sb2FkLW5ld2VyPSJoYW5kbGVMb2FkTmV3ZXIiCiAgICAgICAgOmhhbmRsZS1sb2FkLW9sZGVyPSJoYW5kbGVMb2FkT2xkZXIiCiAgICAgICAgOmxpbWl0PSJsaW1pdCIKICAgICAgICA6bG9hZGluZz0ibG9hZGluZyIKICAgICAgICA6c2hvdWxkLWZsb2F0PSJzaG91bGRGbG9hdFBhZ2luYXRpb24iCiAgICAgIC8+CiAgICA8L2Rpdj4KCiAgICA8RGV0YWlsRGlhbG9nCiAgICAgIHYtbW9kZWw6b3Blbj0iaXNEZXRhaWxzT3BlbiIKICAgICAgOnRpdGxlPSJ0KCdhZG1pbi53YWZMb2dzLmRldGFpbFRpdGxlJykiCiAgICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4ud2FmTG9ncy5kZXRhaWxEZXNjcmlwdGlvbicpIgogICAgICBtYXgtd2lkdGgtY2xhc3M9InNtOm1heC13LVs2ODBweF0iCiAgICAgIGNsb3NlLXZhcmlhbnQ9ImRlZmF1bHQiCiAgICAgIDpjb3B5LXRleHQ9ImRldGFpbENvcHlUZXh0IgogICAgPgogICAgICA8ZGl2IHYtaWY9ImFjdGl2ZUV2ZW50IiBjbGFzcz0ic3BhY2UteS00Ij4KICAgICAgICA8VHJhY2VJZExpbmsgOnRyYWNlLWlkPSJhY3RpdmVFdmVudC50cmFjZV9pZCIgLz4KICAgICAgICA8RGV0YWlsRmllbGRzR3JpZCA6aXRlbXM9ImRldGFpbEl0ZW1zIiAvPgogICAgICA8L2Rpdj4KICAgIDwvRGV0YWlsRGlhbG9nPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import type { WAFEvent } from "../types";
+import DetailDialog from "@admin-shared/components/common/DetailDialog.vue";
+import DetailFieldsGrid from "@admin-shared/components/common/DetailFieldsGrid.vue";
+import { normalizeIpKey } from "../composables/useIpLocationBatch";
+import { useWafLogIpSelection } from "./waf-logs/useWafLogIpSelection";
+import { useWafLogDisplay } from "./waf-logs/useWafLogDisplay";
+import {
+  getWafEventSourceIp,
+  useWafLogsResource,
+} from "./waf-logs/useWafLogsResource";
+import WAFLogsTable from "./waf-logs/WAFLogsTable.vue";
+import WAFLogsFilters from "./waf-logs/WAFLogsFilters.vue";
+import WAFLogsHeader from "./waf-logs/WAFLogsHeader.vue";
+import WAFLogsPagination from "./waf-logs/WAFLogsPagination.vue";
+import TraceIdLink from "@/components/TraceIdLink.vue";
+
+const { t, locale } = useI18n();
+
+const isDetailsOpen = ref(false);
+const activeEvent = ref<WAFEvent | null>(null);
+const {
+  availableDates,
+  canLoadNewer,
+  canLoadOlder,
+  currentCursor,
+  cursorPageLabel,
+  deleteSelectedDate,
+  entries,
+  getSnapshot,
+  handleDateChange,
+  handleLimitChange,
+  handleLoadFirst,
+  handleLoadNewer,
+  handleLoadOlder,
+  handleSearch,
+  isDeleting,
+  limit,
+  loading,
+  refreshAll,
+  searchQuery,
+  selectedDate,
+  selectedWafEntryKeys,
+  shouldFloatPagination,
+  traceFilter,
+} = useWafLogsResource();
+const viewDetails = (event: WAFEvent) => {
+  activeEvent.value = event;
+  isDetailsOpen.value = true;
+};
+
+const getEntryActionIp = (event: WAFEvent) => {
+  const sourceIp = getWafEventSourceIp(event);
+  return normalizeIpKey(sourceIp) || sourceIp.trim();
+};
+
+const getEntrySelectionKey = (event: WAFEvent, index: number) =>
+  event.trace_id ||
+  [
+    currentCursor.value || "first",
+    index,
+    event.time || "",
+    event.transaction_id || "",
+    event.request_uri || event.path || "",
+    getEntryActionIp(event),
+  ].join("|");
+
+const getEntryDisplayIp = (event: WAFEvent) => {
+  const sourceIp = getWafEventSourceIp(event);
+  return normalizeIpKey(sourceIp) || sourceIp || "-";
+};
+
+const getEntryIpSnapshot = (event: WAFEvent) =>
+  getSnapshot(getWafEventSourceIp(event));
+
+const getEntryIpLocation = (event: WAFEvent) =>
+  getEntryIpSnapshot(event)?.location || "";
+
+const getEntryIpLocationText = (event: WAFEvent) => {
+  const snapshot = getEntryIpSnapshot(event);
+  const location = snapshot?.location || "";
+  if (location) return location;
+
+  if (snapshot?.status === "queued" || snapshot?.status === "processing") {
+    return t("admin.hostActiveIps.resolving");
+  }
+
+  if (snapshot?.status === "failed") {
+    return t("admin.hostActiveIps.unavailable");
+  }
+
+  return "";
+};
+
+const displayedEntries = computed(() =>
+  entries.value.map((entry, index) => ({
+    ...entry,
+    ipLocation: getEntryIpLocation(entry),
+    actionIp: getEntryActionIp(entry),
+    selectionKey: getEntrySelectionKey(entry, index),
+  })),
+);
+
+const {
+  blockIpsFromWafLogs,
+  hasSelectableDisplayedRows,
+  isAllDisplayedRowsSelected,
+  isBlockingIps,
+  isGeneralBlacklisted,
+  isMutatingBlacklistIps,
+  isReleasingIps,
+  releaseIpsFromWafLogs,
+  selectedBlockedWafIps,
+  selectedUnblockedWafIps,
+  toggleWafEntrySelection,
+} = useWafLogIpSelection({
+  displayedEntries,
+  selectedWafEntryKeys,
+  translate: (key, params) => (params ? t(key, params) : t(key)),
+});
+
+const activeEventWithIpLocation = computed(() =>
+  activeEvent.value
+    ? {
+        ...activeEvent.value,
+        ipLocation: getEntryIpLocation(activeEvent.value),
+      }
+    : null,
+);
+
+const {
+  actionLabel,
+  actionVariant,
+  detailCopyText,
+  detailItems,
+  formatPrimaryRuleId,
+  formatRuleLocationSummary,
+  formatRuleSummary,
+  modeLabel,
+  routeTypeLabel,
+} = useWafLogDisplay({
+  activeEvent,
+  activeEventWithIpLocation,
+  locale,
+  translate: (key, params) => (params ? t(key, params) : t(key)),
+});
+</script>
+
+<template>
+  <div class="flex h-full flex-col gap-3">
+    <Teleport defer to="#request-analysis-waf-actions">
+      <WAFLogsHeader
+        compact
+        :is-blocking-ips="isBlockingIps"
+        :is-deleting="isDeleting"
+        :is-mutating-blacklist-ips="isMutatingBlacklistIps"
+        :is-releasing-ips="isReleasingIps"
+        :loading="loading"
+        :selected-blocked-count="selectedBlockedWafIps.length"
+        :selected-date="selectedDate"
+        :selected-unblocked-count="selectedUnblockedWafIps.length"
+        @block-selected="blockIpsFromWafLogs(selectedUnblockedWafIps)"
+        @delete-date="deleteSelectedDate"
+        @refresh="refreshAll"
+        @release-selected="releaseIpsFromWafLogs(selectedBlockedWafIps)"
+      />
+    </Teleport>
+
+    <div
+      class="flex min-h-0 flex-1 flex-col overflow-hidden rounded-xl border bg-background"
+    >
+      <WAFLogsFilters
+        v-model:search-query="searchQuery"
+        :available-dates="availableDates"
+        :cursor-page-label="cursorPageLabel"
+        :entry-count="entries.length"
+        :selected-date="selectedDate"
+        :trace-filter="traceFilter"
+        @date-change="handleDateChange"
+        @search="handleSearch"
+      />
+
+      <WAFLogsTable
+        v-model:is-all-displayed-rows-selected="isAllDisplayedRowsSelected"
+        :action-label="actionLabel"
+        :action-variant="actionVariant"
+        :block-ips-from-waf-logs="blockIpsFromWafLogs"
+        :entries="displayedEntries"
+        :format-primary-rule-id="formatPrimaryRuleId"
+        :format-rule-location-summary="formatRuleLocationSummary"
+        :format-rule-summary="formatRuleSummary"
+        :get-entry-display-ip="getEntryDisplayIp"
+        :get-entry-ip-location-text="getEntryIpLocationText"
+        :has-selectable-displayed-rows="hasSelectableDisplayedRows"
+        :is-general-blacklisted="isGeneralBlacklisted"
+        :is-mutating-blacklist-ips="isMutatingBlacklistIps"
+        :loading="loading"
+        :mode-label="modeLabel"
+        :release-ips-from-waf-logs="releaseIpsFromWafLogs"
+        :route-type-label="routeTypeLabel"
+        :selected-waf-entry-keys="selectedWafEntryKeys"
+        :toggle-waf-entry-selection="toggleWafEntrySelection"
+        :view-details="viewDetails"
+      />
+
+      <WAFLogsPagination
+        :can-load-newer="canLoadNewer"
+        :can-load-older="canLoadOlder"
+        :cursor-page-label="cursorPageLabel"
+        :handle-limit-change="handleLimitChange"
+        :handle-load-first="handleLoadFirst"
+        :handle-load-newer="handleLoadNewer"
+        :handle-load-older="handleLoadOlder"
+        :limit="limit"
+        :loading="loading"
+        :should-float="shouldFloatPagination"
+      />
+    </div>
+
+    <DetailDialog
+      v-model:open="isDetailsOpen"
+      :title="t('admin.wafLogs.detailTitle')"
+      :description="t('admin.wafLogs.detailDescription')"
+      max-width-class="sm:max-w-[680px]"
+      close-variant="default"
+      :copy-text="detailCopyText"
+    >
+      <div v-if="activeEvent" class="space-y-4">
+        <TraceIdLink :trace-id="activeEvent.trace_id" />
+        <DetailFieldsGrid :items="detailItems" />
+      </div>
+    </DetailDialog>
+  </div>
+</template>

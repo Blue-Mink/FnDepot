@@ -1,1 +1,44 @@
-aW1wb3J0IHsgcmVhZEZpbGVTeW5jIH0gZnJvbSAibm9kZTpmcyI7CmltcG9ydCB0ZXN0IGZyb20gIm5vZGU6dGVzdCI7CmltcG9ydCBhc3NlcnQgZnJvbSAibm9kZTphc3NlcnQvc3RyaWN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgp0ZXN0KCJzdGF0aWMgcGF0aCBicm93c2VyIHN0YXlzIGluc2lkZSB0aGUgbWFwcGluZyBkaWFsb2cgYW5kIGtlZXBzIHJlc3BvbnNpdmUgYWNjZXNzaWJsZSBjb250cm9scyIsICgpID0+IHsKICBjb25zdCBkaWFsb2cgPSByZWFkU291cmNlKAogICAgIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvU3ViZG9tYWluTWFwcGluZ0RpYWxvZy52dWUiLAogICk7CiAgY29uc3QgYnJvd3NlciA9IHJlYWRTb3VyY2UoCiAgICAiLi4vc3JjL3ZpZXdzL3N1YmRvbWFpbi1wcm94eS9TdWJkb21haW5NYXBwaW5nU3RhdGljUGF0aEJyb3dzZXIudnVlIiwKICApOwoKICBhc3NlcnQubWF0Y2goZGlhbG9nLCAvbWFwcGluZ0RpYWxvZ1ZpZXcgPT09ICdwYXRoLWJyb3dzZXInLyk7CiAgYXNzZXJ0Lm1hdGNoKGRpYWxvZywgL3NtOiFtYXgtdy1cWzc2MHB4XF0vKTsKICBhc3NlcnQubWF0Y2goZGlhbG9nLCAvPERpYWxvZ1RpdGxlIGNsYXNzPSJzci1vbmx5Ij5ce1x7IGRpYWxvZ1RpdGxlIFx9XH0vKTsKICBhc3NlcnQubWF0Y2goZGlhbG9nLCAvPERpYWxvZ0Rlc2NyaXB0aW9uIGNsYXNzPSJzci1vbmx5Ij4vKTsKICBhc3NlcnQubWF0Y2goZGlhbG9nLCAvc3RhdGljU2VydmVcLmJyb3dzZXJcLnRpdGxlLyk7CiAgYXNzZXJ0Lm1hdGNoKGRpYWxvZywgL3N0YXRpY1NlcnZlXC5icm93c2VyXC5oaW50Lyk7CiAgYXNzZXJ0LmRvZXNOb3RNYXRjaChicm93c2VyLCAvPERpYWxvZ1xifGZyb20gIkBcL2NvbXBvbmVudHNcL3VpXC9kaWFsb2ciLyk7CiAgYXNzZXJ0Lm1hdGNoKGJyb3dzZXIsIC9jb25maWdTdG9yZVwuaXNEb2NrZXJEZXBsb3ltZW50Lyk7CiAgYXNzZXJ0Lm1hdGNoKGJyb3dzZXIsIC9zdGF0aWNTZXJ2ZVwuYnJvd3NlclwuZG9ja2VySGludC8pOwogIGFzc2VydC5tYXRjaChicm93c2VyLCAvbWF4LXNtOmdyaWQtY29scy0xLyk7CiAgYXNzZXJ0Lm1hdGNoKGJyb3dzZXIsIC86YXJpYS1idXN5PSJlZGl0b3JcLmlzTG9hZGluZyIvKTsKICBhc3NlcnQubWF0Y2goYnJvd3NlciwgL2lkPSJzdGF0aWMtcGF0aC1icm93c2VyLWFkZHJlc3MiLyk7CiAgYXNzZXJ0Lm1hdGNoKGJyb3dzZXIsIC86bW9kZWwtdmFsdWU9ImVkaXRvclwucGF0aERyYWZ0Ii8pOwogIGFzc2VydC5tYXRjaChicm93c2VyLCAvQHVwZGF0ZTptb2RlbC12YWx1ZT0iZWRpdG9yXC51cGRhdGVQYXRoRHJhZnQiLyk7CiAgYXNzZXJ0Lm1hdGNoKGJyb3dzZXIsIC9Aa2V5ZG93blwuZW50ZXI9ImhhbmRsZVBhdGhFbnRlciIvKTsKICBhc3NlcnQubWF0Y2goYnJvd3NlciwgL0BzdWJtaXRcLnByZXZlbnQ9ImVkaXRvclwubmF2aWdhdGVUb1BhdGgiLyk7CiAgYXNzZXJ0Lm1hdGNoKGJyb3dzZXIsIC9ldmVudFwuaXNDb21wb3NpbmcvKTsKICBhc3NlcnQubWF0Y2goYnJvd3NlciwgLzphcmlhLWxhYmVsPSJlbnRyeUFyaWFMYWJlbFwoZW50cnlcKSIvKTsKICBhc3NlcnQubWF0Y2goYnJvd3NlciwgLzphcmlhLXByZXNzZWQ9Lyk7CiAgYXNzZXJ0Lm1hdGNoKGJyb3dzZXIsIC9lZGl0b3JcLnNlbGVjdGlvblBhdGggPT09IGVudHJ5XC5wYXRoLyk7CiAgYXNzZXJ0LmRvZXNOb3RNYXRjaChicm93c2VyLCAvZWRpdG9yXC5zZWxlY3RlZFBhdGggPT09IGVudHJ5XC5wYXRoLyk7CgogIGNvbnN0IG5hdGl2ZUJ1dHRvbnMgPSBicm93c2VyLm1hdGNoKC88YnV0dG9uXGJbXj5dKj4vZykgPz8gW107CiAgYXNzZXJ0Lm9rKG5hdGl2ZUJ1dHRvbnMubGVuZ3RoID4gMCk7CiAgYXNzZXJ0Lm9rKAogICAgbmF0aXZlQnV0dG9ucy5ldmVyeSgoYnV0dG9uKSA9PiAvdHlwZT0iYnV0dG9uIi8udGVzdChidXR0b24pKSwKICAgICJldmVyeSBuYXRpdmUgYnJvd3NlciBjb250cm9sIG11c3QgaGF2ZSBleHBsaWNpdCBidXR0b24gc2VtYW50aWNzIiwKICApOwp9KTsK
+import { readFileSync } from "node:fs";
+import test from "node:test";
+import assert from "node:assert/strict";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+test("static path browser stays inside the mapping dialog and keeps responsive accessible controls", () => {
+  const dialog = readSource(
+    "../src/views/subdomain-proxy/SubdomainMappingDialog.vue",
+  );
+  const browser = readSource(
+    "../src/views/subdomain-proxy/SubdomainMappingStaticPathBrowser.vue",
+  );
+
+  assert.match(dialog, /mappingDialogView === 'path-browser'/);
+  assert.match(dialog, /sm:!max-w-\[760px\]/);
+  assert.match(dialog, /<DialogTitle class="sr-only">\{\{ dialogTitle \}\}/);
+  assert.match(dialog, /<DialogDescription class="sr-only">/);
+  assert.match(dialog, /staticServe\.browser\.title/);
+  assert.match(dialog, /staticServe\.browser\.hint/);
+  assert.doesNotMatch(browser, /<Dialog\b|from "@\/components\/ui\/dialog"/);
+  assert.match(browser, /configStore\.isDockerDeployment/);
+  assert.match(browser, /staticServe\.browser\.dockerHint/);
+  assert.match(browser, /max-sm:grid-cols-1/);
+  assert.match(browser, /:aria-busy="editor\.isLoading"/);
+  assert.match(browser, /id="static-path-browser-address"/);
+  assert.match(browser, /:model-value="editor\.pathDraft"/);
+  assert.match(browser, /@update:model-value="editor\.updatePathDraft"/);
+  assert.match(browser, /@keydown\.enter="handlePathEnter"/);
+  assert.match(browser, /@submit\.prevent="editor\.navigateToPath"/);
+  assert.match(browser, /event\.isComposing/);
+  assert.match(browser, /:aria-label="entryAriaLabel\(entry\)"/);
+  assert.match(browser, /:aria-pressed=/);
+  assert.match(browser, /editor\.selectionPath === entry\.path/);
+  assert.doesNotMatch(browser, /editor\.selectedPath === entry\.path/);
+
+  const nativeButtons = browser.match(/<button\b[^>]*>/g) ?? [];
+  assert.ok(nativeButtons.length > 0);
+  assert.ok(
+    nativeButtons.every((button) => /type="button"/.test(button)),
+    "every native browser control must have explicit button semantics",
+  );
+});

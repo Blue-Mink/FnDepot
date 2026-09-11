@@ -1,1 +1,17 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgZGF0YS1zbG90PSJhbGVydC10aXRsZSIKICAgIDpjbGFzcz0iY24oJ2NvbC1zdGFydC0yIGxpbmUtY2xhbXAtMSBtaW4taC00IGZvbnQtbWVkaXVtIHRyYWNraW5nLXRpZ2h0JywgcHJvcHMuY2xhc3MpIgogID4KICAgIDxzbG90IC8+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <div
+    data-slot="alert-title"
+    :class="cn('col-start-2 line-clamp-1 min-h-4 font-medium tracking-tight', props.class)"
+  >
+    <slot />
+  </div>
+</template>

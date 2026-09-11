@@ -1,1 +1,22 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBhcHBseV90eXBlZF93aGl0ZWxpc3RfbXV0YXRpb24oCiAgICB0eDogJnRva2lvX3J1c3FsaXRlOjpydXNxbGl0ZTo6VHJhbnNhY3Rpb248J18+LAogICAgbXV0YXRpb246IFR5cGVkV2hpdGVsaXN0TXV0YXRpb24sCikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgIG1hdGNoIG11dGF0aW9uIHsKICAgICAgICBUeXBlZFdoaXRlbGlzdE11dGF0aW9uOjpVcHNlcnQoZG9jdW1lbnQpID0+IHsKICAgICAgICAgICAgVHlwZWRXaGl0ZWxpc3RSZXBvc2l0b3J5Ojp1cHNlcnRfdHgodHgsICZkb2N1bWVudCkKICAgICAgICB9CiAgICAgICAgVHlwZWRXaGl0ZWxpc3RNdXRhdGlvbjo6RGVsZXRlIHsga2luZCwgaWQgfSA9PiB7CiAgICAgICAgICAgIFR5cGVkV2hpdGVsaXN0UmVwb3NpdG9yeTo6ZGVsZXRlX3R4KHR4LCBraW5kLCAmaWQpCiAgICAgICAgfQogICAgICAgIFR5cGVkV2hpdGVsaXN0TXV0YXRpb246OlJlcGxhY2VLaW5kIHsga2luZCwgZG9jdW1lbnRzIH0gPT4gewogICAgICAgICAgICBUeXBlZFdoaXRlbGlzdFJlcG9zaXRvcnk6OmRlbGV0ZV9raW5kX3R4KHR4LCBraW5kKT87CiAgICAgICAgICAgIGZvciBkb2N1bWVudCBpbiAmZG9jdW1lbnRzIHsKICAgICAgICAgICAgICAgIFR5cGVkV2hpdGVsaXN0UmVwb3NpdG9yeTo6dXBzZXJ0X3R4KHR4LCBkb2N1bWVudCk/OwogICAgICAgICAgICB9CiAgICAgICAgICAgIE9rKCgpKQogICAgICAgIH0KICAgIH0KfQo=
+use super::*;
+
+pub(super) fn apply_typed_whitelist_mutation(
+    tx: &tokio_rusqlite::rusqlite::Transaction<'_>,
+    mutation: TypedWhitelistMutation,
+) -> crate::storage::StorageResult<()> {
+    match mutation {
+        TypedWhitelistMutation::Upsert(document) => {
+            TypedWhitelistRepository::upsert_tx(tx, &document)
+        }
+        TypedWhitelistMutation::Delete { kind, id } => {
+            TypedWhitelistRepository::delete_tx(tx, kind, &id)
+        }
+        TypedWhitelistMutation::ReplaceKind { kind, documents } => {
+            TypedWhitelistRepository::delete_kind_tx(tx, kind)?;
+            for document in &documents {
+                TypedWhitelistRepository::upsert_tx(tx, document)?;
+            }
+            Ok(())
+        }
+    }
+}

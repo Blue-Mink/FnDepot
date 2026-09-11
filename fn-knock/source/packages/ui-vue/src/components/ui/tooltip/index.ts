@@ -1,1 +1,4 @@
-ZXhwb3J0IHsgZGVmYXVsdCBhcyBUb29sdGlwIH0gZnJvbSAiLi9Ub29sdGlwLnZ1ZSIKZXhwb3J0IHsgZGVmYXVsdCBhcyBUb29sdGlwQ29udGVudCB9IGZyb20gIi4vVG9vbHRpcENvbnRlbnQudnVlIgpleHBvcnQgeyBkZWZhdWx0IGFzIFRvb2x0aXBQcm92aWRlciB9IGZyb20gIi4vVG9vbHRpcFByb3ZpZGVyLnZ1ZSIKZXhwb3J0IHsgZGVmYXVsdCBhcyBUb29sdGlwVHJpZ2dlciB9IGZyb20gIi4vVG9vbHRpcFRyaWdnZXIudnVlIgo=
+export { default as Tooltip } from "./Tooltip.vue"
+export { default as TooltipContent } from "./TooltipContent.vue"
+export { default as TooltipProvider } from "./TooltipProvider.vue"
+export { default as TooltipTrigger } from "./TooltipTrigger.vue"

@@ -1,1 +1,72 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgd2F0Y2gsIHR5cGUgQ29tcHV0ZWRSZWYsIHR5cGUgUmVmIH0gZnJvbSAndnVlJzsKCnR5cGUgUmVhZGFibGVJdGVtczxUPiA9IFJlZjxUW10+IHwgQ29tcHV0ZWRSZWY8VFtdPjsKCmludGVyZmFjZSBVc2VMb2NhbFBhZ2VkTGlzdE9wdGlvbnM8VD4gewogIGl0ZW1zOiBSZWFkYWJsZUl0ZW1zPFQ+OwogIGZpbHRlcjogKGl0ZW06IFQsIHF1ZXJ5OiBzdHJpbmcpID0+IGJvb2xlYW47CiAgaW5pdGlhbExpbWl0Pzogc3RyaW5nOwogIG5vcm1hbGl6ZVF1ZXJ5PzogKHF1ZXJ5OiBzdHJpbmcpID0+IHN0cmluZzsKfQoKZXhwb3J0IGZ1bmN0aW9uIHVzZUxvY2FsUGFnZWRMaXN0PFQ+KG9wdGlvbnM6IFVzZUxvY2FsUGFnZWRMaXN0T3B0aW9uczxUPikgewogIGNvbnN0IHNlYXJjaFF1ZXJ5ID0gcmVmKCcnKTsKICBjb25zdCBjdXJyZW50UGFnZSA9IHJlZigxKTsKICBjb25zdCBsaW1pdCA9IHJlZihvcHRpb25zLmluaXRpYWxMaW1pdCA/PyAnMTAnKTsKCiAgY29uc3QgcGFyc2VkTGltaXQgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCB2YWx1ZSA9IE51bWJlci5wYXJzZUludChsaW1pdC52YWx1ZSwgMTApOwogICAgcmV0dXJuIE51bWJlci5pc0Zpbml0ZSh2YWx1ZSkgJiYgdmFsdWUgPiAwID8gdmFsdWUgOiAxMDsKICB9KTsKCiAgY29uc3Qgbm9ybWFsaXplZFF1ZXJ5ID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3QgcmF3ID0gc2VhcmNoUXVlcnkudmFsdWU7CiAgICBpZiAoIXJhdykgcmV0dXJuICcnOwogICAgY29uc3Qgbm9ybWFsaXplID0gb3B0aW9ucy5ub3JtYWxpemVRdWVyeSA/PyAoKHE6IHN0cmluZykgPT4gcSk7CiAgICByZXR1cm4gbm9ybWFsaXplKHJhdyk7CiAgfSk7CgogIGNvbnN0IGZpbHRlcmVkSXRlbXMgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoIW5vcm1hbGl6ZWRRdWVyeS52YWx1ZSkgcmV0dXJuIG9wdGlvbnMuaXRlbXMudmFsdWU7CiAgICByZXR1cm4gb3B0aW9ucy5pdGVtcy52YWx1ZS5maWx0ZXIoKGl0ZW0pID0+IG9wdGlvbnMuZmlsdGVyKGl0ZW0sIG5vcm1hbGl6ZWRRdWVyeS52YWx1ZSkpOwogIH0pOwoKICBjb25zdCB0b3RhbFBhZ2VzID0gY29tcHV0ZWQoKCkgPT4gTWF0aC5tYXgoMSwgTWF0aC5jZWlsKGZpbHRlcmVkSXRlbXMudmFsdWUubGVuZ3RoIC8gcGFyc2VkTGltaXQudmFsdWUpKSk7CgogIGNvbnN0IHBhZ2VkSXRlbXMgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBzdGFydCA9IChjdXJyZW50UGFnZS52YWx1ZSAtIDEpICogcGFyc2VkTGltaXQudmFsdWU7CiAgICByZXR1cm4gZmlsdGVyZWRJdGVtcy52YWx1ZS5zbGljZShzdGFydCwgc3RhcnQgKyBwYXJzZWRMaW1pdC52YWx1ZSk7CiAgfSk7CgogIGNvbnN0IGhhbmRsZVBhZ2VDaGFuZ2UgPSAocGFnZTogbnVtYmVyKSA9PiB7CiAgICBpZiAocGFnZSA8IDEgfHwgcGFnZSA+IHRvdGFsUGFnZXMudmFsdWUpIHJldHVybjsKICAgIGN1cnJlbnRQYWdlLnZhbHVlID0gcGFnZTsKICB9OwoKICBjb25zdCBoYW5kbGVMaW1pdENoYW5nZSA9IChuZXdMaW1pdDogc3RyaW5nKSA9PiB7CiAgICBsaW1pdC52YWx1ZSA9IFN0cmluZyhuZXdMaW1pdCk7CiAgICBjdXJyZW50UGFnZS52YWx1ZSA9IDE7CiAgfTsKCiAgd2F0Y2goc2VhcmNoUXVlcnksICgpID0+IHsKICAgIGN1cnJlbnRQYWdlLnZhbHVlID0gMTsKICB9KTsKCiAgd2F0Y2goZmlsdGVyZWRJdGVtcywgKCkgPT4gewogICAgaWYgKGN1cnJlbnRQYWdlLnZhbHVlID4gdG90YWxQYWdlcy52YWx1ZSkgewogICAgICBjdXJyZW50UGFnZS52YWx1ZSA9IHRvdGFsUGFnZXMudmFsdWU7CiAgICB9CiAgfSk7CgogIHJldHVybiB7CiAgICBzZWFyY2hRdWVyeSwKICAgIGN1cnJlbnRQYWdlLAogICAgbGltaXQsCiAgICBwYXJzZWRMaW1pdCwKICAgIGZpbHRlcmVkSXRlbXMsCiAgICBwYWdlZEl0ZW1zLAogICAgdG90YWxQYWdlcywKICAgIGhhbmRsZVBhZ2VDaGFuZ2UsCiAgICBoYW5kbGVMaW1pdENoYW5nZSwKICB9Owp9Cg==
+import { computed, ref, watch, type ComputedRef, type Ref } from 'vue';
+
+type ReadableItems<T> = Ref<T[]> | ComputedRef<T[]>;
+
+interface UseLocalPagedListOptions<T> {
+  items: ReadableItems<T>;
+  filter: (item: T, query: string) => boolean;
+  initialLimit?: string;
+  normalizeQuery?: (query: string) => string;
+}
+
+export function useLocalPagedList<T>(options: UseLocalPagedListOptions<T>) {
+  const searchQuery = ref('');
+  const currentPage = ref(1);
+  const limit = ref(options.initialLimit ?? '10');
+
+  const parsedLimit = computed(() => {
+    const value = Number.parseInt(limit.value, 10);
+    return Number.isFinite(value) && value > 0 ? value : 10;
+  });
+
+  const normalizedQuery = computed(() => {
+    const raw = searchQuery.value;
+    if (!raw) return '';
+    const normalize = options.normalizeQuery ?? ((q: string) => q);
+    return normalize(raw);
+  });
+
+  const filteredItems = computed(() => {
+    if (!normalizedQuery.value) return options.items.value;
+    return options.items.value.filter((item) => options.filter(item, normalizedQuery.value));
+  });
+
+  const totalPages = computed(() => Math.max(1, Math.ceil(filteredItems.value.length / parsedLimit.value)));
+
+  const pagedItems = computed(() => {
+    const start = (currentPage.value - 1) * parsedLimit.value;
+    return filteredItems.value.slice(start, start + parsedLimit.value);
+  });
+
+  const handlePageChange = (page: number) => {
+    if (page < 1 || page > totalPages.value) return;
+    currentPage.value = page;
+  };
+
+  const handleLimitChange = (newLimit: string) => {
+    limit.value = String(newLimit);
+    currentPage.value = 1;
+  };
+
+  watch(searchQuery, () => {
+    currentPage.value = 1;
+  });
+
+  watch(filteredItems, () => {
+    if (currentPage.value > totalPages.value) {
+      currentPage.value = totalPages.value;
+    }
+  });
+
+  return {
+    searchQuery,
+    currentPage,
+    limit,
+    parsedLimit,
+    filteredItems,
+    pagedItems,
+    totalPages,
+    handlePageChange,
+    handleLimitChange,
+  };
+}

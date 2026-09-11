@@ -1,1 +1,104 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKaW1wb3J0IHsKICBhdXRvbWF0aWNCYWNrdXBBdHRlbXB0Q29tcGxldGVkLAogIGF1dG9tYXRpY0JhY2t1cEF0dGVtcHRTdWNjZWVkZWQsCiAgYXV0b21hdGljQmFja3VwU291cmNlSXNBdmFpbGFibGUsCiAgYmFja3VwU291cmNlTWVudUlzUmVxdWlyZWQsCiAgYnVpbGRBdXRvbWF0aWNCYWNrdXBTZWxlY3Rpb25TdW1tYXJ5LAogIGlzQXV0b21hdGljQmFja3VwQ29uZmlnVmFsaWQsCn0gZnJvbSAiLi4vc3JjL2xpYi9hdXRvbWF0aWMtYmFja3VwIjsKCmNvbnN0IGF1dG9tYXRpY0JhY2t1cFNldHRpbmdzU291cmNlID0gcmVhZEZpbGVTeW5jKAogIG5ldyBVUkwoCiAgICAiLi4vc3JjL3ZpZXdzL3N5c3RlbS1zZXR0aW5ncy9BdXRvbWF0aWNCYWNrdXBTZXR0aW5ncy52dWUiLAogICAgaW1wb3J0Lm1ldGEudXJsLAogICksCiAgInV0ZjgiLAopOwoKZGVzY3JpYmUoImF1dG9tYXRpYyBiYWNrdXAgc2V0dGluZ3MiLCAoKSA9PiB7CiAgaXQoInZhbGlkYXRlcyB0aGUgZG9jdW1lbnRlZCBpbnRlcnZhbCBhbmQgcmV0ZW50aW9uIGJvdW5kYXJpZXMiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoaXNBdXRvbWF0aWNCYWNrdXBDb25maWdWYWxpZCgxLCAxKSwgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwoaXNBdXRvbWF0aWNCYWNrdXBDb25maWdWYWxpZCg4NzYwLCAzNjUwKSwgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwoaXNBdXRvbWF0aWNCYWNrdXBDb25maWdWYWxpZCgwLCA3KSwgZmFsc2UpOwogICAgYXNzZXJ0LmVxdWFsKGlzQXV0b21hdGljQmFja3VwQ29uZmlnVmFsaWQoMjQsIDM2NTEpLCBmYWxzZSk7CiAgICBhc3NlcnQuZXF1YWwoaXNBdXRvbWF0aWNCYWNrdXBDb25maWdWYWxpZCgxLjUsIDcpLCBmYWxzZSk7CiAgfSk7CgogIGl0KCJvZmZlcnMgYXV0b21hdGljIHJlc3RvcmUgb25seSB3aGVuIGFuIGF1dG9tYXRpYyBhcmNoaXZlIGV4aXN0cyIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbChhdXRvbWF0aWNCYWNrdXBTb3VyY2VJc0F2YWlsYWJsZSgwKSwgZmFsc2UpOwogICAgYXNzZXJ0LmVxdWFsKGF1dG9tYXRpY0JhY2t1cFNvdXJjZUlzQXZhaWxhYmxlKDEpLCB0cnVlKTsKICB9KTsKCiAgaXQoInVzZXMgYSBzb3VyY2UgbWVudSBmb3IgRk5PUyBvciBhdXRvbWF0aWMgc2VydmVyLXNpZGUgYmFja3VwcyIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbChiYWNrdXBTb3VyY2VNZW51SXNSZXF1aXJlZChmYWxzZSwgMCksIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbChiYWNrdXBTb3VyY2VNZW51SXNSZXF1aXJlZCh0cnVlLCAwKSwgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwoYmFja3VwU291cmNlTWVudUlzUmVxdWlyZWQoZmFsc2UsIDIpLCB0cnVlKTsKICB9KTsKCiAgaXQoImtlZXBzIHBvbGxpbmcgdGhyb3VnaCB1bmNoYW5nZWQgYXR0ZW1wdHMgYW5kIGRldGVjdHMgdGhlIG5ldyByZXN1bHQiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoYXV0b21hdGljQmFja3VwQXR0ZW1wdENvbXBsZXRlZCgib2xkIiwgbnVsbCksIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbChhdXRvbWF0aWNCYWNrdXBBdHRlbXB0Q29tcGxldGVkKCJvbGQiLCAib2xkIiksIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbChhdXRvbWF0aWNCYWNrdXBBdHRlbXB0Q29tcGxldGVkKCJvbGQiLCAibmV3IiksIHRydWUpOwogICAgYXNzZXJ0LmVxdWFsKGF1dG9tYXRpY0JhY2t1cEF0dGVtcHRTdWNjZWVkZWQoIm9sZCIsICJvbGQiKSwgZmFsc2UpOwogICAgYXNzZXJ0LmVxdWFsKGF1dG9tYXRpY0JhY2t1cEF0dGVtcHRTdWNjZWVkZWQoIm9sZCIsICJuZXciKSwgdHJ1ZSk7CiAgfSk7CgogIGl0KCJtYXBzIGFuIGF1dG9tYXRpYyBmaWxlIGludG8gdGhlIHJlc3RvcmUgc2VsZWN0aW9uIHN1bW1hcnkiLCAoKSA9PiB7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBidWlsZEF1dG9tYXRpY0JhY2t1cFNlbGVjdGlvblN1bW1hcnkoCiAgICAgICAgewogICAgICAgICAgbmFtZTogImJhY2t1cC5rbm9jayIsCiAgICAgICAgICByZWxhdGl2ZVBhdGg6ICJiYWNrdXAua25vY2siLAogICAgICAgICAgZXh0ZW5zaW9uOiAiLmtub2NrIiwKICAgICAgICAgIHNpemU6IDIwNDgsCiAgICAgICAgICBtb2RpZmllZEF0OiAiMjAyNi0wNy0yNFQwMDowMDowMFoiLAogICAgICAgIH0sCiAgICAgICAgIjIuMCBLQiIsCiAgICAgICAgIkF1dG9tYXRpYyBiYWNrdXAiLAogICAgICApLAogICAgICB7CiAgICAgICAgbmFtZTogImJhY2t1cC5rbm9jayIsCiAgICAgICAgc2l6ZTogIjIuMCBLQiIsCiAgICAgICAgc291cmNlTGFiZWw6ICJBdXRvbWF0aWMgYmFja3VwIiwKICAgICAgICBsb2NhdGlvbjogImJhY2t1cC5rbm9jayIsCiAgICAgIH0sCiAgICApOwogIH0pOwoKICBpdCgia2VlcHMgdGhlIHNldHRpbmdzIGNhcmQgbGFiZWxsZWQgYW5kIGFubm91bmNlcyBhY3Rpdml0eSBhbmQgZXJyb3JzIiwgKCkgPT4gewogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBhdXRvbWF0aWNCYWNrdXBTZXR0aW5nc1NvdXJjZSwKICAgICAgL2RhdGEtYTExeS1zY29wZT0iYXV0b21hdGljLWJhY2t1cC1zZXR0aW5ncyIvLAogICAgKTsKICAgIGFzc2VydC5tYXRjaChhdXRvbWF0aWNCYWNrdXBTZXR0aW5nc1NvdXJjZSwgL3JvbGU9InJlZ2lvbiIvKTsKICAgIGFzc2VydC5tYXRjaChhdXRvbWF0aWNCYWNrdXBTZXR0aW5nc1NvdXJjZSwgLzphcmlhLWxhYmVsbGVkYnk9Lyk7CiAgICBhc3NlcnQubWF0Y2goYXV0b21hdGljQmFja3VwU2V0dGluZ3NTb3VyY2UsIC86YXJpYS1kZXNjcmliZWRieT0vKTsKICAgIGFzc2VydC5tYXRjaChhdXRvbWF0aWNCYWNrdXBTZXR0aW5nc1NvdXJjZSwgLzphcmlhLWJ1c3k9Lyk7CiAgICBhc3NlcnQubWF0Y2goYXV0b21hdGljQmFja3VwU2V0dGluZ3NTb3VyY2UsIC88aDIvKTsKICAgIGFzc2VydC5tYXRjaChhdXRvbWF0aWNCYWNrdXBTZXR0aW5nc1NvdXJjZSwgL3JvbGU9InN0YXR1cyIvKTsKICAgIGFzc2VydC5tYXRjaChhdXRvbWF0aWNCYWNrdXBTZXR0aW5nc1NvdXJjZSwgL2FyaWEtbGl2ZT0icG9saXRlIi8pOwogICAgYXNzZXJ0Lm1hdGNoKGF1dG9tYXRpY0JhY2t1cFNldHRpbmdzU291cmNlLCAvcm9sZT0iYWxlcnQiLyk7CiAgfSk7CgogIGl0KCJjb25uZWN0cyBib3RoIG51bWVyaWMgZmllbGRzIHRvIGlubGluZSBhY2Nlc3NpYmxlIHZhbGlkYXRpb24iLCAoKSA9PiB7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGF1dG9tYXRpY0JhY2t1cFNldHRpbmdzU291cmNlLAogICAgICAvOmFyaWEtaW52YWxpZD0iaW50ZXJ2YWxJc0ludmFsaWQiLywKICAgICk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGF1dG9tYXRpY0JhY2t1cFNldHRpbmdzU291cmNlLAogICAgICAvOmFyaWEtZGVzY3JpYmVkYnk9ImBcJFx7YTExeUlkXH0taW50ZXJ2YWwtaGVscGAiLywKICAgICk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGF1dG9tYXRpY0JhY2t1cFNldHRpbmdzU291cmNlLAogICAgICAvOmFyaWEtaW52YWxpZD0icmV0ZW50aW9uSXNJbnZhbGlkIi8sCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBhdXRvbWF0aWNCYWNrdXBTZXR0aW5nc1NvdXJjZSwKICAgICAgLzphcmlhLWRlc2NyaWJlZGJ5PSJgXCRce2ExMXlJZFx9LXJldGVudGlvbi1oZWxwYCIvLAogICAgKTsKICB9KTsKfSk7Cg==
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+import {
+  automaticBackupAttemptCompleted,
+  automaticBackupAttemptSucceeded,
+  automaticBackupSourceIsAvailable,
+  backupSourceMenuIsRequired,
+  buildAutomaticBackupSelectionSummary,
+  isAutomaticBackupConfigValid,
+} from "../src/lib/automatic-backup";
+
+const automaticBackupSettingsSource = readFileSync(
+  new URL(
+    "../src/views/system-settings/AutomaticBackupSettings.vue",
+    import.meta.url,
+  ),
+  "utf8",
+);
+
+describe("automatic backup settings", () => {
+  it("validates the documented interval and retention boundaries", () => {
+    assert.equal(isAutomaticBackupConfigValid(1, 1), true);
+    assert.equal(isAutomaticBackupConfigValid(8760, 3650), true);
+    assert.equal(isAutomaticBackupConfigValid(0, 7), false);
+    assert.equal(isAutomaticBackupConfigValid(24, 3651), false);
+    assert.equal(isAutomaticBackupConfigValid(1.5, 7), false);
+  });
+
+  it("offers automatic restore only when an automatic archive exists", () => {
+    assert.equal(automaticBackupSourceIsAvailable(0), false);
+    assert.equal(automaticBackupSourceIsAvailable(1), true);
+  });
+
+  it("uses a source menu for FNOS or automatic server-side backups", () => {
+    assert.equal(backupSourceMenuIsRequired(false, 0), false);
+    assert.equal(backupSourceMenuIsRequired(true, 0), true);
+    assert.equal(backupSourceMenuIsRequired(false, 2), true);
+  });
+
+  it("keeps polling through unchanged attempts and detects the new result", () => {
+    assert.equal(automaticBackupAttemptCompleted("old", null), false);
+    assert.equal(automaticBackupAttemptCompleted("old", "old"), false);
+    assert.equal(automaticBackupAttemptCompleted("old", "new"), true);
+    assert.equal(automaticBackupAttemptSucceeded("old", "old"), false);
+    assert.equal(automaticBackupAttemptSucceeded("old", "new"), true);
+  });
+
+  it("maps an automatic file into the restore selection summary", () => {
+    assert.deepEqual(
+      buildAutomaticBackupSelectionSummary(
+        {
+          name: "backup.knock",
+          relativePath: "backup.knock",
+          extension: ".knock",
+          size: 2048,
+          modifiedAt: "2026-07-24T00:00:00Z",
+        },
+        "2.0 KB",
+        "Automatic backup",
+      ),
+      {
+        name: "backup.knock",
+        size: "2.0 KB",
+        sourceLabel: "Automatic backup",
+        location: "backup.knock",
+      },
+    );
+  });
+
+  it("keeps the settings card labelled and announces activity and errors", () => {
+    assert.match(
+      automaticBackupSettingsSource,
+      /data-a11y-scope="automatic-backup-settings"/,
+    );
+    assert.match(automaticBackupSettingsSource, /role="region"/);
+    assert.match(automaticBackupSettingsSource, /:aria-labelledby=/);
+    assert.match(automaticBackupSettingsSource, /:aria-describedby=/);
+    assert.match(automaticBackupSettingsSource, /:aria-busy=/);
+    assert.match(automaticBackupSettingsSource, /<h2/);
+    assert.match(automaticBackupSettingsSource, /role="status"/);
+    assert.match(automaticBackupSettingsSource, /aria-live="polite"/);
+    assert.match(automaticBackupSettingsSource, /role="alert"/);
+  });
+
+  it("connects both numeric fields to inline accessible validation", () => {
+    assert.match(
+      automaticBackupSettingsSource,
+      /:aria-invalid="intervalIsInvalid"/,
+    );
+    assert.match(
+      automaticBackupSettingsSource,
+      /:aria-describedby="`\$\{a11yId\}-interval-help`"/,
+    );
+    assert.match(
+      automaticBackupSettingsSource,
+      /:aria-invalid="retentionIsInvalid"/,
+    );
+    assert.match(
+      automaticBackupSettingsSource,
+      /:aria-describedby="`\$\{a11yId\}-retention-help`"/,
+    );
+  });
+});

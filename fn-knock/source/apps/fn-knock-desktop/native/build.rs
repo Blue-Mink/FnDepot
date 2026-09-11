@@ -1,1 +1,125 @@
-dXNlIHN0ZDo6ewogICAgZW52LCBmcywKICAgIHBhdGg6OntQYXRoLCBQYXRoQnVmfSwKfTsKCmZuIGxvYWRfY29udHJvbF9hcGlfdmVyc2lvbihwYXRoOiAmUGF0aCkgLT4gdTY0IHsKICAgIGxldCBzb3VyY2UgPSBmczo6cmVhZF90b19zdHJpbmcocGF0aCkKICAgICAgICAudW53cmFwX29yX2Vsc2UofGVycm9yfCBwYW5pYyEoImZhaWxlZCB0byByZWFkIHt9OiB7ZXJyb3J9IiwgcGF0aC5kaXNwbGF5KCkpKTsKICAgIHNvdXJjZQogICAgICAgIC5saW5lcygpCiAgICAgICAgLmZpbHRlcl9tYXAofGxpbmV8IGxpbmUuc3BsaXQoIi8vIikubmV4dCgpKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC5maW5kX21hcCh8bGluZXwgewogICAgICAgICAgICBsaW5lLnN0cmlwX3ByZWZpeCgiQ09OVFJPTF9BUElfVkVSU0lPTl9DVVJSRU5UIik/CiAgICAgICAgICAgICAgICAudHJpbSgpCiAgICAgICAgICAgICAgICAuc3RyaXBfcHJlZml4KCc9Jyk/CiAgICAgICAgICAgICAgICAudHJpbSgpCiAgICAgICAgICAgICAgICAuc3RyaXBfc3VmZml4KCc7Jyk/CiAgICAgICAgICAgICAgICAudHJpbSgpCiAgICAgICAgICAgICAgICAucGFyc2U6Ojx1NjQ+KCkKICAgICAgICAgICAgICAgIC5vaygpCiAgICAgICAgfSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgKnZhbHVlID4gMCkKICAgICAgICAudW53cmFwX29yX2Vsc2UofHwgewogICAgICAgICAgICBwYW5pYyEoCiAgICAgICAgICAgICAgICAie30gbXVzdCBkZWZpbmUgYSBwb3NpdGl2ZSBDT05UUk9MX0FQSV9WRVJTSU9OX0NVUlJFTlQiLAogICAgICAgICAgICAgICAgcGF0aC5kaXNwbGF5KCkKICAgICAgICAgICAgKQogICAgICAgIH0pCn0KCmZuIHZhbGlkYXRlX3dpbmRvd3NfYnVuZGxlX2lkZW50aXR5KG1hbmlmZXN0X2RpcjogJlBhdGgsIGV4cGVjdGVkX2NvbnRyb2xfYXBpX3ZlcnNpb246IHU2NCkgewogICAgaWYgIWVudjo6dmFyKCJUQVJHRVQiKS5pc19va19hbmQofHRhcmdldHwgdGFyZ2V0LmNvbnRhaW5zKCJ3aW5kb3dzIikpIHsKICAgICAgICByZXR1cm47CiAgICB9CiAgICBsZXQgcGF0aCA9IG1hbmlmZXN0X2Rpci5qb2luKCIuLi9idW5kbGUvd2luZG93cy9ydW50aW1lL2J1bmRsZS5qc29uIik7CiAgICBwcmludGxuISgiY2FyZ286cmVydW4taWYtY2hhbmdlZD17fSIsIHBhdGguZGlzcGxheSgpKTsKICAgIGxldCBieXRlcyA9IGZzOjpyZWFkKCZwYXRoKS51bndyYXBfb3JfZWxzZSh8ZXJyb3J8IHsKICAgICAgICBwYW5pYyEoCiAgICAgICAgICAgICJXaW5kb3dzIHJ1bnRpbWUgYnVuZGxlIGlkZW50aXR5IGlzIG1pc3NpbmcgYXQge306IHtlcnJvcn07IHJ1biBucG0gcnVuIGZuLWtub2NrOndpbmRvd3M6cHJlcGFyZSBmcm9tIHRoZSByZXBvc2l0b3J5IHJvb3QiLAogICAgICAgICAgICBwYXRoLmRpc3BsYXkoKQogICAgICAgICkKICAgIH0pOwogICAgbGV0IGRvY3VtZW50OiBzZXJkZV9qc29uOjpWYWx1ZSA9IHNlcmRlX2pzb246OmZyb21fc2xpY2UoJmJ5dGVzKQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8ZXJyb3J8IHBhbmljISgiaW52YWxpZCBXaW5kb3dzIHJ1bnRpbWUgYnVuZGxlIGlkZW50aXR5OiB7ZXJyb3J9IikpOwogICAgZm9yIGZpZWxkIGluIFsiY29tbWl0IiwgImdhdGV3YXlfY29tbWl0Il0gewogICAgICAgIGxldCB2YWx1ZSA9IGRvY3VtZW50W2ZpZWxkXS5hc19zdHIoKS51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgICAgIGFzc2VydCEoCiAgICAgICAgICAgIHZhbHVlLmxlbigpID09IDQwICYmIHZhbHVlLmJ5dGVzKCkuYWxsKHxieXRlfCBieXRlLmlzX2FzY2lpX2hleGRpZ2l0KCkpLAogICAgICAgICAgICAiV2luZG93cyBydW50aW1lIGJ1bmRsZSBpZGVudGl0eSBoYXMgYW4gaW52YWxpZCBvciBtaXNzaW5nIHtmaWVsZH07IHJ1biBucG0gcnVuIGZuLWtub2NrOndpbmRvd3M6cHJlcGFyZSBmcm9tIHRoZSByZXBvc2l0b3J5IHJvb3QiCiAgICAgICAgKTsKICAgIH0KICAgIGFzc2VydF9lcSEoCiAgICAgICAgZG9jdW1lbnRbImNvbnRyb2xfYXBpX3ZlcnNpb24iXS5hc191NjQoKSwKICAgICAgICBTb21lKGV4cGVjdGVkX2NvbnRyb2xfYXBpX3ZlcnNpb24pLAogICAgICAgICJXaW5kb3dzIHJ1bnRpbWUgYnVuZGxlIGlkZW50aXR5IGhhcyBhbiBpbnZhbGlkIG9yIG1pc3NpbmcgY29udHJvbF9hcGlfdmVyc2lvbjsgcnVuIG5wbSBydW4gZm4ta25vY2s6d2luZG93czpwcmVwYXJlIGZyb20gdGhlIHJlcG9zaXRvcnkgcm9vdCIKICAgICk7Cn0KCmZuIG1haW4oKSB7CiAgICBsZXQgbWFuaWZlc3RfZGlyID0gUGF0aEJ1Zjo6ZnJvbShlbnY6OnZhcigiQ0FSR09fTUFOSUZFU1RfRElSIikuZXhwZWN0KCJDQVJHT19NQU5JRkVTVF9ESVIiKSk7CiAgICBsZXQgY29udHJhY3RfZmlsZSA9CiAgICAgICAgbWFuaWZlc3RfZGlyLmpvaW4oIi4uLy4uLy4uL3BhY2thZ2VzL2dycGMtY29udHJhY3RzL3Byb3RvL2Zua25vY2svdjEvZ2F0ZXdheS5wcm90byIpOwogICAgcHJpbnRsbiEoImNhcmdvOnJlcnVuLWlmLWNoYW5nZWQ9e30iLCBjb250cmFjdF9maWxlLmRpc3BsYXkoKSk7CiAgICBsZXQgY29udHJvbF9hcGlfdmVyc2lvbiA9IGxvYWRfY29udHJvbF9hcGlfdmVyc2lvbigmY29udHJhY3RfZmlsZSk7CiAgICBsZXQgb3V0X2RpciA9IFBhdGhCdWY6OmZyb20oZW52Ojp2YXIoIk9VVF9ESVIiKS5leHBlY3QoIk9VVF9ESVIiKSk7CiAgICBmczo6d3JpdGUoCiAgICAgICAgb3V0X2Rpci5qb2luKCJjb250cm9sX2FwaV92ZXJzaW9uLnJzIiksCiAgICAgICAgZm9ybWF0ISgiY29uc3QgRVhQRUNURURfQ09OVFJPTF9BUElfVkVSU0lPTjogdTY0ID0ge2NvbnRyb2xfYXBpX3ZlcnNpb259O1xuIiksCiAgICApCiAgICAuZXhwZWN0KCJ3cml0ZSBnZW5lcmF0ZWQgY29udHJvbCBBUEkgdmVyc2lvbiIpOwoKICAgIHZhbGlkYXRlX3dpbmRvd3NfYnVuZGxlX2lkZW50aXR5KCZtYW5pZmVzdF9kaXIsIGNvbnRyb2xfYXBpX3ZlcnNpb24pOwogICAgaWYgZW52Ojp2YXIoIkNBUkdPX0NGR19UQVJHRVRfT1MiKS5hc19kZXJlZigpID09IE9rKCJ3aW5kb3dzIikgewogICAgICAgIGxldCBleGVjdXRpb25fbGV2ZWwgPSBpZiBlbnY6OnZhcigiUFJPRklMRSIpLmFzX2RlcmVmKCkgPT0gT2soInJlbGVhc2UiKSB7CiAgICAgICAgICAgICJyZXF1aXJlQWRtaW5pc3RyYXRvciIKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAiYXNJbnZva2VyIgogICAgICAgIH07CiAgICAgICAgbGV0IG1hbmlmZXN0ID0gZm9ybWF0ISgKICAgICAgICAgICAgciMiPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8YXNzZW1ibHkgeG1sbnM9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206YXNtLnYxIiBtYW5pZmVzdFZlcnNpb249IjEuMCI+CiAgPGRlcGVuZGVuY3k+CiAgICA8ZGVwZW5kZW50QXNzZW1ibHk+CiAgICAgIDxhc3NlbWJseUlkZW50aXR5CiAgICAgICAgdHlwZT0id2luMzIiCiAgICAgICAgbmFtZT0iTWljcm9zb2Z0LldpbmRvd3MuQ29tbW9uLUNvbnRyb2xzIgogICAgICAgIHZlcnNpb249IjYuMC4wLjAiCiAgICAgICAgcHJvY2Vzc29yQXJjaGl0ZWN0dXJlPSIqIgogICAgICAgIHB1YmxpY0tleVRva2VuPSI2NTk1YjY0MTQ0Y2NmMWRmIgogICAgICAgIGxhbmd1YWdlPSIqIiAvPgogICAgPC9kZXBlbmRlbnRBc3NlbWJseT4KICA8L2RlcGVuZGVuY3k+CiAgPHRydXN0SW5mbyB4bWxucz0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTphc20udjMiPgogICAgPHNlY3VyaXR5PjxyZXF1ZXN0ZWRQcml2aWxlZ2VzPgogICAgICA8cmVxdWVzdGVkRXhlY3V0aW9uTGV2ZWwgbGV2ZWw9IntleGVjdXRpb25fbGV2ZWx9IiB1aUFjY2Vzcz0iZmFsc2UiIC8+CiAgICA8L3JlcXVlc3RlZFByaXZpbGVnZXM+PC9zZWN1cml0eT4KICA8L3RydXN0SW5mbz4KICA8Y29tcGF0aWJpbGl0eSB4bWxucz0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTpjb21wYXRpYmlsaXR5LnYxIj4KICAgIDxhcHBsaWNhdGlvbj4KICAgICAgPHN1cHBvcnRlZE9TIElkPSJ7ezhlMGY3YTEyLWJmYjMtNGZlOC1iOWE1LTQ4ZmQ1MGExNWE5YX19IiAvPgogICAgPC9hcHBsaWNhdGlvbj4KICA8L2NvbXBhdGliaWxpdHk+CiAgPGFwcGxpY2F0aW9uIHhtbG5zPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOmFzbS52MyI+CiAgICA8d2luZG93c1NldHRpbmdzPgogICAgICA8ZHBpQXdhcmUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vU01JLzIwMDUvV2luZG93c1NldHRpbmdzIj50cnVlL3BtPC9kcGlBd2FyZT4KICAgICAgPGRwaUF3YXJlbmVzcyB4bWxucz0iaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS9TTUkvMjAxNi9XaW5kb3dzU2V0dGluZ3MiPlBlck1vbml0b3JWMiwgUGVyTW9uaXRvcjwvZHBpQXdhcmVuZXNzPgogICAgPC93aW5kb3dzU2V0dGluZ3M+CiAgPC9hcHBsaWNhdGlvbj4KPC9hc3NlbWJseT4iIwogICAgICAgICk7CiAgICAgICAgbGV0IG11dCByZXNvdXJjZXMgPSB3aW5yZXM6OldpbmRvd3NSZXNvdXJjZTo6bmV3KCk7CiAgICAgICAgcmVzb3VyY2VzLnNldF9tYW5pZmVzdCgmbWFuaWZlc3QpOwogICAgICAgIHJlc291cmNlcy5zZXRfaWNvbigiYXNzZXRzL2ljb24uaWNvIik7CiAgICAgICAgcmVzb3VyY2VzCiAgICAgICAgICAgIC5zZXQoIlByb2R1Y3ROYW1lIiwgIktub2NrIOaVsumXqCIpCiAgICAgICAgICAgIC5zZXQoIkNvbXBhbnlOYW1lIiwgIktDSS1MTksgQ29ycG9yYXRpb24iKQogICAgICAgICAgICAuc2V0KCJMZWdhbENvcHlyaWdodCIsICJDb3B5cmlnaHQgwqkgS0NJLUxOSyBDb3Jwb3JhdGlvbiIpCiAgICAgICAgICAgIC5zZXQoIkZpbGVEZXNjcmlwdGlvbiIsICJLbm9jayDmlbLpl6ggV2luZG93cyDnrqHnkIbnqIvluo8iKQogICAgICAgICAgICAuc2V0KCJPcmlnaW5hbEZpbGVuYW1lIiwgImZuLWtub2NrLmV4ZSIpOwogICAgICAgIHJlc291cmNlcwogICAgICAgICAgICAuY29tcGlsZSgpCiAgICAgICAgICAgIC5leHBlY3QoImZhaWxlZCB0byBjb21waWxlIFdpbmRvd3MgcmVzb3VyY2VzIik7CiAgICB9Cn0K
+use std::{
+    env, fs,
+    path::{Path, PathBuf},
+};
+
+fn load_control_api_version(path: &Path) -> u64 {
+    let source = fs::read_to_string(path)
+        .unwrap_or_else(|error| panic!("failed to read {}: {error}", path.display()));
+    source
+        .lines()
+        .filter_map(|line| line.split("//").next())
+        .map(str::trim)
+        .find_map(|line| {
+            line.strip_prefix("CONTROL_API_VERSION_CURRENT")?
+                .trim()
+                .strip_prefix('=')?
+                .trim()
+                .strip_suffix(';')?
+                .trim()
+                .parse::<u64>()
+                .ok()
+        })
+        .filter(|value| *value > 0)
+        .unwrap_or_else(|| {
+            panic!(
+                "{} must define a positive CONTROL_API_VERSION_CURRENT",
+                path.display()
+            )
+        })
+}
+
+fn validate_windows_bundle_identity(manifest_dir: &Path, expected_control_api_version: u64) {
+    if !env::var("TARGET").is_ok_and(|target| target.contains("windows")) {
+        return;
+    }
+    let path = manifest_dir.join("../bundle/windows/runtime/bundle.json");
+    println!("cargo:rerun-if-changed={}", path.display());
+    let bytes = fs::read(&path).unwrap_or_else(|error| {
+        panic!(
+            "Windows runtime bundle identity is missing at {}: {error}; run npm run fn-knock:windows:prepare from the repository root",
+            path.display()
+        )
+    });
+    let document: serde_json::Value = serde_json::from_slice(&bytes)
+        .unwrap_or_else(|error| panic!("invalid Windows runtime bundle identity: {error}"));
+    for field in ["commit", "gateway_commit"] {
+        let value = document[field].as_str().unwrap_or_default();
+        assert!(
+            value.len() == 40 && value.bytes().all(|byte| byte.is_ascii_hexdigit()),
+            "Windows runtime bundle identity has an invalid or missing {field}; run npm run fn-knock:windows:prepare from the repository root"
+        );
+    }
+    assert_eq!(
+        document["control_api_version"].as_u64(),
+        Some(expected_control_api_version),
+        "Windows runtime bundle identity has an invalid or missing control_api_version; run npm run fn-knock:windows:prepare from the repository root"
+    );
+}
+
+fn main() {
+    let manifest_dir = PathBuf::from(env::var("CARGO_MANIFEST_DIR").expect("CARGO_MANIFEST_DIR"));
+    let contract_file =
+        manifest_dir.join("../../../packages/grpc-contracts/proto/fnknock/v1/gateway.proto");
+    println!("cargo:rerun-if-changed={}", contract_file.display());
+    let control_api_version = load_control_api_version(&contract_file);
+    let out_dir = PathBuf::from(env::var("OUT_DIR").expect("OUT_DIR"));
+    fs::write(
+        out_dir.join("control_api_version.rs"),
+        format!("const EXPECTED_CONTROL_API_VERSION: u64 = {control_api_version};\n"),
+    )
+    .expect("write generated control API version");
+
+    validate_windows_bundle_identity(&manifest_dir, control_api_version);
+    if env::var("CARGO_CFG_TARGET_OS").as_deref() == Ok("windows") {
+        let execution_level = if env::var("PROFILE").as_deref() == Ok("release") {
+            "requireAdministrator"
+        } else {
+            "asInvoker"
+        };
+        let manifest = format!(
+            r#"<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity
+        type="win32"
+        name="Microsoft.Windows.Common-Controls"
+        version="6.0.0.0"
+        processorArchitecture="*"
+        publicKeyToken="6595b64144ccf1df"
+        language="*" />
+    </dependentAssembly>
+  </dependency>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security><requestedPrivileges>
+      <requestedExecutionLevel level="{execution_level}" uiAccess="false" />
+    </requestedPrivileges></security>
+  </trustInfo>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <supportedOS Id="{{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}}" />
+    </application>
+  </compatibility>
+  <application xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings>
+      <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true/pm</dpiAware>
+      <dpiAwareness xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">PerMonitorV2, PerMonitor</dpiAwareness>
+    </windowsSettings>
+  </application>
+</assembly>"#
+        );
+        let mut resources = winres::WindowsResource::new();
+        resources.set_manifest(&manifest);
+        resources.set_icon("assets/icon.ico");
+        resources
+            .set("ProductName", "Knock 敲门")
+            .set("CompanyName", "KCI-LNK Corporation")
+            .set("LegalCopyright", "Copyright © KCI-LNK Corporation")
+            .set("FileDescription", "Knock 敲门 Windows 管理程序")
+            .set("OriginalFilename", "fn-knock.exe");
+        resources
+            .compile()
+            .expect("failed to compile Windows resources");
+    }
+}

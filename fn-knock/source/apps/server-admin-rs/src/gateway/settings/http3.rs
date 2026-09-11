@@ -1,1 +1,87 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBodHRwM19jb25maWcodmFsdWU6ICZWYWx1ZSkgLT4gUmVzdWx0PFZhbHVlLCBTdHJpbmc+IHsKICAgIGxldCBlbmFibGVkID0gdmFsdWUKICAgICAgICAuZ2V0KCJlbmFibGVkIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgLm9rX29yX2Vsc2UofHwgIkhUVFAvMyBlbmFibGVkIG11c3QgYmUgYSBib29sZWFuIi50b19zdHJpbmcoKSk/OwogICAgbGV0IHBvcnQgPSBtYXRjaCB2YWx1ZS5nZXQoImFkdmVydGlzZWRfcG9ydCIpIHsKICAgICAgICBOb25lIHwgU29tZShWYWx1ZTo6TnVsbCkgPT4gMCwKICAgICAgICBTb21lKHBvcnQpID0+IHBvcnQKICAgICAgICAgICAgLmFzX3U2NCgpCiAgICAgICAgICAgIC5maWx0ZXIofHBvcnR8ICpwb3J0IDw9IDY1NTM1KQogICAgICAgICAgICAub2tfb3JfZWxzZSh8fCAiSFRUUC8zIGFkdmVydGlzZWRfcG9ydCBtdXN0IGJlIGJldHdlZW4gMCBhbmQgNjU1MzUiLnRvX3N0cmluZygpKT8sCiAgICB9OwogICAgT2soanNvbiEoeyJlbmFibGVkIjogZW5hYmxlZCwgImFkdmVydGlzZWRfcG9ydCI6IHBvcnR9KSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzeW5jX2h0dHAzKHN0YXRlOiAmQXBwU3RhdGUsIGNvbmZpZzogJlZhbHVlKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgbGV0IGNvbmZpZyA9IGh0dHAzX2NvbmZpZygKICAgICAgICBjb25maWcKICAgICAgICAgICAgLmdldCgiZ2F0ZXdheV9odHRwMyIpCiAgICAgICAgICAgIC51bndyYXBfb3IoJmpzb24hKHsiZW5hYmxlZCI6ZmFsc2V9KSksCiAgICApPzsKICAgIHN0YXRlCiAgICAgICAgLmdhdGV3YXkKICAgICAgICAuY2xpZW50CiAgICAgICAgLnNldF9nYXRld2F5X2h0dHAzKCZjb25maWcpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcCh8X3wgKCkpCiAgICAgICAgLm1hcF9lcnIofGV8IGUudG9fc3RyaW5nKCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gdXBkYXRlX2h0dHAzKHN0YXRlOiAmQXBwU3RhdGUsIGNvbmZpZzogVmFsdWUpIC0+IFJlc3VsdDxWYWx1ZSwgU3RyaW5nPiB7CiAgICBsZXQgbm9ybWFsaXplZCA9IGh0dHAzX2NvbmZpZygmY29uZmlnKT87CiAgICBwcm94eV9jb25maWc6OndpdGhfaG9zdF9tYXBwaW5nc19ydW50aW1lX3RyYW5zYWN0aW9uKHN0YXRlLCBtb3ZlIHxzdGF0ZXwgYXN5bmMgbW92ZSB7CiAgICAgICAgbGV0IHByZXZpb3VzID0gc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5nZXRfY29uZmlnKCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKHxlfCBlLnRvX3N0cmluZygpKT87CiAgICAgICAgc3RhdGUKICAgICAgICAgICAgLmdhdGV3YXkKICAgICAgICAgICAgLmNsaWVudAogICAgICAgICAgICAuc2V0X2dhdGV3YXlfaHR0cDMoJm5vcm1hbGl6ZWQpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXwgZS50b19zdHJpbmcoKSk/OwogICAgICAgIGxldCBtdXQgbmV4dCA9IHByZXZpb3VzLmNsb25lKCk7CiAgICAgICAgZW5zdXJlX29iamVjdCgmbXV0IG5leHQpLmluc2VydCgiZ2F0ZXdheV9odHRwMyIudG9fc3RyaW5nKCksIG5vcm1hbGl6ZWQpOwogICAgICAgIGlmIGxldCBFcnIoZXJyb3IpID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5zYXZlX2NvbmZpZygmbmV4dCkuYXdhaXQgewogICAgICAgICAgICBsZXQgcm9sbGJhY2sgPSBzeW5jX2h0dHAzKCZzdGF0ZSwgJnByZXZpb3VzKS5hd2FpdDsKICAgICAgICAgICAgcmV0dXJuIEVycihtYXRjaCByb2xsYmFjayB7CiAgICAgICAgICAgICAgICBPaygoKSkgPT4gZXJyb3IudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICBFcnIocm9sbGJhY2spID0+IGZvcm1hdCEoIntlcnJvcn07IEhUVFAvMyByb2xsYmFjayBmYWlsZWQ6IHtyb2xsYmFja30iKSwKICAgICAgICAgICAgfSk7CiAgICAgICAgfQogICAgICAgIE9rKCgpKQogICAgfSkKICAgIC5hd2FpdD87CiAgICBzdGF0ZQogICAgICAgIC5nYXRld2F5CiAgICAgICAgLmNsaWVudAogICAgICAgIC5nZXRfZ2F0ZXdheV9odHRwMygpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIofGV8IGUudG9fc3RyaW5nKCkpCn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwogICAgI1t0ZXN0XQogICAgZm4gdmFsaWRhdGVzX2h0dHAzX3BvcnRfYW5kX2VuYWJsZWQoKSB7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgaHR0cDNfY29uZmlnKCZqc29uISh7ImVuYWJsZWQiOmZhbHNlfSkpLnVud3JhcCgpLAogICAgICAgICAgICBqc29uISh7ImVuYWJsZWQiOmZhbHNlLCJhZHZlcnRpc2VkX3BvcnQiOjB9KQogICAgICAgICk7CiAgICAgICAgZm9yIHZhbHVlIGluIFsKICAgICAgICAgICAganNvbiEoeyJlbmFibGVkIjoidHJ1ZSJ9KSwKICAgICAgICAgICAganNvbiEoeyJlbmFibGVkIjp0cnVlLCJhZHZlcnRpc2VkX3BvcnQiOjY1NTM2fSksCiAgICAgICAgICAgIGpzb24hKHsiZW5hYmxlZCI6dHJ1ZSwiYWR2ZXJ0aXNlZF9wb3J0IjotMX0pLAogICAgICAgICAgICBqc29uISh7ImVuYWJsZWQiOnRydWUsImFkdmVydGlzZWRfcG9ydCI6NDQzLjV9KSwKICAgICAgICBdIHsKICAgICAgICAgICAgYXNzZXJ0IShodHRwM19jb25maWcoJnZhbHVlKS5pc19lcnIoKSk7CiAgICAgICAgfQogICAgICAgIGFzc2VydCEoaHR0cDNfY29uZmlnKCZqc29uISh7ImVuYWJsZWQiOnRydWUsImFkdmVydGlzZWRfcG9ydCI6NDQzfSkpLmlzX29rKCkpOwogICAgfQp9Cg==
+use super::*;
+
+pub(super) fn http3_config(value: &Value) -> Result<Value, String> {
+    let enabled = value
+        .get("enabled")
+        .and_then(Value::as_bool)
+        .ok_or_else(|| "HTTP/3 enabled must be a boolean".to_string())?;
+    let port = match value.get("advertised_port") {
+        None | Some(Value::Null) => 0,
+        Some(port) => port
+            .as_u64()
+            .filter(|port| *port <= 65535)
+            .ok_or_else(|| "HTTP/3 advertised_port must be between 0 and 65535".to_string())?,
+    };
+    Ok(json!({"enabled": enabled, "advertised_port": port}))
+}
+
+pub(super) async fn sync_http3(state: &AppState, config: &Value) -> Result<(), String> {
+    let config = http3_config(
+        config
+            .get("gateway_http3")
+            .unwrap_or(&json!({"enabled":false})),
+    )?;
+    state
+        .gateway
+        .client
+        .set_gateway_http3(&config)
+        .await
+        .map(|_| ())
+        .map_err(|e| e.to_string())
+}
+
+pub(super) async fn update_http3(state: &AppState, config: Value) -> Result<Value, String> {
+    let normalized = http3_config(&config)?;
+    proxy_config::with_host_mappings_runtime_transaction(state, move |state| async move {
+        let previous = state
+            .storage
+            .store
+            .get_config()
+            .await
+            .map_err(|e| e.to_string())?;
+        state
+            .gateway
+            .client
+            .set_gateway_http3(&normalized)
+            .await
+            .map_err(|e| e.to_string())?;
+        let mut next = previous.clone();
+        ensure_object(&mut next).insert("gateway_http3".to_string(), normalized);
+        if let Err(error) = state.storage.store.save_config(&next).await {
+            let rollback = sync_http3(&state, &previous).await;
+            return Err(match rollback {
+                Ok(()) => error.to_string(),
+                Err(rollback) => format!("{error}; HTTP/3 rollback failed: {rollback}"),
+            });
+        }
+        Ok(())
+    })
+    .await?;
+    state
+        .gateway
+        .client
+        .get_gateway_http3()
+        .await
+        .map_err(|e| e.to_string())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    #[test]
+    fn validates_http3_port_and_enabled() {
+        assert_eq!(
+            http3_config(&json!({"enabled":false})).unwrap(),
+            json!({"enabled":false,"advertised_port":0})
+        );
+        for value in [
+            json!({"enabled":"true"}),
+            json!({"enabled":true,"advertised_port":65536}),
+            json!({"enabled":true,"advertised_port":-1}),
+            json!({"enabled":true,"advertised_port":443.5}),
+        ] {
+            assert!(http3_config(&value).is_err());
+        }
+        assert!(http3_config(&json!({"enabled":true,"advertised_port":443})).is_ok());
+    }
+}

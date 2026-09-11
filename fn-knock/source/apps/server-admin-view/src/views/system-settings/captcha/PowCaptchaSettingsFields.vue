@@ -1,1 +1,148 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IHsKICBTZWxlY3QsCiAgU2VsZWN0Q29udGVudCwKICBTZWxlY3RJdGVtLAogIFNlbGVjdFRyaWdnZXIsCiAgU2VsZWN0VmFsdWUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NlbGVjdCI7CmltcG9ydCB7CiAgZW5zdXJlVW5jb21tb25EaWZmaWN1bHR5QXRMZWFzdEJhc2UsCiAgaXNQb3dEaWZmaWN1bHR5UHJlc2V0LAogIFBPV19ESUZGSUNVTFRZX1NUQU5EQVJELAogIFBPV19ESUZGSUNVTFRZX1ZFUllfSEFSRCwKfSBmcm9tICJAL2xpYi9jYXB0Y2hhLXNldHRpbmdzIjsKaW1wb3J0IHR5cGUgeyBQb3dDYXB0Y2hhQ29uZmlnIH0gZnJvbSAiQGZyb250ZW5kLWNvcmUvY2FwdGNoYS90eXBlcyI7CmltcG9ydCBDYXB0Y2hhQ29uZmlnRmllbGQgZnJvbSAiLi9DYXB0Y2hhQ29uZmlnRmllbGQudnVlIjsKCmRlZmluZVByb3BzPHsgZGlzYWJsZWQ6IGJvb2xlYW4gfT4oKTsKY29uc3QgbW9kZWwgPSBkZWZpbmVNb2RlbDxQb3dDYXB0Y2hhQ29uZmlnPih7IHJlcXVpcmVkOiB0cnVlIH0pOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgYmFzZUZpZWxkSWQgPSAiY2FwdGNoYS1wb3ctYmFzZS1tYXgtbnVtYmVyIjsKY29uc3QgdW5jb21tb25GaWVsZElkID0gImNhcHRjaGEtcG93LXVuY29tbW9uLW1heC1udW1iZXIiOwoKY29uc3QgYmFzZURpZmZpY3VsdHlTZWxlY3Rpb24gPSBjb21wdXRlZCh7CiAgZ2V0OiAoKSA9PiBTdHJpbmcobW9kZWwudmFsdWUuYmFzZV9tYXhfbnVtYmVyKSwKICBzZXQ6ICh2YWx1ZTogc3RyaW5nKSA9PiB7CiAgICBjb25zdCBkaWZmaWN1bHR5ID0gTnVtYmVyKHZhbHVlKTsKICAgIGlmICghaXNQb3dEaWZmaWN1bHR5UHJlc2V0KGRpZmZpY3VsdHkpKSByZXR1cm47CiAgICBtb2RlbC52YWx1ZS5iYXNlX21heF9udW1iZXIgPSBkaWZmaWN1bHR5OwogICAgbW9kZWwudmFsdWUudW5jb21tb25fbG9jYXRpb24ubWF4X251bWJlciA9CiAgICAgIGVuc3VyZVVuY29tbW9uRGlmZmljdWx0eUF0TGVhc3RCYXNlKAogICAgICAgIGRpZmZpY3VsdHksCiAgICAgICAgbW9kZWwudmFsdWUudW5jb21tb25fbG9jYXRpb24ubWF4X251bWJlciwKICAgICAgKTsKICB9LAp9KTsKCmNvbnN0IHVuY29tbW9uRGlmZmljdWx0eVNlbGVjdGlvbiA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IFN0cmluZyhtb2RlbC52YWx1ZS51bmNvbW1vbl9sb2NhdGlvbi5tYXhfbnVtYmVyKSwKICBzZXQ6ICh2YWx1ZTogc3RyaW5nKSA9PiB7CiAgICBjb25zdCBkaWZmaWN1bHR5ID0gTnVtYmVyKHZhbHVlKTsKICAgIGlmICgKICAgICAgIWlzUG93RGlmZmljdWx0eVByZXNldChkaWZmaWN1bHR5KSB8fAogICAgICBkaWZmaWN1bHR5IDwgbW9kZWwudmFsdWUuYmFzZV9tYXhfbnVtYmVyCiAgICApIHsKICAgICAgcmV0dXJuOwogICAgfQogICAgbW9kZWwudmFsdWUudW5jb21tb25fbG9jYXRpb24ubWF4X251bWJlciA9IGRpZmZpY3VsdHk7CiAgfSwKfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImRpdmlkZS15IGFuaW1hdGUtaW4gZmFkZS1pbiBzbGlkZS1pbi1mcm9tLXRvcC0yIGR1cmF0aW9uLTMwMCI+CiAgICA8Q2FwdGNoYUNvbmZpZ0ZpZWxkIGNvbnRyb2wtY2xhc3M9Im1kOnctWzMwMHB4XSI+CiAgICAgIDx0ZW1wbGF0ZSAjY29weT4KICAgICAgICA8TGFiZWwgY2xhc3M9InRleHQtYmFzZSIgOmZvcj0iYmFzZUZpZWxkSWQiPgogICAgICAgICAge3sgdCgiYWRtaW4uY2FwdGNoYVNldHRpbmdzLnBvd0Jhc2VEaWZmaWN1bHR5IikgfX0KICAgICAgICA8L0xhYmVsPgogICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gbGVhZGluZy1yZWxheGVkIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5jYXB0Y2hhU2V0dGluZ3MucG93QmFzZURpZmZpY3VsdHlEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9kaXY+CiAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDxTZWxlY3Qgdi1tb2RlbD0iYmFzZURpZmZpY3VsdHlTZWxlY3Rpb24iIDpkaXNhYmxlZD0iZGlzYWJsZWQiPgogICAgICAgIDxTZWxlY3RUcmlnZ2VyIDppZD0iYmFzZUZpZWxkSWQiIGNsYXNzPSJ3LWZ1bGwiPgogICAgICAgICAgPFNlbGVjdFZhbHVlIC8+CiAgICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgPFNlbGVjdEl0ZW0gOnZhbHVlPSJTdHJpbmcoUE9XX0RJRkZJQ1VMVFlfU1RBTkRBUkQpIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uY2FwdGNoYVNldHRpbmdzLnBvd0RpZmZpY3VsdHlTdGFuZGFyZCIpIH19CiAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICA8U2VsZWN0SXRlbSA6dmFsdWU9IlN0cmluZyhQT1dfRElGRklDVUxUWV9WRVJZX0hBUkQpIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uY2FwdGNoYVNldHRpbmdzLnBvd0RpZmZpY3VsdHlWZXJ5SGFyZCIpIH19CiAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICA8U2VsZWN0SXRlbQogICAgICAgICAgICB2LWlmPSIhaXNQb3dEaWZmaWN1bHR5UHJlc2V0KG1vZGVsLmJhc2VfbWF4X251bWJlcikiCiAgICAgICAgICAgIDp2YWx1ZT0iU3RyaW5nKG1vZGVsLmJhc2VfbWF4X251bWJlcikiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy5wb3dEaWZmaWN1bHR5Q3VzdG9tIikgfX0KICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgIDwvU2VsZWN0PgogICAgPC9DYXB0Y2hhQ29uZmlnRmllbGQ+CgogICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC00IHAtNiI+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSBwci02Ij4KICAgICAgICA8TGFiZWwKICAgICAgICAgIGZvcj0iY2FwdGNoYS1wb3ctdW5jb21tb24tbG9jYXRpb24iCiAgICAgICAgICBjbGFzcz0iY3Vyc29yLXBvaW50ZXIgdGV4dC1iYXNlIGZvbnQtbWVkaXVtIgogICAgICAgID4KICAgICAgICAgIHt7IHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy5wb3dVbmNvbW1vbkxvY2F0aW9uIikgfX0KICAgICAgICA8L0xhYmVsPgogICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gbGVhZGluZy1yZWxheGVkIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5jYXB0Y2hhU2V0dGluZ3MucG93VW5jb21tb25Mb2NhdGlvbkRlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxTd2l0Y2gKICAgICAgICBpZD0iY2FwdGNoYS1wb3ctdW5jb21tb24tbG9jYXRpb24iCiAgICAgICAgdi1tb2RlbD0ibW9kZWwudW5jb21tb25fbG9jYXRpb24uZW5hYmxlZCIKICAgICAgICA6ZGlzYWJsZWQ9ImRpc2FibGVkIgogICAgICAvPgogICAgPC9kaXY+CgogICAgPENhcHRjaGFDb25maWdGaWVsZAogICAgICB2LWlmPSJtb2RlbC51bmNvbW1vbl9sb2NhdGlvbi5lbmFibGVkIgogICAgICBjb250cm9sLWNsYXNzPSJtZDp3LVszMDBweF0iCiAgICAgIGNsYXNzPSJhbmltYXRlLWluIGZhZGUtaW4gc2xpZGUtaW4tZnJvbS10b3AtMiBkdXJhdGlvbi0zMDAiCiAgICA+CiAgICAgIDx0ZW1wbGF0ZSAjY29weT4KICAgICAgICA8TGFiZWwgY2xhc3M9InRleHQtYmFzZSIgOmZvcj0idW5jb21tb25GaWVsZElkIj4KICAgICAgICAgIHt7IHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy5wb3dVbmNvbW1vbkRpZmZpY3VsdHkiKSB9fQogICAgICAgIDwvTGFiZWw+CiAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSBsZWFkaW5nLXJlbGF4ZWQgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7IHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy5wb3dVbmNvbW1vbkRpZmZpY3VsdHlEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9kaXY+CiAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDxTZWxlY3Qgdi1tb2RlbD0idW5jb21tb25EaWZmaWN1bHR5U2VsZWN0aW9uIiA6ZGlzYWJsZWQ9ImRpc2FibGVkIj4KICAgICAgICA8U2VsZWN0VHJpZ2dlciA6aWQ9InVuY29tbW9uRmllbGRJZCIgY2xhc3M9InctZnVsbCI+CiAgICAgICAgICA8U2VsZWN0VmFsdWUgLz4KICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICA8U2VsZWN0SXRlbQogICAgICAgICAgICA6dmFsdWU9IlN0cmluZyhQT1dfRElGRklDVUxUWV9TVEFOREFSRCkiCiAgICAgICAgICAgIDpkaXNhYmxlZD0iUE9XX0RJRkZJQ1VMVFlfU1RBTkRBUkQgPCBtb2RlbC5iYXNlX21heF9udW1iZXIiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy5wb3dEaWZmaWN1bHR5U3RhbmRhcmQiKSB9fQogICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgPFNlbGVjdEl0ZW0KICAgICAgICAgICAgOnZhbHVlPSJTdHJpbmcoUE9XX0RJRkZJQ1VMVFlfVkVSWV9IQVJEKSIKICAgICAgICAgICAgOmRpc2FibGVkPSJQT1dfRElGRklDVUxUWV9WRVJZX0hBUkQgPCBtb2RlbC5iYXNlX21heF9udW1iZXIiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy5wb3dEaWZmaWN1bHR5VmVyeUhhcmQiKSB9fQogICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgPFNlbGVjdEl0ZW0KICAgICAgICAgICAgdi1pZj0iIWlzUG93RGlmZmljdWx0eVByZXNldChtb2RlbC51bmNvbW1vbl9sb2NhdGlvbi5tYXhfbnVtYmVyKSIKICAgICAgICAgICAgOnZhbHVlPSJTdHJpbmcobW9kZWwudW5jb21tb25fbG9jYXRpb24ubWF4X251bWJlcikiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy5wb3dEaWZmaWN1bHR5Q3VzdG9tIikgfX0KICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgIDwvU2VsZWN0PgogICAgPC9DYXB0Y2hhQ29uZmlnRmllbGQ+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
+  ensureUncommonDifficultyAtLeastBase,
+  isPowDifficultyPreset,
+  POW_DIFFICULTY_STANDARD,
+  POW_DIFFICULTY_VERY_HARD,
+} from "@/lib/captcha-settings";
+import type { PowCaptchaConfig } from "@frontend-core/captcha/types";
+import CaptchaConfigField from "./CaptchaConfigField.vue";
+
+defineProps<{ disabled: boolean }>();
+const model = defineModel<PowCaptchaConfig>({ required: true });
+const { t } = useI18n();
+const baseFieldId = "captcha-pow-base-max-number";
+const uncommonFieldId = "captcha-pow-uncommon-max-number";
+
+const baseDifficultySelection = computed({
+  get: () => String(model.value.base_max_number),
+  set: (value: string) => {
+    const difficulty = Number(value);
+    if (!isPowDifficultyPreset(difficulty)) return;
+    model.value.base_max_number = difficulty;
+    model.value.uncommon_location.max_number =
+      ensureUncommonDifficultyAtLeastBase(
+        difficulty,
+        model.value.uncommon_location.max_number,
+      );
+  },
+});
+
+const uncommonDifficultySelection = computed({
+  get: () => String(model.value.uncommon_location.max_number),
+  set: (value: string) => {
+    const difficulty = Number(value);
+    if (
+      !isPowDifficultyPreset(difficulty) ||
+      difficulty < model.value.base_max_number
+    ) {
+      return;
+    }
+    model.value.uncommon_location.max_number = difficulty;
+  },
+});
+</script>
+
+<template>
+  <div class="divide-y animate-in fade-in slide-in-from-top-2 duration-300">
+    <CaptchaConfigField control-class="md:w-[300px]">
+      <template #copy>
+        <Label class="text-base" :for="baseFieldId">
+          {{ t("admin.captchaSettings.powBaseDifficulty") }}
+        </Label>
+        <div class="text-sm leading-relaxed text-muted-foreground">
+          {{ t("admin.captchaSettings.powBaseDifficultyDescription") }}
+        </div>
+      </template>
+      <Select v-model="baseDifficultySelection" :disabled="disabled">
+        <SelectTrigger :id="baseFieldId" class="w-full">
+          <SelectValue />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem :value="String(POW_DIFFICULTY_STANDARD)">
+            {{ t("admin.captchaSettings.powDifficultyStandard") }}
+          </SelectItem>
+          <SelectItem :value="String(POW_DIFFICULTY_VERY_HARD)">
+            {{ t("admin.captchaSettings.powDifficultyVeryHard") }}
+          </SelectItem>
+          <SelectItem
+            v-if="!isPowDifficultyPreset(model.base_max_number)"
+            :value="String(model.base_max_number)"
+          >
+            {{ t("admin.captchaSettings.powDifficultyCustom") }}
+          </SelectItem>
+        </SelectContent>
+      </Select>
+    </CaptchaConfigField>
+
+    <div class="flex items-center justify-between gap-4 p-6">
+      <div class="space-y-1 pr-6">
+        <Label
+          for="captcha-pow-uncommon-location"
+          class="cursor-pointer text-base font-medium"
+        >
+          {{ t("admin.captchaSettings.powUncommonLocation") }}
+        </Label>
+        <div class="text-sm leading-relaxed text-muted-foreground">
+          {{ t("admin.captchaSettings.powUncommonLocationDescription") }}
+        </div>
+      </div>
+      <Switch
+        id="captcha-pow-uncommon-location"
+        v-model="model.uncommon_location.enabled"
+        :disabled="disabled"
+      />
+    </div>
+
+    <CaptchaConfigField
+      v-if="model.uncommon_location.enabled"
+      control-class="md:w-[300px]"
+      class="animate-in fade-in slide-in-from-top-2 duration-300"
+    >
+      <template #copy>
+        <Label class="text-base" :for="uncommonFieldId">
+          {{ t("admin.captchaSettings.powUncommonDifficulty") }}
+        </Label>
+        <div class="text-sm leading-relaxed text-muted-foreground">
+          {{ t("admin.captchaSettings.powUncommonDifficultyDescription") }}
+        </div>
+      </template>
+      <Select v-model="uncommonDifficultySelection" :disabled="disabled">
+        <SelectTrigger :id="uncommonFieldId" class="w-full">
+          <SelectValue />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem
+            :value="String(POW_DIFFICULTY_STANDARD)"
+            :disabled="POW_DIFFICULTY_STANDARD < model.base_max_number"
+          >
+            {{ t("admin.captchaSettings.powDifficultyStandard") }}
+          </SelectItem>
+          <SelectItem
+            :value="String(POW_DIFFICULTY_VERY_HARD)"
+            :disabled="POW_DIFFICULTY_VERY_HARD < model.base_max_number"
+          >
+            {{ t("admin.captchaSettings.powDifficultyVeryHard") }}
+          </SelectItem>
+          <SelectItem
+            v-if="!isPowDifficultyPreset(model.uncommon_location.max_number)"
+            :value="String(model.uncommon_location.max_number)"
+          >
+            {{ t("admin.captchaSettings.powDifficultyCustom") }}
+          </SelectItem>
+        </SelectContent>
+      </Select>
+    </CaptchaConfigField>
+  </div>
+</template>

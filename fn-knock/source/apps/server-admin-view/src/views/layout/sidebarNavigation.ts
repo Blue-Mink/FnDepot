@@ -1,1 +1,94 @@
-aW1wb3J0IHR5cGUgeyBDb21wb25lbnQgfSBmcm9tICJ2dWUiOwppbXBvcnQgdHlwZSB7IFNpZGViYXJOYXZJdGVtSWQgfSBmcm9tICJAL3R5cGVzIjsKCmV4cG9ydCBjb25zdCBERUZBVUxUX1NJREVCQVJfTUVOVV9PUkRFUjogcmVhZG9ubHkgU2lkZWJhck5hdkl0ZW1JZFtdID0gWwogICJkYXNoYm9hcmQiLAogICJyb3V0ZV9tYXBwaW5nIiwKICAidHVubmVsIiwKICAic2Vzc2lvbnMiLAogICJzc2xfY2VydGlmaWNhdGUiLAogICJkZG5zIiwKICAiYXV0aCIsCiAgInNzaF9zZWN1cml0eSIsCiAgImV2ZW50cyIsCiAgImdhdGV3YXlfcmVxdWVzdF9sb2dzIiwKICAid2ViX3Rlcm1pbmFsIiwKICAid29sIiwKICAic3lzdGVtX3NldHRpbmdzIiwKXTsKCmNvbnN0IFNJREVCQVJfTUVOVV9JRF9TRVQgPSBuZXcgU2V0PHN0cmluZz4oREVGQVVMVF9TSURFQkFSX01FTlVfT1JERVIpOwoKZXhwb3J0IGludGVyZmFjZSBTaWRlYmFyTmF2SXRlbSB7CiAgaWQ6IFNpZGViYXJOYXZJdGVtSWQ7CiAgbmFtZTogc3RyaW5nOwogIHBhdGg6IHN0cmluZzsKICBpY29uOiBDb21wb25lbnQ7Cn0KCmV4cG9ydCBjb25zdCBpc1NpZGViYXJOYXZJdGVtSWQgPSAodmFsdWU6IHVua25vd24pOiB2YWx1ZSBpcyBTaWRlYmFyTmF2SXRlbUlkID0+CiAgdHlwZW9mIHZhbHVlID09PSAic3RyaW5nIiAmJiBTSURFQkFSX01FTlVfSURfU0VULmhhcyh2YWx1ZSk7CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplU2lkZWJhck1lbnVPcmRlciA9ICgKICB2YWx1ZTogcmVhZG9ubHkgdW5rbm93bltdIHwgbnVsbCB8IHVuZGVmaW5lZCwKKTogU2lkZWJhck5hdkl0ZW1JZFtdID0+IHsKICBpZiAoIUFycmF5LmlzQXJyYXkodmFsdWUpKSByZXR1cm4gWy4uLkRFRkFVTFRfU0lERUJBUl9NRU5VX09SREVSXTsKCiAgY29uc3Qgc2VlbiA9IG5ldyBTZXQ8U2lkZWJhck5hdkl0ZW1JZD4oKTsKICBjb25zdCBub3JtYWxpemVkOiBTaWRlYmFyTmF2SXRlbUlkW10gPSBbXTsKICBmb3IgKGNvbnN0IGl0ZW0gb2YgdmFsdWUpIHsKICAgIGlmICghaXNTaWRlYmFyTmF2SXRlbUlkKGl0ZW0pIHx8IHNlZW4uaGFzKGl0ZW0pKSBjb250aW51ZTsKICAgIHNlZW4uYWRkKGl0ZW0pOwogICAgbm9ybWFsaXplZC5wdXNoKGl0ZW0pOwogIH0KICBmb3IgKGNvbnN0IGl0ZW0gb2YgREVGQVVMVF9TSURFQkFSX01FTlVfT1JERVIpIHsKICAgIGlmICghc2Vlbi5oYXMoaXRlbSkpIG5vcm1hbGl6ZWQucHVzaChpdGVtKTsKICB9CiAgaWYgKCFzZWVuLmhhcygid29sIikpIHsKICAgIGNvbnN0IHdvbEluZGV4ID0gbm9ybWFsaXplZC5pbmRleE9mKCJ3b2wiKTsKICAgIGlmICh3b2xJbmRleCA+PSAwKSBub3JtYWxpemVkLnNwbGljZSh3b2xJbmRleCwgMSk7CiAgICBjb25zdCBzZXR0aW5nc0luZGV4ID0gbm9ybWFsaXplZC5pbmRleE9mKCJzeXN0ZW1fc2V0dGluZ3MiKTsKICAgIG5vcm1hbGl6ZWQuc3BsaWNlKAogICAgICBzZXR0aW5nc0luZGV4ID49IDAgPyBzZXR0aW5nc0luZGV4IDogbm9ybWFsaXplZC5sZW5ndGgsCiAgICAgIDAsCiAgICAgICJ3b2wiLAogICAgKTsKICB9CiAgcmV0dXJuIG5vcm1hbGl6ZWQ7Cn07CgpleHBvcnQgY29uc3Qgb3JkZXJTaWRlYmFyTmF2SXRlbXMgPSA8VCBleHRlbmRzIFBpY2s8U2lkZWJhck5hdkl0ZW0sICJpZCI+PigKICBpdGVtczogcmVhZG9ubHkgVFtdLAogIG9yZGVyOiByZWFkb25seSB1bmtub3duW10gfCBudWxsIHwgdW5kZWZpbmVkLAopOiBUW10gPT4gewogIGNvbnN0IG5vcm1hbGl6ZWQgPSBub3JtYWxpemVTaWRlYmFyTWVudU9yZGVyKG9yZGVyKTsKICBjb25zdCByYW5rID0gbmV3IE1hcChub3JtYWxpemVkLm1hcCgoaWQsIGluZGV4KSA9PiBbaWQsIGluZGV4XSkpOwogIHJldHVybiBbLi4uaXRlbXNdLnNvcnQoCiAgICAobGVmdCwgcmlnaHQpID0+CiAgICAgIChyYW5rLmdldChsZWZ0LmlkKSA/PyBOdW1iZXIuTUFYX1NBRkVfSU5URUdFUikgLQogICAgICAocmFuay5nZXQocmlnaHQuaWQpID8/IE51bWJlci5NQVhfU0FGRV9JTlRFR0VSKSwKICApOwp9OwoKZXhwb3J0IGNvbnN0IG1lcmdlVmlzaWJsZVNpZGViYXJNZW51T3JkZXIgPSAoewogIGZ1bGxPcmRlciwKICBuZXh0VmlzaWJsZU9yZGVyLAp9OiB7CiAgZnVsbE9yZGVyOiByZWFkb25seSB1bmtub3duW10gfCBudWxsIHwgdW5kZWZpbmVkOwogIG5leHRWaXNpYmxlT3JkZXI6IHJlYWRvbmx5IFNpZGViYXJOYXZJdGVtSWRbXTsKfSk6IFNpZGViYXJOYXZJdGVtSWRbXSA9PiB7CiAgY29uc3Qgbm9ybWFsaXplZEZ1bGxPcmRlciA9IG5vcm1hbGl6ZVNpZGViYXJNZW51T3JkZXIoZnVsbE9yZGVyKTsKICBjb25zdCB2aXNpYmxlSWRzID0gbmV3IFNldChuZXh0VmlzaWJsZU9yZGVyKTsKICBsZXQgdmlzaWJsZUluZGV4ID0gMDsKCiAgcmV0dXJuIG5vcm1hbGl6ZWRGdWxsT3JkZXIubWFwKChpZCkgPT4KICAgIHZpc2libGVJZHMuaGFzKGlkKSA/IChuZXh0VmlzaWJsZU9yZGVyW3Zpc2libGVJbmRleCsrXSA/PyBpZCkgOiBpZCwKICApOwp9OwoKZXhwb3J0IGNvbnN0IGhhc1NhbWVTaWRlYmFyTWVudU9yZGVyID0gKAogIGxlZnQ6IHJlYWRvbmx5IFNpZGViYXJOYXZJdGVtSWRbXSwKICByaWdodDogcmVhZG9ubHkgU2lkZWJhck5hdkl0ZW1JZFtdLAopOiBib29sZWFuID0+CiAgbGVmdC5sZW5ndGggPT09IHJpZ2h0Lmxlbmd0aCAmJgogIGxlZnQuZXZlcnkoKGl0ZW0sIGluZGV4KSA9PiBpdGVtID09PSByaWdodFtpbmRleF0pOwo=
+import type { Component } from "vue";
+import type { SidebarNavItemId } from "@/types";
+
+export const DEFAULT_SIDEBAR_MENU_ORDER: readonly SidebarNavItemId[] = [
+  "dashboard",
+  "route_mapping",
+  "tunnel",
+  "sessions",
+  "ssl_certificate",
+  "ddns",
+  "auth",
+  "ssh_security",
+  "events",
+  "gateway_request_logs",
+  "web_terminal",
+  "wol",
+  "system_settings",
+];
+
+const SIDEBAR_MENU_ID_SET = new Set<string>(DEFAULT_SIDEBAR_MENU_ORDER);
+
+export interface SidebarNavItem {
+  id: SidebarNavItemId;
+  name: string;
+  path: string;
+  icon: Component;
+}
+
+export const isSidebarNavItemId = (value: unknown): value is SidebarNavItemId =>
+  typeof value === "string" && SIDEBAR_MENU_ID_SET.has(value);
+
+export const normalizeSidebarMenuOrder = (
+  value: readonly unknown[] | null | undefined,
+): SidebarNavItemId[] => {
+  if (!Array.isArray(value)) return [...DEFAULT_SIDEBAR_MENU_ORDER];
+
+  const seen = new Set<SidebarNavItemId>();
+  const normalized: SidebarNavItemId[] = [];
+  for (const item of value) {
+    if (!isSidebarNavItemId(item) || seen.has(item)) continue;
+    seen.add(item);
+    normalized.push(item);
+  }
+  for (const item of DEFAULT_SIDEBAR_MENU_ORDER) {
+    if (!seen.has(item)) normalized.push(item);
+  }
+  if (!seen.has("wol")) {
+    const wolIndex = normalized.indexOf("wol");
+    if (wolIndex >= 0) normalized.splice(wolIndex, 1);
+    const settingsIndex = normalized.indexOf("system_settings");
+    normalized.splice(
+      settingsIndex >= 0 ? settingsIndex : normalized.length,
+      0,
+      "wol",
+    );
+  }
+  return normalized;
+};
+
+export const orderSidebarNavItems = <T extends Pick<SidebarNavItem, "id">>(
+  items: readonly T[],
+  order: readonly unknown[] | null | undefined,
+): T[] => {
+  const normalized = normalizeSidebarMenuOrder(order);
+  const rank = new Map(normalized.map((id, index) => [id, index]));
+  return [...items].sort(
+    (left, right) =>
+      (rank.get(left.id) ?? Number.MAX_SAFE_INTEGER) -
+      (rank.get(right.id) ?? Number.MAX_SAFE_INTEGER),
+  );
+};
+
+export const mergeVisibleSidebarMenuOrder = ({
+  fullOrder,
+  nextVisibleOrder,
+}: {
+  fullOrder: readonly unknown[] | null | undefined;
+  nextVisibleOrder: readonly SidebarNavItemId[];
+}): SidebarNavItemId[] => {
+  const normalizedFullOrder = normalizeSidebarMenuOrder(fullOrder);
+  const visibleIds = new Set(nextVisibleOrder);
+  let visibleIndex = 0;
+
+  return normalizedFullOrder.map((id) =>
+    visibleIds.has(id) ? (nextVisibleOrder[visibleIndex++] ?? id) : id,
+  );
+};
+
+export const hasSameSidebarMenuOrder = (
+  left: readonly SidebarNavItemId[],
+  right: readonly SidebarNavItemId[],
+): boolean =>
+  left.length === right.length &&
+  left.every((item, index) => item === right[index]);

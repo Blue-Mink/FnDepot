@@ -1,1 +1,17 @@
-PHNjcmlwdCBsYW5nPSJ0cyIgc2V0dXA+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPG5hdgogICAgYXJpYS1sYWJlbD0iYnJlYWRjcnVtYiIKICAgIGRhdGEtc2xvdD0iYnJlYWRjcnVtYiIKICAgIDpjbGFzcz0icHJvcHMuY2xhc3MiCiAgPgogICAgPHNsb3QgLz4KICA8L25hdj4KPC90ZW1wbGF0ZT4K
+<script lang="ts" setup>
+import type { HTMLAttributes } from "vue"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <nav
+    aria-label="breadcrumb"
+    data-slot="breadcrumb"
+    :class="props.class"
+  >
+    <slot />
+  </nav>
+</template>

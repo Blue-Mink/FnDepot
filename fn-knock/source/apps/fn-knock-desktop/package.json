@@ -1,1 +1,15 @@
-ewogICJuYW1lIjogImZuLWtub2NrLWRlc2t0b3AiLAogICJwcml2YXRlIjogdHJ1ZSwKICAidmVyc2lvbiI6ICIyLjQuMTEiLAogICJ0eXBlIjogIm1vZHVsZSIsCiAgInNjcmlwdHMiOiB7CiAgICAiZGV2IjogImNhcmdvIHJ1biAtLW1hbmlmZXN0LXBhdGggbmF0aXZlL0NhcmdvLnRvbWwiLAogICAgImJ1aWxkIjogImVjaG8gTmF0aXZlIFdpbjMyIGNvbnRyb2xsZXIgcmVxdWlyZXMgbm8gd2ViIGZyb250ZW5kIiwKICAgICJjaGVjay10eXBlcyI6ICJjYXJnbyBjaGVjayAtLWxvY2tlZCAtLW1hbmlmZXN0LXBhdGggbmF0aXZlL0NhcmdvLnRvbWwiLAogICAgImNoZWNrLXR5cGVzOndpbmRvd3MiOiAiY2FyZ28gY2hlY2sgLS1sb2NrZWQgLS1tYW5pZmVzdC1wYXRoIG5hdGl2ZS9DYXJnby50b21sIC0tdGFyZ2V0IHg4Nl82NC1wYy13aW5kb3dzLW1zdmMiLAogICAgImJ1aWxkOm5hdGl2ZSI6ICJjYXJnbyBidWlsZCAtLWxvY2tlZCAtLXJlbGVhc2UgLS1tYW5pZmVzdC1wYXRoIG5hdGl2ZS9DYXJnby50b21sIC0tdGFyZ2V0IHg4Nl82NC1wYy13aW5kb3dzLW1zdmMiCiAgfSwKICAiZGVwZW5kZW5jaWVzIjoge30sCiAgImRldkRlcGVuZGVuY2llcyI6IHt9Cn0K
+{
+  "name": "fn-knock-desktop",
+  "private": true,
+  "version": "2.4.11",
+  "type": "module",
+  "scripts": {
+    "dev": "cargo run --manifest-path native/Cargo.toml",
+    "build": "echo Native Win32 controller requires no web frontend",
+    "check-types": "cargo check --locked --manifest-path native/Cargo.toml",
+    "check-types:windows": "cargo check --locked --manifest-path native/Cargo.toml --target x86_64-pc-windows-msvc",
+    "build:native": "cargo build --locked --release --manifest-path native/Cargo.toml --target x86_64-pc-windows-msvc"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

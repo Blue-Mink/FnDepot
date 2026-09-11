@@ -1,1 +1,277 @@
-Y29uc3QgQkFTRTY0OiAmW3U4XSA9CiAgICBiIkFCQ0RFRkdISUpLTE1OT1BRUlNUVVZXWFlaYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXowMTIzNDU2Nzg5Ky89IjsKY29uc3QgQ0xJUEJPQVJEX1NFTEVDVE9SOiAmW3U4XSA9IGIiY3BxczAxMjM0NTY3IjsKCnB1YiBzdHJ1Y3QgV3JhcHBlZFNjcmVlbjxDQjogY3JhdGU6OmNhbGxiYWNrczo6Q2FsbGJhY2tzID0gKCk+IHsKICAgIHB1YiBzY3JlZW46IGNyYXRlOjpzY3JlZW46OlNjcmVlbiwKICAgIHB1YiBjYWxsYmFja3M6IENCLAp9CgppbXBsIFdyYXBwZWRTY3JlZW48KCk+IHsKICAgIHB1YiBmbiBuZXcocm93czogdTE2LCBjb2xzOiB1MTYsIHNjcm9sbGJhY2tfbGVuOiB1c2l6ZSkgLT4gU2VsZiB7CiAgICAgICAgU2VsZjo6bmV3X3dpdGhfY2FsbGJhY2tzKHJvd3MsIGNvbHMsIHNjcm9sbGJhY2tfbGVuLCAoKSkKICAgIH0KfQoKaW1wbDxDQjogY3JhdGU6OmNhbGxiYWNrczo6Q2FsbGJhY2tzPiBXcmFwcGVkU2NyZWVuPENCPiB7CiAgICBwdWIgZm4gbmV3X3dpdGhfY2FsbGJhY2tzKAogICAgICAgIHJvd3M6IHUxNiwKICAgICAgICBjb2xzOiB1MTYsCiAgICAgICAgc2Nyb2xsYmFja19sZW46IHVzaXplLAogICAgICAgIGNhbGxiYWNrczogQ0IsCiAgICApIC0+IFNlbGYgewogICAgICAgIFNlbGYgewogICAgICAgICAgICBzY3JlZW46IGNyYXRlOjpzY3JlZW46OlNjcmVlbjo6bmV3KAogICAgICAgICAgICAgICAgY3JhdGU6OmdyaWQ6OlNpemUgeyByb3dzLCBjb2xzIH0sCiAgICAgICAgICAgICAgICBzY3JvbGxiYWNrX2xlbiwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgY2FsbGJhY2tzLAogICAgICAgIH0KICAgIH0KfQoKaW1wbDxDQjogY3JhdGU6OmNhbGxiYWNrczo6Q2FsbGJhY2tzPiB2dGU6OlBlcmZvcm0gZm9yIFdyYXBwZWRTY3JlZW48Q0I+IHsKICAgIGZuIHByaW50KCZtdXQgc2VsZiwgYzogY2hhcikgewogICAgICAgIGlmIGMgPT0gJ1x1e2ZmZmR9JyB8fCAoJ1x1ezgwfScuLidcdXthMH0nKS5jb250YWlucygmYykgewogICAgICAgICAgICBzZWxmLmNhbGxiYWNrcy51bmhhbmRsZWRfY2hhcigmbXV0IHNlbGYuc2NyZWVuLCBjKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBzZWxmLnNjcmVlbi50ZXh0KGMpOwogICAgICAgIH0KICAgIH0KCiAgICBmbiBleGVjdXRlKCZtdXQgc2VsZiwgYjogdTgpIHsKICAgICAgICBtYXRjaCBiIHsKICAgICAgICAgICAgNyA9PiBzZWxmLmNhbGxiYWNrcy5hdWRpYmxlX2JlbGwoJm11dCBzZWxmLnNjcmVlbiksCiAgICAgICAgICAgIDggPT4gc2VsZi5zY3JlZW4uYnMoKSwKICAgICAgICAgICAgOSA9PiBzZWxmLnNjcmVlbi50YWIoKSwKICAgICAgICAgICAgMTAgPT4gc2VsZi5zY3JlZW4ubGYoKSwKICAgICAgICAgICAgMTEgPT4gc2VsZi5zY3JlZW4udnQoKSwKICAgICAgICAgICAgMTIgPT4gc2VsZi5zY3JlZW4uZmYoKSwKICAgICAgICAgICAgMTMgPT4gc2VsZi5zY3JlZW4uY3IoKSwKICAgICAgICAgICAgLy8gd2UgZG9uJ3QgaW1wbGVtZW50IHNoaWZ0IGluL291dCBhbHRlcm5hdGUgY2hhcmFjdGVyIHNldHMsIGJ1dAogICAgICAgICAgICAvLyBpdCBzaG91bGRuJ3QgY291bnQgYXMgYW4gImVycm9yIgogICAgICAgICAgICAxNCB8IDE1ID0+IHt9CiAgICAgICAgICAgIF8gPT4gc2VsZi5jYWxsYmFja3MudW5oYW5kbGVkX2NvbnRyb2woJm11dCBzZWxmLnNjcmVlbiwgYiksCiAgICAgICAgfQogICAgfQoKICAgIGZuIGVzY19kaXNwYXRjaCgmbXV0IHNlbGYsIGludGVybWVkaWF0ZXM6ICZbdThdLCBfaWdub3JlOiBib29sLCBiOiB1OCkgewogICAgICAgIGlmIGxldCBTb21lKGkpID0gaW50ZXJtZWRpYXRlcy5maXJzdCgpIHsKICAgICAgICAgICAgc2VsZi5jYWxsYmFja3MudW5oYW5kbGVkX2VzY2FwZSgKICAgICAgICAgICAgICAgICZtdXQgc2VsZi5zY3JlZW4sCiAgICAgICAgICAgICAgICBTb21lKCppKSwKICAgICAgICAgICAgICAgIGludGVybWVkaWF0ZXMuZ2V0KDEpLmNvcGllZCgpLAogICAgICAgICAgICAgICAgYiwKICAgICAgICAgICAgKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBtYXRjaCBiIHsKICAgICAgICAgICAgICAgIGInNycgPT4gc2VsZi5zY3JlZW4uZGVjc2MoKSwKICAgICAgICAgICAgICAgIGInOCcgPT4gc2VsZi5zY3JlZW4uZGVjcmMoKSwKICAgICAgICAgICAgICAgIGInPScgPT4gc2VsZi5zY3JlZW4uZGVja3BhbSgpLAogICAgICAgICAgICAgICAgYic+JyA9PiBzZWxmLnNjcmVlbi5kZWNrcG5tKCksCiAgICAgICAgICAgICAgICBiJ00nID0+IHNlbGYuc2NyZWVuLnJpKCksCiAgICAgICAgICAgICAgICBiJ2MnID0+IHNlbGYuc2NyZWVuLnJpcygpLAogICAgICAgICAgICAgICAgYidnJyA9PiBzZWxmLmNhbGxiYWNrcy52aXN1YWxfYmVsbCgmbXV0IHNlbGYuc2NyZWVuKSwKICAgICAgICAgICAgICAgIF8gPT4gewogICAgICAgICAgICAgICAgICAgIHNlbGYuY2FsbGJhY2tzLnVuaGFuZGxlZF9lc2NhcGUoCiAgICAgICAgICAgICAgICAgICAgICAgICZtdXQgc2VsZi5zY3JlZW4sCiAgICAgICAgICAgICAgICAgICAgICAgIE5vbmUsCiAgICAgICAgICAgICAgICAgICAgICAgIE5vbmUsCiAgICAgICAgICAgICAgICAgICAgICAgIGIsCiAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmbiBjc2lfZGlzcGF0Y2goCiAgICAgICAgJm11dCBzZWxmLAogICAgICAgIHBhcmFtczogJnZ0ZTo6UGFyYW1zLAogICAgICAgIGludGVybWVkaWF0ZXM6ICZbdThdLAogICAgICAgIF9pZ25vcmU6IGJvb2wsCiAgICAgICAgYzogY2hhciwKICAgICkgewogICAgICAgIGxldCB1bmhhbmRsZWQgPSB8c2NyZWVuOiAmbXV0IGNyYXRlOjpzY3JlZW46OlNjcmVlbnwgewogICAgICAgICAgICBzZWxmLmNhbGxiYWNrcy51bmhhbmRsZWRfY3NpKAogICAgICAgICAgICAgICAgc2NyZWVuLAogICAgICAgICAgICAgICAgaW50ZXJtZWRpYXRlcy5maXJzdCgpLmNvcGllZCgpLAogICAgICAgICAgICAgICAgaW50ZXJtZWRpYXRlcy5nZXQoMSkuY29waWVkKCksCiAgICAgICAgICAgICAgICAmcGFyYW1zLml0ZXIoKS5jb2xsZWN0Ojo8VmVjPF8+PigpLAogICAgICAgICAgICAgICAgYywKICAgICAgICAgICAgKTsKICAgICAgICB9OwogICAgICAgIG1hdGNoIGludGVybWVkaWF0ZXMuZmlyc3QoKSB7CiAgICAgICAgICAgIE5vbmUgPT4gbWF0Y2ggYyB7CiAgICAgICAgICAgICAgICAnQCcgPT4gc2VsZi5zY3JlZW4uaWNoKGNhbm9uaWNhbGl6ZV9wYXJhbXNfMShwYXJhbXMsIDEpKSwKICAgICAgICAgICAgICAgICdBJyA9PiBzZWxmLnNjcmVlbi5jdXUoY2Fub25pY2FsaXplX3BhcmFtc18xKHBhcmFtcywgMSkpLAogICAgICAgICAgICAgICAgJ0InID0+IHNlbGYuc2NyZWVuLmN1ZChjYW5vbmljYWxpemVfcGFyYW1zXzEocGFyYW1zLCAxKSksCiAgICAgICAgICAgICAgICAnQycgPT4gc2VsZi5zY3JlZW4uY3VmKGNhbm9uaWNhbGl6ZV9wYXJhbXNfMShwYXJhbXMsIDEpKSwKICAgICAgICAgICAgICAgICdEJyA9PiBzZWxmLnNjcmVlbi5jdWIoY2Fub25pY2FsaXplX3BhcmFtc18xKHBhcmFtcywgMSkpLAogICAgICAgICAgICAgICAgJ0UnID0+IHNlbGYuc2NyZWVuLmNubChjYW5vbmljYWxpemVfcGFyYW1zXzEocGFyYW1zLCAxKSksCiAgICAgICAgICAgICAgICAnRicgPT4gc2VsZi5zY3JlZW4uY3BsKGNhbm9uaWNhbGl6ZV9wYXJhbXNfMShwYXJhbXMsIDEpKSwKICAgICAgICAgICAgICAgICdHJyA9PiBzZWxmLnNjcmVlbi5jaGEoY2Fub25pY2FsaXplX3BhcmFtc18xKHBhcmFtcywgMSkpLAogICAgICAgICAgICAgICAgJ0gnID0+IHNlbGYuc2NyZWVuLmN1cChjYW5vbmljYWxpemVfcGFyYW1zXzIocGFyYW1zLCAxLCAxKSksCiAgICAgICAgICAgICAgICAnSicgPT4gc2VsZgogICAgICAgICAgICAgICAgICAgIC5zY3JlZW4KICAgICAgICAgICAgICAgICAgICAuZWQoY2Fub25pY2FsaXplX3BhcmFtc18xKHBhcmFtcywgMCksIHVuaGFuZGxlZCksCiAgICAgICAgICAgICAgICAnSycgPT4gc2VsZgogICAgICAgICAgICAgICAgICAgIC5zY3JlZW4KICAgICAgICAgICAgICAgICAgICAuZWwoY2Fub25pY2FsaXplX3BhcmFtc18xKHBhcmFtcywgMCksIHVuaGFuZGxlZCksCiAgICAgICAgICAgICAgICAnTCcgPT4gc2VsZi5zY3JlZW4uaWwoY2Fub25pY2FsaXplX3BhcmFtc18xKHBhcmFtcywgMSkpLAogICAgICAgICAgICAgICAgJ00nID0+IHNlbGYuc2NyZWVuLmRsKGNhbm9uaWNhbGl6ZV9wYXJhbXNfMShwYXJhbXMsIDEpKSwKICAgICAgICAgICAgICAgICdQJyA9PiBzZWxmLnNjcmVlbi5kY2goY2Fub25pY2FsaXplX3BhcmFtc18xKHBhcmFtcywgMSkpLAogICAgICAgICAgICAgICAgJ1MnID0+IHNlbGYuc2NyZWVuLnN1KGNhbm9uaWNhbGl6ZV9wYXJhbXNfMShwYXJhbXMsIDEpKSwKICAgICAgICAgICAgICAgICdUJyA9PiBzZWxmLnNjcmVlbi5zZChjYW5vbmljYWxpemVfcGFyYW1zXzEocGFyYW1zLCAxKSksCiAgICAgICAgICAgICAgICAnWCcgPT4gc2VsZi5zY3JlZW4uZWNoKGNhbm9uaWNhbGl6ZV9wYXJhbXNfMShwYXJhbXMsIDEpKSwKICAgICAgICAgICAgICAgICdkJyA9PiBzZWxmLnNjcmVlbi52cGEoY2Fub25pY2FsaXplX3BhcmFtc18xKHBhcmFtcywgMSkpLAogICAgICAgICAgICAgICAgJ20nID0+IHNlbGYuc2NyZWVuLnNncihwYXJhbXMsIHVuaGFuZGxlZCksCiAgICAgICAgICAgICAgICAncicgPT4gc2VsZi5zY3JlZW4uZGVjc3RibShjYW5vbmljYWxpemVfcGFyYW1zX2RlY3N0Ym0oCiAgICAgICAgICAgICAgICAgICAgcGFyYW1zLAogICAgICAgICAgICAgICAgICAgIHNlbGYuc2NyZWVuLmdyaWQoKS5zaXplKCksCiAgICAgICAgICAgICAgICApKSwKICAgICAgICAgICAgICAgICd0JyA9PiB7CiAgICAgICAgICAgICAgICAgICAgbGV0IG11dCBwYXJhbXNfaXRlciA9IHBhcmFtcy5pdGVyKCk7CiAgICAgICAgICAgICAgICAgICAgbGV0IG9wID0KICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1zX2l0ZXIubmV4dCgpLmFuZF90aGVuKHx4fCB4LmZpcnN0KCkuY29waWVkKCkpOwogICAgICAgICAgICAgICAgICAgIGlmIG9wID09IFNvbWUoOCkgewogICAgICAgICAgICAgICAgICAgICAgICBsZXQgKHNjcmVlbl9yb3dzLCBzY3JlZW5fY29scykgPSBzZWxmLnNjcmVlbi5zaXplKCk7CiAgICAgICAgICAgICAgICAgICAgICAgIGxldCByb3dzID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtc19pdGVyLm5leHQoKS5tYXBfb3Ioc2NyZWVuX3Jvd3MsIHx4fCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKnguZmlyc3QoKS51bndyYXBfb3IoJnNjcmVlbl9yb3dzKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgICAgICAgICAgIGxldCBjb2xzID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtc19pdGVyLm5leHQoKS5tYXBfb3Ioc2NyZWVuX2NvbHMsIHx4fCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKnguZmlyc3QoKS51bndyYXBfb3IoJnNjcmVlbl9jb2xzKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYuY2FsbGJhY2tzLnJlc2l6ZSgmbXV0IHNlbGYuc2NyZWVuLCAocm93cywgY29scykpOwogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYuY2FsbGJhY2tzLnVuaGFuZGxlZF9jc2koCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAmbXV0IHNlbGYuc2NyZWVuLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgTm9uZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIE5vbmUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAmcGFyYW1zLml0ZXIoKS5jb2xsZWN0Ojo8VmVjPF8+PigpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYywKICAgICAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBfID0+IHsKICAgICAgICAgICAgICAgICAgICBzZWxmLmNhbGxiYWNrcy51bmhhbmRsZWRfY3NpKAogICAgICAgICAgICAgICAgICAgICAgICAmbXV0IHNlbGYuc2NyZWVuLAogICAgICAgICAgICAgICAgICAgICAgICBOb25lLAogICAgICAgICAgICAgICAgICAgICAgICBOb25lLAogICAgICAgICAgICAgICAgICAgICAgICAmcGFyYW1zLml0ZXIoKS5jb2xsZWN0Ojo8VmVjPF8+PigpLAogICAgICAgICAgICAgICAgICAgICAgICBjLAogICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIFNvbWUoYic/JykgPT4gbWF0Y2ggYyB7CiAgICAgICAgICAgICAgICAnSicgPT4gc2VsZgogICAgICAgICAgICAgICAgICAgIC5zY3JlZW4KICAgICAgICAgICAgICAgICAgICAuZGVjc2VkKGNhbm9uaWNhbGl6ZV9wYXJhbXNfMShwYXJhbXMsIDApLCB1bmhhbmRsZWQpLAogICAgICAgICAgICAgICAgJ0snID0+IHNlbGYKICAgICAgICAgICAgICAgICAgICAuc2NyZWVuCiAgICAgICAgICAgICAgICAgICAgLmRlY3NlbChjYW5vbmljYWxpemVfcGFyYW1zXzEocGFyYW1zLCAwKSwgdW5oYW5kbGVkKSwKICAgICAgICAgICAgICAgICdoJyA9PiBzZWxmLnNjcmVlbi5kZWNzZXQocGFyYW1zLCB1bmhhbmRsZWQpLAogICAgICAgICAgICAgICAgJ2wnID0+IHNlbGYuc2NyZWVuLmRlY3JzdChwYXJhbXMsIHVuaGFuZGxlZCksCiAgICAgICAgICAgICAgICBfID0+IHsKICAgICAgICAgICAgICAgICAgICBzZWxmLmNhbGxiYWNrcy51bmhhbmRsZWRfY3NpKAogICAgICAgICAgICAgICAgICAgICAgICAmbXV0IHNlbGYuc2NyZWVuLAogICAgICAgICAgICAgICAgICAgICAgICBTb21lKGInPycpLAogICAgICAgICAgICAgICAgICAgICAgICBpbnRlcm1lZGlhdGVzLmdldCgxKS5jb3BpZWQoKSwKICAgICAgICAgICAgICAgICAgICAgICAgJnBhcmFtcy5pdGVyKCkuY29sbGVjdDo6PFZlYzxfPj4oKSwKICAgICAgICAgICAgICAgICAgICAgICAgYywKICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICAgICBTb21lKGkpID0+IHsKICAgICAgICAgICAgICAgIHNlbGYuY2FsbGJhY2tzLnVuaGFuZGxlZF9jc2koCiAgICAgICAgICAgICAgICAgICAgJm11dCBzZWxmLnNjcmVlbiwKICAgICAgICAgICAgICAgICAgICBTb21lKCppKSwKICAgICAgICAgICAgICAgICAgICBpbnRlcm1lZGlhdGVzLmdldCgxKS5jb3BpZWQoKSwKICAgICAgICAgICAgICAgICAgICAmcGFyYW1zLml0ZXIoKS5jb2xsZWN0Ojo8VmVjPF8+PigpLAogICAgICAgICAgICAgICAgICAgIGMsCiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZuIG9zY19kaXNwYXRjaCgmbXV0IHNlbGYsIHBhcmFtczogJlsmW3U4XV0sIF9iZWxfdGVybWluYXRlZDogYm9vbCkgewogICAgICAgIG1hdGNoIHBhcmFtcyB7CiAgICAgICAgICAgIFtiIjAiLCBzXSA9PiB7CiAgICAgICAgICAgICAgICBzZWxmLmNhbGxiYWNrcy5zZXRfd2luZG93X2ljb25fbmFtZSgmbXV0IHNlbGYuc2NyZWVuLCBzKTsKICAgICAgICAgICAgICAgIHNlbGYuY2FsbGJhY2tzLnNldF93aW5kb3dfdGl0bGUoJm11dCBzZWxmLnNjcmVlbiwgcyk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgW2IiMSIsIHNdID0+IHsKICAgICAgICAgICAgICAgIHNlbGYuY2FsbGJhY2tzLnNldF93aW5kb3dfaWNvbl9uYW1lKCZtdXQgc2VsZi5zY3JlZW4sIHMpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIFtiIjIiLCBzXSA9PiB7CiAgICAgICAgICAgICAgICBzZWxmLmNhbGxiYWNrcy5zZXRfd2luZG93X3RpdGxlKCZtdXQgc2VsZi5zY3JlZW4sIHMpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIFtiIjUyIiwgdHksIGRhdGFdID0+IHsKICAgICAgICAgICAgICAgIG1hdGNoICgKICAgICAgICAgICAgICAgICAgICB0eS5pdGVyKCkuYWxsKHxjfCBDTElQQk9BUkRfU0VMRUNUT1IuY29udGFpbnMoYykpLAogICAgICAgICAgICAgICAgICAgICpkYXRhLAogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgKHRydWUsIGIiPyIpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5jYWxsYmFja3MKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5wYXN0ZV9mcm9tX2NsaXBib2FyZCgmbXV0IHNlbGYuc2NyZWVuLCB0eSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICh0cnVlLCBkYXRhKQogICAgICAgICAgICAgICAgICAgICAgICBpZiBkYXRhLml0ZXIoKS5hbGwofGN8IEJBU0U2NC5jb250YWlucyhjKSkgPT4KICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYuY2FsbGJhY2tzLmNvcHlfdG9fY2xpcGJvYXJkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJm11dCBzZWxmLnNjcmVlbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGF0YSwKICAgICAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgXyA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYuY2FsbGJhY2tzCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAudW5oYW5kbGVkX29zYygmbXV0IHNlbGYuc2NyZWVuLCBwYXJhbXMpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBfID0+IHsKICAgICAgICAgICAgICAgIHNlbGYuY2FsbGJhY2tzLnVuaGFuZGxlZF9vc2MoJm11dCBzZWxmLnNjcmVlbiwgcGFyYW1zKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKZm4gY2Fub25pY2FsaXplX3BhcmFtc18xKHBhcmFtczogJnZ0ZTo6UGFyYW1zLCBkZWZhdWx0OiB1MTYpIC0+IHUxNiB7CiAgICBsZXQgZmlyc3QgPSBwYXJhbXMuaXRlcigpLm5leHQoKS5tYXBfb3IoMCwgfHh8ICp4LmZpcnN0KCkudW53cmFwX29yKCYwKSk7CiAgICBpZiBmaXJzdCA9PSAwIHsKICAgICAgICBkZWZhdWx0CiAgICB9IGVsc2UgewogICAgICAgIGZpcnN0CiAgICB9Cn0KCmZuIGNhbm9uaWNhbGl6ZV9wYXJhbXNfMigKICAgIHBhcmFtczogJnZ0ZTo6UGFyYW1zLAogICAgZGVmYXVsdDE6IHUxNiwKICAgIGRlZmF1bHQyOiB1MTYsCikgLT4gKHUxNiwgdTE2KSB7CiAgICBsZXQgbXV0IGl0ZXIgPSBwYXJhbXMuaXRlcigpOwogICAgbGV0IGZpcnN0ID0gaXRlci5uZXh0KCkubWFwX29yKDAsIHx4fCAqeC5maXJzdCgpLnVud3JhcF9vcigmMCkpOwogICAgbGV0IGZpcnN0ID0gaWYgZmlyc3QgPT0gMCB7IGRlZmF1bHQxIH0gZWxzZSB7IGZpcnN0IH07CgogICAgbGV0IHNlY29uZCA9IGl0ZXIubmV4dCgpLm1hcF9vcigwLCB8eHwgKnguZmlyc3QoKS51bndyYXBfb3IoJjApKTsKICAgIGxldCBzZWNvbmQgPSBpZiBzZWNvbmQgPT0gMCB7IGRlZmF1bHQyIH0gZWxzZSB7IHNlY29uZCB9OwoKICAgIChmaXJzdCwgc2Vjb25kKQp9CgpmbiBjYW5vbmljYWxpemVfcGFyYW1zX2RlY3N0Ym0oCiAgICBwYXJhbXM6ICZ2dGU6OlBhcmFtcywKICAgIHNpemU6IGNyYXRlOjpncmlkOjpTaXplLAopIC0+ICh1MTYsIHUxNikgewogICAgbGV0IG11dCBpdGVyID0gcGFyYW1zLml0ZXIoKTsKICAgIGxldCB0b3AgPSBpdGVyLm5leHQoKS5tYXBfb3IoMCwgfHh8ICp4LmZpcnN0KCkudW53cmFwX29yKCYwKSk7CiAgICBsZXQgdG9wID0gaWYgdG9wID09IDAgeyAxIH0gZWxzZSB7IHRvcCB9OwoKICAgIGxldCBib3R0b20gPSBpdGVyLm5leHQoKS5tYXBfb3IoMCwgfHh8ICp4LmZpcnN0KCkudW53cmFwX29yKCYwKSk7CiAgICBsZXQgYm90dG9tID0gaWYgYm90dG9tID09IDAgeyBzaXplLnJvd3MgfSBlbHNlIHsgYm90dG9tIH07CgogICAgKHRvcCwgYm90dG9tKQp9Cg==
+const BASE64: &[u8] =
+    b"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+const CLIPBOARD_SELECTOR: &[u8] = b"cpqs01234567";
+
+pub struct WrappedScreen<CB: crate::callbacks::Callbacks = ()> {
+    pub screen: crate::screen::Screen,
+    pub callbacks: CB,
+}
+
+impl WrappedScreen<()> {
+    pub fn new(rows: u16, cols: u16, scrollback_len: usize) -> Self {
+        Self::new_with_callbacks(rows, cols, scrollback_len, ())
+    }
+}
+
+impl<CB: crate::callbacks::Callbacks> WrappedScreen<CB> {
+    pub fn new_with_callbacks(
+        rows: u16,
+        cols: u16,
+        scrollback_len: usize,
+        callbacks: CB,
+    ) -> Self {
+        Self {
+            screen: crate::screen::Screen::new(
+                crate::grid::Size { rows, cols },
+                scrollback_len,
+            ),
+            callbacks,
+        }
+    }
+}
+
+impl<CB: crate::callbacks::Callbacks> vte::Perform for WrappedScreen<CB> {
+    fn print(&mut self, c: char) {
+        if c == '\u{fffd}' || ('\u{80}'..'\u{a0}').contains(&c) {
+            self.callbacks.unhandled_char(&mut self.screen, c);
+        } else {
+            self.screen.text(c);
+        }
+    }
+
+    fn execute(&mut self, b: u8) {
+        match b {
+            7 => self.callbacks.audible_bell(&mut self.screen),
+            8 => self.screen.bs(),
+            9 => self.screen.tab(),
+            10 => self.screen.lf(),
+            11 => self.screen.vt(),
+            12 => self.screen.ff(),
+            13 => self.screen.cr(),
+            // we don't implement shift in/out alternate character sets, but
+            // it shouldn't count as an "error"
+            14 | 15 => {}
+            _ => self.callbacks.unhandled_control(&mut self.screen, b),
+        }
+    }
+
+    fn esc_dispatch(&mut self, intermediates: &[u8], _ignore: bool, b: u8) {
+        if let Some(i) = intermediates.first() {
+            self.callbacks.unhandled_escape(
+                &mut self.screen,
+                Some(*i),
+                intermediates.get(1).copied(),
+                b,
+            );
+        } else {
+            match b {
+                b'7' => self.screen.decsc(),
+                b'8' => self.screen.decrc(),
+                b'=' => self.screen.deckpam(),
+                b'>' => self.screen.deckpnm(),
+                b'M' => self.screen.ri(),
+                b'c' => self.screen.ris(),
+                b'g' => self.callbacks.visual_bell(&mut self.screen),
+                _ => {
+                    self.callbacks.unhandled_escape(
+                        &mut self.screen,
+                        None,
+                        None,
+                        b,
+                    );
+                }
+            }
+        }
+    }
+
+    fn csi_dispatch(
+        &mut self,
+        params: &vte::Params,
+        intermediates: &[u8],
+        _ignore: bool,
+        c: char,
+    ) {
+        let unhandled = |screen: &mut crate::screen::Screen| {
+            self.callbacks.unhandled_csi(
+                screen,
+                intermediates.first().copied(),
+                intermediates.get(1).copied(),
+                &params.iter().collect::<Vec<_>>(),
+                c,
+            );
+        };
+        match intermediates.first() {
+            None => match c {
+                '@' => self.screen.ich(canonicalize_params_1(params, 1)),
+                'A' => self.screen.cuu(canonicalize_params_1(params, 1)),
+                'B' => self.screen.cud(canonicalize_params_1(params, 1)),
+                'C' => self.screen.cuf(canonicalize_params_1(params, 1)),
+                'D' => self.screen.cub(canonicalize_params_1(params, 1)),
+                'E' => self.screen.cnl(canonicalize_params_1(params, 1)),
+                'F' => self.screen.cpl(canonicalize_params_1(params, 1)),
+                'G' => self.screen.cha(canonicalize_params_1(params, 1)),
+                'H' => self.screen.cup(canonicalize_params_2(params, 1, 1)),
+                'J' => self
+                    .screen
+                    .ed(canonicalize_params_1(params, 0), unhandled),
+                'K' => self
+                    .screen
+                    .el(canonicalize_params_1(params, 0), unhandled),
+                'L' => self.screen.il(canonicalize_params_1(params, 1)),
+                'M' => self.screen.dl(canonicalize_params_1(params, 1)),
+                'P' => self.screen.dch(canonicalize_params_1(params, 1)),
+                'S' => self.screen.su(canonicalize_params_1(params, 1)),
+                'T' => self.screen.sd(canonicalize_params_1(params, 1)),
+                'X' => self.screen.ech(canonicalize_params_1(params, 1)),
+                'd' => self.screen.vpa(canonicalize_params_1(params, 1)),
+                'm' => self.screen.sgr(params, unhandled),
+                'r' => self.screen.decstbm(canonicalize_params_decstbm(
+                    params,
+                    self.screen.grid().size(),
+                )),
+                't' => {
+                    let mut params_iter = params.iter();
+                    let op =
+                        params_iter.next().and_then(|x| x.first().copied());
+                    if op == Some(8) {
+                        let (screen_rows, screen_cols) = self.screen.size();
+                        let rows =
+                            params_iter.next().map_or(screen_rows, |x| {
+                                *x.first().unwrap_or(&screen_rows)
+                            });
+                        let cols =
+                            params_iter.next().map_or(screen_cols, |x| {
+                                *x.first().unwrap_or(&screen_cols)
+                            });
+                        self.callbacks.resize(&mut self.screen, (rows, cols));
+                    } else {
+                        self.callbacks.unhandled_csi(
+                            &mut self.screen,
+                            None,
+                            None,
+                            &params.iter().collect::<Vec<_>>(),
+                            c,
+                        );
+                    }
+                }
+                _ => {
+                    self.callbacks.unhandled_csi(
+                        &mut self.screen,
+                        None,
+                        None,
+                        &params.iter().collect::<Vec<_>>(),
+                        c,
+                    );
+                }
+            },
+            Some(b'?') => match c {
+                'J' => self
+                    .screen
+                    .decsed(canonicalize_params_1(params, 0), unhandled),
+                'K' => self
+                    .screen
+                    .decsel(canonicalize_params_1(params, 0), unhandled),
+                'h' => self.screen.decset(params, unhandled),
+                'l' => self.screen.decrst(params, unhandled),
+                _ => {
+                    self.callbacks.unhandled_csi(
+                        &mut self.screen,
+                        Some(b'?'),
+                        intermediates.get(1).copied(),
+                        &params.iter().collect::<Vec<_>>(),
+                        c,
+                    );
+                }
+            },
+            Some(i) => {
+                self.callbacks.unhandled_csi(
+                    &mut self.screen,
+                    Some(*i),
+                    intermediates.get(1).copied(),
+                    &params.iter().collect::<Vec<_>>(),
+                    c,
+                );
+            }
+        }
+    }
+
+    fn osc_dispatch(&mut self, params: &[&[u8]], _bel_terminated: bool) {
+        match params {
+            [b"0", s] => {
+                self.callbacks.set_window_icon_name(&mut self.screen, s);
+                self.callbacks.set_window_title(&mut self.screen, s);
+            }
+            [b"1", s] => {
+                self.callbacks.set_window_icon_name(&mut self.screen, s);
+            }
+            [b"2", s] => {
+                self.callbacks.set_window_title(&mut self.screen, s);
+            }
+            [b"52", ty, data] => {
+                match (
+                    ty.iter().all(|c| CLIPBOARD_SELECTOR.contains(c)),
+                    *data,
+                ) {
+                    (true, b"?") => {
+                        self.callbacks
+                            .paste_from_clipboard(&mut self.screen, ty);
+                    }
+                    (true, data)
+                        if data.iter().all(|c| BASE64.contains(c)) =>
+                    {
+                        self.callbacks.copy_to_clipboard(
+                            &mut self.screen,
+                            ty,
+                            data,
+                        );
+                    }
+                    _ => {
+                        self.callbacks
+                            .unhandled_osc(&mut self.screen, params);
+                    }
+                }
+            }
+            _ => {
+                self.callbacks.unhandled_osc(&mut self.screen, params);
+            }
+        }
+    }
+}
+
+fn canonicalize_params_1(params: &vte::Params, default: u16) -> u16 {
+    let first = params.iter().next().map_or(0, |x| *x.first().unwrap_or(&0));
+    if first == 0 {
+        default
+    } else {
+        first
+    }
+}
+
+fn canonicalize_params_2(
+    params: &vte::Params,
+    default1: u16,
+    default2: u16,
+) -> (u16, u16) {
+    let mut iter = params.iter();
+    let first = iter.next().map_or(0, |x| *x.first().unwrap_or(&0));
+    let first = if first == 0 { default1 } else { first };
+
+    let second = iter.next().map_or(0, |x| *x.first().unwrap_or(&0));
+    let second = if second == 0 { default2 } else { second };
+
+    (first, second)
+}
+
+fn canonicalize_params_decstbm(
+    params: &vte::Params,
+    size: crate::grid::Size,
+) -> (u16, u16) {
+    let mut iter = params.iter();
+    let top = iter.next().map_or(0, |x| *x.first().unwrap_or(&0));
+    let top = if top == 0 { 1 } else { top };
+
+    let bottom = iter.next().map_or(0, |x| *x.first().unwrap_or(&0));
+    let bottom = if bottom == 0 { size.rows } else { bottom };
+
+    (top, bottom)
+}

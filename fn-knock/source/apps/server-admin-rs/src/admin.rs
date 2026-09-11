@@ -1,1 +1,2 @@
-cHViKGNyYXRlKSBtb2QgY29udHJvbDsKcHViKGNyYXRlKSBtb2QgcGFuZWw7Cg==
+pub(crate) mod control;
+pub(crate) mod panel;

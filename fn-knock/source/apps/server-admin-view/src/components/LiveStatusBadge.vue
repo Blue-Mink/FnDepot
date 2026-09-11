@@ -1,1 +1,59 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKCmludGVyZmFjZSBQcm9wcyB7CiAgYWN0aXZlOiBib29sZWFuOwogIGFjdGl2ZUxhYmVsPzogc3RyaW5nOwogIGluYWN0aXZlTGFiZWw/OiBzdHJpbmc7CiAgcHVsc2U/OiBib29sZWFuOwogIHNpemU/OiAieHMiIHwgInNtIiB8ICJtZCI7CiAgY2xhc3M/OiBzdHJpbmc7Cn0KCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKGRlZmluZVByb3BzPFByb3BzPigpLCB7CiAgcHVsc2U6IHRydWUsCiAgc2l6ZTogInNtIiwKICBjbGFzczogIiIsCn0pOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IGxhYmVsID0gY29tcHV0ZWQoKCkgPT4KICBwcm9wcy5hY3RpdmUKICAgID8gKHByb3BzLmFjdGl2ZUxhYmVsID8/IHQoImNvbW1vbi5hY3RpdmUiKSkKICAgIDogKHByb3BzLmluYWN0aXZlTGFiZWwgPz8gdCgiY29tbW9uLmluYWN0aXZlIikpLAopOwpjb25zdCBkb3RDbGFzcyA9IGNvbXB1dGVkKCgpID0+CiAgcHJvcHMuYWN0aXZlCiAgICA/ICJiZy1lbWVyYWxkLTUwMCBzaGFkb3ctWzBfMF8wXzRweF9yZ2JhKDE2LDE4NSwxMjksMC4xNCldIgogICAgOiAiYmctemluYy0zMDAiLAopOwpjb25zdCBzaXplQ2xhc3MgPSBjb21wdXRlZCgoKSA9PiB7CiAgaWYgKHByb3BzLnNpemUgPT09ICJ4cyIpIHJldHVybiAiaC1bNnB4XSB3LVs2cHhdIjsKICBpZiAocHJvcHMuc2l6ZSA9PT0gIm1kIikgcmV0dXJuICJoLTIuNSB3LTIuNSI7CiAgcmV0dXJuICJoLTIgdy0yIjsKfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxzcGFuCiAgICA6YXJpYS1sYWJlbD0ibGFiZWwiCiAgICA6dGl0bGU9ImxhYmVsIgogICAgOmNsYXNzPSJbCiAgICAgICdyZWxhdGl2ZSBpbmxpbmUtZmxleCBzaHJpbmstMCBhbGlnbi1taWRkbGUnLAogICAgICBzaXplQ2xhc3MsCiAgICAgIHByb3BzLmNsYXNzLAogICAgXSIKICAgIHJvbGU9InN0YXR1cyIKICA+CiAgICA8c3BhbgogICAgICB2LWlmPSJhY3RpdmUgJiYgcHVsc2UiCiAgICAgIGNsYXNzPSJhYnNvbHV0ZSBpbnNldC0wIHJvdW5kZWQtZnVsbCBiZy1lbWVyYWxkLTQwMC84MCBhbmltYXRlLXBpbmciCiAgICAgIGFyaWEtaGlkZGVuPSJ0cnVlIgogICAgLz4KICAgIDxzcGFuCiAgICAgIDpjbGFzcz0iWydyZWxhdGl2ZSBpbmxpbmUtZmxleCByb3VuZGVkLWZ1bGwnLCBzaXplQ2xhc3MsIGRvdENsYXNzXSIKICAgICAgYXJpYS1oaWRkZW49InRydWUiCiAgICAvPgogIDwvc3Bhbj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+
+interface Props {
+  active: boolean;
+  activeLabel?: string;
+  inactiveLabel?: string;
+  pulse?: boolean;
+  size?: "xs" | "sm" | "md";
+  class?: string;
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  pulse: true,
+  size: "sm",
+  class: "",
+});
+
+const { t } = useI18n();
+const label = computed(() =>
+  props.active
+    ? (props.activeLabel ?? t("common.active"))
+    : (props.inactiveLabel ?? t("common.inactive")),
+);
+const dotClass = computed(() =>
+  props.active
+    ? "bg-emerald-500 shadow-[0_0_0_4px_rgba(16,185,129,0.14)]"
+    : "bg-zinc-300",
+);
+const sizeClass = computed(() => {
+  if (props.size === "xs") return "h-[6px] w-[6px]";
+  if (props.size === "md") return "h-2.5 w-2.5";
+  return "h-2 w-2";
+});
+</script>
+
+<template>
+  <span
+    :aria-label="label"
+    :title="label"
+    :class="[
+      'relative inline-flex shrink-0 align-middle',
+      sizeClass,
+      props.class,
+    ]"
+    role="status"
+  >
+    <span
+      v-if="active && pulse"
+      class="absolute inset-0 rounded-full bg-emerald-400/80 animate-ping"
+      aria-hidden="true"
+    />
+    <span
+      :class="['relative inline-flex rounded-full', sizeClass, dotClass]"
+      aria-hidden="true"
+    />
+  </span>
+</template>

@@ -1,1 +1,164 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwoKaW1wb3J0IHsKICBmb3JtYXRPcHRpbWl6YXRpb25EYXRlLAogIGZvcm1hdE9wdGltaXphdGlvbk51bWJlciwKICBvcHRpbWl6YXRpb25DYW5kaWRhdGVTb3VyY2VMYWJlbCwKICBvcHRpbWl6YXRpb25Eb21haW5NZXNzYWdlTGFiZWwsCiAgb3B0aW1pemF0aW9uUHJlZmVycmVkSXBFcnJvckxhYmVsLAogIG9wdGltaXphdGlvblJlc29sdmVyUHJvdmlkZXJMYWJlbCwKICBvcHRpbWl6YXRpb25SZXNvbHZlclBhdGhMYWJlbCwKICBvcHRpbWl6YXRpb25SZXNvbHZlclN0YXR1c0xhYmVsLAogIG9wdGltaXphdGlvblNjYW5FcnJvclByZXNlbnRhdGlvbiwKICBvcHRpbWl6YXRpb25Tb3VyY2VXYXJuaW5nTGFiZWwsCiAgcmVxdWlyZXNDbG91ZGZsYXJlU2Fhc1NldHVwLAp9IGZyb20gIi4uL3NyYy92aWV3cy90dW5uZWwvY2xvdWRmbGFyZS9jbG91ZGZsYXJlT3B0aW1pemF0aW9uUHJlc2VudGF0aW9uIjsKCmNvbnN0IHRyYW5zbGF0ZSA9ICgoa2V5OiBzdHJpbmcsIHZhbHVlcz86IFJlY29yZDxzdHJpbmcsIHVua25vd24+KSA9PgogIHZhbHVlcz8uZGV0YWlsCiAgICA/IGAke2tleX06JHtTdHJpbmcodmFsdWVzLmRldGFpbCl9YAogICAgOiB2YWx1ZXM/LnByb3ZpZGVycwogICAgICA/IGAke2tleX06JHtTdHJpbmcodmFsdWVzLnByb3ZpZGVycyl9YAogICAgICA6IGtleSkgYXMgUGFyYW1ldGVyczx0eXBlb2Ygb3B0aW1pemF0aW9uRG9tYWluTWVzc2FnZUxhYmVsPlsxXTsKCmRlc2NyaWJlKCJDbG91ZGZsYXJlIG9wdGltaXphdGlvbiBwcmVzZW50YXRpb24iLCAoKSA9PiB7CiAgaXQoImtlZXBzIG51bWVyaWMgYW5kIGxvY2FsZS1hd2FyZSBkYXRlIGZhbGxiYWNrcyBkZXRlcm1pbmlzdGljIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKGZvcm1hdE9wdGltaXphdGlvbk51bWJlcihOdW1iZXIuTmFOKSwgIi0iKTsKICAgIGFzc2VydC5lcXVhbChmb3JtYXRPcHRpbWl6YXRpb25OdW1iZXIoMTIuMzQ1LCAyKSwgIjEyLjM1Iik7CiAgICBhc3NlcnQuZXF1YWwoZm9ybWF0T3B0aW1pemF0aW9uRGF0ZSh1bmRlZmluZWQsICJlbi1VUyIpLCAiLSIpOwogICAgYXNzZXJ0LmVxdWFsKGZvcm1hdE9wdGltaXphdGlvbkRhdGUoIm5vdC1hLWRhdGUiLCAiZW4tVVMiKSwgIm5vdC1hLWRhdGUiKTsKICAgIGFzc2VydC5ub3RFcXVhbCgKICAgICAgZm9ybWF0T3B0aW1pemF0aW9uRGF0ZSgiMjAyNi0wMS0wMlQwMzowNDowNS4wMDBaIiwgImVuLVVTIiksCiAgICAgICIyMDI2LTAxLTAyVDAzOjA0OjA1LjAwMFoiLAogICAgKTsKICB9KTsKCiAgaXQoImRpc3Rpbmd1aXNoZXMgU2FhUyBlbnRpdGxlbWVudCBlcnJvcnMgZnJvbSBvcmRpbmFyeSByZWFkaW5lc3MiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHJlcXVpcmVzQ2xvdWRmbGFyZVNhYXNTZXR1cCgiY2xvdWRmbGFyZS1zYWFzLXJlcXVpcmVkIiwgbnVsbCksCiAgICAgIHRydWUsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICByZXF1aXJlc0Nsb3VkZmxhcmVTYWFzU2V0dXAoCiAgICAgICAgbnVsbCwKICAgICAgICAiTm8gcXVvdGEgaGFzIGJlZW4gYWxsb2NhdGVkIGZvciB0aGlzIGFjY291bnQuICgxNDA0KSIsCiAgICAgICksCiAgICAgIHRydWUsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICByZXF1aXJlc0Nsb3VkZmxhcmVTYWFzU2V0dXAoCiAgICAgICAgImNsb3VkZmxhcmUtc2Fhcy1yZXF1aXJlZCIsCiAgICAgICAgIk5vIGFjdGl2ZSBidXNpbmVzcyBvciBjYXBhYmlsaXR5IGhvc3RuYW1lIGlzIHJlYWR5IiwKICAgICAgKSwKICAgICAgZmFsc2UsCiAgICApOwogIH0pOwoKICBpdCgia2VlcHMgc2NhbiBlcnJvciBzZXZlcml0eSBhbmQgbG9jYWxpemF0aW9uIGluIG9uZSBwcmVzZW50YXRpb24gbW9kZWwiLCAoKSA9PiB7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBvcHRpbWl6YXRpb25TY2FuRXJyb3JQcmVzZW50YXRpb24oCiAgICAgICAgImNsb3VkZmxhcmUtc2Fhcy12YWxpZGF0aW9uLXBlbmRpbmciLAogICAgICAgICJwZW5kaW5nIiwKICAgICAgICB0cmFuc2xhdGUsCiAgICAgICksCiAgICAgIHsKICAgICAgICBtZXNzYWdlOgogICAgICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLmNsb3VkZmxhcmVTYWFzVmFsaWRhdGlvblBlbmRpbmdEZXNjcmlwdGlvbiIsCiAgICAgICAgbmV1dHJhbDogdHJ1ZSwKICAgICAgICB0aXRsZToKICAgICAgICAgICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5jbG91ZGZsYXJlU2Fhc1ZhbGlkYXRpb25QZW5kaW5nVGl0bGUiLAogICAgICB9LAogICAgKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIG9wdGltaXphdGlvblNjYW5FcnJvclByZXNlbnRhdGlvbihudWxsLCAidW5leHBlY3RlZCBmYWlsdXJlIiwgdHJhbnNsYXRlKSwKICAgICAgeyBtZXNzYWdlOiAidW5leHBlY3RlZCBmYWlsdXJlIiwgbmV1dHJhbDogZmFsc2UsIHRpdGxlOiAiIiB9LAogICAgKTsKICB9KTsKCiAgaXQoImxvY2FsaXplcyBzdHJ1Y3R1cmVkIGFuZCBsZWdhY3kgZG9tYWluIGRpYWdub3N0aWNzIiwgKCkgPT4gewogICAgY29uc3Qgc3RydWN0dXJlZCA9IHsKICAgICAgaG9zdG5hbWU6ICJhcHAuZXhhbXBsZS5jb20iLAogICAgICBtZXNzYWdlQ29kZTogInByZWZlcnJlZEVkZ2VQcm9iZUZhaWxlZCIsCiAgICAgIG1lc3NhZ2VEZXRhaWw6ICJIVFRQIDUzMCIsCiAgICB9IGFzIFBhcmFtZXRlcnM8dHlwZW9mIG9wdGltaXphdGlvbkRvbWFpbk1lc3NhZ2VMYWJlbD5bMF07CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIG9wdGltaXphdGlvbkRvbWFpbk1lc3NhZ2VMYWJlbChzdHJ1Y3R1cmVkLCB0cmFuc2xhdGUpLAogICAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uZG9tYWluTWVzc2FnZXMucHJlZmVycmVkRWRnZVByb2JlRmFpbGVkOkhUVFAgNTMwIiwKICAgICk7CgogICAgY29uc3QgbGVnYWN5ID0gewogICAgICBob3N0bmFtZTogImFwcC5leGFtcGxlLmNvbSIsCiAgICAgIG1lc3NhZ2U6ICJDdXN0b20gSG9zdG5hbWUgcXVvdGEgaXMgdW5hdmFpbGFibGU6IEFQSSB1bmF2YWlsYWJsZSIsCiAgICB9IGFzIFBhcmFtZXRlcnM8dHlwZW9mIG9wdGltaXphdGlvbkRvbWFpbk1lc3NhZ2VMYWJlbD5bMF07CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIG9wdGltaXphdGlvbkRvbWFpbk1lc3NhZ2VMYWJlbChsZWdhY3ksIHRyYW5zbGF0ZSksCiAgICAgICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5kb21haW5NZXNzYWdlcy5jdXN0b21Ib3N0bmFtZVF1b3RhVW5hdmFpbGFibGU6QVBJIHVuYXZhaWxhYmxlIiwKICAgICk7CiAgfSk7CgogIGl0KCJwcmVzZXJ2ZXMgY2FuZGlkYXRlLXNvdXJjZSB3YXJuaW5nIGRldGFpbHMiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIG9wdGltaXphdGlvbkNhbmRpZGF0ZVNvdXJjZUxhYmVsKAogICAgICAgIHsKICAgICAgICAgIHNvdXJjZUhvc3RuYW1lczogWyJ3d3cuZXhhbXBsZS5vcmciXSwKICAgICAgICAgIHNvdXJjZVR5cGVzOiBbIm9mZmljaWFsLXJhbmdlIiwgInByZWZlcnJlZC1pcCJdLAogICAgICAgIH0sCiAgICAgICAgdHJhbnNsYXRlLAogICAgICApLAogICAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uc291cmNlcy5wcmVmZXJyZWRJcFNob3J0IiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIG9wdGltaXphdGlvblNvdXJjZVdhcm5pbmdMYWJlbCgKICAgICAgICAiZWRnZS5leGFtcGxlLmNvbSAoY3VzdG9tKSBkaWQgbm90IHJlc29sdmUgdG8gYSB2ZXJpZmllZCBDbG91ZGZsYXJlIElQdjQgYWRkcmVzcyIsCiAgICAgICAgdHJhbnNsYXRlLAogICAgICApLAogICAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uc291cmNlcy51bnZlcmlmaWVkQWRkcmVzcyIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBvcHRpbWl6YXRpb25Tb3VyY2VXYXJuaW5nTGFiZWwoCiAgICAgICAgImVkZ2UuZXhhbXBsZS5jb206IEROUyB0aW1lb3V0IiwKICAgICAgICB0cmFuc2xhdGUsCiAgICAgICksCiAgICAgICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5zb3VyY2VzLnJlc29sdmVGYWlsZWQ6RE5TIHRpbWVvdXQiLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgb3B0aW1pemF0aW9uUHJlZmVycmVkSXBFcnJvckxhYmVsKAogICAgICAgICJQcmVmZXJyZWQgSVAgbXVzdCBiZSBhIHZhbGlkIElQdjQgYWRkcmVzcyIsCiAgICAgICAgdHJhbnNsYXRlLAogICAgICApLAogICAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24ucHJlZmVycmVkSXBJbnZhbGlkIiwKICAgICk7CiAgfSk7CgogIGl0KCJsb2NhbGl6ZXMgcmVzb2x2ZXIgcHJvdmlkZXIgYW5kIGhlYWx0aCBkaWFnbm9zdGljcyIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgb3B0aW1pemF0aW9uUmVzb2x2ZXJQcm92aWRlckxhYmVsKCJkbnNwb2QiLCB0cmFuc2xhdGUpLAogICAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uc291cmNlcy5yZXNvbHZlcnMuZG5zcG9kIiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIG9wdGltaXphdGlvblJlc29sdmVyU3RhdHVzTGFiZWwoImRlZ3JhZGVkIiwgdHJhbnNsYXRlKSwKICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnNvdXJjZXMucmVzb2x2ZXJTdGF0dXNlcy5kZWdyYWRlZCIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBvcHRpbWl6YXRpb25SZXNvbHZlclBhdGhMYWJlbCgibXVsdGktZG9oIiwgWyJETlNQb2QiXSwgdHJhbnNsYXRlKSwKICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnNvdXJjZXMucmVzb2x2ZXJQYXRoQXZhaWxhYmxlOkROU1BvZCIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBvcHRpbWl6YXRpb25SZXNvbHZlclBhdGhMYWJlbCgib2ZmaWNpYWwtcmFuZ2VzIiwgW10sIHRyYW5zbGF0ZSksCiAgICAgICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5zb3VyY2VzLnJlc29sdmVyUGF0aE9mZmljaWFsUmFuZ2VzIiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIG9wdGltaXphdGlvblJlc29sdmVyUGF0aExhYmVsKCJjdXJyZW50LWNhbmRpZGF0ZSIsIFtdLCB0cmFuc2xhdGUpLAogICAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uc291cmNlcy5yZXNvbHZlclBhdGhDdXJyZW50Q2FuZGlkYXRlIiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIG9wdGltaXphdGlvblJlc29sdmVyUGF0aExhYmVsKCJwcmVmZXJyZWQtaXAiLCBbXSwgdHJhbnNsYXRlKSwKICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLnNvdXJjZXMucmVzb2x2ZXJQYXRoUHJlZmVycmVkSXAiLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgb3B0aW1pemF0aW9uUmVzb2x2ZXJQYXRoTGFiZWwoInVuYXZhaWxhYmxlIiwgW10sIHRyYW5zbGF0ZSksCiAgICAgICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5zb3VyY2VzLnJlc29sdmVyUGF0aFVuYXZhaWxhYmxlIiwKICAgICk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import {
+  formatOptimizationDate,
+  formatOptimizationNumber,
+  optimizationCandidateSourceLabel,
+  optimizationDomainMessageLabel,
+  optimizationPreferredIpErrorLabel,
+  optimizationResolverProviderLabel,
+  optimizationResolverPathLabel,
+  optimizationResolverStatusLabel,
+  optimizationScanErrorPresentation,
+  optimizationSourceWarningLabel,
+  requiresCloudflareSaasSetup,
+} from "../src/views/tunnel/cloudflare/cloudflareOptimizationPresentation";
+
+const translate = ((key: string, values?: Record<string, unknown>) =>
+  values?.detail
+    ? `${key}:${String(values.detail)}`
+    : values?.providers
+      ? `${key}:${String(values.providers)}`
+      : key) as Parameters<typeof optimizationDomainMessageLabel>[1];
+
+describe("Cloudflare optimization presentation", () => {
+  it("keeps numeric and locale-aware date fallbacks deterministic", () => {
+    assert.equal(formatOptimizationNumber(Number.NaN), "-");
+    assert.equal(formatOptimizationNumber(12.345, 2), "12.35");
+    assert.equal(formatOptimizationDate(undefined, "en-US"), "-");
+    assert.equal(formatOptimizationDate("not-a-date", "en-US"), "not-a-date");
+    assert.notEqual(
+      formatOptimizationDate("2026-01-02T03:04:05.000Z", "en-US"),
+      "2026-01-02T03:04:05.000Z",
+    );
+  });
+
+  it("distinguishes SaaS entitlement errors from ordinary readiness", () => {
+    assert.equal(
+      requiresCloudflareSaasSetup("cloudflare-saas-required", null),
+      true,
+    );
+    assert.equal(
+      requiresCloudflareSaasSetup(
+        null,
+        "No quota has been allocated for this account. (1404)",
+      ),
+      true,
+    );
+    assert.equal(
+      requiresCloudflareSaasSetup(
+        "cloudflare-saas-required",
+        "No active business or capability hostname is ready",
+      ),
+      false,
+    );
+  });
+
+  it("keeps scan error severity and localization in one presentation model", () => {
+    assert.deepEqual(
+      optimizationScanErrorPresentation(
+        "cloudflare-saas-validation-pending",
+        "pending",
+        translate,
+      ),
+      {
+        message:
+          "admin.cloudflareTunnel.optimization.cloudflareSaasValidationPendingDescription",
+        neutral: true,
+        title:
+          "admin.cloudflareTunnel.optimization.cloudflareSaasValidationPendingTitle",
+      },
+    );
+    assert.deepEqual(
+      optimizationScanErrorPresentation(null, "unexpected failure", translate),
+      { message: "unexpected failure", neutral: false, title: "" },
+    );
+  });
+
+  it("localizes structured and legacy domain diagnostics", () => {
+    const structured = {
+      hostname: "app.example.com",
+      messageCode: "preferredEdgeProbeFailed",
+      messageDetail: "HTTP 530",
+    } as Parameters<typeof optimizationDomainMessageLabel>[0];
+    assert.equal(
+      optimizationDomainMessageLabel(structured, translate),
+      "admin.cloudflareTunnel.optimization.domainMessages.preferredEdgeProbeFailed:HTTP 530",
+    );
+
+    const legacy = {
+      hostname: "app.example.com",
+      message: "Custom Hostname quota is unavailable: API unavailable",
+    } as Parameters<typeof optimizationDomainMessageLabel>[0];
+    assert.equal(
+      optimizationDomainMessageLabel(legacy, translate),
+      "admin.cloudflareTunnel.optimization.domainMessages.customHostnameQuotaUnavailable:API unavailable",
+    );
+  });
+
+  it("preserves candidate-source warning details", () => {
+    assert.equal(
+      optimizationCandidateSourceLabel(
+        {
+          sourceHostnames: ["www.example.org"],
+          sourceTypes: ["official-range", "preferred-ip"],
+        },
+        translate,
+      ),
+      "admin.cloudflareTunnel.optimization.sources.preferredIpShort",
+    );
+    assert.equal(
+      optimizationSourceWarningLabel(
+        "edge.example.com (custom) did not resolve to a verified Cloudflare IPv4 address",
+        translate,
+      ),
+      "admin.cloudflareTunnel.optimization.sources.unverifiedAddress",
+    );
+    assert.equal(
+      optimizationSourceWarningLabel(
+        "edge.example.com: DNS timeout",
+        translate,
+      ),
+      "admin.cloudflareTunnel.optimization.sources.resolveFailed:DNS timeout",
+    );
+    assert.equal(
+      optimizationPreferredIpErrorLabel(
+        "Preferred IP must be a valid IPv4 address",
+        translate,
+      ),
+      "admin.cloudflareTunnel.optimization.preferredIpInvalid",
+    );
+  });
+
+  it("localizes resolver provider and health diagnostics", () => {
+    assert.equal(
+      optimizationResolverProviderLabel("dnspod", translate),
+      "admin.cloudflareTunnel.optimization.sources.resolvers.dnspod",
+    );
+    assert.equal(
+      optimizationResolverStatusLabel("degraded", translate),
+      "admin.cloudflareTunnel.optimization.sources.resolverStatuses.degraded",
+    );
+    assert.equal(
+      optimizationResolverPathLabel("multi-doh", ["DNSPod"], translate),
+      "admin.cloudflareTunnel.optimization.sources.resolverPathAvailable:DNSPod",
+    );
+    assert.equal(
+      optimizationResolverPathLabel("official-ranges", [], translate),
+      "admin.cloudflareTunnel.optimization.sources.resolverPathOfficialRanges",
+    );
+    assert.equal(
+      optimizationResolverPathLabel("current-candidate", [], translate),
+      "admin.cloudflareTunnel.optimization.sources.resolverPathCurrentCandidate",
+    );
+    assert.equal(
+      optimizationResolverPathLabel("preferred-ip", [], translate),
+      "admin.cloudflareTunnel.optimization.sources.resolverPathPreferredIp",
+    );
+    assert.equal(
+      optimizationResolverPathLabel("unavailable", [], translate),
+      "admin.cloudflareTunnel.optimization.sources.resolverPathUnavailable",
+    );
+  });
+});

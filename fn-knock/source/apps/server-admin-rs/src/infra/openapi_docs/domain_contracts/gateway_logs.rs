@@ -1,1 +1,228 @@
-dXNlIHNlcmRlOjpTZXJpYWxpemU7CnVzZSB1dG9pcGE6OlRvU2NoZW1hOwoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEdhdGV3YXlMb2dnaW5nQ29uZmlnRGF0YSB7CiAgICBlbmFibGVkOiBib29sLAogICAgcmVjb3JkX2xvY2FsaG9zdDogYm9vbCwKICAgIG1heF9kYXlzOiBpNjQsCiAgICBsb2dzX2RpcjogU3RyaW5nLAogICAgY3VzdG9tX2xvZ3NfZGlyOiBTdHJpbmcsCiAgICBkZWZhdWx0X2xvZ3NfZGlyOiBTdHJpbmcsCiAgICBkcm9wcGVkX2VudHJpZXM6IHU2NCwKICAgIHF1ZXVlX3NpemU6IGk2NCwKICAgIHF1ZXVlX2RlcHRoOiBpNjQsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBHYXRld2F5TG9nZ2luZ0NvbmZpZ1VwZGF0ZURhdGEgewogICAgY3VzdG9tX2xvZ3NfZGlyOiBPcHRpb248U3RyaW5nPiwKICAgIGVuYWJsZWQ6IGJvb2wsCiAgICByZWNvcmRfbG9jYWxob3N0OiBPcHRpb248Ym9vbD4sCiAgICBtYXhfZGF5czogaTY0LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgR2F0ZXdheUxvZ0RpcmVjdG9yeURhdGEgewogICAgbG9nc19kaXI6IFN0cmluZywKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEdhdGV3YXlMb2dEYXRlc0RhdGEgewogICAgdG9kYXk6IFN0cmluZywKICAgIGxvZ3NfZGlyOiBTdHJpbmcsCiAgICBkYXRlczogVmVjPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBHYXRld2F5TG9nRW50cnlEYXRhIHsKICAgIHRyYWNlX2lkOiBTdHJpbmcsCiAgICB0aW1lOiBTdHJpbmcsCiAgICBsZXZlbDogU3RyaW5nLAogICAgbWV0aG9kOiBTdHJpbmcsCiAgICBzY2hlbWU6IFN0cmluZywKICAgIGhvc3Q6IFN0cmluZywKICAgIHBhdGg6IFN0cmluZywKICAgIHF1ZXJ5OiBTdHJpbmcsCiAgICByZXF1ZXN0X3VyaTogU3RyaW5nLAogICAgcHJvdG9jb2w6IFN0cmluZywKICAgIHN0YXR1czogaTMyLAogICAgZHVyYXRpb25fbXM6IGk2NCwKICAgIHJlbW90ZV9pcDogU3RyaW5nLAogICAgcmVtb3RlX2FkZHI6IFN0cmluZywKICAgIGNsaWVudF9pcDogU3RyaW5nLAogICAgdXNlcl9hZ2VudDogU3RyaW5nLAogICAgcmVmZXJlcjogU3RyaW5nLAogICAgbG9nZ2VkX2luOiBib29sLAogICAgYXV0aF9yZXF1aXJlZDogYm9vbCwKICAgIGF1dGhfZGVjaXNpb246IFN0cmluZywKICAgIGF1dGhfcnVsZV9ncm91cF9pZDogU3RyaW5nLAogICAgYXV0aF9ncmFudF9zdGF0ZTogU3RyaW5nLAogICAgYXV0aF9jcmVkZW50aWFsX2lkOiBTdHJpbmcsCiAgICBhdXRoX2NyZWRlbnRpYWxfbmFtZTogU3RyaW5nLAogICAgYXV0aF9jcmVkZW50aWFsX21ldGhvZDogU3RyaW5nLAogICAgYXV0aF9saW5rZWRfdG90cF9pZDogU3RyaW5nLAogICAgYXV0aF9saW5rZWRfdG90cF9uYW1lOiBTdHJpbmcsCiAgICBhY2Nlc3NfbW9kZTogU3RyaW5nLAogICAgcm91dGVfdHlwZTogU3RyaW5nLAogICAgcm91dGVfa2V5OiBTdHJpbmcsCiAgICB1cHN0cmVhbTogU3RyaW5nLAogICAgdXBzdHJlYW1fZXJyb3JfY2xhc3M6IFN0cmluZywKICAgIG1hdGNoZWQ6IGJvb2wsCiAgICBieXRlc19pbjogdTY0LAogICAgYnl0ZXNfb3V0OiB1NjQsCiAgICB0bHM6IGJvb2wsCiAgICB3ZWJzb2NrZXQ6IGJvb2wsCiAgICBhbGlfcmVhbF9jbGllbnRfaXA6IFN0cmluZywKICAgIGVvX2Nvbm5lY3RpbmdfaXA6IFN0cmluZywKICAgIHhfZm9yd2FyZGVkX2ZvcjogU3RyaW5nLAogICAgeF9yZWFsX2lwOiBTdHJpbmcsCiAgICB3YWZfYmxvY2tlZDogYm9vbCwKICAgIHdhZl90cmFjZV9pZDogU3RyaW5nLAogICAgd2FmX21vZGU6IFN0cmluZywKICAgIHdhZl9ydWxlX2lkczogVmVjPGkzMj4sCiAgICB3YWZfYWN0aW9uOiBTdHJpbmcsCiAgICB3YWZfYnVuZGxlOiBTdHJpbmcsCiAgICBnZW5lcmFsX2JsYWNrbGlzdF9ibG9ja2VkOiBib29sLAogICAgZXhwZWN0ZWRfc2VydmljZTogU3RyaW5nLAogICAgZGV0ZWN0ZWRfc2VydmljZTogU3RyaW5nLAogICAgc2VydmljZV9jb25maWRlbmNlOiBTdHJpbmcsCiAgICBkZXZpY2Vfcm9sZTogU3RyaW5nLAogICAgdmFsaWRhdGlvbl9kZWNpc2lvbjogU3RyaW5nLAogICAgdmFsaWRhdGlvbl9ldmlkZW5jZTogVmVjPFN0cmluZz4sCiAgICBieXBhc3NfcG9saWN5X3ZlcnNpb246IFN0cmluZywKICAgIGJ5cGFzc19ncm91cF9pZDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgR2F0ZXdheUxvZ0VudHJpZXNEYXRhIHsKICAgIGRhdGU6IFN0cmluZywKICAgIGxvZ3NfZGlyOiBTdHJpbmcsCiAgICBhdmFpbGFibGVfZGF0ZXM6IFZlYzxTdHJpbmc+LAogICAgcGFnaW5hdGlvbjogU3RyaW5nLAogICAgcGFnZTogaTMyLAogICAgbGltaXQ6IGkzMiwKICAgIHRvdGFsOiBpMzIsCiAgICBjdXJzb3I6IFN0cmluZywKICAgIG5leHRfY3Vyc29yOiBTdHJpbmcsCiAgICBoYXNfbW9yZTogYm9vbCwKICAgIGl0ZW1zOiBWZWM8R2F0ZXdheUxvZ0VudHJ5RGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBHYXRld2F5TG9nRGVsZXRlQm9keURhdGEgewogICAgZGF0ZTogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgR2F0ZXdheUxvZ0RlbGV0ZURhdGEgewogICAgZGF0ZTogU3RyaW5nLAogICAgbG9nc19kaXI6IFN0cmluZywKICAgIGRlbGV0ZWQ6IGJvb2wsCiAgICBhdmFpbGFibGVfZGF0ZXM6IFZlYzxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgR2F0ZXdheUxvZ0FuYWx5dGljc1JhbmdlRGF0YSB7CiAgICBmcm9tOiBTdHJpbmcsCiAgICB0bzogU3RyaW5nLAogICAgdGltZXpvbmU6IFN0cmluZywKICAgIGdyYW51bGFyaXR5OiBTdHJpbmcsCiAgICBhdmFpbGFibGVfZGF0ZXM6IFZlYzxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgR2F0ZXdheUxvZ0FuYWx5dGljc1N1bW1hcnlEYXRhIHsKICAgIHJlcXVlc3RzOiBpNjQsCiAgICB1bmlxdWVfY2xpZW50czogaTY0LAogICAgY2xpZW50X2Vycm9yczogaTY0LAogICAgc2VydmVyX2Vycm9yczogaTY0LAogICAgYXZlcmFnZV9kdXJhdGlvbl9tczogZjY0LAogICAgcDk1X2R1cmF0aW9uX21zOiBpNjQsCiAgICBieXRlc19pbjogdTY0LAogICAgYnl0ZXNfb3V0OiB1NjQsCiAgICBzZXJ2ZXJfZXJyb3JfcmF0ZTogZjY0LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgR2F0ZXdheUxvZ0FuYWx5dGljc1BvaW50RGF0YSB7CiAgICBidWNrZXRfc3RhcnQ6IFN0cmluZywKICAgIHJlcXVlc3RzOiBpNjQsCiAgICBjbGllbnRfZXJyb3JzOiBpNjQsCiAgICBzZXJ2ZXJfZXJyb3JzOiBpNjQsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBHYXRld2F5TG9nQW5hbHl0aWNzQnVja2V0RGF0YSB7CiAgICBrZXk6IFN0cmluZywKICAgIGNvdW50OiBpNjQsCiAgICBzaGFyZTogZjY0LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgR2F0ZXdheUxvZ0FuYWx5dGljc1JlZ2lvbkJ1Y2tldERhdGEgewogICAga2V5OiBTdHJpbmcsCiAgICBjb3VudDogaTY0LAogICAgc2hhcmU6IGY2NCwKICAgICNbc2NoZW1hKG51bGxhYmxlID0gZmFsc2UpXQogICAgY291bnRyeV9jb2RlOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2NoZW1hKG51bGxhYmxlID0gZmFsc2UpXQogICAgcHJvdmluY2U6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEobnVsbGFibGUgPSBmYWxzZSldCiAgICBjaXR5OiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEdhdGV3YXlMb2dBbmFseXRpY3NEaW1lbnNpb25zRGF0YSB7CiAgICBwYXRoczogVmVjPEdhdGV3YXlMb2dBbmFseXRpY3NCdWNrZXREYXRhPiwKICAgIHJvdXRlczogVmVjPEdhdGV3YXlMb2dBbmFseXRpY3NCdWNrZXREYXRhPiwKICAgIGhvc3RzOiBWZWM8R2F0ZXdheUxvZ0FuYWx5dGljc0J1Y2tldERhdGE+LAogICAgdXBzdHJlYW1zOiBWZWM8R2F0ZXdheUxvZ0FuYWx5dGljc0J1Y2tldERhdGE+LAogICAgcmVmZXJyZXJzOiBWZWM8R2F0ZXdheUxvZ0FuYWx5dGljc0J1Y2tldERhdGE+LAogICAgdXRtX3NvdXJjZXM6IFZlYzxHYXRld2F5TG9nQW5hbHl0aWNzQnVja2V0RGF0YT4sCiAgICB1dG1fbWVkaXVtczogVmVjPEdhdGV3YXlMb2dBbmFseXRpY3NCdWNrZXREYXRhPiwKICAgIHV0bV9jYW1wYWlnbnM6IFZlYzxHYXRld2F5TG9nQW5hbHl0aWNzQnVja2V0RGF0YT4sCiAgICBkZXZpY2VzOiBWZWM8R2F0ZXdheUxvZ0FuYWx5dGljc0J1Y2tldERhdGE+LAogICAgYnJvd3NlcnM6IFZlYzxHYXRld2F5TG9nQW5hbHl0aWNzQnVja2V0RGF0YT4sCiAgICBvcGVyYXRpbmdfc3lzdGVtczogVmVjPEdhdGV3YXlMb2dBbmFseXRpY3NCdWNrZXREYXRhPiwKICAgIHN0YXR1c2VzOiBWZWM8R2F0ZXdheUxvZ0FuYWx5dGljc0J1Y2tldERhdGE+LAogICAgbWV0aG9kczogVmVjPEdhdGV3YXlMb2dBbmFseXRpY3NCdWNrZXREYXRhPiwKICAgIGxhdGVuY3lfYmFuZHM6IFZlYzxHYXRld2F5TG9nQW5hbHl0aWNzQnVja2V0RGF0YT4sCiAgICBhdXRoX2RlY2lzaW9uczogVmVjPEdhdGV3YXlMb2dBbmFseXRpY3NCdWNrZXREYXRhPiwKICAgIHdhZl9hY3Rpb25zOiBWZWM8R2F0ZXdheUxvZ0FuYWx5dGljc0J1Y2tldERhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgR2F0ZXdheUxvZ0FuYWx5dGljc0dlb0RhdGEgewogICAgc3RhdHVzOiBTdHJpbmcsCiAgICByZWdpb25fc3RhdHVzOiBTdHJpbmcsCiAgICByZXNvbHZlZF9jbGllbnRzOiBpNjQsCiAgICByZXNvbHZlZF9yZWdpb25fY2xpZW50czogaTY0LAogICAgcGVuZGluZ19jbGllbnRzOiBpNjQsCiAgICB0b3RhbF9jbGllbnRzOiBpNjQsCiAgICBjb3ZlcmFnZTogZjY0LAogICAgcmVnaW9uX2NvdmVyYWdlOiBmNjQsCiAgICByZWZyZXNoaW5nOiBib29sLAogICAgaXRlbXM6IFZlYzxHYXRld2F5TG9nQW5hbHl0aWNzQnVja2V0RGF0YT4sCiAgICByZWdpb25zOiBWZWM8R2F0ZXdheUxvZ0FuYWx5dGljc1JlZ2lvbkJ1Y2tldERhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgR2F0ZXdheUxvZ0FuYWx5dGljc1F1YWxpdHlEYXRhIHsKICAgIGludmFsaWRfZW50cmllczogaTY0LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgR2F0ZXdheUxvZ0FuYWx5dGljc0RhdGEgewogICAgcmFuZ2U6IEdhdGV3YXlMb2dBbmFseXRpY3NSYW5nZURhdGEsCiAgICBzdW1tYXJ5OiBHYXRld2F5TG9nQW5hbHl0aWNzU3VtbWFyeURhdGEsCiAgICBzZXJpZXM6IFZlYzxHYXRld2F5TG9nQW5hbHl0aWNzUG9pbnREYXRhPiwKICAgIGRpbWVuc2lvbnM6IEdhdGV3YXlMb2dBbmFseXRpY3NEaW1lbnNpb25zRGF0YSwKICAgIGdlbzogR2F0ZXdheUxvZ0FuYWx5dGljc0dlb0RhdGEsCiAgICBxdWFsaXR5OiBHYXRld2F5TG9nQW5hbHl0aWNzUXVhbGl0eURhdGEsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBHYXRld2F5TG9nQW5hbHl0aWNzUmVmcmVzaERhdGEgewogICAgcmVmcmVzaGluZzogYm9vbCwKfQo=
+use serde::Serialize;
+use utoipa::ToSchema;
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLoggingConfigData {
+    enabled: bool,
+    record_localhost: bool,
+    max_days: i64,
+    logs_dir: String,
+    custom_logs_dir: String,
+    default_logs_dir: String,
+    dropped_entries: u64,
+    queue_size: i64,
+    queue_depth: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLoggingConfigUpdateData {
+    custom_logs_dir: Option<String>,
+    enabled: bool,
+    record_localhost: Option<bool>,
+    max_days: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogDirectoryData {
+    logs_dir: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogDatesData {
+    today: String,
+    logs_dir: String,
+    dates: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogEntryData {
+    trace_id: String,
+    time: String,
+    level: String,
+    method: String,
+    scheme: String,
+    host: String,
+    path: String,
+    query: String,
+    request_uri: String,
+    protocol: String,
+    status: i32,
+    duration_ms: i64,
+    remote_ip: String,
+    remote_addr: String,
+    client_ip: String,
+    user_agent: String,
+    referer: String,
+    logged_in: bool,
+    auth_required: bool,
+    auth_decision: String,
+    auth_rule_group_id: String,
+    auth_grant_state: String,
+    auth_credential_id: String,
+    auth_credential_name: String,
+    auth_credential_method: String,
+    auth_linked_totp_id: String,
+    auth_linked_totp_name: String,
+    access_mode: String,
+    route_type: String,
+    route_key: String,
+    upstream: String,
+    upstream_error_class: String,
+    matched: bool,
+    bytes_in: u64,
+    bytes_out: u64,
+    tls: bool,
+    websocket: bool,
+    ali_real_client_ip: String,
+    eo_connecting_ip: String,
+    x_forwarded_for: String,
+    x_real_ip: String,
+    waf_blocked: bool,
+    waf_trace_id: String,
+    waf_mode: String,
+    waf_rule_ids: Vec<i32>,
+    waf_action: String,
+    waf_bundle: String,
+    general_blacklist_blocked: bool,
+    expected_service: String,
+    detected_service: String,
+    service_confidence: String,
+    device_role: String,
+    validation_decision: String,
+    validation_evidence: Vec<String>,
+    bypass_policy_version: String,
+    bypass_group_id: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogEntriesData {
+    date: String,
+    logs_dir: String,
+    available_dates: Vec<String>,
+    pagination: String,
+    page: i32,
+    limit: i32,
+    total: i32,
+    cursor: String,
+    next_cursor: String,
+    has_more: bool,
+    items: Vec<GatewayLogEntryData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogDeleteBodyData {
+    date: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogDeleteData {
+    date: String,
+    logs_dir: String,
+    deleted: bool,
+    available_dates: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogAnalyticsRangeData {
+    from: String,
+    to: String,
+    timezone: String,
+    granularity: String,
+    available_dates: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogAnalyticsSummaryData {
+    requests: i64,
+    unique_clients: i64,
+    client_errors: i64,
+    server_errors: i64,
+    average_duration_ms: f64,
+    p95_duration_ms: i64,
+    bytes_in: u64,
+    bytes_out: u64,
+    server_error_rate: f64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogAnalyticsPointData {
+    bucket_start: String,
+    requests: i64,
+    client_errors: i64,
+    server_errors: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogAnalyticsBucketData {
+    key: String,
+    count: i64,
+    share: f64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogAnalyticsRegionBucketData {
+    key: String,
+    count: i64,
+    share: f64,
+    #[schema(nullable = false)]
+    country_code: Option<String>,
+    #[schema(nullable = false)]
+    province: Option<String>,
+    #[schema(nullable = false)]
+    city: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogAnalyticsDimensionsData {
+    paths: Vec<GatewayLogAnalyticsBucketData>,
+    routes: Vec<GatewayLogAnalyticsBucketData>,
+    hosts: Vec<GatewayLogAnalyticsBucketData>,
+    upstreams: Vec<GatewayLogAnalyticsBucketData>,
+    referrers: Vec<GatewayLogAnalyticsBucketData>,
+    utm_sources: Vec<GatewayLogAnalyticsBucketData>,
+    utm_mediums: Vec<GatewayLogAnalyticsBucketData>,
+    utm_campaigns: Vec<GatewayLogAnalyticsBucketData>,
+    devices: Vec<GatewayLogAnalyticsBucketData>,
+    browsers: Vec<GatewayLogAnalyticsBucketData>,
+    operating_systems: Vec<GatewayLogAnalyticsBucketData>,
+    statuses: Vec<GatewayLogAnalyticsBucketData>,
+    methods: Vec<GatewayLogAnalyticsBucketData>,
+    latency_bands: Vec<GatewayLogAnalyticsBucketData>,
+    auth_decisions: Vec<GatewayLogAnalyticsBucketData>,
+    waf_actions: Vec<GatewayLogAnalyticsBucketData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogAnalyticsGeoData {
+    status: String,
+    region_status: String,
+    resolved_clients: i64,
+    resolved_region_clients: i64,
+    pending_clients: i64,
+    total_clients: i64,
+    coverage: f64,
+    region_coverage: f64,
+    refreshing: bool,
+    items: Vec<GatewayLogAnalyticsBucketData>,
+    regions: Vec<GatewayLogAnalyticsRegionBucketData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogAnalyticsQualityData {
+    invalid_entries: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogAnalyticsData {
+    range: GatewayLogAnalyticsRangeData,
+    summary: GatewayLogAnalyticsSummaryData,
+    series: Vec<GatewayLogAnalyticsPointData>,
+    dimensions: GatewayLogAnalyticsDimensionsData,
+    geo: GatewayLogAnalyticsGeoData,
+    quality: GatewayLogAnalyticsQualityData,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct GatewayLogAnalyticsRefreshData {
+    refreshing: bool,
+}

@@ -1,1 +1,4 @@
-ZXhwb3J0IHsKICBjcmVhdGVWaXNpYmlsaXR5UG9sbGVyLAogIHR5cGUgVmlzaWJpbGl0eVBvbGxlck9wdGlvbnMsCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy9jcmVhdGVWaXNpYmlsaXR5UG9sbGVyIjsK
+export {
+  createVisibilityPoller,
+  type VisibilityPollerOptions,
+} from "@admin-shared/composables/createVisibilityPoller";

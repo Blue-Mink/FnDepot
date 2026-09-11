@@ -1,1 +1,21 @@
-ZXhwb3J0IGNvbnN0IE9GRklDSUFMX1dFQlNJVEVfVVJMID0gImh0dHBzOi8vd3d3LmZua25vY2suY24vIjsKZXhwb3J0IGNvbnN0IE9GRklDSUFMX0RPQ1VNRU5UQVRJT05fVVJMID0gImh0dHBzOi8vZG9jcy5mbmtub2NrLmNuLyI7CgpleHBvcnQgY29uc3QgRlVMTF9WRVJTSU9OX1dFQlNJVEVfVVJMID0gT0ZGSUNJQUxfV0VCU0lURV9VUkw7CgpleHBvcnQgY29uc3Qgc2hvdWxkU2hvd09uZUNsaWNrVXBkYXRlID0gKHsKICBoYXNVcGRhdGUsCiAgY2FuU2VsZlVwZGF0ZSwKICBpc0Zwa0xpdGUsCn06IHsKICBoYXNVcGRhdGU6IGJvb2xlYW47CiAgY2FuU2VsZlVwZGF0ZTogYm9vbGVhbjsKICBpc0Zwa0xpdGU6IGJvb2xlYW47Cn0pOiBib29sZWFuID0+IGhhc1VwZGF0ZSAmJiBjYW5TZWxmVXBkYXRlICYmICFpc0Zwa0xpdGU7CgpleHBvcnQgY29uc3QgcmVzb2x2ZVVwZGF0ZURldGFpbHNBY3Rpb24gPSAoCiAgaXNGcGtMaXRlOiBib29sZWFuLAopOiB7IHR5cGU6ICJleHRlcm5hbCI7IHVybDogc3RyaW5nIH0gfCB7IHR5cGU6ICJyb3V0ZSI7IHBhdGg6IHN0cmluZyB9ID0+CiAgaXNGcGtMaXRlCiAgICA/IHsgdHlwZTogImV4dGVybmFsIiwgdXJsOiBGVUxMX1ZFUlNJT05fV0VCU0lURV9VUkwgfQogICAgOiB7IHR5cGU6ICJyb3V0ZSIsIHBhdGg6ICIvYWJvdXQiIH07Cg==
+export const OFFICIAL_WEBSITE_URL = "https://www.fnknock.cn/";
+export const OFFICIAL_DOCUMENTATION_URL = "https://docs.fnknock.cn/";
+
+export const FULL_VERSION_WEBSITE_URL = OFFICIAL_WEBSITE_URL;
+
+export const shouldShowOneClickUpdate = ({
+  hasUpdate,
+  canSelfUpdate,
+  isFpkLite,
+}: {
+  hasUpdate: boolean;
+  canSelfUpdate: boolean;
+  isFpkLite: boolean;
+}): boolean => hasUpdate && canSelfUpdate && !isFpkLite;
+
+export const resolveUpdateDetailsAction = (
+  isFpkLite: boolean,
+): { type: "external"; url: string } | { type: "route"; path: string } =>
+  isFpkLite
+    ? { type: "external", url: FULL_VERSION_WEBSITE_URL }
+    : { type: "route", path: "/about" };

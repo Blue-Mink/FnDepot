@@ -1,1 +1,297 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQ2hldnJvblJpZ2h0IH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgQ2FyZCwgQ2FyZENvbnRlbnQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsgU3dpdGNoIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N3aXRjaCI7CmltcG9ydCB7IFNrZWxldG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NrZWxldG9uIjsKaW1wb3J0IEZub3NDb25uZWN0V2FmU2V0dGluZyBmcm9tICIuL2Zub3Mtc2V0dGluZ3MvRm5vc0Nvbm5lY3RXYWZTZXR0aW5nLnZ1ZSI7CmltcG9ydCB7IHVzZUZub3NTZXR0aW5nc0NvbnRyb2xsZXIgfSBmcm9tICIuL2Zub3Mtc2V0dGluZ3MvdXNlRm5vc1NldHRpbmdzQ29udHJvbGxlciI7Cgpjb25zdCBhMTF5SWQgPSB1c2VJZCgpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgewogIGJickN1cnJlbnREZXNjcmlwdGlvbiwKICBiYnJEZXNpcmVkRGVzY3JpcHRpb24sCiAgYmJyU3RhdGVNaXNtYXRjaERlc2NyaXB0aW9uLAogIGJiclN1cHBvcnREZXNjcmlwdGlvbiwKICBjYW5Vc2VGbm9zQ2VydGlmaWNhdGVTeW5jLAogIGNhblVzZUZub3NDb25uZWN0V2FmLAogIGNhblVzZUZub3NOZXR3b3JrVHVuaW5nLAogIGNlcnRpZmljYXRlU3luY0RldGFpbHMsCiAgZm9ybSwKICBpY29uSGlqYWNrRm9ybSwKICBpc0JiclN1cHBvcnRlZCwKICBpc0ljb25IaWphY2tTYXZpbmcsCiAgaXNMb2FkaW5nLAogIGlzTXR1UHJvYmluZ1N1cHBvcnRlZCwKICBpc05ldHdvcmtUdW5pbmdBdmFpbGFibGUsCiAgaXNOZXR3b3JrVHVuaW5nU2F2aW5nLAogIGlzUmVzdHJpY3RlZEJ5UnVuTW9kZSwKICBpc1NhdmluZywKICBpc1NoYXJlQnlwYXNzTW9kZSwKICBtdHVDdXJyZW50RGVzY3JpcHRpb24sCiAgbXR1RGVzaXJlZERlc2NyaXB0aW9uLAogIG10dVN0YXRlTWlzbWF0Y2hEZXNjcmlwdGlvbiwKICBuZXR3b3JrVHVuaW5nRm9ybSwKICBuZXR3b3JrVHVuaW5nU3RhdHVzLAogIG5ldHdvcmtUdW5pbmdVbmF2YWlsYWJsZVRleHQsCiAgb3BlbkNlcnRpZmljYXRlU3luYywKICBzYXZlSWNvbkhpamFja0VuYWJsZWQsCiAgc2F2ZU5ldHdvcmtUdW5pbmcsCiAgc2F2ZVNoYXJlQnlwYXNzRW5hYmxlZCwKICBzaG93TG9hZGluZ1NrZWxldG9uLAogIHRvZ2dsZUljb25IaWphY2ssCiAgdG9nZ2xlU2hhcmVCeXBhc3MsCn0gPSB1c2VGbm9zU2V0dGluZ3NDb250cm9sbGVyKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxDYXJkPgogICAgPENhcmRDb250ZW50IHYtaWY9ImlzTG9hZGluZyAmJiBzaG93TG9hZGluZ1NrZWxldG9uIiBjbGFzcz0icC0wIj4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS00IHAtNiI+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTYgdy0xLzMiIC8+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy0yLzMiIC8+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTYgdy0xLzMiIC8+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy0yLzMiIC8+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTYgdy0xLzMiIC8+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy0yLzMiIC8+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTYgdy0xLzMiIC8+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy0yLzMiIC8+CiAgICAgIDwvZGl2PgogICAgPC9DYXJkQ29udGVudD4KCiAgICA8Q2FyZENvbnRlbnQgdi1lbHNlLWlmPSIhaXNMb2FkaW5nIiBjbGFzcz0icC0wIGRpdmlkZS15Ij4KICAgICAgPGJ1dHRvbgogICAgICAgIHYtaWY9ImNhblVzZUZub3NDZXJ0aWZpY2F0ZVN5bmMiCiAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgIGNsYXNzPSJmbGV4IHctZnVsbCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGJnLW11dGVkLzEwIHAtNiB0ZXh0LWxlZnQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvMjAiCiAgICAgICAgQGNsaWNrPSJvcGVuQ2VydGlmaWNhdGVTeW5jIgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIHByLTYiPgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1iYXNlIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZm5vc0NlcnRpZmljYXRlU3luYy5lbnRyeVRpdGxlIikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5mbm9zQ2VydGlmaWNhdGVTeW5jLmVudHJ5RGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IHYtaWY9ImNlcnRpZmljYXRlU3luY0RldGFpbHMiIGNsYXNzPSJ0ZXh0LXhzIHRleHQtemluYy01MDAiPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIHQoImFkbWluLmZub3NDZXJ0aWZpY2F0ZVN5bmMuZW50cnlTdW1tYXJ5IiwgewogICAgICAgICAgICAgICAgdG90YWw6IGNlcnRpZmljYXRlU3luY0RldGFpbHMuc3VtbWFyeS50b3RhbCwKICAgICAgICAgICAgICAgIHN5bmNhYmxlOiBjZXJ0aWZpY2F0ZVN5bmNEZXRhaWxzLnN1bW1hcnkuc3luY2FibGUsCiAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxDaGV2cm9uUmlnaHQgY2xhc3M9ImgtNSB3LTUgc2hyaW5rLTAgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogICAgICA8L2J1dHRvbj4KCiAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBiZy1tdXRlZC8xMCBwLTYiPgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSBwci02Ij4KICAgICAgICAgIDxMYWJlbAogICAgICAgICAgICA6Zm9yPSJgJHthMTF5SWR9LWZub3NzZXR0aW5ncy0xYCIKICAgICAgICAgICAgY2xhc3M9InRleHQtYmFzZSBmb250LW1lZGl1bSIKICAgICAgICAgICAgOmNsYXNzPSIKICAgICAgICAgICAgICBpc1NoYXJlQnlwYXNzTW9kZQogICAgICAgICAgICAgICAgPyAnY3Vyc29yLXBvaW50ZXInCiAgICAgICAgICAgICAgICA6ICdjdXJzb3Itbm90LWFsbG93ZWQgdGV4dC16aW5jLTUwMCcKICAgICAgICAgICAgIgogICAgICAgICAgICBAY2xpY2s9InRvZ2dsZVNoYXJlQnlwYXNzIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5mbm9zU2V0dGluZ3Muc2hhcmVCeXBhc3NUaXRsZSIpIH19CiAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzcz0idGV4dC1zbSIKICAgICAgICAgICAgOmNsYXNzPSIKICAgICAgICAgICAgICBpc1NoYXJlQnlwYXNzTW9kZSA/ICd0ZXh0LW11dGVkLWZvcmVncm91bmQnIDogJ3RleHQtemluYy01MDAnCiAgICAgICAgICAgICIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZm5vc1NldHRpbmdzLnNoYXJlQnlwYXNzRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIHYtaWY9ImlzUmVzdHJpY3RlZEJ5UnVuTW9kZSIKICAgICAgICAgICAgY2xhc3M9InRleHQteHMgbGVhZGluZy01IHRleHQtemluYy01MDAiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmZub3NTZXR0aW5ncy5zaGFyZUJ5cGFzc0RpcmVjdFVuYXZhaWxhYmxlIikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxTd2l0Y2gKICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1mbm9zc2V0dGluZ3MtMWAiCiAgICAgICAgICA6bW9kZWwtdmFsdWU9ImlzU2hhcmVCeXBhc3NNb2RlID8gZm9ybS5lbmFibGVkIDogZmFsc2UiCiAgICAgICAgICA6ZGlzYWJsZWQ9IiFpc1NoYXJlQnlwYXNzTW9kZSB8fCBpc1NhdmluZyIKICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9InNhdmVTaGFyZUJ5cGFzc0VuYWJsZWQoJGV2ZW50ID09PSB0cnVlKSIKICAgICAgICAvPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBiZy1tdXRlZC8xMCBwLTYiPgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSBwci02Ij4KICAgICAgICAgIDxMYWJlbAogICAgICAgICAgICA6Zm9yPSJgJHthMTF5SWR9LWZub3NzZXR0aW5ncy0yYCIKICAgICAgICAgICAgY2xhc3M9ImN1cnNvci1wb2ludGVyIHRleHQtYmFzZSBmb250LW1lZGl1bSIKICAgICAgICAgICAgQGNsaWNrPSJ0b2dnbGVJY29uSGlqYWNrIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5mbm9zU2V0dGluZ3MuaWNvbkhpamFja1RpdGxlIikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmZub3NTZXR0aW5ncy5pY29uSGlqYWNrRGVzY3JpcHRpb25QcmVmaXgiKQogICAgICAgICAgICB9fTx1Pnt7IHQoImFkbWluLmZub3NTZXR0aW5ncy5pY29uSGlqYWNrRGVzY3JpcHRpb25IaWdobGlnaHQiKSB9fTwvdQogICAgICAgICAgICA+e3sgdCgiYWRtaW4uZm5vc1NldHRpbmdzLmljb25IaWphY2tEZXNjcmlwdGlvblN1ZmZpeCIpIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8U3dpdGNoCiAgICAgICAgICA6aWQ9ImAke2ExMXlJZH0tZm5vc3NldHRpbmdzLTJgIgogICAgICAgICAgOm1vZGVsLXZhbHVlPSJpY29uSGlqYWNrRm9ybS5lbmFibGVkIgogICAgICAgICAgOmRpc2FibGVkPSJpc0ljb25IaWphY2tTYXZpbmciCiAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJzYXZlSWNvbkhpamFja0VuYWJsZWQoJGV2ZW50ID09PSB0cnVlKSIKICAgICAgICAvPgogICAgICA8L2Rpdj4KCiAgICAgIDxGbm9zQ29ubmVjdFdhZlNldHRpbmcgdi1pZj0iY2FuVXNlRm5vc0Nvbm5lY3RXYWYiIC8+CgogICAgICA8ZGl2CiAgICAgICAgdi1pZj0iY2FuVXNlRm5vc05ldHdvcmtUdW5pbmciCiAgICAgICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBiZy1tdXRlZC8xMCBwLTYiCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEgcHItNiI+CiAgICAgICAgICA8TGFiZWwKICAgICAgICAgICAgOmZvcj0iYCR7YTExeUlkfS1mbm9zLWJicmAiCiAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LWJhc2UgZm9udC1tZWRpdW0iCiAgICAgICAgICAgIDpjbGFzcz0iCiAgICAgICAgICAgICAgaXNOZXR3b3JrVHVuaW5nQXZhaWxhYmxlICYmIGlzQmJyU3VwcG9ydGVkCiAgICAgICAgICAgICAgICA/ICdjdXJzb3ItcG9pbnRlcicKICAgICAgICAgICAgICAgIDogJ2N1cnNvci1ub3QtYWxsb3dlZCB0ZXh0LXppbmMtNTAwJwogICAgICAgICAgICAiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmZub3NTZXR0aW5ncy5iYnJUaXRsZSIpIH19CiAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzcz0idGV4dC1zbSIKICAgICAgICAgICAgOmNsYXNzPSIKICAgICAgICAgICAgICBpc05ldHdvcmtUdW5pbmdBdmFpbGFibGUgJiYgaXNCYnJTdXBwb3J0ZWQKICAgICAgICAgICAgICAgID8gJ3RleHQtbXV0ZWQtZm9yZWdyb3VuZCcKICAgICAgICAgICAgICAgIDogJ3RleHQtemluYy01MDAnCiAgICAgICAgICAgICIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZm5vc1NldHRpbmdzLmJickRlc2NyaXB0aW9uIikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC16aW5jLTUwMCI+CiAgICAgICAgICAgIHt7IGJickRlc2lyZWREZXNjcmlwdGlvbiB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LXppbmMtNTAwIj4KICAgICAgICAgICAge3sgYmJyQ3VycmVudERlc2NyaXB0aW9uIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgdi1pZj0iYmJyU3RhdGVNaXNtYXRjaERlc2NyaXB0aW9uIgogICAgICAgICAgICBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1hbWJlci02MDAiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IGJiclN0YXRlTWlzbWF0Y2hEZXNjcmlwdGlvbiB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIHYtaWY9Im5ldHdvcmtUdW5pbmdTdGF0dXMiCiAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSIKICAgICAgICAgICAgOmNsYXNzPSIKICAgICAgICAgICAgICBuZXR3b3JrVHVuaW5nU3RhdHVzLmJici5zdXBwb3J0ZWQKICAgICAgICAgICAgICAgID8gJ3RleHQtZW1lcmFsZC02MDAnCiAgICAgICAgICAgICAgICA6ICd0ZXh0LWFtYmVyLTYwMCcKICAgICAgICAgICAgIgogICAgICAgICAgPgogICAgICAgICAgICB7eyBiYnJTdXBwb3J0RGVzY3JpcHRpb24gfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSIhaXNOZXR3b3JrVHVuaW5nQXZhaWxhYmxlIgogICAgICAgICAgICBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC16aW5jLTUwMCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgbmV0d29ya1R1bmluZ1VuYXZhaWxhYmxlVGV4dCB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIHYtaWY9Im5ldHdvcmtUdW5pbmdTdGF0dXM/Lmxhc3RfZXJyb3IiCiAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIHQoImFkbWluLmZub3NTZXR0aW5ncy5uZXR3b3JrVHVuaW5nTGFzdEVycm9yIiwgewogICAgICAgICAgICAgICAgbWVzc2FnZTogbmV0d29ya1R1bmluZ1N0YXR1cy5sYXN0X2Vycm9yLAogICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8U3dpdGNoCiAgICAgICAgICA6aWQ9ImAke2ExMXlJZH0tZm5vcy1iYnJgIgogICAgICAgICAgOm1vZGVsLXZhbHVlPSJuZXR3b3JrVHVuaW5nRm9ybS5iYnJfZW5hYmxlZCIKICAgICAgICAgIDpkaXNhYmxlZD0iCiAgICAgICAgICAgICFpc05ldHdvcmtUdW5pbmdBdmFpbGFibGUgfHwKICAgICAgICAgICAgIWlzQmJyU3VwcG9ydGVkIHx8CiAgICAgICAgICAgIGlzTmV0d29ya1R1bmluZ1NhdmluZwogICAgICAgICAgIgogICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iCiAgICAgICAgICAgIHNhdmVOZXR3b3JrVHVuaW5nKAogICAgICAgICAgICAgIHsgYmJyX2VuYWJsZWQ6ICRldmVudCA9PT0gdHJ1ZSB9LAogICAgICAgICAgICAgICdhZG1pbi5mbm9zU2V0dGluZ3MuYmJyVXBkYXRlZCcsCiAgICAgICAgICAgICkKICAgICAgICAgICIKICAgICAgICAvPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYKICAgICAgICB2LWlmPSJjYW5Vc2VGbm9zTmV0d29ya1R1bmluZyAmJiBpc010dVByb2JpbmdTdXBwb3J0ZWQiCiAgICAgICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBiZy1tdXRlZC8xMCBwLTYiCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEgcHItNiI+CiAgICAgICAgICA8TGFiZWwKICAgICAgICAgICAgOmZvcj0iYCR7YTExeUlkfS1mbm9zLW10dS1wcm9iaW5nYCIKICAgICAgICAgICAgY2xhc3M9InRleHQtYmFzZSBmb250LW1lZGl1bSIKICAgICAgICAgICAgOmNsYXNzPSIKICAgICAgICAgICAgICBpc05ldHdvcmtUdW5pbmdBdmFpbGFibGUKICAgICAgICAgICAgICAgID8gJ2N1cnNvci1wb2ludGVyJwogICAgICAgICAgICAgICAgOiAnY3Vyc29yLW5vdC1hbGxvd2VkIHRleHQtemluYy01MDAnCiAgICAgICAgICAgICIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZm5vc1NldHRpbmdzLm10dVRpdGxlIikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LXNtIgogICAgICAgICAgICA6Y2xhc3M9IgogICAgICAgICAgICAgIGlzTmV0d29ya1R1bmluZ0F2YWlsYWJsZQogICAgICAgICAgICAgICAgPyAndGV4dC1tdXRlZC1mb3JlZ3JvdW5kJwogICAgICAgICAgICAgICAgOiAndGV4dC16aW5jLTUwMCcKICAgICAgICAgICAgIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5mbm9zU2V0dGluZ3MubXR1RGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LXppbmMtNTAwIj4KICAgICAgICAgICAge3sgbXR1RGVzaXJlZERlc2NyaXB0aW9uIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgbGVhZGluZy01IHRleHQtemluYy01MDAiPgogICAgICAgICAgICB7eyBtdHVDdXJyZW50RGVzY3JpcHRpb24gfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSJtdHVTdGF0ZU1pc21hdGNoRGVzY3JpcHRpb24iCiAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LWFtYmVyLTYwMCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgbXR1U3RhdGVNaXNtYXRjaERlc2NyaXB0aW9uIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgdi1pZj0iIWlzTmV0d29ya1R1bmluZ0F2YWlsYWJsZSIKICAgICAgICAgICAgY2xhc3M9InRleHQteHMgbGVhZGluZy01IHRleHQtemluYy01MDAiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IG5ldHdvcmtUdW5pbmdVbmF2YWlsYWJsZVRleHQgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxTd2l0Y2gKICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1mbm9zLW10dS1wcm9iaW5nYCIKICAgICAgICAgIDptb2RlbC12YWx1ZT0ibmV0d29ya1R1bmluZ0Zvcm0ubXR1X3Byb2JpbmdfZW5hYmxlZCIKICAgICAgICAgIDpkaXNhYmxlZD0iIWlzTmV0d29ya1R1bmluZ0F2YWlsYWJsZSB8fCBpc05ldHdvcmtUdW5pbmdTYXZpbmciCiAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSIKICAgICAgICAgICAgc2F2ZU5ldHdvcmtUdW5pbmcoCiAgICAgICAgICAgICAgeyBtdHVfcHJvYmluZ19lbmFibGVkOiAkZXZlbnQgPT09IHRydWUgfSwKICAgICAgICAgICAgICAnYWRtaW4uZm5vc1NldHRpbmdzLm10dVVwZGF0ZWQnLAogICAgICAgICAgICApCiAgICAgICAgICAiCiAgICAgICAgLz4KICAgICAgPC9kaXY+CiAgICA8L0NhcmRDb250ZW50PgoKICAgIDxDYXJkQ29udGVudCB2LWVsc2UgY2xhc3M9Im1pbi1oLVsxNjBweF0iIGFyaWEtaGlkZGVuPSJ0cnVlIiAvPgogIDwvQ2FyZD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { ChevronRight } from "lucide-vue-next";
+import { Card, CardContent } from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import { Skeleton } from "@/components/ui/skeleton";
+import FnosConnectWafSetting from "./fnos-settings/FnosConnectWafSetting.vue";
+import { useFnosSettingsController } from "./fnos-settings/useFnosSettingsController";
+
+const a11yId = useId();
+const { t } = useI18n();
+const {
+  bbrCurrentDescription,
+  bbrDesiredDescription,
+  bbrStateMismatchDescription,
+  bbrSupportDescription,
+  canUseFnosCertificateSync,
+  canUseFnosConnectWaf,
+  canUseFnosNetworkTuning,
+  certificateSyncDetails,
+  form,
+  iconHijackForm,
+  isBbrSupported,
+  isIconHijackSaving,
+  isLoading,
+  isMtuProbingSupported,
+  isNetworkTuningAvailable,
+  isNetworkTuningSaving,
+  isRestrictedByRunMode,
+  isSaving,
+  isShareBypassMode,
+  mtuCurrentDescription,
+  mtuDesiredDescription,
+  mtuStateMismatchDescription,
+  networkTuningForm,
+  networkTuningStatus,
+  networkTuningUnavailableText,
+  openCertificateSync,
+  saveIconHijackEnabled,
+  saveNetworkTuning,
+  saveShareBypassEnabled,
+  showLoadingSkeleton,
+  toggleIconHijack,
+  toggleShareBypass,
+} = useFnosSettingsController();
+</script>
+
+<template>
+  <Card>
+    <CardContent v-if="isLoading && showLoadingSkeleton" class="p-0">
+      <div class="space-y-4 p-6">
+        <Skeleton class="h-6 w-1/3" />
+        <Skeleton class="h-4 w-2/3" />
+        <Skeleton class="h-6 w-1/3" />
+        <Skeleton class="h-4 w-2/3" />
+        <Skeleton class="h-6 w-1/3" />
+        <Skeleton class="h-4 w-2/3" />
+        <Skeleton class="h-6 w-1/3" />
+        <Skeleton class="h-4 w-2/3" />
+      </div>
+    </CardContent>
+
+    <CardContent v-else-if="!isLoading" class="p-0 divide-y">
+      <button
+        v-if="canUseFnosCertificateSync"
+        type="button"
+        class="flex w-full items-center justify-between bg-muted/10 p-6 text-left transition-colors hover:bg-muted/20"
+        @click="openCertificateSync"
+      >
+        <div class="space-y-1 pr-6">
+          <div class="text-base font-medium">
+            {{ t("admin.fnosCertificateSync.entryTitle") }}
+          </div>
+          <div class="text-sm text-muted-foreground">
+            {{ t("admin.fnosCertificateSync.entryDescription") }}
+          </div>
+          <div v-if="certificateSyncDetails" class="text-xs text-zinc-500">
+            {{
+              t("admin.fnosCertificateSync.entrySummary", {
+                total: certificateSyncDetails.summary.total,
+                syncable: certificateSyncDetails.summary.syncable,
+              })
+            }}
+          </div>
+        </div>
+        <ChevronRight class="h-5 w-5 shrink-0 text-muted-foreground" />
+      </button>
+
+      <div class="flex items-center justify-between bg-muted/10 p-6">
+        <div class="space-y-1 pr-6">
+          <Label
+            :for="`${a11yId}-fnossettings-1`"
+            class="text-base font-medium"
+            :class="
+              isShareBypassMode
+                ? 'cursor-pointer'
+                : 'cursor-not-allowed text-zinc-500'
+            "
+            @click="toggleShareBypass"
+          >
+            {{ t("admin.fnosSettings.shareBypassTitle") }}
+          </Label>
+          <div
+            class="text-sm"
+            :class="
+              isShareBypassMode ? 'text-muted-foreground' : 'text-zinc-500'
+            "
+          >
+            {{ t("admin.fnosSettings.shareBypassDescription") }}
+          </div>
+          <div
+            v-if="isRestrictedByRunMode"
+            class="text-xs leading-5 text-zinc-500"
+          >
+            {{ t("admin.fnosSettings.shareBypassDirectUnavailable") }}
+          </div>
+        </div>
+        <Switch
+          :id="`${a11yId}-fnossettings-1`"
+          :model-value="isShareBypassMode ? form.enabled : false"
+          :disabled="!isShareBypassMode || isSaving"
+          @update:model-value="saveShareBypassEnabled($event === true)"
+        />
+      </div>
+
+      <div class="flex items-center justify-between bg-muted/10 p-6">
+        <div class="space-y-1 pr-6">
+          <Label
+            :for="`${a11yId}-fnossettings-2`"
+            class="cursor-pointer text-base font-medium"
+            @click="toggleIconHijack"
+          >
+            {{ t("admin.fnosSettings.iconHijackTitle") }}
+          </Label>
+          <div class="text-sm text-muted-foreground">
+            {{ t("admin.fnosSettings.iconHijackDescriptionPrefix")
+            }}<u>{{ t("admin.fnosSettings.iconHijackDescriptionHighlight") }}</u
+            >{{ t("admin.fnosSettings.iconHijackDescriptionSuffix") }}
+          </div>
+        </div>
+        <Switch
+          :id="`${a11yId}-fnossettings-2`"
+          :model-value="iconHijackForm.enabled"
+          :disabled="isIconHijackSaving"
+          @update:model-value="saveIconHijackEnabled($event === true)"
+        />
+      </div>
+
+      <FnosConnectWafSetting v-if="canUseFnosConnectWaf" />
+
+      <div
+        v-if="canUseFnosNetworkTuning"
+        class="flex items-center justify-between bg-muted/10 p-6"
+      >
+        <div class="space-y-1 pr-6">
+          <Label
+            :for="`${a11yId}-fnos-bbr`"
+            class="text-base font-medium"
+            :class="
+              isNetworkTuningAvailable && isBbrSupported
+                ? 'cursor-pointer'
+                : 'cursor-not-allowed text-zinc-500'
+            "
+          >
+            {{ t("admin.fnosSettings.bbrTitle") }}
+          </Label>
+          <div
+            class="text-sm"
+            :class="
+              isNetworkTuningAvailable && isBbrSupported
+                ? 'text-muted-foreground'
+                : 'text-zinc-500'
+            "
+          >
+            {{ t("admin.fnosSettings.bbrDescription") }}
+          </div>
+          <div class="text-xs leading-5 text-zinc-500">
+            {{ bbrDesiredDescription }}
+          </div>
+          <div class="text-xs leading-5 text-zinc-500">
+            {{ bbrCurrentDescription }}
+          </div>
+          <div
+            v-if="bbrStateMismatchDescription"
+            class="text-xs leading-5 text-amber-600"
+          >
+            {{ bbrStateMismatchDescription }}
+          </div>
+          <div
+            v-if="networkTuningStatus"
+            class="text-xs leading-5"
+            :class="
+              networkTuningStatus.bbr.supported
+                ? 'text-emerald-600'
+                : 'text-amber-600'
+            "
+          >
+            {{ bbrSupportDescription }}
+          </div>
+          <div
+            v-if="!isNetworkTuningAvailable"
+            class="text-xs leading-5 text-zinc-500"
+          >
+            {{ networkTuningUnavailableText }}
+          </div>
+          <div
+            v-if="networkTuningStatus?.last_error"
+            class="text-xs leading-5 text-destructive"
+          >
+            {{
+              t("admin.fnosSettings.networkTuningLastError", {
+                message: networkTuningStatus.last_error,
+              })
+            }}
+          </div>
+        </div>
+        <Switch
+          :id="`${a11yId}-fnos-bbr`"
+          :model-value="networkTuningForm.bbr_enabled"
+          :disabled="
+            !isNetworkTuningAvailable ||
+            !isBbrSupported ||
+            isNetworkTuningSaving
+          "
+          @update:model-value="
+            saveNetworkTuning(
+              { bbr_enabled: $event === true },
+              'admin.fnosSettings.bbrUpdated',
+            )
+          "
+        />
+      </div>
+
+      <div
+        v-if="canUseFnosNetworkTuning && isMtuProbingSupported"
+        class="flex items-center justify-between bg-muted/10 p-6"
+      >
+        <div class="space-y-1 pr-6">
+          <Label
+            :for="`${a11yId}-fnos-mtu-probing`"
+            class="text-base font-medium"
+            :class="
+              isNetworkTuningAvailable
+                ? 'cursor-pointer'
+                : 'cursor-not-allowed text-zinc-500'
+            "
+          >
+            {{ t("admin.fnosSettings.mtuTitle") }}
+          </Label>
+          <div
+            class="text-sm"
+            :class="
+              isNetworkTuningAvailable
+                ? 'text-muted-foreground'
+                : 'text-zinc-500'
+            "
+          >
+            {{ t("admin.fnosSettings.mtuDescription") }}
+          </div>
+          <div class="text-xs leading-5 text-zinc-500">
+            {{ mtuDesiredDescription }}
+          </div>
+          <div class="text-xs leading-5 text-zinc-500">
+            {{ mtuCurrentDescription }}
+          </div>
+          <div
+            v-if="mtuStateMismatchDescription"
+            class="text-xs leading-5 text-amber-600"
+          >
+            {{ mtuStateMismatchDescription }}
+          </div>
+          <div
+            v-if="!isNetworkTuningAvailable"
+            class="text-xs leading-5 text-zinc-500"
+          >
+            {{ networkTuningUnavailableText }}
+          </div>
+        </div>
+        <Switch
+          :id="`${a11yId}-fnos-mtu-probing`"
+          :model-value="networkTuningForm.mtu_probing_enabled"
+          :disabled="!isNetworkTuningAvailable || isNetworkTuningSaving"
+          @update:model-value="
+            saveNetworkTuning(
+              { mtu_probing_enabled: $event === true },
+              'admin.fnosSettings.mtuUpdated',
+            )
+          "
+        />
+      </div>
+    </CardContent>
+
+    <CardContent v-else class="min-h-[160px]" aria-hidden="true" />
+  </Card>
+</template>

@@ -1,1 +1,88 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgpjb25zdCBjb250cmFjdCA9IEpTT04ucGFyc2UoCiAgcmVhZFNvdXJjZSgiLi4vLi4vLi4vcGFja2FnZXMvYXBpLWNvbnRyYWN0L29wZW5hcGkuanNvbiIpLAopIGFzIHsKICBjb21wb25lbnRzOiB7CiAgICBzY2hlbWFzOiBSZWNvcmQ8CiAgICAgIHN0cmluZywKICAgICAgewogICAgICAgIHByb3BlcnRpZXM/OiBSZWNvcmQ8c3RyaW5nLCB7IGVudW0/OiBzdHJpbmdbXSB9PjsKICAgICAgICByZXF1aXJlZD86IHN0cmluZ1tdOwogICAgICB9CiAgICA+OwogIH07CiAgcGF0aHM6IFJlY29yZDwKICAgIHN0cmluZywKICAgIFJlY29yZDwKICAgICAgc3RyaW5nLAogICAgICB7CiAgICAgICAgIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIj86IHN0cmluZzsKICAgICAgICByZXNwb25zZXM/OiBSZWNvcmQ8CiAgICAgICAgICBzdHJpbmcsCiAgICAgICAgICB7CiAgICAgICAgICAgIGNvbnRlbnQ/OiBSZWNvcmQ8c3RyaW5nLCB7IHNjaGVtYT86IHsgJHJlZj86IHN0cmluZyB9IH0+OwogICAgICAgICAgfQogICAgICAgID47CiAgICAgIH0KICAgID4KICA+Owp9OwoKZGVzY3JpYmUoIndoaXRlbGlzdCBBUEkgY29udHJhY3QiLCAoKSA9PiB7CiAgaXQoImtlZXBzIGV2ZXJ5IGFjY2Vzcy1jb250cm9sIG9wZXJhdGlvbiBvbiBnZW5lcmF0ZWQgZG9tYWluIHNjaGVtYXMiLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IFttZXRob2QsIHBhdGhdIG9mIFsKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi93aGl0ZWxpc3QiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vd2hpdGVsaXN0Il0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vd2hpdGVsaXN0L3JlZ2lvbnMiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vd2hpdGVsaXN0L3JlZ2lvbnMiXSwKICAgICAgWyJkZWxldGUiLCAiL2FwaS9hZG1pbi93aGl0ZWxpc3QvcmVnaW9ucy97aWR9Il0sCiAgICAgIFsiZGVsZXRlIiwgIi9hcGkvYWRtaW4vd2hpdGVsaXN0L3tpZH0iXSwKICAgICAgWyJwYXRjaCIsICIvYXBpL2FkbWluL3doaXRlbGlzdC97aWR9L2NvbW1lbnQiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vd2hpdGVsaXN0L3tpZH0vcmVmcmVzaCJdLAogICAgXSBhcyBjb25zdCkgewogICAgICBhc3NlcnQuZXF1YWwoCiAgICAgICAgY29udHJhY3QucGF0aHNbcGF0aF0/LlttZXRob2RdPy5bIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIl0sCiAgICAgICAgInV0b2lwYSIsCiAgICAgICAgYCR7bWV0aG9kLnRvVXBwZXJDYXNlKCl9ICR7cGF0aH1gLAogICAgICApOwogICAgfQogIH0pOwoKICBpdCgibW9kZWxzIHBlbmRpbmcgZ3JhbnRzIGFuZCBkYXRhLWJlYXJpbmcgQ05BTUUgcmVzb2x1dGlvbiBmYWlsdXJlcyIsICgpID0+IHsKICAgIGNvbnN0IHJlY29yZCA9IGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5XaGl0ZWxpc3RSZWNvcmREYXRhOwogICAgYXNzZXJ0LmRlZXBFcXVhbChyZWNvcmQucHJvcGVydGllcz8uc3RhdHVzLmVudW0sIFsKICAgICAgImFjdGl2ZSIsCiAgICAgICJwZW5kaW5nIiwKICAgICAgImV4cGlyZWQiLAogICAgICAiZGVsZXRlZCIsCiAgICBdKTsKICAgIGFzc2VydC5vayhyZWNvcmQucmVxdWlyZWQ/LmluY2x1ZGVzKCJleHBpcmVBdCIpKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29udHJhY3QucGF0aHNbIi9hcGkvYWRtaW4vd2hpdGVsaXN0L3tpZH0vcmVmcmVzaCJdPy5wb3N0Py5yZXNwb25zZXM/LlsKICAgICAgICAiMjAwIgogICAgICBdPy5jb250ZW50Py5bImFwcGxpY2F0aW9uL2pzb24iXT8uc2NoZW1hPy4kcmVmLAogICAgICAiIy9jb21wb25lbnRzL3NjaGVtYXMvV2hpdGVsaXN0UmVmcmVzaEVudmVsb3BlRGF0YSIsCiAgICApOwogIH0pOwoKICBpdCgiZGVyaXZlcyBmcm9udGVuZCByZWNvcmRzLCByZXF1ZXN0cywgYW5kIHJlc3BvbnNlcyBmcm9tIHRoZSBjb250cmFjdCIsICgpID0+IHsKICAgIGNvbnN0IGFwaSA9IHJlYWRTb3VyY2UoIi4uL3NyYy9saWIvYXBpL3doaXRlbGlzdC50cyIpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL2NvbXBvbmVudHMgYXMgQXBpQ29udHJhY3RDb21wb25lbnRzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL29wZXJhdGlvbnMgYXMgQXBpQ29udHJhY3RPcGVyYXRpb25zL3UpOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBhcGksCiAgICAgIC9XaGl0ZUxpc3RSZWNvcmQgPSBXaGl0ZWxpc3RTY2hlbWFzXFsiV2hpdGVsaXN0UmVjb3JkRGF0YSJcXS91LAogICAgKTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgYXBpLAogICAgICAvV2hpdGVsaXN0QWRkQm9keSA9IFdoaXRlbGlzdFNjaGVtYXNcWyJXaGl0ZWxpc3RBZGRCb2R5RGF0YSJcXS91LAogICAgKTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goYXBpLCAvZXhwb3J0IGludGVyZmFjZSBXaGl0ZUxpc3RSZWNvcmQvdSk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  components: {
+    schemas: Record<
+      string,
+      {
+        properties?: Record<string, { enum?: string[] }>;
+        required?: string[];
+      }
+    >;
+  };
+  paths: Record<
+    string,
+    Record<
+      string,
+      {
+        "x-fn-knock-contract-source"?: string;
+        responses?: Record<
+          string,
+          {
+            content?: Record<string, { schema?: { $ref?: string } }>;
+          }
+        >;
+      }
+    >
+  >;
+};
+
+describe("whitelist API contract", () => {
+  it("keeps every access-control operation on generated domain schemas", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/whitelist"],
+      ["post", "/api/admin/whitelist"],
+      ["get", "/api/admin/whitelist/regions"],
+      ["post", "/api/admin/whitelist/regions"],
+      ["delete", "/api/admin/whitelist/regions/{id}"],
+      ["delete", "/api/admin/whitelist/{id}"],
+      ["patch", "/api/admin/whitelist/{id}/comment"],
+      ["post", "/api/admin/whitelist/{id}/refresh"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("models pending grants and data-bearing CNAME resolution failures", () => {
+    const record = contract.components.schemas.WhitelistRecordData;
+    assert.deepEqual(record.properties?.status.enum, [
+      "active",
+      "pending",
+      "expired",
+      "deleted",
+    ]);
+    assert.ok(record.required?.includes("expireAt"));
+    assert.equal(
+      contract.paths["/api/admin/whitelist/{id}/refresh"]?.post?.responses?.[
+        "200"
+      ]?.content?.["application/json"]?.schema?.$ref,
+      "#/components/schemas/WhitelistRefreshEnvelopeData",
+    );
+  });
+
+  it("derives frontend records, requests, and responses from the contract", () => {
+    const api = readSource("../src/lib/api/whitelist.ts");
+    assert.match(api, /components as ApiContractComponents/u);
+    assert.match(api, /operations as ApiContractOperations/u);
+    assert.match(
+      api,
+      /WhiteListRecord = WhitelistSchemas\["WhitelistRecordData"\]/u,
+    );
+    assert.match(
+      api,
+      /WhitelistAddBody = WhitelistSchemas\["WhitelistAddBodyData"\]/u,
+    );
+    assert.doesNotMatch(api, /export interface WhiteListRecord/u);
+  });
+});

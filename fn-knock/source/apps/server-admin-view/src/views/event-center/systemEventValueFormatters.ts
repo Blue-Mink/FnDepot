@@ -1,1 +1,171 @@
-aW1wb3J0IHR5cGUgeyBTeXN0ZW1FdmVudFJlY29yZCB9IGZyb20gIi4uLy4uL3R5cGVzIjsKCmV4cG9ydCB0eXBlIFN5c3RlbUV2ZW50VHJhbnNsYXRlID0gKAogIGtleTogc3RyaW5nLAogIHBhcmFtcz86IFJlY29yZDxzdHJpbmcsIHVua25vd24+LAopID0+IHN0cmluZzsKCmNvbnN0IERSSUZUX1NPVVJDRV9MQUJFTF9LRVlTOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogICJwcm94eS1zZXNzaW9uIjogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kcmlmdFNvdXJjZS5wcm94eVNlc3Npb24iLAogICJmbm9zLXRva2VuIjogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kcmlmdFNvdXJjZS5mbm9zVG9rZW4iLAogICJzZXNzaW9uLXJlZnJlc2giOiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRyaWZ0U291cmNlLnNlc3Npb25SZWZyZXNoIiwKICAiYnJvd3Nlci1zZXNzaW9uIjogImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5kcmlmdFNvdXJjZS5icm93c2VyU2Vzc2lvbiIsCn07CmNvbnN0IENIRUNLX1JFQVNPTl9MQUJFTF9LRVlTOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogIGNyb246ICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuY2hlY2tSZWFzb24uY3JvbiIsCiAgbWFudWFsOiAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmNoZWNrUmVhc29uLm1hbnVhbCIsCiAgIm1hbnVhbC1jaGVjay1hbmQtZG93bmxvYWQiOgogICAgImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5jaGVja1JlYXNvbi5tYW51YWxDaGVja0FuZERvd25sb2FkIiwKICAiZG93bmxvYWQtYm9vdHN0cmFwIjoKICAgICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuY2hlY2tSZWFzb24uZG93bmxvYWRCb290c3RyYXAiLAp9Owpjb25zdCBBVVRPX0lQX0dSQU5UX0NPTU1FTlRfVkFMVUVTID0gbmV3IFNldChbCiAgInNlcnZlci5hdXRoLmF1dG9JcEdyYW50Q29tbWVudCIsCiAgIueZu+W9leWQjuiHquWKqOaOiOadgyIsCiAgIueZu+WFpeW+jOiHquWLleaOiOasiiIsCiAgIkF1dG9tYXRpY2FsbHkgYXV0aG9yaXplZCBhZnRlciBzaWduLWluIiwKXSk7CgpleHBvcnQgY29uc3QgY3JlYXRlU3lzdGVtRXZlbnRWYWx1ZUZvcm1hdHRlcnMgPSAoCiAgdHJhbnNsYXRlOiBTeXN0ZW1FdmVudFRyYW5zbGF0ZSwKKSA9PiB7CiAgY29uc3QgdHJhbnNsYXRlVmFsdWUgPSAoCiAgICBwcmVmaXg6IHN0cmluZywKICAgIHZhbHVlOiB1bmtub3duLAogICAga2V5TWFwOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0ge30sCiAgKSA9PiB7CiAgICBjb25zdCBrZXkgPSBTdHJpbmcodmFsdWUgPz8gIiIpOwogICAgaWYgKCFrZXkpIHJldHVybiAiIjsKICAgIGNvbnN0IG1lc3NhZ2VLZXkgPSBrZXlNYXBba2V5XSB8fCBgJHtwcmVmaXh9LiR7a2V5fWA7CiAgICBjb25zdCB0cmFuc2xhdGVkID0gdHJhbnNsYXRlKG1lc3NhZ2VLZXkpOwogICAgcmV0dXJuIHRyYW5zbGF0ZWQgPT09IG1lc3NhZ2VLZXkgPyBrZXkgOiB0cmFuc2xhdGVkOwogIH07CiAgY29uc3QgZm9ybWF0U3ViamVjdEtpbmRMYWJlbCA9ICgKICAgIGtpbmQ6IE5vbk51bGxhYmxlPFN5c3RlbUV2ZW50UmVjb3JkWyJzdWJqZWN0Il0+WyJraW5kIl0sCiAgKSA9PiB0cmFuc2xhdGVWYWx1ZSgiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLnN1YmplY3RLaW5kIiwga2luZCk7CiAgY29uc3QgZm9ybWF0TG9nb3V0U291cmNlTGFiZWwgPSAodmFsdWU6IHVua25vd24pID0+CiAgICB0cmFuc2xhdGVWYWx1ZSgiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmxvZ291dFNvdXJjZSIsIHZhbHVlKTsKICBjb25zdCBmb3JtYXRBdXRoTWV0aG9kTGFiZWwgPSAodmFsdWU6IHVua25vd24pID0+CiAgICB0cmFuc2xhdGVWYWx1ZSgiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmF1dGhNZXRob2QiLCB2YWx1ZSk7CiAgY29uc3QgZm9ybWF0RHJpZnRTb3VyY2VMYWJlbCA9ICh2YWx1ZTogdW5rbm93bikgPT4KICAgIHRyYW5zbGF0ZVZhbHVlKAogICAgICAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmRyaWZ0U291cmNlIiwKICAgICAgdmFsdWUsCiAgICAgIERSSUZUX1NPVVJDRV9MQUJFTF9LRVlTLAogICAgKTsKICBjb25zdCBmb3JtYXRHcmFudFR5cGVMYWJlbCA9ICh2YWx1ZTogdW5rbm93bikgPT4KICAgIHRyYW5zbGF0ZVZhbHVlKCJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZ3JhbnRUeXBlIiwgdmFsdWUpOwogIGNvbnN0IGZvcm1hdFBvc3RMb2dpbkdyYW50TW9kZUxhYmVsID0gKHZhbHVlOiB1bmtub3duKSA9PgogICAgdHJhbnNsYXRlVmFsdWUoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5wb3N0TG9naW5HcmFudE1vZGUiLCB2YWx1ZSk7CiAgY29uc3QgZm9ybWF0VXBkYXRlU2NvcGVMYWJlbCA9ICh2YWx1ZTogdW5rbm93bikgPT4KICAgIHRyYW5zbGF0ZVZhbHVlKCJhZG1pbi5ldmVudENlbnRlci5ldmVudHMudXBkYXRlU2NvcGUiLCB2YWx1ZSk7CiAgY29uc3QgZm9ybWF0SXBTb3VyY2VMYWJlbCA9ICh2YWx1ZTogdW5rbm93bikgPT4KICAgIHRyYW5zbGF0ZVZhbHVlKCJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuaXBTb3VyY2UiLCB2YWx1ZSk7CiAgY29uc3QgZm9ybWF0Q2hlY2tSZWFzb25MYWJlbCA9ICh2YWx1ZTogdW5rbm93bikgPT4KICAgIHRyYW5zbGF0ZVZhbHVlKAogICAgICAiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLmNoZWNrUmVhc29uIiwKICAgICAgdmFsdWUsCiAgICAgIENIRUNLX1JFQVNPTl9MQUJFTF9LRVlTLAogICAgKTsKICBjb25zdCBmb3JtYXRUdW5uZWxMYWJlbCA9ICh2YWx1ZTogdW5rbm93bikgPT4KICAgIHRyYW5zbGF0ZVZhbHVlKCJhZG1pbi5ldmVudENlbnRlci5ldmVudHMudHVubmVsIiwgdmFsdWUpOwogIGNvbnN0IGZvcm1hdFR1bm5lbFN0YXR1c0xhYmVsID0gKHZhbHVlOiB1bmtub3duKSA9PgogICAgdHJhbnNsYXRlVmFsdWUoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy50dW5uZWxTdGF0dXMiLCB2YWx1ZSk7CiAgY29uc3QgZm9ybWF0V2FmTW9kZUxhYmVsID0gKHZhbHVlOiB1bmtub3duKSA9PgogICAgdHJhbnNsYXRlVmFsdWUoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy53YWZNb2RlIiwgdmFsdWUpOwogIGNvbnN0IGZvcm1hdFdhZkFjdGlvbkxhYmVsID0gKHZhbHVlOiB1bmtub3duKSA9PgogICAgdHJhbnNsYXRlVmFsdWUoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy53YWZBY3Rpb24iLCB2YWx1ZSk7CiAgY29uc3Qgc2hvcnRJZCA9ICh2YWx1ZTogc3RyaW5nLCBzaXplID0gMTApID0+CiAgICB2YWx1ZS5sZW5ndGggPD0gc2l6ZQogICAgICA/IHZhbHVlCiAgICAgIDogYCR7dmFsdWUuc2xpY2UoMCwgTWF0aC5tYXgoNCwgc2l6ZSAtIDUpKX0uLi4ke3ZhbHVlLnNsaWNlKC00KX1gOwogIGNvbnN0IGZvcm1hdFN1YmplY3QgPSAoCiAgICBzdWJqZWN0OiBTeXN0ZW1FdmVudFJlY29yZFsic3ViamVjdCJdIHwgdW5kZWZpbmVkLAogICAgc2hvcnRlbklkID0gZmFsc2UsCiAgKSA9PiB7CiAgICBpZiAoIXN1YmplY3QpIHJldHVybiAiLSI7CiAgICBjb25zdCBraW5kID0gZm9ybWF0U3ViamVjdEtpbmRMYWJlbChzdWJqZWN0LmtpbmQpIHx8IHN1YmplY3Qua2luZDsKICAgIGNvbnN0IGlkID0gc2hvcnRlbklkID8gc2hvcnRJZChzdWJqZWN0LmlkLCAxOCkgOiBzdWJqZWN0LmlkOwogICAgcmV0dXJuIGAke2tpbmR9IMK3ICR7aWR9YDsKICB9OwogIGNvbnN0IHNob3J0ZW5NaWRkbGUgPSAodmFsdWU6IHN0cmluZywgbGVhZGluZyA9IDEyLCB0cmFpbGluZyA9IDEwKSA9PgogICAgdmFsdWUubGVuZ3RoIDw9IGxlYWRpbmcgKyB0cmFpbGluZyArIDMKICAgICAgPyB2YWx1ZQogICAgICA6IGAke3ZhbHVlLnNsaWNlKDAsIGxlYWRpbmcpfS4uLiR7dmFsdWUuc2xpY2UoLXRyYWlsaW5nKX1gOwogIGNvbnN0IGZvcm1hdElwRGlzcGxheSA9ICh2YWx1ZTogdW5rbm93bikgPT4gewogICAgY29uc3QgaXAgPSBTdHJpbmcodmFsdWUgPz8gIiIpLnRyaW0oKTsKICAgIGlmICghaXApIHJldHVybiAiLSI7CiAgICBpZiAoaXAuaW5jbHVkZXMoIjoiKSAmJiBpcC5sZW5ndGggPiAyNCkgcmV0dXJuIHNob3J0ZW5NaWRkbGUoaXAsIDE0LCAxMSk7CiAgICBpZiAoaXAubGVuZ3RoID4gMjQpIHJldHVybiBzaG9ydGVuTWlkZGxlKGlwLCAxMiwgOCk7CiAgICByZXR1cm4gaXA7CiAgfTsKICBjb25zdCBmb3JtYXRQZXJjZW50YWdlID0gKHZhbHVlOiB1bmtub3duKSA9PgogICAgdmFsdWUgPT09IHVuZGVmaW5lZCB8fCB2YWx1ZSA9PT0gbnVsbCB8fCB2YWx1ZSA9PT0gIiIKICAgICAgPyAiLSIKICAgICAgOiBgJHtTdHJpbmcodmFsdWUpfSVgOwogIGNvbnN0IGZvcm1hdEJvb2xlYW4gPSAodmFsdWU6IHVua25vd24pID0+CiAgICB2YWx1ZSA9PT0gdW5kZWZpbmVkIHx8IHZhbHVlID09PSBudWxsCiAgICAgID8gIi0iCiAgICAgIDogdmFsdWUKICAgICAgICA/IHRyYW5zbGF0ZSgiYWRtaW4uZXZlbnRDZW50ZXIuZXZlbnRzLnllcyIpCiAgICAgICAgOiB0cmFuc2xhdGUoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5ubyIpOwogIGNvbnN0IGZvcm1hdENyZWRlbnRpYWxEaXNwbGF5ID0gKAogICAgY3JlZGVudGlhbE5hbWU6IHVua25vd24sCiAgICBsaW5rZWRUb3RwTmFtZTogdW5rbm93biwKICAgIGF1dGhNZXRob2Q6IHVua25vd24sCiAgKSA9PiB7CiAgICBjb25zdCBjcmVkZW50aWFsID0KICAgICAgU3RyaW5nKGNyZWRlbnRpYWxOYW1lID8/ICIiKS50cmltKCkgfHwKICAgICAgdHJhbnNsYXRlKCJhZG1pbi5ldmVudENlbnRlci5ldmVudHMudW5rbm93bkNyZWRlbnRpYWwiKTsKICAgIGNvbnN0IGxpbmtlZFRvdHAgPSBTdHJpbmcobGlua2VkVG90cE5hbWUgPz8gIiIpLnRyaW0oKTsKICAgIHJldHVybiBTdHJpbmcoYXV0aE1ldGhvZCA/PyAiIikgPT09ICJQQVNTS0VZIiAmJiBsaW5rZWRUb3RwCiAgICAgID8gYFBhc3NrZXnjgIwke2NyZWRlbnRpYWx944CNIC8gVE9UUOOAjCR7bGlua2VkVG90cH3jgI1gCiAgICAgIDogY3JlZGVudGlhbDsKICB9OwogIGNvbnN0IGZvcm1hdFNlc3Npb25Db21tZW50SW5saW5lID0gKHZhbHVlOiB1bmtub3duKSA9PiB7CiAgICBjb25zdCByYXdDb21tZW50ID0gU3RyaW5nKHZhbHVlID8/ICIiKS50cmltKCk7CiAgICBjb25zdCBjb21tZW50ID0gQVVUT19JUF9HUkFOVF9DT01NRU5UX1ZBTFVFUy5oYXMocmF3Q29tbWVudCkKICAgICAgPyB0cmFuc2xhdGUoImF1dGguYXV0b0lwR3JhbnRDb21tZW50IikKICAgICAgOiByYXdDb21tZW50OwogICAgcmV0dXJuIGNvbW1lbnQKICAgICAgPyB0cmFuc2xhdGUoImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy5zZXNzaW9uQ29tbWVudCIsIHsgY29tbWVudCB9KQogICAgICA6ICIiOwogIH07CiAgY29uc3QgaXNXQUZCbG9ja2luZ0FjdGlvbiA9IChhY3Rpb246IHVua25vd24sIG1vZGU6IHVua25vd24pID0+IHsKICAgIGNvbnN0IG5vcm1hbGl6ZWRBY3Rpb24gPSBTdHJpbmcoYWN0aW9uID8/ICIiKS50b0xvd2VyQ2FzZSgpOwogICAgaWYgKG5vcm1hbGl6ZWRBY3Rpb24gPT09ICJibG9jayIgfHwgbm9ybWFsaXplZEFjdGlvbiA9PT0gImRlbnkiKSByZXR1cm4gdHJ1ZTsKICAgIGlmIChbImRldGVjdCIsICJsb2ciLCAicGFzcyJdLmluY2x1ZGVzKG5vcm1hbGl6ZWRBY3Rpb24pKSByZXR1cm4gZmFsc2U7CiAgICByZXR1cm4gU3RyaW5nKG1vZGUgPz8gIiIpLnRvTG93ZXJDYXNlKCkgPT09ICJibG9ja2luZyI7CiAgfTsKICBjb25zdCBmb3JtYXRXQUZPdXRjb21lTGFiZWwgPSAoYWN0aW9uOiB1bmtub3duLCBtb2RlOiB1bmtub3duKSA9PgogICAgaXNXQUZCbG9ja2luZ0FjdGlvbihhY3Rpb24sIG1vZGUpCiAgICAgID8gZm9ybWF0V2FmQWN0aW9uTGFiZWwoImJsb2NrIikKICAgICAgOiBmb3JtYXRXYWZBY3Rpb25MYWJlbChhY3Rpb24pIHx8IGZvcm1hdFdhZkFjdGlvbkxhYmVsKCJsb2ciKTsKCiAgcmV0dXJuIHsKICAgIGZvcm1hdEF1dGhNZXRob2RMYWJlbCwKICAgIGZvcm1hdEJvb2xlYW4sCiAgICBmb3JtYXRDaGVja1JlYXNvbkxhYmVsLAogICAgZm9ybWF0Q3JlZGVudGlhbERpc3BsYXksCiAgICBmb3JtYXREcmlmdFNvdXJjZUxhYmVsLAogICAgZm9ybWF0R3JhbnRUeXBlTGFiZWwsCiAgICBmb3JtYXRJcERpc3BsYXksCiAgICBmb3JtYXRJcFNvdXJjZUxhYmVsLAogICAgZm9ybWF0TG9nb3V0U291cmNlTGFiZWwsCiAgICBmb3JtYXRQZXJjZW50YWdlLAogICAgZm9ybWF0UG9zdExvZ2luR3JhbnRNb2RlTGFiZWwsCiAgICBmb3JtYXRTZXNzaW9uQ29tbWVudElubGluZSwKICAgIGZvcm1hdFN1YmplY3QsCiAgICBmb3JtYXRUdW5uZWxMYWJlbCwKICAgIGZvcm1hdFR1bm5lbFN0YXR1c0xhYmVsLAogICAgZm9ybWF0VXBkYXRlU2NvcGVMYWJlbCwKICAgIGZvcm1hdFdhZkFjdGlvbkxhYmVsLAogICAgZm9ybWF0V2FmTW9kZUxhYmVsLAogICAgZm9ybWF0V0FGT3V0Y29tZUxhYmVsLAogICAgc2hvcnRJZCwKICB9Owp9OwoKZXhwb3J0IHR5cGUgU3lzdGVtRXZlbnRWYWx1ZUZvcm1hdHRlcnMgPSBSZXR1cm5UeXBlPAogIHR5cGVvZiBjcmVhdGVTeXN0ZW1FdmVudFZhbHVlRm9ybWF0dGVycwo+Owo=
+import type { SystemEventRecord } from "../../types";
+
+export type SystemEventTranslate = (
+  key: string,
+  params?: Record<string, unknown>,
+) => string;
+
+const DRIFT_SOURCE_LABEL_KEYS: Record<string, string> = {
+  "proxy-session": "admin.eventCenter.events.driftSource.proxySession",
+  "fnos-token": "admin.eventCenter.events.driftSource.fnosToken",
+  "session-refresh": "admin.eventCenter.events.driftSource.sessionRefresh",
+  "browser-session": "admin.eventCenter.events.driftSource.browserSession",
+};
+const CHECK_REASON_LABEL_KEYS: Record<string, string> = {
+  cron: "admin.eventCenter.events.checkReason.cron",
+  manual: "admin.eventCenter.events.checkReason.manual",
+  "manual-check-and-download":
+    "admin.eventCenter.events.checkReason.manualCheckAndDownload",
+  "download-bootstrap":
+    "admin.eventCenter.events.checkReason.downloadBootstrap",
+};
+const AUTO_IP_GRANT_COMMENT_VALUES = new Set([
+  "server.auth.autoIpGrantComment",
+  "登录后自动授权",
+  "登入後自動授權",
+  "Automatically authorized after sign-in",
+]);
+
+export const createSystemEventValueFormatters = (
+  translate: SystemEventTranslate,
+) => {
+  const translateValue = (
+    prefix: string,
+    value: unknown,
+    keyMap: Record<string, string> = {},
+  ) => {
+    const key = String(value ?? "");
+    if (!key) return "";
+    const messageKey = keyMap[key] || `${prefix}.${key}`;
+    const translated = translate(messageKey);
+    return translated === messageKey ? key : translated;
+  };
+  const formatSubjectKindLabel = (
+    kind: NonNullable<SystemEventRecord["subject"]>["kind"],
+  ) => translateValue("admin.eventCenter.events.subjectKind", kind);
+  const formatLogoutSourceLabel = (value: unknown) =>
+    translateValue("admin.eventCenter.events.logoutSource", value);
+  const formatAuthMethodLabel = (value: unknown) =>
+    translateValue("admin.eventCenter.events.authMethod", value);
+  const formatDriftSourceLabel = (value: unknown) =>
+    translateValue(
+      "admin.eventCenter.events.driftSource",
+      value,
+      DRIFT_SOURCE_LABEL_KEYS,
+    );
+  const formatGrantTypeLabel = (value: unknown) =>
+    translateValue("admin.eventCenter.events.grantType", value);
+  const formatPostLoginGrantModeLabel = (value: unknown) =>
+    translateValue("admin.eventCenter.events.postLoginGrantMode", value);
+  const formatUpdateScopeLabel = (value: unknown) =>
+    translateValue("admin.eventCenter.events.updateScope", value);
+  const formatIpSourceLabel = (value: unknown) =>
+    translateValue("admin.eventCenter.events.ipSource", value);
+  const formatCheckReasonLabel = (value: unknown) =>
+    translateValue(
+      "admin.eventCenter.events.checkReason",
+      value,
+      CHECK_REASON_LABEL_KEYS,
+    );
+  const formatTunnelLabel = (value: unknown) =>
+    translateValue("admin.eventCenter.events.tunnel", value);
+  const formatTunnelStatusLabel = (value: unknown) =>
+    translateValue("admin.eventCenter.events.tunnelStatus", value);
+  const formatWafModeLabel = (value: unknown) =>
+    translateValue("admin.eventCenter.events.wafMode", value);
+  const formatWafActionLabel = (value: unknown) =>
+    translateValue("admin.eventCenter.events.wafAction", value);
+  const shortId = (value: string, size = 10) =>
+    value.length <= size
+      ? value
+      : `${value.slice(0, Math.max(4, size - 5))}...${value.slice(-4)}`;
+  const formatSubject = (
+    subject: SystemEventRecord["subject"] | undefined,
+    shortenId = false,
+  ) => {
+    if (!subject) return "-";
+    const kind = formatSubjectKindLabel(subject.kind) || subject.kind;
+    const id = shortenId ? shortId(subject.id, 18) : subject.id;
+    return `${kind} · ${id}`;
+  };
+  const shortenMiddle = (value: string, leading = 12, trailing = 10) =>
+    value.length <= leading + trailing + 3
+      ? value
+      : `${value.slice(0, leading)}...${value.slice(-trailing)}`;
+  const formatIpDisplay = (value: unknown) => {
+    const ip = String(value ?? "").trim();
+    if (!ip) return "-";
+    if (ip.includes(":") && ip.length > 24) return shortenMiddle(ip, 14, 11);
+    if (ip.length > 24) return shortenMiddle(ip, 12, 8);
+    return ip;
+  };
+  const formatPercentage = (value: unknown) =>
+    value === undefined || value === null || value === ""
+      ? "-"
+      : `${String(value)}%`;
+  const formatBoolean = (value: unknown) =>
+    value === undefined || value === null
+      ? "-"
+      : value
+        ? translate("admin.eventCenter.events.yes")
+        : translate("admin.eventCenter.events.no");
+  const formatCredentialDisplay = (
+    credentialName: unknown,
+    linkedTotpName: unknown,
+    authMethod: unknown,
+  ) => {
+    const credential =
+      String(credentialName ?? "").trim() ||
+      translate("admin.eventCenter.events.unknownCredential");
+    const linkedTotp = String(linkedTotpName ?? "").trim();
+    return String(authMethod ?? "") === "PASSKEY" && linkedTotp
+      ? `Passkey「${credential}」 / TOTP「${linkedTotp}」`
+      : credential;
+  };
+  const formatSessionCommentInline = (value: unknown) => {
+    const rawComment = String(value ?? "").trim();
+    const comment = AUTO_IP_GRANT_COMMENT_VALUES.has(rawComment)
+      ? translate("auth.autoIpGrantComment")
+      : rawComment;
+    return comment
+      ? translate("admin.eventCenter.events.sessionComment", { comment })
+      : "";
+  };
+  const isWAFBlockingAction = (action: unknown, mode: unknown) => {
+    const normalizedAction = String(action ?? "").toLowerCase();
+    if (normalizedAction === "block" || normalizedAction === "deny") return true;
+    if (["detect", "log", "pass"].includes(normalizedAction)) return false;
+    return String(mode ?? "").toLowerCase() === "blocking";
+  };
+  const formatWAFOutcomeLabel = (action: unknown, mode: unknown) =>
+    isWAFBlockingAction(action, mode)
+      ? formatWafActionLabel("block")
+      : formatWafActionLabel(action) || formatWafActionLabel("log");
+
+  return {
+    formatAuthMethodLabel,
+    formatBoolean,
+    formatCheckReasonLabel,
+    formatCredentialDisplay,
+    formatDriftSourceLabel,
+    formatGrantTypeLabel,
+    formatIpDisplay,
+    formatIpSourceLabel,
+    formatLogoutSourceLabel,
+    formatPercentage,
+    formatPostLoginGrantModeLabel,
+    formatSessionCommentInline,
+    formatSubject,
+    formatTunnelLabel,
+    formatTunnelStatusLabel,
+    formatUpdateScopeLabel,
+    formatWafActionLabel,
+    formatWafModeLabel,
+    formatWAFOutcomeLabel,
+    shortId,
+  };
+};
+
+export type SystemEventValueFormatters = ReturnType<
+  typeof createSystemEventValueFormatters
+>;

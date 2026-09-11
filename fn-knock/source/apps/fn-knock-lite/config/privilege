@@ -1,1 +1,7 @@
-ewogICJ1c2VybmFtZSI6ICJmbi1rbm9jay1saXRlIiwKICAiZ3JvdXBuYW1lIjogImZuLWtub2NrLWxpdGUiLAogICJkZWZhdWx0cyI6IHsKICAgICJydW4tYXMiOiAicGFja2FnZSIKICB9Cn0K
+{
+  "username": "fn-knock-lite",
+  "groupname": "fn-knock-lite",
+  "defaults": {
+    "run-as": "package"
+  }
+}

@@ -1,1 +1,380 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgTG9hZGVyMiwgUmVmcmVzaEN3IH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJ2dWUtc29ubmVyIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IFJ1bnRpbWVIZWFsdGhBUEkgfSBmcm9tICJAL2xpYi9hcGkvcnVudGltZS1oZWFsdGgiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7IG9wZW46IGJvb2xlYW4gfT4oKTsKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICAidXBkYXRlOm9wZW4iOiBbdmFsdWU6IGJvb2xlYW5dOwogIHVwZGF0ZWQ6IFtdOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IGxvYWRpbmcgPSByZWYoZmFsc2UpOwpjb25zdCBzYXZpbmcgPSByZWYoZmFsc2UpOwpjb25zdCByZWNsYWltaW5nID0gcmVmKGZhbHNlKTsKY29uc3QgbG9hZGVkID0gcmVmKGZhbHNlKTsKY29uc3QgbG9hZEZhaWxlZCA9IHJlZihmYWxzZSk7CmNvbnN0IGRyYWZ0ID0gcmVmKCIxMDAiKTsKY29uc3QgbGltaXRNb2RlID0gcmVmPCJhdXRvIiB8ICJtYW51YWwiPigiYXV0byIpOwpjb25zdCBtZW1vcnlMaW1pdERyYWZ0ID0gcmVmKCIyNTYiKTsKY29uc3QgZWZmZWN0aXZlTWVtb3J5TGltaXRCeXRlcyA9IHJlZigwKTsKbGV0IHJlcXVlc3RJZCA9IDA7Cgpjb25zdCBNSU5fR0NfUEVSQ0VOVCA9IDI1Owpjb25zdCBNQVhfR0NfUEVSQ0VOVCA9IDUwMDsKY29uc3QgTUlOX01FTU9SWV9MSU1JVF9NSUIgPSA2NDsKY29uc3QgTUFYX01FTU9SWV9MSU1JVF9NSUIgPSA0MDk2Owpjb25zdCBtZW1vcnlMaW1pdFByZXNldHMgPSBbMTI4LCAyNTYsIDUxMl07Cgpjb25zdCBvcHRpb25zID0gY29tcHV0ZWQoKCkgPT4KICBbNTAsIDEwMCwgMjAwXS5tYXAoKHZhbHVlKSA9PiAoewogICAgdmFsdWU6IFN0cmluZyh2YWx1ZSksCiAgICBsYWJlbDogdChgYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5tZW1vcnkubGV2ZWxzLiR7dmFsdWV9LmxhYmVsYCksCiAgICBkZXNjcmlwdGlvbjogdCgKICAgICAgYGFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUubWVtb3J5LmxldmVscy4ke3ZhbHVlfS5kZXNjcmlwdGlvbmAsCiAgICApLAogIH0pKSwKKTsKY29uc3Qgc2VsZWN0ZWQgPSBjb21wdXRlZCgKICAoKSA9PiBvcHRpb25zLnZhbHVlLmZpbmQoKG9wdGlvbikgPT4gb3B0aW9uLnZhbHVlID09PSBkcmFmdC52YWx1ZSkgPz8gbnVsbCwKKTsKY29uc3QgZHJhZnRQZXJjZW50ID0gY29tcHV0ZWQoKCkgPT4gTnVtYmVyKGRyYWZ0LnZhbHVlKSk7CmNvbnN0IHZhbGlkRHJhZnQgPSBjb21wdXRlZCgKICAoKSA9PgogICAgTnVtYmVyLmlzSW50ZWdlcihkcmFmdFBlcmNlbnQudmFsdWUpICYmCiAgICBkcmFmdFBlcmNlbnQudmFsdWUgPj0gTUlOX0dDX1BFUkNFTlQgJiYKICAgIGRyYWZ0UGVyY2VudC52YWx1ZSA8PSBNQVhfR0NfUEVSQ0VOVCwKKTsKY29uc3QgZHJhZnRNZW1vcnlMaW1pdE1pQiA9IGNvbXB1dGVkKCgpID0+IE51bWJlcihtZW1vcnlMaW1pdERyYWZ0LnZhbHVlKSk7CmNvbnN0IHZhbGlkTWVtb3J5TGltaXQgPSBjb21wdXRlZCgKICAoKSA9PgogICAgbGltaXRNb2RlLnZhbHVlID09PSAiYXV0byIgfHwKICAgIChOdW1iZXIuaXNJbnRlZ2VyKGRyYWZ0TWVtb3J5TGltaXRNaUIudmFsdWUpICYmCiAgICAgIGRyYWZ0TWVtb3J5TGltaXRNaUIudmFsdWUgPj0gTUlOX01FTU9SWV9MSU1JVF9NSUIgJiYKICAgICAgZHJhZnRNZW1vcnlMaW1pdE1pQi52YWx1ZSA8PSBNQVhfTUVNT1JZX0xJTUlUX01JQiksCik7CmNvbnN0IGFjdGlvbkJ1c3kgPSBjb21wdXRlZCgKICAoKSA9PiBsb2FkaW5nLnZhbHVlIHx8IHNhdmluZy52YWx1ZSB8fCByZWNsYWltaW5nLnZhbHVlLAopOwoKY29uc3QgZm9ybWF0Qnl0ZXMgPSAoYnl0ZXM6IG51bWJlcikgPT4gewogIGlmIChieXRlcyA8IDEwMjQpIHJldHVybiBgJHtieXRlc30gQmA7CiAgaWYgKGJ5dGVzIDwgMTAyNCAqIDEwMjQpIHJldHVybiBgJHsoYnl0ZXMgLyAxMDI0KS50b0ZpeGVkKDEpfSBLaUJgOwogIHJldHVybiBgJHsoYnl0ZXMgLyAxMDI0IC8gMTAyNCkudG9GaXhlZCgyKX0gTWlCYDsKfTsKCmNvbnN0IGxvYWRDb25maWcgPSBhc3luYyAoKSA9PiB7CiAgY29uc3QgY3VycmVudFJlcXVlc3QgPSArK3JlcXVlc3RJZDsKICBsb2FkaW5nLnZhbHVlID0gdHJ1ZTsKICBsb2FkZWQudmFsdWUgPSBmYWxzZTsKICBsb2FkRmFpbGVkLnZhbHVlID0gZmFsc2U7CiAgdHJ5IHsKICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IFJ1bnRpbWVIZWFsdGhBUEkuZ2V0R2F0ZXdheU1lbW9yeUNvbmZpZygpOwogICAgaWYgKGN1cnJlbnRSZXF1ZXN0ICE9PSByZXF1ZXN0SWQpIHJldHVybjsKICAgIGRyYWZ0LnZhbHVlID0gU3RyaW5nKHJlc3VsdC5kYXRhLmdjX3BlcmNlbnQpOwogICAgbGltaXRNb2RlLnZhbHVlID0gcmVzdWx0LmRhdGEubWVtb3J5X2xpbWl0X21pYiA9PSBudWxsID8gImF1dG8iIDogIm1hbnVhbCI7CiAgICBtZW1vcnlMaW1pdERyYWZ0LnZhbHVlID0gU3RyaW5nKAogICAgICByZXN1bHQuZGF0YS5tZW1vcnlfbGltaXRfbWliID8/CiAgICAgICAgTWF0aC5yb3VuZChyZXN1bHQuZGF0YS5lZmZlY3RpdmVfbWVtb3J5X2xpbWl0X2J5dGVzIC8gMTAyNCAvIDEwMjQpLAogICAgKTsKICAgIGVmZmVjdGl2ZU1lbW9yeUxpbWl0Qnl0ZXMudmFsdWUgPSByZXN1bHQuZGF0YS5lZmZlY3RpdmVfbWVtb3J5X2xpbWl0X2J5dGVzOwogICAgbG9hZGVkLnZhbHVlID0gdHJ1ZTsKICB9IGNhdGNoIChlcnJvcikgewogICAgaWYgKGN1cnJlbnRSZXF1ZXN0ICE9PSByZXF1ZXN0SWQpIHJldHVybjsKICAgIGxvYWRGYWlsZWQudmFsdWUgPSB0cnVlOwogICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5tZW1vcnkubG9hZEZhaWxlZCIpLCB7CiAgICAgIGRlc2NyaXB0aW9uOiBlcnJvciBpbnN0YW5jZW9mIEVycm9yID8gZXJyb3IubWVzc2FnZSA6IFN0cmluZyhlcnJvciksCiAgICB9KTsKICB9IGZpbmFsbHkgewogICAgaWYgKGN1cnJlbnRSZXF1ZXN0ID09PSByZXF1ZXN0SWQpIGxvYWRpbmcudmFsdWUgPSBmYWxzZTsKICB9Cn07Cgpjb25zdCBzYXZlID0gYXN5bmMgKCkgPT4gewogIGlmICgKICAgICFsb2FkZWQudmFsdWUgfHwKICAgICF2YWxpZERyYWZ0LnZhbHVlIHx8CiAgICAhdmFsaWRNZW1vcnlMaW1pdC52YWx1ZSB8fAogICAgYWN0aW9uQnVzeS52YWx1ZQogICkKICAgIHJldHVybjsKICBzYXZpbmcudmFsdWUgPSB0cnVlOwogIHRyeSB7CiAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBSdW50aW1lSGVhbHRoQVBJLnVwZGF0ZUdhdGV3YXlNZW1vcnlDb25maWcoewogICAgICBnY19wZXJjZW50OiBkcmFmdFBlcmNlbnQudmFsdWUsCiAgICAgIG1lbW9yeV9saW1pdF9taWI6CiAgICAgICAgbGltaXRNb2RlLnZhbHVlID09PSAiYXV0byIgPyBudWxsIDogZHJhZnRNZW1vcnlMaW1pdE1pQi52YWx1ZSwKICAgIH0pOwogICAgZHJhZnQudmFsdWUgPSBTdHJpbmcocmVzdWx0LmRhdGEuZ2NfcGVyY2VudCk7CiAgICBsaW1pdE1vZGUudmFsdWUgPSByZXN1bHQuZGF0YS5tZW1vcnlfbGltaXRfbWliID09IG51bGwgPyAiYXV0byIgOiAibWFudWFsIjsKICAgIG1lbW9yeUxpbWl0RHJhZnQudmFsdWUgPSBTdHJpbmcoCiAgICAgIHJlc3VsdC5kYXRhLm1lbW9yeV9saW1pdF9taWIgPz8gZHJhZnRNZW1vcnlMaW1pdE1pQi52YWx1ZSwKICAgICk7CiAgICBlZmZlY3RpdmVNZW1vcnlMaW1pdEJ5dGVzLnZhbHVlID0gcmVzdWx0LmRhdGEuZWZmZWN0aXZlX21lbW9yeV9saW1pdF9ieXRlczsKICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5tZW1vcnkuc2F2ZVN1Y2Nlc3MiKSk7CiAgICBlbWl0KCJ1cGRhdGVkIik7CiAgICBlbWl0KCJ1cGRhdGU6b3BlbiIsIGZhbHNlKTsKICB9IGNhdGNoIChlcnJvcikgewogICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5tZW1vcnkuc2F2ZUZhaWxlZCIpLCB7CiAgICAgIGRlc2NyaXB0aW9uOiBlcnJvciBpbnN0YW5jZW9mIEVycm9yID8gZXJyb3IubWVzc2FnZSA6IFN0cmluZyhlcnJvciksCiAgICB9KTsKICB9IGZpbmFsbHkgewogICAgc2F2aW5nLnZhbHVlID0gZmFsc2U7CiAgfQp9OwoKY29uc3QgcmVjbGFpbSA9IGFzeW5jICgpID0+IHsKICBpZiAoYWN0aW9uQnVzeS52YWx1ZSkgcmV0dXJuOwogIHJlY2xhaW1pbmcudmFsdWUgPSB0cnVlOwogIHRyeSB7CiAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBSdW50aW1lSGVhbHRoQVBJLnJlY2xhaW1HYXRld2F5TWVtb3J5KCk7CiAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUubWVtb3J5LnJlY2xhaW1TdWNjZXNzIiksIHsKICAgICAgZGVzY3JpcHRpb246IHQoCiAgICAgICAgImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUubWVtb3J5LnJlY2xhaW1TdWNjZXNzRGVzY3JpcHRpb24iLAogICAgICAgIHsKICAgICAgICAgIGhlYXA6IGZvcm1hdEJ5dGVzKHJlc3VsdC5kYXRhLmhlYXBfYWxsb2NfYnl0ZXMpLAogICAgICAgICAgcnNzOiBmb3JtYXRCeXRlcyhyZXN1bHQuZGF0YS5yc3NfYnl0ZXMpLAogICAgICAgIH0sCiAgICAgICksCiAgICB9KTsKICAgIGVtaXQoInVwZGF0ZWQiKTsKICB9IGNhdGNoIChlcnJvcikgewogICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5tZW1vcnkucmVjbGFpbUZhaWxlZCIpLCB7CiAgICAgIGRlc2NyaXB0aW9uOiBlcnJvciBpbnN0YW5jZW9mIEVycm9yID8gZXJyb3IubWVzc2FnZSA6IFN0cmluZyhlcnJvciksCiAgICB9KTsKICB9IGZpbmFsbHkgewogICAgcmVjbGFpbWluZy52YWx1ZSA9IGZhbHNlOwogIH0KfTsKCmNvbnN0IGhhbmRsZU9wZW5DaGFuZ2UgPSAodmFsdWU6IGJvb2xlYW4pID0+IHsKICBpZiAoIXZhbHVlICYmIChzYXZpbmcudmFsdWUgfHwgcmVjbGFpbWluZy52YWx1ZSkpIHJldHVybjsKICBlbWl0KCJ1cGRhdGU6b3BlbiIsIHZhbHVlKTsKfTsKCndhdGNoKAogICgpID0+IHByb3BzLm9wZW4sCiAgKG9wZW4pID0+IHsKICAgIGlmIChvcGVuKSB7CiAgICAgIGRyYWZ0LnZhbHVlID0gIjEwMCI7CiAgICAgIGxpbWl0TW9kZS52YWx1ZSA9ICJhdXRvIjsKICAgICAgbWVtb3J5TGltaXREcmFmdC52YWx1ZSA9ICIyNTYiOwogICAgICBlZmZlY3RpdmVNZW1vcnlMaW1pdEJ5dGVzLnZhbHVlID0gMDsKICAgICAgbG9hZGVkLnZhbHVlID0gZmFsc2U7CiAgICAgIGxvYWRGYWlsZWQudmFsdWUgPSBmYWxzZTsKICAgICAgdm9pZCBsb2FkQ29uZmlnKCk7CiAgICB9IGVsc2UgewogICAgICArK3JlcXVlc3RJZDsKICAgIH0KICB9LAogIHsgaW1tZWRpYXRlOiB0cnVlIH0sCik7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iaGFuZGxlT3BlbkNoYW5nZSI+CiAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ibWF4LWgtWzg1dmhdIG92ZXJmbG93LXktYXV0byBzbTptYXgtdy1tZCI+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPnt7CiAgICAgICAgICB0KCJhZG1pbi5ldmVudENlbnRlci5ydW50aW1lLm1lbW9yeS50aXRsZSIpCiAgICAgICAgfX08L0RpYWxvZ1RpdGxlPgogICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgIHt7IHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUubWVtb3J5LmRlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICA8L0RpYWxvZ0hlYWRlcj4KCiAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTMgcHktMiI+CiAgICAgICAgPHAgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5tZW1vcnkuc3RyZW5ndGgiKSB9fQogICAgICAgIDwvcD4KICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdyaWQtY29scy0zIGdhcC0yIj4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdi1mb3I9Im9wdGlvbiBpbiBvcHRpb25zIgogICAgICAgICAgICA6a2V5PSJvcHRpb24udmFsdWUiCiAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgIDp2YXJpYW50PSJkcmFmdCA9PT0gb3B0aW9uLnZhbHVlID8gJ2RlZmF1bHQnIDogJ291dGxpbmUnIgogICAgICAgICAgICA6ZGlzYWJsZWQ9IiFsb2FkZWQgfHwgYWN0aW9uQnVzeSIKICAgICAgICAgICAgOmFyaWEtcHJlc3NlZD0iZHJhZnQgPT09IG9wdGlvbi52YWx1ZSIKICAgICAgICAgICAgQGNsaWNrPSJkcmFmdCA9IG9wdGlvbi52YWx1ZSIKICAgICAgICAgID4KICAgICAgICAgICAge3sgb3B0aW9uLmxhYmVsIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0yIj4KICAgICAgICAgIDxMYWJlbCBmb3I9ImdhdGV3YXktbWVtb3J5LXN0cmVuZ3RoIj5HT0dDPC9MYWJlbD4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgPExvYWRlcjIgdi1pZj0ibG9hZGluZyIgY2xhc3M9ImgtNCB3LTQgc2hyaW5rLTAgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICBpZD0iZ2F0ZXdheS1tZW1vcnktc3RyZW5ndGgiCiAgICAgICAgICAgICAgdi1tb2RlbD0iZHJhZnQiCiAgICAgICAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgICAgICAgIGlucHV0bW9kZT0ibnVtZXJpYyIKICAgICAgICAgICAgICA6bWluPSJNSU5fR0NfUEVSQ0VOVCIKICAgICAgICAgICAgICA6bWF4PSJNQVhfR0NfUEVSQ0VOVCIKICAgICAgICAgICAgICBzdGVwPSIxIgogICAgICAgICAgICAgIGNsYXNzPSJ0YWJ1bGFyLW51bXMiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSIhbG9hZGVkIHx8IGFjdGlvbkJ1c3kiCiAgICAgICAgICAgICAgOmFyaWEtaW52YWxpZD0iIXZhbGlkRHJhZnQiCiAgICAgICAgICAgICAgYXJpYS1kZXNjcmliZWRieT0iZ2F0ZXdheS1tZW1vcnktc3RyZW5ndGgtZGVzY3JpcHRpb24iCiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+JTwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxwCiAgICAgICAgICBpZD0iZ2F0ZXdheS1tZW1vcnktc3RyZW5ndGgtZGVzY3JpcHRpb24iCiAgICAgICAgICBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUiCiAgICAgICAgICA6Y2xhc3M9InZhbGlkRHJhZnQgPyAndGV4dC1tdXRlZC1mb3JlZ3JvdW5kJyA6ICd0ZXh0LWRlc3RydWN0aXZlJyIKICAgICAgICA+CiAgICAgICAgICA8dGVtcGxhdGUgdi1pZj0idmFsaWREcmFmdCI+CiAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgc2VsZWN0ZWQ/LmRlc2NyaXB0aW9uID8/CiAgICAgICAgICAgICAgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5tZW1vcnkuY3VzdG9tRGVzY3JpcHRpb24iKQogICAgICAgICAgICB9fQogICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgIDx0ZW1wbGF0ZSB2LWVsc2U+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUubWVtb3J5LnJhbmdlRXJyb3IiKSB9fQogICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICA8L3A+CiAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMiBib3JkZXItdCBwdC0zIj4KICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5tZW1vcnkubGltaXRUaXRsZSIpIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5tZW1vcnkubGltaXREZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdyaWQtY29scy0yIGdhcC0yIj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICA6dmFyaWFudD0ibGltaXRNb2RlID09PSAnYXV0bycgPyAnZGVmYXVsdCcgOiAnb3V0bGluZSciCiAgICAgICAgICAgICAgOmRpc2FibGVkPSIhbG9hZGVkIHx8IGFjdGlvbkJ1c3kiCiAgICAgICAgICAgICAgOmFyaWEtcHJlc3NlZD0ibGltaXRNb2RlID09PSAnYXV0byciCiAgICAgICAgICAgICAgQGNsaWNrPSJsaW1pdE1vZGUgPSAnYXV0byciCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5ldmVudENlbnRlci5ydW50aW1lLm1lbW9yeS5hdXRvIikgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgOnZhcmlhbnQ9ImxpbWl0TW9kZSA9PT0gJ21hbnVhbCcgPyAnZGVmYXVsdCcgOiAnb3V0bGluZSciCiAgICAgICAgICAgICAgOmRpc2FibGVkPSIhbG9hZGVkIHx8IGFjdGlvbkJ1c3kiCiAgICAgICAgICAgICAgOmFyaWEtcHJlc3NlZD0ibGltaXRNb2RlID09PSAnbWFudWFsJyIKICAgICAgICAgICAgICBAY2xpY2s9ImxpbWl0TW9kZSA9ICdtYW51YWwnIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5tZW1vcnkubWFudWFsIikgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgdi1pZj0ibGltaXRNb2RlID09PSAnbWFudWFsJyIgY2xhc3M9ImdyaWQgZ2FwLTIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdyaWQtY29scy0zIGdhcC0yIj4KICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICB2LWZvcj0icHJlc2V0IGluIG1lbW9yeUxpbWl0UHJlc2V0cyIKICAgICAgICAgICAgICAgIDprZXk9InByZXNldCIKICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iIWxvYWRlZCB8fCBhY3Rpb25CdXN5IgogICAgICAgICAgICAgICAgQGNsaWNrPSJtZW1vcnlMaW1pdERyYWZ0ID0gU3RyaW5nKHByZXNldCkiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgcHJlc2V0IH19IE1pQgogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgICAgaWQ9ImdhdGV3YXktbWVtb3J5LWxpbWl0IgogICAgICAgICAgICAgICAgdi1tb2RlbD0ibWVtb3J5TGltaXREcmFmdCIKICAgICAgICAgICAgICAgIHR5cGU9Im51bWJlciIKICAgICAgICAgICAgICAgIGlucHV0bW9kZT0ibnVtZXJpYyIKICAgICAgICAgICAgICAgIDptaW49Ik1JTl9NRU1PUllfTElNSVRfTUlCIgogICAgICAgICAgICAgICAgOm1heD0iTUFYX01FTU9SWV9MSU1JVF9NSUIiCiAgICAgICAgICAgICAgICBzdGVwPSIxIgogICAgICAgICAgICAgICAgY2xhc3M9InRhYnVsYXItbnVtcyIKICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iIWxvYWRlZCB8fCBhY3Rpb25CdXN5IgogICAgICAgICAgICAgICAgOmFyaWEtaW52YWxpZD0iIXZhbGlkTWVtb3J5TGltaXQiCiAgICAgICAgICAgICAgICBhcmlhLWRlc2NyaWJlZGJ5PSJnYXRld2F5LW1lbW9yeS1saW1pdC1kZXNjcmlwdGlvbiIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+TWlCPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPHAKICAgICAgICAgICAgICBpZD0iZ2F0ZXdheS1tZW1vcnktbGltaXQtZGVzY3JpcHRpb24iCiAgICAgICAgICAgICAgY2xhc3M9InRleHQteHMgbGVhZGluZy01IgogICAgICAgICAgICAgIDpjbGFzcz0iCiAgICAgICAgICAgICAgICB2YWxpZE1lbW9yeUxpbWl0ID8gJ3RleHQtbXV0ZWQtZm9yZWdyb3VuZCcgOiAndGV4dC1kZXN0cnVjdGl2ZScKICAgICAgICAgICAgICAiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgdmFsaWRNZW1vcnlMaW1pdAogICAgICAgICAgICAgICAgICA/IHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUubWVtb3J5Lm1hbnVhbEhpbnQiKQogICAgICAgICAgICAgICAgICA6IHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUubWVtb3J5Lm1hbnVhbFJhbmdlRXJyb3IiKQogICAgICAgICAgICAgIH19CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPHAKICAgICAgICAgICAgY2xhc3M9InJvdW5kZWQtbWQgYmctbXV0ZWQvNTAgcHgtMyBweS0yIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUubWVtb3J5LmVmZmVjdGl2ZUxpbWl0IiwgewogICAgICAgICAgICAgICAgbGltaXQ6IGZvcm1hdEJ5dGVzKGVmZmVjdGl2ZU1lbW9yeUxpbWl0Qnl0ZXMpLAogICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdgogICAgICAgICAgdi1pZj0ibG9hZEZhaWxlZCIKICAgICAgICAgIHJvbGU9ImFsZXJ0IgogICAgICAgICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItZGVzdHJ1Y3RpdmUvMzAgYmctZGVzdHJ1Y3RpdmUvNSBweC0zIHB5LTIgdGV4dC14cyB0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgID4KICAgICAgICAgIDxzcGFuPnt7IHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUubWVtb3J5LmxvYWRGYWlsZWQiKSB9fTwvc3Bhbj4KICAgICAgICAgIDxCdXR0b24gdHlwZT0iYnV0dG9uIiB2YXJpYW50PSJvdXRsaW5lIiBzaXplPSJzbSIgQGNsaWNrPSJsb2FkQ29uZmlnIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5tZW1vcnkucmV0cnkiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPHAKICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLW1kIGJnLW11dGVkLzUwIHB4LTMgcHktMiB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICA+CiAgICAgICAgICB7eyB0KCJhZG1pbi5ldmVudENlbnRlci5ydW50aW1lLm1lbW9yeS5oaW50IikgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgoKICAgICAgPERpYWxvZ0Zvb3RlciBjbGFzcz0iZ2FwLTIgc206anVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIDpkaXNhYmxlZD0iYWN0aW9uQnVzeSIgQGNsaWNrPSJyZWNsYWltIj4KICAgICAgICAgIDxMb2FkZXIyIHYtaWY9InJlY2xhaW1pbmciIGNsYXNzPSJoLTQgdy00IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgIDxSZWZyZXNoQ3cgdi1lbHNlIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5tZW1vcnkucmVjbGFpbSIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LWNvbC1yZXZlcnNlIGdhcC0yIHNtOmZsZXgtcm93Ij4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgOmRpc2FibGVkPSJzYXZpbmcgfHwgcmVjbGFpbWluZyIKICAgICAgICAgICAgQGNsaWNrPSJoYW5kbGVPcGVuQ2hhbmdlKGZhbHNlKSIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiY29tbW9uLmNhbmNlbCIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgICAhbG9hZGVkIHx8ICF2YWxpZERyYWZ0IHx8ICF2YWxpZE1lbW9yeUxpbWl0IHx8IGFjdGlvbkJ1c3kKICAgICAgICAgICAgIgogICAgICAgICAgICBAY2xpY2s9InNhdmUiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxMb2FkZXIyIHYtaWY9InNhdmluZyIgY2xhc3M9ImgtNCB3LTQgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgICAgICB7eyB0KCJjb21tb24uc2F2ZSIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { Loader2, RefreshCw } from "lucide-vue-next";
+import { toast } from "vue-sonner";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { RuntimeHealthAPI } from "@/lib/api/runtime-health";
+
+const props = defineProps<{ open: boolean }>();
+const emit = defineEmits<{
+  "update:open": [value: boolean];
+  updated: [];
+}>();
+
+const { t } = useI18n();
+const loading = ref(false);
+const saving = ref(false);
+const reclaiming = ref(false);
+const loaded = ref(false);
+const loadFailed = ref(false);
+const draft = ref("100");
+const limitMode = ref<"auto" | "manual">("auto");
+const memoryLimitDraft = ref("256");
+const effectiveMemoryLimitBytes = ref(0);
+let requestId = 0;
+
+const MIN_GC_PERCENT = 25;
+const MAX_GC_PERCENT = 500;
+const MIN_MEMORY_LIMIT_MIB = 64;
+const MAX_MEMORY_LIMIT_MIB = 4096;
+const memoryLimitPresets = [128, 256, 512];
+
+const options = computed(() =>
+  [50, 100, 200].map((value) => ({
+    value: String(value),
+    label: t(`admin.eventCenter.runtime.memory.levels.${value}.label`),
+    description: t(
+      `admin.eventCenter.runtime.memory.levels.${value}.description`,
+    ),
+  })),
+);
+const selected = computed(
+  () => options.value.find((option) => option.value === draft.value) ?? null,
+);
+const draftPercent = computed(() => Number(draft.value));
+const validDraft = computed(
+  () =>
+    Number.isInteger(draftPercent.value) &&
+    draftPercent.value >= MIN_GC_PERCENT &&
+    draftPercent.value <= MAX_GC_PERCENT,
+);
+const draftMemoryLimitMiB = computed(() => Number(memoryLimitDraft.value));
+const validMemoryLimit = computed(
+  () =>
+    limitMode.value === "auto" ||
+    (Number.isInteger(draftMemoryLimitMiB.value) &&
+      draftMemoryLimitMiB.value >= MIN_MEMORY_LIMIT_MIB &&
+      draftMemoryLimitMiB.value <= MAX_MEMORY_LIMIT_MIB),
+);
+const actionBusy = computed(
+  () => loading.value || saving.value || reclaiming.value,
+);
+
+const formatBytes = (bytes: number) => {
+  if (bytes < 1024) return `${bytes} B`;
+  if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KiB`;
+  return `${(bytes / 1024 / 1024).toFixed(2)} MiB`;
+};
+
+const loadConfig = async () => {
+  const currentRequest = ++requestId;
+  loading.value = true;
+  loaded.value = false;
+  loadFailed.value = false;
+  try {
+    const result = await RuntimeHealthAPI.getGatewayMemoryConfig();
+    if (currentRequest !== requestId) return;
+    draft.value = String(result.data.gc_percent);
+    limitMode.value = result.data.memory_limit_mib == null ? "auto" : "manual";
+    memoryLimitDraft.value = String(
+      result.data.memory_limit_mib ??
+        Math.round(result.data.effective_memory_limit_bytes / 1024 / 1024),
+    );
+    effectiveMemoryLimitBytes.value = result.data.effective_memory_limit_bytes;
+    loaded.value = true;
+  } catch (error) {
+    if (currentRequest !== requestId) return;
+    loadFailed.value = true;
+    toast.error(t("admin.eventCenter.runtime.memory.loadFailed"), {
+      description: error instanceof Error ? error.message : String(error),
+    });
+  } finally {
+    if (currentRequest === requestId) loading.value = false;
+  }
+};
+
+const save = async () => {
+  if (
+    !loaded.value ||
+    !validDraft.value ||
+    !validMemoryLimit.value ||
+    actionBusy.value
+  )
+    return;
+  saving.value = true;
+  try {
+    const result = await RuntimeHealthAPI.updateGatewayMemoryConfig({
+      gc_percent: draftPercent.value,
+      memory_limit_mib:
+        limitMode.value === "auto" ? null : draftMemoryLimitMiB.value,
+    });
+    draft.value = String(result.data.gc_percent);
+    limitMode.value = result.data.memory_limit_mib == null ? "auto" : "manual";
+    memoryLimitDraft.value = String(
+      result.data.memory_limit_mib ?? draftMemoryLimitMiB.value,
+    );
+    effectiveMemoryLimitBytes.value = result.data.effective_memory_limit_bytes;
+    toast.success(t("admin.eventCenter.runtime.memory.saveSuccess"));
+    emit("updated");
+    emit("update:open", false);
+  } catch (error) {
+    toast.error(t("admin.eventCenter.runtime.memory.saveFailed"), {
+      description: error instanceof Error ? error.message : String(error),
+    });
+  } finally {
+    saving.value = false;
+  }
+};
+
+const reclaim = async () => {
+  if (actionBusy.value) return;
+  reclaiming.value = true;
+  try {
+    const result = await RuntimeHealthAPI.reclaimGatewayMemory();
+    toast.success(t("admin.eventCenter.runtime.memory.reclaimSuccess"), {
+      description: t(
+        "admin.eventCenter.runtime.memory.reclaimSuccessDescription",
+        {
+          heap: formatBytes(result.data.heap_alloc_bytes),
+          rss: formatBytes(result.data.rss_bytes),
+        },
+      ),
+    });
+    emit("updated");
+  } catch (error) {
+    toast.error(t("admin.eventCenter.runtime.memory.reclaimFailed"), {
+      description: error instanceof Error ? error.message : String(error),
+    });
+  } finally {
+    reclaiming.value = false;
+  }
+};
+
+const handleOpenChange = (value: boolean) => {
+  if (!value && (saving.value || reclaiming.value)) return;
+  emit("update:open", value);
+};
+
+watch(
+  () => props.open,
+  (open) => {
+    if (open) {
+      draft.value = "100";
+      limitMode.value = "auto";
+      memoryLimitDraft.value = "256";
+      effectiveMemoryLimitBytes.value = 0;
+      loaded.value = false;
+      loadFailed.value = false;
+      void loadConfig();
+    } else {
+      ++requestId;
+    }
+  },
+  { immediate: true },
+);
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="handleOpenChange">
+    <DialogContent class="max-h-[85vh] overflow-y-auto sm:max-w-md">
+      <DialogHeader>
+        <DialogTitle>{{
+          t("admin.eventCenter.runtime.memory.title")
+        }}</DialogTitle>
+        <DialogDescription>
+          {{ t("admin.eventCenter.runtime.memory.description") }}
+        </DialogDescription>
+      </DialogHeader>
+
+      <div class="grid gap-3 py-2">
+        <p class="text-sm font-medium">
+          {{ t("admin.eventCenter.runtime.memory.strength") }}
+        </p>
+        <div class="grid grid-cols-3 gap-2">
+          <Button
+            v-for="option in options"
+            :key="option.value"
+            type="button"
+            size="sm"
+            :variant="draft === option.value ? 'default' : 'outline'"
+            :disabled="!loaded || actionBusy"
+            :aria-pressed="draft === option.value"
+            @click="draft = option.value"
+          >
+            {{ option.label }}
+          </Button>
+        </div>
+        <div class="grid gap-2">
+          <Label for="gateway-memory-strength">GOGC</Label>
+          <div class="flex items-center gap-2">
+            <Loader2 v-if="loading" class="h-4 w-4 shrink-0 animate-spin" />
+            <Input
+              id="gateway-memory-strength"
+              v-model="draft"
+              type="number"
+              inputmode="numeric"
+              :min="MIN_GC_PERCENT"
+              :max="MAX_GC_PERCENT"
+              step="1"
+              class="tabular-nums"
+              :disabled="!loaded || actionBusy"
+              :aria-invalid="!validDraft"
+              aria-describedby="gateway-memory-strength-description"
+            />
+            <span class="text-sm text-muted-foreground">%</span>
+          </div>
+        </div>
+        <p
+          id="gateway-memory-strength-description"
+          class="text-xs leading-5"
+          :class="validDraft ? 'text-muted-foreground' : 'text-destructive'"
+        >
+          <template v-if="validDraft">
+            {{
+              selected?.description ??
+              t("admin.eventCenter.runtime.memory.customDescription")
+            }}
+          </template>
+          <template v-else>
+            {{ t("admin.eventCenter.runtime.memory.rangeError") }}
+          </template>
+        </p>
+        <div class="grid gap-2 border-t pt-3">
+          <p class="text-sm font-medium">
+            {{ t("admin.eventCenter.runtime.memory.limitTitle") }}
+          </p>
+          <p class="text-xs leading-5 text-muted-foreground">
+            {{ t("admin.eventCenter.runtime.memory.limitDescription") }}
+          </p>
+          <div class="grid grid-cols-2 gap-2">
+            <Button
+              type="button"
+              size="sm"
+              :variant="limitMode === 'auto' ? 'default' : 'outline'"
+              :disabled="!loaded || actionBusy"
+              :aria-pressed="limitMode === 'auto'"
+              @click="limitMode = 'auto'"
+            >
+              {{ t("admin.eventCenter.runtime.memory.auto") }}
+            </Button>
+            <Button
+              type="button"
+              size="sm"
+              :variant="limitMode === 'manual' ? 'default' : 'outline'"
+              :disabled="!loaded || actionBusy"
+              :aria-pressed="limitMode === 'manual'"
+              @click="limitMode = 'manual'"
+            >
+              {{ t("admin.eventCenter.runtime.memory.manual") }}
+            </Button>
+          </div>
+          <div v-if="limitMode === 'manual'" class="grid gap-2">
+            <div class="grid grid-cols-3 gap-2">
+              <Button
+                v-for="preset in memoryLimitPresets"
+                :key="preset"
+                type="button"
+                size="sm"
+                variant="outline"
+                :disabled="!loaded || actionBusy"
+                @click="memoryLimitDraft = String(preset)"
+              >
+                {{ preset }} MiB
+              </Button>
+            </div>
+            <div class="flex items-center gap-2">
+              <Input
+                id="gateway-memory-limit"
+                v-model="memoryLimitDraft"
+                type="number"
+                inputmode="numeric"
+                :min="MIN_MEMORY_LIMIT_MIB"
+                :max="MAX_MEMORY_LIMIT_MIB"
+                step="1"
+                class="tabular-nums"
+                :disabled="!loaded || actionBusy"
+                :aria-invalid="!validMemoryLimit"
+                aria-describedby="gateway-memory-limit-description"
+              />
+              <span class="text-sm text-muted-foreground">MiB</span>
+            </div>
+            <p
+              id="gateway-memory-limit-description"
+              class="text-xs leading-5"
+              :class="
+                validMemoryLimit ? 'text-muted-foreground' : 'text-destructive'
+              "
+            >
+              {{
+                validMemoryLimit
+                  ? t("admin.eventCenter.runtime.memory.manualHint")
+                  : t("admin.eventCenter.runtime.memory.manualRangeError")
+              }}
+            </p>
+          </div>
+          <p
+            class="rounded-md bg-muted/50 px-3 py-2 text-xs text-muted-foreground"
+          >
+            {{
+              t("admin.eventCenter.runtime.memory.effectiveLimit", {
+                limit: formatBytes(effectiveMemoryLimitBytes),
+              })
+            }}
+          </p>
+        </div>
+        <div
+          v-if="loadFailed"
+          role="alert"
+          class="flex items-center justify-between gap-3 rounded-md border border-destructive/30 bg-destructive/5 px-3 py-2 text-xs text-destructive"
+        >
+          <span>{{ t("admin.eventCenter.runtime.memory.loadFailed") }}</span>
+          <Button type="button" variant="outline" size="sm" @click="loadConfig">
+            {{ t("admin.eventCenter.runtime.memory.retry") }}
+          </Button>
+        </div>
+        <p
+          class="rounded-md bg-muted/50 px-3 py-2 text-xs text-muted-foreground"
+        >
+          {{ t("admin.eventCenter.runtime.memory.hint") }}
+        </p>
+      </div>
+
+      <DialogFooter class="gap-2 sm:justify-between">
+        <Button variant="outline" :disabled="actionBusy" @click="reclaim">
+          <Loader2 v-if="reclaiming" class="h-4 w-4 animate-spin" />
+          <RefreshCw v-else class="h-4 w-4" />
+          {{ t("admin.eventCenter.runtime.memory.reclaim") }}
+        </Button>
+        <div class="flex flex-col-reverse gap-2 sm:flex-row">
+          <Button
+            variant="outline"
+            :disabled="saving || reclaiming"
+            @click="handleOpenChange(false)"
+          >
+            {{ t("common.cancel") }}
+          </Button>
+          <Button
+            :disabled="
+              !loaded || !validDraft || !validMemoryLimit || actionBusy
+            "
+            @click="save"
+          >
+            <Loader2 v-if="saving" class="h-4 w-4 animate-spin" />
+            {{ t("common.save") }}
+          </Button>
+        </div>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

@@ -1,1 +1,12 @@
-IyEvYmluL2Jhc2gKCiMgVGhpcyBoZWxwZXIgaXMgc291cmNlZCBieSB0aGUgZm4ta25vY2sgTGl0ZSBidWlsZCBhbmQgZGVwbG95IGVudHJ5cG9pbnRzLgojIFRoZSBleHBvcnRlZCBtYXJrZXIgaXMgaW5oZXJpdGVkIGJ5IG5lc3RlZCBlbnRyeXBvaW50cyBzbyBhIGRlcGxveSBwZXJmb3JtcwojIHRoZSBtYW5kYXRvcnkgc3luY2hyb25pemF0aW9uIG9uY2UgYmVmb3JlIGFueSBidWlsZCBvciByZW1vdGUgb3BlcmF0aW9uLgppZiBbICIke0ZOX0tOT0NLX0xJVEVfR1JQQ19TWU5DX0dPX0NPTVBMRVRFRDotMH0iICE9ICIxIiBdOyB0aGVuCiAgRk5fS05PQ0tfTElURV9TWU5DX1JPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4iICYmIHB3ZCkiCiAgcHJpbnRmICdbZm4ta25vY2stbGl0ZV0gU3luY2hyb25pemluZyBHbyBnUlBDIGNvbnRyYWN0IGJlZm9yZSBvcGVyYXRpb24uLi5cbicKICBiYXNoICIke0ZOX0tOT0NLX0xJVEVfU1lOQ19ST09UX0RJUn0vc2NyaXB0cy9zeW5jLWdvLWdycGMtY29udHJhY3Quc2giCiAgZXhwb3J0IEZOX0tOT0NLX0xJVEVfR1JQQ19TWU5DX0dPX0NPTVBMRVRFRD0xCiAgdW5zZXQgRk5fS05PQ0tfTElURV9TWU5DX1JPT1RfRElSCmZpCg==
+#!/bin/bash
+
+# This helper is sourced by the fn-knock Lite build and deploy entrypoints.
+# The exported marker is inherited by nested entrypoints so a deploy performs
+# the mandatory synchronization once before any build or remote operation.
+if [ "${FN_KNOCK_LITE_GRPC_SYNC_GO_COMPLETED:-0}" != "1" ]; then
+  FN_KNOCK_LITE_SYNC_ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+  printf '[fn-knock-lite] Synchronizing Go gRPC contract before operation...\n'
+  bash "${FN_KNOCK_LITE_SYNC_ROOT_DIR}/scripts/sync-go-grpc-contract.sh"
+  export FN_KNOCK_LITE_GRPC_SYNC_GO_COMPLETED=1
+  unset FN_KNOCK_LITE_SYNC_ROOT_DIR
+fi

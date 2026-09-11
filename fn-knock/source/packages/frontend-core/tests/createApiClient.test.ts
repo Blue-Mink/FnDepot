@@ -1,1 +1,195 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CmltcG9ydCB7CiAgQXhpb3NIZWFkZXJzLAogIHR5cGUgQXhpb3NJbnN0YW5jZSwKICB0eXBlIEludGVybmFsQXhpb3NSZXF1ZXN0Q29uZmlnLAp9IGZyb20gImF4aW9zIjsKCmltcG9ydCB7CiAgSU5WQUxJRF9BUElfUkVTUE9OU0VfRVJST1JfQ09ERSwKICBjcmVhdGVBcGlDbGllbnQsCiAgaXNJbnZhbGlkQXBpUmVzcG9uc2VFcnJvciwKfSBmcm9tICIuLi9zcmMvYXBpL2NyZWF0ZUFwaUNsaWVudCI7CgppbnRlcmZhY2UgU3R1YlJlc3BvbnNlIHsKICBkYXRhOiB1bmtub3duOwogIGhlYWRlcnM/OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+OwogIHN0YXR1cz86IG51bWJlcjsKfQoKY29uc3Qgc3R1YlJlc3BvbnNlID0gKGNsaWVudDogQXhpb3NJbnN0YW5jZSwgcmVzcG9uc2U6IFN0dWJSZXNwb25zZSkgPT4gewogIGNsaWVudC5kZWZhdWx0cy5hZGFwdGVyID0gYXN5bmMgKGNvbmZpZzogSW50ZXJuYWxBeGlvc1JlcXVlc3RDb25maWcpID0+ICh7CiAgICBjb25maWcsCiAgICBkYXRhOiByZXNwb25zZS5kYXRhLAogICAgaGVhZGVyczogbmV3IEF4aW9zSGVhZGVycyhyZXNwb25zZS5oZWFkZXJzKSwKICAgIHN0YXR1czogcmVzcG9uc2Uuc3RhdHVzID8/IDIwMCwKICAgIHN0YXR1c1RleHQ6ICJPSyIsCiAgfSk7Cn07CgpkZXNjcmliZSgic2hhcmVkIEFQSSByZXNwb25zZSB2YWxpZGF0aW9uIiwgKCkgPT4gewogIGl0KCJhY2NlcHRzIGVudmVsb3BlIGFuZCBkaXJlY3Qtb2JqZWN0IEpTT04gcmVzcG9uc2VzIiwgYXN5bmMgKCkgPT4gewogICAgZm9yIChjb25zdCBkYXRhIG9mIFsKICAgICAgeyBzdWNjZXNzOiB0cnVlLCBkYXRhOiB7IGl0ZW1zOiBbXSB9IH0sCiAgICAgIHsgY2hhbGxlbmdlOiAicG93IiB9LAogICAgXSkgewogICAgICBjb25zdCBjbGllbnQgPSBjcmVhdGVBcGlDbGllbnQoeyBiYXNlVVJMOiAiaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20iIH0pOwogICAgICBzdHViUmVzcG9uc2UoY2xpZW50LCB7CiAgICAgICAgZGF0YSwKICAgICAgICBoZWFkZXJzOiB7ICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIgfSwKICAgICAgfSk7CgogICAgICBhc3NlcnQuZXF1YWwoKGF3YWl0IGNsaWVudC5nZXQoIi9yZXNvdXJjZSIpKS5kYXRhLCBkYXRhKTsKICAgIH0KICB9KTsKCiAgaXQoInJlamVjdHMgc3VjY2Vzc2Z1bCBIVE1MLCBlbXB0eSwgYW5kIHNjYWxhciByZXNwb25zZXMgYXMgQVBJIGVycm9ycyIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGNhc2VzOiBTdHViUmVzcG9uc2VbXSA9IFsKICAgICAgewogICAgICAgIGRhdGE6ICI8IWRvY3R5cGUgaHRtbD48aHRtbD48Ym9keT5sb2dpbjwvYm9keT48L2h0bWw+IiwKICAgICAgICBoZWFkZXJzOiB7ICJDb250ZW50LVR5cGUiOiAidGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04IiB9LAogICAgICB9LAogICAgICB7IGRhdGE6IHVuZGVmaW5lZCB9LAogICAgICB7IGRhdGE6IG51bGwgfSwKICAgICAgeyBkYXRhOiB7fSB9LAogICAgICB7IGRhdGE6IFtdIH0sCiAgICAgIHsgZGF0YTogIm5vdCB2YWxpZCBqc29uIiB9LAogICAgICB7IGRhdGE6IDQyLCBoZWFkZXJzOiB7ICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIgfSB9LAogICAgXTsKCiAgICBmb3IgKGNvbnN0IHJlc3BvbnNlIG9mIGNhc2VzKSB7CiAgICAgIGNvbnN0IGNsaWVudCA9IGNyZWF0ZUFwaUNsaWVudCh7CiAgICAgICAgYmFzZVVSTDogImh0dHBzOi8vYXBpLmV4YW1wbGUuY29tIiwKICAgICAgICBpbnZhbGlkUmVzcG9uc2VNZXNzYWdlOiAiTG9jYWxpemVkIGludmFsaWQgcmVzcG9uc2UiLAogICAgICB9KTsKICAgICAgc3R1YlJlc3BvbnNlKGNsaWVudCwgcmVzcG9uc2UpOwoKICAgICAgYXdhaXQgYXNzZXJ0LnJlamVjdHMoY2xpZW50LmdldCgiL3Jlc291cmNlIiksIChlcnJvcjogdW5rbm93bikgPT4gewogICAgICAgIGFzc2VydC5lcXVhbChpc0ludmFsaWRBcGlSZXNwb25zZUVycm9yKGVycm9yKSwgdHJ1ZSk7CiAgICAgICAgYXNzZXJ0LmVxdWFsKAogICAgICAgICAgKGVycm9yIGFzIHsgY29kZT86IHN0cmluZyB9KS5jb2RlLAogICAgICAgICAgSU5WQUxJRF9BUElfUkVTUE9OU0VfRVJST1JfQ09ERSwKICAgICAgICApOwogICAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICAgIChlcnJvciBhcyB7IHJlc3BvbnNlPzogeyBkYXRhPzogeyBtZXNzYWdlPzogc3RyaW5nIH0gfSB9KS5yZXNwb25zZQogICAgICAgICAgICA/LmRhdGE/Lm1lc3NhZ2UsCiAgICAgICAgICAiTG9jYWxpemVkIGludmFsaWQgcmVzcG9uc2UiLAogICAgICAgICk7CiAgICAgICAgYXNzZXJ0LmVxdWFsKAogICAgICAgICAgKGVycm9yIGFzIHsgbWVzc2FnZT86IHN0cmluZyB9KS5tZXNzYWdlLAogICAgICAgICAgIkxvY2FsaXplZCBpbnZhbGlkIHJlc3BvbnNlIiwKICAgICAgICApOwogICAgICAgIHJldHVybiB0cnVlOwogICAgICB9KTsKICAgIH0KICB9KTsKCiAgaXQoImFsbG93cyBpbnRlbnRpb25hbCBlbXB0eSBhbmQgYmluYXJ5IHJlc3BvbnNlcyIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGVtcHR5Q2xpZW50ID0gY3JlYXRlQXBpQ2xpZW50KHsKICAgICAgYmFzZVVSTDogImh0dHBzOi8vYXBpLmV4YW1wbGUuY29tIiwKICAgIH0pOwogICAgc3R1YlJlc3BvbnNlKGVtcHR5Q2xpZW50LCB7IGRhdGE6ICIiLCBzdGF0dXM6IDIwNCB9KTsKICAgIGFzc2VydC5lcXVhbCgoYXdhaXQgZW1wdHlDbGllbnQuZGVsZXRlKCIvcmVzb3VyY2UiKSkuc3RhdHVzLCAyMDQpOwoKICAgIGNvbnN0IGJpbmFyeUNsaWVudCA9IGNyZWF0ZUFwaUNsaWVudCh7CiAgICAgIGJhc2VVUkw6ICJodHRwczovL2FwaS5leGFtcGxlLmNvbSIsCiAgICB9KTsKICAgIGNvbnN0IGFyY2hpdmUgPSBuZXcgQmxvYihbbmV3IFVpbnQ4QXJyYXkoWzB4NTAsIDB4NGIsIDB4MDMsIDB4MDRdKV0sIHsKICAgICAgdHlwZTogImFwcGxpY2F0aW9uL3ppcCIsCiAgICB9KTsKICAgIHN0dWJSZXNwb25zZShiaW5hcnlDbGllbnQsIHsKICAgICAgZGF0YTogYXJjaGl2ZSwKICAgICAgaGVhZGVyczogeyAiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL3ppcCIgfSwKICAgIH0pOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICAoYXdhaXQgYmluYXJ5Q2xpZW50LmdldCgiL2FyY2hpdmUiLCB7IHJlc3BvbnNlVHlwZTogImJsb2IiIH0pKS5kYXRhLAogICAgICBhcmNoaXZlLAogICAgKTsKICB9KTsKCiAgaXQoInJlamVjdHMgYW4gSFRNTCBkb2N1bWVudCByZXR1cm5lZCB0byBhIGJpbmFyeSBkb3dubG9hZCByZXF1ZXN0IiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgY2xpZW50ID0gY3JlYXRlQXBpQ2xpZW50KHsgYmFzZVVSTDogImh0dHBzOi8vYXBpLmV4YW1wbGUuY29tIiB9KTsKICAgIHN0dWJSZXNwb25zZShjbGllbnQsIHsKICAgICAgZGF0YTogbmV3IEJsb2IoWyI8aHRtbD48Ym9keT5sb2dpbjwvYm9keT48L2h0bWw+Il0sIHsKICAgICAgICB0eXBlOiAiYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtIiwKICAgICAgfSksCiAgICAgIGhlYWRlcnM6IHsgIkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0iIH0sCiAgICB9KTsKCiAgICBhd2FpdCBhc3NlcnQucmVqZWN0cygKICAgICAgY2xpZW50LmdldCgiL2FyY2hpdmUiLCB7IHJlc3BvbnNlVHlwZTogImJsb2IiIH0pLAogICAgICBpc0ludmFsaWRBcGlSZXNwb25zZUVycm9yLAogICAgKTsKICB9KTsKCiAgaXQoInJlamVjdHMgYSBKU09OIGVycm9yIHBheWxvYWQgcmV0dXJuZWQgdG8gYSBiaW5hcnkgZG93bmxvYWQgcmVxdWVzdCIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGNsaWVudCA9IGNyZWF0ZUFwaUNsaWVudCh7IGJhc2VVUkw6ICJodHRwczovL2FwaS5leGFtcGxlLmNvbSIgfSk7CiAgICBzdHViUmVzcG9uc2UoY2xpZW50LCB7CiAgICAgIGRhdGE6IG5ldyBCbG9iKFsneyJzdWNjZXNzIjpmYWxzZSwibWVzc2FnZSI6ImxvZ2luIHJlcXVpcmVkIn0nXSwgewogICAgICAgIHR5cGU6ICJhcHBsaWNhdGlvbi9qc29uIiwKICAgICAgfSksCiAgICAgIGhlYWRlcnM6IHsgIkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9wcm9ibGVtK2pzb24iIH0sCiAgICB9KTsKCiAgICBhd2FpdCBhc3NlcnQucmVqZWN0cygKICAgICAgY2xpZW50LmdldCgiL2FyY2hpdmUiLCB7IHJlc3BvbnNlVHlwZTogImJsb2IiIH0pLAogICAgICBpc0ludmFsaWRBcGlSZXNwb25zZUVycm9yLAogICAgKTsKICB9KTsKCiAgaXQoImFsbG93cyBhbiBleHBsaWNpdGx5IGRlY2xhcmVkIEhUTUwgZG9jdW1lbnQgZG93bmxvYWQiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBjbGllbnQgPSBjcmVhdGVBcGlDbGllbnQoeyBiYXNlVVJMOiAiaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20iIH0pOwogICAgY29uc3QgZG9jdW1lbnQgPSBuZXcgQmxvYihbIjxodG1sPjxib2R5PmJvb2ttYXJrczwvYm9keT48L2h0bWw+Il0sIHsKICAgICAgdHlwZTogInRleHQvaHRtbCIsCiAgICB9KTsKICAgIHN0dWJSZXNwb25zZShjbGllbnQsIHsKICAgICAgZGF0YTogZG9jdW1lbnQsCiAgICAgIGhlYWRlcnM6IHsKICAgICAgICAiQ29udGVudC1EaXNwb3NpdGlvbiI6ICdhdHRhY2htZW50OyBmaWxlbmFtZT0iYm9va21hcmtzLmh0bWwiJywKICAgICAgICAiQ29udGVudC1UeXBlIjogInRleHQvaHRtbCIsCiAgICAgIH0sCiAgICB9KTsKCiAgICBhc3NlcnQuZXF1YWwoCiAgICAgICgKICAgICAgICBhd2FpdCBjbGllbnQuZ2V0KCIvYm9va21hcmtzIiwgewogICAgICAgICAgZm5Lbm9ja0FsbG93RG9jdW1lbnRSZXNwb25zZTogdHJ1ZSwKICAgICAgICAgIHJlc3BvbnNlVHlwZTogImJsb2IiLAogICAgICAgIH0pCiAgICAgICkuZGF0YSwKICAgICAgZG9jdW1lbnQsCiAgICApOwoKICAgIGNvbnN0IGpzb25DbGllbnQgPSBjcmVhdGVBcGlDbGllbnQoewogICAgICBiYXNlVVJMOiAiaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20iLAogICAgfSk7CiAgICBzdHViUmVzcG9uc2UoanNvbkNsaWVudCwgewogICAgICBkYXRhOiAiPGh0bWw+PGJvZHk+bG9naW48L2JvZHk+PC9odG1sPiIsCiAgICAgIGhlYWRlcnM6IHsgIkNvbnRlbnQtVHlwZSI6ICJ0ZXh0L2h0bWwiIH0sCiAgICB9KTsKICAgIGF3YWl0IGFzc2VydC5yZWplY3RzKAogICAgICBqc29uQ2xpZW50LmdldCgiL3Jlc291cmNlIiwgewogICAgICAgIGZuS25vY2tBbGxvd0RvY3VtZW50UmVzcG9uc2U6IHRydWUsCiAgICAgIH0pLAogICAgICBpc0ludmFsaWRBcGlSZXNwb25zZUVycm9yLAogICAgKTsKCiAgICBjb25zdCBpbnRlcmNlcHRlZENsaWVudCA9IGNyZWF0ZUFwaUNsaWVudCh7CiAgICAgIGJhc2VVUkw6ICJodHRwczovL2FwaS5leGFtcGxlLmNvbSIsCiAgICB9KTsKICAgIHN0dWJSZXNwb25zZShpbnRlcmNlcHRlZENsaWVudCwgewogICAgICBkYXRhOiBkb2N1bWVudCwKICAgICAgaGVhZGVyczogeyAiQ29udGVudC1UeXBlIjogInRleHQvaHRtbCIgfSwKICAgIH0pOwogICAgYXdhaXQgYXNzZXJ0LnJlamVjdHMoCiAgICAgIGludGVyY2VwdGVkQ2xpZW50LmdldCgiL2Jvb2ttYXJrcyIsIHsKICAgICAgICBmbktub2NrQWxsb3dEb2N1bWVudFJlc3BvbnNlOiB0cnVlLAogICAgICAgIHJlc3BvbnNlVHlwZTogImJsb2IiLAogICAgICB9KSwKICAgICAgaXNJbnZhbGlkQXBpUmVzcG9uc2VFcnJvciwKICAgICk7CiAgfSk7Cn0pOwo=
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import {
+  AxiosHeaders,
+  type AxiosInstance,
+  type InternalAxiosRequestConfig,
+} from "axios";
+
+import {
+  INVALID_API_RESPONSE_ERROR_CODE,
+  createApiClient,
+  isInvalidApiResponseError,
+} from "../src/api/createApiClient";
+
+interface StubResponse {
+  data: unknown;
+  headers?: Record<string, string>;
+  status?: number;
+}
+
+const stubResponse = (client: AxiosInstance, response: StubResponse) => {
+  client.defaults.adapter = async (config: InternalAxiosRequestConfig) => ({
+    config,
+    data: response.data,
+    headers: new AxiosHeaders(response.headers),
+    status: response.status ?? 200,
+    statusText: "OK",
+  });
+};
+
+describe("shared API response validation", () => {
+  it("accepts envelope and direct-object JSON responses", async () => {
+    for (const data of [
+      { success: true, data: { items: [] } },
+      { challenge: "pow" },
+    ]) {
+      const client = createApiClient({ baseURL: "https://api.example.com" });
+      stubResponse(client, {
+        data,
+        headers: { "Content-Type": "application/json" },
+      });
+
+      assert.equal((await client.get("/resource")).data, data);
+    }
+  });
+
+  it("rejects successful HTML, empty, and scalar responses as API errors", async () => {
+    const cases: StubResponse[] = [
+      {
+        data: "<!doctype html><html><body>login</body></html>",
+        headers: { "Content-Type": "text/html; charset=utf-8" },
+      },
+      { data: undefined },
+      { data: null },
+      { data: {} },
+      { data: [] },
+      { data: "not valid json" },
+      { data: 42, headers: { "Content-Type": "application/json" } },
+    ];
+
+    for (const response of cases) {
+      const client = createApiClient({
+        baseURL: "https://api.example.com",
+        invalidResponseMessage: "Localized invalid response",
+      });
+      stubResponse(client, response);
+
+      await assert.rejects(client.get("/resource"), (error: unknown) => {
+        assert.equal(isInvalidApiResponseError(error), true);
+        assert.equal(
+          (error as { code?: string }).code,
+          INVALID_API_RESPONSE_ERROR_CODE,
+        );
+        assert.equal(
+          (error as { response?: { data?: { message?: string } } }).response
+            ?.data?.message,
+          "Localized invalid response",
+        );
+        assert.equal(
+          (error as { message?: string }).message,
+          "Localized invalid response",
+        );
+        return true;
+      });
+    }
+  });
+
+  it("allows intentional empty and binary responses", async () => {
+    const emptyClient = createApiClient({
+      baseURL: "https://api.example.com",
+    });
+    stubResponse(emptyClient, { data: "", status: 204 });
+    assert.equal((await emptyClient.delete("/resource")).status, 204);
+
+    const binaryClient = createApiClient({
+      baseURL: "https://api.example.com",
+    });
+    const archive = new Blob([new Uint8Array([0x50, 0x4b, 0x03, 0x04])], {
+      type: "application/zip",
+    });
+    stubResponse(binaryClient, {
+      data: archive,
+      headers: { "Content-Type": "application/zip" },
+    });
+    assert.equal(
+      (await binaryClient.get("/archive", { responseType: "blob" })).data,
+      archive,
+    );
+  });
+
+  it("rejects an HTML document returned to a binary download request", async () => {
+    const client = createApiClient({ baseURL: "https://api.example.com" });
+    stubResponse(client, {
+      data: new Blob(["<html><body>login</body></html>"], {
+        type: "application/octet-stream",
+      }),
+      headers: { "Content-Type": "application/octet-stream" },
+    });
+
+    await assert.rejects(
+      client.get("/archive", { responseType: "blob" }),
+      isInvalidApiResponseError,
+    );
+  });
+
+  it("rejects a JSON error payload returned to a binary download request", async () => {
+    const client = createApiClient({ baseURL: "https://api.example.com" });
+    stubResponse(client, {
+      data: new Blob(['{"success":false,"message":"login required"}'], {
+        type: "application/json",
+      }),
+      headers: { "Content-Type": "application/problem+json" },
+    });
+
+    await assert.rejects(
+      client.get("/archive", { responseType: "blob" }),
+      isInvalidApiResponseError,
+    );
+  });
+
+  it("allows an explicitly declared HTML document download", async () => {
+    const client = createApiClient({ baseURL: "https://api.example.com" });
+    const document = new Blob(["<html><body>bookmarks</body></html>"], {
+      type: "text/html",
+    });
+    stubResponse(client, {
+      data: document,
+      headers: {
+        "Content-Disposition": 'attachment; filename="bookmarks.html"',
+        "Content-Type": "text/html",
+      },
+    });
+
+    assert.equal(
+      (
+        await client.get("/bookmarks", {
+          fnKnockAllowDocumentResponse: true,
+          responseType: "blob",
+        })
+      ).data,
+      document,
+    );
+
+    const jsonClient = createApiClient({
+      baseURL: "https://api.example.com",
+    });
+    stubResponse(jsonClient, {
+      data: "<html><body>login</body></html>",
+      headers: { "Content-Type": "text/html" },
+    });
+    await assert.rejects(
+      jsonClient.get("/resource", {
+        fnKnockAllowDocumentResponse: true,
+      }),
+      isInvalidApiResponseError,
+    );
+
+    const interceptedClient = createApiClient({
+      baseURL: "https://api.example.com",
+    });
+    stubResponse(interceptedClient, {
+      data: document,
+      headers: { "Content-Type": "text/html" },
+    });
+    await assert.rejects(
+      interceptedClient.get("/bookmarks", {
+        fnKnockAllowDocumentResponse: true,
+        responseType: "blob",
+      }),
+      isInvalidApiResponseError,
+    );
+  });
+});

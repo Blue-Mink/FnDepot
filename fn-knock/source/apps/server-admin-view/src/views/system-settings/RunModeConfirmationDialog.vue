@@ -1,1 +1,95 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDaGVja2JveCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jaGVja2JveCI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKCmRlZmluZVByb3BzPHsKICBjb250ZW50OiB7IHRpdGxlOiBzdHJpbmc7IGRlc2NyaXB0aW9uOiBzdHJpbmc7IGl0ZW1zOiBzdHJpbmdbXSB9OwogIGRvbnRTaG93QWdhaW46IGJvb2xlYW47CiAgb3BlbjogYm9vbGVhbjsKICBzYXZpbmc6IGJvb2xlYW47Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIGNsb3NlOiBbXTsKICBjb25maXJtOiBbXTsKICAidXBkYXRlOmRvbnRTaG93QWdhaW4iOiBbY2hlY2tlZDogYm9vbGVhbl07CiAgInVwZGF0ZTpvcGVuIjogW29wZW46IGJvb2xlYW5dOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iZW1pdCgndXBkYXRlOm9wZW4nLCAkZXZlbnQpIj4KICAgIDxEaWFsb2dDb250ZW50CiAgICAgIGNsYXNzPSJvdmVyZmxvdy1oaWRkZW4gYm9yZGVyLWJvcmRlciBiZy1jYXJkIHAtMCB0ZXh0LWNhcmQtZm9yZWdyb3VuZCBzaGFkb3cteGwgc206bWF4LXctWzc2MHB4XSIKICAgID4KICAgICAgPGRpdiBjbGFzcz0icHgtOCBwdC04IHBiLTYiPgogICAgICAgIDxEaWFsb2dIZWFkZXIgY2xhc3M9InNwYWNlLXktMyB0ZXh0LWxlZnQiPgogICAgICAgICAgPHAKICAgICAgICAgICAgY2xhc3M9InRleHQtWzExcHhdIGZvbnQtc2VtaWJvbGQgdXBwZXJjYXNlIHRyYWNraW5nLVswLjIyZW1dIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnN3aXRjaEV5ZWJyb3ciKSB9fQogICAgICAgICAgPC9wPgogICAgICAgICAgPERpYWxvZ1RpdGxlCiAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LTJ4bCBmb250LXNlbWlib2xkIHRyYWNraW5nLXRpZ2h0IHRleHQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgY29udGVudC50aXRsZSB9fQogICAgICAgICAgPC9EaWFsb2dUaXRsZT4KICAgICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbgogICAgICAgICAgICBjbGFzcz0ibWF4LXctWzU2Y2hdIHRleHQtc20gbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgY29udGVudC5kZXNjcmlwdGlvbiB9fQogICAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICA8L0RpYWxvZ0hlYWRlcj4KCiAgICAgICAgPHVsIGNsYXNzPSJtdC04IGRpdmlkZS15IGRpdmlkZS1ib3JkZXIgYm9yZGVyLXkgYm9yZGVyLWJvcmRlciI+CiAgICAgICAgICA8bGkKICAgICAgICAgICAgdi1mb3I9IihpdGVtLCBpbmRleCkgaW4gY29udGVudC5pdGVtcyIKICAgICAgICAgICAgOmtleT0iaXRlbSIKICAgICAgICAgICAgY2xhc3M9ImdyaWQgZ3JpZC1jb2xzLVthdXRvXzFmcl0gaXRlbXMtc3RhcnQgZ2FwLXgtNCBweS00IgogICAgICAgICAgPgogICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgIGNsYXNzPSJwdC0wLjUgZm9udC1tb25vIHRleHQtWzExcHhdIHRyYWNraW5nLVswLjE4ZW1dIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IFN0cmluZyhpbmRleCArIDEpLnBhZFN0YXJ0KDIsICIwIikgfX0KICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1mb3JlZ3JvdW5kIj57eyBpdGVtIH19PC9wPgogICAgICAgICAgPC9saT4KICAgICAgICA8L3VsPgoKICAgICAgICA8bGFiZWwKICAgICAgICAgIGNsYXNzPSJtdC02IGZsZXggaXRlbXMtY2VudGVyIGdhcC0zIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgID4KICAgICAgICAgIDxDaGVja2JveAogICAgICAgICAgICA6bW9kZWwtdmFsdWU9ImRvbnRTaG93QWdhaW4iCiAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9ImVtaXQoJ3VwZGF0ZTpkb250U2hvd0FnYWluJywgJGV2ZW50ID09PSB0cnVlKSIKICAgICAgICAgIC8+CiAgICAgICAgICA8c3Bhbj57eyB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MuZG9udFNob3dBZ2FpbiIpIH19PC9zcGFuPgogICAgICAgIDwvbGFiZWw+CiAgICAgIDwvZGl2PgoKICAgICAgPERpYWxvZ0Zvb3RlciBjbGFzcz0iYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBiZy1tdXRlZC8yMCBweC04IHB5LTQiPgogICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgQGNsaWNrPSJlbWl0KCdjbG9zZScpIj57ewogICAgICAgICAgdCgiY29tbW9uLmNhbmNlbCIpCiAgICAgICAgfX08L0J1dHRvbj4KICAgICAgICA8QnV0dG9uIDpkaXNhYmxlZD0ic2F2aW5nIiBAY2xpY2s9ImVtaXQoJ2NvbmZpcm0nKSI+CiAgICAgICAgICA8c3BhbgogICAgICAgICAgICB2LWlmPSJzYXZpbmciCiAgICAgICAgICAgIGNsYXNzPSJtci0yIGgtNCB3LTQgYW5pbWF0ZS1zcGluIHJvdW5kZWQtZnVsbCBib3JkZXItMiBib3JkZXItYmFja2dyb3VuZCBib3JkZXItdC1mb3JlZ3JvdW5kIgogICAgICAgICAgLz4KICAgICAgICAgIHt7IHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5jb25maXJtU3dpdGNoIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+
+defineProps<{
+  content: { title: string; description: string; items: string[] };
+  dontShowAgain: boolean;
+  open: boolean;
+  saving: boolean;
+}>();
+
+const emit = defineEmits<{
+  close: [];
+  confirm: [];
+  "update:dontShowAgain": [checked: boolean];
+  "update:open": [open: boolean];
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent
+      class="overflow-hidden border-border bg-card p-0 text-card-foreground shadow-xl sm:max-w-[760px]"
+    >
+      <div class="px-8 pt-8 pb-6">
+        <DialogHeader class="space-y-3 text-left">
+          <p
+            class="text-[11px] font-semibold uppercase tracking-[0.22em] text-muted-foreground"
+          >
+            {{ t("admin.runModeSettings.switchEyebrow") }}
+          </p>
+          <DialogTitle
+            class="text-2xl font-semibold tracking-tight text-foreground"
+          >
+            {{ content.title }}
+          </DialogTitle>
+          <DialogDescription
+            class="max-w-[56ch] text-sm leading-6 text-muted-foreground"
+          >
+            {{ content.description }}
+          </DialogDescription>
+        </DialogHeader>
+
+        <ul class="mt-8 divide-y divide-border border-y border-border">
+          <li
+            v-for="(item, index) in content.items"
+            :key="item"
+            class="grid grid-cols-[auto_1fr] items-start gap-x-4 py-4"
+          >
+            <span
+              class="pt-0.5 font-mono text-[11px] tracking-[0.18em] text-muted-foreground"
+            >
+              {{ String(index + 1).padStart(2, "0") }}
+            </span>
+            <p class="text-sm leading-6 text-foreground">{{ item }}</p>
+          </li>
+        </ul>
+
+        <label
+          class="mt-6 flex items-center gap-3 text-sm text-muted-foreground"
+        >
+          <Checkbox
+            :model-value="dontShowAgain"
+            @update:model-value="emit('update:dontShowAgain', $event === true)"
+          />
+          <span>{{ t("admin.runModeSettings.dontShowAgain") }}</span>
+        </label>
+      </div>
+
+      <DialogFooter class="border-t border-border bg-muted/20 px-8 py-4">
+        <Button variant="outline" @click="emit('close')">{{
+          t("common.cancel")
+        }}</Button>
+        <Button :disabled="saving" @click="emit('confirm')">
+          <span
+            v-if="saving"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          />
+          {{ t("admin.runModeSettings.confirmSwitch") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

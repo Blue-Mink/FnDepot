@@ -1,1 +1,372 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvbk1vdW50ZWQsIHJlZiwgdXNlSWQgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgewogIEJyZWFkY3J1bWIsCiAgQnJlYWRjcnVtYkl0ZW0sCiAgQnJlYWRjcnVtYkxpbmssCiAgQnJlYWRjcnVtYkxpc3QsCiAgQnJlYWRjcnVtYlBhZ2UsCiAgQnJlYWRjcnVtYlNlcGFyYXRvciwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnJlYWRjcnVtYiI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgQ2FyZCwKICBDYXJkQ29udGVudCwKICBDYXJkRGVzY3JpcHRpb24sCiAgQ2FyZEhlYWRlciwKICBDYXJkVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IFNrZWxldG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NrZWxldG9uIjsKaW1wb3J0IHsgU3dpdGNoIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N3aXRjaCI7CmltcG9ydCBSZWZyZXNoQnV0dG9uIGZyb20gIkAvY29tcG9uZW50cy9SZWZyZXNoQnV0dG9uLnZ1ZSI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7IGV4dHJhY3RFcnJvck1lc3NhZ2UgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgU3lzdGVtQVBJIH0gZnJvbSAiQC9saWIvYXBpL3N5c3RlbSI7CmltcG9ydCB0eXBlIHsKICBGbm9zQ2VydGlmaWNhdGVTeW5jRGV0YWlscywKICBGbm9zQ2VydGlmaWNhdGVTeW5jSXRlbSwKICBGbm9zQ2VydGlmaWNhdGVTeW5jU3RhdHVzLAp9IGZyb20gIi4uLy4uL3R5cGVzIjsKCmNvbnN0IGExMXlJZCA9IHVzZUlkKCk7Cgpjb25zdCB7IHQsIGxvY2FsZSB9ID0gdXNlSTE4bigpOwpjb25zdCBkZXRhaWxzID0gcmVmPEZub3NDZXJ0aWZpY2F0ZVN5bmNEZXRhaWxzIHwgbnVsbD4obnVsbCk7CmNvbnN0IGxvYWRpbmcgPSByZWYoZmFsc2UpOwpjb25zdCBzYXZpbmcgPSByZWYoZmFsc2UpOwpjb25zdCBzeW5jaW5nSWRzID0gcmVmPHN0cmluZ1tdPihbXSk7Cgpjb25zdCBidXN5ID0gY29tcHV0ZWQoCiAgKCkgPT4KICAgIHNhdmluZy52YWx1ZSB8fAogICAgc3luY2luZ0lkcy52YWx1ZS5sZW5ndGggPiAwIHx8CiAgICBkZXRhaWxzLnZhbHVlPy5ydW50aW1lLnJ1bm5pbmcsCik7CmNvbnN0IGF2YWlsYWJsZSA9IGNvbXB1dGVkKAogICgpID0+IGRldGFpbHMudmFsdWU/LmF2YWlsYWJpbGl0eS5hdmFpbGFibGUgPT09IHRydWUsCik7CmNvbnN0IHN5bmNhYmxlSXRlbXMgPSBjb21wdXRlZCgKICAoKSA9PgogICAgZGV0YWlscy52YWx1ZT8uY2VydGlmaWNhdGVzLmZpbHRlcigoaXRlbSkgPT4KICAgICAgWyJzeW5jYWJsZSIsICJzeW5jX2ZhaWxlZCJdLmluY2x1ZGVzKGl0ZW0uc3RhdHVzKSwKICAgICkgPz8gW10sCik7Cgpjb25zdCBsb2FkID0gYXN5bmMgKCkgPT4gewogIGxvYWRpbmcudmFsdWUgPSB0cnVlOwogIHRyeSB7CiAgICBkZXRhaWxzLnZhbHVlID0gYXdhaXQgU3lzdGVtQVBJLmdldEZub3NDZXJ0aWZpY2F0ZVN5bmNEZXRhaWxzKCk7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmZub3NDZXJ0aWZpY2F0ZVN5bmMubG9hZEZhaWxlZCIpLCB7CiAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgIGVycm9yLAogICAgICAgIHQoImFkbWluLmZub3NDZXJ0aWZpY2F0ZVN5bmMubG9hZEZhaWxlZCIpLAogICAgICApLAogICAgfSk7CiAgfSBmaW5hbGx5IHsKICAgIGxvYWRpbmcudmFsdWUgPSBmYWxzZTsKICB9Cn07Cgpjb25zdCB1cGRhdGVBdXRvU3luYyA9IGFzeW5jIChlbmFibGVkOiBib29sZWFuKSA9PiB7CiAgaWYgKHNhdmluZy52YWx1ZSkgcmV0dXJuOwogIGNvbnN0IHByZXZpb3VzID0gZGV0YWlscy52YWx1ZT8uY29uZmlnLmF1dG9fc3luY19lbmFibGVkID8/IGZhbHNlOwogIGlmIChkZXRhaWxzLnZhbHVlKSBkZXRhaWxzLnZhbHVlLmNvbmZpZy5hdXRvX3N5bmNfZW5hYmxlZCA9IGVuYWJsZWQ7CiAgc2F2aW5nLnZhbHVlID0gdHJ1ZTsKICB0cnkgewogICAgZGV0YWlscy52YWx1ZSA9IGF3YWl0IFN5c3RlbUFQSS51cGRhdGVGbm9zQ2VydGlmaWNhdGVTeW5jQ29uZmlnKGVuYWJsZWQpOwogICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5mbm9zQ2VydGlmaWNhdGVTeW5jLmF1dG9TeW5jVXBkYXRlZCIpKTsKICB9IGNhdGNoIChlcnJvcikgewogICAgaWYgKGRldGFpbHMudmFsdWUpIGRldGFpbHMudmFsdWUuY29uZmlnLmF1dG9fc3luY19lbmFibGVkID0gcHJldmlvdXM7CiAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5mbm9zQ2VydGlmaWNhdGVTeW5jLnNhdmVGYWlsZWQiKSwgewogICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICBlcnJvciwKICAgICAgICB0KCJhZG1pbi5mbm9zQ2VydGlmaWNhdGVTeW5jLnNhdmVGYWlsZWQiKSwKICAgICAgKSwKICAgIH0pOwogIH0gZmluYWxseSB7CiAgICBzYXZpbmcudmFsdWUgPSBmYWxzZTsKICB9Cn07Cgpjb25zdCBzeW5jID0gYXN5bmMgKGlkczogc3RyaW5nW10pID0+IHsKICBpZiAoYnVzeS52YWx1ZSkgcmV0dXJuOwogIHN5bmNpbmdJZHMudmFsdWUgPQogICAgaWRzLmxlbmd0aCA+IDAgPyBpZHMgOiBzeW5jYWJsZUl0ZW1zLnZhbHVlLm1hcCgoaXRlbSkgPT4gaXRlbS50YXJnZXRfaWQpOwogIHRyeSB7CiAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBTeXN0ZW1BUEkuc3luY0Zub3NDZXJ0aWZpY2F0ZXMoaWRzKTsKICAgIGRldGFpbHMudmFsdWUgPSByZXN1bHQuZGV0YWlsczsKICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgIHQoImFkbWluLmZub3NDZXJ0aWZpY2F0ZVN5bmMuc3luY0NvbXBsZXRlZCIsIHsKICAgICAgICBzeW5jZWQ6IHJlc3VsdC5zdW1tYXJ5LnN5bmNlZCwKICAgICAgICBza2lwcGVkOiByZXN1bHQuc3VtbWFyeS5za2lwcGVkLAogICAgICB9KSwKICAgICk7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmZub3NDZXJ0aWZpY2F0ZVN5bmMuc3luY0ZhaWxlZCIpLCB7CiAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgIGVycm9yLAogICAgICAgIHQoImFkbWluLmZub3NDZXJ0aWZpY2F0ZVN5bmMuc3luY0ZhaWxlZCIpLAogICAgICApLAogICAgfSk7CiAgICBhd2FpdCBsb2FkKCk7CiAgfSBmaW5hbGx5IHsKICAgIHN5bmNpbmdJZHMudmFsdWUgPSBbXTsKICB9Cn07Cgpjb25zdCBzdGF0dXNMYWJlbCA9IChzdGF0dXM6IEZub3NDZXJ0aWZpY2F0ZVN5bmNTdGF0dXMpID0+CiAgdChgYWRtaW4uZm5vc0NlcnRpZmljYXRlU3luYy5zdGF0dXMuJHtzdGF0dXN9YCk7Cgpjb25zdCBzdGF0dXNWYXJpYW50ID0gKHN0YXR1czogRm5vc0NlcnRpZmljYXRlU3luY1N0YXR1cykgPT4gewogIGlmIChzdGF0dXMgPT09ICJ1cF90b19kYXRlIikgcmV0dXJuICJkZWZhdWx0IjsKICBpZiAoc3RhdHVzID09PSAic3luY2FibGUiIHx8IHN0YXR1cyA9PT0gInN5bmNfZmFpbGVkIikgcmV0dXJuICJzZWNvbmRhcnkiOwogIGlmIChzdGF0dXMgPT09ICJ0YXJnZXRfaW52YWxpZCIgfHwgc3RhdHVzID09PSAic291cmNlX2ludmFsaWQiKQogICAgcmV0dXJuICJkZXN0cnVjdGl2ZSI7CiAgcmV0dXJuICJvdXRsaW5lIjsKfTsKCmNvbnN0IGZvcm1hdERhdGUgPSAodmFsdWU6IG51bWJlciB8IG51bGwgfCB1bmRlZmluZWQpID0+IHsKICBpZiAoIXZhbHVlKSByZXR1cm4gIi0tIjsKICByZXR1cm4gbmV3IEludGwuRGF0ZVRpbWVGb3JtYXQobG9jYWxlLnZhbHVlLCB7CiAgICBkYXRlU3R5bGU6ICJtZWRpdW0iLAogICAgdGltZVN0eWxlOiAic2hvcnQiLAogIH0pLmZvcm1hdChuZXcgRGF0ZSh2YWx1ZSkpOwp9OwoKY29uc3QgY29tcGFjdEZpbmdlcnByaW50ID0gKHZhbHVlOiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkKSA9PiB7CiAgaWYgKCF2YWx1ZSkgcmV0dXJuICItLSI7CiAgcmV0dXJuIHZhbHVlLmxlbmd0aCA+IDIzID8gYCR7dmFsdWUuc2xpY2UoMCwgMTcpfeKApiR7dmFsdWUuc2xpY2UoLTUpfWAgOiB2YWx1ZTsKfTsKCmNvbnN0IGlzSXRlbVN5bmNpbmcgPSAoaXRlbTogRm5vc0NlcnRpZmljYXRlU3luY0l0ZW0pID0+CiAgc3luY2luZ0lkcy52YWx1ZS5pbmNsdWRlcyhpdGVtLnRhcmdldF9pZCk7Cgpvbk1vdW50ZWQobG9hZCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktNSI+CiAgICA8QnJlYWRjcnVtYj4KICAgICAgPEJyZWFkY3J1bWJMaXN0PgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iTGluayBocmVmPSIjL3N5c3RlbSI+e3sKICAgICAgICAgICAgdCgiYWRtaW4uZm5vc0NlcnRpZmljYXRlU3luYy5zeXN0ZW1TZXR0aW5ncyIpCiAgICAgICAgICB9fTwvQnJlYWRjcnVtYkxpbms+CiAgICAgICAgPC9CcmVhZGNydW1iSXRlbT4KICAgICAgICA8QnJlYWRjcnVtYlNlcGFyYXRvciAvPgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iTGluayBocmVmPSIjL3N5c3RlbT90YWI9Zm5vcyI+e3sKICAgICAgICAgICAgdCgiYWRtaW4uZm5vc0NlcnRpZmljYXRlU3luYy5mbm9zIikKICAgICAgICAgIH19PC9CcmVhZGNydW1iTGluaz4KICAgICAgICA8L0JyZWFkY3J1bWJJdGVtPgogICAgICAgIDxCcmVhZGNydW1iU2VwYXJhdG9yIC8+CiAgICAgICAgPEJyZWFkY3J1bWJJdGVtCiAgICAgICAgICA+PEJyZWFkY3J1bWJQYWdlPnt7CiAgICAgICAgICAgIHQoImFkbWluLmZub3NDZXJ0aWZpY2F0ZVN5bmMudGl0bGUiKQogICAgICAgICAgfX08L0JyZWFkY3J1bWJQYWdlPjwvQnJlYWRjcnVtYkl0ZW0KICAgICAgICA+CiAgICAgIDwvQnJlYWRjcnVtYkxpc3Q+CiAgICA8L0JyZWFkY3J1bWI+CgogICAgPENhcmQgY2xhc3M9ImJvcmRlci1ib3JkZXIvNTAgc2hhZG93LW5vbmUiPgogICAgICA8Q2FyZEhlYWRlcj4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtNCBzbTpmbGV4LXJvdyBzbTppdGVtcy1zdGFydCBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgICAgPgogICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xLjUiPgogICAgICAgICAgICA8Q2FyZFRpdGxlIGNsYXNzPSJ0ZXh0LXhsIHRyYWNraW5nLXRpZ2h0Ij57ewogICAgICAgICAgICAgIHQoImFkbWluLmZub3NDZXJ0aWZpY2F0ZVN5bmMudGl0bGUiKQogICAgICAgICAgICB9fTwvQ2FyZFRpdGxlPgogICAgICAgICAgICA8Q2FyZERlc2NyaXB0aW9uIGNsYXNzPSJtYXgtdy0zeGwgbGVhZGluZy02Ij57ewogICAgICAgICAgICAgIHQoImFkbWluLmZub3NDZXJ0aWZpY2F0ZVN5bmMuZGVzY3JpcHRpb24iKQogICAgICAgICAgICB9fTwvQ2FyZERlc2NyaXB0aW9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8UmVmcmVzaEJ1dHRvbiA6bG9hZGluZz0ibG9hZGluZyIgOmRpc2FibGVkPSJidXN5IiBAY2xpY2s9ImxvYWQiIC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvQ2FyZEhlYWRlcj4KICAgICAgPENhcmRDb250ZW50IGNsYXNzPSJzcGFjZS15LTUiPgogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLXhsIGJvcmRlciBib3JkZXItYW1iZXItMjAwIGJnLWFtYmVyLTUwIHB4LTQgcHktMyB0ZXh0LXNtIGxlYWRpbmctNiB0ZXh0LWFtYmVyLTkwMCIKICAgICAgICA+CiAgICAgICAgICB7eyB0KCJhZG1pbi5mbm9zQ2VydGlmaWNhdGVTeW5jLm5vSW5zZXJ0Tm90aWNlIikgfX0KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPHRlbXBsYXRlIHYtaWY9ImxvYWRpbmcgJiYgIWRldGFpbHMiPgogICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTI0IHctZnVsbCByb3VuZGVkLXhsIiAvPgogICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTY0IHctZnVsbCByb3VuZGVkLXhsIiAvPgogICAgICAgIDwvdGVtcGxhdGU+CgogICAgICAgIDx0ZW1wbGF0ZSB2LWVsc2UtaWY9ImRldGFpbHMiPgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSIhYXZhaWxhYmxlIgogICAgICAgICAgICBjbGFzcz0icm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWRlc3RydWN0aXZlLzI1IGJnLWRlc3RydWN0aXZlLzUgcHgtNCBweS0zIHRleHQtc20gbGVhZGluZy02IHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmZub3NDZXJ0aWZpY2F0ZVN5bmMudW5hdmFpbGFibGUiKSB9fQogICAgICAgICAgICA8c3BhbiB2LWlmPSJkZXRhaWxzLmF2YWlsYWJpbGl0eS5yZWFzb24iPgogICAgICAgICAgICAgIMK3IHt7IGRldGFpbHMuYXZhaWxhYmlsaXR5LnJlYXNvbiB9fQogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC00IHJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1ib3JkZXIvNjAgYmctbXV0ZWQvMTAgcC01IHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgICAgICAgPExhYmVsCiAgICAgICAgICAgICAgICA6Zm9yPSJgJHthMTF5SWR9LWZub3NjZXJ0aWZpY2F0ZXN5bmNzZXR0aW5ncy0xYCIKICAgICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LWJhc2UiCiAgICAgICAgICAgICAgICA+e3sgdCgiYWRtaW4uZm5vc0NlcnRpZmljYXRlU3luYy5hdXRvU3luYyIpIH19PC9MYWJlbAogICAgICAgICAgICAgID4KICAgICAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZm5vc0NlcnRpZmljYXRlU3luYy5hdXRvU3luY0Rlc2NyaXB0aW9uIikgfX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgIHQoImFkbWluLmZub3NDZXJ0aWZpY2F0ZVN5bmMubGFzdFN5bmMiLCB7CiAgICAgICAgICAgICAgICAgICAgdGltZTogZm9ybWF0RGF0ZShkZXRhaWxzLnJ1bnRpbWUubGFzdF9zeW5jX2F0KSwKICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICB2LWlmPSJkZXRhaWxzLnJ1bnRpbWUubGFzdF9lcnJvciIKICAgICAgICAgICAgICAgICAgY2xhc3M9Im1sLTIgdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgICAgICAgICAgPnt7IGRldGFpbHMucnVudGltZS5sYXN0X2Vycm9yIH19PC9zcGFuCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPFN3aXRjaAogICAgICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1mbm9zY2VydGlmaWNhdGVzeW5jc2V0dGluZ3MtMWAiCiAgICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJkZXRhaWxzLmNvbmZpZy5hdXRvX3N5bmNfZW5hYmxlZCIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImJ1c3kgfHwgIWF2YWlsYWJsZSIKICAgICAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJ1cGRhdGVBdXRvU3luYygkZXZlbnQgPT09IHRydWUpIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtMyBzbTpmbGV4LXJvdyBzbTppdGVtcy1jZW50ZXIgc206anVzdGlmeS1iZXR3ZWVuIgogICAgICAgICAgPgogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmZub3NDZXJ0aWZpY2F0ZVN5bmMuc3VtbWFyeSIsIGRldGFpbHMuc3VtbWFyeSkgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJidXN5IHx8ICFhdmFpbGFibGUgfHwgc3luY2FibGVJdGVtcy5sZW5ndGggPT09IDAiCiAgICAgICAgICAgICAgQGNsaWNrPSJzeW5jKFtdKSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICB0KCJhZG1pbi5mbm9zQ2VydGlmaWNhdGVTeW5jLnN5bmNBbGwiLCB7CiAgICAgICAgICAgICAgICAgIGNvdW50OiBzeW5jYWJsZUl0ZW1zLmxlbmd0aCwKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzPSJvdmVyZmxvdy14LWF1dG8gcm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJvcmRlci82MCI+CiAgICAgICAgICAgIDx0YWJsZSBjbGFzcz0idy1mdWxsIG1pbi13LVs5MDBweF0gdGV4dC1zbSI+CiAgICAgICAgICAgICAgPHRoZWFkCiAgICAgICAgICAgICAgICBjbGFzcz0iYmctbXV0ZWQvNDAgdGV4dC1sZWZ0IHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzPSJweC00IHB5LTMgZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmZub3NDZXJ0aWZpY2F0ZVN5bmMuY29sdW1ucy50YXJnZXQiKSB9fQogICAgICAgICAgICAgICAgICA8L3RoPgogICAgICAgICAgICAgICAgICA8dGggY2xhc3M9InB4LTQgcHktMyBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZm5vc0NlcnRpZmljYXRlU3luYy5jb2x1bW5zLnZhbGlkaXR5IikgfX0KICAgICAgICAgICAgICAgICAgPC90aD4KICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzPSJweC00IHB5LTMgZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmZub3NDZXJ0aWZpY2F0ZVN5bmMuY29sdW1ucy5sb2NhbCIpIH19CiAgICAgICAgICAgICAgICAgIDwvdGg+CiAgICAgICAgICAgICAgICAgIDx0aCBjbGFzcz0icHgtNCBweS0zIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5mbm9zQ2VydGlmaWNhdGVTeW5jLmNvbHVtbnMuc3RhdHVzIikgfX0KICAgICAgICAgICAgICAgICAgPC90aD4KICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzPSJweC00IHB5LTMgdGV4dC1yaWdodCBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZm5vc0NlcnRpZmljYXRlU3luYy5jb2x1bW5zLmFjdGlvbiIpIH19CiAgICAgICAgICAgICAgICAgIDwvdGg+CiAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgIDwvdGhlYWQ+CiAgICAgICAgICAgICAgPHRib2R5IGNsYXNzPSJkaXZpZGUteSI+CiAgICAgICAgICAgICAgICA8dHIKICAgICAgICAgICAgICAgICAgdi1mb3I9Iml0ZW0gaW4gZGV0YWlscy5jZXJ0aWZpY2F0ZXMiCiAgICAgICAgICAgICAgICAgIDprZXk9Iml0ZW0udGFyZ2V0X2lkIgogICAgICAgICAgICAgICAgICBjbGFzcz0iYWxpZ24tdG9wIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3M9InNwYWNlLXktMSBweC00IHB5LTQiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZvbnQtbWVkaXVtIj57eyBpdGVtLmRvbWFpbiB9fTwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJtYXgtdy14cyBicmVhay1hbGwgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAge3sgaXRlbS5zYW4uam9pbigiLCAiKSB9fQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgICAgIHt7IGl0ZW0uc291cmNlIH19IMK3CiAgICAgICAgICAgICAgICAgICAgICB7eyBjb21wYWN0RmluZ2VycHJpbnQoaXRlbS5maW5nZXJwcmludCkgfX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IHYtaWY9Iml0ZW0ucmVuZXdhbCIgY2xhc3M9InRleHQteHMgdGV4dC1hbWJlci02MDAiPgogICAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZm5vc0NlcnRpZmljYXRlU3luYy5yZW5ld2FsV2FybmluZyIpIH19CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzcz0icHgtNCBweS00IHRleHQteHMgbGVhZGluZy01IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgPGRpdj57eyBmb3JtYXREYXRlKGl0ZW0udmFsaWRfZnJvbSkgfX08L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8ZGl2Pnt7IGZvcm1hdERhdGUoaXRlbS52YWxpZF90bykgfX08L2Rpdj4KICAgICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJzcGFjZS15LTEgcHgtNCBweS00Ij4KICAgICAgICAgICAgICAgICAgICA8dGVtcGxhdGUgdi1pZj0iaXRlbS5sb2NhbCI+CiAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICAgICAgICAgIHt7IGl0ZW0ubG9jYWwubGFiZWwgfHwgaXRlbS5sb2NhbC5pZCB9fQogICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgICAgIHt7IGZvcm1hdERhdGUoaXRlbS5sb2NhbC52YWxpZF90bykgfX0KICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICAgICAgICB7eyBjb21wYWN0RmluZ2VycHJpbnQoaXRlbS5sb2NhbC5maW5nZXJwcmludCkgfX0KICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gdi1lbHNlIGNsYXNzPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPi0tPC9zcGFuPgogICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3M9InNwYWNlLXktMSBweC00IHB5LTQiPgogICAgICAgICAgICAgICAgICAgIDxCYWRnZSA6dmFyaWFudD0ic3RhdHVzVmFyaWFudChpdGVtLnN0YXR1cykiPnt7CiAgICAgICAgICAgICAgICAgICAgICBzdGF0dXNMYWJlbChpdGVtLnN0YXR1cykKICAgICAgICAgICAgICAgICAgICB9fTwvQmFkZ2U+CiAgICAgICAgICAgICAgICAgICAgPHAKICAgICAgICAgICAgICAgICAgICAgIHYtaWY9Iml0ZW0ucmVhc29uIgogICAgICAgICAgICAgICAgICAgICAgY2xhc3M9Im1heC13LXhzIHRleHQteHMgbGVhZGluZy01IHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAge3sgaXRlbS5yZWFzb24gfX0KICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzcz0icHgtNCBweS00IHRleHQtcmlnaHQiPgogICAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iCiAgICAgICAgICAgICAgICAgICAgICAgIGJ1c3kgfHwKICAgICAgICAgICAgICAgICAgICAgICAgIWF2YWlsYWJsZSB8fAogICAgICAgICAgICAgICAgICAgICAgICAhWydzeW5jYWJsZScsICdzeW5jX2ZhaWxlZCddLmluY2x1ZGVzKGl0ZW0uc3RhdHVzKQogICAgICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICAgICAgQGNsaWNrPSJzeW5jKFtpdGVtLnRhcmdldF9pZF0pIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgICAgICAgIGlzSXRlbVN5bmNpbmcoaXRlbSkKICAgICAgICAgICAgICAgICAgICAgICAgICA/IHQoImFkbWluLmZub3NDZXJ0aWZpY2F0ZVN5bmMuc3luY2luZyIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5mbm9zQ2VydGlmaWNhdGVTeW5jLnN5bmNPbmUiKQogICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICA8dHIgdi1pZj0iZGV0YWlscy5jZXJ0aWZpY2F0ZXMubGVuZ3RoID09PSAwIj4KICAgICAgICAgICAgICAgICAgPHRkCiAgICAgICAgICAgICAgICAgICAgY29sc3Bhbj0iNSIKICAgICAgICAgICAgICAgICAgICBjbGFzcz0icHgtNCBweS0xMCB0ZXh0LWNlbnRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5mbm9zQ2VydGlmaWNhdGVTeW5jLmVtcHR5IikgfX0KICAgICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICAgICAgPC90YWJsZT4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICA8L0NhcmQ+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, onMounted, ref, useId } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
+import { Skeleton } from "@/components/ui/skeleton";
+import { Switch } from "@/components/ui/switch";
+import RefreshButton from "@/components/RefreshButton.vue";
+import { toast } from "@admin-shared/utils/toast";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { SystemAPI } from "@/lib/api/system";
+import type {
+  FnosCertificateSyncDetails,
+  FnosCertificateSyncItem,
+  FnosCertificateSyncStatus,
+} from "../../types";
+
+const a11yId = useId();
+
+const { t, locale } = useI18n();
+const details = ref<FnosCertificateSyncDetails | null>(null);
+const loading = ref(false);
+const saving = ref(false);
+const syncingIds = ref<string[]>([]);
+
+const busy = computed(
+  () =>
+    saving.value ||
+    syncingIds.value.length > 0 ||
+    details.value?.runtime.running,
+);
+const available = computed(
+  () => details.value?.availability.available === true,
+);
+const syncableItems = computed(
+  () =>
+    details.value?.certificates.filter((item) =>
+      ["syncable", "sync_failed"].includes(item.status),
+    ) ?? [],
+);
+
+const load = async () => {
+  loading.value = true;
+  try {
+    details.value = await SystemAPI.getFnosCertificateSyncDetails();
+  } catch (error) {
+    toast.error(t("admin.fnosCertificateSync.loadFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.fnosCertificateSync.loadFailed"),
+      ),
+    });
+  } finally {
+    loading.value = false;
+  }
+};
+
+const updateAutoSync = async (enabled: boolean) => {
+  if (saving.value) return;
+  const previous = details.value?.config.auto_sync_enabled ?? false;
+  if (details.value) details.value.config.auto_sync_enabled = enabled;
+  saving.value = true;
+  try {
+    details.value = await SystemAPI.updateFnosCertificateSyncConfig(enabled);
+    toast.success(t("admin.fnosCertificateSync.autoSyncUpdated"));
+  } catch (error) {
+    if (details.value) details.value.config.auto_sync_enabled = previous;
+    toast.error(t("admin.fnosCertificateSync.saveFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.fnosCertificateSync.saveFailed"),
+      ),
+    });
+  } finally {
+    saving.value = false;
+  }
+};
+
+const sync = async (ids: string[]) => {
+  if (busy.value) return;
+  syncingIds.value =
+    ids.length > 0 ? ids : syncableItems.value.map((item) => item.target_id);
+  try {
+    const result = await SystemAPI.syncFnosCertificates(ids);
+    details.value = result.details;
+    toast.success(
+      t("admin.fnosCertificateSync.syncCompleted", {
+        synced: result.summary.synced,
+        skipped: result.summary.skipped,
+      }),
+    );
+  } catch (error) {
+    toast.error(t("admin.fnosCertificateSync.syncFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.fnosCertificateSync.syncFailed"),
+      ),
+    });
+    await load();
+  } finally {
+    syncingIds.value = [];
+  }
+};
+
+const statusLabel = (status: FnosCertificateSyncStatus) =>
+  t(`admin.fnosCertificateSync.status.${status}`);
+
+const statusVariant = (status: FnosCertificateSyncStatus) => {
+  if (status === "up_to_date") return "default";
+  if (status === "syncable" || status === "sync_failed") return "secondary";
+  if (status === "target_invalid" || status === "source_invalid")
+    return "destructive";
+  return "outline";
+};
+
+const formatDate = (value: number | null | undefined) => {
+  if (!value) return "--";
+  return new Intl.DateTimeFormat(locale.value, {
+    dateStyle: "medium",
+    timeStyle: "short",
+  }).format(new Date(value));
+};
+
+const compactFingerprint = (value: string | null | undefined) => {
+  if (!value) return "--";
+  return value.length > 23 ? `${value.slice(0, 17)}…${value.slice(-5)}` : value;
+};
+
+const isItemSyncing = (item: FnosCertificateSyncItem) =>
+  syncingIds.value.includes(item.target_id);
+
+onMounted(load);
+</script>
+
+<template>
+  <div class="space-y-5">
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system">{{
+            t("admin.fnosCertificateSync.systemSettings")
+          }}</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system?tab=fnos">{{
+            t("admin.fnosCertificateSync.fnos")
+          }}</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem
+          ><BreadcrumbPage>{{
+            t("admin.fnosCertificateSync.title")
+          }}</BreadcrumbPage></BreadcrumbItem
+        >
+      </BreadcrumbList>
+    </Breadcrumb>
+
+    <Card class="border-border/50 shadow-none">
+      <CardHeader>
+        <div
+          class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between"
+        >
+          <div class="space-y-1.5">
+            <CardTitle class="text-xl tracking-tight">{{
+              t("admin.fnosCertificateSync.title")
+            }}</CardTitle>
+            <CardDescription class="max-w-3xl leading-6">{{
+              t("admin.fnosCertificateSync.description")
+            }}</CardDescription>
+          </div>
+          <RefreshButton :loading="loading" :disabled="busy" @click="load" />
+        </div>
+      </CardHeader>
+      <CardContent class="space-y-5">
+        <div
+          class="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-900"
+        >
+          {{ t("admin.fnosCertificateSync.noInsertNotice") }}
+        </div>
+
+        <template v-if="loading && !details">
+          <Skeleton class="h-24 w-full rounded-xl" />
+          <Skeleton class="h-64 w-full rounded-xl" />
+        </template>
+
+        <template v-else-if="details">
+          <div
+            v-if="!available"
+            class="rounded-xl border border-destructive/25 bg-destructive/5 px-4 py-3 text-sm leading-6 text-destructive"
+          >
+            {{ t("admin.fnosCertificateSync.unavailable") }}
+            <span v-if="details.availability.reason">
+              · {{ details.availability.reason }}
+            </span>
+          </div>
+
+          <div
+            class="flex flex-col gap-4 rounded-xl border border-border/60 bg-muted/10 p-5 sm:flex-row sm:items-center sm:justify-between"
+          >
+            <div class="space-y-1">
+              <Label
+                :for="`${a11yId}-fnoscertificatesyncsettings-1`"
+                class="text-base"
+                >{{ t("admin.fnosCertificateSync.autoSync") }}</Label
+              >
+              <p class="text-sm text-muted-foreground">
+                {{ t("admin.fnosCertificateSync.autoSyncDescription") }}
+              </p>
+              <p class="text-xs text-muted-foreground">
+                {{
+                  t("admin.fnosCertificateSync.lastSync", {
+                    time: formatDate(details.runtime.last_sync_at),
+                  })
+                }}
+                <span
+                  v-if="details.runtime.last_error"
+                  class="ml-2 text-destructive"
+                  >{{ details.runtime.last_error }}</span
+                >
+              </p>
+            </div>
+            <Switch
+              :id="`${a11yId}-fnoscertificatesyncsettings-1`"
+              :model-value="details.config.auto_sync_enabled"
+              :disabled="busy || !available"
+              @update:model-value="updateAutoSync($event === true)"
+            />
+          </div>
+
+          <div
+            class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"
+          >
+            <p class="text-sm text-muted-foreground">
+              {{ t("admin.fnosCertificateSync.summary", details.summary) }}
+            </p>
+            <Button
+              :disabled="busy || !available || syncableItems.length === 0"
+              @click="sync([])"
+            >
+              {{
+                t("admin.fnosCertificateSync.syncAll", {
+                  count: syncableItems.length,
+                })
+              }}
+            </Button>
+          </div>
+
+          <div class="overflow-x-auto rounded-xl border border-border/60">
+            <table class="w-full min-w-[900px] text-sm">
+              <thead
+                class="bg-muted/40 text-left text-xs text-muted-foreground"
+              >
+                <tr>
+                  <th class="px-4 py-3 font-medium">
+                    {{ t("admin.fnosCertificateSync.columns.target") }}
+                  </th>
+                  <th class="px-4 py-3 font-medium">
+                    {{ t("admin.fnosCertificateSync.columns.validity") }}
+                  </th>
+                  <th class="px-4 py-3 font-medium">
+                    {{ t("admin.fnosCertificateSync.columns.local") }}
+                  </th>
+                  <th class="px-4 py-3 font-medium">
+                    {{ t("admin.fnosCertificateSync.columns.status") }}
+                  </th>
+                  <th class="px-4 py-3 text-right font-medium">
+                    {{ t("admin.fnosCertificateSync.columns.action") }}
+                  </th>
+                </tr>
+              </thead>
+              <tbody class="divide-y">
+                <tr
+                  v-for="item in details.certificates"
+                  :key="item.target_id"
+                  class="align-top"
+                >
+                  <td class="space-y-1 px-4 py-4">
+                    <div class="font-medium">{{ item.domain }}</div>
+                    <div
+                      class="max-w-xs break-all text-xs text-muted-foreground"
+                    >
+                      {{ item.san.join(", ") }}
+                    </div>
+                    <div class="text-xs text-muted-foreground">
+                      {{ item.source }} ·
+                      {{ compactFingerprint(item.fingerprint) }}
+                    </div>
+                    <div v-if="item.renewal" class="text-xs text-amber-600">
+                      {{ t("admin.fnosCertificateSync.renewalWarning") }}
+                    </div>
+                  </td>
+                  <td class="px-4 py-4 text-xs leading-5 text-muted-foreground">
+                    <div>{{ formatDate(item.valid_from) }}</div>
+                    <div>{{ formatDate(item.valid_to) }}</div>
+                  </td>
+                  <td class="space-y-1 px-4 py-4">
+                    <template v-if="item.local">
+                      <div class="font-medium">
+                        {{ item.local.label || item.local.id }}
+                      </div>
+                      <div class="text-xs text-muted-foreground">
+                        {{ formatDate(item.local.valid_to) }}
+                      </div>
+                      <div class="text-xs text-muted-foreground">
+                        {{ compactFingerprint(item.local.fingerprint) }}
+                      </div>
+                    </template>
+                    <span v-else class="text-muted-foreground">--</span>
+                  </td>
+                  <td class="space-y-1 px-4 py-4">
+                    <Badge :variant="statusVariant(item.status)">{{
+                      statusLabel(item.status)
+                    }}</Badge>
+                    <p
+                      v-if="item.reason"
+                      class="max-w-xs text-xs leading-5 text-destructive"
+                    >
+                      {{ item.reason }}
+                    </p>
+                  </td>
+                  <td class="px-4 py-4 text-right">
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      :disabled="
+                        busy ||
+                        !available ||
+                        !['syncable', 'sync_failed'].includes(item.status)
+                      "
+                      @click="sync([item.target_id])"
+                    >
+                      {{
+                        isItemSyncing(item)
+                          ? t("admin.fnosCertificateSync.syncing")
+                          : t("admin.fnosCertificateSync.syncOne")
+                      }}
+                    </Button>
+                  </td>
+                </tr>
+                <tr v-if="details.certificates.length === 0">
+                  <td
+                    colspan="5"
+                    class="px-4 py-10 text-center text-muted-foreground"
+                  >
+                    {{ t("admin.fnosCertificateSync.empty") }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </template>
+      </CardContent>
+    </Card>
+  </div>
+</template>

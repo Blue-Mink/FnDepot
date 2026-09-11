@@ -1,1 +1,67 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7CiAgQ2FyZCwKICBDYXJkQ29udGVudCwKICBDYXJkRGVzY3JpcHRpb24sCiAgQ2FyZEhlYWRlciwKICBDYXJkVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IFdoaXRlbGlzdEFkZERpYWxvZyBmcm9tICIuL2lwLXdoaXRlbGlzdC9XaGl0ZWxpc3RBZGREaWFsb2cudnVlIjsKaW1wb3J0IFdoaXRlbGlzdFJlY29yZHNQYW5lbCBmcm9tICIuL2lwLXdoaXRlbGlzdC9XaGl0ZWxpc3RSZWNvcmRzUGFuZWwudnVlIjsKaW1wb3J0IFdoaXRlbGlzdFJlZ2lvbkdyb3VwcyBmcm9tICIuL2lwLXdoaXRlbGlzdC9XaGl0ZWxpc3RSZWdpb25Hcm91cHMudnVlIjsKaW1wb3J0IHsgdXNlSXBXaGl0ZWxpc3RQYWdlIH0gZnJvbSAiLi9pcC13aGl0ZWxpc3QvdXNlSXBXaGl0ZWxpc3RQYWdlIjsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBjb250cm9sbGVyID0gdXNlSXBXaGl0ZWxpc3RQYWdlKCk7CmNvbnN0IHsKICBhZGRSZWNvcmQsCiAgY2FuU2F2ZU5ld1JlY29yZCwKICBjaWRySW5wdXRNb2RlLAogIGN1c3RvbUhvdXJzLAogIGR1cmF0aW9uU2V0dGluZywKICBpc1JlZ2lvbkNpZHJNb2RlLAogIGlzU2F2aW5nLAogIG5ld1JlY29yZCwKICBuZXdSZWNvcmRQbGFjZWhvbGRlciwKICByZWdpb25JbnB1dHNEaXNhYmxlZCwKICBzaG93QWRkRGlhbG9nLAogIHdoaXRlbGlzdFJlZ2lvblNlbGVjdGlvbnMsCn0gPSBjb250cm9sbGVyOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8Q2FyZD4KICAgIDxDYXJkSGVhZGVyPgogICAgICA8Q2FyZFRpdGxlIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgIDxzcGFuPnt7IHQoImFkbWluLmlwV2hpdGVsaXN0LnRpdGxlIikgfX08L3NwYW4+CiAgICAgICAgPEJ1dHRvbiBAY2xpY2s9InNob3dBZGREaWFsb2cgPSB0cnVlIj4KICAgICAgICAgIHt7IHQoImFkbWluLmlwV2hpdGVsaXN0LmFkZFRhcmdldCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvQ2FyZFRpdGxlPgogICAgICA8Q2FyZERlc2NyaXB0aW9uPgogICAgICAgIHt7IHQoImFkbWluLmlwV2hpdGVsaXN0LnBhZ2VEZXNjcmlwdGlvbiIpIH19CiAgICAgIDwvQ2FyZERlc2NyaXB0aW9uPgogICAgPC9DYXJkSGVhZGVyPgogICAgPENhcmRDb250ZW50PgogICAgICA8V2hpdGVsaXN0UmVjb3Jkc1BhbmVsIDpjb250cm9sbGVyPSJjb250cm9sbGVyIiAvPgogICAgICA8V2hpdGVsaXN0UmVnaW9uR3JvdXBzIDpjb250cm9sbGVyPSJjb250cm9sbGVyIiAvPgogICAgPC9DYXJkQ29udGVudD4KICA8L0NhcmQ+CgogIDxXaGl0ZWxpc3RBZGREaWFsb2cKICAgIHYtbW9kZWw6Y2lkci1pbnB1dC1tb2RlPSJjaWRySW5wdXRNb2RlIgogICAgdi1tb2RlbDpjdXN0b20taG91cnM9ImN1c3RvbUhvdXJzIgogICAgdi1tb2RlbDpkdXJhdGlvbi1zZXR0aW5nPSJkdXJhdGlvblNldHRpbmciCiAgICB2LW1vZGVsOm5ldy1yZWNvcmQ9Im5ld1JlY29yZCIKICAgIHYtbW9kZWw6b3Blbj0ic2hvd0FkZERpYWxvZyIKICAgIHYtbW9kZWw6cmVnaW9uLXNlbGVjdGlvbnM9IndoaXRlbGlzdFJlZ2lvblNlbGVjdGlvbnMiCiAgICA6Y2FuLXNhdmU9ImNhblNhdmVOZXdSZWNvcmQiCiAgICA6aXMtcmVnaW9uLWNpZHItbW9kZT0iaXNSZWdpb25DaWRyTW9kZSIKICAgIDppcy1zYXZpbmc9ImlzU2F2aW5nIgogICAgOm5ldy1yZWNvcmQtcGxhY2Vob2xkZXI9Im5ld1JlY29yZFBsYWNlaG9sZGVyIgogICAgOnJlZ2lvbi1pbnB1dHMtZGlzYWJsZWQ9InJlZ2lvbklucHV0c0Rpc2FibGVkIgogICAgQGFkZD0iYWRkUmVjb3JkIgogIC8+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import WhitelistAddDialog from "./ip-whitelist/WhitelistAddDialog.vue";
+import WhitelistRecordsPanel from "./ip-whitelist/WhitelistRecordsPanel.vue";
+import WhitelistRegionGroups from "./ip-whitelist/WhitelistRegionGroups.vue";
+import { useIpWhitelistPage } from "./ip-whitelist/useIpWhitelistPage";
+
+const { t } = useI18n();
+const controller = useIpWhitelistPage();
+const {
+  addRecord,
+  canSaveNewRecord,
+  cidrInputMode,
+  customHours,
+  durationSetting,
+  isRegionCidrMode,
+  isSaving,
+  newRecord,
+  newRecordPlaceholder,
+  regionInputsDisabled,
+  showAddDialog,
+  whitelistRegionSelections,
+} = controller;
+</script>
+
+<template>
+  <Card>
+    <CardHeader>
+      <CardTitle class="flex items-center justify-between">
+        <span>{{ t("admin.ipWhitelist.title") }}</span>
+        <Button @click="showAddDialog = true">
+          {{ t("admin.ipWhitelist.addTarget") }}
+        </Button>
+      </CardTitle>
+      <CardDescription>
+        {{ t("admin.ipWhitelist.pageDescription") }}
+      </CardDescription>
+    </CardHeader>
+    <CardContent>
+      <WhitelistRecordsPanel :controller="controller" />
+      <WhitelistRegionGroups :controller="controller" />
+    </CardContent>
+  </Card>
+
+  <WhitelistAddDialog
+    v-model:cidr-input-mode="cidrInputMode"
+    v-model:custom-hours="customHours"
+    v-model:duration-setting="durationSetting"
+    v-model:new-record="newRecord"
+    v-model:open="showAddDialog"
+    v-model:region-selections="whitelistRegionSelections"
+    :can-save="canSaveNewRecord"
+    :is-region-cidr-mode="isRegionCidrMode"
+    :is-saving="isSaving"
+    :new-record-placeholder="newRecordPlaceholder"
+    :region-inputs-disabled="regionInputsDisabled"
+    @add="addRecord"
+  />
+</template>

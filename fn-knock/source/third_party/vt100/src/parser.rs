@@ -1,1 +1,143 @@
-Ly8vIEEgcGFyc2VyIGZvciB0ZXJtaW5hbCBvdXRwdXQgd2hpY2ggcHJvZHVjZXMgYW4gaW4tbWVtb3J5IHJlcHJlc2VudGF0aW9uIG9mCi8vLyB0aGUgdGVybWluYWwgY29udGVudHMuCnB1YiBzdHJ1Y3QgUGFyc2VyPENCOiBjcmF0ZTo6Y2FsbGJhY2tzOjpDYWxsYmFja3MgPSAoKT4gewogICAgcGFyc2VyOiB2dGU6OlBhcnNlciwKICAgIHNjcmVlbjogY3JhdGU6OnBlcmZvcm06OldyYXBwZWRTY3JlZW48Q0I+LAp9CgppbXBsIFBhcnNlciB7CiAgICAvLy8gQ3JlYXRlcyBhIG5ldyB0ZXJtaW5hbCBwYXJzZXIgb2YgdGhlIGdpdmVuIHNpemUgYW5kIHdpdGggdGhlIGdpdmVuCiAgICAvLy8gYW1vdW50IG9mIHNjcm9sbGJhY2suCiAgICAjW211c3RfdXNlXQogICAgcHViIGZuIG5ldyhyb3dzOiB1MTYsIGNvbHM6IHUxNiwgc2Nyb2xsYmFja19sZW46IHVzaXplKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsKICAgICAgICAgICAgcGFyc2VyOiB2dGU6OlBhcnNlcjo6bmV3KCksCiAgICAgICAgICAgIHNjcmVlbjogY3JhdGU6OnBlcmZvcm06OldyYXBwZWRTY3JlZW46Om5ldygKICAgICAgICAgICAgICAgIHJvd3MsCiAgICAgICAgICAgICAgICBjb2xzLAogICAgICAgICAgICAgICAgc2Nyb2xsYmFja19sZW4sCiAgICAgICAgICAgICksCiAgICAgICAgfQogICAgfQp9CgppbXBsPENCOiBjcmF0ZTo6Y2FsbGJhY2tzOjpDYWxsYmFja3M+IFBhcnNlcjxDQj4gewogICAgLy8vIENyZWF0ZXMgYSBuZXcgdGVybWluYWwgcGFyc2VyIG9mIHRoZSBnaXZlbiBzaXplIGFuZCB3aXRoIHRoZSBnaXZlbgogICAgLy8vIGFtb3VudCBvZiBzY3JvbGxiYWNrLiBUZXJtaW5hbCBldmVudHMgd2lsbCBiZSByZXBvcnRlZCB2aWEgbWV0aG9kCiAgICAvLy8gY2FsbHMgb24gdGhlIHByb3ZpZGVkIFtgQ2FsbGJhY2tzYF0oY3JhdGU6OmNhbGxiYWNrczo6Q2FsbGJhY2tzKQogICAgLy8vIGltcGxlbWVudGF0aW9uLgogICAgcHViIGZuIG5ld193aXRoX2NhbGxiYWNrcygKICAgICAgICByb3dzOiB1MTYsCiAgICAgICAgY29sczogdTE2LAogICAgICAgIHNjcm9sbGJhY2tfbGVuOiB1c2l6ZSwKICAgICAgICBjYWxsYmFja3M6IENCLAogICAgKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsKICAgICAgICAgICAgcGFyc2VyOiB2dGU6OlBhcnNlcjo6bmV3KCksCiAgICAgICAgICAgIHNjcmVlbjogY3JhdGU6OnBlcmZvcm06OldyYXBwZWRTY3JlZW46Om5ld193aXRoX2NhbGxiYWNrcygKICAgICAgICAgICAgICAgIHJvd3MsCiAgICAgICAgICAgICAgICBjb2xzLAogICAgICAgICAgICAgICAgc2Nyb2xsYmFja19sZW4sCiAgICAgICAgICAgICAgICBjYWxsYmFja3MsCiAgICAgICAgICAgICksCiAgICAgICAgfQogICAgfQoKICAgIC8vLyBQcm9jZXNzZXMgdGhlIGNvbnRlbnRzIG9mIHRoZSBnaXZlbiBieXRlIHN0cmluZywgYW5kIHVwZGF0ZXMgdGhlCiAgICAvLy8gaW4tbWVtb3J5IHRlcm1pbmFsIHN0YXRlLgogICAgcHViIGZuIHByb2Nlc3MoJm11dCBzZWxmLCBieXRlczogJlt1OF0pIHsKICAgICAgICBzZWxmLnBhcnNlci5hZHZhbmNlKCZtdXQgc2VsZi5zY3JlZW4sIGJ5dGVzKTsKICAgIH0KCiAgICAvLy8gUmV0dXJucyBhIHJlZmVyZW5jZSB0byBhIFtgU2NyZWVuYF0oY3JhdGU6OlNjcmVlbikgb2JqZWN0IGNvbnRhaW5pbmcKICAgIC8vLyB0aGUgdGVybWluYWwgc3RhdGUuCiAgICAjW211c3RfdXNlXQogICAgcHViIGZuIHNjcmVlbigmc2VsZikgLT4gJmNyYXRlOjpTY3JlZW4gewogICAgICAgICZzZWxmLnNjcmVlbi5zY3JlZW4KICAgIH0KCiAgICAvLy8gUmV0dXJucyBhIG11dGFibGUgcmVmZXJlbmNlIHRvIGEgW2BTY3JlZW5gXShjcmF0ZTo6U2NyZWVuKSBvYmplY3QKICAgIC8vLyBjb250YWluaW5nIHRoZSB0ZXJtaW5hbCBzdGF0ZS4KICAgICNbbXVzdF91c2VdCiAgICBwdWIgZm4gc2NyZWVuX211dCgmbXV0IHNlbGYpIC0+ICZtdXQgY3JhdGU6OlNjcmVlbiB7CiAgICAgICAgJm11dCBzZWxmLnNjcmVlbi5zY3JlZW4KICAgIH0KCiAgICAvLy8gUmV0dXJucyBhIHJlZmVyZW5jZSB0byB0aGUgW2BDYWxsYmFja3NgXShjcmF0ZTo6Y2FsbGJhY2tzOjpDYWxsYmFja3MpCiAgICAvLy8gc3RhdGUgb2JqZWN0IHBhc3NlZCBpbnRvIHRoZSBjb25zdHJ1Y3Rvci4KICAgIHB1YiBmbiBjYWxsYmFja3MoJnNlbGYpIC0+ICZDQiB7CiAgICAgICAgJnNlbGYuc2NyZWVuLmNhbGxiYWNrcwogICAgfQoKICAgIC8vLyBSZXR1cm5zIGEgbXV0YWJsZSByZWZlcmVuY2UgdG8gdGhlCiAgICAvLy8gW2BDYWxsYmFja3NgXShjcmF0ZTo6Y2FsbGJhY2tzOjpDYWxsYmFja3MpIHN0YXRlIG9iamVjdCBwYXNzZWQgaW50bwogICAgLy8vIHRoZSBjb25zdHJ1Y3Rvci4KICAgIHB1YiBmbiBjYWxsYmFja3NfbXV0KCZtdXQgc2VsZikgLT4gJm11dCBDQiB7CiAgICAgICAgJm11dCBzZWxmLnNjcmVlbi5jYWxsYmFja3MKICAgIH0KfQoKaW1wbCBEZWZhdWx0IGZvciBQYXJzZXIgewogICAgLy8vIFJldHVybnMgYSBwYXJzZXIgd2l0aCBkaW1lbnNpb25zIDgweDI0IGFuZCBubyBzY3JvbGxiYWNrLgogICAgZm4gZGVmYXVsdCgpIC0+IFNlbGYgewogICAgICAgIFNlbGY6Om5ldygyNCwgODAsIDApCiAgICB9Cn0KCmltcGwgc3RkOjppbzo6V3JpdGUgZm9yIFBhcnNlciB7CiAgICBmbiB3cml0ZSgmbXV0IHNlbGYsIGJ1ZjogJlt1OF0pIC0+IHN0ZDo6aW86OlJlc3VsdDx1c2l6ZT4gewogICAgICAgIHNlbGYucHJvY2VzcyhidWYpOwogICAgICAgIE9rKGJ1Zi5sZW4oKSkKICAgIH0KCiAgICBmbiBmbHVzaCgmbXV0IHNlbGYpIC0+IHN0ZDo6aW86OlJlc3VsdDwoKT4gewogICAgICAgIE9rKCgpKQogICAgfQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgICNbZGVyaXZlKERlZmF1bHQpXQogICAgc3RydWN0IE9ic2VydmVkIHsKICAgICAgICBjbGlwYm9hcmRfYnl0ZXM6IHVzaXplLAogICAgICAgIHRpdGxlczogVmVjPFZlYzx1OD4+LAogICAgfQoKICAgIGltcGwgY3JhdGU6OkNhbGxiYWNrcyBmb3IgT2JzZXJ2ZWQgewogICAgICAgIGZuIGNvcHlfdG9fY2xpcGJvYXJkKAogICAgICAgICAgICAmbXV0IHNlbGYsCiAgICAgICAgICAgIF86ICZtdXQgY3JhdGU6OlNjcmVlbiwKICAgICAgICAgICAgXzogJlt1OF0sCiAgICAgICAgICAgIGRhdGE6ICZbdThdLAogICAgICAgICkgewogICAgICAgICAgICBzZWxmLmNsaXBib2FyZF9ieXRlcyA9IGRhdGEubGVuKCk7CiAgICAgICAgfQogICAgICAgIGZuIHNldF93aW5kb3dfdGl0bGUoJm11dCBzZWxmLCBfOiAmbXV0IGNyYXRlOjpTY3JlZW4sIHRpdGxlOiAmW3U4XSkgewogICAgICAgICAgICBzZWxmLnRpdGxlcy5wdXNoKHRpdGxlLnRvX3ZlYygpKTsKICAgICAgICB9CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gbG9uZ19vc2NfaXNfYm91bmRlZF9hbmRfcmVjb3ZlcnNfYWNyb3NzX2NodW5rX2JvdW5kYXJpZXMoKSB7CiAgICAgICAgbGV0IG11dCBwYXJzZXIgPQogICAgICAgICAgICBzdXBlcjo6UGFyc2VyOjpuZXdfd2l0aF9jYWxsYmFja3MoNCwgNDAsIDgsIE9ic2VydmVkOjpkZWZhdWx0KCkpOwogICAgICAgIHBhcnNlci5wcm9jZXNzKGIiYmVmb3JlXHJcblx4MWJdNTI7YzsiKTsKICAgICAgICBmb3IgXyBpbiAwLi42NCB7CiAgICAgICAgICAgIHBhcnNlci5wcm9jZXNzKCZbYidBJzsgMTYgKiAxMDI0XSk7CiAgICAgICAgfQogICAgICAgIHBhcnNlci5wcm9jZXNzKGIiXHgwN2FmdGVyLWJlbFxyXG5ceDFiXTI7Iik7CiAgICAgICAgYXNzZXJ0IShwYXJzZXIuY2FsbGJhY2tzKCkuY2xpcGJvYXJkX2J5dGVzID4gMCk7CiAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgcGFyc2VyLmNhbGxiYWNrcygpLmNsaXBib2FyZF9ieXRlcyA8PSAxMDI0LAogICAgICAgICAgICAidnRlIHN0ZCBmZWF0dXJlIG11c3Qgbm90IHJlLWVuYWJsZSBhbiB1bmJvdW5kZWQgT1NDIGJ1ZmZlciIKICAgICAgICApOwogICAgICAgIGZvciBfIGluIDAuLjY0IHsKICAgICAgICAgICAgcGFyc2VyLnByb2Nlc3MoJltiJ0InOyAxNiAqIDEwMjRdKTsKICAgICAgICB9CiAgICAgICAgcGFyc2VyLnByb2Nlc3MoYiJceDFiIik7CiAgICAgICAgcGFyc2VyLnByb2Nlc3MoYiJcXGFmdGVyLXN0XHgxYl0yO25vcm1hbC10aXRsZVx4MDciKTsKICAgICAgICBhc3NlcnQhKHBhcnNlci5jYWxsYmFja3MoKS50aXRsZXNbMF0ubGVuKCkgPD0gMTAyNCk7CiAgICAgICAgYXNzZXJ0X2VxIShwYXJzZXIuY2FsbGJhY2tzKCkudGl0bGVzWzFdLCBiIm5vcm1hbC10aXRsZSIpOwogICAgICAgIGFzc2VydF9lcSEocGFyc2VyLnNjcmVlbigpLmNvbnRlbnRzKCksICJiZWZvcmVcbmFmdGVyLWJlbFxuYWZ0ZXItc3QiKTsKICAgIH0KfQo=
+/// A parser for terminal output which produces an in-memory representation of
+/// the terminal contents.
+pub struct Parser<CB: crate::callbacks::Callbacks = ()> {
+    parser: vte::Parser,
+    screen: crate::perform::WrappedScreen<CB>,
+}
+
+impl Parser {
+    /// Creates a new terminal parser of the given size and with the given
+    /// amount of scrollback.
+    #[must_use]
+    pub fn new(rows: u16, cols: u16, scrollback_len: usize) -> Self {
+        Self {
+            parser: vte::Parser::new(),
+            screen: crate::perform::WrappedScreen::new(
+                rows,
+                cols,
+                scrollback_len,
+            ),
+        }
+    }
+}
+
+impl<CB: crate::callbacks::Callbacks> Parser<CB> {
+    /// Creates a new terminal parser of the given size and with the given
+    /// amount of scrollback. Terminal events will be reported via method
+    /// calls on the provided [`Callbacks`](crate::callbacks::Callbacks)
+    /// implementation.
+    pub fn new_with_callbacks(
+        rows: u16,
+        cols: u16,
+        scrollback_len: usize,
+        callbacks: CB,
+    ) -> Self {
+        Self {
+            parser: vte::Parser::new(),
+            screen: crate::perform::WrappedScreen::new_with_callbacks(
+                rows,
+                cols,
+                scrollback_len,
+                callbacks,
+            ),
+        }
+    }
+
+    /// Processes the contents of the given byte string, and updates the
+    /// in-memory terminal state.
+    pub fn process(&mut self, bytes: &[u8]) {
+        self.parser.advance(&mut self.screen, bytes);
+    }
+
+    /// Returns a reference to a [`Screen`](crate::Screen) object containing
+    /// the terminal state.
+    #[must_use]
+    pub fn screen(&self) -> &crate::Screen {
+        &self.screen.screen
+    }
+
+    /// Returns a mutable reference to a [`Screen`](crate::Screen) object
+    /// containing the terminal state.
+    #[must_use]
+    pub fn screen_mut(&mut self) -> &mut crate::Screen {
+        &mut self.screen.screen
+    }
+
+    /// Returns a reference to the [`Callbacks`](crate::callbacks::Callbacks)
+    /// state object passed into the constructor.
+    pub fn callbacks(&self) -> &CB {
+        &self.screen.callbacks
+    }
+
+    /// Returns a mutable reference to the
+    /// [`Callbacks`](crate::callbacks::Callbacks) state object passed into
+    /// the constructor.
+    pub fn callbacks_mut(&mut self) -> &mut CB {
+        &mut self.screen.callbacks
+    }
+}
+
+impl Default for Parser {
+    /// Returns a parser with dimensions 80x24 and no scrollback.
+    fn default() -> Self {
+        Self::new(24, 80, 0)
+    }
+}
+
+impl std::io::Write for Parser {
+    fn write(&mut self, buf: &[u8]) -> std::io::Result<usize> {
+        self.process(buf);
+        Ok(buf.len())
+    }
+
+    fn flush(&mut self) -> std::io::Result<()> {
+        Ok(())
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    #[derive(Default)]
+    struct Observed {
+        clipboard_bytes: usize,
+        titles: Vec<Vec<u8>>,
+    }
+
+    impl crate::Callbacks for Observed {
+        fn copy_to_clipboard(
+            &mut self,
+            _: &mut crate::Screen,
+            _: &[u8],
+            data: &[u8],
+        ) {
+            self.clipboard_bytes = data.len();
+        }
+        fn set_window_title(&mut self, _: &mut crate::Screen, title: &[u8]) {
+            self.titles.push(title.to_vec());
+        }
+    }
+
+    #[test]
+    fn long_osc_is_bounded_and_recovers_across_chunk_boundaries() {
+        let mut parser =
+            super::Parser::new_with_callbacks(4, 40, 8, Observed::default());
+        parser.process(b"before\r\n\x1b]52;c;");
+        for _ in 0..64 {
+            parser.process(&[b'A'; 16 * 1024]);
+        }
+        parser.process(b"\x07after-bel\r\n\x1b]2;");
+        assert!(parser.callbacks().clipboard_bytes > 0);
+        assert!(
+            parser.callbacks().clipboard_bytes <= 1024,
+            "vte std feature must not re-enable an unbounded OSC buffer"
+        );
+        for _ in 0..64 {
+            parser.process(&[b'B'; 16 * 1024]);
+        }
+        parser.process(b"\x1b");
+        parser.process(b"\\after-st\x1b]2;normal-title\x07");
+        assert!(parser.callbacks().titles[0].len() <= 1024);
+        assert_eq!(parser.callbacks().titles[1], b"normal-title");
+        assert_eq!(parser.screen().contents(), "before\nafter-bel\nafter-st");
+    }
+}

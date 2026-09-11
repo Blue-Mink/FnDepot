@@ -1,1 +1,368 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IFRvbWxDb2RlRWRpdG9yIGZyb20gIi4uLy4uLy4uL2NvbXBvbmVudHMvVG9tbENvZGVFZGl0b3IudnVlIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgZXh0cmFjdEVycm9yTWVzc2FnZSB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgewogIGV4dHJhY3RWaXN1YWxGaWVsZHNGcm9tVG9tbCwKICBtZXJnZVZpc3VhbEZpZWxkc0ludG9Ub21sLAogIHR5cGUgRnJwY1Zpc3VhbEZpZWxkcywKfSBmcm9tICIuLi8uLi8uLi9saWIvZnJwYy1jb25maWctZWRpdG9yIjsKaW1wb3J0IEZycGNWaXN1YWxGaWVsZFJvdyBmcm9tICIuL0ZycGNWaXN1YWxGaWVsZFJvdy52dWUiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgbW9kZWxWYWx1ZTogc3RyaW5nOwogIGRlZmF1bHRzOiB7IGxvY2FsX3BvcnQ6IHN0cmluZyB9OwogIGlkUHJlZml4OiBzdHJpbmc7Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICJ1cGRhdGU6bW9kZWxWYWx1ZSI6IFt2YWx1ZTogc3RyaW5nXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwoKY29uc3QgcmF3Q29udGVudCA9IHJlZigiIik7CmNvbnN0IGN1c3RvbVRvbWwgPSByZWYoIiIpOwpjb25zdCBlZGl0b3JNb2RlID0gcmVmPCJ2aXN1YWwiIHwgImN1c3RvbSI+KCJ2aXN1YWwiKTsKY29uc3QgdmlzdWFsU3luY0Vycm9yID0gcmVmPHN0cmluZyB8IG51bGw+KG51bGwpOwoKY29uc3Qgc2VydmVyQWRkciA9IHJlZigiIik7CmNvbnN0IHNlcnZlclBvcnQgPSByZWYoIjcwMDAiKTsKY29uc3Qgc2VydmVyVG9rZW4gPSByZWYoIiIpOwpjb25zdCB3ZWJVc2VyID0gcmVmKCJhZG1pbiIpOwpjb25zdCB3ZWJQYXNzd29yZCA9IHJlZigiIik7CmNvbnN0IGxvY2FsUG9ydCA9IHJlZigiNzk5OSIpOwpjb25zdCByZW1vdGVQb3J0ID0gcmVmKCI3OTk5Iik7Cgpjb25zdCBpc0N1c3RvbU1vZGUgPSBjb21wdXRlZCgoKSA9PiBlZGl0b3JNb2RlLnZhbHVlID09PSAiY3VzdG9tIik7CmNvbnN0IGN1cnJlbnRNb2RlTGFiZWwgPSBjb21wdXRlZCgoKSA9PgogIGlzQ3VzdG9tTW9kZS52YWx1ZQogICAgPyB0KCJhZG1pbi5mcnBjSW5zdGFuY2VFZGl0b3Iuc291cmNlTW9kZSIpCiAgICA6IHQoImFkbWluLmZycGNJbnN0YW5jZUVkaXRvci5mb3JtTW9kZSIpLAopOwpjb25zdCBjdXJyZW50TW9kZURlc2NyaXB0aW9uID0gY29tcHV0ZWQoKCkgPT4KICBpc0N1c3RvbU1vZGUudmFsdWUKICAgID8gdCgiYWRtaW4uZnJwY0luc3RhbmNlRWRpdG9yLmN1c3RvbU1vZGVEZXNjcmlwdGlvbiIpCiAgICA6IHQoImFkbWluLmZycGNJbnN0YW5jZUVkaXRvci5mb3JtTW9kZURlc2NyaXB0aW9uIiksCik7CgpmdW5jdGlvbiBmaWVsZElkKG5hbWU6IHN0cmluZykgewogIHJldHVybiBgJHtwcm9wcy5pZFByZWZpeH0tJHtuYW1lfWA7Cn0KCmZ1bmN0aW9uIGdldFZpc3VhbERlZmF1bHRzKCkgewogIHJldHVybiB7CiAgICBsb2NhbFBvcnQ6IHByb3BzLmRlZmF1bHRzLmxvY2FsX3BvcnQsCiAgfTsKfQoKZnVuY3Rpb24gZ2V0VmlzdWFsRmllbGRzKCk6IEZycGNWaXN1YWxGaWVsZHMgewogIHJldHVybiB7CiAgICBzZXJ2ZXJBZGRyOiBzZXJ2ZXJBZGRyLnZhbHVlLAogICAgc2VydmVyUG9ydDogc2VydmVyUG9ydC52YWx1ZSwKICAgIHNlcnZlclRva2VuOiBzZXJ2ZXJUb2tlbi52YWx1ZSwKICAgIHdlYlVzZXI6IHdlYlVzZXIudmFsdWUsCiAgICB3ZWJQYXNzd29yZDogd2ViUGFzc3dvcmQudmFsdWUsCiAgICBsb2NhbFBvcnQ6IGxvY2FsUG9ydC52YWx1ZSwKICAgIHJlbW90ZVBvcnQ6IHJlbW90ZVBvcnQudmFsdWUsCiAgfTsKfQoKZnVuY3Rpb24gYXBwbHlWaXN1YWxGaWVsZHMoZmllbGRzOiBGcnBjVmlzdWFsRmllbGRzKSB7CiAgc2VydmVyQWRkci52YWx1ZSA9IGZpZWxkcy5zZXJ2ZXJBZGRyOwogIHNlcnZlclBvcnQudmFsdWUgPSBmaWVsZHMuc2VydmVyUG9ydDsKICBzZXJ2ZXJUb2tlbi52YWx1ZSA9IGZpZWxkcy5zZXJ2ZXJUb2tlbjsKICB3ZWJVc2VyLnZhbHVlID0gZmllbGRzLndlYlVzZXI7CiAgd2ViUGFzc3dvcmQudmFsdWUgPSBmaWVsZHMud2ViUGFzc3dvcmQ7CiAgbG9jYWxQb3J0LnZhbHVlID0gZmllbGRzLmxvY2FsUG9ydDsKICByZW1vdGVQb3J0LnZhbHVlID0gZmllbGRzLnJlbW90ZVBvcnQ7Cn0KCmZ1bmN0aW9uIHN5bmNWaXN1YWxGaWVsZHNGcm9tUmF3KHJhdzogc3RyaW5nKSB7CiAgYXBwbHlWaXN1YWxGaWVsZHMoZXh0cmFjdFZpc3VhbEZpZWxkc0Zyb21Ub21sKHJhdywgZ2V0VmlzdWFsRGVmYXVsdHMoKSkpOwogIHZpc3VhbFN5bmNFcnJvci52YWx1ZSA9IG51bGw7Cn0KCmZ1bmN0aW9uIGJ1aWxkVmlzdWFsQ29uZmlnKAogIGJhc2VSYXcgPSBjdXN0b21Ub21sLnZhbHVlIHx8IHJhd0NvbnRlbnQudmFsdWUsCik6IHN0cmluZyB7CiAgcmV0dXJuIG1lcmdlVmlzdWFsRmllbGRzSW50b1RvbWwoCiAgICBiYXNlUmF3LAogICAgZ2V0VmlzdWFsRmllbGRzKCksCiAgICBnZXRWaXN1YWxEZWZhdWx0cygpLAogICk7Cn0KCmZ1bmN0aW9uIHJlc2V0RnJvbVJhdyhyYXc6IHN0cmluZykgewogIHJhd0NvbnRlbnQudmFsdWUgPSByYXc7CiAgY3VzdG9tVG9tbC52YWx1ZSA9IHJhdzsKICB0cnkgewogICAgc3luY1Zpc3VhbEZpZWxkc0Zyb21SYXcocmF3KTsKICAgIGVkaXRvck1vZGUudmFsdWUgPSAidmlzdWFsIjsKICB9IGNhdGNoIChlcnJvcikgewogICAgZWRpdG9yTW9kZS52YWx1ZSA9ICJjdXN0b20iOwogICAgdmlzdWFsU3luY0Vycm9yLnZhbHVlID0gZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgZXJyb3IsCiAgICAgIHQoImFkbWluLmZycGNJbnN0YW5jZUVkaXRvci51bm1hcHBhYmxlRmFsbGJhY2siKSwKICAgICk7CiAgfQp9CgpmdW5jdGlvbiBlbnRlckN1c3RvbU1vZGUoKSB7CiAgdHJ5IHsKICAgIGN1c3RvbVRvbWwudmFsdWUgPSBidWlsZFZpc3VhbENvbmZpZyhjdXN0b21Ub21sLnZhbHVlIHx8IHJhd0NvbnRlbnQudmFsdWUpOwogICAgcmF3Q29udGVudC52YWx1ZSA9IGN1c3RvbVRvbWwudmFsdWU7CiAgICBlZGl0b3JNb2RlLnZhbHVlID0gImN1c3RvbSI7CiAgICB2aXN1YWxTeW5jRXJyb3IudmFsdWUgPSBudWxsOwogICAgZW1pdCgidXBkYXRlOm1vZGVsVmFsdWUiLCBjdXN0b21Ub21sLnZhbHVlKTsKICB9IGNhdGNoIChlcnJvcikgewogICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZnJwY0luc3RhbmNlRWRpdG9yLmVudGVyQ3VzdG9tRmFpbGVkIiksIHsKICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgZXJyb3IsCiAgICAgICAgdCgiYWRtaW4uZnJwY0luc3RhbmNlRWRpdG9yLmNvbnZlcnRUb1RvbWxGYWlsZWQiKSwKICAgICAgKSwKICAgIH0pOwogIH0KfQoKZnVuY3Rpb24gZXhpdEN1c3RvbU1vZGUoKSB7CiAgdHJ5IHsKICAgIHN5bmNWaXN1YWxGaWVsZHNGcm9tUmF3KGN1c3RvbVRvbWwudmFsdWUpOwogICAgcmF3Q29udGVudC52YWx1ZSA9IGN1c3RvbVRvbWwudmFsdWU7CiAgICBlZGl0b3JNb2RlLnZhbHVlID0gInZpc3VhbCI7CiAgICBlbWl0KCJ1cGRhdGU6bW9kZWxWYWx1ZSIsIGN1c3RvbVRvbWwudmFsdWUpOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICBjb25zdCBtZXNzYWdlID0gZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgZXJyb3IsCiAgICAgIHQoImFkbWluLmZycGNJbnN0YW5jZUVkaXRvci5pbnZhbGlkVG9tbCIpLAogICAgKTsKICAgIHZpc3VhbFN5bmNFcnJvci52YWx1ZSA9IG1lc3NhZ2U7CiAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5mcnBjSW5zdGFuY2VFZGl0b3IuZXhpdEN1c3RvbUZhaWxlZCIpLCB7CiAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5mcnBjSW5zdGFuY2VFZGl0b3IuZml4Q3VzdG9tQmVmb3JlU3dpdGNoIiwgewogICAgICAgIG1lc3NhZ2UsCiAgICAgIH0pLAogICAgfSk7CiAgfQp9CgpmdW5jdGlvbiB0b2dnbGVDdXN0b21Nb2RlKCkgewogIGlmIChpc0N1c3RvbU1vZGUudmFsdWUpIHsKICAgIGV4aXRDdXN0b21Nb2RlKCk7CiAgICByZXR1cm47CiAgfQogIGVudGVyQ3VzdG9tTW9kZSgpOwp9CgpmdW5jdGlvbiBnZXRDb250ZW50KCk6IHN0cmluZyB7CiAgY29uc3QgY29udGVudCA9IGlzQ3VzdG9tTW9kZS52YWx1ZSA/IGN1c3RvbVRvbWwudmFsdWUgOiBidWlsZFZpc3VhbENvbmZpZygpOwogIHJhd0NvbnRlbnQudmFsdWUgPSBjb250ZW50OwogIGN1c3RvbVRvbWwudmFsdWUgPSBjb250ZW50OwogIGVtaXQoInVwZGF0ZTptb2RlbFZhbHVlIiwgY29udGVudCk7CiAgcmV0dXJuIGNvbnRlbnQ7Cn0KCndhdGNoKAogICgpID0+IHByb3BzLm1vZGVsVmFsdWUsCiAgKHZhbHVlKSA9PiB7CiAgICBpZiAodmFsdWUgPT09IHJhd0NvbnRlbnQudmFsdWUpIHJldHVybjsKICAgIHJlc2V0RnJvbVJhdyh2YWx1ZSk7CiAgfSwKICB7IGltbWVkaWF0ZTogdHJ1ZSB9LAopOwoKd2F0Y2goY3VzdG9tVG9tbCwgKHZhbHVlKSA9PiB7CiAgaWYgKGlzQ3VzdG9tTW9kZS52YWx1ZSkgewogICAgcmF3Q29udGVudC52YWx1ZSA9IHZhbHVlOwogICAgZW1pdCgidXBkYXRlOm1vZGVsVmFsdWUiLCB2YWx1ZSk7CiAgfQp9KTsKCmRlZmluZUV4cG9zZSh7CiAgZ2V0Q29udGVudCwKICByZXNldEZyb21SYXcsCn0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1sZyBib3JkZXIgZGl2aWRlLXkgZGl2aWRlLWJvcmRlciI+CiAgICA8ZGl2CiAgICAgIGNsYXNzPSJiZy1saW5lYXItdG8tciBmcm9tLW11dGVkLzQwIHZpYS1tdXRlZC8xNSB0by10cmFuc3BhcmVudCBweC00IHB5LTQgc206cHgtNSIKICAgID4KICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLXN0YXJ0IHNtOmp1c3RpZnktYmV0d2VlbiIKICAgICAgPgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRyYWNraW5nLXRpZ2h0Ij4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZnJwY0luc3RhbmNlRWRpdG9yLmVkaXRNZXRob2QiKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8cCBjbGFzcz0ibWF4LXctMnhsIHRleHQteHMgbGVhZGluZy1yZWxheGVkIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IGN1cnJlbnRNb2RlRGVzY3JpcHRpb24gfX0KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICA8c3BhbgogICAgICAgICAgICBjbGFzcz0iaW5saW5lLWZsZXggdy1maXQgaXRlbXMtY2VudGVyIHJvdW5kZWQtZnVsbCBib3JkZXIgcHgtMi41IHB5LTEgdGV4dC1bMTFweF0gZm9udC1tZWRpdW0iCiAgICAgICAgICAgIDpjbGFzcz0iCiAgICAgICAgICAgICAgaXNDdXN0b21Nb2RlCiAgICAgICAgICAgICAgICA/ICdib3JkZXItcHJpbWFyeS8yMCBiZy1wcmltYXJ5LzUgdGV4dC1wcmltYXJ5JwogICAgICAgICAgICAgICAgOiAnYm9yZGVyLWJvcmRlciBiZy1iYWNrZ3JvdW5kLzgwIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCcKICAgICAgICAgICAgIgogICAgICAgICAgPgogICAgICAgICAgICB7eyBjdXJyZW50TW9kZUxhYmVsIH19CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICA6Y2xhc3M9IgogICAgICAgICAgICAgIGlzQ3VzdG9tTW9kZQogICAgICAgICAgICAgICAgPyAnYm9yZGVyLXByaW1hcnkgYmctcHJpbWFyeS81IHRleHQtcHJpbWFyeSBob3ZlcjpiZy1wcmltYXJ5LzEwJwogICAgICAgICAgICAgICAgOiAnJwogICAgICAgICAgICAiCiAgICAgICAgICAgIEBjbGljaz0idG9nZ2xlQ3VzdG9tTW9kZSIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZnJwY0luc3RhbmNlRWRpdG9yLmN1c3RvbSIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8ZGl2IHYtaWY9ImlzQ3VzdG9tTW9kZSIgY2xhc3M9InNwYWNlLXktNCBwLTQgc206cC01Ij4KICAgICAgPGRpdgogICAgICAgIHYtaWY9InZpc3VhbFN5bmNFcnJvciIKICAgICAgICBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWRlc3RydWN0aXZlLzIwIGJnLWRlc3RydWN0aXZlLzUgcHgtNCBweS0zIHRleHQtc20gbGVhZGluZy1yZWxheGVkIHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgcm9sZT0iYWxlcnQiCiAgICAgID4KICAgICAgICB7ewogICAgICAgICAgdCgiYWRtaW4uZnJwY0luc3RhbmNlRWRpdG9yLmNhbm5vdFN3aXRjaFRvRm9ybSIsIHsKICAgICAgICAgICAgbWVzc2FnZTogdmlzdWFsU3luY0Vycm9yLAogICAgICAgICAgfSkKICAgICAgICB9fQogICAgICA8L2Rpdj4KICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItZGFzaGVkIGJvcmRlci1ib3JkZXIvODAgYmctbXV0ZWQvMjAgcHgtNCBweS0zIHRleHQteHMgbGVhZGluZy1yZWxheGVkIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgPgogICAgICAgIHt7IHQoImFkbWluLmZycGNJbnN0YW5jZUVkaXRvci5jdXN0b21IaW50IikgfX0KICAgICAgPC9kaXY+CiAgICAgIDxUb21sQ29kZUVkaXRvciB2LW1vZGVsPSJjdXN0b21Ub21sIiAvPgogICAgPC9kaXY+CgogICAgPGRpdiB2LWVsc2UgY2xhc3M9ImRpdmlkZS15IGRpdmlkZS1ib3JkZXIiPgogICAgICA8RnJwY1Zpc3VhbEZpZWxkUm93CiAgICAgICAgOmlkPSJmaWVsZElkKCdzZXJ2ZXItYWRkcicpIgogICAgICAgIDpsYWJlbD0idCgnYWRtaW4uZnJwY0luc3RhbmNlRWRpdG9yLnNlcnZlckFkZHInKSIKICAgICAgICA6aGludD0idCgnYWRtaW4uZnJwY0luc3RhbmNlRWRpdG9yLnNlcnZlckFkZHJIaW50JykiCiAgICAgICAgcmVxdWlyZWQKICAgICAgPgogICAgICAgIDxJbnB1dAogICAgICAgICAgOmlkPSJmaWVsZElkKCdzZXJ2ZXItYWRkcicpIgogICAgICAgICAgdi1tb2RlbC50cmltPSJzZXJ2ZXJBZGRyIgogICAgICAgICAgcGxhY2Vob2xkZXI9ImV4YW1wbGUuY29tIgogICAgICAgICAgYXV0b2NvbXBsZXRlPSJvZmYiCiAgICAgICAgICBhdXRvY2FwaXRhbGl6ZT0ib2ZmIgogICAgICAgICAgYXV0b2NvcnJlY3Q9Im9mZiIKICAgICAgICAgIDpzcGVsbGNoZWNrPSJmYWxzZSIKICAgICAgICAgIGRhdGEtZm9ybS10eXBlPSJvdGhlciIKICAgICAgICAgIGRhdGEtMXAtaWdub3JlPSJ0cnVlIgogICAgICAgICAgZGF0YS1scGlnbm9yZT0idHJ1ZSIKICAgICAgICAgIGRhdGEtYndpZ25vcmU9InRydWUiCiAgICAgICAgLz4KICAgICAgPC9GcnBjVmlzdWFsRmllbGRSb3c+CgogICAgICA8RnJwY1Zpc3VhbEZpZWxkUm93CiAgICAgICAgOmlkPSJmaWVsZElkKCdzZXJ2ZXItcG9ydCcpIgogICAgICAgIDpsYWJlbD0idCgnYWRtaW4uZnJwY0luc3RhbmNlRWRpdG9yLnNlcnZlclBvcnQnKSIKICAgICAgICByZXF1aXJlZAogICAgICA+CiAgICAgICAgPElucHV0CiAgICAgICAgICA6aWQ9ImZpZWxkSWQoJ3NlcnZlci1wb3J0JykiCiAgICAgICAgICB2LW1vZGVsPSJzZXJ2ZXJQb3J0IgogICAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgICAgYXV0b2NvbXBsZXRlPSJvZmYiCiAgICAgICAgICBhdXRvY2FwaXRhbGl6ZT0ib2ZmIgogICAgICAgICAgYXV0b2NvcnJlY3Q9Im9mZiIKICAgICAgICAgIDpzcGVsbGNoZWNrPSJmYWxzZSIKICAgICAgICAgIGRhdGEtZm9ybS10eXBlPSJvdGhlciIKICAgICAgICAgIGRhdGEtMXAtaWdub3JlPSJ0cnVlIgogICAgICAgICAgZGF0YS1scGlnbm9yZT0idHJ1ZSIKICAgICAgICAgIGRhdGEtYndpZ25vcmU9InRydWUiCiAgICAgICAgLz4KICAgICAgPC9GcnBjVmlzdWFsRmllbGRSb3c+CgogICAgICA8RnJwY1Zpc3VhbEZpZWxkUm93CiAgICAgICAgOmlkPSJmaWVsZElkKCdzZXJ2ZXItdG9rZW4nKSIKICAgICAgICBsYWJlbD0iVG9rZW4iCiAgICAgICAgOmhpbnQ9InQoJ2FkbWluLmZycGNJbnN0YW5jZUVkaXRvci50b2tlbkhpbnQnKSIKICAgICAgPgogICAgICAgIDxJbnB1dAogICAgICAgICAgOmlkPSJmaWVsZElkKCdzZXJ2ZXItdG9rZW4nKSIKICAgICAgICAgIHYtbW9kZWwudHJpbT0ic2VydmVyVG9rZW4iCiAgICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLmZycGNJbnN0YW5jZUVkaXRvci5vcHRpb25hbCcpIgogICAgICAgICAgYXV0b2NvbXBsZXRlPSJvZmYiCiAgICAgICAgICBhdXRvY2FwaXRhbGl6ZT0ib2ZmIgogICAgICAgICAgYXV0b2NvcnJlY3Q9Im9mZiIKICAgICAgICAgIDpzcGVsbGNoZWNrPSJmYWxzZSIKICAgICAgICAgIGRhdGEtZm9ybS10eXBlPSJvdGhlciIKICAgICAgICAgIGRhdGEtMXAtaWdub3JlPSJ0cnVlIgogICAgICAgICAgZGF0YS1scGlnbm9yZT0idHJ1ZSIKICAgICAgICAgIGRhdGEtYndpZ25vcmU9InRydWUiCiAgICAgICAgLz4KICAgICAgPC9GcnBjVmlzdWFsRmllbGRSb3c+CgogICAgICA8RnJwY1Zpc3VhbEZpZWxkUm93CiAgICAgICAgOmlkPSJmaWVsZElkKCdsb2NhbC1wb3J0JykiCiAgICAgICAgOmxhYmVsPSJ0KCdhZG1pbi5mcnBjSW5zdGFuY2VFZGl0b3IubG9jYWxQb3J0JykiCiAgICAgICAgOmhpbnQ9IgogICAgICAgICAgdCgnYWRtaW4uZnJwY0luc3RhbmNlRWRpdG9yLmxvY2FsUG9ydEhpbnQnLCB7CiAgICAgICAgICAgIHBvcnQ6IGRlZmF1bHRzLmxvY2FsX3BvcnQsCiAgICAgICAgICB9KQogICAgICAgICIKICAgICAgICA6bW9iaWxlLWhpbnQ9IgogICAgICAgICAgdCgnYWRtaW4uZnJwY0luc3RhbmNlRWRpdG9yLmRlZmF1bHRQb3J0JywgewogICAgICAgICAgICBwb3J0OiBkZWZhdWx0cy5sb2NhbF9wb3J0LAogICAgICAgICAgfSkKICAgICAgICAiCiAgICAgICAgcmVxdWlyZWQKICAgICAgPgogICAgICAgIDxJbnB1dAogICAgICAgICAgOmlkPSJmaWVsZElkKCdsb2NhbC1wb3J0JykiCiAgICAgICAgICB2LW1vZGVsPSJsb2NhbFBvcnQiCiAgICAgICAgICB0eXBlPSJudW1iZXIiCiAgICAgICAgICA6cGxhY2Vob2xkZXI9ImRlZmF1bHRzLmxvY2FsX3BvcnQiCiAgICAgICAgICBhdXRvY29tcGxldGU9Im9mZiIKICAgICAgICAgIGF1dG9jYXBpdGFsaXplPSJvZmYiCiAgICAgICAgICBhdXRvY29ycmVjdD0ib2ZmIgogICAgICAgICAgOnNwZWxsY2hlY2s9ImZhbHNlIgogICAgICAgICAgZGF0YS1mb3JtLXR5cGU9Im90aGVyIgogICAgICAgICAgZGF0YS0xcC1pZ25vcmU9InRydWUiCiAgICAgICAgICBkYXRhLWxwaWdub3JlPSJ0cnVlIgogICAgICAgICAgZGF0YS1id2lnbm9yZT0idHJ1ZSIKICAgICAgICAvPgogICAgICA8L0ZycGNWaXN1YWxGaWVsZFJvdz4KCiAgICAgIDxGcnBjVmlzdWFsRmllbGRSb3cKICAgICAgICA6aWQ9ImZpZWxkSWQoJ3JlbW90ZS1wb3J0JykiCiAgICAgICAgOmxhYmVsPSJ0KCdhZG1pbi5mcnBjSW5zdGFuY2VFZGl0b3IucmVtb3RlUG9ydCcpIgogICAgICAgIDpoaW50PSJ0KCdhZG1pbi5mcnBjSW5zdGFuY2VFZGl0b3IucmVtb3RlUG9ydEhpbnQnKSIKICAgICAgICByZXF1aXJlZAogICAgICA+CiAgICAgICAgPElucHV0CiAgICAgICAgICA6aWQ9ImZpZWxkSWQoJ3JlbW90ZS1wb3J0JykiCiAgICAgICAgICB2LW1vZGVsPSJyZW1vdGVQb3J0IgogICAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgICAgYXV0b2NvbXBsZXRlPSJvZmYiCiAgICAgICAgICBhdXRvY2FwaXRhbGl6ZT0ib2ZmIgogICAgICAgICAgYXV0b2NvcnJlY3Q9Im9mZiIKICAgICAgICAgIDpzcGVsbGNoZWNrPSJmYWxzZSIKICAgICAgICAgIGRhdGEtZm9ybS10eXBlPSJvdGhlciIKICAgICAgICAgIGRhdGEtMXAtaWdub3JlPSJ0cnVlIgogICAgICAgICAgZGF0YS1scGlnbm9yZT0idHJ1ZSIKICAgICAgICAgIGRhdGEtYndpZ25vcmU9InRydWUiCiAgICAgICAgLz4KICAgICAgPC9GcnBjVmlzdWFsRmllbGRSb3c+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import TomlCodeEditor from "../../../components/TomlCodeEditor.vue";
+import { toast } from "@admin-shared/utils/toast";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import {
+  extractVisualFieldsFromToml,
+  mergeVisualFieldsIntoToml,
+  type FrpcVisualFields,
+} from "../../../lib/frpc-config-editor";
+import FrpcVisualFieldRow from "./FrpcVisualFieldRow.vue";
+
+const props = defineProps<{
+  modelValue: string;
+  defaults: { local_port: string };
+  idPrefix: string;
+}>();
+
+const emit = defineEmits<{
+  "update:modelValue": [value: string];
+}>();
+
+const { t } = useI18n();
+
+const rawContent = ref("");
+const customToml = ref("");
+const editorMode = ref<"visual" | "custom">("visual");
+const visualSyncError = ref<string | null>(null);
+
+const serverAddr = ref("");
+const serverPort = ref("7000");
+const serverToken = ref("");
+const webUser = ref("admin");
+const webPassword = ref("");
+const localPort = ref("7999");
+const remotePort = ref("7999");
+
+const isCustomMode = computed(() => editorMode.value === "custom");
+const currentModeLabel = computed(() =>
+  isCustomMode.value
+    ? t("admin.frpcInstanceEditor.sourceMode")
+    : t("admin.frpcInstanceEditor.formMode"),
+);
+const currentModeDescription = computed(() =>
+  isCustomMode.value
+    ? t("admin.frpcInstanceEditor.customModeDescription")
+    : t("admin.frpcInstanceEditor.formModeDescription"),
+);
+
+function fieldId(name: string) {
+  return `${props.idPrefix}-${name}`;
+}
+
+function getVisualDefaults() {
+  return {
+    localPort: props.defaults.local_port,
+  };
+}
+
+function getVisualFields(): FrpcVisualFields {
+  return {
+    serverAddr: serverAddr.value,
+    serverPort: serverPort.value,
+    serverToken: serverToken.value,
+    webUser: webUser.value,
+    webPassword: webPassword.value,
+    localPort: localPort.value,
+    remotePort: remotePort.value,
+  };
+}
+
+function applyVisualFields(fields: FrpcVisualFields) {
+  serverAddr.value = fields.serverAddr;
+  serverPort.value = fields.serverPort;
+  serverToken.value = fields.serverToken;
+  webUser.value = fields.webUser;
+  webPassword.value = fields.webPassword;
+  localPort.value = fields.localPort;
+  remotePort.value = fields.remotePort;
+}
+
+function syncVisualFieldsFromRaw(raw: string) {
+  applyVisualFields(extractVisualFieldsFromToml(raw, getVisualDefaults()));
+  visualSyncError.value = null;
+}
+
+function buildVisualConfig(
+  baseRaw = customToml.value || rawContent.value,
+): string {
+  return mergeVisualFieldsIntoToml(
+    baseRaw,
+    getVisualFields(),
+    getVisualDefaults(),
+  );
+}
+
+function resetFromRaw(raw: string) {
+  rawContent.value = raw;
+  customToml.value = raw;
+  try {
+    syncVisualFieldsFromRaw(raw);
+    editorMode.value = "visual";
+  } catch (error) {
+    editorMode.value = "custom";
+    visualSyncError.value = extractErrorMessage(
+      error,
+      t("admin.frpcInstanceEditor.unmappableFallback"),
+    );
+  }
+}
+
+function enterCustomMode() {
+  try {
+    customToml.value = buildVisualConfig(customToml.value || rawContent.value);
+    rawContent.value = customToml.value;
+    editorMode.value = "custom";
+    visualSyncError.value = null;
+    emit("update:modelValue", customToml.value);
+  } catch (error) {
+    toast.error(t("admin.frpcInstanceEditor.enterCustomFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.frpcInstanceEditor.convertToTomlFailed"),
+      ),
+    });
+  }
+}
+
+function exitCustomMode() {
+  try {
+    syncVisualFieldsFromRaw(customToml.value);
+    rawContent.value = customToml.value;
+    editorMode.value = "visual";
+    emit("update:modelValue", customToml.value);
+  } catch (error) {
+    const message = extractErrorMessage(
+      error,
+      t("admin.frpcInstanceEditor.invalidToml"),
+    );
+    visualSyncError.value = message;
+    toast.error(t("admin.frpcInstanceEditor.exitCustomFailed"), {
+      description: t("admin.frpcInstanceEditor.fixCustomBeforeSwitch", {
+        message,
+      }),
+    });
+  }
+}
+
+function toggleCustomMode() {
+  if (isCustomMode.value) {
+    exitCustomMode();
+    return;
+  }
+  enterCustomMode();
+}
+
+function getContent(): string {
+  const content = isCustomMode.value ? customToml.value : buildVisualConfig();
+  rawContent.value = content;
+  customToml.value = content;
+  emit("update:modelValue", content);
+  return content;
+}
+
+watch(
+  () => props.modelValue,
+  (value) => {
+    if (value === rawContent.value) return;
+    resetFromRaw(value);
+  },
+  { immediate: true },
+);
+
+watch(customToml, (value) => {
+  if (isCustomMode.value) {
+    rawContent.value = value;
+    emit("update:modelValue", value);
+  }
+});
+
+defineExpose({
+  getContent,
+  resetFromRaw,
+});
+</script>
+
+<template>
+  <div class="overflow-hidden rounded-lg border divide-y divide-border">
+    <div
+      class="bg-linear-to-r from-muted/40 via-muted/15 to-transparent px-4 py-4 sm:px-5"
+    >
+      <div
+        class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+      >
+        <div class="space-y-1">
+          <div class="text-sm font-medium tracking-tight">
+            {{ t("admin.frpcInstanceEditor.editMethod") }}
+          </div>
+          <p class="max-w-2xl text-xs leading-relaxed text-muted-foreground">
+            {{ currentModeDescription }}
+          </p>
+        </div>
+        <div class="flex items-center gap-2">
+          <span
+            class="inline-flex w-fit items-center rounded-full border px-2.5 py-1 text-[11px] font-medium"
+            :class="
+              isCustomMode
+                ? 'border-primary/20 bg-primary/5 text-primary'
+                : 'border-border bg-background/80 text-muted-foreground'
+            "
+          >
+            {{ currentModeLabel }}
+          </span>
+          <Button
+            variant="outline"
+            size="sm"
+            :class="
+              isCustomMode
+                ? 'border-primary bg-primary/5 text-primary hover:bg-primary/10'
+                : ''
+            "
+            @click="toggleCustomMode"
+          >
+            {{ t("admin.frpcInstanceEditor.custom") }}
+          </Button>
+        </div>
+      </div>
+    </div>
+
+    <div v-if="isCustomMode" class="space-y-4 p-4 sm:p-5">
+      <div
+        v-if="visualSyncError"
+        class="rounded-lg border border-destructive/20 bg-destructive/5 px-4 py-3 text-sm leading-relaxed text-destructive"
+        role="alert"
+      >
+        {{
+          t("admin.frpcInstanceEditor.cannotSwitchToForm", {
+            message: visualSyncError,
+          })
+        }}
+      </div>
+      <div
+        class="rounded-lg border border-dashed border-border/80 bg-muted/20 px-4 py-3 text-xs leading-relaxed text-muted-foreground"
+      >
+        {{ t("admin.frpcInstanceEditor.customHint") }}
+      </div>
+      <TomlCodeEditor v-model="customToml" />
+    </div>
+
+    <div v-else class="divide-y divide-border">
+      <FrpcVisualFieldRow
+        :id="fieldId('server-addr')"
+        :label="t('admin.frpcInstanceEditor.serverAddr')"
+        :hint="t('admin.frpcInstanceEditor.serverAddrHint')"
+        required
+      >
+        <Input
+          :id="fieldId('server-addr')"
+          v-model.trim="serverAddr"
+          placeholder="example.com"
+          autocomplete="off"
+          autocapitalize="off"
+          autocorrect="off"
+          :spellcheck="false"
+          data-form-type="other"
+          data-1p-ignore="true"
+          data-lpignore="true"
+          data-bwignore="true"
+        />
+      </FrpcVisualFieldRow>
+
+      <FrpcVisualFieldRow
+        :id="fieldId('server-port')"
+        :label="t('admin.frpcInstanceEditor.serverPort')"
+        required
+      >
+        <Input
+          :id="fieldId('server-port')"
+          v-model="serverPort"
+          type="number"
+          autocomplete="off"
+          autocapitalize="off"
+          autocorrect="off"
+          :spellcheck="false"
+          data-form-type="other"
+          data-1p-ignore="true"
+          data-lpignore="true"
+          data-bwignore="true"
+        />
+      </FrpcVisualFieldRow>
+
+      <FrpcVisualFieldRow
+        :id="fieldId('server-token')"
+        label="Token"
+        :hint="t('admin.frpcInstanceEditor.tokenHint')"
+      >
+        <Input
+          :id="fieldId('server-token')"
+          v-model.trim="serverToken"
+          :placeholder="t('admin.frpcInstanceEditor.optional')"
+          autocomplete="off"
+          autocapitalize="off"
+          autocorrect="off"
+          :spellcheck="false"
+          data-form-type="other"
+          data-1p-ignore="true"
+          data-lpignore="true"
+          data-bwignore="true"
+        />
+      </FrpcVisualFieldRow>
+
+      <FrpcVisualFieldRow
+        :id="fieldId('local-port')"
+        :label="t('admin.frpcInstanceEditor.localPort')"
+        :hint="
+          t('admin.frpcInstanceEditor.localPortHint', {
+            port: defaults.local_port,
+          })
+        "
+        :mobile-hint="
+          t('admin.frpcInstanceEditor.defaultPort', {
+            port: defaults.local_port,
+          })
+        "
+        required
+      >
+        <Input
+          :id="fieldId('local-port')"
+          v-model="localPort"
+          type="number"
+          :placeholder="defaults.local_port"
+          autocomplete="off"
+          autocapitalize="off"
+          autocorrect="off"
+          :spellcheck="false"
+          data-form-type="other"
+          data-1p-ignore="true"
+          data-lpignore="true"
+          data-bwignore="true"
+        />
+      </FrpcVisualFieldRow>
+
+      <FrpcVisualFieldRow
+        :id="fieldId('remote-port')"
+        :label="t('admin.frpcInstanceEditor.remotePort')"
+        :hint="t('admin.frpcInstanceEditor.remotePortHint')"
+        required
+      >
+        <Input
+          :id="fieldId('remote-port')"
+          v-model="remotePort"
+          type="number"
+          autocomplete="off"
+          autocapitalize="off"
+          autocorrect="off"
+          :spellcheck="false"
+          data-form-type="other"
+          data-1p-ignore="true"
+          data-lpignore="true"
+          data-bwignore="true"
+        />
+      </FrpcVisualFieldRow>
+    </div>
+  </div>
+</template>

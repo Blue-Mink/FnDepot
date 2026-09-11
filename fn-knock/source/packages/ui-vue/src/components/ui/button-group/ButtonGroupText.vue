@@ -1,1 +1,29 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUHJpbWl0aXZlUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgdHlwZSB7IEJ1dHRvbkdyb3VwVmFyaWFudHMgfSBmcm9tICIuIgppbXBvcnQgeyBQcmltaXRpdmUgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKaW50ZXJmYWNlIFByb3BzIGV4dGVuZHMgUHJpbWl0aXZlUHJvcHMgewogIGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0KICBvcmllbnRhdGlvbj86IEJ1dHRvbkdyb3VwVmFyaWFudHNbIm9yaWVudGF0aW9uIl0KfQoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoZGVmaW5lUHJvcHM8UHJvcHM+KCksIHsKICBhczogImRpdiIsCn0pCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxQcmltaXRpdmUKICAgIHJvbGU9Imdyb3VwIgogICAgZGF0YS1zbG90PSJidXR0b24tZ3JvdXAiCiAgICA6ZGF0YS1vcmllbnRhdGlvbj0icHJvcHMub3JpZW50YXRpb24iCiAgICA6YXM9ImFzIgogICAgOmFzLWNoaWxkPSJhc0NoaWxkIgogICAgOmNsYXNzPSJjbignYmctbXV0ZWQgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1tZCBib3JkZXIgcHgtNCB0ZXh0LXNtIGZvbnQtbWVkaXVtIHNoYWRvdy14cyBbJl9zdmddOnBvaW50ZXItZXZlbnRzLW5vbmUgWyZfc3ZnOm5vdChbY2xhc3MqPVwnc2l6ZS1cJ10pXTpzaXplLTQnLCBwcm9wcy5jbGFzcykiCiAgPgogICAgPHNsb3QgLz4KICA8L1ByaW1pdGl2ZT4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { PrimitiveProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import type { ButtonGroupVariants } from "."
+import { Primitive } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+interface Props extends PrimitiveProps {
+  class?: HTMLAttributes["class"]
+  orientation?: ButtonGroupVariants["orientation"]
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  as: "div",
+})
+</script>
+
+<template>
+  <Primitive
+    role="group"
+    data-slot="button-group"
+    :data-orientation="props.orientation"
+    :as="as"
+    :as-child="asChild"
+    :class="cn('bg-muted flex items-center gap-2 rounded-md border px-4 text-sm font-medium shadow-xs [&_svg]:pointer-events-none [&_svg:not([class*=\'size-\'])]:size-4', props.class)"
+  >
+    <slot />
+  </Primitive>
+</template>

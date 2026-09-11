@@ -1,1 +1,56 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IENoZXZyb25Eb3duLCBGb2xkZXJJbnB1dCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERyb3Bkb3duTWVudSwKICBEcm9wZG93bk1lbnVDb250ZW50LAogIERyb3Bkb3duTWVudUl0ZW0sCiAgRHJvcGRvd25NZW51U2VwYXJhdG9yLAogIERyb3Bkb3duTWVudVRyaWdnZXIsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2Ryb3Bkb3duLW1lbnUiOwppbXBvcnQgdHlwZSB7IEhvc3RNYXBwaW5nR3JvdXAgfSBmcm9tICJAL3R5cGVzIjsKCmRlZmluZVByb3BzPHsKICBncm91cHM6IEhvc3RNYXBwaW5nR3JvdXBbXTsKICBzYXZpbmc6IGJvb2xlYW47Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIG1vdmU6IFtncm91cElkOiBzdHJpbmcgfCBudWxsXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IHYtaWY9Imdyb3Vwcy5sZW5ndGggPiAwIiBjbGFzcz0iY29sLXNwYW4tMiBzbTpjb250ZW50cyI+CiAgICA8RHJvcGRvd25NZW51PgogICAgICA8RHJvcGRvd25NZW51VHJpZ2dlciBhcy1jaGlsZD4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9InNhdmluZyIKICAgICAgICAgIGNsYXNzPSJoLTEwIHctZnVsbCBqdXN0aWZ5LWNlbnRlciBzbTpoLTggc206dy1hdXRvIgogICAgICAgID4KICAgICAgICAgIDxGb2xkZXJJbnB1dCBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkubW92ZVRvR3JvdXAiKSB9fQogICAgICAgICAgPENoZXZyb25Eb3duIGNsYXNzPSJtbC0yIGgtNCB3LTQiIC8+CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvRHJvcGRvd25NZW51VHJpZ2dlcj4KICAgICAgPERyb3Bkb3duTWVudUNvbnRlbnQgYWxpZ249InN0YXJ0Ij4KICAgICAgICA8RHJvcGRvd25NZW51SXRlbQogICAgICAgICAgdi1mb3I9Imdyb3VwIGluIGdyb3VwcyIKICAgICAgICAgIDprZXk9Imdyb3VwLmlkIgogICAgICAgICAgQHNlbGVjdD0iZW1pdCgnbW92ZScsIGdyb3VwLmlkKSIKICAgICAgICA+CiAgICAgICAgICB7eyBncm91cC5uYW1lIH19CiAgICAgICAgPC9Ecm9wZG93bk1lbnVJdGVtPgogICAgICAgIDxEcm9wZG93bk1lbnVTZXBhcmF0b3IgLz4KICAgICAgICA8RHJvcGRvd25NZW51SXRlbSBAc2VsZWN0PSJlbWl0KCdtb3ZlJywgbnVsbCkiPgogICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkudW5ncm91cGVkIikgfX0KICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgIDwvRHJvcGRvd25NZW51Q29udGVudD4KICAgIDwvRHJvcGRvd25NZW51PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { ChevronDown, FolderInput } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import type { HostMappingGroup } from "@/types";
+
+defineProps<{
+  groups: HostMappingGroup[];
+  saving: boolean;
+}>();
+
+const emit = defineEmits<{
+  move: [groupId: string | null];
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <div v-if="groups.length > 0" class="col-span-2 sm:contents">
+    <DropdownMenu>
+      <DropdownMenuTrigger as-child>
+        <Button
+          size="sm"
+          variant="outline"
+          :disabled="saving"
+          class="h-10 w-full justify-center sm:h-8 sm:w-auto"
+        >
+          <FolderInput class="mr-2 h-4 w-4" />
+          {{ t("admin.subdomainProxy.moveToGroup") }}
+          <ChevronDown class="ml-2 h-4 w-4" />
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="start">
+        <DropdownMenuItem
+          v-for="group in groups"
+          :key="group.id"
+          @select="emit('move', group.id)"
+        >
+          {{ group.name }}
+        </DropdownMenuItem>
+        <DropdownMenuSeparator />
+        <DropdownMenuItem @select="emit('move', null)">
+          {{ t("admin.subdomainProxy.ungrouped") }}
+        </DropdownMenuItem>
+      </DropdownMenuContent>
+    </DropdownMenu>
+  </div>
+</template>

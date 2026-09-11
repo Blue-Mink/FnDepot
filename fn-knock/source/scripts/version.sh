@@ -1,1 +1,136 @@
-IyEvYmluL2Jhc2gKCmZuX2tub2NrX2FwcF92ZXJzaW9uKCkgewogIGxvY2FsIHJvb3RfZGlyPSIkMSIKICBsb2NhbCB2ZXJzaW9uX2ZpbGU9IiR7cm9vdF9kaXJ9L3ZlcnNpb24uanNvbiIKICBsb2NhbCB2ZXJzaW9uCgogIFsgLWYgIiR7dmVyc2lvbl9maWxlfSIgXSB8fCB7CiAgICBlY2hvICJtaXNzaW5nIHZlcnNpb24gZmlsZTogJHt2ZXJzaW9uX2ZpbGV9IiA+JjIKICAgIHJldHVybiAxCiAgfQoKICB2ZXJzaW9uPSIkKHNlZCAtbkUgJ3MvXltbOnNwYWNlOl1dKiJ2ZXJzaW9uIltbOnNwYWNlOl1dKjpbWzpzcGFjZTpdXSoiKFteIl0rKSIuKi9cMS9wJyAiJHt2ZXJzaW9uX2ZpbGV9IiB8IGhlYWQgLW4xKSIKICBbIC1uICIke3ZlcnNpb259IiBdIHx8IHsKICAgIGVjaG8gImZhaWxlZCB0byBwYXJzZSB2ZXJzaW9uIGZyb20gJHt2ZXJzaW9uX2ZpbGV9IiA+JjIKICAgIHJldHVybiAxCiAgfQoKICBwcmludGYgJyVzXG4nICIke3ZlcnNpb259Igp9Cgpmbl9rbm9ja19zeW5jX21hbmlmZXN0X3ZlcnNpb24oKSB7CiAgbG9jYWwgcm9vdF9kaXI9IiQxIgogIGxvY2FsIG1hbmlmZXN0X2ZpbGU9IiQyIgogIGxvY2FsIGxvZ19wcmVmaXg9IiQzIgogIGxvY2FsIGFwcF92ZXJzaW9uCiAgbG9jYWwgY3VycmVudF9tYW5pZmVzdF92ZXJzaW9uCiAgbG9jYWwgdG1wX21hbmlmZXN0CgogIGFwcF92ZXJzaW9uPSIkKGZuX2tub2NrX2FwcF92ZXJzaW9uICIke3Jvb3RfZGlyfSIpIiB8fCByZXR1cm4gMQogIFsgLWYgIiR7bWFuaWZlc3RfZmlsZX0iIF0gfHwgewogICAgZWNobyAiJHtsb2dfcHJlZml4fSBNaXNzaW5nIG1hbmlmZXN0IGZpbGU6ICR7bWFuaWZlc3RfZmlsZX0iID4mMgogICAgcmV0dXJuIDEKICB9CgogIGN1cnJlbnRfbWFuaWZlc3RfdmVyc2lvbj0iJChzZWQgLW5FICdzL152ZXJzaW9uPSguKikkL1wxL3AnICIke21hbmlmZXN0X2ZpbGV9IiB8IGhlYWQgLW4xKSIKICBpZiBbICIke2N1cnJlbnRfbWFuaWZlc3RfdmVyc2lvbn0iID0gIiR7YXBwX3ZlcnNpb259IiBdOyB0aGVuCiAgICBlY2hvICIke2xvZ19wcmVmaXh9IE1hbmlmZXN0IHZlcnNpb24gaXMgYWxyZWFkeSB1cCB0byBkYXRlOiAke2FwcF92ZXJzaW9ufSIKICAgIHJldHVybiAwCiAgZmkKCiAgdG1wX21hbmlmZXN0PSIkKG1rdGVtcCkiCiAgYXdrIC12IHZlcnNpb249IiR7YXBwX3ZlcnNpb259IiAnCiAgICBCRUdJTiB7IHVwZGF0ZWQgPSAwIH0KICAgIC9edmVyc2lvbj0vIHsKICAgICAgcHJpbnQgInZlcnNpb249IiB2ZXJzaW9uCiAgICAgIHVwZGF0ZWQgPSAxCiAgICAgIG5leHQKICAgIH0KICAgIHsgcHJpbnQgfQogICAgRU5EIHsKICAgICAgaWYgKCF1cGRhdGVkKSB7CiAgICAgICAgcHJpbnQgInZlcnNpb249IiB2ZXJzaW9uCiAgICAgIH0KICAgIH0KICAnICIke21hbmlmZXN0X2ZpbGV9IiA+ICIke3RtcF9tYW5pZmVzdH0iCiAgbXYgIiR7dG1wX21hbmlmZXN0fSIgIiR7bWFuaWZlc3RfZmlsZX0iCgogIGVjaG8gIiR7bG9nX3ByZWZpeH0gU3luY2VkIG1hbmlmZXN0IHZlcnNpb246ICR7Y3VycmVudF9tYW5pZmVzdF92ZXJzaW9uOi08ZW1wdHk+fSAtPiAke2FwcF92ZXJzaW9ufSIKfQoKZm5fa25vY2tfc3luY19jYXJnb19wYWNrYWdlX3ZlcnNpb24oKSB7CiAgbG9jYWwgcm9vdF9kaXI9IiQxIgogIGxvY2FsIGNhcmdvX3RvbWw9IiQyIgogIGxvY2FsIGxvZ19wcmVmaXg9IiQzIgogIGxvY2FsIGFwcF92ZXJzaW9uCiAgbG9jYWwgY3VycmVudF9jYXJnb192ZXJzaW9uCiAgbG9jYWwgdG1wX2NhcmdvX3RvbWwKCiAgYXBwX3ZlcnNpb249IiQoZm5fa25vY2tfYXBwX3ZlcnNpb24gIiR7cm9vdF9kaXJ9IikiIHx8IHJldHVybiAxCiAgWyAtZiAiJHtjYXJnb190b21sfSIgXSB8fCB7CiAgICBlY2hvICIke2xvZ19wcmVmaXh9IE1pc3NpbmcgQ2FyZ28gbWFuaWZlc3Q6ICR7Y2FyZ29fdG9tbH0iID4mMgogICAgcmV0dXJuIDEKICB9CgogIGN1cnJlbnRfY2FyZ29fdmVyc2lvbj0iJCgKICAgIGF3ayAnCiAgICAgIC9eXFtwYWNrYWdlXF0vIHsgaW5fcGFja2FnZSA9IDE7IG5leHQgfQogICAgICAvXlxbLyAmJiBpbl9wYWNrYWdlIHsgaW5fcGFja2FnZSA9IDAgfQogICAgICBpbl9wYWNrYWdlICYmIC9eW1s6c3BhY2U6XV0qdmVyc2lvbltbOnNwYWNlOl1dKj0vIHsKICAgICAgICB2YWx1ZSA9ICQwCiAgICAgICAgc3ViKC9eW14iXSoiLywgIiIsIHZhbHVlKQogICAgICAgIHN1YigvIi4qJC8sICIiLCB2YWx1ZSkKICAgICAgICBwcmludCB2YWx1ZQogICAgICAgIGV4aXQKICAgICAgfQogICAgJyAiJHtjYXJnb190b21sfSIKICApIgogIGlmIFsgIiR7Y3VycmVudF9jYXJnb192ZXJzaW9ufSIgPSAiJHthcHBfdmVyc2lvbn0iIF07IHRoZW4KICAgIGVjaG8gIiR7bG9nX3ByZWZpeH0gQ2FyZ28gcGFja2FnZSB2ZXJzaW9uIGlzIGFscmVhZHkgdXAgdG8gZGF0ZTogJHthcHBfdmVyc2lvbn0iCiAgICByZXR1cm4gMAogIGZpCgogIHRtcF9jYXJnb190b21sPSIkKG1rdGVtcCkiCiAgYXdrIC12IHZlcnNpb249IiR7YXBwX3ZlcnNpb259IiAnCiAgICBCRUdJTiB7IGluX3BhY2thZ2UgPSAwOyB1cGRhdGVkID0gMCB9CiAgICAvXlxbcGFja2FnZVxdLyB7CiAgICAgIGluX3BhY2thZ2UgPSAxCiAgICAgIHByaW50CiAgICAgIG5leHQKICAgIH0KICAgIC9eXFsvICYmIGluX3BhY2thZ2UgewogICAgICBpZiAoIXVwZGF0ZWQpIHsKICAgICAgICBwcmludCAidmVyc2lvbiA9IFwiIiB2ZXJzaW9uICJcIiIKICAgICAgICB1cGRhdGVkID0gMQogICAgICB9CiAgICAgIGluX3BhY2thZ2UgPSAwCiAgICAgIHByaW50CiAgICAgIG5leHQKICAgIH0KICAgIGluX3BhY2thZ2UgJiYgL15bWzpzcGFjZTpdXSp2ZXJzaW9uW1s6c3BhY2U6XV0qPS8gewogICAgICBwcmludCAidmVyc2lvbiA9IFwiIiB2ZXJzaW9uICJcIiIKICAgICAgdXBkYXRlZCA9IDEKICAgICAgbmV4dAogICAgfQogICAgeyBwcmludCB9CiAgICBFTkQgewogICAgICBpZiAoaW5fcGFja2FnZSAmJiAhdXBkYXRlZCkgewogICAgICAgIHByaW50ICJ2ZXJzaW9uID0gXCIiIHZlcnNpb24gIlwiIgogICAgICB9CiAgICB9CiAgJyAiJHtjYXJnb190b21sfSIgPiAiJHt0bXBfY2FyZ29fdG9tbH0iCiAgbXYgIiR7dG1wX2NhcmdvX3RvbWx9IiAiJHtjYXJnb190b21sfSIKCiAgZWNobyAiJHtsb2dfcHJlZml4fSBTeW5jZWQgQ2FyZ28gcGFja2FnZSB2ZXJzaW9uOiAke2N1cnJlbnRfY2FyZ29fdmVyc2lvbjotPGVtcHR5Pn0gLT4gJHthcHBfdmVyc2lvbn0iCn0KCmZuX2tub2NrX3N5bmNfcnVzdF9wYWNrYWdlX3ZlcnNpb24oKSB7CiAgbG9jYWwgcm9vdF9kaXI9IiQxIgogIGxvY2FsIGxvZ19wcmVmaXg9IiQyIgoKICBmbl9rbm9ja19zeW5jX2NhcmdvX3BhY2thZ2VfdmVyc2lvbiBcCiAgICAiJHtyb290X2Rpcn0iIFwKICAgICIke3Jvb3RfZGlyfS9hcHBzL3NlcnZlci1hZG1pbi1ycy9DYXJnby50b21sIiBcCiAgICAiJHtsb2dfcHJlZml4fSIKfQo=
+#!/bin/bash
+
+fn_knock_app_version() {
+  local root_dir="$1"
+  local version_file="${root_dir}/version.json"
+  local version
+
+  [ -f "${version_file}" ] || {
+    echo "missing version file: ${version_file}" >&2
+    return 1
+  }
+
+  version="$(sed -nE 's/^[[:space:]]*"version"[[:space:]]*:[[:space:]]*"([^"]+)".*/\1/p' "${version_file}" | head -n1)"
+  [ -n "${version}" ] || {
+    echo "failed to parse version from ${version_file}" >&2
+    return 1
+  }
+
+  printf '%s\n' "${version}"
+}
+
+fn_knock_sync_manifest_version() {
+  local root_dir="$1"
+  local manifest_file="$2"
+  local log_prefix="$3"
+  local app_version
+  local current_manifest_version
+  local tmp_manifest
+
+  app_version="$(fn_knock_app_version "${root_dir}")" || return 1
+  [ -f "${manifest_file}" ] || {
+    echo "${log_prefix} Missing manifest file: ${manifest_file}" >&2
+    return 1
+  }
+
+  current_manifest_version="$(sed -nE 's/^version=(.*)$/\1/p' "${manifest_file}" | head -n1)"
+  if [ "${current_manifest_version}" = "${app_version}" ]; then
+    echo "${log_prefix} Manifest version is already up to date: ${app_version}"
+    return 0
+  fi
+
+  tmp_manifest="$(mktemp)"
+  awk -v version="${app_version}" '
+    BEGIN { updated = 0 }
+    /^version=/ {
+      print "version=" version
+      updated = 1
+      next
+    }
+    { print }
+    END {
+      if (!updated) {
+        print "version=" version
+      }
+    }
+  ' "${manifest_file}" > "${tmp_manifest}"
+  mv "${tmp_manifest}" "${manifest_file}"
+
+  echo "${log_prefix} Synced manifest version: ${current_manifest_version:-<empty>} -> ${app_version}"
+}
+
+fn_knock_sync_cargo_package_version() {
+  local root_dir="$1"
+  local cargo_toml="$2"
+  local log_prefix="$3"
+  local app_version
+  local current_cargo_version
+  local tmp_cargo_toml
+
+  app_version="$(fn_knock_app_version "${root_dir}")" || return 1
+  [ -f "${cargo_toml}" ] || {
+    echo "${log_prefix} Missing Cargo manifest: ${cargo_toml}" >&2
+    return 1
+  }
+
+  current_cargo_version="$(
+    awk '
+      /^\[package\]/ { in_package = 1; next }
+      /^\[/ && in_package { in_package = 0 }
+      in_package && /^[[:space:]]*version[[:space:]]*=/ {
+        value = $0
+        sub(/^[^"]*"/, "", value)
+        sub(/".*$/, "", value)
+        print value
+        exit
+      }
+    ' "${cargo_toml}"
+  )"
+  if [ "${current_cargo_version}" = "${app_version}" ]; then
+    echo "${log_prefix} Cargo package version is already up to date: ${app_version}"
+    return 0
+  fi
+
+  tmp_cargo_toml="$(mktemp)"
+  awk -v version="${app_version}" '
+    BEGIN { in_package = 0; updated = 0 }
+    /^\[package\]/ {
+      in_package = 1
+      print
+      next
+    }
+    /^\[/ && in_package {
+      if (!updated) {
+        print "version = \"" version "\""
+        updated = 1
+      }
+      in_package = 0
+      print
+      next
+    }
+    in_package && /^[[:space:]]*version[[:space:]]*=/ {
+      print "version = \"" version "\""
+      updated = 1
+      next
+    }
+    { print }
+    END {
+      if (in_package && !updated) {
+        print "version = \"" version "\""
+      }
+    }
+  ' "${cargo_toml}" > "${tmp_cargo_toml}"
+  mv "${tmp_cargo_toml}" "${cargo_toml}"
+
+  echo "${log_prefix} Synced Cargo package version: ${current_cargo_version:-<empty>} -> ${app_version}"
+}
+
+fn_knock_sync_rust_package_version() {
+  local root_dir="$1"
+  local log_prefix="$2"
+
+  fn_knock_sync_cargo_package_version \
+    "${root_dir}" \
+    "${root_dir}/apps/server-admin-rs/Cargo.toml" \
+    "${log_prefix}"
+}

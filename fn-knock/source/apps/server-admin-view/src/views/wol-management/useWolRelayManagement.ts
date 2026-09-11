@@ -1,1 +1,167 @@
-aW1wb3J0IHsgcmVhY3RpdmUsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IGV4dHJhY3RFcnJvck1lc3NhZ2UgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsKICBXT0xBUEksCiAgdHlwZSBXT0xSZWxheSwKICB0eXBlIFdPTFJlbGF5Q3JlZGVudGlhbFJlc3VsdCwKICB0eXBlIFdPTFJlbGF5SW5wdXQsCn0gZnJvbSAiQC9saWIvYXBpL3dvbCI7CmltcG9ydCB7CiAgY3JlYXRlV29sUmVsYXlJbnB1dCwKICB1cGRhdGVQZW5kaW5nSWRzLAp9IGZyb20gIi4vd29sLW1hbmFnZW1lbnQtbW9kZWwiOwppbXBvcnQgdHlwZSB7IFdvbFRyYW5zbGF0ZSB9IGZyb20gIi4vd29sLW1hbmFnZW1lbnQtdHlwZXMiOwoKZXhwb3J0IGNvbnN0IHVzZVdvbFJlbGF5TWFuYWdlbWVudCA9ICh7CiAgcmVsb2FkLAogIHQsCn06IHsKICByZWxvYWQ6ICgpID0+IFByb21pc2U8dm9pZD47CiAgdDogV29sVHJhbnNsYXRlOwp9KSA9PiB7CiAgY29uc3QgcmVsYXlEaWFsb2dPcGVuID0gcmVmKGZhbHNlKTsKICBjb25zdCByZWxheU1vZGUgPSByZWY8ImNyZWF0ZSIgfCAiZWRpdCI+KCJjcmVhdGUiKTsKICBjb25zdCBlZGl0aW5nUmVsYXlJZCA9IHJlZigiIik7CiAgY29uc3QgcmVsYXlGb3JtID0gcmVhY3RpdmU8V09MUmVsYXlJbnB1dD4oY3JlYXRlV29sUmVsYXlJbnB1dCgpKTsKICBjb25zdCBzYXZpbmdSZWxheSA9IHJlZihmYWxzZSk7CiAgY29uc3QgcHJvYmluZ1JlbGF5SWRzID0gcmVmKG5ldyBTZXQ8c3RyaW5nPigpKTsKICBjb25zdCBkZWxldGluZ1JlbGF5SWRzID0gcmVmKG5ldyBTZXQ8c3RyaW5nPigpKTsKICBjb25zdCByb3RhdGluZ1JlbGF5SWRzID0gcmVmKG5ldyBTZXQ8c3RyaW5nPigpKTsKICBjb25zdCBib290c3RyYXBPcGVuID0gcmVmKGZhbHNlKTsKICBjb25zdCBib290c3RyYXBDcmVkZW50aWFsID0gcmVmPFdPTFJlbGF5Q3JlZGVudGlhbFJlc3VsdCB8IG51bGw+KG51bGwpOwoKICBjb25zdCBzZXRQZW5kaW5nID0gKAogICAgdGFyZ2V0OiB0eXBlb2YgcHJvYmluZ1JlbGF5SWRzLAogICAgaWQ6IHN0cmluZywKICAgIHZhbHVlOiBib29sZWFuLAogICkgPT4gewogICAgdGFyZ2V0LnZhbHVlID0gdXBkYXRlUGVuZGluZ0lkcyh0YXJnZXQudmFsdWUsIGlkLCB2YWx1ZSk7CiAgfTsKCiAgY29uc3Qgb3BlbkNyZWF0ZVJlbGF5ID0gKCkgPT4gewogICAgcmVsYXlNb2RlLnZhbHVlID0gImNyZWF0ZSI7CiAgICBlZGl0aW5nUmVsYXlJZC52YWx1ZSA9ICIiOwogICAgT2JqZWN0LmFzc2lnbihyZWxheUZvcm0sIGNyZWF0ZVdvbFJlbGF5SW5wdXQoKSk7CiAgICByZWxheURpYWxvZ09wZW4udmFsdWUgPSB0cnVlOwogIH07CgogIGNvbnN0IG9wZW5FZGl0UmVsYXkgPSAocmVsYXk6IFdPTFJlbGF5KSA9PiB7CiAgICByZWxheU1vZGUudmFsdWUgPSAiZWRpdCI7CiAgICBlZGl0aW5nUmVsYXlJZC52YWx1ZSA9IHJlbGF5LmlkOwogICAgT2JqZWN0LmFzc2lnbihyZWxheUZvcm0sIHsKICAgICAgbmFtZTogcmVsYXkubmFtZSwKICAgICAgYWRkcmVzczogcmVsYXkuYWRkcmVzcywKICAgICAgcG9ydDogcmVsYXkucG9ydCwKICAgICAgZW5hYmxlZDogcmVsYXkuZW5hYmxlZCwKICAgIH0pOwogICAgcmVsYXlEaWFsb2dPcGVuLnZhbHVlID0gdHJ1ZTsKICB9OwoKICBjb25zdCBzYXZlUmVsYXkgPSBhc3luYyAoKSA9PiB7CiAgICBzYXZpbmdSZWxheS52YWx1ZSA9IHRydWU7CiAgICB0cnkgewogICAgICBpZiAocmVsYXlNb2RlLnZhbHVlID09PSAiY3JlYXRlIikgewogICAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IFdPTEFQSS5jcmVhdGVSZWxheSh7IC4uLnJlbGF5Rm9ybSB9KTsKICAgICAgICBib290c3RyYXBDcmVkZW50aWFsLnZhbHVlID0gcmVzdWx0OwogICAgICAgIGJvb3RzdHJhcE9wZW4udmFsdWUgPSB0cnVlOwogICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4ud29sLnJlbGF5Q3JlYXRlZCIpKTsKICAgICAgfSBlbHNlIHsKICAgICAgICBhd2FpdCBXT0xBUEkudXBkYXRlUmVsYXkoZWRpdGluZ1JlbGF5SWQudmFsdWUsIHsgLi4ucmVsYXlGb3JtIH0pOwogICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4ud29sLnJlbGF5VXBkYXRlZCIpKTsKICAgICAgfQogICAgICByZWxheURpYWxvZ09wZW4udmFsdWUgPSBmYWxzZTsKICAgICAgYXdhaXQgcmVsb2FkKCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi53b2wuc2F2ZUZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoZXJyb3IsIHQoImFkbWluLndvbC5zYXZlRmFpbGVkIikpLAogICAgICB9KTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNhdmluZ1JlbGF5LnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3QgcHJvYmVSZWxheSA9IGFzeW5jIChyZWxheTogV09MUmVsYXkpID0+IHsKICAgIHNldFBlbmRpbmcocHJvYmluZ1JlbGF5SWRzLCByZWxheS5pZCwgdHJ1ZSk7CiAgICB0cnkgewogICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBXT0xBUEkucHJvYmVSZWxheShyZWxheS5pZCk7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4ud29sLnByb2JlU3VjY2VzcyIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IHQoImFkbWluLndvbC5wcm9iZVN1Y2Nlc3NEZXNjcmlwdGlvbiIsIHsKICAgICAgICAgIGxhdGVuY3k6IHJlc3VsdC5sYXRlbmN5TXMsCiAgICAgICAgfSksCiAgICAgIH0pOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ud29sLnByb2JlRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiYWRtaW4ud29sLnByb2JlRmFpbGVkIikpLAogICAgICB9KTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldFBlbmRpbmcocHJvYmluZ1JlbGF5SWRzLCByZWxheS5pZCwgZmFsc2UpOwogICAgfQogIH07CgogIGNvbnN0IHJvdGF0ZVJlbGF5ID0gYXN5bmMgKHJlbGF5OiBXT0xSZWxheSkgPT4gewogICAgc2V0UGVuZGluZyhyb3RhdGluZ1JlbGF5SWRzLCByZWxheS5pZCwgdHJ1ZSk7CiAgICB0cnkgewogICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBXT0xBUEkucm90YXRlUmVsYXlQc2socmVsYXkuaWQpOwogICAgICBib290c3RyYXBDcmVkZW50aWFsLnZhbHVlID0gcmVzdWx0OwogICAgICBib290c3RyYXBPcGVuLnZhbHVlID0gdHJ1ZTsKICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi53b2wucHNrUm90YXRlZCIpKTsKICAgICAgYXdhaXQgcmVsb2FkKCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi53b2wucm90YXRlRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiYWRtaW4ud29sLnJvdGF0ZUZhaWxlZCIpKSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRQZW5kaW5nKHJvdGF0aW5nUmVsYXlJZHMsIHJlbGF5LmlkLCBmYWxzZSk7CiAgICB9CiAgfTsKCiAgY29uc3QgZGVsZXRlUmVsYXkgPSBhc3luYyAocmVsYXk6IFdPTFJlbGF5KSA9PiB7CiAgICBzZXRQZW5kaW5nKGRlbGV0aW5nUmVsYXlJZHMsIHJlbGF5LmlkLCB0cnVlKTsKICAgIHRyeSB7CiAgICAgIGF3YWl0IFdPTEFQSS5kZWxldGVSZWxheShyZWxheS5pZCk7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4ud29sLnJlbGF5RGVsZXRlZCIpKTsKICAgICAgYXdhaXQgcmVsb2FkKCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi53b2wuZGVsZXRlRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiYWRtaW4ud29sLmRlbGV0ZUZhaWxlZCIpKSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRQZW5kaW5nKGRlbGV0aW5nUmVsYXlJZHMsIHJlbGF5LmlkLCBmYWxzZSk7CiAgICB9CiAgfTsKCiAgY29uc3QgY2xvc2VCb290c3RyYXAgPSAob3BlbjogYm9vbGVhbikgPT4gewogICAgYm9vdHN0cmFwT3Blbi52YWx1ZSA9IG9wZW47CiAgICBpZiAoIW9wZW4pIGJvb3RzdHJhcENyZWRlbnRpYWwudmFsdWUgPSBudWxsOwogIH07CgogIGNvbnN0IGNvcHlCb290c3RyYXAgPSBhc3luYyAodmFsdWU6IHN0cmluZykgPT4gewogICAgdHJ5IHsKICAgICAgYXdhaXQgbmF2aWdhdG9yLmNsaXBib2FyZC53cml0ZVRleHQodmFsdWUpOwogICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLndvbC5ib290c3RyYXAuY29kZUNvcGllZCIpKTsKICAgIH0gY2F0Y2ggewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi53b2wuY29weUZhaWxlZCIpKTsKICAgIH0KICB9OwoKICByZXR1cm4gewogICAgYm9vdHN0cmFwQ3JlZGVudGlhbCwKICAgIGJvb3RzdHJhcE9wZW4sCiAgICBjbG9zZUJvb3RzdHJhcCwKICAgIGNvcHlCb290c3RyYXAsCiAgICBkZWxldGVSZWxheSwKICAgIGRlbGV0aW5nUmVsYXlJZHMsCiAgICBvcGVuQ3JlYXRlUmVsYXksCiAgICBvcGVuRWRpdFJlbGF5LAogICAgcHJvYmVSZWxheSwKICAgIHByb2JpbmdSZWxheUlkcywKICAgIHJlbGF5RGlhbG9nT3BlbiwKICAgIHJlbGF5Rm9ybSwKICAgIHJlbGF5TW9kZSwKICAgIHJvdGF0ZVJlbGF5LAogICAgcm90YXRpbmdSZWxheUlkcywKICAgIHNhdmVSZWxheSwKICAgIHNhdmluZ1JlbGF5LAogIH07Cn07Cg==
+import { reactive, ref } from "vue";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  WOLAPI,
+  type WOLRelay,
+  type WOLRelayCredentialResult,
+  type WOLRelayInput,
+} from "@/lib/api/wol";
+import {
+  createWolRelayInput,
+  updatePendingIds,
+} from "./wol-management-model";
+import type { WolTranslate } from "./wol-management-types";
+
+export const useWolRelayManagement = ({
+  reload,
+  t,
+}: {
+  reload: () => Promise<void>;
+  t: WolTranslate;
+}) => {
+  const relayDialogOpen = ref(false);
+  const relayMode = ref<"create" | "edit">("create");
+  const editingRelayId = ref("");
+  const relayForm = reactive<WOLRelayInput>(createWolRelayInput());
+  const savingRelay = ref(false);
+  const probingRelayIds = ref(new Set<string>());
+  const deletingRelayIds = ref(new Set<string>());
+  const rotatingRelayIds = ref(new Set<string>());
+  const bootstrapOpen = ref(false);
+  const bootstrapCredential = ref<WOLRelayCredentialResult | null>(null);
+
+  const setPending = (
+    target: typeof probingRelayIds,
+    id: string,
+    value: boolean,
+  ) => {
+    target.value = updatePendingIds(target.value, id, value);
+  };
+
+  const openCreateRelay = () => {
+    relayMode.value = "create";
+    editingRelayId.value = "";
+    Object.assign(relayForm, createWolRelayInput());
+    relayDialogOpen.value = true;
+  };
+
+  const openEditRelay = (relay: WOLRelay) => {
+    relayMode.value = "edit";
+    editingRelayId.value = relay.id;
+    Object.assign(relayForm, {
+      name: relay.name,
+      address: relay.address,
+      port: relay.port,
+      enabled: relay.enabled,
+    });
+    relayDialogOpen.value = true;
+  };
+
+  const saveRelay = async () => {
+    savingRelay.value = true;
+    try {
+      if (relayMode.value === "create") {
+        const result = await WOLAPI.createRelay({ ...relayForm });
+        bootstrapCredential.value = result;
+        bootstrapOpen.value = true;
+        toast.success(t("admin.wol.relayCreated"));
+      } else {
+        await WOLAPI.updateRelay(editingRelayId.value, { ...relayForm });
+        toast.success(t("admin.wol.relayUpdated"));
+      }
+      relayDialogOpen.value = false;
+      await reload();
+    } catch (error) {
+      toast.error(t("admin.wol.saveFailed"), {
+        description: extractErrorMessage(error, t("admin.wol.saveFailed")),
+      });
+    } finally {
+      savingRelay.value = false;
+    }
+  };
+
+  const probeRelay = async (relay: WOLRelay) => {
+    setPending(probingRelayIds, relay.id, true);
+    try {
+      const result = await WOLAPI.probeRelay(relay.id);
+      toast.success(t("admin.wol.probeSuccess"), {
+        description: t("admin.wol.probeSuccessDescription", {
+          latency: result.latencyMs,
+        }),
+      });
+    } catch (error) {
+      toast.error(t("admin.wol.probeFailed"), {
+        description: extractErrorMessage(error, t("admin.wol.probeFailed")),
+      });
+    } finally {
+      setPending(probingRelayIds, relay.id, false);
+    }
+  };
+
+  const rotateRelay = async (relay: WOLRelay) => {
+    setPending(rotatingRelayIds, relay.id, true);
+    try {
+      const result = await WOLAPI.rotateRelayPsk(relay.id);
+      bootstrapCredential.value = result;
+      bootstrapOpen.value = true;
+      toast.success(t("admin.wol.pskRotated"));
+      await reload();
+    } catch (error) {
+      toast.error(t("admin.wol.rotateFailed"), {
+        description: extractErrorMessage(error, t("admin.wol.rotateFailed")),
+      });
+    } finally {
+      setPending(rotatingRelayIds, relay.id, false);
+    }
+  };
+
+  const deleteRelay = async (relay: WOLRelay) => {
+    setPending(deletingRelayIds, relay.id, true);
+    try {
+      await WOLAPI.deleteRelay(relay.id);
+      toast.success(t("admin.wol.relayDeleted"));
+      await reload();
+    } catch (error) {
+      toast.error(t("admin.wol.deleteFailed"), {
+        description: extractErrorMessage(error, t("admin.wol.deleteFailed")),
+      });
+    } finally {
+      setPending(deletingRelayIds, relay.id, false);
+    }
+  };
+
+  const closeBootstrap = (open: boolean) => {
+    bootstrapOpen.value = open;
+    if (!open) bootstrapCredential.value = null;
+  };
+
+  const copyBootstrap = async (value: string) => {
+    try {
+      await navigator.clipboard.writeText(value);
+      toast.success(t("admin.wol.bootstrap.codeCopied"));
+    } catch {
+      toast.error(t("admin.wol.copyFailed"));
+    }
+  };
+
+  return {
+    bootstrapCredential,
+    bootstrapOpen,
+    closeBootstrap,
+    copyBootstrap,
+    deleteRelay,
+    deletingRelayIds,
+    openCreateRelay,
+    openEditRelay,
+    probeRelay,
+    probingRelayIds,
+    relayDialogOpen,
+    relayForm,
+    relayMode,
+    rotateRelay,
+    rotatingRelayIds,
+    saveRelay,
+    savingRelay,
+  };
+};

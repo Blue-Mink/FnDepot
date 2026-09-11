@@ -1,1 +1,196 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uQmVmb3JlVW5tb3VudCwgcmVmLCB1bnJlZiwgd2F0Y2gsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgRGFzaGJvYXJkQVBJIH0gZnJvbSAiQC9saWIvYXBpL2Rhc2hib2FyZCI7CmltcG9ydCB0eXBlIHsKICBIb3N0QWN0aXZlSXAsCiAgSXBMb2NhdGlvbkxvb2t1cFN0YXR1cywKICBJcExvY2F0aW9uU25hcHNob3QsCn0gZnJvbSAiLi4vdHlwZXMiOwppbXBvcnQgeyBicm93c2VyVCB9IGZyb20gIkBmbi1rbm9jay9pMThuL3Z1ZS9hZG1pbiI7CmltcG9ydCB7IHVzZUlwTG9jYXRpb25CYXRjaCB9IGZyb20gIi4vdXNlSXBMb2NhdGlvbkJhdGNoIjsKCnR5cGUgQWN0aXZlSXBTb3VyY2UgPSBzdHJpbmcgfCBSZWY8c3RyaW5nPiB8ICgoKSA9PiBzdHJpbmcpOwp0eXBlIEFjdGl2ZUlwUGF5bG9hZCA9IHsKICBpdGVtcz86IEhvc3RBY3RpdmVJcFtdOwogIHdpbmRvd19zZWNvbmRzPzogbnVtYmVyOwogIHRpbWVzdGFtcD86IG51bWJlcjsKfTsKCmV4cG9ydCB0eXBlIEhvc3RBY3RpdmVJcERpc3BsYXlJdGVtID0gSG9zdEFjdGl2ZUlwICYgewogIGxvY2F0aW9uVGV4dDogc3RyaW5nOwogIGxvY2F0aW9uU3RhdHVzOiBJcExvY2F0aW9uTG9va3VwU3RhdHVzIHwgbnVsbDsKICBsb2NhdGlvblNuYXBzaG90OiBJcExvY2F0aW9uU25hcHNob3QgfCBudWxsOwp9OwoKY29uc3QgREVGQVVMVF9QT0xMX0lOVEVSVkFMX01TID0gNTAwMDsKCmNvbnN0IHJlYWRTb3VyY2UgPSAoc291cmNlOiBBY3RpdmVJcFNvdXJjZSkgPT4gewogIGlmICh0eXBlb2Ygc291cmNlID09PSAiZnVuY3Rpb24iKSB7CiAgICByZXR1cm4gc291cmNlKCkudHJpbSgpOwogIH0KICByZXR1cm4gdW5yZWYoc291cmNlKS50cmltKCk7Cn07Cgpjb25zdCBnZXRMb2NhdGlvblRleHQgPSAoc25hcHNob3Q6IElwTG9jYXRpb25TbmFwc2hvdCB8IG51bGwpID0+IHsKICBpZiAoc25hcHNob3Q/LmxvY2F0aW9uKSByZXR1cm4gc25hcHNob3QubG9jYXRpb247CgogIGlmIChzbmFwc2hvdD8uc3RhdHVzID09PSAicXVldWVkIiB8fCBzbmFwc2hvdD8uc3RhdHVzID09PSAicHJvY2Vzc2luZyIpIHsKICAgIHJldHVybiBicm93c2VyVCgiYWRtaW4uaG9zdEFjdGl2ZUlwcy5yZXNvbHZpbmciKTsKICB9CgogIGlmIChzbmFwc2hvdD8uc3RhdHVzID09PSAic2tpcHBlZCIpIHsKICAgIHJldHVybiBicm93c2VyVCgiYWRtaW4uaG9zdEFjdGl2ZUlwcy5wcml2YXRlQWRkcmVzcyIpOwogIH0KCiAgaWYgKHNuYXBzaG90Py5zdGF0dXMgPT09ICJmYWlsZWQiKSB7CiAgICByZXR1cm4gYnJvd3NlclQoImFkbWluLmhvc3RBY3RpdmVJcHMudW5hdmFpbGFibGUiKTsKICB9CgogIHJldHVybiBicm93c2VyVCgiYWRtaW4uaG9zdEFjdGl2ZUlwcy51bmF2YWlsYWJsZSIpOwp9OwoKY29uc3Qgbm9ybWFsaXplV2luZG93U2Vjb25kcyA9ICh2YWx1ZTogdW5rbm93bikgPT4gewogIGNvbnN0IHNlY29uZHMgPSBOdW1iZXIodmFsdWUgPz8gMTIwKTsKICBpZiAoIU51bWJlci5pc0Zpbml0ZShzZWNvbmRzKSkgcmV0dXJuIDEyMDsKICByZXR1cm4gTWF0aC5tYXgoMSwgTWF0aC5mbG9vcihzZWNvbmRzKSk7Cn07Cgpjb25zdCB1c2VBY3RpdmVJcHMgPSAoCiAgc291cmNlOiBBY3RpdmVJcFNvdXJjZSwKICBvcGVuOiBSZWY8Ym9vbGVhbj4sCiAgbG9hZEFjdGl2ZUlwczogKHZhbHVlOiBzdHJpbmcpID0+IFByb21pc2U8QWN0aXZlSXBQYXlsb2FkPiwKICBvcHRpb25zOiB7IHBvbGxJbnRlcnZhbE1zPzogbnVtYmVyIH0gPSB7fSwKKSA9PiB7CiAgY29uc3QgaXRlbXMgPSByZWY8SG9zdEFjdGl2ZUlwW10+KFtdKTsKICBjb25zdCBsb2FkaW5nID0gcmVmKGZhbHNlKTsKICBjb25zdCBlcnJvciA9IHJlZigiIik7CiAgY29uc3QgdXBkYXRlZEF0ID0gcmVmPG51bWJlciB8IG51bGw+KG51bGwpOwogIGNvbnN0IHdpbmRvd1NlY29uZHMgPSByZWYoMTIwKTsKICBjb25zdCB7IHRyYWNrSXBzLCBnZXRTbmFwc2hvdCB9ID0gdXNlSXBMb2NhdGlvbkJhdGNoKCk7CgogIGxldCByZXF1ZXN0SWQgPSAwOwogIGxldCBwb2xsVGltZXI6IG51bWJlciB8IG51bGwgPSBudWxsOwoKICBjb25zdCBwb2xsSW50ZXJ2YWxNcyA9IE1hdGgubWF4KAogICAgMTAwMCwKICAgIG9wdGlvbnMucG9sbEludGVydmFsTXMgPz8gREVGQVVMVF9QT0xMX0lOVEVSVkFMX01TLAogICk7CgogIGNvbnN0IGNsZWFyUG9sbFRpbWVyID0gKCkgPT4gewogICAgaWYgKHBvbGxUaW1lciAhPT0gbnVsbCkgewogICAgICB3aW5kb3cuY2xlYXJUaW1lb3V0KHBvbGxUaW1lcik7CiAgICAgIHBvbGxUaW1lciA9IG51bGw7CiAgICB9CiAgfTsKCiAgY29uc3Qgc2NoZWR1bGVQb2xsID0gKCkgPT4gewogICAgY2xlYXJQb2xsVGltZXIoKTsKICAgIGlmICghb3Blbi52YWx1ZSB8fCB0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIikgcmV0dXJuOwoKICAgIHBvbGxUaW1lciA9IHdpbmRvdy5zZXRUaW1lb3V0KCgpID0+IHsKICAgICAgdm9pZCBsb2FkKHsgc2lsZW50OiB0cnVlIH0pOwogICAgfSwgcG9sbEludGVydmFsTXMpOwogIH07CgogIGNvbnN0IGxvYWQgPSBhc3luYyAobG9hZE9wdGlvbnM6IHsgc2lsZW50PzogYm9vbGVhbiB9ID0ge30pID0+IHsKICAgIGNvbnN0IGN1cnJlbnRTb3VyY2UgPSByZWFkU291cmNlKHNvdXJjZSk7CiAgICBjb25zdCBjdXJyZW50UmVxdWVzdElkID0gKytyZXF1ZXN0SWQ7CiAgICBjbGVhclBvbGxUaW1lcigpOwoKICAgIGlmICghY3VycmVudFNvdXJjZSkgewogICAgICBpdGVtcy52YWx1ZSA9IFtdOwogICAgICB0cmFja0lwcyhbXSk7CiAgICAgIGVycm9yLnZhbHVlID0gIiI7CiAgICAgIGxvYWRpbmcudmFsdWUgPSBmYWxzZTsKICAgICAgdXBkYXRlZEF0LnZhbHVlID0gbnVsbDsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGlmICghbG9hZE9wdGlvbnMuc2lsZW50KSB7CiAgICAgIGxvYWRpbmcudmFsdWUgPSB0cnVlOwogICAgfQogICAgZXJyb3IudmFsdWUgPSAiIjsKCiAgICB0cnkgewogICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBsb2FkQWN0aXZlSXBzKGN1cnJlbnRTb3VyY2UpOwogICAgICBpZiAoY3VycmVudFJlcXVlc3RJZCAhPT0gcmVxdWVzdElkKSByZXR1cm47CgogICAgICBpdGVtcy52YWx1ZSA9IHJlc3VsdC5pdGVtcyA/PyBbXTsKICAgICAgd2luZG93U2Vjb25kcy52YWx1ZSA9IG5vcm1hbGl6ZVdpbmRvd1NlY29uZHMocmVzdWx0LndpbmRvd19zZWNvbmRzKTsKICAgICAgdXBkYXRlZEF0LnZhbHVlID0gcmVzdWx0LnRpbWVzdGFtcCA/PyBEYXRlLm5vdygpOwogICAgICB0cmFja0lwcyhpdGVtcy52YWx1ZS5tYXAoKGl0ZW0pID0+IGl0ZW0uaXApKTsKICAgIH0gY2F0Y2ggKGNhdWdodDogYW55KSB7CiAgICAgIGlmIChjdXJyZW50UmVxdWVzdElkICE9PSByZXF1ZXN0SWQpIHJldHVybjsKICAgICAgZXJyb3IudmFsdWUgPQogICAgICAgIGNhdWdodD8ucmVzcG9uc2U/LmRhdGE/Lm1lc3NhZ2UgfHwKICAgICAgICBjYXVnaHQ/Lm1lc3NhZ2UgfHwKICAgICAgICBicm93c2VyVCgiYWRtaW4uaG9zdEFjdGl2ZUlwcy5sb2FkRmFpbGVkIik7CiAgICB9IGZpbmFsbHkgewogICAgICBpZiAoY3VycmVudFJlcXVlc3RJZCA9PT0gcmVxdWVzdElkKSB7CiAgICAgICAgbG9hZGluZy52YWx1ZSA9IGZhbHNlOwogICAgICAgIHNjaGVkdWxlUG9sbCgpOwogICAgICB9CiAgICB9CiAgfTsKCiAgY29uc3QgZGlzcGxheUl0ZW1zID0gY29tcHV0ZWQ8SG9zdEFjdGl2ZUlwRGlzcGxheUl0ZW1bXT4oKCkgPT4KICAgIGl0ZW1zLnZhbHVlLm1hcCgoaXRlbSkgPT4gewogICAgICBjb25zdCBzbmFwc2hvdCA9IGdldFNuYXBzaG90KGl0ZW0uaXApOwogICAgICByZXR1cm4gewogICAgICAgIC4uLml0ZW0sCiAgICAgICAgbG9jYXRpb25UZXh0OiBnZXRMb2NhdGlvblRleHQoc25hcHNob3QpLAogICAgICAgIGxvY2F0aW9uU3RhdHVzOiBzbmFwc2hvdD8uc3RhdHVzID8/IG51bGwsCiAgICAgICAgbG9jYXRpb25TbmFwc2hvdDogc25hcHNob3QsCiAgICAgIH07CiAgICB9KSwKICApOwoKICB3YXRjaCgKICAgIFtvcGVuLCAoKSA9PiByZWFkU291cmNlKHNvdXJjZSldLAogICAgKFtpc09wZW5dKSA9PiB7CiAgICAgIHJlcXVlc3RJZCArPSAxOwogICAgICBjbGVhclBvbGxUaW1lcigpOwogICAgICBpZiAoIWlzT3BlbikgcmV0dXJuOwogICAgICB2b2lkIGxvYWQoKTsKICAgIH0sCiAgICB7IGltbWVkaWF0ZTogdHJ1ZSB9LAogICk7CgogIG9uQmVmb3JlVW5tb3VudCgoKSA9PiB7CiAgICByZXF1ZXN0SWQgKz0gMTsKICAgIGNsZWFyUG9sbFRpbWVyKCk7CiAgfSk7CgogIHJldHVybiB7CiAgICBpdGVtcywKICAgIGRpc3BsYXlJdGVtcywKICAgIGxvYWRpbmcsCiAgICBlcnJvciwKICAgIHVwZGF0ZWRBdCwKICAgIHdpbmRvd1NlY29uZHMsCiAgICByZWZyZXNoOiBsb2FkLAogIH07Cn07CgpleHBvcnQgY29uc3QgdXNlSG9zdEFjdGl2ZUlwcyA9ICgKICBob3N0OiBBY3RpdmVJcFNvdXJjZSwKICBvcGVuOiBSZWY8Ym9vbGVhbj4sCiAgb3B0aW9uczogeyBwb2xsSW50ZXJ2YWxNcz86IG51bWJlciB9ID0ge30sCikgPT4KICB1c2VBY3RpdmVJcHMoCiAgICBob3N0LAogICAgb3BlbiwKICAgIERhc2hib2FyZEFQSS5nZXRIb3N0QWN0aXZlSXBzLmJpbmQoRGFzaGJvYXJkQVBJKSwKICAgIG9wdGlvbnMsCiAgKTsKCmV4cG9ydCBjb25zdCB1c2VTdHJlYW1BY3RpdmVJcHMgPSAoCiAgc3RyZWFtOiBBY3RpdmVJcFNvdXJjZSwKICBvcGVuOiBSZWY8Ym9vbGVhbj4sCiAgb3B0aW9uczogeyBwb2xsSW50ZXJ2YWxNcz86IG51bWJlciB9ID0ge30sCikgPT4KICB1c2VBY3RpdmVJcHMoCiAgICBzdHJlYW0sCiAgICBvcGVuLAogICAgRGFzaGJvYXJkQVBJLmdldFN0cmVhbUFjdGl2ZUlwcy5iaW5kKERhc2hib2FyZEFQSSksCiAgICBvcHRpb25zLAogICk7Cg==
+import { computed, onBeforeUnmount, ref, unref, watch, type Ref } from "vue";
+import { DashboardAPI } from "@/lib/api/dashboard";
+import type {
+  HostActiveIp,
+  IpLocationLookupStatus,
+  IpLocationSnapshot,
+} from "../types";
+import { browserT } from "@fn-knock/i18n/vue/admin";
+import { useIpLocationBatch } from "./useIpLocationBatch";
+
+type ActiveIpSource = string | Ref<string> | (() => string);
+type ActiveIpPayload = {
+  items?: HostActiveIp[];
+  window_seconds?: number;
+  timestamp?: number;
+};
+
+export type HostActiveIpDisplayItem = HostActiveIp & {
+  locationText: string;
+  locationStatus: IpLocationLookupStatus | null;
+  locationSnapshot: IpLocationSnapshot | null;
+};
+
+const DEFAULT_POLL_INTERVAL_MS = 5000;
+
+const readSource = (source: ActiveIpSource) => {
+  if (typeof source === "function") {
+    return source().trim();
+  }
+  return unref(source).trim();
+};
+
+const getLocationText = (snapshot: IpLocationSnapshot | null) => {
+  if (snapshot?.location) return snapshot.location;
+
+  if (snapshot?.status === "queued" || snapshot?.status === "processing") {
+    return browserT("admin.hostActiveIps.resolving");
+  }
+
+  if (snapshot?.status === "skipped") {
+    return browserT("admin.hostActiveIps.privateAddress");
+  }
+
+  if (snapshot?.status === "failed") {
+    return browserT("admin.hostActiveIps.unavailable");
+  }
+
+  return browserT("admin.hostActiveIps.unavailable");
+};
+
+const normalizeWindowSeconds = (value: unknown) => {
+  const seconds = Number(value ?? 120);
+  if (!Number.isFinite(seconds)) return 120;
+  return Math.max(1, Math.floor(seconds));
+};
+
+const useActiveIps = (
+  source: ActiveIpSource,
+  open: Ref<boolean>,
+  loadActiveIps: (value: string) => Promise<ActiveIpPayload>,
+  options: { pollIntervalMs?: number } = {},
+) => {
+  const items = ref<HostActiveIp[]>([]);
+  const loading = ref(false);
+  const error = ref("");
+  const updatedAt = ref<number | null>(null);
+  const windowSeconds = ref(120);
+  const { trackIps, getSnapshot } = useIpLocationBatch();
+
+  let requestId = 0;
+  let pollTimer: number | null = null;
+
+  const pollIntervalMs = Math.max(
+    1000,
+    options.pollIntervalMs ?? DEFAULT_POLL_INTERVAL_MS,
+  );
+
+  const clearPollTimer = () => {
+    if (pollTimer !== null) {
+      window.clearTimeout(pollTimer);
+      pollTimer = null;
+    }
+  };
+
+  const schedulePoll = () => {
+    clearPollTimer();
+    if (!open.value || typeof window === "undefined") return;
+
+    pollTimer = window.setTimeout(() => {
+      void load({ silent: true });
+    }, pollIntervalMs);
+  };
+
+  const load = async (loadOptions: { silent?: boolean } = {}) => {
+    const currentSource = readSource(source);
+    const currentRequestId = ++requestId;
+    clearPollTimer();
+
+    if (!currentSource) {
+      items.value = [];
+      trackIps([]);
+      error.value = "";
+      loading.value = false;
+      updatedAt.value = null;
+      return;
+    }
+
+    if (!loadOptions.silent) {
+      loading.value = true;
+    }
+    error.value = "";
+
+    try {
+      const result = await loadActiveIps(currentSource);
+      if (currentRequestId !== requestId) return;
+
+      items.value = result.items ?? [];
+      windowSeconds.value = normalizeWindowSeconds(result.window_seconds);
+      updatedAt.value = result.timestamp ?? Date.now();
+      trackIps(items.value.map((item) => item.ip));
+    } catch (caught: any) {
+      if (currentRequestId !== requestId) return;
+      error.value =
+        caught?.response?.data?.message ||
+        caught?.message ||
+        browserT("admin.hostActiveIps.loadFailed");
+    } finally {
+      if (currentRequestId === requestId) {
+        loading.value = false;
+        schedulePoll();
+      }
+    }
+  };
+
+  const displayItems = computed<HostActiveIpDisplayItem[]>(() =>
+    items.value.map((item) => {
+      const snapshot = getSnapshot(item.ip);
+      return {
+        ...item,
+        locationText: getLocationText(snapshot),
+        locationStatus: snapshot?.status ?? null,
+        locationSnapshot: snapshot,
+      };
+    }),
+  );
+
+  watch(
+    [open, () => readSource(source)],
+    ([isOpen]) => {
+      requestId += 1;
+      clearPollTimer();
+      if (!isOpen) return;
+      void load();
+    },
+    { immediate: true },
+  );
+
+  onBeforeUnmount(() => {
+    requestId += 1;
+    clearPollTimer();
+  });
+
+  return {
+    items,
+    displayItems,
+    loading,
+    error,
+    updatedAt,
+    windowSeconds,
+    refresh: load,
+  };
+};
+
+export const useHostActiveIps = (
+  host: ActiveIpSource,
+  open: Ref<boolean>,
+  options: { pollIntervalMs?: number } = {},
+) =>
+  useActiveIps(
+    host,
+    open,
+    DashboardAPI.getHostActiveIps.bind(DashboardAPI),
+    options,
+  );
+
+export const useStreamActiveIps = (
+  stream: ActiveIpSource,
+  open: Ref<boolean>,
+  options: { pollIntervalMs?: number } = {},
+) =>
+  useActiveIps(
+    stream,
+    open,
+    DashboardAPI.getStreamActiveIps.bind(DashboardAPI),
+    options,
+  );

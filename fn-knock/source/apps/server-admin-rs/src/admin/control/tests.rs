@@ -1,1 +1,557 @@
-dXNlIHN1cGVyOjoqOwoKI1t0ZXN0XQpmbiBub3JtYWxpemVzX2F1dGhfY3JlZGVudGlhbF9zZXR0aW5nc19kZWZhdWx0cygpIHsKICAgIGxldCB2YWx1ZSA9IG5vcm1hbGl6ZV9hdXRoX2NyZWRlbnRpYWxfc2V0dGluZ3MoanNvbiEoeyAic2Vzc2lvbl90dGxfc2Vjb25kcyI6IDYwIH0pLCBOb25lKTsKICAgIGFzc2VydF9lcSEodmFsdWVbInNlc3Npb25fdHRsX3NlY29uZHMiXSwgNjApOwogICAgYXNzZXJ0X2VxISh2YWx1ZVsicG9zdF9sb2dpbl9pcF9ncmFudF9tb2RlIl0sICJmb2xsb3dfc2Vzc2lvbiIpOwogICAgYXNzZXJ0ISh2YWx1ZVsicG9zdF9sb2dpbl9pcF9ncmFudF90dGxfc2Vjb25kcyJdLmlzX251bGwoKSk7CiAgICBhc3NlcnRfZXEhKHZhbHVlWyJwYXNza2V5X2JpbmRfcHJvbXB0X2VuYWJsZWQiXSwgdHJ1ZSk7Cn0KCiNbdGVzdF0KZm4gbm9ybWFsaXplc19hdXRoX2NyZWRlbnRpYWxfc2V0dGluZ3NfbGlrZV9ub2RlX2NsYW1wc19hbmRfbnVsbHMoKSB7CiAgICBsZXQgdmFsdWUgPSBub3JtYWxpemVfYXV0aF9jcmVkZW50aWFsX3NldHRpbmdzKAogICAgICAgIGpzb24hKHsKICAgICAgICAgICAgInNlc3Npb25fdHRsX3NlY29uZHMiOiAiNTkuOSIsCiAgICAgICAgICAgICJyZW1lbWJlcl9tZV90dGxfc2Vjb25kcyI6ICI2MS43IiwKICAgICAgICAgICAgInBvc3RfbG9naW5faXBfZ3JhbnRfbW9kZSI6ICJmb2xsb3dfc2Vzc2lvbiIsCiAgICAgICAgICAgICJwb3N0X2xvZ2luX2lwX2dyYW50X3R0bF9zZWNvbmRzIjogIjcyMDAiLAogICAgICAgICAgICAic2Vzc2lvbl9pcF9tb2JpbGl0eV93aW5kb3dfc2Vjb25kcyI6IDkwXzAwMAogICAgICAgIH0pLAogICAgICAgIE5vbmUsCiAgICApOwogICAgYXNzZXJ0X2VxISh2YWx1ZVsic2Vzc2lvbl90dGxfc2Vjb25kcyJdLCA2MCk7CiAgICBhc3NlcnRfZXEhKHZhbHVlWyJyZW1lbWJlcl9tZV90dGxfc2Vjb25kcyJdLCA2MSk7CiAgICBhc3NlcnQhKHZhbHVlWyJwb3N0X2xvZ2luX2lwX2dyYW50X3R0bF9zZWNvbmRzIl0uaXNfbnVsbCgpKTsKICAgIGFzc2VydF9lcSEodmFsdWVbInNlc3Npb25faXBfbW9iaWxpdHlfd2luZG93X3NlY29uZHMiXSwgODZfNDAwKTsKCiAgICBsZXQgY3VzdG9tID0gbm9ybWFsaXplX2F1dGhfY3JlZGVudGlhbF9zZXR0aW5ncygKICAgICAgICBqc29uISh7CiAgICAgICAgICAgICJzZXNzaW9uX3R0bF9zZWNvbmRzIjogMTIwLAogICAgICAgICAgICAicmVtZW1iZXJfbWVfdHRsX3NlY29uZHMiOiA2MCwKICAgICAgICAgICAgInBvc3RfbG9naW5faXBfZ3JhbnRfbW9kZSI6ICJjdXN0b20iLAogICAgICAgICAgICAicG9zdF9sb2dpbl9pcF9ncmFudF90dGxfc2Vjb25kcyI6ICIxMCIKICAgICAgICB9KSwKICAgICAgICBOb25lLAogICAgKTsKICAgIGFzc2VydF9lcSEoY3VzdG9tWyJyZW1lbWJlcl9tZV90dGxfc2Vjb25kcyJdLCAxMjApOwogICAgYXNzZXJ0X2VxIShjdXN0b21bInBvc3RfbG9naW5faXBfZ3JhbnRfdHRsX3NlY29uZHMiXSwgNjApOwp9CgojW3Rlc3RdCmZuIG5vcm1hbGl6ZXNfYXV0aF9jcmVkZW50aWFsX3NldHRpbmdzX2xlZ2FjeV9hdXRvX2FkZF9mbGFnX2xpa2Vfbm9kZSgpIHsKICAgIGxldCB2YWx1ZSA9IG5vcm1hbGl6ZV9hdXRoX2NyZWRlbnRpYWxfc2V0dGluZ3MoanNvbiEoe30pLCBTb21lKGZhbHNlKSk7CiAgICBhc3NlcnRfZXEhKHZhbHVlWyJwb3N0X2xvZ2luX2lwX2dyYW50X21vZGUiXSwgImRpc2FibGVkIik7CgogICAgbGV0IGV4cGxpY2l0ID0gbm9ybWFsaXplX2F1dGhfY3JlZGVudGlhbF9zZXR0aW5ncygKICAgICAgICBqc29uISh7ICJwb3N0X2xvZ2luX2lwX2dyYW50X21vZGUiOiAiZm9sbG93X3Nlc3Npb24iIH0pLAogICAgICAgIFNvbWUoZmFsc2UpLAogICAgKTsKICAgIGFzc2VydF9lcSEoZXhwbGljaXRbInBvc3RfbG9naW5faXBfZ3JhbnRfbW9kZSJdLCAiZm9sbG93X3Nlc3Npb24iKTsKfQoKI1t0ZXN0XQpmbiBpbXBvcnRfcGxhbl9za2lwc19kdXBsaWNhdGVfdG90cF9jcmVkZW50aWFscygpIHsKICAgIGxldCBleGlzdGluZyA9IHZlYyFbVG90cENyZWRlbnRpYWwgewogICAgICAgIGlkOiAiYSIudG9fc3RyaW5nKCksCiAgICAgICAgc2VjcmV0OiAiQUFBQSIudG9fc3RyaW5nKCksCiAgICAgICAgY29tbWVudDogU3RyaW5nOjpuZXcoKSwKICAgICAgICBjcmVhdGVkX2F0OiB0aW1lX3V0aWxzOjpub3dfaXNvKCksCiAgICAgICAgYWNjZXNzX3Njb3BlczogVmFsdWU6OkFycmF5KFZlYzo6bmV3KCkpLAogICAgICAgIHN1YmRvbWFpbl9hY2Nlc3M6IGpzb24hKHsgIm1vZGUiOiAiYWxsIiwgImhvc3RzIjogW10gfSksCiAgICB9XTsKICAgIGxldCBwYXlsb2FkID0ganNvbiEoewogICAgICAgICJraW5kIjogVE9UUF9UUkFOU0ZFUl9LSU5ELAogICAgICAgICJ2ZXJzaW9uIjogVE9UUF9UUkFOU0ZFUl9WRVJTSU9OLAogICAgICAgICJjcmVkZW50aWFscyI6IFsKICAgICAgICAgICAgeyAiaWQiOiAiYSIsICJzZWNyZXQiOiAiQkJCQiIgfSwKICAgICAgICAgICAgeyAiaWQiOiAiYiIsICJzZWNyZXQiOiAiQUFBQSIgfSwKICAgICAgICAgICAgeyAiaWQiOiAiYiIsICJzZWNyZXQiOiAiQ0NDQyIgfSwKICAgICAgICAgICAgeyAiaWQiOiAiYyIsICJzZWNyZXQiOiAiQ0NDQyIgfQogICAgICAgIF0KICAgIH0pOwogICAgbGV0IChjcmVkZW50aWFscywgc3VtbWFyeSkgPSBidWlsZF90b3RwX2ltcG9ydF9wbGFuKCZleGlzdGluZywgJnBheWxvYWQpLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxIShjcmVkZW50aWFscy5sZW4oKSwgMSk7CiAgICBhc3NlcnRfZXEhKGNyZWRlbnRpYWxzWzBdLmlkLCAiYyIpOwogICAgYXNzZXJ0X2VxIShzdW1tYXJ5WyJza2lwcGVkX2V4aXN0aW5nX2lkIl0sIDEpOwogICAgYXNzZXJ0X2VxIShzdW1tYXJ5WyJza2lwcGVkX2V4aXN0aW5nX3NlY3JldCJdLCAxKTsKfQoKI1t0ZXN0XQpmbiB0b3RwX2JpbmRfY29tbWVudF9tYXRjaGVzX25vZGVfdHJ1dGh5X2ZhbGxiYWNrKCkgewogICAgYXNzZXJ0X2VxIShub2RlX3RvdHBfYmluZF9jb21tZW50KE5vbmUpLCAiTmV3IFRva2VuIik7CiAgICBhc3NlcnRfZXEhKG5vZGVfdG90cF9iaW5kX2NvbW1lbnQoU29tZShTdHJpbmc6Om5ldygpKSksICJOZXcgVG9rZW4iKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgbm9kZV90b3RwX2JpbmRfY29tbWVudChTb21lKCIgICAiLnRvX3N0cmluZygpKSksCiAgICAgICAgIiAgICIudG9fc3RyaW5nKCkKICAgICk7Cn0KCiNbdGVzdF0KZm4gaW1wb3J0X3BsYW5fbm9ybWFsaXplc190b3RwX21ldGFkYXRhX2xpa2Vfbm9kZSgpIHsKICAgIGxldCBwYXlsb2FkID0ganNvbiEoewogICAgICAgICJraW5kIjogVE9UUF9UUkFOU0ZFUl9LSU5ELAogICAgICAgICJ2ZXJzaW9uIjogVE9UUF9UUkFOU0ZFUl9WRVJTSU9OLAogICAgICAgICJjcmVkZW50aWFscyI6IFsKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgImlkIjogIiBpbXBvcnRlZCAiLAogICAgICAgICAgICAgICAgInNlY3JldCI6ICIgU0VDUkVUICIsCiAgICAgICAgICAgICAgICAiY29tbWVudCI6ICIgQ29tbWVudCAiLAogICAgICAgICAgICAgICAgImNyZWF0ZWRBdCI6ICJub3QtYS1kYXRlIiwKICAgICAgICAgICAgICAgICJhY2Nlc3Nfc2NvcGVzIjogWyIgZG9ja2VyX2FkbWluX3BhbmVsICIsICJvdGhlciIsICJkb2NrZXJfYWRtaW5fcGFuZWwiXSwKICAgICAgICAgICAgICAgICJzdWJkb21haW5fYWNjZXNzIjogewogICAgICAgICAgICAgICAgICAgICJtb2RlIjogImN1c3RvbSIsCiAgICAgICAgICAgICAgICAgICAgImhvc3RzIjogWyJodHRwczovL0V4YW1wbGUuY29tOjg0NDMvcGF0aCIsICIvX19zZWxlY3RfXyIsICJiYWQgaG9zdCJdLAogICAgICAgICAgICAgICAgICAgICJzdHJlYW1zIjogWwogICAgICAgICAgICAgICAgICAgICAgICB7ICJwcm90b2NvbCI6ICJUQ1AiLCAibGlzdGVuX3BvcnQiOiAyMjIyIH0sCiAgICAgICAgICAgICAgICAgICAgICAgIHsgInByb3RvY29sIjogImljbXAiLCAibGlzdGVuX3BvcnQiOiA3IH0KICAgICAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICBdCiAgICB9KTsKCiAgICBsZXQgKGNyZWRlbnRpYWxzLCBzdW1tYXJ5KSA9IGJ1aWxkX3RvdHBfaW1wb3J0X3BsYW4oJltdLCAmcGF5bG9hZCkudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKHN1bW1hcnlbImltcG9ydGVkIl0sIDEpOwogICAgYXNzZXJ0X2VxIShjcmVkZW50aWFscy5sZW4oKSwgMSk7CiAgICBsZXQgY3JlZGVudGlhbCA9ICZjcmVkZW50aWFsc1swXTsKICAgIGFzc2VydF9lcSEoY3JlZGVudGlhbC5pZCwgImltcG9ydGVkIik7CiAgICBhc3NlcnRfZXEhKGNyZWRlbnRpYWwuc2VjcmV0LCAiU0VDUkVUIik7CiAgICBhc3NlcnRfZXEhKGNyZWRlbnRpYWwuY29tbWVudCwgIkNvbW1lbnQiKTsKICAgIGFzc2VydCEodGltZV91dGlsczo6cGFyc2VfaXNvX21zKCZjcmVkZW50aWFsLmNyZWF0ZWRfYXQpLmlzX3NvbWUoKSk7CiAgICBhc3NlcnRfZXEhKGNyZWRlbnRpYWwuYWNjZXNzX3Njb3BlcywganNvbiEoWyJkb2NrZXJfYWRtaW5fcGFuZWwiXSkpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBjcmVkZW50aWFsLnN1YmRvbWFpbl9hY2Nlc3MsCiAgICAgICAganNvbiEoewogICAgICAgICAgICAibW9kZSI6ICJjdXN0b20iLAogICAgICAgICAgICAiaG9zdHMiOiBbIl9fYnVpbHRpbl9zZWxlY3RfXyIsICJleGFtcGxlLmNvbSJdLAogICAgICAgICAgICAic3RyZWFtcyI6IFt7ICJwcm90b2NvbCI6ICJ0Y3AiLCAibGlzdGVuX3BvcnQiOiAyMjIyIH1dCiAgICAgICAgfSkKICAgICk7Cn0KCiNbdGVzdF0KZm4gZXhwb3J0X3BheWxvYWRfbm9ybWFsaXplc190b3RwX21ldGFkYXRhX2xpa2Vfbm9kZSgpIHsKICAgIGxldCBwYXlsb2FkID0gYnVpbGRfdG90cF9leHBvcnRfcGF5bG9hZCgKICAgICAgICAmW1RvdHBDcmVkZW50aWFsIHsKICAgICAgICAgICAgaWQ6ICIgaWQgIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgc2VjcmV0OiAiIFNFQ1JFVCAiLnRvX3N0cmluZygpLAogICAgICAgICAgICBjb21tZW50OiAiIGNvbW1lbnQgIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgY3JlYXRlZF9hdDogIm5vdC1hLWRhdGUiLnRvX3N0cmluZygpLAogICAgICAgICAgICBhY2Nlc3Nfc2NvcGVzOiBqc29uIShbImRvY2tlcl9hZG1pbl9wYW5lbCIsICJ1bmtub3duIiwgImRvY2tlcl9hZG1pbl9wYW5lbCJdKSwKICAgICAgICAgICAgc3ViZG9tYWluX2FjY2VzczoganNvbiEoewogICAgICAgICAgICAgICAgIm1vZGUiOiAiY3VzdG9tIiwKICAgICAgICAgICAgICAgICJob3N0cyI6IFsKICAgICAgICAgICAgICAgICAgICAiIEhUVFBTOi8vRXhhbXBsZS5DT006NDQzL3BhdGggIiwKICAgICAgICAgICAgICAgICAgICAiKmJhZC5leGFtcGxlIiwKICAgICAgICAgICAgICAgICAgICAiX19idWlsdGluX3NlbGVjdF9fIgogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICJzdHJlYW1zIjogW3sgInByb3RvY29sIjogInVkcCIsICJsaXN0ZW5fcG9ydCI6IDUzNTMgfV0KICAgICAgICAgICAgfSksCiAgICAgICAgfV0sCiAgICAgICAgIjIwMjYtMDEtMDJUMDM6MDQ6MDUuMDAwWiIsCiAgICApOwogICAgYXNzZXJ0X2VxIShwYXlsb2FkWyJraW5kIl0sIFRPVFBfVFJBTlNGRVJfS0lORCk7CiAgICBhc3NlcnRfZXEhKHBheWxvYWRbInZlcnNpb24iXSwgVE9UUF9UUkFOU0ZFUl9WRVJTSU9OKTsKICAgIGFzc2VydF9lcSEocGF5bG9hZFsibG9naW5fbW9kZSJdLCAidG90cCIpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBwYXlsb2FkWyJjcmVkZW50aWFscyJdWzBdLAogICAgICAgIGpzb24hKHsKICAgICAgICAgICAgImlkIjogImlkIiwKICAgICAgICAgICAgInNlY3JldCI6ICJTRUNSRVQiLAogICAgICAgICAgICAiY29tbWVudCI6ICJjb21tZW50IiwKICAgICAgICAgICAgImNyZWF0ZWRBdCI6ICIyMDI2LTAxLTAyVDAzOjA0OjA1LjAwMFoiLAogICAgICAgICAgICAiYWNjZXNzX3Njb3BlcyI6IFsiZG9ja2VyX2FkbWluX3BhbmVsIl0sCiAgICAgICAgICAgICJzdWJkb21haW5fYWNjZXNzIjogewogICAgICAgICAgICAgICAgIm1vZGUiOiAiY3VzdG9tIiwKICAgICAgICAgICAgICAgICJob3N0cyI6IFsiX19idWlsdGluX3NlbGVjdF9fIiwgImV4YW1wbGUuY29tIl0sCiAgICAgICAgICAgICAgICAic3RyZWFtcyI6IFt7ICJwcm90b2NvbCI6ICJ1ZHAiLCAibGlzdGVuX3BvcnQiOiA1MzUzIH1dCiAgICAgICAgICAgIH0KICAgICAgICB9KQogICAgKTsKfQoKI1t0ZXN0XQpmbiBleHBvcnRfcGF5bG9hZF9pbmNsdWRlc19wYXNzd29yZF9tb2RlX2NyZWRlbnRpYWxzKCkgewogICAgbGV0IGhhc2ggPSAiYWIiLnJlcGVhdCg2NCk7CiAgICBsZXQgcGF5bG9hZCA9IGJ1aWxkX3Bhc3N3b3JkX2V4cG9ydF9wYXlsb2FkKAogICAgICAgICZbQXV0aEFjY291bnQgewogICAgICAgICAgICBpZDogIiBhY2NvdW50LTEgIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgdXNlcm5hbWU6ICJhbGljZSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGRpc3BsYXlfbmFtZTogIkFsaWNlIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgc291cmNlX3RvdHBfaWQ6ICJ0b3RwLTEiLnRvX3N0cmluZygpLAogICAgICAgICAgICBjcmVhdGVkX2F0OiAibm90LWEtZGF0ZSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIHVwZGF0ZWRfYXQ6ICIyMDI2LTAxLTAyVDAzOjA0OjA1LjAwMFoiLnRvX3N0cmluZygpLAogICAgICAgICAgICBhY2Nlc3Nfc2NvcGVzOiBqc29uIShbImRvY2tlcl9hZG1pbl9wYW5lbCIsICJ1bmtub3duIl0pLAogICAgICAgICAgICBzdWJkb21haW5fYWNjZXNzOiBqc29uISh7ICJtb2RlIjogImFsbCIsICJob3N0cyI6IFsiaWdub3JlZC5leGFtcGxlIl0gfSksCiAgICAgICAgfV0sCiAgICAgICAgJltBdXRoUGFzc3dvcmRDcmVkZW50aWFsIHsKICAgICAgICAgICAgYWNjb3VudF9pZDogImFjY291bnQtMSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGFsZ29yaXRobTogInNjcnlwdCIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIHNhbHQ6ICIwMDExMjIzMzQ0NTU2Njc3ODg5OWFhYmJjY2RkZWVmZiIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGhhc2gsCiAgICAgICAgICAgIG46IDE2XzM4NCwKICAgICAgICAgICAgcjogOCwKICAgICAgICAgICAgcDogMSwKICAgICAgICAgICAga2V5X2xlbmd0aDogNjQsCiAgICAgICAgICAgIGNyZWF0ZWRfYXQ6ICJiYWQtZGF0ZSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIHVwZGF0ZWRfYXQ6ICIyMDI2LTAxLTAzVDAzOjA0OjA1LjAwMFoiLnRvX3N0cmluZygpLAogICAgICAgIH1dLAogICAgICAgICZbVG90cENyZWRlbnRpYWwgewogICAgICAgICAgICBpZDogInRvdHAtMSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIHNlY3JldDogIiBTRUNSRVQgIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgY29tbWVudDogIiBBbGljZSAiLnRvX3N0cmluZygpLAogICAgICAgICAgICBjcmVhdGVkX2F0OiAiYmFkLWRhdGUiLnRvX3N0cmluZygpLAogICAgICAgICAgICBhY2Nlc3Nfc2NvcGVzOiBqc29uIShbImRvY2tlcl9hZG1pbl9wYW5lbCJdKSwKICAgICAgICAgICAgc3ViZG9tYWluX2FjY2VzczoganNvbiEoeyAibW9kZSI6ICJhbGwiLCAiaG9zdHMiOiBbXSB9KSwKICAgICAgICB9XSwKICAgICAgICAiMjAyNi0wMS0wMlQwMzowNDowNS4wMDBaIiwKICAgICk7CgogICAgYXNzZXJ0X2VxIShwYXlsb2FkWyJraW5kIl0sIFBBU1NXT1JEX1RSQU5TRkVSX0tJTkQpOwogICAgYXNzZXJ0X2VxIShwYXlsb2FkWyJ2ZXJzaW9uIl0sIFBBU1NXT1JEX1RSQU5TRkVSX1ZFUlNJT04pOwogICAgYXNzZXJ0X2VxIShwYXlsb2FkWyJsb2dpbl9tb2RlIl0sICJwYXNzd29yZCIpOwogICAgYXNzZXJ0X2VxIShwYXlsb2FkWyJhY2NvdW50cyJdWzBdWyJpZCJdLCAiYWNjb3VudC0xIik7CiAgICBhc3NlcnRfZXEhKHBheWxvYWRbImFjY291bnRzIl1bMF1bInVzZXJuYW1lIl0sICJhbGljZSIpOwogICAgYXNzZXJ0X2VxIShwYXlsb2FkWyJhY2NvdW50cyJdWzBdWyJzb3VyY2VUb3RwSWQiXSwgInRvdHAtMSIpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBwYXlsb2FkWyJhY2NvdW50cyJdWzBdWyJhY2Nlc3Nfc2NvcGVzIl0sCiAgICAgICAganNvbiEoWyJkb2NrZXJfYWRtaW5fcGFuZWwiXSkKICAgICk7CiAgICBhc3NlcnRfZXEhKHBheWxvYWRbInBhc3N3b3JkX2NyZWRlbnRpYWxzIl1bMF1bImFjY291bnRJZCJdLCAiYWNjb3VudC0xIik7CiAgICBhc3NlcnRfZXEhKHBheWxvYWRbInBhc3N3b3JkX2NyZWRlbnRpYWxzIl1bMF1bImFsZ29yaXRobSJdLCAic2NyeXB0Iik7CiAgICBhc3NlcnRfZXEhKHBheWxvYWRbInRvdHBfY3JlZGVudGlhbHMiXVswXVsiaWQiXSwgInRvdHAtMSIpOwogICAgYXNzZXJ0X2VxIShwYXlsb2FkWyJ0b3RwX2NyZWRlbnRpYWxzIl1bMF1bInNlY3JldCJdLCAiU0VDUkVUIik7Cn0KCiNbdGVzdF0KZm4gcGFzc3dvcmRfaW1wb3J0X3BsYW5fbWVyZ2VzX2FjY291bnRzX3Bhc3N3b3Jkc19hbmRfbGlua2VkX3RvdHBzKCkgewogICAgbGV0IGV4aXN0aW5nX2FjY291bnRzID0gdmVjIVtBdXRoQWNjb3VudCB7CiAgICAgICAgaWQ6ICJleGlzdGluZy1hY2NvdW50Ii50b19zdHJpbmcoKSwKICAgICAgICB1c2VybmFtZTogInRha2VuIi50b19zdHJpbmcoKSwKICAgICAgICBkaXNwbGF5X25hbWU6ICJ0YWtlbiIudG9fc3RyaW5nKCksCiAgICAgICAgc291cmNlX3RvdHBfaWQ6ICJleGlzdGluZy10b3RwIi50b19zdHJpbmcoKSwKICAgICAgICBjcmVhdGVkX2F0OiAiMjAyNi0wMS0wMVQwMDowMDowMC4wMDBaIi50b19zdHJpbmcoKSwKICAgICAgICB1cGRhdGVkX2F0OiAiMjAyNi0wMS0wMVQwMDowMDowMC4wMDBaIi50b19zdHJpbmcoKSwKICAgICAgICBhY2Nlc3Nfc2NvcGVzOiBWYWx1ZTo6QXJyYXkoVmVjOjpuZXcoKSksCiAgICAgICAgc3ViZG9tYWluX2FjY2VzczoganNvbiEoeyAibW9kZSI6ICJhbGwiLCAiaG9zdHMiOiBbXSB9KSwKICAgIH1dOwogICAgbGV0IGV4aXN0aW5nX3RvdHBzID0gdmVjIVtUb3RwQ3JlZGVudGlhbCB7CiAgICAgICAgaWQ6ICJleGlzdGluZy10b3RwIi50b19zdHJpbmcoKSwKICAgICAgICBzZWNyZXQ6ICJFWElTVElORyIudG9fc3RyaW5nKCksCiAgICAgICAgY29tbWVudDogInRha2VuIi50b19zdHJpbmcoKSwKICAgICAgICBjcmVhdGVkX2F0OiAiMjAyNi0wMS0wMVQwMDowMDowMC4wMDBaIi50b19zdHJpbmcoKSwKICAgICAgICBhY2Nlc3Nfc2NvcGVzOiBWYWx1ZTo6QXJyYXkoVmVjOjpuZXcoKSksCiAgICAgICAgc3ViZG9tYWluX2FjY2VzczoganNvbiEoeyAibW9kZSI6ICJhbGwiLCAiaG9zdHMiOiBbXSB9KSwKICAgIH1dOwogICAgbGV0IGhhc2ggPSAiYWIiLnJlcGVhdCg2NCk7CiAgICBsZXQgcGF5bG9hZCA9IGpzb24hKHsKICAgICAgICAia2luZCI6IFBBU1NXT1JEX1RSQU5TRkVSX0tJTkQsCiAgICAgICAgInZlcnNpb24iOiBQQVNTV09SRF9UUkFOU0ZFUl9WRVJTSU9OLAogICAgICAgICJhY2NvdW50cyI6IFsKICAgICAgICAgICAgeyAiaWQiOiAiZXhpc3RpbmctYWNjb3VudCIsICJ1c2VybmFtZSI6ICJvdGhlciIgfSwKICAgICAgICAgICAgeyAiaWQiOiAibmV3LXVzZXJuYW1lLWNvbmZsaWN0IiwgInVzZXJuYW1lIjogIlRBS0VOIiB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAiaWQiOiAibmV3LWFjY291bnQiLAogICAgICAgICAgICAgICAgInVzZXJuYW1lIjogIkFsaWNlIiwKICAgICAgICAgICAgICAgICJzb3VyY2VUb3RwSWQiOiAibmV3LXRvdHAiLAogICAgICAgICAgICAgICAgImNyZWF0ZWRBdCI6ICJiYWQtZGF0ZSIsCiAgICAgICAgICAgICAgICAiYWNjZXNzX3Njb3BlcyI6IFsiZG9ja2VyX2FkbWluX3BhbmVsIiwgIm5vcGUiXSwKICAgICAgICAgICAgICAgICJzdWJkb21haW5fYWNjZXNzIjogewogICAgICAgICAgICAgICAgICAgICJtb2RlIjogImN1c3RvbSIsCiAgICAgICAgICAgICAgICAgICAgImhvc3RzIjogWyJodHRwczovL0V4YW1wbGUuY29tOjg0NDMvcGF0aCJdCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsgImlkIjogImludmFsaWQtYWNjb3VudCIsICJ1c2VybmFtZSI6ICJ4IiB9CiAgICAgICAgXSwKICAgICAgICAicGFzc3dvcmRfY3JlZGVudGlhbHMiOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJhY2NvdW50SWQiOiAibmV3LWFjY291bnQiLAogICAgICAgICAgICAgICAgImFsZ29yaXRobSI6ICJzY3J5cHQiLAogICAgICAgICAgICAgICAgInNhbHQiOiAiMDAxMTIyMzM0NDU1NjY3Nzg4OTlhYWJiY2NkZGVlZmYiLAogICAgICAgICAgICAgICAgImhhc2giOiBoYXNoLAogICAgICAgICAgICAgICAgIm4iOiAxNjM4NCwKICAgICAgICAgICAgICAgICJyIjogOCwKICAgICAgICAgICAgICAgICJwIjogMSwKICAgICAgICAgICAgICAgICJrZXlfbGVuZ3RoIjogNjQsCiAgICAgICAgICAgICAgICAiY3JlYXRlZF9hdCI6ICJiYWQtZGF0ZSIKICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgImFjY291bnRJZCI6ICJtaXNzaW5nLWFjY291bnQiLAogICAgICAgICAgICAgICAgImFsZ29yaXRobSI6ICJzY3J5cHQiLAogICAgICAgICAgICAgICAgInNhbHQiOiAiMDAxMTIyMzM0NDU1NjY3Nzg4OTlhYWJiY2NkZGVlZmYiLAogICAgICAgICAgICAgICAgImhhc2giOiAiYWIiLnJlcGVhdCg2NCksCiAgICAgICAgICAgICAgICAibiI6IDE2Mzg0LAogICAgICAgICAgICAgICAgInIiOiA4LAogICAgICAgICAgICAgICAgInAiOiAxLAogICAgICAgICAgICAgICAgImtleV9sZW5ndGgiOiA2NAogICAgICAgICAgICB9CiAgICAgICAgXSwKICAgICAgICAidG90cF9jcmVkZW50aWFscyI6IFsKICAgICAgICAgICAgeyAiaWQiOiAibmV3LXRvdHAiLCAic2VjcmV0IjogIiBORVdTRUNSRVQgIiwgImNvbW1lbnQiOiAiIEFsaWNlICIgfQogICAgICAgIF0KICAgIH0pOwoKICAgIGxldCBwbGFuID0gYnVpbGRfY3JlZGVudGlhbF9pbXBvcnRfcGxhbigKICAgICAgICAmZXhpc3RpbmdfdG90cHMsCiAgICAgICAgJmV4aXN0aW5nX2FjY291bnRzLAogICAgICAgICZIYXNoU2V0Ojpmcm9tKFsiZXhpc3RpbmctYWNjb3VudCIudG9fc3RyaW5nKCldKSwKICAgICAgICAmcGF5bG9hZCwKICAgICkKICAgIC51bndyYXAoKTsKICAgIGxldCBDcmVkZW50aWFsSW1wb3J0UGxhbjo6UGFzc3dvcmQocGxhbikgPSBwbGFuIGVsc2UgewogICAgICAgIHBhbmljISgiZXhwZWN0ZWQgcGFzc3dvcmQgaW1wb3J0IHBsYW4iKTsKICAgIH07CgogICAgYXNzZXJ0X2VxIShwbGFuLmFjY291bnRzLmxlbigpLCAyKTsKICAgIGFzc2VydF9lcSEocGxhbi5hY2NvdW50c1swXS5pZCwgIm5ldy1hY2NvdW50Iik7CiAgICBhc3NlcnRfZXEhKHBsYW4uYWNjb3VudHNbMF0udXNlcm5hbWUsICJhbGljZSIpOwogICAgYXNzZXJ0X2VxIShwbGFuLmFjY291bnRzWzBdLnNvdXJjZV90b3RwX2lkLCAibmV3LXRvdHAiKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgcGxhbi5hY2NvdW50c1swXS5hY2Nlc3Nfc2NvcGVzLAogICAgICAgIGpzb24hKFsiZG9ja2VyX2FkbWluX3BhbmVsIl0pCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBwbGFuLmFjY291bnRzWzBdLnN1YmRvbWFpbl9hY2Nlc3MsCiAgICAgICAganNvbiEoeyAibW9kZSI6ICJjdXN0b20iLCAiaG9zdHMiOiBbImV4YW1wbGUuY29tIl0sICJzdHJlYW1zIjogW10gfSkKICAgICk7CiAgICBhc3NlcnRfZXEhKHBsYW4uYWNjb3VudHNbMV0uaWQsICJpbnZhbGlkLWFjY291bnQiKTsKICAgIGFzc2VydF9lcSEocGxhbi5hY2NvdW50c1sxXS51c2VybmFtZSwgIngiKTsKICAgIGFzc2VydF9lcSEocGxhbi5wYXNzd29yZF9jcmVkZW50aWFscy5sZW4oKSwgMSk7CiAgICBhc3NlcnRfZXEhKHBsYW4ucGFzc3dvcmRfY3JlZGVudGlhbHNbMF0uYWNjb3VudF9pZCwgIm5ldy1hY2NvdW50Iik7CiAgICBhc3NlcnRfZXEhKHBsYW4udG90cF9jcmVkZW50aWFscy5sZW4oKSwgMSk7CiAgICBhc3NlcnRfZXEhKHBsYW4udG90cF9jcmVkZW50aWFsc1swXS5pZCwgIm5ldy10b3RwIik7CiAgICBhc3NlcnRfZXEhKHBsYW4udG90cF9jcmVkZW50aWFsc1swXS5zZWNyZXQsICJORVdTRUNSRVQiKTsKICAgIGFzc2VydF9lcSEocGxhbi5zdW1tYXJ5WyJpbXBvcnRlZCJdLCAyKTsKICAgIGFzc2VydF9lcSEocGxhbi5zdW1tYXJ5WyJza2lwcGVkX2V4aXN0aW5nX2lkIl0sIDEpOwogICAgYXNzZXJ0X2VxIShwbGFuLnN1bW1hcnlbInNraXBwZWRfZXhpc3RpbmdfdXNlcm5hbWUiXSwgMSk7CiAgICBhc3NlcnRfZXEhKHBsYW4uc3VtbWFyeVsiaW52YWxpZCJdLCAwKTsKICAgIGFzc2VydF9lcSEocGxhbi5zdW1tYXJ5WyJwYXNzd29yZF9pbXBvcnRlZCJdLCAxKTsKICAgIGFzc2VydF9lcSEocGxhbi5zdW1tYXJ5WyJwYXNzd29yZF9za2lwcGVkX21pc3NpbmdfYWNjb3VudCJdLCAxKTsKICAgIGFzc2VydF9lcSEocGxhbi5zdW1tYXJ5WyJ0b3RwX2ltcG9ydGVkIl0sIDEpOwp9CgojW3Rlc3RdCmZuIHBhc3N3b3JkX2ltcG9ydF9wbGFuX3JlamVjdHNfdW5zdXBwb3J0ZWRfaGFzaF9wYXJhbWV0ZXJzKCkgewogICAgbGV0IHBheWxvYWQgPSBqc29uISh7CiAgICAgICAgImtpbmQiOiBQQVNTV09SRF9UUkFOU0ZFUl9LSU5ELAogICAgICAgICJ2ZXJzaW9uIjogUEFTU1dPUkRfVFJBTlNGRVJfVkVSU0lPTiwKICAgICAgICAiYWNjb3VudHMiOiBbCiAgICAgICAgICAgIHsgImlkIjogIm5ldy1hY2NvdW50IiwgInVzZXJuYW1lIjogImFsaWNlIiB9CiAgICAgICAgXSwKICAgICAgICAicGFzc3dvcmRfY3JlZGVudGlhbHMiOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJhY2NvdW50SWQiOiAibmV3LWFjY291bnQiLAogICAgICAgICAgICAgICAgImFsZ29yaXRobSI6ICJzY3J5cHQiLAogICAgICAgICAgICAgICAgInNhbHQiOiAiMDAxMTIyMzM0NDU1NjY3Nzg4OTlhYWJiY2NkZGVlZmYiLAogICAgICAgICAgICAgICAgImhhc2giOiAiYWIiLnJlcGVhdCg2NCksCiAgICAgICAgICAgICAgICAibiI6IDEwNDg1NzYsCiAgICAgICAgICAgICAgICAiciI6IDgsCiAgICAgICAgICAgICAgICAicCI6IDEsCiAgICAgICAgICAgICAgICAia2V5X2xlbmd0aCI6IDY0CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJhY2NvdW50SWQiOiAibmV3LWFjY291bnQtMiIsCiAgICAgICAgICAgICAgICAiYWxnb3JpdGhtIjogInNjcnlwdCIsCiAgICAgICAgICAgICAgICAic2FsdCI6ICIwMDExMjIzMzQ0NTU2Njc3ODg5OWFhYmJjY2RkZWVmZiIsCiAgICAgICAgICAgICAgICAiaGFzaCI6ICJhYmNkZWYiLAogICAgICAgICAgICAgICAgIm4iOiAxNjM4NCwKICAgICAgICAgICAgICAgICJyIjogOCwKICAgICAgICAgICAgICAgICJwIjogMSwKICAgICAgICAgICAgICAgICJrZXlfbGVuZ3RoIjogNjQKICAgICAgICAgICAgfQogICAgICAgIF0KICAgIH0pOwoKICAgIGxldCBwbGFuID0gYnVpbGRfY3JlZGVudGlhbF9pbXBvcnRfcGxhbigmW10sICZbXSwgJkhhc2hTZXQ6Om5ldygpLCAmcGF5bG9hZCkudW53cmFwKCk7CiAgICBsZXQgQ3JlZGVudGlhbEltcG9ydFBsYW46OlBhc3N3b3JkKHBsYW4pID0gcGxhbiBlbHNlIHsKICAgICAgICBwYW5pYyEoImV4cGVjdGVkIHBhc3N3b3JkIGltcG9ydCBwbGFuIik7CiAgICB9OwoKICAgIGFzc2VydF9lcSEocGxhbi5hY2NvdW50cy5sZW4oKSwgMSk7CiAgICBhc3NlcnQhKHBsYW4ucGFzc3dvcmRfY3JlZGVudGlhbHMuaXNfZW1wdHkoKSk7CiAgICBhc3NlcnRfZXEhKHBsYW4uc3VtbWFyeVsicGFzc3dvcmRfaW52YWxpZCJdLCAyKTsKfQoKI1t0ZXN0XQpmbiBidWlsZHNfbW9iaWxpdHlfbG9naW5fZXZlbnRfZnJvbV9zZXNzaW9uKCkgewogICAgbGV0IGV2ZW50ID0gYnVpbGRfbW9iaWxpdHlfbG9naW5fZXZlbnQoJmpzb24hKHsKICAgICAgICAiaXAiOiAiMjAzLjAuMTEzLjgiLAogICAgICAgICJpcExvY2F0aW9uIjogIlRlc3QgQ2l0eSIsCiAgICAgICAgImxvZ2luVGltZSI6ICIyMDI2LTA3LTA1VDAxOjAyOjAzWiIKICAgIH0pKQogICAgLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxIShldmVudFsia2luZCJdLCAibG9naW4iKTsKICAgIGFzc2VydF9lcSEoZXZlbnRbInNvdXJjZSJdLCAibG9naW4iKTsKICAgIGFzc2VydF9lcSEoZXZlbnRbInRvSXAiXSwgIjIwMy4wLjExMy44Iik7CiAgICBhc3NlcnRfZXEhKGV2ZW50WyJ0b0lwTG9jYXRpb24iXSwgIlRlc3QgQ2l0eSIpOwogICAgYXNzZXJ0X2VxIShldmVudFsiaGFwcGVuZWRBdCJdLCAiMjAyNi0wNy0wNVQwMTowMjowM1oiKTsKfQoKI1t0ZXN0XQpmbiBhcHBsaWVzX2NhY2hlZF9tb2JpbGl0eV9ldmVudF9sb2NhdGlvbnNfbGlrZV9ub2RlKCkgewogICAgbGV0IG11dCBldmVudHMgPSB2ZWMhW2pzb24hKHsKICAgICAgICAia2luZCI6ICJkcmlmdCIsCiAgICAgICAgInRvSXAiOiAiIDIwMy4wLjExMy44ICIsCiAgICAgICAgImZyb21JcCI6ICIyMDAxOmRiODo6MSIsCiAgICAgICAgInRvSXBMb2NhdGlvbiI6ICJvbGQiCiAgICB9KV07CiAgICBsZXQgbG9jYXRpb25zID0gQlRyZWVNYXA6OmZyb20oWwogICAgICAgICgiMjAzLjAuMTEzLjgiLnRvX3N0cmluZygpLCAiVG9reW8iLnRvX3N0cmluZygpKSwKICAgICAgICAoIjIwMDE6ZGI4OjoxIi50b19zdHJpbmcoKSwgIlNlb3VsIi50b19zdHJpbmcoKSksCiAgICBdKTsKCiAgICBhcHBseV9tb2JpbGl0eV9ldmVudF9pcF9sb2NhdGlvbnMoJm11dCBldmVudHMsICZsb2NhdGlvbnMpOwoKICAgIGFzc2VydF9lcSEoZXZlbnRzWzBdWyJ0b0lwTG9jYXRpb24iXSwgIlRva3lvIik7CiAgICBhc3NlcnRfZXEhKGV2ZW50c1swXVsiZnJvbUlwTG9jYXRpb24iXSwgIlNlb3VsIik7Cn0KCiNbdGVzdF0KZm4gYnVpbGRzX21vYmlsaXR5X3N1bW1hcnlfZnJvbV9kcmlmdF9ldmVudHMoKSB7CiAgICBsZXQgc3VtbWFyeSA9IGJ1aWxkX21vYmlsaXR5X3N1bW1hcnkoJlsKICAgICAgICBqc29uISh7ICJraW5kIjogImxvZ2luIiwgImhhcHBlbmVkQXQiOiAiMjAyNi0wNy0wNVQwMTowMDowMFoiIH0pLAogICAgICAgIGpzb24hKHsgImtpbmQiOiAiZHJpZnQiLCAic291cmNlIjogInByb3h5LXNlc3Npb24iLCAiaGFwcGVuZWRBdCI6ICIyMDI2LTA3LTA1VDAxOjEwOjAwWiIgfSksCiAgICAgICAganNvbiEoeyAia2luZCI6ICJkcmlmdCIsICJzb3VyY2UiOiAic2Vzc2lvbi1yZWZyZXNoIiwgImhhcHBlbmVkQXQiOiAiMjAyNi0wNy0wNVQwMToyMDowMFoiIH0pLAogICAgXSk7CiAgICBhc3NlcnRfZXEhKHN1bW1hcnlbImhhc0hpc3RvcnkiXSwgdHJ1ZSk7CiAgICBhc3NlcnRfZXEhKHN1bW1hcnlbImRyaWZ0Q291bnQiXSwgMik7CiAgICBhc3NlcnRfZXEhKHN1bW1hcnlbImxhc3REcmlmdEF0Il0sICIyMDI2LTA3LTA1VDAxOjIwOjAwWiIpOwogICAgYXNzZXJ0X2VxIShzdW1tYXJ5WyJsYXN0RHJpZnRTb3VyY2UiXSwgInNlc3Npb24tcmVmcmVzaCIpOwp9CgojW3Rlc3RdCmZuIGJ1aWxkc19zZXNzaW9uX2F0dGFjaG1lbnRfZnJvbV9iaW5kaW5nX2xpa2Vfbm9kZSgpIHsKICAgIGxldCBhdHRhY2htZW50ID0gc2Vzc2lvbl9hdHRhY2htZW50X2Zyb21fYmluZGluZygKICAgICAgICAmanNvbiEoewogICAgICAgICAgICAic3ViamVjdFR5cGUiOiAiZm5vcy10b2tlbiIsCiAgICAgICAgICAgICJzdWJqZWN0SGFzaCI6ICJoYXNoLTEiLAogICAgICAgICAgICAiY3VycmVudElwIjogIjIwMy4wLjExMy44IiwKICAgICAgICAgICAgImNyZWF0ZWRBdCI6ICIyMDI2LTA3LTA1VDAxOjAwOjAwWiIsCiAgICAgICAgICAgICJsYXN0U2VlbkF0IjogIjIwMjYtMDctMDVUMDE6MjA6MDBaIiwKICAgICAgICAgICAgImV4cGlyZUF0IjogMTc4MzIxMzIwMCwKICAgICAgICAgICAgIm93bmVyU2Vzc2lvbklkIjogInNlc3Npb24tMSIKICAgICAgICB9KSwKICAgICAgICAic2Vzc2lvbi0xIiwKICAgICAgICAiZm5vcy10b2tlbiIsCiAgICApCiAgICAudW53cmFwKCk7CgogICAgYXNzZXJ0X2VxIShhdHRhY2htZW50WyJzdWJqZWN0SGFzaCJdLCAiaGFzaC0xIik7CiAgICBhc3NlcnRfZXEhKGF0dGFjaG1lbnRbImN1cnJlbnRJcCJdLCAiMjAzLjAuMTEzLjgiKTsKICAgIGFzc2VydF9lcSEoYXR0YWNobWVudFsiY3JlYXRlZEF0Il0sICIyMDI2LTA3LTA1VDAxOjAwOjAwWiIpOwogICAgYXNzZXJ0X2VxIShhdHRhY2htZW50WyJsYXN0U2VlbkF0Il0sICIyMDI2LTA3LTA1VDAxOjIwOjAwWiIpOwogICAgYXNzZXJ0X2VxIShhdHRhY2htZW50WyJleHBpcmVzQXQiXSwgIjIwMjYtMDctMDVUMDE6MDA6MDBaIik7Cn0KCiNbdGVzdF0KZm4gcmVqZWN0c19zdGFsZV9zZXNzaW9uX2F0dGFjaG1lbnRfYmluZGluZ3NfbGlrZV9ub2RlKCkgewogICAgYXNzZXJ0ISgKICAgICAgICBzZXNzaW9uX2F0dGFjaG1lbnRfZnJvbV9iaW5kaW5nKAogICAgICAgICAgICAmanNvbiEoewogICAgICAgICAgICAgICAgInN1YmplY3RUeXBlIjogImZub3MtdG9rZW4iLAogICAgICAgICAgICAgICAgIm93bmVyU2Vzc2lvbklkIjogIm90aGVyLXNlc3Npb24iCiAgICAgICAgICAgIH0pLAogICAgICAgICAgICAic2Vzc2lvbi0xIiwKICAgICAgICAgICAgImZub3MtdG9rZW4iLAogICAgICAgICkKICAgICAgICAuaXNfbm9uZSgpCiAgICApOwogICAgYXNzZXJ0ISgKICAgICAgICBzZXNzaW9uX2F0dGFjaG1lbnRfZnJvbV9iaW5kaW5nKAogICAgICAgICAgICAmanNvbiEoewogICAgICAgICAgICAgICAgInN1YmplY3RUeXBlIjogInRyaW0tbWVkaWEtdG9rZW4iLAogICAgICAgICAgICAgICAgIm93bmVyU2Vzc2lvbklkIjogInNlc3Npb24tMSIKICAgICAgICAgICAgfSksCiAgICAgICAgICAgICJzZXNzaW9uLTEiLAogICAgICAgICAgICAiZm5vcy10b2tlbiIsCiAgICAgICAgKQogICAgICAgIC5pc19ub25lKCkKICAgICk7Cn0KCiNbdGVzdF0KZm4gbm9ybWFsaXplc19hdXRvX2lwX2dyYW50X2NvbW1lbnRfbGlrZV9ub2RlKCkgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpuZXcoInpoLUNOIik7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIG5vcm1hbGl6ZV9hdXRvX2lwX2dyYW50X2NvbW1lbnRfdmFsdWUoCiAgICAgICAgICAgIFNvbWUoIiBBdXRvbWF0aWNhbGx5IGF1dGhvcml6ZWQgYWZ0ZXIgc2lnbi1pbiAiKSwKICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgKSwKICAgICAgICAi55m75b2V5ZCO6Ieq5Yqo5o6I5p2DIgogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgbm9ybWFsaXplX2F1dG9faXBfZ3JhbnRfY29tbWVudF92YWx1ZShTb21lKCIgY3VzdG9tIG5vdGUgIiksICZ0cmFuc2xhdG9yKSwKICAgICAgICAiY3VzdG9tIG5vdGUiCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBub3JtYWxpemVfYXV0b19pcF9ncmFudF9jb21tZW50X3ZhbHVlKFNvbWUoIiAgICIpLCAmdHJhbnNsYXRvciksCiAgICAgICAgIiIKICAgICk7Cn0KCiNbdGVzdF0KZm4gY3VzdG9tX3Bvc3RfbG9naW5fZ3JhbnRfcmV2b2tlX2NvbmRpdGlvbl9tYXRjaGVzX25vZGUoKSB7CiAgICBsZXQgbXV0IHNlc3Npb24gPSBMb2dpblNlc3Npb24gewogICAgICAgIHRvdHBfaWQ6ICJ0b3RwIi50b19zdHJpbmcoKSwKICAgICAgICBtZXRob2Q6ICJUT1RQIi50b19zdHJpbmcoKSwKICAgICAgICBjcmVkZW50aWFsX2lkOiAiY3JlZCIudG9fc3RyaW5nKCksCiAgICAgICAgY3JlZGVudGlhbF9uYW1lOiAiQ3JlZGVudGlhbCIudG9fc3RyaW5nKCksCiAgICAgICAgbGlua2VkX3RvdHBfbmFtZTogTm9uZSwKICAgICAgICBhY2Nlc3Nfc2NvcGVzOiBOb25lLAogICAgICAgIHN1YmRvbWFpbl9hY2Nlc3M6IE5vbmUsCiAgICAgICAgZ3JhbnRfdHlwZTogU29tZSgibG9naW5faXBfZ3JhbnQiLnRvX3N0cmluZygpKSwKICAgICAgICBwb3N0X2xvZ2luX2lwX2dyYW50X21vZGU6IFNvbWUoImN1c3RvbSIudG9fc3RyaW5nKCkpLAogICAgICAgIHBvc3RfbG9naW5faXBfZ3JhbnRfcmVjb3JkX2lkOiBOb25lLAogICAgICAgIHN0cmVhbV9hY2Nlc3NfZXhwaXJlc19hdDogTm9uZSwKICAgICAgICBjb21tZW50OiBOb25lLAogICAgICAgIGlwOiAiMjAzLjAuMTEzLjgiLnRvX3N0cmluZygpLAogICAgICAgIHVzZXJfYWdlbnQ6ICJ0ZXN0Ii50b19zdHJpbmcoKSwKICAgICAgICBsb2dpbl90aW1lOiAiMjAyNi0wNy0wNVQwMTowMDowMFoiLnRvX3N0cmluZygpLAogICAgICAgIGV4cGlyZXNfYXQ6IE5vbmUsCiAgICAgICAgaXBfbG9jYXRpb246IE5vbmUsCiAgICB9OwogICAgYXNzZXJ0IShhdXRoX21vYmlsaXR5OjpzaG91bGRfcmV2b2tlX2N1c3RvbV9wb3N0X2xvZ2luX2lwX2dyYW50KAogICAgICAgIFNvbWUoJnNlc3Npb24pLAogICAgICAgIFNvbWUoJmpzb24hKHsiYXV0aF9jcmVkZW50aWFsX3NldHRpbmdzIjogeyJwb3N0X2xvZ2luX2lwX2dyYW50X21vZGUiOiAiZm9sbG93X3Nlc3Npb24ifX0pKQogICAgKSk7CgogICAgc2Vzc2lvbi5ncmFudF90eXBlID0gU29tZSgic2Vzc2lvbiIudG9fc3RyaW5nKCkpOwogICAgc2Vzc2lvbi5wb3N0X2xvZ2luX2lwX2dyYW50X21vZGUgPSBTb21lKCJmb2xsb3dfc2Vzc2lvbiIudG9fc3RyaW5nKCkpOwogICAgc2Vzc2lvbi5jb21tZW50ID0gU29tZSgi55m75b2V5ZCO6Ieq5Yqo5o6I5p2DIi50b19zdHJpbmcoKSk7CiAgICBhc3NlcnQhKGF1dGhfbW9iaWxpdHk6OnNob3VsZF9yZXZva2VfY3VzdG9tX3Bvc3RfbG9naW5faXBfZ3JhbnQoCiAgICAgICAgU29tZSgmc2Vzc2lvbiksCiAgICAgICAgU29tZSgmanNvbiEoeyJhdXRoX2NyZWRlbnRpYWxfc2V0dGluZ3MiOiB7InBvc3RfbG9naW5faXBfZ3JhbnRfbW9kZSI6ICJjdXN0b20ifX0pKQogICAgKSk7CiAgICBhc3NlcnQhKCFhdXRoX21vYmlsaXR5OjpzaG91bGRfcmV2b2tlX2N1c3RvbV9wb3N0X2xvZ2luX2lwX2dyYW50KAogICAgICAgIFNvbWUoJnNlc3Npb24pLAogICAgICAgIFNvbWUoJmpzb24hKHsiYXV0aF9jcmVkZW50aWFsX3NldHRpbmdzIjogeyJwb3N0X2xvZ2luX2lwX2dyYW50X21vZGUiOiAiZm9sbG93X3Nlc3Npb24ifX0pKQogICAgKSk7Cn0KCiNbdGVzdF0KZm4gbG9jYWxpemVzX2FkbWluX2NvbnRyb2xfcm91dGVfdGV4dCgpIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6bmV3KCJ6aC1DTiIpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBhZG1pbl9jb250cm9sX3RleHQoJnRyYW5zbGF0b3IsICJhdXRoQ3JlZGVudGlhbFNldHRpbmdzLmxvYWRGYWlsZWQiKSwKICAgICAgICAi5Yqg6L296K6k6K+B5Yet5o2u6YWN572u5aSx6LSlIgogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgYWRtaW5fY29udHJvbF90ZXh0KCZ0cmFuc2xhdG9yLCAidG90cC5ub3RGb3VuZCIpLAogICAgICAgICJUT1RQIOWHreaNruS4jeWtmOWcqCIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGFkbWluX2NvbnRyb2xfdGV4dCgmdHJhbnNsYXRvciwgInBhc3NrZXlzLm5vdEZvdW5kIiksCiAgICAgICAgIlBhc3NrZXkg5LiN5a2Y5ZyoIgogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgYWRtaW5fY29udHJvbF90ZXh0KCZ0cmFuc2xhdG9yLCAic2Vzc2lvbnMubm90Rm91bmQiKSwKICAgICAgICAi5Lya6K+d5LiN5a2Y5ZyoIgogICAgKTsKICAgIGxldCBlcnJvciA9IHRvdHBfaW1wb3J0X2Vycm9yX3dpdGhfbWF4KFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULCAiY291bnRFeGNlZWRlZCIsIDIwMCk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHRvdHBfaW1wb3J0X2Vycm9yX21lc3NhZ2UoJnRyYW5zbGF0b3IsICZlcnJvciksCiAgICAgICAgIuWNleasoeacgOWkmuWvvOWFpSAyMDAg5LiqIFRPVFAg5Yet6K+BIgogICAgKTsKfQo=
+use super::*;
+
+#[test]
+fn normalizes_auth_credential_settings_defaults() {
+    let value = normalize_auth_credential_settings(json!({ "session_ttl_seconds": 60 }), None);
+    assert_eq!(value["session_ttl_seconds"], 60);
+    assert_eq!(value["post_login_ip_grant_mode"], "follow_session");
+    assert!(value["post_login_ip_grant_ttl_seconds"].is_null());
+    assert_eq!(value["passkey_bind_prompt_enabled"], true);
+}
+
+#[test]
+fn normalizes_auth_credential_settings_like_node_clamps_and_nulls() {
+    let value = normalize_auth_credential_settings(
+        json!({
+            "session_ttl_seconds": "59.9",
+            "remember_me_ttl_seconds": "61.7",
+            "post_login_ip_grant_mode": "follow_session",
+            "post_login_ip_grant_ttl_seconds": "7200",
+            "session_ip_mobility_window_seconds": 90_000
+        }),
+        None,
+    );
+    assert_eq!(value["session_ttl_seconds"], 60);
+    assert_eq!(value["remember_me_ttl_seconds"], 61);
+    assert!(value["post_login_ip_grant_ttl_seconds"].is_null());
+    assert_eq!(value["session_ip_mobility_window_seconds"], 86_400);
+
+    let custom = normalize_auth_credential_settings(
+        json!({
+            "session_ttl_seconds": 120,
+            "remember_me_ttl_seconds": 60,
+            "post_login_ip_grant_mode": "custom",
+            "post_login_ip_grant_ttl_seconds": "10"
+        }),
+        None,
+    );
+    assert_eq!(custom["remember_me_ttl_seconds"], 120);
+    assert_eq!(custom["post_login_ip_grant_ttl_seconds"], 60);
+}
+
+#[test]
+fn normalizes_auth_credential_settings_legacy_auto_add_flag_like_node() {
+    let value = normalize_auth_credential_settings(json!({}), Some(false));
+    assert_eq!(value["post_login_ip_grant_mode"], "disabled");
+
+    let explicit = normalize_auth_credential_settings(
+        json!({ "post_login_ip_grant_mode": "follow_session" }),
+        Some(false),
+    );
+    assert_eq!(explicit["post_login_ip_grant_mode"], "follow_session");
+}
+
+#[test]
+fn import_plan_skips_duplicate_totp_credentials() {
+    let existing = vec![TotpCredential {
+        id: "a".to_string(),
+        secret: "AAAA".to_string(),
+        comment: String::new(),
+        created_at: time_utils::now_iso(),
+        access_scopes: Value::Array(Vec::new()),
+        subdomain_access: json!({ "mode": "all", "hosts": [] }),
+    }];
+    let payload = json!({
+        "kind": TOTP_TRANSFER_KIND,
+        "version": TOTP_TRANSFER_VERSION,
+        "credentials": [
+            { "id": "a", "secret": "BBBB" },
+            { "id": "b", "secret": "AAAA" },
+            { "id": "b", "secret": "CCCC" },
+            { "id": "c", "secret": "CCCC" }
+        ]
+    });
+    let (credentials, summary) = build_totp_import_plan(&existing, &payload).unwrap();
+    assert_eq!(credentials.len(), 1);
+    assert_eq!(credentials[0].id, "c");
+    assert_eq!(summary["skipped_existing_id"], 1);
+    assert_eq!(summary["skipped_existing_secret"], 1);
+}
+
+#[test]
+fn totp_bind_comment_matches_node_truthy_fallback() {
+    assert_eq!(node_totp_bind_comment(None), "New Token");
+    assert_eq!(node_totp_bind_comment(Some(String::new())), "New Token");
+    assert_eq!(
+        node_totp_bind_comment(Some("   ".to_string())),
+        "   ".to_string()
+    );
+}
+
+#[test]
+fn import_plan_normalizes_totp_metadata_like_node() {
+    let payload = json!({
+        "kind": TOTP_TRANSFER_KIND,
+        "version": TOTP_TRANSFER_VERSION,
+        "credentials": [
+            {
+                "id": " imported ",
+                "secret": " SECRET ",
+                "comment": " Comment ",
+                "createdAt": "not-a-date",
+                "access_scopes": [" docker_admin_panel ", "other", "docker_admin_panel"],
+                "subdomain_access": {
+                    "mode": "custom",
+                    "hosts": ["https://Example.com:8443/path", "/__select__", "bad host"],
+                    "streams": [
+                        { "protocol": "TCP", "listen_port": 2222 },
+                        { "protocol": "icmp", "listen_port": 7 }
+                    ]
+                }
+            }
+        ]
+    });
+
+    let (credentials, summary) = build_totp_import_plan(&[], &payload).unwrap();
+    assert_eq!(summary["imported"], 1);
+    assert_eq!(credentials.len(), 1);
+    let credential = &credentials[0];
+    assert_eq!(credential.id, "imported");
+    assert_eq!(credential.secret, "SECRET");
+    assert_eq!(credential.comment, "Comment");
+    assert!(time_utils::parse_iso_ms(&credential.created_at).is_some());
+    assert_eq!(credential.access_scopes, json!(["docker_admin_panel"]));
+    assert_eq!(
+        credential.subdomain_access,
+        json!({
+            "mode": "custom",
+            "hosts": ["__builtin_select__", "example.com"],
+            "streams": [{ "protocol": "tcp", "listen_port": 2222 }]
+        })
+    );
+}
+
+#[test]
+fn export_payload_normalizes_totp_metadata_like_node() {
+    let payload = build_totp_export_payload(
+        &[TotpCredential {
+            id: " id ".to_string(),
+            secret: " SECRET ".to_string(),
+            comment: " comment ".to_string(),
+            created_at: "not-a-date".to_string(),
+            access_scopes: json!(["docker_admin_panel", "unknown", "docker_admin_panel"]),
+            subdomain_access: json!({
+                "mode": "custom",
+                "hosts": [
+                    " HTTPS://Example.COM:443/path ",
+                    "*bad.example",
+                    "__builtin_select__"
+                ],
+                "streams": [{ "protocol": "udp", "listen_port": 5353 }]
+            }),
+        }],
+        "2026-01-02T03:04:05.000Z",
+    );
+    assert_eq!(payload["kind"], TOTP_TRANSFER_KIND);
+    assert_eq!(payload["version"], TOTP_TRANSFER_VERSION);
+    assert_eq!(payload["login_mode"], "totp");
+    assert_eq!(
+        payload["credentials"][0],
+        json!({
+            "id": "id",
+            "secret": "SECRET",
+            "comment": "comment",
+            "createdAt": "2026-01-02T03:04:05.000Z",
+            "access_scopes": ["docker_admin_panel"],
+            "subdomain_access": {
+                "mode": "custom",
+                "hosts": ["__builtin_select__", "example.com"],
+                "streams": [{ "protocol": "udp", "listen_port": 5353 }]
+            }
+        })
+    );
+}
+
+#[test]
+fn export_payload_includes_password_mode_credentials() {
+    let hash = "ab".repeat(64);
+    let payload = build_password_export_payload(
+        &[AuthAccount {
+            id: " account-1 ".to_string(),
+            username: "alice".to_string(),
+            display_name: "Alice".to_string(),
+            source_totp_id: "totp-1".to_string(),
+            created_at: "not-a-date".to_string(),
+            updated_at: "2026-01-02T03:04:05.000Z".to_string(),
+            access_scopes: json!(["docker_admin_panel", "unknown"]),
+            subdomain_access: json!({ "mode": "all", "hosts": ["ignored.example"] }),
+        }],
+        &[AuthPasswordCredential {
+            account_id: "account-1".to_string(),
+            algorithm: "scrypt".to_string(),
+            salt: "00112233445566778899aabbccddeeff".to_string(),
+            hash,
+            n: 16_384,
+            r: 8,
+            p: 1,
+            key_length: 64,
+            created_at: "bad-date".to_string(),
+            updated_at: "2026-01-03T03:04:05.000Z".to_string(),
+        }],
+        &[TotpCredential {
+            id: "totp-1".to_string(),
+            secret: " SECRET ".to_string(),
+            comment: " Alice ".to_string(),
+            created_at: "bad-date".to_string(),
+            access_scopes: json!(["docker_admin_panel"]),
+            subdomain_access: json!({ "mode": "all", "hosts": [] }),
+        }],
+        "2026-01-02T03:04:05.000Z",
+    );
+
+    assert_eq!(payload["kind"], PASSWORD_TRANSFER_KIND);
+    assert_eq!(payload["version"], PASSWORD_TRANSFER_VERSION);
+    assert_eq!(payload["login_mode"], "password");
+    assert_eq!(payload["accounts"][0]["id"], "account-1");
+    assert_eq!(payload["accounts"][0]["username"], "alice");
+    assert_eq!(payload["accounts"][0]["sourceTotpId"], "totp-1");
+    assert_eq!(
+        payload["accounts"][0]["access_scopes"],
+        json!(["docker_admin_panel"])
+    );
+    assert_eq!(payload["password_credentials"][0]["accountId"], "account-1");
+    assert_eq!(payload["password_credentials"][0]["algorithm"], "scrypt");
+    assert_eq!(payload["totp_credentials"][0]["id"], "totp-1");
+    assert_eq!(payload["totp_credentials"][0]["secret"], "SECRET");
+}
+
+#[test]
+fn password_import_plan_merges_accounts_passwords_and_linked_totps() {
+    let existing_accounts = vec![AuthAccount {
+        id: "existing-account".to_string(),
+        username: "taken".to_string(),
+        display_name: "taken".to_string(),
+        source_totp_id: "existing-totp".to_string(),
+        created_at: "2026-01-01T00:00:00.000Z".to_string(),
+        updated_at: "2026-01-01T00:00:00.000Z".to_string(),
+        access_scopes: Value::Array(Vec::new()),
+        subdomain_access: json!({ "mode": "all", "hosts": [] }),
+    }];
+    let existing_totps = vec![TotpCredential {
+        id: "existing-totp".to_string(),
+        secret: "EXISTING".to_string(),
+        comment: "taken".to_string(),
+        created_at: "2026-01-01T00:00:00.000Z".to_string(),
+        access_scopes: Value::Array(Vec::new()),
+        subdomain_access: json!({ "mode": "all", "hosts": [] }),
+    }];
+    let hash = "ab".repeat(64);
+    let payload = json!({
+        "kind": PASSWORD_TRANSFER_KIND,
+        "version": PASSWORD_TRANSFER_VERSION,
+        "accounts": [
+            { "id": "existing-account", "username": "other" },
+            { "id": "new-username-conflict", "username": "TAKEN" },
+            {
+                "id": "new-account",
+                "username": "Alice",
+                "sourceTotpId": "new-totp",
+                "createdAt": "bad-date",
+                "access_scopes": ["docker_admin_panel", "nope"],
+                "subdomain_access": {
+                    "mode": "custom",
+                    "hosts": ["https://Example.com:8443/path"]
+                }
+            },
+            { "id": "invalid-account", "username": "x" }
+        ],
+        "password_credentials": [
+            {
+                "accountId": "new-account",
+                "algorithm": "scrypt",
+                "salt": "00112233445566778899aabbccddeeff",
+                "hash": hash,
+                "n": 16384,
+                "r": 8,
+                "p": 1,
+                "key_length": 64,
+                "created_at": "bad-date"
+            },
+            {
+                "accountId": "missing-account",
+                "algorithm": "scrypt",
+                "salt": "00112233445566778899aabbccddeeff",
+                "hash": "ab".repeat(64),
+                "n": 16384,
+                "r": 8,
+                "p": 1,
+                "key_length": 64
+            }
+        ],
+        "totp_credentials": [
+            { "id": "new-totp", "secret": " NEWSECRET ", "comment": " Alice " }
+        ]
+    });
+
+    let plan = build_credential_import_plan(
+        &existing_totps,
+        &existing_accounts,
+        &HashSet::from(["existing-account".to_string()]),
+        &payload,
+    )
+    .unwrap();
+    let CredentialImportPlan::Password(plan) = plan else {
+        panic!("expected password import plan");
+    };
+
+    assert_eq!(plan.accounts.len(), 2);
+    assert_eq!(plan.accounts[0].id, "new-account");
+    assert_eq!(plan.accounts[0].username, "alice");
+    assert_eq!(plan.accounts[0].source_totp_id, "new-totp");
+    assert_eq!(
+        plan.accounts[0].access_scopes,
+        json!(["docker_admin_panel"])
+    );
+    assert_eq!(
+        plan.accounts[0].subdomain_access,
+        json!({ "mode": "custom", "hosts": ["example.com"], "streams": [] })
+    );
+    assert_eq!(plan.accounts[1].id, "invalid-account");
+    assert_eq!(plan.accounts[1].username, "x");
+    assert_eq!(plan.password_credentials.len(), 1);
+    assert_eq!(plan.password_credentials[0].account_id, "new-account");
+    assert_eq!(plan.totp_credentials.len(), 1);
+    assert_eq!(plan.totp_credentials[0].id, "new-totp");
+    assert_eq!(plan.totp_credentials[0].secret, "NEWSECRET");
+    assert_eq!(plan.summary["imported"], 2);
+    assert_eq!(plan.summary["skipped_existing_id"], 1);
+    assert_eq!(plan.summary["skipped_existing_username"], 1);
+    assert_eq!(plan.summary["invalid"], 0);
+    assert_eq!(plan.summary["password_imported"], 1);
+    assert_eq!(plan.summary["password_skipped_missing_account"], 1);
+    assert_eq!(plan.summary["totp_imported"], 1);
+}
+
+#[test]
+fn password_import_plan_rejects_unsupported_hash_parameters() {
+    let payload = json!({
+        "kind": PASSWORD_TRANSFER_KIND,
+        "version": PASSWORD_TRANSFER_VERSION,
+        "accounts": [
+            { "id": "new-account", "username": "alice" }
+        ],
+        "password_credentials": [
+            {
+                "accountId": "new-account",
+                "algorithm": "scrypt",
+                "salt": "00112233445566778899aabbccddeeff",
+                "hash": "ab".repeat(64),
+                "n": 1048576,
+                "r": 8,
+                "p": 1,
+                "key_length": 64
+            },
+            {
+                "accountId": "new-account-2",
+                "algorithm": "scrypt",
+                "salt": "00112233445566778899aabbccddeeff",
+                "hash": "abcdef",
+                "n": 16384,
+                "r": 8,
+                "p": 1,
+                "key_length": 64
+            }
+        ]
+    });
+
+    let plan = build_credential_import_plan(&[], &[], &HashSet::new(), &payload).unwrap();
+    let CredentialImportPlan::Password(plan) = plan else {
+        panic!("expected password import plan");
+    };
+
+    assert_eq!(plan.accounts.len(), 1);
+    assert!(plan.password_credentials.is_empty());
+    assert_eq!(plan.summary["password_invalid"], 2);
+}
+
+#[test]
+fn builds_mobility_login_event_from_session() {
+    let event = build_mobility_login_event(&json!({
+        "ip": "203.0.113.8",
+        "ipLocation": "Test City",
+        "loginTime": "2026-07-05T01:02:03Z"
+    }))
+    .unwrap();
+    assert_eq!(event["kind"], "login");
+    assert_eq!(event["source"], "login");
+    assert_eq!(event["toIp"], "203.0.113.8");
+    assert_eq!(event["toIpLocation"], "Test City");
+    assert_eq!(event["happenedAt"], "2026-07-05T01:02:03Z");
+}
+
+#[test]
+fn applies_cached_mobility_event_locations_like_node() {
+    let mut events = vec![json!({
+        "kind": "drift",
+        "toIp": " 203.0.113.8 ",
+        "fromIp": "2001:db8::1",
+        "toIpLocation": "old"
+    })];
+    let locations = BTreeMap::from([
+        ("203.0.113.8".to_string(), "Tokyo".to_string()),
+        ("2001:db8::1".to_string(), "Seoul".to_string()),
+    ]);
+
+    apply_mobility_event_ip_locations(&mut events, &locations);
+
+    assert_eq!(events[0]["toIpLocation"], "Tokyo");
+    assert_eq!(events[0]["fromIpLocation"], "Seoul");
+}
+
+#[test]
+fn builds_mobility_summary_from_drift_events() {
+    let summary = build_mobility_summary(&[
+        json!({ "kind": "login", "happenedAt": "2026-07-05T01:00:00Z" }),
+        json!({ "kind": "drift", "source": "proxy-session", "happenedAt": "2026-07-05T01:10:00Z" }),
+        json!({ "kind": "drift", "source": "session-refresh", "happenedAt": "2026-07-05T01:20:00Z" }),
+    ]);
+    assert_eq!(summary["hasHistory"], true);
+    assert_eq!(summary["driftCount"], 2);
+    assert_eq!(summary["lastDriftAt"], "2026-07-05T01:20:00Z");
+    assert_eq!(summary["lastDriftSource"], "session-refresh");
+}
+
+#[test]
+fn builds_session_attachment_from_binding_like_node() {
+    let attachment = session_attachment_from_binding(
+        &json!({
+            "subjectType": "fnos-token",
+            "subjectHash": "hash-1",
+            "currentIp": "203.0.113.8",
+            "createdAt": "2026-07-05T01:00:00Z",
+            "lastSeenAt": "2026-07-05T01:20:00Z",
+            "expireAt": 1783213200,
+            "ownerSessionId": "session-1"
+        }),
+        "session-1",
+        "fnos-token",
+    )
+    .unwrap();
+
+    assert_eq!(attachment["subjectHash"], "hash-1");
+    assert_eq!(attachment["currentIp"], "203.0.113.8");
+    assert_eq!(attachment["createdAt"], "2026-07-05T01:00:00Z");
+    assert_eq!(attachment["lastSeenAt"], "2026-07-05T01:20:00Z");
+    assert_eq!(attachment["expiresAt"], "2026-07-05T01:00:00Z");
+}
+
+#[test]
+fn rejects_stale_session_attachment_bindings_like_node() {
+    assert!(
+        session_attachment_from_binding(
+            &json!({
+                "subjectType": "fnos-token",
+                "ownerSessionId": "other-session"
+            }),
+            "session-1",
+            "fnos-token",
+        )
+        .is_none()
+    );
+    assert!(
+        session_attachment_from_binding(
+            &json!({
+                "subjectType": "trim-media-token",
+                "ownerSessionId": "session-1"
+            }),
+            "session-1",
+            "fnos-token",
+        )
+        .is_none()
+    );
+}
+
+#[test]
+fn normalizes_auto_ip_grant_comment_like_node() {
+    let translator = Translator::new("zh-CN");
+    assert_eq!(
+        normalize_auto_ip_grant_comment_value(
+            Some(" Automatically authorized after sign-in "),
+            &translator,
+        ),
+        "登录后自动授权"
+    );
+    assert_eq!(
+        normalize_auto_ip_grant_comment_value(Some(" custom note "), &translator),
+        "custom note"
+    );
+    assert_eq!(
+        normalize_auto_ip_grant_comment_value(Some("   "), &translator),
+        ""
+    );
+}
+
+#[test]
+fn custom_post_login_grant_revoke_condition_matches_node() {
+    let mut session = LoginSession {
+        totp_id: "totp".to_string(),
+        method: "TOTP".to_string(),
+        credential_id: "cred".to_string(),
+        credential_name: "Credential".to_string(),
+        linked_totp_name: None,
+        access_scopes: None,
+        subdomain_access: None,
+        grant_type: Some("login_ip_grant".to_string()),
+        post_login_ip_grant_mode: Some("custom".to_string()),
+        post_login_ip_grant_record_id: None,
+        stream_access_expires_at: None,
+        comment: None,
+        ip: "203.0.113.8".to_string(),
+        user_agent: "test".to_string(),
+        login_time: "2026-07-05T01:00:00Z".to_string(),
+        expires_at: None,
+        ip_location: None,
+    };
+    assert!(auth_mobility::should_revoke_custom_post_login_ip_grant(
+        Some(&session),
+        Some(&json!({"auth_credential_settings": {"post_login_ip_grant_mode": "follow_session"}}))
+    ));
+
+    session.grant_type = Some("session".to_string());
+    session.post_login_ip_grant_mode = Some("follow_session".to_string());
+    session.comment = Some("登录后自动授权".to_string());
+    assert!(auth_mobility::should_revoke_custom_post_login_ip_grant(
+        Some(&session),
+        Some(&json!({"auth_credential_settings": {"post_login_ip_grant_mode": "custom"}}))
+    ));
+    assert!(!auth_mobility::should_revoke_custom_post_login_ip_grant(
+        Some(&session),
+        Some(&json!({"auth_credential_settings": {"post_login_ip_grant_mode": "follow_session"}}))
+    ));
+}
+
+#[test]
+fn localizes_admin_control_route_text() {
+    let translator = Translator::new("zh-CN");
+    assert_eq!(
+        admin_control_text(&translator, "authCredentialSettings.loadFailed"),
+        "加载认证凭据配置失败"
+    );
+    assert_eq!(
+        admin_control_text(&translator, "totp.notFound"),
+        "TOTP 凭据不存在"
+    );
+    assert_eq!(
+        admin_control_text(&translator, "passkeys.notFound"),
+        "Passkey 不存在"
+    );
+    assert_eq!(
+        admin_control_text(&translator, "sessions.notFound"),
+        "会话不存在"
+    );
+    let error = totp_import_error_with_max(StatusCode::BAD_REQUEST, "countExceeded", 200);
+    assert_eq!(
+        totp_import_error_message(&translator, &error),
+        "单次最多导入 200 个 TOTP 凭证"
+    );
+}

@@ -1,1 +1,51 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgU2VsZWN0Q29udGVudEVtaXRzLCBTZWxlY3RDb250ZW50UHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyByZWFjdGl2ZU9taXQgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7CiAgU2VsZWN0Q29udGVudCwKICBTZWxlY3RQb3J0YWwsCiAgU2VsZWN0Vmlld3BvcnQsCiAgdXNlRm9yd2FyZFByb3BzRW1pdHMsCn0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKaW1wb3J0IHsgU2VsZWN0U2Nyb2xsRG93bkJ1dHRvbiwgU2VsZWN0U2Nyb2xsVXBCdXR0b24gfSBmcm9tICIuIgoKZGVmaW5lT3B0aW9ucyh7CiAgaW5oZXJpdEF0dHJzOiBmYWxzZSwKfSkKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKAogIGRlZmluZVByb3BzPFNlbGVjdENvbnRlbnRQcm9wcyAmIHsgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXSB9PigpLAogIHsKICAgIHBvc2l0aW9uOiAicG9wcGVyIiwKICB9LAopCmNvbnN0IGVtaXRzID0gZGVmaW5lRW1pdHM8U2VsZWN0Q29udGVudEVtaXRzPigpCgpjb25zdCBkZWxlZ2F0ZWRQcm9wcyA9IHJlYWN0aXZlT21pdChwcm9wcywgImNsYXNzIikKCmNvbnN0IGZvcndhcmRlZCA9IHVzZUZvcndhcmRQcm9wc0VtaXRzKGRlbGVnYXRlZFByb3BzLCBlbWl0cykKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFNlbGVjdFBvcnRhbD4KICAgIDxTZWxlY3RDb250ZW50CiAgICAgIGRhdGEtc2xvdD0ic2VsZWN0LWNvbnRlbnQiCiAgICAgIHYtYmluZD0ieyAuLi4kYXR0cnMsIC4uLmZvcndhcmRlZCB9IgogICAgICA6Y2xhc3M9ImNuKAogICAgICAgICdiZy1wb3BvdmVyIHRleHQtcG9wb3Zlci1mb3JlZ3JvdW5kIGRhdGEtW3N0YXRlPW9wZW5dOmFuaW1hdGUtaW4gZGF0YS1bc3RhdGU9Y2xvc2VkXTphbmltYXRlLW91dCBkYXRhLVtzdGF0ZT1jbG9zZWRdOmZhZGUtb3V0LTAgZGF0YS1bc3RhdGU9b3Blbl06ZmFkZS1pbi0wIGRhdGEtW3N0YXRlPWNsb3NlZF06em9vbS1vdXQtOTUgZGF0YS1bc3RhdGU9b3Blbl06em9vbS1pbi05NSBkYXRhLVtzaWRlPWJvdHRvbV06c2xpZGUtaW4tZnJvbS10b3AtMiBkYXRhLVtzaWRlPWxlZnRdOnNsaWRlLWluLWZyb20tcmlnaHQtMiBkYXRhLVtzaWRlPXJpZ2h0XTpzbGlkZS1pbi1mcm9tLWxlZnQtMiBkYXRhLVtzaWRlPXRvcF06c2xpZGUtaW4tZnJvbS1ib3R0b20tMiByZWxhdGl2ZSB6LTUwIG1heC1oLSgtLXJla2Etc2VsZWN0LWNvbnRlbnQtYXZhaWxhYmxlLWhlaWdodCkgbWluLXctWzhyZW1dIG92ZXJmbG93LXgtaGlkZGVuIG92ZXJmbG93LXktYXV0byByb3VuZGVkLW1kIGJvcmRlciBzaGFkb3ctbWQnLAogICAgICAgIHBvc2l0aW9uID09PSAncG9wcGVyJwogICAgICAgICAgJiYgJ2RhdGEtW3NpZGU9Ym90dG9tXTp0cmFuc2xhdGUteS0xIGRhdGEtW3NpZGU9bGVmdF06LXRyYW5zbGF0ZS14LTEgZGF0YS1bc2lkZT1yaWdodF06dHJhbnNsYXRlLXgtMSBkYXRhLVtzaWRlPXRvcF06LXRyYW5zbGF0ZS15LTEnLAogICAgICAgIHByb3BzLmNsYXNzLAogICAgICApCiAgICAgICIKICAgID4KICAgICAgPFNlbGVjdFNjcm9sbFVwQnV0dG9uIC8+CiAgICAgIDxTZWxlY3RWaWV3cG9ydCA6Y2xhc3M9ImNuKCdwLTEnLCBwb3NpdGlvbiA9PT0gJ3BvcHBlcicgJiYgJ2gtW3ZhcigtLXJla2Etc2VsZWN0LXRyaWdnZXItaGVpZ2h0KV0gdy1mdWxsIG1pbi13LVt2YXIoLS1yZWthLXNlbGVjdC10cmlnZ2VyLXdpZHRoKV0gc2Nyb2xsLW15LTEnKSI+CiAgICAgICAgPHNsb3QgLz4KICAgICAgPC9TZWxlY3RWaWV3cG9ydD4KICAgICAgPFNlbGVjdFNjcm9sbERvd25CdXR0b24gLz4KICAgIDwvU2VsZWN0Q29udGVudD4KICA8L1NlbGVjdFBvcnRhbD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { SelectContentEmits, SelectContentProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import {
+  SelectContent,
+  SelectPortal,
+  SelectViewport,
+  useForwardPropsEmits,
+} from "reka-ui"
+import { cn } from "@/lib/utils"
+import { SelectScrollDownButton, SelectScrollUpButton } from "."
+
+defineOptions({
+  inheritAttrs: false,
+})
+
+const props = withDefaults(
+  defineProps<SelectContentProps & { class?: HTMLAttributes["class"] }>(),
+  {
+    position: "popper",
+  },
+)
+const emits = defineEmits<SelectContentEmits>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwarded = useForwardPropsEmits(delegatedProps, emits)
+</script>
+
+<template>
+  <SelectPortal>
+    <SelectContent
+      data-slot="select-content"
+      v-bind="{ ...$attrs, ...forwarded }"
+      :class="cn(
+        'bg-popover text-popover-foreground data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 relative z-50 max-h-(--reka-select-content-available-height) min-w-[8rem] overflow-x-hidden overflow-y-auto rounded-md border shadow-md',
+        position === 'popper'
+          && 'data-[side=bottom]:translate-y-1 data-[side=left]:-translate-x-1 data-[side=right]:translate-x-1 data-[side=top]:-translate-y-1',
+        props.class,
+      )
+      "
+    >
+      <SelectScrollUpButton />
+      <SelectViewport :class="cn('p-1', position === 'popper' && 'h-[var(--reka-select-trigger-height)] w-full min-w-[var(--reka-select-trigger-width)] scroll-my-1')">
+        <slot />
+      </SelectViewport>
+      <SelectScrollDownButton />
+    </SelectContent>
+  </SelectPortal>
+</template>

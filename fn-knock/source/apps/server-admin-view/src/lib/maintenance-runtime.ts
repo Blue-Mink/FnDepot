@@ -1,1 +1,19 @@
-aW1wb3J0IHR5cGUgeyBSdW50aW1lQ2FwYWJpbGl0aWVzLCBSdW50aW1lUHJvZmlsZSB9IGZyb20gIi4uL3R5cGVzIjsKCmV4cG9ydCBjb25zdCBzdXBwb3J0c1NoYXJlZEJhY2t1cEZvclJ1bnRpbWUgPSAoCiAgcHJvZmlsZT86IFJ1bnRpbWVQcm9maWxlLAogIGNhcGFiaWxpdGllcz86IFJ1bnRpbWVDYXBhYmlsaXRpZXMsCik6IGJvb2xlYW4gPT4gewogIGNvbnN0IHRhcmdldCA9IHByb2ZpbGU/LmRlcGxveW1lbnRfdGFyZ2V0OwoKICBpZiAodGFyZ2V0ID09PSAiZG9ja2VyIiB8fCB0YXJnZXQgPT09ICJvcGVud3J0IikgewogICAgcmV0dXJuIGZhbHNlOwogIH0KCiAgcmV0dXJuICgKICAgIHRhcmdldCA9PT0gImZwayIgfHwKICAgIHRhcmdldCA9PT0gImZway1saXRlIiB8fAogICAgY2FwYWJpbGl0aWVzPy5zZWxmX3VwZGF0ZV9hdmFpbGFibGUgPT09IHRydWUgfHwKICAgIGNhcGFiaWxpdGllcz8uc2hhcmVkX3Jvb3RfYXZhaWxhYmxlID09PSB0cnVlCiAgKTsKfTsK
+import type { RuntimeCapabilities, RuntimeProfile } from "../types";
+
+export const supportsSharedBackupForRuntime = (
+  profile?: RuntimeProfile,
+  capabilities?: RuntimeCapabilities,
+): boolean => {
+  const target = profile?.deployment_target;
+
+  if (target === "docker" || target === "openwrt") {
+    return false;
+  }
+
+  return (
+    target === "fpk" ||
+    target === "fpk-lite" ||
+    capabilities?.self_update_available === true ||
+    capabilities?.shared_root_available === true
+  );
+};

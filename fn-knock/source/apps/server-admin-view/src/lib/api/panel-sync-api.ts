@@ -1,1 +1,128 @@
-aW1wb3J0IHR5cGUgeyBjb21wb25lbnRzIGFzIEFwaUNvbnRyYWN0Q29tcG9uZW50cyB9IGZyb20gIkBmbi1rbm9jay9hcGktY29udHJhY3QiOwoKaW1wb3J0IHsgYXBpQ2xpZW50IH0gZnJvbSAiLi9jbGllbnQiOwoKdHlwZSBTY2hlbWFzID0gQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl07CgpleHBvcnQgdHlwZSBQYW5lbFByb3ZpZGVyID0gU2NoZW1hc1siUGFuZWxQcm92aWRlciJdOwpleHBvcnQgdHlwZSBQYW5lbFByb3ZpZGVyRGVzY3JpcHRvciA9IFNjaGVtYXNbIlByb3ZpZGVyRGVzY3JpcHRvciJdOwpleHBvcnQgdHlwZSBQYW5lbENvbm5lY3Rpb24gPSBTY2hlbWFzWyJQYW5lbENvbm5lY3Rpb24iXTsKZXhwb3J0IHR5cGUgUGFuZWxTeW5jUHJldmlldyA9IFNjaGVtYXNbIlN5bmNQcmV2aWV3Il07CmV4cG9ydCB0eXBlIFBhbmVsU3luY1J1biA9IFNjaGVtYXNbIlN5bmNSdW4iXTsKZXhwb3J0IHR5cGUgUGFuZWxQcm9iZVJlc3VsdCA9IFNjaGVtYXNbIlByb2JlUmVzdWx0Il07CmV4cG9ydCB0eXBlIFBhbmVsQ29ubmVjdGlvbklucHV0ID0gT21pdDwKICBTY2hlbWFzWyJDb25uZWN0aW9uSW5wdXQiXSwKICB8ICJhbGxvd19pbnZhbGlkX3RscyIKICB8ICJhcGlfcGF0aCIKICB8ICJhdXRvX3N5bmMiCiAgfCAiY2xlYXJfY3JlZGVudGlhbCIKICB8ICJjcmVkZW50aWFsIgogIHwgImdyb3VwaW5nIgo+ICYgewogIGFsbG93X2ludmFsaWRfdGxzOiBib29sZWFuOwogIGFwaV9wYXRoOiBzdHJpbmc7CiAgYXV0b19zeW5jOiBSZXF1aXJlZDxTY2hlbWFzWyJBdXRvU3luY0NvbmZpZyJdPjsKICBjbGVhcl9jcmVkZW50aWFsOiBib29sZWFuOwogIGNyZWRlbnRpYWw/OiBzdHJpbmc7CiAgZ3JvdXBpbmc6IFJlcXVpcmVkPFNjaGVtYXNbIkdyb3VwaW5nQ29uZmlnIl0+Owp9OwpleHBvcnQgdHlwZSBQYW5lbENvbm5lY3Rpb25VcGRhdGVJbnB1dCA9IE9taXQ8UGFuZWxDb25uZWN0aW9uSW5wdXQsICJwcm92aWRlciI+OwoKY29uc3QgdW53cmFwID0gPFQ+KHJlc3BvbnNlOiB7IGRhdGE6IHsgZGF0YTogVCB9IH0pOiBUID0+IHJlc3BvbnNlLmRhdGEuZGF0YTsKCmV4cG9ydCBjb25zdCBQYW5lbFN5bmNBUEkgPSB7CiAgYXN5bmMgcHJvdmlkZXJzKCk6IFByb21pc2U8UGFuZWxQcm92aWRlckRlc2NyaXB0b3JbXT4gewogICAgcmV0dXJuIHVud3JhcChhd2FpdCBhcGlDbGllbnQuZ2V0KCIvcGFuZWwtc3luYy9wcm92aWRlcnMiKSk7CiAgfSwKCiAgYXN5bmMgY29ubmVjdGlvbnMoKTogUHJvbWlzZTxQYW5lbENvbm5lY3Rpb25bXT4gewogICAgcmV0dXJuIHVud3JhcChhd2FpdCBhcGlDbGllbnQuZ2V0KCIvcGFuZWwtc3luYy9jb25uZWN0aW9ucyIpKTsKICB9LAoKICBhc3luYyBjcmVhdGUoaW5wdXQ6IFBhbmVsQ29ubmVjdGlvbklucHV0KTogUHJvbWlzZTxQYW5lbENvbm5lY3Rpb24+IHsKICAgIHJldHVybiB1bndyYXAoYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9wYW5lbC1zeW5jL2Nvbm5lY3Rpb25zIiwgaW5wdXQpKTsKICB9LAoKICBhc3luYyB1cGRhdGUoCiAgICBpZDogc3RyaW5nLAogICAgaW5wdXQ6IFBhbmVsQ29ubmVjdGlvblVwZGF0ZUlucHV0LAogICk6IFByb21pc2U8UGFuZWxDb25uZWN0aW9uPiB7CiAgICByZXR1cm4gdW53cmFwKAogICAgICBhd2FpdCBhcGlDbGllbnQucHV0KAogICAgICAgIGAvcGFuZWwtc3luYy9jb25uZWN0aW9ucy8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9YCwKICAgICAgICBpbnB1dCwKICAgICAgKSwKICAgICk7CiAgfSwKCiAgYXN5bmMgcmVtb3ZlKGlkOiBzdHJpbmcsIGNsZWFudXBQcmV2aWV3PzogUGFuZWxTeW5jUHJldmlldyk6IFByb21pc2U8dm9pZD4gewogICAgYXdhaXQgYXBpQ2xpZW50LmRlbGV0ZSgKICAgICAgYC9wYW5lbC1zeW5jL2Nvbm5lY3Rpb25zLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX1gLAogICAgICB7CiAgICAgICAgcGFyYW1zOiBjbGVhbnVwUHJldmlldwogICAgICAgICAgPyB7CiAgICAgICAgICAgICAgY2xlYW51cF9yZW1vdGU6IHRydWUsCiAgICAgICAgICAgICAgcGxhbl9oYXNoOiBjbGVhbnVwUHJldmlldy5wbGFuX2hhc2gsCiAgICAgICAgICAgICAgc291cmNlX3JldmlzaW9uOiBjbGVhbnVwUHJldmlldy5zb3VyY2VfcmV2aXNpb24sCiAgICAgICAgICAgIH0KICAgICAgICAgIDogdW5kZWZpbmVkLAogICAgICB9LAogICAgKTsKICB9LAoKICBhc3luYyB0ZXN0U2F2ZWQoaWQ6IHN0cmluZyk6IFByb21pc2U8UGFuZWxQcm9iZVJlc3VsdD4gewogICAgcmV0dXJuIHVud3JhcCgKICAgICAgYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9wYW5lbC1zeW5jL3Rlc3QiLCB7IGNvbm5lY3Rpb25faWQ6IGlkIH0pLAogICAgKTsKICB9LAoKICBhc3luYyB0ZXN0RHJhZnQoCiAgICBkcmFmdDogUGFuZWxDb25uZWN0aW9uSW5wdXQsCiAgICBjb25uZWN0aW9uSWQ/OiBzdHJpbmcsCiAgKTogUHJvbWlzZTxQYW5lbFByb2JlUmVzdWx0PiB7CiAgICByZXR1cm4gdW53cmFwKAogICAgICBhd2FpdCBhcGlDbGllbnQucG9zdCgiL3BhbmVsLXN5bmMvdGVzdCIsIHsKICAgICAgICBjb25uZWN0aW9uX2lkOiBjb25uZWN0aW9uSWQsCiAgICAgICAgZHJhZnQsCiAgICAgIH0pLAogICAgKTsKICB9LAoKICBhc3luYyBwcmV2aWV3KGlkOiBzdHJpbmcsIGNsZWFudXBSZW1vdGUgPSBmYWxzZSk6IFByb21pc2U8UGFuZWxTeW5jUHJldmlldz4gewogICAgcmV0dXJuIHVud3JhcCgKICAgICAgYXdhaXQgYXBpQ2xpZW50LnBvc3QoCiAgICAgICAgYC9wYW5lbC1zeW5jL2Nvbm5lY3Rpb25zLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX0vcHJldmlld2AsCiAgICAgICAgeyBjbGVhbnVwX3JlbW90ZTogY2xlYW51cFJlbW90ZSB9LAogICAgICApLAogICAgKTsKICB9LAoKICBhc3luYyBzeW5jKAogICAgaWQ6IHN0cmluZywKICAgIHByZXZpZXc6IFBhbmVsU3luY1ByZXZpZXcsCiAgKTogUHJvbWlzZTxTY2hlbWFzWyJTeW5jQWNjZXB0ZWQiXT4gewogICAgcmV0dXJuIHVud3JhcCgKICAgICAgYXdhaXQgYXBpQ2xpZW50LnBvc3QoCiAgICAgICAgYC9wYW5lbC1zeW5jL2Nvbm5lY3Rpb25zLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX0vc3luY2AsCiAgICAgICAgewogICAgICAgICAgc291cmNlX3JldmlzaW9uOiBwcmV2aWV3LnNvdXJjZV9yZXZpc2lvbiwKICAgICAgICAgIHBsYW5faGFzaDogcHJldmlldy5wbGFuX2hhc2gsCiAgICAgICAgfSwKICAgICAgKSwKICAgICk7CiAgfSwKCiAgYXN5bmMgcnVucyhpZDogc3RyaW5nKTogUHJvbWlzZTxQYW5lbFN5bmNSdW5bXT4gewogICAgcmV0dXJuIHVud3JhcCgKICAgICAgYXdhaXQgYXBpQ2xpZW50LmdldCgKICAgICAgICBgL3BhbmVsLXN5bmMvY29ubmVjdGlvbnMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfS9ydW5zYCwKICAgICAgKSwKICAgICk7CiAgfSwKCiAgYXN5bmMgcnVuKHJ1bklkOiBzdHJpbmcpOiBQcm9taXNlPFBhbmVsU3luY1J1bj4gewogICAgcmV0dXJuIHVud3JhcCgKICAgICAgYXdhaXQgYXBpQ2xpZW50LmdldChgL3BhbmVsLXN5bmMvcnVucy8ke2VuY29kZVVSSUNvbXBvbmVudChydW5JZCl9YCksCiAgICApOwogIH0sCn07Cg==
+import type { components as ApiContractComponents } from "@fn-knock/api-contract";
+
+import { apiClient } from "./client";
+
+type Schemas = ApiContractComponents["schemas"];
+
+export type PanelProvider = Schemas["PanelProvider"];
+export type PanelProviderDescriptor = Schemas["ProviderDescriptor"];
+export type PanelConnection = Schemas["PanelConnection"];
+export type PanelSyncPreview = Schemas["SyncPreview"];
+export type PanelSyncRun = Schemas["SyncRun"];
+export type PanelProbeResult = Schemas["ProbeResult"];
+export type PanelConnectionInput = Omit<
+  Schemas["ConnectionInput"],
+  | "allow_invalid_tls"
+  | "api_path"
+  | "auto_sync"
+  | "clear_credential"
+  | "credential"
+  | "grouping"
+> & {
+  allow_invalid_tls: boolean;
+  api_path: string;
+  auto_sync: Required<Schemas["AutoSyncConfig"]>;
+  clear_credential: boolean;
+  credential?: string;
+  grouping: Required<Schemas["GroupingConfig"]>;
+};
+export type PanelConnectionUpdateInput = Omit<PanelConnectionInput, "provider">;
+
+const unwrap = <T>(response: { data: { data: T } }): T => response.data.data;
+
+export const PanelSyncAPI = {
+  async providers(): Promise<PanelProviderDescriptor[]> {
+    return unwrap(await apiClient.get("/panel-sync/providers"));
+  },
+
+  async connections(): Promise<PanelConnection[]> {
+    return unwrap(await apiClient.get("/panel-sync/connections"));
+  },
+
+  async create(input: PanelConnectionInput): Promise<PanelConnection> {
+    return unwrap(await apiClient.post("/panel-sync/connections", input));
+  },
+
+  async update(
+    id: string,
+    input: PanelConnectionUpdateInput,
+  ): Promise<PanelConnection> {
+    return unwrap(
+      await apiClient.put(
+        `/panel-sync/connections/${encodeURIComponent(id)}`,
+        input,
+      ),
+    );
+  },
+
+  async remove(id: string, cleanupPreview?: PanelSyncPreview): Promise<void> {
+    await apiClient.delete(
+      `/panel-sync/connections/${encodeURIComponent(id)}`,
+      {
+        params: cleanupPreview
+          ? {
+              cleanup_remote: true,
+              plan_hash: cleanupPreview.plan_hash,
+              source_revision: cleanupPreview.source_revision,
+            }
+          : undefined,
+      },
+    );
+  },
+
+  async testSaved(id: string): Promise<PanelProbeResult> {
+    return unwrap(
+      await apiClient.post("/panel-sync/test", { connection_id: id }),
+    );
+  },
+
+  async testDraft(
+    draft: PanelConnectionInput,
+    connectionId?: string,
+  ): Promise<PanelProbeResult> {
+    return unwrap(
+      await apiClient.post("/panel-sync/test", {
+        connection_id: connectionId,
+        draft,
+      }),
+    );
+  },
+
+  async preview(id: string, cleanupRemote = false): Promise<PanelSyncPreview> {
+    return unwrap(
+      await apiClient.post(
+        `/panel-sync/connections/${encodeURIComponent(id)}/preview`,
+        { cleanup_remote: cleanupRemote },
+      ),
+    );
+  },
+
+  async sync(
+    id: string,
+    preview: PanelSyncPreview,
+  ): Promise<Schemas["SyncAccepted"]> {
+    return unwrap(
+      await apiClient.post(
+        `/panel-sync/connections/${encodeURIComponent(id)}/sync`,
+        {
+          source_revision: preview.source_revision,
+          plan_hash: preview.plan_hash,
+        },
+      ),
+    );
+  },
+
+  async runs(id: string): Promise<PanelSyncRun[]> {
+    return unwrap(
+      await apiClient.get(
+        `/panel-sync/connections/${encodeURIComponent(id)}/runs`,
+      ),
+    );
+  },
+
+  async run(runId: string): Promise<PanelSyncRun> {
+    return unwrap(
+      await apiClient.get(`/panel-sync/runs/${encodeURIComponent(runId)}`),
+    );
+  },
+};

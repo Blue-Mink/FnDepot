@@ -1,1 +1,66 @@
-aW1wb3J0IHsgc3Bhd25TeW5jIH0gZnJvbSAibm9kZTpjaGlsZF9wcm9jZXNzIjsKaW1wb3J0IHsgcmVhZEZpbGVTeW5jIH0gZnJvbSAibm9kZTpmcyI7Cgpjb25zdCByZXBvUm9vdCA9IG5ldyBVUkwoIi4uLy4uLy4uIiwgaW1wb3J0Lm1ldGEudXJsKTsKY29uc3QgYWxsb3dsaXN0ID0gcmVhZEZpbGVTeW5jKAogIG5ldyBVUkwoIi4uL3NjYW4tYWxsb3dsaXN0LnR4dCIsIGltcG9ydC5tZXRhLnVybCksCiAgInV0ZjgiLAopCiAgLnNwbGl0KCJcbiIpCiAgLm1hcCgobGluZSkgPT4gbGluZS50cmltKCkpCiAgLmZpbHRlcigobGluZSkgPT4gbGluZSAmJiAhbGluZS5zdGFydHNXaXRoKCIjIikpOwoKY29uc3QgYXJncyA9IFsKICAiLW4iLAogICJbXFxwe0hhbn1dIiwKICAiLWciLAogICIhbm9kZV9tb2R1bGVzIiwKICAiLWciLAogICIhLnR1cmJvIiwKICAiLWciLAogICIhZGlzdCIsCiAgIi1nIiwKICAiIWJ1aWxkIiwKICAiLWciLAogICIhKi5sb2NrIiwKICAiLWciLAogICIhYXBwcy9mbi1rbm9jay8qKiIsCiAgIi1nIiwKICAiIWFwcHMvZm4ta25vY2stZG9ja2VyLyoqIiwKICAiLWciLAogICIhcGFja2FnZXMvaTE4bi9zcmMvbG9jYWxlcy50cyIsCiAgIi1nIiwKICAiIXBhY2thZ2VzL2kxOG4vc3JjL2xvY2FsZS1vcHRpb25zLnRzIiwKICAiLWciLAogICIhcGFja2FnZXMvaTE4bi9zcmMvbWVzc2FnZXMvKioiLAogICIuIiwKXTsKCmNvbnN0IHJlc3VsdCA9IHNwYXduU3luYygicmciLCBhcmdzLCB7CiAgY3dkOiByZXBvUm9vdCwKICBlbmNvZGluZzogInV0ZjgiLAogIG1heEJ1ZmZlcjogNCAqIDEwMjQgKiAxMDI0LAp9KTsKCmlmIChyZXN1bHQuc3RhdHVzID09PSAxKSB7CiAgY29uc29sZS5sb2coIltpMThuXSBubyByZXNpZHVhbCBDaGluZXNlIHRleHQgb3V0c2lkZSBsb2NhbGUgZmlsZXMuIik7CiAgcHJvY2Vzcy5leGl0KDApOwp9CgppZiAocmVzdWx0LmVycm9yIHx8IHJlc3VsdC5zdGF0dXMgPT0gbnVsbCB8fCByZXN1bHQuc3RhdHVzID4gMSkgewogIGNvbnNvbGUuZXJyb3IocmVzdWx0LnN0ZGVyciB8fCByZXN1bHQuZXJyb3I/Lm1lc3NhZ2UgfHwgIltpMThuXSBzY2FuIGZhaWxlZCIpOwogIHByb2Nlc3MuZXhpdChyZXN1bHQuc3RhdHVzIHx8IDEpOwp9Cgpjb25zdCBsaW5lcyA9IHJlc3VsdC5zdGRvdXQKICAudHJpbSgpCiAgLnNwbGl0KCJcbiIpCiAgLmZpbHRlcihCb29sZWFuKQogIC5maWx0ZXIoKGxpbmUpID0+ICFhbGxvd2xpc3Quc29tZSgocGF0dGVybikgPT4gbGluZS5pbmNsdWRlcyhwYXR0ZXJuKSkpOwpjb25zb2xlLmxvZygKICBgW2kxOG5dIGZvdW5kICR7bGluZXMubGVuZ3RofSByZXNpZHVhbCBDaGluZXNlIHRleHQgbG9jYXRpb25zIG91dHNpZGUgbG9jYWxlIGZpbGVzLmAsCik7CmNvbnNvbGUubG9nKGxpbmVzLnNsaWNlKDAsIDgwKS5qb2luKCJcbiIpKTsKaWYgKGxpbmVzLmxlbmd0aCA+IDgwKSB7CiAgY29uc29sZS5sb2coYFtpMThuXSAuLi4gJHtsaW5lcy5sZW5ndGggLSA4MH0gbW9yZWApOwp9Cg==
+import { spawnSync } from "node:child_process";
+import { readFileSync } from "node:fs";
+
+const repoRoot = new URL("../../..", import.meta.url);
+const allowlist = readFileSync(
+  new URL("../scan-allowlist.txt", import.meta.url),
+  "utf8",
+)
+  .split("\n")
+  .map((line) => line.trim())
+  .filter((line) => line && !line.startsWith("#"));
+
+const args = [
+  "-n",
+  "[\\p{Han}]",
+  "-g",
+  "!node_modules",
+  "-g",
+  "!.turbo",
+  "-g",
+  "!dist",
+  "-g",
+  "!build",
+  "-g",
+  "!*.lock",
+  "-g",
+  "!apps/fn-knock/**",
+  "-g",
+  "!apps/fn-knock-docker/**",
+  "-g",
+  "!packages/i18n/src/locales.ts",
+  "-g",
+  "!packages/i18n/src/locale-options.ts",
+  "-g",
+  "!packages/i18n/src/messages/**",
+  ".",
+];
+
+const result = spawnSync("rg", args, {
+  cwd: repoRoot,
+  encoding: "utf8",
+  maxBuffer: 4 * 1024 * 1024,
+});
+
+if (result.status === 1) {
+  console.log("[i18n] no residual Chinese text outside locale files.");
+  process.exit(0);
+}
+
+if (result.error || result.status == null || result.status > 1) {
+  console.error(result.stderr || result.error?.message || "[i18n] scan failed");
+  process.exit(result.status || 1);
+}
+
+const lines = result.stdout
+  .trim()
+  .split("\n")
+  .filter(Boolean)
+  .filter((line) => !allowlist.some((pattern) => line.includes(pattern)));
+console.log(
+  `[i18n] found ${lines.length} residual Chinese text locations outside locale files.`,
+);
+console.log(lines.slice(0, 80).join("\n"));
+if (lines.length > 80) {
+  console.log(`[i18n] ... ${lines.length - 80} more`);
+}

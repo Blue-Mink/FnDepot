@@ -1,1 +1,50 @@
-aW1wb3J0IHsgZXhlY0ZpbGUgfSBmcm9tICJub2RlOmNoaWxkX3Byb2Nlc3MiOwppbXBvcnQgeyByZWFkRmlsZSB9IGZyb20gIm5vZGU6ZnMvcHJvbWlzZXMiOwppbXBvcnQgeyBwcm9taXNpZnkgfSBmcm9tICJub2RlOnV0aWwiOwoKY29uc3QgZXhlY0ZpbGVBc3luYyA9IHByb21pc2lmeShleGVjRmlsZSk7CgpleHBvcnQgY29uc3QgcGFyc2VMaW51eFByb2Nlc3NNZW1vcnkgPSAoc3RhdHVzKSA9PiB7CiAgY29uc3Qga2lsb2J5dGVzID0gKGZpZWxkKSA9PiB7CiAgICBjb25zdCB2YWx1ZSA9IHN0YXR1cy5tYXRjaChuZXcgUmVnRXhwKGBeJHtmaWVsZH06XFxzKyhcXGQrKVxccytrQiRgLCAibSIpKTsKICAgIHJldHVybiB2YWx1ZSA/IE51bWJlcih2YWx1ZVsxXSkgKiAxMDI0IDogbnVsbDsKICB9OwogIHJldHVybiB7CiAgICByc3NfYnl0ZXM6IGtpbG9ieXRlcygiVm1SU1MiKSwKICAgIHBlYWtfcnNzX2J5dGVzOiBraWxvYnl0ZXMoIlZtSFdNIiksCiAgfTsKfTsKCi8vIFJlYWQgdGhlIG93bmVkIHByb2Nlc3MgZGlyZWN0bHkuIFRoZSBhcHBsaWNhdGlvbidzIGhlYWx0aCBlbmRwb2ludCBjYWNoZXMKLy8gaXRzIFJTUyBmb3IgZml2ZSBzZWNvbmRzIGFuZCBjYW5ub3Qgb2JzZXJ2ZSBzaG9ydCBhbGxvY2F0aW9uIGJ1cnN0cy4KZXhwb3J0IGNvbnN0IHJlYWRQcm9jZXNzTWVtb3J5ID0gYXN5bmMgKHBpZCwgc2lnbmFsKSA9PiB7CiAgc2lnbmFsPy50aHJvd0lmQWJvcnRlZCgpOwogIGlmICghTnVtYmVyLmlzU2FmZUludGVnZXIocGlkKSB8fCBwaWQgPD0gMCkgewogICAgdGhyb3cgbmV3IEVycm9yKCJwcm9jZXNzIG1lbW9yeSBzYW1wbGluZyByZXF1aXJlcyBhIHBvc2l0aXZlIFBJRCIpOwogIH0KICBpZiAocHJvY2Vzcy5wbGF0Zm9ybSA9PT0gImxpbnV4IikgewogICAgY29uc3QgbWVtb3J5ID0gcGFyc2VMaW51eFByb2Nlc3NNZW1vcnkoCiAgICAgIGF3YWl0IHJlYWRGaWxlKGAvcHJvYy8ke3BpZH0vc3RhdHVzYCwgeyBlbmNvZGluZzogInV0ZjgiLCBzaWduYWwgfSksCiAgICApOwogICAgaWYgKG1lbW9yeS5yc3NfYnl0ZXMgPT09IG51bGwpIHsKICAgICAgdGhyb3cgbmV3IEVycm9yKGBwcm9jZXNzICR7cGlkfSBoYXMgbm8gcmVzaWRlbnQtbWVtb3J5IG1lYXN1cmVtZW50YCk7CiAgICB9CiAgICByZXR1cm4gbWVtb3J5OwogIH0KICBpZiAocHJvY2Vzcy5wbGF0Zm9ybSA9PT0gImRhcndpbiIpIHsKICAgIGNvbnN0IHsgc3Rkb3V0IH0gPSBhd2FpdCBleGVjRmlsZUFzeW5jKAogICAgICAicHMiLAogICAgICBbIi1vIiwgInJzcz0iLCAiLXAiLCBTdHJpbmcocGlkKV0sCiAgICAgIHsKICAgICAgICB0aW1lb3V0OiAyXzAwMCwKICAgICAgICBzaWduYWwsCiAgICAgIH0sCiAgICApOwogICAgY29uc3QgdmFsdWUgPSBzdGRvdXQudHJpbSgpOwogICAgaWYgKCEvXlxkKyQvdS50ZXN0KHZhbHVlKSkgdGhyb3cgbmV3IEVycm9yKGBwcm9jZXNzICR7cGlkfSBoYXMgbm8gUlNTYCk7CiAgICByZXR1cm4geyByc3NfYnl0ZXM6IE51bWJlcih2YWx1ZSkgKiAxMDI0LCBwZWFrX3Jzc19ieXRlczogbnVsbCB9OwogIH0KICAvLyBPdGhlciBwbGF0Zm9ybXMgcmV0YWluIGhlYWx0aC1zbmFwc2hvdCBzYW1wbGluZzsgZG8gbm90IHByZXNlbnQgaXQgYXMgYW4KICAvLyBpbmRlcGVuZGVudCBoaWdoLWZyZXF1ZW5jeSBtZWFzdXJlbWVudC4KICByZXR1cm4gbnVsbDsKfTsK
+import { execFile } from "node:child_process";
+import { readFile } from "node:fs/promises";
+import { promisify } from "node:util";
+
+const execFileAsync = promisify(execFile);
+
+export const parseLinuxProcessMemory = (status) => {
+  const kilobytes = (field) => {
+    const value = status.match(new RegExp(`^${field}:\\s+(\\d+)\\s+kB$`, "m"));
+    return value ? Number(value[1]) * 1024 : null;
+  };
+  return {
+    rss_bytes: kilobytes("VmRSS"),
+    peak_rss_bytes: kilobytes("VmHWM"),
+  };
+};
+
+// Read the owned process directly. The application's health endpoint caches
+// its RSS for five seconds and cannot observe short allocation bursts.
+export const readProcessMemory = async (pid, signal) => {
+  signal?.throwIfAborted();
+  if (!Number.isSafeInteger(pid) || pid <= 0) {
+    throw new Error("process memory sampling requires a positive PID");
+  }
+  if (process.platform === "linux") {
+    const memory = parseLinuxProcessMemory(
+      await readFile(`/proc/${pid}/status`, { encoding: "utf8", signal }),
+    );
+    if (memory.rss_bytes === null) {
+      throw new Error(`process ${pid} has no resident-memory measurement`);
+    }
+    return memory;
+  }
+  if (process.platform === "darwin") {
+    const { stdout } = await execFileAsync(
+      "ps",
+      ["-o", "rss=", "-p", String(pid)],
+      {
+        timeout: 2_000,
+        signal,
+      },
+    );
+    const value = stdout.trim();
+    if (!/^\d+$/u.test(value)) throw new Error(`process ${pid} has no RSS`);
+    return { rss_bytes: Number(value) * 1024, peak_rss_bytes: null };
+  }
+  // Other platforms retain health-snapshot sampling; do not present it as an
+  // independent high-frequency measurement.
+  return null;
+};

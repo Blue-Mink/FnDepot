@@ -1,1 +1,108 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7CiAgQ2hldnJvblJpZ2h0LAogIEZvbGRlclBsdXMsCiAgRm9sZGVycywKICBNb3JlSG9yaXpvbnRhbCwKfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQ2hlY2tib3ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2hlY2tib3giOwppbXBvcnQgewogIERyb3Bkb3duTWVudSwKICBEcm9wZG93bk1lbnVDb250ZW50LAogIERyb3Bkb3duTWVudUl0ZW0sCiAgRHJvcGRvd25NZW51VHJpZ2dlciwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZHJvcGRvd24tbWVudSI7CmltcG9ydCB7IFRhYmxlQ2VsbCwgVGFibGVSb3cgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFibGUiOwppbXBvcnQgdHlwZSB7IEhvc3RNYXBwaW5nR3JvdXBTZWN0aW9uIH0gZnJvbSAiLi9ob3N0LW1hcHBpbmctZ3JvdXBzIjsKaW1wb3J0IHR5cGUgewogIFN1YmRvbWFpbk1hcHBpbmdzQ2FyZFByb3BzLAogIFN1YmRvbWFpbk1hcHBpbmdzVGFibGVBY3Rpb25zLAp9IGZyb20gIi4vc3ViZG9tYWluLW1hcHBpbmdzLWNhcmQtY29udHJhY3QiOwoKZGVmaW5lUHJvcHM8ewogIGFjdGlvbnM6IFN1YmRvbWFpbk1hcHBpbmdzVGFibGVBY3Rpb25zOwogIGNvbGxhcHNlZDogYm9vbGVhbjsKICBoYXNTZWxlY3RhYmxlTWFwcGluZ3M6IGJvb2xlYW47CiAgbW9kZWw6IFN1YmRvbWFpbk1hcHBpbmdzQ2FyZFByb3BzOwogIHBhcnRpYWxseVNlbGVjdGVkOiBib29sZWFuOwogIHNlY3Rpb246IEhvc3RNYXBwaW5nR3JvdXBTZWN0aW9uOwogIHNlbGVjdGVkOiBib29sZWFuOwogIHNlbGVjdGlvbkNoZWNrYm94Q2xhc3M6IHN0cmluZzsKICBzZWxlY3Rpb25WaXNpYmlsaXR5Q2xhc3M6IHN0cmluZzsKICBzZWxlY3Rpb25Nb2RlOiBib29sZWFuOwp9PigpOwpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIHNlbGVjdDogW3NlbGVjdGVkOiBib29sZWFuXTsKICB0b2dnbGU6IFtdOwp9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFRhYmxlUm93IGNsYXNzPSJtYXBwaW5nLWdyb3VwLWhlYWRlci1yb3cgZ3JvdXAiPgogICAgPFRhYmxlQ2VsbCBjb2xzcGFuPSI4IiBjbGFzcz0icC0wIj4KICAgICAgPGRpdiBjbGFzcz0ibWFwcGluZy1ncm91cC1oZWFkZXItbGF5b3V0Ij4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0ibWFwcGluZy1ncm91cC1oZWFkZXItc3RpY2t5IGZsZXggbWluLWgtMTEgaXRlbXMtY2VudGVyIGdhcC0yIHB4LTMgcHktMiIKICAgICAgICA+CiAgICAgICAgICA8Q2hlY2tib3gKICAgICAgICAgICAgdi1pZj0ic2VsZWN0aW9uTW9kZSAmJiBoYXNTZWxlY3RhYmxlTWFwcGluZ3MiCiAgICAgICAgICAgIDpjbGFzcz0iW3NlbGVjdGlvbkNoZWNrYm94Q2xhc3MsIHNlbGVjdGlvblZpc2liaWxpdHlDbGFzc10iCiAgICAgICAgICAgIDptb2RlbC12YWx1ZT0icGFydGlhbGx5U2VsZWN0ZWQgPyAnaW5kZXRlcm1pbmF0ZScgOiBzZWxlY3RlZCIKICAgICAgICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgICAgICAgIHQoJ2FkbWluLnN1YmRvbWFpblByb3h5LnNlbGVjdEdyb3VwTWFwcGluZ3MnLCB7CiAgICAgICAgICAgICAgICBncm91cDogc2VjdGlvbi5uYW1lLAogICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICIKICAgICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgnc2VsZWN0JywgJGV2ZW50ID09PSB0cnVlKSIKICAgICAgICAgIC8+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgY2xhc3M9ImlubGluZS1mbGV4IG1pbi13LTAgZmxleC0xIGl0ZW1zLWNlbnRlciBnYXAtMiByb3VuZGVkLXNtIHRleHQtbGVmdCBmb2N1cy12aXNpYmxlOm91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMiBmb2N1cy12aXNpYmxlOnJpbmctcmluZyIKICAgICAgICAgICAgOmFyaWEtZXhwYW5kZWQ9IiFjb2xsYXBzZWQiCiAgICAgICAgICAgIEBjbGljaz0iZW1pdCgndG9nZ2xlJykiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxDaGV2cm9uUmlnaHQKICAgICAgICAgICAgICBjbGFzcz0iaC00IHctNCBzaHJpbmstMCB0cmFuc2l0aW9uLXRyYW5zZm9ybSBkdXJhdGlvbi0yMDAgZWFzZS1vdXQgbW90aW9uLXJlZHVjZTp0cmFuc2l0aW9uLW5vbmUiCiAgICAgICAgICAgICAgOmNsYXNzPSJ7ICdyb3RhdGUtOTAnOiAhY29sbGFwc2VkIH0iCiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0cnVuY2F0ZSBmb250LW1lZGl1bSI+e3sgc2VjdGlvbi5uYW1lIH19PC9zcGFuPgogICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLWZ1bGwgYmctYmFja2dyb3VuZCBweC0yIHB5LTAuNSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHNlY3Rpb24ubWFwcGluZ3MubGVuZ3RoIH19CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9Im1hcHBpbmctZ3JvdXAtaGVhZGVyLWFjdGlvbnMiPgogICAgICAgICAgPERyb3Bkb3duTWVudT4KICAgICAgICAgICAgPERyb3Bkb3duTWVudVRyaWdnZXIgYXMtY2hpbGQ+CiAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICBzaXplPSJpY29uIgogICAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2NvbW1vbi5tb3JlQWN0aW9ucycpIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxNb3JlSG9yaXpvbnRhbCBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPC9Ecm9wZG93bk1lbnVUcmlnZ2VyPgogICAgICAgICAgICA8RHJvcGRvd25NZW51Q29udGVudCBhbGlnbj0iZW5kIj4KICAgICAgICAgICAgICA8RHJvcGRvd25NZW51SXRlbQogICAgICAgICAgICAgICAgOmRpc2FibGVkPSJtb2RlbC5pc1NhdmluZ01hcHBpbmdzIgogICAgICAgICAgICAgICAgQHNlbGVjdD0iYWN0aW9ucy5vcGVuQ3JlYXRlKHNlY3Rpb24uZ3JvdXBJZCkiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPEZvbGRlclBsdXMgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmFkZE1hcHBpbmdUb0dyb3VwIikgfX0KICAgICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgICAgICAgPERyb3Bkb3duTWVudUl0ZW0gQHNlbGVjdD0iYWN0aW9ucy5tYW5hZ2VHcm91cHMiPgogICAgICAgICAgICAgICAgPEZvbGRlcnMgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5Lm1hbmFnZUdyb3VwcyIpIH19CiAgICAgICAgICAgICAgPC9Ecm9wZG93bk1lbnVJdGVtPgogICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUNvbnRlbnQ+CiAgICAgICAgICA8L0Ryb3Bkb3duTWVudT4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L1RhYmxlQ2VsbD4KICA8L1RhYmxlUm93Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import {
+  ChevronRight,
+  FolderPlus,
+  Folders,
+  MoreHorizontal,
+} from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { TableCell, TableRow } from "@/components/ui/table";
+import type { HostMappingGroupSection } from "./host-mapping-groups";
+import type {
+  SubdomainMappingsCardProps,
+  SubdomainMappingsTableActions,
+} from "./subdomain-mappings-card-contract";
+
+defineProps<{
+  actions: SubdomainMappingsTableActions;
+  collapsed: boolean;
+  hasSelectableMappings: boolean;
+  model: SubdomainMappingsCardProps;
+  partiallySelected: boolean;
+  section: HostMappingGroupSection;
+  selected: boolean;
+  selectionCheckboxClass: string;
+  selectionVisibilityClass: string;
+  selectionMode: boolean;
+}>();
+const emit = defineEmits<{
+  select: [selected: boolean];
+  toggle: [];
+}>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <TableRow class="mapping-group-header-row group">
+    <TableCell colspan="8" class="p-0">
+      <div class="mapping-group-header-layout">
+        <div
+          class="mapping-group-header-sticky flex min-h-11 items-center gap-2 px-3 py-2"
+        >
+          <Checkbox
+            v-if="selectionMode && hasSelectableMappings"
+            :class="[selectionCheckboxClass, selectionVisibilityClass]"
+            :model-value="partiallySelected ? 'indeterminate' : selected"
+            :aria-label="
+              t('admin.subdomainProxy.selectGroupMappings', {
+                group: section.name,
+              })
+            "
+            @update:model-value="emit('select', $event === true)"
+          />
+          <button
+            type="button"
+            class="inline-flex min-w-0 flex-1 items-center gap-2 rounded-sm text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            :aria-expanded="!collapsed"
+            @click="emit('toggle')"
+          >
+            <ChevronRight
+              class="h-4 w-4 shrink-0 transition-transform duration-200 ease-out motion-reduce:transition-none"
+              :class="{ 'rotate-90': !collapsed }"
+            />
+            <span class="truncate font-medium">{{ section.name }}</span>
+            <span
+              class="rounded-full bg-background px-2 py-0.5 text-xs text-muted-foreground"
+            >
+              {{ section.mappings.length }}
+            </span>
+          </button>
+        </div>
+        <div class="mapping-group-header-actions">
+          <DropdownMenu>
+            <DropdownMenuTrigger as-child>
+              <Button
+                variant="ghost"
+                size="icon"
+                :aria-label="t('common.moreActions')"
+              >
+                <MoreHorizontal class="h-4 w-4" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuItem
+                :disabled="model.isSavingMappings"
+                @select="actions.openCreate(section.groupId)"
+              >
+                <FolderPlus class="mr-2 h-4 w-4" />
+                {{ t("admin.subdomainProxy.addMappingToGroup") }}
+              </DropdownMenuItem>
+              <DropdownMenuItem @select="actions.manageGroups">
+                <Folders class="mr-2 h-4 w-4" />
+                {{ t("admin.subdomainProxy.manageGroups") }}
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        </div>
+      </div>
+    </TableCell>
+  </TableRow>
+</template>

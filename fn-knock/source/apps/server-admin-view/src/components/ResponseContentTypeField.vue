@@ -1,1 +1,157 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsKICBTZWxlY3QsCiAgU2VsZWN0Q29udGVudCwKICBTZWxlY3RJdGVtLAogIFNlbGVjdFRyaWdnZXIsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NlbGVjdCI7Cgpjb25zdCBDVVNUT01fQ09OVEVOVF9UWVBFID0gIl9fY3VzdG9tX18iOwoKY29uc3QgY29udGVudFR5cGVPcHRpb25zID0gWwogIHsKICAgIHZhbHVlOiAidGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOCIsCiAgICBsYWJlbDogIlBsYWluIFRleHQiLAogIH0sCiAgewogICAgdmFsdWU6ICJhcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PXV0Zi04IiwKICAgIGxhYmVsOiAiSlNPTiIsCiAgfSwKICB7CiAgICB2YWx1ZTogInRleHQvaHRtbDsgY2hhcnNldD11dGYtOCIsCiAgICBsYWJlbDogIkhUTUwiLAogIH0sCiAgewogICAgdmFsdWU6ICJ0ZXh0L2NzczsgY2hhcnNldD11dGYtOCIsCiAgICBsYWJlbDogIkNTUyIsCiAgfSwKICB7CiAgICB2YWx1ZTogImFwcGxpY2F0aW9uL2phdmFzY3JpcHQ7IGNoYXJzZXQ9dXRmLTgiLAogICAgbGFiZWw6ICJKYXZhU2NyaXB0IiwKICB9LAogIHsKICAgIHZhbHVlOiAiYXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04IiwKICAgIGxhYmVsOiAiWE1MIiwKICB9LAogIHsKICAgIHZhbHVlOiAiaW1hZ2Uvc3ZnK3htbDsgY2hhcnNldD11dGYtOCIsCiAgICBsYWJlbDogIlNWRyIsCiAgfSwKICB7CiAgICB2YWx1ZTogImFwcGxpY2F0aW9uL29jdGV0LXN0cmVhbSIsCiAgICBsYWJlbDogIkJpbmFyeSIsCiAgfSwKXSBhcyBjb25zdDsKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKAogIGRlZmluZVByb3BzPHsKICAgIG1vZGVsVmFsdWU6IHN0cmluZzsKICAgIGlucHV0SWQ/OiBzdHJpbmc7CiAgICBzZWxlY3RJZD86IHN0cmluZzsKICB9PigpLAogIHsKICAgIGlucHV0SWQ6ICJyZXNwb25zZS1jb250ZW50LXR5cGUiLAogICAgc2VsZWN0SWQ6ICJyZXNwb25zZS1jb250ZW50LXR5cGUtcHJlc2V0IiwKICB9LAopOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICAoZXZlbnQ6ICJ1cGRhdGU6bW9kZWxWYWx1ZSIsIHZhbHVlOiBzdHJpbmcpOiB2b2lkOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IGN1c3RvbU1vZGUgPSByZWYoZmFsc2UpOwoKZnVuY3Rpb24gZmluZFByZXNldCh2YWx1ZTogc3RyaW5nKSB7CiAgY29uc3QgY3VycmVudCA9IHZhbHVlLnRyaW0oKTsKICByZXR1cm4gY29udGVudFR5cGVPcHRpb25zLmZpbmQoKG9wdGlvbikgPT4gb3B0aW9uLnZhbHVlID09PSBjdXJyZW50KSA/PyBudWxsOwp9Cgpjb25zdCBjb250ZW50VHlwZSA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IHByb3BzLm1vZGVsVmFsdWUsCiAgc2V0OiAodmFsdWUpID0+IHsKICAgIGNvbnN0IG5leHRWYWx1ZSA9IFN0cmluZyh2YWx1ZSA/PyAiIik7CiAgICBjdXN0b21Nb2RlLnZhbHVlID0gIWZpbmRQcmVzZXQobmV4dFZhbHVlKTsKICAgIGVtaXQoInVwZGF0ZTptb2RlbFZhbHVlIiwgbmV4dFZhbHVlKTsKICB9LAp9KTsKCmNvbnN0IHNlbGVjdGVkUHJlc2V0ID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gewogICAgaWYgKGN1c3RvbU1vZGUudmFsdWUpIHJldHVybiBDVVNUT01fQ09OVEVOVF9UWVBFOwogICAgY29uc3QgbWF0Y2hlZCA9IGZpbmRQcmVzZXQocHJvcHMubW9kZWxWYWx1ZSk7CiAgICByZXR1cm4gbWF0Y2hlZD8udmFsdWUgPz8gQ1VTVE9NX0NPTlRFTlRfVFlQRTsKICB9LAogIHNldDogKHZhbHVlKSA9PiB7CiAgICBpZiAodmFsdWUgPT09IENVU1RPTV9DT05URU5UX1RZUEUpIHsKICAgICAgY3VzdG9tTW9kZS52YWx1ZSA9IHRydWU7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGN1c3RvbU1vZGUudmFsdWUgPSBmYWxzZTsKICAgIGVtaXQoInVwZGF0ZTptb2RlbFZhbHVlIiwgdmFsdWUpOwogIH0sCn0pOwoKY29uc3Qgc2VsZWN0ZWRQcmVzZXRMYWJlbCA9IGNvbXB1dGVkKCgpID0+IHsKICBpZiAoc2VsZWN0ZWRQcmVzZXQudmFsdWUgPT09IENVU1RPTV9DT05URU5UX1RZUEUpIHsKICAgIHJldHVybiB0KCJhZG1pbi5jb21wb25lbnRzLnJlc3BvbnNlQ29udGVudFR5cGUuY3VzdG9tIik7CiAgfQogIHJldHVybiAoCiAgICBmaW5kUHJlc2V0KHNlbGVjdGVkUHJlc2V0LnZhbHVlKT8ubGFiZWwgPz8KICAgIHQoImFkbWluLmNvbXBvbmVudHMucmVzcG9uc2VDb250ZW50VHlwZS5jdXN0b20iKQogICk7Cn0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0zIG1kOmdyaWQtY29scy1bMTNyZW1fbWlubWF4KDAsMWZyKV0iPgogICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgPExhYmVsIDpmb3I9InNlbGVjdElkIj57ewogICAgICAgIHQoImFkbWluLmNvbXBvbmVudHMucmVzcG9uc2VDb250ZW50VHlwZS5jb21tb25UeXBlcyIpCiAgICAgIH19PC9MYWJlbD4KICAgICAgPFNlbGVjdCB2LW1vZGVsPSJzZWxlY3RlZFByZXNldCI+CiAgICAgICAgPFNlbGVjdFRyaWdnZXIgOmlkPSJzZWxlY3RJZCIgY2xhc3M9InctZnVsbCI+CiAgICAgICAgICA8c3BhbiBkYXRhLXNsb3Q9InNlbGVjdC12YWx1ZSIgY2xhc3M9InRydW5jYXRlIj4KICAgICAgICAgICAge3sgc2VsZWN0ZWRQcmVzZXRMYWJlbCB9fQogICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvU2VsZWN0VHJpZ2dlcj4KICAgICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICAgIDxTZWxlY3RJdGVtCiAgICAgICAgICAgIHYtZm9yPSJvcHRpb24gaW4gY29udGVudFR5cGVPcHRpb25zIgogICAgICAgICAgICA6a2V5PSJvcHRpb24udmFsdWUiCiAgICAgICAgICAgIDp2YWx1ZT0ib3B0aW9uLnZhbHVlIgogICAgICAgICAgPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iZmxleCBtaW4tdy0wIGZsZXgtY29sIGl0ZW1zLXN0YXJ0IGdhcC0wLjUiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXNtIj57eyBvcHRpb24ubGFiZWwgfX08L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgIGNsYXNzPSJtYXgtdy1bMThyZW1dIHRydW5jYXRlIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IG9wdGlvbi52YWx1ZSB9fQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgPFNlbGVjdEl0ZW0gOnZhbHVlPSJDVVNUT01fQ09OVEVOVF9UWVBFIj57ewogICAgICAgICAgICB0KCJhZG1pbi5jb21wb25lbnRzLnJlc3BvbnNlQ29udGVudFR5cGUuY3VzdG9tIikKICAgICAgICAgIH19PC9TZWxlY3RJdGVtPgogICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgPC9TZWxlY3Q+CiAgICA8L2Rpdj4KCiAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICA8TGFiZWwgOmZvcj0iaW5wdXRJZCI+Q29udGVudC1UeXBlPC9MYWJlbD4KICAgICAgPElucHV0CiAgICAgICAgOmlkPSJpbnB1dElkIgogICAgICAgIHYtbW9kZWw9ImNvbnRlbnRUeXBlIgogICAgICAgIHBsYWNlaG9sZGVyPSJ0ZXh0L3BsYWluOyBjaGFyc2V0PXV0Zi04IgogICAgICAgIGF1dG9jb21wbGV0ZT0ib2ZmIgogICAgICAgIGF1dG9jYXBpdGFsaXplPSJvZmYiCiAgICAgICAgYXV0b2NvcnJlY3Q9Im9mZiIKICAgICAgICBzcGVsbGNoZWNrPSJmYWxzZSIKICAgICAgLz4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+} from "@/components/ui/select";
+
+const CUSTOM_CONTENT_TYPE = "__custom__";
+
+const contentTypeOptions = [
+  {
+    value: "text/plain; charset=utf-8",
+    label: "Plain Text",
+  },
+  {
+    value: "application/json; charset=utf-8",
+    label: "JSON",
+  },
+  {
+    value: "text/html; charset=utf-8",
+    label: "HTML",
+  },
+  {
+    value: "text/css; charset=utf-8",
+    label: "CSS",
+  },
+  {
+    value: "application/javascript; charset=utf-8",
+    label: "JavaScript",
+  },
+  {
+    value: "application/xml; charset=utf-8",
+    label: "XML",
+  },
+  {
+    value: "image/svg+xml; charset=utf-8",
+    label: "SVG",
+  },
+  {
+    value: "application/octet-stream",
+    label: "Binary",
+  },
+] as const;
+
+const props = withDefaults(
+  defineProps<{
+    modelValue: string;
+    inputId?: string;
+    selectId?: string;
+  }>(),
+  {
+    inputId: "response-content-type",
+    selectId: "response-content-type-preset",
+  },
+);
+
+const emit = defineEmits<{
+  (event: "update:modelValue", value: string): void;
+}>();
+
+const { t } = useI18n();
+const customMode = ref(false);
+
+function findPreset(value: string) {
+  const current = value.trim();
+  return contentTypeOptions.find((option) => option.value === current) ?? null;
+}
+
+const contentType = computed({
+  get: () => props.modelValue,
+  set: (value) => {
+    const nextValue = String(value ?? "");
+    customMode.value = !findPreset(nextValue);
+    emit("update:modelValue", nextValue);
+  },
+});
+
+const selectedPreset = computed({
+  get: () => {
+    if (customMode.value) return CUSTOM_CONTENT_TYPE;
+    const matched = findPreset(props.modelValue);
+    return matched?.value ?? CUSTOM_CONTENT_TYPE;
+  },
+  set: (value) => {
+    if (value === CUSTOM_CONTENT_TYPE) {
+      customMode.value = true;
+      return;
+    }
+    customMode.value = false;
+    emit("update:modelValue", value);
+  },
+});
+
+const selectedPresetLabel = computed(() => {
+  if (selectedPreset.value === CUSTOM_CONTENT_TYPE) {
+    return t("admin.components.responseContentType.custom");
+  }
+  return (
+    findPreset(selectedPreset.value)?.label ??
+    t("admin.components.responseContentType.custom")
+  );
+});
+</script>
+
+<template>
+  <div class="grid gap-3 md:grid-cols-[13rem_minmax(0,1fr)]">
+    <div class="space-y-2">
+      <Label :for="selectId">{{
+        t("admin.components.responseContentType.commonTypes")
+      }}</Label>
+      <Select v-model="selectedPreset">
+        <SelectTrigger :id="selectId" class="w-full">
+          <span data-slot="select-value" class="truncate">
+            {{ selectedPresetLabel }}
+          </span>
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem
+            v-for="option in contentTypeOptions"
+            :key="option.value"
+            :value="option.value"
+          >
+            <span class="flex min-w-0 flex-col items-start gap-0.5">
+              <span class="text-sm">{{ option.label }}</span>
+              <span
+                class="max-w-[18rem] truncate text-xs text-muted-foreground"
+              >
+                {{ option.value }}
+              </span>
+            </span>
+          </SelectItem>
+          <SelectItem :value="CUSTOM_CONTENT_TYPE">{{
+            t("admin.components.responseContentType.custom")
+          }}</SelectItem>
+        </SelectContent>
+      </Select>
+    </div>
+
+    <div class="space-y-2">
+      <Label :for="inputId">Content-Type</Label>
+      <Input
+        :id="inputId"
+        v-model="contentType"
+        placeholder="text/plain; charset=utf-8"
+        autocomplete="off"
+        autocapitalize="off"
+        autocorrect="off"
+        spellcheck="false"
+      />
+    </div>
+  </div>
+</template>

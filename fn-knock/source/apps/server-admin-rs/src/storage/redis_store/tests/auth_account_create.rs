@@ -1,1 +1,564 @@
-dXNlIHN1cGVyOjoqOwoKZm4gYWNjb3VudF9hbmRfcGFzc3dvcmQoaWQ6ICZzdHIsIHVzZXJuYW1lOiAmc3RyKSAtPiAoQXV0aEFjY291bnQsIEF1dGhQYXNzd29yZENyZWRlbnRpYWwpIHsKICAgIGxldCBub3cgPSBjcmF0ZTo6dGltZV91dGlsczo6bm93X2lzbygpOwogICAgKAogICAgICAgIEF1dGhBY2NvdW50IHsKICAgICAgICAgICAgaWQ6IGlkLnRvX3N0cmluZygpLAogICAgICAgICAgICB1c2VybmFtZTogdXNlcm5hbWUudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGRpc3BsYXlfbmFtZTogdXNlcm5hbWUudG9fc3RyaW5nKCksCiAgICAgICAgICAgIHNvdXJjZV90b3RwX2lkOiBTdHJpbmc6Om5ldygpLAogICAgICAgICAgICBjcmVhdGVkX2F0OiBub3cuY2xvbmUoKSwKICAgICAgICAgICAgdXBkYXRlZF9hdDogbm93LmNsb25lKCksCiAgICAgICAgICAgIGFjY2Vzc19zY29wZXM6IGpzb24hKFtdKSwKICAgICAgICAgICAgc3ViZG9tYWluX2FjY2VzczoganNvbiEoeyAibW9kZSI6ICJhbGwiLCAiaG9zdHMiOiBbXSB9KSwKICAgICAgICB9LAogICAgICAgIEF1dGhQYXNzd29yZENyZWRlbnRpYWwgewogICAgICAgICAgICBhY2NvdW50X2lkOiBpZC50b19zdHJpbmcoKSwKICAgICAgICAgICAgYWxnb3JpdGhtOiAic2NyeXB0Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgc2FsdDogIjAwIi5yZXBlYXQoMTYpLAogICAgICAgICAgICBoYXNoOiBmb3JtYXQhKCJwYXNzd29yZC1mb3Ite2lkfSIpLAogICAgICAgICAgICBuOiAxNl8zODQsCiAgICAgICAgICAgIHI6IDgsCiAgICAgICAgICAgIHA6IDEsCiAgICAgICAgICAgIGtleV9sZW5ndGg6IDY0LAogICAgICAgICAgICBjcmVhdGVkX2F0OiBub3cuY2xvbmUoKSwKICAgICAgICAgICAgdXBkYXRlZF9hdDogbm93LAogICAgICAgIH0sCiAgICApCn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIGF1dGhfYWNjb3VudF9jcmVhdGlvbl9jYXNfYWNjZXB0c19sZWdhY3lfbWlzc2luZ190aW1lc3RhbXBzKCkgewogICAgbGV0IChfZGlyLCBzdG9yZSkgPSBvcGVuX3Rlc3Rfc3RvcmUoKS5hd2FpdDsKICAgIHN0b3JlCiAgICAgICAgLnNldF9qc29uX3ZhbHVlKAogICAgICAgICAgICAiZm5fa25vY2s6YXV0aDphY2NvdW50czp2MSIsCiAgICAgICAgICAgICZqc29uIShbeyAiaWQiOiAibGVnYWN5LWlkIiwgInVzZXJuYW1lIjogImxlZ2FjeSIsICJjcmVhdGVkQXQiOiAiICAiIH1dKSwKICAgICAgICApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgbGV0IGV4cGVjdGVkID0gc3RvcmUuZ2V0X2F1dGhfYWNjb3VudHMoKS5hd2FpdC51bndyYXAoKTsKICAgIHRva2lvOjp0aW1lOjpzbGVlcChzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX21pbGxpcygyMCkpLmF3YWl0OwogICAgbGV0IChjcmVhdGVkLCBwYXNzd29yZCkgPSBhY2NvdW50X2FuZF9wYXNzd29yZCgiY3JlYXRlZC1pZCIsICJjcmVhdGVkIik7CiAgICBsZXQgbXV0IHJlcGxhY2VtZW50ID0gZXhwZWN0ZWQuY2xvbmUoKTsKICAgIHJlcGxhY2VtZW50LnB1c2goY3JlYXRlZCk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5jb21wYXJlX2FuZF9zZXRfYXV0aF9hY2NvdW50c193aXRoX3Bhc3N3b3JkKCZleHBlY3RlZCwgJnJlcGxhY2VtZW50LCAmcGFzc3dvcmQpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICk7CiAgICBsZXQgc3RvcmVkID0gc3RvcmUuZ2V0X2F1dGhfYWNjb3VudHMoKS5hd2FpdC51bndyYXAoKTsKICAgIGFzc2VydF9lcSEoc3RvcmVkLmxlbigpLCAyKTsKICAgIGFzc2VydF9lcSEoc3RvcmVkWzBdLmNyZWF0ZWRfYXQsIGV4cGVjdGVkWzBdLmNyZWF0ZWRfYXQpOwogICAgYXNzZXJ0X2VxIShzdG9yZWRbMF0udXBkYXRlZF9hdCwgZXhwZWN0ZWRbMF0udXBkYXRlZF9hdCk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5nZXRfYXV0aF9wYXNzd29yZF9jcmVkZW50aWFsKCJjcmVhdGVkLWlkIikKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfc29tZSgpCiAgICApOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBhdXRoX2FjY291bnRfY3JlYXRpb25fY2FzX3JlamVjdHNfY2hhbmdlZF9maWVsZHNfYW5kX3BlcnNpc3RlZF90aW1lc3RhbXBzKCkgewogICAgbGV0IChfZGlyLCBzdG9yZSkgPSBvcGVuX3Rlc3Rfc3RvcmUoKS5hd2FpdDsKICAgIGxldCAoZXhpc3RpbmcsIF8pID0gYWNjb3VudF9hbmRfcGFzc3dvcmQoImV4aXN0aW5nLWlkIiwgImV4aXN0aW5nIik7CiAgICBsZXQgKGNyZWF0ZWQsIHBhc3N3b3JkKSA9IGFjY291bnRfYW5kX3Bhc3N3b3JkKCJjcmVhdGVkLWlkIiwgImNyZWF0ZWQiKTsKICAgIGZvciBmaWVsZCBpbiBbInVzZXJuYW1lIiwgImNyZWF0ZWRBdCIsICJ1cGRhdGVkQXQiXSB7CiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnNldF9hdXRoX2FjY291bnRzKHN0ZDo6c2xpY2U6OmZyb21fcmVmKCZleGlzdGluZykpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCk7CiAgICAgICAgbGV0IGV4cGVjdGVkID0gc3RvcmUuZ2V0X2F1dGhfYWNjb3VudHMoKS5hd2FpdC51bndyYXAoKTsKICAgICAgICBsZXQgbXV0IGNoYW5nZWQgPSBzZXJkZV9qc29uOjp0b192YWx1ZSgmZXhwZWN0ZWQpLnVud3JhcCgpOwogICAgICAgIGNoYW5nZWRbMF1bZmllbGRdID0ganNvbiEoImNvbmN1cnJlbnRseS1jaGFuZ2VkIik7CiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnNldF9qc29uX3ZhbHVlKCJmbl9rbm9jazphdXRoOmFjY291bnRzOnYxIiwgJmNoYW5nZWQpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCk7CiAgICAgICAgbGV0IG11dCByZXBsYWNlbWVudCA9IGV4cGVjdGVkLmNsb25lKCk7CiAgICAgICAgcmVwbGFjZW1lbnQucHVzaChjcmVhdGVkLmNsb25lKCkpOwogICAgICAgIGFzc2VydCEoCiAgICAgICAgICAgICFzdG9yZQogICAgICAgICAgICAgICAgLmNvbXBhcmVfYW5kX3NldF9hdXRoX2FjY291bnRzX3dpdGhfcGFzc3dvcmQoJmV4cGVjdGVkLCAmcmVwbGFjZW1lbnQsICZwYXNzd29yZCkKICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgLnVud3JhcCgpLAogICAgICAgICAgICAiYWNjZXB0ZWQgYSBjb25jdXJyZW50IGNoYW5nZSB0byB7ZmllbGR9IgogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc2VyZGVfanNvbjo6dG9fdmFsdWUoc3RvcmUuZ2V0X2F1dGhfYWNjb3VudHMoKS5hd2FpdC51bndyYXAoKSkudW53cmFwKCksCiAgICAgICAgICAgIGNoYW5nZWQKICAgICAgICApOwogICAgICAgIGFzc2VydCEoCiAgICAgICAgICAgIHN0b3JlCiAgICAgICAgICAgICAgICAuZ2V0X2F1dGhfcGFzc3dvcmRfY3JlZGVudGlhbCgiY3JlYXRlZC1pZCIpCiAgICAgICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAgICAgLmlzX25vbmUoKQogICAgICAgICk7CiAgICB9Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIGF1dGhfYWNjb3VudF9jcmVhdGlvbl9jYXNfcHJlc2VydmVzX2NvbmN1cnJlbnRfZGlzdGluY3RfYWNjb3VudHMoKSB7CiAgICBsZXQgKF9kaXIsIGZpcnN0KSA9IG9wZW5fdGVzdF9zdG9yZSgpLmF3YWl0OwogICAgbGV0IHNlY29uZCA9IFN0b3JlOjpjb25uZWN0KCZmaXJzdC5wYXRoKS5hd2FpdC51bndyYXAoKTsKICAgIGxldCAoYWxpY2UsIGFsaWNlX3Bhc3N3b3JkKSA9IGFjY291bnRfYW5kX3Bhc3N3b3JkKCJhbGljZS1pZCIsICJhbGljZSIpOwogICAgbGV0IChib2IsIGJvYl9wYXNzd29yZCkgPSBhY2NvdW50X2FuZF9wYXNzd29yZCgiYm9iLWlkIiwgImJvYiIpOwogICAgbGV0IChhbGljZV9yZXN1bHQsIGJvYl9yZXN1bHQpID0gdG9raW86OmpvaW4hKAogICAgICAgIGZpcnN0LmNvbXBhcmVfYW5kX3NldF9hdXRoX2FjY291bnRzX3dpdGhfcGFzc3dvcmQoCiAgICAgICAgICAgICZbXSwKICAgICAgICAgICAgc3RkOjpzbGljZTo6ZnJvbV9yZWYoJmFsaWNlKSwKICAgICAgICAgICAgJmFsaWNlX3Bhc3N3b3JkLAogICAgICAgICksCiAgICAgICAgc2Vjb25kLmNvbXBhcmVfYW5kX3NldF9hdXRoX2FjY291bnRzX3dpdGhfcGFzc3dvcmQoCiAgICAgICAgICAgICZbXSwKICAgICAgICAgICAgc3RkOjpzbGljZTo6ZnJvbV9yZWYoJmJvYiksCiAgICAgICAgICAgICZib2JfcGFzc3dvcmQsCiAgICAgICAgKSwKICAgICk7CiAgICBsZXQgYWxpY2Vfd29uID0gYWxpY2VfcmVzdWx0LnVud3JhcCgpOwogICAgYXNzZXJ0X25lIShhbGljZV93b24sIGJvYl9yZXN1bHQudW53cmFwKCkpOwogICAgbGV0IChwZW5kaW5nLCBwZW5kaW5nX3Bhc3N3b3JkKSA9IGlmIGFsaWNlX3dvbiB7CiAgICAgICAgKCZib2IsICZib2JfcGFzc3dvcmQpCiAgICB9IGVsc2UgewogICAgICAgICgmYWxpY2UsICZhbGljZV9wYXNzd29yZCkKICAgIH07CiAgICBhc3NlcnQhKAogICAgICAgIGZpcnN0CiAgICAgICAgICAgIC5nZXRfYXV0aF9wYXNzd29yZF9jcmVkZW50aWFsKCZwZW5kaW5nLmlkKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pc19ub25lKCkKICAgICk7CiAgICBsZXQgY3VycmVudCA9IGZpcnN0LmdldF9hdXRoX2FjY291bnRzKCkuYXdhaXQudW53cmFwKCk7CiAgICBsZXQgbXV0IHJlcGxhY2VtZW50ID0gY3VycmVudC5jbG9uZSgpOwogICAgcmVwbGFjZW1lbnQucHVzaChwZW5kaW5nLmNsb25lKCkpOwogICAgYXNzZXJ0ISgKICAgICAgICBmaXJzdAogICAgICAgICAgICAuY29tcGFyZV9hbmRfc2V0X2F1dGhfYWNjb3VudHNfd2l0aF9wYXNzd29yZCgmY3VycmVudCwgJnJlcGxhY2VtZW50LCBwZW5kaW5nX3Bhc3N3b3JkLCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgKTsKICAgIGxldCBhY2NvdW50cyA9IGZpcnN0LmdldF9hdXRoX2FjY291bnRzKCkuYXdhaXQudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKGFjY291bnRzLmxlbigpLCAyKTsKICAgIGZvciBleHBlY3RlZCBpbiBbJmFsaWNlLCAmYm9iXSB7CiAgICAgICAgYXNzZXJ0IShhY2NvdW50cy5pdGVyKCkuYW55KHxhY2NvdW50fCBhY2NvdW50LmlkID09IGV4cGVjdGVkLmlkKSk7CiAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgZmlyc3QKICAgICAgICAgICAgICAgIC5nZXRfYXV0aF9wYXNzd29yZF9jcmVkZW50aWFsKCZleHBlY3RlZC5pZCkKICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgICAgICAuaXNfc29tZSgpCiAgICAgICAgKTsKICAgIH0KfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gYXV0aF9hY2NvdW50X2NyZWF0aW9uX2Nhc19hbGxvd3Nfb25seV9vbmVfY29uY3VycmVudF91c2VybmFtZSgpIHsKICAgIGxldCAoX2RpciwgZmlyc3QpID0gb3Blbl90ZXN0X3N0b3JlKCkuYXdhaXQ7CiAgICBsZXQgc2Vjb25kID0gU3RvcmU6OmNvbm5lY3QoJmZpcnN0LnBhdGgpLmF3YWl0LnVud3JhcCgpOwogICAgbGV0IChhbGljZSwgYWxpY2VfcGFzc3dvcmQpID0gYWNjb3VudF9hbmRfcGFzc3dvcmQoImZpcnN0LWlkIiwgImFsaWNlIik7CiAgICBsZXQgKG90aGVyLCBvdGhlcl9wYXNzd29yZCkgPSBhY2NvdW50X2FuZF9wYXNzd29yZCgic2Vjb25kLWlkIiwgIkFMSUNFIik7CiAgICBsZXQgKGZpcnN0X3Jlc3VsdCwgc2Vjb25kX3Jlc3VsdCkgPSB0b2tpbzo6am9pbiEoCiAgICAgICAgZmlyc3QuY29tcGFyZV9hbmRfc2V0X2F1dGhfYWNjb3VudHNfd2l0aF9wYXNzd29yZCgKICAgICAgICAgICAgJltdLAogICAgICAgICAgICBzdGQ6OnNsaWNlOjpmcm9tX3JlZigmYWxpY2UpLAogICAgICAgICAgICAmYWxpY2VfcGFzc3dvcmQsCiAgICAgICAgKSwKICAgICAgICBzZWNvbmQuY29tcGFyZV9hbmRfc2V0X2F1dGhfYWNjb3VudHNfd2l0aF9wYXNzd29yZCgKICAgICAgICAgICAgJltdLAogICAgICAgICAgICBzdGQ6OnNsaWNlOjpmcm9tX3JlZigmb3RoZXIpLAogICAgICAgICAgICAmb3RoZXJfcGFzc3dvcmQsCiAgICAgICAgKSwKICAgICk7CiAgICBsZXQgZmlyc3Rfd29uID0gZmlyc3RfcmVzdWx0LnVud3JhcCgpOwogICAgYXNzZXJ0X25lIShmaXJzdF93b24sIHNlY29uZF9yZXN1bHQudW53cmFwKCkpOwogICAgbGV0IGFjY291bnRzID0gZmlyc3QuZ2V0X2F1dGhfYWNjb3VudHMoKS5hd2FpdC51bndyYXAoKTsKICAgIGFzc2VydF9lcSEoYWNjb3VudHMubGVuKCksIDEpOwogICAgYXNzZXJ0IShhY2NvdW50c1swXS51c2VybmFtZS5lcV9pZ25vcmVfYXNjaWlfY2FzZSgiYWxpY2UiKSk7CiAgICBsZXQgbG9zZXJfaWQgPSBpZiBmaXJzdF93b24geyAmb3RoZXIuaWQgfSBlbHNlIHsgJmFsaWNlLmlkIH07CiAgICBhc3NlcnQhKAogICAgICAgIGZpcnN0CiAgICAgICAgICAgIC5nZXRfYXV0aF9wYXNzd29yZF9jcmVkZW50aWFsKGxvc2VyX2lkKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pc19ub25lKCkKICAgICk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIGF1dGhfYWNjb3VudF9jcmVhdGlvbl9jYXNfcm9sbHNfYmFja19wcm9qZWN0aW9uX29uX2NyZWRlbnRpYWxfZmFpbHVyZSgpIHsKICAgIGxldCAoX2Rpciwgc3RvcmUpID0gb3Blbl90ZXN0X3N0b3JlKCkuYXdhaXQ7CiAgICBsZXQgKGV4aXN0aW5nLCBleGlzdGluZ19wYXNzd29yZCkgPSBhY2NvdW50X2FuZF9wYXNzd29yZCgiZXhpc3RpbmctaWQiLCAiZXhpc3RpbmciKTsKICAgIHN0b3JlCiAgICAgICAgLnNldF9hdXRoX2FjY291bnRzKHN0ZDo6c2xpY2U6OmZyb21fcmVmKCZleGlzdGluZykpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgc3RvcmUKICAgICAgICAuc2V0X2F1dGhfcGFzc3dvcmRfY3JlZGVudGlhbCgmZXhpc3RpbmdfcGFzc3dvcmQpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgbGV0IGV4cGVjdGVkID0gc3RvcmUuZ2V0X2F1dGhfYWNjb3VudHMoKS5hd2FpdC51bndyYXAoKTsKICAgIGxldCAoY3JlYXRlZCwgcGFzc3dvcmQpID0gYWNjb3VudF9hbmRfcGFzc3dvcmQoImZhaWxlZC1pZCIsICJmYWlsZWQiKTsKICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnN0b3JlLnBhdGgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlX2JhdGNoKAogICAgICAgICAgICAiQ1JFQVRFIFRSSUdHRVIgZmFpbF9jcmVhdGVkX2FjY291bnRfcGFzc3dvcmQKICAgICAgICAgQkVGT1JFIElOU0VSVCBPTiBrdl9zdHJpbmdzCiAgICAgICAgIFdIRU4gTkVXLmtleSA9ICdmbl9rbm9jazphdXRoOnBhc3N3b3JkX2NyZWRlbnRpYWxzOnYxOmZhaWxlZC1pZCcKICAgICAgICAgQkVHSU4gU0VMRUNUIFJBSVNFKEZBSUwsICdmb3JjZWQgcGFzc3dvcmQgd3JpdGUgZmFpbHVyZScpOyBFTkQ7IiwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgZHJvcChjb25uZWN0aW9uKTsKICAgIC8vIFRoaXMgYWxzbyBjaGVja3MgdGhhdCBvYnNvbGV0ZSBwcm9qZWN0aW9uIGNyZWRlbnRpYWxzIGFyZSBub3QgcmVtb3ZlZAogICAgLy8gd2hlbiB0aGUgbmV3bHktY3JlYXRlZCBjcmVkZW50aWFsIGNhbm5vdCBiZSBwZXJzaXN0ZWQuCiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5jb21wYXJlX2FuZF9zZXRfYXV0aF9hY2NvdW50c193aXRoX3Bhc3N3b3JkKAogICAgICAgICAgICAgICAgJmV4cGVjdGVkLAogICAgICAgICAgICAgICAgc3RkOjpzbGljZTo6ZnJvbV9yZWYoJmNyZWF0ZWQpLAogICAgICAgICAgICAgICAgJnBhc3N3b3JkLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuaXNfZXJyKCkKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHNlcmRlX2pzb246OnRvX3ZhbHVlKHN0b3JlLmdldF9hdXRoX2FjY291bnRzKCkuYXdhaXQudW53cmFwKCkpLnVud3JhcCgpLAogICAgICAgIHNlcmRlX2pzb246OnRvX3ZhbHVlKCZleHBlY3RlZCkudW53cmFwKCksCiAgICApOwogICAgYXNzZXJ0ISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuZ2V0X2F1dGhfcGFzc3dvcmRfY3JlZGVudGlhbCgmY3JlYXRlZC5pZCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfbm9uZSgpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuZ2V0X2F1dGhfcGFzc3dvcmRfY3JlZGVudGlhbCgmZXhpc3RpbmcuaWQpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5oYXNoLAogICAgICAgIGV4aXN0aW5nX3Bhc3N3b3JkLmhhc2gsCiAgICApOwogICAgbGV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmc3RvcmUucGF0aCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGUoIkRST1AgVFJJR0dFUiBmYWlsX2NyZWF0ZWRfYWNjb3VudF9wYXNzd29yZCIsIFtdKQogICAgICAgIC51bndyYXAoKTsKICAgIGRyb3AoY29ubmVjdGlvbik7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5jb21wYXJlX2FuZF9zZXRfYXV0aF9hY2NvdW50c193aXRoX3Bhc3N3b3JkKAogICAgICAgICAgICAgICAgJmV4cGVjdGVkLAogICAgICAgICAgICAgICAgc3RkOjpzbGljZTo6ZnJvbV9yZWYoJmNyZWF0ZWQpLAogICAgICAgICAgICAgICAgJnBhc3N3b3JkLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5nZXRfYXV0aF9wYXNzd29yZF9jcmVkZW50aWFsKCZleGlzdGluZy5pZCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfbm9uZSgpCiAgICApOwogICAgYXNzZXJ0ISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuZ2V0X2F1dGhfcGFzc3dvcmRfY3JlZGVudGlhbCgmY3JlYXRlZC5pZCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfc29tZSgpCiAgICApOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBhdXRoX2FjY291bnRfbXV0YXRpb25fY2FzX3JvbGxzX2JhY2tfYWxsX3JlY29yZHNfb25fcGFzc3dvcmRfZmFpbHVyZSgpIHsKICAgIGxldCAoX2Rpciwgc3RvcmUpID0gb3Blbl90ZXN0X3N0b3JlKCkuYXdhaXQ7CiAgICBsZXQgKGFjY291bnQsIHBhc3N3b3JkKSA9IGFjY291bnRfYW5kX3Bhc3N3b3JkKCJhdG9taWMtaWQiLCAib3JpZ2luYWwiKTsKICAgIHN0b3JlLnNldF9hdXRoX2FjY291bnRzKCZbYWNjb3VudF0pLmF3YWl0LnVud3JhcCgpOwogICAgbGV0IG9yaWdpbmFsID0gc3RvcmUKICAgICAgICAuZ2V0X2F1dGhfYWNjb3VudF9tdXRhdGlvbl9zbmFwc2hvdCgiYXRvbWljLWlkIiwgTm9uZSkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBsZXQgbXV0IHJlcGxhY2VtZW50ID0gb3JpZ2luYWwuY2xvbmUoKTsKICAgIHJlcGxhY2VtZW50LmFjY291bnRzWzBdLnVzZXJuYW1lID0gImNoYW5nZWQiLnRvX3N0cmluZygpOwogICAgcmVwbGFjZW1lbnQucGFzc3dvcmQgPSBTb21lKHBhc3N3b3JkKTsKICAgIHJlcGxhY2VtZW50LnRvdHBzLnB1c2goVG90cENyZWRlbnRpYWwgewogICAgICAgIGlkOiAibmV3LXRvdHAiLnRvX3N0cmluZygpLAogICAgICAgIHNlY3JldDogIlNFQ1JFVCIudG9fc3RyaW5nKCksCiAgICAgICAgY29tbWVudDogImNoYW5nZWQiLnRvX3N0cmluZygpLAogICAgICAgIGNyZWF0ZWRfYXQ6IGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfaXNvKCksCiAgICAgICAgYWNjZXNzX3Njb3BlczoganNvbiEoW10pLAogICAgICAgIHN1YmRvbWFpbl9hY2Nlc3M6IGpzb24hKHsibW9kZSI6ImFsbCIsICJob3N0cyI6W119KSwKICAgIH0pOwogICAgbGV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmc3RvcmUucGF0aCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGVfYmF0Y2goCiAgICAgICAgICAgICJDUkVBVEUgVFJJR0dFUiBmYWlsX211dGF0aW9uX3Bhc3N3b3JkIEJFRk9SRSBJTlNFUlQgT04ga3Zfc3RyaW5ncwogICAgICAgIFdIRU4gTkVXLmtleSA9ICdmbl9rbm9jazphdXRoOnBhc3N3b3JkX2NyZWRlbnRpYWxzOnYxOmF0b21pYy1pZCcKICAgICAgICBCRUdJTiBTRUxFQ1QgUkFJU0UoRkFJTCwgJ2ZvcmNlZCBwYXNzd29yZCBmYWlsdXJlJyk7IEVORDsiLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICBkcm9wKGNvbm5lY3Rpb24pOwogICAgYXNzZXJ0ISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuY29tcGFyZV9hbmRfc2V0X2F1dGhfYWNjb3VudF9tdXRhdGlvbigiYXRvbWljLWlkIiwgJm9yaWdpbmFsLCAmcmVwbGFjZW1lbnQpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuaXNfZXJyKCkKICAgICk7CiAgICBsZXQgY3VycmVudCA9IHN0b3JlCiAgICAgICAgLmdldF9hdXRoX2FjY291bnRfbXV0YXRpb25fc25hcHNob3QoImF0b21pYy1pZCIsIE5vbmUpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzZXJkZV9qc29uOjp0b192YWx1ZSgmY3VycmVudC5hY2NvdW50cykudW53cmFwKCksCiAgICAgICAgc2VyZGVfanNvbjo6dG9fdmFsdWUoJm9yaWdpbmFsLmFjY291bnRzKS51bndyYXAoKQogICAgKTsKICAgIGFzc2VydCEoY3VycmVudC50b3Rwcy5pc19lbXB0eSgpKTsKICAgIGFzc2VydCEoY3VycmVudC5wYXNzd29yZC5pc19ub25lKCkpOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBhdXRoX2FjY291bnRfbXV0YXRpb25fY2FzX3JlamVjdHNfY2hhbmdlZF9wYXNzd29yZF90b3RwX2FuZF9hY2NvdW50KCkgewogICAgbGV0IChfZGlyLCBzdG9yZSkgPSBvcGVuX3Rlc3Rfc3RvcmUoKS5hd2FpdDsKICAgIGxldCBvdGhlciA9IFN0b3JlOjpjb25uZWN0KCZzdG9yZS5wYXRoKS5hd2FpdC51bndyYXAoKTsKICAgIGxldCAoYWNjb3VudCwgcGFzc3dvcmQpID0gYWNjb3VudF9hbmRfcGFzc3dvcmQoImF0b21pYy1pZCIsICJvcmlnaW5hbCIpOwogICAgbGV0IHRvdHAgPSBUb3RwQ3JlZGVudGlhbCB7CiAgICAgICAgaWQ6ICJzb3VyY2UiLnRvX3N0cmluZygpLAogICAgICAgIHNlY3JldDogIlNFQ1JFVCIudG9fc3RyaW5nKCksCiAgICAgICAgY29tbWVudDogIm9yaWdpbmFsIi50b19zdHJpbmcoKSwKICAgICAgICBjcmVhdGVkX2F0OiBjcmF0ZTo6dGltZV91dGlsczo6bm93X2lzbygpLAogICAgICAgIGFjY2Vzc19zY29wZXM6IGpzb24hKFtdKSwKICAgICAgICBzdWJkb21haW5fYWNjZXNzOiBqc29uISh7Im1vZGUiOiJhbGwiLCAiaG9zdHMiOltdfSksCiAgICB9OwogICAgZm9yIGNoYW5nZWQgaW4gWyJhY2NvdW50IiwgInBhc3N3b3JkIiwgInRvdHAiXSB7CiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnNldF9hdXRoX2FjY291bnRzKHN0ZDo6c2xpY2U6OmZyb21fcmVmKCZhY2NvdW50KSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKTsKICAgICAgICBzdG9yZS5zZXRfYXV0aF9wYXNzd29yZF9jcmVkZW50aWFsKCZwYXNzd29yZCkuYXdhaXQudW53cmFwKCk7CiAgICAgICAgc3RvcmUuc2V0X3RvdHBzKHN0ZDo6c2xpY2U6OmZyb21fcmVmKCZ0b3RwKSkuYXdhaXQudW53cmFwKCk7CiAgICAgICAgbGV0IG9yaWdpbmFsID0gc3RvcmUKICAgICAgICAgICAgLmdldF9hdXRoX2FjY291bnRfbXV0YXRpb25fc25hcHNob3QoJmFjY291bnQuaWQsIE5vbmUpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCk7CiAgICAgICAgbGV0IG11dCByZXBsYWNlbWVudCA9IG9yaWdpbmFsLmNsb25lKCk7CiAgICAgICAgcmVwbGFjZW1lbnQucGFzc3dvcmQuYXNfbXV0KCkudW53cmFwKCkuaGFzaCA9ICJyZXF1ZXN0ZWQtcGFzc3dvcmQiLnRvX3N0cmluZygpOwogICAgICAgIG1hdGNoIGNoYW5nZWQgewogICAgICAgICAgICAiYWNjb3VudCIgPT4gewogICAgICAgICAgICAgICAgb3RoZXIuc2V0X2F1dGhfYWNjb3VudHMoJltdKS5hd2FpdC51bndyYXAoKTsKICAgICAgICAgICAgfQogICAgICAgICAgICAicGFzc3dvcmQiID0+IHsKICAgICAgICAgICAgICAgIGxldCBtdXQgY29uY3VycmVudCA9IHBhc3N3b3JkLmNsb25lKCk7CiAgICAgICAgICAgICAgICBjb25jdXJyZW50Lmhhc2ggPSAiY29uY3VycmVudC1wYXNzd29yZCIudG9fc3RyaW5nKCk7CiAgICAgICAgICAgICAgICBvdGhlcgogICAgICAgICAgICAgICAgICAgIC5zZXRfYXV0aF9wYXNzd29yZF9jcmVkZW50aWFsKCZjb25jdXJyZW50KQogICAgICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgICAgIC51bndyYXAoKTsKICAgICAgICAgICAgfQogICAgICAgICAgICAidG90cCIgPT4gewogICAgICAgICAgICAgICAgb3RoZXIuc2V0X3RvdHBzKCZbXSkuYXdhaXQudW53cmFwKCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgXyA9PiB1bnJlYWNoYWJsZSEoKSwKICAgICAgICB9CiAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgIXN0b3JlCiAgICAgICAgICAgICAgICAuY29tcGFyZV9hbmRfc2V0X2F1dGhfYWNjb3VudF9tdXRhdGlvbigmYWNjb3VudC5pZCwgJm9yaWdpbmFsLCAmcmVwbGFjZW1lbnQpCiAgICAgICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgICAgIC51bndyYXAoKSwKICAgICAgICAgICAgImFjY2VwdGVkIGNoYW5nZWQge2NoYW5nZWR9IgogICAgICAgICk7CiAgICAgICAgbGV0IGN1cnJlbnQgPSBzdG9yZQogICAgICAgICAgICAuZ2V0X2F1dGhfcGFzc3dvcmRfY3JlZGVudGlhbCgmYWNjb3VudC5pZCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0X25lIShjdXJyZW50Lmhhc2gsICJyZXF1ZXN0ZWQtcGFzc3dvcmQiKTsKICAgIH0KfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gYXV0aF9hY2NvdW50X211dGF0aW9uX3JvbGxiYWNrX2Nhc19wcmVzZXJ2ZXNfY29uY3VycmVudF9jcmVhdGVfYW5kX2RlbGV0ZSgpIHsKICAgIGxldCAoX2Rpciwgc3RvcmUpID0gb3Blbl90ZXN0X3N0b3JlKCkuYXdhaXQ7CiAgICBsZXQgb3RoZXIgPSBTdG9yZTo6Y29ubmVjdCgmc3RvcmUucGF0aCkuYXdhaXQudW53cmFwKCk7CiAgICBsZXQgKGFjY291bnQsIHBhc3N3b3JkKSA9IGFjY291bnRfYW5kX3Bhc3N3b3JkKCJhdG9taWMtaWQiLCAib3JpZ2luYWwiKTsKICAgIGZvciBjaGFuZ2VkIGluIFsiY3JlYXRlIiwgImRlbGV0ZSIsICJwYXNzd29yZCJdIHsKICAgICAgICBzdG9yZQogICAgICAgICAgICAuc2V0X2F1dGhfYWNjb3VudHMoc3RkOjpzbGljZTo6ZnJvbV9yZWYoJmFjY291bnQpKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpOwogICAgICAgIHN0b3JlLnNldF9hdXRoX3Bhc3N3b3JkX2NyZWRlbnRpYWwoJnBhc3N3b3JkKS5hd2FpdC51bndyYXAoKTsKICAgICAgICBsZXQgb3JpZ2luYWwgPSBzdG9yZQogICAgICAgICAgICAuZ2V0X2F1dGhfYWNjb3VudF9tdXRhdGlvbl9zbmFwc2hvdCgmYWNjb3VudC5pZCwgTm9uZSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKTsKICAgICAgICBsZXQgbXV0IGFwcGxpZWQgPSBvcmlnaW5hbC5jbG9uZSgpOwogICAgICAgIGFwcGxpZWQuYWNjb3VudHNbMF0udXNlcm5hbWUgPSAiYXBwbGllZC1uYW1lIi50b19zdHJpbmcoKTsKICAgICAgICBhcHBsaWVkLnBhc3N3b3JkLmFzX211dCgpLnVud3JhcCgpLmhhc2ggPSAiYXBwbGllZC1wYXNzd29yZCIudG9fc3RyaW5nKCk7CiAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgc3RvcmUKICAgICAgICAgICAgICAgIC5jb21wYXJlX2FuZF9zZXRfYXV0aF9hY2NvdW50X211dGF0aW9uKCZhY2NvdW50LmlkLCAmb3JpZ2luYWwsICZhcHBsaWVkKQogICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICAudW53cmFwKCkKICAgICAgICApOwogICAgICAgIG1hdGNoIGNoYW5nZWQgewogICAgICAgICAgICAiY3JlYXRlIiA9PiB7CiAgICAgICAgICAgICAgICBsZXQgKGNyZWF0ZWQsIGNyZWRlbnRpYWwpID0gYWNjb3VudF9hbmRfcGFzc3dvcmQoImNyZWF0ZWQtaWQiLCAiY3JlYXRlZCIpOwogICAgICAgICAgICAgICAgbGV0IG11dCBuZXh0ID0gYXBwbGllZC5hY2NvdW50cy5jbG9uZSgpOwogICAgICAgICAgICAgICAgbmV4dC5wdXNoKGNyZWF0ZWQpOwogICAgICAgICAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgICAgICAgICBvdGhlcgogICAgICAgICAgICAgICAgICAgICAgICAuY29tcGFyZV9hbmRfc2V0X2F1dGhfYWNjb3VudHNfd2l0aF9wYXNzd29yZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICZhcHBsaWVkLmFjY291bnRzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJm5leHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAmY3JlZGVudGlhbAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgImRlbGV0ZSIgPT4gewogICAgICAgICAgICAgICAgb3RoZXIuc2V0X2F1dGhfYWNjb3VudHMoJltdKS5hd2FpdC51bndyYXAoKTsKICAgICAgICAgICAgfQogICAgICAgICAgICAicGFzc3dvcmQiID0+IHsKICAgICAgICAgICAgICAgIGxldCBtdXQgY3JlZGVudGlhbCA9IHBhc3N3b3JkLmNsb25lKCk7CiAgICAgICAgICAgICAgICBjcmVkZW50aWFsLmhhc2ggPSAibmV3ZXItcGFzc3dvcmQiLnRvX3N0cmluZygpOwogICAgICAgICAgICAgICAgb3RoZXIKICAgICAgICAgICAgICAgICAgICAuc2V0X2F1dGhfcGFzc3dvcmRfY3JlZGVudGlhbCgmY3JlZGVudGlhbCkKICAgICAgICAgICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgICAgICAgICAudW53cmFwKCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgXyA9PiB1bnJlYWNoYWJsZSEoKSwKICAgICAgICB9CiAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgIXN0b3JlCiAgICAgICAgICAgICAgICAuY29tcGFyZV9hbmRfc2V0X2F1dGhfYWNjb3VudF9tdXRhdGlvbigmYWNjb3VudC5pZCwgJmFwcGxpZWQsICZvcmlnaW5hbCkKICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgKTsKICAgICAgICBsZXQgYWZ0ZXIgPSBzdG9yZQogICAgICAgICAgICAuZ2V0X2F1dGhfYWNjb3VudF9tdXRhdGlvbl9zbmFwc2hvdCgmYWNjb3VudC5pZCwgTm9uZSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKTsKICAgICAgICBtYXRjaCBjaGFuZ2VkIHsKICAgICAgICAgICAgImNyZWF0ZSIgPT4gYXNzZXJ0X2VxIShhZnRlci5hY2NvdW50cy5sZW4oKSwgMiksCiAgICAgICAgICAgICJkZWxldGUiID0+IGFzc2VydCEoYWZ0ZXIuYWNjb3VudHMuaXNfZW1wdHkoKSksCiAgICAgICAgICAgICJwYXNzd29yZCIgPT4gYXNzZXJ0X2VxIShhZnRlci5wYXNzd29yZC51bndyYXAoKS5oYXNoLCAibmV3ZXItcGFzc3dvcmQiKSwKICAgICAgICAgICAgXyA9PiB1bnJlYWNoYWJsZSEoKSwKICAgICAgICB9CiAgICB9Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIGF1dGhfYWNjb3VudF9tdXRhdGlvbl9zbmFwc2hvdF9wcmVzZXJ2ZXNfbGVnYWN5X3RpbWVzdGFtcF9kZWZhdWx0cygpIHsKICAgIGxldCAoX2Rpciwgc3RvcmUpID0gb3Blbl90ZXN0X3N0b3JlKCkuYXdhaXQ7CiAgICBzdG9yZQogICAgICAgIC5zZXRfanNvbl92YWx1ZSgKICAgICAgICAgICAgImZuX2tub2NrOmF1dGg6YWNjb3VudHM6djEiLAogICAgICAgICAgICAmanNvbiEoW3siaWQiOiJsZWdhY3ktaWQiLCAidXNlcm5hbWUiOiJsZWdhY3kifV0pLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBzdG9yZQogICAgICAgIC5zZXRfanNvbl92YWx1ZSgKICAgICAgICAgICAgImZuX2tub2NrOnRvdHBzIiwKICAgICAgICAgICAgJmpzb24hKFt7ImlkIjoibGVnYWN5LXRvdHAiLCAic2VjcmV0IjoiU0VDUkVUIn1dKSwKICAgICAgICApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgbGV0IG9yaWdpbmFsID0gc3RvcmUKICAgICAgICAuZ2V0X2F1dGhfYWNjb3VudF9tdXRhdGlvbl9zbmFwc2hvdCgibGVnYWN5LWlkIiwgTm9uZSkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICB0b2tpbzo6dGltZTo6c2xlZXAoc3RkOjp0aW1lOjpEdXJhdGlvbjo6ZnJvbV9taWxsaXMoMjApKS5hd2FpdDsKICAgIGxldCBjdXJyZW50ID0gc3RvcmUKICAgICAgICAuZ2V0X2F1dGhfYWNjb3VudF9tdXRhdGlvbl9zbmFwc2hvdCgibGVnYWN5LWlkIiwgU29tZSgmb3JpZ2luYWwpKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgY3VycmVudC5hY2NvdW50c1swXS5jcmVhdGVkX2F0LAogICAgICAgIG9yaWdpbmFsLmFjY291bnRzWzBdLmNyZWF0ZWRfYXQKICAgICk7CiAgICBhc3NlcnRfZXEhKGN1cnJlbnQudG90cHNbMF0uY3JlYXRlZF9hdCwgb3JpZ2luYWwudG90cHNbMF0uY3JlYXRlZF9hdCk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5jb21wYXJlX2FuZF9zZXRfYXV0aF9hY2NvdW50X211dGF0aW9uKCJsZWdhY3ktaWQiLCAmb3JpZ2luYWwsICZjdXJyZW50KQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICApOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBhdXRoX2FjY291bnRfbXV0YXRpb25fcm9sbGJhY2tfY2FzX3Jlc3RvcmVzX2l0c19leGFjdF93cml0ZSgpIHsKICAgIGxldCAoX2Rpciwgc3RvcmUpID0gb3Blbl90ZXN0X3N0b3JlKCkuYXdhaXQ7CiAgICBsZXQgKGFjY291bnQsIHBhc3N3b3JkKSA9IGFjY291bnRfYW5kX3Bhc3N3b3JkKCJhdG9taWMtaWQiLCAib3JpZ2luYWwiKTsKICAgIHN0b3JlLnNldF9hdXRoX2FjY291bnRzKCZbYWNjb3VudF0pLmF3YWl0LnVud3JhcCgpOwogICAgbGV0IG9yaWdpbmFsID0gc3RvcmUKICAgICAgICAuZ2V0X2F1dGhfYWNjb3VudF9tdXRhdGlvbl9zbmFwc2hvdCgiYXRvbWljLWlkIiwgTm9uZSkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBsZXQgbXV0IGFwcGxpZWQgPSBvcmlnaW5hbC5jbG9uZSgpOwogICAgYXBwbGllZC5hY2NvdW50c1swXS51c2VybmFtZSA9ICJhcHBsaWVkLW5hbWUiLnRvX3N0cmluZygpOwogICAgYXBwbGllZC5wYXNzd29yZCA9IFNvbWUocGFzc3dvcmQpOwogICAgYXBwbGllZC50b3Rwcy5wdXNoKFRvdHBDcmVkZW50aWFsIHsKICAgICAgICBpZDogIm5ldy1zb3VyY2UiLnRvX3N0cmluZygpLAogICAgICAgIHNlY3JldDogIlNFQ1JFVCIudG9fc3RyaW5nKCksCiAgICAgICAgY29tbWVudDogImFwcGxpZWQtbmFtZSIudG9fc3RyaW5nKCksCiAgICAgICAgY3JlYXRlZF9hdDogY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19pc28oKSwKICAgICAgICBhY2Nlc3Nfc2NvcGVzOiBqc29uIShbXSksCiAgICAgICAgc3ViZG9tYWluX2FjY2VzczoganNvbiEoeyJtb2RlIjoiYWxsIiwgImhvc3RzIjpbXX0pLAogICAgfSk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5jb21wYXJlX2FuZF9zZXRfYXV0aF9hY2NvdW50X211dGF0aW9uKCJhdG9taWMtaWQiLCAmb3JpZ2luYWwsICZhcHBsaWVkKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICApOwogICAgYXNzZXJ0ISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuY29tcGFyZV9hbmRfc2V0X2F1dGhfYWNjb3VudF9tdXRhdGlvbigiYXRvbWljLWlkIiwgJmFwcGxpZWQsICZvcmlnaW5hbCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgKTsKICAgIGxldCBjdXJyZW50ID0gc3RvcmUKICAgICAgICAuZ2V0X2F1dGhfYWNjb3VudF9tdXRhdGlvbl9zbmFwc2hvdCgiYXRvbWljLWlkIiwgTm9uZSkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHNlcmRlX2pzb246OnRvX3ZhbHVlKGN1cnJlbnQuYWNjb3VudHMpLnVud3JhcCgpLAogICAgICAgIHNlcmRlX2pzb246OnRvX3ZhbHVlKCZvcmlnaW5hbC5hY2NvdW50cykudW53cmFwKCkKICAgICk7CiAgICBhc3NlcnQhKGN1cnJlbnQucGFzc3dvcmQuaXNfbm9uZSgpKTsKICAgIGFzc2VydCEoY3VycmVudC50b3Rwcy5pc19lbXB0eSgpKTsKCiAgICAvLyBDYW5vbmljYWxpemluZyB0aGUgZXhwZWN0ZWQgdmFsdWUgbXVzdCBub3QgbWFzayBhIHN1YnNlcXVlbnQgcmVhbAogICAgLy8gcGVybWlzc2lvbiBjaGFuZ2UuIEtlZXAgdXNpbmcgdGhlIG9yaWdpbmFsLCBub25jYW5vbmljYWwgYXBwbGllZCB2YWx1ZS4KICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLmNvbXBhcmVfYW5kX3NldF9hdXRoX2FjY291bnRfbXV0YXRpb24oImF0b21pYy1pZCIsICZvcmlnaW5hbCwgJmFwcGxpZWQpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICk7CiAgICBsZXQgbXV0IGNvbmN1cnJlbnRfdG90cHMgPSBhcHBsaWVkLnRvdHBzLmNsb25lKCk7CiAgICBjb25jdXJyZW50X3RvdHBzWzBdLnN1YmRvbWFpbl9hY2Nlc3MgPSBqc29uISh7CiAgICAgICAgIm1vZGUiOiAiY3VzdG9tIiwgImhvc3RzIjogWyJjb25jdXJyZW50LmV4YW1wbGUuY29tIl0sCiAgICAgICAgInN0cmVhbXMiOiBbeyJwcm90b2NvbCI6ICJ0Y3AiLCAibGlzdGVuX3BvcnQiOiA0NDN9XSwKICAgIH0pOwogICAgc3RvcmUuc2V0X3RvdHBzKCZjb25jdXJyZW50X3RvdHBzKS5hd2FpdC51bndyYXAoKTsKICAgIGFzc2VydCEoCiAgICAgICAgIXN0b3JlCiAgICAgICAgICAgIC5jb21wYXJlX2FuZF9zZXRfYXV0aF9hY2NvdW50X211dGF0aW9uKCJhdG9taWMtaWQiLCAmYXBwbGllZCwgJm9yaWdpbmFsKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzdG9yZS5nZXRfdG90cHMoKS5hd2FpdC51bndyYXAoKVswXS5zdWJkb21haW5fYWNjZXNzLAogICAgICAgIGNvbmN1cnJlbnRfdG90cHNbMF0uc3ViZG9tYWluX2FjY2VzcwogICAgKTsKfQo=
+use super::*;
+
+fn account_and_password(id: &str, username: &str) -> (AuthAccount, AuthPasswordCredential) {
+    let now = crate::time_utils::now_iso();
+    (
+        AuthAccount {
+            id: id.to_string(),
+            username: username.to_string(),
+            display_name: username.to_string(),
+            source_totp_id: String::new(),
+            created_at: now.clone(),
+            updated_at: now.clone(),
+            access_scopes: json!([]),
+            subdomain_access: json!({ "mode": "all", "hosts": [] }),
+        },
+        AuthPasswordCredential {
+            account_id: id.to_string(),
+            algorithm: "scrypt".to_string(),
+            salt: "00".repeat(16),
+            hash: format!("password-for-{id}"),
+            n: 16_384,
+            r: 8,
+            p: 1,
+            key_length: 64,
+            created_at: now.clone(),
+            updated_at: now,
+        },
+    )
+}
+
+#[tokio::test]
+async fn auth_account_creation_cas_accepts_legacy_missing_timestamps() {
+    let (_dir, store) = open_test_store().await;
+    store
+        .set_json_value(
+            "fn_knock:auth:accounts:v1",
+            &json!([{ "id": "legacy-id", "username": "legacy", "createdAt": "  " }]),
+        )
+        .await
+        .unwrap();
+    let expected = store.get_auth_accounts().await.unwrap();
+    tokio::time::sleep(std::time::Duration::from_millis(20)).await;
+    let (created, password) = account_and_password("created-id", "created");
+    let mut replacement = expected.clone();
+    replacement.push(created);
+    assert!(
+        store
+            .compare_and_set_auth_accounts_with_password(&expected, &replacement, &password)
+            .await
+            .unwrap()
+    );
+    let stored = store.get_auth_accounts().await.unwrap();
+    assert_eq!(stored.len(), 2);
+    assert_eq!(stored[0].created_at, expected[0].created_at);
+    assert_eq!(stored[0].updated_at, expected[0].updated_at);
+    assert!(
+        store
+            .get_auth_password_credential("created-id")
+            .await
+            .unwrap()
+            .is_some()
+    );
+}
+
+#[tokio::test]
+async fn auth_account_creation_cas_rejects_changed_fields_and_persisted_timestamps() {
+    let (_dir, store) = open_test_store().await;
+    let (existing, _) = account_and_password("existing-id", "existing");
+    let (created, password) = account_and_password("created-id", "created");
+    for field in ["username", "createdAt", "updatedAt"] {
+        store
+            .set_auth_accounts(std::slice::from_ref(&existing))
+            .await
+            .unwrap();
+        let expected = store.get_auth_accounts().await.unwrap();
+        let mut changed = serde_json::to_value(&expected).unwrap();
+        changed[0][field] = json!("concurrently-changed");
+        store
+            .set_json_value("fn_knock:auth:accounts:v1", &changed)
+            .await
+            .unwrap();
+        let mut replacement = expected.clone();
+        replacement.push(created.clone());
+        assert!(
+            !store
+                .compare_and_set_auth_accounts_with_password(&expected, &replacement, &password)
+                .await
+                .unwrap(),
+            "accepted a concurrent change to {field}"
+        );
+        assert_eq!(
+            serde_json::to_value(store.get_auth_accounts().await.unwrap()).unwrap(),
+            changed
+        );
+        assert!(
+            store
+                .get_auth_password_credential("created-id")
+                .await
+                .unwrap()
+                .is_none()
+        );
+    }
+}
+
+#[tokio::test]
+async fn auth_account_creation_cas_preserves_concurrent_distinct_accounts() {
+    let (_dir, first) = open_test_store().await;
+    let second = Store::connect(&first.path).await.unwrap();
+    let (alice, alice_password) = account_and_password("alice-id", "alice");
+    let (bob, bob_password) = account_and_password("bob-id", "bob");
+    let (alice_result, bob_result) = tokio::join!(
+        first.compare_and_set_auth_accounts_with_password(
+            &[],
+            std::slice::from_ref(&alice),
+            &alice_password,
+        ),
+        second.compare_and_set_auth_accounts_with_password(
+            &[],
+            std::slice::from_ref(&bob),
+            &bob_password,
+        ),
+    );
+    let alice_won = alice_result.unwrap();
+    assert_ne!(alice_won, bob_result.unwrap());
+    let (pending, pending_password) = if alice_won {
+        (&bob, &bob_password)
+    } else {
+        (&alice, &alice_password)
+    };
+    assert!(
+        first
+            .get_auth_password_credential(&pending.id)
+            .await
+            .unwrap()
+            .is_none()
+    );
+    let current = first.get_auth_accounts().await.unwrap();
+    let mut replacement = current.clone();
+    replacement.push(pending.clone());
+    assert!(
+        first
+            .compare_and_set_auth_accounts_with_password(&current, &replacement, pending_password,)
+            .await
+            .unwrap()
+    );
+    let accounts = first.get_auth_accounts().await.unwrap();
+    assert_eq!(accounts.len(), 2);
+    for expected in [&alice, &bob] {
+        assert!(accounts.iter().any(|account| account.id == expected.id));
+        assert!(
+            first
+                .get_auth_password_credential(&expected.id)
+                .await
+                .unwrap()
+                .is_some()
+        );
+    }
+}
+
+#[tokio::test]
+async fn auth_account_creation_cas_allows_only_one_concurrent_username() {
+    let (_dir, first) = open_test_store().await;
+    let second = Store::connect(&first.path).await.unwrap();
+    let (alice, alice_password) = account_and_password("first-id", "alice");
+    let (other, other_password) = account_and_password("second-id", "ALICE");
+    let (first_result, second_result) = tokio::join!(
+        first.compare_and_set_auth_accounts_with_password(
+            &[],
+            std::slice::from_ref(&alice),
+            &alice_password,
+        ),
+        second.compare_and_set_auth_accounts_with_password(
+            &[],
+            std::slice::from_ref(&other),
+            &other_password,
+        ),
+    );
+    let first_won = first_result.unwrap();
+    assert_ne!(first_won, second_result.unwrap());
+    let accounts = first.get_auth_accounts().await.unwrap();
+    assert_eq!(accounts.len(), 1);
+    assert!(accounts[0].username.eq_ignore_ascii_case("alice"));
+    let loser_id = if first_won { &other.id } else { &alice.id };
+    assert!(
+        first
+            .get_auth_password_credential(loser_id)
+            .await
+            .unwrap()
+            .is_none()
+    );
+}
+
+#[tokio::test]
+async fn auth_account_creation_cas_rolls_back_projection_on_credential_failure() {
+    let (_dir, store) = open_test_store().await;
+    let (existing, existing_password) = account_and_password("existing-id", "existing");
+    store
+        .set_auth_accounts(std::slice::from_ref(&existing))
+        .await
+        .unwrap();
+    store
+        .set_auth_password_credential(&existing_password)
+        .await
+        .unwrap();
+    let expected = store.get_auth_accounts().await.unwrap();
+    let (created, password) = account_and_password("failed-id", "failed");
+    let connection = open_fixture_connection(&store.path);
+    connection
+        .execute_batch(
+            "CREATE TRIGGER fail_created_account_password
+         BEFORE INSERT ON kv_strings
+         WHEN NEW.key = 'fn_knock:auth:password_credentials:v1:failed-id'
+         BEGIN SELECT RAISE(FAIL, 'forced password write failure'); END;",
+        )
+        .unwrap();
+    drop(connection);
+    // This also checks that obsolete projection credentials are not removed
+    // when the newly-created credential cannot be persisted.
+    assert!(
+        store
+            .compare_and_set_auth_accounts_with_password(
+                &expected,
+                std::slice::from_ref(&created),
+                &password,
+            )
+            .await
+            .is_err()
+    );
+    assert_eq!(
+        serde_json::to_value(store.get_auth_accounts().await.unwrap()).unwrap(),
+        serde_json::to_value(&expected).unwrap(),
+    );
+    assert!(
+        store
+            .get_auth_password_credential(&created.id)
+            .await
+            .unwrap()
+            .is_none()
+    );
+    assert_eq!(
+        store
+            .get_auth_password_credential(&existing.id)
+            .await
+            .unwrap()
+            .unwrap()
+            .hash,
+        existing_password.hash,
+    );
+    let connection = open_fixture_connection(&store.path);
+    connection
+        .execute("DROP TRIGGER fail_created_account_password", [])
+        .unwrap();
+    drop(connection);
+    assert!(
+        store
+            .compare_and_set_auth_accounts_with_password(
+                &expected,
+                std::slice::from_ref(&created),
+                &password,
+            )
+            .await
+            .unwrap()
+    );
+    assert!(
+        store
+            .get_auth_password_credential(&existing.id)
+            .await
+            .unwrap()
+            .is_none()
+    );
+    assert!(
+        store
+            .get_auth_password_credential(&created.id)
+            .await
+            .unwrap()
+            .is_some()
+    );
+}
+
+#[tokio::test]
+async fn auth_account_mutation_cas_rolls_back_all_records_on_password_failure() {
+    let (_dir, store) = open_test_store().await;
+    let (account, password) = account_and_password("atomic-id", "original");
+    store.set_auth_accounts(&[account]).await.unwrap();
+    let original = store
+        .get_auth_account_mutation_snapshot("atomic-id", None)
+        .await
+        .unwrap();
+    let mut replacement = original.clone();
+    replacement.accounts[0].username = "changed".to_string();
+    replacement.password = Some(password);
+    replacement.totps.push(TotpCredential {
+        id: "new-totp".to_string(),
+        secret: "SECRET".to_string(),
+        comment: "changed".to_string(),
+        created_at: crate::time_utils::now_iso(),
+        access_scopes: json!([]),
+        subdomain_access: json!({"mode":"all", "hosts":[]}),
+    });
+    let connection = open_fixture_connection(&store.path);
+    connection
+        .execute_batch(
+            "CREATE TRIGGER fail_mutation_password BEFORE INSERT ON kv_strings
+        WHEN NEW.key = 'fn_knock:auth:password_credentials:v1:atomic-id'
+        BEGIN SELECT RAISE(FAIL, 'forced password failure'); END;",
+        )
+        .unwrap();
+    drop(connection);
+    assert!(
+        store
+            .compare_and_set_auth_account_mutation("atomic-id", &original, &replacement)
+            .await
+            .is_err()
+    );
+    let current = store
+        .get_auth_account_mutation_snapshot("atomic-id", None)
+        .await
+        .unwrap();
+    assert_eq!(
+        serde_json::to_value(&current.accounts).unwrap(),
+        serde_json::to_value(&original.accounts).unwrap()
+    );
+    assert!(current.totps.is_empty());
+    assert!(current.password.is_none());
+}
+
+#[tokio::test]
+async fn auth_account_mutation_cas_rejects_changed_password_totp_and_account() {
+    let (_dir, store) = open_test_store().await;
+    let other = Store::connect(&store.path).await.unwrap();
+    let (account, password) = account_and_password("atomic-id", "original");
+    let totp = TotpCredential {
+        id: "source".to_string(),
+        secret: "SECRET".to_string(),
+        comment: "original".to_string(),
+        created_at: crate::time_utils::now_iso(),
+        access_scopes: json!([]),
+        subdomain_access: json!({"mode":"all", "hosts":[]}),
+    };
+    for changed in ["account", "password", "totp"] {
+        store
+            .set_auth_accounts(std::slice::from_ref(&account))
+            .await
+            .unwrap();
+        store.set_auth_password_credential(&password).await.unwrap();
+        store.set_totps(std::slice::from_ref(&totp)).await.unwrap();
+        let original = store
+            .get_auth_account_mutation_snapshot(&account.id, None)
+            .await
+            .unwrap();
+        let mut replacement = original.clone();
+        replacement.password.as_mut().unwrap().hash = "requested-password".to_string();
+        match changed {
+            "account" => {
+                other.set_auth_accounts(&[]).await.unwrap();
+            }
+            "password" => {
+                let mut concurrent = password.clone();
+                concurrent.hash = "concurrent-password".to_string();
+                other
+                    .set_auth_password_credential(&concurrent)
+                    .await
+                    .unwrap();
+            }
+            "totp" => {
+                other.set_totps(&[]).await.unwrap();
+            }
+            _ => unreachable!(),
+        }
+        assert!(
+            !store
+                .compare_and_set_auth_account_mutation(&account.id, &original, &replacement)
+                .await
+                .unwrap(),
+            "accepted changed {changed}"
+        );
+        let current = store
+            .get_auth_password_credential(&account.id)
+            .await
+            .unwrap()
+            .unwrap();
+        assert_ne!(current.hash, "requested-password");
+    }
+}
+
+#[tokio::test]
+async fn auth_account_mutation_rollback_cas_preserves_concurrent_create_and_delete() {
+    let (_dir, store) = open_test_store().await;
+    let other = Store::connect(&store.path).await.unwrap();
+    let (account, password) = account_and_password("atomic-id", "original");
+    for changed in ["create", "delete", "password"] {
+        store
+            .set_auth_accounts(std::slice::from_ref(&account))
+            .await
+            .unwrap();
+        store.set_auth_password_credential(&password).await.unwrap();
+        let original = store
+            .get_auth_account_mutation_snapshot(&account.id, None)
+            .await
+            .unwrap();
+        let mut applied = original.clone();
+        applied.accounts[0].username = "applied-name".to_string();
+        applied.password.as_mut().unwrap().hash = "applied-password".to_string();
+        assert!(
+            store
+                .compare_and_set_auth_account_mutation(&account.id, &original, &applied)
+                .await
+                .unwrap()
+        );
+        match changed {
+            "create" => {
+                let (created, credential) = account_and_password("created-id", "created");
+                let mut next = applied.accounts.clone();
+                next.push(created);
+                assert!(
+                    other
+                        .compare_and_set_auth_accounts_with_password(
+                            &applied.accounts,
+                            &next,
+                            &credential
+                        )
+                        .await
+                        .unwrap()
+                );
+            }
+            "delete" => {
+                other.set_auth_accounts(&[]).await.unwrap();
+            }
+            "password" => {
+                let mut credential = password.clone();
+                credential.hash = "newer-password".to_string();
+                other
+                    .set_auth_password_credential(&credential)
+                    .await
+                    .unwrap();
+            }
+            _ => unreachable!(),
+        }
+        assert!(
+            !store
+                .compare_and_set_auth_account_mutation(&account.id, &applied, &original)
+                .await
+                .unwrap()
+        );
+        let after = store
+            .get_auth_account_mutation_snapshot(&account.id, None)
+            .await
+            .unwrap();
+        match changed {
+            "create" => assert_eq!(after.accounts.len(), 2),
+            "delete" => assert!(after.accounts.is_empty()),
+            "password" => assert_eq!(after.password.unwrap().hash, "newer-password"),
+            _ => unreachable!(),
+        }
+    }
+}
+
+#[tokio::test]
+async fn auth_account_mutation_snapshot_preserves_legacy_timestamp_defaults() {
+    let (_dir, store) = open_test_store().await;
+    store
+        .set_json_value(
+            "fn_knock:auth:accounts:v1",
+            &json!([{"id":"legacy-id", "username":"legacy"}]),
+        )
+        .await
+        .unwrap();
+    store
+        .set_json_value(
+            "fn_knock:totps",
+            &json!([{"id":"legacy-totp", "secret":"SECRET"}]),
+        )
+        .await
+        .unwrap();
+    let original = store
+        .get_auth_account_mutation_snapshot("legacy-id", None)
+        .await
+        .unwrap();
+    tokio::time::sleep(std::time::Duration::from_millis(20)).await;
+    let current = store
+        .get_auth_account_mutation_snapshot("legacy-id", Some(&original))
+        .await
+        .unwrap();
+    assert_eq!(
+        current.accounts[0].created_at,
+        original.accounts[0].created_at
+    );
+    assert_eq!(current.totps[0].created_at, original.totps[0].created_at);
+    assert!(
+        store
+            .compare_and_set_auth_account_mutation("legacy-id", &original, &current)
+            .await
+            .unwrap()
+    );
+}
+
+#[tokio::test]
+async fn auth_account_mutation_rollback_cas_restores_its_exact_write() {
+    let (_dir, store) = open_test_store().await;
+    let (account, password) = account_and_password("atomic-id", "original");
+    store.set_auth_accounts(&[account]).await.unwrap();
+    let original = store
+        .get_auth_account_mutation_snapshot("atomic-id", None)
+        .await
+        .unwrap();
+    let mut applied = original.clone();
+    applied.accounts[0].username = "applied-name".to_string();
+    applied.password = Some(password);
+    applied.totps.push(TotpCredential {
+        id: "new-source".to_string(),
+        secret: "SECRET".to_string(),
+        comment: "applied-name".to_string(),
+        created_at: crate::time_utils::now_iso(),
+        access_scopes: json!([]),
+        subdomain_access: json!({"mode":"all", "hosts":[]}),
+    });
+    assert!(
+        store
+            .compare_and_set_auth_account_mutation("atomic-id", &original, &applied)
+            .await
+            .unwrap()
+    );
+    assert!(
+        store
+            .compare_and_set_auth_account_mutation("atomic-id", &applied, &original)
+            .await
+            .unwrap()
+    );
+    let current = store
+        .get_auth_account_mutation_snapshot("atomic-id", None)
+        .await
+        .unwrap();
+    assert_eq!(
+        serde_json::to_value(current.accounts).unwrap(),
+        serde_json::to_value(&original.accounts).unwrap()
+    );
+    assert!(current.password.is_none());
+    assert!(current.totps.is_empty());
+
+    // Canonicalizing the expected value must not mask a subsequent real
+    // permission change. Keep using the original, noncanonical applied value.
+    assert!(
+        store
+            .compare_and_set_auth_account_mutation("atomic-id", &original, &applied)
+            .await
+            .unwrap()
+    );
+    let mut concurrent_totps = applied.totps.clone();
+    concurrent_totps[0].subdomain_access = json!({
+        "mode": "custom", "hosts": ["concurrent.example.com"],
+        "streams": [{"protocol": "tcp", "listen_port": 443}],
+    });
+    store.set_totps(&concurrent_totps).await.unwrap();
+    assert!(
+        !store
+            .compare_and_set_auth_account_mutation("atomic-id", &applied, &original)
+            .await
+            .unwrap()
+    );
+    assert_eq!(
+        store.get_totps().await.unwrap()[0].subdomain_access,
+        concurrent_totps[0].subdomain_access
+    );
+}

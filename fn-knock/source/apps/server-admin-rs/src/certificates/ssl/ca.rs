@@ -1,1 +1,487 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBzdHJ1Y3QgQ2FQYXRocyB7CiAgICBwdWIoc3VwZXIpIGRpcjogUGF0aEJ1ZiwKICAgIHB1YihzdXBlcikgY2VydDogUGF0aEJ1ZiwKICAgIHB1YihzdXBlcikga2V5OiBQYXRoQnVmLAp9CgpwdWIoc3VwZXIpIGZuIGNhX3BhdGhzKHN0YXRlOiAmQXBwU3RhdGUpIC0+IENhUGF0aHMgewogICAgbGV0IGRpciA9IHN0YXRlLnNldHRpbmdzLmRhdGFfZGlyLmpvaW4oInNzbCIpOwogICAgQ2FQYXRocyB7CiAgICAgICAgY2VydDogZGlyLmpvaW4oQ0FfQ0VSVF9GSUxFTkFNRSksCiAgICAgICAga2V5OiBkaXIuam9pbihDQV9LRVlfRklMRU5BTUUpLAogICAgICAgIGRpciwKICAgIH0KfQoKI1tjZmcobm90KHdpbmRvd3MpKV0KcHViKHN1cGVyKSBmbiBpbml0X3Jvb3RfY2Eoc3RhdGU6ICZBcHBTdGF0ZSkgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgIGxldCBwYXRocyA9IGNhX3BhdGhzKHN0YXRlKTsKICAgIHN0ZDo6ZnM6OmNyZWF0ZV9kaXJfYWxsKCZwYXRocy5kaXIpPzsKICAgIGxldCBzdWJqZWN0ID0gIi9DTj1LQ0ktTE5LIFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5L089S0NJLUxOSyBDb3Jwb3JhdGlvbi9PVT1JbmZvcm1hdGlvbiBTZWN1cml0eSBEZXBhcnRtZW50L0M9VFcvU1Q9VGFpd2FuL0w9VGFpcGVpIjsKICAgIHJ1bl9vcGVuc3NsKHZlYyFbCiAgICAgICAgInJlcSIudG9fc3RyaW5nKCksCiAgICAgICAgIi14NTA5Ii50b19zdHJpbmcoKSwKICAgICAgICAiLW5ld2tleSIudG9fc3RyaW5nKCksCiAgICAgICAgInJzYToyMDQ4Ii50b19zdHJpbmcoKSwKICAgICAgICAiLXNoYTI1NiIudG9fc3RyaW5nKCksCiAgICAgICAgIi1kYXlzIi50b19zdHJpbmcoKSwKICAgICAgICAoMjAgKiAzNjUpLnRvX3N0cmluZygpLAogICAgICAgICItbm9kZXMiLnRvX3N0cmluZygpLAogICAgICAgICIta2V5b3V0Ii50b19zdHJpbmcoKSwKICAgICAgICBwYXRocy5rZXkudG9fc3RyaW5nX2xvc3N5KCkudG9fc3RyaW5nKCksCiAgICAgICAgIi1vdXQiLnRvX3N0cmluZygpLAogICAgICAgIHBhdGhzLmNlcnQudG9fc3RyaW5nX2xvc3N5KCkudG9fc3RyaW5nKCksCiAgICAgICAgIi1zdWJqIi50b19zdHJpbmcoKSwKICAgICAgICBzdWJqZWN0LnRvX3N0cmluZygpLAogICAgICAgICItYWRkZXh0Ii50b19zdHJpbmcoKSwKICAgICAgICAiYmFzaWNDb25zdHJhaW50cz1jcml0aWNhbCxDQTpUUlVFLHBhdGhsZW46MCIudG9fc3RyaW5nKCksCiAgICAgICAgIi1hZGRleHQiLnRvX3N0cmluZygpLAogICAgICAgICJrZXlVc2FnZT1jcml0aWNhbCxrZXlDZXJ0U2lnbixjUkxTaWduLGRpZ2l0YWxTaWduYXR1cmUiLnRvX3N0cmluZygpLAogICAgXSk/OwogICAgY2htb2RfcHJpdmF0ZSgmcGF0aHMuY2VydCk7CiAgICBjaG1vZF9wcml2YXRlKCZwYXRocy5rZXkpOwogICAgbGV0IGNlcnQgPSBzdGQ6OmZzOjpyZWFkX3RvX3N0cmluZygmcGF0aHMuY2VydCk/OwogICAgcGFyc2VfY2VydF9pbmZvKCZjZXJ0KS5va19vcl9lbHNlKHx8IGFueWhvdyEoImdlbmVyYXRlZCByb290IENBIGNlcnRpZmljYXRlIGlzIGludmFsaWQiKSkKfQoKI1tjZmcod2luZG93cyldCnB1YihzdXBlcikgZm4gaW5pdF9yb290X2NhKHN0YXRlOiAmQXBwU3RhdGUpIC0+IGFueWhvdzo6UmVzdWx0PFZhbHVlPiB7CiAgICBsZXQgcGF0aHMgPSBjYV9wYXRocyhzdGF0ZSk7CiAgICBzdGQ6OmZzOjpjcmVhdGVfZGlyX2FsbCgmcGF0aHMuZGlyKT87CiAgICBsZXQgKGNlcnQsIGtleSkgPSBnZW5lcmF0ZV93aW5kb3dzX3Jvb3RfY2EoKT87CiAgICBzdGQ6OmZzOjp3cml0ZSgmcGF0aHMuY2VydCwgJmNlcnQpPzsKICAgIHN0ZDo6ZnM6OndyaXRlKCZwYXRocy5rZXksIGtleSk/OwogICAgY2htb2RfcHJpdmF0ZSgmcGF0aHMuY2VydCk7CiAgICBjaG1vZF9wcml2YXRlKCZwYXRocy5rZXkpOwogICAgcGFyc2VfY2VydF9pbmZvKCZjZXJ0KS5va19vcl9lbHNlKHx8IGFueWhvdyEoImdlbmVyYXRlZCByb290IENBIGNlcnRpZmljYXRlIGlzIGludmFsaWQiKSkKfQoKI1tjZmcobm90KHdpbmRvd3MpKV0KcHViKHN1cGVyKSBmbiBpc3N1ZV9jYV9zZXJ2ZXJfY2VydCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBob3N0czogJltTdHJpbmddLAopIC0+IGFueWhvdzo6UmVzdWx0PChTdHJpbmcsIFN0cmluZyk+IHsKICAgIGxldCBwYXRocyA9IGNhX3BhdGhzKHN0YXRlKTsKICAgIGlmICFwYXRocy5jZXJ0LmV4aXN0cygpIHx8ICFwYXRocy5rZXkuZXhpc3RzKCkgewogICAgICAgIGFueWhvdzo6YmFpbCEoIlJvb3QgQ0Egbm90IGluaXRpYWxpemVkIik7CiAgICB9CiAgICBsZXQgY2xlYW5faG9zdHMgPSBob3N0cwogICAgICAgIC5pdGVyKCkKICAgICAgICAubWFwKHxob3N0fCBob3N0LnRyaW0oKS50b19zdHJpbmcoKSkKICAgICAgICAuZmlsdGVyKHxob3N0fCAhaG9zdC5pc19lbXB0eSgpKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgaWYgY2xlYW5faG9zdHMuaXNfZW1wdHkoKSB7CiAgICAgICAgYW55aG93OjpiYWlsISgiTm8gaG9zdHMgY29uZmlndXJlZCIpOwogICAgfQogICAgbGV0IHRlbXBfZGlyID0gc3RkOjplbnY6OnRlbXBfZGlyKCkuam9pbihmb3JtYXQhKCJmbi1rbm9jay1jYS17fSIsIFV1aWQ6Om5ld192NCgpKSk7CiAgICBzdGQ6OmZzOjpjcmVhdGVfZGlyX2FsbCgmdGVtcF9kaXIpPzsKICAgIGxldCByZXN1bHQgPSAofHwgewogICAgICAgIGxldCBrZXlfcGF0aCA9IHRlbXBfZGlyLmpvaW4oInNlcnZlci1rZXkucGVtIik7CiAgICAgICAgbGV0IGNzcl9wYXRoID0gdGVtcF9kaXIuam9pbigic2VydmVyLmNzciIpOwogICAgICAgIGxldCBjZXJ0X3BhdGggPSB0ZW1wX2Rpci5qb2luKCJzZXJ2ZXItY2VydC5wZW0iKTsKICAgICAgICBsZXQgY29uZmlnX3BhdGggPSB0ZW1wX2Rpci5qb2luKCJvcGVuc3NsLmNuZiIpOwogICAgICAgIHN0ZDo6ZnM6OndyaXRlKCZjb25maWdfcGF0aCwgb3BlbnNzbF9zZXJ2ZXJfY2VydF9jb25maWcoJmNsZWFuX2hvc3RzKSk/OwogICAgICAgIHJ1bl9vcGVuc3NsKHZlYyFbCiAgICAgICAgICAgICJnZW5yc2EiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiLW91dCIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGtleV9wYXRoLnRvX3N0cmluZ19sb3NzeSgpLnRvX3N0cmluZygpLAogICAgICAgICAgICAiMjA0OCIudG9fc3RyaW5nKCksCiAgICAgICAgXSk/OwogICAgICAgIHJ1bl9vcGVuc3NsKHZlYyFbCiAgICAgICAgICAgICJyZXEiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiLW5ldyIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICIta2V5Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAga2V5X3BhdGgudG9fc3RyaW5nX2xvc3N5KCkudG9fc3RyaW5nKCksCiAgICAgICAgICAgICItb3V0Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgY3NyX3BhdGgudG9fc3RyaW5nX2xvc3N5KCkudG9fc3RyaW5nKCksCiAgICAgICAgICAgICItY29uZmlnIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgY29uZmlnX3BhdGgudG9fc3RyaW5nX2xvc3N5KCkudG9fc3RyaW5nKCksCiAgICAgICAgXSk/OwogICAgICAgIHJ1bl9vcGVuc3NsKHZlYyFbCiAgICAgICAgICAgICJ4NTA5Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgIi1yZXEiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiLWluIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgY3NyX3BhdGgudG9fc3RyaW5nX2xvc3N5KCkudG9fc3RyaW5nKCksCiAgICAgICAgICAgICItQ0EiLnRvX3N0cmluZygpLAogICAgICAgICAgICBwYXRocy5jZXJ0LnRvX3N0cmluZ19sb3NzeSgpLnRvX3N0cmluZygpLAogICAgICAgICAgICAiLUNBa2V5Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgcGF0aHMua2V5LnRvX3N0cmluZ19sb3NzeSgpLnRvX3N0cmluZygpLAogICAgICAgICAgICAiLUNBY3JlYXRlc2VyaWFsIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgIi1vdXQiLnRvX3N0cmluZygpLAogICAgICAgICAgICBjZXJ0X3BhdGgudG9fc3RyaW5nX2xvc3N5KCkudG9fc3RyaW5nKCksCiAgICAgICAgICAgICItZGF5cyIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICgyMCAqIDM2NSkudG9fc3RyaW5nKCksCiAgICAgICAgICAgICItc2hhMjU2Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgIi1leHRlbnNpb25zIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgInYzX3JlcSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICItZXh0ZmlsZSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGNvbmZpZ19wYXRoLnRvX3N0cmluZ19sb3NzeSgpLnRvX3N0cmluZygpLAogICAgICAgIF0pPzsKICAgICAgICBsZXQgY2VydCA9IHN0ZDo6ZnM6OnJlYWRfdG9fc3RyaW5nKGNlcnRfcGF0aCk/OwogICAgICAgIGxldCBrZXkgPSBzdGQ6OmZzOjpyZWFkX3RvX3N0cmluZyhrZXlfcGF0aCk/OwogICAgICAgIHZhbGlkYXRlX3NzbF9jZXJ0KCZjZXJ0LCAma2V5KT87CiAgICAgICAgT2soKGNlcnQsIGtleSkpCiAgICB9KSgpOwogICAgbGV0IF8gPSBzdGQ6OmZzOjpyZW1vdmVfZGlyX2FsbCh0ZW1wX2Rpcik7CiAgICByZXN1bHQKfQoKI1tjZmcod2luZG93cyldCnB1YihzdXBlcikgZm4gaXNzdWVfY2Ffc2VydmVyX2NlcnQoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaG9zdHM6ICZbU3RyaW5nXSwKKSAtPiBhbnlob3c6OlJlc3VsdDwoU3RyaW5nLCBTdHJpbmcpPiB7CiAgICBsZXQgcGF0aHMgPSBjYV9wYXRocyhzdGF0ZSk7CiAgICBpZiAhcGF0aHMuY2VydC5leGlzdHMoKSB8fCAhcGF0aHMua2V5LmV4aXN0cygpIHsKICAgICAgICBhbnlob3c6OmJhaWwhKCJSb290IENBIG5vdCBpbml0aWFsaXplZCIpOwogICAgfQogICAgbGV0IGNsZWFuX2hvc3RzID0gaG9zdHMKICAgICAgICAuaXRlcigpCiAgICAgICAgLm1hcCh8aG9zdHwgaG9zdC50cmltKCkudG9fc3RyaW5nKCkpCiAgICAgICAgLmZpbHRlcih8aG9zdHwgIWhvc3QuaXNfZW1wdHkoKSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGlmIGNsZWFuX2hvc3RzLmlzX2VtcHR5KCkgewogICAgICAgIGFueWhvdzo6YmFpbCEoIk5vIGhvc3RzIGNvbmZpZ3VyZWQiKTsKICAgIH0KICAgIGxldCBjYV9jZXJ0ID0gc3RkOjpmczo6cmVhZF90b19zdHJpbmcocGF0aHMuY2VydCk/OwogICAgbGV0IGNhX2tleSA9IHN0ZDo6ZnM6OnJlYWRfdG9fc3RyaW5nKHBhdGhzLmtleSk/OwogICAgbGV0IChjZXJ0LCBrZXkpID0gZ2VuZXJhdGVfd2luZG93c19jYV9zZXJ2ZXJfY2VydCgmY2FfY2VydCwgJmNhX2tleSwgJmNsZWFuX2hvc3RzKT87CiAgICB2YWxpZGF0ZV9zc2xfY2VydCgmY2VydCwgJmtleSk/OwogICAgT2soKGNlcnQsIGtleSkpCn0KCiNbY2ZnKGFueSh3aW5kb3dzLCB0ZXN0KSldCmZuIHdpbmRvd3NfY2VydGlmaWNhdGVfdmFsaWRpdHkoKSAtPiAoOjp0aW1lOjpPZmZzZXREYXRlVGltZSwgOjp0aW1lOjpPZmZzZXREYXRlVGltZSkgewogICAgbGV0IG5vdyA9IDo6dGltZTo6T2Zmc2V0RGF0ZVRpbWU6Om5vd191dGMoKTsKICAgICgKICAgICAgICBub3cgLSA6OnRpbWU6OkR1cmF0aW9uOjpkYXlzKDEpLAogICAgICAgIG5vdyArIDo6dGltZTo6RHVyYXRpb246OmRheXMoMjAgKiAzNjUpLAogICAgKQp9CgojW2NmZyhhbnkod2luZG93cywgdGVzdCkpXQpmbiBnZW5lcmF0ZV93aW5kb3dzX3Jvb3RfY2EoKSAtPiBhbnlob3c6OlJlc3VsdDwoU3RyaW5nLCBTdHJpbmcpPiB7CiAgICB1c2UgcmNnZW46OnsKICAgICAgICBCYXNpY0NvbnN0cmFpbnRzLCBDZXJ0aWZpY2F0ZVBhcmFtcywgRGlzdGluZ3Vpc2hlZE5hbWUsIERuVHlwZSwgSXNDYSwgS2V5UGFpciwKICAgICAgICBLZXlVc2FnZVB1cnBvc2UsCiAgICB9OwoKICAgIGxldCAobm90X2JlZm9yZSwgbm90X2FmdGVyKSA9IHdpbmRvd3NfY2VydGlmaWNhdGVfdmFsaWRpdHkoKTsKICAgIGxldCBtdXQgZGlzdGluZ3Vpc2hlZF9uYW1lID0gRGlzdGluZ3Vpc2hlZE5hbWU6Om5ldygpOwogICAgZGlzdGluZ3Vpc2hlZF9uYW1lLnB1c2goRG5UeXBlOjpDb21tb25OYW1lLCAiS0NJLUxOSyBSb290IENlcnRpZmljYXRlIEF1dGhvcml0eSIpOwogICAgZGlzdGluZ3Vpc2hlZF9uYW1lLnB1c2goRG5UeXBlOjpPcmdhbml6YXRpb25OYW1lLCAiS0NJLUxOSyBDb3Jwb3JhdGlvbiIpOwogICAgZGlzdGluZ3Vpc2hlZF9uYW1lLnB1c2goCiAgICAgICAgRG5UeXBlOjpPcmdhbml6YXRpb25hbFVuaXROYW1lLAogICAgICAgICJJbmZvcm1hdGlvbiBTZWN1cml0eSBEZXBhcnRtZW50IiwKICAgICk7CiAgICBkaXN0aW5ndWlzaGVkX25hbWUucHVzaChEblR5cGU6OkNvdW50cnlOYW1lLCAiVFciKTsKICAgIGRpc3Rpbmd1aXNoZWRfbmFtZS5wdXNoKERuVHlwZTo6U3RhdGVPclByb3ZpbmNlTmFtZSwgIlRhaXdhbiIpOwogICAgZGlzdGluZ3Vpc2hlZF9uYW1lLnB1c2goRG5UeXBlOjpMb2NhbGl0eU5hbWUsICJUYWlwZWkiKTsKCiAgICBsZXQgbXV0IHBhcmFtcyA9IENlcnRpZmljYXRlUGFyYW1zOjpkZWZhdWx0KCk7CiAgICBwYXJhbXMubm90X2JlZm9yZSA9IG5vdF9iZWZvcmU7CiAgICBwYXJhbXMubm90X2FmdGVyID0gbm90X2FmdGVyOwogICAgcGFyYW1zLmRpc3Rpbmd1aXNoZWRfbmFtZSA9IGRpc3Rpbmd1aXNoZWRfbmFtZTsKICAgIHBhcmFtcy5pc19jYSA9IElzQ2E6OkNhKEJhc2ljQ29uc3RyYWludHM6OkNvbnN0cmFpbmVkKDApKTsKICAgIHBhcmFtcy5rZXlfdXNhZ2VzID0gdmVjIVsKICAgICAgICBLZXlVc2FnZVB1cnBvc2U6OktleUNlcnRTaWduLAogICAgICAgIEtleVVzYWdlUHVycG9zZTo6Q3JsU2lnbiwKICAgICAgICBLZXlVc2FnZVB1cnBvc2U6OkRpZ2l0YWxTaWduYXR1cmUsCiAgICBdOwogICAgbGV0IGtleSA9IEtleVBhaXI6OmdlbmVyYXRlKCk/OwogICAgbGV0IGNlcnQgPSBwYXJhbXMuc2VsZl9zaWduZWQoJmtleSk/OwogICAgT2soKGNlcnQucGVtKCksIGtleS5zZXJpYWxpemVfcGVtKCkpKQp9CgojW2NmZyhhbnkod2luZG93cywgdGVzdCkpXQpmbiBnZW5lcmF0ZV93aW5kb3dzX2NhX3NlcnZlcl9jZXJ0KAogICAgY2FfY2VydDogJnN0ciwKICAgIGNhX2tleTogJnN0ciwKICAgIGhvc3RzOiAmW1N0cmluZ10sCikgLT4gYW55aG93OjpSZXN1bHQ8KFN0cmluZywgU3RyaW5nKT4gewogICAgdXNlIHJjZ2VuOjp7CiAgICAgICAgQ2VydGlmaWNhdGVQYXJhbXMsIERpc3Rpbmd1aXNoZWROYW1lLCBEblR5cGUsIEV4dGVuZGVkS2V5VXNhZ2VQdXJwb3NlLCBJc0NhLCBJc3N1ZXIsCiAgICAgICAgS2V5UGFpciwgS2V5VXNhZ2VQdXJwb3NlLAogICAgfTsKCiAgICBsZXQgY29tbW9uX25hbWUgPSBob3N0cwogICAgICAgIC5maXJzdCgpCiAgICAgICAgLm1hcChTdHJpbmc6OmFzX3N0cikKICAgICAgICAudW53cmFwX29yKCJLQ0ktTE5LIFJvb3QgQ2VydGlmaWNhdGUiKTsKICAgIGxldCBjYV9rZXkgPSBLZXlQYWlyOjpmcm9tX3BlbShjYV9rZXkpPzsKICAgIGxldCBpc3N1ZXIgPSBJc3N1ZXI6OmZyb21fY2FfY2VydF9wZW0oY2FfY2VydCwgY2Ffa2V5KT87CiAgICBsZXQgKG5vdF9iZWZvcmUsIG5vdF9hZnRlcikgPSB3aW5kb3dzX2NlcnRpZmljYXRlX3ZhbGlkaXR5KCk7CiAgICBsZXQgbXV0IGRpc3Rpbmd1aXNoZWRfbmFtZSA9IERpc3Rpbmd1aXNoZWROYW1lOjpuZXcoKTsKICAgIGRpc3Rpbmd1aXNoZWRfbmFtZS5wdXNoKERuVHlwZTo6Q29tbW9uTmFtZSwgY29tbW9uX25hbWUpOwogICAgbGV0IG11dCBwYXJhbXMgPSBDZXJ0aWZpY2F0ZVBhcmFtczo6bmV3KGhvc3RzLnRvX3ZlYygpKT87CiAgICBwYXJhbXMubm90X2JlZm9yZSA9IG5vdF9iZWZvcmU7CiAgICBwYXJhbXMubm90X2FmdGVyID0gbm90X2FmdGVyOwogICAgcGFyYW1zLmRpc3Rpbmd1aXNoZWRfbmFtZSA9IGRpc3Rpbmd1aXNoZWRfbmFtZTsKICAgIHBhcmFtcy5pc19jYSA9IElzQ2E6OkV4cGxpY2l0Tm9DYTsKICAgIHBhcmFtcy5rZXlfdXNhZ2VzID0gdmVjIVsKICAgICAgICBLZXlVc2FnZVB1cnBvc2U6OkRpZ2l0YWxTaWduYXR1cmUsCiAgICAgICAgS2V5VXNhZ2VQdXJwb3NlOjpLZXlFbmNpcGhlcm1lbnQsCiAgICBdOwogICAgcGFyYW1zLmV4dGVuZGVkX2tleV91c2FnZXMgPSB2ZWMhW0V4dGVuZGVkS2V5VXNhZ2VQdXJwb3NlOjpTZXJ2ZXJBdXRoXTsKICAgIHBhcmFtcy51c2VfYXV0aG9yaXR5X2tleV9pZGVudGlmaWVyX2V4dGVuc2lvbiA9IHRydWU7CgogICAgbGV0IGtleSA9IEtleVBhaXI6OmdlbmVyYXRlKCk/OwogICAgbGV0IGNlcnQgPSBwYXJhbXMuc2lnbmVkX2J5KCZrZXksICZpc3N1ZXIpPzsKICAgIE9rKChjZXJ0LnBlbSgpLCBrZXkuc2VyaWFsaXplX3BlbSgpKSkKfQoKcHViKHN1cGVyKSBmbiBvcGVuc3NsX3NlcnZlcl9jZXJ0X2NvbmZpZyhob3N0czogJltTdHJpbmddKSAtPiBTdHJpbmcgewogICAgbGV0IGNvbW1vbl9uYW1lID0gaG9zdHMKICAgICAgICAuZmlyc3QoKQogICAgICAgIC5tYXAofGhvc3R8IG9wZW5zc2xfZG5fdmFsdWUoaG9zdCkpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8ICJLQ0ktTE5LIFJvb3QgQ2VydGlmaWNhdGUiLnRvX3N0cmluZygpKTsKICAgIGxldCBtdXQgZG5zX2luZGV4ID0gMTsKICAgIGxldCBtdXQgaXBfaW5kZXggPSAxOwogICAgbGV0IG11dCBhbHRfbmFtZXMgPSBWZWM6Om5ldygpOwogICAgZm9yIGhvc3QgaW4gaG9zdHMgewogICAgICAgIGlmIGhvc3QucGFyc2U6OjxJcEFkZHI+KCkuaXNfb2soKSB7CiAgICAgICAgICAgIGFsdF9uYW1lcy5wdXNoKGZvcm1hdCEoIklQLntpcF9pbmRleH0gPSB7aG9zdH0iKSk7CiAgICAgICAgICAgIGlwX2luZGV4ICs9IDE7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgYWx0X25hbWVzLnB1c2goZm9ybWF0ISgiRE5TLntkbnNfaW5kZXh9ID0ge2hvc3R9IikpOwogICAgICAgICAgICBkbnNfaW5kZXggKz0gMTsKICAgICAgICB9CiAgICB9CiAgICBmb3JtYXQhKAogICAgICAgICJbcmVxXVxucHJvbXB0ID0gbm9cbmRpc3Rpbmd1aXNoZWRfbmFtZSA9IHJlcV9kaXN0aW5ndWlzaGVkX25hbWVcbnJlcV9leHRlbnNpb25zID0gdjNfcmVxXG5cbltyZXFfZGlzdGluZ3Vpc2hlZF9uYW1lXVxuQ04gPSB7Y29tbW9uX25hbWV9XG5cblt2M19yZXFdXG5iYXNpY0NvbnN0cmFpbnRzID0gQ0E6RkFMU0VcbmtleVVzYWdlID0gZGlnaXRhbFNpZ25hdHVyZSwga2V5RW5jaXBoZXJtZW50XG5leHRlbmRlZEtleVVzYWdlID0gc2VydmVyQXV0aFxuc3ViamVjdEFsdE5hbWUgPSBAYWx0X25hbWVzXG5cblthbHRfbmFtZXNdXG57fVxuIiwKICAgICAgICBhbHRfbmFtZXMuam9pbigiXG4iKQogICAgKQp9CgpwdWIoc3VwZXIpIGZuIG9wZW5zc2xfZG5fdmFsdWUodmFsdWU6ICZzdHIpIC0+IFN0cmluZyB7CiAgICB2YWx1ZS5yZXBsYWNlKCdcXCcsICJcXFxcIikucmVwbGFjZShbJ1xuJywgJ1xyJ10sICIiKQp9CgpwdWIoc3VwZXIpIGZuIHJ1bl9vcGVuc3NsKGFyZ3M6IFZlYzxTdHJpbmc+KSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgcnVuX29wZW5zc2xfY2FwdHVyZShhcmdzKS5tYXAofF98ICgpKQp9CgpwdWIoc3VwZXIpIGZuIHJ1bl9vcGVuc3NsX2NhcHR1cmUoYXJnczogVmVjPFN0cmluZz4pIC0+IGFueWhvdzo6UmVzdWx0PFN0cmluZz4gewogICAgbGV0IG91dHB1dCA9IENvbW1hbmQ6Om5ldygib3BlbnNzbCIpCiAgICAgICAgLmFyZ3MoJmFyZ3MpCiAgICAgICAgLnN0ZGluKFN0ZGlvOjpudWxsKCkpCiAgICAgICAgLm91dHB1dCgpPzsKICAgIGlmIG91dHB1dC5zdGF0dXMuc3VjY2VzcygpIHsKICAgICAgICByZXR1cm4gT2soU3RyaW5nOjpmcm9tX3V0ZjhfbG9zc3koJm91dHB1dC5zdGRvdXQpLnRvX3N0cmluZygpKTsKICAgIH0KICAgIGxldCBkZXRhaWwgPSBmb3JtYXQhKAogICAgICAgICJ7fVxue30iLAogICAgICAgIFN0cmluZzo6ZnJvbV91dGY4X2xvc3N5KCZvdXRwdXQuc3RkZXJyKSwKICAgICAgICBTdHJpbmc6OmZyb21fdXRmOF9sb3NzeSgmb3V0cHV0LnN0ZG91dCkKICAgICkKICAgIC5saW5lcygpCiAgICAubWFwKHN0cjo6dHJpbSkKICAgIC5maWx0ZXIofGxpbmV8ICFsaW5lLmlzX2VtcHR5KCkpCiAgICAucmV2KCkKICAgIC50YWtlKDgpCiAgICAuY29sbGVjdDo6PFZlYzxfPj4oKQogICAgLmludG9faXRlcigpCiAgICAucmV2KCkKICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpCiAgICAuam9pbigiIHwgIik7CiAgICBFcnIoYW55aG93ISgKICAgICAgICAie30iLAogICAgICAgIGlmIGRldGFpbC5pc19lbXB0eSgpIHsKICAgICAgICAgICAgIm9wZW5zc2wgY29tbWFuZCBmYWlsZWQiLnRvX3N0cmluZygpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZGV0YWlsCiAgICAgICAgfQogICAgKSkKfQoKI1tjZmcobm90KHdpbmRvd3MpKV0KcHViKHN1cGVyKSBmbiB2YWxpZGF0ZV9zc2xfY2VydF9wYWlyKGNlcnQ6ICZzdHIsIGtleTogJnN0cikgLT4gUmVzdWx0PCgpLCBTc2xWYWxpZGF0aW9uRXJyb3I+IHsKICAgIGxldCB0ZW1wX2RpciA9IHN0ZDo6ZW52Ojp0ZW1wX2RpcigpLmpvaW4oZm9ybWF0ISgiZm4ta25vY2stc3NsLXt9IiwgVXVpZDo6bmV3X3Y0KCkpKTsKICAgIHN0ZDo6ZnM6OmNyZWF0ZV9kaXJfYWxsKCZ0ZW1wX2RpcikKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IFNzbFZhbGlkYXRpb25FcnJvcjo6Q2VydEtleUNoZWNrRmFpbGVkKGVycm9yLnRvX3N0cmluZygpKSk/OwogICAgbGV0IHJlc3VsdCA9ICh8fCB7CiAgICAgICAgbGV0IGNlcnRfcGF0aCA9IHRlbXBfZGlyLmpvaW4oImNlcnQucGVtIik7CiAgICAgICAgbGV0IGtleV9wYXRoID0gdGVtcF9kaXIuam9pbigia2V5LnBlbSIpOwogICAgICAgIHN0ZDo6ZnM6OndyaXRlKCZjZXJ0X3BhdGgsIGNlcnQpCiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgU3NsVmFsaWRhdGlvbkVycm9yOjpDZXJ0S2V5Q2hlY2tGYWlsZWQoZXJyb3IudG9fc3RyaW5nKCkpKT87CiAgICAgICAgc3RkOjpmczo6d3JpdGUoJmtleV9wYXRoLCBrZXkpCiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgU3NsVmFsaWRhdGlvbkVycm9yOjpDZXJ0S2V5Q2hlY2tGYWlsZWQoZXJyb3IudG9fc3RyaW5nKCkpKT87CgogICAgICAgIGxldCBjZXJ0X3B1YmxpY19rZXkgPSBydW5fb3BlbnNzbF9jYXB0dXJlKHZlYyFbCiAgICAgICAgICAgICJ4NTA5Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgIi1pbiIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGNlcnRfcGF0aC50b19zdHJpbmdfbG9zc3koKS50b19zdHJpbmcoKSwKICAgICAgICAgICAgIi1ub291dCIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICItcHVia2V5Ii50b19zdHJpbmcoKSwKICAgICAgICBdKQogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgU3NsVmFsaWRhdGlvbkVycm9yOjpDZXJ0Rm9ybWF0SW52YWxpZChlcnJvci50b19zdHJpbmcoKSkpPzsKICAgICAgICBsZXQga2V5X3B1YmxpY19rZXkgPSBydW5fb3BlbnNzbF9jYXB0dXJlKHZlYyFbCiAgICAgICAgICAgICJwa2V5Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgIi1pbiIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGtleV9wYXRoLnRvX3N0cmluZ19sb3NzeSgpLnRvX3N0cmluZygpLAogICAgICAgICAgICAiLXB1Ym91dCIudG9fc3RyaW5nKCksCiAgICAgICAgXSkKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IFNzbFZhbGlkYXRpb25FcnJvcjo6S2V5Rm9ybWF0SW52YWxpZChlcnJvci50b19zdHJpbmcoKSkpPzsKCiAgICAgICAgaWYgbm9ybWFsaXplX3B1YmxpY19rZXlfcGVtKCZjZXJ0X3B1YmxpY19rZXkpICE9IG5vcm1hbGl6ZV9wdWJsaWNfa2V5X3BlbSgma2V5X3B1YmxpY19rZXkpIHsKICAgICAgICAgICAgcmV0dXJuIEVycihTc2xWYWxpZGF0aW9uRXJyb3I6OkNlcnRLZXlNaXNtYXRjaCk7CiAgICAgICAgfQogICAgICAgIE9rKCgpKQogICAgfSkoKTsKICAgIGxldCBfID0gc3RkOjpmczo6cmVtb3ZlX2Rpcl9hbGwodGVtcF9kaXIpOwogICAgcmVzdWx0Cn0KCiNbY2ZnKHdpbmRvd3MpXQpwdWIoc3VwZXIpIGZuIHZhbGlkYXRlX3NzbF9jZXJ0X3BhaXIoY2VydDogJnN0ciwga2V5OiAmc3RyKSAtPiBSZXN1bHQ8KCksIFNzbFZhbGlkYXRpb25FcnJvcj4gewogICAgdmFsaWRhdGVfc3NsX2NlcnRfcGFpcl9uYXRpdmUoY2VydCwga2V5KQp9CgojW2NmZyhhbnkod2luZG93cywgdGVzdCkpXQpmbiB2YWxpZGF0ZV9zc2xfY2VydF9wYWlyX25hdGl2ZShjZXJ0OiAmc3RyLCBrZXk6ICZzdHIpIC0+IFJlc3VsdDwoKSwgU3NsVmFsaWRhdGlvbkVycm9yPiB7CiAgICB1c2UgcnVzdGxzOjp7CiAgICAgICAgSW5jb25zaXN0ZW50S2V5cywKICAgICAgICBwa2lfdHlwZXM6OntDZXJ0aWZpY2F0ZURlciwgUHJpdmF0ZUtleURlciwgcGVtOjpQZW1PYmplY3R9LAogICAgICAgIHNpZ246OkNlcnRpZmllZEtleSwKICAgIH07CgogICAgLy8gUEVNIGRlY29kaW5nIGFsb25lIGRvZXMgbm90IHByb3ZlIHRoYXQgdGhlIGZpcnN0IGJsb2NrIGNvbnRhaW5zIGEgdmFsaWQKICAgIC8vIFguNTA5IGNlcnRpZmljYXRlLiBLZWVwIHRoZSBwYXJzZXIgdXNlZCBieSB0aGUgcmVzdCBvZiB0aGUgYXBwbGljYXRpb24gYXMKICAgIC8vIHRoZSBmb3JtYXQgZ2F0ZSBiZWZvcmUgYXNraW5nIHJ1c3RscyB0byBjb21wYXJlIHB1YmxpYyBrZXlzLgogICAgaWYgcGFyc2VfY2VydF9pbmZvKGNlcnQpLmlzX25vbmUoKSB7CiAgICAgICAgcmV0dXJuIEVycihTc2xWYWxpZGF0aW9uRXJyb3I6OkNlcnRGb3JtYXRJbnZhbGlkKAogICAgICAgICAgICAidW5hYmxlIHRvIHBhcnNlIFguNTA5IGNlcnRpZmljYXRlIi50b19zdHJpbmcoKSwKICAgICAgICApKTsKICAgIH0KICAgIGxldCBjZXJ0X2NoYWluID0gQ2VydGlmaWNhdGVEZXI6OnBlbV9zbGljZV9pdGVyKGNlcnQuYXNfYnl0ZXMoKSkKICAgICAgICAuY29sbGVjdDo6PFJlc3VsdDxWZWM8Xz4sIF8+PigpCiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBTc2xWYWxpZGF0aW9uRXJyb3I6OkNlcnRGb3JtYXRJbnZhbGlkKGVycm9yLnRvX3N0cmluZygpKSk/OwogICAgaWYgY2VydF9jaGFpbi5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gRXJyKFNzbFZhbGlkYXRpb25FcnJvcjo6Q2VydEZvcm1hdEludmFsaWQoCiAgICAgICAgICAgICJubyBjZXJ0aWZpY2F0ZSBQRU0gYmxvY2sgZm91bmQiLnRvX3N0cmluZygpLAogICAgICAgICkpOwogICAgfQogICAgbGV0IHByaXZhdGVfa2V5ID0gUHJpdmF0ZUtleURlcjo6ZnJvbV9wZW1fc2xpY2Uoa2V5LmFzX2J5dGVzKCkpCiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBTc2xWYWxpZGF0aW9uRXJyb3I6OktleUZvcm1hdEludmFsaWQoZXJyb3IudG9fc3RyaW5nKCkpKT87CiAgICBsZXQgcHJvdmlkZXIgPSBydXN0bHM6OmNyeXB0bzo6cmluZzo6ZGVmYXVsdF9wcm92aWRlcigpOwogICAgbWF0Y2ggQ2VydGlmaWVkS2V5Ojpmcm9tX2RlcihjZXJ0X2NoYWluLCBwcml2YXRlX2tleSwgJnByb3ZpZGVyKSB7CiAgICAgICAgT2soXykgPT4gT2soKCkpLAogICAgICAgIEVycihydXN0bHM6OkVycm9yOjpJbmNvbnNpc3RlbnRLZXlzKEluY29uc2lzdGVudEtleXM6OktleU1pc21hdGNoKSkgPT4gewogICAgICAgICAgICBFcnIoU3NsVmFsaWRhdGlvbkVycm9yOjpDZXJ0S2V5TWlzbWF0Y2gpCiAgICAgICAgfQogICAgICAgIEVycihlcnJvcikgPT4gRXJyKFNzbFZhbGlkYXRpb25FcnJvcjo6S2V5Rm9ybWF0SW52YWxpZChlcnJvci50b19zdHJpbmcoKSkpLAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9wdWJsaWNfa2V5X3BlbSh2YWx1ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIHZhbHVlCiAgICAgICAgLmxpbmVzKCkKICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAuZmlsdGVyKHxsaW5lfCAhbGluZS5pc19lbXB0eSgpKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpCiAgICAgICAgLmpvaW4oIlxuIikKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfY2FfaG9zdHMoc3RhdGU6ICZBcHBTdGF0ZSkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8VmVjPFN0cmluZz4+IHsKICAgIE9rKHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZ2V0X2pzb25fdmFsdWUoQ0FfSE9TVFNfS0VZKQogICAgICAgIC5hd2FpdD8KICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB7CiAgICAgICAgICAgIHZhbHVlLmFzX2FycmF5KCkubWFwKHxpdGVtc3wgewogICAgICAgICAgICAgICAgaXRlbXMKICAgICAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAgICAgLmZpbHRlcl9tYXAoVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgICAgICAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpCiAgICAgICAgICAgIH0pCiAgICAgICAgfSkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzYXZlX2NhX2hvc3RzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGhvc3RzOiAmW1N0cmluZ10sCikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2V0X2pzb25fdmFsdWUoQ0FfSE9TVFNfS0VZLCAmanNvbiEoaG9zdHMpKQogICAgICAgIC5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGFkZF9jYV9ob3N0X2lubmVyKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGhvc3Q6ICZzdHIsCikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8VmVjPFN0cmluZz4+IHsKICAgIGxldCBtdXQgaG9zdHMgPSBnZXRfY2FfaG9zdHMoc3RhdGUpLmF3YWl0PzsKICAgIGxldCBob3N0ID0gaG9zdC50cmltKCk7CiAgICBpZiAhaG9zdC5pc19lbXB0eSgpICYmICFob3N0cy5pdGVyKCkuYW55KHxpdGVtfCBpdGVtID09IGhvc3QpIHsKICAgICAgICBob3N0cy5wdXNoKGhvc3QudG9fc3RyaW5nKCkpOwogICAgICAgIHNhdmVfY2FfaG9zdHMoc3RhdGUsICZob3N0cykuYXdhaXQ/OwogICAgfQogICAgT2soaG9zdHMpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gcmVtb3ZlX2NhX2hvc3RfaW5uZXIoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaG9zdDogJnN0ciwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxWZWM8U3RyaW5nPj4gewogICAgbGV0IG11dCBob3N0cyA9IGdldF9jYV9ob3N0cyhzdGF0ZSkuYXdhaXQ/OwogICAgbGV0IGJlZm9yZSA9IGhvc3RzLmxlbigpOwogICAgaG9zdHMucmV0YWluKHxpdGVtfCBpdGVtICE9IGhvc3QudHJpbSgpKTsKICAgIGlmIGhvc3RzLmxlbigpICE9IGJlZm9yZSB7CiAgICAgICAgc2F2ZV9jYV9ob3N0cyhzdGF0ZSwgJmhvc3RzKS5hd2FpdD87CiAgICB9CiAgICBPayhob3N0cykKfQoKI1tjZmcodW5peCldCnB1YihzdXBlcikgZm4gY2htb2RfcHJpdmF0ZShwYXRoOiAmUGF0aCkgewogICAgdXNlIHN0ZDo6b3M6OnVuaXg6OmZzOjpQZXJtaXNzaW9uc0V4dDsKCiAgICBpZiBsZXQgT2sobWV0YWRhdGEpID0gc3RkOjpmczo6bWV0YWRhdGEocGF0aCkgewogICAgICAgIGxldCBtdXQgcGVybWlzc2lvbnMgPSBtZXRhZGF0YS5wZXJtaXNzaW9ucygpOwogICAgICAgIHBlcm1pc3Npb25zLnNldF9tb2RlKDBvNjAwKTsKICAgICAgICBsZXQgXyA9IHN0ZDo6ZnM6OnNldF9wZXJtaXNzaW9ucyhwYXRoLCBwZXJtaXNzaW9ucyk7CiAgICB9Cn0KCiNbY2ZnKG5vdCh1bml4KSldCnB1YihzdXBlcikgZm4gY2htb2RfcHJpdmF0ZShfcGF0aDogJlBhdGgpIHt9CgojW2NmZyh0ZXN0KV0KbW9kIHdpbmRvd3NfdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwoKICAgICNbdGVzdF0KICAgIGZuIG5hdGl2ZV9jYV9pc3N1ZXNfYW5kX3ZhbGlkYXRlc19kbnNfYW5kX2lwX2NlcnRpZmljYXRlKCkgewogICAgICAgIGxldCAoY2FfY2VydCwgY2Ffa2V5KSA9IGdlbmVyYXRlX3dpbmRvd3Nfcm9vdF9jYSgpLmV4cGVjdCgiZ2VuZXJhdGUgV2luZG93cyByb290IENBIik7CiAgICAgICAgbGV0IGhvc3RzID0gdmVjIVsiZXhhbXBsZS50ZXN0Ii50b19zdHJpbmcoKSwgIjEyNy4wLjAuMSIudG9fc3RyaW5nKCldOwogICAgICAgIGxldCAoY2VydCwga2V5KSA9IGdlbmVyYXRlX3dpbmRvd3NfY2Ffc2VydmVyX2NlcnQoJmNhX2NlcnQsICZjYV9rZXksICZob3N0cykKICAgICAgICAgICAgLmV4cGVjdCgiaXNzdWUgV2luZG93cyBzZXJ2ZXIgY2VydGlmaWNhdGUiKTsKCiAgICAgICAgdmFsaWRhdGVfc3NsX2NlcnRfcGFpcl9uYXRpdmUoJmNlcnQsICZrZXkpLmV4cGVjdCgiY2VydGlmaWNhdGUgYW5kIGtleSBtdXN0IG1hdGNoIik7CiAgICAgICAgbGV0IGluZm8gPSBwYXJzZV9jZXJ0X2luZm8oJmNlcnQpLmV4cGVjdCgiY2VydGlmaWNhdGUgbXVzdCBwYXJzZSIpOwogICAgICAgIGFzc2VydF9lcSEoaW5mb1siZG5zTmFtZXMiXVswXSwganNvbiEoImV4YW1wbGUudGVzdCIpKTsKICAgICAgICBhc3NlcnRfZXEhKGluZm9bImRuc05hbWVzIl1bMV0sIGpzb24hKCIxMjcuMC4wLjEiKSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gbmF0aXZlX3ZhbGlkYXRvcl9yZWplY3RzX21pc21hdGNoZWRfcHJpdmF0ZV9rZXkoKSB7CiAgICAgICAgbGV0IChjYV9jZXJ0LCBjYV9rZXkpID0gZ2VuZXJhdGVfd2luZG93c19yb290X2NhKCkuZXhwZWN0KCJnZW5lcmF0ZSBXaW5kb3dzIHJvb3QgQ0EiKTsKICAgICAgICBsZXQgaG9zdHMgPSB2ZWMhWyJleGFtcGxlLnRlc3QiLnRvX3N0cmluZygpXTsKICAgICAgICBsZXQgKGNlcnQsIF8pID0gZ2VuZXJhdGVfd2luZG93c19jYV9zZXJ2ZXJfY2VydCgmY2FfY2VydCwgJmNhX2tleSwgJmhvc3RzKQogICAgICAgICAgICAuZXhwZWN0KCJpc3N1ZSBmaXJzdCBXaW5kb3dzIHNlcnZlciBjZXJ0aWZpY2F0ZSIpOwogICAgICAgIGxldCAoXywgb3RoZXJfa2V5KSA9IGdlbmVyYXRlX3dpbmRvd3NfY2Ffc2VydmVyX2NlcnQoJmNhX2NlcnQsICZjYV9rZXksICZob3N0cykKICAgICAgICAgICAgLmV4cGVjdCgiaXNzdWUgc2Vjb25kIFdpbmRvd3Mgc2VydmVyIGNlcnRpZmljYXRlIik7CgogICAgICAgIGFzc2VydCEobWF0Y2hlcyEoCiAgICAgICAgICAgIHZhbGlkYXRlX3NzbF9jZXJ0X3BhaXJfbmF0aXZlKCZjZXJ0LCAmb3RoZXJfa2V5KSwKICAgICAgICAgICAgRXJyKFNzbFZhbGlkYXRpb25FcnJvcjo6Q2VydEtleU1pc21hdGNoKQogICAgICAgICkpOwogICAgfQp9Cg==
+use super::*;
+
+pub(super) struct CaPaths {
+    pub(super) dir: PathBuf,
+    pub(super) cert: PathBuf,
+    pub(super) key: PathBuf,
+}
+
+pub(super) fn ca_paths(state: &AppState) -> CaPaths {
+    let dir = state.settings.data_dir.join("ssl");
+    CaPaths {
+        cert: dir.join(CA_CERT_FILENAME),
+        key: dir.join(CA_KEY_FILENAME),
+        dir,
+    }
+}
+
+#[cfg(not(windows))]
+pub(super) fn init_root_ca(state: &AppState) -> anyhow::Result<Value> {
+    let paths = ca_paths(state);
+    std::fs::create_dir_all(&paths.dir)?;
+    let subject = "/CN=KCI-LNK Root Certificate Authority/O=KCI-LNK Corporation/OU=Information Security Department/C=TW/ST=Taiwan/L=Taipei";
+    run_openssl(vec![
+        "req".to_string(),
+        "-x509".to_string(),
+        "-newkey".to_string(),
+        "rsa:2048".to_string(),
+        "-sha256".to_string(),
+        "-days".to_string(),
+        (20 * 365).to_string(),
+        "-nodes".to_string(),
+        "-keyout".to_string(),
+        paths.key.to_string_lossy().to_string(),
+        "-out".to_string(),
+        paths.cert.to_string_lossy().to_string(),
+        "-subj".to_string(),
+        subject.to_string(),
+        "-addext".to_string(),
+        "basicConstraints=critical,CA:TRUE,pathlen:0".to_string(),
+        "-addext".to_string(),
+        "keyUsage=critical,keyCertSign,cRLSign,digitalSignature".to_string(),
+    ])?;
+    chmod_private(&paths.cert);
+    chmod_private(&paths.key);
+    let cert = std::fs::read_to_string(&paths.cert)?;
+    parse_cert_info(&cert).ok_or_else(|| anyhow!("generated root CA certificate is invalid"))
+}
+
+#[cfg(windows)]
+pub(super) fn init_root_ca(state: &AppState) -> anyhow::Result<Value> {
+    let paths = ca_paths(state);
+    std::fs::create_dir_all(&paths.dir)?;
+    let (cert, key) = generate_windows_root_ca()?;
+    std::fs::write(&paths.cert, &cert)?;
+    std::fs::write(&paths.key, key)?;
+    chmod_private(&paths.cert);
+    chmod_private(&paths.key);
+    parse_cert_info(&cert).ok_or_else(|| anyhow!("generated root CA certificate is invalid"))
+}
+
+#[cfg(not(windows))]
+pub(super) fn issue_ca_server_cert(
+    state: &AppState,
+    hosts: &[String],
+) -> anyhow::Result<(String, String)> {
+    let paths = ca_paths(state);
+    if !paths.cert.exists() || !paths.key.exists() {
+        anyhow::bail!("Root CA not initialized");
+    }
+    let clean_hosts = hosts
+        .iter()
+        .map(|host| host.trim().to_string())
+        .filter(|host| !host.is_empty())
+        .collect::<Vec<_>>();
+    if clean_hosts.is_empty() {
+        anyhow::bail!("No hosts configured");
+    }
+    let temp_dir = std::env::temp_dir().join(format!("fn-knock-ca-{}", Uuid::new_v4()));
+    std::fs::create_dir_all(&temp_dir)?;
+    let result = (|| {
+        let key_path = temp_dir.join("server-key.pem");
+        let csr_path = temp_dir.join("server.csr");
+        let cert_path = temp_dir.join("server-cert.pem");
+        let config_path = temp_dir.join("openssl.cnf");
+        std::fs::write(&config_path, openssl_server_cert_config(&clean_hosts))?;
+        run_openssl(vec![
+            "genrsa".to_string(),
+            "-out".to_string(),
+            key_path.to_string_lossy().to_string(),
+            "2048".to_string(),
+        ])?;
+        run_openssl(vec![
+            "req".to_string(),
+            "-new".to_string(),
+            "-key".to_string(),
+            key_path.to_string_lossy().to_string(),
+            "-out".to_string(),
+            csr_path.to_string_lossy().to_string(),
+            "-config".to_string(),
+            config_path.to_string_lossy().to_string(),
+        ])?;
+        run_openssl(vec![
+            "x509".to_string(),
+            "-req".to_string(),
+            "-in".to_string(),
+            csr_path.to_string_lossy().to_string(),
+            "-CA".to_string(),
+            paths.cert.to_string_lossy().to_string(),
+            "-CAkey".to_string(),
+            paths.key.to_string_lossy().to_string(),
+            "-CAcreateserial".to_string(),
+            "-out".to_string(),
+            cert_path.to_string_lossy().to_string(),
+            "-days".to_string(),
+            (20 * 365).to_string(),
+            "-sha256".to_string(),
+            "-extensions".to_string(),
+            "v3_req".to_string(),
+            "-extfile".to_string(),
+            config_path.to_string_lossy().to_string(),
+        ])?;
+        let cert = std::fs::read_to_string(cert_path)?;
+        let key = std::fs::read_to_string(key_path)?;
+        validate_ssl_cert(&cert, &key)?;
+        Ok((cert, key))
+    })();
+    let _ = std::fs::remove_dir_all(temp_dir);
+    result
+}
+
+#[cfg(windows)]
+pub(super) fn issue_ca_server_cert(
+    state: &AppState,
+    hosts: &[String],
+) -> anyhow::Result<(String, String)> {
+    let paths = ca_paths(state);
+    if !paths.cert.exists() || !paths.key.exists() {
+        anyhow::bail!("Root CA not initialized");
+    }
+    let clean_hosts = hosts
+        .iter()
+        .map(|host| host.trim().to_string())
+        .filter(|host| !host.is_empty())
+        .collect::<Vec<_>>();
+    if clean_hosts.is_empty() {
+        anyhow::bail!("No hosts configured");
+    }
+    let ca_cert = std::fs::read_to_string(paths.cert)?;
+    let ca_key = std::fs::read_to_string(paths.key)?;
+    let (cert, key) = generate_windows_ca_server_cert(&ca_cert, &ca_key, &clean_hosts)?;
+    validate_ssl_cert(&cert, &key)?;
+    Ok((cert, key))
+}
+
+#[cfg(any(windows, test))]
+fn windows_certificate_validity() -> (::time::OffsetDateTime, ::time::OffsetDateTime) {
+    let now = ::time::OffsetDateTime::now_utc();
+    (
+        now - ::time::Duration::days(1),
+        now + ::time::Duration::days(20 * 365),
+    )
+}
+
+#[cfg(any(windows, test))]
+fn generate_windows_root_ca() -> anyhow::Result<(String, String)> {
+    use rcgen::{
+        BasicConstraints, CertificateParams, DistinguishedName, DnType, IsCa, KeyPair,
+        KeyUsagePurpose,
+    };
+
+    let (not_before, not_after) = windows_certificate_validity();
+    let mut distinguished_name = DistinguishedName::new();
+    distinguished_name.push(DnType::CommonName, "KCI-LNK Root Certificate Authority");
+    distinguished_name.push(DnType::OrganizationName, "KCI-LNK Corporation");
+    distinguished_name.push(
+        DnType::OrganizationalUnitName,
+        "Information Security Department",
+    );
+    distinguished_name.push(DnType::CountryName, "TW");
+    distinguished_name.push(DnType::StateOrProvinceName, "Taiwan");
+    distinguished_name.push(DnType::LocalityName, "Taipei");
+
+    let mut params = CertificateParams::default();
+    params.not_before = not_before;
+    params.not_after = not_after;
+    params.distinguished_name = distinguished_name;
+    params.is_ca = IsCa::Ca(BasicConstraints::Constrained(0));
+    params.key_usages = vec![
+        KeyUsagePurpose::KeyCertSign,
+        KeyUsagePurpose::CrlSign,
+        KeyUsagePurpose::DigitalSignature,
+    ];
+    let key = KeyPair::generate()?;
+    let cert = params.self_signed(&key)?;
+    Ok((cert.pem(), key.serialize_pem()))
+}
+
+#[cfg(any(windows, test))]
+fn generate_windows_ca_server_cert(
+    ca_cert: &str,
+    ca_key: &str,
+    hosts: &[String],
+) -> anyhow::Result<(String, String)> {
+    use rcgen::{
+        CertificateParams, DistinguishedName, DnType, ExtendedKeyUsagePurpose, IsCa, Issuer,
+        KeyPair, KeyUsagePurpose,
+    };
+
+    let common_name = hosts
+        .first()
+        .map(String::as_str)
+        .unwrap_or("KCI-LNK Root Certificate");
+    let ca_key = KeyPair::from_pem(ca_key)?;
+    let issuer = Issuer::from_ca_cert_pem(ca_cert, ca_key)?;
+    let (not_before, not_after) = windows_certificate_validity();
+    let mut distinguished_name = DistinguishedName::new();
+    distinguished_name.push(DnType::CommonName, common_name);
+    let mut params = CertificateParams::new(hosts.to_vec())?;
+    params.not_before = not_before;
+    params.not_after = not_after;
+    params.distinguished_name = distinguished_name;
+    params.is_ca = IsCa::ExplicitNoCa;
+    params.key_usages = vec![
+        KeyUsagePurpose::DigitalSignature,
+        KeyUsagePurpose::KeyEncipherment,
+    ];
+    params.extended_key_usages = vec![ExtendedKeyUsagePurpose::ServerAuth];
+    params.use_authority_key_identifier_extension = true;
+
+    let key = KeyPair::generate()?;
+    let cert = params.signed_by(&key, &issuer)?;
+    Ok((cert.pem(), key.serialize_pem()))
+}
+
+pub(super) fn openssl_server_cert_config(hosts: &[String]) -> String {
+    let common_name = hosts
+        .first()
+        .map(|host| openssl_dn_value(host))
+        .unwrap_or_else(|| "KCI-LNK Root Certificate".to_string());
+    let mut dns_index = 1;
+    let mut ip_index = 1;
+    let mut alt_names = Vec::new();
+    for host in hosts {
+        if host.parse::<IpAddr>().is_ok() {
+            alt_names.push(format!("IP.{ip_index} = {host}"));
+            ip_index += 1;
+        } else {
+            alt_names.push(format!("DNS.{dns_index} = {host}"));
+            dns_index += 1;
+        }
+    }
+    format!(
+        "[req]\nprompt = no\ndistinguished_name = req_distinguished_name\nreq_extensions = v3_req\n\n[req_distinguished_name]\nCN = {common_name}\n\n[v3_req]\nbasicConstraints = CA:FALSE\nkeyUsage = digitalSignature, keyEncipherment\nextendedKeyUsage = serverAuth\nsubjectAltName = @alt_names\n\n[alt_names]\n{}\n",
+        alt_names.join("\n")
+    )
+}
+
+pub(super) fn openssl_dn_value(value: &str) -> String {
+    value.replace('\\', "\\\\").replace(['\n', '\r'], "")
+}
+
+pub(super) fn run_openssl(args: Vec<String>) -> anyhow::Result<()> {
+    run_openssl_capture(args).map(|_| ())
+}
+
+pub(super) fn run_openssl_capture(args: Vec<String>) -> anyhow::Result<String> {
+    let output = Command::new("openssl")
+        .args(&args)
+        .stdin(Stdio::null())
+        .output()?;
+    if output.status.success() {
+        return Ok(String::from_utf8_lossy(&output.stdout).to_string());
+    }
+    let detail = format!(
+        "{}\n{}",
+        String::from_utf8_lossy(&output.stderr),
+        String::from_utf8_lossy(&output.stdout)
+    )
+    .lines()
+    .map(str::trim)
+    .filter(|line| !line.is_empty())
+    .rev()
+    .take(8)
+    .collect::<Vec<_>>()
+    .into_iter()
+    .rev()
+    .collect::<Vec<_>>()
+    .join(" | ");
+    Err(anyhow!(
+        "{}",
+        if detail.is_empty() {
+            "openssl command failed".to_string()
+        } else {
+            detail
+        }
+    ))
+}
+
+#[cfg(not(windows))]
+pub(super) fn validate_ssl_cert_pair(cert: &str, key: &str) -> Result<(), SslValidationError> {
+    let temp_dir = std::env::temp_dir().join(format!("fn-knock-ssl-{}", Uuid::new_v4()));
+    std::fs::create_dir_all(&temp_dir)
+        .map_err(|error| SslValidationError::CertKeyCheckFailed(error.to_string()))?;
+    let result = (|| {
+        let cert_path = temp_dir.join("cert.pem");
+        let key_path = temp_dir.join("key.pem");
+        std::fs::write(&cert_path, cert)
+            .map_err(|error| SslValidationError::CertKeyCheckFailed(error.to_string()))?;
+        std::fs::write(&key_path, key)
+            .map_err(|error| SslValidationError::CertKeyCheckFailed(error.to_string()))?;
+
+        let cert_public_key = run_openssl_capture(vec![
+            "x509".to_string(),
+            "-in".to_string(),
+            cert_path.to_string_lossy().to_string(),
+            "-noout".to_string(),
+            "-pubkey".to_string(),
+        ])
+        .map_err(|error| SslValidationError::CertFormatInvalid(error.to_string()))?;
+        let key_public_key = run_openssl_capture(vec![
+            "pkey".to_string(),
+            "-in".to_string(),
+            key_path.to_string_lossy().to_string(),
+            "-pubout".to_string(),
+        ])
+        .map_err(|error| SslValidationError::KeyFormatInvalid(error.to_string()))?;
+
+        if normalize_public_key_pem(&cert_public_key) != normalize_public_key_pem(&key_public_key) {
+            return Err(SslValidationError::CertKeyMismatch);
+        }
+        Ok(())
+    })();
+    let _ = std::fs::remove_dir_all(temp_dir);
+    result
+}
+
+#[cfg(windows)]
+pub(super) fn validate_ssl_cert_pair(cert: &str, key: &str) -> Result<(), SslValidationError> {
+    validate_ssl_cert_pair_native(cert, key)
+}
+
+#[cfg(any(windows, test))]
+fn validate_ssl_cert_pair_native(cert: &str, key: &str) -> Result<(), SslValidationError> {
+    use rustls::{
+        InconsistentKeys,
+        pki_types::{CertificateDer, PrivateKeyDer, pem::PemObject},
+        sign::CertifiedKey,
+    };
+
+    // PEM decoding alone does not prove that the first block contains a valid
+    // X.509 certificate. Keep the parser used by the rest of the application as
+    // the format gate before asking rustls to compare public keys.
+    if parse_cert_info(cert).is_none() {
+        return Err(SslValidationError::CertFormatInvalid(
+            "unable to parse X.509 certificate".to_string(),
+        ));
+    }
+    let cert_chain = CertificateDer::pem_slice_iter(cert.as_bytes())
+        .collect::<Result<Vec<_>, _>>()
+        .map_err(|error| SslValidationError::CertFormatInvalid(error.to_string()))?;
+    if cert_chain.is_empty() {
+        return Err(SslValidationError::CertFormatInvalid(
+            "no certificate PEM block found".to_string(),
+        ));
+    }
+    let private_key = PrivateKeyDer::from_pem_slice(key.as_bytes())
+        .map_err(|error| SslValidationError::KeyFormatInvalid(error.to_string()))?;
+    let provider = rustls::crypto::ring::default_provider();
+    match CertifiedKey::from_der(cert_chain, private_key, &provider) {
+        Ok(_) => Ok(()),
+        Err(rustls::Error::InconsistentKeys(InconsistentKeys::KeyMismatch)) => {
+            Err(SslValidationError::CertKeyMismatch)
+        }
+        Err(error) => Err(SslValidationError::KeyFormatInvalid(error.to_string())),
+    }
+}
+
+pub(super) fn normalize_public_key_pem(value: &str) -> String {
+    value
+        .lines()
+        .map(str::trim)
+        .filter(|line| !line.is_empty())
+        .collect::<Vec<_>>()
+        .join("\n")
+}
+
+pub(super) async fn get_ca_hosts(state: &AppState) -> crate::storage::StorageResult<Vec<String>> {
+    Ok(state
+        .storage
+        .store
+        .get_json_value(CA_HOSTS_KEY)
+        .await?
+        .and_then(|value| {
+            value.as_array().map(|items| {
+                items
+                    .iter()
+                    .filter_map(Value::as_str)
+                    .map(str::to_string)
+                    .collect::<Vec<_>>()
+            })
+        })
+        .unwrap_or_default())
+}
+
+pub(super) async fn save_ca_hosts(
+    state: &AppState,
+    hosts: &[String],
+) -> crate::storage::StorageResult<()> {
+    state
+        .storage
+        .store
+        .set_json_value(CA_HOSTS_KEY, &json!(hosts))
+        .await
+}
+
+pub(super) async fn add_ca_host_inner(
+    state: &AppState,
+    host: &str,
+) -> crate::storage::StorageResult<Vec<String>> {
+    let mut hosts = get_ca_hosts(state).await?;
+    let host = host.trim();
+    if !host.is_empty() && !hosts.iter().any(|item| item == host) {
+        hosts.push(host.to_string());
+        save_ca_hosts(state, &hosts).await?;
+    }
+    Ok(hosts)
+}
+
+pub(super) async fn remove_ca_host_inner(
+    state: &AppState,
+    host: &str,
+) -> crate::storage::StorageResult<Vec<String>> {
+    let mut hosts = get_ca_hosts(state).await?;
+    let before = hosts.len();
+    hosts.retain(|item| item != host.trim());
+    if hosts.len() != before {
+        save_ca_hosts(state, &hosts).await?;
+    }
+    Ok(hosts)
+}
+
+#[cfg(unix)]
+pub(super) fn chmod_private(path: &Path) {
+    use std::os::unix::fs::PermissionsExt;
+
+    if let Ok(metadata) = std::fs::metadata(path) {
+        let mut permissions = metadata.permissions();
+        permissions.set_mode(0o600);
+        let _ = std::fs::set_permissions(path, permissions);
+    }
+}
+
+#[cfg(not(unix))]
+pub(super) fn chmod_private(_path: &Path) {}
+
+#[cfg(test)]
+mod windows_tests {
+    use super::*;
+
+    #[test]
+    fn native_ca_issues_and_validates_dns_and_ip_certificate() {
+        let (ca_cert, ca_key) = generate_windows_root_ca().expect("generate Windows root CA");
+        let hosts = vec!["example.test".to_string(), "127.0.0.1".to_string()];
+        let (cert, key) = generate_windows_ca_server_cert(&ca_cert, &ca_key, &hosts)
+            .expect("issue Windows server certificate");
+
+        validate_ssl_cert_pair_native(&cert, &key).expect("certificate and key must match");
+        let info = parse_cert_info(&cert).expect("certificate must parse");
+        assert_eq!(info["dnsNames"][0], json!("example.test"));
+        assert_eq!(info["dnsNames"][1], json!("127.0.0.1"));
+    }
+
+    #[test]
+    fn native_validator_rejects_mismatched_private_key() {
+        let (ca_cert, ca_key) = generate_windows_root_ca().expect("generate Windows root CA");
+        let hosts = vec!["example.test".to_string()];
+        let (cert, _) = generate_windows_ca_server_cert(&ca_cert, &ca_key, &hosts)
+            .expect("issue first Windows server certificate");
+        let (_, other_key) = generate_windows_ca_server_cert(&ca_cert, &ca_key, &hosts)
+            .expect("issue second Windows server certificate");
+
+        assert!(matches!(
+            validate_ssl_cert_pair_native(&cert, &other_key),
+            Err(SslValidationError::CertKeyMismatch)
+        ));
+    }
+}

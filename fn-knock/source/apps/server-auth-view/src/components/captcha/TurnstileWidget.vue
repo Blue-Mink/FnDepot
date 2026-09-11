@@ -1,1 +1,188 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IG9uQmVmb3JlVW5tb3VudCwgb25Nb3VudGVkLCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIHNpdGVLZXk6IHN0cmluZzsKICBkaXNhYmxlZD86IGJvb2xlYW47Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIHZlcmlmaWVkOiBbdG9rZW46IHN0cmluZ107CiAgZXhwaXJlZDogW107CiAgcmVzZXQ6IFtdOwogIGVycm9yOiBbbWVzc2FnZTogc3RyaW5nXTsKfT4oKTsKCnR5cGUgVHVybnN0aWxlUmVuZGVyT3B0aW9ucyA9IHsKICBzaXRla2V5OiBzdHJpbmc7CiAgc2l6ZTogIm5vcm1hbCI7CiAgY2FsbGJhY2s6ICh0b2tlbjogc3RyaW5nKSA9PiB2b2lkOwogICJleHBpcmVkLWNhbGxiYWNrIjogKCkgPT4gdm9pZDsKICAiZXJyb3ItY2FsbGJhY2siOiAoKSA9PiB2b2lkOwogICJ0aW1lb3V0LWNhbGxiYWNrIjogKCkgPT4gdm9pZDsKfTsKCnR5cGUgVHVybnN0aWxlQXBpID0gewogIHJlbmRlcjogKGNvbnRhaW5lcjogSFRNTEVsZW1lbnQsIG9wdGlvbnM6IFR1cm5zdGlsZVJlbmRlck9wdGlvbnMpID0+IHN0cmluZzsKICByZXNldDogKHdpZGdldElkPzogc3RyaW5nKSA9PiB2b2lkOwogIHJlbW92ZTogKHdpZGdldElkPzogc3RyaW5nKSA9PiB2b2lkOwp9OwoKZGVjbGFyZSBnbG9iYWwgewogIGludGVyZmFjZSBXaW5kb3cgewogICAgdHVybnN0aWxlPzogVHVybnN0aWxlQXBpOwogIH0KfQoKY29uc3QgVFVSTlNUSUxFX1NDUklQVF9TUkMgPQogICJodHRwczovL2NoYWxsZW5nZXMuY2xvdWRmbGFyZS5jb20vdHVybnN0aWxlL3YwL2FwaS5qcz9yZW5kZXI9ZXhwbGljaXQiOwpjb25zdCBUVVJOU1RJTEVfU0NSSVBUX0xPQURfRVJST1IgPSAiVFVSTlNUSUxFX1NDUklQVF9MT0FEX0VSUk9SIjsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwoKbGV0IHR1cm5zdGlsZVNjcmlwdFByb21pc2U6IFByb21pc2U8dm9pZD4gfCBudWxsID0gbnVsbDsKCmNvbnN0IGVuc3VyZVR1cm5zdGlsZVNjcmlwdCA9IGFzeW5jICgpID0+IHsKICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHJldHVybjsKICBpZiAod2luZG93LnR1cm5zdGlsZSkgcmV0dXJuOwogIGlmICh0dXJuc3RpbGVTY3JpcHRQcm9taXNlKSB7CiAgICBhd2FpdCB0dXJuc3RpbGVTY3JpcHRQcm9taXNlOwogICAgcmV0dXJuOwogIH0KCiAgdHVybnN0aWxlU2NyaXB0UHJvbWlzZSA9IG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgIGNvbnN0IGV4aXN0aW5nID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcjxIVE1MU2NyaXB0RWxlbWVudD4oCiAgICAgIGBzY3JpcHRbc3JjPSIke1RVUk5TVElMRV9TQ1JJUFRfU1JDfSJdYCwKICAgICk7CiAgICBpZiAoZXhpc3RpbmcpIHsKICAgICAgZXhpc3RpbmcuYWRkRXZlbnRMaXN0ZW5lcigibG9hZCIsICgpID0+IHJlc29sdmUoKSwgeyBvbmNlOiB0cnVlIH0pOwogICAgICBleGlzdGluZy5hZGRFdmVudExpc3RlbmVyKAogICAgICAgICJlcnJvciIsCiAgICAgICAgKCkgPT4gcmVqZWN0KG5ldyBFcnJvcihUVVJOU1RJTEVfU0NSSVBUX0xPQURfRVJST1IpKSwKICAgICAgICB7IG9uY2U6IHRydWUgfSwKICAgICAgKTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGNvbnN0IHNjcmlwdCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpOwogICAgc2NyaXB0LnNyYyA9IFRVUk5TVElMRV9TQ1JJUFRfU1JDOwogICAgc2NyaXB0LmFzeW5jID0gdHJ1ZTsKICAgIHNjcmlwdC5kZWZlciA9IHRydWU7CiAgICBzY3JpcHQub25sb2FkID0gKCkgPT4gcmVzb2x2ZSgpOwogICAgc2NyaXB0Lm9uZXJyb3IgPSAoKSA9PiByZWplY3QobmV3IEVycm9yKFRVUk5TVElMRV9TQ1JJUFRfTE9BRF9FUlJPUikpOwogICAgZG9jdW1lbnQuaGVhZC5hcHBlbmRDaGlsZChzY3JpcHQpOwogIH0pOwoKICBhd2FpdCB0dXJuc3RpbGVTY3JpcHRQcm9taXNlOwp9OwoKY29uc3QgY29udGFpbmVyUmVmID0gcmVmPEhUTUxEaXZFbGVtZW50IHwgbnVsbD4obnVsbCk7CmxldCB3aWRnZXRJZDogc3RyaW5nIHwgbnVsbCA9IG51bGw7CmxldCByZW5kZXJWZXJzaW9uID0gMDsKCmNvbnN0IGNsZWFyV2lkZ2V0ID0gKCkgPT4gewogIGlmICh0eXBlb2Ygd2luZG93ICE9PSAidW5kZWZpbmVkIiAmJiB3aW5kb3cudHVybnN0aWxlICYmIHdpZGdldElkKSB7CiAgICB3aW5kb3cudHVybnN0aWxlLnJlbW92ZSh3aWRnZXRJZCk7CiAgfQogIHdpZGdldElkID0gbnVsbDsKICBpZiAoY29udGFpbmVyUmVmLnZhbHVlKSB7CiAgICBjb250YWluZXJSZWYudmFsdWUuaW5uZXJIVE1MID0gIiI7CiAgfQp9OwoKY29uc3QgcmVzZXRXaWRnZXQgPSAoKSA9PiB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgIT09ICJ1bmRlZmluZWQiICYmIHdpbmRvdy50dXJuc3RpbGUgJiYgd2lkZ2V0SWQpIHsKICAgIHdpbmRvdy50dXJuc3RpbGUucmVzZXQod2lkZ2V0SWQpOwogIH0KICBlbWl0KCJyZXNldCIpOwp9OwoKY29uc3QgcmVuZGVyV2lkZ2V0ID0gYXN5bmMgKCkgPT4gewogIGNvbnN0IHNpdGVLZXkgPSBwcm9wcy5zaXRlS2V5LnRyaW0oKTsKICBpZiAoIXNpdGVLZXkgfHwgIWNvbnRhaW5lclJlZi52YWx1ZSkgewogICAgY2xlYXJXaWRnZXQoKTsKICAgIGVtaXQoInJlc2V0Iik7CiAgICByZXR1cm47CiAgfQoKICBjb25zdCBjdXJyZW50VmVyc2lvbiA9ICsrcmVuZGVyVmVyc2lvbjsKCiAgdHJ5IHsKICAgIGF3YWl0IGVuc3VyZVR1cm5zdGlsZVNjcmlwdCgpOwogIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsKICAgIGVtaXQoCiAgICAgICJlcnJvciIsCiAgICAgIGVycm9yPy5tZXNzYWdlID09PSBUVVJOU1RJTEVfU0NSSVBUX0xPQURfRVJST1IKICAgICAgICA/IHQoImF1dGgudHVybnN0aWxlU2NyaXB0TG9hZEZhaWxlZCIpCiAgICAgICAgOiBlcnJvcj8ubWVzc2FnZSB8fCB0KCJhdXRoLnR1cm5zdGlsZVNjcmlwdExvYWRGYWlsZWQiKSwKICAgICk7CiAgICByZXR1cm47CiAgfQoKICBpZiAoCiAgICBjdXJyZW50VmVyc2lvbiAhPT0gcmVuZGVyVmVyc2lvbiB8fAogICAgIWNvbnRhaW5lclJlZi52YWx1ZSB8fAogICAgIXdpbmRvdy50dXJuc3RpbGUKICApIHsKICAgIHJldHVybjsKICB9CgogIGNsZWFyV2lkZ2V0KCk7CiAgZW1pdCgicmVzZXQiKTsKCiAgd2lkZ2V0SWQgPSB3aW5kb3cudHVybnN0aWxlLnJlbmRlcihjb250YWluZXJSZWYudmFsdWUsIHsKICAgIHNpdGVrZXk6IHNpdGVLZXksCiAgICBzaXplOiAibm9ybWFsIiwKICAgIGNhbGxiYWNrOiAodG9rZW46IHN0cmluZykgPT4gewogICAgICBlbWl0KCJ2ZXJpZmllZCIsIHRva2VuKTsKICAgIH0sCiAgICAiZXhwaXJlZC1jYWxsYmFjayI6ICgpID0+IHsKICAgICAgZW1pdCgiZXhwaXJlZCIpOwogICAgICByZXNldFdpZGdldCgpOwogICAgfSwKICAgICJlcnJvci1jYWxsYmFjayI6ICgpID0+IHsKICAgICAgZW1pdCgiZXJyb3IiLCB0KCJhdXRoLnR1cm5zdGlsZVJlbmRlckZhaWxlZCIpKTsKICAgIH0sCiAgICAidGltZW91dC1jYWxsYmFjayI6ICgpID0+IHsKICAgICAgZW1pdCgiZXJyb3IiLCB0KCJhdXRoLnR1cm5zdGlsZVRpbWVvdXQiKSk7CiAgICB9LAogIH0pOwp9OwoKd2F0Y2goCiAgKCkgPT4gcHJvcHMuc2l0ZUtleSwKICAoKSA9PiB7CiAgICB2b2lkIHJlbmRlcldpZGdldCgpOwogIH0sCik7Cgp3YXRjaCgKICAoKSA9PiBwcm9wcy5kaXNhYmxlZCwKICAoZGlzYWJsZWQpID0+IHsKICAgIGlmIChkaXNhYmxlZCkgewogICAgICByZXNldFdpZGdldCgpOwogICAgfQogIH0sCik7Cgpvbk1vdW50ZWQoKCkgPT4gewogIHZvaWQgcmVuZGVyV2lkZ2V0KCk7Cn0pOwoKb25CZWZvcmVVbm1vdW50KCgpID0+IHsKICByZW5kZXJWZXJzaW9uICs9IDE7CiAgY2xlYXJXaWRnZXQoKTsKfSk7CgpkZWZpbmVFeHBvc2UoewogIHJlc2V0OiByZXNldFdpZGdldCwKICByZWxvYWQ6ICgpID0+IHsKICAgIHZvaWQgcmVuZGVyV2lkZ2V0KCk7CiAgfSwKfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgcmVmPSJjb250YWluZXJSZWYiIGNsYXNzPSJteC1hdXRvIG1pbi1oLVs2OHB4XSB3LWZ1bGwgbWF4LXctWzMyMHB4XSIgLz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { onBeforeUnmount, onMounted, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+
+const props = defineProps<{
+  siteKey: string;
+  disabled?: boolean;
+}>();
+
+const emit = defineEmits<{
+  verified: [token: string];
+  expired: [];
+  reset: [];
+  error: [message: string];
+}>();
+
+type TurnstileRenderOptions = {
+  sitekey: string;
+  size: "normal";
+  callback: (token: string) => void;
+  "expired-callback": () => void;
+  "error-callback": () => void;
+  "timeout-callback": () => void;
+};
+
+type TurnstileApi = {
+  render: (container: HTMLElement, options: TurnstileRenderOptions) => string;
+  reset: (widgetId?: string) => void;
+  remove: (widgetId?: string) => void;
+};
+
+declare global {
+  interface Window {
+    turnstile?: TurnstileApi;
+  }
+}
+
+const TURNSTILE_SCRIPT_SRC =
+  "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+const TURNSTILE_SCRIPT_LOAD_ERROR = "TURNSTILE_SCRIPT_LOAD_ERROR";
+
+const { t } = useI18n();
+
+let turnstileScriptPromise: Promise<void> | null = null;
+
+const ensureTurnstileScript = async () => {
+  if (typeof window === "undefined") return;
+  if (window.turnstile) return;
+  if (turnstileScriptPromise) {
+    await turnstileScriptPromise;
+    return;
+  }
+
+  turnstileScriptPromise = new Promise((resolve, reject) => {
+    const existing = document.querySelector<HTMLScriptElement>(
+      `script[src="${TURNSTILE_SCRIPT_SRC}"]`,
+    );
+    if (existing) {
+      existing.addEventListener("load", () => resolve(), { once: true });
+      existing.addEventListener(
+        "error",
+        () => reject(new Error(TURNSTILE_SCRIPT_LOAD_ERROR)),
+        { once: true },
+      );
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.src = TURNSTILE_SCRIPT_SRC;
+    script.async = true;
+    script.defer = true;
+    script.onload = () => resolve();
+    script.onerror = () => reject(new Error(TURNSTILE_SCRIPT_LOAD_ERROR));
+    document.head.appendChild(script);
+  });
+
+  await turnstileScriptPromise;
+};
+
+const containerRef = ref<HTMLDivElement | null>(null);
+let widgetId: string | null = null;
+let renderVersion = 0;
+
+const clearWidget = () => {
+  if (typeof window !== "undefined" && window.turnstile && widgetId) {
+    window.turnstile.remove(widgetId);
+  }
+  widgetId = null;
+  if (containerRef.value) {
+    containerRef.value.innerHTML = "";
+  }
+};
+
+const resetWidget = () => {
+  if (typeof window !== "undefined" && window.turnstile && widgetId) {
+    window.turnstile.reset(widgetId);
+  }
+  emit("reset");
+};
+
+const renderWidget = async () => {
+  const siteKey = props.siteKey.trim();
+  if (!siteKey || !containerRef.value) {
+    clearWidget();
+    emit("reset");
+    return;
+  }
+
+  const currentVersion = ++renderVersion;
+
+  try {
+    await ensureTurnstileScript();
+  } catch (error: any) {
+    emit(
+      "error",
+      error?.message === TURNSTILE_SCRIPT_LOAD_ERROR
+        ? t("auth.turnstileScriptLoadFailed")
+        : error?.message || t("auth.turnstileScriptLoadFailed"),
+    );
+    return;
+  }
+
+  if (
+    currentVersion !== renderVersion ||
+    !containerRef.value ||
+    !window.turnstile
+  ) {
+    return;
+  }
+
+  clearWidget();
+  emit("reset");
+
+  widgetId = window.turnstile.render(containerRef.value, {
+    sitekey: siteKey,
+    size: "normal",
+    callback: (token: string) => {
+      emit("verified", token);
+    },
+    "expired-callback": () => {
+      emit("expired");
+      resetWidget();
+    },
+    "error-callback": () => {
+      emit("error", t("auth.turnstileRenderFailed"));
+    },
+    "timeout-callback": () => {
+      emit("error", t("auth.turnstileTimeout"));
+    },
+  });
+};
+
+watch(
+  () => props.siteKey,
+  () => {
+    void renderWidget();
+  },
+);
+
+watch(
+  () => props.disabled,
+  (disabled) => {
+    if (disabled) {
+      resetWidget();
+    }
+  },
+);
+
+onMounted(() => {
+  void renderWidget();
+});
+
+onBeforeUnmount(() => {
+  renderVersion += 1;
+  clearWidget();
+});
+
+defineExpose({
+  reset: resetWidget,
+  reload: () => {
+    void renderWidget();
+  },
+});
+</script>
+
+<template>
+  <div ref="containerRef" class="mx-auto min-h-[68px] w-full max-w-[320px]" />
+</template>

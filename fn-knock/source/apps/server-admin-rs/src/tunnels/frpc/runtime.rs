@@ -1,1 +1,456 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiBidWlsZF9vdmVydmlldyhzdGF0ZTogJkFwcFN0YXRlKSAtPiBGcnBjUmVzdWx0PEZycGNJbnN0YW5jZXNPdmVydmlldz4gewogICAgbGV0IG1ldGFzID0gYWxsX21ldGFzKHN0YXRlKS5hd2FpdD87CiAgICBsZXQgbXV0IGl0ZW1zID0gVmVjOjpuZXcoKTsKICAgIGZvciBtZXRhIGluIG1ldGFzIHsKICAgICAgICBpdGVtcy5wdXNoKGJ1aWxkX3N0YXR1cyhzdGF0ZSwgJm1ldGEpLmF3YWl0Pyk7CiAgICB9CiAgICBsZXQgY3VycmVudF9leGVjdXRhYmxlID0gZnJwX2V4ZWN1dGFibGUoc3RhdGUpOwogICAgbGV0IHJ1bm5pbmdfY291bnQgPSBpdGVtcy5pdGVyKCkuZmlsdGVyKHxpdGVtfCBpdGVtLnJ1bm5pbmcpLmNvdW50KCk7CiAgICBsZXQgb3V0ZGF0ZWRfcnVubmluZ19jb3VudCA9IGlmIGxldCBTb21lKGN1cnJlbnRfZXhlY3V0YWJsZSkgPSBjdXJyZW50X2V4ZWN1dGFibGUuYXNfZGVyZWYoKSB7CiAgICAgICAgbGV0IG11dCBjb3VudCA9IDA7CiAgICAgICAgZm9yIGl0ZW0gaW4gJml0ZW1zIHsKICAgICAgICAgICAgaWYgaXRlbS5ydW5uaW5nCiAgICAgICAgICAgICAgICAmJiBsZXQgU29tZShwaWQpID0gaXRlbS5waWQKICAgICAgICAgICAgICAgICYmIHByb2Nlc3NfdXNlc19leGVjdXRhYmxlKHBpZCwgY3VycmVudF9leGVjdXRhYmxlKS5hd2FpdCA9PSBTb21lKGZhbHNlKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBjb3VudCArPSAxOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGNvdW50CiAgICB9IGVsc2UgewogICAgICAgIHJ1bm5pbmdfY291bnQKICAgIH07CiAgICBPayhGcnBjSW5zdGFuY2VzT3ZlcnZpZXcgewogICAgICAgIGluaXRpYWxpemVkOiBjdXJyZW50X2V4ZWN1dGFibGUuaXNfc29tZSgpLAogICAgICAgIHBsYXRmb3JtOiBkZXRlY3RfZnJwX3BsYXRmb3JtKCkudG9fc3RyaW5nKCksCiAgICAgICAgcHJpbWFyeV9pbnN0YW5jZV9pZDogRlJQQ19QUklNQVJZX0lOU1RBTkNFX0lELnRvX3N0cmluZygpLAogICAgICAgIHRvdGFsOiBpdGVtcy5sZW4oKSwKICAgICAgICBleHRyYV9jb3VudDogaXRlbXMuaXRlcigpLmZpbHRlcih8aXRlbXwgIWl0ZW0uaXNfcHJpbWFyeSkuY291bnQoKSwKICAgICAgICBydW5uaW5nX2NvdW50LAogICAgICAgIG91dGRhdGVkX3J1bm5pbmdfY291bnQsCiAgICAgICAgZGVmYXVsdHM6IGpzb24hKHsgImxvY2FsX3BvcnQiOiBzdGQ6OmVudjo6dmFyKCJHT19SRVBST1hZX1BPUlQiKS51bndyYXBfb3JfZWxzZSh8X3wgIjc5OTkiLnRvX3N0cmluZygpKSB9KSwKICAgICAgICBpdGVtcywKICAgIH0pCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gYnVpbGRfc3RhdHVzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIG1ldGE6ICZGcnBjSW5zdGFuY2VNZXRhLAopIC0+IEZycGNSZXN1bHQ8RnJwY0luc3RhbmNlU3RhdHVzPiB7CiAgICBsZXQgaGFuZGxlID0gZW5zdXJlX2ZycGNfc3VwZXJ2aXNvcihzdGF0ZSwgbWV0YSkuYXdhaXQ/OwogICAgbGV0IHN1cGVydmlzb3IgPSBoYW5kbGUuc25hcHNob3QoKTsKICAgIGxldCBydW50aW1lID0gcmVhZF9ydW50aW1lKCZzdGF0ZS5zdG9yYWdlLnN0b3JlLCAmbWV0YS5pZCkuYXdhaXQ/OwogICAgbGV0IGNvbnRlbnQgPSByZWFkX2NvbmZpZ19mb3JfbWV0YShtZXRhKS5hd2FpdD87CiAgICBPayhGcnBjSW5zdGFuY2VTdGF0dXMgewogICAgICAgIGlkOiBtZXRhLmlkLmNsb25lKCksCiAgICAgICAgbmFtZTogbWV0YS5uYW1lLmNsb25lKCksCiAgICAgICAgaXNfcHJpbWFyeTogbWV0YS5pc19wcmltYXJ5LAogICAgICAgIGNvbmZpZ19wYXRoOiBtZXRhLmNvbmZpZ19wYXRoLmNsb25lKCksCiAgICAgICAgd29ya19kaXI6IG1ldGEud29ya19kaXIuY2xvbmUoKSwKICAgICAgICBjcmVhdGVkX2F0OiBtZXRhLmNyZWF0ZWRfYXQuY2xvbmUoKSwKICAgICAgICB1cGRhdGVkX2F0OiBtZXRhLnVwZGF0ZWRfYXQuY2xvbmUoKSwKICAgICAgICBzb3J0X29yZGVyOiBtZXRhLnNvcnRfb3JkZXIsCiAgICAgICAgZGVzaXJlZF9ydW5uaW5nOiBzdXBlcnZpc29yLmRlc2lyZWRfcnVubmluZywKICAgICAgICBydW5uaW5nOiBzdXBlcnZpc29yLnJ1bm5pbmcsCiAgICAgICAgYXR0YWNoZWQ6IHN1cGVydmlzb3IuYXR0YWNoZWQsCiAgICAgICAgcGlkOiBzdXBlcnZpc29yLnBpZCwKICAgICAgICBzdGFydGVkX2F0OiBzdXBlcnZpc29yLnN0YXJ0ZWRfYXQuY2xvbmUoKSwKICAgICAgICBzdG9wcGVkX2F0OiBzdXBlcnZpc29yLnN0b3BwZWRfYXQuY2xvbmUoKSwKICAgICAgICBsYXN0X2V4aXRfY29kZTogaWYgc3VwZXJ2aXNvci5ydW5uaW5nIHsKICAgICAgICAgICAgTm9uZQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHN1cGVydmlzb3IKICAgICAgICAgICAgICAgIC5sYXN0X2ZhaWx1cmUKICAgICAgICAgICAgICAgIC5hc19yZWYoKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKHxmYWlsdXJlfCBmYWlsdXJlLmV4aXRfY29kZSkKICAgICAgICAgICAgICAgIC5vcihydW50aW1lLmxhc3RfZXhpdF9jb2RlKQogICAgICAgIH0sCiAgICAgICAgbGFzdF9tZXNzYWdlOiBzdXBlcnZpc29yLmxhc3RfbWVzc2FnZS5jbG9uZSgpLm9yKHJ1bnRpbWUubGFzdF9tZXNzYWdlKSwKICAgICAgICBzdXBlcnZpc29yLAogICAgICAgIHN1bW1hcnk6IGJ1aWxkX3N1bW1hcnkoJmNvbnRlbnQpLAogICAgfSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiByZWFkX2NhbmRpZGF0ZV9waWQoCiAgICBtZXRhOiAmRnJwY0luc3RhbmNlTWV0YSwKICAgIHJ1bnRpbWU6ICZGcnBjSW5zdGFuY2VSdW50aW1lLAopIC0+IE9wdGlvbjx1MzI+IHsKICAgIGlmIGxldCBTb21lKHBpZCkgPSBydW50aW1lLnBpZAogICAgICAgICYmIGlzX293bmVkX2ZycGNfcGlkKHBpZCwgJm1ldGEuY29uZmlnX3BhdGgpLmF3YWl0CiAgICB7CiAgICAgICAgcmV0dXJuIFNvbWUocGlkKTsKICAgIH0KICAgIGlmIGxldCBTb21lKHBpZCkgPSByZWFkX3BpZF9maWxlKCZwaWRfcGF0aF9mb3JfbWV0YShtZXRhKSkuYXdhaXQKICAgICAgICAmJiBpc19vd25lZF9mcnBjX3BpZChwaWQsICZtZXRhLmNvbmZpZ19wYXRoKS5hd2FpdAogICAgewogICAgICAgIHJldHVybiBTb21lKHBpZCk7CiAgICB9CiAgICBmaW5kX2ZycGNfcGlkX2J5X2NvbmZpZ19wYXRoKCZtZXRhLmNvbmZpZ19wYXRoKS5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHZlcmlmeV9mcnBjX2NvbmZpZygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBtZXRhOiAmRnJwY0luc3RhbmNlTWV0YSwKICAgIGNvbnRlbnQ6ICZzdHIsCikgLT4gRnJwY1Jlc3VsdDwoKT4gewogICAgbGV0IFNvbWUoYmluKSA9IGZycF9leGVjdXRhYmxlKHN0YXRlKSBlbHNlIHsKICAgICAgICByZXR1cm4gRXJyKGZycGNfdmFsaWRhdGlvbigiRlJQIGlzIG5vdCBpbml0aWFsaXplZCIpKTsKICAgIH07CiAgICBmczo6Y3JlYXRlX2Rpcl9hbGwoJm1ldGEud29ya19kaXIpLmF3YWl0PzsKICAgIGxldCB0ZW1wID0gUGF0aEJ1Zjo6ZnJvbSgmbWV0YS53b3JrX2Rpcikuam9pbihmb3JtYXQhKCJmcnBjLnZlcmlmeS57fS50b21sIiwgVXVpZDo6bmV3X3Y0KCkpKTsKICAgIGZzOjp3cml0ZSgmdGVtcCwgY29udGVudCkuYXdhaXQ/OwogICAgbGV0IG91dHB1dCA9IENvbW1hbmQ6Om5ldygmYmluKQogICAgICAgIC5hcmcoInZlcmlmeSIpCiAgICAgICAgLmFyZygiLWMiKQogICAgICAgIC5hcmcoJnRlbXApCiAgICAgICAgLnN0ZG91dChTdGRpbzo6cGlwZWQoKSkKICAgICAgICAuc3RkZXJyKFN0ZGlvOjpwaXBlZCgpKQogICAgICAgIC5vdXRwdXQoKQogICAgICAgIC5hd2FpdDsKICAgIGxldCBfID0gZnM6OnJlbW92ZV9maWxlKCZ0ZW1wKS5hd2FpdDsKICAgIGxldCBvdXRwdXQgPSBvdXRwdXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGZycGNfdmFsaWRhdGlvbihmb3JtYXQhKCJGYWlsZWQgdG8gdmVyaWZ5IGZycGMgY29uZmlnOiB7ZXJyb3J9IikpKT87CiAgICBpZiBvdXRwdXQuc3RhdHVzLnN1Y2Nlc3MoKSB7CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH0KICAgIGxldCBkZXRhaWwgPSBub3JtYWxpemVfdmVyaWZ5X291dHB1dCgmZm9ybWF0ISgKICAgICAgICAie31cbnt9IiwKICAgICAgICBTdHJpbmc6OmZyb21fdXRmOF9sb3NzeSgmb3V0cHV0LnN0ZGVyciksCiAgICAgICAgU3RyaW5nOjpmcm9tX3V0ZjhfbG9zc3koJm91dHB1dC5zdGRvdXQpCiAgICApKTsKICAgIGlmIGRldGFpbC5pc19lbXB0eSgpIHsKICAgICAgICBFcnIoZnJwY192YWxpZGF0aW9uKGZvcm1hdCEoCiAgICAgICAgICAgICJmcnBjIGNvbmZpZyB2ZXJpZnkgZmFpbGVkIHdpdGggY29kZSB7fSIsCiAgICAgICAgICAgIG91dHB1dC5zdGF0dXMuY29kZSgpLnVud3JhcF9vcigtMSkKICAgICAgICApKSkKICAgIH0gZWxzZSB7CiAgICAgICAgRXJyKGZycGNfdmFsaWRhdGlvbihmb3JtYXQhKAogICAgICAgICAgICAiZnJwYyBjb25maWcgdmVyaWZ5IGZhaWxlZDoge2RldGFpbH0iCiAgICAgICAgKSkpCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX3ZlcmlmeV9vdXRwdXQodmFsdWU6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBsZXQgbm9ybWFsaXplZCA9IHZhbHVlCiAgICAgICAgLmxpbmVzKCkKICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAuZmlsdGVyKHxsaW5lfCAhbGluZS5pc19lbXB0eSgpKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpCiAgICAgICAgLmpvaW4oIlxuIik7CiAgICBpZiBub3JtYWxpemVkLmNoYXJzKCkuY291bnQoKSA8PSA0MDAwIHsKICAgICAgICBub3JtYWxpemVkCiAgICB9IGVsc2UgewogICAgICAgIGZvcm1hdCEoInt9Li4uIiwgbm9ybWFsaXplZC5jaGFycygpLnRha2UoNDAwMCkuY29sbGVjdDo6PFN0cmluZz4oKSkKICAgIH0KfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzdGFydF9pbnN0YW5jZV9pbm5lcihzdGF0ZTogJkFwcFN0YXRlLCBpZDogJnN0cikgLT4gRnJwY1Jlc3VsdDx1MzI+IHsKICAgIGxldCBtZXRhID0gZ2V0X21ldGFfb3JfZXJyb3Ioc3RhdGUsIGlkKS5hd2FpdD87CiAgICBsZXQgaGFuZGxlID0gZW5zdXJlX2ZycGNfc3VwZXJ2aXNvcihzdGF0ZSwgJm1ldGEpLmF3YWl0PzsKICAgIGhhbmRsZS5zdGFydCgpLmF3YWl0Lm1hcF9lcnIoZnJwY19pbnRlcm5hbCkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzdG9wX2luc3RhbmNlX2lubmVyKHN0YXRlOiAmQXBwU3RhdGUsIGlkOiAmc3RyKSAtPiBGcnBjUmVzdWx0PCgpPiB7CiAgICBsZXQgbWV0YSA9IGdldF9tZXRhX29yX2Vycm9yKHN0YXRlLCBpZCkuYXdhaXQ/OwogICAgbGV0IGhhbmRsZSA9IGVuc3VyZV9mcnBjX3N1cGVydmlzb3Ioc3RhdGUsICZtZXRhKS5hd2FpdD87CiAgICBoYW5kbGUuc3RvcCgpLmF3YWl0Lm1hcF9lcnIoZnJwY19pbnRlcm5hbCkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiByZXN0YXJ0X2luc3RhbmNlX2lubmVyKHN0YXRlOiAmQXBwU3RhdGUsIGlkOiAmc3RyKSAtPiBGcnBjUmVzdWx0PHUzMj4gewogICAgbGV0IG1ldGEgPSBnZXRfbWV0YV9vcl9lcnJvcihzdGF0ZSwgaWQpLmF3YWl0PzsKICAgIGxldCBoYW5kbGUgPSBlbnN1cmVfZnJwY19zdXBlcnZpc29yKHN0YXRlLCAmbWV0YSkuYXdhaXQ/OwogICAgaGFuZGxlLnJlc3RhcnQoKS5hd2FpdC5tYXBfZXJyKGZycGNfaW50ZXJuYWwpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gbGlzdF9sb2dzX2lubmVyKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGlkOiAmc3RyLAogICAgbGltaXQ6IHVzaXplLAopIC0+IEZycGNSZXN1bHQ8VmVjPFN0cmluZz4+IHsKICAgIGxldCBtZXRhID0gZ2V0X21ldGFfb3JfZXJyb3Ioc3RhdGUsIGlkKS5hd2FpdD87CiAgICBPayhzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmxpc3RfbG9nX2J1ZmZlcigmbG9nX2tleSgmbWV0YS5pZCksIGxpbWl0LCBsb2dfbWF4X2xlbigmbWV0YS5pZCkpCiAgICAgICAgLmF3YWl0PykKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBjbGVhcl9sb2dzX2lubmVyKHN0YXRlOiAmQXBwU3RhdGUsIGlkOiAmc3RyKSAtPiBGcnBjUmVzdWx0PCgpPiB7CiAgICBsZXQgbWV0YSA9IGdldF9tZXRhX29yX2Vycm9yKHN0YXRlLCBpZCkuYXdhaXQ/OwogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5jbGVhcl9sb2dfYnVmZmVyKCZsb2dfa2V5KCZtZXRhLmlkKSkKICAgICAgICAuYXdhaXQ/OwogICAgT2soKCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gcG9sbF9pbm5lcigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBpZDogJnN0ciwKICAgIGN1cnNvcjogT3B0aW9uPCZzdHI+LAopIC0+IEZycGNSZXN1bHQ8VmFsdWU+IHsKICAgIGxldCBtZXRhID0gZ2V0X21ldGFfb3JfZXJyb3Ioc3RhdGUsIGlkKS5hd2FpdD87CiAgICBsZXQgbG9ncyA9IHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAucG9sbF9sb2dfYnVmZmVyKCZsb2dfa2V5KCZtZXRhLmlkKSwgY3Vyc29yKQogICAgICAgIC5hd2FpdD87CiAgICBsZXQgc3RhdHVzID0gYnVpbGRfc3RhdHVzKHN0YXRlLCAmbWV0YSkuYXdhaXQ/OwogICAgT2soanNvbiEoewogICAgICAgICJjdXJzb3IiOiBsb2dzLmdldCgiY3Vyc29yIikuY2xvbmVkKCkudW53cmFwX29yKGpzb24hKDApKSwKICAgICAgICAicmVzZXQiOiBsb2dzLmdldCgicmVzZXQiKS5jbG9uZWQoKS51bndyYXBfb3IoanNvbiEoZmFsc2UpKSwKICAgICAgICAibG9ncyI6IGxvZ3MuZ2V0KCJpdGVtcyIpLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkuY2xvbmVkKCkudW53cmFwX29yX2RlZmF1bHQoKS5pbnRvX2l0ZXIoKS5maWx0ZXJfbWFwKHxpdGVtfCBpdGVtLmFzX3N0cigpLm1hcChzdHI6OnRvX3N0cmluZykpLmNvbGxlY3Q6OjxWZWM8Xz4+KCksCiAgICAgICAgInN0YXR1cyI6IHN0YXR1cwogICAgfSkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gYXBwZW5kX2xvZ3MoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgbWV0YTogJkZycGNJbnN0YW5jZU1ldGEsCiAgICBsaW5lczogJltTdHJpbmddLAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgbm9ybWFsaXplZCA9IGxpbmVzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5tYXAofGxpbmV8IGNyYXRlOjp0dW5uZWxzOjpzdXBlcnZpc29yOjpib3VuZGVkX2xvZ19saW5lKGxpbmUudHJpbV9lbmQoKSkpCiAgICAgICAgLmZpbHRlcih8bGluZXwgIWxpbmUuaXNfZW1wdHkoKSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuYXBwZW5kX2xvZ19idWZmZXIoCiAgICAgICAgICAgICZsb2dfa2V5KCZtZXRhLmlkKSwKICAgICAgICAgICAgJm5vcm1hbGl6ZWQsCiAgICAgICAgICAgIExPR19UVExfU0VDLAogICAgICAgICAgICBsb2dfbWF4X2xlbigmbWV0YS5pZCksCiAgICAgICAgKQogICAgICAgIC5hd2FpdD87CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfZnJwY190dW5uZWxfZXZlbnRfbWVzc2FnZShsaW5lOiAmc3RyKSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBsZXQgdHJpbW1lZCA9IGxpbmUudHJpbV9zdGFydCgpOwogICAgbGV0IGxpbmUgPSBbIltFUlJdIiwgIltPVVRdIl0KICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAuZmluZF9tYXAofHByZWZpeHwgewogICAgICAgICAgICB0cmltbWVkCiAgICAgICAgICAgICAgICAuZ2V0KC4ucHJlZml4LmxlbigpKQogICAgICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHxjYW5kaWRhdGV8IGNhbmRpZGF0ZS5lcV9pZ25vcmVfYXNjaWlfY2FzZShwcmVmaXgpKQogICAgICAgICAgICAgICAgLnRoZW4ofHwgdHJpbW1lZFtwcmVmaXgubGVuKCkuLl0udHJpbV9zdGFydCgpKQogICAgICAgIH0pCiAgICAgICAgLnVud3JhcF9vcihsaW5lKTsKICAgIG5vcm1hbGl6ZV90dW5uZWxfZXZlbnRfbWVzc2FnZShsaW5lKQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV90dW5uZWxfZXZlbnRfbWVzc2FnZShsaW5lOiAmc3RyKSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBsZXQgbm9ybWFsaXplZCA9IGxpbmUuc3BsaXRfd2hpdGVzcGFjZSgpLmNvbGxlY3Q6OjxWZWM8Xz4+KCkuam9pbigiICIpOwogICAgaWYgbm9ybWFsaXplZC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIGlmIG5vcm1hbGl6ZWQuY2hhcnMoKS5jb3VudCgpIDw9IDI0MCB7CiAgICAgICAgcmV0dXJuIFNvbWUobm9ybWFsaXplZCk7CiAgICB9CiAgICBsZXQgdHJ1bmNhdGVkID0gbm9ybWFsaXplZC5jaGFycygpLnRha2UoMjQwKS5jb2xsZWN0Ojo8U3RyaW5nPigpOwogICAgU29tZShmb3JtYXQhKCJ7fS4uLiIsIHRydW5jYXRlZC50cmltKCkpKQp9CgpwdWIoc3VwZXIpIGZuIGxvZ19tYXhfbGVuKGlkOiAmc3RyKSAtPiB1c2l6ZSB7CiAgICBpZiBpZCA9PSBGUlBDX1BSSU1BUllfSU5TVEFOQ0VfSUQgewogICAgICAgIFBSSU1BUllfTE9HX01BWF9MRU4KICAgIH0gZWxzZSB7CiAgICAgICAgRVhUUkFfTE9HX01BWF9MRU4KICAgIH0KfQoKcHViKHN1cGVyKSBhc3luYyBmbiByZXN0b3JlX29uX2Jvb3Qoc3RhdGU6ICZBcHBTdGF0ZSkgLT4gRnJwY1Jlc3VsdDwoKT4gewogICAgbGV0IGhhZF9ydW50aW1lID0gaGFzX2FueV9ydW50aW1lX2RhdGEoc3RhdGUpLmF3YWl0PzsKICAgIGVuc3VyZV9wcmltYXJ5X2luc3RhbmNlKHN0YXRlKS5hd2FpdD87CiAgICBpZiAhaGFkX3J1bnRpbWUgJiYgc2hvdWxkX3Jlc3VtZV90dW5uZWwoc3RhdGUpLmF3YWl0IHsKICAgICAgICBsZXQgbXV0IHJ1bnRpbWUgPSByZWFkX3J1bnRpbWUoJnN0YXRlLnN0b3JhZ2Uuc3RvcmUsIEZSUENfUFJJTUFSWV9JTlNUQU5DRV9JRCkuYXdhaXQ/OwogICAgICAgIHJ1bnRpbWUuZGVzaXJlZF9ydW5uaW5nID0gdHJ1ZTsKICAgICAgICB3cml0ZV9ydW50aW1lKCZzdGF0ZS5zdG9yYWdlLnN0b3JlLCBGUlBDX1BSSU1BUllfSU5TVEFOQ0VfSUQsICZydW50aW1lKS5hd2FpdD87CiAgICB9CiAgICBsZXQgbWV0YXMgPSBhbGxfbWV0YXMoc3RhdGUpLmF3YWl0PzsKICAgIGZvciBtZXRhIGluIG1ldGFzIHsKICAgICAgICBsZXQgcnVudGltZSA9IHJlYWRfcnVudGltZSgmc3RhdGUuc3RvcmFnZS5zdG9yZSwgJm1ldGEuaWQpLmF3YWl0PzsKICAgICAgICBsZXQgXyA9IGVuc3VyZV9mcnBjX3N1cGVydmlzb3Ioc3RhdGUsICZtZXRhKS5hd2FpdD87CiAgICAgICAgaWYgcnVudGltZS5kZXNpcmVkX3J1bm5pbmcgewogICAgICAgICAgICBhcHBlbmRfbG9ncyhzdGF0ZSwgJm1ldGEsICZbZGVmYXVsdF9mcnBjX3RleHQoInJlc3VtZU9uQm9vdCIpXSkuYXdhaXQ/OwogICAgICAgIH0KICAgIH0KICAgIHVwZGF0ZV9hZ2dyZWdhdGVfdHVubmVsX3N0YXRlKHN0YXRlKS5hd2FpdD87CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBoYXNfYW55X3J1bnRpbWVfZGF0YShzdGF0ZTogJkFwcFN0YXRlKSAtPiBGcnBjUmVzdWx0PGJvb2w+IHsKICAgIGZvciBpZCBpbiByZWFkX2luc3RhbmNlX2lkcygmc3RhdGUuc3RvcmFnZS5zdG9yZSkuYXdhaXQ/IHsKICAgICAgICBpZiBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLmdldF9qc29uX3ZhbHVlKCZpbnN0YW5jZV9rZXkoJmlkLCAicnVudGltZSIpKQogICAgICAgICAgICAuYXdhaXQ/CiAgICAgICAgICAgIC5pc19zb21lKCkKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybiBPayh0cnVlKTsKICAgICAgICB9CiAgICB9CiAgICBPayhmYWxzZSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiB1cGRhdGVfYWdncmVnYXRlX3R1bm5lbF9zdGF0ZShzdGF0ZTogJkFwcFN0YXRlKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgbGV0IF9ndWFyZCA9IHN0YXRlLnR1bm5lbC5ydW50aW1lX3VwZGF0ZV9sb2NrLmxvY2soKS5hd2FpdDsKICAgIGxldCBtdXQgZGVzaXJlZCA9IGZhbHNlOwogICAgZm9yIGlkIGluIHJlYWRfaW5zdGFuY2VfaWRzKCZzdGF0ZS5zdG9yYWdlLnN0b3JlKS5hd2FpdD8gewogICAgICAgIGlmIHJlYWRfcnVudGltZSgmc3RhdGUuc3RvcmFnZS5zdG9yZSwgJmlkKQogICAgICAgICAgICAuYXdhaXQ/CiAgICAgICAgICAgIC5kZXNpcmVkX3J1bm5pbmcKICAgICAgICB7CiAgICAgICAgICAgIGRlc2lyZWQgPSB0cnVlOwogICAgICAgICAgICBicmVhazsKICAgICAgICB9CiAgICB9CiAgICBpZiBkZXNpcmVkIHsKICAgICAgICBtYXJrX3R1bm5lbF9ydW5uaW5nKHN0YXRlKS5hd2FpdD87CiAgICB9IGVsc2UgewogICAgICAgIG1hcmtfdHVubmVsX3N0b3BwZWQoc3RhdGUpLmF3YWl0PzsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHNob3VsZF9yZXN1bWVfdHVubmVsKHN0YXRlOiAmQXBwU3RhdGUpIC0+IGJvb2wgewogICAgbG9hZF90dW5uZWxfc3RhdGUoc3RhdGUpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmdldCgiZnJwX2VuYWJsZWQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAudW53cmFwX29yKGZhbHNlKQp9Cgphc3luYyBmbiBtYXJrX3R1bm5lbF9ydW5uaW5nKHN0YXRlOiAmQXBwU3RhdGUpIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgbXV0IG9iamVjdCA9IGxvYWRfdHVubmVsX3N0YXRlKHN0YXRlKS5hd2FpdDsKICAgIG9iamVjdC5pbnNlcnQoImZycF9lbmFibGVkIi50b19zdHJpbmcoKSwgVmFsdWU6OkJvb2wodHJ1ZSkpOwogICAgb2JqZWN0Lmluc2VydCgibGFzdF90dW5uZWwiLnRvX3N0cmluZygpLCBWYWx1ZTo6U3RyaW5nKCJmcnAiLnRvX3N0cmluZygpKSk7CiAgICBvYmplY3QuaW5zZXJ0KAogICAgICAgICJ1cGRhdGVkX2F0Ii50b19zdHJpbmcoKSwKICAgICAgICBWYWx1ZTo6U3RyaW5nKHRpbWVfdXRpbHM6Om5vd19pc28oKSksCiAgICApOwogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5zZXRfanNvbl92YWx1ZShUVU5ORUxfUlVOVElNRV9LRVksICZWYWx1ZTo6T2JqZWN0KG9iamVjdCkpCiAgICAgICAgLmF3YWl0PzsKICAgIE9rKCgpKQp9Cgphc3luYyBmbiBtYXJrX3R1bm5lbF9zdG9wcGVkKHN0YXRlOiAmQXBwU3RhdGUpIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgbXV0IG9iamVjdCA9IGxvYWRfdHVubmVsX3N0YXRlKHN0YXRlKS5hd2FpdDsKICAgIGlmIG9iamVjdAogICAgICAgIC5nZXQoImZycF9lbmFibGVkIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgLnVud3JhcF9vcihmYWxzZSkKICAgIHsKICAgICAgICBvYmplY3QuaW5zZXJ0KCJmcnBfZW5hYmxlZCIudG9fc3RyaW5nKCksIFZhbHVlOjpCb29sKGZhbHNlKSk7CiAgICAgICAgb2JqZWN0Lmluc2VydCgKICAgICAgICAgICAgInVwZGF0ZWRfYXQiLnRvX3N0cmluZygpLAogICAgICAgICAgICBWYWx1ZTo6U3RyaW5nKHRpbWVfdXRpbHM6Om5vd19pc28oKSksCiAgICAgICAgKTsKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnNldF9qc29uX3ZhbHVlKFRVTk5FTF9SVU5USU1FX0tFWSwgJlZhbHVlOjpPYmplY3Qob2JqZWN0KSkKICAgICAgICAgICAgLmF3YWl0PzsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGxvYWRfdHVubmVsX3N0YXRlKHN0YXRlOiAmQXBwU3RhdGUpIC0+IHNlcmRlX2pzb246Ok1hcDxTdHJpbmcsIFZhbHVlPiB7CiAgICBsZXQgU29tZShyYXcpID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfanNvbl92YWx1ZShUVU5ORUxfUlVOVElNRV9LRVkpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm9rKCkKICAgICAgICAuZmxhdHRlbigpCiAgICBlbHNlIHsKICAgICAgICByZXR1cm4gZGVmYXVsdF90dW5uZWxfc3RhdGUoKTsKICAgIH07CiAgICBsZXQgU29tZShyYXdfb2JqZWN0KSA9IHJhdy5hc19vYmplY3QoKSBlbHNlIHsKICAgICAgICByZXR1cm4gZGVmYXVsdF90dW5uZWxfc3RhdGUoKTsKICAgIH07CiAgICBsZXQgdXBkYXRlZF9hdCA9IHJhd19vYmplY3QKICAgICAgICAuZ2V0KCJ1cGRhdGVkX2F0IikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgICAgIC51bndyYXBfb3JfZWxzZSh0aW1lX3V0aWxzOjpub3dfaXNvKTsKICAgIGxldCBtdXQgb2JqZWN0ID0gaWYgIXJhd19vYmplY3QuY29udGFpbnNfa2V5KCJmcnBfZW5hYmxlZCIpCiAgICAgICAgJiYgIXJhd19vYmplY3QuY29udGFpbnNfa2V5KCJjbG91ZGZsYXJlZF9lbmFibGVkIikKICAgICAgICAmJiByYXdfb2JqZWN0LmNvbnRhaW5zX2tleSgidHVubmVsIikKICAgICAgICAmJiByYXdfb2JqZWN0LmNvbnRhaW5zX2tleSgiZW5hYmxlZCIpCiAgICB7CiAgICAgICAgbGV0IHR1bm5lbCA9IHJhdy5nZXQoInR1bm5lbCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiZnJwIik7CiAgICAgICAgbGV0IGVuYWJsZWQgPSByYXcuZ2V0KCJlbmFibGVkIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpLnVud3JhcF9vcihmYWxzZSk7CiAgICAgICAganNvbiEoewogICAgICAgICAgICAiZnJwX2VuYWJsZWQiOiB0dW5uZWwgPT0gImZycCIgJiYgZW5hYmxlZCwKICAgICAgICAgICAgImNsb3VkZmxhcmVkX2VuYWJsZWQiOiB0dW5uZWwgPT0gImNsb3VkZmxhcmVkIiAmJiBlbmFibGVkLAogICAgICAgICAgICAibGFzdF90dW5uZWwiOiBpZiB0dW5uZWwgPT0gImNsb3VkZmxhcmVkIiB7ICJjbG91ZGZsYXJlZCIgfSBlbHNlIHsgImZycCIgfSwKICAgICAgICAgICAgInVwZGF0ZWRfYXQiOiB1cGRhdGVkX2F0CiAgICAgICAgfSkKICAgIH0gZWxzZSB7CiAgICAgICAgcmF3CiAgICB9OwogICAgbGV0IG9iamVjdCA9IG9iamVjdC5hc19vYmplY3RfbXV0KCkuY2xvbmVkKCkudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBtdXQgbm9ybWFsaXplZCA9IHNlcmRlX2pzb246Ok1hcDo6bmV3KCk7CiAgICBub3JtYWxpemVkLmluc2VydCgKICAgICAgICAiZnJwX2VuYWJsZWQiLnRvX3N0cmluZygpLAogICAgICAgIFZhbHVlOjpCb29sKAogICAgICAgICAgICBvYmplY3QKICAgICAgICAgICAgICAgIC5nZXQoImZycF9lbmFibGVkIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAgICAgICAgIC51bndyYXBfb3IoZmFsc2UpLAogICAgICAgICksCiAgICApOwogICAgbm9ybWFsaXplZC5pbnNlcnQoCiAgICAgICAgImNsb3VkZmxhcmVkX2VuYWJsZWQiLnRvX3N0cmluZygpLAogICAgICAgIFZhbHVlOjpCb29sKAogICAgICAgICAgICBvYmplY3QKICAgICAgICAgICAgICAgIC5nZXQoImNsb3VkZmxhcmVkX2VuYWJsZWQiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcihmYWxzZSksCiAgICAgICAgKSwKICAgICk7CiAgICBub3JtYWxpemVkLmluc2VydCgKICAgICAgICAibGFzdF90dW5uZWwiLnRvX3N0cmluZygpLAogICAgICAgIFZhbHVlOjpTdHJpbmcoCiAgICAgICAgICAgIGlmIG9iamVjdC5nZXQoImxhc3RfdHVubmVsIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSgiY2xvdWRmbGFyZWQiKSB7CiAgICAgICAgICAgICAgICAiY2xvdWRmbGFyZWQiCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAiZnJwIgogICAgICAgICAgICB9CiAgICAgICAgICAgIC50b19zdHJpbmcoKSwKICAgICAgICApLAogICAgKTsKICAgIG5vcm1hbGl6ZWQuaW5zZXJ0KAogICAgICAgICJ1cGRhdGVkX2F0Ii50b19zdHJpbmcoKSwKICAgICAgICBWYWx1ZTo6U3RyaW5nKAogICAgICAgICAgICBvYmplY3QKICAgICAgICAgICAgICAgIC5nZXQoInVwZGF0ZWRfYXQiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHRpbWVfdXRpbHM6Om5vd19pc28pLAogICAgICAgICksCiAgICApOwogICAgbm9ybWFsaXplZAp9CgpwdWIoc3VwZXIpIGZuIGRlZmF1bHRfdHVubmVsX3N0YXRlKCkgLT4gc2VyZGVfanNvbjo6TWFwPFN0cmluZywgVmFsdWU+IHsKICAgIGxldCBtdXQgbm9ybWFsaXplZCA9IHNlcmRlX2pzb246Ok1hcDo6bmV3KCk7CiAgICBub3JtYWxpemVkLmluc2VydCgiZnJwX2VuYWJsZWQiLnRvX3N0cmluZygpLCBWYWx1ZTo6Qm9vbChmYWxzZSkpOwogICAgbm9ybWFsaXplZC5pbnNlcnQoImNsb3VkZmxhcmVkX2VuYWJsZWQiLnRvX3N0cmluZygpLCBWYWx1ZTo6Qm9vbChmYWxzZSkpOwogICAgbm9ybWFsaXplZC5pbnNlcnQoImxhc3RfdHVubmVsIi50b19zdHJpbmcoKSwgVmFsdWU6OlN0cmluZygiZnJwIi50b19zdHJpbmcoKSkpOwogICAgbm9ybWFsaXplZC5pbnNlcnQoCiAgICAgICAgInVwZGF0ZWRfYXQiLnRvX3N0cmluZygpLAogICAgICAgIFZhbHVlOjpTdHJpbmcoIjE5NzAtMDEtMDFUMDA6MDA6MDAuMDAwWiIudG9fc3RyaW5nKCkpLAogICAgKTsKICAgIG5vcm1hbGl6ZWQKfQo=
+use super::*;
+
+pub(super) async fn build_overview(state: &AppState) -> FrpcResult<FrpcInstancesOverview> {
+    let metas = all_metas(state).await?;
+    let mut items = Vec::new();
+    for meta in metas {
+        items.push(build_status(state, &meta).await?);
+    }
+    let current_executable = frp_executable(state);
+    let running_count = items.iter().filter(|item| item.running).count();
+    let outdated_running_count = if let Some(current_executable) = current_executable.as_deref() {
+        let mut count = 0;
+        for item in &items {
+            if item.running
+                && let Some(pid) = item.pid
+                && process_uses_executable(pid, current_executable).await == Some(false)
+            {
+                count += 1;
+            }
+        }
+        count
+    } else {
+        running_count
+    };
+    Ok(FrpcInstancesOverview {
+        initialized: current_executable.is_some(),
+        platform: detect_frp_platform().to_string(),
+        primary_instance_id: FRPC_PRIMARY_INSTANCE_ID.to_string(),
+        total: items.len(),
+        extra_count: items.iter().filter(|item| !item.is_primary).count(),
+        running_count,
+        outdated_running_count,
+        defaults: json!({ "local_port": std::env::var("GO_REPROXY_PORT").unwrap_or_else(|_| "7999".to_string()) }),
+        items,
+    })
+}
+
+pub(super) async fn build_status(
+    state: &AppState,
+    meta: &FrpcInstanceMeta,
+) -> FrpcResult<FrpcInstanceStatus> {
+    let handle = ensure_frpc_supervisor(state, meta).await?;
+    let supervisor = handle.snapshot();
+    let runtime = read_runtime(&state.storage.store, &meta.id).await?;
+    let content = read_config_for_meta(meta).await?;
+    Ok(FrpcInstanceStatus {
+        id: meta.id.clone(),
+        name: meta.name.clone(),
+        is_primary: meta.is_primary,
+        config_path: meta.config_path.clone(),
+        work_dir: meta.work_dir.clone(),
+        created_at: meta.created_at.clone(),
+        updated_at: meta.updated_at.clone(),
+        sort_order: meta.sort_order,
+        desired_running: supervisor.desired_running,
+        running: supervisor.running,
+        attached: supervisor.attached,
+        pid: supervisor.pid,
+        started_at: supervisor.started_at.clone(),
+        stopped_at: supervisor.stopped_at.clone(),
+        last_exit_code: if supervisor.running {
+            None
+        } else {
+            supervisor
+                .last_failure
+                .as_ref()
+                .and_then(|failure| failure.exit_code)
+                .or(runtime.last_exit_code)
+        },
+        last_message: supervisor.last_message.clone().or(runtime.last_message),
+        supervisor,
+        summary: build_summary(&content),
+    })
+}
+
+pub(super) async fn read_candidate_pid(
+    meta: &FrpcInstanceMeta,
+    runtime: &FrpcInstanceRuntime,
+) -> Option<u32> {
+    if let Some(pid) = runtime.pid
+        && is_owned_frpc_pid(pid, &meta.config_path).await
+    {
+        return Some(pid);
+    }
+    if let Some(pid) = read_pid_file(&pid_path_for_meta(meta)).await
+        && is_owned_frpc_pid(pid, &meta.config_path).await
+    {
+        return Some(pid);
+    }
+    find_frpc_pid_by_config_path(&meta.config_path).await
+}
+
+pub(super) async fn verify_frpc_config(
+    state: &AppState,
+    meta: &FrpcInstanceMeta,
+    content: &str,
+) -> FrpcResult<()> {
+    let Some(bin) = frp_executable(state) else {
+        return Err(frpc_validation("FRP is not initialized"));
+    };
+    fs::create_dir_all(&meta.work_dir).await?;
+    let temp = PathBuf::from(&meta.work_dir).join(format!("frpc.verify.{}.toml", Uuid::new_v4()));
+    fs::write(&temp, content).await?;
+    let output = Command::new(&bin)
+        .arg("verify")
+        .arg("-c")
+        .arg(&temp)
+        .stdout(Stdio::piped())
+        .stderr(Stdio::piped())
+        .output()
+        .await;
+    let _ = fs::remove_file(&temp).await;
+    let output = output
+        .map_err(|error| frpc_validation(format!("Failed to verify frpc config: {error}")))?;
+    if output.status.success() {
+        return Ok(());
+    }
+    let detail = normalize_verify_output(&format!(
+        "{}\n{}",
+        String::from_utf8_lossy(&output.stderr),
+        String::from_utf8_lossy(&output.stdout)
+    ));
+    if detail.is_empty() {
+        Err(frpc_validation(format!(
+            "frpc config verify failed with code {}",
+            output.status.code().unwrap_or(-1)
+        )))
+    } else {
+        Err(frpc_validation(format!(
+            "frpc config verify failed: {detail}"
+        )))
+    }
+}
+
+pub(super) fn normalize_verify_output(value: &str) -> String {
+    let normalized = value
+        .lines()
+        .map(str::trim)
+        .filter(|line| !line.is_empty())
+        .collect::<Vec<_>>()
+        .join("\n");
+    if normalized.chars().count() <= 4000 {
+        normalized
+    } else {
+        format!("{}...", normalized.chars().take(4000).collect::<String>())
+    }
+}
+
+pub(super) async fn start_instance_inner(state: &AppState, id: &str) -> FrpcResult<u32> {
+    let meta = get_meta_or_error(state, id).await?;
+    let handle = ensure_frpc_supervisor(state, &meta).await?;
+    handle.start().await.map_err(frpc_internal)
+}
+
+pub(super) async fn stop_instance_inner(state: &AppState, id: &str) -> FrpcResult<()> {
+    let meta = get_meta_or_error(state, id).await?;
+    let handle = ensure_frpc_supervisor(state, &meta).await?;
+    handle.stop().await.map_err(frpc_internal)
+}
+
+pub(super) async fn restart_instance_inner(state: &AppState, id: &str) -> FrpcResult<u32> {
+    let meta = get_meta_or_error(state, id).await?;
+    let handle = ensure_frpc_supervisor(state, &meta).await?;
+    handle.restart().await.map_err(frpc_internal)
+}
+
+pub(super) async fn list_logs_inner(
+    state: &AppState,
+    id: &str,
+    limit: usize,
+) -> FrpcResult<Vec<String>> {
+    let meta = get_meta_or_error(state, id).await?;
+    Ok(state
+        .storage
+        .store
+        .list_log_buffer(&log_key(&meta.id), limit, log_max_len(&meta.id))
+        .await?)
+}
+
+pub(super) async fn clear_logs_inner(state: &AppState, id: &str) -> FrpcResult<()> {
+    let meta = get_meta_or_error(state, id).await?;
+    state
+        .storage
+        .store
+        .clear_log_buffer(&log_key(&meta.id))
+        .await?;
+    Ok(())
+}
+
+pub(super) async fn poll_inner(
+    state: &AppState,
+    id: &str,
+    cursor: Option<&str>,
+) -> FrpcResult<Value> {
+    let meta = get_meta_or_error(state, id).await?;
+    let logs = state
+        .storage
+        .store
+        .poll_log_buffer(&log_key(&meta.id), cursor)
+        .await?;
+    let status = build_status(state, &meta).await?;
+    Ok(json!({
+        "cursor": logs.get("cursor").cloned().unwrap_or(json!(0)),
+        "reset": logs.get("reset").cloned().unwrap_or(json!(false)),
+        "logs": logs.get("items").and_then(Value::as_array).cloned().unwrap_or_default().into_iter().filter_map(|item| item.as_str().map(str::to_string)).collect::<Vec<_>>(),
+        "status": status
+    }))
+}
+
+pub(super) async fn append_logs(
+    state: &AppState,
+    meta: &FrpcInstanceMeta,
+    lines: &[String],
+) -> anyhow::Result<()> {
+    let normalized = lines
+        .iter()
+        .map(|line| crate::tunnels::supervisor::bounded_log_line(line.trim_end()))
+        .filter(|line| !line.is_empty())
+        .collect::<Vec<_>>();
+    state
+        .storage
+        .store
+        .append_log_buffer(
+            &log_key(&meta.id),
+            &normalized,
+            LOG_TTL_SEC,
+            log_max_len(&meta.id),
+        )
+        .await?;
+    Ok(())
+}
+
+pub(super) fn normalize_frpc_tunnel_event_message(line: &str) -> Option<String> {
+    let trimmed = line.trim_start();
+    let line = ["[ERR]", "[OUT]"]
+        .into_iter()
+        .find_map(|prefix| {
+            trimmed
+                .get(..prefix.len())
+                .is_some_and(|candidate| candidate.eq_ignore_ascii_case(prefix))
+                .then(|| trimmed[prefix.len()..].trim_start())
+        })
+        .unwrap_or(line);
+    normalize_tunnel_event_message(line)
+}
+
+pub(super) fn normalize_tunnel_event_message(line: &str) -> Option<String> {
+    let normalized = line.split_whitespace().collect::<Vec<_>>().join(" ");
+    if normalized.is_empty() {
+        return None;
+    }
+    if normalized.chars().count() <= 240 {
+        return Some(normalized);
+    }
+    let truncated = normalized.chars().take(240).collect::<String>();
+    Some(format!("{}...", truncated.trim()))
+}
+
+pub(super) fn log_max_len(id: &str) -> usize {
+    if id == FRPC_PRIMARY_INSTANCE_ID {
+        PRIMARY_LOG_MAX_LEN
+    } else {
+        EXTRA_LOG_MAX_LEN
+    }
+}
+
+pub(super) async fn restore_on_boot(state: &AppState) -> FrpcResult<()> {
+    let had_runtime = has_any_runtime_data(state).await?;
+    ensure_primary_instance(state).await?;
+    if !had_runtime && should_resume_tunnel(state).await {
+        let mut runtime = read_runtime(&state.storage.store, FRPC_PRIMARY_INSTANCE_ID).await?;
+        runtime.desired_running = true;
+        write_runtime(&state.storage.store, FRPC_PRIMARY_INSTANCE_ID, &runtime).await?;
+    }
+    let metas = all_metas(state).await?;
+    for meta in metas {
+        let runtime = read_runtime(&state.storage.store, &meta.id).await?;
+        let _ = ensure_frpc_supervisor(state, &meta).await?;
+        if runtime.desired_running {
+            append_logs(state, &meta, &[default_frpc_text("resumeOnBoot")]).await?;
+        }
+    }
+    update_aggregate_tunnel_state(state).await?;
+    Ok(())
+}
+
+pub(super) async fn has_any_runtime_data(state: &AppState) -> FrpcResult<bool> {
+    for id in read_instance_ids(&state.storage.store).await? {
+        if state
+            .storage
+            .store
+            .get_json_value(&instance_key(&id, "runtime"))
+            .await?
+            .is_some()
+        {
+            return Ok(true);
+        }
+    }
+    Ok(false)
+}
+
+pub(super) async fn update_aggregate_tunnel_state(state: &AppState) -> anyhow::Result<()> {
+    let _guard = state.tunnel.runtime_update_lock.lock().await;
+    let mut desired = false;
+    for id in read_instance_ids(&state.storage.store).await? {
+        if read_runtime(&state.storage.store, &id)
+            .await?
+            .desired_running
+        {
+            desired = true;
+            break;
+        }
+    }
+    if desired {
+        mark_tunnel_running(state).await?;
+    } else {
+        mark_tunnel_stopped(state).await?;
+    }
+    Ok(())
+}
+
+pub(super) async fn should_resume_tunnel(state: &AppState) -> bool {
+    load_tunnel_state(state)
+        .await
+        .get("frp_enabled")
+        .and_then(Value::as_bool)
+        .unwrap_or(false)
+}
+
+async fn mark_tunnel_running(state: &AppState) -> anyhow::Result<()> {
+    let mut object = load_tunnel_state(state).await;
+    object.insert("frp_enabled".to_string(), Value::Bool(true));
+    object.insert("last_tunnel".to_string(), Value::String("frp".to_string()));
+    object.insert(
+        "updated_at".to_string(),
+        Value::String(time_utils::now_iso()),
+    );
+    state
+        .storage
+        .store
+        .set_json_value(TUNNEL_RUNTIME_KEY, &Value::Object(object))
+        .await?;
+    Ok(())
+}
+
+async fn mark_tunnel_stopped(state: &AppState) -> anyhow::Result<()> {
+    let mut object = load_tunnel_state(state).await;
+    if object
+        .get("frp_enabled")
+        .and_then(Value::as_bool)
+        .unwrap_or(false)
+    {
+        object.insert("frp_enabled".to_string(), Value::Bool(false));
+        object.insert(
+            "updated_at".to_string(),
+            Value::String(time_utils::now_iso()),
+        );
+        state
+            .storage
+            .store
+            .set_json_value(TUNNEL_RUNTIME_KEY, &Value::Object(object))
+            .await?;
+    }
+    Ok(())
+}
+
+pub(super) async fn load_tunnel_state(state: &AppState) -> serde_json::Map<String, Value> {
+    let Some(raw) = state
+        .storage
+        .store
+        .get_json_value(TUNNEL_RUNTIME_KEY)
+        .await
+        .ok()
+        .flatten()
+    else {
+        return default_tunnel_state();
+    };
+    let Some(raw_object) = raw.as_object() else {
+        return default_tunnel_state();
+    };
+    let updated_at = raw_object
+        .get("updated_at")
+        .and_then(Value::as_str)
+        .map(str::to_string)
+        .unwrap_or_else(time_utils::now_iso);
+    let mut object = if !raw_object.contains_key("frp_enabled")
+        && !raw_object.contains_key("cloudflared_enabled")
+        && raw_object.contains_key("tunnel")
+        && raw_object.contains_key("enabled")
+    {
+        let tunnel = raw.get("tunnel").and_then(Value::as_str).unwrap_or("frp");
+        let enabled = raw.get("enabled").and_then(Value::as_bool).unwrap_or(false);
+        json!({
+            "frp_enabled": tunnel == "frp" && enabled,
+            "cloudflared_enabled": tunnel == "cloudflared" && enabled,
+            "last_tunnel": if tunnel == "cloudflared" { "cloudflared" } else { "frp" },
+            "updated_at": updated_at
+        })
+    } else {
+        raw
+    };
+    let object = object.as_object_mut().cloned().unwrap_or_default();
+    let mut normalized = serde_json::Map::new();
+    normalized.insert(
+        "frp_enabled".to_string(),
+        Value::Bool(
+            object
+                .get("frp_enabled")
+                .and_then(Value::as_bool)
+                .unwrap_or(false),
+        ),
+    );
+    normalized.insert(
+        "cloudflared_enabled".to_string(),
+        Value::Bool(
+            object
+                .get("cloudflared_enabled")
+                .and_then(Value::as_bool)
+                .unwrap_or(false),
+        ),
+    );
+    normalized.insert(
+        "last_tunnel".to_string(),
+        Value::String(
+            if object.get("last_tunnel").and_then(Value::as_str) == Some("cloudflared") {
+                "cloudflared"
+            } else {
+                "frp"
+            }
+            .to_string(),
+        ),
+    );
+    normalized.insert(
+        "updated_at".to_string(),
+        Value::String(
+            object
+                .get("updated_at")
+                .and_then(Value::as_str)
+                .map(str::to_string)
+                .unwrap_or_else(time_utils::now_iso),
+        ),
+    );
+    normalized
+}
+
+pub(super) fn default_tunnel_state() -> serde_json::Map<String, Value> {
+    let mut normalized = serde_json::Map::new();
+    normalized.insert("frp_enabled".to_string(), Value::Bool(false));
+    normalized.insert("cloudflared_enabled".to_string(), Value::Bool(false));
+    normalized.insert("last_tunnel".to_string(), Value::String("frp".to_string()));
+    normalized.insert(
+        "updated_at".to_string(),
+        Value::String("1970-01-01T00:00:00.000Z".to_string()),
+    );
+    normalized
+}

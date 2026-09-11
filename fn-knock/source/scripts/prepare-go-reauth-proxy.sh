@@ -1,1 +1,176 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4iICYmIHB3ZCkiCnNvdXJjZSAiJHtST09UX0RJUn0vc2NyaXB0cy92ZXJzaW9uLnNoIgpPVVRQVVRfRElSPSIkezE6LSR7Uk9PVF9ESVJ9L2FwcHMvZm4ta25vY2svYXBwL3NlcnZlcn0iCnNoaWZ0IHx8IHRydWUKCkFSQ0hFUz0oIiRAIikKaWYgWyAiJHsjQVJDSEVTW0BdfSIgLWVxIDAgXTsgdGhlbgogIEFSQ0hFUz0oYW1kNjQgYXJtNjQgYXJtKQpmaQoKR09fUkVBVVRIX1BST1hZX0RJUj0iJHtGTl9LTk9DS19HT19SRUFVVEhfUFJPWFlfRElSOi0ke1JPT1RfRElSfS8uLi9Hby1SZWF1dGgtUHJveHl9IgpHT19SRUFVVEhfUFJPWFlfQlVJTERfRElSPSIke0ZOX0tOT0NLX0dPX1JFQVVUSF9QUk9YWV9CVUlMRF9ESVI6LSR7R09fUkVBVVRIX1BST1hZX0RJUn0vYnVpbGR9IgpTS0lQX0JVSUxEPSIke0ZOX0tOT0NLX0dPX1JFQVVUSF9QUk9YWV9TS0lQX0JVSUxEOi0wfSIKRk9SQ0VfQlVJTEQ9IiR7Rk5fS05PQ0tfR09fUkVBVVRIX1BST1hZX0ZPUkNFX0JVSUxEOi0wfSIKQlVORExFX1ZFUlNJT049IiQoZm5fa25vY2tfYXBwX3ZlcnNpb24gIiR7Uk9PVF9ESVJ9IikiCkJVTkRMRV9DT01NSVQ9IiIKQUNUVUFMX0NPTU1JVD0iIgoKbG9nKCkgewogIGVjaG8gIltmbi1rbm9ja10gJCoiCn0KCmZhaWwoKSB7CiAgZWNobyAiW2ZuLWtub2NrXSBFUlJPUjogJCoiID4mMgogIGV4aXQgMQp9CgppbnZhbGlkYXRlX2J1aWxkX2NhY2hlKCkgewogIGxvY2FsIGFyY2gKICBsb2NhbCBiaW5hcnkKCiAgZm9yIGFyY2ggaW4gIiR7QVJDSEVTW0BdfSI7IGRvCiAgICBiaW5hcnk9IiR7R09fUkVBVVRIX1BST1hZX0JVSUxEX0RJUn0vZ28tcmVhdXRoLXByb3h5LWxpbnV4LSR7YXJjaH0iCiAgICBybSAtZiAiJHtiaW5hcnl9IiAiJHtiaW5hcnl9LmNvbW1pdCIgIiR7YmluYXJ5fS52ZXJzaW9uIgogIGRvbmUKfQoKYXNzZXJ0X2NoZWNrb3V0X2xvY2tlZCgpIHsKICBsb2NhbCBwaGFzZT0iJDEiCiAgbG9jYWwgaW52YWxpZGF0ZT0iJHsyOi0wfSIKICBsb2NhbCBhY3R1YWxfY29tbWl0CiAgbG9jYWwgd29ya3RyZWVfc3RhdGUKCiAgYWN0dWFsX2NvbW1pdD0iJChnaXQgLUMgIiR7R09fUkVBVVRIX1BST1hZX0RJUn0iIHJldi1wYXJzZSBIRUFEIDI+L2Rldi9udWxsKSIgfHwgXAogICAgZmFpbCAidW5hYmxlIHRvIHJlc29sdmUgR28gZ2F0ZXdheSBjb21taXQgZnJvbSAke0dPX1JFQVVUSF9QUk9YWV9ESVJ9IGR1cmluZyAke3BoYXNlfSIKICBpZiBbICIke2FjdHVhbF9jb21taXR9IiAhPSAiJHtCVU5ETEVfQ09NTUlUfSIgXTsgdGhlbgogICAgaWYgWyAiJHtpbnZhbGlkYXRlfSIgPSAiMSIgXTsgdGhlbgogICAgICBpbnZhbGlkYXRlX2J1aWxkX2NhY2hlCiAgICBmaQogICAgZmFpbCAiR28gZ2F0ZXdheSBIRUFEIGNoYW5nZWQgZHVyaW5nIGFydGlmYWN0IHByZXBhcmF0aW9uICgke3BoYXNlfSk6IGV4cGVjdGVkICR7QlVORExFX0NPTU1JVH0sIGdvdCAke2FjdHVhbF9jb21taXR9IgogIGZpCgogIHdvcmt0cmVlX3N0YXRlPSIkKGdpdCAtQyAiJHtHT19SRUFVVEhfUFJPWFlfRElSfSIgc3RhdHVzIC0tcG9yY2VsYWluIC0tdW50cmFja2VkLWZpbGVzPW5vcm1hbCkiCiAgaWYgWyAtbiAiJHt3b3JrdHJlZV9zdGF0ZX0iIF07IHRoZW4KICAgIGlmIFsgIiR7aW52YWxpZGF0ZX0iID0gIjEiIF07IHRoZW4KICAgICAgaW52YWxpZGF0ZV9idWlsZF9jYWNoZQogICAgZmkKICAgIGZhaWwgIkdvIGdhdGV3YXkgd29ya2luZyB0cmVlIGlzIG5vdCBjbGVhbiBkdXJpbmcgYXJ0aWZhY3QgcHJlcGFyYXRpb24gKCR7cGhhc2V9KTsgY29tbWl0IG9yIGRpc2NhcmQgY2hhbmdlcyBiZWZvcmUgcGFja2FnaW5nIgogIGZpCn0KCm5lZWRzX2J1aWxkKCkgewogIGxvY2FsIGFyY2gKICBsb2NhbCBiaW5hcnkKICBsb2NhbCBiaW5hcnlfY29tbWl0X2ZpbGUKICBsb2NhbCBiaW5hcnlfY29tbWl0CiAgbG9jYWwgYmluYXJ5X3ZlcnNpb25fZmlsZQogIGxvY2FsIGJpbmFyeV92ZXJzaW9uCgogIGlmIFsgIiR7Rk9SQ0VfQlVJTER9IiA9ICIxIiBdOyB0aGVuCiAgICByZXR1cm4gMAogIGZpCgogIGZvciBhcmNoIGluICIke0FSQ0hFU1tAXX0iOyBkbwogICAgYmluYXJ5PSIke0dPX1JFQVVUSF9QUk9YWV9CVUlMRF9ESVJ9L2dvLXJlYXV0aC1wcm94eS1saW51eC0ke2FyY2h9IgogICAgYmluYXJ5X2NvbW1pdF9maWxlPSIke2JpbmFyeX0uY29tbWl0IgogICAgYmluYXJ5X3ZlcnNpb25fZmlsZT0iJHtiaW5hcnl9LnZlcnNpb24iCiAgICBpZiBbICEgLWYgIiR7YmluYXJ5fSIgXTsgdGhlbgogICAgICByZXR1cm4gMAogICAgZmkKICAgIGlmIFsgISAtZiAiJHtiaW5hcnlfdmVyc2lvbl9maWxlfSIgXTsgdGhlbgogICAgICByZXR1cm4gMAogICAgZmkKICAgIGlmIFsgISAtZiAiJHtiaW5hcnlfY29tbWl0X2ZpbGV9IiBdOyB0aGVuCiAgICAgIHJldHVybiAwCiAgICBmaQogICAgYmluYXJ5X3ZlcnNpb249IiQodHIgLWQgJ1xyXG4nIDwgIiR7YmluYXJ5X3ZlcnNpb25fZmlsZX0iKSIKICAgIGlmIFsgIiR7YmluYXJ5X3ZlcnNpb259IiAhPSAiJHtCVU5ETEVfVkVSU0lPTn0iIF07IHRoZW4KICAgICAgcmV0dXJuIDAKICAgIGZpCiAgICBiaW5hcnlfY29tbWl0PSIkKHRyIC1kICdcclxuJyA8ICIke2JpbmFyeV9jb21taXRfZmlsZX0iKSIKICAgIGlmIFsgIiR7YmluYXJ5X2NvbW1pdH0iICE9ICIke0JVTkRMRV9DT01NSVR9IiBdOyB0aGVuCiAgICAgIHJldHVybiAwCiAgICBmaQogICAgaWYgZmluZCAiJHtHT19SRUFVVEhfUFJPWFlfRElSfSIgXAogICAgICBcKCAtcGF0aCAiJHtHT19SRUFVVEhfUFJPWFlfQlVJTERfRElSfSIgLW8gLXBhdGggIiR7R09fUkVBVVRIX1BST1hZX0JVSUxEX0RJUn0vKiIgXCkgLXBydW5lIFwKICAgICAgLW8gXCggLW5hbWUgJyouZ28nIC1vIC1uYW1lICdnby5tb2QnIC1vIC1uYW1lICdnby5zdW0nIC1vIC1uYW1lICdUYXNrZmlsZS55bWwnIFwpIFwKICAgICAgLW5ld2VyICIke2JpbmFyeX0iIC1wcmludCAtcXVpdCB8IGdyZXAgLXEgLjsgdGhlbgogICAgICByZXR1cm4gMAogICAgZmkKICBkb25lCgogIHJldHVybiAxCn0KClsgLWQgIiR7R09fUkVBVVRIX1BST1hZX0RJUn0iIF0gfHwgXAogIGZhaWwgIm1pc3NpbmcgR28tUmVhdXRoLVByb3h5IGNoZWNrb3V0OiAke0dPX1JFQVVUSF9QUk9YWV9ESVJ9LiBTZXQgRk5fS05PQ0tfR09fUkVBVVRIX1BST1hZX0RJUiB0byBvdmVycmlkZS4iCmJhc2ggIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvdmVyaWZ5LWdvLWNvbnRyb2wtYXBpLWNvbnRyYWN0LnNoIiAiJHtHT19SRUFVVEhfUFJPWFlfRElSfSIKCkFDVFVBTF9DT01NSVQ9IiQoZ2l0IC1DICIke0dPX1JFQVVUSF9QUk9YWV9ESVJ9IiByZXYtcGFyc2UgSEVBRCAyPi9kZXYvbnVsbCkiIHx8IFwKICBmYWlsICJ1bmFibGUgdG8gcmVzb2x2ZSBHbyBnYXRld2F5IGNvbW1pdCBmcm9tICR7R09fUkVBVVRIX1BST1hZX0RJUn0iCmlmIFsgLW4gIiR7Rk5fS05PQ0tfR0FURVdBWV9DT01NSVQ6LX0iIF07IHRoZW4KICBCVU5ETEVfQ09NTUlUPSIke0ZOX0tOT0NLX0dBVEVXQVlfQ09NTUlUfSIKZWxzZQogIEJVTkRMRV9DT01NSVQ9IiR7QUNUVUFMX0NPTU1JVH0iCmZpCltbICIke0JVTkRMRV9DT01NSVR9IiA9fiBeWzAtOWEtZl17NDB9JCBdXSB8fCBcCiAgZmFpbCAiR28gZ2F0ZXdheSBjb21taXQgbXVzdCBiZSBhIDQwLWNoYXJhY3RlciBsb3dlcmNhc2UgR2l0IGNvbW1pdDogJHtCVU5ETEVfQ09NTUlUOi08ZW1wdHk+fSIKYXNzZXJ0X2NoZWNrb3V0X2xvY2tlZCAiYmVmb3JlIGdhdGV3YXkgYnVpbGQiCgppZiBuZWVkc19idWlsZDsgdGhlbgogIGlmIFsgIiR7U0tJUF9CVUlMRH0iID0gIjEiIF07IHRoZW4KICAgIGZhaWwgIm1pc3NpbmcgZ2F0ZXdheSBiaW5hcmllcyBpbiAke0dPX1JFQVVUSF9QUk9YWV9CVUlMRF9ESVJ9IGFuZCBGTl9LTk9DS19HT19SRUFVVEhfUFJPWFlfU0tJUF9CVUlMRD0xIgogIGZpCgogIGNvbW1hbmQgLXYgdGFzayA+L2Rldi9udWxsIDI+JjEgfHwgXAogICAgZmFpbCAibWlzc2luZyByZXF1aXJlZCBjb21tYW5kOiB0YXNrIgoKICBpZiBbICIke0ZPUkNFX0JVSUxEfSIgPSAiMSIgXTsgdGhlbgogICAgbG9nICJGb3JjZSByZWJ1aWxkaW5nIGdvLXJlYXV0aC1wcm94eSAke0JVTkRMRV9WRVJTSU9OfSBiaW5hcmllcyB3aXRoIHRhc2sgYnVpbGQgaW4gJHtHT19SRUFVVEhfUFJPWFlfRElSfSIKICBlbHNlCiAgICBsb2cgIkJ1aWxkaW5nIGdvLXJlYXV0aC1wcm94eSAke0JVTkRMRV9WRVJTSU9OfSBiaW5hcmllcyB3aXRoIHRhc2sgYnVpbGQgaW4gJHtHT19SRUFVVEhfUFJPWFlfRElSfSIKICBmaQogICgKICAgIGNkICIke0dPX1JFQVVUSF9QUk9YWV9ESVJ9IgogICAgRk5fS05PQ0tfVkVSU0lPTj0iJHtCVU5ETEVfVkVSU0lPTn0iIFwKICAgICAgRk5fS05PQ0tfQ09NTUlUPSIke0JVTkRMRV9DT01NSVR9IiBcCiAgICAgIHRhc2sgYnVpbGQKICApCiAgYXNzZXJ0X2NoZWNrb3V0X2xvY2tlZCAiYWZ0ZXIgZ2F0ZXdheSBidWlsZCIgMQogIGZvciBhcmNoIGluICIke0FSQ0hFU1tAXX0iOyBkbwogICAgYmluYXJ5PSIke0dPX1JFQVVUSF9QUk9YWV9CVUlMRF9ESVJ9L2dvLXJlYXV0aC1wcm94eS1saW51eC0ke2FyY2h9IgogICAgWyAtZiAiJHtiaW5hcnl9IiBdIHx8IGZhaWwgIm1pc3NpbmcgZ2F0ZXdheSBiaW5hcnkgYWZ0ZXIgYnVpbGQ6ICR7YmluYXJ5fSIKICAgIHByaW50ZiAnJXNcbicgIiR7QlVORExFX0NPTU1JVH0iID4gIiR7YmluYXJ5fS5jb21taXQiCiAgZG9uZQpmaQoKbWtkaXIgLXAgIiR7T1VUUFVUX0RJUn0iCgpmb3IgYXJjaCBpbiAiJHtBUkNIRVNbQF19IjsgZG8KICBzcmM9IiR7R09fUkVBVVRIX1BST1hZX0JVSUxEX0RJUn0vZ28tcmVhdXRoLXByb3h5LWxpbnV4LSR7YXJjaH0iCiAgc3JjX2NvbW1pdF9maWxlPSIke3NyY30uY29tbWl0IgogIHNyY192ZXJzaW9uX2ZpbGU9IiR7c3JjfS52ZXJzaW9uIgogIGRzdD0iJHtPVVRQVVRfRElSfS9nby1yZWF1dGgtcHJveHktbGludXgtJHthcmNofSIKCiAgWyAtZiAiJHtzcmN9IiBdIHx8IGZhaWwgIm1pc3NpbmcgZ2F0ZXdheSBiaW5hcnkgYWZ0ZXIgYnVpbGQ6ICR7c3JjfSIKICBbIC1mICIke3NyY192ZXJzaW9uX2ZpbGV9IiBdIHx8IFwKICAgIGZhaWwgIm1pc3NpbmcgZ2F0ZXdheSBidW5kbGUgdmVyc2lvbiBtZXRhZGF0YSBhZnRlciBidWlsZDogJHtzcmNfdmVyc2lvbl9maWxlfSIKICBbIC1mICIke3NyY19jb21taXRfZmlsZX0iIF0gfHwgXAogICAgZmFpbCAibWlzc2luZyBnYXRld2F5IHNvdXJjZSBjb21taXQgbWV0YWRhdGEgYWZ0ZXIgYnVpbGQ6ICR7c3JjX2NvbW1pdF9maWxlfSIKICBzcmNfdmVyc2lvbj0iJCh0ciAtZCAnXHJcbicgPCAiJHtzcmNfdmVyc2lvbl9maWxlfSIpIgogIFsgIiR7c3JjX3ZlcnNpb259IiA9ICIke0JVTkRMRV9WRVJTSU9OfSIgXSB8fCBcCiAgICBmYWlsICJnYXRld2F5IGJ1bmRsZSB2ZXJzaW9uIG1pc21hdGNoIGFmdGVyIGJ1aWxkOiBleHBlY3RlZCAke0JVTkRMRV9WRVJTSU9OfSwgZ290ICR7c3JjX3ZlcnNpb246LTxlbXB0eT59IgogIHNyY19jb21taXQ9IiQodHIgLWQgJ1xyXG4nIDwgIiR7c3JjX2NvbW1pdF9maWxlfSIpIgogIFsgIiR7c3JjX2NvbW1pdH0iID0gIiR7QlVORExFX0NPTU1JVH0iIF0gfHwgXAogICAgZmFpbCAiZ2F0ZXdheSBzb3VyY2UgY29tbWl0IG1pc21hdGNoIGFmdGVyIGJ1aWxkOiBleHBlY3RlZCAke0JVTkRMRV9DT01NSVR9LCBnb3QgJHtzcmNfY29tbWl0Oi08ZW1wdHk+fSIKCiAgY3AgIiR7c3JjfSIgIiR7ZHN0fSIKICBjaG1vZCAreCAiJHtkc3R9IgogIGxvZyAiUHJlcGFyZWQgJHtkc3R9Igpkb25lCgphc3NlcnRfY2hlY2tvdXRfbG9ja2VkICJhZnRlciBnYXRld2F5IHN0YWdpbmciCg==
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+source "${ROOT_DIR}/scripts/version.sh"
+OUTPUT_DIR="${1:-${ROOT_DIR}/apps/fn-knock/app/server}"
+shift || true
+
+ARCHES=("$@")
+if [ "${#ARCHES[@]}" -eq 0 ]; then
+  ARCHES=(amd64 arm64 arm)
+fi
+
+GO_REAUTH_PROXY_DIR="${FN_KNOCK_GO_REAUTH_PROXY_DIR:-${ROOT_DIR}/../Go-Reauth-Proxy}"
+GO_REAUTH_PROXY_BUILD_DIR="${FN_KNOCK_GO_REAUTH_PROXY_BUILD_DIR:-${GO_REAUTH_PROXY_DIR}/build}"
+SKIP_BUILD="${FN_KNOCK_GO_REAUTH_PROXY_SKIP_BUILD:-0}"
+FORCE_BUILD="${FN_KNOCK_GO_REAUTH_PROXY_FORCE_BUILD:-0}"
+BUNDLE_VERSION="$(fn_knock_app_version "${ROOT_DIR}")"
+BUNDLE_COMMIT=""
+ACTUAL_COMMIT=""
+
+log() {
+  echo "[fn-knock] $*"
+}
+
+fail() {
+  echo "[fn-knock] ERROR: $*" >&2
+  exit 1
+}
+
+invalidate_build_cache() {
+  local arch
+  local binary
+
+  for arch in "${ARCHES[@]}"; do
+    binary="${GO_REAUTH_PROXY_BUILD_DIR}/go-reauth-proxy-linux-${arch}"
+    rm -f "${binary}" "${binary}.commit" "${binary}.version"
+  done
+}
+
+assert_checkout_locked() {
+  local phase="$1"
+  local invalidate="${2:-0}"
+  local actual_commit
+  local worktree_state
+
+  actual_commit="$(git -C "${GO_REAUTH_PROXY_DIR}" rev-parse HEAD 2>/dev/null)" || \
+    fail "unable to resolve Go gateway commit from ${GO_REAUTH_PROXY_DIR} during ${phase}"
+  if [ "${actual_commit}" != "${BUNDLE_COMMIT}" ]; then
+    if [ "${invalidate}" = "1" ]; then
+      invalidate_build_cache
+    fi
+    fail "Go gateway HEAD changed during artifact preparation (${phase}): expected ${BUNDLE_COMMIT}, got ${actual_commit}"
+  fi
+
+  worktree_state="$(git -C "${GO_REAUTH_PROXY_DIR}" status --porcelain --untracked-files=normal)"
+  if [ -n "${worktree_state}" ]; then
+    if [ "${invalidate}" = "1" ]; then
+      invalidate_build_cache
+    fi
+    fail "Go gateway working tree is not clean during artifact preparation (${phase}); commit or discard changes before packaging"
+  fi
+}
+
+needs_build() {
+  local arch
+  local binary
+  local binary_commit_file
+  local binary_commit
+  local binary_version_file
+  local binary_version
+
+  if [ "${FORCE_BUILD}" = "1" ]; then
+    return 0
+  fi
+
+  for arch in "${ARCHES[@]}"; do
+    binary="${GO_REAUTH_PROXY_BUILD_DIR}/go-reauth-proxy-linux-${arch}"
+    binary_commit_file="${binary}.commit"
+    binary_version_file="${binary}.version"
+    if [ ! -f "${binary}" ]; then
+      return 0
+    fi
+    if [ ! -f "${binary_version_file}" ]; then
+      return 0
+    fi
+    if [ ! -f "${binary_commit_file}" ]; then
+      return 0
+    fi
+    binary_version="$(tr -d '\r\n' < "${binary_version_file}")"
+    if [ "${binary_version}" != "${BUNDLE_VERSION}" ]; then
+      return 0
+    fi
+    binary_commit="$(tr -d '\r\n' < "${binary_commit_file}")"
+    if [ "${binary_commit}" != "${BUNDLE_COMMIT}" ]; then
+      return 0
+    fi
+    if find "${GO_REAUTH_PROXY_DIR}" \
+      \( -path "${GO_REAUTH_PROXY_BUILD_DIR}" -o -path "${GO_REAUTH_PROXY_BUILD_DIR}/*" \) -prune \
+      -o \( -name '*.go' -o -name 'go.mod' -o -name 'go.sum' -o -name 'Taskfile.yml' \) \
+      -newer "${binary}" -print -quit | grep -q .; then
+      return 0
+    fi
+  done
+
+  return 1
+}
+
+[ -d "${GO_REAUTH_PROXY_DIR}" ] || \
+  fail "missing Go-Reauth-Proxy checkout: ${GO_REAUTH_PROXY_DIR}. Set FN_KNOCK_GO_REAUTH_PROXY_DIR to override."
+bash "${ROOT_DIR}/scripts/verify-go-control-api-contract.sh" "${GO_REAUTH_PROXY_DIR}"
+
+ACTUAL_COMMIT="$(git -C "${GO_REAUTH_PROXY_DIR}" rev-parse HEAD 2>/dev/null)" || \
+  fail "unable to resolve Go gateway commit from ${GO_REAUTH_PROXY_DIR}"
+if [ -n "${FN_KNOCK_GATEWAY_COMMIT:-}" ]; then
+  BUNDLE_COMMIT="${FN_KNOCK_GATEWAY_COMMIT}"
+else
+  BUNDLE_COMMIT="${ACTUAL_COMMIT}"
+fi
+[[ "${BUNDLE_COMMIT}" =~ ^[0-9a-f]{40}$ ]] || \
+  fail "Go gateway commit must be a 40-character lowercase Git commit: ${BUNDLE_COMMIT:-<empty>}"
+assert_checkout_locked "before gateway build"
+
+if needs_build; then
+  if [ "${SKIP_BUILD}" = "1" ]; then
+    fail "missing gateway binaries in ${GO_REAUTH_PROXY_BUILD_DIR} and FN_KNOCK_GO_REAUTH_PROXY_SKIP_BUILD=1"
+  fi
+
+  command -v task >/dev/null 2>&1 || \
+    fail "missing required command: task"
+
+  if [ "${FORCE_BUILD}" = "1" ]; then
+    log "Force rebuilding go-reauth-proxy ${BUNDLE_VERSION} binaries with task build in ${GO_REAUTH_PROXY_DIR}"
+  else
+    log "Building go-reauth-proxy ${BUNDLE_VERSION} binaries with task build in ${GO_REAUTH_PROXY_DIR}"
+  fi
+  (
+    cd "${GO_REAUTH_PROXY_DIR}"
+    FN_KNOCK_VERSION="${BUNDLE_VERSION}" \
+      FN_KNOCK_COMMIT="${BUNDLE_COMMIT}" \
+      task build
+  )
+  assert_checkout_locked "after gateway build" 1
+  for arch in "${ARCHES[@]}"; do
+    binary="${GO_REAUTH_PROXY_BUILD_DIR}/go-reauth-proxy-linux-${arch}"
+    [ -f "${binary}" ] || fail "missing gateway binary after build: ${binary}"
+    printf '%s\n' "${BUNDLE_COMMIT}" > "${binary}.commit"
+  done
+fi
+
+mkdir -p "${OUTPUT_DIR}"
+
+for arch in "${ARCHES[@]}"; do
+  src="${GO_REAUTH_PROXY_BUILD_DIR}/go-reauth-proxy-linux-${arch}"
+  src_commit_file="${src}.commit"
+  src_version_file="${src}.version"
+  dst="${OUTPUT_DIR}/go-reauth-proxy-linux-${arch}"
+
+  [ -f "${src}" ] || fail "missing gateway binary after build: ${src}"
+  [ -f "${src_version_file}" ] || \
+    fail "missing gateway bundle version metadata after build: ${src_version_file}"
+  [ -f "${src_commit_file}" ] || \
+    fail "missing gateway source commit metadata after build: ${src_commit_file}"
+  src_version="$(tr -d '\r\n' < "${src_version_file}")"
+  [ "${src_version}" = "${BUNDLE_VERSION}" ] || \
+    fail "gateway bundle version mismatch after build: expected ${BUNDLE_VERSION}, got ${src_version:-<empty>}"
+  src_commit="$(tr -d '\r\n' < "${src_commit_file}")"
+  [ "${src_commit}" = "${BUNDLE_COMMIT}" ] || \
+    fail "gateway source commit mismatch after build: expected ${BUNDLE_COMMIT}, got ${src_commit:-<empty>}"
+
+  cp "${src}" "${dst}"
+  chmod +x "${dst}"
+  log "Prepared ${dst}"
+done
+
+assert_checkout_locked "after gateway staging"

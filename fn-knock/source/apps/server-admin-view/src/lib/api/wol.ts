@@ -1,1 +1,293 @@
-aW1wb3J0IHR5cGUgeyBjb21wb25lbnRzIGFzIEFwaUNvbnRyYWN0Q29tcG9uZW50cyB9IGZyb20gIkBmbi1rbm9jay9hcGktY29udHJhY3QiOwoKaW1wb3J0IHsgYXBpQ2xpZW50IH0gZnJvbSAiLi9jbGllbnQiOwoKdHlwZSBXb2xTY2hlbWFzID0gQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl07CgpleHBvcnQgdHlwZSBXT0xSZWxheSA9IFdvbFNjaGVtYXNbIldvbFJlbGF5RGF0YSJdOwpleHBvcnQgdHlwZSBXT0xSZWxheVN1bW1hcnkgPSBXb2xTY2hlbWFzWyJXb2xSZWxheVN1bW1hcnlEYXRhIl07CmV4cG9ydCB0eXBlIFdPTFRhcmdldCA9IFdvbFNjaGVtYXNbIldvbFRhcmdldERhdGEiXTsKZXhwb3J0IHR5cGUgV09MSW50ZWdyYXRpb25SdW50aW1lID0gV29sU2NoZW1hc1siV29sSW50ZWdyYXRpb25SdW50aW1lRGF0YSJdOwpleHBvcnQgdHlwZSBXT0xJbnRlZ3JhdGlvblJ1bnRpbWVTdGF0ZSA9IFdPTEludGVncmF0aW9uUnVudGltZVsic3RhdGUiXTsKZXhwb3J0IHR5cGUgV09MVGFyZ2V0SW50ZWdyYXRpb25zID0gV29sU2NoZW1hc1siV29sVGFyZ2V0SW50ZWdyYXRpb25zRGF0YSJdOwpleHBvcnQgdHlwZSBXT0xUYXJnZXRTc2ggPSBXb2xTY2hlbWFzWyJXb2xUYXJnZXRTc2hEYXRhIl07CmV4cG9ydCB0eXBlIFdPTFRhcmdldFNzaElucHV0ID0gV29sU2NoZW1hc1siV29sVGFyZ2V0U3NoSW5wdXREYXRhIl0gJgogIFJlcXVpcmVkPAogICAgUGljazxXb2xTY2hlbWFzWyJXb2xUYXJnZXRTc2hJbnB1dERhdGEiXSwgInBvcnQiIHwgImNsZWFyQ3JlZGVudGlhbCI+CiAgPjsKZXhwb3J0IHR5cGUgV09MU3NoQ29ubmVjdGlvblRlc3QgPSBXb2xTY2hlbWFzWyJXb2xTc2hDb25uZWN0aW9uVGVzdERhdGEiXTsKZXhwb3J0IHR5cGUgV09MU2h1dGRvd25SZXN1bHQgPSBXb2xTY2hlbWFzWyJXb2xTaHV0ZG93bkRhdGEiXTsKdHlwZSBXT0xCbGlua2VySW50ZWdyYXRpb25JbnB1dCA9IE9taXQ8CiAgV29sU2NoZW1hc1siV29sQmxpbmtlckludGVncmF0aW9uSW5wdXREYXRhIl0sCiAgImRldmljZUtleSIKPiAmCiAgUmVxdWlyZWQ8CiAgICBQaWNrPAogICAgICBXb2xTY2hlbWFzWyJXb2xCbGlua2VySW50ZWdyYXRpb25JbnB1dERhdGEiXSwKICAgICAgImJpbmRDb21wb25lbnQiIHwgInNraXBUbHNWZXJpZnkiCiAgICA+CiAgPiAmIHsgZGV2aWNlS2V5Pzogc3RyaW5nIH07CnR5cGUgV09MQmVtZmFJbnRlZ3JhdGlvbklucHV0ID0gT21pdDwKICBXb2xTY2hlbWFzWyJXb2xCZW1mYUludGVncmF0aW9uSW5wdXREYXRhIl0sCiAgInByaXZhdGVLZXkiCj4gJgogIFJlcXVpcmVkPAogICAgUGljazxXb2xTY2hlbWFzWyJXb2xCZW1mYUludGVncmF0aW9uSW5wdXREYXRhIl0sICJ0b3BpYyIgfCAic2tpcFRsc1ZlcmlmeSI+CiAgPiAmIHsgcHJpdmF0ZUtleT86IHN0cmluZyB9OwpleHBvcnQgdHlwZSBXT0xUYXJnZXRJbnRlZ3JhdGlvbklucHV0ID0gewogIGJsaW5rZXI6IFdPTEJsaW5rZXJJbnRlZ3JhdGlvbklucHV0OwogIGJlbWZhOiBXT0xCZW1mYUludGVncmF0aW9uSW5wdXQ7Cn07CmV4cG9ydCB0eXBlIFdPTFRhcmdldFN0YXR1cyA9IFdvbFNjaGVtYXNbIldvbFRhcmdldFN0YXR1c0RhdGEiXTsKZXhwb3J0IHR5cGUgV09MUmVsYXlJbnB1dCA9IFdvbFNjaGVtYXNbIldvbFJlbGF5SW5wdXREYXRhIl0gJgogIFJlcXVpcmVkPFBpY2s8V29sU2NoZW1hc1siV29sUmVsYXlJbnB1dERhdGEiXSwgInBvcnQiIHwgImVuYWJsZWQiPj47CmV4cG9ydCB0eXBlIFdPTFRhcmdldElucHV0ID0gT21pdDwKICBXb2xTY2hlbWFzWyJXb2xUYXJnZXRJbnB1dERhdGEiXSwKICAiaW50ZWdyYXRpb25zIiB8ICJzc2giCj4gJgogIFJlcXVpcmVkPAogICAgUGljazwKICAgICAgV29sU2NoZW1hc1siV29sVGFyZ2V0SW5wdXREYXRhIl0sCiAgICAgICJyZWxheUlkIiB8ICJicm9hZGNhc3RBZGRyZXNzIiB8ICJpcEFkZHJlc3MiIHwgImVuYWJsZWQiCiAgICA+CiAgPiAmIHsKICAgIGludGVncmF0aW9ucz86IFdPTFRhcmdldEludGVncmF0aW9uSW5wdXQ7CiAgICBzc2g/OiBXT0xUYXJnZXRTc2hJbnB1dDsKICB9OwpleHBvcnQgdHlwZSBXT0xCb290c3RyYXAgPSBXb2xTY2hlbWFzWyJXb2xCb290c3RyYXBEYXRhIl07CmV4cG9ydCB0eXBlIFdPTFJlbGF5Q3JlZGVudGlhbFJlc3VsdCA9IFdvbFNjaGVtYXNbIldvbFJlbGF5Q3JlZGVudGlhbERhdGEiXTsKZXhwb3J0IHR5cGUgV09MRGlzcGF0Y2hSZXN1bHQgPSBXb2xTY2hlbWFzWyJXb2xEaXNwYXRjaERhdGEiXTsKZXhwb3J0IHR5cGUgV09MTG9jYWxSZWxheUNvbmZpZyA9IFdvbFNjaGVtYXNbIldvbExvY2FsUmVsYXlDb25maWdEYXRhIl07CmV4cG9ydCB0eXBlIFdPTExvY2FsUmVsYXlSdW50aW1lID0gV29sU2NoZW1hc1siV29sTG9jYWxSZWxheVJ1bnRpbWVEYXRhIl07CmV4cG9ydCB0eXBlIFdPTExvY2FsUmVsYXkgPSBXb2xTY2hlbWFzWyJXb2xMb2NhbFJlbGF5RGF0YSJdOwpleHBvcnQgdHlwZSBXT0xMb2NhbFJlbGF5SW5wdXQgPSBXb2xTY2hlbWFzWyJXb2xMb2NhbFJlbGF5SW5wdXREYXRhIl0gJgogIFJlcXVpcmVkPFBpY2s8V29sU2NoZW1hc1siV29sTG9jYWxSZWxheUlucHV0RGF0YSJdLCAiYWxsb3dlZFNvdXJjZXMiPj47CmV4cG9ydCB0eXBlIFdPTExvY2FsTmV0d29yayA9IFdvbFNjaGVtYXNbIldvbExvY2FsTmV0d29ya0RhdGEiXTsKZXhwb3J0IHR5cGUgV09MRGlzY292ZXJlZERldmljZSA9IFdvbFNjaGVtYXNbIldvbERpc2NvdmVyZWREZXZpY2VEYXRhIl07CmV4cG9ydCB0eXBlIFdPTERpc2NvdmVyeVJlc3VsdCA9IFdvbFNjaGVtYXNbIldvbERpc2NvdmVyeVJlc3VsdERhdGEiXTsKZXhwb3J0IHR5cGUgV09MRGlzY292ZXJ5UHJvZ3Jlc3MgPSBXb2xTY2hlbWFzWyJXb2xEaXNjb3ZlcnlQcm9ncmVzc0RhdGEiXTsKZXhwb3J0IHR5cGUgV09MRGlzY292ZXJ5Sm9iU3RhdHVzID0gV29sU2NoZW1hc1siV29sRGlzY292ZXJ5Sm9iRGF0YSJdOwpleHBvcnQgdHlwZSBXT0xEaXNjb3ZlcnlKb2JTdGF0ZSA9IFdPTERpc2NvdmVyeUpvYlN0YXR1c1sic3RhdGUiXTsKCmV4cG9ydCB0eXBlIFdPTERpc2NvdmVyeVBvbGxFdmVudCA9CiAgfCB7IHR5cGU6ICJtZXRhIjsgZGF0YTogV09MRGlzY292ZXJ5Sm9iU3RhdHVzIH0KICB8IHsgdHlwZTogInByb2dyZXNzIjsgZGF0YTogV09MRGlzY292ZXJ5UHJvZ3Jlc3MgfQogIHwgeyB0eXBlOiAiZGV2aWNlIjsgZGF0YTogV09MRGlzY292ZXJlZERldmljZSB9CiAgfCB7IHR5cGU6ICJkb25lIjsgZGF0YTogV09MRGlzY292ZXJ5UmVzdWx0IH0KICB8IHsgdHlwZTogImNhbmNlbGxlZCIgfTsKCmV4cG9ydCB0eXBlIFdPTERpc2NvdmVyeVBvbGxPcHRpb25zID0gewogIHNpZ25hbD86IEFib3J0U2lnbmFsOwogIGludGVydmFsTXM/OiBudW1iZXI7CiAgb25FdmVudD86IChldmVudDogV09MRGlzY292ZXJ5UG9sbEV2ZW50KSA9PiB2b2lkOwp9OwoKY29uc3QgY3JlYXRlRGlzY292ZXJ5QWJvcnRFcnJvciA9ICgpID0+IHsKICBjb25zdCBlcnJvciA9IG5ldyBFcnJvcigiRGlzY292ZXJ5IGNhbmNlbGxlZCIpOwogIGVycm9yLm5hbWUgPSAiQWJvcnRFcnJvciI7CiAgcmV0dXJuIGVycm9yOwp9OwoKY29uc3QgdGhyb3dJZkRpc2NvdmVyeUFib3J0ZWQgPSAoc2lnbmFsPzogQWJvcnRTaWduYWwpID0+IHsKICBpZiAoc2lnbmFsPy5hYm9ydGVkKSB0aHJvdyBjcmVhdGVEaXNjb3ZlcnlBYm9ydEVycm9yKCk7Cn07Cgpjb25zdCB3YWl0Rm9yRGlzY292ZXJ5UG9sbCA9IChtczogbnVtYmVyLCBzaWduYWw/OiBBYm9ydFNpZ25hbCkgPT4KICBuZXcgUHJvbWlzZTx2b2lkPigocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICBpZiAoc2lnbmFsPy5hYm9ydGVkKSB7CiAgICAgIHJlamVjdChjcmVhdGVEaXNjb3ZlcnlBYm9ydEVycm9yKCkpOwogICAgICByZXR1cm47CiAgICB9CiAgICBjb25zdCB0aW1lciA9IGdsb2JhbFRoaXMuc2V0VGltZW91dCgoKSA9PiB7CiAgICAgIHNpZ25hbD8ucmVtb3ZlRXZlbnRMaXN0ZW5lcigiYWJvcnQiLCBvbkFib3J0KTsKICAgICAgcmVzb2x2ZSgpOwogICAgfSwgbXMpOwogICAgY29uc3Qgb25BYm9ydCA9ICgpID0+IHsKICAgICAgZ2xvYmFsVGhpcy5jbGVhclRpbWVvdXQodGltZXIpOwogICAgICBzaWduYWw/LnJlbW92ZUV2ZW50TGlzdGVuZXIoImFib3J0Iiwgb25BYm9ydCk7CiAgICAgIHJlamVjdChjcmVhdGVEaXNjb3ZlcnlBYm9ydEVycm9yKCkpOwogICAgfTsKICAgIHNpZ25hbD8uYWRkRXZlbnRMaXN0ZW5lcigiYWJvcnQiLCBvbkFib3J0LCB7IG9uY2U6IHRydWUgfSk7CiAgfSk7Cgp0eXBlIFdPTFJlbGF5TGlzdCA9IFdvbFNjaGVtYXNbIldvbFJlbGF5TGlzdERhdGEiXTsKdHlwZSBXT0xUYXJnZXRMaXN0ID0gV29sU2NoZW1hc1siV29sVGFyZ2V0TGlzdERhdGEiXTsKdHlwZSBXT0xMb2NhbFJlbGF5UGFpckJvZHkgPSBXb2xTY2hlbWFzWyJXb2xMb2NhbFJlbGF5UGFpckJvZHlEYXRhIl07CnR5cGUgV09MRGlzY292ZXJ5Qm9keSA9IFdvbFNjaGVtYXNbIldvbERpc2NvdmVyeUJvZHlEYXRhIl07CgpleHBvcnQgY29uc3QgV09MQVBJID0gewogIGFzeW5jIGdldExvY2FsUmVsYXkoKTogUHJvbWlzZTxXT0xMb2NhbFJlbGF5PiB7CiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi93b2wvbG9jYWwtcmVsYXkiKTsKICAgIHJldHVybiByZXNwb25zZS5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyB1cGRhdGVMb2NhbFJlbGF5KHBheWxvYWQ6IFdPTExvY2FsUmVsYXlJbnB1dCk6IFByb21pc2U8V09MTG9jYWxSZWxheT4gewogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhcGlDbGllbnQucHV0KCIvd29sL2xvY2FsLXJlbGF5IiwgcGF5bG9hZCk7CiAgICByZXR1cm4gcmVzcG9uc2UuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgcGFpckxvY2FsUmVsYXkocGFpcmluZ0NvZGU6IHN0cmluZyk6IFByb21pc2U8V09MTG9jYWxSZWxheT4gewogICAgY29uc3QgcGF5bG9hZDogV09MTG9jYWxSZWxheVBhaXJCb2R5ID0gewogICAgICBwYWlyaW5nQ29kZSwKICAgIH07CiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvd29sL2xvY2FsLXJlbGF5L3BhaXIiLCBwYXlsb2FkKTsKICAgIHJldHVybiByZXNwb25zZS5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBsaXN0UmVsYXlzKCk6IFByb21pc2U8V09MUmVsYXlMaXN0PiB7CiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi93b2wvcmVsYXlzIik7CiAgICByZXR1cm4gcmVzcG9uc2UuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgY3JlYXRlUmVsYXkocGF5bG9hZDogV09MUmVsYXlJbnB1dCk6IFByb21pc2U8V09MUmVsYXlDcmVkZW50aWFsUmVzdWx0PiB7CiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvd29sL3JlbGF5cyIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlc3BvbnNlLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHVwZGF0ZVJlbGF5KGlkOiBzdHJpbmcsIHBheWxvYWQ6IFdPTFJlbGF5SW5wdXQpOiBQcm9taXNlPFdPTFJlbGF5PiB7CiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGFwaUNsaWVudC5wdXQoCiAgICAgIGAvd29sL3JlbGF5cy8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9YCwKICAgICAgcGF5bG9hZCwKICAgICk7CiAgICByZXR1cm4gcmVzcG9uc2UuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZGVsZXRlUmVsYXkoaWQ6IHN0cmluZyk6IFByb21pc2U8dm9pZD4gewogICAgYXdhaXQgYXBpQ2xpZW50LmRlbGV0ZShgL3dvbC9yZWxheXMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfWApOwogIH0sCiAgYXN5bmMgcm90YXRlUmVsYXlQc2soaWQ6IHN0cmluZyk6IFByb21pc2U8V09MUmVsYXlDcmVkZW50aWFsUmVzdWx0PiB7CiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KAogICAgICBgL3dvbC9yZWxheXMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfS9yb3RhdGUtcHNrYCwKICAgICk7CiAgICByZXR1cm4gcmVzcG9uc2UuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgcHJvYmVSZWxheShpZDogc3RyaW5nKTogUHJvbWlzZTxXT0xEaXNwYXRjaFJlc3VsdD4gewogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgKICAgICAgYC93b2wvcmVsYXlzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX0vcHJvYmVgLAogICAgKTsKICAgIHJldHVybiByZXNwb25zZS5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBsaXN0VGFyZ2V0cygpOiBQcm9taXNlPFdPTFRhcmdldExpc3Q+IHsKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL3dvbC90YXJnZXRzIik7CiAgICByZXR1cm4gcmVzcG9uc2UuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0VGFyZ2V0KGlkOiBzdHJpbmcsIHNpZ25hbD86IEFib3J0U2lnbmFsKTogUHJvbWlzZTxXT0xUYXJnZXQ+IHsKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYXBpQ2xpZW50LmdldCgKICAgICAgYC93b2wvdGFyZ2V0cy8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9YCwKICAgICAgeyBzaWduYWwgfSwKICAgICk7CiAgICByZXR1cm4gcmVzcG9uc2UuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgc3RhcnREaXNjb3ZlcnlKb2IoCiAgICB0YXJnZXRDaWRyczogc3RyaW5nW10sCiAgICBzaWduYWw/OiBBYm9ydFNpZ25hbCwKICApOiBQcm9taXNlPFdPTERpc2NvdmVyeUpvYlN0YXR1cz4gewogICAgY29uc3QgcGF5bG9hZDogV09MRGlzY292ZXJ5Qm9keSA9IHsgdGFyZ2V0Q2lkcnMgfTsKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi93b2wvZGlzY292ZXIvam9icyIsIHBheWxvYWQsIHsKICAgICAgc2lnbmFsLAogICAgfSk7CiAgICByZXR1cm4gcmVzcG9uc2UuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0RGlzY292ZXJ5Sm9iKAogICAgam9iSWQ6IHN0cmluZywKICAgIGN1cnNvcjogbnVtYmVyLAogICAgc2lnbmFsPzogQWJvcnRTaWduYWwsCiAgKTogUHJvbWlzZTxXT0xEaXNjb3ZlcnlKb2JTdGF0dXM+IHsKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYXBpQ2xpZW50LmdldCgKICAgICAgYC93b2wvZGlzY292ZXIvam9icy8ke2VuY29kZVVSSUNvbXBvbmVudChqb2JJZCl9YCwKICAgICAgeyBwYXJhbXM6IHsgY3Vyc29yIH0sIHNpZ25hbCB9LAogICAgKTsKICAgIHJldHVybiByZXNwb25zZS5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBjYW5jZWxEaXNjb3ZlcnlKb2Ioam9iSWQ6IHN0cmluZyk6IFByb21pc2U8V09MRGlzY292ZXJ5Sm9iU3RhdHVzPiB7CiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGFwaUNsaWVudC5kZWxldGUoCiAgICAgIGAvd29sL2Rpc2NvdmVyL2pvYnMvJHtlbmNvZGVVUklDb21wb25lbnQoam9iSWQpfWAsCiAgICApOwogICAgcmV0dXJuIHJlc3BvbnNlLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGRpc2NvdmVyTG9jYWxEZXZpY2VzKAogICAgdGFyZ2V0Q2lkcnM6IHN0cmluZ1tdLAogICAgb3B0aW9uczogV09MRGlzY292ZXJ5UG9sbE9wdGlvbnMgPSB7fSwKICApOiBQcm9taXNlPFdPTERpc2NvdmVyeVJlc3VsdD4gewogICAgbGV0IGpvYklkID0gIiI7CiAgICBsZXQgY3Vyc29yID0gMDsKICAgIGxldCBjYW5jZWxSZXF1ZXN0ZWQgPSBmYWxzZTsKICAgIGNvbnN0IHJlcXVlc3RDYW5jZWwgPSAoKSA9PiB7CiAgICAgIGlmICgham9iSWQgfHwgY2FuY2VsUmVxdWVzdGVkKSByZXR1cm47CiAgICAgIGNhbmNlbFJlcXVlc3RlZCA9IHRydWU7CiAgICAgIHZvaWQgdGhpcy5jYW5jZWxEaXNjb3ZlcnlKb2Ioam9iSWQpLmNhdGNoKCgpID0+IHVuZGVmaW5lZCk7CiAgICB9OwoKICAgIHRyeSB7CiAgICAgIHRocm93SWZEaXNjb3ZlcnlBYm9ydGVkKG9wdGlvbnMuc2lnbmFsKTsKICAgICAgY29uc3Qgc3RhcnRlZCA9IGF3YWl0IHRoaXMuc3RhcnREaXNjb3ZlcnlKb2IodGFyZ2V0Q2lkcnMsIG9wdGlvbnMuc2lnbmFsKTsKICAgICAgam9iSWQgPSBzdGFydGVkLmpvYklkOwogICAgICBvcHRpb25zLm9uRXZlbnQ/Lih7IHR5cGU6ICJtZXRhIiwgZGF0YTogc3RhcnRlZCB9KTsKCiAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgdGhyb3dJZkRpc2NvdmVyeUFib3J0ZWQob3B0aW9ucy5zaWduYWwpOwogICAgICAgIGNvbnN0IHN0YXR1cyA9IGF3YWl0IHRoaXMuZ2V0RGlzY292ZXJ5Sm9iKAogICAgICAgICAgam9iSWQsCiAgICAgICAgICBjdXJzb3IsCiAgICAgICAgICBvcHRpb25zLnNpZ25hbCwKICAgICAgICApOwogICAgICAgIG9wdGlvbnMub25FdmVudD8uKHsgdHlwZTogInByb2dyZXNzIiwgZGF0YTogc3RhdHVzLnByb2dyZXNzIH0pOwogICAgICAgIGZvciAoY29uc3QgZGV2aWNlIG9mIHN0YXR1cy5kZXZpY2VzKSB7CiAgICAgICAgICBvcHRpb25zLm9uRXZlbnQ/Lih7IHR5cGU6ICJkZXZpY2UiLCBkYXRhOiBkZXZpY2UgfSk7CiAgICAgICAgfQogICAgICAgIGN1cnNvciA9IHN0YXR1cy5uZXh0Q3Vyc29yOwoKICAgICAgICBpZiAoc3RhdHVzLnN0YXRlID09PSAiY29tcGxldGVkIikgewogICAgICAgICAgaWYgKCFzdGF0dXMucmVzdWx0KQogICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoIkRpc2NvdmVyeSBjb21wbGV0ZWQgd2l0aG91dCBhIHJlc3VsdCIpOwogICAgICAgICAgb3B0aW9ucy5vbkV2ZW50Py4oeyB0eXBlOiAiZG9uZSIsIGRhdGE6IHN0YXR1cy5yZXN1bHQgfSk7CiAgICAgICAgICByZXR1cm4gc3RhdHVzLnJlc3VsdDsKICAgICAgICB9CiAgICAgICAgaWYgKHN0YXR1cy5zdGF0ZSA9PT0gImNhbmNlbGxlZCIpIHsKICAgICAgICAgIG9wdGlvbnMub25FdmVudD8uKHsgdHlwZTogImNhbmNlbGxlZCIgfSk7CiAgICAgICAgICB0aHJvdyBjcmVhdGVEaXNjb3ZlcnlBYm9ydEVycm9yKCk7CiAgICAgICAgfQogICAgICAgIGlmIChzdGF0dXMuc3RhdGUgPT09ICJmYWlsZWQiKSB7CiAgICAgICAgICB0aHJvdyBuZXcgRXJyb3Ioc3RhdHVzLmVycm9yIHx8ICJMQU4gZGlzY292ZXJ5IGZhaWxlZCIpOwogICAgICAgIH0KICAgICAgICBhd2FpdCB3YWl0Rm9yRGlzY292ZXJ5UG9sbChvcHRpb25zLmludGVydmFsTXMgPz8gMzUwLCBvcHRpb25zLnNpZ25hbCk7CiAgICAgIH0KICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGlmIChvcHRpb25zLnNpZ25hbD8uYWJvcnRlZCkgewogICAgICAgIHJlcXVlc3RDYW5jZWwoKTsKICAgICAgICB0aHJvdyBjcmVhdGVEaXNjb3ZlcnlBYm9ydEVycm9yKCk7CiAgICAgIH0KICAgICAgdGhyb3cgZXJyb3I7CiAgICB9CiAgfSwKICBhc3luYyBjcmVhdGVUYXJnZXQocGF5bG9hZDogV09MVGFyZ2V0SW5wdXQpOiBQcm9taXNlPFdPTFRhcmdldD4gewogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL3dvbC90YXJnZXRzIiwgcGF5bG9hZCk7CiAgICByZXR1cm4gcmVzcG9uc2UuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgdXBkYXRlVGFyZ2V0KGlkOiBzdHJpbmcsIHBheWxvYWQ6IFdPTFRhcmdldElucHV0KTogUHJvbWlzZTxXT0xUYXJnZXQ+IHsKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYXBpQ2xpZW50LnB1dCgKICAgICAgYC93b2wvdGFyZ2V0cy8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9YCwKICAgICAgcGF5bG9hZCwKICAgICk7CiAgICByZXR1cm4gcmVzcG9uc2UuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZGVsZXRlVGFyZ2V0KGlkOiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGF3YWl0IGFwaUNsaWVudC5kZWxldGUoYC93b2wvdGFyZ2V0cy8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9YCk7CiAgfSwKICBhc3luYyB3YWtlVGFyZ2V0KGlkOiBzdHJpbmcpOiBQcm9taXNlPFdPTERpc3BhdGNoUmVzdWx0PiB7CiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KAogICAgICBgL3dvbC90YXJnZXRzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX0vd2FrZWAsCiAgICApOwogICAgcmV0dXJuIHJlc3BvbnNlLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHRlc3RTc2goCiAgICBpZDogc3RyaW5nLAogICAgcGF5bG9hZDogV09MVGFyZ2V0U3NoSW5wdXQsCiAgKTogUHJvbWlzZTxXT0xTc2hDb25uZWN0aW9uVGVzdD4gewogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgKICAgICAgYC93b2wvdGFyZ2V0cy8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9L3NzaC90ZXN0YCwKICAgICAgcGF5bG9hZCwKICAgICk7CiAgICByZXR1cm4gcmVzcG9uc2UuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgc2h1dGRvd25UYXJnZXQoaWQ6IHN0cmluZyk6IFByb21pc2U8V09MU2h1dGRvd25SZXN1bHQ+IHsKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoCiAgICAgIGAvd29sL3RhcmdldHMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfS9zaHV0ZG93bmAsCiAgICApOwogICAgcmV0dXJuIHJlc3BvbnNlLmRhdGEuZGF0YTsKICB9LAp9Owo=
+import type { components as ApiContractComponents } from "@fn-knock/api-contract";
+
+import { apiClient } from "./client";
+
+type WolSchemas = ApiContractComponents["schemas"];
+
+export type WOLRelay = WolSchemas["WolRelayData"];
+export type WOLRelaySummary = WolSchemas["WolRelaySummaryData"];
+export type WOLTarget = WolSchemas["WolTargetData"];
+export type WOLIntegrationRuntime = WolSchemas["WolIntegrationRuntimeData"];
+export type WOLIntegrationRuntimeState = WOLIntegrationRuntime["state"];
+export type WOLTargetIntegrations = WolSchemas["WolTargetIntegrationsData"];
+export type WOLTargetSsh = WolSchemas["WolTargetSshData"];
+export type WOLTargetSshInput = WolSchemas["WolTargetSshInputData"] &
+  Required<
+    Pick<WolSchemas["WolTargetSshInputData"], "port" | "clearCredential">
+  >;
+export type WOLSshConnectionTest = WolSchemas["WolSshConnectionTestData"];
+export type WOLShutdownResult = WolSchemas["WolShutdownData"];
+type WOLBlinkerIntegrationInput = Omit<
+  WolSchemas["WolBlinkerIntegrationInputData"],
+  "deviceKey"
+> &
+  Required<
+    Pick<
+      WolSchemas["WolBlinkerIntegrationInputData"],
+      "bindComponent" | "skipTlsVerify"
+    >
+  > & { deviceKey?: string };
+type WOLBemfaIntegrationInput = Omit<
+  WolSchemas["WolBemfaIntegrationInputData"],
+  "privateKey"
+> &
+  Required<
+    Pick<WolSchemas["WolBemfaIntegrationInputData"], "topic" | "skipTlsVerify">
+  > & { privateKey?: string };
+export type WOLTargetIntegrationInput = {
+  blinker: WOLBlinkerIntegrationInput;
+  bemfa: WOLBemfaIntegrationInput;
+};
+export type WOLTargetStatus = WolSchemas["WolTargetStatusData"];
+export type WOLRelayInput = WolSchemas["WolRelayInputData"] &
+  Required<Pick<WolSchemas["WolRelayInputData"], "port" | "enabled">>;
+export type WOLTargetInput = Omit<
+  WolSchemas["WolTargetInputData"],
+  "integrations" | "ssh"
+> &
+  Required<
+    Pick<
+      WolSchemas["WolTargetInputData"],
+      "relayId" | "broadcastAddress" | "ipAddress" | "enabled"
+    >
+  > & {
+    integrations?: WOLTargetIntegrationInput;
+    ssh?: WOLTargetSshInput;
+  };
+export type WOLBootstrap = WolSchemas["WolBootstrapData"];
+export type WOLRelayCredentialResult = WolSchemas["WolRelayCredentialData"];
+export type WOLDispatchResult = WolSchemas["WolDispatchData"];
+export type WOLLocalRelayConfig = WolSchemas["WolLocalRelayConfigData"];
+export type WOLLocalRelayRuntime = WolSchemas["WolLocalRelayRuntimeData"];
+export type WOLLocalRelay = WolSchemas["WolLocalRelayData"];
+export type WOLLocalRelayInput = WolSchemas["WolLocalRelayInputData"] &
+  Required<Pick<WolSchemas["WolLocalRelayInputData"], "allowedSources">>;
+export type WOLLocalNetwork = WolSchemas["WolLocalNetworkData"];
+export type WOLDiscoveredDevice = WolSchemas["WolDiscoveredDeviceData"];
+export type WOLDiscoveryResult = WolSchemas["WolDiscoveryResultData"];
+export type WOLDiscoveryProgress = WolSchemas["WolDiscoveryProgressData"];
+export type WOLDiscoveryJobStatus = WolSchemas["WolDiscoveryJobData"];
+export type WOLDiscoveryJobState = WOLDiscoveryJobStatus["state"];
+
+export type WOLDiscoveryPollEvent =
+  | { type: "meta"; data: WOLDiscoveryJobStatus }
+  | { type: "progress"; data: WOLDiscoveryProgress }
+  | { type: "device"; data: WOLDiscoveredDevice }
+  | { type: "done"; data: WOLDiscoveryResult }
+  | { type: "cancelled" };
+
+export type WOLDiscoveryPollOptions = {
+  signal?: AbortSignal;
+  intervalMs?: number;
+  onEvent?: (event: WOLDiscoveryPollEvent) => void;
+};
+
+const createDiscoveryAbortError = () => {
+  const error = new Error("Discovery cancelled");
+  error.name = "AbortError";
+  return error;
+};
+
+const throwIfDiscoveryAborted = (signal?: AbortSignal) => {
+  if (signal?.aborted) throw createDiscoveryAbortError();
+};
+
+const waitForDiscoveryPoll = (ms: number, signal?: AbortSignal) =>
+  new Promise<void>((resolve, reject) => {
+    if (signal?.aborted) {
+      reject(createDiscoveryAbortError());
+      return;
+    }
+    const timer = globalThis.setTimeout(() => {
+      signal?.removeEventListener("abort", onAbort);
+      resolve();
+    }, ms);
+    const onAbort = () => {
+      globalThis.clearTimeout(timer);
+      signal?.removeEventListener("abort", onAbort);
+      reject(createDiscoveryAbortError());
+    };
+    signal?.addEventListener("abort", onAbort, { once: true });
+  });
+
+type WOLRelayList = WolSchemas["WolRelayListData"];
+type WOLTargetList = WolSchemas["WolTargetListData"];
+type WOLLocalRelayPairBody = WolSchemas["WolLocalRelayPairBodyData"];
+type WOLDiscoveryBody = WolSchemas["WolDiscoveryBodyData"];
+
+export const WOLAPI = {
+  async getLocalRelay(): Promise<WOLLocalRelay> {
+    const response = await apiClient.get("/wol/local-relay");
+    return response.data.data;
+  },
+  async updateLocalRelay(payload: WOLLocalRelayInput): Promise<WOLLocalRelay> {
+    const response = await apiClient.put("/wol/local-relay", payload);
+    return response.data.data;
+  },
+  async pairLocalRelay(pairingCode: string): Promise<WOLLocalRelay> {
+    const payload: WOLLocalRelayPairBody = {
+      pairingCode,
+    };
+    const response = await apiClient.post("/wol/local-relay/pair", payload);
+    return response.data.data;
+  },
+  async listRelays(): Promise<WOLRelayList> {
+    const response = await apiClient.get("/wol/relays");
+    return response.data.data;
+  },
+  async createRelay(payload: WOLRelayInput): Promise<WOLRelayCredentialResult> {
+    const response = await apiClient.post("/wol/relays", payload);
+    return response.data.data;
+  },
+  async updateRelay(id: string, payload: WOLRelayInput): Promise<WOLRelay> {
+    const response = await apiClient.put(
+      `/wol/relays/${encodeURIComponent(id)}`,
+      payload,
+    );
+    return response.data.data;
+  },
+  async deleteRelay(id: string): Promise<void> {
+    await apiClient.delete(`/wol/relays/${encodeURIComponent(id)}`);
+  },
+  async rotateRelayPsk(id: string): Promise<WOLRelayCredentialResult> {
+    const response = await apiClient.post(
+      `/wol/relays/${encodeURIComponent(id)}/rotate-psk`,
+    );
+    return response.data.data;
+  },
+  async probeRelay(id: string): Promise<WOLDispatchResult> {
+    const response = await apiClient.post(
+      `/wol/relays/${encodeURIComponent(id)}/probe`,
+    );
+    return response.data.data;
+  },
+  async listTargets(): Promise<WOLTargetList> {
+    const response = await apiClient.get("/wol/targets");
+    return response.data.data;
+  },
+  async getTarget(id: string, signal?: AbortSignal): Promise<WOLTarget> {
+    const response = await apiClient.get(
+      `/wol/targets/${encodeURIComponent(id)}`,
+      { signal },
+    );
+    return response.data.data;
+  },
+  async startDiscoveryJob(
+    targetCidrs: string[],
+    signal?: AbortSignal,
+  ): Promise<WOLDiscoveryJobStatus> {
+    const payload: WOLDiscoveryBody = { targetCidrs };
+    const response = await apiClient.post("/wol/discover/jobs", payload, {
+      signal,
+    });
+    return response.data.data;
+  },
+  async getDiscoveryJob(
+    jobId: string,
+    cursor: number,
+    signal?: AbortSignal,
+  ): Promise<WOLDiscoveryJobStatus> {
+    const response = await apiClient.get(
+      `/wol/discover/jobs/${encodeURIComponent(jobId)}`,
+      { params: { cursor }, signal },
+    );
+    return response.data.data;
+  },
+  async cancelDiscoveryJob(jobId: string): Promise<WOLDiscoveryJobStatus> {
+    const response = await apiClient.delete(
+      `/wol/discover/jobs/${encodeURIComponent(jobId)}`,
+    );
+    return response.data.data;
+  },
+  async discoverLocalDevices(
+    targetCidrs: string[],
+    options: WOLDiscoveryPollOptions = {},
+  ): Promise<WOLDiscoveryResult> {
+    let jobId = "";
+    let cursor = 0;
+    let cancelRequested = false;
+    const requestCancel = () => {
+      if (!jobId || cancelRequested) return;
+      cancelRequested = true;
+      void this.cancelDiscoveryJob(jobId).catch(() => undefined);
+    };
+
+    try {
+      throwIfDiscoveryAborted(options.signal);
+      const started = await this.startDiscoveryJob(targetCidrs, options.signal);
+      jobId = started.jobId;
+      options.onEvent?.({ type: "meta", data: started });
+
+      while (true) {
+        throwIfDiscoveryAborted(options.signal);
+        const status = await this.getDiscoveryJob(
+          jobId,
+          cursor,
+          options.signal,
+        );
+        options.onEvent?.({ type: "progress", data: status.progress });
+        for (const device of status.devices) {
+          options.onEvent?.({ type: "device", data: device });
+        }
+        cursor = status.nextCursor;
+
+        if (status.state === "completed") {
+          if (!status.result)
+            throw new Error("Discovery completed without a result");
+          options.onEvent?.({ type: "done", data: status.result });
+          return status.result;
+        }
+        if (status.state === "cancelled") {
+          options.onEvent?.({ type: "cancelled" });
+          throw createDiscoveryAbortError();
+        }
+        if (status.state === "failed") {
+          throw new Error(status.error || "LAN discovery failed");
+        }
+        await waitForDiscoveryPoll(options.intervalMs ?? 350, options.signal);
+      }
+    } catch (error) {
+      if (options.signal?.aborted) {
+        requestCancel();
+        throw createDiscoveryAbortError();
+      }
+      throw error;
+    }
+  },
+  async createTarget(payload: WOLTargetInput): Promise<WOLTarget> {
+    const response = await apiClient.post("/wol/targets", payload);
+    return response.data.data;
+  },
+  async updateTarget(id: string, payload: WOLTargetInput): Promise<WOLTarget> {
+    const response = await apiClient.put(
+      `/wol/targets/${encodeURIComponent(id)}`,
+      payload,
+    );
+    return response.data.data;
+  },
+  async deleteTarget(id: string): Promise<void> {
+    await apiClient.delete(`/wol/targets/${encodeURIComponent(id)}`);
+  },
+  async wakeTarget(id: string): Promise<WOLDispatchResult> {
+    const response = await apiClient.post(
+      `/wol/targets/${encodeURIComponent(id)}/wake`,
+    );
+    return response.data.data;
+  },
+  async testSsh(
+    id: string,
+    payload: WOLTargetSshInput,
+  ): Promise<WOLSshConnectionTest> {
+    const response = await apiClient.post(
+      `/wol/targets/${encodeURIComponent(id)}/ssh/test`,
+      payload,
+    );
+    return response.data.data;
+  },
+  async shutdownTarget(id: string): Promise<WOLShutdownResult> {
+    const response = await apiClient.post(
+      `/wol/targets/${encodeURIComponent(id)}/shutdown`,
+    );
+    return response.data.data;
+  },
+};

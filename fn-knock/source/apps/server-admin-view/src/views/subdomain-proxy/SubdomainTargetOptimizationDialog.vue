@@ -1,1 +1,252 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQXJyb3dSaWdodCwgUmVmcmVzaEN3IH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENoZWNrYm94IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NoZWNrYm94IjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgewogIFNlbGVjdCwKICBTZWxlY3RDb250ZW50LAogIFNlbGVjdEl0ZW0sCiAgU2VsZWN0VHJpZ2dlciwKICBTZWxlY3RWYWx1ZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKaW1wb3J0IHsKICBUYWJsZSwKICBUYWJsZUJvZHksCiAgVGFibGVDZWxsLAogIFRhYmxlSGVhZCwKICBUYWJsZUhlYWRlciwKICBUYWJsZVJvdywKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFibGUiOwppbXBvcnQgdHlwZSB7IFN1YmRvbWFpblRhcmdldE9wdGltaXphdGlvbkNvbnRyb2xsZXIgfSBmcm9tICIuL3VzZVN1YmRvbWFpblRhcmdldE9wdGltaXphdGlvbiI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBtb2RlbDogU3ViZG9tYWluVGFyZ2V0T3B0aW1pemF0aW9uQ29udHJvbGxlcjsKfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHsKICBhbGxTZWxlY3RlZCwKICBjYW5kaWRhdGVMb2FkRmFpbGVkLAogIGNsb3NlRGlhbG9nLAogIGRlc3RpbmF0aW9uQWRkcmVzcywKICBkZXN0aW5hdGlvbnMsCiAgaGFuZGxlT3BlbkNoYW5nZSwKICBpc0xvYWRpbmdDYW5kaWRhdGVzLAogIGlzTWFwcGluZ1NlbGVjdGVkLAogIGlzT3BlbiwKICBpc1NhdmluZ01hcHBpbmdzLAogIHBhcnRpYWxseVNlbGVjdGVkLAogIHByZXZpZXdzLAogIHJldHJ5Q2FuZGlkYXRlcywKICBzYXZlT3B0aW1pemVkVGFyZ2V0cywKICBzZWxlY3RlZENvdW50LAogIHNldEFsbFNlbGVjdGVkLAogIHNldERlc3RpbmF0aW9uQWRkcmVzcywKICBzZXRNYXBwaW5nU2VsZWN0ZWQsCn0gPSBwcm9wcy5tb2RlbDsKCmNvbnN0IHNlbGVjdGVkRGVzdGluYXRpb24gPSBjb21wdXRlZCgoKSA9PgogIGRlc3RpbmF0aW9ucy52YWx1ZS5maW5kKAogICAgKGRlc3RpbmF0aW9uKSA9PiBkZXN0aW5hdGlvbi5hZGRyZXNzID09PSBkZXN0aW5hdGlvbkFkZHJlc3MudmFsdWUsCiAgKSwKKTsKY29uc3QgZGVzdGluYXRpb25MYWJlbCA9IChhZGRyZXNzOiBzdHJpbmcsIGRpcmVjdGlvbjogc3RyaW5nKSA9PgogIGRpcmVjdGlvbiA9PT0gImxhbl90b19sb29wYmFjayIKICAgID8gdCgiYWRtaW4uc3ViZG9tYWluUHJveHkudGFyZ2V0T3B0aW1pemF0aW9uTG9vcGJhY2tPcHRpb24iLCB7IGFkZHJlc3MgfSkKICAgIDogdCgiYWRtaW4uc3ViZG9tYWluUHJveHkudGFyZ2V0T3B0aW1pemF0aW9uTGFuT3B0aW9uIiwgeyBhZGRyZXNzIH0pOwpjb25zdCBoYW5kbGVEZXN0aW5hdGlvbkNoYW5nZSA9ICh2YWx1ZTogdW5rbm93bikgPT4KICBzZXREZXN0aW5hdGlvbkFkZHJlc3ModHlwZW9mIHZhbHVlID09PSAic3RyaW5nIiA/IHZhbHVlIDogIiIpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nIDpvcGVuPSJpc09wZW4iIEB1cGRhdGU6b3Blbj0iaGFuZGxlT3BlbkNoYW5nZSI+CiAgICA8RGlhbG9nQ29udGVudAogICAgICBjbGFzcz0iZmxleCBtYXgtaC1bODh2aF0gbWF4LXctW2NhbGMoMTAwdnctMnJlbSldIGZsZXgtY29sIG92ZXJmbG93LWhpZGRlbiBzbTptYXgtdy1bODgwcHhdIgogICAgPgogICAgICA8RGlhbG9nSGVhZGVyIGNsYXNzPSJzaHJpbmstMCI+CiAgICAgICAgPERpYWxvZ1RpdGxlPgogICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkudGFyZ2V0T3B0aW1pemF0aW9uVGl0bGUiKSB9fQogICAgICAgIDwvRGlhbG9nVGl0bGU+CiAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkudGFyZ2V0T3B0aW1pemF0aW9uRGVzY3JpcHRpb24iKSB9fQogICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgoKICAgICAgPGRpdiBjbGFzcz0ibWluLWgtMCBmbGV4LTEgc3BhY2UteS00IG92ZXJmbG93LXktYXV0byBweS0xIj4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgPGxhYmVsIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIiBmb3I9InRhcmdldC1vcHRpbWl6YXRpb24tZGVzdGluYXRpb24iPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS50YXJnZXRPcHRpbWl6YXRpb25EZXN0aW5hdGlvbiIpIH19CiAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgPFNlbGVjdAogICAgICAgICAgICA6bW9kZWwtdmFsdWU9ImRlc3RpbmF0aW9uQWRkcmVzcyIKICAgICAgICAgICAgOmRpc2FibGVkPSJpc0xvYWRpbmdDYW5kaWRhdGVzIHx8IGRlc3RpbmF0aW9ucy5sZW5ndGggPT09IDAiCiAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9ImhhbmRsZURlc3RpbmF0aW9uQ2hhbmdlIgogICAgICAgICAgPgogICAgICAgICAgICA8U2VsZWN0VHJpZ2dlciBpZD0idGFyZ2V0LW9wdGltaXphdGlvbi1kZXN0aW5hdGlvbiIgY2xhc3M9InctZnVsbCI+CiAgICAgICAgICAgICAgPFNlbGVjdFZhbHVlCiAgICAgICAgICAgICAgICA6cGxhY2Vob2xkZXI9IgogICAgICAgICAgICAgICAgICB0KCdhZG1pbi5zdWJkb21haW5Qcm94eS50YXJnZXRPcHRpbWl6YXRpb25EZXN0aW5hdGlvblBsYWNlaG9sZGVyJykKICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgICAgIDxTZWxlY3RJdGVtCiAgICAgICAgICAgICAgICB2LWZvcj0iZGVzdGluYXRpb24gaW4gZGVzdGluYXRpb25zIgogICAgICAgICAgICAgICAgOmtleT0iZGVzdGluYXRpb24uYWRkcmVzcyIKICAgICAgICAgICAgICAgIDp2YWx1ZT0iZGVzdGluYXRpb24uYWRkcmVzcyIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICBkZXN0aW5hdGlvbkxhYmVsKAogICAgICAgICAgICAgICAgICAgIGRlc3RpbmF0aW9uLmFkZHJlc3MsCiAgICAgICAgICAgICAgICAgICAgZGVzdGluYXRpb24uZGlyZWN0aW9uLAogICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICAgICAgPC9TZWxlY3Q+CiAgICAgICAgICA8cCB2LWlmPSJzZWxlY3RlZERlc3RpbmF0aW9uIiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIHQoCiAgICAgICAgICAgICAgICBzZWxlY3RlZERlc3RpbmF0aW9uLmRpcmVjdGlvbiA9PT0gImxvb3BiYWNrX3RvX2xhbiIKICAgICAgICAgICAgICAgICAgPyAiYWRtaW4uc3ViZG9tYWluUHJveHkudGFyZ2V0T3B0aW1pemF0aW9uTG9vcGJhY2tUb0xhbkhpbnQiCiAgICAgICAgICAgICAgICAgIDogImFkbWluLnN1YmRvbWFpblByb3h5LnRhcmdldE9wdGltaXphdGlvbkxhblRvTG9vcGJhY2tIaW50IiwKICAgICAgICAgICAgICApCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9ImNhbmRpZGF0ZUxvYWRGYWlsZWQiCiAgICAgICAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtMyByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYW1iZXItNTAwLzQwIGJnLWFtYmVyLTUwMC81IHAtMyB0ZXh0LXNtIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgICAgPgogICAgICAgICAgPHNwYW4+e3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkudGFyZ2V0T3B0aW1pemF0aW9uTG9hZEZhaWxlZCIpIH19PC9zcGFuPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgOmRpc2FibGVkPSJpc0xvYWRpbmdDYW5kaWRhdGVzIgogICAgICAgICAgICBAY2xpY2s9InJldHJ5Q2FuZGlkYXRlcyIKICAgICAgICAgID4KICAgICAgICAgICAgPFJlZnJlc2hDdwogICAgICAgICAgICAgIGNsYXNzPSJtci0yIGgtNCB3LTQiCiAgICAgICAgICAgICAgOmNsYXNzPSJ7ICdhbmltYXRlLXNwaW4nOiBpc0xvYWRpbmdDYW5kaWRhdGVzIH0iCiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIHt7IHQoImNvbW1vbi5yZXRyeSIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdgogICAgICAgICAgdi1pZj0iaXNMb2FkaW5nQ2FuZGlkYXRlcyIKICAgICAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMyByb3VuZGVkLW1kIGJvcmRlciBweS0xNCB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICA+CiAgICAgICAgICA8UmVmcmVzaEN3IGNsYXNzPSJoLTUgdy01IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnRhcmdldE9wdGltaXphdGlvbkxvYWRpbmciKSB9fQogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYKICAgICAgICAgIHYtZWxzZS1pZj0icHJldmlld3MubGVuZ3RoID09PSAwIgogICAgICAgICAgY2xhc3M9InJvdW5kZWQtbWQgYm9yZGVyIHB5LTE0IHRleHQtY2VudGVyIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgID4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHQoCiAgICAgICAgICAgICAgZGVzdGluYXRpb25zLmxlbmd0aCA9PT0gMAogICAgICAgICAgICAgICAgPyAiYWRtaW4uc3ViZG9tYWluUHJveHkudGFyZ2V0T3B0aW1pemF0aW9uTm9DYW5kaWRhdGVzIgogICAgICAgICAgICAgICAgOiAiYWRtaW4uc3ViZG9tYWluUHJveHkudGFyZ2V0T3B0aW1pemF0aW9uTm9NYXBwaW5ncyIsCiAgICAgICAgICAgICkKICAgICAgICAgIH19CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiB2LWVsc2UgY2xhc3M9Im92ZXJmbG93LWhpZGRlbiByb3VuZGVkLW1kIGJvcmRlciI+CiAgICAgICAgICA8VGFibGU+CiAgICAgICAgICAgIDxUYWJsZUhlYWRlcj4KICAgICAgICAgICAgICA8VGFibGVSb3c+CiAgICAgICAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJ3LTEyIHRleHQtY2VudGVyIj4KICAgICAgICAgICAgICAgICAgPENoZWNrYm94CiAgICAgICAgICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSIKICAgICAgICAgICAgICAgICAgICAgIHBhcnRpYWxseVNlbGVjdGVkID8gJ2luZGV0ZXJtaW5hdGUnIDogYWxsU2VsZWN0ZWQKICAgICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2NvbW1vbi5zZWxlY3RBbGwnKSIKICAgICAgICAgICAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJzZXRBbGxTZWxlY3RlZCgkZXZlbnQgPT09IHRydWUpIgogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJ3LVszNCVdIj4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuY29sdW1ucy5kb21haW4iKSB9fQogICAgICAgICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICA8VGFibGVIZWFkPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS50YXJnZXRPcHRpbWl6YXRpb25QcmV2aWV3IikgfX0KICAgICAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICAgIDwvVGFibGVIZWFkZXI+CiAgICAgICAgICAgIDxUYWJsZUJvZHk+CiAgICAgICAgICAgICAgPFRhYmxlUm93IHYtZm9yPSJwcmV2aWV3IGluIHByZXZpZXdzIiA6a2V5PSJwcmV2aWV3Lmhvc3QiPgogICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0idGV4dC1jZW50ZXIiPgogICAgICAgICAgICAgICAgICA8Q2hlY2tib3gKICAgICAgICAgICAgICAgICAgICA6bW9kZWwtdmFsdWU9ImlzTWFwcGluZ1NlbGVjdGVkKHByZXZpZXcuaG9zdCkiCiAgICAgICAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgICAgICAgICAgICAgICAgdCgnY29tbW9uLnNlbGVjdEl0ZW0nLCB7IGl0ZW06IHByZXZpZXcuaG9zdCB9KQogICAgICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSIKICAgICAgICAgICAgICAgICAgICAgIHNldE1hcHBpbmdTZWxlY3RlZChwcmV2aWV3Lmhvc3QsICRldmVudCA9PT0gdHJ1ZSkKICAgICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9Im1heC13LTAiPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iYmxvY2sgdHJ1bmNhdGUgZm9udC1tZWRpdW0iIDp0aXRsZT0icHJldmlldy5ob3N0Ij4KICAgICAgICAgICAgICAgICAgICB7eyBwcmV2aWV3Lmhvc3QgfX0KICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IG1pbi13LTAgaXRlbXMtY2VudGVyIGdhcC0yIHRleHQteHMiPgogICAgICAgICAgICAgICAgICAgIDxjb2RlCiAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0ibWluLXctMCBmbGV4LTEgdHJ1bmNhdGUgcm91bmRlZCBiZy1tdXRlZCBweC0yIHB5LTEiCiAgICAgICAgICAgICAgICAgICAgICA6dGl0bGU9InByZXZpZXcudGFyZ2V0IgogICAgICAgICAgICAgICAgICAgID57eyBwcmV2aWV3LnRhcmdldCB9fTwvY29kZT4KICAgICAgICAgICAgICAgICAgICA8QXJyb3dSaWdodCBjbGFzcz0iaC00IHctNCBzaHJpbmstMCB0ZXh0LW11dGVkLWZvcmVncm91bmQiIC8+CiAgICAgICAgICAgICAgICAgICAgPGNvZGUKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJtaW4tdy0wIGZsZXgtMSB0cnVuY2F0ZSByb3VuZGVkIGJnLXByaW1hcnkvMTAgcHgtMiBweS0xIHRleHQtcHJpbWFyeSIKICAgICAgICAgICAgICAgICAgICAgIDp0aXRsZT0icHJldmlldy5uZXh0VGFyZ2V0IgogICAgICAgICAgICAgICAgICAgID57eyBwcmV2aWV3Lm5leHRUYXJnZXQgfX08L2NvZGU+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgPC9UYWJsZUJvZHk+CiAgICAgICAgICA8L1RhYmxlPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxEaWFsb2dGb290ZXIKICAgICAgICBjbGFzcz0ic2hyaW5rLTAgaXRlbXMtY2VudGVyIGdhcC0yIHNtOmZsZXgtcm93IHNtOmp1c3RpZnktYmV0d2VlbiIKICAgICAgPgogICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7ewogICAgICAgICAgICB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS50YXJnZXRPcHRpbWl6YXRpb25TZWxlY3RlZCIsIHsKICAgICAgICAgICAgICBzZWxlY3RlZDogc2VsZWN0ZWRDb3VudCwKICAgICAgICAgICAgICB0b3RhbDogcHJldmlld3MubGVuZ3RoLAogICAgICAgICAgICB9KQogICAgICAgICAgfX0KICAgICAgICA8L3NwYW4+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCB3LWZ1bGwgZmxleC1jb2wtcmV2ZXJzZSBnYXAtMiBzbTp3LWF1dG8gc206ZmxleC1yb3ciPgogICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiA6ZGlzYWJsZWQ9ImlzU2F2aW5nTWFwcGluZ3MiIEBjbGljaz0iY2xvc2VEaWFsb2ciPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5jYW5jZWwiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIDpkaXNhYmxlZD0iCiAgICAgICAgICAgICAgc2VsZWN0ZWRDb3VudCA9PT0gMCB8fAogICAgICAgICAgICAgIGlzTG9hZGluZ0NhbmRpZGF0ZXMgfHwKICAgICAgICAgICAgICBpc1NhdmluZ01hcHBpbmdzCiAgICAgICAgICAgICIKICAgICAgICAgICAgQGNsaWNrPSJzYXZlT3B0aW1pemVkVGFyZ2V0cyIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkudGFyZ2V0T3B0aW1pemF0aW9uQXBwbHkiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { ArrowRight, RefreshCw } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import type { SubdomainTargetOptimizationController } from "./useSubdomainTargetOptimization";
+
+const props = defineProps<{
+  model: SubdomainTargetOptimizationController;
+}>();
+const { t } = useI18n();
+const {
+  allSelected,
+  candidateLoadFailed,
+  closeDialog,
+  destinationAddress,
+  destinations,
+  handleOpenChange,
+  isLoadingCandidates,
+  isMappingSelected,
+  isOpen,
+  isSavingMappings,
+  partiallySelected,
+  previews,
+  retryCandidates,
+  saveOptimizedTargets,
+  selectedCount,
+  setAllSelected,
+  setDestinationAddress,
+  setMappingSelected,
+} = props.model;
+
+const selectedDestination = computed(() =>
+  destinations.value.find(
+    (destination) => destination.address === destinationAddress.value,
+  ),
+);
+const destinationLabel = (address: string, direction: string) =>
+  direction === "lan_to_loopback"
+    ? t("admin.subdomainProxy.targetOptimizationLoopbackOption", { address })
+    : t("admin.subdomainProxy.targetOptimizationLanOption", { address });
+const handleDestinationChange = (value: unknown) =>
+  setDestinationAddress(typeof value === "string" ? value : "");
+</script>
+
+<template>
+  <Dialog :open="isOpen" @update:open="handleOpenChange">
+    <DialogContent
+      class="flex max-h-[88vh] max-w-[calc(100vw-2rem)] flex-col overflow-hidden sm:max-w-[880px]"
+    >
+      <DialogHeader class="shrink-0">
+        <DialogTitle>
+          {{ t("admin.subdomainProxy.targetOptimizationTitle") }}
+        </DialogTitle>
+        <DialogDescription>
+          {{ t("admin.subdomainProxy.targetOptimizationDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+
+      <div class="min-h-0 flex-1 space-y-4 overflow-y-auto py-1">
+        <div class="space-y-2">
+          <label class="text-sm font-medium" for="target-optimization-destination">
+            {{ t("admin.subdomainProxy.targetOptimizationDestination") }}
+          </label>
+          <Select
+            :model-value="destinationAddress"
+            :disabled="isLoadingCandidates || destinations.length === 0"
+            @update:model-value="handleDestinationChange"
+          >
+            <SelectTrigger id="target-optimization-destination" class="w-full">
+              <SelectValue
+                :placeholder="
+                  t('admin.subdomainProxy.targetOptimizationDestinationPlaceholder')
+                "
+              />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem
+                v-for="destination in destinations"
+                :key="destination.address"
+                :value="destination.address"
+              >
+                {{
+                  destinationLabel(
+                    destination.address,
+                    destination.direction,
+                  )
+                }}
+              </SelectItem>
+            </SelectContent>
+          </Select>
+          <p v-if="selectedDestination" class="text-xs text-muted-foreground">
+            {{
+              t(
+                selectedDestination.direction === "loopback_to_lan"
+                  ? "admin.subdomainProxy.targetOptimizationLoopbackToLanHint"
+                  : "admin.subdomainProxy.targetOptimizationLanToLoopbackHint",
+              )
+            }}
+          </p>
+        </div>
+
+        <div
+          v-if="candidateLoadFailed"
+          class="flex flex-col gap-3 rounded-md border border-amber-500/40 bg-amber-500/5 p-3 text-sm sm:flex-row sm:items-center sm:justify-between"
+        >
+          <span>{{ t("admin.subdomainProxy.targetOptimizationLoadFailed") }}</span>
+          <Button
+            size="sm"
+            variant="outline"
+            :disabled="isLoadingCandidates"
+            @click="retryCandidates"
+          >
+            <RefreshCw
+              class="mr-2 h-4 w-4"
+              :class="{ 'animate-spin': isLoadingCandidates }"
+            />
+            {{ t("common.retry") }}
+          </Button>
+        </div>
+
+        <div
+          v-if="isLoadingCandidates"
+          class="flex items-center justify-center gap-3 rounded-md border py-14 text-sm text-muted-foreground"
+        >
+          <RefreshCw class="h-5 w-5 animate-spin" />
+          {{ t("admin.subdomainProxy.targetOptimizationLoading") }}
+        </div>
+        <div
+          v-else-if="previews.length === 0"
+          class="rounded-md border py-14 text-center text-sm text-muted-foreground"
+        >
+          {{
+            t(
+              destinations.length === 0
+                ? "admin.subdomainProxy.targetOptimizationNoCandidates"
+                : "admin.subdomainProxy.targetOptimizationNoMappings",
+            )
+          }}
+        </div>
+        <div v-else class="overflow-hidden rounded-md border">
+          <Table>
+            <TableHeader>
+              <TableRow>
+                <TableHead class="w-12 text-center">
+                  <Checkbox
+                    :model-value="
+                      partiallySelected ? 'indeterminate' : allSelected
+                    "
+                    :aria-label="t('common.selectAll')"
+                    @update:model-value="setAllSelected($event === true)"
+                  />
+                </TableHead>
+                <TableHead class="w-[34%]">
+                  {{ t("admin.subdomainProxy.columns.domain") }}
+                </TableHead>
+                <TableHead>
+                  {{ t("admin.subdomainProxy.targetOptimizationPreview") }}
+                </TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              <TableRow v-for="preview in previews" :key="preview.host">
+                <TableCell class="text-center">
+                  <Checkbox
+                    :model-value="isMappingSelected(preview.host)"
+                    :aria-label="
+                      t('common.selectItem', { item: preview.host })
+                    "
+                    @update:model-value="
+                      setMappingSelected(preview.host, $event === true)
+                    "
+                  />
+                </TableCell>
+                <TableCell class="max-w-0">
+                  <span class="block truncate font-medium" :title="preview.host">
+                    {{ preview.host }}
+                  </span>
+                </TableCell>
+                <TableCell>
+                  <div class="flex min-w-0 items-center gap-2 text-xs">
+                    <code
+                      class="min-w-0 flex-1 truncate rounded bg-muted px-2 py-1"
+                      :title="preview.target"
+                    >{{ preview.target }}</code>
+                    <ArrowRight class="h-4 w-4 shrink-0 text-muted-foreground" />
+                    <code
+                      class="min-w-0 flex-1 truncate rounded bg-primary/10 px-2 py-1 text-primary"
+                      :title="preview.nextTarget"
+                    >{{ preview.nextTarget }}</code>
+                  </div>
+                </TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </div>
+      </div>
+
+      <DialogFooter
+        class="shrink-0 items-center gap-2 sm:flex-row sm:justify-between"
+      >
+        <span class="text-sm text-muted-foreground">
+          {{
+            t("admin.subdomainProxy.targetOptimizationSelected", {
+              selected: selectedCount,
+              total: previews.length,
+            })
+          }}
+        </span>
+        <div class="flex w-full flex-col-reverse gap-2 sm:w-auto sm:flex-row">
+          <Button variant="outline" :disabled="isSavingMappings" @click="closeDialog">
+            {{ t("admin.subdomainProxy.cancel") }}
+          </Button>
+          <Button
+            :disabled="
+              selectedCount === 0 ||
+              isLoadingCandidates ||
+              isSavingMappings
+            "
+            @click="saveOptimizedTargets"
+          >
+            {{ t("admin.subdomainProxy.targetOptimizationApply") }}
+          </Button>
+        </div>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

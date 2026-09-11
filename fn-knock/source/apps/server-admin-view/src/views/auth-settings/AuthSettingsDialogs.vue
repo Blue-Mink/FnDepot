@@ -1,1 +1,198 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCBBdXRoQWNjb3VudEVkaXREaWFsb2cgZnJvbSAiLi9BdXRoQWNjb3VudEVkaXREaWFsb2cudnVlIjsKaW1wb3J0IEF1dGhBY2NvdW50UGFzc3dvcmREaWFsb2cgZnJvbSAiLi9BdXRoQWNjb3VudFBhc3N3b3JkRGlhbG9nLnZ1ZSI7CmltcG9ydCBBdXRoTW9kZVN3aXRjaERpYWxvZyBmcm9tICIuL0F1dGhNb2RlU3dpdGNoRGlhbG9nLnZ1ZSI7CmltcG9ydCBDcmVkZW50aWFsVHJhbnNmZXJEaWFsb2dzIGZyb20gIi4vQ3JlZGVudGlhbFRyYW5zZmVyRGlhbG9ncy52dWUiOwppbXBvcnQgU3ViZG9tYWluQWNjZXNzRGlhbG9nIGZyb20gIi4vU3ViZG9tYWluQWNjZXNzRGlhbG9nLnZ1ZSI7CmltcG9ydCBUb3RwU2V0dXBEaWFsb2cgZnJvbSAiLi9Ub3RwU2V0dXBEaWFsb2cudnVlIjsKaW1wb3J0IHR5cGUgeyBBdXRoU2V0dGluZ3NQYWdlQ29udHJvbGxlciB9IGZyb20gIi4vdXNlQXV0aFNldHRpbmdzUGFnZSI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsgY29udHJvbGxlcjogQXV0aFNldHRpbmdzUGFnZUNvbnRyb2xsZXIgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHsKICBhY2NvdW50UGFzc3dvcmREaWFsb2dEZXNjcmlwdGlvbiwKICBhY2NvdW50UGFzc3dvcmREaWFsb2dUaXRsZSwKICBhY2NvdW50UGFzc3dvcmRJbnB1dCwKICBhY2NvdW50UGFzc3dvcmRVc2VybmFtZUlucHV0LAogIGF1dGhBY2NvdW50VXNlcm5hbWVJbnB1dCwKICBhdXRoQWNjb3VudHMsCiAgYXV0aExvZ2luTW9kZSwKICBhdXRoTW9kZVByZXZpZXcsCiAgYmluZEVycm9yTWVzc2FnZSwKICBjbGVhclNlbGVjdGVkQWNjZXNzT3B0aW9ucywKICBjbG9zZUFjY291bnRQYXNzd29yZERpYWxvZywKICBjbG9zZUF1dGhBY2NvdW50RGlhbG9nLAogIGNsb3NlU3ViZG9tYWluQWNjZXNzRGlhbG9nLAogIGNvcHlTZXR1cFNlY3JldCwKICBlZGl0aW5nU3ViZG9tYWluQWNjZXNzQWNjb3VudCwKICBlZGl0aW5nU3ViZG9tYWluQWNjZXNzVG90cCwKICBleHBvcnRhYmxlQ3JlZGVudGlhbENvdW50LAogIGZpbHRlcmVkU3ViZG9tYWluQWNjZXNzT3B0aW9ucywKICBoYW5kbGVCaW5kLAogIGhhbmRsZUNhbmNlbFNldHVwLAogIGhhbmRsZUNyZWRlbnRpYWxJbXBvcnRGaWxlQ2hhbmdlLAogIGhhbmRsZUV4cG9ydENyZWRlbnRpYWxzLAogIGhhbmRsZUltcG9ydENyZWRlbnRpYWxzLAogIGhhbmRsZVNhdmVBY2NvdW50UGFzc3dvcmQsCiAgaGFuZGxlU2F2ZUF1dGhBY2NvdW50LAogIGhhbmRsZVNhdmVTZXR1cE5hbWUsCiAgaGFuZGxlU2F2ZVN1YmRvbWFpbkFjY2VzcywKICBoYW5kbGVTd2l0Y2hBdXRoTW9kZSwKICBpc0FjY291bnRQYXNzd29yZFNldHVwTW9kZSwKICBpc0FjY291bnRQYXNzd29yZFZpc2libGUsCiAgaXNCaW5kaW5nLAogIGlzQ3JlZGVudGlhbFRyYW5zZmVyQnVzeSwKICBpc0V4cG9ydGluZ0NyZWRlbnRpYWxzLAogIGlzSW1wb3J0aW5nQ3JlZGVudGlhbHMsCiAgaXNQcmV2aWV3aW5nQXV0aE1vZGUsCiAgaXNTYXZpbmdBY2NvdW50UGFzc3dvcmQsCiAgaXNTYXZpbmdBdXRoQWNjb3VudCwKICBpc1NhdmluZ1N1YmRvbWFpbkFjY2VzcywKICBpc1N3aXRjaGluZ0F1dGhNb2RlLAogIG5ld1RvdHBDb21tZW50LAogIG9wZW5BY2NvdW50UGFzc3dvcmREaWFsb2dGcm9tU3dpdGNoLAogIG9wZW5BY2NvdW50VG90cFNldHVwRGlhbG9nRnJvbVN3aXRjaCwKICBvcGVuQXV0aEFjY291bnREaWFsb2csCiAgb3BlbkV4cG9ydERpYWxvZ0Zyb21DcmVkZW50aWFsVHJhbnNmZXJEaWFsb2csCiAgb3Blbk1hbnVhbFNldHVwVmlldywKICBwZW5kaW5nQ3JlZGVudGlhbEltcG9ydEZpbGVuYW1lLAogIHBhc3N3b3JkU2VjdXJpdHlXYXJuaW5nLAogIHJlc2V0UGVuZGluZ0NyZWRlbnRpYWxJbXBvcnQsCiAgcmV0dXJuUVJDb2RlU2V0dXBWaWV3LAogIHNlbGVjdGVkQWNjZXNzQ291bnQsCiAgc2VsZWN0ZWRBY2Nlc3NLZXlzLAogIHNlbGVjdEFsbEZpbHRlcmVkQWNjZXNzT3B0aW9ucywKICBzZXRDcmVkZW50aWFsSW1wb3J0SW5wdXQsCiAgc2V0dXBCaW5kVHJhbnNpdGlvbkVudGVyRnJvbUNsYXNzLAogIHNldHVwQmluZFRyYW5zaXRpb25MZWF2ZVRvQ2xhc3MsCiAgc2V0dXBCaW5kVmlldywKICBzZXR1cERhdGEsCiAgc2V0dXBEaWFsb2dEZXNjcmlwdGlvbiwKICBzZXR1cERpYWxvZ1RpdGxlLAogIHNldHVwU2VjcmV0RGlzcGxheSwKICBzZXR1cFN0ZXAsCiAgc2hvd0FjY291bnRQYXNzd29yZERpYWxvZywKICBzaG93QXV0aEFjY291bnREaWFsb2csCiAgc2hvd0F1dGhNb2RlU3dpdGNoRGlhbG9nLAogIHNob3dDcmVkZW50aWFsVHJhbnNmZXJEaWFsb2csCiAgc2hvd0V4cG9ydERpYWxvZywKICBzaG93SW1wb3J0RGlhbG9nLAogIHNob3dTZXR1cERpYWxvZywKICBzaG93U3ViZG9tYWluQWNjZXNzRGlhbG9nLAogIHN1YmRvbWFpbkFjY2Vzc01vZGUsCiAgc3ViZG9tYWluQWNjZXNzT3B0aW9ucywKICBzdWJkb21haW5BY2Nlc3NTZWFyY2gsCiAgdG9nZ2xlQWNjZXNzT3B0aW9uLAogIHRyaWdnZXJJbXBvcnRGaWxlUGlja2VyRnJvbUNyZWRlbnRpYWxUcmFuc2ZlckRpYWxvZywKICB1c2VybmFtZVNlY3VyaXR5V2FybmluZywKICB2ZXJpZnlUb2tlbiwKfSA9IHByb3BzLmNvbnRyb2xsZXI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxBdXRoTW9kZVN3aXRjaERpYWxvZwogICAgdi1tb2RlbDpvcGVuPSJzaG93QXV0aE1vZGVTd2l0Y2hEaWFsb2ciCiAgICA6Y3VycmVudC1tb2RlPSJhdXRoTG9naW5Nb2RlIgogICAgOmFjY291bnRzPSJhdXRoQWNjb3VudHMiCiAgICA6cHJldmlldz0iYXV0aE1vZGVQcmV2aWV3IgogICAgOmlzLXByZXZpZXdpbmc9ImlzUHJldmlld2luZ0F1dGhNb2RlIgogICAgOmlzLXN3aXRjaGluZz0iaXNTd2l0Y2hpbmdBdXRoTW9kZSIKICAgIEBiaW5kLXRvdHA9Im9wZW5BY2NvdW50VG90cFNldHVwRGlhbG9nRnJvbVN3aXRjaCIKICAgIEBjb25maXJtPSJoYW5kbGVTd2l0Y2hBdXRoTW9kZSIKICAgIEBlZGl0LWFjY291bnQ9Im9wZW5BdXRoQWNjb3VudERpYWxvZyIKICAgIEBzZXQtcGFzc3dvcmQ9Im9wZW5BY2NvdW50UGFzc3dvcmREaWFsb2dGcm9tU3dpdGNoIgogIC8+CgogIDxpbnB1dAogICAgOnJlZj0ic2V0Q3JlZGVudGlhbEltcG9ydElucHV0IgogICAgdHlwZT0iZmlsZSIKICAgIGFjY2VwdD0iLmpzb24sYXBwbGljYXRpb24vanNvbiIKICAgIGNsYXNzPSJoaWRkZW4iCiAgICBAY2hhbmdlPSJoYW5kbGVDcmVkZW50aWFsSW1wb3J0RmlsZUNoYW5nZSIKICAvPgoKICA8Q3JlZGVudGlhbFRyYW5zZmVyRGlhbG9ncwogICAgdi1tb2RlbDpjcmVkZW50aWFsLXRyYW5zZmVyLW9wZW49InNob3dDcmVkZW50aWFsVHJhbnNmZXJEaWFsb2ciCiAgICB2LW1vZGVsOmV4cG9ydC1vcGVuPSJzaG93RXhwb3J0RGlhbG9nIgogICAgdi1tb2RlbDppbXBvcnQtb3Blbj0ic2hvd0ltcG9ydERpYWxvZyIKICAgIDpjcmVkZW50aWFsLWNvdW50PSJleHBvcnRhYmxlQ3JlZGVudGlhbENvdW50IgogICAgOmlzLWNyZWRlbnRpYWwtdHJhbnNmZXItYnVzeT0iaXNDcmVkZW50aWFsVHJhbnNmZXJCdXN5IgogICAgOmlzLWV4cG9ydGluZy1jcmVkZW50aWFscz0iaXNFeHBvcnRpbmdDcmVkZW50aWFscyIKICAgIDppcy1pbXBvcnRpbmctY3JlZGVudGlhbHM9ImlzSW1wb3J0aW5nQ3JlZGVudGlhbHMiCiAgICA6cGVuZGluZy1jcmVkZW50aWFsLWltcG9ydC1maWxlbmFtZT0icGVuZGluZ0NyZWRlbnRpYWxJbXBvcnRGaWxlbmFtZSIKICAgIEBleHBvcnQtZnJvbS10cmFuc2Zlcj0ib3BlbkV4cG9ydERpYWxvZ0Zyb21DcmVkZW50aWFsVHJhbnNmZXJEaWFsb2ciCiAgICBAaW1wb3J0LWZyb20tdHJhbnNmZXI9InRyaWdnZXJJbXBvcnRGaWxlUGlja2VyRnJvbUNyZWRlbnRpYWxUcmFuc2ZlckRpYWxvZyIKICAgIEBjb25maXJtLWV4cG9ydD0iaGFuZGxlRXhwb3J0Q3JlZGVudGlhbHMiCiAgICBAY29uZmlybS1pbXBvcnQ9ImhhbmRsZUltcG9ydENyZWRlbnRpYWxzIgogICAgQHJlc2V0LWltcG9ydD0icmVzZXRQZW5kaW5nQ3JlZGVudGlhbEltcG9ydCIKICAvPgoKICA8U3ViZG9tYWluQWNjZXNzRGlhbG9nCiAgICB2LW1vZGVsOm9wZW49InNob3dTdWJkb21haW5BY2Nlc3NEaWFsb2ciCiAgICB2LW1vZGVsOm1vZGU9InN1YmRvbWFpbkFjY2Vzc01vZGUiCiAgICB2LW1vZGVsOnNlYXJjaD0ic3ViZG9tYWluQWNjZXNzU2VhcmNoIgogICAgOmhhcy10YXJnZXQ9IkJvb2xlYW4oZWRpdGluZ1N1YmRvbWFpbkFjY2Vzc1RvdHAgfHwgZWRpdGluZ1N1YmRvbWFpbkFjY2Vzc0FjY291bnQpIgogICAgOmlzLXNhdmluZz0iaXNTYXZpbmdTdWJkb21haW5BY2Nlc3MiCiAgICA6b3B0aW9uLWNvdW50PSJzdWJkb21haW5BY2Nlc3NPcHRpb25zLmxlbmd0aCIKICAgIDpvcHRpb25zPSJmaWx0ZXJlZFN1YmRvbWFpbkFjY2Vzc09wdGlvbnMiCiAgICA6c2VsZWN0ZWQtY291bnQ9InNlbGVjdGVkQWNjZXNzQ291bnQiCiAgICA6c2VsZWN0ZWQta2V5cz0ic2VsZWN0ZWRBY2Nlc3NLZXlzIgogICAgOnRhcmdldC1uYW1lPSIKICAgICAgZWRpdGluZ1N1YmRvbWFpbkFjY2Vzc0FjY291bnQ/LnVzZXJuYW1lIHx8CiAgICAgIGVkaXRpbmdTdWJkb21haW5BY2Nlc3NUb3RwPy5jb21tZW50IHx8CiAgICAgIHQoJ2FkbWluLmF1dGhTZXR0aW5ncy50b2tlbkZhbGxiYWNrJykKICAgICIKICAgIEBjbGVhci1zZWxlY3RlZD0iY2xlYXJTZWxlY3RlZEFjY2Vzc09wdGlvbnMiCiAgICBAY2xvc2U9ImNsb3NlU3ViZG9tYWluQWNjZXNzRGlhbG9nIgogICAgQHNhdmU9ImhhbmRsZVNhdmVTdWJkb21haW5BY2Nlc3MiCiAgICBAc2VsZWN0LWFsbC1maWx0ZXJlZD0ic2VsZWN0QWxsRmlsdGVyZWRBY2Nlc3NPcHRpb25zIgogICAgQHRvZ2dsZS1vcHRpb249InRvZ2dsZUFjY2Vzc09wdGlvbiIKICAvPgoKICA8QXV0aEFjY291bnRFZGl0RGlhbG9nCiAgICB2LW1vZGVsOm9wZW49InNob3dBdXRoQWNjb3VudERpYWxvZyIKICAgIHYtbW9kZWw6dXNlcm5hbWU9ImF1dGhBY2NvdW50VXNlcm5hbWVJbnB1dCIKICAgIDppcy1zYXZpbmc9ImlzU2F2aW5nQXV0aEFjY291bnQiCiAgICA6dXNlcm5hbWUtc2VjdXJpdHktd2FybmluZz0idXNlcm5hbWVTZWN1cml0eVdhcm5pbmciCiAgICBAY2xvc2U9ImNsb3NlQXV0aEFjY291bnREaWFsb2ciCiAgICBAc2F2ZT0iaGFuZGxlU2F2ZUF1dGhBY2NvdW50IgogIC8+CgogIDxBdXRoQWNjb3VudFBhc3N3b3JkRGlhbG9nCiAgICB2LW1vZGVsOmlzLXBhc3N3b3JkLXZpc2libGU9ImlzQWNjb3VudFBhc3N3b3JkVmlzaWJsZSIKICAgIHYtbW9kZWw6b3Blbj0ic2hvd0FjY291bnRQYXNzd29yZERpYWxvZyIKICAgIHYtbW9kZWw6cGFzc3dvcmQ9ImFjY291bnRQYXNzd29yZElucHV0IgogICAgdi1tb2RlbDp1c2VybmFtZT0iYWNjb3VudFBhc3N3b3JkVXNlcm5hbWVJbnB1dCIKICAgIDpkZXNjcmlwdGlvbj0iYWNjb3VudFBhc3N3b3JkRGlhbG9nRGVzY3JpcHRpb24iCiAgICA6aXMtc2F2aW5nPSJpc1NhdmluZ0FjY291bnRQYXNzd29yZCIKICAgIDppcy1zZXR1cC1tb2RlPSJpc0FjY291bnRQYXNzd29yZFNldHVwTW9kZSIKICAgIDpwYXNzd29yZC1zZWN1cml0eS13YXJuaW5nPSJwYXNzd29yZFNlY3VyaXR5V2FybmluZyIKICAgIDp0aXRsZT0iYWNjb3VudFBhc3N3b3JkRGlhbG9nVGl0bGUiCiAgICA6dXNlcm5hbWUtc2VjdXJpdHktd2FybmluZz0idXNlcm5hbWVTZWN1cml0eVdhcm5pbmciCiAgICBAY2xvc2U9ImNsb3NlQWNjb3VudFBhc3N3b3JkRGlhbG9nIgogICAgQHNhdmU9ImhhbmRsZVNhdmVBY2NvdW50UGFzc3dvcmQiCiAgLz4KCiAgPFRvdHBTZXR1cERpYWxvZwogICAgdi1tb2RlbDpjb21tZW50PSJuZXdUb3RwQ29tbWVudCIKICAgIHYtbW9kZWw6b3Blbj0ic2hvd1NldHVwRGlhbG9nIgogICAgdi1tb2RlbDp2ZXJpZnktdG9rZW49InZlcmlmeVRva2VuIgogICAgOmJpbmQtZXJyb3ItbWVzc2FnZT0iYmluZEVycm9yTWVzc2FnZSIKICAgIDpiaW5kLXZpZXc9InNldHVwQmluZFZpZXciCiAgICA6ZGVzY3JpcHRpb249InNldHVwRGlhbG9nRGVzY3JpcHRpb24iCiAgICA6ZW50ZXItZnJvbS1jbGFzcz0ic2V0dXBCaW5kVHJhbnNpdGlvbkVudGVyRnJvbUNsYXNzIgogICAgOmlzLWJpbmRpbmc9ImlzQmluZGluZyIKICAgIDpsZWF2ZS10by1jbGFzcz0ic2V0dXBCaW5kVHJhbnNpdGlvbkxlYXZlVG9DbGFzcyIKICAgIDpzZWNyZXQtZGlzcGxheT0ic2V0dXBTZWNyZXREaXNwbGF5IgogICAgOnNldHVwLWRhdGE9InNldHVwRGF0YSIKICAgIDpzdGVwPSJzZXR1cFN0ZXAiCiAgICA6dGl0bGU9InNldHVwRGlhbG9nVGl0bGUiCiAgICBAYmluZD0iaGFuZGxlQmluZCIKICAgIEBjYW5jZWw9ImhhbmRsZUNhbmNlbFNldHVwIgogICAgQGNvcHktc2VjcmV0PSJjb3B5U2V0dXBTZWNyZXQiCiAgICBAb3Blbi1tYW51YWw9Im9wZW5NYW51YWxTZXR1cFZpZXciCiAgICBAcmV0dXJuLXRvLXFyPSJyZXR1cm5RUkNvZGVTZXR1cFZpZXciCiAgICBAc2F2ZS1uYW1lPSJoYW5kbGVTYXZlU2V0dXBOYW1lIgogIC8+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import AuthAccountEditDialog from "./AuthAccountEditDialog.vue";
+import AuthAccountPasswordDialog from "./AuthAccountPasswordDialog.vue";
+import AuthModeSwitchDialog from "./AuthModeSwitchDialog.vue";
+import CredentialTransferDialogs from "./CredentialTransferDialogs.vue";
+import SubdomainAccessDialog from "./SubdomainAccessDialog.vue";
+import TotpSetupDialog from "./TotpSetupDialog.vue";
+import type { AuthSettingsPageController } from "./useAuthSettingsPage";
+
+const props = defineProps<{ controller: AuthSettingsPageController }>();
+const { t } = useI18n();
+const {
+  accountPasswordDialogDescription,
+  accountPasswordDialogTitle,
+  accountPasswordInput,
+  accountPasswordUsernameInput,
+  authAccountUsernameInput,
+  authAccounts,
+  authLoginMode,
+  authModePreview,
+  bindErrorMessage,
+  clearSelectedAccessOptions,
+  closeAccountPasswordDialog,
+  closeAuthAccountDialog,
+  closeSubdomainAccessDialog,
+  copySetupSecret,
+  editingSubdomainAccessAccount,
+  editingSubdomainAccessTotp,
+  exportableCredentialCount,
+  filteredSubdomainAccessOptions,
+  handleBind,
+  handleCancelSetup,
+  handleCredentialImportFileChange,
+  handleExportCredentials,
+  handleImportCredentials,
+  handleSaveAccountPassword,
+  handleSaveAuthAccount,
+  handleSaveSetupName,
+  handleSaveSubdomainAccess,
+  handleSwitchAuthMode,
+  isAccountPasswordSetupMode,
+  isAccountPasswordVisible,
+  isBinding,
+  isCredentialTransferBusy,
+  isExportingCredentials,
+  isImportingCredentials,
+  isPreviewingAuthMode,
+  isSavingAccountPassword,
+  isSavingAuthAccount,
+  isSavingSubdomainAccess,
+  isSwitchingAuthMode,
+  newTotpComment,
+  openAccountPasswordDialogFromSwitch,
+  openAccountTotpSetupDialogFromSwitch,
+  openAuthAccountDialog,
+  openExportDialogFromCredentialTransferDialog,
+  openManualSetupView,
+  pendingCredentialImportFilename,
+  passwordSecurityWarning,
+  resetPendingCredentialImport,
+  returnQRCodeSetupView,
+  selectedAccessCount,
+  selectedAccessKeys,
+  selectAllFilteredAccessOptions,
+  setCredentialImportInput,
+  setupBindTransitionEnterFromClass,
+  setupBindTransitionLeaveToClass,
+  setupBindView,
+  setupData,
+  setupDialogDescription,
+  setupDialogTitle,
+  setupSecretDisplay,
+  setupStep,
+  showAccountPasswordDialog,
+  showAuthAccountDialog,
+  showAuthModeSwitchDialog,
+  showCredentialTransferDialog,
+  showExportDialog,
+  showImportDialog,
+  showSetupDialog,
+  showSubdomainAccessDialog,
+  subdomainAccessMode,
+  subdomainAccessOptions,
+  subdomainAccessSearch,
+  toggleAccessOption,
+  triggerImportFilePickerFromCredentialTransferDialog,
+  usernameSecurityWarning,
+  verifyToken,
+} = props.controller;
+</script>
+
+<template>
+  <AuthModeSwitchDialog
+    v-model:open="showAuthModeSwitchDialog"
+    :current-mode="authLoginMode"
+    :accounts="authAccounts"
+    :preview="authModePreview"
+    :is-previewing="isPreviewingAuthMode"
+    :is-switching="isSwitchingAuthMode"
+    @bind-totp="openAccountTotpSetupDialogFromSwitch"
+    @confirm="handleSwitchAuthMode"
+    @edit-account="openAuthAccountDialog"
+    @set-password="openAccountPasswordDialogFromSwitch"
+  />
+
+  <input
+    :ref="setCredentialImportInput"
+    type="file"
+    accept=".json,application/json"
+    class="hidden"
+    @change="handleCredentialImportFileChange"
+  />
+
+  <CredentialTransferDialogs
+    v-model:credential-transfer-open="showCredentialTransferDialog"
+    v-model:export-open="showExportDialog"
+    v-model:import-open="showImportDialog"
+    :credential-count="exportableCredentialCount"
+    :is-credential-transfer-busy="isCredentialTransferBusy"
+    :is-exporting-credentials="isExportingCredentials"
+    :is-importing-credentials="isImportingCredentials"
+    :pending-credential-import-filename="pendingCredentialImportFilename"
+    @export-from-transfer="openExportDialogFromCredentialTransferDialog"
+    @import-from-transfer="triggerImportFilePickerFromCredentialTransferDialog"
+    @confirm-export="handleExportCredentials"
+    @confirm-import="handleImportCredentials"
+    @reset-import="resetPendingCredentialImport"
+  />
+
+  <SubdomainAccessDialog
+    v-model:open="showSubdomainAccessDialog"
+    v-model:mode="subdomainAccessMode"
+    v-model:search="subdomainAccessSearch"
+    :has-target="Boolean(editingSubdomainAccessTotp || editingSubdomainAccessAccount)"
+    :is-saving="isSavingSubdomainAccess"
+    :option-count="subdomainAccessOptions.length"
+    :options="filteredSubdomainAccessOptions"
+    :selected-count="selectedAccessCount"
+    :selected-keys="selectedAccessKeys"
+    :target-name="
+      editingSubdomainAccessAccount?.username ||
+      editingSubdomainAccessTotp?.comment ||
+      t('admin.authSettings.tokenFallback')
+    "
+    @clear-selected="clearSelectedAccessOptions"
+    @close="closeSubdomainAccessDialog"
+    @save="handleSaveSubdomainAccess"
+    @select-all-filtered="selectAllFilteredAccessOptions"
+    @toggle-option="toggleAccessOption"
+  />
+
+  <AuthAccountEditDialog
+    v-model:open="showAuthAccountDialog"
+    v-model:username="authAccountUsernameInput"
+    :is-saving="isSavingAuthAccount"
+    :username-security-warning="usernameSecurityWarning"
+    @close="closeAuthAccountDialog"
+    @save="handleSaveAuthAccount"
+  />
+
+  <AuthAccountPasswordDialog
+    v-model:is-password-visible="isAccountPasswordVisible"
+    v-model:open="showAccountPasswordDialog"
+    v-model:password="accountPasswordInput"
+    v-model:username="accountPasswordUsernameInput"
+    :description="accountPasswordDialogDescription"
+    :is-saving="isSavingAccountPassword"
+    :is-setup-mode="isAccountPasswordSetupMode"
+    :password-security-warning="passwordSecurityWarning"
+    :title="accountPasswordDialogTitle"
+    :username-security-warning="usernameSecurityWarning"
+    @close="closeAccountPasswordDialog"
+    @save="handleSaveAccountPassword"
+  />
+
+  <TotpSetupDialog
+    v-model:comment="newTotpComment"
+    v-model:open="showSetupDialog"
+    v-model:verify-token="verifyToken"
+    :bind-error-message="bindErrorMessage"
+    :bind-view="setupBindView"
+    :description="setupDialogDescription"
+    :enter-from-class="setupBindTransitionEnterFromClass"
+    :is-binding="isBinding"
+    :leave-to-class="setupBindTransitionLeaveToClass"
+    :secret-display="setupSecretDisplay"
+    :setup-data="setupData"
+    :step="setupStep"
+    :title="setupDialogTitle"
+    @bind="handleBind"
+    @cancel="handleCancelSetup"
+    @copy-secret="copySetupSecret"
+    @open-manual="openManualSetupView"
+    @return-to-qr="returnQRCodeSetupView"
+    @save-name="handleSaveSetupName"
+  />
+</template>

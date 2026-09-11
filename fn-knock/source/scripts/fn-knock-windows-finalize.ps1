@@ -1,1 +1,164 @@
-W0NtZGxldEJpbmRpbmcoKV0KcGFyYW0oCiAgW1BhcmFtZXRlcihNYW5kYXRvcnkgPSAkdHJ1ZSldCiAgW3N0cmluZ10kU2V0dXBQYXRoLAogIFtzdHJpbmddJE91dHB1dERpcmVjdG9yeSA9ICIiLAogIFtzdHJpbmddJFJlbGVhc2VOb3Rlc1BhdGggPSAiIiwKICBbVmFsaWRhdGVTZXQoIlNpZ25lZCIsICJVbnNpZ25lZCIpXQogIFtzdHJpbmddJFNpZ25hdHVyZVBvbGljeSA9ICJVbnNpZ25lZCIsCiAgW3N0cmluZ10kUmVsZWFzZUJhc2VVcmwgPSAiIgopCgokRXJyb3JBY3Rpb25QcmVmZXJlbmNlID0gIlN0b3AiClNldC1TdHJpY3RNb2RlIC1WZXJzaW9uIExhdGVzdAouIChKb2luLVBhdGggJFBTU2NyaXB0Um9vdCAiZm4ta25vY2stY29udHJvbC1hcGkucHMxIikKCmZ1bmN0aW9uIEFzc2VydC1XaW5kb3dzSW5zdGFsbGVyKFtzdHJpbmddJFBhdGgsIFtzdHJpbmddJFBvbGljeSkgewogICRpdGVtID0gR2V0LUl0ZW0gLUxpdGVyYWxQYXRoICRQYXRoCiAgaWYgKCRpdGVtLkxlbmd0aCAtbHQgNjQpIHsKICAgIHRocm93ICJXaW5kb3dzIGluc3RhbGxlciBpcyB0b28gc21hbGwgdG8gY29udGFpbiBhIHZhbGlkIFBFIGhlYWRlcjogJFBhdGgiCiAgfQoKICAkc3RyZWFtID0gW1N5c3RlbS5JTy5GaWxlXTo6T3BlblJlYWQoJGl0ZW0uRnVsbE5hbWUpCiAgdHJ5IHsKICAgICRkb3NIZWFkZXIgPSBbYnl0ZVtdXTo6bmV3KDY0KQogICAgaWYgKCRzdHJlYW0uUmVhZCgkZG9zSGVhZGVyLCAwLCAkZG9zSGVhZGVyLkxlbmd0aCkgLW5lICRkb3NIZWFkZXIuTGVuZ3RoIC1vcgogICAgICAgICRkb3NIZWFkZXJbMF0gLW5lIFtieXRlXVtjaGFyXSdNJyAtb3IgJGRvc0hlYWRlclsxXSAtbmUgW2J5dGVdW2NoYXJdJ1onKSB7CiAgICAgIHRocm93ICJXaW5kb3dzIGluc3RhbGxlciBkb2VzIG5vdCBoYXZlIGEgdmFsaWQgTVogaGVhZGVyOiAkUGF0aCIKICAgIH0KICAgICRwZU9mZnNldCA9IFtCaXRDb252ZXJ0ZXJdOjpUb1VJbnQzMigkZG9zSGVhZGVyLCAweDNjKQogICAgaWYgKFt1aW50NjRdJHBlT2Zmc2V0ICsgNCAtZ3QgW3VpbnQ2NF0kaXRlbS5MZW5ndGgpIHsKICAgICAgdGhyb3cgIldpbmRvd3MgaW5zdGFsbGVyIFBFIGhlYWRlciBpcyBvdXRzaWRlIHRoZSBmaWxlOiAkUGF0aCIKICAgIH0KICAgICRzdHJlYW0uUG9zaXRpb24gPSAkcGVPZmZzZXQKICAgICRwZVNpZ25hdHVyZSA9IFtieXRlW11dOjpuZXcoNCkKICAgIGlmICgkc3RyZWFtLlJlYWQoJHBlU2lnbmF0dXJlLCAwLCAkcGVTaWduYXR1cmUuTGVuZ3RoKSAtbmUgJHBlU2lnbmF0dXJlLkxlbmd0aCAtb3IKICAgICAgICAkcGVTaWduYXR1cmVbMF0gLW5lIFtieXRlXVtjaGFyXSdQJyAtb3IgJHBlU2lnbmF0dXJlWzFdIC1uZSBbYnl0ZV1bY2hhcl0nRScgLW9yCiAgICAgICAgJHBlU2lnbmF0dXJlWzJdIC1uZSAwIC1vciAkcGVTaWduYXR1cmVbM10gLW5lIDApIHsKICAgICAgdGhyb3cgIldpbmRvd3MgaW5zdGFsbGVyIGRvZXMgbm90IGhhdmUgYSB2YWxpZCBQRSBzaWduYXR1cmU6ICRQYXRoIgogICAgfQogIH0gZmluYWxseSB7CiAgICAkc3RyZWFtLkRpc3Bvc2UoKQogIH0KCiAgaWYgKCRQb2xpY3kgLWVxICJTaWduZWQiKSB7CiAgICAkc2lnbmF0dXJlID0gR2V0LUF1dGhlbnRpY29kZVNpZ25hdHVyZSAtTGl0ZXJhbFBhdGggJGl0ZW0uRnVsbE5hbWUKICAgIGlmICgkc2lnbmF0dXJlLlN0YXR1cyAtbmUgIlZhbGlkIikgewogICAgICB0aHJvdyAiV2luZG93cyBpbnN0YWxsZXIgQXV0aGVudGljb2RlIHNpZ25hdHVyZSBpcyBpbnZhbGlkOiAkKCRzaWduYXR1cmUuU3RhdHVzKSAoJFBhdGgpIgogICAgfQogIH0KfQoKJFJvb3QgPSAoUmVzb2x2ZS1QYXRoIChKb2luLVBhdGggJFBTU2NyaXB0Um9vdCAiLi4iKSkuUGF0aAokVmVyc2lvbkRvY3VtZW50ID0gR2V0LUNvbnRlbnQgLVJhdyAoSm9pbi1QYXRoICRSb290ICJ2ZXJzaW9uLmpzb24iKSB8IENvbnZlcnRGcm9tLUpzb24KJFZlcnNpb24gPSBbc3RyaW5nXSRWZXJzaW9uRG9jdW1lbnQudmVyc2lvbgokQ29udHJvbEFwaVZlcnNpb24gPSBHZXQtRm5Lbm9ja0NvbnRyb2xBcGlWZXJzaW9uIC1Sb290ICRSb290CiRCdW5kbGVJZGVudGl0eVBhdGggPSBKb2luLVBhdGggJFJvb3QgImFwcHNcZm4ta25vY2stZGVza3RvcFxidW5kbGVcd2luZG93c1xydW50aW1lXGJ1bmRsZS5qc29uIgokQnVuZGxlSWRlbnRpdHkgPSBHZXQtQ29udGVudCAtUmF3ICRCdW5kbGVJZGVudGl0eVBhdGggfCBDb252ZXJ0RnJvbS1Kc29uCmlmIChbc3RyaW5nXSRCdW5kbGVJZGVudGl0eS52ZXJzaW9uIC1uZSAkVmVyc2lvbikgewogIHRocm93ICJTdGFnZWQgYnVuZGxlIGlkZW50aXR5IGRvZXMgbm90IG1hdGNoIHJlbGVhc2UgdmVyc2lvbiAkVmVyc2lvbiIKfQpmb3JlYWNoICgkcHJvcGVydHkgaW4gQCgiY29tbWl0IiwgImdhdGV3YXlfY29tbWl0IikpIHsKICAkdmFsdWUgPSBbc3RyaW5nXSRCdW5kbGVJZGVudGl0eS4kcHJvcGVydHkKICBpZiAoJHZhbHVlIC1ub3RtYXRjaCAnXlswLTlhLWZBLUZdezQwfSQnKSB7CiAgICB0aHJvdyAiU3RhZ2VkIGJ1bmRsZSBpZGVudGl0eSBoYXMgYW4gaW52YWxpZCBvciBtaXNzaW5nICRwcm9wZXJ0eSIKICB9Cn0KaWYgKFt1aW50NjRdJEJ1bmRsZUlkZW50aXR5LmNvbnRyb2xfYXBpX3ZlcnNpb24gLW5lICRDb250cm9sQXBpVmVyc2lvbikgewogIHRocm93ICJTdGFnZWQgYnVuZGxlIGlkZW50aXR5IGhhcyBhbiBpbnZhbGlkIG9yIG1pc3NpbmcgY29udHJvbF9hcGlfdmVyc2lvbiIKfQokU2V0dXBQYXRoID0gKFJlc29sdmUtUGF0aCAkU2V0dXBQYXRoKS5QYXRoCmlmICgtbm90ICRPdXRwdXREaXJlY3RvcnkpIHsKICAkT3V0cHV0RGlyZWN0b3J5ID0gSm9pbi1QYXRoICRSb290ICJkaXN0XGZuLWtub2NrLWFydGlmYWN0c1x3aW5kb3dzXHg4Nl82NCIKfQpOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1Gb3JjZSAkT3V0cHV0RGlyZWN0b3J5IHwgT3V0LU51bGwKCmlmICgkU2lnbmF0dXJlUG9saWN5IC1lcSAiVW5zaWduZWQiKSB7CiAgJEFydGlmYWN0TmFtZSA9ICJmbi1rbm9jay0kVmVyc2lvbi13aW5kb3dzLXg4Nl82NC11bnNpZ25lZC1zZXR1cC5leGUiCn0gZWxzZSB7CiAgJEFydGlmYWN0TmFtZSA9ICJmbi1rbm9jay0kVmVyc2lvbi13aW5kb3dzLXg4Nl82NC1zZXR1cC5leGUiCn0KJEFydGlmYWN0UGF0aCA9IEpvaW4tUGF0aCAkT3V0cHV0RGlyZWN0b3J5ICRBcnRpZmFjdE5hbWUKQ29weS1JdGVtIC1Gb3JjZSAkU2V0dXBQYXRoICRBcnRpZmFjdFBhdGgKQXNzZXJ0LVdpbmRvd3NJbnN0YWxsZXIgJEFydGlmYWN0UGF0aCAkU2lnbmF0dXJlUG9saWN5CgokU2hhMjU2ID0gKEdldC1GaWxlSGFzaCAtQWxnb3JpdGhtIFNIQTI1NiAkQXJ0aWZhY3RQYXRoKS5IYXNoLlRvTG93ZXJJbnZhcmlhbnQoKQokU2hhUGF0aCA9ICIkQXJ0aWZhY3RQYXRoLnNoYTI1NiIKW1N5c3RlbS5JTy5GaWxlXTo6V3JpdGVBbGxUZXh0KAogICRTaGFQYXRoLAogICIkU2hhMjU2ICAkQXJ0aWZhY3ROYW1lYG4iLAogIFtTeXN0ZW0uVGV4dC5VVEY4RW5jb2RpbmddOjpuZXcoJGZhbHNlKQopCgppZiAoLW5vdCAkUmVsZWFzZUJhc2VVcmwpIHsKICAkUmVsZWFzZUJhc2VVcmwgPSAiaHR0cHM6Ly9naXRodWIuY29tL2tjaS1sbmsvZm4ta25vY2stdHVyYm9yZXBvL3JlbGVhc2VzL2Rvd25sb2FkL3YkVmVyc2lvbiIKfQokVXJsID0gIiQoJFJlbGVhc2VCYXNlVXJsLlRyaW1FbmQoJy8nKSkvJEFydGlmYWN0TmFtZSIKJFB1Ymxpc2hlZEF0ID0gW0RhdGVUaW1lT2Zmc2V0XTo6VXRjTm93LlRvU3RyaW5nKCJvIikKJFJlbGVhc2VDaGFubmVsID0gaWYgKCRlbnY6Rk5fS05PQ0tfUkVMRUFTRV9DSEFOTkVMKSB7CiAgW3N0cmluZ10kZW52OkZOX0tOT0NLX1JFTEVBU0VfQ0hBTk5FTAp9IGVsc2UgewogICJzdGFibGUiCn0KaWYgKC1ub3QgJFJlbGVhc2VOb3Rlc1BhdGgpIHsKICAkUmVsZWFzZU5vdGVzUGF0aCA9IEpvaW4tUGF0aCAkUm9vdCAicmVsZWFzZS1ub3Rlc1wkVmVyc2lvbi5tZCIKfQppZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkUmVsZWFzZU5vdGVzUGF0aCAtUGF0aFR5cGUgTGVhZikpIHsKICB0aHJvdyAiV2luZG93cyByZWxlYXNlIG5vdGVzIGFyZSByZXF1aXJlZDogJFJlbGVhc2VOb3Rlc1BhdGgiCn0KJFJlbGVhc2VOb3RlcyA9IChHZXQtQ29udGVudCAtUmF3IC1MaXRlcmFsUGF0aCAkUmVsZWFzZU5vdGVzUGF0aCkuVHJpbSgpCmlmIChbc3RyaW5nXTo6SXNOdWxsT3JXaGl0ZVNwYWNlKCRSZWxlYXNlTm90ZXMpKSB7CiAgdGhyb3cgIldpbmRvd3MgcmVsZWFzZSBub3RlcyBtdXN0IG5vdCBiZSBlbXB0eSIKfQoKJFJlbGVhc2UgPSBAewogIHZlcnNpb24gPSAkVmVyc2lvbgogIGNvbW1pdCA9IFtzdHJpbmddJEJ1bmRsZUlkZW50aXR5LmNvbW1pdAogIGdhdGV3YXlfY29tbWl0ID0gW3N0cmluZ10kQnVuZGxlSWRlbnRpdHkuZ2F0ZXdheV9jb21taXQKICBjb250cm9sX2FwaV92ZXJzaW9uID0gJENvbnRyb2xBcGlWZXJzaW9uCiAgcnVudGltZV90YXJnZXQgPSAid2luZG93cyIKICBhcmNoaXRlY3R1cmUgPSAieDg2XzY0IgogIGNoYW5uZWwgPSAkUmVsZWFzZUNoYW5uZWwKICBzaWduYXR1cmVfcG9saWN5ID0gJFNpZ25hdHVyZVBvbGljeS5Ub0xvd2VySW52YXJpYW50KCkKICBwdWJsaXNoZWRfYXQgPSAkUHVibGlzaGVkQXQKICByZWxlYXNlX25vdGVzID0gJFJlbGVhc2VOb3RlcwogIGZpbGVfbmFtZSA9ICRBcnRpZmFjdE5hbWUKICBzaGEyNTYgPSAkU2hhMjU2CiAgc2l6ZSA9IChHZXQtSXRlbSAkQXJ0aWZhY3RQYXRoKS5MZW5ndGgKICBwYWNrYWdlcyA9IEB7CiAgICB3aW5kb3dzID0gQHsKICAgICAgeDg2XzY0ID0gQHsKICAgICAgICB1cmwgPSAkVXJsCiAgICAgICAgc2hhMjU2ID0gJFNoYTI1NgogICAgICAgIHNpemUgPSAoR2V0LUl0ZW0gJEFydGlmYWN0UGF0aCkuTGVuZ3RoCiAgICAgIH0KICAgIH0KICB9Cn0gfCBDb252ZXJ0VG8tSnNvbiAtRGVwdGggMTIKCiRVcGRhdGVyID0gQHsKICB2ZXJzaW9uID0gJFZlcnNpb24KICBub3RlcyA9ICRSZWxlYXNlTm90ZXMKICBwdWJfZGF0ZSA9ICRQdWJsaXNoZWRBdAogIHNpZ25hdHVyZV9wb2xpY3kgPSAkU2lnbmF0dXJlUG9saWN5LlRvTG93ZXJJbnZhcmlhbnQoKQogIHBsYXRmb3JtcyA9IEB7CiAgICAid2luZG93cy14ODZfNjQiID0gQHsKICAgICAgdXJsID0gJFVybAogICAgICBzaGEyNTYgPSAkU2hhMjU2CiAgICAgIHNpemUgPSAoR2V0LUl0ZW0gJEFydGlmYWN0UGF0aCkuTGVuZ3RoCiAgICB9CiAgfQp9IHwgQ29udmVydFRvLUpzb24gLURlcHRoIDEyCgpbU3lzdGVtLklPLkZpbGVdOjpXcml0ZUFsbFRleHQoCiAgKEpvaW4tUGF0aCAkT3V0cHV0RGlyZWN0b3J5ICJmbi1rbm9jay0kVmVyc2lvbi13aW5kb3dzLXg4Nl82NC0kKCRTaWduYXR1cmVQb2xpY3kuVG9Mb3dlckludmFyaWFudCgpKS1yZWxlYXNlLmpzb24iKSwKICAiJFJlbGVhc2VgbiIsCiAgW1N5c3RlbS5UZXh0LlVURjhFbmNvZGluZ106Om5ldygkZmFsc2UpCikKW1N5c3RlbS5JTy5GaWxlXTo6V3JpdGVBbGxUZXh0KAogIChKb2luLVBhdGggJE91dHB1dERpcmVjdG9yeSAiZm4ta25vY2stJFZlcnNpb24td2luZG93cy14ODZfNjQtJCgkU2lnbmF0dXJlUG9saWN5LlRvTG93ZXJJbnZhcmlhbnQoKSktdXBkYXRlci5qc29uIiksCiAgIiRVcGRhdGVyYG4iLAogIFtTeXN0ZW0uVGV4dC5VVEY4RW5jb2RpbmddOjpuZXcoJGZhbHNlKQopCgpXcml0ZS1Ib3N0ICJGaW5hbGl6ZWQgV2luZG93cyByZWxlYXNlIGFydGlmYWN0cyBpbiAkT3V0cHV0RGlyZWN0b3J5Igo=
+[CmdletBinding()]
+param(
+  [Parameter(Mandatory = $true)]
+  [string]$SetupPath,
+  [string]$OutputDirectory = "",
+  [string]$ReleaseNotesPath = "",
+  [ValidateSet("Signed", "Unsigned")]
+  [string]$SignaturePolicy = "Unsigned",
+  [string]$ReleaseBaseUrl = ""
+)
+
+$ErrorActionPreference = "Stop"
+Set-StrictMode -Version Latest
+. (Join-Path $PSScriptRoot "fn-knock-control-api.ps1")
+
+function Assert-WindowsInstaller([string]$Path, [string]$Policy) {
+  $item = Get-Item -LiteralPath $Path
+  if ($item.Length -lt 64) {
+    throw "Windows installer is too small to contain a valid PE header: $Path"
+  }
+
+  $stream = [System.IO.File]::OpenRead($item.FullName)
+  try {
+    $dosHeader = [byte[]]::new(64)
+    if ($stream.Read($dosHeader, 0, $dosHeader.Length) -ne $dosHeader.Length -or
+        $dosHeader[0] -ne [byte][char]'M' -or $dosHeader[1] -ne [byte][char]'Z') {
+      throw "Windows installer does not have a valid MZ header: $Path"
+    }
+    $peOffset = [BitConverter]::ToUInt32($dosHeader, 0x3c)
+    if ([uint64]$peOffset + 4 -gt [uint64]$item.Length) {
+      throw "Windows installer PE header is outside the file: $Path"
+    }
+    $stream.Position = $peOffset
+    $peSignature = [byte[]]::new(4)
+    if ($stream.Read($peSignature, 0, $peSignature.Length) -ne $peSignature.Length -or
+        $peSignature[0] -ne [byte][char]'P' -or $peSignature[1] -ne [byte][char]'E' -or
+        $peSignature[2] -ne 0 -or $peSignature[3] -ne 0) {
+      throw "Windows installer does not have a valid PE signature: $Path"
+    }
+  } finally {
+    $stream.Dispose()
+  }
+
+  if ($Policy -eq "Signed") {
+    $signature = Get-AuthenticodeSignature -LiteralPath $item.FullName
+    if ($signature.Status -ne "Valid") {
+      throw "Windows installer Authenticode signature is invalid: $($signature.Status) ($Path)"
+    }
+  }
+}
+
+$Root = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
+$VersionDocument = Get-Content -Raw (Join-Path $Root "version.json") | ConvertFrom-Json
+$Version = [string]$VersionDocument.version
+$ControlApiVersion = Get-FnKnockControlApiVersion -Root $Root
+$BundleIdentityPath = Join-Path $Root "apps\fn-knock-desktop\bundle\windows\runtime\bundle.json"
+$BundleIdentity = Get-Content -Raw $BundleIdentityPath | ConvertFrom-Json
+if ([string]$BundleIdentity.version -ne $Version) {
+  throw "Staged bundle identity does not match release version $Version"
+}
+foreach ($property in @("commit", "gateway_commit")) {
+  $value = [string]$BundleIdentity.$property
+  if ($value -notmatch '^[0-9a-fA-F]{40}$') {
+    throw "Staged bundle identity has an invalid or missing $property"
+  }
+}
+if ([uint64]$BundleIdentity.control_api_version -ne $ControlApiVersion) {
+  throw "Staged bundle identity has an invalid or missing control_api_version"
+}
+$SetupPath = (Resolve-Path $SetupPath).Path
+if (-not $OutputDirectory) {
+  $OutputDirectory = Join-Path $Root "dist\fn-knock-artifacts\windows\x86_64"
+}
+New-Item -ItemType Directory -Force $OutputDirectory | Out-Null
+
+if ($SignaturePolicy -eq "Unsigned") {
+  $ArtifactName = "fn-knock-$Version-windows-x86_64-unsigned-setup.exe"
+} else {
+  $ArtifactName = "fn-knock-$Version-windows-x86_64-setup.exe"
+}
+$ArtifactPath = Join-Path $OutputDirectory $ArtifactName
+Copy-Item -Force $SetupPath $ArtifactPath
+Assert-WindowsInstaller $ArtifactPath $SignaturePolicy
+
+$Sha256 = (Get-FileHash -Algorithm SHA256 $ArtifactPath).Hash.ToLowerInvariant()
+$ShaPath = "$ArtifactPath.sha256"
+[System.IO.File]::WriteAllText(
+  $ShaPath,
+  "$Sha256  $ArtifactName`n",
+  [System.Text.UTF8Encoding]::new($false)
+)
+
+if (-not $ReleaseBaseUrl) {
+  $ReleaseBaseUrl = "https://github.com/kci-lnk/fn-knock-turborepo/releases/download/v$Version"
+}
+$Url = "$($ReleaseBaseUrl.TrimEnd('/'))/$ArtifactName"
+$PublishedAt = [DateTimeOffset]::UtcNow.ToString("o")
+$ReleaseChannel = if ($env:FN_KNOCK_RELEASE_CHANNEL) {
+  [string]$env:FN_KNOCK_RELEASE_CHANNEL
+} else {
+  "stable"
+}
+if (-not $ReleaseNotesPath) {
+  $ReleaseNotesPath = Join-Path $Root "release-notes\$Version.md"
+}
+if (-not (Test-Path -LiteralPath $ReleaseNotesPath -PathType Leaf)) {
+  throw "Windows release notes are required: $ReleaseNotesPath"
+}
+$ReleaseNotes = (Get-Content -Raw -LiteralPath $ReleaseNotesPath).Trim()
+if ([string]::IsNullOrWhiteSpace($ReleaseNotes)) {
+  throw "Windows release notes must not be empty"
+}
+
+$Release = @{
+  version = $Version
+  commit = [string]$BundleIdentity.commit
+  gateway_commit = [string]$BundleIdentity.gateway_commit
+  control_api_version = $ControlApiVersion
+  runtime_target = "windows"
+  architecture = "x86_64"
+  channel = $ReleaseChannel
+  signature_policy = $SignaturePolicy.ToLowerInvariant()
+  published_at = $PublishedAt
+  release_notes = $ReleaseNotes
+  file_name = $ArtifactName
+  sha256 = $Sha256
+  size = (Get-Item $ArtifactPath).Length
+  packages = @{
+    windows = @{
+      x86_64 = @{
+        url = $Url
+        sha256 = $Sha256
+        size = (Get-Item $ArtifactPath).Length
+      }
+    }
+  }
+} | ConvertTo-Json -Depth 12
+
+$Updater = @{
+  version = $Version
+  notes = $ReleaseNotes
+  pub_date = $PublishedAt
+  signature_policy = $SignaturePolicy.ToLowerInvariant()
+  platforms = @{
+    "windows-x86_64" = @{
+      url = $Url
+      sha256 = $Sha256
+      size = (Get-Item $ArtifactPath).Length
+    }
+  }
+} | ConvertTo-Json -Depth 12
+
+[System.IO.File]::WriteAllText(
+  (Join-Path $OutputDirectory "fn-knock-$Version-windows-x86_64-$($SignaturePolicy.ToLowerInvariant())-release.json"),
+  "$Release`n",
+  [System.Text.UTF8Encoding]::new($false)
+)
+[System.IO.File]::WriteAllText(
+  (Join-Path $OutputDirectory "fn-knock-$Version-windows-x86_64-$($SignaturePolicy.ToLowerInvariant())-updater.json"),
+  "$Updater`n",
+  [System.Text.UTF8Encoding]::new($false)
+)
+
+Write-Host "Finalized Windows release artifacts in $OutputDirectory"

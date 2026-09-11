@@ -1,1 +1,125 @@
-aW1wb3J0IHsgb25Vbm1vdW50ZWQsIHJlZiwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VNZWRpYVF1ZXJ5TWF0Y2ggfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZU1lZGlhUXVlcnlNYXRjaCI7CgpleHBvcnQgY29uc3QgdXNlSG9zdFRyYWZmaWNPdmVybGF5SW50ZXJhY3Rpb24gPSAoKSA9PiB7CiAgY29uc3Qgb3BlbiA9IHJlZihmYWxzZSk7CiAgY29uc3QgZGlhbG9nT3BlbiA9IHJlZihmYWxzZSk7CiAgY29uc3QgaXNUb3VjaEludGVyYWN0aW9uID0gdXNlTWVkaWFRdWVyeU1hdGNoKAogICAgIihob3Zlcjogbm9uZSksIChwb2ludGVyOiBjb2Fyc2UpLCAobWF4LXdpZHRoOiA3NjdweCkiLAogICk7CiAgY29uc3QgbGFzdFRyaWdnZXJQb2ludGVyVHlwZSA9IHJlZjxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBzdXBwcmVzc05leHRGb2N1c09wZW4gPSByZWYoZmFsc2UpOwogIGxldCBjbG9zZVRpbWVyOiBudW1iZXIgfCBudWxsID0gbnVsbDsKCiAgY29uc3QgY2xlYXJDbG9zZVRpbWVyID0gKCkgPT4gewogICAgaWYgKGNsb3NlVGltZXIgPT09IG51bGwpIHJldHVybjsKICAgIHdpbmRvdy5jbGVhclRpbWVvdXQoY2xvc2VUaW1lcik7CiAgICBjbG9zZVRpbWVyID0gbnVsbDsKICB9OwoKICBjb25zdCBvcGVuUGFuZWwgPSAoKSA9PiB7CiAgICBpZiAoaXNUb3VjaEludGVyYWN0aW9uLnZhbHVlKSByZXR1cm47CiAgICBjbGVhckNsb3NlVGltZXIoKTsKICAgIG9wZW4udmFsdWUgPSB0cnVlOwogIH07CgogIGNvbnN0IHNjaGVkdWxlQ2xvc2VQYW5lbCA9ICgpID0+IHsKICAgIGlmIChpc1RvdWNoSW50ZXJhY3Rpb24udmFsdWUpIHJldHVybjsKICAgIGNsZWFyQ2xvc2VUaW1lcigpOwogICAgY2xvc2VUaW1lciA9IHdpbmRvdy5zZXRUaW1lb3V0KCgpID0+IHsKICAgICAgb3Blbi52YWx1ZSA9IGZhbHNlOwogICAgICBjbG9zZVRpbWVyID0gbnVsbDsKICAgIH0sIDE0MCk7CiAgfTsKCiAgY29uc3QgaGFuZGxlT3BlbkNoYW5nZSA9IChuZXh0T3BlbjogYm9vbGVhbikgPT4gewogICAgY2xlYXJDbG9zZVRpbWVyKCk7CiAgICBvcGVuLnZhbHVlID0gaXNUb3VjaEludGVyYWN0aW9uLnZhbHVlID8gZmFsc2UgOiBuZXh0T3BlbjsKICB9OwoKICBjb25zdCBoYW5kbGVUcmlnZ2VyUG9pbnRlckRvd24gPSAoZXZlbnQ6IFBvaW50ZXJFdmVudCkgPT4gewogICAgbGFzdFRyaWdnZXJQb2ludGVyVHlwZS52YWx1ZSA9IGV2ZW50LnBvaW50ZXJUeXBlOwogICAgaWYgKGV2ZW50LnBvaW50ZXJUeXBlID09PSAibW91c2UiKSByZXR1cm47CiAgICBzdXBwcmVzc05leHRGb2N1c09wZW4udmFsdWUgPSB0cnVlOwogICAgY2xlYXJDbG9zZVRpbWVyKCk7CiAgICBvcGVuLnZhbHVlID0gZmFsc2U7CiAgfTsKCiAgY29uc3QgaGFuZGxlVHJpZ2dlclBvaW50ZXJFbnRlciA9IChldmVudDogUG9pbnRlckV2ZW50KSA9PiB7CiAgICBpZiAoZXZlbnQucG9pbnRlclR5cGUgPT09ICJtb3VzZSIpIG9wZW5QYW5lbCgpOwogIH07CgogIGNvbnN0IGhhbmRsZVRyaWdnZXJQb2ludGVyTGVhdmUgPSAoZXZlbnQ6IFBvaW50ZXJFdmVudCkgPT4gewogICAgaWYgKGV2ZW50LnBvaW50ZXJUeXBlID09PSAibW91c2UiKSBzY2hlZHVsZUNsb3NlUGFuZWwoKTsKICB9OwoKICBjb25zdCBoYW5kbGVUcmlnZ2VyRm9jdXMgPSAoKSA9PiB7CiAgICBpZiAoIXN1cHByZXNzTmV4dEZvY3VzT3Blbi52YWx1ZSkgb3BlblBhbmVsKCk7CiAgfTsKCiAgY29uc3QgaGFuZGxlVHJpZ2dlckJsdXIgPSAoKSA9PiB7CiAgICBzdXBwcmVzc05leHRGb2N1c09wZW4udmFsdWUgPSBmYWxzZTsKICAgIHNjaGVkdWxlQ2xvc2VQYW5lbCgpOwogIH07CgogIGNvbnN0IGhhbmRsZVRyaWdnZXJDbGljayA9ICgpID0+IHsKICAgIGlmICgKICAgICAgaXNUb3VjaEludGVyYWN0aW9uLnZhbHVlIHx8CiAgICAgIChsYXN0VHJpZ2dlclBvaW50ZXJUeXBlLnZhbHVlICE9PSBudWxsICYmCiAgICAgICAgbGFzdFRyaWdnZXJQb2ludGVyVHlwZS52YWx1ZSAhPT0gIm1vdXNlIikKICAgICkgewogICAgICBjbGVhckNsb3NlVGltZXIoKTsKICAgICAgb3Blbi52YWx1ZSA9IGZhbHNlOwogICAgICBkaWFsb2dPcGVuLnZhbHVlID0gdHJ1ZTsKICAgICAgc3VwcHJlc3NOZXh0Rm9jdXNPcGVuLnZhbHVlID0gZmFsc2U7CiAgICAgIGxhc3RUcmlnZ2VyUG9pbnRlclR5cGUudmFsdWUgPSBudWxsOwogICAgICByZXR1cm47CiAgICB9CiAgICBvcGVuUGFuZWwoKTsKICB9OwoKICBjb25zdCBoYW5kbGVEaWFsb2dPcGVuQ2hhbmdlID0gKG5leHRPcGVuOiBib29sZWFuKSA9PiB7CiAgICBkaWFsb2dPcGVuLnZhbHVlID0gbmV4dE9wZW47CiAgICBpZiAoIW5leHRPcGVuKSByZXR1cm47CiAgICBjbGVhckNsb3NlVGltZXIoKTsKICAgIG9wZW4udmFsdWUgPSBmYWxzZTsKICB9OwoKICBjb25zdCBjbG9zZU92ZXJsYXlzID0gKCkgPT4gewogICAgY2xlYXJDbG9zZVRpbWVyKCk7CiAgICBvcGVuLnZhbHVlID0gZmFsc2U7CiAgICBkaWFsb2dPcGVuLnZhbHVlID0gZmFsc2U7CiAgfTsKCiAgd2F0Y2goCiAgICBpc1RvdWNoSW50ZXJhY3Rpb24sCiAgICAoaXNUb3VjaCkgPT4gewogICAgICBpZiAoaXNUb3VjaCkgewogICAgICAgIG9wZW4udmFsdWUgPSBmYWxzZTsKICAgICAgICBjbGVhckNsb3NlVGltZXIoKTsKICAgICAgfSBlbHNlIHsKICAgICAgICBkaWFsb2dPcGVuLnZhbHVlID0gZmFsc2U7CiAgICAgIH0KICAgIH0sCiAgICB7IGltbWVkaWF0ZTogdHJ1ZSB9LAogICk7CgogIG9uVW5tb3VudGVkKGNsZWFyQ2xvc2VUaW1lcik7CgogIHJldHVybiB7CiAgICBjbG9zZU92ZXJsYXlzLAogICAgZGlhbG9nT3BlbiwKICAgIGhhbmRsZUNvbnRlbnRQb2ludGVyRW50ZXI6IGhhbmRsZVRyaWdnZXJQb2ludGVyRW50ZXIsCiAgICBoYW5kbGVDb250ZW50UG9pbnRlckxlYXZlOiBoYW5kbGVUcmlnZ2VyUG9pbnRlckxlYXZlLAogICAgaGFuZGxlRGlhbG9nT3BlbkNoYW5nZSwKICAgIGhhbmRsZU9wZW5DaGFuZ2UsCiAgICBoYW5kbGVUcmlnZ2VyQmx1ciwKICAgIGhhbmRsZVRyaWdnZXJDbGljaywKICAgIGhhbmRsZVRyaWdnZXJGb2N1cywKICAgIGhhbmRsZVRyaWdnZXJQb2ludGVyRG93biwKICAgIGhhbmRsZVRyaWdnZXJQb2ludGVyRW50ZXIsCiAgICBoYW5kbGVUcmlnZ2VyUG9pbnRlckxlYXZlLAogICAgaXNUb3VjaEludGVyYWN0aW9uLAogICAgb3BlbiwKICB9Owp9Owo=
+import { onUnmounted, ref, watch } from "vue";
+import { useMediaQueryMatch } from "@admin-shared/composables/useMediaQueryMatch";
+
+export const useHostTrafficOverlayInteraction = () => {
+  const open = ref(false);
+  const dialogOpen = ref(false);
+  const isTouchInteraction = useMediaQueryMatch(
+    "(hover: none), (pointer: coarse), (max-width: 767px)",
+  );
+  const lastTriggerPointerType = ref<string | null>(null);
+  const suppressNextFocusOpen = ref(false);
+  let closeTimer: number | null = null;
+
+  const clearCloseTimer = () => {
+    if (closeTimer === null) return;
+    window.clearTimeout(closeTimer);
+    closeTimer = null;
+  };
+
+  const openPanel = () => {
+    if (isTouchInteraction.value) return;
+    clearCloseTimer();
+    open.value = true;
+  };
+
+  const scheduleClosePanel = () => {
+    if (isTouchInteraction.value) return;
+    clearCloseTimer();
+    closeTimer = window.setTimeout(() => {
+      open.value = false;
+      closeTimer = null;
+    }, 140);
+  };
+
+  const handleOpenChange = (nextOpen: boolean) => {
+    clearCloseTimer();
+    open.value = isTouchInteraction.value ? false : nextOpen;
+  };
+
+  const handleTriggerPointerDown = (event: PointerEvent) => {
+    lastTriggerPointerType.value = event.pointerType;
+    if (event.pointerType === "mouse") return;
+    suppressNextFocusOpen.value = true;
+    clearCloseTimer();
+    open.value = false;
+  };
+
+  const handleTriggerPointerEnter = (event: PointerEvent) => {
+    if (event.pointerType === "mouse") openPanel();
+  };
+
+  const handleTriggerPointerLeave = (event: PointerEvent) => {
+    if (event.pointerType === "mouse") scheduleClosePanel();
+  };
+
+  const handleTriggerFocus = () => {
+    if (!suppressNextFocusOpen.value) openPanel();
+  };
+
+  const handleTriggerBlur = () => {
+    suppressNextFocusOpen.value = false;
+    scheduleClosePanel();
+  };
+
+  const handleTriggerClick = () => {
+    if (
+      isTouchInteraction.value ||
+      (lastTriggerPointerType.value !== null &&
+        lastTriggerPointerType.value !== "mouse")
+    ) {
+      clearCloseTimer();
+      open.value = false;
+      dialogOpen.value = true;
+      suppressNextFocusOpen.value = false;
+      lastTriggerPointerType.value = null;
+      return;
+    }
+    openPanel();
+  };
+
+  const handleDialogOpenChange = (nextOpen: boolean) => {
+    dialogOpen.value = nextOpen;
+    if (!nextOpen) return;
+    clearCloseTimer();
+    open.value = false;
+  };
+
+  const closeOverlays = () => {
+    clearCloseTimer();
+    open.value = false;
+    dialogOpen.value = false;
+  };
+
+  watch(
+    isTouchInteraction,
+    (isTouch) => {
+      if (isTouch) {
+        open.value = false;
+        clearCloseTimer();
+      } else {
+        dialogOpen.value = false;
+      }
+    },
+    { immediate: true },
+  );
+
+  onUnmounted(clearCloseTimer);
+
+  return {
+    closeOverlays,
+    dialogOpen,
+    handleContentPointerEnter: handleTriggerPointerEnter,
+    handleContentPointerLeave: handleTriggerPointerLeave,
+    handleDialogOpenChange,
+    handleOpenChange,
+    handleTriggerBlur,
+    handleTriggerClick,
+    handleTriggerFocus,
+    handleTriggerPointerDown,
+    handleTriggerPointerEnter,
+    handleTriggerPointerLeave,
+    isTouchInteraction,
+    open,
+  };
+};

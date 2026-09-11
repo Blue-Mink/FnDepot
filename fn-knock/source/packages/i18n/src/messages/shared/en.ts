@@ -1,1 +1,122 @@
-ZXhwb3J0IGNvbnN0IGVuU2hhcmVkID0gewogIGJpbmFyeURvd25sb2FkOiB7CiAgICBjdXJyZW50UGxhdGZvcm06ICJDdXJyZW50IHBsYXRmb3JtIiwKICAgIHN1cHBvcnRlZDogIlN1cHBvcnRlZCIsCiAgICB1bnN1cHBvcnRlZDogIlVuc3VwcG9ydGVkIiwKICAgIHJlc291cmNlU3RhdHVzOiAiUmVzb3VyY2Ugc3RhdHVzIiwKICAgIHJlYWR5TGFiZWw6ICJSZWFkeSIsCiAgICBwZW5kaW5nTGFiZWw6ICJOb3QgcmVhZHkiLAogICAgZG93bmxvYWRQcm9ncmVzczogIkRvd25sb2FkIHByb2dyZXNzIiwKICAgIGVycm9yUHJlZml4OiAiRXJyb3I6ICIsCiAgICBkb3dubG9hZEJ1dHRvbjogIkRvd25sb2FkIHJlc291cmNlIiwKICAgIHJlZG93bmxvYWQ6ICJEb3dubG9hZCBhZ2FpbiIsCiAgICByZWRvd25sb2FkQ29uZmlybVRpdGxlOiAiRG93bmxvYWQgdGhpcyByZXNvdXJjZSBhZ2Fpbj8iLAogICAgcmVkb3dubG9hZENvbmZpcm1EZXNjcmlwdGlvbjogIlRoaXMgb3ZlcndyaXRlcyB0aGUgZXhpc3RpbmcgZmlsZS4iLAogICAgY29uZmlybVJlZG93bmxvYWQ6ICJEb3dubG9hZCBhZ2FpbiIsCiAgICBkZWxldGU6ICJEZWxldGUiLAogICAgZGVsZXRlQ29uZmlybVRpdGxlOiAiRGVsZXRlIHRoaXMgcmVzb3VyY2U/IiwKICAgIGRlbGV0ZUNvbmZpcm1EZXNjcmlwdGlvbjogIllvdSBtdXN0IGRvd25sb2FkIGl0IGFnYWluIGJlZm9yZSB1c2UuIiwKICAgIGNvbmZpcm1EZWxldGU6ICJEZWxldGUiLAogICAgZG93bmxvYWRpbmc6ICJEb3dubG9hZGluZywgcGxlYXNlIHdhaXQuLi4iLAogICAgY2FuY2VsVGFzazogIkNhbmNlbCB0YXNrIiwKICB9LAogIGRhdGFTaGFyZUZpbGVQaWNrZXI6IHsKICAgIHRpdGxlOiAiQ2hvb3NlIGEgZmlsZSBmcm9tIEZOT1MiLAogICAgZGVzY3JpcHRpb246ICJDaG9vc2UgYSByZWFkYWJsZSBmaWxlIGZyb20gdGhlIGFwcGxpY2F0aW9uIHJvb3QgZGlyZWN0b3J5LiIsCiAgICBkaXJlY3RvcnlMYWJlbDogIkFwcGxpY2F0aW9uIGZpbGVzIiwKICAgIGFsZXJ0VGl0bGU6ICJGYWlsZWQgdG8gcmVhZCBkaXJlY3RvcnkiLAogICAgdW5hdmFpbGFibGVEZXNjcmlwdGlvbjoKICAgICAgIlRoZSBkaXJlY3RvcnkgaXMgbm90IGFjY2Vzc2libGUgeWV0LiBDb25maXJtIHRoZSBhcHAgaXMgaW5zdGFsbGVkIGFuZCB0aGUgc2hhcmVkIGRpcmVjdG9yeSBoYXMgYmVlbiBjcmVhdGVkLiIsCiAgICBjb25maXJtVGV4dDogIlVzZSB0aGlzIGZpbGUiLAogICAgYXZhaWxhYmxlRGVzY3JpcHRpb246ICJ7Y291bnR9IGF2YWlsYWJsZSBmaWxlcyBmb3VuZCIsCiAgICBub01hdGNoZWRGaWxlczogIk5vIG1hdGNoaW5nIGZpbGVzIiwKICAgIG5vTWF0Y2hlZERlc2NyaXB0aW9uOiAiVHJ5IGFub3RoZXIga2V5d29yZCBvciByZWZyZXNoIHRoZSBkaXJlY3RvcnkgbGlzdC4iLAogICAgZW1wdHlUaXRsZTogIk5vIGF2YWlsYWJsZSBmaWxlcyBpbiB0aGUgc2hhcmVkIGRpcmVjdG9yeSIsCiAgICBlbXB0eURlc2NyaXB0aW9uOgogICAgICAiTm8gbWF0Y2hpbmcgZmlsZXMgYXJlIGluIHRoaXMgZGlyZWN0b3J5LiBBZGQgc3VwcG9ydGVkIGZpbGUgdHlwZXMsIHRoZW4gY2hvb3NlIGFnYWluLiIsCiAgICBub0V4dGVuc2lvbjogIk5vIGV4dGVuc2lvbiIsCiAgfSwKICBjZXJ0U291cmNlRmllbGQ6IHsKICAgIHVwbG9hZEZyb21QaG9uZTogIlVwbG9hZCBmcm9tIHBob25lIiwKICAgIHVwbG9hZEZyb21Db21wdXRlcjogIlVwbG9hZCBmcm9tIGNvbXB1dGVyIiwKICAgIHVwbG9hZEZpbGU6ICJVcGxvYWQgZmlsZSIsCiAgICBjaG9vc2VTb3VyY2VUaXRsZTogIkNob29zZSBmaWxlIHNvdXJjZSIsCiAgICBjaG9vc2VTb3VyY2VEZXNjcmlwdGlvbjoKICAgICAgIkNob29zZSBhbiBpbXBvcnQgbWV0aG9kLCB0aGVuIHJlYWQgdGhlIHtsYWJlbH0gZmlsZS4iLAogICAgbG9jYWxGaWxlRGVzY3JpcHRpb246CiAgICAgICJDaG9vc2UgYSB7dHlwZXN9IGZpbGUgZnJvbSB0aGlzIGRldmljZSBhbmQgcmVhZCBpdCBhdXRvbWF0aWNhbGx5IiwKICAgIGNob29zZUZyb21Gbm9zOiAiQ2hvb3NlIGZyb20gRk5PUyIsCiAgICBzaGFyZWRGaWxlRGVzY3JpcHRpb246CiAgICAgICJSZWFkIGV4aXN0aW5nIGZpbGVzIGZyb20gdGhlIHtzaGFyZU5hbWV9IHJvb3QgZGlyZWN0b3J5LCB1cCB0byB0aHJlZSBsZXZlbHMgZGVlcCIsCiAgICBwaWNrZXJUaXRsZTogIkNob29zZSB7bGFiZWx9IGZyb20gRk5PUyIsCiAgICBwaWNrZXJEZXNjcmlwdGlvbjoKICAgICAgIk1vdmUgdGhlIGNlcnRpZmljYXRlIGZpbGUgaW50byBBcHBsaWNhdGlvbiBkYXRhIC0+IGZuLWtub2NrIGZpcnN0IiwKICAgIHJlYWRGaWxlOiAiUmVhZCB0aGlzIGZpbGUiLAogIH0sCiAgbG9nVmlld2VyOiB7CiAgICB0aXRsZTogIlJ1bnRpbWUgbG9ncyIsCiAgICBlbXB0eVRleHQ6ICJObyBsb2dzIHlldCIsCiAgICBsaW5lQ291bnQ6ICJ7Y291bnR9IGxpbmVzIiwKICB9LAogIGRldGFpbERpYWxvZzogewogICAgY2xvc2U6ICJDbG9zZSIsCiAgICBjb3B5TG9nOiAiQ29weSBsb2dzIiwKICAgIGNvcHlTdWNjZXNzOiAiTG9ncyBjb3BpZWQiLAogICAgY29weVVudmVyaWZpZWQ6ICJUcmllZCB0byBjb3B5IGxvZ3MiLAogICAgY29weVVudmVyaWZpZWREZXNjcmlwdGlvbjogIkxvZ3MgY29waWVkIiwKICAgIGNvcHlGYWlsZWQ6ICJGYWlsZWQgdG8gY29weSBsb2dzIiwKICAgIG1hbnVhbENvcHlIaW50OgogICAgICAiVGhpcyBwYWdlIG1heSBiZSBydW5uaW5nIGluIGEgcmVzdHJpY3RlZCBlbnZpcm9ubWVudC4gQ29weSBtYW51YWxseS4iLAogIH0sCiAgaW5saW5lQ29tbWVudEVkaXRvcjogewogICAgcGxhY2Vob2xkZXI6ICJFbnRlciBhIGNvbW1lbnQuLi4iLAogICAgZWRpdDogIkVkaXQgY29tbWVudCIsCiAgICBzYXZlOiAiU2F2ZSBjb21tZW50IiwKICAgIGNhbmNlbDogIkNhbmNlbCBlZGl0aW5nIiwKICAgIHJlcXVpcmVkOiAiQ29tbWVudCBuYW1lIGNhbm5vdCBiZSBlbXB0eSIsCiAgICB1cGRhdGVGYWlsZWQ6ICJGYWlsZWQgdG8gdXBkYXRlIGNvbW1lbnQiLAogIH0sCiAgZGVmYXVsdFJvdXRlQ29uZmlybTogewogICAgY2xlYXJUaXRsZTogIkNsZWFyIHRoZSBkZWZhdWx0IHJvdXRlPyIsCiAgICBzZXRUaXRsZTogIlNldCB0aGUgZGVmYXVsdCByb3V0ZT8iLAogICAgY2xlYXJGbm9zRGVzY3JpcHRpb246CiAgICAgICJZb3UgYXJlIGNsZWFyaW5nIHRoZSBkZWZhdWx0IHJvdXRlIGZvciB0aGUgc2VydmljZSBvbiBwb3J0IHtwb3J0fS4gVGhpcyBtYXkgYWZmZWN0IHRoZSBkZWZhdWx0IEZOT1MgZW50cnkuIiwKICAgIGNsZWFyRGVzY3JpcHRpb246CiAgICAgICJBZnRlciBjbGVhcmluZyBpdCwgdGhlcmUgd2lsbCBiZSBubyBkZWZhdWx0IHJvdXRlLiBSZXF1ZXN0cyB0aGF0IGRvIG5vdCBtYXRjaCBhIHBhdGggbWF5IG5vdCBmb3J3YXJkIGFzIGV4cGVjdGVkLiIsCiAgICBzZXREZXNjcmlwdGlvbjoKICAgICAgIlRoZSBjdXJyZW50IGRlZmF1bHQgcm91dGUgcG9pbnRzIHRvIHRoZSBzZXJ2aWNlIG9uIHBvcnQge3BvcnR9LiBTd2l0Y2hpbmcgdG8gYW5vdGhlciByb3V0ZSBtYXkgYWZmZWN0IHRoZSBkZWZhdWx0IEZOT1MgZW50cnkuIiwKICB9LAogIGNlcnRGb3JtOiB7CiAgICBzc2xDZXJ0OiAiU1NMIGNlcnRpZmljYXRlIiwKICAgIHByaXZhdGVLZXk6ICJQcml2YXRlIGtleSIsCiAgfSwKICBwYWdlZFRhYmxlRm9vdGVyOiB7CiAgICB0b3RhbDogInt0b3RhbH0ge2l0ZW1UZXh0fSIsCiAgICByZWNvcmRzOiAicmVjb3JkcyIsCiAgICBwYWdlU2l6ZU9wdGlvbjogIntjb3VudH0gcm93cyIsCiAgfSwKICBkbnNDcmVkZW50aWFsQnJpZGdlOiB7CiAgICBwcm92aWRlcnM6IHsKICAgICAgY2xvdWRmbGFyZTogIkNsb3VkZmxhcmUiLAogICAgICBhbGlkbnM6ICJBbGliYWJhIENsb3VkIEROUyIsCiAgICAgIGRuc3BvZDogIkROU1BvZCIsCiAgICAgIHRlbmNlbnRjbG91ZDogIlRlbmNlbnQgQ2xvdWQgRE5TIiwKICAgICAgZWRnZW9uZTogIlRlbmNlbnQgQ2xvdWQgRWRnZU9uZSIsCiAgICAgIGVkZ2VvbmVDbmFtZTogIlRlbmNlbnQgQ2xvdWQgRWRnZU9uZSAoQ05BTUUgYWNjZXNzKSIsCiAgICAgIGdvZGFkZHk6ICJHb0RhZGR5IiwKICAgICAgcG9ya2J1bjogIlBvcmtidW4iLAogICAgICBkeW52NjogImR5bnY2IiwKICAgICAgZHVja2RuczogIkR1Y2tETlMiLAogICAgfSwKICB9LAogIHByb3h5VGFyZ2V0SW5wdXRGaWVsZDogewogICAgaGludDogIkNob29zZSB0aGUgcHJvdG9jb2wgb24gdGhlIGxlZnQsIHRoZW4gZW50ZXIgdGhlIElQIGFuZCBwb3J0IG9uIHRoZSByaWdodC4gSWYgdGhlIHBvcnQgaXMgb21pdHRlZCwgaXQgaXMgZmlsbGVkIGZyb20gdGhlIHByb3RvY29sIGRlZmF1bHQgb24gYmx1ci4iLAogICAgc3VnZ2VzdGlvbnNMYWJlbDogIlRhcmdldCBhZGRyZXNzIHN1Z2dlc3Rpb25zIiwKICB9LAogIGNvbmZpZ0NvbGxhcHNpYmxlQ2FyZDogewogICAgZWRpdENvbmZpZzogIkVkaXQgY29uZmlnIiwKICB9LAogIHN0cmVhbVByb3RvY29sTXVsdGlTZWxlY3Q6IHsKICAgIGFyaWFMYWJlbDogIlRyYW5zcG9ydCBwcm90b2NvbCIsCiAgfSwKfTsK
+export const enShared = {
+  binaryDownload: {
+    currentPlatform: "Current platform",
+    supported: "Supported",
+    unsupported: "Unsupported",
+    resourceStatus: "Resource status",
+    readyLabel: "Ready",
+    pendingLabel: "Not ready",
+    downloadProgress: "Download progress",
+    errorPrefix: "Error: ",
+    downloadButton: "Download resource",
+    redownload: "Download again",
+    redownloadConfirmTitle: "Download this resource again?",
+    redownloadConfirmDescription: "This overwrites the existing file.",
+    confirmRedownload: "Download again",
+    delete: "Delete",
+    deleteConfirmTitle: "Delete this resource?",
+    deleteConfirmDescription: "You must download it again before use.",
+    confirmDelete: "Delete",
+    downloading: "Downloading, please wait...",
+    cancelTask: "Cancel task",
+  },
+  dataShareFilePicker: {
+    title: "Choose a file from FNOS",
+    description: "Choose a readable file from the application root directory.",
+    directoryLabel: "Application files",
+    alertTitle: "Failed to read directory",
+    unavailableDescription:
+      "The directory is not accessible yet. Confirm the app is installed and the shared directory has been created.",
+    confirmText: "Use this file",
+    availableDescription: "{count} available files found",
+    noMatchedFiles: "No matching files",
+    noMatchedDescription: "Try another keyword or refresh the directory list.",
+    emptyTitle: "No available files in the shared directory",
+    emptyDescription:
+      "No matching files are in this directory. Add supported file types, then choose again.",
+    noExtension: "No extension",
+  },
+  certSourceField: {
+    uploadFromPhone: "Upload from phone",
+    uploadFromComputer: "Upload from computer",
+    uploadFile: "Upload file",
+    chooseSourceTitle: "Choose file source",
+    chooseSourceDescription:
+      "Choose an import method, then read the {label} file.",
+    localFileDescription:
+      "Choose a {types} file from this device and read it automatically",
+    chooseFromFnos: "Choose from FNOS",
+    sharedFileDescription:
+      "Read existing files from the {shareName} root directory, up to three levels deep",
+    pickerTitle: "Choose {label} from FNOS",
+    pickerDescription:
+      "Move the certificate file into Application data -> fn-knock first",
+    readFile: "Read this file",
+  },
+  logViewer: {
+    title: "Runtime logs",
+    emptyText: "No logs yet",
+    lineCount: "{count} lines",
+  },
+  detailDialog: {
+    close: "Close",
+    copyLog: "Copy logs",
+    copySuccess: "Logs copied",
+    copyUnverified: "Tried to copy logs",
+    copyUnverifiedDescription: "Logs copied",
+    copyFailed: "Failed to copy logs",
+    manualCopyHint:
+      "This page may be running in a restricted environment. Copy manually.",
+  },
+  inlineCommentEditor: {
+    placeholder: "Enter a comment...",
+    edit: "Edit comment",
+    save: "Save comment",
+    cancel: "Cancel editing",
+    required: "Comment name cannot be empty",
+    updateFailed: "Failed to update comment",
+  },
+  defaultRouteConfirm: {
+    clearTitle: "Clear the default route?",
+    setTitle: "Set the default route?",
+    clearFnosDescription:
+      "You are clearing the default route for the service on port {port}. This may affect the default FNOS entry.",
+    clearDescription:
+      "After clearing it, there will be no default route. Requests that do not match a path may not forward as expected.",
+    setDescription:
+      "The current default route points to the service on port {port}. Switching to another route may affect the default FNOS entry.",
+  },
+  certForm: {
+    sslCert: "SSL certificate",
+    privateKey: "Private key",
+  },
+  pagedTableFooter: {
+    total: "{total} {itemText}",
+    records: "records",
+    pageSizeOption: "{count} rows",
+  },
+  dnsCredentialBridge: {
+    providers: {
+      cloudflare: "Cloudflare",
+      alidns: "Alibaba Cloud DNS",
+      dnspod: "DNSPod",
+      tencentcloud: "Tencent Cloud DNS",
+      edgeone: "Tencent Cloud EdgeOne",
+      edgeoneCname: "Tencent Cloud EdgeOne (CNAME access)",
+      godaddy: "GoDaddy",
+      porkbun: "Porkbun",
+      dynv6: "dynv6",
+      duckdns: "DuckDNS",
+    },
+  },
+  proxyTargetInputField: {
+    hint: "Choose the protocol on the left, then enter the IP and port on the right. If the port is omitted, it is filled from the protocol default on blur.",
+    suggestionsLabel: "Target address suggestions",
+  },
+  configCollapsibleCard: {
+    editConfig: "Edit config",
+  },
+  streamProtocolMultiSelect: {
+    ariaLabel: "Transport protocol",
+  },
+};

@@ -1,1 +1,262 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBkZWZpbmVBc3luY0NvbXBvbmVudCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHVzZVJvdXRlLCB1c2VSb3V0ZXIgfSBmcm9tICJ2dWUtcm91dGVyIjsKaW1wb3J0IHsgVGFicywgVGFic0NvbnRlbnQsIFRhYnNMaXN0LCBUYWJzVHJpZ2dlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJzIjsKaW1wb3J0IHsgdXNlU3luY2VkUXVlcnlUYWIgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZVN5bmNlZFF1ZXJ5VGFiIjsKaW1wb3J0IHsgdXNlQ29uZmlnU3RvcmUgfSBmcm9tICIuLi9zdG9yZS9jb25maWciOwppbXBvcnQgeyBpc0Nsb3VkZmxhcmVkVHVubmVsQXZhaWxhYmxlIH0gZnJvbSAiLi4vbGliL3JldmVyc2UtcHJveHktc3VibW9kZSI7Cgpjb25zdCBSdW5Nb2RlU2V0dGluZ3MgPSBkZWZpbmVBc3luY0NvbXBvbmVudCgKICAoKSA9PiBpbXBvcnQoIi4vc3lzdGVtLXNldHRpbmdzL1J1bk1vZGVTZXR0aW5ncy52dWUiKSwKKTsKY29uc3QgRnJwU2V0dGluZ3MgPSBkZWZpbmVBc3luY0NvbXBvbmVudCgKICAoKSA9PiBpbXBvcnQoIi4vc3lzdGVtLXNldHRpbmdzL0ZycFNldHRpbmdzLnZ1ZSIpLAopOwpjb25zdCBDbG91ZGZsYXJlZFNldHRpbmdzID0gZGVmaW5lQXN5bmNDb21wb25lbnQoCiAgKCkgPT4gaW1wb3J0KCIuL3N5c3RlbS1zZXR0aW5ncy9DbG91ZGZsYXJlZFNldHRpbmdzLnZ1ZSIpLAopOwpjb25zdCBBY21lU1NMID0gZGVmaW5lQXN5bmNDb21wb25lbnQoCiAgKCkgPT4gaW1wb3J0KCIuL3N5c3RlbS1zZXR0aW5ncy9BY21lU1NMLnZ1ZSIpLAopOwpjb25zdCBJcExvY2F0aW9uU2V0dGluZ3MgPSBkZWZpbmVBc3luY0NvbXBvbmVudCgKICAoKSA9PiBpbXBvcnQoIi4vc3lzdGVtLXNldHRpbmdzL0lwTG9jYXRpb25TZXR0aW5ncy52dWUiKSwKKTsKY29uc3QgU2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MgPSBkZWZpbmVBc3luY0NvbXBvbmVudCgKICAoKSA9PiBpbXBvcnQoIi4vc3lzdGVtLXNldHRpbmdzL1NjYW5uZXJGaXJld2FsbFNldHRpbmdzLnZ1ZSIpLAopOwpjb25zdCBGZWF0dXJlc1NldHRpbmdzID0gZGVmaW5lQXN5bmNDb21wb25lbnQoCiAgKCkgPT4gaW1wb3J0KCIuL3N5c3RlbS1zZXR0aW5ncy9GZWF0dXJlc1NldHRpbmdzLnZ1ZSIpLAopOwpjb25zdCBGbm9zU2V0dGluZ3MgPSBkZWZpbmVBc3luY0NvbXBvbmVudCgKICAoKSA9PiBpbXBvcnQoIi4vc3lzdGVtLXNldHRpbmdzL0Zub3NTZXR0aW5ncy52dWUiKSwKKTsKY29uc3QgQ2FwdGNoYVNldHRpbmdzID0gZGVmaW5lQXN5bmNDb21wb25lbnQoCiAgKCkgPT4gaW1wb3J0KCIuL3N5c3RlbS1zZXR0aW5ncy9DYXB0Y2hhU2V0dGluZ3MudnVlIiksCik7CmNvbnN0IEdhdGV3YXlMb2dnaW5nU2V0dGluZ3MgPSBkZWZpbmVBc3luY0NvbXBvbmVudCgKICAoKSA9PiBpbXBvcnQoIi4vc3lzdGVtLXNldHRpbmdzL0dhdGV3YXlMb2dnaW5nU2V0dGluZ3MudnVlIiksCik7CmNvbnN0IEdhdGV3YXlTZXR0aW5ncyA9IGRlZmluZUFzeW5jQ29tcG9uZW50KAogICgpID0+IGltcG9ydCgiLi9zeXN0ZW0tc2V0dGluZ3MvR2F0ZXdheVNldHRpbmdzLnZ1ZSIpLAopOwpjb25zdCBXQUZTZXR0aW5ncyA9IGRlZmluZUFzeW5jQ29tcG9uZW50KAogICgpID0+IGltcG9ydCgiLi9zeXN0ZW0tc2V0dGluZ3MvV0FGU2V0dGluZ3MudnVlIiksCik7CmNvbnN0IFNlc3Npb25TZXR0aW5ncyA9IGRlZmluZUFzeW5jQ29tcG9uZW50KAogICgpID0+IGltcG9ydCgiLi9zeXN0ZW0tc2V0dGluZ3MvU2Vzc2lvblNldHRpbmdzLnZ1ZSIpLAopOwpjb25zdCBNYWludGVuYW5jZVNldHRpbmdzID0gZGVmaW5lQXN5bmNDb21wb25lbnQoCiAgKCkgPT4gaW1wb3J0KCIuL3N5c3RlbS1zZXR0aW5ncy9NYWludGVuYW5jZVNldHRpbmdzLnZ1ZSIpLAopOwpjb25zdCBQYW5lbFNldHRpbmdzID0gZGVmaW5lQXN5bmNDb21wb25lbnQoCiAgKCkgPT4gaW1wb3J0KCIuL3N5c3RlbS1zZXR0aW5ncy9QYW5lbFNldHRpbmdzLnZ1ZSIpLAopOwoKY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7CmNvbnN0IHJvdXRlID0gdXNlUm91dGUoKTsKY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IGRlZmF1bHRUYWIgPSAicnVuLW1vZGUiOwpjb25zdCBzaG93RnJwVGFiID0gY29tcHV0ZWQoCiAgKCkgPT4gY29uZmlnU3RvcmUuY29uZmlnPy5ydW5fdHlwZSA9PT0gMSAmJiBjb25maWdTdG9yZS5jYW5Vc2VGcnBjLAopOwpjb25zdCBzaG93Q2xvdWRmbGFyZWRUYWIgPSBjb21wdXRlZCgKICAoKSA9PgogICAgY29uZmlnU3RvcmUuY29uZmlnPy5ydW5fdHlwZSA9PT0gMSAmJgogICAgY29uZmlnU3RvcmUuY2FuVXNlQ2xvdWRmbGFyZWQgJiYKICAgIGlzQ2xvdWRmbGFyZWRUdW5uZWxBdmFpbGFibGUoY29uZmlnU3RvcmUuY29uZmlnKSwKKTsKY29uc3Qgc2hvd1R1bm5lbFRhYnMgPSBjb21wdXRlZCgKICAoKSA9PiBzaG93RnJwVGFiLnZhbHVlIHx8IHNob3dDbG91ZGZsYXJlZFRhYi52YWx1ZSwKKTsKY29uc3Qgc2hvd0FjbWVUYWIgPSBjb21wdXRlZCgKICAoKSA9PiBjb25maWdTdG9yZS5jYW5Vc2VBY21lICYmICFjb25maWdTdG9yZS5pc1dpbmRvd3NEZXBsb3ltZW50LAopOwpjb25zdCBzaG93UGFuZWxUYWIgPSBjb21wdXRlZCgKICAoKSA9PiBjb25maWdTdG9yZS5pc1Byb3RlY3RlZEFkbWluUGFuZWxEZXBsb3ltZW50LAopOwpjb25zdCBzaG93Rm5vc1RhYiA9IGNvbXB1dGVkKAogICgpID0+CiAgICAhY29uZmlnU3RvcmUuaXNMaW51eERlcGxveW1lbnQgJiYKICAgICFjb25maWdTdG9yZS5pc1N5bm9sb2d5RGVwbG95bWVudCAmJgogICAgIWNvbmZpZ1N0b3JlLmlzV2luZG93c0RlcGxveW1lbnQsCik7CmNvbnN0IGFsbG93ZWRUYWJzID0gY29tcHV0ZWQoKCkgPT4gewogIGNvbnN0IHRhYnMgPSBbCiAgICAicnVuLW1vZGUiLAogICAgImFjbWUtc3NsIiwKICAgICJpcC1sb2NhdGlvbiIsCiAgICAiZm5vcyIsCiAgICAic2Nhbm5lci1maXJld2FsbCIsCiAgICAiZmVhdHVyZXMiLAogICAgImdhdGV3YXkiLAogICAgIndhZiIsCiAgICAiZ2F0ZXdheS1sb2dnaW5nIiwKICAgICJzZXNzaW9uIiwKICAgICJwYW5lbCIsCiAgICAiY2FwdGNoYSIsCiAgICAibWFpbnRlbmFuY2UiLAogIF07CiAgaWYgKCFzaG93Rm5vc1RhYi52YWx1ZSkgewogICAgY29uc3QgZm5vc0luZGV4ID0gdGFicy5pbmRleE9mKCJmbm9zIik7CiAgICBpZiAoZm5vc0luZGV4ID49IDApIHRhYnMuc3BsaWNlKGZub3NJbmRleCwgMSk7CiAgfQogIGlmICghc2hvd0FjbWVUYWIudmFsdWUpIHsKICAgIGNvbnN0IGFjbWVJbmRleCA9IHRhYnMuaW5kZXhPZigiYWNtZS1zc2wiKTsKICAgIGlmIChhY21lSW5kZXggPj0gMCkgdGFicy5zcGxpY2UoYWNtZUluZGV4LCAxKTsKICB9CiAgaWYgKCFzaG93UGFuZWxUYWIudmFsdWUpIHsKICAgIGNvbnN0IHBhbmVsSW5kZXggPSB0YWJzLmluZGV4T2YoInBhbmVsIik7CiAgICBpZiAocGFuZWxJbmRleCA+PSAwKSB7CiAgICAgIHRhYnMuc3BsaWNlKHBhbmVsSW5kZXgsIDEpOwogICAgfQogIH0KICBpZiAoc2hvd1R1bm5lbFRhYnMudmFsdWUpIHsKICAgIGlmIChzaG93RnJwVGFiLnZhbHVlKSB7CiAgICAgIHRhYnMuc3BsaWNlKDEsIDAsICJmcnAiKTsKICAgIH0KICAgIGlmIChzaG93Q2xvdWRmbGFyZWRUYWIudmFsdWUpIHsKICAgICAgdGFicy5zcGxpY2Uoc2hvd0ZycFRhYi52YWx1ZSA/IDIgOiAxLCAwLCAiY2xvdWRmbGFyZWQiKTsKICAgIH0KICB9CiAgcmV0dXJuIHRhYnM7Cn0pOwpjb25zdCB7IGN1cnJlbnRUYWIsIG5hdmlnYXRlVG8gfSA9IHVzZVN5bmNlZFF1ZXJ5VGFiKHsKICByb3V0ZSwKICByb3V0ZXIsCiAgZGVmYXVsdFRhYiwKICBhbGxvd2VkVGFicywKfSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYKICAgIGNsYXNzPSJkeW5hbWljLXdoaXRlLXBhZ2UtY2FyZCBkeW5hbWljLXdoaXRlLXNldHRpbmdzLXN1cmZhY2UgaC1mdWxsIGZsZXggZmxleC1jb2wgZ2FwLTQiCiAgPgogICAgPFRhYnMKICAgICAgOm1vZGVsLXZhbHVlPSJjdXJyZW50VGFiIgogICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJuYXZpZ2F0ZVRvIgogICAgICBjbGFzcz0idy1mdWxsIgogICAgPgogICAgICA8ZGl2IGNsYXNzPSJ3LWZ1bGwgb3ZlcmZsb3cteC1hdXRvIFtzY3JvbGxiYXItd2lkdGg6bm9uZV0gWy1tcy1vdmVyZmxvdy1zdHlsZTpub25lXSBbJjo6LXdlYmtpdC1zY3JvbGxiYXJdOmhpZGRlbiBwYi0xIj4KICAgICAgICA8VGFic0xpc3QgY2xhc3M9Im1pbi13LW1heCBqdXN0aWZ5LXN0YXJ0Ij4KICAgICAgICAgIDxUYWJzVHJpZ2dlciB2YWx1ZT0icnVuLW1vZGUiIGNsYXNzPSJmbGV4LW5vbmUgc2hyaW5rLTAgcHgtMyI+e3sKICAgICAgICAgICAgdCgiYWRtaW4uc3lzdGVtU2V0dGluZ3NUYWJzLm1vZGUiKQogICAgICAgICAgfX08L1RhYnNUcmlnZ2VyPgogICAgICAgICAgPFRhYnNUcmlnZ2VyCiAgICAgICAgICAgIHYtaWY9InNob3dGcnBUYWIiCiAgICAgICAgICAgIHZhbHVlPSJmcnAiCiAgICAgICAgICAgIGNsYXNzPSJmbGV4LW5vbmUgc2hyaW5rLTAgcHgtMyIKICAgICAgICAgICAgPnt7IHQoImFkbWluLnN5c3RlbVNldHRpbmdzVGFicy5mcnAiKSB9fTwvVGFic1RyaWdnZXIKICAgICAgICAgID4KICAgICAgICAgIDxUYWJzVHJpZ2dlcgogICAgICAgICAgICB2LWlmPSJzaG93VHVubmVsVGFicyAmJiBzaG93Q2xvdWRmbGFyZWRUYWIiCiAgICAgICAgICAgIHZhbHVlPSJjbG91ZGZsYXJlZCIKICAgICAgICAgICAgY2xhc3M9ImZsZXgtbm9uZSBzaHJpbmstMCBweC0zIgogICAgICAgICAgICA+e3sgdCgiYWRtaW4uc3lzdGVtU2V0dGluZ3NUYWJzLmNsb3VkZmxhcmVkIikgfX08L1RhYnNUcmlnZ2VyCiAgICAgICAgICA+CiAgICAgICAgICA8VGFic1RyaWdnZXIKICAgICAgICAgICAgdi1pZj0ic2hvd0FjbWVUYWIiCiAgICAgICAgICAgIHZhbHVlPSJhY21lLXNzbCIKICAgICAgICAgICAgY2xhc3M9ImZsZXgtbm9uZSBzaHJpbmstMCBweC0zIgogICAgICAgICAgICA+e3sgdCgiYWRtaW4uc3lzdGVtU2V0dGluZ3NUYWJzLmFjbWUiKSB9fTwvVGFic1RyaWdnZXIKICAgICAgICAgID4KICAgICAgICAgIDxUYWJzVHJpZ2dlciB2YWx1ZT0iaXAtbG9jYXRpb24iIGNsYXNzPSJmbGV4LW5vbmUgc2hyaW5rLTAgcHgtMyI+e3sKICAgICAgICAgICAgdCgiYWRtaW4uc3lzdGVtU2V0dGluZ3NUYWJzLmlwTG9jYXRpb24iKQogICAgICAgICAgfX08L1RhYnNUcmlnZ2VyPgogICAgICAgICAgPFRhYnNUcmlnZ2VyCiAgICAgICAgICAgIHYtaWY9InNob3dGbm9zVGFiIgogICAgICAgICAgICB2YWx1ZT0iZm5vcyIKICAgICAgICAgICAgY2xhc3M9ImZsZXgtbm9uZSBzaHJpbmstMCBweC0zIgogICAgICAgICAgICA+e3sgdCgiYWRtaW4uc3lzdGVtU2V0dGluZ3NUYWJzLmZub3MiKSB9fTwvVGFic1RyaWdnZXIKICAgICAgICAgID4KICAgICAgICAgIDxUYWJzVHJpZ2dlcgogICAgICAgICAgICB2YWx1ZT0ic2Nhbm5lci1maXJld2FsbCIKICAgICAgICAgICAgY2xhc3M9ImZsZXgtbm9uZSBzaHJpbmstMCBweC0zIgogICAgICAgICAgICA+e3sgdCgiYWRtaW4uc3lzdGVtU2V0dGluZ3NUYWJzLnNjYW5uZXJGaXJld2FsbCIpIH19PC9UYWJzVHJpZ2dlcgogICAgICAgICAgPgogICAgICAgICAgPFRhYnNUcmlnZ2VyIHZhbHVlPSJmZWF0dXJlcyIgY2xhc3M9ImZsZXgtbm9uZSBzaHJpbmstMCBweC0zIj57ewogICAgICAgICAgICB0KCJhZG1pbi5zeXN0ZW1TZXR0aW5nc1RhYnMuZmVhdHVyZXMiKQogICAgICAgICAgfX08L1RhYnNUcmlnZ2VyPgogICAgICAgICAgPFRhYnNUcmlnZ2VyIHZhbHVlPSJnYXRld2F5IiBjbGFzcz0iZmxleC1ub25lIHNocmluay0wIHB4LTMiPnt7CiAgICAgICAgICAgIHQoImFkbWluLnN5c3RlbVNldHRpbmdzVGFicy5nYXRld2F5IikKICAgICAgICAgIH19PC9UYWJzVHJpZ2dlcj4KICAgICAgICAgIDxUYWJzVHJpZ2dlciB2YWx1ZT0id2FmIiBjbGFzcz0iZmxleC1ub25lIHNocmluay0wIHB4LTMiPnt7CiAgICAgICAgICAgIHQoImFkbWluLnN5c3RlbVNldHRpbmdzVGFicy53YWYiKQogICAgICAgICAgfX08L1RhYnNUcmlnZ2VyPgogICAgICAgICAgPFRhYnNUcmlnZ2VyCiAgICAgICAgICAgIHZhbHVlPSJnYXRld2F5LWxvZ2dpbmciCiAgICAgICAgICAgIGNsYXNzPSJmbGV4LW5vbmUgc2hyaW5rLTAgcHgtMyIKICAgICAgICAgICAgPnt7IHQoImFkbWluLnN5c3RlbVNldHRpbmdzVGFicy5sb2dzIikgfX08L1RhYnNUcmlnZ2VyCiAgICAgICAgICA+CiAgICAgICAgICA8VGFic1RyaWdnZXIgdmFsdWU9InNlc3Npb24iIGNsYXNzPSJmbGV4LW5vbmUgc2hyaW5rLTAgcHgtMyI+e3sKICAgICAgICAgICAgdCgiYWRtaW4uc3lzdGVtU2V0dGluZ3NUYWJzLnNlc3Npb24iKQogICAgICAgICAgfX08L1RhYnNUcmlnZ2VyPgogICAgICAgICAgPFRhYnNUcmlnZ2VyCiAgICAgICAgICAgIHYtaWY9InNob3dQYW5lbFRhYiIKICAgICAgICAgICAgdmFsdWU9InBhbmVsIgogICAgICAgICAgICBjbGFzcz0iZmxleC1ub25lIHNocmluay0wIHB4LTMiCiAgICAgICAgICAgID57eyB0KCJhZG1pbi5zeXN0ZW1TZXR0aW5nc1RhYnMucGFuZWwiKSB9fTwvVGFic1RyaWdnZXIKICAgICAgICAgID4KICAgICAgICAgIDxUYWJzVHJpZ2dlciB2YWx1ZT0iY2FwdGNoYSIgY2xhc3M9ImZsZXgtbm9uZSBzaHJpbmstMCBweC0zIj57ewogICAgICAgICAgICB0KCJhZG1pbi5zeXN0ZW1TZXR0aW5nc1RhYnMuY2hhbGxlbmdlIikKICAgICAgICAgIH19PC9UYWJzVHJpZ2dlcj4KICAgICAgICAgIDxUYWJzVHJpZ2dlciB2YWx1ZT0ibWFpbnRlbmFuY2UiIGNsYXNzPSJmbGV4LW5vbmUgc2hyaW5rLTAgcHgtMyI+e3sKICAgICAgICAgICAgdCgiYWRtaW4uc3lzdGVtU2V0dGluZ3NUYWJzLm1haW50ZW5hbmNlIikKICAgICAgICAgIH19PC9UYWJzVHJpZ2dlcj4KICAgICAgICA8L1RhYnNMaXN0PgogICAgICA8L2Rpdj4KICAgICAgPFRhYnNDb250ZW50IHZhbHVlPSJydW4tbW9kZSIgY2xhc3M9InB0LTIiPgogICAgICAgIDxSdW5Nb2RlU2V0dGluZ3MgLz4KICAgICAgPC9UYWJzQ29udGVudD4KICAgICAgPFRhYnNDb250ZW50IHYtaWY9InNob3dGcnBUYWIiIHZhbHVlPSJmcnAiIGNsYXNzPSJwdC0yIj4KICAgICAgICA8RnJwU2V0dGluZ3MgLz4KICAgICAgPC9UYWJzQ29udGVudD4KICAgICAgPFRhYnNDb250ZW50CiAgICAgICAgdi1pZj0ic2hvd1R1bm5lbFRhYnMgJiYgc2hvd0Nsb3VkZmxhcmVkVGFiIgogICAgICAgIHZhbHVlPSJjbG91ZGZsYXJlZCIKICAgICAgICBjbGFzcz0icHQtMiIKICAgICAgPgogICAgICAgIDxDbG91ZGZsYXJlZFNldHRpbmdzIC8+CiAgICAgIDwvVGFic0NvbnRlbnQ+CiAgICAgIDxUYWJzQ29udGVudCB2LWlmPSJzaG93QWNtZVRhYiIgdmFsdWU9ImFjbWUtc3NsIiBjbGFzcz0icHQtMiI+CiAgICAgICAgPEFjbWVTU0wgLz4KICAgICAgPC9UYWJzQ29udGVudD4KICAgICAgPFRhYnNDb250ZW50IHZhbHVlPSJpcC1sb2NhdGlvbiIgY2xhc3M9InB0LTIiPgogICAgICAgIDxJcExvY2F0aW9uU2V0dGluZ3MgLz4KICAgICAgPC9UYWJzQ29udGVudD4KICAgICAgPFRhYnNDb250ZW50IHYtaWY9InNob3dGbm9zVGFiIiB2YWx1ZT0iZm5vcyIgY2xhc3M9InB0LTIiPgogICAgICAgIDxGbm9zU2V0dGluZ3MgLz4KICAgICAgPC9UYWJzQ29udGVudD4KICAgICAgPFRhYnNDb250ZW50IHZhbHVlPSJzY2FubmVyLWZpcmV3YWxsIiBjbGFzcz0icHQtMiI+CiAgICAgICAgPFNjYW5uZXJGaXJld2FsbFNldHRpbmdzIC8+CiAgICAgIDwvVGFic0NvbnRlbnQ+CiAgICAgIDxUYWJzQ29udGVudCB2YWx1ZT0iZmVhdHVyZXMiIGNsYXNzPSJwdC0yIj4KICAgICAgICA8RmVhdHVyZXNTZXR0aW5ncyAvPgogICAgICA8L1RhYnNDb250ZW50PgogICAgICA8VGFic0NvbnRlbnQgdmFsdWU9ImdhdGV3YXkiIGNsYXNzPSJwdC0yIj4KICAgICAgICA8R2F0ZXdheVNldHRpbmdzIC8+CiAgICAgIDwvVGFic0NvbnRlbnQ+CiAgICAgIDxUYWJzQ29udGVudCB2YWx1ZT0id2FmIiBjbGFzcz0icHQtMiI+CiAgICAgICAgPFdBRlNldHRpbmdzIC8+CiAgICAgIDwvVGFic0NvbnRlbnQ+CiAgICAgIDxUYWJzQ29udGVudCB2YWx1ZT0iZ2F0ZXdheS1sb2dnaW5nIiBjbGFzcz0icHQtMiI+CiAgICAgICAgPEdhdGV3YXlMb2dnaW5nU2V0dGluZ3MgLz4KICAgICAgPC9UYWJzQ29udGVudD4KICAgICAgPFRhYnNDb250ZW50IHZhbHVlPSJzZXNzaW9uIiBjbGFzcz0icHQtMiI+CiAgICAgICAgPFNlc3Npb25TZXR0aW5ncyAvPgogICAgICA8L1RhYnNDb250ZW50PgogICAgICA8VGFic0NvbnRlbnQgdi1pZj0ic2hvd1BhbmVsVGFiIiB2YWx1ZT0icGFuZWwiIGNsYXNzPSJwdC0yIj4KICAgICAgICA8UGFuZWxTZXR0aW5ncyAvPgogICAgICA8L1RhYnNDb250ZW50PgogICAgICA8VGFic0NvbnRlbnQgdmFsdWU9ImNhcHRjaGEiIGNsYXNzPSJwdC0yIj4KICAgICAgICA8Q2FwdGNoYVNldHRpbmdzIC8+CiAgICAgIDwvVGFic0NvbnRlbnQ+CiAgICAgIDxUYWJzQ29udGVudCB2YWx1ZT0ibWFpbnRlbmFuY2UiIGNsYXNzPSJwdC0yIj4KICAgICAgICA8TWFpbnRlbmFuY2VTZXR0aW5ncyAvPgogICAgICA8L1RhYnNDb250ZW50PgogICAgPC9UYWJzPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, defineAsyncComponent } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRoute, useRouter } from "vue-router";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useSyncedQueryTab } from "@admin-shared/composables/useSyncedQueryTab";
+import { useConfigStore } from "../store/config";
+import { isCloudflaredTunnelAvailable } from "../lib/reverse-proxy-submode";
+
+const RunModeSettings = defineAsyncComponent(
+  () => import("./system-settings/RunModeSettings.vue"),
+);
+const FrpSettings = defineAsyncComponent(
+  () => import("./system-settings/FrpSettings.vue"),
+);
+const CloudflaredSettings = defineAsyncComponent(
+  () => import("./system-settings/CloudflaredSettings.vue"),
+);
+const AcmeSSL = defineAsyncComponent(
+  () => import("./system-settings/AcmeSSL.vue"),
+);
+const IpLocationSettings = defineAsyncComponent(
+  () => import("./system-settings/IpLocationSettings.vue"),
+);
+const ScannerFirewallSettings = defineAsyncComponent(
+  () => import("./system-settings/ScannerFirewallSettings.vue"),
+);
+const FeaturesSettings = defineAsyncComponent(
+  () => import("./system-settings/FeaturesSettings.vue"),
+);
+const FnosSettings = defineAsyncComponent(
+  () => import("./system-settings/FnosSettings.vue"),
+);
+const CaptchaSettings = defineAsyncComponent(
+  () => import("./system-settings/CaptchaSettings.vue"),
+);
+const GatewayLoggingSettings = defineAsyncComponent(
+  () => import("./system-settings/GatewayLoggingSettings.vue"),
+);
+const GatewaySettings = defineAsyncComponent(
+  () => import("./system-settings/GatewaySettings.vue"),
+);
+const WAFSettings = defineAsyncComponent(
+  () => import("./system-settings/WAFSettings.vue"),
+);
+const SessionSettings = defineAsyncComponent(
+  () => import("./system-settings/SessionSettings.vue"),
+);
+const MaintenanceSettings = defineAsyncComponent(
+  () => import("./system-settings/MaintenanceSettings.vue"),
+);
+const PanelSettings = defineAsyncComponent(
+  () => import("./system-settings/PanelSettings.vue"),
+);
+
+const router = useRouter();
+const route = useRoute();
+const configStore = useConfigStore();
+const { t } = useI18n();
+
+const defaultTab = "run-mode";
+const showFrpTab = computed(
+  () => configStore.config?.run_type === 1 && configStore.canUseFrpc,
+);
+const showCloudflaredTab = computed(
+  () =>
+    configStore.config?.run_type === 1 &&
+    configStore.canUseCloudflared &&
+    isCloudflaredTunnelAvailable(configStore.config),
+);
+const showTunnelTabs = computed(
+  () => showFrpTab.value || showCloudflaredTab.value,
+);
+const showAcmeTab = computed(
+  () => configStore.canUseAcme && !configStore.isWindowsDeployment,
+);
+const showPanelTab = computed(
+  () => configStore.isProtectedAdminPanelDeployment,
+);
+const showFnosTab = computed(
+  () =>
+    !configStore.isLinuxDeployment &&
+    !configStore.isSynologyDeployment &&
+    !configStore.isWindowsDeployment,
+);
+const allowedTabs = computed(() => {
+  const tabs = [
+    "run-mode",
+    "acme-ssl",
+    "ip-location",
+    "fnos",
+    "scanner-firewall",
+    "features",
+    "gateway",
+    "waf",
+    "gateway-logging",
+    "session",
+    "panel",
+    "captcha",
+    "maintenance",
+  ];
+  if (!showFnosTab.value) {
+    const fnosIndex = tabs.indexOf("fnos");
+    if (fnosIndex >= 0) tabs.splice(fnosIndex, 1);
+  }
+  if (!showAcmeTab.value) {
+    const acmeIndex = tabs.indexOf("acme-ssl");
+    if (acmeIndex >= 0) tabs.splice(acmeIndex, 1);
+  }
+  if (!showPanelTab.value) {
+    const panelIndex = tabs.indexOf("panel");
+    if (panelIndex >= 0) {
+      tabs.splice(panelIndex, 1);
+    }
+  }
+  if (showTunnelTabs.value) {
+    if (showFrpTab.value) {
+      tabs.splice(1, 0, "frp");
+    }
+    if (showCloudflaredTab.value) {
+      tabs.splice(showFrpTab.value ? 2 : 1, 0, "cloudflared");
+    }
+  }
+  return tabs;
+});
+const { currentTab, navigateTo } = useSyncedQueryTab({
+  route,
+  router,
+  defaultTab,
+  allowedTabs,
+});
+</script>
+
+<template>
+  <div
+    class="dynamic-white-page-card dynamic-white-settings-surface h-full flex flex-col gap-4"
+  >
+    <Tabs
+      :model-value="currentTab"
+      @update:model-value="navigateTo"
+      class="w-full"
+    >
+      <div class="w-full overflow-x-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden pb-1">
+        <TabsList class="min-w-max justify-start">
+          <TabsTrigger value="run-mode" class="flex-none shrink-0 px-3">{{
+            t("admin.systemSettingsTabs.mode")
+          }}</TabsTrigger>
+          <TabsTrigger
+            v-if="showFrpTab"
+            value="frp"
+            class="flex-none shrink-0 px-3"
+            >{{ t("admin.systemSettingsTabs.frp") }}</TabsTrigger
+          >
+          <TabsTrigger
+            v-if="showTunnelTabs && showCloudflaredTab"
+            value="cloudflared"
+            class="flex-none shrink-0 px-3"
+            >{{ t("admin.systemSettingsTabs.cloudflared") }}</TabsTrigger
+          >
+          <TabsTrigger
+            v-if="showAcmeTab"
+            value="acme-ssl"
+            class="flex-none shrink-0 px-3"
+            >{{ t("admin.systemSettingsTabs.acme") }}</TabsTrigger
+          >
+          <TabsTrigger value="ip-location" class="flex-none shrink-0 px-3">{{
+            t("admin.systemSettingsTabs.ipLocation")
+          }}</TabsTrigger>
+          <TabsTrigger
+            v-if="showFnosTab"
+            value="fnos"
+            class="flex-none shrink-0 px-3"
+            >{{ t("admin.systemSettingsTabs.fnos") }}</TabsTrigger
+          >
+          <TabsTrigger
+            value="scanner-firewall"
+            class="flex-none shrink-0 px-3"
+            >{{ t("admin.systemSettingsTabs.scannerFirewall") }}</TabsTrigger
+          >
+          <TabsTrigger value="features" class="flex-none shrink-0 px-3">{{
+            t("admin.systemSettingsTabs.features")
+          }}</TabsTrigger>
+          <TabsTrigger value="gateway" class="flex-none shrink-0 px-3">{{
+            t("admin.systemSettingsTabs.gateway")
+          }}</TabsTrigger>
+          <TabsTrigger value="waf" class="flex-none shrink-0 px-3">{{
+            t("admin.systemSettingsTabs.waf")
+          }}</TabsTrigger>
+          <TabsTrigger
+            value="gateway-logging"
+            class="flex-none shrink-0 px-3"
+            >{{ t("admin.systemSettingsTabs.logs") }}</TabsTrigger
+          >
+          <TabsTrigger value="session" class="flex-none shrink-0 px-3">{{
+            t("admin.systemSettingsTabs.session")
+          }}</TabsTrigger>
+          <TabsTrigger
+            v-if="showPanelTab"
+            value="panel"
+            class="flex-none shrink-0 px-3"
+            >{{ t("admin.systemSettingsTabs.panel") }}</TabsTrigger
+          >
+          <TabsTrigger value="captcha" class="flex-none shrink-0 px-3">{{
+            t("admin.systemSettingsTabs.challenge")
+          }}</TabsTrigger>
+          <TabsTrigger value="maintenance" class="flex-none shrink-0 px-3">{{
+            t("admin.systemSettingsTabs.maintenance")
+          }}</TabsTrigger>
+        </TabsList>
+      </div>
+      <TabsContent value="run-mode" class="pt-2">
+        <RunModeSettings />
+      </TabsContent>
+      <TabsContent v-if="showFrpTab" value="frp" class="pt-2">
+        <FrpSettings />
+      </TabsContent>
+      <TabsContent
+        v-if="showTunnelTabs && showCloudflaredTab"
+        value="cloudflared"
+        class="pt-2"
+      >
+        <CloudflaredSettings />
+      </TabsContent>
+      <TabsContent v-if="showAcmeTab" value="acme-ssl" class="pt-2">
+        <AcmeSSL />
+      </TabsContent>
+      <TabsContent value="ip-location" class="pt-2">
+        <IpLocationSettings />
+      </TabsContent>
+      <TabsContent v-if="showFnosTab" value="fnos" class="pt-2">
+        <FnosSettings />
+      </TabsContent>
+      <TabsContent value="scanner-firewall" class="pt-2">
+        <ScannerFirewallSettings />
+      </TabsContent>
+      <TabsContent value="features" class="pt-2">
+        <FeaturesSettings />
+      </TabsContent>
+      <TabsContent value="gateway" class="pt-2">
+        <GatewaySettings />
+      </TabsContent>
+      <TabsContent value="waf" class="pt-2">
+        <WAFSettings />
+      </TabsContent>
+      <TabsContent value="gateway-logging" class="pt-2">
+        <GatewayLoggingSettings />
+      </TabsContent>
+      <TabsContent value="session" class="pt-2">
+        <SessionSettings />
+      </TabsContent>
+      <TabsContent v-if="showPanelTab" value="panel" class="pt-2">
+        <PanelSettings />
+      </TabsContent>
+      <TabsContent value="captcha" class="pt-2">
+        <CaptchaSettings />
+      </TabsContent>
+      <TabsContent value="maintenance" class="pt-2">
+        <MaintenanceSettings />
+      </TabsContent>
+    </Tabs>
+  </div>
+</template>

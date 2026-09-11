@@ -1,1 +1,329 @@
-IyEvYmluL3NoCgpQQUNLQUdFX05BTUU9IiR7U1lOT1BLR19QS0dOQU1FOi1mbi1rbm9jay1zeW5vbG9neX0iClBLR0RFU1Q9IiR7U1lOT1BLR19QS0dERVNUOi0vdmFyL3BhY2thZ2VzLyR7UEFDS0FHRV9OQU1FfS90YXJnZXR9IgpQS0dWQVI9IiR7U1lOT1BLR19QS0dWQVI6LS92YXIvcGFja2FnZXMvJHtQQUNLQUdFX05BTUV9L3Zhcn0iClBLR1RNUD0iJHtTWU5PUEtHX1BLR1RNUDotL3Zhci9wYWNrYWdlcy8ke1BBQ0tBR0VfTkFNRX0vdG1wfSIKUEtHSE9NRT0iJHtTWU5PUEtHX1BLR0hPTUU6LS92YXIvcGFja2FnZXMvJHtQQUNLQUdFX05BTUV9L2hvbWV9IgpQSURfRklMRT0iJHtQS0dWQVJ9L2ZuLWtub2NrLnBpZCIKTE9HX0ZJTEU9IiR7UEtHVkFSfS9mbi1rbm9jay5sb2ciCkVOVFJZUE9JTlQ9IiR7UEtHREVTVH0vYmluL2ZuLWtub2NrLWVudHJ5cG9pbnQiCkJBQ0tFTkRfUE9SVD0iJHtCQUNLRU5EX1BPUlQ6LTc5OTh9IgpSRUFESU5FU1NfTUFSS0VSPSIke1BLR1ZBUn0vcnVudGltZS5yZWFkeSIKUlVOVElNRV9QSURfRElSPSIke1BLR1ZBUn0vcnVudGltZS9waWRzIgpHQVRFV0FZX1BJRF9GSUxFPSIke1JVTlRJTUVfUElEX0RJUn0vZ2F0ZXdheS5waWQiCk1BTkFHRU1FTlRfUElEX0ZJTEU9IiR7UlVOVElNRV9QSURfRElSfS9tYW5hZ2VtZW50LnBpZCIKU1RBUlRfVElNRU9VVF9TRUNPTkRTPSIke0ZOX0tOT0NLX1NUQVJUX1RJTUVPVVRfU0VDT05EUzotJHtGTl9LTk9DS19TWU5PTE9HWV9TVEFSVF9USU1FT1VUX1NFQ09ORFM6LTMwMH19IgpTVE9QX1RJTUVPVVRfU0VDT05EUz0iJHtGTl9LTk9DS19TVE9QX1RJTUVPVVRfU0VDT05EUzotJHtGTl9LTk9DS19TWU5PTE9HWV9TVE9QX1RJTUVPVVRfU0VDT05EUzotNzV9fSIKRk9SQ0VfS0lMTF9USU1FT1VUX1NFQ09ORFM9IiR7Rk5fS05PQ0tfRk9SQ0VfS0lMTF9USU1FT1VUX1NFQ09ORFM6LSR7Rk5fS05PQ0tfU1lOT0xPR1lfRk9SQ0VfS0lMTF9USU1FT1VUX1NFQ09ORFM6LTEwfX0iCkxBVU5DSF9UUkFOU0lUSU9OX1RJTUVPVVRfU0VDT05EUz0iJHtGTl9LTk9DS19MQVVOQ0hfVFJBTlNJVElPTl9USU1FT1VUX1NFQ09ORFM6LTV9IgoKaXNfcG9zaXRpdmVfaW50ZWdlcigpIHsKICAgIGNhc2UgIiR7MTotfSIgaW4KICAgICAgICAnJ3wqWyEwLTldKnwwKSByZXR1cm4gMSA7OwogICAgICAgICopIHJldHVybiAwIDs7CiAgICBlc2FjCn0KCnBpZF9leGlzdHMoKSB7CiAgICBbIC1yICIke1BJRF9GSUxFfSIgXSB8fCByZXR1cm4gMQogICAgUElEPSIkKGNhdCAiJHtQSURfRklMRX0iIDI+L2Rldi9udWxsKSIKICAgIGNhc2UgIiR7UElEfSIgaW4KICAgICAgICAnJ3wqWyEwLTldKikgcmV0dXJuIDEgOzsKICAgIGVzYWMKICAgIGtpbGwgLTAgIiR7UElEfSIgMj4vZGV2L251bGwgfHwgcmV0dXJuIDEKICAgIGlmIFsgLXIgIi9wcm9jLyR7UElEfS9zdGF0IiBdOyB0aGVuCiAgICAgICAgcHJvY2Vzc19zdGF0PSIkKGNhdCAiL3Byb2MvJHtQSUR9L3N0YXQiIDI+L2Rldi9udWxsKSIgfHwgcmV0dXJuIDEKICAgICAgICBwcm9jZXNzX3N0YXQ9IiR7cHJvY2Vzc19zdGF0IyMqKSB9IgogICAgICAgIHNldCAtLSAke3Byb2Nlc3Nfc3RhdH0KICAgICAgICBbICIkezE6LX0iICE9ICJaIiBdIHx8IHJldHVybiAxCiAgICBmaQogICAgcmV0dXJuIDAKfQoKcGlkX2lzX3J1bm5pbmcoKSB7CiAgICBwaWRfZXhpc3RzIHx8IHJldHVybiAxCiAgICBbIC1yICIvcHJvYy8ke1BJRH0vY21kbGluZSIgXSB8fCByZXR1cm4gMAogICAgdHIgJ1wwMDAnICcgJyA8ICIvcHJvYy8ke1BJRH0vY21kbGluZSIgfCBncmVwIC1xICdmbi1rbm9jay1lbnRyeXBvaW50Jwp9CgpwaWRfb3duc19pc29sYXRlZF9ncm91cCgpIHsKICAgIFsgLW4gIiR7UElEOi19IiBdIHx8IHJldHVybiAxCiAgICBpZiBbIC1yICIvcHJvYy8ke1BJRH0vc3RhdCIgXTsgdGhlbgogICAgICAgIHByb2Nlc3Nfc3RhdD0iJChjYXQgIi9wcm9jLyR7UElEfS9zdGF0IiAyPi9kZXYvbnVsbCkiIHx8IHJldHVybiAxCiAgICAgICAgcHJvY2Vzc19zdGF0PSIke3Byb2Nlc3Nfc3RhdCMjKikgfSIKICAgICAgICBzZXQgLS0gJHtwcm9jZXNzX3N0YXR9CiAgICAgICAgWyAiJHszOi19IiA9ICIke1BJRH0iIF0gJiYgWyAiJHs0Oi19IiA9ICIke1BJRH0iIF0KICAgICAgICByZXR1cm4KICAgIGZpCiAgICBwcm9jZXNzX2dyb3VwPSIkKHBzIC1vIHBnaWQ9IC1wICIke1BJRH0iIDI+L2Rldi9udWxsIHwgdHIgLWQgJyAnKSIKICAgIFsgIiR7cHJvY2Vzc19ncm91cH0iID0gIiR7UElEfSIgXQp9CgpyZWNvcmRlZF9jaGlsZF9pc19ydW5uaW5nKCkgewogICAgY2hpbGRfcGlkX2ZpbGU9IiQxIgogICAgY2hpbGRfY29tbWFuZD0iJDIiCiAgICBbIC1yICIke2NoaWxkX3BpZF9maWxlfSIgXSB8fCByZXR1cm4gMQogICAgQ0hJTERfUElEPSIkKGNhdCAiJHtjaGlsZF9waWRfZmlsZX0iIDI+L2Rldi9udWxsKSIKICAgIGNhc2UgIiR7Q0hJTERfUElEfSIgaW4KICAgICAgICAnJ3wqWyEwLTldKikgcmV0dXJuIDEgOzsKICAgIGVzYWMKICAgIGtpbGwgLTAgIiR7Q0hJTERfUElEfSIgMj4vZGV2L251bGwgfHwgcmV0dXJuIDEKICAgIGlmIFsgLXIgIi9wcm9jLyR7Q0hJTERfUElEfS9jbWRsaW5lIiBdOyB0aGVuCiAgICAgICAgdHIgJ1wwMDAnICcgJyA8ICIvcHJvYy8ke0NISUxEX1BJRH0vY21kbGluZSIgfCBncmVwIC1xICIke2NoaWxkX2NvbW1hbmR9IgogICAgZWxzZQogICAgICAgIHBzIC1vIGNvbW1hbmQ9IC1wICIke0NISUxEX1BJRH0iIDI+L2Rldi9udWxsIHwgZ3JlcCAtcSAiJHtjaGlsZF9jb21tYW5kfSIKICAgIGZpCn0KCnJlY29yZGVkX2NoaWxkcmVuX2FyZV9ydW5uaW5nKCkgewogICAgcmVjb3JkZWRfY2hpbGRfaXNfcnVubmluZyAiJHtNQU5BR0VNRU5UX1BJRF9GSUxFfSIgJ3NlcnZlci1hZG1pbi1ycycgfHwgXAogICAgICAgIHJlY29yZGVkX2NoaWxkX2lzX3J1bm5pbmcgIiR7R0FURVdBWV9QSURfRklMRX0iICdnby1yZWF1dGgtcHJveHknCn0KCnNpZ25hbF9yZWNvcmRlZF9jaGlsZCgpIHsKICAgIHNpZ25hbD0iJDEiCiAgICBjaGlsZF9waWRfZmlsZT0iJDIiCiAgICBjaGlsZF9jb21tYW5kPSIkMyIKICAgIGlmIHJlY29yZGVkX2NoaWxkX2lzX3J1bm5pbmcgIiR7Y2hpbGRfcGlkX2ZpbGV9IiAiJHtjaGlsZF9jb21tYW5kfSI7IHRoZW4KICAgICAgICBraWxsICItJHtzaWduYWx9IiAiJHtDSElMRF9QSUR9IiAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgICBmaQp9CgpzdG9wX3JlY29yZGVkX2NoaWxkKCkgewogICAgc2lnbmFsPSIkMSIKICAgIGNoaWxkX3BpZF9maWxlPSIkMiIKICAgIGNoaWxkX2NvbW1hbmQ9IiQzIgogICAgdGltZW91dD0iJDQiCiAgICBzaWduYWxfcmVjb3JkZWRfY2hpbGQgIiR7c2lnbmFsfSIgIiR7Y2hpbGRfcGlkX2ZpbGV9IiAiJHtjaGlsZF9jb21tYW5kfSIKICAgIGVsYXBzZWQ9MAogICAgd2hpbGUgcmVjb3JkZWRfY2hpbGRfaXNfcnVubmluZyAiJHtjaGlsZF9waWRfZmlsZX0iICIke2NoaWxkX2NvbW1hbmR9IiAmJiBcCiAgICAgICAgWyAiJHtlbGFwc2VkfSIgLWx0ICIke3RpbWVvdXR9IiBdOyBkbwogICAgICAgIGVsYXBzZWQ9JCgoZWxhcHNlZCArIDEpKQogICAgICAgIHNsZWVwIDEKICAgIGRvbmUKICAgICEgcmVjb3JkZWRfY2hpbGRfaXNfcnVubmluZyAiJHtjaGlsZF9waWRfZmlsZX0iICIke2NoaWxkX2NvbW1hbmR9Igp9CgpzdG9wX3JlY29yZGVkX2NoaWxkcmVuKCkgewogICAgc2lnbmFsPSIkMSIKICAgIHRpbWVvdXQ9IiQyIgogICAgc3RvcF9yZWNvcmRlZF9jaGlsZCAiJHtzaWduYWx9IiAiJHtHQVRFV0FZX1BJRF9GSUxFfSIgJ2dvLXJlYXV0aC1wcm94eScgIiR7dGltZW91dH0iIHx8IHJldHVybiAxCiAgICBzdG9wX3JlY29yZGVkX2NoaWxkICIke3NpZ25hbH0iICIke01BTkFHRU1FTlRfUElEX0ZJTEV9IiAnc2VydmVyLWFkbWluLXJzJyAiJHt0aW1lb3V0fSIKfQoKcmVtb3ZlX3J1bnRpbWVfcGlkX2ZpbGVzKCkgewogICAgcm0gLWYgIiR7UElEX0ZJTEV9IiAiJHtNQU5BR0VNRU5UX1BJRF9GSUxFfSIgIiR7R0FURVdBWV9QSURfRklMRX0iICIke1JFQURJTkVTU19NQVJLRVJ9Igp9CgpzaWduYWxfc2VydmljZSgpIHsKICAgIHNpZ25hbD0iJDEiCiAgICBwaWRfaXNfcnVubmluZyB8fCByZXR1cm4gMAogICAgaWYgcGlkX293bnNfaXNvbGF0ZWRfZ3JvdXA7IHRoZW4KICAgICAgICAjIGRhc2ggYW5kIEJ1c3lCb3ggc2ggcmVqZWN0IGBraWxsIC4uLiAtLSAtUEdJRGA7IHRoZSBuZWdhdGl2ZSBvcGVyYW5kIGlzIHBvcnRhYmxlLgogICAgICAgIGtpbGwgIi0ke3NpZ25hbH0iICItJHtQSUR9IiAyPi9kZXYvbnVsbCB8fCBraWxsICItJHtzaWduYWx9IiAiJHtQSUR9IiAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgICBlbHNlCiAgICAgICAga2lsbCAiLSR7c2lnbmFsfSIgIiR7UElEfSIgMj4vZGV2L251bGwgfHwgdHJ1ZQogICAgZmkKfQoKc2lnbmFsX3N1cGVydmlzb3IoKSB7CiAgICBzaWduYWw9IiQxIgogICAgcGlkX2lzX3J1bm5pbmcgfHwgcmV0dXJuIDAKICAgIGtpbGwgIi0ke3NpZ25hbH0iICIke1BJRH0iIDI+L2Rldi9udWxsIHx8IHRydWUKfQoKd2FpdF9mb3Jfc2VydmljZV9leGl0KCkgewogICAgdGltZW91dD0iJDEiCiAgICBlbGFwc2VkPTAKICAgIHdoaWxlIHsgcGlkX2lzX3J1bm5pbmcgfHwgcmVjb3JkZWRfY2hpbGRyZW5fYXJlX3J1bm5pbmc7IH0gJiYgWyAiJHtlbGFwc2VkfSIgLWx0ICIke3RpbWVvdXR9IiBdOyBkbwogICAgICAgIGVsYXBzZWQ9JCgoZWxhcHNlZCArIDEpKQogICAgICAgIHNsZWVwIDEKICAgIGRvbmUKICAgICEgcGlkX2lzX3J1bm5pbmcgJiYgISByZWNvcmRlZF9jaGlsZHJlbl9hcmVfcnVubmluZwp9Cgp3cml0ZV9ydW50aW1lX3BvcnRzKCkgewogICAgdW1hc2sgMDIyCiAgICB7CiAgICAgICAgcHJpbnRmICdBRE1JTl9UQVJHRVRfSE9TVD0xMjcuMC4wLjFcbicKICAgICAgICBwcmludGYgJ0FETUlOX1RBUkdFVF9QT1JUPSVzXG4nICIke0JBQ0tFTkRfUE9SVH0iCiAgICAgICAgcHJpbnRmICdCQUNLRU5EX1BPUlQ9JXNcbicgIiR7QkFDS0VORF9QT1JUfSIKICAgICAgICBwcmludGYgJ0FVVEhfUE9SVD0lc1xuJyAiJHtBVVRIX1BPUlQ6LTc5OTd9IgogICAgICAgIHByaW50ZiAnR09fQkFDS0VORF9QT1JUPSVzXG4nICIke0dPX0JBQ0tFTkRfUE9SVDotNzk5Nn0iCiAgICAgICAgcHJpbnRmICdHT19SRVBST1hZX1BPUlQ9JXNcbicgIiR7R09fUkVQUk9YWV9QT1JUOi03OTk5fSIKICAgIH0gPiAiJHtQS0dWQVJ9L3J1bnRpbWUtcG9ydHMuZW52IgogICAgY2htb2QgNjQ0ICIke1BLR1ZBUn0vcnVudGltZS1wb3J0cy5lbnYiCn0KCmxhdW5jaF9zZXJ2aWNlKCkgewogICAgU0VTU0lPTl9MQVVOQ0hFUj0iJChjb21tYW5kIC12IHNldHNpZCAyPi9kZXYvbnVsbCB8fCB0cnVlKSIKCiAgICB1bWFzayAwNzcKICAgIGlmIFsgLW4gIiR7U0VTU0lPTl9MQVVOQ0hFUn0iIF07IHRoZW4KICAgICAgICBQQVRIPSIvdXNyL2xvY2FsL2JpbjovdXNyL2JpbjovYmluOi91c3Ivc2Jpbjovc2JpbjovdXNyL3N5bm8vYmluIiBcCiAgICAgICAgSE9NRT0iJHtQS0dIT01FfSIgXAogICAgICAgIFRNUERJUj0iJHtQS0dUTVB9IiBcCiAgICAgICAgRk5fS05PQ0tfQVBQX0hPTUU9IiR7UEtHREVTVH0iIFwKICAgICAgICBGTl9LTk9DS19EQVRBX0RJUj0iJHtQS0dWQVJ9IiBcCiAgICAgICAgRk5fS05PQ0tfR0FURVdBWV9DT05GSUdfRElSPSIke1BLR1ZBUn0vZ2F0ZXdheSIgXAogICAgICAgIEZOX0tOT0NLX1NVUEVSVklTT1JfUElEX0ZJTEU9IiR7UElEX0ZJTEV9IiBcCiAgICAgICAgRk5fS05PQ0tfU1RBUlRfVElNRU9VVF9TRUNPTkRTPSIke1NUQVJUX1RJTUVPVVRfU0VDT05EU30iIFwKICAgICAgICBGTl9LTk9DS19TWU5PTE9HWV9TVEFSVF9USU1FT1VUX1NFQ09ORFM9IiR7U1RBUlRfVElNRU9VVF9TRUNPTkRTfSIgXAogICAgICAgIEJBQ0tFTkRfUE9SVD0iJHtCQUNLRU5EX1BPUlR9IiBcCiAgICAgICAgQVVUSF9QT1JUPSIke0FVVEhfUE9SVDotNzk5N30iIFwKICAgICAgICBHT19CQUNLRU5EX1BPUlQ9IiR7R09fQkFDS0VORF9QT1JUOi03OTk2fSIgXAogICAgICAgIEdPX1JFUFJPWFlfUE9SVD0iJHtHT19SRVBST1hZX1BPUlQ6LTc5OTl9IiBcCiAgICAgICAgbm9odXAgIiR7U0VTU0lPTl9MQVVOQ0hFUn0iICIke0VOVFJZUE9JTlR9IiA+PiAiJHtMT0dfRklMRX0iIDI+JjEgJgogICAgZWxzZQogICAgICAgIFBBVEg9Ii91c3IvbG9jYWwvYmluOi91c3IvYmluOi9iaW46L3Vzci9zYmluOi9zYmluOi91c3Ivc3luby9iaW4iIFwKICAgICAgICBIT01FPSIke1BLR0hPTUV9IiBcCiAgICAgICAgVE1QRElSPSIke1BLR1RNUH0iIFwKICAgICAgICBGTl9LTk9DS19BUFBfSE9NRT0iJHtQS0dERVNUfSIgXAogICAgICAgIEZOX0tOT0NLX0RBVEFfRElSPSIke1BLR1ZBUn0iIFwKICAgICAgICBGTl9LTk9DS19HQVRFV0FZX0NPTkZJR19ESVI9IiR7UEtHVkFSfS9nYXRld2F5IiBcCiAgICAgICAgRk5fS05PQ0tfU1VQRVJWSVNPUl9QSURfRklMRT0iJHtQSURfRklMRX0iIFwKICAgICAgICBGTl9LTk9DS19TVEFSVF9USU1FT1VUX1NFQ09ORFM9IiR7U1RBUlRfVElNRU9VVF9TRUNPTkRTfSIgXAogICAgICAgIEZOX0tOT0NLX1NZTk9MT0dZX1NUQVJUX1RJTUVPVVRfU0VDT05EUz0iJHtTVEFSVF9USU1FT1VUX1NFQ09ORFN9IiBcCiAgICAgICAgQkFDS0VORF9QT1JUPSIke0JBQ0tFTkRfUE9SVH0iIFwKICAgICAgICBBVVRIX1BPUlQ9IiR7QVVUSF9QT1JUOi03OTk3fSIgXAogICAgICAgIEdPX0JBQ0tFTkRfUE9SVD0iJHtHT19CQUNLRU5EX1BPUlQ6LTc5OTZ9IiBcCiAgICAgICAgR09fUkVQUk9YWV9QT1JUPSIke0dPX1JFUFJPWFlfUE9SVDotNzk5OX0iIFwKICAgICAgICBub2h1cCAiJHtFTlRSWVBPSU5UfSIgPj4gIiR7TE9HX0ZJTEV9IiAyPiYxICYKICAgIGZpCiAgICAjIEtlZXAgdGhlIHRyYW5zaWVudCBsYXVuY2hlciBQSUQgaW4gbWVtb3J5IG9ubHkuIFdyaXRpbmcgaXQgdG8gUElEX0ZJTEUKICAgICMgY2FuIHJhY2Ugd2l0aCBmbi1rbm9jay1lbnRyeXBvaW50IHJlZ2lzdGVyaW5nIGl0cyBhY3R1YWwgc3VwZXJ2aXNvciBQSUQuCiAgICBMQVVOQ0hFUl9QSUQ9JCEKfQoKc3RvcF9zZXJ2aWNlKCkgewogICAgaWYgISBwaWRfaXNfcnVubmluZyAmJiAhIHJlY29yZGVkX2NoaWxkcmVuX2FyZV9ydW5uaW5nOyB0aGVuCiAgICAgICAgcmVtb3ZlX3J1bnRpbWVfcGlkX2ZpbGVzCiAgICAgICAgcmV0dXJuIDAKICAgIGZpCgogICAgaWYgcGlkX2lzX3J1bm5pbmc7IHRoZW4KICAgICAgICAjIExldCB0aGUgc3VwZXJ2aXNvciBkcmFpbiB0aGUgcHVibGljIGdhdGV3YXkgYmVmb3JlIGl0IHN0b3BzIHRoZQogICAgICAgICMgYXV0aGVudGljYXRpb24gYmFja2VuZC4gU2lnbmFsbGluZyB0aGUgcHJvY2VzcyBncm91cCBoZXJlIHdvdWxkCiAgICAgICAgIyB0ZXJtaW5hdGUgYm90aCBjaGlsZHJlbiBhdCBvbmNlIGFuZCByZWNyZWF0ZSB0aGUgYnJva2VuLXVwc3RyZWFtIGdhcC4KICAgICAgICBzaWduYWxfc3VwZXJ2aXNvciBURVJNCiAgICBlbHNlCiAgICAgICAgc3RvcF9yZWNvcmRlZF9jaGlsZHJlbiBURVJNICIke1NUT1BfVElNRU9VVF9TRUNPTkRTfSIgfHwgdHJ1ZQogICAgZmkKICAgIGlmICEgd2FpdF9mb3Jfc2VydmljZV9leGl0ICIke1NUT1BfVElNRU9VVF9TRUNPTkRTfSI7IHRoZW4KICAgICAgICBzaWduYWxfc2VydmljZSBLSUxMCiAgICAgICAgc3RvcF9yZWNvcmRlZF9jaGlsZHJlbiBLSUxMICIke0ZPUkNFX0tJTExfVElNRU9VVF9TRUNPTkRTfSIgfHwgdHJ1ZQogICAgICAgIHdhaXRfZm9yX3NlcnZpY2VfZXhpdCAiJHtGT1JDRV9LSUxMX1RJTUVPVVRfU0VDT05EU30iIHx8IHsKICAgICAgICAgICAgcHJpbnRmICdmbi1rbm9jayBwcm9jZXNzIGdyb3VwIGRpZCBub3Qgc3RvcDsgUElEICVzIGlzIHN0aWxsIHJ1bm5pbmdcbicgIiR7UElEfSIgXAogICAgICAgICAgICAgICAgPiAiJHtTWU5PUEtHX1RFTVBfTE9HRklMRTotL2Rldi9udWxsfSIKICAgICAgICAgICAgcmV0dXJuIDEKICAgICAgICB9CiAgICBmaQogICAgcmVtb3ZlX3J1bnRpbWVfcGlkX2ZpbGVzCn0KCnN0YXJ0X3NlcnZpY2UoKSB7CiAgICBzZXJ2aWNlX2FscmVhZHlfcnVubmluZz0wCiAgICBpZiBwaWRfaXNfcnVubmluZzsgdGhlbgogICAgICAgIHNlcnZpY2VfYWxyZWFkeV9ydW5uaW5nPTEKICAgIGVsc2UKICAgICAgICBpZiByZWNvcmRlZF9jaGlsZHJlbl9hcmVfcnVubmluZzsgdGhlbgogICAgICAgICAgICBzdG9wX3NlcnZpY2UgfHwgcmV0dXJuIDEKICAgICAgICBlbHNlCiAgICAgICAgICAgIHJlbW92ZV9ydW50aW1lX3BpZF9maWxlcwogICAgICAgIGZpCiAgICBmaQogICAgaWYgWyAiJHtzZXJ2aWNlX2FscmVhZHlfcnVubmluZ30iIC1lcSAwIF07IHRoZW4KICAgICAgICBta2RpciAtcCAiJHtQS0dWQVJ9IiAiJHtQS0dUTVB9IiAiJHtQS0dIT01FfSIKICAgICAgICB3cml0ZV9ydW50aW1lX3BvcnRzCiAgICAgICAgbGF1bmNoX3NlcnZpY2UKICAgIGZpCgogICAgc3RhcnRlZF9hdD0iJChkYXRlICcrJXMnKSIKICAgIGRlYWRsaW5lPSQoKHN0YXJ0ZWRfYXQgKyBTVEFSVF9USU1FT1VUX1NFQ09ORFMpKQogICAgbGF1bmNoX3RyYW5zaXRpb25fZGVhZGxpbmU9JCgoc3RhcnRlZF9hdCArIExBVU5DSF9UUkFOU0lUSU9OX1RJTUVPVVRfU0VDT05EUykpCiAgICB3aGlsZSBbICIkKGRhdGUgJyslcycpIiAtbHQgIiR7ZGVhZGxpbmV9IiBdOyBkbwogICAgICAgICMgQSBmb3JraW5nIHNldHNpZCBsYXVuY2hlciBtYXkgZXhpdCBqdXN0IGJlZm9yZSBmbi1rbm9jay1lbnRyeXBvaW50CiAgICAgICAgIyBhdG9taWNhbGx5IHJlZ2lzdGVycyB0aGUgbG9uZy1saXZlZCBzdXBlcnZpc29yIFBJRC4gQWxsb3cgb25seSB0aGlzCiAgICAgICAgIyBzaG9ydCBoYW5kb2ZmIHdpbmRvdywgdGhlbiByZXF1aXJlIHRoZSBzZWxmLXJlZ2lzdGVyZWQgcHJvY2Vzcy4KICAgICAgICBpZiAhIHBpZF9leGlzdHMgJiYgWyAiJChkYXRlICcrJXMnKSIgLWdlICIke2xhdW5jaF90cmFuc2l0aW9uX2RlYWRsaW5lfSIgXTsgdGhlbgogICAgICAgICAgICBpZiBbIC1uICIke0xBVU5DSEVSX1BJRDotfSIgXSAmJiBraWxsIC0wICIke0xBVU5DSEVSX1BJRH0iIDI+L2Rldi9udWxsOyB0aGVuCiAgICAgICAgICAgICAgICBraWxsIC1URVJNICIke0xBVU5DSEVSX1BJRH0iIDI+L2Rldi9udWxsIHx8IHRydWUKICAgICAgICAgICAgZmkKICAgICAgICAgICAgcm0gLWYgIiR7UElEX0ZJTEV9IgogICAgICAgICAgICBwcmludGYgJ2ZuLWtub2NrIGV4aXRlZCBkdXJpbmcgc3RhcnR1cDsgc2VlICVzXG4nICIke0xPR19GSUxFfSIgXAogICAgICAgICAgICAgICAgPiAiJHtTWU5PUEtHX1RFTVBfTE9HRklMRTotL2Rldi9udWxsfSIKICAgICAgICAgICAgcmV0dXJuIDEKICAgICAgICBmaQogICAgICAgIGlmIFsgLWYgIiR7UkVBRElORVNTX01BUktFUn0iIF07IHRoZW4KICAgICAgICAgICAgcmVhZGluZXNzX2ZhaWx1cmU9IiIKICAgICAgICAgICAgaWYgISBwaWRfaXNfcnVubmluZzsgdGhlbgogICAgICAgICAgICAgICAgcmVhZGluZXNzX2ZhaWx1cmU9InN1cGVydmlzb3IgUElEIGRvZXMgbm90IGlkZW50aWZ5IGZuLWtub2NrLWVudHJ5cG9pbnQiCiAgICAgICAgICAgIGVsaWYgISByZWNvcmRlZF9jaGlsZF9pc19ydW5uaW5nICIke01BTkFHRU1FTlRfUElEX0ZJTEV9IiAnc2VydmVyLWFkbWluLXJzJzsgdGhlbgogICAgICAgICAgICAgICAgcmVhZGluZXNzX2ZhaWx1cmU9Im1hbmFnZW1lbnQgUElEIGRvZXMgbm90IGlkZW50aWZ5IHNlcnZlci1hZG1pbi1ycyIKICAgICAgICAgICAgZWxpZiAhIHJlY29yZGVkX2NoaWxkX2lzX3J1bm5pbmcgIiR7R0FURVdBWV9QSURfRklMRX0iICdnby1yZWF1dGgtcHJveHknOyB0aGVuCiAgICAgICAgICAgICAgICByZWFkaW5lc3NfZmFpbHVyZT0iZ2F0ZXdheSBQSUQgZG9lcyBub3QgaWRlbnRpZnkgZ28tcmVhdXRoLXByb3h5IgogICAgICAgICAgICBmaQogICAgICAgICAgICBpZiBbIC16ICIke3JlYWRpbmVzc19mYWlsdXJlfSIgXTsgdGhlbgogICAgICAgICAgICAgICAgcmV0dXJuIDAKICAgICAgICAgICAgZmkKICAgICAgICAgICAgcHJpbnRmICdbZm4ta25vY2tdIHJlYWRpbmVzcyByZWplY3RlZDogJXNcbicgIiR7cmVhZGluZXNzX2ZhaWx1cmV9IiA+PiAiJHtMT0dfRklMRX0iCiAgICAgICAgICAgIHN0b3Bfc2VydmljZSB8fCB0cnVlCiAgICAgICAgICAgIHByaW50ZiAnZm4ta25vY2sgcmVhZGluZXNzIHJlc3BvbmRlZCBidXQgcHJvY2VzcyB2YWxpZGF0aW9uIGZhaWxlZDogJXM7IHNlZSAlc1xuJyBcCiAgICAgICAgICAgICAgICAiJHtyZWFkaW5lc3NfZmFpbHVyZX0iICIke0xPR19GSUxFfSIgPiAiJHtTWU5PUEtHX1RFTVBfTE9HRklMRTotL2Rldi9udWxsfSIKICAgICAgICAgICAgcmV0dXJuIDEKICAgICAgICBmaQogICAgICAgIHNsZWVwIDEKICAgIGRvbmUKCiAgICBpZiAhIHBpZF9leGlzdHMgJiYgWyAtbiAiJHtMQVVOQ0hFUl9QSUQ6LX0iIF0gJiYga2lsbCAtMCAiJHtMQVVOQ0hFUl9QSUR9IiAyPi9kZXYvbnVsbDsgdGhlbgogICAgICAgIGtpbGwgLVRFUk0gIiR7TEFVTkNIRVJfUElEfSIgMj4vZGV2L251bGwgfHwgdHJ1ZQogICAgZmkKICAgIHN0b3Bfc2VydmljZSB8fCB0cnVlCiAgICBwcmludGYgJ2ZuLWtub2NrIHJlYWRpbmVzcyB0aW1lZCBvdXQgYWZ0ZXIgJXMgc2Vjb25kczsgc2VlICVzXG4nIFwKICAgICAgICAiJHtTVEFSVF9USU1FT1VUX1NFQ09ORFN9IiAiJHtMT0dfRklMRX0iID4gIiR7U1lOT1BLR19URU1QX0xPR0ZJTEU6LS9kZXYvbnVsbH0iCiAgICByZXR1cm4gMQp9Cgp2YWxpZGF0ZV9jb25maWd1cmF0aW9uKCkgewogICAgaXNfcG9zaXRpdmVfaW50ZWdlciAiJHtTVEFSVF9USU1FT1VUX1NFQ09ORFN9IiB8fCByZXR1cm4gMQogICAgaXNfcG9zaXRpdmVfaW50ZWdlciAiJHtTVE9QX1RJTUVPVVRfU0VDT05EU30iIHx8IHJldHVybiAxCiAgICBpc19wb3NpdGl2ZV9pbnRlZ2VyICIke0ZPUkNFX0tJTExfVElNRU9VVF9TRUNPTkRTfSIgfHwgcmV0dXJuIDEKICAgIGlzX3Bvc2l0aXZlX2ludGVnZXIgIiR7TEFVTkNIX1RSQU5TSVRJT05fVElNRU9VVF9TRUNPTkRTfSIgfHwgcmV0dXJuIDEKICAgIHJldHVybiAwCn0KCmNhc2UgIiR7MTotfSIgaW4KICAgIHN0YXJ0KQogICAgICAgIHZhbGlkYXRlX2NvbmZpZ3VyYXRpb24gfHwgZXhpdCAxCiAgICAgICAgc3RhcnRfc2VydmljZQogICAgICAgIDs7CiAgICBzdG9wKQogICAgICAgIHZhbGlkYXRlX2NvbmZpZ3VyYXRpb24gfHwgZXhpdCAxCiAgICAgICAgc3RvcF9zZXJ2aWNlCiAgICAgICAgOzsKICAgIHN0YXR1cykKICAgICAgICBpZiBwaWRfaXNfcnVubmluZyAmJiBbIC1mICIke1JFQURJTkVTU19NQVJLRVJ9IiBdICYmIFwKICAgICAgICAgICAgcmVjb3JkZWRfY2hpbGRfaXNfcnVubmluZyAiJHtNQU5BR0VNRU5UX1BJRF9GSUxFfSIgJ3NlcnZlci1hZG1pbi1ycycgJiYgXAogICAgICAgICAgICByZWNvcmRlZF9jaGlsZF9pc19ydW5uaW5nICIke0dBVEVXQVlfUElEX0ZJTEV9IiAnZ28tcmVhdXRoLXByb3h5JzsgdGhlbgogICAgICAgICAgICBleGl0IDAKICAgICAgICBmaQogICAgICAgIHsgWyAtZSAiJHtQSURfRklMRX0iIF0gfHwgWyAtZSAiJHtNQU5BR0VNRU5UX1BJRF9GSUxFfSIgXSB8fCBcCiAgICAgICAgICAgIFsgLWUgIiR7R0FURVdBWV9QSURfRklMRX0iIF0gfHwgWyAtZSAiJHtSRUFESU5FU1NfTUFSS0VSfSIgXTsgfSAmJiBleGl0IDEKICAgICAgICBleGl0IDMKICAgICAgICA7OwogICAgcHJlc3RhcnQpCiAgICAgICAgWyAteCAiJHtFTlRSWVBPSU5UfSIgXSB8fCB7CiAgICAgICAgICAgIHByaW50ZiAnTWlzc2luZyBleGVjdXRhYmxlOiAlc1xuJyAiJHtFTlRSWVBPSU5UfSIgPiAiJHtTWU5PUEtHX1RFTVBfTE9HRklMRTotL2Rldi9udWxsfSIKICAgICAgICAgICAgZXhpdCAxCiAgICAgICAgfQogICAgICAgIHZhbGlkYXRlX2NvbmZpZ3VyYXRpb24gfHwgewogICAgICAgICAgICBwcmludGYgJ0ludmFsaWQgZm4ta25vY2sgbGlmZWN5Y2xlIHRpbWVvdXQgY29uZmlndXJhdGlvblxuJyA+ICIke1NZTk9QS0dfVEVNUF9MT0dGSUxFOi0vZGV2L251bGx9IgogICAgICAgICAgICBleGl0IDEKICAgICAgICB9CiAgICAgICAgOzsKICAgIHByZXN0b3ApIDs7CiAgICAqKSBleGl0IDEgOzsKZXNhYwoKZXhpdCAkPwo=
+#!/bin/sh
+
+PACKAGE_NAME="${SYNOPKG_PKGNAME:-fn-knock-synology}"
+PKGDEST="${SYNOPKG_PKGDEST:-/var/packages/${PACKAGE_NAME}/target}"
+PKGVAR="${SYNOPKG_PKGVAR:-/var/packages/${PACKAGE_NAME}/var}"
+PKGTMP="${SYNOPKG_PKGTMP:-/var/packages/${PACKAGE_NAME}/tmp}"
+PKGHOME="${SYNOPKG_PKGHOME:-/var/packages/${PACKAGE_NAME}/home}"
+PID_FILE="${PKGVAR}/fn-knock.pid"
+LOG_FILE="${PKGVAR}/fn-knock.log"
+ENTRYPOINT="${PKGDEST}/bin/fn-knock-entrypoint"
+BACKEND_PORT="${BACKEND_PORT:-7998}"
+READINESS_MARKER="${PKGVAR}/runtime.ready"
+RUNTIME_PID_DIR="${PKGVAR}/runtime/pids"
+GATEWAY_PID_FILE="${RUNTIME_PID_DIR}/gateway.pid"
+MANAGEMENT_PID_FILE="${RUNTIME_PID_DIR}/management.pid"
+START_TIMEOUT_SECONDS="${FN_KNOCK_START_TIMEOUT_SECONDS:-${FN_KNOCK_SYNOLOGY_START_TIMEOUT_SECONDS:-300}}"
+STOP_TIMEOUT_SECONDS="${FN_KNOCK_STOP_TIMEOUT_SECONDS:-${FN_KNOCK_SYNOLOGY_STOP_TIMEOUT_SECONDS:-75}}"
+FORCE_KILL_TIMEOUT_SECONDS="${FN_KNOCK_FORCE_KILL_TIMEOUT_SECONDS:-${FN_KNOCK_SYNOLOGY_FORCE_KILL_TIMEOUT_SECONDS:-10}}"
+LAUNCH_TRANSITION_TIMEOUT_SECONDS="${FN_KNOCK_LAUNCH_TRANSITION_TIMEOUT_SECONDS:-5}"
+
+is_positive_integer() {
+    case "${1:-}" in
+        ''|*[!0-9]*|0) return 1 ;;
+        *) return 0 ;;
+    esac
+}
+
+pid_exists() {
+    [ -r "${PID_FILE}" ] || return 1
+    PID="$(cat "${PID_FILE}" 2>/dev/null)"
+    case "${PID}" in
+        ''|*[!0-9]*) return 1 ;;
+    esac
+    kill -0 "${PID}" 2>/dev/null || return 1
+    if [ -r "/proc/${PID}/stat" ]; then
+        process_stat="$(cat "/proc/${PID}/stat" 2>/dev/null)" || return 1
+        process_stat="${process_stat##*) }"
+        set -- ${process_stat}
+        [ "${1:-}" != "Z" ] || return 1
+    fi
+    return 0
+}
+
+pid_is_running() {
+    pid_exists || return 1
+    [ -r "/proc/${PID}/cmdline" ] || return 0
+    tr '\000' ' ' < "/proc/${PID}/cmdline" | grep -q 'fn-knock-entrypoint'
+}
+
+pid_owns_isolated_group() {
+    [ -n "${PID:-}" ] || return 1
+    if [ -r "/proc/${PID}/stat" ]; then
+        process_stat="$(cat "/proc/${PID}/stat" 2>/dev/null)" || return 1
+        process_stat="${process_stat##*) }"
+        set -- ${process_stat}
+        [ "${3:-}" = "${PID}" ] && [ "${4:-}" = "${PID}" ]
+        return
+    fi
+    process_group="$(ps -o pgid= -p "${PID}" 2>/dev/null | tr -d ' ')"
+    [ "${process_group}" = "${PID}" ]
+}
+
+recorded_child_is_running() {
+    child_pid_file="$1"
+    child_command="$2"
+    [ -r "${child_pid_file}" ] || return 1
+    CHILD_PID="$(cat "${child_pid_file}" 2>/dev/null)"
+    case "${CHILD_PID}" in
+        ''|*[!0-9]*) return 1 ;;
+    esac
+    kill -0 "${CHILD_PID}" 2>/dev/null || return 1
+    if [ -r "/proc/${CHILD_PID}/cmdline" ]; then
+        tr '\000' ' ' < "/proc/${CHILD_PID}/cmdline" | grep -q "${child_command}"
+    else
+        ps -o command= -p "${CHILD_PID}" 2>/dev/null | grep -q "${child_command}"
+    fi
+}
+
+recorded_children_are_running() {
+    recorded_child_is_running "${MANAGEMENT_PID_FILE}" 'server-admin-rs' || \
+        recorded_child_is_running "${GATEWAY_PID_FILE}" 'go-reauth-proxy'
+}
+
+signal_recorded_child() {
+    signal="$1"
+    child_pid_file="$2"
+    child_command="$3"
+    if recorded_child_is_running "${child_pid_file}" "${child_command}"; then
+        kill "-${signal}" "${CHILD_PID}" 2>/dev/null || true
+    fi
+}
+
+stop_recorded_child() {
+    signal="$1"
+    child_pid_file="$2"
+    child_command="$3"
+    timeout="$4"
+    signal_recorded_child "${signal}" "${child_pid_file}" "${child_command}"
+    elapsed=0
+    while recorded_child_is_running "${child_pid_file}" "${child_command}" && \
+        [ "${elapsed}" -lt "${timeout}" ]; do
+        elapsed=$((elapsed + 1))
+        sleep 1
+    done
+    ! recorded_child_is_running "${child_pid_file}" "${child_command}"
+}
+
+stop_recorded_children() {
+    signal="$1"
+    timeout="$2"
+    stop_recorded_child "${signal}" "${GATEWAY_PID_FILE}" 'go-reauth-proxy' "${timeout}" || return 1
+    stop_recorded_child "${signal}" "${MANAGEMENT_PID_FILE}" 'server-admin-rs' "${timeout}"
+}
+
+remove_runtime_pid_files() {
+    rm -f "${PID_FILE}" "${MANAGEMENT_PID_FILE}" "${GATEWAY_PID_FILE}" "${READINESS_MARKER}"
+}
+
+signal_service() {
+    signal="$1"
+    pid_is_running || return 0
+    if pid_owns_isolated_group; then
+        # dash and BusyBox sh reject `kill ... -- -PGID`; the negative operand is portable.
+        kill "-${signal}" "-${PID}" 2>/dev/null || kill "-${signal}" "${PID}" 2>/dev/null || true
+    else
+        kill "-${signal}" "${PID}" 2>/dev/null || true
+    fi
+}
+
+signal_supervisor() {
+    signal="$1"
+    pid_is_running || return 0
+    kill "-${signal}" "${PID}" 2>/dev/null || true
+}
+
+wait_for_service_exit() {
+    timeout="$1"
+    elapsed=0
+    while { pid_is_running || recorded_children_are_running; } && [ "${elapsed}" -lt "${timeout}" ]; do
+        elapsed=$((elapsed + 1))
+        sleep 1
+    done
+    ! pid_is_running && ! recorded_children_are_running
+}
+
+write_runtime_ports() {
+    umask 022
+    {
+        printf 'ADMIN_TARGET_HOST=127.0.0.1\n'
+        printf 'ADMIN_TARGET_PORT=%s\n' "${BACKEND_PORT}"
+        printf 'BACKEND_PORT=%s\n' "${BACKEND_PORT}"
+        printf 'AUTH_PORT=%s\n' "${AUTH_PORT:-7997}"
+        printf 'GO_BACKEND_PORT=%s\n' "${GO_BACKEND_PORT:-7996}"
+        printf 'GO_REPROXY_PORT=%s\n' "${GO_REPROXY_PORT:-7999}"
+    } > "${PKGVAR}/runtime-ports.env"
+    chmod 644 "${PKGVAR}/runtime-ports.env"
+}
+
+launch_service() {
+    SESSION_LAUNCHER="$(command -v setsid 2>/dev/null || true)"
+
+    umask 077
+    if [ -n "${SESSION_LAUNCHER}" ]; then
+        PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/syno/bin" \
+        HOME="${PKGHOME}" \
+        TMPDIR="${PKGTMP}" \
+        FN_KNOCK_APP_HOME="${PKGDEST}" \
+        FN_KNOCK_DATA_DIR="${PKGVAR}" \
+        FN_KNOCK_GATEWAY_CONFIG_DIR="${PKGVAR}/gateway" \
+        FN_KNOCK_SUPERVISOR_PID_FILE="${PID_FILE}" \
+        FN_KNOCK_START_TIMEOUT_SECONDS="${START_TIMEOUT_SECONDS}" \
+        FN_KNOCK_SYNOLOGY_START_TIMEOUT_SECONDS="${START_TIMEOUT_SECONDS}" \
+        BACKEND_PORT="${BACKEND_PORT}" \
+        AUTH_PORT="${AUTH_PORT:-7997}" \
+        GO_BACKEND_PORT="${GO_BACKEND_PORT:-7996}" \
+        GO_REPROXY_PORT="${GO_REPROXY_PORT:-7999}" \
+        nohup "${SESSION_LAUNCHER}" "${ENTRYPOINT}" >> "${LOG_FILE}" 2>&1 &
+    else
+        PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/syno/bin" \
+        HOME="${PKGHOME}" \
+        TMPDIR="${PKGTMP}" \
+        FN_KNOCK_APP_HOME="${PKGDEST}" \
+        FN_KNOCK_DATA_DIR="${PKGVAR}" \
+        FN_KNOCK_GATEWAY_CONFIG_DIR="${PKGVAR}/gateway" \
+        FN_KNOCK_SUPERVISOR_PID_FILE="${PID_FILE}" \
+        FN_KNOCK_START_TIMEOUT_SECONDS="${START_TIMEOUT_SECONDS}" \
+        FN_KNOCK_SYNOLOGY_START_TIMEOUT_SECONDS="${START_TIMEOUT_SECONDS}" \
+        BACKEND_PORT="${BACKEND_PORT}" \
+        AUTH_PORT="${AUTH_PORT:-7997}" \
+        GO_BACKEND_PORT="${GO_BACKEND_PORT:-7996}" \
+        GO_REPROXY_PORT="${GO_REPROXY_PORT:-7999}" \
+        nohup "${ENTRYPOINT}" >> "${LOG_FILE}" 2>&1 &
+    fi
+    # Keep the transient launcher PID in memory only. Writing it to PID_FILE
+    # can race with fn-knock-entrypoint registering its actual supervisor PID.
+    LAUNCHER_PID=$!
+}
+
+stop_service() {
+    if ! pid_is_running && ! recorded_children_are_running; then
+        remove_runtime_pid_files
+        return 0
+    fi
+
+    if pid_is_running; then
+        # Let the supervisor drain the public gateway before it stops the
+        # authentication backend. Signalling the process group here would
+        # terminate both children at once and recreate the broken-upstream gap.
+        signal_supervisor TERM
+    else
+        stop_recorded_children TERM "${STOP_TIMEOUT_SECONDS}" || true
+    fi
+    if ! wait_for_service_exit "${STOP_TIMEOUT_SECONDS}"; then
+        signal_service KILL
+        stop_recorded_children KILL "${FORCE_KILL_TIMEOUT_SECONDS}" || true
+        wait_for_service_exit "${FORCE_KILL_TIMEOUT_SECONDS}" || {
+            printf 'fn-knock process group did not stop; PID %s is still running\n' "${PID}" \
+                > "${SYNOPKG_TEMP_LOGFILE:-/dev/null}"
+            return 1
+        }
+    fi
+    remove_runtime_pid_files
+}
+
+start_service() {
+    service_already_running=0
+    if pid_is_running; then
+        service_already_running=1
+    else
+        if recorded_children_are_running; then
+            stop_service || return 1
+        else
+            remove_runtime_pid_files
+        fi
+    fi
+    if [ "${service_already_running}" -eq 0 ]; then
+        mkdir -p "${PKGVAR}" "${PKGTMP}" "${PKGHOME}"
+        write_runtime_ports
+        launch_service
+    fi
+
+    started_at="$(date '+%s')"
+    deadline=$((started_at + START_TIMEOUT_SECONDS))
+    launch_transition_deadline=$((started_at + LAUNCH_TRANSITION_TIMEOUT_SECONDS))
+    while [ "$(date '+%s')" -lt "${deadline}" ]; do
+        # A forking setsid launcher may exit just before fn-knock-entrypoint
+        # atomically registers the long-lived supervisor PID. Allow only this
+        # short handoff window, then require the self-registered process.
+        if ! pid_exists && [ "$(date '+%s')" -ge "${launch_transition_deadline}" ]; then
+            if [ -n "${LAUNCHER_PID:-}" ] && kill -0 "${LAUNCHER_PID}" 2>/dev/null; then
+                kill -TERM "${LAUNCHER_PID}" 2>/dev/null || true
+            fi
+            rm -f "${PID_FILE}"
+            printf 'fn-knock exited during startup; see %s\n' "${LOG_FILE}" \
+                > "${SYNOPKG_TEMP_LOGFILE:-/dev/null}"
+            return 1
+        fi
+        if [ -f "${READINESS_MARKER}" ]; then
+            readiness_failure=""
+            if ! pid_is_running; then
+                readiness_failure="supervisor PID does not identify fn-knock-entrypoint"
+            elif ! recorded_child_is_running "${MANAGEMENT_PID_FILE}" 'server-admin-rs'; then
+                readiness_failure="management PID does not identify server-admin-rs"
+            elif ! recorded_child_is_running "${GATEWAY_PID_FILE}" 'go-reauth-proxy'; then
+                readiness_failure="gateway PID does not identify go-reauth-proxy"
+            fi
+            if [ -z "${readiness_failure}" ]; then
+                return 0
+            fi
+            printf '[fn-knock] readiness rejected: %s\n' "${readiness_failure}" >> "${LOG_FILE}"
+            stop_service || true
+            printf 'fn-knock readiness responded but process validation failed: %s; see %s\n' \
+                "${readiness_failure}" "${LOG_FILE}" > "${SYNOPKG_TEMP_LOGFILE:-/dev/null}"
+            return 1
+        fi
+        sleep 1
+    done
+
+    if ! pid_exists && [ -n "${LAUNCHER_PID:-}" ] && kill -0 "${LAUNCHER_PID}" 2>/dev/null; then
+        kill -TERM "${LAUNCHER_PID}" 2>/dev/null || true
+    fi
+    stop_service || true
+    printf 'fn-knock readiness timed out after %s seconds; see %s\n' \
+        "${START_TIMEOUT_SECONDS}" "${LOG_FILE}" > "${SYNOPKG_TEMP_LOGFILE:-/dev/null}"
+    return 1
+}
+
+validate_configuration() {
+    is_positive_integer "${START_TIMEOUT_SECONDS}" || return 1
+    is_positive_integer "${STOP_TIMEOUT_SECONDS}" || return 1
+    is_positive_integer "${FORCE_KILL_TIMEOUT_SECONDS}" || return 1
+    is_positive_integer "${LAUNCH_TRANSITION_TIMEOUT_SECONDS}" || return 1
+    return 0
+}
+
+case "${1:-}" in
+    start)
+        validate_configuration || exit 1
+        start_service
+        ;;
+    stop)
+        validate_configuration || exit 1
+        stop_service
+        ;;
+    status)
+        if pid_is_running && [ -f "${READINESS_MARKER}" ] && \
+            recorded_child_is_running "${MANAGEMENT_PID_FILE}" 'server-admin-rs' && \
+            recorded_child_is_running "${GATEWAY_PID_FILE}" 'go-reauth-proxy'; then
+            exit 0
+        fi
+        { [ -e "${PID_FILE}" ] || [ -e "${MANAGEMENT_PID_FILE}" ] || \
+            [ -e "${GATEWAY_PID_FILE}" ] || [ -e "${READINESS_MARKER}" ]; } && exit 1
+        exit 3
+        ;;
+    prestart)
+        [ -x "${ENTRYPOINT}" ] || {
+            printf 'Missing executable: %s\n' "${ENTRYPOINT}" > "${SYNOPKG_TEMP_LOGFILE:-/dev/null}"
+            exit 1
+        }
+        validate_configuration || {
+            printf 'Invalid fn-knock lifecycle timeout configuration\n' > "${SYNOPKG_TEMP_LOGFILE:-/dev/null}"
+            exit 1
+        }
+        ;;
+    prestop) ;;
+    *) exit 1 ;;
+esac
+
+exit $?

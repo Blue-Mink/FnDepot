@@ -1,1 +1,210 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaApzZXQgLWV1byBwaXBlZmFpbAoKUk9PVF9ESVI9IiQoY2QgIiQoZGlybmFtZSAiJHtCQVNIX1NPVVJDRVswXX0iKS8uLiIgJiYgcHdkKSIKc291cmNlICIke1JPT1RfRElSfS9zY3JpcHRzL3ZlcnNpb24uc2giCgpBUkNIPSIkezE6LSR7Rk5fS05PQ0tfTUFDT1NfQVJDSDotfX0iClJVTlRJTUVfRElSPSIkezI6LSR7Rk5fS05PQ0tfUFJFUEFSRURfUlVOVElNRV9ESVI6LSR7Uk9PVF9ESVJ9L2Rpc3QvZm4ta25vY2stYXJ0aWZhY3RzL3J1bnRpbWV9fSIKR09fUkVQT1NJVE9SWT0iJHszOi0ke0ZOX0tOT0NLX0dPX1JFQVVUSF9QUk9YWV9ESVI6LSR7Uk9PVF9ESVJ9Ly4uL0dvLVJlYXV0aC1Qcm94eX19IgpPVVRQVVRfRElSPSIkezQ6LSR7Rk5fS05PQ0tfTUFDT1NfT1VUUFVUX0RJUjotJHtST09UX0RJUn0vZGlzdC9mbi1rbm9jay1tYWNvc319IgpWRVJTSU9OPSIke0ZOX0tOT0NLX1ZFUlNJT046LSQoZm5fa25vY2tfYXBwX3ZlcnNpb24gIiR7Uk9PVF9ESVJ9Iil9IgpSRVBPU0lUT1JZX1ZFUlNJT049IiQoZm5fa25vY2tfYXBwX3ZlcnNpb24gIiR7Uk9PVF9ESVJ9IikiClNPVVJDRV9DT01NSVQ9IiR7Rk5fS05PQ0tfU09VUkNFX0NPTU1JVDotJChnaXQgLUMgIiR7Uk9PVF9ESVJ9IiByZXYtcGFyc2UgSEVBRCl9IgpHT19DT01NSVQ9IiIKTUlOX01BQ09TX1ZFUlNJT049IiR7Rk5fS05PQ0tfTUlOX01BQ09TX1ZFUlNJT046LTEzLjB9IgpQUkVCVUlMVF9PTkxZPSIke0ZOX0tOT0NLX01BQ09TX1BSRUJVSUxUX09OTFk6LTB9IgpCVUlMRF9ESVI9IiR7Rk5fS05PQ0tfTUFDT1NfQlVJTERfRElSOi0ke1JPT1RfRElSfS9kaXN0L21hY29zLWJ1aWxkLSR7QVJDSH19IgoKbG9nKCkgeyBwcmludGYgJ1tmbi1rbm9jay1tYWNvc10gJXNcbicgIiQqIjsgfQpmYWlsKCkgeyBwcmludGYgJ1tmbi1rbm9jay1tYWNvc10gRVJST1I6ICVzXG4nICIkKiIgPiYyOyBleGl0IDE7IH0KCmNhc2UgIiR7QVJDSH0iIGluCiAgYW1kNjQpIFJVU1RfVEFSR0VUPXg4Nl82NC1hcHBsZS1kYXJ3aW47IE5BVElWRV9BUkNIPXg4Nl82NCA7OwogIGFybTY0KSBSVVNUX1RBUkdFVD1hYXJjaDY0LWFwcGxlLWRhcndpbjsgTkFUSVZFX0FSQ0g9YXJtNjQgOzsKICAqKSBmYWlsICJ1c2FnZTogJDAgPGFtZDY0fGFybTY0PiBbcnVudGltZS1kaXJdIFtHby1SZWF1dGgtUHJveHktZGlyXSBbb3V0cHV0LWRpcl0iIDs7CmVzYWMKCmZvciBjb21tYW5kX25hbWUgaW4gZmlsZSBnaXQgb3Rvb2wgbGlwbyB0YXIgZ3ppcCBzaGFzdW0gZGl0dG8gc3RyaW5ncyBwbHV0aWw7IGRvCiAgY29tbWFuZCAtdiAiJHtjb21tYW5kX25hbWV9IiA+L2Rldi9udWxsIDI+JjEgfHwgZmFpbCAibWlzc2luZyByZXF1aXJlZCBjb21tYW5kOiAke2NvbW1hbmRfbmFtZX0iCmRvbmUKWyAiJCh1bmFtZSAtcykiID0gRGFyd2luIF0gfHwgZmFpbCAibWFjT1MgcGFja2FnZXMgbXVzdCBiZSBidWlsdCBvbiBhIG5hdGl2ZSBtYWNPUyBydW5uZXIiClsgIiQodW5hbWUgLW0pIiA9ICIke05BVElWRV9BUkNIfSIgXSB8fCBmYWlsICIke0FSQ0h9IHBhY2thZ2UgcmVxdWlyZXMgbmF0aXZlICR7TkFUSVZFX0FSQ0h9IHJ1bm5lciIKWyAtZCAiJHtSVU5USU1FX0RJUn0vdWkvd3d3IiBdIHx8IGZhaWwgIm1pc3NpbmcgcHJlcGFyZWQgYWRtaW4gVUk6ICR7UlVOVElNRV9ESVJ9L3VpL3d3dyIKWyAtZCAiJHtSVU5USU1FX0RJUn0vc2VydmVyLWF1dGgtdmlldy9kaXN0IiBdIHx8IGZhaWwgIm1pc3NpbmcgcHJlcGFyZWQgYXV0aCBVSSIKWyAtZiAiJHtSVU5USU1FX0RJUn0vc2VydmVyL3NlcnZlci1hZG1pbi9yZXNvdXJjZXMvYWNtZXNoLnppcCIgXSB8fCBmYWlsICJtaXNzaW5nIEFDTUUgYnVuZGxlIgpbIC1kICIke0dPX1JFUE9TSVRPUll9Ly5naXQiIF0gfHwgZmFpbCAiR28gZ2F0ZXdheSByZXBvc2l0b3J5IGlzIG1pc3Npbmc6ICR7R09fUkVQT1NJVE9SWX0iCnByaW50ZiAnJXNcbicgIiR7U09VUkNFX0NPTU1JVH0iIHwgZ3JlcCAtRXEgJ15bMC05YS1mQS1GXXs0MH0kJyB8fCBmYWlsICJpbnZhbGlkIHNvdXJjZSBjb21taXQiCnByaW50ZiAnJXNcbicgIiR7VkVSU0lPTn0iIHwgZ3JlcCAtRXEgJ15bMC05XVswLTlBLVphLXouXystXSokJyB8fCBmYWlsICJpbnZhbGlkIHJlbGVhc2UgdmVyc2lvbiIKcHJpbnRmICclc1xuJyAiJHtNSU5fTUFDT1NfVkVSU0lPTn0iIHwgZ3JlcCAtRXEgJ15bMC05XSsoXC5bMC05XSspezEsMn0kJyB8fCBmYWlsICJpbnZhbGlkIG1pbmltdW0gbWFjT1MgdmVyc2lvbiIKWyAiJHtWRVJTSU9OfSIgPSAiJHtSRVBPU0lUT1JZX1ZFUlNJT059IiBdIHx8IFwKICBmYWlsICJwYWNrYWdlIHZlcnNpb24gJHtWRVJTSU9OfSBkb2VzIG5vdCBtYXRjaCB2ZXJzaW9uLmpzb24gJHtSRVBPU0lUT1JZX1ZFUlNJT059IgpBQ1RVQUxfU09VUkNFX0NPTU1JVD0iJChnaXQgLUMgIiR7Uk9PVF9ESVJ9IiByZXYtcGFyc2UgSEVBRCkiClsgIiQocHJpbnRmICclcycgIiR7U09VUkNFX0NPTU1JVH0iIHwgdHIgJ1s6dXBwZXI6XScgJ1s6bG93ZXI6XScpIiA9ICIkKHByaW50ZiAnJXMnICIke0FDVFVBTF9TT1VSQ0VfQ09NTUlUfSIgfCB0ciAnWzp1cHBlcjpdJyAnWzpsb3dlcjpdJykiIF0gfHwgXAogIGZhaWwgInNvdXJjZSBjaGVja291dCAke0FDVFVBTF9TT1VSQ0VfQ09NTUlUfSBkb2VzIG5vdCBtYXRjaCAke1NPVVJDRV9DT01NSVR9IgoKQUNUVUFMX0dPX0NPTU1JVD0iJChnaXQgLUMgIiR7R09fUkVQT1NJVE9SWX0iIHJldi1wYXJzZSBIRUFEKSIKR09fQ09NTUlUPSIke0FDVFVBTF9HT19DT01NSVR9IgpwcmludGYgJyVzXG4nICIke0dPX0NPTU1JVH0iIHwgZ3JlcCAtRXEgJ15bMC05YS1mQS1GXXs0MH0kJyB8fCBmYWlsICJpbnZhbGlkIEdvIHNvdXJjZSBjb21taXQiCmJhc2ggIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvdmVyaWZ5LWdvLWNvbnRyb2wtYXBpLWNvbnRyYWN0LnNoIiAiJHtHT19SRVBPU0lUT1JZfSIKQ09OVFJPTF9BUElfVkVSU0lPTj0iJChiYXNoICIke1JPT1RfRElSfS9zY3JpcHRzL2NvbnRyb2wtYXBpLXZlcnNpb24uc2giKSIKcHJpbnRmICclc1xuJyAiJHtDT05UUk9MX0FQSV9WRVJTSU9OfSIgfCBncmVwIC1FcSAnXlsxLTldWzAtOV0qJCcgfHwgZmFpbCAiaW52YWxpZCBjb250cm9sIEFQSSB2ZXJzaW9uIgoKbWtkaXIgLXAgIiR7QlVJTERfRElSfSIgIiR7T1VUUFVUX0RJUn0iCkdPX0JJTj0iJHtCVUlMRF9ESVJ9L2dvLXJlYXV0aC1wcm94eSIKUlVTVF9CSU49IiR7QlVJTERfRElSfS9zZXJ2ZXItYWRtaW4tcnMiCgppZiBbICIke1BSRUJVSUxUX09OTFl9IiAhPSAiMSIgXTsgdGhlbgogIGNvbW1hbmQgLXYgZ28gPi9kZXYvbnVsbCAyPiYxIHx8IGZhaWwgIm1pc3NpbmcgcmVxdWlyZWQgY29tbWFuZDogZ28iCiAgY29tbWFuZCAtdiBjYXJnbyA+L2Rldi9udWxsIDI+JjEgfHwgZmFpbCAibWlzc2luZyByZXF1aXJlZCBjb21tYW5kOiBjYXJnbyIKICBjb21tYW5kIC12IHJ1c3R1cCA+L2Rldi9udWxsIDI+JjEgfHwgZmFpbCAibWlzc2luZyByZXF1aXJlZCBjb21tYW5kOiBydXN0dXAiCiAgaWYgWyAiJHtGTl9LTk9DS19HT19TS0lQX1RFU1RTOi0wfSIgIT0gIjEiIF07IHRoZW4KICAgIGxvZyAicnVubmluZyBHbyB0ZXN0cyIKICAgIChjZCAiJHtHT19SRVBPU0lUT1JZfSIgJiYgR09GTEFHUz0tbW9kPXJlYWRvbmx5IGdvIHRlc3QgLi8uLi4pCiAgZmkKICBsb2cgImJ1aWxkaW5nIEdvIGdhdGV3YXkgZm9yIGRhcndpbi8ke0FSQ0h9IgogICgKICAgIGNkICIke0dPX1JFUE9TSVRPUll9IgogICAgQ0dPX0VOQUJMRUQ9MCBHT09TPWRhcndpbiBHT0FSQ0g9IiR7QVJDSH0iIEdPRkxBR1M9LW1vZD1yZWFkb25seSBcCiAgICAgIGdvIGJ1aWxkIC10cmltcGF0aCBcCiAgICAgIC1sZGZsYWdzICItcyAtdyAtWCBnby1yZWF1dGgtcHJveHkvcGtnL3ZlcnNpb24uVmVyc2lvbj0ke1ZFUlNJT059IC1YIGdvLXJlYXV0aC1wcm94eS9wa2cvdmVyc2lvbi5Db21taXQ9JHtHT19DT01NSVR9IiBcCiAgICAgIC1vICIke0dPX0JJTn0iIC4vY21kL3NlcnZlcgogICkKCiAgZm5fa25vY2tfc3luY19ydXN0X3BhY2thZ2VfdmVyc2lvbiAiJHtST09UX0RJUn0iICJbZm4ta25vY2stbWFjb3NdIgogIHJ1c3R1cCB0YXJnZXQgYWRkICIke1JVU1RfVEFSR0VUfSIgPi9kZXYvbnVsbAogIGxvZyAiYnVpbGRpbmcgUnVzdCBhZG1pbmlzdHJhdGlvbiBzZXJ2aWNlIGZvciAke1JVU1RfVEFSR0VUfSIKICBNQUNPU1hfREVQTE9ZTUVOVF9UQVJHRVQ9IiR7TUlOX01BQ09TX1ZFUlNJT059IiBcCiAgICBGTl9LTk9DS19HSVRfQ09NTUlUPSIke1NPVVJDRV9DT01NSVR9IiBcCiAgICBGTl9LTk9DS19HQVRFV0FZX0NPTU1JVD0iJHtHT19DT01NSVR9IiBcCiAgICBDQVJHT19UQVJHRVRfRElSPSIke0JVSUxEX0RJUn0vY2FyZ28tdGFyZ2V0IiBcCiAgICBjYXJnbyBidWlsZCAtLWxvY2tlZCAtLXJlbGVhc2UgXAogICAgICAtLW1hbmlmZXN0LXBhdGggIiR7Uk9PVF9ESVJ9L2FwcHMvc2VydmVyLWFkbWluLXJzL0NhcmdvLnRvbWwiIFwKICAgICAgLS10YXJnZXQgIiR7UlVTVF9UQVJHRVR9IgogIGNwICIke0JVSUxEX0RJUn0vY2FyZ28tdGFyZ2V0LyR7UlVTVF9UQVJHRVR9L3JlbGVhc2Uvc2VydmVyLWFkbWluLXJzIiAiJHtSVVNUX0JJTn0iCmZpCgp2YWxpZGF0ZV9tYWNobygpIHsKICBsb2NhbCBiaW5hcnk9IiQxIiBsYWJlbD0iJDIiIGluZm8gYXJjaGVzIG1pbm9zCiAgWyAteCAiJHtiaW5hcnl9IiBdIHx8IGNobW9kIDA3NTUgIiR7YmluYXJ5fSIgMj4vZGV2L251bGwgfHwgdHJ1ZQogIFsgLXggIiR7YmluYXJ5fSIgXSB8fCBmYWlsICJtaXNzaW5nIGV4ZWN1dGFibGUgJHtsYWJlbH06ICR7YmluYXJ5fSIKICBpbmZvPSIkKGZpbGUgLWIgIiR7YmluYXJ5fSIpIgogIGNhc2UgIiR7QVJDSH0iIGluCiAgICBhbWQ2NCkgcHJpbnRmICclc1xuJyAiJHtpbmZvfSIgfCBncmVwIC1FcSAnTWFjaC1PIDY0LWJpdCBleGVjdXRhYmxlIHg4Nl82NCcgfHwgZmFpbCAiJHtsYWJlbH0gaXMgbm90IHg4Nl82NCBNYWNoLU86ICR7aW5mb30iIDs7CiAgICBhcm02NCkgcHJpbnRmICclc1xuJyAiJHtpbmZvfSIgfCBncmVwIC1FcSAnTWFjaC1PIDY0LWJpdCBleGVjdXRhYmxlIGFybTY0JyB8fCBmYWlsICIke2xhYmVsfSBpcyBub3QgYXJtNjQgTWFjaC1POiAke2luZm99IiA7OwogIGVzYWMKICBhcmNoZXM9IiQobGlwbyAtYXJjaHMgIiR7YmluYXJ5fSIpIgogIFsgIiR7YXJjaGVzfSIgPSAiJHtOQVRJVkVfQVJDSH0iIF0gfHwgZmFpbCAiJHtsYWJlbH0gbXVzdCBjb250YWluIG9ubHkgJHtOQVRJVkVfQVJDSH07IGZvdW5kICR7YXJjaGVzfSIKICBpZiBvdG9vbCAtTCAiJHtiaW5hcnl9IiB8IHRhaWwgLW4gKzIgfCBncmVwIC1FcSAnKC9vcHQvaG9tZWJyZXd8L3Vzci9sb2NhbHwvVXNlcnMvfC9wcml2YXRlL3RtcCknOyB0aGVuCiAgICBmYWlsICIke2xhYmVsfSBjb250YWlucyBhIGJ1aWxkLW1hY2hpbmUgb3IgSG9tZWJyZXcgZGVwZW5kZW5jeSIKICBmaQogIG1pbm9zPSIkKG90b29sIC1sICIke2JpbmFyeX0iIHwgYXdrICcKICAgICQxID09ICJjbWQiICYmICgkMiA9PSAiTENfQlVJTERfVkVSU0lPTiIgfHwgJDIgPT0gIkxDX1ZFUlNJT05fTUlOX01BQ09TWCIpIHsgaW5fdmVyc2lvbj0xOyBuZXh0IH0KICAgIGluX3ZlcnNpb24gJiYgKCQxID09ICJtaW5vcyIgfHwgJDEgPT0gInZlcnNpb24iKSB7IHByaW50ICQyOyBleGl0IH0KICAnKSIKICBbIC1uICIke21pbm9zfSIgXSB8fCBmYWlsICIke2xhYmVsfSBkb2VzIG5vdCBkZWNsYXJlIGEgbWluaW11bSBtYWNPUyB2ZXJzaW9uIgogIGF3ayAtdiBmb3VuZD0iJHttaW5vc30iIC12IGNlaWxpbmc9IiR7TUlOX01BQ09TX1ZFUlNJT059IiAnQkVHSU4gewogICAgc3BsaXQoZm91bmQsIGEsICIuIik7IHNwbGl0KGNlaWxpbmcsIGIsICIuIik7CiAgICBmb3IgKGkgPSAxOyBpIDw9IDM7IGkrKykgewogICAgICBhdiA9IChhW2ldID09ICIiID8gMCA6IGFbaV0gKyAwKTsgYnYgPSAoYltpXSA9PSAiIiA/IDAgOiBiW2ldICsgMCk7CiAgICAgIGlmIChhdiA8IGJ2KSBleGl0IDA7CiAgICAgIGlmIChhdiA+IGJ2KSBleGl0IDE7CiAgICB9CiAgICBleGl0IDA7CiAgfScgfHwgZmFpbCAiJHtsYWJlbH0gcmVxdWlyZXMgbWFjT1MgJHttaW5vc30sIGFib3ZlICR7TUlOX01BQ09TX1ZFUlNJT059Igp9Cgp2YWxpZGF0ZV9tYWNobyAiJHtHT19CSU59IiAiR28gZ2F0ZXdheSIKdmFsaWRhdGVfbWFjaG8gIiR7UlVTVF9CSU59IiAiUnVzdCBhZG1pbmlzdHJhdGlvbiBzZXJ2aWNlIgoKYmluYXJ5X2NvbnRhaW5zKCkgewogIGxvY2FsIGJpbmFyeT0iJDEiIGV4cGVjdGVkPSIkMiIgbGFiZWw9IiQzIgogIHN0cmluZ3MgLWEgIiR7YmluYXJ5fSIgfCBhd2sgLXYgd2FudGVkPSIke2V4cGVjdGVkfSIgJwogICAgaW5kZXgoJDAsIHdhbnRlZCkgeyBmb3VuZCA9IDEgfQogICAgRU5EIHsgZXhpdCBmb3VuZCA/IDAgOiAxIH0KICAnIHx8IGZhaWwgIiR7bGFiZWx9IGlzIG5vdCBlbWJlZGRlZCBpbiAkKGJhc2VuYW1lICIke2JpbmFyeX0iKSIKfQoKYmluYXJ5X2NvbnRhaW5zICIke0dPX0JJTn0iICIke1ZFUlNJT059IiAicmVsZWFzZSB2ZXJzaW9uIgpiaW5hcnlfY29udGFpbnMgIiR7UlVTVF9CSU59IiAiJHtWRVJTSU9OfSIgInJlbGVhc2UgdmVyc2lvbiIKYmluYXJ5X2NvbnRhaW5zICIke0dPX0JJTn0iICIke0dPX0NPTU1JVH0iICJHbyBzb3VyY2UgY29tbWl0IgpiaW5hcnlfY29udGFpbnMgIiR7UlVTVF9CSU59IiAiJHtTT1VSQ0VfQ09NTUlUfSIgImZuLWtub2NrIHNvdXJjZSBjb21taXQiCgpTVEFHRV9ESVI9IiQobWt0ZW1wIC1kICIke09VVFBVVF9ESVJ9L21hY29zLXN0YWdlLSR7QVJDSH0uWFhYWFhYIikiCnRyYXAgJ3JtIC1yZiAiJHtTVEFHRV9ESVJ9IicgRVhJVApSRUxFQVNFX1JPT1Q9IiR7U1RBR0VfRElSfS9mbi1rbm9jayIKbWtkaXIgLXAgXAogICIke1JFTEVBU0VfUk9PVH0vYmluIiBcCiAgIiR7UkVMRUFTRV9ST09UfS9jb25maWciIFwKICAiJHtSRUxFQVNFX1JPT1R9L2xhdW5jaGQiIFwKICAiJHtSRUxFQVNFX1JPT1R9L2luc3RhbGwiIFwKICAiJHtSRUxFQVNFX1JPT1R9L3VpL3d3dyIgXAogICIke1JFTEVBU0VfUk9PVH0vc2VydmVyLWF1dGgtdmlldy9kaXN0IiBcCiAgIiR7UkVMRUFTRV9ST09UfS9zZXJ2ZXIvc2VydmVyLWFkbWluL3Jlc291cmNlcyIKCmNwICIke0dPX0JJTn0iICIke1JFTEVBU0VfUk9PVH0vYmluL2dvLXJlYXV0aC1wcm94eSIKY3AgIiR7UlVTVF9CSU59IiAiJHtSRUxFQVNFX1JPT1R9L2Jpbi9zZXJ2ZXItYWRtaW4tcnMiCmNwICIke1JPT1RfRElSfS9kZXBsb3kvbWFjb3MvZm4ta25vY2stZW50cnlwb2ludCIgIiR7UkVMRUFTRV9ST09UfS9iaW4vZm4ta25vY2stZW50cnlwb2ludCIKY3AgIiR7Uk9PVF9ESVJ9L2RlcGxveS9tYWNvcy9rbm9jayIgIiR7UkVMRUFTRV9ST09UfS9iaW4va25vY2siCmNwICIke1JPT1RfRElSfS9kZXBsb3kvbWFjb3MvZm4ta25vY2suZW52IiAiJHtSRUxFQVNFX1JPT1R9L2NvbmZpZy9mbi1rbm9jay5lbnYiCmNwICIke1JPT1RfRElSfS9kZXBsb3kvbWFjb3MvY24uZm5rbm9jay5zZXJ2aWNlLnBsaXN0IiAiJHtSRUxFQVNFX1JPT1R9L2xhdW5jaGQvY24uZm5rbm9jay5zZXJ2aWNlLnBsaXN0IgpjcCAiJHtST09UX0RJUn0vZGVwbG95L21hY29zL2luc3RhbGwuc2giICIke1JFTEVBU0VfUk9PVH0vaW5zdGFsbC9pbnN0YWxsLnNoIgpkaXR0byAiJHtSVU5USU1FX0RJUn0vdWkvd3d3IiAiJHtSRUxFQVNFX1JPT1R9L3VpL3d3dyIKZGl0dG8gIiR7UlVOVElNRV9ESVJ9L3NlcnZlci1hdXRoLXZpZXcvZGlzdCIgIiR7UkVMRUFTRV9ST09UfS9zZXJ2ZXItYXV0aC12aWV3L2Rpc3QiCmNwICIke1JVTlRJTUVfRElSfS9zZXJ2ZXIvc2VydmVyLWFkbWluL3Jlc291cmNlcy9hY21lc2guemlwIiBcCiAgIiR7UkVMRUFTRV9ST09UfS9zZXJ2ZXIvc2VydmVyLWFkbWluL3Jlc291cmNlcy9hY21lc2guemlwIgpjaG1vZCAwNzU1ICIke1JFTEVBU0VfUk9PVH0vYmluLyIqICIke1JFTEVBU0VfUk9PVH0vaW5zdGFsbC9pbnN0YWxsLnNoIgoKY2F0ID4gIiR7UkVMRUFTRV9ST09UfS9yZWxlYXNlLmpzb24iIDw8RU9GCnsKICAidmVyc2lvbiI6ICIke1ZFUlNJT059IiwKICAiYXJjaGl0ZWN0dXJlIjogIiR7QVJDSH0iLAogICJydW50aW1lX3RhcmdldCI6ICJtYWNvcyIsCiAgIm1pbmltdW1fbWFjb3NfdmVyc2lvbiI6ICIke01JTl9NQUNPU19WRVJTSU9OfSIsCiAgInNvdXJjZV9jb21taXQiOiAiJHtTT1VSQ0VfQ09NTUlUfSIsCiAgImdhdGV3YXlfY29tbWl0IjogIiR7R09fQ09NTUlUfSIsCiAgImNvbnRyb2xfYXBpX3ZlcnNpb24iOiAke0NPTlRST0xfQVBJX1ZFUlNJT059LAogICJhcHBsZV9zaWduZWQiOiBmYWxzZQp9CkVPRgoKL3Vzci9iaW4vcGx1dGlsIC1jb252ZXJ0IGpzb24gLW8gL2Rldi9udWxsICIke1JFTEVBU0VfUk9PVH0vcmVsZWFzZS5qc29uIiA+L2Rldi9udWxsIHx8IGZhaWwgImludmFsaWQgcmVsZWFzZS5qc29uIgpbICIkKC91c3IvYmluL3BsdXRpbCAtZXh0cmFjdCB2ZXJzaW9uIHJhdyAtbyAtICIke1JFTEVBU0VfUk9PVH0vcmVsZWFzZS5qc29uIikiID0gIiR7VkVSU0lPTn0iIF0gfHwgXAogIGZhaWwgInJlbGVhc2UuanNvbiB2ZXJzaW9uIG1pc21hdGNoIgpbICIkKC91c3IvYmluL3BsdXRpbCAtZXh0cmFjdCBhcmNoaXRlY3R1cmUgcmF3IC1vIC0gIiR7UkVMRUFTRV9ST09UfS9yZWxlYXNlLmpzb24iKSIgPSAiJHtBUkNIfSIgXSB8fCBcCiAgZmFpbCAicmVsZWFzZS5qc29uIGFyY2hpdGVjdHVyZSBtaXNtYXRjaCIKWyAiJCgvdXNyL2Jpbi9wbHV0aWwgLWV4dHJhY3QgcnVudGltZV90YXJnZXQgcmF3IC1vIC0gIiR7UkVMRUFTRV9ST09UfS9yZWxlYXNlLmpzb24iKSIgPSBtYWNvcyBdIHx8IFwKICBmYWlsICJyZWxlYXNlLmpzb24gcnVudGltZSB0YXJnZXQgbWlzbWF0Y2giCmlmIGZpbmQgIiR7UkVMRUFTRV9ST09UfSIgLXR5cGUgbCAtcHJpbnQgLXF1aXQgfCBncmVwIC1xIC47IHRoZW4KICBmYWlsICJyZWxlYXNlIHN0YWdpbmcgdHJlZSBjb250YWlucyBzeW1ib2xpYyBsaW5rcyIKZmkKaWYgZmluZCAiJHtSRUxFQVNFX1JPT1R9IiAhIC10eXBlIGYgISAtdHlwZSBkIC1wcmludCAtcXVpdCB8IGdyZXAgLXEgLjsgdGhlbgogIGZhaWwgInJlbGVhc2Ugc3RhZ2luZyB0cmVlIGNvbnRhaW5zIHNwZWNpYWwgZmlsZXMiCmZpCgpmaW5kICIke1JFTEVBU0VfUk9PVH0iIC1kZXB0aCAtZXhlYyB0b3VjaCAtdCAxOTcwMDEwMTAwMDAge30gKwpBUkNISVZFPSIke09VVFBVVF9ESVJ9L2ZuLWtub2NrLW1hY29zLSR7VkVSU0lPTn0tJHtBUkNIfS50YXIuZ3oiClRFTVBfQVJDSElWRT0iJHtBUkNISVZFfS50bXAiCnJtIC1mICIke1RFTVBfQVJDSElWRX0iCkNPUFlGSUxFX0RJU0FCTEU9MSB0YXIgLS11aWQgMCAtLWdpZCAwIC0tdW5hbWUgcm9vdCAtLWduYW1lIHJvb3QgLWNmIC0gLUMgIiR7U1RBR0VfRElSfSIgZm4ta25vY2sgfCBcCiAgZ3ppcCAtbiAtOSA+ICIke1RFTVBfQVJDSElWRX0iCnRhciAtdHpmICIke1RFTVBfQVJDSElWRX0iID4gIiR7VEVNUF9BUkNISVZFfS5saXN0IgpncmVwIC1xeCAnZm4ta25vY2svcmVsZWFzZS5qc29uJyAiJHtURU1QX0FSQ0hJVkV9Lmxpc3QiIHx8IGZhaWwgImludmFsaWQgYXJjaGl2ZSBsYXlvdXQiCmlmIGF3ayAnCiAgJDAgIT0gImZuLWtub2NrIiAmJiBpbmRleCgkMCwgImZuLWtub2NrLyIpICE9IDEgeyBiYWQ9MSB9CiAgJDAgfiAvKF58XC8pXC5cLj8oJHxcLykvIHx8ICQwIH4gL1tbOmNudHJsOl1cXF0vIHsgYmFkPTEgfQogIEVORCB7IGV4aXQgYmFkID8gMCA6IDEgfQonICIke1RFTVBfQVJDSElWRX0ubGlzdCI7IHRoZW4KICBmYWlsICJhcmNoaXZlIGNvbnRhaW5zIHVuc2FmZSBwYXRocyIKZmkKdGFyIC10dnpmICIke1RFTVBfQVJDSElWRX0iID4gIiR7VEVNUF9BUkNISVZFfS52ZXJib3NlIgppZiBhd2sgJ3N1YnN0cigkMCwgMSwgMSkgIT0gIi0iICYmIHN1YnN0cigkMCwgMSwgMSkgIT0gImQiIHsgYmFkPTEgfSBFTkQgeyBleGl0IGJhZCA/IDAgOiAxIH0nIFwKICAiJHtURU1QX0FSQ0hJVkV9LnZlcmJvc2UiOyB0aGVuCiAgZmFpbCAiYXJjaGl2ZSBjb250YWlucyBsaW5rcyBvciBzcGVjaWFsIGZpbGVzIgpmaQpybSAtZiAiJHtURU1QX0FSQ0hJVkV9Lmxpc3QiICIke1RFTVBfQVJDSElWRX0udmVyYm9zZSIKbXYgIiR7VEVNUF9BUkNISVZFfSIgIiR7QVJDSElWRX0iClNIQTI1Nj0iJChzaGFzdW0gLWEgMjU2ICIke0FSQ0hJVkV9IiB8IGF3ayAne3ByaW50ICQxfScpIgpybSAtcmYgIiR7U1RBR0VfRElSfSIKdHJhcCAtIEVYSVQKbG9nICJwYWNrYWdlIHJlYWR5OiAke0FSQ0hJVkV9IChzaGEyNTY9JHtTSEEyNTZ9KSIK
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+source "${ROOT_DIR}/scripts/version.sh"
+
+ARCH="${1:-${FN_KNOCK_MACOS_ARCH:-}}"
+RUNTIME_DIR="${2:-${FN_KNOCK_PREPARED_RUNTIME_DIR:-${ROOT_DIR}/dist/fn-knock-artifacts/runtime}}"
+GO_REPOSITORY="${3:-${FN_KNOCK_GO_REAUTH_PROXY_DIR:-${ROOT_DIR}/../Go-Reauth-Proxy}}"
+OUTPUT_DIR="${4:-${FN_KNOCK_MACOS_OUTPUT_DIR:-${ROOT_DIR}/dist/fn-knock-macos}}"
+VERSION="${FN_KNOCK_VERSION:-$(fn_knock_app_version "${ROOT_DIR}")}"
+REPOSITORY_VERSION="$(fn_knock_app_version "${ROOT_DIR}")"
+SOURCE_COMMIT="${FN_KNOCK_SOURCE_COMMIT:-$(git -C "${ROOT_DIR}" rev-parse HEAD)}"
+GO_COMMIT=""
+MIN_MACOS_VERSION="${FN_KNOCK_MIN_MACOS_VERSION:-13.0}"
+PREBUILT_ONLY="${FN_KNOCK_MACOS_PREBUILT_ONLY:-0}"
+BUILD_DIR="${FN_KNOCK_MACOS_BUILD_DIR:-${ROOT_DIR}/dist/macos-build-${ARCH}}"
+
+log() { printf '[fn-knock-macos] %s\n' "$*"; }
+fail() { printf '[fn-knock-macos] ERROR: %s\n' "$*" >&2; exit 1; }
+
+case "${ARCH}" in
+  amd64) RUST_TARGET=x86_64-apple-darwin; NATIVE_ARCH=x86_64 ;;
+  arm64) RUST_TARGET=aarch64-apple-darwin; NATIVE_ARCH=arm64 ;;
+  *) fail "usage: $0 <amd64|arm64> [runtime-dir] [Go-Reauth-Proxy-dir] [output-dir]" ;;
+esac
+
+for command_name in file git otool lipo tar gzip shasum ditto strings plutil; do
+  command -v "${command_name}" >/dev/null 2>&1 || fail "missing required command: ${command_name}"
+done
+[ "$(uname -s)" = Darwin ] || fail "macOS packages must be built on a native macOS runner"
+[ "$(uname -m)" = "${NATIVE_ARCH}" ] || fail "${ARCH} package requires native ${NATIVE_ARCH} runner"
+[ -d "${RUNTIME_DIR}/ui/www" ] || fail "missing prepared admin UI: ${RUNTIME_DIR}/ui/www"
+[ -d "${RUNTIME_DIR}/server-auth-view/dist" ] || fail "missing prepared auth UI"
+[ -f "${RUNTIME_DIR}/server/server-admin/resources/acmesh.zip" ] || fail "missing ACME bundle"
+[ -d "${GO_REPOSITORY}/.git" ] || fail "Go gateway repository is missing: ${GO_REPOSITORY}"
+printf '%s\n' "${SOURCE_COMMIT}" | grep -Eq '^[0-9a-fA-F]{40}$' || fail "invalid source commit"
+printf '%s\n' "${VERSION}" | grep -Eq '^[0-9][0-9A-Za-z._+-]*$' || fail "invalid release version"
+printf '%s\n' "${MIN_MACOS_VERSION}" | grep -Eq '^[0-9]+(\.[0-9]+){1,2}$' || fail "invalid minimum macOS version"
+[ "${VERSION}" = "${REPOSITORY_VERSION}" ] || \
+  fail "package version ${VERSION} does not match version.json ${REPOSITORY_VERSION}"
+ACTUAL_SOURCE_COMMIT="$(git -C "${ROOT_DIR}" rev-parse HEAD)"
+[ "$(printf '%s' "${SOURCE_COMMIT}" | tr '[:upper:]' '[:lower:]')" = "$(printf '%s' "${ACTUAL_SOURCE_COMMIT}" | tr '[:upper:]' '[:lower:]')" ] || \
+  fail "source checkout ${ACTUAL_SOURCE_COMMIT} does not match ${SOURCE_COMMIT}"
+
+ACTUAL_GO_COMMIT="$(git -C "${GO_REPOSITORY}" rev-parse HEAD)"
+GO_COMMIT="${ACTUAL_GO_COMMIT}"
+printf '%s\n' "${GO_COMMIT}" | grep -Eq '^[0-9a-fA-F]{40}$' || fail "invalid Go source commit"
+bash "${ROOT_DIR}/scripts/verify-go-control-api-contract.sh" "${GO_REPOSITORY}"
+CONTROL_API_VERSION="$(bash "${ROOT_DIR}/scripts/control-api-version.sh")"
+printf '%s\n' "${CONTROL_API_VERSION}" | grep -Eq '^[1-9][0-9]*$' || fail "invalid control API version"
+
+mkdir -p "${BUILD_DIR}" "${OUTPUT_DIR}"
+GO_BIN="${BUILD_DIR}/go-reauth-proxy"
+RUST_BIN="${BUILD_DIR}/server-admin-rs"
+
+if [ "${PREBUILT_ONLY}" != "1" ]; then
+  command -v go >/dev/null 2>&1 || fail "missing required command: go"
+  command -v cargo >/dev/null 2>&1 || fail "missing required command: cargo"
+  command -v rustup >/dev/null 2>&1 || fail "missing required command: rustup"
+  if [ "${FN_KNOCK_GO_SKIP_TESTS:-0}" != "1" ]; then
+    log "running Go tests"
+    (cd "${GO_REPOSITORY}" && GOFLAGS=-mod=readonly go test ./...)
+  fi
+  log "building Go gateway for darwin/${ARCH}"
+  (
+    cd "${GO_REPOSITORY}"
+    CGO_ENABLED=0 GOOS=darwin GOARCH="${ARCH}" GOFLAGS=-mod=readonly \
+      go build -trimpath \
+      -ldflags "-s -w -X go-reauth-proxy/pkg/version.Version=${VERSION} -X go-reauth-proxy/pkg/version.Commit=${GO_COMMIT}" \
+      -o "${GO_BIN}" ./cmd/server
+  )
+
+  fn_knock_sync_rust_package_version "${ROOT_DIR}" "[fn-knock-macos]"
+  rustup target add "${RUST_TARGET}" >/dev/null
+  log "building Rust administration service for ${RUST_TARGET}"
+  MACOSX_DEPLOYMENT_TARGET="${MIN_MACOS_VERSION}" \
+    FN_KNOCK_GIT_COMMIT="${SOURCE_COMMIT}" \
+    FN_KNOCK_GATEWAY_COMMIT="${GO_COMMIT}" \
+    CARGO_TARGET_DIR="${BUILD_DIR}/cargo-target" \
+    cargo build --locked --release \
+      --manifest-path "${ROOT_DIR}/apps/server-admin-rs/Cargo.toml" \
+      --target "${RUST_TARGET}"
+  cp "${BUILD_DIR}/cargo-target/${RUST_TARGET}/release/server-admin-rs" "${RUST_BIN}"
+fi
+
+validate_macho() {
+  local binary="$1" label="$2" info arches minos
+  [ -x "${binary}" ] || chmod 0755 "${binary}" 2>/dev/null || true
+  [ -x "${binary}" ] || fail "missing executable ${label}: ${binary}"
+  info="$(file -b "${binary}")"
+  case "${ARCH}" in
+    amd64) printf '%s\n' "${info}" | grep -Eq 'Mach-O 64-bit executable x86_64' || fail "${label} is not x86_64 Mach-O: ${info}" ;;
+    arm64) printf '%s\n' "${info}" | grep -Eq 'Mach-O 64-bit executable arm64' || fail "${label} is not arm64 Mach-O: ${info}" ;;
+  esac
+  arches="$(lipo -archs "${binary}")"
+  [ "${arches}" = "${NATIVE_ARCH}" ] || fail "${label} must contain only ${NATIVE_ARCH}; found ${arches}"
+  if otool -L "${binary}" | tail -n +2 | grep -Eq '(/opt/homebrew|/usr/local|/Users/|/private/tmp)'; then
+    fail "${label} contains a build-machine or Homebrew dependency"
+  fi
+  minos="$(otool -l "${binary}" | awk '
+    $1 == "cmd" && ($2 == "LC_BUILD_VERSION" || $2 == "LC_VERSION_MIN_MACOSX") { in_version=1; next }
+    in_version && ($1 == "minos" || $1 == "version") { print $2; exit }
+  ')"
+  [ -n "${minos}" ] || fail "${label} does not declare a minimum macOS version"
+  awk -v found="${minos}" -v ceiling="${MIN_MACOS_VERSION}" 'BEGIN {
+    split(found, a, "."); split(ceiling, b, ".");
+    for (i = 1; i <= 3; i++) {
+      av = (a[i] == "" ? 0 : a[i] + 0); bv = (b[i] == "" ? 0 : b[i] + 0);
+      if (av < bv) exit 0;
+      if (av > bv) exit 1;
+    }
+    exit 0;
+  }' || fail "${label} requires macOS ${minos}, above ${MIN_MACOS_VERSION}"
+}
+
+validate_macho "${GO_BIN}" "Go gateway"
+validate_macho "${RUST_BIN}" "Rust administration service"
+
+binary_contains() {
+  local binary="$1" expected="$2" label="$3"
+  strings -a "${binary}" | awk -v wanted="${expected}" '
+    index($0, wanted) { found = 1 }
+    END { exit found ? 0 : 1 }
+  ' || fail "${label} is not embedded in $(basename "${binary}")"
+}
+
+binary_contains "${GO_BIN}" "${VERSION}" "release version"
+binary_contains "${RUST_BIN}" "${VERSION}" "release version"
+binary_contains "${GO_BIN}" "${GO_COMMIT}" "Go source commit"
+binary_contains "${RUST_BIN}" "${SOURCE_COMMIT}" "fn-knock source commit"
+
+STAGE_DIR="$(mktemp -d "${OUTPUT_DIR}/macos-stage-${ARCH}.XXXXXX")"
+trap 'rm -rf "${STAGE_DIR}"' EXIT
+RELEASE_ROOT="${STAGE_DIR}/fn-knock"
+mkdir -p \
+  "${RELEASE_ROOT}/bin" \
+  "${RELEASE_ROOT}/config" \
+  "${RELEASE_ROOT}/launchd" \
+  "${RELEASE_ROOT}/install" \
+  "${RELEASE_ROOT}/ui/www" \
+  "${RELEASE_ROOT}/server-auth-view/dist" \
+  "${RELEASE_ROOT}/server/server-admin/resources"
+
+cp "${GO_BIN}" "${RELEASE_ROOT}/bin/go-reauth-proxy"
+cp "${RUST_BIN}" "${RELEASE_ROOT}/bin/server-admin-rs"
+cp "${ROOT_DIR}/deploy/macos/fn-knock-entrypoint" "${RELEASE_ROOT}/bin/fn-knock-entrypoint"
+cp "${ROOT_DIR}/deploy/macos/knock" "${RELEASE_ROOT}/bin/knock"
+cp "${ROOT_DIR}/deploy/macos/fn-knock.env" "${RELEASE_ROOT}/config/fn-knock.env"
+cp "${ROOT_DIR}/deploy/macos/cn.fnknock.service.plist" "${RELEASE_ROOT}/launchd/cn.fnknock.service.plist"
+cp "${ROOT_DIR}/deploy/macos/install.sh" "${RELEASE_ROOT}/install/install.sh"
+ditto "${RUNTIME_DIR}/ui/www" "${RELEASE_ROOT}/ui/www"
+ditto "${RUNTIME_DIR}/server-auth-view/dist" "${RELEASE_ROOT}/server-auth-view/dist"
+cp "${RUNTIME_DIR}/server/server-admin/resources/acmesh.zip" \
+  "${RELEASE_ROOT}/server/server-admin/resources/acmesh.zip"
+chmod 0755 "${RELEASE_ROOT}/bin/"* "${RELEASE_ROOT}/install/install.sh"
+
+cat > "${RELEASE_ROOT}/release.json" <<EOF
+{
+  "version": "${VERSION}",
+  "architecture": "${ARCH}",
+  "runtime_target": "macos",
+  "minimum_macos_version": "${MIN_MACOS_VERSION}",
+  "source_commit": "${SOURCE_COMMIT}",
+  "gateway_commit": "${GO_COMMIT}",
+  "control_api_version": ${CONTROL_API_VERSION},
+  "apple_signed": false
+}
+EOF
+
+/usr/bin/plutil -convert json -o /dev/null "${RELEASE_ROOT}/release.json" >/dev/null || fail "invalid release.json"
+[ "$(/usr/bin/plutil -extract version raw -o - "${RELEASE_ROOT}/release.json")" = "${VERSION}" ] || \
+  fail "release.json version mismatch"
+[ "$(/usr/bin/plutil -extract architecture raw -o - "${RELEASE_ROOT}/release.json")" = "${ARCH}" ] || \
+  fail "release.json architecture mismatch"
+[ "$(/usr/bin/plutil -extract runtime_target raw -o - "${RELEASE_ROOT}/release.json")" = macos ] || \
+  fail "release.json runtime target mismatch"
+if find "${RELEASE_ROOT}" -type l -print -quit | grep -q .; then
+  fail "release staging tree contains symbolic links"
+fi
+if find "${RELEASE_ROOT}" ! -type f ! -type d -print -quit | grep -q .; then
+  fail "release staging tree contains special files"
+fi
+
+find "${RELEASE_ROOT}" -depth -exec touch -t 197001010000 {} +
+ARCHIVE="${OUTPUT_DIR}/fn-knock-macos-${VERSION}-${ARCH}.tar.gz"
+TEMP_ARCHIVE="${ARCHIVE}.tmp"
+rm -f "${TEMP_ARCHIVE}"
+COPYFILE_DISABLE=1 tar --uid 0 --gid 0 --uname root --gname root -cf - -C "${STAGE_DIR}" fn-knock | \
+  gzip -n -9 > "${TEMP_ARCHIVE}"
+tar -tzf "${TEMP_ARCHIVE}" > "${TEMP_ARCHIVE}.list"
+grep -qx 'fn-knock/release.json' "${TEMP_ARCHIVE}.list" || fail "invalid archive layout"
+if awk '
+  $0 != "fn-knock" && index($0, "fn-knock/") != 1 { bad=1 }
+  $0 ~ /(^|\/)\.\.?($|\/)/ || $0 ~ /[[:cntrl:]\\]/ { bad=1 }
+  END { exit bad ? 0 : 1 }
+' "${TEMP_ARCHIVE}.list"; then
+  fail "archive contains unsafe paths"
+fi
+tar -tvzf "${TEMP_ARCHIVE}" > "${TEMP_ARCHIVE}.verbose"
+if awk 'substr($0, 1, 1) != "-" && substr($0, 1, 1) != "d" { bad=1 } END { exit bad ? 0 : 1 }' \
+  "${TEMP_ARCHIVE}.verbose"; then
+  fail "archive contains links or special files"
+fi
+rm -f "${TEMP_ARCHIVE}.list" "${TEMP_ARCHIVE}.verbose"
+mv "${TEMP_ARCHIVE}" "${ARCHIVE}"
+SHA256="$(shasum -a 256 "${ARCHIVE}" | awk '{print $1}')"
+rm -rf "${STAGE_DIR}"
+trap - EXIT
+log "package ready: ${ARCHIVE} (sha256=${SHA256})"

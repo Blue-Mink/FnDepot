@@ -1,1 +1,88 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgUGx1cyB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgU3RyZWFtQnlwYXNzUnVsZUdyb3VwQ2FyZCBmcm9tICIuL1N0cmVhbUJ5cGFzc1J1bGVHcm91cENhcmQudnVlIjsKaW1wb3J0IHsKICBjcmVhdGVTdHJlYW1CeXBhc3NSdWxlRWRpdG9yLAogIE1BWF9TVFJFQU1fQllQQVNTX0dST1VQUywKICB0eXBlIFN0cmVhbUJ5cGFzc1BvbGljeUZvcm0sCn0gZnJvbSAiLi9zdHJlYW0tYnlwYXNzLXBvbGljeS1mb3JtIjsKCmNvbnN0IHsgZm9ybSwgc2F2aW5nLCB2YWx1ZURyYWZ0cyB9ID0gZGVmaW5lUHJvcHM8ewogIGZvcm06IFN0cmVhbUJ5cGFzc1BvbGljeUZvcm07CiAgc2F2aW5nOiBib29sZWFuOwogIHZhbHVlRHJhZnRzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+Owp9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgZWRpdG9yID0gY3JlYXRlU3RyZWFtQnlwYXNzUnVsZUVkaXRvcihmb3JtLCB2YWx1ZURyYWZ0cyk7CmNvbnN0IHJlZ2lvblRleHQgPSBjb21wdXRlZCgoKSA9PiAoewogIGFkZDogdCgiYWRtaW4uYWR2YW5jZWRBdXRoLmFkZFJlZ2lvbiIpLAogIGFkZFJlZ2lvbjogdCgiYWRtaW4uYWR2YW5jZWRBdXRoLmFkZFJlZ2lvbiIpLAogIGNhbmNlbDogdCgiY29tbW9uLmNhbmNlbCIpLAogIGRpYWxvZ0Rlc2NyaXB0aW9uOiB0KCJhZG1pbi5hZHZhbmNlZEF1dGgucmVnaW9uRGlhbG9nRGVzY3JpcHRpb24iKSwKICBsb2FkRmFpbGVkOiB0KCJhZG1pbi5hZHZhbmNlZEF1dGgucmVnaW9uTG9hZEZhaWxlZCIpLAogIGxvYWRGYWlsZWREZXNjcmlwdGlvbjogdCgiYWRtaW4uYWR2YW5jZWRBdXRoLnJlZ2lvbkxvYWRGYWlsZWREZXNjcmlwdGlvbiIpLAogIGxvYWRpbmc6IHQoImNvbW1vbi5sb2FkaW5nQ29uZmlnIiksCiAgbm9SZWdpb25zOiB0KCJhZG1pbi5hZHZhbmNlZEF1dGgubm9SZWdpb25zIiksCiAgcHJvdmluY2U6IHQoImFkbWluLmFkdmFuY2VkQXV0aC5wcm92aW5jZSIpLAogIHJldHJ5OiB0KCJhZG1pbi5hZHZhbmNlZEF1dGgucmV0cnkiKSwKICBzZWxlY3RlZENvdW50OiAoY291bnQ6IG51bWJlcikgPT4KICAgIHQoImFkbWluLmFkdmFuY2VkQXV0aC5zZWxlY3RlZFJlZ2lvbnMiLCB7IGNvdW50IH0pLAogIHNjb3BlOiB0KCJhZG1pbi5hZHZhbmNlZEF1dGguc2NvcGUiKSwKICBzZWxlY3RDaXR5OiB0KCJhZG1pbi5hZHZhbmNlZEF1dGguc2VsZWN0Q2l0eSIpLAogIHNlbGVjdFByb3ZpbmNlOiB0KCJhZG1pbi5hZHZhbmNlZEF1dGguc2VsZWN0UHJvdmluY2UiKSwKICBzZWxlY3RQcm92aW5jZUZpcnN0OiB0KCJhZG1pbi5hZHZhbmNlZEF1dGguc2VsZWN0UHJvdmluY2VGaXJzdCIpLAogIHVuYXZhaWxhYmxlOiB0KCJhZG1pbi5hZHZhbmNlZEF1dGgudW5hdmFpbGFibGUiKSwKfSkpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8c2VjdGlvbiBjbGFzcz0ic3BhY2UteS00Ij4KICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICA8ZGl2PgogICAgICAgIDxoMiBjbGFzcz0idGV4dC1iYXNlIGZvbnQtbWVkaXVtIj4KICAgICAgICAgIHt7IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnBvbGljeVJ1bGVHcm91cHMiKSB9fQogICAgICAgIDwvaDI+CiAgICAgICAgPHAgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLmJ5cGFzc1BvbGljeURlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgICA8QnV0dG9uCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICBjbGFzcz0idy1mdWxsIG1pbi1bNDgwcHhdOnctYXV0byIKICAgICAgICA6ZGlzYWJsZWQ9ImZvcm0uZ3JvdXBzLmxlbmd0aCA+PSBNQVhfU1RSRUFNX0JZUEFTU19HUk9VUFMgfHwgc2F2aW5nIgogICAgICAgIEBjbGljaz0iZWRpdG9yLmFkZEdyb3VwIgogICAgICA+CiAgICAgICAgPFBsdXMgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICB7eyB0KCJhZG1pbi5hZHZhbmNlZEF1dGguYWRkT3JHcm91cCIpIH19CiAgICAgIDwvQnV0dG9uPgogICAgPC9kaXY+CgogICAgPGRpdgogICAgICB2LWlmPSJmb3JtLmdyb3Vwcy5sZW5ndGggPT09IDAiCiAgICAgIGNsYXNzPSJyb3VuZGVkLXhsIGJvcmRlciBib3JkZXItZGFzaGVkIHAtOCB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgID4KICAgICAge3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MucG9saWN5Tm9Hcm91cHMiKSB9fQogICAgPC9kaXY+CiAgICA8ZGl2CiAgICAgIHYtZWxzZQogICAgICBjbGFzcz0icmVsYXRpdmUgc3BhY2UteS00IHNtOnNwYWNlLXktNSBzbTpwbC0xMCBzbTpiZWZvcmU6YWJzb2x1dGUgc206YmVmb3JlOmluc2V0LXktNyBzbTpiZWZvcmU6bGVmdC00IHNtOmJlZm9yZTp3LXB4IHNtOmJlZm9yZTpiZy1ib3JkZXIiCiAgICA+CiAgICAgIDxkaXYKICAgICAgICB2LWZvcj0iKGdyb3VwLCBncm91cEluZGV4KSBpbiBmb3JtLmdyb3VwcyIKICAgICAgICA6a2V5PSJncm91cC5pZCIKICAgICAgICBjbGFzcz0icmVsYXRpdmUgc206YmVmb3JlOmFic29sdXRlIHNtOmJlZm9yZTp0b3AtNyBzbTpiZWZvcmU6LWxlZnQtNiBzbTpiZWZvcmU6aC1weCBzbTpiZWZvcmU6dy02IHNtOmJlZm9yZTpiZy1ib3JkZXIiCiAgICAgID4KICAgICAgICA8U3RyZWFtQnlwYXNzUnVsZUdyb3VwQ2FyZAogICAgICAgICAgOmVkaXRvcj0iZWRpdG9yIgogICAgICAgICAgOmdyb3VwPSJncm91cCIKICAgICAgICAgIDpncm91cC1pbmRleD0iZ3JvdXBJbmRleCIKICAgICAgICAgIDpyZWdpb24tdGV4dD0icmVnaW9uVGV4dCIKICAgICAgICAgIDpzYXZpbmc9InNhdmluZyIKICAgICAgICAvPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvc2VjdGlvbj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+import { Plus } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import StreamBypassRuleGroupCard from "./StreamBypassRuleGroupCard.vue";
+import {
+  createStreamBypassRuleEditor,
+  MAX_STREAM_BYPASS_GROUPS,
+  type StreamBypassPolicyForm,
+} from "./stream-bypass-policy-form";
+
+const { form, saving, valueDrafts } = defineProps<{
+  form: StreamBypassPolicyForm;
+  saving: boolean;
+  valueDrafts: Record<string, string>;
+}>();
+const { t } = useI18n();
+const editor = createStreamBypassRuleEditor(form, valueDrafts);
+const regionText = computed(() => ({
+  add: t("admin.advancedAuth.addRegion"),
+  addRegion: t("admin.advancedAuth.addRegion"),
+  cancel: t("common.cancel"),
+  dialogDescription: t("admin.advancedAuth.regionDialogDescription"),
+  loadFailed: t("admin.advancedAuth.regionLoadFailed"),
+  loadFailedDescription: t("admin.advancedAuth.regionLoadFailedDescription"),
+  loading: t("common.loadingConfig"),
+  noRegions: t("admin.advancedAuth.noRegions"),
+  province: t("admin.advancedAuth.province"),
+  retry: t("admin.advancedAuth.retry"),
+  selectedCount: (count: number) =>
+    t("admin.advancedAuth.selectedRegions", { count }),
+  scope: t("admin.advancedAuth.scope"),
+  selectCity: t("admin.advancedAuth.selectCity"),
+  selectProvince: t("admin.advancedAuth.selectProvince"),
+  selectProvinceFirst: t("admin.advancedAuth.selectProvinceFirst"),
+  unavailable: t("admin.advancedAuth.unavailable"),
+}));
+</script>
+
+<template>
+  <section class="space-y-4">
+    <div class="flex flex-wrap items-center justify-between gap-3">
+      <div>
+        <h2 class="text-base font-medium">
+          {{ t("admin.streamMappings.policyRuleGroups") }}
+        </h2>
+        <p class="text-sm text-muted-foreground">
+          {{ t("admin.streamMappings.bypassPolicyDescription") }}
+        </p>
+      </div>
+      <Button
+        variant="outline"
+        class="w-full min-[480px]:w-auto"
+        :disabled="form.groups.length >= MAX_STREAM_BYPASS_GROUPS || saving"
+        @click="editor.addGroup"
+      >
+        <Plus class="mr-2 h-4 w-4" />
+        {{ t("admin.advancedAuth.addOrGroup") }}
+      </Button>
+    </div>
+
+    <div
+      v-if="form.groups.length === 0"
+      class="rounded-xl border border-dashed p-8 text-center text-sm text-muted-foreground"
+    >
+      {{ t("admin.streamMappings.policyNoGroups") }}
+    </div>
+    <div
+      v-else
+      class="relative space-y-4 sm:space-y-5 sm:pl-10 sm:before:absolute sm:before:inset-y-7 sm:before:left-4 sm:before:w-px sm:before:bg-border"
+    >
+      <div
+        v-for="(group, groupIndex) in form.groups"
+        :key="group.id"
+        class="relative sm:before:absolute sm:before:top-7 sm:before:-left-6 sm:before:h-px sm:before:w-6 sm:before:bg-border"
+      >
+        <StreamBypassRuleGroupCard
+          :editor="editor"
+          :group="group"
+          :group-index="groupIndex"
+          :region-text="regionText"
+          :saving="saving"
+        />
+      </div>
+    </div>
+  </section>
+</template>

@@ -1,1 +1,266 @@
-aW1wb3J0IHsgZmx1c2hQcm9taXNlcywgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBkZWZpbmVBc3luY0NvbXBvbmVudCwgZGVmaW5lQ29tcG9uZW50LCBoLCBvbk1vdW50ZWQgfSBmcm9tICJ2dWUiOwppbXBvcnQgewogIGNyZWF0ZU1lbW9yeUhpc3RvcnksCiAgY3JlYXRlUm91dGVyLAogIFJvdXRlclZpZXcsCiAgdXNlUm91dGUsCn0gZnJvbSAidnVlLXJvdXRlciI7CmltcG9ydCB7IGNyZWF0ZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IGFmdGVyRWFjaCwgYmVmb3JlRWFjaCwgZGVzY3JpYmUsIGV4cGVjdCwgaXQsIHZpIH0gZnJvbSAidml0ZXN0IjsKaW1wb3J0IEJvdW5kYXJ5IGZyb20gIi4uL3NyYy92aWV3cy9sYXlvdXQvUm91dGVDb250ZW50Qm91bmRhcnkudnVlIjsKaW1wb3J0IHsKICBidWlsZENhY2hlQnVzdGVkQXBwbGljYXRpb25VcmwsCiAgaXNEeW5hbWljSW1wb3J0RmFpbHVyZSwKICByZXBsYWNlV2l0aFVwZGF0ZWRBcHBsaWNhdGlvbiwKfSBmcm9tICIuLi9zcmMvbGliL3VwZGF0ZS1yZWxvYWQiOwoKdmkubW9jaygiLi4vc3JjL2xpYi91cGRhdGUtcmVsb2FkIiwgYXN5bmMgKGltcG9ydE9yaWdpbmFsKSA9PiAoewogIC4uLihhd2FpdCBpbXBvcnRPcmlnaW5hbDx0eXBlb2YgaW1wb3J0KCIuLi9zcmMvbGliL3VwZGF0ZS1yZWxvYWQiKT4oKSksCiAgcmVwbGFjZVdpdGhVcGRhdGVkQXBwbGljYXRpb246IHZpLmZuKCksCn0pKTsKY29uc3QgaTE4biA9ICgpID0+CiAgY3JlYXRlSTE4bih7CiAgICBsZWdhY3k6IGZhbHNlLAogICAgbG9jYWxlOiAiZW4iLAogICAgbWlzc2luZ1dhcm46IGZhbHNlLAogICAgZmFsbGJhY2tXYXJuOiBmYWxzZSwKICAgIG1lc3NhZ2VzOiB7IGVuOiB7fSB9LAogIH0pOwpiZWZvcmVFYWNoKCgpID0+IHZpLmNsZWFyQWxsTW9ja3MoKSk7CmFmdGVyRWFjaCgoKSA9PiB2aS5yZXN0b3JlQWxsTW9ja3MoKSk7CgpkZXNjcmliZSgicm91dGUgY29udGVudCBsb2FkaW5nIGJvdW5kYXJ5IiwgKCkgPT4gewogIGl0LmVhY2goWwogICAgIkZhaWxlZCB0byBmZXRjaCBkeW5hbWljYWxseSBpbXBvcnRlZCBtb2R1bGU6IC9hc3NldHMvb2xkLmpzIiwKICAgICJVbmFibGUgdG8gcHJlbG9hZCBDU1MgZm9yIC9hc3NldHMvb2xkLmNzcyIsCiAgXSkoInNob3dzIG1hbnVhbCByZWNvdmVyeSBmb3IgJXMiLCBhc3luYyAobWVzc2FnZSkgPT4gewogICAgdmkuc3B5T24oY29uc29sZSwgImVycm9yIikubW9ja0ltcGxlbWVudGF0aW9uKCgpID0+IHt9KTsKICAgIGxldCBmYWlsID0gdHJ1ZTsKICAgIGNvbnN0IGxvYWRlciA9IHZpLmZuKGFzeW5jICgpID0+IHsKICAgICAgaWYgKGZhaWwpIHRocm93IG5ldyBUeXBlRXJyb3IobWVzc2FnZSk7CiAgICAgIHJldHVybiBkZWZpbmVDb21wb25lbnQoKCkgPT4gKCkgPT4gaCgicCIsICJSZWNvdmVyZWQiKSk7CiAgICB9KTsKICAgIGNvbnN0IENoaWxkID0gZGVmaW5lQXN5bmNDb21wb25lbnQobG9hZGVyKTsKICAgIGNvbnN0IHdyYXBwZXIgPSBtb3VudChCb3VuZGFyeSwgewogICAgICBwcm9wczogeyByZXNldEtleTogIi9tYXBwaW5ncyIgfSwKICAgICAgc2xvdHM6IHsgZGVmYXVsdDogKCkgPT4gaChDaGlsZCkgfSwKICAgICAgZ2xvYmFsOiB7IHBsdWdpbnM6IFtpMThuKCldIH0sCiAgICB9KTsKICAgIHRyeSB7CiAgICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgICAgZXhwZWN0KHdyYXBwZXIuZmluZCgnW3JvbGU9ImFsZXJ0Il0nKS5leGlzdHMoKSkudG9CZSh0cnVlKTsKICAgICAgZXhwZWN0KGxvYWRlcikudG9IYXZlQmVlbkNhbGxlZFRpbWVzKDEpOwogICAgICBleHBlY3QocmVwbGFjZVdpdGhVcGRhdGVkQXBwbGljYXRpb24pLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICAgIGF3YWl0IHdyYXBwZXIuZ2V0KCJidXR0b24iKS50cmlnZ2VyKCJjbGljayIpOwogICAgICBleHBlY3QocmVwbGFjZVdpdGhVcGRhdGVkQXBwbGljYXRpb24pLnRvSGF2ZUJlZW5DYWxsZWRFeGFjdGx5T25jZVdpdGgoCiAgICAgICAgImNodW5rIiwKICAgICAgKTsKICAgICAgZmFpbCA9IGZhbHNlOwogICAgICBhd2FpdCB3cmFwcGVyLnNldFByb3BzKHsgcmVzZXRLZXk6ICIvc3lzdGVtP3RhYj1tYWludGVuYW5jZSIgfSk7CiAgICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgICAgZXhwZWN0KHdyYXBwZXIuZmluZCgnW3JvbGU9ImFsZXJ0Il0nKS5leGlzdHMoKSkudG9CZShmYWxzZSk7CiAgICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKCJSZWNvdmVyZWQiKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHdyYXBwZXIudW5tb3VudCgpOwogICAgfQogIH0pOwoKICBpdC5lYWNoKFsKICAgIG5ldyBUeXBlRXJyb3IoIkZhaWxlZCB0byBmZXRjaCIpLAogICAgbmV3IFR5cGVFcnJvcigiTG9hZCBmYWlsZWQiKSwKICAgIG5ldyBFcnJvcigiQnVzaW5lc3MgZmFpbHVyZSIpLAogIF0pKCJsZXRzIG9yZGluYXJ5IGVycm9ycyBwcm9wYWdhdGU6ICVzIiwgYXN5bmMgKGVycm9yKSA9PiB7CiAgICBjb25zdCBoYW5kbGVyID0gdmkuZm4oKTsKICAgIGNvbnN0IENoaWxkID0gZGVmaW5lQ29tcG9uZW50KHsKICAgICAgc2V0dXAoKSB7CiAgICAgICAgcmV0dXJuICgpID0+CiAgICAgICAgICBoKAogICAgICAgICAgICAiYnV0dG9uIiwKICAgICAgICAgICAgewogICAgICAgICAgICAgIG9uQ2xpY2s6ICgpID0+IHsKICAgICAgICAgICAgICAgIHRocm93IGVycm9yOwogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJSdW4iLAogICAgICAgICAgKTsKICAgICAgfSwKICAgIH0pOwogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KEJvdW5kYXJ5LCB7CiAgICAgIHByb3BzOiB7IHJlc2V0S2V5OiAiL21hcHBpbmdzIiB9LAogICAgICBzbG90czogeyBkZWZhdWx0OiAoKSA9PiBoKENoaWxkKSB9LAogICAgICBnbG9iYWw6IHsgcGx1Z2luczogW2kxOG4oKV0sIGNvbmZpZzogeyBlcnJvckhhbmRsZXI6IGhhbmRsZXIgfSB9LAogICAgfSk7CiAgICB0cnkgewogICAgICBhd2FpdCB3cmFwcGVyLmdldCgiYnV0dG9uIikudHJpZ2dlcigiY2xpY2siKTsKICAgICAgYXdhaXQgZmx1c2hQcm9taXNlcygpOwogICAgICBleHBlY3QoaGFuZGxlci5tb2NrLmNhbGxzWzBdPy5bMF0pLnRvQmUoZXJyb3IpOwogICAgICBleHBlY3Qod3JhcHBlci5maW5kKCdbcm9sZT0iYWxlcnQiXScpLmV4aXN0cygpKS50b0JlKGZhbHNlKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHdyYXBwZXIudW5tb3VudCgpOwogICAgfQogIH0pOwoKICBpdCgiZG9lcyBub3QgcmVtb3VudCBoZWFsdGh5IGNvbnRlbnQgd2hlbiB0aGUgVVJMIGNoYW5nZXMiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBtb3VudGVkID0gdmkuZm4oKTsKICAgIGNvbnN0IENoaWxkID0gZGVmaW5lQ29tcG9uZW50KHsKICAgICAgc2V0dXAoKSB7CiAgICAgICAgb25Nb3VudGVkKG1vdW50ZWQpOwogICAgICAgIHJldHVybiAoKSA9PiBoKCJwIiwgIkNvbnRlbnQiKTsKICAgICAgfSwKICAgIH0pOwogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KEJvdW5kYXJ5LCB7CiAgICAgIHByb3BzOiB7IHJlc2V0S2V5OiAiL21hcHBpbmdzIiB9LAogICAgICBzbG90czogeyBkZWZhdWx0OiAoKSA9PiBoKENoaWxkKSB9LAogICAgICBnbG9iYWw6IHsgcGx1Z2luczogW2kxOG4oKV0gfSwKICAgIH0pOwogICAgdHJ5IHsKICAgICAgYXdhaXQgd3JhcHBlci5zZXRQcm9wcyh7IHJlc2V0S2V5OiAiL21hcHBpbmdzP3RhYj1wcm90b2NvbCIgfSk7CiAgICAgIGV4cGVjdChtb3VudGVkKS50b0hhdmVCZWVuQ2FsbGVkVGltZXMoMSk7CiAgICB9IGZpbmFsbHkgewogICAgICB3cmFwcGVyLnVubW91bnQoKTsKICAgIH0KICB9KTsKCiAgaXQoInJlY292ZXJzIHRocm91Z2ggcmVhbCBSb3V0ZXJWaWV3IG5hdmlnYXRpb24gYW5kIHByZXNlcnZlcyBoZWFsdGh5IHBhZ2UgaW5zdGFuY2VzIiwgYXN5bmMgKCkgPT4gewogICAgdmkuc3B5T24oY29uc29sZSwgImVycm9yIikubW9ja0ltcGxlbWVudGF0aW9uKCgpID0+IHt9KTsKICAgIGNvbnN0IG1vdW50ZWQgPSB2aS5mbigpOwogICAgY29uc3QgQnJva2VuID0gZGVmaW5lQXN5bmNDb21wb25lbnQoYXN5bmMgKCkgPT4gewogICAgICB0aHJvdyBuZXcgRXJyb3IoIlVuYWJsZSB0byBwcmVsb2FkIENTUyBmb3IgL2Fzc2V0cy9tYXBwaW5nLmNzcyIpOwogICAgfSk7CiAgICBjb25zdCBNYXBwaW5nID0gZGVmaW5lQ29tcG9uZW50KHsKICAgICAgc2V0dXAoKSB7CiAgICAgICAgY29uc3Qgcm91dGUgPSB1c2VSb3V0ZSgpOwogICAgICAgIG9uTW91bnRlZChtb3VudGVkKTsKICAgICAgICByZXR1cm4gKCkgPT4KICAgICAgICAgIHJvdXRlLnF1ZXJ5LnRhYiA9PT0gImhlYWx0aHkiID8gaCgicCIsICJNYXBwaW5nIHJlYWR5IikgOiBoKEJyb2tlbik7CiAgICAgIH0sCiAgICB9KTsKICAgIGNvbnN0IExheW91dCA9IGRlZmluZUNvbXBvbmVudCh7CiAgICAgIHNldHVwKCkgewogICAgICAgIGNvbnN0IHJvdXRlID0gdXNlUm91dGUoKTsKICAgICAgICByZXR1cm4gKCkgPT4KICAgICAgICAgIGgoIm1haW4iLCBbCiAgICAgICAgICAgIGgoIm5hdiIsICJOYXZpZ2F0aW9uIHJldGFpbmVkIiksCiAgICAgICAgICAgIGgoQm91bmRhcnksIHsgcmVzZXRLZXk6IHJvdXRlLmZ1bGxQYXRoIH0pLAogICAgICAgICAgXSk7CiAgICAgIH0sCiAgICB9KTsKICAgIGNvbnN0IHJvdXRlciA9IGNyZWF0ZVJvdXRlcih7CiAgICAgIGhpc3Rvcnk6IGNyZWF0ZU1lbW9yeUhpc3RvcnkoKSwKICAgICAgcm91dGVzOiBbCiAgICAgICAgewogICAgICAgICAgcGF0aDogIi8iLAogICAgICAgICAgY29tcG9uZW50OiBMYXlvdXQsCiAgICAgICAgICBjaGlsZHJlbjogWwogICAgICAgICAgICB7IHBhdGg6ICJtYXBwaW5nIiwgY29tcG9uZW50OiBNYXBwaW5nIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICBwYXRoOiAib3RoZXIiLAogICAgICAgICAgICAgIGNvbXBvbmVudDogeyByZW5kZXI6ICgpID0+IGgoInAiLCAiT3RoZXIgcGFnZSIpIH0sCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsgcGF0aDogImJsb2NrZWQiLCBjb21wb25lbnQ6IE1hcHBpbmcsIGJlZm9yZUVudGVyOiAoKSA9PiBmYWxzZSB9LAogICAgICAgICAgXSwKICAgICAgICB9LAogICAgICBdLAogICAgfSk7CiAgICBhd2FpdCByb3V0ZXIucHVzaCgiL21hcHBpbmciKTsKICAgIGF3YWl0IHJvdXRlci5pc1JlYWR5KCk7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoUm91dGVyVmlldywgewogICAgICBnbG9iYWw6IHsgcGx1Z2luczogW2kxOG4oKSwgcm91dGVyXSB9LAogICAgfSk7CiAgICB0cnkgewogICAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICAgIGV4cGVjdCh3cmFwcGVyLmZpbmQoJ1tyb2xlPSJhbGVydCJdJykuZXhpc3RzKCkpLnRvQmUodHJ1ZSk7CiAgICAgIGV4cGVjdCh3cmFwcGVyLmdldCgibmF2IikudGV4dCgpKS50b0JlKCJOYXZpZ2F0aW9uIHJldGFpbmVkIik7CiAgICAgIGF3YWl0IHJvdXRlci5wdXNoKCIvYmxvY2tlZCIpOwogICAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICAgIGV4cGVjdCh3cmFwcGVyLmZpbmQoJ1tyb2xlPSJhbGVydCJdJykuZXhpc3RzKCkpLnRvQmUodHJ1ZSk7CiAgICAgIGF3YWl0IHJvdXRlci5wdXNoKCIvbWFwcGluZz90YWI9aGVhbHRoeSIpOwogICAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKCJNYXBwaW5nIHJlYWR5Iik7CiAgICAgIGV4cGVjdCh3cmFwcGVyLmZpbmQoJ1tyb2xlPSJhbGVydCJdJykuZXhpc3RzKCkpLnRvQmUoZmFsc2UpOwogICAgICBjb25zdCBtb3VudENvdW50ID0gbW91bnRlZC5tb2NrLmNhbGxzLmxlbmd0aDsKICAgICAgYXdhaXQgcm91dGVyLnB1c2goIi9tYXBwaW5nP3RhYj1oZWFsdGh5JmZpbHRlcj0xIik7CiAgICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgICAgZXhwZWN0KG1vdW50ZWQpLnRvSGF2ZUJlZW5DYWxsZWRUaW1lcyhtb3VudENvdW50KTsKICAgICAgYXdhaXQgcm91dGVyLnB1c2goIi9tYXBwaW5nP3RhYj1icm9rZW4iKTsKICAgICAgYXdhaXQgZmx1c2hQcm9taXNlcygpOwogICAgICBleHBlY3Qod3JhcHBlci5maW5kKCdbcm9sZT0iYWxlcnQiXScpLmV4aXN0cygpKS50b0JlKHRydWUpOwogICAgICBhd2FpdCByb3V0ZXIucHVzaCgiL290aGVyIik7CiAgICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgICAgZXhwZWN0KHdyYXBwZXIudGV4dCgpKS50b0NvbnRhaW4oIk90aGVyIHBhZ2UiKTsKICAgICAgZXhwZWN0KHdyYXBwZXIuZmluZCgnW3JvbGU9ImFsZXJ0Il0nKS5leGlzdHMoKSkudG9CZShmYWxzZSk7CiAgICAgIGV4cGVjdChyZXBsYWNlV2l0aFVwZGF0ZWRBcHBsaWNhdGlvbikubm90LnRvSGF2ZUJlZW5DYWxsZWQoKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHdyYXBwZXIudW5tb3VudCgpOwogICAgfQogIH0pOwoKICBpdCgiaWdub3JlcyBsYXRlIGltcG9ydCByZWplY3Rpb24gYWZ0ZXIgbGVhdmluZyBpdHMgcGFnZSIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGZhaWx1cmUgPSBuZXcgRXJyb3IoCiAgICAgICJGYWlsZWQgdG8gZmV0Y2ggZHluYW1pY2FsbHkgaW1wb3J0ZWQgbW9kdWxlOiAvb2xkLmpzIiwKICAgICk7CiAgICBsZXQgcmVqZWN0ITogKGVycm9yOiBFcnJvcikgPT4gdm9pZDsKICAgIGNvbnN0IFBlbmRpbmcgPSBkZWZpbmVBc3luY0NvbXBvbmVudCgKICAgICAgKCkgPT4KICAgICAgICBuZXcgUHJvbWlzZSgoX3Jlc29sdmUsIHJlamVjdExvYWQpID0+IHsKICAgICAgICAgIHJlamVjdCA9IHJlamVjdExvYWQ7CiAgICAgICAgfSksCiAgICApOwogICAgY29uc3Qgcm91dGVyID0gY3JlYXRlUm91dGVyKHsKICAgICAgaGlzdG9yeTogY3JlYXRlTWVtb3J5SGlzdG9yeSgpLAogICAgICByb3V0ZXM6IFsKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAiLyIsCiAgICAgICAgICBjb21wb25lbnQ6IGRlZmluZUNvbXBvbmVudCh7CiAgICAgICAgICAgIHNldHVwKCkgewogICAgICAgICAgICAgIGNvbnN0IHJvdXRlID0gdXNlUm91dGUoKTsKICAgICAgICAgICAgICByZXR1cm4gKCkgPT4gaChCb3VuZGFyeSwgeyByZXNldEtleTogcm91dGUuZnVsbFBhdGggfSk7CiAgICAgICAgICAgIH0sCiAgICAgICAgICB9KSwKICAgICAgICAgIGNoaWxkcmVuOiBbCiAgICAgICAgICAgIHsgcGF0aDogInBlbmRpbmciLCBjb21wb25lbnQ6IHsgcmVuZGVyOiAoKSA9PiBoKFBlbmRpbmcpIH0gfSwKICAgICAgICAgICAgeyBwYXRoOiAicmVhZHkiLCBjb21wb25lbnQ6IHsgcmVuZGVyOiAoKSA9PiBoKCJwIiwgIlJlYWR5IikgfSB9LAogICAgICAgICAgXSwKICAgICAgICB9LAogICAgICBdLAogICAgfSk7CiAgICBhd2FpdCByb3V0ZXIucHVzaCgiL3BlbmRpbmciKTsKICAgIGNvbnN0IHdyYXBwZXIgPSBtb3VudChSb3V0ZXJWaWV3LCB7CiAgICAgIGdsb2JhbDogeyBwbHVnaW5zOiBbaTE4bigpLCByb3V0ZXJdIH0sCiAgICB9KTsKICAgIHRyeSB7CiAgICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgICAgYXdhaXQgcm91dGVyLnB1c2goIi9yZWFkeSIpOwogICAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICAgIHJlamVjdChmYWlsdXJlKTsKICAgICAgYXdhaXQgZmx1c2hQcm9taXNlcygpOwogICAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLnRvQ29udGFpbigiUmVhZHkiKTsKICAgICAgZXhwZWN0KHdyYXBwZXIuZmluZCgnW3JvbGU9ImFsZXJ0Il0nKS5leGlzdHMoKSkudG9CZShmYWxzZSk7CiAgICB9IGZpbmFsbHkgewogICAgICB3cmFwcGVyLnVubW91bnQoKTsKICAgIH0KICB9KTsKCiAgaXQoInJlY29nbml6ZXMgZXhwbGljaXQgbW9kdWxlIGVycm9ycyB3aXRob3V0IGNoYW5naW5nIGV4aXN0aW5nIGdlbmVyaWMgZXJyb3IgaGFuZGxpbmciLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IG1lc3NhZ2Ugb2YgWwogICAgICAiSW1wb3J0aW5nIGEgbW9kdWxlIHNjcmlwdCBmYWlsZWQuIiwKICAgICAgImVycm9yIGxvYWRpbmcgZHluYW1pY2FsbHkgaW1wb3J0ZWQgbW9kdWxlIiwKICAgICAgIkxvYWQgZmFpbGVkIGZvciBtb2R1bGUgd2l0aCBzb3VyY2U6IGRlcGVuZGVuY3kuanMiLAogICAgICAiQ2h1bmtMb2FkRXJyb3IiLAogICAgXSkKICAgICAgZXhwZWN0KGlzRHluYW1pY0ltcG9ydEZhaWx1cmUobmV3IEVycm9yKG1lc3NhZ2UpLCBmYWxzZSkpLnRvQmUodHJ1ZSk7CiAgICBleHBlY3QoaXNEeW5hbWljSW1wb3J0RmFpbHVyZShuZXcgVHlwZUVycm9yKCJGYWlsZWQgdG8gZmV0Y2giKSkpLnRvQmUodHJ1ZSk7CiAgICBjb25zdCB1cmwgPSBuZXcgVVJMKAogICAgICBidWlsZENhY2hlQnVzdGVkQXBwbGljYXRpb25VcmwoCiAgICAgICAgImh0dHA6Ly9uYXMudGVzdC9jZ2kvVGhpcmRQYXJ0eS9mbi1rbm9jay9pbmRleC5jZ2kvP2Zvbz1iYXIjL21hcHBpbmdzP3RhYj1wcm90b2NvbCIsCiAgICAgICAgMTIzLAogICAgICAgICJjaHVuayIsCiAgICAgICksCiAgICApOwogICAgZXhwZWN0KHVybC5wYXRobmFtZSkudG9CZSgiL2NnaS9UaGlyZFBhcnR5L2ZuLWtub2NrL2luZGV4LmNnaS8iKTsKICAgIGV4cGVjdCh1cmwuc2VhcmNoUGFyYW1zLmdldCgiZm9vIikpLnRvQmUoImJhciIpOwogICAgZXhwZWN0KHVybC5zZWFyY2hQYXJhbXMuZ2V0KCJfZm5fa25vY2tfcmVsb2FkIikpLnRvQmUoIjEyMyIpOwogICAgZXhwZWN0KHVybC5oYXNoKS50b0JlKCIjL21hcHBpbmdzP3RhYj1wcm90b2NvbCIpOwogIH0pOwp9KTsK
+import { flushPromises, mount } from "@vue/test-utils";
+import { defineAsyncComponent, defineComponent, h, onMounted } from "vue";
+import {
+  createMemoryHistory,
+  createRouter,
+  RouterView,
+  useRoute,
+} from "vue-router";
+import { createI18n } from "vue-i18n";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import Boundary from "../src/views/layout/RouteContentBoundary.vue";
+import {
+  buildCacheBustedApplicationUrl,
+  isDynamicImportFailure,
+  replaceWithUpdatedApplication,
+} from "../src/lib/update-reload";
+
+vi.mock("../src/lib/update-reload", async (importOriginal) => ({
+  ...(await importOriginal<typeof import("../src/lib/update-reload")>()),
+  replaceWithUpdatedApplication: vi.fn(),
+}));
+const i18n = () =>
+  createI18n({
+    legacy: false,
+    locale: "en",
+    missingWarn: false,
+    fallbackWarn: false,
+    messages: { en: {} },
+  });
+beforeEach(() => vi.clearAllMocks());
+afterEach(() => vi.restoreAllMocks());
+
+describe("route content loading boundary", () => {
+  it.each([
+    "Failed to fetch dynamically imported module: /assets/old.js",
+    "Unable to preload CSS for /assets/old.css",
+  ])("shows manual recovery for %s", async (message) => {
+    vi.spyOn(console, "error").mockImplementation(() => {});
+    let fail = true;
+    const loader = vi.fn(async () => {
+      if (fail) throw new TypeError(message);
+      return defineComponent(() => () => h("p", "Recovered"));
+    });
+    const Child = defineAsyncComponent(loader);
+    const wrapper = mount(Boundary, {
+      props: { resetKey: "/mappings" },
+      slots: { default: () => h(Child) },
+      global: { plugins: [i18n()] },
+    });
+    try {
+      await flushPromises();
+      expect(wrapper.find('[role="alert"]').exists()).toBe(true);
+      expect(loader).toHaveBeenCalledTimes(1);
+      expect(replaceWithUpdatedApplication).not.toHaveBeenCalled();
+      await wrapper.get("button").trigger("click");
+      expect(replaceWithUpdatedApplication).toHaveBeenCalledExactlyOnceWith(
+        "chunk",
+      );
+      fail = false;
+      await wrapper.setProps({ resetKey: "/system?tab=maintenance" });
+      await flushPromises();
+      expect(wrapper.find('[role="alert"]').exists()).toBe(false);
+      expect(wrapper.text()).toContain("Recovered");
+    } finally {
+      wrapper.unmount();
+    }
+  });
+
+  it.each([
+    new TypeError("Failed to fetch"),
+    new TypeError("Load failed"),
+    new Error("Business failure"),
+  ])("lets ordinary errors propagate: %s", async (error) => {
+    const handler = vi.fn();
+    const Child = defineComponent({
+      setup() {
+        return () =>
+          h(
+            "button",
+            {
+              onClick: () => {
+                throw error;
+              },
+            },
+            "Run",
+          );
+      },
+    });
+    const wrapper = mount(Boundary, {
+      props: { resetKey: "/mappings" },
+      slots: { default: () => h(Child) },
+      global: { plugins: [i18n()], config: { errorHandler: handler } },
+    });
+    try {
+      await wrapper.get("button").trigger("click");
+      await flushPromises();
+      expect(handler.mock.calls[0]?.[0]).toBe(error);
+      expect(wrapper.find('[role="alert"]').exists()).toBe(false);
+    } finally {
+      wrapper.unmount();
+    }
+  });
+
+  it("does not remount healthy content when the URL changes", async () => {
+    const mounted = vi.fn();
+    const Child = defineComponent({
+      setup() {
+        onMounted(mounted);
+        return () => h("p", "Content");
+      },
+    });
+    const wrapper = mount(Boundary, {
+      props: { resetKey: "/mappings" },
+      slots: { default: () => h(Child) },
+      global: { plugins: [i18n()] },
+    });
+    try {
+      await wrapper.setProps({ resetKey: "/mappings?tab=protocol" });
+      expect(mounted).toHaveBeenCalledTimes(1);
+    } finally {
+      wrapper.unmount();
+    }
+  });
+
+  it("recovers through real RouterView navigation and preserves healthy page instances", async () => {
+    vi.spyOn(console, "error").mockImplementation(() => {});
+    const mounted = vi.fn();
+    const Broken = defineAsyncComponent(async () => {
+      throw new Error("Unable to preload CSS for /assets/mapping.css");
+    });
+    const Mapping = defineComponent({
+      setup() {
+        const route = useRoute();
+        onMounted(mounted);
+        return () =>
+          route.query.tab === "healthy" ? h("p", "Mapping ready") : h(Broken);
+      },
+    });
+    const Layout = defineComponent({
+      setup() {
+        const route = useRoute();
+        return () =>
+          h("main", [
+            h("nav", "Navigation retained"),
+            h(Boundary, { resetKey: route.fullPath }),
+          ]);
+      },
+    });
+    const router = createRouter({
+      history: createMemoryHistory(),
+      routes: [
+        {
+          path: "/",
+          component: Layout,
+          children: [
+            { path: "mapping", component: Mapping },
+            {
+              path: "other",
+              component: { render: () => h("p", "Other page") },
+            },
+            { path: "blocked", component: Mapping, beforeEnter: () => false },
+          ],
+        },
+      ],
+    });
+    await router.push("/mapping");
+    await router.isReady();
+    const wrapper = mount(RouterView, {
+      global: { plugins: [i18n(), router] },
+    });
+    try {
+      await flushPromises();
+      expect(wrapper.find('[role="alert"]').exists()).toBe(true);
+      expect(wrapper.get("nav").text()).toBe("Navigation retained");
+      await router.push("/blocked");
+      await flushPromises();
+      expect(wrapper.find('[role="alert"]').exists()).toBe(true);
+      await router.push("/mapping?tab=healthy");
+      await flushPromises();
+      expect(wrapper.text()).toContain("Mapping ready");
+      expect(wrapper.find('[role="alert"]').exists()).toBe(false);
+      const mountCount = mounted.mock.calls.length;
+      await router.push("/mapping?tab=healthy&filter=1");
+      await flushPromises();
+      expect(mounted).toHaveBeenCalledTimes(mountCount);
+      await router.push("/mapping?tab=broken");
+      await flushPromises();
+      expect(wrapper.find('[role="alert"]').exists()).toBe(true);
+      await router.push("/other");
+      await flushPromises();
+      expect(wrapper.text()).toContain("Other page");
+      expect(wrapper.find('[role="alert"]').exists()).toBe(false);
+      expect(replaceWithUpdatedApplication).not.toHaveBeenCalled();
+    } finally {
+      wrapper.unmount();
+    }
+  });
+
+  it("ignores late import rejection after leaving its page", async () => {
+    const failure = new Error(
+      "Failed to fetch dynamically imported module: /old.js",
+    );
+    let reject!: (error: Error) => void;
+    const Pending = defineAsyncComponent(
+      () =>
+        new Promise((_resolve, rejectLoad) => {
+          reject = rejectLoad;
+        }),
+    );
+    const router = createRouter({
+      history: createMemoryHistory(),
+      routes: [
+        {
+          path: "/",
+          component: defineComponent({
+            setup() {
+              const route = useRoute();
+              return () => h(Boundary, { resetKey: route.fullPath });
+            },
+          }),
+          children: [
+            { path: "pending", component: { render: () => h(Pending) } },
+            { path: "ready", component: { render: () => h("p", "Ready") } },
+          ],
+        },
+      ],
+    });
+    await router.push("/pending");
+    const wrapper = mount(RouterView, {
+      global: { plugins: [i18n(), router] },
+    });
+    try {
+      await flushPromises();
+      await router.push("/ready");
+      await flushPromises();
+      reject(failure);
+      await flushPromises();
+      expect(wrapper.text()).toContain("Ready");
+      expect(wrapper.find('[role="alert"]').exists()).toBe(false);
+    } finally {
+      wrapper.unmount();
+    }
+  });
+
+  it("recognizes explicit module errors without changing existing generic error handling", () => {
+    for (const message of [
+      "Importing a module script failed.",
+      "error loading dynamically imported module",
+      "Load failed for module with source: dependency.js",
+      "ChunkLoadError",
+    ])
+      expect(isDynamicImportFailure(new Error(message), false)).toBe(true);
+    expect(isDynamicImportFailure(new TypeError("Failed to fetch"))).toBe(true);
+    const url = new URL(
+      buildCacheBustedApplicationUrl(
+        "http://nas.test/cgi/ThirdParty/fn-knock/index.cgi/?foo=bar#/mappings?tab=protocol",
+        123,
+        "chunk",
+      ),
+    );
+    expect(url.pathname).toBe("/cgi/ThirdParty/fn-knock/index.cgi/");
+    expect(url.searchParams.get("foo")).toBe("bar");
+    expect(url.searchParams.get("_fn_knock_reload")).toBe("123");
+    expect(url.hash).toBe("#/mappings?tab=protocol");
+  });
+});

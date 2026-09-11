@@ -1,1 +1,70 @@
-cHViKGNyYXRlKSBjb25zdCBBVVRIX01PQklMSVRZX1BSRUZJWDogJnN0ciA9ICJmbl9rbm9jazphdXRoX21vYmlsaXR5IjsKCnB1YihjcmF0ZSkgZm4gYWN0aXZlX2lwX2RldGFpbHNfa2V5KHNlc3Npb25faWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7QVVUSF9NT0JJTElUWV9QUkVGSVh9OmFjdGl2ZV9pcF9kZXRhaWxzOntzZXNzaW9uX2lkfSIpCn0KCnB1YihjcmF0ZSkgZm4gYWN0aXZlX2lwX3pzZXRfa2V5KHNlc3Npb25faWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7QVVUSF9NT0JJTElUWV9QUkVGSVh9OmFjdGl2ZV9pcHM6e3Nlc3Npb25faWR9IikKfQoKcHViKGNyYXRlKSBmbiBiaW5kaW5nX2tleShzdWJqZWN0X3R5cGU6ICZzdHIsIHN1YmplY3RfaGFzaDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntBVVRIX01PQklMSVRZX1BSRUZJWH06YmluZGluZzp7c3ViamVjdF90eXBlfTp7c3ViamVjdF9oYXNofSIpCn0KCnB1YihjcmF0ZSkgZm4gc2Vzc2lvbl9pbmRleF9rZXkoc2Vzc2lvbl9pZDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntBVVRIX01PQklMSVRZX1BSRUZJWH06c2Vzc2lvbjp7c2Vzc2lvbl9pZH0iKQp9CgpwdWIoY3JhdGUpIGZuIHNlc3Npb25fbXV0YXRpb25fbG9ja19rZXkoc2Vzc2lvbl9pZDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntBVVRIX01PQklMSVRZX1BSRUZJWH06c2Vzc2lvbl9tdXRhdGlvbl9sb2NrOntzZXNzaW9uX2lkfSIpCn0KCnB1YihjcmF0ZSkgZm4gc2Vzc2lvbl9wZW5kaW5nX3doaXRlbGlzdF9rZXkoc2Vzc2lvbl9pZDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntBVVRIX01PQklMSVRZX1BSRUZJWH06c2Vzc2lvbl9wZW5kaW5nX3doaXRlbGlzdDp7c2Vzc2lvbl9pZH0iKQp9CgpwdWIoY3JhdGUpIGZuIHN1bW1hcnlfa2V5KHNlc3Npb25faWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7QVVUSF9NT0JJTElUWV9QUkVGSVh9OnN1bW1hcnk6e3Nlc3Npb25faWR9IikKfQoKcHViKGNyYXRlKSBmbiB0aW1lbGluZV9rZXkoc2Vzc2lvbl9pZDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntBVVRIX01PQklMSVRZX1BSRUZJWH06dGltZWxpbmU6e3Nlc3Npb25faWR9IikKfQoKcHViKGNyYXRlKSBmbiB3aGl0ZWxpc3Rfb3duZXJfa2V5KHdoaXRlbGlzdF9yZWNvcmRfaWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7QVVUSF9NT0JJTElUWV9QUkVGSVh9OndoaXRlbGlzdDp7d2hpdGVsaXN0X3JlY29yZF9pZH06c2Vzc2lvbiIpCn0KCnB1YihjcmF0ZSkgZm4gc3ViamVjdF9oYXNoKHN1YmplY3RfdHlwZTogJnN0ciwgc3ViamVjdF9rZXk6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBjcmF0ZTo6Y3J5cHRvX3V0aWxzOjpzaGEyNTZfaGV4X3N0cigmZm9ybWF0ISgie3N1YmplY3RfdHlwZX06e3N1YmplY3Rfa2V5fSIpKQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKCiAgICAjW3Rlc3RdCiAgICBmbiBidWlsZHNfYXV0aF9tb2JpbGl0eV9zdG9yYWdlX2tleXMoKSB7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgdGltZWxpbmVfa2V5KCJzZXNzaW9uLTEiKSwKICAgICAgICAgICAgImZuX2tub2NrOmF1dGhfbW9iaWxpdHk6dGltZWxpbmU6c2Vzc2lvbi0xIgogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc3VtbWFyeV9rZXkoInNlc3Npb24tMSIpLAogICAgICAgICAgICAiZm5fa25vY2s6YXV0aF9tb2JpbGl0eTpzdW1tYXJ5OnNlc3Npb24tMSIKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHdoaXRlbGlzdF9vd25lcl9rZXkoInJlY29yZC0xIiksCiAgICAgICAgICAgICJmbl9rbm9jazphdXRoX21vYmlsaXR5OndoaXRlbGlzdDpyZWNvcmQtMTpzZXNzaW9uIgogICAgICAgICk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gaGFzaGVzX2F1dGhfbW9iaWxpdHlfc3ViamVjdHNfd2l0aF9leGlzdGluZ19jb250cmFjdCgpIHsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBzdWJqZWN0X2hhc2goImZub3MtdG9rZW4iLCAic2VjcmV0LXRva2VuIiksCiAgICAgICAgICAgIGNyYXRlOjpjcnlwdG9fdXRpbHM6OnNoYTI1Nl9oZXhfc3RyKCJmbm9zLXRva2VuOnNlY3JldC10b2tlbiIpCiAgICAgICAgKTsKICAgIH0KfQo=
+pub(crate) const AUTH_MOBILITY_PREFIX: &str = "fn_knock:auth_mobility";
+
+pub(crate) fn active_ip_details_key(session_id: &str) -> String {
+    format!("{AUTH_MOBILITY_PREFIX}:active_ip_details:{session_id}")
+}
+
+pub(crate) fn active_ip_zset_key(session_id: &str) -> String {
+    format!("{AUTH_MOBILITY_PREFIX}:active_ips:{session_id}")
+}
+
+pub(crate) fn binding_key(subject_type: &str, subject_hash: &str) -> String {
+    format!("{AUTH_MOBILITY_PREFIX}:binding:{subject_type}:{subject_hash}")
+}
+
+pub(crate) fn session_index_key(session_id: &str) -> String {
+    format!("{AUTH_MOBILITY_PREFIX}:session:{session_id}")
+}
+
+pub(crate) fn session_mutation_lock_key(session_id: &str) -> String {
+    format!("{AUTH_MOBILITY_PREFIX}:session_mutation_lock:{session_id}")
+}
+
+pub(crate) fn session_pending_whitelist_key(session_id: &str) -> String {
+    format!("{AUTH_MOBILITY_PREFIX}:session_pending_whitelist:{session_id}")
+}
+
+pub(crate) fn summary_key(session_id: &str) -> String {
+    format!("{AUTH_MOBILITY_PREFIX}:summary:{session_id}")
+}
+
+pub(crate) fn timeline_key(session_id: &str) -> String {
+    format!("{AUTH_MOBILITY_PREFIX}:timeline:{session_id}")
+}
+
+pub(crate) fn whitelist_owner_key(whitelist_record_id: &str) -> String {
+    format!("{AUTH_MOBILITY_PREFIX}:whitelist:{whitelist_record_id}:session")
+}
+
+pub(crate) fn subject_hash(subject_type: &str, subject_key: &str) -> String {
+    crate::crypto_utils::sha256_hex_str(&format!("{subject_type}:{subject_key}"))
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn builds_auth_mobility_storage_keys() {
+        assert_eq!(
+            timeline_key("session-1"),
+            "fn_knock:auth_mobility:timeline:session-1"
+        );
+        assert_eq!(
+            summary_key("session-1"),
+            "fn_knock:auth_mobility:summary:session-1"
+        );
+        assert_eq!(
+            whitelist_owner_key("record-1"),
+            "fn_knock:auth_mobility:whitelist:record-1:session"
+        );
+    }
+
+    #[test]
+    fn hashes_auth_mobility_subjects_with_existing_contract() {
+        assert_eq!(
+            subject_hash("fnos-token", "secret-token"),
+            crate::crypto_utils::sha256_hex_str("fnos-token:secret-token")
+        );
+    }
+}

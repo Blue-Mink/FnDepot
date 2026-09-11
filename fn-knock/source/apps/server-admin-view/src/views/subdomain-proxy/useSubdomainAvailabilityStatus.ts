@@ -1,1 +1,55 @@
-aW1wb3J0IHsgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsKICBmb3JtYXRIb3N0TWFwcGluZ0F2YWlsYWJpbGl0eVdpbmRvdywKICBnZXRIb3N0TWFwcGluZ0F2YWlsYWJpbGl0eVN0YXRlLAogIGlzSG9zdE1hcHBpbmdVbmF2YWlsYWJsZSwKfSBmcm9tICJAL2xpYi9ob3N0LW1hcHBpbmctYXZhaWxhYmlsaXR5IjsKaW1wb3J0IHR5cGUgeyBIb3N0TWFwcGluZyB9IGZyb20gIkAvdHlwZXMiOwoKZXhwb3J0IGNvbnN0IHVzZVN1YmRvbWFpbkF2YWlsYWJpbGl0eVN0YXR1cyA9ICh7CiAgaW50ZXJ2YWxNcyA9IDYwXzAwMCwKfTogewogIGludGVydmFsTXM/OiBudW1iZXI7Cn0gPSB7fSkgPT4gewogIGNvbnN0IGF2YWlsYWJpbGl0eUNsb2NrID0gcmVmKERhdGUubm93KCkpOwogIGxldCBhdmFpbGFiaWxpdHlDbG9ja1RpbWVyOiBudW1iZXIgfCBudWxsID0gbnVsbDsKCiAgY29uc3QgcmVmcmVzaEF2YWlsYWJpbGl0eUNsb2NrID0gKCkgPT4gewogICAgYXZhaWxhYmlsaXR5Q2xvY2sudmFsdWUgPSBEYXRlLm5vdygpOwogIH07CgogIGNvbnN0IGdldEF2YWlsYWJpbGl0eU5vdyA9ICgpID0+IG5ldyBEYXRlKGF2YWlsYWJpbGl0eUNsb2NrLnZhbHVlKTsKCiAgY29uc3QgZ2V0QXZhaWxhYmlsaXR5U3RhdGUgPSAobWFwcGluZzogSG9zdE1hcHBpbmcpID0+CiAgICBnZXRIb3N0TWFwcGluZ0F2YWlsYWJpbGl0eVN0YXRlKG1hcHBpbmcsIGdldEF2YWlsYWJpbGl0eU5vdygpKTsKCiAgY29uc3QgaXNNYXBwaW5nVW5hdmFpbGFibGUgPSAobWFwcGluZzogSG9zdE1hcHBpbmcpID0+CiAgICBpc0hvc3RNYXBwaW5nVW5hdmFpbGFibGUobWFwcGluZywgZ2V0QXZhaWxhYmlsaXR5Tm93KCkpOwoKICBjb25zdCBmb3JtYXRBdmFpbGFiaWxpdHlXaW5kb3cgPSAobWFwcGluZzogSG9zdE1hcHBpbmcpID0+CiAgICBmb3JtYXRIb3N0TWFwcGluZ0F2YWlsYWJpbGl0eVdpbmRvdyhtYXBwaW5nKTsKCiAgY29uc3Qgc3RvcEF2YWlsYWJpbGl0eUNsb2NrID0gKCkgPT4gewogICAgaWYgKGF2YWlsYWJpbGl0eUNsb2NrVGltZXIgIT09IG51bGwpIHsKICAgICAgd2luZG93LmNsZWFySW50ZXJ2YWwoYXZhaWxhYmlsaXR5Q2xvY2tUaW1lcik7CiAgICAgIGF2YWlsYWJpbGl0eUNsb2NrVGltZXIgPSBudWxsOwogICAgfQogIH07CgogIGNvbnN0IHN0YXJ0QXZhaWxhYmlsaXR5Q2xvY2sgPSAoKSA9PiB7CiAgICBzdG9wQXZhaWxhYmlsaXR5Q2xvY2soKTsKICAgIHJlZnJlc2hBdmFpbGFiaWxpdHlDbG9jaygpOwogICAgYXZhaWxhYmlsaXR5Q2xvY2tUaW1lciA9IHdpbmRvdy5zZXRJbnRlcnZhbCgKICAgICAgcmVmcmVzaEF2YWlsYWJpbGl0eUNsb2NrLAogICAgICBpbnRlcnZhbE1zLAogICAgKTsKICB9OwoKICByZXR1cm4gewogICAgZm9ybWF0QXZhaWxhYmlsaXR5V2luZG93LAogICAgZ2V0QXZhaWxhYmlsaXR5U3RhdGUsCiAgICBpc01hcHBpbmdVbmF2YWlsYWJsZSwKICAgIHN0YXJ0QXZhaWxhYmlsaXR5Q2xvY2ssCiAgICBzdG9wQXZhaWxhYmlsaXR5Q2xvY2ssCiAgfTsKfTsK
+import { ref } from "vue";
+import {
+  formatHostMappingAvailabilityWindow,
+  getHostMappingAvailabilityState,
+  isHostMappingUnavailable,
+} from "@/lib/host-mapping-availability";
+import type { HostMapping } from "@/types";
+
+export const useSubdomainAvailabilityStatus = ({
+  intervalMs = 60_000,
+}: {
+  intervalMs?: number;
+} = {}) => {
+  const availabilityClock = ref(Date.now());
+  let availabilityClockTimer: number | null = null;
+
+  const refreshAvailabilityClock = () => {
+    availabilityClock.value = Date.now();
+  };
+
+  const getAvailabilityNow = () => new Date(availabilityClock.value);
+
+  const getAvailabilityState = (mapping: HostMapping) =>
+    getHostMappingAvailabilityState(mapping, getAvailabilityNow());
+
+  const isMappingUnavailable = (mapping: HostMapping) =>
+    isHostMappingUnavailable(mapping, getAvailabilityNow());
+
+  const formatAvailabilityWindow = (mapping: HostMapping) =>
+    formatHostMappingAvailabilityWindow(mapping);
+
+  const stopAvailabilityClock = () => {
+    if (availabilityClockTimer !== null) {
+      window.clearInterval(availabilityClockTimer);
+      availabilityClockTimer = null;
+    }
+  };
+
+  const startAvailabilityClock = () => {
+    stopAvailabilityClock();
+    refreshAvailabilityClock();
+    availabilityClockTimer = window.setInterval(
+      refreshAvailabilityClock,
+      intervalMs,
+    );
+  };
+
+  return {
+    formatAvailabilityWindow,
+    getAvailabilityState,
+    isMappingUnavailable,
+    startAvailabilityClock,
+    stopAvailabilityClock,
+  };
+};

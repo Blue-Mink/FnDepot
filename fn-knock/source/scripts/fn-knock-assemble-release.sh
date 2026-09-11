@@ -1,1 +1,65 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4iICYmIHB3ZCkiCkFSVElGQUNUU19ESVI9IiR7Rk5fS05PQ0tfQVJUSUZBQ1RTX0RJUjotJHtST09UX0RJUn0vZGlzdC9mbi1rbm9jay1hcnRpZmFjdHN9IgpPVVRQVVRfRElSPSIke0ZOX0tOT0NLX1JFTEVBU0VfQVNTRVRTX0RJUjotJHtST09UX0RJUn0vZGlzdC9yZWxlYXNlLWFzc2V0c30iCkZOUEFDS19CSU49IiR7Rk5fS05PQ0tfRk5QQUNLX0JJTjotZm5wYWNrfSIKCmxvZygpIHsKICBwcmludGYgJ1tmbi1rbm9jay1yZWxlYXNlLWFzc2VtYmxlXSAlc1xuJyAiJCoiCn0KCmZhaWwoKSB7CiAgcHJpbnRmICdbZm4ta25vY2stcmVsZWFzZS1hc3NlbWJsZV0gRVJST1I6ICVzXG4nICIkKiIgPiYyCiAgZXhpdCAxCn0KCmNvcHlfbWF0Y2hlcygpIHsKICBsb2NhbCBsYWJlbD0iJDEiCiAgc2hpZnQKICBsb2NhbCBtYXRjaGVzPSgpCiAgbG9jYWwgY2FuZGlkYXRlCgogIGZvciBjYW5kaWRhdGUgaW4gIiRAIjsgZG8KICAgIFsgLWYgIiR7Y2FuZGlkYXRlfSIgXSB8fCBjb250aW51ZQogICAgbWF0Y2hlcys9KCIke2NhbmRpZGF0ZX0iKQogIGRvbmUKICBbICIkeyNtYXRjaGVzW0BdfSIgLWd0IDAgXSB8fCBmYWlsICJubyAke2xhYmVsfSBvdXRwdXRzIHdlcmUgZm91bmQiCiAgY3AgIiR7bWF0Y2hlc1tAXX0iICIke09VVFBVVF9ESVJ9LyIKICBsb2cgImNvbGxlY3RlZCAkeyNtYXRjaGVzW0BdfSAke2xhYmVsfSBmaWxlcyIKfQoKWyAtZCAiJHtBUlRJRkFDVFNfRElSfS9ydW50aW1lIiBdIHx8IGZhaWwgIm1pc3NpbmcgcHJlcGFyZWQgcnVudGltZSIKWyAtZCAiJHtBUlRJRkFDVFNfRElSfS9mcGstcnVzdC1iYWNrZW5kcyIgXSB8fCBmYWlsICJtaXNzaW5nIEdOVSBSdXN0IGJhY2tlbmRzIgpbIC1kICIke0FSVElGQUNUU19ESVJ9L211c2wtcnVzdC1iYWNrZW5kcyIgXSB8fCBmYWlsICJtaXNzaW5nIG11c2wgUnVzdCBiYWNrZW5kcyIKCm1rZGlyIC1wICIke09VVFBVVF9ESVJ9IgpybSAtZiAiJHtPVVRQVVRfRElSfSIvKgoKbG9nICJidWlsZGluZyBnZW5lcmljIExpbnV4IGFyY2hpdmVzIGZyb20gcHJlYnVpbHQgaW5wdXRzIgpGTl9LTk9DS19QUkVCVUlMVF9PTkxZPTEgXApGTl9LTk9DS19SVU5USU1FX0dBVEVXQVlfQVJDSEVTPSJhbWQ2NCBhcm02NCBhcm0iIFwKRk5fS05PQ0tfTVVTTF9BUkNIRVM9ImFtZDY0IGFybTY0IGFybSIgXAogIGJhc2ggIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvZm4ta25vY2stcHJlcGFyZS1hcnRpZmFjdHMuc2giIGxpbnV4Cgpsb2cgImJ1aWxkaW5nIGZuT1MgRlBLIHBhY2thZ2VzIGxvY2FsbHkiCkZOX0tOT0NLX0ZOUEFDS19CSU49IiR7Rk5QQUNLX0JJTn0iIFwKICBiYXNoICIke1JPT1RfRElSfS9zY3JpcHRzL2ZuLWtub2NrLXBhY2thZ2UtZnBrLnNoIgoKbG9nICJidWlsZGluZyBPcGVuV3J0IElQSyBhbmQgQVBLIHBhY2thZ2VzIGZyb20gcHJlYnVpbHQgaW5wdXRzIgpGTl9LTk9DS19BUlRJRkFDVFNfQUxSRUFEWV9QUkVQQVJFRD0xIFwKRk5fS05PQ0tfVVNFX1BSRVBBUkVEX0FSVElGQUNUUz0xIFwKRk5fS05PQ0tfT1BFTldSVF9SVVNUX0JBQ0tFTkRfQklOX0RJUj0iJHtBUlRJRkFDVFNfRElSfS9tdXNsLXJ1c3QtYmFja2VuZHMiIFwKICBiYXNoICIke1JPT1RfRElSfS9zY3JpcHRzL2J1aWxkLW9wZW53cnQtaXBrLnNoIgoKbG9nICJidWlsZGluZyBTeW5vbG9neSBTUEtzIGZyb20gcHJlYnVpbHQgaW5wdXRzIgpGTl9LTk9DS19TWU5PTE9HWV9TS0lQX0FSVElGQUNUX1BSRVBBUkU9MSBcCiAgYmFzaCAiJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay1zeW5vbG9neS9zY3JpcHRzL2J1aWxkLWFsbC1wYWNrYWdlcy5zaCIKCmNvcHlfbWF0Y2hlcyAiRlBLIiAiJHtBUlRJRkFDVFNfRElSfS9mcGsvIiouZnBrCmNvcHlfbWF0Y2hlcyAiTGludXgiICIke0FSVElGQUNUU19ESVJ9L2xpbnV4LyIqLnRhci5neiAiJHtBUlRJRkFDVFNfRElSfS9saW51eC8iKi5zaGEyNTYKY29weV9tYXRjaGVzICJPcGVuV3J0IiAiJHtST09UX0RJUn0vZGlzdC9vcGVud3J0LyIqLmlwayAiJHtST09UX0RJUn0vZGlzdC9vcGVud3J0LyIqLmFwawpjb3B5X21hdGNoZXMgIlN5bm9sb2d5IiAiJHtST09UX0RJUn0vZGlzdC9zeW5vbG9neS8iKi5zcGsgIiR7Uk9PVF9ESVJ9L2Rpc3Qvc3lub2xvZ3kvIiouc3BrLnNoYTI1NgoKbG9nICJyZWxlYXNlIGFzc2V0cyBhcmUgcmVhZHkgaW4gJHtPVVRQVVRfRElSfSIK
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+ARTIFACTS_DIR="${FN_KNOCK_ARTIFACTS_DIR:-${ROOT_DIR}/dist/fn-knock-artifacts}"
+OUTPUT_DIR="${FN_KNOCK_RELEASE_ASSETS_DIR:-${ROOT_DIR}/dist/release-assets}"
+FNPACK_BIN="${FN_KNOCK_FNPACK_BIN:-fnpack}"
+
+log() {
+  printf '[fn-knock-release-assemble] %s\n' "$*"
+}
+
+fail() {
+  printf '[fn-knock-release-assemble] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+copy_matches() {
+  local label="$1"
+  shift
+  local matches=()
+  local candidate
+
+  for candidate in "$@"; do
+    [ -f "${candidate}" ] || continue
+    matches+=("${candidate}")
+  done
+  [ "${#matches[@]}" -gt 0 ] || fail "no ${label} outputs were found"
+  cp "${matches[@]}" "${OUTPUT_DIR}/"
+  log "collected ${#matches[@]} ${label} files"
+}
+
+[ -d "${ARTIFACTS_DIR}/runtime" ] || fail "missing prepared runtime"
+[ -d "${ARTIFACTS_DIR}/fpk-rust-backends" ] || fail "missing GNU Rust backends"
+[ -d "${ARTIFACTS_DIR}/musl-rust-backends" ] || fail "missing musl Rust backends"
+
+mkdir -p "${OUTPUT_DIR}"
+rm -f "${OUTPUT_DIR}"/*
+
+log "building generic Linux archives from prebuilt inputs"
+FN_KNOCK_PREBUILT_ONLY=1 \
+FN_KNOCK_RUNTIME_GATEWAY_ARCHES="amd64 arm64 arm" \
+FN_KNOCK_MUSL_ARCHES="amd64 arm64 arm" \
+  bash "${ROOT_DIR}/scripts/fn-knock-prepare-artifacts.sh" linux
+
+log "building fnOS FPK packages locally"
+FN_KNOCK_FNPACK_BIN="${FNPACK_BIN}" \
+  bash "${ROOT_DIR}/scripts/fn-knock-package-fpk.sh"
+
+log "building OpenWrt IPK and APK packages from prebuilt inputs"
+FN_KNOCK_ARTIFACTS_ALREADY_PREPARED=1 \
+FN_KNOCK_USE_PREPARED_ARTIFACTS=1 \
+FN_KNOCK_OPENWRT_RUST_BACKEND_BIN_DIR="${ARTIFACTS_DIR}/musl-rust-backends" \
+  bash "${ROOT_DIR}/scripts/build-openwrt-ipk.sh"
+
+log "building Synology SPKs from prebuilt inputs"
+FN_KNOCK_SYNOLOGY_SKIP_ARTIFACT_PREPARE=1 \
+  bash "${ROOT_DIR}/apps/fn-knock-synology/scripts/build-all-packages.sh"
+
+copy_matches "FPK" "${ARTIFACTS_DIR}/fpk/"*.fpk
+copy_matches "Linux" "${ARTIFACTS_DIR}/linux/"*.tar.gz "${ARTIFACTS_DIR}/linux/"*.sha256
+copy_matches "OpenWrt" "${ROOT_DIR}/dist/openwrt/"*.ipk "${ROOT_DIR}/dist/openwrt/"*.apk
+copy_matches "Synology" "${ROOT_DIR}/dist/synology/"*.spk "${ROOT_DIR}/dist/synology/"*.spk.sha256
+
+log "release assets are ready in ${OUTPUT_DIR}"

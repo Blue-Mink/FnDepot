@@ -1,1 +1,441 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiBsb2FkX3NtYXJ0X2Nvbm5lY3RfZGV0YWlscyhzdGF0ZTogJkFwcFN0YXRlKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKHN0YXRlKS5hd2FpdDsKICAgIGxldCBjb25maWcgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9jb25maWcoKS5hd2FpdD87CiAgICBsZXQgcnVudGltZSA9IHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZ2V0X2pzb25fdmFsdWUoU01BUlRfQ09OTkVDVF9SVU5USU1FX0tFWSkKICAgICAgICAuYXdhaXQ/CiAgICAgICAgLm1hcCh8dmFsdWV8IG5vcm1hbGl6ZV9zbWFydF9jb25uZWN0X3J1bnRpbWUoU29tZSgmdmFsdWUpKSkKICAgICAgICAudW53cmFwX29yX2Vsc2UoZGVmYXVsdF9zbWFydF9jb25uZWN0X3J1bnRpbWUpOwogICAgT2soYnVpbGRfc21hcnRfY29ubmVjdF9kZXRhaWxzKAogICAgICAgIHN0YXRlLAogICAgICAgICZjb25maWcsCiAgICAgICAgcnVudGltZSwKICAgICAgICAmdHJhbnNsYXRvciwKICAgICkpCn0KCnB1YihzdXBlcikgZm4gc21hcnRfY29ubmVjdF9ob3N0X21hbmFnZW1lbnRfYXZhaWxhYmxlKHN0YXRlOiAmQXBwU3RhdGUpIC0+IGJvb2wgewogICAgbGV0IHByb2ZpbGUgPSBydW50aW1lX3Byb2ZpbGU6OmdldF9ydW50aW1lX3Byb2ZpbGUoc3RhdGUpOwogICAgcnVudGltZV9wcm9maWxlOjpnZXRfcnVudGltZV9jYXBhYmlsaXRpZXMoJnByb2ZpbGUpLnNtYXJ0X2Nvbm5lY3RfYXZhaWxhYmxlCn0KCnB1YihzdXBlcikgZm4gc21hcnRfY29ubmVjdF9ydW50aW1lX2F2YWlsYWJsZShzdGF0ZTogJkFwcFN0YXRlLCBjb25maWc6ICZWYWx1ZSkgLT4gYm9vbCB7CiAgICBzbWFydF9jb25uZWN0X2hvc3RfbWFuYWdlbWVudF9hdmFpbGFibGUoc3RhdGUpCiAgICAgICAgJiYgY29uZmlnLmdldCgicnVuX3R5cGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KSA9PSBTb21lKDMpCn0KCnB1YihzdXBlcikgZm4gc2hvdWxkX3NjaGVkdWxlX3NtYXJ0X2Nvbm5lY3Rfc3luYyhzdGF0ZTogJkFwcFN0YXRlLCBjb25maWc6ICZWYWx1ZSkgLT4gYm9vbCB7CiAgICBsZXQgc21hcnQgPSBub3JtYWxpemVfc21hcnRfY29ubmVjdF9jb25maWcoY29uZmlnLmdldCgic21hcnRfY29ubmVjdCIpKTsKICAgIHNtYXJ0X2Nvbm5lY3RfcnVudGltZV9hdmFpbGFibGUoc3RhdGUsIGNvbmZpZykKICAgICAgICAmJiBzbWFydC5nZXQoImVuYWJsZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgPT0gU29tZSh0cnVlKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHN5bmNfc21hcnRfY29ubmVjdChzdGF0ZTogJkFwcFN0YXRlLCBjb25maWc6ICZWYWx1ZSkgLT4gUmVzdWx0PFZhbHVlLCBTdHJpbmc+IHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZShzdGF0ZSkuYXdhaXQ7CiAgICBsZXQgc21hcnQgPSBub3JtYWxpemVfc21hcnRfY29ubmVjdF9jb25maWcoY29uZmlnLmdldCgic21hcnRfY29ubmVjdCIpKTsKICAgIGxldCBkb21haW5zID0gbGlzdF9zbWFydF9jb25uZWN0X2RvbWFpbnMoY29uZmlnKTsKICAgIGxldCBhdmFpbGFibGUgPSBzbWFydF9jb25uZWN0X3J1bnRpbWVfYXZhaWxhYmxlKHN0YXRlLCBjb25maWcpOwogICAgbGV0IGVuYWJsZWQgPSBzbWFydC5nZXQoImVuYWJsZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgPT0gU29tZSh0cnVlKTsKICAgIGxldCBzZWxlY3RlZF9pcHY0ID0gc21hcnQKICAgICAgICAuZ2V0KCJzZWxlY3RlZF9pcHY0IikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAudW53cmFwX29yKCIiKQogICAgICAgIC50cmltKCkKICAgICAgICAudG9fc3RyaW5nKCk7CiAgICBsZXQgbm93ID0gdGltZV91dGlsczo6bm93X2lzbygpOwoKICAgIGxldCBydW50aW1lX3Jlc3VsdCA9IGFzeW5jIHsKICAgICAgICBpZiAhYXZhaWxhYmxlIHx8ICFlbmFibGVkIHsKICAgICAgICAgICAgY2xlYXJfc21hcnRfY29ubmVjdF9tYW5hZ2VkX2NvbmZpZyhzdGF0ZSwgJnRyYW5zbGF0b3IpPzsKICAgICAgICAgICAgcmV0dXJuIE9rKGpzb24hKHsKICAgICAgICAgICAgICAgICJzZWxlY3RlZF9pcHY0Ijogc2VsZWN0ZWRfaXB2NCwKICAgICAgICAgICAgICAgICJzeW5jZWRfZG9tYWlucyI6IFtdLAogICAgICAgICAgICAgICAgIm1hbmFnZWRfcnVsZV9jb3VudCI6IDAsCiAgICAgICAgICAgICAgICAibGFzdF9zeW5jX2F0Ijogbm93LAogICAgICAgICAgICAgICAgImxhc3Rfc3luY19lcnJvciI6IFZhbHVlOjpOdWxsLAogICAgICAgICAgICB9KSk7CiAgICAgICAgfQogICAgICAgIGlmIHNlbGVjdGVkX2lwdjQuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoc21hcnRfY29ubmVjdF90ZXh0KCZ0cmFuc2xhdG9yLCAic2VsZWN0TG9jYWxJcCIpKTsKICAgICAgICB9CiAgICAgICAgaWYgIXNlbGVjdGVkX2lwdjQucGFyc2UoKS5pc19va19hbmQobmV0X3V0aWxzOjppc19wcml2YXRlX2lwdjQpIHsKICAgICAgICAgICAgcmV0dXJuIEVycihzbWFydF9jb25uZWN0X3RleHQoJnRyYW5zbGF0b3IsICJzZWxlY3RWYWxpZExvY2FsSXB2NCIpKTsKICAgICAgICB9CiAgICAgICAgbGV0IGRuc21hc3EgPSBzeXN0ZW1fYXNzZXRzOjpidWlsZF9kbnNtYXNxX3N0YXR1c193aXRoX3RyYW5zbGF0b3IoJnRyYW5zbGF0b3IpOwogICAgICAgIGlmIGRuc21hc3EuZ2V0KCJpbnN0YWxsZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgIT0gU29tZSh0cnVlKSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoc21hcnRfY29ubmVjdF90ZXh0KCZ0cmFuc2xhdG9yLCAiZG5zbWFzcU5vdEluc3RhbGxlZCIpKTsKICAgICAgICB9CiAgICAgICAgaWYgZG5zbWFzcS5nZXQoImluaXRpYWxpemVkIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpICE9IFNvbWUodHJ1ZSkgewogICAgICAgICAgICByZXR1cm4gRXJyKHNtYXJ0X2Nvbm5lY3RfdGV4dCgmdHJhbnNsYXRvciwgImRuc21hc3FOb3RJbml0aWFsaXplZCIpKTsKICAgICAgICB9CiAgICAgICAgYXBwbHlfc21hcnRfY29ubmVjdF9tYW5hZ2VkX2NvbmZpZyhzdGF0ZSwgJnNlbGVjdGVkX2lwdjQsICZkb21haW5zLCAmdHJhbnNsYXRvcik/OwogICAgICAgIE9rKGpzb24hKHsKICAgICAgICAgICAgInNlbGVjdGVkX2lwdjQiOiBzZWxlY3RlZF9pcHY0LAogICAgICAgICAgICAic3luY2VkX2RvbWFpbnMiOiBkb21haW5zLAogICAgICAgICAgICAibWFuYWdlZF9ydWxlX2NvdW50IjogZG9tYWlucy5sZW4oKSwKICAgICAgICAgICAgImxhc3Rfc3luY19hdCI6IG5vdywKICAgICAgICAgICAgImxhc3Rfc3luY19lcnJvciI6IFZhbHVlOjpOdWxsLAogICAgICAgIH0pKQogICAgfQogICAgLmF3YWl0OwoKICAgIGxldCBydW50aW1lID0gbWF0Y2ggcnVudGltZV9yZXN1bHQgewogICAgICAgIE9rKHJ1bnRpbWUpID0+IHJ1bnRpbWUsCiAgICAgICAgRXJyKG1lc3NhZ2UpID0+IHsKICAgICAgICAgICAgbGV0IHJ1bnRpbWUgPSBqc29uISh7CiAgICAgICAgICAgICAgICAic2VsZWN0ZWRfaXB2NCI6IHNlbGVjdGVkX2lwdjQsCiAgICAgICAgICAgICAgICAic3luY2VkX2RvbWFpbnMiOiBbXSwKICAgICAgICAgICAgICAgICJtYW5hZ2VkX3J1bGVfY291bnQiOiAwLAogICAgICAgICAgICAgICAgImxhc3Rfc3luY19hdCI6IFZhbHVlOjpOdWxsLAogICAgICAgICAgICAgICAgImxhc3Rfc3luY19lcnJvciI6IG1lc3NhZ2UsCiAgICAgICAgICAgIH0pOwogICAgICAgICAgICBsZXQgXyA9IHN0YXRlCiAgICAgICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgICAgICAuc2V0X2pzb25fdmFsdWUoU01BUlRfQ09OTkVDVF9SVU5USU1FX0tFWSwgJnJ1bnRpbWUpCiAgICAgICAgICAgICAgICAuYXdhaXQ7CiAgICAgICAgICAgIHJldHVybiBFcnIobWVzc2FnZSk7CiAgICAgICAgfQogICAgfTsKCiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNldF9qc29uX3ZhbHVlKFNNQVJUX0NPTk5FQ1RfUlVOVElNRV9LRVksICZydW50aW1lKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIE9rKGJ1aWxkX3NtYXJ0X2Nvbm5lY3RfZGV0YWlscygKICAgICAgICBzdGF0ZSwKICAgICAgICBjb25maWcsCiAgICAgICAgcnVudGltZSwKICAgICAgICAmdHJhbnNsYXRvciwKICAgICkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gcmVjb25jaWxlX3NtYXJ0X2Nvbm5lY3RfZm9yX3J1bl90eXBlX2NoYW5nZTxTeW5jLCBTeW5jRnV0dXJlPigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBuZXh0X2NvbmZpZzogJm11dCBWYWx1ZSwKICAgIHN5bmNfcnVudGltZTogU3luYywKKSAtPiBSZXN1bHQ8Ym9vbCwgU3RyaW5nPgp3aGVyZQogICAgU3luYzogRm4oQXBwU3RhdGUsIFZhbHVlKSAtPiBTeW5jRnV0dXJlLAogICAgU3luY0Z1dHVyZTogc3RkOjpmdXR1cmU6OkZ1dHVyZTxPdXRwdXQgPSBSZXN1bHQ8KCksIFN0cmluZz4+LAp7CiAgICBsZXQgc3luY19lcnJvciA9IG1hdGNoIHN5bmNfcnVudGltZShzdGF0ZS5jbG9uZSgpLCBuZXh0X2NvbmZpZy5jbG9uZSgpKS5hd2FpdCB7CiAgICAgICAgT2soKCkpID0+IHJldHVybiBPayhmYWxzZSksCiAgICAgICAgRXJyKGVycm9yKSA9PiBlcnJvciwKICAgIH07CiAgICB0cmFjaW5nOjp3YXJuISgKICAgICAgICBlcnJvciA9ICVzeW5jX2Vycm9yLAogICAgICAgICJmYWlsZWQgdG8gc3luYyBzbWFydCBjb25uZWN0IGJlZm9yZSBydW4gdHlwZSBjaGFuZ2UiCiAgICApOwoKICAgIGxldCBtdXQgc21hcnQgPSBub3JtYWxpemVfc21hcnRfY29ubmVjdF9jb25maWcobmV4dF9jb25maWcuZ2V0KCJzbWFydF9jb25uZWN0IikpOwogICAgaWYgc21hcnQuZ2V0KCJlbmFibGVkIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpICE9IFNvbWUodHJ1ZSkgewogICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICB9CiAgICBlbnN1cmVfY29uZmlnX29iamVjdCgmbXV0IHNtYXJ0KS5pbnNlcnQoImVuYWJsZWQiLnRvX3N0cmluZygpLCBWYWx1ZTo6Qm9vbChmYWxzZSkpOwogICAgKm5leHRfY29uZmlnID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5zZXRfY29uZmlnX3RvcF9sZXZlbF92YWx1ZSgic21hcnRfY29ubmVjdCIsIHNtYXJ0KQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKCiAgICBpZiBsZXQgRXJyKGVycm9yKSA9IHN5bmNfcnVudGltZShzdGF0ZS5jbG9uZSgpLCBuZXh0X2NvbmZpZy5jbG9uZSgpKS5hd2FpdCB7CiAgICAgICAgdHJhY2luZzo6d2FybiEoCiAgICAgICAgICAgICVlcnJvciwKICAgICAgICAgICAgImZhaWxlZCB0byBjbGVhciBzbWFydCBjb25uZWN0IHJ1bnRpbWUgYWZ0ZXIgZGlzYWJsaW5nIGl0IGR1cmluZyBydW4gdHlwZSBjaGFuZ2UiCiAgICAgICAgKTsKICAgIH0KICAgIE9rKHRydWUpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc3luY19zbWFydF9jb25uZWN0X29uX2Jvb3QoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgY29uZmlnOiAmVmFsdWUsCikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGxldCBzbWFydCA9IG5vcm1hbGl6ZV9zbWFydF9jb25uZWN0X2NvbmZpZyhjb25maWcuZ2V0KCJzbWFydF9jb25uZWN0IikpOwogICAgbGV0IGF2YWlsYWJsZSA9IHNtYXJ0X2Nvbm5lY3RfcnVudGltZV9hdmFpbGFibGUoc3RhdGUsIGNvbmZpZyk7CiAgICBsZXQgZW5hYmxlZCA9IHNtYXJ0LmdldCgiZW5hYmxlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSA9PSBTb21lKHRydWUpOwogICAgaWYgYXZhaWxhYmxlICYmIGVuYWJsZWQgewogICAgICAgIHN5bmNfc21hcnRfY29ubmVjdChzdGF0ZSwgY29uZmlnKS5hd2FpdD87CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH0KCiAgICBsZXQgc2VsZWN0ZWRfaXB2NCA9IHNtYXJ0CiAgICAgICAgLmdldCgic2VsZWN0ZWRfaXB2NCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcigiIikKICAgICAgICAudHJpbSgpCiAgICAgICAgLnRvX3N0cmluZygpOwogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKHN0YXRlKS5hd2FpdDsKICAgIGNsZWFyX3NtYXJ0X2Nvbm5lY3RfbWFuYWdlZF9jb25maWcoc3RhdGUsICZ0cmFuc2xhdG9yKT87CiAgICBsZXQgcnVudGltZSA9IGpzb24hKHsKICAgICAgICAic2VsZWN0ZWRfaXB2NCI6IHNlbGVjdGVkX2lwdjQsCiAgICAgICAgInN5bmNlZF9kb21haW5zIjogW10sCiAgICAgICAgIm1hbmFnZWRfcnVsZV9jb3VudCI6IDAsCiAgICAgICAgImxhc3Rfc3luY19hdCI6IHRpbWVfdXRpbHM6Om5vd19pc28oKSwKICAgICAgICAibGFzdF9zeW5jX2Vycm9yIjogVmFsdWU6Ok51bGwsCiAgICB9KTsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2V0X2pzb25fdmFsdWUoU01BUlRfQ09OTkVDVF9SVU5USU1FX0tFWSwgJnJ1bnRpbWUpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgT2soKCkpCn0KCnB1YihjcmF0ZSkgZm4gc2NoZWR1bGVfc21hcnRfY29ubmVjdF9zeW5jX2FmdGVyX2hvc3RfbWFwcGluZ3NfY2hhbmdlKAogICAgc3RhdGU6IEFwcFN0YXRlLAogICAgY29uZmlnOiBWYWx1ZSwKKSB7CiAgICBpZiAhc2hvdWxkX3NjaGVkdWxlX3NtYXJ0X2Nvbm5lY3Rfc3luYygmc3RhdGUsICZjb25maWcpIHsKICAgICAgICByZXR1cm47CiAgICB9CgogICAgbGV0IHRhc2tfc3RhdGUgPSBzdGF0ZS5jbG9uZSgpOwogICAgc3RhdGUuc3Bhd25fYmFja2dyb3VuZCgic21hcnQtY29ubmVjdC1zeW5jIiwgYXN5bmMgbW92ZSB7CiAgICAgICAgbGV0IGxhdGVzdF9jb25maWcgPSBtYXRjaCB0YXNrX3N0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0IHsKICAgICAgICAgICAgT2soY29uZmlnKSA9PiBjb25maWcsCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoCiAgICAgICAgICAgICAgICAgICAgJWVycm9yLAogICAgICAgICAgICAgICAgICAgICJmYWlsZWQgdG8gbG9hZCBjb25maWcgZm9yIHNtYXJ0IGNvbm5lY3QgYmFja2dyb3VuZCBzeW5jIGFmdGVyIGhvc3QgbWFwcGluZ3MgY2hhbmdlIgogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgIGNvbmZpZwogICAgICAgICAgICB9CiAgICAgICAgfTsKICAgICAgICBpZiBsZXQgRXJyKG1lc3NhZ2UpID0gc3luY19zbWFydF9jb25uZWN0KCZ0YXNrX3N0YXRlLCAmbGF0ZXN0X2NvbmZpZykuYXdhaXQgewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISgKICAgICAgICAgICAgICAgICVtZXNzYWdlLAogICAgICAgICAgICAgICAgImZhaWxlZCB0byBzeW5jIHNtYXJ0IGNvbm5lY3QgYWZ0ZXIgaG9zdCBtYXBwaW5ncyBjaGFuZ2UiCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfSk7Cn0KCnB1YihzdXBlcikgZm4gYnVpbGRfc21hcnRfY29ubmVjdF9kZXRhaWxzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGNvbmZpZzogJlZhbHVlLAogICAgcnVudGltZTogVmFsdWUsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBWYWx1ZSB7CiAgICBsZXQgc21hcnQgPSBub3JtYWxpemVfc21hcnRfY29ubmVjdF9jb25maWcoY29uZmlnLmdldCgic21hcnRfY29ubmVjdCIpKTsKICAgIGxldCBob3N0X21hbmFnZW1lbnRfYXZhaWxhYmxlID0gc21hcnRfY29ubmVjdF9ob3N0X21hbmFnZW1lbnRfYXZhaWxhYmxlKHN0YXRlKTsKICAgIGxldCBhdmFpbGFibGUgPSBzbWFydF9jb25uZWN0X3J1bnRpbWVfYXZhaWxhYmxlKHN0YXRlLCBjb25maWcpOwogICAgbGV0IHJlYXNvbiA9IGlmIGF2YWlsYWJsZSB7CiAgICAgICAgU3RyaW5nOjpuZXcoKQogICAgfSBlbHNlIGlmICFob3N0X21hbmFnZW1lbnRfYXZhaWxhYmxlIHsKICAgICAgICBjYXBhYmlsaXR5X2Jsb2NrZWRfdGV4dChzdGF0ZSwgInNtYXJ0X2Nvbm5lY3RfYXZhaWxhYmxlIiwgdHJhbnNsYXRvcikKICAgIH0gZWxzZSB7CiAgICAgICAgbGV0IG1vZGUgPSBzbWFydF9jb25uZWN0X3J1bl90eXBlX2xhYmVsKAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICBjb25maWcuZ2V0KCJydW5fdHlwZSIpLmFuZF90aGVuKFZhbHVlOjphc19pNjQpLnVud3JhcF9vcigzKSwKICAgICAgICApOwogICAgICAgIHNtYXJ0X2Nvbm5lY3RfdGV4dF9wYXJhbXModHJhbnNsYXRvciwgInVuYXZhaWxhYmxlUmVhc29uIiwgJlsoIm1vZGUiLCBtb2RlKV0pCiAgICB9OwogICAgbGV0IGRuc21hc3Ffc3RhdHVzID0KICAgICAgICByZXNvbHZlX3NtYXJ0X2Nvbm5lY3RfZG5zbWFzcV9zdGF0dXMoaG9zdF9tYW5hZ2VtZW50X2F2YWlsYWJsZSwgJnJlYXNvbiwgfHwgewogICAgICAgICAgICBzeXN0ZW1fYXNzZXRzOjpidWlsZF9kbnNtYXNxX3N0YXR1c193aXRoX3RyYW5zbGF0b3IodHJhbnNsYXRvcikKICAgICAgICB9KTsKICAgIGpzb24hKHsKICAgICAgICAiY29uZmlnIjogc21hcnQsCiAgICAgICAgImF2YWlsYWJpbGl0eSI6IHsKICAgICAgICAgICAgImF2YWlsYWJsZSI6IGF2YWlsYWJsZSwKICAgICAgICAgICAgInJlYXNvbiI6IHJlYXNvbiwKICAgICAgICB9LAogICAgICAgICJkbnNtYXNxIjogbWVyZ2VfZG5zbWFzcV9ydW50aW1lKAogICAgICAgICAgICBkbnNtYXNxX3N0YXR1cywKICAgICAgICAgICAgcnVudGltZQogICAgICAgICksCiAgICAgICAgImRvbWFpbnMiOiBsaXN0X3NtYXJ0X2Nvbm5lY3RfZG9tYWlucyhjb25maWcpLAogICAgICAgICJsb2NhbF9pcF9vcHRpb25zIjogbGlzdF9wcml2YXRlX2lwdjRfY2FuZGlkYXRlcygpLAogICAgfSkKfQoKcHViKHN1cGVyKSBmbiByZXNvbHZlX3NtYXJ0X2Nvbm5lY3RfZG5zbWFzcV9zdGF0dXM8Rj4oCiAgICBob3N0X21hbmFnZW1lbnRfYXZhaWxhYmxlOiBib29sLAogICAgdW5hdmFpbGFibGVfbWVzc2FnZTogJnN0ciwKICAgIGxvYWRfc3RhdHVzOiBGLAopIC0+IFZhbHVlCndoZXJlCiAgICBGOiBGbk9uY2UoKSAtPiBWYWx1ZSwKewogICAgaWYgaG9zdF9tYW5hZ2VtZW50X2F2YWlsYWJsZSB7CiAgICAgICAgcmV0dXJuIGxvYWRfc3RhdHVzKCk7CiAgICB9CiAgICBqc29uISh7CiAgICAgICAgImluc3RhbGxlZCI6IGZhbHNlLAogICAgICAgICJzZXJ2aWNlX2FjdGl2ZSI6IGZhbHNlLAogICAgICAgICJpbml0aWFsaXplZCI6IGZhbHNlLAogICAgICAgICJ2ZXJzaW9uIjogIiIsCiAgICAgICAgImluc3RhbGxfc3RhdGUiOiB7CiAgICAgICAgICAgICJzdGF0dXMiOiAidW5pbnN0YWxsZWQiLAogICAgICAgICAgICAicHJvZ3Jlc3MiOiAwLAogICAgICAgICAgICAibWVzc2FnZSI6IHVuYXZhaWxhYmxlX21lc3NhZ2UsCiAgICAgICAgfQogICAgfSkKfQoKcHViKHN1cGVyKSBmbiBtZXJnZV9kbnNtYXNxX3J1bnRpbWUobXV0IHN0YXR1czogVmFsdWUsIHJ1bnRpbWU6IFZhbHVlKSAtPiBWYWx1ZSB7CiAgICBpZiBsZXQgU29tZShvYmplY3QpID0gc3RhdHVzLmFzX29iamVjdF9tdXQoKSB7CiAgICAgICAgb2JqZWN0Lmluc2VydCgicnVudGltZSIudG9fc3RyaW5nKCksIHJ1bnRpbWUpOwogICAgfQogICAgc3RhdHVzCn0KCnB1YihzdXBlcikgZm4gc21hcnRfY29ubmVjdF9ydW5fdHlwZV9sYWJlbCh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwgcnVuX3R5cGU6IGk2NCkgLT4gU3RyaW5nIHsKICAgIG1hdGNoIHJ1bl90eXBlIHsKICAgICAgICAwID0+IHNtYXJ0X2Nvbm5lY3RfdGV4dCh0cmFuc2xhdG9yLCAicnVuVHlwZXMuZGlyZWN0IiksCiAgICAgICAgMSA9PiBzbWFydF9jb25uZWN0X3RleHQodHJhbnNsYXRvciwgInJ1blR5cGVzLnJldmVyc2VQcm94eSIpLAogICAgICAgIDMgPT4gc21hcnRfY29ubmVjdF90ZXh0KHRyYW5zbGF0b3IsICJydW5UeXBlcy5zdWJkb21haW4iKSwKICAgICAgICBfID0+IHNtYXJ0X2Nvbm5lY3RfdGV4dCh0cmFuc2xhdG9yLCAiY3VycmVudE1vZGUiKSwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBsaXN0X3NtYXJ0X2Nvbm5lY3RfZG9tYWlucyhjb25maWc6ICZWYWx1ZSkgLT4gVmVjPFN0cmluZz4gewogICAgbGV0IG11dCBzZWVuID0gQlRyZWVTZXQ6Om5ldygpOwogICAgbGV0IG11dCBhdXRoX2hvc3RzID0gVmVjOjpuZXcoKTsKICAgIGxldCBtdXQgYXBwX2hvc3RzID0gVmVjOjpuZXcoKTsKICAgIGlmIGxldCBTb21lKG1hcHBpbmdzKSA9IGNvbmZpZy5nZXQoImhvc3RfbWFwcGluZ3MiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpIHsKICAgICAgICBmb3IgbWFwcGluZyBpbiBtYXBwaW5ncyB7CiAgICAgICAgICAgIGxldCBob3N0ID0gbm9ybWFsaXplX2hvc3QobWFwcGluZy5nZXQoImhvc3QiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpKTsKICAgICAgICAgICAgaWYgaG9zdC5pc19lbXB0eSgpIHx8ICFzZWVuLmluc2VydChob3N0LmNsb25lKCkpIHsKICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIG1hcHBpbmcuZ2V0KCJzZXJ2aWNlX3JvbGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKCJhdXRoIikgewogICAgICAgICAgICAgICAgYXV0aF9ob3N0cy5wdXNoKGhvc3QpOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgYXBwX2hvc3RzLnB1c2goaG9zdCk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICBhdXRoX2hvc3RzLmV4dGVuZChhcHBfaG9zdHMpOwogICAgYXV0aF9ob3N0cwp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9ob3N0KHZhbHVlOiAmc3RyKSAtPiBTdHJpbmcgewogICAgbGV0IGxvd2VyID0gdmFsdWUudHJpbSgpLnRvX2xvd2VyY2FzZSgpOwogICAgbGV0IHdpdGhvdXRfc2NoZW1lID0gc3RyaXBfYWxwaGFfc2NoZW1lKCZsb3dlcik7CiAgICB3aXRob3V0X3NjaGVtZQogICAgICAgIC5zcGxpdCgnLycpCiAgICAgICAgLm5leHQoKQogICAgICAgIC51bndyYXBfb3IoIiIpCiAgICAgICAgLnRyaW1fZW5kX21hdGNoZXMoJy4nKQogICAgICAgIC50b19zdHJpbmcoKQp9CgpwdWIoc3VwZXIpIGZuIHN0cmlwX2FscGhhX3NjaGVtZSh2YWx1ZTogJnN0cikgLT4gJnN0ciB7CiAgICBsZXQgU29tZSgoc2NoZW1lLCByZXN0KSkgPSB2YWx1ZS5zcGxpdF9vbmNlKCI6Ly8iKSBlbHNlIHsKICAgICAgICByZXR1cm4gdmFsdWU7CiAgICB9OwogICAgaWYgIXNjaGVtZS5pc19lbXB0eSgpICYmIHNjaGVtZS5jaGFycygpLmFsbCh8Y2h8IGNoLmlzX2FzY2lpX2FscGhhYmV0aWMoKSkgewogICAgICAgIHJlc3QKICAgIH0gZWxzZSB7CiAgICAgICAgdmFsdWUKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBsaXN0X3ByaXZhdGVfaXB2NF9jYW5kaWRhdGVzKCkgLT4gVmVjPFZhbHVlPiB7CiAgICBuZXRfdXRpbHM6Omxpc3RfcHJpdmF0ZV9pcHY0X2NhbmRpZGF0ZXMoKQogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5tYXAofGNhbmRpZGF0ZXwgewogICAgICAgICAgICBsZXQgYWRkcmVzcyA9IGNhbmRpZGF0ZS5hZGRyZXNzLnRvX3N0cmluZygpOwogICAgICAgICAgICBqc29uISh7CiAgICAgICAgICAgICAgICAibGFiZWwiOiBmb3JtYXQhKCJ7fSAoe30pIiwgYWRkcmVzcywgY2FuZGlkYXRlLmludGVyZmFjZSksCiAgICAgICAgICAgICAgICAidmFsdWUiOiBhZGRyZXNzLAogICAgICAgICAgICAgICAgImludGVyZmFjZSI6IGNhbmRpZGF0ZS5pbnRlcmZhY2UsCiAgICAgICAgICAgICAgICAibmV0bWFzayI6IGNhbmRpZGF0ZS5uZXRtYXNrLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgInByZWZpeCI6IGNhbmRpZGF0ZS5wcmVmaXgsCiAgICAgICAgICAgIH0pCiAgICAgICAgfSkKICAgICAgICAuY29sbGVjdCgpCn0KCnB1YihzdXBlcikgZm4gYXBwbHlfc21hcnRfY29ubmVjdF9tYW5hZ2VkX2NvbmZpZygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBzZWxlY3RlZF9pcHY0OiAmc3RyLAogICAgZG9tYWluczogJltTdHJpbmddLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGlmICFzbWFydF9jb25uZWN0X2hvc3RfbWFuYWdlbWVudF9hdmFpbGFibGUoc3RhdGUpIHsKICAgICAgICByZXR1cm4gRXJyKGNhcGFiaWxpdHlfYmxvY2tlZF90ZXh0KAogICAgICAgICAgICBzdGF0ZSwKICAgICAgICAgICAgInNtYXJ0X2Nvbm5lY3RfYXZhaWxhYmxlIiwKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICApKTsKICAgIH0KICAgIGxldCBjb250ZW50ID0gYnVpbGRfc21hcnRfY29ubmVjdF9tYW5hZ2VkX2NvbmZpZyhzZWxlY3RlZF9pcHY0LCBkb21haW5zKTsKICAgIGxldCBwYXRoID0gUGF0aDo6bmV3KFNNQVJUX0NPTk5FQ1RfTUFOQUdFRF9DT05GX1BBVEgpOwogICAgaWYgbGV0IFNvbWUocGFyZW50KSA9IHBhdGgucGFyZW50KCkgewogICAgICAgIGZzOjpjcmVhdGVfZGlyX2FsbChwYXJlbnQpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgfQogICAgbGV0IHRtcCA9IGZvcm1hdCEoInt9LnRtcCIsIFNNQVJUX0NPTk5FQ1RfTUFOQUdFRF9DT05GX1BBVEgpOwogICAgZnM6OndyaXRlKCZ0bXAsIGNvbnRlbnQpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgZnM6OnJlbmFtZSgmdG1wLCBTTUFSVF9DT05ORUNUX01BTkFHRURfQ09ORl9QQVRIKS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIHN5c3RlbV9hc3NldHM6OmFjdGl2YXRlX2Ruc21hc3Ffc2VydmljZSh0cmFuc2xhdG9yKQp9CgpwdWIoc3VwZXIpIGZuIGNsZWFyX3NtYXJ0X2Nvbm5lY3RfbWFuYWdlZF9jb25maWcoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGNsZWFyX3NtYXJ0X2Nvbm5lY3RfbWFuYWdlZF9jb25maWdfYXQoCiAgICAgICAgc21hcnRfY29ubmVjdF9ob3N0X21hbmFnZW1lbnRfYXZhaWxhYmxlKHN0YXRlKSwKICAgICAgICBQYXRoOjpuZXcoU01BUlRfQ09OTkVDVF9NQU5BR0VEX0NPTkZfUEFUSCksCiAgICAgICAgfHwgc3lzdGVtX2Fzc2V0czo6ZGVhY3RpdmF0ZV9kbnNtYXNxX3NlcnZpY2UodHJhbnNsYXRvciksCiAgICApCn0KCnB1YihzdXBlcikgZm4gY2xlYXJfc21hcnRfY29ubmVjdF9tYW5hZ2VkX2NvbmZpZ19hdDxGPigKICAgIGhvc3RfbWFuYWdlbWVudF9hdmFpbGFibGU6IGJvb2wsCiAgICBwYXRoOiAmUGF0aCwKICAgIGRlYWN0aXZhdGU6IEYsCikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+CndoZXJlCiAgICBGOiBGbk9uY2UoKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4sCnsKICAgIGlmICFob3N0X21hbmFnZW1lbnRfYXZhaWxhYmxlIHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQogICAgaWYgcGF0aC5leGlzdHMoKSB7CiAgICAgICAgZnM6OnJlbW92ZV9maWxlKHBhdGgpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgfQogICAgZGVhY3RpdmF0ZSgpCn0KCnB1YihzdXBlcikgZm4gYnVpbGRfc21hcnRfY29ubmVjdF9tYW5hZ2VkX2NvbmZpZygKICAgIHNlbGVjdGVkX2lwdjQ6ICZzdHIsCiAgICBkb21haW5zOiAmW1N0cmluZ10sCikgLT4gU3RyaW5nIHsKICAgIGxldCBub3JtYWxpemVkX2lwdjQgPSBzZWxlY3RlZF9pcHY0LnRyaW0oKTsKICAgIGxldCBtdXQgbm9ybWFsaXplZF9kb21haW5zID0gVmVjOjpuZXcoKTsKICAgIGZvciBkb21haW4gaW4gZG9tYWlucyB7CiAgICAgICAgbGV0IGRvbWFpbiA9IGRvbWFpbi50cmltKCkudG9fbG93ZXJjYXNlKCk7CiAgICAgICAgaWYgIWRvbWFpbi5pc19lbXB0eSgpICYmICFub3JtYWxpemVkX2RvbWFpbnMuY29udGFpbnMoJmRvbWFpbikgewogICAgICAgICAgICBub3JtYWxpemVkX2RvbWFpbnMucHVzaChkb21haW4pOwogICAgICAgIH0KICAgIH0KICAgIGxldCBtdXQgbGlzdGVuX2FkZHJlc3NlcyA9IHZlYyFbIjEyNy4wLjAuMSIudG9fc3RyaW5nKCldOwogICAgaWYgIW5vcm1hbGl6ZWRfaXB2NC5pc19lbXB0eSgpICYmICFsaXN0ZW5fYWRkcmVzc2VzLml0ZXIoKS5hbnkofGl0ZW18IGl0ZW0gPT0gbm9ybWFsaXplZF9pcHY0KSB7CiAgICAgICAgbGlzdGVuX2FkZHJlc3Nlcy5wdXNoKG5vcm1hbGl6ZWRfaXB2NC50b19zdHJpbmcoKSk7CiAgICB9CiAgICBsZXQgbXV0IGxpbmVzID0gdmVjIVsKICAgICAgICAiIyBNYW5hZ2VkIGJ5IGZuLWtub2NrIHNtYXJ0IGNvbm5lY3QuIERvIG5vdCBlZGl0IG1hbnVhbGx5LiIudG9fc3RyaW5nKCksCiAgICAgICAgZm9ybWF0ISgibG9jYWwtdHRsPXtTTUFSVF9DT05ORUNUX0xPQ0FMX1RUTF9TRUNPTkRTfSIpLAogICAgICAgIGZvcm1hdCEoImxpc3Rlbi1hZGRyZXNzPXt9IiwgbGlzdGVuX2FkZHJlc3Nlcy5qb2luKCIsIikpLAogICAgICAgICJiaW5kLWludGVyZmFjZXMiLnRvX3N0cmluZygpLAogICAgXTsKICAgIGZvciBkb21haW4gaW4gbm9ybWFsaXplZF9kb21haW5zIHsKICAgICAgICBsaW5lcy5wdXNoKGZvcm1hdCEoImFkZHJlc3M9L3tkb21haW59L3tub3JtYWxpemVkX2lwdjR9IikpOwogICAgICAgIGxpbmVzLnB1c2goZm9ybWF0ISgibG9jYWw9L3tkb21haW59LyIpKTsKICAgIH0KICAgIGxpbmVzLnB1c2goU3RyaW5nOjpuZXcoKSk7CiAgICBsaW5lcy5qb2luKCJcbiIpCn0K
+use super::*;
+
+pub(super) async fn load_smart_connect_details(state: &AppState) -> anyhow::Result<Value> {
+    let translator = Translator::from_state(state).await;
+    let config = state.storage.store.get_config().await?;
+    let runtime = state
+        .storage
+        .store
+        .get_json_value(SMART_CONNECT_RUNTIME_KEY)
+        .await?
+        .map(|value| normalize_smart_connect_runtime(Some(&value)))
+        .unwrap_or_else(default_smart_connect_runtime);
+    Ok(build_smart_connect_details(
+        state,
+        &config,
+        runtime,
+        &translator,
+    ))
+}
+
+pub(super) fn smart_connect_host_management_available(state: &AppState) -> bool {
+    let profile = runtime_profile::get_runtime_profile(state);
+    runtime_profile::get_runtime_capabilities(&profile).smart_connect_available
+}
+
+pub(super) fn smart_connect_runtime_available(state: &AppState, config: &Value) -> bool {
+    smart_connect_host_management_available(state)
+        && config.get("run_type").and_then(Value::as_i64) == Some(3)
+}
+
+pub(super) fn should_schedule_smart_connect_sync(state: &AppState, config: &Value) -> bool {
+    let smart = normalize_smart_connect_config(config.get("smart_connect"));
+    smart_connect_runtime_available(state, config)
+        && smart.get("enabled").and_then(Value::as_bool) == Some(true)
+}
+
+pub(super) async fn sync_smart_connect(state: &AppState, config: &Value) -> Result<Value, String> {
+    let translator = Translator::from_state(state).await;
+    let smart = normalize_smart_connect_config(config.get("smart_connect"));
+    let domains = list_smart_connect_domains(config);
+    let available = smart_connect_runtime_available(state, config);
+    let enabled = smart.get("enabled").and_then(Value::as_bool) == Some(true);
+    let selected_ipv4 = smart
+        .get("selected_ipv4")
+        .and_then(Value::as_str)
+        .unwrap_or("")
+        .trim()
+        .to_string();
+    let now = time_utils::now_iso();
+
+    let runtime_result = async {
+        if !available || !enabled {
+            clear_smart_connect_managed_config(state, &translator)?;
+            return Ok(json!({
+                "selected_ipv4": selected_ipv4,
+                "synced_domains": [],
+                "managed_rule_count": 0,
+                "last_sync_at": now,
+                "last_sync_error": Value::Null,
+            }));
+        }
+        if selected_ipv4.is_empty() {
+            return Err(smart_connect_text(&translator, "selectLocalIp"));
+        }
+        if !selected_ipv4.parse().is_ok_and(net_utils::is_private_ipv4) {
+            return Err(smart_connect_text(&translator, "selectValidLocalIpv4"));
+        }
+        let dnsmasq = system_assets::build_dnsmasq_status_with_translator(&translator);
+        if dnsmasq.get("installed").and_then(Value::as_bool) != Some(true) {
+            return Err(smart_connect_text(&translator, "dnsmasqNotInstalled"));
+        }
+        if dnsmasq.get("initialized").and_then(Value::as_bool) != Some(true) {
+            return Err(smart_connect_text(&translator, "dnsmasqNotInitialized"));
+        }
+        apply_smart_connect_managed_config(state, &selected_ipv4, &domains, &translator)?;
+        Ok(json!({
+            "selected_ipv4": selected_ipv4,
+            "synced_domains": domains,
+            "managed_rule_count": domains.len(),
+            "last_sync_at": now,
+            "last_sync_error": Value::Null,
+        }))
+    }
+    .await;
+
+    let runtime = match runtime_result {
+        Ok(runtime) => runtime,
+        Err(message) => {
+            let runtime = json!({
+                "selected_ipv4": selected_ipv4,
+                "synced_domains": [],
+                "managed_rule_count": 0,
+                "last_sync_at": Value::Null,
+                "last_sync_error": message,
+            });
+            let _ = state
+                .storage
+                .store
+                .set_json_value(SMART_CONNECT_RUNTIME_KEY, &runtime)
+                .await;
+            return Err(message);
+        }
+    };
+
+    state
+        .storage
+        .store
+        .set_json_value(SMART_CONNECT_RUNTIME_KEY, &runtime)
+        .await
+        .map_err(|error| error.to_string())?;
+    Ok(build_smart_connect_details(
+        state,
+        config,
+        runtime,
+        &translator,
+    ))
+}
+
+pub(super) async fn reconcile_smart_connect_for_run_type_change<Sync, SyncFuture>(
+    state: &AppState,
+    next_config: &mut Value,
+    sync_runtime: Sync,
+) -> Result<bool, String>
+where
+    Sync: Fn(AppState, Value) -> SyncFuture,
+    SyncFuture: std::future::Future<Output = Result<(), String>>,
+{
+    let sync_error = match sync_runtime(state.clone(), next_config.clone()).await {
+        Ok(()) => return Ok(false),
+        Err(error) => error,
+    };
+    tracing::warn!(
+        error = %sync_error,
+        "failed to sync smart connect before run type change"
+    );
+
+    let mut smart = normalize_smart_connect_config(next_config.get("smart_connect"));
+    if smart.get("enabled").and_then(Value::as_bool) != Some(true) {
+        return Ok(false);
+    }
+    ensure_config_object(&mut smart).insert("enabled".to_string(), Value::Bool(false));
+    *next_config = state
+        .storage
+        .store
+        .set_config_top_level_value("smart_connect", smart)
+        .await
+        .map_err(|error| error.to_string())?;
+
+    if let Err(error) = sync_runtime(state.clone(), next_config.clone()).await {
+        tracing::warn!(
+            %error,
+            "failed to clear smart connect runtime after disabling it during run type change"
+        );
+    }
+    Ok(true)
+}
+
+pub(super) async fn sync_smart_connect_on_boot(
+    state: &AppState,
+    config: &Value,
+) -> Result<(), String> {
+    let smart = normalize_smart_connect_config(config.get("smart_connect"));
+    let available = smart_connect_runtime_available(state, config);
+    let enabled = smart.get("enabled").and_then(Value::as_bool) == Some(true);
+    if available && enabled {
+        sync_smart_connect(state, config).await?;
+        return Ok(());
+    }
+
+    let selected_ipv4 = smart
+        .get("selected_ipv4")
+        .and_then(Value::as_str)
+        .unwrap_or("")
+        .trim()
+        .to_string();
+    let translator = Translator::from_state(state).await;
+    clear_smart_connect_managed_config(state, &translator)?;
+    let runtime = json!({
+        "selected_ipv4": selected_ipv4,
+        "synced_domains": [],
+        "managed_rule_count": 0,
+        "last_sync_at": time_utils::now_iso(),
+        "last_sync_error": Value::Null,
+    });
+    state
+        .storage
+        .store
+        .set_json_value(SMART_CONNECT_RUNTIME_KEY, &runtime)
+        .await
+        .map_err(|error| error.to_string())?;
+    Ok(())
+}
+
+pub(crate) fn schedule_smart_connect_sync_after_host_mappings_change(
+    state: AppState,
+    config: Value,
+) {
+    if !should_schedule_smart_connect_sync(&state, &config) {
+        return;
+    }
+
+    let task_state = state.clone();
+    state.spawn_background("smart-connect-sync", async move {
+        let latest_config = match task_state.storage.store.get_config().await {
+            Ok(config) => config,
+            Err(error) => {
+                tracing::warn!(
+                    %error,
+                    "failed to load config for smart connect background sync after host mappings change"
+                );
+                config
+            }
+        };
+        if let Err(message) = sync_smart_connect(&task_state, &latest_config).await {
+            tracing::warn!(
+                %message,
+                "failed to sync smart connect after host mappings change"
+            );
+        }
+    });
+}
+
+pub(super) fn build_smart_connect_details(
+    state: &AppState,
+    config: &Value,
+    runtime: Value,
+    translator: &Translator,
+) -> Value {
+    let smart = normalize_smart_connect_config(config.get("smart_connect"));
+    let host_management_available = smart_connect_host_management_available(state);
+    let available = smart_connect_runtime_available(state, config);
+    let reason = if available {
+        String::new()
+    } else if !host_management_available {
+        capability_blocked_text(state, "smart_connect_available", translator)
+    } else {
+        let mode = smart_connect_run_type_label(
+            translator,
+            config.get("run_type").and_then(Value::as_i64).unwrap_or(3),
+        );
+        smart_connect_text_params(translator, "unavailableReason", &[("mode", mode)])
+    };
+    let dnsmasq_status =
+        resolve_smart_connect_dnsmasq_status(host_management_available, &reason, || {
+            system_assets::build_dnsmasq_status_with_translator(translator)
+        });
+    json!({
+        "config": smart,
+        "availability": {
+            "available": available,
+            "reason": reason,
+        },
+        "dnsmasq": merge_dnsmasq_runtime(
+            dnsmasq_status,
+            runtime
+        ),
+        "domains": list_smart_connect_domains(config),
+        "local_ip_options": list_private_ipv4_candidates(),
+    })
+}
+
+pub(super) fn resolve_smart_connect_dnsmasq_status<F>(
+    host_management_available: bool,
+    unavailable_message: &str,
+    load_status: F,
+) -> Value
+where
+    F: FnOnce() -> Value,
+{
+    if host_management_available {
+        return load_status();
+    }
+    json!({
+        "installed": false,
+        "service_active": false,
+        "initialized": false,
+        "version": "",
+        "install_state": {
+            "status": "uninstalled",
+            "progress": 0,
+            "message": unavailable_message,
+        }
+    })
+}
+
+pub(super) fn merge_dnsmasq_runtime(mut status: Value, runtime: Value) -> Value {
+    if let Some(object) = status.as_object_mut() {
+        object.insert("runtime".to_string(), runtime);
+    }
+    status
+}
+
+pub(super) fn smart_connect_run_type_label(translator: &Translator, run_type: i64) -> String {
+    match run_type {
+        0 => smart_connect_text(translator, "runTypes.direct"),
+        1 => smart_connect_text(translator, "runTypes.reverseProxy"),
+        3 => smart_connect_text(translator, "runTypes.subdomain"),
+        _ => smart_connect_text(translator, "currentMode"),
+    }
+}
+
+pub(super) fn list_smart_connect_domains(config: &Value) -> Vec<String> {
+    let mut seen = BTreeSet::new();
+    let mut auth_hosts = Vec::new();
+    let mut app_hosts = Vec::new();
+    if let Some(mappings) = config.get("host_mappings").and_then(Value::as_array) {
+        for mapping in mappings {
+            let host = normalize_host(mapping.get("host").and_then(Value::as_str).unwrap_or(""));
+            if host.is_empty() || !seen.insert(host.clone()) {
+                continue;
+            }
+            if mapping.get("service_role").and_then(Value::as_str) == Some("auth") {
+                auth_hosts.push(host);
+            } else {
+                app_hosts.push(host);
+            }
+        }
+    }
+    auth_hosts.extend(app_hosts);
+    auth_hosts
+}
+
+pub(super) fn normalize_host(value: &str) -> String {
+    let lower = value.trim().to_lowercase();
+    let without_scheme = strip_alpha_scheme(&lower);
+    without_scheme
+        .split('/')
+        .next()
+        .unwrap_or("")
+        .trim_end_matches('.')
+        .to_string()
+}
+
+pub(super) fn strip_alpha_scheme(value: &str) -> &str {
+    let Some((scheme, rest)) = value.split_once("://") else {
+        return value;
+    };
+    if !scheme.is_empty() && scheme.chars().all(|ch| ch.is_ascii_alphabetic()) {
+        rest
+    } else {
+        value
+    }
+}
+
+pub(super) fn list_private_ipv4_candidates() -> Vec<Value> {
+    net_utils::list_private_ipv4_candidates()
+        .into_iter()
+        .map(|candidate| {
+            let address = candidate.address.to_string();
+            json!({
+                "label": format!("{} ({})", address, candidate.interface),
+                "value": address,
+                "interface": candidate.interface,
+                "netmask": candidate.netmask.to_string(),
+                "prefix": candidate.prefix,
+            })
+        })
+        .collect()
+}
+
+pub(super) fn apply_smart_connect_managed_config(
+    state: &AppState,
+    selected_ipv4: &str,
+    domains: &[String],
+    translator: &Translator,
+) -> Result<(), String> {
+    if !smart_connect_host_management_available(state) {
+        return Err(capability_blocked_text(
+            state,
+            "smart_connect_available",
+            translator,
+        ));
+    }
+    let content = build_smart_connect_managed_config(selected_ipv4, domains);
+    let path = Path::new(SMART_CONNECT_MANAGED_CONF_PATH);
+    if let Some(parent) = path.parent() {
+        fs::create_dir_all(parent).map_err(|error| error.to_string())?;
+    }
+    let tmp = format!("{}.tmp", SMART_CONNECT_MANAGED_CONF_PATH);
+    fs::write(&tmp, content).map_err(|error| error.to_string())?;
+    fs::rename(&tmp, SMART_CONNECT_MANAGED_CONF_PATH).map_err(|error| error.to_string())?;
+    system_assets::activate_dnsmasq_service(translator)
+}
+
+pub(super) fn clear_smart_connect_managed_config(
+    state: &AppState,
+    translator: &Translator,
+) -> Result<(), String> {
+    clear_smart_connect_managed_config_at(
+        smart_connect_host_management_available(state),
+        Path::new(SMART_CONNECT_MANAGED_CONF_PATH),
+        || system_assets::deactivate_dnsmasq_service(translator),
+    )
+}
+
+pub(super) fn clear_smart_connect_managed_config_at<F>(
+    host_management_available: bool,
+    path: &Path,
+    deactivate: F,
+) -> Result<(), String>
+where
+    F: FnOnce() -> Result<(), String>,
+{
+    if !host_management_available {
+        return Ok(());
+    }
+    if path.exists() {
+        fs::remove_file(path).map_err(|error| error.to_string())?;
+    }
+    deactivate()
+}
+
+pub(super) fn build_smart_connect_managed_config(
+    selected_ipv4: &str,
+    domains: &[String],
+) -> String {
+    let normalized_ipv4 = selected_ipv4.trim();
+    let mut normalized_domains = Vec::new();
+    for domain in domains {
+        let domain = domain.trim().to_lowercase();
+        if !domain.is_empty() && !normalized_domains.contains(&domain) {
+            normalized_domains.push(domain);
+        }
+    }
+    let mut listen_addresses = vec!["127.0.0.1".to_string()];
+    if !normalized_ipv4.is_empty() && !listen_addresses.iter().any(|item| item == normalized_ipv4) {
+        listen_addresses.push(normalized_ipv4.to_string());
+    }
+    let mut lines = vec![
+        "# Managed by fn-knock smart connect. Do not edit manually.".to_string(),
+        format!("local-ttl={SMART_CONNECT_LOCAL_TTL_SECONDS}"),
+        format!("listen-address={}", listen_addresses.join(",")),
+        "bind-interfaces".to_string(),
+    ];
+    for domain in normalized_domains {
+        lines.push(format!("address=/{domain}/{normalized_ipv4}"));
+        lines.push(format!("local=/{domain}/"));
+    }
+    lines.push(String::new());
+    lines.join("\n")
+}

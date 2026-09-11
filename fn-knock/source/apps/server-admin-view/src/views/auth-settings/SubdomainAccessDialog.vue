@@ -1,1 +1,242 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENoZWNrYm94IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NoZWNrYm94IjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB0eXBlIHsgVE9UUFN1YmRvbWFpbkFjY2Vzc01vZGUgfSBmcm9tICIuLi8uLi90eXBlcyI7Cgp0eXBlIFN1YmRvbWFpbkFjY2Vzc09wdGlvbiA9IHsKICBrZXk6IHN0cmluZzsKICBraW5kOiAiaG9zdCIgfCAic3RyZWFtIjsKICBsYWJlbDogc3RyaW5nOwogIGRlc2NyaXB0aW9uOiBzdHJpbmc7CiAgc3RhbGU/OiBib29sZWFuOwogIGJ1aWx0aW4/OiBib29sZWFuOwp9OwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgaGFzVGFyZ2V0OiBib29sZWFuOwogIGlzU2F2aW5nOiBib29sZWFuOwogIG1vZGU6IFRPVFBTdWJkb21haW5BY2Nlc3NNb2RlOwogIG9wZW46IGJvb2xlYW47CiAgb3B0aW9uQ291bnQ6IG51bWJlcjsKICBvcHRpb25zOiBTdWJkb21haW5BY2Nlc3NPcHRpb25bXTsKICBzZWFyY2g6IHN0cmluZzsKICBzZWxlY3RlZENvdW50OiBudW1iZXI7CiAgc2VsZWN0ZWRLZXlzOiBSZWFkb25seVNldDxzdHJpbmc+OwogIHRhcmdldE5hbWU6IHN0cmluZzsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgInVwZGF0ZTptb2RlIjogW3ZhbHVlOiBUT1RQU3ViZG9tYWluQWNjZXNzTW9kZV07CiAgInVwZGF0ZTpvcGVuIjogW3ZhbHVlOiBib29sZWFuXTsKICAidXBkYXRlOnNlYXJjaCI6IFt2YWx1ZTogc3RyaW5nXTsKICBjbGVhclNlbGVjdGVkOiBbXTsKICBjbG9zZTogW107CiAgc2F2ZTogW107CiAgc2VsZWN0QWxsRmlsdGVyZWQ6IFtdOwogIHRvZ2dsZU9wdGlvbjogW2tleTogc3RyaW5nLCBjaGVja2VkOiBib29sZWFuXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBvcHRpb25Hcm91cHMgPSBjb21wdXRlZCgoKSA9PgogIFsKICAgIHsKICAgICAga2luZDogImhvc3QiIGFzIGNvbnN0LAogICAgICBsYWJlbDogdCgiYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb25Ib3N0R3JvdXAiKSwKICAgICAgb3B0aW9uczogcHJvcHMub3B0aW9ucy5maWx0ZXIoKG9wdGlvbikgPT4gb3B0aW9uLmtpbmQgPT09ICJob3N0IiksCiAgICB9LAogICAgewogICAgICBraW5kOiAic3RyZWFtIiBhcyBjb25zdCwKICAgICAgbGFiZWw6IHQoImFkbWluLmF1dGhTZXR0aW5ncy5wZXJtaXNzaW9uU3RyZWFtR3JvdXAiKSwKICAgICAgb3B0aW9uczogcHJvcHMub3B0aW9ucy5maWx0ZXIoKG9wdGlvbikgPT4gb3B0aW9uLmtpbmQgPT09ICJzdHJlYW0iKSwKICAgIH0sCiAgXS5maWx0ZXIoKGdyb3VwKSA9PiBncm91cC5vcHRpb25zLmxlbmd0aCA+IDApLAopOwpjb25zdCBoYXNTdHJlYW1PcHRpb25zID0gY29tcHV0ZWQoKCkgPT4KICBwcm9wcy5vcHRpb25zLnNvbWUoKG9wdGlvbikgPT4gb3B0aW9uLmtpbmQgPT09ICJzdHJlYW0iKSwKKTsKCmNvbnN0IGhhbmRsZU9wZW5DaGFuZ2UgPSAob3BlbjogYm9vbGVhbikgPT4gewogIGlmIChvcGVuKSB7CiAgICBlbWl0KCJ1cGRhdGU6b3BlbiIsIHRydWUpOwogICAgcmV0dXJuOwogIH0KICBlbWl0KCJjbG9zZSIpOwp9OwoKY29uc3QgdXBkYXRlU2VhcmNoID0gKHZhbHVlOiBzdHJpbmcgfCBudW1iZXIpID0+IHsKICBlbWl0KCJ1cGRhdGU6c2VhcmNoIiwgU3RyaW5nKHZhbHVlKS50cmltKCkpOwp9Owo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nIDpvcGVuPSJvcGVuIiBAdXBkYXRlOm9wZW49ImhhbmRsZU9wZW5DaGFuZ2UiPgogICAgPERpYWxvZ0NvbnRlbnQgY2xhc3M9Im1heC1oLVs4OHZoXSBvdmVyZmxvdy15LWF1dG8gc206bWF4LXctWzY0MHB4XSI+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPgogICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb25EaWFsb2dUaXRsZSIpIH19CiAgICAgICAgPC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICB7ewogICAgICAgICAgICB0KCJhZG1pbi5hdXRoU2V0dGluZ3MucGVybWlzc2lvbkRpYWxvZ0Rlc2NyaXB0aW9uIiwgewogICAgICAgICAgICAgIG5hbWU6IHRhcmdldE5hbWUsCiAgICAgICAgICAgIH0pCiAgICAgICAgICB9fQogICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgoKICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS00Ij4KICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdyaWQtY29scy0yIGdhcC0yIj4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICA6dmFyaWFudD0ibW9kZSA9PT0gJ2FsbCcgPyAnZGVmYXVsdCcgOiAnb3V0bGluZSciCiAgICAgICAgICAgIGNsYXNzPSJoLWF1dG8ganVzdGlmeS1zdGFydCBweC00IHB5LTMgdGV4dC1sZWZ0IgogICAgICAgICAgICBAY2xpY2s9ImVtaXQoJ3VwZGF0ZTptb2RlJywgJ2FsbCcpIgogICAgICAgICAgPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0ibWluLXctMCB3aGl0ZXNwYWNlLW5vcm1hbCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb25BbGwiKSB9fQogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICA6dmFyaWFudD0ibW9kZSA9PT0gJ2N1c3RvbScgPyAnZGVmYXVsdCcgOiAnb3V0bGluZSciCiAgICAgICAgICAgIGNsYXNzPSJoLWF1dG8ganVzdGlmeS1zdGFydCBweC00IHB5LTMgdGV4dC1sZWZ0IgogICAgICAgICAgICBAY2xpY2s9ImVtaXQoJ3VwZGF0ZTptb2RlJywgJ2N1c3RvbScpIgogICAgICAgICAgPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0ibWluLXctMCB3aGl0ZXNwYWNlLW5vcm1hbCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb25DdXN0b20iKSB9fQogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiB2LWlmPSJtb2RlID09PSAnY3VzdG9tJyIgY2xhc3M9InNwYWNlLXktMyI+CiAgICAgICAgICA8cAogICAgICAgICAgICB2LWlmPSJoYXNTdHJlYW1PcHRpb25zIgogICAgICAgICAgICBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlci82MCBiZy1tdXRlZC8zMCBweC0zIHB5LTIgdGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MucGVybWlzc2lvblN0cmVhbUlwTm90aWNlIikgfX0KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb25TZWFyY2hQbGFjZWhvbGRlcicpIgogICAgICAgICAgICA6bW9kZWwtdmFsdWU9InNlYXJjaCIKICAgICAgICAgICAgOnBsYWNlaG9sZGVyPSJ0KCdhZG1pbi5hdXRoU2V0dGluZ3MucGVybWlzc2lvblNlYXJjaFBsYWNlaG9sZGVyJykiCiAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9InVwZGF0ZVNlYXJjaCIKICAgICAgICAgIC8+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIj4KICAgICAgICAgICAgPHAgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgdCgiYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb25TZWxlY3RlZENvdW50IiwgewogICAgICAgICAgICAgICAgICBjb3VudDogc2VsZWN0ZWRDb3VudCwKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGdhcC0yIj4KICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9Im9wdGlvbnMubGVuZ3RoID09PSAwIgogICAgICAgICAgICAgICAgQGNsaWNrPSJlbWl0KCdzZWxlY3RBbGxGaWx0ZXJlZCcpIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5wZXJtaXNzaW9uU2VsZWN0QWxsIikgfX0KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9InNlbGVjdGVkQ291bnQgPT09IDAiCiAgICAgICAgICAgICAgICBAY2xpY2s9ImVtaXQoJ2NsZWFyU2VsZWN0ZWQnKSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MucGVybWlzc2lvbkNsZWFyIikgfX0KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzPSJtYXgtaC04MCBvdmVyZmxvdy15LWF1dG8gcm91bmRlZC1tZCBib3JkZXIiCiAgICAgICAgICAgIHJvbGU9Imdyb3VwIgogICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb25DdXN0b20nKSIKICAgICAgICAgID4KICAgICAgICAgICAgPHNlY3Rpb24KICAgICAgICAgICAgICB2LWZvcj0iZ3JvdXAgaW4gb3B0aW9uR3JvdXBzIgogICAgICAgICAgICAgIDprZXk9Imdyb3VwLmtpbmQiCiAgICAgICAgICAgICAgY2xhc3M9ImJvcmRlci1iIGxhc3Q6Ym9yZGVyLWItMCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGNsYXNzPSJzdGlja3kgdG9wLTAgei0xMCBiZy1tdXRlZC85MCBweC0zIHB5LTIgdGV4dC14cyBmb250LXNlbWlib2xkIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBiYWNrZHJvcC1ibHVyIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IGdyb3VwLmxhYmVsIH19CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGxhYmVsCiAgICAgICAgICAgICAgICB2LWZvcj0ib3B0aW9uIGluIGdyb3VwLm9wdGlvbnMiCiAgICAgICAgICAgICAgICA6a2V5PSJvcHRpb24ua2V5IgogICAgICAgICAgICAgICAgY2xhc3M9ImZsZXggY3Vyc29yLXBvaW50ZXIgaXRlbXMtc3RhcnQgZ2FwLTMgYm9yZGVyLXQgcHgtMyBweS0zIGhvdmVyOmJnLW11dGVkLzQwIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxDaGVja2JveAogICAgICAgICAgICAgICAgICBjbGFzcz0ibXQtMC41IgogICAgICAgICAgICAgICAgICA6bW9kZWwtdmFsdWU9InNlbGVjdGVkS2V5cy5oYXMob3B0aW9uLmtleSkiCiAgICAgICAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9IgogICAgICAgICAgICAgICAgICAgIGVtaXQoJ3RvZ2dsZU9wdGlvbicsIG9wdGlvbi5rZXksICRldmVudCA9PT0gdHJ1ZSkKICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJtaW4tdy0wIGZsZXgtMSI+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJibG9jayB0cnVuY2F0ZSB0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgICAgICB7eyBvcHRpb24ubGFiZWwgfX0KICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iYmxvY2sgdHJ1bmNhdGUgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICAgIHt7IG9wdGlvbi5kZXNjcmlwdGlvbiB9fQogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICB2LWlmPSJvcHRpb24uYnVpbHRpbiIKICAgICAgICAgICAgICAgICAgY2xhc3M9InNocmluay0wIHJvdW5kZWQgYm9yZGVyIHB4LTEuNSBweS0wLjUgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5wZXJtaXNzaW9uQnVpbHRpbiIpIH19CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICB2LWVsc2UtaWY9Im9wdGlvbi5zdGFsZSIKICAgICAgICAgICAgICAgICAgY2xhc3M9InNocmluay0wIHJvdW5kZWQgYm9yZGVyIHB4LTEuNSBweS0wLjUgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5wZXJtaXNzaW9uU3RhbGVJdGVtIikgfX0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgICA8L3NlY3Rpb24+CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICB2LWlmPSJvcHRpb25zLmxlbmd0aCA9PT0gMCIKICAgICAgICAgICAgICBjbGFzcz0icHgtMyBweS04IHRleHQtY2VudGVyIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgIG9wdGlvbkNvdW50ID09PSAwCiAgICAgICAgICAgICAgICAgID8gdCgiYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb25Ob0hvc3RzIikKICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5hdXRoU2V0dGluZ3MucGVybWlzc2lvbk5vU2VhcmNoUmVzdWx0cyIpCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8RGlhbG9nRm9vdGVyIGNsYXNzPSJnYXAtMiI+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiA6ZGlzYWJsZWQ9ImlzU2F2aW5nIiBAY2xpY2s9ImVtaXQoJ2Nsb3NlJykiPgogICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLmNhbmNlbCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbiA6ZGlzYWJsZWQ9ImlzU2F2aW5nIHx8ICFoYXNUYXJnZXQiIEBjbGljaz0iZW1pdCgnc2F2ZScpIj4KICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIHYtaWY9ImlzU2F2aW5nIgogICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLWJhY2tncm91bmQgYm9yZGVyLXQtZm9yZWdyb3VuZCIKICAgICAgICAgID48L3NwYW4+CiAgICAgICAgICB7eyB0KCJjb21tb24uc2F2ZSIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import type { TOTPSubdomainAccessMode } from "../../types";
+
+type SubdomainAccessOption = {
+  key: string;
+  kind: "host" | "stream";
+  label: string;
+  description: string;
+  stale?: boolean;
+  builtin?: boolean;
+};
+
+const props = defineProps<{
+  hasTarget: boolean;
+  isSaving: boolean;
+  mode: TOTPSubdomainAccessMode;
+  open: boolean;
+  optionCount: number;
+  options: SubdomainAccessOption[];
+  search: string;
+  selectedCount: number;
+  selectedKeys: ReadonlySet<string>;
+  targetName: string;
+}>();
+
+const emit = defineEmits<{
+  "update:mode": [value: TOTPSubdomainAccessMode];
+  "update:open": [value: boolean];
+  "update:search": [value: string];
+  clearSelected: [];
+  close: [];
+  save: [];
+  selectAllFiltered: [];
+  toggleOption: [key: string, checked: boolean];
+}>();
+
+const { t } = useI18n();
+const optionGroups = computed(() =>
+  [
+    {
+      kind: "host" as const,
+      label: t("admin.authSettings.permissionHostGroup"),
+      options: props.options.filter((option) => option.kind === "host"),
+    },
+    {
+      kind: "stream" as const,
+      label: t("admin.authSettings.permissionStreamGroup"),
+      options: props.options.filter((option) => option.kind === "stream"),
+    },
+  ].filter((group) => group.options.length > 0),
+);
+const hasStreamOptions = computed(() =>
+  props.options.some((option) => option.kind === "stream"),
+);
+
+const handleOpenChange = (open: boolean) => {
+  if (open) {
+    emit("update:open", true);
+    return;
+  }
+  emit("close");
+};
+
+const updateSearch = (value: string | number) => {
+  emit("update:search", String(value).trim());
+};
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="handleOpenChange">
+    <DialogContent class="max-h-[88vh] overflow-y-auto sm:max-w-[640px]">
+      <DialogHeader>
+        <DialogTitle>
+          {{ t("admin.authSettings.permissionDialogTitle") }}
+        </DialogTitle>
+        <DialogDescription>
+          {{
+            t("admin.authSettings.permissionDialogDescription", {
+              name: targetName,
+            })
+          }}
+        </DialogDescription>
+      </DialogHeader>
+
+      <div class="space-y-4">
+        <div class="grid grid-cols-2 gap-2">
+          <Button
+            type="button"
+            :variant="mode === 'all' ? 'default' : 'outline'"
+            class="h-auto justify-start px-4 py-3 text-left"
+            @click="emit('update:mode', 'all')"
+          >
+            <span class="min-w-0 whitespace-normal">
+              {{ t("admin.authSettings.permissionAll") }}
+            </span>
+          </Button>
+          <Button
+            type="button"
+            :variant="mode === 'custom' ? 'default' : 'outline'"
+            class="h-auto justify-start px-4 py-3 text-left"
+            @click="emit('update:mode', 'custom')"
+          >
+            <span class="min-w-0 whitespace-normal">
+              {{ t("admin.authSettings.permissionCustom") }}
+            </span>
+          </Button>
+        </div>
+
+        <div v-if="mode === 'custom'" class="space-y-3">
+          <p
+            v-if="hasStreamOptions"
+            class="rounded-md border border-border/60 bg-muted/30 px-3 py-2 text-xs leading-5 text-muted-foreground"
+          >
+            {{ t("admin.authSettings.permissionStreamIpNotice") }}
+          </p>
+          <Input
+            :aria-label="t('admin.authSettings.permissionSearchPlaceholder')"
+            :model-value="search"
+            :placeholder="t('admin.authSettings.permissionSearchPlaceholder')"
+            @update:model-value="updateSearch"
+          />
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <p class="text-sm text-muted-foreground">
+              {{
+                t("admin.authSettings.permissionSelectedCount", {
+                  count: selectedCount,
+                })
+              }}
+            </p>
+            <div class="flex gap-2">
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                :disabled="options.length === 0"
+                @click="emit('selectAllFiltered')"
+              >
+                {{ t("admin.authSettings.permissionSelectAll") }}
+              </Button>
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                :disabled="selectedCount === 0"
+                @click="emit('clearSelected')"
+              >
+                {{ t("admin.authSettings.permissionClear") }}
+              </Button>
+            </div>
+          </div>
+
+          <div
+            class="max-h-80 overflow-y-auto rounded-md border"
+            role="group"
+            :aria-label="t('admin.authSettings.permissionCustom')"
+          >
+            <section
+              v-for="group in optionGroups"
+              :key="group.kind"
+              class="border-b last:border-b-0"
+            >
+              <div
+                class="sticky top-0 z-10 bg-muted/90 px-3 py-2 text-xs font-semibold text-muted-foreground backdrop-blur"
+              >
+                {{ group.label }}
+              </div>
+              <label
+                v-for="option in group.options"
+                :key="option.key"
+                class="flex cursor-pointer items-start gap-3 border-t px-3 py-3 hover:bg-muted/40"
+              >
+                <Checkbox
+                  class="mt-0.5"
+                  :model-value="selectedKeys.has(option.key)"
+                  @update:model-value="
+                    emit('toggleOption', option.key, $event === true)
+                  "
+                />
+                <span class="min-w-0 flex-1">
+                  <span class="block truncate text-sm font-medium">
+                    {{ option.label }}
+                  </span>
+                  <span class="block truncate text-xs text-muted-foreground">
+                    {{ option.description }}
+                  </span>
+                </span>
+                <span
+                  v-if="option.builtin"
+                  class="shrink-0 rounded border px-1.5 py-0.5 text-xs text-muted-foreground"
+                >
+                  {{ t("admin.authSettings.permissionBuiltin") }}
+                </span>
+                <span
+                  v-else-if="option.stale"
+                  class="shrink-0 rounded border px-1.5 py-0.5 text-xs text-muted-foreground"
+                >
+                  {{ t("admin.authSettings.permissionStaleItem") }}
+                </span>
+              </label>
+            </section>
+            <div
+              v-if="options.length === 0"
+              class="px-3 py-8 text-center text-sm text-muted-foreground"
+            >
+              {{
+                optionCount === 0
+                  ? t("admin.authSettings.permissionNoHosts")
+                  : t("admin.authSettings.permissionNoSearchResults")
+              }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <DialogFooter class="gap-2">
+        <Button variant="outline" :disabled="isSaving" @click="emit('close')">
+          {{ t("admin.authSettings.cancel") }}
+        </Button>
+        <Button :disabled="isSaving || !hasTarget" @click="emit('save')">
+          <span
+            v-if="isSaving"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          ></span>
+          {{ t("common.save") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

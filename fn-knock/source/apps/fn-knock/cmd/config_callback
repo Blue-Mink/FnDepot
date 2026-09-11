@@ -1,1 +1,38 @@
-IyEvYmluL2Jhc2gKCiMjIyBUaGlzIHNjcmlwdCBpcyBjYWxsZWQgYWZ0ZXIgdGhlIHVzZXIgY2hhbmdlIGVudmlyb25tZW50IHZhcmlhYmxlcyBpbiBhcHBsaWNhdGlvbiBzZXR0aW5nIHBhZ2UuCgpzZXQgLXUKCkxPR19GSUxFPSIke1RSSU1fUEtHVkFSfS9pbmZvLmxvZyIKTUFJTl9TQ1JJUFQ9IiQoZGlybmFtZSAiJDAiKS9tYWluIgoKbG9nX21zZygpIHsKICAgIGVjaG8gIiQoZGF0ZSAnKyVZLSVtLSVkICVIOiVNOiVTJykgLSAkMSIgPj4gIiR7TE9HX0ZJTEV9Igp9CgppZiBbICEgLXggIiR7TUFJTl9TQ1JJUFR9IiBdOyB0aGVuCiAgICBjaG1vZCAreCAiJHtNQUlOX1NDUklQVH0iIDI+L2Rldi9udWxsIHx8IHRydWUKZmkKCmlmICIke01BSU5fU0NSSVBUfSIgc3RhdHVzID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgbG9nX21zZyAiY29uZmlnX2NhbGxiYWNrOiBydW50aW1lIGVudiBjaGFuZ2VkLCByZXN0YXJ0aW5nIGZuLWtub2NrLiIKCiAgICBpZiAhICIke01BSU5fU0NSSVBUfSIgc3RvcDsgdGhlbgogICAgICAgIGVjaG8gImZuLWtub2NrIHN0b3AgZmFpbGVkIGFmdGVyIGNvbmZpZyBjaGFuZ2UiID4gIiR7VFJJTV9URU1QX0xPR0ZJTEU6LS9kZXYvbnVsbH0iIDI+L2Rldi9udWxsIHx8IHRydWUKICAgICAgICBleGl0IDEKICAgIGZpCgogICAgc2xlZXAgMQoKICAgIGlmICEgIiR7TUFJTl9TQ1JJUFR9IiBzdGFydDsgdGhlbgogICAgICAgIGVjaG8gImZuLWtub2NrIHN0YXJ0IGZhaWxlZCBhZnRlciBjb25maWcgY2hhbmdlIiA+ICIke1RSSU1fVEVNUF9MT0dGSUxFOi0vZGV2L251bGx9IiAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgICAgICAgZXhpdCAxCiAgICBmaQoKICAgIGxvZ19tc2cgImNvbmZpZ19jYWxsYmFjazogcmVzdGFydCBjb21wbGV0ZWQuIgplbHNlCiAgICBsb2dfbXNnICJjb25maWdfY2FsbGJhY2s6IHJ1bnRpbWUgZW52IGNoYW5nZWQgd2hpbGUgc2VydmljZSBpcyBzdG9wcGVkLCBza2lwIHJlc3RhcnQuIgpmaQoKZXhpdCAwCg==
+#!/bin/bash
+
+### This script is called after the user change environment variables in application setting page.
+
+set -u
+
+LOG_FILE="${TRIM_PKGVAR}/info.log"
+MAIN_SCRIPT="$(dirname "$0")/main"
+
+log_msg() {
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" >> "${LOG_FILE}"
+}
+
+if [ ! -x "${MAIN_SCRIPT}" ]; then
+    chmod +x "${MAIN_SCRIPT}" 2>/dev/null || true
+fi
+
+if "${MAIN_SCRIPT}" status >/dev/null 2>&1; then
+    log_msg "config_callback: runtime env changed, restarting fn-knock."
+
+    if ! "${MAIN_SCRIPT}" stop; then
+        echo "fn-knock stop failed after config change" > "${TRIM_TEMP_LOGFILE:-/dev/null}" 2>/dev/null || true
+        exit 1
+    fi
+
+    sleep 1
+
+    if ! "${MAIN_SCRIPT}" start; then
+        echo "fn-knock start failed after config change" > "${TRIM_TEMP_LOGFILE:-/dev/null}" 2>/dev/null || true
+        exit 1
+    fi
+
+    log_msg "config_callback: restart completed."
+else
+    log_msg "config_callback: runtime env changed while service is stopped, skip restart."
+fi
+
+exit 0

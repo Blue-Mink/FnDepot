@@ -1,1 +1,40 @@
-dXNlIHN1cGVyOjoqOwoKaW1wbCBHb0JhY2tlbmRDbGllbnQgewogICAgcHViIGFzeW5jIGZuIGdldF9nYXRld2F5X2h0dHAzKCZzZWxmKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgICAgIGxldCByZXNwb25zZSA9IHNlbGYKICAgICAgICAgICAgLmNvbnRyb2wKICAgICAgICAgICAgLmNsb25lKCkKICAgICAgICAgICAgLmdldF9nYXRld2F5X2h0dHAzX3N0YXR1cyhzZWxmLnJlcXVlc3QoKCkpKQogICAgICAgICAgICAuYXdhaXQ/CiAgICAgICAgICAgIC5pbnRvX2lubmVyKCk7CiAgICAgICAgT2soaHR0cDNfc3RhdHVzX2pzb24ocmVzcG9uc2UpKQogICAgfQogICAgcHViIGFzeW5jIGZuIHNldF9nYXRld2F5X2h0dHAzKCZzZWxmLCBjb25maWc6ICZWYWx1ZSkgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgICAgICBsZXQgY2xpZW50ID0gc2VsZi53aXRoX3RpbWVvdXQoRHVyYXRpb246OmZyb21fc2Vjcyg0NSkpPzsKICAgICAgICBsZXQgcmVzcG9uc2UgPSBjbGllbnQKICAgICAgICAgICAgLmNvbnRyb2wKICAgICAgICAgICAgLmNsb25lKCkKICAgICAgICAgICAgLnNldF9nYXRld2F5X2h0dHAzX2NvbmZpZygKICAgICAgICAgICAgICAgIGNsaWVudC5yZXF1ZXN0KGNyYXRlOjpncnBjX3Byb3RvOjpHYXRld2F5SHR0cDNDb25maWcgewogICAgICAgICAgICAgICAgICAgIGVuYWJsZWQ6IGNvbmZpZwogICAgICAgICAgICAgICAgICAgICAgICAuZ2V0KCJlbmFibGVkIikKICAgICAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgICAgICAgICAgICAgICAgICAudW53cmFwX29yKGZhbHNlKSwKICAgICAgICAgICAgICAgICAgICBhZHZlcnRpc2VkX3BvcnQ6IGNvbmZpZwogICAgICAgICAgICAgICAgICAgICAgICAuZ2V0KCJhZHZlcnRpc2VkX3BvcnQiKQogICAgICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3U2NCkKICAgICAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcigwKSBhcyB1MzIsCiAgICAgICAgICAgICAgICB9KSwKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXdhaXQ/CiAgICAgICAgICAgIC5pbnRvX2lubmVyKCk7CiAgICAgICAgT2soaHR0cDNfc3RhdHVzX2pzb24ocmVzcG9uc2UpKQogICAgfQp9CmZuIGh0dHAzX3N0YXR1c19qc29uKHN0YXR1czogY3JhdGU6OmdycGNfcHJvdG86OkdhdGV3YXlIdHRwM1N0YXR1cykgLT4gVmFsdWUgewogICAgbGV0IGNvbmZpZyA9IHN0YXR1cy5jb25maWcudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGpzb24hKHsiZW5hYmxlZCI6Y29uZmlnLmVuYWJsZWQsImFkdmVydGlzZWRfcG9ydCI6Y29uZmlnLmFkdmVydGlzZWRfcG9ydCwKICAgICAgICAic3RhdGUiOnN0YXR1cy5zdGF0ZSwibGlzdGVuX2FkZHJlc3NlcyI6c3RhdHVzLmxpc3Rlbl9hZGRyZXNzZXMsImVycm9yIjpzdGF0dXMuZXJyb3IsCiAgICAgICAgImFjdGl2ZV9jb25uZWN0aW9ucyI6c3RhdHVzLmFjdGl2ZV9jb25uZWN0aW9ucywiaGFuZHNoYWtlX2ZhaWx1cmVzIjpzdGF0dXMuaGFuZHNoYWtlX2ZhaWx1cmVzfSkKfQo=
+use super::*;
+
+impl GoBackendClient {
+    pub async fn get_gateway_http3(&self) -> anyhow::Result<Value> {
+        let response = self
+            .control
+            .clone()
+            .get_gateway_http3_status(self.request(()))
+            .await?
+            .into_inner();
+        Ok(http3_status_json(response))
+    }
+    pub async fn set_gateway_http3(&self, config: &Value) -> anyhow::Result<Value> {
+        let client = self.with_timeout(Duration::from_secs(45))?;
+        let response = client
+            .control
+            .clone()
+            .set_gateway_http3_config(
+                client.request(crate::grpc_proto::GatewayHttp3Config {
+                    enabled: config
+                        .get("enabled")
+                        .and_then(Value::as_bool)
+                        .unwrap_or(false),
+                    advertised_port: config
+                        .get("advertised_port")
+                        .and_then(Value::as_u64)
+                        .unwrap_or(0) as u32,
+                }),
+            )
+            .await?
+            .into_inner();
+        Ok(http3_status_json(response))
+    }
+}
+fn http3_status_json(status: crate::grpc_proto::GatewayHttp3Status) -> Value {
+    let config = status.config.unwrap_or_default();
+    json!({"enabled":config.enabled,"advertised_port":config.advertised_port,
+        "state":status.state,"listen_addresses":status.listen_addresses,"error":status.error,
+        "active_connections":status.active_connections,"handshake_failures":status.handshake_failures})
+}

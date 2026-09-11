@@ -1,1 +1,254 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBydW5fc2NoZW1hX21pZ3JhdGlvbnMoCiAgICBjb25uOiAmbXV0IHJ1c3FsaXRlOjpDb25uZWN0aW9uLAogICAgcGF0aDogJlBhdGgsCikgLT4gUmVkaXNSZXN1bHQ8KCk+IHsKICAgIGNvbm4uZXhlY3V0ZV9iYXRjaChTQ0hFTUFfTUlHUkFUSU9OU19TUUwpPzsKICAgIGxldCBsYXRlc3Rfa25vd25fdmVyc2lvbiA9IFNDSEVNQV9NSUdSQVRJT05TCiAgICAgICAgLmxhc3QoKQogICAgICAgIC5tYXAofG1pZ3JhdGlvbnwgbWlncmF0aW9uLnZlcnNpb24pCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgbGF0ZXN0X2FwcGxpZWRfdmVyc2lvbjogT3B0aW9uPGk2ND4gPQogICAgICAgIGNvbm4ucXVlcnlfcm93KCJTRUxFQ1QgTUFYKHZlcnNpb24pIEZST00gc2NoZW1hX21pZ3JhdGlvbnMiLCBbXSwgfHJvd3wgewogICAgICAgICAgICByb3cuZ2V0KDApCiAgICAgICAgfSk/OwogICAgaWYgbGV0IFNvbWUoYXBwbGllZF92ZXJzaW9uKSA9CiAgICAgICAgbGF0ZXN0X2FwcGxpZWRfdmVyc2lvbi5maWx0ZXIofHZlcnNpb258ICp2ZXJzaW9uID4gbGF0ZXN0X2tub3duX3ZlcnNpb24pCiAgICB7CiAgICAgICAgcmV0dXJuIEVycihzdG9yYWdlX2Vycm9yKGZvcm1hdCEoCiAgICAgICAgICAgICJTUUxpdGUgc2NoZW1hIHZlcnNpb24ge30gaXMgbmV3ZXIgdGhhbiB0aGlzIHNlcnZlciBzdXBwb3J0cyAoe2xhdGVzdF9rbm93bl92ZXJzaW9ufSkiLAogICAgICAgICAgICBhcHBsaWVkX3ZlcnNpb24KICAgICAgICApKSk7CiAgICB9CgogICAgZm9yIG1pZ3JhdGlvbiBpbiBTQ0hFTUFfTUlHUkFUSU9OUyB7CiAgICAgICAgcnVuX3NjaGVtYV9taWdyYXRpb24oY29ubiwgcGF0aCwgbWlncmF0aW9uKT87CiAgICB9CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBmbiBydW5fc2NoZW1hX21pZ3JhdGlvbigKICAgIGNvbm46ICZtdXQgcnVzcWxpdGU6OkNvbm5lY3Rpb24sCiAgICBwYXRoOiAmUGF0aCwKICAgIG1pZ3JhdGlvbjogJlNjaGVtYU1pZ3JhdGlvbiwKKSAtPiBSZWRpc1Jlc3VsdDwoKT4gewogICAgbGV0IGV4cGVjdGVkX2NoZWNrc3VtID0gbWlncmF0aW9uX2NoZWNrc3VtKG1pZ3JhdGlvbi5zcWwpOwogICAgbGV0IGFwcGxpZWQgPSBjb25uCiAgICAgICAgLnF1ZXJ5X3JvdygKICAgICAgICAgICAgIlNFTEVDVCBuYW1lLCBjaGVja3N1bSBGUk9NIHNjaGVtYV9taWdyYXRpb25zIFdIRVJFIHZlcnNpb24gPSA/MSIsCiAgICAgICAgICAgIHBhcmFtcyFbbWlncmF0aW9uLnZlcnNpb25dLAogICAgICAgICAgICB8cm93fCBPaygocm93LmdldDo6PF8sIFN0cmluZz4oMCk/LCByb3cuZ2V0Ojo8XywgU3RyaW5nPigxKT8pKSwKICAgICAgICApCiAgICAgICAgLm9wdGlvbmFsKCk/OwoKICAgIGlmIGxldCBTb21lKChuYW1lLCBjaGVja3N1bSkpID0gYXBwbGllZCB7CiAgICAgICAgaWYgbmFtZSAhPSBtaWdyYXRpb24ubmFtZSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcihmb3JtYXQhKAogICAgICAgICAgICAgICAgIlNRTGl0ZSBzY2hlbWEgbWlncmF0aW9uIHt9IG5hbWUgbWlzbWF0Y2g6IGV4cGVjdGVkIHt9LCBmb3VuZCB7fSIsCiAgICAgICAgICAgICAgICBtaWdyYXRpb24udmVyc2lvbiwgbWlncmF0aW9uLm5hbWUsIG5hbWUKICAgICAgICAgICAgKSkpOwogICAgICAgIH0KICAgICAgICBpZiBjaGVja3N1bSA9PSBleHBlY3RlZF9jaGVja3N1bSB7CiAgICAgICAgICAgIHJldHVybiBPaygoKSk7CiAgICAgICAgfQogICAgICAgIGlmIGlzX2xlZ2FjeV9ib290c3RyYXBfbWlncmF0aW9uKGNvbm4sIG1pZ3JhdGlvbiwgJmNoZWNrc3VtKT8gewogICAgICAgICAgICBjb25uLmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAiVVBEQVRFIHNjaGVtYV9taWdyYXRpb25zIFNFVCBjaGVja3N1bSA9ID8yLCBhcHBsaWVkX2F0X21zID0gPzMgV0hFUkUgdmVyc2lvbiA9ID8xIiwKICAgICAgICAgICAgICAgIHBhcmFtcyFbbWlncmF0aW9uLnZlcnNpb24sIGV4cGVjdGVkX2NoZWNrc3VtLCBub3dfbXMoKV0sCiAgICAgICAgICAgICk/OwogICAgICAgICAgICByZXR1cm4gT2soKCkpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gRXJyKHN0b3JhZ2VfZXJyb3IoZm9ybWF0ISgKICAgICAgICAgICAgIlNRTGl0ZSBzY2hlbWEgbWlncmF0aW9uIHt9IGNoZWNrc3VtIG1pc21hdGNoIiwKICAgICAgICAgICAgbWlncmF0aW9uLnZlcnNpb24KICAgICAgICApKSk7CiAgICB9CgogICAgaWYgbWlncmF0aW9uLmRlc3RydWN0aXZlIHsKICAgICAgICBjcmVhdGVfbWlncmF0aW9uX2JhY2t1cChjb25uLCBwYXRoLCBtaWdyYXRpb24pPzsKICAgIH0KICAgIGxldCB0eCA9IGltbWVkaWF0ZV90cmFuc2FjdGlvbihjb25uKT87CiAgICB0eC5leGVjdXRlX2JhdGNoKG1pZ3JhdGlvbi5zcWwpPzsKICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgIklOU0VSVCBJTlRPIHNjaGVtYV9taWdyYXRpb25zKHZlcnNpb24sIG5hbWUsIGNoZWNrc3VtLCBhcHBsaWVkX2F0X21zKQogICAgICAgICBWQUxVRVMgKD8xLCA/MiwgPzMsID80KSIsCiAgICAgICAgcGFyYW1zIVsKICAgICAgICAgICAgbWlncmF0aW9uLnZlcnNpb24sCiAgICAgICAgICAgIG1pZ3JhdGlvbi5uYW1lLAogICAgICAgICAgICBleHBlY3RlZF9jaGVja3N1bSwKICAgICAgICAgICAgbm93X21zKCkKICAgICAgICBdLAogICAgKT87CiAgICB0eC5jb21taXQoKT87CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBmbiBpc19sZWdhY3lfYm9vdHN0cmFwX21pZ3JhdGlvbigKICAgIGNvbm46ICZydXNxbGl0ZTo6Q29ubmVjdGlvbiwKICAgIG1pZ3JhdGlvbjogJlNjaGVtYU1pZ3JhdGlvbiwKICAgIGNoZWNrc3VtOiAmc3RyLAopIC0+IFJlZGlzUmVzdWx0PGJvb2w+IHsKICAgIE9rKG1pZ3JhdGlvbi52ZXJzaW9uID09IDEKICAgICAgICAmJiBtaWdyYXRpb24ubmFtZSA9PSAicmVkaXNfY29tcGF0aWJsZV9rZXlzcGFjZSIKICAgICAgICAmJiBjaGVja3N1bSA9PSAidjEiCiAgICAgICAgJiYgc3FsaXRlX3RhYmxlX2V4aXN0cyhjb25uLCAic3RvcmFnZV9tZXRhIik/CiAgICAgICAgJiYgc3FsaXRlX3RhYmxlX2V4aXN0cyhjb25uLCAia3Zfa2V5cyIpPykKfQoKcHViKHN1cGVyKSBmbiBzcWxpdGVfdGFibGVfZXhpc3RzKGNvbm46ICZydXNxbGl0ZTo6Q29ubmVjdGlvbiwgbmFtZTogJnN0cikgLT4gUmVkaXNSZXN1bHQ8Ym9vbD4gewogICAgbGV0IGV4aXN0cyA9IGNvbm4ucXVlcnlfcm93KAogICAgICAgICJTRUxFQ1QgRVhJU1RTKFNFTEVDVCAxIEZST00gc3FsaXRlX21hc3RlciBXSEVSRSB0eXBlID0gJ3RhYmxlJyBBTkQgbmFtZSA9ID8xKSIsCiAgICAgICAgcGFyYW1zIVtuYW1lXSwKICAgICAgICB8cm93fCByb3cuZ2V0Ojo8XywgaTY0PigwKSwKICAgICk/OwogICAgT2soZXhpc3RzID09IDEpCn0KCnB1YihzdXBlcikgZm4gY2hlY2twb2ludF93YWwoY29ubjogJnJ1c3FsaXRlOjpDb25uZWN0aW9uLCBtb2RlOiAmc3RyKSAtPiBSZWRpc1Jlc3VsdDwoKT4gewogICAgbGV0IHNxbCA9IGZvcm1hdCEoIlBSQUdNQSB3YWxfY2hlY2twb2ludCh7bW9kZX0pIik7CiAgICBsZXQgKGJ1c3ksIGxvZ19mcmFtZXMsIGNoZWNrcG9pbnRlZF9mcmFtZXMpID0gY29ubi5xdWVyeV9yb3coJnNxbCwgW10sIHxyb3d8IHsKICAgICAgICBPaygoCiAgICAgICAgICAgIHJvdy5nZXQ6OjxfLCBpNjQ+KDApPywKICAgICAgICAgICAgcm93LmdldDo6PF8sIGk2ND4oMSk/LAogICAgICAgICAgICByb3cuZ2V0Ojo8XywgaTY0PigyKT8sCiAgICAgICAgKSkKICAgIH0pPzsKICAgIGlmIGJ1c3kgIT0gMCB7CiAgICAgICAgcmV0dXJuIEVycihzdG9yYWdlX2Vycm9yKGZvcm1hdCEoCiAgICAgICAgICAgICJTUUxpdGUgV0FMIGNoZWNrcG9pbnQgcmVtYWluZWQgYnVzeSAoe2NoZWNrcG9pbnRlZF9mcmFtZXN9L3tsb2dfZnJhbWVzfSBmcmFtZXMpIgogICAgICAgICkpKTsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGZuIHZlcmlmeV9zcWxpdGVfaW50ZWdyaXR5KGNvbm46ICZydXNxbGl0ZTo6Q29ubmVjdGlvbikgLT4gUmVkaXNSZXN1bHQ8KCk+IHsKICAgIGxldCBtdXQgc3RhdGVtZW50ID0gY29ubi5wcmVwYXJlKCJQUkFHTUEgcXVpY2tfY2hlY2siKT87CiAgICBsZXQgcm93cyA9IHN0YXRlbWVudC5xdWVyeV9tYXAoW10sIHxyb3d8IHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDApKT87CiAgICBsZXQgcmVzdWx0cyA9IHJvd3MuY29sbGVjdDo6PFJlc3VsdDxWZWM8Xz4sIF8+PigpPzsKICAgIGlmIHJlc3VsdHMubGVuKCkgPT0gMSAmJiByZXN1bHRzWzBdLmVxX2lnbm9yZV9hc2NpaV9jYXNlKCJvayIpIHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQogICAgRXJyKHN0b3JhZ2VfZXJyb3IoZm9ybWF0ISgKICAgICAgICAiU1FMaXRlIGludGVncml0eSBjaGVjayBmYWlsZWQ6IHt9IiwKICAgICAgICByZXN1bHRzLmpvaW4oIjsgIikKICAgICkpKQp9CgpwdWIoc3VwZXIpIGZuIGNyZWF0ZV9jb25zaXN0ZW50X3NxbGl0ZV9iYWNrdXAoCiAgICBjb25uOiAmcnVzcWxpdGU6OkNvbm5lY3Rpb24sCiAgICBiYWNrdXBfcGF0aDogJlBhdGgsCikgLT4gUmVkaXNSZXN1bHQ8KCk+IHsKICAgIGxldCBwYXJlbnQgPSBiYWNrdXBfcGF0aAogICAgICAgIC5wYXJlbnQoKQogICAgICAgIC5va19vcl9lbHNlKHx8IHN0b3JhZ2VfZXJyb3IoIlNRTGl0ZSB1cGRhdGUgYmFja3VwIHBhdGggaGFzIG5vIHBhcmVudCBkaXJlY3RvcnkiKSk/OwogICAgc3RkOjpmczo6Y3JlYXRlX2Rpcl9hbGwocGFyZW50KT87CgogICAgbGV0IG11dCB0ZW1wb3JhcnlfbmFtZSA9IGJhY2t1cF9wYXRoLmFzX29zX3N0cigpLnRvX29zX3N0cmluZygpOwogICAgdGVtcG9yYXJ5X25hbWUucHVzaCgiLnRtcCIpOwogICAgbGV0IHRlbXBvcmFyeV9wYXRoID0gUGF0aEJ1Zjo6ZnJvbSh0ZW1wb3JhcnlfbmFtZSk7CiAgICByZW1vdmVfZmlsZV9pZl9leGlzdHMoJnRlbXBvcmFyeV9wYXRoKT87CgogICAgbGV0IHRlbXBvcmFyeV9wYXRoX3RleHQgPSB0ZW1wb3JhcnlfcGF0aAogICAgICAgIC50b19zdHIoKQogICAgICAgIC5va19vcl9lbHNlKHx8IHN0b3JhZ2VfZXJyb3IoIlNRTGl0ZSB1cGRhdGUgYmFja3VwIHBhdGggaXMgbm90IHZhbGlkIFVURi04IikpPwogICAgICAgIC50b19zdHJpbmcoKTsKICAgIGNvbm4uZXhlY3V0ZSgiVkFDVVVNIElOVE8gPzEiLCBwYXJhbXMhW3RlbXBvcmFyeV9wYXRoX3RleHRdKT87CgogICAgbGV0IHZlcmlmaWNhdGlvbiA9IHJ1c3FsaXRlOjpDb25uZWN0aW9uOjpvcGVuX3dpdGhfZmxhZ3MoCiAgICAgICAgJnRlbXBvcmFyeV9wYXRoLAogICAgICAgIHJ1c3FsaXRlOjpPcGVuRmxhZ3M6OlNRTElURV9PUEVOX1JFQURfT05MWSwKICAgICk/OwogICAgdmVyaWZ5X3NxbGl0ZV9pbnRlZ3JpdHkoJnZlcmlmaWNhdGlvbik/OwogICAgdmVyaWZpY2F0aW9uLmNsb3NlKCkubWFwX2Vycih8KF8sIGVycm9yKXwgZXJyb3IpPzsKICAgICNbY2ZnKHVuaXgpXQogICAgc3RkOjpmczo6c2V0X3Blcm1pc3Npb25zKCZ0ZW1wb3JhcnlfcGF0aCwgc3RkOjpmczo6UGVybWlzc2lvbnM6OmZyb21fbW9kZSgwbzYwMCkpPzsKICAgIHN5bmNfZmlsZSgmdGVtcG9yYXJ5X3BhdGgpPzsKICAgIGxldCBwcmV2aW91c19wYXRoID0gcmVwbGFjZV9iYWNrdXBfZmlsZSgmdGVtcG9yYXJ5X3BhdGgsIGJhY2t1cF9wYXRoKT87CiAgICBzeW5jX2ZpbGUoYmFja3VwX3BhdGgpPzsKICAgIHN5bmNfZGlyZWN0b3J5KHBhcmVudCk/OwogICAgaWYgbGV0IFNvbWUocHJldmlvdXNfcGF0aCkgPSBwcmV2aW91c19wYXRoIHsKICAgICAgICByZW1vdmVfZmlsZV9pZl9leGlzdHMoJnByZXZpb3VzX3BhdGgpPzsKICAgICAgICBzeW5jX2RpcmVjdG9yeShwYXJlbnQpPzsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGZuIHJlcGxhY2VfYmFja3VwX2ZpbGUoCiAgICB0ZW1wb3JhcnlfcGF0aDogJlBhdGgsCiAgICBiYWNrdXBfcGF0aDogJlBhdGgsCikgLT4gUmVkaXNSZXN1bHQ8T3B0aW9uPFBhdGhCdWY+PiB7CiAgICBpZiAhYmFja3VwX3BhdGguZXhpc3RzKCkgewogICAgICAgIHN0ZDo6ZnM6OnJlbmFtZSh0ZW1wb3JhcnlfcGF0aCwgYmFja3VwX3BhdGgpPzsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9CgogICAgbGV0IG11dCBwcmV2aW91c19uYW1lID0gYmFja3VwX3BhdGguYXNfb3Nfc3RyKCkudG9fb3Nfc3RyaW5nKCk7CiAgICBwcmV2aW91c19uYW1lLnB1c2goIi5wcmV2aW91cyIpOwogICAgbGV0IHByZXZpb3VzX3BhdGggPSBQYXRoQnVmOjpmcm9tKHByZXZpb3VzX25hbWUpOwogICAgcmVtb3ZlX2ZpbGVfaWZfZXhpc3RzKCZwcmV2aW91c19wYXRoKT87CiAgICBzdGQ6OmZzOjpyZW5hbWUoYmFja3VwX3BhdGgsICZwcmV2aW91c19wYXRoKT87CiAgICBpZiBsZXQgRXJyKGVycm9yKSA9IHN0ZDo6ZnM6OnJlbmFtZSh0ZW1wb3JhcnlfcGF0aCwgYmFja3VwX3BhdGgpIHsKICAgICAgICBpZiBsZXQgRXJyKHJlc3RvcmVfZXJyb3IpID0gc3RkOjpmczo6cmVuYW1lKCZwcmV2aW91c19wYXRoLCBiYWNrdXBfcGF0aCkgewogICAgICAgICAgICByZXR1cm4gRXJyKHN0b3JhZ2VfZXJyb3IoZm9ybWF0ISgKICAgICAgICAgICAgICAgICJmYWlsZWQgdG8gaW5zdGFsbCBTUUxpdGUgYmFja3VwOiB7ZXJyb3J9OyBmYWlsZWQgdG8gcmVzdG9yZSBwcmV2aW91cyBiYWNrdXA6IHtyZXN0b3JlX2Vycm9yfSIKICAgICAgICAgICAgKSkpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gRXJyKGVycm9yLmludG8oKSk7CiAgICB9CiAgICBPayhTb21lKHByZXZpb3VzX3BhdGgpKQp9CgpwdWIoc3VwZXIpIGZuIHJlbW92ZV9maWxlX2lmX2V4aXN0cyhwYXRoOiAmUGF0aCkgLT4gUmVkaXNSZXN1bHQ8KCk+IHsKICAgIG1hdGNoIHN0ZDo6ZnM6OnJlbW92ZV9maWxlKHBhdGgpIHsKICAgICAgICBPaygoKSkgPT4gT2soKCkpLAogICAgICAgIEVycihlcnJvcikgaWYgZXJyb3Iua2luZCgpID09IHN0ZDo6aW86OkVycm9yS2luZDo6Tm90Rm91bmQgPT4gT2soKCkpLAogICAgICAgIEVycihlcnJvcikgPT4gRXJyKGVycm9yLmludG8oKSksCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gc3luY19maWxlKHBhdGg6ICZQYXRoKSAtPiBSZWRpc1Jlc3VsdDwoKT4gewogICAgc3RkOjpmczo6T3Blbk9wdGlvbnM6Om5ldygpCiAgICAgICAgLnJlYWQodHJ1ZSkKICAgICAgICAub3BlbihwYXRoKT8KICAgICAgICAuc3luY19hbGwoKT87CiAgICBPaygoKSkKfQoKI1tjZmcodW5peCldCnB1YihzdXBlcikgZm4gc3luY19kaXJlY3RvcnkocGF0aDogJlBhdGgpIC0+IFJlZGlzUmVzdWx0PCgpPiB7CiAgICBzdGQ6OmZzOjpGaWxlOjpvcGVuKHBhdGgpPy5zeW5jX2FsbCgpPzsKICAgIE9rKCgpKQp9CgojW2NmZyhub3QodW5peCkpXQpwdWIoc3VwZXIpIGZuIHN5bmNfZGlyZWN0b3J5KF9wYXRoOiAmUGF0aCkgLT4gUmVkaXNSZXN1bHQ8KCk+IHsKICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGZuIGNyZWF0ZV9taWdyYXRpb25fYmFja3VwKAogICAgY29ubjogJm11dCBydXNxbGl0ZTo6Q29ubmVjdGlvbiwKICAgIHBhdGg6ICZQYXRoLAogICAgbWlncmF0aW9uOiAmU2NoZW1hTWlncmF0aW9uLAopIC0+IFJlZGlzUmVzdWx0PE9wdGlvbjxQYXRoQnVmPj4gewogICAgaWYgIXBhdGguZXhpc3RzKCkgewogICAgICAgIHJldHVybiBPayhOb25lKTsKICAgIH0KICAgIGxldCBmaWxlX25hbWUgPSBwYXRoCiAgICAgICAgLmZpbGVfbmFtZSgpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUudG9fc3RyKCkpCiAgICAgICAgLnVud3JhcF9vcigiZm4ta25vY2suc3FsaXRlMyIpOwogICAgbGV0IGJhY2t1cF9wYXRoID0gcGF0aC53aXRoX2ZpbGVfbmFtZShmb3JtYXQhKAogICAgICAgICJ7ZmlsZV9uYW1lfS5taWdyYXRpb24tdnt9Lnt9LmJhayIsCiAgICAgICAgbWlncmF0aW9uLnZlcnNpb24sCiAgICAgICAgbm93X21zKCkKICAgICkpOwogICAgY3JlYXRlX2NvbnNpc3RlbnRfc3FsaXRlX2JhY2t1cChjb25uLCAmYmFja3VwX3BhdGgpPzsKICAgIE9rKFNvbWUoYmFja3VwX3BhdGgpKQp9CgpwdWIoc3VwZXIpIGZuIG1pZ3JhdGlvbl9jaGVja3N1bShzcWw6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBsZXQgbXV0IGhhc2hlciA9IFNoYTI1Njo6bmV3KCk7CiAgICBoYXNoZXIudXBkYXRlKHNxbC5hc19ieXRlcygpKTsKICAgIGZvcm1hdCEoInNoYTI1Njp7Onh9IiwgaGFzaGVyLmZpbmFsaXplKCkpCn0K
+use super::*;
+
+pub(super) fn run_schema_migrations(
+    conn: &mut rusqlite::Connection,
+    path: &Path,
+) -> RedisResult<()> {
+    conn.execute_batch(SCHEMA_MIGRATIONS_SQL)?;
+    let latest_known_version = SCHEMA_MIGRATIONS
+        .last()
+        .map(|migration| migration.version)
+        .unwrap_or_default();
+    let latest_applied_version: Option<i64> =
+        conn.query_row("SELECT MAX(version) FROM schema_migrations", [], |row| {
+            row.get(0)
+        })?;
+    if let Some(applied_version) =
+        latest_applied_version.filter(|version| *version > latest_known_version)
+    {
+        return Err(storage_error(format!(
+            "SQLite schema version {} is newer than this server supports ({latest_known_version})",
+            applied_version
+        )));
+    }
+
+    for migration in SCHEMA_MIGRATIONS {
+        run_schema_migration(conn, path, migration)?;
+    }
+    Ok(())
+}
+
+pub(super) fn run_schema_migration(
+    conn: &mut rusqlite::Connection,
+    path: &Path,
+    migration: &SchemaMigration,
+) -> RedisResult<()> {
+    let expected_checksum = migration_checksum(migration.sql);
+    let applied = conn
+        .query_row(
+            "SELECT name, checksum FROM schema_migrations WHERE version = ?1",
+            params![migration.version],
+            |row| Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?)),
+        )
+        .optional()?;
+
+    if let Some((name, checksum)) = applied {
+        if name != migration.name {
+            return Err(storage_error(format!(
+                "SQLite schema migration {} name mismatch: expected {}, found {}",
+                migration.version, migration.name, name
+            )));
+        }
+        if checksum == expected_checksum {
+            return Ok(());
+        }
+        if is_legacy_bootstrap_migration(conn, migration, &checksum)? {
+            conn.execute(
+                "UPDATE schema_migrations SET checksum = ?2, applied_at_ms = ?3 WHERE version = ?1",
+                params![migration.version, expected_checksum, now_ms()],
+            )?;
+            return Ok(());
+        }
+        return Err(storage_error(format!(
+            "SQLite schema migration {} checksum mismatch",
+            migration.version
+        )));
+    }
+
+    if migration.destructive {
+        create_migration_backup(conn, path, migration)?;
+    }
+    let tx = immediate_transaction(conn)?;
+    tx.execute_batch(migration.sql)?;
+    tx.execute(
+        "INSERT INTO schema_migrations(version, name, checksum, applied_at_ms)
+         VALUES (?1, ?2, ?3, ?4)",
+        params![
+            migration.version,
+            migration.name,
+            expected_checksum,
+            now_ms()
+        ],
+    )?;
+    tx.commit()?;
+    Ok(())
+}
+
+pub(super) fn is_legacy_bootstrap_migration(
+    conn: &rusqlite::Connection,
+    migration: &SchemaMigration,
+    checksum: &str,
+) -> RedisResult<bool> {
+    Ok(migration.version == 1
+        && migration.name == "redis_compatible_keyspace"
+        && checksum == "v1"
+        && sqlite_table_exists(conn, "storage_meta")?
+        && sqlite_table_exists(conn, "kv_keys")?)
+}
+
+pub(super) fn sqlite_table_exists(conn: &rusqlite::Connection, name: &str) -> RedisResult<bool> {
+    let exists = conn.query_row(
+        "SELECT EXISTS(SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = ?1)",
+        params![name],
+        |row| row.get::<_, i64>(0),
+    )?;
+    Ok(exists == 1)
+}
+
+pub(super) fn checkpoint_wal(conn: &rusqlite::Connection, mode: &str) -> RedisResult<()> {
+    let sql = format!("PRAGMA wal_checkpoint({mode})");
+    let (busy, log_frames, checkpointed_frames) = conn.query_row(&sql, [], |row| {
+        Ok((
+            row.get::<_, i64>(0)?,
+            row.get::<_, i64>(1)?,
+            row.get::<_, i64>(2)?,
+        ))
+    })?;
+    if busy != 0 {
+        return Err(storage_error(format!(
+            "SQLite WAL checkpoint remained busy ({checkpointed_frames}/{log_frames} frames)"
+        )));
+    }
+    Ok(())
+}
+
+pub(super) fn verify_sqlite_integrity(conn: &rusqlite::Connection) -> RedisResult<()> {
+    let mut statement = conn.prepare("PRAGMA quick_check")?;
+    let rows = statement.query_map([], |row| row.get::<_, String>(0))?;
+    let results = rows.collect::<Result<Vec<_>, _>>()?;
+    if results.len() == 1 && results[0].eq_ignore_ascii_case("ok") {
+        return Ok(());
+    }
+    Err(storage_error(format!(
+        "SQLite integrity check failed: {}",
+        results.join("; ")
+    )))
+}
+
+pub(super) fn create_consistent_sqlite_backup(
+    conn: &rusqlite::Connection,
+    backup_path: &Path,
+) -> RedisResult<()> {
+    let parent = backup_path
+        .parent()
+        .ok_or_else(|| storage_error("SQLite update backup path has no parent directory"))?;
+    std::fs::create_dir_all(parent)?;
+
+    let mut temporary_name = backup_path.as_os_str().to_os_string();
+    temporary_name.push(".tmp");
+    let temporary_path = PathBuf::from(temporary_name);
+    remove_file_if_exists(&temporary_path)?;
+
+    let temporary_path_text = temporary_path
+        .to_str()
+        .ok_or_else(|| storage_error("SQLite update backup path is not valid UTF-8"))?
+        .to_string();
+    conn.execute("VACUUM INTO ?1", params![temporary_path_text])?;
+
+    let verification = rusqlite::Connection::open_with_flags(
+        &temporary_path,
+        rusqlite::OpenFlags::SQLITE_OPEN_READ_ONLY,
+    )?;
+    verify_sqlite_integrity(&verification)?;
+    verification.close().map_err(|(_, error)| error)?;
+    #[cfg(unix)]
+    std::fs::set_permissions(&temporary_path, std::fs::Permissions::from_mode(0o600))?;
+    sync_file(&temporary_path)?;
+    let previous_path = replace_backup_file(&temporary_path, backup_path)?;
+    sync_file(backup_path)?;
+    sync_directory(parent)?;
+    if let Some(previous_path) = previous_path {
+        remove_file_if_exists(&previous_path)?;
+        sync_directory(parent)?;
+    }
+    Ok(())
+}
+
+pub(super) fn replace_backup_file(
+    temporary_path: &Path,
+    backup_path: &Path,
+) -> RedisResult<Option<PathBuf>> {
+    if !backup_path.exists() {
+        std::fs::rename(temporary_path, backup_path)?;
+        return Ok(None);
+    }
+
+    let mut previous_name = backup_path.as_os_str().to_os_string();
+    previous_name.push(".previous");
+    let previous_path = PathBuf::from(previous_name);
+    remove_file_if_exists(&previous_path)?;
+    std::fs::rename(backup_path, &previous_path)?;
+    if let Err(error) = std::fs::rename(temporary_path, backup_path) {
+        if let Err(restore_error) = std::fs::rename(&previous_path, backup_path) {
+            return Err(storage_error(format!(
+                "failed to install SQLite backup: {error}; failed to restore previous backup: {restore_error}"
+            )));
+        }
+        return Err(error.into());
+    }
+    Ok(Some(previous_path))
+}
+
+pub(super) fn remove_file_if_exists(path: &Path) -> RedisResult<()> {
+    match std::fs::remove_file(path) {
+        Ok(()) => Ok(()),
+        Err(error) if error.kind() == std::io::ErrorKind::NotFound => Ok(()),
+        Err(error) => Err(error.into()),
+    }
+}
+
+pub(super) fn sync_file(path: &Path) -> RedisResult<()> {
+    std::fs::OpenOptions::new()
+        .read(true)
+        .open(path)?
+        .sync_all()?;
+    Ok(())
+}
+
+#[cfg(unix)]
+pub(super) fn sync_directory(path: &Path) -> RedisResult<()> {
+    std::fs::File::open(path)?.sync_all()?;
+    Ok(())
+}
+
+#[cfg(not(unix))]
+pub(super) fn sync_directory(_path: &Path) -> RedisResult<()> {
+    Ok(())
+}
+
+pub(super) fn create_migration_backup(
+    conn: &mut rusqlite::Connection,
+    path: &Path,
+    migration: &SchemaMigration,
+) -> RedisResult<Option<PathBuf>> {
+    if !path.exists() {
+        return Ok(None);
+    }
+    let file_name = path
+        .file_name()
+        .and_then(|value| value.to_str())
+        .unwrap_or("fn-knock.sqlite3");
+    let backup_path = path.with_file_name(format!(
+        "{file_name}.migration-v{}.{}.bak",
+        migration.version,
+        now_ms()
+    ));
+    create_consistent_sqlite_backup(conn, &backup_path)?;
+    Ok(Some(backup_path))
+}
+
+pub(super) fn migration_checksum(sql: &str) -> String {
+    let mut hasher = Sha256::new();
+    hasher.update(sql.as_bytes());
+    format!("sha256:{:x}", hasher.finalize())
+}

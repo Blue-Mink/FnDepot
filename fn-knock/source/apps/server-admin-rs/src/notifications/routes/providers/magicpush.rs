@@ -1,1 +1,116 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIG1hZ2ljcHVzaF9kZWZpbml0aW9uKCkgLT4gUHJvdmlkZXJEZWZpbml0aW9uIHsKICAgIFByb3ZpZGVyRGVmaW5pdGlvbiB7CiAgICAgICAgcHJvdmlkZXJfdHlwZTogIm1hZ2ljcHVzaCIsCiAgICAgICAgbGFiZWw6ICJNYWdpY1B1c2giLAogICAgICAgIGRlc2NyaXB0aW9uOiAiU2VuZCBub3RpZmljYXRpb25zIHRocm91Z2ggTWFnaWNQdXNoLiIsCiAgICAgICAgY29ubmVjdGlvbl9zY2hlbWE6IHZlYyFbCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoInNlcnZlcl91cmwiLCAiU2VydmVyIFVSTCIsIHRydWUsIGZhbHNlLCBOb25lKQogICAgICAgICAgICAgICAgLnBsYWNlaG9sZGVyKCJodHRwOi8vMTkyLjE2OC4zMS45ODozMDAwIiksCiAgICAgICAgICAgIHNlbGVjdF9zY2hlbWEoCiAgICAgICAgICAgICAgICAiZGVsaXZlcnlfbW9kZSIsCiAgICAgICAgICAgICAgICAiRGVsaXZlcnkgbW9kZSIsCiAgICAgICAgICAgICAgICB0cnVlLAogICAgICAgICAgICAgICAgU29tZSgicHVzaCIpLAogICAgICAgICAgICAgICAgJlsicHVzaCIsICJpbmJvdW5kIl0sCiAgICAgICAgICAgICksCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoInRva2VuIiwgIlRva2VuIiwgdHJ1ZSwgZmFsc2UsIE5vbmUpLnBsYWNlaG9sZGVyKCJ5b3VyX3Rva2VuIiksCiAgICAgICAgICAgIG51bWJlcl9zY2hlbWEoInRpbWVvdXRfc2Vjb25kcyIsICJUaW1lb3V0IHNlY29uZHMiLCB0cnVlLCBTb21lKDUpKS5ib3VuZHMoMSwgMzApLAogICAgICAgIF0sCiAgICAgICAgdGFyZ2V0X3NjaGVtYTogVmVjOjpuZXcoKSwKICAgICAgICBzZW5zaXRpdmVfZmllbGRzOiBWZWM6Om5ldygpLAogICAgICAgIHN1cHBvcnRzX21hcmtkb3duOiBmYWxzZSwKICAgICAgICBzdXBwb3J0c19hY3Rpb25zOiBmYWxzZSwKICAgICAgICBzdXBwb3J0c19tZW50aW9uczogZmFsc2UsCiAgICAgICAgc3VwcG9ydHNfcHJvdmlkZXJfZGVkdXBlX2tleTogZmFsc2UsCiAgICB9Cn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBhc3luYyBmbiBzZW5kX21hZ2ljcHVzaCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBwcm92aWRlcjogJlZhbHVlLAogICAgbWVzc2FnZTogJlZhbHVlLAogICAgdGltZW91dF9zZWNvbmRzOiBpNjQsCikgLT4gUHJvdmlkZXJUZXN0UmVzdWx0IHsKICAgIGxldCBjb25maWcgPSBwcm92aWRlcl9jb25maWcocHJvdmlkZXIpOwogICAgbGV0IHRva2VuID0gY29uZmlnX3RleHQoJmNvbmZpZywgInRva2VuIik7CiAgICBpZiB0b2tlbi5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gbWlzc2luZ19jb25maWdfcmVzdWx0KCZub3RpZmljYXRpb25fcHJvdmlkZXJfZXJyb3JfZGVmYXVsdCgKICAgICAgICAgICAgIm1hZ2ljcHVzaCIsCiAgICAgICAgICAgICJtaXNzaW5nVG9rZW4iLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSk7CiAgICB9CiAgICBsZXQgYmFzZV91cmwgPSBjb25maWdfdGV4dCgmY29uZmlnLCAic2VydmVyX3VybCIpOwogICAgaWYgYmFzZV91cmwuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIG1pc3NpbmdfY29uZmlnX3Jlc3VsdCgmbm90aWZpY2F0aW9uX3Byb3ZpZGVyX2Vycm9yX2RlZmF1bHQoCiAgICAgICAgICAgICJtYWdpY3B1c2giLAogICAgICAgICAgICAibWlzc2luZ0Jhc2VVcmwiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSk7CiAgICB9CiAgICBsZXQgZGVsaXZlcnlfbW9kZSA9IGlmIGNvbmZpZ190ZXh0KCZjb25maWcsICJkZWxpdmVyeV9tb2RlIikgPT0gImluYm91bmQiIHsKICAgICAgICAiaW5ib3VuZCIKICAgIH0gZWxzZSB7CiAgICAgICAgInB1c2giCiAgICB9OwogICAgbGV0IHVybCA9IHJlc29sdmVfbWFnaWNwdXNoX3VybCgmYmFzZV91cmwsICZ0b2tlbiwgZGVsaXZlcnlfbW9kZSk7CiAgICBsZXQgdGl0bGUgPSBtZXNzYWdlX3RpdGxlKG1lc3NhZ2UpOwogICAgbGV0IGNvbnRlbnQgPSBkZWZhdWx0X3N0cmluZyhidWlsZF9tYWdpY3B1c2hfY29udGVudChtZXNzYWdlKSwgJnRpdGxlKTsKICAgIGxldCBtYWdpY3B1c2hfZmFjdHMgPSBtYWdpY3B1c2hfZmFjdHNfb2JqZWN0KG1lc3NhZ2UpOwogICAgbGV0IHBheWxvYWQgPSBpZiBkZWxpdmVyeV9tb2RlID09ICJpbmJvdW5kIiB7CiAgICAgICAganNvbiEoewogICAgICAgICAgICAic291cmNlIjogImZuLWtub2NrIiwKICAgICAgICAgICAgInRpdGxlIjogdGl0bGUsCiAgICAgICAgICAgICJzdW1tYXJ5IjogbWVzc2FnZS5nZXQoInN1bW1hcnkiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgICAgICAiY29udGVudCI6IGNvbnRlbnQsCiAgICAgICAgICAgICJib2R5IjogY29udGVudCwKICAgICAgICAgICAgImJvZHlfdGV4dCI6IG1lc3NhZ2UuZ2V0KCJib2R5X3RleHQiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgICAgICAiYm9keV9tYXJrZG93biI6IG1lc3NhZ2UuZ2V0KCJib2R5X21hcmtkb3duIikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgICAgICAgICAgInR5cGUiOiBpZiBtZXNzYWdlX3RleHQobWVzc2FnZSwgImJvZHlfbWFya2Rvd24iKS5pc19lbXB0eSgpIHsgInRleHQiIH0gZWxzZSB7ICJtYXJrZG93biIgfSwKICAgICAgICAgICAgInNldmVyaXR5IjogbWVzc2FnZS5nZXQoInNldmVyaXR5IikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgICAgICAgICAgImZhY3RzIjogbWFnaWNwdXNoX2ZhY3RzLAogICAgICAgICAgICAiZmFjdHNfbGlzdCI6IG1lc3NhZ2UuZ2V0KCJmYWN0cyIpLmNsb25lZCgpLnVud3JhcF9vcl9lbHNlKHx8IGpzb24hKFtdKSksCiAgICAgICAgICAgICJhY3Rpb25zIjogbWVzc2FnZS5nZXQoImFjdGlvbnMiKS5jbG9uZWQoKS51bndyYXBfb3JfZWxzZSh8fCBqc29uIShbXSkpLAogICAgICAgICAgICAibWVudGlvbnMiOiBtZXNzYWdlLmdldCgibWVudGlvbnMiKS5jbG9uZWQoKS51bndyYXBfb3JfZWxzZSh8fCBqc29uIShbXSkpLAogICAgICAgICAgICAiZGVkdXBlX2tleSI6IG1lc3NhZ2UuZ2V0KCJkZWR1cGVfa2V5IikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgICAgICAgICAgIm9jY3VycmVkX2F0IjogbWVzc2FnZS5nZXQoIm9jY3VycmVkX2F0IikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgICAgICAgICAgImV2ZW50X2lkIjogbWVzc2FnZS5nZXQoImV2ZW50X2lkIikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgICAgICAgICAgIm1ldGFkYXRhIjogbWVzc2FnZS5nZXQoIm1ldGFkYXRhIikuY2xvbmVkKCkudW53cmFwX29yX2Vsc2UofHwganNvbiEoe30pKQogICAgICAgIH0pCiAgICB9IGVsc2UgewogICAgICAgIGpzb24hKHsgInRpdGxlIjogdGl0bGUsICJjb250ZW50IjogY29udGVudCwgInR5cGUiOiAidGV4dCIgfSkKICAgIH07CiAgICBsZXQgcmVxdWVzdF9zdW1tYXJ5ID0ganNvbiEoewogICAgICAgICJtZXRob2QiOiAiUE9TVCIsCiAgICAgICAgInVybCI6IHVybCwKICAgICAgICAiZGVsaXZlcnlfbW9kZSI6IGRlbGl2ZXJ5X21vZGUsCiAgICAgICAgInR5cGUiOiBwYXlsb2FkLmdldCgidHlwZSIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCksCiAgICAgICAgInRpdGxlX3ByZXZpZXciOiBwYXlsb2FkLmdldCgidGl0bGUiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgICJjb250ZW50X3ByZXZpZXciOiB0cnVuY2F0ZV90ZXh0KHBheWxvYWQuZ2V0KCJjb250ZW50IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKSwgNTAwKQogICAgfSk7CiAgICBsZXQgbXV0IHJlcXVlc3QgPSBzdGF0ZQogICAgICAgIC5mYWxsYmFja19jbGllbnQKICAgICAgICAucG9zdCgmdXJsKQogICAgICAgIC5oZWFkZXIoImNvbnRlbnQtdHlwZSIsICJhcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PXV0Zi04Iik7CiAgICBpZiBkZWxpdmVyeV9tb2RlID09ICJpbmJvdW5kIiB7CiAgICAgICAgcmVxdWVzdCA9IHJlcXVlc3QuaGVhZGVyKCJ4LWZuLWtub2NrLXByb3ZpZGVyIiwgIm1hZ2ljcHVzaCIpOwogICAgfSBlbHNlIHsKICAgICAgICByZXF1ZXN0ID0gcmVxdWVzdC5oZWFkZXIoImF1dGhvcml6YXRpb24iLCBmb3JtYXQhKCJCZWFyZXIge3Rva2VufSIpKTsKICAgIH0KICAgIGxldCAoc3RhdHVzLCBvaywgdGV4dCwgcGFyc2VkKSA9IHNlbmRfcHJlcGFyZWRfanNvbihyZXF1ZXN0LCAmcGF5bG9hZCwgdGltZW91dF9zZWNvbmRzKS5hd2FpdDsKICAgIHByb3ZpZGVyX3Jlc3VsdF9mcm9tX2FwaSgKICAgICAgICAiTWFnaWNQdXNoIiwKICAgICAgICByZXF1ZXN0X3N1bW1hcnksCiAgICAgICAgc3RhdHVzLAogICAgICAgIG9rLAogICAgICAgIHRleHQsCiAgICAgICAgcGFyc2VkLAogICAgICAgIHx2YWx1ZXwgewogICAgICAgICAgICB2YWx1ZS5nZXQoInN1Y2Nlc3MiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgIT0gU29tZShmYWxzZSkKICAgICAgICAgICAgICAgICYmIGpzb25faTY0KHZhbHVlLCAiY29kZSIpLmlzX25vbmVfb3IofGNvZGV8IGNvZGUgPT0gMjAwKQogICAgICAgIH0sCiAgICAgICAgfHZhbHVlfCBqc29uX3RleHRfYW55KHZhbHVlLCAmWyJtZXNzYWdlIiwgIm1zZyIsICJlcnJvciJdKSwKICAgICkKfQo=
+use super::*;
+
+pub(in crate::notifications::routes) fn magicpush_definition() -> ProviderDefinition {
+    ProviderDefinition {
+        provider_type: "magicpush",
+        label: "MagicPush",
+        description: "Send notifications through MagicPush.",
+        connection_schema: vec![
+            string_schema("server_url", "Server URL", true, false, None)
+                .placeholder("http://192.168.31.98:3000"),
+            select_schema(
+                "delivery_mode",
+                "Delivery mode",
+                true,
+                Some("push"),
+                &["push", "inbound"],
+            ),
+            string_schema("token", "Token", true, false, None).placeholder("your_token"),
+            number_schema("timeout_seconds", "Timeout seconds", true, Some(5)).bounds(1, 30),
+        ],
+        target_schema: Vec::new(),
+        sensitive_fields: Vec::new(),
+        supports_markdown: false,
+        supports_actions: false,
+        supports_mentions: false,
+        supports_provider_dedupe_key: false,
+    }
+}
+
+pub(in crate::notifications::routes) async fn send_magicpush(
+    state: &AppState,
+    provider: &Value,
+    message: &Value,
+    timeout_seconds: i64,
+) -> ProviderTestResult {
+    let config = provider_config(provider);
+    let token = config_text(&config, "token");
+    if token.is_empty() {
+        return missing_config_result(&notification_provider_error_default(
+            "magicpush",
+            "missingToken",
+            &[],
+        ));
+    }
+    let base_url = config_text(&config, "server_url");
+    if base_url.is_empty() {
+        return missing_config_result(&notification_provider_error_default(
+            "magicpush",
+            "missingBaseUrl",
+            &[],
+        ));
+    }
+    let delivery_mode = if config_text(&config, "delivery_mode") == "inbound" {
+        "inbound"
+    } else {
+        "push"
+    };
+    let url = resolve_magicpush_url(&base_url, &token, delivery_mode);
+    let title = message_title(message);
+    let content = default_string(build_magicpush_content(message), &title);
+    let magicpush_facts = magicpush_facts_object(message);
+    let payload = if delivery_mode == "inbound" {
+        json!({
+            "source": "fn-knock",
+            "title": title,
+            "summary": message.get("summary").cloned().unwrap_or(Value::Null),
+            "content": content,
+            "body": content,
+            "body_text": message.get("body_text").cloned().unwrap_or(Value::Null),
+            "body_markdown": message.get("body_markdown").cloned().unwrap_or(Value::Null),
+            "type": if message_text(message, "body_markdown").is_empty() { "text" } else { "markdown" },
+            "severity": message.get("severity").cloned().unwrap_or(Value::Null),
+            "facts": magicpush_facts,
+            "facts_list": message.get("facts").cloned().unwrap_or_else(|| json!([])),
+            "actions": message.get("actions").cloned().unwrap_or_else(|| json!([])),
+            "mentions": message.get("mentions").cloned().unwrap_or_else(|| json!([])),
+            "dedupe_key": message.get("dedupe_key").cloned().unwrap_or(Value::Null),
+            "occurred_at": message.get("occurred_at").cloned().unwrap_or(Value::Null),
+            "event_id": message.get("event_id").cloned().unwrap_or(Value::Null),
+            "metadata": message.get("metadata").cloned().unwrap_or_else(|| json!({}))
+        })
+    } else {
+        json!({ "title": title, "content": content, "type": "text" })
+    };
+    let request_summary = json!({
+        "method": "POST",
+        "url": url,
+        "delivery_mode": delivery_mode,
+        "type": payload.get("type").cloned().unwrap_or(Value::Null),
+        "title_preview": payload.get("title").cloned().unwrap_or(Value::Null),
+        "content_preview": truncate_text(payload.get("content").and_then(Value::as_str).unwrap_or(""), 500)
+    });
+    let mut request = state
+        .fallback_client
+        .post(&url)
+        .header("content-type", "application/json; charset=utf-8");
+    if delivery_mode == "inbound" {
+        request = request.header("x-fn-knock-provider", "magicpush");
+    } else {
+        request = request.header("authorization", format!("Bearer {token}"));
+    }
+    let (status, ok, text, parsed) = send_prepared_json(request, &payload, timeout_seconds).await;
+    provider_result_from_api(
+        "MagicPush",
+        request_summary,
+        status,
+        ok,
+        text,
+        parsed,
+        |value| {
+            value.get("success").and_then(Value::as_bool) != Some(false)
+                && json_i64(value, "code").is_none_or(|code| code == 200)
+        },
+        |value| json_text_any(value, &["message", "msg", "error"]),
+    )
+}

@@ -1,1 +1,19 @@
-IyEvYmluL2Jhc2gKCiMjIyBUaGlzIHNjcmlwdCBpcyBjYWxsZWQgYWZ0ZXIgdGhlIHVzZXIgdW5pbnN0YWxscyB0aGUgYXBwbGljYXRpb24uCgpzZXQgLXUKClBLR19WQVJfRElSPSIke1RSSU1fUEtHVkFSOi19IgppZiBbIC1uICIke1BLR19WQVJfRElSfSIgXTsgdGhlbgogICAgIyBVc2VyIGRhdGEgbWF5IGludGVudGlvbmFsbHkgc3Vydml2ZSBhbiB1bmluc3RhbGwsIGJ1dCBydW50aW1lIGlkZW50aXR5CiAgICAjIG5ldmVyIHNob3VsZC4gTGVhdmluZyB0aGVzZSBmaWxlcyBiZWhpbmQgY2FuIG1ha2UgYSByZWluc3RhbGwgbWlzdGFrZSBhbgogICAgIyBvbGQgZ2VuZXJhdGlvbiBmb3IgYSByZWFkeSBwcm9jZXNzIG9yIHJvdXRlIHRoZSBDR0kgdG8gYW4gb2Jzb2xldGUgcG9ydC4KICAgIHJtIC1mIFwKICAgICAgICAiJHtQS0dfVkFSX0RJUn0vYmFja2VuZC5waWQiIFwKICAgICAgICAiJHtQS0dfVkFSX0RJUn0vZ2F0ZXdheS5waWQiIFwKICAgICAgICAiJHtQS0dfVkFSX0RJUn0vcnVudGltZS5yZWFkeSIgXAogICAgICAgICIke1BLR19WQVJfRElSfS9ydW50aW1lLXBvcnRzLmVudiIKZmkKCmV4aXQgMAo=
+#!/bin/bash
+
+### This script is called after the user uninstalls the application.
+
+set -u
+
+PKG_VAR_DIR="${TRIM_PKGVAR:-}"
+if [ -n "${PKG_VAR_DIR}" ]; then
+    # User data may intentionally survive an uninstall, but runtime identity
+    # never should. Leaving these files behind can make a reinstall mistake an
+    # old generation for a ready process or route the CGI to an obsolete port.
+    rm -f \
+        "${PKG_VAR_DIR}/backend.pid" \
+        "${PKG_VAR_DIR}/gateway.pid" \
+        "${PKG_VAR_DIR}/runtime.ready" \
+        "${PKG_VAR_DIR}/runtime-ports.env"
+fi
+
+exit 0

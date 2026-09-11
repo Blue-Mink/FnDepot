@@ -1,1 +1,45 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUG9wb3ZlckNvbnRlbnRFbWl0cywgUG9wb3ZlckNvbnRlbnRQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsKICBQb3BvdmVyQ29udGVudCwKICBQb3BvdmVyUG9ydGFsLAogIHVzZUZvcndhcmRQcm9wc0VtaXRzLAp9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpkZWZpbmVPcHRpb25zKHsKICBpbmhlcml0QXR0cnM6IGZhbHNlLAp9KQoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoCiAgZGVmaW5lUHJvcHM8UG9wb3ZlckNvbnRlbnRQcm9wcyAmIHsgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXSB9PigpLAogIHsKICAgIGFsaWduOiAiY2VudGVyIiwKICAgIHNpZGVPZmZzZXQ6IDQsCiAgfSwKKQpjb25zdCBlbWl0cyA9IGRlZmluZUVtaXRzPFBvcG92ZXJDb250ZW50RW1pdHM+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQoKY29uc3QgZm9yd2FyZGVkID0gdXNlRm9yd2FyZFByb3BzRW1pdHMoZGVsZWdhdGVkUHJvcHMsIGVtaXRzKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UG9wb3ZlclBvcnRhbD4KICAgIDxQb3BvdmVyQ29udGVudAogICAgICBkYXRhLXNsb3Q9InBvcG92ZXItY29udGVudCIKICAgICAgdi1iaW5kPSJ7IC4uLiRhdHRycywgLi4uZm9yd2FyZGVkIH0iCiAgICAgIDpjbGFzcz0iCiAgICAgICAgY24oCiAgICAgICAgICAnYmctcG9wb3ZlciB0ZXh0LXBvcG92ZXItZm9yZWdyb3VuZCBkYXRhLVtzdGF0ZT1vcGVuXTphbmltYXRlLWluIGRhdGEtW3N0YXRlPWNsb3NlZF06YW5pbWF0ZS1vdXQgZGF0YS1bc3RhdGU9Y2xvc2VkXTpmYWRlLW91dC0wIGRhdGEtW3N0YXRlPW9wZW5dOmZhZGUtaW4tMCBkYXRhLVtzdGF0ZT1jbG9zZWRdOnpvb20tb3V0LTk1IGRhdGEtW3N0YXRlPW9wZW5dOnpvb20taW4tOTUgZGF0YS1bc2lkZT1ib3R0b21dOnNsaWRlLWluLWZyb20tdG9wLTIgZGF0YS1bc2lkZT1sZWZ0XTpzbGlkZS1pbi1mcm9tLXJpZ2h0LTIgZGF0YS1bc2lkZT1yaWdodF06c2xpZGUtaW4tZnJvbS1sZWZ0LTIgZGF0YS1bc2lkZT10b3BdOnNsaWRlLWluLWZyb20tYm90dG9tLTIgei01MCB3LTcyIHJvdW5kZWQtbWQgYm9yZGVyIHAtNCBzaGFkb3ctbWQgb3JpZ2luLSgtLXJla2EtcG9wb3Zlci1jb250ZW50LXRyYW5zZm9ybS1vcmlnaW4pIG91dGxpbmUtaGlkZGVuJywKICAgICAgICAgIHByb3BzLmNsYXNzLAogICAgICAgICkKICAgICAgIgogICAgPgogICAgICA8c2xvdCAvPgogICAgPC9Qb3BvdmVyQ29udGVudD4KICA8L1BvcG92ZXJQb3J0YWw+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { PopoverContentEmits, PopoverContentProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import {
+  PopoverContent,
+  PopoverPortal,
+  useForwardPropsEmits,
+} from "reka-ui"
+import { cn } from "@/lib/utils"
+
+defineOptions({
+  inheritAttrs: false,
+})
+
+const props = withDefaults(
+  defineProps<PopoverContentProps & { class?: HTMLAttributes["class"] }>(),
+  {
+    align: "center",
+    sideOffset: 4,
+  },
+)
+const emits = defineEmits<PopoverContentEmits>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwarded = useForwardPropsEmits(delegatedProps, emits)
+</script>
+
+<template>
+  <PopoverPortal>
+    <PopoverContent
+      data-slot="popover-content"
+      v-bind="{ ...$attrs, ...forwarded }"
+      :class="
+        cn(
+          'bg-popover text-popover-foreground data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 z-50 w-72 rounded-md border p-4 shadow-md origin-(--reka-popover-content-transform-origin) outline-hidden',
+          props.class,
+        )
+      "
+    >
+      <slot />
+    </PopoverContent>
+  </PopoverPortal>
+</template>

@@ -1,1 +1,72 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwoKaW1wb3J0IHsKICBET0NLRVJfQURNSU5fUEFTU1dPUkRfTUFYX0JZVEVTLAogIERPQ0tFUl9BRE1JTl9QQVNTV09SRF9NSU5fQllURVMsCiAgZ2V0RG9ja2VyQWRtaW5QYXNzd29yZEJ5dGVMZW5ndGgsCiAgdmFsaWRhdGVEb2NrZXJBZG1pblBhc3N3b3JkLAp9IGZyb20gIi4uL3NyYy9saWIvZG9ja2VyLWFkbWluLXBhc3N3b3JkIjsKCmRlc2NyaWJlKCJEb2NrZXIgYWRtaW4gcGFzc3dvcmQgdmFsaWRhdGlvbiIsICgpID0+IHsKICBpdCgiYWNjZXB0cyBwYXNzd29yZHMgYXQgdGhlIFVURi04IGJ5dGUgYm91bmRhcmllcyIsICgpID0+IHsKICAgIGNvbnN0IG1pbmltdW0gPSAiYTHkvaAhIjsKICAgIGNvbnN0IG1heGltdW0gPSBgYTEkeyLkvaAiLnJlcGVhdCg0Mil9YDsKCiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGdldERvY2tlckFkbWluUGFzc3dvcmRCeXRlTGVuZ3RoKG1pbmltdW0pLAogICAgICBET0NLRVJfQURNSU5fUEFTU1dPUkRfTUlOX0JZVEVTLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCh2YWxpZGF0ZURvY2tlckFkbWluUGFzc3dvcmQobWluaW11bSksIG51bGwpOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBnZXREb2NrZXJBZG1pblBhc3N3b3JkQnl0ZUxlbmd0aChtYXhpbXVtKSwKICAgICAgRE9DS0VSX0FETUlOX1BBU1NXT1JEX01BWF9CWVRFUywKICAgICk7CiAgICBhc3NlcnQuZXF1YWwodmFsaWRhdGVEb2NrZXJBZG1pblBhc3N3b3JkKG1heGltdW0pLCBudWxsKTsKICB9KTsKCiAgaXQoInJlamVjdHMgcGFzc3dvcmRzIG91dHNpZGUgdGhlIFVURi04IGJ5dGUgYm91bmRhcmllcyIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCh2YWxpZGF0ZURvY2tlckFkbWluUGFzc3dvcmQoImEx5L2gIiksICJ0b29TaG9ydCIpOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICB2YWxpZGF0ZURvY2tlckFkbWluUGFzc3dvcmQoYGExJHsi5L2gIi5yZXBlYXQoNDMpfWApLAogICAgICAidG9vTG9uZyIsCiAgICApOwogIH0pOwoKICBpdCgicmVqZWN0cyBBU0NJSSBhbmQgVW5pY29kZSB3aGl0ZXNwYWNlIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKHZhbGlkYXRlRG9ja2VyQWRtaW5QYXNzd29yZCgiYWJjIDEyMyIpLCAiY29udGFpbnNXaGl0ZXNwYWNlIik7CiAgICBhc3NlcnQuZXF1YWwodmFsaWRhdGVEb2NrZXJBZG1pblBhc3N3b3JkKCJhYmNcdDEyMyIpLCAiY29udGFpbnNXaGl0ZXNwYWNlIik7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHZhbGlkYXRlRG9ja2VyQWRtaW5QYXNzd29yZCgiYWJjXHUzMDAwMTIzIiksCiAgICAgICJjb250YWluc1doaXRlc3BhY2UiLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgdmFsaWRhdGVEb2NrZXJBZG1pblBhc3N3b3JkKCJhYmNcdTAwODUxMjMiKSwKICAgICAgImNvbnRhaW5zV2hpdGVzcGFjZSIsCiAgICApOwogIH0pOwoKICBpdCgiZG9lcyBub3QgcmVqZWN0IHRoZSBCT00gY29kZSBwb2ludCB0aGF0IFJ1c3QgYWNjZXB0cyIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCh2YWxpZGF0ZURvY2tlckFkbWluUGFzc3dvcmQoImFiY1x1RkVGRjEyMyIpLCBudWxsKTsKICB9KTsKCiAgaXQoInJlcXVpcmVzIGF0IGxlYXN0IG9uZSBBU0NJSSBsZXR0ZXIgYW5kIG9uZSBudW1iZXIiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHZhbGlkYXRlRG9ja2VyQWRtaW5QYXNzd29yZCgiYWJjZGVmIiksCiAgICAgICJtaXNzaW5nTGV0dGVyT3JOdW1iZXIiLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgdmFsaWRhdGVEb2NrZXJBZG1pblBhc3N3b3JkKCIxMjM0NTYiKSwKICAgICAgIm1pc3NpbmdMZXR0ZXJPck51bWJlciIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICB2YWxpZGF0ZURvY2tlckFkbWluUGFzc3dvcmQoIuWvhueggTEyMzQiKSwKICAgICAgIm1pc3NpbmdMZXR0ZXJPck51bWJlciIsCiAgICApOwogIH0pOwoKICBpdCgiYWxsb3dzIHN5bWJvbHMgYW5kIGFkZGl0aW9uYWwgbm9uLXdoaXRlc3BhY2UgVW5pY29kZSBjaGFyYWN0ZXJzIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKHZhbGlkYXRlRG9ja2VyQWRtaW5QYXNzd29yZCgiYTFAIyQlIiksIG51bGwpOwogICAgYXNzZXJ0LmVxdWFsKHZhbGlkYXRlRG9ja2VyQWRtaW5QYXNzd29yZCgiYTHlr4bnoIEhIiksIG51bGwpOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import {
+  DOCKER_ADMIN_PASSWORD_MAX_BYTES,
+  DOCKER_ADMIN_PASSWORD_MIN_BYTES,
+  getDockerAdminPasswordByteLength,
+  validateDockerAdminPassword,
+} from "../src/lib/docker-admin-password";
+
+describe("Docker admin password validation", () => {
+  it("accepts passwords at the UTF-8 byte boundaries", () => {
+    const minimum = "a1你!";
+    const maximum = `a1${"你".repeat(42)}`;
+
+    assert.equal(
+      getDockerAdminPasswordByteLength(minimum),
+      DOCKER_ADMIN_PASSWORD_MIN_BYTES,
+    );
+    assert.equal(validateDockerAdminPassword(minimum), null);
+    assert.equal(
+      getDockerAdminPasswordByteLength(maximum),
+      DOCKER_ADMIN_PASSWORD_MAX_BYTES,
+    );
+    assert.equal(validateDockerAdminPassword(maximum), null);
+  });
+
+  it("rejects passwords outside the UTF-8 byte boundaries", () => {
+    assert.equal(validateDockerAdminPassword("a1你"), "tooShort");
+    assert.equal(
+      validateDockerAdminPassword(`a1${"你".repeat(43)}`),
+      "tooLong",
+    );
+  });
+
+  it("rejects ASCII and Unicode whitespace", () => {
+    assert.equal(validateDockerAdminPassword("abc 123"), "containsWhitespace");
+    assert.equal(validateDockerAdminPassword("abc\t123"), "containsWhitespace");
+    assert.equal(
+      validateDockerAdminPassword("abc\u3000123"),
+      "containsWhitespace",
+    );
+    assert.equal(
+      validateDockerAdminPassword("abc\u0085123"),
+      "containsWhitespace",
+    );
+  });
+
+  it("does not reject the BOM code point that Rust accepts", () => {
+    assert.equal(validateDockerAdminPassword("abc\uFEFF123"), null);
+  });
+
+  it("requires at least one ASCII letter and one number", () => {
+    assert.equal(
+      validateDockerAdminPassword("abcdef"),
+      "missingLetterOrNumber",
+    );
+    assert.equal(
+      validateDockerAdminPassword("123456"),
+      "missingLetterOrNumber",
+    );
+    assert.equal(
+      validateDockerAdminPassword("密码1234"),
+      "missingLetterOrNumber",
+    );
+  });
+
+  it("allows symbols and additional non-whitespace Unicode characters", () => {
+    assert.equal(validateDockerAdminPassword("a1@#$%"), null);
+    assert.equal(validateDockerAdminPassword("a1密码!"), null);
+  });
+});

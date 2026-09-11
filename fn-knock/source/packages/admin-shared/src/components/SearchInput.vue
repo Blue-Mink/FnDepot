@@ -1,1 +1,75 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IFNlYXJjaCwgWCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7CiAgSW5wdXRHcm91cCwKICBJbnB1dEdyb3VwQWRkb24sCiAgSW5wdXRHcm91cElucHV0LAogIElucHV0R3JvdXBCdXR0b24sCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0LWdyb3VwIjsKCmV4cG9ydCBpbnRlcmZhY2UgUHJvcHMgewogIHBsYWNlaG9sZGVyPzogc3RyaW5nOwogIGNsYXNzPzogYW55Owp9Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cyhkZWZpbmVQcm9wczxQcm9wcz4oKSwgewogIHBsYWNlaG9sZGVyOiAiU2VhcmNoLi4uIiwKICBjbGFzczogIiIsCn0pOwoKY29uc3QgbW9kZWxWYWx1ZSA9IGRlZmluZU1vZGVsPHN0cmluZz4oeyBkZWZhdWx0OiAiIiB9KTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgc2VhcmNoOiBbdmFsdWU6IHN0cmluZ107CiAgY2xlYXI6IFtdOwp9PigpOwoKY29uc3QgaGFuZGxlU2VhcmNoID0gKCkgPT4gewogIGVtaXQoInNlYXJjaCIsIG1vZGVsVmFsdWUudmFsdWUpOwp9OwoKY29uc3QgaGFuZGxlQ2xlYXIgPSAoKSA9PiB7CiAgbW9kZWxWYWx1ZS52YWx1ZSA9ICIiOwogIGVtaXQoImNsZWFyIik7CiAgZW1pdCgic2VhcmNoIiwgIiIpOwp9Owo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8SW5wdXRHcm91cCA6Y2xhc3M9InByb3BzLmNsYXNzIj4KICAgIDxJbnB1dEdyb3VwSW5wdXQKICAgICAgdi1tb2RlbD0ibW9kZWxWYWx1ZSIKICAgICAgOmFyaWEtbGFiZWw9InBsYWNlaG9sZGVyIgogICAgICA6cGxhY2Vob2xkZXI9InBsYWNlaG9sZGVyIgogICAgICBAa2V5dXAuZW50ZXI9ImhhbmRsZVNlYXJjaCIKICAgICAgY2xhc3M9ImJvcmRlci1yLTAgZm9jdXMtdmlzaWJsZTpyaW5nLTAgc2hhZG93LW5vbmUgYm9yZGVyLXRyYW5zcGFyZW50IgogICAgLz4KICAgIDxJbnB1dEdyb3VwQWRkb24KICAgICAgYWxpZ249ImlubGluZS1lbmQiCiAgICAgIGNsYXNzPSJweS0wIHBsLTAgcHItMiBoYXMtWz5idXR0b25dOm1yLTAiCiAgICA+CiAgICAgIDxJbnB1dEdyb3VwQnV0dG9uCiAgICAgICAgdi1pZj0ibW9kZWxWYWx1ZSIKICAgICAgICBzaXplPSJpY29uLXNtIgogICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgIEBjbGljaz0iaGFuZGxlQ2xlYXIiCiAgICAgICAgYXJpYS1sYWJlbD0iQ2xlYXIiCiAgICAgICAgdGl0bGU9IkNsZWFyIgogICAgICA+CiAgICAgICAgPFgKICAgICAgICAgIGNsYXNzPSJoLTQgdy00IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LWZvcmVncm91bmQgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgLz4KICAgICAgPC9JbnB1dEdyb3VwQnV0dG9uPgogICAgICA8SW5wdXRHcm91cEJ1dHRvbgogICAgICAgIHYtZWxzZQogICAgICAgIHNpemU9Imljb24tc20iCiAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgQGNsaWNrPSJoYW5kbGVTZWFyY2giCiAgICAgICAgYXJpYS1sYWJlbD0iU2VhcmNoIgogICAgICAgIHRpdGxlPSJTZWFyY2giCiAgICAgID4KICAgICAgICA8U2VhcmNoIGNsYXNzPSJoLTQgdy00IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICAgICAgPC9JbnB1dEdyb3VwQnV0dG9uPgogICAgPC9JbnB1dEdyb3VwQWRkb24+CiAgPC9JbnB1dEdyb3VwPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { Search, X } from "lucide-vue-next";
+import {
+  InputGroup,
+  InputGroupAddon,
+  InputGroupInput,
+  InputGroupButton,
+} from "@/components/ui/input-group";
+
+export interface Props {
+  placeholder?: string;
+  class?: any;
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  placeholder: "Search...",
+  class: "",
+});
+
+const modelValue = defineModel<string>({ default: "" });
+
+const emit = defineEmits<{
+  search: [value: string];
+  clear: [];
+}>();
+
+const handleSearch = () => {
+  emit("search", modelValue.value);
+};
+
+const handleClear = () => {
+  modelValue.value = "";
+  emit("clear");
+  emit("search", "");
+};
+</script>
+
+<template>
+  <InputGroup :class="props.class">
+    <InputGroupInput
+      v-model="modelValue"
+      :aria-label="placeholder"
+      :placeholder="placeholder"
+      @keyup.enter="handleSearch"
+      class="border-r-0 focus-visible:ring-0 shadow-none border-transparent"
+    />
+    <InputGroupAddon
+      align="inline-end"
+      class="py-0 pl-0 pr-2 has-[>button]:mr-0"
+    >
+      <InputGroupButton
+        v-if="modelValue"
+        size="icon-sm"
+        variant="ghost"
+        @click="handleClear"
+        aria-label="Clear"
+        title="Clear"
+      >
+        <X
+          class="h-4 w-4 text-muted-foreground hover:text-foreground transition-colors"
+        />
+      </InputGroupButton>
+      <InputGroupButton
+        v-else
+        size="icon-sm"
+        variant="ghost"
+        @click="handleSearch"
+        aria-label="Search"
+        title="Search"
+      >
+        <Search class="h-4 w-4 text-muted-foreground" />
+      </InputGroupButton>
+    </InputGroupAddon>
+  </InputGroup>
+</template>

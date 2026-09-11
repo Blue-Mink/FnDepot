@@ -1,1 +1,341 @@
-dXNlIHN0ZDo6ewogICAgZnMsCiAgICBmczo6T3Blbk9wdGlvbnMsCiAgICBpbzo6e1JlYWQsIFdyaXRlfSwKICAgIHBhdGg6OntQYXRoLCBQYXRoQnVmfSwKICAgIHN5bmM6Ok11dGV4LAp9OwoKdXNlIGFlc19nY206OnsKICAgIEFlczI1NkdjbSwgTm9uY2UsCiAgICBhZWFkOjp7QWVhZCwgS2V5SW5pdCwgUGF5bG9hZH0sCn07CnVzZSBiYXNlNjQ6OntFbmdpbmUgYXMgXywgZW5naW5lOjpnZW5lcmFsX3B1cnBvc2U6OlNUQU5EQVJEfTsKdXNlIHNlcmRlOjp7RGVzZXJpYWxpemUsIFNlcmlhbGl6ZX07Cgp1c2UgY3JhdGU6OmNyeXB0b191dGlsczo6cmFuZG9tX2J5dGVzOwoKY29uc3QgVkVSU0lPTjogdTggPSAxOwpzdGF0aWMgS0VZX0xPQ0s6IE11dGV4PCgpPiA9IE11dGV4OjpuZXcoKCkpOwoKI1tkZXJpdmUoU2VyaWFsaXplLCBEZXNlcmlhbGl6ZSldCnN0cnVjdCBFbnZlbG9wZSB7CiAgICB2ZXJzaW9uOiB1OCwKICAgIG5vbmNlOiBTdHJpbmcsCiAgICBjaXBoZXJ0ZXh0OiBTdHJpbmcsCn0KCiNbZGVyaXZlKENsb25lKV0KcHViIHN0cnVjdCBDcmVkZW50aWFsU3RvcmUgewogICAgZGlyOiBQYXRoQnVmLAogICAgbmFtZXNwYWNlOiAmJ3N0YXRpYyBzdHIsCn0KCmltcGwgQ3JlZGVudGlhbFN0b3JlIHsKICAgIHB1YiBmbiBuZXcoZGF0YV9kaXI6ICZQYXRoKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsKICAgICAgICAgICAgZGlyOiBkYXRhX2Rpci5qb2luKCJwYW5lbC1zeW5jIiksCiAgICAgICAgICAgIG5hbWVzcGFjZTogInBhbmVsLXN5bmMiLAogICAgICAgIH0KICAgIH0KICAgIHB1YihjcmF0ZSkgZm4gd2l0aF9kaXJlY3RvcnkoZGlyOiBQYXRoQnVmLCBuYW1lc3BhY2U6ICYnc3RhdGljIHN0cikgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7IGRpciwgbmFtZXNwYWNlIH0KICAgIH0KCiAgICBmbiBjcmVkZW50aWFsX3BhdGgoJnNlbGYsIGlkOiAmc3RyKSAtPiBSZXN1bHQ8UGF0aEJ1ZiwgU3RyaW5nPiB7CiAgICAgICAgaWYgaWQuaXNfZW1wdHkoKQogICAgICAgICAgICB8fCBpZC5sZW4oKSA+IDEyOAogICAgICAgICAgICB8fCAhaWQKICAgICAgICAgICAgICAgIC5ieXRlcygpCiAgICAgICAgICAgICAgICAuYWxsKHx2YWx1ZXwgdmFsdWUuaXNfYXNjaWlfYWxwaGFudW1lcmljKCkgfHwgbWF0Y2hlcyEodmFsdWUsIGInLScgfCBiJ18nKSkKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybiBFcnIoIumdouadv+i/nuaOpSBJRCDml6DmlYgiLnRvX3N0cmluZygpKTsKICAgICAgICB9CiAgICAgICAgT2soc2VsZi5kaXIuam9pbigiY3JlZGVudGlhbHMiKS5qb2luKGZvcm1hdCEoIntpZH0uZW5jIikpKQogICAgfQogICAgZm4ga2V5X3BhdGgoJnNlbGYpIC0+IFBhdGhCdWYgewogICAgICAgIHNlbGYuZGlyLmpvaW4oInNlY3JldC5rZXkiKQogICAgfQoKICAgIHB1YiBmbiBjb25maWd1cmVkKCZzZWxmLCBpZDogJnN0cikgLT4gYm9vbCB7CiAgICAgICAgc2VsZi5jcmVkZW50aWFsX3BhdGgoaWQpLmlzX29rX2FuZCh8cGF0aHwgcGF0aC5pc19maWxlKCkpCiAgICB9CiAgICBwdWIgZm4gcmVhZCgmc2VsZiwgaWQ6ICZzdHIpIC0+IFJlc3VsdDxPcHRpb248U3RyaW5nPiwgU3RyaW5nPiB7CiAgICAgICAgaWYgIXNlbGYudmFsaWRhdGVfbGF5b3V0KCk/IHsKICAgICAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgICAgIH0KICAgICAgICBsZXQgY3JlZGVudGlhbF9wYXRoID0gc2VsZi5jcmVkZW50aWFsX3BhdGgoaWQpPzsKICAgICAgICBsZXQgU29tZShieXRlcykgPSByZWFkX3ByaXZhdGVfZmlsZSgmY3JlZGVudGlhbF9wYXRoLCA0ICogMTAyNCAqIDEwMjQpPyBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgICAgIH07CiAgICAgICAgbGV0IGVudmVsb3BlOiBFbnZlbG9wZSA9CiAgICAgICAgICAgIHNlcmRlX2pzb246OmZyb21fc2xpY2UoJmJ5dGVzKS5tYXBfZXJyKHxffCAi5Yqg5a+G5Yet5o2u5qC85byP5peg5pWIIi50b19zdHJpbmcoKSk/OwogICAgICAgIGlmIGVudmVsb3BlLnZlcnNpb24gIT0gVkVSU0lPTiB7CiAgICAgICAgICAgIHJldHVybiBFcnIoIuWKoOWvhuWHreaNrueJiOacrOS4jeWPl+aUr+aMgSIudG9fc3RyaW5nKCkpOwogICAgICAgIH0KICAgICAgICBsZXQgbm9uY2UgPSBTVEFOREFSRAogICAgICAgICAgICAuZGVjb2RlKGVudmVsb3BlLm5vbmNlKQogICAgICAgICAgICAubWFwX2Vycih8X3wgIuWKoOWvhuWHreaNrumaj+acuuaVsOaXoOaViCIudG9fc3RyaW5nKCkpPzsKICAgICAgICBsZXQgY2lwaGVydGV4dCA9IFNUQU5EQVJECiAgICAgICAgICAgIC5kZWNvZGUoZW52ZWxvcGUuY2lwaGVydGV4dCkKICAgICAgICAgICAgLm1hcF9lcnIofF98ICLliqDlr4blh63mja7ovb3ojbfml6DmlYgiLnRvX3N0cmluZygpKT87CiAgICAgICAgaWYgbm9uY2UubGVuKCkgIT0gMTIgewogICAgICAgICAgICByZXR1cm4gRXJyKCLliqDlr4blh63mja7pmo/mnLrmlbDplb/luqbml6DmlYgiLnRvX3N0cmluZygpKTsKICAgICAgICB9CiAgICAgICAgbGV0IGtleSA9IHNlbGYubG9hZF9rZXkoKT87CiAgICAgICAgbGV0IGNpcGhlciA9IEFlczI1NkdjbTo6bmV3X2Zyb21fc2xpY2UoJmtleSkubWFwX2Vycih8X3wgIuWuieijheWvhumSpeaXoOaViCIudG9fc3RyaW5nKCkpPzsKICAgICAgICBsZXQgcGxhaW50ZXh0ID0gY2lwaGVyCiAgICAgICAgICAgIC5kZWNyeXB0KAogICAgICAgICAgICAgICAgTm9uY2U6OmZyb21fc2xpY2UoJm5vbmNlKSwKICAgICAgICAgICAgICAgIFBheWxvYWQgewogICAgICAgICAgICAgICAgICAgIG1zZzogJmNpcGhlcnRleHQsCiAgICAgICAgICAgICAgICAgICAgYWFkOiBmb3JtYXQhKCJmbi1rbm9jazp7fTp7aWR9OnYxIiwgc2VsZi5uYW1lc3BhY2UpLmFzX2J5dGVzKCksCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICApCiAgICAgICAgICAgIC5tYXBfZXJyKHxffCAi5peg5rOV6Kej5a+G6Z2i5p2/5Yet5o2uIi50b19zdHJpbmcoKSk/OwogICAgICAgIFN0cmluZzo6ZnJvbV91dGY4KHBsYWludGV4dCkKICAgICAgICAgICAgLm1hcChTb21lKQogICAgICAgICAgICAubWFwX2Vycih8X3wgIumdouadv+WHreaNrue8lueggeaXoOaViCIudG9fc3RyaW5nKCkpCiAgICB9CiAgICBwdWIgZm4gd3JpdGUoJnNlbGYsIGlkOiAmc3RyLCB2YWx1ZTogJnN0cikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgICAgICBzZWxmLnZhbGlkYXRlX2xheW91dCgpPzsKICAgICAgICBmczo6Y3JlYXRlX2Rpcl9hbGwoc2VsZi5kaXIuam9pbigiY3JlZGVudGlhbHMiKSkubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICAgICAgc2VsZi52YWxpZGF0ZV9sYXlvdXQoKT87CiAgICAgICAgc2VjdXJlX2Rpcigmc2VsZi5kaXIpPzsKICAgICAgICBzZWN1cmVfZGlyKCZzZWxmLmRpci5qb2luKCJjcmVkZW50aWFscyIpKT87CiAgICAgICAgbGV0IGtleSA9IHNlbGYubG9hZF9vcl9jcmVhdGVfa2V5KCk/OwogICAgICAgIGxldCBub25jZSA9IHJhbmRvbV9ieXRlczo6PDEyPigpOwogICAgICAgIGxldCBjaXBoZXIgPSBBZXMyNTZHY206Om5ld19mcm9tX3NsaWNlKCZrZXkpLm1hcF9lcnIofF98ICLlronoo4Xlr4bpkqXml6DmlYgiLnRvX3N0cmluZygpKT87CiAgICAgICAgbGV0IGNpcGhlcnRleHQgPSBjaXBoZXIKICAgICAgICAgICAgLmVuY3J5cHQoCiAgICAgICAgICAgICAgICBOb25jZTo6ZnJvbV9zbGljZSgmbm9uY2UpLAogICAgICAgICAgICAgICAgUGF5bG9hZCB7CiAgICAgICAgICAgICAgICAgICAgbXNnOiB2YWx1ZS5hc19ieXRlcygpLAogICAgICAgICAgICAgICAgICAgIGFhZDogZm9ybWF0ISgiZm4ta25vY2s6e306e2lkfTp2MSIsIHNlbGYubmFtZXNwYWNlKS5hc19ieXRlcygpLAogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgKQogICAgICAgICAgICAubWFwX2Vycih8X3wgIuWKoOWvhumdouadv+WHreaNruWksei0pSIudG9fc3RyaW5nKCkpPzsKICAgICAgICBsZXQgYnl0ZXMgPSBzZXJkZV9qc29uOjp0b192ZWMoJkVudmVsb3BlIHsKICAgICAgICAgICAgdmVyc2lvbjogVkVSU0lPTiwKICAgICAgICAgICAgbm9uY2U6IFNUQU5EQVJELmVuY29kZShub25jZSksCiAgICAgICAgICAgIGNpcGhlcnRleHQ6IFNUQU5EQVJELmVuY29kZShjaXBoZXJ0ZXh0KSwKICAgICAgICB9KQogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgICAgICBhdG9taWNfcHJpdmF0ZV93cml0ZSgmc2VsZi5jcmVkZW50aWFsX3BhdGgoaWQpPywgJmJ5dGVzKQogICAgfQogICAgcHViIGZuIGRlbGV0ZSgmc2VsZiwgaWQ6ICZzdHIpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICAgICAgaWYgIXNlbGYudmFsaWRhdGVfbGF5b3V0KCk/IHsKICAgICAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgICAgICB9CiAgICAgICAgbWF0Y2ggZnM6OnJlbW92ZV9maWxlKHNlbGYuY3JlZGVudGlhbF9wYXRoKGlkKT8pIHsKICAgICAgICAgICAgT2soKCkpID0+IE9rKCgpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSBpZiBlcnJvci5raW5kKCkgPT0gc3RkOjppbzo6RXJyb3JLaW5kOjpOb3RGb3VuZCA9PiBPaygoKSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gRXJyKGVycm9yLnRvX3N0cmluZygpKSwKICAgICAgICB9CiAgICB9CiAgICBwdWIgZm4gY2xlYXJfYWxsKCZzZWxmKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgICAgIG1hdGNoIGZzOjpyZW1vdmVfZGlyX2FsbCgmc2VsZi5kaXIpIHsKICAgICAgICAgICAgT2soKCkpID0+IE9rKCgpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSBpZiBlcnJvci5raW5kKCkgPT0gc3RkOjppbzo6RXJyb3JLaW5kOjpOb3RGb3VuZCA9PiBPaygoKSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gRXJyKGVycm9yLnRvX3N0cmluZygpKSwKICAgICAgICB9CiAgICB9CiAgICBmbiB2YWxpZGF0ZV9sYXlvdXQoJnNlbGYpIC0+IFJlc3VsdDxib29sLCBTdHJpbmc+IHsKICAgICAgICBmb3IgcGF0aCBpbiBbJnNlbGYuZGlyLCAmc2VsZi5kaXIuam9pbigiY3JlZGVudGlhbHMiKV0gewogICAgICAgICAgICBtYXRjaCBmczo6c3ltbGlua19tZXRhZGF0YShwYXRoKSB7CiAgICAgICAgICAgICAgICBPayhtZXRhZGF0YSkgaWYgbWV0YWRhdGEuaXNfZGlyKCkgJiYgIWlzX2xpbmsoJm1ldGFkYXRhKSA9PiB7fQogICAgICAgICAgICAgICAgT2soXykgPT4gcmV0dXJuIEVycigiY3JlZGVudGlhbCBkaXJlY3RvcnkgbXVzdCBiZSBhIHJlZ3VsYXIgZGlyZWN0b3J5Ii5pbnRvKCkpLAogICAgICAgICAgICAgICAgRXJyKGVycm9yKSBpZiBlcnJvci5raW5kKCkgPT0gc3RkOjppbzo6RXJyb3JLaW5kOjpOb3RGb3VuZCA9PiByZXR1cm4gT2soZmFsc2UpLAogICAgICAgICAgICAgICAgRXJyKGVycm9yKSA9PiByZXR1cm4gRXJyKGVycm9yLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBPayh0cnVlKQogICAgfQogICAgZm4gbG9hZF9vcl9jcmVhdGVfa2V5KCZzZWxmKSAtPiBSZXN1bHQ8W3U4OyAzMl0sIFN0cmluZz4gewogICAgICAgIGxldCBfZ3VhcmQgPSBLRVlfTE9DSy5sb2NrKCkudW53cmFwX29yX2Vsc2UofGVycm9yfCBlcnJvci5pbnRvX2lubmVyKCkpOwogICAgICAgIGxldCBwYXRoID0gc2VsZi5rZXlfcGF0aCgpOwogICAgICAgIGlmIGxldCBTb21lKGJ5dGVzKSA9IHJlYWRfcHJpdmF0ZV9maWxlKCZwYXRoLCAzMik/IHsKICAgICAgICAgICAgcmV0dXJuIGJ5dGVzLnRyeV9pbnRvKCkubWFwX2Vycih8X3wgIuWuieijheWvhumSpemVv+W6puaXoOaViCIudG9fc3RyaW5nKCkpOwogICAgICAgIH0KICAgICAgICBmb3IgZW50cnkgaW4KICAgICAgICAgICAgZnM6OnJlYWRfZGlyKHNlbGYuZGlyLmpvaW4oImNyZWRlbnRpYWxzIikpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/CiAgICAgICAgewogICAgICAgICAgICBsZXQgZW50cnkgPSBlbnRyeS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgICAgICAgICAgaWYgZW50cnkKICAgICAgICAgICAgICAgIC5wYXRoKCkKICAgICAgICAgICAgICAgIC5leHRlbnNpb24oKQogICAgICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHxleHRlbnNpb258IGV4dGVuc2lvbiA9PSAiZW5jIikKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgcmV0dXJuIEVycigiY3JlZGVudGlhbCBrZXkgaXMgbWlzc2luZzsgcmVmdXNpbmcgdG8gcmVwbGFjZSBpdCIuaW50bygpKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBsZXQga2V5ID0gcmFuZG9tX2J5dGVzOjo8MzI+KCk7CiAgICAgICAgYXRvbWljX3ByaXZhdGVfd3JpdGUoJnBhdGgsICZrZXkpPzsKICAgICAgICBPayhrZXkpCiAgICB9CiAgICBmbiBsb2FkX2tleSgmc2VsZikgLT4gUmVzdWx0PFt1ODsgMzJdLCBTdHJpbmc+IHsKICAgICAgICBsZXQgX2d1YXJkID0gS0VZX0xPQ0subG9jaygpLnVud3JhcF9vcl9lbHNlKHxlcnJvcnwgZXJyb3IuaW50b19pbm5lcigpKTsKICAgICAgICBsZXQgcGF0aCA9IHNlbGYua2V5X3BhdGgoKTsKICAgICAgICBsZXQgYnl0ZXMgPQogICAgICAgICAgICByZWFkX3ByaXZhdGVfZmlsZSgmcGF0aCwgMzIpPy5va19vcl9lbHNlKHx8ICJjcmVkZW50aWFsIGtleSBpcyBtaXNzaW5nIi50b19zdHJpbmcoKSk/OwogICAgICAgIGJ5dGVzLnRyeV9pbnRvKCkubWFwX2Vycih8X3wgIuWuieijheWvhumSpemVv+W6puaXoOaViCIudG9fc3RyaW5nKCkpCiAgICB9Cn0KCmZuIGF0b21pY19wcml2YXRlX3dyaXRlKHBhdGg6ICZQYXRoLCBieXRlczogJlt1OF0pIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBsZXQgcGFyZW50ID0gcGF0aAogICAgICAgIC5wYXJlbnQoKQogICAgICAgIC5va19vcl9lbHNlKHx8ICLlh63mja7ot6/lvoTml6DniLbnm67lvZUiLnRvX3N0cmluZygpKT87CiAgICBmczo6Y3JlYXRlX2Rpcl9hbGwocGFyZW50KS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIGxldCB0ZW1wb3JhcnkgPSBwYXJlbnQuam9pbihmb3JtYXQhKAogICAgICAgICIuY3JlZGVudGlhbC57fS57fS50bXAiLAogICAgICAgIHN0ZDo6cHJvY2Vzczo6aWQoKSwKICAgICAgICBoZXg6OmVuY29kZShyYW5kb21fYnl0ZXM6Ojw4PigpKQogICAgKSk7CiAgICBsZXQgcmVzdWx0ID0gKHx8IHsKICAgICAgICBsZXQgbXV0IG9wdGlvbnMgPSBPcGVuT3B0aW9uczo6bmV3KCk7CiAgICAgICAgb3B0aW9ucy53cml0ZSh0cnVlKS5jcmVhdGVfbmV3KHRydWUpOwogICAgICAgICNbY2ZnKHVuaXgpXQogICAgICAgIHsKICAgICAgICAgICAgdXNlIHN0ZDo6b3M6OnVuaXg6OmZzOjpPcGVuT3B0aW9uc0V4dDsKICAgICAgICAgICAgb3B0aW9ucy5tb2RlKDBvNjAwKTsKICAgICAgICB9CiAgICAgICAgbGV0IG11dCBmaWxlID0gb3B0aW9ucwogICAgICAgICAgICAub3BlbigmdGVtcG9yYXJ5KQogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICAgICAgZmlsZS53cml0ZV9hbGwoYnl0ZXMpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgICAgIGZpbGUuc3luY19hbGwoKS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgICAgICBkcm9wKGZpbGUpOwogICAgICAgIGNyYXRlOjpmc191dGlsczo6cmVwbGFjZV9maWxlKCZ0ZW1wb3JhcnksIHBhdGgpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgICAgIHNlY3VyZV9maWxlKHBhdGgpPzsKICAgICAgICAjW2NmZyh1bml4KV0KICAgICAgICBmczo6RmlsZTo6b3BlbihwYXJlbnQpCiAgICAgICAgICAgIC5hbmRfdGhlbih8ZGlyZWN0b3J5fCBkaXJlY3Rvcnkuc3luY19hbGwoKSkKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgICAgIE9rKCgpKQogICAgfSkoKTsKICAgIGlmIHJlc3VsdC5pc19lcnIoKSB7CiAgICAgICAgbGV0IF8gPSBmczo6cmVtb3ZlX2ZpbGUodGVtcG9yYXJ5KTsKICAgIH0KICAgIHJlc3VsdAp9CgojW2NmZyh1bml4KV0KZm4gc2VjdXJlX2ZpbGUocGF0aDogJlBhdGgpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICB1c2Ugc3RkOjpvczo6dW5peDo6ZnM6OlBlcm1pc3Npb25zRXh0OwogICAgZnM6OnNldF9wZXJtaXNzaW9ucyhwYXRoLCBmczo6UGVybWlzc2lvbnM6OmZyb21fbW9kZSgwbzYwMCkpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSkKfQojW2NmZyhhbGwobm90KHVuaXgpLCBub3Qod2luZG93cykpKV0KZm4gc2VjdXJlX2ZpbGUoX3BhdGg6ICZQYXRoKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgT2soKCkpCn0KI1tjZmcodW5peCldCmZuIHNlY3VyZV9kaXIocGF0aDogJlBhdGgpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICB1c2Ugc3RkOjpvczo6dW5peDo6ZnM6OlBlcm1pc3Npb25zRXh0OwogICAgZnM6OnNldF9wZXJtaXNzaW9ucyhwYXRoLCBmczo6UGVybWlzc2lvbnM6OmZyb21fbW9kZSgwbzcwMCkpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSkKfQojW2NmZyhhbGwobm90KHVuaXgpLCBub3Qod2luZG93cykpKV0KZm4gc2VjdXJlX2RpcihfcGF0aDogJlBhdGgpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBPaygoKSkKfQoKZm4gcmVhZF9wcml2YXRlX2ZpbGUocGF0aDogJlBhdGgsIGxpbWl0OiB1NjQpIC0+IFJlc3VsdDxPcHRpb248VmVjPHU4Pj4sIFN0cmluZz4gewogICAgbWF0Y2ggZnM6OnN5bWxpbmtfbWV0YWRhdGEocGF0aCkgewogICAgICAgIE9rKG1ldGFkYXRhKSBpZiBtZXRhZGF0YS5pc19maWxlKCkgJiYgIWlzX2xpbmsoJm1ldGFkYXRhKSA9PiB7fQogICAgICAgIE9rKF8pID0+IHJldHVybiBFcnIoImNyZWRlbnRpYWwgbXVzdCBiZSBhIHJlZ3VsYXIgZmlsZSIuaW50bygpKSwKICAgICAgICBFcnIoZXJyb3IpIGlmIGVycm9yLmtpbmQoKSA9PSBzdGQ6OmlvOjpFcnJvcktpbmQ6Ok5vdEZvdW5kID0+IHJldHVybiBPayhOb25lKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHJldHVybiBFcnIoZXJyb3IudG9fc3RyaW5nKCkpLAogICAgfQogICAgbGV0IG11dCBvcHRpb25zID0gT3Blbk9wdGlvbnM6Om5ldygpOwogICAgb3B0aW9ucy5yZWFkKHRydWUpOwogICAgI1tjZmcodW5peCldCiAgICB7CiAgICAgICAgdXNlIHN0ZDo6b3M6OnVuaXg6OmZzOjpPcGVuT3B0aW9uc0V4dDsKICAgICAgICBvcHRpb25zLmN1c3RvbV9mbGFncyhsaWJjOjpPX05PRk9MTE9XIHwgbGliYzo6T19OT05CTE9DSyk7CiAgICB9CiAgICAjW2NmZyh3aW5kb3dzKV0KICAgIHsKICAgICAgICB1c2Ugc3RkOjpvczo6d2luZG93czo6ZnM6Ok9wZW5PcHRpb25zRXh0OwogICAgICAgIG9wdGlvbnMuY3VzdG9tX2ZsYWdzKHdpbmRvd3Nfc3lzOjpXaW4zMjo6U3RvcmFnZTo6RmlsZVN5c3RlbTo6RklMRV9GTEFHX09QRU5fUkVQQVJTRV9QT0lOVCk7CiAgICB9CiAgICBsZXQgZmlsZSA9IG9wdGlvbnMub3BlbihwYXRoKS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIGxldCBtZXRhZGF0YSA9IGZpbGUubWV0YWRhdGEoKS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIGlmICFtZXRhZGF0YS5pc19maWxlKCkgfHwgaXNfbGluaygmbWV0YWRhdGEpIHx8IG1ldGFkYXRhLmxlbigpID4gbGltaXQgewogICAgICAgIHJldHVybiBFcnIoImNyZWRlbnRpYWwgZmlsZSBpcyBpbnZhbGlkIG9yIHRvbyBsYXJnZSIuaW50bygpKTsKICAgIH0KICAgICNbY2ZnKHVuaXgpXQogICAgewogICAgICAgIHVzZSBzdGQ6Om9zOjp1bml4Ojpmczo6UGVybWlzc2lvbnNFeHQ7CiAgICAgICAgZmlsZS5zZXRfcGVybWlzc2lvbnMoZnM6OlBlcm1pc3Npb25zOjpmcm9tX21vZGUoMG82MDApKQogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICB9CiAgICAjW2NmZyh3aW5kb3dzKV0KICAgIHNlY3VyZV9maWxlKHBhdGgpPzsKICAgIGxldCBtdXQgYnl0ZXMgPSBWZWM6Om5ldygpOwogICAgZmlsZS50YWtlKGxpbWl0ICsgMSkKICAgICAgICAucmVhZF90b19lbmQoJm11dCBieXRlcykKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICBpZiBieXRlcy5sZW4oKSBhcyB1NjQgPiBsaW1pdCB7CiAgICAgICAgcmV0dXJuIEVycigiY3JlZGVudGlhbCBmaWxlIGlzIHRvbyBsYXJnZSIuaW50bygpKTsKICAgIH0KICAgIE9rKFNvbWUoYnl0ZXMpKQp9CmZuIGlzX2xpbmsobWV0YWRhdGE6ICZmczo6TWV0YWRhdGEpIC0+IGJvb2wgewogICAgI1tjZmcod2luZG93cyldCiAgICB7CiAgICAgICAgdXNlIHN0ZDo6b3M6OndpbmRvd3M6OmZzOjpNZXRhZGF0YUV4dDsKICAgICAgICByZXR1cm4gbWV0YWRhdGEuZmlsZV9hdHRyaWJ1dGVzKCkKICAgICAgICAgICAgJiB3aW5kb3dzX3N5czo6V2luMzI6OlN0b3JhZ2U6OkZpbGVTeXN0ZW06OkZJTEVfQVRUUklCVVRFX1JFUEFSU0VfUE9JTlQKICAgICAgICAgICAgIT0gMDsKICAgIH0KICAgICNbY2ZnKG5vdCh3aW5kb3dzKSldCiAgICB7CiAgICAgICAgbWV0YWRhdGEuZmlsZV90eXBlKCkuaXNfc3ltbGluaygpCiAgICB9Cn0KCiNbY2ZnKHdpbmRvd3MpXQpmbiBzZWN1cmVfZmlsZShwYXRoOiAmUGF0aCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGNyYXRlOjppbmZyYTo6cHJpdmF0ZV9wZXJtaXNzaW9uczo6c2VjdXJlX3dpbmRvd3NfcGF0aChwYXRoLCBmYWxzZSkKfQojW2NmZyh3aW5kb3dzKV0KZm4gc2VjdXJlX2RpcihwYXRoOiAmUGF0aCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGNyYXRlOjppbmZyYTo6cHJpdmF0ZV9wZXJtaXNzaW9uczo6c2VjdXJlX3dpbmRvd3NfcGF0aChwYXRoLCB0cnVlKQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKCiAgICAjW3Rlc3RdCiAgICBmbiBtaXNzaW5nX2tleV9pc19ub3RfcmVnZW5lcmF0ZWRfb3Zlcl9leGlzdGluZ19jcmVkZW50aWFscygpIHsKICAgICAgICBsZXQgZGlyID0gdGVtcGZpbGU6OnRlbXBkaXIoKS51bndyYXAoKTsKICAgICAgICBsZXQgc3RvcmUgPSBDcmVkZW50aWFsU3RvcmU6OndpdGhfZGlyZWN0b3J5KGRpci5wYXRoKCkuam9pbigiZW1haWwiKSwgImJhY2t1cC1lbWFpbCIpOwogICAgICAgIHN0b3JlLndyaXRlKCJmaXJzdCIsICJzZW5zaXRpdmUiKS51bndyYXAoKTsKICAgICAgICBmczo6cmVtb3ZlX2ZpbGUoc3RvcmUua2V5X3BhdGgoKSkudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0IShzdG9yZS53cml0ZSgic2Vjb25kIiwgIm90aGVyIikuaXNfZXJyKCkpOwogICAgICAgIGFzc2VydCEoIXN0b3JlLmtleV9wYXRoKCkuZXhpc3RzKCkpOwogICAgfQoKICAgICNbY2ZnKHVuaXgpXQogICAgI1t0ZXN0XQogICAgZm4gY3JlZGVudGlhbF9yZWFkc19yZWplY3RfZmlsZV9hbmRfZGlyZWN0b3J5X3N5bWxpbmtzKCkgewogICAgICAgIHVzZSBzdGQ6Om9zOjp1bml4Ojpmczo6c3ltbGluazsKICAgICAgICBsZXQgZGlyID0gdGVtcGZpbGU6OnRlbXBkaXIoKS51bndyYXAoKTsKICAgICAgICBsZXQgc3RvcmUgPSBDcmVkZW50aWFsU3RvcmU6OndpdGhfZGlyZWN0b3J5KGRpci5wYXRoKCkuam9pbigiZW1haWwiKSwgImJhY2t1cC1lbWFpbCIpOwogICAgICAgIHN0b3JlLndyaXRlKCJmaXJzdCIsICJzZW5zaXRpdmUiKS51bndyYXAoKTsKICAgICAgICBsZXQgb3JpZ2luYWwgPSBzdG9yZS5jcmVkZW50aWFsX3BhdGgoImZpcnN0IikudW53cmFwKCk7CiAgICAgICAgbGV0IGRpc3BsYWNlZCA9IGRpci5wYXRoKCkuam9pbigib3V0c2lkZS5lbmMiKTsKICAgICAgICBmczo6cmVuYW1lKCZvcmlnaW5hbCwgJmRpc3BsYWNlZCkudW53cmFwKCk7CiAgICAgICAgc3ltbGluaygmZGlzcGxhY2VkLCAmb3JpZ2luYWwpLnVud3JhcCgpOwogICAgICAgIGFzc2VydCEoc3RvcmUucmVhZCgiZmlyc3QiKS5pc19lcnIoKSk7CiAgICAgICAgZnM6OnJlbW92ZV9maWxlKCZvcmlnaW5hbCkudW53cmFwKCk7CiAgICAgICAgZnM6OnJlbmFtZSgmZGlzcGxhY2VkLCAmb3JpZ2luYWwpLnVud3JhcCgpOwogICAgICAgIGxldCBhY3R1YWwgPSBkaXIucGF0aCgpLmpvaW4oImFjdHVhbCIpOwogICAgICAgIGZzOjpyZW5hbWUoJnN0b3JlLmRpciwgJmFjdHVhbCkudW53cmFwKCk7CiAgICAgICAgc3ltbGluaygmYWN0dWFsLCAmc3RvcmUuZGlyKS51bndyYXAoKTsKICAgICAgICBhc3NlcnQhKHN0b3JlLnJlYWQoImZpcnN0IikuaXNfZXJyKCkpOwogICAgICAgIGFzc2VydCEoc3RvcmUud3JpdGUoInNlY29uZCIsICJvdGhlciIpLmlzX2VycigpKTsKICAgICAgICBhc3NlcnQhKCFhY3R1YWwuam9pbigiY3JlZGVudGlhbHMvc2Vjb25kLmVuYyIpLmV4aXN0cygpKTsKICAgIH0KfQo=
+use std::{
+    fs,
+    fs::OpenOptions,
+    io::{Read, Write},
+    path::{Path, PathBuf},
+    sync::Mutex,
+};
+
+use aes_gcm::{
+    Aes256Gcm, Nonce,
+    aead::{Aead, KeyInit, Payload},
+};
+use base64::{Engine as _, engine::general_purpose::STANDARD};
+use serde::{Deserialize, Serialize};
+
+use crate::crypto_utils::random_bytes;
+
+const VERSION: u8 = 1;
+static KEY_LOCK: Mutex<()> = Mutex::new(());
+
+#[derive(Serialize, Deserialize)]
+struct Envelope {
+    version: u8,
+    nonce: String,
+    ciphertext: String,
+}
+
+#[derive(Clone)]
+pub struct CredentialStore {
+    dir: PathBuf,
+    namespace: &'static str,
+}
+
+impl CredentialStore {
+    pub fn new(data_dir: &Path) -> Self {
+        Self {
+            dir: data_dir.join("panel-sync"),
+            namespace: "panel-sync",
+        }
+    }
+    pub(crate) fn with_directory(dir: PathBuf, namespace: &'static str) -> Self {
+        Self { dir, namespace }
+    }
+
+    fn credential_path(&self, id: &str) -> Result<PathBuf, String> {
+        if id.is_empty()
+            || id.len() > 128
+            || !id
+                .bytes()
+                .all(|value| value.is_ascii_alphanumeric() || matches!(value, b'-' | b'_'))
+        {
+            return Err("面板连接 ID 无效".to_string());
+        }
+        Ok(self.dir.join("credentials").join(format!("{id}.enc")))
+    }
+    fn key_path(&self) -> PathBuf {
+        self.dir.join("secret.key")
+    }
+
+    pub fn configured(&self, id: &str) -> bool {
+        self.credential_path(id).is_ok_and(|path| path.is_file())
+    }
+    pub fn read(&self, id: &str) -> Result<Option<String>, String> {
+        if !self.validate_layout()? {
+            return Ok(None);
+        }
+        let credential_path = self.credential_path(id)?;
+        let Some(bytes) = read_private_file(&credential_path, 4 * 1024 * 1024)? else {
+            return Ok(None);
+        };
+        let envelope: Envelope =
+            serde_json::from_slice(&bytes).map_err(|_| "加密凭据格式无效".to_string())?;
+        if envelope.version != VERSION {
+            return Err("加密凭据版本不受支持".to_string());
+        }
+        let nonce = STANDARD
+            .decode(envelope.nonce)
+            .map_err(|_| "加密凭据随机数无效".to_string())?;
+        let ciphertext = STANDARD
+            .decode(envelope.ciphertext)
+            .map_err(|_| "加密凭据载荷无效".to_string())?;
+        if nonce.len() != 12 {
+            return Err("加密凭据随机数长度无效".to_string());
+        }
+        let key = self.load_key()?;
+        let cipher = Aes256Gcm::new_from_slice(&key).map_err(|_| "安装密钥无效".to_string())?;
+        let plaintext = cipher
+            .decrypt(
+                Nonce::from_slice(&nonce),
+                Payload {
+                    msg: &ciphertext,
+                    aad: format!("fn-knock:{}:{id}:v1", self.namespace).as_bytes(),
+                },
+            )
+            .map_err(|_| "无法解密面板凭据".to_string())?;
+        String::from_utf8(plaintext)
+            .map(Some)
+            .map_err(|_| "面板凭据编码无效".to_string())
+    }
+    pub fn write(&self, id: &str, value: &str) -> Result<(), String> {
+        self.validate_layout()?;
+        fs::create_dir_all(self.dir.join("credentials")).map_err(|error| error.to_string())?;
+        self.validate_layout()?;
+        secure_dir(&self.dir)?;
+        secure_dir(&self.dir.join("credentials"))?;
+        let key = self.load_or_create_key()?;
+        let nonce = random_bytes::<12>();
+        let cipher = Aes256Gcm::new_from_slice(&key).map_err(|_| "安装密钥无效".to_string())?;
+        let ciphertext = cipher
+            .encrypt(
+                Nonce::from_slice(&nonce),
+                Payload {
+                    msg: value.as_bytes(),
+                    aad: format!("fn-knock:{}:{id}:v1", self.namespace).as_bytes(),
+                },
+            )
+            .map_err(|_| "加密面板凭据失败".to_string())?;
+        let bytes = serde_json::to_vec(&Envelope {
+            version: VERSION,
+            nonce: STANDARD.encode(nonce),
+            ciphertext: STANDARD.encode(ciphertext),
+        })
+        .map_err(|error| error.to_string())?;
+        atomic_private_write(&self.credential_path(id)?, &bytes)
+    }
+    pub fn delete(&self, id: &str) -> Result<(), String> {
+        if !self.validate_layout()? {
+            return Ok(());
+        }
+        match fs::remove_file(self.credential_path(id)?) {
+            Ok(()) => Ok(()),
+            Err(error) if error.kind() == std::io::ErrorKind::NotFound => Ok(()),
+            Err(error) => Err(error.to_string()),
+        }
+    }
+    pub fn clear_all(&self) -> Result<(), String> {
+        match fs::remove_dir_all(&self.dir) {
+            Ok(()) => Ok(()),
+            Err(error) if error.kind() == std::io::ErrorKind::NotFound => Ok(()),
+            Err(error) => Err(error.to_string()),
+        }
+    }
+    fn validate_layout(&self) -> Result<bool, String> {
+        for path in [&self.dir, &self.dir.join("credentials")] {
+            match fs::symlink_metadata(path) {
+                Ok(metadata) if metadata.is_dir() && !is_link(&metadata) => {}
+                Ok(_) => return Err("credential directory must be a regular directory".into()),
+                Err(error) if error.kind() == std::io::ErrorKind::NotFound => return Ok(false),
+                Err(error) => return Err(error.to_string()),
+            }
+        }
+        Ok(true)
+    }
+    fn load_or_create_key(&self) -> Result<[u8; 32], String> {
+        let _guard = KEY_LOCK.lock().unwrap_or_else(|error| error.into_inner());
+        let path = self.key_path();
+        if let Some(bytes) = read_private_file(&path, 32)? {
+            return bytes.try_into().map_err(|_| "安装密钥长度无效".to_string());
+        }
+        for entry in
+            fs::read_dir(self.dir.join("credentials")).map_err(|error| error.to_string())?
+        {
+            let entry = entry.map_err(|error| error.to_string())?;
+            if entry
+                .path()
+                .extension()
+                .is_some_and(|extension| extension == "enc")
+            {
+                return Err("credential key is missing; refusing to replace it".into());
+            }
+        }
+        let key = random_bytes::<32>();
+        atomic_private_write(&path, &key)?;
+        Ok(key)
+    }
+    fn load_key(&self) -> Result<[u8; 32], String> {
+        let _guard = KEY_LOCK.lock().unwrap_or_else(|error| error.into_inner());
+        let path = self.key_path();
+        let bytes =
+            read_private_file(&path, 32)?.ok_or_else(|| "credential key is missing".to_string())?;
+        bytes.try_into().map_err(|_| "安装密钥长度无效".to_string())
+    }
+}
+
+fn atomic_private_write(path: &Path, bytes: &[u8]) -> Result<(), String> {
+    let parent = path
+        .parent()
+        .ok_or_else(|| "凭据路径无父目录".to_string())?;
+    fs::create_dir_all(parent).map_err(|error| error.to_string())?;
+    let temporary = parent.join(format!(
+        ".credential.{}.{}.tmp",
+        std::process::id(),
+        hex::encode(random_bytes::<8>())
+    ));
+    let result = (|| {
+        let mut options = OpenOptions::new();
+        options.write(true).create_new(true);
+        #[cfg(unix)]
+        {
+            use std::os::unix::fs::OpenOptionsExt;
+            options.mode(0o600);
+        }
+        let mut file = options
+            .open(&temporary)
+            .map_err(|error| error.to_string())?;
+        file.write_all(bytes).map_err(|error| error.to_string())?;
+        file.sync_all().map_err(|error| error.to_string())?;
+        drop(file);
+        crate::fs_utils::replace_file(&temporary, path).map_err(|error| error.to_string())?;
+        secure_file(path)?;
+        #[cfg(unix)]
+        fs::File::open(parent)
+            .and_then(|directory| directory.sync_all())
+            .map_err(|error| error.to_string())?;
+        Ok(())
+    })();
+    if result.is_err() {
+        let _ = fs::remove_file(temporary);
+    }
+    result
+}
+
+#[cfg(unix)]
+fn secure_file(path: &Path) -> Result<(), String> {
+    use std::os::unix::fs::PermissionsExt;
+    fs::set_permissions(path, fs::Permissions::from_mode(0o600)).map_err(|error| error.to_string())
+}
+#[cfg(all(not(unix), not(windows)))]
+fn secure_file(_path: &Path) -> Result<(), String> {
+    Ok(())
+}
+#[cfg(unix)]
+fn secure_dir(path: &Path) -> Result<(), String> {
+    use std::os::unix::fs::PermissionsExt;
+    fs::set_permissions(path, fs::Permissions::from_mode(0o700)).map_err(|error| error.to_string())
+}
+#[cfg(all(not(unix), not(windows)))]
+fn secure_dir(_path: &Path) -> Result<(), String> {
+    Ok(())
+}
+
+fn read_private_file(path: &Path, limit: u64) -> Result<Option<Vec<u8>>, String> {
+    match fs::symlink_metadata(path) {
+        Ok(metadata) if metadata.is_file() && !is_link(&metadata) => {}
+        Ok(_) => return Err("credential must be a regular file".into()),
+        Err(error) if error.kind() == std::io::ErrorKind::NotFound => return Ok(None),
+        Err(error) => return Err(error.to_string()),
+    }
+    let mut options = OpenOptions::new();
+    options.read(true);
+    #[cfg(unix)]
+    {
+        use std::os::unix::fs::OpenOptionsExt;
+        options.custom_flags(libc::O_NOFOLLOW | libc::O_NONBLOCK);
+    }
+    #[cfg(windows)]
+    {
+        use std::os::windows::fs::OpenOptionsExt;
+        options.custom_flags(windows_sys::Win32::Storage::FileSystem::FILE_FLAG_OPEN_REPARSE_POINT);
+    }
+    let file = options.open(path).map_err(|error| error.to_string())?;
+    let metadata = file.metadata().map_err(|error| error.to_string())?;
+    if !metadata.is_file() || is_link(&metadata) || metadata.len() > limit {
+        return Err("credential file is invalid or too large".into());
+    }
+    #[cfg(unix)]
+    {
+        use std::os::unix::fs::PermissionsExt;
+        file.set_permissions(fs::Permissions::from_mode(0o600))
+            .map_err(|error| error.to_string())?;
+    }
+    #[cfg(windows)]
+    secure_file(path)?;
+    let mut bytes = Vec::new();
+    file.take(limit + 1)
+        .read_to_end(&mut bytes)
+        .map_err(|error| error.to_string())?;
+    if bytes.len() as u64 > limit {
+        return Err("credential file is too large".into());
+    }
+    Ok(Some(bytes))
+}
+fn is_link(metadata: &fs::Metadata) -> bool {
+    #[cfg(windows)]
+    {
+        use std::os::windows::fs::MetadataExt;
+        return metadata.file_attributes()
+            & windows_sys::Win32::Storage::FileSystem::FILE_ATTRIBUTE_REPARSE_POINT
+            != 0;
+    }
+    #[cfg(not(windows))]
+    {
+        metadata.file_type().is_symlink()
+    }
+}
+
+#[cfg(windows)]
+fn secure_file(path: &Path) -> Result<(), String> {
+    crate::infra::private_permissions::secure_windows_path(path, false)
+}
+#[cfg(windows)]
+fn secure_dir(path: &Path) -> Result<(), String> {
+    crate::infra::private_permissions::secure_windows_path(path, true)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn missing_key_is_not_regenerated_over_existing_credentials() {
+        let dir = tempfile::tempdir().unwrap();
+        let store = CredentialStore::with_directory(dir.path().join("email"), "backup-email");
+        store.write("first", "sensitive").unwrap();
+        fs::remove_file(store.key_path()).unwrap();
+        assert!(store.write("second", "other").is_err());
+        assert!(!store.key_path().exists());
+    }
+
+    #[cfg(unix)]
+    #[test]
+    fn credential_reads_reject_file_and_directory_symlinks() {
+        use std::os::unix::fs::symlink;
+        let dir = tempfile::tempdir().unwrap();
+        let store = CredentialStore::with_directory(dir.path().join("email"), "backup-email");
+        store.write("first", "sensitive").unwrap();
+        let original = store.credential_path("first").unwrap();
+        let displaced = dir.path().join("outside.enc");
+        fs::rename(&original, &displaced).unwrap();
+        symlink(&displaced, &original).unwrap();
+        assert!(store.read("first").is_err());
+        fs::remove_file(&original).unwrap();
+        fs::rename(&displaced, &original).unwrap();
+        let actual = dir.path().join("actual");
+        fs::rename(&store.dir, &actual).unwrap();
+        symlink(&actual, &store.dir).unwrap();
+        assert!(store.read("first").is_err());
+        assert!(store.write("second", "other").is_err());
+        assert!(!actual.join("credentials/second.enc").exists());
+    }
+}

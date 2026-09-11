@@ -1,1 +1,15 @@
-ewoJImFkbWluL3NlcnZpY2VzL2ZuLWtub2NrIjogewoJCSJ0aXRsZSI6ICLmlbLpl6ggS25vY2siLAoJCSJvcmRlciI6IDUsCgkJImFjdGlvbiI6IHsKCQkJInR5cGUiOiAidmlldyIsCgkJCSJwYXRoIjogImZuLWtub2NrLW9wZW53cnQiCgkJfSwKCQkiZGVwZW5kcyI6IHsKCQkJImFjbCI6IFsgImx1Y2ktYXBwLWZuLWtub2NrIiBdLAoJCQkidWNpIjogeyAiZm4ta25vY2siOiB0cnVlIH0KCQl9LAoJCSJpY29uIjogImZuLWtub2NrL2ZuLWtub2NrLnBuZyIKCX0KfQo=
+{
+	"admin/services/fn-knock": {
+		"title": "敲门 Knock",
+		"order": 5,
+		"action": {
+			"type": "view",
+			"path": "fn-knock-openwrt"
+		},
+		"depends": {
+			"acl": [ "luci-app-fn-knock" ],
+			"uci": { "fn-knock": true }
+		},
+		"icon": "fn-knock/fn-knock.png"
+	}
+}

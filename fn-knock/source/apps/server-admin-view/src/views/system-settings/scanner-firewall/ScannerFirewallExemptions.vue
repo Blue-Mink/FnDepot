@@ -1,1 +1,92 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCBDaWRyUmVnaW9uU2VsZWN0b3IgZnJvbSAiQC9jb21wb25lbnRzL0NpZHJSZWdpb25TZWxlY3Rvci52dWUiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IFRleHRhcmVhIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RleHRhcmVhIjsKaW1wb3J0IHR5cGUgeyBTY2FubmVyRmlyZXdhbGxTZXR0aW5nc01vZGVsIH0gZnJvbSAiLi91c2VTY2FubmVyRmlyZXdhbGxTZXR0aW5ncyI7CgpkZWZpbmVQcm9wczx7IG1vZGVsOiBTY2FubmVyRmlyZXdhbGxTZXR0aW5nc01vZGVsIH0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC00IHAtNiI+CiAgICA8ZGl2IGNsYXNzPSJ0ZXh0LWJhc2UgZm9udC1tZWRpdW0iPgogICAgICB7eyB0KCJhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy5jaWRyRXhlbXB0aW9uUmVnaW9uc1RpdGxlIikgfX0KICAgIDwvZGl2PgogICAgPENpZHJSZWdpb25TZWxlY3RvcgogICAgICB2LW1vZGVsPSJtb2RlbC5mb3JtLmNpZHJFeGVtcHRpb25SZWdpb25zIgogICAgICA6ZGlzYWJsZWQ9Im1vZGVsLnJlZ2lvbklucHV0c0Rpc2FibGVkIgogICAgICA6ZGVzY3JpcHRpb249IgogICAgICAgIHQoJ2FkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLmNpZHJFeGVtcHRpb25SZWdpb25zRGVzY3JpcHRpb24nKQogICAgICAiCiAgICAgIDp0ZXh0PSJ7CiAgICAgICAgYWRkOiB0KCdhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLnNhdmVTZWxlY3Rpb24nKSwKICAgICAgICBhZGRSZWdpb246IHQoJ2FkbWluLmdhdGV3YXlWaXNpYmlsaXR5U2V0dGluZ3MubWFuYWdlUmVnaW9ucycpLAogICAgICAgIGNhbmNlbDogdCgnY29tbW9uLmNhbmNlbCcpLAogICAgICAgIGRpYWxvZ0Rlc2NyaXB0aW9uOiB0KAogICAgICAgICAgJ2FkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLmFkZFJlZ2lvbkRlc2NyaXB0aW9uJywKICAgICAgICApLAogICAgICAgIGxvYWRGYWlsZWQ6IHQoJ2FkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLnJlZ2lvbnNMb2FkRmFpbGVkJyksCiAgICAgICAgbG9hZEZhaWxlZERlc2NyaXB0aW9uOiB0KAogICAgICAgICAgJ2FkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLnJlZ2lvbnNMb2FkRGVzY3JpcHRpb24nLAogICAgICAgICksCiAgICAgICAgbG9hZGluZzogdCgnYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MubG9hZGluZycpLAogICAgICAgIG5vUmVnaW9uczogdCgnYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3Mubm9SZWdpb25zJyksCiAgICAgICAgcHJvdmluY2U6IHQoJ2FkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLnByb3ZpbmNlJyksCiAgICAgICAgcmV0cnk6IHQoJ2FkbWluLnN1YmRvbWFpblByb3h5LnJldHJ5JyksCiAgICAgICAgc2VsZWN0ZWRDb3VudDogKGNvdW50KSA9PgogICAgICAgICAgdCgnYWRtaW4uZ2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy5zZWxlY3RlZFJlZ2lvbkNvdW50JywgeyBjb3VudCB9KSwKICAgICAgICBzY29wZTogdCgnYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3Muc2NvcGUnKSwKICAgICAgICBzZWxlY3RDaXR5OiB0KCdhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy5zZWxlY3RDaXR5JyksCiAgICAgICAgc2VsZWN0UHJvdmluY2U6IHQoJ2FkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLnNlbGVjdFByb3ZpbmNlJyksCiAgICAgICAgc2VsZWN0UHJvdmluY2VGaXJzdDogdCgKICAgICAgICAgICdhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy5zZWxlY3RQcm92aW5jZUZpcnN0JywKICAgICAgICApLAogICAgICAgIHVuYXZhaWxhYmxlOiB0KCdhZG1pbi5nYXRld2F5VmlzaWJpbGl0eVNldHRpbmdzLnVuYXZhaWxhYmxlU2VsZWN0aW9uJyksCiAgICAgIH0iCiAgICAvPgogIDwvZGl2PgoKICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC00IHAtNiI+CiAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEiPgogICAgICA8TGFiZWwgZm9yPSJzY2FubmVyLWNpZHItZXhlbXB0aW9ucyIgY2xhc3M9InRleHQtYmFzZSI+CiAgICAgICAge3sgdCgiYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MuY2lkckV4ZW1wdGlvbnNUaXRsZSIpIH19CiAgICAgIDwvTGFiZWw+CiAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0KCJhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy5jaWRyRXhlbXB0aW9uc0Rlc2NyaXB0aW9uIikgfX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9InctZnVsbCBzcGFjZS15LTIiPgogICAgICA8VGV4dGFyZWEKICAgICAgICBpZD0ic2Nhbm5lci1jaWRyLWV4ZW1wdGlvbnMiCiAgICAgICAgdi1tb2RlbD0ibW9kZWwuZm9ybS5jaWRyRXhlbXB0aW9uc1RleHQiCiAgICAgICAgY2xhc3M9Im1pbi1oLTMyIGZvbnQtbW9ubyB0ZXh0LXNtIgogICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uc2Nhbm5lckZpcmV3YWxsU2V0dGluZ3MuY2lkckV4ZW1wdGlvbnNQbGFjZWhvbGRlcicpIgogICAgICAgIDpkaXNhYmxlZD0ibW9kZWwuaXNTYXZpbmciCiAgICAgIC8+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGdhcC14LTQgZ2FwLXktMiB0ZXh0LXNtIj4KICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHQoImFkbWluLnNjYW5uZXJGaXJld2FsbFNldHRpbmdzLmNpZHJFeGVtcHRpb25zUmVjb2duaXplZCIsIHsKICAgICAgICAgICAgICBjb3VudDogbW9kZWwuY2lkckV4ZW1wdGlvbnNTdGF0ZS5jaWRycy5sZW5ndGgsCiAgICAgICAgICAgIH0pCiAgICAgICAgICB9fQogICAgICAgIDwvc3Bhbj4KICAgICAgICA8c3BhbgogICAgICAgICAgdi1pZj0ibW9kZWwuaW52YWxpZENpZHJFeGVtcHRpb25zLmxlbmd0aCA+IDAiCiAgICAgICAgICBjbGFzcz0idGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICA+CiAgICAgICAgICB7ewogICAgICAgICAgICB0KCJhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy5jaWRyRXhlbXB0aW9uc0ludmFsaWQiLCB7CiAgICAgICAgICAgICAgaXRlbXM6IG1vZGVsLmludmFsaWRDaWRyRXhlbXB0aW9ucy5qb2luKCLjgIEiKSwKICAgICAgICAgICAgfSkKICAgICAgICAgIH19CiAgICAgICAgPC9zcGFuPgogICAgICAgIDxzcGFuIHYtZWxzZSBjbGFzcz0idGV4dC1lbWVyYWxkLTYwMCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zY2FubmVyRmlyZXdhbGxTZXR0aW5ncy5jaWRyRXhlbXB0aW9uc1ZhbGlkIikgfX0KICAgICAgICA8L3NwYW4+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import CidrRegionSelector from "@/components/CidrRegionSelector.vue";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import type { ScannerFirewallSettingsModel } from "./useScannerFirewallSettings";
+
+defineProps<{ model: ScannerFirewallSettingsModel }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div class="flex flex-col gap-4 p-6">
+    <div class="text-base font-medium">
+      {{ t("admin.scannerFirewallSettings.cidrExemptionRegionsTitle") }}
+    </div>
+    <CidrRegionSelector
+      v-model="model.form.cidrExemptionRegions"
+      :disabled="model.regionInputsDisabled"
+      :description="
+        t('admin.scannerFirewallSettings.cidrExemptionRegionsDescription')
+      "
+      :text="{
+        add: t('admin.gatewayVisibilitySettings.saveSelection'),
+        addRegion: t('admin.gatewayVisibilitySettings.manageRegions'),
+        cancel: t('common.cancel'),
+        dialogDescription: t(
+          'admin.scannerFirewallSettings.addRegionDescription',
+        ),
+        loadFailed: t('admin.scannerFirewallSettings.regionsLoadFailed'),
+        loadFailedDescription: t(
+          'admin.scannerFirewallSettings.regionsLoadDescription',
+        ),
+        loading: t('admin.scannerFirewallSettings.loading'),
+        noRegions: t('admin.scannerFirewallSettings.noRegions'),
+        province: t('admin.scannerFirewallSettings.province'),
+        retry: t('admin.subdomainProxy.retry'),
+        selectedCount: (count) =>
+          t('admin.gatewayVisibilitySettings.selectedRegionCount', { count }),
+        scope: t('admin.scannerFirewallSettings.scope'),
+        selectCity: t('admin.scannerFirewallSettings.selectCity'),
+        selectProvince: t('admin.scannerFirewallSettings.selectProvince'),
+        selectProvinceFirst: t(
+          'admin.scannerFirewallSettings.selectProvinceFirst',
+        ),
+        unavailable: t('admin.gatewayVisibilitySettings.unavailableSelection'),
+      }"
+    />
+  </div>
+
+  <div class="flex flex-col gap-4 p-6">
+    <div class="space-y-1">
+      <Label for="scanner-cidr-exemptions" class="text-base">
+        {{ t("admin.scannerFirewallSettings.cidrExemptionsTitle") }}
+      </Label>
+      <div class="text-sm text-muted-foreground">
+        {{ t("admin.scannerFirewallSettings.cidrExemptionsDescription") }}
+      </div>
+    </div>
+    <div class="w-full space-y-2">
+      <Textarea
+        id="scanner-cidr-exemptions"
+        v-model="model.form.cidrExemptionsText"
+        class="min-h-32 font-mono text-sm"
+        :placeholder="t('admin.scannerFirewallSettings.cidrExemptionsPlaceholder')"
+        :disabled="model.isSaving"
+      />
+      <div class="flex flex-wrap gap-x-4 gap-y-2 text-sm">
+        <span class="text-muted-foreground">
+          {{
+            t("admin.scannerFirewallSettings.cidrExemptionsRecognized", {
+              count: model.cidrExemptionsState.cidrs.length,
+            })
+          }}
+        </span>
+        <span
+          v-if="model.invalidCidrExemptions.length > 0"
+          class="text-destructive"
+        >
+          {{
+            t("admin.scannerFirewallSettings.cidrExemptionsInvalid", {
+              items: model.invalidCidrExemptions.join("、"),
+            })
+          }}
+        </span>
+        <span v-else class="text-emerald-600">
+          {{ t("admin.scannerFirewallSettings.cidrExemptionsValid") }}
+        </span>
+      </div>
+    </div>
+  </div>
+</template>

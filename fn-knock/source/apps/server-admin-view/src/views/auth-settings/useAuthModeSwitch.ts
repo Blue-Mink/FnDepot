@@ -1,1 +1,95 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IENvbmZpZ0FQSSB9IGZyb20gIkAvbGliL2FwaS9jb25maWciOwppbXBvcnQgdHlwZSB7CiAgQXV0aExvZ2luTW9kZSwKICBBdXRoTG9naW5Nb2RlUHJldmlldywKICBBdXRoTG9naW5Nb2RlU3RhdHVzLAp9IGZyb20gIi4uLy4uL3R5cGVzIjsKCmludGVyZmFjZSBVc2VBdXRoTW9kZVN3aXRjaE9wdGlvbnMgewogIGF1dGhMb2dpbk1vZGU6IFJlZjxBdXRoTG9naW5Nb2RlPjsKICBhdXRoTW9kZVN0YXR1czogUmVmPEF1dGhMb2dpbk1vZGVTdGF0dXMgfCBudWxsPjsKICByZWZyZXNoU3RhdHVzOiAoKSA9PiBQcm9taXNlPHVua25vd24+OwogIHRyYW5zbGF0ZTogKGtleTogc3RyaW5nKSA9PiBzdHJpbmc7Cn0KCmV4cG9ydCBmdW5jdGlvbiB1c2VBdXRoTW9kZVN3aXRjaCh7CiAgYXV0aExvZ2luTW9kZSwKICBhdXRoTW9kZVN0YXR1cywKICByZWZyZXNoU3RhdHVzLAogIHRyYW5zbGF0ZSwKfTogVXNlQXV0aE1vZGVTd2l0Y2hPcHRpb25zKSB7CiAgY29uc3QgYXV0aE1vZGVQcmV2aWV3ID0gcmVmPEF1dGhMb2dpbk1vZGVQcmV2aWV3IHwgbnVsbD4obnVsbCk7CiAgY29uc3Qgc2hvd0F1dGhNb2RlU3dpdGNoRGlhbG9nID0gcmVmKGZhbHNlKTsKICBjb25zdCB0YXJnZXRBdXRoTG9naW5Nb2RlID0gY29tcHV0ZWQ8QXV0aExvZ2luTW9kZT4oKCkgPT4KICAgIGF1dGhMb2dpbk1vZGUudmFsdWUgPT09ICJ0b3RwIiA/ICJwYXNzd29yZCIgOiAidG90cCIsCiAgKTsKICBjb25zdCB7IGlzUGVuZGluZzogaXNQcmV2aWV3aW5nQXV0aE1vZGUsIHJ1bjogcnVuUHJldmlld0F1dGhNb2RlIH0gPQogICAgdXNlQXN5bmNBY3Rpb24oewogICAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgICB0b2FzdC5lcnJvcigKICAgICAgICAgIGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICAgIGVycm9yLAogICAgICAgICAgICB0cmFuc2xhdGUoImFkbWluLmF1dGhTZXR0aW5ncy5wcmV2aWV3QXV0aE1vZGVGYWlsZWQiKSwKICAgICAgICAgICksCiAgICAgICAgKTsKICAgICAgfSwKICAgIH0pOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1N3aXRjaGluZ0F1dGhNb2RlLCBydW46IHJ1blN3aXRjaEF1dGhNb2RlIH0gPQogICAgdXNlQXN5bmNBY3Rpb24oewogICAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgICB0b2FzdC5lcnJvcigKICAgICAgICAgIGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICAgIGVycm9yLAogICAgICAgICAgICB0cmFuc2xhdGUoImFkbWluLmF1dGhTZXR0aW5ncy5zd2l0Y2hBdXRoTW9kZUZhaWxlZCIpLAogICAgICAgICAgKSwKICAgICAgICApOwogICAgICB9LAogICAgfSk7CiAgY29uc3QgaXNBdXRoTW9kZUJ1c3kgPSBjb21wdXRlZCgKICAgICgpID0+IGlzUHJldmlld2luZ0F1dGhNb2RlLnZhbHVlIHx8IGlzU3dpdGNoaW5nQXV0aE1vZGUudmFsdWUsCiAgKTsKCiAgY29uc3QgcmVmcmVzaEF1dGhNb2RlUHJldmlldyA9IGFzeW5jICgpID0+IHsKICAgIGF3YWl0IHJ1blByZXZpZXdBdXRoTW9kZShhc3luYyAoKSA9PiB7CiAgICAgIGF1dGhNb2RlUHJldmlldy52YWx1ZSA9IGF3YWl0IENvbmZpZ0FQSS5wcmV2aWV3QXV0aExvZ2luTW9kZSgKICAgICAgICB0YXJnZXRBdXRoTG9naW5Nb2RlLnZhbHVlLAogICAgICApOwogICAgfSk7CiAgfTsKCiAgY29uc3Qgb3BlbkF1dGhNb2RlU3dpdGNoRGlhbG9nID0gYXN5bmMgKCkgPT4gewogICAgaWYgKGlzQXV0aE1vZGVCdXN5LnZhbHVlKSByZXR1cm47CiAgICBhdXRoTW9kZVByZXZpZXcudmFsdWUgPSBudWxsOwogICAgc2hvd0F1dGhNb2RlU3dpdGNoRGlhbG9nLnZhbHVlID0gdHJ1ZTsKICAgIGF3YWl0IHJlZnJlc2hBdXRoTW9kZVByZXZpZXcoKTsKICB9OwoKICBjb25zdCBoYW5kbGVTd2l0Y2hBdXRoTW9kZSA9IGFzeW5jICgpID0+IHsKICAgIGF3YWl0IHJ1blN3aXRjaEF1dGhNb2RlKGFzeW5jICgpID0+IHsKICAgICAgYXV0aE1vZGVTdGF0dXMudmFsdWUgPSBhd2FpdCBDb25maWdBUEkuc3dpdGNoQXV0aExvZ2luTW9kZSgKICAgICAgICB0YXJnZXRBdXRoTG9naW5Nb2RlLnZhbHVlLAogICAgICApOwogICAgICBzaG93QXV0aE1vZGVTd2l0Y2hEaWFsb2cudmFsdWUgPSBmYWxzZTsKICAgICAgYXV0aE1vZGVQcmV2aWV3LnZhbHVlID0gbnVsbDsKICAgICAgYXdhaXQgcmVmcmVzaFN0YXR1cygpOwogICAgICB0b2FzdC5zdWNjZXNzKHRyYW5zbGF0ZSgiYWRtaW4uYXV0aFNldHRpbmdzLnN3aXRjaEF1dGhNb2RlQ29tcGxldGVkIikpOwogICAgfSk7CiAgfTsKCiAgcmV0dXJuIHsKICAgIGF1dGhNb2RlUHJldmlldywKICAgIGhhbmRsZVN3aXRjaEF1dGhNb2RlLAogICAgaXNBdXRoTW9kZUJ1c3ksCiAgICBpc1ByZXZpZXdpbmdBdXRoTW9kZSwKICAgIGlzU3dpdGNoaW5nQXV0aE1vZGUsCiAgICBvcGVuQXV0aE1vZGVTd2l0Y2hEaWFsb2csCiAgICByZWZyZXNoQXV0aE1vZGVQcmV2aWV3LAogICAgc2hvd0F1dGhNb2RlU3dpdGNoRGlhbG9nLAogIH07Cn0K
+import { computed, ref, type Ref } from "vue";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { ConfigAPI } from "@/lib/api/config";
+import type {
+  AuthLoginMode,
+  AuthLoginModePreview,
+  AuthLoginModeStatus,
+} from "../../types";
+
+interface UseAuthModeSwitchOptions {
+  authLoginMode: Ref<AuthLoginMode>;
+  authModeStatus: Ref<AuthLoginModeStatus | null>;
+  refreshStatus: () => Promise<unknown>;
+  translate: (key: string) => string;
+}
+
+export function useAuthModeSwitch({
+  authLoginMode,
+  authModeStatus,
+  refreshStatus,
+  translate,
+}: UseAuthModeSwitchOptions) {
+  const authModePreview = ref<AuthLoginModePreview | null>(null);
+  const showAuthModeSwitchDialog = ref(false);
+  const targetAuthLoginMode = computed<AuthLoginMode>(() =>
+    authLoginMode.value === "totp" ? "password" : "totp",
+  );
+  const { isPending: isPreviewingAuthMode, run: runPreviewAuthMode } =
+    useAsyncAction({
+      onError: (error) => {
+        toast.error(
+          extractErrorMessage(
+            error,
+            translate("admin.authSettings.previewAuthModeFailed"),
+          ),
+        );
+      },
+    });
+  const { isPending: isSwitchingAuthMode, run: runSwitchAuthMode } =
+    useAsyncAction({
+      onError: (error) => {
+        toast.error(
+          extractErrorMessage(
+            error,
+            translate("admin.authSettings.switchAuthModeFailed"),
+          ),
+        );
+      },
+    });
+  const isAuthModeBusy = computed(
+    () => isPreviewingAuthMode.value || isSwitchingAuthMode.value,
+  );
+
+  const refreshAuthModePreview = async () => {
+    await runPreviewAuthMode(async () => {
+      authModePreview.value = await ConfigAPI.previewAuthLoginMode(
+        targetAuthLoginMode.value,
+      );
+    });
+  };
+
+  const openAuthModeSwitchDialog = async () => {
+    if (isAuthModeBusy.value) return;
+    authModePreview.value = null;
+    showAuthModeSwitchDialog.value = true;
+    await refreshAuthModePreview();
+  };
+
+  const handleSwitchAuthMode = async () => {
+    await runSwitchAuthMode(async () => {
+      authModeStatus.value = await ConfigAPI.switchAuthLoginMode(
+        targetAuthLoginMode.value,
+      );
+      showAuthModeSwitchDialog.value = false;
+      authModePreview.value = null;
+      await refreshStatus();
+      toast.success(translate("admin.authSettings.switchAuthModeCompleted"));
+    });
+  };
+
+  return {
+    authModePreview,
+    handleSwitchAuthMode,
+    isAuthModeBusy,
+    isPreviewingAuthMode,
+    isSwitchingAuthMode,
+    openAuthModeSwitchDialog,
+    refreshAuthModePreview,
+    showAuthModeSwitchDialog,
+  };
+}

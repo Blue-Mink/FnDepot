@@ -1,1 +1,165 @@
-aW1wb3J0IHsgc3Bhd25TeW5jIH0gZnJvbSAibm9kZTpjaGlsZF9wcm9jZXNzIjsKaW1wb3J0IHBhdGggZnJvbSAibm9kZTpwYXRoIjsKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCB9IGZyb20gIm5vZGU6dXJsIjsKCmNvbnN0IHJvb3QgPSBwYXRoLnJlc29sdmUocGF0aC5kaXJuYW1lKGZpbGVVUkxUb1BhdGgoaW1wb3J0Lm1ldGEudXJsKSksICIuLiIpOwoKZnVuY3Rpb24gcnVuSnNvbihjb21tYW5kLCBhcmdzKSB7CiAgaWYgKGNvbW1hbmQgPT09ICJucG0iICYmICFwcm9jZXNzLmVudi5ucG1fZXhlY3BhdGgpIHsKICAgIHRocm93IG5ldyBFcnJvcigibnBtX2V4ZWNwYXRoIGlzIHVuYXZhaWxhYmxlOyBydW4gdGhpcyBnYXRlIHZpYSBucG0iKTsKICB9CiAgY29uc3QgZXhlY3V0YWJsZSA9IGNvbW1hbmQgPT09ICJucG0iID8gcHJvY2Vzcy5leGVjUGF0aCA6IGNvbW1hbmQ7CiAgY29uc3QgY29tbWFuZEFyZ3MgPQogICAgY29tbWFuZCA9PT0gIm5wbSIgPyBbcHJvY2Vzcy5lbnYubnBtX2V4ZWNwYXRoLCAuLi5hcmdzXSA6IGFyZ3M7CiAgY29uc3QgcmVzdWx0ID0gc3Bhd25TeW5jKGV4ZWN1dGFibGUsIGNvbW1hbmRBcmdzLCB7CiAgICBjd2Q6IHJvb3QsCiAgICBlbmNvZGluZzogInV0ZjgiLAogICAgbWF4QnVmZmVyOiAxMCAqIDEwMjQgKiAxMDI0LAogIH0pOwoKICBpZiAocmVzdWx0LmVycm9yKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoYGZhaWxlZCB0byBydW4gJHtjb21tYW5kfTogJHtyZXN1bHQuZXJyb3IubWVzc2FnZX1gKTsKICB9CgogIHRyeSB7CiAgICByZXR1cm4gSlNPTi5wYXJzZShyZXN1bHQuc3Rkb3V0KTsKICB9IGNhdGNoIHsKICAgIGNvbnN0IGRldGFpbHMgPSBbcmVzdWx0LnN0ZG91dCwgcmVzdWx0LnN0ZGVycl0uZmlsdGVyKEJvb2xlYW4pLmpvaW4oIlxuIik7CiAgICB0aHJvdyBuZXcgRXJyb3IoYCR7Y29tbWFuZH0gZGlkIG5vdCByZXR1cm4gSlNPTlxuJHtkZXRhaWxzfWApOwogIH0KfQoKZnVuY3Rpb24gYXVkaXROb2RlRGVwZW5kZW5jaWVzKCkgewogIGNvbnN0IHJlcG9ydCA9IHJ1bkpzb24oIm5wbSIsIFsiYXVkaXQiLCAiLS1qc29uIl0pOwogIGNvbnN0IGNvdW50cyA9IHJlcG9ydC5tZXRhZGF0YT8udnVsbmVyYWJpbGl0aWVzOwogIGlmICghY291bnRzIHx8IGNvdW50cy50b3RhbCAhPT0gMCkgewogICAgdGhyb3cgbmV3IEVycm9yKAogICAgICBgbnBtIGF1ZGl0IGZvdW5kICR7Y291bnRzPy50b3RhbCA/PyAidW5rbm93biJ9IHZ1bG5lcmFiaWxpdGllc2AsCiAgICApOwogIH0KICBjb25zb2xlLmxvZygiW3NlY3VyaXR5XSBucG0gZGVwZW5kZW5jeSBhdWRpdCBwYXNzZWQiKTsKfQoKY29uc3QgcnVzdEFsbG93bGlzdCA9IG5ldyBNYXAoWwogIFsKICAgICJhcHBzL3NlcnZlci1hZG1pbi1ycy9DYXJnby5sb2NrIiwKICAgIHsKICAgICAgdnVsbmVyYWJpbGl0aWVzOiBuZXcgU2V0KFsKICAgICAgICAiUlVTVFNFQy0yMDIzLTAwNzE6cnNhOjAuOS4xMCIsCiAgICAgICAgIlJVU1RTRUMtMjAyMy0wMDcxOnJzYTowLjEwLjAtcmMuMTgiLAogICAgICBdKSwKICAgICAgd2FybmluZ3M6IG5ldyBTZXQoWyJ1bm1haW50YWluZWQ6cGFzdGU6MS4wLjE1Il0pLAogICAgICBtYW5pZmVzdDogImFwcHMvc2VydmVyLWFkbWluLXJzL0NhcmdvLnRvbWwiLAogICAgICByZXZpZXdlZFBhY2thZ2VzOiBuZXcgTWFwKFsKICAgICAgICBbImNyeXB0by1nbHVlIiwgIjAuMS4xNSJdLAogICAgICAgIFsicGFzdGUiLCAiMS4wLjE1Il0sCiAgICAgICAgWyJyc2EiLCBbIjAuOS4xMCIsICIwLjEwLjAtcmMuMTgiXV0sCiAgICAgICAgWyJ3ZWJhdXRobi1hdHRlc3RhdGlvbi1jYSIsICIwLjYuMS1kZXYiXSwKICAgICAgICBbIndlYmF1dGhuLXJzIiwgIjAuNi4xLWRldiJdLAogICAgICAgIFsid2ViYXV0aG4tcnMtY29yZSIsICIwLjYuMS1kZXYiXSwKICAgICAgXSksCiAgICAgIHJhdGlvbmFsZToKICAgICAgICAicnNhIDAuOS4xMCBpcyB0cmFuc2l0aXZlIHRocm91Z2ggd2ViYXV0aG4tcnMgYW5kIGlzIHVzZWQgb25seSBmb3IgcHVibGljLWtleSBzaWduYXR1cmUgdmVyaWZpY2F0aW9uLiByc2EgMC4xMC4wLXJjLjE4IGlzIHJlcXVpcmVkIGJ5IHJ1c3NoIGZvciBleHBsaWNpdCB1c2VyLXN1cHBsaWVkIFJTQSBTU0gga2V5czsgaXQgcGVyZm9ybXMgYSBwcml2YXRlLWtleSBzaWduYXR1cmUgb25seSBkdXJpbmcgYSB1c2VyLWluaXRpYXRlZCBTU0ggYXV0aGVudGljYXRpb24gYXR0ZW1wdCwgYW5kIG5vIHBhdGNoZWQgcnVzc2gtY29tcGF0aWJsZSBSU0EgcmVsZWFzZSBleGlzdHMuIFRoZSBTU0ggdGFyZ2V0IGNhbiBvYnNlcnZlIHNpZ25hdHVyZSB0aW1pbmcsIHNvIEVkMjU1MTkgcmVtYWlucyB0aGUgcHJlZmVycmVkIGNyZWRlbnRpYWwuIHBhc3RlIGlzIGEgY29tcGlsZS10aW1lIHRyYW5zaXRpdmUgZGVwZW5kZW5jeSBvZiB1dG9pcGEtYXh1bSBhbmQgaGFzIGFuIHVubWFpbnRhaW5lZCB3YXJuaW5nLCBub3QgYSB2dWxuZXJhYmlsaXR5LiIsCiAgICB9LAogIF0sCl0pOwoKZnVuY3Rpb24gcnVzdEZpbmRpbmdzKHJlcG9ydCkgewogIGNvbnN0IHZ1bG5lcmFiaWxpdGllcyA9IChyZXBvcnQudnVsbmVyYWJpbGl0aWVzPy5saXN0ID8/IFtdKS5tYXAoCiAgICAoeyBhZHZpc29yeSwgcGFja2FnZTogZGVwZW5kZW5jeSB9KSA9PgogICAgICBgJHthZHZpc29yeS5pZH06JHtkZXBlbmRlbmN5Lm5hbWV9OiR7ZGVwZW5kZW5jeS52ZXJzaW9ufWAsCiAgKTsKICBjb25zdCB3YXJuaW5ncyA9IE9iamVjdC52YWx1ZXMocmVwb3J0Lndhcm5pbmdzID8/IHt9KQogICAgLmZsYXQoKQogICAgLm1hcCgKICAgICAgKHsga2luZCwgcGFja2FnZTogZGVwZW5kZW5jeSB9KSA9PgogICAgICAgIGAke2tpbmR9OiR7ZGVwZW5kZW5jeS5uYW1lfToke2RlcGVuZGVuY3kudmVyc2lvbn1gLAogICAgKTsKICByZXR1cm4geyB2dWxuZXJhYmlsaXRpZXMsIHdhcm5pbmdzIH07Cn0KCmZ1bmN0aW9uIGFzc2VydEV4YWN0RmluZGluZ3MoYWN0dWFsLCBhbGxvd2VkLCBsYWJlbCkgewogIGNvbnN0IHVuZXhwZWN0ZWQgPSBhY3R1YWwuZmlsdGVyKChmaW5kaW5nKSA9PiAhYWxsb3dlZC5oYXMoZmluZGluZykpOwogIGNvbnN0IG1pc3NpbmcgPSBbLi4uYWxsb3dlZF0uZmlsdGVyKChmaW5kaW5nKSA9PiAhYWN0dWFsLmluY2x1ZGVzKGZpbmRpbmcpKTsKICBpZiAoYWN0dWFsLmxlbmd0aCAhPT0gYWxsb3dlZC5zaXplIHx8IHVuZXhwZWN0ZWQubGVuZ3RoIHx8IG1pc3NpbmcubGVuZ3RoKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgIGAke2xhYmVsfSBjaGFuZ2VkOyB1bmV4cGVjdGVkPVske3VuZXhwZWN0ZWQuam9pbigiLCAiKX1dLCBtaXNzaW5nPVske21pc3Npbmcuam9pbigiLCAiKX1dYCwKICAgICk7CiAgfQp9CgpmdW5jdGlvbiBhc3NlcnRSZXZpZXdlZFJ1c3RQYWNrYWdlcyhwb2xpY3kpIHsKICBpZiAoIXBvbGljeS5tYW5pZmVzdCB8fCAhcG9saWN5LnJldmlld2VkUGFja2FnZXMpIHJldHVybjsKCiAgY29uc3QgbWV0YWRhdGEgPSBydW5Kc29uKCJjYXJnbyIsIFsKICAgICJtZXRhZGF0YSIsCiAgICAiLS1sb2NrZWQiLAogICAgIi0tZm9ybWF0LXZlcnNpb24iLAogICAgIjEiLAogICAgIi0tbWFuaWZlc3QtcGF0aCIsCiAgICBwb2xpY3kubWFuaWZlc3QsCiAgXSk7CiAgY29uc3QgdmVyc2lvbnNCeU5hbWUgPSBuZXcgTWFwKCk7CiAgZm9yIChjb25zdCBkZXBlbmRlbmN5IG9mIG1ldGFkYXRhLnBhY2thZ2VzKSB7CiAgICBjb25zdCB2ZXJzaW9ucyA9IHZlcnNpb25zQnlOYW1lLmdldChkZXBlbmRlbmN5Lm5hbWUpID8/IG5ldyBTZXQoKTsKICAgIHZlcnNpb25zLmFkZChkZXBlbmRlbmN5LnZlcnNpb24pOwogICAgdmVyc2lvbnNCeU5hbWUuc2V0KGRlcGVuZGVuY3kubmFtZSwgdmVyc2lvbnMpOwogIH0KCiAgZm9yIChjb25zdCBbbmFtZSwgZXhwZWN0ZWRdIG9mIHBvbGljeS5yZXZpZXdlZFBhY2thZ2VzKSB7CiAgICBjb25zdCBleHBlY3RlZFZlcnNpb25zID0gbmV3IFNldCgKICAgICAgQXJyYXkuaXNBcnJheShleHBlY3RlZCkgPyBleHBlY3RlZCA6IFtleHBlY3RlZF0sCiAgICApOwogICAgY29uc3QgYWN0dWFsVmVyc2lvbnMgPSB2ZXJzaW9uc0J5TmFtZS5nZXQobmFtZSkgPz8gbmV3IFNldCgpOwogICAgY29uc3QgdmVyc2lvbnNNYXRjaCA9CiAgICAgIGFjdHVhbFZlcnNpb25zLnNpemUgPT09IGV4cGVjdGVkVmVyc2lvbnMuc2l6ZSAmJgogICAgICBbLi4uZXhwZWN0ZWRWZXJzaW9uc10uZXZlcnkoKHZlcnNpb24pID0+IGFjdHVhbFZlcnNpb25zLmhhcyh2ZXJzaW9uKSk7CiAgICBpZiAoIXZlcnNpb25zTWF0Y2gpIHsKICAgICAgdGhyb3cgbmV3IEVycm9yKAogICAgICAgIGAke25hbWV9IHJlcXVpcmVzIGEgbmV3IGRlcGVuZGVuY3kgYXBwbGljYWJpbGl0eSByZXZpZXc7IGV4cGVjdGVkPSR7Wy4uLmV4cGVjdGVkVmVyc2lvbnNdLmpvaW4oIiwiKX0sIGFjdHVhbD0ke1suLi5hY3R1YWxWZXJzaW9uc10uam9pbigiLCIpIHx8ICJtaXNzaW5nIn1gLAogICAgICApOwogICAgfQogIH0KfQoKZnVuY3Rpb24gYXVkaXRSdXN0TG9ja2ZpbGUobG9ja2ZpbGUpIHsKICBjb25zdCBhcmdzID0gWyJhdWRpdCIsICItLWpzb24iLCAiLS1maWxlIiwgbG9ja2ZpbGVdOwogIGNvbnN0IGFkdmlzb3J5RGIgPSBwcm9jZXNzLmVudi5GTl9LTk9DS19SVVNUU0VDX0FEVklTT1JZX0RCPy50cmltKCk7CiAgaWYgKGFkdmlzb3J5RGIpIHsKICAgIGFyZ3MucHVzaCgiLS1kYiIsIGFkdmlzb3J5RGIsICItLW5vLWZldGNoIik7CiAgfQogIGNvbnN0IHJlcG9ydCA9IHJ1bkpzb24oImNhcmdvIiwgYXJncyk7CiAgY29uc3QgZmluZGluZ3MgPSBydXN0RmluZGluZ3MocmVwb3J0KTsKICBjb25zdCBwb2xpY3kgPSBydXN0QWxsb3dsaXN0LmdldChsb2NrZmlsZSkgPz8gewogICAgdnVsbmVyYWJpbGl0aWVzOiBuZXcgU2V0KCksCiAgICB3YXJuaW5nczogbmV3IFNldCgpLAogIH07CgogIGFzc2VydEV4YWN0RmluZGluZ3MoCiAgICBmaW5kaW5ncy52dWxuZXJhYmlsaXRpZXMsCiAgICBwb2xpY3kudnVsbmVyYWJpbGl0aWVzLAogICAgYCR7bG9ja2ZpbGV9IHZ1bG5lcmFiaWxpdGllc2AsCiAgKTsKICBhc3NlcnRFeGFjdEZpbmRpbmdzKAogICAgZmluZGluZ3Mud2FybmluZ3MsCiAgICBwb2xpY3kud2FybmluZ3MsCiAgICBgJHtsb2NrZmlsZX0gd2FybmluZ3NgLAogICk7CiAgYXNzZXJ0UmV2aWV3ZWRSdXN0UGFja2FnZXMocG9saWN5KTsKCiAgaWYgKHBvbGljeS5yYXRpb25hbGUpIHsKICAgIGNvbnNvbGUubG9nKGBbc2VjdXJpdHldICR7bG9ja2ZpbGV9OiBhY2NlcHRlZCBuYXJyb3cgZXhjZXB0aW9uYCk7CiAgICBjb25zb2xlLmxvZyhgW3NlY3VyaXR5XSByYXRpb25hbGU6ICR7cG9saWN5LnJhdGlvbmFsZX1gKTsKICB9IGVsc2UgewogICAgY29uc29sZS5sb2coYFtzZWN1cml0eV0gJHtsb2NrZmlsZX06IGF1ZGl0IHBhc3NlZGApOwogIH0KfQoKdHJ5IHsKICBhdWRpdE5vZGVEZXBlbmRlbmNpZXMoKTsKICBhdWRpdFJ1c3RMb2NrZmlsZSgiYXBwcy9zZXJ2ZXItYWRtaW4tcnMvQ2FyZ28ubG9jayIpOwogIGF1ZGl0UnVzdExvY2tmaWxlKCJhcHBzL2ZuLWtub2NrLWRlc2t0b3AvbmF0aXZlL0NhcmdvLmxvY2siKTsKfSBjYXRjaCAoZXJyb3IpIHsKICBjb25zb2xlLmVycm9yKGBbc2VjdXJpdHldICR7ZXJyb3IubWVzc2FnZX1gKTsKICBwcm9jZXNzLmV4aXRDb2RlID0gMTsKfQo=
+import { spawnSync } from "node:child_process";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+
+function runJson(command, args) {
+  if (command === "npm" && !process.env.npm_execpath) {
+    throw new Error("npm_execpath is unavailable; run this gate via npm");
+  }
+  const executable = command === "npm" ? process.execPath : command;
+  const commandArgs =
+    command === "npm" ? [process.env.npm_execpath, ...args] : args;
+  const result = spawnSync(executable, commandArgs, {
+    cwd: root,
+    encoding: "utf8",
+    maxBuffer: 10 * 1024 * 1024,
+  });
+
+  if (result.error) {
+    throw new Error(`failed to run ${command}: ${result.error.message}`);
+  }
+
+  try {
+    return JSON.parse(result.stdout);
+  } catch {
+    const details = [result.stdout, result.stderr].filter(Boolean).join("\n");
+    throw new Error(`${command} did not return JSON\n${details}`);
+  }
+}
+
+function auditNodeDependencies() {
+  const report = runJson("npm", ["audit", "--json"]);
+  const counts = report.metadata?.vulnerabilities;
+  if (!counts || counts.total !== 0) {
+    throw new Error(
+      `npm audit found ${counts?.total ?? "unknown"} vulnerabilities`,
+    );
+  }
+  console.log("[security] npm dependency audit passed");
+}
+
+const rustAllowlist = new Map([
+  [
+    "apps/server-admin-rs/Cargo.lock",
+    {
+      vulnerabilities: new Set([
+        "RUSTSEC-2023-0071:rsa:0.9.10",
+        "RUSTSEC-2023-0071:rsa:0.10.0-rc.18",
+      ]),
+      warnings: new Set(["unmaintained:paste:1.0.15"]),
+      manifest: "apps/server-admin-rs/Cargo.toml",
+      reviewedPackages: new Map([
+        ["crypto-glue", "0.1.15"],
+        ["paste", "1.0.15"],
+        ["rsa", ["0.9.10", "0.10.0-rc.18"]],
+        ["webauthn-attestation-ca", "0.6.1-dev"],
+        ["webauthn-rs", "0.6.1-dev"],
+        ["webauthn-rs-core", "0.6.1-dev"],
+      ]),
+      rationale:
+        "rsa 0.9.10 is transitive through webauthn-rs and is used only for public-key signature verification. rsa 0.10.0-rc.18 is required by russh for explicit user-supplied RSA SSH keys; it performs a private-key signature only during a user-initiated SSH authentication attempt, and no patched russh-compatible RSA release exists. The SSH target can observe signature timing, so Ed25519 remains the preferred credential. paste is a compile-time transitive dependency of utoipa-axum and has an unmaintained warning, not a vulnerability.",
+    },
+  ],
+]);
+
+function rustFindings(report) {
+  const vulnerabilities = (report.vulnerabilities?.list ?? []).map(
+    ({ advisory, package: dependency }) =>
+      `${advisory.id}:${dependency.name}:${dependency.version}`,
+  );
+  const warnings = Object.values(report.warnings ?? {})
+    .flat()
+    .map(
+      ({ kind, package: dependency }) =>
+        `${kind}:${dependency.name}:${dependency.version}`,
+    );
+  return { vulnerabilities, warnings };
+}
+
+function assertExactFindings(actual, allowed, label) {
+  const unexpected = actual.filter((finding) => !allowed.has(finding));
+  const missing = [...allowed].filter((finding) => !actual.includes(finding));
+  if (actual.length !== allowed.size || unexpected.length || missing.length) {
+    throw new Error(
+      `${label} changed; unexpected=[${unexpected.join(", ")}], missing=[${missing.join(", ")}]`,
+    );
+  }
+}
+
+function assertReviewedRustPackages(policy) {
+  if (!policy.manifest || !policy.reviewedPackages) return;
+
+  const metadata = runJson("cargo", [
+    "metadata",
+    "--locked",
+    "--format-version",
+    "1",
+    "--manifest-path",
+    policy.manifest,
+  ]);
+  const versionsByName = new Map();
+  for (const dependency of metadata.packages) {
+    const versions = versionsByName.get(dependency.name) ?? new Set();
+    versions.add(dependency.version);
+    versionsByName.set(dependency.name, versions);
+  }
+
+  for (const [name, expected] of policy.reviewedPackages) {
+    const expectedVersions = new Set(
+      Array.isArray(expected) ? expected : [expected],
+    );
+    const actualVersions = versionsByName.get(name) ?? new Set();
+    const versionsMatch =
+      actualVersions.size === expectedVersions.size &&
+      [...expectedVersions].every((version) => actualVersions.has(version));
+    if (!versionsMatch) {
+      throw new Error(
+        `${name} requires a new dependency applicability review; expected=${[...expectedVersions].join(",")}, actual=${[...actualVersions].join(",") || "missing"}`,
+      );
+    }
+  }
+}
+
+function auditRustLockfile(lockfile) {
+  const args = ["audit", "--json", "--file", lockfile];
+  const advisoryDb = process.env.FN_KNOCK_RUSTSEC_ADVISORY_DB?.trim();
+  if (advisoryDb) {
+    args.push("--db", advisoryDb, "--no-fetch");
+  }
+  const report = runJson("cargo", args);
+  const findings = rustFindings(report);
+  const policy = rustAllowlist.get(lockfile) ?? {
+    vulnerabilities: new Set(),
+    warnings: new Set(),
+  };
+
+  assertExactFindings(
+    findings.vulnerabilities,
+    policy.vulnerabilities,
+    `${lockfile} vulnerabilities`,
+  );
+  assertExactFindings(
+    findings.warnings,
+    policy.warnings,
+    `${lockfile} warnings`,
+  );
+  assertReviewedRustPackages(policy);
+
+  if (policy.rationale) {
+    console.log(`[security] ${lockfile}: accepted narrow exception`);
+    console.log(`[security] rationale: ${policy.rationale}`);
+  } else {
+    console.log(`[security] ${lockfile}: audit passed`);
+  }
+}
+
+try {
+  auditNodeDependencies();
+  auditRustLockfile("apps/server-admin-rs/Cargo.lock");
+  auditRustLockfile("apps/fn-knock-desktop/native/Cargo.lock");
+} catch (error) {
+  console.error(`[security] ${error.message}`);
+  process.exitCode = 1;
+}

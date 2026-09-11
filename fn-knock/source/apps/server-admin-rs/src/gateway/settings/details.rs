@@ -1,1 +1,314 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiBidWlsZF9nYXRld2F5X3NldHRpbmdzX3Jlc3BvbnNlKHN0YXRlOiAmQXBwU3RhdGUpIC0+IGFueWhvdzo6UmVzdWx0PFZhbHVlPiB7CiAgICBsZXQgY29uZmlnID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQ/OwogICAgYnVpbGRfZ2F0ZXdheV9zZXR0aW5nc19yZXNwb25zZV9mcm9tX2NvbmZpZyhzdGF0ZSwgY29uZmlnKS5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGJ1aWxkX2dhdGV3YXlfc2V0dGluZ3NfcmVzcG9uc2VfZnJvbV9jb25maWcoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgY29uZmlnOiBWYWx1ZSwKKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgbGV0IHZpc2liaWxpdHlfcnVudGltZSA9IHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZ2V0X2pzb25fdmFsdWUoR0FURVdBWV9WSVNJQklMSVRZX1JVTlRJTUVfS0VZKQogICAgICAgIC5hd2FpdD8KICAgICAgICAudW53cmFwX29yX2Vsc2UoZGVmYXVsdF9nYXRld2F5X3Zpc2liaWxpdHlfcnVudGltZSk7CiAgICBsZXQgcHJveHlfaGVhZGVyc19ydW50aW1lID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfanNvbl92YWx1ZShHQVRFV0FZX1BST1hZX0hFQURFUlNfUlVOVElNRV9LRVkpCiAgICAgICAgLmF3YWl0PwogICAgICAgIC51bndyYXBfb3JfZWxzZShkZWZhdWx0X2dhdGV3YXlfcHJveHlfaGVhZGVyc19ydW50aW1lKTsKICAgIGxldCBob3N0X3Jlc3BvbnNlX3J1bnRpbWUgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmdldF9qc29uX3ZhbHVlKEdBVEVXQVlfSE9TVF9SRVNQT05TRV9SVU5USU1FX0tFWSkKICAgICAgICAuYXdhaXQ/CiAgICAgICAgLnVud3JhcF9vcl9lbHNlKGRlZmF1bHRfZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlX3J1bnRpbWUpOwoKICAgIGxldCBzdWJkb21haW4gPSBjb25maWcKICAgICAgICAuZ2V0KCJzdWJkb21haW5fbW9kZSIpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKGRlZmF1bHRfc3ViZG9tYWluX21vZGUpOwogICAgbGV0IHJldmVyc2VfcHJveHlfdGhyb3R0bGUgPSBub3JtYWxpemVfcmV2ZXJzZV9wcm94eV90aHJvdHRsZSgKICAgICAgICBjb25maWcKICAgICAgICAgICAgLmdldCgicmV2ZXJzZV9wcm94eV90aHJvdHRsZSIpCiAgICAgICAgICAgIC51bndyYXBfb3IoJmRlZmF1bHRfcmV2ZXJzZV9wcm94eV90aHJvdHRsZSgpKSwKICAgICk7CiAgICBsZXQgdmlzaWJpbGl0eV9jb25maWcgPSBub3JtYWxpemVfZ2F0ZXdheV92aXNpYmlsaXR5KAogICAgICAgIGNvbmZpZwogICAgICAgICAgICAuZ2V0KCJnYXRld2F5X3Zpc2liaWxpdHkiKQogICAgICAgICAgICAudW53cmFwX29yKCZkZWZhdWx0X2dhdGV3YXlfdmlzaWJpbGl0eSgpKSwKICAgICk7CiAgICBsZXQgcHJveHlfaGVhZGVyc19jb25maWcgPSBub3JtYWxpemVfZGlzYWJsZWRfaG9zdHNfY29uZmlnKAogICAgICAgIGNvbmZpZwogICAgICAgICAgICAuZ2V0KCJnYXRld2F5X3Byb3h5X2hlYWRlcnMiKQogICAgICAgICAgICAudW53cmFwX29yKCZkZWZhdWx0X2Rpc2FibGVkX2hvc3RzX2NvbmZpZygpKSwKICAgICk7CiAgICBsZXQgaG9zdF9yZXNwb25zZV9jb25maWcgPSBub3JtYWxpemVfZGlzYWJsZWRfaG9zdHNfY29uZmlnKAogICAgICAgIGNvbmZpZwogICAgICAgICAgICAuZ2V0KCJnYXRld2F5X2hvc3RfcmVzcG9uc2UiKQogICAgICAgICAgICAudW53cmFwX29yKCZkZWZhdWx0X2Rpc2FibGVkX2hvc3RzX2NvbmZpZygpKSwKICAgICk7CiAgICBsZXQgcHJveHlfaGVhZGVyc19jb25maWcgPSBzYW5pdGl6ZV9kaXNhYmxlZF9ob3N0c19jb25maWcoJmNvbmZpZywgJnByb3h5X2hlYWRlcnNfY29uZmlnKTsKICAgIGxldCBob3N0X3Jlc3BvbnNlX2NvbmZpZyA9IHNhbml0aXplX2Rpc2FibGVkX2hvc3RzX2NvbmZpZygmY29uZmlnLCAmaG9zdF9yZXNwb25zZV9jb25maWcpOwogICAgbGV0IGNyYXdsZXJfYmxvY2tlciA9IG5vcm1hbGl6ZV9nYXRld2F5X2NyYXdsZXJfYmxvY2tlcigKICAgICAgICBjb25maWcKICAgICAgICAgICAgLmdldCgiZ2F0ZXdheV9jcmF3bGVyX2Jsb2NrZXIiKQogICAgICAgICAgICAudW53cmFwX29yKCZkZWZhdWx0X2dhdGV3YXlfY3Jhd2xlcl9ibG9ja2VyKCkpLAogICAgKTsKICAgIGxldCBwb3J0YWwgPSBub3JtYWxpemVfZ2F0ZXdheV9wb3J0YWwoCiAgICAgICAgY29uZmlnCiAgICAgICAgICAgIC5nZXQoImdhdGV3YXlfcG9ydGFsIikKICAgICAgICAgICAgLnVud3JhcF9vcigmZGVmYXVsdF9nYXRld2F5X3BvcnRhbCgpKSwKICAgICk7CiAgICBsZXQgdW5tYXRjaGVkX3JvdXRlID0gbm9ybWFsaXplX2dhdGV3YXlfdW5tYXRjaGVkX3JvdXRlKAogICAgICAgIGNvbmZpZwogICAgICAgICAgICAuZ2V0KCJnYXRld2F5X3VubWF0Y2hlZF9yb3V0ZSIpCiAgICAgICAgICAgIC51bndyYXBfb3IoJmRlZmF1bHRfZ2F0ZXdheV91bm1hdGNoZWRfcm91dGUoKSksCiAgICApOwogICAgbGV0IGhvc3RfbWFwcGluZ3MgPSBjb25maWcKICAgICAgICAuZ2V0KCJob3N0X21hcHBpbmdzIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5jbG9uZWQoKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgbGV0IHZpc2libGVfaG9zdHMgPSB2aXNpYmxlX2hvc3RfbWFwcGluZ3MoJmhvc3RfbWFwcGluZ3MpOwogICAgbGV0IHByb3h5X2hlYWRlcl9pdGVtcyA9CiAgICAgICAgYnVpbGRfZ2F0ZXdheV9wcm94eV9oZWFkZXJfaXRlbXMoJnZpc2libGVfaG9zdHMsICZwcm94eV9oZWFkZXJzX2NvbmZpZyk7CiAgICBsZXQgaG9zdF9yZXNwb25zZV9pdGVtcyA9CiAgICAgICAgYnVpbGRfZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlX2l0ZW1zKCZ2aXNpYmxlX2hvc3RzLCAmaG9zdF9yZXNwb25zZV9jb25maWcpOwogICAgbGV0IHByb3h5X3Byb3RvY29sID0KICAgICAgICBidWlsZF9nYXRld2F5X3Byb3h5X3Byb3RvY29sX3Jlc3BvbnNlKCZjb25maWcpLm1hcF9lcnIoYW55aG93OjpFcnJvcjo6bXNnKT87CgogICAgT2soanNvbiEoewogICAgICAgICJhdXRoX2NhY2hlX3R0bF9zZWNvbmRzIjogc3ViZG9tYWluCiAgICAgICAgICAgIC5nZXQoImF1dGhfY2FjaGVfdHRsX3NlY29uZHMiKQogICAgICAgICAgICAuYW5kX3RoZW4obnVtYmVyX2Zsb29yKQogICAgICAgICAgICAudW53cmFwX29yKDEpLAogICAgICAgICJhdXRoX2NhY2hlX3VuYXV0aG9yaXplZF90dGxfc2Vjb25kcyI6IHN1YmRvbWFpbgogICAgICAgICAgICAuZ2V0KCJhdXRoX2NhY2hlX3VuYXV0aG9yaXplZF90dGxfc2Vjb25kcyIpCiAgICAgICAgICAgIC5hbmRfdGhlbihudW1iZXJfZmxvb3IpCiAgICAgICAgICAgIC51bndyYXBfb3IoMSksCiAgICAgICAgInJldmVyc2VfcHJveHlfdGhyb3R0bGUiOiByZXZlcnNlX3Byb3h5X3Rocm90dGxlLAogICAgICAgICJ2aXNpYmlsaXR5IjogYnVpbGRfZ2F0ZXdheV92aXNpYmlsaXR5X3N1bW1hcnkoJnZpc2liaWxpdHlfY29uZmlnLCAmdmlzaWJpbGl0eV9ydW50aW1lKSwKICAgICAgICAicHJveHlfaGVhZGVycyI6IGJ1aWxkX2dhdGV3YXlfcHJveHlfaGVhZGVyc19zdW1tYXJ5KCZwcm94eV9oZWFkZXJfaXRlbXMsICZwcm94eV9oZWFkZXJzX3J1bnRpbWUpLAogICAgICAgICJob3N0X3Jlc3BvbnNlIjogYnVpbGRfZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlX3N1bW1hcnkoJmhvc3RfcmVzcG9uc2VfaXRlbXMsICZob3N0X3Jlc3BvbnNlX3J1bnRpbWUpLAogICAgICAgICJwcm94eV9wcm90b2NvbCI6IHByb3h5X3Byb3RvY29sLAogICAgICAgICJjcmF3bGVyX2Jsb2NrZXIiOiBjcmF3bGVyX2Jsb2NrZXIsCiAgICAgICAgInBvcnRhbCI6IHBvcnRhbCwKICAgICAgICAidW5tYXRjaGVkX3JvdXRlIjogdW5tYXRjaGVkX3JvdXRlLAogICAgfSkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gZ2V0X2dhdGV3YXlfcHJveHlfcHJvdG9jb2xfZGV0YWlscyhzdGF0ZTogJkFwcFN0YXRlKSAtPiBSZXN1bHQ8VmFsdWUsIFN0cmluZz4gewogICAgbGV0IGNvbmZpZyA9IHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZ2V0X2NvbmZpZygpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgYnVpbGRfZ2F0ZXdheV9wcm94eV9wcm90b2NvbF9yZXNwb25zZSgmY29uZmlnKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGdldF9nYXRld2F5X3Zpc2liaWxpdHlfZGV0YWlscyhzdGF0ZTogJkFwcFN0YXRlKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgbGV0IGNvbmZpZyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0PzsKICAgIGxldCB2aXNpYmlsaXR5X2NvbmZpZyA9IG5vcm1hbGl6ZV9nYXRld2F5X3Zpc2liaWxpdHkoCiAgICAgICAgY29uZmlnCiAgICAgICAgICAgIC5nZXQoImdhdGV3YXlfdmlzaWJpbGl0eSIpCiAgICAgICAgICAgIC51bndyYXBfb3IoJmRlZmF1bHRfZ2F0ZXdheV92aXNpYmlsaXR5KCkpLAogICAgKTsKICAgIGxldCBydW50aW1lID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfanNvbl92YWx1ZShHQVRFV0FZX1ZJU0lCSUxJVFlfUlVOVElNRV9LRVkpCiAgICAgICAgLmF3YWl0PwogICAgICAgIC51bndyYXBfb3JfZWxzZShkZWZhdWx0X2dhdGV3YXlfdmlzaWJpbGl0eV9ydW50aW1lKTsKICAgIE9rKGpzb24hKHsKICAgICAgICAiY29uZmlnIjogdmlzaWJpbGl0eV9jb25maWcsCiAgICAgICAgInN1bW1hcnkiOiBidWlsZF9nYXRld2F5X3Zpc2liaWxpdHlfc3VtbWFyeSgmdmlzaWJpbGl0eV9jb25maWcsICZydW50aW1lKSwKICAgIH0pKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHVwZGF0ZV9nYXRld2F5X3Zpc2liaWxpdHlfaW5uZXIoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgYm9keTogJlZhbHVlLAopIC0+IFJlc3VsdDxWYWx1ZSwgU3RyaW5nPiB7CiAgICBsZXQgU29tZShvYmplY3QpID0gYm9keS5hc19vYmplY3QoKSBlbHNlIHsKICAgICAgICByZXR1cm4gRXJyKCJHYXRld2F5IHZpc2liaWxpdHkgcGF5bG9hZCBtdXN0IGJlIGFuIG9iamVjdCIudG9fc3RyaW5nKCkpOwogICAgfTsKICAgIGxldCBjb21waWxlZCA9IGNvbXBpbGVfZ2F0ZXdheV92aXNpYmlsaXR5X2NvbmZpZyhzdGF0ZSwgb2JqZWN0KS5hd2FpdD87CiAgICBsZXQgbXV0IG5leHRfY29uZmlnID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfY29uZmlnKCkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICBsZXQgY29uZmlnX29iamVjdCA9IGVuc3VyZV9vYmplY3QoJm11dCBuZXh0X2NvbmZpZyk7CiAgICBjb25maWdfb2JqZWN0Lmluc2VydCgiZ2F0ZXdheV92aXNpYmlsaXR5Ii50b19zdHJpbmcoKSwgY29tcGlsZWQuY29uZmlnLmNsb25lKCkpOwogICAgbGV0IG11dCBwb2xpY2llcyA9IGNvbmZpZ19vYmplY3QKICAgICAgICAuZ2V0KCJ2aXNpYmlsaXR5X3BvbGljaWVzIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX29iamVjdCkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGlmIGxldCBTb21lKHBvbGljeSkgPSAmY29tcGlsZWQucG9saWN5IHsKICAgICAgICBwb2xpY2llcy5pbnNlcnQocG9saWN5LmlkLmNsb25lKCksIHBvbGljeS50b19jb25maWdfdmFsdWUoKSk7CiAgICB9CiAgICBsZXQgbXV0IHJlZmVyZW5jZWQgPSBjb25maWdfb2JqZWN0CiAgICAgICAgLmdldCgiaG9zdF9tYXBwaW5ncyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAuZmxhdHRlbigpCiAgICAgICAgLmZpbHRlcl9tYXAofG1hcHBpbmd8IG1hcHBpbmcucG9pbnRlcigiL3Zpc2liaWxpdHkvcG9saWN5X2lkIikpCiAgICAgICAgLmZpbHRlcl9tYXAoVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKFRvU3RyaW5nOjp0b19zdHJpbmcpCiAgICAgICAgLmNvbGxlY3Q6OjxCVHJlZVNldDxfPj4oKTsKICAgIGlmIGxldCBTb21lKHBvbGljeV9pZCkgPSBjb21waWxlZAogICAgICAgIC5jb25maWcKICAgICAgICAuZ2V0KCJwb2xpY3lfaWQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgIHsKICAgICAgICByZWZlcmVuY2VkLmluc2VydChwb2xpY3lfaWQudG9fc3RyaW5nKCkpOwogICAgfQogICAgcG9saWNpZXMucmV0YWluKHxpZCwgX3wgcmVmZXJlbmNlZC5jb250YWlucyhpZCkpOwogICAgY29uZmlnX29iamVjdC5pbnNlcnQoInZpc2liaWxpdHlfcG9saWNpZXMiLnRvX3N0cmluZygpLCBWYWx1ZTo6T2JqZWN0KHBvbGljaWVzKSk7CgogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5zYXZlX2NvbmZpZygmbmV4dF9jb25maWcpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5zZXRfanNvbl92YWx1ZShHQVRFV0FZX1ZJU0lCSUxJVFlfUlVOVElNRV9LRVksICZjb21waWxlZC5ydW50aW1lKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIHN5bmNfZ2F0ZXdheV92aXNpYmlsaXR5X3J1bnRpbWUoc3RhdGUsICZjb21waWxlZC5ydW50aW1lKS5hd2FpdD87CgogICAgT2soanNvbiEoewogICAgICAgICJjb25maWciOiBjb21waWxlZC5jb25maWcsCiAgICAgICAgInN1bW1hcnkiOiBidWlsZF9nYXRld2F5X3Zpc2liaWxpdHlfc3VtbWFyeSgmY29tcGlsZWQuY29uZmlnLCAmY29tcGlsZWQucnVudGltZSksCiAgICB9KSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfZ2F0ZXdheV9wcm94eV9oZWFkZXJzX2RldGFpbHMoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgIGxldCBjb25maWcgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9jb25maWcoKS5hd2FpdD87CiAgICBsZXQgcHJveHlfY29uZmlnID0gbm9ybWFsaXplX2Rpc2FibGVkX2hvc3RzX2NvbmZpZygKICAgICAgICBjb25maWcKICAgICAgICAgICAgLmdldCgiZ2F0ZXdheV9wcm94eV9oZWFkZXJzIikKICAgICAgICAgICAgLnVud3JhcF9vcigmZGVmYXVsdF9kaXNhYmxlZF9ob3N0c19jb25maWcoKSksCiAgICApOwogICAgbGV0IHNhbml0aXplZF9jb25maWcgPSBzYW5pdGl6ZV9kaXNhYmxlZF9ob3N0c19jb25maWcoJmNvbmZpZywgJnByb3h5X2NvbmZpZyk7CiAgICBsZXQgaG9zdF9tYXBwaW5ncyA9IGNvbmZpZ19ob3N0X21hcHBpbmdzKCZjb25maWcpOwogICAgbGV0IHZpc2libGVfaG9zdHMgPSB2aXNpYmxlX2hvc3RfbWFwcGluZ3MoJmhvc3RfbWFwcGluZ3MpOwogICAgbGV0IGl0ZW1zID0gYnVpbGRfZ2F0ZXdheV9wcm94eV9oZWFkZXJfaXRlbXMoJnZpc2libGVfaG9zdHMsICZzYW5pdGl6ZWRfY29uZmlnKTsKICAgIGxldCBydW50aW1lID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfanNvbl92YWx1ZShHQVRFV0FZX1BST1hZX0hFQURFUlNfUlVOVElNRV9LRVkpCiAgICAgICAgLmF3YWl0PwogICAgICAgIC51bndyYXBfb3JfZWxzZShkZWZhdWx0X2dhdGV3YXlfcHJveHlfaGVhZGVyc19ydW50aW1lKTsKCiAgICBPayhqc29uISh7CiAgICAgICAgImNvbmZpZyI6IHNhbml0aXplZF9jb25maWcsCiAgICAgICAgImF2YWlsYWJpbGl0eSI6IGJ1aWxkX3Byb3h5X2hlYWRlcnNfYXZhaWxhYmlsaXR5KCZjb25maWcsIHRyYW5zbGF0b3IpLAogICAgICAgICJpdGVtcyI6IGl0ZW1zLAogICAgICAgICJzdW1tYXJ5IjogYnVpbGRfZ2F0ZXdheV9wcm94eV9oZWFkZXJzX3N1bW1hcnkoJml0ZW1zLCAmcnVudGltZSksCiAgICB9KSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiB1cGRhdGVfZ2F0ZXdheV9wcm94eV9oZWFkZXJzX2lubmVyKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHByZXZpb3VzX2NvbmZpZzogJlZhbHVlLAogICAgYm9keTogJlZhbHVlLAopIC0+IFJlc3VsdDxWYWx1ZSwgU3RyaW5nPiB7CiAgICBsZXQgcmVxdWVzdGVkID0gZGlzYWJsZWRfaG9zdHNfY29uZmlnX2Zyb21fYm9keShib2R5KT87CiAgICBsZXQgY29tcGlsZWQgPSBjb21waWxlX2dhdGV3YXlfcHJveHlfaGVhZGVyc19zdGF0ZShwcmV2aW91c19jb25maWcsICZyZXF1ZXN0ZWQpOwogICAgbGV0IG11dCBuZXh0X2NvbmZpZyA9IHByZXZpb3VzX2NvbmZpZy5jbG9uZSgpOwogICAgZW5zdXJlX29iamVjdCgmbXV0IG5leHRfY29uZmlnKQogICAgICAgIC5pbnNlcnQoImdhdGV3YXlfcHJveHlfaGVhZGVycyIudG9fc3RyaW5nKCksIGNvbXBpbGVkLmNvbmZpZy5jbG9uZSgpKTsKCiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNhdmVfY29uZmlnKCZuZXh0X2NvbmZpZykKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNldF9qc29uX3ZhbHVlKEdBVEVXQVlfUFJPWFlfSEVBREVSU19SVU5USU1FX0tFWSwgJmNvbXBpbGVkLnJ1bnRpbWUpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgc3luY19nYXRld2F5X3Byb3h5X2hlYWRlcnNfcnVudGltZShzdGF0ZSwgJmNvbXBpbGVkLnJ1bnRpbWUpLmF3YWl0PzsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZShzdGF0ZSkuYXdhaXQ7CiAgICBnZXRfZ2F0ZXdheV9wcm94eV9oZWFkZXJzX2RldGFpbHMoc3RhdGUsICZ0cmFuc2xhdG9yKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gZ2V0X2dhdGV3YXlfaG9zdF9yZXNwb25zZV9kZXRhaWxzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IGFueWhvdzo6UmVzdWx0PFZhbHVlPiB7CiAgICBsZXQgY29uZmlnID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQ/OwogICAgbGV0IGhvc3RfcmVzcG9uc2VfY29uZmlnID0gbm9ybWFsaXplX2Rpc2FibGVkX2hvc3RzX2NvbmZpZygKICAgICAgICBjb25maWcKICAgICAgICAgICAgLmdldCgiZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlIikKICAgICAgICAgICAgLnVud3JhcF9vcigmZGVmYXVsdF9kaXNhYmxlZF9ob3N0c19jb25maWcoKSksCiAgICApOwogICAgbGV0IHNhbml0aXplZF9jb25maWcgPSBzYW5pdGl6ZV9kaXNhYmxlZF9ob3N0c19jb25maWcoJmNvbmZpZywgJmhvc3RfcmVzcG9uc2VfY29uZmlnKTsKICAgIGxldCBob3N0X21hcHBpbmdzID0gY29uZmlnX2hvc3RfbWFwcGluZ3MoJmNvbmZpZyk7CiAgICBsZXQgdmlzaWJsZV9ob3N0cyA9IHZpc2libGVfaG9zdF9tYXBwaW5ncygmaG9zdF9tYXBwaW5ncyk7CiAgICBsZXQgaXRlbXMgPSBidWlsZF9nYXRld2F5X2hvc3RfcmVzcG9uc2VfaXRlbXMoJnZpc2libGVfaG9zdHMsICZzYW5pdGl6ZWRfY29uZmlnKTsKICAgIGxldCBydW50aW1lID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfanNvbl92YWx1ZShHQVRFV0FZX0hPU1RfUkVTUE9OU0VfUlVOVElNRV9LRVkpCiAgICAgICAgLmF3YWl0PwogICAgICAgIC51bndyYXBfb3JfZWxzZShkZWZhdWx0X2dhdGV3YXlfaG9zdF9yZXNwb25zZV9ydW50aW1lKTsKCiAgICBPayhqc29uISh7CiAgICAgICAgImNvbmZpZyI6IHNhbml0aXplZF9jb25maWcsCiAgICAgICAgImF2YWlsYWJpbGl0eSI6IGJ1aWxkX2hvc3RfcmVzcG9uc2VfYXZhaWxhYmlsaXR5KCZjb25maWcsIHRyYW5zbGF0b3IpLAogICAgICAgICJpdGVtcyI6IGl0ZW1zLAogICAgICAgICJzdW1tYXJ5IjogYnVpbGRfZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlX3N1bW1hcnkoJml0ZW1zLCAmcnVudGltZSksCiAgICB9KSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiB1cGRhdGVfZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlX2lubmVyKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHByZXZpb3VzX2NvbmZpZzogJlZhbHVlLAogICAgYm9keTogJlZhbHVlLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gUmVzdWx0PFZhbHVlLCBTdHJpbmc+IHsKICAgIGxldCByZXF1ZXN0ZWQgPSBkaXNhYmxlZF9ob3N0c19jb25maWdfZnJvbV9ib2R5KGJvZHkpPzsKICAgIGxldCBjb21waWxlZCA9IGNvbXBpbGVfZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlX3N0YXRlKHByZXZpb3VzX2NvbmZpZywgJnJlcXVlc3RlZCk7CiAgICBsZXQgbXV0IG5leHRfY29uZmlnID0gcHJldmlvdXNfY29uZmlnLmNsb25lKCk7CiAgICBlbnN1cmVfb2JqZWN0KCZtdXQgbmV4dF9jb25maWcpCiAgICAgICAgLmluc2VydCgiZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlIi50b19zdHJpbmcoKSwgY29tcGlsZWQuY29uZmlnLmNsb25lKCkpOwoKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2F2ZV9jb25maWcoJm5leHRfY29uZmlnKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2V0X2pzb25fdmFsdWUoR0FURVdBWV9IT1NUX1JFU1BPTlNFX1JVTlRJTUVfS0VZLCAmY29tcGlsZWQucnVudGltZSkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICBzeW5jX2dhdGV3YXlfaG9zdF9yZXNwb25zZV9ydW50aW1lKHN0YXRlLCBwcmV2aW91c19jb25maWcsICZjb21waWxlZC5ydW50aW1lKS5hd2FpdD87CiAgICBnZXRfZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlX2RldGFpbHMoc3RhdGUsIHRyYW5zbGF0b3IpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSkKfQo=
+use super::*;
+
+pub(super) async fn build_gateway_settings_response(state: &AppState) -> anyhow::Result<Value> {
+    let config = state.storage.store.get_config().await?;
+    build_gateway_settings_response_from_config(state, config).await
+}
+
+pub(super) async fn build_gateway_settings_response_from_config(
+    state: &AppState,
+    config: Value,
+) -> anyhow::Result<Value> {
+    let visibility_runtime = state
+        .storage
+        .store
+        .get_json_value(GATEWAY_VISIBILITY_RUNTIME_KEY)
+        .await?
+        .unwrap_or_else(default_gateway_visibility_runtime);
+    let proxy_headers_runtime = state
+        .storage
+        .store
+        .get_json_value(GATEWAY_PROXY_HEADERS_RUNTIME_KEY)
+        .await?
+        .unwrap_or_else(default_gateway_proxy_headers_runtime);
+    let host_response_runtime = state
+        .storage
+        .store
+        .get_json_value(GATEWAY_HOST_RESPONSE_RUNTIME_KEY)
+        .await?
+        .unwrap_or_else(default_gateway_host_response_runtime);
+
+    let subdomain = config
+        .get("subdomain_mode")
+        .cloned()
+        .unwrap_or_else(default_subdomain_mode);
+    let reverse_proxy_throttle = normalize_reverse_proxy_throttle(
+        config
+            .get("reverse_proxy_throttle")
+            .unwrap_or(&default_reverse_proxy_throttle()),
+    );
+    let visibility_config = normalize_gateway_visibility(
+        config
+            .get("gateway_visibility")
+            .unwrap_or(&default_gateway_visibility()),
+    );
+    let proxy_headers_config = normalize_disabled_hosts_config(
+        config
+            .get("gateway_proxy_headers")
+            .unwrap_or(&default_disabled_hosts_config()),
+    );
+    let host_response_config = normalize_disabled_hosts_config(
+        config
+            .get("gateway_host_response")
+            .unwrap_or(&default_disabled_hosts_config()),
+    );
+    let proxy_headers_config = sanitize_disabled_hosts_config(&config, &proxy_headers_config);
+    let host_response_config = sanitize_disabled_hosts_config(&config, &host_response_config);
+    let crawler_blocker = normalize_gateway_crawler_blocker(
+        config
+            .get("gateway_crawler_blocker")
+            .unwrap_or(&default_gateway_crawler_blocker()),
+    );
+    let portal = normalize_gateway_portal(
+        config
+            .get("gateway_portal")
+            .unwrap_or(&default_gateway_portal()),
+    );
+    let unmatched_route = normalize_gateway_unmatched_route(
+        config
+            .get("gateway_unmatched_route")
+            .unwrap_or(&default_gateway_unmatched_route()),
+    );
+    let host_mappings = config
+        .get("host_mappings")
+        .and_then(Value::as_array)
+        .cloned()
+        .unwrap_or_default();
+    let visible_hosts = visible_host_mappings(&host_mappings);
+    let proxy_header_items =
+        build_gateway_proxy_header_items(&visible_hosts, &proxy_headers_config);
+    let host_response_items =
+        build_gateway_host_response_items(&visible_hosts, &host_response_config);
+    let proxy_protocol =
+        build_gateway_proxy_protocol_response(&config).map_err(anyhow::Error::msg)?;
+
+    Ok(json!({
+        "auth_cache_ttl_seconds": subdomain
+            .get("auth_cache_ttl_seconds")
+            .and_then(number_floor)
+            .unwrap_or(1),
+        "auth_cache_unauthorized_ttl_seconds": subdomain
+            .get("auth_cache_unauthorized_ttl_seconds")
+            .and_then(number_floor)
+            .unwrap_or(1),
+        "reverse_proxy_throttle": reverse_proxy_throttle,
+        "visibility": build_gateway_visibility_summary(&visibility_config, &visibility_runtime),
+        "proxy_headers": build_gateway_proxy_headers_summary(&proxy_header_items, &proxy_headers_runtime),
+        "host_response": build_gateway_host_response_summary(&host_response_items, &host_response_runtime),
+        "proxy_protocol": proxy_protocol,
+        "crawler_blocker": crawler_blocker,
+        "portal": portal,
+        "unmatched_route": unmatched_route,
+    }))
+}
+
+pub(super) async fn get_gateway_proxy_protocol_details(state: &AppState) -> Result<Value, String> {
+    let config = state
+        .storage
+        .store
+        .get_config()
+        .await
+        .map_err(|error| error.to_string())?;
+    build_gateway_proxy_protocol_response(&config)
+}
+
+pub(super) async fn get_gateway_visibility_details(state: &AppState) -> anyhow::Result<Value> {
+    let config = state.storage.store.get_config().await?;
+    let visibility_config = normalize_gateway_visibility(
+        config
+            .get("gateway_visibility")
+            .unwrap_or(&default_gateway_visibility()),
+    );
+    let runtime = state
+        .storage
+        .store
+        .get_json_value(GATEWAY_VISIBILITY_RUNTIME_KEY)
+        .await?
+        .unwrap_or_else(default_gateway_visibility_runtime);
+    Ok(json!({
+        "config": visibility_config,
+        "summary": build_gateway_visibility_summary(&visibility_config, &runtime),
+    }))
+}
+
+pub(super) async fn update_gateway_visibility_inner(
+    state: &AppState,
+    body: &Value,
+) -> Result<Value, String> {
+    let Some(object) = body.as_object() else {
+        return Err("Gateway visibility payload must be an object".to_string());
+    };
+    let compiled = compile_gateway_visibility_config(state, object).await?;
+    let mut next_config = state
+        .storage
+        .store
+        .get_config()
+        .await
+        .map_err(|error| error.to_string())?;
+    let config_object = ensure_object(&mut next_config);
+    config_object.insert("gateway_visibility".to_string(), compiled.config.clone());
+    let mut policies = config_object
+        .get("visibility_policies")
+        .and_then(Value::as_object)
+        .cloned()
+        .unwrap_or_default();
+    if let Some(policy) = &compiled.policy {
+        policies.insert(policy.id.clone(), policy.to_config_value());
+    }
+    let mut referenced = config_object
+        .get("host_mappings")
+        .and_then(Value::as_array)
+        .into_iter()
+        .flatten()
+        .filter_map(|mapping| mapping.pointer("/visibility/policy_id"))
+        .filter_map(Value::as_str)
+        .map(ToString::to_string)
+        .collect::<BTreeSet<_>>();
+    if let Some(policy_id) = compiled
+        .config
+        .get("policy_id")
+        .and_then(Value::as_str)
+        .filter(|value| !value.is_empty())
+    {
+        referenced.insert(policy_id.to_string());
+    }
+    policies.retain(|id, _| referenced.contains(id));
+    config_object.insert("visibility_policies".to_string(), Value::Object(policies));
+
+    state
+        .storage
+        .store
+        .save_config(&next_config)
+        .await
+        .map_err(|error| error.to_string())?;
+    state
+        .storage
+        .store
+        .set_json_value(GATEWAY_VISIBILITY_RUNTIME_KEY, &compiled.runtime)
+        .await
+        .map_err(|error| error.to_string())?;
+    sync_gateway_visibility_runtime(state, &compiled.runtime).await?;
+
+    Ok(json!({
+        "config": compiled.config,
+        "summary": build_gateway_visibility_summary(&compiled.config, &compiled.runtime),
+    }))
+}
+
+pub(super) async fn get_gateway_proxy_headers_details(
+    state: &AppState,
+    translator: &Translator,
+) -> anyhow::Result<Value> {
+    let config = state.storage.store.get_config().await?;
+    let proxy_config = normalize_disabled_hosts_config(
+        config
+            .get("gateway_proxy_headers")
+            .unwrap_or(&default_disabled_hosts_config()),
+    );
+    let sanitized_config = sanitize_disabled_hosts_config(&config, &proxy_config);
+    let host_mappings = config_host_mappings(&config);
+    let visible_hosts = visible_host_mappings(&host_mappings);
+    let items = build_gateway_proxy_header_items(&visible_hosts, &sanitized_config);
+    let runtime = state
+        .storage
+        .store
+        .get_json_value(GATEWAY_PROXY_HEADERS_RUNTIME_KEY)
+        .await?
+        .unwrap_or_else(default_gateway_proxy_headers_runtime);
+
+    Ok(json!({
+        "config": sanitized_config,
+        "availability": build_proxy_headers_availability(&config, translator),
+        "items": items,
+        "summary": build_gateway_proxy_headers_summary(&items, &runtime),
+    }))
+}
+
+pub(super) async fn update_gateway_proxy_headers_inner(
+    state: &AppState,
+    previous_config: &Value,
+    body: &Value,
+) -> Result<Value, String> {
+    let requested = disabled_hosts_config_from_body(body)?;
+    let compiled = compile_gateway_proxy_headers_state(previous_config, &requested);
+    let mut next_config = previous_config.clone();
+    ensure_object(&mut next_config)
+        .insert("gateway_proxy_headers".to_string(), compiled.config.clone());
+
+    state
+        .storage
+        .store
+        .save_config(&next_config)
+        .await
+        .map_err(|error| error.to_string())?;
+    state
+        .storage
+        .store
+        .set_json_value(GATEWAY_PROXY_HEADERS_RUNTIME_KEY, &compiled.runtime)
+        .await
+        .map_err(|error| error.to_string())?;
+    sync_gateway_proxy_headers_runtime(state, &compiled.runtime).await?;
+    let translator = Translator::from_state(state).await;
+    get_gateway_proxy_headers_details(state, &translator)
+        .await
+        .map_err(|error| error.to_string())
+}
+
+pub(super) async fn get_gateway_host_response_details(
+    state: &AppState,
+    translator: &Translator,
+) -> anyhow::Result<Value> {
+    let config = state.storage.store.get_config().await?;
+    let host_response_config = normalize_disabled_hosts_config(
+        config
+            .get("gateway_host_response")
+            .unwrap_or(&default_disabled_hosts_config()),
+    );
+    let sanitized_config = sanitize_disabled_hosts_config(&config, &host_response_config);
+    let host_mappings = config_host_mappings(&config);
+    let visible_hosts = visible_host_mappings(&host_mappings);
+    let items = build_gateway_host_response_items(&visible_hosts, &sanitized_config);
+    let runtime = state
+        .storage
+        .store
+        .get_json_value(GATEWAY_HOST_RESPONSE_RUNTIME_KEY)
+        .await?
+        .unwrap_or_else(default_gateway_host_response_runtime);
+
+    Ok(json!({
+        "config": sanitized_config,
+        "availability": build_host_response_availability(&config, translator),
+        "items": items,
+        "summary": build_gateway_host_response_summary(&items, &runtime),
+    }))
+}
+
+pub(super) async fn update_gateway_host_response_inner(
+    state: &AppState,
+    previous_config: &Value,
+    body: &Value,
+    translator: &Translator,
+) -> Result<Value, String> {
+    let requested = disabled_hosts_config_from_body(body)?;
+    let compiled = compile_gateway_host_response_state(previous_config, &requested);
+    let mut next_config = previous_config.clone();
+    ensure_object(&mut next_config)
+        .insert("gateway_host_response".to_string(), compiled.config.clone());
+
+    state
+        .storage
+        .store
+        .save_config(&next_config)
+        .await
+        .map_err(|error| error.to_string())?;
+    state
+        .storage
+        .store
+        .set_json_value(GATEWAY_HOST_RESPONSE_RUNTIME_KEY, &compiled.runtime)
+        .await
+        .map_err(|error| error.to_string())?;
+    sync_gateway_host_response_runtime(state, previous_config, &compiled.runtime).await?;
+    get_gateway_host_response_details(state, translator)
+        .await
+        .map_err(|error| error.to_string())
+}

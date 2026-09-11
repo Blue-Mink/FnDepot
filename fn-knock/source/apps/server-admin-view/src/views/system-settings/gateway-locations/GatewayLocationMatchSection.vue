@@ -1,1 +1,77 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7CiAgU2VsZWN0LAogIFNlbGVjdENvbnRlbnQsCiAgU2VsZWN0SXRlbSwKICBTZWxlY3RUcmlnZ2VyLAogIFNlbGVjdFZhbHVlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9zZWxlY3QiOwppbXBvcnQgdHlwZSB7IEdhdGV3YXlMb2NhdGlvbkZvcm0gfSBmcm9tICIuL2dhdGV3YXlMb2NhdGlvbk1vZGVsIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8eyBmb3JtOiBHYXRld2F5TG9jYXRpb25Gb3JtIH0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwoKY29uc3QgaXNFeGFjdE1hdGNoID0gY29tcHV0ZWQoKCkgPT4gcHJvcHMuZm9ybS5tYXRjaCA9PT0gImV4YWN0Iik7CmNvbnN0IHBhdGhMYWJlbCA9IGNvbXB1dGVkKCgpID0+CiAgdCgKICAgIGlzRXhhY3RNYXRjaC52YWx1ZQogICAgICA/ICJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MuZXhhY3RQYXRoIgogICAgICA6ICJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MucGF0aFByZWZpeCIsCiAgKSwKKTsKY29uc3QgcGF0aERlc2NyaXB0aW9uID0gY29tcHV0ZWQoKCkgPT4KICB0KAogICAgaXNFeGFjdE1hdGNoLnZhbHVlCiAgICAgID8gImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5leGFjdFBhdGhEZXNjcmlwdGlvbiIKICAgICAgOiAiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLnBhdGhQcmVmaXhEZXNjcmlwdGlvbiIsCiAgKSwKKTsKY29uc3QgcGF0aFBsYWNlaG9sZGVyID0gY29tcHV0ZWQoKCkgPT4KICBpc0V4YWN0TWF0Y2gudmFsdWUgPyAiL2FwaS9zdGF0dXMiIDogIi9hcGkiLAopOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJweS01Ij4KICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTQgc206Z3JpZC1jb2xzLVsxM3JlbV9taW5tYXgoMCwxZnIpXSI+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgPExhYmVsIGZvcj0ibG9jYXRpb24tbWF0Y2giPgogICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLm1hdGNoTWV0aG9kIikgfX0KICAgICAgICA8L0xhYmVsPgogICAgICAgIDxTZWxlY3Qgdi1tb2RlbD0iZm9ybS5tYXRjaCI+CiAgICAgICAgICA8U2VsZWN0VHJpZ2dlciBpZD0ibG9jYXRpb24tbWF0Y2giIGNsYXNzPSJ3LWZ1bGwiPgogICAgICAgICAgICA8U2VsZWN0VmFsdWUgLz4KICAgICAgICAgIDwvU2VsZWN0VHJpZ2dlcj4KICAgICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0iZXhhY3QiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5leGFjdE1hdGNoIikgfX0KICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0icHJlZml4Ij4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MucHJlZml4TWF0Y2giKSB9fQogICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgICAgPC9TZWxlY3Q+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICA8TGFiZWwgZm9yPSJsb2NhdGlvbi1wYXRoIj57eyBwYXRoTGFiZWwgfX08L0xhYmVsPgogICAgICAgIDxJbnB1dAogICAgICAgICAgaWQ9ImxvY2F0aW9uLXBhdGgiCiAgICAgICAgICB2LW1vZGVsPSJmb3JtLnBhdGgiCiAgICAgICAgICA6cGxhY2Vob2xkZXI9InBhdGhQbGFjZWhvbGRlciIKICAgICAgICAgIGFyaWEtZGVzY3JpYmVkYnk9ImxvY2F0aW9uLXBhdGgtZGVzY3JpcHRpb24iCiAgICAgICAgLz4KICAgICAgICA8cAogICAgICAgICAgaWQ9ImxvY2F0aW9uLXBhdGgtZGVzY3JpcHRpb24iCiAgICAgICAgICBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgID4KICAgICAgICAgIHt7IHBhdGhEZXNjcmlwdGlvbiB9fQogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import type { GatewayLocationForm } from "./gatewayLocationModel";
+
+const props = defineProps<{ form: GatewayLocationForm }>();
+const { t } = useI18n();
+
+const isExactMatch = computed(() => props.form.match === "exact");
+const pathLabel = computed(() =>
+  t(
+    isExactMatch.value
+      ? "admin.gatewayLocationsSettings.exactPath"
+      : "admin.gatewayLocationsSettings.pathPrefix",
+  ),
+);
+const pathDescription = computed(() =>
+  t(
+    isExactMatch.value
+      ? "admin.gatewayLocationsSettings.exactPathDescription"
+      : "admin.gatewayLocationsSettings.pathPrefixDescription",
+  ),
+);
+const pathPlaceholder = computed(() =>
+  isExactMatch.value ? "/api/status" : "/api",
+);
+</script>
+
+<template>
+  <div class="py-5">
+    <div class="grid gap-4 sm:grid-cols-[13rem_minmax(0,1fr)]">
+      <div class="space-y-2">
+        <Label for="location-match">
+          {{ t("admin.gatewayLocationsSettings.matchMethod") }}
+        </Label>
+        <Select v-model="form.match">
+          <SelectTrigger id="location-match" class="w-full">
+            <SelectValue />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="exact">
+              {{ t("admin.gatewayLocationsSettings.exactMatch") }}
+            </SelectItem>
+            <SelectItem value="prefix">
+              {{ t("admin.gatewayLocationsSettings.prefixMatch") }}
+            </SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
+
+      <div class="space-y-2">
+        <Label for="location-path">{{ pathLabel }}</Label>
+        <Input
+          id="location-path"
+          v-model="form.path"
+          :placeholder="pathPlaceholder"
+          aria-describedby="location-path-description"
+        />
+        <p
+          id="location-path-description"
+          class="text-xs leading-5 text-muted-foreground"
+        >
+          {{ pathDescription }}
+        </p>
+      </div>
+    </div>
+  </div>
+</template>

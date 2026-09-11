@@ -1,1 +1,17 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPHAKICAgIGRhdGEtc2xvdD0iY2FyZC1kZXNjcmlwdGlvbiIKICAgIDpjbGFzcz0iY24oJ3RleHQtbXV0ZWQtZm9yZWdyb3VuZCB0ZXh0LXNtJywgcHJvcHMuY2xhc3MpIgogID4KICAgIDxzbG90IC8+CiAgPC9wPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <p
+    data-slot="card-description"
+    :class="cn('text-muted-foreground text-sm', props.class)"
+  >
+    <slot />
+  </p>
+</template>

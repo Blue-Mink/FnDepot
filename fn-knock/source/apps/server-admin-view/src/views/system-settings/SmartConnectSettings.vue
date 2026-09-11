@@ -1,1 +1,283 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlYWN0aXZlLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tICJ2dWUtcm91dGVyIjsKaW1wb3J0IHsKICBCcmVhZGNydW1iLAogIEJyZWFkY3J1bWJJdGVtLAogIEJyZWFkY3J1bWJMaW5rLAogIEJyZWFkY3J1bWJMaXN0LAogIEJyZWFkY3J1bWJQYWdlLAogIEJyZWFkY3J1bWJTZXBhcmF0b3IsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JyZWFkY3J1bWIiOwppbXBvcnQgewogIENhcmQsCiAgQ2FyZENvbnRlbnQsCiAgQ2FyZERlc2NyaXB0aW9uLAogIENhcmRIZWFkZXIsCiAgQ2FyZFRpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgU2tlbGV0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2tlbGV0b24iOwppbXBvcnQgUmVmcmVzaEJ1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvUmVmcmVzaEJ1dHRvbi52dWUiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyBTeXN0ZW1BUEkgfSBmcm9tICJAL2xpYi9hcGkvc3lzdGVtIjsKaW1wb3J0IHR5cGUgeyBTbWFydENvbm5lY3RDb25maWcsIFNtYXJ0Q29ubmVjdERldGFpbHMgfSBmcm9tICIuLi8uLi90eXBlcyI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdXNlUG9sbGluZ1Jlc291cmNlU3RhdHVzIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VQb2xsaW5nUmVzb3VyY2VTdGF0dXMiOwppbXBvcnQgeyB1c2VEZWxheWVkTG9hZGluZyB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlRGVsYXllZExvYWRpbmciOwppbXBvcnQgeyB1c2VDb25maWdTdG9yZSB9IGZyb20gIi4uLy4uL3N0b3JlL2NvbmZpZyI7CmltcG9ydCB7CiAgY2xvbmVTbWFydENvbm5lY3REZXRhaWxzLAogIGhhc1Vuc2F2ZWRTbWFydENvbm5lY3REcmFmdCwKICByZXNvbHZlU2VsZWN0ZWRJcHY0LAp9IGZyb20gIi4vc21hcnQtY29ubmVjdC9zbWFydENvbm5lY3RNb2RlbCI7CmltcG9ydCBTbWFydENvbm5lY3RGb3JtUGFuZWwgZnJvbSAiLi9zbWFydC1jb25uZWN0L1NtYXJ0Q29ubmVjdEZvcm1QYW5lbC52dWUiOwppbXBvcnQgeyB1c2VTbWFydENvbm5lY3RWaWV3TW9kZWwgfSBmcm9tICIuL3NtYXJ0LWNvbm5lY3QvdXNlU21hcnRDb25uZWN0Vmlld01vZGVsIjsKCmNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpOwpjb25zdCBjb25maWdTdG9yZSA9IHVzZUNvbmZpZ1N0b3JlKCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBkZXRhaWxzID0gcmVmPFNtYXJ0Q29ubmVjdERldGFpbHMgfCBudWxsPihudWxsKTsKY29uc3QgbG9hZEVycm9yID0gcmVmKCIiKTsKY29uc3QgZm9ybSA9IHJlYWN0aXZlPFNtYXJ0Q29ubmVjdENvbmZpZz4oewogIGVuYWJsZWQ6IGZhbHNlLAogIHNlbGVjdGVkX2lwdjQ6ICIiLAp9KTsKCmNvbnN0IGFwcGx5RGV0YWlscyA9ICgKICB2YWx1ZTogU21hcnRDb25uZWN0RGV0YWlscywKICBvcHRpb25zOiB7IHByZXNlcnZlRHJhZnQ/OiBib29sZWFuIH0gPSB7fSwKKSA9PiB7CiAgY29uc3QgbmV4dERldGFpbHMgPSBjbG9uZVNtYXJ0Q29ubmVjdERldGFpbHModmFsdWUpOwogIGNvbnN0IHNob3VsZFByZXNlcnZlRHJhZnQgPQogICAgb3B0aW9ucy5wcmVzZXJ2ZURyYWZ0ID09PSB0cnVlICYmCiAgICBoYXNVbnNhdmVkU21hcnRDb25uZWN0RHJhZnQoZGV0YWlscy52YWx1ZSwgZm9ybSk7CiAgY29uc3Qgc2VsZWN0ZWRJcHY0ID0gc2hvdWxkUHJlc2VydmVEcmFmdAogICAgPyBmb3JtLnNlbGVjdGVkX2lwdjQKICAgIDogbmV4dERldGFpbHMuY29uZmlnLnNlbGVjdGVkX2lwdjQ7CgogIGRldGFpbHMudmFsdWUgPSBuZXh0RGV0YWlsczsKICBmb3JtLmVuYWJsZWQgPSBzaG91bGRQcmVzZXJ2ZURyYWZ0CiAgICA/IGZvcm0uZW5hYmxlZAogICAgOiBuZXh0RGV0YWlscy5jb25maWcuZW5hYmxlZDsKICBmb3JtLnNlbGVjdGVkX2lwdjQgPSByZXNvbHZlU2VsZWN0ZWRJcHY0KAogICAgc2VsZWN0ZWRJcHY0LAogICAgbmV4dERldGFpbHMubG9jYWxfaXBfb3B0aW9ucywKICApOwp9OwoKY29uc3QgeyBpc1BlbmRpbmc6IGlzU2F2aW5nLCBydW46IHJ1blNhdmUgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnNtYXJ0Q29ubmVjdFNldHRpbmdzLnNhdmVGYWlsZWQiKSwgewogICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICBlcnJvciwKICAgICAgICB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5zYXZlRmFpbGVkRGVzY3JpcHRpb24iKSwKICAgICAgKSwKICAgIH0pOwogICAgdm9pZCByZWZyZXNoRGV0YWlscygpOwogIH0sCn0pOwoKY29uc3QgeyBpc1BlbmRpbmc6IGlzU3RhcnRpbmdJbnN0YWxsLCBydW46IHJ1blN0YXJ0SW5zdGFsbCB9ID0gdXNlQXN5bmNBY3Rpb24oewogIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgY29uc3QgaW5zdGFsbE1vZGUgPSBkZXRhaWxzLnZhbHVlPy5kbnNtYXNxLmluc3RhbGxlZAogICAgICA/ICJpbml0aWFsaXplIgogICAgICA6ICJpbnN0YWxsIjsKICAgIHRvYXN0LmVycm9yKAogICAgICBpbnN0YWxsTW9kZSA9PT0gImluaXRpYWxpemUiCiAgICAgICAgPyB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5pbml0aWFsaXplRmFpbGVkIikKICAgICAgICA6IHQoImFkbWluLnNtYXJ0Q29ubmVjdFNldHRpbmdzLmluc3RhbGxGYWlsZWQiKSwKICAgICAgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICBpbnN0YWxsTW9kZSA9PT0gImluaXRpYWxpemUiCiAgICAgICAgICAgID8gdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3Muc3RhcnRJbml0aWFsaXplRmFpbGVkIikKICAgICAgICAgICAgOiB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5zdGFydEluc3RhbGxGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9LAogICAgKTsKICAgIHZvaWQgcmVmcmVzaERldGFpbHMoKTsKICB9LAp9KTsKCmNvbnN0IHsgaXNJbml0aWFsaXppbmcsIHJlZnJlc2g6IHJlZnJlc2hEZXRhaWxzIH0gPQogIHVzZVBvbGxpbmdSZXNvdXJjZVN0YXR1czxTbWFydENvbm5lY3REZXRhaWxzPih7CiAgICBmZXRjaGVyOiBhc3luYyAoc2lnbmFsKSA9PiBTeXN0ZW1BUEkuZ2V0U21hcnRDb25uZWN0RGV0YWlscyhzaWduYWwpLAogICAgb25EYXRhOiAodmFsdWUpID0+IHsKICAgICAgbG9hZEVycm9yLnZhbHVlID0gIiI7CiAgICAgIGFwcGx5RGV0YWlscyh2YWx1ZSwgeyBwcmVzZXJ2ZURyYWZ0OiB0cnVlIH0pOwogICAgfSwKICAgIGlzRG93bmxvYWRpbmc6ICh2YWx1ZSkgPT4KICAgICAgdmFsdWUuZG5zbWFzcS5pbnN0YWxsX3N0YXRlLnN0YXR1cyA9PT0gImluc3RhbGxpbmciLAogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIGxvYWRFcnJvci52YWx1ZSA9IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgZXJyb3IsCiAgICAgICAgdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3MubG9hZEZhaWxlZERlc2NyaXB0aW9uIiksCiAgICAgICk7CiAgICB9LAogIH0pOwoKY29uc3Qgc2hvd0xvYWRpbmdTa2VsZXRvbiA9IHVzZURlbGF5ZWRMb2FkaW5nKGlzSW5pdGlhbGl6aW5nKTsKY29uc3QgewogIGNhcGFiaWxpdHlCbG9ja2VkUmVhc29uLAogIGRuc21hc3FBY3Rpb25MYWJlbCwKICBkbnNtYXNxUHJvZ3Jlc3MsCiAgZG5zbWFzcVN0YXR1c0xhYmVsLAogIGRuc21hc3FTdGF0dXNWYXJpYW50LAogIGRuc21hc3FTdW1tYXJ5VGV4dCwKICBpc0RpcnR5LAogIGlzU21hcnRDb25uZWN0QXZhaWxhYmxlLAogIHJlc29sdmVkSXBPcHRpb25zLAogIHNhdmVCbG9ja2VkUmVhc29uLAogIHNob3dBZHZhbmNlZENhcmRzLAogIHNob3dEbnNtYXNxQWN0aW9uLAogIHNob3dEbnNtYXNxQ2FyZCwKICBzaG93RG5zbWFzcVNldHVwQ2FyZCwKfSA9IHVzZVNtYXJ0Q29ubmVjdFZpZXdNb2RlbCh7IGRldGFpbHMsIGZvcm0gfSk7Cgpjb25zdCByZWZyZXNoQWxsID0gYXN5bmMgKCkgPT4gewogIGF3YWl0IFByb21pc2UuYWxsKFtyZWZyZXNoRGV0YWlscygpLCBjb25maWdTdG9yZS5sb2FkQ29uZmlnKCldKTsKfTsKCmNvbnN0IHN0YXJ0RG5zbWFzcUluc3RhbGwgPSBhc3luYyAoKSA9PiB7CiAgaWYgKGlzU3RhcnRpbmdJbnN0YWxsLnZhbHVlKSByZXR1cm47CiAgY29uc3QgaW5zdGFsbE1vZGUgPSBkZXRhaWxzLnZhbHVlPy5kbnNtYXNxLmluc3RhbGxlZAogICAgPyAiaW5pdGlhbGl6ZSIKICAgIDogImluc3RhbGwiOwogIGF3YWl0IHJ1blN0YXJ0SW5zdGFsbCgoKSA9PiBTeXN0ZW1BUEkuaW5zdGFsbERuc21hc3EoKSwgewogICAgb25TdWNjZXNzOiBhc3luYyAoc3RhdGUpID0+IHsKICAgICAgdG9hc3Quc3VjY2VzcygKICAgICAgICBzdGF0ZS5zdGF0dXMgPT09ICJpbnN0YWxsZWQiCiAgICAgICAgICA/IGluc3RhbGxNb2RlID09PSAiaW5pdGlhbGl6ZSIKICAgICAgICAgICAgPyB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5kbnNtYXNxSW5pdGlhbGl6ZWQiKQogICAgICAgICAgICA6IHQoImFkbWluLnNtYXJ0Q29ubmVjdFNldHRpbmdzLmRuc21hc3FSZWFkeSIpCiAgICAgICAgICA6IGluc3RhbGxNb2RlID09PSAiaW5pdGlhbGl6ZSIKICAgICAgICAgICAgPyB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5kbnNtYXNxSW5pdGlhbGl6ZVN0YXJ0ZWQiKQogICAgICAgICAgICA6IHQoImFkbWluLnNtYXJ0Q29ubmVjdFNldHRpbmdzLmRuc21hc3FJbnN0YWxsU3RhcnRlZCIpLAogICAgICApOwogICAgICBhd2FpdCByZWZyZXNoRGV0YWlscygpOwogICAgfSwKICB9KTsKfTsKCmNvbnN0IGNhbmNlbEFuZEJhY2sgPSAoKSA9PiB7CiAgdm9pZCByb3V0ZXIucHVzaCh7IHBhdGg6ICIvc3lzdGVtIiwgcXVlcnk6IHsgdGFiOiAiZmVhdHVyZXMiIH0gfSk7Cn07Cgpjb25zdCBzYXZlU2V0dGluZ3MgPSBhc3luYyAoKSA9PiB7CiAgaWYgKHNhdmVCbG9ja2VkUmVhc29uLnZhbHVlKSB7CiAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5jYW5ub3RTYXZlTm93IiksIHsKICAgICAgZGVzY3JpcHRpb246IHNhdmVCbG9ja2VkUmVhc29uLnZhbHVlLAogICAgfSk7CiAgICByZXR1cm47CiAgfQoKICBhd2FpdCBydW5TYXZlKAogICAgKCkgPT4KICAgICAgU3lzdGVtQVBJLnVwZGF0ZVNtYXJ0Q29ubmVjdCh7CiAgICAgICAgZW5hYmxlZDogZm9ybS5lbmFibGVkLAogICAgICAgIHNlbGVjdGVkX2lwdjQ6IGZvcm0uZW5hYmxlZCA/IGZvcm0uc2VsZWN0ZWRfaXB2NCA6IHVuZGVmaW5lZCwKICAgICAgfSksCiAgICB7CiAgICAgIG9uU3VjY2VzczogYXN5bmMgKHZhbHVlKSA9PiB7CiAgICAgICAgYXBwbHlEZXRhaWxzKHZhbHVlKTsKICAgICAgICBhd2FpdCBjb25maWdTdG9yZS5sb2FkQ29uZmlnKCk7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy51cGRhdGVkQW5kU3luY2VkIikpOwogICAgICB9LAogICAgfSwKICApOwp9Owo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJzcGFjZS15LTUiPgogICAgPEJyZWFkY3J1bWI+CiAgICAgIDxCcmVhZGNydW1iTGlzdD4KICAgICAgICA8QnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgICA8QnJlYWRjcnVtYkxpbmsgaHJlZj0iIy9zeXN0ZW0iPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5zeXN0ZW1TZXR0aW5ncyIpIH19CiAgICAgICAgICA8L0JyZWFkY3J1bWJMaW5rPgogICAgICAgIDwvQnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgPEJyZWFkY3J1bWJTZXBhcmF0b3IgLz4KICAgICAgICA8QnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgICA8QnJlYWRjcnVtYkxpbmsgaHJlZj0iIy9zeXN0ZW0/dGFiPWZlYXR1cmVzIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc21hcnRDb25uZWN0U2V0dGluZ3MuZmVhdHVyZXMiKSB9fQogICAgICAgICAgPC9CcmVhZGNydW1iTGluaz4KICAgICAgICA8L0JyZWFkY3J1bWJJdGVtPgogICAgICAgIDxCcmVhZGNydW1iU2VwYXJhdG9yIC8+CiAgICAgICAgPEJyZWFkY3J1bWJJdGVtPgogICAgICAgICAgPEJyZWFkY3J1bWJQYWdlPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy50aXRsZSIpIH19CiAgICAgICAgICA8L0JyZWFkY3J1bWJQYWdlPgogICAgICAgIDwvQnJlYWRjcnVtYkl0ZW0+CiAgICAgIDwvQnJlYWRjcnVtYkxpc3Q+CiAgICA8L0JyZWFkY3J1bWI+CgogICAgPENhcmQgY2xhc3M9ImJvcmRlci1ib3JkZXIvNTAgc2hhZG93LW5vbmUiPgogICAgICA8Q2FyZEhlYWRlciBjbGFzcz0ic3BhY2UteS00Ij4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtNCBzbTpmbGV4LXJvdyBzbTppdGVtcy1zdGFydCBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgICAgPgogICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xLjUiPgogICAgICAgICAgICA8Q2FyZFRpdGxlIGNsYXNzPSJ0ZXh0LXhsIHRyYWNraW5nLXRpZ2h0Ij4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy50aXRsZSIpIH19CiAgICAgICAgICAgIDwvQ2FyZFRpdGxlPgogICAgICAgICAgICA8Q2FyZERlc2NyaXB0aW9uIGNsYXNzPSJtYXgtdy0yeGwgbGVhZGluZy02Ij4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zbWFydENvbm5lY3RTZXR0aW5ncy5kZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICAgIDwvQ2FyZERlc2NyaXB0aW9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8UmVmcmVzaEJ1dHRvbgogICAgICAgICAgICA6bG9hZGluZz0iaXNJbml0aWFsaXppbmciCiAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmcgfHwgaXNTdGFydGluZ0luc3RhbGwiCiAgICAgICAgICAgIEBjbGljaz0icmVmcmVzaEFsbCIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvQ2FyZEhlYWRlcj4KCiAgICAgIDxDYXJkQ29udGVudCBjbGFzcz0ic3BhY2UteS01Ij4KICAgICAgICA8ZGl2CiAgICAgICAgICB2LWlmPSIhZGV0YWlscyAmJiBpc0luaXRpYWxpemluZyAmJiBzaG93TG9hZGluZ1NrZWxldG9uIgogICAgICAgICAgY2xhc3M9InNwYWNlLXktNCIKICAgICAgICA+CiAgICAgICAgICA8U2tlbGV0b24gY2xhc3M9ImgtMjggdy1mdWxsIHJvdW5kZWQtMnhsIiAvPgogICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTU2IHctZnVsbCByb3VuZGVkLTJ4bCIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2CiAgICAgICAgICB2LWVsc2UtaWY9ImxvYWRFcnJvciAmJiAhZGV0YWlscyIKICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLXhsIGJvcmRlciBib3JkZXItZGVzdHJ1Y3RpdmUvMjUgYmctZGVzdHJ1Y3RpdmUvNSBweC01IHB5LTQgdGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgcm9sZT0iYWxlcnQiCiAgICAgICAgPgogICAgICAgICAge3sgbG9hZEVycm9yIH19CiAgICAgICAgPC9kaXY+CiAgICAgICAgPFNtYXJ0Q29ubmVjdEZvcm1QYW5lbAogICAgICAgICAgdi1lbHNlLWlmPSJkZXRhaWxzIgogICAgICAgICAgdi1tb2RlbD0iZm9ybSIKICAgICAgICAgIDpjYW4tdXNlLXNtYXJ0LWNvbm5lY3Q9ImNvbmZpZ1N0b3JlLmNhblVzZVNtYXJ0Q29ubmVjdCIKICAgICAgICAgIDpjYXBhYmlsaXR5LWJsb2NrZWQtcmVhc29uPSJjYXBhYmlsaXR5QmxvY2tlZFJlYXNvbiIKICAgICAgICAgIDpkZXRhaWxzPSJkZXRhaWxzIgogICAgICAgICAgOmRuc21hc3EtYWN0aW9uLWxhYmVsPSJkbnNtYXNxQWN0aW9uTGFiZWwiCiAgICAgICAgICA6ZG5zbWFzcS1wcm9ncmVzcz0iZG5zbWFzcVByb2dyZXNzIgogICAgICAgICAgOmRuc21hc3Etc3RhdHVzLWxhYmVsPSJkbnNtYXNxU3RhdHVzTGFiZWwiCiAgICAgICAgICA6ZG5zbWFzcS1zdGF0dXMtdmFyaWFudD0iZG5zbWFzcVN0YXR1c1ZhcmlhbnQiCiAgICAgICAgICA6ZG5zbWFzcS1zdW1tYXJ5LXRleHQ9ImRuc21hc3FTdW1tYXJ5VGV4dCIKICAgICAgICAgIDppcy1kaXJ0eT0iaXNEaXJ0eSIKICAgICAgICAgIDppcy1zYXZpbmc9ImlzU2F2aW5nIgogICAgICAgICAgOmlzLXNtYXJ0LWNvbm5lY3QtYXZhaWxhYmxlPSJpc1NtYXJ0Q29ubmVjdEF2YWlsYWJsZSIKICAgICAgICAgIDppcy1zdGFydGluZy1pbnN0YWxsPSJpc1N0YXJ0aW5nSW5zdGFsbCIKICAgICAgICAgIDpyZXNvbHZlZC1pcC1vcHRpb25zPSJyZXNvbHZlZElwT3B0aW9ucyIKICAgICAgICAgIDpzYXZlLWJsb2NrZWQtcmVhc29uPSJzYXZlQmxvY2tlZFJlYXNvbiIKICAgICAgICAgIDpzaG93LWFkdmFuY2VkLWNhcmRzPSJzaG93QWR2YW5jZWRDYXJkcyIKICAgICAgICAgIDpzaG93LWRuc21hc3EtYWN0aW9uPSJzaG93RG5zbWFzcUFjdGlvbiIKICAgICAgICAgIDpzaG93LWRuc21hc3EtY2FyZD0ic2hvd0Ruc21hc3FDYXJkIgogICAgICAgICAgOnNob3ctZG5zbWFzcS1zZXR1cC1jYXJkPSJzaG93RG5zbWFzcVNldHVwQ2FyZCIKICAgICAgICAgIEBjYW5jZWw9ImNhbmNlbEFuZEJhY2siCiAgICAgICAgICBAc2F2ZT0ic2F2ZVNldHRpbmdzIgogICAgICAgICAgQHN0YXJ0LWluc3RhbGw9InN0YXJ0RG5zbWFzcUluc3RhbGwiCiAgICAgICAgLz4KICAgICAgPC9DYXJkQ29udGVudD4KICAgIDwvQ2FyZD4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { reactive, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRouter } from "vue-router";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
+import RefreshButton from "@/components/RefreshButton.vue";
+import { toast } from "@admin-shared/utils/toast";
+import { SystemAPI } from "@/lib/api/system";
+import type { SmartConnectConfig, SmartConnectDetails } from "../../types";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { usePollingResourceStatus } from "@admin-shared/composables/usePollingResourceStatus";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import { useConfigStore } from "../../store/config";
+import {
+  cloneSmartConnectDetails,
+  hasUnsavedSmartConnectDraft,
+  resolveSelectedIpv4,
+} from "./smart-connect/smartConnectModel";
+import SmartConnectFormPanel from "./smart-connect/SmartConnectFormPanel.vue";
+import { useSmartConnectViewModel } from "./smart-connect/useSmartConnectViewModel";
+
+const router = useRouter();
+const configStore = useConfigStore();
+const { t } = useI18n();
+const details = ref<SmartConnectDetails | null>(null);
+const loadError = ref("");
+const form = reactive<SmartConnectConfig>({
+  enabled: false,
+  selected_ipv4: "",
+});
+
+const applyDetails = (
+  value: SmartConnectDetails,
+  options: { preserveDraft?: boolean } = {},
+) => {
+  const nextDetails = cloneSmartConnectDetails(value);
+  const shouldPreserveDraft =
+    options.preserveDraft === true &&
+    hasUnsavedSmartConnectDraft(details.value, form);
+  const selectedIpv4 = shouldPreserveDraft
+    ? form.selected_ipv4
+    : nextDetails.config.selected_ipv4;
+
+  details.value = nextDetails;
+  form.enabled = shouldPreserveDraft
+    ? form.enabled
+    : nextDetails.config.enabled;
+  form.selected_ipv4 = resolveSelectedIpv4(
+    selectedIpv4,
+    nextDetails.local_ip_options,
+  );
+};
+
+const { isPending: isSaving, run: runSave } = useAsyncAction({
+  onError: (error) => {
+    toast.error(t("admin.smartConnectSettings.saveFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.smartConnectSettings.saveFailedDescription"),
+      ),
+    });
+    void refreshDetails();
+  },
+});
+
+const { isPending: isStartingInstall, run: runStartInstall } = useAsyncAction({
+  onError: (error) => {
+    const installMode = details.value?.dnsmasq.installed
+      ? "initialize"
+      : "install";
+    toast.error(
+      installMode === "initialize"
+        ? t("admin.smartConnectSettings.initializeFailed")
+        : t("admin.smartConnectSettings.installFailed"),
+      {
+        description: extractErrorMessage(
+          error,
+          installMode === "initialize"
+            ? t("admin.smartConnectSettings.startInitializeFailed")
+            : t("admin.smartConnectSettings.startInstallFailed"),
+        ),
+      },
+    );
+    void refreshDetails();
+  },
+});
+
+const { isInitializing, refresh: refreshDetails } =
+  usePollingResourceStatus<SmartConnectDetails>({
+    fetcher: async (signal) => SystemAPI.getSmartConnectDetails(signal),
+    onData: (value) => {
+      loadError.value = "";
+      applyDetails(value, { preserveDraft: true });
+    },
+    isDownloading: (value) =>
+      value.dnsmasq.install_state.status === "installing",
+    onError: (error) => {
+      loadError.value = extractErrorMessage(
+        error,
+        t("admin.smartConnectSettings.loadFailedDescription"),
+      );
+    },
+  });
+
+const showLoadingSkeleton = useDelayedLoading(isInitializing);
+const {
+  capabilityBlockedReason,
+  dnsmasqActionLabel,
+  dnsmasqProgress,
+  dnsmasqStatusLabel,
+  dnsmasqStatusVariant,
+  dnsmasqSummaryText,
+  isDirty,
+  isSmartConnectAvailable,
+  resolvedIpOptions,
+  saveBlockedReason,
+  showAdvancedCards,
+  showDnsmasqAction,
+  showDnsmasqCard,
+  showDnsmasqSetupCard,
+} = useSmartConnectViewModel({ details, form });
+
+const refreshAll = async () => {
+  await Promise.all([refreshDetails(), configStore.loadConfig()]);
+};
+
+const startDnsmasqInstall = async () => {
+  if (isStartingInstall.value) return;
+  const installMode = details.value?.dnsmasq.installed
+    ? "initialize"
+    : "install";
+  await runStartInstall(() => SystemAPI.installDnsmasq(), {
+    onSuccess: async (state) => {
+      toast.success(
+        state.status === "installed"
+          ? installMode === "initialize"
+            ? t("admin.smartConnectSettings.dnsmasqInitialized")
+            : t("admin.smartConnectSettings.dnsmasqReady")
+          : installMode === "initialize"
+            ? t("admin.smartConnectSettings.dnsmasqInitializeStarted")
+            : t("admin.smartConnectSettings.dnsmasqInstallStarted"),
+      );
+      await refreshDetails();
+    },
+  });
+};
+
+const cancelAndBack = () => {
+  void router.push({ path: "/system", query: { tab: "features" } });
+};
+
+const saveSettings = async () => {
+  if (saveBlockedReason.value) {
+    toast.error(t("admin.smartConnectSettings.cannotSaveNow"), {
+      description: saveBlockedReason.value,
+    });
+    return;
+  }
+
+  await runSave(
+    () =>
+      SystemAPI.updateSmartConnect({
+        enabled: form.enabled,
+        selected_ipv4: form.enabled ? form.selected_ipv4 : undefined,
+      }),
+    {
+      onSuccess: async (value) => {
+        applyDetails(value);
+        await configStore.loadConfig();
+        toast.success(t("admin.smartConnectSettings.updatedAndSynced"));
+      },
+    },
+  );
+};
+</script>
+
+<template>
+  <div class="space-y-5">
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system">
+            {{ t("admin.smartConnectSettings.systemSettings") }}
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system?tab=features">
+            {{ t("admin.smartConnectSettings.features") }}
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbPage>
+            {{ t("admin.smartConnectSettings.title") }}
+          </BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+
+    <Card class="border-border/50 shadow-none">
+      <CardHeader class="space-y-4">
+        <div
+          class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between"
+        >
+          <div class="space-y-1.5">
+            <CardTitle class="text-xl tracking-tight">
+              {{ t("admin.smartConnectSettings.title") }}
+            </CardTitle>
+            <CardDescription class="max-w-2xl leading-6">
+              {{ t("admin.smartConnectSettings.description") }}
+            </CardDescription>
+          </div>
+          <RefreshButton
+            :loading="isInitializing"
+            :disabled="isSaving || isStartingInstall"
+            @click="refreshAll"
+          />
+        </div>
+      </CardHeader>
+
+      <CardContent class="space-y-5">
+        <div
+          v-if="!details && isInitializing && showLoadingSkeleton"
+          class="space-y-4"
+        >
+          <Skeleton class="h-28 w-full rounded-2xl" />
+          <Skeleton class="h-56 w-full rounded-2xl" />
+        </div>
+        <div
+          v-else-if="loadError && !details"
+          class="rounded-xl border border-destructive/25 bg-destructive/5 px-5 py-4 text-sm text-destructive"
+          role="alert"
+        >
+          {{ loadError }}
+        </div>
+        <SmartConnectFormPanel
+          v-else-if="details"
+          v-model="form"
+          :can-use-smart-connect="configStore.canUseSmartConnect"
+          :capability-blocked-reason="capabilityBlockedReason"
+          :details="details"
+          :dnsmasq-action-label="dnsmasqActionLabel"
+          :dnsmasq-progress="dnsmasqProgress"
+          :dnsmasq-status-label="dnsmasqStatusLabel"
+          :dnsmasq-status-variant="dnsmasqStatusVariant"
+          :dnsmasq-summary-text="dnsmasqSummaryText"
+          :is-dirty="isDirty"
+          :is-saving="isSaving"
+          :is-smart-connect-available="isSmartConnectAvailable"
+          :is-starting-install="isStartingInstall"
+          :resolved-ip-options="resolvedIpOptions"
+          :save-blocked-reason="saveBlockedReason"
+          :show-advanced-cards="showAdvancedCards"
+          :show-dnsmasq-action="showDnsmasqAction"
+          :show-dnsmasq-card="showDnsmasqCard"
+          :show-dnsmasq-setup-card="showDnsmasqSetupCard"
+          @cancel="cancelAndBack"
+          @save="saveSettings"
+          @start-install="startDnsmasqInstall"
+        />
+      </CardContent>
+    </Card>
+  </div>
+</template>

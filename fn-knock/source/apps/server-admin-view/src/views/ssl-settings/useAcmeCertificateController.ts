@@ -1,1 +1,469 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAidnVlLXJvdXRlciI7CmltcG9ydCB7CiAgQWNtZUFQSSwKICB0eXBlIEFjbWVBcHBsaWNhdGlvbk92ZXJ2aWV3SXRlbSwKICB0eXBlIEFjbWVBcHBsaWNhdGlvblBheWxvYWQsCiAgdHlwZSBBY21lQXBwbGljYXRpb25SZWNvcmQsCiAgdHlwZSBBY21lRG5zUHJvdmlkZXIsCiAgdHlwZSBBY21lT3ZlcnZpZXcsCn0gZnJvbSAiQC9saWIvYXBpL2FjbWUiOwppbXBvcnQgeyBhY21lQ2VydGlmaWNhdGVBcmNoaXZlRmlsZW5hbWUgfSBmcm9tICJAL2xpYi9hY21lLWRvd25sb2FkIjsKaW1wb3J0IHsgdXNlQ29uZmlnU3RvcmUgfSBmcm9tICJAL3N0b3JlL2NvbmZpZyI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7IGRvd25sb2FkQmxvYiB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvZG93bmxvYWRCbG9iIjsKaW1wb3J0IHsKICBleHRyYWN0RXJyb3JNZXNzYWdlLAogIHVzZUFzeW5jQWN0aW9uLAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB1c2VBY21lQ2VydGlmaWNhdGVEaXNwbGF5IH0gZnJvbSAiLi91c2VBY21lQ2VydGlmaWNhdGVEaXNwbGF5IjsKaW1wb3J0IHsgdXNlQWNtZUpvYlBvbGxpbmcgfSBmcm9tICIuL3VzZUFjbWVKb2JQb2xsaW5nIjsKCmV4cG9ydCBmdW5jdGlvbiB1c2VBY21lQ2VydGlmaWNhdGVDb250cm9sbGVyKCkgewogIGNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpOwogIGNvbnN0IGNvbmZpZ1N0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKICBjb25zdCBvdmVydmlldyA9IHJlZjxBY21lT3ZlcnZpZXcgfCBudWxsPihudWxsKTsKICBjb25zdCBkbnNQcm92aWRlcnMgPSByZWY8QWNtZURuc1Byb3ZpZGVyW10+KFtdKTsKICBjb25zdCBpc0RpYWxvZ09wZW4gPSByZWYoZmFsc2UpOwogIGNvbnN0IGRpYWxvZ01vZGUgPSByZWY8ImNyZWF0ZSIgfCAiZWRpdCI+KCJjcmVhdGUiKTsKICBjb25zdCBlZGl0aW5nQXBwbGljYXRpb24gPSByZWY8QWNtZUFwcGxpY2F0aW9uUmVjb3JkIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgZGVsZXRlQ2FuZGlkYXRlID0gcmVmPEFjbWVBcHBsaWNhdGlvbk92ZXJ2aWV3SXRlbSB8IG51bGw+KG51bGwpOwogIGNvbnN0IGRlbGV0aW5nQXBwbGljYXRpb25JZCA9IHJlZigiIik7CgogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc092ZXJ2aWV3TG9hZGluZywgcnVuOiBydW5Mb2FkT3ZlcnZpZXcgfSA9CiAgICB1c2VBc3luY0FjdGlvbigpOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1Byb3ZpZGVyc0xvYWRpbmcsIHJ1bjogcnVuTG9hZFByb3ZpZGVycyB9ID0KICAgIHVzZUFzeW5jQWN0aW9uKCk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzRGlhbG9nU3VibWl0dGluZywgcnVuOiBydW5EaWFsb2dTdWJtaXQgfSA9CiAgICB1c2VBc3luY0FjdGlvbih7CiAgICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICAgIHRvYXN0LmVycm9yKAogICAgICAgICAgZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiYWRtaW4uYWNtZUNlcnQuc2F2ZUFwcGxpY2F0aW9uRmFpbGVkIikpLAogICAgICAgICk7CiAgICAgIH0sCiAgICB9KTsKICBjb25zdCB7IGlzUGVuZGluZzogaXNNdXRhdGluZywgcnVuOiBydW5NdXRhdGluZyB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKAogICAgICAgIGV4dHJhY3RFcnJvck1lc3NhZ2UoZXJyb3IsIHQoImFkbWluLmFjbWVDZXJ0Lm9wZXJhdGlvbkZhaWxlZCIpKSwKICAgICAgKTsKICAgIH0sCiAgfSk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzRG93bmxvYWRpbmcsIHJ1bjogcnVuRG93bmxvYWQgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcigKICAgICAgICBleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCB0KCJhZG1pbi5hY21lQ2VydC5kb3dubG9hZEZhaWxlZCIpKSwKICAgICAgKTsKICAgIH0sCiAgfSk7CiAgY29uc3QgeyBydW46IHJ1bkxvYWRBcHBsaWNhdGlvbiB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKAogICAgICAgIGV4dHJhY3RFcnJvck1lc3NhZ2UoZXJyb3IsIHQoImFkbWluLmFjbWVDZXJ0LmxvYWRBcHBsaWNhdGlvbkZhaWxlZCIpKSwKICAgICAgKTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IGZldGNoT3ZlcnZpZXcgPSBhc3luYyAob3B0cz86IHsKICAgIHNpbGVudD86IGJvb2xlYW47CiAgICBwcmVzZXJ2ZVNlbGVjdGlvbj86IGJvb2xlYW47CiAgfSkgPT4gewogICAgYXdhaXQgcnVuTG9hZE92ZXJ2aWV3KAogICAgICBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IEFjbWVBUEkub3ZlcnZpZXcoKTsKICAgICAgICBvdmVydmlldy52YWx1ZSA9IGRhdGE7CgogICAgICAgIGNvbnN0IHJ1bm5pbmdKb2JJZCA9IGRhdGEucnVubmluZ0pvYj8uaWQgfHwgZGF0YS5sb2NrLmpvYklkIHx8ICIiOwogICAgICAgIGlmIChydW5uaW5nSm9iSWQpIHsKICAgICAgICAgIGF3YWl0IHNlbGVjdEpvYihydW5uaW5nSm9iSWQsIHRydWUpOwogICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KCiAgICAgICAgaWYgKCFvcHRzPy5wcmVzZXJ2ZVNlbGVjdGlvbiAmJiAhc2VsZWN0ZWRKb2JJZC52YWx1ZSkgewogICAgICAgICAgY29uc3QgbGF0ZXN0RmFpbGVkSm9iID0gZGF0YS5hcHBsaWNhdGlvbnMuZmluZCgKICAgICAgICAgICAgKGFwcGxpY2F0aW9uKSA9PiBhcHBsaWNhdGlvbi5sYXRlc3RKb2I/LnN0YXR1cyA9PT0gImZhaWxlZCIsCiAgICAgICAgICApOwogICAgICAgICAgaWYgKGxhdGVzdEZhaWxlZEpvYj8ubGF0ZXN0Sm9iPy5pZCkgewogICAgICAgICAgICBhd2FpdCBzZWxlY3RKb2IobGF0ZXN0RmFpbGVkSm9iLmxhdGVzdEpvYi5pZCwgZmFsc2UpOwogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfSwKICAgICAgewogICAgICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICAgICAgaWYgKCFvcHRzPy5zaWxlbnQpIHsKICAgICAgICAgICAgdG9hc3QuZXJyb3IoCiAgICAgICAgICAgICAgZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgICAgICAgIGVycm9yLAogICAgICAgICAgICAgICAgdCgiYWRtaW4uYWNtZUNlcnQubG9hZE92ZXJ2aWV3RmFpbGVkIiksCiAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgKTsKICAgICAgICAgIH0KICAgICAgICB9LAogICAgICB9LAogICAgKTsKICB9OwoKICBjb25zdCB7CiAgICBhbmFseXNpcywKICAgIGNsZWFyU2VsZWN0ZWRKb2IsCiAgICBpc1JlZnJlc2hpbmdMb2dzLAogICAgaXNTdG9wcGluZ0pvYiwKICAgIGpvYiwKICAgIGxvZ3MsCiAgICByZWZyZXNoTG9ncywKICAgIHNlbGVjdEpvYiwKICAgIHNlbGVjdGVkSm9iSWQsCiAgICBzdG9wQWN0aXZlSm9iLAogICAgdmlld0pvYiwKICB9ID0gdXNlQWNtZUpvYlBvbGxpbmcoewogICAgcmVmcmVzaE92ZXJ2aWV3OiAoKSA9PgogICAgICBmZXRjaE92ZXJ2aWV3KHsgc2lsZW50OiB0cnVlLCBwcmVzZXJ2ZVNlbGVjdGlvbjogdHJ1ZSB9KSwKICB9KTsKCiAgY29uc3QgYXBwbGljYXRpb25zID0gY29tcHV0ZWQoKCkgPT4gb3ZlcnZpZXcudmFsdWU/LmFwcGxpY2F0aW9ucyB8fCBbXSk7CiAgY29uc3QgYWNtZVN0YXRlID0gY29tcHV0ZWQoKCkgPT4gb3ZlcnZpZXcudmFsdWU/LmFjbWVTdGF0ZSB8fCBudWxsKTsKICBjb25zdCBpc0FjbWVJbnN0YWxsZWQgPSBjb21wdXRlZCgKICAgICgpID0+IGFjbWVTdGF0ZS52YWx1ZT8uc3RhdHVzID09PSAiaW5zdGFsbGVkIiwKICApOwogIGNvbnN0IHNob3VsZFByb21wdEFjbWVJbml0aWFsaXphdGlvbiA9IGNvbXB1dGVkKAogICAgKCkgPT4gYWNtZVN0YXRlLnZhbHVlPy5zdGF0dXMgPT09ICJ1bmluc3RhbGxlZCIsCiAgKTsKICBjb25zdCBpc1RhYmxlTG9ja2VkID0gY29tcHV0ZWQoKCkgPT4gb3ZlcnZpZXcudmFsdWU/LmxvY2subG9ja2VkID09PSB0cnVlKTsKICBjb25zdCBjYW5TdG9wQWN0aXZlSm9iID0gY29tcHV0ZWQoKCkgPT4gewogICAgaWYgKCFpc1RhYmxlTG9ja2VkLnZhbHVlKSByZXR1cm4gZmFsc2U7CiAgICBpZiAoaXNTdG9wcGluZ0pvYi52YWx1ZSkgcmV0dXJuIHRydWU7CiAgICByZXR1cm4gQm9vbGVhbigKICAgICAgb3ZlcnZpZXcudmFsdWU/LmxvY2suam9iSWQgfHwgam9iLnZhbHVlPy5zdGF0dXMgPT09ICJydW5uaW5nIiwKICAgICk7CiAgfSk7CiAgY29uc3QgbG9ja2VkQXBwbGljYXRpb24gPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBhcHBsaWNhdGlvbklkID0gb3ZlcnZpZXcudmFsdWU/LmxvY2suYXBwbGljYXRpb25JZDsKICAgIGlmICghYXBwbGljYXRpb25JZCkgcmV0dXJuIG51bGw7CiAgICByZXR1cm4gYXBwbGljYXRpb25zLnZhbHVlLmZpbmQoKGl0ZW0pID0+IGl0ZW0uaWQgPT09IGFwcGxpY2F0aW9uSWQpIHx8IG51bGw7CiAgfSk7CgogIGNvbnN0IGFjbWVTdGF0dXNMYWJlbCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IHN0YXR1cyA9IGFjbWVTdGF0ZS52YWx1ZT8uc3RhdHVzOwogICAgaWYgKHN0YXR1cyA9PT0gImluc3RhbGxlZCIpIHJldHVybiB0KCJhZG1pbi5hY21lQ2VydC5hY21lU3RhdHVzLnJlYWR5Iik7CiAgICBpZiAoc3RhdHVzID09PSAiaW5zdGFsbGluZyIpIHsKICAgICAgcmV0dXJuIHQoImFkbWluLmFjbWVDZXJ0LmFjbWVTdGF0dXMuaW5zdGFsbGluZyIpOwogICAgfQogICAgaWYgKHN0YXR1cyA9PT0gImVycm9yIikgcmV0dXJuIHQoImFkbWluLmFjbWVDZXJ0LmFjbWVTdGF0dXMuZXJyb3IiKTsKICAgIHJldHVybiB0KCJhZG1pbi5hY21lQ2VydC5hY21lU3RhdHVzLm5vdEluc3RhbGxlZCIpOwogIH0pOwoKICBjb25zdCBhY21lU3RhdHVzQmFkZ2VWYXJpYW50ID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3Qgc3RhdHVzID0gYWNtZVN0YXRlLnZhbHVlPy5zdGF0dXM7CiAgICBpZiAoc3RhdHVzID09PSAiaW5zdGFsbGVkIikgcmV0dXJuICJzZWNvbmRhcnkiOwogICAgaWYgKHN0YXR1cyA9PT0gImVycm9yIikgcmV0dXJuICJkZXN0cnVjdGl2ZSI7CiAgICBpZiAoc3RhdHVzID09PSAiaW5zdGFsbGluZyIpIHJldHVybiAiZGVmYXVsdCI7CiAgICByZXR1cm4gIm91dGxpbmUiOwogIH0pOwoKICBjb25zdCBsb2NrUmVhc29uTGFiZWwgPSBjb21wdXRlZCgoKSA9PgogICAgb3ZlcnZpZXcudmFsdWU/LmxvY2sucmVhc29uID09PSAiYXV0b19yZW5ldyIKICAgICAgPyB0KCJhZG1pbi5hY21lQ2VydC5sb2NrLmF1dG9SZW5ldyIpCiAgICAgIDogdCgiYWRtaW4uYWNtZUNlcnQubG9jay5ydW5uaW5nIiksCiAgKTsKCiAgY29uc3QgbG9ja01lc3NhZ2VUaXRsZSA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IHRhcmdldCA9CiAgICAgIGxvY2tlZEFwcGxpY2F0aW9uLnZhbHVlPy5uYW1lIHx8IGxvY2tlZEFwcGxpY2F0aW9uLnZhbHVlPy5wcmltYXJ5RG9tYWluOwogICAgaWYgKCF0YXJnZXQpIHsKICAgICAgcmV0dXJuIG92ZXJ2aWV3LnZhbHVlPy5sb2NrLnJlYXNvbiA9PT0gImF1dG9fcmVuZXciCiAgICAgICAgPyB0KCJhZG1pbi5hY21lQ2VydC5sb2NrLmF1dG9SZW5ld1RpdGxlIikKICAgICAgICA6IHQoImFkbWluLmFjbWVDZXJ0LmxvY2sucmVxdWVzdFRpdGxlIik7CiAgICB9CiAgICByZXR1cm4gb3ZlcnZpZXcudmFsdWU/LmxvY2sucmVhc29uID09PSAiYXV0b19yZW5ldyIKICAgICAgPyB0KCJhZG1pbi5hY21lQ2VydC5sb2NrLmF1dG9SZW5ld0ZvciIsIHsgdGFyZ2V0IH0pCiAgICAgIDogdCgiYWRtaW4uYWNtZUNlcnQubG9jay5yZXF1ZXN0Rm9yIiwgeyB0YXJnZXQgfSk7CiAgfSk7CgogIGNvbnN0IGxvY2tNZXNzYWdlRGVzY3JpcHRpb24gPSBjb21wdXRlZCgoKSA9PgogICAgdCgiYWRtaW4uYWNtZUNlcnQubG9jay5kZXNjcmlwdGlvbiIpLAogICk7CgogIGNvbnN0IHNlbGVjdGVkQXBwbGljYXRpb25MYWJlbCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IGFwcGxpY2F0aW9uSWQgPSBqb2IudmFsdWU/LmFwcGxpY2F0aW9uSWQ7CiAgICBpZiAoIWFwcGxpY2F0aW9uSWQpIHJldHVybiAiIjsKICAgIGNvbnN0IGFwcGxpY2F0aW9uID0gYXBwbGljYXRpb25zLnZhbHVlLmZpbmQoCiAgICAgIChpdGVtKSA9PiBpdGVtLmlkID09PSBhcHBsaWNhdGlvbklkLAogICAgKTsKICAgIHJldHVybiBhcHBsaWNhdGlvbj8ubmFtZSB8fCBhcHBsaWNhdGlvbj8ucHJpbWFyeURvbWFpbiB8fCAiIjsKICB9KTsKCiAgY29uc3QgZGVsZXRlQ2FuZGlkYXRlTGFiZWwgPSBjb21wdXRlZCgKICAgICgpID0+CiAgICAgIGRlbGV0ZUNhbmRpZGF0ZS52YWx1ZT8ubmFtZSB8fCBkZWxldGVDYW5kaWRhdGUudmFsdWU/LnByaW1hcnlEb21haW4gfHwgIiIsCiAgKTsKCiAgY29uc3QgbG9hZFByb3ZpZGVycyA9IGFzeW5jICgpID0+IHsKICAgIGF3YWl0IHJ1bkxvYWRQcm92aWRlcnMoCiAgICAgIGFzeW5jICgpID0+IHsKICAgICAgICBkbnNQcm92aWRlcnMudmFsdWUgPSBhd2FpdCBBY21lQVBJLmRuc1Byb3ZpZGVycygpOwogICAgICB9LAogICAgICB7CiAgICAgICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgICAgICB0b2FzdC5lcnJvcigKICAgICAgICAgICAgZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiYWRtaW4uYWNtZUNlcnQubG9hZFByb3ZpZGVyc0ZhaWxlZCIpKSwKICAgICAgICAgICk7CiAgICAgICAgICBkbnNQcm92aWRlcnMudmFsdWUgPSBbXTsKICAgICAgICB9LAogICAgICB9LAogICAgKTsKICB9OwoKICBjb25zdCByZWZyZXNoID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgUHJvbWlzZS5hbGwoW2ZldGNoT3ZlcnZpZXcoKSwgbG9hZFByb3ZpZGVycygpXSk7CiAgfTsKCiAgY29uc3Qgb3BlbkNyZWF0ZURpYWxvZyA9ICgpID0+IHsKICAgIGRpYWxvZ01vZGUudmFsdWUgPSAiY3JlYXRlIjsKICAgIGVkaXRpbmdBcHBsaWNhdGlvbi52YWx1ZSA9IG51bGw7CiAgICBpc0RpYWxvZ09wZW4udmFsdWUgPSB0cnVlOwogIH07CgogIGNvbnN0IGdvVG9BY21lSW5pdGlhbGl6YXRpb24gPSAoKSA9PiB7CiAgICB2b2lkIHJvdXRlci5wdXNoKHsgcGF0aDogIi9zeXN0ZW0iLCBxdWVyeTogeyB0YWI6ICJhY21lLXNzbCIgfSB9KTsKICB9OwoKICBjb25zdCBvcGVuRWRpdERpYWxvZyA9IGFzeW5jIChhcHBsaWNhdGlvbklkOiBzdHJpbmcpID0+IHsKICAgIGF3YWl0IHJ1bkxvYWRBcHBsaWNhdGlvbihhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IGFwcGxpY2F0aW9uID0gYXdhaXQgQWNtZUFQSS5nZXRBcHBsaWNhdGlvbihhcHBsaWNhdGlvbklkKTsKICAgICAgZGlhbG9nTW9kZS52YWx1ZSA9ICJlZGl0IjsKICAgICAgZWRpdGluZ0FwcGxpY2F0aW9uLnZhbHVlID0gYXBwbGljYXRpb247CiAgICAgIGlzRGlhbG9nT3Blbi52YWx1ZSA9IHRydWU7CiAgICB9KTsKICB9OwoKICBjb25zdCBvcGVuRGVsZXRlRGlhbG9nID0gKGFwcGxpY2F0aW9uOiBBY21lQXBwbGljYXRpb25PdmVydmlld0l0ZW0pID0+IHsKICAgIGRlbGV0ZUNhbmRpZGF0ZS52YWx1ZSA9IGFwcGxpY2F0aW9uOwogIH07CgogIGNvbnN0IGNsb3NlRGVsZXRlRGlhbG9nID0gKCkgPT4gewogICAgaWYgKGlzTXV0YXRpbmcudmFsdWUpIHJldHVybjsKICAgIGRlbGV0ZUNhbmRpZGF0ZS52YWx1ZSA9IG51bGw7CiAgfTsKCiAgY29uc3QgaGFuZGxlRGVsZXRlRGlhbG9nT3BlbkNoYW5nZSA9IChvcGVuOiBib29sZWFuKSA9PiB7CiAgICBpZiAoIW9wZW4pIGNsb3NlRGVsZXRlRGlhbG9nKCk7CiAgfTsKCiAgY29uc3Qgc3VibWl0RGlhbG9nID0gYXN5bmMgKHBheWxvYWQ6IEFjbWVBcHBsaWNhdGlvblBheWxvYWQpID0+IHsKICAgIGF3YWl0IHJ1bkRpYWxvZ1N1Ym1pdChhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IHJlc3BvbnNlID0KICAgICAgICBkaWFsb2dNb2RlLnZhbHVlID09PSAiZWRpdCIgJiYgZWRpdGluZ0FwcGxpY2F0aW9uLnZhbHVlCiAgICAgICAgICA/IGF3YWl0IEFjbWVBUEkudXBkYXRlQXBwbGljYXRpb24oCiAgICAgICAgICAgICAgZWRpdGluZ0FwcGxpY2F0aW9uLnZhbHVlLmlkLAogICAgICAgICAgICAgIHBheWxvYWQsCiAgICAgICAgICAgICkKICAgICAgICAgIDogYXdhaXQgQWNtZUFQSS5jcmVhdGVBcHBsaWNhdGlvbihwYXlsb2FkKTsKCiAgICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgICAgcGF5bG9hZC5zdWJtaXROb3cKICAgICAgICAgID8gdCgiYWRtaW4uYWNtZUNlcnQudGFza1N1Ym1pdHRlZCIpCiAgICAgICAgICA6IHQoImFkbWluLmFjbWVDZXJ0LnNhdmVkIiksCiAgICAgICk7CiAgICAgIGlzRGlhbG9nT3Blbi52YWx1ZSA9IGZhbHNlOwogICAgICBlZGl0aW5nQXBwbGljYXRpb24udmFsdWUgPSBudWxsOwogICAgICBhd2FpdCBmZXRjaE92ZXJ2aWV3KHsgc2lsZW50OiB0cnVlLCBwcmVzZXJ2ZVNlbGVjdGlvbjogdHJ1ZSB9KTsKCiAgICAgIGlmIChyZXNwb25zZS5qb2I/LmlkKSBhd2FpdCBzZWxlY3RKb2IocmVzcG9uc2Uuam9iLmlkLCB0cnVlKTsKICAgIH0pOwogIH07CgogIGNvbnN0IHJlcXVlc3RDZXJ0aWZpY2F0ZSA9IGFzeW5jIChhcHBsaWNhdGlvbklkOiBzdHJpbmcpID0+IHsKICAgIGF3YWl0IHJ1bk11dGF0aW5nKGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBBY21lQVBJLnJlcXVlc3RBcHBsaWNhdGlvbihhcHBsaWNhdGlvbklkKTsKICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5hY21lQ2VydC50YXNrU3VibWl0dGVkIikpOwogICAgICBhd2FpdCBmZXRjaE92ZXJ2aWV3KHsgc2lsZW50OiB0cnVlLCBwcmVzZXJ2ZVNlbGVjdGlvbjogdHJ1ZSB9KTsKICAgICAgYXdhaXQgc2VsZWN0Sm9iKHJlc3BvbnNlLmpvYi5pZCwgdHJ1ZSk7CiAgICB9KTsKICB9OwoKICBjb25zdCBzeW5jTGlicmFyeSA9IGFzeW5jIChhcHBsaWNhdGlvbjogQWNtZUFwcGxpY2F0aW9uT3ZlcnZpZXdJdGVtKSA9PiB7CiAgICBhd2FpdCBydW5NdXRhdGluZyhhc3luYyAoKSA9PiB7CiAgICAgIGF3YWl0IEFjbWVBUEkuc3luY0FwcGxpY2F0aW9uTGlicmFyeShhcHBsaWNhdGlvbi5pZCk7CiAgICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgICAgYXBwbGljYXRpb24ubGlicmFyeT8ubGlua2VkCiAgICAgICAgICA/IHQoImFkbWluLmFjbWVDZXJ0LnVwZGF0ZWRUb0xpYnJhcnkiKQogICAgICAgICAgOiB0KCJhZG1pbi5hY21lQ2VydC5hZGRlZFRvTGlicmFyeSIpLAogICAgICApOwogICAgICBhd2FpdCBmZXRjaE92ZXJ2aWV3KHsgc2lsZW50OiB0cnVlLCBwcmVzZXJ2ZVNlbGVjdGlvbjogdHJ1ZSB9KTsKICAgIH0pOwogIH07CgogIGNvbnN0IGRlcGxveUNlcnRpZmljYXRlID0gYXN5bmMgKAogICAgYXBwbGljYXRpb246IEFjbWVBcHBsaWNhdGlvbk92ZXJ2aWV3SXRlbSwKICApID0+IHsKICAgIGF3YWl0IHJ1bk11dGF0aW5nKGFzeW5jICgpID0+IHsKICAgICAgYXdhaXQgQWNtZUFQSS5kZXBsb3lBcHBsaWNhdGlvbihhcHBsaWNhdGlvbi5pZCk7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uYWNtZUNlcnQuZGVwbG95ZWQiKSk7CiAgICAgIGF3YWl0IGZldGNoT3ZlcnZpZXcoeyBzaWxlbnQ6IHRydWUsIHByZXNlcnZlU2VsZWN0aW9uOiB0cnVlIH0pOwogICAgfSk7CiAgfTsKCiAgY29uc3QgZGVsZXRlQ2VydGlmaWNhdGUgPSBhc3luYyAoCiAgICBhcHBsaWNhdGlvbjogQWNtZUFwcGxpY2F0aW9uT3ZlcnZpZXdJdGVtLAogICkgPT4gewogICAgYXdhaXQgcnVuTXV0YXRpbmcoYXN5bmMgKCkgPT4gewogICAgICBhd2FpdCBBY21lQVBJLmRlbGV0ZUFwcGxpY2F0aW9uQ2VydGlmaWNhdGUoYXBwbGljYXRpb24uaWQpOwogICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmFjbWVDZXJ0LmNlcnRpZmljYXRlRGVsZXRlZCIpKTsKICAgICAgYXdhaXQgZmV0Y2hPdmVydmlldyh7IHNpbGVudDogdHJ1ZSwgcHJlc2VydmVTZWxlY3Rpb246IHRydWUgfSk7CiAgICAgIGNsZWFyU2VsZWN0ZWRKb2IoYXBwbGljYXRpb24uaWQsIHsgaW5jbHVkZVJ1bm5pbmc6IGZhbHNlIH0pOwogICAgfSk7CiAgfTsKCiAgY29uc3QgcmVtb3ZlQXBwbGljYXRpb24gPSBhc3luYyAoCiAgICBhcHBsaWNhdGlvbjogQWNtZUFwcGxpY2F0aW9uT3ZlcnZpZXdJdGVtLAogICkgPT4gewogICAgZGVsZXRpbmdBcHBsaWNhdGlvbklkLnZhbHVlID0gYXBwbGljYXRpb24uaWQ7CiAgICB0cnkgewogICAgICBhd2FpdCBydW5NdXRhdGluZyhhc3luYyAoKSA9PiB7CiAgICAgICAgYXdhaXQgQWNtZUFQSS5kZWxldGVBcHBsaWNhdGlvbihhcHBsaWNhdGlvbi5pZCk7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5hY21lQ2VydC5hcHBsaWNhdGlvbkRlbGV0ZWQiKSk7CiAgICAgICAgYXdhaXQgZmV0Y2hPdmVydmlldyh7IHNpbGVudDogdHJ1ZSwgcHJlc2VydmVTZWxlY3Rpb246IHRydWUgfSk7CgogICAgICAgIGlmIChlZGl0aW5nQXBwbGljYXRpb24udmFsdWU/LmlkID09PSBhcHBsaWNhdGlvbi5pZCkgewogICAgICAgICAgZWRpdGluZ0FwcGxpY2F0aW9uLnZhbHVlID0gbnVsbDsKICAgICAgICAgIGlzRGlhbG9nT3Blbi52YWx1ZSA9IGZhbHNlOwogICAgICAgIH0KCiAgICAgICAgY2xlYXJTZWxlY3RlZEpvYihhcHBsaWNhdGlvbi5pZCk7CiAgICAgIH0pOwogICAgfSBmaW5hbGx5IHsKICAgICAgaWYgKGRlbGV0aW5nQXBwbGljYXRpb25JZC52YWx1ZSA9PT0gYXBwbGljYXRpb24uaWQpIHsKICAgICAgICBkZWxldGluZ0FwcGxpY2F0aW9uSWQudmFsdWUgPSAiIjsKICAgICAgfQogICAgfQogIH07CgogIGNvbnN0IGNvbmZpcm1EZWxldGVDYW5kaWRhdGUgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoIWRlbGV0ZUNhbmRpZGF0ZS52YWx1ZSkgcmV0dXJuOwogICAgY29uc3QgYXBwbGljYXRpb24gPSBkZWxldGVDYW5kaWRhdGUudmFsdWU7CiAgICBhd2FpdCBkZWxldGVDZXJ0aWZpY2F0ZShhcHBsaWNhdGlvbik7CiAgICBpZiAoZGVsZXRlQ2FuZGlkYXRlLnZhbHVlPy5pZCA9PT0gYXBwbGljYXRpb24uaWQpIHsKICAgICAgZGVsZXRlQ2FuZGlkYXRlLnZhbHVlID0gbnVsbDsKICAgIH0KICB9OwoKICBjb25zdCBkb3dubG9hZENlcnRpZmljYXRlID0gYXN5bmMgKAogICAgYXBwbGljYXRpb246IEFjbWVBcHBsaWNhdGlvbk92ZXJ2aWV3SXRlbSwKICApID0+IHsKICAgIGF3YWl0IHJ1bkRvd25sb2FkKGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgYmxvYiA9IGF3YWl0IEFjbWVBUEkuZG93bmxvYWQoYXBwbGljYXRpb24ucHJpbWFyeURvbWFpbik7CiAgICAgIGRvd25sb2FkQmxvYigKICAgICAgICBibG9iLAogICAgICAgIGFjbWVDZXJ0aWZpY2F0ZUFyY2hpdmVGaWxlbmFtZShhcHBsaWNhdGlvbi5wcmltYXJ5RG9tYWluKSwKICAgICAgKTsKICAgIH0pOwogIH07CgogIGNvbnN0IGZvY3VzQ3JlZGVudGlhbHNGcm9tSm9iID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgYXBwbGljYXRpb25JZCA9IGpvYi52YWx1ZT8uYXBwbGljYXRpb25JZDsKICAgIGlmIChhcHBsaWNhdGlvbklkKSBhd2FpdCBvcGVuRWRpdERpYWxvZyhhcHBsaWNhdGlvbklkKTsKICB9OwoKICBjb25zdCBpc0FjdGlvbkJsb2NrZWQgPSAoKSA9PgogICAgIWlzQWNtZUluc3RhbGxlZC52YWx1ZSB8fAogICAgaXNUYWJsZUxvY2tlZC52YWx1ZSB8fAogICAgaXNNdXRhdGluZy52YWx1ZSB8fAogICAgaXNEaWFsb2dTdWJtaXR0aW5nLnZhbHVlIHx8CiAgICBpc0Rvd25sb2FkaW5nLnZhbHVlIHx8CiAgICBpc1N0b3BwaW5nSm9iLnZhbHVlOwoKICBjb25zdCBpc0NvbmZpZ3VyYXRpb25FZGl0QmxvY2tlZCA9ICgpID0+CiAgICBpc011dGF0aW5nLnZhbHVlIHx8CiAgICBpc0RpYWxvZ1N1Ym1pdHRpbmcudmFsdWUgfHwKICAgIGlzRG93bmxvYWRpbmcudmFsdWUgfHwKICAgIGlzU3RvcHBpbmdKb2IudmFsdWU7CgogIGNvbnN0IGlzRGVsZXRlQXBwbGljYXRpb25CbG9ja2VkID0gKCkgPT4KICAgIGlzVGFibGVMb2NrZWQudmFsdWUgfHwKICAgIGlzTXV0YXRpbmcudmFsdWUgfHwKICAgIGlzRGlhbG9nU3VibWl0dGluZy52YWx1ZSB8fAogICAgaXNEb3dubG9hZGluZy52YWx1ZSB8fAogICAgaXNTdG9wcGluZ0pvYi52YWx1ZTsKCiAgY29uc3QgewogICAgY2VydGlmaWNhdGVCYWRnZVZhcmlhbnQsCiAgICBjZXJ0aWZpY2F0ZVN0YXR1c0xhYmVsLAogICAgZGVsZXRlQXBwbGljYXRpb25EZXNjcmlwdGlvbiwKICAgIGZvcm1hdENlcnRpZmljYXRlUmFuZ2UsCiAgICBpc1NlY29uZGFyeUFjdGlvbkRpc2FibGVkLAogICAgam9iQmFkZ2VWYXJpYW50LAogICAgbGF0ZXN0Sm9iTGFiZWwsCiAgICBsaWJyYXJ5QmFkZ2VWYXJpYW50LAogICAgbGlicmFyeVN0YXR1c0xhYmVsLAogICAgcHJpbWFyeUFjdGlvbkxhYmVsLAogIH0gPSB1c2VBY21lQ2VydGlmaWNhdGVEaXNwbGF5KHsgaXNDb25maWd1cmF0aW9uRWRpdEJsb2NrZWQgfSk7CgogIG9uTW91bnRlZChhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBQcm9taXNlLmFsbChbZmV0Y2hPdmVydmlldyh7IHNpbGVudDogdHJ1ZSB9KSwgbG9hZFByb3ZpZGVycygpXSk7CiAgfSk7CgogIHJldHVybiB7CiAgICBhY21lU3RhdHVzQmFkZ2VWYXJpYW50LAogICAgYWNtZVN0YXR1c0xhYmVsLAogICAgYW5hbHlzaXMsCiAgICBhcHBsaWNhdGlvbnMsCiAgICBjYW5TdG9wQWN0aXZlSm9iLAogICAgY2VydGlmaWNhdGVCYWRnZVZhcmlhbnQsCiAgICBjZXJ0aWZpY2F0ZVN0YXR1c0xhYmVsLAogICAgY2xvc2VEZWxldGVEaWFsb2csCiAgICBjb25maWdTdG9yZSwKICAgIGNvbmZpcm1EZWxldGVDYW5kaWRhdGUsCiAgICBkZWxldGVBcHBsaWNhdGlvbkRlc2NyaXB0aW9uLAogICAgZGVsZXRlQ2FuZGlkYXRlLAogICAgZGVsZXRlQ2FuZGlkYXRlTGFiZWwsCiAgICBkZWxldGluZ0FwcGxpY2F0aW9uSWQsCiAgICBkZXBsb3lDZXJ0aWZpY2F0ZSwKICAgIGRpYWxvZ01vZGUsCiAgICBkbnNQcm92aWRlcnMsCiAgICBkb3dubG9hZENlcnRpZmljYXRlLAogICAgZWRpdGluZ0FwcGxpY2F0aW9uLAogICAgZm9jdXNDcmVkZW50aWFsc0Zyb21Kb2IsCiAgICBmb3JtYXRDZXJ0aWZpY2F0ZVJhbmdlLAogICAgZ29Ub0FjbWVJbml0aWFsaXphdGlvbiwKICAgIGhhbmRsZURlbGV0ZURpYWxvZ09wZW5DaGFuZ2UsCiAgICBpc0FjbWVJbnN0YWxsZWQsCiAgICBpc0FjdGlvbkJsb2NrZWQsCiAgICBpc0NvbmZpZ3VyYXRpb25FZGl0QmxvY2tlZCwKICAgIGlzRGVsZXRlQXBwbGljYXRpb25CbG9ja2VkLAogICAgaXNEaWFsb2dPcGVuLAogICAgaXNEaWFsb2dTdWJtaXR0aW5nLAogICAgaXNNdXRhdGluZywKICAgIGlzT3ZlcnZpZXdMb2FkaW5nLAogICAgaXNQcm92aWRlcnNMb2FkaW5nLAogICAgaXNSZWZyZXNoaW5nTG9ncywKICAgIGlzU2Vjb25kYXJ5QWN0aW9uRGlzYWJsZWQsCiAgICBpc1N0b3BwaW5nSm9iLAogICAgaXNUYWJsZUxvY2tlZCwKICAgIGpvYiwKICAgIGpvYkJhZGdlVmFyaWFudCwKICAgIGxhdGVzdEpvYkxhYmVsLAogICAgbGlicmFyeUJhZGdlVmFyaWFudCwKICAgIGxpYnJhcnlTdGF0dXNMYWJlbCwKICAgIGxvY2tNZXNzYWdlRGVzY3JpcHRpb24sCiAgICBsb2NrTWVzc2FnZVRpdGxlLAogICAgbG9ja1JlYXNvbkxhYmVsLAogICAgbG9ncywKICAgIG9wZW5DcmVhdGVEaWFsb2csCiAgICBvcGVuRGVsZXRlRGlhbG9nLAogICAgb3BlbkVkaXREaWFsb2csCiAgICBwcmltYXJ5QWN0aW9uTGFiZWwsCiAgICByZWZyZXNoLAogICAgcmVmcmVzaExvZ3MsCiAgICByZW1vdmVBcHBsaWNhdGlvbiwKICAgIHJlcXVlc3RDZXJ0aWZpY2F0ZSwKICAgIHNlbGVjdGVkQXBwbGljYXRpb25MYWJlbCwKICAgIHNob3VsZFByb21wdEFjbWVJbml0aWFsaXphdGlvbiwKICAgIHN0b3BBY3RpdmVKb2IsCiAgICBzdWJtaXREaWFsb2csCiAgICBzeW5jTGlicmFyeSwKICAgIHQsCiAgICB2aWV3Sm9iLAogIH07Cn0K
+import { computed, onMounted, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRouter } from "vue-router";
+import {
+  AcmeAPI,
+  type AcmeApplicationOverviewItem,
+  type AcmeApplicationPayload,
+  type AcmeApplicationRecord,
+  type AcmeDnsProvider,
+  type AcmeOverview,
+} from "@/lib/api/acme";
+import { acmeCertificateArchiveFilename } from "@/lib/acme-download";
+import { useConfigStore } from "@/store/config";
+import { toast } from "@admin-shared/utils/toast";
+import { downloadBlob } from "@admin-shared/utils/downloadBlob";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useAcmeCertificateDisplay } from "./useAcmeCertificateDisplay";
+import { useAcmeJobPolling } from "./useAcmeJobPolling";
+
+export function useAcmeCertificateController() {
+  const { t } = useI18n();
+  const router = useRouter();
+  const configStore = useConfigStore();
+  const overview = ref<AcmeOverview | null>(null);
+  const dnsProviders = ref<AcmeDnsProvider[]>([]);
+  const isDialogOpen = ref(false);
+  const dialogMode = ref<"create" | "edit">("create");
+  const editingApplication = ref<AcmeApplicationRecord | null>(null);
+  const deleteCandidate = ref<AcmeApplicationOverviewItem | null>(null);
+  const deletingApplicationId = ref("");
+
+  const { isPending: isOverviewLoading, run: runLoadOverview } =
+    useAsyncAction();
+  const { isPending: isProvidersLoading, run: runLoadProviders } =
+    useAsyncAction();
+  const { isPending: isDialogSubmitting, run: runDialogSubmit } =
+    useAsyncAction({
+      onError: (error) => {
+        toast.error(
+          extractErrorMessage(error, t("admin.acmeCert.saveApplicationFailed")),
+        );
+      },
+    });
+  const { isPending: isMutating, run: runMutating } = useAsyncAction({
+    onError: (error) => {
+      toast.error(
+        extractErrorMessage(error, t("admin.acmeCert.operationFailed")),
+      );
+    },
+  });
+  const { isPending: isDownloading, run: runDownload } = useAsyncAction({
+    onError: (error) => {
+      toast.error(
+        extractErrorMessage(error, t("admin.acmeCert.downloadFailed")),
+      );
+    },
+  });
+  const { run: runLoadApplication } = useAsyncAction({
+    onError: (error) => {
+      toast.error(
+        extractErrorMessage(error, t("admin.acmeCert.loadApplicationFailed")),
+      );
+    },
+  });
+
+  const fetchOverview = async (opts?: {
+    silent?: boolean;
+    preserveSelection?: boolean;
+  }) => {
+    await runLoadOverview(
+      async () => {
+        const data = await AcmeAPI.overview();
+        overview.value = data;
+
+        const runningJobId = data.runningJob?.id || data.lock.jobId || "";
+        if (runningJobId) {
+          await selectJob(runningJobId, true);
+          return;
+        }
+
+        if (!opts?.preserveSelection && !selectedJobId.value) {
+          const latestFailedJob = data.applications.find(
+            (application) => application.latestJob?.status === "failed",
+          );
+          if (latestFailedJob?.latestJob?.id) {
+            await selectJob(latestFailedJob.latestJob.id, false);
+          }
+        }
+      },
+      {
+        onError: (error) => {
+          if (!opts?.silent) {
+            toast.error(
+              extractErrorMessage(
+                error,
+                t("admin.acmeCert.loadOverviewFailed"),
+              ),
+            );
+          }
+        },
+      },
+    );
+  };
+
+  const {
+    analysis,
+    clearSelectedJob,
+    isRefreshingLogs,
+    isStoppingJob,
+    job,
+    logs,
+    refreshLogs,
+    selectJob,
+    selectedJobId,
+    stopActiveJob,
+    viewJob,
+  } = useAcmeJobPolling({
+    refreshOverview: () =>
+      fetchOverview({ silent: true, preserveSelection: true }),
+  });
+
+  const applications = computed(() => overview.value?.applications || []);
+  const acmeState = computed(() => overview.value?.acmeState || null);
+  const isAcmeInstalled = computed(
+    () => acmeState.value?.status === "installed",
+  );
+  const shouldPromptAcmeInitialization = computed(
+    () => acmeState.value?.status === "uninstalled",
+  );
+  const isTableLocked = computed(() => overview.value?.lock.locked === true);
+  const canStopActiveJob = computed(() => {
+    if (!isTableLocked.value) return false;
+    if (isStoppingJob.value) return true;
+    return Boolean(
+      overview.value?.lock.jobId || job.value?.status === "running",
+    );
+  });
+  const lockedApplication = computed(() => {
+    const applicationId = overview.value?.lock.applicationId;
+    if (!applicationId) return null;
+    return applications.value.find((item) => item.id === applicationId) || null;
+  });
+
+  const acmeStatusLabel = computed(() => {
+    const status = acmeState.value?.status;
+    if (status === "installed") return t("admin.acmeCert.acmeStatus.ready");
+    if (status === "installing") {
+      return t("admin.acmeCert.acmeStatus.installing");
+    }
+    if (status === "error") return t("admin.acmeCert.acmeStatus.error");
+    return t("admin.acmeCert.acmeStatus.notInstalled");
+  });
+
+  const acmeStatusBadgeVariant = computed(() => {
+    const status = acmeState.value?.status;
+    if (status === "installed") return "secondary";
+    if (status === "error") return "destructive";
+    if (status === "installing") return "default";
+    return "outline";
+  });
+
+  const lockReasonLabel = computed(() =>
+    overview.value?.lock.reason === "auto_renew"
+      ? t("admin.acmeCert.lock.autoRenew")
+      : t("admin.acmeCert.lock.running"),
+  );
+
+  const lockMessageTitle = computed(() => {
+    const target =
+      lockedApplication.value?.name || lockedApplication.value?.primaryDomain;
+    if (!target) {
+      return overview.value?.lock.reason === "auto_renew"
+        ? t("admin.acmeCert.lock.autoRenewTitle")
+        : t("admin.acmeCert.lock.requestTitle");
+    }
+    return overview.value?.lock.reason === "auto_renew"
+      ? t("admin.acmeCert.lock.autoRenewFor", { target })
+      : t("admin.acmeCert.lock.requestFor", { target });
+  });
+
+  const lockMessageDescription = computed(() =>
+    t("admin.acmeCert.lock.description"),
+  );
+
+  const selectedApplicationLabel = computed(() => {
+    const applicationId = job.value?.applicationId;
+    if (!applicationId) return "";
+    const application = applications.value.find(
+      (item) => item.id === applicationId,
+    );
+    return application?.name || application?.primaryDomain || "";
+  });
+
+  const deleteCandidateLabel = computed(
+    () =>
+      deleteCandidate.value?.name || deleteCandidate.value?.primaryDomain || "",
+  );
+
+  const loadProviders = async () => {
+    await runLoadProviders(
+      async () => {
+        dnsProviders.value = await AcmeAPI.dnsProviders();
+      },
+      {
+        onError: (error) => {
+          toast.error(
+            extractErrorMessage(error, t("admin.acmeCert.loadProvidersFailed")),
+          );
+          dnsProviders.value = [];
+        },
+      },
+    );
+  };
+
+  const refresh = async () => {
+    await Promise.all([fetchOverview(), loadProviders()]);
+  };
+
+  const openCreateDialog = () => {
+    dialogMode.value = "create";
+    editingApplication.value = null;
+    isDialogOpen.value = true;
+  };
+
+  const goToAcmeInitialization = () => {
+    void router.push({ path: "/system", query: { tab: "acme-ssl" } });
+  };
+
+  const openEditDialog = async (applicationId: string) => {
+    await runLoadApplication(async () => {
+      const application = await AcmeAPI.getApplication(applicationId);
+      dialogMode.value = "edit";
+      editingApplication.value = application;
+      isDialogOpen.value = true;
+    });
+  };
+
+  const openDeleteDialog = (application: AcmeApplicationOverviewItem) => {
+    deleteCandidate.value = application;
+  };
+
+  const closeDeleteDialog = () => {
+    if (isMutating.value) return;
+    deleteCandidate.value = null;
+  };
+
+  const handleDeleteDialogOpenChange = (open: boolean) => {
+    if (!open) closeDeleteDialog();
+  };
+
+  const submitDialog = async (payload: AcmeApplicationPayload) => {
+    await runDialogSubmit(async () => {
+      const response =
+        dialogMode.value === "edit" && editingApplication.value
+          ? await AcmeAPI.updateApplication(
+              editingApplication.value.id,
+              payload,
+            )
+          : await AcmeAPI.createApplication(payload);
+
+      toast.success(
+        payload.submitNow
+          ? t("admin.acmeCert.taskSubmitted")
+          : t("admin.acmeCert.saved"),
+      );
+      isDialogOpen.value = false;
+      editingApplication.value = null;
+      await fetchOverview({ silent: true, preserveSelection: true });
+
+      if (response.job?.id) await selectJob(response.job.id, true);
+    });
+  };
+
+  const requestCertificate = async (applicationId: string) => {
+    await runMutating(async () => {
+      const response = await AcmeAPI.requestApplication(applicationId);
+      toast.success(t("admin.acmeCert.taskSubmitted"));
+      await fetchOverview({ silent: true, preserveSelection: true });
+      await selectJob(response.job.id, true);
+    });
+  };
+
+  const syncLibrary = async (application: AcmeApplicationOverviewItem) => {
+    await runMutating(async () => {
+      await AcmeAPI.syncApplicationLibrary(application.id);
+      toast.success(
+        application.library?.linked
+          ? t("admin.acmeCert.updatedToLibrary")
+          : t("admin.acmeCert.addedToLibrary"),
+      );
+      await fetchOverview({ silent: true, preserveSelection: true });
+    });
+  };
+
+  const deployCertificate = async (
+    application: AcmeApplicationOverviewItem,
+  ) => {
+    await runMutating(async () => {
+      await AcmeAPI.deployApplication(application.id);
+      toast.success(t("admin.acmeCert.deployed"));
+      await fetchOverview({ silent: true, preserveSelection: true });
+    });
+  };
+
+  const deleteCertificate = async (
+    application: AcmeApplicationOverviewItem,
+  ) => {
+    await runMutating(async () => {
+      await AcmeAPI.deleteApplicationCertificate(application.id);
+      toast.success(t("admin.acmeCert.certificateDeleted"));
+      await fetchOverview({ silent: true, preserveSelection: true });
+      clearSelectedJob(application.id, { includeRunning: false });
+    });
+  };
+
+  const removeApplication = async (
+    application: AcmeApplicationOverviewItem,
+  ) => {
+    deletingApplicationId.value = application.id;
+    try {
+      await runMutating(async () => {
+        await AcmeAPI.deleteApplication(application.id);
+        toast.success(t("admin.acmeCert.applicationDeleted"));
+        await fetchOverview({ silent: true, preserveSelection: true });
+
+        if (editingApplication.value?.id === application.id) {
+          editingApplication.value = null;
+          isDialogOpen.value = false;
+        }
+
+        clearSelectedJob(application.id);
+      });
+    } finally {
+      if (deletingApplicationId.value === application.id) {
+        deletingApplicationId.value = "";
+      }
+    }
+  };
+
+  const confirmDeleteCandidate = async () => {
+    if (!deleteCandidate.value) return;
+    const application = deleteCandidate.value;
+    await deleteCertificate(application);
+    if (deleteCandidate.value?.id === application.id) {
+      deleteCandidate.value = null;
+    }
+  };
+
+  const downloadCertificate = async (
+    application: AcmeApplicationOverviewItem,
+  ) => {
+    await runDownload(async () => {
+      const blob = await AcmeAPI.download(application.primaryDomain);
+      downloadBlob(
+        blob,
+        acmeCertificateArchiveFilename(application.primaryDomain),
+      );
+    });
+  };
+
+  const focusCredentialsFromJob = async () => {
+    const applicationId = job.value?.applicationId;
+    if (applicationId) await openEditDialog(applicationId);
+  };
+
+  const isActionBlocked = () =>
+    !isAcmeInstalled.value ||
+    isTableLocked.value ||
+    isMutating.value ||
+    isDialogSubmitting.value ||
+    isDownloading.value ||
+    isStoppingJob.value;
+
+  const isConfigurationEditBlocked = () =>
+    isMutating.value ||
+    isDialogSubmitting.value ||
+    isDownloading.value ||
+    isStoppingJob.value;
+
+  const isDeleteApplicationBlocked = () =>
+    isTableLocked.value ||
+    isMutating.value ||
+    isDialogSubmitting.value ||
+    isDownloading.value ||
+    isStoppingJob.value;
+
+  const {
+    certificateBadgeVariant,
+    certificateStatusLabel,
+    deleteApplicationDescription,
+    formatCertificateRange,
+    isSecondaryActionDisabled,
+    jobBadgeVariant,
+    latestJobLabel,
+    libraryBadgeVariant,
+    libraryStatusLabel,
+    primaryActionLabel,
+  } = useAcmeCertificateDisplay({ isConfigurationEditBlocked });
+
+  onMounted(async () => {
+    await Promise.all([fetchOverview({ silent: true }), loadProviders()]);
+  });
+
+  return {
+    acmeStatusBadgeVariant,
+    acmeStatusLabel,
+    analysis,
+    applications,
+    canStopActiveJob,
+    certificateBadgeVariant,
+    certificateStatusLabel,
+    closeDeleteDialog,
+    configStore,
+    confirmDeleteCandidate,
+    deleteApplicationDescription,
+    deleteCandidate,
+    deleteCandidateLabel,
+    deletingApplicationId,
+    deployCertificate,
+    dialogMode,
+    dnsProviders,
+    downloadCertificate,
+    editingApplication,
+    focusCredentialsFromJob,
+    formatCertificateRange,
+    goToAcmeInitialization,
+    handleDeleteDialogOpenChange,
+    isAcmeInstalled,
+    isActionBlocked,
+    isConfigurationEditBlocked,
+    isDeleteApplicationBlocked,
+    isDialogOpen,
+    isDialogSubmitting,
+    isMutating,
+    isOverviewLoading,
+    isProvidersLoading,
+    isRefreshingLogs,
+    isSecondaryActionDisabled,
+    isStoppingJob,
+    isTableLocked,
+    job,
+    jobBadgeVariant,
+    latestJobLabel,
+    libraryBadgeVariant,
+    libraryStatusLabel,
+    lockMessageDescription,
+    lockMessageTitle,
+    lockReasonLabel,
+    logs,
+    openCreateDialog,
+    openDeleteDialog,
+    openEditDialog,
+    primaryActionLabel,
+    refresh,
+    refreshLogs,
+    removeApplication,
+    requestCertificate,
+    selectedApplicationLabel,
+    shouldPromptAcmeInitialization,
+    stopActiveJob,
+    submitDialog,
+    syncLibrary,
+    t,
+    viewJob,
+  };
+}

@@ -1,1 +1,65 @@
-aW1wb3J0IHsgd2F0Y2gsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHR5cGUgeyBUZXJtaW5hbFNlc3Npb25SZWNvcmQgfSBmcm9tICJAL2xpYi9hcGkvdGVybWluYWwiOwoKZXhwb3J0IGNvbnN0IHVzZVRlcm1pbmFsU2Vzc2lvbkNvbm5lY3Rpb24gPSAoewogIGF0dGFjaCwKICBjYW5JbnB1dCwKICBjbGVhckRldGFjaGVkU3RhdGUsCiAgZGV0YWNoQXR0YWNobWVudCwKICBlbnN1cmVUZXJtaW5hbFJlYWR5LAogIGZsdXNoUGVuZGluZ0lucHV0LAogIG1hcmtTeW5jZWRSZXNpemUsCiAgc2NoZWR1bGVSZXNpemUsCiAgc2VsZWN0U2Vzc2lvbiwKICBzdG9wQ29udHJvbFF1ZXVlcywKfTogewogIGF0dGFjaDogKHNlc3Npb246IFRlcm1pbmFsU2Vzc2lvblJlY29yZCkgPT4gUHJvbWlzZTx2b2lkPjsKICBjYW5JbnB1dDogUmVmPGJvb2xlYW4+OwogIGNsZWFyRGV0YWNoZWRTdGF0ZTogKCkgPT4gdm9pZDsKICBkZXRhY2hBdHRhY2htZW50OiAoKSA9PiBQcm9taXNlPHZvaWQ+OwogIGVuc3VyZVRlcm1pbmFsUmVhZHk6ICgpID0+IFByb21pc2U8dm9pZD47CiAgZmx1c2hQZW5kaW5nSW5wdXQ6ICgpID0+IFByb21pc2U8dm9pZD47CiAgbWFya1N5bmNlZFJlc2l6ZTogKHNlc3Npb25JZDogc3RyaW5nLCBjb2xzOiBudW1iZXIsIHJvd3M6IG51bWJlcikgPT4gdm9pZDsKICBzY2hlZHVsZVJlc2l6ZTogKCkgPT4gdm9pZDsKICBzZWxlY3RTZXNzaW9uOiAoc2Vzc2lvbklkOiBzdHJpbmcpID0+IHZvaWQ7CiAgc3RvcENvbnRyb2xRdWV1ZXM6ICgpID0+IHZvaWQ7Cn0pID0+IHsKICBsZXQgZGlzcG9zZWQgPSBmYWxzZTsKICBsZXQgZ2VuZXJhdGlvbiA9IDA7CiAgY29uc3Qgc3RvcElucHV0V2F0Y2ggPSB3YXRjaCgKICAgIGNhbklucHV0LAogICAgKGVuYWJsZWQsIHByZXZpb3VzbHlFbmFibGVkKSA9PiB7CiAgICAgIGlmICghZW5hYmxlZCAmJiBwcmV2aW91c2x5RW5hYmxlZCkgc3RvcENvbnRyb2xRdWV1ZXMoKTsKICAgIH0sCiAgICB7IGZsdXNoOiAic3luYyIgfSwKICApOwoKICBjb25zdCBjb25uZWN0ID0gYXN5bmMgKHNlc3Npb246IFRlcm1pbmFsU2Vzc2lvblJlY29yZCkgPT4gewogICAgaWYgKGRpc3Bvc2VkKSByZXR1cm47CiAgICBjb25zdCBvcGVyYXRpb24gPSArK2dlbmVyYXRpb247CiAgICBzZWxlY3RTZXNzaW9uKHNlc3Npb24uaWQpOwogICAgYXdhaXQgZW5zdXJlVGVybWluYWxSZWFkeSgpOwogICAgaWYgKG9wZXJhdGlvbiAhPT0gZ2VuZXJhdGlvbikgcmV0dXJuOwogICAgY2xlYXJEZXRhY2hlZFN0YXRlKCk7CiAgICBtYXJrU3luY2VkUmVzaXplKHNlc3Npb24uaWQsIHNlc3Npb24uY29scywgc2Vzc2lvbi5yb3dzKTsKICAgIGF3YWl0IGF0dGFjaChzZXNzaW9uKTsKICAgIGlmIChvcGVyYXRpb24gIT09IGdlbmVyYXRpb24pIHJldHVybjsKICAgIHNjaGVkdWxlUmVzaXplKCk7CiAgICB2b2lkIGZsdXNoUGVuZGluZ0lucHV0KCk7CiAgfTsKCiAgY29uc3QgZGV0YWNoID0gYXN5bmMgKCkgPT4gewogICAgZ2VuZXJhdGlvbiArPSAxOwogICAgY2xlYXJEZXRhY2hlZFN0YXRlKCk7CiAgICBhd2FpdCBkZXRhY2hBdHRhY2htZW50KCk7CiAgfTsKCiAgY29uc3QgZGlzcG9zZSA9ICgpID0+IHsKICAgIGRpc3Bvc2VkID0gdHJ1ZTsKICAgIGdlbmVyYXRpb24gKz0gMTsKICAgIHN0b3BJbnB1dFdhdGNoKCk7CiAgICBjbGVhckRldGFjaGVkU3RhdGUoKTsKICB9OwoKICByZXR1cm4geyBjb25uZWN0LCBkZXRhY2gsIGRpc3Bvc2UgfTsKfTsK
+import { watch, type Ref } from "vue";
+import type { TerminalSessionRecord } from "@/lib/api/terminal";
+
+export const useTerminalSessionConnection = ({
+  attach,
+  canInput,
+  clearDetachedState,
+  detachAttachment,
+  ensureTerminalReady,
+  flushPendingInput,
+  markSyncedResize,
+  scheduleResize,
+  selectSession,
+  stopControlQueues,
+}: {
+  attach: (session: TerminalSessionRecord) => Promise<void>;
+  canInput: Ref<boolean>;
+  clearDetachedState: () => void;
+  detachAttachment: () => Promise<void>;
+  ensureTerminalReady: () => Promise<void>;
+  flushPendingInput: () => Promise<void>;
+  markSyncedResize: (sessionId: string, cols: number, rows: number) => void;
+  scheduleResize: () => void;
+  selectSession: (sessionId: string) => void;
+  stopControlQueues: () => void;
+}) => {
+  let disposed = false;
+  let generation = 0;
+  const stopInputWatch = watch(
+    canInput,
+    (enabled, previouslyEnabled) => {
+      if (!enabled && previouslyEnabled) stopControlQueues();
+    },
+    { flush: "sync" },
+  );
+
+  const connect = async (session: TerminalSessionRecord) => {
+    if (disposed) return;
+    const operation = ++generation;
+    selectSession(session.id);
+    await ensureTerminalReady();
+    if (operation !== generation) return;
+    clearDetachedState();
+    markSyncedResize(session.id, session.cols, session.rows);
+    await attach(session);
+    if (operation !== generation) return;
+    scheduleResize();
+    void flushPendingInput();
+  };
+
+  const detach = async () => {
+    generation += 1;
+    clearDetachedState();
+    await detachAttachment();
+  };
+
+  const dispose = () => {
+    disposed = true;
+    generation += 1;
+    stopInputWatch();
+    clearDetachedState();
+  };
+
+  return { connect, detach, dispose };
+};

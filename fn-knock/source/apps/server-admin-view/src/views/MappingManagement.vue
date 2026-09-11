@@ -1,1 +1,74 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBkZWZpbmVBc3luY0NvbXBvbmVudCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHVzZVJvdXRlLCB1c2VSb3V0ZXIgfSBmcm9tICJ2dWUtcm91dGVyIjsKaW1wb3J0IHsgVGFicywgVGFic0NvbnRlbnQsIFRhYnNMaXN0LCBUYWJzVHJpZ2dlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJzIjsKaW1wb3J0IHsgdXNlU3luY2VkUXVlcnlUYWIgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZVN5bmNlZFF1ZXJ5VGFiIjsKaW1wb3J0IHsgaXNQcm90b2NvbE1hcHBpbmdWaXNpYmxlIH0gZnJvbSAiQC9saWIvcHJvdG9jb2wtbWFwcGluZy12aXNpYmlsaXR5IjsKaW1wb3J0IHsgdXNlQ29uZmlnU3RvcmUgfSBmcm9tICJAL3N0b3JlL2NvbmZpZyI7Cgpjb25zdCBTdWJkb21haW5UYWIgPSBkZWZpbmVBc3luY0NvbXBvbmVudCgoKSA9PiBpbXBvcnQoIi4vU3ViZG9tYWluUHJveHkudnVlIikpOwpjb25zdCBQcm90b2NvbFRhYiA9IGRlZmluZUFzeW5jQ29tcG9uZW50KCgpID0+IGltcG9ydCgiLi9TdHJlYW1NYXBwaW5ncy52dWUiKSk7Cgpjb25zdCByb3V0ZSA9IHVzZVJvdXRlKCk7CmNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpOwpjb25zdCBjb25maWdTdG9yZSA9IHVzZUNvbmZpZ1N0b3JlKCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwoKY29uc3Qgc2hvd1Byb3RvY29sVGFiID0gY29tcHV0ZWQoKCkgPT4KICBpc1Byb3RvY29sTWFwcGluZ1Zpc2libGUoY29uZmlnU3RvcmUuY29uZmlnKSwKKTsKY29uc3QgYWxsb3dlZFRhYnMgPSBjb21wdXRlZCgoKSA9PgogIHNob3dQcm90b2NvbFRhYi52YWx1ZSA/IFsic3ViZG9tYWluIiwgInByb3RvY29sIl0gOiBbInN1YmRvbWFpbiJdLAopOwpjb25zdCB7IGN1cnJlbnRUYWIsIG5hdmlnYXRlVG8gfSA9IHVzZVN5bmNlZFF1ZXJ5VGFiKHsKICByb3V0ZSwKICByb3V0ZXIsCiAgZGVmYXVsdFRhYjogInN1YmRvbWFpbiIsCiAgYWxsb3dlZFRhYnMsCn0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICBjbGFzcz0iZHluYW1pYy13aGl0ZS1wYWdlLWNhcmQgZHluYW1pYy13aGl0ZS1zZXR0aW5ncy1zdXJmYWNlIGgtZnVsbCBmbGV4IGZsZXgtY29sIGdhcC00IgogID4KICAgIDxUYWJzCiAgICAgIDptb2RlbC12YWx1ZT0iY3VycmVudFRhYiIKICAgICAgY2xhc3M9InctZnVsbCIKICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0ibmF2aWdhdGVUbyIKICAgID4KICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJncmlkIGdhcC0yIHNtOmdyaWQtY29scy1bYXV0b19taW5tYXgoMCwxZnIpXSBzbTppdGVtcy1jZW50ZXIgc206Z2FwLXgtMyBzbTpnYXAteS0xIgogICAgICA+CiAgICAgICAgPGgyIGNsYXNzPSJ0ZXh0LWxnIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHQiPgogICAgICAgICAge3sgdCgiYWRtaW4ubWFwcGluZ01hbmFnZW1lbnQudGl0bGUiKSB9fQogICAgICAgIDwvaDI+CiAgICAgICAgPHAKICAgICAgICAgIGNsYXNzPSJvcmRlci0yIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHNtOmNvbC1zcGFuLTIgc206cm93LXN0YXJ0LTIiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4ubWFwcGluZ01hbmFnZW1lbnQuZGVzY3JpcHRpb24iKSB9fQogICAgICAgIDwvcD4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0ib3JkZXItMyBtaW4tdy0wIG92ZXJmbG93LXgtYXV0byBbc2Nyb2xsYmFyLXdpZHRoOm5vbmVdIFstbXMtb3ZlcmZsb3ctc3R5bGU6bm9uZV0gWyY6Oi13ZWJraXQtc2Nyb2xsYmFyXTpoaWRkZW4gcGItMSBzbTpvcmRlci1ub25lIHNtOmNvbC1zdGFydC0yIHNtOnJvdy1zdGFydC0xIHNtOmp1c3RpZnktc2VsZi1zdGFydCBzbTpwYi0wIgogICAgICAgID4KICAgICAgICAgIDxUYWJzTGlzdD4KICAgICAgICAgICAgPFRhYnNUcmlnZ2VyIHZhbHVlPSJzdWJkb21haW4iPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLm1hcHBpbmdNYW5hZ2VtZW50LnN1YmRvbWFpblRhYiIpIH19CiAgICAgICAgICAgIDwvVGFic1RyaWdnZXI+CiAgICAgICAgICAgIDxUYWJzVHJpZ2dlciB2LWlmPSJzaG93UHJvdG9jb2xUYWIiIHZhbHVlPSJwcm90b2NvbCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4ubWFwcGluZ01hbmFnZW1lbnQucHJvdG9jb2xUYWIiKSB9fQogICAgICAgICAgICA8L1RhYnNUcmlnZ2VyPgogICAgICAgICAgPC9UYWJzTGlzdD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8VGFic0NvbnRlbnQgdmFsdWU9InN1YmRvbWFpbiIgY2xhc3M9InB0LTIiPgogICAgICAgIDxTdWJkb21haW5UYWIgLz4KICAgICAgPC9UYWJzQ29udGVudD4KICAgICAgPFRhYnNDb250ZW50IHYtaWY9InNob3dQcm90b2NvbFRhYiIgdmFsdWU9InByb3RvY29sIiBjbGFzcz0icHQtMiI+CiAgICAgICAgPFByb3RvY29sVGFiIC8+CiAgICAgIDwvVGFic0NvbnRlbnQ+CiAgICA8L1RhYnM+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, defineAsyncComponent } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRoute, useRouter } from "vue-router";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useSyncedQueryTab } from "@admin-shared/composables/useSyncedQueryTab";
+import { isProtocolMappingVisible } from "@/lib/protocol-mapping-visibility";
+import { useConfigStore } from "@/store/config";
+
+const SubdomainTab = defineAsyncComponent(() => import("./SubdomainProxy.vue"));
+const ProtocolTab = defineAsyncComponent(() => import("./StreamMappings.vue"));
+
+const route = useRoute();
+const router = useRouter();
+const configStore = useConfigStore();
+const { t } = useI18n();
+
+const showProtocolTab = computed(() =>
+  isProtocolMappingVisible(configStore.config),
+);
+const allowedTabs = computed(() =>
+  showProtocolTab.value ? ["subdomain", "protocol"] : ["subdomain"],
+);
+const { currentTab, navigateTo } = useSyncedQueryTab({
+  route,
+  router,
+  defaultTab: "subdomain",
+  allowedTabs,
+});
+</script>
+
+<template>
+  <div
+    class="dynamic-white-page-card dynamic-white-settings-surface h-full flex flex-col gap-4"
+  >
+    <Tabs
+      :model-value="currentTab"
+      class="w-full"
+      @update:model-value="navigateTo"
+    >
+      <div
+        class="grid gap-2 sm:grid-cols-[auto_minmax(0,1fr)] sm:items-center sm:gap-x-3 sm:gap-y-1"
+      >
+        <h2 class="text-lg font-semibold tracking-tight">
+          {{ t("admin.mappingManagement.title") }}
+        </h2>
+        <p
+          class="order-2 text-sm text-muted-foreground sm:col-span-2 sm:row-start-2"
+        >
+          {{ t("admin.mappingManagement.description") }}
+        </p>
+        <div
+          class="order-3 min-w-0 overflow-x-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden pb-1 sm:order-none sm:col-start-2 sm:row-start-1 sm:justify-self-start sm:pb-0"
+        >
+          <TabsList>
+            <TabsTrigger value="subdomain">
+              {{ t("admin.mappingManagement.subdomainTab") }}
+            </TabsTrigger>
+            <TabsTrigger v-if="showProtocolTab" value="protocol">
+              {{ t("admin.mappingManagement.protocolTab") }}
+            </TabsTrigger>
+          </TabsList>
+        </div>
+      </div>
+
+      <TabsContent value="subdomain" class="pt-2">
+        <SubdomainTab />
+      </TabsContent>
+      <TabsContent v-if="showProtocolTab" value="protocol" class="pt-2">
+        <ProtocolTab />
+      </TabsContent>
+    </Tabs>
+  </div>
+</template>

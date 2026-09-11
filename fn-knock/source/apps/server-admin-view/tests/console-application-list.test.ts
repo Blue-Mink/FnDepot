@@ -1,1 +1,506 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKaW1wb3J0IHR5cGUgeyBBcHBDb25maWcsIEhvc3RNYXBwaW5nIH0gZnJvbSAiLi4vc3JjL3R5cGVzIjsKaW1wb3J0IHsKICBidWlsZENvbnNvbGVBcHBsaWNhdGlvbkl0ZW1zLAogIGJ1aWxkQ29uc29sZUhvc3RBcHBsaWNhdGlvbkhyZWYsCiAgYnVpbGRDb25zb2xlUGF0aEFwcGxpY2F0aW9uSHJlZiwKICBzaG91bGRTaG93Q29uc29sZUFwcGxpY2F0aW9uTGlzdCwKfSBmcm9tICIuLi9zcmMvdmlld3MvbGF5b3V0L2NvbnNvbGUtYXBwbGljYXRpb24tbGlzdCI7Cgpjb25zdCBob3N0TWFwcGluZyA9ICgKICBob3N0OiBzdHJpbmcsCiAgb3ZlcnJpZGVzOiBQYXJ0aWFsPEhvc3RNYXBwaW5nPiA9IHt9LAopOiBIb3N0TWFwcGluZyA9PiAoewogIGhvc3QsCiAgZ3JvdXBfaWQ6IG51bGwsCiAgdGFyZ2V0X3R5cGU6ICJwcm94eSIsCiAgdGFyZ2V0OiBgaHR0cDovLyR7aG9zdH06ODA4MGAsCiAgc3RhdGljX3NlcnZlOiBudWxsLAogIHRhcmdldF9wYXRoX21vZGU6ICJlbnRyeSIsCiAgd2FmX2VuYWJsZWQ6IHRydWUsCiAgdXNlX2F1dGg6IHRydWUsCiAgYWNjZXNzX21vZGU6ICJsb2dpbl9maXJzdCIsCiAgc3VwcHJlc3NfdG9vbGJhcjogZmFsc2UsCiAgcHJlc2VydmVfaG9zdDogdHJ1ZSwKICBpc19kZWZhdWx0OiBmYWxzZSwKICBkaXNhYmxlZDogZmFsc2UsCiAgYXZhaWxhYmlsaXR5OiBudWxsLAogIHZpc2liaWxpdHk6IHsKICAgIG1vZGU6ICJpbmhlcml0IiwKICAgIHNlbGVjdGlvbnM6IFtdLAogICAgY3VzdG9tX2NpZHJzOiBbXSwKICAgIGNpZHJzOiBbXSwKICB9LAogIHByb3RvY29sX21vZGU6ICJhdXRvIiwKICBiYXNpY19hdXRoOiB7IGVuYWJsZWQ6IGZhbHNlLCB1c2VybmFtZTogIiIsIHBhc3N3b3JkOiAiIiB9LAogIGxvY2F0aW9uczogW10sCiAgc2VydmljZV9yb2xlOiAiYXBwIiwKICB0aXRsZTogIiIsCiAgdGl0bGVfb3ZlcnJpZGU6ICIiLAogIGZhdmljb246ICIiLAogIGZhdmljb25fb3ZlcnJpZGU6ICIiLAogIC4uLm92ZXJyaWRlcywKfSk7Cgpjb25zdCBjb25maWcgPSAob3ZlcnJpZGVzOiBQYXJ0aWFsPEFwcENvbmZpZz4gPSB7fSk6IEFwcENvbmZpZyA9PgogICh7CiAgICBydW5fdHlwZTogMywKICAgIHJldmVyc2VfcHJveHlfc3VibW9kZTogInBhdGgiLAogICAgaG9zdF9tYXBwaW5nczogW10sCiAgICBob3N0X21hcHBpbmdfZ3JvdXBzOiBbXSwKICAgIGhvc3RfbWFwcGluZ19ncm91cGVkX3ZpZXc6IGZhbHNlLAogICAgcHJveHlfbWFwcGluZ3M6IFtdLAogICAgc3ViZG9tYWluX21vZGU6IHsKICAgICAgcHVibGljX2F1dGhfYmFzZV91cmw6ICIiLAogICAgICBwdWJsaWNfaHR0cF9wb3J0OiAwLAogICAgICBwdWJsaWNfaHR0cHNfcG9ydDogMCwKICAgICAgZWRnZV9jbGllbnRfaXBfZW5hYmxlZDogZmFsc2UsCiAgICAgIGFsaXl1bl9lc2FfZW5hYmxlZDogZmFsc2UsCiAgICAgIHRlbmNlbnRfZWRnZW9uZV9lbmFibGVkOiBmYWxzZSwKICAgIH0sCiAgICBzc2w6IHsgZW5hYmxlZDogdHJ1ZSB9LAogICAgZ2F0ZXdheV9wb3J0YWw6IHsKICAgICAgZW5hYmxlZDogdHJ1ZSwKICAgICAgZGlzcGxheV9zdHlsZTogInRpdGxlIiwKICAgICAgc2hvd19hcHBfaWNvbjogdHJ1ZSwKICAgICAgc2hvd193b2w6IHRydWUsCiAgICAgIGljb25fZHJhZ19tb2RlOiAiY29ybmVycyIsCiAgICAgIHZlcnNpb246ICJ2MSIsCiAgICB9LAogICAgLi4ub3ZlcnJpZGVzLAogIH0pIGFzIEFwcENvbmZpZzsKCmNvbnN0IGxvY2F0aW9uID0geyBwcm90b2NvbDogImh0dHBzOiIsIGhvc3RuYW1lOiAibmFzLmV4YW1wbGUudGVzdCIgfTsKCmRlc2NyaWJlKCJjb25zb2xlIGFwcGxpY2F0aW9uIGxpc3QiLCAoKSA9PiB7CiAgaXQoImlzIG1vdW50ZWQgb25seSBvbiB0aGUgY29uc29sZSBkYXNoYm9hcmQgcm91dGUiLCAoKSA9PiB7CiAgICBjb25zdCBsYXlvdXRTb3VyY2UgPSByZWFkRmlsZVN5bmMoCiAgICAgIG5ldyBVUkwoIi4uL3NyYy92aWV3cy9MYXlvdXQudnVlIiwgaW1wb3J0Lm1ldGEudXJsKSwKICAgICAgInV0ZjgiLAogICAgKTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgbGF5b3V0U291cmNlLAogICAgICAvPENvbnNvbGVBcHBsaWNhdGlvbkJhciB2LWlmPSJyb3V0ZVwubmFtZSA9PT0gJ0Rhc2hib2FyZCciIFwvPi91LAogICAgKTsKICB9KTsKCiAgaXQoImlzIG9ubHkgdmlzaWJsZSBmb3IgZW5hYmxlZCBGUEsgZGVwbG95bWVudHMiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHNob3VsZFNob3dDb25zb2xlQXBwbGljYXRpb25MaXN0KHsKICAgICAgICBkZXBsb3ltZW50VGFyZ2V0OiAiZnBrIiwKICAgICAgICBlbmFibGVkOiB0cnVlLAogICAgICB9KSwKICAgICAgdHJ1ZSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHNob3VsZFNob3dDb25zb2xlQXBwbGljYXRpb25MaXN0KHsKICAgICAgICBkZXBsb3ltZW50VGFyZ2V0OiAiZnBrLWxpdGUiLAogICAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgIH0pLAogICAgICB0cnVlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgc2hvdWxkU2hvd0NvbnNvbGVBcHBsaWNhdGlvbkxpc3QoewogICAgICAgIGRlcGxveW1lbnRUYXJnZXQ6ICJkb2NrZXIiLAogICAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgIH0pLAogICAgICBmYWxzZSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHNob3VsZFNob3dDb25zb2xlQXBwbGljYXRpb25MaXN0KHsKICAgICAgICBkZXBsb3ltZW50VGFyZ2V0OiAiZnBrIiwKICAgICAgICBlbmFibGVkOiBmYWxzZSwKICAgICAgfSksCiAgICAgIGZhbHNlLAogICAgKTsKICB9KTsKCiAgaXQoInByaW9yaXRpemVzIGVsaWdpYmxlIEhvc3QgYXBwcyBhbmQgZm9sbG93cyBncm91cGVkIG9yZGVyaW5nIiwgKCkgPT4gewogICAgY29uc3QgbWVkaWFHcm91cCA9ICIxMTExMTExMS0xMTExLTQxMTEtODExMS0xMTExMTExMTExMTEiOwogICAgY29uc3QgdG9vbHNHcm91cCA9ICIyMjIyMjIyMi0yMjIyLTQyMjItODIyMi0yMjIyMjIyMjIyMjIiOwogICAgY29uc3QgYXV0b0ljb24gPSAiZGF0YTppbWFnZS9wbmc7YmFzZTY0LFlYVjBidz09IjsKICAgIGNvbnN0IGN1c3RvbUljb24gPSAiZGF0YTppbWFnZS93ZWJwO2Jhc2U2NCxZM1Z6ZEc5dCI7CiAgICBjb25zdCBpdGVtcyA9IGJ1aWxkQ29uc29sZUFwcGxpY2F0aW9uSXRlbXMoewogICAgICBhY2Nlc3NFbnRyeVBvcnQ6ICI4NDQzIiwKICAgICAgbG9jYXRpb24sCiAgICAgIGNvbmZpZzogY29uZmlnKHsKICAgICAgICBob3N0X21hcHBpbmdfZ3JvdXBlZF92aWV3OiB0cnVlLAogICAgICAgIGhvc3RfbWFwcGluZ19ncm91cHM6IFsKICAgICAgICAgIHsgaWQ6IG1lZGlhR3JvdXAsIG5hbWU6ICJNZWRpYSIgfSwKICAgICAgICAgIHsgaWQ6IHRvb2xzR3JvdXAsIG5hbWU6ICJUb29scyIgfSwKICAgICAgICBdLAogICAgICAgIGhvc3RfbWFwcGluZ3M6IFsKICAgICAgICAgIGhvc3RNYXBwaW5nKCJ0b29sLmV4YW1wbGUudGVzdCIsIHsKICAgICAgICAgICAgZ3JvdXBfaWQ6IHRvb2xzR3JvdXAsCiAgICAgICAgICAgIHRpdGxlOiAiVG9vbCIsCiAgICAgICAgICB9KSwKICAgICAgICAgIGhvc3RNYXBwaW5nKCJsb29zZS5leGFtcGxlLnRlc3QiKSwKICAgICAgICAgIGhvc3RNYXBwaW5nKCJhdXRoLmV4YW1wbGUudGVzdCIsIHsgc2VydmljZV9yb2xlOiAiYXV0aCIgfSksCiAgICAgICAgICBob3N0TWFwcGluZygiZGlzYWJsZWQuZXhhbXBsZS50ZXN0IiwgeyBkaXNhYmxlZDogdHJ1ZSB9KSwKICAgICAgICAgIGhvc3RNYXBwaW5nKCJtZWRpYS5leGFtcGxlLnRlc3QiLCB7CiAgICAgICAgICAgIGdyb3VwX2lkOiBtZWRpYUdyb3VwLAogICAgICAgICAgICB0aXRsZTogIkNvbGxlY3RlZCB0aXRsZSIsCiAgICAgICAgICAgIHRpdGxlX292ZXJyaWRlOiAiTWVkaWEgY2VudGVyIiwKICAgICAgICAgICAgZmF2aWNvbjogYXV0b0ljb24sCiAgICAgICAgICAgIGZhdmljb25fb3ZlcnJpZGU6IGN1c3RvbUljb24sCiAgICAgICAgICB9KSwKICAgICAgICBdLAogICAgICAgIHByb3h5X21hcHBpbmdzOiBbCiAgICAgICAgICB7CiAgICAgICAgICAgIHBhdGg6ICIvZmFsbGJhY2siLAogICAgICAgICAgICB0YXJnZXQ6ICJodHRwOi8vZmFsbGJhY2s6ODA4MCIsCiAgICAgICAgICAgIHJld3JpdGVfaHRtbDogZmFsc2UsCiAgICAgICAgICAgIHVzZV9hdXRoOiB0cnVlLAogICAgICAgICAgICB1c2Vfcm9vdF9tb2RlOiBmYWxzZSwKICAgICAgICAgICAgc3RyaXBfcGF0aDogZmFsc2UsCiAgICAgICAgICB9LAogICAgICAgIF0sCiAgICAgIH0pLAogICAgfSk7CgogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgaXRlbXMubWFwKChpdGVtKSA9PiBpdGVtLmxhYmVsKSwKICAgICAgWyJNZWRpYSBjZW50ZXIiLCAiVG9vbCIsICJsb29zZS5leGFtcGxlLnRlc3QiXSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoaXRlbXNbMF0/Lmljb25TcmMsIGN1c3RvbUljb24pOwogICAgYXNzZXJ0LmVxdWFsKGl0ZW1zWzBdPy5ocmVmLCAiaHR0cHM6Ly9tZWRpYS5leGFtcGxlLnRlc3Q6ODQ0My8iKTsKICAgIGFzc2VydC5vayhpdGVtcy5ldmVyeSgoaXRlbSkgPT4gaXRlbS5raW5kID09PSAiaG9zdCIpKTsKICB9KTsKCiAgaXQoImhvbm9ycyBkb21haW4gbGFiZWxzIGFuZCBkaXNhYmxlZCBwb3J0YWwgaWNvbnMiLCAoKSA9PiB7CiAgICBjb25zdCBpdGVtcyA9IGJ1aWxkQ29uc29sZUFwcGxpY2F0aW9uSXRlbXMoewogICAgICBhY2Nlc3NFbnRyeVBvcnQ6ICI0NDMiLAogICAgICBsb2NhdGlvbiwKICAgICAgY29uZmlnOiBjb25maWcoewogICAgICAgIGdhdGV3YXlfcG9ydGFsOiB7CiAgICAgICAgICBlbmFibGVkOiB0cnVlLAogICAgICAgICAgZGlzcGxheV9zdHlsZTogImRvbWFpbiIsCiAgICAgICAgICBzaG93X2FwcF9pY29uOiBmYWxzZSwKICAgICAgICAgIHNob3dfd29sOiB0cnVlLAogICAgICAgICAgaWNvbl9kcmFnX21vZGU6ICJjb3JuZXJzIiwKICAgICAgICAgIHZlcnNpb246ICJ2MSIsCiAgICAgICAgfSwKICAgICAgICBob3N0X21hcHBpbmdzOiBbCiAgICAgICAgICBob3N0TWFwcGluZygiYXBwLmV4YW1wbGUudGVzdCIsIHsKICAgICAgICAgICAgdGl0bGVfb3ZlcnJpZGU6ICJJZ25vcmVkIHRpdGxlIiwKICAgICAgICAgICAgZmF2aWNvbl9vdmVycmlkZTogImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxhV052Ymc9PSIsCiAgICAgICAgICB9KSwKICAgICAgICBdLAogICAgICB9KSwKICAgIH0pOwoKICAgIGFzc2VydC5lcXVhbChpdGVtc1swXT8ubGFiZWwsICJhcHAuZXhhbXBsZS50ZXN0Iik7CiAgICBhc3NlcnQuZXF1YWwoaXRlbXNbMF0/Lmljb25TcmMsICIiKTsKICAgIGFzc2VydC5lcXVhbChpdGVtc1swXT8uc2hvd0ljb24sIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbChpdGVtc1swXT8uaHJlZiwgImh0dHBzOi8vYXBwLmV4YW1wbGUudGVzdC8iKTsKICB9KTsKCiAgaXQoImtlZXBzIHN0YXRpYyBmaWxlIGFuZCBkaXJlY3RvcnkgbWFwcGluZ3MgaW4gdGhlIHBvcnRhbCIsICgpID0+IHsKICAgIGNvbnN0IGl0ZW1zID0gYnVpbGRDb25zb2xlQXBwbGljYXRpb25JdGVtcyh7CiAgICAgIGFjY2Vzc0VudHJ5UG9ydDogIjQ0MyIsCiAgICAgIGxvY2F0aW9uLAogICAgICBjb25maWc6IGNvbmZpZyh7CiAgICAgICAgaG9zdF9tYXBwaW5nczogWwogICAgICAgICAgaG9zdE1hcHBpbmcoImRvY3MuZXhhbXBsZS50ZXN0IiwgewogICAgICAgICAgICB0YXJnZXRfdHlwZTogImRpcmVjdG9yeSIsCiAgICAgICAgICAgIHRhcmdldDogIiIsCiAgICAgICAgICAgIHN0YXRpY19zZXJ2ZTogewogICAgICAgICAgICAgIHBhdGg6ICIvc3J2L2RvY3MiLAogICAgICAgICAgICAgIGluZGV4X2ZpbGVzOiBbImluZGV4Lmh0bWwiLCAiaW5kZXguaHRtIl0sCiAgICAgICAgICAgICAgZGlyZWN0b3J5X2xpc3Rpbmc6IHsgZW5hYmxlZDogdHJ1ZSwgcmVuZGVyX3JlYWRtZTogdHJ1ZSB9LAogICAgICAgICAgICB9LAogICAgICAgICAgICB0aXRsZV9vdmVycmlkZTogIkRvY3VtZW50YXRpb24iLAogICAgICAgICAgfSksCiAgICAgICAgICBob3N0TWFwcGluZygibWFudWFsLmV4YW1wbGUudGVzdCIsIHsKICAgICAgICAgICAgdGFyZ2V0X3R5cGU6ICJmaWxlIiwKICAgICAgICAgICAgdGFyZ2V0OiAiIiwKICAgICAgICAgICAgc3RhdGljX3NlcnZlOiB7CiAgICAgICAgICAgICAgcGF0aDogIi9zcnYvbWFudWFsLnBkZiIsCiAgICAgICAgICAgICAgaW5kZXhfZmlsZXM6IFtdLAogICAgICAgICAgICAgIGRpcmVjdG9yeV9saXN0aW5nOiB7IGVuYWJsZWQ6IGZhbHNlLCByZW5kZXJfcmVhZG1lOiBmYWxzZSB9LAogICAgICAgICAgICB9LAogICAgICAgICAgfSksCiAgICAgICAgXSwKICAgICAgfSksCiAgICB9KTsKCiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBpdGVtcy5tYXAoKHsgbGFiZWwsIGhyZWYsIGtpbmQgfSkgPT4gKHsgbGFiZWwsIGhyZWYsIGtpbmQgfSkpLAogICAgICBbCiAgICAgICAgewogICAgICAgICAgbGFiZWw6ICJEb2N1bWVudGF0aW9uIiwKICAgICAgICAgIGhyZWY6ICJodHRwczovL2RvY3MuZXhhbXBsZS50ZXN0LyIsCiAgICAgICAgICBraW5kOiAiaG9zdCIsCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBsYWJlbDogIm1hbnVhbC5leGFtcGxlLnRlc3QiLAogICAgICAgICAgaHJlZjogImh0dHBzOi8vbWFudWFsLmV4YW1wbGUudGVzdC8iLAogICAgICAgICAga2luZDogImhvc3QiLAogICAgICAgIH0sCiAgICAgIF0sCiAgICApOwogIH0pOwoKICBpdCgiZmFsbHMgYmFjayB0byBzYW1lLWdhdGV3YXkgcGF0aCBtYXBwaW5ncyB3aGVuIG5vIEhvc3QgYXBwIGlzIGVsaWdpYmxlIiwgKCkgPT4gewogICAgY29uc3QgaXRlbXMgPSBidWlsZENvbnNvbGVBcHBsaWNhdGlvbkl0ZW1zKHsKICAgICAgYWNjZXNzRW50cnlQb3J0OiAiNzk5OSIsCiAgICAgIGxvY2F0aW9uOiB7IC4uLmxvY2F0aW9uLCBwcm90b2NvbDogImh0dHA6IiB9LAogICAgICBjb25maWc6IGNvbmZpZyh7CiAgICAgICAgc3NsOiB7IGVuYWJsZWQ6IGZhbHNlIH0sCiAgICAgICAgaG9zdF9tYXBwaW5nczogWwogICAgICAgICAgaG9zdE1hcHBpbmcoImF1dGguZXhhbXBsZS50ZXN0IiwgeyBzZXJ2aWNlX3JvbGU6ICJhdXRoIiB9KSwKICAgICAgICAgIGhvc3RNYXBwaW5nKCJkaXNhYmxlZC5leGFtcGxlLnRlc3QiLCB7IGRpc2FibGVkOiB0cnVlIH0pLAogICAgICAgIF0sCiAgICAgICAgcHJveHlfbWFwcGluZ3M6IFsKICAgICAgICAgIHsKICAgICAgICAgICAgcGF0aDogIi9waG90b3MiLAogICAgICAgICAgICB0YXJnZXQ6ICJodHRwOi8vcGhvdG9zOjMwMDAiLAogICAgICAgICAgICByZXdyaXRlX2h0bWw6IGZhbHNlLAogICAgICAgICAgICB1c2VfYXV0aDogdHJ1ZSwKICAgICAgICAgICAgdXNlX3Jvb3RfbW9kZTogZmFsc2UsCiAgICAgICAgICAgIHN0cmlwX3BhdGg6IGZhbHNlLAogICAgICAgICAgfSwKICAgICAgICAgIHsKICAgICAgICAgICAgcGF0aDogInRvb2xzLyIsCiAgICAgICAgICAgIHRhcmdldDogImh0dHA6Ly90b29sczozMDAwIiwKICAgICAgICAgICAgcmV3cml0ZV9odG1sOiBmYWxzZSwKICAgICAgICAgICAgdXNlX2F1dGg6IHRydWUsCiAgICAgICAgICAgIHVzZV9yb290X21vZGU6IGZhbHNlLAogICAgICAgICAgICBzdHJpcF9wYXRoOiBmYWxzZSwKICAgICAgICAgIH0sCiAgICAgICAgXSwKICAgICAgfSksCiAgICB9KTsKCiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBpdGVtcy5tYXAoKHsgbGFiZWwsIGhyZWYsIGtpbmQsIHNob3dJY29uIH0pID0+ICh7CiAgICAgICAgbGFiZWwsCiAgICAgICAgaHJlZiwKICAgICAgICBraW5kLAogICAgICAgIHNob3dJY29uLAogICAgICB9KSksCiAgICAgIFsKICAgICAgICB7CiAgICAgICAgICBsYWJlbDogIi9waG90b3MiLAogICAgICAgICAgaHJlZjogImh0dHA6Ly9uYXMuZXhhbXBsZS50ZXN0Ojc5OTkvcGhvdG9zLyIsCiAgICAgICAgICBraW5kOiAicGF0aCIsCiAgICAgICAgICBzaG93SWNvbjogdHJ1ZSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIGxhYmVsOiAidG9vbHMvIiwKICAgICAgICAgIGhyZWY6ICJodHRwOi8vbmFzLmV4YW1wbGUudGVzdDo3OTk5L3Rvb2xzLyIsCiAgICAgICAgICBraW5kOiAicGF0aCIsCiAgICAgICAgICBzaG93SWNvbjogdHJ1ZSwKICAgICAgICB9LAogICAgICBdLAogICAgKTsKICB9KTsKCiAgaXQoInVzZXMgcGF0aCBtYXBwaW5ncyB3aGVuIEhvc3RSdWxlcyBhcmUgaW5hY3RpdmUiLCAoKSA9PiB7CiAgICBjb25zdCBpdGVtcyA9IGJ1aWxkQ29uc29sZUFwcGxpY2F0aW9uSXRlbXMoewogICAgICBhY2Nlc3NFbnRyeVBvcnQ6ICI3OTk5IiwKICAgICAgbG9jYXRpb24sCiAgICAgIGNvbmZpZzogY29uZmlnKHsKICAgICAgICBydW5fdHlwZTogMSwKICAgICAgICByZXZlcnNlX3Byb3h5X3N1Ym1vZGU6ICJwYXRoIiwKICAgICAgICBob3N0X21hcHBpbmdzOiBbaG9zdE1hcHBpbmcoInN0YWxlLmV4YW1wbGUudGVzdCIpXSwKICAgICAgICBwcm94eV9tYXBwaW5nczogWwogICAgICAgICAgewogICAgICAgICAgICBwYXRoOiAiL2FjdGl2ZSIsCiAgICAgICAgICAgIHRhcmdldDogImh0dHA6Ly9hY3RpdmU6MzAwMCIsCiAgICAgICAgICAgIHJld3JpdGVfaHRtbDogZmFsc2UsCiAgICAgICAgICAgIHVzZV9hdXRoOiB0cnVlLAogICAgICAgICAgICB1c2Vfcm9vdF9tb2RlOiBmYWxzZSwKICAgICAgICAgICAgc3RyaXBfcGF0aDogZmFsc2UsCiAgICAgICAgICB9LAogICAgICAgIF0sCiAgICAgIH0pLAogICAgfSk7CgogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgaXRlbXMubWFwKCh7IGxhYmVsLCBraW5kIH0pID0+ICh7IGxhYmVsLCBraW5kIH0pKSwKICAgICAgW3sgbGFiZWw6ICIvYWN0aXZlIiwga2luZDogInBhdGgiIH1dLAogICAgKTsKICB9KTsKCiAgaXQoImZhbGxzIGJhY2sgdG8gcGF0aHMgd2hlbiBldmVyeSBhY3RpdmUgSG9zdCBhcHAgaGFzIGFuIHVuc2FmZSBob3N0IiwgKCkgPT4gewogICAgY29uc3QgaXRlbXMgPSBidWlsZENvbnNvbGVBcHBsaWNhdGlvbkl0ZW1zKHsKICAgICAgYWNjZXNzRW50cnlQb3J0OiAiNzk5OSIsCiAgICAgIGxvY2F0aW9uLAogICAgICBjb25maWc6IGNvbmZpZyh7CiAgICAgICAgaG9zdF9tYXBwaW5nczogW2hvc3RNYXBwaW5nKCJ0cnVzdGVkLmV4YW1wbGUudGVzdEBldmlsLmV4YW1wbGUudGVzdCIpXSwKICAgICAgICBwcm94eV9tYXBwaW5nczogWwogICAgICAgICAgewogICAgICAgICAgICBwYXRoOiAiL3NhZmUiLAogICAgICAgICAgICB0YXJnZXQ6ICJodHRwOi8vc2FmZTozMDAwIiwKICAgICAgICAgICAgcmV3cml0ZV9odG1sOiBmYWxzZSwKICAgICAgICAgICAgdXNlX2F1dGg6IHRydWUsCiAgICAgICAgICAgIHVzZV9yb290X21vZGU6IGZhbHNlLAogICAgICAgICAgICBzdHJpcF9wYXRoOiBmYWxzZSwKICAgICAgICAgIH0sCiAgICAgICAgXSwKICAgICAgfSksCiAgICB9KTsKCiAgICBhc3NlcnQuZXF1YWwoaXRlbXMubGVuZ3RoLCAxKTsKICAgIGFzc2VydC5lcXVhbChpdGVtc1swXT8ubGFiZWwsICIvc2FmZSIpOwogICAgYXNzZXJ0LmVxdWFsKGl0ZW1zWzBdPy5raW5kLCAicGF0aCIpOwogIH0pOwoKICBpdCgidG9sZXJhdGVzIGxlZ2FjeSBIb3N0IG1ldGFkYXRhIGZpZWxkcyB0aGF0IGFyZSBhYnNlbnQiLCAoKSA9PiB7CiAgICBjb25zdCBsZWdhY3lNYXBwaW5nID0gaG9zdE1hcHBpbmcoImxlZ2FjeS5leGFtcGxlLnRlc3QiKTsKICAgIGNvbnN0IGxlZ2FjeVJlY29yZCA9IGxlZ2FjeU1hcHBpbmcgYXMgdW5rbm93biBhcyBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPjsKICAgIGRlbGV0ZSBsZWdhY3lSZWNvcmQudGl0bGU7CiAgICBkZWxldGUgbGVnYWN5UmVjb3JkLnRpdGxlX292ZXJyaWRlOwogICAgZGVsZXRlIGxlZ2FjeVJlY29yZC5mYXZpY29uOwogICAgZGVsZXRlIGxlZ2FjeVJlY29yZC5mYXZpY29uX292ZXJyaWRlOwoKICAgIGNvbnN0IGl0ZW1zID0gYnVpbGRDb25zb2xlQXBwbGljYXRpb25JdGVtcyh7CiAgICAgIGFjY2Vzc0VudHJ5UG9ydDogIjc5OTkiLAogICAgICBsb2NhdGlvbiwKICAgICAgY29uZmlnOiBjb25maWcoeyBob3N0X21hcHBpbmdzOiBbbGVnYWN5TWFwcGluZ10gfSksCiAgICB9KTsKCiAgICBhc3NlcnQuZXF1YWwoaXRlbXNbMF0/LmxhYmVsLCAibGVnYWN5LmV4YW1wbGUudGVzdCIpOwogICAgYXNzZXJ0LmVxdWFsKGl0ZW1zWzBdPy5pY29uU3JjLCAiIik7CiAgfSk7CgogIGl0KCJ1c2VzIHRoZSBjb25zb2xlIHByb3RvY29sIGFuZCBvbWl0cyBvbmx5IGl0cyBtYXRjaGluZyBkZWZhdWx0IHBvcnQiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGJ1aWxkQ29uc29sZUhvc3RBcHBsaWNhdGlvbkhyZWYoCiAgICAgICAgImFwcC5leGFtcGxlLnRlc3QiLAogICAgICAgIGxvY2F0aW9uLAogICAgICAgIGNvbmZpZyh7IHNzbDogeyBlbmFibGVkOiBmYWxzZSB9IH0pLAogICAgICAgICI0NDMiLAogICAgICApLAogICAgICAiaHR0cHM6Ly9hcHAuZXhhbXBsZS50ZXN0LyIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBidWlsZENvbnNvbGVIb3N0QXBwbGljYXRpb25IcmVmKAogICAgICAgICJhcHAuZXhhbXBsZS50ZXN0IiwKICAgICAgICB7IC4uLmxvY2F0aW9uLCBwcm90b2NvbDogImh0dHA6IiB9LAogICAgICAgIGNvbmZpZyh7IHNzbDogeyBlbmFibGVkOiB0cnVlIH0gfSksCiAgICAgICAgIjgwIiwKICAgICAgKSwKICAgICAgImh0dHA6Ly9hcHAuZXhhbXBsZS50ZXN0LyIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBidWlsZENvbnNvbGVQYXRoQXBwbGljYXRpb25IcmVmKAogICAgICAgICIvYXBwIiwKICAgICAgICBsb2NhdGlvbiwKICAgICAgICBjb25maWcoeyBzc2w6IHsgZW5hYmxlZDogdHJ1ZSB9IH0pLAogICAgICAgICJpbnZhbGlkIiwKICAgICAgKSwKICAgICAgImh0dHBzOi8vbmFzLmV4YW1wbGUudGVzdDo3OTk5L2FwcC8iLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgYnVpbGRDb25zb2xlSG9zdEFwcGxpY2F0aW9uSHJlZigKICAgICAgICAiYXBwLmV4YW1wbGUudGVzdCIsCiAgICAgICAgbG9jYXRpb24sCiAgICAgICAgY29uZmlnKHsgc3NsOiB7IGVuYWJsZWQ6IHRydWUgfSB9KSwKICAgICAgICAiNDQzb29wcyIsCiAgICAgICksCiAgICAgICJodHRwczovL2FwcC5leGFtcGxlLnRlc3Q6Nzk5OS8iLAogICAgKTsKICB9KTsKCiAgaXQoInByZWZlcnMgdGhlIHNjaGVtZS1zcGVjaWZpYyBwdWJsaWMgcG9ydCBvdmVyIHRoZSBvcmlnaW4gZ2F0ZXdheSBwb3J0IiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKAogICAgICBidWlsZENvbnNvbGVIb3N0QXBwbGljYXRpb25IcmVmKAogICAgICAgICJhcHAuZXhhbXBsZS50ZXN0IiwKICAgICAgICBsb2NhdGlvbiwKICAgICAgICBjb25maWcoewogICAgICAgICAgc3NsOiB7IGVuYWJsZWQ6IHRydWUgfSwKICAgICAgICAgIHN1YmRvbWFpbl9tb2RlOiB7CiAgICAgICAgICAgIC4uLmNvbmZpZygpLnN1YmRvbWFpbl9tb2RlLAogICAgICAgICAgICBwdWJsaWNfaHR0cHNfcG9ydDogODQ0MywKICAgICAgICAgICAgcHVibGljX2h0dHBfcG9ydDogODA4MCwKICAgICAgICAgIH0sCiAgICAgICAgfSksCiAgICAgICAgIjc5OTkiLAogICAgICApLAogICAgICAiaHR0cHM6Ly9hcHAuZXhhbXBsZS50ZXN0Ojg0NDMvIiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGJ1aWxkQ29uc29sZUhvc3RBcHBsaWNhdGlvbkhyZWYoCiAgICAgICAgImFwcC5leGFtcGxlLnRlc3QiLAogICAgICAgIGxvY2F0aW9uLAogICAgICAgIGNvbmZpZyh7CiAgICAgICAgICBzc2w6IHsgZW5hYmxlZDogdHJ1ZSB9LAogICAgICAgICAgc3ViZG9tYWluX21vZGU6IHsKICAgICAgICAgICAgLi4uY29uZmlnKCkuc3ViZG9tYWluX21vZGUsCiAgICAgICAgICAgIHB1YmxpY19hdXRoX2Jhc2VfdXJsOiAiaHR0cHM6Ly9hdXRoLmV4YW1wbGUudGVzdDo5NDQzIiwKICAgICAgICAgICAgcHVibGljX2h0dHBzX3BvcnQ6IDg0NDMsCiAgICAgICAgICB9LAogICAgICAgIH0pLAogICAgICAgICI3OTk5IiwKICAgICAgKSwKICAgICAgImh0dHBzOi8vYXBwLmV4YW1wbGUudGVzdDo5NDQzLyIsCiAgICApOwogIH0pOwoKICBpdCgib21pdHMgb3JpZ2luIHBvcnRzIGJlaGluZCBzdGFuZGFyZC1wb3J0IGVkZ2UgaW5ncmVzcyIsICgpID0+IHsKICAgIGNvbnN0IGVkZ2VDb25maWcgPSBjb25maWcoewogICAgICBzc2w6IHsgZW5hYmxlZDogdHJ1ZSB9LAogICAgICBzdWJkb21haW5fbW9kZTogewogICAgICAgIC4uLmNvbmZpZygpLnN1YmRvbWFpbl9tb2RlLAogICAgICAgIGVkZ2VfY2xpZW50X2lwX2VuYWJsZWQ6IHRydWUsCiAgICAgICAgYWxpeXVuX2VzYV9lbmFibGVkOiB0cnVlLAogICAgICAgIHB1YmxpY19hdXRoX2Jhc2VfdXJsOiAiaHR0cHM6Ly9hdXRoLmV4YW1wbGUudGVzdDo3OTk5IiwKICAgICAgICBwdWJsaWNfaHR0cHNfcG9ydDogNzk5OSwKICAgICAgfSwKICAgIH0pOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBidWlsZENvbnNvbGVIb3N0QXBwbGljYXRpb25IcmVmKAogICAgICAgICJhcHAuZXhhbXBsZS50ZXN0IiwKICAgICAgICBsb2NhdGlvbiwKICAgICAgICBlZGdlQ29uZmlnLAogICAgICAgICI3OTk5IiwKICAgICAgKSwKICAgICAgImh0dHBzOi8vYXBwLmV4YW1wbGUudGVzdC8iLAogICAgKTsKCiAgICBjb25zdCBjbG91ZGZsYXJlZENvbmZpZyA9IGNvbmZpZyh7CiAgICAgIHJ1bl90eXBlOiAxLAogICAgICByZXZlcnNlX3Byb3h5X3N1Ym1vZGU6ICJzdWJkb21haW4iLAogICAgICBkZWZhdWx0X3R1bm5lbDogImNsb3VkZmxhcmVkIiwKICAgICAgc3NsOiB7IGVuYWJsZWQ6IHRydWUgfSwKICAgICAgc3ViZG9tYWluX21vZGU6IHsKICAgICAgICAuLi5jb25maWcoKS5zdWJkb21haW5fbW9kZSwKICAgICAgICBwdWJsaWNfaHR0cHNfcG9ydDogNzk5OSwKICAgICAgfSwKICAgIH0pOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBidWlsZENvbnNvbGVIb3N0QXBwbGljYXRpb25IcmVmKAogICAgICAgICJhcHAuZXhhbXBsZS50ZXN0IiwKICAgICAgICBsb2NhdGlvbiwKICAgICAgICBjbG91ZGZsYXJlZENvbmZpZywKICAgICAgICAiNzk5OSIsCiAgICAgICksCiAgICAgICJodHRwczovL2FwcC5leGFtcGxlLnRlc3QvIiwKICAgICk7CiAgfSk7CgogIGl0KCJ1c2VzIHRoZSBGUlAgcmVtb3RlIGVudHJ5IGluc3RlYWQgb2YgYSByZXZlcnNlLW1vZGUgb3JpZ2luIHBvcnQiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGJ1aWxkQ29uc29sZUhvc3RBcHBsaWNhdGlvbkhyZWYoCiAgICAgICAgImFwcC5leGFtcGxlLnRlc3QiLAogICAgICAgIGxvY2F0aW9uLAogICAgICAgIGNvbmZpZyh7CiAgICAgICAgICBydW5fdHlwZTogMSwKICAgICAgICAgIHJldmVyc2VfcHJveHlfc3VibW9kZTogInN1YmRvbWFpbiIsCiAgICAgICAgICBkZWZhdWx0X3R1bm5lbDogImZycCIsCiAgICAgICAgICBzc2w6IHsgZW5hYmxlZDogdHJ1ZSB9LAogICAgICAgICAgc3ViZG9tYWluX21vZGU6IHsKICAgICAgICAgICAgLi4uY29uZmlnKCkuc3ViZG9tYWluX21vZGUsCiAgICAgICAgICAgIHB1YmxpY19odHRwc19wb3J0OiA4NDQzLAogICAgICAgICAgfSwKICAgICAgICB9KSwKICAgICAgICAiMjQ0NDMiLAogICAgICApLAogICAgICAiaHR0cHM6Ly9hcHAuZXhhbXBsZS50ZXN0OjI0NDQzLyIsCiAgICApOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+import type { AppConfig, HostMapping } from "../src/types";
+import {
+  buildConsoleApplicationItems,
+  buildConsoleHostApplicationHref,
+  buildConsolePathApplicationHref,
+  shouldShowConsoleApplicationList,
+} from "../src/views/layout/console-application-list";
+
+const hostMapping = (
+  host: string,
+  overrides: Partial<HostMapping> = {},
+): HostMapping => ({
+  host,
+  group_id: null,
+  target_type: "proxy",
+  target: `http://${host}:8080`,
+  static_serve: null,
+  target_path_mode: "entry",
+  waf_enabled: true,
+  use_auth: true,
+  access_mode: "login_first",
+  suppress_toolbar: false,
+  preserve_host: true,
+  is_default: false,
+  disabled: false,
+  availability: null,
+  visibility: {
+    mode: "inherit",
+    selections: [],
+    custom_cidrs: [],
+    cidrs: [],
+  },
+  protocol_mode: "auto",
+  basic_auth: { enabled: false, username: "", password: "" },
+  locations: [],
+  service_role: "app",
+  title: "",
+  title_override: "",
+  favicon: "",
+  favicon_override: "",
+  ...overrides,
+});
+
+const config = (overrides: Partial<AppConfig> = {}): AppConfig =>
+  ({
+    run_type: 3,
+    reverse_proxy_submode: "path",
+    host_mappings: [],
+    host_mapping_groups: [],
+    host_mapping_grouped_view: false,
+    proxy_mappings: [],
+    subdomain_mode: {
+      public_auth_base_url: "",
+      public_http_port: 0,
+      public_https_port: 0,
+      edge_client_ip_enabled: false,
+      aliyun_esa_enabled: false,
+      tencent_edgeone_enabled: false,
+    },
+    ssl: { enabled: true },
+    gateway_portal: {
+      enabled: true,
+      display_style: "title",
+      show_app_icon: true,
+      show_wol: true,
+      icon_drag_mode: "corners",
+      version: "v1",
+    },
+    ...overrides,
+  }) as AppConfig;
+
+const location = { protocol: "https:", hostname: "nas.example.test" };
+
+describe("console application list", () => {
+  it("is mounted only on the console dashboard route", () => {
+    const layoutSource = readFileSync(
+      new URL("../src/views/Layout.vue", import.meta.url),
+      "utf8",
+    );
+    assert.match(
+      layoutSource,
+      /<ConsoleApplicationBar v-if="route\.name === 'Dashboard'" \/>/u,
+    );
+  });
+
+  it("is only visible for enabled FPK deployments", () => {
+    assert.equal(
+      shouldShowConsoleApplicationList({
+        deploymentTarget: "fpk",
+        enabled: true,
+      }),
+      true,
+    );
+    assert.equal(
+      shouldShowConsoleApplicationList({
+        deploymentTarget: "fpk-lite",
+        enabled: true,
+      }),
+      true,
+    );
+    assert.equal(
+      shouldShowConsoleApplicationList({
+        deploymentTarget: "docker",
+        enabled: true,
+      }),
+      false,
+    );
+    assert.equal(
+      shouldShowConsoleApplicationList({
+        deploymentTarget: "fpk",
+        enabled: false,
+      }),
+      false,
+    );
+  });
+
+  it("prioritizes eligible Host apps and follows grouped ordering", () => {
+    const mediaGroup = "11111111-1111-4111-8111-111111111111";
+    const toolsGroup = "22222222-2222-4222-8222-222222222222";
+    const autoIcon = "data:image/png;base64,YXV0bw==";
+    const customIcon = "data:image/webp;base64,Y3VzdG9t";
+    const items = buildConsoleApplicationItems({
+      accessEntryPort: "8443",
+      location,
+      config: config({
+        host_mapping_grouped_view: true,
+        host_mapping_groups: [
+          { id: mediaGroup, name: "Media" },
+          { id: toolsGroup, name: "Tools" },
+        ],
+        host_mappings: [
+          hostMapping("tool.example.test", {
+            group_id: toolsGroup,
+            title: "Tool",
+          }),
+          hostMapping("loose.example.test"),
+          hostMapping("auth.example.test", { service_role: "auth" }),
+          hostMapping("disabled.example.test", { disabled: true }),
+          hostMapping("media.example.test", {
+            group_id: mediaGroup,
+            title: "Collected title",
+            title_override: "Media center",
+            favicon: autoIcon,
+            favicon_override: customIcon,
+          }),
+        ],
+        proxy_mappings: [
+          {
+            path: "/fallback",
+            target: "http://fallback:8080",
+            rewrite_html: false,
+            use_auth: true,
+            use_root_mode: false,
+            strip_path: false,
+          },
+        ],
+      }),
+    });
+
+    assert.deepEqual(
+      items.map((item) => item.label),
+      ["Media center", "Tool", "loose.example.test"],
+    );
+    assert.equal(items[0]?.iconSrc, customIcon);
+    assert.equal(items[0]?.href, "https://media.example.test:8443/");
+    assert.ok(items.every((item) => item.kind === "host"));
+  });
+
+  it("honors domain labels and disabled portal icons", () => {
+    const items = buildConsoleApplicationItems({
+      accessEntryPort: "443",
+      location,
+      config: config({
+        gateway_portal: {
+          enabled: true,
+          display_style: "domain",
+          show_app_icon: false,
+          show_wol: true,
+          icon_drag_mode: "corners",
+          version: "v1",
+        },
+        host_mappings: [
+          hostMapping("app.example.test", {
+            title_override: "Ignored title",
+            favicon_override: "data:image/png;base64,aWNvbg==",
+          }),
+        ],
+      }),
+    });
+
+    assert.equal(items[0]?.label, "app.example.test");
+    assert.equal(items[0]?.iconSrc, "");
+    assert.equal(items[0]?.showIcon, false);
+    assert.equal(items[0]?.href, "https://app.example.test/");
+  });
+
+  it("keeps static file and directory mappings in the portal", () => {
+    const items = buildConsoleApplicationItems({
+      accessEntryPort: "443",
+      location,
+      config: config({
+        host_mappings: [
+          hostMapping("docs.example.test", {
+            target_type: "directory",
+            target: "",
+            static_serve: {
+              path: "/srv/docs",
+              index_files: ["index.html", "index.htm"],
+              directory_listing: { enabled: true, render_readme: true },
+            },
+            title_override: "Documentation",
+          }),
+          hostMapping("manual.example.test", {
+            target_type: "file",
+            target: "",
+            static_serve: {
+              path: "/srv/manual.pdf",
+              index_files: [],
+              directory_listing: { enabled: false, render_readme: false },
+            },
+          }),
+        ],
+      }),
+    });
+
+    assert.deepEqual(
+      items.map(({ label, href, kind }) => ({ label, href, kind })),
+      [
+        {
+          label: "Documentation",
+          href: "https://docs.example.test/",
+          kind: "host",
+        },
+        {
+          label: "manual.example.test",
+          href: "https://manual.example.test/",
+          kind: "host",
+        },
+      ],
+    );
+  });
+
+  it("falls back to same-gateway path mappings when no Host app is eligible", () => {
+    const items = buildConsoleApplicationItems({
+      accessEntryPort: "7999",
+      location: { ...location, protocol: "http:" },
+      config: config({
+        ssl: { enabled: false },
+        host_mappings: [
+          hostMapping("auth.example.test", { service_role: "auth" }),
+          hostMapping("disabled.example.test", { disabled: true }),
+        ],
+        proxy_mappings: [
+          {
+            path: "/photos",
+            target: "http://photos:3000",
+            rewrite_html: false,
+            use_auth: true,
+            use_root_mode: false,
+            strip_path: false,
+          },
+          {
+            path: "tools/",
+            target: "http://tools:3000",
+            rewrite_html: false,
+            use_auth: true,
+            use_root_mode: false,
+            strip_path: false,
+          },
+        ],
+      }),
+    });
+
+    assert.deepEqual(
+      items.map(({ label, href, kind, showIcon }) => ({
+        label,
+        href,
+        kind,
+        showIcon,
+      })),
+      [
+        {
+          label: "/photos",
+          href: "http://nas.example.test:7999/photos/",
+          kind: "path",
+          showIcon: true,
+        },
+        {
+          label: "tools/",
+          href: "http://nas.example.test:7999/tools/",
+          kind: "path",
+          showIcon: true,
+        },
+      ],
+    );
+  });
+
+  it("uses path mappings when HostRules are inactive", () => {
+    const items = buildConsoleApplicationItems({
+      accessEntryPort: "7999",
+      location,
+      config: config({
+        run_type: 1,
+        reverse_proxy_submode: "path",
+        host_mappings: [hostMapping("stale.example.test")],
+        proxy_mappings: [
+          {
+            path: "/active",
+            target: "http://active:3000",
+            rewrite_html: false,
+            use_auth: true,
+            use_root_mode: false,
+            strip_path: false,
+          },
+        ],
+      }),
+    });
+
+    assert.deepEqual(
+      items.map(({ label, kind }) => ({ label, kind })),
+      [{ label: "/active", kind: "path" }],
+    );
+  });
+
+  it("falls back to paths when every active Host app has an unsafe host", () => {
+    const items = buildConsoleApplicationItems({
+      accessEntryPort: "7999",
+      location,
+      config: config({
+        host_mappings: [hostMapping("trusted.example.test@evil.example.test")],
+        proxy_mappings: [
+          {
+            path: "/safe",
+            target: "http://safe:3000",
+            rewrite_html: false,
+            use_auth: true,
+            use_root_mode: false,
+            strip_path: false,
+          },
+        ],
+      }),
+    });
+
+    assert.equal(items.length, 1);
+    assert.equal(items[0]?.label, "/safe");
+    assert.equal(items[0]?.kind, "path");
+  });
+
+  it("tolerates legacy Host metadata fields that are absent", () => {
+    const legacyMapping = hostMapping("legacy.example.test");
+    const legacyRecord = legacyMapping as unknown as Record<string, unknown>;
+    delete legacyRecord.title;
+    delete legacyRecord.title_override;
+    delete legacyRecord.favicon;
+    delete legacyRecord.favicon_override;
+
+    const items = buildConsoleApplicationItems({
+      accessEntryPort: "7999",
+      location,
+      config: config({ host_mappings: [legacyMapping] }),
+    });
+
+    assert.equal(items[0]?.label, "legacy.example.test");
+    assert.equal(items[0]?.iconSrc, "");
+  });
+
+  it("uses the console protocol and omits only its matching default port", () => {
+    assert.equal(
+      buildConsoleHostApplicationHref(
+        "app.example.test",
+        location,
+        config({ ssl: { enabled: false } }),
+        "443",
+      ),
+      "https://app.example.test/",
+    );
+    assert.equal(
+      buildConsoleHostApplicationHref(
+        "app.example.test",
+        { ...location, protocol: "http:" },
+        config({ ssl: { enabled: true } }),
+        "80",
+      ),
+      "http://app.example.test/",
+    );
+    assert.equal(
+      buildConsolePathApplicationHref(
+        "/app",
+        location,
+        config({ ssl: { enabled: true } }),
+        "invalid",
+      ),
+      "https://nas.example.test:7999/app/",
+    );
+    assert.equal(
+      buildConsoleHostApplicationHref(
+        "app.example.test",
+        location,
+        config({ ssl: { enabled: true } }),
+        "443oops",
+      ),
+      "https://app.example.test:7999/",
+    );
+  });
+
+  it("prefers the scheme-specific public port over the origin gateway port", () => {
+    assert.equal(
+      buildConsoleHostApplicationHref(
+        "app.example.test",
+        location,
+        config({
+          ssl: { enabled: true },
+          subdomain_mode: {
+            ...config().subdomain_mode,
+            public_https_port: 8443,
+            public_http_port: 8080,
+          },
+        }),
+        "7999",
+      ),
+      "https://app.example.test:8443/",
+    );
+    assert.equal(
+      buildConsoleHostApplicationHref(
+        "app.example.test",
+        location,
+        config({
+          ssl: { enabled: true },
+          subdomain_mode: {
+            ...config().subdomain_mode,
+            public_auth_base_url: "https://auth.example.test:9443",
+            public_https_port: 8443,
+          },
+        }),
+        "7999",
+      ),
+      "https://app.example.test:9443/",
+    );
+  });
+
+  it("omits origin ports behind standard-port edge ingress", () => {
+    const edgeConfig = config({
+      ssl: { enabled: true },
+      subdomain_mode: {
+        ...config().subdomain_mode,
+        edge_client_ip_enabled: true,
+        aliyun_esa_enabled: true,
+        public_auth_base_url: "https://auth.example.test:7999",
+        public_https_port: 7999,
+      },
+    });
+    assert.equal(
+      buildConsoleHostApplicationHref(
+        "app.example.test",
+        location,
+        edgeConfig,
+        "7999",
+      ),
+      "https://app.example.test/",
+    );
+
+    const cloudflaredConfig = config({
+      run_type: 1,
+      reverse_proxy_submode: "subdomain",
+      default_tunnel: "cloudflared",
+      ssl: { enabled: true },
+      subdomain_mode: {
+        ...config().subdomain_mode,
+        public_https_port: 7999,
+      },
+    });
+    assert.equal(
+      buildConsoleHostApplicationHref(
+        "app.example.test",
+        location,
+        cloudflaredConfig,
+        "7999",
+      ),
+      "https://app.example.test/",
+    );
+  });
+
+  it("uses the FRP remote entry instead of a reverse-mode origin port", () => {
+    assert.equal(
+      buildConsoleHostApplicationHref(
+        "app.example.test",
+        location,
+        config({
+          run_type: 1,
+          reverse_proxy_submode: "subdomain",
+          default_tunnel: "frp",
+          ssl: { enabled: true },
+          subdomain_mode: {
+            ...config().subdomain_mode,
+            public_https_port: 8443,
+          },
+        }),
+        "24443",
+      ),
+      "https://app.example.test:24443/",
+    );
+  });
+});

@@ -1,1 +1,48 @@
-aW1wb3J0IHR5cGUgewogIERvY2tlckFkbWluQm9vdHN0cmFwU3RhdGUsCiAgUnVudGltZUNhcGFiaWxpdGllcywKICBSdW50aW1lUHJvZmlsZSwKfSBmcm9tICIuLi90eXBlcyI7CgpleHBvcnQgdHlwZSBEb2NrZXJBZG1pbkRlYnVnU3RhZ2UgPSAic2V0dXAiIHwgImxvZ2luIiB8ICJhdXRoZW50aWNhdGVkIjsKCmV4cG9ydCBjb25zdCByZWFkRG9ja2VyQWRtaW5EZWJ1Z1N0YWdlID0gKCk6IERvY2tlckFkbWluRGVidWdTdGFnZSB8IG51bGwgPT4KICBudWxsOwoKZXhwb3J0IGNvbnN0IHdyaXRlRG9ja2VyQWRtaW5EZWJ1Z1N0YWdlID0gKAogIF9zdGFnZTogRG9ja2VyQWRtaW5EZWJ1Z1N0YWdlIHwgbnVsbCwKKSA9PiB7fTsKCmV4cG9ydCBjb25zdCByZWFkRG9ja2VyQWRtaW5EZWJ1Z1Bhc3N3b3JkID0gKCkgPT4gIiI7CgpleHBvcnQgY29uc3Qgd3JpdGVEb2NrZXJBZG1pbkRlYnVnUGFzc3dvcmQgPSAoX3Bhc3N3b3JkOiBzdHJpbmcgfCBudWxsKSA9PiB7fTsKCmV4cG9ydCBjb25zdCB2YWxpZGF0ZURvY2tlckFkbWluRGVidWdQYXNzd29yZCA9IChfcGFzc3dvcmQ6IHN0cmluZykgPT4gbnVsbDsKCmV4cG9ydCBjb25zdCBjcmVhdGVEb2NrZXJBZG1pbkRlYnVnU3RhdGUgPSAoCiAgX3N0YWdlOiBEb2NrZXJBZG1pbkRlYnVnU3RhZ2UsCiAgbG9jYWxlPzogRG9ja2VyQWRtaW5Cb290c3RyYXBTdGF0ZVsibG9jYWxlIl0sCiAgYXBwZWFyYW5jZT86IERvY2tlckFkbWluQm9vdHN0cmFwU3RhdGVbImFwcGVhcmFuY2UiXSwKICBfcmVtZW1iZXJNZSA9IGZhbHNlLAopOiBEb2NrZXJBZG1pbkJvb3RzdHJhcFN0YXRlID0+ICh7CiAgZGVwbG95bWVudF90YXJnZXQ6ICJmcGstbGl0ZSIsCiAgZW5hYmxlZDogZmFsc2UsCiAgcGFzc3dvcmRfY29uZmlndXJlZDogZmFsc2UsCiAgYXV0aGVudGljYXRlZDogdHJ1ZSwKICBhdXRoX3NvdXJjZTogbnVsbCwKICBzZXNzaW9uX2V4cGlyZXNfYXQ6IG51bGwsCiAgbG9jYWxlOiBsb2NhbGUgPz8geyBkZWZhdWx0X2xvY2FsZTogInpoLUNOIiB9LAogIGFwcGVhcmFuY2U6IGFwcGVhcmFuY2UgPz8geyB0aGVtZV9jb2xvcl9wcmVzZXQ6ICJkZWZhdWx0IiB9LAp9KTsKCmV4cG9ydCBjb25zdCBidWlsZERvY2tlckFkbWluRGVidWdTdGF0ZSA9ICgKICBfYmFja2VuZFN0YXRlOiBEb2NrZXJBZG1pbkJvb3RzdHJhcFN0YXRlLAopOiBEb2NrZXJBZG1pbkJvb3RzdHJhcFN0YXRlIHwgbnVsbCA9PiBudWxsOwoKZXhwb3J0IGNvbnN0IGdldEVmZmVjdGl2ZVJ1bnRpbWVQcm9maWxlID0gKAogIHByb2ZpbGU/OiBSdW50aW1lUHJvZmlsZSwKKTogUnVudGltZVByb2ZpbGUgfCB1bmRlZmluZWQgPT4gcHJvZmlsZTsKCmV4cG9ydCBjb25zdCBnZXRFZmZlY3RpdmVSdW50aW1lQ2FwYWJpbGl0aWVzID0gKAogIGNhcGFiaWxpdGllcz86IFJ1bnRpbWVDYXBhYmlsaXRpZXMsCik6IFJ1bnRpbWVDYXBhYmlsaXRpZXMgfCB1bmRlZmluZWQgPT4gY2FwYWJpbGl0aWVzOwo=
+import type {
+  DockerAdminBootstrapState,
+  RuntimeCapabilities,
+  RuntimeProfile,
+} from "../types";
+
+export type DockerAdminDebugStage = "setup" | "login" | "authenticated";
+
+export const readDockerAdminDebugStage = (): DockerAdminDebugStage | null =>
+  null;
+
+export const writeDockerAdminDebugStage = (
+  _stage: DockerAdminDebugStage | null,
+) => {};
+
+export const readDockerAdminDebugPassword = () => "";
+
+export const writeDockerAdminDebugPassword = (_password: string | null) => {};
+
+export const validateDockerAdminDebugPassword = (_password: string) => null;
+
+export const createDockerAdminDebugState = (
+  _stage: DockerAdminDebugStage,
+  locale?: DockerAdminBootstrapState["locale"],
+  appearance?: DockerAdminBootstrapState["appearance"],
+  _rememberMe = false,
+): DockerAdminBootstrapState => ({
+  deployment_target: "fpk-lite",
+  enabled: false,
+  password_configured: false,
+  authenticated: true,
+  auth_source: null,
+  session_expires_at: null,
+  locale: locale ?? { default_locale: "zh-CN" },
+  appearance: appearance ?? { theme_color_preset: "default" },
+});
+
+export const buildDockerAdminDebugState = (
+  _backendState: DockerAdminBootstrapState,
+): DockerAdminBootstrapState | null => null;
+
+export const getEffectiveRuntimeProfile = (
+  profile?: RuntimeProfile,
+): RuntimeProfile | undefined => profile;
+
+export const getEffectiveRuntimeCapabilities = (
+  capabilities?: RuntimeCapabilities,
+): RuntimeCapabilities | undefined => capabilities;

@@ -1,1 +1,79 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IHJlYWRGaWxlU3luYyB9IGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwoKaW1wb3J0IHsgYWR2YW5jZWRBdXRoUmVxdWVzdEhlYWRlck5hbWVzIH0gZnJvbSAiLi4vc3JjL3ZpZXdzL3N1YmRvbWFpbi1wcm94eS9hZHZhbmNlZC1hdXRoLXJlcXVlc3QtaGVhZGVycyI7Cgpjb25zdCBwcm90ZWN0ZWRIZWFkZXJOYW1lcyA9IFsKICAiYXV0aG9yaXphdGlvbiIsCiAgImNvb2tpZSIsCiAgImhvc3QiLAogICJjb25uZWN0aW9uIiwKICAiZm9yd2FyZGVkIiwKICAicHJveHktYXV0aG9yaXphdGlvbiIsCiAgInRyYW5zZmVyLWVuY29kaW5nIiwKICAidXBncmFkZSIsCiAgIngtZm9yd2FyZGVkLWZvciIsCiAgIngtcmVhbC1pcCIsCiAgImNmLWNvbm5lY3RpbmctaXAiLApdOwoKZGVzY3JpYmUoImFkdmFuY2VkIGF1dGhlbnRpY2F0aW9uIHJlcXVlc3QgaGVhZGVyIHN1Z2dlc3Rpb25zIiwgKCkgPT4gewogIGl0KCJkb2VzIG5vdCBjb250YWluIGNhc2UtaW5zZW5zaXRpdmUgZHVwbGljYXRlcyIsICgpID0+IHsKICAgIGNvbnN0IG5vcm1hbGl6ZWQgPSBhZHZhbmNlZEF1dGhSZXF1ZXN0SGVhZGVyTmFtZXMubWFwKChoZWFkZXIpID0+CiAgICAgIGhlYWRlci50b0xvd2VyQ2FzZSgpLAogICAgKTsKCiAgICBhc3NlcnQuZXF1YWwobmV3IFNldChub3JtYWxpemVkKS5zaXplLCBub3JtYWxpemVkLmxlbmd0aCk7CiAgfSk7CgogIGl0KCJkb2VzIG5vdCBzdWdnZXN0IHByb3RlY3RlZCByZXF1ZXN0IGhlYWRlcnMiLCAoKSA9PiB7CiAgICBjb25zdCBub3JtYWxpemVkID0gbmV3IFNldCgKICAgICAgYWR2YW5jZWRBdXRoUmVxdWVzdEhlYWRlck5hbWVzLm1hcCgoaGVhZGVyKSA9PiBoZWFkZXIudG9Mb3dlckNhc2UoKSksCiAgICApOwoKICAgIGZvciAoY29uc3QgaGVhZGVyIG9mIHByb3RlY3RlZEhlYWRlck5hbWVzKSB7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICBub3JtYWxpemVkLmhhcyhoZWFkZXIpLAogICAgICAgIGZhbHNlLAogICAgICAgIGAke2hlYWRlcn0gbXVzdCBub3QgYmUgc3VnZ2VzdGVkYCwKICAgICAgKTsKICAgIH0KICAgIGFzc2VydC5lcXVhbCgKICAgICAgWy4uLm5vcm1hbGl6ZWRdLnNvbWUoKGhlYWRlcikgPT4gaGVhZGVyLnN0YXJ0c1dpdGgoIngtZm9yd2FyZGVkLSIpKSwKICAgICAgZmFsc2UsCiAgICApOwogIH0pOwoKICBpdCgidXNlcyB0aGUgY29udHJvbC1wbGFuZSBjYW5vbmljYWwgaGVhZGVyIGNhc2luZyIsICgpID0+IHsKICAgIGNvbnN0IGNhbm9uaWNhbGl6ZSA9IChoZWFkZXI6IHN0cmluZykgPT4KICAgICAgaGVhZGVyCiAgICAgICAgLnRyaW0oKQogICAgICAgIC5zcGxpdCgiLSIpCiAgICAgICAgLm1hcCgKICAgICAgICAgIChzZWdtZW50KSA9PgogICAgICAgICAgICBgJHtzZWdtZW50LmNoYXJBdCgwKS50b1VwcGVyQ2FzZSgpfSR7c2VnbWVudC5zbGljZSgxKS50b0xvd2VyQ2FzZSgpfWAsCiAgICAgICAgKQogICAgICAgIC5qb2luKCItIik7CgogICAgZm9yIChjb25zdCBoZWFkZXIgb2YgYWR2YW5jZWRBdXRoUmVxdWVzdEhlYWRlck5hbWVzKSB7CiAgICAgIGFzc2VydC5lcXVhbChoZWFkZXIsIGNhbm9uaWNhbGl6ZShoZWFkZXIpKTsKICAgIH0KICB9KTsKCiAgaXQoImxlYXZlcyBuYXRpdmUgaW5wdXQgYW5kIElNRSBjb21wb3NpdGlvbiBldmVudHMgdW5kZXIgUmVrYSBvd25lcnNoaXAiLCAoKSA9PiB7CiAgICBjb25zdCBzb3VyY2UgPSByZWFkRmlsZVN5bmMoCiAgICAgIG5ldyBVUkwoCiAgICAgICAgIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvQWR2YW5jZWRBdXRoSGVhZGVyTmFtZUZpZWxkLnZ1ZSIsCiAgICAgICAgaW1wb3J0Lm1ldGEudXJsLAogICAgICApLAogICAgICAidXRmOCIsCiAgICApOwoKICAgIGFzc2VydC5tYXRjaChzb3VyY2UsIC88QXV0b2NvbXBsZXRlSW5wdXRccy91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goc291cmNlLCAvPEF1dG9jb21wbGV0ZUlucHV0XHMrYXMtY2hpbGQvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKHNvdXJjZSwgL2NvbXBvbmVudHNcL3VpXC9pbnB1dC91KTsKICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+import { advancedAuthRequestHeaderNames } from "../src/views/subdomain-proxy/advanced-auth-request-headers";
+
+const protectedHeaderNames = [
+  "authorization",
+  "cookie",
+  "host",
+  "connection",
+  "forwarded",
+  "proxy-authorization",
+  "transfer-encoding",
+  "upgrade",
+  "x-forwarded-for",
+  "x-real-ip",
+  "cf-connecting-ip",
+];
+
+describe("advanced authentication request header suggestions", () => {
+  it("does not contain case-insensitive duplicates", () => {
+    const normalized = advancedAuthRequestHeaderNames.map((header) =>
+      header.toLowerCase(),
+    );
+
+    assert.equal(new Set(normalized).size, normalized.length);
+  });
+
+  it("does not suggest protected request headers", () => {
+    const normalized = new Set(
+      advancedAuthRequestHeaderNames.map((header) => header.toLowerCase()),
+    );
+
+    for (const header of protectedHeaderNames) {
+      assert.equal(
+        normalized.has(header),
+        false,
+        `${header} must not be suggested`,
+      );
+    }
+    assert.equal(
+      [...normalized].some((header) => header.startsWith("x-forwarded-")),
+      false,
+    );
+  });
+
+  it("uses the control-plane canonical header casing", () => {
+    const canonicalize = (header: string) =>
+      header
+        .trim()
+        .split("-")
+        .map(
+          (segment) =>
+            `${segment.charAt(0).toUpperCase()}${segment.slice(1).toLowerCase()}`,
+        )
+        .join("-");
+
+    for (const header of advancedAuthRequestHeaderNames) {
+      assert.equal(header, canonicalize(header));
+    }
+  });
+
+  it("leaves native input and IME composition events under Reka ownership", () => {
+    const source = readFileSync(
+      new URL(
+        "../src/views/subdomain-proxy/AdvancedAuthHeaderNameField.vue",
+        import.meta.url,
+      ),
+      "utf8",
+    );
+
+    assert.match(source, /<AutocompleteInput\s/u);
+    assert.doesNotMatch(source, /<AutocompleteInput\s+as-child/u);
+    assert.doesNotMatch(source, /components\/ui\/input/u);
+  });
+});

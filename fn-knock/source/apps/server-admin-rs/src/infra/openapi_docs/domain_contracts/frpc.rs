@@ -1,1 +1,176 @@
-dXNlIHN1cGVyOjpDbG91ZGZsYXJlZFN1cGVydmlzb3JEYXRhOwp1c2Ugc2VyZGU6OlNlcmlhbGl6ZTsKdXNlIHV0b2lwYTo6VG9TY2hlbWE7CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRnJwY1RjcEl0ZW1EYXRhIHsKICAgIG5hbWU6IFN0cmluZywKICAgICNbc2VyZGUocmVuYW1lID0gInR5cGUiKV0KICAgIGl0ZW1fdHlwZTogU3RyaW5nLAogICAgc3RhdHVzOiBTdHJpbmcsCiAgICBlcnI6IFN0cmluZywKICAgIGxvY2FsX2FkZHI6IFN0cmluZywKICAgIHBsdWdpbjogU3RyaW5nLAogICAgcmVtb3RlX2FkZHI6IFN0cmluZywKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRnJwY0luc3RhbmNlU3VtbWFyeURhdGEgewogICAgc2VydmVyX2FkZHI6IFN0cmluZywKICAgIHNlcnZlcl9wb3J0OiBTdHJpbmcsCiAgICBsb2NhbF9wb3J0OiBTdHJpbmcsCiAgICByZW1vdGVfcG9ydDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBGcnBjSW5zdGFuY2VTdGF0dXNEYXRhIHsKICAgIGlkOiBTdHJpbmcsCiAgICBuYW1lOiBTdHJpbmcsCiAgICBpc19wcmltYXJ5OiBib29sLAogICAgY29uZmlnX3BhdGg6IFN0cmluZywKICAgIHdvcmtfZGlyOiBTdHJpbmcsCiAgICBjcmVhdGVkX2F0OiBTdHJpbmcsCiAgICB1cGRhdGVkX2F0OiBTdHJpbmcsCiAgICBzb3J0X29yZGVyOiBpNjQsCiAgICBkZXNpcmVkX3J1bm5pbmc6IGJvb2wsCiAgICBydW5uaW5nOiBib29sLAogICAgYXR0YWNoZWQ6IGJvb2wsCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgcGlkOiBPcHRpb248dTMyPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBzdGFydGVkX2F0OiBPcHRpb248U3RyaW5nPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBzdG9wcGVkX2F0OiBPcHRpb248U3RyaW5nPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBsYXN0X2V4aXRfY29kZTogT3B0aW9uPGkzMj4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgbGFzdF9tZXNzYWdlOiBPcHRpb248U3RyaW5nPiwKICAgIHN1cGVydmlzb3I6IENsb3VkZmxhcmVkU3VwZXJ2aXNvckRhdGEsCiAgICBzdW1tYXJ5OiBGcnBjSW5zdGFuY2VTdW1tYXJ5RGF0YSwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEZycGNEZWZhdWx0c0RhdGEgewogICAgbG9jYWxfcG9ydDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBGcnBjSW5zdGFuY2VzT3ZlcnZpZXdEYXRhIHsKICAgIGluaXRpYWxpemVkOiBib29sLAogICAgcGxhdGZvcm06IFN0cmluZywKICAgIHByaW1hcnlfaW5zdGFuY2VfaWQ6IFN0cmluZywKICAgIHRvdGFsOiB1c2l6ZSwKICAgIGV4dHJhX2NvdW50OiB1c2l6ZSwKICAgIHJ1bm5pbmdfY291bnQ6IHVzaXplLAogICAgb3V0ZGF0ZWRfcnVubmluZ19jb3VudDogdXNpemUsCiAgICBkZWZhdWx0czogRnJwY0RlZmF1bHRzRGF0YSwKICAgIGl0ZW1zOiBWZWM8RnJwY0luc3RhbmNlU3RhdHVzRGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IEZycGNTdGF0dXNEYXRhIHsKICAgIGluaXRpYWxpemVkOiBib29sLAogICAgcGxhdGZvcm06IFN0cmluZywKICAgIHJ1bm5pbmc6IGJvb2wsCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgcGlkOiBPcHRpb248dTMyPiwKICAgIGRlc2lyZWRfcnVubmluZzogYm9vbCwKICAgIHN1cGVydmlzb3I6IENsb3VkZmxhcmVkU3VwZXJ2aXNvckRhdGEsCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJjb25maWdfcGF0aCIpXQogICAgY29uZmlnX3BhdGg6IFN0cmluZywKICAgIGRlZmF1bHRzOiBGcnBjRGVmYXVsdHNEYXRhLAogICAgdG90YWw6IHVzaXplLAogICAgI1tzZXJkZShyZW5hbWUgPSAicnVubmluZ19jb3VudCIpXQogICAgcnVubmluZ19jb3VudDogdXNpemUsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBGcnBjTGVnYWN5T3ZlcnZpZXdEYXRhIHsKICAgIHRjcDogVmVjPEZycGNUY3BJdGVtRGF0YT4sCiAgICBsb2dzOiBWZWM8U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEZycGNXZWJTdGF0dXNEYXRhIHsKICAgIHRjcDogVmVjPEZycGNUY3BJdGVtRGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBGcnBjQ29uZmlnRGF0YSB7CiAgICBjb250ZW50OiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBGcnBjQ29uZmlnVXBkYXRlRGF0YSB7CiAgICBjb250ZW50OiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBGcnBjU3RhcnREYXRhIHsKICAgIHBpZDogdTMyLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRnJwY0luc3RhbmNlQm9keURhdGEgewogICAgbmFtZTogT3B0aW9uPFN0cmluZz4sCiAgICBjb250ZW50OiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEZycGNJbnN0YW5jZURldGFpbERhdGEgewogICAgaXRlbTogRnJwY0luc3RhbmNlU3RhdHVzRGF0YSwKICAgIGNvbnRlbnQ6IFN0cmluZywKICAgIGxvZ3M6IFZlYzxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBGcnBjUHJpbWFyeVN0YXR1c0RhdGEgewogICAgaWQ6IFN0cmluZywKICAgIG5hbWU6IFN0cmluZywKICAgIGlzX3ByaW1hcnk6IGJvb2wsCiAgICBjb25maWdfcGF0aDogU3RyaW5nLAogICAgd29ya19kaXI6IFN0cmluZywKICAgIGNyZWF0ZWRfYXQ6IFN0cmluZywKICAgIHVwZGF0ZWRfYXQ6IFN0cmluZywKICAgIHNvcnRfb3JkZXI6IGk2NCwKICAgIGRlc2lyZWRfcnVubmluZzogYm9vbCwKICAgIHJ1bm5pbmc6IGJvb2wsCiAgICBhdHRhY2hlZDogYm9vbCwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBwaWQ6IE9wdGlvbjx1MzI+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIHN0YXJ0ZWRfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIHN0b3BwZWRfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIGxhc3RfZXhpdF9jb2RlOiBPcHRpb248aTMyPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBsYXN0X21lc3NhZ2U6IE9wdGlvbjxTdHJpbmc+LAogICAgc3VwZXJ2aXNvcjogQ2xvdWRmbGFyZWRTdXBlcnZpc29yRGF0YSwKICAgIHN1bW1hcnk6IEZycGNJbnN0YW5jZVN1bW1hcnlEYXRhLAogICAgdGNwOiBWZWM8RnJwY1RjcEl0ZW1EYXRhPiwKICAgIGluc3RhbmNlczogRnJwY0luc3RhbmNlc092ZXJ2aWV3RGF0YSwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRnJwY1BvbGxEYXRhIHsKICAgIGN1cnNvcjogaTY0LAogICAgcmVzZXQ6IGJvb2wsCiAgICBsb2dzOiBWZWM8U3RyaW5nPiwKICAgIHN0YXR1czogRnJwY1ByaW1hcnlTdGF0dXNEYXRhLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBGcnBjSW5zdGFuY2VQb2xsRGF0YSB7CiAgICBjdXJzb3I6IGk2NCwKICAgIHJlc2V0OiBib29sLAogICAgbG9nczogVmVjPFN0cmluZz4sCiAgICBzdGF0dXM6IEZycGNJbnN0YW5jZVN0YXR1c0RhdGEsCn0K
+use super::CloudflaredSupervisorData;
+use serde::Serialize;
+use utoipa::ToSchema;
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct FrpcTcpItemData {
+    name: String,
+    #[serde(rename = "type")]
+    item_type: String,
+    status: String,
+    err: String,
+    local_addr: String,
+    plugin: String,
+    remote_addr: String,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct FrpcInstanceSummaryData {
+    server_addr: String,
+    server_port: String,
+    local_port: String,
+    remote_port: String,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct FrpcInstanceStatusData {
+    id: String,
+    name: String,
+    is_primary: bool,
+    config_path: String,
+    work_dir: String,
+    created_at: String,
+    updated_at: String,
+    sort_order: i64,
+    desired_running: bool,
+    running: bool,
+    attached: bool,
+    #[schema(required = true)]
+    pid: Option<u32>,
+    #[schema(required = true)]
+    started_at: Option<String>,
+    #[schema(required = true)]
+    stopped_at: Option<String>,
+    #[schema(required = true)]
+    last_exit_code: Option<i32>,
+    #[schema(required = true)]
+    last_message: Option<String>,
+    supervisor: CloudflaredSupervisorData,
+    summary: FrpcInstanceSummaryData,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct FrpcDefaultsData {
+    local_port: String,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct FrpcInstancesOverviewData {
+    initialized: bool,
+    platform: String,
+    primary_instance_id: String,
+    total: usize,
+    extra_count: usize,
+    running_count: usize,
+    outdated_running_count: usize,
+    defaults: FrpcDefaultsData,
+    items: Vec<FrpcInstanceStatusData>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct FrpcStatusData {
+    initialized: bool,
+    platform: String,
+    running: bool,
+    #[schema(required = true)]
+    pid: Option<u32>,
+    desired_running: bool,
+    supervisor: CloudflaredSupervisorData,
+    #[serde(rename = "config_path")]
+    config_path: String,
+    defaults: FrpcDefaultsData,
+    total: usize,
+    #[serde(rename = "running_count")]
+    running_count: usize,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct FrpcLegacyOverviewData {
+    tcp: Vec<FrpcTcpItemData>,
+    logs: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct FrpcWebStatusData {
+    tcp: Vec<FrpcTcpItemData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct FrpcConfigData {
+    content: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct FrpcConfigUpdateData {
+    content: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct FrpcStartData {
+    pid: u32,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct FrpcInstanceBodyData {
+    name: Option<String>,
+    content: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct FrpcInstanceDetailData {
+    item: FrpcInstanceStatusData,
+    content: String,
+    logs: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct FrpcPrimaryStatusData {
+    id: String,
+    name: String,
+    is_primary: bool,
+    config_path: String,
+    work_dir: String,
+    created_at: String,
+    updated_at: String,
+    sort_order: i64,
+    desired_running: bool,
+    running: bool,
+    attached: bool,
+    #[schema(required = true)]
+    pid: Option<u32>,
+    #[schema(required = true)]
+    started_at: Option<String>,
+    #[schema(required = true)]
+    stopped_at: Option<String>,
+    #[schema(required = true)]
+    last_exit_code: Option<i32>,
+    #[schema(required = true)]
+    last_message: Option<String>,
+    supervisor: CloudflaredSupervisorData,
+    summary: FrpcInstanceSummaryData,
+    tcp: Vec<FrpcTcpItemData>,
+    instances: FrpcInstancesOverviewData,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct FrpcPollData {
+    cursor: i64,
+    reset: bool,
+    logs: Vec<String>,
+    status: FrpcPrimaryStatusData,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct FrpcInstancePollData {
+    cursor: i64,
+    reset: bool,
+    logs: Vec<String>,
+    status: FrpcInstanceStatusData,
+}

@@ -1,1 +1,254 @@
-aW1wb3J0IHR5cGUgeyBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgdHlwZSB7IFRlcm1pbmFsQXR0YWNobWVudFJlY29yZCB9IGZyb20gIkAvbGliL2FwaS90ZXJtaW5hbCI7CmltcG9ydCB7CiAgSU5QVVRfQkFUQ0hfTUFYX0JZVEVTLAogIElOUFVUX0JBVENIX1dJTkRPV19NUywKfSBmcm9tICIuL3Rlcm1pbmFsLXJ1bnRpbWUiOwppbXBvcnQgewogIGVuY29kZUlucHV0VG9CYXNlNjQsCiAgZ2V0SW5wdXRCeXRlTGVuZ3RoLAogIGlzU2FmZVJlbW90ZVRlcm1pbmFsUmVzcG9uc2UsCiAgc3BsaXRUZXJtaW5hbElucHV0QnlCeXRlTGVuZ3RoLAogIHN1bW1hcml6ZVRlcm1pbmFsUmVzcG9uc2VDb2RlUG9pbnRzLAp9IGZyb20gIi4vdGVybWluYWwtaW5wdXQiOwoKY29uc3QgTUFYX1BFTkRJTkdfSU5QVVRfQllURVMgPSA2NCAqIDEwMjQ7Cgp0eXBlIFRlcm1pbmFsQ29ubmVjdGlvblN0YXRlID0gImlkbGUiIHwgImNvbm5lY3RpbmciIHwgImNvbm5lY3RlZCIgfCAiZXJyb3IiOwoKZXhwb3J0IGNvbnN0IHVzZVRlcm1pbmFsSW5wdXRRdWV1ZSA9ICh7CiAgYWN0aXZlQXR0YWNobWVudCwKICBjb25uZWN0aW9uU3RhdGUsCiAgb25TZW5kRXJyb3IsCiAgc2VsZWN0ZWRTZXNzaW9uSWQsCiAgc2VuZElucHV0LAogIHRyYW5zbGF0ZSwKfTogewogIGFjdGl2ZUF0dGFjaG1lbnQ6IFJlZjxUZXJtaW5hbEF0dGFjaG1lbnRSZWNvcmQgfCBudWxsPjsKICBjb25uZWN0aW9uU3RhdGU6IFJlYWRvbmx5PFJlZjxUZXJtaW5hbENvbm5lY3Rpb25TdGF0ZT4+OwogIG9uU2VuZEVycm9yOiAoZXJyb3I6IHVua25vd24pID0+IHZvaWQ7CiAgc2VsZWN0ZWRTZXNzaW9uSWQ6IFJlZjxzdHJpbmc+OwogIHNlbmRJbnB1dDogKGF0dGFjaG1lbnRJZDogc3RyaW5nLCBwYXlsb2FkOiBzdHJpbmcpID0+IFByb21pc2U8dW5rbm93bj47CiAgdHJhbnNsYXRlOiAoa2V5OiBzdHJpbmcpID0+IHN0cmluZzsKfSkgPT4gewogIGxldCBpbnB1dEZsdXNoVGltZXI6IG51bWJlciB8IG51bGwgPSBudWxsOwogIGxldCBwZW5kaW5nSW5wdXRCdWZmZXIgPSAiIjsKICBsZXQgcGVuZGluZ0lucHV0Qnl0ZXMgPSAwOwogIGxldCBpbnB1dFNlbmRRdWV1ZTogUHJvbWlzZTx1bmtub3duPiA9IFByb21pc2UucmVzb2x2ZSgpOwogIGxldCBpbnB1dFF1ZXVlR2VuZXJhdGlvbiA9IDA7CgogIGNvbnN0IHNob3VsZEZsdXNoSW5wdXRJbW1lZGlhdGVseSA9IChkYXRhOiBzdHJpbmcpOiBib29sZWFuID0+CiAgICBkYXRhLmluY2x1ZGVzKCJcciIpIHx8CiAgICBkYXRhLmluY2x1ZGVzKCJcbiIpIHx8CiAgICBkYXRhLmluY2x1ZGVzKCJcdTAwMDMiKSB8fAogICAgZGF0YS5pbmNsdWRlcygiXHUwMDA0IikgfHwKICAgIGRhdGEuaW5jbHVkZXMoIlx1MDAxYiIpIHx8CiAgICBnZXRJbnB1dEJ5dGVMZW5ndGgoZGF0YSkgPj0gSU5QVVRfQkFUQ0hfTUFYX0JZVEVTOwoKICBjb25zdCBjbGVhclBlbmRpbmdJbnB1dCA9ICgpID0+IHsKICAgIGlucHV0UXVldWVHZW5lcmF0aW9uICs9IDE7CiAgICBpZiAoaW5wdXRGbHVzaFRpbWVyKSB7CiAgICAgIHdpbmRvdy5jbGVhclRpbWVvdXQoaW5wdXRGbHVzaFRpbWVyKTsKICAgICAgaW5wdXRGbHVzaFRpbWVyID0gbnVsbDsKICAgIH0KICAgIHBlbmRpbmdJbnB1dEJ1ZmZlciA9ICIiOwogICAgcGVuZGluZ0lucHV0Qnl0ZXMgPSAwOwogIH07CgogIGNvbnN0IGdldFBlbmRpbmdJbnB1dFNuYXBzaG90ID0gKCkgPT4gKHsKICAgIGJ5dGVMZW5ndGg6IHBlbmRpbmdJbnB1dEJ5dGVzLAogICAgaGFzUGVuZGluZ0lucHV0OiBwZW5kaW5nSW5wdXRCdWZmZXIubGVuZ3RoID4gMCwKICB9KTsKCiAgY29uc3Qgc2V0SW5wdXRTZW5kRXJyb3IgPSAoZXJyb3I6IHVua25vd24pID0+IHsKICAgIG9uU2VuZEVycm9yKGVycm9yKTsKICB9OwoKICBjb25zdCBxdWV1ZUlucHV0UGF5bG9hZCA9IChhdHRhY2htZW50SWQ6IHN0cmluZywgcGF5bG9hZDogc3RyaW5nKSA9PiB7CiAgICBjb25zdCBnZW5lcmF0aW9uID0gaW5wdXRRdWV1ZUdlbmVyYXRpb247CiAgICBpbnB1dFNlbmRRdWV1ZSA9IGlucHV0U2VuZFF1ZXVlCiAgICAgIC5jYXRjaCgoKSA9PiB1bmRlZmluZWQpCiAgICAgIC50aGVuKGFzeW5jICgpID0+IHsKICAgICAgICBpZiAoCiAgICAgICAgICBnZW5lcmF0aW9uICE9PSBpbnB1dFF1ZXVlR2VuZXJhdGlvbiB8fAogICAgICAgICAgYWN0aXZlQXR0YWNobWVudC52YWx1ZT8uaWQgIT09IGF0dGFjaG1lbnRJZAogICAgICAgICkgewogICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBhd2FpdCBzZW5kSW5wdXQoYXR0YWNobWVudElkLCBlbmNvZGVJbnB1dFRvQmFzZTY0KHBheWxvYWQpKTsKICAgICAgfSkKICAgICAgLmNhdGNoKChlcnJvcikgPT4gewogICAgICAgIGlmICgKICAgICAgICAgIGdlbmVyYXRpb24gIT09IGlucHV0UXVldWVHZW5lcmF0aW9uIHx8CiAgICAgICAgICBhY3RpdmVBdHRhY2htZW50LnZhbHVlPy5pZCAhPT0gYXR0YWNobWVudElkCiAgICAgICAgKSB7CiAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIHNldElucHV0U2VuZEVycm9yKGVycm9yKTsKICAgICAgfSk7CiAgICByZXR1cm4gaW5wdXRTZW5kUXVldWU7CiAgfTsKCiAgY29uc3QgZmx1c2hQZW5kaW5nSW5wdXQgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoaW5wdXRGbHVzaFRpbWVyKSB7CiAgICAgIHdpbmRvdy5jbGVhclRpbWVvdXQoaW5wdXRGbHVzaFRpbWVyKTsKICAgICAgaW5wdXRGbHVzaFRpbWVyID0gbnVsbDsKICAgIH0KCiAgICBjb25zdCBhdHRhY2htZW50SWQgPSBhY3RpdmVBdHRhY2htZW50LnZhbHVlPy5pZDsKICAgIGlmICghcGVuZGluZ0lucHV0QnVmZmVyKSB7CiAgICAgIGF3YWl0IGlucHV0U2VuZFF1ZXVlOwogICAgICByZXR1cm47CiAgICB9CiAgICBpZiAoIWF0dGFjaG1lbnRJZCkgewogICAgICBjb25zb2xlLndhcm4oCiAgICAgICAgIlt0ZXJtaW5hbF0gaW5wdXQgZmx1c2ggZGVmZXJyZWQgdW50aWwgYXR0YWNobWVudCBpcyByZWFkeSIsCiAgICAgICAgewogICAgICAgICAgY29ubmVjdGlvblN0YXRlOiBjb25uZWN0aW9uU3RhdGUudmFsdWUsCiAgICAgICAgICBidWZmZXJlZEJ5dGVzOiBwZW5kaW5nSW5wdXRCeXRlcywKICAgICAgICAgIHNlbGVjdGVkU2Vzc2lvbklkOiBzZWxlY3RlZFNlc3Npb25JZC52YWx1ZSB8fCBudWxsLAogICAgICAgIH0sCiAgICAgICk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBjb25zdCBwYXlsb2FkcyA9IHNwbGl0VGVybWluYWxJbnB1dEJ5Qnl0ZUxlbmd0aCgKICAgICAgcGVuZGluZ0lucHV0QnVmZmVyLAogICAgICBJTlBVVF9CQVRDSF9NQVhfQllURVMsCiAgICApOwogICAgcGVuZGluZ0lucHV0QnVmZmVyID0gIiI7CiAgICBwZW5kaW5nSW5wdXRCeXRlcyA9IDA7CiAgICBmb3IgKGNvbnN0IHBheWxvYWQgb2YgcGF5bG9hZHMpIHF1ZXVlSW5wdXRQYXlsb2FkKGF0dGFjaG1lbnRJZCwgcGF5bG9hZCk7CiAgICBhd2FpdCBpbnB1dFNlbmRRdWV1ZTsKICB9OwoKICBjb25zdCBzY2hlZHVsZUlucHV0Rmx1c2ggPSAoKSA9PiB7CiAgICBpZiAoaW5wdXRGbHVzaFRpbWVyKSByZXR1cm47CiAgICBpbnB1dEZsdXNoVGltZXIgPSB3aW5kb3cuc2V0VGltZW91dCgoKSA9PiB7CiAgICAgIGlucHV0Rmx1c2hUaW1lciA9IG51bGw7CiAgICAgIHZvaWQgZmx1c2hQZW5kaW5nSW5wdXQoKTsKICAgIH0sIElOUFVUX0JBVENIX1dJTkRPV19NUyk7CiAgfTsKCiAgY29uc3QgcXVldWVUZXJtaW5hbElucHV0ID0gKAogICAgZGF0YTogc3RyaW5nLAogICAgb3B0aW9ucz86IHsgaW1tZWRpYXRlPzogYm9vbGVhbiB9LAogICkgPT4gewogICAgaWYgKCFkYXRhKSB7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBpZiAoIWFjdGl2ZUF0dGFjaG1lbnQudmFsdWUgJiYgY29ubmVjdGlvblN0YXRlLnZhbHVlICE9PSAiY29ubmVjdGluZyIpIHsKICAgICAgY29uc29sZS53YXJuKCJbdGVybWluYWxdIGRyb3BwaW5nIGlucHV0IHdpdGhvdXQgYWN0aXZlIGF0dGFjaG1lbnQiLCB7CiAgICAgICAgY29ubmVjdGlvblN0YXRlOiBjb25uZWN0aW9uU3RhdGUudmFsdWUsCiAgICAgICAgc2VsZWN0ZWRTZXNzaW9uSWQ6IHNlbGVjdGVkU2Vzc2lvbklkLnZhbHVlIHx8IG51bGwsCiAgICAgICAgYnl0ZUxlbmd0aDogZ2V0SW5wdXRCeXRlTGVuZ3RoKGRhdGEpLAogICAgICAgIGltbWVkaWF0ZTogb3B0aW9ucz8uaW1tZWRpYXRlID09PSB0cnVlLAogICAgICB9KTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGlmICghYWN0aXZlQXR0YWNobWVudC52YWx1ZSAmJiBwZW5kaW5nSW5wdXRCdWZmZXIubGVuZ3RoID09PSAwKSB7CiAgICAgIGNvbnNvbGUud2FybigKICAgICAgICAiW3Rlcm1pbmFsXSBidWZmZXJpbmcgZWFybHkgaW5wdXQgYmVmb3JlIGF0dGFjaG1lbnQgaXMgcmVhZHkiLAogICAgICAgIHsKICAgICAgICAgIGNvbm5lY3Rpb25TdGF0ZTogY29ubmVjdGlvblN0YXRlLnZhbHVlLAogICAgICAgICAgc2VsZWN0ZWRTZXNzaW9uSWQ6IHNlbGVjdGVkU2Vzc2lvbklkLnZhbHVlIHx8IG51bGwsCiAgICAgICAgICBieXRlTGVuZ3RoOiBnZXRJbnB1dEJ5dGVMZW5ndGgoZGF0YSksCiAgICAgICAgICBpbW1lZGlhdGU6IG9wdGlvbnM/LmltbWVkaWF0ZSA9PT0gdHJ1ZSwKICAgICAgICB9LAogICAgICApOwogICAgfQoKICAgIGNvbnN0IGNvbWJpbmVkID0gYCR7cGVuZGluZ0lucHV0QnVmZmVyfSR7ZGF0YX1gOwogICAgY29uc3QgYXR0YWNobWVudElkID0gYWN0aXZlQXR0YWNobWVudC52YWx1ZT8uaWQ7CiAgICBpZiAoIWF0dGFjaG1lbnRJZCkgewogICAgICBjb25zdCBib3VuZGVkID0gc3BsaXRUZXJtaW5hbElucHV0QnlCeXRlTGVuZ3RoKAogICAgICAgIGNvbWJpbmVkLAogICAgICAgIE1BWF9QRU5ESU5HX0lOUFVUX0JZVEVTLAogICAgICApOwogICAgICBwZW5kaW5nSW5wdXRCdWZmZXIgPSBib3VuZGVkWzBdID8/ICIiOwogICAgICBwZW5kaW5nSW5wdXRCeXRlcyA9IGdldElucHV0Qnl0ZUxlbmd0aChwZW5kaW5nSW5wdXRCdWZmZXIpOwogICAgICBpZiAoYm91bmRlZC5sZW5ndGggPiAxKSB7CiAgICAgICAgY29uc29sZS53YXJuKAogICAgICAgICAgIlt0ZXJtaW5hbF0gZHJvcHBlZCBpbnB1dCBiZXlvbmQgdGhlIHBlbmRpbmcgYnVmZmVyIGxpbWl0IiwKICAgICAgICAgIHsKICAgICAgICAgICAgYnVmZmVyZWRCeXRlczogcGVuZGluZ0lucHV0Qnl0ZXMsCiAgICAgICAgICAgIGNvbm5lY3Rpb25TdGF0ZTogY29ubmVjdGlvblN0YXRlLnZhbHVlLAogICAgICAgICAgICBzZWxlY3RlZFNlc3Npb25JZDogc2VsZWN0ZWRTZXNzaW9uSWQudmFsdWUgfHwgbnVsbCwKICAgICAgICAgIH0sCiAgICAgICAgKTsKICAgICAgfQogICAgICByZXR1cm47CiAgICB9CgogICAgaWYgKGlucHV0Rmx1c2hUaW1lcikgewogICAgICB3aW5kb3cuY2xlYXJUaW1lb3V0KGlucHV0Rmx1c2hUaW1lcik7CiAgICAgIGlucHV0Rmx1c2hUaW1lciA9IG51bGw7CiAgICB9CiAgICBwZW5kaW5nSW5wdXRCdWZmZXIgPSAiIjsKICAgIHBlbmRpbmdJbnB1dEJ5dGVzID0gMDsKICAgIGNvbnN0IGNodW5rcyA9IHNwbGl0VGVybWluYWxJbnB1dEJ5Qnl0ZUxlbmd0aCgKICAgICAgY29tYmluZWQsCiAgICAgIElOUFVUX0JBVENIX01BWF9CWVRFUywKICAgICk7CiAgICBjb25zdCBmbHVzaFRhaWwgPSBvcHRpb25zPy5pbW1lZGlhdGUgfHwgc2hvdWxkRmx1c2hJbnB1dEltbWVkaWF0ZWx5KGRhdGEpOwogICAgY2h1bmtzLmZvckVhY2goKGNodW5rLCBpbmRleCkgPT4gewogICAgICBjb25zdCBieXRlcyA9IGdldElucHV0Qnl0ZUxlbmd0aChjaHVuayk7CiAgICAgIGNvbnN0IGlzVGFpbCA9IGluZGV4ID09PSBjaHVua3MubGVuZ3RoIC0gMTsKICAgICAgaWYgKCFpc1RhaWwgfHwgZmx1c2hUYWlsIHx8IGJ5dGVzID49IElOUFVUX0JBVENIX01BWF9CWVRFUykgewogICAgICAgIHF1ZXVlSW5wdXRQYXlsb2FkKGF0dGFjaG1lbnRJZCwgY2h1bmspOwogICAgICB9IGVsc2UgewogICAgICAgIHBlbmRpbmdJbnB1dEJ1ZmZlciA9IGNodW5rOwogICAgICAgIHBlbmRpbmdJbnB1dEJ5dGVzID0gYnl0ZXM7CiAgICAgIH0KICAgIH0pOwogICAgaWYgKHBlbmRpbmdJbnB1dEJ1ZmZlcikgc2NoZWR1bGVJbnB1dEZsdXNoKCk7CiAgfTsKCiAgY29uc3QgcXVldWVSZW1vdGVUZXJtaW5hbFJlc3BvbnNlID0gKGRhdGE6IHN0cmluZykgPT4gewogICAgaWYgKCFpc1NhZmVSZW1vdGVUZXJtaW5hbFJlc3BvbnNlKGRhdGEpKSB7CiAgICAgIGNvbnNvbGUud2FybigiW3Rlcm1pbmFsXSBkcm9wcGVkIHVuZXhwZWN0ZWQgdGVybWluYWwgcmVzcG9uc2UiLCB7CiAgICAgICAgY29kZVBvaW50czogc3VtbWFyaXplVGVybWluYWxSZXNwb25zZUNvZGVQb2ludHMoZGF0YSksCiAgICAgICAgbGVuZ3RoOiBkYXRhLmxlbmd0aCwKICAgICAgfSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBxdWV1ZVRlcm1pbmFsSW5wdXQoZGF0YSwgeyBpbW1lZGlhdGU6IHRydWUgfSk7CiAgfTsKCiAgY29uc3Qgc2VuZFRlcm1pbmFsUGF5bG9hZE5vdyA9IGFzeW5jIChwYXlsb2FkOiBzdHJpbmcpID0+IHsKICAgIGlmICghcGF5bG9hZCkgcmV0dXJuOwogICAgYXdhaXQgZmx1c2hQZW5kaW5nSW5wdXQoKS5jYXRjaCgoKSA9PiB1bmRlZmluZWQpOwoKICAgIGNvbnN0IGF0dGFjaG1lbnRJZCA9IGFjdGl2ZUF0dGFjaG1lbnQudmFsdWU/LmlkOwogICAgaWYgKCFhdHRhY2htZW50SWQpIHsKICAgICAgdGhyb3cgbmV3IEVycm9yKHRyYW5zbGF0ZSgiYWRtaW4ud2ViVGVybWluYWwubm9Db25uZWN0aW9uIikpOwogICAgfQoKICAgIHRyeSB7CiAgICAgIGZvciAoY29uc3QgY2h1bmsgb2Ygc3BsaXRUZXJtaW5hbElucHV0QnlCeXRlTGVuZ3RoKAogICAgICAgIHBheWxvYWQsCiAgICAgICAgSU5QVVRfQkFUQ0hfTUFYX0JZVEVTLAogICAgICApKSB7CiAgICAgICAgaWYgKGFjdGl2ZUF0dGFjaG1lbnQudmFsdWU/LmlkICE9PSBhdHRhY2htZW50SWQpIHsKICAgICAgICAgIHRocm93IG5ldyBFcnJvcih0cmFuc2xhdGUoImFkbWluLndlYlRlcm1pbmFsLm5vQ29ubmVjdGlvbiIpKTsKICAgICAgICB9CiAgICAgICAgYXdhaXQgc2VuZElucHV0KGF0dGFjaG1lbnRJZCwgZW5jb2RlSW5wdXRUb0Jhc2U2NChjaHVuaykpOwogICAgICB9CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBzZXRJbnB1dFNlbmRFcnJvcihlcnJvcik7CiAgICAgIHRocm93IGVycm9yOwogICAgfQogIH07CgogIHJldHVybiB7CiAgICBjbGVhclBlbmRpbmdJbnB1dCwKICAgIGZsdXNoUGVuZGluZ0lucHV0LAogICAgZ2V0UGVuZGluZ0lucHV0U25hcHNob3QsCiAgICBxdWV1ZVJlbW90ZVRlcm1pbmFsUmVzcG9uc2UsCiAgICBxdWV1ZVRlcm1pbmFsSW5wdXQsCiAgICBzZW5kVGVybWluYWxQYXlsb2FkTm93LAogIH07Cn07Cg==
+import type { Ref } from "vue";
+import type { TerminalAttachmentRecord } from "@/lib/api/terminal";
+import {
+  INPUT_BATCH_MAX_BYTES,
+  INPUT_BATCH_WINDOW_MS,
+} from "./terminal-runtime";
+import {
+  encodeInputToBase64,
+  getInputByteLength,
+  isSafeRemoteTerminalResponse,
+  splitTerminalInputByByteLength,
+  summarizeTerminalResponseCodePoints,
+} from "./terminal-input";
+
+const MAX_PENDING_INPUT_BYTES = 64 * 1024;
+
+type TerminalConnectionState = "idle" | "connecting" | "connected" | "error";
+
+export const useTerminalInputQueue = ({
+  activeAttachment,
+  connectionState,
+  onSendError,
+  selectedSessionId,
+  sendInput,
+  translate,
+}: {
+  activeAttachment: Ref<TerminalAttachmentRecord | null>;
+  connectionState: Readonly<Ref<TerminalConnectionState>>;
+  onSendError: (error: unknown) => void;
+  selectedSessionId: Ref<string>;
+  sendInput: (attachmentId: string, payload: string) => Promise<unknown>;
+  translate: (key: string) => string;
+}) => {
+  let inputFlushTimer: number | null = null;
+  let pendingInputBuffer = "";
+  let pendingInputBytes = 0;
+  let inputSendQueue: Promise<unknown> = Promise.resolve();
+  let inputQueueGeneration = 0;
+
+  const shouldFlushInputImmediately = (data: string): boolean =>
+    data.includes("\r") ||
+    data.includes("\n") ||
+    data.includes("\u0003") ||
+    data.includes("\u0004") ||
+    data.includes("\u001b") ||
+    getInputByteLength(data) >= INPUT_BATCH_MAX_BYTES;
+
+  const clearPendingInput = () => {
+    inputQueueGeneration += 1;
+    if (inputFlushTimer) {
+      window.clearTimeout(inputFlushTimer);
+      inputFlushTimer = null;
+    }
+    pendingInputBuffer = "";
+    pendingInputBytes = 0;
+  };
+
+  const getPendingInputSnapshot = () => ({
+    byteLength: pendingInputBytes,
+    hasPendingInput: pendingInputBuffer.length > 0,
+  });
+
+  const setInputSendError = (error: unknown) => {
+    onSendError(error);
+  };
+
+  const queueInputPayload = (attachmentId: string, payload: string) => {
+    const generation = inputQueueGeneration;
+    inputSendQueue = inputSendQueue
+      .catch(() => undefined)
+      .then(async () => {
+        if (
+          generation !== inputQueueGeneration ||
+          activeAttachment.value?.id !== attachmentId
+        ) {
+          return;
+        }
+        await sendInput(attachmentId, encodeInputToBase64(payload));
+      })
+      .catch((error) => {
+        if (
+          generation !== inputQueueGeneration ||
+          activeAttachment.value?.id !== attachmentId
+        ) {
+          return;
+        }
+        setInputSendError(error);
+      });
+    return inputSendQueue;
+  };
+
+  const flushPendingInput = async () => {
+    if (inputFlushTimer) {
+      window.clearTimeout(inputFlushTimer);
+      inputFlushTimer = null;
+    }
+
+    const attachmentId = activeAttachment.value?.id;
+    if (!pendingInputBuffer) {
+      await inputSendQueue;
+      return;
+    }
+    if (!attachmentId) {
+      console.warn(
+        "[terminal] input flush deferred until attachment is ready",
+        {
+          connectionState: connectionState.value,
+          bufferedBytes: pendingInputBytes,
+          selectedSessionId: selectedSessionId.value || null,
+        },
+      );
+      return;
+    }
+
+    const payloads = splitTerminalInputByByteLength(
+      pendingInputBuffer,
+      INPUT_BATCH_MAX_BYTES,
+    );
+    pendingInputBuffer = "";
+    pendingInputBytes = 0;
+    for (const payload of payloads) queueInputPayload(attachmentId, payload);
+    await inputSendQueue;
+  };
+
+  const scheduleInputFlush = () => {
+    if (inputFlushTimer) return;
+    inputFlushTimer = window.setTimeout(() => {
+      inputFlushTimer = null;
+      void flushPendingInput();
+    }, INPUT_BATCH_WINDOW_MS);
+  };
+
+  const queueTerminalInput = (
+    data: string,
+    options?: { immediate?: boolean },
+  ) => {
+    if (!data) {
+      return;
+    }
+
+    if (!activeAttachment.value && connectionState.value !== "connecting") {
+      console.warn("[terminal] dropping input without active attachment", {
+        connectionState: connectionState.value,
+        selectedSessionId: selectedSessionId.value || null,
+        byteLength: getInputByteLength(data),
+        immediate: options?.immediate === true,
+      });
+      return;
+    }
+
+    if (!activeAttachment.value && pendingInputBuffer.length === 0) {
+      console.warn(
+        "[terminal] buffering early input before attachment is ready",
+        {
+          connectionState: connectionState.value,
+          selectedSessionId: selectedSessionId.value || null,
+          byteLength: getInputByteLength(data),
+          immediate: options?.immediate === true,
+        },
+      );
+    }
+
+    const combined = `${pendingInputBuffer}${data}`;
+    const attachmentId = activeAttachment.value?.id;
+    if (!attachmentId) {
+      const bounded = splitTerminalInputByByteLength(
+        combined,
+        MAX_PENDING_INPUT_BYTES,
+      );
+      pendingInputBuffer = bounded[0] ?? "";
+      pendingInputBytes = getInputByteLength(pendingInputBuffer);
+      if (bounded.length > 1) {
+        console.warn(
+          "[terminal] dropped input beyond the pending buffer limit",
+          {
+            bufferedBytes: pendingInputBytes,
+            connectionState: connectionState.value,
+            selectedSessionId: selectedSessionId.value || null,
+          },
+        );
+      }
+      return;
+    }
+
+    if (inputFlushTimer) {
+      window.clearTimeout(inputFlushTimer);
+      inputFlushTimer = null;
+    }
+    pendingInputBuffer = "";
+    pendingInputBytes = 0;
+    const chunks = splitTerminalInputByByteLength(
+      combined,
+      INPUT_BATCH_MAX_BYTES,
+    );
+    const flushTail = options?.immediate || shouldFlushInputImmediately(data);
+    chunks.forEach((chunk, index) => {
+      const bytes = getInputByteLength(chunk);
+      const isTail = index === chunks.length - 1;
+      if (!isTail || flushTail || bytes >= INPUT_BATCH_MAX_BYTES) {
+        queueInputPayload(attachmentId, chunk);
+      } else {
+        pendingInputBuffer = chunk;
+        pendingInputBytes = bytes;
+      }
+    });
+    if (pendingInputBuffer) scheduleInputFlush();
+  };
+
+  const queueRemoteTerminalResponse = (data: string) => {
+    if (!isSafeRemoteTerminalResponse(data)) {
+      console.warn("[terminal] dropped unexpected terminal response", {
+        codePoints: summarizeTerminalResponseCodePoints(data),
+        length: data.length,
+      });
+      return;
+    }
+
+    queueTerminalInput(data, { immediate: true });
+  };
+
+  const sendTerminalPayloadNow = async (payload: string) => {
+    if (!payload) return;
+    await flushPendingInput().catch(() => undefined);
+
+    const attachmentId = activeAttachment.value?.id;
+    if (!attachmentId) {
+      throw new Error(translate("admin.webTerminal.noConnection"));
+    }
+
+    try {
+      for (const chunk of splitTerminalInputByByteLength(
+        payload,
+        INPUT_BATCH_MAX_BYTES,
+      )) {
+        if (activeAttachment.value?.id !== attachmentId) {
+          throw new Error(translate("admin.webTerminal.noConnection"));
+        }
+        await sendInput(attachmentId, encodeInputToBase64(chunk));
+      }
+    } catch (error) {
+      setInputSendError(error);
+      throw error;
+    }
+  };
+
+  return {
+    clearPendingInput,
+    flushPendingInput,
+    getPendingInputSnapshot,
+    queueRemoteTerminalResponse,
+    queueTerminalInput,
+    sendTerminalPayloadNow,
+  };
+};

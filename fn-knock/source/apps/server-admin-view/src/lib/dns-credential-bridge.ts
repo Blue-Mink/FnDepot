@@ -1,1 +1,223 @@
-ZXhwb3J0IHR5cGUgRG5zQ3JlZGVudGlhbFRhcmdldCA9ICJhY21lIiB8ICJkZG5zIjsKCnR5cGUgRG5zQ3JlZGVudGlhbE1hcHBpbmcgPSB7CiAgZnJvbTogc3RyaW5nOwogIHRvOiBzdHJpbmc7Cn07Cgp0eXBlIERuc0NyZWRlbnRpYWxCcmlkZ2VEZWZpbml0aW9uID0gewogIGlkOiBzdHJpbmc7CiAgbGFiZWxLZXk6IHN0cmluZzsKICBhY21lRG5zVHlwZTogc3RyaW5nOwogIGRkbnNQcm92aWRlcjogc3RyaW5nOwogIGFjbWVUb0RkbnM6IERuc0NyZWRlbnRpYWxNYXBwaW5nW107CiAgZGRuc1RvQWNtZTogRG5zQ3JlZGVudGlhbE1hcHBpbmdbXTsKfTsKCmV4cG9ydCB0eXBlIERuc0NyZWRlbnRpYWxUcmFuc2ZlckZpZWxkID0gewogIHNvdXJjZUtleTogc3RyaW5nOwogIHRhcmdldEtleTogc3RyaW5nOwogIHZhbHVlOiBzdHJpbmc7Cn07CgpleHBvcnQgdHlwZSBEbnNDcmVkZW50aWFsVHJhbnNmZXJTdWdnZXN0aW9uID0gewogIGJyaWRnZUlkOiBzdHJpbmc7CiAgYnJpZGdlTGFiZWw6IHN0cmluZzsKICBmaWxsYWJsZUZpZWxkczogRG5zQ3JlZGVudGlhbFRyYW5zZmVyRmllbGRbXTsKICBwYXRjaDogUmVjb3JkPHN0cmluZywgc3RyaW5nPjsKfTsKCmNvbnN0IGRuc0NyZWRlbnRpYWxCcmlkZ2VEZWZpbml0aW9uczogRG5zQ3JlZGVudGlhbEJyaWRnZURlZmluaXRpb25bXSA9IFsKICB7CiAgICBpZDogImNsb3VkZmxhcmUiLAogICAgbGFiZWxLZXk6ICJzaGFyZWQuZG5zQ3JlZGVudGlhbEJyaWRnZS5wcm92aWRlcnMuY2xvdWRmbGFyZSIsCiAgICBhY21lRG5zVHlwZTogImRuc19jZiIsCiAgICBkZG5zUHJvdmlkZXI6ICJjbG91ZGZsYXJlIiwKICAgIGFjbWVUb0RkbnM6IFsKICAgICAgeyBmcm9tOiAiQ0ZfVG9rZW4iLCB0bzogImFwaV90b2tlbiIgfSwKICAgICAgeyBmcm9tOiAiQ0ZfWm9uZV9JRCIsIHRvOiAiem9uZV9pZCIgfSwKICAgIF0sCiAgICBkZG5zVG9BY21lOiBbCiAgICAgIHsgZnJvbTogImFwaV90b2tlbiIsIHRvOiAiQ0ZfVG9rZW4iIH0sCiAgICAgIHsgZnJvbTogInpvbmVfaWQiLCB0bzogIkNGX1pvbmVfSUQiIH0sCiAgICBdLAogIH0sCiAgewogICAgaWQ6ICJhbGlkbnMiLAogICAgbGFiZWxLZXk6ICJzaGFyZWQuZG5zQ3JlZGVudGlhbEJyaWRnZS5wcm92aWRlcnMuYWxpZG5zIiwKICAgIGFjbWVEbnNUeXBlOiAiZG5zX2FsaSIsCiAgICBkZG5zUHJvdmlkZXI6ICJhbGlkbnMiLAogICAgYWNtZVRvRGRuczogWwogICAgICB7IGZyb206ICJBbGlfS2V5IiwgdG86ICJhY2Nlc3Nfa2V5X2lkIiB9LAogICAgICB7IGZyb206ICJBbGlfU2VjcmV0IiwgdG86ICJhY2Nlc3Nfa2V5X3NlY3JldCIgfSwKICAgIF0sCiAgICBkZG5zVG9BY21lOiBbCiAgICAgIHsgZnJvbTogImFjY2Vzc19rZXlfaWQiLCB0bzogIkFsaV9LZXkiIH0sCiAgICAgIHsgZnJvbTogImFjY2Vzc19rZXlfc2VjcmV0IiwgdG86ICJBbGlfU2VjcmV0IiB9LAogICAgXSwKICB9LAogIHsKICAgIGlkOiAiZG5zcG9kIiwKICAgIGxhYmVsS2V5OiAic2hhcmVkLmRuc0NyZWRlbnRpYWxCcmlkZ2UucHJvdmlkZXJzLmRuc3BvZCIsCiAgICBhY21lRG5zVHlwZTogImRuc19kcCIsCiAgICBkZG5zUHJvdmlkZXI6ICJkbnNwb2QiLAogICAgYWNtZVRvRGRuczogWwogICAgICB7IGZyb206ICJEUF9JZCIsIHRvOiAidG9rZW5faWQiIH0sCiAgICAgIHsgZnJvbTogIkRQX0tleSIsIHRvOiAidG9rZW5fa2V5IiB9LAogICAgXSwKICAgIGRkbnNUb0FjbWU6IFsKICAgICAgeyBmcm9tOiAidG9rZW5faWQiLCB0bzogIkRQX0lkIiB9LAogICAgICB7IGZyb206ICJ0b2tlbl9rZXkiLCB0bzogIkRQX0tleSIgfSwKICAgIF0sCiAgfSwKICB7CiAgICBpZDogInRlbmNlbnRjbG91ZCIsCiAgICBsYWJlbEtleTogInNoYXJlZC5kbnNDcmVkZW50aWFsQnJpZGdlLnByb3ZpZGVycy50ZW5jZW50Y2xvdWQiLAogICAgYWNtZURuc1R5cGU6ICJkbnNfdGVuY2VudCIsCiAgICBkZG5zUHJvdmlkZXI6ICJ0ZW5jZW50Y2xvdWQiLAogICAgYWNtZVRvRGRuczogWwogICAgICB7IGZyb206ICJUZW5jZW50X1NlY3JldElkIiwgdG86ICJzZWNyZXRfaWQiIH0sCiAgICAgIHsgZnJvbTogIlRlbmNlbnRfU2VjcmV0S2V5IiwgdG86ICJzZWNyZXRfa2V5IiB9LAogICAgXSwKICAgIGRkbnNUb0FjbWU6IFsKICAgICAgeyBmcm9tOiAic2VjcmV0X2lkIiwgdG86ICJUZW5jZW50X1NlY3JldElkIiB9LAogICAgICB7IGZyb206ICJzZWNyZXRfa2V5IiwgdG86ICJUZW5jZW50X1NlY3JldEtleSIgfSwKICAgIF0sCiAgfSwKICB7CiAgICBpZDogImVkZ2VvbmUiLAogICAgbGFiZWxLZXk6ICJzaGFyZWQuZG5zQ3JlZGVudGlhbEJyaWRnZS5wcm92aWRlcnMuZWRnZW9uZSIsCiAgICBhY21lRG5zVHlwZTogImRuc190ZW5jZW50IiwKICAgIGRkbnNQcm92aWRlcjogImVkZ2VvbmUiLAogICAgYWNtZVRvRGRuczogWwogICAgICB7IGZyb206ICJUZW5jZW50X1NlY3JldElkIiwgdG86ICJzZWNyZXRfaWQiIH0sCiAgICAgIHsgZnJvbTogIlRlbmNlbnRfU2VjcmV0S2V5IiwgdG86ICJzZWNyZXRfa2V5IiB9LAogICAgXSwKICAgIGRkbnNUb0FjbWU6IFsKICAgICAgeyBmcm9tOiAic2VjcmV0X2lkIiwgdG86ICJUZW5jZW50X1NlY3JldElkIiB9LAogICAgICB7IGZyb206ICJzZWNyZXRfa2V5IiwgdG86ICJUZW5jZW50X1NlY3JldEtleSIgfSwKICAgIF0sCiAgfSwKICB7CiAgICBpZDogImVkZ2VvbmVfY25hbWUiLAogICAgbGFiZWxLZXk6ICJzaGFyZWQuZG5zQ3JlZGVudGlhbEJyaWRnZS5wcm92aWRlcnMuZWRnZW9uZUNuYW1lIiwKICAgIGFjbWVEbnNUeXBlOiAiZG5zX3RlbmNlbnQiLAogICAgZGRuc1Byb3ZpZGVyOiAiZWRnZW9uZV9jbmFtZSIsCiAgICBhY21lVG9EZG5zOiBbCiAgICAgIHsgZnJvbTogIlRlbmNlbnRfU2VjcmV0SWQiLCB0bzogInNlY3JldF9pZCIgfSwKICAgICAgeyBmcm9tOiAiVGVuY2VudF9TZWNyZXRLZXkiLCB0bzogInNlY3JldF9rZXkiIH0sCiAgICBdLAogICAgZGRuc1RvQWNtZTogWwogICAgICB7IGZyb206ICJzZWNyZXRfaWQiLCB0bzogIlRlbmNlbnRfU2VjcmV0SWQiIH0sCiAgICAgIHsgZnJvbTogInNlY3JldF9rZXkiLCB0bzogIlRlbmNlbnRfU2VjcmV0S2V5IiB9LAogICAgXSwKICB9LAogIHsKICAgIGlkOiAiZ29kYWRkeSIsCiAgICBsYWJlbEtleTogInNoYXJlZC5kbnNDcmVkZW50aWFsQnJpZGdlLnByb3ZpZGVycy5nb2RhZGR5IiwKICAgIGFjbWVEbnNUeXBlOiAiZG5zX2dkIiwKICAgIGRkbnNQcm92aWRlcjogImdvZGFkZHkiLAogICAgYWNtZVRvRGRuczogWwogICAgICB7IGZyb206ICJHRF9LZXkiLCB0bzogImFwaV9rZXkiIH0sCiAgICAgIHsgZnJvbTogIkdEX1NlY3JldCIsIHRvOiAiYXBpX3NlY3JldCIgfSwKICAgIF0sCiAgICBkZG5zVG9BY21lOiBbCiAgICAgIHsgZnJvbTogImFwaV9rZXkiLCB0bzogIkdEX0tleSIgfSwKICAgICAgeyBmcm9tOiAiYXBpX3NlY3JldCIsIHRvOiAiR0RfU2VjcmV0IiB9LAogICAgXSwKICB9LAogIHsKICAgIGlkOiAicG9ya2J1biIsCiAgICBsYWJlbEtleTogInNoYXJlZC5kbnNDcmVkZW50aWFsQnJpZGdlLnByb3ZpZGVycy5wb3JrYnVuIiwKICAgIGFjbWVEbnNUeXBlOiAiZG5zX3BvcmtidW4iLAogICAgZGRuc1Byb3ZpZGVyOiAicG9ya2J1biIsCiAgICBhY21lVG9EZG5zOiBbCiAgICAgIHsgZnJvbTogIlBPUktCVU5fQVBJX0tFWSIsIHRvOiAiYXBpX2tleSIgfSwKICAgICAgeyBmcm9tOiAiUE9SS0JVTl9TRUNSRVRfQVBJX0tFWSIsIHRvOiAic2VjcmV0X2FwaV9rZXkiIH0sCiAgICBdLAogICAgZGRuc1RvQWNtZTogWwogICAgICB7IGZyb206ICJhcGlfa2V5IiwgdG86ICJQT1JLQlVOX0FQSV9LRVkiIH0sCiAgICAgIHsgZnJvbTogInNlY3JldF9hcGlfa2V5IiwgdG86ICJQT1JLQlVOX1NFQ1JFVF9BUElfS0VZIiB9LAogICAgXSwKICB9LAogIHsKICAgIGlkOiAiZHludjYiLAogICAgbGFiZWxLZXk6ICJzaGFyZWQuZG5zQ3JlZGVudGlhbEJyaWRnZS5wcm92aWRlcnMuZHludjYiLAogICAgYWNtZURuc1R5cGU6ICJkbnNfZHludjYiLAogICAgZGRuc1Byb3ZpZGVyOiAiZHludjYiLAogICAgYWNtZVRvRGRuczogW3sgZnJvbTogIkRZTlY2X1RPS0VOIiwgdG86ICJ0b2tlbiIgfV0sCiAgICBkZG5zVG9BY21lOiBbeyBmcm9tOiAidG9rZW4iLCB0bzogIkRZTlY2X1RPS0VOIiB9XSwKICB9LAogIHsKICAgIGlkOiAiZHVja2RucyIsCiAgICBsYWJlbEtleTogInNoYXJlZC5kbnNDcmVkZW50aWFsQnJpZGdlLnByb3ZpZGVycy5kdWNrZG5zIiwKICAgIGFjbWVEbnNUeXBlOiAiZG5zX2R1Y2tkbnMiLAogICAgZGRuc1Byb3ZpZGVyOiAiZHVja2RucyIsCiAgICBhY21lVG9EZG5zOiBbeyBmcm9tOiAiRHVja0ROU19Ub2tlbiIsIHRvOiAidG9rZW4iIH1dLAogICAgZGRuc1RvQWNtZTogW3sgZnJvbTogInRva2VuIiwgdG86ICJEdWNrRE5TX1Rva2VuIiB9XSwKICB9LApdOwoKY29uc3Qgbm9ybWFsaXplVmFsdWUgPSAodmFsdWU6IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQpID0+CiAgdmFsdWU/LnRyaW0oKSB8fCAiIjsKCmV4cG9ydCBjb25zdCByZXNvbHZlRG5zQ3JlZGVudGlhbEJyaWRnZSA9ICgKICB0YXJnZXQ6IERuc0NyZWRlbnRpYWxUYXJnZXQsCiAgcHJvdmlkZXJJZDogc3RyaW5nLAopID0+IHsKICBjb25zdCBub3JtYWxpemVkUHJvdmlkZXJJZCA9IHByb3ZpZGVySWQudHJpbSgpOwogIGlmICghbm9ybWFsaXplZFByb3ZpZGVySWQpIHJldHVybiBudWxsOwoKICByZXR1cm4gKAogICAgZG5zQ3JlZGVudGlhbEJyaWRnZURlZmluaXRpb25zLmZpbmQoKGJyaWRnZSkgPT4KICAgICAgdGFyZ2V0ID09PSAiYWNtZSIKICAgICAgICA/IGJyaWRnZS5hY21lRG5zVHlwZSA9PT0gbm9ybWFsaXplZFByb3ZpZGVySWQKICAgICAgICA6IGJyaWRnZS5kZG5zUHJvdmlkZXIgPT09IG5vcm1hbGl6ZWRQcm92aWRlcklkLAogICAgKSB8fCBudWxsCiAgKTsKfTsKCmV4cG9ydCBjb25zdCBidWlsZERuc0NyZWRlbnRpYWxUcmFuc2ZlclN1Z2dlc3Rpb24gPSAoewogIHRhcmdldCwKICBwcm92aWRlcklkLAogIHNvdXJjZUNyZWRlbnRpYWxzLAogIHRhcmdldENyZWRlbnRpYWxzLAogIHRyYW5zbGF0ZUJyaWRnZUxhYmVsLAp9OiB7CiAgdGFyZ2V0OiBEbnNDcmVkZW50aWFsVGFyZ2V0OwogIHByb3ZpZGVySWQ6IHN0cmluZzsKICBzb3VyY2VDcmVkZW50aWFsczogUmVjb3JkPHN0cmluZywgc3RyaW5nPjsKICB0YXJnZXRDcmVkZW50aWFsczogUmVjb3JkPHN0cmluZywgc3RyaW5nPjsKICB0cmFuc2xhdGVCcmlkZ2VMYWJlbD86IChrZXk6IHN0cmluZykgPT4gc3RyaW5nOwp9KTogRG5zQ3JlZGVudGlhbFRyYW5zZmVyU3VnZ2VzdGlvbiB8IG51bGwgPT4gewogIGNvbnN0IGJyaWRnZSA9IHJlc29sdmVEbnNDcmVkZW50aWFsQnJpZGdlKHRhcmdldCwgcHJvdmlkZXJJZCk7CiAgaWYgKCFicmlkZ2UpIHJldHVybiBudWxsOwoKICBjb25zdCBtYXBwaW5ncyA9IHRhcmdldCA9PT0gImFjbWUiID8gYnJpZGdlLmRkbnNUb0FjbWUgOiBicmlkZ2UuYWNtZVRvRGRuczsKICBjb25zdCBmaWxsYWJsZUZpZWxkcyA9IG1hcHBpbmdzLmZsYXRNYXAoKG1hcHBpbmcpID0+IHsKICAgIGNvbnN0IHNvdXJjZVZhbHVlID0gbm9ybWFsaXplVmFsdWUoc291cmNlQ3JlZGVudGlhbHNbbWFwcGluZy5mcm9tXSk7CiAgICBpZiAoIXNvdXJjZVZhbHVlKSByZXR1cm4gW107CgogICAgY29uc3QgZXhpc3RpbmdUYXJnZXRWYWx1ZSA9IG5vcm1hbGl6ZVZhbHVlKHRhcmdldENyZWRlbnRpYWxzW21hcHBpbmcudG9dKTsKICAgIGlmIChleGlzdGluZ1RhcmdldFZhbHVlKSByZXR1cm4gW107CgogICAgcmV0dXJuIFsKICAgICAgewogICAgICAgIHNvdXJjZUtleTogbWFwcGluZy5mcm9tLAogICAgICAgIHRhcmdldEtleTogbWFwcGluZy50bywKICAgICAgICB2YWx1ZTogc291cmNlVmFsdWUsCiAgICAgIH0sCiAgICBdOwogIH0pOwoKICBpZiAoZmlsbGFibGVGaWVsZHMubGVuZ3RoID09PSAwKSByZXR1cm4gbnVsbDsKCiAgcmV0dXJuIHsKICAgIGJyaWRnZUlkOiBicmlkZ2UuaWQsCiAgICBicmlkZ2VMYWJlbDogdHJhbnNsYXRlQnJpZGdlTGFiZWw/LihicmlkZ2UubGFiZWxLZXkpID8/IGJyaWRnZS5sYWJlbEtleSwKICAgIGZpbGxhYmxlRmllbGRzLAogICAgcGF0Y2g6IE9iamVjdC5mcm9tRW50cmllcygKICAgICAgZmlsbGFibGVGaWVsZHMubWFwKChmaWVsZCkgPT4gW2ZpZWxkLnRhcmdldEtleSwgZmllbGQudmFsdWVdKSwKICAgICksCiAgfTsKfTsK
+export type DnsCredentialTarget = "acme" | "ddns";
+
+type DnsCredentialMapping = {
+  from: string;
+  to: string;
+};
+
+type DnsCredentialBridgeDefinition = {
+  id: string;
+  labelKey: string;
+  acmeDnsType: string;
+  ddnsProvider: string;
+  acmeToDdns: DnsCredentialMapping[];
+  ddnsToAcme: DnsCredentialMapping[];
+};
+
+export type DnsCredentialTransferField = {
+  sourceKey: string;
+  targetKey: string;
+  value: string;
+};
+
+export type DnsCredentialTransferSuggestion = {
+  bridgeId: string;
+  bridgeLabel: string;
+  fillableFields: DnsCredentialTransferField[];
+  patch: Record<string, string>;
+};
+
+const dnsCredentialBridgeDefinitions: DnsCredentialBridgeDefinition[] = [
+  {
+    id: "cloudflare",
+    labelKey: "shared.dnsCredentialBridge.providers.cloudflare",
+    acmeDnsType: "dns_cf",
+    ddnsProvider: "cloudflare",
+    acmeToDdns: [
+      { from: "CF_Token", to: "api_token" },
+      { from: "CF_Zone_ID", to: "zone_id" },
+    ],
+    ddnsToAcme: [
+      { from: "api_token", to: "CF_Token" },
+      { from: "zone_id", to: "CF_Zone_ID" },
+    ],
+  },
+  {
+    id: "alidns",
+    labelKey: "shared.dnsCredentialBridge.providers.alidns",
+    acmeDnsType: "dns_ali",
+    ddnsProvider: "alidns",
+    acmeToDdns: [
+      { from: "Ali_Key", to: "access_key_id" },
+      { from: "Ali_Secret", to: "access_key_secret" },
+    ],
+    ddnsToAcme: [
+      { from: "access_key_id", to: "Ali_Key" },
+      { from: "access_key_secret", to: "Ali_Secret" },
+    ],
+  },
+  {
+    id: "dnspod",
+    labelKey: "shared.dnsCredentialBridge.providers.dnspod",
+    acmeDnsType: "dns_dp",
+    ddnsProvider: "dnspod",
+    acmeToDdns: [
+      { from: "DP_Id", to: "token_id" },
+      { from: "DP_Key", to: "token_key" },
+    ],
+    ddnsToAcme: [
+      { from: "token_id", to: "DP_Id" },
+      { from: "token_key", to: "DP_Key" },
+    ],
+  },
+  {
+    id: "tencentcloud",
+    labelKey: "shared.dnsCredentialBridge.providers.tencentcloud",
+    acmeDnsType: "dns_tencent",
+    ddnsProvider: "tencentcloud",
+    acmeToDdns: [
+      { from: "Tencent_SecretId", to: "secret_id" },
+      { from: "Tencent_SecretKey", to: "secret_key" },
+    ],
+    ddnsToAcme: [
+      { from: "secret_id", to: "Tencent_SecretId" },
+      { from: "secret_key", to: "Tencent_SecretKey" },
+    ],
+  },
+  {
+    id: "edgeone",
+    labelKey: "shared.dnsCredentialBridge.providers.edgeone",
+    acmeDnsType: "dns_tencent",
+    ddnsProvider: "edgeone",
+    acmeToDdns: [
+      { from: "Tencent_SecretId", to: "secret_id" },
+      { from: "Tencent_SecretKey", to: "secret_key" },
+    ],
+    ddnsToAcme: [
+      { from: "secret_id", to: "Tencent_SecretId" },
+      { from: "secret_key", to: "Tencent_SecretKey" },
+    ],
+  },
+  {
+    id: "edgeone_cname",
+    labelKey: "shared.dnsCredentialBridge.providers.edgeoneCname",
+    acmeDnsType: "dns_tencent",
+    ddnsProvider: "edgeone_cname",
+    acmeToDdns: [
+      { from: "Tencent_SecretId", to: "secret_id" },
+      { from: "Tencent_SecretKey", to: "secret_key" },
+    ],
+    ddnsToAcme: [
+      { from: "secret_id", to: "Tencent_SecretId" },
+      { from: "secret_key", to: "Tencent_SecretKey" },
+    ],
+  },
+  {
+    id: "godaddy",
+    labelKey: "shared.dnsCredentialBridge.providers.godaddy",
+    acmeDnsType: "dns_gd",
+    ddnsProvider: "godaddy",
+    acmeToDdns: [
+      { from: "GD_Key", to: "api_key" },
+      { from: "GD_Secret", to: "api_secret" },
+    ],
+    ddnsToAcme: [
+      { from: "api_key", to: "GD_Key" },
+      { from: "api_secret", to: "GD_Secret" },
+    ],
+  },
+  {
+    id: "porkbun",
+    labelKey: "shared.dnsCredentialBridge.providers.porkbun",
+    acmeDnsType: "dns_porkbun",
+    ddnsProvider: "porkbun",
+    acmeToDdns: [
+      { from: "PORKBUN_API_KEY", to: "api_key" },
+      { from: "PORKBUN_SECRET_API_KEY", to: "secret_api_key" },
+    ],
+    ddnsToAcme: [
+      { from: "api_key", to: "PORKBUN_API_KEY" },
+      { from: "secret_api_key", to: "PORKBUN_SECRET_API_KEY" },
+    ],
+  },
+  {
+    id: "dynv6",
+    labelKey: "shared.dnsCredentialBridge.providers.dynv6",
+    acmeDnsType: "dns_dynv6",
+    ddnsProvider: "dynv6",
+    acmeToDdns: [{ from: "DYNV6_TOKEN", to: "token" }],
+    ddnsToAcme: [{ from: "token", to: "DYNV6_TOKEN" }],
+  },
+  {
+    id: "duckdns",
+    labelKey: "shared.dnsCredentialBridge.providers.duckdns",
+    acmeDnsType: "dns_duckdns",
+    ddnsProvider: "duckdns",
+    acmeToDdns: [{ from: "DuckDNS_Token", to: "token" }],
+    ddnsToAcme: [{ from: "token", to: "DuckDNS_Token" }],
+  },
+];
+
+const normalizeValue = (value: string | null | undefined) =>
+  value?.trim() || "";
+
+export const resolveDnsCredentialBridge = (
+  target: DnsCredentialTarget,
+  providerId: string,
+) => {
+  const normalizedProviderId = providerId.trim();
+  if (!normalizedProviderId) return null;
+
+  return (
+    dnsCredentialBridgeDefinitions.find((bridge) =>
+      target === "acme"
+        ? bridge.acmeDnsType === normalizedProviderId
+        : bridge.ddnsProvider === normalizedProviderId,
+    ) || null
+  );
+};
+
+export const buildDnsCredentialTransferSuggestion = ({
+  target,
+  providerId,
+  sourceCredentials,
+  targetCredentials,
+  translateBridgeLabel,
+}: {
+  target: DnsCredentialTarget;
+  providerId: string;
+  sourceCredentials: Record<string, string>;
+  targetCredentials: Record<string, string>;
+  translateBridgeLabel?: (key: string) => string;
+}): DnsCredentialTransferSuggestion | null => {
+  const bridge = resolveDnsCredentialBridge(target, providerId);
+  if (!bridge) return null;
+
+  const mappings = target === "acme" ? bridge.ddnsToAcme : bridge.acmeToDdns;
+  const fillableFields = mappings.flatMap((mapping) => {
+    const sourceValue = normalizeValue(sourceCredentials[mapping.from]);
+    if (!sourceValue) return [];
+
+    const existingTargetValue = normalizeValue(targetCredentials[mapping.to]);
+    if (existingTargetValue) return [];
+
+    return [
+      {
+        sourceKey: mapping.from,
+        targetKey: mapping.to,
+        value: sourceValue,
+      },
+    ];
+  });
+
+  if (fillableFields.length === 0) return null;
+
+  return {
+    bridgeId: bridge.id,
+    bridgeLabel: translateBridgeLabel?.(bridge.labelKey) ?? bridge.labelKey,
+    fillableFields,
+    patch: Object.fromEntries(
+      fillableFields.map((field) => [field.targetKey, field.value]),
+    ),
+  };
+};

@@ -1,1 +1,142 @@
-dXNlIHN1cGVyOjoqOwp1c2UgdXRvaXBhX2F4dW06Ontyb3V0ZXI6Ok9wZW5BcGlSb3V0ZXIsIHJvdXRlc307CgpwdWIoc3VwZXIpIGZuIHJvdXRlcygpIC0+IE9wZW5BcGlSb3V0ZXI8QXBwU3RhdGU+IHsKICAgIE9wZW5BcGlSb3V0ZXI6Om5ldygpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF9jaWRyX2NhcGFiaWxpdGllcykpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF9jaWRyX3Byb3ZpbmNlcykpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF9jaWRyX2NpdGllcykpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF9jaWRyX3NlbGVjdG9yKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoZ2V0X2NpZHJfY2lkcnMpKQp9CgojW3V0b2lwYTo6cGF0aCgKICAgIGdldCwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9jaWRyL2NhcGFiaWxpdGllcyIsCiAgICB0YWcgPSAiY2lkciIsCiAgICBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9jaWRyX2NhcGFiaWxpdGllcyIsCiAgICByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiQ29uZmlndXJlZCBDSURSIHNlcnZpY2UgY2FwYWJpbGl0aWVzIikpCildCnB1YihzdXBlcikgYXN5bmMgZm4gZ2V0X2NpZHJfY2FwYWJpbGl0aWVzKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIG1hdGNoIGNyYXRlOjpjaWRyOjpwcm9iZV9jb25maWd1cmVkX2NhcGFiaWxpdGllcygmc3RhdGUpLmF3YWl0IHsKICAgICAgICBPayhjYXBhYmlsaXRpZXMpID0+IHJlc3BvbnNlOjpvayhjYXBhYmlsaXRpZXMpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIobWVzc2FnZSkgPT4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfR0FURVdBWSwKICAgICAgICAgICAgbG9jYWxpemVfY2lkcl9lcnJvcigmdHJhbnNsYXRvciwgJm1lc3NhZ2UpLAogICAgICAgICksCiAgICB9Cn0KCiNbdXRvaXBhOjpwYXRoKAogICAgZ2V0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL2NpZHIvcHJvdmluY2VzIiwKICAgIHRhZyA9ICJjaWRyIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX2NpZHJfcHJvdmluY2VzIiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJBdmFpbGFibGUgQ0lEUiBwcm92aW5jZXMiKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfY2lkcl9wcm92aW5jZXMoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgY2lkcl9yZXNwb25zZShjcmF0ZTo6Y2lkcjo6cHJvdmluY2VzX3BheWxvYWQoJnN0YXRlKS5hd2FpdCwgJnRyYW5zbGF0b3IpCn0KCiNbdXRvaXBhOjpwYXRoKAogICAgZ2V0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL2NpZHIvY2l0aWVzIiwKICAgIHRhZyA9ICJjaWRyIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX2NpZHJfY2l0aWVzIiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJBdmFpbGFibGUgQ0lEUiBjaXRpZXMgZm9yIGEgcHJvdmluY2UiKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfY2lkcl9jaXRpZXMoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIFF1ZXJ5KHF1ZXJ5KTogUXVlcnk8Q2lkckNpdHlRdWVyeT4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICBjaWRyX3Jlc3BvbnNlKAogICAgICAgIGNyYXRlOjpjaWRyOjpjaXRpZXNfcGF5bG9hZCgmc3RhdGUsICZxdWVyeS5wcm92aW5jZSwgU29tZSgmdHJhbnNsYXRvcikpLmF3YWl0LAogICAgICAgICZ0cmFuc2xhdG9yLAogICAgKQp9CgojW3V0b2lwYTo6cGF0aCgKICAgIGdldCwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9jaWRyL3NlbGVjdG9yIiwKICAgIHRhZyA9ICJjaWRyIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX2NpZHJfc2VsZWN0b3IiLAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkNJRFIgcHJvdmluY2UgYW5kIG9wdGlvbmFsIGNpdHkgc2VsZWN0b3IiKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfY2lkcl9zZWxlY3RvcigKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgUXVlcnkocXVlcnkpOiBRdWVyeTxDaWRyUHJvdmluY2VRdWVyeT4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICBsZXQgcmVzdWx0ID0gYXN5bmMgewogICAgICAgIGxldCBwcm92aW5jZXMgPSBjcmF0ZTo6Y2lkcjo6cHJvdmluY2VzX3BheWxvYWQoJnN0YXRlKS5hd2FpdD87CiAgICAgICAgbGV0IHByb3ZpbmNlID0gcXVlcnkKICAgICAgICAgICAgLnByb3ZpbmNlCiAgICAgICAgICAgIC5hc19kZXJlZigpCiAgICAgICAgICAgIC5tYXAobm9ybWFsaXplX3N0cmluZykKICAgICAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKTsKICAgICAgICBsZXQgY2l0aWVzID0gbWF0Y2ggcHJvdmluY2UgewogICAgICAgICAgICBTb21lKHByb3ZpbmNlKSA9PiB7CiAgICAgICAgICAgICAgICBjcmF0ZTo6Y2lkcjo6Y2l0aWVzX3BheWxvYWQoJnN0YXRlLCAmcHJvdmluY2UsIFNvbWUoJnRyYW5zbGF0b3IpKS5hd2FpdD8KICAgICAgICAgICAgfQogICAgICAgICAgICBOb25lID0+IFZhbHVlOjpOdWxsLAogICAgICAgIH07CiAgICAgICAgT2soanNvbiEoeyAicHJvdmluY2VzIjogcHJvdmluY2VzLCAiY2l0aWVzIjogY2l0aWVzIH0pKQogICAgfQogICAgLmF3YWl0OwogICAgY2lkcl9yZXNwb25zZShyZXN1bHQsICZ0cmFuc2xhdG9yKQp9CgojW3V0b2lwYTo6cGF0aCgKICAgIGdldCwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9jaWRyL2NpZHJzIiwKICAgIHRhZyA9ICJjaWRyIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX2NpZHJfY2lkcnMiLAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkNJRFIgbG9va3VwIHJlc3VsdCIpKQopXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGdldF9jaWRyX2NpZHJzKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBRdWVyeShxdWVyeSk6IFF1ZXJ5PENpZHJDaXR5UXVlcnk+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbGV0IHJlc3VsdCA9IENpZHJPcGVyYXRvcjo6cGFyc2Vfb3B0aW9uYWwocXVlcnkub3BlcmF0b3IuYXNfZGVyZWYoKSkKICAgICAgICAubWFwX2VycihjcmF0ZTo6Y2lkcjo6Q2lkckVycm9yOjpCYWRSZXF1ZXN0KTsKICAgIGxldCByZXN1bHQgPSBtYXRjaCByZXN1bHQgewogICAgICAgIE9rKG9wZXJhdG9yKSA9PiB7CiAgICAgICAgICAgIGxldCBxdWVyeSA9IENpZHJSZWdpb25RdWVyeTo6bmV3KHF1ZXJ5LnByb3ZpbmNlLCBxdWVyeS5jaXR5LCBvcGVyYXRvcik7CiAgICAgICAgICAgIGNyYXRlOjpjaWRyOjpsb29rdXBfcGF5bG9hZCgmc3RhdGUsICZxdWVyeSwgU29tZSgmdHJhbnNsYXRvcikpLmF3YWl0CiAgICAgICAgfQogICAgICAgIEVycihlcnJvcikgPT4gRXJyKGVycm9yKSwKICAgIH07CiAgICBjaWRyX3Jlc3BvbnNlKHJlc3VsdCwgJnRyYW5zbGF0b3IpCn0KCmZuIGNpZHJfcmVzcG9uc2UoCiAgICByZXN1bHQ6IFJlc3VsdDxWYWx1ZSwgY3JhdGU6OmNpZHI6OkNpZHJFcnJvcj4sCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBSZXNwb25zZSB7CiAgICBtYXRjaCByZXN1bHQgewogICAgICAgIE9rKHBheWxvYWQpID0+IHJlc3BvbnNlOjpvayhwYXlsb2FkKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgRXJyKGNyYXRlOjpjaWRyOjpDaWRyRXJyb3I6OkJhZFJlcXVlc3QobWVzc2FnZSkpID0+IHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgICAgIGxvY2FsaXplX3NjYW5uZXJfZXJyb3IodHJhbnNsYXRvciwgJm1lc3NhZ2UpLAogICAgICAgICksCiAgICAgICAgRXJyKGNyYXRlOjpjaWRyOjpDaWRyRXJyb3I6OlNlcnZpY2UobWVzc2FnZSkpID0+IHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgaWYgbWVzc2FnZSA9PSAiQ0lEUiBvcGVyYXRvciBmaWx0ZXJpbmcgaXMgdW5zdXBwb3J0ZWQiIHsKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OkNPTkZMSUNUCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfR0FURVdBWQogICAgICAgICAgICB9LAogICAgICAgICAgICBsb2NhbGl6ZV9jaWRyX2Vycm9yKHRyYW5zbGF0b3IsICZtZXNzYWdlKSwKICAgICAgICApLAogICAgICAgIEVycihjcmF0ZTo6Y2lkcjo6Q2lkckVycm9yOjpTdG9yYWdlKGVycm9yKSkgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJDSURSIHJvdXRlIGZhaWxlZCIpOwogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICBjaWRyX3RleHQodHJhbnNsYXRvciwgInNlcnZpY2VFcnJvciIpLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9Cg==
+use super::*;
+use utoipa_axum::{router::OpenApiRouter, routes};
+
+pub(super) fn routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_cidr_capabilities))
+        .routes(routes!(get_cidr_provinces))
+        .routes(routes!(get_cidr_cities))
+        .routes(routes!(get_cidr_selector))
+        .routes(routes!(get_cidr_cidrs))
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/cidr/capabilities",
+    tag = "cidr",
+    operation_id = "get_api_admin_cidr_capabilities",
+    responses((status = 200, description = "Configured CIDR service capabilities"))
+)]
+pub(super) async fn get_cidr_capabilities(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match crate::cidr::probe_configured_capabilities(&state).await {
+        Ok(capabilities) => response::ok(capabilities).into_response(),
+        Err(message) => response::error(
+            StatusCode::BAD_GATEWAY,
+            localize_cidr_error(&translator, &message),
+        ),
+    }
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/cidr/provinces",
+    tag = "cidr",
+    operation_id = "get_api_admin_cidr_provinces",
+    responses((status = 200, description = "Available CIDR provinces"))
+)]
+pub(super) async fn get_cidr_provinces(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    cidr_response(crate::cidr::provinces_payload(&state).await, &translator)
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/cidr/cities",
+    tag = "cidr",
+    operation_id = "get_api_admin_cidr_cities",
+    responses((status = 200, description = "Available CIDR cities for a province"))
+)]
+pub(super) async fn get_cidr_cities(
+    State(state): State<AppState>,
+    Query(query): Query<CidrCityQuery>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    cidr_response(
+        crate::cidr::cities_payload(&state, &query.province, Some(&translator)).await,
+        &translator,
+    )
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/cidr/selector",
+    tag = "cidr",
+    operation_id = "get_api_admin_cidr_selector",
+    responses((status = 200, description = "CIDR province and optional city selector"))
+)]
+pub(super) async fn get_cidr_selector(
+    State(state): State<AppState>,
+    Query(query): Query<CidrProvinceQuery>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let result = async {
+        let provinces = crate::cidr::provinces_payload(&state).await?;
+        let province = query
+            .province
+            .as_deref()
+            .map(normalize_string)
+            .filter(|value| !value.is_empty());
+        let cities = match province {
+            Some(province) => {
+                crate::cidr::cities_payload(&state, &province, Some(&translator)).await?
+            }
+            None => Value::Null,
+        };
+        Ok(json!({ "provinces": provinces, "cities": cities }))
+    }
+    .await;
+    cidr_response(result, &translator)
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/cidr/cidrs",
+    tag = "cidr",
+    operation_id = "get_api_admin_cidr_cidrs",
+    responses((status = 200, description = "CIDR lookup result"))
+)]
+pub(super) async fn get_cidr_cidrs(
+    State(state): State<AppState>,
+    Query(query): Query<CidrCityQuery>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let result = CidrOperator::parse_optional(query.operator.as_deref())
+        .map_err(crate::cidr::CidrError::BadRequest);
+    let result = match result {
+        Ok(operator) => {
+            let query = CidrRegionQuery::new(query.province, query.city, operator);
+            crate::cidr::lookup_payload(&state, &query, Some(&translator)).await
+        }
+        Err(error) => Err(error),
+    };
+    cidr_response(result, &translator)
+}
+
+fn cidr_response(
+    result: Result<Value, crate::cidr::CidrError>,
+    translator: &Translator,
+) -> Response {
+    match result {
+        Ok(payload) => response::ok(payload).into_response(),
+        Err(crate::cidr::CidrError::BadRequest(message)) => response::error(
+            StatusCode::BAD_REQUEST,
+            localize_scanner_error(translator, &message),
+        ),
+        Err(crate::cidr::CidrError::Service(message)) => response::error(
+            if message == "CIDR operator filtering is unsupported" {
+                StatusCode::CONFLICT
+            } else {
+                StatusCode::BAD_GATEWAY
+            },
+            localize_cidr_error(translator, &message),
+        ),
+        Err(crate::cidr::CidrError::Storage(error)) => {
+            tracing::warn!(%error, "CIDR route failed");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                cidr_text(translator, "serviceError"),
+            )
+        }
+    }
+}

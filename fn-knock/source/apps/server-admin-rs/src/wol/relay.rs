@@ -1,1 +1,560 @@
-dXNlIGZuX2tub2NrX3dvbF9wcm90b2NvbDo6ewogICAgQWNrUGFja2V0LCBBY2tTdGF0dXMsIENvbW1hbmQsIE1hY0FkZHJlc3MsIFBBQ0tFVF9MRU4sIFJlcXVlc3RQYWNrZXQsIGRlY29kZV9yZXF1ZXN0LAogICAgZW5jb2RlX2FjaywgbWFnaWNfcGFja2V0LAp9Owp1c2UgaXBuZXQ6OklwTmV0Owp1c2Ugc2VyZGVfanNvbjo6anNvbjsKdXNlIHN0ZDo6ewogICAgY29sbGVjdGlvbnM6OntIYXNoTWFwLCBIYXNoU2V0LCBWZWNEZXF1ZX0sCiAgICBuZXQ6OntJcEFkZHIsIFNvY2tldEFkZHJ9LAogICAgc3luYzo6QXJjLAogICAgdGltZTo6RHVyYXRpb24sCn07CnVzZSB0b2tpbzo6ewogICAgbmV0OjpVZHBTb2NrZXQsCiAgICBzeW5jOjp7TXV0ZXgsIE93bmVkU2VtYXBob3JlUGVybWl0LCBTZW1hcGhvcmV9LAogICAgdGFzazo6Sm9pblNldCwKICAgIHRpbWUsCn07CnVzZSB1dWlkOjpVdWlkOwoKdXNlIGNyYXRlOjp7c3RhdGU6OkFwcFN0YXRlLCB0aW1lX3V0aWxzfTsKCnVzZSBzdXBlcjo6ewogICAgc2VjcmV0czo6e2xvY2FsX3JlbGF5X3NlY3JldF9pZCwgc2VjcmV0X3N0b3JlfSwKICAgIHN0b3JlOjpMb2NhbFJlbGF5Q29uZmlnLAogICAgc3RvcmU6OmxvYWRfbG9jYWxfcmVsYXlfY29uZmlnLAp9OwoKY29uc3QgTUFYX0NMT0NLX1NLRVc6IER1cmF0aW9uID0gRHVyYXRpb246OmZyb21fc2Vjcyg2MCk7CmNvbnN0IFJFUExBWV9UVExfU0VDT05EUzogdTY0ID0gMTIwOwpjb25zdCBSRVBMQVlfTUFYX0VOVFJJRVM6IHVzaXplID0gNDA5NjsKY29uc3QgUkVTVEFSVF9ERUxBWTogRHVyYXRpb24gPSBEdXJhdGlvbjo6ZnJvbV9zZWNzKDUpOwpjb25zdCBTVEFUVVNfQ09OQ1VSUkVOQ1k6IHVzaXplID0gODsKCnB1YihjcmF0ZSkgZm4gc3RhcnRfd29sX3JlbGF5X3Rhc2tzKHN0YXRlOiBBcHBTdGF0ZSkgewogICAgbGV0IHRhc2tfc3RhdGUgPSBzdGF0ZS5jbG9uZSgpOwogICAgc3RhdGUuc3Bhd25fYmFja2dyb3VuZCgid29sLXJlbGF5LXN1cGVydmlzb3IiLCBhc3luYyBtb3ZlIHsKICAgICAgICByZWxheV9zdXBlcnZpc29yKHRhc2tfc3RhdGUpLmF3YWl0OwogICAgfSk7Cn0KCmFzeW5jIGZuIHJlbGF5X3N1cGVydmlzb3Ioc3RhdGU6IEFwcFN0YXRlKSB7CiAgICBsZXQgbXV0IHJ1bnRpbWVfcmVsb2FkID0gc3RhdGUud29sLnJ1bnRpbWVfcmVsb2FkLnN1YnNjcmliZSgpOwogICAgbG9vcCB7CiAgICAgICAgaWYgc3RhdGUuc2h1dGRvd24uaXNfY2FuY2VsbGVkKCkgewogICAgICAgICAgICBzZXRfc3RhdHVzKCZzdGF0ZSwgZmFsc2UsIGZhbHNlLCBOb25lLCBOb25lKS5hd2FpdDsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KCiAgICAgICAgbWF0Y2ggc3VwZXI6OmZlYXR1cmVfZW5hYmxlZF9mb3Jfc3RhdGUoJnN0YXRlKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKHRydWUpID0+IHt9CiAgICAgICAgICAgIE9rKGZhbHNlKSA9PiB7CiAgICAgICAgICAgICAgICBzZXRfc3RhdHVzKCZzdGF0ZSwgZmFsc2UsIGZhbHNlLCBOb25lLCBOb25lKS5hd2FpdDsKICAgICAgICAgICAgICAgIHRva2lvOjpzZWxlY3QhIHsKICAgICAgICAgICAgICAgICAgICBfID0gc3RhdGUuc2h1dGRvd24uY2FuY2VsbGVkKCkgPT4gcmV0dXJuLAogICAgICAgICAgICAgICAgICAgIF8gPSBydW50aW1lX3JlbG9hZC5jaGFuZ2VkKCkgPT4gY29udGludWUsCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gbG9hZCBXb0wgZmVhdHVyZSBjb25maWd1cmF0aW9uIik7CiAgICAgICAgICAgICAgICBzZXRfc3RhdHVzKCZzdGF0ZSwgZmFsc2UsIGZhbHNlLCBOb25lLCBTb21lKGVycm9yLnRvX3N0cmluZygpKSkuYXdhaXQ7CiAgICAgICAgICAgICAgICB3YWl0X2Zvcl9yZWxvYWRfb3JfcmV0cnkoJnN0YXRlLCAmbXV0IHJ1bnRpbWVfcmVsb2FkKS5hd2FpdDsKICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBsZXQgY29uZmlnID0gbWF0Y2ggbG9hZF9sb2NhbF9yZWxheV9jb25maWcoJnN0YXRlKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKGNvbmZpZykgPT4gY29uZmlnLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBsb2FkIGJ1aWx0LWluIFdvTCBSZWxheSBjb25maWd1cmF0aW9uIik7CiAgICAgICAgICAgICAgICBzZXRfc3RhdHVzKCZzdGF0ZSwgZmFsc2UsIGZhbHNlLCBOb25lLCBTb21lKGVycm9yLnRvX3N0cmluZygpKSkuYXdhaXQ7CiAgICAgICAgICAgICAgICB3YWl0X2Zvcl9yZWxvYWRfb3JfcmV0cnkoJnN0YXRlLCAmbXV0IHJ1bnRpbWVfcmVsb2FkKS5hd2FpdDsKICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICB9CiAgICAgICAgfTsKCiAgICAgICAgaWYgIWNvbmZpZy5lbmFibGVkIHsKICAgICAgICAgICAgc2V0X3N0YXR1cygmc3RhdGUsIGZhbHNlLCBmYWxzZSwgTm9uZSwgTm9uZSkuYXdhaXQ7CiAgICAgICAgICAgIHRva2lvOjpzZWxlY3QhIHsKICAgICAgICAgICAgICAgIF8gPSBzdGF0ZS5zaHV0ZG93bi5jYW5jZWxsZWQoKSA9PiByZXR1cm4sCiAgICAgICAgICAgICAgICBfID0gc3RhdGUud29sLnJlbGF5X3JlbG9hZC5ub3RpZmllZCgpID0+IGNvbnRpbnVlLAogICAgICAgICAgICAgICAgXyA9IHJ1bnRpbWVfcmVsb2FkLmNoYW5nZWQoKSA9PiBjb250aW51ZSwKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgbWF0Y2ggcnVuX2xpc3RlbmVyKCZzdGF0ZSwgJmNvbmZpZywgJm11dCBydW50aW1lX3JlbG9hZCkuYXdhaXQgewogICAgICAgICAgICBMaXN0ZW5lckV4aXQ6OlJlbG9hZCA9PiBjb250aW51ZSwKICAgICAgICAgICAgTGlzdGVuZXJFeGl0OjpTaHV0ZG93biA9PiB7CiAgICAgICAgICAgICAgICBzZXRfc3RhdHVzKCZzdGF0ZSwgdHJ1ZSwgZmFsc2UsIE5vbmUsIE5vbmUpLmF3YWl0OwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9CiAgICAgICAgICAgIExpc3RlbmVyRXhpdDo6RmFpbGVkKGVycm9yKSA9PiB7CiAgICAgICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJidWlsdC1pbiBXb0wgUmVsYXkgbGlzdGVuZXIgc3RvcHBlZCIpOwogICAgICAgICAgICAgICAgc2V0X3N0YXR1cygmc3RhdGUsIHRydWUsIGZhbHNlLCBOb25lLCBTb21lKGVycm9yKSkuYXdhaXQ7CiAgICAgICAgICAgICAgICB3YWl0X2Zvcl9yZWxvYWRfb3JfcmV0cnkoJnN0YXRlLCAmbXV0IHJ1bnRpbWVfcmVsb2FkKS5hd2FpdDsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKYXN5bmMgZm4gd2FpdF9mb3JfcmVsb2FkX29yX3JldHJ5KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHJ1bnRpbWVfcmVsb2FkOiAmbXV0IHRva2lvOjpzeW5jOjp3YXRjaDo6UmVjZWl2ZXI8dTY0PiwKKSB7CiAgICB0b2tpbzo6c2VsZWN0ISB7CiAgICAgICAgXyA9IHN0YXRlLnNodXRkb3duLmNhbmNlbGxlZCgpID0+IHt9CiAgICAgICAgXyA9IHN0YXRlLndvbC5yZWxheV9yZWxvYWQubm90aWZpZWQoKSA9PiB7fQogICAgICAgIF8gPSBydW50aW1lX3JlbG9hZC5jaGFuZ2VkKCkgPT4ge30KICAgICAgICBfID0gdGltZTo6c2xlZXAoUkVTVEFSVF9ERUxBWSkgPT4ge30KICAgIH0KfQoKZW51bSBMaXN0ZW5lckV4aXQgewogICAgUmVsb2FkLAogICAgU2h1dGRvd24sCiAgICBGYWlsZWQoU3RyaW5nKSwKfQoKYXN5bmMgZm4gcnVuX2xpc3RlbmVyKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGNvbmZpZzogJkxvY2FsUmVsYXlDb25maWcsCiAgICBydW50aW1lX3JlbG9hZDogJm11dCB0b2tpbzo6c3luYzo6d2F0Y2g6OlJlY2VpdmVyPHU2ND4sCikgLT4gTGlzdGVuZXJFeGl0IHsKICAgIGxldCByZWxheV9pZCA9IG1hdGNoIFV1aWQ6OnBhcnNlX3N0cigmY29uZmlnLnJlbGF5X2lkKSB7CiAgICAgICAgT2sodmFsdWUpID0+ICp2YWx1ZS5hc19ieXRlcygpLAogICAgICAgIEVycihfKSA9PiByZXR1cm4gTGlzdGVuZXJFeGl0OjpGYWlsZWQoIlJlbGF5IElEIGlzIGludmFsaWQiLnRvX3N0cmluZygpKSwKICAgIH07CiAgICBpZiBjb25maWcua2V5X3ZlcnNpb24gPT0gMCB7CiAgICAgICAgcmV0dXJuIExpc3RlbmVyRXhpdDo6RmFpbGVkKCJSZWxheSBrZXkgdmVyc2lvbiBpcyBpbnZhbGlkIi50b19zdHJpbmcoKSk7CiAgICB9CiAgICBsZXQgcHNrID0gbWF0Y2ggc2VjcmV0X3N0b3JlKHN0YXRlKQogICAgICAgIC5yZWFkKCZsb2NhbF9yZWxheV9zZWNyZXRfaWQoJmNvbmZpZy5yZWxheV9pZCksIGNvbmZpZy5rZXlfdmVyc2lvbikKICAgIHsKICAgICAgICBPayhTb21lKHZhbHVlKSkgaWYgdmFsdWUubGVuKCkgPT0gMzIgPT4gdmFsdWUsCiAgICAgICAgT2soXykgPT4gcmV0dXJuIExpc3RlbmVyRXhpdDo6RmFpbGVkKCJSZWxheSBQU0sgaXMgbm90IGNvbmZpZ3VyZWQiLnRvX3N0cmluZygpKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHJldHVybiBMaXN0ZW5lckV4aXQ6OkZhaWxlZChlcnJvciksCiAgICB9OwogICAgbGV0IGxpc3Rlbl9pcCA9IG1hdGNoIGNvbmZpZy5saXN0ZW5fYWRkcmVzcy5wYXJzZTo6PElwQWRkcj4oKSB7CiAgICAgICAgT2sodmFsdWUpID0+IHZhbHVlLAogICAgICAgIEVycihfKSA9PiByZXR1cm4gTGlzdGVuZXJFeGl0OjpGYWlsZWQoIlJlbGF5IGxpc3RlbiBhZGRyZXNzIGlzIGludmFsaWQiLnRvX3N0cmluZygpKSwKICAgIH07CiAgICBsZXQgbGlzdGVuX2VuZHBvaW50ID0gU29ja2V0QWRkcjo6bmV3KGxpc3Rlbl9pcCwgY29uZmlnLnBvcnQpOwogICAgbGV0IGFsbG93ZWRfc291cmNlcyA9IG1hdGNoIHBhcnNlX2FsbG93ZWRfc291cmNlcygmY29uZmlnLmFsbG93ZWRfc291cmNlcykgewogICAgICAgIE9rKHZhbHVlKSA9PiB2YWx1ZSwKICAgICAgICBFcnIoZXJyb3IpID0+IHJldHVybiBMaXN0ZW5lckV4aXQ6OkZhaWxlZChlcnJvciksCiAgICB9OwogICAgbGV0IGJyb2FkY2FzdF9kZXN0aW5hdGlvbnMgPSBtYXRjaCBwYXJzZV9icm9hZGNhc3RfZGVzdGluYXRpb25zKCZjb25maWcuYnJvYWRjYXN0X2Rlc3RpbmF0aW9ucykKICAgIHsKICAgICAgICBPayh2YWx1ZSkgPT4gdmFsdWUsCiAgICAgICAgRXJyKGVycm9yKSA9PiByZXR1cm4gTGlzdGVuZXJFeGl0OjpGYWlsZWQoZXJyb3IpLAogICAgfTsKICAgIGxldCBsaXN0ZW5lciA9IG1hdGNoIFVkcFNvY2tldDo6YmluZChsaXN0ZW5fZW5kcG9pbnQpLmF3YWl0IHsKICAgICAgICBPayh2YWx1ZSkgPT4gQXJjOjpuZXcodmFsdWUpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICByZXR1cm4gTGlzdGVuZXJFeGl0OjpGYWlsZWQoZm9ybWF0ISgKICAgICAgICAgICAgICAgICJmYWlsZWQgdG8gYmluZCBVRFAgbGlzdGVuZXIgb24ge2xpc3Rlbl9lbmRwb2ludH06IHtlcnJvcn0iCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgIH07CiAgICBsZXQgYnJvYWRjYXN0X3NvY2tldCA9IG1hdGNoIFVkcFNvY2tldDo6YmluZCgiMC4wLjAuMDowIikuYXdhaXQgewogICAgICAgIE9rKHZhbHVlKSA9PiBBcmM6Om5ldyh2YWx1ZSksCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHJldHVybiBMaXN0ZW5lckV4aXQ6OkZhaWxlZChmb3JtYXQhKCJmYWlsZWQgdG8gb3BlbiBXb0wgYnJvYWRjYXN0IHNvY2tldDoge2Vycm9yfSIpKTsKICAgICAgICB9CiAgICB9OwogICAgaWYgbGV0IEVycihlcnJvcikgPSBicm9hZGNhc3Rfc29ja2V0LnNldF9icm9hZGNhc3QodHJ1ZSkgewogICAgICAgIHJldHVybiBMaXN0ZW5lckV4aXQ6OkZhaWxlZChmb3JtYXQhKCJmYWlsZWQgdG8gZW5hYmxlIFVEUCBicm9hZGNhc3Q6IHtlcnJvcn0iKSk7CiAgICB9CiAgICBsZXQgYWN0dWFsX2VuZHBvaW50ID0gbGlzdGVuZXIubG9jYWxfYWRkcigpLnVud3JhcF9vcihsaXN0ZW5fZW5kcG9pbnQpOwogICAgc2V0X3N0YXR1cyhzdGF0ZSwgdHJ1ZSwgdHJ1ZSwgU29tZShhY3R1YWxfZW5kcG9pbnQudG9fc3RyaW5nKCkpLCBOb25lKS5hd2FpdDsKICAgIHRyYWNpbmc6OmluZm8hKGFkZHJlc3MgPSAlYWN0dWFsX2VuZHBvaW50LCByZWxheV9pZCA9ICVjb25maWcucmVsYXlfaWQsICJidWlsdC1pbiBXb0wgUmVsYXkgbGlzdGVuaW5nIik7CgogICAgbGV0IHByb2Nlc3NvciA9IEFyYzo6bmV3KE11dGV4OjpuZXcoUmVsYXlQcm9jZXNzb3I6Om5ldygKICAgICAgICByZWxheV9pZCwKICAgICAgICBjb25maWcua2V5X3ZlcnNpb24sCiAgICAgICAgcHNrLAogICAgKSkpOwogICAgbGV0IHN0YXR1c19zZW1hcGhvcmUgPSBBcmM6Om5ldyhTZW1hcGhvcmU6Om5ldyhTVEFUVVNfQ09OQ1VSUkVOQ1kpKTsKICAgIGxldCBtdXQgd29ya2VycyA9IEpvaW5TZXQ6Om5ldygpOwogICAgLy8gVGhlIGV4dHJhIGJ5dGUgZW5zdXJlcyBhbiBvdmVyc2l6ZWQgZGF0YWdyYW0gaXMgbm90IGFjY2VwdGVkIGFmdGVyIFVEUCB0cnVuY2F0aW9uLgogICAgbGV0IG11dCBpbnB1dCA9IFswX3U4OyBQQUNLRVRfTEVOICsgMV07CiAgICBsb29wIHsKICAgICAgICB0b2tpbzo6c2VsZWN0ISB7CiAgICAgICAgICAgIF8gPSBzdGF0ZS5zaHV0ZG93bi5jYW5jZWxsZWQoKSA9PiByZXR1cm4gTGlzdGVuZXJFeGl0OjpTaHV0ZG93biwKICAgICAgICAgICAgXyA9IHN0YXRlLndvbC5yZWxheV9yZWxvYWQubm90aWZpZWQoKSA9PiByZXR1cm4gTGlzdGVuZXJFeGl0OjpSZWxvYWQsCiAgICAgICAgICAgIF8gPSBydW50aW1lX3JlbG9hZC5jaGFuZ2VkKCkgPT4gcmV0dXJuIExpc3RlbmVyRXhpdDo6UmVsb2FkLAogICAgICAgICAgICBjb21wbGV0ZWQgPSB3b3JrZXJzLmpvaW5fbmV4dCgpLCBpZiAhd29ya2Vycy5pc19lbXB0eSgpID0+IHsKICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKEVycihlcnJvcikpID0gY29tcGxldGVkIHsKICAgICAgICAgICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJidWlsdC1pbiBXb0wgUmVsYXkgcmVxdWVzdCB3b3JrZXIgZmFpbGVkIik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmVjZWl2ZWQgPSBsaXN0ZW5lci5yZWN2X2Zyb20oJm11dCBpbnB1dCkgPT4gewogICAgICAgICAgICAgICAgbGV0IChsZW5ndGgsIHNvdXJjZSkgPSBtYXRjaCByZWNlaXZlZCB7CiAgICAgICAgICAgICAgICAgICAgT2sodmFsdWUpID0+IHZhbHVlLAogICAgICAgICAgICAgICAgICAgIEVycihlcnJvcikgPT4gcmV0dXJuIExpc3RlbmVyRXhpdDo6RmFpbGVkKGZvcm1hdCEoImZhaWxlZCB0byByZWNlaXZlIFJlbGF5IGRhdGFncmFtOiB7ZXJyb3J9IikpLAogICAgICAgICAgICAgICAgfTsKICAgICAgICAgICAgICAgIGlmICFzb3VyY2VfYWxsb3dlZChzb3VyY2UuaXAoKSwgJmFsbG93ZWRfc291cmNlcykgewogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgbGV0IG5vdyA9IHVuaXhfc2Vjb25kcygpOwogICAgICAgICAgICAgICAgbGV0IGFjdGlvbiA9IHByb2Nlc3Nvci5sb2NrKCkuYXdhaXQuaW5zcGVjdCgmaW5wdXRbLi5sZW5ndGhdLCBub3cpOwogICAgICAgICAgICAgICAgbGV0IFNvbWUoYWN0aW9uKSA9IGFjdGlvbiBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAvLyBBdXRoZW50aWNhdGlvbiBhbmQgaWRlbnRpdHkgZmFpbHVyZXMgYXJlIGRlbGliZXJhdGVseSBzaWxlbnQuCiAgICAgICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgICAgICB9OwogICAgICAgICAgICAgICAgbWF0Y2ggYWN0aW9uIHsKICAgICAgICAgICAgICAgICAgICBSZWxheUFjdGlvbjo6Q2FjaGVkKHBhY2tldCkgPT4gewogICAgICAgICAgICAgICAgICAgICAgICBpZiBsZXQgRXJyKGVycm9yKSA9IGxpc3RlbmVyLnNlbmRfdG8oJnBhY2tldCwgc291cmNlKS5hd2FpdCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsIHNvdXJjZSA9ICVzb3VyY2UsICJmYWlsZWQgdG8gc2VuZCBjYWNoZWQgc2lnbmVkIFdvTCBSZWxheSBhY2tub3dsZWRnZW1lbnQiKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBSZWxheUFjdGlvbjo6TmV3IHsgcmVxdWVzdCwgZm9yY2VkX3N0YXR1cyB9ID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGxpc3RlbmVyID0gQXJjOjpjbG9uZSgmbGlzdGVuZXIpOwogICAgICAgICAgICAgICAgICAgICAgICBsZXQgYnJvYWRjYXN0X3NvY2tldCA9IEFyYzo6Y2xvbmUoJmJyb2FkY2FzdF9zb2NrZXQpOwogICAgICAgICAgICAgICAgICAgICAgICBsZXQgZGVzdGluYXRpb25zID0gYnJvYWRjYXN0X2Rlc3RpbmF0aW9ucy5jbG9uZSgpOwogICAgICAgICAgICAgICAgICAgICAgICBsZXQgcHJvY2Vzc29yID0gQXJjOjpjbG9uZSgmcHJvY2Vzc29yKTsKICAgICAgICAgICAgICAgICAgICAgICAgbGV0IHN0YXR1c19zZW1hcGhvcmUgPSBBcmM6OmNsb25lKCZzdGF0dXNfc2VtYXBob3JlKTsKICAgICAgICAgICAgICAgICAgICAgICAgd29ya2Vycy5zcGF3bihhc3luYyBtb3ZlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxldCBfc3RhdHVzX3Blcm1pdCA9IGlmIGZvcmNlZF9zdGF0dXMuaXNfbm9uZSgpICYmIHJlcXVlc3QuY29tbWFuZCA9PSBDb21tYW5kOjpTdGF0dXMgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyeV9hY3F1aXJlX3N0YXR1c19wZXJtaXQoJnN0YXR1c19zZW1hcGhvcmUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE5vbmUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXQgb3ZlcmxvYWRlZCA9IGZvcmNlZF9zdGF0dXMuaXNfbm9uZSgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJiYgcmVxdWVzdC5jb21tYW5kID09IENvbW1hbmQ6OlN0YXR1cwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICYmIF9zdGF0dXNfcGVybWl0LmlzX25vbmUoKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxldCBlZmZlY3RpdmVfc3RhdHVzID0gZm9yY2VkX3N0YXR1cy5vcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdmVybG9hZGVkLnRoZW5fc29tZShBY2tTdGF0dXM6OlRhcmdldFVua25vd24pLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxldCAoc3RhdHVzLCBvYnNlcnZlZF9pcCkgPSBtYXRjaCBlZmZlY3RpdmVfc3RhdHVzIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTb21lKHN0YXR1cykgPT4gKHN0YXR1cywgcmVxdWVzdC50YXJnZXRfaXB2NCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTm9uZSA9PiBwcm9jZXNzX3JlcXVlc3QoJnJlcXVlc3QsICZicm9hZGNhc3Rfc29ja2V0LCAmZGVzdGluYXRpb25zKS5hd2FpdCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXQgcmVxdWVzdF9pZCA9IFV1aWQ6OmZyb21fYnl0ZXMocmVxdWVzdC5yZXF1ZXN0X2lkKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxldCB0YXJnZXRfbWFjID0gTWFjQWRkcmVzczo6ZnJvbV9ieXRlcyhyZXF1ZXN0LnRhcmdldF9tYWMpLm9rKCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFjaW5nOjppbmZvISgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAlcmVxdWVzdF9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzb3VyY2UgPSAlc291cmNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhcmdldF9tYWMgPSB0YXJnZXRfbWFjLm1hcCh8dmFsdWV8IHZhbHVlLnRvX3N0cmluZygpKS51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbW1hbmQgPSA/cmVxdWVzdC5jb21tYW5kLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXR1cyA9ID9zdGF0dXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInByb2Nlc3NlZCBhdXRoZW50aWNhdGVkIGJ1aWx0LWluIFdvTCBSZWxheSByZXF1ZXN0IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxldCBhY2sgPSBwcm9jZXNzb3IubG9jaygpLmF3YWl0LmZpbmlzaCgmcmVxdWVzdCwgc3RhdHVzLCBvYnNlcnZlZF9pcCwgdW5peF9zZWNvbmRzKCkpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPSBsaXN0ZW5lci5zZW5kX3RvKCZhY2ssIHNvdXJjZSkuYXdhaXQgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgc291cmNlID0gJXNvdXJjZSwgImZhaWxlZCB0byBzZW5kIHNpZ25lZCBXb0wgUmVsYXkgYWNrbm93bGVkZ2VtZW50Iik7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKYXN5bmMgZm4gcHJvY2Vzc19yZXF1ZXN0KAogICAgcmVxdWVzdDogJlJlcXVlc3RQYWNrZXQsCiAgICBzb2NrZXQ6ICZVZHBTb2NrZXQsCiAgICBkZXN0aW5hdGlvbnM6ICZbU29ja2V0QWRkcl0sCikgLT4gKEFja1N0YXR1cywgW3U4OyA0XSkgewogICAgaWYgcmVxdWVzdC5jb21tYW5kID09IENvbW1hbmQ6OlByb2JlIHsKICAgICAgICByZXR1cm4gKEFja1N0YXR1czo6T2ssIHJlcXVlc3QudGFyZ2V0X2lwdjQpOwogICAgfQogICAgbGV0IG1hYyA9IG1hdGNoIE1hY0FkZHJlc3M6OmZyb21fYnl0ZXMocmVxdWVzdC50YXJnZXRfbWFjKSB7CiAgICAgICAgT2sodmFsdWUpID0+IHZhbHVlLAogICAgICAgIEVycihfKSA9PiByZXR1cm4gKEFja1N0YXR1czo6SW52YWxpZFRhcmdldCwgcmVxdWVzdC50YXJnZXRfaXB2NCksCiAgICB9OwogICAgaWYgcmVxdWVzdC5jb21tYW5kID09IENvbW1hbmQ6OlN0YXR1cyB7CiAgICAgICAgbGV0IHJlc3VsdCA9IHN1cGVyOjpwcm9iZTo6cHJvYmVfZGV2aWNlX2JvdW5kZWQoCiAgICAgICAgICAgIG1hYywKICAgICAgICAgICAgc3VwZXI6OnByb2JlOjppcHY0X2Zyb21fd2lyZShyZXF1ZXN0LnRhcmdldF9pcHY0KSwKICAgICAgICApCiAgICAgICAgLmF3YWl0OwogICAgICAgIGxldCBzdGF0dXMgPSBtYXRjaCByZXN1bHQuc3RhdGUgewogICAgICAgICAgICBzdXBlcjo6cHJvYmU6OkRldmljZVByb2JlU3RhdGU6Ok9ubGluZSA9PiBBY2tTdGF0dXM6OlRhcmdldE9ubGluZSwKICAgICAgICAgICAgc3VwZXI6OnByb2JlOjpEZXZpY2VQcm9iZVN0YXRlOjpPZmZsaW5lID0+IEFja1N0YXR1czo6VGFyZ2V0T2ZmbGluZSwKICAgICAgICAgICAgc3VwZXI6OnByb2JlOjpEZXZpY2VQcm9iZVN0YXRlOjpVbmtub3duID0+IEFja1N0YXR1czo6VGFyZ2V0VW5rbm93biwKICAgICAgICB9OwogICAgICAgIHJldHVybiAoc3RhdHVzLCBzdXBlcjo6cHJvYmU6OmlwdjRfdG9fd2lyZShyZXN1bHQub2JzZXJ2ZWRfaXApKTsKICAgIH0KICAgIGxldCBwYWNrZXQgPSBtYWdpY19wYWNrZXQobWFjKTsKICAgIGxldCBtdXQgZGVsaXZlcmVkID0gMF91c2l6ZTsKICAgIGZvciBkZXN0aW5hdGlvbiBpbiBkZXN0aW5hdGlvbnMgewogICAgICAgIG1hdGNoIHNvY2tldC5zZW5kX3RvKCZwYWNrZXQsIGRlc3RpbmF0aW9uKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKGxlbmd0aCkgaWYgbGVuZ3RoID09IHBhY2tldC5sZW4oKSA9PiBkZWxpdmVyZWQgKz0gMSwKICAgICAgICAgICAgXyA9PiB7fQogICAgICAgIH0KICAgIH0KICAgICgKICAgICAgICBpZiBkZWxpdmVyZWQgPiAwIHsKICAgICAgICAgICAgQWNrU3RhdHVzOjpPawogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIEFja1N0YXR1czo6QnJvYWRjYXN0RmFpbGVkCiAgICAgICAgfSwKICAgICAgICByZXF1ZXN0LnRhcmdldF9pcHY0LAogICAgKQp9CgpmbiB0cnlfYWNxdWlyZV9zdGF0dXNfcGVybWl0KHNlbWFwaG9yZTogJkFyYzxTZW1hcGhvcmU+KSAtPiBPcHRpb248T3duZWRTZW1hcGhvcmVQZXJtaXQ+IHsKICAgIEFyYzo6Y2xvbmUoc2VtYXBob3JlKS50cnlfYWNxdWlyZV9vd25lZCgpLm9rKCkKfQoKZm4gcGFyc2VfYWxsb3dlZF9zb3VyY2VzKHZhbHVlczogJltTdHJpbmddKSAtPiBSZXN1bHQ8VmVjPElwTmV0PiwgU3RyaW5nPiB7CiAgICB2YWx1ZXMKICAgICAgICAuaXRlcigpCiAgICAgICAgLm1hcCh8dmFsdWV8IHsKICAgICAgICAgICAgdmFsdWUKICAgICAgICAgICAgICAgIC50cmltKCkKICAgICAgICAgICAgICAgIC5wYXJzZTo6PElwTmV0PigpCiAgICAgICAgICAgICAgICAubWFwX2Vycih8X3wgZm9ybWF0ISgiYWxsb3dlZCBzb3VyY2UgQ0lEUiBpcyBpbnZhbGlkOiB7dmFsdWV9IikpCiAgICAgICAgfSkKICAgICAgICAuY29sbGVjdCgpCn0KCmZuIHBhcnNlX2Jyb2FkY2FzdF9kZXN0aW5hdGlvbnModmFsdWVzOiAmW1N0cmluZ10pIC0+IFJlc3VsdDxWZWM8U29ja2V0QWRkcj4sIFN0cmluZz4gewogICAgaWYgdmFsdWVzLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBFcnIoImF0IGxlYXN0IG9uZSBicm9hZGNhc3QgZGVzdGluYXRpb24gaXMgcmVxdWlyZWQiLnRvX3N0cmluZygpKTsKICAgIH0KICAgIHZhbHVlcwogICAgICAgIC5pdGVyKCkKICAgICAgICAubWFwKHx2YWx1ZXwgewogICAgICAgICAgICBsZXQgZW5kcG9pbnQgPSB2YWx1ZQogICAgICAgICAgICAgICAgLnRyaW0oKQogICAgICAgICAgICAgICAgLnBhcnNlOjo8U29ja2V0QWRkcj4oKQogICAgICAgICAgICAgICAgLm1hcF9lcnIofF98IGZvcm1hdCEoImJyb2FkY2FzdCBkZXN0aW5hdGlvbiBpcyBpbnZhbGlkOiB7dmFsdWV9IikpPzsKICAgICAgICAgICAgaWYgIWVuZHBvaW50LmlzX2lwdjQoKSB8fCBlbmRwb2ludC5wb3J0KCkgPT0gMCB7CiAgICAgICAgICAgICAgICByZXR1cm4gRXJyKGZvcm1hdCEoCiAgICAgICAgICAgICAgICAgICAgImJyb2FkY2FzdCBkZXN0aW5hdGlvbiBtdXN0IGJlIElQdjQgd2l0aCBhIHBvcnQ6IHt2YWx1ZX0iCiAgICAgICAgICAgICAgICApKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBPayhlbmRwb2ludCkKICAgICAgICB9KQogICAgICAgIC5jb2xsZWN0KCkKfQoKZm4gc291cmNlX2FsbG93ZWQoc291cmNlOiBJcEFkZHIsIGFsbG93ZWRfc291cmNlczogJltJcE5ldF0pIC0+IGJvb2wgewogICAgYWxsb3dlZF9zb3VyY2VzLmlzX2VtcHR5KCkKICAgICAgICB8fCBhbGxvd2VkX3NvdXJjZXMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAuYW55KHxuZXR3b3JrfCBuZXR3b3JrLmNvbnRhaW5zKCZzb3VyY2UpKQp9Cgphc3luYyBmbiBzZXRfc3RhdHVzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGVuYWJsZWQ6IGJvb2wsCiAgICBhY3RpdmU6IGJvb2wsCiAgICBsaXN0ZW5fYWRkcmVzczogT3B0aW9uPFN0cmluZz4sCiAgICBsYXN0X2Vycm9yOiBPcHRpb248U3RyaW5nPiwKKSB7CiAgICAqc3RhdGUud29sLnJlbGF5X3N0YXR1cy53cml0ZSgpLmF3YWl0ID0ganNvbiEoewogICAgICAgICJlbmFibGVkIjogZW5hYmxlZCwKICAgICAgICAiYWN0aXZlIjogYWN0aXZlLAogICAgICAgICJsaXN0ZW5BZGRyZXNzIjogbGlzdGVuX2FkZHJlc3MsCiAgICAgICAgImxhc3RFcnJvciI6IGxhc3RfZXJyb3IsCiAgICAgICAgInVwZGF0ZWRBdCI6IHRpbWVfdXRpbHM6Om5vd19pc28oKSwKICAgIH0pOwp9CgojW2Rlcml2ZShDbG9uZSldCnN0cnVjdCBDYWNoZWRBY2sgewogICAgY3JlYXRlZF9hdDogdTY0LAogICAgcGFja2V0OiBWZWM8dTg+LAp9CgplbnVtIFJlbGF5QWN0aW9uIHsKICAgIENhY2hlZChWZWM8dTg+KSwKICAgIE5ldyB7CiAgICAgICAgcmVxdWVzdDogUmVxdWVzdFBhY2tldCwKICAgICAgICBmb3JjZWRfc3RhdHVzOiBPcHRpb248QWNrU3RhdHVzPiwKICAgIH0sCn0KCnN0cnVjdCBSZWxheVByb2Nlc3NvciB7CiAgICByZWxheV9pZDogW3U4OyAxNl0sCiAgICBrZXlfdmVyc2lvbjogdTMyLAogICAgcHNrOiBWZWM8dTg+LAogICAgcmVwbGF5OiBIYXNoTWFwPFt1ODsgMTZdLCBDYWNoZWRBY2s+LAogICAgcmVwbGF5X29yZGVyOiBWZWNEZXF1ZTxbdTg7IDE2XT4sCiAgICBwZW5kaW5nOiBIYXNoU2V0PFt1ODsgMTZdPiwKfQoKaW1wbCBSZWxheVByb2Nlc3NvciB7CiAgICBmbiBuZXcocmVsYXlfaWQ6IFt1ODsgMTZdLCBrZXlfdmVyc2lvbjogdTMyLCBwc2s6IFZlYzx1OD4pIC0+IFNlbGYgewogICAgICAgIFNlbGYgewogICAgICAgICAgICByZWxheV9pZCwKICAgICAgICAgICAga2V5X3ZlcnNpb24sCiAgICAgICAgICAgIHBzaywKICAgICAgICAgICAgcmVwbGF5OiBIYXNoTWFwOjpuZXcoKSwKICAgICAgICAgICAgcmVwbGF5X29yZGVyOiBWZWNEZXF1ZTo6bmV3KCksCiAgICAgICAgICAgIHBlbmRpbmc6IEhhc2hTZXQ6Om5ldygpLAogICAgICAgIH0KICAgIH0KCiAgICBmbiBpbnNwZWN0KCZtdXQgc2VsZiwgaW5wdXQ6ICZbdThdLCBub3c6IHU2NCkgLT4gT3B0aW9uPFJlbGF5QWN0aW9uPiB7CiAgICAgICAgbGV0IHJlcXVlc3QgPSBkZWNvZGVfcmVxdWVzdChpbnB1dCwgJnNlbGYucHNrKS5vaygpPzsKICAgICAgICBpZiByZXF1ZXN0LnJlbGF5X2lkICE9IHNlbGYucmVsYXlfaWQgfHwgcmVxdWVzdC5rZXlfdmVyc2lvbiAhPSBzZWxmLmtleV92ZXJzaW9uIHsKICAgICAgICAgICAgcmV0dXJuIE5vbmU7CiAgICAgICAgfQogICAgICAgIHNlbGYucHJ1bmVfcmVwbGF5KG5vdyk7CiAgICAgICAgaWYgbGV0IFNvbWUoY2FjaGVkKSA9IHNlbGYucmVwbGF5LmdldCgmcmVxdWVzdC5yZXF1ZXN0X2lkKSB7CiAgICAgICAgICAgIHJldHVybiBTb21lKFJlbGF5QWN0aW9uOjpDYWNoZWQoY2FjaGVkLnBhY2tldC5jbG9uZSgpKSk7CiAgICAgICAgfQogICAgICAgIGlmICFzZWxmLnBlbmRpbmcuaW5zZXJ0KHJlcXVlc3QucmVxdWVzdF9pZCkgewogICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICB9CiAgICAgICAgU29tZShSZWxheUFjdGlvbjo6TmV3IHsKICAgICAgICAgICAgZm9yY2VkX3N0YXR1czogKG5vdy5hYnNfZGlmZihyZXF1ZXN0LnRpbWVzdGFtcCkgPiBNQVhfQ0xPQ0tfU0tFVy5hc19zZWNzKCkpCiAgICAgICAgICAgICAgICAudGhlbl9zb21lKEFja1N0YXR1czo6Q2xvY2tTa2V3KSwKICAgICAgICAgICAgcmVxdWVzdCwKICAgICAgICB9KQogICAgfQoKICAgIGZuIGZpbmlzaCgKICAgICAgICAmbXV0IHNlbGYsCiAgICAgICAgcmVxdWVzdDogJlJlcXVlc3RQYWNrZXQsCiAgICAgICAgc3RhdHVzOiBBY2tTdGF0dXMsCiAgICAgICAgdGFyZ2V0X2lwdjQ6IFt1ODsgNF0sCiAgICAgICAgbm93OiB1NjQsCiAgICApIC0+IFZlYzx1OD4gewogICAgICAgIHNlbGYucGVuZGluZy5yZW1vdmUoJnJlcXVlc3QucmVxdWVzdF9pZCk7CiAgICAgICAgbGV0IHBhY2tldCA9IGVuY29kZV9hY2soCiAgICAgICAgICAgICZBY2tQYWNrZXQgewogICAgICAgICAgICAgICAgY29tbWFuZDogcmVxdWVzdC5jb21tYW5kLAogICAgICAgICAgICAgICAgc3RhdHVzLAogICAgICAgICAgICAgICAgcmVsYXlfaWQ6IHJlcXVlc3QucmVsYXlfaWQsCiAgICAgICAgICAgICAgICBrZXlfdmVyc2lvbjogcmVxdWVzdC5rZXlfdmVyc2lvbiwKICAgICAgICAgICAgICAgIHRpbWVzdGFtcDogbm93LAogICAgICAgICAgICAgICAgcmVxdWVzdF9pZDogcmVxdWVzdC5yZXF1ZXN0X2lkLAogICAgICAgICAgICAgICAgdGFyZ2V0X21hYzogcmVxdWVzdC50YXJnZXRfbWFjLAogICAgICAgICAgICAgICAgdGFyZ2V0X2lwdjQsCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICZzZWxmLnBzaywKICAgICAgICApCiAgICAgICAgLnRvX3ZlYygpOwogICAgICAgIHNlbGYucmVwbGF5X29yZGVyLnB1c2hfYmFjayhyZXF1ZXN0LnJlcXVlc3RfaWQpOwogICAgICAgIHNlbGYucmVwbGF5Lmluc2VydCgKICAgICAgICAgICAgcmVxdWVzdC5yZXF1ZXN0X2lkLAogICAgICAgICAgICBDYWNoZWRBY2sgewogICAgICAgICAgICAgICAgY3JlYXRlZF9hdDogbm93LAogICAgICAgICAgICAgICAgcGFja2V0OiBwYWNrZXQuY2xvbmUoKSwKICAgICAgICAgICAgfSwKICAgICAgICApOwogICAgICAgIHdoaWxlIHNlbGYucmVwbGF5LmxlbigpID4gUkVQTEFZX01BWF9FTlRSSUVTIHsKICAgICAgICAgICAgaWYgbGV0IFNvbWUob2xkZXN0KSA9IHNlbGYucmVwbGF5X29yZGVyLnBvcF9mcm9udCgpIHsKICAgICAgICAgICAgICAgIHNlbGYucmVwbGF5LnJlbW92ZSgmb2xkZXN0KTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBwYWNrZXQKICAgIH0KCiAgICBmbiBwcnVuZV9yZXBsYXkoJm11dCBzZWxmLCBub3c6IHU2NCkgewogICAgICAgIHdoaWxlIGxldCBTb21lKHJlcXVlc3RfaWQpID0gc2VsZi5yZXBsYXlfb3JkZXIuZnJvbnQoKS5jb3BpZWQoKSB7CiAgICAgICAgICAgIGxldCBleHBpcmVkID0gc2VsZgogICAgICAgICAgICAgICAgLnJlcGxheQogICAgICAgICAgICAgICAgLmdldCgmcmVxdWVzdF9pZCkKICAgICAgICAgICAgICAgIC5pc19ub25lX29yKHxlbnRyeXwgbm93LnNhdHVyYXRpbmdfc3ViKGVudHJ5LmNyZWF0ZWRfYXQpID4gUkVQTEFZX1RUTF9TRUNPTkRTKTsKICAgICAgICAgICAgaWYgIWV4cGlyZWQgewogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgc2VsZi5yZXBsYXlfb3JkZXIucG9wX2Zyb250KCk7CiAgICAgICAgICAgIHNlbGYucmVwbGF5LnJlbW92ZSgmcmVxdWVzdF9pZCk7CiAgICAgICAgfQogICAgfQp9CgpmbiB1bml4X3NlY29uZHMoKSAtPiB1NjQgewogICAgKHRpbWVfdXRpbHM6Om5vd19tcygpLm1heCgwKSAvIDEwMDApIGFzIHU2NAp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKICAgIHVzZSBmbl9rbm9ja193b2xfcHJvdG9jb2w6OntkZWNvZGVfYWNrLCBlbmNvZGVfcmVxdWVzdH07CgogICAgZm4gcmVxdWVzdChyZXF1ZXN0X2lkOiBbdTg7IDE2XSwgdGltZXN0YW1wOiB1NjQpIC0+IFJlcXVlc3RQYWNrZXQgewogICAgICAgIFJlcXVlc3RQYWNrZXQgewogICAgICAgICAgICBjb21tYW5kOiBDb21tYW5kOjpXYWtlLAogICAgICAgICAgICByZWxheV9pZDogWzE7IDE2XSwKICAgICAgICAgICAga2V5X3ZlcnNpb246IDEsCiAgICAgICAgICAgIHRpbWVzdGFtcCwKICAgICAgICAgICAgcmVxdWVzdF9pZCwKICAgICAgICAgICAgdGFyZ2V0X21hYzogWzB4MDIsIDEsIDIsIDMsIDQsIDVdLAogICAgICAgICAgICB0YXJnZXRfaXB2NDogWzE5MiwgMTY4LCAxLCAxMF0sCiAgICAgICAgfQogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGF1dGhlbnRpY2F0ZXNfaWRlbnRpdHlfYW5kX2NhY2hlc19zaWduZWRfYWNrKCkgewogICAgICAgIGxldCBwc2sgPSB2ZWMhWzc7IDMyXTsKICAgICAgICBsZXQgbXV0IHByb2Nlc3NvciA9IFJlbGF5UHJvY2Vzc29yOjpuZXcoWzE7IDE2XSwgMSwgcHNrLmNsb25lKCkpOwogICAgICAgIGxldCBwYWNrZXQgPSBlbmNvZGVfcmVxdWVzdCgmcmVxdWVzdChbMjsgMTZdLCAxXzAwMCksICZwc2spOwogICAgICAgIGxldCBSZWxheUFjdGlvbjo6TmV3IHsKICAgICAgICAgICAgcmVxdWVzdCwKICAgICAgICAgICAgZm9yY2VkX3N0YXR1cywKICAgICAgICB9ID0gcHJvY2Vzc29yLmluc3BlY3QoJnBhY2tldCwgMV8wMDApLmV4cGVjdCgidmFsaWQgcmVxdWVzdCIpCiAgICAgICAgZWxzZSB7CiAgICAgICAgICAgIHBhbmljISgiZmlyc3QgcmVxdWVzdCBtdXN0IG5vdCBiZSBjYWNoZWQiKQogICAgICAgIH07CiAgICAgICAgYXNzZXJ0X2VxIShmb3JjZWRfc3RhdHVzLCBOb25lKTsKICAgICAgICBsZXQgZmlyc3QgPSBwcm9jZXNzb3IuZmluaXNoKCZyZXF1ZXN0LCBBY2tTdGF0dXM6Ok9rLCByZXF1ZXN0LnRhcmdldF9pcHY0LCAxXzAwMCk7CiAgICAgICAgbGV0IFJlbGF5QWN0aW9uOjpDYWNoZWQoc2Vjb25kKSA9IHByb2Nlc3Nvci5pbnNwZWN0KCZwYWNrZXQsIDFfMDAxKS5leHBlY3QoInJlcGxheSIpIGVsc2UgewogICAgICAgICAgICBwYW5pYyEoInJldHJhbnNtaXNzaW9uIG11c3QgdXNlIGNhY2hlZCBBQ0siKQogICAgICAgIH07CiAgICAgICAgYXNzZXJ0X2VxIShmaXJzdCwgc2Vjb25kKTsKICAgICAgICBhc3NlcnRfZXEhKGRlY29kZV9hY2soJnNlY29uZCwgJnBzaykudW53cmFwKCkuc3RhdHVzLCBBY2tTdGF0dXM6Ok9rKTsKCiAgICAgICAgbGV0IG11dCB0YW1wZXJlZCA9IHBhY2tldDsKICAgICAgICB0YW1wZXJlZFsxMF0gXj0gMTsKICAgICAgICBhc3NlcnQhKHByb2Nlc3Nvci5pbnNwZWN0KCZ0YW1wZXJlZCwgMV8wMDEpLmlzX25vbmUoKSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gcmVqZWN0c193cm9uZ19pZGVudGl0eV9hbmRfcmVwb3J0c19jbG9ja19za2V3KCkgewogICAgICAgIGxldCBwc2sgPSB2ZWMhWzg7IDMyXTsKICAgICAgICBsZXQgbXV0IHByb2Nlc3NvciA9IFJlbGF5UHJvY2Vzc29yOjpuZXcoWzE7IDE2XSwgMSwgcHNrLmNsb25lKCkpOwogICAgICAgIGxldCB3cm9uZ19pZGVudGl0eSA9IGVuY29kZV9yZXF1ZXN0KAogICAgICAgICAgICAmUmVxdWVzdFBhY2tldCB7CiAgICAgICAgICAgICAgICByZWxheV9pZDogWzk7IDE2XSwKICAgICAgICAgICAgICAgIC4ucmVxdWVzdChbMzsgMTZdLCAxXzAwMCkKICAgICAgICAgICAgfSwKICAgICAgICAgICAgJnBzaywKICAgICAgICApOwogICAgICAgIGFzc2VydCEocHJvY2Vzc29yLmluc3BlY3QoJndyb25nX2lkZW50aXR5LCAxXzAwMCkuaXNfbm9uZSgpKTsKCiAgICAgICAgbGV0IHN0YWxlID0gZW5jb2RlX3JlcXVlc3QoJnJlcXVlc3QoWzQ7IDE2XSwgMSksICZwc2spOwogICAgICAgIGxldCBSZWxheUFjdGlvbjo6TmV3IHsgZm9yY2VkX3N0YXR1cywgLi4gfSA9CiAgICAgICAgICAgIHByb2Nlc3Nvci5pbnNwZWN0KCZzdGFsZSwgMV8wMDApLmV4cGVjdCgic2lnbmVkIHJlcXVlc3QiKQogICAgICAgIGVsc2UgewogICAgICAgICAgICBwYW5pYyEoInJlcXVlc3QgaXMgbm90IGNhY2hlZCIpCiAgICAgICAgfTsKICAgICAgICBhc3NlcnRfZXEhKGZvcmNlZF9zdGF0dXMsIFNvbWUoQWNrU3RhdHVzOjpDbG9ja1NrZXcpKTsKICAgIH0KCiAgICAjW3Rva2lvOjp0ZXN0XQogICAgYXN5bmMgZm4gZW1pdHNfZXhhY3RfbWFnaWNfcGFja2V0X3RvX2NvbmZpZ3VyZWRfZGVzdGluYXRpb24oKSB7CiAgICAgICAgbGV0IHJlY2VpdmVyID0gVWRwU29ja2V0OjpiaW5kKCIxMjcuMC4wLjE6MCIpLmF3YWl0LnVud3JhcCgpOwogICAgICAgIGxldCBzZW5kZXIgPSBVZHBTb2NrZXQ6OmJpbmQoIjEyNy4wLjAuMTowIikuYXdhaXQudW53cmFwKCk7CiAgICAgICAgc2VuZGVyLnNldF9icm9hZGNhc3QodHJ1ZSkudW53cmFwKCk7CiAgICAgICAgbGV0IChzdGF0dXMsIF8pID0gcHJvY2Vzc19yZXF1ZXN0KAogICAgICAgICAgICAmcmVxdWVzdChbNTsgMTZdLCAxXzAwMCksCiAgICAgICAgICAgICZzZW5kZXIsCiAgICAgICAgICAgICZbcmVjZWl2ZXIubG9jYWxfYWRkcigpLnVud3JhcCgpXSwKICAgICAgICApCiAgICAgICAgLmF3YWl0OwogICAgICAgIGFzc2VydF9lcSEoc3RhdHVzLCBBY2tTdGF0dXM6Ok9rKTsKICAgICAgICBsZXQgbXV0IHBhY2tldCA9IFswX3U4OyAxMDNdOwogICAgICAgIGxldCAobGVuZ3RoLCBfKSA9IHJlY2VpdmVyLnJlY3ZfZnJvbSgmbXV0IHBhY2tldCkuYXdhaXQudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0X2VxIShsZW5ndGgsIDEwMik7CiAgICAgICAgYXNzZXJ0X2VxISgmcGFja2V0Wy4uNl0sICZbMHhmZjsgNl0pOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHN0YXR1c19jYXBhY2l0eV9pc19yZWplY3RlZF9pbnN0ZWFkX29mX3F1ZXVlZCgpIHsKICAgICAgICBsZXQgc2VtYXBob3JlID0gQXJjOjpuZXcoU2VtYXBob3JlOjpuZXcoMSkpOwogICAgICAgIGxldCBwZXJtaXQgPSB0cnlfYWNxdWlyZV9zdGF0dXNfcGVybWl0KCZzZW1hcGhvcmUpLmV4cGVjdCgiZmlyc3Qgc3RhdHVzIHBlcm1pdCIpOwogICAgICAgIGFzc2VydCEodHJ5X2FjcXVpcmVfc3RhdHVzX3Blcm1pdCgmc2VtYXBob3JlKS5pc19ub25lKCkpOwogICAgICAgIGRyb3AocGVybWl0KTsKICAgICAgICBhc3NlcnQhKHRyeV9hY3F1aXJlX3N0YXR1c19wZXJtaXQoJnNlbWFwaG9yZSkuaXNfc29tZSgpKTsKICAgIH0KfQo=
+use fn_knock_wol_protocol::{
+    AckPacket, AckStatus, Command, MacAddress, PACKET_LEN, RequestPacket, decode_request,
+    encode_ack, magic_packet,
+};
+use ipnet::IpNet;
+use serde_json::json;
+use std::{
+    collections::{HashMap, HashSet, VecDeque},
+    net::{IpAddr, SocketAddr},
+    sync::Arc,
+    time::Duration,
+};
+use tokio::{
+    net::UdpSocket,
+    sync::{Mutex, OwnedSemaphorePermit, Semaphore},
+    task::JoinSet,
+    time,
+};
+use uuid::Uuid;
+
+use crate::{state::AppState, time_utils};
+
+use super::{
+    secrets::{local_relay_secret_id, secret_store},
+    store::LocalRelayConfig,
+    store::load_local_relay_config,
+};
+
+const MAX_CLOCK_SKEW: Duration = Duration::from_secs(60);
+const REPLAY_TTL_SECONDS: u64 = 120;
+const REPLAY_MAX_ENTRIES: usize = 4096;
+const RESTART_DELAY: Duration = Duration::from_secs(5);
+const STATUS_CONCURRENCY: usize = 8;
+
+pub(crate) fn start_wol_relay_tasks(state: AppState) {
+    let task_state = state.clone();
+    state.spawn_background("wol-relay-supervisor", async move {
+        relay_supervisor(task_state).await;
+    });
+}
+
+async fn relay_supervisor(state: AppState) {
+    let mut runtime_reload = state.wol.runtime_reload.subscribe();
+    loop {
+        if state.shutdown.is_cancelled() {
+            set_status(&state, false, false, None, None).await;
+            return;
+        }
+
+        match super::feature_enabled_for_state(&state).await {
+            Ok(true) => {}
+            Ok(false) => {
+                set_status(&state, false, false, None, None).await;
+                tokio::select! {
+                    _ = state.shutdown.cancelled() => return,
+                    _ = runtime_reload.changed() => continue,
+                }
+            }
+            Err(error) => {
+                tracing::warn!(%error, "failed to load WoL feature configuration");
+                set_status(&state, false, false, None, Some(error.to_string())).await;
+                wait_for_reload_or_retry(&state, &mut runtime_reload).await;
+                continue;
+            }
+        }
+
+        let config = match load_local_relay_config(&state).await {
+            Ok(config) => config,
+            Err(error) => {
+                tracing::warn!(%error, "failed to load built-in WoL Relay configuration");
+                set_status(&state, false, false, None, Some(error.to_string())).await;
+                wait_for_reload_or_retry(&state, &mut runtime_reload).await;
+                continue;
+            }
+        };
+
+        if !config.enabled {
+            set_status(&state, false, false, None, None).await;
+            tokio::select! {
+                _ = state.shutdown.cancelled() => return,
+                _ = state.wol.relay_reload.notified() => continue,
+                _ = runtime_reload.changed() => continue,
+            }
+        }
+
+        match run_listener(&state, &config, &mut runtime_reload).await {
+            ListenerExit::Reload => continue,
+            ListenerExit::Shutdown => {
+                set_status(&state, true, false, None, None).await;
+                return;
+            }
+            ListenerExit::Failed(error) => {
+                tracing::warn!(%error, "built-in WoL Relay listener stopped");
+                set_status(&state, true, false, None, Some(error)).await;
+                wait_for_reload_or_retry(&state, &mut runtime_reload).await;
+            }
+        }
+    }
+}
+
+async fn wait_for_reload_or_retry(
+    state: &AppState,
+    runtime_reload: &mut tokio::sync::watch::Receiver<u64>,
+) {
+    tokio::select! {
+        _ = state.shutdown.cancelled() => {}
+        _ = state.wol.relay_reload.notified() => {}
+        _ = runtime_reload.changed() => {}
+        _ = time::sleep(RESTART_DELAY) => {}
+    }
+}
+
+enum ListenerExit {
+    Reload,
+    Shutdown,
+    Failed(String),
+}
+
+async fn run_listener(
+    state: &AppState,
+    config: &LocalRelayConfig,
+    runtime_reload: &mut tokio::sync::watch::Receiver<u64>,
+) -> ListenerExit {
+    let relay_id = match Uuid::parse_str(&config.relay_id) {
+        Ok(value) => *value.as_bytes(),
+        Err(_) => return ListenerExit::Failed("Relay ID is invalid".to_string()),
+    };
+    if config.key_version == 0 {
+        return ListenerExit::Failed("Relay key version is invalid".to_string());
+    }
+    let psk = match secret_store(state)
+        .read(&local_relay_secret_id(&config.relay_id), config.key_version)
+    {
+        Ok(Some(value)) if value.len() == 32 => value,
+        Ok(_) => return ListenerExit::Failed("Relay PSK is not configured".to_string()),
+        Err(error) => return ListenerExit::Failed(error),
+    };
+    let listen_ip = match config.listen_address.parse::<IpAddr>() {
+        Ok(value) => value,
+        Err(_) => return ListenerExit::Failed("Relay listen address is invalid".to_string()),
+    };
+    let listen_endpoint = SocketAddr::new(listen_ip, config.port);
+    let allowed_sources = match parse_allowed_sources(&config.allowed_sources) {
+        Ok(value) => value,
+        Err(error) => return ListenerExit::Failed(error),
+    };
+    let broadcast_destinations = match parse_broadcast_destinations(&config.broadcast_destinations)
+    {
+        Ok(value) => value,
+        Err(error) => return ListenerExit::Failed(error),
+    };
+    let listener = match UdpSocket::bind(listen_endpoint).await {
+        Ok(value) => Arc::new(value),
+        Err(error) => {
+            return ListenerExit::Failed(format!(
+                "failed to bind UDP listener on {listen_endpoint}: {error}"
+            ));
+        }
+    };
+    let broadcast_socket = match UdpSocket::bind("0.0.0.0:0").await {
+        Ok(value) => Arc::new(value),
+        Err(error) => {
+            return ListenerExit::Failed(format!("failed to open WoL broadcast socket: {error}"));
+        }
+    };
+    if let Err(error) = broadcast_socket.set_broadcast(true) {
+        return ListenerExit::Failed(format!("failed to enable UDP broadcast: {error}"));
+    }
+    let actual_endpoint = listener.local_addr().unwrap_or(listen_endpoint);
+    set_status(state, true, true, Some(actual_endpoint.to_string()), None).await;
+    tracing::info!(address = %actual_endpoint, relay_id = %config.relay_id, "built-in WoL Relay listening");
+
+    let processor = Arc::new(Mutex::new(RelayProcessor::new(
+        relay_id,
+        config.key_version,
+        psk,
+    )));
+    let status_semaphore = Arc::new(Semaphore::new(STATUS_CONCURRENCY));
+    let mut workers = JoinSet::new();
+    // The extra byte ensures an oversized datagram is not accepted after UDP truncation.
+    let mut input = [0_u8; PACKET_LEN + 1];
+    loop {
+        tokio::select! {
+            _ = state.shutdown.cancelled() => return ListenerExit::Shutdown,
+            _ = state.wol.relay_reload.notified() => return ListenerExit::Reload,
+            _ = runtime_reload.changed() => return ListenerExit::Reload,
+            completed = workers.join_next(), if !workers.is_empty() => {
+                if let Some(Err(error)) = completed {
+                    tracing::warn!(%error, "built-in WoL Relay request worker failed");
+                }
+            }
+            received = listener.recv_from(&mut input) => {
+                let (length, source) = match received {
+                    Ok(value) => value,
+                    Err(error) => return ListenerExit::Failed(format!("failed to receive Relay datagram: {error}")),
+                };
+                if !source_allowed(source.ip(), &allowed_sources) {
+                    continue;
+                }
+                let now = unix_seconds();
+                let action = processor.lock().await.inspect(&input[..length], now);
+                let Some(action) = action else {
+                    // Authentication and identity failures are deliberately silent.
+                    continue;
+                };
+                match action {
+                    RelayAction::Cached(packet) => {
+                        if let Err(error) = listener.send_to(&packet, source).await {
+                            tracing::warn!(%error, source = %source, "failed to send cached signed WoL Relay acknowledgement");
+                        }
+                    }
+                    RelayAction::New { request, forced_status } => {
+                        let listener = Arc::clone(&listener);
+                        let broadcast_socket = Arc::clone(&broadcast_socket);
+                        let destinations = broadcast_destinations.clone();
+                        let processor = Arc::clone(&processor);
+                        let status_semaphore = Arc::clone(&status_semaphore);
+                        workers.spawn(async move {
+                            let _status_permit = if forced_status.is_none() && request.command == Command::Status {
+                                try_acquire_status_permit(&status_semaphore)
+                            } else {
+                                None
+                            };
+                            let overloaded = forced_status.is_none()
+                                && request.command == Command::Status
+                                && _status_permit.is_none();
+                            let effective_status = forced_status.or(
+                                overloaded.then_some(AckStatus::TargetUnknown),
+                            );
+                            let (status, observed_ip) = match effective_status {
+                                Some(status) => (status, request.target_ipv4),
+                                None => process_request(&request, &broadcast_socket, &destinations).await,
+                            };
+                            let request_id = Uuid::from_bytes(request.request_id);
+                            let target_mac = MacAddress::from_bytes(request.target_mac).ok();
+                            tracing::info!(
+                                %request_id,
+                                source = %source,
+                                target_mac = target_mac.map(|value| value.to_string()).unwrap_or_default(),
+                                command = ?request.command,
+                                status = ?status,
+                                "processed authenticated built-in WoL Relay request"
+                            );
+                            let ack = processor.lock().await.finish(&request, status, observed_ip, unix_seconds());
+                            if let Err(error) = listener.send_to(&ack, source).await {
+                                tracing::warn!(%error, source = %source, "failed to send signed WoL Relay acknowledgement");
+                            }
+                        });
+                    }
+                }
+            }
+        }
+    }
+}
+
+async fn process_request(
+    request: &RequestPacket,
+    socket: &UdpSocket,
+    destinations: &[SocketAddr],
+) -> (AckStatus, [u8; 4]) {
+    if request.command == Command::Probe {
+        return (AckStatus::Ok, request.target_ipv4);
+    }
+    let mac = match MacAddress::from_bytes(request.target_mac) {
+        Ok(value) => value,
+        Err(_) => return (AckStatus::InvalidTarget, request.target_ipv4),
+    };
+    if request.command == Command::Status {
+        let result = super::probe::probe_device_bounded(
+            mac,
+            super::probe::ipv4_from_wire(request.target_ipv4),
+        )
+        .await;
+        let status = match result.state {
+            super::probe::DeviceProbeState::Online => AckStatus::TargetOnline,
+            super::probe::DeviceProbeState::Offline => AckStatus::TargetOffline,
+            super::probe::DeviceProbeState::Unknown => AckStatus::TargetUnknown,
+        };
+        return (status, super::probe::ipv4_to_wire(result.observed_ip));
+    }
+    let packet = magic_packet(mac);
+    let mut delivered = 0_usize;
+    for destination in destinations {
+        match socket.send_to(&packet, destination).await {
+            Ok(length) if length == packet.len() => delivered += 1,
+            _ => {}
+        }
+    }
+    (
+        if delivered > 0 {
+            AckStatus::Ok
+        } else {
+            AckStatus::BroadcastFailed
+        },
+        request.target_ipv4,
+    )
+}
+
+fn try_acquire_status_permit(semaphore: &Arc<Semaphore>) -> Option<OwnedSemaphorePermit> {
+    Arc::clone(semaphore).try_acquire_owned().ok()
+}
+
+fn parse_allowed_sources(values: &[String]) -> Result<Vec<IpNet>, String> {
+    values
+        .iter()
+        .map(|value| {
+            value
+                .trim()
+                .parse::<IpNet>()
+                .map_err(|_| format!("allowed source CIDR is invalid: {value}"))
+        })
+        .collect()
+}
+
+fn parse_broadcast_destinations(values: &[String]) -> Result<Vec<SocketAddr>, String> {
+    if values.is_empty() {
+        return Err("at least one broadcast destination is required".to_string());
+    }
+    values
+        .iter()
+        .map(|value| {
+            let endpoint = value
+                .trim()
+                .parse::<SocketAddr>()
+                .map_err(|_| format!("broadcast destination is invalid: {value}"))?;
+            if !endpoint.is_ipv4() || endpoint.port() == 0 {
+                return Err(format!(
+                    "broadcast destination must be IPv4 with a port: {value}"
+                ));
+            }
+            Ok(endpoint)
+        })
+        .collect()
+}
+
+fn source_allowed(source: IpAddr, allowed_sources: &[IpNet]) -> bool {
+    allowed_sources.is_empty()
+        || allowed_sources
+            .iter()
+            .any(|network| network.contains(&source))
+}
+
+async fn set_status(
+    state: &AppState,
+    enabled: bool,
+    active: bool,
+    listen_address: Option<String>,
+    last_error: Option<String>,
+) {
+    *state.wol.relay_status.write().await = json!({
+        "enabled": enabled,
+        "active": active,
+        "listenAddress": listen_address,
+        "lastError": last_error,
+        "updatedAt": time_utils::now_iso(),
+    });
+}
+
+#[derive(Clone)]
+struct CachedAck {
+    created_at: u64,
+    packet: Vec<u8>,
+}
+
+enum RelayAction {
+    Cached(Vec<u8>),
+    New {
+        request: RequestPacket,
+        forced_status: Option<AckStatus>,
+    },
+}
+
+struct RelayProcessor {
+    relay_id: [u8; 16],
+    key_version: u32,
+    psk: Vec<u8>,
+    replay: HashMap<[u8; 16], CachedAck>,
+    replay_order: VecDeque<[u8; 16]>,
+    pending: HashSet<[u8; 16]>,
+}
+
+impl RelayProcessor {
+    fn new(relay_id: [u8; 16], key_version: u32, psk: Vec<u8>) -> Self {
+        Self {
+            relay_id,
+            key_version,
+            psk,
+            replay: HashMap::new(),
+            replay_order: VecDeque::new(),
+            pending: HashSet::new(),
+        }
+    }
+
+    fn inspect(&mut self, input: &[u8], now: u64) -> Option<RelayAction> {
+        let request = decode_request(input, &self.psk).ok()?;
+        if request.relay_id != self.relay_id || request.key_version != self.key_version {
+            return None;
+        }
+        self.prune_replay(now);
+        if let Some(cached) = self.replay.get(&request.request_id) {
+            return Some(RelayAction::Cached(cached.packet.clone()));
+        }
+        if !self.pending.insert(request.request_id) {
+            return None;
+        }
+        Some(RelayAction::New {
+            forced_status: (now.abs_diff(request.timestamp) > MAX_CLOCK_SKEW.as_secs())
+                .then_some(AckStatus::ClockSkew),
+            request,
+        })
+    }
+
+    fn finish(
+        &mut self,
+        request: &RequestPacket,
+        status: AckStatus,
+        target_ipv4: [u8; 4],
+        now: u64,
+    ) -> Vec<u8> {
+        self.pending.remove(&request.request_id);
+        let packet = encode_ack(
+            &AckPacket {
+                command: request.command,
+                status,
+                relay_id: request.relay_id,
+                key_version: request.key_version,
+                timestamp: now,
+                request_id: request.request_id,
+                target_mac: request.target_mac,
+                target_ipv4,
+            },
+            &self.psk,
+        )
+        .to_vec();
+        self.replay_order.push_back(request.request_id);
+        self.replay.insert(
+            request.request_id,
+            CachedAck {
+                created_at: now,
+                packet: packet.clone(),
+            },
+        );
+        while self.replay.len() > REPLAY_MAX_ENTRIES {
+            if let Some(oldest) = self.replay_order.pop_front() {
+                self.replay.remove(&oldest);
+            }
+        }
+        packet
+    }
+
+    fn prune_replay(&mut self, now: u64) {
+        while let Some(request_id) = self.replay_order.front().copied() {
+            let expired = self
+                .replay
+                .get(&request_id)
+                .is_none_or(|entry| now.saturating_sub(entry.created_at) > REPLAY_TTL_SECONDS);
+            if !expired {
+                break;
+            }
+            self.replay_order.pop_front();
+            self.replay.remove(&request_id);
+        }
+    }
+}
+
+fn unix_seconds() -> u64 {
+    (time_utils::now_ms().max(0) / 1000) as u64
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use fn_knock_wol_protocol::{decode_ack, encode_request};
+
+    fn request(request_id: [u8; 16], timestamp: u64) -> RequestPacket {
+        RequestPacket {
+            command: Command::Wake,
+            relay_id: [1; 16],
+            key_version: 1,
+            timestamp,
+            request_id,
+            target_mac: [0x02, 1, 2, 3, 4, 5],
+            target_ipv4: [192, 168, 1, 10],
+        }
+    }
+
+    #[test]
+    fn authenticates_identity_and_caches_signed_ack() {
+        let psk = vec![7; 32];
+        let mut processor = RelayProcessor::new([1; 16], 1, psk.clone());
+        let packet = encode_request(&request([2; 16], 1_000), &psk);
+        let RelayAction::New {
+            request,
+            forced_status,
+        } = processor.inspect(&packet, 1_000).expect("valid request")
+        else {
+            panic!("first request must not be cached")
+        };
+        assert_eq!(forced_status, None);
+        let first = processor.finish(&request, AckStatus::Ok, request.target_ipv4, 1_000);
+        let RelayAction::Cached(second) = processor.inspect(&packet, 1_001).expect("replay") else {
+            panic!("retransmission must use cached ACK")
+        };
+        assert_eq!(first, second);
+        assert_eq!(decode_ack(&second, &psk).unwrap().status, AckStatus::Ok);
+
+        let mut tampered = packet;
+        tampered[10] ^= 1;
+        assert!(processor.inspect(&tampered, 1_001).is_none());
+    }
+
+    #[test]
+    fn rejects_wrong_identity_and_reports_clock_skew() {
+        let psk = vec![8; 32];
+        let mut processor = RelayProcessor::new([1; 16], 1, psk.clone());
+        let wrong_identity = encode_request(
+            &RequestPacket {
+                relay_id: [9; 16],
+                ..request([3; 16], 1_000)
+            },
+            &psk,
+        );
+        assert!(processor.inspect(&wrong_identity, 1_000).is_none());
+
+        let stale = encode_request(&request([4; 16], 1), &psk);
+        let RelayAction::New { forced_status, .. } =
+            processor.inspect(&stale, 1_000).expect("signed request")
+        else {
+            panic!("request is not cached")
+        };
+        assert_eq!(forced_status, Some(AckStatus::ClockSkew));
+    }
+
+    #[tokio::test]
+    async fn emits_exact_magic_packet_to_configured_destination() {
+        let receiver = UdpSocket::bind("127.0.0.1:0").await.unwrap();
+        let sender = UdpSocket::bind("127.0.0.1:0").await.unwrap();
+        sender.set_broadcast(true).unwrap();
+        let (status, _) = process_request(
+            &request([5; 16], 1_000),
+            &sender,
+            &[receiver.local_addr().unwrap()],
+        )
+        .await;
+        assert_eq!(status, AckStatus::Ok);
+        let mut packet = [0_u8; 103];
+        let (length, _) = receiver.recv_from(&mut packet).await.unwrap();
+        assert_eq!(length, 102);
+        assert_eq!(&packet[..6], &[0xff; 6]);
+    }
+
+    #[test]
+    fn status_capacity_is_rejected_instead_of_queued() {
+        let semaphore = Arc::new(Semaphore::new(1));
+        let permit = try_acquire_status_permit(&semaphore).expect("first status permit");
+        assert!(try_acquire_status_permit(&semaphore).is_none());
+        drop(permit);
+        assert!(try_acquire_status_permit(&semaphore).is_some());
+    }
+}

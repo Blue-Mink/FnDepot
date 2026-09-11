@@ -1,1 +1,114 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCBBdXRvbWF0aWNCYWNrdXBQaWNrZXIgZnJvbSAiLi9BdXRvbWF0aWNCYWNrdXBQaWNrZXIudnVlIjsKaW1wb3J0IEZub3NCYWNrdXBQaWNrZXIgZnJvbSAiLi9Gbm9zQmFja3VwUGlja2VyLnZ1ZSI7CmltcG9ydCB0eXBlIHsgTWFpbnRlbmFuY2VCYWNrdXBDb250cm9sbGVyIH0gZnJvbSAiLi9tYWludGVuYW5jZS1zZXR0aW5ncy1jb250cmFjdCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsgY29udHJvbGxlcjogTWFpbnRlbmFuY2VCYWNrdXBDb250cm9sbGVyIH0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCB7CiAgYXV0b21hdGljQmFja3VwRmlsZXMsCiAgYXV0b21hdGljQmFja3VwRmlsZXNFcnJvciwKICBiYWNrdXBGaWxlcywKICBiYWNrdXBGaWxlc0Vycm9yLAogIGhhbmRsZUF1dG9tYXRpY0ZpbGVTZWxlY3QsCiAgaGFuZGxlRm5vc0ZpbGVTZWxlY3QsCiAgaGFzU2VsZWN0ZWRCYWNrdXAsCiAgaW1wb3J0QmFja3VwLAogIGlzQXV0b21hdGljQmFja3VwUGlja2VyT3BlbiwKICBpc0JhY2t1cFBpY2tlck9wZW4sCiAgaXNJbXBvcnREaWFsb2dPcGVuLAogIGlzSW1wb3J0aW5nLAogIGlzTG9hZGluZ0F1dG9tYXRpY0JhY2t1cEZpbGVzLAogIGlzTG9hZGluZ0JhY2t1cEZpbGVzLAogIHJlZnJlc2hBdXRvbWF0aWNCYWNrdXBGaWxlcywKICByZWZyZXNoQmFja3VwRmlsZXMsCiAgc2VsZWN0ZWRTdW1tYXJ5LAogIHN1cHBvcnRzU2hhcmVkQmFja3VwLAp9ID0gcHJvcHMuY29udHJvbGxlcjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CjxGbm9zQmFja3VwUGlja2VyCiAgdi1pZj0ic3VwcG9ydHNTaGFyZWRCYWNrdXAiCiAgdi1tb2RlbDpvcGVuPSJpc0JhY2t1cFBpY2tlck9wZW4iCiAgOmZpbGVzPSJiYWNrdXBGaWxlcyIKICA6bG9hZGluZz0iaXNMb2FkaW5nQmFja3VwRmlsZXMiCiAgOnNlbGVjdGluZz0iaXNJbXBvcnRpbmciCiAgOmVycm9yLW1lc3NhZ2U9ImJhY2t1cEZpbGVzRXJyb3IiCiAgQHJlZnJlc2g9InJlZnJlc2hCYWNrdXBGaWxlcyIKICBAc2VsZWN0PSJoYW5kbGVGbm9zRmlsZVNlbGVjdCIKLz4KCjxBdXRvbWF0aWNCYWNrdXBQaWNrZXIKICB2LW1vZGVsOm9wZW49ImlzQXV0b21hdGljQmFja3VwUGlja2VyT3BlbiIKICA6ZmlsZXM9ImF1dG9tYXRpY0JhY2t1cEZpbGVzIgogIDpsb2FkaW5nPSJpc0xvYWRpbmdBdXRvbWF0aWNCYWNrdXBGaWxlcyIKICA6c2VsZWN0aW5nPSJpc0ltcG9ydGluZyIKICA6ZXJyb3ItbWVzc2FnZT0iYXV0b21hdGljQmFja3VwRmlsZXNFcnJvciIKICBAcmVmcmVzaD0icmVmcmVzaEF1dG9tYXRpY0JhY2t1cEZpbGVzIgogIEBzZWxlY3Q9ImhhbmRsZUF1dG9tYXRpY0ZpbGVTZWxlY3QiCi8+Cgo8RGlhbG9nCiAgOm9wZW49ImlzSW1wb3J0RGlhbG9nT3BlbiIKICBAdXBkYXRlOm9wZW49ImlzSW1wb3J0RGlhbG9nT3BlbiA9ICRldmVudCIKPgogIDxEaWFsb2dDb250ZW50IGNsYXNzPSJzbTptYXgtdy1bNDIwcHhdIj4KICAgIDxEaWFsb2dIZWFkZXIgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgIDxEaWFsb2dUaXRsZSBjbGFzcz0idGV4dC1sZWZ0Ij57ewogICAgICAgIHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuY29uZmlybUltcG9ydFRpdGxlIikKICAgICAgfX08L0RpYWxvZ1RpdGxlPgogICAgICA8RGlhbG9nRGVzY3JpcHRpb24gY2xhc3M9InRleHQtbGVmdCB0ZXh0LXNtIGxlYWRpbmctNiI+CiAgICAgICAge3sgdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5jb25maXJtSW1wb3J0RGVzY3JpcHRpb24iKSB9fQogICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgPC9EaWFsb2dIZWFkZXI+CgogICAgPGRpdgogICAgICB2LWlmPSJzZWxlY3RlZFN1bW1hcnkiCiAgICAgIGNsYXNzPSJyb3VuZGVkLXhsIGJvcmRlciBib3JkZXItZGVzdHJ1Y3RpdmUvMjUgYmctZGVzdHJ1Y3RpdmUvNSBweC00IHB5LTMgdGV4dC1zbSIKICAgID4KICAgICAgPHAgY2xhc3M9ImZvbnQtbWVkaXVtIHRleHQtZm9yZWdyb3VuZCI+e3sgc2VsZWN0ZWRTdW1tYXJ5Lm5hbWUgfX08L3A+CiAgICAgIDxwIGNsYXNzPSJtdC0xIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgc2VsZWN0ZWRTdW1tYXJ5LnNpemUgfX0gwrcge3sgc2VsZWN0ZWRTdW1tYXJ5LnNvdXJjZUxhYmVsIH19CiAgICAgIDwvcD4KICAgICAgPHAKICAgICAgICB2LWlmPSJzZWxlY3RlZFN1bW1hcnkubG9jYXRpb24iCiAgICAgICAgY2xhc3M9Im10LTEgYnJlYWstYWxsIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICA+CiAgICAgICAge3sgc2VsZWN0ZWRTdW1tYXJ5LmxvY2F0aW9uIH19CiAgICAgIDwvcD4KICAgIDwvZGl2PgoKICAgIDxEaWFsb2dGb290ZXIgY2xhc3M9ImdhcC0yIj4KICAgICAgPEJ1dHRvbgogICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgOmRpc2FibGVkPSJpc0ltcG9ydGluZyIKICAgICAgICBAY2xpY2s9ImlzSW1wb3J0RGlhbG9nT3BlbiA9IGZhbHNlIgogICAgICA+CiAgICAgICAge3sgdCgiY29tbW9uLmNhbmNlbCIpIH19CiAgICAgIDwvQnV0dG9uPgogICAgICA8QnV0dG9uCiAgICAgICAgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiCiAgICAgICAgOmRpc2FibGVkPSJpc0ltcG9ydGluZyB8fCAhaGFzU2VsZWN0ZWRCYWNrdXAiCiAgICAgICAgQGNsaWNrPSJpbXBvcnRCYWNrdXAiCiAgICAgID4KICAgICAgICB7ewogICAgICAgICAgaXNJbXBvcnRpbmcKICAgICAgICAgICAgPyB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmltcG9ydGluZ05vdyIpCiAgICAgICAgICAgIDogdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5jb25maXJtSW1wb3J0IikKICAgICAgICB9fQogICAgICA8L0J1dHRvbj4KICAgIDwvRGlhbG9nRm9vdGVyPgogIDwvRGlhbG9nQ29udGVudD4KPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import AutomaticBackupPicker from "./AutomaticBackupPicker.vue";
+import FnosBackupPicker from "./FnosBackupPicker.vue";
+import type { MaintenanceBackupController } from "./maintenance-settings-contract";
+
+const props = defineProps<{ controller: MaintenanceBackupController }>();
+const { t } = useI18n();
+const {
+  automaticBackupFiles,
+  automaticBackupFilesError,
+  backupFiles,
+  backupFilesError,
+  handleAutomaticFileSelect,
+  handleFnosFileSelect,
+  hasSelectedBackup,
+  importBackup,
+  isAutomaticBackupPickerOpen,
+  isBackupPickerOpen,
+  isImportDialogOpen,
+  isImporting,
+  isLoadingAutomaticBackupFiles,
+  isLoadingBackupFiles,
+  refreshAutomaticBackupFiles,
+  refreshBackupFiles,
+  selectedSummary,
+  supportsSharedBackup,
+} = props.controller;
+</script>
+
+<template>
+<FnosBackupPicker
+  v-if="supportsSharedBackup"
+  v-model:open="isBackupPickerOpen"
+  :files="backupFiles"
+  :loading="isLoadingBackupFiles"
+  :selecting="isImporting"
+  :error-message="backupFilesError"
+  @refresh="refreshBackupFiles"
+  @select="handleFnosFileSelect"
+/>
+
+<AutomaticBackupPicker
+  v-model:open="isAutomaticBackupPickerOpen"
+  :files="automaticBackupFiles"
+  :loading="isLoadingAutomaticBackupFiles"
+  :selecting="isImporting"
+  :error-message="automaticBackupFilesError"
+  @refresh="refreshAutomaticBackupFiles"
+  @select="handleAutomaticFileSelect"
+/>
+
+<Dialog
+  :open="isImportDialogOpen"
+  @update:open="isImportDialogOpen = $event"
+>
+  <DialogContent class="sm:max-w-[420px]">
+    <DialogHeader class="space-y-2">
+      <DialogTitle class="text-left">{{
+        t("admin.maintenanceSettings.confirmImportTitle")
+      }}</DialogTitle>
+      <DialogDescription class="text-left text-sm leading-6">
+        {{ t("admin.maintenanceSettings.confirmImportDescription") }}
+      </DialogDescription>
+    </DialogHeader>
+
+    <div
+      v-if="selectedSummary"
+      class="rounded-xl border border-destructive/25 bg-destructive/5 px-4 py-3 text-sm"
+    >
+      <p class="font-medium text-foreground">{{ selectedSummary.name }}</p>
+      <p class="mt-1 text-muted-foreground">
+        {{ selectedSummary.size }} · {{ selectedSummary.sourceLabel }}
+      </p>
+      <p
+        v-if="selectedSummary.location"
+        class="mt-1 break-all text-xs text-muted-foreground"
+      >
+        {{ selectedSummary.location }}
+      </p>
+    </div>
+
+    <DialogFooter class="gap-2">
+      <Button
+        variant="outline"
+        :disabled="isImporting"
+        @click="isImportDialogOpen = false"
+      >
+        {{ t("common.cancel") }}
+      </Button>
+      <Button
+        variant="destructive"
+        :disabled="isImporting || !hasSelectedBackup"
+        @click="importBackup"
+      >
+        {{
+          isImporting
+            ? t("admin.maintenanceSettings.importingNow")
+            : t("admin.maintenanceSettings.confirmImport")
+        }}
+      </Button>
+    </DialogFooter>
+  </DialogContent>
+</Dialog>
+</template>

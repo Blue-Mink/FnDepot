@@ -1,1 +1,161 @@
-aW1wb3J0IHR5cGUgeyBDb21wdXRlZFJlZiwgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsKICBleHRyYWN0RXJyb3JNZXNzYWdlLAogIHVzZUFzeW5jQWN0aW9uLAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgewogIERETlNBUEksCiAgdHlwZSBERE5TTmV0d29ya0ludGVyZmFjZVBheWxvYWQsCiAgdHlwZSBERE5TU3RhdHVzUGF5bG9hZCwKfSBmcm9tICJAL2xpYi9hcGkvZGRucyI7CmltcG9ydCB7CiAgZXh0cmFjdENvbW1vblRhcmdldENvbmZpZywKICB0eXBlIFByb3ZpZGVyLAogIHR5cGUgUHJvdmlkZXJGaWVsZCwKfSBmcm9tICIuL21vZGVsIjsKCmV4cG9ydCBjb25zdCB1c2VERE5TUmVzb3VyY2VMb2FkaW5nID0gKHsKICBhcHBseVN0YXR1cywKICBjdXJyZW50UHJvdmlkZXJEZWYsCiAgZW5zdXJlUGFzc3dvcmRGaWVsZHNWaXNpYmxlLAogIGlzSW5pdGlhbGl6ZWQsCiAgaXNQcmltYXJ5Q29uZmlnRGlydHksCiAgbmV0d29ya0ludGVyZmFjZXMsCiAgcHJvdmlkZXJDb25maWcsCiAgcHJvdmlkZXJzLAogIHJlc2V0RmllbGRFZGl0UmVhZHksCiAgc2F2ZWRQcm92aWRlckNvbmZpZywKICBzZWxlY3RlZFByb3ZpZGVyLAp9OiB7CiAgYXBwbHlTdGF0dXM6ICgKICAgIHN0YXR1czogREROU1N0YXR1c1BheWxvYWQsCiAgICBvcHRpb25zPzogeyBzeW5jRW5hYmxlZD86IGJvb2xlYW47IHN5bmNQcm92aWRlcj86IGJvb2xlYW4gfSwKICApID0+IHZvaWQ7CiAgY3VycmVudFByb3ZpZGVyRGVmOiBDb21wdXRlZFJlZjxQcm92aWRlciB8IG51bGw+OwogIGVuc3VyZVBhc3N3b3JkRmllbGRzVmlzaWJsZTogKGZpZWxkczogUHJvdmlkZXJGaWVsZFtdKSA9PiB2b2lkOwogIGlzSW5pdGlhbGl6ZWQ6IFJlZjxib29sZWFuPjsKICBpc1ByaW1hcnlDb25maWdEaXJ0eTogUmVhZG9ubHk8UmVmPGJvb2xlYW4+PjsKICBuZXR3b3JrSW50ZXJmYWNlczogUmVmPERETlNOZXR3b3JrSW50ZXJmYWNlUGF5bG9hZFtdPjsKICBwcm92aWRlckNvbmZpZzogUmVmPFJlY29yZDxzdHJpbmcsIHN0cmluZz4+OwogIHByb3ZpZGVyczogUmVmPFByb3ZpZGVyW10+OwogIHJlc2V0RmllbGRFZGl0UmVhZHk6ICgpID0+IHZvaWQ7CiAgc2F2ZWRQcm92aWRlckNvbmZpZzogUmVmPFJlY29yZDxzdHJpbmcsIHN0cmluZz4+OwogIHNlbGVjdGVkUHJvdmlkZXI6IFJlZjxzdHJpbmc+Owp9KSA9PiB7CiAgY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CgogIGNvbnN0IHsgcnVuOiBydW5Mb2FkU3RhdHVzIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgY29uc29sZS5lcnJvcigKICAgICAgICAibG9hZFN0YXR1czoiLAogICAgICAgIGV4dHJhY3RFcnJvck1lc3NhZ2UoZXJyb3IsIHQoImFkbWluLmRkbnMubG9hZFN0YXR1c0ZhaWxlZCIpKSwKICAgICAgKTsKICAgIH0sCiAgfSk7CiAgY29uc3QgeyBydW46IHJ1bkxvYWRQcm92aWRlcnMgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICBjb25zb2xlLmVycm9yKAogICAgICAgICJsb2FkUHJvdmlkZXJzOiIsCiAgICAgICAgZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiYWRtaW4uZGRucy5sb2FkUHJvdmlkZXJzRmFpbGVkIikpLAogICAgICApOwogICAgfSwKICB9KTsKICBjb25zdCB7IHJ1bjogcnVuTG9hZE5ldHdvcmtJbnRlcmZhY2VzIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgY29uc29sZS5lcnJvcigKICAgICAgICAibG9hZE5ldHdvcmtJbnRlcmZhY2VzOiIsCiAgICAgICAgZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiYWRtaW4uZGRucy5sb2FkSW50ZXJmYWNlc0ZhaWxlZCIpKSwKICAgICAgKTsKICAgIH0sCiAgfSk7CiAgY29uc3QgeyBydW46IHJ1bkxvYWRDb25maWcgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICBjb25zb2xlLmVycm9yKAogICAgICAgICJsb2FkQ29uZmlnOiIsCiAgICAgICAgZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiYWRtaW4uZGRucy5sb2FkQ29uZmlnRmFpbGVkIikpLAogICAgICApOwogICAgfSwKICB9KTsKICBjb25zdCB7IGlzUGVuZGluZzogaXNMb2FkaW5nLCBydW46IHJ1bkluaXRpYWxpemUgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5kZG5zLmluaXRGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCB0KCJhZG1pbi5kZG5zLmluaXRMb2FkRmFpbGVkIikpLAogICAgICB9KTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IGxvYWRTdGF0dXMgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBydW5Mb2FkU3RhdHVzKGFzeW5jICgpID0+IHsKICAgICAgY29uc3Qgc3RhdHVzID0gYXdhaXQgREROU0FQSS5nZXRTdGF0dXMoKTsKICAgICAgYXBwbHlTdGF0dXMoc3RhdHVzLCB7CiAgICAgICAgc3luY1Byb3ZpZGVyOiAhaXNJbml0aWFsaXplZC52YWx1ZSB8fCAhaXNQcmltYXJ5Q29uZmlnRGlydHkudmFsdWUsCiAgICAgIH0pOwogICAgfSk7CiAgfTsKCiAgY29uc3QgbG9hZFByb3ZpZGVycyA9IGFzeW5jICgpID0+IHsKICAgIGF3YWl0IHJ1bkxvYWRQcm92aWRlcnMoYXN5bmMgKCkgPT4gewogICAgICBjb25zdCBkYXRhID0gYXdhaXQgREROU0FQSS5nZXRQcm92aWRlcnMoKTsKICAgICAgcHJvdmlkZXJzLnZhbHVlID0gZGF0YS5tYXAoKHByb3ZpZGVyKSA9PiAoewogICAgICAgIC4uLnByb3ZpZGVyLAogICAgICAgIGZpZWxkczogcHJvdmlkZXIuZmllbGRzLm1hcCgoZmllbGQpID0+ICh7CiAgICAgICAgICAuLi5maWVsZCwKICAgICAgICAgIHR5cGU6IGZpZWxkLnR5cGUgYXMgUHJvdmlkZXJGaWVsZFsidHlwZSJdLAogICAgICAgIH0pKSwKICAgICAgfSkpOwogICAgfSk7CiAgfTsKCiAgY29uc3QgbG9hZE5ldHdvcmtJbnRlcmZhY2VzID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuTG9hZE5ldHdvcmtJbnRlcmZhY2VzKGFzeW5jICgpID0+IHsKICAgICAgbmV0d29ya0ludGVyZmFjZXMudmFsdWUgPSBhd2FpdCBERE5TQVBJLmdldE5ldHdvcmtJbnRlcmZhY2VzKCk7CiAgICB9KTsKICB9OwoKICBjb25zdCBsb2FkQ29uZmlnID0gYXN5bmMgKCkgPT4gewogICAgaWYgKCFzZWxlY3RlZFByb3ZpZGVyLnZhbHVlKSB7CiAgICAgIHByb3ZpZGVyQ29uZmlnLnZhbHVlID0ge307CiAgICAgIHNhdmVkUHJvdmlkZXJDb25maWcudmFsdWUgPSB7fTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGF3YWl0IHJ1bkxvYWRDb25maWcoYXN5bmMgKCkgPT4gewogICAgICBjb25zdCBjb25maWcgPSBhd2FpdCBERE5TQVBJLmdldENvbmZpZyhzZWxlY3RlZFByb3ZpZGVyLnZhbHVlKTsKICAgICAgY29uc3QgcHJvdmlkZXJEZWYgPSBjdXJyZW50UHJvdmlkZXJEZWYudmFsdWU7CiAgICAgIGNvbnN0IG1lcmdlZCA9IGV4dHJhY3RDb21tb25UYXJnZXRDb25maWcoY29uZmlnKTsKCiAgICAgIHJlc2V0RmllbGRFZGl0UmVhZHkoKTsKICAgICAgaWYgKHByb3ZpZGVyRGVmKSB7CiAgICAgICAgZm9yIChjb25zdCBmaWVsZCBvZiBwcm92aWRlckRlZi5maWVsZHMpIHsKICAgICAgICAgIG1lcmdlZFtmaWVsZC5rZXldID0gY29uZmlnW2ZpZWxkLmtleV0gPz8gIiI7CiAgICAgICAgfQogICAgICAgIGVuc3VyZVBhc3N3b3JkRmllbGRzVmlzaWJsZShwcm92aWRlckRlZi5maWVsZHMpOwogICAgICB9CiAgICAgIHByb3ZpZGVyQ29uZmlnLnZhbHVlID0gbWVyZ2VkOwogICAgICBzYXZlZFByb3ZpZGVyQ29uZmlnLnZhbHVlID0geyAuLi5tZXJnZWQgfTsKICAgIH0pOwogIH07CgogIGNvbnN0IGluaXRpYWxpemUgPSBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBpbml0aWFsaXplZCA9IGF3YWl0IHJ1bkluaXRpYWxpemUoYXN5bmMgKCkgPT4gewogICAgICBhd2FpdCBQcm9taXNlLmFsbChbCiAgICAgICAgbG9hZFByb3ZpZGVycygpLAogICAgICAgIGxvYWRTdGF0dXMoKSwKICAgICAgICBsb2FkTmV0d29ya0ludGVyZmFjZXMoKSwKICAgICAgXSk7CiAgICAgIGF3YWl0IGxvYWRDb25maWcoKTsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9KTsKICAgIGlzSW5pdGlhbGl6ZWQudmFsdWUgPSB0cnVlOwogICAgcmV0dXJuIEJvb2xlYW4oaW5pdGlhbGl6ZWQpOwogIH07CgogIHJldHVybiB7CiAgICBpbml0aWFsaXplLAogICAgaXNMb2FkaW5nLAogICAgbG9hZENvbmZpZywKICAgIGxvYWRTdGF0dXMsCiAgfTsKfTsK
+import type { ComputedRef, Ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import {
+  DDNSAPI,
+  type DDNSNetworkInterfacePayload,
+  type DDNSStatusPayload,
+} from "@/lib/api/ddns";
+import {
+  extractCommonTargetConfig,
+  type Provider,
+  type ProviderField,
+} from "./model";
+
+export const useDDNSResourceLoading = ({
+  applyStatus,
+  currentProviderDef,
+  ensurePasswordFieldsVisible,
+  isInitialized,
+  isPrimaryConfigDirty,
+  networkInterfaces,
+  providerConfig,
+  providers,
+  resetFieldEditReady,
+  savedProviderConfig,
+  selectedProvider,
+}: {
+  applyStatus: (
+    status: DDNSStatusPayload,
+    options?: { syncEnabled?: boolean; syncProvider?: boolean },
+  ) => void;
+  currentProviderDef: ComputedRef<Provider | null>;
+  ensurePasswordFieldsVisible: (fields: ProviderField[]) => void;
+  isInitialized: Ref<boolean>;
+  isPrimaryConfigDirty: Readonly<Ref<boolean>>;
+  networkInterfaces: Ref<DDNSNetworkInterfacePayload[]>;
+  providerConfig: Ref<Record<string, string>>;
+  providers: Ref<Provider[]>;
+  resetFieldEditReady: () => void;
+  savedProviderConfig: Ref<Record<string, string>>;
+  selectedProvider: Ref<string>;
+}) => {
+  const { t } = useI18n();
+
+  const { run: runLoadStatus } = useAsyncAction({
+    onError: (error) => {
+      console.error(
+        "loadStatus:",
+        extractErrorMessage(error, t("admin.ddns.loadStatusFailed")),
+      );
+    },
+  });
+  const { run: runLoadProviders } = useAsyncAction({
+    onError: (error) => {
+      console.error(
+        "loadProviders:",
+        extractErrorMessage(error, t("admin.ddns.loadProvidersFailed")),
+      );
+    },
+  });
+  const { run: runLoadNetworkInterfaces } = useAsyncAction({
+    onError: (error) => {
+      console.error(
+        "loadNetworkInterfaces:",
+        extractErrorMessage(error, t("admin.ddns.loadInterfacesFailed")),
+      );
+    },
+  });
+  const { run: runLoadConfig } = useAsyncAction({
+    onError: (error) => {
+      console.error(
+        "loadConfig:",
+        extractErrorMessage(error, t("admin.ddns.loadConfigFailed")),
+      );
+    },
+  });
+  const { isPending: isLoading, run: runInitialize } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.ddns.initFailed"), {
+        description: extractErrorMessage(error, t("admin.ddns.initLoadFailed")),
+      });
+    },
+  });
+
+  const loadStatus = async () => {
+    await runLoadStatus(async () => {
+      const status = await DDNSAPI.getStatus();
+      applyStatus(status, {
+        syncProvider: !isInitialized.value || !isPrimaryConfigDirty.value,
+      });
+    });
+  };
+
+  const loadProviders = async () => {
+    await runLoadProviders(async () => {
+      const data = await DDNSAPI.getProviders();
+      providers.value = data.map((provider) => ({
+        ...provider,
+        fields: provider.fields.map((field) => ({
+          ...field,
+          type: field.type as ProviderField["type"],
+        })),
+      }));
+    });
+  };
+
+  const loadNetworkInterfaces = async () => {
+    await runLoadNetworkInterfaces(async () => {
+      networkInterfaces.value = await DDNSAPI.getNetworkInterfaces();
+    });
+  };
+
+  const loadConfig = async () => {
+    if (!selectedProvider.value) {
+      providerConfig.value = {};
+      savedProviderConfig.value = {};
+      return;
+    }
+
+    await runLoadConfig(async () => {
+      const config = await DDNSAPI.getConfig(selectedProvider.value);
+      const providerDef = currentProviderDef.value;
+      const merged = extractCommonTargetConfig(config);
+
+      resetFieldEditReady();
+      if (providerDef) {
+        for (const field of providerDef.fields) {
+          merged[field.key] = config[field.key] ?? "";
+        }
+        ensurePasswordFieldsVisible(providerDef.fields);
+      }
+      providerConfig.value = merged;
+      savedProviderConfig.value = { ...merged };
+    });
+  };
+
+  const initialize = async () => {
+    const initialized = await runInitialize(async () => {
+      await Promise.all([
+        loadProviders(),
+        loadStatus(),
+        loadNetworkInterfaces(),
+      ]);
+      await loadConfig();
+      return true;
+    });
+    isInitialized.value = true;
+    return Boolean(initialized);
+  };
+
+  return {
+    initialize,
+    isLoading,
+    loadConfig,
+    loadStatus,
+  };
+};

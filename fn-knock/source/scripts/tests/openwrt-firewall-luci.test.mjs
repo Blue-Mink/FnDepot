@@ -1,1 +1,127 @@
-aW1wb3J0IHsgcmVhZEZpbGVTeW5jIH0gZnJvbSAnbm9kZTpmcyc7CmltcG9ydCB7IHRlc3QgfSBmcm9tICdub2RlOnRlc3QnOwppbXBvcnQgYXNzZXJ0IGZyb20gJ25vZGU6YXNzZXJ0L3N0cmljdCc7CmltcG9ydCB2bSBmcm9tICdub2RlOnZtJzsKCmNvbnN0IHJvb3QgPSBuZXcgVVJMKCcuLi8uLi8nLCBpbXBvcnQubWV0YS51cmwpOwpjb25zdCByZWFkID0gcGF0aCA9PiByZWFkRmlsZVN5bmMobmV3IFVSTChwYXRoLCByb290KSwgJ3V0ZjgnKTsKY29uc3Qgc291cmNlID0gcmVhZCgnZGVwbG95L29wZW53cnQvd3d3L2x1Y2ktc3RhdGljL3Jlc291cmNlcy92aWV3L2ZuLWtub2NrLmpzJyk7CmNvbnN0IGRlZmF1bHRTdGF0dXMgPSB7IHN0YXRlOiAnYWJzZW50Jywgem9uZXM6IFsnbGFuJywgJ3dhbiddLCBwb3J0OiAnNzk5OScsIHNvdXJjZV96b25lOiAnJyB9OwoKZnVuY3Rpb24gaGFybmVzcyhzdGF0dXMgPSBkZWZhdWx0U3RhdHVzKSB7CiAgY29uc3Qgb3B0aW9ucyA9IHt9LCBjYWxscyA9IFtdLCBub3RpY2VzID0gW107CiAgY29uc3QgdmFsdWVzID0geyBnb19yZXByb3h5X3BvcnQ6ICc3OTk5JyB9OwogIGxldCBwZW5kaW5nID0ge30sIHJlcGx5ID0geyBjb2RlOiAwLCBzdGRvdXQ6IEpTT04uc3RyaW5naWZ5KHsgc3RhdGU6ICdhcHBsaWVkJywgcG9ydDogJzc5OTknLCBzb3VyY2Vfem9uZTogJ3dhbicgfSkgfTsKICBjb25zdCBzZWN0aW9uID0gewogICAgb3B0aW9uKHR5cGUsIG5hbWUpIHsKICAgICAgY29uc3Qgb3B0aW9uID0geyB2YWx1ZSgpIHt9LCBmb3JtdmFsdWUoKSB7IHJldHVybiB2YWx1ZXNbbmFtZV0gPz8gb3B0aW9uLmNmZ3ZhbHVlPy4oKTsgfSB9OwogICAgICBvcHRpb25zW25hbWVdID0gb3B0aW9uOwogICAgICByZXR1cm4gb3B0aW9uOwogICAgfSwKICAgIGdldE9wdGlvbihuYW1lKSB7IHJldHVybiBvcHRpb25zW25hbWVdOyB9CiAgfTsKICBjb25zdCBjb250ZXh0ID0gewogICAgdmlldzogeyBleHRlbmQ6IG9iaiA9PiBvYmogfSwKICAgIHJwYzogeyBkZWNsYXJlOiBzcGVjID0+IHsgYXNzZXJ0LmVxdWFsKHNwZWMucmVqZWN0LCB0cnVlKTsgcmV0dXJuIGFzeW5jICgpID0+IHsKICAgICAgaWYgKHBlbmRpbmcgaW5zdGFuY2VvZiBFcnJvcikgdGhyb3cgcGVuZGluZzsKICAgICAgcmV0dXJuIHsgY2hhbmdlczogcGVuZGluZyB9OwogICAgfTsgfSB9LAogICAgdWNpOiB7IGdldCgpIHt9LCBsb2FkOiBhc3luYyAoKSA9PiB7fSwgY2hhbmdlczogYXN5bmMgKCkgPT4gcGVuZGluZyB9LAogICAgZnM6IHsgZXhlYzogYXN5bmMgKHBhdGgsIGFyZ3MpID0+IHsgY2FsbHMucHVzaChbcGF0aCwgYXJnc10pOyByZXR1cm4gYXJnc1swXSA9PT0gJ3N0YXR1cycKICAgICAgPyB7IGNvZGU6IDAsIHN0ZG91dDogSlNPTi5zdHJpbmdpZnkoc3RhdHVzKSB9IDogcmVwbHk7IH0gfSwKICAgIHVpOiB7IGFkZE5vdGlmaWNhdGlvbjogKF8sIG5vZGUsIGtpbmQpID0+IG5vdGljZXMucHVzaCh7IHRleHQ6IG5vZGUuY2hpbGRyZW4uam9pbignJyksIGtpbmQgfSkgfSwKICAgIEU6ICh0YWcsIGF0dHJzLCBjaGlsZHJlbikgPT4gKHsgY2hpbGRyZW4gfSksCiAgICBmb3JtOiB7IE1hcDogZnVuY3Rpb24oKSB7IHRoaXMuc2VjdGlvbiA9ICgpID0+IHNlY3Rpb247IHRoaXMucmVuZGVyID0gKCkgPT4gb3B0aW9uczsgfSB9LAogICAgd2luZG93OiB7IGxvY2F0aW9uOiB7IGhvc3RuYW1lOiAncm91dGVyJyB9IH0sCiAgICBMOiB7IHJlc29sdmVEZWZhdWx0OiAocHJvbWlzZSwgZmFsbGJhY2spID0+IHByb21pc2UuY2F0Y2goKCkgPT4gZmFsbGJhY2spIH0sCiAgICBkb206IHt9CiAgfTsKICBjb25zdCB2aWV3ID0gdm0ucnVuSW5OZXdDb250ZXh0KCcoZnVuY3Rpb24oKXsnICsgc291cmNlICsgJ30pKCknLCBjb250ZXh0KTsKICB2aWV3LnJlbmRlcihbbnVsbCwgeyBjb2RlOiAwIH0sIHN0YXR1c10pOwogIHJldHVybiB7CiAgICB2aWV3LCBvcHRpb25zLCB2YWx1ZXMsIGNhbGxzLCBub3RpY2VzLAogICAgcGVuZGluZyh2YWx1ZSkgeyBwZW5kaW5nID0gdmFsdWU7IH0sIHJlcGx5KHZhbHVlKSB7IHJlcGx5ID0gdmFsdWU7IH0sCiAgICBhc3luYyBjbGljaygpIHsKICAgICAgY29uc3QgYnV0dG9uID0geyBkaXNhYmxlZDogZmFsc2UgfTsKICAgICAgY29uc3QgcHJvbWlzZSA9IG9wdGlvbnMuX29wZW5fZmlyZXdhbGwub25jbGljayh7IGN1cnJlbnRUYXJnZXQ6IGJ1dHRvbiB9LCAnbWFpbicpOwogICAgICBhc3NlcnQuZXF1YWwoYnV0dG9uLmRpc2FibGVkLCB0cnVlKTsKICAgICAgYXdhaXQgcHJvbWlzZTsKICAgICAgYXNzZXJ0LmVxdWFsKGJ1dHRvbi5kaXNhYmxlZCwgZmFsc2UpOwogICAgfQogIH07Cn0KCnRlc3QoJ2JvdGggTHVDSSBlbnRyaWVzIG1hdGNoOyBsaWZlY3ljbGUgaGFzIG5vIGZpcmV3YWxsIGhlbHBlciBjYWxscycsICgpID0+IHsKICBhc3NlcnQuZXF1YWwoc291cmNlLCByZWFkKCdkZXBsb3kvb3BlbndydC93d3cvbHVjaS1zdGF0aWMvcmVzb3VyY2VzL3ZpZXcvZm4ta25vY2stb3BlbndydC5qcycpKTsKICBmb3IgKGNvbnN0IHBhdGggb2YgWydldGMvaW5pdC5kL2ZuLWtub2NrJywgJ2V0Yy9jb25maWcvZm4ta25vY2snLCAnY29udHJvbC9wb3N0aW5zdCcsICdjb250cm9sL3ByZXJtJywgJ2NvbnRyb2wvcG9zdHJtJ10pIHsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2gocmVhZCgnZGVwbG95L29wZW53cnQvJyArIHBhdGgpLCAvZm4ta25vY2stZmlyZXdhbGx8YXV0b19vcGVuX2ZpcmV3YWxsLyk7CiAgfQogIGNvbnN0IGFjbCA9IEpTT04ucGFyc2UocmVhZCgnZGVwbG95L29wZW53cnQvdXNyL3NoYXJlL3JwY2QvYWNsLmQvbHVjaS1hcHAtZm4ta25vY2suanNvbicpKVsnbHVjaS1hcHAtZm4ta25vY2snXTsKICBhc3NlcnQuZGVlcEVxdWFsKGFjbC5yZWFkLmZpbGVbJy91c3IvbGliZXhlYy9mbi1rbm9jay1maXJld2FsbCBzdGF0dXMnXSwgWydleGVjJ10pOwogIGFzc2VydC5kZWVwRXF1YWwoYWNsLndyaXRlLmZpbGVbJy91c3IvbGliZXhlYy9mbi1rbm9jay1maXJld2FsbCBhbGxvdyAqJ10sIFsnZXhlYyddKTsKICBhc3NlcnQub2soIWFjbC53cml0ZS51Y2kuaW5jbHVkZXMoJ2ZpcmV3YWxsJykpOwogIGFzc2VydC5vayghT2JqZWN0LmtleXMoYWNsLnJlYWQuZmlsZSkuc29tZShrZXkgPT4ga2V5LmluY2x1ZGVzKCdhbGxvdycpKSk7Cn0pOwp0ZXN0KCdsb2FkIGlzIHJlYWQtb25seTsgem9uZSBzZWxlY3Rpb24gbmV2ZXIgd3JpdGVzIFVDSScsIGFzeW5jICgpID0+IHsKICBjb25zdCBoID0gaGFybmVzcygpOwogIGF3YWl0IGgudmlldy5sb2FkKCk7CiAgYXNzZXJ0Lm9rKGguY2FsbHMuZXZlcnkoKFssIGFyZ3NdKSA9PiBhcmdzWzBdID09PSAnc3RhdHVzJykpOwogIGFzc2VydC5lcXVhbChoLm9wdGlvbnMuX2ZpcmV3YWxsX3pvbmUuY2ZndmFsdWUoKSwgJ3dhbicpOwogIGFzc2VydC5lcXVhbChoLm9wdGlvbnMuX2ZpcmV3YWxsX3pvbmUud3JpdGUoKSwgdW5kZWZpbmVkKTsKICBhc3NlcnQuZXF1YWwoaC5vcHRpb25zLl9maXJld2FsbF96b25lLnJlbW92ZSgpLCB1bmRlZmluZWQpOwp9KTsKdGVzdCgncHJlZmVyIGV4aXN0aW5nIHJlZ2lvbjsgcmVxdWlyZSBhIGNob2ljZSB3aXRob3V0IHdhbicsIGFzeW5jICgpID0+IHsKICBhc3NlcnQuZXF1YWwoaGFybmVzcyh7IC4uLmRlZmF1bHRTdGF0dXMsIHNvdXJjZV96b25lOiAnbGFuJyB9KS5vcHRpb25zLl9maXJld2FsbF96b25lLmNmZ3ZhbHVlKCksICdsYW4nKTsKICBjb25zdCBoID0gaGFybmVzcyh7IC4uLmRlZmF1bHRTdGF0dXMsIHpvbmVzOiBbJ2V4dGVybmFsJ10gfSk7CiAgYXNzZXJ0LmVxdWFsKGgub3B0aW9ucy5fZmlyZXdhbGxfem9uZS5jZmd2YWx1ZSgpLCAnJyk7CiAgYXdhaXQgaC5jbGljaygpOwogIGFzc2VydC5lcXVhbChoLmNhbGxzLmxlbmd0aCwgMCk7CiAgYXNzZXJ0Lm1hdGNoKGgubm90aWNlc1swXS50ZXh0LCAv6YCJ5oupLyk7Cn0pOwp0ZXN0KCdvbmx5IGV4cGxpY2l0IGNsaWNrIGludm9rZXMgYWxsb3cgd2l0aCBzYXZlZCBwb3J0IGFuZCBzZWxlY3RlZCB6b25lJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IGggPSBoYXJuZXNzKCk7CiAgaC52YWx1ZXMuX2ZpcmV3YWxsX3pvbmUgPSAnbGFuJzsKICBhd2FpdCBoLmNsaWNrKCk7CiAgYXNzZXJ0LmRlZXBFcXVhbChKU09OLnBhcnNlKEpTT04uc3RyaW5naWZ5KGguY2FsbHMpKSwgW1snL3Vzci9saWJleGVjL2ZuLWtub2NrLWZpcmV3YWxsJywgWydhbGxvdycsICdsYW4nLCAnNzk5OSddXV0pOwogIGFzc2VydC5lcXVhbChoLm5vdGljZXNbMF0ua2luZCwgJ2luZm8nKTsKfSk7CnRlc3QoJ3Vuc2F2ZWQgcG9ydCBvciBzdGFnZWQgY29uZmlndXJhdGlvbiBibG9ja3MgYWxsb3cnLCBhc3luYyAoKSA9PiB7CiAgZm9yIChjb25zdCBzdGFnZWQgb2YgW2ZhbHNlLCB0cnVlXSkgewogICAgY29uc3QgaCA9IGhhcm5lc3MoKTsKICAgIGlmIChzdGFnZWQpIGgucGVuZGluZyh7ICdmbi1rbm9jayc6IFtbJ3NldCcsICdtYWluJywgJ2dvX3JlcHJveHlfcG9ydCcsICc4ODg4J11dIH0pOwogICAgZWxzZSBoLnZhbHVlcy5nb19yZXByb3h5X3BvcnQgPSAnODg4OCc7CiAgICBhd2FpdCBoLmNsaWNrKCk7CiAgICBhc3NlcnQuZXF1YWwoaC5jYWxscy5sZW5ndGgsIDApOwogICAgYXNzZXJ0Lm1hdGNoKGgubm90aWNlc1swXS50ZXh0LCAv5L+d5a2Y5bm25bqU55SoLyk7CiAgfQp9KTsKdGVzdCgncmVsb2FkIGZhaWx1cmUgaXMgZGlzdGluY3QgYW5kIHJlLWVuYWJsZXMgYnV0dG9uIGZvciByZXRyeScsIGFzeW5jICgpID0+IHsKICBjb25zdCBoID0gaGFybmVzcygpOwogIGgucmVwbHkoeyBjb2RlOiAxLCBzdGRvdXQ6ICd7InN0YXRlIjoicmVsb2FkX2ZhaWxlZCJ9JyB9KTsKICBhd2FpdCBoLmNsaWNrKCk7CiAgYXNzZXJ0Lm1hdGNoKGgubm90aWNlc1swXS50ZXh0LCAv5bey5L+d5a2YLirph43ovb3lpLHotKUvKTsKICBoLnJlcGx5KHsgY29kZTogMCwgc3Rkb3V0OiAneyJzdGF0ZSI6ImFwcGxpZWQiLCJwb3J0IjoiNzk5OSIsInNvdXJjZV96b25lIjoid2FuIn0nIH0pOwogIGF3YWl0IGguY2xpY2soKTsKICBhc3NlcnQuZXF1YWwoaC5ub3RpY2VzWzFdLmtpbmQsICdpbmZvJyk7Cn0pOwp0ZXN0KCdtaXNzaW5nIGNhcGFiaWxpdHksIG5vIHpvbmVzIGFuZCBjb25mbGljdGluZyBydWxlIGRpc2FibGUgYnV0dG9uJywgKCkgPT4gewogIGZvciAoY29uc3Qgc3RhdGUgb2YgW251bGwsIHsgLi4uZGVmYXVsdFN0YXR1cywgem9uZXM6IFtdIH0sIHsgLi4uZGVmYXVsdFN0YXR1cywgc3RhdGU6ICdjb25mbGljdCcgfV0pCiAgICBhc3NlcnQuZXF1YWwoaGFybmVzcyhzdGF0ZSkub3B0aW9ucy5fb3Blbl9maXJld2FsbC5yZWFkb25seSwgdHJ1ZSk7Cn0pOwoKdGVzdCgnZmFpbGVkIG9yIG1hbGZvcm1lZCBwZW5kaW5nIHF1ZXJ5IGFuZCBzdGFnZWQgZmlyZXdhbGwgZWRpdHMgYmxvY2sgYWxsb3cnLCBhc3luYyAoKSA9PiB7CiAgZm9yIChjb25zdCBwZW5kaW5nIG9mIFtuZXcgRXJyb3IoJ1JQQyBmYWlsZWQnKSwgbnVsbCwgW10sIHsgZmlyZXdhbGw6IFtbJ2FkZCcsICdydWxlJ11dIH1dKSB7CiAgICBjb25zdCBoID0gaGFybmVzcygpOwogICAgaC5wZW5kaW5nKHBlbmRpbmcpOwogICAgYXdhaXQgaC5jbGljaygpOwogICAgYXNzZXJ0LmVxdWFsKGguY2FsbHMubGVuZ3RoLCAwKTsKICAgIGFzc2VydC5lcXVhbChoLm5vdGljZXNbMF0ua2luZCwgJ2RhbmdlcicpOwogIH0KfSk7CnRlc3QoJ2xlYWRpbmctemVybyBwb3J0IG1hdGNoZXMgdGhlIHNhbWUgY29tbWl0dGVkIG51bWVyaWMgcG9ydCcsIGFzeW5jICgpID0+IHsKICBjb25zdCBoID0gaGFybmVzcygpOwogIGgudmFsdWVzLmdvX3JlcHJveHlfcG9ydCA9ICcwNzk5OSc7CiAgYXdhaXQgaC5jbGljaygpOwogIGFzc2VydC5lcXVhbChoLmNhbGxzLmxlbmd0aCwgMSk7CiAgYXNzZXJ0LmVxdWFsKGgubm90aWNlc1swXS5raW5kLCAnaW5mbycpOwp9KTsK
+import { readFileSync } from 'node:fs';
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import vm from 'node:vm';
+
+const root = new URL('../../', import.meta.url);
+const read = path => readFileSync(new URL(path, root), 'utf8');
+const source = read('deploy/openwrt/www/luci-static/resources/view/fn-knock.js');
+const defaultStatus = { state: 'absent', zones: ['lan', 'wan'], port: '7999', source_zone: '' };
+
+function harness(status = defaultStatus) {
+  const options = {}, calls = [], notices = [];
+  const values = { go_reproxy_port: '7999' };
+  let pending = {}, reply = { code: 0, stdout: JSON.stringify({ state: 'applied', port: '7999', source_zone: 'wan' }) };
+  const section = {
+    option(type, name) {
+      const option = { value() {}, formvalue() { return values[name] ?? option.cfgvalue?.(); } };
+      options[name] = option;
+      return option;
+    },
+    getOption(name) { return options[name]; }
+  };
+  const context = {
+    view: { extend: obj => obj },
+    rpc: { declare: spec => { assert.equal(spec.reject, true); return async () => {
+      if (pending instanceof Error) throw pending;
+      return { changes: pending };
+    }; } },
+    uci: { get() {}, load: async () => {}, changes: async () => pending },
+    fs: { exec: async (path, args) => { calls.push([path, args]); return args[0] === 'status'
+      ? { code: 0, stdout: JSON.stringify(status) } : reply; } },
+    ui: { addNotification: (_, node, kind) => notices.push({ text: node.children.join(''), kind }) },
+    E: (tag, attrs, children) => ({ children }),
+    form: { Map: function() { this.section = () => section; this.render = () => options; } },
+    window: { location: { hostname: 'router' } },
+    L: { resolveDefault: (promise, fallback) => promise.catch(() => fallback) },
+    dom: {}
+  };
+  const view = vm.runInNewContext('(function(){' + source + '})()', context);
+  view.render([null, { code: 0 }, status]);
+  return {
+    view, options, values, calls, notices,
+    pending(value) { pending = value; }, reply(value) { reply = value; },
+    async click() {
+      const button = { disabled: false };
+      const promise = options._open_firewall.onclick({ currentTarget: button }, 'main');
+      assert.equal(button.disabled, true);
+      await promise;
+      assert.equal(button.disabled, false);
+    }
+  };
+}
+
+test('both LuCI entries match; lifecycle has no firewall helper calls', () => {
+  assert.equal(source, read('deploy/openwrt/www/luci-static/resources/view/fn-knock-openwrt.js'));
+  for (const path of ['etc/init.d/fn-knock', 'etc/config/fn-knock', 'control/postinst', 'control/prerm', 'control/postrm']) {
+    assert.doesNotMatch(read('deploy/openwrt/' + path), /fn-knock-firewall|auto_open_firewall/);
+  }
+  const acl = JSON.parse(read('deploy/openwrt/usr/share/rpcd/acl.d/luci-app-fn-knock.json'))['luci-app-fn-knock'];
+  assert.deepEqual(acl.read.file['/usr/libexec/fn-knock-firewall status'], ['exec']);
+  assert.deepEqual(acl.write.file['/usr/libexec/fn-knock-firewall allow *'], ['exec']);
+  assert.ok(!acl.write.uci.includes('firewall'));
+  assert.ok(!Object.keys(acl.read.file).some(key => key.includes('allow')));
+});
+test('load is read-only; zone selection never writes UCI', async () => {
+  const h = harness();
+  await h.view.load();
+  assert.ok(h.calls.every(([, args]) => args[0] === 'status'));
+  assert.equal(h.options._firewall_zone.cfgvalue(), 'wan');
+  assert.equal(h.options._firewall_zone.write(), undefined);
+  assert.equal(h.options._firewall_zone.remove(), undefined);
+});
+test('prefer existing region; require a choice without wan', async () => {
+  assert.equal(harness({ ...defaultStatus, source_zone: 'lan' }).options._firewall_zone.cfgvalue(), 'lan');
+  const h = harness({ ...defaultStatus, zones: ['external'] });
+  assert.equal(h.options._firewall_zone.cfgvalue(), '');
+  await h.click();
+  assert.equal(h.calls.length, 0);
+  assert.match(h.notices[0].text, /选择/);
+});
+test('only explicit click invokes allow with saved port and selected zone', async () => {
+  const h = harness();
+  h.values._firewall_zone = 'lan';
+  await h.click();
+  assert.deepEqual(JSON.parse(JSON.stringify(h.calls)), [['/usr/libexec/fn-knock-firewall', ['allow', 'lan', '7999']]]);
+  assert.equal(h.notices[0].kind, 'info');
+});
+test('unsaved port or staged configuration blocks allow', async () => {
+  for (const staged of [false, true]) {
+    const h = harness();
+    if (staged) h.pending({ 'fn-knock': [['set', 'main', 'go_reproxy_port', '8888']] });
+    else h.values.go_reproxy_port = '8888';
+    await h.click();
+    assert.equal(h.calls.length, 0);
+    assert.match(h.notices[0].text, /保存并应用/);
+  }
+});
+test('reload failure is distinct and re-enables button for retry', async () => {
+  const h = harness();
+  h.reply({ code: 1, stdout: '{"state":"reload_failed"}' });
+  await h.click();
+  assert.match(h.notices[0].text, /已保存.*重载失败/);
+  h.reply({ code: 0, stdout: '{"state":"applied","port":"7999","source_zone":"wan"}' });
+  await h.click();
+  assert.equal(h.notices[1].kind, 'info');
+});
+test('missing capability, no zones and conflicting rule disable button', () => {
+  for (const state of [null, { ...defaultStatus, zones: [] }, { ...defaultStatus, state: 'conflict' }])
+    assert.equal(harness(state).options._open_firewall.readonly, true);
+});
+
+test('failed or malformed pending query and staged firewall edits block allow', async () => {
+  for (const pending of [new Error('RPC failed'), null, [], { firewall: [['add', 'rule']] }]) {
+    const h = harness();
+    h.pending(pending);
+    await h.click();
+    assert.equal(h.calls.length, 0);
+    assert.equal(h.notices[0].kind, 'danger');
+  }
+});
+test('leading-zero port matches the same committed numeric port', async () => {
+  const h = harness();
+  h.values.go_reproxy_port = '07999';
+  await h.click();
+  assert.equal(h.calls.length, 1);
+  assert.equal(h.notices[0].kind, 'info');
+});

@@ -1,1 +1,45 @@
-aW1wb3J0IHsgcmVmIH0gZnJvbSAidnVlIjsKCmV4cG9ydCB7IGV4dHJhY3RFcnJvck1lc3NhZ2UgfSBmcm9tICJAZnJvbnRlbmQtY29yZS9lcnJvcnMvZXh0cmFjdEVycm9yTWVzc2FnZSI7CgppbnRlcmZhY2UgVXNlQXN5bmNBY3Rpb25PcHRpb25zIHsKICBvbkVycm9yPzogKGVycm9yOiB1bmtub3duKSA9PiB2b2lkOwogIHJldGhyb3c/OiBib29sZWFuOwp9CgppbnRlcmZhY2UgQXN5bmNBY3Rpb25Ib29rczxUPiB7CiAgb25TdWNjZXNzPzogKHJlc3VsdDogVCkgPT4gdm9pZCB8IFByb21pc2U8dm9pZD47CiAgb25FcnJvcj86IChlcnJvcjogdW5rbm93bikgPT4gdm9pZDsKICBvbkZpbmFsbHk/OiAoKSA9PiB2b2lkOwp9CgpleHBvcnQgZnVuY3Rpb24gdXNlQXN5bmNBY3Rpb24ob3B0aW9ucz86IFVzZUFzeW5jQWN0aW9uT3B0aW9ucykgewogIGNvbnN0IGlzUGVuZGluZyA9IHJlZihmYWxzZSk7CgogIGNvbnN0IHJ1biA9IGFzeW5jIDxUPigKICAgIGFjdGlvbjogKCkgPT4gUHJvbWlzZTxUPiwKICAgIGhvb2tzPzogQXN5bmNBY3Rpb25Ib29rczxUPiwKICApOiBQcm9taXNlPFQgfCB1bmRlZmluZWQ+ID0+IHsKICAgIGlmIChpc1BlbmRpbmcudmFsdWUpIHJldHVybjsKICAgIGlzUGVuZGluZy52YWx1ZSA9IHRydWU7CiAgICB0cnkgewogICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBhY3Rpb24oKTsKICAgICAgYXdhaXQgaG9va3M/Lm9uU3VjY2Vzcz8uKHJlc3VsdCk7CiAgICAgIHJldHVybiByZXN1bHQ7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBob29rcz8ub25FcnJvcj8uKGVycm9yKTsKICAgICAgb3B0aW9ucz8ub25FcnJvcj8uKGVycm9yKTsKICAgICAgaWYgKG9wdGlvbnM/LnJldGhyb3cpIHsKICAgICAgICB0aHJvdyBlcnJvcjsKICAgICAgfQogICAgfSBmaW5hbGx5IHsKICAgICAgaXNQZW5kaW5nLnZhbHVlID0gZmFsc2U7CiAgICAgIGhvb2tzPy5vbkZpbmFsbHk/LigpOwogICAgfQogIH07CgogIHJldHVybiB7CiAgICBpc1BlbmRpbmcsCiAgICBydW4sCiAgfTsKfQo=
+import { ref } from "vue";
+
+export { extractErrorMessage } from "@frontend-core/errors/extractErrorMessage";
+
+interface UseAsyncActionOptions {
+  onError?: (error: unknown) => void;
+  rethrow?: boolean;
+}
+
+interface AsyncActionHooks<T> {
+  onSuccess?: (result: T) => void | Promise<void>;
+  onError?: (error: unknown) => void;
+  onFinally?: () => void;
+}
+
+export function useAsyncAction(options?: UseAsyncActionOptions) {
+  const isPending = ref(false);
+
+  const run = async <T>(
+    action: () => Promise<T>,
+    hooks?: AsyncActionHooks<T>,
+  ): Promise<T | undefined> => {
+    if (isPending.value) return;
+    isPending.value = true;
+    try {
+      const result = await action();
+      await hooks?.onSuccess?.(result);
+      return result;
+    } catch (error) {
+      hooks?.onError?.(error);
+      options?.onError?.(error);
+      if (options?.rethrow) {
+        throw error;
+      }
+    } finally {
+      isPending.value = false;
+      hooks?.onFinally?.();
+    }
+  };
+
+  return {
+    isPending,
+    run,
+  };
+}

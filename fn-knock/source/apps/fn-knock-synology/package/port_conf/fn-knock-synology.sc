@@ -1,1 +1,5 @@
-W2ZuLWtub2NrLXByb3h5XQp0aXRsZT0iZm4ta25vY2sgcmV2ZXJzZSBwcm94eSIKZGVzYz0iZm4ta25vY2sgcHVibGljIHJldmVyc2UgcHJveHkgbGlzdGVuZXIiCnBvcnRfZm9yd2FyZD0ieWVzIgpkc3QucG9ydHM9Ijc5OTkvdGNwIgo=
+[fn-knock-proxy]
+title="fn-knock reverse proxy"
+desc="fn-knock public reverse proxy listener"
+port_forward="yes"
+dst.ports="7999/tcp"

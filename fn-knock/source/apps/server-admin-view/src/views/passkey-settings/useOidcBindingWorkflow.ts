@@ -1,1 +1,280 @@
-aW1wb3J0IHsgb25CZWZvcmVVbm1vdW50LCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgY29weVRleHRUb0NsaXBib2FyZCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvY29weVRleHRUb0NsaXBib2FyZCI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgQ29uZmlnQVBJIH0gZnJvbSAiQC9saWIvYXBpL2NvbmZpZyI7CmltcG9ydCB0eXBlIHsKICBMZGFwQmluZGluZywKICBMZGFwUHJvdmlkZXJWaWV3LAogIE9JRENCaW5kaW5nLAogIE9JRENQcm92aWRlclZpZXcsCn0gZnJvbSAiQC90eXBlcyI7CmltcG9ydCB7IGNyZWF0ZVZpc2liaWxpdHlQb2xsZXIgfSBmcm9tICJAL2NvbXBvc2FibGVzL3VzZVZpc2liaWxpdHlQb2xsaW5nIjsKCmV4cG9ydCB0eXBlIEV4dGVybmFsUHJvdmlkZXJPcHRpb24gPQogIChPSURDUHJvdmlkZXJWaWV3ICYgeyBraW5kOiAib2lkYyIgfSkgfCAoTGRhcFByb3ZpZGVyVmlldyAmIHsga2luZDogImxkYXAiIH0pOwpleHBvcnQgdHlwZSBFeHRlcm5hbEJpbmRpbmcgPQogIChPSURDQmluZGluZyAmIHsgcHJvdG9jb2w6ICJvaWRjIiB9KSB8IChMZGFwQmluZGluZyAmIHsgcHJvdG9jb2w6ICJsZGFwIiB9KTsKCmNvbnN0IEFVVE9fUkVGUkVTSF9JTlRFUlZBTF9NUyA9IDVfMDAwOwoKZXhwb3J0IGNvbnN0IHVzZU9pZGNCaW5kaW5nV29ya2Zsb3cgPSAob3B0aW9uczogewogIHNldEVycm9yOiAobWVzc2FnZTogc3RyaW5nKSA9PiB2b2lkOwogIHRvdHBJZDogc3RyaW5nOwp9KSA9PiB7CiAgY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CiAgY29uc3Qgb2lkY0JpbmRpbmdzID0gcmVmPEV4dGVybmFsQmluZGluZ1tdPihbXSk7CiAgY29uc3QgcHJvdmlkZXJzID0gcmVmPEV4dGVybmFsUHJvdmlkZXJPcHRpb25bXT4oW10pOwogIGNvbnN0IHNob3dJbnZpdGVEaWFsb2cgPSByZWYoZmFsc2UpOwogIGNvbnN0IGludml0ZVByb3ZpZGVySWQgPSByZWYoIiIpOwogIGNvbnN0IGludml0ZVVybCA9IHJlZigiIik7CiAgY29uc3QgaW52aXRlRXhwaXJlc0F0ID0gcmVmKCIiKTsKICBjb25zdCBpc09pZGNCaW5kaW5nc1JlZnJlc2hpbmcgPSByZWYoZmFsc2UpOwoKICBjb25zdCB7IGlzUGVuZGluZzogaXNJbnZpdGVDcmVhdGluZywgcnVuOiBydW5DcmVhdGVJbnZpdGUgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcigKICAgICAgICBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5wYXNza2V5U2V0dGluZ3MuY3JlYXRlSW52aXRlRmFpbGVkIiksCiAgICAgICAgKSwKICAgICAgKTsKICAgIH0sCiAgfSk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzRGVsZXRpbmdCaW5kaW5nLCBydW46IHJ1bkRlbGV0ZUJpbmRpbmcgfSA9CiAgICB1c2VBc3luY0FjdGlvbih7CiAgICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICAgIGNvbnN0IG1lc3NhZ2UgPSBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5wYXNza2V5U2V0dGluZ3MuZGVsZXRlRmFpbGVkIiksCiAgICAgICAgKTsKICAgICAgICBvcHRpb25zLnNldEVycm9yKG1lc3NhZ2UpOwogICAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnBhc3NrZXlTZXR0aW5ncy5kZWxldGVFcnJvclRpdGxlIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiBtZXNzYWdlLAogICAgICAgIH0pOwogICAgICB9LAogICAgfSk7CgogIGNvbnN0IGxvYWRPaWRjRGF0YSA9IGFzeW5jICgpID0+IHsKICAgIGNvbnN0IFsKICAgICAgb2lkY0JpbmRpbmdMaXN0LAogICAgICBvaWRjUHJvdmlkZXJMaXN0LAogICAgICBsZGFwQmluZGluZ0xpc3QsCiAgICAgIGxkYXBQcm92aWRlckxpc3QsCiAgICBdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgICBDb25maWdBUEkuZ2V0T0lEQ0JpbmRpbmdzKG9wdGlvbnMudG90cElkKSwKICAgICAgQ29uZmlnQVBJLmdldE9JRENQcm92aWRlcnMoKSwKICAgICAgQ29uZmlnQVBJLmdldExkYXBCaW5kaW5ncyhvcHRpb25zLnRvdHBJZCksCiAgICAgIENvbmZpZ0FQSS5nZXRMZGFwUHJvdmlkZXJzKCksCiAgICBdKTsKICAgIG9pZGNCaW5kaW5ncy52YWx1ZSA9IFsKICAgICAgLi4ub2lkY0JpbmRpbmdMaXN0Lm1hcCgoYmluZGluZykgPT4gKHsKICAgICAgICAuLi5iaW5kaW5nLAogICAgICAgIHByb3RvY29sOiAib2lkYyIgYXMgY29uc3QsCiAgICAgIH0pKSwKICAgICAgLi4ubGRhcEJpbmRpbmdMaXN0Lm1hcCgoYmluZGluZykgPT4gKHsKICAgICAgICAuLi5iaW5kaW5nLAogICAgICAgIHByb3RvY29sOiAibGRhcCIgYXMgY29uc3QsCiAgICAgIH0pKSwKICAgIF07CiAgICBwcm92aWRlcnMudmFsdWUgPSBbCiAgICAgIC4uLm9pZGNQcm92aWRlckxpc3QKICAgICAgICAuZmlsdGVyKChwcm92aWRlcikgPT4gcHJvdmlkZXIuZW5hYmxlZCkKICAgICAgICAubWFwKChwcm92aWRlcikgPT4gKHsgLi4ucHJvdmlkZXIsIGtpbmQ6ICJvaWRjIiBhcyBjb25zdCB9KSksCiAgICAgIC4uLmxkYXBQcm92aWRlckxpc3QKICAgICAgICAuZmlsdGVyKChwcm92aWRlcikgPT4gcHJvdmlkZXIuZW5hYmxlZCkKICAgICAgICAubWFwKChwcm92aWRlcikgPT4gKHsgLi4ucHJvdmlkZXIsIGtpbmQ6ICJsZGFwIiBhcyBjb25zdCB9KSksCiAgICBdOwogIH07CgogIGNvbnN0IGZvcm1hdE9pZGNCaW5kaW5nTGFiZWwgPSAoYmluZGluZzogRXh0ZXJuYWxCaW5kaW5nKSA9PgogICAgYmluZGluZy5kaXNwbGF5X25hbWUgfHwKICAgIGJpbmRpbmcuZW1haWwgfHwKICAgIChiaW5kaW5nLnByb3RvY29sID09PSAibGRhcCIgPyBiaW5kaW5nLnVzZXJuYW1lIDogdW5kZWZpbmVkKSB8fAogICAgYmluZGluZy5wcm92aWRlcl9uYW1lIHx8CiAgICBiaW5kaW5nLnByb3ZpZGVyX3R5cGU7CgogIGNvbnN0IHJlZnJlc2hPaWRjQmluZGluZ3MgPSBhc3luYyAocmVmcmVzaE9wdGlvbnM/OiB7CiAgICBub3RpZnlPbkFkZGVkPzogYm9vbGVhbjsKICAgIHNob3dTdWNjZXNzVG9hc3Q/OiBib29sZWFuOwogICAgc2hvd0Vycm9yVG9hc3Q/OiBib29sZWFuOwogIH0pID0+IHsKICAgIGlmIChpc09pZGNCaW5kaW5nc1JlZnJlc2hpbmcudmFsdWUpIHJldHVybjsKICAgIGNvbnN0IHByZXZpb3VzSWRzID0gbmV3IFNldCgKICAgICAgb2lkY0JpbmRpbmdzLnZhbHVlLm1hcCgoYmluZGluZykgPT4gYmluZGluZy5pZCksCiAgICApOwogICAgaXNPaWRjQmluZGluZ3NSZWZyZXNoaW5nLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IFtuZXh0T2lkY0JpbmRpbmdzLCBuZXh0TGRhcEJpbmRpbmdzXSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgICAgICBDb25maWdBUEkuZ2V0T0lEQ0JpbmRpbmdzKG9wdGlvbnMudG90cElkKSwKICAgICAgICBDb25maWdBUEkuZ2V0TGRhcEJpbmRpbmdzKG9wdGlvbnMudG90cElkKSwKICAgICAgXSk7CiAgICAgIGNvbnN0IG5leHRCaW5kaW5nczogRXh0ZXJuYWxCaW5kaW5nW10gPSBbCiAgICAgICAgLi4ubmV4dE9pZGNCaW5kaW5ncy5tYXAoKGJpbmRpbmcpID0+ICh7CiAgICAgICAgICAuLi5iaW5kaW5nLAogICAgICAgICAgcHJvdG9jb2w6ICJvaWRjIiBhcyBjb25zdCwKICAgICAgICB9KSksCiAgICAgICAgLi4ubmV4dExkYXBCaW5kaW5ncy5tYXAoKGJpbmRpbmcpID0+ICh7CiAgICAgICAgICAuLi5iaW5kaW5nLAogICAgICAgICAgcHJvdG9jb2w6ICJsZGFwIiBhcyBjb25zdCwKICAgICAgICB9KSksCiAgICAgIF07CiAgICAgIGNvbnN0IGFkZGVkQmluZGluZ3MgPSBuZXh0QmluZGluZ3MuZmlsdGVyKAogICAgICAgIChiaW5kaW5nKSA9PiAhcHJldmlvdXNJZHMuaGFzKGJpbmRpbmcuaWQpLAogICAgICApOwogICAgICBvaWRjQmluZGluZ3MudmFsdWUgPSBuZXh0QmluZGluZ3M7CiAgICAgIG9wdGlvbnMuc2V0RXJyb3IoIiIpOwogICAgICBpZiAocmVmcmVzaE9wdGlvbnM/Lm5vdGlmeU9uQWRkZWQgJiYgYWRkZWRCaW5kaW5ncy5sZW5ndGggPiAwKSB7CiAgICAgICAgY29uc3QgZmlyc3RCaW5kaW5nID0gYWRkZWRCaW5kaW5nc1swXTsKICAgICAgICBpZiAoIWZpcnN0QmluZGluZykgcmV0dXJuOwogICAgICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgICAgICBhZGRlZEJpbmRpbmdzLmxlbmd0aCA+IDEKICAgICAgICAgICAgPyB0KCJhZG1pbi5wYXNza2V5U2V0dGluZ3MuYWRkZWRCaW5kaW5nc01hbnkiLCB7CiAgICAgICAgICAgICAgICBjb3VudDogYWRkZWRCaW5kaW5ncy5sZW5ndGgsCiAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgOiB0KCJhZG1pbi5wYXNza2V5U2V0dGluZ3MuYWRkZWRCaW5kaW5nT25lIiksCiAgICAgICAgICB7IGRlc2NyaXB0aW9uOiBmb3JtYXRPaWRjQmluZGluZ0xhYmVsKGZpcnN0QmluZGluZykgfSwKICAgICAgICApOwogICAgICB9IGVsc2UgaWYgKHJlZnJlc2hPcHRpb25zPy5zaG93U3VjY2Vzc1RvYXN0KSB7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5wYXNza2V5U2V0dGluZ3MuYmluZGluZ3NSZWZyZXNoZWQiKSk7CiAgICAgIH0KICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGNvbnN0IG1lc3NhZ2UgPSBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgIGVycm9yLAogICAgICAgIHQoImFkbWluLnBhc3NrZXlTZXR0aW5ncy5yZWZyZXNoRmFpbGVkIiksCiAgICAgICk7CiAgICAgIG9wdGlvbnMuc2V0RXJyb3IobWVzc2FnZSk7CiAgICAgIGlmIChyZWZyZXNoT3B0aW9ucz8uc2hvd0Vycm9yVG9hc3QpIHsKICAgICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5wYXNza2V5U2V0dGluZ3MucmVmcmVzaEVycm9yVGl0bGUiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IG1lc3NhZ2UsCiAgICAgICAgfSk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgY29uc29sZS5lcnJvcigicmVmcmVzaE9pZGNCaW5kaW5nczoiLCBlcnJvcik7CiAgICAgIH0KICAgIH0gZmluYWxseSB7CiAgICAgIGlzT2lkY0JpbmRpbmdzUmVmcmVzaGluZy52YWx1ZSA9IGZhbHNlOwogICAgfQogIH07CgogIGNvbnN0IGhhbmRsZVJlZnJlc2hPaWRjQmluZGluZ3MgPSAoKSA9PiB7CiAgICB2b2lkIHJlZnJlc2hPaWRjQmluZGluZ3MoewogICAgICBub3RpZnlPbkFkZGVkOiBzaG93SW52aXRlRGlhbG9nLnZhbHVlLAogICAgICBzaG93U3VjY2Vzc1RvYXN0OiAhc2hvd0ludml0ZURpYWxvZy52YWx1ZSwKICAgICAgc2hvd0Vycm9yVG9hc3Q6IHRydWUsCiAgICB9KTsKICB9OwoKICBjb25zdCBpbnZpdGVQb2xsZXIgPSBjcmVhdGVWaXNpYmlsaXR5UG9sbGVyKHsKICAgIGludGVydmFsTXM6IEFVVE9fUkVGUkVTSF9JTlRFUlZBTF9NUywKICAgIGVuYWJsZWQ6ICgpID0+IHNob3dJbnZpdGVEaWFsb2cudmFsdWUsCiAgICB0YXNrOiAoKSA9PiByZWZyZXNoT2lkY0JpbmRpbmdzKHsgbm90aWZ5T25BZGRlZDogdHJ1ZSB9KSwKICB9KTsKICBpbnZpdGVQb2xsZXIuc3RhcnQoKTsKCiAgY29uc3Qgb3Blbkludml0ZURpYWxvZyA9ICgpID0+IHsKICAgIGludml0ZVByb3ZpZGVySWQudmFsdWUgPSBwcm92aWRlcnMudmFsdWVbMF0/LmlkIHx8ICIiOwogICAgaW52aXRlVXJsLnZhbHVlID0gIiI7CiAgICBpbnZpdGVFeHBpcmVzQXQudmFsdWUgPSAiIjsKICAgIHNob3dJbnZpdGVEaWFsb2cudmFsdWUgPSB0cnVlOwogIH07CgogIGNvbnN0IGhhbmRsZUludml0ZVByb3ZpZGVyQ2hhbmdlID0gKHZhbHVlOiB1bmtub3duKSA9PiB7CiAgICBpbnZpdGVQcm92aWRlcklkLnZhbHVlID0gU3RyaW5nKHZhbHVlID8/ICIiKTsKICAgIGludml0ZVVybC52YWx1ZSA9ICIiOwogICAgaW52aXRlRXhwaXJlc0F0LnZhbHVlID0gIiI7CiAgfTsKCiAgY29uc3QgY3JlYXRlSW52aXRlID0gYXN5bmMgKCkgPT4gewogICAgaWYgKCFpbnZpdGVQcm92aWRlcklkLnZhbHVlKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnBhc3NrZXlTZXR0aW5ncy5zZWxlY3RQcm92aWRlciIpKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgYXdhaXQgcnVuQ3JlYXRlSW52aXRlKGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgcHJvdmlkZXIgPSBwcm92aWRlcnMudmFsdWUuZmluZCgKICAgICAgICAoaXRlbSkgPT4gaXRlbS5pZCA9PT0gaW52aXRlUHJvdmlkZXJJZC52YWx1ZSwKICAgICAgKTsKICAgICAgaWYgKCFwcm92aWRlcikgewogICAgICAgIHRocm93IG5ldyBFcnJvcih0KCJhZG1pbi5wYXNza2V5U2V0dGluZ3Muc2VsZWN0UHJvdmlkZXIiKSk7CiAgICAgIH0KICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgKHByb3ZpZGVyLmtpbmQgPT09ICJsZGFwIgogICAgICAgID8gQ29uZmlnQVBJLmNyZWF0ZUxkYXBJbnZpdGUoewogICAgICAgICAgICB0b3RwX2lkOiBvcHRpb25zLnRvdHBJZCwKICAgICAgICAgICAgcHJvdmlkZXJfaWQ6IGludml0ZVByb3ZpZGVySWQudmFsdWUsCiAgICAgICAgICB9KQogICAgICAgIDogQ29uZmlnQVBJLmNyZWF0ZU9JRENJbnZpdGUoewogICAgICAgICAgICB0b3RwX2lkOiBvcHRpb25zLnRvdHBJZCwKICAgICAgICAgICAgcHJvdmlkZXJfaWQ6IGludml0ZVByb3ZpZGVySWQudmFsdWUsCiAgICAgICAgICB9KSk7CiAgICAgIGludml0ZVVybC52YWx1ZSA9IHJlc3VsdC5pbnZpdGVfdXJsOwogICAgICBpbnZpdGVFeHBpcmVzQXQudmFsdWUgPSByZXN1bHQuZXhwaXJlc19hdDsKICAgICAgdHJ5IHsKICAgICAgICBhd2FpdCBjb3B5VGV4dFRvQ2xpcGJvYXJkKHJlc3VsdC5pbnZpdGVfdXJsKTsKICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLnBhc3NrZXlTZXR0aW5ncy5pbnZpdGVDcmVhdGVkQ29waWVkIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiByZXN1bHQuaW52aXRlX3VybCwKICAgICAgICB9KTsKICAgICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgICBjb25zb2xlLmVycm9yKCJjcmVhdGVJbnZpdGUgY29weToiLCBlcnJvcik7CiAgICAgICAgdG9hc3Qud2FybmluZyh0KCJhZG1pbi5wYXNza2V5U2V0dGluZ3MuaW52aXRlQ3JlYXRlZENvcHlGYWlsZWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IHQoImFkbWluLnBhc3NrZXlTZXR0aW5ncy5tYW51YWxDb3B5SGludCIpLAogICAgICAgIH0pOwogICAgICB9CiAgICB9KTsKICB9OwoKICBjb25zdCBjb3B5SW52aXRlVXJsID0gYXN5bmMgKCkgPT4gewogICAgaWYgKCFpbnZpdGVVcmwudmFsdWUpIHJldHVybjsKICAgIHRyeSB7CiAgICAgIGF3YWl0IGNvcHlUZXh0VG9DbGlwYm9hcmQoaW52aXRlVXJsLnZhbHVlKTsKICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5wYXNza2V5U2V0dGluZ3MuaW52aXRlQ29waWVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogaW52aXRlVXJsLnZhbHVlLAogICAgICB9KTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoImNvcHlJbnZpdGVVcmw6IiwgZXJyb3IpOwogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5wYXNza2V5U2V0dGluZ3MuY29weUludml0ZUZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IHQoImFkbWluLnBhc3NrZXlTZXR0aW5ncy5tYW51YWxDb3B5SGludCIpLAogICAgICB9KTsKICAgIH0KICB9OwoKICBjb25zdCBkZWxldGVPaWRjQmluZGluZyA9IGFzeW5jIChiaW5kaW5nSWQ6IHN0cmluZykgPT4gewogICAgb3B0aW9ucy5zZXRFcnJvcigiIik7CiAgICBhd2FpdCBydW5EZWxldGVCaW5kaW5nKGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgYmluZGluZyA9IG9pZGNCaW5kaW5ncy52YWx1ZS5maW5kKChpdGVtKSA9PiBpdGVtLmlkID09PSBiaW5kaW5nSWQpOwogICAgICBpZiAoYmluZGluZz8ucHJvdG9jb2wgPT09ICJsZGFwIikgewogICAgICAgIGF3YWl0IENvbmZpZ0FQSS5kZWxldGVMZGFwQmluZGluZyhiaW5kaW5nSWQpOwogICAgICB9IGVsc2UgewogICAgICAgIGF3YWl0IENvbmZpZ0FQSS5kZWxldGVPSURDQmluZGluZyhiaW5kaW5nSWQpOwogICAgICB9CiAgICAgIGF3YWl0IGxvYWRPaWRjRGF0YSgpOwogICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLnBhc3NrZXlTZXR0aW5ncy5vaWRjRGVsZXRlZCIpKTsKICAgIH0pOwogIH07CgogIHdhdGNoKHNob3dJbnZpdGVEaWFsb2csICgpID0+IHsKICAgIGludml0ZVBvbGxlci5zeW5jKCk7CiAgfSk7CiAgb25CZWZvcmVVbm1vdW50KGludml0ZVBvbGxlci5zdG9wKTsKCiAgcmV0dXJuIHsKICAgIGNvcHlJbnZpdGVVcmwsCiAgICBjcmVhdGVJbnZpdGUsCiAgICBkZWxldGVPaWRjQmluZGluZywKICAgIGhhbmRsZUludml0ZVByb3ZpZGVyQ2hhbmdlLAogICAgaGFuZGxlUmVmcmVzaE9pZGNCaW5kaW5ncywKICAgIGludml0ZUV4cGlyZXNBdCwKICAgIGludml0ZVByb3ZpZGVySWQsCiAgICBpbnZpdGVVcmwsCiAgICBpc0RlbGV0aW5nQmluZGluZywKICAgIGlzSW52aXRlQ3JlYXRpbmcsCiAgICBpc09pZGNCaW5kaW5nc1JlZnJlc2hpbmcsCiAgICBsb2FkT2lkY0RhdGEsCiAgICBvaWRjQmluZGluZ3MsCiAgICBvcGVuSW52aXRlRGlhbG9nLAogICAgcHJvdmlkZXJzLAogICAgc2hvd0ludml0ZURpYWxvZywKICB9Owp9Owo=
+import { onBeforeUnmount, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { copyTextToClipboard } from "@admin-shared/utils/copyTextToClipboard";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import { ConfigAPI } from "@/lib/api/config";
+import type {
+  LdapBinding,
+  LdapProviderView,
+  OIDCBinding,
+  OIDCProviderView,
+} from "@/types";
+import { createVisibilityPoller } from "@/composables/useVisibilityPolling";
+
+export type ExternalProviderOption =
+  (OIDCProviderView & { kind: "oidc" }) | (LdapProviderView & { kind: "ldap" });
+export type ExternalBinding =
+  (OIDCBinding & { protocol: "oidc" }) | (LdapBinding & { protocol: "ldap" });
+
+const AUTO_REFRESH_INTERVAL_MS = 5_000;
+
+export const useOidcBindingWorkflow = (options: {
+  setError: (message: string) => void;
+  totpId: string;
+}) => {
+  const { t } = useI18n();
+  const oidcBindings = ref<ExternalBinding[]>([]);
+  const providers = ref<ExternalProviderOption[]>([]);
+  const showInviteDialog = ref(false);
+  const inviteProviderId = ref("");
+  const inviteUrl = ref("");
+  const inviteExpiresAt = ref("");
+  const isOidcBindingsRefreshing = ref(false);
+
+  const { isPending: isInviteCreating, run: runCreateInvite } = useAsyncAction({
+    onError: (error) => {
+      toast.error(
+        extractErrorMessage(
+          error,
+          t("admin.passkeySettings.createInviteFailed"),
+        ),
+      );
+    },
+  });
+  const { isPending: isDeletingBinding, run: runDeleteBinding } =
+    useAsyncAction({
+      onError: (error) => {
+        const message = extractErrorMessage(
+          error,
+          t("admin.passkeySettings.deleteFailed"),
+        );
+        options.setError(message);
+        toast.error(t("admin.passkeySettings.deleteErrorTitle"), {
+          description: message,
+        });
+      },
+    });
+
+  const loadOidcData = async () => {
+    const [
+      oidcBindingList,
+      oidcProviderList,
+      ldapBindingList,
+      ldapProviderList,
+    ] = await Promise.all([
+      ConfigAPI.getOIDCBindings(options.totpId),
+      ConfigAPI.getOIDCProviders(),
+      ConfigAPI.getLdapBindings(options.totpId),
+      ConfigAPI.getLdapProviders(),
+    ]);
+    oidcBindings.value = [
+      ...oidcBindingList.map((binding) => ({
+        ...binding,
+        protocol: "oidc" as const,
+      })),
+      ...ldapBindingList.map((binding) => ({
+        ...binding,
+        protocol: "ldap" as const,
+      })),
+    ];
+    providers.value = [
+      ...oidcProviderList
+        .filter((provider) => provider.enabled)
+        .map((provider) => ({ ...provider, kind: "oidc" as const })),
+      ...ldapProviderList
+        .filter((provider) => provider.enabled)
+        .map((provider) => ({ ...provider, kind: "ldap" as const })),
+    ];
+  };
+
+  const formatOidcBindingLabel = (binding: ExternalBinding) =>
+    binding.display_name ||
+    binding.email ||
+    (binding.protocol === "ldap" ? binding.username : undefined) ||
+    binding.provider_name ||
+    binding.provider_type;
+
+  const refreshOidcBindings = async (refreshOptions?: {
+    notifyOnAdded?: boolean;
+    showSuccessToast?: boolean;
+    showErrorToast?: boolean;
+  }) => {
+    if (isOidcBindingsRefreshing.value) return;
+    const previousIds = new Set(
+      oidcBindings.value.map((binding) => binding.id),
+    );
+    isOidcBindingsRefreshing.value = true;
+    try {
+      const [nextOidcBindings, nextLdapBindings] = await Promise.all([
+        ConfigAPI.getOIDCBindings(options.totpId),
+        ConfigAPI.getLdapBindings(options.totpId),
+      ]);
+      const nextBindings: ExternalBinding[] = [
+        ...nextOidcBindings.map((binding) => ({
+          ...binding,
+          protocol: "oidc" as const,
+        })),
+        ...nextLdapBindings.map((binding) => ({
+          ...binding,
+          protocol: "ldap" as const,
+        })),
+      ];
+      const addedBindings = nextBindings.filter(
+        (binding) => !previousIds.has(binding.id),
+      );
+      oidcBindings.value = nextBindings;
+      options.setError("");
+      if (refreshOptions?.notifyOnAdded && addedBindings.length > 0) {
+        const firstBinding = addedBindings[0];
+        if (!firstBinding) return;
+        toast.success(
+          addedBindings.length > 1
+            ? t("admin.passkeySettings.addedBindingsMany", {
+                count: addedBindings.length,
+              })
+            : t("admin.passkeySettings.addedBindingOne"),
+          { description: formatOidcBindingLabel(firstBinding) },
+        );
+      } else if (refreshOptions?.showSuccessToast) {
+        toast.success(t("admin.passkeySettings.bindingsRefreshed"));
+      }
+    } catch (error) {
+      const message = extractErrorMessage(
+        error,
+        t("admin.passkeySettings.refreshFailed"),
+      );
+      options.setError(message);
+      if (refreshOptions?.showErrorToast) {
+        toast.error(t("admin.passkeySettings.refreshErrorTitle"), {
+          description: message,
+        });
+      } else {
+        console.error("refreshOidcBindings:", error);
+      }
+    } finally {
+      isOidcBindingsRefreshing.value = false;
+    }
+  };
+
+  const handleRefreshOidcBindings = () => {
+    void refreshOidcBindings({
+      notifyOnAdded: showInviteDialog.value,
+      showSuccessToast: !showInviteDialog.value,
+      showErrorToast: true,
+    });
+  };
+
+  const invitePoller = createVisibilityPoller({
+    intervalMs: AUTO_REFRESH_INTERVAL_MS,
+    enabled: () => showInviteDialog.value,
+    task: () => refreshOidcBindings({ notifyOnAdded: true }),
+  });
+  invitePoller.start();
+
+  const openInviteDialog = () => {
+    inviteProviderId.value = providers.value[0]?.id || "";
+    inviteUrl.value = "";
+    inviteExpiresAt.value = "";
+    showInviteDialog.value = true;
+  };
+
+  const handleInviteProviderChange = (value: unknown) => {
+    inviteProviderId.value = String(value ?? "");
+    inviteUrl.value = "";
+    inviteExpiresAt.value = "";
+  };
+
+  const createInvite = async () => {
+    if (!inviteProviderId.value) {
+      toast.error(t("admin.passkeySettings.selectProvider"));
+      return;
+    }
+    await runCreateInvite(async () => {
+      const provider = providers.value.find(
+        (item) => item.id === inviteProviderId.value,
+      );
+      if (!provider) {
+        throw new Error(t("admin.passkeySettings.selectProvider"));
+      }
+      const result = await (provider.kind === "ldap"
+        ? ConfigAPI.createLdapInvite({
+            totp_id: options.totpId,
+            provider_id: inviteProviderId.value,
+          })
+        : ConfigAPI.createOIDCInvite({
+            totp_id: options.totpId,
+            provider_id: inviteProviderId.value,
+          }));
+      inviteUrl.value = result.invite_url;
+      inviteExpiresAt.value = result.expires_at;
+      try {
+        await copyTextToClipboard(result.invite_url);
+        toast.success(t("admin.passkeySettings.inviteCreatedCopied"), {
+          description: result.invite_url,
+        });
+      } catch (error) {
+        console.error("createInvite copy:", error);
+        toast.warning(t("admin.passkeySettings.inviteCreatedCopyFailed"), {
+          description: t("admin.passkeySettings.manualCopyHint"),
+        });
+      }
+    });
+  };
+
+  const copyInviteUrl = async () => {
+    if (!inviteUrl.value) return;
+    try {
+      await copyTextToClipboard(inviteUrl.value);
+      toast.success(t("admin.passkeySettings.inviteCopied"), {
+        description: inviteUrl.value,
+      });
+    } catch (error) {
+      console.error("copyInviteUrl:", error);
+      toast.error(t("admin.passkeySettings.copyInviteFailed"), {
+        description: t("admin.passkeySettings.manualCopyHint"),
+      });
+    }
+  };
+
+  const deleteOidcBinding = async (bindingId: string) => {
+    options.setError("");
+    await runDeleteBinding(async () => {
+      const binding = oidcBindings.value.find((item) => item.id === bindingId);
+      if (binding?.protocol === "ldap") {
+        await ConfigAPI.deleteLdapBinding(bindingId);
+      } else {
+        await ConfigAPI.deleteOIDCBinding(bindingId);
+      }
+      await loadOidcData();
+      toast.success(t("admin.passkeySettings.oidcDeleted"));
+    });
+  };
+
+  watch(showInviteDialog, () => {
+    invitePoller.sync();
+  });
+  onBeforeUnmount(invitePoller.stop);
+
+  return {
+    copyInviteUrl,
+    createInvite,
+    deleteOidcBinding,
+    handleInviteProviderChange,
+    handleRefreshOidcBindings,
+    inviteExpiresAt,
+    inviteProviderId,
+    inviteUrl,
+    isDeletingBinding,
+    isInviteCreating,
+    isOidcBindingsRefreshing,
+    loadOidcData,
+    oidcBindings,
+    openInviteDialog,
+    providers,
+    showInviteDialog,
+  };
+};

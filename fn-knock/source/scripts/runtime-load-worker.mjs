@@ -1,1 +1,118 @@
-aW1wb3J0IHsgc2V0TWF4TGlzdGVuZXJzIH0gZnJvbSAibm9kZTpldmVudHMiOwppbXBvcnQgeyBtb25pdG9yRXZlbnRMb29wRGVsYXksIHBlcmZvcm1hbmNlIH0gZnJvbSAibm9kZTpwZXJmX2hvb2tzIjsKaW1wb3J0IHsgc2V0SW1tZWRpYXRlIGFzIHlpZWxkVG9FdmVudExvb3AgfSBmcm9tICJub2RlOnRpbWVycy9wcm9taXNlcyI7CmltcG9ydCB7IHBhcmVudFBvcnQsIHdvcmtlckRhdGEgfSBmcm9tICJub2RlOndvcmtlcl90aHJlYWRzIjsKaW1wb3J0IHsgY3JlYXRlTG9hZENsaWVudCB9IGZyb20gIi4vcnVudGltZS1sb2FkLWNsaWVudC5tanMiOwoKY29uc3Qgbm93ID0gKCkgPT4gcGVyZm9ybWFuY2UudGltZU9yaWdpbiArIHBlcmZvcm1hbmNlLm5vdygpOwpjb25zdCBhYm9ydCA9IG5ldyBBYm9ydENvbnRyb2xsZXIoKTsKc2V0TWF4TGlzdGVuZXJzKHdvcmtlckRhdGEuY29uY3VycmVuY3kgKyAxLCBhYm9ydC5zaWduYWwpOwpsZXQgc3RhcnRlZCA9IGZhbHNlOwoKY29uc3QgcnVuID0gYXN5bmMgKHsgc3RhcnRlZEF0LCBkdXJhdGlvbk1zIH0pID0+IHsKICBjb25zdCBlbnRlcmVkQXQgPSBub3coKTsKICBjb25zdCBkZWFkbGluZSA9IHN0YXJ0ZWRBdCArIGR1cmF0aW9uTXM7CiAgY29uc3QgY2xpZW50ID0gY3JlYXRlTG9hZENsaWVudCh3b3JrZXJEYXRhKTsKICBjb25zdCBsYXRlbmN5Q291bnRzID0gbmV3IFVpbnQzMkFycmF5KDEwXzAwMSk7CiAgY29uc3QgbG9vcERlbGF5ID0gbW9uaXRvckV2ZW50TG9vcERlbGF5KHsgcmVzb2x1dGlvbjogMTAgfSk7CiAgbG9vcERlbGF5LmVuYWJsZSgpOwogIGxldCByZXF1ZXN0cyA9IDA7CiAgbGV0IHJlc3BvbnNlQnl0ZXMgPSAwOwogIGNvbnN0IHJlcXVlc3RMb29wID0gYXN5bmMgKCkgPT4gewogICAgd2hpbGUgKCFhYm9ydC5zaWduYWwuYWJvcnRlZCAmJiBub3coKSA8IGRlYWRsaW5lKSB7CiAgICAgIGNvbnN0IHJlcXVlc3RTdGFydGVkID0gbm93KCk7CiAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgY2xpZW50LnJlcXVlc3QoYWJvcnQuc2lnbmFsKTsKICAgICAgaWYgKHJlc3BvbnNlLnN0YXR1cyA8IDIwMCB8fCByZXNwb25zZS5zdGF0dXMgPj0gMzAwKSB7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKAogICAgICAgICAgYCR7d29ya2VyRGF0YS5uYW1lfSBsb2FkIHJldHVybmVkIEhUVFAgJHtyZXNwb25zZS5zdGF0dXN9YCwKICAgICAgICApOwogICAgICB9CiAgICAgIGlmICgKICAgICAgICB3b3JrZXJEYXRhLmV4cGVjdGVkUmVzcG9uc2VCeXRlcyAhPT0gdW5kZWZpbmVkICYmCiAgICAgICAgcmVzcG9uc2UuYnl0ZXMgIT09IHdvcmtlckRhdGEuZXhwZWN0ZWRSZXNwb25zZUJ5dGVzCiAgICAgICkgewogICAgICAgIHRocm93IG5ldyBFcnJvcigKICAgICAgICAgIGAke3dvcmtlckRhdGEubmFtZX0gcmVzcG9uc2UgbGVuZ3RoICR7cmVzcG9uc2UuYnl0ZXN9ICE9ICR7d29ya2VyRGF0YS5leHBlY3RlZFJlc3BvbnNlQnl0ZXN9YCwKICAgICAgICApOwogICAgICB9CiAgICAgIGlmICh3b3JrZXJEYXRhLnJlc3BvbnNlVmFsaWRhdGlvbiA9PT0gImxvY2FsZSIpIHsKICAgICAgICBjb25zdCB2YWx1ZSA9IEpTT04ucGFyc2UocmVzcG9uc2UuYm9keS50b1N0cmluZygidXRmOCIpKTsKICAgICAgICBpZiAoCiAgICAgICAgICB2YWx1ZS5zdWNjZXNzICE9PSB0cnVlIHx8CiAgICAgICAgICB0eXBlb2YgdmFsdWUuZGF0YT8uZGVmYXVsdF9sb2NhbGUgIT09ICJzdHJpbmciCiAgICAgICAgKSB7CiAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICAgICAgIGAke3dvcmtlckRhdGEubmFtZX0gcmV0dXJuZWQgYW4gaW52YWxpZCBKU09OIHJlc3BvbnNlYCwKICAgICAgICAgICk7CiAgICAgICAgfQogICAgICB9CiAgICAgIGxhdGVuY3lDb3VudHNbTWF0aC5taW4oMTBfMDAwLCBNYXRoLmNlaWwobm93KCkgLSByZXF1ZXN0U3RhcnRlZCkpXSArPSAxOwogICAgICByZXF1ZXN0cyArPSAxOwogICAgICByZXNwb25zZUJ5dGVzICs9IHJlc3BvbnNlLmJ5dGVzOwogICAgICBhd2FpdCB5aWVsZFRvRXZlbnRMb29wKCk7CiAgICB9CiAgfTsKICBjb25zdCByZXF1ZXN0c0luRmxpZ2h0ID0gQXJyYXkuZnJvbSgKICAgIHsgbGVuZ3RoOiB3b3JrZXJEYXRhLmNvbmN1cnJlbmN5IH0sCiAgICByZXF1ZXN0TG9vcCwKICApOwogIGxldCBmYWlsdXJlOwogIHRyeSB7CiAgICBhd2FpdCBQcm9taXNlLmFsbChyZXF1ZXN0c0luRmxpZ2h0KTsKICAgIGFib3J0LnNpZ25hbC50aHJvd0lmQWJvcnRlZCgpOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICBmYWlsdXJlID0gZXJyb3I7CiAgICBhYm9ydC5hYm9ydChlcnJvcik7CiAgICBhd2FpdCBQcm9taXNlLmFsbFNldHRsZWQocmVxdWVzdHNJbkZsaWdodCk7CiAgfSBmaW5hbGx5IHsKICAgIGNsaWVudC5jbG9zZSgpOwogICAgbG9vcERlbGF5LmRpc2FibGUoKTsKICB9CiAgY29uc3QgZWxhcHNlZE1zID0gbm93KCkgLSBzdGFydGVkQXQ7CiAgY29uc3QgcmVzb3VyY2VzID0gY2xpZW50LmRpYWdub3N0aWNzKCk7CiAgaWYgKE9iamVjdC52YWx1ZXMocmVzb3VyY2VzKS5zb21lKChjb3VudCkgPT4gY291bnQgIT09IDApKSB7CiAgICBmYWlsdXJlID8/PSBuZXcgRXJyb3IoCiAgICAgICJydW50aW1lIGxvYWQgY2xpZW50IGRpZCBub3QgcmVsZWFzZSBhbGwgcmVxdWVzdCByZXNvdXJjZXMiLAogICAgKTsKICB9CiAgaWYgKCFmYWlsdXJlICYmIHJlcXVlc3RzID09PSAwKQogICAgZmFpbHVyZSA9IG5ldyBFcnJvcigiTm8gcnVudGltZSByZXF1ZXN0cyBjb21wbGV0ZWQiKTsKICBjb25zdCBwZXJjZW50aWxlID0gKGZyYWN0aW9uKSA9PiB7CiAgICBsZXQgY291bnQgPSAwOwogICAgZm9yIChsZXQgbXMgPSAwOyBtcyA8IGxhdGVuY3lDb3VudHMubGVuZ3RoOyBtcyArPSAxKSB7CiAgICAgIGNvdW50ICs9IGxhdGVuY3lDb3VudHNbbXNdOwogICAgICBpZiAoY291bnQgPj0gTWF0aC5jZWlsKHJlcXVlc3RzICogZnJhY3Rpb24pKSByZXR1cm4gbXM7CiAgICB9CiAgICByZXR1cm4gbnVsbDsKICB9OwogIGNvbnN0IHJlc3VsdCA9IHsKICAgIGVsYXBzZWRfbXM6IE51bWJlcihlbGFwc2VkTXMudG9GaXhlZCgzKSksCiAgICByZXF1ZXN0cywKICAgIHJlc3BvbnNlX2J5dGVzOiByZXNwb25zZUJ5dGVzLAogICAgcmVxdWVzdHNfcGVyX3NlY29uZDogTnVtYmVyKCgocmVxdWVzdHMgKiAxMDAwKSAvIGVsYXBzZWRNcykudG9GaXhlZCgyKSksCiAgICByZXF1ZXN0X2xhdGVuY3lfcDk1X21zOiBwZXJjZW50aWxlKDAuOTUpLAogICAgcmVxdWVzdF9sYXRlbmN5X3A5OV9tczogcGVyY2VudGlsZSgwLjk5KSwKICAgIGNsaWVudF9zdGFydF9kZWxheV9tczogTnVtYmVyKChlbnRlcmVkQXQgLSBzdGFydGVkQXQpLnRvRml4ZWQoMykpLAogICAgY2xpZW50X2V2ZW50X2xvb3BfZGVsYXlfbWF4X21zOiBOdW1iZXIoKGxvb3BEZWxheS5tYXggLyAxZTYpLnRvRml4ZWQoMykpLAogICAgY2xpZW50X3Jlc291cmNlc19hZnRlcl9jb21wbGV0aW9uOiByZXNvdXJjZXMsCiAgfTsKICBwYXJlbnRQb3J0LnBvc3RNZXNzYWdlKHsKICAgIHR5cGU6IGZhaWx1cmUgPyAiZmFpbGVkIiA6ICJjb21wbGV0ZWQiLAogICAgZXJyb3I6IGZhaWx1cmU/Lm1lc3NhZ2UsCiAgICByZXN1bHQsCiAgfSk7CiAgcGFyZW50UG9ydC5jbG9zZSgpOwp9OwoKcGFyZW50UG9ydC5vbigibWVzc2FnZSIsIChtZXNzYWdlKSA9PiB7CiAgaWYgKG1lc3NhZ2UudHlwZSA9PT0gImNhbmNlbCIpIHsKICAgIGFib3J0LmFib3J0KG5ldyBFcnJvcihtZXNzYWdlLnJlYXNvbikpOwogIH0gZWxzZSBpZiAobWVzc2FnZS50eXBlID09PSAic3RhcnQiICYmICFzdGFydGVkKSB7CiAgICBzdGFydGVkID0gdHJ1ZTsKICAgIHJ1bihtZXNzYWdlKS5jYXRjaCgoZXJyb3IpID0+IHsKICAgICAgcGFyZW50UG9ydC5wb3N0TWVzc2FnZSh7IHR5cGU6ICJmYWlsZWQiLCBlcnJvcjogZXJyb3IubWVzc2FnZSB9KTsKICAgICAgcGFyZW50UG9ydC5jbG9zZSgpOwogICAgfSk7CiAgfQp9KTsKcGFyZW50UG9ydC5wb3N0TWVzc2FnZSh7IHR5cGU6ICJyZWFkeSIgfSk7Cg==
+import { setMaxListeners } from "node:events";
+import { monitorEventLoopDelay, performance } from "node:perf_hooks";
+import { setImmediate as yieldToEventLoop } from "node:timers/promises";
+import { parentPort, workerData } from "node:worker_threads";
+import { createLoadClient } from "./runtime-load-client.mjs";
+
+const now = () => performance.timeOrigin + performance.now();
+const abort = new AbortController();
+setMaxListeners(workerData.concurrency + 1, abort.signal);
+let started = false;
+
+const run = async ({ startedAt, durationMs }) => {
+  const enteredAt = now();
+  const deadline = startedAt + durationMs;
+  const client = createLoadClient(workerData);
+  const latencyCounts = new Uint32Array(10_001);
+  const loopDelay = monitorEventLoopDelay({ resolution: 10 });
+  loopDelay.enable();
+  let requests = 0;
+  let responseBytes = 0;
+  const requestLoop = async () => {
+    while (!abort.signal.aborted && now() < deadline) {
+      const requestStarted = now();
+      const response = await client.request(abort.signal);
+      if (response.status < 200 || response.status >= 300) {
+        throw new Error(
+          `${workerData.name} load returned HTTP ${response.status}`,
+        );
+      }
+      if (
+        workerData.expectedResponseBytes !== undefined &&
+        response.bytes !== workerData.expectedResponseBytes
+      ) {
+        throw new Error(
+          `${workerData.name} response length ${response.bytes} != ${workerData.expectedResponseBytes}`,
+        );
+      }
+      if (workerData.responseValidation === "locale") {
+        const value = JSON.parse(response.body.toString("utf8"));
+        if (
+          value.success !== true ||
+          typeof value.data?.default_locale !== "string"
+        ) {
+          throw new Error(
+            `${workerData.name} returned an invalid JSON response`,
+          );
+        }
+      }
+      latencyCounts[Math.min(10_000, Math.ceil(now() - requestStarted))] += 1;
+      requests += 1;
+      responseBytes += response.bytes;
+      await yieldToEventLoop();
+    }
+  };
+  const requestsInFlight = Array.from(
+    { length: workerData.concurrency },
+    requestLoop,
+  );
+  let failure;
+  try {
+    await Promise.all(requestsInFlight);
+    abort.signal.throwIfAborted();
+  } catch (error) {
+    failure = error;
+    abort.abort(error);
+    await Promise.allSettled(requestsInFlight);
+  } finally {
+    client.close();
+    loopDelay.disable();
+  }
+  const elapsedMs = now() - startedAt;
+  const resources = client.diagnostics();
+  if (Object.values(resources).some((count) => count !== 0)) {
+    failure ??= new Error(
+      "runtime load client did not release all request resources",
+    );
+  }
+  if (!failure && requests === 0)
+    failure = new Error("No runtime requests completed");
+  const percentile = (fraction) => {
+    let count = 0;
+    for (let ms = 0; ms < latencyCounts.length; ms += 1) {
+      count += latencyCounts[ms];
+      if (count >= Math.ceil(requests * fraction)) return ms;
+    }
+    return null;
+  };
+  const result = {
+    elapsed_ms: Number(elapsedMs.toFixed(3)),
+    requests,
+    response_bytes: responseBytes,
+    requests_per_second: Number(((requests * 1000) / elapsedMs).toFixed(2)),
+    request_latency_p95_ms: percentile(0.95),
+    request_latency_p99_ms: percentile(0.99),
+    client_start_delay_ms: Number((enteredAt - startedAt).toFixed(3)),
+    client_event_loop_delay_max_ms: Number((loopDelay.max / 1e6).toFixed(3)),
+    client_resources_after_completion: resources,
+  };
+  parentPort.postMessage({
+    type: failure ? "failed" : "completed",
+    error: failure?.message,
+    result,
+  });
+  parentPort.close();
+};
+
+parentPort.on("message", (message) => {
+  if (message.type === "cancel") {
+    abort.abort(new Error(message.reason));
+  } else if (message.type === "start" && !started) {
+    started = true;
+    run(message).catch((error) => {
+      parentPort.postMessage({ type: "failed", error: error.message });
+      parentPort.close();
+    });
+  }
+});
+parentPort.postMessage({ type: "ready" });

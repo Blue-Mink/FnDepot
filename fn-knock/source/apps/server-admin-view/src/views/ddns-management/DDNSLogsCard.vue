@@ -1,1 +1,49 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IFRyYXNoMiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDYXJkLCBDYXJkQ29udGVudCwgQ2FyZEhlYWRlciwgQ2FyZFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgTG9nVmlld2VyIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9Mb2dWaWV3ZXIudnVlIjsKCmRlZmluZVByb3BzPHsKICBjYW5DbGVhcjogYm9vbGVhbjsKICBjbGVhckxvZ3M6ICgpID0+IHZvaWQgfCBQcm9taXNlPHZvaWQ+OwogIGlzQ2xlYXJpbmc6IGJvb2xlYW47CiAgbG9nTGluZXM6IHN0cmluZ1tdOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxDYXJkIGNsYXNzPSJnYXAtMiI+CiAgICA8Q2FyZEhlYWRlcj4KICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICA8Q2FyZFRpdGxlIGNsYXNzPSJ0ZXh0LWJhc2UiPgogICAgICAgICAge3sgdCgiYWRtaW4uZGRucy5sb2dzVGl0bGUiKSB9fQogICAgICAgIDwvQ2FyZFRpdGxlPgogICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZ2FwLTIiPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgOmRpc2FibGVkPSJpc0NsZWFyaW5nIHx8ICFjYW5DbGVhciIKICAgICAgICAgICAgQGNsaWNrPSJjbGVhckxvZ3MiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxUcmFzaDIgY2xhc3M9ImgtMy41IHctMy41IG1yLTEiIC8+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmRkbnMuY2xlYXIiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9DYXJkSGVhZGVyPgogICAgPENhcmRDb250ZW50PgogICAgICA8TG9nVmlld2VyCiAgICAgICAgOmxvZ3M9ImxvZ0xpbmVzIgogICAgICAgIHJldmVyc2VkCiAgICAgICAgaGVpZ2h0LWNsYXNzPSJtYXgtaC1bNDAwcHhdIgogICAgICAgIDpzaG93LWhlYWRlcj0iZmFsc2UiCiAgICAgICAgdGhlbWU9ImxpZ2h0IgogICAgICAgIHdyYXAKICAgICAgLz4KICAgIDwvQ2FyZENvbnRlbnQ+CiAgPC9DYXJkPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Trash2 } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import LogViewer from "@admin-shared/components/LogViewer.vue";
+
+defineProps<{
+  canClear: boolean;
+  clearLogs: () => void | Promise<void>;
+  isClearing: boolean;
+  logLines: string[];
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <Card class="gap-2">
+    <CardHeader>
+      <div class="flex items-center justify-between">
+        <CardTitle class="text-base">
+          {{ t("admin.ddns.logsTitle") }}
+        </CardTitle>
+        <div class="flex gap-2">
+          <Button
+            variant="outline"
+            size="sm"
+            :disabled="isClearing || !canClear"
+            @click="clearLogs"
+          >
+            <Trash2 class="h-3.5 w-3.5 mr-1" />
+            {{ t("admin.ddns.clear") }}
+          </Button>
+        </div>
+      </div>
+    </CardHeader>
+    <CardContent>
+      <LogViewer
+        :logs="logLines"
+        reversed
+        height-class="max-h-[400px]"
+        :show-header="false"
+        theme="light"
+        wrap
+      />
+    </CardContent>
+  </Card>
+</template>

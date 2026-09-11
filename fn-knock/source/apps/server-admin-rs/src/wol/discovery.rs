@@ -1,1 +1,705 @@
-dXNlIGZuX2tub2NrX3dvbF9wcm90b2NvbDo6TWFjQWRkcmVzczsKdXNlIGdldF9pZl9hZGRyczo6e0lmQWRkciwgZ2V0X2lmX2FkZHJzfTsKdXNlIGlwbmV0OjpJcHY0TmV0Owp1c2Ugc2VyZGU6OlNlcmlhbGl6ZTsKdXNlIHN0ZDo6ewogICAgY29sbGVjdGlvbnM6OntIYXNoTWFwLCBIYXNoU2V0fSwKICAgIG5ldDo6SXB2NEFkZHIsCiAgICBwcm9jZXNzOjpTdGRpbywKICAgIHN5bmM6OnsKICAgICAgICBBcmMsIE11dGV4LCBNdXRleEd1YXJkLCBPbmNlTG9jaywKICAgICAgICBhdG9taWM6OntBdG9taWNCb29sLCBPcmRlcmluZ30sCiAgICB9LAogICAgdGltZTo6RHVyYXRpb24sCn07CnVzZSB0b2tpbzo6e3Byb2Nlc3M6OkNvbW1hbmQsIHRhc2s6OkpvaW5TZXQsIHRpbWV9Owp1c2UgdXVpZDo6VXVpZDsKCnVzZSBjcmF0ZTo6e3N0YXRlOjpBcHBTdGF0ZSwgdGltZV91dGlsc307Cgpjb25zdCBNQVhfTkVUV09SS1M6IHVzaXplID0gMTY7CmNvbnN0IE1BWF9TQ0FOX0hPU1RTOiB1c2l6ZSA9IDQwOTY7CmNvbnN0IE1BWF9DT05DVVJSRU5UX1BST0JFUzogdXNpemUgPSAyNTY7CmNvbnN0IFBST0JFX1RJTUVPVVQ6IER1cmF0aW9uID0gRHVyYXRpb246OmZyb21fbWlsbGlzKDFfNTAwKTsKY29uc3QgQ09NUExFVEVEX0pPQl9UVExfTVM6IGk2NCA9IDUgKiA2MCAqIDEwMDA7CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTG9jYWxOZXR3b3JrIHsKICAgIHB1YiBpbnRlcmZhY2VfbmFtZTogU3RyaW5nLAogICAgcHViIGFkZHJlc3M6IFN0cmluZywKICAgIHB1YiBjaWRyOiBTdHJpbmcsCiAgICBwdWIgc2Nhbl9jaWRyOiBTdHJpbmcsCiAgICBwdWIgYnJvYWRjYXN0X2FkZHJlc3M6IFN0cmluZywKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBTZXJpYWxpemUpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IERpc2NvdmVyZWREZXZpY2UgewogICAgcHViIGlwOiBTdHJpbmcsCiAgICBwdWIgbWFjOiBTdHJpbmcsCiAgICBwdWIgaW50ZXJmYWNlX25hbWU6IFN0cmluZywKICAgIHB1YiBicm9hZGNhc3RfYWRkcmVzczogU3RyaW5nLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGlzY292ZXJ5UHJvZ3Jlc3MgewogICAgcHViIHNjYW5uZWRfaG9zdHM6IHVzaXplLAogICAgcHViIHRvdGFsX2hvc3RzOiB1c2l6ZSwKICAgIHB1YiBmb3VuZF9kZXZpY2VzOiB1c2l6ZSwKICAgIHB1YiBjdXJyZW50X2hvc3Q6IFN0cmluZywKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBTZXJpYWxpemUpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IERpc2NvdmVyeVJlc3VsdCB7CiAgICBwdWIgZGV2aWNlczogVmVjPERpc2NvdmVyZWREZXZpY2U+LAogICAgcHViIG5ldHdvcmtzOiBWZWM8TG9jYWxOZXR3b3JrPiwKICAgIHB1YiBkdXJhdGlvbl9tczogdTY0LAogICAgcHViIG1ldGhvZDogJidzdGF0aWMgc3RyLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGlzY292ZXJ5Sm9iU3RhdHVzIHsKICAgIHB1YiBqb2JfaWQ6IFN0cmluZywKICAgIHB1YiBzdGF0ZTogU3RyaW5nLAogICAgcHViIGNyZWF0ZWRfYXQ6IGk2NCwKICAgIHB1YiB1cGRhdGVkX2F0OiBpNjQsCiAgICBwdWIgbmV0d29ya3M6IFZlYzxMb2NhbE5ldHdvcms+LAogICAgcHViIHByb2dyZXNzOiBEaXNjb3ZlcnlQcm9ncmVzcywKICAgIHB1YiBkZXZpY2VzOiBWZWM8RGlzY292ZXJlZERldmljZT4sCiAgICBwdWIgbmV4dF9jdXJzb3I6IHVzaXplLAogICAgcHViIHJlc3VsdDogT3B0aW9uPERpc2NvdmVyeVJlc3VsdD4sCiAgICBwdWIgZXJyb3I6IE9wdGlvbjxTdHJpbmc+LAp9CgpwdWIoc3VwZXIpIGVudW0gRGlzY292ZXJ5Sm9iRXJyb3IgewogICAgQmFkUmVxdWVzdChTdHJpbmcpLAogICAgQ29uZmxpY3QoU3RyaW5nKSwKICAgIEludGVybmFsKFN0cmluZyksCn0KCiNbZGVyaXZlKENsb25lKV0Kc3RydWN0IFByb2JlVGFyZ2V0IHsKICAgIGlwOiBJcHY0QWRkciwKICAgIGludGVyZmFjZV9uYW1lOiBTdHJpbmcsCiAgICBicm9hZGNhc3RfYWRkcmVzczogU3RyaW5nLAp9CgpzdHJ1Y3QgRGlzY292ZXJ5Sm9iIHsKICAgIGlkOiBTdHJpbmcsCiAgICBjYW5jZWw6IEFyYzxBdG9taWNCb29sPiwKICAgIGNyZWF0ZWRfYXQ6IGk2NCwKICAgIHVwZGF0ZWRfYXQ6IGk2NCwKICAgIHN0YXRlOiBTdHJpbmcsCiAgICBuZXR3b3JrczogVmVjPExvY2FsTmV0d29yaz4sCiAgICBwcm9ncmVzczogRGlzY292ZXJ5UHJvZ3Jlc3MsCiAgICBkZXZpY2VzOiBWZWM8RGlzY292ZXJlZERldmljZT4sCiAgICByZXN1bHQ6IE9wdGlvbjxEaXNjb3ZlcnlSZXN1bHQ+LAogICAgZXJyb3I6IE9wdGlvbjxTdHJpbmc+LAp9Cgp0eXBlIERpc2NvdmVyeUpvYkhhbmRsZSA9IEFyYzxNdXRleDxEaXNjb3ZlcnlKb2I+PjsKCnN0YXRpYyBESVNDT1ZFUllfSk9CUzogT25jZUxvY2s8TXV0ZXg8SGFzaE1hcDxTdHJpbmcsIERpc2NvdmVyeUpvYkhhbmRsZT4+PiA9IE9uY2VMb2NrOjpuZXcoKTsKCnB1YihzdXBlcikgYXN5bmMgZm4gc3RhcnRfZGlzY292ZXJ5X2pvYigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICB0YXJnZXRfY2lkcnM6IFZlYzxTdHJpbmc+LAopIC0+IFJlc3VsdDxEaXNjb3ZlcnlKb2JTdGF0dXMsIERpc2NvdmVyeUpvYkVycm9yPiB7CiAgICBsZXQgbmV0d29ya3MgPSB0b2tpbzo6dGFzazo6c3Bhd25fYmxvY2tpbmcobW92ZSB8fCBuZXR3b3Jrc19mb3Jfc2NhbigmdGFyZ2V0X2NpZHJzKSkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IERpc2NvdmVyeUpvYkVycm9yOjpJbnRlcm5hbChmb3JtYXQhKCJwcmVwYXJlIExBTiBzY2FuOiB7ZXJyb3J9IikpKT8KICAgICAgICAubWFwX2VycihEaXNjb3ZlcnlKb2JFcnJvcjo6QmFkUmVxdWVzdCk/OwogICAgbGV0IHRhcmdldHMgPSBwcm9iZV90YXJnZXRzKCZuZXR3b3JrcykubWFwX2VycihEaXNjb3ZlcnlKb2JFcnJvcjo6QmFkUmVxdWVzdCk/OwogICAgbGV0IG5vdyA9IHRpbWVfdXRpbHM6Om5vd19tcygpOwogICAgbGV0IGlkID0gVXVpZDo6bmV3X3Y0KCkudG9fc3RyaW5nKCk7CiAgICBsZXQgam9iID0gQXJjOjpuZXcoTXV0ZXg6Om5ldyhEaXNjb3ZlcnlKb2IgewogICAgICAgIGlkOiBpZC5jbG9uZSgpLAogICAgICAgIGNhbmNlbDogQXJjOjpuZXcoQXRvbWljQm9vbDo6bmV3KGZhbHNlKSksCiAgICAgICAgY3JlYXRlZF9hdDogbm93LAogICAgICAgIHVwZGF0ZWRfYXQ6IG5vdywKICAgICAgICBzdGF0ZTogInF1ZXVlZCIudG9fc3RyaW5nKCksCiAgICAgICAgbmV0d29ya3MsCiAgICAgICAgcHJvZ3Jlc3M6IERpc2NvdmVyeVByb2dyZXNzIHsKICAgICAgICAgICAgc2Nhbm5lZF9ob3N0czogMCwKICAgICAgICAgICAgdG90YWxfaG9zdHM6IHRhcmdldHMubGVuKCksCiAgICAgICAgICAgIGZvdW5kX2RldmljZXM6IDAsCiAgICAgICAgICAgIGN1cnJlbnRfaG9zdDogdGFyZ2V0cwogICAgICAgICAgICAgICAgLmZpcnN0KCkKICAgICAgICAgICAgICAgIC5tYXAofHRhcmdldHwgdGFyZ2V0LmlwLnRvX3N0cmluZygpKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCksCiAgICAgICAgfSwKICAgICAgICBkZXZpY2VzOiBWZWM6Om5ldygpLAogICAgICAgIHJlc3VsdDogTm9uZSwKICAgICAgICBlcnJvcjogTm9uZSwKICAgIH0pKTsKCiAgICB7CiAgICAgICAgbGV0IG11dCBqb2JzID0gZGlzY292ZXJ5X2pvYnNfZ3VhcmQoKTsKICAgICAgICByZXRhaW5fcmVjZW50X2pvYnMoJm11dCBqb2JzLCBub3cpOwogICAgICAgIGlmIGpvYnMudmFsdWVzKCkuYW55KHxqb2J8IHsKICAgICAgICAgICAgbGV0IGpvYiA9IGpvYl9ndWFyZChqb2IpOwogICAgICAgICAgICBtYXRjaGVzIShqb2Iuc3RhdGUuYXNfc3RyKCksICJxdWV1ZWQiIHwgInJ1bm5pbmciKQogICAgICAgIH0pIHsKICAgICAgICAgICAgcmV0dXJuIEVycihEaXNjb3ZlcnlKb2JFcnJvcjo6Q29uZmxpY3QoCiAgICAgICAgICAgICAgICAiQSBMQU4gZGlzY292ZXJ5IHNjYW4gaXMgYWxyZWFkeSBydW5uaW5nIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgKSk7CiAgICAgICAgfQogICAgICAgIGpvYnMuaW5zZXJ0KGlkLCBqb2IuY2xvbmUoKSk7CiAgICB9CgogICAgbGV0IGluaXRpYWwgPSBqb2Jfc3RhdHVzKCZqb2IsIDApOwogICAgc3RhdGUuc3Bhd25fYmFja2dyb3VuZCgid29sLWRpc2NvdmVyeS1qb2IiLCBydW5fZGlzY292ZXJ5X2pvYihqb2IsIHRhcmdldHMpKTsKICAgIE9rKGluaXRpYWwpCn0KCnB1YihzdXBlcikgZm4gZ2V0X2Rpc2NvdmVyeV9qb2IoaWQ6ICZzdHIsIGN1cnNvcjogdXNpemUpIC0+IE9wdGlvbjxEaXNjb3ZlcnlKb2JTdGF0dXM+IHsKICAgIGxldCBub3cgPSB0aW1lX3V0aWxzOjpub3dfbXMoKTsKICAgIGxldCBtdXQgam9icyA9IGRpc2NvdmVyeV9qb2JzX2d1YXJkKCk7CiAgICByZXRhaW5fcmVjZW50X2pvYnMoJm11dCBqb2JzLCBub3cpOwogICAgam9icy5nZXQoaWQpLm1hcCh8am9ifCBqb2Jfc3RhdHVzKGpvYiwgY3Vyc29yKSkKfQoKcHViKHN1cGVyKSBmbiBjYW5jZWxfZGlzY292ZXJ5X2pvYihpZDogJnN0cikgLT4gT3B0aW9uPERpc2NvdmVyeUpvYlN0YXR1cz4gewogICAgbGV0IGpvYiA9IHsKICAgICAgICBsZXQgam9icyA9IGRpc2NvdmVyeV9qb2JzX2d1YXJkKCk7CiAgICAgICAgam9icy5nZXQoaWQpLmNsb25lZCgpCiAgICB9PzsKICAgIHsKICAgICAgICBsZXQgbXV0IGpvYiA9IGpvYl9ndWFyZCgmam9iKTsKICAgICAgICBqb2IuY2FuY2VsLnN0b3JlKHRydWUsIE9yZGVyaW5nOjpTZXFDc3QpOwogICAgICAgIGlmIG1hdGNoZXMhKGpvYi5zdGF0ZS5hc19zdHIoKSwgInF1ZXVlZCIgfCAicnVubmluZyIpIHsKICAgICAgICAgICAgam9iLnN0YXRlID0gImNhbmNlbGxlZCIudG9fc3RyaW5nKCk7CiAgICAgICAgICAgIGpvYi51cGRhdGVkX2F0ID0gdGltZV91dGlsczo6bm93X21zKCk7CiAgICAgICAgfQogICAgfQogICAgU29tZShqb2Jfc3RhdHVzKCZqb2IsIDApKQp9CgpwdWIoc3VwZXIpIGZuIGxvY2FsX2Jyb2FkY2FzdF9hZGRyZXNzZXMoKSAtPiBWZWM8SXB2NEFkZHI+IHsKICAgIGxldCBtdXQgYWRkcmVzc2VzID0gY29ubmVjdGVkX25ldHdvcmtzKCkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5maWx0ZXJfbWFwKHxuZXR3b3JrfCBuZXR3b3JrLmJyb2FkY2FzdF9hZGRyZXNzLnBhcnNlKCkub2soKSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGFkZHJlc3Nlcy5wdXNoKElwdjRBZGRyOjpCUk9BRENBU1QpOwogICAgYWRkcmVzc2VzLnNvcnRfdW5zdGFibGUoKTsKICAgIGFkZHJlc3Nlcy5kZWR1cCgpOwogICAgYWRkcmVzc2VzCn0KCmFzeW5jIGZuIHJ1bl9kaXNjb3Zlcnlfam9iKGpvYjogRGlzY292ZXJ5Sm9iSGFuZGxlLCB0YXJnZXRzOiBWZWM8UHJvYmVUYXJnZXQ+KSB7CiAgICBsZXQgc3RhcnRlZCA9IHRpbWU6Okluc3RhbnQ6Om5vdygpOwogICAgdXBkYXRlX2pvYigmam9iLCB8am9ifCB7CiAgICAgICAgaWYgam9iLmNhbmNlbC5sb2FkKE9yZGVyaW5nOjpTZXFDc3QpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgIH0KICAgICAgICBqb2Iuc3RhdGUgPSAicnVubmluZyIudG9fc3RyaW5nKCk7CiAgICAgICAgdHJ1ZQogICAgfSk7CiAgICBpZiBqb2JfZ3VhcmQoJmpvYikuc3RhdGUgIT0gInJ1bm5pbmciIHsKICAgICAgICByZXR1cm47CiAgICB9CgogICAgbGV0IGNhbmNlbCA9IGpvYl9ndWFyZCgmam9iKS5jYW5jZWwuY2xvbmUoKTsKICAgIGxldCBtdXQgb25saW5lID0gVmVjOjpuZXcoKTsKICAgIGxldCBtdXQgcHJvYmVfZXJyb3IgPSBOb25lOwogICAgbGV0IG11dCBqb2JzID0gSm9pblNldDo6bmV3KCk7CiAgICBsZXQgbXV0IHRhcmdldHMgPSB0YXJnZXRzLmludG9faXRlcigpOwoKICAgIGxvb3AgewogICAgICAgIGlmIGNhbmNlbC5sb2FkKE9yZGVyaW5nOjpTZXFDc3QpIHsKICAgICAgICAgICAgam9icy5hYm9ydF9hbGwoKTsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICB3aGlsZSBqb2JzLmxlbigpIDwgTUFYX0NPTkNVUlJFTlRfUFJPQkVTIHsKICAgICAgICAgICAgbGV0IFNvbWUodGFyZ2V0KSA9IHRhcmdldHMubmV4dCgpIGVsc2UgewogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIH07CiAgICAgICAgICAgIGpvYnMuc3Bhd24oYXN5bmMgbW92ZSB7CiAgICAgICAgICAgICAgICBsZXQgcmVzdWx0ID0gcHJvYmVfaG9zdCh0YXJnZXQuaXApLmF3YWl0OwogICAgICAgICAgICAgICAgKHRhcmdldCwgcmVzdWx0KQogICAgICAgICAgICB9KTsKICAgICAgICB9CiAgICAgICAgbGV0IFNvbWUocmVzdWx0KSA9IGpvYnMuam9pbl9uZXh0KCkuYXdhaXQgZWxzZSB7CiAgICAgICAgICAgIGJyZWFrOwogICAgICAgIH07CiAgICAgICAgbWF0Y2ggcmVzdWx0IHsKICAgICAgICAgICAgT2soKHRhcmdldCwgT2sodHJ1ZSkpKSA9PiB7CiAgICAgICAgICAgICAgICBvbmxpbmUucHVzaCh0YXJnZXQuY2xvbmUoKSk7CiAgICAgICAgICAgICAgICBpZiBsZXQgU29tZShkZXZpY2UpID0gcmVzb2x2ZV9kaXNjb3ZlcmVkX2RldmljZSgmdGFyZ2V0KS5hd2FpdCB7CiAgICAgICAgICAgICAgICAgICAgcHVzaF9kZXZpY2UoJmpvYiwgZGV2aWNlKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHVwZGF0ZV9wcm9ncmVzcygmam9iLCAmdGFyZ2V0LmlwLnRvX3N0cmluZygpKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBPaygodGFyZ2V0LCBPayhmYWxzZSkpKSA9PiB1cGRhdGVfcHJvZ3Jlc3MoJmpvYiwgJnRhcmdldC5pcC50b19zdHJpbmcoKSksCiAgICAgICAgICAgIE9rKCh0YXJnZXQsIEVycihlcnJvcikpKSA9PiB7CiAgICAgICAgICAgICAgICBwcm9iZV9lcnJvciA9IFNvbWUoZXJyb3IpOwogICAgICAgICAgICAgICAgdXBkYXRlX3Byb2dyZXNzKCZqb2IsICZ0YXJnZXQuaXAudG9fc3RyaW5nKCkpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIEVycihfKSA9PiB1cGRhdGVfcHJvZ3Jlc3MoJmpvYiwgIiIpLAogICAgICAgIH0KICAgIH0KCiAgICBpZiBjYW5jZWwubG9hZChPcmRlcmluZzo6U2VxQ3N0KSB7CiAgICAgICAgcmV0dXJuOwogICAgfQogICAgbGV0IGhhZF9vbmxpbmVfZGV2aWNlcyA9ICFvbmxpbmUuaXNfZW1wdHkoKTsKICAgIGxldCBuZWlnaGJvcnMgPSByZWFkX25laWdoYm9yX3RhYmxlKCkuYXdhaXQ7CiAgICBmb3IgdGFyZ2V0IGluIG9ubGluZSB7CiAgICAgICAgaWYgbGV0IFNvbWUobWFjKSA9IG5laWdoYm9ycy5nZXQoJnRhcmdldC5pcCkgewogICAgICAgICAgICBwdXNoX2RldmljZSgKICAgICAgICAgICAgICAgICZqb2IsCiAgICAgICAgICAgICAgICBEaXNjb3ZlcmVkRGV2aWNlIHsKICAgICAgICAgICAgICAgICAgICBpcDogdGFyZ2V0LmlwLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgICAgIG1hYzogbWFjLmNsb25lKCksCiAgICAgICAgICAgICAgICAgICAgaW50ZXJmYWNlX25hbWU6IHRhcmdldC5pbnRlcmZhY2VfbmFtZSwKICAgICAgICAgICAgICAgICAgICBicm9hZGNhc3RfYWRkcmVzczogdGFyZ2V0LmJyb2FkY2FzdF9hZGRyZXNzLAogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICB9CgogICAgaWYgIWhhZF9vbmxpbmVfZGV2aWNlcyAmJiBsZXQgU29tZShlcnJvcikgPSBwcm9iZV9lcnJvciB7CiAgICAgICAgdXBkYXRlX2pvYigmam9iLCB8am9ifCB7CiAgICAgICAgICAgIGpvYi5zdGF0ZSA9ICJmYWlsZWQiLnRvX3N0cmluZygpOwogICAgICAgICAgICBqb2IuZXJyb3IgPSBTb21lKGVycm9yKTsKICAgICAgICB9KTsKICAgICAgICByZXR1cm47CiAgICB9CgogICAgdXBkYXRlX2pvYigmam9iLCB8am9ifCB7CiAgICAgICAgbGV0IG11dCBkZXZpY2VzID0gam9iLmRldmljZXMuY2xvbmUoKTsKICAgICAgICBkZXZpY2VzLnNvcnRfYnlfa2V5KHxkZXZpY2V8IGRldmljZS5pcC5wYXJzZTo6PElwdjRBZGRyPigpLm9rKCkpOwogICAgICAgIGpvYi5yZXN1bHQgPSBTb21lKERpc2NvdmVyeVJlc3VsdCB7CiAgICAgICAgICAgIGRldmljZXMsCiAgICAgICAgICAgIG5ldHdvcmtzOiBqb2IubmV0d29ya3MuY2xvbmUoKSwKICAgICAgICAgICAgZHVyYXRpb25fbXM6IHN0YXJ0ZWQuZWxhcHNlZCgpLmFzX21pbGxpcygpLnRyeV9pbnRvKCkudW53cmFwX29yKHU2NDo6TUFYKSwKICAgICAgICAgICAgbWV0aG9kOiAiaWNtcC1uZWlnaGJvciIsCiAgICAgICAgfSk7CiAgICAgICAgam9iLnN0YXRlID0gImNvbXBsZXRlZCIudG9fc3RyaW5nKCk7CiAgICB9KTsKfQoKYXN5bmMgZm4gcmVzb2x2ZV9kaXNjb3ZlcmVkX2RldmljZSh0YXJnZXQ6ICZQcm9iZVRhcmdldCkgLT4gT3B0aW9uPERpc2NvdmVyZWREZXZpY2U+IHsKICAgIGxldCBuZWlnaGJvcnMgPSByZWFkX25laWdoYm9yX3RhYmxlKCkuYXdhaXQ7CiAgICBuZWlnaGJvcnMuZ2V0KCZ0YXJnZXQuaXApLm1hcCh8bWFjfCBEaXNjb3ZlcmVkRGV2aWNlIHsKICAgICAgICBpcDogdGFyZ2V0LmlwLnRvX3N0cmluZygpLAogICAgICAgIG1hYzogbWFjLmNsb25lKCksCiAgICAgICAgaW50ZXJmYWNlX25hbWU6IHRhcmdldC5pbnRlcmZhY2VfbmFtZS5jbG9uZSgpLAogICAgICAgIGJyb2FkY2FzdF9hZGRyZXNzOiB0YXJnZXQuYnJvYWRjYXN0X2FkZHJlc3MuY2xvbmUoKSwKICAgIH0pCn0KCmZuIHB1c2hfZGV2aWNlKGpvYjogJkRpc2NvdmVyeUpvYkhhbmRsZSwgZGV2aWNlOiBEaXNjb3ZlcmVkRGV2aWNlKSB7CiAgICB1cGRhdGVfam9iKGpvYiwgfGpvYnwgewogICAgICAgIGlmIGpvYi5kZXZpY2VzLml0ZXIoKS5hbnkofGN1cnJlbnR8IGN1cnJlbnQubWFjID09IGRldmljZS5tYWMpIHsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBqb2IuZGV2aWNlcy5wdXNoKGRldmljZSk7CiAgICAgICAgam9iLnByb2dyZXNzLmZvdW5kX2RldmljZXMgPSBqb2IuZGV2aWNlcy5sZW4oKTsKICAgIH0pOwp9CgpmbiB1cGRhdGVfcHJvZ3Jlc3Moam9iOiAmRGlzY292ZXJ5Sm9iSGFuZGxlLCBjdXJyZW50X2hvc3Q6ICZzdHIpIHsKICAgIHVwZGF0ZV9qb2Ioam9iLCB8am9ifCB7CiAgICAgICAgam9iLnByb2dyZXNzLnNjYW5uZWRfaG9zdHMgPSBqb2IucHJvZ3Jlc3Muc2Nhbm5lZF9ob3N0cy5zYXR1cmF0aW5nX2FkZCgxKTsKICAgICAgICBqb2IucHJvZ3Jlc3MuY3VycmVudF9ob3N0ID0gY3VycmVudF9ob3N0LnRvX3N0cmluZygpOwogICAgfSk7Cn0KCmZuIHVwZGF0ZV9qb2I8VD4oam9iOiAmRGlzY292ZXJ5Sm9iSGFuZGxlLCB1cGRhdGU6IGltcGwgRm5PbmNlKCZtdXQgRGlzY292ZXJ5Sm9iKSAtPiBUKSAtPiBUIHsKICAgIGxldCBtdXQgam9iID0gam9iX2d1YXJkKGpvYik7CiAgICBsZXQgcmVzdWx0ID0gdXBkYXRlKCZtdXQgam9iKTsKICAgIGpvYi51cGRhdGVkX2F0ID0gdGltZV91dGlsczo6bm93X21zKCk7CiAgICByZXN1bHQKfQoKZm4gam9iX3N0YXR1cyhqb2I6ICZEaXNjb3ZlcnlKb2JIYW5kbGUsIGN1cnNvcjogdXNpemUpIC0+IERpc2NvdmVyeUpvYlN0YXR1cyB7CiAgICBsZXQgam9iID0gam9iX2d1YXJkKGpvYik7CiAgICBsZXQgY3Vyc29yID0gY3Vyc29yLm1pbihqb2IuZGV2aWNlcy5sZW4oKSk7CiAgICBEaXNjb3ZlcnlKb2JTdGF0dXMgewogICAgICAgIGpvYl9pZDogam9iLmlkLmNsb25lKCksCiAgICAgICAgc3RhdGU6IGpvYi5zdGF0ZS5jbG9uZSgpLAogICAgICAgIGNyZWF0ZWRfYXQ6IGpvYi5jcmVhdGVkX2F0LAogICAgICAgIHVwZGF0ZWRfYXQ6IGpvYi51cGRhdGVkX2F0LAogICAgICAgIG5ldHdvcmtzOiBqb2IubmV0d29ya3MuY2xvbmUoKSwKICAgICAgICBwcm9ncmVzczogam9iLnByb2dyZXNzLmNsb25lKCksCiAgICAgICAgZGV2aWNlczogam9iLmRldmljZXNbY3Vyc29yLi5dLnRvX3ZlYygpLAogICAgICAgIG5leHRfY3Vyc29yOiBqb2IuZGV2aWNlcy5sZW4oKSwKICAgICAgICByZXN1bHQ6IGpvYi5yZXN1bHQuY2xvbmUoKSwKICAgICAgICBlcnJvcjogam9iLmVycm9yLmNsb25lKCksCiAgICB9Cn0KCmZuIGRpc2NvdmVyeV9qb2JzKCkgLT4gJidzdGF0aWMgTXV0ZXg8SGFzaE1hcDxTdHJpbmcsIERpc2NvdmVyeUpvYkhhbmRsZT4+IHsKICAgIERJU0NPVkVSWV9KT0JTLmdldF9vcl9pbml0KHx8IE11dGV4OjpuZXcoSGFzaE1hcDo6bmV3KCkpKQp9CgpmbiBkaXNjb3Zlcnlfam9ic19ndWFyZCgpIC0+IE11dGV4R3VhcmQ8J3N0YXRpYywgSGFzaE1hcDxTdHJpbmcsIERpc2NvdmVyeUpvYkhhbmRsZT4+IHsKICAgIGRpc2NvdmVyeV9qb2JzKCkKICAgICAgICAubG9jaygpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHN0ZDo6c3luYzo6UG9pc29uRXJyb3I6OmludG9faW5uZXIpCn0KCmZuIGpvYl9ndWFyZChqb2I6ICZEaXNjb3ZlcnlKb2JIYW5kbGUpIC0+IE11dGV4R3VhcmQ8J18sIERpc2NvdmVyeUpvYj4gewogICAgam9iLmxvY2soKQogICAgICAgIC51bndyYXBfb3JfZWxzZShzdGQ6OnN5bmM6OlBvaXNvbkVycm9yOjppbnRvX2lubmVyKQp9CgpmbiByZXRhaW5fcmVjZW50X2pvYnMoam9iczogJm11dCBIYXNoTWFwPFN0cmluZywgRGlzY292ZXJ5Sm9iSGFuZGxlPiwgbm93OiBpNjQpIHsKICAgIGpvYnMucmV0YWluKHxfLCBqb2J8IHsKICAgICAgICBsZXQgam9iID0gam9iX2d1YXJkKGpvYik7CiAgICAgICAgbWF0Y2hlcyEoam9iLnN0YXRlLmFzX3N0cigpLCAicXVldWVkIiB8ICJydW5uaW5nIikKICAgICAgICAgICAgfHwgbm93LnNhdHVyYXRpbmdfc3ViKGpvYi51cGRhdGVkX2F0KSA8PSBDT01QTEVURURfSk9CX1RUTF9NUwogICAgfSk7Cn0KCmZuIG5ldHdvcmtzX2Zvcl9zY2FuKHRhcmdldF9jaWRyczogJltTdHJpbmddKSAtPiBSZXN1bHQ8VmVjPExvY2FsTmV0d29yaz4sIFN0cmluZz4gewogICAgbGV0IGNvbm5lY3RlZCA9IGNvbm5lY3RlZF9uZXR3b3JrcygpPzsKICAgIGxldCByZXF1ZXN0ZWQgPSB0YXJnZXRfY2lkcnMKICAgICAgICAuaXRlcigpCiAgICAgICAgLm1hcCh8dmFsdWV8IHZhbHVlLnRyaW0oKSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBpZiByZXF1ZXN0ZWQuaXNfZW1wdHkoKSB7CiAgICAgICAgaWYgY29ubmVjdGVkLmlzX2VtcHR5KCkgewogICAgICAgICAgICByZXR1cm4gRXJyKCJObyB1c2FibGUgbG9jYWwgSVB2NCBuZXR3b3JrIHdhcyBkZXRlY3RlZCIudG9fc3RyaW5nKCkpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gT2soY29ubmVjdGVkKTsKICAgIH0KICAgIGlmIHJlcXVlc3RlZC5sZW4oKSA+IE1BWF9ORVRXT1JLUyB7CiAgICAgICAgcmV0dXJuIEVycihmb3JtYXQhKCJBdCBtb3N0IHtNQVhfTkVUV09SS1N9IHNjYW4gbmV0d29ya3MgYXJlIGFsbG93ZWQiKSk7CiAgICB9CgogICAgbGV0IG11dCBuZXR3b3JrcyA9IFZlYzo6bmV3KCk7CiAgICBsZXQgbXV0IHNlZW4gPSBIYXNoU2V0OjpuZXcoKTsKICAgIGZvciB2YWx1ZSBpbiByZXF1ZXN0ZWQgewogICAgICAgIGxldCBwYXJzZWQgPSB2YWx1ZQogICAgICAgICAgICAucGFyc2U6OjxJcHY0TmV0PigpCiAgICAgICAgICAgIC5tYXBfZXJyKHxffCBmb3JtYXQhKCJTY2FuIG5ldHdvcmsgJ3t2YWx1ZX0nIG11c3QgYmUgYW4gSVB2NCBDSURSIikpPzsKICAgICAgICBpZiBwYXJzZWQucHJlZml4X2xlbigpID4gMzAgewogICAgICAgICAgICByZXR1cm4gRXJyKGZvcm1hdCEoCiAgICAgICAgICAgICAgICAiU2NhbiBuZXR3b3JrICd7fScgbXVzdCBjb250YWluIGF0IGxlYXN0IHR3byB1c2FibGUgaG9zdHMiLAogICAgICAgICAgICAgICAgcGFyc2VkCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgICAgICBpZiAhaXNfbGFuX2FkZHJlc3MocGFyc2VkLm5ldHdvcmsoKSkgewogICAgICAgICAgICByZXR1cm4gRXJyKGZvcm1hdCEoCiAgICAgICAgICAgICAgICAiU2NhbiBuZXR3b3JrICd7fScgbXVzdCBiZSBhIHByaXZhdGUgb3Igc2hhcmVkIExBTiByYW5nZSIsCiAgICAgICAgICAgICAgICBwYXJzZWQKICAgICAgICAgICAgKSk7CiAgICAgICAgfQogICAgICAgIGxldCBub3JtYWxpemVkID0gcGFyc2VkLnRvX3N0cmluZygpOwogICAgICAgIGlmICFzZWVuLmluc2VydChub3JtYWxpemVkLmNsb25lKCkpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBtYXRjaGVkID0gY29ubmVjdGVkLml0ZXIoKS5maW5kKHxuZXR3b3JrfCB7CiAgICAgICAgICAgIG5ldHdvcmsKICAgICAgICAgICAgICAgIC5hZGRyZXNzCiAgICAgICAgICAgICAgICAucGFyc2U6OjxJcHY0QWRkcj4oKQogICAgICAgICAgICAgICAgLm9rKCkKICAgICAgICAgICAgICAgIC5pc19zb21lX2FuZCh8YWRkcmVzc3wgcGFyc2VkLmNvbnRhaW5zKCZhZGRyZXNzKSkKICAgICAgICB9KTsKICAgICAgICBuZXR3b3Jrcy5wdXNoKExvY2FsTmV0d29yayB7CiAgICAgICAgICAgIGludGVyZmFjZV9uYW1lOiBtYXRjaGVkCiAgICAgICAgICAgICAgICAubWFwKHxuZXR3b3JrfCBuZXR3b3JrLmludGVyZmFjZV9uYW1lLmNsb25lKCkpCiAgICAgICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofHwgImN1c3RvbSIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICBhZGRyZXNzOiBtYXRjaGVkCiAgICAgICAgICAgICAgICAubWFwKHxuZXR3b3JrfCBuZXR3b3JrLmFkZHJlc3MuY2xvbmUoKSkKICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICAgICBjaWRyOiBtYXRjaGVkCiAgICAgICAgICAgICAgICAubWFwKHxuZXR3b3JrfCBuZXR3b3JrLmNpZHIuY2xvbmUoKSkKICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCBub3JtYWxpemVkLmNsb25lKCkpLAogICAgICAgICAgICBzY2FuX2NpZHI6IG5vcm1hbGl6ZWQsCiAgICAgICAgICAgIGJyb2FkY2FzdF9hZGRyZXNzOiBwYXJzZWQuYnJvYWRjYXN0KCkudG9fc3RyaW5nKCksCiAgICAgICAgfSk7CiAgICB9CiAgICBPayhuZXR3b3JrcykKfQoKZm4gY29ubmVjdGVkX25ldHdvcmtzKCkgLT4gUmVzdWx0PFZlYzxMb2NhbE5ldHdvcms+LCBTdHJpbmc+IHsKICAgIGxldCBtdXQgbmV0d29ya3MgPSBWZWM6Om5ldygpOwogICAgbGV0IGludGVyZmFjZXMgPSBnZXRfaWZfYWRkcnMoKS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIGZvciBpbnRlcmZhY2UgaW4gaW50ZXJmYWNlcyB7CiAgICAgICAgbGV0IElmQWRkcjo6VjQoYWRkcmVzcykgPSBpbnRlcmZhY2UuYWRkciBlbHNlIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfTsKICAgICAgICBpZiBhZGRyZXNzLmlwLmlzX2xvb3BiYWNrKCkKICAgICAgICAgICAgfHwgYWRkcmVzcy5pcC5pc191bnNwZWNpZmllZCgpCiAgICAgICAgICAgIHx8IGFkZHJlc3MuaXAuaXNfbXVsdGljYXN0KCkKICAgICAgICAgICAgfHwgYWRkcmVzcy5pcC5pc19saW5rX2xvY2FsKCkKICAgICAgICAgICAgfHwgIWlzX2xhbl9hZGRyZXNzKGFkZHJlc3MuaXApCiAgICAgICAgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgbGV0IFNvbWUocHJlZml4KSA9IG5ldG1hc2tfcHJlZml4KGFkZHJlc3MubmV0bWFzaykgZWxzZSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH07CiAgICAgICAgaWYgcHJlZml4ID4gMzAgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgbGV0IG1hc2sgPSB1MzI6OmZyb20oYWRkcmVzcy5uZXRtYXNrKTsKICAgICAgICBsZXQgaXAgPSB1MzI6OmZyb20oYWRkcmVzcy5pcCk7CiAgICAgICAgbGV0IG5ldHdvcmsgPSBJcHY0QWRkcjo6ZnJvbShpcCAmIG1hc2spOwogICAgICAgIGxldCBicm9hZGNhc3QgPSBhZGRyZXNzCiAgICAgICAgICAgIC5icm9hZGNhc3QKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IElwdjRBZGRyOjpmcm9tKChpcCAmIG1hc2spIHwgIW1hc2spKTsKICAgICAgICBsZXQgc2Nhbl9wcmVmaXggPSBwcmVmaXgubWF4KDI0KTsKICAgICAgICBsZXQgc2Nhbl9tYXNrID0gcHJlZml4X21hc2soc2Nhbl9wcmVmaXgpOwogICAgICAgIGxldCBzY2FuX25ldHdvcmsgPSBJcHY0QWRkcjo6ZnJvbShpcCAmIHNjYW5fbWFzayk7CiAgICAgICAgbGV0IHZhbHVlID0gTG9jYWxOZXR3b3JrIHsKICAgICAgICAgICAgaW50ZXJmYWNlX25hbWU6IGludGVyZmFjZS5uYW1lLAogICAgICAgICAgICBhZGRyZXNzOiBhZGRyZXNzLmlwLnRvX3N0cmluZygpLAogICAgICAgICAgICBjaWRyOiBmb3JtYXQhKCJ7bmV0d29ya30ve3ByZWZpeH0iKSwKICAgICAgICAgICAgc2Nhbl9jaWRyOiBmb3JtYXQhKCJ7c2Nhbl9uZXR3b3JrfS97c2Nhbl9wcmVmaXh9IiksCiAgICAgICAgICAgIGJyb2FkY2FzdF9hZGRyZXNzOiBicm9hZGNhc3QudG9fc3RyaW5nKCksCiAgICAgICAgfTsKICAgICAgICBpZiAhbmV0d29ya3MuaXRlcigpLmFueSh8Y3VycmVudDogJkxvY2FsTmV0d29ya3wgewogICAgICAgICAgICBjdXJyZW50LmludGVyZmFjZV9uYW1lID09IHZhbHVlLmludGVyZmFjZV9uYW1lICYmIGN1cnJlbnQuY2lkciA9PSB2YWx1ZS5jaWRyCiAgICAgICAgfSkgewogICAgICAgICAgICBuZXR3b3Jrcy5wdXNoKHZhbHVlKTsKICAgICAgICB9CiAgICAgICAgaWYgbmV0d29ya3MubGVuKCkgPT0gTUFYX05FVFdPUktTIHsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgfQogICAgfQogICAgT2sobmV0d29ya3MpCn0KCmZuIHByb2JlX3RhcmdldHMobmV0d29ya3M6ICZbTG9jYWxOZXR3b3JrXSkgLT4gUmVzdWx0PFZlYzxQcm9iZVRhcmdldD4sIFN0cmluZz4gewogICAgbGV0IG11dCB0YXJnZXRzID0gVmVjOjpuZXcoKTsKICAgIGxldCBtdXQgc2VlbiA9IEhhc2hTZXQ6Om5ldygpOwogICAgbGV0IGxvY2FsX2FkZHJlc3NlcyA9IG5ldHdvcmtzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXJfbWFwKHxuZXR3b3JrfCBuZXR3b3JrLmFkZHJlc3MucGFyc2U6OjxJcHY0QWRkcj4oKS5vaygpKQogICAgICAgIC5jb2xsZWN0Ojo8SGFzaFNldDxfPj4oKTsKICAgIGZvciBuZXR3b3JrIGluIG5ldHdvcmtzIHsKICAgICAgICBsZXQgcGFyc2VkID0gbmV0d29yawogICAgICAgICAgICAuc2Nhbl9jaWRyCiAgICAgICAgICAgIC5wYXJzZTo6PElwdjROZXQ+KCkKICAgICAgICAgICAgLm1hcF9lcnIofF98IGZvcm1hdCEoIkludmFsaWQgc2NhbiBuZXR3b3JrICd7fSciLCBuZXR3b3JrLnNjYW5fY2lkcikpPzsKICAgICAgICBsZXQgZmlyc3QgPSB1MzI6OmZyb20ocGFyc2VkLm5ldHdvcmsoKSk7CiAgICAgICAgbGV0IGxhc3QgPSB1MzI6OmZyb20ocGFyc2VkLmJyb2FkY2FzdCgpKTsKICAgICAgICBmb3IgcmF3IGluIChmaXJzdCArIDEpLi5sYXN0IHsKICAgICAgICAgICAgbGV0IGlwID0gSXB2NEFkZHI6OmZyb20ocmF3KTsKICAgICAgICAgICAgaWYgbG9jYWxfYWRkcmVzc2VzLmNvbnRhaW5zKCZpcCkgfHwgIXNlZW4uaW5zZXJ0KGlwKSB7CiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgfQogICAgICAgICAgICB0YXJnZXRzLnB1c2goUHJvYmVUYXJnZXQgewogICAgICAgICAgICAgICAgaXAsCiAgICAgICAgICAgICAgICBpbnRlcmZhY2VfbmFtZTogbmV0d29yay5pbnRlcmZhY2VfbmFtZS5jbG9uZSgpLAogICAgICAgICAgICAgICAgYnJvYWRjYXN0X2FkZHJlc3M6IG5ldHdvcmsuYnJvYWRjYXN0X2FkZHJlc3MuY2xvbmUoKSwKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIGlmIHRhcmdldHMubGVuKCkgPiBNQVhfU0NBTl9IT1NUUyB7CiAgICAgICAgICAgICAgICByZXR1cm4gRXJyKGZvcm1hdCEoCiAgICAgICAgICAgICAgICAgICAgIlRoZSBzZWxlY3RlZCBuZXR3b3JrcyBleGNlZWQgdGhlIHtNQVhfU0NBTl9IT1NUU30taG9zdCBzY2FuIGxpbWl0IgogICAgICAgICAgICAgICAgKSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICBpZiB0YXJnZXRzLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBFcnIoIlRoZSBzZWxlY3RlZCBuZXR3b3JrcyBjb250YWluIG5vIHNjYW4gdGFyZ2V0cyIudG9fc3RyaW5nKCkpOwogICAgfQogICAgT2sodGFyZ2V0cykKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBwcm9iZV9ob3N0KGlwOiBJcHY0QWRkcikgLT4gUmVzdWx0PGJvb2wsIFN0cmluZz4gewogICAgbGV0IG11dCBjb21tYW5kID0gQ29tbWFuZDo6bmV3KCJwaW5nIik7CiAgICBjb21tYW5kLmtpbGxfb25fZHJvcCh0cnVlKTsKICAgIGNvbW1hbmQuc3Rkb3V0KFN0ZGlvOjpudWxsKCkpLnN0ZGVycihTdGRpbzo6bnVsbCgpKTsKICAgICNbY2ZnKHRhcmdldF9vcyA9ICJ3aW5kb3dzIildCiAgICBjb21tYW5kLmFyZ3MoWyItbiIsICIxIiwgIi13IiwgIjEwMDAiLCAmaXAudG9fc3RyaW5nKCldKTsKICAgICNbY2ZnKHRhcmdldF9vcyA9ICJtYWNvcyIpXQogICAgY29tbWFuZC5hcmdzKFsiLW4iLCAiLWMiLCAiMSIsICItVyIsICIxMDAwIiwgJmlwLnRvX3N0cmluZygpXSk7CiAgICAjW2NmZyhhbGwodW5peCwgbm90KHRhcmdldF9vcyA9ICJtYWNvcyIpKSldCiAgICBjb21tYW5kLmFyZ3MoWyItbiIsICItYyIsICIxIiwgIi1XIiwgIjEiLCAmaXAudG9fc3RyaW5nKCldKTsKICAgICNbY2ZnKG5vdChhbnkodW5peCwgdGFyZ2V0X29zID0gIndpbmRvd3MiKSkpXQogICAgY29tbWFuZC5hcmcoaXAudG9fc3RyaW5nKCkpOwoKICAgIG1hdGNoIHRpbWU6OnRpbWVvdXQoUFJPQkVfVElNRU9VVCwgY29tbWFuZC5zdGF0dXMoKSkuYXdhaXQgewogICAgICAgIE9rKE9rKHN0YXR1cykpID0+IE9rKHN0YXR1cy5zdWNjZXNzKCkpLAogICAgICAgIE9rKEVycihlcnJvcikpID0+IEVycihmb3JtYXQhKCJzdGFydCBJQ01QIGRpc2NvdmVyeSBwcm9iZToge2Vycm9yfSIpKSwKICAgICAgICBFcnIoXykgPT4gT2soZmFsc2UpLAogICAgfQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHJlYWRfbmVpZ2hib3JfdGFibGUoKSAtPiBIYXNoTWFwPElwdjRBZGRyLCBTdHJpbmc+IHsKICAgIHJlYWRfbmVpZ2hib3JfdGFibGVfY2hlY2tlZCgpLmF3YWl0LnVud3JhcF9vcl9kZWZhdWx0KCkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiByZWFkX25laWdoYm9yX3RhYmxlX2NoZWNrZWQoKSAtPiBSZXN1bHQ8SGFzaE1hcDxJcHY0QWRkciwgU3RyaW5nPiwgU3RyaW5nPiB7CiAgICAjW2NmZyh0YXJnZXRfb3MgPSAibGludXgiKV0KICAgIGlmIGxldCBPayhjb250ZW50KSA9IHRva2lvOjpmczo6cmVhZF90b19zdHJpbmcoIi9wcm9jL25ldC9hcnAiKS5hd2FpdCB7CiAgICAgICAgbGV0IHBhcnNlZCA9IHBhcnNlX25laWdoYm9yX3RhYmxlKCZjb250ZW50KTsKICAgICAgICBpZiAhcGFyc2VkLmlzX2VtcHR5KCkgewogICAgICAgICAgICByZXR1cm4gT2socGFyc2VkKTsKICAgICAgICB9CiAgICB9CgogICAgbGV0IG11dCBjb21tYW5kID0gaWYgY2ZnISh0YXJnZXRfb3MgPSAid2luZG93cyIpIHsKICAgICAgICBsZXQgbXV0IGNvbW1hbmQgPSBDb21tYW5kOjpuZXcoImFycCIpOwogICAgICAgIGNvbW1hbmQuYXJnKCItYSIpOwogICAgICAgIGNvbW1hbmQKICAgIH0gZWxzZSBpZiBjZmchKHRhcmdldF9vcyA9ICJtYWNvcyIpIHsKICAgICAgICBsZXQgbXV0IGNvbW1hbmQgPSBDb21tYW5kOjpuZXcoImFycCIpOwogICAgICAgIGNvbW1hbmQuYXJncyhbIi1hIiwgIi1uIl0pOwogICAgICAgIGNvbW1hbmQKICAgIH0gZWxzZSB7CiAgICAgICAgbGV0IG11dCBjb21tYW5kID0gQ29tbWFuZDo6bmV3KCJpcCIpOwogICAgICAgIGNvbW1hbmQuYXJncyhbIm5laWdoIiwgInNob3ciXSk7CiAgICAgICAgY29tbWFuZAogICAgfTsKICAgIGNvbW1hbmQua2lsbF9vbl9kcm9wKHRydWUpOwogICAgbWF0Y2ggdGltZTo6dGltZW91dChEdXJhdGlvbjo6ZnJvbV9zZWNzKDIpLCBjb21tYW5kLm91dHB1dCgpKS5hd2FpdCB7CiAgICAgICAgT2soT2sob3V0cHV0KSkgaWYgb3V0cHV0LnN0YXR1cy5zdWNjZXNzKCkgPT4gT2socGFyc2VfbmVpZ2hib3JfdGFibGUoCiAgICAgICAgICAgICZTdHJpbmc6OmZyb21fdXRmOF9sb3NzeSgmb3V0cHV0LnN0ZG91dCksCiAgICAgICAgKSksCiAgICAgICAgT2soT2sob3V0cHV0KSkgPT4gRXJyKGZvcm1hdCEoCiAgICAgICAgICAgICJuZWlnaGJvciB0YWJsZSBjb21tYW5kIGV4aXRlZCB3aXRoIHN0YXR1cyB7fSIsCiAgICAgICAgICAgIG91dHB1dC5zdGF0dXMKICAgICAgICApKSwKICAgICAgICBPayhFcnIoZXJyb3IpKSA9PiBFcnIoZm9ybWF0ISgic3RhcnQgbmVpZ2hib3IgdGFibGUgY29tbWFuZDoge2Vycm9yfSIpKSwKICAgICAgICBFcnIoXykgPT4gRXJyKCJuZWlnaGJvciB0YWJsZSBjb21tYW5kIHRpbWVkIG91dCIudG9fc3RyaW5nKCkpLAogICAgfQp9CgpmbiBwYXJzZV9uZWlnaGJvcl90YWJsZShjb250ZW50OiAmc3RyKSAtPiBIYXNoTWFwPElwdjRBZGRyLCBTdHJpbmc+IHsKICAgIGxldCBtdXQgbmVpZ2hib3JzID0gSGFzaE1hcDo6bmV3KCk7CiAgICBmb3IgbGluZSBpbiBjb250ZW50LmxpbmVzKCkgewogICAgICAgIGxldCBmaWVsZHMgPSBsaW5lCiAgICAgICAgICAgIC5zcGxpdCh8Y2hhcmFjdGVyOiBjaGFyfCB7CiAgICAgICAgICAgICAgICBjaGFyYWN0ZXIuaXNfYXNjaWlfd2hpdGVzcGFjZSgpIHx8IG1hdGNoZXMhKGNoYXJhY3RlciwgJygnIHwgJyknKQogICAgICAgICAgICB9KQogICAgICAgICAgICAuZmlsdGVyKHxmaWVsZHwgIWZpZWxkLmlzX2VtcHR5KCkpCiAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgICAgIGxldCBTb21lKGlwKSA9IGZpZWxkcwogICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgIC5maW5kX21hcCh8ZmllbGR8IGZpZWxkLnBhcnNlOjo8SXB2NEFkZHI+KCkub2soKSkKICAgICAgICBlbHNlIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfTsKICAgICAgICBsZXQgU29tZShtYWMpID0gZmllbGRzCiAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgLmZpbmRfbWFwKHxmaWVsZHwgZmllbGQucGFyc2U6OjxNYWNBZGRyZXNzPigpLm9rKCkpCiAgICAgICAgZWxzZSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH07CiAgICAgICAgbmVpZ2hib3JzLmluc2VydChpcCwgbWFjLnRvX3N0cmluZygpKTsKICAgIH0KICAgIG5laWdoYm9ycwp9CgpmbiBuZXRtYXNrX3ByZWZpeChuZXRtYXNrOiBJcHY0QWRkcikgLT4gT3B0aW9uPHU4PiB7CiAgICBsZXQgdmFsdWUgPSB1MzI6OmZyb20obmV0bWFzayk7CiAgICBsZXQgcHJlZml4ID0gdmFsdWUuY291bnRfb25lcygpIGFzIHU4OwogICAgKHZhbHVlID09IHByZWZpeF9tYXNrKHByZWZpeCkpLnRoZW5fc29tZShwcmVmaXgpCn0KCmZuIHByZWZpeF9tYXNrKHByZWZpeDogdTgpIC0+IHUzMiB7CiAgICBpZiBwcmVmaXggPT0gMCB7CiAgICAgICAgMAogICAgfSBlbHNlIHsKICAgICAgICB1MzI6Ok1BWCA8PCAoMzIgLSBwcmVmaXgpCiAgICB9Cn0KCmZuIGlzX2xhbl9hZGRyZXNzKGFkZHJlc3M6IElwdjRBZGRyKSAtPiBib29sIHsKICAgIGxldCBvY3RldHMgPSBhZGRyZXNzLm9jdGV0cygpOwogICAgYWRkcmVzcy5pc19wcml2YXRlKCkgfHwgKG9jdGV0c1swXSA9PSAxMDAgJiYgKDY0Li49MTI3KS5jb250YWlucygmb2N0ZXRzWzFdKSkKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CgogICAgI1t0ZXN0XQogICAgZm4gdmFsaWRhdGVzX2NvbnRpZ3VvdXNfbmV0bWFza3MoKSB7CiAgICAgICAgYXNzZXJ0X2VxIShuZXRtYXNrX3ByZWZpeChJcHY0QWRkcjo6bmV3KDI1NSwgMjU1LCAyNTUsIDApKSwgU29tZSgyNCkpOwogICAgICAgIGFzc2VydF9lcSEobmV0bWFza19wcmVmaXgoSXB2NEFkZHI6Om5ldygyNTUsIDI1NSwgMjU0LCAwKSksIFNvbWUoMjMpKTsKICAgICAgICBhc3NlcnRfZXEhKG5ldG1hc2tfcHJlZml4KElwdjRBZGRyOjpuZXcoMjU1LCAwLCAyNTUsIDApKSwgTm9uZSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gbGltaXRzX2Rpc2NvdmVyeV90b19wcml2YXRlX2FuZF9zaGFyZWRfbGFuX3JhbmdlcygpIHsKICAgICAgICBhc3NlcnQhKGlzX2xhbl9hZGRyZXNzKElwdjRBZGRyOjpuZXcoMTkyLCAxNjgsIDMxLCA5OCkpKTsKICAgICAgICBhc3NlcnQhKGlzX2xhbl9hZGRyZXNzKElwdjRBZGRyOjpuZXcoMTAwLCA2NCwgMCwgMSkpKTsKICAgICAgICBhc3NlcnQhKCFpc19sYW5fYWRkcmVzcyhJcHY0QWRkcjo6bmV3KDIwMywgMCwgMTEzLCAxMCkpKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBhY2NlcHRzX2N1c3RvbV9jaWRyc19hbmRfcHJlc2VydmVzX2F1dG9tYXRpY19mYWxsYmFjaygpIHsKICAgICAgICBsZXQgY3VzdG9tID0gbmV0d29ya3NfZm9yX3NjYW4oJlsiMTkyLjE2OC44OC4wLzI0Ii50b19zdHJpbmcoKV0pLnVud3JhcCgpOwogICAgICAgIGFzc2VydF9lcSEoY3VzdG9tLmxlbigpLCAxKTsKICAgICAgICBhc3NlcnRfZXEhKGN1c3RvbVswXS5zY2FuX2NpZHIsICIxOTIuMTY4Ljg4LjAvMjQiKTsKICAgICAgICBhc3NlcnRfZXEhKGN1c3RvbVswXS5icm9hZGNhc3RfYWRkcmVzcywgIjE5Mi4xNjguODguMjU1Iik7CgogICAgICAgIGxldCB0YXJnZXRzID0gcHJvYmVfdGFyZ2V0cygmY3VzdG9tKS51bndyYXAoKTsKICAgICAgICBhc3NlcnRfZXEhKHRhcmdldHMubGVuKCksIDI1NCk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gcmVqZWN0c19wdWJsaWNfYW5kX292ZXJzaXplZF9jdXN0b21fc2NhbnMoKSB7CiAgICAgICAgYXNzZXJ0IShuZXR3b3Jrc19mb3Jfc2NhbigmWyIyMDMuMC4xMTMuMC8yNCIudG9fc3RyaW5nKCldKS5pc19lcnIoKSk7CiAgICAgICAgbGV0IG5ldHdvcmtzID0gbmV0d29ya3NfZm9yX3NjYW4oJlsiMTAuMC4wLjAvMTkiLnRvX3N0cmluZygpXSkudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0IShwcm9iZV90YXJnZXRzKCZuZXR3b3JrcykuaXNfZXJyKCkpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGRpc2NvdmVyeV9qb2JfY3Vyc29yX3JldHVybnNfb25seV9uZXdfZGV2aWNlcygpIHsKICAgICAgICBsZXQgbm93ID0gdGltZV91dGlsczo6bm93X21zKCk7CiAgICAgICAgbGV0IGpvYiA9IEFyYzo6bmV3KE11dGV4OjpuZXcoRGlzY292ZXJ5Sm9iIHsKICAgICAgICAgICAgaWQ6ICJqb2ItMSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGNhbmNlbDogQXJjOjpuZXcoQXRvbWljQm9vbDo6bmV3KGZhbHNlKSksCiAgICAgICAgICAgIGNyZWF0ZWRfYXQ6IG5vdywKICAgICAgICAgICAgdXBkYXRlZF9hdDogbm93LAogICAgICAgICAgICBzdGF0ZTogInJ1bm5pbmciLnRvX3N0cmluZygpLAogICAgICAgICAgICBuZXR3b3JrczogVmVjOjpuZXcoKSwKICAgICAgICAgICAgcHJvZ3Jlc3M6IERpc2NvdmVyeVByb2dyZXNzIHsKICAgICAgICAgICAgICAgIHNjYW5uZWRfaG9zdHM6IDAsCiAgICAgICAgICAgICAgICB0b3RhbF9ob3N0czogMiwKICAgICAgICAgICAgICAgIGZvdW5kX2RldmljZXM6IDAsCiAgICAgICAgICAgICAgICBjdXJyZW50X2hvc3Q6IFN0cmluZzo6bmV3KCksCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIGRldmljZXM6IFZlYzo6bmV3KCksCiAgICAgICAgICAgIHJlc3VsdDogTm9uZSwKICAgICAgICAgICAgZXJyb3I6IE5vbmUsCiAgICAgICAgfSkpOwogICAgICAgIGZvciBpbmRleCBpbiAxLi49MiB7CiAgICAgICAgICAgIHB1c2hfZGV2aWNlKAogICAgICAgICAgICAgICAgJmpvYiwKICAgICAgICAgICAgICAgIERpc2NvdmVyZWREZXZpY2UgewogICAgICAgICAgICAgICAgICAgIGlwOiBmb3JtYXQhKCIxOTIuMTY4LjEue2luZGV4fSIpLAogICAgICAgICAgICAgICAgICAgIG1hYzogZm9ybWF0ISgiMDI6MDA6MDA6MDA6MDA6e2luZGV4OjAyWH0iKSwKICAgICAgICAgICAgICAgICAgICBpbnRlcmZhY2VfbmFtZTogImV0aDAiLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgICAgIGJyb2FkY2FzdF9hZGRyZXNzOiAiMTkyLjE2OC4xLjI1NSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICApOwogICAgICAgIH0KCiAgICAgICAgbGV0IHN0YXR1cyA9IGpvYl9zdGF0dXMoJmpvYiwgMSk7CiAgICAgICAgYXNzZXJ0X2VxIShzdGF0dXMuZGV2aWNlcy5sZW4oKSwgMSk7CiAgICAgICAgYXNzZXJ0X2VxIShzdGF0dXMuZGV2aWNlc1swXS5pcCwgIjE5Mi4xNjguMS4yIik7CiAgICAgICAgYXNzZXJ0X2VxIShzdGF0dXMubmV4dF9jdXJzb3IsIDIpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHBhcnNlc19saW51eF9hbmRfYnNkX25laWdoYm9yX2Zvcm1hdHMoKSB7CiAgICAgICAgbGV0IHZhbHVlcyA9IHBhcnNlX25laWdoYm9yX3RhYmxlKAogICAgICAgICAgICAiSVAgYWRkcmVzcyBIVyB0eXBlIEZsYWdzIEhXIGFkZHJlc3MgTWFzayBEZXZpY2VcblwKICAgICAgICAgICAgIDE5Mi4xNjguMzEuMTAgMHgxIDB4MiBhYTpiYjpjYzpkZDplZTowMSAqIGV0aDBcblwKICAgICAgICAgICAgID8gKDE5Mi4xNjguMzEuMTEpIGF0IGFhLWJiLWNjLWRkLWVlLTAyIG9uIGVuMCIsCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICB2YWx1ZXNbJklwdjRBZGRyOjpuZXcoMTkyLCAxNjgsIDMxLCAxMCldLAogICAgICAgICAgICAiQUE6QkI6Q0M6REQ6RUU6MDEiCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICB2YWx1ZXNbJklwdjRBZGRyOjpuZXcoMTkyLCAxNjgsIDMxLCAxMSldLAogICAgICAgICAgICAiQUE6QkI6Q0M6REQ6RUU6MDIiCiAgICAgICAgKTsKICAgIH0KfQo=
+use fn_knock_wol_protocol::MacAddress;
+use get_if_addrs::{IfAddr, get_if_addrs};
+use ipnet::Ipv4Net;
+use serde::Serialize;
+use std::{
+    collections::{HashMap, HashSet},
+    net::Ipv4Addr,
+    process::Stdio,
+    sync::{
+        Arc, Mutex, MutexGuard, OnceLock,
+        atomic::{AtomicBool, Ordering},
+    },
+    time::Duration,
+};
+use tokio::{process::Command, task::JoinSet, time};
+use uuid::Uuid;
+
+use crate::{state::AppState, time_utils};
+
+const MAX_NETWORKS: usize = 16;
+const MAX_SCAN_HOSTS: usize = 4096;
+const MAX_CONCURRENT_PROBES: usize = 256;
+const PROBE_TIMEOUT: Duration = Duration::from_millis(1_500);
+const COMPLETED_JOB_TTL_MS: i64 = 5 * 60 * 1000;
+
+#[derive(Clone, Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct LocalNetwork {
+    pub interface_name: String,
+    pub address: String,
+    pub cidr: String,
+    pub scan_cidr: String,
+    pub broadcast_address: String,
+}
+
+#[derive(Clone, Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DiscoveredDevice {
+    pub ip: String,
+    pub mac: String,
+    pub interface_name: String,
+    pub broadcast_address: String,
+}
+
+#[derive(Clone, Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DiscoveryProgress {
+    pub scanned_hosts: usize,
+    pub total_hosts: usize,
+    pub found_devices: usize,
+    pub current_host: String,
+}
+
+#[derive(Clone, Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DiscoveryResult {
+    pub devices: Vec<DiscoveredDevice>,
+    pub networks: Vec<LocalNetwork>,
+    pub duration_ms: u64,
+    pub method: &'static str,
+}
+
+#[derive(Clone, Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DiscoveryJobStatus {
+    pub job_id: String,
+    pub state: String,
+    pub created_at: i64,
+    pub updated_at: i64,
+    pub networks: Vec<LocalNetwork>,
+    pub progress: DiscoveryProgress,
+    pub devices: Vec<DiscoveredDevice>,
+    pub next_cursor: usize,
+    pub result: Option<DiscoveryResult>,
+    pub error: Option<String>,
+}
+
+pub(super) enum DiscoveryJobError {
+    BadRequest(String),
+    Conflict(String),
+    Internal(String),
+}
+
+#[derive(Clone)]
+struct ProbeTarget {
+    ip: Ipv4Addr,
+    interface_name: String,
+    broadcast_address: String,
+}
+
+struct DiscoveryJob {
+    id: String,
+    cancel: Arc<AtomicBool>,
+    created_at: i64,
+    updated_at: i64,
+    state: String,
+    networks: Vec<LocalNetwork>,
+    progress: DiscoveryProgress,
+    devices: Vec<DiscoveredDevice>,
+    result: Option<DiscoveryResult>,
+    error: Option<String>,
+}
+
+type DiscoveryJobHandle = Arc<Mutex<DiscoveryJob>>;
+
+static DISCOVERY_JOBS: OnceLock<Mutex<HashMap<String, DiscoveryJobHandle>>> = OnceLock::new();
+
+pub(super) async fn start_discovery_job(
+    state: &AppState,
+    target_cidrs: Vec<String>,
+) -> Result<DiscoveryJobStatus, DiscoveryJobError> {
+    let networks = tokio::task::spawn_blocking(move || networks_for_scan(&target_cidrs))
+        .await
+        .map_err(|error| DiscoveryJobError::Internal(format!("prepare LAN scan: {error}")))?
+        .map_err(DiscoveryJobError::BadRequest)?;
+    let targets = probe_targets(&networks).map_err(DiscoveryJobError::BadRequest)?;
+    let now = time_utils::now_ms();
+    let id = Uuid::new_v4().to_string();
+    let job = Arc::new(Mutex::new(DiscoveryJob {
+        id: id.clone(),
+        cancel: Arc::new(AtomicBool::new(false)),
+        created_at: now,
+        updated_at: now,
+        state: "queued".to_string(),
+        networks,
+        progress: DiscoveryProgress {
+            scanned_hosts: 0,
+            total_hosts: targets.len(),
+            found_devices: 0,
+            current_host: targets
+                .first()
+                .map(|target| target.ip.to_string())
+                .unwrap_or_default(),
+        },
+        devices: Vec::new(),
+        result: None,
+        error: None,
+    }));
+
+    {
+        let mut jobs = discovery_jobs_guard();
+        retain_recent_jobs(&mut jobs, now);
+        if jobs.values().any(|job| {
+            let job = job_guard(job);
+            matches!(job.state.as_str(), "queued" | "running")
+        }) {
+            return Err(DiscoveryJobError::Conflict(
+                "A LAN discovery scan is already running".to_string(),
+            ));
+        }
+        jobs.insert(id, job.clone());
+    }
+
+    let initial = job_status(&job, 0);
+    state.spawn_background("wol-discovery-job", run_discovery_job(job, targets));
+    Ok(initial)
+}
+
+pub(super) fn get_discovery_job(id: &str, cursor: usize) -> Option<DiscoveryJobStatus> {
+    let now = time_utils::now_ms();
+    let mut jobs = discovery_jobs_guard();
+    retain_recent_jobs(&mut jobs, now);
+    jobs.get(id).map(|job| job_status(job, cursor))
+}
+
+pub(super) fn cancel_discovery_job(id: &str) -> Option<DiscoveryJobStatus> {
+    let job = {
+        let jobs = discovery_jobs_guard();
+        jobs.get(id).cloned()
+    }?;
+    {
+        let mut job = job_guard(&job);
+        job.cancel.store(true, Ordering::SeqCst);
+        if matches!(job.state.as_str(), "queued" | "running") {
+            job.state = "cancelled".to_string();
+            job.updated_at = time_utils::now_ms();
+        }
+    }
+    Some(job_status(&job, 0))
+}
+
+pub(super) fn local_broadcast_addresses() -> Vec<Ipv4Addr> {
+    let mut addresses = connected_networks()
+        .unwrap_or_default()
+        .into_iter()
+        .filter_map(|network| network.broadcast_address.parse().ok())
+        .collect::<Vec<_>>();
+    addresses.push(Ipv4Addr::BROADCAST);
+    addresses.sort_unstable();
+    addresses.dedup();
+    addresses
+}
+
+async fn run_discovery_job(job: DiscoveryJobHandle, targets: Vec<ProbeTarget>) {
+    let started = time::Instant::now();
+    update_job(&job, |job| {
+        if job.cancel.load(Ordering::SeqCst) {
+            return false;
+        }
+        job.state = "running".to_string();
+        true
+    });
+    if job_guard(&job).state != "running" {
+        return;
+    }
+
+    let cancel = job_guard(&job).cancel.clone();
+    let mut online = Vec::new();
+    let mut probe_error = None;
+    let mut jobs = JoinSet::new();
+    let mut targets = targets.into_iter();
+
+    loop {
+        if cancel.load(Ordering::SeqCst) {
+            jobs.abort_all();
+            return;
+        }
+        while jobs.len() < MAX_CONCURRENT_PROBES {
+            let Some(target) = targets.next() else {
+                break;
+            };
+            jobs.spawn(async move {
+                let result = probe_host(target.ip).await;
+                (target, result)
+            });
+        }
+        let Some(result) = jobs.join_next().await else {
+            break;
+        };
+        match result {
+            Ok((target, Ok(true))) => {
+                online.push(target.clone());
+                if let Some(device) = resolve_discovered_device(&target).await {
+                    push_device(&job, device);
+                }
+                update_progress(&job, &target.ip.to_string());
+            }
+            Ok((target, Ok(false))) => update_progress(&job, &target.ip.to_string()),
+            Ok((target, Err(error))) => {
+                probe_error = Some(error);
+                update_progress(&job, &target.ip.to_string());
+            }
+            Err(_) => update_progress(&job, ""),
+        }
+    }
+
+    if cancel.load(Ordering::SeqCst) {
+        return;
+    }
+    let had_online_devices = !online.is_empty();
+    let neighbors = read_neighbor_table().await;
+    for target in online {
+        if let Some(mac) = neighbors.get(&target.ip) {
+            push_device(
+                &job,
+                DiscoveredDevice {
+                    ip: target.ip.to_string(),
+                    mac: mac.clone(),
+                    interface_name: target.interface_name,
+                    broadcast_address: target.broadcast_address,
+                },
+            );
+        }
+    }
+
+    if !had_online_devices && let Some(error) = probe_error {
+        update_job(&job, |job| {
+            job.state = "failed".to_string();
+            job.error = Some(error);
+        });
+        return;
+    }
+
+    update_job(&job, |job| {
+        let mut devices = job.devices.clone();
+        devices.sort_by_key(|device| device.ip.parse::<Ipv4Addr>().ok());
+        job.result = Some(DiscoveryResult {
+            devices,
+            networks: job.networks.clone(),
+            duration_ms: started.elapsed().as_millis().try_into().unwrap_or(u64::MAX),
+            method: "icmp-neighbor",
+        });
+        job.state = "completed".to_string();
+    });
+}
+
+async fn resolve_discovered_device(target: &ProbeTarget) -> Option<DiscoveredDevice> {
+    let neighbors = read_neighbor_table().await;
+    neighbors.get(&target.ip).map(|mac| DiscoveredDevice {
+        ip: target.ip.to_string(),
+        mac: mac.clone(),
+        interface_name: target.interface_name.clone(),
+        broadcast_address: target.broadcast_address.clone(),
+    })
+}
+
+fn push_device(job: &DiscoveryJobHandle, device: DiscoveredDevice) {
+    update_job(job, |job| {
+        if job.devices.iter().any(|current| current.mac == device.mac) {
+            return;
+        }
+        job.devices.push(device);
+        job.progress.found_devices = job.devices.len();
+    });
+}
+
+fn update_progress(job: &DiscoveryJobHandle, current_host: &str) {
+    update_job(job, |job| {
+        job.progress.scanned_hosts = job.progress.scanned_hosts.saturating_add(1);
+        job.progress.current_host = current_host.to_string();
+    });
+}
+
+fn update_job<T>(job: &DiscoveryJobHandle, update: impl FnOnce(&mut DiscoveryJob) -> T) -> T {
+    let mut job = job_guard(job);
+    let result = update(&mut job);
+    job.updated_at = time_utils::now_ms();
+    result
+}
+
+fn job_status(job: &DiscoveryJobHandle, cursor: usize) -> DiscoveryJobStatus {
+    let job = job_guard(job);
+    let cursor = cursor.min(job.devices.len());
+    DiscoveryJobStatus {
+        job_id: job.id.clone(),
+        state: job.state.clone(),
+        created_at: job.created_at,
+        updated_at: job.updated_at,
+        networks: job.networks.clone(),
+        progress: job.progress.clone(),
+        devices: job.devices[cursor..].to_vec(),
+        next_cursor: job.devices.len(),
+        result: job.result.clone(),
+        error: job.error.clone(),
+    }
+}
+
+fn discovery_jobs() -> &'static Mutex<HashMap<String, DiscoveryJobHandle>> {
+    DISCOVERY_JOBS.get_or_init(|| Mutex::new(HashMap::new()))
+}
+
+fn discovery_jobs_guard() -> MutexGuard<'static, HashMap<String, DiscoveryJobHandle>> {
+    discovery_jobs()
+        .lock()
+        .unwrap_or_else(std::sync::PoisonError::into_inner)
+}
+
+fn job_guard(job: &DiscoveryJobHandle) -> MutexGuard<'_, DiscoveryJob> {
+    job.lock()
+        .unwrap_or_else(std::sync::PoisonError::into_inner)
+}
+
+fn retain_recent_jobs(jobs: &mut HashMap<String, DiscoveryJobHandle>, now: i64) {
+    jobs.retain(|_, job| {
+        let job = job_guard(job);
+        matches!(job.state.as_str(), "queued" | "running")
+            || now.saturating_sub(job.updated_at) <= COMPLETED_JOB_TTL_MS
+    });
+}
+
+fn networks_for_scan(target_cidrs: &[String]) -> Result<Vec<LocalNetwork>, String> {
+    let connected = connected_networks()?;
+    let requested = target_cidrs
+        .iter()
+        .map(|value| value.trim())
+        .filter(|value| !value.is_empty())
+        .collect::<Vec<_>>();
+    if requested.is_empty() {
+        if connected.is_empty() {
+            return Err("No usable local IPv4 network was detected".to_string());
+        }
+        return Ok(connected);
+    }
+    if requested.len() > MAX_NETWORKS {
+        return Err(format!("At most {MAX_NETWORKS} scan networks are allowed"));
+    }
+
+    let mut networks = Vec::new();
+    let mut seen = HashSet::new();
+    for value in requested {
+        let parsed = value
+            .parse::<Ipv4Net>()
+            .map_err(|_| format!("Scan network '{value}' must be an IPv4 CIDR"))?;
+        if parsed.prefix_len() > 30 {
+            return Err(format!(
+                "Scan network '{}' must contain at least two usable hosts",
+                parsed
+            ));
+        }
+        if !is_lan_address(parsed.network()) {
+            return Err(format!(
+                "Scan network '{}' must be a private or shared LAN range",
+                parsed
+            ));
+        }
+        let normalized = parsed.to_string();
+        if !seen.insert(normalized.clone()) {
+            continue;
+        }
+        let matched = connected.iter().find(|network| {
+            network
+                .address
+                .parse::<Ipv4Addr>()
+                .ok()
+                .is_some_and(|address| parsed.contains(&address))
+        });
+        networks.push(LocalNetwork {
+            interface_name: matched
+                .map(|network| network.interface_name.clone())
+                .unwrap_or_else(|| "custom".to_string()),
+            address: matched
+                .map(|network| network.address.clone())
+                .unwrap_or_default(),
+            cidr: matched
+                .map(|network| network.cidr.clone())
+                .unwrap_or_else(|| normalized.clone()),
+            scan_cidr: normalized,
+            broadcast_address: parsed.broadcast().to_string(),
+        });
+    }
+    Ok(networks)
+}
+
+fn connected_networks() -> Result<Vec<LocalNetwork>, String> {
+    let mut networks = Vec::new();
+    let interfaces = get_if_addrs().map_err(|error| error.to_string())?;
+    for interface in interfaces {
+        let IfAddr::V4(address) = interface.addr else {
+            continue;
+        };
+        if address.ip.is_loopback()
+            || address.ip.is_unspecified()
+            || address.ip.is_multicast()
+            || address.ip.is_link_local()
+            || !is_lan_address(address.ip)
+        {
+            continue;
+        }
+        let Some(prefix) = netmask_prefix(address.netmask) else {
+            continue;
+        };
+        if prefix > 30 {
+            continue;
+        }
+        let mask = u32::from(address.netmask);
+        let ip = u32::from(address.ip);
+        let network = Ipv4Addr::from(ip & mask);
+        let broadcast = address
+            .broadcast
+            .unwrap_or_else(|| Ipv4Addr::from((ip & mask) | !mask));
+        let scan_prefix = prefix.max(24);
+        let scan_mask = prefix_mask(scan_prefix);
+        let scan_network = Ipv4Addr::from(ip & scan_mask);
+        let value = LocalNetwork {
+            interface_name: interface.name,
+            address: address.ip.to_string(),
+            cidr: format!("{network}/{prefix}"),
+            scan_cidr: format!("{scan_network}/{scan_prefix}"),
+            broadcast_address: broadcast.to_string(),
+        };
+        if !networks.iter().any(|current: &LocalNetwork| {
+            current.interface_name == value.interface_name && current.cidr == value.cidr
+        }) {
+            networks.push(value);
+        }
+        if networks.len() == MAX_NETWORKS {
+            break;
+        }
+    }
+    Ok(networks)
+}
+
+fn probe_targets(networks: &[LocalNetwork]) -> Result<Vec<ProbeTarget>, String> {
+    let mut targets = Vec::new();
+    let mut seen = HashSet::new();
+    let local_addresses = networks
+        .iter()
+        .filter_map(|network| network.address.parse::<Ipv4Addr>().ok())
+        .collect::<HashSet<_>>();
+    for network in networks {
+        let parsed = network
+            .scan_cidr
+            .parse::<Ipv4Net>()
+            .map_err(|_| format!("Invalid scan network '{}'", network.scan_cidr))?;
+        let first = u32::from(parsed.network());
+        let last = u32::from(parsed.broadcast());
+        for raw in (first + 1)..last {
+            let ip = Ipv4Addr::from(raw);
+            if local_addresses.contains(&ip) || !seen.insert(ip) {
+                continue;
+            }
+            targets.push(ProbeTarget {
+                ip,
+                interface_name: network.interface_name.clone(),
+                broadcast_address: network.broadcast_address.clone(),
+            });
+            if targets.len() > MAX_SCAN_HOSTS {
+                return Err(format!(
+                    "The selected networks exceed the {MAX_SCAN_HOSTS}-host scan limit"
+                ));
+            }
+        }
+    }
+    if targets.is_empty() {
+        return Err("The selected networks contain no scan targets".to_string());
+    }
+    Ok(targets)
+}
+
+pub(super) async fn probe_host(ip: Ipv4Addr) -> Result<bool, String> {
+    let mut command = Command::new("ping");
+    command.kill_on_drop(true);
+    command.stdout(Stdio::null()).stderr(Stdio::null());
+    #[cfg(target_os = "windows")]
+    command.args(["-n", "1", "-w", "1000", &ip.to_string()]);
+    #[cfg(target_os = "macos")]
+    command.args(["-n", "-c", "1", "-W", "1000", &ip.to_string()]);
+    #[cfg(all(unix, not(target_os = "macos")))]
+    command.args(["-n", "-c", "1", "-W", "1", &ip.to_string()]);
+    #[cfg(not(any(unix, target_os = "windows")))]
+    command.arg(ip.to_string());
+
+    match time::timeout(PROBE_TIMEOUT, command.status()).await {
+        Ok(Ok(status)) => Ok(status.success()),
+        Ok(Err(error)) => Err(format!("start ICMP discovery probe: {error}")),
+        Err(_) => Ok(false),
+    }
+}
+
+pub(super) async fn read_neighbor_table() -> HashMap<Ipv4Addr, String> {
+    read_neighbor_table_checked().await.unwrap_or_default()
+}
+
+pub(super) async fn read_neighbor_table_checked() -> Result<HashMap<Ipv4Addr, String>, String> {
+    #[cfg(target_os = "linux")]
+    if let Ok(content) = tokio::fs::read_to_string("/proc/net/arp").await {
+        let parsed = parse_neighbor_table(&content);
+        if !parsed.is_empty() {
+            return Ok(parsed);
+        }
+    }
+
+    let mut command = if cfg!(target_os = "windows") {
+        let mut command = Command::new("arp");
+        command.arg("-a");
+        command
+    } else if cfg!(target_os = "macos") {
+        let mut command = Command::new("arp");
+        command.args(["-a", "-n"]);
+        command
+    } else {
+        let mut command = Command::new("ip");
+        command.args(["neigh", "show"]);
+        command
+    };
+    command.kill_on_drop(true);
+    match time::timeout(Duration::from_secs(2), command.output()).await {
+        Ok(Ok(output)) if output.status.success() => Ok(parse_neighbor_table(
+            &String::from_utf8_lossy(&output.stdout),
+        )),
+        Ok(Ok(output)) => Err(format!(
+            "neighbor table command exited with status {}",
+            output.status
+        )),
+        Ok(Err(error)) => Err(format!("start neighbor table command: {error}")),
+        Err(_) => Err("neighbor table command timed out".to_string()),
+    }
+}
+
+fn parse_neighbor_table(content: &str) -> HashMap<Ipv4Addr, String> {
+    let mut neighbors = HashMap::new();
+    for line in content.lines() {
+        let fields = line
+            .split(|character: char| {
+                character.is_ascii_whitespace() || matches!(character, '(' | ')')
+            })
+            .filter(|field| !field.is_empty())
+            .collect::<Vec<_>>();
+        let Some(ip) = fields
+            .iter()
+            .find_map(|field| field.parse::<Ipv4Addr>().ok())
+        else {
+            continue;
+        };
+        let Some(mac) = fields
+            .iter()
+            .find_map(|field| field.parse::<MacAddress>().ok())
+        else {
+            continue;
+        };
+        neighbors.insert(ip, mac.to_string());
+    }
+    neighbors
+}
+
+fn netmask_prefix(netmask: Ipv4Addr) -> Option<u8> {
+    let value = u32::from(netmask);
+    let prefix = value.count_ones() as u8;
+    (value == prefix_mask(prefix)).then_some(prefix)
+}
+
+fn prefix_mask(prefix: u8) -> u32 {
+    if prefix == 0 {
+        0
+    } else {
+        u32::MAX << (32 - prefix)
+    }
+}
+
+fn is_lan_address(address: Ipv4Addr) -> bool {
+    let octets = address.octets();
+    address.is_private() || (octets[0] == 100 && (64..=127).contains(&octets[1]))
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn validates_contiguous_netmasks() {
+        assert_eq!(netmask_prefix(Ipv4Addr::new(255, 255, 255, 0)), Some(24));
+        assert_eq!(netmask_prefix(Ipv4Addr::new(255, 255, 254, 0)), Some(23));
+        assert_eq!(netmask_prefix(Ipv4Addr::new(255, 0, 255, 0)), None);
+    }
+
+    #[test]
+    fn limits_discovery_to_private_and_shared_lan_ranges() {
+        assert!(is_lan_address(Ipv4Addr::new(192, 168, 31, 98)));
+        assert!(is_lan_address(Ipv4Addr::new(100, 64, 0, 1)));
+        assert!(!is_lan_address(Ipv4Addr::new(203, 0, 113, 10)));
+    }
+
+    #[test]
+    fn accepts_custom_cidrs_and_preserves_automatic_fallback() {
+        let custom = networks_for_scan(&["192.168.88.0/24".to_string()]).unwrap();
+        assert_eq!(custom.len(), 1);
+        assert_eq!(custom[0].scan_cidr, "192.168.88.0/24");
+        assert_eq!(custom[0].broadcast_address, "192.168.88.255");
+
+        let targets = probe_targets(&custom).unwrap();
+        assert_eq!(targets.len(), 254);
+    }
+
+    #[test]
+    fn rejects_public_and_oversized_custom_scans() {
+        assert!(networks_for_scan(&["203.0.113.0/24".to_string()]).is_err());
+        let networks = networks_for_scan(&["10.0.0.0/19".to_string()]).unwrap();
+        assert!(probe_targets(&networks).is_err());
+    }
+
+    #[test]
+    fn discovery_job_cursor_returns_only_new_devices() {
+        let now = time_utils::now_ms();
+        let job = Arc::new(Mutex::new(DiscoveryJob {
+            id: "job-1".to_string(),
+            cancel: Arc::new(AtomicBool::new(false)),
+            created_at: now,
+            updated_at: now,
+            state: "running".to_string(),
+            networks: Vec::new(),
+            progress: DiscoveryProgress {
+                scanned_hosts: 0,
+                total_hosts: 2,
+                found_devices: 0,
+                current_host: String::new(),
+            },
+            devices: Vec::new(),
+            result: None,
+            error: None,
+        }));
+        for index in 1..=2 {
+            push_device(
+                &job,
+                DiscoveredDevice {
+                    ip: format!("192.168.1.{index}"),
+                    mac: format!("02:00:00:00:00:{index:02X}"),
+                    interface_name: "eth0".to_string(),
+                    broadcast_address: "192.168.1.255".to_string(),
+                },
+            );
+        }
+
+        let status = job_status(&job, 1);
+        assert_eq!(status.devices.len(), 1);
+        assert_eq!(status.devices[0].ip, "192.168.1.2");
+        assert_eq!(status.next_cursor, 2);
+    }
+
+    #[test]
+    fn parses_linux_and_bsd_neighbor_formats() {
+        let values = parse_neighbor_table(
+            "IP address HW type Flags HW address Mask Device\n\
+             192.168.31.10 0x1 0x2 aa:bb:cc:dd:ee:01 * eth0\n\
+             ? (192.168.31.11) at aa-bb-cc-dd-ee-02 on en0",
+        );
+        assert_eq!(
+            values[&Ipv4Addr::new(192, 168, 31, 10)],
+            "AA:BB:CC:DD:EE:01"
+        );
+        assert_eq!(
+            values[&Ipv4Addr::new(192, 168, 31, 11)],
+            "AA:BB:CC:DD:EE:02"
+        );
+    }
+}

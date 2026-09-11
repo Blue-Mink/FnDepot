@@ -1,1 +1,124 @@
-aW1wb3J0IHsKICBpc1ZhbGlkQ0lEUiwKICBpc1ZhbGlkSVB2NEFkZHJlc3MsCiAgaXNWYWxpZElQdjZBZGRyZXNzLAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvY2lkciI7CmltcG9ydCB0eXBlIHsgQWR2YW5jZWRBdXRoT3BlcmF0b3IgfSBmcm9tICJAL3R5cGVzIjsKCmV4cG9ydCB0eXBlIFNvdXJjZU5ldHdvcmtJbnB1dEtpbmQgPSAiYWRkcmVzcyIgfCAiY2lkciI7CgpleHBvcnQgaW50ZXJmYWNlIFNvdXJjZU5ldHdvcmtWYWxpZGF0aW9uSXNzdWUgewogIGtpbmQ6IFNvdXJjZU5ldHdvcmtJbnB1dEtpbmQ7CiAgbGluZTogbnVtYmVyOwp9Cgpjb25zdCBpc1ZhbHVlU2VwYXJhdG9yID0gKHZhbHVlOiBzdHJpbmcpID0+CiAgdmFsdWUgPT09ICIsIiB8fCB2YWx1ZSA9PT0gIu+8jCIgfHwgdmFsdWUgPT09ICJcciIgfHwgdmFsdWUgPT09ICJcbiI7CgovKioKICogUGFyc2UgdGhlIGNvbXBhY3QsIENTVi1saWtlIHZhbHVlIGVkaXRvciB3aXRob3V0IGxvc2luZyBsaXRlcmFsIGNvbW1hcy4KICogVmFsdWVzIGNvbnRhaW5pbmcgc2VwYXJhdG9ycyBjYW4gYmUgd3JhcHBlZCBpbiBkb3VibGUgcXVvdGVzOyBkb3VibGVkCiAqIHF1b3RlcyBpbnNpZGUgYSBxdW90ZWQgdmFsdWUgYXJlIGRlY29kZWQgdG8gb25lIGxpdGVyYWwgcXVvdGUuCiAqLwpleHBvcnQgY29uc3QgcGFyc2VBZHZhbmNlZEF1dGhWYWx1ZUxpc3QgPSAoaW5wdXQ6IHN0cmluZyk6IHN0cmluZ1tdID0+IHsKICBjb25zdCB2YWx1ZXM6IHN0cmluZ1tdID0gW107CiAgbGV0IGJ1ZmZlciA9ICIiOwogIGxldCBpblF1b3RlcyA9IGZhbHNlOwogIGxldCBxdW90ZWQgPSBmYWxzZTsKICBsZXQgcXVvdGVDbG9zZWQgPSBmYWxzZTsKCiAgY29uc3QgY29tbWl0ID0gKCkgPT4gewogICAgY29uc3QgdmFsdWUgPSBxdW90ZWQgPyBidWZmZXIgOiBidWZmZXIudHJpbSgpOwogICAgaWYgKHZhbHVlLmxlbmd0aCA+IDApIHZhbHVlcy5wdXNoKHZhbHVlKTsKICAgIGJ1ZmZlciA9ICIiOwogICAgcXVvdGVkID0gZmFsc2U7CiAgICBxdW90ZUNsb3NlZCA9IGZhbHNlOwogIH07CgogIGZvciAobGV0IGluZGV4ID0gMDsgaW5kZXggPCBpbnB1dC5sZW5ndGg7IGluZGV4ICs9IDEpIHsKICAgIGNvbnN0IGNoYXJhY3RlciA9IGlucHV0W2luZGV4XSA/PyAiIjsKCiAgICBpZiAoaW5RdW90ZXMpIHsKICAgICAgaWYgKGNoYXJhY3RlciA9PT0gJyInKSB7CiAgICAgICAgaWYgKGlucHV0W2luZGV4ICsgMV0gPT09ICciJykgewogICAgICAgICAgYnVmZmVyICs9ICciJzsKICAgICAgICAgIGluZGV4ICs9IDE7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIGluUXVvdGVzID0gZmFsc2U7CiAgICAgICAgICBxdW90ZUNsb3NlZCA9IHRydWU7CiAgICAgICAgfQogICAgICB9IGVsc2UgewogICAgICAgIGJ1ZmZlciArPSBjaGFyYWN0ZXI7CiAgICAgIH0KICAgICAgY29udGludWU7CiAgICB9CgogICAgaWYgKGlzVmFsdWVTZXBhcmF0b3IoY2hhcmFjdGVyKSkgewogICAgICBjb21taXQoKTsKICAgICAgaWYgKGNoYXJhY3RlciA9PT0gIlxyIiAmJiBpbnB1dFtpbmRleCArIDFdID09PSAiXG4iKSBpbmRleCArPSAxOwogICAgICBjb250aW51ZTsKICAgIH0KCiAgICBpZiAoY2hhcmFjdGVyID09PSAnIicgJiYgYnVmZmVyLnRyaW0oKS5sZW5ndGggPT09IDAgJiYgIXF1b3RlZCkgewogICAgICBidWZmZXIgPSAiIjsKICAgICAgcXVvdGVkID0gdHJ1ZTsKICAgICAgaW5RdW90ZXMgPSB0cnVlOwogICAgICBjb250aW51ZTsKICAgIH0KCiAgICBpZiAocXVvdGVDbG9zZWQgJiYgL1xzL3UudGVzdChjaGFyYWN0ZXIpKSBjb250aW51ZTsKICAgIHF1b3RlQ2xvc2VkID0gZmFsc2U7CiAgICBidWZmZXIgKz0gY2hhcmFjdGVyOwogIH0KCiAgY29tbWl0KCk7CiAgcmV0dXJuIHZhbHVlczsKfTsKCmV4cG9ydCBjb25zdCBmb3JtYXRBZHZhbmNlZEF1dGhWYWx1ZUxpc3QgPSAoCiAgdmFsdWVzOiByZWFkb25seSBzdHJpbmdbXSwKKTogc3RyaW5nID0+CiAgdmFsdWVzCiAgICAubWFwKCh2YWx1ZSkgPT4gewogICAgICBjb25zdCByZXF1aXJlc1F1b3RlcyA9CiAgICAgICAgL1siLO+8jFxyXG5dL3UudGVzdCh2YWx1ZSkgfHwgdmFsdWUudHJpbSgpICE9PSB2YWx1ZTsKICAgICAgcmV0dXJuIHJlcXVpcmVzUXVvdGVzID8gYCIke3ZhbHVlLnJlcGxhY2UoLyIvZ3UsICciIicpfSJgIDogdmFsdWU7CiAgICB9KQogICAgLmpvaW4oIiwgIik7CgpleHBvcnQgY29uc3Qgc291cmNlTmV0d29ya0lucHV0S2luZCA9ICgKICBvcGVyYXRvcjogQWR2YW5jZWRBdXRoT3BlcmF0b3IsCik6IFNvdXJjZU5ldHdvcmtJbnB1dEtpbmQgPT4KICBvcGVyYXRvciA9PT0gImVxdWFscyIgfHwgb3BlcmF0b3IgPT09ICJub3RfZXF1YWxzIiA/ICJhZGRyZXNzIiA6ICJjaWRyIjsKCmV4cG9ydCBjb25zdCBwYXJzZVNvdXJjZU5ldHdvcmtUZXh0YXJlYSA9ICh2YWx1ZTogc3RyaW5nKTogc3RyaW5nW10gPT4gewogIGNvbnN0IHZhbHVlczogc3RyaW5nW10gPSBbXTsKICBjb25zdCBzZWVuID0gbmV3IFNldDxzdHJpbmc+KCk7CgogIGZvciAoY29uc3QgcmF3IG9mIHBhcnNlQWR2YW5jZWRBdXRoVmFsdWVMaXN0KHZhbHVlKSkgewogICAgY29uc3Qgbm9ybWFsaXplZCA9IHJhdy50cmltKCk7CiAgICBpZiAoIW5vcm1hbGl6ZWQpIGNvbnRpbnVlOwogICAgY29uc3Qga2V5ID0gbm9ybWFsaXplZC50b0xvd2VyQ2FzZSgpOwogICAgaWYgKHNlZW4uaGFzKGtleSkpIGNvbnRpbnVlOwogICAgc2Vlbi5hZGQoa2V5KTsKICAgIHZhbHVlcy5wdXNoKG5vcm1hbGl6ZWQpOwogIH0KCiAgcmV0dXJuIHZhbHVlczsKfTsKCmV4cG9ydCBjb25zdCBnZXRTb3VyY2VOZXR3b3JrVmFsaWRhdGlvbklzc3VlID0gKAogIHZhbHVlczogcmVhZG9ubHkgc3RyaW5nW10sCiAgb3BlcmF0b3I6IEFkdmFuY2VkQXV0aE9wZXJhdG9yLAopOiBTb3VyY2VOZXR3b3JrVmFsaWRhdGlvbklzc3VlIHwgbnVsbCA9PiB7CiAgY29uc3Qga2luZCA9IHNvdXJjZU5ldHdvcmtJbnB1dEtpbmQob3BlcmF0b3IpOwogIGZvciAoY29uc3QgW2luZGV4LCByYXddIG9mIHZhbHVlcy5lbnRyaWVzKCkpIHsKICAgIGNvbnN0IHZhbHVlID0gcmF3LnRyaW0oKTsKICAgIGNvbnN0IHZhbGlkID0KICAgICAga2luZCA9PT0gImNpZHIiCiAgICAgICAgPyBpc1ZhbGlkQ0lEUih2YWx1ZSkKICAgICAgICA6IGlzVmFsaWRJUHY0QWRkcmVzcyh2YWx1ZSkgfHwgaXNWYWxpZElQdjZBZGRyZXNzKHZhbHVlKTsKICAgIGlmICghdmFsaWQpIHJldHVybiB7IGtpbmQsIGxpbmU6IGluZGV4ICsgMSB9OwogIH0KICByZXR1cm4gbnVsbDsKfTsK
+import {
+  isValidCIDR,
+  isValidIPv4Address,
+  isValidIPv6Address,
+} from "@admin-shared/utils/cidr";
+import type { AdvancedAuthOperator } from "@/types";
+
+export type SourceNetworkInputKind = "address" | "cidr";
+
+export interface SourceNetworkValidationIssue {
+  kind: SourceNetworkInputKind;
+  line: number;
+}
+
+const isValueSeparator = (value: string) =>
+  value === "," || value === "，" || value === "\r" || value === "\n";
+
+/**
+ * Parse the compact, CSV-like value editor without losing literal commas.
+ * Values containing separators can be wrapped in double quotes; doubled
+ * quotes inside a quoted value are decoded to one literal quote.
+ */
+export const parseAdvancedAuthValueList = (input: string): string[] => {
+  const values: string[] = [];
+  let buffer = "";
+  let inQuotes = false;
+  let quoted = false;
+  let quoteClosed = false;
+
+  const commit = () => {
+    const value = quoted ? buffer : buffer.trim();
+    if (value.length > 0) values.push(value);
+    buffer = "";
+    quoted = false;
+    quoteClosed = false;
+  };
+
+  for (let index = 0; index < input.length; index += 1) {
+    const character = input[index] ?? "";
+
+    if (inQuotes) {
+      if (character === '"') {
+        if (input[index + 1] === '"') {
+          buffer += '"';
+          index += 1;
+        } else {
+          inQuotes = false;
+          quoteClosed = true;
+        }
+      } else {
+        buffer += character;
+      }
+      continue;
+    }
+
+    if (isValueSeparator(character)) {
+      commit();
+      if (character === "\r" && input[index + 1] === "\n") index += 1;
+      continue;
+    }
+
+    if (character === '"' && buffer.trim().length === 0 && !quoted) {
+      buffer = "";
+      quoted = true;
+      inQuotes = true;
+      continue;
+    }
+
+    if (quoteClosed && /\s/u.test(character)) continue;
+    quoteClosed = false;
+    buffer += character;
+  }
+
+  commit();
+  return values;
+};
+
+export const formatAdvancedAuthValueList = (
+  values: readonly string[],
+): string =>
+  values
+    .map((value) => {
+      const requiresQuotes =
+        /[",，\r\n]/u.test(value) || value.trim() !== value;
+      return requiresQuotes ? `"${value.replace(/"/gu, '""')}"` : value;
+    })
+    .join(", ");
+
+export const sourceNetworkInputKind = (
+  operator: AdvancedAuthOperator,
+): SourceNetworkInputKind =>
+  operator === "equals" || operator === "not_equals" ? "address" : "cidr";
+
+export const parseSourceNetworkTextarea = (value: string): string[] => {
+  const values: string[] = [];
+  const seen = new Set<string>();
+
+  for (const raw of parseAdvancedAuthValueList(value)) {
+    const normalized = raw.trim();
+    if (!normalized) continue;
+    const key = normalized.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    values.push(normalized);
+  }
+
+  return values;
+};
+
+export const getSourceNetworkValidationIssue = (
+  values: readonly string[],
+  operator: AdvancedAuthOperator,
+): SourceNetworkValidationIssue | null => {
+  const kind = sourceNetworkInputKind(operator);
+  for (const [index, raw] of values.entries()) {
+    const value = raw.trim();
+    const valid =
+      kind === "cidr"
+        ? isValidCIDR(value)
+        : isValidIPv4Address(value) || isValidIPv6Address(value);
+    if (!valid) return { kind, line: index + 1 };
+  }
+  return null;
+};

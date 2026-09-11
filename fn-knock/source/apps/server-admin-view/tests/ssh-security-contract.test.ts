@@ -1,1 +1,116 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgpjb25zdCBjb250cmFjdCA9IEpTT04ucGFyc2UoCiAgcmVhZFNvdXJjZSgiLi4vLi4vLi4vcGFja2FnZXMvYXBpLWNvbnRyYWN0L29wZW5hcGkuanNvbiIpLAopIGFzIHsKICBjb21wb25lbnRzOiB7CiAgICBzY2hlbWFzOiBSZWNvcmQ8CiAgICAgIHN0cmluZywKICAgICAgewogICAgICAgIHByb3BlcnRpZXM/OiBSZWNvcmQ8c3RyaW5nLCB7IGVudW0/OiBzdHJpbmdbXSB9PjsKICAgICAgfQogICAgPjsKICB9OwogIHBhdGhzOiBSZWNvcmQ8CiAgICBzdHJpbmcsCiAgICBSZWNvcmQ8CiAgICAgIHN0cmluZywKICAgICAgewogICAgICAgICJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSI/OiBzdHJpbmc7CiAgICAgICAgcGFyYW1ldGVycz86IEFycmF5PHsKICAgICAgICAgIG5hbWU/OiBzdHJpbmc7CiAgICAgICAgICBzY2hlbWE/OiB7IGVudW0/OiBzdHJpbmdbXSB9OwogICAgICAgIH0+OwogICAgICAgIHJlcXVlc3RCb2R5PzogewogICAgICAgICAgY29udGVudD86IFJlY29yZDxzdHJpbmcsIHsgc2NoZW1hPzogeyAkcmVmPzogc3RyaW5nIH0gfT47CiAgICAgICAgfTsKICAgICAgfQogICAgPgogID47Cn07CgpkZXNjcmliZSgiU1NIIHNlY3VyaXR5IEFQSSBjb250cmFjdCIsICgpID0+IHsKICBpdCgia2VlcHMgYWxsIFNTSCBzZWN1cml0eSBvcGVyYXRpb25zIG9uIHR5cGVkIHJ1bnRpbWUgcm91dGVzIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBbbWV0aG9kLCBwYXRoXSBvZiBbCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vc3NoLXNlY3VyaXR5L2NvbmZpZyJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9zc2gtc2VjdXJpdHkvY29uZmlnIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3NzaC1zZWN1cml0eS9maXJld2FsbC9zeW5jIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3NzaC1zZWN1cml0eS9maXJld2FsbC9jbGVhciJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL3NzaC1zZWN1cml0eS9sb2dpbi1sb2dzIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vc3NoLXNlY3VyaXR5L2Jsb2NrcyJdLAogICAgICBbImRlbGV0ZSIsICIvYXBpL2FkbWluL3NzaC1zZWN1cml0eS9ibG9ja3MiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9zc2gtc2VjdXJpdHkvYmxvY2tzL3tpcH0iXSwKICAgICAgWyJkZWxldGUiLCAiL2FwaS9hZG1pbi9zc2gtc2VjdXJpdHkvYmxvY2tzL3tpcH0iXSwKICAgIF0gYXMgY29uc3QpIHsKICAgICAgYXNzZXJ0LmVxdWFsKAogICAgICAgIGNvbnRyYWN0LnBhdGhzW3BhdGhdPy5bbWV0aG9kXT8uWyJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSJdLAogICAgICAgICJ1dG9pcGEiLAogICAgICAgIGAke21ldGhvZC50b1VwcGVyQ2FzZSgpfSAke3BhdGh9YCwKICAgICAgKTsKICAgIH0KICB9KTsKCiAgaXQoInByZXNlcnZlcyBydW50aW1lIHN1bW1hcnkgZmllbGRzIGFuZCB3cml0ZS1vbmx5IHJlcXVlc3QgYm91bmRhcmllcyIsICgpID0+IHsKICAgIGNvbnN0IGNvbmZpZyA9IGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5Tc2hTZWN1cml0eUNvbmZpZ0RhdGE7CiAgICBjb25zdCBzdW1tYXJ5ID0gY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLlNzaFNlY3VyaXR5U3VtbWFyeURhdGE7CiAgICBhc3NlcnQub2soc3VtbWFyeS5wcm9wZXJ0aWVzPy5hbGxvd2VkX3JhbmdlX2NvdW50KTsKCiAgICBjb25zdCB1cGRhdGUgPSBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuU3NoU2VjdXJpdHlDb25maWdVcGRhdGVEYXRhOwogICAgY29uc3QgZHVyYXRpb25Vbml0cyA9IFsibWludXRlIiwgImhvdXIiLCAiZGF5IiwgIm1vbnRoIl07CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBjb25maWcucHJvcGVydGllcz8uYmxvY2tfZHVyYXRpb25fdW5pdD8uZW51bSwKICAgICAgZHVyYXRpb25Vbml0cywKICAgICk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICB1cGRhdGUucHJvcGVydGllcz8uYmxvY2tfZHVyYXRpb25fdW5pdD8uZW51bSwKICAgICAgZHVyYXRpb25Vbml0cywKICAgICk7CiAgICBhc3NlcnQuZXF1YWwodXBkYXRlLnByb3BlcnRpZXM/LmNvbmZpZ3VyZWRfYXQsIHVuZGVmaW5lZCk7CiAgICBhc3NlcnQuZXF1YWwodXBkYXRlLnByb3BlcnRpZXM/LnVwZGF0ZWRfYXQsIHVuZGVmaW5lZCk7CgogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9zc2gtc2VjdXJpdHkvYmxvY2tzIl0/LmRlbGV0ZT8ucmVxdWVzdEJvZHkKICAgICAgICA/LmNvbnRlbnQ/LlsiYXBwbGljYXRpb24vanNvbiJdPy5zY2hlbWE/LiRyZWYsCiAgICAgICIjL2NvbXBvbmVudHMvc2NoZW1hcy9Tc2hCbG9ja3NEZWxldGVCb2R5RGF0YSIsCiAgICApOwoKICAgIGNvbnN0IG91dGNvbWUgPSBjb250cmFjdC5wYXRoc1sKICAgICAgIi9hcGkvYWRtaW4vc3NoLXNlY3VyaXR5L2xvZ2luLWxvZ3MiCiAgICBdPy5nZXQ/LnBhcmFtZXRlcnM/LmZpbmQoKHBhcmFtZXRlcikgPT4gcGFyYW1ldGVyLm5hbWUgPT09ICJvdXRjb21lIik7CiAgICBhc3NlcnQuZGVlcEVxdWFsKG91dGNvbWU/LnNjaGVtYT8uZW51bSwgWyJzdWNjZXNzIiwgImZhaWx1cmUiXSk7CiAgfSk7CgogIGl0KCJkZXJpdmVzIGZyb250ZW5kIG1vZGVscywgcmVxdWVzdHMsIGFuZCBxdWVyaWVzIGZyb20gdGhlIGNvbnRyYWN0IiwgKCkgPT4gewogICAgY29uc3QgdHlwZXMgPSByZWFkU291cmNlKCIuLi9zcmMvdHlwZXMvZ2F0ZXdheS50cyIpOwogICAgY29uc3QgYXBpID0gcmVhZFNvdXJjZSgiLi4vc3JjL2xpYi9hcGkvc2VjdXJpdHkudHMiKTsKICAgIGNvbnN0IGZvcm0gPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3NzaC1zZWN1cml0eS9TU0hTZWN1cml0eUZvcm1GaWVsZHMudnVlIiwKICAgICk7CgogICAgYXNzZXJ0Lm1hdGNoKHR5cGVzLCAvU3NoU2VjdXJpdHlDb25maWdEYXRhIlxdL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHR5cGVzLCAvU3NoU2VjdXJpdHlTdW1tYXJ5RGF0YSJcXS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2godHlwZXMsIC9leHBvcnQgdHlwZSBTU0hTZWN1cml0eUNvbmZpZyA9IFx7L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL29wZXJhdGlvbnMgYXMgQXBpQ29udHJhY3RPcGVyYXRpb25zL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL1NzaFNlY3VyaXR5Q29uZmlnVXBkYXRlRGF0YS91KTsKICAgIGFzc2VydC5tYXRjaChhcGksIC9zYXRpc2ZpZXMgU3NoQmxvY2tzRGVsZXRlQm9keS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goYXBpLCAvUGFydGlhbDxPbWl0PFNTSFNlY3VyaXR5Q29uZmlnL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGZvcm0sIC88U2VsZWN0SXRlbSB2YWx1ZT0ibW9udGgiPi91KTsKICAgIGFzc2VydC5tYXRjaChmb3JtLCAvYWRtaW5cLnNzaFNlY3VyaXR5XC5tb250aC91KTsKICB9KTsKCiAgaXQoInN0YWNrcyB0aGUgY29sbGFwc2VkIGNvbmZpZ3VyYXRpb24gc3VtbWFyeSBhbmQgYWN0aW9ucyBvbiBtb2JpbGUiLCAoKSA9PiB7CiAgICBjb25zdCBjYXJkID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9zc2gtc2VjdXJpdHkvU1NIU2VjdXJpdHlDb25maWd1cmF0aW9uQ2FyZC52dWUiLAogICAgKTsKCiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGNhcmQsCiAgICAgIC9jb2xsYXBzZWQtY29udGVudC1jbGFzcz0iW14iXSptaW4taC1cWzc2cHhcXVteIl0qZmxleC1jb2xbXiJdKnNtOmgtXFs0MHB4XF1bXiJdKnNtOmZsZXgtcm93W14iXSoiL3UsCiAgICApOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  components: {
+    schemas: Record<
+      string,
+      {
+        properties?: Record<string, { enum?: string[] }>;
+      }
+    >;
+  };
+  paths: Record<
+    string,
+    Record<
+      string,
+      {
+        "x-fn-knock-contract-source"?: string;
+        parameters?: Array<{
+          name?: string;
+          schema?: { enum?: string[] };
+        }>;
+        requestBody?: {
+          content?: Record<string, { schema?: { $ref?: string } }>;
+        };
+      }
+    >
+  >;
+};
+
+describe("SSH security API contract", () => {
+  it("keeps all SSH security operations on typed runtime routes", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/ssh-security/config"],
+      ["post", "/api/admin/ssh-security/config"],
+      ["post", "/api/admin/ssh-security/firewall/sync"],
+      ["post", "/api/admin/ssh-security/firewall/clear"],
+      ["get", "/api/admin/ssh-security/login-logs"],
+      ["get", "/api/admin/ssh-security/blocks"],
+      ["delete", "/api/admin/ssh-security/blocks"],
+      ["get", "/api/admin/ssh-security/blocks/{ip}"],
+      ["delete", "/api/admin/ssh-security/blocks/{ip}"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("preserves runtime summary fields and write-only request boundaries", () => {
+    const config = contract.components.schemas.SshSecurityConfigData;
+    const summary = contract.components.schemas.SshSecuritySummaryData;
+    assert.ok(summary.properties?.allowed_range_count);
+
+    const update = contract.components.schemas.SshSecurityConfigUpdateData;
+    const durationUnits = ["minute", "hour", "day", "month"];
+    assert.deepEqual(
+      config.properties?.block_duration_unit?.enum,
+      durationUnits,
+    );
+    assert.deepEqual(
+      update.properties?.block_duration_unit?.enum,
+      durationUnits,
+    );
+    assert.equal(update.properties?.configured_at, undefined);
+    assert.equal(update.properties?.updated_at, undefined);
+
+    assert.equal(
+      contract.paths["/api/admin/ssh-security/blocks"]?.delete?.requestBody
+        ?.content?.["application/json"]?.schema?.$ref,
+      "#/components/schemas/SshBlocksDeleteBodyData",
+    );
+
+    const outcome = contract.paths[
+      "/api/admin/ssh-security/login-logs"
+    ]?.get?.parameters?.find((parameter) => parameter.name === "outcome");
+    assert.deepEqual(outcome?.schema?.enum, ["success", "failure"]);
+  });
+
+  it("derives frontend models, requests, and queries from the contract", () => {
+    const types = readSource("../src/types/gateway.ts");
+    const api = readSource("../src/lib/api/security.ts");
+    const form = readSource(
+      "../src/views/ssh-security/SSHSecurityFormFields.vue",
+    );
+
+    assert.match(types, /SshSecurityConfigData"\]/u);
+    assert.match(types, /SshSecuritySummaryData"\]/u);
+    assert.doesNotMatch(types, /export type SSHSecurityConfig = \{/u);
+    assert.match(api, /operations as ApiContractOperations/u);
+    assert.match(api, /SshSecurityConfigUpdateData/u);
+    assert.match(api, /satisfies SshBlocksDeleteBody/u);
+    assert.doesNotMatch(api, /Partial<Omit<SSHSecurityConfig/u);
+    assert.match(form, /<SelectItem value="month">/u);
+    assert.match(form, /admin\.sshSecurity\.month/u);
+  });
+
+  it("stacks the collapsed configuration summary and actions on mobile", () => {
+    const card = readSource(
+      "../src/views/ssh-security/SSHSecurityConfigurationCard.vue",
+    );
+
+    assert.match(
+      card,
+      /collapsed-content-class="[^"]*min-h-\[76px\][^"]*flex-col[^"]*sm:h-\[40px\][^"]*sm:flex-row[^"]*"/u,
+    );
+  });
+});

@@ -1,1 +1,15 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRGlhbG9nQ2xvc2VQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IERpYWxvZ0Nsb3NlIH0gZnJvbSAicmVrYS11aSIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8RGlhbG9nQ2xvc2VQcm9wcz4oKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nQ2xvc2UKICAgIGRhdGEtc2xvdD0iZGlhbG9nLWNsb3NlIgogICAgdi1iaW5kPSJwcm9wcyIKICA+CiAgICA8c2xvdCAvPgogIDwvRGlhbG9nQ2xvc2U+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { DialogCloseProps } from "reka-ui"
+import { DialogClose } from "reka-ui"
+
+const props = defineProps<DialogCloseProps>()
+</script>
+
+<template>
+  <DialogClose
+    data-slot="dialog-close"
+    v-bind="props"
+  >
+    <slot />
+  </DialogClose>
+</template>

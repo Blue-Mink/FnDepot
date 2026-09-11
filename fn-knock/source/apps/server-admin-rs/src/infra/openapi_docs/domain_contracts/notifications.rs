@@ -1,1 +1,404 @@
-dXNlIHNlcmRlOjpTZXJpYWxpemU7CnVzZSBzZXJkZV9qc29uOjpWYWx1ZTsKdXNlIHV0b2lwYTo6VG9TY2hlbWE7CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uRmllbGRPcHRpb25EYXRhIHsKICAgIGxhYmVsOiBTdHJpbmcsCiAgICB2YWx1ZTogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uSGVhZGVyQ29uc3RyYWludHNEYXRhIHsKICAgIGtpbmQ6IFN0cmluZywKICAgIG1heF9pdGVtczogaTY0LAogICAgbWF4X25hbWVfYnl0ZXM6IGk2NCwKICAgIG1heF92YWx1ZV9ieXRlczogaTY0LAogICAgbWF4X3RvdGFsX2J5dGVzOiBpNjQsCiAgICByZXNlcnZlZF9uYW1lczogVmVjPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBOb3RpZmljYXRpb25XZWJob29rQm9keUNvbnN0cmFpbnRzRGF0YSB7CiAgICBraW5kOiBTdHJpbmcsCiAgICBzY29wZTogU3RyaW5nLAogICAgZm9ybWF0czogVmVjPFN0cmluZz4sCiAgICB2YXJpYWJsZV9yb290czogVmVjPFN0cmluZz4sCiAgICBtYXhfdGVtcGxhdGVfYnl0ZXM6IGk2NCwKICAgIG1heF9zYW1wbGVfYnl0ZXM6IGk2NCwKICAgIG1heF9wbGFjZWhvbGRlcnM6IGk2NCwKICAgIG1heF9yZW5kZXJlZF9ieXRlczogaTY0LAogICAgbWF4X2NvbnRlbnRfdHlwZV9ieXRlczogaTY0LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZSh1bnRhZ2dlZCldCnB1YihzdXBlcikgZW51bSBOb3RpZmljYXRpb25TY2hlbWFDb25zdHJhaW50c0RhdGEgewogICAgSGVhZGVycyhOb3RpZmljYXRpb25IZWFkZXJDb25zdHJhaW50c0RhdGEpLAogICAgV2ViaG9va0JvZHkoTm90aWZpY2F0aW9uV2ViaG9va0JvZHlDb25zdHJhaW50c0RhdGEpLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uU2NoZW1hRmllbGREYXRhIHsKICAgIGtleTogU3RyaW5nLAogICAgbGFiZWw6IFN0cmluZywKICAgIGRlc2NyaXB0aW9uOiBPcHRpb248U3RyaW5nPiwKICAgIHBsYWNlaG9sZGVyOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2VyZGUocmVuYW1lID0gInR5cGUiKV0KICAgIGZpZWxkX3R5cGU6IFN0cmluZywKICAgIHJlcXVpcmVkOiBPcHRpb248Ym9vbD4sCiAgICBzZW5zaXRpdmU6IE9wdGlvbjxib29sPiwKICAgIGRlZmF1bHRfdmFsdWU6IE9wdGlvbjxWYWx1ZT4sCiAgICBvcHRpb25zOiBPcHRpb248VmVjPE5vdGlmaWNhdGlvbkZpZWxkT3B0aW9uRGF0YT4+LAogICAgbWluOiBPcHRpb248aTY0PiwKICAgIG1heDogT3B0aW9uPGk2ND4sCiAgICBjb25zdHJhaW50czogT3B0aW9uPE5vdGlmaWNhdGlvblNjaGVtYUNvbnN0cmFpbnRzRGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBOb3RpZmljYXRpb25Qcm92aWRlckNhcGFiaWxpdGllc0RhdGEgewogICAgc3VwcG9ydHNfdGV4dDogYm9vbCwKICAgIHN1cHBvcnRzX21hcmtkb3duOiBib29sLAogICAgc3VwcG9ydHNfcmljaF9ibG9ja3M6IGJvb2wsCiAgICBzdXBwb3J0c19hY3Rpb25zOiBib29sLAogICAgc3VwcG9ydHNfbWVudGlvbnM6IGJvb2wsCiAgICBzdXBwb3J0c19hdHRhY2htZW50czogYm9vbCwKICAgIHN1cHBvcnRzX3Byb3ZpZGVyX2RlZHVwZV9rZXk6IGJvb2wsCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgbWF4X2JvZHlfbGVuZ3RoOiBPcHRpb248aTY0PiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IE5vdGlmaWNhdGlvblByb3ZpZGVyRGVmaW5pdGlvbkRhdGEgewogICAgI1tzZXJkZShyZW5hbWUgPSAidHlwZSIpXQogICAgcHJvdmlkZXJfdHlwZTogU3RyaW5nLAogICAgbGFiZWw6IFN0cmluZywKICAgIGRlc2NyaXB0aW9uOiBTdHJpbmcsCiAgICBjb25uZWN0aW9uX3NjaGVtYTogVmVjPE5vdGlmaWNhdGlvblNjaGVtYUZpZWxkRGF0YT4sCiAgICB0YXJnZXRfc2NoZW1hOiBWZWM8Tm90aWZpY2F0aW9uU2NoZW1hRmllbGREYXRhPiwKICAgIHNlbnNpdGl2ZV9maWVsZHM6IFZlYzxTdHJpbmc+LAogICAgY2FwYWJpbGl0aWVzOiBOb3RpZmljYXRpb25Qcm92aWRlckNhcGFiaWxpdGllc0RhdGEsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBOb3RpZmljYXRpb25Qcm92aWRlckNhdGFsb2dEYXRhIHsKICAgIHByb3ZpZGVyczogVmVjPE5vdGlmaWNhdGlvblByb3ZpZGVyRGVmaW5pdGlvbkRhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uUHJvdmlkZXJEYXRhIHsKICAgIGlkOiBTdHJpbmcsCiAgICBuYW1lOiBTdHJpbmcsCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJ0eXBlIildCiAgICBwcm92aWRlcl90eXBlOiBTdHJpbmcsCiAgICBlbmFibGVkOiBib29sLAogICAgY29ubmVjdGlvbl9jb25maWdfbWFza2VkOiBWYWx1ZSwKICAgIGNyZWF0ZWRfYXQ6IFN0cmluZywKICAgIHVwZGF0ZWRfYXQ6IFN0cmluZywKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBsYXN0X3Rlc3RfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIGxhc3RfdGVzdF9zdGF0dXM6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIGxhc3RfZXJyb3I6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uUHJvdmlkZXJEZXRhaWxEYXRhIHsKICAgIGlkOiBTdHJpbmcsCiAgICBuYW1lOiBTdHJpbmcsCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJ0eXBlIildCiAgICBwcm92aWRlcl90eXBlOiBTdHJpbmcsCiAgICBlbmFibGVkOiBib29sLAogICAgY29ubmVjdGlvbl9jb25maWdfbWFza2VkOiBWYWx1ZSwKICAgIGNvbm5lY3Rpb25fY29uZmlnOiBWYWx1ZSwKICAgIGNyZWF0ZWRfYXQ6IFN0cmluZywKICAgIHVwZGF0ZWRfYXQ6IFN0cmluZywKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBsYXN0X3Rlc3RfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIGxhc3RfdGVzdF9zdGF0dXM6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIGxhc3RfZXJyb3I6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uUHJvdmlkZXJTbmFwc2hvdERhdGEgewogICAgaWQ6IFN0cmluZywKICAgIG5hbWU6IFN0cmluZywKICAgICNbc2VyZGUocmVuYW1lID0gInR5cGUiKV0KICAgIHByb3ZpZGVyX3R5cGU6IFN0cmluZywKICAgIGVuYWJsZWQ6IGJvb2wsCiAgICBjb25uZWN0aW9uX2NvbmZpZ19tYXNrZWQ6IFZhbHVlLAogICAgY3JlYXRlZF9hdDogU3RyaW5nLAogICAgdXBkYXRlZF9hdDogU3RyaW5nLAogICAgbGFzdF90ZXN0X2F0OiBPcHRpb248U3RyaW5nPiwKICAgIGxhc3RfdGVzdF9zdGF0dXM6IE9wdGlvbjxTdHJpbmc+LAogICAgbGFzdF9lcnJvcjogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBOb3RpZmljYXRpb25Qcm92aWRlckxpc3REYXRhIHsKICAgIHByb3ZpZGVyczogVmVjPE5vdGlmaWNhdGlvblByb3ZpZGVyRGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBOb3RpZmljYXRpb25Qcm92aWRlckNyZWF0ZUJvZHlEYXRhIHsKICAgIG5hbWU6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzZXJkZShyZW5hbWUgPSAidHlwZSIpXQogICAgcHJvdmlkZXJfdHlwZTogU3RyaW5nLAogICAgZW5hYmxlZDogT3B0aW9uPGJvb2w+LAogICAgY29ubmVjdGlvbl9jb25maWc6IFZhbHVlLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uUHJvdmlkZXJVcGRhdGVCb2R5RGF0YSB7CiAgICBuYW1lOiBPcHRpb248U3RyaW5nPiwKICAgIGVuYWJsZWQ6IE9wdGlvbjxib29sPiwKICAgIGNvbm5lY3Rpb25fY29uZmlnOiBPcHRpb248VmFsdWU+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uUHJvdmlkZXJUZXN0Qm9keURhdGEgewogICAgaWQ6IE9wdGlvbjxTdHJpbmc+LAogICAgbmFtZTogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJ0eXBlIildCiAgICBwcm92aWRlcl90eXBlOiBTdHJpbmcsCiAgICBlbmFibGVkOiBPcHRpb248Ym9vbD4sCiAgICBjb25uZWN0aW9uX2NvbmZpZzogVmFsdWUsCiAgICB0YXJnZXRfY29uZmlnOiBPcHRpb248VmFsdWU+LAogICAgc2FtcGxlX2NvbnRleHQ6IE9wdGlvbjxWYWx1ZT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBOb3RpZmljYXRpb25XZWJob29rQm9keVByZXZpZXdCb2R5RGF0YSB7CiAgICBpZDogT3B0aW9uPFN0cmluZz4sCiAgICBuYW1lOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2VyZGUocmVuYW1lID0gInR5cGUiKV0KICAgIHByb3ZpZGVyX3R5cGU6IE9wdGlvbjxTdHJpbmc+LAogICAgZW5hYmxlZDogT3B0aW9uPGJvb2w+LAogICAgY29ubmVjdGlvbl9jb25maWc6IE9wdGlvbjxWYWx1ZT4sCiAgICB0YXJnZXRfY29uZmlnOiBPcHRpb248VmFsdWU+LAogICAgc2FtcGxlX2NvbnRleHQ6IE9wdGlvbjxWYWx1ZT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBOb3RpZmljYXRpb25XZWJob29rQm9keVByZXZpZXdEYXRhIHsKICAgIGZvcm1hdDogU3RyaW5nLAogICAgY29udGVudF90eXBlOiBTdHJpbmcsCiAgICBib2R5OiBTdHJpbmcsCiAgICBieXRlX2xlbmd0aDogaTY0LAogICAgbWlzc2luZ192YXJpYWJsZXM6IFZlYzxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uUHJvdmlkZXJUZXN0UmVzdWx0RGF0YSB7CiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgcHJvdmlkZXI6IE9wdGlvbjxOb3RpZmljYXRpb25Qcm92aWRlckRhdGE+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIHJlcXVlc3Rfc3VtbWFyeTogT3B0aW9uPFZhbHVlPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICByZXNwb25zZV9zdW1tYXJ5OiBPcHRpb248VmFsdWU+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uUHJvdmlkZXJUZXN0UmVzcG9uc2VEYXRhIHsKICAgIHN1Y2Nlc3M6IGJvb2wsCiAgICBtZXNzYWdlOiBTdHJpbmcsCiAgICBkYXRhOiBOb3RpZmljYXRpb25Qcm92aWRlclRlc3RSZXN1bHREYXRhLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uVGVtcGxhdGVEYXRhIHsKICAgIHRpdGxlOiBPcHRpb248U3RyaW5nPiwKICAgIGJvZHlfdGV4dDogT3B0aW9uPFN0cmluZz4sCiAgICBib2R5X21hcmtkb3duOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IE5vdGlmaWNhdGlvbkRlbGl2ZXJ5UG9saWN5RGF0YSB7CiAgICB0aW1lb3V0X3NlY29uZHM6IE9wdGlvbjxpNjQ+LAogICAgbWF4X2F0dGVtcHRzOiBPcHRpb248aTY0PiwKICAgIGJhY2tvZmZfc2Vjb25kczogT3B0aW9uPGk2ND4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBOb3RpZmljYXRpb25UYXJnZXREYXRhIHsKICAgIGlkOiBTdHJpbmcsCiAgICBwcm92aWRlcl9pZDogU3RyaW5nLAogICAgZW5hYmxlZDogYm9vbCwKICAgIHRhcmdldF9jb25maWc6IFZhbHVlLAogICAgdGVtcGxhdGVfb3ZlcnJpZGVfbW9kZTogU3RyaW5nLAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIHRlbXBsYXRlX292ZXJyaWRlOiBPcHRpb248Tm90aWZpY2F0aW9uVGVtcGxhdGVEYXRhPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBkZWxpdmVyeV9wb2xpY3k6IE9wdGlvbjxOb3RpZmljYXRpb25EZWxpdmVyeVBvbGljeURhdGE+LAogICAgY3JlYXRlZF9hdDogU3RyaW5nLAogICAgdXBkYXRlZF9hdDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uVGFyZ2V0SW5wdXREYXRhIHsKICAgIGlkOiBPcHRpb248U3RyaW5nPiwKICAgIHByb3ZpZGVyX2lkOiBTdHJpbmcsCiAgICBlbmFibGVkOiBPcHRpb248Ym9vbD4sCiAgICB0YXJnZXRfY29uZmlnOiBWYWx1ZSwKICAgIHRlbXBsYXRlX292ZXJyaWRlX21vZGU6IE9wdGlvbjxTdHJpbmc+LAogICAgdGVtcGxhdGVfb3ZlcnJpZGU6IE9wdGlvbjxOb3RpZmljYXRpb25UZW1wbGF0ZURhdGE+LAogICAgZGVsaXZlcnlfcG9saWN5OiBPcHRpb248Tm90aWZpY2F0aW9uRGVsaXZlcnlQb2xpY3lEYXRhPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IE5vdGlmaWNhdGlvblJ1bGVEYXRhIHsKICAgIGlkOiBTdHJpbmcsCiAgICBuYW1lOiBTdHJpbmcsCiAgICBlbmFibGVkOiBib29sLAogICAgZXZlbnRfdHlwZTogU3RyaW5nLAogICAgZXZlbnRfbGV2ZWxfZmlsdGVyOiBPcHRpb248VmVjPFN0cmluZz4+LAogICAgZXZlbnRfc291cmNlX2ZpbHRlcjogT3B0aW9uPFZlYzxTdHJpbmc+PiwKICAgIHdpbmRvd19zZWNvbmRzOiBpNjQsCiAgICB0aHJlc2hvbGRfY291bnQ6IGk2NCwKICAgIGdyb3VwX2J5OiBTdHJpbmcsCiAgICBjb29sZG93bl9zZWNvbmRzOiBpNjQsCiAgICB0YXJnZXRzOiBWZWM8Tm90aWZpY2F0aW9uVGFyZ2V0RGF0YT4sCiAgICBtZXNzYWdlX3RlbXBsYXRlX21vZGU6IFN0cmluZywKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBtZXNzYWdlX3RlbXBsYXRlOiBPcHRpb248Tm90aWZpY2F0aW9uVGVtcGxhdGVEYXRhPiwKICAgIGNyZWF0ZWRfYXQ6IFN0cmluZywKICAgIHVwZGF0ZWRfYXQ6IFN0cmluZywKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBsYXN0X3RyaWdnZXJlZF9hdDogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBOb3RpZmljYXRpb25SdWxlQ3JlYXRlQm9keURhdGEgewogICAgZW5hYmxlZDogT3B0aW9uPGJvb2w+LAogICAgZXZlbnRfdHlwZTogU3RyaW5nLAogICAgZXZlbnRfbGV2ZWxfZmlsdGVyOiBPcHRpb248VmVjPFN0cmluZz4+LAogICAgZXZlbnRfc291cmNlX2ZpbHRlcjogT3B0aW9uPFZlYzxTdHJpbmc+PiwKICAgIHdpbmRvd19zZWNvbmRzOiBPcHRpb248aTY0PiwKICAgIHRocmVzaG9sZF9jb3VudDogT3B0aW9uPGk2ND4sCiAgICBncm91cF9ieTogU3RyaW5nLAogICAgY29vbGRvd25fc2Vjb25kczogT3B0aW9uPGk2ND4sCiAgICB0YXJnZXRzOiBWZWM8Tm90aWZpY2F0aW9uVGFyZ2V0SW5wdXREYXRhPiwKICAgIG1lc3NhZ2VfdGVtcGxhdGVfbW9kZTogT3B0aW9uPFN0cmluZz4sCiAgICBtZXNzYWdlX3RlbXBsYXRlOiBPcHRpb248Tm90aWZpY2F0aW9uVGVtcGxhdGVEYXRhPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IE5vdGlmaWNhdGlvblJ1bGVVcGRhdGVCb2R5RGF0YSB7CiAgICBlbmFibGVkOiBPcHRpb248Ym9vbD4sCiAgICBldmVudF90eXBlOiBPcHRpb248U3RyaW5nPiwKICAgIGV2ZW50X2xldmVsX2ZpbHRlcjogT3B0aW9uPFZlYzxTdHJpbmc+PiwKICAgIGV2ZW50X3NvdXJjZV9maWx0ZXI6IE9wdGlvbjxWZWM8U3RyaW5nPj4sCiAgICB3aW5kb3dfc2Vjb25kczogT3B0aW9uPGk2ND4sCiAgICB0aHJlc2hvbGRfY291bnQ6IE9wdGlvbjxpNjQ+LAogICAgZ3JvdXBfYnk6IE9wdGlvbjxTdHJpbmc+LAogICAgY29vbGRvd25fc2Vjb25kczogT3B0aW9uPGk2ND4sCiAgICB0YXJnZXRzOiBPcHRpb248VmVjPE5vdGlmaWNhdGlvblRhcmdldElucHV0RGF0YT4+LAogICAgbWVzc2FnZV90ZW1wbGF0ZV9tb2RlOiBPcHRpb248U3RyaW5nPiwKICAgIG1lc3NhZ2VfdGVtcGxhdGU6IE9wdGlvbjxOb3RpZmljYXRpb25UZW1wbGF0ZURhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uUnVsZUxpc3REYXRhIHsKICAgIHJ1bGVzOiBWZWM8Tm90aWZpY2F0aW9uUnVsZURhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uTWVzc2FnZUZhY3REYXRhIHsKICAgIGxhYmVsOiBTdHJpbmcsCiAgICB2YWx1ZTogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uTWVzc2FnZUFjdGlvbkRhdGEgewogICAgbGFiZWw6IFN0cmluZywKICAgIHVybDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uTWVzc2FnZURhdGEgewogICAgdGl0bGU6IFN0cmluZywKICAgIHN1bW1hcnk6IFN0cmluZywKICAgIGJvZHlfdGV4dDogU3RyaW5nLAogICAgYm9keV9tYXJrZG93bjogT3B0aW9uPFN0cmluZz4sCiAgICBzZXZlcml0eTogU3RyaW5nLAogICAgZmFjdHM6IFZlYzxOb3RpZmljYXRpb25NZXNzYWdlRmFjdERhdGE+LAogICAgLy8vIEZvcm1hdHRlZCBkZXRhaWwgdmFsdWVzIGtleWVkIGJ5IHN0YWJsZSBuYW1lczsgYWJzZW50IG9uIGhpc3RvcmljYWwgbWVzc2FnZXMuCiAgICAjW3NlcmRlKHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIildCiAgICBmYWN0X3ZhbHVlczogT3B0aW9uPHN0ZDo6Y29sbGVjdGlvbnM6OkJUcmVlTWFwPFN0cmluZywgU3RyaW5nPj4sCiAgICBhY3Rpb25zOiBWZWM8Tm90aWZpY2F0aW9uTWVzc2FnZUFjdGlvbkRhdGE+LAogICAgbWVudGlvbnM6IFZlYzxTdHJpbmc+LAogICAgZGVkdXBlX2tleTogT3B0aW9uPFN0cmluZz4sCiAgICBvY2N1cnJlZF9hdDogU3RyaW5nLAogICAgZXZlbnRfaWQ6IE9wdGlvbjxTdHJpbmc+LAogICAgbWV0YWRhdGE6IE9wdGlvbjxWYWx1ZT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBOb3RpZmljYXRpb25UcmlnZ2VyRGF0YSB7CiAgICBpZDogU3RyaW5nLAogICAgdHJhY2VfaWQ6IE9wdGlvbjxTdHJpbmc+LAogICAgcnVsZV9pZDogU3RyaW5nLAogICAgZXZlbnRfaWQ6IFN0cmluZywKICAgIGdyb3VwX2tleTogU3RyaW5nLAogICAgbWF0Y2hlZF9jb3VudDogaTY0LAogICAgbWVzc2FnZV9zbmFwc2hvdDogTm90aWZpY2F0aW9uTWVzc2FnZURhdGEsCiAgICBydWxlX3NuYXBzaG90OiBOb3RpZmljYXRpb25SdWxlRGF0YSwKICAgIHN0YXR1czogU3RyaW5nLAogICAgY3JlYXRlZF9hdDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uVHJpZ2dlckxpc3REYXRhIHsKICAgIHRyaWdnZXJzOiBWZWM8Tm90aWZpY2F0aW9uVHJpZ2dlckRhdGE+LAogICAgdG90YWw6IGk2NCwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IE5vdGlmaWNhdGlvbkRlbGl2ZXJ5RGF0YSB7CiAgICBpZDogU3RyaW5nLAogICAgdHJhY2VfaWQ6IE9wdGlvbjxTdHJpbmc+LAogICAgdHJpZ2dlcl9pZDogU3RyaW5nLAogICAgcnVsZV9pZDogU3RyaW5nLAogICAgdGFyZ2V0X2lkOiBTdHJpbmcsCiAgICBwcm92aWRlcl9pZDogU3RyaW5nLAogICAgZXZlbnRfaWQ6IFN0cmluZywKICAgIHN0YXR1czogU3RyaW5nLAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIHJlYXNvbjogT3B0aW9uPFN0cmluZz4sCiAgICBwcm92aWRlcl90eXBlOiBTdHJpbmcsCiAgICBtZXNzYWdlX3NuYXBzaG90OiBOb3RpZmljYXRpb25NZXNzYWdlRGF0YSwKICAgIHRhcmdldF9zbmFwc2hvdDogTm90aWZpY2F0aW9uVGFyZ2V0RGF0YSwKICAgIHByb3ZpZGVyX3NuYXBzaG90OiBOb3RpZmljYXRpb25Qcm92aWRlclNuYXBzaG90RGF0YSwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICByZXF1ZXN0X3N1bW1hcnk6IE9wdGlvbjxWYWx1ZT4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgcmVzcG9uc2Vfc3VtbWFyeTogT3B0aW9uPFZhbHVlPiwKICAgIGF0dGVtcHRfY291bnQ6IGk2NCwKICAgIHRyaWdnZXJlZF9hdDogU3RyaW5nLAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIHNlbnRfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIG5leHRfcmV0cnlfYXQ6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTm90aWZpY2F0aW9uRGVsaXZlcnlMaXN0RGF0YSB7CiAgICBkZWxpdmVyaWVzOiBWZWM8Tm90aWZpY2F0aW9uRGVsaXZlcnlEYXRhPiwKICAgIHRvdGFsOiBpNjQsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBOb3RpZmljYXRpb25EZWxpdmVyeUNsZWFyQm9keURhdGEgewogICAgcnVsZV9pZDogT3B0aW9uPFN0cmluZz4sCiAgICBwcm92aWRlcl9pZDogT3B0aW9uPFN0cmluZz4sCiAgICB0cmlnZ2VyX2lkOiBPcHRpb248U3RyaW5nPiwKICAgIHN0YXR1czogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBOb3RpZmljYXRpb25EZWxpdmVyeUNsZWFyRGF0YSB7CiAgICBkZWxldGVkX2NvdW50OiBpNjQsCn0K
+use serde::Serialize;
+use serde_json::Value;
+use utoipa::ToSchema;
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationFieldOptionData {
+    label: String,
+    value: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationHeaderConstraintsData {
+    kind: String,
+    max_items: i64,
+    max_name_bytes: i64,
+    max_value_bytes: i64,
+    max_total_bytes: i64,
+    reserved_names: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationWebhookBodyConstraintsData {
+    kind: String,
+    scope: String,
+    formats: Vec<String>,
+    variable_roots: Vec<String>,
+    max_template_bytes: i64,
+    max_sample_bytes: i64,
+    max_placeholders: i64,
+    max_rendered_bytes: i64,
+    max_content_type_bytes: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(untagged)]
+pub(super) enum NotificationSchemaConstraintsData {
+    Headers(NotificationHeaderConstraintsData),
+    WebhookBody(NotificationWebhookBodyConstraintsData),
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationSchemaFieldData {
+    key: String,
+    label: String,
+    description: Option<String>,
+    placeholder: Option<String>,
+    #[serde(rename = "type")]
+    field_type: String,
+    required: Option<bool>,
+    sensitive: Option<bool>,
+    default_value: Option<Value>,
+    options: Option<Vec<NotificationFieldOptionData>>,
+    min: Option<i64>,
+    max: Option<i64>,
+    constraints: Option<NotificationSchemaConstraintsData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationProviderCapabilitiesData {
+    supports_text: bool,
+    supports_markdown: bool,
+    supports_rich_blocks: bool,
+    supports_actions: bool,
+    supports_mentions: bool,
+    supports_attachments: bool,
+    supports_provider_dedupe_key: bool,
+    #[schema(required = true)]
+    max_body_length: Option<i64>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationProviderDefinitionData {
+    #[serde(rename = "type")]
+    provider_type: String,
+    label: String,
+    description: String,
+    connection_schema: Vec<NotificationSchemaFieldData>,
+    target_schema: Vec<NotificationSchemaFieldData>,
+    sensitive_fields: Vec<String>,
+    capabilities: NotificationProviderCapabilitiesData,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationProviderCatalogData {
+    providers: Vec<NotificationProviderDefinitionData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationProviderData {
+    id: String,
+    name: String,
+    #[serde(rename = "type")]
+    provider_type: String,
+    enabled: bool,
+    connection_config_masked: Value,
+    created_at: String,
+    updated_at: String,
+    #[schema(required = true)]
+    last_test_at: Option<String>,
+    #[schema(required = true)]
+    last_test_status: Option<String>,
+    #[schema(required = true)]
+    last_error: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationProviderDetailData {
+    id: String,
+    name: String,
+    #[serde(rename = "type")]
+    provider_type: String,
+    enabled: bool,
+    connection_config_masked: Value,
+    connection_config: Value,
+    created_at: String,
+    updated_at: String,
+    #[schema(required = true)]
+    last_test_at: Option<String>,
+    #[schema(required = true)]
+    last_test_status: Option<String>,
+    #[schema(required = true)]
+    last_error: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationProviderSnapshotData {
+    id: String,
+    name: String,
+    #[serde(rename = "type")]
+    provider_type: String,
+    enabled: bool,
+    connection_config_masked: Value,
+    created_at: String,
+    updated_at: String,
+    last_test_at: Option<String>,
+    last_test_status: Option<String>,
+    last_error: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationProviderListData {
+    providers: Vec<NotificationProviderData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationProviderCreateBodyData {
+    name: Option<String>,
+    #[serde(rename = "type")]
+    provider_type: String,
+    enabled: Option<bool>,
+    connection_config: Value,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationProviderUpdateBodyData {
+    name: Option<String>,
+    enabled: Option<bool>,
+    connection_config: Option<Value>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationProviderTestBodyData {
+    id: Option<String>,
+    name: Option<String>,
+    #[serde(rename = "type")]
+    provider_type: String,
+    enabled: Option<bool>,
+    connection_config: Value,
+    target_config: Option<Value>,
+    sample_context: Option<Value>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationWebhookBodyPreviewBodyData {
+    id: Option<String>,
+    name: Option<String>,
+    #[serde(rename = "type")]
+    provider_type: Option<String>,
+    enabled: Option<bool>,
+    connection_config: Option<Value>,
+    target_config: Option<Value>,
+    sample_context: Option<Value>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationWebhookBodyPreviewData {
+    format: String,
+    content_type: String,
+    body: String,
+    byte_length: i64,
+    missing_variables: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationProviderTestResultData {
+    #[schema(required = true)]
+    provider: Option<NotificationProviderData>,
+    #[schema(required = true)]
+    request_summary: Option<Value>,
+    #[schema(required = true)]
+    response_summary: Option<Value>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationProviderTestResponseData {
+    success: bool,
+    message: String,
+    data: NotificationProviderTestResultData,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationTemplateData {
+    title: Option<String>,
+    body_text: Option<String>,
+    body_markdown: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationDeliveryPolicyData {
+    timeout_seconds: Option<i64>,
+    max_attempts: Option<i64>,
+    backoff_seconds: Option<i64>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationTargetData {
+    id: String,
+    provider_id: String,
+    enabled: bool,
+    target_config: Value,
+    template_override_mode: String,
+    #[schema(required = true)]
+    template_override: Option<NotificationTemplateData>,
+    #[schema(required = true)]
+    delivery_policy: Option<NotificationDeliveryPolicyData>,
+    created_at: String,
+    updated_at: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationTargetInputData {
+    id: Option<String>,
+    provider_id: String,
+    enabled: Option<bool>,
+    target_config: Value,
+    template_override_mode: Option<String>,
+    template_override: Option<NotificationTemplateData>,
+    delivery_policy: Option<NotificationDeliveryPolicyData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationRuleData {
+    id: String,
+    name: String,
+    enabled: bool,
+    event_type: String,
+    event_level_filter: Option<Vec<String>>,
+    event_source_filter: Option<Vec<String>>,
+    window_seconds: i64,
+    threshold_count: i64,
+    group_by: String,
+    cooldown_seconds: i64,
+    targets: Vec<NotificationTargetData>,
+    message_template_mode: String,
+    #[schema(required = true)]
+    message_template: Option<NotificationTemplateData>,
+    created_at: String,
+    updated_at: String,
+    #[schema(required = true)]
+    last_triggered_at: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationRuleCreateBodyData {
+    enabled: Option<bool>,
+    event_type: String,
+    event_level_filter: Option<Vec<String>>,
+    event_source_filter: Option<Vec<String>>,
+    window_seconds: Option<i64>,
+    threshold_count: Option<i64>,
+    group_by: String,
+    cooldown_seconds: Option<i64>,
+    targets: Vec<NotificationTargetInputData>,
+    message_template_mode: Option<String>,
+    message_template: Option<NotificationTemplateData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationRuleUpdateBodyData {
+    enabled: Option<bool>,
+    event_type: Option<String>,
+    event_level_filter: Option<Vec<String>>,
+    event_source_filter: Option<Vec<String>>,
+    window_seconds: Option<i64>,
+    threshold_count: Option<i64>,
+    group_by: Option<String>,
+    cooldown_seconds: Option<i64>,
+    targets: Option<Vec<NotificationTargetInputData>>,
+    message_template_mode: Option<String>,
+    message_template: Option<NotificationTemplateData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationRuleListData {
+    rules: Vec<NotificationRuleData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationMessageFactData {
+    label: String,
+    value: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationMessageActionData {
+    label: String,
+    url: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationMessageData {
+    title: String,
+    summary: String,
+    body_text: String,
+    body_markdown: Option<String>,
+    severity: String,
+    facts: Vec<NotificationMessageFactData>,
+    /// Formatted detail values keyed by stable names; absent on historical messages.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    fact_values: Option<std::collections::BTreeMap<String, String>>,
+    actions: Vec<NotificationMessageActionData>,
+    mentions: Vec<String>,
+    dedupe_key: Option<String>,
+    occurred_at: String,
+    event_id: Option<String>,
+    metadata: Option<Value>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationTriggerData {
+    id: String,
+    trace_id: Option<String>,
+    rule_id: String,
+    event_id: String,
+    group_key: String,
+    matched_count: i64,
+    message_snapshot: NotificationMessageData,
+    rule_snapshot: NotificationRuleData,
+    status: String,
+    created_at: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationTriggerListData {
+    triggers: Vec<NotificationTriggerData>,
+    total: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationDeliveryData {
+    id: String,
+    trace_id: Option<String>,
+    trigger_id: String,
+    rule_id: String,
+    target_id: String,
+    provider_id: String,
+    event_id: String,
+    status: String,
+    #[schema(required = true)]
+    reason: Option<String>,
+    provider_type: String,
+    message_snapshot: NotificationMessageData,
+    target_snapshot: NotificationTargetData,
+    provider_snapshot: NotificationProviderSnapshotData,
+    #[schema(required = true)]
+    request_summary: Option<Value>,
+    #[schema(required = true)]
+    response_summary: Option<Value>,
+    attempt_count: i64,
+    triggered_at: String,
+    #[schema(required = true)]
+    sent_at: Option<String>,
+    #[schema(required = true)]
+    next_retry_at: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationDeliveryListData {
+    deliveries: Vec<NotificationDeliveryData>,
+    total: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationDeliveryClearBodyData {
+    rule_id: Option<String>,
+    provider_id: Option<String>,
+    trigger_id: Option<String>,
+    status: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct NotificationDeliveryClearData {
+    deleted_count: i64,
+}

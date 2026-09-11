@@ -1,1 +1,163 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgp0eXBlIFByb3BlcnR5U2NoZW1hID0gewogIGNvbnN0PzogbnVtYmVyOwogIGVudW0/OiBzdHJpbmdbXTsKICBtYXhpbXVtPzogbnVtYmVyOwogIG1pbmltdW0/OiBudW1iZXI7CiAgb25lT2Y/OiBQcm9wZXJ0eVNjaGVtYVtdOwogIHBhdHRlcm4/OiBzdHJpbmc7Cn07Cgp0eXBlIFBhcmFtZXRlciA9IHsKICBpbj86IHN0cmluZzsKICBuYW1lPzogc3RyaW5nOwogIHJlcXVpcmVkPzogYm9vbGVhbjsKICBzY2hlbWE/OiBQcm9wZXJ0eVNjaGVtYTsKfTsKCnR5cGUgT3BlcmF0aW9uID0gewogICJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSI/OiBzdHJpbmc7CiAgcGFyYW1ldGVycz86IFBhcmFtZXRlcltdOwogIHJlc3BvbnNlcz86IFJlY29yZDwKICAgIHN0cmluZywKICAgIHsgY29udGVudD86IFJlY29yZDxzdHJpbmcsIFJlY29yZDxzdHJpbmcsIHVua25vd24+PiB9CiAgPjsKfTsKCmNvbnN0IGNvbnRyYWN0ID0gSlNPTi5wYXJzZSgKICByZWFkU291cmNlKCIuLi8uLi8uLi9wYWNrYWdlcy9hcGktY29udHJhY3Qvb3BlbmFwaS5qc29uIiksCikgYXMgewogIGNvbXBvbmVudHM6IHsKICAgIHNjaGVtYXM6IFJlY29yZDwKICAgICAgc3RyaW5nLAogICAgICB7CiAgICAgICAgcHJvcGVydGllcz86IFJlY29yZDxzdHJpbmcsIFByb3BlcnR5U2NoZW1hPjsKICAgICAgICByZXF1aXJlZD86IHN0cmluZ1tdOwogICAgICB9CiAgICA+OwogIH07CiAgcGF0aHM6IFJlY29yZDxzdHJpbmcsIFJlY29yZDxzdHJpbmcsIE9wZXJhdGlvbj4+Owp9OwoKZGVzY3JpYmUoImRlZXAgbW9uaXRvciBBUEkgY29udHJhY3QiLCAoKSA9PiB7CiAgaXQoImtlZXBzIGFsbCBKU09OIGFuZCBzdHJlYW1pbmcgb3BlcmF0aW9ucyBvbiB0aGUgcnVudGltZSBVdG9pcGEgcm91dGVyIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBbbWV0aG9kLCBwYXRoXSBvZiBbCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vZGVlcC1tb25pdG9yL3Nlc3Npb25zIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2RlZXAtbW9uaXRvci9zZXNzaW9ucyJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL2RlZXAtbW9uaXRvci9zZXNzaW9ucy97c2Vzc2lvbl9pZH0iXSwKICAgICAgWyJkZWxldGUiLCAiL2FwaS9hZG1pbi9kZWVwLW1vbml0b3Ivc2Vzc2lvbnMve3Nlc3Npb25faWR9Il0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2RlZXAtbW9uaXRvci9zZXNzaW9ucy97c2Vzc2lvbl9pZH0vZXh0ZW5kIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2RlZXAtbW9uaXRvci9zZXNzaW9ucy97c2Vzc2lvbl9pZH0vc3RvcCJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL2RlZXAtbW9uaXRvci9zZXNzaW9ucy97c2Vzc2lvbl9pZH0vZXZlbnRzIl0sCiAgICAgIFsKICAgICAgICAiZ2V0IiwKICAgICAgICAiL2FwaS9hZG1pbi9kZWVwLW1vbml0b3Ivc2Vzc2lvbnMve3Nlc3Npb25faWR9L2V2ZW50cy97ZXZlbnRfaWR9IiwKICAgICAgXSwKICAgICAgWwogICAgICAgICJnZXQiLAogICAgICAgICIvYXBpL2FkbWluL2RlZXAtbW9uaXRvci9zZXNzaW9ucy97c2Vzc2lvbl9pZH0vZXZlbnRzL3tldmVudF9pZH0vcGF5bG9hZCIsCiAgICAgIF0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vZGVlcC1tb25pdG9yL3Nlc3Npb25zL3tzZXNzaW9uX2lkfS9saXZlIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vZGVlcC1tb25pdG9yL3Nlc3Npb25zL3tzZXNzaW9uX2lkfS9kb3dubG9hZCJdLAogICAgXSBhcyBjb25zdCkgewogICAgICBhc3NlcnQuZXF1YWwoCiAgICAgICAgY29udHJhY3QucGF0aHNbcGF0aF0/LlttZXRob2RdPy5bIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIl0sCiAgICAgICAgInV0b2lwYSIsCiAgICAgICAgYCR7bWV0aG9kLnRvVXBwZXJDYXNlKCl9ICR7cGF0aH1gLAogICAgICApOwogICAgfQogIH0pOwoKICBpdCgicHJlc2VydmVzIGR1cmF0aW9uLCBwYWdlLCBhbmQgbnVsbGFibGUgZXZlbnQgYm91bmRhcmllcyIsICgpID0+IHsKICAgIGNvbnN0IGR1cmF0aW9uID0KICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLkRlZXBNb25pdG9yU3RhcnRCb2R5RGF0YS5wcm9wZXJ0aWVzCiAgICAgICAgPy5kdXJhdGlvbl9zZWNvbmRzOwogICAgYXNzZXJ0Lm9rKGR1cmF0aW9uPy5vbmVPZj8uc29tZSgoc2NoZW1hKSA9PiBzY2hlbWEuY29uc3QgPT09IDApKTsKICAgIGFzc2VydC5vaygKICAgICAgZHVyYXRpb24/Lm9uZU9mPy5zb21lKAogICAgICAgIChzY2hlbWEpID0+IHNjaGVtYS5taW5pbXVtID09PSAzMDAgJiYgc2NoZW1hLm1heGltdW0gPT09IDdfMjAwLAogICAgICApLAogICAgKTsKICAgIGNvbnN0IGV4dGVuZER1cmF0aW9uID0KICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLkRlZXBNb25pdG9yRXh0ZW5kQm9keURhdGEucHJvcGVydGllcwogICAgICAgID8uZHVyYXRpb25fc2Vjb25kczsKICAgIGFzc2VydC5lcXVhbChleHRlbmREdXJhdGlvbj8ubWluaW11bSwgMzAwKTsKICAgIGFzc2VydC5lcXVhbChleHRlbmREdXJhdGlvbj8ubWF4aW11bSwgN18yMDApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuRGVlcE1vbml0b3JTdGFydEJvZHlEYXRhLnJlcXVpcmVkPy5pbmNsdWRlcygKICAgICAgICAiZHVyYXRpb25fc2Vjb25kcyIsCiAgICAgICkgPz8gZmFsc2UsCiAgICAgIGZhbHNlLAogICAgKTsKCiAgICBjb25zdCBldmVudFJlcXVpcmVkID0KICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLkRlZXBNb25pdG9yRXZlbnREYXRhLnJlcXVpcmVkID8/IFtdOwogICAgZm9yIChjb25zdCBmaWVsZCBvZiBbInN1bW1hcnkiLCAidGltaW5nIiwgIndlYnNvY2tldF9mcmFtZSJdKSB7CiAgICAgIGFzc2VydC5vayhldmVudFJlcXVpcmVkLmluY2x1ZGVzKGZpZWxkKSwgZmllbGQpOwogICAgfQoKICAgIGNvbnN0IGV2ZW50UGFyYW1ldGVycyA9CiAgICAgIGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL2RlZXAtbW9uaXRvci9zZXNzaW9ucy97c2Vzc2lvbl9pZH0vZXZlbnRzIl0uZ2V0CiAgICAgICAgLnBhcmFtZXRlcnMgPz8gW107CiAgICBjb25zdCBsaW1pdCA9IGV2ZW50UGFyYW1ldGVycy5maW5kKAogICAgICAocGFyYW1ldGVyKSA9PiBwYXJhbWV0ZXIubmFtZSA9PT0gImxpbWl0IiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwobGltaXQ/LnNjaGVtYT8ubWluaW11bSwgMSk7CiAgICBhc3NlcnQuZXF1YWwobGltaXQ/LnNjaGVtYT8ubWF4aW11bSwgMjAwKTsKICB9KTsKCiAgaXQoImRvY3VtZW50cyBTU0UsIGJpbmFyeSBwYXlsb2FkcywgZW1wdHkgc3RyZWFtcywgYW5kIFpJUCBkb3dubG9hZHMiLCAoKSA9PiB7CiAgICBjb25zdCBwYXlsb2FkID0KICAgICAgY29udHJhY3QucGF0aHNbCiAgICAgICAgIi9hcGkvYWRtaW4vZGVlcC1tb25pdG9yL3Nlc3Npb25zL3tzZXNzaW9uX2lkfS9ldmVudHMve2V2ZW50X2lkfS9wYXlsb2FkIgogICAgICBdLmdldDsKICAgIGFzc2VydC5vaygKICAgICAgcGF5bG9hZC5yZXNwb25zZXM/LlsiMjAwIl0/LmNvbnRlbnQ/LlsiYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtIl0sCiAgICApOwogICAgYXNzZXJ0Lm9rKHBheWxvYWQucmVzcG9uc2VzPy5bIjIwNCJdKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgcGF5bG9hZC5wYXJhbWV0ZXJzPy5maW5kKChwYXJhbWV0ZXIpID0+IHBhcmFtZXRlci5uYW1lID09PSAicGFydCIpCiAgICAgICAgPy5yZXF1aXJlZCwKICAgICAgdHJ1ZSwKICAgICk7CgogICAgY29uc3QgbGl2ZSA9CiAgICAgIGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL2RlZXAtbW9uaXRvci9zZXNzaW9ucy97c2Vzc2lvbl9pZH0vbGl2ZSJdLmdldDsKICAgIGFzc2VydC5vayhsaXZlLnJlc3BvbnNlcz8uWyIyMDAiXT8uY29udGVudD8uWyJ0ZXh0L2V2ZW50LXN0cmVhbSJdKTsKICAgIGFzc2VydC5vaygKICAgICAgbGl2ZS5wYXJhbWV0ZXJzPy5zb21lKAogICAgICAgIChwYXJhbWV0ZXIpID0+CiAgICAgICAgICBwYXJhbWV0ZXIuaW4gPT09ICJoZWFkZXIiICYmIHBhcmFtZXRlci5uYW1lID09PSAiTGFzdC1FdmVudC1JRCIsCiAgICAgICksCiAgICApOwoKICAgIGNvbnN0IGRvd25sb2FkID0KICAgICAgY29udHJhY3QucGF0aHNbIi9hcGkvYWRtaW4vZGVlcC1tb25pdG9yL3Nlc3Npb25zL3tzZXNzaW9uX2lkfS9kb3dubG9hZCJdCiAgICAgICAgLmdldDsKICAgIGFzc2VydC5vayhkb3dubG9hZC5yZXNwb25zZXM/LlsiMjAwIl0/LmNvbnRlbnQ/LlsiYXBwbGljYXRpb24vemlwIl0pOwogICAgYXNzZXJ0Lm9rKGRvd25sb2FkLnJlc3BvbnNlcz8uWyIyMDQiXSk7CiAgfSk7CgogIGl0KCJkZXJpdmVzIGZyb250ZW5kIHNlc3Npb24sIGV2ZW50LCB0aW1pbmcsIGFuZCByZXF1ZXN0IG1vZGVscyIsICgpID0+IHsKICAgIGNvbnN0IHR5cGVzID0gcmVhZFNvdXJjZSgiLi4vc3JjL3R5cGVzL2NvcmUudHMiKTsKICAgIGNvbnN0IGFwaSA9IHJlYWRTb3VyY2UoIi4uL3NyYy9saWIvYXBpL2RlZXAtbW9uaXRvci50cyIpOwogICAgZm9yIChjb25zdCBzY2hlbWEgb2YgWwogICAgICAiRGVlcE1vbml0b3JTZXNzaW9uRGF0YSIsCiAgICAgICJEZWVwTW9uaXRvckV2ZW50U3VtbWFyeURhdGEiLAogICAgICAiRGVlcE1vbml0b3JUaW1pbmdEYXRhIiwKICAgICAgIkRlZXBNb25pdG9yV2ViU29ja2V0RnJhbWVEYXRhIiwKICAgICAgIkRlZXBNb25pdG9yRXZlbnREYXRhIiwKICAgIF0pIHsKICAgICAgYXNzZXJ0Lm1hdGNoKHR5cGVzLCBuZXcgUmVnRXhwKGBcXFsiJHtzY2hlbWF9IlxcXWAsICJ1IiksIHNjaGVtYSk7CiAgICB9CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvRGVlcE1vbml0b3JTY2hlbWFzXFsiRGVlcE1vbml0b3JTdGFydEJvZHlEYXRhIlxdL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL0RlZXBNb25pdG9yU2NoZW1hc1xbIkRlZXBNb25pdG9yRXZlbnRMaXN0RGF0YSJcXS91KTsKICAgIGFzc2VydC5tYXRjaChhcGksIC9zYXRpc2ZpZXMgRGVlcE1vbml0b3JFeHRlbmRSZXF1ZXN0L3UpOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+type PropertySchema = {
+  const?: number;
+  enum?: string[];
+  maximum?: number;
+  minimum?: number;
+  oneOf?: PropertySchema[];
+  pattern?: string;
+};
+
+type Parameter = {
+  in?: string;
+  name?: string;
+  required?: boolean;
+  schema?: PropertySchema;
+};
+
+type Operation = {
+  "x-fn-knock-contract-source"?: string;
+  parameters?: Parameter[];
+  responses?: Record<
+    string,
+    { content?: Record<string, Record<string, unknown>> }
+  >;
+};
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  components: {
+    schemas: Record<
+      string,
+      {
+        properties?: Record<string, PropertySchema>;
+        required?: string[];
+      }
+    >;
+  };
+  paths: Record<string, Record<string, Operation>>;
+};
+
+describe("deep monitor API contract", () => {
+  it("keeps all JSON and streaming operations on the runtime Utoipa router", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/deep-monitor/sessions"],
+      ["post", "/api/admin/deep-monitor/sessions"],
+      ["get", "/api/admin/deep-monitor/sessions/{session_id}"],
+      ["delete", "/api/admin/deep-monitor/sessions/{session_id}"],
+      ["post", "/api/admin/deep-monitor/sessions/{session_id}/extend"],
+      ["post", "/api/admin/deep-monitor/sessions/{session_id}/stop"],
+      ["get", "/api/admin/deep-monitor/sessions/{session_id}/events"],
+      [
+        "get",
+        "/api/admin/deep-monitor/sessions/{session_id}/events/{event_id}",
+      ],
+      [
+        "get",
+        "/api/admin/deep-monitor/sessions/{session_id}/events/{event_id}/payload",
+      ],
+      ["get", "/api/admin/deep-monitor/sessions/{session_id}/live"],
+      ["get", "/api/admin/deep-monitor/sessions/{session_id}/download"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("preserves duration, page, and nullable event boundaries", () => {
+    const duration =
+      contract.components.schemas.DeepMonitorStartBodyData.properties
+        ?.duration_seconds;
+    assert.ok(duration?.oneOf?.some((schema) => schema.const === 0));
+    assert.ok(
+      duration?.oneOf?.some(
+        (schema) => schema.minimum === 300 && schema.maximum === 7_200,
+      ),
+    );
+    const extendDuration =
+      contract.components.schemas.DeepMonitorExtendBodyData.properties
+        ?.duration_seconds;
+    assert.equal(extendDuration?.minimum, 300);
+    assert.equal(extendDuration?.maximum, 7_200);
+    assert.equal(
+      contract.components.schemas.DeepMonitorStartBodyData.required?.includes(
+        "duration_seconds",
+      ) ?? false,
+      false,
+    );
+
+    const eventRequired =
+      contract.components.schemas.DeepMonitorEventData.required ?? [];
+    for (const field of ["summary", "timing", "websocket_frame"]) {
+      assert.ok(eventRequired.includes(field), field);
+    }
+
+    const eventParameters =
+      contract.paths["/api/admin/deep-monitor/sessions/{session_id}/events"].get
+        .parameters ?? [];
+    const limit = eventParameters.find(
+      (parameter) => parameter.name === "limit",
+    );
+    assert.equal(limit?.schema?.minimum, 1);
+    assert.equal(limit?.schema?.maximum, 200);
+  });
+
+  it("documents SSE, binary payloads, empty streams, and ZIP downloads", () => {
+    const payload =
+      contract.paths[
+        "/api/admin/deep-monitor/sessions/{session_id}/events/{event_id}/payload"
+      ].get;
+    assert.ok(
+      payload.responses?.["200"]?.content?.["application/octet-stream"],
+    );
+    assert.ok(payload.responses?.["204"]);
+    assert.equal(
+      payload.parameters?.find((parameter) => parameter.name === "part")
+        ?.required,
+      true,
+    );
+
+    const live =
+      contract.paths["/api/admin/deep-monitor/sessions/{session_id}/live"].get;
+    assert.ok(live.responses?.["200"]?.content?.["text/event-stream"]);
+    assert.ok(
+      live.parameters?.some(
+        (parameter) =>
+          parameter.in === "header" && parameter.name === "Last-Event-ID",
+      ),
+    );
+
+    const download =
+      contract.paths["/api/admin/deep-monitor/sessions/{session_id}/download"]
+        .get;
+    assert.ok(download.responses?.["200"]?.content?.["application/zip"]);
+    assert.ok(download.responses?.["204"]);
+  });
+
+  it("derives frontend session, event, timing, and request models", () => {
+    const types = readSource("../src/types/core.ts");
+    const api = readSource("../src/lib/api/deep-monitor.ts");
+    for (const schema of [
+      "DeepMonitorSessionData",
+      "DeepMonitorEventSummaryData",
+      "DeepMonitorTimingData",
+      "DeepMonitorWebSocketFrameData",
+      "DeepMonitorEventData",
+    ]) {
+      assert.match(types, new RegExp(`\\["${schema}"\\]`, "u"), schema);
+    }
+    assert.match(api, /DeepMonitorSchemas\["DeepMonitorStartBodyData"\]/u);
+    assert.match(api, /DeepMonitorSchemas\["DeepMonitorEventListData"\]/u);
+    assert.match(api, /satisfies DeepMonitorExtendRequest/u);
+  });
+});

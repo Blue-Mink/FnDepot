@@ -1,1 +1,118 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCBDb25maXJtRGFuZ2VyUG9wb3ZlciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0NvbmZpcm1EYW5nZXJQb3BvdmVyLnZ1ZSI7CmltcG9ydCBIdW1hbkZyaWVuZGx5VGltZSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0h1bWFuRnJpZW5kbHlUaW1lLnZ1ZSI7CmltcG9ydCB7IFRyYXNoMiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB0eXBlIHsgSXBXaGl0ZWxpc3RQYWdlQ29udHJvbGxlciB9IGZyb20gIi4vdXNlSXBXaGl0ZWxpc3RQYWdlIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8eyBjb250cm9sbGVyOiBJcFdoaXRlbGlzdFBhZ2VDb250cm9sbGVyIH0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCB7CiAgZm9ybWF0UmVnaW9uSW5wdXQsCiAgZm9ybWF0UmVtYWluaW5nLAogIGlzSW5pdGlhbGl6aW5nLAogIHJlZ2lvbkdyb3VwTGFiZWwsCiAgcmVnaW9uR3JvdXBzLAogIHJlbW92ZVJlZ2lvbkdyb3VwLAogIHJlbW92aW5nUmVnaW9uR3JvdXBJZCwKfSA9IHByb3BzLmNvbnRyb2xsZXI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYKICAgIHYtaWY9IiFpc0luaXRpYWxpemluZyAmJiByZWdpb25Hcm91cHMubGVuZ3RoID4gMCIKICAgIGNsYXNzPSJtdC02IHJvdW5kZWQtbWQgYm9yZGVyIgogID4KICAgIDxkaXYKICAgICAgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtMyBib3JkZXItYiBweC00IHB5LTMiCiAgICA+CiAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAgc3BhY2UteS0xIj4KICAgICAgICA8aDMgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAge3sgdCgiYWRtaW4uaXBXaGl0ZWxpc3QucmVnaW9uR3JvdXBzVGl0bGUiKSB9fQogICAgICAgIDwvaDM+CiAgICAgICAgPHAgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7IHQoImFkbWluLmlwV2hpdGVsaXN0LnJlZ2lvbkdyb3Vwc0Rlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgICA8QmFkZ2UgdmFyaWFudD0ic2Vjb25kYXJ5Ij4KICAgICAgICB7ewogICAgICAgICAgdCgiYWRtaW4uaXBXaGl0ZWxpc3QucmVnaW9uR3JvdXBzQ291bnQiLCB7CiAgICAgICAgICAgIGNvdW50OiByZWdpb25Hcm91cHMubGVuZ3RoLAogICAgICAgICAgfSkKICAgICAgICB9fQogICAgICA8L0JhZGdlPgogICAgPC9kaXY+CgogICAgPGRpdiBjbGFzcz0iZGl2aWRlLXkiPgogICAgICA8ZGl2CiAgICAgICAgdi1mb3I9Imdyb3VwIGluIHJlZ2lvbkdyb3VwcyIKICAgICAgICA6a2V5PSJncm91cC5pZCIKICAgICAgICBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC00IHB4LTQgcHktNCIKICAgICAgPgogICAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAgZmxleC0xIHNwYWNlLXktMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICAgICAgICAgIDxCYWRnZQogICAgICAgICAgICAgIHYtZm9yPSJyZWdpb24gaW4gZ3JvdXAucmVnaW9ucyIKICAgICAgICAgICAgICA6a2V5PSJgJHtncm91cC5pZH06JHtmb3JtYXRSZWdpb25JbnB1dChyZWdpb24pfWAiCiAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICBjbGFzcz0ibWF4LXctZnVsbCB3aGl0ZXNwYWNlLW5vcm1hbCB0ZXh0LWxlZnQgZm9udC1ub3JtYWwiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyBmb3JtYXRSZWdpb25JbnB1dChyZWdpb24pIH19CiAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAteC00IGdhcC15LTEgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxzcGFuPgogICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICB0KCJhZG1pbi5pcFdoaXRlbGlzdC5yZWdpb25Hcm91cENpZHJDb3VudCIsIHsKICAgICAgICAgICAgICAgICAgY291bnQ6IGdyb3VwLmNpZHJDb3VudCwKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8c3BhbiB2LWlmPSJncm91cC5leHBpcmVBdCI+CiAgICAgICAgICAgICAge3sgZm9ybWF0UmVtYWluaW5nKGdyb3VwLmV4cGlyZUF0KSB9fQogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIHYtZWxzZSBjbGFzcz0idGV4dC1ncmVlbi02MDAiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmlwV2hpdGVsaXN0LnBlcm1hbmVudCIpIH19CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBXaGl0ZWxpc3QuY3JlYXRlZEF0IikgfX0KICAgICAgICAgICAgICA8SHVtYW5GcmllbmRseVRpbWUgOnZhbHVlPSJncm91cC5jcmVhdGVkQXQgKiAxMDAwIiAvPgogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxwIHYtaWY9Imdyb3VwLmNvbW1lbnQiIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IGdyb3VwLmNvbW1lbnQgfX0KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPENvbmZpcm1EYW5nZXJQb3BvdmVyCiAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLmlwV2hpdGVsaXN0LnJlZ2lvbkdyb3VwRGVsZXRlVGl0bGUnKSIKICAgICAgICAgIDpkZXNjcmlwdGlvbj0iCiAgICAgICAgICAgIHQoJ2FkbWluLmlwV2hpdGVsaXN0LnJlZ2lvbkdyb3VwRGVsZXRlRGVzY3JpcHRpb24nLCB7CiAgICAgICAgICAgICAgdGFyZ2V0OiByZWdpb25Hcm91cExhYmVsKGdyb3VwKSwKICAgICAgICAgICAgfSkKICAgICAgICAgICIKICAgICAgICAgIDpsb2FkaW5nPSJyZW1vdmluZ1JlZ2lvbkdyb3VwSWQgPT09IGdyb3VwLmlkIgogICAgICAgICAgOmRpc2FibGVkPSJyZW1vdmluZ1JlZ2lvbkdyb3VwSWQgPT09IGdyb3VwLmlkIgogICAgICAgICAgOm9uLWNvbmZpcm09IigpID0+IHJlbW92ZVJlZ2lvbkdyb3VwKGdyb3VwLmlkKSIKICAgICAgICAgIGNvbnRlbnQtY2xhc3M9InctNjQgdGV4dC1sZWZ0IgogICAgICAgID4KICAgICAgICAgIDx0ZW1wbGF0ZSAjdHJpZ2dlcj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgIHNpemU9Imljb24iCiAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2NvbW1vbi5jb25maXJtRGVsZXRlJykiCiAgICAgICAgICAgICAgY2xhc3M9ImgtOCB3LTggdGV4dC1kZXN0cnVjdGl2ZSBob3ZlcjpiZy1kZXN0cnVjdGl2ZS8xMCBob3Zlcjp0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0icmVtb3ZpbmdSZWdpb25Hcm91cElkID09PSBncm91cC5pZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxUcmFzaDIgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICA8L0NvbmZpcm1EYW5nZXJQb3BvdmVyPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import { Trash2 } from "lucide-vue-next";
+import type { IpWhitelistPageController } from "./useIpWhitelistPage";
+
+const props = defineProps<{ controller: IpWhitelistPageController }>();
+const { t } = useI18n();
+const {
+  formatRegionInput,
+  formatRemaining,
+  isInitializing,
+  regionGroupLabel,
+  regionGroups,
+  removeRegionGroup,
+  removingRegionGroupId,
+} = props.controller;
+</script>
+
+<template>
+  <div
+    v-if="!isInitializing && regionGroups.length > 0"
+    class="mt-6 rounded-md border"
+  >
+    <div
+      class="flex flex-wrap items-start justify-between gap-3 border-b px-4 py-3"
+    >
+      <div class="min-w-0 space-y-1">
+        <h3 class="text-sm font-medium">
+          {{ t("admin.ipWhitelist.regionGroupsTitle") }}
+        </h3>
+        <p class="text-sm text-muted-foreground">
+          {{ t("admin.ipWhitelist.regionGroupsDescription") }}
+        </p>
+      </div>
+      <Badge variant="secondary">
+        {{
+          t("admin.ipWhitelist.regionGroupsCount", {
+            count: regionGroups.length,
+          })
+        }}
+      </Badge>
+    </div>
+
+    <div class="divide-y">
+      <div
+        v-for="group in regionGroups"
+        :key="group.id"
+        class="flex flex-wrap items-start justify-between gap-4 px-4 py-4"
+      >
+        <div class="min-w-0 flex-1 space-y-2">
+          <div class="flex flex-wrap gap-2">
+            <Badge
+              v-for="region in group.regions"
+              :key="`${group.id}:${formatRegionInput(region)}`"
+              variant="outline"
+              class="max-w-full whitespace-normal text-left font-normal"
+            >
+              {{ formatRegionInput(region) }}
+            </Badge>
+          </div>
+          <div
+            class="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-foreground"
+          >
+            <span>
+              {{
+                t("admin.ipWhitelist.regionGroupCidrCount", {
+                  count: group.cidrCount,
+                })
+              }}
+            </span>
+            <span v-if="group.expireAt">
+              {{ formatRemaining(group.expireAt) }}
+            </span>
+            <span v-else class="text-green-600">
+              {{ t("admin.ipWhitelist.permanent") }}
+            </span>
+            <span>
+              {{ t("admin.ipWhitelist.createdAt") }}
+              <HumanFriendlyTime :value="group.createdAt * 1000" />
+            </span>
+          </div>
+          <p v-if="group.comment" class="text-sm text-muted-foreground">
+            {{ group.comment }}
+          </p>
+        </div>
+
+        <ConfirmDangerPopover
+          :title="t('admin.ipWhitelist.regionGroupDeleteTitle')"
+          :description="
+            t('admin.ipWhitelist.regionGroupDeleteDescription', {
+              target: regionGroupLabel(group),
+            })
+          "
+          :loading="removingRegionGroupId === group.id"
+          :disabled="removingRegionGroupId === group.id"
+          :on-confirm="() => removeRegionGroup(group.id)"
+          content-class="w-64 text-left"
+        >
+          <template #trigger>
+            <Button
+              variant="ghost"
+              size="icon"
+              :aria-label="t('common.confirmDelete')"
+              class="h-8 w-8 text-destructive hover:bg-destructive/10 hover:text-destructive"
+              :disabled="removingRegionGroupId === group.id"
+            >
+              <Trash2 class="h-4 w-4" />
+            </Button>
+          </template>
+        </ConfirmDangerPopover>
+      </div>
+    </div>
+  </div>
+</template>

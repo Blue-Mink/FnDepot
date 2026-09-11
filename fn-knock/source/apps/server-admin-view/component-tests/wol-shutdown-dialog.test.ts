@@ -1,1 +1,107 @@
-aW1wb3J0IHsgRE9NV3JhcHBlciwgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBuZXh0VGljayB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IGNyZWF0ZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IGFmdGVyRWFjaCwgYmVmb3JlRWFjaCwgZGVzY3JpYmUsIGV4cGVjdCwgaXQsIHZpIH0gZnJvbSAidml0ZXN0IjsKaW1wb3J0IHR5cGUgeyBXT0xUYXJnZXQgfSBmcm9tICIuLi9zcmMvbGliL2FwaS93b2wiOwppbXBvcnQgV09MU2h1dGRvd25EaWFsb2cgZnJvbSAiLi4vc3JjL3ZpZXdzL3dvbC1tYW5hZ2VtZW50L1dPTFNodXRkb3duRGlhbG9nLnZ1ZSI7Cgpjb25zdCBpMThuID0gY3JlYXRlSTE4bih7CiAgbGVnYWN5OiBmYWxzZSwKICBsb2NhbGU6ICJlbiIsCiAgbWVzc2FnZXM6IHsKICAgIGVuOiB7CiAgICAgIGNvbW1vbjogeyBjYW5jZWw6ICJDYW5jZWwiIH0sCiAgICAgIGFkbWluOiB7CiAgICAgICAgd29sOiB7CiAgICAgICAgICBzc2g6IHsKICAgICAgICAgICAgc2h1dGRvd25UaXRsZTogIlNodXQgZG93biIsCiAgICAgICAgICAgIHNodXRkb3duRGVzY3JpcHRpb246ICJTaHV0IGRvd24ge3RhcmdldH0gdGhyb3VnaCB7aG9zdH0iLAogICAgICAgICAgICBzaHV0ZG93bldhcm5pbmc6ICJVbnNhdmVkIGRhdGEgbWF5IGJlIGxvc3QuIiwKICAgICAgICAgICAgY29uZmlybVNodXRkb3duOiAiQ29uZmlybSBzaHV0ZG93biIsCiAgICAgICAgICAgIGNvbmZpcm1TaHV0ZG93bkNvdW50ZG93bjogIkNvbmZpcm0gc2h1dGRvd24gKHtzZWNvbmRzfSkiLAogICAgICAgICAgfSwKICAgICAgICB9LAogICAgICB9LAogICAgfSwKICB9LAp9KTsKCmNvbnN0IHRhcmdldCA9IHsKICBpZDogImRlc2t0b3AtMSIsCiAgbmFtZTogIk9mZmljZSBQQyIsCiAgc3NoOiB7CiAgICBlbmFibGVkOiB0cnVlLAogICAgaG9zdDogIjE5Mi4wLjIuMTAiLAogICAgcG9ydDogMjIsCiAgICB1c2VybmFtZTogIm9wZXJhdG9yIiwKICAgIHBsYXRmb3JtOiAibGludXgiLAogICAgYXV0aE1ldGhvZDogInByaXZhdGVLZXkiLAogICAgaG9zdEtleUFsZ29yaXRobTogInNzaC1lZDI1NTE5IiwKICAgIGhvc3RLZXlGaW5nZXJwcmludDogIlNIQTI1NjpleGFtcGxlIiwKICAgIGNyZWRlbnRpYWxDb25maWd1cmVkOiB0cnVlLAogICAgcGFzc3BocmFzZUNvbmZpZ3VyZWQ6IGZhbHNlLAogIH0sCn0gYXMgV09MVGFyZ2V0OwoKY29uc3QgY29uZmlybUJ1dHRvbiA9ICgpID0+IHsKICBjb25zdCBlbGVtZW50ID0gZG9jdW1lbnQuYm9keS5xdWVyeVNlbGVjdG9yPEhUTUxFbGVtZW50PigKICAgICdbZGF0YS10ZXN0aWQ9IndvbC1jb25maXJtLXNodXRkb3duIl0nLAogICk7CiAgZXhwZWN0KGVsZW1lbnQpLm5vdC50b0JlTnVsbCgpOwogIHJldHVybiBuZXcgRE9NV3JhcHBlcihlbGVtZW50ISk7Cn07CgpkZXNjcmliZSgiV09MU2h1dGRvd25EaWFsb2ciLCAoKSA9PiB7CiAgYmVmb3JlRWFjaCgoKSA9PiB7CiAgICB2aS51c2VGYWtlVGltZXJzKCk7CiAgICB2aS5zZXRTeXN0ZW1UaW1lKG5ldyBEYXRlKCIyMDI2LTA4LTE3VDAwOjAwOjAwWiIpKTsKICAgIGRvY3VtZW50LmJvZHkucmVwbGFjZUNoaWxkcmVuKCk7CiAgfSk7CgogIGFmdGVyRWFjaCgoKSA9PiB7CiAgICB2aS51c2VSZWFsVGltZXJzKCk7CiAgfSk7CgogIGl0KCJjYW5ub3QgY29uZmlybSBiZWZvcmUgMzAwMG1zIGFuZCByZXNldHMgdGhlIGRlYWRsaW5lIHdoZW4gcmVvcGVuZWQiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoV09MU2h1dGRvd25EaWFsb2csIHsKICAgICAgcHJvcHM6IHsgb3BlbjogZmFsc2UsIHRhcmdldCwgbG9hZGluZzogZmFsc2UgfSwKICAgICAgZ2xvYmFsOiB7IHBsdWdpbnM6IFtpMThuXSB9LAogICAgfSk7CiAgICBhd2FpdCB3cmFwcGVyLnNldFByb3BzKHsgb3BlbjogdHJ1ZSB9KTsKICAgIGF3YWl0IG5leHRUaWNrKCk7CgogICAgZXhwZWN0KGNvbmZpcm1CdXR0b24oKS5hdHRyaWJ1dGVzKCJkaXNhYmxlZCIpKS50b0JlRGVmaW5lZCgpOwogICAgYXdhaXQgdmkuYWR2YW5jZVRpbWVyc0J5VGltZUFzeW5jKDJfOTk5KTsKICAgIGF3YWl0IGNvbmZpcm1CdXR0b24oKS50cmlnZ2VyKCJjbGljayIpOwogICAgZXhwZWN0KHdyYXBwZXIuZW1pdHRlZCgiY29uZmlybSIpKS50b0JlVW5kZWZpbmVkKCk7CgogICAgYXdhaXQgdmkuYWR2YW5jZVRpbWVyc0J5VGltZUFzeW5jKDEpOwogICAgYXdhaXQgbmV4dFRpY2soKTsKICAgIGV4cGVjdChjb25maXJtQnV0dG9uKCkuYXR0cmlidXRlcygiZGlzYWJsZWQiKSkudG9CZVVuZGVmaW5lZCgpOwogICAgYXdhaXQgY29uZmlybUJ1dHRvbigpLnRyaWdnZXIoImNsaWNrIik7CiAgICBleHBlY3Qod3JhcHBlci5lbWl0dGVkKCJjb25maXJtIikpLnRvSGF2ZUxlbmd0aCgxKTsKCiAgICBhd2FpdCB3cmFwcGVyLnNldFByb3BzKHsgb3BlbjogZmFsc2UgfSk7CiAgICBhd2FpdCB3cmFwcGVyLnNldFByb3BzKHsgb3BlbjogdHJ1ZSB9KTsKICAgIGV4cGVjdChjb25maXJtQnV0dG9uKCkuYXR0cmlidXRlcygiZGlzYWJsZWQiKSkudG9CZURlZmluZWQoKTsKICAgIGF3YWl0IGNvbmZpcm1CdXR0b24oKS50cmlnZ2VyKCJrZXlkb3duIiwgeyBrZXk6ICJFbnRlciIgfSk7CiAgICBleHBlY3Qod3JhcHBlci5lbWl0dGVkKCJjb25maXJtIikpLnRvSGF2ZUxlbmd0aCgxKTsKICB9KTsKCiAgaXQoImNhbmNlbHMgd2l0aG91dCBzZW5kaW5nIGEgY29uZmlybWF0aW9uIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KFdPTFNodXRkb3duRGlhbG9nLCB7CiAgICAgIHByb3BzOiB7IG9wZW46IGZhbHNlLCB0YXJnZXQsIGxvYWRpbmc6IGZhbHNlIH0sCiAgICAgIGdsb2JhbDogeyBwbHVnaW5zOiBbaTE4bl0gfSwKICAgIH0pOwogICAgYXdhaXQgd3JhcHBlci5zZXRQcm9wcyh7IG9wZW46IHRydWUgfSk7CiAgICBhd2FpdCBuZXh0VGljaygpOwoKICAgIGNvbnN0IGNhbmNlbCA9IFsuLi5kb2N1bWVudC5ib2R5LnF1ZXJ5U2VsZWN0b3JBbGwoImJ1dHRvbiIpXS5maW5kKAogICAgICAoYnV0dG9uKSA9PiBidXR0b24udGV4dENvbnRlbnQ/LnRyaW0oKSA9PT0gIkNhbmNlbCIsCiAgICApOwogICAgZXhwZWN0KGNhbmNlbCkudG9CZURlZmluZWQoKTsKICAgIGF3YWl0IG5ldyBET01XcmFwcGVyKGNhbmNlbCEpLnRyaWdnZXIoImNsaWNrIik7CiAgICBleHBlY3Qod3JhcHBlci5lbWl0dGVkKCJ1cGRhdGU6b3BlbiIpKS50b0VxdWFsKFtbZmFsc2VdXSk7CiAgICBleHBlY3Qod3JhcHBlci5lbWl0dGVkKCJjb25maXJtIikpLnRvQmVVbmRlZmluZWQoKTsKICB9KTsKfSk7Cg==
+import { DOMWrapper, mount } from "@vue/test-utils";
+import { nextTick } from "vue";
+import { createI18n } from "vue-i18n";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import type { WOLTarget } from "../src/lib/api/wol";
+import WOLShutdownDialog from "../src/views/wol-management/WOLShutdownDialog.vue";
+
+const i18n = createI18n({
+  legacy: false,
+  locale: "en",
+  messages: {
+    en: {
+      common: { cancel: "Cancel" },
+      admin: {
+        wol: {
+          ssh: {
+            shutdownTitle: "Shut down",
+            shutdownDescription: "Shut down {target} through {host}",
+            shutdownWarning: "Unsaved data may be lost.",
+            confirmShutdown: "Confirm shutdown",
+            confirmShutdownCountdown: "Confirm shutdown ({seconds})",
+          },
+        },
+      },
+    },
+  },
+});
+
+const target = {
+  id: "desktop-1",
+  name: "Office PC",
+  ssh: {
+    enabled: true,
+    host: "192.0.2.10",
+    port: 22,
+    username: "operator",
+    platform: "linux",
+    authMethod: "privateKey",
+    hostKeyAlgorithm: "ssh-ed25519",
+    hostKeyFingerprint: "SHA256:example",
+    credentialConfigured: true,
+    passphraseConfigured: false,
+  },
+} as WOLTarget;
+
+const confirmButton = () => {
+  const element = document.body.querySelector<HTMLElement>(
+    '[data-testid="wol-confirm-shutdown"]',
+  );
+  expect(element).not.toBeNull();
+  return new DOMWrapper(element!);
+};
+
+describe("WOLShutdownDialog", () => {
+  beforeEach(() => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date("2026-08-17T00:00:00Z"));
+    document.body.replaceChildren();
+  });
+
+  afterEach(() => {
+    vi.useRealTimers();
+  });
+
+  it("cannot confirm before 3000ms and resets the deadline when reopened", async () => {
+    const wrapper = mount(WOLShutdownDialog, {
+      props: { open: false, target, loading: false },
+      global: { plugins: [i18n] },
+    });
+    await wrapper.setProps({ open: true });
+    await nextTick();
+
+    expect(confirmButton().attributes("disabled")).toBeDefined();
+    await vi.advanceTimersByTimeAsync(2_999);
+    await confirmButton().trigger("click");
+    expect(wrapper.emitted("confirm")).toBeUndefined();
+
+    await vi.advanceTimersByTimeAsync(1);
+    await nextTick();
+    expect(confirmButton().attributes("disabled")).toBeUndefined();
+    await confirmButton().trigger("click");
+    expect(wrapper.emitted("confirm")).toHaveLength(1);
+
+    await wrapper.setProps({ open: false });
+    await wrapper.setProps({ open: true });
+    expect(confirmButton().attributes("disabled")).toBeDefined();
+    await confirmButton().trigger("keydown", { key: "Enter" });
+    expect(wrapper.emitted("confirm")).toHaveLength(1);
+  });
+
+  it("cancels without sending a confirmation", async () => {
+    const wrapper = mount(WOLShutdownDialog, {
+      props: { open: false, target, loading: false },
+      global: { plugins: [i18n] },
+    });
+    await wrapper.setProps({ open: true });
+    await nextTick();
+
+    const cancel = [...document.body.querySelectorAll("button")].find(
+      (button) => button.textContent?.trim() === "Cancel",
+    );
+    expect(cancel).toBeDefined();
+    await new DOMWrapper(cancel!).trigger("click");
+    expect(wrapper.emitted("update:open")).toEqual([[false]]);
+    expect(wrapper.emitted("confirm")).toBeUndefined();
+  });
+});

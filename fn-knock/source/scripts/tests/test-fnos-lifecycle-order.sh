@@ -1,1 +1,279 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCldPUktfRElSPSIkKG1rdGVtcCAtZCAiJHtUTVBESVI6LS90bXB9L2ZuLWtub2NrLWxpZmVjeWNsZS10ZXN0LlhYWFhYWCIpIgpNQUlOX0VOVFJZUE9JTlQ9IiR7Uk9PVF9ESVJ9L2FwcHMvZm4ta25vY2svY21kL21haW4iCkxJVEVfRU5UUllQT0lOVD0iJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay1saXRlL2NtZC9tYWluIgpMSU5VWF9FTlRSWVBPSU5UPSIke1JPT1RfRElSfS9kZXBsb3kvbGludXgvZm4ta25vY2stZW50cnlwb2ludCIKTUFDT1NfRU5UUllQT0lOVD0iJHtST09UX0RJUn0vZGVwbG95L21hY29zL2ZuLWtub2NrLWVudHJ5cG9pbnQiCkRPQ0tFUl9FTlRSWVBPSU5UPSIke1JPT1RfRElSfS9kZXBsb3kvZG9ja2VyL2VudHJ5cG9pbnQuc2giClNZTk9MT0dZX0VOVFJZUE9JTlQ9IiR7Uk9PVF9ESVJ9L2FwcHMvZm4ta25vY2stc3lub2xvZ3kvcGFja2FnZS9iaW4vZm4ta25vY2stZW50cnlwb2ludCIKU1lOT0xPR1lfTElGRUNZQ0xFPSIke1JPT1RfRElSfS9hcHBzL2ZuLWtub2NrLXN5bm9sb2d5L3NjcmlwdHMvc3RhcnQtc3RvcC1zdGF0dXMiCldJTkRPV1NfU0VSVklDRT0iJHtST09UX0RJUn0vYXBwcy9zZXJ2ZXItYWRtaW4tcnMvc3JjL3dpbmRvd3Nfc2VydmljZS5ycyIKREVQTE9ZX1NDUklQVD0iJHtST09UX0RJUn0vc2NyaXB0cy9mbi1rbm9jay1kZXBsb3kuc2giClVOSU5TVEFMTF9DQUxMQkFDSz0iJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay9jbWQvdW5pbnN0YWxsX2NhbGxiYWNrIgoKY2xlYW51cCgpIHsKICBybSAtcmYgIiR7V09SS19ESVJ9Igp9CnRyYXAgY2xlYW51cCBFWElUCgpmYWlsKCkgewogIHByaW50ZiAnW3Rlc3QtZm5vcy1saWZlY3ljbGUtb3JkZXJdIEVSUk9SOiAlc1xuJyAiJCoiID4mMgogIGV4aXQgMQp9CgpsaW5lX2ZvcigpIHsKICBsb2NhbCBzb3VyY2U9IiQxIiBwYXR0ZXJuPSIkMiIKICBsb2NhbCBsaW5lPSIiCiAgbGluZT0iJChwcmludGYgJyVzXG4nICIke3NvdXJjZX0iIHwgZ3JlcCAtbkYgIiR7cGF0dGVybn0iIHwgaGVhZCAtbiAxIHwgY3V0IC1kOiAtZjEpIgogIFsgLW4gIiR7bGluZX0iIF0gfHwgZmFpbCAibWlzc2luZyBsaWZlY3ljbGUgc3RlcDogJHtwYXR0ZXJufSIKICBwcmludGYgJyVzXG4nICIke2xpbmV9Igp9Cgphc3NlcnRfYmVmb3JlKCkgewogIGxvY2FsIHNvdXJjZT0iJDEiIGZpcnN0PSIkMiIgc2Vjb25kPSIkMyIKICBsb2NhbCBmaXJzdF9saW5lIHNlY29uZF9saW5lCiAgZmlyc3RfbGluZT0iJChsaW5lX2ZvciAiJHtzb3VyY2V9IiAiJHtmaXJzdH0iKSIKICBzZWNvbmRfbGluZT0iJChsaW5lX2ZvciAiJHtzb3VyY2V9IiAiJHtzZWNvbmR9IikiCiAgWyAiJHtmaXJzdF9saW5lfSIgLWx0ICIke3NlY29uZF9saW5lfSIgXSB8fCBcCiAgICBmYWlsICJleHBlY3RlZCAnJHtmaXJzdH0nIGJlZm9yZSAnJHtzZWNvbmR9JyIKfQoKZXh0cmFjdF9zdG9wX2JvZHkoKSB7CiAgYXdrICcKICAgIC9ec3RvcFwoXCkgXHsvIHsgY2FwdHVyZSA9IDEgfQogICAgY2FwdHVyZSB7IHByaW50IH0KICAgIGNhcHR1cmUgJiYgL159LyB7IGV4aXQgfQogICcgIiQxIgp9CgpleHRyYWN0X3N0YXJ0X2JvZHkoKSB7CiAgYXdrICcKICAgIC9ec3RhcnRcKFwpIFx7LyB7IGNhcHR1cmUgPSAxIH0KICAgIGNhcHR1cmUgeyBwcmludCB9CiAgICBjYXB0dXJlICYmIC9efS8geyBleGl0IH0KICAnICIkMSIKfQoKZm9yIGVudHJ5cG9pbnQgaW4gXAogICIke01BSU5fRU5UUllQT0lOVH0iIFwKICAiJHtMSVRFX0VOVFJZUE9JTlR9IiBcCiAgIiR7TElOVVhfRU5UUllQT0lOVH0iIFwKICAiJHtNQUNPU19FTlRSWVBPSU5UfSIgXAogICIke0RPQ0tFUl9FTlRSWVBPSU5UfSIgXAogICIke1NZTk9MT0dZX0VOVFJZUE9JTlR9IgpkbwogIGJhc2ggLW4gIiR7ZW50cnlwb2ludH0iCmRvbmUKc2ggLW4gIiR7U1lOT0xPR1lfTElGRUNZQ0xFfSIKYmFzaCAtbiAiJHtERVBMT1lfU0NSSVBUfSIKYmFzaCAtbiAiJHtVTklOU1RBTExfQ0FMTEJBQ0t9IgoKbWFpbl9zdG9wX2JvZHk9IiQoZXh0cmFjdF9zdG9wX2JvZHkgIiR7TUFJTl9FTlRSWVBPSU5UfSIpIgptYWluX3N0YXJ0X2JvZHk9IiQoZXh0cmFjdF9zdGFydF9ib2R5ICIke01BSU5fRU5UUllQT0lOVH0iKSIKbGl0ZV9zdG9wX2JvZHk9IiQoZXh0cmFjdF9zdG9wX2JvZHkgIiR7TElURV9FTlRSWVBPSU5UfSIpIgoKcHJpbnRmICclc1xuJyAiJHttYWluX3N0YXJ0X2JvZHl9IiB8IGdyZXAgLUZxIFwKICAnaWYgISBwcmVwYXJlX2ZuX2Nvbm5lY3Rfd2FmX2Zvcl9zdGFydDsgdGhlbicgfHwgXAogIGZhaWwgJ2ZuT1Mgc3RhcnR1cCBubyBsb25nZXIgYXBwbGllcyB0aGUgV0FGIGNsZWFudXAgc3RhcnR1cCBwb2xpY3knCgphc3NlcnRfYmVmb3JlICIke21haW5fc3RvcF9ib2R5fSIgXAogICdpZiAhIGNsZWFudXBfZm5fY29ubmVjdF93YWZfZm9yX3N0b3AgMTsgdGhlbicgXAogICdpZiAhIHN0b3Bfc2VydmljZSAiJHtHQVRFV0FZX1BJRF9GSUxFfSIgIkdhdGV3YXkiOyB0aGVuJwphc3NlcnRfYmVmb3JlICIke21haW5fc3RvcF9ib2R5fSIgXAogICdpZiAhIHN0b3Bfc2VydmljZSAiJHtHQVRFV0FZX1BJRF9GSUxFfSIgIkdhdGV3YXkiOyB0aGVuJyBcCiAgJ2lmICEgc3RvcF9tYXRjaGluZ19wcm9jZXNzZXMgIiR7R0FURVdBWV9CSU59IiAiR2F0ZXdheSI7IHRoZW4nCmFzc2VydF9iZWZvcmUgIiR7bWFpbl9zdG9wX2JvZHl9IiBcCiAgJ2lmICEgc3RvcF9tYXRjaGluZ19wcm9jZXNzZXMgIiR7R0FURVdBWV9CSU59IiAiR2F0ZXdheSI7IHRoZW4nIFwKICAnaWYgISBzdG9wX3NlcnZpY2UgIiR7QkFDS0VORF9QSURfRklMRX0iICJCYWNrZW5kIjsgdGhlbicKYXNzZXJ0X2JlZm9yZSAiJHttYWluX3N0b3BfYm9keX0iIFwKICAnaWYgISBzdG9wX3NlcnZpY2UgIiR7QkFDS0VORF9QSURfRklMRX0iICJCYWNrZW5kIjsgdGhlbicgXAogICdpZiAhIHN0b3BfbWF0Y2hpbmdfcHJvY2Vzc2VzICIke0JBQ0tFTkRfRU5UUll9IiAiQmFja2VuZCI7IHRoZW4nCmFzc2VydF9iZWZvcmUgIiR7bWFpbl9zdG9wX2JvZHl9IiBcCiAgJ2lmICEgc3RvcF9tYXRjaGluZ19wcm9jZXNzZXMgIiR7QkFDS0VORF9FTlRSWX0iICJCYWNrZW5kIjsgdGhlbicgXAogICdybSAtZiAiJHtSRUFESU5FU1NfTUFSS0VSfSInCgpwcmludGYgJyVzXG4nICIke21haW5fc3RvcF9ib2R5fSIgfCBncmVwIC1GcSBcCiAgJ2JhY2tlbmQga2VwdCBydW5uaW5nIHRvIHByZXNlcnZlIHRoZSBhdXRoIHVwc3RyZWFtJyB8fCBcCiAgZmFpbCAnZ2F0ZXdheSBmYWlsdXJlIG5vIGxvbmdlciBwcmVzZXJ2ZXMgdGhlIGF1dGggdXBzdHJlYW0nClsgIiQocHJpbnRmICclc1xuJyAiJHttYWluX3N0b3BfYm9keX0iIHwgZ3JlcCAtRmMgJ2lmICEgY2xlYW51cF9mbl9jb25uZWN0X3dhZl9mb3Jfc3RvcCcpIiAtZXEgMiBdIHx8IFwKICBmYWlsICdmbk9TIHNodXRkb3duIG11c3QgdmVyaWZ5IFdBRiBjbGVhbnVwIGJlZm9yZSBhbmQgYWZ0ZXIgc3RvcHBpbmcgdGhlIHJ1bnRpbWUnCnByaW50ZiAnJXNcbicgIiR7bWFpbl9zdG9wX2JvZHl9IiB8IGdyZXAgLUZxIFwKICAnaWYgISBjbGVhbnVwX2ZuX2Nvbm5lY3Rfd2FmX2Zvcl9zdG9wIDM7IHRoZW4nIHx8IFwKICBmYWlsICdmbk9TIHNodXRkb3duIG5vIGxvbmdlciByZXRyaWVzIGZpcmV3YWxsIGNsZWFudXAgYWZ0ZXIgcHJvY2Vzc2VzIGV4aXQnCmdyZXAgLUZxICdmbl9jb25uZWN0X3dhZl9ydWxlc19hYnNlbnQnICIke01BSU5fRU5UUllQT0lOVH0iIHx8IFwKICBmYWlsICdmbk9TIFdBRiBjbGVhbnVwIG5vIGxvbmdlciB2ZXJpZmllcyBjb252ZXJnZWQgZmlyZXdhbGwgc3RhdGUnCmdyZXAgLUZxICdsb2NhbCBtYXhfanVtcF9kZWxldGlvbnM9NjQnICIke01BSU5fRU5UUllQT0lOVH0iIHx8IFwKICBmYWlsICdmbk9TIFdBRiBjbGVhbnVwIG5vIGxvbmdlciBkcmFpbnMgYWNjdW11bGF0ZWQgZHVwbGljYXRlIGp1bXBzJwpmb3IgcnVudGltZV9maWxlIGluIGJhY2tlbmQucGlkIGdhdGV3YXkucGlkIHJ1bnRpbWUucmVhZHkgcnVudGltZS1wb3J0cy5lbnY7IGRvCiAgZ3JlcCAtRnEgJyIke1BLR19WQVJfRElSfS8nIiR7cnVudGltZV9maWxlfSInIicgIiR7VU5JTlNUQUxMX0NBTExCQUNLfSIgfHwgXAogICAgZmFpbCAiZm5PUyB1bmluc3RhbGwgbGVhdmVzIHN0YWxlIHJ1bnRpbWUgaWRlbnRpdHk6ICR7cnVudGltZV9maWxlfSIKZG9uZQp1bmluc3RhbGxfdmFyX2Rpcj0iJHtXT1JLX0RJUn0vdW5pbnN0YWxsLXZhciIKbWtkaXIgLXAgIiR7dW5pbnN0YWxsX3Zhcl9kaXJ9Igp0b3VjaCBcCiAgIiR7dW5pbnN0YWxsX3Zhcl9kaXJ9L2JhY2tlbmQucGlkIiBcCiAgIiR7dW5pbnN0YWxsX3Zhcl9kaXJ9L2dhdGV3YXkucGlkIiBcCiAgIiR7dW5pbnN0YWxsX3Zhcl9kaXJ9L3J1bnRpbWUucmVhZHkiIFwKICAiJHt1bmluc3RhbGxfdmFyX2Rpcn0vcnVudGltZS1wb3J0cy5lbnYiIFwKICAiJHt1bmluc3RhbGxfdmFyX2Rpcn0vc2V0dGluZ3Muc3FsaXRlIgpUUklNX1BLR1ZBUj0iJHt1bmluc3RhbGxfdmFyX2Rpcn0iIGJhc2ggIiR7VU5JTlNUQUxMX0NBTExCQUNLfSIKZm9yIHJ1bnRpbWVfZmlsZSBpbiBiYWNrZW5kLnBpZCBnYXRld2F5LnBpZCBydW50aW1lLnJlYWR5IHJ1bnRpbWUtcG9ydHMuZW52OyBkbwogIFsgISAtZSAiJHt1bmluc3RhbGxfdmFyX2Rpcn0vJHtydW50aW1lX2ZpbGV9IiBdIHx8IFwKICAgIGZhaWwgImZuT1MgdW5pbnN0YWxsIGRpZCBub3QgcmVtb3ZlIHJ1bnRpbWUgaWRlbnRpdHk6ICR7cnVudGltZV9maWxlfSIKZG9uZQpbIC1lICIke3VuaW5zdGFsbF92YXJfZGlyfS9zZXR0aW5ncy5zcWxpdGUiIF0gfHwgXAogIGZhaWwgJ2ZuT1MgdW5pbnN0YWxsIGNhbGxiYWNrIHJlbW92ZWQgcGVyc2lzdGVudCB1c2VyIGRhdGEnCgpkZXBsb3lfc291cmNlPSIkKGNhdCAiJHtERVBMT1lfU0NSSVBUfSIpIgpwcmludGYgJyVzXG4nICIke2RlcGxveV9zb3VyY2V9IiB8IGdyZXAgLUZxIFwKICAnUkVNT1RFX0xJRkVDWUNMRV9NQUlOPSIvdmFyL2FwcHMvJHtBUFBfTkFNRX0vY21kL21haW4iJyB8fCBcCiAgZmFpbCAncmVtb3RlIGRlcGxveSBtdXN0IHN0YWdlIGxpZmVjeWNsZSBzY3JpcHRzIGluIHRoZSBmbk9TIEFwcCBDZW50ZXIgbWV0YWRhdGEgZGlyZWN0b3J5JwpwcmludGYgJyVzXG4nICIke2RlcGxveV9zb3VyY2V9IiB8IGdyZXAgLUZxIFwKICAnU3RhZ2UgdGhlIHBhY2thZ2VkIGxpZmVjeWNsZSBlbnRyeXBvaW50IGZvciB1cGdyYWRlIGNvbXBhdGliaWxpdHknIHx8IFwKICBmYWlsICdyZW1vdGUgZGVwbG95IG5vIGxvbmdlciBzdGFnZXMgdGhlIGZpeGVkIGxpZmVjeWNsZSBiZWZvcmUgc3RvcHBpbmcgYW4gb2xkIGFwcCcKaWYgcHJpbnRmICclc1xuJyAiJHtkZXBsb3lfc291cmNlfSIgfCBncmVwIC1FcSBcCiAgImFwcGNlbnRlci1jbGkgKHN0b3B8dW5pbnN0YWxsKS4qXFx8XFx8IHRydWUiOyB0aGVuCiAgZmFpbCAncmVtb3RlIGRlcGxveSBtdXN0IG5vdCBpZ25vcmUgc3RvcCBvciB1bmluc3RhbGwgZmFpbHVyZXMnCmZpCgpmaXJld2FsbF9iaW5fZGlyPSIke1dPUktfRElSfS9iaW4iCm1rZGlyIC1wICIke2ZpcmV3YWxsX2Jpbl9kaXJ9IgpjYXQgPiAiJHtmaXJld2FsbF9iaW5fZGlyfS9pcHRhYmxlcyIgPDwnRU9GJwojIS9iaW4vYmFzaApsYXN0PSIkeyEjfSIKY2FzZSAiJHtNT0NLX0ZJUkVXQUxMX01PREU6LWFic2VudH0iIGluCiAgZXJyb3IpCiAgICBlY2hvICd4dGFibGVzIGxvY2sgdW5hdmFpbGFibGUnID4mMgogICAgZXhpdCAyCiAgICA7OwogIHByZXNlbnQpCiAgICBpZiBbICIke2xhc3R9IiA9ICItUyIgXTsgdGhlbgogICAgICBlY2hvICctTiBGTktfRk5DX1BSRScKICAgICAgZWNobyAnLUEgUFJFUk9VVElORyAtaiBGTktfRk5DX1BSRScKICAgICAgZXhpdCAwCiAgICBmaQogICAgZXhpdCAxCiAgICA7OwogIG1peGVkKQogICAgaWYgWyAiJChiYXNlbmFtZSAiJDAiKSIgPSAiaXA2dGFibGVzIiBdOyB0aGVuCiAgICAgIGVjaG8gJ0FkZHJlc3MgZmFtaWx5IG5vdCBzdXBwb3J0ZWQgYnkgcHJvdG9jb2wnID4mMgogICAgICBleGl0IDIKICAgIGZpCiAgICBpZiBbICIke2xhc3R9IiA9ICItUyIgXTsgdGhlbgogICAgICBlY2hvICctUCBJTlBVVCBBQ0NFUFQnCiAgICAgIGV4aXQgMAogICAgZmkKICAgIGV4aXQgMQogICAgOzsKICBhYnNlbnQpCiAgICBpZiBbICIke2xhc3R9IiA9ICItUyIgXTsgdGhlbgogICAgICBlY2hvICctUCBJTlBVVCBBQ0NFUFQnCiAgICAgIGV4aXQgMAogICAgZmkKICAgIGV4aXQgMQogICAgOzsKZXNhYwpFT0YKY2htb2QgNzU1ICIke2ZpcmV3YWxsX2Jpbl9kaXJ9L2lwdGFibGVzIgpjcCAiJHtmaXJld2FsbF9iaW5fZGlyfS9pcHRhYmxlcyIgIiR7ZmlyZXdhbGxfYmluX2Rpcn0vaXA2dGFibGVzIgoKY2xlYW51cF9mdW5jdGlvbnM9IiQoc2VkIC1uIFwKICAnL15jbGVhbnVwX2ZuX2Nvbm5lY3Rfd2FmX3J1bGVzX29uY2UoKSB7LywvXmdlbmVyYXRlX3JhbmRvbV9oZXgoKSB7L3AnIFwKICAiJHtNQUlOX0VOVFJZUE9JTlR9IiB8IHNlZCAnJGQnKSIKKAogIFBBVEg9IiR7ZmlyZXdhbGxfYmluX2Rpcn06JHtQQVRIfSIKICBsb2dfbXNnKCkgeyA6OyB9CiAgc3VwZXJ2aXNvcl9sb2coKSB7IDo7IH0KICB3cml0ZV90ZW1wX2xvZygpIHsgU1RBUlRfRVJST1I9IiQxIjsgfQogIHNsZWVwKCkgeyA6OyB9CiAgRklSRVdBTExfV0FJVF9TRUNPTkRTPTEKICBldmFsICIke2NsZWFudXBfZnVuY3Rpb25zfSIKCiAgZXhwb3J0IE1PQ0tfRklSRVdBTExfTU9ERT1hYnNlbnQKICBmbl9jb25uZWN0X3dhZl9ydWxlc19hYnNlbnQgfHwgZmFpbCAnYWJzZW50IGZpcmV3YWxsIHN0YXRlIHdhcyBub3QgYWNjZXB0ZWQnCgogIGV4cG9ydCBNT0NLX0ZJUkVXQUxMX01PREU9cHJlc2VudAogIHNldCArZQogIGZuX2Nvbm5lY3Rfd2FmX3J1bGVzX2Fic2VudAogIHByZXNlbnRfc3RhdHVzPSQ/CiAgc2V0IC1lCiAgWyAiJHtwcmVzZW50X3N0YXR1c30iIC1lcSAxIF0gfHwgZmFpbCAnbWFuYWdlZCBmaXJld2FsbCBydWxlcyB3ZXJlIG5vdCBkZXRlY3RlZCcKCiAgZXhwb3J0IE1PQ0tfRklSRVdBTExfTU9ERT1lcnJvcgogIHNldCArZQogIGZuX2Nvbm5lY3Rfd2FmX3J1bGVzX2Fic2VudAogIGVycm9yX3N0YXR1cz0kPwogIGNsZWFudXBfZm5fY29ubmVjdF93YWZfcnVsZXMKICBjbGVhbnVwX3N0YXR1cz0kPwogIHNldCAtZQogIFsgIiR7ZXJyb3Jfc3RhdHVzfSIgLWVxIDIgXSB8fCBmYWlsICdmaXJld2FsbCBpbnNwZWN0aW9uIGVycm9ycyB3ZXJlIHRyZWF0ZWQgYXMgYWJzZW5jZScKICBbICIke2NsZWFudXBfc3RhdHVzfSIgLWVxIDIgXSB8fCBmYWlsICd1bnZlcmlmaWFibGUgZmlyZXdhbGwgY2xlYW51cCBkaWQgbm90IHByZXNlcnZlIGl0cyBkaXN0aW5jdCBzdGF0dXMnCgogIGV4cG9ydCBNT0NLX0ZJUkVXQUxMX01PREU9bWl4ZWQKICBmbl9jb25uZWN0X3dhZl9ydWxlc19hYnNlbnQgfHwgZmFpbCAndW5zdXBwb3J0ZWQgSVB2NiBmaXJld2FsbCBmYW1pbHkgd2FzIG5vdCBza2lwcGVkJwogIGNsZWFudXBfZm5fY29ubmVjdF93YWZfcnVsZXMgfHwgZmFpbCAndW5zdXBwb3J0ZWQgSVB2NiBmaXJld2FsbCBmYW1pbHkgbWFkZSBjbGVhbnVwIGZhaWwnCgogIGV4cG9ydCBNT0NLX0ZJUkVXQUxMX01PREU9ZXJyb3IKICBwcmVwYXJlX2ZuX2Nvbm5lY3Rfd2FmX2Zvcl9zdGFydCB8fCBmYWlsICd1bnZlcmlmaWFibGUgZmlyZXdhbGwgc3RhdGUgYmxvY2tlZCBzdGFydHVwJwogIGNsZWFudXBfZm5fY29ubmVjdF93YWZfZm9yX3N0b3AgfHwgZmFpbCAndW52ZXJpZmlhYmxlIGZpcmV3YWxsIHN0YXRlIGJsb2NrZWQgYSBib3VuZGVkIHN0b3AnCgogIGV4cG9ydCBNT0NLX0ZJUkVXQUxMX01PREU9cHJlc2VudAogIFNUQVJUX0VSUk9SPSIiCiAgc2V0ICtlCiAgcHJlcGFyZV9mbl9jb25uZWN0X3dhZl9mb3Jfc3RhcnQKICBzdGFydHVwX3N0YXR1cz0kPwogIHNldCAtZQogIFsgIiR7c3RhcnR1cF9zdGF0dXN9IiAtZXEgMSBdIHx8IGZhaWwgJ2NvbmZpcm1lZCByZXNpZHVhbCBXQUYgcnVsZXMgZGlkIG5vdCBibG9jayBzdGFydHVwJwogIFsgIiR7U1RBUlRfRVJST1J9IiA9ICdmbi1rbm9jayByZWZ1c2VkIHRvIHN0YXJ0IGJlY2F1c2Ugc3RhbGUgRk4gQ29ubmVjdCBXQUYgcnVsZXMgcmVtYWluIGFuZCBjb3VsZCBub3QgYmUgcmVtb3ZlZCcgXSB8fCBcCiAgICBmYWlsICdjb25maXJtZWQgcmVzaWR1YWwgV0FGIHJ1bGVzIGRpZCBub3QgcHJvdmlkZSB0aGUgZXhwZWN0ZWQgc3RhcnR1cCBkaWFnbm9zdGljJwogIFNUQVJUX0VSUk9SPSIiCiAgc2V0ICtlCiAgY2xlYW51cF9mbl9jb25uZWN0X3dhZl9mb3Jfc3RvcAogIHN0b3BfcG9saWN5X3N0YXR1cz0kPwogIHNldCAtZQogIFsgIiR7c3RvcF9wb2xpY3lfc3RhdHVzfSIgLWVxIDEgXSB8fCBmYWlsICdjb25maXJtZWQgcmVzaWR1YWwgV0FGIHJ1bGVzIGRpZCBub3QgYmxvY2sgc2h1dGRvd24nCiAgWyAiJHtTVEFSVF9FUlJPUn0iID0gJ2ZuLWtub2NrIHJlZnVzZWQgdG8gc3RvcCBiZWNhdXNlIGNvbmZpcm1lZCBGTiBDb25uZWN0IFdBRiBydWxlcyByZW1haW4gYW5kIGNvdWxkIG5vdCBiZSByZW1vdmVkJyBdIHx8IFwKICAgIGZhaWwgJ2NvbmZpcm1lZCByZXNpZHVhbCBXQUYgcnVsZXMgZGlkIG5vdCBwcm92aWRlIHRoZSBleHBlY3RlZCBzdG9wIGRpYWdub3N0aWMnCikKCmFzc2VydF9iZWZvcmUgIiR7bGl0ZV9zdG9wX2JvZHl9IiBcCiAgJ2lmICEgc3RvcF9zZXJ2aWNlICIke0dBVEVXQVlfUElEX0ZJTEV9IiAiR2F0ZXdheSI7IHRoZW4nIFwKICAnaWYgISBzdG9wX21hdGNoaW5nX3Byb2Nlc3NlcyAiJHtHQVRFV0FZX0JJTn0iICJHYXRld2F5IjsgdGhlbicKYXNzZXJ0X2JlZm9yZSAiJHtsaXRlX3N0b3BfYm9keX0iIFwKICAnaWYgISBzdG9wX21hdGNoaW5nX3Byb2Nlc3NlcyAiJHtHQVRFV0FZX0JJTn0iICJHYXRld2F5IjsgdGhlbicgXAogICdpZiAhIHN0b3Bfc2VydmljZSAiJHtCQUNLRU5EX1BJRF9GSUxFfSIgIkJhY2tlbmQiOyB0aGVuJwphc3NlcnRfYmVmb3JlICIke2xpdGVfc3RvcF9ib2R5fSIgXAogICdpZiAhIHN0b3Bfc2VydmljZSAiJHtCQUNLRU5EX1BJRF9GSUxFfSIgIkJhY2tlbmQiOyB0aGVuJyBcCiAgJ2lmICEgc3RvcF9tYXRjaGluZ19wcm9jZXNzZXMgIiR7QkFDS0VORF9FTlRSWX0iICJCYWNrZW5kIjsgdGhlbicKCmZvciBlbnRyeXBvaW50IGluIFwKICAiJHtMSU5VWF9FTlRSWVBPSU5UfSIgXAogICIke01BQ09TX0VOVFJZUE9JTlR9IiBcCiAgIiR7RE9DS0VSX0VOVFJZUE9JTlR9IiBcCiAgIiR7U1lOT0xPR1lfRU5UUllQT0lOVH0iCmRvCiAgZW50cnlwb2ludF9zb3VyY2U9IiQoY2F0ICIke2VudHJ5cG9pbnR9IikiCiAgYXNzZXJ0X2JlZm9yZSAiJHtlbnRyeXBvaW50X3NvdXJjZX0iIFwKICAgICd0ZXJtaW5hdGVfY2hpbGQgIiR7R0FURVdBWV9QSUQ6LX0iJyBcCiAgICAndGVybWluYXRlX2NoaWxkICIke0JBQ0tFTkRfUElEOi19IicKZG9uZQoKc3lub2xvZ3lfbGlmZWN5Y2xlX3NvdXJjZT0iJChjYXQgIiR7U1lOT0xPR1lfTElGRUNZQ0xFfSIpIgphc3NlcnRfYmVmb3JlICIke3N5bm9sb2d5X2xpZmVjeWNsZV9zb3VyY2V9IiBcCiAgJ3N0b3BfcmVjb3JkZWRfY2hpbGQgIiR7c2lnbmFsfSIgIiR7R0FURVdBWV9QSURfRklMRX0iJyBcCiAgJ3N0b3BfcmVjb3JkZWRfY2hpbGQgIiR7c2lnbmFsfSIgIiR7TUFOQUdFTUVOVF9QSURfRklMRX0iJwoKd2luZG93c19ncmFjZWZ1bF9zaHV0ZG93bj0iJChzZWQgLW4gXAogICcvXmFzeW5jIGZuIGdyYWNlZnVsX3NodXRkb3duLywvXmFzeW5jIGZuIHdhaXRfZm9yX2dhdGV3YXlfY29udHJvbF9wbGFuZS9wJyBcCiAgIiR7V0lORE9XU19TRVJWSUNFfSIpIgphc3NlcnRfYmVmb3JlICIke3dpbmRvd3NfZ3JhY2VmdWxfc2h1dGRvd259IiBcCiAgJ3NodXRkb3duX2dhdGV3YXlfb25seShnb19jbGllbnQsIGdhdGV3YXkpLmF3YWl0OycgXAogICdhcHBfc2h1dGRvd24uY2FuY2VsKCk7JwpncmVwIC1GcSBcCiAgJ2FwcDo6cnVuX3dpdGhfc2V0dGluZ3Moc2V0dGluZ3MsIGFwcF9zaHV0ZG93bi5jbG9uZSgpLCBTb21lKHJlYWR5X3R4KSknIFwKICAiJHtXSU5ET1dTX1NFUlZJQ0V9IiB8fCBmYWlsICdXaW5kb3dzIHNlcnZpY2Ugc2hhcmVzIGl0cyBzdXBlcnZpc29yIHNodXRkb3duIHRva2VuIHdpdGggdGhlIGF1dGggYmFja2VuZCcKCnByaW50ZiAnW3Rlc3QtZm5vcy1saWZlY3ljbGUtb3JkZXJdIGdhdGV3YXktZmlyc3Qgc2h1dGRvd24gY29udHJhY3QgcGFzc2VkIG9uIGZuT1MsIExpbnV4LCBtYWNPUywgRG9ja2VyLCBTeW5vbG9neSwgYW5kIFdpbmRvd3NcbicK
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+WORK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/fn-knock-lifecycle-test.XXXXXX")"
+MAIN_ENTRYPOINT="${ROOT_DIR}/apps/fn-knock/cmd/main"
+LITE_ENTRYPOINT="${ROOT_DIR}/apps/fn-knock-lite/cmd/main"
+LINUX_ENTRYPOINT="${ROOT_DIR}/deploy/linux/fn-knock-entrypoint"
+MACOS_ENTRYPOINT="${ROOT_DIR}/deploy/macos/fn-knock-entrypoint"
+DOCKER_ENTRYPOINT="${ROOT_DIR}/deploy/docker/entrypoint.sh"
+SYNOLOGY_ENTRYPOINT="${ROOT_DIR}/apps/fn-knock-synology/package/bin/fn-knock-entrypoint"
+SYNOLOGY_LIFECYCLE="${ROOT_DIR}/apps/fn-knock-synology/scripts/start-stop-status"
+WINDOWS_SERVICE="${ROOT_DIR}/apps/server-admin-rs/src/windows_service.rs"
+DEPLOY_SCRIPT="${ROOT_DIR}/scripts/fn-knock-deploy.sh"
+UNINSTALL_CALLBACK="${ROOT_DIR}/apps/fn-knock/cmd/uninstall_callback"
+
+cleanup() {
+  rm -rf "${WORK_DIR}"
+}
+trap cleanup EXIT
+
+fail() {
+  printf '[test-fnos-lifecycle-order] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+line_for() {
+  local source="$1" pattern="$2"
+  local line=""
+  line="$(printf '%s\n' "${source}" | grep -nF "${pattern}" | head -n 1 | cut -d: -f1)"
+  [ -n "${line}" ] || fail "missing lifecycle step: ${pattern}"
+  printf '%s\n' "${line}"
+}
+
+assert_before() {
+  local source="$1" first="$2" second="$3"
+  local first_line second_line
+  first_line="$(line_for "${source}" "${first}")"
+  second_line="$(line_for "${source}" "${second}")"
+  [ "${first_line}" -lt "${second_line}" ] || \
+    fail "expected '${first}' before '${second}'"
+}
+
+extract_stop_body() {
+  awk '
+    /^stop\(\) \{/ { capture = 1 }
+    capture { print }
+    capture && /^}/ { exit }
+  ' "$1"
+}
+
+extract_start_body() {
+  awk '
+    /^start\(\) \{/ { capture = 1 }
+    capture { print }
+    capture && /^}/ { exit }
+  ' "$1"
+}
+
+for entrypoint in \
+  "${MAIN_ENTRYPOINT}" \
+  "${LITE_ENTRYPOINT}" \
+  "${LINUX_ENTRYPOINT}" \
+  "${MACOS_ENTRYPOINT}" \
+  "${DOCKER_ENTRYPOINT}" \
+  "${SYNOLOGY_ENTRYPOINT}"
+do
+  bash -n "${entrypoint}"
+done
+sh -n "${SYNOLOGY_LIFECYCLE}"
+bash -n "${DEPLOY_SCRIPT}"
+bash -n "${UNINSTALL_CALLBACK}"
+
+main_stop_body="$(extract_stop_body "${MAIN_ENTRYPOINT}")"
+main_start_body="$(extract_start_body "${MAIN_ENTRYPOINT}")"
+lite_stop_body="$(extract_stop_body "${LITE_ENTRYPOINT}")"
+
+printf '%s\n' "${main_start_body}" | grep -Fq \
+  'if ! prepare_fn_connect_waf_for_start; then' || \
+  fail 'fnOS startup no longer applies the WAF cleanup startup policy'
+
+assert_before "${main_stop_body}" \
+  'if ! cleanup_fn_connect_waf_for_stop 1; then' \
+  'if ! stop_service "${GATEWAY_PID_FILE}" "Gateway"; then'
+assert_before "${main_stop_body}" \
+  'if ! stop_service "${GATEWAY_PID_FILE}" "Gateway"; then' \
+  'if ! stop_matching_processes "${GATEWAY_BIN}" "Gateway"; then'
+assert_before "${main_stop_body}" \
+  'if ! stop_matching_processes "${GATEWAY_BIN}" "Gateway"; then' \
+  'if ! stop_service "${BACKEND_PID_FILE}" "Backend"; then'
+assert_before "${main_stop_body}" \
+  'if ! stop_service "${BACKEND_PID_FILE}" "Backend"; then' \
+  'if ! stop_matching_processes "${BACKEND_ENTRY}" "Backend"; then'
+assert_before "${main_stop_body}" \
+  'if ! stop_matching_processes "${BACKEND_ENTRY}" "Backend"; then' \
+  'rm -f "${READINESS_MARKER}"'
+
+printf '%s\n' "${main_stop_body}" | grep -Fq \
+  'backend kept running to preserve the auth upstream' || \
+  fail 'gateway failure no longer preserves the auth upstream'
+[ "$(printf '%s\n' "${main_stop_body}" | grep -Fc 'if ! cleanup_fn_connect_waf_for_stop')" -eq 2 ] || \
+  fail 'fnOS shutdown must verify WAF cleanup before and after stopping the runtime'
+printf '%s\n' "${main_stop_body}" | grep -Fq \
+  'if ! cleanup_fn_connect_waf_for_stop 3; then' || \
+  fail 'fnOS shutdown no longer retries firewall cleanup after processes exit'
+grep -Fq 'fn_connect_waf_rules_absent' "${MAIN_ENTRYPOINT}" || \
+  fail 'fnOS WAF cleanup no longer verifies converged firewall state'
+grep -Fq 'local max_jump_deletions=64' "${MAIN_ENTRYPOINT}" || \
+  fail 'fnOS WAF cleanup no longer drains accumulated duplicate jumps'
+for runtime_file in backend.pid gateway.pid runtime.ready runtime-ports.env; do
+  grep -Fq '"${PKG_VAR_DIR}/'"${runtime_file}"'"' "${UNINSTALL_CALLBACK}" || \
+    fail "fnOS uninstall leaves stale runtime identity: ${runtime_file}"
+done
+uninstall_var_dir="${WORK_DIR}/uninstall-var"
+mkdir -p "${uninstall_var_dir}"
+touch \
+  "${uninstall_var_dir}/backend.pid" \
+  "${uninstall_var_dir}/gateway.pid" \
+  "${uninstall_var_dir}/runtime.ready" \
+  "${uninstall_var_dir}/runtime-ports.env" \
+  "${uninstall_var_dir}/settings.sqlite"
+TRIM_PKGVAR="${uninstall_var_dir}" bash "${UNINSTALL_CALLBACK}"
+for runtime_file in backend.pid gateway.pid runtime.ready runtime-ports.env; do
+  [ ! -e "${uninstall_var_dir}/${runtime_file}" ] || \
+    fail "fnOS uninstall did not remove runtime identity: ${runtime_file}"
+done
+[ -e "${uninstall_var_dir}/settings.sqlite" ] || \
+  fail 'fnOS uninstall callback removed persistent user data'
+
+deploy_source="$(cat "${DEPLOY_SCRIPT}")"
+printf '%s\n' "${deploy_source}" | grep -Fq \
+  'REMOTE_LIFECYCLE_MAIN="/var/apps/${APP_NAME}/cmd/main"' || \
+  fail 'remote deploy must stage lifecycle scripts in the fnOS App Center metadata directory'
+printf '%s\n' "${deploy_source}" | grep -Fq \
+  'Stage the packaged lifecycle entrypoint for upgrade compatibility' || \
+  fail 'remote deploy no longer stages the fixed lifecycle before stopping an old app'
+if printf '%s\n' "${deploy_source}" | grep -Eq \
+  "appcenter-cli (stop|uninstall).*\\|\\| true"; then
+  fail 'remote deploy must not ignore stop or uninstall failures'
+fi
+
+firewall_bin_dir="${WORK_DIR}/bin"
+mkdir -p "${firewall_bin_dir}"
+cat > "${firewall_bin_dir}/iptables" <<'EOF'
+#!/bin/bash
+last="${!#}"
+case "${MOCK_FIREWALL_MODE:-absent}" in
+  error)
+    echo 'xtables lock unavailable' >&2
+    exit 2
+    ;;
+  present)
+    if [ "${last}" = "-S" ]; then
+      echo '-N FNK_FNC_PRE'
+      echo '-A PREROUTING -j FNK_FNC_PRE'
+      exit 0
+    fi
+    exit 1
+    ;;
+  mixed)
+    if [ "$(basename "$0")" = "ip6tables" ]; then
+      echo 'Address family not supported by protocol' >&2
+      exit 2
+    fi
+    if [ "${last}" = "-S" ]; then
+      echo '-P INPUT ACCEPT'
+      exit 0
+    fi
+    exit 1
+    ;;
+  absent)
+    if [ "${last}" = "-S" ]; then
+      echo '-P INPUT ACCEPT'
+      exit 0
+    fi
+    exit 1
+    ;;
+esac
+EOF
+chmod 755 "${firewall_bin_dir}/iptables"
+cp "${firewall_bin_dir}/iptables" "${firewall_bin_dir}/ip6tables"
+
+cleanup_functions="$(sed -n \
+  '/^cleanup_fn_connect_waf_rules_once() {/,/^generate_random_hex() {/p' \
+  "${MAIN_ENTRYPOINT}" | sed '$d')"
+(
+  PATH="${firewall_bin_dir}:${PATH}"
+  log_msg() { :; }
+  supervisor_log() { :; }
+  write_temp_log() { START_ERROR="$1"; }
+  sleep() { :; }
+  FIREWALL_WAIT_SECONDS=1
+  eval "${cleanup_functions}"
+
+  export MOCK_FIREWALL_MODE=absent
+  fn_connect_waf_rules_absent || fail 'absent firewall state was not accepted'
+
+  export MOCK_FIREWALL_MODE=present
+  set +e
+  fn_connect_waf_rules_absent
+  present_status=$?
+  set -e
+  [ "${present_status}" -eq 1 ] || fail 'managed firewall rules were not detected'
+
+  export MOCK_FIREWALL_MODE=error
+  set +e
+  fn_connect_waf_rules_absent
+  error_status=$?
+  cleanup_fn_connect_waf_rules
+  cleanup_status=$?
+  set -e
+  [ "${error_status}" -eq 2 ] || fail 'firewall inspection errors were treated as absence'
+  [ "${cleanup_status}" -eq 2 ] || fail 'unverifiable firewall cleanup did not preserve its distinct status'
+
+  export MOCK_FIREWALL_MODE=mixed
+  fn_connect_waf_rules_absent || fail 'unsupported IPv6 firewall family was not skipped'
+  cleanup_fn_connect_waf_rules || fail 'unsupported IPv6 firewall family made cleanup fail'
+
+  export MOCK_FIREWALL_MODE=error
+  prepare_fn_connect_waf_for_start || fail 'unverifiable firewall state blocked startup'
+  cleanup_fn_connect_waf_for_stop || fail 'unverifiable firewall state blocked a bounded stop'
+
+  export MOCK_FIREWALL_MODE=present
+  START_ERROR=""
+  set +e
+  prepare_fn_connect_waf_for_start
+  startup_status=$?
+  set -e
+  [ "${startup_status}" -eq 1 ] || fail 'confirmed residual WAF rules did not block startup'
+  [ "${START_ERROR}" = 'fn-knock refused to start because stale FN Connect WAF rules remain and could not be removed' ] || \
+    fail 'confirmed residual WAF rules did not provide the expected startup diagnostic'
+  START_ERROR=""
+  set +e
+  cleanup_fn_connect_waf_for_stop
+  stop_policy_status=$?
+  set -e
+  [ "${stop_policy_status}" -eq 1 ] || fail 'confirmed residual WAF rules did not block shutdown'
+  [ "${START_ERROR}" = 'fn-knock refused to stop because confirmed FN Connect WAF rules remain and could not be removed' ] || \
+    fail 'confirmed residual WAF rules did not provide the expected stop diagnostic'
+)
+
+assert_before "${lite_stop_body}" \
+  'if ! stop_service "${GATEWAY_PID_FILE}" "Gateway"; then' \
+  'if ! stop_matching_processes "${GATEWAY_BIN}" "Gateway"; then'
+assert_before "${lite_stop_body}" \
+  'if ! stop_matching_processes "${GATEWAY_BIN}" "Gateway"; then' \
+  'if ! stop_service "${BACKEND_PID_FILE}" "Backend"; then'
+assert_before "${lite_stop_body}" \
+  'if ! stop_service "${BACKEND_PID_FILE}" "Backend"; then' \
+  'if ! stop_matching_processes "${BACKEND_ENTRY}" "Backend"; then'
+
+for entrypoint in \
+  "${LINUX_ENTRYPOINT}" \
+  "${MACOS_ENTRYPOINT}" \
+  "${DOCKER_ENTRYPOINT}" \
+  "${SYNOLOGY_ENTRYPOINT}"
+do
+  entrypoint_source="$(cat "${entrypoint}")"
+  assert_before "${entrypoint_source}" \
+    'terminate_child "${GATEWAY_PID:-}"' \
+    'terminate_child "${BACKEND_PID:-}"'
+done
+
+synology_lifecycle_source="$(cat "${SYNOLOGY_LIFECYCLE}")"
+assert_before "${synology_lifecycle_source}" \
+  'stop_recorded_child "${signal}" "${GATEWAY_PID_FILE}"' \
+  'stop_recorded_child "${signal}" "${MANAGEMENT_PID_FILE}"'
+
+windows_graceful_shutdown="$(sed -n \
+  '/^async fn graceful_shutdown/,/^async fn wait_for_gateway_control_plane/p' \
+  "${WINDOWS_SERVICE}")"
+assert_before "${windows_graceful_shutdown}" \
+  'shutdown_gateway_only(go_client, gateway).await;' \
+  'app_shutdown.cancel();'
+grep -Fq \
+  'app::run_with_settings(settings, app_shutdown.clone(), Some(ready_tx))' \
+  "${WINDOWS_SERVICE}" || fail 'Windows service shares its supervisor shutdown token with the auth backend'
+
+printf '[test-fnos-lifecycle-order] gateway-first shutdown contract passed on fnOS, Linux, macOS, Docker, Synology, and Windows\n'

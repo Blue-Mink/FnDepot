@@ -1,1 +1,179 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7CiAgQ2FyZCwKICBDYXJkQ29udGVudCwKICBDYXJkRGVzY3JpcHRpb24sCiAgQ2FyZEhlYWRlciwKICBDYXJkVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgeyBTa2VsZXRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9za2VsZXRvbiI7CmltcG9ydCB7IENoZXZyb25SaWdodCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCBEYXRlVGltZURpc3BsYXlTZXR0aW5nUm93IGZyb20gIi4vRGF0ZVRpbWVEaXNwbGF5U2V0dGluZ1Jvdy52dWUiOwppbXBvcnQgRmVhdHVyZVN3aXRjaFJvdyBmcm9tICIuL0ZlYXR1cmVTd2l0Y2hSb3cudnVlIjsKaW1wb3J0IEZlYXR1cmVQYWdlU2V0dGluZ1JvdyBmcm9tICIuL0ZlYXR1cmVQYWdlU2V0dGluZ1Jvdy52dWUiOwppbXBvcnQgeyB1c2VGZWF0dXJlc1NldHRpbmdzIH0gZnJvbSAiLi91c2VGZWF0dXJlc1NldHRpbmdzIjsKCmNvbnN0IHsKICBhdXRvSHR0cHNFbmFibGVkLAogIGF1dG9IdHRwc1J1bnRpbWVFcnJvciwKICBkYXRlVGltZURpc3BsYXlNb2RlLAogIGlzRGFzaGJvYXJkRGlzcGxheVN3aXRjaERpc2FibGVkLAogIGlzTG9hZGluZywKICBpc1Byb3RvY29sTWFwcGluZ0F2YWlsYWJsZSwKICBpc1NhdmluZywKICBpc1NtYXJ0Q29ubmVjdEF2YWlsYWJsZSwKICBpc1NTSFNlY3VyaXR5QXZhaWxhYmxlLAogIG9wZW5TbWFydENvbm5lY3QsCiAgb3BlbldlYlRlcm1pbmFsLAogIG9wZW5TaWRlYmFyTWVudU9yZGVyLAogIHBhc3NrZXlCaW5kUHJvbXB0RW5hYmxlZCwKICBwcm90b2NvbE1hcHBpbmdEaXNhYmxlZFJlYXNvbiwKICBwcm90b2NvbE1hcHBpbmdFbmFibGVkLAogIHNhdmVBdXRvSHR0cHNFbmFibGVkLAogIHNhdmVEYXRlVGltZURpc3BsYXlNb2RlLAogIHNhdmVQYXNza2V5QmluZFByb21wdEVuYWJsZWQsCiAgc2F2ZVByb3RvY29sTWFwcGluZ0VuYWJsZWQsCiAgc2F2ZVNob3dDb25zb2xlQXBwTGlzdCwKICBzYXZlU2hvd0VudHJ5U3RhdHVzTW9kdWxlLAogIHNhdmVTU0hTZWN1cml0eUVuYWJsZWQsCiAgc2F2ZVdPTEVuYWJsZWQsCiAgc2hvd0F1dG9IdHRwc0VudHJ5LAogIHNob3dDb25zb2xlQXBwTGlzdCwKICBzaG93Q29uc29sZUFwcExpc3RFbnRyeSwKICBzaG93RW50cnlTdGF0dXNNb2R1bGUsCiAgc2hvd0xvYWRpbmdTa2VsZXRvbiwKICBzaG93U21hcnRDb25uZWN0RW50cnksCiAgc2hvd1NTSFNlY3VyaXR5RW50cnksCiAgc21hcnRDb25uZWN0RGlzYWJsZWRSZWFzb24sCiAgc3NoU2VjdXJpdHlEaXNhYmxlZFJlYXNvbiwKICBzc2hTZWN1cml0eUVuYWJsZWQsCiAgdCwKICB3b2xFbmFibGVkLAp9ID0gdXNlRmVhdHVyZXNTZXR0aW5ncygpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8Q2FyZD4KICAgIDxDYXJkSGVhZGVyPgogICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEuNSI+CiAgICAgICAgPENhcmRUaXRsZSBjbGFzcz0idGV4dC1tZCI+e3sKICAgICAgICAgIHQoImFkbWluLmZlYXR1cmVzU2V0dGluZ3MudGl0bGUiKQogICAgICAgIH19PC9DYXJkVGl0bGU+CiAgICAgICAgPENhcmREZXNjcmlwdGlvbj57ewogICAgICAgICAgdCgiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5kZXNjcmlwdGlvbiIpCiAgICAgICAgfX08L0NhcmREZXNjcmlwdGlvbj4KICAgICAgPC9kaXY+CiAgICA8L0NhcmRIZWFkZXI+CgogICAgPENhcmRDb250ZW50IHYtaWY9ImlzTG9hZGluZyAmJiBzaG93TG9hZGluZ1NrZWxldG9uIiBjbGFzcz0iYm9yZGVyLXQgcC0wIj4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS00IHAtNiI+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTYgdy0xLzMiIC8+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy0yLzMiIC8+CiAgICAgIDwvZGl2PgogICAgPC9DYXJkQ29udGVudD4KCiAgICA8Q2FyZENvbnRlbnQgdi1lbHNlLWlmPSIhaXNMb2FkaW5nIiBjbGFzcz0iYm9yZGVyLXQgcC0wIGRpdmlkZS15Ij4KICAgICAgPEZlYXR1cmVTd2l0Y2hSb3cKICAgICAgICA6dGl0bGU9InQoJ2FkbWluLmZlYXR1cmVzU2V0dGluZ3Muc2hvd0VudHJ5U3RhdHVzTW9kdWxlJykiCiAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5mZWF0dXJlc1NldHRpbmdzLnNob3dFbnRyeVN0YXR1c01vZHVsZUhpbnQnKSIKICAgICAgICA6bW9kZWwtdmFsdWU9InNob3dFbnRyeVN0YXR1c01vZHVsZSIKICAgICAgICA6ZGlzYWJsZWQ9ImlzRGFzaGJvYXJkRGlzcGxheVN3aXRjaERpc2FibGVkIgogICAgICAgIEBjaGFuZ2U9InNhdmVTaG93RW50cnlTdGF0dXNNb2R1bGUiCiAgICAgIC8+CgogICAgICA8RmVhdHVyZVN3aXRjaFJvdwogICAgICAgIHYtaWY9InNob3dDb25zb2xlQXBwTGlzdEVudHJ5IgogICAgICAgIDp0aXRsZT0idCgnYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5zaG93Q29uc29sZUFwcExpc3QnKSIKICAgICAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLmZlYXR1cmVzU2V0dGluZ3Muc2hvd0NvbnNvbGVBcHBMaXN0SGludCcpIgogICAgICAgIDptb2RlbC12YWx1ZT0ic2hvd0NvbnNvbGVBcHBMaXN0IgogICAgICAgIDpkaXNhYmxlZD0iaXNEYXNoYm9hcmREaXNwbGF5U3dpdGNoRGlzYWJsZWQiCiAgICAgICAgQGNoYW5nZT0ic2F2ZVNob3dDb25zb2xlQXBwTGlzdCIKICAgICAgLz4KCiAgICAgIDxEYXRlVGltZURpc3BsYXlTZXR0aW5nUm93CiAgICAgICAgOm1vZGVsLXZhbHVlPSJkYXRlVGltZURpc3BsYXlNb2RlIgogICAgICAgIDpkaXNhYmxlZD0iaXNEYXNoYm9hcmREaXNwbGF5U3dpdGNoRGlzYWJsZWQiCiAgICAgICAgQGNoYW5nZT0ic2F2ZURhdGVUaW1lRGlzcGxheU1vZGUiCiAgICAgIC8+CiAgICAgIDxGZWF0dXJlU3dpdGNoUm93CiAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5mZWF0dXJlc1NldHRpbmdzLnBhc3NrZXlCaW5kUHJvbXB0JykiCiAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5mZWF0dXJlc1NldHRpbmdzLnBhc3NrZXlCaW5kUHJvbXB0SGludCcpIgogICAgICAgIDptb2RlbC12YWx1ZT0icGFzc2tleUJpbmRQcm9tcHRFbmFibGVkIgogICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmciCiAgICAgICAgQGNoYW5nZT0ic2F2ZVBhc3NrZXlCaW5kUHJvbXB0RW5hYmxlZCIKICAgICAgLz4KCiAgICAgIDxGZWF0dXJlU3dpdGNoUm93CiAgICAgICAgdi1pZj0ic2hvd0F1dG9IdHRwc0VudHJ5IgogICAgICAgIDp0aXRsZT0idCgnYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5hdXRvSHR0cHMnKSIKICAgICAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLmZlYXR1cmVzU2V0dGluZ3MuYXV0b0h0dHBzSGludCcpIgogICAgICAgIDptb2RlbC12YWx1ZT0iYXV0b0h0dHBzRW5hYmxlZCIKICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nIgogICAgICAgIDplcnJvcj0iYXV0b0h0dHBzUnVudGltZUVycm9yIgogICAgICAgIEBjaGFuZ2U9InNhdmVBdXRvSHR0cHNFbmFibGVkIgogICAgICAvPgoKICAgICAgPEZlYXR1cmVTd2l0Y2hSb3cKICAgICAgICB2LWlmPSJzaG93U1NIU2VjdXJpdHlFbnRyeSIKICAgICAgICA6dGl0bGU9InQoJ2FkbWluLmZlYXR1cmVzU2V0dGluZ3Muc3NoU2VjdXJpdHknKSIKICAgICAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLmZlYXR1cmVzU2V0dGluZ3Muc3NoU2VjdXJpdHlIaW50JykiCiAgICAgICAgOm1vZGVsLXZhbHVlPSJzc2hTZWN1cml0eUVuYWJsZWQiCiAgICAgICAgOmF2YWlsYWJsZT0iaXNTU0hTZWN1cml0eUF2YWlsYWJsZSIKICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nIgogICAgICAgIDpkaXNhYmxlZC1yZWFzb249InNzaFNlY3VyaXR5RGlzYWJsZWRSZWFzb24iCiAgICAgICAgQGNoYW5nZT0ic2F2ZVNTSFNlY3VyaXR5RW5hYmxlZCIKICAgICAgLz4KCiAgICAgIDxGZWF0dXJlU3dpdGNoUm93CiAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5mZWF0dXJlc1NldHRpbmdzLndvbCcpIgogICAgICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy53b2xIaW50JykiCiAgICAgICAgOm1vZGVsLXZhbHVlPSJ3b2xFbmFibGVkIgogICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmciCiAgICAgICAgQGNoYW5nZT0ic2F2ZVdPTEVuYWJsZWQiCiAgICAgIC8+CgogICAgICA8RmVhdHVyZVN3aXRjaFJvdwogICAgICAgIDp0aXRsZT0idCgnYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5wcm90b2NvbE1hcHBpbmcnKSIKICAgICAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLmZlYXR1cmVzU2V0dGluZ3MucHJvdG9jb2xNYXBwaW5nSGludCcpIgogICAgICAgIDptb2RlbC12YWx1ZT0icHJvdG9jb2xNYXBwaW5nRW5hYmxlZCIKICAgICAgICA6YXZhaWxhYmxlPSJpc1Byb3RvY29sTWFwcGluZ0F2YWlsYWJsZSIKICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nIgogICAgICAgIDpkaXNhYmxlZC1yZWFzb249InByb3RvY29sTWFwcGluZ0Rpc2FibGVkUmVhc29uIgogICAgICAgIEBjaGFuZ2U9InNhdmVQcm90b2NvbE1hcHBpbmdFbmFibGVkIgogICAgICAvPgoKICAgICAgPGJ1dHRvbgogICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICBjbGFzcz0iZmxleCB3LWZ1bGwgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBiZy1tdXRlZC81IHAtNiB0ZXh0LWxlZnQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvMTUiCiAgICAgICAgQGNsaWNrPSJvcGVuU2lkZWJhck1lbnVPcmRlciIKICAgICAgPgogICAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAgc3BhY2UteS0xIHByLTYiPgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1iYXNlIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5zaWRlYmFyTWVudU9yZGVyIikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5mZWF0dXJlc1NldHRpbmdzLnNpZGViYXJNZW51T3JkZXJIaW50IikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxDaGV2cm9uUmlnaHQgY2xhc3M9ImgtNSB3LTUgc2hyaW5rLTAgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogICAgICA8L2J1dHRvbj4KCiAgICAgIDxGZWF0dXJlUGFnZVNldHRpbmdSb3cKICAgICAgICA6dGl0bGU9InQoJ2FkbWluLm5hdi53ZWJUZXJtaW5hbCcpIgogICAgICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4ud2ViVGVybWluYWxTZXR0aW5ncy5kZXNjcmlwdGlvbicpIgogICAgICAgIDphdmFpbGFibGU9InRydWUiCiAgICAgICAgZGlzYWJsZWQtcmVhc29uPSIiCiAgICAgICAgQG9wZW49Im9wZW5XZWJUZXJtaW5hbCIKICAgICAgLz4KCiAgICAgIDxGZWF0dXJlUGFnZVNldHRpbmdSb3cKICAgICAgICB2LWlmPSJzaG93U21hcnRDb25uZWN0RW50cnkiCiAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5mZWF0dXJlc1NldHRpbmdzLnNtYXJ0Q29ubmVjdCcpIgogICAgICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5zbWFydENvbm5lY3RIaW50JykiCiAgICAgICAgOmF2YWlsYWJsZT0iaXNTbWFydENvbm5lY3RBdmFpbGFibGUiCiAgICAgICAgOmRpc2FibGVkLXJlYXNvbj0ic21hcnRDb25uZWN0RGlzYWJsZWRSZWFzb24iCiAgICAgICAgQG9wZW49Im9wZW5TbWFydENvbm5lY3QiCiAgICAgIC8+CiAgICA8L0NhcmRDb250ZW50PgogIDwvQ2FyZD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
+import { ChevronRight } from "lucide-vue-next";
+import DateTimeDisplaySettingRow from "./DateTimeDisplaySettingRow.vue";
+import FeatureSwitchRow from "./FeatureSwitchRow.vue";
+import FeaturePageSettingRow from "./FeaturePageSettingRow.vue";
+import { useFeaturesSettings } from "./useFeaturesSettings";
+
+const {
+  autoHttpsEnabled,
+  autoHttpsRuntimeError,
+  dateTimeDisplayMode,
+  isDashboardDisplaySwitchDisabled,
+  isLoading,
+  isProtocolMappingAvailable,
+  isSaving,
+  isSmartConnectAvailable,
+  isSSHSecurityAvailable,
+  openSmartConnect,
+  openWebTerminal,
+  openSidebarMenuOrder,
+  passkeyBindPromptEnabled,
+  protocolMappingDisabledReason,
+  protocolMappingEnabled,
+  saveAutoHttpsEnabled,
+  saveDateTimeDisplayMode,
+  savePasskeyBindPromptEnabled,
+  saveProtocolMappingEnabled,
+  saveShowConsoleAppList,
+  saveShowEntryStatusModule,
+  saveSSHSecurityEnabled,
+  saveWOLEnabled,
+  showAutoHttpsEntry,
+  showConsoleAppList,
+  showConsoleAppListEntry,
+  showEntryStatusModule,
+  showLoadingSkeleton,
+  showSmartConnectEntry,
+  showSSHSecurityEntry,
+  smartConnectDisabledReason,
+  sshSecurityDisabledReason,
+  sshSecurityEnabled,
+  t,
+  wolEnabled,
+} = useFeaturesSettings();
+</script>
+
+<template>
+  <Card>
+    <CardHeader>
+      <div class="space-y-1.5">
+        <CardTitle class="text-md">{{
+          t("admin.featuresSettings.title")
+        }}</CardTitle>
+        <CardDescription>{{
+          t("admin.featuresSettings.description")
+        }}</CardDescription>
+      </div>
+    </CardHeader>
+
+    <CardContent v-if="isLoading && showLoadingSkeleton" class="border-t p-0">
+      <div class="space-y-4 p-6">
+        <Skeleton class="h-6 w-1/3" />
+        <Skeleton class="h-4 w-2/3" />
+      </div>
+    </CardContent>
+
+    <CardContent v-else-if="!isLoading" class="border-t p-0 divide-y">
+      <FeatureSwitchRow
+        :title="t('admin.featuresSettings.showEntryStatusModule')"
+        :description="t('admin.featuresSettings.showEntryStatusModuleHint')"
+        :model-value="showEntryStatusModule"
+        :disabled="isDashboardDisplaySwitchDisabled"
+        @change="saveShowEntryStatusModule"
+      />
+
+      <FeatureSwitchRow
+        v-if="showConsoleAppListEntry"
+        :title="t('admin.featuresSettings.showConsoleAppList')"
+        :description="t('admin.featuresSettings.showConsoleAppListHint')"
+        :model-value="showConsoleAppList"
+        :disabled="isDashboardDisplaySwitchDisabled"
+        @change="saveShowConsoleAppList"
+      />
+
+      <DateTimeDisplaySettingRow
+        :model-value="dateTimeDisplayMode"
+        :disabled="isDashboardDisplaySwitchDisabled"
+        @change="saveDateTimeDisplayMode"
+      />
+      <FeatureSwitchRow
+        :title="t('admin.featuresSettings.passkeyBindPrompt')"
+        :description="t('admin.featuresSettings.passkeyBindPromptHint')"
+        :model-value="passkeyBindPromptEnabled"
+        :disabled="isSaving"
+        @change="savePasskeyBindPromptEnabled"
+      />
+
+      <FeatureSwitchRow
+        v-if="showAutoHttpsEntry"
+        :title="t('admin.featuresSettings.autoHttps')"
+        :description="t('admin.featuresSettings.autoHttpsHint')"
+        :model-value="autoHttpsEnabled"
+        :disabled="isSaving"
+        :error="autoHttpsRuntimeError"
+        @change="saveAutoHttpsEnabled"
+      />
+
+      <FeatureSwitchRow
+        v-if="showSSHSecurityEntry"
+        :title="t('admin.featuresSettings.sshSecurity')"
+        :description="t('admin.featuresSettings.sshSecurityHint')"
+        :model-value="sshSecurityEnabled"
+        :available="isSSHSecurityAvailable"
+        :disabled="isSaving"
+        :disabled-reason="sshSecurityDisabledReason"
+        @change="saveSSHSecurityEnabled"
+      />
+
+      <FeatureSwitchRow
+        :title="t('admin.featuresSettings.wol')"
+        :description="t('admin.featuresSettings.wolHint')"
+        :model-value="wolEnabled"
+        :disabled="isSaving"
+        @change="saveWOLEnabled"
+      />
+
+      <FeatureSwitchRow
+        :title="t('admin.featuresSettings.protocolMapping')"
+        :description="t('admin.featuresSettings.protocolMappingHint')"
+        :model-value="protocolMappingEnabled"
+        :available="isProtocolMappingAvailable"
+        :disabled="isSaving"
+        :disabled-reason="protocolMappingDisabledReason"
+        @change="saveProtocolMappingEnabled"
+      />
+
+      <button
+        type="button"
+        class="flex w-full items-center justify-between bg-muted/5 p-6 text-left transition-colors hover:bg-muted/15"
+        @click="openSidebarMenuOrder"
+      >
+        <div class="min-w-0 space-y-1 pr-6">
+          <div class="text-base font-medium">
+            {{ t("admin.featuresSettings.sidebarMenuOrder") }}
+          </div>
+          <div class="text-sm text-muted-foreground">
+            {{ t("admin.featuresSettings.sidebarMenuOrderHint") }}
+          </div>
+        </div>
+        <ChevronRight class="h-5 w-5 shrink-0 text-muted-foreground" />
+      </button>
+
+      <FeaturePageSettingRow
+        :title="t('admin.nav.webTerminal')"
+        :description="t('admin.webTerminalSettings.description')"
+        :available="true"
+        disabled-reason=""
+        @open="openWebTerminal"
+      />
+
+      <FeaturePageSettingRow
+        v-if="showSmartConnectEntry"
+        :title="t('admin.featuresSettings.smartConnect')"
+        :description="t('admin.featuresSettings.smartConnectHint')"
+        :available="isSmartConnectAvailable"
+        :disabled-reason="smartConnectDisabledReason"
+        @open="openSmartConnect"
+      />
+    </CardContent>
+  </Card>
+</template>

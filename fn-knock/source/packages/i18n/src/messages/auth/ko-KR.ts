@@ -1,1 +1,174 @@
-ZXhwb3J0IGNvbnN0IGtvS1JBdXRoID0gewogIGF1dG9JcEdyYW50Q29tbWVudDogIuuhnOq3uOyduCDtm4Qg7J6Q64+Z7Jy866GcIO2XiOyaqeuQqCIsCiAgdGl0bGU6ICLrs7TslYgg7J247KadIiwKICBjYXB0Y2hhRmlyc3Q6ICLrqLzsoIAg7JWE656Y7J2YIOyCrOuejCDtmZXsnbjsnYQg7JmE66OM7ZWY7IS47JqULiIsCiAgb3RwUHJvbXB0OiAi66Gc6re47J247ZWY66Ck66m0IDbsnpDrpqwg7J287ZqM7JqpIOu5hOuwgOuyiO2YuOulvCDsnoXroKXtlZjshLjsmpQuIiwKICBwYXNzd29yZFByb21wdDogIuyCrOyaqeyekCDsnbTrpoTqs7wg67mE67CA67KI7Zi466W8IOyeheugpe2VmOyXrCDroZzqt7jsnbjtlZjshLjsmpQuIiwKICBsZGFwUHJvbXB0OiAiTERBUCDqs4TsoJXqs7wg67mE67CA67KI7Zi466W8IOyeheugpe2VmOyXrCDroZzqt7jsnbjtlZjshLjsmpQuIiwKICBub3RSb2JvdDogIuuhnOu0h+ydtCDslYTri5nri4jri6QiLAogIHZlcmlmaWVkOiAi7J247Kad65CoIiwKICB2ZXJpZnlpbmc6ICLsnbjspp0g7KSRLi4uIiwKICB3YWl0OiAi6riw64uk66CkIOyjvOyEuOyalC4uLiIsCiAgdmVyaWZ5RXJyb3I6ICLsnbjspp0g7Jik66WYIiwKICB0dXJuc3RpbGVNaXNzaW5nOgogICAgIlR1cm5zdGlsZeydtCDshKTsoJXrkJjsp4Ag7JWK7JWY7Iq164uI64ukLiDqtIDrpqzsnpDsl5Dqsowg7IKs7J207Yq4IO2CpCDshKTsoJXsnYQg7JqU7LKt7ZWY7IS47JqULiIsCiAgdHVybnN0aWxlU2NyaXB0TG9hZEZhaWxlZDogIlR1cm5zdGlsZSDsiqTtgazrpr3tirjrpbwg67aI65+s7Jik7KeAIOuqu+2WiOyKteuLiOuLpC4iLAogIHR1cm5zdGlsZVJlbmRlckZhaWxlZDoKICAgICJUdXJuc3RpbGXsnYQg66CM642U66eB7ZWY7KeAIOuqu+2WiOyKteuLiOuLpC4g64KY7KSR7JeQIOuLpOyLnCDsi5zrj4TtlZjshLjsmpQuIiwKICB0dXJuc3RpbGVUaW1lb3V0OiAiVHVybnN0aWxlIOyduOymnSDsi5zqsITsnbQg7LSI6rO865CY7JeI7Iq164uI64ukLiDri6Tsi5wg7Iuc64+E7ZWY7IS47JqULiIsCiAgcG93VW5zdXBwb3J0ZWRBbGdvcml0aG06ICLsp4Dsm5DrkJjsp4Ag7JWK64qUIFBvVyDslYzqs6DrpqzsppgiLAogIHBvd0ludmFsaWRDaGFsbGVuZ2U6ICLsnpjrqrvrkJwgUG9XIOyxjOumsOyngCDrjbDsnbTthLAiLAogIHBvd1NvbHZlRmFpbGVkOgogICAgIlBvVyDsl7DsgrDsl5Ag7Iuk7Yyo7ZaI7Iq164uI64ukLiDtjpjsnbTsp4Drpbwg7IOI66GcIOqzoOy5nCDtm4Qg64uk7IucIOyLnOuPhO2VmOyEuOyalC4iLAogIGxvY2F0aW9uUmVzb2x2aW5nOiAi7JyE7LmYIO2ZleyduCDspJEuLi4iLAogIGxvY2F0aW9uVW5hdmFpbGFibGU6ICLsnITsuZjrpbwg7JWMIOyImCDsl4bsnYwiLAogIG9wZW5HaXRodWI6ICJHaXRIdWIg7ZSE66Gc7KCd7Yq4IO2OmOydtOyngCDsl7TquLAiLAogIG1lbnU6ICLrqZTribQiLAogIG9yOiAi65iQ64qUIiwKICBsb2dpbldpdGhQcm92aWRlcjogIntwcm92aWRlcn0o7Jy8KeuhnCDroZzqt7jsnbgiLAogIHJldHJ5QWZ0ZXJTZWNvbmRzOiAie3NlY29uZHN97LSIIO2bhCDsnqzsi5zrj4QiLAogIHZlcmlmeU5vdzogIuyngOq4iCDsnbjspp0iLAogIHBhc3N3b3JkTG9naW46ICLruYTrsIDrsojtmLjroZwg66Gc6re47J24IiwKICB0b3RwTG9naW46ICJUT1RQIOuhnOq3uOyduCIsCiAgbGRhcExvZ2luOiAiTERBUCDroZzqt7jsnbgiLAogIGxkYXBQcm92aWRlcjogIuuUlOugie2EsOumrCDsoJzqs7XsnpAiLAogIGxkYXBQcm92aWRlclJlcXVpcmVkOiAi65SU66CJ7YSw66asIOygnOqzteyekOulvCDshKDtg53tlZjshLjsmpQiLAogIGxkYXBVc2VybmFtZTogIkxEQVAg7IKs7Jqp7J6QIOydtOumhCIsCiAgbGRhcFBhc3N3b3JkOiAiTERBUCDruYTrsIDrsojtmLgiLAogIHVzZXJuYW1lOiAi7IKs7Jqp7J6QIOydtOumhCIsCiAgcGFzc3dvcmQ6ICLruYTrsIDrsojtmLgiLAogIHNob3dQYXNzd29yZDogIuu5hOuwgOuyiO2YuCDtkZzsi5wiLAogIGhpZGVQYXNzd29yZDogIuu5hOuwgOuyiO2YuCDsiKjquLDquLAiLAogIHVzZXJuYW1lUGFzc3dvcmRSZXF1aXJlZDogIuyCrOyaqeyekCDsnbTrpoTqs7wg67mE67CA67KI7Zi466W8IOyeheugpe2VmOyEuOyalCIsCiAgcGFzc2tleUxvZ2luOiAi7Yyo7Iqk7YKk66GcIOuhnOq3uOyduCIsCiAgdGlwOiAi7JWI64K0IiwKICBvazogIu2ZleyduCIsCiAgcmVtZW1iZXJNZTogIuuhnOq3uOyduCDsg4Htg5wg7Jyg7KeAIiwKICBwYXNza2V5QmluZFRpdGxlOiAi7Yyo7Iqk7YKkIOuhnOq3uOyduCDtmZzshLHtmZQiLAogIHBhc3NrZXlCaW5kRGVzY3JpcHRpb246CiAgICAi64uk7J2M67aA7YSwIOqwhO2OuO2VmOqyjCDroZzqt7jsnbjtlaAg7IiYIOyeiOuPhOuhnSDsnbQg6riw6riw7JeQIO2MqOyKpO2CpOulvCDrk7HroZ3tlZjshLjsmpQuIiwKICBwYXNza2V5QmluZFNraXBQcm9tcHQ6ICLri6Tsi5wg7JWM66as7KeAIOyViuq4sCIsCiAgcGFzc2tleUJpbmRMYXRlcjogIuuCmOykkeyXkCIsCiAgcGFzc2tleUJpbmROb3c6ICLsp4DquIgg7Zmc7ISx7ZmUIiwKICBjYXB0Y2hhQ29uZmlnTG9hZEZhaWxlZDoKICAgICLsgqzrnowg7ZmV7J24IOyEpOygleydhCDrtojrn6zsmKTsp4Ag66q77ZaI7Iq164uI64ukLiDtjpjsnbTsp4Drpbwg7IOI66GcIOqzoOy5nCDtm4Qg64uk7IucIOyLnOuPhO2VmOyEuOyalC4iLAogIGNhcHRjaGFGYWlsZWQ6ICLsgqzrnowg7ZmV7J247JeQIOyLpO2MqO2WiOyKteuLiOuLpC4g64uk7IucIOyLnOuPhO2VtCDso7zshLjsmpQuIiwKICBsb2dnZWRPdXRMb2dpbklwR3JhbnQ6CiAgICAi67iM65287Jqw7KCAIOyEuOyFmOyXkOyEnCDroZzqt7jslYTsm4PtlojsirXri4jri6QuIOuhnOq3uOyduO2VoCDrlYwg7ZeI7Jqp65CcIElQIOygkeq3vCDqtoztlZzrj4Qg7ZW07KCc65CY7JeI7Iq164uI64ukLiIsCiAgbG9nZ2VkT3V0TWFudWFsV2hpdGVsaXN0OgogICAgIuu4jOudvOyasOyggCDshLjshZjsl5DshJwg66Gc6re47JWE7JuD7ZaI7Iq164uI64ukLiDqtIDrpqzsnpDqsIAg7ISk7KCV7ZWcIO2XiOyaqSDrqqnroZ3snYAg6re464yA66GcIOycoOyngOuQqeuLiOuLpC4iLAogIGxvZ2dlZE91dExvY2FsRXhlbXB0OgogICAgIuu4jOudvOyasOyggCDshLjshZjsl5DshJwg66Gc6re47JWE7JuD7ZaI7Iq164uI64ukLiDsnbQg64Sk7Yq47JuM7YGs64qUIOqzhOyGjSDtl4jsmqkg66qp66GdIOqygOyCrOyXkOyEnCDsoJzsmbjrkKnri4jri6QuIiwKICBsb2dnZWRPdXREZWZhdWx0OiAi67iM65287Jqw7KCAIOyEuOyFmOyXkOyEnCDroZzqt7jslYTsm4PtlojsirXri4jri6QuIOuLpOyLnCDsnbjspp3tlZjshLjsmpQuIiwKICByZWRpcmVjdExvb3BCbG9ja2VkOgogICAgIuydtCDtmZXsnbgg7Y6Y7J207KeA7JmAIOuMgOyDgSDshJzruYTsiqQg7IKs7J207JeQ7IScIOuwmOuztSDrpqzrlJTroInshZjsnbQg6rCQ7KeA65CY7Ja0IOyekOuPmSDrpqzrlJTroInshZjsnYQg7J287IucIOykkeyngO2WiOyKteuLiOuLpC4g6rOE7IaN7ZWY66Ck66m0IOydtCDtjpjsnbTsp4Dsl5DshJwg64uk7IucIO2ZleyduO2VmOyEuOyalC4iLAogIHJlZGlyZWN0VGFyZ2V0QmxvY2tlZDoKICAgICLroZzqt7jsnbgg64yA7IOB7J20IOyemOuqu+uQmOyXiOqxsOuCmCDtmITsnqwg7ZmV7J24IO2OmOydtOyngOulvCDqsIDrpqzsvJwg67CY67O1IOumrOuUlOugieyFmOydhCDspJHsp4DtlojsirXri4jri6QuIOybkOuemCDshJzruYTsiqTrpbwg64uk7IucIOyXtOqxsOuCmCDqtIDrpqzsnpDsl5Dqsowg66Gc6re47J24IOuMgOyDgSDshKTsoJXsnYQg7ZmV7J247ZW0IOuLrOudvOqzoCDsmpTssq3tlZjshLjsmpQuIiwKICByZXRyeVN1ZmZpeDogIiB7c2Vjb25kc30g7LSIIO2bhOyXkCDri6Tsi5wg7Iuc64+E7ZWY7IS47JqULiIsCiAgaW52YWxpZE90cExlbmd0aDogIuyghOyytCA27J6Q66asIOyduOymnSDsvZTrk5zrpbwg7J6F66Cl7ZWY7IS47JqULiIsCiAgbG9naW5GYWlsZWQ6ICLsnbjspp3sl5Ag7Iuk7Yyo7ZaI7Iq164uI64ukLiDri6Tsi5wg7Iuc64+E7ZW0IOyjvOyEuOyalC4iLAogIHBhc3NrZXlOb1Jlc3BvbnNlOiAi7Yyo7Iqk7YKkIOydkeuLteydtCDsl4bsirXri4jri6QuIiwKICBwYXNza2V5VmVyaWZ5RmFpbGVkOiAi7Yyo7Iqk7YKkIOyduOymnSDsi6TtjKgiLAogIHBhc3NrZXlMb2dpbkZhaWxlZDogIu2MqOyKpO2CpCDroZzqt7jsnbjsl5Ag7Iuk7Yyo7ZaI7Iq164uI64ukLiDri6Tsi5wg7Iuc64+E7ZW0IOyjvOyEuOyalC4iLAogIG9pZGNTdGFydEZhaWxlZDogIuyZuOu2gCDroZzqt7jsnbjsnYQg7Iuc7J6R7ZWgIOyImCDsl4bsirXri4jri6QuIiwKICBvaWRjTG9naW5GYWlsZWQ6ICLsmbjrtoAg66Gc6re47J247JeQIOyLpO2MqO2WiOyKteuLiOuLpC4g64uk7IucIOyLnOuPhO2VtCDso7zshLjsmpQuIiwKICBwYXNza2V5QmluZEludmFsaWQ6ICLrk7HroZ0g7J6Q6rKpIOymneuqheydtCDsmKzrsJTrpbTsp4Ag7JWK7Iq164uI64ukLiDri6Tsi5wg66Gc6re47J247ZWY7IS47JqULiIsCiAgcGFzc2tleUJpbmRGYWlsZWQ6ICLtjKjsiqTtgqQg65Ox66GdIOyLpO2MqCIsCiAgcGFzc2tleUNyZWF0ZUNhbmNlbGxlZDogIu2MqOyKpO2CpCDsg53shLHsnbQg7Leo7IaM65CY7JeI6rGw64KYIOyLnOqwhOydtCDstIjqs7zrkJjsl4jsirXri4jri6QuIiwKICBwYXNza2V5Q3JlYXRlVW5hdmFpbGFibGU6CiAgICAi7Iuc7Iqk7YWc7JeQ7IScIO2MqOyKpO2CpOulvCDrp4zrk6Qg7IiYIOyXhuyKteuLiOuLpC4g7ZmU66m0IOyeoOq4iOqzvCDruYTrsIDrsojtmLgg6rSA66as7J6Q6rCAIO2ZnOyEse2ZlOuQmOyWtCDsnojripTsp4Ag7ZmV7J247ZWcIO2bhCDri6Tsi5wg7Iuc64+E7ZWY7IS47JqULiIsCiAgcGFzc2tleUFscmVhZHlSZWdpc3RlcmVkOgogICAgIuydtCDquLDquLAg65iQ64qUIOu5hOuwgOuyiO2YuCDqtIDrpqzsnpDsl5Ag7J2066+4IO2MqOyKpO2CpOqwgCDsnojsirXri4jri6QuIOuwlOuhnCDsgqzsmqntlaAg7IiYIOyeiOyKteuLiOuLpC4iLAogIGhvbWU6IHsKICAgIHN0YXR1c1RpdGxlczogewogICAgICBicm93c2VyU2Vzc2lvbjogIuydtCDruIzrnbzsmrDsoIAg7IS47IWY7J20IO2ZleyduOuQmOyXiOyKteuLiOuLpC4iLAogICAgICBzZXNzaW9uTWlncmF0aW9uOiAi67iM65287Jqw7KCAIOyEuOyFmOydtCDrs7Xsm5DrkJjsl4jsirXri4jri6QuIiwKICAgICAgZm5vc0ZpbmdlcnByaW50U2Vzc2lvbjogIuq4sOq4sCDsi53rs4Qg7IS47IWY7J20IOuzteybkOuQmOyXiOyKteuLiOuLpC4iLAogICAgICBtYW51YWxXaGl0ZWxpc3Q6ICLtl4jsmqkg66qp66Gd7Jy866GcIOygkeq3vOydtCDtl4jsmqnrkJjsl4jsirXri4jri6QuIiwKICAgICAgbG9jYWxFeGVtcHQ6ICLtmITsnqwg64Sk7Yq47JuM7YGs7JeQ7IScIOygkeq3vO2VoCDsiJgg7J6I7Iq164uI64ukLiIsCiAgICAgIGZub3NTaGFyZTogIuqzteycoCDsoJHqt7zsnbQg7Iq57J2465CY7JeI7Iq164uI64ukLiIsCiAgICAgIGxvZ2luSXBHcmFudDogIuuztOyViCDsnbjspp3snYQg7Ya16rO87ZaI7Iq164uI64ukLiIsCiAgICB9LAogICAgc3RhdHVzRGVzY3JpcHRpb25zOiB7CiAgICAgIGJyb3dzZXJTZXNzaW9uOiAi7J20IOu4jOudvOyasOyggCDshLjshZjsl5DripQg7KCR6re87J20IO2XiOyaqeuQqeuLiOuLpC4iLAogICAgICBzZXNzaW9uTWlncmF0aW9uOiAi7J20IOu4jOudvOyasOyggCDshLjshZjsnYAg64Sk7Yq47JuM7YGsIOuzgOqyvSDtm4Qg67O17JuQ65CY7JeI7Iq164uI64ukLiIsCiAgICAgIGZub3NGaW5nZXJwcmludFNlc3Npb246CiAgICAgICAgIkZOT1Mg6riw6riwIOyLneuzhCDshLjshZjsnYQg7Ya17ZW0IOygkeq3vCDqtoztlZzsnbQg67O17JuQ65CY7JeI7Iq164uI64ukLiIsCiAgICAgIG1hbnVhbFdoaXRlbGlzdDogIu2YhOyerCBJUOqwgCDqtIDrpqzsnpDsnZgg7ZeI7JqpIOuqqeuhneyXkCDrk7HroZ3rkJjslrQg7J6I7Iq164uI64ukLiIsCiAgICAgIGxvY2FsRXhlbXB0OiAi7J20IOuEpO2KuOybjO2BrCDso7zshozripQg7ZeI7JqpIOuqqeuhnSDqsoDsgqzsl5DshJwg7KCc7Jm465Cp64uI64ukLiIsCiAgICAgIGZub3NTaGFyZTogIkZOT1Mg6rO17JygIOunge2BrOulvCDthrXtlbQg7KCR6re87J20IOyKueyduOuQmOyXiOyKteuLiOuLpC4iLAogICAgICBsb2dpbklwR3JhbnQ6ICLtmITsnqwgSVDsnZgg7KCR6re87J20IO2XiOyaqeuQmOyXiOyKteuLiOuLpC4iLAogICAgfSwKICAgIGxvZ291dEhpbnRzOiB7CiAgICAgIGJyb3dzZXJTZXNzaW9uOgogICAgICAgICLsoJHqt7zsnbQg642UIOydtOyDgSDtlYTsmpTtlZjsp4Ag7JWK7Jy866m0IOyVhOuemOyXkOyEnCDroZzqt7jslYTsm4PtlZjshLjsmpQuIOydtCDruIzrnbzsmrDsoIDroZwg64uk7IucIOygkeyGje2VmOugpOuptCDrs7TslYgg7J247Kad7J20IO2VhOyalO2VqeuLiOuLpC4iLAogICAgICBzZXNzaW9uTWlncmF0aW9uOgogICAgICAgICLsoJHqt7zsnbQg642UIOydtOyDgSDtlYTsmpTtlZjsp4Ag7JWK7Jy866m0IOyVhOuemOyXkOyEnCDroZzqt7jslYTsm4PtlZjshLjsmpQuIOydtCDruIzrnbzsmrDsoIDripQg64uk7IucIOyduOymne2VtOyVvCDtlZjrqbAsIOydtOyghOuQnCDshLjshZjsnZgg7KCR6re8IOq2jO2VnOuPhCDtlbTsoJzrkKnri4jri6QuIiwKICAgICAgZm5vc0ZpbmdlcnByaW50U2Vzc2lvbjoKICAgICAgICAi7KCR6re87J20IOuNlCDsnbTsg4Eg7ZWE7JqU7ZWY7KeAIOyViuycvOuptCDslYTrnpjsl5DshJwg66Gc6re47JWE7JuD7ZWY7IS47JqULiDrs7Xsm5DrkJwg6riw6riwIOyLneuzhCDshLjshZjqs7wg7Jew6rKw65CcIOygkeq3vCDqtoztlZzsnbQg7ZW07KCc65Cp64uI64ukLiIsCiAgICAgIGxvZ2luSXBHcmFudDoKICAgICAgICAi7KCR6re87J20IOuNlCDsnbTsg4Eg7ZWE7JqU7ZWY7KeAIOyViuycvOuptCDslYTrnpjsl5DshJwg66Gc6re47JWE7JuD7ZWY7IS47JqULiDruIzrnbzsmrDsoIAg7IS47IWY6rO8IOuhnOq3uOyduO2VoCDrlYwg7ZeI7Jqp65CcIO2YhOyerCBJUOydmCDsoJHqt7wg6raM7ZWc7J20IO2VtOygnOuQqeuLiOuLpC4iLAogICAgICBtYW51YWxXaGl0ZWxpc3Q6CiAgICAgICAgIuygkeq3vOydtCDrjZQg7J207IOBIO2VhOyalO2VmOyngCDslYrsnLzrqbQg7JWE656Y7JeQ7IScIOuhnOq3uOyVhOybg+2VmOyEuOyalC4g67iM65287Jqw7KCAIOyEuOyFmOunjCDsooXro4zrkJjrqbAg6rSA66as7J6Q7J2YIO2XiOyaqSDrqqnroZ3snYAg7Jyg7KeA65Cp64uI64ukLiIsCiAgICAgIGxvY2FsRXhlbXB0OgogICAgICAgICLsoJHqt7zsnbQg642UIOydtOyDgSDtlYTsmpTtlZjsp4Ag7JWK7Jy866m0IOyVhOuemOyXkOyEnCDroZzqt7jslYTsm4PtlZjshLjsmpQuIOu4jOudvOyasOyggCDshLjshZjrp4wg7KKF66OM65CY66mwIOydtCDrhKTtirjsm4ztgazsnZgg7ZeI7JqpIOuqqeuhnSDsmIjsmbjripQg7Jyg7KeA65Cp64uI64ukLiIsCiAgICAgIGZub3NTaGFyZToKICAgICAgICAi7KCR6re87J20IOuNlCDsnbTsg4Eg7ZWE7JqU7ZWY7KeAIOyViuycvOuptCDslYTrnpjsl5DshJwg66Gc6re47JWE7JuD7ZWY7IS47JqULiDqs7XsnKAg7KCR6re8IOyEuOyFmOydtCDsooXro4zrkJjrqbAg64uk7IucIOygkeyGje2VmOugpOuptCDqs7XsnKAg66eB7YGs66W8IOyXtOyWtOyVvCDtlanri4jri6QuIiwKICAgICAgZGVmYXVsdDoKICAgICAgICAi7KCR6re87J20IOuNlCDsnbTsg4Eg7ZWE7JqU7ZWY7KeAIOyViuycvOuptCDslYTrnpjsl5DshJwg66Gc6re47JWE7JuD7ZWY7JesIOygkeq3vCDqtoztlZzsnYQg7ZW07KCc7ZWY7IS47JqULiIsCiAgICB9LAogICAgbG9nb3V0RGlhbG9nRGVzY3JpcHRpb25zOiB7CiAgICAgIGJyb3dzZXJTZXNzaW9uOgogICAgICAgICLroZzqt7jslYTsm4PtlZjrqbQg7J20IOu4jOudvOyasOyggCDshLjshZjsnbQg7KKF66OM65Cp64uI64ukLiDri6Tsi5wg7KCR7IaN7ZWY66Ck66m0IOuztOyViCDsnbjspp3snbQg7ZWE7JqU7ZWp64uI64ukLiIsCiAgICAgIHNlc3Npb25NaWdyYXRpb246CiAgICAgICAgIuuhnOq3uOyVhOybg+2VmOuptCDruIzrnbzsmrDsoIAg7IS47IWY6rO8IOydtOyghOuQnCDshLjshZjsnZgg7KCR6re8IOq2jO2VnOydtCDtlbTsoJzrkKnri4jri6QuIiwKICAgICAgZm5vc0ZpbmdlcnByaW50U2Vzc2lvbjoKICAgICAgICAi66Gc6re47JWE7JuD7ZWY66m0IOuzteybkOuQnCDquLDquLAg7Iud67OEIOyEuOyFmOqzvCDsl7DqsrDrkJwg7KCR6re8IOq2jO2VnOydtCDtlbTsoJzrkKnri4jri6QuIiwKICAgICAgbG9naW5JcEdyYW50OgogICAgICAgICLroZzqt7jslYTsm4PtlZjrqbQg67iM65287Jqw7KCAIOyEuOyFmOqzvCDroZzqt7jsnbjtlaAg65WMIO2XiOyaqeuQnCDtmITsnqwgSVDsnZgg7KCR6re8IOq2jO2VnOydtCDtlbTsoJzrkKnri4jri6QuIiwKICAgICAgbWFudWFsV2hpdGVsaXN0OgogICAgICAgICLroZzqt7jslYTsm4PtlZjrqbQg67iM65287Jqw7KCAIOyEuOyFmOunjCDsooXro4zrkKnri4jri6QuIOq0gOumrOyekOydmCDtl4jsmqkg66qp66Gd7J2AIOycoOyngOuQqeuLiOuLpC4iLAogICAgICBsb2NhbEV4ZW1wdDoKICAgICAgICAi66Gc6re47JWE7JuD7ZWY66m0IOu4jOudvOyasOyggCDshLjshZjrp4wg7KKF66OM65Cp64uI64ukLiDsnbQg64Sk7Yq47JuM7YGs7J2YIO2XiOyaqSDrqqnroZ0g7JiI7Jm464qUIOycoOyngOuQqeuLiOuLpC4iLAogICAgICBmbm9zU2hhcmU6CiAgICAgICAgIuuhnOq3uOyVhOybg+2VmOuptCDqs7XsnKAg7KCR6re8IOyEuOyFmOydtCDsooXro4zrkKnri4jri6QuIOuLpOyLnCDsoJHsho3tlZjroKTrqbQg6rO17JygIOunge2BrOulvCDsl6zshLjsmpQuIiwKICAgICAgZGVmYXVsdDoKICAgICAgICAi66Gc6re47JWE7JuD7ZWY66m0IO2YhOyerCDsoJHqt7wg6raM7ZWc7J20IO2VtOygnOuQqeuLiOuLpC4g64uk7IucIOygkeyGje2VmOugpOuptCDrs7TslYgg7J247Kad7J20IO2VhOyalO2VqeuLiOuLpC4iLAogICAgfSwKICAgIGVuYWJsZVBhc3NrZXk6ICLtjKjsiqTtgqQg66Gc6re47J24IO2ZnOyEse2ZlCIsCiAgICBwYXNza2V5U3VwcG9ydGVkVW5ib3VuZDoKICAgICAgIuydtCDruIzrnbzsmrDsoIDripQg7Yyo7Iqk7YKk66W8IOyngOybkO2VmOyngOunjCDslYTsp4Eg65Ox66Gd65CcIO2MqOyKpO2CpOqwgCDsl4bsirXri4jri6QuIiwKICAgIGFkZFBhc3NrZXk6ICLri6Trpbgg7Yyo7Iqk7YKkIOy2lOqwgCIsCiAgICBwYXNza2V5QXZhaWxhYmxlQWRkRGV2aWNlOgogICAgICAi7J20IOqzhOygleyXkOuKlCDsnbTrr7gg7Yyo7Iqk7YKk6rCAIOyeiOyKteuLiOuLpC4g7J20IOq4sOq4sOyXkCDrj5nquLDtmZTrkJjsp4Ag7JWK7JWY64uk66m0IO2VmOuCmCDrjZQg7LaU6rCA7ZWgIOyImCDsnojsirXri4jri6QuIiwKICAgIGxvZ291dERlbGF5OiAie3NlY29uZHN9IOy0iCDtm4Tsl5Ag66Gc6re47JWE7JuDIOuyhO2KvOydtCDrgpjtg4Drgqnri4jri6QuIiwKICAgIGxvZ291dDogIuuhnOq3uOyVhOybgyIsCiAgICBsb2dvdXRDb25maXJtVGl0bGU6ICLroZzqt7jslYTsm4Mg7ZmV7J24IiwKICAgIGNvbmZpcm1Mb2dvdXQ6ICLroZzqt7jslYTsm4MiLAogICAgcGFzc2tleVRva2VuTWlzc2luZzogIuuTseuhnSDsnpDqsqkg7Kad66qF7J2EIOqwgOyguOyYrCDsiJgg7JeG7Iq164uI64ukLiIsCiAgfSwKICBsZGFwQmluZDogewogICAgdGl0bGU6ICJMREFQIOqzhOyglSDsl7DqsrAiLAogICAgZGVzY3JpcHRpb246ICJMREFQIOyLoOybkOydhCDtmZXsnbjtlZjqs6Ag6riw7KG0IFRPVFAg7J6Q6rKpIOymneuqheyXkCDsl7DqsrDtlanri4jri6QuIiwKICAgIGNoZWNraW5nSW52aXRlOiAi7LSI64yAIOunge2BrCDtmZXsnbgg7KSRLi4uIiwKICAgIGJpbmRUbzogIuyXsOqysCDrjIDsg4EiLAogICAgbWlzc2luZ1Rva2VuOiAi7LSI64yAIOunge2BrOyXkCDthqDtgbDsnbQg7JeG7Iq164uI64ukLiIsCiAgICBpbnZpdGVFeHBpcmVkOiAi7LSI64yAIOunge2BrOqwgCDrp4zro4zrkJjsl4jsirXri4jri6QuIiwKICAgIGJpbmROb3c6ICLtmZXsnbjtlZjqs6Ag7Jew6rKwIiwKICAgIGJpbmRGYWlsZWQ6ICJMREFQIOqzhOygleydhCDsl7DqsrDtlZjsp4Ag66q77ZaI7Iq164uI64ukLiDri6Tsi5wg7Iuc64+E7ZW0IOyjvOyEuOyalC4iLAogIH0sCiAgb2lkY0JpbmQ6IHsKICAgIHRpdGxlOiAi7Jm467aAIOqzhOyglSDsl7DqsrAiLAogICAgY2hlY2tpbmdJbnZpdGU6ICLstIjrjIAg66eB7YGsIO2ZleyduCDspJEuLi4iLAogICAgYmluZFRvOiAi7Jew6rKwIOuMgOyDgSIsCiAgICB1c2VQcm92aWRlcjogIntwcm92aWRlcn0o7Jy8KeuhnCDsl7DqsrAiLAogICAgaW52YWxpZEludml0ZTogIuy0iOuMgCDrp4Htgazrpbwg7IKs7Jqp7ZWgIOyImCDsl4bsirXri4jri6QuIiwKICAgIHdhaXQ6ICLsnqDsi5wg6riw64uk66CkIOyjvOyEuOyalC4iLAogICAgc2VsZWN0UHJvdmlkZXI6ICLroZzqt7jsnbjtlZjsl6wg7Jew6rKw7ZWgIOygnOqzteyekOulvCDshKDtg53tlZjshLjsmpQuIiwKICAgIG1pc3NpbmdUb2tlbjogIuy0iOuMgCDrp4Htgazsl5Ag7Yag7YGw7J20IOyXhuyKteuLiOuLpC4iLAogICAgbm9Qcm92aWRlcnM6ICLsgqzsmqkg6rCA64ql7ZWcIOyZuOu2gCDroZzqt7jsnbgg7KCc6rO17J6Q6rCAIOyXhuyKteuLiOuLpC4iLAogICAgaW52aXRlRXhwaXJlZDogIuy0iOuMgCDrp4HtgazqsIAg66eM66OM65CY7JeI7Iq164uI64ukLiIsCiAgICBzdGFydEZhaWxlZDogIuyZuOu2gCDqs4TsoJUg7Jew6rKw7J2EIOyLnOyeke2VoCDsiJgg7JeG7Iq164uI64ukLiIsCiAgICBiaW5kRmFpbGVkOiAi7Jm467aAIOqzhOygleydhCDsl7DqsrDtlZjsp4Ag66q77ZaI7Iq164uI64ukLiDri6Tsi5wg7Iuc64+E7ZW0IOyjvOyEuOyalC4iLAogIH0sCn07Cg==
+export const koKRAuth = {
+  autoIpGrantComment: "로그인 후 자동으로 허용됨",
+  title: "보안 인증",
+  captchaFirst: "먼저 아래의 사람 확인을 완료하세요.",
+  otpPrompt: "로그인하려면 6자리 일회용 비밀번호를 입력하세요.",
+  passwordPrompt: "사용자 이름과 비밀번호를 입력하여 로그인하세요.",
+  ldapPrompt: "LDAP 계정과 비밀번호를 입력하여 로그인하세요.",
+  notRobot: "로봇이 아닙니다",
+  verified: "인증됨",
+  verifying: "인증 중...",
+  wait: "기다려 주세요...",
+  verifyError: "인증 오류",
+  turnstileMissing:
+    "Turnstile이 설정되지 않았습니다. 관리자에게 사이트 키 설정을 요청하세요.",
+  turnstileScriptLoadFailed: "Turnstile 스크립트를 불러오지 못했습니다.",
+  turnstileRenderFailed:
+    "Turnstile을 렌더링하지 못했습니다. 나중에 다시 시도하세요.",
+  turnstileTimeout: "Turnstile 인증 시간이 초과되었습니다. 다시 시도하세요.",
+  powUnsupportedAlgorithm: "지원되지 않는 PoW 알고리즘",
+  powInvalidChallenge: "잘못된 PoW 챌린지 데이터",
+  powSolveFailed:
+    "PoW 연산에 실패했습니다. 페이지를 새로 고친 후 다시 시도하세요.",
+  locationResolving: "위치 확인 중...",
+  locationUnavailable: "위치를 알 수 없음",
+  openGithub: "GitHub 프로젝트 페이지 열기",
+  menu: "메뉴",
+  or: "또는",
+  loginWithProvider: "{provider}(으)로 로그인",
+  retryAfterSeconds: "{seconds}초 후 재시도",
+  verifyNow: "지금 인증",
+  passwordLogin: "비밀번호로 로그인",
+  totpLogin: "TOTP 로그인",
+  ldapLogin: "LDAP 로그인",
+  ldapProvider: "디렉터리 제공자",
+  ldapProviderRequired: "디렉터리 제공자를 선택하세요",
+  ldapUsername: "LDAP 사용자 이름",
+  ldapPassword: "LDAP 비밀번호",
+  username: "사용자 이름",
+  password: "비밀번호",
+  showPassword: "비밀번호 표시",
+  hidePassword: "비밀번호 숨기기",
+  usernamePasswordRequired: "사용자 이름과 비밀번호를 입력하세요",
+  passkeyLogin: "패스키로 로그인",
+  tip: "안내",
+  ok: "확인",
+  rememberMe: "로그인 상태 유지",
+  passkeyBindTitle: "패스키 로그인 활성화",
+  passkeyBindDescription:
+    "다음부터 간편하게 로그인할 수 있도록 이 기기에 패스키를 등록하세요.",
+  passkeyBindSkipPrompt: "다시 알리지 않기",
+  passkeyBindLater: "나중에",
+  passkeyBindNow: "지금 활성화",
+  captchaConfigLoadFailed:
+    "사람 확인 설정을 불러오지 못했습니다. 페이지를 새로 고친 후 다시 시도하세요.",
+  captchaFailed: "사람 확인에 실패했습니다. 다시 시도해 주세요.",
+  loggedOutLoginIpGrant:
+    "브라우저 세션에서 로그아웃했습니다. 로그인할 때 허용된 IP 접근 권한도 해제되었습니다.",
+  loggedOutManualWhitelist:
+    "브라우저 세션에서 로그아웃했습니다. 관리자가 설정한 허용 목록은 그대로 유지됩니다.",
+  loggedOutLocalExempt:
+    "브라우저 세션에서 로그아웃했습니다. 이 네트워크는 계속 허용 목록 검사에서 제외됩니다.",
+  loggedOutDefault: "브라우저 세션에서 로그아웃했습니다. 다시 인증하세요.",
+  redirectLoopBlocked:
+    "이 확인 페이지와 대상 서비스 사이에서 반복 리디렉션이 감지되어 자동 리디렉션을 일시 중지했습니다. 계속하려면 이 페이지에서 다시 확인하세요.",
+  redirectTargetBlocked:
+    "로그인 대상이 잘못되었거나 현재 확인 페이지를 가리켜 반복 리디렉션을 중지했습니다. 원래 서비스를 다시 열거나 관리자에게 로그인 대상 설정을 확인해 달라고 요청하세요.",
+  retrySuffix: " {seconds} 초 후에 다시 시도하세요.",
+  invalidOtpLength: "전체 6자리 인증 코드를 입력하세요.",
+  loginFailed: "인증에 실패했습니다. 다시 시도해 주세요.",
+  passkeyNoResponse: "패스키 응답이 없습니다.",
+  passkeyVerifyFailed: "패스키 인증 실패",
+  passkeyLoginFailed: "패스키 로그인에 실패했습니다. 다시 시도해 주세요.",
+  oidcStartFailed: "외부 로그인을 시작할 수 없습니다.",
+  oidcLoginFailed: "외부 로그인에 실패했습니다. 다시 시도해 주세요.",
+  passkeyBindInvalid: "등록 자격 증명이 올바르지 않습니다. 다시 로그인하세요.",
+  passkeyBindFailed: "패스키 등록 실패",
+  passkeyCreateCancelled: "패스키 생성이 취소되었거나 시간이 초과되었습니다.",
+  passkeyCreateUnavailable:
+    "시스템에서 패스키를 만들 수 없습니다. 화면 잠금과 비밀번호 관리자가 활성화되어 있는지 확인한 후 다시 시도하세요.",
+  passkeyAlreadyRegistered:
+    "이 기기 또는 비밀번호 관리자에 이미 패스키가 있습니다. 바로 사용할 수 있습니다.",
+  home: {
+    statusTitles: {
+      browserSession: "이 브라우저 세션이 확인되었습니다.",
+      sessionMigration: "브라우저 세션이 복원되었습니다.",
+      fnosFingerprintSession: "기기 식별 세션이 복원되었습니다.",
+      manualWhitelist: "허용 목록으로 접근이 허용되었습니다.",
+      localExempt: "현재 네트워크에서 접근할 수 있습니다.",
+      fnosShare: "공유 접근이 승인되었습니다.",
+      loginIpGrant: "보안 인증을 통과했습니다.",
+    },
+    statusDescriptions: {
+      browserSession: "이 브라우저 세션에는 접근이 허용됩니다.",
+      sessionMigration: "이 브라우저 세션은 네트워크 변경 후 복원되었습니다.",
+      fnosFingerprintSession:
+        "FNOS 기기 식별 세션을 통해 접근 권한이 복원되었습니다.",
+      manualWhitelist: "현재 IP가 관리자의 허용 목록에 등록되어 있습니다.",
+      localExempt: "이 네트워크 주소는 허용 목록 검사에서 제외됩니다.",
+      fnosShare: "FNOS 공유 링크를 통해 접근이 승인되었습니다.",
+      loginIpGrant: "현재 IP의 접근이 허용되었습니다.",
+    },
+    logoutHints: {
+      browserSession:
+        "접근이 더 이상 필요하지 않으면 아래에서 로그아웃하세요. 이 브라우저로 다시 접속하려면 보안 인증이 필요합니다.",
+      sessionMigration:
+        "접근이 더 이상 필요하지 않으면 아래에서 로그아웃하세요. 이 브라우저는 다시 인증해야 하며, 이전된 세션의 접근 권한도 해제됩니다.",
+      fnosFingerprintSession:
+        "접근이 더 이상 필요하지 않으면 아래에서 로그아웃하세요. 복원된 기기 식별 세션과 연결된 접근 권한이 해제됩니다.",
+      loginIpGrant:
+        "접근이 더 이상 필요하지 않으면 아래에서 로그아웃하세요. 브라우저 세션과 로그인할 때 허용된 현재 IP의 접근 권한이 해제됩니다.",
+      manualWhitelist:
+        "접근이 더 이상 필요하지 않으면 아래에서 로그아웃하세요. 브라우저 세션만 종료되며 관리자의 허용 목록은 유지됩니다.",
+      localExempt:
+        "접근이 더 이상 필요하지 않으면 아래에서 로그아웃하세요. 브라우저 세션만 종료되며 이 네트워크의 허용 목록 예외는 유지됩니다.",
+      fnosShare:
+        "접근이 더 이상 필요하지 않으면 아래에서 로그아웃하세요. 공유 접근 세션이 종료되며 다시 접속하려면 공유 링크를 열어야 합니다.",
+      default:
+        "접근이 더 이상 필요하지 않으면 아래에서 로그아웃하여 접근 권한을 해제하세요.",
+    },
+    logoutDialogDescriptions: {
+      browserSession:
+        "로그아웃하면 이 브라우저 세션이 종료됩니다. 다시 접속하려면 보안 인증이 필요합니다.",
+      sessionMigration:
+        "로그아웃하면 브라우저 세션과 이전된 세션의 접근 권한이 해제됩니다.",
+      fnosFingerprintSession:
+        "로그아웃하면 복원된 기기 식별 세션과 연결된 접근 권한이 해제됩니다.",
+      loginIpGrant:
+        "로그아웃하면 브라우저 세션과 로그인할 때 허용된 현재 IP의 접근 권한이 해제됩니다.",
+      manualWhitelist:
+        "로그아웃하면 브라우저 세션만 종료됩니다. 관리자의 허용 목록은 유지됩니다.",
+      localExempt:
+        "로그아웃하면 브라우저 세션만 종료됩니다. 이 네트워크의 허용 목록 예외는 유지됩니다.",
+      fnosShare:
+        "로그아웃하면 공유 접근 세션이 종료됩니다. 다시 접속하려면 공유 링크를 여세요.",
+      default:
+        "로그아웃하면 현재 접근 권한이 해제됩니다. 다시 접속하려면 보안 인증이 필요합니다.",
+    },
+    enablePasskey: "패스키 로그인 활성화",
+    passkeySupportedUnbound:
+      "이 브라우저는 패스키를 지원하지만 아직 등록된 패스키가 없습니다.",
+    addPasskey: "다른 패스키 추가",
+    passkeyAvailableAddDevice:
+      "이 계정에는 이미 패스키가 있습니다. 이 기기에 동기화되지 않았다면 하나 더 추가할 수 있습니다.",
+    logoutDelay: "{seconds} 초 후에 로그아웃 버튼이 나타납니다.",
+    logout: "로그아웃",
+    logoutConfirmTitle: "로그아웃 확인",
+    confirmLogout: "로그아웃",
+    passkeyTokenMissing: "등록 자격 증명을 가져올 수 없습니다.",
+  },
+  ldapBind: {
+    title: "LDAP 계정 연결",
+    description: "LDAP 신원을 확인하고 기존 TOTP 자격 증명에 연결합니다.",
+    checkingInvite: "초대 링크 확인 중...",
+    bindTo: "연결 대상",
+    missingToken: "초대 링크에 토큰이 없습니다.",
+    inviteExpired: "초대 링크가 만료되었습니다.",
+    bindNow: "확인하고 연결",
+    bindFailed: "LDAP 계정을 연결하지 못했습니다. 다시 시도해 주세요.",
+  },
+  oidcBind: {
+    title: "외부 계정 연결",
+    checkingInvite: "초대 링크 확인 중...",
+    bindTo: "연결 대상",
+    useProvider: "{provider}(으)로 연결",
+    invalidInvite: "초대 링크를 사용할 수 없습니다.",
+    wait: "잠시 기다려 주세요.",
+    selectProvider: "로그인하여 연결할 제공자를 선택하세요.",
+    missingToken: "초대 링크에 토큰이 없습니다.",
+    noProviders: "사용 가능한 외부 로그인 제공자가 없습니다.",
+    inviteExpired: "초대 링크가 만료되었습니다.",
+    startFailed: "외부 계정 연결을 시작할 수 없습니다.",
+    bindFailed: "외부 계정을 연결하지 못했습니다. 다시 시도해 주세요.",
+  },
+};

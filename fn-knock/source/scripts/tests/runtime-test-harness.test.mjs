@@ -1,1 +1,133 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBzcGF3biB9IGZyb20gIm5vZGU6Y2hpbGRfcHJvY2VzcyI7CmltcG9ydCB7IG9uY2UgfSBmcm9tICJub2RlOmV2ZW50cyI7CmltcG9ydCBodHRwIGZyb20gIm5vZGU6aHR0cCI7CmltcG9ydCB0ZXN0IGZyb20gIm5vZGU6dGVzdCI7CmltcG9ydCB7IHNldFRpbWVvdXQgYXMgZGVsYXkgfSBmcm9tICJub2RlOnRpbWVycy9wcm9taXNlcyI7CmltcG9ydCB7CiAgY29sbGVjdFJ1bnRpbWVDaGVja3BvaW50LAogIGZldGNoUnVudGltZSwKICBzdG9wQ2hpbGQsCiAgd2FpdEZvckh0dHAsCn0gZnJvbSAiLi4vcnVudGltZS10ZXN0LWhhcm5lc3MubWpzIjsKCmNvbnN0IHdpdGhTZXJ2ZXIgPSBhc3luYyAoaGFuZGxlciwgcnVuKSA9PiB7CiAgY29uc3Qgc2VydmVyID0gaHR0cC5jcmVhdGVTZXJ2ZXIoaGFuZGxlcik7CiAgYXdhaXQgbmV3IFByb21pc2UoKHJlc29sdmUpID0+IHNlcnZlci5saXN0ZW4oMCwgIjEyNy4wLjAuMSIsIHJlc29sdmUpKTsKICB0cnkgewogICAgYXdhaXQgcnVuKGBodHRwOi8vMTI3LjAuMC4xOiR7c2VydmVyLmFkZHJlc3MoKS5wb3J0fWApOwogIH0gZmluYWxseSB7CiAgICBzZXJ2ZXIuY2xvc2VBbGxDb25uZWN0aW9ucygpOwogICAgYXdhaXQgbmV3IFByb21pc2UoKHJlc29sdmUpID0+IHNlcnZlci5jbG9zZShyZXNvbHZlKSk7CiAgfQp9OwoKdGVzdCgicnVudGltZSByZWFkaW5lc3MgcmVzcGVjdHMgaXRzIGRlYWRsaW5lIHdoZW4gYSBzZXJ2ZXIgbmV2ZXIgc2VuZHMgaGVhZGVycyIsIGFzeW5jICgpID0+IHsKICBhd2FpdCB3aXRoU2VydmVyKAogICAgKCkgPT4ge30sCiAgICBhc3luYyAodXJsKSA9PiB7CiAgICAgIGNvbnN0IHN0YXJ0ZWQgPSBwZXJmb3JtYW5jZS5ub3coKTsKICAgICAgYXdhaXQgYXNzZXJ0LnJlamVjdHMod2FpdEZvckh0dHAodXJsLCA4MCksIC90aW1lb3V0fGFib3J0L2kpOwogICAgICBhc3NlcnQub2socGVyZm9ybWFuY2Uubm93KCkgLSBzdGFydGVkIDwgMV8wMDApOwogICAgfSwKICApOwp9KTsKCnRlc3QoInJ1bnRpbWUgcmVxdWVzdCBkZWFkbGluZSBhbHNvIGNvdmVycyBzdGFsbGVkIHJlc3BvbnNlIGJvZGllcyIsIGFzeW5jICgpID0+IHsKICBhd2FpdCB3aXRoU2VydmVyKAogICAgKF9yZXF1ZXN0LCByZXNwb25zZSkgPT4gewogICAgICByZXNwb25zZS53cml0ZUhlYWQoMjAwLCB7ICJjb250ZW50LXR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIgfSk7CiAgICAgIHJlc3BvbnNlLndyaXRlKCd7IndhaXRpbmciOicpOwogICAgfSwKICAgIGFzeW5jICh1cmwpID0+IHsKICAgICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaFJ1bnRpbWUodXJsLCB7fSwgODApOwogICAgICBhd2FpdCBhc3NlcnQucmVqZWN0cyhyZXNwb25zZS5qc29uKCksIC9hYm9ydC9pKTsKICAgIH0sCiAgKTsKfSk7Cgp0ZXN0KCJydW50aW1lIHJlYWRpbmVzcyBjYW5jZWxzIGEgc3VjY2Vzc2Z1bCBzdHJlYW1pbmcgYm9keSBhbmQgY2FsbGVyIGNhbmNlbGxhdGlvbiIsIGFzeW5jICgpID0+IHsKICBhd2FpdCB3aXRoU2VydmVyKAogICAgKF9yZXF1ZXN0LCByZXNwb25zZSkgPT4gewogICAgICByZXNwb25zZS53cml0ZUhlYWQoMjAwKTsKICAgICAgcmVzcG9uc2Uud3JpdGUoInJlYWR5Iik7CiAgICB9LAogICAgYXN5bmMgKHVybCkgPT4gewogICAgICBhd2FpdCB3YWl0Rm9ySHR0cCh1cmwsIDFfMDAwKTsKICAgICAgY29uc3QgY29udHJvbGxlciA9IG5ldyBBYm9ydENvbnRyb2xsZXIoKTsKICAgICAgY29udHJvbGxlci5hYm9ydChuZXcgRXJyb3IoInN0YXJ0dXAgZmFpbGVkIikpOwogICAgICBhd2FpdCBhc3NlcnQucmVqZWN0cygKICAgICAgICB3YWl0Rm9ySHR0cCh1cmwsIDFfMDAwLCBjb250cm9sbGVyLnNpZ25hbCksCiAgICAgICAgL3N0YXJ0dXAgZmFpbGVkLywKICAgICAgKTsKICAgIH0sCiAgKTsKfSk7Cgp0ZXN0KCJydW50aW1lIGNsZWFudXAgd2FpdHMgZm9yIFNJR0tJTEwgYW5kIHJlY29nbml6ZXMgYSBzaWduYWwtZXhpdGVkIGNoaWxkIiwgYXN5bmMgKCkgPT4gewogIGNvbnN0IGNoaWxkID0gc3Bhd24oCiAgICBwcm9jZXNzLmV4ZWNQYXRoLAogICAgWwogICAgICAiLWUiLAogICAgICBgCiAgICBwcm9jZXNzLm9uKCJTSUdURVJNIiwgKCkgPT4ge30pOwogICAgcHJvY2Vzcy5zdGRvdXQud3JpdGUoInJlYWR5Iik7CiAgICBzZXRJbnRlcnZhbCgoKSA9PiB7fSwgMTAwMCk7CiAgYCwKICAgIF0sCiAgICB7IHN0ZGlvOiBbImlnbm9yZSIsICJwaXBlIiwgImlnbm9yZSJdIH0sCiAgKTsKICB0cnkgewogICAgYXdhaXQgb25jZShjaGlsZC5zdGRvdXQsICJkYXRhIik7CiAgICBhd2FpdCBzdG9wQ2hpbGQoY2hpbGQsIDMwKTsKICAgIGFzc2VydC5lcXVhbChjaGlsZC5zaWduYWxDb2RlLCAiU0lHS0lMTCIpOwogICAgYXNzZXJ0LmVxdWFsKGNoaWxkLmxpc3RlbmVyQ291bnQoImV4aXQiKSwgMCk7CiAgICBjb25zdCBzdGFydGVkID0gcGVyZm9ybWFuY2Uubm93KCk7CiAgICBhd2FpdCBzdG9wQ2hpbGQoY2hpbGQpOwogICAgYXNzZXJ0Lm9rKHBlcmZvcm1hbmNlLm5vdygpIC0gc3RhcnRlZCA8IDEwMCk7CiAgfSBmaW5hbGx5IHsKICAgIGlmIChjaGlsZC5leGl0Q29kZSA9PT0gbnVsbCAmJiBjaGlsZC5zaWduYWxDb2RlID09PSBudWxsKSB7CiAgICAgIGF3YWl0IHN0b3BDaGlsZChjaGlsZCwgMSk7CiAgICB9CiAgfQp9KTsKCnRlc3QoImhlYWx0aCBjaGVja3BvaW50IGNhbmNlbGxhdGlvbiBpbnRlcnJ1cHRzIHN0YWxsZWQgYm9kaWVzIGFuZCByZXRyeSB3YWl0cyIsIGFzeW5jICgpID0+IHsKICBmb3IgKGNvbnN0IHN0YWxsZWRCb2R5IG9mIFt0cnVlLCBmYWxzZV0pIHsKICAgIGxldCByZWNlaXZlZDsKICAgIGNvbnN0IHJlcXVlc3RSZWNlaXZlZCA9IG5ldyBQcm9taXNlKChyZXNvbHZlKSA9PiB7CiAgICAgIHJlY2VpdmVkID0gcmVzb2x2ZTsKICAgIH0pOwogICAgbGV0IHJlcXVlc3RzID0gMDsKICAgIGF3YWl0IHdpdGhTZXJ2ZXIoCiAgICAgIChfcmVxdWVzdCwgcmVzcG9uc2UpID0+IHsKICAgICAgICByZXF1ZXN0cyArPSAxOwogICAgICAgIGlmIChzdGFsbGVkQm9keSkgewogICAgICAgICAgcmVzcG9uc2Uud3JpdGVIZWFkKDIwMCwgeyAiY29udGVudC10eXBlIjogImFwcGxpY2F0aW9uL2pzb24iIH0pOwogICAgICAgICAgcmVzcG9uc2Uud3JpdGUoJ3sid2FpdGluZyI6Jyk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIHJlc3BvbnNlLndyaXRlSGVhZCg1MDMpOwogICAgICAgICAgcmVzcG9uc2UuZW5kKCJyZXRyeSIpOwogICAgICAgIH0KICAgICAgICByZWNlaXZlZCgpOwogICAgICB9LAogICAgICBhc3luYyAodXJsKSA9PiB7CiAgICAgICAgY29uc3QgY29udHJvbGxlciA9IG5ldyBBYm9ydENvbnRyb2xsZXIoKTsKICAgICAgICBjb25zdCBjaGVja3BvaW50ID0gY29sbGVjdFJ1bnRpbWVDaGVja3BvaW50KAogICAgICAgICAgdXJsLAogICAgICAgICAgcHJvY2Vzcy5waWQsCiAgICAgICAgICBwcm9jZXNzLnBpZCwKICAgICAgICAgIGNvbnRyb2xsZXIuc2lnbmFsLAogICAgICAgICk7CiAgICAgICAgY29uc3QgcmVqZWN0ZWQgPSBhc3NlcnQucmVqZWN0cyhjaGVja3BvaW50LCAvc2FtcGxpbmcgY2FuY2VsbGVkfGFib3J0L2kpOwogICAgICAgIGF3YWl0IHJlcXVlc3RSZWNlaXZlZDsKICAgICAgICBhd2FpdCBkZWxheSgyMCk7CiAgICAgICAgY29uc3Qgc3RhcnRlZCA9IHBlcmZvcm1hbmNlLm5vdygpOwogICAgICAgIGNvbnRyb2xsZXIuYWJvcnQobmV3IEVycm9yKCJzYW1wbGluZyBjYW5jZWxsZWQiKSk7CiAgICAgICAgYXdhaXQgcmVqZWN0ZWQ7CiAgICAgICAgYXNzZXJ0Lm9rKHBlcmZvcm1hbmNlLm5vdygpIC0gc3RhcnRlZCA8IDEwMDApOwogICAgICAgIGFzc2VydC5lcXVhbChyZXF1ZXN0cywgMSk7CiAgICAgIH0sCiAgICApOwogIH0KfSk7Cg==
+import assert from "node:assert/strict";
+import { spawn } from "node:child_process";
+import { once } from "node:events";
+import http from "node:http";
+import test from "node:test";
+import { setTimeout as delay } from "node:timers/promises";
+import {
+  collectRuntimeCheckpoint,
+  fetchRuntime,
+  stopChild,
+  waitForHttp,
+} from "../runtime-test-harness.mjs";
+
+const withServer = async (handler, run) => {
+  const server = http.createServer(handler);
+  await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+  try {
+    await run(`http://127.0.0.1:${server.address().port}`);
+  } finally {
+    server.closeAllConnections();
+    await new Promise((resolve) => server.close(resolve));
+  }
+};
+
+test("runtime readiness respects its deadline when a server never sends headers", async () => {
+  await withServer(
+    () => {},
+    async (url) => {
+      const started = performance.now();
+      await assert.rejects(waitForHttp(url, 80), /timeout|abort/i);
+      assert.ok(performance.now() - started < 1_000);
+    },
+  );
+});
+
+test("runtime request deadline also covers stalled response bodies", async () => {
+  await withServer(
+    (_request, response) => {
+      response.writeHead(200, { "content-type": "application/json" });
+      response.write('{"waiting":');
+    },
+    async (url) => {
+      const response = await fetchRuntime(url, {}, 80);
+      await assert.rejects(response.json(), /abort/i);
+    },
+  );
+});
+
+test("runtime readiness cancels a successful streaming body and caller cancellation", async () => {
+  await withServer(
+    (_request, response) => {
+      response.writeHead(200);
+      response.write("ready");
+    },
+    async (url) => {
+      await waitForHttp(url, 1_000);
+      const controller = new AbortController();
+      controller.abort(new Error("startup failed"));
+      await assert.rejects(
+        waitForHttp(url, 1_000, controller.signal),
+        /startup failed/,
+      );
+    },
+  );
+});
+
+test("runtime cleanup waits for SIGKILL and recognizes a signal-exited child", async () => {
+  const child = spawn(
+    process.execPath,
+    [
+      "-e",
+      `
+    process.on("SIGTERM", () => {});
+    process.stdout.write("ready");
+    setInterval(() => {}, 1000);
+  `,
+    ],
+    { stdio: ["ignore", "pipe", "ignore"] },
+  );
+  try {
+    await once(child.stdout, "data");
+    await stopChild(child, 30);
+    assert.equal(child.signalCode, "SIGKILL");
+    assert.equal(child.listenerCount("exit"), 0);
+    const started = performance.now();
+    await stopChild(child);
+    assert.ok(performance.now() - started < 100);
+  } finally {
+    if (child.exitCode === null && child.signalCode === null) {
+      await stopChild(child, 1);
+    }
+  }
+});
+
+test("health checkpoint cancellation interrupts stalled bodies and retry waits", async () => {
+  for (const stalledBody of [true, false]) {
+    let received;
+    const requestReceived = new Promise((resolve) => {
+      received = resolve;
+    });
+    let requests = 0;
+    await withServer(
+      (_request, response) => {
+        requests += 1;
+        if (stalledBody) {
+          response.writeHead(200, { "content-type": "application/json" });
+          response.write('{"waiting":');
+        } else {
+          response.writeHead(503);
+          response.end("retry");
+        }
+        received();
+      },
+      async (url) => {
+        const controller = new AbortController();
+        const checkpoint = collectRuntimeCheckpoint(
+          url,
+          process.pid,
+          process.pid,
+          controller.signal,
+        );
+        const rejected = assert.rejects(checkpoint, /sampling cancelled|abort/i);
+        await requestReceived;
+        await delay(20);
+        const started = performance.now();
+        controller.abort(new Error("sampling cancelled"));
+        await rejected;
+        assert.ok(performance.now() - started < 1000);
+        assert.equal(requests, 1);
+      },
+    );
+  }
+});

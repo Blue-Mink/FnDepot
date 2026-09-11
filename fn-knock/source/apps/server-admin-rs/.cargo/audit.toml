@@ -1,1 +1,7 @@
-IyBSVVNUU0VDLTIwMjMtMDA3MSBhZmZlY3RzIFJTQSBwcml2YXRlLWtleSBvcGVyYXRpb25zLiBUaGlzIGRlcGVuZGVuY3kgaXMKIyBwdWxsZWQgaW4gYnkgd2ViYXV0aG4tcnMvY3J5cHRvLWdsdWUgYW5kIEZuS25vY2sgb25seSB1c2VzIHRoYXQgcGF0aCB0byB2ZXJpZnkKIyBwdWJsaWMta2V5IFdlYkF1dGhuIGFzc2VydGlvbnM7IG5vIFJTQSBwcml2YXRlIGtleSBpcyBsb2FkZWQgb3Igb3BlcmF0ZWQgb24uCiMgVXBzdHJlYW0gY3VycmVudGx5IGhhcyBubyBmaXhlZCByZWxlYXNlLiBSZW1vdmUgdGhpcyBleGNlcHRpb24gYXMgc29vbiBhcyBhCiMgZml4ZWQgd2ViYXV0aG4tcnMvY3J5cHRvLWdsdWUvcnNhIGRlcGVuZGVuY3kgY2hhaW4gaXMgYXZhaWxhYmxlLgpbYWR2aXNvcmllc10KaWdub3JlID0gWyJSVVNUU0VDLTIwMjMtMDA3MSJdCg==
+# RUSTSEC-2023-0071 affects RSA private-key operations. This dependency is
+# pulled in by webauthn-rs/crypto-glue and FnKnock only uses that path to verify
+# public-key WebAuthn assertions; no RSA private key is loaded or operated on.
+# Upstream currently has no fixed release. Remove this exception as soon as a
+# fixed webauthn-rs/crypto-glue/rsa dependency chain is available.
+[advisories]
+ignore = ["RUSTSEC-2023-0071"]

@@ -1,1 +1,1 @@
-ZXhwb3J0IHsgZGVmYXVsdCBhcyBTa2VsZXRvbiB9IGZyb20gIi4vU2tlbGV0b24udnVlIgo=
+export { default as Skeleton } from "./Skeleton.vue"

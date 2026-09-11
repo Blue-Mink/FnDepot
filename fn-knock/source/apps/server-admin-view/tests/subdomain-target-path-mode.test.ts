@@ -1,1 +1,55 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwoKaW1wb3J0IHsgdG9Ib3N0TWFwcGluZ1VwZGF0ZVBheWxvYWQgfSBmcm9tICIuLi9zcmMvbGliL2FwaS9ob3N0LW1hcHBpbmctcGF5bG9hZCI7CmltcG9ydCB7CiAgY3JlYXRlRGVmYXVsdE1hcHBpbmcsCiAgbm9ybWFsaXplTWFwcGluZ0Zvcm0sCn0gZnJvbSAiLi4vc3JjL3ZpZXdzL3N1YmRvbWFpbi1wcm94eS9tb2RlbCI7CgpkZXNjcmliZSgic3ViZG9tYWluIHRhcmdldCBwYXRoIG1vZGUiLCAoKSA9PiB7CiAgaXQoImRlZmF1bHRzIG5ldyBhbmQgbGVnYWN5IG1hcHBpbmdzIHRvIGJhY2t3YXJkLWNvbXBhdGlibGUgZW50cnkgbW9kZSIsICgpID0+IHsKICAgIGNvbnN0IG1hcHBpbmcgPSBjcmVhdGVEZWZhdWx0TWFwcGluZygpOwoKICAgIGFzc2VydC5lcXVhbChtYXBwaW5nLnRhcmdldF9wYXRoX21vZGUsICJlbnRyeSIpOwogICAgYXNzZXJ0LmVxdWFsKHRvSG9zdE1hcHBpbmdVcGRhdGVQYXlsb2FkKG1hcHBpbmcpLnRhcmdldF9wYXRoX21vZGUsICJlbnRyeSIpOwogIH0pOwoKICBpdCgicHJlc2VydmVzIGV4cGxpY2l0IHByZWZpeCBtb2RlIGluIG5vcm1hbGl6ZWQgZm9ybXMgYW5kIEFQSSBwYXlsb2FkcyIsICgpID0+IHsKICAgIGNvbnN0IG1hcHBpbmcgPSBjcmVhdGVEZWZhdWx0TWFwcGluZygpOwogICAgbWFwcGluZy50YXJnZXQgPSAiaHR0cDovLzEyNy4wLjAuMTo4MDgwL3dlYmRhdiI7CiAgICBtYXBwaW5nLnRhcmdldF9wYXRoX21vZGUgPSAicHJlZml4IjsKCiAgICBjb25zdCBub3JtYWxpemVkID0gbm9ybWFsaXplTWFwcGluZ0Zvcm0obWFwcGluZywgewogICAgICBoYXNGcmVzaEZhdmljb25NZXRhZGF0YTogZmFsc2UsCiAgICAgIGhhc0ZyZXNoVGl0bGVNZXRhZGF0YTogZmFsc2UsCiAgICAgIGhvc3Q6ICJkYXYuZXhhbXBsZS5jb20iLAogICAgICBpc0F1dGhTZXJ2aWNlVGFyZ2V0OiAoKSA9PiBmYWxzZSwKICAgICAgaXNXZWJTb2NrZXRUYXJnZXQ6ICgpID0+IGZhbHNlLAogICAgfSk7CgogICAgYXNzZXJ0LmVxdWFsKG5vcm1hbGl6ZWQudGFyZ2V0X3BhdGhfbW9kZSwgInByZWZpeCIpOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICB0b0hvc3RNYXBwaW5nVXBkYXRlUGF5bG9hZChub3JtYWxpemVkKS50YXJnZXRfcGF0aF9tb2RlLAogICAgICAicHJlZml4IiwKICAgICk7CiAgfSk7CgogIGl0KCJmb3JjZXMgdGhlIGludGVybmFsIGF1dGhlbnRpY2F0aW9uIG1hcHBpbmcgdG8gZW50cnkgbW9kZSIsICgpID0+IHsKICAgIGNvbnN0IG1hcHBpbmcgPSBjcmVhdGVEZWZhdWx0TWFwcGluZygpOwogICAgbWFwcGluZy50YXJnZXQgPSAiaHR0cDovLzEyNy4wLjAuMTo3OTk3L2F1dGgiOwogICAgbWFwcGluZy51c2VfYXV0aCA9IGZhbHNlOwogICAgbWFwcGluZy50YXJnZXRfcGF0aF9tb2RlID0gInByZWZpeCI7CgogICAgYXNzZXJ0LmVxdWFsKAogICAgICBub3JtYWxpemVNYXBwaW5nRm9ybShtYXBwaW5nLCB7CiAgICAgICAgaGFzRnJlc2hGYXZpY29uTWV0YWRhdGE6IGZhbHNlLAogICAgICAgIGhhc0ZyZXNoVGl0bGVNZXRhZGF0YTogZmFsc2UsCiAgICAgICAgaG9zdDogImF1dGguZXhhbXBsZS5jb20iLAogICAgICAgIGlzQXV0aFNlcnZpY2VUYXJnZXQ6ICgpID0+IHRydWUsCiAgICAgICAgaXNXZWJTb2NrZXRUYXJnZXQ6ICgpID0+IGZhbHNlLAogICAgICB9KS50YXJnZXRfcGF0aF9tb2RlLAogICAgICAiZW50cnkiLAogICAgKTsKICB9KTsKfSk7Cg==
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import { toHostMappingUpdatePayload } from "../src/lib/api/host-mapping-payload";
+import {
+  createDefaultMapping,
+  normalizeMappingForm,
+} from "../src/views/subdomain-proxy/model";
+
+describe("subdomain target path mode", () => {
+  it("defaults new and legacy mappings to backward-compatible entry mode", () => {
+    const mapping = createDefaultMapping();
+
+    assert.equal(mapping.target_path_mode, "entry");
+    assert.equal(toHostMappingUpdatePayload(mapping).target_path_mode, "entry");
+  });
+
+  it("preserves explicit prefix mode in normalized forms and API payloads", () => {
+    const mapping = createDefaultMapping();
+    mapping.target = "http://127.0.0.1:8080/webdav";
+    mapping.target_path_mode = "prefix";
+
+    const normalized = normalizeMappingForm(mapping, {
+      hasFreshFaviconMetadata: false,
+      hasFreshTitleMetadata: false,
+      host: "dav.example.com",
+      isAuthServiceTarget: () => false,
+      isWebSocketTarget: () => false,
+    });
+
+    assert.equal(normalized.target_path_mode, "prefix");
+    assert.equal(
+      toHostMappingUpdatePayload(normalized).target_path_mode,
+      "prefix",
+    );
+  });
+
+  it("forces the internal authentication mapping to entry mode", () => {
+    const mapping = createDefaultMapping();
+    mapping.target = "http://127.0.0.1:7997/auth";
+    mapping.use_auth = false;
+    mapping.target_path_mode = "prefix";
+
+    assert.equal(
+      normalizeMappingForm(mapping, {
+        hasFreshFaviconMetadata: false,
+        hasFreshTitleMetadata: false,
+        host: "auth.example.com",
+        isAuthServiceTarget: () => true,
+        isWebSocketTarget: () => false,
+      }).target_path_mode,
+      "entry",
+    );
+  });
+});

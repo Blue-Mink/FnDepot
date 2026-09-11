@@ -1,1 +1,277 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEFsZXJ0VHJpYW5nbGUgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBBbGVydCwgQWxlcnREZXNjcmlwdGlvbiwgQWxlcnRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9hbGVydCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgewogIFNlbGVjdCwKICBTZWxlY3RDb250ZW50LAogIFNlbGVjdEl0ZW0sCiAgU2VsZWN0VHJpZ2dlciwKICBTZWxlY3RWYWx1ZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKaW1wb3J0IENpZHJSZWdpb25TZWxlY3RvciBmcm9tICJAL2NvbXBvbmVudHMvQ2lkclJlZ2lvblNlbGVjdG9yLnZ1ZSI7CmltcG9ydCB7IHR5cGUgR2F0ZXdheVZpc2liaWxpdHlTZWxlY3Rpb24gfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHR5cGUgeyBXaGl0ZWxpc3ROZXdSZWNvcmQgfSBmcm9tICIuL3VzZVdoaXRlbGlzdEFkZFJlY29yZCI7CgpkZWZpbmVQcm9wczx7CiAgY2FuU2F2ZTogYm9vbGVhbjsKICBpc1JlZ2lvbkNpZHJNb2RlOiBib29sZWFuOwogIGlzU2F2aW5nOiBib29sZWFuOwogIG5ld1JlY29yZFBsYWNlaG9sZGVyOiBzdHJpbmc7CiAgcmVnaW9uSW5wdXRzRGlzYWJsZWQ6IGJvb2xlYW47Cn0+KCk7CmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7IGFkZDogW10gfT4oKTsKY29uc3Qgb3BlbiA9IGRlZmluZU1vZGVsPGJvb2xlYW4+KCJvcGVuIiwgeyByZXF1aXJlZDogdHJ1ZSB9KTsKY29uc3QgY2lkcklucHV0TW9kZSA9IGRlZmluZU1vZGVsPCJtYW51YWwiIHwgInJlZ2lvbiI+KCJjaWRySW5wdXRNb2RlIiwgewogIHJlcXVpcmVkOiB0cnVlLAp9KTsKY29uc3QgY3VzdG9tSG91cnMgPSBkZWZpbmVNb2RlbDxudW1iZXI+KCJjdXN0b21Ib3VycyIsIHsgcmVxdWlyZWQ6IHRydWUgfSk7CmNvbnN0IGR1cmF0aW9uU2V0dGluZyA9IGRlZmluZU1vZGVsPHN0cmluZz4oImR1cmF0aW9uU2V0dGluZyIsIHsKICByZXF1aXJlZDogdHJ1ZSwKfSk7CmNvbnN0IG5ld1JlY29yZCA9IGRlZmluZU1vZGVsPFdoaXRlbGlzdE5ld1JlY29yZD4oIm5ld1JlY29yZCIsIHsKICByZXF1aXJlZDogdHJ1ZSwKfSk7CmNvbnN0IHJlZ2lvblNlbGVjdGlvbnMgPSBkZWZpbmVNb2RlbDxHYXRld2F5VmlzaWJpbGl0eVNlbGVjdGlvbltdPigKICAicmVnaW9uU2VsZWN0aW9ucyIsCiAgeyByZXF1aXJlZDogdHJ1ZSB9LAopOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERpYWxvZyB2LW1vZGVsOm9wZW49Im9wZW4iPgogICAgPERpYWxvZ0NvbnRlbnQgY2xhc3M9InNtOm1heC13LVs2NDBweF0iPgogICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgIDxEaWFsb2dUaXRsZT57eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC5hZGREaWFsb2dUaXRsZSIpIH19PC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICB7eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC5hZGREaWFsb2dEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTQgcHktNCI+CiAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBncmlkLWNvbHMtNCBpdGVtcy1jZW50ZXIgZ2FwLTQiPgogICAgICAgICAgPExhYmVsIGZvcj0idGFyZ2V0VHlwZSIgY2xhc3M9InRleHQtcmlnaHQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC50eXBlIikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8U2VsZWN0IHYtbW9kZWw9Im5ld1JlY29yZC50YXJnZXRUeXBlIj4KICAgICAgICAgICAgPFNlbGVjdFRyaWdnZXIKICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uaXBXaGl0ZWxpc3Quc2VsZWN0VHlwZScpIgogICAgICAgICAgICAgIGNsYXNzPSJjb2wtc3Bhbi0zIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFNlbGVjdFZhbHVlIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uaXBXaGl0ZWxpc3Quc2VsZWN0VHlwZScpIiAvPgogICAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJpcCI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC50eXBlSXAiKSB9fQogICAgICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0iY2lkciI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC50eXBlQ2lkciIpIH19CiAgICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJjbmFtZSI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC50eXBlQ25hbWUiKSB9fQogICAgICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICAgICAgPC9TZWxlY3Q+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9Im5ld1JlY29yZC50YXJnZXRUeXBlID09PSAnY2lkciciCiAgICAgICAgICBjbGFzcz0iZ3JpZCBncmlkLWNvbHMtNCBpdGVtcy1jZW50ZXIgZ2FwLTQiCiAgICAgICAgPgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1yaWdodCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmlwV2hpdGVsaXN0LmNpZHJJbnB1dE1vZGUiKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIHJvbGU9Imdyb3VwIgogICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uaXBXaGl0ZWxpc3QuY2lkcklucHV0TW9kZScpIgogICAgICAgICAgICBjbGFzcz0iY29sLXNwYW4tMyBpbmxpbmUtZmxleCB3LWZpdCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLW11dGVkLzIwIHAtMSIKICAgICAgICAgID4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICA6dmFyaWFudD0iY2lkcklucHV0TW9kZSA9PT0gJ21hbnVhbCcgPyAnZGVmYXVsdCcgOiAnZ2hvc3QnIgogICAgICAgICAgICAgIGNsYXNzPSJoLTgiCiAgICAgICAgICAgICAgQGNsaWNrPSJjaWRySW5wdXRNb2RlID0gJ21hbnVhbCciCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC5jaWRySW5wdXRNYW51YWwiKSB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICA6dmFyaWFudD0iY2lkcklucHV0TW9kZSA9PT0gJ3JlZ2lvbicgPyAnZGVmYXVsdCcgOiAnZ2hvc3QnIgogICAgICAgICAgICAgIGNsYXNzPSJoLTgiCiAgICAgICAgICAgICAgQGNsaWNrPSJjaWRySW5wdXRNb2RlID0gJ3JlZ2lvbiciCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC5jaWRySW5wdXRSZWdpb24iKSB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2CiAgICAgICAgICB2LWlmPSIhaXNSZWdpb25DaWRyTW9kZSIKICAgICAgICAgIGNsYXNzPSJncmlkIGdyaWQtY29scy00IGl0ZW1zLWNlbnRlciBnYXAtNCIKICAgICAgICA+CiAgICAgICAgICA8TGFiZWwgZm9yPSJpcCIgY2xhc3M9InRleHQtcmlnaHQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC50YXJnZXQiKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICBpZD0iaXAiCiAgICAgICAgICAgIHYtbW9kZWw9Im5ld1JlY29yZC5pcCIKICAgICAgICAgICAgOnBsYWNlaG9sZGVyPSJuZXdSZWNvcmRQbGFjZWhvbGRlciIKICAgICAgICAgICAgY2xhc3M9ImNvbC1zcGFuLTMiCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IHYtZWxzZSBjbGFzcz0iZ3JpZCBncmlkLWNvbHMtNCBpdGVtcy1zdGFydCBnYXAtNCI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJwdC0yIHRleHQtcmlnaHQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC5yZWdpb25TY29wZSIpIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImNvbC1zcGFuLTMgc3BhY2UteS0zIj4KICAgICAgICAgICAgPEFsZXJ0IHZhcmlhbnQ9ImRlc3RydWN0aXZlIiBjbGFzcz0iaXRlbXMtc3RhcnQiPgogICAgICAgICAgICAgIDxBbGVydFRyaWFuZ2xlIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgIDxBbGVydFRpdGxlPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBXaGl0ZWxpc3QucmVnaW9uU2VjdXJpdHlXYXJuaW5nVGl0bGUiKSB9fQogICAgICAgICAgICAgIDwvQWxlcnRUaXRsZT4KICAgICAgICAgICAgICA8QWxlcnREZXNjcmlwdGlvbj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmlwV2hpdGVsaXN0LnJlZ2lvblNlY3VyaXR5V2FybmluZ0Rlc2NyaXB0aW9uIikgfX0KICAgICAgICAgICAgICA8L0FsZXJ0RGVzY3JpcHRpb24+CiAgICAgICAgICAgIDwvQWxlcnQ+CiAgICAgICAgICAgIDxDaWRyUmVnaW9uU2VsZWN0b3IKICAgICAgICAgICAgICB2LW1vZGVsPSJyZWdpb25TZWxlY3Rpb25zIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0icmVnaW9uSW5wdXRzRGlzYWJsZWQiCiAgICAgICAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5pcFdoaXRlbGlzdC5yZWdpb25TY29wZURlc2NyaXB0aW9uJykiCiAgICAgICAgICAgICAgOnRleHQ9InsKICAgICAgICAgICAgICAgIGFkZDogdCgnYWRtaW4uZ2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy5zYXZlU2VsZWN0aW9uJyksCiAgICAgICAgICAgICAgICBhZGRSZWdpb246IHQoJ2FkbWluLmdhdGV3YXlWaXNpYmlsaXR5U2V0dGluZ3MubWFuYWdlUmVnaW9ucycpLAogICAgICAgICAgICAgICAgY2FuY2VsOiB0KCdjb21tb24uY2FuY2VsJyksCiAgICAgICAgICAgICAgICBkaWFsb2dEZXNjcmlwdGlvbjogdCgnYWRtaW4uaXBXaGl0ZWxpc3QuYWRkUmVnaW9uRGVzY3JpcHRpb24nKSwKICAgICAgICAgICAgICAgIGxvYWRGYWlsZWQ6IHQoJ2FkbWluLmlwV2hpdGVsaXN0LnJlZ2lvbnNMb2FkRmFpbGVkJyksCiAgICAgICAgICAgICAgICBsb2FkRmFpbGVkRGVzY3JpcHRpb246IHQoCiAgICAgICAgICAgICAgICAgICdhZG1pbi5pcFdoaXRlbGlzdC5yZWdpb25zTG9hZERlc2NyaXB0aW9uJywKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBsb2FkaW5nOiB0KCdhZG1pbi5pcFdoaXRlbGlzdC5sb2FkaW5nJyksCiAgICAgICAgICAgICAgICBub1JlZ2lvbnM6IHQoJ2FkbWluLmlwV2hpdGVsaXN0Lm5vUmVnaW9ucycpLAogICAgICAgICAgICAgICAgcHJvdmluY2U6IHQoJ2FkbWluLmlwV2hpdGVsaXN0LnByb3ZpbmNlJyksCiAgICAgICAgICAgICAgICByZXRyeTogdCgnYWRtaW4uc3ViZG9tYWluUHJveHkucmV0cnknKSwKICAgICAgICAgICAgICAgIHNlbGVjdGVkQ291bnQ6IChjb3VudCkgPT4KICAgICAgICAgICAgICAgICAgdCgnYWRtaW4uZ2F0ZXdheVZpc2liaWxpdHlTZXR0aW5ncy5zZWxlY3RlZFJlZ2lvbkNvdW50JywgewogICAgICAgICAgICAgICAgICAgIGNvdW50LAogICAgICAgICAgICAgICAgICB9KSwKICAgICAgICAgICAgICAgIHNjb3BlOiB0KCdhZG1pbi5pcFdoaXRlbGlzdC5zY29wZScpLAogICAgICAgICAgICAgICAgc2VsZWN0Q2l0eTogdCgnYWRtaW4uaXBXaGl0ZWxpc3Quc2VsZWN0Q2l0eScpLAogICAgICAgICAgICAgICAgc2VsZWN0UHJvdmluY2U6IHQoJ2FkbWluLmlwV2hpdGVsaXN0LnNlbGVjdFByb3ZpbmNlJyksCiAgICAgICAgICAgICAgICBzZWxlY3RQcm92aW5jZUZpcnN0OiB0KCdhZG1pbi5pcFdoaXRlbGlzdC5zZWxlY3RQcm92aW5jZUZpcnN0JyksCiAgICAgICAgICAgICAgICB1bmF2YWlsYWJsZTogdCgKICAgICAgICAgICAgICAgICAgJ2FkbWluLmdhdGV3YXlWaXNpYmlsaXR5U2V0dGluZ3MudW5hdmFpbGFibGVTZWxlY3Rpb24nLAogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICB9IgogICAgICAgICAgICAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9Im5ld1JlY29yZC50YXJnZXRUeXBlID09PSAnY25hbWUnIgogICAgICAgICAgY2xhc3M9ImdyaWQgZ3JpZC1jb2xzLTQgaXRlbXMtY2VudGVyIGdhcC00IgogICAgICAgID4KICAgICAgICAgIDxMYWJlbCBmb3I9ImNoZWNrSW50ZXJ2YWxNaW51dGVzIiBjbGFzcz0idGV4dC1yaWdodCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmlwV2hpdGVsaXN0LmNoZWNrSW50ZXJ2YWxMYWJlbCIpIH19CiAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgPGRpdiBjbGFzcz0iY29sLXNwYW4tMyBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgIGlkPSJjaGVja0ludGVydmFsTWludXRlcyIKICAgICAgICAgICAgICB2LW1vZGVsLm51bWJlcj0ibmV3UmVjb3JkLmNoZWNrSW50ZXJ2YWxNaW51dGVzIgogICAgICAgICAgICAgIHR5cGU9Im51bWJlciIKICAgICAgICAgICAgICBtaW49IjEiCiAgICAgICAgICAgICAgOnBsYWNlaG9sZGVyPSJ0KCdhZG1pbi5pcFdoaXRlbGlzdC5kZWZhdWx0Rml2ZScpIgogICAgICAgICAgICAvPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0id2hpdGVzcGFjZS1ub3dyYXAgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmlwV2hpdGVsaXN0Lm1pbnV0ZXMiKSB9fQogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBncmlkLWNvbHMtNCBpdGVtcy1jZW50ZXIgZ2FwLTQiPgogICAgICAgICAgPExhYmVsIGZvcj0iZHVyYXRpb24iIGNsYXNzPSJ0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBXaGl0ZWxpc3QuZHVyYXRpb24iKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxTZWxlY3Qgdi1tb2RlbD0iZHVyYXRpb25TZXR0aW5nIj4KICAgICAgICAgICAgPFNlbGVjdFRyaWdnZXIKICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uaXBXaGl0ZWxpc3Quc2VsZWN0RHVyYXRpb24nKSIKICAgICAgICAgICAgICBjbGFzcz0iY29sLXNwYW4tMyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxTZWxlY3RWYWx1ZQogICAgICAgICAgICAgICAgOnBsYWNlaG9sZGVyPSJ0KCdhZG1pbi5pcFdoaXRlbGlzdC5zZWxlY3REdXJhdGlvbicpIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvU2VsZWN0VHJpZ2dlcj4KICAgICAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgICAgPFNlbGVjdEl0ZW0gdmFsdWU9InBlcm1hbmVudCI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC5wZXJtYW5lbnQiKSB9fQogICAgICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0iMWgiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBXaGl0ZWxpc3Qub25lSG91ciIpIH19CiAgICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSIyNGgiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBXaGl0ZWxpc3QudHdlbnR5Rm91ckhvdXJzIikgfX0KICAgICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgICAgPFNlbGVjdEl0ZW0gdmFsdWU9IjdkIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmlwV2hpdGVsaXN0LnNldmVuRGF5cyIpIH19CiAgICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJjdXN0b20iPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBXaGl0ZWxpc3QuY3VzdG9tSG91cnMiKSB9fQogICAgICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICAgICAgPC9TZWxlY3Q+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9ImR1cmF0aW9uU2V0dGluZyA9PT0gJ2N1c3RvbSciCiAgICAgICAgICBjbGFzcz0iZ3JpZCBncmlkLWNvbHMtNCBpdGVtcy1jZW50ZXIgZ2FwLTQiCiAgICAgICAgPgogICAgICAgICAgPExhYmVsIGZvcj0iY3VzdG9tSG91cnMiIGNsYXNzPSJ0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBXaGl0ZWxpc3QuY3VzdG9tSG91cnMiKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICBpZD0iY3VzdG9tSG91cnMiCiAgICAgICAgICAgIHYtbW9kZWwubnVtYmVyPSJjdXN0b21Ib3VycyIKICAgICAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgICAgICBtaW49IjEiCiAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uaXBXaGl0ZWxpc3QuY3VzdG9tSG91cnNQbGFjZWhvbGRlcicpIgogICAgICAgICAgICBjbGFzcz0iY29sLXNwYW4tMyIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ3JpZC1jb2xzLTQgaXRlbXMtY2VudGVyIGdhcC00Ij4KICAgICAgICAgIDxMYWJlbCBmb3I9ImNvbW1lbnQiIGNsYXNzPSJ0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBXaGl0ZWxpc3QuY29tbWVudE9wdGlvbmFsIikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgaWQ9ImNvbW1lbnQiCiAgICAgICAgICAgIHYtbW9kZWw9Im5ld1JlY29yZC5jb21tZW50IgogICAgICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLmlwV2hpdGVsaXN0LmNvbW1lbnRQbGFjZWhvbGRlcicpIgogICAgICAgICAgICBjbGFzcz0iY29sLXNwYW4tMyIKICAgICAgICAgICAgQGtleXVwLmVudGVyPSJlbWl0KCdhZGQnKSIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8RGlhbG9nRm9vdGVyPgogICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgQGNsaWNrPSJvcGVuID0gZmFsc2UiPgogICAgICAgICAge3sgdCgiY29tbW9uLmNhbmNlbCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbiA6ZGlzYWJsZWQ9IiFjYW5TYXZlIHx8IGlzU2F2aW5nIiBAY2xpY2s9ImVtaXQoJ2FkZCcpIj4KICAgICAgICAgIHt7IHQoImNvbW1vbi5zYXZlIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { AlertTriangle } from "lucide-vue-next";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import CidrRegionSelector from "@/components/CidrRegionSelector.vue";
+import { type GatewayVisibilitySelection } from "@/types";
+import type { WhitelistNewRecord } from "./useWhitelistAddRecord";
+
+defineProps<{
+  canSave: boolean;
+  isRegionCidrMode: boolean;
+  isSaving: boolean;
+  newRecordPlaceholder: string;
+  regionInputsDisabled: boolean;
+}>();
+const emit = defineEmits<{ add: [] }>();
+const open = defineModel<boolean>("open", { required: true });
+const cidrInputMode = defineModel<"manual" | "region">("cidrInputMode", {
+  required: true,
+});
+const customHours = defineModel<number>("customHours", { required: true });
+const durationSetting = defineModel<string>("durationSetting", {
+  required: true,
+});
+const newRecord = defineModel<WhitelistNewRecord>("newRecord", {
+  required: true,
+});
+const regionSelections = defineModel<GatewayVisibilitySelection[]>(
+  "regionSelections",
+  { required: true },
+);
+const { t } = useI18n();
+</script>
+
+<template>
+  <Dialog v-model:open="open">
+    <DialogContent class="sm:max-w-[640px]">
+      <DialogHeader>
+        <DialogTitle>{{ t("admin.ipWhitelist.addDialogTitle") }}</DialogTitle>
+        <DialogDescription>
+          {{ t("admin.ipWhitelist.addDialogDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+      <div class="grid gap-4 py-4">
+        <div class="grid grid-cols-4 items-center gap-4">
+          <Label for="targetType" class="text-right">
+            {{ t("admin.ipWhitelist.type") }}
+          </Label>
+          <Select v-model="newRecord.targetType">
+            <SelectTrigger
+              :aria-label="t('admin.ipWhitelist.selectType')"
+              class="col-span-3"
+            >
+              <SelectValue :placeholder="t('admin.ipWhitelist.selectType')" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="ip">
+                {{ t("admin.ipWhitelist.typeIp") }}
+              </SelectItem>
+              <SelectItem value="cidr">
+                {{ t("admin.ipWhitelist.typeCidr") }}
+              </SelectItem>
+              <SelectItem value="cname">
+                {{ t("admin.ipWhitelist.typeCname") }}
+              </SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+
+        <div
+          v-if="newRecord.targetType === 'cidr'"
+          class="grid grid-cols-4 items-center gap-4"
+        >
+          <div class="text-right">
+            {{ t("admin.ipWhitelist.cidrInputMode") }}
+          </div>
+          <div
+            role="group"
+            :aria-label="t('admin.ipWhitelist.cidrInputMode')"
+            class="col-span-3 inline-flex w-fit rounded-md border border-border bg-muted/20 p-1"
+          >
+            <Button
+              type="button"
+              size="sm"
+              :variant="cidrInputMode === 'manual' ? 'default' : 'ghost'"
+              class="h-8"
+              @click="cidrInputMode = 'manual'"
+            >
+              {{ t("admin.ipWhitelist.cidrInputManual") }}
+            </Button>
+            <Button
+              type="button"
+              size="sm"
+              :variant="cidrInputMode === 'region' ? 'default' : 'ghost'"
+              class="h-8"
+              @click="cidrInputMode = 'region'"
+            >
+              {{ t("admin.ipWhitelist.cidrInputRegion") }}
+            </Button>
+          </div>
+        </div>
+
+        <div
+          v-if="!isRegionCidrMode"
+          class="grid grid-cols-4 items-center gap-4"
+        >
+          <Label for="ip" class="text-right">
+            {{ t("admin.ipWhitelist.target") }}
+          </Label>
+          <Input
+            id="ip"
+            v-model="newRecord.ip"
+            :placeholder="newRecordPlaceholder"
+            class="col-span-3"
+          />
+        </div>
+
+        <div v-else class="grid grid-cols-4 items-start gap-4">
+          <div class="pt-2 text-right">
+            {{ t("admin.ipWhitelist.regionScope") }}
+          </div>
+          <div class="col-span-3 space-y-3">
+            <Alert variant="destructive" class="items-start">
+              <AlertTriangle class="h-4 w-4" />
+              <AlertTitle>
+                {{ t("admin.ipWhitelist.regionSecurityWarningTitle") }}
+              </AlertTitle>
+              <AlertDescription>
+                {{ t("admin.ipWhitelist.regionSecurityWarningDescription") }}
+              </AlertDescription>
+            </Alert>
+            <CidrRegionSelector
+              v-model="regionSelections"
+              :disabled="regionInputsDisabled"
+              :description="t('admin.ipWhitelist.regionScopeDescription')"
+              :text="{
+                add: t('admin.gatewayVisibilitySettings.saveSelection'),
+                addRegion: t('admin.gatewayVisibilitySettings.manageRegions'),
+                cancel: t('common.cancel'),
+                dialogDescription: t('admin.ipWhitelist.addRegionDescription'),
+                loadFailed: t('admin.ipWhitelist.regionsLoadFailed'),
+                loadFailedDescription: t(
+                  'admin.ipWhitelist.regionsLoadDescription',
+                ),
+                loading: t('admin.ipWhitelist.loading'),
+                noRegions: t('admin.ipWhitelist.noRegions'),
+                province: t('admin.ipWhitelist.province'),
+                retry: t('admin.subdomainProxy.retry'),
+                selectedCount: (count) =>
+                  t('admin.gatewayVisibilitySettings.selectedRegionCount', {
+                    count,
+                  }),
+                scope: t('admin.ipWhitelist.scope'),
+                selectCity: t('admin.ipWhitelist.selectCity'),
+                selectProvince: t('admin.ipWhitelist.selectProvince'),
+                selectProvinceFirst: t('admin.ipWhitelist.selectProvinceFirst'),
+                unavailable: t(
+                  'admin.gatewayVisibilitySettings.unavailableSelection',
+                ),
+              }"
+            />
+          </div>
+        </div>
+
+        <div
+          v-if="newRecord.targetType === 'cname'"
+          class="grid grid-cols-4 items-center gap-4"
+        >
+          <Label for="checkIntervalMinutes" class="text-right">
+            {{ t("admin.ipWhitelist.checkIntervalLabel") }}
+          </Label>
+          <div class="col-span-3 flex items-center gap-2">
+            <Input
+              id="checkIntervalMinutes"
+              v-model.number="newRecord.checkIntervalMinutes"
+              type="number"
+              min="1"
+              :placeholder="t('admin.ipWhitelist.defaultFive')"
+            />
+            <span class="whitespace-nowrap text-sm text-muted-foreground">
+              {{ t("admin.ipWhitelist.minutes") }}
+            </span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-4 items-center gap-4">
+          <Label for="duration" class="text-right">
+            {{ t("admin.ipWhitelist.duration") }}
+          </Label>
+          <Select v-model="durationSetting">
+            <SelectTrigger
+              :aria-label="t('admin.ipWhitelist.selectDuration')"
+              class="col-span-3"
+            >
+              <SelectValue
+                :placeholder="t('admin.ipWhitelist.selectDuration')"
+              />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="permanent">
+                {{ t("admin.ipWhitelist.permanent") }}
+              </SelectItem>
+              <SelectItem value="1h">
+                {{ t("admin.ipWhitelist.oneHour") }}
+              </SelectItem>
+              <SelectItem value="24h">
+                {{ t("admin.ipWhitelist.twentyFourHours") }}
+              </SelectItem>
+              <SelectItem value="7d">
+                {{ t("admin.ipWhitelist.sevenDays") }}
+              </SelectItem>
+              <SelectItem value="custom">
+                {{ t("admin.ipWhitelist.customHours") }}
+              </SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+
+        <div
+          v-if="durationSetting === 'custom'"
+          class="grid grid-cols-4 items-center gap-4"
+        >
+          <Label for="customHours" class="text-right">
+            {{ t("admin.ipWhitelist.customHours") }}
+          </Label>
+          <Input
+            id="customHours"
+            v-model.number="customHours"
+            type="number"
+            min="1"
+            :placeholder="t('admin.ipWhitelist.customHoursPlaceholder')"
+            class="col-span-3"
+          />
+        </div>
+
+        <div class="grid grid-cols-4 items-center gap-4">
+          <Label for="comment" class="text-right">
+            {{ t("admin.ipWhitelist.commentOptional") }}
+          </Label>
+          <Input
+            id="comment"
+            v-model="newRecord.comment"
+            :placeholder="t('admin.ipWhitelist.commentPlaceholder')"
+            class="col-span-3"
+            @keyup.enter="emit('add')"
+          />
+        </div>
+      </div>
+      <DialogFooter>
+        <Button variant="outline" @click="open = false">
+          {{ t("common.cancel") }}
+        </Button>
+        <Button :disabled="!canSave || isSaving" @click="emit('add')">
+          {{ t("common.save") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

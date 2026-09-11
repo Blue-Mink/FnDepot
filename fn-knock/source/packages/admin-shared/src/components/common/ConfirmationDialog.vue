@@ -1,1 +1,55 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQnV0dG9uLCB0eXBlIEJ1dHRvblZhcmlhbnRzIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKAogIGRlZmluZVByb3BzPHsKICAgIGNhbmNlbFRleHQ/OiBzdHJpbmc7CiAgICBjb25maXJtVGV4dD86IHN0cmluZzsKICAgIGNvbmZpcm1WYXJpYW50PzogQnV0dG9uVmFyaWFudHNbInZhcmlhbnQiXTsKICAgIGRlc2NyaXB0aW9uOiBzdHJpbmc7CiAgICBvcGVuOiBib29sZWFuOwogICAgdGl0bGU6IHN0cmluZzsKICB9PigpLAogIHsKICAgIGNvbmZpcm1WYXJpYW50OiAiZGVmYXVsdCIsCiAgfSwKKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgY29uZmlybTogW107CiAgInVwZGF0ZTpvcGVuIjogW3ZhbHVlOiBib29sZWFuXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBjYW5jZWxUZXh0ID0gY29tcHV0ZWQoKCkgPT4gcHJvcHMuY2FuY2VsVGV4dCA/PyB0KCJjb21tb24uY2FuY2VsIikpOwpjb25zdCBjb25maXJtVGV4dCA9IGNvbXB1dGVkKCgpID0+IHByb3BzLmNvbmZpcm1UZXh0ID8/IHQoImNvbW1vbi5jb25maXJtIikpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nIDpvcGVuPSJvcGVuIiBAdXBkYXRlOm9wZW49ImVtaXQoJ3VwZGF0ZTpvcGVuJywgJGV2ZW50KSI+CiAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ic206bWF4LXctWzQ0MHB4XSI+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPnt7IHRpdGxlIH19PC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+e3sgZGVzY3JpcHRpb24gfX08L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICA8L0RpYWxvZ0hlYWRlcj4KICAgICAgPERpYWxvZ0Zvb3Rlcj4KICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0iZW1pdCgndXBkYXRlOm9wZW4nLCBmYWxzZSkiPgogICAgICAgICAge3sgY2FuY2VsVGV4dCB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24gOnZhcmlhbnQ9ImNvbmZpcm1WYXJpYW50IiBAY2xpY2s9ImVtaXQoJ2NvbmZpcm0nKSI+CiAgICAgICAgICB7eyBjb25maXJtVGV4dCB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgIDwvRGlhbG9nQ29udGVudD4KICA8L0RpYWxvZz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Button, type ButtonVariants } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+
+const props = withDefaults(
+  defineProps<{
+    cancelText?: string;
+    confirmText?: string;
+    confirmVariant?: ButtonVariants["variant"];
+    description: string;
+    open: boolean;
+    title: string;
+  }>(),
+  {
+    confirmVariant: "default",
+  },
+);
+
+const emit = defineEmits<{
+  confirm: [];
+  "update:open": [value: boolean];
+}>();
+
+const { t } = useI18n();
+const cancelText = computed(() => props.cancelText ?? t("common.cancel"));
+const confirmText = computed(() => props.confirmText ?? t("common.confirm"));
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="sm:max-w-[440px]">
+      <DialogHeader>
+        <DialogTitle>{{ title }}</DialogTitle>
+        <DialogDescription>{{ description }}</DialogDescription>
+      </DialogHeader>
+      <DialogFooter>
+        <Button variant="outline" @click="emit('update:open', false)">
+          {{ cancelText }}
+        </Button>
+        <Button :variant="confirmVariant" @click="emit('confirm')">
+          {{ confirmText }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

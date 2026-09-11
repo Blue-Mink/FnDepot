@@ -1,1 +1,180 @@
-aW1wb3J0IHsgb25Nb3VudGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBleHRyYWN0RXJyb3JNZXNzYWdlIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7CiAgUGFuZWxTeW5jQVBJLAogIHR5cGUgUGFuZWxDb25uZWN0aW9uLAogIHR5cGUgUGFuZWxDb25uZWN0aW9uSW5wdXQsCiAgdHlwZSBQYW5lbENvbm5lY3Rpb25VcGRhdGVJbnB1dCwKICB0eXBlIFBhbmVsUHJvdmlkZXJEZXNjcmlwdG9yLAogIHR5cGUgUGFuZWxTeW5jUHJldmlldywKfSBmcm9tICJAL2xpYi9hcGkvcGFuZWwtc3luYy1hcGkiOwoKZXhwb3J0IGNvbnN0IHVzZVBhbmVsU3luY0Nvbm5lY3Rpb25zID0gKCkgPT4gewogIGNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IHByb3ZpZGVycyA9IHJlZjxQYW5lbFByb3ZpZGVyRGVzY3JpcHRvcltdPihbXSk7CiAgY29uc3QgY29ubmVjdGlvbnMgPSByZWY8UGFuZWxDb25uZWN0aW9uW10+KFtdKTsKICBjb25zdCBsb2FkaW5nID0gcmVmKGZhbHNlKTsKICBjb25zdCBzYXZpbmcgPSByZWYoZmFsc2UpOwogIGNvbnN0IHRlc3RpbmdJZHMgPSByZWYobmV3IFNldDxzdHJpbmc+KCkpOwogIGNvbnN0IGRlbGV0aW5nSWRzID0gcmVmKG5ldyBTZXQ8c3RyaW5nPigpKTsKICBjb25zdCBwcmV2aWV3aW5nQ2xlYW51cElkcyA9IHJlZihuZXcgU2V0PHN0cmluZz4oKSk7CgogIGNvbnN0IGxvYWQgPSBhc3luYyAoKSA9PiB7CiAgICBsb2FkaW5nLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIFtwcm92aWRlcnMudmFsdWUsIGNvbm5lY3Rpb25zLnZhbHVlXSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgICAgICBQYW5lbFN5bmNBUEkucHJvdmlkZXJzKCksCiAgICAgICAgUGFuZWxTeW5jQVBJLmNvbm5lY3Rpb25zKCksCiAgICAgIF0pOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ucGFuZWxTeW5jLm1lc3NhZ2VzLmxvYWRGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5wYW5lbFN5bmMubWVzc2FnZXMubG9hZEZhaWxlZCIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSBmaW5hbGx5IHsKICAgICAgbG9hZGluZy52YWx1ZSA9IGZhbHNlOwogICAgfQogIH07CgogIGNvbnN0IGNyZWF0ZSA9IGFzeW5jIChpbnB1dDogUGFuZWxDb25uZWN0aW9uSW5wdXQpID0+IHsKICAgIHNhdmluZy52YWx1ZSA9IHRydWU7CiAgICB0cnkgewogICAgICBjb25zdCBjcmVhdGVkID0gYXdhaXQgUGFuZWxTeW5jQVBJLmNyZWF0ZShpbnB1dCk7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4ucGFuZWxTeW5jLm1lc3NhZ2VzLmNyZWF0ZWQiKSk7CiAgICAgIGF3YWl0IGxvYWQoKTsKICAgICAgcmV0dXJuIGNyZWF0ZWQ7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5wYW5lbFN5bmMubWVzc2FnZXMuc2F2ZUZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLnBhbmVsU3luYy5tZXNzYWdlcy5zYXZlRmFpbGVkIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICAgIHJldHVybiBudWxsOwogICAgfSBmaW5hbGx5IHsKICAgICAgc2F2aW5nLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3QgdXBkYXRlID0gYXN5bmMgKGlkOiBzdHJpbmcsIGlucHV0OiBQYW5lbENvbm5lY3Rpb25VcGRhdGVJbnB1dCkgPT4gewogICAgc2F2aW5nLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHVwZGF0ZWQgPSBhd2FpdCBQYW5lbFN5bmNBUEkudXBkYXRlKGlkLCBpbnB1dCk7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4ucGFuZWxTeW5jLm1lc3NhZ2VzLnVwZGF0ZWQiKSk7CiAgICAgIGF3YWl0IGxvYWQoKTsKICAgICAgcmV0dXJuIHVwZGF0ZWQ7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5wYW5lbFN5bmMubWVzc2FnZXMuc2F2ZUZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLnBhbmVsU3luYy5tZXNzYWdlcy5zYXZlRmFpbGVkIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICAgIHJldHVybiBudWxsOwogICAgfSBmaW5hbGx5IHsKICAgICAgc2F2aW5nLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3QgdmVyaWZ5U2F2ZWQgPSBhc3luYyAoaWQ6IHN0cmluZywgbm90aWZ5ID0gdHJ1ZSkgPT4gewogICAgdGVzdGluZ0lkcy52YWx1ZSA9IG5ldyBTZXQodGVzdGluZ0lkcy52YWx1ZSkuYWRkKGlkKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IFBhbmVsU3luY0FQSS50ZXN0U2F2ZWQoaWQpOwogICAgICBpZiAobm90aWZ5KSB7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5wYW5lbFN5bmMubWVzc2FnZXMudGVzdFN1Y2Nlc3MiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IHJlc3VsdC52ZXJzaW9uCiAgICAgICAgICAgID8gYCR7cmVzdWx0Lm1lc3NhZ2V9IMK3ICR7cmVzdWx0LnZlcnNpb259YAogICAgICAgICAgICA6IHJlc3VsdC5tZXNzYWdlLAogICAgICAgIH0pOwogICAgICB9CiAgICAgIGF3YWl0IGxvYWQoKTsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5wYW5lbFN5bmMubWVzc2FnZXMudGVzdEZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLnBhbmVsU3luYy5tZXNzYWdlcy50ZXN0RmFpbGVkIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICAgIHJldHVybiBmYWxzZTsKICAgIH0gZmluYWxseSB7CiAgICAgIGNvbnN0IG5leHQgPSBuZXcgU2V0KHRlc3RpbmdJZHMudmFsdWUpOwogICAgICBuZXh0LmRlbGV0ZShpZCk7CiAgICAgIHRlc3RpbmdJZHMudmFsdWUgPSBuZXh0OwogICAgfQogIH07CgogIGNvbnN0IHRlc3RTYXZlZCA9IChjb25uZWN0aW9uOiBQYW5lbENvbm5lY3Rpb24pID0+CiAgICB2ZXJpZnlTYXZlZChjb25uZWN0aW9uLmlkKTsKCiAgY29uc3QgcHJldmlld0NsZWFudXAgPSBhc3luYyAoY29ubmVjdGlvbjogUGFuZWxDb25uZWN0aW9uKSA9PiB7CiAgICBwcmV2aWV3aW5nQ2xlYW51cElkcy52YWx1ZSA9IG5ldyBTZXQocHJldmlld2luZ0NsZWFudXBJZHMudmFsdWUpLmFkZCgKICAgICAgY29ubmVjdGlvbi5pZCwKICAgICk7CiAgICB0cnkgewogICAgICByZXR1cm4gYXdhaXQgUGFuZWxTeW5jQVBJLnByZXZpZXcoY29ubmVjdGlvbi5pZCwgdHJ1ZSk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5wYW5lbFN5bmMubWVzc2FnZXMuY2xlYW51cFByZXZpZXdGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5wYW5lbFN5bmMubWVzc2FnZXMuY2xlYW51cFByZXZpZXdGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgICAgcmV0dXJuIG51bGw7CiAgICB9IGZpbmFsbHkgewogICAgICBjb25zdCBuZXh0ID0gbmV3IFNldChwcmV2aWV3aW5nQ2xlYW51cElkcy52YWx1ZSk7CiAgICAgIG5leHQuZGVsZXRlKGNvbm5lY3Rpb24uaWQpOwogICAgICBwcmV2aWV3aW5nQ2xlYW51cElkcy52YWx1ZSA9IG5leHQ7CiAgICB9CiAgfTsKCiAgY29uc3QgcmVtb3ZlID0gYXN5bmMgKAogICAgY29ubmVjdGlvbjogUGFuZWxDb25uZWN0aW9uLAogICAgY2xlYW51cFByZXZpZXc/OiBQYW5lbFN5bmNQcmV2aWV3LAogICkgPT4gewogICAgZGVsZXRpbmdJZHMudmFsdWUgPSBuZXcgU2V0KGRlbGV0aW5nSWRzLnZhbHVlKS5hZGQoY29ubmVjdGlvbi5pZCk7CiAgICB0cnkgewogICAgICBhd2FpdCBQYW5lbFN5bmNBUEkucmVtb3ZlKGNvbm5lY3Rpb24uaWQsIGNsZWFudXBQcmV2aWV3KTsKICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5wYW5lbFN5bmMubWVzc2FnZXMuZGVsZXRlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGNsZWFudXBQcmV2aWV3CiAgICAgICAgICA/IHQoImFkbWluLnBhbmVsU3luYy5yZW1vdGVDbGVhbmVkIikKICAgICAgICAgIDogdCgiYWRtaW4ucGFuZWxTeW5jLnJlbW90ZVJldGFpbmVkIiksCiAgICAgIH0pOwogICAgICBhd2FpdCBsb2FkKCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5wYW5lbFN5bmMubWVzc2FnZXMuZGVsZXRlRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4ucGFuZWxTeW5jLm1lc3NhZ2VzLmRlbGV0ZUZhaWxlZCIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSBmaW5hbGx5IHsKICAgICAgY29uc3QgbmV4dCA9IG5ldyBTZXQoZGVsZXRpbmdJZHMudmFsdWUpOwogICAgICBuZXh0LmRlbGV0ZShjb25uZWN0aW9uLmlkKTsKICAgICAgZGVsZXRpbmdJZHMudmFsdWUgPSBuZXh0OwogICAgfQogIH07CgogIG9uTW91bnRlZChsb2FkKTsKCiAgcmV0dXJuIHsKICAgIGNvbm5lY3Rpb25zLAogICAgY3JlYXRlLAogICAgZGVsZXRpbmdJZHMsCiAgICBsb2FkLAogICAgbG9hZGluZywKICAgIHByb3ZpZGVycywKICAgIHByZXZpZXdDbGVhbnVwLAogICAgcHJldmlld2luZ0NsZWFudXBJZHMsCiAgICByZW1vdmUsCiAgICBzYXZpbmcsCiAgICB0ZXN0U2F2ZWQsCiAgICB0ZXN0aW5nSWRzLAogICAgdXBkYXRlLAogICAgdmVyaWZ5U2F2ZWQsCiAgfTsKfTsK
+import { onMounted, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  PanelSyncAPI,
+  type PanelConnection,
+  type PanelConnectionInput,
+  type PanelConnectionUpdateInput,
+  type PanelProviderDescriptor,
+  type PanelSyncPreview,
+} from "@/lib/api/panel-sync-api";
+
+export const usePanelSyncConnections = () => {
+  const { t } = useI18n();
+  const providers = ref<PanelProviderDescriptor[]>([]);
+  const connections = ref<PanelConnection[]>([]);
+  const loading = ref(false);
+  const saving = ref(false);
+  const testingIds = ref(new Set<string>());
+  const deletingIds = ref(new Set<string>());
+  const previewingCleanupIds = ref(new Set<string>());
+
+  const load = async () => {
+    loading.value = true;
+    try {
+      [providers.value, connections.value] = await Promise.all([
+        PanelSyncAPI.providers(),
+        PanelSyncAPI.connections(),
+      ]);
+    } catch (error) {
+      toast.error(t("admin.panelSync.messages.loadFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.panelSync.messages.loadFailed"),
+        ),
+      });
+    } finally {
+      loading.value = false;
+    }
+  };
+
+  const create = async (input: PanelConnectionInput) => {
+    saving.value = true;
+    try {
+      const created = await PanelSyncAPI.create(input);
+      toast.success(t("admin.panelSync.messages.created"));
+      await load();
+      return created;
+    } catch (error) {
+      toast.error(t("admin.panelSync.messages.saveFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.panelSync.messages.saveFailed"),
+        ),
+      });
+      return null;
+    } finally {
+      saving.value = false;
+    }
+  };
+
+  const update = async (id: string, input: PanelConnectionUpdateInput) => {
+    saving.value = true;
+    try {
+      const updated = await PanelSyncAPI.update(id, input);
+      toast.success(t("admin.panelSync.messages.updated"));
+      await load();
+      return updated;
+    } catch (error) {
+      toast.error(t("admin.panelSync.messages.saveFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.panelSync.messages.saveFailed"),
+        ),
+      });
+      return null;
+    } finally {
+      saving.value = false;
+    }
+  };
+
+  const verifySaved = async (id: string, notify = true) => {
+    testingIds.value = new Set(testingIds.value).add(id);
+    try {
+      const result = await PanelSyncAPI.testSaved(id);
+      if (notify) {
+        toast.success(t("admin.panelSync.messages.testSuccess"), {
+          description: result.version
+            ? `${result.message} · ${result.version}`
+            : result.message,
+        });
+      }
+      await load();
+      return true;
+    } catch (error) {
+      toast.error(t("admin.panelSync.messages.testFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.panelSync.messages.testFailed"),
+        ),
+      });
+      return false;
+    } finally {
+      const next = new Set(testingIds.value);
+      next.delete(id);
+      testingIds.value = next;
+    }
+  };
+
+  const testSaved = (connection: PanelConnection) =>
+    verifySaved(connection.id);
+
+  const previewCleanup = async (connection: PanelConnection) => {
+    previewingCleanupIds.value = new Set(previewingCleanupIds.value).add(
+      connection.id,
+    );
+    try {
+      return await PanelSyncAPI.preview(connection.id, true);
+    } catch (error) {
+      toast.error(t("admin.panelSync.messages.cleanupPreviewFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.panelSync.messages.cleanupPreviewFailed"),
+        ),
+      });
+      return null;
+    } finally {
+      const next = new Set(previewingCleanupIds.value);
+      next.delete(connection.id);
+      previewingCleanupIds.value = next;
+    }
+  };
+
+  const remove = async (
+    connection: PanelConnection,
+    cleanupPreview?: PanelSyncPreview,
+  ) => {
+    deletingIds.value = new Set(deletingIds.value).add(connection.id);
+    try {
+      await PanelSyncAPI.remove(connection.id, cleanupPreview);
+      toast.success(t("admin.panelSync.messages.deleted"), {
+        description: cleanupPreview
+          ? t("admin.panelSync.remoteCleaned")
+          : t("admin.panelSync.remoteRetained"),
+      });
+      await load();
+    } catch (error) {
+      toast.error(t("admin.panelSync.messages.deleteFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.panelSync.messages.deleteFailed"),
+        ),
+      });
+    } finally {
+      const next = new Set(deletingIds.value);
+      next.delete(connection.id);
+      deletingIds.value = next;
+    }
+  };
+
+  onMounted(load);
+
+  return {
+    connections,
+    create,
+    deletingIds,
+    load,
+    loading,
+    providers,
+    previewCleanup,
+    previewingCleanupIds,
+    remove,
+    saving,
+    testSaved,
+    testingIds,
+    update,
+    verifySaved,
+  };
+};

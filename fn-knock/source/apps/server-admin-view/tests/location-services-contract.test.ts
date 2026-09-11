@@ -1,1 +1,118 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7CmNvbnN0IGlzR2VuZXJhdGVkQ29udHJhY3RTb3VyY2UgPSAoc291cmNlOiB1bmtub3duKSA9PgogIHNvdXJjZSA9PT0gInV0b2lwYSIgfHwgc291cmNlID09PSAidXRvaXBhLWRvbWFpbiI7Cgpjb25zdCBjb250cmFjdCA9IEpTT04ucGFyc2UoCiAgcmVhZFNvdXJjZSgiLi4vLi4vLi4vcGFja2FnZXMvYXBpLWNvbnRyYWN0L29wZW5hcGkuanNvbiIpLAopIGFzIHsKICBjb21wb25lbnRzOiB7CiAgICBzY2hlbWFzOiBSZWNvcmQ8CiAgICAgIHN0cmluZywKICAgICAgewogICAgICAgIHByb3BlcnRpZXM/OiBSZWNvcmQ8CiAgICAgICAgICBzdHJpbmcsCiAgICAgICAgICB7IGVudW0/OiBzdHJpbmdbXTsgbWF4SXRlbXM/OiBudW1iZXIgfQogICAgICAgID47CiAgICAgIH0KICAgID47CiAgfTsKICBwYXRoczogUmVjb3JkPAogICAgc3RyaW5nLAogICAgUmVjb3JkPAogICAgICBzdHJpbmcsCiAgICAgIHsKICAgICAgICAieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiPzogc3RyaW5nOwogICAgICAgIHBhcmFtZXRlcnM/OiBBcnJheTx7CiAgICAgICAgICBuYW1lPzogc3RyaW5nOwogICAgICAgICAgcmVxdWlyZWQ/OiBib29sZWFuOwogICAgICAgICAgc2NoZW1hPzogeyBlbnVtPzogc3RyaW5nW10gfTsKICAgICAgICB9PjsKICAgICAgICByZXNwb25zZXM/OiBSZWNvcmQ8CiAgICAgICAgICBzdHJpbmcsCiAgICAgICAgICB7IGNvbnRlbnQ/OiBSZWNvcmQ8c3RyaW5nLCB7IHNjaGVtYT86IHsgJHJlZj86IHN0cmluZyB9IH0+IH0KICAgICAgICA+OwogICAgICB9CiAgICA+CiAgPjsKfTsKCmRlc2NyaWJlKCJDSURSIGFuZCBJUCBsb2NhdGlvbiBBUEkgY29udHJhY3QiLCAoKSA9PiB7CiAgaXQoImtlZXBzIGFsbCBsb2NhdGlvbiBzZXJ2aWNlIG9wZXJhdGlvbnMgdHlwZWQiLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IFttZXRob2QsIHBhdGhdIG9mIFsKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9jaWRyL2NhcGFiaWxpdGllcyJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL2NpZHIvcHJvdmluY2VzIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vY2lkci9jaXRpZXMiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9jaWRyL3NlbGVjdG9yIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vY2lkci9jaWRycyJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9pcC1sb2NhdGlvbi9iYXRjaCJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL2NvbmZpZy9pcF9sb2NhdGlvbl9hcGkiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2lwX2xvY2F0aW9uX2FwaSJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9jb25maWcvaXBfbG9jYXRpb25fYXBpL3Rlc3QtaXAtbG9va3VwIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2NvbmZpZy9pcF9sb2NhdGlvbl9hcGkvdGVzdC1jaWRyIl0sCiAgICBdIGFzIGNvbnN0KSB7CiAgICAgIGFzc2VydC5vaygKICAgICAgICBpc0dlbmVyYXRlZENvbnRyYWN0U291cmNlKAogICAgICAgICAgY29udHJhY3QucGF0aHNbcGF0aF0/LlttZXRob2RdPy5bIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIl0sCiAgICAgICAgKSwKICAgICAgICBgJHttZXRob2QudG9VcHBlckNhc2UoKX0gJHtwYXRofWAsCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJwcmVzZXJ2ZXMgcXVlcnksIGJhdGNoLCBhbmQgZGlyZWN0LXJlc3BvbnNlIGJvdW5kYXJpZXMiLCAoKSA9PiB7CiAgICBjb25zdCBjaXRpZXMgPSBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9jaWRyL2NpdGllcyJdLmdldC5wYXJhbWV0ZXJzOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjaXRpZXM/LmZpbmQoKHBhcmFtZXRlcikgPT4gcGFyYW1ldGVyLm5hbWUgPT09ICJwcm92aW5jZSIpPy5yZXF1aXJlZCwKICAgICAgdHJ1ZSwKICAgICk7CiAgICBjb25zdCBsb29rdXAgPSBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9jaWRyL2NpZHJzIl0uZ2V0LnBhcmFtZXRlcnM7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBsb29rdXA/LmZpbmQoKHBhcmFtZXRlcikgPT4gcGFyYW1ldGVyLm5hbWUgPT09ICJvcGVyYXRvciIpPy5zY2hlbWEKICAgICAgICA/LmVudW0sCiAgICAgIFsi55S15L+hIiwgIuiBlOmAmiIsICLnp7vliqgiXSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5JcExvY2F0aW9uQmF0Y2hCb2R5RGF0YS5wcm9wZXJ0aWVzPy5pcHMKICAgICAgICAubWF4SXRlbXMsCiAgICAgIDIwLAogICAgKTsKICAgIGFzc2VydC5vaygKICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLklwTG9jYXRpb25TbmFwc2hvdERhdGEucHJvcGVydGllcz8ucmVzdWx0LAogICAgKTsKCiAgICBjb25zdCB0ZXN0UmVzcG9uc2UgPQogICAgICBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9jb25maWcvaXBfbG9jYXRpb25fYXBpL3Rlc3QtaXAtbG9va3VwIl0ucG9zdAogICAgICAgIC5yZXNwb25zZXM/LlsiMjAwIl0/LmNvbnRlbnQ/LlsiYXBwbGljYXRpb24vanNvbiJdPy5zY2hlbWE7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHRlc3RSZXNwb25zZT8uJHJlZiwKICAgICAgIiMvY29tcG9uZW50cy9zY2hlbWFzL0lwTG9jYXRpb25Db25uZWN0aW9uVGVzdERhdGEiLAogICAgKTsKICB9KTsKCiAgaXQoImRlcml2ZXMgZnJvbnRlbmQgbG9jYXRpb24gbW9kZWxzIGFuZCByZXF1ZXN0cyBmcm9tIGdlbmVyYXRlZCB0eXBlcyIsICgpID0+IHsKICAgIGNvbnN0IGNpZHJUeXBlcyA9IHJlYWRTb3VyY2UoIi4uL3NyYy90eXBlcy9jaWRyLnRzIik7CiAgICBjb25zdCB0eXBlcyA9IHJlYWRTb3VyY2UoIi4uL3NyYy90eXBlcy9jb3JlLnRzIik7CiAgICBjb25zdCBnYXRld2F5QXBpID0gcmVhZFNvdXJjZSgiLi4vc3JjL2xpYi9hcGkvZ2F0ZXdheS50cyIpOwogICAgY29uc3QgY29uZmlnQXBpID0gcmVhZFNvdXJjZSgiLi4vc3JjL2xpYi9hcGkvY29uZmlnLnRzIik7CiAgICBjb25zdCBzZXR0aW5ncyA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvc3lzdGVtLXNldHRpbmdzL2lwLWxvY2F0aW9uL3VzZUlwTG9jYXRpb25TZXR0aW5ncy50cyIsCiAgICApOwoKICAgIGFzc2VydC5tYXRjaChjaWRyVHlwZXMsIC9DaWRyQ2FwYWJpbGl0aWVzRGF0YS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goY2lkclR5cGVzLCAvaW50ZXJmYWNlIENpZHJDYXBhYmlsaXRpZXNQYXlsb2FkL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHR5cGVzLCAvSXBMb2NhdGlvblNuYXBzaG90RGF0YS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2godHlwZXMsIC9pbnRlcmZhY2UgSXBMb2NhdGlvblNuYXBzaG90L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGdhdGV3YXlBcGksIC9zYXRpc2ZpZXMgSXBMb2NhdGlvbkJhdGNoQm9keS91KTsKICAgIGFzc2VydC5tYXRjaChnYXRld2F5QXBpLCAvc2F0aXNmaWVzIENpZHJMb29rdXBRdWVyeS91KTsKICAgIGFzc2VydC5tYXRjaChjb25maWdBcGksIC9JcExvY2F0aW9uQXBpQ29uZmlnRGF0YS91KTsKICAgIGFzc2VydC5tYXRjaChjb25maWdBcGksIC9zYXRpc2ZpZXMgSXBMb2NhdGlvblRlc3RVcmxCb2R5L3UpOwogICAgYXNzZXJ0Lm1hdGNoKHNldHRpbmdzLCAvcmVzdWx0XC5tZXNzYWdlIFx8XHxccytyZXN1bHRcLm1zZy91KTsKICAgIGFzc2VydC5tYXRjaChzZXR0aW5ncywgL2lwTG9va3VwVW5hdmFpbGFibGUvdSk7CiAgICBhc3NlcnQubWF0Y2goc2V0dGluZ3MsIC9jaWRyVW5hdmFpbGFibGUvdSk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+const isGeneratedContractSource = (source: unknown) =>
+  source === "utoipa" || source === "utoipa-domain";
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  components: {
+    schemas: Record<
+      string,
+      {
+        properties?: Record<
+          string,
+          { enum?: string[]; maxItems?: number }
+        >;
+      }
+    >;
+  };
+  paths: Record<
+    string,
+    Record<
+      string,
+      {
+        "x-fn-knock-contract-source"?: string;
+        parameters?: Array<{
+          name?: string;
+          required?: boolean;
+          schema?: { enum?: string[] };
+        }>;
+        responses?: Record<
+          string,
+          { content?: Record<string, { schema?: { $ref?: string } }> }
+        >;
+      }
+    >
+  >;
+};
+
+describe("CIDR and IP location API contract", () => {
+  it("keeps all location service operations typed", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/cidr/capabilities"],
+      ["get", "/api/admin/cidr/provinces"],
+      ["get", "/api/admin/cidr/cities"],
+      ["get", "/api/admin/cidr/selector"],
+      ["get", "/api/admin/cidr/cidrs"],
+      ["post", "/api/admin/ip-location/batch"],
+      ["get", "/api/admin/config/ip_location_api"],
+      ["post", "/api/admin/config/ip_location_api"],
+      ["post", "/api/admin/config/ip_location_api/test-ip-lookup"],
+      ["post", "/api/admin/config/ip_location_api/test-cidr"],
+    ] as const) {
+      assert.ok(
+        isGeneratedContractSource(
+          contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        ),
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("preserves query, batch, and direct-response boundaries", () => {
+    const cities = contract.paths["/api/admin/cidr/cities"].get.parameters;
+    assert.equal(
+      cities?.find((parameter) => parameter.name === "province")?.required,
+      true,
+    );
+    const lookup = contract.paths["/api/admin/cidr/cidrs"].get.parameters;
+    assert.deepEqual(
+      lookup?.find((parameter) => parameter.name === "operator")?.schema
+        ?.enum,
+      ["电信", "联通", "移动"],
+    );
+    assert.equal(
+      contract.components.schemas.IpLocationBatchBodyData.properties?.ips
+        .maxItems,
+      20,
+    );
+    assert.ok(
+      contract.components.schemas.IpLocationSnapshotData.properties?.result,
+    );
+
+    const testResponse =
+      contract.paths["/api/admin/config/ip_location_api/test-ip-lookup"].post
+        .responses?.["200"]?.content?.["application/json"]?.schema;
+    assert.equal(
+      testResponse?.$ref,
+      "#/components/schemas/IpLocationConnectionTestData",
+    );
+  });
+
+  it("derives frontend location models and requests from generated types", () => {
+    const cidrTypes = readSource("../src/types/cidr.ts");
+    const types = readSource("../src/types/core.ts");
+    const gatewayApi = readSource("../src/lib/api/gateway.ts");
+    const configApi = readSource("../src/lib/api/config.ts");
+    const settings = readSource(
+      "../src/views/system-settings/ip-location/useIpLocationSettings.ts",
+    );
+
+    assert.match(cidrTypes, /CidrCapabilitiesData/u);
+    assert.doesNotMatch(cidrTypes, /interface CidrCapabilitiesPayload/u);
+    assert.match(types, /IpLocationSnapshotData/u);
+    assert.doesNotMatch(types, /interface IpLocationSnapshot/u);
+    assert.match(gatewayApi, /satisfies IpLocationBatchBody/u);
+    assert.match(gatewayApi, /satisfies CidrLookupQuery/u);
+    assert.match(configApi, /IpLocationApiConfigData/u);
+    assert.match(configApi, /satisfies IpLocationTestUrlBody/u);
+    assert.match(settings, /result\.message \|\|\s+result\.msg/u);
+    assert.match(settings, /ipLookupUnavailable/u);
+    assert.match(settings, /cidrUnavailable/u);
+  });
+});

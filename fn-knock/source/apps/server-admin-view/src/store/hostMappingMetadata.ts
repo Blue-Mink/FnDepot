@@ -1,1 +1,73 @@
-aW1wb3J0IHR5cGUgeyBIb3N0TWFwcGluZyB9IGZyb20gIi4uL3R5cGVzIjsKaW1wb3J0IHsgaXNQcm94eUhvc3RNYXBwaW5nIH0gZnJvbSAiLi4vbGliL2hvc3QtbWFwcGluZy10YXJnZXQiOwoKY29uc3Qgbm9ybWFsaXplQ29tcGFyYWJsZUJhc2ljQXV0aCA9ICgKICB2YWx1ZTogSG9zdE1hcHBpbmdbImJhc2ljX2F1dGgiXSwKKTogSG9zdE1hcHBpbmdbImJhc2ljX2F1dGgiXSA9PiB7CiAgY29uc3QgdXNlcm5hbWUgPSB2YWx1ZS51c2VybmFtZS50cmltKCk7CiAgY29uc3QgcGFzc3dvcmQgPSB2YWx1ZS5wYXNzd29yZDsKICBpZiAoCiAgICB2YWx1ZS5lbmFibGVkICE9PSB0cnVlIHx8CiAgICAhdXNlcm5hbWUgfHwKICAgICFwYXNzd29yZCB8fAogICAgdXNlcm5hbWUuaW5jbHVkZXMoIjoiKQogICkgewogICAgcmV0dXJuIHsKICAgICAgZW5hYmxlZDogZmFsc2UsCiAgICAgIHVzZXJuYW1lOiAiIiwKICAgICAgcGFzc3dvcmQ6ICIiLAogICAgfTsKICB9CgogIHJldHVybiB7CiAgICBlbmFibGVkOiB0cnVlLAogICAgdXNlcm5hbWUsCiAgICBwYXNzd29yZCwKICB9Owp9OwoKY29uc3QgaGFzVXNhYmxlQmFzaWNBdXRoID0gKHZhbHVlOiBIb3N0TWFwcGluZ1siYmFzaWNfYXV0aCJdKTogYm9vbGVhbiA9PgogIG5vcm1hbGl6ZUNvbXBhcmFibGVCYXNpY0F1dGgodmFsdWUpLmVuYWJsZWQ7Cgpjb25zdCBiYXNpY0F1dGhNYXRjaGVzID0gKAogIGxlZnQ6IEhvc3RNYXBwaW5nWyJiYXNpY19hdXRoIl0sCiAgcmlnaHQ6IEhvc3RNYXBwaW5nWyJiYXNpY19hdXRoIl0sCik6IGJvb2xlYW4gPT4gewogIGNvbnN0IG5vcm1hbGl6ZWRMZWZ0ID0gbm9ybWFsaXplQ29tcGFyYWJsZUJhc2ljQXV0aChsZWZ0KTsKICBjb25zdCBub3JtYWxpemVkUmlnaHQgPSBub3JtYWxpemVDb21wYXJhYmxlQmFzaWNBdXRoKHJpZ2h0KTsKICByZXR1cm4gKAogICAgbm9ybWFsaXplZExlZnQuZW5hYmxlZCA9PT0gbm9ybWFsaXplZFJpZ2h0LmVuYWJsZWQgJiYKICAgIG5vcm1hbGl6ZWRMZWZ0LnVzZXJuYW1lID09PSBub3JtYWxpemVkUmlnaHQudXNlcm5hbWUgJiYKICAgIG5vcm1hbGl6ZWRMZWZ0LnBhc3N3b3JkID09PSBub3JtYWxpemVkUmlnaHQucGFzc3dvcmQKICApOwp9OwoKY29uc3QgaG9zdEtleSA9ICh2YWx1ZTogc3RyaW5nKTogc3RyaW5nID0+IHZhbHVlLnRyaW0oKS50b0xvd2VyQ2FzZSgpOwoKZXhwb3J0IGNvbnN0IGhhc1BlbmRpbmdIb3N0TWFwcGluZ01ldGFkYXRhID0gKAogIG1hcHBpbmdzOiBIb3N0TWFwcGluZ1tdLAogIHByZXZpb3VzTWFwcGluZ3M6IEhvc3RNYXBwaW5nW10gfCBudWxsID0gbnVsbCwKKTogYm9vbGVhbiA9PiB7CiAgY29uc3QgcHJldmlvdXNCeUhvc3QgPSBwcmV2aW91c01hcHBpbmdzCiAgICA/IG5ldyBNYXAoCiAgICAgICAgcHJldmlvdXNNYXBwaW5ncy5tYXAoKG1hcHBpbmcpID0+IFtob3N0S2V5KG1hcHBpbmcuaG9zdCksIG1hcHBpbmddKSwKICAgICAgKQogICAgOiBudWxsOwoKICByZXR1cm4gbWFwcGluZ3Muc29tZSgobWFwcGluZykgPT4gewogICAgaWYgKCFpc1Byb3h5SG9zdE1hcHBpbmcobWFwcGluZykpIHJldHVybiBmYWxzZTsKICAgIGlmICghbWFwcGluZy50YXJnZXQudHJpbSgpKSByZXR1cm4gZmFsc2U7CiAgICBpZiAoIW1hcHBpbmcudGl0bGUudHJpbSgpIHx8ICFtYXBwaW5nLmZhdmljb24udHJpbSgpKSByZXR1cm4gdHJ1ZTsKICAgIGlmICghcHJldmlvdXNCeUhvc3QgfHwgIWhhc1VzYWJsZUJhc2ljQXV0aChtYXBwaW5nLmJhc2ljX2F1dGgpKSB7CiAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBjb25zdCBwcmV2aW91cyA9IHByZXZpb3VzQnlIb3N0LmdldChob3N0S2V5KG1hcHBpbmcuaG9zdCkpOwogICAgcmV0dXJuICgKICAgICAgIXByZXZpb3VzIHx8CiAgICAgICFpc1Byb3h5SG9zdE1hcHBpbmcocHJldmlvdXMpIHx8CiAgICAgIHByZXZpb3VzLnRhcmdldC50cmltKCkgIT09IG1hcHBpbmcudGFyZ2V0LnRyaW0oKSB8fAogICAgICAhYmFzaWNBdXRoTWF0Y2hlcyhwcmV2aW91cy5iYXNpY19hdXRoLCBtYXBwaW5nLmJhc2ljX2F1dGgpCiAgICApOwogIH0pOwp9Owo=
+import type { HostMapping } from "../types";
+import { isProxyHostMapping } from "../lib/host-mapping-target";
+
+const normalizeComparableBasicAuth = (
+  value: HostMapping["basic_auth"],
+): HostMapping["basic_auth"] => {
+  const username = value.username.trim();
+  const password = value.password;
+  if (
+    value.enabled !== true ||
+    !username ||
+    !password ||
+    username.includes(":")
+  ) {
+    return {
+      enabled: false,
+      username: "",
+      password: "",
+    };
+  }
+
+  return {
+    enabled: true,
+    username,
+    password,
+  };
+};
+
+const hasUsableBasicAuth = (value: HostMapping["basic_auth"]): boolean =>
+  normalizeComparableBasicAuth(value).enabled;
+
+const basicAuthMatches = (
+  left: HostMapping["basic_auth"],
+  right: HostMapping["basic_auth"],
+): boolean => {
+  const normalizedLeft = normalizeComparableBasicAuth(left);
+  const normalizedRight = normalizeComparableBasicAuth(right);
+  return (
+    normalizedLeft.enabled === normalizedRight.enabled &&
+    normalizedLeft.username === normalizedRight.username &&
+    normalizedLeft.password === normalizedRight.password
+  );
+};
+
+const hostKey = (value: string): string => value.trim().toLowerCase();
+
+export const hasPendingHostMappingMetadata = (
+  mappings: HostMapping[],
+  previousMappings: HostMapping[] | null = null,
+): boolean => {
+  const previousByHost = previousMappings
+    ? new Map(
+        previousMappings.map((mapping) => [hostKey(mapping.host), mapping]),
+      )
+    : null;
+
+  return mappings.some((mapping) => {
+    if (!isProxyHostMapping(mapping)) return false;
+    if (!mapping.target.trim()) return false;
+    if (!mapping.title.trim() || !mapping.favicon.trim()) return true;
+    if (!previousByHost || !hasUsableBasicAuth(mapping.basic_auth)) {
+      return false;
+    }
+
+    const previous = previousByHost.get(hostKey(mapping.host));
+    return (
+      !previous ||
+      !isProxyHostMapping(previous) ||
+      previous.target.trim() !== mapping.target.trim() ||
+      !basicAuthMatches(previous.basic_auth, mapping.basic_auth)
+    );
+  });
+};

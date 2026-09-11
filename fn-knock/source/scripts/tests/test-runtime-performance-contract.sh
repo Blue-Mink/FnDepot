@@ -1,1 +1,82 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiClBBQ0tBR0VfTUFOSUZFU1Q9IiR7Uk9PVF9ESVJ9L3BhY2thZ2UuanNvbiIKSEFSTkVTUz0iJHtST09UX0RJUn0vc2NyaXB0cy9ydW50aW1lLXRlc3QtaGFybmVzcy5tanMiCk1FQVNVUkU9IiR7Uk9PVF9ESVJ9L3NjcmlwdHMvcnVudGltZS1wZXJmb3JtYW5jZS5tanMiCkNPTVBBUkU9IiR7Uk9PVF9ESVJ9L3NjcmlwdHMvY2hlY2stcnVudGltZS1wZXJmb3JtYW5jZS5tanMiCldPUktGTE9XPSIke1JPT1RfRElSfS8uZ2l0aHViL3dvcmtmbG93cy9jaS55bWwiCgpmYWlsKCkgewogIHByaW50ZiAnW3Rlc3QtcnVudGltZS1wZXJmb3JtYW5jZS1jb250cmFjdF0gRVJST1I6ICVzXG4nICIkKiIgPiYyCiAgZXhpdCAxCn0KCmFzc2VydF9jb250YWlucygpIHsKICBsb2NhbCBmaWxlPSIkMSIgZXhwZWN0ZWQ9IiQyIiBsYWJlbD0iJDMiCiAgZ3JlcCAtRnEgLS0gIiR7ZXhwZWN0ZWR9IiAiJHtmaWxlfSIgfHwgZmFpbCAiJHtsYWJlbH06ICR7ZmlsZX0gaXMgbWlzc2luZyAke2V4cGVjdGVkfSIKfQoKYXNzZXJ0X25vdF9jb250YWlucygpIHsKICBsb2NhbCBmaWxlPSIkMSIgdW5leHBlY3RlZD0iJDIiIGxhYmVsPSIkMyIKICBpZiBncmVwIC1GcSAtLSAiJHt1bmV4cGVjdGVkfSIgIiR7ZmlsZX0iOyB0aGVuCiAgICBmYWlsICIke2xhYmVsfTogJHtmaWxlfSB1bmV4cGVjdGVkbHkgY29udGFpbnMgJHt1bmV4cGVjdGVkfSIKICBmaQp9Cgpmb3IgZmlsZSBpbiAiJHtIQVJORVNTfSIgIiR7TUVBU1VSRX0iICIke0NPTVBBUkV9IiAiJHtXT1JLRkxPV30iOyBkbwogIFsgLWYgIiR7ZmlsZX0iIF0gfHwgZmFpbCAibWlzc2luZyBydW50aW1lIHBlcmZvcm1hbmNlIGNvbnRyYWN0IGZpbGU6ICR7ZmlsZX0iCmRvbmUKCm5vZGUgLWUgJwogIGNvbnN0IG1hbmlmZXN0ID0gcmVxdWlyZShwcm9jZXNzLmFyZ3ZbMV0pOwogIGlmIChtYW5pZmVzdC5zY3JpcHRzWyJydW50aW1lOm1lYXN1cmUiXSAhPT0gIm5vZGUgLi9zY3JpcHRzL3J1bnRpbWUtcGVyZm9ybWFuY2UubWpzIikgcHJvY2Vzcy5leGl0KDEpOwogIGlmIChtYW5pZmVzdC5zY3JpcHRzWyJydW50aW1lOm1lYXN1cmU6Y2hlY2siXSAhPT0gIm5vZGUgLi9zY3JpcHRzL2NoZWNrLXJ1bnRpbWUtcGVyZm9ybWFuY2UubWpzIikgcHJvY2Vzcy5leGl0KDEpOwonICIke1BBQ0tBR0VfTUFOSUZFU1R9IiB8fCBmYWlsICdydW50aW1lIG1lYXN1cmVtZW50IGNvbW1hbmRzIGFyZSBtaXNzaW5nIGZyb20gcGFja2FnZSBzY3JpcHRzJwoKYXNzZXJ0X2NvbnRhaW5zICIke0hBUk5FU1N9IiAnY29uc3QgZ2F0ZXdheU1ldHJpY1RpbWVvdXRNcyA9IDdfMDAwJyAnYm91bmRlZCBnYXRld2F5IFJTUyB3YWl0Jwphc3NlcnRfY29udGFpbnMgIiR7SEFSTkVTU30iICdjb25zdCByZWFkaW5lc3NNcyA9IE1hdGgucm91bmQocGVyZm9ybWFuY2Uubm93KCkgLSBzdGFydGVkQXQpJyAncmVhZGluZXNzIG1lYXN1cmVkIGJlZm9yZSBSU1Mgc3RhYmlsaXphdGlvbicKYXNzZXJ0X2NvbnRhaW5zICIke0hBUk5FU1N9IiAnZ2F0ZXdheV9yc3NfYnl0ZXM6IGdhdGV3YXlSU1MnICdHbyBnYXRld2F5IFJTUyBjb2xsZWN0aW9uJwphc3NlcnRfY29udGFpbnMgIiR7SEFSTkVTU30iICdjb2xsZWN0TWV0cmljcyA9ICFwcm90ZWN0ZWRBZG1pbicgJ3Byb3RlY3RlZCBydW50aW1lIG1ldHJpYyBpc29sYXRpb24nCmFzc2VydF9jb250YWlucyAiJHtNRUFTVVJFfSIgJ0ZOX0tOT0NLX1JVTlRJTUVfUEVSRl9SVU5TJyAncmVwZWF0YWJsZSBzYW1wbGUgY291bnQnCmFzc2VydF9jb250YWlucyAiJHtNRUFTVVJFfSIgJ3NjaGVtYV92ZXJzaW9uOiAyJyAnc2l4LWNoZWNrcG9pbnQgbWVhc3VyZW1lbnQgc2NoZW1hJwphc3NlcnRfY29udGFpbnMgIiR7TUVBU1VSRX0iICdwb3N0X2xvYWRfMzBzJyAncG9zdC1sb2FkIHJldGVudGlvbiBjaGVja3BvaW50Jwphc3NlcnRfY29udGFpbnMgIiR7TUVBU1VSRX0iICdwb3N0X3JlY2xhaW0nICdleHBsaWNpdCByZWNsYWltIGNoZWNrcG9pbnQnCmFzc2VydF9jb250YWlucyAiJHtNRUFTVVJFfSIgJ0Jyb3RsaSBIRUFEIHJlc3BvbnNlIGZhaWxlZCB0aGUgc3RhdGljIGFzc2V0IGNvbnRyYWN0JyAnc3RhdGljIGNvbXByZXNzaW9uIGFuZCBIRUFEIGFjY2VwdGFuY2UnCmFzc2VydF9jb250YWlucyAiJHtNRUFTVVJFfSIgJ3N0YXRpYyBjb21wcmVzc2lvbiBkaWQgbm90IGhvbm9yIEFjY2VwdC1FbmNvZGluZyBxdWFsaXR5JyAnd2VpZ2h0ZWQgc3RhdGljIGNvbXByZXNzaW9uIGFjY2VwdGFuY2UnCmFzc2VydF9jb250YWlucyAiJHtNRUFTVVJFfSIgJ3N0YXRpYyBhc3NldCBJZi1Ob25lLU1hdGNoIGRpZCBub3QgcmV0dXJuIGFuIGVtcHR5IDMwNCcgJ3N0YXRpYyBFVGFnIGFjY2VwdGFuY2UnCmFzc2VydF9jb250YWlucyAiJHtNRUFTVVJFfSIgJ2FkbWluIFNQQSBmYWxsYmFjayBhY2NlcHRlZCBhIG5vbi1yZWFkIG1ldGhvZCcgJ3N0YXRpYyBtZXRob2QgYm91bmRhcnkgYWNjZXB0YW5jZScKYXNzZXJ0X2NvbnRhaW5zICIke01FQVNVUkV9IiAnZXhhY3QgQVBJIHJvb3QgZXNjYXBlZCB0aGUgSlNPTiBub3QtZm91bmQgYm91bmRhcnknICdleGFjdCBBUEkgYm91bmRhcnkgYWNjZXB0YW5jZScKYXNzZXJ0X2NvbnRhaW5zICIke01FQVNVUkV9IiAnYXV0aCBpbmRleCBkaWQgbm90IHNldCB0aGUgY29uZmlndXJlZCBsb2NhbGUgY29va2llJyAnbG9jYWxlIGNvb2tpZSBhY2NlcHRhbmNlJwphc3NlcnRfY29udGFpbnMgIiR7Q09NUEFSRX0iICcwLjEnICdkZWZhdWx0IHJlYWRpbmVzcyByZWdyZXNzaW9uIHRvbGVyYW5jZScKYXNzZXJ0X2NvbnRhaW5zICIke0NPTVBBUkV9IiAnMC4wNScgJ2RlZmF1bHQgUlNTIHJlZ3Jlc3Npb24gdG9sZXJhbmNlJwphc3NlcnRfY29udGFpbnMgIiR7V09SS0ZMT1d9IiAnTWVhc3VyZSBydW50aW1lIHJlYWRpbmVzcyBhbmQgaWRsZSBSU1MnICdzY2hlZHVsZWQgcnVudGltZSBwZXJmb3JtYW5jZSBtZWFzdXJlbWVudCcKYXNzZXJ0X2NvbnRhaW5zICIke1dPUktGTE9XfSIgJ0ZOX0tOT0NLX1JVTlRJTUVfUEVSRl9SVU5TOiAiNSInICdzY2hlZHVsZWQgc2FtcGxlIGNvdW50Jwphc3NlcnRfY29udGFpbnMgIiR7V09SS0ZMT1d9IiAnbnBtIHJ1biAtLXNpbGVudCBydW50aW1lOm1lYXN1cmUgfCB0ZWUnICdtYWNoaW5lLXJlYWRhYmxlIHNjaGVkdWxlZCBzYW1wbGUnCmFzc2VydF9jb250YWlucyAiJHtXT1JLRkxPV30iICdydW50aW1lLXBlcmZvcm1hbmNlLSR7eyBnaXRodWIucnVuX2lkIH19JyAncnVudGltZSBwZXJmb3JtYW5jZSBhcnRpZmFjdCcKYXNzZXJ0X2NvbnRhaW5zICIke1dPUktGTE9XfSIgJ3J1bnRpbWUtcGVyZm9ybWFuY2U6JyAnUFIgcnVudGltZSBwZXJmb3JtYW5jZSBqb2InCmFzc2VydF9jb250YWlucyAiJHtXT1JLRkxPV30iICJnaXRodWIuZXZlbnQucHVsbF9yZXF1ZXN0LmJhc2Uuc2hhIiAnUFIgYmFzZSByZXZpc2lvbicKYXNzZXJ0X2NvbnRhaW5zICIke1dPUktGTE9XfSIgJ2dpdCB3b3JrdHJlZSBhZGQgLS1kZXRhY2gnICdiYXNlIHNvdXJjZSB3b3JrdHJlZScKYXNzZXJ0X2NvbnRhaW5zICIke1dPUktGTE9XfSIgJ0dvLVJlYXV0aC1Qcm94eSB3b3JrdHJlZSBhZGQgLS1kZXRhY2gnICdiYXNlIGdhdGV3YXkgd29ya3RyZWUnCmFzc2VydF9jb250YWlucyAiJHtXT1JLRkxPV30iICdiYXNlX2dhdGV3YXlfY29tbWl0PSIkKGdpdCAtQyBHby1SZWF1dGgtUHJveHkgcmV2LXBhcnNlIEhFQUQpIicgJ2N1cnJlbnQgZ2F0ZXdheSBiYXNlbGluZScKYXNzZXJ0X2NvbnRhaW5zICIke1dPUktGTE9XfSIgJ3NoYT0iJChnaXQgLUMgR28tUmVhdXRoLVByb3h5IHJldi1wYXJzZSBIRUFEKSInICdhY3R1YWwgZ2F0ZXdheSBjb21taXQgbWV0YWRhdGEnCmFzc2VydF9ub3RfY29udGFpbnMgIiR7V09SS0ZMT1d9IiAnZ2F0ZXdheUNvbW1pdCcgJ2hpc3RvcmljYWwgZ2F0ZXdheSBjb21taXQgbXVzdCBub3QgY29udHJvbCBDSSBjaGVja291dCcKYXNzZXJ0X25vdF9jb250YWlucyAiJHtIQVJORVNTfSIgJ2dhdGV3YXlDb21taXQnICdoaXN0b3JpY2FsIGdhdGV3YXkgY29tbWl0IG11c3Qgbm90IGNvbnRyb2wgcnVudGltZSB0ZXN0cycKYXNzZXJ0X2NvbnRhaW5zICIke1dPUktGTE9XfSIgJ0ZOX0tOT0NLX1JVTlRJTUVfUEVSRl9FWEVSQ0lTRV9NRU1PUllfQ09ORklHPSIwIicgJ2xlZ2FjeSBiYXNlbGluZSBtZW1vcnkgQVBJIGNvbXBhdGliaWxpdHknCmFzc2VydF9jb250YWlucyAiJHtXT1JLRkxPV30iICdiYXNlX21hbmlmZXN0PSIke3sgc3RlcHMuYmFzZWxpbmUub3V0cHV0cy5yb290IH19L2FwcHMvc2VydmVyLWFkbWluLXJzL0NhcmdvLnRvbWwiJyAnYmFzZSBSdXN0IG1hbmlmZXN0IHBhdGgnCmFzc2VydF9jb250YWlucyAiJHtXT1JLRkxPV30iICdiYXNlX3Byb2ZpbGU9InJ1bnRpbWUtdGVzdCInICdtYXRjaGluZyBiYXNlIHJ1bnRpbWUgcHJvZmlsZScKYXNzZXJ0X2NvbnRhaW5zICIke1dPUktGTE9XfSIgJ2Jhc2VfcHJvZmlsZT0icmVsZWFzZSInICdsZWdhY3kgYmFzZSBwcm9maWxlIGZhbGxiYWNrJwphc3NlcnRfY29udGFpbnMgIiR7V09SS0ZMT1d9IiAnQ0FSR09fUFJPRklMRV9SRUxFQVNFX0xUTz0idGhpbiInICdlcXVpdmFsZW50IGxlZ2FjeSBiYXNlIExUTycKYXNzZXJ0X2NvbnRhaW5zICIke1dPUktGTE9XfSIgJ2luc3RhbGwgLW0gMDc1NSAiJHtiYXNlX3RhcmdldH0vJHtiYXNlX3Byb2ZpbGV9L3NlcnZlci1hZG1pbi1ycyInICdzdGFibGUgYmFzZSBSdXN0IGJpbmFyeSBwYXRoJwphc3NlcnRfY29udGFpbnMgIiR7V09SS0ZMT1d9IiAnQ0FSR09fVEFSR0VUX0RJUj0iJHtiYXNlX3RhcmdldH0iIGNhcmdvIGJ1aWxkIC0tbG9ja2VkJyAnaXNvbGF0ZWQgYmFzZSBSdXN0IHRhcmdldCcKYXNzZXJ0X2NvbnRhaW5zICIke1dPUktGTE9XfSIgJy0tbWF4LXJlYWRpbmVzcy1yZWdyZXNzaW9uIDAuMTAgLS1tYXgtcnNzLXJlZ3Jlc3Npb24gMC4wNScgJ1BSIHBlcmZvcm1hbmNlIHRvbGVyYW5jZXMnCmFzc2VydF9jb250YWlucyAiJHtXT1JLRkxPV30iICctLW1lbW9yeT01MTJtIC0tbWVtb3J5LXN3YXA9NTEybScgJzUxMiBNaUIgY2dyb3VwIGFjY2VwdGFuY2UnCmFzc2VydF9jb250YWlucyAiJHtXT1JLRkxPV30iICdnYXRld2F5X21lbW9yeV9saW1pdF9ieXRlcyA9PSAxMzQyMTc3MjgnICc1MTIgTWlCIGF1dG8gbWVtb3J5IGxpbWl0IGFzc2VydGlvbicKYXNzZXJ0X2NvbnRhaW5zICIke1dPUktGTE9XfSIgJ0ZOX0tOT0NLX1JVTlRJTUVfUEVSRl9SRUpFQ1RfTUVNT1JZX0xJTUlUX01JQj0yNTcnICc1MTIgTWlCIG1hbnVhbCBsaW1pdCByZWplY3Rpb24nCmFzc2VydF9jb250YWlucyAiJHtXT1JLRkxPV30iICcvYXJ0aWZhY3RzL2dvLXN0cmVhbS10ZXN0cyAtdGVzdC52JyAnNTEyIE1pQiBVRFAgYW5kIHN0cmVhbSB0ZXN0IHN1aXRlJwphc3NlcnRfY29udGFpbnMgIiR7V09SS0ZMT1d9IiAncnVudGltZS1wZXJmb3JtYW5jZS1wci0ke3sgZ2l0aHViLmV2ZW50LnB1bGxfcmVxdWVzdC5udW1iZXIgfX0nICdQUiBjb21wYXJpc29uIGFydGlmYWN0JwoKbm9kZSAtLXRlc3QgIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvdGVzdHMvcnVudGltZS1wZXJmb3JtYW5jZS50ZXN0Lm1qcyIgIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvdGVzdHMvcnVudGltZS1wcm9jZXNzLW1lbW9yeS50ZXN0Lm1qcyIgIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvdGVzdHMvcnVudGltZS10ZXN0LWhhcm5lc3MudGVzdC5tanMiICIke1JPT1RfRElSfS9zY3JpcHRzL3Rlc3RzL3J1bnRpbWUtbG9hZC50ZXN0Lm1qcyIKCnByaW50ZiAnW3Rlc3QtcnVudGltZS1wZXJmb3JtYW5jZS1jb250cmFjdF0gcnVudGltZSByZWFkaW5lc3MgYW5kIFJTUyBtZWFzdXJlbWVudCBjb250cmFjdCBwYXNzZWRcbicK
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+PACKAGE_MANIFEST="${ROOT_DIR}/package.json"
+HARNESS="${ROOT_DIR}/scripts/runtime-test-harness.mjs"
+MEASURE="${ROOT_DIR}/scripts/runtime-performance.mjs"
+COMPARE="${ROOT_DIR}/scripts/check-runtime-performance.mjs"
+WORKFLOW="${ROOT_DIR}/.github/workflows/ci.yml"
+
+fail() {
+  printf '[test-runtime-performance-contract] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+assert_contains() {
+  local file="$1" expected="$2" label="$3"
+  grep -Fq -- "${expected}" "${file}" || fail "${label}: ${file} is missing ${expected}"
+}
+
+assert_not_contains() {
+  local file="$1" unexpected="$2" label="$3"
+  if grep -Fq -- "${unexpected}" "${file}"; then
+    fail "${label}: ${file} unexpectedly contains ${unexpected}"
+  fi
+}
+
+for file in "${HARNESS}" "${MEASURE}" "${COMPARE}" "${WORKFLOW}"; do
+  [ -f "${file}" ] || fail "missing runtime performance contract file: ${file}"
+done
+
+node -e '
+  const manifest = require(process.argv[1]);
+  if (manifest.scripts["runtime:measure"] !== "node ./scripts/runtime-performance.mjs") process.exit(1);
+  if (manifest.scripts["runtime:measure:check"] !== "node ./scripts/check-runtime-performance.mjs") process.exit(1);
+' "${PACKAGE_MANIFEST}" || fail 'runtime measurement commands are missing from package scripts'
+
+assert_contains "${HARNESS}" 'const gatewayMetricTimeoutMs = 7_000' 'bounded gateway RSS wait'
+assert_contains "${HARNESS}" 'const readinessMs = Math.round(performance.now() - startedAt)' 'readiness measured before RSS stabilization'
+assert_contains "${HARNESS}" 'gateway_rss_bytes: gatewayRSS' 'Go gateway RSS collection'
+assert_contains "${HARNESS}" 'collectMetrics = !protectedAdmin' 'protected runtime metric isolation'
+assert_contains "${MEASURE}" 'FN_KNOCK_RUNTIME_PERF_RUNS' 'repeatable sample count'
+assert_contains "${MEASURE}" 'schema_version: 2' 'six-checkpoint measurement schema'
+assert_contains "${MEASURE}" 'post_load_30s' 'post-load retention checkpoint'
+assert_contains "${MEASURE}" 'post_reclaim' 'explicit reclaim checkpoint'
+assert_contains "${MEASURE}" 'Brotli HEAD response failed the static asset contract' 'static compression and HEAD acceptance'
+assert_contains "${MEASURE}" 'static compression did not honor Accept-Encoding quality' 'weighted static compression acceptance'
+assert_contains "${MEASURE}" 'static asset If-None-Match did not return an empty 304' 'static ETag acceptance'
+assert_contains "${MEASURE}" 'admin SPA fallback accepted a non-read method' 'static method boundary acceptance'
+assert_contains "${MEASURE}" 'exact API root escaped the JSON not-found boundary' 'exact API boundary acceptance'
+assert_contains "${MEASURE}" 'auth index did not set the configured locale cookie' 'locale cookie acceptance'
+assert_contains "${COMPARE}" '0.1' 'default readiness regression tolerance'
+assert_contains "${COMPARE}" '0.05' 'default RSS regression tolerance'
+assert_contains "${WORKFLOW}" 'Measure runtime readiness and idle RSS' 'scheduled runtime performance measurement'
+assert_contains "${WORKFLOW}" 'FN_KNOCK_RUNTIME_PERF_RUNS: "5"' 'scheduled sample count'
+assert_contains "${WORKFLOW}" 'npm run --silent runtime:measure | tee' 'machine-readable scheduled sample'
+assert_contains "${WORKFLOW}" 'runtime-performance-${{ github.run_id }}' 'runtime performance artifact'
+assert_contains "${WORKFLOW}" 'runtime-performance:' 'PR runtime performance job'
+assert_contains "${WORKFLOW}" "github.event.pull_request.base.sha" 'PR base revision'
+assert_contains "${WORKFLOW}" 'git worktree add --detach' 'base source worktree'
+assert_contains "${WORKFLOW}" 'Go-Reauth-Proxy worktree add --detach' 'base gateway worktree'
+assert_contains "${WORKFLOW}" 'base_gateway_commit="$(git -C Go-Reauth-Proxy rev-parse HEAD)"' 'current gateway baseline'
+assert_contains "${WORKFLOW}" 'sha="$(git -C Go-Reauth-Proxy rev-parse HEAD)"' 'actual gateway commit metadata'
+assert_not_contains "${WORKFLOW}" 'gatewayCommit' 'historical gateway commit must not control CI checkout'
+assert_not_contains "${HARNESS}" 'gatewayCommit' 'historical gateway commit must not control runtime tests'
+assert_contains "${WORKFLOW}" 'FN_KNOCK_RUNTIME_PERF_EXERCISE_MEMORY_CONFIG="0"' 'legacy baseline memory API compatibility'
+assert_contains "${WORKFLOW}" 'base_manifest="${{ steps.baseline.outputs.root }}/apps/server-admin-rs/Cargo.toml"' 'base Rust manifest path'
+assert_contains "${WORKFLOW}" 'base_profile="runtime-test"' 'matching base runtime profile'
+assert_contains "${WORKFLOW}" 'base_profile="release"' 'legacy base profile fallback'
+assert_contains "${WORKFLOW}" 'CARGO_PROFILE_RELEASE_LTO="thin"' 'equivalent legacy base LTO'
+assert_contains "${WORKFLOW}" 'install -m 0755 "${base_target}/${base_profile}/server-admin-rs"' 'stable base Rust binary path'
+assert_contains "${WORKFLOW}" 'CARGO_TARGET_DIR="${base_target}" cargo build --locked' 'isolated base Rust target'
+assert_contains "${WORKFLOW}" '--max-readiness-regression 0.10 --max-rss-regression 0.05' 'PR performance tolerances'
+assert_contains "${WORKFLOW}" '--memory=512m --memory-swap=512m' '512 MiB cgroup acceptance'
+assert_contains "${WORKFLOW}" 'gateway_memory_limit_bytes == 134217728' '512 MiB auto memory limit assertion'
+assert_contains "${WORKFLOW}" 'FN_KNOCK_RUNTIME_PERF_REJECT_MEMORY_LIMIT_MIB=257' '512 MiB manual limit rejection'
+assert_contains "${WORKFLOW}" '/artifacts/go-stream-tests -test.v' '512 MiB UDP and stream test suite'
+assert_contains "${WORKFLOW}" 'runtime-performance-pr-${{ github.event.pull_request.number }}' 'PR comparison artifact'
+
+node --test "${ROOT_DIR}/scripts/tests/runtime-performance.test.mjs" "${ROOT_DIR}/scripts/tests/runtime-process-memory.test.mjs" "${ROOT_DIR}/scripts/tests/runtime-test-harness.test.mjs" "${ROOT_DIR}/scripts/tests/runtime-load.test.mjs"
+
+printf '[test-runtime-performance-contract] runtime readiness and RSS measurement contract passed\n'

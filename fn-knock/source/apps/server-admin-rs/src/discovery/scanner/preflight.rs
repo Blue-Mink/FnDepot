@@ -1,1 +1,605 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGNyYXRlKSBmbiBpc19yZXF1ZXN0X2V4ZW1wdF9mcm9tX3NjYW4oaGVhZGVyczogJkhlYWRlck1hcCwgdXJpOiAmVXJpLCBjb25maWc6ICZWYWx1ZSkgLT4gYm9vbCB7CiAgICBsZXQgZm9yd2FyZGVkX3BhdGggPSByZXNvbHZlX2ZvcndhcmRlZF9wYXRoKGhlYWRlcnMsIHVyaSk7CiAgICBpZiBjb25maWcKICAgICAgICAuZ2V0KCJmbm9zX3NoYXJlX2J5cGFzcyIpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuZ2V0KCJlbmFibGVkIikpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgID09IFNvbWUodHJ1ZSkKICAgICAgICAmJiBpc19mbm9zX3NoYXJlX3BhdGgoJmZvcndhcmRlZF9wYXRoKQogICAgewogICAgICAgIHJldHVybiB0cnVlOwogICAgfQoKICAgIGlmIGlzX2FueV9zdWJkb21haW5fcm91dGluZ19tb2RlKGNvbmZpZykgewogICAgICAgIGxldCBtYXRjaGVkID0gZmluZF9tYXRjaGluZ19ob3N0X21hcHBpbmcoCiAgICAgICAgICAgICZyZXNvbHZlX2ZvcndhcmRlZF9ob3N0KGhlYWRlcnMsIHVyaSksCiAgICAgICAgICAgIGNvbmZpZwogICAgICAgICAgICAgICAgLmdldCgiaG9zdF9tYXBwaW5ncyIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgICAgICAgICAgLm1hcChWZWM6OmFzX3NsaWNlKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcigmW10pLAogICAgICAgICk7CiAgICAgICAgcmV0dXJuIGlzX3B1YmxpY19ob3N0X21hcHBpbmcobWF0Y2hlZCwgJmZvcndhcmRlZF9wYXRoKTsKICAgIH0KCiAgICBsZXQgcHJveHlfbWFwcGluZ3MgPSBjb25maWcKICAgICAgICAuZ2V0KCJwcm94eV9tYXBwaW5ncyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAubWFwKFZlYzo6YXNfc2xpY2UpCiAgICAgICAgLnVud3JhcF9vcigmW10pOwogICAgaWYgbGV0IFNvbWUobWFwcGluZykgPSBmaW5kX2Jlc3RfbWF0Y2hpbmdfcHJveHlfbWFwcGluZygmZm9yd2FyZGVkX3BhdGgsIHByb3h5X21hcHBpbmdzKSB7CiAgICAgICAgcmV0dXJuICFtYXBwaW5nCiAgICAgICAgICAgIC5nZXQoInVzZV9hdXRoIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgICAgICAudW53cmFwX29yKHRydWUpOwogICAgfQoKICAgIHJlc29sdmVfZGVmYXVsdF9wcm94eV9tYXBwaW5nKGNvbmZpZywgcHJveHlfbWFwcGluZ3MpCiAgICAgICAgLmFuZF90aGVuKHxtYXBwaW5nfCBtYXBwaW5nLmdldCgidXNlX2F1dGgiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkpCiAgICAgICAgPT0gU29tZShmYWxzZSkKfQoKcHViKGNyYXRlKSBhc3luYyBmbiBsb2FkX3ByZWZsaWdodF9wb2xpY3koCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaXA6ICZzdHIsCikgLT4gYW55aG93OjpSZXN1bHQ8U2Nhbm5lclByZWZsaWdodFBvbGljeT4gewogICAgbGV0IChzZXR0aW5ncywgcGF0aF93aGl0ZWxpc3QpID0gc2V0dGluZ3M6OmxvYWRfc2Nhbm5lcl9wcmVmbGlnaHRfaW5wdXRzKHN0YXRlKS5hd2FpdD87CiAgICBsZXQgY2xpZW50X2lwID0gbm9ybWFsaXplX3NjYW5uZXJfaXAoaXApOwogICAgbGV0IGlwX2V4ZW1wdCA9IGNsaWVudF9pcC5pc19lbXB0eSgpCiAgICAgICAgfHwgaXNfc2Nhbm5lcl9sb2NhbF9hZGRyZXNzKCZjbGllbnRfaXApCiAgICAgICAgfHwgIXNldHRpbmdzLmVuYWJsZWQKICAgICAgICB8fCBpc19zY2FubmVyX2V4ZW1wdF9pcChzdGF0ZSwgJmNsaWVudF9pcCwgJnNldHRpbmdzKS5hd2FpdD87CiAgICBPayhTY2FubmVyUHJlZmxpZ2h0UG9saWN5IHsKICAgICAgICBzZXR0aW5ncywKICAgICAgICBwYXRoX3doaXRlbGlzdCwKICAgICAgICBjbGllbnRfaXAsCiAgICAgICAgaXBfZXhlbXB0LAogICAgfSkKfQoKcHViKGNyYXRlKSBhc3luYyBmbiBpc19ibGFja2xpc3RlZF9mb3JfcHJlZmxpZ2h0KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHBvbGljeTogJlNjYW5uZXJQcmVmbGlnaHRQb2xpY3ksCikgLT4gYW55aG93OjpSZXN1bHQ8Ym9vbD4gewogICAgaWYgcG9saWN5LmlwX2V4ZW1wdCB7CiAgICAgICAgcmV0dXJuIE9rKGZhbHNlKTsKICAgIH0KCiAgICBPayhzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNjYW5uZXJfYmxhY2tsaXN0X2V4aXN0cygmcG9saWN5LmNsaWVudF9pcCkKICAgICAgICAuYXdhaXQ/KQp9CgpwdWIoY3JhdGUpIGZuIGlzX2NvbW1vbl9wYXRoX2Zvcl9wcmVmbGlnaHQoCiAgICBwYXRoOiAmc3RyLAogICAgY29uZmlnOiAmVmFsdWUsCiAgICBwb2xpY3k6ICZTY2FubmVyUHJlZmxpZ2h0UG9saWN5LAopIC0+IGJvb2wgewogICAgbGV0IGNsZWFuX3BhdGggPSBub3JtYWxpemVfc2Nhbm5lcl9wYXRoKHBhdGgpOwogICAgaWYgaXNfa25vd25fc3Vic29uaWNfcmVzdF9wYXRoKHBhdGgpIHsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KICAgIGlmIGNsZWFuX3BhdGggPT0gIi9fX2F1dGhfXyIgfHwgY2xlYW5fcGF0aC5zdGFydHNfd2l0aCgiL19fYXV0aF9fLyIpIHsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KICAgIGlmIGNsZWFuX3BhdGggPT0gIi9hcGkvYXV0aC9wYXNza2V5IiB8fCBjbGVhbl9wYXRoLnN0YXJ0c193aXRoKCIvYXBpL2F1dGgvcGFzc2tleS8iKSB7CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CiAgICBpZiBjbGVhbl9wYXRoID09ICIvd2Vic29ja2V0IiB7CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CiAgICBpZiBjbGVhbl9wYXRoID09ICIvYXBpL2FkbWluL3Rlcm1pbmFsIiB8fCBjbGVhbl9wYXRoLnN0YXJ0c193aXRoKCIvYXBpL2FkbWluL3Rlcm1pbmFsLyIpIHsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KICAgIGlmIGNsZWFuX3BhdGggPT0gIi9jZ2kvVGhpcmRQYXJ0eSIgfHwgY2xlYW5fcGF0aC5zdGFydHNfd2l0aCgiL2NnaS9UaGlyZFBhcnR5LyIpIHsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KICAgIGlmIGNsZWFuX3BhdGggPT0gIi9hc3NldHMiIHx8IGNsZWFuX3BhdGguc3RhcnRzX3dpdGgoIi9hc3NldHMvIikgewogICAgICAgIHJldHVybiB0cnVlOwogICAgfQogICAgaWYgY2xlYW5fcGF0aCA9PSAiL3MiIHx8IGNsZWFuX3BhdGguc3RhcnRzX3dpdGgoIi9zLyIpIHsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KCiAgICBpZiBwb2xpY3kucGF0aF93aGl0ZWxpc3QuY29udGFpbnMoJmNsZWFuX3BhdGgpIHsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KCiAgICBjb25maWcKICAgICAgICAuZ2V0KCJwcm94eV9tYXBwaW5ncyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAuZmxhdHRlbigpCiAgICAgICAgLmFueSh8bWFwcGluZ3wgewogICAgICAgICAgICBtYXBwaW5nCiAgICAgICAgICAgICAgICAuZ2V0KCJwYXRoIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHxtYXBwaW5nX3BhdGh8IGlzX2tub3duX3Byb3h5X3BhdGgoJmNsZWFuX3BhdGgsIG1hcHBpbmdfcGF0aCkpCiAgICAgICAgfSkKfQoKcHViKGNyYXRlKSBhc3luYyBmbiByZWNvcmRfdW5jb21tb25fcGF0aF9mb3JfcHJlZmxpZ2h0KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHBhdGg6ICZzdHIsCiAgICBwb2xpY3k6ICZTY2FubmVyUHJlZmxpZ2h0UG9saWN5LAopIC0+IGFueWhvdzo6UmVzdWx0PFNjYW5uZXJQcmVmbGlnaHRSZWNvcmRSZXN1bHQ+IHsKICAgIGxldCBzZXR0aW5ncyA9ICZwb2xpY3kuc2V0dGluZ3M7CiAgICBpZiBwb2xpY3kuaXBfZXhlbXB0IHsKICAgICAgICByZXR1cm4gT2soU2Nhbm5lclByZWZsaWdodFJlY29yZFJlc3VsdCB7CiAgICAgICAgICAgIGhpdF9jb3VudDogMCwKICAgICAgICAgICAgYmxvY2tlZDogZmFsc2UsCiAgICAgICAgfSk7CiAgICB9CgogICAgbGV0IGNsZWFuX2lwID0gJnBvbGljeS5jbGllbnRfaXA7CiAgICBsZXQgbm93ID0gdGltZV91dGlsczo6bm93X21zKCk7CiAgICBsZXQgY2xlYW5fcGF0aCA9IG5vcm1hbGl6ZV9zY2FubmVyX3BhdGgocGF0aCk7CiAgICBsZXQgaGl0ID0ganNvbiEoeyAicGF0aCI6IGNsZWFuX3BhdGgsICJjcmVhdGVkQXQiOiBub3cgfSk7CiAgICBsZXQgbWluX3Njb3JlID0gbm93IC0gc2V0dGluZ3Mud2luZG93X3NlY29uZHMgKiAxMDAwOwogICAgbGV0IHdpbmRvd19taW5fc2NvcmUgPSBub3cgLSBzZXR0aW5ncy53aW5kb3dfbWludXRlcyAqIDYwICogMTAwMDsKICAgIGxldCBoaXRfY291bnQgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnJlY29yZF9zY2FubmVyX3N1c3BpY2lvdXNfaGl0KAogICAgICAgICAgICBjbGVhbl9pcCwKICAgICAgICAgICAgJmhpdCwKICAgICAgICAgICAgbm93LAogICAgICAgICAgICBtaW5fc2NvcmUsCiAgICAgICAgICAgIHdpbmRvd19taW5fc2NvcmUsCiAgICAgICAgICAgIHNldHRpbmdzLndpbmRvd19zZWNvbmRzICsgNjAsCiAgICAgICAgKQogICAgICAgIC5hd2FpdD87CgogICAgaWYgaGl0X2NvdW50ID49IHNldHRpbmdzLnRocmVzaG9sZAogICAgICAgICYmICFzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnNjYW5uZXJfYmxhY2tsaXN0X2V4aXN0cyhjbGVhbl9pcCkKICAgICAgICAgICAgLmF3YWl0PwogICAgewogICAgICAgIGxldCBoaXRzID0gc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5zY2FubmVyX3N1c3BpY2lvdXNfaGl0c19zaW5jZShjbGVhbl9pcCwgd2luZG93X21pbl9zY29yZSkKICAgICAgICAgICAgLmF3YWl0PwogICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgLmZpbHRlcih8dmFsdWV8IHsKICAgICAgICAgICAgICAgIHZhbHVlLmdldCgicGF0aCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLmlzX3NvbWUoKQogICAgICAgICAgICAgICAgICAgICYmIHZhbHVlLmdldCgiY3JlYXRlZEF0IikuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkuaXNfc29tZSgpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgICAgIGxldCBpcF9sb2NhdGlvbiA9IHN0YXRlCiAgICAgICAgICAgIC5zdG9yYWdlCiAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAuZ2V0X2lwX2xvY2F0aW9uX2NhY2hlKGNsZWFuX2lwKQogICAgICAgICAgICAuYXdhaXQ/CiAgICAgICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHsKICAgICAgICAgICAgICAgIHZhbHVlCiAgICAgICAgICAgICAgICAgICAgLmdldCgicmF3IikKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAubWFwKFRvU3RyaW5nOjp0b19zdHJpbmcpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUudHJpbSgpLmlzX2VtcHR5KCkpOwogICAgICAgIGxldCBtdXQgcmVjb3JkID0ganNvbiEoewogICAgICAgICAgICAiaXAiOiBjbGVhbl9pcCwKICAgICAgICAgICAgImJsb2NrZWRBdCI6IG5vdywKICAgICAgICAgICAgIndpbmRvd01pbnV0ZXMiOiBzZXR0aW5ncy53aW5kb3dfbWludXRlcywKICAgICAgICAgICAgInRocmVzaG9sZCI6IHNldHRpbmdzLnRocmVzaG9sZCwKICAgICAgICAgICAgImhpdHMiOiBoaXRzLAogICAgICAgIH0pOwogICAgICAgIGlmIGxldCBTb21lKGxvY2F0aW9uKSA9IGlwX2xvY2F0aW9uLmNsb25lKCkKICAgICAgICAgICAgJiYgbGV0IFNvbWUob2JqZWN0KSA9IHJlY29yZC5hc19vYmplY3RfbXV0KCkKICAgICAgICB7CiAgICAgICAgICAgIG9iamVjdC5pbnNlcnQoImlwTG9jYXRpb24iLnRvX3N0cmluZygpLCBWYWx1ZTo6U3RyaW5nKGxvY2F0aW9uKSk7CiAgICAgICAgfQogICAgICAgIHN0YXRlCiAgICAgICAgICAgIC5zdG9yYWdlCiAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAuYWRkX3NjYW5uZXJfYmxhY2tsaXN0X3JlY29yZChjbGVhbl9pcCwgJnJlY29yZCwgbm93LCBzZXR0aW5ncy5ibGFja2xpc3RfdHRsX3NlY29uZHMpCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgbGV0IHJlZ2lzdGVyZWRfbG9jYXRpb24gPSBpcF9sb2NhdGlvbjo6cmVnaXN0ZXJfdXNhZ2UoCiAgICAgICAgICAgIHN0YXRlLAogICAgICAgICAgICBjbGVhbl9pcCwKICAgICAgICAgICAgdmVjIVtmb3JtYXQhKCJzY2FubmVyLWJsYWNrbGlzdHx7Y2xlYW5faXB9IildLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgICAgICBsZXQgZXZlbnRfaGl0cyA9IHJlY29yZAogICAgICAgICAgICAuZ2V0KCJoaXRzIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAgICAgLmNsb25lZCgpCiAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCiAgICAgICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgICAgICAuZmlsdGVyX21hcCh8aGl0fCB7CiAgICAgICAgICAgICAgICBsZXQgcGF0aCA9IGhpdC5nZXQoInBhdGgiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKT87CiAgICAgICAgICAgICAgICBsZXQgY3JlYXRlZF9hdCA9IGhpdC5nZXQoImNyZWF0ZWRBdCIpLmFuZF90aGVuKFZhbHVlOjphc19pNjQpPzsKICAgICAgICAgICAgICAgIFNvbWUoanNvbiEoewogICAgICAgICAgICAgICAgICAgICJwYXRoIjogcGF0aCwKICAgICAgICAgICAgICAgICAgICAiY3JlYXRlZF9hdCI6IHRpbWVfdXRpbHM6Omlzb19mcm9tX21zKGNyZWF0ZWRfYXQpLAogICAgICAgICAgICAgICAgfSkpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgICAgIGxldCBtdXQgcGF5bG9hZCA9IGpzb24hKHsKICAgICAgICAgICAgImlwIjogY2xlYW5faXAsCiAgICAgICAgICAgICJibG9ja2VkX2F0IjogdGltZV91dGlsczo6aXNvX2Zyb21fbXMobm93KSwKICAgICAgICAgICAgIndpbmRvd19taW51dGVzIjogc2V0dGluZ3Mud2luZG93X21pbnV0ZXMsCiAgICAgICAgICAgICJ0aHJlc2hvbGQiOiBzZXR0aW5ncy50aHJlc2hvbGQsCiAgICAgICAgICAgICJoaXRfY291bnQiOiBoaXRfY291bnQsCiAgICAgICAgICAgICJoaXRzIjogZXZlbnRfaGl0cywKICAgICAgICB9KTsKICAgICAgICBpZiBsZXQgU29tZShsb2NhdGlvbikgPSBpcF9sb2NhdGlvbgogICAgICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLnRyaW0oKS5pc19lbXB0eSgpKQogICAgICAgICAgICAub3JfZWxzZSh8fCAoIXJlZ2lzdGVyZWRfbG9jYXRpb24udHJpbSgpLmlzX2VtcHR5KCkpLnRoZW5fc29tZShyZWdpc3RlcmVkX2xvY2F0aW9uKSkKICAgICAgICAgICAgJiYgbGV0IFNvbWUob2JqZWN0KSA9IHBheWxvYWQuYXNfb2JqZWN0X211dCgpCiAgICAgICAgewogICAgICAgICAgICBvYmplY3QuaW5zZXJ0KCJpcF9sb2NhdGlvbiIudG9fc3RyaW5nKCksIFZhbHVlOjpTdHJpbmcobG9jYXRpb24pKTsKICAgICAgICB9CiAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPSBzeXN0ZW1fZXZlbnRzOjpwdWJsaXNoX3NjYW5uZXJfYmxvY2tlZF9ldmVudChzdGF0ZSwgcGF5bG9hZCkuYXdhaXQgewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICVjbGVhbl9pcCwgImZhaWxlZCB0byBwdWJsaXNoIHNjYW5uZXIgYmxvY2tlZCBldmVudCIpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gT2soU2Nhbm5lclByZWZsaWdodFJlY29yZFJlc3VsdCB7CiAgICAgICAgICAgIGhpdF9jb3VudCwKICAgICAgICAgICAgYmxvY2tlZDogdHJ1ZSwKICAgICAgICB9KTsKICAgIH0KCiAgICBPayhTY2FubmVyUHJlZmxpZ2h0UmVjb3JkUmVzdWx0IHsKICAgICAgICBoaXRfY291bnQsCiAgICAgICAgYmxvY2tlZDogZmFsc2UsCiAgICB9KQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGlzX3NjYW5uZXJfZXhlbXB0X2lwKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGlwOiAmc3RyLAogICAgc2V0dGluZ3M6ICZTY2FubmVyU2V0dGluZ3MsCikgLT4gYW55aG93OjpSZXN1bHQ8Ym9vbD4gewogICAgaWYgc2V0dGluZ3MuY29tbW9uX2xvY2F0aW9uX2V4ZW1wdF9lbmFibGVkCiAgICAgICAgJiYgY29tbW9uX2F1dGhfbG9jYXRpb25zOjppc19jb21tb25fYXV0aF9sb2NhdGlvbl9leGVtcHRfaXAoc3RhdGUsIGlwKS5hd2FpdD8KICAgIHsKICAgICAgICByZXR1cm4gT2sodHJ1ZSk7CiAgICB9CiAgICBPayhpc19zY2FubmVyX2NpZHJfZXhlbXB0X2lwKHN0YXRlLCBpcCkpCn0KCnB1YihzdXBlcikgZm4gaXNfc2Nhbm5lcl9jaWRyX2V4ZW1wdF9pcChzdGF0ZTogJkFwcFN0YXRlLCBpcDogJnN0cikgLT4gYm9vbCB7CiAgICBsZXQgbm9ybWFsaXplZCA9IGh0dHBfdXRpbHM6Om5vcm1hbGl6ZV9pcChpcCk7CiAgICBsZXQgT2soaXApID0gbm9ybWFsaXplZC5wYXJzZTo6PElwQWRkcj4oKSBlbHNlIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9OwogICAgc3RhdGUKICAgICAgICAuc2VjdXJpdHkKICAgICAgICAuaXBzZXRzCiAgICAgICAgLmdldChTQ0FOTkVSX0VYRU1QVF9JUFNFVF9LRVkpCiAgICAgICAgLmlzX3NvbWVfYW5kKHxwb2xpY3l8IHBvbGljeS5jb250YWlucyhpcCkpCn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX3NjYW5uZXJfaXAoaXA6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBpcC50cmltKCkudG9fc3RyaW5nKCkKfQoKcHViKHN1cGVyKSBmbiBpc19zY2FubmVyX2xvY2FsX2FkZHJlc3MoaXA6ICZzdHIpIC0+IGJvb2wgewogICAgbGV0IG11dCBjYW5kaWRhdGUgPSBpcC50cmltKCkudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBpZiBjYW5kaWRhdGUuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQoKICAgIGlmIGNhbmRpZGF0ZS5zdGFydHNfd2l0aCgnWycpCiAgICAgICAgJiYgbGV0IFNvbWUoZW5kKSA9IGNhbmRpZGF0ZS5maW5kKCddJykKICAgIHsKICAgICAgICBjYW5kaWRhdGUgPSBjYW5kaWRhdGVbMS4uZW5kXS50b19zdHJpbmcoKTsKICAgIH0KCiAgICBpZiBjYW5kaWRhdGUgPT0gImxvY2FsaG9zdCIgfHwgY2FuZGlkYXRlLnN0YXJ0c193aXRoKCJsb2NhbGhvc3Q6IikgewogICAgICAgIHJldHVybiB0cnVlOwogICAgfQogICAgaWYgY2FuZGlkYXRlID09ICI6OjEiIHx8IGNhbmRpZGF0ZSA9PSAiMDowOjA6MDowOjA6MDoxIiB7CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CiAgICBpZiBjYW5kaWRhdGUuc3RhcnRzX3dpdGgoImZjIikgfHwgY2FuZGlkYXRlLnN0YXJ0c193aXRoKCJmZCIpIHx8IGNhbmRpZGF0ZS5zdGFydHNfd2l0aCgiZmU4MDoiKQogICAgewogICAgICAgIHJldHVybiB0cnVlOwogICAgfQoKICAgIGlmIGxldCBTb21lKG1hcHBlZCkgPSBjYW5kaWRhdGUuc3RyaXBfcHJlZml4KCI6OmZmZmY6IikgewogICAgICAgIHJldHVybiBpc19wcml2YXRlX3NjYW5uZXJfaXB2NChtYXBwZWQpOwogICAgfQogICAgaXNfcHJpdmF0ZV9zY2FubmVyX2lwdjQoJmNhbmRpZGF0ZSkKfQoKcHViKHN1cGVyKSBmbiBpc19wcml2YXRlX3NjYW5uZXJfaXB2NChjYW5kaWRhdGU6ICZzdHIpIC0+IGJvb2wgewogICAgbGV0IChpcCwgcG9ydCkgPSBjYW5kaWRhdGUKICAgICAgICAuc3BsaXRfb25jZSgnOicpCiAgICAgICAgLm1hcF9vcigoY2FuZGlkYXRlLCBOb25lKSwgfChpcCwgcG9ydCl8IChpcCwgU29tZShwb3J0KSkpOwogICAgaWYgcG9ydC5pc19zb21lX2FuZCh8cG9ydHwgcG9ydC5pc19lbXB0eSgpIHx8IHBvcnQuY2hhcnMoKS5hbnkofGNofCAhY2guaXNfYXNjaWlfZGlnaXQoKSkpIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CiAgICBsZXQgb2N0ZXRzID0gaXAuc3BsaXQoJy4nKS5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgaWYgb2N0ZXRzLmxlbigpICE9IDQKICAgICAgICB8fCBvY3RldHMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAuYW55KHxvY3RldHwgb2N0ZXQuaXNfZW1wdHkoKSB8fCBvY3RldC5jaGFycygpLmFueSh8Y2h8ICFjaC5pc19hc2NpaV9kaWdpdCgpKSkKICAgIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CiAgICBvY3RldHNbMF0gPT0gIjEwIgogICAgICAgIHx8IG9jdGV0c1swXSA9PSAiMTI3IgogICAgICAgIHx8IChvY3RldHNbMF0gPT0gIjE5MiIgJiYgb2N0ZXRzWzFdID09ICIxNjgiKQogICAgICAgIHx8IChvY3RldHNbMF0gPT0gIjE3MiIKICAgICAgICAgICAgJiYgbWF0Y2hlcyEoCiAgICAgICAgICAgICAgICBvY3RldHNbMV0sCiAgICAgICAgICAgICAgICAiMTYiIHwgIjE3IgogICAgICAgICAgICAgICAgICAgIHwgIjE4IgogICAgICAgICAgICAgICAgICAgIHwgIjE5IgogICAgICAgICAgICAgICAgICAgIHwgIjIwIgogICAgICAgICAgICAgICAgICAgIHwgIjIxIgogICAgICAgICAgICAgICAgICAgIHwgIjIyIgogICAgICAgICAgICAgICAgICAgIHwgIjIzIgogICAgICAgICAgICAgICAgICAgIHwgIjI0IgogICAgICAgICAgICAgICAgICAgIHwgIjI1IgogICAgICAgICAgICAgICAgICAgIHwgIjI2IgogICAgICAgICAgICAgICAgICAgIHwgIjI3IgogICAgICAgICAgICAgICAgICAgIHwgIjI4IgogICAgICAgICAgICAgICAgICAgIHwgIjI5IgogICAgICAgICAgICAgICAgICAgIHwgIjMwIgogICAgICAgICAgICAgICAgICAgIHwgIjMxIgogICAgICAgICAgICApKQp9CgpwdWIoc3VwZXIpIGZuIHJlc29sdmVfZm9yd2FyZGVkX2hvc3QoaGVhZGVyczogJkhlYWRlck1hcCwgdXJpOiAmVXJpKSAtPiBTdHJpbmcgewogICAgaWYgbGV0IFNvbWUodmFsdWUpID0gZmlyc3RfaGVhZGVyX3ZhbHVlKGhlYWRlcnMsICJ4LWZvcndhcmRlZC1ob3N0IikgewogICAgICAgIHJldHVybiBub3JtYWxpemVfc2Nhbm5lcl9ob3N0KCZ2YWx1ZSk7CiAgICB9CiAgICBpZiBsZXQgU29tZShhdXRob3JpdHkpID0gdXJpLmF1dGhvcml0eSgpIHsKICAgICAgICByZXR1cm4gbm9ybWFsaXplX3NjYW5uZXJfaG9zdChhdXRob3JpdHkuYXNfc3RyKCkpOwogICAgfQogICAgaGVhZGVycwogICAgICAgIC5nZXQoImhvc3QiKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnRvX3N0cigpLm9rKCkpCiAgICAgICAgLm1hcChub3JtYWxpemVfc2Nhbm5lcl9ob3N0KQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCn0KCnB1YihzdXBlcikgZm4gcmVzb2x2ZV9mb3J3YXJkZWRfcGF0aChoZWFkZXJzOiAmSGVhZGVyTWFwLCB1cmk6ICZVcmkpIC0+IFN0cmluZyB7CiAgICBpZiBsZXQgU29tZSh2YWx1ZSkgPSBmaXJzdF9oZWFkZXJfdmFsdWUoaGVhZGVycywgIngtZm9yd2FyZGVkLXBhdGgiKSB7CiAgICAgICAgcmV0dXJuIHZhbHVlOwogICAgfQogICAgdXJpLnBhdGhfYW5kX3F1ZXJ5KCkKICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUuYXNfc3RyKCkudG9fc3RyaW5nKCkpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8ICIvIi50b19zdHJpbmcoKSkKfQoKcHViKHN1cGVyKSB1c2UgY3JhdGU6Omh0dHBfdXRpbHM6OmZpcnN0X2hlYWRlcl92YWx1ZTsKCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX3NjYW5uZXJfaG9zdCh2YWx1ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGxldCBub3JtYWxpemVkID0gdmFsdWUudHJpbSgpLnRvX2FzY2lpX2xvd2VyY2FzZSgpOwogICAgaWYgbm9ybWFsaXplZC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gU3RyaW5nOjpuZXcoKTsKICAgIH0KCiAgICBpZiBsZXQgT2sodXJsKSA9IFVybDo6cGFyc2UoJmZvcm1hdCEoImh0dHBzOi8ve25vcm1hbGl6ZWR9IikpCiAgICAgICAgJiYgbGV0IFNvbWUoaG9zdCkgPSB1cmwuaG9zdF9zdHIoKQogICAgewogICAgICAgIHJldHVybiBob3N0LnRyaW1fZW5kX21hdGNoZXMoJy4nKS50b19hc2NpaV9sb3dlcmNhc2UoKTsKICAgIH0KCiAgICBsZXQgbXV0IGhvc3QgPSBub3JtYWxpemVkLmFzX3N0cigpOwogICAgaWYgbGV0IFNvbWUoKF8sIHJlc3QpKSA9IGhvc3Quc3BsaXRfb25jZSgiOi8vIikgewogICAgICAgIGhvc3QgPSByZXN0OwogICAgfQogICAgaWYgbGV0IFNvbWUoKF8sIHJlc3QpKSA9IGhvc3QucnNwbGl0X29uY2UoJ0AnKSB7CiAgICAgICAgaG9zdCA9IHJlc3Q7CiAgICB9CiAgICBob3N0ID0gaG9zdC5zcGxpdCgnLycpLm5leHQoKS51bndyYXBfb3IoIiIpLnRyaW0oKTsKICAgIGlmIGhvc3Quc3RhcnRzX3dpdGgoJ1snKQogICAgICAgICYmIGxldCBTb21lKGVuZCkgPSBob3N0LmZpbmQoJ10nKQogICAgewogICAgICAgIHJldHVybiBob3N0WzEuLmVuZF0udHJpbV9lbmRfbWF0Y2hlcygnLicpLnRvX3N0cmluZygpOwogICAgfQogICAgaWYgbGV0IFNvbWUoKHdpdGhvdXRfcG9ydCwgcG9ydCkpID0gaG9zdC5yc3BsaXRfb25jZSgnOicpCiAgICAgICAgJiYgIXBvcnQuaXNfZW1wdHkoKQogICAgICAgICYmIHBvcnQuY2hhcnMoKS5hbGwofGNofCBjaC5pc19hc2NpaV9kaWdpdCgpKQogICAgewogICAgICAgIGhvc3QgPSB3aXRob3V0X3BvcnQ7CiAgICB9CiAgICBob3N0LnRyaW1fZW5kX21hdGNoZXMoJy4nKS50b19zdHJpbmcoKQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9zY2FubmVyX3BhdGgocGF0aDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGxldCBjbGVhbiA9IHBhdGgKICAgICAgICAuc3BsaXQoJz8nKQogICAgICAgIC5uZXh0KCkKICAgICAgICAudW53cmFwX29yKCIiKQogICAgICAgIC5zcGxpdCgnIycpCiAgICAgICAgLm5leHQoKQogICAgICAgIC51bndyYXBfb3IoIiIpOwogICAgaWYgY2xlYW4uaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuICIvIi50b19zdHJpbmcoKTsKICAgIH0KICAgIGxldCBtdXQgbm9ybWFsaXplZCA9IGlmIGNsZWFuLnN0YXJ0c193aXRoKCcvJykgewogICAgICAgIGNsZWFuLnRvX3N0cmluZygpCiAgICB9IGVsc2UgewogICAgICAgIGZvcm1hdCEoIi97Y2xlYW59IikKICAgIH07CiAgICBpZiBub3JtYWxpemVkLmxlbigpID4gMSAmJiBub3JtYWxpemVkLmVuZHNfd2l0aCgnLycpIHsKICAgICAgICBub3JtYWxpemVkLnBvcCgpOwogICAgfQogICAgbm9ybWFsaXplZAp9CgpwdWIoc3VwZXIpIGZuIHBhcnNlX3NjYW5uZXJfcGF0aCh2YWx1ZTogJnN0cikgLT4gT3B0aW9uPFVybD4gewogICAgbGV0IGJhc2UgPSBVcmw6OnBhcnNlKCJodHRwOi8vMTI3LjAuMC4xIikub2soKT87CiAgICBVcmw6Om9wdGlvbnMoKS5iYXNlX3VybChTb21lKCZiYXNlKSkucGFyc2UodmFsdWUpLm9rKCkKfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfc3Vic29uaWNfcmVzdF9lbmRwb2ludChwYXRoOiAmc3RyKSAtPiBTdHJpbmcgewogICAgbGV0IGNsZWFuID0gbm9ybWFsaXplX3NjYW5uZXJfcGF0aChwYXRoKTsKICAgIGxldCBTb21lKHJlc3QpID0gY2xlYW4uc3RyaXBfcHJlZml4KCIvcmVzdC8iKSBlbHNlIHsKICAgICAgICByZXR1cm4gU3RyaW5nOjpuZXcoKTsKICAgIH07CiAgICBpZiByZXN0LmNvbnRhaW5zKCcvJykgewogICAgICAgIHJldHVybiBTdHJpbmc6Om5ldygpOwogICAgfQogICAgbGV0IChlbmRwb2ludCwgZXh0ZW5zaW9uKSA9IHJlc3QKICAgICAgICAuc3BsaXRfb25jZSgnLicpCiAgICAgICAgLm1hcF9vcigocmVzdCwgTm9uZSksIHwoZW5kcG9pbnQsIGV4dGVuc2lvbil8IHsKICAgICAgICAgICAgKGVuZHBvaW50LCBTb21lKGV4dGVuc2lvbikpCiAgICAgICAgfSk7CiAgICBpZiBleHRlbnNpb24uaXNfc29tZV9hbmQofHZhbHVlfCAhbWF0Y2hlcyEodmFsdWUsICJ2aWV3IiB8ICJqc29uIiB8ICJ4bWwiKSkgewogICAgICAgIHJldHVybiBTdHJpbmc6Om5ldygpOwogICAgfQogICAgbGV0IGVuZHBvaW50ID0gZW5kcG9pbnQudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBpZiBlbmRwb2ludAogICAgICAgIC5jaGFycygpCiAgICAgICAgLm5leHQoKQogICAgICAgIC5pc19zb21lX2FuZCh8dmFsdWV8IHZhbHVlLmlzX2FzY2lpX2FscGhhYmV0aWMoKSkKICAgICAgICAmJiBlbmRwb2ludC5jaGFycygpLmFsbCh8dmFsdWV8IHZhbHVlLmlzX2FzY2lpX2FscGhhbnVtZXJpYygpKQogICAgewogICAgICAgIGVuZHBvaW50CiAgICB9IGVsc2UgewogICAgICAgIFN0cmluZzo6bmV3KCkKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBpc19rbm93bl9zdWJzb25pY19yZXN0X3BhdGgocGF0aDogJnN0cikgLT4gYm9vbCB7CiAgICBsZXQgU29tZShwYXJzZWQpID0gcGFyc2Vfc2Nhbm5lcl9wYXRoKHBhdGgpIGVsc2UgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH07CiAgICBsZXQgZW5kcG9pbnQgPSBub3JtYWxpemVfc3Vic29uaWNfcmVzdF9lbmRwb2ludChwYXJzZWQucGF0aCgpKTsKICAgICFlbmRwb2ludC5pc19lbXB0eSgpICYmIFNVQlNPTklDX1JFU1RfRU5EUE9JTlRTLmNvbnRhaW5zKCZlbmRwb2ludC5hc19zdHIoKSkKfQoKcHViKHN1cGVyKSBmbiBpc19rbm93bl9wcm94eV9wYXRoKHJlcXVlc3RfcGF0aDogJnN0ciwgbWFwcGluZ19wYXRoOiAmc3RyKSAtPiBib29sIHsKICAgIGxldCBjbGVhbl9yZXF1ZXN0X3BhdGggPSBub3JtYWxpemVfc2Nhbm5lcl9wYXRoKHJlcXVlc3RfcGF0aCk7CiAgICBsZXQgY2xlYW5fbWFwcGluZ19wYXRoID0gbm9ybWFsaXplX3NjYW5uZXJfcGF0aChtYXBwaW5nX3BhdGgpOwogICAgY2xlYW5fbWFwcGluZ19wYXRoID09ICIvIgogICAgICAgIHx8IGNsZWFuX3JlcXVlc3RfcGF0aCA9PSBjbGVhbl9tYXBwaW5nX3BhdGgKICAgICAgICB8fCBjbGVhbl9yZXF1ZXN0X3BhdGguc3RhcnRzX3dpdGgoJmZvcm1hdCEoIntjbGVhbl9tYXBwaW5nX3BhdGh9LyIpKQp9CgpwdWIoc3VwZXIpIGZuIGlzX2Zub3Nfc2hhcmVfcGF0aChwYXRoOiAmc3RyKSAtPiBib29sIHsKICAgIGxldCBjbGVhbl9wYXRoID0gbm9ybWFsaXplX3NjYW5uZXJfcGF0aChwYXRoKTsKICAgIGNsZWFuX3BhdGggPT0gIi9zIiB8fCBjbGVhbl9wYXRoLnN0YXJ0c193aXRoKCIvcy8iKQp9CgpwdWIoc3VwZXIpIGZuIGZpbmRfYmVzdF9tYXRjaGluZ19wcm94eV9tYXBwaW5nPCdhPigKICAgIHBhdGg6ICZzdHIsCiAgICBtYXBwaW5nczogJidhIFtWYWx1ZV0sCikgLT4gT3B0aW9uPCYnYSBWYWx1ZT4gewogICAgbGV0IGNsZWFuX3BhdGggPSBub3JtYWxpemVfc2Nhbm5lcl9wYXRoKHBhdGgpOwogICAgbGV0IG11dCBiZXN0X21hdGNoID0gTm9uZTsKICAgIGxldCBtdXQgYmVzdF9sZW5ndGggPSAwX3VzaXplOwogICAgZm9yIG1hcHBpbmcgaW4gbWFwcGluZ3MgewogICAgICAgIGxldCBTb21lKG1hcHBpbmdfcGF0aCkgPSBtYXBwaW5nLmdldCgicGF0aCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpIGVsc2UgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9OwogICAgICAgIGlmICFpc19rbm93bl9wcm94eV9wYXRoKCZjbGVhbl9wYXRoLCBtYXBwaW5nX3BhdGgpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBsZW5ndGggPSBub3JtYWxpemVfc2Nhbm5lcl9wYXRoKG1hcHBpbmdfcGF0aCkubGVuKCk7CiAgICAgICAgaWYgbGVuZ3RoID4gYmVzdF9sZW5ndGggewogICAgICAgICAgICBiZXN0X21hdGNoID0gU29tZShtYXBwaW5nKTsKICAgICAgICAgICAgYmVzdF9sZW5ndGggPSBsZW5ndGg7CiAgICAgICAgfQogICAgfQogICAgYmVzdF9tYXRjaAp9CgpwdWIoc3VwZXIpIGZuIGZpbmRfbWF0Y2hpbmdfaG9zdF9tYXBwaW5nPCdhPigKICAgIGhvc3Q6ICZzdHIsCiAgICBtYXBwaW5nczogJidhIFtWYWx1ZV0sCikgLT4gT3B0aW9uPCYnYSBWYWx1ZT4gewogICAgbGV0IGNsZWFuX2hvc3QgPSBub3JtYWxpemVfc2Nhbm5lcl9ob3N0KGhvc3QpOwogICAgaWYgY2xlYW5faG9zdC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIG1hcHBpbmdzLml0ZXIoKS5maW5kKHxtYXBwaW5nfCB7CiAgICAgICAgbWFwcGluZwogICAgICAgICAgICAuZ2V0KCJob3N0IikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgIC5tYXAobm9ybWFsaXplX3NjYW5uZXJfaG9zdCkKICAgICAgICAgICAgPT0gU29tZShjbGVhbl9ob3N0LmNsb25lKCkpCiAgICB9KQp9CgpmbiBpc19wdWJsaWNfaG9zdF9tYXBwaW5nKG1hcHBpbmc6IE9wdGlvbjwmVmFsdWU+LCBmb3J3YXJkZWRfcGF0aDogJnN0cikgLT4gYm9vbCB7CiAgICBtYXBwaW5nLmlzX3NvbWVfYW5kKHxtYXBwaW5nfCB7CiAgICAgICAgbWFwcGluZy5nZXQoInVzZV9hdXRoIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpID09IFNvbWUoZmFsc2UpCiAgICAgICAgICAgICYmIG1hcHBpbmcuZ2V0KCJhY2Nlc3NfbW9kZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpICE9IFNvbWUoInN0cmljdF93aGl0ZWxpc3QiKQogICAgICAgICAgICAmJiBtYXRjaGVkX2hvc3RfbG9jYXRpb25fYXV0aF9tb2RlKG1hcHBpbmcsIGZvcndhcmRlZF9wYXRoKSAhPSBTb21lKCJyZXF1aXJlX2xvZ2luIikKICAgIH0pCn0KCi8vLyBHbyBmb3J3YXJkcyBpdHMgY2Fub25pY2FsIFJlcXVlc3RVUkkuIERlY29kZSBpdCBvbmNlIHRvIG1hdGNoIFVSTC5QYXRoLAovLy8gcHJlc2VydmluZyB0cmFpbGluZyBzbGFzaGVzIGFuZCBleGFjdC1iZWZvcmUtbG9uZ2VzdC1wcmVmaXggcHJlY2VkZW5jZS4KZm4gbWF0Y2hlZF9ob3N0X2xvY2F0aW9uX2F1dGhfbW9kZTwnYT4oCiAgICBtYXBwaW5nOiAmJ2EgVmFsdWUsCiAgICBmb3J3YXJkZWRfcGF0aDogJnN0ciwKKSAtPiBPcHRpb248JidhIHN0cj4gewogICAgaWYgbWFwcGluZy5nZXQoInNlcnZpY2Vfcm9sZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoImF1dGgiKQogICAgICAgIHx8IG1hcHBpbmcKICAgICAgICAgICAgLmdldCgidGFyZ2V0X3R5cGUiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLnVud3JhcF9vcigicHJveHkiKQogICAgICAgICAgICAhPSAicHJveHkiCiAgICB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBsZXQgcGF0aCA9IGNyYXRlOjpjb29raWVzOjpwZXJjZW50X2RlY29kZShmb3J3YXJkZWRfcGF0aC5zcGxpdCgnPycpLm5leHQoKS51bndyYXBfb3IoIi8iKSk7CiAgICBsZXQgbXV0IHByZWZpeDogT3B0aW9uPCgmVmFsdWUsIHVzaXplKT4gPSBOb25lOwogICAgZm9yIGxvY2F0aW9uIGluIG1hcHBpbmcKICAgICAgICAuZ2V0KCJsb2NhdGlvbnMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLmZsYXR0ZW4oKQogICAgewogICAgICAgIGxldCBTb21lKGxvY2F0aW9uX3BhdGgpID0gbG9jYXRpb24KICAgICAgICAgICAgLmdldCgicGF0aCIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgZWxzZSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH07CiAgICAgICAgbWF0Y2ggbG9jYXRpb24uZ2V0KCJtYXRjaCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpIHsKICAgICAgICAgICAgU29tZSgiZXhhY3QiKSBpZiBwYXRoID09IGxvY2F0aW9uX3BhdGggPT4gewogICAgICAgICAgICAgICAgcmV0dXJuIGxvY2F0aW9uLmdldCgiYXV0aF9tb2RlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cik7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgU29tZSgicHJlZml4IikKICAgICAgICAgICAgICAgIGlmIChwYXRoID09IGxvY2F0aW9uX3BhdGgKICAgICAgICAgICAgICAgICAgICB8fCBwYXRoLnN0cmlwX3ByZWZpeChsb2NhdGlvbl9wYXRoKS5pc19zb21lX2FuZCh8cmVzdHwgewogICAgICAgICAgICAgICAgICAgICAgICBsb2NhdGlvbl9wYXRoLmVuZHNfd2l0aCgnLycpIHx8IHJlc3Quc3RhcnRzX3dpdGgoJy8nKQogICAgICAgICAgICAgICAgICAgIH0pKQogICAgICAgICAgICAgICAgICAgICYmIHByZWZpeC5pc19ub25lX29yKHwoXywgbGVuZ3RoKXwgbG9jYXRpb25fcGF0aC5sZW4oKSA+IGxlbmd0aCkgPT4KICAgICAgICAgICAgewogICAgICAgICAgICAgICAgcHJlZml4ID0gU29tZSgobG9jYXRpb24sIGxvY2F0aW9uX3BhdGgubGVuKCkpKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBfID0+IHt9CiAgICAgICAgfQogICAgfQogICAgcHJlZml4LmFuZF90aGVuKHwobG9jYXRpb24sIF8pfCBsb2NhdGlvbi5nZXQoImF1dGhfbW9kZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpKQp9CgpwdWIoc3VwZXIpIGZuIHJlc29sdmVfZGVmYXVsdF9wcm94eV9tYXBwaW5nPCdhPigKICAgIGNvbmZpZzogJlZhbHVlLAogICAgbWFwcGluZ3M6ICYnYSBbVmFsdWVdLAopIC0+IE9wdGlvbjwmJ2EgVmFsdWU+IHsKICAgIGxldCBkZWZhdWx0X3JvdXRlID0gY29uZmlnCiAgICAgICAgLmdldCgiZGVmYXVsdF9yb3V0ZSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpICYmICp2YWx1ZSAhPSAiL19fc2VsZWN0X18iKT87CiAgICBtYXBwaW5ncy5pdGVyKCkuZmluZCh8bWFwcGluZ3wgewogICAgICAgIG1hcHBpbmcKICAgICAgICAgICAgLmdldCgicGF0aCIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAuaXNfc29tZV9hbmQofHBhdGh8IHsKICAgICAgICAgICAgICAgIG5vcm1hbGl6ZV9zY2FubmVyX3BhdGgocGF0aCkgPT0gbm9ybWFsaXplX3NjYW5uZXJfcGF0aChkZWZhdWx0X3JvdXRlKQogICAgICAgICAgICB9KQogICAgfSkKfQoKcHViKHN1cGVyKSB1c2UgY3JhdGU6OnByb3h5X3V0aWxzOjppc19hbnlfc3ViZG9tYWluX3JvdXRpbmdfbW9kZTsK
+use super::*;
+
+pub(crate) fn is_request_exempt_from_scan(headers: &HeaderMap, uri: &Uri, config: &Value) -> bool {
+    let forwarded_path = resolve_forwarded_path(headers, uri);
+    if config
+        .get("fnos_share_bypass")
+        .and_then(|value| value.get("enabled"))
+        .and_then(Value::as_bool)
+        == Some(true)
+        && is_fnos_share_path(&forwarded_path)
+    {
+        return true;
+    }
+
+    if is_any_subdomain_routing_mode(config) {
+        let matched = find_matching_host_mapping(
+            &resolve_forwarded_host(headers, uri),
+            config
+                .get("host_mappings")
+                .and_then(Value::as_array)
+                .map(Vec::as_slice)
+                .unwrap_or(&[]),
+        );
+        return is_public_host_mapping(matched, &forwarded_path);
+    }
+
+    let proxy_mappings = config
+        .get("proxy_mappings")
+        .and_then(Value::as_array)
+        .map(Vec::as_slice)
+        .unwrap_or(&[]);
+    if let Some(mapping) = find_best_matching_proxy_mapping(&forwarded_path, proxy_mappings) {
+        return !mapping
+            .get("use_auth")
+            .and_then(Value::as_bool)
+            .unwrap_or(true);
+    }
+
+    resolve_default_proxy_mapping(config, proxy_mappings)
+        .and_then(|mapping| mapping.get("use_auth").and_then(Value::as_bool))
+        == Some(false)
+}
+
+pub(crate) async fn load_preflight_policy(
+    state: &AppState,
+    ip: &str,
+) -> anyhow::Result<ScannerPreflightPolicy> {
+    let (settings, path_whitelist) = settings::load_scanner_preflight_inputs(state).await?;
+    let client_ip = normalize_scanner_ip(ip);
+    let ip_exempt = client_ip.is_empty()
+        || is_scanner_local_address(&client_ip)
+        || !settings.enabled
+        || is_scanner_exempt_ip(state, &client_ip, &settings).await?;
+    Ok(ScannerPreflightPolicy {
+        settings,
+        path_whitelist,
+        client_ip,
+        ip_exempt,
+    })
+}
+
+pub(crate) async fn is_blacklisted_for_preflight(
+    state: &AppState,
+    policy: &ScannerPreflightPolicy,
+) -> anyhow::Result<bool> {
+    if policy.ip_exempt {
+        return Ok(false);
+    }
+
+    Ok(state
+        .storage
+        .store
+        .scanner_blacklist_exists(&policy.client_ip)
+        .await?)
+}
+
+pub(crate) fn is_common_path_for_preflight(
+    path: &str,
+    config: &Value,
+    policy: &ScannerPreflightPolicy,
+) -> bool {
+    let clean_path = normalize_scanner_path(path);
+    if is_known_subsonic_rest_path(path) {
+        return true;
+    }
+    if clean_path == "/__auth__" || clean_path.starts_with("/__auth__/") {
+        return true;
+    }
+    if clean_path == "/api/auth/passkey" || clean_path.starts_with("/api/auth/passkey/") {
+        return true;
+    }
+    if clean_path == "/websocket" {
+        return true;
+    }
+    if clean_path == "/api/admin/terminal" || clean_path.starts_with("/api/admin/terminal/") {
+        return true;
+    }
+    if clean_path == "/cgi/ThirdParty" || clean_path.starts_with("/cgi/ThirdParty/") {
+        return true;
+    }
+    if clean_path == "/assets" || clean_path.starts_with("/assets/") {
+        return true;
+    }
+    if clean_path == "/s" || clean_path.starts_with("/s/") {
+        return true;
+    }
+
+    if policy.path_whitelist.contains(&clean_path) {
+        return true;
+    }
+
+    config
+        .get("proxy_mappings")
+        .and_then(Value::as_array)
+        .into_iter()
+        .flatten()
+        .any(|mapping| {
+            mapping
+                .get("path")
+                .and_then(Value::as_str)
+                .is_some_and(|mapping_path| is_known_proxy_path(&clean_path, mapping_path))
+        })
+}
+
+pub(crate) async fn record_uncommon_path_for_preflight(
+    state: &AppState,
+    path: &str,
+    policy: &ScannerPreflightPolicy,
+) -> anyhow::Result<ScannerPreflightRecordResult> {
+    let settings = &policy.settings;
+    if policy.ip_exempt {
+        return Ok(ScannerPreflightRecordResult {
+            hit_count: 0,
+            blocked: false,
+        });
+    }
+
+    let clean_ip = &policy.client_ip;
+    let now = time_utils::now_ms();
+    let clean_path = normalize_scanner_path(path);
+    let hit = json!({ "path": clean_path, "createdAt": now });
+    let min_score = now - settings.window_seconds * 1000;
+    let window_min_score = now - settings.window_minutes * 60 * 1000;
+    let hit_count = state
+        .storage
+        .store
+        .record_scanner_suspicious_hit(
+            clean_ip,
+            &hit,
+            now,
+            min_score,
+            window_min_score,
+            settings.window_seconds + 60,
+        )
+        .await?;
+
+    if hit_count >= settings.threshold
+        && !state
+            .storage
+            .store
+            .scanner_blacklist_exists(clean_ip)
+            .await?
+    {
+        let hits = state
+            .storage
+            .store
+            .scanner_suspicious_hits_since(clean_ip, window_min_score)
+            .await?
+            .into_iter()
+            .filter(|value| {
+                value.get("path").and_then(Value::as_str).is_some()
+                    && value.get("createdAt").and_then(Value::as_i64).is_some()
+            })
+            .collect::<Vec<_>>();
+        let ip_location = state
+            .storage
+            .store
+            .get_ip_location_cache(clean_ip)
+            .await?
+            .and_then(|value| {
+                value
+                    .get("raw")
+                    .and_then(Value::as_str)
+                    .map(ToString::to_string)
+            })
+            .filter(|value| !value.trim().is_empty());
+        let mut record = json!({
+            "ip": clean_ip,
+            "blockedAt": now,
+            "windowMinutes": settings.window_minutes,
+            "threshold": settings.threshold,
+            "hits": hits,
+        });
+        if let Some(location) = ip_location.clone()
+            && let Some(object) = record.as_object_mut()
+        {
+            object.insert("ipLocation".to_string(), Value::String(location));
+        }
+        state
+            .storage
+            .store
+            .add_scanner_blacklist_record(clean_ip, &record, now, settings.blacklist_ttl_seconds)
+            .await?;
+        let registered_location = ip_location::register_usage(
+            state,
+            clean_ip,
+            vec![format!("scanner-blacklist|{clean_ip}")],
+        )
+        .await
+        .unwrap_or_default();
+        let event_hits = record
+            .get("hits")
+            .and_then(Value::as_array)
+            .cloned()
+            .unwrap_or_default()
+            .into_iter()
+            .filter_map(|hit| {
+                let path = hit.get("path").and_then(Value::as_str)?;
+                let created_at = hit.get("createdAt").and_then(Value::as_i64)?;
+                Some(json!({
+                    "path": path,
+                    "created_at": time_utils::iso_from_ms(created_at),
+                }))
+            })
+            .collect::<Vec<_>>();
+        let mut payload = json!({
+            "ip": clean_ip,
+            "blocked_at": time_utils::iso_from_ms(now),
+            "window_minutes": settings.window_minutes,
+            "threshold": settings.threshold,
+            "hit_count": hit_count,
+            "hits": event_hits,
+        });
+        if let Some(location) = ip_location
+            .filter(|value| !value.trim().is_empty())
+            .or_else(|| (!registered_location.trim().is_empty()).then_some(registered_location))
+            && let Some(object) = payload.as_object_mut()
+        {
+            object.insert("ip_location".to_string(), Value::String(location));
+        }
+        if let Err(error) = system_events::publish_scanner_blocked_event(state, payload).await {
+            tracing::warn!(%error, %clean_ip, "failed to publish scanner blocked event");
+        }
+        return Ok(ScannerPreflightRecordResult {
+            hit_count,
+            blocked: true,
+        });
+    }
+
+    Ok(ScannerPreflightRecordResult {
+        hit_count,
+        blocked: false,
+    })
+}
+
+pub(super) async fn is_scanner_exempt_ip(
+    state: &AppState,
+    ip: &str,
+    settings: &ScannerSettings,
+) -> anyhow::Result<bool> {
+    if settings.common_location_exempt_enabled
+        && common_auth_locations::is_common_auth_location_exempt_ip(state, ip).await?
+    {
+        return Ok(true);
+    }
+    Ok(is_scanner_cidr_exempt_ip(state, ip))
+}
+
+pub(super) fn is_scanner_cidr_exempt_ip(state: &AppState, ip: &str) -> bool {
+    let normalized = http_utils::normalize_ip(ip);
+    let Ok(ip) = normalized.parse::<IpAddr>() else {
+        return false;
+    };
+    state
+        .security
+        .ipsets
+        .get(SCANNER_EXEMPT_IPSET_KEY)
+        .is_some_and(|policy| policy.contains(ip))
+}
+
+pub(super) fn normalize_scanner_ip(ip: &str) -> String {
+    ip.trim().to_string()
+}
+
+pub(super) fn is_scanner_local_address(ip: &str) -> bool {
+    let mut candidate = ip.trim().to_ascii_lowercase();
+    if candidate.is_empty() {
+        return false;
+    }
+
+    if candidate.starts_with('[')
+        && let Some(end) = candidate.find(']')
+    {
+        candidate = candidate[1..end].to_string();
+    }
+
+    if candidate == "localhost" || candidate.starts_with("localhost:") {
+        return true;
+    }
+    if candidate == "::1" || candidate == "0:0:0:0:0:0:0:1" {
+        return true;
+    }
+    if candidate.starts_with("fc") || candidate.starts_with("fd") || candidate.starts_with("fe80:")
+    {
+        return true;
+    }
+
+    if let Some(mapped) = candidate.strip_prefix("::ffff:") {
+        return is_private_scanner_ipv4(mapped);
+    }
+    is_private_scanner_ipv4(&candidate)
+}
+
+pub(super) fn is_private_scanner_ipv4(candidate: &str) -> bool {
+    let (ip, port) = candidate
+        .split_once(':')
+        .map_or((candidate, None), |(ip, port)| (ip, Some(port)));
+    if port.is_some_and(|port| port.is_empty() || port.chars().any(|ch| !ch.is_ascii_digit())) {
+        return false;
+    }
+    let octets = ip.split('.').collect::<Vec<_>>();
+    if octets.len() != 4
+        || octets
+            .iter()
+            .any(|octet| octet.is_empty() || octet.chars().any(|ch| !ch.is_ascii_digit()))
+    {
+        return false;
+    }
+    octets[0] == "10"
+        || octets[0] == "127"
+        || (octets[0] == "192" && octets[1] == "168")
+        || (octets[0] == "172"
+            && matches!(
+                octets[1],
+                "16" | "17"
+                    | "18"
+                    | "19"
+                    | "20"
+                    | "21"
+                    | "22"
+                    | "23"
+                    | "24"
+                    | "25"
+                    | "26"
+                    | "27"
+                    | "28"
+                    | "29"
+                    | "30"
+                    | "31"
+            ))
+}
+
+pub(super) fn resolve_forwarded_host(headers: &HeaderMap, uri: &Uri) -> String {
+    if let Some(value) = first_header_value(headers, "x-forwarded-host") {
+        return normalize_scanner_host(&value);
+    }
+    if let Some(authority) = uri.authority() {
+        return normalize_scanner_host(authority.as_str());
+    }
+    headers
+        .get("host")
+        .and_then(|value| value.to_str().ok())
+        .map(normalize_scanner_host)
+        .unwrap_or_default()
+}
+
+pub(super) fn resolve_forwarded_path(headers: &HeaderMap, uri: &Uri) -> String {
+    if let Some(value) = first_header_value(headers, "x-forwarded-path") {
+        return value;
+    }
+    uri.path_and_query()
+        .map(|value| value.as_str().to_string())
+        .unwrap_or_else(|| "/".to_string())
+}
+
+pub(super) use crate::http_utils::first_header_value;
+
+pub(super) fn normalize_scanner_host(value: &str) -> String {
+    let normalized = value.trim().to_ascii_lowercase();
+    if normalized.is_empty() {
+        return String::new();
+    }
+
+    if let Ok(url) = Url::parse(&format!("https://{normalized}"))
+        && let Some(host) = url.host_str()
+    {
+        return host.trim_end_matches('.').to_ascii_lowercase();
+    }
+
+    let mut host = normalized.as_str();
+    if let Some((_, rest)) = host.split_once("://") {
+        host = rest;
+    }
+    if let Some((_, rest)) = host.rsplit_once('@') {
+        host = rest;
+    }
+    host = host.split('/').next().unwrap_or("").trim();
+    if host.starts_with('[')
+        && let Some(end) = host.find(']')
+    {
+        return host[1..end].trim_end_matches('.').to_string();
+    }
+    if let Some((without_port, port)) = host.rsplit_once(':')
+        && !port.is_empty()
+        && port.chars().all(|ch| ch.is_ascii_digit())
+    {
+        host = without_port;
+    }
+    host.trim_end_matches('.').to_string()
+}
+
+pub(super) fn normalize_scanner_path(path: &str) -> String {
+    let clean = path
+        .split('?')
+        .next()
+        .unwrap_or("")
+        .split('#')
+        .next()
+        .unwrap_or("");
+    if clean.is_empty() {
+        return "/".to_string();
+    }
+    let mut normalized = if clean.starts_with('/') {
+        clean.to_string()
+    } else {
+        format!("/{clean}")
+    };
+    if normalized.len() > 1 && normalized.ends_with('/') {
+        normalized.pop();
+    }
+    normalized
+}
+
+pub(super) fn parse_scanner_path(value: &str) -> Option<Url> {
+    let base = Url::parse("http://127.0.0.1").ok()?;
+    Url::options().base_url(Some(&base)).parse(value).ok()
+}
+
+pub(super) fn normalize_subsonic_rest_endpoint(path: &str) -> String {
+    let clean = normalize_scanner_path(path);
+    let Some(rest) = clean.strip_prefix("/rest/") else {
+        return String::new();
+    };
+    if rest.contains('/') {
+        return String::new();
+    }
+    let (endpoint, extension) = rest
+        .split_once('.')
+        .map_or((rest, None), |(endpoint, extension)| {
+            (endpoint, Some(extension))
+        });
+    if extension.is_some_and(|value| !matches!(value, "view" | "json" | "xml")) {
+        return String::new();
+    }
+    let endpoint = endpoint.to_ascii_lowercase();
+    if endpoint
+        .chars()
+        .next()
+        .is_some_and(|value| value.is_ascii_alphabetic())
+        && endpoint.chars().all(|value| value.is_ascii_alphanumeric())
+    {
+        endpoint
+    } else {
+        String::new()
+    }
+}
+
+pub(super) fn is_known_subsonic_rest_path(path: &str) -> bool {
+    let Some(parsed) = parse_scanner_path(path) else {
+        return false;
+    };
+    let endpoint = normalize_subsonic_rest_endpoint(parsed.path());
+    !endpoint.is_empty() && SUBSONIC_REST_ENDPOINTS.contains(&endpoint.as_str())
+}
+
+pub(super) fn is_known_proxy_path(request_path: &str, mapping_path: &str) -> bool {
+    let clean_request_path = normalize_scanner_path(request_path);
+    let clean_mapping_path = normalize_scanner_path(mapping_path);
+    clean_mapping_path == "/"
+        || clean_request_path == clean_mapping_path
+        || clean_request_path.starts_with(&format!("{clean_mapping_path}/"))
+}
+
+pub(super) fn is_fnos_share_path(path: &str) -> bool {
+    let clean_path = normalize_scanner_path(path);
+    clean_path == "/s" || clean_path.starts_with("/s/")
+}
+
+pub(super) fn find_best_matching_proxy_mapping<'a>(
+    path: &str,
+    mappings: &'a [Value],
+) -> Option<&'a Value> {
+    let clean_path = normalize_scanner_path(path);
+    let mut best_match = None;
+    let mut best_length = 0_usize;
+    for mapping in mappings {
+        let Some(mapping_path) = mapping.get("path").and_then(Value::as_str) else {
+            continue;
+        };
+        if !is_known_proxy_path(&clean_path, mapping_path) {
+            continue;
+        }
+        let length = normalize_scanner_path(mapping_path).len();
+        if length > best_length {
+            best_match = Some(mapping);
+            best_length = length;
+        }
+    }
+    best_match
+}
+
+pub(super) fn find_matching_host_mapping<'a>(
+    host: &str,
+    mappings: &'a [Value],
+) -> Option<&'a Value> {
+    let clean_host = normalize_scanner_host(host);
+    if clean_host.is_empty() {
+        return None;
+    }
+    mappings.iter().find(|mapping| {
+        mapping
+            .get("host")
+            .and_then(Value::as_str)
+            .map(normalize_scanner_host)
+            == Some(clean_host.clone())
+    })
+}
+
+fn is_public_host_mapping(mapping: Option<&Value>, forwarded_path: &str) -> bool {
+    mapping.is_some_and(|mapping| {
+        mapping.get("use_auth").and_then(Value::as_bool) == Some(false)
+            && mapping.get("access_mode").and_then(Value::as_str) != Some("strict_whitelist")
+            && matched_host_location_auth_mode(mapping, forwarded_path) != Some("require_login")
+    })
+}
+
+/// Go forwards its canonical RequestURI. Decode it once to match URL.Path,
+/// preserving trailing slashes and exact-before-longest-prefix precedence.
+fn matched_host_location_auth_mode<'a>(
+    mapping: &'a Value,
+    forwarded_path: &str,
+) -> Option<&'a str> {
+    if mapping.get("service_role").and_then(Value::as_str) == Some("auth")
+        || mapping
+            .get("target_type")
+            .and_then(Value::as_str)
+            .unwrap_or("proxy")
+            != "proxy"
+    {
+        return None;
+    }
+    let path = crate::cookies::percent_decode(forwarded_path.split('?').next().unwrap_or("/"));
+    let mut prefix: Option<(&Value, usize)> = None;
+    for location in mapping
+        .get("locations")
+        .and_then(Value::as_array)
+        .into_iter()
+        .flatten()
+    {
+        let Some(location_path) = location
+            .get("path")
+            .and_then(Value::as_str)
+            .filter(|value| !value.is_empty())
+        else {
+            continue;
+        };
+        match location.get("match").and_then(Value::as_str) {
+            Some("exact") if path == location_path => {
+                return location.get("auth_mode").and_then(Value::as_str);
+            }
+            Some("prefix")
+                if (path == location_path
+                    || path.strip_prefix(location_path).is_some_and(|rest| {
+                        location_path.ends_with('/') || rest.starts_with('/')
+                    }))
+                    && prefix.is_none_or(|(_, length)| location_path.len() > length) =>
+            {
+                prefix = Some((location, location_path.len()));
+            }
+            _ => {}
+        }
+    }
+    prefix.and_then(|(location, _)| location.get("auth_mode").and_then(Value::as_str))
+}
+
+pub(super) fn resolve_default_proxy_mapping<'a>(
+    config: &Value,
+    mappings: &'a [Value],
+) -> Option<&'a Value> {
+    let default_route = config
+        .get("default_route")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .filter(|value| !value.is_empty() && *value != "/__select__")?;
+    mappings.iter().find(|mapping| {
+        mapping
+            .get("path")
+            .and_then(Value::as_str)
+            .is_some_and(|path| {
+                normalize_scanner_path(path) == normalize_scanner_path(default_route)
+            })
+    })
+}
+
+pub(super) use crate::proxy_utils::is_any_subdomain_routing_mode;

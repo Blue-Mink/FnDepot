@@ -1,1 +1,65 @@
-aW1wb3J0IHR5cGUgeyBTY2FuRGlzY292ZXJ5SG9zdENhbmRpZGF0ZSB9IGZyb20gIkAvbGliL2FwaS9zY2FuIjsKCmV4cG9ydCBjb25zdCBOQVRJVkVfTE9PUEJBQ0tfQUREUkVTUyA9ICIxMjcuMC4wLjEiOwoKY29uc3QgRE9DS0VSX0hPU1RfQ0FORElEQVRFX1NPVVJDRVMgPSBuZXcgU2V0PAogIFNjYW5EaXNjb3ZlcnlIb3N0Q2FuZGlkYXRlWyJzb3VyY2UiXQo+KFsiY29uZmlndXJlZCIsICJwcm94eSIsICJyZXF1ZXN0X2hvc3QiXSk7Cgpjb25zdCBuYXRpdmVMb29wYmFja0NhbmRpZGF0ZSA9ICgpOiBTY2FuRGlzY292ZXJ5SG9zdENhbmRpZGF0ZSA9PiAoewogIGFkZHJlc3M6IE5BVElWRV9MT09QQkFDS19BRERSRVNTLAogIGNpZHI6IGAke05BVElWRV9MT09QQkFDS19BRERSRVNTfS8zMmAsCiAgc291cmNlOiAibG9vcGJhY2siLAogIHJlY29tbWVuZGVkOiB0cnVlLAogIGluY2x1ZGVkSW5BdXRvbWF0aWNTY2FuOiB0cnVlLAp9KTsKCmV4cG9ydCBjb25zdCByZXNvbHZlRWZmZWN0aXZlSG9zdFRhcmdldENhbmRpZGF0ZXMgPSAoCiAgY2FuZGlkYXRlczogcmVhZG9ubHkgU2NhbkRpc2NvdmVyeUhvc3RDYW5kaWRhdGVbXSwKICBpc0RvY2tlckRlcGxveW1lbnQ6IGJvb2xlYW4sCik6IFNjYW5EaXNjb3ZlcnlIb3N0Q2FuZGlkYXRlW10gPT4gewogIGNvbnN0IHJlc29sdmVkID0gaXNEb2NrZXJEZXBsb3ltZW50CiAgICA/IGNhbmRpZGF0ZXMuZmlsdGVyKAogICAgICAgIChjYW5kaWRhdGUpID0+CiAgICAgICAgICBET0NLRVJfSE9TVF9DQU5ESURBVEVfU09VUkNFUy5oYXMoY2FuZGlkYXRlLnNvdXJjZSkgJiYKICAgICAgICAgICFjYW5kaWRhdGUuYWRkcmVzcy5zdGFydHNXaXRoKCIxMjcuIiksCiAgICAgICkKICAgIDogWwogICAgICAgIG5hdGl2ZUxvb3BiYWNrQ2FuZGlkYXRlKCksCiAgICAgICAgLi4uY2FuZGlkYXRlcy5maWx0ZXIoCiAgICAgICAgICAoY2FuZGlkYXRlKSA9PgogICAgICAgICAgICBjYW5kaWRhdGUuc291cmNlID09PSAiaW50ZXJmYWNlIiAmJgogICAgICAgICAgICAhY2FuZGlkYXRlLmFkZHJlc3Muc3RhcnRzV2l0aCgiMTI3LiIpLAogICAgICAgICksCiAgICAgIF07CgogIGNvbnN0IHNlZW4gPSBuZXcgU2V0PHN0cmluZz4oKTsKICByZXR1cm4gcmVzb2x2ZWQuZmlsdGVyKChjYW5kaWRhdGUpID0+IHsKICAgIGlmIChzZWVuLmhhcyhjYW5kaWRhdGUuYWRkcmVzcykpIHJldHVybiBmYWxzZTsKICAgIHNlZW4uYWRkKGNhbmRpZGF0ZS5hZGRyZXNzKTsKICAgIHJldHVybiB0cnVlOwogIH0pOwp9OwoKZXhwb3J0IGNvbnN0IGJ1aWxkSG9zdFRhcmdldFN1Z2dlc3Rpb25zID0gKAogIGNhbmRpZGF0ZXM6IHJlYWRvbmx5IFNjYW5EaXNjb3ZlcnlIb3N0Q2FuZGlkYXRlW10sCiAgaXNEb2NrZXJEZXBsb3ltZW50OiBib29sZWFuLAopOiBzdHJpbmdbXSA9PgogIHJlc29sdmVFZmZlY3RpdmVIb3N0VGFyZ2V0Q2FuZGlkYXRlcyhjYW5kaWRhdGVzLCBpc0RvY2tlckRlcGxveW1lbnQpLm1hcCgKICAgIChjYW5kaWRhdGUpID0+IGAke2NhbmRpZGF0ZS5hZGRyZXNzfTpgLAogICk7CgpleHBvcnQgY29uc3QgYnVpbGRIb3N0VGFyZ2V0UGxhY2Vob2xkZXIgPSAoCiAgY2FuZGlkYXRlczogcmVhZG9ubHkgU2NhbkRpc2NvdmVyeUhvc3RDYW5kaWRhdGVbXSwKICBpc0RvY2tlckRlcGxveW1lbnQ6IGJvb2xlYW4sCiAgZG9ja2VyRmFsbGJhY2s6IHN0cmluZywKKTogc3RyaW5nID0+IHsKICBjb25zdCByZXNvbHZlZCA9IHJlc29sdmVFZmZlY3RpdmVIb3N0VGFyZ2V0Q2FuZGlkYXRlcygKICAgIGNhbmRpZGF0ZXMsCiAgICBpc0RvY2tlckRlcGxveW1lbnQsCiAgKTsKICBjb25zdCByZWNvbW1lbmRlZCA9CiAgICByZXNvbHZlZC5maW5kKChjYW5kaWRhdGUpID0+IGNhbmRpZGF0ZS5yZWNvbW1lbmRlZCkgPz8gcmVzb2x2ZWRbMF07CiAgaWYgKCFyZWNvbW1lbmRlZCkgcmV0dXJuIGRvY2tlckZhbGxiYWNrOwogIHJldHVybiBgJHtyZWNvbW1lbmRlZC5hZGRyZXNzfToke2lzRG9ja2VyRGVwbG95bWVudCA/IDgwODAgOiA1MTczfWA7Cn07Cg==
+import type { ScanDiscoveryHostCandidate } from "@/lib/api/scan";
+
+export const NATIVE_LOOPBACK_ADDRESS = "127.0.0.1";
+
+const DOCKER_HOST_CANDIDATE_SOURCES = new Set<
+  ScanDiscoveryHostCandidate["source"]
+>(["configured", "proxy", "request_host"]);
+
+const nativeLoopbackCandidate = (): ScanDiscoveryHostCandidate => ({
+  address: NATIVE_LOOPBACK_ADDRESS,
+  cidr: `${NATIVE_LOOPBACK_ADDRESS}/32`,
+  source: "loopback",
+  recommended: true,
+  includedInAutomaticScan: true,
+});
+
+export const resolveEffectiveHostTargetCandidates = (
+  candidates: readonly ScanDiscoveryHostCandidate[],
+  isDockerDeployment: boolean,
+): ScanDiscoveryHostCandidate[] => {
+  const resolved = isDockerDeployment
+    ? candidates.filter(
+        (candidate) =>
+          DOCKER_HOST_CANDIDATE_SOURCES.has(candidate.source) &&
+          !candidate.address.startsWith("127."),
+      )
+    : [
+        nativeLoopbackCandidate(),
+        ...candidates.filter(
+          (candidate) =>
+            candidate.source === "interface" &&
+            !candidate.address.startsWith("127."),
+        ),
+      ];
+
+  const seen = new Set<string>();
+  return resolved.filter((candidate) => {
+    if (seen.has(candidate.address)) return false;
+    seen.add(candidate.address);
+    return true;
+  });
+};
+
+export const buildHostTargetSuggestions = (
+  candidates: readonly ScanDiscoveryHostCandidate[],
+  isDockerDeployment: boolean,
+): string[] =>
+  resolveEffectiveHostTargetCandidates(candidates, isDockerDeployment).map(
+    (candidate) => `${candidate.address}:`,
+  );
+
+export const buildHostTargetPlaceholder = (
+  candidates: readonly ScanDiscoveryHostCandidate[],
+  isDockerDeployment: boolean,
+  dockerFallback: string,
+): string => {
+  const resolved = resolveEffectiveHostTargetCandidates(
+    candidates,
+    isDockerDeployment,
+  );
+  const recommended =
+    resolved.find((candidate) => candidate.recommended) ?? resolved[0];
+  if (!recommended) return dockerFallback;
+  return `${recommended.address}:${isDockerDeployment ? 8080 : 5173}`;
+};

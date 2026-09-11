@@ -1,1 +1,54 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IE1vbml0b3JVcCwgUmVmcmVzaEN3IH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgUHJvZ3Jlc3MgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvcHJvZ3Jlc3MiOwppbXBvcnQgdHlwZSB7IEFib3V0VXBkYXRlUGFnZUNvbnRyb2xsZXIgfSBmcm9tICIuL3VzZUFib3V0VXBkYXRlUGFnZSI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsgY29udHJvbGxlcjogQWJvdXRVcGRhdGVQYWdlQ29udHJvbGxlciB9PigpOwpjb25zdCB7CiAgaXNEb3dubG9hZGluZ09yVmVyaWZ5aW5nLAogIGlzVXBkYXRlTW9kYWxWaXNpYmxlLAogIG1vZGFsRGVzY3JpcHRpb24sCiAgbW9kYWxUaXRsZSwKICBwcm9ncmVzc1RleHQsCiAgcHJvZ3Jlc3NWYWx1ZSwKfSA9IHByb3BzLmNvbnRyb2xsZXI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYKICAgIHYtaWY9ImlzVXBkYXRlTW9kYWxWaXNpYmxlIgogICAgY2xhc3M9ImZpeGVkIGluc2V0LTAgei1bMTIwXSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBiZy1iYWNrZ3JvdW5kLzgwIHB4LTQgYmFja2Ryb3AtYmx1ci1tZCB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0zMDAiCiAgPgogICAgPGRpdgogICAgICBjbGFzcz0iZmxleCB3LWZ1bGwgbWF4LXctc20gZmxleC1jb2wgaXRlbXMtY2VudGVyIHNwYWNlLXktNiByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWJvcmRlci81MCBiZy1iYWNrZ3JvdW5kLzk1IHAtOCB0ZXh0LWNlbnRlciBzaGFkb3ctMnhsIgogICAgPgogICAgICA8ZGl2CiAgICAgICAgY2xhc3M9ImZsZXggaC0xNiB3LTE2IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgYmctcHJpbWFyeS8xMCIKICAgICAgPgogICAgICAgIDxSZWZyZXNoQ3cKICAgICAgICAgIHYtaWY9ImlzRG93bmxvYWRpbmdPclZlcmlmeWluZyIKICAgICAgICAgIGNsYXNzPSJoLTggdy04IGFuaW1hdGUtc3BpbiB0ZXh0LXByaW1hcnkiCiAgICAgICAgLz4KICAgICAgICA8TW9uaXRvclVwIHYtZWxzZSBjbGFzcz0iaC04IHctOCBhbmltYXRlLXB1bHNlIHRleHQtcHJpbWFyeSIgLz4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgIDxoMyBjbGFzcz0idGV4dC1sZyBmb250LXNlbWlib2xkIHRyYWNraW5nLXRpZ2h0Ij57eyBtb2RhbFRpdGxlIH19PC9oMz4KICAgICAgICA8cAogICAgICAgICAgY2xhc3M9InRleHQtc20gbGVhZGluZy1yZWxheGVkIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgIHYtaHRtbD0ibW9kYWxEZXNjcmlwdGlvbiIKICAgICAgICAvPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgdi1pZj0iaXNEb3dubG9hZGluZ09yVmVyaWZ5aW5nIiBjbGFzcz0idy1mdWxsIHNwYWNlLXktMyI+CiAgICAgICAgPFByb2dyZXNzIDptb2RlbC12YWx1ZT0icHJvZ3Jlc3NWYWx1ZSIgY2xhc3M9ImgtMiB3LWZ1bGwiIC8+CiAgICAgICAgPGRpdgogICAgICAgICAgY2xhc3M9ImZsZXgganVzdGlmeS1iZXR3ZWVuIGZvbnQtbW9ubyB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICA+CiAgICAgICAgICA8c3Bhbj57eyBwcm9ncmVzc1RleHQgfX08L3NwYW4+CiAgICAgICAgICA8c3BhbiBjbGFzcz0iZm9udC1ib2xkIHRleHQtcHJpbWFyeSI+e3sgcHJvZ3Jlc3NWYWx1ZSB9fSU8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { MonitorUp, RefreshCw } from "lucide-vue-next";
+import { Progress } from "@/components/ui/progress";
+import type { AboutUpdatePageController } from "./useAboutUpdatePage";
+
+const props = defineProps<{ controller: AboutUpdatePageController }>();
+const {
+  isDownloadingOrVerifying,
+  isUpdateModalVisible,
+  modalDescription,
+  modalTitle,
+  progressText,
+  progressValue,
+} = props.controller;
+</script>
+
+<template>
+  <div
+    v-if="isUpdateModalVisible"
+    class="fixed inset-0 z-[120] flex items-center justify-center bg-background/80 px-4 backdrop-blur-md transition-all duration-300"
+  >
+    <div
+      class="flex w-full max-w-sm flex-col items-center space-y-6 rounded-2xl border border-border/50 bg-background/95 p-8 text-center shadow-2xl"
+    >
+      <div
+        class="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10"
+      >
+        <RefreshCw
+          v-if="isDownloadingOrVerifying"
+          class="h-8 w-8 animate-spin text-primary"
+        />
+        <MonitorUp v-else class="h-8 w-8 animate-pulse text-primary" />
+      </div>
+
+      <div class="space-y-2">
+        <h3 class="text-lg font-semibold tracking-tight">{{ modalTitle }}</h3>
+        <p
+          class="text-sm leading-relaxed text-muted-foreground"
+          v-html="modalDescription"
+        />
+      </div>
+
+      <div v-if="isDownloadingOrVerifying" class="w-full space-y-3">
+        <Progress :model-value="progressValue" class="h-2 w-full" />
+        <div
+          class="flex justify-between font-mono text-xs text-muted-foreground"
+        >
+          <span>{{ progressText }}</span>
+          <span class="font-bold text-primary">{{ progressValue }}%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

@@ -1,1 +1,277 @@
-dXNlIHN0ZDo6dGltZTo6RHVyYXRpb247Cgp1c2UgcmVxd2VzdDo6e01ldGhvZCwgU3RhdHVzQ29kZX07CnVzZSBzZXJkZV9qc29uOjpWYWx1ZTsKdXNlIHRva2lvOjp0aW1lOjpzbGVlcDsKdXNlIHVybDo6VXJsOwoKdXNlIGNyYXRlOjpwYW5lbF9zeW5jOjptb2RlbDo6UGFuZWxDb25uZWN0aW9uOwoKY29uc3QgTUFYX1JFU1BPTlNFX0JZVEVTOiB1c2l6ZSA9IDEwMjQgKiAxMDI0Owpjb25zdCBNQVhfQVRURU1QVFM6IHVzaXplID0gMzsKCiNbZGVyaXZlKENsb25lKV0KcHViIHN0cnVjdCBQYW5lbEh0dHBDbGllbnQgewogICAgY2xpZW50OiByZXF3ZXN0OjpDbGllbnQsCiAgICBiYXNlOiBVcmwsCiAgICBhcGlfcGF0aDogU3RyaW5nLAp9CgppbXBsIFBhbmVsSHR0cENsaWVudCB7CiAgICBwdWIgZm4gbmV3KGNvbm5lY3Rpb246ICZQYW5lbENvbm5lY3Rpb24pIC0+IFJlc3VsdDxTZWxmLCBTdHJpbmc+IHsKICAgICAgICBsZXQgYmFzZSA9IHZhbGlkYXRlX2Jhc2VfdXJsKCZjb25uZWN0aW9uLmJhc2VfdXJsKT87CiAgICAgICAgbGV0IGNsaWVudCA9IHJlcXdlc3Q6OkNsaWVudDo6YnVpbGRlcigpCiAgICAgICAgICAgIC5jb25uZWN0X3RpbWVvdXQoRHVyYXRpb246OmZyb21fc2Vjcyg1KSkKICAgICAgICAgICAgLnRpbWVvdXQoRHVyYXRpb246OmZyb21fc2VjcygxNSkpCiAgICAgICAgICAgIC5kYW5nZXJfYWNjZXB0X2ludmFsaWRfY2VydHMoY29ubmVjdGlvbi5hbGxvd19pbnZhbGlkX3RscykKICAgICAgICAgICAgLnJlZGlyZWN0KHJlcXdlc3Q6OnJlZGlyZWN0OjpQb2xpY3k6Om5vbmUoKSkKICAgICAgICAgICAgLmJ1aWxkKCkKICAgICAgICAgICAgLm1hcF9lcnIofF98ICLml6Dms5XliJvlu7rpnaLmnb8gSFRUUCDlrqLmiLfnq68iLnRvX3N0cmluZygpKT87CiAgICAgICAgT2soU2VsZiB7CiAgICAgICAgICAgIGNsaWVudCwKICAgICAgICAgICAgYmFzZSwKICAgICAgICAgICAgYXBpX3BhdGg6IGNvbm5lY3Rpb24uYXBpX3BhdGguY2xvbmUoKSwKICAgICAgICB9KQogICAgfQoKICAgIHB1YiBmbiBlbmRwb2ludCgmc2VsZiwgc3VmZml4OiAmc3RyKSAtPiBSZXN1bHQ8VXJsLCBTdHJpbmc+IHsKICAgICAgICBsZXQgbXV0IHVybCA9IHNlbGYuYmFzZS5jbG9uZSgpOwogICAgICAgIGxldCByb290ID0gc2VsZi5hcGlfcGF0aC5zcGxpdCgnPycpLm5leHQoKS51bndyYXBfb3IoIiIpOwogICAgICAgIGxldCBiYXNlX3BhdGggPSBzZWxmLmJhc2UucGF0aCgpLnRyaW1fZW5kX21hdGNoZXMoJy8nKTsKICAgICAgICBsZXQgYXBpX3BhdGggPSByb290LnRyaW1fbWF0Y2hlcygnLycpOwogICAgICAgIGxldCBzdWZmaXggPSBzdWZmaXgudHJpbV9tYXRjaGVzKCcvJyk7CiAgICAgICAgbGV0IHBhdGggPSBpZiBzdWZmaXguaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIGZvcm1hdCEoIntiYXNlX3BhdGh9L3thcGlfcGF0aH0iKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGZvcm1hdCEoIntiYXNlX3BhdGh9L3thcGlfcGF0aH0ve3N1ZmZpeH0iKQogICAgICAgIH07CiAgICAgICAgdXJsLnNldF9wYXRoKCZwYXRoKTsKICAgICAgICB1cmwuc2V0X3F1ZXJ5KHNlbGYuYXBpX3BhdGguc3BsaXRfb25jZSgnPycpLm1hcCh8KF8sIHF1ZXJ5KXwgcXVlcnkpKTsKICAgICAgICBPayh1cmwpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIGpzb24oCiAgICAgICAgJnNlbGYsCiAgICAgICAgbWV0aG9kOiBNZXRob2QsCiAgICAgICAgdXJsOiBVcmwsCiAgICAgICAgaGVhZGVyczogJlsoU3RyaW5nLCBTdHJpbmcpXSwKICAgICAgICBib2R5OiBPcHRpb248JlZhbHVlPiwKICAgICAgICBmb3JtOiBPcHRpb248JlsoU3RyaW5nLCBTdHJpbmcpXT4sCiAgICApIC0+IFJlc3VsdDxWYWx1ZSwgU3RyaW5nPiB7CiAgICAgICAgc2VsZi5qc29uX3dpdGhfcmV0cnkobWV0aG9kLCB1cmwsIGhlYWRlcnMsIGJvZHksIGZvcm0sIHRydWUpCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgIC8vLyBTZW5kcyBhIG5vbi1pZGVtcG90ZW50IG11dGF0aW9uIG9uY2UuIFJldHJ5aW5nIGEgY3JlYXRlIHJlcXVlc3QgYWZ0ZXIgYQogICAgLy8vIGxvc3QgcmVzcG9uc2UgY2FuIHByb2R1Y2UgZHVwbGljYXRlIHBhbmVsIGVudHJpZXMsIHNvIGFkYXB0ZXJzIHVzZSB0aGlzCiAgICAvLy8gZm9yIHByb3ZpZGVycyB0aGF0IGRvIG5vdCBleHBvc2UgYW4gaWRlbXBvdGVuY3kga2V5LgogICAgcHViIGFzeW5jIGZuIGpzb25fb25jZSgKICAgICAgICAmc2VsZiwKICAgICAgICBtZXRob2Q6IE1ldGhvZCwKICAgICAgICB1cmw6IFVybCwKICAgICAgICBoZWFkZXJzOiAmWyhTdHJpbmcsIFN0cmluZyldLAogICAgICAgIGJvZHk6IE9wdGlvbjwmVmFsdWU+LAogICAgICAgIGZvcm06IE9wdGlvbjwmWyhTdHJpbmcsIFN0cmluZyldPiwKICAgICkgLT4gUmVzdWx0PFZhbHVlLCBTdHJpbmc+IHsKICAgICAgICBzZWxmLmpzb25fd2l0aF9yZXRyeShtZXRob2QsIHVybCwgaGVhZGVycywgYm9keSwgZm9ybSwgZmFsc2UpCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgIGFzeW5jIGZuIGpzb25fd2l0aF9yZXRyeSgKICAgICAgICAmc2VsZiwKICAgICAgICBtZXRob2Q6IE1ldGhvZCwKICAgICAgICB1cmw6IFVybCwKICAgICAgICBoZWFkZXJzOiAmWyhTdHJpbmcsIFN0cmluZyldLAogICAgICAgIGJvZHk6IE9wdGlvbjwmVmFsdWU+LAogICAgICAgIGZvcm06IE9wdGlvbjwmWyhTdHJpbmcsIFN0cmluZyldPiwKICAgICAgICByZXRyeV9zYWZlOiBib29sLAogICAgKSAtPiBSZXN1bHQ8VmFsdWUsIFN0cmluZz4gewogICAgICAgIGlmIHVybC5vcmlnaW4oKSAhPSBzZWxmLmJhc2Uub3JpZ2luKCkgewogICAgICAgICAgICByZXR1cm4gRXJyKCLpnaLmnb/or7fmsYLkuI3lvpfot6jmupAiLnRvX3N0cmluZygpKTsKICAgICAgICB9CiAgICAgICAgbGV0IGF0dGVtcHRzID0gaWYgcmV0cnlfc2FmZSB7IE1BWF9BVFRFTVBUUyB9IGVsc2UgeyAxIH07CiAgICAgICAgZm9yIGF0dGVtcHQgaW4gMC4uYXR0ZW1wdHMgewogICAgICAgICAgICBsZXQgbXV0IHJlcXVlc3QgPSBzZWxmLmNsaWVudC5yZXF1ZXN0KG1ldGhvZC5jbG9uZSgpLCB1cmwuY2xvbmUoKSk7CiAgICAgICAgICAgIGZvciAobmFtZSwgdmFsdWUpIGluIGhlYWRlcnMgewogICAgICAgICAgICAgICAgcmVxdWVzdCA9IHJlcXVlc3QuaGVhZGVyKG5hbWUsIHZhbHVlKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiBsZXQgU29tZShib2R5KSA9IGJvZHkgewogICAgICAgICAgICAgICAgcmVxdWVzdCA9IHJlcXVlc3QuanNvbihib2R5KTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiBsZXQgU29tZShmb3JtKSA9IGZvcm0gewogICAgICAgICAgICAgICAgbGV0IG11dCBlbmNvZGVkID0gdXJsOjpmb3JtX3VybGVuY29kZWQ6OlNlcmlhbGl6ZXI6Om5ldyhTdHJpbmc6Om5ldygpKTsKICAgICAgICAgICAgICAgIGZvciAobmFtZSwgdmFsdWUpIGluIGZvcm0gewogICAgICAgICAgICAgICAgICAgIGVuY29kZWQuYXBwZW5kX3BhaXIobmFtZSwgdmFsdWUpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcmVxdWVzdCA9IHJlcXVlc3QKICAgICAgICAgICAgICAgICAgICAuaGVhZGVyKAogICAgICAgICAgICAgICAgICAgICAgICByZXF3ZXN0OjpoZWFkZXI6OkNPTlRFTlRfVFlQRSwKICAgICAgICAgICAgICAgICAgICAgICAgImFwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZCIsCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIC5ib2R5KGVuY29kZWQuZmluaXNoKCkpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGxldCByZXNwb25zZSA9IHJlcXVlc3Quc2VuZCgpLmF3YWl0OwogICAgICAgICAgICBsZXQgbXV0IHJlc3BvbnNlID0gbWF0Y2ggcmVzcG9uc2UgewogICAgICAgICAgICAgICAgT2sodmFsdWUpID0+IHZhbHVlLAogICAgICAgICAgICAgICAgRXJyKF8pIGlmIGF0dGVtcHQgKyAxIDwgYXR0ZW1wdHMgPT4gewogICAgICAgICAgICAgICAgICAgIHJldHJ5X2RlbGF5KGF0dGVtcHQsIE5vbmUpLmF3YWl0OwogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgRXJyKF8pID0+IHJldHVybiBFcnIoIuaXoOazlei/nuaOpemdouadv++8jOivt+ajgOafpeWcsOWdgOOAgVRMUyDkuI7nvZHnu5wiLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgfTsKICAgICAgICAgICAgbGV0IHN0YXR1cyA9IHJlc3BvbnNlLnN0YXR1cygpOwogICAgICAgICAgICBpZiBzdGF0dXMuaXNfcmVkaXJlY3Rpb24oKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gRXJyKCLpnaLmnb/ov5Tlm57kuobph43lrprlkJHvvJvkuLrpmLLmraLlh63mja7ms4TpnLLvvIzor7fnm7TmjqXloavlhpnmnIDnu4ggQVBJIOWcsOWdgCIudG9fc3RyaW5nKCkpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChzdGF0dXMgPT0gU3RhdHVzQ29kZTo6VE9PX01BTllfUkVRVUVTVFMgfHwgc3RhdHVzLmlzX3NlcnZlcl9lcnJvcigpKQogICAgICAgICAgICAgICAgJiYgYXR0ZW1wdCArIDEgPCBhdHRlbXB0cwogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBsZXQgcmV0cnlfYWZ0ZXIgPSByZXNwb25zZQogICAgICAgICAgICAgICAgICAgIC5oZWFkZXJzKCkKICAgICAgICAgICAgICAgICAgICAuZ2V0KHJlcXdlc3Q6OmhlYWRlcjo6UkVUUllfQUZURVIpCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUudG9fc3RyKCkub2soKSkKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4ocGFyc2VfcmV0cnlfYWZ0ZXIpOwogICAgICAgICAgICAgICAgcmV0cnlfZGVsYXkoYXR0ZW1wdCwgcmV0cnlfYWZ0ZXIpLmF3YWl0OwogICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgbGV0IG11dCBieXRlcyA9IFZlYzo6bmV3KCk7CiAgICAgICAgICAgIHdoaWxlIGxldCBTb21lKGNodW5rKSA9IHJlc3BvbnNlCiAgICAgICAgICAgICAgICAuY2h1bmsoKQogICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICAubWFwX2Vycih8X3wgIuivu+WPlumdouadv+WTjeW6lOWksei0pSIudG9fc3RyaW5nKCkpPwogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBpZiBieXRlcy5sZW4oKS5zYXR1cmF0aW5nX2FkZChjaHVuay5sZW4oKSkgPiBNQVhfUkVTUE9OU0VfQllURVMgewogICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoIumdouadv+WTjeW6lOi2hei/hyAxIE1pQiDlronlhajkuIrpmZAiLnRvX3N0cmluZygpKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGJ5dGVzLmV4dGVuZF9mcm9tX3NsaWNlKCZjaHVuayk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgIXN0YXR1cy5pc19zdWNjZXNzKCkgewogICAgICAgICAgICAgICAgcmV0dXJuIEVycihmb3JtYXQhKCLpnaLmnb/ov5Tlm54gSFRUUCB7fSIsIHN0YXR1cy5hc191MTYoKSkpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIGJ5dGVzLmlzX2VtcHR5KCkgewogICAgICAgICAgICAgICAgcmV0dXJuIE9rKFZhbHVlOjpOdWxsKTsKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gc2VyZGVfanNvbjo6ZnJvbV9zbGljZSgmYnl0ZXMpCiAgICAgICAgICAgICAgICAubWFwX2Vycih8X3wgIumdouadv+i/lOWbnueahOS4jeaYr+acieaViCBKU09OIi50b19zdHJpbmcoKSk7CiAgICAgICAgfQogICAgICAgIEVycigi6Z2i5p2/6K+35rGC6YeN6K+V6ICX5bC9Ii50b19zdHJpbmcoKSkKICAgIH0KfQoKZm4gdmFsaWRhdGVfYmFzZV91cmwodmFsdWU6ICZzdHIpIC0+IFJlc3VsdDxVcmwsIFN0cmluZz4gewogICAgbGV0IHVybCA9IFVybDo6cGFyc2UodmFsdWUudHJpbSgpKS5tYXBfZXJyKHxffCAiQmFzZSBVUkwg5peg5pWIIi50b19zdHJpbmcoKSk/OwogICAgaWYgIW1hdGNoZXMhKHVybC5zY2hlbWUoKSwgImh0dHAiIHwgImh0dHBzIikgewogICAgICAgIHJldHVybiBFcnIoIkJhc2UgVVJMIOS7heaUr+aMgSBIVFRQIOaIliBIVFRQUyIudG9fc3RyaW5nKCkpOwogICAgfQogICAgaWYgIXVybC51c2VybmFtZSgpLmlzX2VtcHR5KCkgfHwgdXJsLnBhc3N3b3JkKCkuaXNfc29tZSgpIHsKICAgICAgICByZXR1cm4gRXJyKCJCYXNlIFVSTCDkuI3lhYHorrjljIXlkKvnlKjmiLflkI3miJblr4bnoIEiLnRvX3N0cmluZygpKTsKICAgIH0KICAgIGlmIHVybC5ob3N0X3N0cigpLmlzX25vbmUoKSB8fCB1cmwuZnJhZ21lbnQoKS5pc19zb21lKCkgfHwgdXJsLnF1ZXJ5KCkuaXNfc29tZSgpIHsKICAgICAgICByZXR1cm4gRXJyKCJCYXNlIFVSTCDlv4XpobvljIXlkKvkuLvmnLrvvIzkuJTkuI3og73ljIXlkKvmn6Xor6Llj4LmlbDmiJbniYfmrrUiLnRvX3N0cmluZygpKTsKICAgIH0KICAgIE9rKHVybCkKfQoKYXN5bmMgZm4gcmV0cnlfZGVsYXkoYXR0ZW1wdDogdXNpemUsIHJldHJ5X2FmdGVyOiBPcHRpb248dTY0PikgewogICAgbGV0IGJhc2UgPSByZXRyeV9hZnRlci51bndyYXBfb3IoMV91NjQgPDwgYXR0ZW1wdC5taW4oMykpLm1pbigzMCk7CiAgICBsZXQgaml0dGVyID0gdTY0Ojpmcm9tKHJhbmQ6OnJhbmRvbTo6PHU4PigpICUgMjUwKTsKICAgIHNsZWVwKER1cmF0aW9uOjpmcm9tX21pbGxpcyhiYXNlICogMTAwMCArIGppdHRlcikpLmF3YWl0Owp9CgpmbiBwYXJzZV9yZXRyeV9hZnRlcih2YWx1ZTogJnN0cikgLT4gT3B0aW9uPHU2ND4gewogICAgaWYgbGV0IE9rKHNlY29uZHMpID0gdmFsdWUudHJpbSgpLnBhcnNlOjo8dTY0PigpIHsKICAgICAgICByZXR1cm4gU29tZShzZWNvbmRzKTsKICAgIH0KICAgIGh0dHBkYXRlOjpwYXJzZV9odHRwX2RhdGUodmFsdWUpCiAgICAgICAgLm9rKCk/CiAgICAgICAgLmR1cmF0aW9uX3NpbmNlKHN0ZDo6dGltZTo6U3lzdGVtVGltZTo6bm93KCkpCiAgICAgICAgLm9rKCkKICAgICAgICAubWFwKHxkdXJhdGlvbnwgZHVyYXRpb24uYXNfc2VjcygpLm1heCgxKSkKfQoKcHViIGZuIGVuc3VyZV9hcGlfc3VjY2Vzcyh2YWx1ZTogJlZhbHVlKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgaWYgdmFsdWUuZ2V0KCJzdWNjZXNzIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpID09IFNvbWUoZmFsc2UpCiAgICAgICAgfHwgdmFsdWUKICAgICAgICAgICAgLmdldCgiY29kZSIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KQogICAgICAgICAgICAuaXNfc29tZV9hbmQofGNvZGV8IGNvZGUgIT0gMCAmJiBjb2RlICE9IDIwMCkKICAgIHsKICAgICAgICByZXR1cm4gRXJyKCLpnaLmnb8gQVBJIOaLkue7neS6huivt+axgiIudG9fc3RyaW5nKCkpOwogICAgfQogICAgT2soKCkpCn0KCnB1YiBmbiByZXNwb25zZV9kYXRhKHZhbHVlOiAmVmFsdWUpIC0+ICZWYWx1ZSB7CiAgICB2YWx1ZS5nZXQoImRhdGEiKS51bndyYXBfb3IodmFsdWUpCn0KCnB1YiBmbiByZXNwb25zZV9pZCh2YWx1ZTogJlZhbHVlKSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBsZXQgdmFsdWUgPSByZXNwb25zZV9kYXRhKHZhbHVlKTsKICAgIFsKICAgICAgICAiaWQiLAogICAgICAgICJJRCIsCiAgICAgICAgIml0ZW1Hcm91cElEIiwKICAgICAgICAiY2F0ZWdvcnlfaWQiLAogICAgICAgICJjYXRlbG9nSWQiLAogICAgICAgICJ0b29sX2lkIiwKICAgIF0KICAgIC5pbnRvX2l0ZXIoKQogICAgLmZpbmRfbWFwKHxrZXl8IHZhbHVlLmdldChrZXkpKQogICAgLm9yX2Vsc2UofHwgdmFsdWUuYXNfaTY0KCkubWFwKHxffCB2YWx1ZSkpCiAgICAuYW5kX3RoZW4ofHZhbHVlfCB7CiAgICAgICAgdmFsdWUKICAgICAgICAgICAgLmFzX3N0cigpCiAgICAgICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCiAgICAgICAgICAgIC5vcl9lbHNlKHx8IHZhbHVlLmFzX2k2NCgpLm1hcCh8dmFsdWV8IHZhbHVlLnRvX3N0cmluZygpKSkKICAgIH0pCn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN0ZDo6dGltZTo6e0R1cmF0aW9uLCBTeXN0ZW1UaW1lfTsKCiAgICB1c2Ugc3VwZXI6OntQYW5lbEh0dHBDbGllbnQsIHBhcnNlX3JldHJ5X2FmdGVyLCB2YWxpZGF0ZV9iYXNlX3VybH07CiAgICB1c2UgY3JhdGU6OnBhbmVsX3N5bmM6Om1vZGVsOjoqOwoKICAgICNbdGVzdF0KICAgIGZuIHJldHJ5X2FmdGVyX2FjY2VwdHNfc2Vjb25kc19hbmRfaHR0cF9kYXRlcygpIHsKICAgICAgICBhc3NlcnRfZXEhKHBhcnNlX3JldHJ5X2FmdGVyKCI3IiksIFNvbWUoNykpOwogICAgICAgIGxldCB2YWx1ZSA9IGh0dHBkYXRlOjpmbXRfaHR0cF9kYXRlKFN5c3RlbVRpbWU6Om5vdygpICsgRHVyYXRpb246OmZyb21fc2Vjcyg1KSk7CiAgICAgICAgYXNzZXJ0IShwYXJzZV9yZXRyeV9hZnRlcigmdmFsdWUpLmlzX3NvbWVfYW5kKHxzZWNvbmRzfCAoMS4uPTUpLmNvbnRhaW5zKCZzZWNvbmRzKSkpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHBhbmVsX3VybHNfcmVqZWN0X2NyZWRlbnRpYWxzX2FuZF91bnN1cHBvcnRlZF9zY2hlbWVzKCkgewogICAgICAgIGFzc2VydCEodmFsaWRhdGVfYmFzZV91cmwoImh0dHBzOi8vcGFuZWwuZXhhbXBsZS50ZXN0IikuaXNfb2soKSk7CiAgICAgICAgYXNzZXJ0ISh2YWxpZGF0ZV9iYXNlX3VybCgiZnRwOi8vcGFuZWwuZXhhbXBsZS50ZXN0IikuaXNfZXJyKCkpOwogICAgICAgIGFzc2VydCEodmFsaWRhdGVfYmFzZV91cmwoImh0dHBzOi8vdG9rZW5AcGFuZWwuZXhhbXBsZS50ZXN0IikuaXNfZXJyKCkpOwogICAgICAgIGFzc2VydCEodmFsaWRhdGVfYmFzZV91cmwoImh0dHBzOi8vcGFuZWwuZXhhbXBsZS50ZXN0P3Rva2VuPXNlY3JldCIpLmlzX2VycigpKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBlbmRwb2ludF9wcmVzZXJ2ZXNfcmV2ZXJzZV9wcm94eV9iYXNlX3BhdGhzX2FuZF9hcGlfcXVlcmllcygpIHsKICAgICAgICBsZXQgY29ubmVjdGlvbiA9IFBhbmVsQ29ubmVjdGlvbiB7CiAgICAgICAgICAgIGlkOiAiY29ubmVjdGlvbiIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIG5hbWU6ICJPbmVOYXYiLnRvX3N0cmluZygpLAogICAgICAgICAgICBwcm92aWRlcjogUGFuZWxQcm92aWRlcjo6T25lTmF2LAogICAgICAgICAgICBiYXNlX3VybDogImh0dHBzOi8vcGFuZWwuZXhhbXBsZS50ZXN0L3JldmVyc2UtcHJveHkiLnRvX3N0cmluZygpLAogICAgICAgICAgICBhcGlfcGF0aDogIi9pbmRleC5waHA/Yz1hcGkiLnRvX3N0cmluZygpLAogICAgICAgICAgICBhbGxvd19pbnZhbGlkX3RsczogZmFsc2UsCiAgICAgICAgICAgIGdyb3VwaW5nOiBHcm91cGluZ0NvbmZpZzo6ZGVmYXVsdCgpLAogICAgICAgICAgICBhdXRvX3N5bmM6IEF1dG9TeW5jQ29uZmlnOjpkZWZhdWx0KCksCiAgICAgICAgICAgIGNyZWRlbnRpYWxfY29uZmlndXJlZDogdHJ1ZSwKICAgICAgICAgICAgdmVyaWZpZWRfYXQ6IE5vbmUsCiAgICAgICAgICAgIHZlcmlmaWVkX3ZlcnNpb246IE5vbmUsCiAgICAgICAgICAgIGNyZWF0ZWRfYXQ6IFN0cmluZzo6bmV3KCksCiAgICAgICAgICAgIHVwZGF0ZWRfYXQ6IFN0cmluZzo6bmV3KCksCiAgICAgICAgICAgIGxhc3RfcnVuOiBOb25lLAogICAgICAgICAgICBuZXh0X3N5bmNfYXQ6IE5vbmUsCiAgICAgICAgfTsKICAgICAgICBsZXQgZW5kcG9pbnQgPSBQYW5lbEh0dHBDbGllbnQ6Om5ldygmY29ubmVjdGlvbikKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5lbmRwb2ludCgiIikKICAgICAgICAgICAgLnVud3JhcCgpOwogICAgICAgIGFzc2VydF9lcSEoZW5kcG9pbnQucGF0aCgpLCAiL3JldmVyc2UtcHJveHkvaW5kZXgucGhwIik7CiAgICAgICAgYXNzZXJ0X2VxIShlbmRwb2ludC5xdWVyeSgpLCBTb21lKCJjPWFwaSIpKTsKICAgIH0KfQo=
+use std::time::Duration;
+
+use reqwest::{Method, StatusCode};
+use serde_json::Value;
+use tokio::time::sleep;
+use url::Url;
+
+use crate::panel_sync::model::PanelConnection;
+
+const MAX_RESPONSE_BYTES: usize = 1024 * 1024;
+const MAX_ATTEMPTS: usize = 3;
+
+#[derive(Clone)]
+pub struct PanelHttpClient {
+    client: reqwest::Client,
+    base: Url,
+    api_path: String,
+}
+
+impl PanelHttpClient {
+    pub fn new(connection: &PanelConnection) -> Result<Self, String> {
+        let base = validate_base_url(&connection.base_url)?;
+        let client = reqwest::Client::builder()
+            .connect_timeout(Duration::from_secs(5))
+            .timeout(Duration::from_secs(15))
+            .danger_accept_invalid_certs(connection.allow_invalid_tls)
+            .redirect(reqwest::redirect::Policy::none())
+            .build()
+            .map_err(|_| "无法创建面板 HTTP 客户端".to_string())?;
+        Ok(Self {
+            client,
+            base,
+            api_path: connection.api_path.clone(),
+        })
+    }
+
+    pub fn endpoint(&self, suffix: &str) -> Result<Url, String> {
+        let mut url = self.base.clone();
+        let root = self.api_path.split('?').next().unwrap_or("");
+        let base_path = self.base.path().trim_end_matches('/');
+        let api_path = root.trim_matches('/');
+        let suffix = suffix.trim_matches('/');
+        let path = if suffix.is_empty() {
+            format!("{base_path}/{api_path}")
+        } else {
+            format!("{base_path}/{api_path}/{suffix}")
+        };
+        url.set_path(&path);
+        url.set_query(self.api_path.split_once('?').map(|(_, query)| query));
+        Ok(url)
+    }
+
+    pub async fn json(
+        &self,
+        method: Method,
+        url: Url,
+        headers: &[(String, String)],
+        body: Option<&Value>,
+        form: Option<&[(String, String)]>,
+    ) -> Result<Value, String> {
+        self.json_with_retry(method, url, headers, body, form, true)
+            .await
+    }
+
+    /// Sends a non-idempotent mutation once. Retrying a create request after a
+    /// lost response can produce duplicate panel entries, so adapters use this
+    /// for providers that do not expose an idempotency key.
+    pub async fn json_once(
+        &self,
+        method: Method,
+        url: Url,
+        headers: &[(String, String)],
+        body: Option<&Value>,
+        form: Option<&[(String, String)]>,
+    ) -> Result<Value, String> {
+        self.json_with_retry(method, url, headers, body, form, false)
+            .await
+    }
+
+    async fn json_with_retry(
+        &self,
+        method: Method,
+        url: Url,
+        headers: &[(String, String)],
+        body: Option<&Value>,
+        form: Option<&[(String, String)]>,
+        retry_safe: bool,
+    ) -> Result<Value, String> {
+        if url.origin() != self.base.origin() {
+            return Err("面板请求不得跨源".to_string());
+        }
+        let attempts = if retry_safe { MAX_ATTEMPTS } else { 1 };
+        for attempt in 0..attempts {
+            let mut request = self.client.request(method.clone(), url.clone());
+            for (name, value) in headers {
+                request = request.header(name, value);
+            }
+            if let Some(body) = body {
+                request = request.json(body);
+            }
+            if let Some(form) = form {
+                let mut encoded = url::form_urlencoded::Serializer::new(String::new());
+                for (name, value) in form {
+                    encoded.append_pair(name, value);
+                }
+                request = request
+                    .header(
+                        reqwest::header::CONTENT_TYPE,
+                        "application/x-www-form-urlencoded",
+                    )
+                    .body(encoded.finish());
+            }
+            let response = request.send().await;
+            let mut response = match response {
+                Ok(value) => value,
+                Err(_) if attempt + 1 < attempts => {
+                    retry_delay(attempt, None).await;
+                    continue;
+                }
+                Err(_) => return Err("无法连接面板，请检查地址、TLS 与网络".to_string()),
+            };
+            let status = response.status();
+            if status.is_redirection() {
+                return Err("面板返回了重定向；为防止凭据泄露，请直接填写最终 API 地址".to_string());
+            }
+            if (status == StatusCode::TOO_MANY_REQUESTS || status.is_server_error())
+                && attempt + 1 < attempts
+            {
+                let retry_after = response
+                    .headers()
+                    .get(reqwest::header::RETRY_AFTER)
+                    .and_then(|value| value.to_str().ok())
+                    .and_then(parse_retry_after);
+                retry_delay(attempt, retry_after).await;
+                continue;
+            }
+            let mut bytes = Vec::new();
+            while let Some(chunk) = response
+                .chunk()
+                .await
+                .map_err(|_| "读取面板响应失败".to_string())?
+            {
+                if bytes.len().saturating_add(chunk.len()) > MAX_RESPONSE_BYTES {
+                    return Err("面板响应超过 1 MiB 安全上限".to_string());
+                }
+                bytes.extend_from_slice(&chunk);
+            }
+            if !status.is_success() {
+                return Err(format!("面板返回 HTTP {}", status.as_u16()));
+            }
+            if bytes.is_empty() {
+                return Ok(Value::Null);
+            }
+            return serde_json::from_slice(&bytes)
+                .map_err(|_| "面板返回的不是有效 JSON".to_string());
+        }
+        Err("面板请求重试耗尽".to_string())
+    }
+}
+
+fn validate_base_url(value: &str) -> Result<Url, String> {
+    let url = Url::parse(value.trim()).map_err(|_| "Base URL 无效".to_string())?;
+    if !matches!(url.scheme(), "http" | "https") {
+        return Err("Base URL 仅支持 HTTP 或 HTTPS".to_string());
+    }
+    if !url.username().is_empty() || url.password().is_some() {
+        return Err("Base URL 不允许包含用户名或密码".to_string());
+    }
+    if url.host_str().is_none() || url.fragment().is_some() || url.query().is_some() {
+        return Err("Base URL 必须包含主机，且不能包含查询参数或片段".to_string());
+    }
+    Ok(url)
+}
+
+async fn retry_delay(attempt: usize, retry_after: Option<u64>) {
+    let base = retry_after.unwrap_or(1_u64 << attempt.min(3)).min(30);
+    let jitter = u64::from(rand::random::<u8>() % 250);
+    sleep(Duration::from_millis(base * 1000 + jitter)).await;
+}
+
+fn parse_retry_after(value: &str) -> Option<u64> {
+    if let Ok(seconds) = value.trim().parse::<u64>() {
+        return Some(seconds);
+    }
+    httpdate::parse_http_date(value)
+        .ok()?
+        .duration_since(std::time::SystemTime::now())
+        .ok()
+        .map(|duration| duration.as_secs().max(1))
+}
+
+pub fn ensure_api_success(value: &Value) -> Result<(), String> {
+    if value.get("success").and_then(Value::as_bool) == Some(false)
+        || value
+            .get("code")
+            .and_then(Value::as_i64)
+            .is_some_and(|code| code != 0 && code != 200)
+    {
+        return Err("面板 API 拒绝了请求".to_string());
+    }
+    Ok(())
+}
+
+pub fn response_data(value: &Value) -> &Value {
+    value.get("data").unwrap_or(value)
+}
+
+pub fn response_id(value: &Value) -> Option<String> {
+    let value = response_data(value);
+    [
+        "id",
+        "ID",
+        "itemGroupID",
+        "category_id",
+        "catelogId",
+        "tool_id",
+    ]
+    .into_iter()
+    .find_map(|key| value.get(key))
+    .or_else(|| value.as_i64().map(|_| value))
+    .and_then(|value| {
+        value
+            .as_str()
+            .map(str::to_string)
+            .or_else(|| value.as_i64().map(|value| value.to_string()))
+    })
+}
+
+#[cfg(test)]
+mod tests {
+    use std::time::{Duration, SystemTime};
+
+    use super::{PanelHttpClient, parse_retry_after, validate_base_url};
+    use crate::panel_sync::model::*;
+
+    #[test]
+    fn retry_after_accepts_seconds_and_http_dates() {
+        assert_eq!(parse_retry_after("7"), Some(7));
+        let value = httpdate::fmt_http_date(SystemTime::now() + Duration::from_secs(5));
+        assert!(parse_retry_after(&value).is_some_and(|seconds| (1..=5).contains(&seconds)));
+    }
+
+    #[test]
+    fn panel_urls_reject_credentials_and_unsupported_schemes() {
+        assert!(validate_base_url("https://panel.example.test").is_ok());
+        assert!(validate_base_url("ftp://panel.example.test").is_err());
+        assert!(validate_base_url("https://token@panel.example.test").is_err());
+        assert!(validate_base_url("https://panel.example.test?token=secret").is_err());
+    }
+
+    #[test]
+    fn endpoint_preserves_reverse_proxy_base_paths_and_api_queries() {
+        let connection = PanelConnection {
+            id: "connection".to_string(),
+            name: "OneNav".to_string(),
+            provider: PanelProvider::OneNav,
+            base_url: "https://panel.example.test/reverse-proxy".to_string(),
+            api_path: "/index.php?c=api".to_string(),
+            allow_invalid_tls: false,
+            grouping: GroupingConfig::default(),
+            auto_sync: AutoSyncConfig::default(),
+            credential_configured: true,
+            verified_at: None,
+            verified_version: None,
+            created_at: String::new(),
+            updated_at: String::new(),
+            last_run: None,
+            next_sync_at: None,
+        };
+        let endpoint = PanelHttpClient::new(&connection)
+            .unwrap()
+            .endpoint("")
+            .unwrap();
+        assert_eq!(endpoint.path(), "/reverse-proxy/index.php");
+        assert_eq!(endpoint.query(), Some("c=api"));
+    }
+}

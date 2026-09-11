@@ -1,1 +1,85 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgdGVzdCBmcm9tICJub2RlOnRlc3QiOwoKaW1wb3J0IHsKICBST1VURV9UWVBFX1RSQU5TTEFUSU9OX0tFWVMsCiAgcm91dGVUeXBlTGFiZWwsCn0gZnJvbSAiLi4vc3JjL2xpYi9yb3V0ZVR5cGUiOwppbXBvcnQgeyByZWFkTWVzc2FnZVBhdGggfSBmcm9tICIuLi8uLi8uLi9wYWNrYWdlcy9pMThuL3NyYy9jb3JlIjsKaW1wb3J0IHsgZW5BZG1pbiB9IGZyb20gIi4uLy4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL21lc3NhZ2VzL2FkbWluL2VuIjsKaW1wb3J0IHsgamFKUEFkbWluIH0gZnJvbSAiLi4vLi4vLi4vcGFja2FnZXMvaTE4bi9zcmMvbWVzc2FnZXMvYWRtaW4vamEtSlAiOwppbXBvcnQgeyBrb0tSQWRtaW4gfSBmcm9tICIuLi8uLi8uLi9wYWNrYWdlcy9pMThuL3NyYy9tZXNzYWdlcy9hZG1pbi9rby1LUiI7CmltcG9ydCB7IHpoQ05BZG1pbiB9IGZyb20gIi4uLy4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL21lc3NhZ2VzL2FkbWluL3poLUNOIjsKaW1wb3J0IHsgemhIYW50QWRtaW4gfSBmcm9tICIuLi8uLi8uLi9wYWNrYWdlcy9pMThuL3NyYy9tZXNzYWdlcy9hZG1pbi96aC1IYW50IjsKCmNvbnN0IGdhdGV3YXlSb3V0ZVR5cGVzID0gWwogICJhdXRoX3Byb3h5IiwKICAiY2VydGlmaWNhdGVfZGVwbG95IiwKICAiY3Jhd2xlcl9ibG9ja2VyIiwKICAiZGVmYXVsdF9ob3N0X3JlZGlyZWN0IiwKICAiZmF2aWNvbiIsCiAgImZuX2Nvbm5lY3QiLAogICJnZW5lcmFsX2JsYWNrbGlzdCIsCiAgImhvc3RfbG9jYXRpb24iLAogICJob3N0X3J1bGUiLAogICJob3N0X3VuYXZhaWxhYmxlIiwKICAibm90X2ZvdW5kIiwKICAicGF0aF9ydWxlIiwKICAicHJlZmxpZ2h0IiwKICAicHJvdG9jb2xfbWlzZGlyZWN0ZWQiLAogICJzZWxlY3QiLAogICJzbGFzaF9yZWRpcmVjdCIsCiAgInN0YXRpY19kaXJlY3RvcnkiLAogICJzdGF0aWNfZmlsZSIsCiAgInN0cmVhbV9ydWxlIiwKICAidG9vbGJhcl9hc3NldCIsCiAgInRvb2xiYXJfZGF0YSIsCiAgInVubWF0Y2hlZF9yb3V0ZV9ibG9ja2VkIiwKICAidmlzaWJpbGl0eSIsCiAgIndvbCIsCl0gYXMgY29uc3Q7Cgpjb25zdCBhZG1pbk1lc3NhZ2VzQnlMb2NhbGUgPSB7CiAgZW46IGVuQWRtaW4sCiAgImphLUpQIjogamFKUEFkbWluLAogICJrby1LUiI6IGtvS1JBZG1pbiwKICAiemgtQ04iOiB6aENOQWRtaW4sCiAgInpoLUhhbnQiOiB6aEhhbnRBZG1pbiwKfSBhcyBjb25zdDsKCnRlc3QoImV2ZXJ5IGdhdGV3YXkgcm91dGUgdHlwZSByZXNvbHZlcyB0aHJvdWdoIGkxOG4iLCAoKSA9PiB7CiAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgIE9iamVjdC5rZXlzKFJPVVRFX1RZUEVfVFJBTlNMQVRJT05fS0VZUykuc29ydCgpLAogICAgWy4uLmdhdGV3YXlSb3V0ZVR5cGVzXS5zb3J0KCksCiAgKTsKCiAgZm9yIChjb25zdCBbbG9jYWxlLCBhZG1pbk1lc3NhZ2VzXSBvZiBPYmplY3QuZW50cmllcyhhZG1pbk1lc3NhZ2VzQnlMb2NhbGUpKSB7CiAgICBmb3IgKGNvbnN0IHJvdXRlVHlwZSBvZiBnYXRld2F5Um91dGVUeXBlcykgewogICAgICBjb25zdCB0cmFuc2xhdGlvbktleSA9IFJPVVRFX1RZUEVfVFJBTlNMQVRJT05fS0VZU1tyb3V0ZVR5cGVdOwogICAgICBjb25zdCBsYWJlbCA9IHJvdXRlVHlwZUxhYmVsKHJvdXRlVHlwZSwgKGtleSkgPT4gewogICAgICAgIGNvbnN0IG1lc3NhZ2UgPSByZWFkTWVzc2FnZVBhdGgoeyBhZG1pbjogYWRtaW5NZXNzYWdlcyB9LCBrZXkpOwogICAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICAgIHR5cGVvZiBtZXNzYWdlLAogICAgICAgICAgInN0cmluZyIsCiAgICAgICAgICBgJHtsb2NhbGV9IGlzIG1pc3NpbmcgJHt0cmFuc2xhdGlvbktleX1gLAogICAgICAgICk7CiAgICAgICAgcmV0dXJuIG1lc3NhZ2UgYXMgc3RyaW5nOwogICAgICB9KTsKCiAgICAgIGFzc2VydC5vayhsYWJlbC50cmltKCksIGAke2xvY2FsZX0gaGFzIGFuIGVtcHR5ICR7dHJhbnNsYXRpb25LZXl9YCk7CiAgICAgIGFzc2VydC5ub3RFcXVhbChsYWJlbCwgcm91dGVUeXBlKTsKICAgICAgYXNzZXJ0Lm5vdEVxdWFsKGxhYmVsLCB0cmFuc2xhdGlvbktleSk7CiAgICB9CiAgfQp9KTsKCnRlc3QoInVua25vd24gYW5kIGVtcHR5IHJvdXRlIHR5cGVzIHJldGFpbiBzYWZlIGZhbGxiYWNrcyIsICgpID0+IHsKICBhc3NlcnQuZXF1YWwoCiAgICByb3V0ZVR5cGVMYWJlbCgiZnV0dXJlX3JvdXRlIiwgKGtleSkgPT4ga2V5KSwKICAgICJmdXR1cmVfcm91dGUiLAogICk7CiAgYXNzZXJ0LmVxdWFsKAogICAgcm91dGVUeXBlTGFiZWwodW5kZWZpbmVkLCAoa2V5KSA9PiBrZXkpLAogICAgIi0iLAogICk7Cn0pOwo=
+import assert from "node:assert/strict";
+import test from "node:test";
+
+import {
+  ROUTE_TYPE_TRANSLATION_KEYS,
+  routeTypeLabel,
+} from "../src/lib/routeType";
+import { readMessagePath } from "../../../packages/i18n/src/core";
+import { enAdmin } from "../../../packages/i18n/src/messages/admin/en";
+import { jaJPAdmin } from "../../../packages/i18n/src/messages/admin/ja-JP";
+import { koKRAdmin } from "../../../packages/i18n/src/messages/admin/ko-KR";
+import { zhCNAdmin } from "../../../packages/i18n/src/messages/admin/zh-CN";
+import { zhHantAdmin } from "../../../packages/i18n/src/messages/admin/zh-Hant";
+
+const gatewayRouteTypes = [
+  "auth_proxy",
+  "certificate_deploy",
+  "crawler_blocker",
+  "default_host_redirect",
+  "favicon",
+  "fn_connect",
+  "general_blacklist",
+  "host_location",
+  "host_rule",
+  "host_unavailable",
+  "not_found",
+  "path_rule",
+  "preflight",
+  "protocol_misdirected",
+  "select",
+  "slash_redirect",
+  "static_directory",
+  "static_file",
+  "stream_rule",
+  "toolbar_asset",
+  "toolbar_data",
+  "unmatched_route_blocked",
+  "visibility",
+  "wol",
+] as const;
+
+const adminMessagesByLocale = {
+  en: enAdmin,
+  "ja-JP": jaJPAdmin,
+  "ko-KR": koKRAdmin,
+  "zh-CN": zhCNAdmin,
+  "zh-Hant": zhHantAdmin,
+} as const;
+
+test("every gateway route type resolves through i18n", () => {
+  assert.deepEqual(
+    Object.keys(ROUTE_TYPE_TRANSLATION_KEYS).sort(),
+    [...gatewayRouteTypes].sort(),
+  );
+
+  for (const [locale, adminMessages] of Object.entries(adminMessagesByLocale)) {
+    for (const routeType of gatewayRouteTypes) {
+      const translationKey = ROUTE_TYPE_TRANSLATION_KEYS[routeType];
+      const label = routeTypeLabel(routeType, (key) => {
+        const message = readMessagePath({ admin: adminMessages }, key);
+        assert.equal(
+          typeof message,
+          "string",
+          `${locale} is missing ${translationKey}`,
+        );
+        return message as string;
+      });
+
+      assert.ok(label.trim(), `${locale} has an empty ${translationKey}`);
+      assert.notEqual(label, routeType);
+      assert.notEqual(label, translationKey);
+    }
+  }
+});
+
+test("unknown and empty route types retain safe fallbacks", () => {
+  assert.equal(
+    routeTypeLabel("future_route", (key) => key),
+    "future_route",
+  );
+  assert.equal(
+    routeTypeLabel(undefined, (key) => key),
+    "-",
+  );
+});

@@ -1,1 +1,247 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgVnVlRHJhZ2dhYmxlIH0gZnJvbSAidnVlLWRyYWdnYWJsZS1wbHVzIjsKaW1wb3J0IHsKICBCcmVhZGNydW1iLAogIEJyZWFkY3J1bWJJdGVtLAogIEJyZWFkY3J1bWJMaW5rLAogIEJyZWFkY3J1bWJMaXN0LAogIEJyZWFkY3J1bWJQYWdlLAogIEJyZWFkY3J1bWJTZXBhcmF0b3IsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JyZWFkY3J1bWIiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBDYXJkLAogIENhcmRDb250ZW50LAogIENhcmREZXNjcmlwdGlvbiwKICBDYXJkSGVhZGVyLAogIENhcmRUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7IEdyaXBWZXJ0aWNhbCwgUm90YXRlQ2N3IH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgZXh0cmFjdEVycm9yTWVzc2FnZSB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB1c2VDb25maWdTdG9yZSB9IGZyb20gIkAvc3RvcmUvY29uZmlnIjsKaW1wb3J0IHR5cGUgeyBTaWRlYmFyTmF2SXRlbUlkIH0gZnJvbSAiQC90eXBlcyI7CmltcG9ydCB7IHVzZUxheW91dE5hdmlnYXRpb24gfSBmcm9tICIuLi9sYXlvdXQvdXNlTGF5b3V0TmF2aWdhdGlvbiI7CmltcG9ydCB7CiAgREVGQVVMVF9TSURFQkFSX01FTlVfT1JERVIsCiAgaGFzU2FtZVNpZGViYXJNZW51T3JkZXIsCiAgbWVyZ2VWaXNpYmxlU2lkZWJhck1lbnVPcmRlciwKICBub3JtYWxpemVTaWRlYmFyTWVudU9yZGVyLAogIG9yZGVyU2lkZWJhck5hdkl0ZW1zLAogIHR5cGUgU2lkZWJhck5hdkl0ZW0sCn0gZnJvbSAiLi4vbGF5b3V0L3NpZGViYXJOYXZpZ2F0aW9uIjsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBjb25maWdTdG9yZSA9IHVzZUNvbmZpZ1N0b3JlKCk7CmNvbnN0IHsgbmF2SXRlbXMgfSA9IHVzZUxheW91dE5hdmlnYXRpb24oKTsKY29uc3QgZHJhZ2dhYmxlSXRlbXMgPSByZWY8U2lkZWJhck5hdkl0ZW1bXT4oW10pOwpjb25zdCBzYXZlZE9yZGVyID0gcmVmPFNpZGViYXJOYXZJdGVtSWRbXT4oCiAgbm9ybWFsaXplU2lkZWJhck1lbnVPcmRlcigKICAgIGNvbmZpZ1N0b3JlLmNvbmZpZz8uZGFzaGJvYXJkX2Rpc3BsYXk/LnNpZGViYXJfbWVudV9vcmRlciwKICApLAopOwpjb25zdCBpc1NhdmluZyA9IHJlZihmYWxzZSk7CmNvbnN0IGlzQ29uZmlnUmVhZHkgPSBjb21wdXRlZCgKICAoKSA9PgogICAgQm9vbGVhbihjb25maWdTdG9yZS5jb25maWcpICYmCiAgICAhY29uZmlnU3RvcmUuaXNMb2FkaW5nICYmCiAgICAhY29uZmlnU3RvcmUuaXNFcnJvciwKKTsKCmNvbnN0IGlzRGVmYXVsdE9yZGVyID0gY29tcHV0ZWQoKCkgPT4KICBoYXNTYW1lU2lkZWJhck1lbnVPcmRlcihzYXZlZE9yZGVyLnZhbHVlLCBbLi4uREVGQVVMVF9TSURFQkFSX01FTlVfT1JERVJdKSwKKTsKCmNvbnN0IHN5bmNWaXNpYmxlSXRlbXMgPSAoKSA9PiB7CiAgZHJhZ2dhYmxlSXRlbXMudmFsdWUgPSBvcmRlclNpZGViYXJOYXZJdGVtcyhuYXZJdGVtcy52YWx1ZSwgc2F2ZWRPcmRlci52YWx1ZSk7Cn07Cgp3YXRjaCgKICBbCiAgICAoKSA9PiBjb25maWdTdG9yZS5jb25maWc/LmRhc2hib2FyZF9kaXNwbGF5Py5zaWRlYmFyX21lbnVfb3JkZXIsCiAgICBuYXZJdGVtcywKICAgIGlzQ29uZmlnUmVhZHksCiAgXSwKICAoW29yZGVyLCAsIHJlYWR5XSkgPT4gewogICAgaWYgKGlzU2F2aW5nLnZhbHVlKSByZXR1cm47CiAgICBpZiAoIXJlYWR5KSB7CiAgICAgIGRyYWdnYWJsZUl0ZW1zLnZhbHVlID0gW107CiAgICAgIHJldHVybjsKICAgIH0KICAgIHNhdmVkT3JkZXIudmFsdWUgPSBub3JtYWxpemVTaWRlYmFyTWVudU9yZGVyKG9yZGVyKTsKICAgIHN5bmNWaXNpYmxlSXRlbXMoKTsKICB9LAogIHsgaW1tZWRpYXRlOiB0cnVlIH0sCik7Cgpjb25zdCBwZXJzaXN0T3JkZXIgPSBhc3luYyAoCiAgbmV4dE9yZGVyOiBTaWRlYmFyTmF2SXRlbUlkW10sCiAgc3VjY2Vzc0tleTogc3RyaW5nLAopID0+IHsKICBpZiAoaXNTYXZpbmcudmFsdWUgfHwgIWlzQ29uZmlnUmVhZHkudmFsdWUpIHJldHVybjsKICBjb25zdCBwcmV2aW91c09yZGVyID0gWy4uLnNhdmVkT3JkZXIudmFsdWVdOwogIGlzU2F2aW5nLnZhbHVlID0gdHJ1ZTsKCiAgdHJ5IHsKICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGNvbmZpZ1N0b3JlLnNhdmVEYXNoYm9hcmREaXNwbGF5Q29uZmlnKHsKICAgICAgc2lkZWJhcl9tZW51X29yZGVyOiBuZXh0T3JkZXIsCiAgICB9KTsKICAgIHNhdmVkT3JkZXIudmFsdWUgPSBub3JtYWxpemVTaWRlYmFyTWVudU9yZGVyKHJlc3VsdC5zaWRlYmFyX21lbnVfb3JkZXIpOwogICAgc3luY1Zpc2libGVJdGVtcygpOwogICAgdG9hc3Quc3VjY2Vzcyh0KHN1Y2Nlc3NLZXkpKTsKICB9IGNhdGNoIChlcnJvcikgewogICAgc2F2ZWRPcmRlci52YWx1ZSA9IHByZXZpb3VzT3JkZXI7CiAgICBzeW5jVmlzaWJsZUl0ZW1zKCk7CiAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5zaWRlYmFyTWVudU9yZGVyLnNhdmVGYWlsZWQiKSwgewogICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICBlcnJvciwKICAgICAgICB0KCJhZG1pbi5zaWRlYmFyTWVudU9yZGVyLnNhdmVGYWlsZWREZXNjcmlwdGlvbiIpLAogICAgICApLAogICAgfSk7CiAgfSBmaW5hbGx5IHsKICAgIGlzU2F2aW5nLnZhbHVlID0gZmFsc2U7CiAgfQp9OwoKY29uc3Qgc2F2ZVZpc2libGVPcmRlciA9IGFzeW5jICgpID0+IHsKICBpZiAoIWlzQ29uZmlnUmVhZHkudmFsdWUpIHJldHVybjsKICBjb25zdCBuZXh0T3JkZXIgPSBtZXJnZVZpc2libGVTaWRlYmFyTWVudU9yZGVyKHsKICAgIGZ1bGxPcmRlcjogc2F2ZWRPcmRlci52YWx1ZSwKICAgIG5leHRWaXNpYmxlT3JkZXI6IGRyYWdnYWJsZUl0ZW1zLnZhbHVlLm1hcCgoaXRlbSkgPT4gaXRlbS5pZCksCiAgfSk7CiAgaWYgKGhhc1NhbWVTaWRlYmFyTWVudU9yZGVyKG5leHRPcmRlciwgc2F2ZWRPcmRlci52YWx1ZSkpIHsKICAgIHN5bmNWaXNpYmxlSXRlbXMoKTsKICAgIHJldHVybjsKICB9CiAgYXdhaXQgcGVyc2lzdE9yZGVyKG5leHRPcmRlciwgImFkbWluLnNpZGViYXJNZW51T3JkZXIuc2F2ZWQiKTsKfTsKCmNvbnN0IHJlc3RvcmVEZWZhdWx0T3JkZXIgPSBhc3luYyAoKSA9PiB7CiAgaWYgKGlzRGVmYXVsdE9yZGVyLnZhbHVlIHx8IGlzU2F2aW5nLnZhbHVlIHx8ICFpc0NvbmZpZ1JlYWR5LnZhbHVlKSByZXR1cm47CiAgYXdhaXQgcGVyc2lzdE9yZGVyKAogICAgWy4uLkRFRkFVTFRfU0lERUJBUl9NRU5VX09SREVSXSwKICAgICJhZG1pbi5zaWRlYmFyTWVudU9yZGVyLmRlZmF1bHRSZXN0b3JlZCIsCiAgKTsKfTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0ic3BhY2UteS01Ij4KICAgIDxCcmVhZGNydW1iPgogICAgICA8QnJlYWRjcnVtYkxpc3Q+CiAgICAgICAgPEJyZWFkY3J1bWJJdGVtPgogICAgICAgICAgPEJyZWFkY3J1bWJMaW5rIGhyZWY9IiMvc3lzdGVtIj57ewogICAgICAgICAgICB0KCJhZG1pbi5zaWRlYmFyTWVudU9yZGVyLnN5c3RlbVNldHRpbmdzIikKICAgICAgICAgIH19PC9CcmVhZGNydW1iTGluaz4KICAgICAgICA8L0JyZWFkY3J1bWJJdGVtPgogICAgICAgIDxCcmVhZGNydW1iU2VwYXJhdG9yIC8+CiAgICAgICAgPEJyZWFkY3J1bWJJdGVtPgogICAgICAgICAgPEJyZWFkY3J1bWJMaW5rIGhyZWY9IiMvc3lzdGVtP3RhYj1mZWF0dXJlcyI+e3sKICAgICAgICAgICAgdCgiYWRtaW4uc2lkZWJhck1lbnVPcmRlci5mZWF0dXJlcyIpCiAgICAgICAgICB9fTwvQnJlYWRjcnVtYkxpbms+CiAgICAgICAgPC9CcmVhZGNydW1iSXRlbT4KICAgICAgICA8QnJlYWRjcnVtYlNlcGFyYXRvciAvPgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iUGFnZT57ewogICAgICAgICAgICB0KCJhZG1pbi5zaWRlYmFyTWVudU9yZGVyLnRpdGxlIikKICAgICAgICAgIH19PC9CcmVhZGNydW1iUGFnZT4KICAgICAgICA8L0JyZWFkY3J1bWJJdGVtPgogICAgICA8L0JyZWFkY3J1bWJMaXN0PgogICAgPC9CcmVhZGNydW1iPgoKICAgIDxDYXJkIGNsYXNzPSJib3JkZXItYm9yZGVyLzUwIHNoYWRvdy1ub25lIj4KICAgICAgPENhcmRIZWFkZXI+CiAgICAgICAgPGRpdgogICAgICAgICAgY2xhc3M9ImZsZXggdy1mdWxsIGZsZXgtY29sIGdhcC00IHNtOmZsZXgtcm93IHNtOml0ZW1zLXN0YXJ0IHNtOmp1c3RpZnktYmV0d2VlbiIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEuNSI+CiAgICAgICAgICAgIDxDYXJkVGl0bGUgY2xhc3M9InRleHQteGwgdHJhY2tpbmctdGlnaHQiPnt7CiAgICAgICAgICAgICAgdCgiYWRtaW4uc2lkZWJhck1lbnVPcmRlci50aXRsZSIpCiAgICAgICAgICAgIH19PC9DYXJkVGl0bGU+CiAgICAgICAgICAgIDxDYXJkRGVzY3JpcHRpb24gY2xhc3M9Im1heC13LTJ4bCBsZWFkaW5nLTYiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLnNpZGViYXJNZW51T3JkZXIuZGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgICA8L0NhcmREZXNjcmlwdGlvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgIGNsYXNzPSJzaHJpbmstMCIKICAgICAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZyB8fCBpc0RlZmF1bHRPcmRlciB8fCAhaXNDb25maWdSZWFkeSIKICAgICAgICAgICAgQGNsaWNrPSJyZXN0b3JlRGVmYXVsdE9yZGVyIgogICAgICAgICAgPgogICAgICAgICAgICA8Um90YXRlQ2N3IGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnNpZGViYXJNZW51T3JkZXIucmVzdG9yZURlZmF1bHQiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvQ2FyZEhlYWRlcj4KCiAgICAgIDxDYXJkQ29udGVudCBjbGFzcz0iYm9yZGVyLXQgcHQtNiI+CiAgICAgICAgPGRpdiBjbGFzcz0idy1mdWxsIHNwYWNlLXktNCI+CiAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc2lkZWJhck1lbnVPcmRlci52aXNpYmxlT25seUhpbnQiKSB9fQogICAgICAgICAgPC9wPgoKICAgICAgICAgIDxkaXYKICAgICAgICAgICAgdi1pZj0iIWlzQ29uZmlnUmVhZHkiCiAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLXhsIGJvcmRlciBib3JkZXItZGFzaGVkIHB4LTUgcHktMTAgdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgIGFyaWEtbGl2ZT0icG9saXRlIgogICAgICAgICAgPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIGNvbmZpZ1N0b3JlLmlzRXJyb3IKICAgICAgICAgICAgICAgID8gdCgiY29tbW9uLmxvYWRDb25maWdGYWlsZWQiKQogICAgICAgICAgICAgICAgOiB0KCJjb21tb24ubG9hZGluZ0NvbmZpZyIpCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8VnVlRHJhZ2dhYmxlCiAgICAgICAgICAgIHYtZWxzZS1pZj0iZHJhZ2dhYmxlSXRlbXMubGVuZ3RoIgogICAgICAgICAgICB2LW1vZGVsPSJkcmFnZ2FibGVJdGVtcyIKICAgICAgICAgICAgY2xhc3M9ImRpdmlkZS15IG92ZXJmbG93LWhpZGRlbiByb3VuZGVkLXhsIGJvcmRlciBiZy1iYWNrZ3JvdW5kIgogICAgICAgICAgICBnaG9zdC1jbGFzcz0iYmctbXV0ZWQvNjAiCiAgICAgICAgICAgIGNob3Nlbi1jbGFzcz0iYmctbXV0ZWQvODAiCiAgICAgICAgICAgIDphbmltYXRpb249IjE4MCIKICAgICAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZyB8fCBkcmFnZ2FibGVJdGVtcy5sZW5ndGggPCAyIgogICAgICAgICAgICBAZW5kPSJzYXZlVmlzaWJsZU9yZGVyIgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgdi1mb3I9Iml0ZW0gaW4gZHJhZ2dhYmxlSXRlbXMiCiAgICAgICAgICAgICAgOmtleT0iaXRlbS5pZCIKICAgICAgICAgICAgICBjbGFzcz0iZ3JvdXAgZmxleCBjdXJzb3ItZ3JhYiBzZWxlY3Qtbm9uZSBpdGVtcy1jZW50ZXIgZ2FwLTMgcHgtNSBweS00IHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLW11dGVkLzQwIGFjdGl2ZTpjdXJzb3ItZ3JhYmJpbmciCiAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgICAgICAgICAgdCgnYWRtaW4uc2lkZWJhck1lbnVPcmRlci5kcmFnQXJpYScsIHsgbmFtZTogaXRlbS5uYW1lIH0pCiAgICAgICAgICAgICAgIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGNvbXBvbmVudAogICAgICAgICAgICAgICAgOmlzPSJpdGVtLmljb24iCiAgICAgICAgICAgICAgICBjbGFzcz0iaC00IHctNCBzaHJpbmstMCB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0ibWluLXctMCBmbGV4LTEgdHJ1bmNhdGUgdGV4dC1zbSBmb250LW1lZGl1bSI+e3sKICAgICAgICAgICAgICAgIGl0ZW0ubmFtZQogICAgICAgICAgICAgIH19PC9zcGFuPgogICAgICAgICAgICAgIDxHcmlwVmVydGljYWwKICAgICAgICAgICAgICAgIGNsYXNzPSJoLTQgdy00IHNocmluay0wIHRleHQtbXV0ZWQtZm9yZWdyb3VuZC82MCB0cmFuc2l0aW9uLWNvbG9ycyBncm91cC1ob3Zlcjp0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L1Z1ZURyYWdnYWJsZT4KCiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIHYtZWxzZQogICAgICAgICAgICBjbGFzcz0icm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWRhc2hlZCBweC01IHB5LTEwIHRleHQtY2VudGVyIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zaWRlYmFyTWVudU9yZGVyLmVtcHR5IikgfX0KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxwIGNsYXNzPSJtaW4taC01IHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiBhcmlhLWxpdmU9InBvbGl0ZSI+CiAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgaXNTYXZpbmcKICAgICAgICAgICAgICAgID8gdCgiYWRtaW4uc2lkZWJhck1lbnVPcmRlci5zYXZpbmciKQogICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5zaWRlYmFyTWVudU9yZGVyLmF1dG9TYXZlSGludCIpCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICA8L0NhcmQ+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { VueDraggable } from "vue-draggable-plus";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { GripVertical, RotateCcw } from "lucide-vue-next";
+import { toast } from "@admin-shared/utils/toast";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { useConfigStore } from "@/store/config";
+import type { SidebarNavItemId } from "@/types";
+import { useLayoutNavigation } from "../layout/useLayoutNavigation";
+import {
+  DEFAULT_SIDEBAR_MENU_ORDER,
+  hasSameSidebarMenuOrder,
+  mergeVisibleSidebarMenuOrder,
+  normalizeSidebarMenuOrder,
+  orderSidebarNavItems,
+  type SidebarNavItem,
+} from "../layout/sidebarNavigation";
+
+const { t } = useI18n();
+const configStore = useConfigStore();
+const { navItems } = useLayoutNavigation();
+const draggableItems = ref<SidebarNavItem[]>([]);
+const savedOrder = ref<SidebarNavItemId[]>(
+  normalizeSidebarMenuOrder(
+    configStore.config?.dashboard_display?.sidebar_menu_order,
+  ),
+);
+const isSaving = ref(false);
+const isConfigReady = computed(
+  () =>
+    Boolean(configStore.config) &&
+    !configStore.isLoading &&
+    !configStore.isError,
+);
+
+const isDefaultOrder = computed(() =>
+  hasSameSidebarMenuOrder(savedOrder.value, [...DEFAULT_SIDEBAR_MENU_ORDER]),
+);
+
+const syncVisibleItems = () => {
+  draggableItems.value = orderSidebarNavItems(navItems.value, savedOrder.value);
+};
+
+watch(
+  [
+    () => configStore.config?.dashboard_display?.sidebar_menu_order,
+    navItems,
+    isConfigReady,
+  ],
+  ([order, , ready]) => {
+    if (isSaving.value) return;
+    if (!ready) {
+      draggableItems.value = [];
+      return;
+    }
+    savedOrder.value = normalizeSidebarMenuOrder(order);
+    syncVisibleItems();
+  },
+  { immediate: true },
+);
+
+const persistOrder = async (
+  nextOrder: SidebarNavItemId[],
+  successKey: string,
+) => {
+  if (isSaving.value || !isConfigReady.value) return;
+  const previousOrder = [...savedOrder.value];
+  isSaving.value = true;
+
+  try {
+    const result = await configStore.saveDashboardDisplayConfig({
+      sidebar_menu_order: nextOrder,
+    });
+    savedOrder.value = normalizeSidebarMenuOrder(result.sidebar_menu_order);
+    syncVisibleItems();
+    toast.success(t(successKey));
+  } catch (error) {
+    savedOrder.value = previousOrder;
+    syncVisibleItems();
+    toast.error(t("admin.sidebarMenuOrder.saveFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.sidebarMenuOrder.saveFailedDescription"),
+      ),
+    });
+  } finally {
+    isSaving.value = false;
+  }
+};
+
+const saveVisibleOrder = async () => {
+  if (!isConfigReady.value) return;
+  const nextOrder = mergeVisibleSidebarMenuOrder({
+    fullOrder: savedOrder.value,
+    nextVisibleOrder: draggableItems.value.map((item) => item.id),
+  });
+  if (hasSameSidebarMenuOrder(nextOrder, savedOrder.value)) {
+    syncVisibleItems();
+    return;
+  }
+  await persistOrder(nextOrder, "admin.sidebarMenuOrder.saved");
+};
+
+const restoreDefaultOrder = async () => {
+  if (isDefaultOrder.value || isSaving.value || !isConfigReady.value) return;
+  await persistOrder(
+    [...DEFAULT_SIDEBAR_MENU_ORDER],
+    "admin.sidebarMenuOrder.defaultRestored",
+  );
+};
+</script>
+
+<template>
+  <div class="space-y-5">
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system">{{
+            t("admin.sidebarMenuOrder.systemSettings")
+          }}</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system?tab=features">{{
+            t("admin.sidebarMenuOrder.features")
+          }}</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbPage>{{
+            t("admin.sidebarMenuOrder.title")
+          }}</BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+
+    <Card class="border-border/50 shadow-none">
+      <CardHeader>
+        <div
+          class="flex w-full flex-col gap-4 sm:flex-row sm:items-start sm:justify-between"
+        >
+          <div class="space-y-1.5">
+            <CardTitle class="text-xl tracking-tight">{{
+              t("admin.sidebarMenuOrder.title")
+            }}</CardTitle>
+            <CardDescription class="max-w-2xl leading-6">
+              {{ t("admin.sidebarMenuOrder.description") }}
+            </CardDescription>
+          </div>
+          <Button
+            type="button"
+            variant="outline"
+            class="shrink-0"
+            :disabled="isSaving || isDefaultOrder || !isConfigReady"
+            @click="restoreDefaultOrder"
+          >
+            <RotateCcw class="mr-2 h-4 w-4" />
+            {{ t("admin.sidebarMenuOrder.restoreDefault") }}
+          </Button>
+        </div>
+      </CardHeader>
+
+      <CardContent class="border-t pt-6">
+        <div class="w-full space-y-4">
+          <p class="text-sm leading-6 text-muted-foreground">
+            {{ t("admin.sidebarMenuOrder.visibleOnlyHint") }}
+          </p>
+
+          <div
+            v-if="!isConfigReady"
+            class="rounded-xl border border-dashed px-5 py-10 text-center text-sm text-muted-foreground"
+            aria-live="polite"
+          >
+            {{
+              configStore.isError
+                ? t("common.loadConfigFailed")
+                : t("common.loadingConfig")
+            }}
+          </div>
+
+          <VueDraggable
+            v-else-if="draggableItems.length"
+            v-model="draggableItems"
+            class="divide-y overflow-hidden rounded-xl border bg-background"
+            ghost-class="bg-muted/60"
+            chosen-class="bg-muted/80"
+            :animation="180"
+            :disabled="isSaving || draggableItems.length < 2"
+            @end="saveVisibleOrder"
+          >
+            <div
+              v-for="item in draggableItems"
+              :key="item.id"
+              class="group flex cursor-grab select-none items-center gap-3 px-5 py-4 transition-colors hover:bg-muted/40 active:cursor-grabbing"
+              :aria-label="
+                t('admin.sidebarMenuOrder.dragAria', { name: item.name })
+              "
+            >
+              <component
+                :is="item.icon"
+                class="h-4 w-4 shrink-0 text-muted-foreground"
+              />
+              <span class="min-w-0 flex-1 truncate text-sm font-medium">{{
+                item.name
+              }}</span>
+              <GripVertical
+                class="h-4 w-4 shrink-0 text-muted-foreground/60 transition-colors group-hover:text-muted-foreground"
+              />
+            </div>
+          </VueDraggable>
+
+          <div
+            v-else
+            class="rounded-xl border border-dashed px-5 py-10 text-center text-sm text-muted-foreground"
+          >
+            {{ t("admin.sidebarMenuOrder.empty") }}
+          </div>
+
+          <p class="min-h-5 text-xs text-muted-foreground" aria-live="polite">
+            {{
+              isSaving
+                ? t("admin.sidebarMenuOrder.saving")
+                : t("admin.sidebarMenuOrder.autoSaveHint")
+            }}
+          </p>
+        </div>
+      </CardContent>
+    </Card>
+  </div>
+</template>

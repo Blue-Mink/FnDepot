@@ -1,1 +1,359 @@
-dXNlIHN0ZDo6ewogICAgZnM6OntzZWxmLCBPcGVuT3B0aW9uc30sCiAgICBpbzo6V3JpdGUsCiAgICBwYXRoOjp7UGF0aCwgUGF0aEJ1Zn0sCiAgICBzeW5jOjpNdXRleCwKfTsKCnVzZSBhZXNfZ2NtOjp7CiAgICBBZXMyNTZHY20sIE5vbmNlLAogICAgYWVhZDo6e0FlYWQsIEtleUluaXQsIFBheWxvYWR9LAp9Owp1c2UgYmFzZTY0Ojp7RW5naW5lIGFzIF8sIGVuZ2luZTo6Z2VuZXJhbF9wdXJwb3NlOjpTVEFOREFSRH07CnVzZSBzZXJkZTo6e0Rlc2VyaWFsaXplLCBTZXJpYWxpemV9OwoKdXNlIGNyYXRlOjpjcnlwdG9fdXRpbHM6OnJhbmRvbV9ieXRlczsKCmNvbnN0IEtFWV9GSUxFOiAmc3RyID0gInNlY3JldC5rZXkiOwpjb25zdCBBUElfVE9LRU5fRklMRTogJnN0ciA9ICJjbG91ZGZsYXJlLWFwaS10b2tlbi5lbmMiOwpjb25zdCBUVU5ORUxfVE9LRU5fRklMRTogJnN0ciA9ICJ0dW5uZWwtdG9rZW4uZW5jIjsKY29uc3QgRU5WRUxPUEVfVkVSU0lPTjogdTggPSAxOwpzdGF0aWMgS0VZX0NSRUFUSU9OX0xPQ0s6IE11dGV4PCgpPiA9IE11dGV4OjpuZXcoKCkpOwoKI1tkZXJpdmUoQ2xvbmUsIENvcHkpXQpwdWIoc3VwZXIpIGVudW0gU2VjcmV0S2luZCB7CiAgICBBcGlUb2tlbiwKICAgIFR1bm5lbFRva2VuLAp9CgppbXBsIFNlY3JldEtpbmQgewogICAgZm4gZmlsZV9uYW1lKHNlbGYpIC0+ICYnc3RhdGljIHN0ciB7CiAgICAgICAgbWF0Y2ggc2VsZiB7CiAgICAgICAgICAgIFNlbGY6OkFwaVRva2VuID0+IEFQSV9UT0tFTl9GSUxFLAogICAgICAgICAgICBTZWxmOjpUdW5uZWxUb2tlbiA9PiBUVU5ORUxfVE9LRU5fRklMRSwKICAgICAgICB9CiAgICB9CgogICAgZm4gYWFkKHNlbGYpIC0+ICYnc3RhdGljIFt1OF0gewogICAgICAgIG1hdGNoIHNlbGYgewogICAgICAgICAgICBTZWxmOjpBcGlUb2tlbiA9PiBiImZuLWtub2NrOmNsb3VkZmxhcmVkOmFwaS10b2tlbjp2MSIsCiAgICAgICAgICAgIFNlbGY6OlR1bm5lbFRva2VuID0+IGIiZm4ta25vY2s6Y2xvdWRmbGFyZWQ6dHVubmVsLXRva2VuOnYxIiwKICAgICAgICB9CiAgICB9Cn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUpXQpzdHJ1Y3QgU2VjcmV0RW52ZWxvcGUgewogICAgdmVyc2lvbjogdTgsCiAgICBub25jZTogU3RyaW5nLAogICAgY2lwaGVydGV4dDogU3RyaW5nLAp9CgojW2Rlcml2ZShDbG9uZSldCnB1YihzdXBlcikgc3RydWN0IENsb3VkZmxhcmVkU2VjcmV0U3RvcmUgewogICAgZGlyOiBQYXRoQnVmLAp9CgppbXBsIENsb3VkZmxhcmVkU2VjcmV0U3RvcmUgewogICAgcHViKHN1cGVyKSBmbiBuZXcoZGlyOiBpbXBsIEludG88UGF0aEJ1Zj4pIC0+IFNlbGYgewogICAgICAgIFNlbGYgeyBkaXI6IGRpci5pbnRvKCkgfQogICAgfQoKICAgIHB1YihzdXBlcikgZm4gY29uZmlndXJlZCgmc2VsZiwga2luZDogU2VjcmV0S2luZCkgLT4gYm9vbCB7CiAgICAgICAgc2VsZi5kaXIuam9pbihraW5kLmZpbGVfbmFtZSgpKS5pc19maWxlKCkKICAgIH0KCiAgICBwdWIoc3VwZXIpIGZuIHJlYWQoJnNlbGYsIGtpbmQ6IFNlY3JldEtpbmQpIC0+IFJlc3VsdDxPcHRpb248U3RyaW5nPiwgU3RyaW5nPiB7CiAgICAgICAgbGV0IHBhdGggPSBzZWxmLmRpci5qb2luKGtpbmQuZmlsZV9uYW1lKCkpOwogICAgICAgIGlmIHBhdGguZXhpc3RzKCkgewogICAgICAgICAgICBzZWN1cmVfZmlsZSgmcGF0aCk/OwogICAgICAgIH0KICAgICAgICBsZXQgcmF3ID0gbWF0Y2ggZnM6OnJlYWQoJnBhdGgpIHsKICAgICAgICAgICAgT2socmF3KSA9PiByYXcsCiAgICAgICAgICAgIEVycihlcnJvcikgaWYgZXJyb3Iua2luZCgpID09IHN0ZDo6aW86OkVycm9yS2luZDo6Tm90Rm91bmQgPT4gcmV0dXJuIE9rKE5vbmUpLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IHJldHVybiBFcnIoZm9ybWF0ISgiZmFpbGVkIHRvIHJlYWQgZW5jcnlwdGVkIGNyZWRlbnRpYWw6IHtlcnJvcn0iKSksCiAgICAgICAgfTsKICAgICAgICBsZXQgZW52ZWxvcGUgPSBzZXJkZV9qc29uOjpmcm9tX3NsaWNlOjo8U2VjcmV0RW52ZWxvcGU+KCZyYXcpCiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZm9ybWF0ISgiZW5jcnlwdGVkIGNyZWRlbnRpYWwgaXMgaW52YWxpZDoge2Vycm9yfSIpKT87CiAgICAgICAgaWYgZW52ZWxvcGUudmVyc2lvbiAhPSBFTlZFTE9QRV9WRVJTSU9OIHsKICAgICAgICAgICAgcmV0dXJuIEVycigiZW5jcnlwdGVkIGNyZWRlbnRpYWwgdmVyc2lvbiBpcyB1bnN1cHBvcnRlZCIudG9fc3RyaW5nKCkpOwogICAgICAgIH0KICAgICAgICBsZXQgbm9uY2UgPSBTVEFOREFSRAogICAgICAgICAgICAuZGVjb2RlKGVudmVsb3BlLm5vbmNlKQogICAgICAgICAgICAubWFwX2Vycih8X3wgImVuY3J5cHRlZCBjcmVkZW50aWFsIG5vbmNlIGlzIGludmFsaWQiLnRvX3N0cmluZygpKT87CiAgICAgICAgbGV0IGNpcGhlcnRleHQgPSBTVEFOREFSRAogICAgICAgICAgICAuZGVjb2RlKGVudmVsb3BlLmNpcGhlcnRleHQpCiAgICAgICAgICAgIC5tYXBfZXJyKHxffCAiZW5jcnlwdGVkIGNyZWRlbnRpYWwgcGF5bG9hZCBpcyBpbnZhbGlkIi50b19zdHJpbmcoKSk/OwogICAgICAgIGlmIG5vbmNlLmxlbigpICE9IDEyIHsKICAgICAgICAgICAgcmV0dXJuIEVycigiZW5jcnlwdGVkIGNyZWRlbnRpYWwgbm9uY2UgbGVuZ3RoIGlzIGludmFsaWQiLnRvX3N0cmluZygpKTsKICAgICAgICB9CiAgICAgICAgbGV0IGtleSA9IHNlbGYucmVhZF9rZXkoKT87CiAgICAgICAgbGV0IGNpcGhlciA9IEFlczI1NkdjbTo6bmV3X2Zyb21fc2xpY2UoJmtleSkKICAgICAgICAgICAgLm1hcF9lcnIofF98ICJjbG91ZGZsYXJlZCBjcmVkZW50aWFsIGtleSBpcyBpbnZhbGlkIi50b19zdHJpbmcoKSk/OwogICAgICAgIGxldCBwbGFpbnRleHQgPSBjaXBoZXIKICAgICAgICAgICAgLmRlY3J5cHQoCiAgICAgICAgICAgICAgICBOb25jZTo6ZnJvbV9zbGljZSgmbm9uY2UpLAogICAgICAgICAgICAgICAgUGF5bG9hZCB7CiAgICAgICAgICAgICAgICAgICAgbXNnOiAmY2lwaGVydGV4dCwKICAgICAgICAgICAgICAgICAgICBhYWQ6IGtpbmQuYWFkKCksCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICApCiAgICAgICAgICAgIC5tYXBfZXJyKHxffCAiZW5jcnlwdGVkIGNyZWRlbnRpYWwgY2Fubm90IGJlIGRlY3J5cHRlZCIudG9fc3RyaW5nKCkpPzsKICAgICAgICBTdHJpbmc6OmZyb21fdXRmOChwbGFpbnRleHQpCiAgICAgICAgICAgIC5tYXAoU29tZSkKICAgICAgICAgICAgLm1hcF9lcnIofF98ICJlbmNyeXB0ZWQgY3JlZGVudGlhbCBpcyBub3QgdmFsaWQgVVRGLTgiLnRvX3N0cmluZygpKQogICAgfQoKICAgIHB1YihzdXBlcikgZm4gd3JpdGUoJnNlbGYsIGtpbmQ6IFNlY3JldEtpbmQsIHZhbHVlOiAmc3RyKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgICAgIHNlbGYuZW5zdXJlX2RpcigpPzsKICAgICAgICBsZXQga2V5ID0gc2VsZi5sb2FkX29yX2NyZWF0ZV9rZXkoKT87CiAgICAgICAgbGV0IG5vbmNlID0gcmFuZG9tX2J5dGVzOjo8MTI+KCk7CiAgICAgICAgbGV0IGNpcGhlciA9IEFlczI1NkdjbTo6bmV3X2Zyb21fc2xpY2UoJmtleSkKICAgICAgICAgICAgLm1hcF9lcnIofF98ICJjbG91ZGZsYXJlZCBjcmVkZW50aWFsIGtleSBpcyBpbnZhbGlkIi50b19zdHJpbmcoKSk/OwogICAgICAgIGxldCBjaXBoZXJ0ZXh0ID0gY2lwaGVyCiAgICAgICAgICAgIC5lbmNyeXB0KAogICAgICAgICAgICAgICAgTm9uY2U6OmZyb21fc2xpY2UoJm5vbmNlKSwKICAgICAgICAgICAgICAgIFBheWxvYWQgewogICAgICAgICAgICAgICAgICAgIG1zZzogdmFsdWUuYXNfYnl0ZXMoKSwKICAgICAgICAgICAgICAgICAgICBhYWQ6IGtpbmQuYWFkKCksCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICApCiAgICAgICAgICAgIC5tYXBfZXJyKHxffCAiZmFpbGVkIHRvIGVuY3J5cHQgY2xvdWRmbGFyZWQgY3JlZGVudGlhbCIudG9fc3RyaW5nKCkpPzsKICAgICAgICBsZXQgZW52ZWxvcGUgPSBTZWNyZXRFbnZlbG9wZSB7CiAgICAgICAgICAgIHZlcnNpb246IEVOVkVMT1BFX1ZFUlNJT04sCiAgICAgICAgICAgIG5vbmNlOiBTVEFOREFSRC5lbmNvZGUobm9uY2UpLAogICAgICAgICAgICBjaXBoZXJ0ZXh0OiBTVEFOREFSRC5lbmNvZGUoY2lwaGVydGV4dCksCiAgICAgICAgfTsKICAgICAgICBsZXQgYnl0ZXMgPSBzZXJkZV9qc29uOjp0b192ZWMoJmVudmVsb3BlKQogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGZvcm1hdCEoImZhaWxlZCB0byBlbmNvZGUgY2xvdWRmbGFyZWQgY3JlZGVudGlhbDoge2Vycm9yfSIpKT87CiAgICAgICAgYXRvbWljX3ByaXZhdGVfd3JpdGUoJnNlbGYuZGlyLmpvaW4oa2luZC5maWxlX25hbWUoKSksICZieXRlcykKICAgIH0KCiAgICBwdWIoc3VwZXIpIGZuIGRlbGV0ZSgmc2VsZiwga2luZDogU2VjcmV0S2luZCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgICAgICBtYXRjaCBmczo6cmVtb3ZlX2ZpbGUoc2VsZi5kaXIuam9pbihraW5kLmZpbGVfbmFtZSgpKSkgewogICAgICAgICAgICBPaygoKSkgPT4gc3luY19wYXJlbnRfZGlyZWN0b3J5KCZzZWxmLmRpciksCiAgICAgICAgICAgIEVycihlcnJvcikgaWYgZXJyb3Iua2luZCgpID09IHN0ZDo6aW86OkVycm9yS2luZDo6Tm90Rm91bmQgPT4gT2soKCkpLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IEVycihmb3JtYXQhKCJmYWlsZWQgdG8gcmVtb3ZlIGNsb3VkZmxhcmVkIGNyZWRlbnRpYWw6IHtlcnJvcn0iKSksCiAgICAgICAgfQogICAgfQoKICAgIGZuIGVuc3VyZV9kaXIoJnNlbGYpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICAgICAgZnM6OmNyZWF0ZV9kaXJfYWxsKCZzZWxmLmRpcikubWFwX2Vycih8ZXJyb3J8IHsKICAgICAgICAgICAgZm9ybWF0ISgiZmFpbGVkIHRvIGNyZWF0ZSBjbG91ZGZsYXJlZCBjcmVkZW50aWFsIGRpcmVjdG9yeToge2Vycm9yfSIpCiAgICAgICAgfSk/OwogICAgICAgIHNlY3VyZV9kaXJlY3RvcnkoJnNlbGYuZGlyKQogICAgfQoKICAgIGZuIHJlYWRfa2V5KCZzZWxmKSAtPiBSZXN1bHQ8W3U4OyAzMl0sIFN0cmluZz4gewogICAgICAgIGxldCBwYXRoID0gc2VsZi5kaXIuam9pbihLRVlfRklMRSk7CiAgICAgICAgaWYgcGF0aC5leGlzdHMoKSB7CiAgICAgICAgICAgIHNlY3VyZV9maWxlKCZwYXRoKT87CiAgICAgICAgfQogICAgICAgIGxldCByYXcgPSBmczo6cmVhZCgmcGF0aCkKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBmb3JtYXQhKCJmYWlsZWQgdG8gcmVhZCBjbG91ZGZsYXJlZCBjcmVkZW50aWFsIGtleToge2Vycm9yfSIpKT87CiAgICAgICAgcmF3LnRyeV9pbnRvKCkKICAgICAgICAgICAgLm1hcF9lcnIofF98ICJjbG91ZGZsYXJlZCBjcmVkZW50aWFsIGtleSBoYXMgYW4gaW52YWxpZCBsZW5ndGgiLnRvX3N0cmluZygpKQogICAgfQoKICAgIGZuIGxvYWRfb3JfY3JlYXRlX2tleSgmc2VsZikgLT4gUmVzdWx0PFt1ODsgMzJdLCBTdHJpbmc+IHsKICAgICAgICBsZXQgX2d1YXJkID0gS0VZX0NSRUFUSU9OX0xPQ0sKICAgICAgICAgICAgLmxvY2soKQogICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofHBvaXNvbmVkfCBwb2lzb25lZC5pbnRvX2lubmVyKCkpOwogICAgICAgIG1hdGNoIHNlbGYucmVhZF9rZXkoKSB7CiAgICAgICAgICAgIE9rKGtleSkgPT4gewogICAgICAgICAgICAgICAgc2VjdXJlX2ZpbGUoJnNlbGYuZGlyLmpvaW4oS0VZX0ZJTEUpKT87CiAgICAgICAgICAgICAgICBPayhrZXkpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgRXJyKF8pIGlmICFzZWxmLmRpci5qb2luKEtFWV9GSUxFKS5leGlzdHMoKSA9PiB7CiAgICAgICAgICAgICAgICBsZXQga2V5ID0gcmFuZG9tX2J5dGVzOjo8MzI+KCk7CiAgICAgICAgICAgICAgICBhdG9taWNfcHJpdmF0ZV93cml0ZSgmc2VsZi5kaXIuam9pbihLRVlfRklMRSksICZrZXkpPzsKICAgICAgICAgICAgICAgIE9rKGtleSkKICAgICAgICAgICAgfQogICAgICAgICAgICBFcnIoZXJyb3IpID0+IEVycihlcnJvciksCiAgICAgICAgfQogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGF0b21pY19wcml2YXRlX3dyaXRlKHBhdGg6ICZQYXRoLCBieXRlczogJlt1OF0pIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBsZXQgcGFyZW50ID0gcGF0aAogICAgICAgIC5wYXJlbnQoKQogICAgICAgIC5va19vcl9lbHNlKHx8ICJjbG91ZGZsYXJlZCBjcmVkZW50aWFsIHBhdGggaGFzIG5vIHBhcmVudCIudG9fc3RyaW5nKCkpPzsKICAgIGZzOjpjcmVhdGVfZGlyX2FsbChwYXJlbnQpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgc2VjdXJlX2RpcmVjdG9yeShwYXJlbnQpPzsKICAgIGxldCBuYW1lID0gcGF0aAogICAgICAgIC5maWxlX25hbWUoKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnRvX3N0cigpKQogICAgICAgIC51bndyYXBfb3IoImNyZWRlbnRpYWwiKTsKICAgIGxldCB0ZW1wb3JhcnkgPSBwYXJlbnQuam9pbihmb3JtYXQhKAogICAgICAgICIue25hbWV9Lnt9Lnt9LnRtcCIsCiAgICAgICAgc3RkOjpwcm9jZXNzOjppZCgpLAogICAgICAgIGhleDo6ZW5jb2RlKHJhbmRvbV9ieXRlczo6PDg+KCkpCiAgICApKTsKICAgIGxldCByZXN1bHQgPSAofHwgewogICAgICAgIGxldCBtdXQgb3B0aW9ucyA9IE9wZW5PcHRpb25zOjpuZXcoKTsKICAgICAgICBvcHRpb25zLndyaXRlKHRydWUpLmNyZWF0ZV9uZXcodHJ1ZSk7CiAgICAgICAgI1tjZmcodW5peCldCiAgICAgICAgewogICAgICAgICAgICB1c2Ugc3RkOjpvczo6dW5peDo6ZnM6Ok9wZW5PcHRpb25zRXh0OwogICAgICAgICAgICBvcHRpb25zLm1vZGUoMG82MDApOwogICAgICAgIH0KICAgICAgICBsZXQgbXV0IGZpbGUgPSBvcHRpb25zCiAgICAgICAgICAgIC5vcGVuKCZ0ZW1wb3JhcnkpCiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgICAgICBmaWxlLndyaXRlX2FsbChieXRlcykubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICAgICAgZmlsZS5zeW5jX2FsbCgpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgICAgIGRyb3AoZmlsZSk7CiAgICAgICAgcmVwbGFjZV9maWxlKCZ0ZW1wb3JhcnksIHBhdGgpPzsKICAgICAgICBzZWN1cmVfZmlsZShwYXRoKT87CiAgICAgICAgc3luY19wYXJlbnRfZGlyZWN0b3J5KHBhcmVudCkKICAgIH0pKCk7CiAgICBpZiByZXN1bHQuaXNfZXJyKCkgewogICAgICAgIGxldCBfID0gZnM6OnJlbW92ZV9maWxlKCZ0ZW1wb3JhcnkpOwogICAgfQogICAgcmVzdWx0Cn0KCiNbY2ZnKG5vdCh3aW5kb3dzKSldCmZuIHJlcGxhY2VfZmlsZSh0ZW1wb3Jhcnk6ICZQYXRoLCBwYXRoOiAmUGF0aCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGZzOjpyZW5hbWUodGVtcG9yYXJ5LCBwYXRoKS5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpCn0KCiNbY2ZnKHdpbmRvd3MpXQpmbiByZXBsYWNlX2ZpbGUodGVtcG9yYXJ5OiAmUGF0aCwgcGF0aDogJlBhdGgpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICB1c2Ugc3RkOjpvczo6d2luZG93czo6ZmZpOjpPc1N0ckV4dDsKCiAgICB1c2Ugd2luZG93c19zeXM6OldpbjMyOjpTdG9yYWdlOjpGaWxlU3lzdGVtOjp7CiAgICAgICAgTU9WRUZJTEVfUkVQTEFDRV9FWElTVElORywgTU9WRUZJTEVfV1JJVEVfVEhST1VHSCwgTW92ZUZpbGVFeFcsCiAgICB9OwoKICAgIGxldCBzb3VyY2UgPSB0ZW1wb3JhcnkKICAgICAgICAuYXNfb3Nfc3RyKCkKICAgICAgICAuZW5jb2RlX3dpZGUoKQogICAgICAgIC5jaGFpbihTb21lKDApKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgbGV0IGRlc3RpbmF0aW9uID0gcGF0aAogICAgICAgIC5hc19vc19zdHIoKQogICAgICAgIC5lbmNvZGVfd2lkZSgpCiAgICAgICAgLmNoYWluKFNvbWUoMCkpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICAvLyBTQUZFVFk6IGJvdGggYnVmZmVycyBhcmUgdmFsaWQsIE5VTC10ZXJtaW5hdGVkIFVURi0xNiBwYXRocyBhbmQgcmVtYWluCiAgICAvLyBhbGl2ZSBmb3IgdGhlIGR1cmF0aW9uIG9mIHRoaXMgc2FtZS12b2x1bWUgYXRvbWljIHJlcGxhY2VtZW50IGNhbGwuCiAgICBsZXQgbW92ZWQgPSB1bnNhZmUgewogICAgICAgIE1vdmVGaWxlRXhXKAogICAgICAgICAgICBzb3VyY2UuYXNfcHRyKCksCiAgICAgICAgICAgIGRlc3RpbmF0aW9uLmFzX3B0cigpLAogICAgICAgICAgICBNT1ZFRklMRV9SRVBMQUNFX0VYSVNUSU5HIHwgTU9WRUZJTEVfV1JJVEVfVEhST1VHSCwKICAgICAgICApCiAgICB9OwogICAgaWYgbW92ZWQgPT0gMCB7CiAgICAgICAgRXJyKHN0ZDo6aW86OkVycm9yOjpsYXN0X29zX2Vycm9yKCkudG9fc3RyaW5nKCkpCiAgICB9IGVsc2UgewogICAgICAgIE9rKCgpKQogICAgfQp9CgojW2NmZyh1bml4KV0KZm4gc3luY19wYXJlbnRfZGlyZWN0b3J5KHBhcmVudDogJlBhdGgpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBmczo6RmlsZTo6b3BlbihwYXJlbnQpCiAgICAgICAgLmFuZF90aGVuKHxkaXJlY3Rvcnl8IGRpcmVjdG9yeS5zeW5jX2FsbCgpKQogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpCn0KCiNbY2ZnKG5vdCh1bml4KSldCmZuIHN5bmNfcGFyZW50X2RpcmVjdG9yeShfcGFyZW50OiAmUGF0aCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIE9rKCgpKQp9CgojW2NmZyh1bml4KV0KZm4gc2VjdXJlX2RpcmVjdG9yeShwYXRoOiAmUGF0aCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIHVzZSBzdGQ6Om9zOjp1bml4Ojpmczo6UGVybWlzc2lvbnNFeHQ7CiAgICBmczo6c2V0X3Blcm1pc3Npb25zKHBhdGgsIGZzOjpQZXJtaXNzaW9uczo6ZnJvbV9tb2RlKDBvNzAwKSkubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKQp9CgojW2NmZyhub3QodW5peCkpXQpmbiBzZWN1cmVfZGlyZWN0b3J5KF9wYXRoOiAmUGF0aCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIE9rKCgpKQp9CgojW2NmZyh1bml4KV0KZm4gc2VjdXJlX2ZpbGUocGF0aDogJlBhdGgpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICB1c2Ugc3RkOjpvczo6dW5peDo6ZnM6OlBlcm1pc3Npb25zRXh0OwogICAgZnM6OnNldF9wZXJtaXNzaW9ucyhwYXRoLCBmczo6UGVybWlzc2lvbnM6OmZyb21fbW9kZSgwbzYwMCkpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSkKfQoKI1tjZmcobm90KHVuaXgpKV0KZm4gc2VjdXJlX2ZpbGUoX3BhdGg6ICZQYXRoKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgT2soKCkpCn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwoKICAgICNbdGVzdF0KICAgIGZuIGVuY3J5cHRzX2NyZWRlbnRpYWxzX2FuZF9iaW5kc19jaXBoZXJ0ZXh0X3RvX2tpbmQoKSB7CiAgICAgICAgbGV0IGRpcmVjdG9yeSA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkudW53cmFwKCk7CiAgICAgICAgbGV0IHN0b3JlID0gQ2xvdWRmbGFyZWRTZWNyZXRTdG9yZTo6bmV3KGRpcmVjdG9yeS5wYXRoKCkpOwogICAgICAgIHN0b3JlLndyaXRlKFNlY3JldEtpbmQ6OkFwaVRva2VuLCAiYXBpLXNlY3JldCIpLnVud3JhcCgpOwogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC53cml0ZShTZWNyZXRLaW5kOjpUdW5uZWxUb2tlbiwgInR1bm5lbC1zZWNyZXQiKQogICAgICAgICAgICAudW53cmFwKCk7CgogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHN0b3JlLnJlYWQoU2VjcmV0S2luZDo6QXBpVG9rZW4pLnVud3JhcCgpLmFzX2RlcmVmKCksCiAgICAgICAgICAgIFNvbWUoImFwaS1zZWNyZXQiKQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc3RvcmUucmVhZChTZWNyZXRLaW5kOjpUdW5uZWxUb2tlbikudW53cmFwKCkuYXNfZGVyZWYoKSwKICAgICAgICAgICAgU29tZSgidHVubmVsLXNlY3JldCIpCiAgICAgICAgKTsKICAgICAgICBsZXQgZW5jcnlwdGVkID0gZnM6OnJlYWRfdG9fc3RyaW5nKGRpcmVjdG9yeS5wYXRoKCkuam9pbihBUElfVE9LRU5fRklMRSkpLnVud3JhcCgpOwogICAgICAgIGFzc2VydCEoIWVuY3J5cHRlZC5jb250YWlucygiYXBpLXNlY3JldCIpKTsKCiAgICAgICAgI1tjZmcodW5peCldCiAgICAgICAgewogICAgICAgICAgICB1c2Ugc3RkOjpvczo6dW5peDo6ZnM6OlBlcm1pc3Npb25zRXh0OwogICAgICAgICAgICBsZXQgbW9kZSA9IGZzOjptZXRhZGF0YShkaXJlY3RvcnkucGF0aCgpLmpvaW4oQVBJX1RPS0VOX0ZJTEUpKQogICAgICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgICAgICAucGVybWlzc2lvbnMoKQogICAgICAgICAgICAgICAgLm1vZGUoKQogICAgICAgICAgICAgICAgJiAwbzc3NzsKICAgICAgICAgICAgYXNzZXJ0X2VxIShtb2RlLCAwbzYwMCk7CiAgICAgICAgfQogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGRlbGV0ZV9pc19pZGVtcG90ZW50KCkgewogICAgICAgIGxldCBkaXJlY3RvcnkgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLnVud3JhcCgpOwogICAgICAgIGxldCBzdG9yZSA9IENsb3VkZmxhcmVkU2VjcmV0U3RvcmU6Om5ldyhkaXJlY3RvcnkucGF0aCgpKTsKICAgICAgICBzdG9yZS5kZWxldGUoU2VjcmV0S2luZDo6QXBpVG9rZW4pLnVud3JhcCgpOwogICAgICAgIHN0b3JlLndyaXRlKFNlY3JldEtpbmQ6OkFwaVRva2VuLCAic2VjcmV0IikudW53cmFwKCk7CiAgICAgICAgc3RvcmUuZGVsZXRlKFNlY3JldEtpbmQ6OkFwaVRva2VuKS51bndyYXAoKTsKICAgICAgICBzdG9yZS5kZWxldGUoU2VjcmV0S2luZDo6QXBpVG9rZW4pLnVud3JhcCgpOwogICAgICAgIGFzc2VydCEoIXN0b3JlLmNvbmZpZ3VyZWQoU2VjcmV0S2luZDo6QXBpVG9rZW4pKTsKICAgIH0KCiAgICAjW2NmZyh1bml4KV0KICAgICNbdGVzdF0KICAgIGZuIHJlYWRfcmVwYWlyc19jcmVkZW50aWFsX2FuZF9rZXlfcGVybWlzc2lvbnMoKSB7CiAgICAgICAgdXNlIHN0ZDo6b3M6OnVuaXg6OmZzOjpQZXJtaXNzaW9uc0V4dDsKCiAgICAgICAgbGV0IGRpcmVjdG9yeSA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkudW53cmFwKCk7CiAgICAgICAgbGV0IHN0b3JlID0gQ2xvdWRmbGFyZWRTZWNyZXRTdG9yZTo6bmV3KGRpcmVjdG9yeS5wYXRoKCkpOwogICAgICAgIHN0b3JlLndyaXRlKFNlY3JldEtpbmQ6OkFwaVRva2VuLCAic2VjcmV0IikudW53cmFwKCk7CgogICAgICAgIGxldCBjcmVkZW50aWFsX3BhdGggPSBkaXJlY3RvcnkucGF0aCgpLmpvaW4oQVBJX1RPS0VOX0ZJTEUpOwogICAgICAgIGxldCBrZXlfcGF0aCA9IGRpcmVjdG9yeS5wYXRoKCkuam9pbihLRVlfRklMRSk7CiAgICAgICAgZnM6OnNldF9wZXJtaXNzaW9ucygmY3JlZGVudGlhbF9wYXRoLCBmczo6UGVybWlzc2lvbnM6OmZyb21fbW9kZSgwbzcwMCkpLnVud3JhcCgpOwogICAgICAgIGZzOjpzZXRfcGVybWlzc2lvbnMoJmtleV9wYXRoLCBmczo6UGVybWlzc2lvbnM6OmZyb21fbW9kZSgwbzcwMCkpLnVud3JhcCgpOwoKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBzdG9yZS5yZWFkKFNlY3JldEtpbmQ6OkFwaVRva2VuKS51bndyYXAoKS5hc19kZXJlZigpLAogICAgICAgICAgICBTb21lKCJzZWNyZXQiKQogICAgICAgICk7CiAgICAgICAgZm9yIHBhdGggaW4gW2NyZWRlbnRpYWxfcGF0aCwga2V5X3BhdGhdIHsKICAgICAgICAgICAgbGV0IG1vZGUgPSBmczo6bWV0YWRhdGEocGF0aCkudW53cmFwKCkucGVybWlzc2lvbnMoKS5tb2RlKCkgJiAwbzc3NzsKICAgICAgICAgICAgYXNzZXJ0X2VxIShtb2RlLCAwbzYwMCk7CiAgICAgICAgfQogICAgfQp9Cg==
+use std::{
+    fs::{self, OpenOptions},
+    io::Write,
+    path::{Path, PathBuf},
+    sync::Mutex,
+};
+
+use aes_gcm::{
+    Aes256Gcm, Nonce,
+    aead::{Aead, KeyInit, Payload},
+};
+use base64::{Engine as _, engine::general_purpose::STANDARD};
+use serde::{Deserialize, Serialize};
+
+use crate::crypto_utils::random_bytes;
+
+const KEY_FILE: &str = "secret.key";
+const API_TOKEN_FILE: &str = "cloudflare-api-token.enc";
+const TUNNEL_TOKEN_FILE: &str = "tunnel-token.enc";
+const ENVELOPE_VERSION: u8 = 1;
+static KEY_CREATION_LOCK: Mutex<()> = Mutex::new(());
+
+#[derive(Clone, Copy)]
+pub(super) enum SecretKind {
+    ApiToken,
+    TunnelToken,
+}
+
+impl SecretKind {
+    fn file_name(self) -> &'static str {
+        match self {
+            Self::ApiToken => API_TOKEN_FILE,
+            Self::TunnelToken => TUNNEL_TOKEN_FILE,
+        }
+    }
+
+    fn aad(self) -> &'static [u8] {
+        match self {
+            Self::ApiToken => b"fn-knock:cloudflared:api-token:v1",
+            Self::TunnelToken => b"fn-knock:cloudflared:tunnel-token:v1",
+        }
+    }
+}
+
+#[derive(Serialize, Deserialize)]
+struct SecretEnvelope {
+    version: u8,
+    nonce: String,
+    ciphertext: String,
+}
+
+#[derive(Clone)]
+pub(super) struct CloudflaredSecretStore {
+    dir: PathBuf,
+}
+
+impl CloudflaredSecretStore {
+    pub(super) fn new(dir: impl Into<PathBuf>) -> Self {
+        Self { dir: dir.into() }
+    }
+
+    pub(super) fn configured(&self, kind: SecretKind) -> bool {
+        self.dir.join(kind.file_name()).is_file()
+    }
+
+    pub(super) fn read(&self, kind: SecretKind) -> Result<Option<String>, String> {
+        let path = self.dir.join(kind.file_name());
+        if path.exists() {
+            secure_file(&path)?;
+        }
+        let raw = match fs::read(&path) {
+            Ok(raw) => raw,
+            Err(error) if error.kind() == std::io::ErrorKind::NotFound => return Ok(None),
+            Err(error) => return Err(format!("failed to read encrypted credential: {error}")),
+        };
+        let envelope = serde_json::from_slice::<SecretEnvelope>(&raw)
+            .map_err(|error| format!("encrypted credential is invalid: {error}"))?;
+        if envelope.version != ENVELOPE_VERSION {
+            return Err("encrypted credential version is unsupported".to_string());
+        }
+        let nonce = STANDARD
+            .decode(envelope.nonce)
+            .map_err(|_| "encrypted credential nonce is invalid".to_string())?;
+        let ciphertext = STANDARD
+            .decode(envelope.ciphertext)
+            .map_err(|_| "encrypted credential payload is invalid".to_string())?;
+        if nonce.len() != 12 {
+            return Err("encrypted credential nonce length is invalid".to_string());
+        }
+        let key = self.read_key()?;
+        let cipher = Aes256Gcm::new_from_slice(&key)
+            .map_err(|_| "cloudflared credential key is invalid".to_string())?;
+        let plaintext = cipher
+            .decrypt(
+                Nonce::from_slice(&nonce),
+                Payload {
+                    msg: &ciphertext,
+                    aad: kind.aad(),
+                },
+            )
+            .map_err(|_| "encrypted credential cannot be decrypted".to_string())?;
+        String::from_utf8(plaintext)
+            .map(Some)
+            .map_err(|_| "encrypted credential is not valid UTF-8".to_string())
+    }
+
+    pub(super) fn write(&self, kind: SecretKind, value: &str) -> Result<(), String> {
+        self.ensure_dir()?;
+        let key = self.load_or_create_key()?;
+        let nonce = random_bytes::<12>();
+        let cipher = Aes256Gcm::new_from_slice(&key)
+            .map_err(|_| "cloudflared credential key is invalid".to_string())?;
+        let ciphertext = cipher
+            .encrypt(
+                Nonce::from_slice(&nonce),
+                Payload {
+                    msg: value.as_bytes(),
+                    aad: kind.aad(),
+                },
+            )
+            .map_err(|_| "failed to encrypt cloudflared credential".to_string())?;
+        let envelope = SecretEnvelope {
+            version: ENVELOPE_VERSION,
+            nonce: STANDARD.encode(nonce),
+            ciphertext: STANDARD.encode(ciphertext),
+        };
+        let bytes = serde_json::to_vec(&envelope)
+            .map_err(|error| format!("failed to encode cloudflared credential: {error}"))?;
+        atomic_private_write(&self.dir.join(kind.file_name()), &bytes)
+    }
+
+    pub(super) fn delete(&self, kind: SecretKind) -> Result<(), String> {
+        match fs::remove_file(self.dir.join(kind.file_name())) {
+            Ok(()) => sync_parent_directory(&self.dir),
+            Err(error) if error.kind() == std::io::ErrorKind::NotFound => Ok(()),
+            Err(error) => Err(format!("failed to remove cloudflared credential: {error}")),
+        }
+    }
+
+    fn ensure_dir(&self) -> Result<(), String> {
+        fs::create_dir_all(&self.dir).map_err(|error| {
+            format!("failed to create cloudflared credential directory: {error}")
+        })?;
+        secure_directory(&self.dir)
+    }
+
+    fn read_key(&self) -> Result<[u8; 32], String> {
+        let path = self.dir.join(KEY_FILE);
+        if path.exists() {
+            secure_file(&path)?;
+        }
+        let raw = fs::read(&path)
+            .map_err(|error| format!("failed to read cloudflared credential key: {error}"))?;
+        raw.try_into()
+            .map_err(|_| "cloudflared credential key has an invalid length".to_string())
+    }
+
+    fn load_or_create_key(&self) -> Result<[u8; 32], String> {
+        let _guard = KEY_CREATION_LOCK
+            .lock()
+            .unwrap_or_else(|poisoned| poisoned.into_inner());
+        match self.read_key() {
+            Ok(key) => {
+                secure_file(&self.dir.join(KEY_FILE))?;
+                Ok(key)
+            }
+            Err(_) if !self.dir.join(KEY_FILE).exists() => {
+                let key = random_bytes::<32>();
+                atomic_private_write(&self.dir.join(KEY_FILE), &key)?;
+                Ok(key)
+            }
+            Err(error) => Err(error),
+        }
+    }
+}
+
+pub(super) fn atomic_private_write(path: &Path, bytes: &[u8]) -> Result<(), String> {
+    let parent = path
+        .parent()
+        .ok_or_else(|| "cloudflared credential path has no parent".to_string())?;
+    fs::create_dir_all(parent).map_err(|error| error.to_string())?;
+    secure_directory(parent)?;
+    let name = path
+        .file_name()
+        .and_then(|value| value.to_str())
+        .unwrap_or("credential");
+    let temporary = parent.join(format!(
+        ".{name}.{}.{}.tmp",
+        std::process::id(),
+        hex::encode(random_bytes::<8>())
+    ));
+    let result = (|| {
+        let mut options = OpenOptions::new();
+        options.write(true).create_new(true);
+        #[cfg(unix)]
+        {
+            use std::os::unix::fs::OpenOptionsExt;
+            options.mode(0o600);
+        }
+        let mut file = options
+            .open(&temporary)
+            .map_err(|error| error.to_string())?;
+        file.write_all(bytes).map_err(|error| error.to_string())?;
+        file.sync_all().map_err(|error| error.to_string())?;
+        drop(file);
+        replace_file(&temporary, path)?;
+        secure_file(path)?;
+        sync_parent_directory(parent)
+    })();
+    if result.is_err() {
+        let _ = fs::remove_file(&temporary);
+    }
+    result
+}
+
+#[cfg(not(windows))]
+fn replace_file(temporary: &Path, path: &Path) -> Result<(), String> {
+    fs::rename(temporary, path).map_err(|error| error.to_string())
+}
+
+#[cfg(windows)]
+fn replace_file(temporary: &Path, path: &Path) -> Result<(), String> {
+    use std::os::windows::ffi::OsStrExt;
+
+    use windows_sys::Win32::Storage::FileSystem::{
+        MOVEFILE_REPLACE_EXISTING, MOVEFILE_WRITE_THROUGH, MoveFileExW,
+    };
+
+    let source = temporary
+        .as_os_str()
+        .encode_wide()
+        .chain(Some(0))
+        .collect::<Vec<_>>();
+    let destination = path
+        .as_os_str()
+        .encode_wide()
+        .chain(Some(0))
+        .collect::<Vec<_>>();
+    // SAFETY: both buffers are valid, NUL-terminated UTF-16 paths and remain
+    // alive for the duration of this same-volume atomic replacement call.
+    let moved = unsafe {
+        MoveFileExW(
+            source.as_ptr(),
+            destination.as_ptr(),
+            MOVEFILE_REPLACE_EXISTING | MOVEFILE_WRITE_THROUGH,
+        )
+    };
+    if moved == 0 {
+        Err(std::io::Error::last_os_error().to_string())
+    } else {
+        Ok(())
+    }
+}
+
+#[cfg(unix)]
+fn sync_parent_directory(parent: &Path) -> Result<(), String> {
+    fs::File::open(parent)
+        .and_then(|directory| directory.sync_all())
+        .map_err(|error| error.to_string())
+}
+
+#[cfg(not(unix))]
+fn sync_parent_directory(_parent: &Path) -> Result<(), String> {
+    Ok(())
+}
+
+#[cfg(unix)]
+fn secure_directory(path: &Path) -> Result<(), String> {
+    use std::os::unix::fs::PermissionsExt;
+    fs::set_permissions(path, fs::Permissions::from_mode(0o700)).map_err(|error| error.to_string())
+}
+
+#[cfg(not(unix))]
+fn secure_directory(_path: &Path) -> Result<(), String> {
+    Ok(())
+}
+
+#[cfg(unix)]
+fn secure_file(path: &Path) -> Result<(), String> {
+    use std::os::unix::fs::PermissionsExt;
+    fs::set_permissions(path, fs::Permissions::from_mode(0o600)).map_err(|error| error.to_string())
+}
+
+#[cfg(not(unix))]
+fn secure_file(_path: &Path) -> Result<(), String> {
+    Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn encrypts_credentials_and_binds_ciphertext_to_kind() {
+        let directory = tempfile::tempdir().unwrap();
+        let store = CloudflaredSecretStore::new(directory.path());
+        store.write(SecretKind::ApiToken, "api-secret").unwrap();
+        store
+            .write(SecretKind::TunnelToken, "tunnel-secret")
+            .unwrap();
+
+        assert_eq!(
+            store.read(SecretKind::ApiToken).unwrap().as_deref(),
+            Some("api-secret")
+        );
+        assert_eq!(
+            store.read(SecretKind::TunnelToken).unwrap().as_deref(),
+            Some("tunnel-secret")
+        );
+        let encrypted = fs::read_to_string(directory.path().join(API_TOKEN_FILE)).unwrap();
+        assert!(!encrypted.contains("api-secret"));
+
+        #[cfg(unix)]
+        {
+            use std::os::unix::fs::PermissionsExt;
+            let mode = fs::metadata(directory.path().join(API_TOKEN_FILE))
+                .unwrap()
+                .permissions()
+                .mode()
+                & 0o777;
+            assert_eq!(mode, 0o600);
+        }
+    }
+
+    #[test]
+    fn delete_is_idempotent() {
+        let directory = tempfile::tempdir().unwrap();
+        let store = CloudflaredSecretStore::new(directory.path());
+        store.delete(SecretKind::ApiToken).unwrap();
+        store.write(SecretKind::ApiToken, "secret").unwrap();
+        store.delete(SecretKind::ApiToken).unwrap();
+        store.delete(SecretKind::ApiToken).unwrap();
+        assert!(!store.configured(SecretKind::ApiToken));
+    }
+
+    #[cfg(unix)]
+    #[test]
+    fn read_repairs_credential_and_key_permissions() {
+        use std::os::unix::fs::PermissionsExt;
+
+        let directory = tempfile::tempdir().unwrap();
+        let store = CloudflaredSecretStore::new(directory.path());
+        store.write(SecretKind::ApiToken, "secret").unwrap();
+
+        let credential_path = directory.path().join(API_TOKEN_FILE);
+        let key_path = directory.path().join(KEY_FILE);
+        fs::set_permissions(&credential_path, fs::Permissions::from_mode(0o700)).unwrap();
+        fs::set_permissions(&key_path, fs::Permissions::from_mode(0o700)).unwrap();
+
+        assert_eq!(
+            store.read(SecretKind::ApiToken).unwrap().as_deref(),
+            Some("secret")
+        );
+        for path in [credential_path, key_path] {
+            let mode = fs::metadata(path).unwrap().permissions().mode() & 0o777;
+            assert_eq!(mode, 0o600);
+        }
+    }
+}

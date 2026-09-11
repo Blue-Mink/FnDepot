@@ -1,1 +1,612 @@
-dXNlIHN0ZDo6e2ZzLCBwcm9jZXNzOjpDb21tYW5kfTsKCnVzZSBzZXJkZV9qc29uOjp7TWFwLCBWYWx1ZSwganNvbn07CnVzZSB0b2tpbzo6dGltZTo6e3NlbGYsIE1pc3NlZFRpY2tCZWhhdmlvcn07Cgp1c2UgY3JhdGU6OntzdGF0ZTo6QXBwU3RhdGUsIHN5c3RlbV9ldmVudHMsIHRpbWVfdXRpbHN9OwoKY29uc3QgQ1BVX1NUQVRFX0tFWTogJnN0ciA9ICJmbl9rbm9jazpldmVudHM6c3RhdGU6c3lzdGVtLXJlc291cmNlLW1vbml0b3I6Y3B1IjsKY29uc3QgTUVNT1JZX1NUQVRFX0tFWTogJnN0ciA9ICJmbl9rbm9jazpldmVudHM6c3RhdGU6c3lzdGVtLXJlc291cmNlLW1vbml0b3I6bWVtb3J5IjsKY29uc3QgUkVTT1VSQ0VfQUxFUlRfREVEVVBFX1RUTF9TRUNPTkRTOiBpNjQgPSA2MDsKCiNbZGVyaXZlKENsb25lLCBDb3B5KV0Kc3RydWN0IENwdVNuYXBzaG90IHsKICAgIGlkbGU6IHU2NCwKICAgIHRvdGFsOiB1NjQsCn0KCnN0cnVjdCBNb25pdG9yUnVudGltZVN0YXRlIHsKICAgIGNvbmZpZzogVmFsdWUsCiAgICBjb25maWdfbG9hZGVkOiBib29sLAogICAgY3B1OiBNZXRyaWNSdW50aW1lU3RhdGUsCiAgICBtZW1vcnk6IE1ldHJpY1J1bnRpbWVTdGF0ZSwKfQoKc3RydWN0IE1ldHJpY1J1bnRpbWVTdGF0ZSB7CiAgICB2YWx1ZTogVmFsdWUsCiAgICBkaXJ0eTogYm9vbCwKfQoKaW1wbCBNb25pdG9yUnVudGltZVN0YXRlIHsKICAgIGFzeW5jIGZuIGxvYWQoc3RhdGU6ICZBcHBTdGF0ZSkgLT4gU2VsZiB7CiAgICAgICAgbGV0IGNvbmZpZyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0Lm9rKCk7CiAgICAgICAgU2VsZiB7CiAgICAgICAgICAgIC8vIENvbmZpZ3VyYXRpb24gY2hhbmdlcyBleHBsaWNpdGx5IHdha2UgdGhpcyB0YXNrLiBLZWVwaW5nIHRoZQogICAgICAgICAgICAvLyBzbmFwc2hvdCBpbiBtZW1vcnkgcHJldmVudHMgdGhlIGZpdmUtc2Vjb25kIHNhbXBsZXIgZnJvbQogICAgICAgICAgICAvLyByZWFkaW5nIFNRTGl0ZSB3aGlsZSB0aGUgYXBwbGlhbmNlIGlzIG90aGVyd2lzZSBpZGxlLgogICAgICAgICAgICBjb25maWdfbG9hZGVkOiBjb25maWcuaXNfc29tZSgpLAogICAgICAgICAgICBjb25maWc6IGNvbmZpZy51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgICAgICBjcHU6IE1ldHJpY1J1bnRpbWVTdGF0ZSB7CiAgICAgICAgICAgICAgICB2YWx1ZTogc3RhdGUKICAgICAgICAgICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAgICAgICAgIC5nZXRfanNvbl92YWx1ZShDUFVfU1RBVEVfS0VZKQogICAgICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgICAgIC5vaygpCiAgICAgICAgICAgICAgICAgICAgLmZsYXR0ZW4oKQogICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgICAgICAgICAgZGlydHk6IGZhbHNlLAogICAgICAgICAgICB9LAogICAgICAgICAgICBtZW1vcnk6IE1ldHJpY1J1bnRpbWVTdGF0ZSB7CiAgICAgICAgICAgICAgICB2YWx1ZTogc3RhdGUKICAgICAgICAgICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAgICAgICAgIC5nZXRfanNvbl92YWx1ZShNRU1PUllfU1RBVEVfS0VZKQogICAgICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgICAgIC5vaygpCiAgICAgICAgICAgICAgICAgICAgLmZsYXR0ZW4oKQogICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgICAgICAgICAgZGlydHk6IGZhbHNlLAogICAgICAgICAgICB9LAogICAgICAgIH0KICAgIH0KfQoKcHViIGZuIHN0YXJ0X3N5c3RlbV9tb25pdG9yX3Rhc2tzKHN0YXRlOiBBcHBTdGF0ZSkgewogICAgbGV0IHRhc2tfc3RhdGUgPSBzdGF0ZS5jbG9uZSgpOwogICAgc3RhdGUuc3Bhd25fYmFja2dyb3VuZCgic3lzdGVtLXJlc291cmNlLW1vbml0b3IiLCBhc3luYyBtb3ZlIHsKICAgICAgICBsZXQgbXV0IHJ1bnRpbWUgPSBNb25pdG9yUnVudGltZVN0YXRlOjpsb2FkKCZ0YXNrX3N0YXRlKS5hd2FpdDsKICAgICAgICBsZXQgbXV0IHRpY2tlciA9IHRpbWU6OmludGVydmFsKHN5c3RlbV9tb25pdG9yX2ludGVydmFsKCkpOwogICAgICAgIHRpY2tlci5zZXRfbWlzc2VkX3RpY2tfYmVoYXZpb3IoTWlzc2VkVGlja0JlaGF2aW9yOjpEZWxheSk7CiAgICAgICAgdGlja2VyLnRpY2soKS5hd2FpdDsKICAgICAgICBsb29wIHsKICAgICAgICAgICAgbGV0IHJlbG9hZCA9IHRva2lvOjpzZWxlY3QhIHsKICAgICAgICAgICAgICAgIF8gPSB0YXNrX3N0YXRlLnNodXRkb3duLmNhbmNlbGxlZCgpID0+IGJyZWFrLAogICAgICAgICAgICAgICAgXyA9IHRpY2tlci50aWNrKCkgPT4gZmFsc2UsCiAgICAgICAgICAgICAgICBfID0gdGFza19zdGF0ZS5zeXN0ZW1fbW9uaXRvcl9yZWxvYWRfbm90aWZ5Lm5vdGlmaWVkKCkgPT4gdHJ1ZSwKICAgICAgICAgICAgfTsKICAgICAgICAgICAgaWYgcmVsb2FkIHsKICAgICAgICAgICAgICAgIHJ1bnRpbWUgPSBNb25pdG9yUnVudGltZVN0YXRlOjpsb2FkKCZ0YXNrX3N0YXRlKS5hd2FpdDsKICAgICAgICAgICAgfQogICAgICAgICAgICB0b2tpbzo6c2VsZWN0ISB7CiAgICAgICAgICAgICAgICBfID0gdGFza19zdGF0ZS5zaHV0ZG93bi5jYW5jZWxsZWQoKSA9PiBicmVhaywKICAgICAgICAgICAgICAgIHJlc3VsdCA9IHRpY2tfc3lzdGVtX21vbml0b3IoJnRhc2tfc3RhdGUsICZtdXQgcnVudGltZSkgPT4gewogICAgICAgICAgICAgICAgICAgIGlmIGxldCBFcnIoZXJyb3IpID0gcmVzdWx0IHsKICAgICAgICAgICAgICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAic3lzdGVtIHJlc291cmNlIG1vbml0b3IgdGljayBmYWlsZWQiKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9KTsKfQoKYXN5bmMgZm4gdGlja19zeXN0ZW1fbW9uaXRvcigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBydW50aW1lOiAmbXV0IE1vbml0b3JSdW50aW1lU3RhdGUsCikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIGlmICFydW50aW1lLmNvbmZpZ19sb2FkZWQgewogICAgICAgIHJ1bnRpbWUuY29uZmlnID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQ/OwogICAgICAgIHJ1bnRpbWUuY29uZmlnX2xvYWRlZCA9IHRydWU7CiAgICB9CiAgICBsZXQgY29uZmlnID0gJnJ1bnRpbWUuY29uZmlnOwogICAgaWYgIWV2ZW50X3N5c3RlbV9tb25pdG9yX2VuYWJsZWQoY29uZmlnKSB7CiAgICAgICAgY2xlYXJfbWV0cmljX3N0YXRlKHN0YXRlLCBDUFVfU1RBVEVfS0VZLCAmbXV0IHJ1bnRpbWUuY3B1KS5hd2FpdD87CiAgICAgICAgY2xlYXJfbWV0cmljX3N0YXRlKHN0YXRlLCBNRU1PUllfU1RBVEVfS0VZLCAmbXV0IHJ1bnRpbWUubWVtb3J5KS5hd2FpdD87CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH0KICAgIHByb2Nlc3NfbWV0cmljKAogICAgICAgIHN0YXRlLAogICAgICAgICJjcHUiLAogICAgICAgIGV2ZW50X3N5c3RlbV9ydWxlX3ZhbHVlKGNvbmZpZywgImNwdV9hbGVydCIpLAogICAgICAgICZtdXQgcnVudGltZS5jcHUsCiAgICApCiAgICAuYXdhaXQ/OwogICAgcHJvY2Vzc19tZXRyaWMoCiAgICAgICAgc3RhdGUsCiAgICAgICAgIm1lbW9yeSIsCiAgICAgICAgZXZlbnRfc3lzdGVtX3J1bGVfdmFsdWUoY29uZmlnLCAibWVtb3J5X2FsZXJ0IiksCiAgICAgICAgJm11dCBydW50aW1lLm1lbW9yeSwKICAgICkKICAgIC5hd2FpdD87CiAgICBPaygoKSkKfQoKYXN5bmMgZm4gcHJvY2Vzc19tZXRyaWMoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgbWV0cmljOiAmc3RyLAogICAgcnVsZTogT3B0aW9uPCZWYWx1ZT4sCiAgICBjdXJyZW50OiAmbXV0IE1ldHJpY1J1bnRpbWVTdGF0ZSwKKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgbGV0IHJ1bGUgPSBub3JtYWxpemVfcnVsZShydWxlKTsKICAgIGxldCBzdGF0ZV9rZXkgPSBtZXRyaWNfc3RhdGVfa2V5KG1ldHJpYyk7CiAgICBpZiAhcnVsZS5lbmFibGVkIHsKICAgICAgICBjbGVhcl9tZXRyaWNfc3RhdGUoc3RhdGUsIHN0YXRlX2tleSwgY3VycmVudCkuYXdhaXQ/OwogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CgogICAgbGV0IG5vdyA9IHRpbWVfdXRpbHM6Om5vd19tcygpOwogICAgbGV0IHNhbXBsZV9pbnRlcnZhbF9tcyA9IHJ1bGUuc2FtcGxlX2ludGVydmFsX3NlY29uZHMubWF4KDEpICogMTAwMDsKICAgIGlmIGN1cnJlbnQKICAgICAgICAudmFsdWUKICAgICAgICAuZ2V0KCJsYXN0U2FtcGxlQXQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KQogICAgICAgIC5pc19zb21lX2FuZCh8bGFzdHwgbm93IC0gbGFzdCA8IHNhbXBsZV9pbnRlcnZhbF9tcykKICAgIHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQoKICAgIGxldCAodXNhZ2VfcGVyY2VudCwgY3B1X3NuYXBzaG90KSA9IG1hdGNoIG1ldHJpYyB7CiAgICAgICAgImNwdSIgPT4gcmVhZF9jcHVfdXNhZ2VfcGVyY2VudChjdXJyZW50LnZhbHVlLmdldCgiY3B1U25hcHNob3QiKSksCiAgICAgICAgXyA9PiAocmVhZF9tZW1vcnlfdXNhZ2VfcGVyY2VudCgpLCBOb25lKSwKICAgIH07CgogICAgbGV0IG11dCBuZXh0ID0gY3VycmVudAogICAgICAgIC52YWx1ZQogICAgICAgIC5hc19vYmplY3QoKQogICAgICAgIC5jbG9uZWQoKQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCBNYXA6OmZyb21faXRlcihbKCJzdGF0dXMiLnRvX3N0cmluZygpLCBqc29uISgibm9ybWFsIikpXSkpOwogICAgbmV4dC5pbnNlcnQoImxhc3RTYW1wbGVBdCIudG9fc3RyaW5nKCksIGpzb24hKG5vdykpOwogICAgaWYgbGV0IFNvbWUoc25hcHNob3QpID0gY3B1X3NuYXBzaG90IHsKICAgICAgICBuZXh0Lmluc2VydCgKICAgICAgICAgICAgImNwdVNuYXBzaG90Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAganNvbiEoeyAiaWRsZSI6IHNuYXBzaG90LmlkbGUsICJ0b3RhbCI6IHNuYXBzaG90LnRvdGFsIH0pLAogICAgICAgICk7CiAgICB9CgogICAgbGV0IFNvbWUodXNhZ2VfcGVyY2VudCkgPSB1c2FnZV9wZXJjZW50IGVsc2UgewogICAgICAgIHVwZGF0ZV9tZXRyaWNfc3RhdGUoc3RhdGUsIHN0YXRlX2tleSwgY3VycmVudCwgVmFsdWU6Ok9iamVjdChuZXh0KSkuYXdhaXQ/OwogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9OwogICAgbmV4dC5pbnNlcnQoImxhc3RVc2FnZVBlcmNlbnQiLnRvX3N0cmluZygpLCBqc29uISh1c2FnZV9wZXJjZW50KSk7CiAgICBsZXQgc3RhdHVzID0gbmV4dAogICAgICAgIC5nZXQoInN0YXR1cyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcigibm9ybWFsIikKICAgICAgICAudG9fc3RyaW5nKCk7CiAgICBsZXQgc3VzdGFpbl9tcyA9IHJ1bGUuc3VzdGFpbl9zZWNvbmRzLm1heCgxKSAqIDEwMDA7CgogICAgaWYgdXNhZ2VfcGVyY2VudCA+PSBydWxlLnRocmVzaG9sZF9wZXJjZW50IHsKICAgICAgICBsZXQgYWJvdmVfc2luY2UgPSBuZXh0CiAgICAgICAgICAgIC5nZXQoImFib3ZlVGhyZXNob2xkU2luY2UiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkKICAgICAgICAgICAgLnVud3JhcF9vcihub3cpOwogICAgICAgIG5leHQuaW5zZXJ0KCJhYm92ZVRocmVzaG9sZFNpbmNlIi50b19zdHJpbmcoKSwganNvbiEoYWJvdmVfc2luY2UpKTsKICAgICAgICBuZXh0Lmluc2VydCgiYmVsb3dSZWNvdmVyU2luY2UiLnRvX3N0cmluZygpLCBWYWx1ZTo6TnVsbCk7CiAgICAgICAgaWYgc3RhdHVzICE9ICJhbGVydCIgJiYgbm93IC0gYWJvdmVfc2luY2UgPj0gc3VzdGFpbl9tcyB7CiAgICAgICAgICAgIGxldCBwdWJsaXNoZWQgPQogICAgICAgICAgICAgICAgcHVibGlzaF9yZXNvdXJjZV9ldmVudChzdGF0ZSwgbWV0cmljLCBmYWxzZSwgJnJ1bGUsIHVzYWdlX3BlcmNlbnQsIGFib3ZlX3NpbmNlKQogICAgICAgICAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgICAgIGlmIHB1Ymxpc2hlZCB7CiAgICAgICAgICAgICAgICBuZXh0Lmluc2VydCgic3RhdHVzIi50b19zdHJpbmcoKSwganNvbiEoImFsZXJ0IikpOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICB1cGRhdGVfbWV0cmljX3N0YXRlKHN0YXRlLCBzdGF0ZV9rZXksIGN1cnJlbnQsIFZhbHVlOjpPYmplY3QobmV4dCkpLmF3YWl0PzsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQoKICAgIGlmIHVzYWdlX3BlcmNlbnQgPD0gcnVsZS5yZWNvdmVyX3BlcmNlbnQgewogICAgICAgIGlmIHN0YXR1cyA9PSAiYWxlcnQiIHsKICAgICAgICAgICAgbGV0IGJlbG93X3NpbmNlID0gbmV4dAogICAgICAgICAgICAgICAgLmdldCgiYmVsb3dSZWNvdmVyU2luY2UiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19pNjQpCiAgICAgICAgICAgICAgICAudW53cmFwX29yKG5vdyk7CiAgICAgICAgICAgIG5leHQuaW5zZXJ0KCJiZWxvd1JlY292ZXJTaW5jZSIudG9fc3RyaW5nKCksIGpzb24hKGJlbG93X3NpbmNlKSk7CiAgICAgICAgICAgIG5leHQuaW5zZXJ0KCJhYm92ZVRocmVzaG9sZFNpbmNlIi50b19zdHJpbmcoKSwgVmFsdWU6Ok51bGwpOwogICAgICAgICAgICBpZiBub3cgLSBiZWxvd19zaW5jZSA+PSBzdXN0YWluX21zIHsKICAgICAgICAgICAgICAgIGxldCBwdWJsaXNoZWQgPQogICAgICAgICAgICAgICAgICAgIHB1Ymxpc2hfcmVzb3VyY2VfZXZlbnQoc3RhdGUsIG1ldHJpYywgdHJ1ZSwgJnJ1bGUsIHVzYWdlX3BlcmNlbnQsIGJlbG93X3NpbmNlKQogICAgICAgICAgICAgICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgICAgICAgICAgaWYgcHVibGlzaGVkIHsKICAgICAgICAgICAgICAgICAgICBuZXh0Lmluc2VydCgic3RhdHVzIi50b19zdHJpbmcoKSwganNvbiEoIm5vcm1hbCIpKTsKICAgICAgICAgICAgICAgICAgICBuZXh0Lmluc2VydCgiYmVsb3dSZWNvdmVyU2luY2UiLnRvX3N0cmluZygpLCBWYWx1ZTo6TnVsbCk7CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHJldHVybiBPaygoKSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBuZXh0Lmluc2VydCgiYWJvdmVUaHJlc2hvbGRTaW5jZSIudG9fc3RyaW5nKCksIFZhbHVlOjpOdWxsKTsKICAgICAgICAgICAgbmV4dC5pbnNlcnQoImJlbG93UmVjb3ZlclNpbmNlIi50b19zdHJpbmcoKSwgVmFsdWU6Ok51bGwpOwogICAgICAgIH0KICAgICAgICB1cGRhdGVfbWV0cmljX3N0YXRlKHN0YXRlLCBzdGF0ZV9rZXksIGN1cnJlbnQsIFZhbHVlOjpPYmplY3QobmV4dCkpLmF3YWl0PzsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQoKICAgIGlmIHN0YXR1cyA9PSAiYWxlcnQiIHsKICAgICAgICBuZXh0Lmluc2VydCgiYmVsb3dSZWNvdmVyU2luY2UiLnRvX3N0cmluZygpLCBWYWx1ZTo6TnVsbCk7CiAgICB9IGVsc2UgewogICAgICAgIG5leHQuaW5zZXJ0KCJhYm92ZVRocmVzaG9sZFNpbmNlIi50b19zdHJpbmcoKSwgVmFsdWU6Ok51bGwpOwogICAgfQogICAgdXBkYXRlX21ldHJpY19zdGF0ZShzdGF0ZSwgc3RhdGVfa2V5LCBjdXJyZW50LCBWYWx1ZTo6T2JqZWN0KG5leHQpKS5hd2FpdD87CiAgICBPaygoKSkKfQoKYXN5bmMgZm4gdXBkYXRlX21ldHJpY19zdGF0ZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBzdGF0ZV9rZXk6ICZzdHIsCiAgICBjdXJyZW50OiAmbXV0IE1ldHJpY1J1bnRpbWVTdGF0ZSwKICAgIG5leHQ6IFZhbHVlLAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgcHJldmlvdXNfc3RhdHVzID0gY3VycmVudAogICAgICAgIC52YWx1ZQogICAgICAgIC5nZXQoInN0YXR1cyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcigibm9ybWFsIik7CiAgICBsZXQgbmV4dF9zdGF0dXMgPSBuZXh0CiAgICAgICAgLmdldCgic3RhdHVzIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAudW53cmFwX29yKCJub3JtYWwiKTsKICAgIGxldCBwZXJzaXN0ID0gY3VycmVudC5kaXJ0eSB8fCBwcmV2aW91c19zdGF0dXMgIT0gbmV4dF9zdGF0dXM7CiAgICBjdXJyZW50LnZhbHVlID0gbmV4dDsKICAgIGlmIHBlcnNpc3QgewogICAgICAgIGxldCByZXN1bHQgPSBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnNldF9qc29uX3ZhbHVlKHN0YXRlX2tleSwgJmN1cnJlbnQudmFsdWUpCiAgICAgICAgICAgIC5hd2FpdDsKICAgICAgICBjdXJyZW50LmRpcnR5ID0gcmVzdWx0LmlzX2VycigpOwogICAgICAgIHJlc3VsdD87CiAgICB9CiAgICBPaygoKSkKfQoKYXN5bmMgZm4gY2xlYXJfbWV0cmljX3N0YXRlKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHN0YXRlX2tleTogJnN0ciwKICAgIGN1cnJlbnQ6ICZtdXQgTWV0cmljUnVudGltZVN0YXRlLAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBpZiAhY3VycmVudC52YWx1ZS5pc19udWxsKCkgewogICAgICAgIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZGVsZXRlX2tleShzdGF0ZV9rZXkpLmF3YWl0PzsKICAgICAgICBjdXJyZW50LnZhbHVlID0gVmFsdWU6Ok51bGw7CiAgICAgICAgY3VycmVudC5kaXJ0eSA9IGZhbHNlOwogICAgfQogICAgT2soKCkpCn0KCmFzeW5jIGZuIHB1Ymxpc2hfcmVzb3VyY2VfZXZlbnQoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgbWV0cmljOiAmc3RyLAogICAgcmVjb3ZlcmVkOiBib29sLAogICAgcnVsZTogJk1vbml0b3JSdWxlLAogICAgdXNhZ2VfcGVyY2VudDogZjY0LAogICAgdHJhbnNpdGlvbl9zaW5jZTogaTY0LAopIC0+IGFueWhvdzo6UmVzdWx0PGJvb2w+IHsKICAgIGxldCBob3N0bmFtZSA9IGhvc3RuYW1lKCk7CiAgICBzeXN0ZW1fZXZlbnRzOjpwdWJsaXNoX3Jlc291cmNlX2FsZXJ0X2V2ZW50KAogICAgICAgIHN0YXRlLAogICAgICAgIG1ldHJpYywKICAgICAgICAmaG9zdG5hbWUsCiAgICAgICAgcmVjb3ZlcmVkLAogICAgICAgIGZvcm1hdCEoCiAgICAgICAgICAgICJyZXNvdXJjZS1hbGVydDp7aG9zdG5hbWV9OnttZXRyaWN9Ont9Ont0cmFuc2l0aW9uX3NpbmNlfSIsCiAgICAgICAgICAgIGlmIHJlY292ZXJlZCB7ICJyZWNvdmVyZWQiIH0gZWxzZSB7ICJhbGVydCIgfQogICAgICAgICksCiAgICAgICAgUkVTT1VSQ0VfQUxFUlRfREVEVVBFX1RUTF9TRUNPTkRTLAogICAgICAgIGpzb24hKHsKICAgICAgICAgICAgImhvc3RuYW1lIjogaG9zdG5hbWUsCiAgICAgICAgICAgICJ1c2FnZV9wZXJjZW50IjogdXNhZ2VfcGVyY2VudCwKICAgICAgICAgICAgInRocmVzaG9sZF9wZXJjZW50IjogcnVsZS50aHJlc2hvbGRfcGVyY2VudCwKICAgICAgICAgICAgInJlY292ZXJfcGVyY2VudCI6IHJ1bGUucmVjb3Zlcl9wZXJjZW50LAogICAgICAgICAgICAic2FtcGxlX2ludGVydmFsX3NlY29uZHMiOiBydWxlLnNhbXBsZV9pbnRlcnZhbF9zZWNvbmRzLAogICAgICAgICAgICAic3VzdGFpbl9zZWNvbmRzIjogcnVsZS5zdXN0YWluX3NlY29uZHMsCiAgICAgICAgfSksCiAgICApCiAgICAuYXdhaXQKfQoKcHViKGNyYXRlKSBhc3luYyBmbiByZXNldF9zdGF0ZXMoc3RhdGU6ICZBcHBTdGF0ZSkgewogICAgbGV0IF8gPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmRlbGV0ZV9rZXkoQ1BVX1NUQVRFX0tFWSkuYXdhaXQ7CiAgICBsZXQgXyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZGVsZXRlX2tleShNRU1PUllfU1RBVEVfS0VZKS5hd2FpdDsKICAgIHN0YXRlLnJlcXVlc3Rfc3lzdGVtX21vbml0b3JfcmVsb2FkKCk7Cn0KCmZuIHJlYWRfY3B1X3VzYWdlX3BlcmNlbnQocHJldmlvdXM6IE9wdGlvbjwmVmFsdWU+KSAtPiAoT3B0aW9uPGY2ND4sIE9wdGlvbjxDcHVTbmFwc2hvdD4pIHsKICAgIGxldCBTb21lKHNuYXBzaG90KSA9IHJlYWRfY3B1X3NuYXBzaG90KCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIChOb25lLCBOb25lKTsKICAgIH07CiAgICBsZXQgcHJldmlvdXMgPSBwcmV2aW91cy5hbmRfdGhlbihwYXJzZV9jcHVfc25hcHNob3QpOwogICAgbGV0IHVzYWdlID0gcHJldmlvdXMuYW5kX3RoZW4ofG9sZHwgewogICAgICAgIGxldCB0b3RhbF9kZWx0YSA9IHNuYXBzaG90LnRvdGFsLnNhdHVyYXRpbmdfc3ViKG9sZC50b3RhbCk7CiAgICAgICAgbGV0IGlkbGVfZGVsdGEgPSBzbmFwc2hvdC5pZGxlLnNhdHVyYXRpbmdfc3ViKG9sZC5pZGxlKTsKICAgICAgICBpZiB0b3RhbF9kZWx0YSA9PSAwIHsKICAgICAgICAgICAgTm9uZQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIFNvbWUoY2xhbXBfcGVyY2VudCgKICAgICAgICAgICAgICAgICgxLjAgLSBpZGxlX2RlbHRhIGFzIGY2NCAvIHRvdGFsX2RlbHRhIGFzIGY2NCkgKiAxMDAuMCwKICAgICAgICAgICAgKSkKICAgICAgICB9CiAgICB9KTsKICAgICh1c2FnZSwgU29tZShzbmFwc2hvdCkpCn0KCmZuIHJlYWRfY3B1X3NuYXBzaG90KCkgLT4gT3B0aW9uPENwdVNuYXBzaG90PiB7CiAgICBsZXQgc3RhdCA9IGZzOjpyZWFkX3RvX3N0cmluZygiL3Byb2Mvc3RhdCIpLm9rKCk/OwogICAgbGV0IGxpbmUgPSBzdGF0LmxpbmVzKCkuZmluZCh8bGluZXwgbGluZS5zdGFydHNfd2l0aCgiY3B1ICIpKT87CiAgICBsZXQgdmFsdWVzID0gbGluZQogICAgICAgIC5zcGxpdF93aGl0ZXNwYWNlKCkKICAgICAgICAuc2tpcCgxKQogICAgICAgIC5maWx0ZXJfbWFwKHx2YWx1ZXwgdmFsdWUucGFyc2U6Ojx1NjQ+KCkub2soKSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGlmIHZhbHVlcy5sZW4oKSA8IDQgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgbGV0IGlkbGUgPSB2YWx1ZXMuZ2V0KDMpLmNvcGllZCgpLnVud3JhcF9vcigwKSArIHZhbHVlcy5nZXQoNCkuY29waWVkKCkudW53cmFwX29yKDApOwogICAgbGV0IHRvdGFsID0gdmFsdWVzLml0ZXIoKS5zdW0oKTsKICAgIFNvbWUoQ3B1U25hcHNob3QgeyBpZGxlLCB0b3RhbCB9KQp9CgpmbiBwYXJzZV9jcHVfc25hcHNob3QodmFsdWU6ICZWYWx1ZSkgLT4gT3B0aW9uPENwdVNuYXBzaG90PiB7CiAgICBTb21lKENwdVNuYXBzaG90IHsKICAgICAgICBpZGxlOiB2YWx1ZS5nZXQoImlkbGUiKT8uYXNfdTY0KCk/LAogICAgICAgIHRvdGFsOiB2YWx1ZS5nZXQoInRvdGFsIik/LmFzX3U2NCgpPywKICAgIH0pCn0KCmZuIHJlYWRfbWVtb3J5X3VzYWdlX3BlcmNlbnQoKSAtPiBPcHRpb248ZjY0PiB7CiAgICBsZXQgbWVtaW5mbyA9IGZzOjpyZWFkX3RvX3N0cmluZygiL3Byb2MvbWVtaW5mbyIpLm9rKCk/OwogICAgbGV0IG11dCB0b3RhbF9rYiA9IE5vbmU7CiAgICBsZXQgbXV0IGF2YWlsYWJsZV9rYiA9IE5vbmU7CiAgICBmb3IgbGluZSBpbiBtZW1pbmZvLmxpbmVzKCkgewogICAgICAgIGlmIGxpbmUuc3RhcnRzX3dpdGgoIk1lbVRvdGFsOiIpIHsKICAgICAgICAgICAgdG90YWxfa2IgPSBwYXJzZV9tZW1pbmZvX2tiKGxpbmUpOwogICAgICAgIH0gZWxzZSBpZiBsaW5lLnN0YXJ0c193aXRoKCJNZW1BdmFpbGFibGU6IikgewogICAgICAgICAgICBhdmFpbGFibGVfa2IgPSBwYXJzZV9tZW1pbmZvX2tiKGxpbmUpOwogICAgICAgIH0KICAgICAgICBpZiB0b3RhbF9rYi5pc19zb21lKCkgJiYgYXZhaWxhYmxlX2tiLmlzX3NvbWUoKSB7CiAgICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgIH0KICAgIGxldCB0b3RhbCA9IHRvdGFsX2tiPzsKICAgIGxldCBhdmFpbGFibGUgPSBhdmFpbGFibGVfa2I/Lm1pbih0b3RhbCk7CiAgICBpZiB0b3RhbCA9PSAwIHsKICAgICAgICByZXR1cm4gU29tZSgwLjApOwogICAgfQogICAgU29tZShjbGFtcF9wZXJjZW50KAogICAgICAgICgodG90YWwgLSBhdmFpbGFibGUpIGFzIGY2NCAvIHRvdGFsIGFzIGY2NCkgKiAxMDAuMCwKICAgICkpCn0KCmZuIHBhcnNlX21lbWluZm9fa2IobGluZTogJnN0cikgLT4gT3B0aW9uPHU2ND4gewogICAgbGluZS5zcGxpdF93aGl0ZXNwYWNlKCkubnRoKDEpPy5wYXJzZTo6PHU2ND4oKS5vaygpCn0KCmZuIGNsYW1wX3BlcmNlbnQodmFsdWU6IGY2NCkgLT4gZjY0IHsKICAgICgodmFsdWUuY2xhbXAoMC4wLCAxMDAuMCkgKiAxMC4wKS5yb3VuZCgpKSAvIDEwLjAKfQoKZm4gbWV0cmljX3N0YXRlX2tleShtZXRyaWM6ICZzdHIpIC0+ICYnc3RhdGljIHN0ciB7CiAgICBpZiBtZXRyaWMgPT0gImNwdSIgewogICAgICAgIENQVV9TVEFURV9LRVkKICAgIH0gZWxzZSB7CiAgICAgICAgTUVNT1JZX1NUQVRFX0tFWQogICAgfQp9CgojW2Rlcml2ZShDbG9uZSldCnN0cnVjdCBNb25pdG9yUnVsZSB7CiAgICBlbmFibGVkOiBib29sLAogICAgdGhyZXNob2xkX3BlcmNlbnQ6IGY2NCwKICAgIHJlY292ZXJfcGVyY2VudDogZjY0LAogICAgc2FtcGxlX2ludGVydmFsX3NlY29uZHM6IGk2NCwKICAgIHN1c3RhaW5fc2Vjb25kczogaTY0LAp9CgpmbiBldmVudF9zeXN0ZW1fbW9uaXRvcl9lbmFibGVkKGNvbmZpZzogJlZhbHVlKSAtPiBib29sIHsKICAgIGNvbmZpZwogICAgICAgIC5nZXQoImV2ZW50X3N5c3RlbSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3QpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuZ2V0KCJlbmFibGVkIikpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgIC51bndyYXBfb3IodHJ1ZSkKfQoKZm4gZXZlbnRfc3lzdGVtX3J1bGVfdmFsdWU8J2E+KGNvbmZpZzogJidhIFZhbHVlLCBrZXk6ICZzdHIpIC0+IE9wdGlvbjwmJ2EgVmFsdWU+IHsKICAgIGNvbmZpZwogICAgICAgIC5nZXQoImV2ZW50X3N5c3RlbSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3QpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuZ2V0KCJydWxlcyIpKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfb2JqZWN0KQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLmdldChrZXkpKQp9CgpmbiBub3JtYWxpemVfcnVsZSh2YWx1ZTogT3B0aW9uPCZWYWx1ZT4pIC0+IE1vbml0b3JSdWxlIHsKICAgIGxldCB0aHJlc2hvbGRfcGVyY2VudCA9IGJvdW5kZWRfaW50X2ZpZWxkKHZhbHVlLCAidGhyZXNob2xkX3BlcmNlbnQiLCA4MCwgMSwgMTAwKTsKICAgIE1vbml0b3JSdWxlIHsKICAgICAgICBlbmFibGVkOiB2YWx1ZQogICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5nZXQoImVuYWJsZWQiKSkKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgICAgICAudW53cmFwX29yKHRydWUpLAogICAgICAgIHRocmVzaG9sZF9wZXJjZW50OiB0aHJlc2hvbGRfcGVyY2VudCBhcyBmNjQsCiAgICAgICAgcmVjb3Zlcl9wZXJjZW50OiBib3VuZGVkX2ludF9maWVsZCh2YWx1ZSwgInJlY292ZXJfcGVyY2VudCIsIDYwLCAwLCB0aHJlc2hvbGRfcGVyY2VudCkKICAgICAgICAgICAgYXMgZjY0LAogICAgICAgIHNhbXBsZV9pbnRlcnZhbF9zZWNvbmRzOiBib3VuZGVkX2ludF9maWVsZCh2YWx1ZSwgInNhbXBsZV9pbnRlcnZhbF9zZWNvbmRzIiwgNSwgNSwgMzYwMCksCiAgICAgICAgc3VzdGFpbl9zZWNvbmRzOiBib3VuZGVkX2ludF9maWVsZCh2YWx1ZSwgInN1c3RhaW5fc2Vjb25kcyIsIDMwLCAxMCwgMjQgKiAzNjAwKSwKICAgIH0KfQoKZm4gYm91bmRlZF9pbnRfZmllbGQodmFsdWU6IE9wdGlvbjwmVmFsdWU+LCBrZXk6ICZzdHIsIGZhbGxiYWNrOiBpNjQsIG1pbjogaTY0LCBtYXg6IGk2NCkgLT4gaTY0IHsKICAgIGludF9maWVsZCh2YWx1ZSwga2V5LCBmYWxsYmFjaykuY2xhbXAobWluLCBtYXgpCn0KCmZuIGludF9maWVsZCh2YWx1ZTogT3B0aW9uPCZWYWx1ZT4sIGtleTogJnN0ciwgZmFsbGJhY2s6IGk2NCkgLT4gaTY0IHsKICAgIHZhbHVlCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuZ2V0KGtleSkpCiAgICAgICAgLmFuZF90aGVuKHBhcnNlX2pzX2ludCkKICAgICAgICAudW53cmFwX29yKGZhbGxiYWNrKQp9CgpmbiBwYXJzZV9qc19pbnQodmFsdWU6ICZWYWx1ZSkgLT4gT3B0aW9uPGk2ND4gewogICAgaWYgbGV0IFNvbWUodmFsdWUpID0gdmFsdWUuYXNfaTY0KCkgewogICAgICAgIHJldHVybiBTb21lKHZhbHVlKTsKICAgIH0KICAgIGlmIGxldCBTb21lKHZhbHVlKSA9IHZhbHVlLmFzX3U2NCgpIHsKICAgICAgICByZXR1cm4gaTY0Ojp0cnlfZnJvbSh2YWx1ZSkub2soKTsKICAgIH0KICAgIGlmIGxldCBTb21lKHZhbHVlKSA9IHZhbHVlLmFzX2Y2NCgpIHsKICAgICAgICByZXR1cm4gdmFsdWUuaXNfZmluaXRlKCkudGhlbl9zb21lKHZhbHVlLnRydW5jKCkgYXMgaTY0KTsKICAgIH0KICAgIGNyYXRlOjpub2RlX2NvbXBhdDo6cGFyc2VfaTY0X3ByZWZpeF90cmltX3N0YXJ0KHZhbHVlLmFzX3N0cigpPykKfQoKZm4gc3lzdGVtX21vbml0b3JfaW50ZXJ2YWwoKSAtPiBzdGQ6OnRpbWU6OkR1cmF0aW9uIHsKICAgIGxldCBjcm9uID0gc3RkOjplbnY6OnZhcigiU1lTVEVNX01PTklUT1JfQ1JPTiIpLm9rKCk7CiAgICBsZXQgaW50ZXJ2YWxfc2Vjb25kcyA9IHN0ZDo6ZW52Ojp2YXIoIlNZU1RFTV9NT05JVE9SX0lOVEVSVkFMX1NFQ09ORFMiKS5vaygpOwogICAgc3lzdGVtX21vbml0b3JfaW50ZXJ2YWxfZnJvbV92YWx1ZXMoY3Jvbi5hc19kZXJlZigpLCBpbnRlcnZhbF9zZWNvbmRzLmFzX2RlcmVmKCkpCn0KCmZuIHN5c3RlbV9tb25pdG9yX2ludGVydmFsX2Zyb21fdmFsdWVzKAogICAgY3JvbjogT3B0aW9uPCZzdHI+LAogICAgaW50ZXJ2YWxfc2Vjb25kczogT3B0aW9uPCZzdHI+LAopIC0+IHN0ZDo6dGltZTo6RHVyYXRpb24gewogICAgbGV0IHNlY29uZHMgPSBjcm9uCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS50cmltKCkuaXNfZW1wdHkoKSkKICAgICAgICAubWFwKHx2YWx1ZXwgY3JhdGU6OnNldHRpbmdzOjpwYXJzZV9jcm9uX2ludGVydmFsX3NlY29uZHModmFsdWUsIDUpIGFzIGk2NCkKICAgICAgICAudW53cmFwX29yX2Vsc2UofHwgcGFyc2VfZW52X2ludF9saWtlX25vZGUoaW50ZXJ2YWxfc2Vjb25kcywgNSkpCiAgICAgICAgLmNsYW1wKDEsIDMwMCkgYXMgdTY0OwogICAgc3RkOjp0aW1lOjpEdXJhdGlvbjo6ZnJvbV9zZWNzKHNlY29uZHMpCn0KCmZuIHBhcnNlX2Vudl9pbnRfbGlrZV9ub2RlKHZhbHVlOiBPcHRpb248JnN0cj4sIGZhbGxiYWNrOiBpNjQpIC0+IGk2NCB7CiAgICBjcmF0ZTo6bm9kZV9jb21wYXQ6OnBhcnNlX2k2NF9vcih2YWx1ZSwgZmFsbGJhY2spCn0KCmZuIGhvc3RuYW1lKCkgLT4gU3RyaW5nIHsKICAgIHN0ZDo6ZW52Ojp2YXIoIkhPU1ROQU1FIikKICAgICAgICAub2soKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUudHJpbSgpLmlzX2VtcHR5KCkpCiAgICAgICAgLm9yX2Vsc2UofHwgewogICAgICAgICAgICBDb21tYW5kOjpuZXcoImhvc3RuYW1lIikKICAgICAgICAgICAgICAgIC5vdXRwdXQoKQogICAgICAgICAgICAgICAgLm9rKCkKICAgICAgICAgICAgICAgIC5hbmRfdGhlbih8b3V0cHV0fCBTdHJpbmc6OmZyb21fdXRmOChvdXRwdXQuc3Rkb3V0KS5vaygpKQogICAgICAgICAgICAgICAgLm1hcCh8dmFsdWV8IHZhbHVlLnRyaW0oKS50b19zdHJpbmcoKSkKICAgICAgICAgICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICB9KQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCAidW5rbm93bi1ob3N0Ii50b19zdHJpbmcoKSkKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CgogICAgI1t0ZXN0XQogICAgZm4gZXZlbnRfc3lzdGVtX2RlZmF1bHRzX3RvX2VuYWJsZWRfZm9yX2xlZ2FjeV9jb25maWdzKCkgewogICAgICAgIGFzc2VydCEoZXZlbnRfc3lzdGVtX21vbml0b3JfZW5hYmxlZCgmanNvbiEoe30pKSk7CiAgICAgICAgYXNzZXJ0IShldmVudF9zeXN0ZW1fbW9uaXRvcl9lbmFibGVkKCZqc29uISh7CiAgICAgICAgICAgICJldmVudF9zeXN0ZW0iOiB7CiAgICAgICAgICAgICAgICAicnVsZXMiOiB7fQogICAgICAgICAgICB9CiAgICAgICAgfSkpKTsKICAgICAgICBhc3NlcnQhKGV2ZW50X3N5c3RlbV9tb25pdG9yX2VuYWJsZWQoJmpzb24hKHsKICAgICAgICAgICAgImV2ZW50X3N5c3RlbSI6IG51bGwKICAgICAgICB9KSkpOwogICAgICAgIGFzc2VydCEoIWV2ZW50X3N5c3RlbV9tb25pdG9yX2VuYWJsZWQoJmpzb24hKHsKICAgICAgICAgICAgImV2ZW50X3N5c3RlbSI6IHsKICAgICAgICAgICAgICAgICJlbmFibGVkIjogZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0pKSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gZXZlbnRfc3lzdGVtX3J1bGVfdmFsdWVfcmVhZHNfbmVzdGVkX3Jlc291cmNlX3J1bGVzKCkgewogICAgICAgIGxldCBjb25maWcgPSBqc29uISh7CiAgICAgICAgICAgICJldmVudF9zeXN0ZW0iOiB7CiAgICAgICAgICAgICAgICAicnVsZXMiOiB7CiAgICAgICAgICAgICAgICAgICAgImNwdV9hbGVydCI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgInRocmVzaG9sZF9wZXJjZW50IjogNzAKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9KTsKCiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZXZlbnRfc3lzdGVtX3J1bGVfdmFsdWUoJmNvbmZpZywgImNwdV9hbGVydCIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5nZXQoInRocmVzaG9sZF9wZXJjZW50IikpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCksCiAgICAgICAgICAgIFNvbWUoNzApCiAgICAgICAgKTsKICAgICAgICBhc3NlcnQhKGV2ZW50X3N5c3RlbV9ydWxlX3ZhbHVlKCZjb25maWcsICJtZW1vcnlfYWxlcnQiKS5pc19ub25lKCkpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIG5vcm1hbGl6ZV9ydWxlX2RlZmF1bHRzX21hdGNoX25vZGVfZXZlbnRfc3lzdGVtX2RlZmF1bHRzKCkgewogICAgICAgIGxldCBydWxlID0gbm9ybWFsaXplX3J1bGUoTm9uZSk7CgogICAgICAgIGFzc2VydCEocnVsZS5lbmFibGVkKTsKICAgICAgICBhc3NlcnRfZXEhKHJ1bGUudGhyZXNob2xkX3BlcmNlbnQsIDgwLjApOwogICAgICAgIGFzc2VydF9lcSEocnVsZS5yZWNvdmVyX3BlcmNlbnQsIDYwLjApOwogICAgICAgIGFzc2VydF9lcSEocnVsZS5zYW1wbGVfaW50ZXJ2YWxfc2Vjb25kcywgNSk7CiAgICAgICAgYXNzZXJ0X2VxIShydWxlLnN1c3RhaW5fc2Vjb25kcywgMzApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIG5vcm1hbGl6ZV9ydWxlX3VzZXNfbm9kZV9ib3VuZHNfYW5kX3JlY292ZXJfY2Fubm90X2V4Y2VlZF90aHJlc2hvbGQoKSB7CiAgICAgICAgbGV0IHZhbHVlID0ganNvbiEoewogICAgICAgICAgICAidGhyZXNob2xkX3BlcmNlbnQiOiA1MCwKICAgICAgICAgICAgInJlY292ZXJfcGVyY2VudCI6IDc1LAogICAgICAgICAgICAic2FtcGxlX2ludGVydmFsX3NlY29uZHMiOiAxLAogICAgICAgICAgICAic3VzdGFpbl9zZWNvbmRzIjogNQogICAgICAgIH0pOwogICAgICAgIGxldCBydWxlID0gbm9ybWFsaXplX3J1bGUoU29tZSgmdmFsdWUpKTsKCiAgICAgICAgYXNzZXJ0IShydWxlLmVuYWJsZWQpOwogICAgICAgIGFzc2VydF9lcSEocnVsZS50aHJlc2hvbGRfcGVyY2VudCwgNTAuMCk7CiAgICAgICAgYXNzZXJ0X2VxIShydWxlLnJlY292ZXJfcGVyY2VudCwgNTAuMCk7CiAgICAgICAgYXNzZXJ0X2VxIShydWxlLnNhbXBsZV9pbnRlcnZhbF9zZWNvbmRzLCA1KTsKICAgICAgICBhc3NlcnRfZXEhKHJ1bGUuc3VzdGFpbl9zZWNvbmRzLCAxMCk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gbm9ybWFsaXplX3J1bGVfYWNjZXB0c19ub2RlX3BhcnNlX2ludF9zdHlsZV92YWx1ZXMoKSB7CiAgICAgICAgbGV0IHZhbHVlID0ganNvbiEoewogICAgICAgICAgICAiZW5hYmxlZCI6IGZhbHNlLAogICAgICAgICAgICAidGhyZXNob2xkX3BlcmNlbnQiOiAiOTUlIiwKICAgICAgICAgICAgInJlY292ZXJfcGVyY2VudCI6ICIgNzAgc2Vjb25kcyIsCiAgICAgICAgICAgICJzYW1wbGVfaW50ZXJ2YWxfc2Vjb25kcyI6IDEyLjksCiAgICAgICAgICAgICJzdXN0YWluX3NlY29uZHMiOiAiKzQ1cyIKICAgICAgICB9KTsKICAgICAgICBsZXQgcnVsZSA9IG5vcm1hbGl6ZV9ydWxlKFNvbWUoJnZhbHVlKSk7CgogICAgICAgIGFzc2VydCEoIXJ1bGUuZW5hYmxlZCk7CiAgICAgICAgYXNzZXJ0X2VxIShydWxlLnRocmVzaG9sZF9wZXJjZW50LCA5NS4wKTsKICAgICAgICBhc3NlcnRfZXEhKHJ1bGUucmVjb3Zlcl9wZXJjZW50LCA3MC4wKTsKICAgICAgICBhc3NlcnRfZXEhKHJ1bGUuc2FtcGxlX2ludGVydmFsX3NlY29uZHMsIDEyKTsKICAgICAgICBhc3NlcnRfZXEhKHJ1bGUuc3VzdGFpbl9zZWNvbmRzLCA0NSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gZW52X2ludF9wYXJzZXJfbWF0Y2hlc19ub2RlX3BhcnNlX2ludF9lZGdlcygpIHsKICAgICAgICBhc3NlcnRfZXEhKHBhcnNlX2Vudl9pbnRfbGlrZV9ub2RlKE5vbmUsIDMwKSwgMzApOwogICAgICAgIGFzc2VydF9lcSEocGFyc2VfZW52X2ludF9saWtlX25vZGUoU29tZSgiNjBzIiksIDMwKSwgNjApOwogICAgICAgIGFzc2VydF9lcSEocGFyc2VfZW52X2ludF9saWtlX25vZGUoU29tZSgiICArMy45IiksIDMwKSwgMyk7CiAgICAgICAgYXNzZXJ0X2VxIShwYXJzZV9lbnZfaW50X2xpa2Vfbm9kZShTb21lKCIweDEwIiksIDMwKSwgMCk7CiAgICAgICAgYXNzZXJ0X2VxIShwYXJzZV9lbnZfaW50X2xpa2Vfbm9kZShTb21lKCJub3BlIiksIDMwKSwgMzApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHN5c3RlbV9tb25pdG9yX2ludGVydmFsX3ByZWZlcnNfbm9kZV9jcm9uX2VudigpIHsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBzeXN0ZW1fbW9uaXRvcl9pbnRlcnZhbF9mcm9tX3ZhbHVlcyhTb21lKCIqLzUgKiAqICogKiAqIiksIFNvbWUoIjYwIikpLmFzX3NlY3MoKSwKICAgICAgICAgICAgNQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc3lzdGVtX21vbml0b3JfaW50ZXJ2YWxfZnJvbV92YWx1ZXMoU29tZSgiKi8yICogKiAqICoiKSwgTm9uZSkuYXNfc2VjcygpLAogICAgICAgICAgICAxMjAKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHN5c3RlbV9tb25pdG9yX2ludGVydmFsX2Zyb21fdmFsdWVzKE5vbmUsIFNvbWUoIjYwcyIpKS5hc19zZWNzKCksCiAgICAgICAgICAgIDYwCiAgICAgICAgKTsKICAgIH0KfQo=
+use std::{fs, process::Command};
+
+use serde_json::{Map, Value, json};
+use tokio::time::{self, MissedTickBehavior};
+
+use crate::{state::AppState, system_events, time_utils};
+
+const CPU_STATE_KEY: &str = "fn_knock:events:state:system-resource-monitor:cpu";
+const MEMORY_STATE_KEY: &str = "fn_knock:events:state:system-resource-monitor:memory";
+const RESOURCE_ALERT_DEDUPE_TTL_SECONDS: i64 = 60;
+
+#[derive(Clone, Copy)]
+struct CpuSnapshot {
+    idle: u64,
+    total: u64,
+}
+
+struct MonitorRuntimeState {
+    config: Value,
+    config_loaded: bool,
+    cpu: MetricRuntimeState,
+    memory: MetricRuntimeState,
+}
+
+struct MetricRuntimeState {
+    value: Value,
+    dirty: bool,
+}
+
+impl MonitorRuntimeState {
+    async fn load(state: &AppState) -> Self {
+        let config = state.storage.store.get_config().await.ok();
+        Self {
+            // Configuration changes explicitly wake this task. Keeping the
+            // snapshot in memory prevents the five-second sampler from
+            // reading SQLite while the appliance is otherwise idle.
+            config_loaded: config.is_some(),
+            config: config.unwrap_or(Value::Null),
+            cpu: MetricRuntimeState {
+                value: state
+                    .storage
+                    .store
+                    .get_json_value(CPU_STATE_KEY)
+                    .await
+                    .ok()
+                    .flatten()
+                    .unwrap_or(Value::Null),
+                dirty: false,
+            },
+            memory: MetricRuntimeState {
+                value: state
+                    .storage
+                    .store
+                    .get_json_value(MEMORY_STATE_KEY)
+                    .await
+                    .ok()
+                    .flatten()
+                    .unwrap_or(Value::Null),
+                dirty: false,
+            },
+        }
+    }
+}
+
+pub fn start_system_monitor_tasks(state: AppState) {
+    let task_state = state.clone();
+    state.spawn_background("system-resource-monitor", async move {
+        let mut runtime = MonitorRuntimeState::load(&task_state).await;
+        let mut ticker = time::interval(system_monitor_interval());
+        ticker.set_missed_tick_behavior(MissedTickBehavior::Delay);
+        ticker.tick().await;
+        loop {
+            let reload = tokio::select! {
+                _ = task_state.shutdown.cancelled() => break,
+                _ = ticker.tick() => false,
+                _ = task_state.system_monitor_reload_notify.notified() => true,
+            };
+            if reload {
+                runtime = MonitorRuntimeState::load(&task_state).await;
+            }
+            tokio::select! {
+                _ = task_state.shutdown.cancelled() => break,
+                result = tick_system_monitor(&task_state, &mut runtime) => {
+                    if let Err(error) = result {
+                        tracing::warn!(%error, "system resource monitor tick failed");
+                    }
+                }
+            }
+        }
+    });
+}
+
+async fn tick_system_monitor(
+    state: &AppState,
+    runtime: &mut MonitorRuntimeState,
+) -> anyhow::Result<()> {
+    if !runtime.config_loaded {
+        runtime.config = state.storage.store.get_config().await?;
+        runtime.config_loaded = true;
+    }
+    let config = &runtime.config;
+    if !event_system_monitor_enabled(config) {
+        clear_metric_state(state, CPU_STATE_KEY, &mut runtime.cpu).await?;
+        clear_metric_state(state, MEMORY_STATE_KEY, &mut runtime.memory).await?;
+        return Ok(());
+    }
+    process_metric(
+        state,
+        "cpu",
+        event_system_rule_value(config, "cpu_alert"),
+        &mut runtime.cpu,
+    )
+    .await?;
+    process_metric(
+        state,
+        "memory",
+        event_system_rule_value(config, "memory_alert"),
+        &mut runtime.memory,
+    )
+    .await?;
+    Ok(())
+}
+
+async fn process_metric(
+    state: &AppState,
+    metric: &str,
+    rule: Option<&Value>,
+    current: &mut MetricRuntimeState,
+) -> anyhow::Result<()> {
+    let rule = normalize_rule(rule);
+    let state_key = metric_state_key(metric);
+    if !rule.enabled {
+        clear_metric_state(state, state_key, current).await?;
+        return Ok(());
+    }
+
+    let now = time_utils::now_ms();
+    let sample_interval_ms = rule.sample_interval_seconds.max(1) * 1000;
+    if current
+        .value
+        .get("lastSampleAt")
+        .and_then(Value::as_i64)
+        .is_some_and(|last| now - last < sample_interval_ms)
+    {
+        return Ok(());
+    }
+
+    let (usage_percent, cpu_snapshot) = match metric {
+        "cpu" => read_cpu_usage_percent(current.value.get("cpuSnapshot")),
+        _ => (read_memory_usage_percent(), None),
+    };
+
+    let mut next = current
+        .value
+        .as_object()
+        .cloned()
+        .unwrap_or_else(|| Map::from_iter([("status".to_string(), json!("normal"))]));
+    next.insert("lastSampleAt".to_string(), json!(now));
+    if let Some(snapshot) = cpu_snapshot {
+        next.insert(
+            "cpuSnapshot".to_string(),
+            json!({ "idle": snapshot.idle, "total": snapshot.total }),
+        );
+    }
+
+    let Some(usage_percent) = usage_percent else {
+        update_metric_state(state, state_key, current, Value::Object(next)).await?;
+        return Ok(());
+    };
+    next.insert("lastUsagePercent".to_string(), json!(usage_percent));
+    let status = next
+        .get("status")
+        .and_then(Value::as_str)
+        .unwrap_or("normal")
+        .to_string();
+    let sustain_ms = rule.sustain_seconds.max(1) * 1000;
+
+    if usage_percent >= rule.threshold_percent {
+        let above_since = next
+            .get("aboveThresholdSince")
+            .and_then(Value::as_i64)
+            .unwrap_or(now);
+        next.insert("aboveThresholdSince".to_string(), json!(above_since));
+        next.insert("belowRecoverSince".to_string(), Value::Null);
+        if status != "alert" && now - above_since >= sustain_ms {
+            let published =
+                publish_resource_event(state, metric, false, &rule, usage_percent, above_since)
+                    .await?;
+            if published {
+                next.insert("status".to_string(), json!("alert"));
+            } else {
+                return Ok(());
+            }
+        }
+        update_metric_state(state, state_key, current, Value::Object(next)).await?;
+        return Ok(());
+    }
+
+    if usage_percent <= rule.recover_percent {
+        if status == "alert" {
+            let below_since = next
+                .get("belowRecoverSince")
+                .and_then(Value::as_i64)
+                .unwrap_or(now);
+            next.insert("belowRecoverSince".to_string(), json!(below_since));
+            next.insert("aboveThresholdSince".to_string(), Value::Null);
+            if now - below_since >= sustain_ms {
+                let published =
+                    publish_resource_event(state, metric, true, &rule, usage_percent, below_since)
+                        .await?;
+                if published {
+                    next.insert("status".to_string(), json!("normal"));
+                    next.insert("belowRecoverSince".to_string(), Value::Null);
+                } else {
+                    return Ok(());
+                }
+            }
+        } else {
+            next.insert("aboveThresholdSince".to_string(), Value::Null);
+            next.insert("belowRecoverSince".to_string(), Value::Null);
+        }
+        update_metric_state(state, state_key, current, Value::Object(next)).await?;
+        return Ok(());
+    }
+
+    if status == "alert" {
+        next.insert("belowRecoverSince".to_string(), Value::Null);
+    } else {
+        next.insert("aboveThresholdSince".to_string(), Value::Null);
+    }
+    update_metric_state(state, state_key, current, Value::Object(next)).await?;
+    Ok(())
+}
+
+async fn update_metric_state(
+    state: &AppState,
+    state_key: &str,
+    current: &mut MetricRuntimeState,
+    next: Value,
+) -> anyhow::Result<()> {
+    let previous_status = current
+        .value
+        .get("status")
+        .and_then(Value::as_str)
+        .unwrap_or("normal");
+    let next_status = next
+        .get("status")
+        .and_then(Value::as_str)
+        .unwrap_or("normal");
+    let persist = current.dirty || previous_status != next_status;
+    current.value = next;
+    if persist {
+        let result = state
+            .storage
+            .store
+            .set_json_value(state_key, &current.value)
+            .await;
+        current.dirty = result.is_err();
+        result?;
+    }
+    Ok(())
+}
+
+async fn clear_metric_state(
+    state: &AppState,
+    state_key: &str,
+    current: &mut MetricRuntimeState,
+) -> anyhow::Result<()> {
+    if !current.value.is_null() {
+        state.storage.store.delete_key(state_key).await?;
+        current.value = Value::Null;
+        current.dirty = false;
+    }
+    Ok(())
+}
+
+async fn publish_resource_event(
+    state: &AppState,
+    metric: &str,
+    recovered: bool,
+    rule: &MonitorRule,
+    usage_percent: f64,
+    transition_since: i64,
+) -> anyhow::Result<bool> {
+    let hostname = hostname();
+    system_events::publish_resource_alert_event(
+        state,
+        metric,
+        &hostname,
+        recovered,
+        format!(
+            "resource-alert:{hostname}:{metric}:{}:{transition_since}",
+            if recovered { "recovered" } else { "alert" }
+        ),
+        RESOURCE_ALERT_DEDUPE_TTL_SECONDS,
+        json!({
+            "hostname": hostname,
+            "usage_percent": usage_percent,
+            "threshold_percent": rule.threshold_percent,
+            "recover_percent": rule.recover_percent,
+            "sample_interval_seconds": rule.sample_interval_seconds,
+            "sustain_seconds": rule.sustain_seconds,
+        }),
+    )
+    .await
+}
+
+pub(crate) async fn reset_states(state: &AppState) {
+    let _ = state.storage.store.delete_key(CPU_STATE_KEY).await;
+    let _ = state.storage.store.delete_key(MEMORY_STATE_KEY).await;
+    state.request_system_monitor_reload();
+}
+
+fn read_cpu_usage_percent(previous: Option<&Value>) -> (Option<f64>, Option<CpuSnapshot>) {
+    let Some(snapshot) = read_cpu_snapshot() else {
+        return (None, None);
+    };
+    let previous = previous.and_then(parse_cpu_snapshot);
+    let usage = previous.and_then(|old| {
+        let total_delta = snapshot.total.saturating_sub(old.total);
+        let idle_delta = snapshot.idle.saturating_sub(old.idle);
+        if total_delta == 0 {
+            None
+        } else {
+            Some(clamp_percent(
+                (1.0 - idle_delta as f64 / total_delta as f64) * 100.0,
+            ))
+        }
+    });
+    (usage, Some(snapshot))
+}
+
+fn read_cpu_snapshot() -> Option<CpuSnapshot> {
+    let stat = fs::read_to_string("/proc/stat").ok()?;
+    let line = stat.lines().find(|line| line.starts_with("cpu "))?;
+    let values = line
+        .split_whitespace()
+        .skip(1)
+        .filter_map(|value| value.parse::<u64>().ok())
+        .collect::<Vec<_>>();
+    if values.len() < 4 {
+        return None;
+    }
+    let idle = values.get(3).copied().unwrap_or(0) + values.get(4).copied().unwrap_or(0);
+    let total = values.iter().sum();
+    Some(CpuSnapshot { idle, total })
+}
+
+fn parse_cpu_snapshot(value: &Value) -> Option<CpuSnapshot> {
+    Some(CpuSnapshot {
+        idle: value.get("idle")?.as_u64()?,
+        total: value.get("total")?.as_u64()?,
+    })
+}
+
+fn read_memory_usage_percent() -> Option<f64> {
+    let meminfo = fs::read_to_string("/proc/meminfo").ok()?;
+    let mut total_kb = None;
+    let mut available_kb = None;
+    for line in meminfo.lines() {
+        if line.starts_with("MemTotal:") {
+            total_kb = parse_meminfo_kb(line);
+        } else if line.starts_with("MemAvailable:") {
+            available_kb = parse_meminfo_kb(line);
+        }
+        if total_kb.is_some() && available_kb.is_some() {
+            break;
+        }
+    }
+    let total = total_kb?;
+    let available = available_kb?.min(total);
+    if total == 0 {
+        return Some(0.0);
+    }
+    Some(clamp_percent(
+        ((total - available) as f64 / total as f64) * 100.0,
+    ))
+}
+
+fn parse_meminfo_kb(line: &str) -> Option<u64> {
+    line.split_whitespace().nth(1)?.parse::<u64>().ok()
+}
+
+fn clamp_percent(value: f64) -> f64 {
+    ((value.clamp(0.0, 100.0) * 10.0).round()) / 10.0
+}
+
+fn metric_state_key(metric: &str) -> &'static str {
+    if metric == "cpu" {
+        CPU_STATE_KEY
+    } else {
+        MEMORY_STATE_KEY
+    }
+}
+
+#[derive(Clone)]
+struct MonitorRule {
+    enabled: bool,
+    threshold_percent: f64,
+    recover_percent: f64,
+    sample_interval_seconds: i64,
+    sustain_seconds: i64,
+}
+
+fn event_system_monitor_enabled(config: &Value) -> bool {
+    config
+        .get("event_system")
+        .and_then(Value::as_object)
+        .and_then(|value| value.get("enabled"))
+        .and_then(Value::as_bool)
+        .unwrap_or(true)
+}
+
+fn event_system_rule_value<'a>(config: &'a Value, key: &str) -> Option<&'a Value> {
+    config
+        .get("event_system")
+        .and_then(Value::as_object)
+        .and_then(|value| value.get("rules"))
+        .and_then(Value::as_object)
+        .and_then(|value| value.get(key))
+}
+
+fn normalize_rule(value: Option<&Value>) -> MonitorRule {
+    let threshold_percent = bounded_int_field(value, "threshold_percent", 80, 1, 100);
+    MonitorRule {
+        enabled: value
+            .and_then(|value| value.get("enabled"))
+            .and_then(Value::as_bool)
+            .unwrap_or(true),
+        threshold_percent: threshold_percent as f64,
+        recover_percent: bounded_int_field(value, "recover_percent", 60, 0, threshold_percent)
+            as f64,
+        sample_interval_seconds: bounded_int_field(value, "sample_interval_seconds", 5, 5, 3600),
+        sustain_seconds: bounded_int_field(value, "sustain_seconds", 30, 10, 24 * 3600),
+    }
+}
+
+fn bounded_int_field(value: Option<&Value>, key: &str, fallback: i64, min: i64, max: i64) -> i64 {
+    int_field(value, key, fallback).clamp(min, max)
+}
+
+fn int_field(value: Option<&Value>, key: &str, fallback: i64) -> i64 {
+    value
+        .and_then(|value| value.get(key))
+        .and_then(parse_js_int)
+        .unwrap_or(fallback)
+}
+
+fn parse_js_int(value: &Value) -> Option<i64> {
+    if let Some(value) = value.as_i64() {
+        return Some(value);
+    }
+    if let Some(value) = value.as_u64() {
+        return i64::try_from(value).ok();
+    }
+    if let Some(value) = value.as_f64() {
+        return value.is_finite().then_some(value.trunc() as i64);
+    }
+    crate::node_compat::parse_i64_prefix_trim_start(value.as_str()?)
+}
+
+fn system_monitor_interval() -> std::time::Duration {
+    let cron = std::env::var("SYSTEM_MONITOR_CRON").ok();
+    let interval_seconds = std::env::var("SYSTEM_MONITOR_INTERVAL_SECONDS").ok();
+    system_monitor_interval_from_values(cron.as_deref(), interval_seconds.as_deref())
+}
+
+fn system_monitor_interval_from_values(
+    cron: Option<&str>,
+    interval_seconds: Option<&str>,
+) -> std::time::Duration {
+    let seconds = cron
+        .filter(|value| !value.trim().is_empty())
+        .map(|value| crate::settings::parse_cron_interval_seconds(value, 5) as i64)
+        .unwrap_or_else(|| parse_env_int_like_node(interval_seconds, 5))
+        .clamp(1, 300) as u64;
+    std::time::Duration::from_secs(seconds)
+}
+
+fn parse_env_int_like_node(value: Option<&str>, fallback: i64) -> i64 {
+    crate::node_compat::parse_i64_or(value, fallback)
+}
+
+fn hostname() -> String {
+    std::env::var("HOSTNAME")
+        .ok()
+        .filter(|value| !value.trim().is_empty())
+        .or_else(|| {
+            Command::new("hostname")
+                .output()
+                .ok()
+                .and_then(|output| String::from_utf8(output.stdout).ok())
+                .map(|value| value.trim().to_string())
+                .filter(|value| !value.is_empty())
+        })
+        .unwrap_or_else(|| "unknown-host".to_string())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn event_system_defaults_to_enabled_for_legacy_configs() {
+        assert!(event_system_monitor_enabled(&json!({})));
+        assert!(event_system_monitor_enabled(&json!({
+            "event_system": {
+                "rules": {}
+            }
+        })));
+        assert!(event_system_monitor_enabled(&json!({
+            "event_system": null
+        })));
+        assert!(!event_system_monitor_enabled(&json!({
+            "event_system": {
+                "enabled": false
+            }
+        })));
+    }
+
+    #[test]
+    fn event_system_rule_value_reads_nested_resource_rules() {
+        let config = json!({
+            "event_system": {
+                "rules": {
+                    "cpu_alert": {
+                        "threshold_percent": 70
+                    }
+                }
+            }
+        });
+
+        assert_eq!(
+            event_system_rule_value(&config, "cpu_alert")
+                .and_then(|value| value.get("threshold_percent"))
+                .and_then(Value::as_i64),
+            Some(70)
+        );
+        assert!(event_system_rule_value(&config, "memory_alert").is_none());
+    }
+
+    #[test]
+    fn normalize_rule_defaults_match_node_event_system_defaults() {
+        let rule = normalize_rule(None);
+
+        assert!(rule.enabled);
+        assert_eq!(rule.threshold_percent, 80.0);
+        assert_eq!(rule.recover_percent, 60.0);
+        assert_eq!(rule.sample_interval_seconds, 5);
+        assert_eq!(rule.sustain_seconds, 30);
+    }
+
+    #[test]
+    fn normalize_rule_uses_node_bounds_and_recover_cannot_exceed_threshold() {
+        let value = json!({
+            "threshold_percent": 50,
+            "recover_percent": 75,
+            "sample_interval_seconds": 1,
+            "sustain_seconds": 5
+        });
+        let rule = normalize_rule(Some(&value));
+
+        assert!(rule.enabled);
+        assert_eq!(rule.threshold_percent, 50.0);
+        assert_eq!(rule.recover_percent, 50.0);
+        assert_eq!(rule.sample_interval_seconds, 5);
+        assert_eq!(rule.sustain_seconds, 10);
+    }
+
+    #[test]
+    fn normalize_rule_accepts_node_parse_int_style_values() {
+        let value = json!({
+            "enabled": false,
+            "threshold_percent": "95%",
+            "recover_percent": " 70 seconds",
+            "sample_interval_seconds": 12.9,
+            "sustain_seconds": "+45s"
+        });
+        let rule = normalize_rule(Some(&value));
+
+        assert!(!rule.enabled);
+        assert_eq!(rule.threshold_percent, 95.0);
+        assert_eq!(rule.recover_percent, 70.0);
+        assert_eq!(rule.sample_interval_seconds, 12);
+        assert_eq!(rule.sustain_seconds, 45);
+    }
+
+    #[test]
+    fn env_int_parser_matches_node_parse_int_edges() {
+        assert_eq!(parse_env_int_like_node(None, 30), 30);
+        assert_eq!(parse_env_int_like_node(Some("60s"), 30), 60);
+        assert_eq!(parse_env_int_like_node(Some("  +3.9"), 30), 3);
+        assert_eq!(parse_env_int_like_node(Some("0x10"), 30), 0);
+        assert_eq!(parse_env_int_like_node(Some("nope"), 30), 30);
+    }
+
+    #[test]
+    fn system_monitor_interval_prefers_node_cron_env() {
+        assert_eq!(
+            system_monitor_interval_from_values(Some("*/5 * * * * *"), Some("60")).as_secs(),
+            5
+        );
+        assert_eq!(
+            system_monitor_interval_from_values(Some("*/2 * * * *"), None).as_secs(),
+            120
+        );
+        assert_eq!(
+            system_monitor_interval_from_values(None, Some("60s")).as_secs(),
+            60
+        );
+    }
+}

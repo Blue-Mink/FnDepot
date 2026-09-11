@@ -1,1 +1,144 @@
-dXNlIHN1cGVyOjoqOwp1c2UgdXRvaXBhX2F4dW06Ontyb3V0ZXI6Ok9wZW5BcGlSb3V0ZXIsIHJvdXRlc307CgpwdWIoc3VwZXIpIGZuIG9wZW5hcGlfcm91dGVzKCkgLT4gT3BlbkFwaVJvdXRlcjxBcHBTdGF0ZT4gewogICAgT3BlbkFwaVJvdXRlcjo6bmV3KCkKICAgICAgICAucm91dGVzKHJvdXRlcyEocmVzb3VyY2Vfc3RhdHVzKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoaW5pdGlhbGl6ZV9yZXNvdXJjZSkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGNhbmNlbF9yZXNvdXJjZV9pbml0aWFsaXphdGlvbikpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGRlbGV0ZV9yZXNvdXJjZSkpCn0KCmNvbnN0IFJVU1RfQUNNRVNIX0VYRUNVVEFCTEU6ICZzdHIgPSAicnVzdC1hY21lc2guZXhlIjsKCnB1YihzdXBlcikgZm4gd2luZG93c19hY21lX3Byb3ZpZGVyX2lkcygpIC0+ICYnc3RhdGljIFsmJ3N0YXRpYyBzdHJdIHsKICAgICZbCiAgICAgICAgImRuc19hbGkiLAogICAgICAgICJkbnNfYmFpZHVjbG91ZCIsCiAgICAgICAgImRuc19jZiIsCiAgICAgICAgImRuc19kcCIsCiAgICAgICAgImRuc190ZW5jZW50IiwKICAgICAgICAiZG5zX2R1Y2tkbnMiLAogICAgICAgICJkbnNfZHludSIsCiAgICAgICAgImRuc19keW52NiIsCiAgICAgICAgImRuc19nZCIsCiAgICAgICAgImRuc19odWF3ZWljbG91ZCIsCiAgICAgICAgImRuc19wb3JrYnVuIiwKICAgIF0KfQoKcHViKHN1cGVyKSBmbiBydXN0X2FjbWVzaF9leGVjdXRhYmxlX3BhdGgoKSAtPiBPcHRpb248UGF0aEJ1Zj4gewogICAgbGV0IG11dCBjYW5kaWRhdGVzID0gVmVjOjpuZXcoKTsKICAgIGlmIGxldCBTb21lKHBhdGgpID0gZW52Ojp2YXJfb3MoIkZOX0tOT0NLX1JVU1RfQUNNRVNIX0VYRSIpIHsKICAgICAgICBjYW5kaWRhdGVzLnB1c2goUGF0aEJ1Zjo6ZnJvbShwYXRoKSk7CiAgICB9CiAgICBpZiBsZXQgT2soZXhlY3V0YWJsZSkgPSBlbnY6OmN1cnJlbnRfZXhlKCkKICAgICAgICAmJiBsZXQgU29tZShkaXJlY3RvcnkpID0gZXhlY3V0YWJsZS5wYXJlbnQoKQogICAgewogICAgICAgIGNhbmRpZGF0ZXMucHVzaChkaXJlY3Rvcnkuam9pbihSVVNUX0FDTUVTSF9FWEVDVVRBQkxFKSk7CiAgICB9CiAgICBpZiBsZXQgT2soZGlyZWN0b3J5KSA9IGVudjo6Y3VycmVudF9kaXIoKSB7CiAgICAgICAgY2FuZGlkYXRlcy5leHRlbmQoWwogICAgICAgICAgICBkaXJlY3Rvcnkuam9pbihSVVNUX0FDTUVTSF9FWEVDVVRBQkxFKSwKICAgICAgICAgICAgZGlyZWN0b3J5LmpvaW4oInJlc291cmNlcyIpLmpvaW4oUlVTVF9BQ01FU0hfRVhFQ1VUQUJMRSksCiAgICAgICAgICAgIGRpcmVjdG9yeQogICAgICAgICAgICAgICAgLmpvaW4oImFwcHMvc2VydmVyLWFkbWluLXJzL3Jlc291cmNlcyIpCiAgICAgICAgICAgICAgICAuam9pbihSVVNUX0FDTUVTSF9FWEVDVVRBQkxFKSwKICAgICAgICBdKTsKICAgIH0KICAgIGNhbmRpZGF0ZXMuaW50b19pdGVyKCkuZmluZCh8cGF0aHwgcGF0aC5pc19maWxlKCkpCn0KCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL2FjbWUvcmVzb3VyY2Uvc3RhdHVzIiwgdGFnID0gImFjbWUiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiQUNNRSByZXNvdXJjZSBzdGF0dXMiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHJlc291cmNlX3N0YXR1cyhTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPikgLT4gUmVzcG9uc2UgewogICAgaWYgY3JhdGU6OnJ1bnRpbWVfcHJvZmlsZTo6ZGVwbG95bWVudF90YXJnZXQoJnN0YXRlKSAhPSAid2luZG93cyIgewogICAgICAgIHJldHVybiByZXNwb25zZTo6b2soanNvbiEoewogICAgICAgICAgICAic3VwcG9ydGVkIjogZmFsc2UsCiAgICAgICAgICAgICJpbml0aWFsaXplZCI6IGZhbHNlLAogICAgICAgICAgICAicGxhdGZvcm0iOiAibmF0aXZlLWFjbWUtc2giLAogICAgICAgICAgICAiaW5zdGFsbGVkVmVyc2lvbiI6IFZhbHVlOjpOdWxsLAogICAgICAgICAgICAiYXZhaWxhYmxlVmVyc2lvbiI6IFZhbHVlOjpOdWxsLAogICAgICAgICAgICAicHJvZ3Jlc3MiOiB7ICJzdGF0dXMiOiAiaWRsZSIsICJwZXJjZW50IjogMCwgImVycm9yIjogVmFsdWU6Ok51bGwgfSwKICAgICAgICAgICAgInByb3ZpZGVySWRzIjogW10sCiAgICAgICAgfSkpCiAgICAgICAgLmludG9fcmVzcG9uc2UoKTsKICAgIH0KICAgIGxldCBleGVjdXRhYmxlID0gcnVzdF9hY21lc2hfZXhlY3V0YWJsZV9wYXRoKCk7CiAgICByZXNwb25zZTo6b2soanNvbiEoewogICAgICAgICJzdXBwb3J0ZWQiOiBjZmchKHdpbmRvd3MpLAogICAgICAgICJpbml0aWFsaXplZCI6IGV4ZWN1dGFibGUuaXNfc29tZSgpLAogICAgICAgICJwbGF0Zm9ybSI6IGlmIGNmZyEod2luZG93cykgeyAid2luZG93cy14ODZfNjQiIH0gZWxzZSB7ICJuYXRpdmUtYWNtZS1zaCIgfSwKICAgICAgICAiaW5zdGFsbGVkVmVyc2lvbiI6IFZhbHVlOjpOdWxsLAogICAgICAgICJhdmFpbGFibGVWZXJzaW9uIjogVmFsdWU6Ok51bGwsCiAgICAgICAgInByb2dyZXNzIjogewogICAgICAgICAgICAic3RhdHVzIjogaWYgZXhlY3V0YWJsZS5pc19zb21lKCkgeyAiY29tcGxldGVkIiB9IGVsc2UgeyAiZXJyb3IiIH0sCiAgICAgICAgICAgICJwZXJjZW50IjogaWYgZXhlY3V0YWJsZS5pc19zb21lKCkgeyAxMDAgfSBlbHNlIHsgMCB9LAogICAgICAgICAgICAiZXJyb3IiOiBpZiBleGVjdXRhYmxlLmlzX3NvbWUoKSB7CiAgICAgICAgICAgICAgICBWYWx1ZTo6TnVsbAogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAganNvbiEoImJ1bmRsZWQgcnVzdC1hY21lc2guZXhlIGlzIG1pc3NpbmciKQogICAgICAgICAgICB9LAogICAgICAgIH0sCiAgICAgICAgInByb3ZpZGVySWRzIjogd2luZG93c19hY21lX3Byb3ZpZGVyX2lkcygpLAogICAgfSkpCiAgICAuaW50b19yZXNwb25zZSgpCn0KCiNbdXRvaXBhOjpwYXRoKHBvc3QsIHBhdGggPSAiL2FwaS9hZG1pbi9hY21lL3Jlc291cmNlL2luaXRpYWxpemUiLCB0YWcgPSAiYWNtZSIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJJbml0aWFsaXplZCBBQ01FIHJlc291cmNlIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBpbml0aWFsaXplX3Jlc291cmNlKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBpZiBjcmF0ZTo6cnVudGltZV9wcm9maWxlOjpkZXBsb3ltZW50X3RhcmdldCgmc3RhdGUpICE9ICJ3aW5kb3dzIiB7CiAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgICAgICJ0aGUgYnVuZGxlZCBBQ01FIHJlc291cmNlIGlzIG9ubHkgdXNlZCBvbiBXaW5kb3dzIiwKICAgICAgICApOwogICAgfQogICAgaWYgcnVzdF9hY21lc2hfZXhlY3V0YWJsZV9wYXRoKCkuaXNfc29tZSgpIHsKICAgICAgICByZXNwb25zZTo6b2soanNvbiEoeyAic3RhcnRlZCI6IGZhbHNlLCAiYnVuZGxlZCI6IHRydWUgfSkpLmludG9fcmVzcG9uc2UoKQogICAgfSBlbHNlIHsKICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgImJ1bmRsZWQgcnVzdC1hY21lc2guZXhlIGlzIG1pc3NpbmciLAogICAgICAgICkKICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgocG9zdCwgcGF0aCA9ICIvYXBpL2FkbWluL2FjbWUvcmVzb3VyY2UvY2FuY2VsIiwgdGFnID0gImFjbWUiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiQ2FuY2VsbGVkIEFDTUUgcmVzb3VyY2UgaW5pdGlhbGl6YXRpb24iKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGNhbmNlbF9yZXNvdXJjZV9pbml0aWFsaXphdGlvbigpIC0+IFJlc3BvbnNlIHsKICAgIHJlc3BvbnNlOjpvayhqc29uISh7ICJjYW5jZWxSZXF1ZXN0ZWQiOiBmYWxzZSwgImJ1bmRsZWQiOiB0cnVlIH0pKS5pbnRvX3Jlc3BvbnNlKCkKfQoKI1t1dG9pcGE6OnBhdGgoZGVsZXRlLCBwYXRoID0gIi9hcGkvYWRtaW4vYWNtZS9yZXNvdXJjZSIsIHRhZyA9ICJhY21lIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkRlbGV0ZWQgQUNNRSByZXNvdXJjZSIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gZGVsZXRlX3Jlc291cmNlKFN0YXRlKF9zdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPikgLT4gUmVzcG9uc2UgewogICAgcmVzcG9uc2U6OmVycm9yKAogICAgICAgIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgICJ0aGUgYnVuZGxlZCBXaW5kb3dzIEFDTUUgY2xpZW50IGNhbm5vdCBiZSBkZWxldGVkIiwKICAgICkKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CgogICAgI1t0ZXN0XQogICAgZm4gd2luZG93c19wcm92aWRlcl9saXN0X21hdGNoZXNfbmF0aXZlX2NsaWVudCgpIHsKICAgICAgICBhc3NlcnRfZXEhKHdpbmRvd3NfYWNtZV9wcm92aWRlcl9pZHMoKS5sZW4oKSwgMTEpOwogICAgICAgIGFzc2VydCEod2luZG93c19hY21lX3Byb3ZpZGVyX2lkcygpLmNvbnRhaW5zKCYiZG5zX2NmIikpOwogICAgICAgIGFzc2VydCEod2luZG93c19hY21lX3Byb3ZpZGVyX2lkcygpLmNvbnRhaW5zKCYiZG5zX2h1YXdlaWNsb3VkIikpOwogICAgICAgIGFzc2VydCEoIXdpbmRvd3NfYWNtZV9wcm92aWRlcl9pZHMoKS5jb250YWlucygmImRuc19kZ29uIikpOwoKICAgICAgICBsZXQgY2F0YWxvZyA9IHdpbmRvd3NfYWNtZV9kbnNfcHJvdmlkZXJzKCZUcmFuc2xhdG9yOjpuZXcoImVuIikpCiAgICAgICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgICAgICAuZmlsdGVyX21hcCh8cHJvdmlkZXJ8IHsKICAgICAgICAgICAgICAgIHByb3ZpZGVyCiAgICAgICAgICAgICAgICAgICAgLmdldCgiZG5zVHlwZSIpCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgLm1hcChzdHI6OnRvX3N0cmluZykKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmNvbGxlY3Q6OjxCVHJlZVNldDxfPj4oKTsKICAgICAgICBsZXQgc3VwcG9ydGVkID0gd2luZG93c19hY21lX3Byb3ZpZGVyX2lkcygpCiAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgLm1hcCh8dmFsdWV8ICgqdmFsdWUpLnRvX3N0cmluZygpKQogICAgICAgICAgICAuY29sbGVjdDo6PEJUcmVlU2V0PF8+PigpOwogICAgICAgIGFzc2VydF9lcSEoY2F0YWxvZywgc3VwcG9ydGVkKTsKICAgIH0KfQo=
+use super::*;
+use utoipa_axum::{router::OpenApiRouter, routes};
+
+pub(super) fn openapi_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(resource_status))
+        .routes(routes!(initialize_resource))
+        .routes(routes!(cancel_resource_initialization))
+        .routes(routes!(delete_resource))
+}
+
+const RUST_ACMESH_EXECUTABLE: &str = "rust-acmesh.exe";
+
+pub(super) fn windows_acme_provider_ids() -> &'static [&'static str] {
+    &[
+        "dns_ali",
+        "dns_baiducloud",
+        "dns_cf",
+        "dns_dp",
+        "dns_tencent",
+        "dns_duckdns",
+        "dns_dynu",
+        "dns_dynv6",
+        "dns_gd",
+        "dns_huaweicloud",
+        "dns_porkbun",
+    ]
+}
+
+pub(super) fn rust_acmesh_executable_path() -> Option<PathBuf> {
+    let mut candidates = Vec::new();
+    if let Some(path) = env::var_os("FN_KNOCK_RUST_ACMESH_EXE") {
+        candidates.push(PathBuf::from(path));
+    }
+    if let Ok(executable) = env::current_exe()
+        && let Some(directory) = executable.parent()
+    {
+        candidates.push(directory.join(RUST_ACMESH_EXECUTABLE));
+    }
+    if let Ok(directory) = env::current_dir() {
+        candidates.extend([
+            directory.join(RUST_ACMESH_EXECUTABLE),
+            directory.join("resources").join(RUST_ACMESH_EXECUTABLE),
+            directory
+                .join("apps/server-admin-rs/resources")
+                .join(RUST_ACMESH_EXECUTABLE),
+        ]);
+    }
+    candidates.into_iter().find(|path| path.is_file())
+}
+
+#[utoipa::path(get, path = "/api/admin/acme/resource/status", tag = "acme", responses((status = 200, description = "ACME resource status")))]
+pub(super) async fn resource_status(State(state): State<AppState>) -> Response {
+    if crate::runtime_profile::deployment_target(&state) != "windows" {
+        return response::ok(json!({
+            "supported": false,
+            "initialized": false,
+            "platform": "native-acme-sh",
+            "installedVersion": Value::Null,
+            "availableVersion": Value::Null,
+            "progress": { "status": "idle", "percent": 0, "error": Value::Null },
+            "providerIds": [],
+        }))
+        .into_response();
+    }
+    let executable = rust_acmesh_executable_path();
+    response::ok(json!({
+        "supported": cfg!(windows),
+        "initialized": executable.is_some(),
+        "platform": if cfg!(windows) { "windows-x86_64" } else { "native-acme-sh" },
+        "installedVersion": Value::Null,
+        "availableVersion": Value::Null,
+        "progress": {
+            "status": if executable.is_some() { "completed" } else { "error" },
+            "percent": if executable.is_some() { 100 } else { 0 },
+            "error": if executable.is_some() {
+                Value::Null
+            } else {
+                json!("bundled rust-acmesh.exe is missing")
+            },
+        },
+        "providerIds": windows_acme_provider_ids(),
+    }))
+    .into_response()
+}
+
+#[utoipa::path(post, path = "/api/admin/acme/resource/initialize", tag = "acme", responses((status = 200, description = "Initialized ACME resource")))]
+pub(super) async fn initialize_resource(State(state): State<AppState>) -> Response {
+    if crate::runtime_profile::deployment_target(&state) != "windows" {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            "the bundled ACME resource is only used on Windows",
+        );
+    }
+    if rust_acmesh_executable_path().is_some() {
+        response::ok(json!({ "started": false, "bundled": true })).into_response()
+    } else {
+        response::error(
+            StatusCode::INTERNAL_SERVER_ERROR,
+            "bundled rust-acmesh.exe is missing",
+        )
+    }
+}
+
+#[utoipa::path(post, path = "/api/admin/acme/resource/cancel", tag = "acme", responses((status = 200, description = "Cancelled ACME resource initialization")))]
+pub(super) async fn cancel_resource_initialization() -> Response {
+    response::ok(json!({ "cancelRequested": false, "bundled": true })).into_response()
+}
+
+#[utoipa::path(delete, path = "/api/admin/acme/resource", tag = "acme", responses((status = 200, description = "Deleted ACME resource")))]
+pub(super) async fn delete_resource(State(_state): State<AppState>) -> Response {
+    response::error(
+        StatusCode::BAD_REQUEST,
+        "the bundled Windows ACME client cannot be deleted",
+    )
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn windows_provider_list_matches_native_client() {
+        assert_eq!(windows_acme_provider_ids().len(), 11);
+        assert!(windows_acme_provider_ids().contains(&"dns_cf"));
+        assert!(windows_acme_provider_ids().contains(&"dns_huaweicloud"));
+        assert!(!windows_acme_provider_ids().contains(&"dns_dgon"));
+
+        let catalog = windows_acme_dns_providers(&Translator::new("en"))
+            .into_iter()
+            .filter_map(|provider| {
+                provider
+                    .get("dnsType")
+                    .and_then(Value::as_str)
+                    .map(str::to_string)
+            })
+            .collect::<BTreeSet<_>>();
+        let supported = windows_acme_provider_ids()
+            .iter()
+            .map(|value| (*value).to_string())
+            .collect::<BTreeSet<_>>();
+        assert_eq!(catalog, supported);
+    }
+}

@@ -1,1 +1,74 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgdHlwZSB7IEdhdGV3YXlVcHN0cmVhbUVycm9yRGV0YWlsIH0gZnJvbSAiQC90eXBlcyI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBkaXNhYmxlZD86IGJvb2xlYW47CiAgbW9kZWxWYWx1ZTogR2F0ZXdheVVwc3RyZWFtRXJyb3JEZXRhaWw7Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICJ1cGRhdGU6bW9kZWxWYWx1ZSI6IFt2YWx1ZTogR2F0ZXdheVVwc3RyZWFtRXJyb3JEZXRhaWxdOwp9PigpOwoKY29uc3Qgc2VsZWN0RGV0YWlsID0gKHZhbHVlOiBHYXRld2F5VXBzdHJlYW1FcnJvckRldGFpbCkgPT4gewogIGlmICghcHJvcHMuZGlzYWJsZWQpIGVtaXQoInVwZGF0ZTptb2RlbFZhbHVlIiwgdmFsdWUpOwp9OwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYKICAgIGNsYXNzPSJncmlkIGdhcC0zIHAtNiBzbTpncmlkLWNvbHMtW21pbm1heCgwLDFmcilfYXV0b10gc206aXRlbXMtY2VudGVyIHNtOmdhcC00IgogID4KICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSBwci02Ij4KICAgICAgPGRpdiBjbGFzcz0idGV4dC1iYXNlIGZvbnQtbWVkaXVtIj4KICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5U2V0dGluZ3MudXBzdHJlYW1FcnJvckRldGFpbCIpIH19CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVNldHRpbmdzLnVwc3RyZWFtRXJyb3JEZXRhaWxEZXNjcmlwdGlvbiIpIH19CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8ZGl2CiAgICAgIHJvbGU9Imdyb3VwIgogICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uZ2F0ZXdheVNldHRpbmdzLnVwc3RyZWFtRXJyb3JEZXRhaWwnKSIKICAgICAgY2xhc3M9ImdyaWQgdy1mdWxsIGdhcC0xIHJvdW5kZWQtbWQgYm9yZGVyIGJnLWJhY2tncm91bmQgcC0xIHNtOmlubGluZS1mbGV4IHNtOnctZml0IHNtOmdhcC0wIgogICAgPgogICAgICA8QnV0dG9uCiAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgIHNpemU9InNtIgogICAgICAgIDp2YXJpYW50PSJtb2RlbFZhbHVlID09PSAnbGVzcycgPyAnZGVmYXVsdCcgOiAnZ2hvc3QnIgogICAgICAgIGNsYXNzPSJoLTggcHgtMyIKICAgICAgICA6ZGlzYWJsZWQ9ImRpc2FibGVkIgogICAgICAgIDphcmlhLXByZXNzZWQ9Im1vZGVsVmFsdWUgPT09ICdsZXNzJyIKICAgICAgICBAY2xpY2s9InNlbGVjdERldGFpbCgnbGVzcycpIgogICAgICA+CiAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVNldHRpbmdzLnVwc3RyZWFtRXJyb3JEZXRhaWxMZXNzIikgfX0KICAgICAgPC9CdXR0b24+CiAgICAgIDxCdXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgOnZhcmlhbnQ9Im1vZGVsVmFsdWUgPT09ICdtb3JlJyA/ICdkZWZhdWx0JyA6ICdnaG9zdCciCiAgICAgICAgY2xhc3M9ImgtOCBweC0zIgogICAgICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQiCiAgICAgICAgOmFyaWEtcHJlc3NlZD0ibW9kZWxWYWx1ZSA9PT0gJ21vcmUnIgogICAgICAgIEBjbGljaz0ic2VsZWN0RGV0YWlsKCdtb3JlJykiCiAgICAgID4KICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5U2V0dGluZ3MudXBzdHJlYW1FcnJvckRldGFpbE1vcmUiKSB9fQogICAgICA8L0J1dHRvbj4KICAgICAgPEJ1dHRvbgogICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICBzaXplPSJzbSIKICAgICAgICA6dmFyaWFudD0ibW9kZWxWYWx1ZSA9PT0gJ3Jlc2V0X2Nvbm5lY3Rpb24nID8gJ2RlZmF1bHQnIDogJ2dob3N0JyIKICAgICAgICBjbGFzcz0iaC04IHB4LTMiCiAgICAgICAgOmRpc2FibGVkPSJkaXNhYmxlZCIKICAgICAgICA6YXJpYS1wcmVzc2VkPSJtb2RlbFZhbHVlID09PSAncmVzZXRfY29ubmVjdGlvbiciCiAgICAgICAgQGNsaWNrPSJzZWxlY3REZXRhaWwoJ3Jlc2V0X2Nvbm5lY3Rpb24nKSIKICAgICAgPgogICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlTZXR0aW5ncy51cHN0cmVhbUVycm9yRGV0YWlsUmVzZXQiKSB9fQogICAgICA8L0J1dHRvbj4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import type { GatewayUpstreamErrorDetail } from "@/types";
+
+const props = defineProps<{
+  disabled?: boolean;
+  modelValue: GatewayUpstreamErrorDetail;
+}>();
+
+const emit = defineEmits<{
+  "update:modelValue": [value: GatewayUpstreamErrorDetail];
+}>();
+
+const selectDetail = (value: GatewayUpstreamErrorDetail) => {
+  if (!props.disabled) emit("update:modelValue", value);
+};
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <div
+    class="grid gap-3 p-6 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-4"
+  >
+    <div class="space-y-1 pr-6">
+      <div class="text-base font-medium">
+        {{ t("admin.gatewaySettings.upstreamErrorDetail") }}
+      </div>
+      <div class="text-sm text-muted-foreground">
+        {{ t("admin.gatewaySettings.upstreamErrorDetailDescription") }}
+      </div>
+    </div>
+    <div
+      role="group"
+      :aria-label="t('admin.gatewaySettings.upstreamErrorDetail')"
+      class="grid w-full gap-1 rounded-md border bg-background p-1 sm:inline-flex sm:w-fit sm:gap-0"
+    >
+      <Button
+        type="button"
+        size="sm"
+        :variant="modelValue === 'less' ? 'default' : 'ghost'"
+        class="h-8 px-3"
+        :disabled="disabled"
+        :aria-pressed="modelValue === 'less'"
+        @click="selectDetail('less')"
+      >
+        {{ t("admin.gatewaySettings.upstreamErrorDetailLess") }}
+      </Button>
+      <Button
+        type="button"
+        size="sm"
+        :variant="modelValue === 'more' ? 'default' : 'ghost'"
+        class="h-8 px-3"
+        :disabled="disabled"
+        :aria-pressed="modelValue === 'more'"
+        @click="selectDetail('more')"
+      >
+        {{ t("admin.gatewaySettings.upstreamErrorDetailMore") }}
+      </Button>
+      <Button
+        type="button"
+        size="sm"
+        :variant="modelValue === 'reset_connection' ? 'default' : 'ghost'"
+        class="h-8 px-3"
+        :disabled="disabled"
+        :aria-pressed="modelValue === 'reset_connection'"
+        @click="selectDetail('reset_connection')"
+      >
+        {{ t("admin.gatewaySettings.upstreamErrorDetailReset") }}
+      </Button>
+    </div>
+  </div>
+</template>

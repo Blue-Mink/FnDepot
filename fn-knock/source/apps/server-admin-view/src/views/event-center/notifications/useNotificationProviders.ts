@@ -1,1 +1,517 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgd2F0Y2gsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgRXZlbnRDZW50ZXJBUEkgfSBmcm9tICJAL2xpYi9hcGkvZXZlbnRzIjsKaW1wb3J0IHR5cGUgewogIE5vdGlmaWNhdGlvbkhlYWRlckNvbnN0cmFpbnRzLAogIE5vdGlmaWNhdGlvblByb3ZpZGVyRGVmaW5pdGlvbiwKICBOb3RpZmljYXRpb25Qcm92aWRlclZpZXcsCn0gZnJvbSAiQC90eXBlcyI7CmltcG9ydCB7CiAgYnVpbGROZXh0U2VxdWVudGlhbE5hbWUsCiAgYnVpbGRTY2hlbWFQYXlsb2FkLAogIGNyZWF0ZUVkaXRhYmxlU2NoZW1hUmVjb3JkLAogIHR5cGUgRWRpdGFibGVQcm92aWRlckZvcm0sCiAgdHlwZSBQcm92aWRlckRpYWxvZ01vZGUsCiAgdHlwZSBQcm92aWRlckZvcm1QYXlsb2FkLAp9IGZyb20gIi4vZm9ybS11dGlscyI7CmltcG9ydCB7IHZhbGlkYXRlV2ViaG9va0hlYWRlckVudHJpZXMgfSBmcm9tICIuL3dlYmhvb2staGVhZGVycyI7CmltcG9ydCB7CiAgcGFyc2VXZWJob29rU2FtcGxlQ29udGV4dCwKICB2YWxpZGF0ZVdlYmhvb2tCb2R5Q29uZmlnLAogIHZhbGlkYXRlV2ViaG9va1NhbXBsZUNvbnRleHQsCiAgdHlwZSBXZWJob29rQm9keUNvbnN0cmFpbnRzLAp9IGZyb20gIi4vd2ViaG9vay1ib2R5IjsKCmNvbnN0IFBST1ZJREVSX1RBSUxfT1JERVIgPSBbCiAgIndlYmhvb2siLAogICJ3eHB1c2hlciIsCiAgInNlcnZlcmNoYW4iLAogICJwdXNocGx1cyIsCl0gYXMgY29uc3Q7Cgpjb25zdCByZXNvbHZlUHJvdmlkZXJTb3J0V2VpZ2h0ID0gKHR5cGU6IHN0cmluZykgPT4gewogIGNvbnN0IHRhaWxJbmRleCA9IFBST1ZJREVSX1RBSUxfT1JERVIuaW5kZXhPZigKICAgIHR5cGUgYXMgKHR5cGVvZiBQUk9WSURFUl9UQUlMX09SREVSKVtudW1iZXJdLAogICk7CiAgcmV0dXJuIHRhaWxJbmRleCA9PT0gLTEgPyAwIDogMTAwICsgdGFpbEluZGV4Owp9OwoKY29uc3Qgc29ydFByb3ZpZGVyQ2F0YWxvZyA9IChkZWZpbml0aW9uczogTm90aWZpY2F0aW9uUHJvdmlkZXJEZWZpbml0aW9uW10pID0+CiAgWy4uLmRlZmluaXRpb25zXS5zb3J0KChsZWZ0LCByaWdodCkgPT4gewogICAgY29uc3Qgd2VpZ2h0RGlmZiA9CiAgICAgIHJlc29sdmVQcm92aWRlclNvcnRXZWlnaHQobGVmdC50eXBlKSAtCiAgICAgIHJlc29sdmVQcm92aWRlclNvcnRXZWlnaHQocmlnaHQudHlwZSk7CiAgICByZXR1cm4gd2VpZ2h0RGlmZiAhPT0gMCA/IHdlaWdodERpZmYgOiAwOwogIH0pOwoKZXhwb3J0IGNvbnN0IHVzZU5vdGlmaWNhdGlvblByb3ZpZGVycyA9IChhY3RpdmU6IFJlYWRvbmx5PFJlZjxib29sZWFuPj4pID0+IHsKICBjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKICBjb25zdCBjYXRhbG9nID0gcmVmPE5vdGlmaWNhdGlvblByb3ZpZGVyRGVmaW5pdGlvbltdPihbXSk7CiAgY29uc3QgcHJvdmlkZXJzID0gcmVmPE5vdGlmaWNhdGlvblByb3ZpZGVyVmlld1tdPihbXSk7CiAgY29uc3QgbG9hZGluZyA9IHJlZihmYWxzZSk7CiAgY29uc3QgZGlhbG9nT3BlbiA9IHJlZihmYWxzZSk7CiAgY29uc3QgZGlhbG9nTW9kZSA9IHJlZjxQcm92aWRlckRpYWxvZ01vZGU+KCJjcmVhdGUiKTsKICBjb25zdCBzYXZpbmcgPSByZWYoZmFsc2UpOwogIGNvbnN0IHRlc3RpbmdEcmFmdCA9IHJlZihmYWxzZSk7CiAgY29uc3QgZGVsZXRpbmdJZCA9IHJlZjxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCB0ZXN0aW5nSWQgPSByZWY8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgZWRpdGluZ0lkID0gcmVmPHN0cmluZyB8IG51bGw+KG51bGwpOwogIGNvbnN0IGVkaXRpbmdQcm92aWRlciA9IHJlZjxOb3RpZmljYXRpb25Qcm92aWRlclZpZXcgfCBudWxsPihudWxsKTsKICBjb25zdCBzaG93TGVnYWN5V2ViaG9va0hlYWRlck1pZ3JhdGlvbiA9IHJlZihmYWxzZSk7CiAgY29uc3QgcHJvdmlkZXJGb3JtID0gcmVmPEVkaXRhYmxlUHJvdmlkZXJGb3JtPih7CiAgICBuYW1lOiAiIiwKICAgIHR5cGU6ICIiLAogICAgZW5hYmxlZDogdHJ1ZSwKICAgIGNvbm5lY3Rpb25fY29uZmlnOiB7fSwKICB9KTsKCiAgY29uc3Qgc2VsZWN0ZWREZWZpbml0aW9uID0gY29tcHV0ZWQoCiAgICAoKSA9PgogICAgICBjYXRhbG9nLnZhbHVlLmZpbmQoKGl0ZW0pID0+IGl0ZW0udHlwZSA9PT0gcHJvdmlkZXJGb3JtLnZhbHVlLnR5cGUpIHx8CiAgICAgIGNhdGFsb2cudmFsdWVbMF0gfHwKICAgICAgbnVsbCwKICApOwogIGNvbnN0IHNlbGVjdGVkV2ViaG9va0JvZHlGaWVsZCA9IGNvbXB1dGVkKCgpID0+CiAgICBzZWxlY3RlZERlZmluaXRpb24udmFsdWU/LmNvbm5lY3Rpb25fc2NoZW1hLmZpbmQoCiAgICAgIChmaWVsZCkgPT4gZmllbGQudHlwZSA9PT0gIndlYmhvb2tfYm9keSIsCiAgICApLAogICk7CiAgY29uc3QgaGVhZGVyQ29uZmlnSW52YWxpZCA9IGNvbXB1dGVkKCgpID0+CiAgICAoc2VsZWN0ZWREZWZpbml0aW9uLnZhbHVlPy5jb25uZWN0aW9uX3NjaGVtYSB8fCBbXSkuc29tZSgKICAgICAgKGZpZWxkKSA9PgogICAgICAgIGZpZWxkLnR5cGUgPT09ICJoZWFkZXJzIiAmJgogICAgICAgIHZhbGlkYXRlV2ViaG9va0hlYWRlckVudHJpZXMoCiAgICAgICAgICBwcm92aWRlckZvcm0udmFsdWUuY29ubmVjdGlvbl9jb25maWdbZmllbGQua2V5XSwKICAgICAgICAgIGZpZWxkLmNvbnN0cmFpbnRzIGFzIE5vdGlmaWNhdGlvbkhlYWRlckNvbnN0cmFpbnRzIHwgdW5kZWZpbmVkLAogICAgICAgICkubGVuZ3RoID4gMCwKICAgICksCiAgKTsKICBjb25zdCB3ZWJob29rQm9keUNvbmZpZ0ludmFsaWQgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBmaWVsZCA9IHNlbGVjdGVkV2ViaG9va0JvZHlGaWVsZC52YWx1ZTsKICAgIGlmICghZmllbGQpIHJldHVybiBmYWxzZTsKICAgIGNvbnN0IGNvbnN0cmFpbnRzID0gZmllbGQuY29uc3RyYWludHMgYXMgV2ViaG9va0JvZHlDb25zdHJhaW50cyB8IHVuZGVmaW5lZDsKICAgIHJldHVybiAoCiAgICAgIHZhbGlkYXRlV2ViaG9va0JvZHlDb25maWcoCiAgICAgICAgcHJvdmlkZXJGb3JtLnZhbHVlLmNvbm5lY3Rpb25fY29uZmlnW2ZpZWxkLmtleV0sCiAgICAgICAgY29uc3RyYWludHMsCiAgICAgICAgInByb3ZpZGVyIiwKICAgICAgKS5sZW5ndGggPiAwIHx8CiAgICAgIHZhbGlkYXRlV2ViaG9va1NhbXBsZUNvbnRleHQoCiAgICAgICAgcHJvdmlkZXJGb3JtLnZhbHVlLmNvbm5lY3Rpb25fY29uZmlnLl9fd2ViaG9va19zYW1wbGVfY29udGV4dCwKICAgICAgICBjb25zdHJhaW50cywKICAgICAgKS5sZW5ndGggPiAwCiAgICApOwogIH0pOwogIGNvbnN0IGNvbm5lY3Rpb25Db25maWdJbnZhbGlkID0gY29tcHV0ZWQoCiAgICAoKSA9PiBoZWFkZXJDb25maWdJbnZhbGlkLnZhbHVlIHx8IHdlYmhvb2tCb2R5Q29uZmlnSW52YWxpZC52YWx1ZSwKICApOwogIGNvbnN0IGNvbmZpZ3VyZWRTZW5zaXRpdmVGaWVsZHMgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoIWVkaXRpbmdQcm92aWRlci52YWx1ZSB8fCAhc2VsZWN0ZWREZWZpbml0aW9uLnZhbHVlKSByZXR1cm4gW107CiAgICByZXR1cm4gc2VsZWN0ZWREZWZpbml0aW9uLnZhbHVlLmNvbm5lY3Rpb25fc2NoZW1hCiAgICAgIC5maWx0ZXIoCiAgICAgICAgKGZpZWxkKSA9PgogICAgICAgICAgZmllbGQuc2Vuc2l0aXZlICYmCiAgICAgICAgICBCb29sZWFuKGVkaXRpbmdQcm92aWRlci52YWx1ZT8uY29ubmVjdGlvbl9jb25maWdfbWFza2VkW2ZpZWxkLmtleV0pLAogICAgICApCiAgICAgIC5tYXAoKGZpZWxkKSA9PiBmaWVsZC5rZXkpOwogIH0pOwoKICBjb25zdCByZXNvbHZlUHJvdmlkZXJUeXBlTGFiZWwgPSAodHlwZTogc3RyaW5nKSA9PgogICAgY2F0YWxvZy52YWx1ZS5maW5kKChpdGVtKSA9PiBpdGVtLnR5cGUgPT09IHR5cGUpPy5sYWJlbCB8fCB0eXBlOwoKICBjb25zdCBidWlsZEdlbmVyYXRlZFByb3ZpZGVyTmFtZSA9ICh0eXBlOiBzdHJpbmcpID0+IHsKICAgIGNvbnN0IGJhc2VMYWJlbCA9CiAgICAgIGNhdGFsb2cudmFsdWUuZmluZCgoaXRlbSkgPT4gaXRlbS50eXBlID09PSB0eXBlKT8ubGFiZWwgfHwKICAgICAgcmVzb2x2ZVByb3ZpZGVyVHlwZUxhYmVsKHR5cGUpIHx8CiAgICAgIHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLmZhbGxiYWNrUHJvdmlkZXJMYWJlbCIpOwogICAgcmV0dXJuIGJ1aWxkTmV4dFNlcXVlbnRpYWxOYW1lKAogICAgICBiYXNlTGFiZWwsCiAgICAgIHByb3ZpZGVycy52YWx1ZS5tYXAoKHByb3ZpZGVyKSA9PiBwcm92aWRlci5uYW1lKSwKICAgICAgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMudW5uYW1lZCIpLAogICAgKTsKICB9OwoKICBjb25zdCBnZW5lcmF0ZWRQcm92aWRlck5hbWUgPSBjb21wdXRlZCgoKSA9PgogICAgYnVpbGRHZW5lcmF0ZWRQcm92aWRlck5hbWUocHJvdmlkZXJGb3JtLnZhbHVlLnR5cGUpLAogICk7CgogIGNvbnN0IGxvYWREYXRhID0gYXN5bmMgKCkgPT4gewogICAgbG9hZGluZy52YWx1ZSA9IHRydWU7CiAgICB0cnkgewogICAgICBjb25zdCBbY2F0YWxvZ1Jlc3VsdCwgcHJvdmlkZXJzUmVzdWx0XSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgICAgICBFdmVudENlbnRlckFQSS5nZXROb3RpZmljYXRpb25Qcm92aWRlckNhdGFsb2coKSwKICAgICAgICBFdmVudENlbnRlckFQSS5nZXROb3RpZmljYXRpb25Qcm92aWRlcnMoKSwKICAgICAgXSk7CiAgICAgIGlmICghY2F0YWxvZ1Jlc3VsdC5zdWNjZXNzKSB7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKAogICAgICAgICAgY2F0YWxvZ1Jlc3VsdC5tZXNzYWdlIHx8CiAgICAgICAgICAgIHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLmNhdGFsb2dMb2FkRmFpbGVkIiksCiAgICAgICAgKTsKICAgICAgfQogICAgICBpZiAoIXByb3ZpZGVyc1Jlc3VsdC5zdWNjZXNzKSB7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKAogICAgICAgICAgcHJvdmlkZXJzUmVzdWx0Lm1lc3NhZ2UgfHwKICAgICAgICAgICAgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMucHJvdmlkZXJzTG9hZEZhaWxlZCIpLAogICAgICAgICk7CiAgICAgIH0KICAgICAgY2F0YWxvZy52YWx1ZSA9IHNvcnRQcm92aWRlckNhdGFsb2coY2F0YWxvZ1Jlc3VsdC5kYXRhLnByb3ZpZGVycyB8fCBbXSk7CiAgICAgIHByb3ZpZGVycy52YWx1ZSA9IHByb3ZpZGVyc1Jlc3VsdC5kYXRhLnByb3ZpZGVycyB8fCBbXTsKICAgICAgaWYgKCFwcm92aWRlckZvcm0udmFsdWUudHlwZSAmJiBjYXRhbG9nLnZhbHVlWzBdKSB7CiAgICAgICAgcHJvdmlkZXJGb3JtLnZhbHVlLnR5cGUgPSBjYXRhbG9nLnZhbHVlWzBdLnR5cGU7CiAgICAgIH0KICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLmxvYWRGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICAgZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yLm1lc3NhZ2UgOiB0KCJjb21tb24udHJ5TGF0ZXIiKSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBsb2FkaW5nLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3QgcmVzZXRQcm92aWRlckZvcm0gPSAoZGVmaW5pdGlvbiA9IGNhdGFsb2cudmFsdWVbMF0gfHwgbnVsbCkgPT4gewogICAgY29uc3QgdHlwZSA9IGRlZmluaXRpb24/LnR5cGUgfHwgIndlYmhvb2siOwogICAgcHJvdmlkZXJGb3JtLnZhbHVlID0gewogICAgICBuYW1lOiBidWlsZEdlbmVyYXRlZFByb3ZpZGVyTmFtZSh0eXBlKSwKICAgICAgdHlwZSwKICAgICAgZW5hYmxlZDogdHJ1ZSwKICAgICAgY29ubmVjdGlvbl9jb25maWc6IGRlZmluaXRpb24KICAgICAgICA/IGNyZWF0ZUVkaXRhYmxlU2NoZW1hUmVjb3JkKGRlZmluaXRpb24uY29ubmVjdGlvbl9zY2hlbWEpCiAgICAgICAgOiB7fSwKICAgIH07CiAgfTsKCiAgY29uc3Qgb3BlbkNyZWF0ZURpYWxvZyA9ICgpID0+IHsKICAgIGRpYWxvZ01vZGUudmFsdWUgPSAiY3JlYXRlIjsKICAgIGVkaXRpbmdQcm92aWRlci52YWx1ZSA9IG51bGw7CiAgICBzaG93TGVnYWN5V2ViaG9va0hlYWRlck1pZ3JhdGlvbi52YWx1ZSA9IGZhbHNlOwogICAgcmVzZXRQcm92aWRlckZvcm0oKTsKICAgIGRpYWxvZ09wZW4udmFsdWUgPSB0cnVlOwogIH07CgogIGNvbnN0IG9wZW5FZGl0RGlhbG9nID0gYXN5bmMgKHByb3ZpZGVyOiBOb3RpZmljYXRpb25Qcm92aWRlclZpZXcpID0+IHsKICAgIGVkaXRpbmdJZC52YWx1ZSA9IHByb3ZpZGVyLmlkOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgRXZlbnRDZW50ZXJBUEkuZ2V0Tm90aWZpY2F0aW9uUHJvdmlkZXIocHJvdmlkZXIuaWQpOwogICAgICBpZiAoIXJlc3VsdC5zdWNjZXNzKSB7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKAogICAgICAgICAgcmVzdWx0Lm1lc3NhZ2UgfHwKICAgICAgICAgICAgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMucHJvdmlkZXJEZXRhaWxzTG9hZEZhaWxlZCIpLAogICAgICAgICk7CiAgICAgIH0KICAgICAgY29uc3QgcHJvdmlkZXJEZXRhaWwgPSByZXN1bHQuZGF0YTsKICAgICAgY29uc3QgZGVmaW5pdGlvbiA9CiAgICAgICAgY2F0YWxvZy52YWx1ZS5maW5kKChpdGVtKSA9PiBpdGVtLnR5cGUgPT09IHByb3ZpZGVyRGV0YWlsLnR5cGUpIHx8IG51bGw7CiAgICAgIHNob3dMZWdhY3lXZWJob29rSGVhZGVyTWlncmF0aW9uLnZhbHVlID0KICAgICAgICBwcm92aWRlckRldGFpbC50eXBlID09PSAid2ViaG9vayIgJiYKICAgICAgICAhT2JqZWN0LnByb3RvdHlwZS5oYXNPd25Qcm9wZXJ0eS5jYWxsKAogICAgICAgICAgcHJvdmlkZXJEZXRhaWwuY29ubmVjdGlvbl9jb25maWcsCiAgICAgICAgICAiY3VzdG9tX2hlYWRlcnMiLAogICAgICAgICk7CiAgICAgIGRpYWxvZ01vZGUudmFsdWUgPSAiZWRpdCI7CiAgICAgIGVkaXRpbmdQcm92aWRlci52YWx1ZSA9IHByb3ZpZGVyRGV0YWlsOwogICAgICBwcm92aWRlckZvcm0udmFsdWUgPSB7CiAgICAgICAgbmFtZTogcHJvdmlkZXJEZXRhaWwubmFtZSwKICAgICAgICB0eXBlOiBwcm92aWRlckRldGFpbC50eXBlLAogICAgICAgIGVuYWJsZWQ6IHByb3ZpZGVyRGV0YWlsLmVuYWJsZWQsCiAgICAgICAgY29ubmVjdGlvbl9jb25maWc6IGRlZmluaXRpb24KICAgICAgICAgID8gY3JlYXRlRWRpdGFibGVTY2hlbWFSZWNvcmQoCiAgICAgICAgICAgICAgZGVmaW5pdGlvbi5jb25uZWN0aW9uX3NjaGVtYSwKICAgICAgICAgICAgICBwcm92aWRlckRldGFpbC5jb25uZWN0aW9uX2NvbmZpZywKICAgICAgICAgICAgKQogICAgICAgICAgOiB7fSwKICAgICAgfTsKICAgICAgZGlhbG9nT3Blbi52YWx1ZSA9IHRydWU7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcigKICAgICAgICB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy5wcm92aWRlckRldGFpbHNMb2FkRmFpbGVkIiksCiAgICAgICAgewogICAgICAgICAgZGVzY3JpcHRpb246CiAgICAgICAgICAgIGVycm9yIGluc3RhbmNlb2YgRXJyb3IgPyBlcnJvci5tZXNzYWdlIDogdCgiY29tbW9uLnRyeUxhdGVyIiksCiAgICAgICAgfSwKICAgICAgKTsKICAgIH0gZmluYWxseSB7CiAgICAgIGVkaXRpbmdJZC52YWx1ZSA9IG51bGw7CiAgICB9CiAgfTsKCiAgY29uc3QgaGFuZGxlVHlwZUNoYW5nZSA9ICh2YWx1ZTogdW5rbm93bikgPT4gewogICAgaWYgKCF2YWx1ZSkgcmV0dXJuOwogICAgY29uc3QgY3VycmVudFR5cGUgPSBwcm92aWRlckZvcm0udmFsdWUudHlwZTsKICAgIGNvbnN0IHByZXZpb3VzR2VuZXJhdGVkTmFtZSA9IGJ1aWxkR2VuZXJhdGVkUHJvdmlkZXJOYW1lKGN1cnJlbnRUeXBlKTsKICAgIGNvbnN0IG5leHREZWZpbml0aW9uID0KICAgICAgY2F0YWxvZy52YWx1ZS5maW5kKChpdGVtKSA9PiBpdGVtLnR5cGUgPT09IFN0cmluZyh2YWx1ZSkpIHx8IG51bGw7CiAgICBpZiAoIW5leHREZWZpbml0aW9uKSByZXR1cm47CiAgICBjb25zdCBuZXh0VHlwZSA9IG5leHREZWZpbml0aW9uLnR5cGU7CiAgICBzaG93TGVnYWN5V2ViaG9va0hlYWRlck1pZ3JhdGlvbi52YWx1ZSA9IGZhbHNlOwogICAgY29uc3Qgc2hvdWxkUmVmcmVzaE5hbWUgPQogICAgICBkaWFsb2dNb2RlLnZhbHVlID09PSAiY3JlYXRlIiAmJgogICAgICAoIXByb3ZpZGVyRm9ybS52YWx1ZS5uYW1lLnRyaW0oKSB8fAogICAgICAgIHByb3ZpZGVyRm9ybS52YWx1ZS5uYW1lID09PSBwcmV2aW91c0dlbmVyYXRlZE5hbWUpOwogICAgcHJvdmlkZXJGb3JtLnZhbHVlID0gewogICAgICAuLi5wcm92aWRlckZvcm0udmFsdWUsCiAgICAgIG5hbWU6IHNob3VsZFJlZnJlc2hOYW1lCiAgICAgICAgPyBidWlsZEdlbmVyYXRlZFByb3ZpZGVyTmFtZShuZXh0VHlwZSkKICAgICAgICA6IHByb3ZpZGVyRm9ybS52YWx1ZS5uYW1lLAogICAgICB0eXBlOiBuZXh0VHlwZSwKICAgICAgY29ubmVjdGlvbl9jb25maWc6IG5leHREZWZpbml0aW9uCiAgICAgICAgPyBjcmVhdGVFZGl0YWJsZVNjaGVtYVJlY29yZChuZXh0RGVmaW5pdGlvbi5jb25uZWN0aW9uX3NjaGVtYSkKICAgICAgICA6IHt9LAogICAgfTsKICB9OwoKICBjb25zdCBidWlsZFByb3ZpZGVyUGF5bG9hZCA9ICgpOiBQcm92aWRlckZvcm1QYXlsb2FkID0+IHsKICAgIGNvbnN0IGRlZmluaXRpb24gPSBzZWxlY3RlZERlZmluaXRpb24udmFsdWUhOwogICAgY29uc3QgY29ubmVjdGlvbkNvbmZpZyA9IGJ1aWxkU2NoZW1hUGF5bG9hZCh7CiAgICAgIGZpZWxkczogZGVmaW5pdGlvbi5jb25uZWN0aW9uX3NjaGVtYSwKICAgICAgdmFsdWU6IHByb3ZpZGVyRm9ybS52YWx1ZS5jb25uZWN0aW9uX2NvbmZpZywKICAgICAgZWRpdGluZzogZGlhbG9nTW9kZS52YWx1ZSA9PT0gImVkaXQiLAogICAgICBjb25maWd1cmVkU2Vuc2l0aXZlRmllbGRzOiBjb25maWd1cmVkU2Vuc2l0aXZlRmllbGRzLnZhbHVlLAogICAgfSk7CiAgICBpZiAoZGlhbG9nTW9kZS52YWx1ZSA9PT0gImVkaXQiICYmIGRlZmluaXRpb24udHlwZSA9PT0gInd4cHVzaGVyIikgewogICAgICBmb3IgKGNvbnN0IGtleSBvZiBbInVpZHMiLCAidG9waWNfaWRzIiwgInVybCJdKSB7CiAgICAgICAgaWYgKCEoa2V5IGluIGNvbm5lY3Rpb25Db25maWcpKSB7CiAgICAgICAgICBjb25uZWN0aW9uQ29uZmlnW2tleV0gPSBTdHJpbmcoCiAgICAgICAgICAgIHByb3ZpZGVyRm9ybS52YWx1ZS5jb25uZWN0aW9uX2NvbmZpZ1trZXldID8/ICIiLAogICAgICAgICAgKS50cmltKCk7CiAgICAgICAgfQogICAgICB9CiAgICB9CiAgICByZXR1cm4gewogICAgICBuYW1lOiBwcm92aWRlckZvcm0udmFsdWUubmFtZS50cmltKCkgfHwgdW5kZWZpbmVkLAogICAgICB0eXBlOiBkZWZpbml0aW9uLnR5cGUsCiAgICAgIGVuYWJsZWQ6IHByb3ZpZGVyRm9ybS52YWx1ZS5lbmFibGVkLAogICAgICBjb25uZWN0aW9uX2NvbmZpZzogY29ubmVjdGlvbkNvbmZpZywKICAgIH07CiAgfTsKCiAgY29uc3Qgd2ViaG9va1NhbXBsZUNvbnRleHQgPSAoKSA9PgogICAgcGFyc2VXZWJob29rU2FtcGxlQ29udGV4dCgKICAgICAgcHJvdmlkZXJGb3JtLnZhbHVlLmNvbm5lY3Rpb25fY29uZmlnLl9fd2ViaG9va19zYW1wbGVfY29udGV4dCwKICAgICAgc2VsZWN0ZWRXZWJob29rQm9keUZpZWxkLnZhbHVlPy5jb25zdHJhaW50cyBhcwogICAgICAgIFdlYmhvb2tCb2R5Q29uc3RyYWludHMgfCB1bmRlZmluZWQsCiAgICApOwoKICBjb25zdCB1cGRhdGVXZWJob29rVHJhbnNpZW50ID0gKHBhdGNoOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPikgPT4gewogICAgcHJvdmlkZXJGb3JtLnZhbHVlID0gewogICAgICAuLi5wcm92aWRlckZvcm0udmFsdWUsCiAgICAgIGNvbm5lY3Rpb25fY29uZmlnOiB7CiAgICAgICAgLi4ucHJvdmlkZXJGb3JtLnZhbHVlLmNvbm5lY3Rpb25fY29uZmlnLAogICAgICAgIC4uLnBhdGNoLAogICAgICB9LAogICAgfTsKICB9OwoKICBjb25zdCBzYXZlUHJvdmlkZXIgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoIXNlbGVjdGVkRGVmaW5pdGlvbi52YWx1ZSkgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy51bmF2YWlsYWJsZVByb3ZpZGVyVHlwZSIpKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKGNvbm5lY3Rpb25Db25maWdJbnZhbGlkLnZhbHVlKSB7CiAgICAgIHRvYXN0LmVycm9yKAogICAgICAgIHQoCiAgICAgICAgICB3ZWJob29rQm9keUNvbmZpZ0ludmFsaWQudmFsdWUKICAgICAgICAgICAgPyAiYWRtaW4ubm90aWZpY2F0aW9ucy5ib2R5LmZpeEVycm9ycyIKICAgICAgICAgICAgOiAiYWRtaW4ubm90aWZpY2F0aW9ucy5oZWFkZXJzLmZpeEVycm9ycyIsCiAgICAgICAgKSwKICAgICAgKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgc2F2aW5nLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHBheWxvYWQgPSBidWlsZFByb3ZpZGVyUGF5bG9hZCgpOwogICAgICBjb25zdCByZXN1bHQgPQogICAgICAgIGRpYWxvZ01vZGUudmFsdWUgPT09ICJjcmVhdGUiCiAgICAgICAgICA/IGF3YWl0IEV2ZW50Q2VudGVyQVBJLmNyZWF0ZU5vdGlmaWNhdGlvblByb3ZpZGVyKHBheWxvYWQpCiAgICAgICAgICA6IGF3YWl0IEV2ZW50Q2VudGVyQVBJLnVwZGF0ZU5vdGlmaWNhdGlvblByb3ZpZGVyKAogICAgICAgICAgICAgIGVkaXRpbmdQcm92aWRlci52YWx1ZSEuaWQsCiAgICAgICAgICAgICAgcGF5bG9hZCwKICAgICAgICAgICAgKTsKICAgICAgaWYgKCFyZXN1bHQuc3VjY2VzcykgewogICAgICAgIHRocm93IG5ldyBFcnJvcigKICAgICAgICAgIHJlc3VsdC5tZXNzYWdlIHx8CiAgICAgICAgICAgIChkaWFsb2dNb2RlLnZhbHVlID09PSAiY3JlYXRlIgogICAgICAgICAgICAgID8gdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMuY3JlYXRlUHJvdmlkZXJGYWlsZWQiKQogICAgICAgICAgICAgIDogdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMudXBkYXRlUHJvdmlkZXJGYWlsZWQiKSksCiAgICAgICAgKTsKICAgICAgfQogICAgICBjb25zdCBzYXZlZE5hbWUgPSBTdHJpbmcoCiAgICAgICAgcmVzdWx0Py5kYXRhPy5uYW1lIHx8IHBheWxvYWQubmFtZSB8fCBnZW5lcmF0ZWRQcm92aWRlck5hbWUudmFsdWUsCiAgICAgICk7CiAgICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgICAgZGlhbG9nTW9kZS52YWx1ZSA9PT0gImNyZWF0ZSIKICAgICAgICAgID8gdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMuY3JlYXRlUHJvdmlkZXJTdWNjZXNzIiwgewogICAgICAgICAgICAgIG5hbWU6IHNhdmVkTmFtZSwKICAgICAgICAgICAgfSkKICAgICAgICAgIDogdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMudXBkYXRlUHJvdmlkZXJTdWNjZXNzIiwgewogICAgICAgICAgICAgIG5hbWU6IHNhdmVkTmFtZSwKICAgICAgICAgICAgfSksCiAgICAgICk7CiAgICAgIGRpYWxvZ09wZW4udmFsdWUgPSBmYWxzZTsKICAgICAgYXdhaXQgbG9hZERhdGEoKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRvYXN0LmVycm9yKAogICAgICAgIGRpYWxvZ01vZGUudmFsdWUgPT09ICJjcmVhdGUiCiAgICAgICAgICA/IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLmNyZWF0ZUZhaWxlZCIpCiAgICAgICAgICA6IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLnVwZGF0ZUZhaWxlZCIpLAogICAgICAgIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICAgICBlcnJvciBpbnN0YW5jZW9mIEVycm9yID8gZXJyb3IubWVzc2FnZSA6IHQoImNvbW1vbi50cnlMYXRlciIpLAogICAgICAgIH0sCiAgICAgICk7CiAgICB9IGZpbmFsbHkgewogICAgICBzYXZpbmcudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9OwoKICBjb25zdCB0ZXN0UHJvdmlkZXJEcmFmdCA9IGFzeW5jICgpID0+IHsKICAgIGlmICghc2VsZWN0ZWREZWZpbml0aW9uLnZhbHVlKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLnVuYXZhaWxhYmxlUHJvdmlkZXJUeXBlIikpOwogICAgICByZXR1cm47CiAgICB9CiAgICBpZiAoY29ubmVjdGlvbkNvbmZpZ0ludmFsaWQudmFsdWUpIHsKICAgICAgdG9hc3QuZXJyb3IoCiAgICAgICAgdCgKICAgICAgICAgIHdlYmhvb2tCb2R5Q29uZmlnSW52YWxpZC52YWx1ZQogICAgICAgICAgICA/ICJhZG1pbi5ub3RpZmljYXRpb25zLmJvZHkuZml4RXJyb3JzIgogICAgICAgICAgICA6ICJhZG1pbi5ub3RpZmljYXRpb25zLmhlYWRlcnMuZml4RXJyb3JzIiwKICAgICAgICApLAogICAgICApOwogICAgICByZXR1cm47CiAgICB9CiAgICB0ZXN0aW5nRHJhZnQudmFsdWUgPSB0cnVlOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgRXZlbnRDZW50ZXJBUEkudGVzdE5vdGlmaWNhdGlvblByb3ZpZGVyRHJhZnQoewogICAgICAgIC4uLmJ1aWxkUHJvdmlkZXJQYXlsb2FkKCksCiAgICAgICAgaWQ6IGRpYWxvZ01vZGUudmFsdWUgPT09ICJlZGl0IiA/IGVkaXRpbmdQcm92aWRlci52YWx1ZT8uaWQgOiB1bmRlZmluZWQsCiAgICAgICAgc2FtcGxlX2NvbnRleHQ6IHdlYmhvb2tTYW1wbGVDb250ZXh0KCksCiAgICAgIH0pOwogICAgICBpZiAoIXJlc3VsdC5zdWNjZXNzKSB7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKAogICAgICAgICAgcmVzdWx0Lm1lc3NhZ2UgfHwgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMudGVzdFNlbmRGYWlsZWQiKSwKICAgICAgICApOwogICAgICB9CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMudGVzdFNlbmRTdWNjZXNzIikpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMudGVzdFNlbmRGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICAgZXJyb3IgaW5zdGFuY2VvZiBFcnJvcgogICAgICAgICAgICA/IGVycm9yLm1lc3NhZ2UKICAgICAgICAgICAgOiB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy50ZXN0RHJhZnRDb25maWdIaW50IiksCiAgICAgIH0pOwogICAgfSBmaW5hbGx5IHsKICAgICAgdGVzdGluZ0RyYWZ0LnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3QgcHJldmlld1dlYmhvb2tCb2R5ID0gYXN5bmMgKCkgPT4gewogICAgaWYgKCFzZWxlY3RlZERlZmluaXRpb24udmFsdWUgfHwgd2ViaG9va0JvZHlDb25maWdJbnZhbGlkLnZhbHVlKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLm5vdGlmaWNhdGlvbnMuYm9keS5maXhFcnJvcnMiKSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHVwZGF0ZVdlYmhvb2tUcmFuc2llbnQoeyBfX3dlYmhvb2tfYm9keV9wcmV2aWV3aW5nOiB0cnVlIH0pOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgRXZlbnRDZW50ZXJBUEkucHJldmlld05vdGlmaWNhdGlvbldlYmhvb2tCb2R5KHsKICAgICAgICAuLi5idWlsZFByb3ZpZGVyUGF5bG9hZCgpLAogICAgICAgIGlkOiBkaWFsb2dNb2RlLnZhbHVlID09PSAiZWRpdCIgPyBlZGl0aW5nUHJvdmlkZXIudmFsdWU/LmlkIDogdW5kZWZpbmVkLAogICAgICAgIHNhbXBsZV9jb250ZXh0OiB3ZWJob29rU2FtcGxlQ29udGV4dCgpLAogICAgICB9KTsKICAgICAgdXBkYXRlV2ViaG9va1RyYW5zaWVudCh7IF9fd2ViaG9va19ib2R5X3ByZXZpZXc6IHJlc3VsdC5kYXRhIH0pOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ib2R5LnByZXZpZXdGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICAgZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yLm1lc3NhZ2UgOiB0KCJjb21tb24udHJ5TGF0ZXIiKSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICB1cGRhdGVXZWJob29rVHJhbnNpZW50KHsgX193ZWJob29rX2JvZHlfcHJldmlld2luZzogZmFsc2UgfSk7CiAgICB9CiAgfTsKCiAgY29uc3QgZGVsZXRlUHJvdmlkZXIgPSBhc3luYyAocHJvdmlkZXI6IE5vdGlmaWNhdGlvblByb3ZpZGVyVmlldykgPT4gewogICAgZGVsZXRpbmdJZC52YWx1ZSA9IHByb3ZpZGVyLmlkOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgRXZlbnRDZW50ZXJBUEkuZGVsZXRlTm90aWZpY2F0aW9uUHJvdmlkZXIoCiAgICAgICAgcHJvdmlkZXIuaWQsCiAgICAgICk7CiAgICAgIGlmICghcmVzdWx0LnN1Y2Nlc3MpIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICAgICByZXN1bHQubWVzc2FnZSB8fAogICAgICAgICAgICB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy5kZWxldGVQcm92aWRlckZhaWxlZCIpLAogICAgICAgICk7CiAgICAgIH0KICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy5kZWxldGVQcm92aWRlclN1Y2Nlc3MiKSk7CiAgICAgIGF3YWl0IGxvYWREYXRhKCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy5kZWxldGVQcm92aWRlckZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246CiAgICAgICAgICBlcnJvciBpbnN0YW5jZW9mIEVycm9yID8gZXJyb3IubWVzc2FnZSA6IHQoImNvbW1vbi50cnlMYXRlciIpLAogICAgICB9KTsKICAgIH0gZmluYWxseSB7CiAgICAgIGRlbGV0aW5nSWQudmFsdWUgPSBudWxsOwogICAgfQogIH07CgogIGNvbnN0IHRlc3RQcm92aWRlciA9IGFzeW5jIChwcm92aWRlcjogTm90aWZpY2F0aW9uUHJvdmlkZXJWaWV3KSA9PiB7CiAgICB0ZXN0aW5nSWQudmFsdWUgPSBwcm92aWRlci5pZDsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IEV2ZW50Q2VudGVyQVBJLnRlc3ROb3RpZmljYXRpb25Qcm92aWRlcihwcm92aWRlci5pZCk7CiAgICAgIGlmICghcmVzdWx0LnN1Y2Nlc3MpIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICAgICByZXN1bHQubWVzc2FnZSB8fCB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy50ZXN0U2VuZEZhaWxlZCIpLAogICAgICAgICk7CiAgICAgIH0KICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy50ZXN0U2VuZFN1Y2Nlc3MiKSk7CiAgICAgIGF3YWl0IGxvYWREYXRhKCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy50ZXN0U2VuZEZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246CiAgICAgICAgICBlcnJvciBpbnN0YW5jZW9mIEVycm9yCiAgICAgICAgICAgID8gZXJyb3IubWVzc2FnZQogICAgICAgICAgICA6IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLnRlc3RQcm92aWRlckNvbmZpZ0hpbnQiKSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICB0ZXN0aW5nSWQudmFsdWUgPSBudWxsOwogICAgfQogIH07CgogIHdhdGNoKAogICAgYWN0aXZlLAogICAgKGlzQWN0aXZlKSA9PiB7CiAgICAgIGlmIChpc0FjdGl2ZSkgdm9pZCBsb2FkRGF0YSgpOwogICAgfSwKICAgIHsgaW1tZWRpYXRlOiB0cnVlIH0sCiAgKTsKCiAgcmV0dXJuIHsKICAgIGNhdGFsb2csCiAgICBjb25uZWN0aW9uQ29uZmlnSW52YWxpZCwKICAgIGNvbmZpZ3VyZWRTZW5zaXRpdmVGaWVsZHMsCiAgICBkZWxldGVQcm92aWRlciwKICAgIGRlbGV0aW5nSWQsCiAgICBkaWFsb2dNb2RlLAogICAgZGlhbG9nT3BlbiwKICAgIGVkaXRpbmdJZCwKICAgIGdlbmVyYXRlZFByb3ZpZGVyTmFtZSwKICAgIGhhbmRsZVR5cGVDaGFuZ2UsCiAgICBsb2FkRGF0YSwKICAgIGxvYWRpbmcsCiAgICBvcGVuQ3JlYXRlRGlhbG9nLAogICAgb3BlbkVkaXREaWFsb2csCiAgICBwcm92aWRlckZvcm0sCiAgICBwcmV2aWV3V2ViaG9va0JvZHksCiAgICBwcm92aWRlcnMsCiAgICByZXNvbHZlUHJvdmlkZXJUeXBlTGFiZWwsCiAgICBzYXZlUHJvdmlkZXIsCiAgICBzYXZpbmcsCiAgICBzZWxlY3RlZERlZmluaXRpb24sCiAgICBzaG93V3hQdXNoZXJBbGVydDogY29tcHV0ZWQoCiAgICAgICgpID0+IHNlbGVjdGVkRGVmaW5pdGlvbi52YWx1ZT8udHlwZSA9PT0gInd4cHVzaGVyIiwKICAgICksCiAgICBzaG93TGVnYWN5V2ViaG9va0hlYWRlck1pZ3JhdGlvbiwKICAgIHRlc3RQcm92aWRlciwKICAgIHRlc3RQcm92aWRlckRyYWZ0LAogICAgdGVzdGluZ0RyYWZ0LAogICAgdGVzdGluZ0lkLAogIH07Cn07Cg==
+import { computed, ref, watch, type Ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { toast } from "@admin-shared/utils/toast";
+import { EventCenterAPI } from "@/lib/api/events";
+import type {
+  NotificationHeaderConstraints,
+  NotificationProviderDefinition,
+  NotificationProviderView,
+} from "@/types";
+import {
+  buildNextSequentialName,
+  buildSchemaPayload,
+  createEditableSchemaRecord,
+  type EditableProviderForm,
+  type ProviderDialogMode,
+  type ProviderFormPayload,
+} from "./form-utils";
+import { validateWebhookHeaderEntries } from "./webhook-headers";
+import {
+  parseWebhookSampleContext,
+  validateWebhookBodyConfig,
+  validateWebhookSampleContext,
+  type WebhookBodyConstraints,
+} from "./webhook-body";
+
+const PROVIDER_TAIL_ORDER = [
+  "webhook",
+  "wxpusher",
+  "serverchan",
+  "pushplus",
+] as const;
+
+const resolveProviderSortWeight = (type: string) => {
+  const tailIndex = PROVIDER_TAIL_ORDER.indexOf(
+    type as (typeof PROVIDER_TAIL_ORDER)[number],
+  );
+  return tailIndex === -1 ? 0 : 100 + tailIndex;
+};
+
+const sortProviderCatalog = (definitions: NotificationProviderDefinition[]) =>
+  [...definitions].sort((left, right) => {
+    const weightDiff =
+      resolveProviderSortWeight(left.type) -
+      resolveProviderSortWeight(right.type);
+    return weightDiff !== 0 ? weightDiff : 0;
+  });
+
+export const useNotificationProviders = (active: Readonly<Ref<boolean>>) => {
+  const { t } = useI18n();
+  const catalog = ref<NotificationProviderDefinition[]>([]);
+  const providers = ref<NotificationProviderView[]>([]);
+  const loading = ref(false);
+  const dialogOpen = ref(false);
+  const dialogMode = ref<ProviderDialogMode>("create");
+  const saving = ref(false);
+  const testingDraft = ref(false);
+  const deletingId = ref<string | null>(null);
+  const testingId = ref<string | null>(null);
+  const editingId = ref<string | null>(null);
+  const editingProvider = ref<NotificationProviderView | null>(null);
+  const showLegacyWebhookHeaderMigration = ref(false);
+  const providerForm = ref<EditableProviderForm>({
+    name: "",
+    type: "",
+    enabled: true,
+    connection_config: {},
+  });
+
+  const selectedDefinition = computed(
+    () =>
+      catalog.value.find((item) => item.type === providerForm.value.type) ||
+      catalog.value[0] ||
+      null,
+  );
+  const selectedWebhookBodyField = computed(() =>
+    selectedDefinition.value?.connection_schema.find(
+      (field) => field.type === "webhook_body",
+    ),
+  );
+  const headerConfigInvalid = computed(() =>
+    (selectedDefinition.value?.connection_schema || []).some(
+      (field) =>
+        field.type === "headers" &&
+        validateWebhookHeaderEntries(
+          providerForm.value.connection_config[field.key],
+          field.constraints as NotificationHeaderConstraints | undefined,
+        ).length > 0,
+    ),
+  );
+  const webhookBodyConfigInvalid = computed(() => {
+    const field = selectedWebhookBodyField.value;
+    if (!field) return false;
+    const constraints = field.constraints as WebhookBodyConstraints | undefined;
+    return (
+      validateWebhookBodyConfig(
+        providerForm.value.connection_config[field.key],
+        constraints,
+        "provider",
+      ).length > 0 ||
+      validateWebhookSampleContext(
+        providerForm.value.connection_config.__webhook_sample_context,
+        constraints,
+      ).length > 0
+    );
+  });
+  const connectionConfigInvalid = computed(
+    () => headerConfigInvalid.value || webhookBodyConfigInvalid.value,
+  );
+  const configuredSensitiveFields = computed(() => {
+    if (!editingProvider.value || !selectedDefinition.value) return [];
+    return selectedDefinition.value.connection_schema
+      .filter(
+        (field) =>
+          field.sensitive &&
+          Boolean(editingProvider.value?.connection_config_masked[field.key]),
+      )
+      .map((field) => field.key);
+  });
+
+  const resolveProviderTypeLabel = (type: string) =>
+    catalog.value.find((item) => item.type === type)?.label || type;
+
+  const buildGeneratedProviderName = (type: string) => {
+    const baseLabel =
+      catalog.value.find((item) => item.type === type)?.label ||
+      resolveProviderTypeLabel(type) ||
+      t("admin.notifications.providers.fallbackProviderLabel");
+    return buildNextSequentialName(
+      baseLabel,
+      providers.value.map((provider) => provider.name),
+      t("admin.notifications.providers.unnamed"),
+    );
+  };
+
+  const generatedProviderName = computed(() =>
+    buildGeneratedProviderName(providerForm.value.type),
+  );
+
+  const loadData = async () => {
+    loading.value = true;
+    try {
+      const [catalogResult, providersResult] = await Promise.all([
+        EventCenterAPI.getNotificationProviderCatalog(),
+        EventCenterAPI.getNotificationProviders(),
+      ]);
+      if (!catalogResult.success) {
+        throw new Error(
+          catalogResult.message ||
+            t("admin.notifications.providers.catalogLoadFailed"),
+        );
+      }
+      if (!providersResult.success) {
+        throw new Error(
+          providersResult.message ||
+            t("admin.notifications.providers.providersLoadFailed"),
+        );
+      }
+      catalog.value = sortProviderCatalog(catalogResult.data.providers || []);
+      providers.value = providersResult.data.providers || [];
+      if (!providerForm.value.type && catalog.value[0]) {
+        providerForm.value.type = catalog.value[0].type;
+      }
+    } catch (error) {
+      toast.error(t("admin.notifications.providers.loadFailed"), {
+        description:
+          error instanceof Error ? error.message : t("common.tryLater"),
+      });
+    } finally {
+      loading.value = false;
+    }
+  };
+
+  const resetProviderForm = (definition = catalog.value[0] || null) => {
+    const type = definition?.type || "webhook";
+    providerForm.value = {
+      name: buildGeneratedProviderName(type),
+      type,
+      enabled: true,
+      connection_config: definition
+        ? createEditableSchemaRecord(definition.connection_schema)
+        : {},
+    };
+  };
+
+  const openCreateDialog = () => {
+    dialogMode.value = "create";
+    editingProvider.value = null;
+    showLegacyWebhookHeaderMigration.value = false;
+    resetProviderForm();
+    dialogOpen.value = true;
+  };
+
+  const openEditDialog = async (provider: NotificationProviderView) => {
+    editingId.value = provider.id;
+    try {
+      const result = await EventCenterAPI.getNotificationProvider(provider.id);
+      if (!result.success) {
+        throw new Error(
+          result.message ||
+            t("admin.notifications.providers.providerDetailsLoadFailed"),
+        );
+      }
+      const providerDetail = result.data;
+      const definition =
+        catalog.value.find((item) => item.type === providerDetail.type) || null;
+      showLegacyWebhookHeaderMigration.value =
+        providerDetail.type === "webhook" &&
+        !Object.prototype.hasOwnProperty.call(
+          providerDetail.connection_config,
+          "custom_headers",
+        );
+      dialogMode.value = "edit";
+      editingProvider.value = providerDetail;
+      providerForm.value = {
+        name: providerDetail.name,
+        type: providerDetail.type,
+        enabled: providerDetail.enabled,
+        connection_config: definition
+          ? createEditableSchemaRecord(
+              definition.connection_schema,
+              providerDetail.connection_config,
+            )
+          : {},
+      };
+      dialogOpen.value = true;
+    } catch (error) {
+      toast.error(
+        t("admin.notifications.providers.providerDetailsLoadFailed"),
+        {
+          description:
+            error instanceof Error ? error.message : t("common.tryLater"),
+        },
+      );
+    } finally {
+      editingId.value = null;
+    }
+  };
+
+  const handleTypeChange = (value: unknown) => {
+    if (!value) return;
+    const currentType = providerForm.value.type;
+    const previousGeneratedName = buildGeneratedProviderName(currentType);
+    const nextDefinition =
+      catalog.value.find((item) => item.type === String(value)) || null;
+    if (!nextDefinition) return;
+    const nextType = nextDefinition.type;
+    showLegacyWebhookHeaderMigration.value = false;
+    const shouldRefreshName =
+      dialogMode.value === "create" &&
+      (!providerForm.value.name.trim() ||
+        providerForm.value.name === previousGeneratedName);
+    providerForm.value = {
+      ...providerForm.value,
+      name: shouldRefreshName
+        ? buildGeneratedProviderName(nextType)
+        : providerForm.value.name,
+      type: nextType,
+      connection_config: nextDefinition
+        ? createEditableSchemaRecord(nextDefinition.connection_schema)
+        : {},
+    };
+  };
+
+  const buildProviderPayload = (): ProviderFormPayload => {
+    const definition = selectedDefinition.value!;
+    const connectionConfig = buildSchemaPayload({
+      fields: definition.connection_schema,
+      value: providerForm.value.connection_config,
+      editing: dialogMode.value === "edit",
+      configuredSensitiveFields: configuredSensitiveFields.value,
+    });
+    if (dialogMode.value === "edit" && definition.type === "wxpusher") {
+      for (const key of ["uids", "topic_ids", "url"]) {
+        if (!(key in connectionConfig)) {
+          connectionConfig[key] = String(
+            providerForm.value.connection_config[key] ?? "",
+          ).trim();
+        }
+      }
+    }
+    return {
+      name: providerForm.value.name.trim() || undefined,
+      type: definition.type,
+      enabled: providerForm.value.enabled,
+      connection_config: connectionConfig,
+    };
+  };
+
+  const webhookSampleContext = () =>
+    parseWebhookSampleContext(
+      providerForm.value.connection_config.__webhook_sample_context,
+      selectedWebhookBodyField.value?.constraints as
+        WebhookBodyConstraints | undefined,
+    );
+
+  const updateWebhookTransient = (patch: Record<string, unknown>) => {
+    providerForm.value = {
+      ...providerForm.value,
+      connection_config: {
+        ...providerForm.value.connection_config,
+        ...patch,
+      },
+    };
+  };
+
+  const saveProvider = async () => {
+    if (!selectedDefinition.value) {
+      toast.error(t("admin.notifications.providers.unavailableProviderType"));
+      return;
+    }
+    if (connectionConfigInvalid.value) {
+      toast.error(
+        t(
+          webhookBodyConfigInvalid.value
+            ? "admin.notifications.body.fixErrors"
+            : "admin.notifications.headers.fixErrors",
+        ),
+      );
+      return;
+    }
+    saving.value = true;
+    try {
+      const payload = buildProviderPayload();
+      const result =
+        dialogMode.value === "create"
+          ? await EventCenterAPI.createNotificationProvider(payload)
+          : await EventCenterAPI.updateNotificationProvider(
+              editingProvider.value!.id,
+              payload,
+            );
+      if (!result.success) {
+        throw new Error(
+          result.message ||
+            (dialogMode.value === "create"
+              ? t("admin.notifications.providers.createProviderFailed")
+              : t("admin.notifications.providers.updateProviderFailed")),
+        );
+      }
+      const savedName = String(
+        result?.data?.name || payload.name || generatedProviderName.value,
+      );
+      toast.success(
+        dialogMode.value === "create"
+          ? t("admin.notifications.providers.createProviderSuccess", {
+              name: savedName,
+            })
+          : t("admin.notifications.providers.updateProviderSuccess", {
+              name: savedName,
+            }),
+      );
+      dialogOpen.value = false;
+      await loadData();
+    } catch (error) {
+      toast.error(
+        dialogMode.value === "create"
+          ? t("admin.notifications.providers.createFailed")
+          : t("admin.notifications.providers.updateFailed"),
+        {
+          description:
+            error instanceof Error ? error.message : t("common.tryLater"),
+        },
+      );
+    } finally {
+      saving.value = false;
+    }
+  };
+
+  const testProviderDraft = async () => {
+    if (!selectedDefinition.value) {
+      toast.error(t("admin.notifications.providers.unavailableProviderType"));
+      return;
+    }
+    if (connectionConfigInvalid.value) {
+      toast.error(
+        t(
+          webhookBodyConfigInvalid.value
+            ? "admin.notifications.body.fixErrors"
+            : "admin.notifications.headers.fixErrors",
+        ),
+      );
+      return;
+    }
+    testingDraft.value = true;
+    try {
+      const result = await EventCenterAPI.testNotificationProviderDraft({
+        ...buildProviderPayload(),
+        id: dialogMode.value === "edit" ? editingProvider.value?.id : undefined,
+        sample_context: webhookSampleContext(),
+      });
+      if (!result.success) {
+        throw new Error(
+          result.message || t("admin.notifications.providers.testSendFailed"),
+        );
+      }
+      toast.success(t("admin.notifications.providers.testSendSuccess"));
+    } catch (error) {
+      toast.error(t("admin.notifications.providers.testSendFailed"), {
+        description:
+          error instanceof Error
+            ? error.message
+            : t("admin.notifications.providers.testDraftConfigHint"),
+      });
+    } finally {
+      testingDraft.value = false;
+    }
+  };
+
+  const previewWebhookBody = async () => {
+    if (!selectedDefinition.value || webhookBodyConfigInvalid.value) {
+      toast.error(t("admin.notifications.body.fixErrors"));
+      return;
+    }
+    updateWebhookTransient({ __webhook_body_previewing: true });
+    try {
+      const result = await EventCenterAPI.previewNotificationWebhookBody({
+        ...buildProviderPayload(),
+        id: dialogMode.value === "edit" ? editingProvider.value?.id : undefined,
+        sample_context: webhookSampleContext(),
+      });
+      updateWebhookTransient({ __webhook_body_preview: result.data });
+    } catch (error) {
+      toast.error(t("admin.notifications.body.previewFailed"), {
+        description:
+          error instanceof Error ? error.message : t("common.tryLater"),
+      });
+    } finally {
+      updateWebhookTransient({ __webhook_body_previewing: false });
+    }
+  };
+
+  const deleteProvider = async (provider: NotificationProviderView) => {
+    deletingId.value = provider.id;
+    try {
+      const result = await EventCenterAPI.deleteNotificationProvider(
+        provider.id,
+      );
+      if (!result.success) {
+        throw new Error(
+          result.message ||
+            t("admin.notifications.providers.deleteProviderFailed"),
+        );
+      }
+      toast.success(t("admin.notifications.providers.deleteProviderSuccess"));
+      await loadData();
+    } catch (error) {
+      toast.error(t("admin.notifications.providers.deleteProviderFailed"), {
+        description:
+          error instanceof Error ? error.message : t("common.tryLater"),
+      });
+    } finally {
+      deletingId.value = null;
+    }
+  };
+
+  const testProvider = async (provider: NotificationProviderView) => {
+    testingId.value = provider.id;
+    try {
+      const result = await EventCenterAPI.testNotificationProvider(provider.id);
+      if (!result.success) {
+        throw new Error(
+          result.message || t("admin.notifications.providers.testSendFailed"),
+        );
+      }
+      toast.success(t("admin.notifications.providers.testSendSuccess"));
+      await loadData();
+    } catch (error) {
+      toast.error(t("admin.notifications.providers.testSendFailed"), {
+        description:
+          error instanceof Error
+            ? error.message
+            : t("admin.notifications.providers.testProviderConfigHint"),
+      });
+    } finally {
+      testingId.value = null;
+    }
+  };
+
+  watch(
+    active,
+    (isActive) => {
+      if (isActive) void loadData();
+    },
+    { immediate: true },
+  );
+
+  return {
+    catalog,
+    connectionConfigInvalid,
+    configuredSensitiveFields,
+    deleteProvider,
+    deletingId,
+    dialogMode,
+    dialogOpen,
+    editingId,
+    generatedProviderName,
+    handleTypeChange,
+    loadData,
+    loading,
+    openCreateDialog,
+    openEditDialog,
+    providerForm,
+    previewWebhookBody,
+    providers,
+    resolveProviderTypeLabel,
+    saveProvider,
+    saving,
+    selectedDefinition,
+    showWxPusherAlert: computed(
+      () => selectedDefinition.value?.type === "wxpusher",
+    ),
+    showLegacyWebhookHeaderMigration,
+    testProvider,
+    testProviderDraft,
+    testingDraft,
+    testingId,
+  };
+};

@@ -1,1 +1,44 @@
-PCEtLSBEZWZhdWx0IFN3YWdnZXIgVUkgZGlzdHJpYnV0aW9uIHBhZ2UsIHNlcnZlZCBmcm9tIHRoZSBsb2NhbCBiaW5hcnkuIC0tPgo8IWRvY3R5cGUgaHRtbD4KPGh0bWwgbGFuZz0iZW4iPgogIDxoZWFkPgogICAgPG1ldGEgY2hhcnNldD0iVVRGLTgiIC8+CiAgICA8dGl0bGU+U3dhZ2dlciBVSTwvdGl0bGU+CiAgICA8bGluayByZWw9InN0eWxlc2hlZXQiIHR5cGU9InRleHQvY3NzIiBocmVmPSIvZG9jcy9hc3NldHMvc3dhZ2dlci11aS5jc3MiIC8+CiAgICA8bGluayByZWw9InN0eWxlc2hlZXQiIHR5cGU9InRleHQvY3NzIiBocmVmPSIvZG9jcy9hc3NldHMvaW5kZXguY3NzIiAvPgogICAgPGxpbmsKICAgICAgcmVsPSJpY29uIgogICAgICB0eXBlPSJpbWFnZS9wbmciCiAgICAgIGhyZWY9Ii9kb2NzL2Fzc2V0cy9mYXZpY29uLTMyeDMyLnBuZyIKICAgICAgc2l6ZXM9IjMyeDMyIgogICAgLz4KICAgIDxsaW5rCiAgICAgIHJlbD0iaWNvbiIKICAgICAgdHlwZT0iaW1hZ2UvcG5nIgogICAgICBocmVmPSIvZG9jcy9hc3NldHMvZmF2aWNvbi0xNngxNi5wbmciCiAgICAgIHNpemVzPSIxNngxNiIKICAgIC8+CiAgPC9oZWFkPgoKICA8Ym9keT4KICAgIDxkaXYgaWQ9InN3YWdnZXItdWkiPjwvZGl2PgogICAgPHNjcmlwdCBzcmM9Ii9kb2NzL2Fzc2V0cy9zd2FnZ2VyLXVpLWJ1bmRsZS5qcyIgY2hhcnNldD0iVVRGLTgiPjwvc2NyaXB0PgogICAgPHNjcmlwdAogICAgICBzcmM9Ii9kb2NzL2Fzc2V0cy9zd2FnZ2VyLXVpLXN0YW5kYWxvbmUtcHJlc2V0LmpzIgogICAgICBjaGFyc2V0PSJVVEYtOCIKICAgID48L3NjcmlwdD4KICAgIDxzY3JpcHQ+CiAgICAgIHdpbmRvdy5vbmxvYWQgPSBmdW5jdGlvbiAoKSB7CiAgICAgICAgd2luZG93LnVpID0gU3dhZ2dlclVJQnVuZGxlKHsKICAgICAgICAgIHVybDogIi9kb2NzL2pzb24iLAogICAgICAgICAgZG9tX2lkOiAiI3N3YWdnZXItdWkiLAogICAgICAgICAgZGVlcExpbmtpbmc6IHRydWUsCiAgICAgICAgICB2YWxpZGF0b3JVcmw6IG51bGwsCiAgICAgICAgICBsYXlvdXQ6ICJTdGFuZGFsb25lTGF5b3V0IiwKICAgICAgICAgIHByZXNldHM6IFtTd2FnZ2VyVUlCdW5kbGUucHJlc2V0cy5hcGlzLCBTd2FnZ2VyVUlTdGFuZGFsb25lUHJlc2V0XSwKICAgICAgICAgIHBsdWdpbnM6IFtTd2FnZ2VyVUlCdW5kbGUucGx1Z2lucy5Eb3dubG9hZFVybF0sCiAgICAgICAgfSk7CiAgICAgIH07CiAgICA8L3NjcmlwdD4KICA8L2JvZHk+CjwvaHRtbD4K
+<!-- Default Swagger UI distribution page, served from the local binary. -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="/docs/assets/swagger-ui.css" />
+    <link rel="stylesheet" type="text/css" href="/docs/assets/index.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/docs/assets/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/docs/assets/favicon-16x16.png"
+      sizes="16x16"
+    />
+  </head>
+
+  <body>
+    <div id="swagger-ui"></div>
+    <script src="/docs/assets/swagger-ui-bundle.js" charset="UTF-8"></script>
+    <script
+      src="/docs/assets/swagger-ui-standalone-preset.js"
+      charset="UTF-8"
+    ></script>
+    <script>
+      window.onload = function () {
+        window.ui = SwaggerUIBundle({
+          url: "/docs/json",
+          dom_id: "#swagger-ui",
+          deepLinking: true,
+          validatorUrl: null,
+          layout: "StandaloneLayout",
+          presets: [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset],
+          plugins: [SwaggerUIBundle.plugins.DownloadUrl],
+        });
+      };
+    </script>
+  </body>
+</html>

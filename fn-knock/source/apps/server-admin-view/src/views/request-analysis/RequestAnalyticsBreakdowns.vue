@@ -1,1 +1,64 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCBSZWZyZXNoQnV0dG9uIGZyb20gIkAvY29tcG9uZW50cy9SZWZyZXNoQnV0dG9uLnZ1ZSI7CmltcG9ydCBBbmFseXRpY3NCcmVha2Rvd25DYXJkIGZyb20gIi4vQW5hbHl0aWNzQnJlYWtkb3duQ2FyZC52dWUiOwppbXBvcnQgdHlwZSB7IFJlcXVlc3RBbmFseXRpY3NQYWdlTW9kZWwgfSBmcm9tICIuL3VzZVJlcXVlc3RBbmFseXRpY3NQYWdlIjsKCmRlZmluZVByb3BzPHsgbW9kZWw6IFJlcXVlc3RBbmFseXRpY3NQYWdlTW9kZWwgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTMgc206Z2FwLTQgeGw6Z3JpZC1jb2xzLTIiPgogICAgPEFuYWx5dGljc0JyZWFrZG93bkNhcmQKICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5yZXF1ZXN0QW5hbHlzaXMuY2FyZHMudGFyZ2V0cycpIgogICAgICA6dGFicz0ibW9kZWwudGFyZ2V0VGFicyIKICAgICAgOmVtcHR5LXRleHQ9InQoJ2FkbWluLnJlcXVlc3RBbmFseXNpcy5lbXB0eScpIgogICAgICA6ZGVmYXVsdC1tZXRyaWMtbGFiZWw9InQoJ2FkbWluLnJlcXVlc3RBbmFseXNpcy5tZXRyaWNzLnJlcXVlc3RzJykiCiAgICAvPgogICAgPEFuYWx5dGljc0JyZWFrZG93bkNhcmQKICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5yZXF1ZXN0QW5hbHlzaXMuY2FyZHMuc291cmNlcycpIgogICAgICA6dGFicz0ibW9kZWwuc291cmNlVGFicyIKICAgICAgOmVtcHR5LXRleHQ9InQoJ2FkbWluLnJlcXVlc3RBbmFseXNpcy5lbXB0eScpIgogICAgICA6ZGVmYXVsdC1tZXRyaWMtbGFiZWw9InQoJ2FkbWluLnJlcXVlc3RBbmFseXNpcy5tZXRyaWNzLnJlcXVlc3RzJykiCiAgICAvPgogIDwvZGl2PgoKICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0zIHNtOmdhcC00IG1kOmdyaWQtY29scy0yIHhsOmdyaWQtY29scy00Ij4KICAgIDxBbmFseXRpY3NCcmVha2Rvd25DYXJkCiAgICAgIDp0aXRsZT0idCgnYWRtaW4ucmVxdWVzdEFuYWx5c2lzLmNhcmRzLmdlbycpIgogICAgICA6dGFicz0ibW9kZWwuZ2VvVGFicyIKICAgICAgOmVtcHR5LXRleHQ9InQoJ2FkbWluLnJlcXVlc3RBbmFseXNpcy5lbXB0eScpIgogICAgICA6ZGVmYXVsdC1tZXRyaWMtbGFiZWw9InQoJ2FkbWluLnJlcXVlc3RBbmFseXNpcy5tZXRyaWNzLnVuaXF1ZUNsaWVudHMnKSIKICAgID4KICAgICAgPHRlbXBsYXRlICNhY3Rpb24+CiAgICAgICAgPFJlZnJlc2hCdXR0b24KICAgICAgICAgIGljb24tb25seQogICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgIDpsYWJlbD0idCgnYWRtaW4ucmVxdWVzdEFuYWx5c2lzLmdlby5yZWZyZXNoJykiCiAgICAgICAgICA6bG9hZGluZz0ibW9kZWwuZ2VvUmVmcmVzaGluZyIKICAgICAgICAgIDpkaXNhYmxlZD0ibW9kZWwuZ2VvUmVmcmVzaGluZyB8fCAhbW9kZWwuZGF0YT8uc3VtbWFyeS51bmlxdWVfY2xpZW50cyIKICAgICAgICAgIEBjbGljaz0ibW9kZWwucmVmcmVzaEdlbyIKICAgICAgICAvPgogICAgICA8L3RlbXBsYXRlPgogICAgPC9BbmFseXRpY3NCcmVha2Rvd25DYXJkPgogICAgPEFuYWx5dGljc0JyZWFrZG93bkNhcmQKICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5yZXF1ZXN0QW5hbHlzaXMuY2FyZHMuY2xpZW50cycpIgogICAgICA6dGFicz0ibW9kZWwuY2xpZW50VGFicyIKICAgICAgOmVtcHR5LXRleHQ9InQoJ2FkbWluLnJlcXVlc3RBbmFseXNpcy5lbXB0eScpIgogICAgICA6ZGVmYXVsdC1tZXRyaWMtbGFiZWw9InQoJ2FkbWluLnJlcXVlc3RBbmFseXNpcy5tZXRyaWNzLnJlcXVlc3RzJykiCiAgICAvPgogICAgPEFuYWx5dGljc0JyZWFrZG93bkNhcmQKICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5yZXF1ZXN0QW5hbHlzaXMuY2FyZHMucmVzcG9uc2VzJykiCiAgICAgIDp0YWJzPSJtb2RlbC5yZXNwb25zZVRhYnMiCiAgICAgIDplbXB0eS10ZXh0PSJ0KCdhZG1pbi5yZXF1ZXN0QW5hbHlzaXMuZW1wdHknKSIKICAgICAgOmRlZmF1bHQtbWV0cmljLWxhYmVsPSJ0KCdhZG1pbi5yZXF1ZXN0QW5hbHlzaXMubWV0cmljcy5yZXF1ZXN0cycpIgogICAgLz4KICAgIDxBbmFseXRpY3NCcmVha2Rvd25DYXJkCiAgICAgIDp0aXRsZT0idCgnYWRtaW4ucmVxdWVzdEFuYWx5c2lzLmNhcmRzLnNlY3VyaXR5JykiCiAgICAgIDp0YWJzPSJtb2RlbC5zZWN1cml0eVRhYnMiCiAgICAgIDplbXB0eS10ZXh0PSJ0KCdhZG1pbi5yZXF1ZXN0QW5hbHlzaXMuZW1wdHknKSIKICAgICAgOmRlZmF1bHQtbWV0cmljLWxhYmVsPSJ0KCdhZG1pbi5yZXF1ZXN0QW5hbHlzaXMubWV0cmljcy5yZXF1ZXN0cycpIgogICAgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import RefreshButton from "@/components/RefreshButton.vue";
+import AnalyticsBreakdownCard from "./AnalyticsBreakdownCard.vue";
+import type { RequestAnalyticsPageModel } from "./useRequestAnalyticsPage";
+
+defineProps<{ model: RequestAnalyticsPageModel }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div class="grid gap-3 sm:gap-4 xl:grid-cols-2">
+    <AnalyticsBreakdownCard
+      :title="t('admin.requestAnalysis.cards.targets')"
+      :tabs="model.targetTabs"
+      :empty-text="t('admin.requestAnalysis.empty')"
+      :default-metric-label="t('admin.requestAnalysis.metrics.requests')"
+    />
+    <AnalyticsBreakdownCard
+      :title="t('admin.requestAnalysis.cards.sources')"
+      :tabs="model.sourceTabs"
+      :empty-text="t('admin.requestAnalysis.empty')"
+      :default-metric-label="t('admin.requestAnalysis.metrics.requests')"
+    />
+  </div>
+
+  <div class="grid gap-3 sm:gap-4 md:grid-cols-2 xl:grid-cols-4">
+    <AnalyticsBreakdownCard
+      :title="t('admin.requestAnalysis.cards.geo')"
+      :tabs="model.geoTabs"
+      :empty-text="t('admin.requestAnalysis.empty')"
+      :default-metric-label="t('admin.requestAnalysis.metrics.uniqueClients')"
+    >
+      <template #action>
+        <RefreshButton
+          icon-only
+          size="icon"
+          :label="t('admin.requestAnalysis.geo.refresh')"
+          :loading="model.geoRefreshing"
+          :disabled="model.geoRefreshing || !model.data?.summary.unique_clients"
+          @click="model.refreshGeo"
+        />
+      </template>
+    </AnalyticsBreakdownCard>
+    <AnalyticsBreakdownCard
+      :title="t('admin.requestAnalysis.cards.clients')"
+      :tabs="model.clientTabs"
+      :empty-text="t('admin.requestAnalysis.empty')"
+      :default-metric-label="t('admin.requestAnalysis.metrics.requests')"
+    />
+    <AnalyticsBreakdownCard
+      :title="t('admin.requestAnalysis.cards.responses')"
+      :tabs="model.responseTabs"
+      :empty-text="t('admin.requestAnalysis.empty')"
+      :default-metric-label="t('admin.requestAnalysis.metrics.requests')"
+    />
+    <AnalyticsBreakdownCard
+      :title="t('admin.requestAnalysis.cards.security')"
+      :tabs="model.securityTabs"
+      :empty-text="t('admin.requestAnalysis.empty')"
+      :default-metric-label="t('admin.requestAnalysis.metrics.requests')"
+    />
+  </div>
+</template>

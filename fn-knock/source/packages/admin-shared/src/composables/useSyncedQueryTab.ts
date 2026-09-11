@@ -1,1 +1,96 @@
-aW1wb3J0IHsgb25Nb3VudGVkLCByZWYsIHRvVmFsdWUsIHdhdGNoLCB0eXBlIE1heWJlUmVmT3JHZXR0ZXIgfSBmcm9tICd2dWUnOwoKdHlwZSBRdWVyeVNjYWxhciA9IHN0cmluZyB8IG51bGw7CnR5cGUgUXVlcnlWYWx1ZSA9IFF1ZXJ5U2NhbGFyIHwgUXVlcnlTY2FsYXJbXSB8IHVuZGVmaW5lZDsKCmludGVyZmFjZSBSb3V0ZUxpa2UgewogIHF1ZXJ5OiBSZWNvcmQ8c3RyaW5nLCBRdWVyeVZhbHVlPjsKfQoKaW50ZXJmYWNlIFJvdXRlckxpa2UgewogIHJlcGxhY2U6IChhcmdzOiB7IHF1ZXJ5OiBSZWNvcmQ8c3RyaW5nLCBRdWVyeVZhbHVlPiB9KSA9PiB1bmtub3duOwp9CgppbnRlcmZhY2UgVXNlU3luY2VkUXVlcnlUYWJPcHRpb25zIHsKICByb3V0ZTogUm91dGVMaWtlOwogIHJvdXRlcjogUm91dGVyTGlrZTsKICBkZWZhdWx0VGFiOiBNYXliZVJlZk9yR2V0dGVyPHN0cmluZz47CiAgYWxsb3dlZFRhYnM6IE1heWJlUmVmT3JHZXR0ZXI8SXRlcmFibGU8c3RyaW5nPj47CiAgcXVlcnlLZXk/OiBzdHJpbmc7CiAgYWN0aXZlPzogTWF5YmVSZWZPckdldHRlcjxib29sZWFuPjsKfQoKY29uc3QgcmVhZEZpcnN0UXVlcnlWYWx1ZSA9ICh2YWx1ZTogUXVlcnlWYWx1ZSkgPT4gewogIGlmIChBcnJheS5pc0FycmF5KHZhbHVlKSkgcmV0dXJuIHZhbHVlWzBdIHx8ICcnOwogIHJldHVybiB2YWx1ZSB8fCAnJzsKfTsKCmV4cG9ydCBmdW5jdGlvbiB1c2VTeW5jZWRRdWVyeVRhYihvcHRpb25zOiBVc2VTeW5jZWRRdWVyeVRhYk9wdGlvbnMpIHsKICBjb25zdCBxdWVyeUtleSA9IG9wdGlvbnMucXVlcnlLZXkgPz8gJ3RhYic7CiAgY29uc3QgY3VycmVudFRhYiA9IHJlZih0b1ZhbHVlKG9wdGlvbnMuZGVmYXVsdFRhYikpOwogIGNvbnN0IGlzQWN0aXZlID0gKCkgPT4gdG9WYWx1ZShvcHRpb25zLmFjdGl2ZSA/PyB0cnVlKTsKCiAgY29uc3QgZ2V0QWxsb3dlZFRhYnMgPSAoKSA9PiBuZXcgU2V0KEFycmF5LmZyb20odG9WYWx1ZShvcHRpb25zLmFsbG93ZWRUYWJzKSkpOwoKICBjb25zdCBub3JtYWxpemVUYWIgPSAodmFsdWU6IHN0cmluZykgPT4gewogICAgY29uc3QgZmFsbGJhY2sgPSB0b1ZhbHVlKG9wdGlvbnMuZGVmYXVsdFRhYik7CiAgICBjb25zdCBhbGxvd2VkID0gZ2V0QWxsb3dlZFRhYnMoKTsKICAgIHJldHVybiBhbGxvd2VkLmhhcyh2YWx1ZSkgPyB2YWx1ZSA6IGZhbGxiYWNrOwogIH07CgogIGNvbnN0IGdldFF1ZXJ5VGFiVmFsdWUgPSAoKSA9PiByZWFkRmlyc3RRdWVyeVZhbHVlKG9wdGlvbnMucm91dGUucXVlcnlbcXVlcnlLZXldKTsKCiAgY29uc3Qgc3luY1F1ZXJ5VGFiID0gKHRhYjogc3RyaW5nKSA9PiB7CiAgICBjb25zdCBub3JtYWxpemVkVGFiID0gbm9ybWFsaXplVGFiKHRhYik7CiAgICBjb25zdCBkZWZhdWx0VGFiID0gdG9WYWx1ZShvcHRpb25zLmRlZmF1bHRUYWIpOwogICAgY29uc3Qgbm9ybWFsaXplZFF1ZXJ5ID0gbm9ybWFsaXplZFRhYiA9PT0gZGVmYXVsdFRhYiA/ICcnIDogbm9ybWFsaXplZFRhYjsKICAgIGlmIChnZXRRdWVyeVRhYlZhbHVlKCkgPT09IG5vcm1hbGl6ZWRRdWVyeSkgcmV0dXJuOwoKICAgIGNvbnN0IG5leHRRdWVyeTogUmVjb3JkPHN0cmluZywgUXVlcnlWYWx1ZT4gPSB7IC4uLm9wdGlvbnMucm91dGUucXVlcnkgfTsKICAgIGlmICghbm9ybWFsaXplZFF1ZXJ5KSB7CiAgICAgIGRlbGV0ZSBuZXh0UXVlcnlbcXVlcnlLZXldOwogICAgfSBlbHNlIHsKICAgICAgbmV4dFF1ZXJ5W3F1ZXJ5S2V5XSA9IG5vcm1hbGl6ZWRRdWVyeTsKICAgIH0KICAgIG9wdGlvbnMucm91dGVyLnJlcGxhY2UoeyBxdWVyeTogbmV4dFF1ZXJ5IH0pOwogIH07CgogIGNvbnN0IHN5bmNGcm9tUm91dGUgPSAoKSA9PiB7CiAgICBpZiAoIWlzQWN0aXZlKCkpIHJldHVybjsKICAgIGNvbnN0IHF1ZXJ5VGFiID0gZ2V0UXVlcnlUYWJWYWx1ZSgpOwogICAgY29uc3QgbmV4dCA9IG5vcm1hbGl6ZVRhYihxdWVyeVRhYiB8fCB0b1ZhbHVlKG9wdGlvbnMuZGVmYXVsdFRhYikpOwogICAgY3VycmVudFRhYi52YWx1ZSA9IG5leHQ7CiAgICBzeW5jUXVlcnlUYWIobmV4dCk7CiAgfTsKCiAgY29uc3QgbmF2aWdhdGVUbyA9ICh0YWI6IHN0cmluZyB8IG51bWJlcikgPT4gewogICAgY29uc3QgbmV4dCA9IFN0cmluZyh0YWIpOwogICAgaWYgKCFuZXh0IHx8IG5leHQgPT09IGN1cnJlbnRUYWIudmFsdWUpIHJldHVybjsKICAgIGNvbnN0IG5vcm1hbGl6ZWQgPSBub3JtYWxpemVUYWIobmV4dCk7CiAgICBjdXJyZW50VGFiLnZhbHVlID0gbm9ybWFsaXplZDsKICAgIHN5bmNRdWVyeVRhYihub3JtYWxpemVkKTsKICB9OwoKICBjb25zdCBhbGxvd2VkVGFic1NpZ25hdHVyZSA9ICgpID0+IEFycmF5LmZyb20oZ2V0QWxsb3dlZFRhYnMoKSkuam9pbignfCcpOwoKICBvbk1vdW50ZWQoKCkgPT4gewogICAgaWYgKGlzQWN0aXZlKCkpIHsKICAgICAgc3luY0Zyb21Sb3V0ZSgpOwogICAgfQogIH0pOwogIHdhdGNoKAogICAgWygpID0+IG9wdGlvbnMucm91dGUucXVlcnlbcXVlcnlLZXldLCAoKSA9PiB0b1ZhbHVlKG9wdGlvbnMuZGVmYXVsdFRhYiksIGFsbG93ZWRUYWJzU2lnbmF0dXJlLCBpc0FjdGl2ZV0sCiAgICAoKSA9PiB7CiAgICAgIGlmIChpc0FjdGl2ZSgpKSB7CiAgICAgICAgc3luY0Zyb21Sb3V0ZSgpOwogICAgICB9CiAgICB9LAogICk7CgogIHJldHVybiB7CiAgICBjdXJyZW50VGFiLAogICAgbmF2aWdhdGVUbywKICAgIHN5bmNGcm9tUm91dGUsCiAgICBzeW5jUXVlcnlUYWIsCiAgfTsKfQo=
+import { onMounted, ref, toValue, watch, type MaybeRefOrGetter } from 'vue';
+
+type QueryScalar = string | null;
+type QueryValue = QueryScalar | QueryScalar[] | undefined;
+
+interface RouteLike {
+  query: Record<string, QueryValue>;
+}
+
+interface RouterLike {
+  replace: (args: { query: Record<string, QueryValue> }) => unknown;
+}
+
+interface UseSyncedQueryTabOptions {
+  route: RouteLike;
+  router: RouterLike;
+  defaultTab: MaybeRefOrGetter<string>;
+  allowedTabs: MaybeRefOrGetter<Iterable<string>>;
+  queryKey?: string;
+  active?: MaybeRefOrGetter<boolean>;
+}
+
+const readFirstQueryValue = (value: QueryValue) => {
+  if (Array.isArray(value)) return value[0] || '';
+  return value || '';
+};
+
+export function useSyncedQueryTab(options: UseSyncedQueryTabOptions) {
+  const queryKey = options.queryKey ?? 'tab';
+  const currentTab = ref(toValue(options.defaultTab));
+  const isActive = () => toValue(options.active ?? true);
+
+  const getAllowedTabs = () => new Set(Array.from(toValue(options.allowedTabs)));
+
+  const normalizeTab = (value: string) => {
+    const fallback = toValue(options.defaultTab);
+    const allowed = getAllowedTabs();
+    return allowed.has(value) ? value : fallback;
+  };
+
+  const getQueryTabValue = () => readFirstQueryValue(options.route.query[queryKey]);
+
+  const syncQueryTab = (tab: string) => {
+    const normalizedTab = normalizeTab(tab);
+    const defaultTab = toValue(options.defaultTab);
+    const normalizedQuery = normalizedTab === defaultTab ? '' : normalizedTab;
+    if (getQueryTabValue() === normalizedQuery) return;
+
+    const nextQuery: Record<string, QueryValue> = { ...options.route.query };
+    if (!normalizedQuery) {
+      delete nextQuery[queryKey];
+    } else {
+      nextQuery[queryKey] = normalizedQuery;
+    }
+    options.router.replace({ query: nextQuery });
+  };
+
+  const syncFromRoute = () => {
+    if (!isActive()) return;
+    const queryTab = getQueryTabValue();
+    const next = normalizeTab(queryTab || toValue(options.defaultTab));
+    currentTab.value = next;
+    syncQueryTab(next);
+  };
+
+  const navigateTo = (tab: string | number) => {
+    const next = String(tab);
+    if (!next || next === currentTab.value) return;
+    const normalized = normalizeTab(next);
+    currentTab.value = normalized;
+    syncQueryTab(normalized);
+  };
+
+  const allowedTabsSignature = () => Array.from(getAllowedTabs()).join('|');
+
+  onMounted(() => {
+    if (isActive()) {
+      syncFromRoute();
+    }
+  });
+  watch(
+    [() => options.route.query[queryKey], () => toValue(options.defaultTab), allowedTabsSignature, isActive],
+    () => {
+      if (isActive()) {
+        syncFromRoute();
+      }
+    },
+  );
+
+  return {
+    currentTab,
+    navigateTo,
+    syncFromRoute,
+    syncQueryTab,
+  };
+}

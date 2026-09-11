@@ -1,1 +1,8 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImF1dGgtc2FmZS1zaGVsbCBhdXRoLXZpc3VhbC1zaGVsbCBmbGV4IGZsZXgtY29sIj4KICAgIDxtYWluIGNsYXNzPSJmbGV4IGZsZXgtMSBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICA8c2xvdCAvPgogICAgPC9tYWluPgogICAgPHNsb3QgbmFtZT0iZm9vdGVyIiAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<template>
+  <div class="auth-safe-shell auth-visual-shell flex flex-col">
+    <main class="flex flex-1 items-center justify-center">
+      <slot />
+    </main>
+    <slot name="footer" />
+  </div>
+</template>

@@ -1,1 +1,135 @@
-PHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iZW1pdCgndXBkYXRlOm9wZW4nLCAkZXZlbnQpIj4KICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJzbTptYXgtdy1bNDgwcHhdIj4KICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICA8RGlhbG9nVGl0bGU+e3sgdGl0bGUgfHwgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuYXZhaWxhYmlsaXR5VGl0bGUiKSB9fTwvRGlhbG9nVGl0bGU+CiAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAge3sKICAgICAgICAgICAgZGVzY3JpcHRpb24gfHwKICAgICAgICAgICAgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuYXZhaWxhYmlsaXR5RGVzY3JpcHRpb24iLCB7IGhvc3QgfSkKICAgICAgICAgIH19CiAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgPC9EaWFsb2dIZWFkZXI+CgogICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTUiPgogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQgcm91bmRlZC1tZCBib3JkZXIgcC0zIgogICAgICAgID4KICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgICAgIDxMYWJlbCBmb3I9Imhvc3QtYXZhaWxhYmlsaXR5LWVuYWJsZWQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmF2YWlsYWJpbGl0eUVuYWJsZWQiKSB9fQogICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5hdmFpbGFiaWxpdHlTZXJ2ZXJUaW1lSGludCIpIH19CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPFN3aXRjaAogICAgICAgICAgICBpZD0iaG9zdC1hdmFpbGFiaWxpdHktZW5hYmxlZCIKICAgICAgICAgICAgdi1tb2RlbD0iZW5hYmxlZE1vZGVsIgogICAgICAgICAgICA6ZGlzYWJsZWQ9ImxvYWRpbmciCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC00IHNtOmdyaWQtY29scy0yIj4KICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICAgIDxMYWJlbCBmb3I9Imhvc3QtYXZhaWxhYmlsaXR5LXN0YXJ0Ij4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5hdmFpbGFiaWxpdHlTdGFydFRpbWUiKSB9fQogICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICBpZD0iaG9zdC1hdmFpbGFiaWxpdHktc3RhcnQiCiAgICAgICAgICAgICAgdHlwZT0idGltZSIKICAgICAgICAgICAgICB2LW1vZGVsPSJzdGFydFRpbWVNb2RlbCIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9IiFlbmFibGVkTW9kZWwgfHwgbG9hZGluZyIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgICAgPExhYmVsIGZvcj0iaG9zdC1hdmFpbGFiaWxpdHktZW5kIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5hdmFpbGFiaWxpdHlFbmRUaW1lIikgfX0KICAgICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgaWQ9Imhvc3QtYXZhaWxhYmlsaXR5LWVuZCIKICAgICAgICAgICAgICB0eXBlPSJ0aW1lIgogICAgICAgICAgICAgIHYtbW9kZWw9ImVuZFRpbWVNb2RlbCIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9IiFlbmFibGVkTW9kZWwgfHwgbG9hZGluZyIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxwIHYtaWY9InZhbGlkYXRpb25NZXNzYWdlIiBjbGFzcz0idGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIj4KICAgICAgICAgIHt7IHZhbGlkYXRpb25NZXNzYWdlIH19CiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KCiAgICAgIDxEaWFsb2dGb290ZXI+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBAY2xpY2s9ImVtaXQoJ2NhbmNlbCcpIj4KICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmNhbmNlbCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgOmRpc2FibGVkPSJsb2FkaW5nIHx8IEJvb2xlYW4odmFsaWRhdGlvbk1lc3NhZ2UpIgogICAgICAgICAgQGNsaWNrPSJlbWl0KCdzYXZlJykiCiAgICAgICAgPgogICAgICAgICAgPHNwYW4KICAgICAgICAgICAgdi1pZj0ibG9hZGluZyIKICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiCiAgICAgICAgICA+PC9zcGFuPgogICAgICAgICAge3sgc2F2ZUxhYmVsIHx8IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnNhdmVNYXBwaW5nIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KaW1wb3J0IHsgY29tcHV0ZWQgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsgU3dpdGNoIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N3aXRjaCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBlbmFibGVkOiBib29sZWFuOwogIGRlc2NyaXB0aW9uPzogc3RyaW5nOwogIGhvc3Q6IHN0cmluZzsKICBsb2FkaW5nOiBib29sZWFuOwogIG9wZW46IGJvb2xlYW47CiAgc3RhcnRUaW1lOiBzdHJpbmc7CiAgc2F2ZUxhYmVsPzogc3RyaW5nOwogIHRpdGxlPzogc3RyaW5nOwogIGVuZFRpbWU6IHN0cmluZzsKICB2YWxpZGF0aW9uTWVzc2FnZTogc3RyaW5nOwp9PigpOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICBjYW5jZWw6IFtdOwogIHNhdmU6IFtdOwogICJ1cGRhdGU6ZW5hYmxlZCI6IFtlbmFibGVkOiBib29sZWFuXTsKICAidXBkYXRlOmVuZFRpbWUiOiBbdmFsdWU6IHN0cmluZ107CiAgInVwZGF0ZTpvcGVuIjogW29wZW46IGJvb2xlYW5dOwogICJ1cGRhdGU6c3RhcnRUaW1lIjogW3ZhbHVlOiBzdHJpbmddOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cgpjb25zdCBlbmFibGVkTW9kZWwgPSBjb21wdXRlZCh7CiAgZ2V0OiAoKSA9PiBwcm9wcy5lbmFibGVkLAogIHNldDogKHZhbHVlOiBib29sZWFuKSA9PiBlbWl0KCJ1cGRhdGU6ZW5hYmxlZCIsIHZhbHVlKSwKfSk7Cgpjb25zdCBzdGFydFRpbWVNb2RlbCA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IHByb3BzLnN0YXJ0VGltZSwKICBzZXQ6ICh2YWx1ZTogc3RyaW5nIHwgbnVtYmVyKSA9PiBlbWl0KCJ1cGRhdGU6c3RhcnRUaW1lIiwgU3RyaW5nKHZhbHVlKSksCn0pOwoKY29uc3QgZW5kVGltZU1vZGVsID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcHJvcHMuZW5kVGltZSwKICBzZXQ6ICh2YWx1ZTogc3RyaW5nIHwgbnVtYmVyKSA9PiBlbWl0KCJ1cGRhdGU6ZW5kVGltZSIsIFN0cmluZyh2YWx1ZSkpLAp9KTsKPC9zY3JpcHQ+Cg==
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="sm:max-w-[480px]">
+      <DialogHeader>
+        <DialogTitle>{{ title || t("admin.subdomainProxy.availabilityTitle") }}</DialogTitle>
+        <DialogDescription>
+          {{
+            description ||
+            t("admin.subdomainProxy.availabilityDescription", { host })
+          }}
+        </DialogDescription>
+      </DialogHeader>
+
+      <div class="space-y-5">
+        <div
+          class="flex items-center justify-between gap-4 rounded-md border p-3"
+        >
+          <div class="space-y-1">
+            <Label for="host-availability-enabled">
+              {{ t("admin.subdomainProxy.availabilityEnabled") }}
+            </Label>
+            <p class="text-xs leading-5 text-muted-foreground">
+              {{ t("admin.subdomainProxy.availabilityServerTimeHint") }}
+            </p>
+          </div>
+          <Switch
+            id="host-availability-enabled"
+            v-model="enabledModel"
+            :disabled="loading"
+          />
+        </div>
+
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div class="space-y-2">
+            <Label for="host-availability-start">
+              {{ t("admin.subdomainProxy.availabilityStartTime") }}
+            </Label>
+            <Input
+              id="host-availability-start"
+              type="time"
+              v-model="startTimeModel"
+              :disabled="!enabledModel || loading"
+            />
+          </div>
+          <div class="space-y-2">
+            <Label for="host-availability-end">
+              {{ t("admin.subdomainProxy.availabilityEndTime") }}
+            </Label>
+            <Input
+              id="host-availability-end"
+              type="time"
+              v-model="endTimeModel"
+              :disabled="!enabledModel || loading"
+            />
+          </div>
+        </div>
+        <p v-if="validationMessage" class="text-sm text-destructive">
+          {{ validationMessage }}
+        </p>
+      </div>
+
+      <DialogFooter>
+        <Button variant="outline" @click="emit('cancel')">
+          {{ t("admin.subdomainProxy.cancel") }}
+        </Button>
+        <Button
+          :disabled="loading || Boolean(validationMessage)"
+          @click="emit('save')"
+        >
+          <span
+            v-if="loading"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          ></span>
+          {{ saveLabel || t("admin.subdomainProxy.saveMapping") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>
+
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+
+const props = defineProps<{
+  enabled: boolean;
+  description?: string;
+  host: string;
+  loading: boolean;
+  open: boolean;
+  startTime: string;
+  saveLabel?: string;
+  title?: string;
+  endTime: string;
+  validationMessage: string;
+}>();
+
+const emit = defineEmits<{
+  cancel: [];
+  save: [];
+  "update:enabled": [enabled: boolean];
+  "update:endTime": [value: string];
+  "update:open": [open: boolean];
+  "update:startTime": [value: string];
+}>();
+
+const { t } = useI18n();
+
+const enabledModel = computed({
+  get: () => props.enabled,
+  set: (value: boolean) => emit("update:enabled", value),
+});
+
+const startTimeModel = computed({
+  get: () => props.startTime,
+  set: (value: string | number) => emit("update:startTime", String(value)),
+});
+
+const endTimeModel = computed({
+  get: () => props.endTime,
+  set: (value: string | number) => emit("update:endTime", String(value)),
+});
+</script>

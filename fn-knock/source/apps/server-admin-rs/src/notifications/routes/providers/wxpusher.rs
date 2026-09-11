@@ -1,1 +1,185 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIHd4cHVzaGVyX2RlZmluaXRpb24oKSAtPiBQcm92aWRlckRlZmluaXRpb24gewogICAgUHJvdmlkZXJEZWZpbml0aW9uIHsKICAgICAgICBwcm92aWRlcl90eXBlOiAid3hwdXNoZXIiLAogICAgICAgIGxhYmVsOiAiV3hQdXNoZXIiLAogICAgICAgIGRlc2NyaXB0aW9uOiAiU2VuZCBub3RpZmljYXRpb25zIHRocm91Z2ggV3hQdXNoZXIuIiwKICAgICAgICBjb25uZWN0aW9uX3NjaGVtYTogdmVjIVsKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgKICAgICAgICAgICAgICAgICJzZXJ2ZXJfdXJsIiwKICAgICAgICAgICAgICAgICJTZXJ2ZXIgVVJMIiwKICAgICAgICAgICAgICAgIHRydWUsCiAgICAgICAgICAgICAgICBmYWxzZSwKICAgICAgICAgICAgICAgIFNvbWUoImh0dHBzOi8vd3hwdXNoZXIuemppZWNvZGUuY29tIiksCiAgICAgICAgICAgICkKICAgICAgICAgICAgLnBsYWNlaG9sZGVyKCJodHRwczovL3d4cHVzaGVyLnpqaWVjb2RlLmNvbSIpLAogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJhcHBfdG9rZW4iLCAiQXBwVG9rZW4iLCB0cnVlLCB0cnVlLCBOb25lKS5wbGFjZWhvbGRlcigiQVRfeHh4IiksCiAgICAgICAgICAgIG51bWJlcl9zY2hlbWEoInRpbWVvdXRfc2Vjb25kcyIsICJUaW1lb3V0IHNlY29uZHMiLCB0cnVlLCBTb21lKDUpKS5ib3VuZHMoMSwgMzApLAogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJ1aWRzIiwgIlVJRHMiLCBmYWxzZSwgZmFsc2UsIE5vbmUpLnBsYWNlaG9sZGVyKCJVSURfeHh4LFVJRF95eXkiKSwKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgidG9waWNfaWRzIiwgIlRvcGljIElEcyIsIGZhbHNlLCBmYWxzZSwgTm9uZSkucGxhY2Vob2xkZXIoIjEyMyw0NTYiKSwKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgidXJsIiwgIlVSTCIsIGZhbHNlLCBmYWxzZSwgTm9uZSkKICAgICAgICAgICAgICAgIC5wbGFjZWhvbGRlcigiaHR0cHM6Ly9leGFtcGxlLmNvbS9ldmVudHMvMTIzIiksCiAgICAgICAgICAgIHNlbGVjdF9zY2hlbWEoCiAgICAgICAgICAgICAgICAidmVyaWZ5X3BheV90eXBlIiwKICAgICAgICAgICAgICAgICJWZXJpZnkgcGF5IHR5cGUiLAogICAgICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgICAgICBTb21lKCIwIiksCiAgICAgICAgICAgICAgICAmWyIwIiwgIjEiLCAiMiJdLAogICAgICAgICAgICApLAogICAgICAgIF0sCiAgICAgICAgdGFyZ2V0X3NjaGVtYTogdmVjIVsKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgidWlkcyIsICJVSURzIiwgZmFsc2UsIGZhbHNlLCBOb25lKS5wbGFjZWhvbGRlcigiVUlEX3h4eCxVSURfeXl5IiksCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoInRvcGljX2lkcyIsICJUb3BpYyBJRHMiLCBmYWxzZSwgZmFsc2UsIE5vbmUpLnBsYWNlaG9sZGVyKCIxMjMsNDU2IiksCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoInVybCIsICJVUkwiLCBmYWxzZSwgZmFsc2UsIE5vbmUpCiAgICAgICAgICAgICAgICAucGxhY2Vob2xkZXIoImh0dHBzOi8vZXhhbXBsZS5jb20vZXZlbnRzLzEyMyIpLAogICAgICAgICAgICBzZWxlY3Rfc2NoZW1hKAogICAgICAgICAgICAgICAgInZlcmlmeV9wYXlfdHlwZSIsCiAgICAgICAgICAgICAgICAiVmVyaWZ5IHBheSB0eXBlIiwKICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICAgICAgU29tZSgiX19pbmhlcml0X18iKSwKICAgICAgICAgICAgICAgICZbIl9faW5oZXJpdF9fIiwgIjAiLCAiMSIsICIyIl0sCiAgICAgICAgICAgICksCiAgICAgICAgXSwKICAgICAgICBzZW5zaXRpdmVfZmllbGRzOiB2ZWMhWyJhcHBfdG9rZW4iXSwKICAgICAgICBzdXBwb3J0c19tYXJrZG93bjogdHJ1ZSwKICAgICAgICBzdXBwb3J0c19hY3Rpb25zOiB0cnVlLAogICAgICAgIHN1cHBvcnRzX21lbnRpb25zOiBmYWxzZSwKICAgICAgICBzdXBwb3J0c19wcm92aWRlcl9kZWR1cGVfa2V5OiBmYWxzZSwKICAgIH0KfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGFzeW5jIGZuIHNlbmRfd3hwdXNoZXIoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgcHJvdmlkZXI6ICZWYWx1ZSwKICAgIHRhcmdldDogJlZhbHVlLAogICAgbWVzc2FnZTogJlZhbHVlLAogICAgdGltZW91dF9zZWNvbmRzOiBpNjQsCikgLT4gUHJvdmlkZXJUZXN0UmVzdWx0IHsKICAgIGxldCBjb25maWcgPSBwcm92aWRlcl9jb25maWcocHJvdmlkZXIpOwogICAgbGV0IHRhcmdldF9jb25maWcgPSB0YXJnZXRfY29uZmlnKHRhcmdldCk7CiAgICBsZXQgYXBwX3Rva2VuID0gZmlyc3RfY29uZmlnX3RleHQoJmNvbmZpZywgJlsiYXBwX3Rva2VuIiwgImFwcFRva2VuIl0pOwogICAgaWYgYXBwX3Rva2VuLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBtaXNzaW5nX2NvbmZpZ19yZXN1bHQoJm5vdGlmaWNhdGlvbl9wcm92aWRlcl9lcnJvcl9kZWZhdWx0KAogICAgICAgICAgICAid3hwdXNoZXIiLAogICAgICAgICAgICAibWlzc2luZ0FwcFRva2VuIiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpOwogICAgfQogICAgbGV0IHVpZHMgPSBzcGxpdF92YWx1ZXMoZWZmZWN0aXZlX2NvbmZpZ192YWx1ZSgmY29uZmlnLCAmdGFyZ2V0X2NvbmZpZywgJlsidWlkcyJdKS5hc19yZWYoKSk7CiAgICBsZXQgdG9waWNfaWRzX3ZhbHVlID0gZWZmZWN0aXZlX2NvbmZpZ192YWx1ZSgKICAgICAgICAmY29uZmlnLAogICAgICAgICZ0YXJnZXRfY29uZmlnLAogICAgICAgICZbCiAgICAgICAgICAgICJ0b3BpY19pZHMiLAogICAgICAgICAgICAidG9waWNJZHMiLAogICAgICAgICAgICAidG9waWNfaWQiLAogICAgICAgICAgICAidG9waWNJZCIsCiAgICAgICAgICAgICJ0b3BpYyIsCiAgICAgICAgICAgICJUb3BpYyIsCiAgICAgICAgXSwKICAgICk7CiAgICBsZXQgKHRvcGljX2lkcywgaW52YWxpZF90b3BpY19pZHMpID0gcGFyc2VfdG9waWNfaWRzKHRvcGljX2lkc192YWx1ZS5hc19yZWYoKSk7CiAgICBpZiAhaW52YWxpZF90b3BpY19pZHMuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIFByb3ZpZGVyVGVzdFJlc3VsdCB7CiAgICAgICAgICAgIHN1Y2Nlc3M6IGZhbHNlLAogICAgICAgICAgICByZXRyeWFibGU6IGZhbHNlLAogICAgICAgICAgICBtZXNzYWdlOiBub3RpZmljYXRpb25fcHJvdmlkZXJfZXJyb3JfZGVmYXVsdCgKICAgICAgICAgICAgICAgICJ3eHB1c2hlciIsCiAgICAgICAgICAgICAgICAiaW52YWxpZFRvcGljSWRzIiwKICAgICAgICAgICAgICAgICZbKCJ2YWx1ZXMiLCBpbnZhbGlkX3RvcGljX2lkcy5qb2luKCIsICIpKV0sCiAgICAgICAgICAgICksCiAgICAgICAgICAgIHJlcXVlc3Rfc3VtbWFyeTogTm9uZSwKICAgICAgICAgICAgcmVzcG9uc2Vfc3VtbWFyeTogTm9uZSwKICAgICAgICB9OwogICAgfQogICAgaWYgdWlkcy5pc19lbXB0eSgpICYmIHRvcGljX2lkcy5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gbWlzc2luZ19jb25maWdfcmVzdWx0KCZub3RpZmljYXRpb25fcHJvdmlkZXJfZXJyb3JfZGVmYXVsdCgKICAgICAgICAgICAgInd4cHVzaGVyIiwKICAgICAgICAgICAgInJlY2lwaWVudFJlcXVpcmVkIiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpOwogICAgfQogICAgbGV0IGxpbmtfdXJsID0gZWZmZWN0aXZlX2NvbmZpZ192YWx1ZSgmY29uZmlnLCAmdGFyZ2V0X2NvbmZpZywgJlsidXJsIl0pCiAgICAgICAgLmFzX3JlZigpCiAgICAgICAgLm1hcCh2YWx1ZV90b190cmltbWVkX3N0cmluZykKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IHByaW1hcnlfYWN0aW9uX3VybChtZXNzYWdlKSk7CiAgICBsZXQgdmVyaWZ5X3BheV90eXBlID0gZWZmZWN0aXZlX2NvbmZpZ192YWx1ZSgKICAgICAgICAmY29uZmlnLAogICAgICAgICZ0YXJnZXRfY29uZmlnLAogICAgICAgICZbInZlcmlmeV9wYXlfdHlwZSIsICJ2ZXJpZnlQYXlUeXBlIl0sCiAgICApCiAgICAuYXNfcmVmKCkKICAgIC5hbmRfdGhlbih8dmFsdWV8IHsKICAgICAgICBsZXQgcGFyc2VkID0gdmFsdWVfdG9faTY0KHZhbHVlLCAtMSk7CiAgICAgICAgKDAuLj0yKS5jb250YWlucygmcGFyc2VkKS50aGVuX3NvbWUocGFyc2VkKQogICAgfSk7CiAgICBsZXQgbXV0IGJvZHkgPSBqc29uISh7CiAgICAgICAgImFwcFRva2VuIjogYXBwX3Rva2VuLAogICAgICAgICJjb250ZW50IjogZGVmYXVsdF9zdHJpbmcoCiAgICAgICAgICAgIGJ1aWxkX3d4cHVzaGVyX2h0bWxfY29udGVudChtZXNzYWdlKSwKICAgICAgICAgICAgJmZvcm1hdCEoIjxwPnt9PC9wPiIsIGVzY2FwZV9odG1sKERFRkFVTFRfTk9USUZJQ0FUSU9OX01FU1NBR0VfVElUTEUpKSwKICAgICAgICApLAogICAgICAgICJzdW1tYXJ5IjogdHJ1bmNhdGVfdXRmOF9ieXRlcygKICAgICAgICAgICAgJmRlZmF1bHRfc3RyaW5nKG1lc3NhZ2Vfc3VtbWFyeShtZXNzYWdlKSwgJm1lc3NhZ2VfdGl0bGUobWVzc2FnZSkpLAogICAgICAgICAgICAxMDAsCiAgICAgICAgKSwKICAgICAgICAiY29udGVudFR5cGUiOiAyCiAgICB9KTsKICAgIGlmICF0b3BpY19pZHMuaXNfZW1wdHkoKSB7CiAgICAgICAgaW5zZXJ0X3ZhbHVlKCZtdXQgYm9keSwgInRvcGljSWRzIiwganNvbiEodG9waWNfaWRzKSk7CiAgICB9CiAgICBpZiAhdWlkcy5pc19lbXB0eSgpIHsKICAgICAgICBpbnNlcnRfdmFsdWUoJm11dCBib2R5LCAidWlkcyIsIGpzb24hKHVpZHMpKTsKICAgIH0KICAgIGluc2VydF9ub25fZW1wdHkoJm11dCBib2R5LCAidXJsIiwgbGlua191cmwuY2xvbmUoKSk7CiAgICBpZiBsZXQgU29tZSh2ZXJpZnlfcGF5X3R5cGUpID0gdmVyaWZ5X3BheV90eXBlIHsKICAgICAgICBpbnNlcnRfaTY0KCZtdXQgYm9keSwgInZlcmlmeVBheVR5cGUiLCB2ZXJpZnlfcGF5X3R5cGUpOwogICAgfQogICAgbGV0IHVybCA9IGZvcm1hdCEoCiAgICAgICAgInt9L2FwaS9zZW5kL21lc3NhZ2UiLAogICAgICAgIGRlZmF1bHRfc3RyaW5nKAogICAgICAgICAgICBmaXJzdF9jb25maWdfdGV4dCgmY29uZmlnLCAmWyJzZXJ2ZXJfdXJsIiwgInNlcnZlclVybCJdKSwKICAgICAgICAgICAgImh0dHBzOi8vd3hwdXNoZXIuemppZWNvZGUuY29tIgogICAgICAgICkKICAgICAgICAudHJpbV9lbmRfbWF0Y2hlcygnLycpCiAgICApOwogICAgbGV0IHJlcXVlc3Rfc3VtbWFyeSA9IGpzb24hKHsKICAgICAgICAibWV0aG9kIjogIlBPU1QiLAogICAgICAgICJ1cmwiOiB1cmwsCiAgICAgICAgInVpZF9jb3VudCI6IGJvZHkuZ2V0KCJ1aWRzIikuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KS5tYXAoVmVjOjpsZW4pLnVud3JhcF9vcigwKSwKICAgICAgICAidG9waWNfaWRfY291bnQiOiBib2R5LmdldCgidG9waWNJZHMiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpLm1hcChWZWM6OmxlbikudW53cmFwX29yKDApLAogICAgICAgICJjb250ZW50X3R5cGUiOiAyLAogICAgICAgICJoYXNfdXJsIjogIWxpbmtfdXJsLmlzX2VtcHR5KCkKICAgIH0pOwogICAgbGV0IChzdGF0dXMsIG9rLCB0ZXh0LCBwYXJzZWQpID0gcG9zdF9qc29uKHN0YXRlLCAmdXJsLCAmYm9keSwgdGltZW91dF9zZWNvbmRzKS5hd2FpdDsKICAgIGxldCBmYWlsZWRfaXRlbXMgPSBwYXJzZWQKICAgICAgICAuYXNfcmVmKCkKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5nZXQoImRhdGEiKSkKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5tYXAofGl0ZW1zfCB7CiAgICAgICAgICAgIGl0ZW1zCiAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAuZmlsdGVyKHxpdGVtfCBqc29uX2k2NChpdGVtLCAiY29kZSIpICE9IFNvbWUoMTAwMCkpCiAgICAgICAgICAgICAgICAuY291bnQoKQogICAgICAgIH0pCiAgICAgICAgLnVud3JhcF9vcigwKTsKICAgIHByb3ZpZGVyX3Jlc3VsdF9mcm9tX2FwaSgKICAgICAgICAiV3hQdXNoZXIiLAogICAgICAgIHJlcXVlc3Rfc3VtbWFyeSwKICAgICAgICBzdGF0dXMsCiAgICAgICAgb2ssCiAgICAgICAgdGV4dCwKICAgICAgICBwYXJzZWQsCiAgICAgICAgbW92ZSB8dmFsdWV8IHsKICAgICAgICAgICAgdmFsdWUKICAgICAgICAgICAgICAgIC5nZXQoInN1Y2Nlc3MiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcih0cnVlKQogICAgICAgICAgICAgICAgJiYganNvbl9pNjQodmFsdWUsICJjb2RlIikudW53cmFwX29yKDEwMDApID09IDEwMDAKICAgICAgICAgICAgICAgICYmIGZhaWxlZF9pdGVtcyA9PSAwCiAgICAgICAgfSwKICAgICAgICB8dmFsdWV8IGpzb25fdGV4dF9hbnkodmFsdWUsICZbIm1zZyIsICJtZXNzYWdlIiwgImVycm9yIl0pLAogICAgKQp9Cg==
+use super::*;
+
+pub(in crate::notifications::routes) fn wxpusher_definition() -> ProviderDefinition {
+    ProviderDefinition {
+        provider_type: "wxpusher",
+        label: "WxPusher",
+        description: "Send notifications through WxPusher.",
+        connection_schema: vec![
+            string_schema(
+                "server_url",
+                "Server URL",
+                true,
+                false,
+                Some("https://wxpusher.zjiecode.com"),
+            )
+            .placeholder("https://wxpusher.zjiecode.com"),
+            string_schema("app_token", "AppToken", true, true, None).placeholder("AT_xxx"),
+            number_schema("timeout_seconds", "Timeout seconds", true, Some(5)).bounds(1, 30),
+            string_schema("uids", "UIDs", false, false, None).placeholder("UID_xxx,UID_yyy"),
+            string_schema("topic_ids", "Topic IDs", false, false, None).placeholder("123,456"),
+            string_schema("url", "URL", false, false, None)
+                .placeholder("https://example.com/events/123"),
+            select_schema(
+                "verify_pay_type",
+                "Verify pay type",
+                false,
+                Some("0"),
+                &["0", "1", "2"],
+            ),
+        ],
+        target_schema: vec![
+            string_schema("uids", "UIDs", false, false, None).placeholder("UID_xxx,UID_yyy"),
+            string_schema("topic_ids", "Topic IDs", false, false, None).placeholder("123,456"),
+            string_schema("url", "URL", false, false, None)
+                .placeholder("https://example.com/events/123"),
+            select_schema(
+                "verify_pay_type",
+                "Verify pay type",
+                false,
+                Some("__inherit__"),
+                &["__inherit__", "0", "1", "2"],
+            ),
+        ],
+        sensitive_fields: vec!["app_token"],
+        supports_markdown: true,
+        supports_actions: true,
+        supports_mentions: false,
+        supports_provider_dedupe_key: false,
+    }
+}
+
+pub(in crate::notifications::routes) async fn send_wxpusher(
+    state: &AppState,
+    provider: &Value,
+    target: &Value,
+    message: &Value,
+    timeout_seconds: i64,
+) -> ProviderTestResult {
+    let config = provider_config(provider);
+    let target_config = target_config(target);
+    let app_token = first_config_text(&config, &["app_token", "appToken"]);
+    if app_token.is_empty() {
+        return missing_config_result(&notification_provider_error_default(
+            "wxpusher",
+            "missingAppToken",
+            &[],
+        ));
+    }
+    let uids = split_values(effective_config_value(&config, &target_config, &["uids"]).as_ref());
+    let topic_ids_value = effective_config_value(
+        &config,
+        &target_config,
+        &[
+            "topic_ids",
+            "topicIds",
+            "topic_id",
+            "topicId",
+            "topic",
+            "Topic",
+        ],
+    );
+    let (topic_ids, invalid_topic_ids) = parse_topic_ids(topic_ids_value.as_ref());
+    if !invalid_topic_ids.is_empty() {
+        return ProviderTestResult {
+            success: false,
+            retryable: false,
+            message: notification_provider_error_default(
+                "wxpusher",
+                "invalidTopicIds",
+                &[("values", invalid_topic_ids.join(", "))],
+            ),
+            request_summary: None,
+            response_summary: None,
+        };
+    }
+    if uids.is_empty() && topic_ids.is_empty() {
+        return missing_config_result(&notification_provider_error_default(
+            "wxpusher",
+            "recipientRequired",
+            &[],
+        ));
+    }
+    let link_url = effective_config_value(&config, &target_config, &["url"])
+        .as_ref()
+        .map(value_to_trimmed_string)
+        .filter(|value| !value.is_empty())
+        .unwrap_or_else(|| primary_action_url(message));
+    let verify_pay_type = effective_config_value(
+        &config,
+        &target_config,
+        &["verify_pay_type", "verifyPayType"],
+    )
+    .as_ref()
+    .and_then(|value| {
+        let parsed = value_to_i64(value, -1);
+        (0..=2).contains(&parsed).then_some(parsed)
+    });
+    let mut body = json!({
+        "appToken": app_token,
+        "content": default_string(
+            build_wxpusher_html_content(message),
+            &format!("<p>{}</p>", escape_html(DEFAULT_NOTIFICATION_MESSAGE_TITLE)),
+        ),
+        "summary": truncate_utf8_bytes(
+            &default_string(message_summary(message), &message_title(message)),
+            100,
+        ),
+        "contentType": 2
+    });
+    if !topic_ids.is_empty() {
+        insert_value(&mut body, "topicIds", json!(topic_ids));
+    }
+    if !uids.is_empty() {
+        insert_value(&mut body, "uids", json!(uids));
+    }
+    insert_non_empty(&mut body, "url", link_url.clone());
+    if let Some(verify_pay_type) = verify_pay_type {
+        insert_i64(&mut body, "verifyPayType", verify_pay_type);
+    }
+    let url = format!(
+        "{}/api/send/message",
+        default_string(
+            first_config_text(&config, &["server_url", "serverUrl"]),
+            "https://wxpusher.zjiecode.com"
+        )
+        .trim_end_matches('/')
+    );
+    let request_summary = json!({
+        "method": "POST",
+        "url": url,
+        "uid_count": body.get("uids").and_then(Value::as_array).map(Vec::len).unwrap_or(0),
+        "topic_id_count": body.get("topicIds").and_then(Value::as_array).map(Vec::len).unwrap_or(0),
+        "content_type": 2,
+        "has_url": !link_url.is_empty()
+    });
+    let (status, ok, text, parsed) = post_json(state, &url, &body, timeout_seconds).await;
+    let failed_items = parsed
+        .as_ref()
+        .and_then(|value| value.get("data"))
+        .and_then(Value::as_array)
+        .map(|items| {
+            items
+                .iter()
+                .filter(|item| json_i64(item, "code") != Some(1000))
+                .count()
+        })
+        .unwrap_or(0);
+    provider_result_from_api(
+        "WxPusher",
+        request_summary,
+        status,
+        ok,
+        text,
+        parsed,
+        move |value| {
+            value
+                .get("success")
+                .and_then(Value::as_bool)
+                .unwrap_or(true)
+                && json_i64(value, "code").unwrap_or(1000) == 1000
+                && failed_items == 0
+        },
+        |value| json_text_any(value, &["msg", "message", "error"]),
+    )
+}

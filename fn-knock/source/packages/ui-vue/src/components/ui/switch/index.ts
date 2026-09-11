@@ -1,1 +1,1 @@
-ZXhwb3J0IHsgZGVmYXVsdCBhcyBTd2l0Y2ggfSBmcm9tICIuL1N3aXRjaC52dWUiCg==
+export { default as Switch } from "./Switch.vue"

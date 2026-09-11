@@ -1,1 +1,79 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IHJlYWRGaWxlU3luYyB9IGZyb20gIm5vZGU6ZnMiOwoKY29uc3QgcmVhZFNvdXJjZSA9IChwYXRoOiBzdHJpbmcpID0+CiAgcmVhZEZpbGVTeW5jKG5ldyBVUkwocGF0aCwgaW1wb3J0Lm1ldGEudXJsKSwgInV0ZjgiKTsKCmRlc2NyaWJlKCJtYXBwaW5nIG1hbmFnZW1lbnQgbmF2aWdhdGlvbiIsICgpID0+IHsKICBpdCgia2VlcHMgc3ViZG9tYWluIGZpcnN0IGFuZCBjb25kaXRpb25hbGx5IGV4cG9zZXMgcHJvdG9jb2wgbWFwcGluZ3MiLCAoKSA9PiB7CiAgICBjb25zdCBwYWdlID0gcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL01hcHBpbmdNYW5hZ2VtZW50LnZ1ZSIpOwogICAgY29uc3Qgc3ViZG9tYWluID0gcGFnZS5pbmRleE9mKCd2YWx1ZT0ic3ViZG9tYWluIicpOwogICAgY29uc3QgcHJvdG9jb2wgPSBwYWdlLmluZGV4T2YoJ3ZhbHVlPSJwcm90b2NvbCInKTsKCiAgICBhc3NlcnQub2soc3ViZG9tYWluID49IDApOwogICAgYXNzZXJ0Lm9rKHByb3RvY29sID4gc3ViZG9tYWluKTsKICAgIGFzc2VydC5tYXRjaChwYWdlLCAvZGVmYXVsdFRhYjogInN1YmRvbWFpbiIvdSk7CiAgICBhc3NlcnQubWF0Y2gocGFnZSwgL2lzUHJvdG9jb2xNYXBwaW5nVmlzaWJsZVwoY29uZmlnU3RvcmVcLmNvbmZpZ1wpL3UpOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBwYWdlLAogICAgICAvPFRhYnNUcmlnZ2VyIHYtaWY9InNob3dQcm90b2NvbFRhYiIgdmFsdWU9InByb3RvY29sIj4vdSwKICAgICk7CiAgfSk7CgogIGl0KCJwbGFjZXMgdGFicyBiZXNpZGUgdGhlIHRpdGxlIG9uIGRlc2t0b3AgYW5kIGFmdGVyIHRoZSBkZXNjcmlwdGlvbiBvbiBtb2JpbGUiLCAoKSA9PiB7CiAgICBjb25zdCBwYWdlID0gcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL01hcHBpbmdNYW5hZ2VtZW50LnZ1ZSIpOwoKICAgIGFzc2VydC5tYXRjaCgKICAgICAgcGFnZSwKICAgICAgL3NtOmdyaWQtY29scy1cW2F1dG9fbWlubWF4XCgwLDFmclwpXF1bXHNcU10qc206Y29sLXN0YXJ0LTIgc206cm93LXN0YXJ0LTEvdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2gocGFnZSwgL2NsYXNzPSJvcmRlci0yIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHBhZ2UsIC9jbGFzcz0ib3JkZXItMyBtaW4tdy0wIG92ZXJmbG93LXgtYXV0by91KTsKICB9KTsKCiAgaXQoInJlZGlyZWN0cyBsZWdhY3kgbGlzdCByb3V0ZXMgd2hpbGUgcHJlc2VydmluZyB0aGVpciBxdWVyaWVzIiwgKCkgPT4gewogICAgY29uc3Qgcm91dGVyID0gcmVhZFNvdXJjZSgiLi4vc3JjL3JvdXRlci9pbmRleC50cyIpOwoKICAgIGFzc2VydC5tYXRjaChyb3V0ZXIsIC9wYXRoOiAic3ViZG9tYWlucyIsXHMqcmVkaXJlY3Q6IFwodG9cKSA9Pi91KTsKICAgIGFzc2VydC5tYXRjaChyb3V0ZXIsIC9xdWVyeTogXHsgXC5cLlwudG9cLnF1ZXJ5LCB0YWI6ICJzdWJkb21haW4iIFx9L3UpOwogICAgYXNzZXJ0Lm1hdGNoKHJvdXRlciwgL3BhdGg6ICJzdHJlYW1zIixccypyZWRpcmVjdDogXCh0b1wpID0+L3UpOwogICAgYXNzZXJ0Lm1hdGNoKHJvdXRlciwgL3F1ZXJ5OiBceyBcLlwuXC50b1wucXVlcnksIHRhYjogInByb3RvY29sIiBcfS91KTsKICB9KTsKCiAgaXQoInVzZXMgb25lIHNpZGViYXIgaXRlbSBhbmQga2VlcHMgbGVnYWN5IGRldGFpbCByb3V0ZXMgYWN0aXZlIiwgKCkgPT4gewogICAgY29uc3QgbmF2aWdhdGlvbiA9IHJlYWRTb3VyY2UoIi4uL3NyYy92aWV3cy9sYXlvdXQvdXNlTGF5b3V0TmF2aWdhdGlvbi50cyIpOwoKICAgIGFzc2VydC5tYXRjaChuYXZpZ2F0aW9uLCAvbmFtZTogdFwoImFkbWluXC5uYXZcLm1hcHBpbmdNYW5hZ2VtZW50IlwpL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG5hdmlnYXRpb24sIC9wYXRoOiAiXC9tYXBwaW5ncyIvdSk7CiAgICBhc3NlcnQubWF0Y2gobmF2aWdhdGlvbiwgL2FjdGl2ZVBhdGhcLnN0YXJ0c1dpdGhcKCJcL3N1YmRvbWFpbnNcLyJcKS91KTsKICAgIGFzc2VydC5tYXRjaChuYXZpZ2F0aW9uLCAvYWN0aXZlUGF0aFwuc3RhcnRzV2l0aFwoIlwvc3RyZWFtc1wvIlwpL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChuYXZpZ2F0aW9uLCAvaWQ6ICJwcm90b2NvbF9tYXBwaW5nIi91KTsKICB9KTsKCiAgaXQoImd1YXJkcyBwcm90b2NvbCBkZXRhaWxzIGFuZCBsYWJlbHMgZGV0YWlsIGJyZWFkY3J1bWJzIHdpdGggdGhlIHVuaWZpZWQgcGFyZW50IiwgKCkgPT4gewogICAgY29uc3Qgcm91dGVyID0gcmVhZFNvdXJjZSgiLi4vc3JjL3JvdXRlci9pbmRleC50cyIpOwogICAgY29uc3QgZGV0YWlsUGFnZXMgPSBbCiAgICAgICIuLi9zcmMvdmlld3MvUGFuZWxTeW5jLnZ1ZSIsCiAgICAgICIuLi9zcmMvdmlld3MvRGVlcE1vbml0b3IudnVlIiwKICAgICAgIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvU3ViZG9tYWluQWR2YW5jZWRBdXRoLnZ1ZSIsCiAgICAgICIuLi9zcmMvdmlld3Mvc3lzdGVtLXNldHRpbmdzL0dhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy52dWUiLAogICAgICAiLi4vc3JjL3ZpZXdzL3N0cmVhbS1tYXBwaW5ncy9TdHJlYW1CeXBhc3NQb2xpY3kudnVlIiwKICAgIF07CgogICAgYXNzZXJ0Lm1hdGNoKHJvdXRlciwgLyF0b1wucGF0aFwuc3RhcnRzV2l0aFwoIlwvc3RyZWFtc1wvIlwpL3UpOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICByb3V0ZXIsCiAgICAgIC90b1wucGF0aFwuc3RhcnRzV2l0aFwoIlwvc3RyZWFtc1wvIlwpICYmICFpc1N1YmRvbWFpblJvdXRpbmdNb2RlL3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHJvdXRlciwgLyFpc1Byb3RvY29sTWFwcGluZ1Zpc2libGVcKGNvbmZpZ1N0b3JlXC5jb25maWdcKS91KTsKICAgIGZvciAoY29uc3QgcGFnZVBhdGggb2YgZGV0YWlsUGFnZXMpIHsKICAgICAgYXNzZXJ0Lm1hdGNoKAogICAgICAgIHJlYWRTb3VyY2UocGFnZVBhdGgpLAogICAgICAgIC90XCgiYWRtaW5cLm5hdlwubWFwcGluZ01hbmFnZW1lbnQiXCkvdSwKICAgICAgKTsKICAgIH0KICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+describe("mapping management navigation", () => {
+  it("keeps subdomain first and conditionally exposes protocol mappings", () => {
+    const page = readSource("../src/views/MappingManagement.vue");
+    const subdomain = page.indexOf('value="subdomain"');
+    const protocol = page.indexOf('value="protocol"');
+
+    assert.ok(subdomain >= 0);
+    assert.ok(protocol > subdomain);
+    assert.match(page, /defaultTab: "subdomain"/u);
+    assert.match(page, /isProtocolMappingVisible\(configStore\.config\)/u);
+    assert.match(
+      page,
+      /<TabsTrigger v-if="showProtocolTab" value="protocol">/u,
+    );
+  });
+
+  it("places tabs beside the title on desktop and after the description on mobile", () => {
+    const page = readSource("../src/views/MappingManagement.vue");
+
+    assert.match(
+      page,
+      /sm:grid-cols-\[auto_minmax\(0,1fr\)\][\s\S]*sm:col-start-2 sm:row-start-1/u,
+    );
+    assert.match(page, /class="order-2 text-sm text-muted-foreground/u);
+    assert.match(page, /class="order-3 min-w-0 overflow-x-auto/u);
+  });
+
+  it("redirects legacy list routes while preserving their queries", () => {
+    const router = readSource("../src/router/index.ts");
+
+    assert.match(router, /path: "subdomains",\s*redirect: \(to\) =>/u);
+    assert.match(router, /query: \{ \.\.\.to\.query, tab: "subdomain" \}/u);
+    assert.match(router, /path: "streams",\s*redirect: \(to\) =>/u);
+    assert.match(router, /query: \{ \.\.\.to\.query, tab: "protocol" \}/u);
+  });
+
+  it("uses one sidebar item and keeps legacy detail routes active", () => {
+    const navigation = readSource("../src/views/layout/useLayoutNavigation.ts");
+
+    assert.match(navigation, /name: t\("admin\.nav\.mappingManagement"\)/u);
+    assert.match(navigation, /path: "\/mappings"/u);
+    assert.match(navigation, /activePath\.startsWith\("\/subdomains\/"\)/u);
+    assert.match(navigation, /activePath\.startsWith\("\/streams\/"\)/u);
+    assert.doesNotMatch(navigation, /id: "protocol_mapping"/u);
+  });
+
+  it("guards protocol details and labels detail breadcrumbs with the unified parent", () => {
+    const router = readSource("../src/router/index.ts");
+    const detailPages = [
+      "../src/views/PanelSync.vue",
+      "../src/views/DeepMonitor.vue",
+      "../src/views/subdomain-proxy/SubdomainAdvancedAuth.vue",
+      "../src/views/system-settings/GatewayLocationsSettings.vue",
+      "../src/views/stream-mappings/StreamBypassPolicy.vue",
+    ];
+
+    assert.match(router, /!to\.path\.startsWith\("\/streams\/"\)/u);
+    assert.match(
+      router,
+      /to\.path\.startsWith\("\/streams\/"\) && !isSubdomainRoutingMode/u,
+    );
+    assert.match(router, /!isProtocolMappingVisible\(configStore\.config\)/u);
+    for (const pagePath of detailPages) {
+      assert.match(
+        readSource(pagePath),
+        /t\("admin\.nav\.mappingManagement"\)/u,
+      );
+    }
+  });
+});

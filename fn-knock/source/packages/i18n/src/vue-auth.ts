@@ -1,1 +1,11 @@
-aW1wb3J0ICIuL2Jyb3dzZXItYXV0aCI7CmltcG9ydCB7CiAgY3JlYXRlU2NvcGVkRm5Lbm9ja0kxOG4sCiAgdHlwZSBDcmVhdGVGbktub2NrSTE4bk9wdGlvbnMsCn0gZnJvbSAiLi92dWUtcnVudGltZSI7CgpleHBvcnQgKiBmcm9tICIuL3Z1ZS1ydW50aW1lIjsKCmV4cG9ydCBjb25zdCBjcmVhdGVGbktub2NrSTE4biA9ICgKICBvcHRpb25zOiBPbWl0PENyZWF0ZUZuS25vY2tJMThuT3B0aW9ucywgInNjb3BlIj4gJiB7IHNjb3BlPzogImF1dGgiIH0gPSB7fSwKKSA9PiBjcmVhdGVTY29wZWRGbktub2NrSTE4bigiYXV0aCIsIG9wdGlvbnMpOwo=
+import "./browser-auth";
+import {
+  createScopedFnKnockI18n,
+  type CreateFnKnockI18nOptions,
+} from "./vue-runtime";
+
+export * from "./vue-runtime";
+
+export const createFnKnockI18n = (
+  options: Omit<CreateFnKnockI18nOptions, "scope"> & { scope?: "auth" } = {},
+) => createScopedFnKnockI18n("auth", options);

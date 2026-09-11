@@ -1,1 +1,60 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBidWlsZF9zdW1tYXJ5KGNvbnRlbnQ6ICZzdHIpIC0+IEZycGNJbnN0YW5jZVN1bW1hcnkgewogICAgbGV0IHByb3h5ID0gZmlyc3RfcHJveHlfYmxvY2soY29udGVudCk7CiAgICBGcnBjSW5zdGFuY2VTdW1tYXJ5IHsKICAgICAgICBzZXJ2ZXJfYWRkcjogZXh0cmFjdF90b21sX3ZhbHVlKGNvbnRlbnQsICJzZXJ2ZXJBZGRyIikKICAgICAgICAgICAgLm9yX2Vsc2UofHwgZXh0cmFjdF90b21sX3ZhbHVlKGNvbnRlbnQsICJzZXJ2ZXJfYWRkciIpKQogICAgICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKSwKICAgICAgICBzZXJ2ZXJfcG9ydDogZXh0cmFjdF90b21sX3ZhbHVlKGNvbnRlbnQsICJzZXJ2ZXJQb3J0IikKICAgICAgICAgICAgLm9yX2Vsc2UofHwgZXh0cmFjdF90b21sX3ZhbHVlKGNvbnRlbnQsICJzZXJ2ZXJfcG9ydCIpKQogICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofHwgIjcwMDAiLnRvX3N0cmluZygpKSwKICAgICAgICBsb2NhbF9wb3J0OiBleHRyYWN0X3RvbWxfdmFsdWUoJnByb3h5LCAibG9jYWxQb3J0IikKICAgICAgICAgICAgLm9yX2Vsc2UofHwgZXh0cmFjdF90b21sX3ZhbHVlKCZwcm94eSwgImxvY2FsX3BvcnQiKSkKICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCksCiAgICAgICAgcmVtb3RlX3BvcnQ6IGV4dHJhY3RfdG9tbF92YWx1ZSgmcHJveHksICJyZW1vdGVQb3J0IikKICAgICAgICAgICAgLm9yX2Vsc2UofHwgZXh0cmFjdF90b21sX3ZhbHVlKCZwcm94eSwgInJlbW90ZV9wb3J0IikpCiAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGZpcnN0X3Byb3h5X2Jsb2NrKGNvbnRlbnQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBsZXQgbXV0IGluX2Jsb2NrID0gZmFsc2U7CiAgICBsZXQgbXV0IGxpbmVzID0gVmVjOjpuZXcoKTsKICAgIGZvciBsaW5lIGluIGNvbnRlbnQubGluZXMoKSB7CiAgICAgICAgaWYgbGluZS50cmltKCkgPT0gIltbcHJveGllc11dIiB7CiAgICAgICAgICAgIGluX2Jsb2NrID0gdHJ1ZTsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGlmIGluX2Jsb2NrICYmIGxpbmUudHJpbV9zdGFydCgpLnN0YXJ0c193aXRoKCJbWyIpIHsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgfQogICAgICAgIGlmIGluX2Jsb2NrIHsKICAgICAgICAgICAgbGluZXMucHVzaChsaW5lKTsKICAgICAgICB9CiAgICB9CiAgICBsaW5lcy5qb2luKCJcbiIpCn0KCnB1YihzdXBlcikgZm4gZXh0cmFjdF90b21sX3ZhbHVlKGNvbnRlbnQ6ICZzdHIsIGtleTogJnN0cikgLT4gT3B0aW9uPFN0cmluZz4gewogICAgZm9yIGxpbmUgaW4gY29udGVudC5saW5lcygpIHsKICAgICAgICBsZXQgbGluZSA9IGxpbmUudHJpbSgpOwogICAgICAgIGxldCBTb21lKChsZWZ0LCByaWdodCkpID0gbGluZS5zcGxpdF9vbmNlKCc9JykgZWxzZSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH07CiAgICAgICAgaWYgbGVmdC50cmltKCkgIT0ga2V5IHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCB2YWx1ZSA9IHJpZ2h0LnRyaW0oKTsKICAgICAgICBpZiAodmFsdWUuc3RhcnRzX3dpdGgoJyInKSAmJiB2YWx1ZS5lbmRzX3dpdGgoJyInKSkKICAgICAgICAgICAgfHwgKHZhbHVlLnN0YXJ0c193aXRoKCdcJycpICYmIHZhbHVlLmVuZHNfd2l0aCgnXCcnKSkKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybiBTb21lKHZhbHVlWzEuLnZhbHVlLmxlbigpLnNhdHVyYXRpbmdfc3ViKDEpXS50b19zdHJpbmcoKSk7CiAgICAgICAgfQogICAgICAgIGlmICF2YWx1ZS5pc19lbXB0eSgpICYmIHZhbHVlLmNoYXJzKCkuYWxsKHxjaHwgY2guaXNfYXNjaWlfZGlnaXQoKSkgewogICAgICAgICAgICByZXR1cm4gU29tZSh2YWx1ZS50b19zdHJpbmcoKSk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgTm9uZQp9Cg==
+use super::*;
+
+pub(super) fn build_summary(content: &str) -> FrpcInstanceSummary {
+    let proxy = first_proxy_block(content);
+    FrpcInstanceSummary {
+        server_addr: extract_toml_value(content, "serverAddr")
+            .or_else(|| extract_toml_value(content, "server_addr"))
+            .unwrap_or_default(),
+        server_port: extract_toml_value(content, "serverPort")
+            .or_else(|| extract_toml_value(content, "server_port"))
+            .unwrap_or_else(|| "7000".to_string()),
+        local_port: extract_toml_value(&proxy, "localPort")
+            .or_else(|| extract_toml_value(&proxy, "local_port"))
+            .unwrap_or_default(),
+        remote_port: extract_toml_value(&proxy, "remotePort")
+            .or_else(|| extract_toml_value(&proxy, "remote_port"))
+            .unwrap_or_default(),
+    }
+}
+
+pub(super) fn first_proxy_block(content: &str) -> String {
+    let mut in_block = false;
+    let mut lines = Vec::new();
+    for line in content.lines() {
+        if line.trim() == "[[proxies]]" {
+            in_block = true;
+            continue;
+        }
+        if in_block && line.trim_start().starts_with("[[") {
+            break;
+        }
+        if in_block {
+            lines.push(line);
+        }
+    }
+    lines.join("\n")
+}
+
+pub(super) fn extract_toml_value(content: &str, key: &str) -> Option<String> {
+    for line in content.lines() {
+        let line = line.trim();
+        let Some((left, right)) = line.split_once('=') else {
+            continue;
+        };
+        if left.trim() != key {
+            continue;
+        }
+        let value = right.trim();
+        if (value.starts_with('"') && value.ends_with('"'))
+            || (value.starts_with('\'') && value.ends_with('\''))
+        {
+            return Some(value[1..value.len().saturating_sub(1)].to_string());
+        }
+        if !value.is_empty() && value.chars().all(|ch| ch.is_ascii_digit()) {
+            return Some(value.to_string());
+        }
+        return None;
+    }
+    None
+}

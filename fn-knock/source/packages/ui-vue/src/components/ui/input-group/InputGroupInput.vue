@@ -1,1 +1,19 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCmltcG9ydCB7IElucHV0IH0gZnJvbSAnQC9jb21wb25lbnRzL3VpL2lucHV0JwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXQp9PigpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxJbnB1dAogICAgZGF0YS1zbG90PSJpbnB1dC1ncm91cC1jb250cm9sIgogICAgOmNsYXNzPSJjbigKICAgICAgJ2ZsZXgtMSByb3VuZGVkLW5vbmUgYm9yZGVyLTAgYmctdHJhbnNwYXJlbnQgc2hhZG93LW5vbmUgZm9jdXMtdmlzaWJsZTpyaW5nLTAgZGFyazpiZy10cmFuc3BhcmVudCcsCiAgICAgIHByb3BzLmNsYXNzLAogICAgKSIKICAvPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+import { Input } from '@/components/ui/input'
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <Input
+    data-slot="input-group-control"
+    :class="cn(
+      'flex-1 rounded-none border-0 bg-transparent shadow-none focus-visible:ring-0 dark:bg-transparent',
+      props.class,
+    )"
+  />
+</template>

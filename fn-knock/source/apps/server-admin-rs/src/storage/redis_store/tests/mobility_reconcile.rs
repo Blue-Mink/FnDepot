@@ -1,1 +1,636 @@
-dXNlIHN1cGVyOjoqOwoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gbWF0Y2hlZF9zZXNzaW9uX2F1dGhvcml0eV9yZWFkX2J5cGFzc2VzX3RoZV9wcmltYXJ5X2V4ZWN1dG9yKCkgewogICAgbGV0IChfZGlyLCBzdG9yZSkgPSBvcGVuX3Rlc3Rfc3RvcmUoKS5hd2FpdDsKICAgIGxldCBzZXNzaW9uX2lkID0gInR5cGVkLW1vYmlsaXR5LWF1dGgtcmVhZGVyIjsKICAgIGxldCBzZXNzaW9uID0gbmV3X2xvZ2luX3Nlc3Npb24oc2Vzc2lvbl9pZCwgIkF1dGggcmVhZGVyIiwgIjE5Mi4wLjIuOTAiLCAidGVzdCIsIDNfNjAwKTsKICAgIHN0b3JlCiAgICAgICAgLmFkZF9zZXNzaW9uKHNlc3Npb25faWQsICZzZXNzaW9uLCAzXzYwMCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJzZWVkIG1hdGNoZWQgc2Vzc2lvbiIpOwoKICAgIGxldCBtYW5hZ2VyID0gc3RvcmUubWFuYWdlci5jbG9uZSgpOwogICAgbGV0IChzdGFydGVkX3R4LCBzdGFydGVkX3J4KSA9IHRva2lvOjpzeW5jOjpvbmVzaG90OjpjaGFubmVsKCk7CiAgICBsZXQgKHJlbGVhc2VfdHgsIHJlbGVhc2VfcngpID0gc3RkOjpzeW5jOjptcHNjOjpjaGFubmVsKCk7CiAgICBsZXQgYmxvY2tlciA9IG1hbmFnZXIuY2FsbChtb3ZlIHxfY29ubnwgewogICAgICAgIGxldCBfID0gc3RhcnRlZF90eC5zZW5kKCgpKTsKICAgICAgICByZWxlYXNlX3J4CiAgICAgICAgICAgIC5yZWN2X3RpbWVvdXQoc3RkOjp0aW1lOjpEdXJhdGlvbjo6ZnJvbV9zZWNzKDUpKQogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IHsKICAgICAgICAgICAgICAgIGNyYXRlOjpzdG9yYWdlOjpzdG9yYWdlX2Vycm9yKGZvcm1hdCEoInJlbGVhc2UgYXV0aCBibG9ja2VyOiB7ZXJyb3J9IikpCiAgICAgICAgICAgIH0pPzsKICAgICAgICBPaygoKSkKICAgIH0pOwogICAgbGV0IHJlYWQgPSBhc3luYyB7CiAgICAgICAgc3RhcnRlZF9yeC5hd2FpdC5leHBlY3QoInByaW1hcnkgZXhlY3V0b3Igc3RhcnRlZCIpOwogICAgICAgIGxldCBsb2FkZWQgPSB0b2tpbzo6dGltZTo6dGltZW91dCgKICAgICAgICAgICAgc3RkOjp0aW1lOjpEdXJhdGlvbjo6ZnJvbV9taWxsaXMoMjUwKSwKICAgICAgICAgICAgc3RvcmUuZ2V0X3Nlc3Npb24oc2Vzc2lvbl9pZCksCiAgICAgICAgKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoIm1hdGNoZWQgYXV0aCByZWFkIG11c3QgYnlwYXNzIHByaW1hcnkgc3RvcmFnZSIpCiAgICAgICAgLmV4cGVjdCgibG9hZCBzZXNzaW9uIikKICAgICAgICAuZXhwZWN0KCJzZXNzaW9uIGV4aXN0cyIpOwogICAgICAgIGFzc2VydF9lcSEobG9hZGVkLmlwLCBzZXNzaW9uLmlwKTsKICAgICAgICByZWxlYXNlX3R4LnNlbmQoKCkpLmV4cGVjdCgicmVsZWFzZSBwcmltYXJ5IGV4ZWN1dG9yIik7CiAgICB9OwogICAgbGV0IChibG9ja2VyX3Jlc3VsdCwgKCkpID0gdG9raW86OmpvaW4hKGJsb2NrZXIsIHJlYWQpOwogICAgYmxvY2tlcl9yZXN1bHQuZXhwZWN0KCJwcmltYXJ5IGJsb2NrZXIgcmVzdWx0Iik7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHF1ZXVlZF9zZXNzaW9uX3JlcGFpcl9yZXR1cm5zX3RoZV9sYXRlc3RfYXV0aG9yaXRhdGl2ZV92YWx1ZSgpIHsKICAgIGxldCBkaXIgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHRlbXAgZGlyIik7CiAgICBsZXQgcGF0aCA9IGRpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpOwogICAgbGV0IHN0b3JlID0gU3RvcmU6OmNvbm5lY3QoJnBhdGgpLmF3YWl0LmV4cGVjdCgib3BlbiBzdG9yZSIpOwogICAgbGV0IHNlc3Npb25faWQgPSAidHlwZWQtbW9iaWxpdHktcXVldWVkLXJlcGFpciI7CiAgICBsZXQgaW5pdGlhbCA9IG5ld19sb2dpbl9zZXNzaW9uKHNlc3Npb25faWQsICJJbml0aWFsIiwgIjE5Mi4wLjIuOTEiLCAidGVzdCIsIDNfNjAwKTsKICAgIHN0b3JlCiAgICAgICAgLmFkZF9zZXNzaW9uKHNlc3Npb25faWQsICZpbml0aWFsLCAzXzYwMCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJzZWVkIG1hdGNoZWQgc2Vzc2lvbiIpOwoKICAgIGxldCBxdWV1ZWRfc25hcHNob3QgPSBuZXdfbG9naW5fc2Vzc2lvbihzZXNzaW9uX2lkLCAiUXVldWVkIiwgIjE5Mi4wLjIuOTIiLCAidGVzdCIsIDNfNjAwKTsKICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnBhdGgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlKAogICAgICAgICAgICAiVVBEQVRFIGt2X3N0cmluZ3MgU0VUIHZhbHVlID0gPzIgV0hFUkUga2V5ID0gPzEiLAogICAgICAgICAgICB0b2tpb19ydXNxbGl0ZTo6cnVzcWxpdGU6OnBhcmFtcyFbCiAgICAgICAgICAgICAgICBjcmF0ZTo6YXV0aF9zZXNzaW9uX2tleXM6OnNlc3Npb25fa2V5KHNlc3Npb25faWQpLAogICAgICAgICAgICAgICAgc2VyZGVfanNvbjo6dG9fc3RyaW5nKCZxdWV1ZWRfc25hcHNob3QpLnVud3JhcCgpCiAgICAgICAgICAgIF0sCiAgICAgICAgKQogICAgICAgIC5leHBlY3QoImNyZWF0ZSBzZXNzaW9uIHNoYWRvdyBtaXNtYXRjaCIpOwogICAgZHJvcChjb25uZWN0aW9uKTsKCiAgICBsZXQgYmxvY2tlcl9tYW5hZ2VyID0gc3RvcmUubWFuYWdlci5jbG9uZSgpOwogICAgbGV0IChzdGFydGVkX3R4LCBzdGFydGVkX3J4KSA9IHRva2lvOjpzeW5jOjpvbmVzaG90OjpjaGFubmVsKCk7CiAgICBsZXQgKHJlbGVhc2VfdHgsIHJlbGVhc2VfcngpID0gc3RkOjpzeW5jOjptcHNjOjpjaGFubmVsKCk7CiAgICBsZXQgYmxvY2tlciA9IGJsb2NrZXJfbWFuYWdlci5jYWxsKG1vdmUgfF9jb25ufCB7CiAgICAgICAgbGV0IF8gPSBzdGFydGVkX3R4LnNlbmQoKCkpOwogICAgICAgIHJlbGVhc2VfcngKICAgICAgICAgICAgLnJlY3ZfdGltZW91dChzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX3NlY3MoNSkpCiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgewogICAgICAgICAgICAgICAgY3JhdGU6OnN0b3JhZ2U6OnN0b3JhZ2VfZXJyb3IoZm9ybWF0ISgicmVsZWFzZSBzZXNzaW9uIHJlcGFpciBibG9ja2VyOiB7ZXJyb3J9IikpCiAgICAgICAgICAgIH0pPzsKICAgICAgICBPaygoKSkKICAgIH0pOwogICAgbGV0IGxvYWQgPSBzdG9yZS5nZXRfc2Vzc2lvbihzZXNzaW9uX2lkKTsKICAgIGxldCBsYXRlc3QgPSBuZXdfbG9naW5fc2Vzc2lvbihzZXNzaW9uX2lkLCAiTGF0ZXN0IiwgIjE5Mi4wLjIuOTMiLCAidGVzdCIsIDNfNjAwKTsKICAgIGxldCByZXBsYWNlX3doaWxlX3F1ZXVlZCA9IGFzeW5jIHsKICAgICAgICBzdGFydGVkX3J4LmF3YWl0LmV4cGVjdCgicHJpbWFyeSBibG9ja2VyIHN0YXJ0ZWQiKTsKICAgICAgICBsZXQgZGVhZGxpbmUgPSBzdGQ6OnRpbWU6Okluc3RhbnQ6Om5vdygpICsgc3RkOjp0aW1lOjpEdXJhdGlvbjo6ZnJvbV9zZWNzKDIpOwogICAgICAgIHdoaWxlIHN0b3JlLnByaW1hcnlfcXVldWVfc3RhdHVzKCkucXVldWVfZGVwdGggPT0gMCB7CiAgICAgICAgICAgIGFzc2VydCEoCiAgICAgICAgICAgICAgICBzdGQ6OnRpbWU6Okluc3RhbnQ6Om5vdygpIDwgZGVhZGxpbmUsCiAgICAgICAgICAgICAgICAic2Vzc2lvbiByZXBhaXIgZGlkIG5vdCBxdWV1ZSBiZWhpbmQgcHJpbWFyeSBibG9ja2VyIgogICAgICAgICAgICApOwogICAgICAgICAgICB0b2tpbzo6dGFzazo6eWllbGRfbm93KCkuYXdhaXQ7CiAgICAgICAgfQogICAgICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnBhdGgpOwogICAgICAgIGNvbm5lY3Rpb24KICAgICAgICAgICAgLmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAiVVBEQVRFIGt2X3N0cmluZ3MgU0VUIHZhbHVlID0gPzIgV0hFUkUga2V5ID0gPzEiLAogICAgICAgICAgICAgICAgdG9raW9fcnVzcWxpdGU6OnJ1c3FsaXRlOjpwYXJhbXMhWwogICAgICAgICAgICAgICAgICAgIGNyYXRlOjphdXRoX3Nlc3Npb25fa2V5czo6c2Vzc2lvbl9rZXkoc2Vzc2lvbl9pZCksCiAgICAgICAgICAgICAgICAgICAgc2VyZGVfanNvbjo6dG9fc3RyaW5nKCZsYXRlc3QpLnVud3JhcCgpCiAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5leHBlY3QoInJlcGxhY2UgYXV0aG9yaXR5IHdoaWxlIHJlcGFpciBpcyBxdWV1ZWQiKTsKICAgICAgICBkcm9wKGNvbm5lY3Rpb24pOwogICAgICAgIHJlbGVhc2VfdHguc2VuZCgoKSkuZXhwZWN0KCJyZWxlYXNlIHByaW1hcnkgYmxvY2tlciIpOwogICAgfTsKICAgIGxldCAoYmxvY2tlcl9yZXN1bHQsIGxvYWRlZCwgKCkpID0gdG9raW86OmpvaW4hKGJsb2NrZXIsIGxvYWQsIHJlcGxhY2Vfd2hpbGVfcXVldWVkKTsKICAgIGJsb2NrZXJfcmVzdWx0LmV4cGVjdCgicHJpbWFyeSBibG9ja2VyIHJlc3VsdCIpOwogICAgbGV0IGxvYWRlZCA9IGxvYWRlZAogICAgICAgIC5leHBlY3QoImxvYWQgcmVwYWlyZWQgc2Vzc2lvbiIpCiAgICAgICAgLmV4cGVjdCgicmVwYWlyZWQgc2Vzc2lvbiBleGlzdHMiKTsKICAgIGFzc2VydF9lcSEobG9hZGVkLmlwLCAiMTkyLjAuMi45MyIpOwogICAgYXNzZXJ0X2VxIShsb2FkZWQuY3JlZGVudGlhbF9uYW1lLCAiTGF0ZXN0Iik7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHR5cGVkX21vYmlsaXR5X3JlYnVpbGRzX2FmdGVyX2JhY2t1cF9yZXN0b3JlX2FuZF9jbGVhcigpIHsKICAgIGxldCBzb3VyY2VfZGlyID0gdGVtcGZpbGU6OnRlbXBkaXIoKS5leHBlY3QoImNyZWF0ZSBzb3VyY2UgdGVtcCBkaXIiKTsKICAgIGxldCBzb3VyY2UgPSBTdG9yZTo6Y29ubmVjdChzb3VyY2VfZGlyLnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIikpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgib3BlbiBzb3VyY2Ugc3RvcmUiKTsKICAgIGxldCBzZXNzaW9uX2lkID0gInR5cGVkLW1vYmlsaXR5LWJhY2t1cCI7CiAgICBsZXQgc2Vzc2lvbiA9IG5ld19sb2dpbl9zZXNzaW9uKAogICAgICAgIHNlc3Npb25faWQsCiAgICAgICAgIlR5cGVkIG1vYmlsaXR5IGJhY2t1cCIsCiAgICAgICAgIjE5Mi4wLjIuOTEiLAogICAgICAgICJ0ZXN0IiwKICAgICAgICAzXzYwMCwKICAgICk7CiAgICBzb3VyY2UKICAgICAgICAuYWRkX3Nlc3Npb24oc2Vzc2lvbl9pZCwgJnNlc3Npb24sIDNfNjAwKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInNlZWQgc291cmNlIHNlc3Npb24iKTsKICAgIGFzc2VydCEoCiAgICAgICAgc291cmNlCiAgICAgICAgICAgIC5hZGRfYXV0aF9tb2JpbGl0eV9wZW5kaW5nX3doaXRlbGlzdCgKICAgICAgICAgICAgICAgIHNlc3Npb25faWQsCiAgICAgICAgICAgICAgICAid2hpdGVsaXN0OmJhY2t1cCIsCiAgICAgICAgICAgICAgICAiZm5fa25vY2s6dGVzdDpiYWNrdXAtb3duZXIiLAogICAgICAgICAgICAgICAgM182MDAsCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5leHBlY3QoInNlZWQgc291cmNlIHBlbmRpbmcgd2hpdGVsaXN0IikKICAgICk7CiAgICBsZXQgZW50cmllcyA9IHNvdXJjZQogICAgICAgIC5leHBvcnRfYmFja3VwX2VudHJpZXNfYnlfcHJlZml4X2xpbWl0ZWQoImZuX2tub2NrOiIsIDFfMDAwXzAwMCwgfF98IHRydWUpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgiZXhwb3J0IGNvbXBhdGliaWxpdHkgYmFja3VwIik7CgogICAgbGV0IHRhcmdldF9kaXIgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHRhcmdldCB0ZW1wIGRpciIpOwogICAgbGV0IHRhcmdldCA9IFN0b3JlOjpjb25uZWN0KHRhcmdldF9kaXIucGF0aCgpLmpvaW4oImZuLWtub2NrLnNxbGl0ZTMiKSkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJvcGVuIHRhcmdldCBzdG9yZSIpOwogICAgdGFyZ2V0CiAgICAgICAgLnJlcGxhY2VfYmFja3VwX2VudHJpZXNfYnlfcHJlZml4KCJmbl9rbm9jazoiLCAmZW50cmllcywgMjAwKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInJlc3RvcmUgY29tcGF0aWJpbGl0eSBiYWNrdXAiKTsKICAgIGxldCByZXN0b3JlZCA9IHRhcmdldAogICAgICAgIC50eXBlZAogICAgICAgIC50eXBlZF9tb2JpbGl0eQogICAgICAgIC5sb2FkX3Nlc3Npb24oc2Vzc2lvbl9pZCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJsb2FkIHJlc3RvcmVkIGFnZ3JlZ2F0ZSIpCiAgICAgICAgLmV4cGVjdCgicmVzdG9yZWQgYWdncmVnYXRlIGV4aXN0cyIpOwogICAgYXNzZXJ0IShyZXN0b3JlZC5zZXNzaW9uLmlzX3NvbWUoKSk7CiAgICBhc3NlcnRfZXEhKHJlc3RvcmVkLnBlbmRpbmdfd2hpdGVsaXN0LmxlbigpLCAxKTsKCiAgICB0YXJnZXQuY2xlYXJfYWxsX2tleXMoKS5hd2FpdC5leHBlY3QoImNsZWFyIHJlc3RvcmVkIHN0b3JlIik7CiAgICBhc3NlcnRfZXEhKHRhcmdldC50eXBlZC50eXBlZF9tb2JpbGl0eS5jb3VudHMoKS5hd2FpdC51bndyYXAoKSwgKDAsIDApKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gdHlwZWRfbW9iaWxpdHlfZXhwaXJ5X2FuZF9sZWdhY3lfcmV3cml0ZV9hcmVfcmVjb25jaWxlZCgpIHsKICAgIGxldCBkaXIgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHRlbXAgZGlyIik7CiAgICBsZXQgcGF0aCA9IGRpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpOwogICAgbGV0IHNlc3Npb25faWQgPSAidHlwZWQtbW9iaWxpdHktbGVnYWN5LXJld3JpdGUiOwogICAgbGV0IHN0b3JlID0gU3RvcmU6OmNvbm5lY3QoJnBhdGgpLmF3YWl0LmV4cGVjdCgib3BlbiBzdG9yZSIpOwogICAgbGV0IGluaXRpYWwgPSBuZXdfbG9naW5fc2Vzc2lvbigKICAgICAgICBzZXNzaW9uX2lkLAogICAgICAgICJCZWZvcmUgbGVnYWN5IHJld3JpdGUiLAogICAgICAgICIxOTIuMC4yLjkyIiwKICAgICAgICAidGVzdCIsCiAgICAgICAgM182MDAsCiAgICApOwogICAgc3RvcmUKICAgICAgICAuYWRkX3Nlc3Npb24oc2Vzc2lvbl9pZCwgJmluaXRpYWwsIDNfNjAwKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInNlZWQgc2Vzc2lvbiIpOwogICAgZHJvcChzdG9yZSk7CgogICAgbGV0IHJld3JpdHRlbiA9IG5ld19sb2dpbl9zZXNzaW9uKAogICAgICAgIHNlc3Npb25faWQsCiAgICAgICAgIkFmdGVyIGxlZ2FjeSByZXdyaXRlIiwKICAgICAgICAiMTkyLjAuMi45MyIsCiAgICAgICAgImxlZ2FjeS10ZXN0IiwKICAgICAgICAzXzYwMCwKICAgICk7CiAgICBsZXQgY29ubmVjdGlvbiA9IG9wZW5fZml4dHVyZV9jb25uZWN0aW9uKCZwYXRoKTsKICAgIGNvbm5lY3Rpb24KICAgICAgICAuZXhlY3V0ZSgKICAgICAgICAgICAgIlVQREFURSBrdl9zdHJpbmdzIFNFVCB2YWx1ZSA9ID8yIFdIRVJFIGtleSA9ID8xIiwKICAgICAgICAgICAgdG9raW9fcnVzcWxpdGU6OnJ1c3FsaXRlOjpwYXJhbXMhWwogICAgICAgICAgICAgICAgY3JhdGU6OmF1dGhfc2Vzc2lvbl9rZXlzOjpzZXNzaW9uX2tleShzZXNzaW9uX2lkKSwKICAgICAgICAgICAgICAgIHNlcmRlX2pzb246OnRvX3N0cmluZygmcmV3cml0dGVuKS51bndyYXAoKQogICAgICAgICAgICBdLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICBkcm9wKGNvbm5lY3Rpb24pOwoKICAgIGxldCByZW9wZW5lZCA9IFN0b3JlOjpjb25uZWN0KCZwYXRoKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInJlb3BlbiBhZnRlciBsZWdhY3kgcmV3cml0ZSIpOwogICAgbGV0IHR5cGVkID0gcmVvcGVuZWQKICAgICAgICAudHlwZWQKICAgICAgICAudHlwZWRfbW9iaWxpdHkKICAgICAgICAubG9hZF9zZXNzaW9uKHNlc3Npb25faWQpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgibG9hZCByZWNvbmNpbGVkIGFnZ3JlZ2F0ZSIpCiAgICAgICAgLmV4cGVjdCgicmVjb25jaWxlZCBhZ2dyZWdhdGUgZXhpc3RzIik7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHR5cGVkCiAgICAgICAgICAgIC5zZXNzaW9uCiAgICAgICAgICAgIC5hc19yZWYoKQogICAgICAgICAgICAuYW5kX3RoZW4ofHNlc3Npb258IHNlc3Npb24udmFsdWUuZ2V0KCJjcmVkZW50aWFsTmFtZSIpKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0ciksCiAgICAgICAgU29tZSgiQWZ0ZXIgbGVnYWN5IHJld3JpdGUiKQogICAgKTsKCiAgICBsZXQgY29ubmVjdGlvbiA9IG9wZW5fZml4dHVyZV9jb25uZWN0aW9uKCZwYXRoKTsKICAgIGNvbm5lY3Rpb24KICAgICAgICAuZXhlY3V0ZSgKICAgICAgICAgICAgIlVQREFURSBrdl9rZXlzIFNFVCBleHBpcmVzX2F0X21zID0gPzIgV0hFUkUga2V5ID0gPzEiLAogICAgICAgICAgICB0b2tpb19ydXNxbGl0ZTo6cnVzcWxpdGU6OnBhcmFtcyFbCiAgICAgICAgICAgICAgICBjcmF0ZTo6YXV0aF9zZXNzaW9uX2tleXM6OnNlc3Npb25fa2V5KHNlc3Npb25faWQpLAogICAgICAgICAgICAgICAgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpIC0gMQogICAgICAgICAgICBdLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICBkcm9wKGNvbm5lY3Rpb24pOwogICAgYXNzZXJ0ISgKICAgICAgICByZW9wZW5lZAogICAgICAgICAgICAuZ2V0X3Nlc3Npb24oc2Vzc2lvbl9pZCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5leHBlY3QoInJlYWQgZXhwaXJlZCBhdXRob3JpdGF0aXZlIHNlc3Npb24iKQogICAgICAgICAgICAuaXNfbm9uZSgpCiAgICApOwogICAgYXNzZXJ0ISgKICAgICAgICByZW9wZW5lZAogICAgICAgICAgICAudHlwZWQKICAgICAgICAgICAgLnR5cGVkX21vYmlsaXR5CiAgICAgICAgICAgIC5sb2FkX3Nlc3Npb24oc2Vzc2lvbl9pZCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5leHBlY3QoImxvYWQgZXhwaXJlZCBhZ2dyZWdhdGUiKQogICAgICAgICAgICAuaXNfbm9uZSgpCiAgICApOwogICAgYXNzZXJ0X2VxIShyZW9wZW5lZC5wdXJnZV9leHBpcmVkX2tleXMoKS5hd2FpdC51bndyYXAoKSwgMCk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHR5cGVkX21vYmlsaXR5X3JlY29uY2lsZV9kb2VzX25vdF9yZXdyaXRlX3VuY2hhbmdlZF9hZ2dyZWdhdGVzKCkgewogICAgbGV0IChfZGlyLCBzdG9yZSkgPSBvcGVuX3Rlc3Rfc3RvcmUoKS5hd2FpdDsKICAgIGZvciBzZXNzaW9uX2lkIGluIFsidHlwZWQtbW9iaWxpdHktY2hhbmdlZCIsICJ0eXBlZC1tb2JpbGl0eS11bmNoYW5nZWQiXSB7CiAgICAgICAgbGV0IHNlc3Npb24gPSBuZXdfbG9naW5fc2Vzc2lvbihzZXNzaW9uX2lkLCBzZXNzaW9uX2lkLCAiMTkyLjAuMi45NCIsICJ0ZXN0IiwgM182MDApOwogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5hZGRfc2Vzc2lvbihzZXNzaW9uX2lkLCAmc2Vzc2lvbiwgM182MDApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuZXhwZWN0KCJzZWVkIHR5cGVkIG1vYmlsaXR5IHNlc3Npb24iKTsKICAgIH0KICAgIGxldCBjaGFuZ2VkX2JlZm9yZSA9IHN0b3JlCiAgICAgICAgLnR5cGVkCiAgICAgICAgLnR5cGVkX21vYmlsaXR5CiAgICAgICAgLmFnZ3JlZ2F0ZV91cGRhdGVkX2F0X21zKCJ0eXBlZC1tb2JpbGl0eS1jaGFuZ2VkIikKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCkKICAgICAgICAudW53cmFwKCk7CiAgICBsZXQgdW5jaGFuZ2VkX2JlZm9yZSA9IHN0b3JlCiAgICAgICAgLnR5cGVkCiAgICAgICAgLnR5cGVkX21vYmlsaXR5CiAgICAgICAgLmFnZ3JlZ2F0ZV91cGRhdGVkX2F0X21zKCJ0eXBlZC1tb2JpbGl0eS11bmNoYW5nZWQiKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKQogICAgICAgIC51bndyYXAoKTsKICAgIHRva2lvOjp0aW1lOjpzbGVlcChzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX21pbGxpcyg1KSkuYXdhaXQ7CgogICAgYXNzZXJ0ISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuYWRkX2F1dGhfbW9iaWxpdHlfcGVuZGluZ193aGl0ZWxpc3QoCiAgICAgICAgICAgICAgICAidHlwZWQtbW9iaWxpdHktY2hhbmdlZCIsCiAgICAgICAgICAgICAgICAid2hpdGVsaXN0OmNoYW5nZWQiLAogICAgICAgICAgICAgICAgImZuX2tub2NrOnRlc3Q6Y2hhbmdlZC1vd25lciIsCiAgICAgICAgICAgICAgICAzXzYwMCwKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgibXV0YXRlIG9uZSB0eXBlZCBtb2JpbGl0eSBhZ2dyZWdhdGUiKQogICAgKTsKCiAgICBsZXQgY2hhbmdlZF9hZnRlciA9IHN0b3JlCiAgICAgICAgLnR5cGVkCiAgICAgICAgLnR5cGVkX21vYmlsaXR5CiAgICAgICAgLmFnZ3JlZ2F0ZV91cGRhdGVkX2F0X21zKCJ0eXBlZC1tb2JpbGl0eS1jaGFuZ2VkIikKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCkKICAgICAgICAudW53cmFwKCk7CiAgICBsZXQgdW5jaGFuZ2VkX2FmdGVyID0gc3RvcmUKICAgICAgICAudHlwZWQKICAgICAgICAudHlwZWRfbW9iaWxpdHkKICAgICAgICAuYWdncmVnYXRlX3VwZGF0ZWRfYXRfbXMoInR5cGVkLW1vYmlsaXR5LXVuY2hhbmdlZCIpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpCiAgICAgICAgLnVud3JhcCgpOwogICAgYXNzZXJ0IShjaGFuZ2VkX2FmdGVyID4gY2hhbmdlZF9iZWZvcmUpOwogICAgYXNzZXJ0X2VxISh1bmNoYW5nZWRfYWZ0ZXIsIHVuY2hhbmdlZF9iZWZvcmUpOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiB0eXBlZF9tb2JpbGl0eV9pbmNyZW1lbnRhbF9zeW5jX2RvZXNfbm90X3RvdWNoX3VucmVsYXRlZF9hZ2dyZWdhdGVzKCkgewogICAgbGV0IGRpciA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgdGVtcCBkaXIiKTsKICAgIGxldCBwYXRoID0gZGlyLnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIik7CiAgICBsZXQgc3RvcmUgPSBTdG9yZTo6Y29ubmVjdCgmcGF0aCkuYXdhaXQuZXhwZWN0KCJvcGVuIHN0b3JlIik7CiAgICBmb3Igc2Vzc2lvbl9pZCBpbiBbInR5cGVkLW1vYmlsaXR5LXRhcmdldCIsICJ0eXBlZC1tb2JpbGl0eS11bnJlbGF0ZWQiXSB7CiAgICAgICAgbGV0IHNlc3Npb24gPSBuZXdfbG9naW5fc2Vzc2lvbihzZXNzaW9uX2lkLCBzZXNzaW9uX2lkLCAiMTkyLjAuMi45NiIsICJ0ZXN0IiwgM182MDApOwogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5hZGRfc2Vzc2lvbihzZXNzaW9uX2lkLCAmc2Vzc2lvbiwgM182MDApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuZXhwZWN0KCJzZWVkIGluY3JlbWVudGFsIHNlc3Npb24iKTsKICAgIH0KICAgIGxldCBtdXQgY29ubiA9IHN0b3JlLmNvbm4oKTsKICAgIGNvbm4uc2V0KAogICAgICAgIGF1dGhfbW9iaWxpdHlfYmluZGluZ19rZXkoIm1hbGZvcm1lZCIsICJ1bnJlbGF0ZWQiKSwKICAgICAgICAie25vdC1qc29uIiwKICAgICkKICAgIC5hd2FpdAogICAgLmV4cGVjdCgic2VlZCBtYWxmb3JtZWQgdW5yZWxhdGVkIGNvbXBhdGliaWxpdHkgYmluZGluZyIpOwogICAgbGV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmcGF0aCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGUoCiAgICAgICAgICAgICJVUERBVEUgbW9iaWxpdHlfc2Vzc2lvbl9hZ2dyZWdhdGVzIFNFVCBhZ2dyZWdhdGVfanNvbiA9ICd1bnJlbGF0ZWQtbWFya2VyJyBXSEVSRSBzZXNzaW9uX2lkID0gJ3R5cGVkLW1vYmlsaXR5LXVucmVsYXRlZCciLAogICAgICAgICAgICBbXSwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgZHJvcChjb25uZWN0aW9uKTsKCiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5hZGRfYXV0aF9tb2JpbGl0eV9wZW5kaW5nX3doaXRlbGlzdCgKICAgICAgICAgICAgICAgICJ0eXBlZC1tb2JpbGl0eS10YXJnZXQiLAogICAgICAgICAgICAgICAgIndoaXRlbGlzdDppbmNyZW1lbnRhbC10YXJnZXQiLAogICAgICAgICAgICAgICAgImZuX2tub2NrOnRlc3Q6aW5jcmVtZW50YWwtdGFyZ2V0LW93bmVyIiwKICAgICAgICAgICAgICAgIDNfNjAwLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuZXhwZWN0KCJpbmNyZW1lbnRhbGx5IG11dGF0ZSB0YXJnZXQgc2Vzc2lvbiIpCiAgICApOwogICAgbGV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmcGF0aCk7CiAgICBsZXQgdW5yZWxhdGVkX3JhdyA9IGNvbm5lY3Rpb24KICAgICAgICAucXVlcnlfcm93KAogICAgICAgICAgICAiU0VMRUNUIGFnZ3JlZ2F0ZV9qc29uIEZST00gbW9iaWxpdHlfc2Vzc2lvbl9hZ2dyZWdhdGVzIFdIRVJFIHNlc3Npb25faWQgPSAndHlwZWQtbW9iaWxpdHktdW5yZWxhdGVkJyIsCiAgICAgICAgICAgIFtdLAogICAgICAgICAgICB8cm93fCByb3cuZ2V0Ojo8XywgU3RyaW5nPigwKSwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxISh1bnJlbGF0ZWRfcmF3LCAidW5yZWxhdGVkLW1hcmtlciIpOwogICAgZHJvcChjb25uZWN0aW9uKTsKCiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5hZGRfYXV0aF9tb2JpbGl0eV9wZW5kaW5nX3doaXRlbGlzdCgKICAgICAgICAgICAgICAgICJ0eXBlZC1tb2JpbGl0eS11bnJlbGF0ZWQiLAogICAgICAgICAgICAgICAgIndoaXRlbGlzdDppbmNyZW1lbnRhbC1yZXBhaXIiLAogICAgICAgICAgICAgICAgImZuX2tub2NrOnRlc3Q6aW5jcmVtZW50YWwtcmVwYWlyLW93bmVyIiwKICAgICAgICAgICAgICAgIDNfNjAwLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuZXhwZWN0KCJ0YXJnZXRlZCBjb3JydXB0aW9uIGZhbGxzIGJhY2sgdG8gZnVsbCByZXBhaXIiKQogICAgKTsKICAgIGxldCByZXBhaXJlZCA9IHN0b3JlCiAgICAgICAgLnR5cGVkCiAgICAgICAgLnR5cGVkX21vYmlsaXR5CiAgICAgICAgLmxvYWRfc2Vzc2lvbigidHlwZWQtbW9iaWxpdHktdW5yZWxhdGVkIikKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJsb2FkIHJlcGFpcmVkIHRhcmdldCIpCiAgICAgICAgLmV4cGVjdCgicmVwYWlyZWQgdGFyZ2V0IGV4aXN0cyIpOwogICAgYXNzZXJ0X2VxIShyZXBhaXJlZC5wZW5kaW5nX3doaXRlbGlzdC5sZW4oKSwgMSk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHR5cGVkX21vYmlsaXR5X2luY3JlbWVudGFsbHlfcmVjb25jaWxlc19iaW5kaW5nX2FuZF9vd25lcl9tb3ZlcygpIHsKICAgIGxldCBkaXIgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHRlbXAgZGlyIik7CiAgICBsZXQgcGF0aCA9IGRpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpOwogICAgbGV0IHN0b3JlID0gU3RvcmU6OmNvbm5lY3QoJnBhdGgpLmF3YWl0LmV4cGVjdCgib3BlbiBzdG9yZSIpOwogICAgbGV0IGZpcnN0X3Nlc3Npb24gPSAidHlwZWQtbW9iaWxpdHktb3duZXItYSI7CiAgICBsZXQgc2Vjb25kX3Nlc3Npb24gPSAidHlwZWQtbW9iaWxpdHktb3duZXItYiI7CiAgICBmb3Igc2Vzc2lvbl9pZCBpbiBbZmlyc3Rfc2Vzc2lvbiwgc2Vjb25kX3Nlc3Npb25dIHsKICAgICAgICBsZXQgc2Vzc2lvbiA9IG5ld19sb2dpbl9zZXNzaW9uKHNlc3Npb25faWQsIHNlc3Npb25faWQsICIxOTIuMC4yLjk1IiwgInRlc3QiLCAzXzYwMCk7CiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLmFkZF9zZXNzaW9uKHNlc3Npb25faWQsICZzZXNzaW9uLCAzXzYwMCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5leHBlY3QoInNlZWQgb3duZXIgc2Vzc2lvbiIpOwogICAgfQoKICAgIGxldCBzdWJqZWN0ID0gImluY3JlbWVudGFsLW93bmVyLXN1YmplY3QiOwogICAgbGV0IGZpcnN0X2JpbmRpbmcgPSBqc29uISh7CiAgICAgICAgIm93bmVyU2Vzc2lvbklkIjogZmlyc3Rfc2Vzc2lvbiwKICAgICAgICAid2hpdGVsaXN0UmVjb3JkSWQiOiAid2hpdGVsaXN0OmluY3JlbWVudGFsLWJpbmRpbmciCiAgICB9KTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnNhdmVfYXV0aF9tb2JpbGl0eV9vd25lZF9iaW5kaW5nKAogICAgICAgICAgICAgICAgImZub3MtdG9rZW4iLAogICAgICAgICAgICAgICAgc3ViamVjdCwKICAgICAgICAgICAgICAgICZmaXJzdF9iaW5kaW5nLAogICAgICAgICAgICAgICAgZmlyc3Rfc2Vzc2lvbiwKICAgICAgICAgICAgICAgIDNfNjAwLAogICAgICAgICAgICAgICAgU29tZSgzXzYwMCksCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5leHBlY3QoInNhdmUgZmlyc3QgYmluZGluZyBvd25lciIpCiAgICApOwogICAgbGV0IHNlY29uZF9iaW5kaW5nID0ganNvbiEoewogICAgICAgICJvd25lclNlc3Npb25JZCI6IHNlY29uZF9zZXNzaW9uLAogICAgICAgICJ3aGl0ZWxpc3RSZWNvcmRJZCI6ICJ3aGl0ZWxpc3Q6aW5jcmVtZW50YWwtYmluZGluZyIKICAgIH0pOwogICAgYXNzZXJ0ISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuc2F2ZV9hdXRoX21vYmlsaXR5X293bmVkX2JpbmRpbmcoCiAgICAgICAgICAgICAgICAiZm5vcy10b2tlbiIsCiAgICAgICAgICAgICAgICBzdWJqZWN0LAogICAgICAgICAgICAgICAgJnNlY29uZF9iaW5kaW5nLAogICAgICAgICAgICAgICAgc2Vjb25kX3Nlc3Npb24sCiAgICAgICAgICAgICAgICAzXzYwMCwKICAgICAgICAgICAgICAgIFNvbWUoM182MDApLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuZXhwZWN0KCJtb3ZlIGJpbmRpbmcgb3duZXIiKQogICAgKTsKICAgIGxldCBzdWJqZWN0X2hhc2ggPSBhdXRoX21vYmlsaXR5X3N1YmplY3RfaGFzaCgiZm5vcy10b2tlbiIsIHN1YmplY3QpOwogICAgbGV0IGJpbmRpbmdfa2V5ID0gYXV0aF9tb2JpbGl0eV9iaW5kaW5nX2tleSgiZm5vcy10b2tlbiIsICZzdWJqZWN0X2hhc2gpOwogICAgc3RvcmUKICAgICAgICAucmVtb3ZlX2F1dGhfbW9iaWxpdHlfc2Vzc2lvbl9iaW5kaW5ncyhmaXJzdF9zZXNzaW9uLCBzdGQ6OnNsaWNlOjpmcm9tX3JlZigmYmluZGluZ19rZXkpKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInJlbW92ZSBzdGFsZSBmaXJzdCBvd25lciBpbmRleCIpOwogICAgbGV0IGZpcnN0X3R5cGVkID0gc3RvcmUKICAgICAgICAudHlwZWQKICAgICAgICAudHlwZWRfbW9iaWxpdHkKICAgICAgICAubG9hZF9zZXNzaW9uKGZpcnN0X3Nlc3Npb24pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpCiAgICAgICAgLnVud3JhcCgpOwogICAgbGV0IHNlY29uZF90eXBlZCA9IHN0b3JlCiAgICAgICAgLnR5cGVkCiAgICAgICAgLnR5cGVkX21vYmlsaXR5CiAgICAgICAgLmxvYWRfc2Vzc2lvbihzZWNvbmRfc2Vzc2lvbikKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCkKICAgICAgICAudW53cmFwKCk7CiAgICBhc3NlcnQhKGZpcnN0X3R5cGVkLmJpbmRpbmdzLmlzX2VtcHR5KCkpOwogICAgYXNzZXJ0X2VxIShzZWNvbmRfdHlwZWQuYmluZGluZ3MubGVuKCksIDEpOwoKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnNhdmVfYXV0aF9tb2JpbGl0eV9vcnBoYW5lZF9iaW5kaW5nKAogICAgICAgICAgICAgICAgImZub3MtdG9rZW4iLAogICAgICAgICAgICAgICAgc3ViamVjdCwKICAgICAgICAgICAgICAgICZqc29uISh7ICJ3aGl0ZWxpc3RSZWNvcmRJZCI6ICJ3aGl0ZWxpc3Q6aW5jcmVtZW50YWwtYmluZGluZyIgfSksCiAgICAgICAgICAgICAgICBzZWNvbmRfc2Vzc2lvbiwKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgib3JwaGFuIG1vdmVkIGJpbmRpbmciKQogICAgKTsKICAgIGFzc2VydF9lcSEoc3RvcmUudHlwZWQudHlwZWRfbW9iaWxpdHkuY291bnRzKCkuYXdhaXQudW53cmFwKCksICgyLCAxKSk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfbW9iaWxpdHkKICAgICAgICAgICAgLmxvYWRfc2Vzc2lvbihzZWNvbmRfc2Vzc2lvbikKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmJpbmRpbmdzCiAgICAgICAgICAgIC5pc19lbXB0eSgpCiAgICApOwogICAgYXNzZXJ0ISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuc2F2ZV9hdXRoX21vYmlsaXR5X293bmVkX2JpbmRpbmcoCiAgICAgICAgICAgICAgICAiZm5vcy10b2tlbiIsCiAgICAgICAgICAgICAgICBzdWJqZWN0LAogICAgICAgICAgICAgICAgJnNlY29uZF9iaW5kaW5nLAogICAgICAgICAgICAgICAgc2Vjb25kX3Nlc3Npb24sCiAgICAgICAgICAgICAgICAzXzYwMCwKICAgICAgICAgICAgICAgIFNvbWUoM182MDApLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuZXhwZWN0KCJyZWNsYWltIG9ycGhhbiBiaW5kaW5nIikKICAgICk7CiAgICBhc3NlcnRfZXEhKHN0b3JlLnR5cGVkLnR5cGVkX21vYmlsaXR5LmNvdW50cygpLmF3YWl0LnVud3JhcCgpLCAoMiwgMCkpOwoKICAgIGxldCBvd25lcl9yZWNvcmRfaWQgPSAid2hpdGVsaXN0OmluY3JlbWVudGFsLW93bmVyIjsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnNldF9hdXRoX21vYmlsaXR5X3doaXRlbGlzdF9vd25lcihvd25lcl9yZWNvcmRfaWQsIGZpcnN0X3Nlc3Npb24sIDNfNjAwKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgic2V0IGZpcnN0IHdoaXRlbGlzdCBvd25lciIpCiAgICApOwogICAgYXNzZXJ0ISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuc2V0X2F1dGhfbW9iaWxpdHlfd2hpdGVsaXN0X293bmVyKG93bmVyX3JlY29yZF9pZCwgc2Vjb25kX3Nlc3Npb24sIDNfNjAwKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgibW92ZSB3aGl0ZWxpc3Qgb3duZXIiKQogICAgKTsKICAgIGxldCBmaXJzdF90eXBlZCA9IHN0b3JlCiAgICAgICAgLnR5cGVkCiAgICAgICAgLnR5cGVkX21vYmlsaXR5CiAgICAgICAgLmxvYWRfc2Vzc2lvbihmaXJzdF9zZXNzaW9uKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKQogICAgICAgIC51bndyYXAoKTsKICAgIGxldCBzZWNvbmRfdHlwZWQgPSBzdG9yZQogICAgICAgIC50eXBlZAogICAgICAgIC50eXBlZF9tb2JpbGl0eQogICAgICAgIC5sb2FkX3Nlc3Npb24oc2Vjb25kX3Nlc3Npb24pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpCiAgICAgICAgLnVud3JhcCgpOwogICAgYXNzZXJ0IShmaXJzdF90eXBlZC53aGl0ZWxpc3Rfb3duZXJzLmlzX2VtcHR5KCkpOwogICAgYXNzZXJ0X2VxIShzZWNvbmRfdHlwZWQud2hpdGVsaXN0X293bmVycy5sZW4oKSwgMSk7CgogICAgbGV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmcGF0aCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGUoCiAgICAgICAgICAgICJVUERBVEUgbW9iaWxpdHlfc2Vzc2lvbl9hZ2dyZWdhdGVzIFNFVCBhZ2dyZWdhdGVfanNvbiA9ICdub3QtanNvbicgV0hFUkUgc2Vzc2lvbl9pZCA9ID8xIiwKICAgICAgICAgICAgW2ZpcnN0X3Nlc3Npb25dLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICBkcm9wKGNvbm5lY3Rpb24pOwogICAgbGV0IG11dCBjb25uID0gc3RvcmUuY29ubigpOwogICAgY29ubi5zZXQoImZuX2tub2NrOmF1dGhfbW9iaWxpdHk6ZnV0dXJlLWtleTpvcGFxdWUiLCAiZnV0dXJlLXZhbHVlIikKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJ1bmtub3duIG1vYmlsaXR5IGtleSB1c2VzIGZ1bGwgcmVjb25jaWxlIGZhbGxiYWNrIik7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfbW9iaWxpdHkKICAgICAgICAgICAgLmxvYWRfc2Vzc2lvbihmaXJzdF9zZXNzaW9uKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgibG9hZCBhZ2dyZWdhdGUgcmVwYWlyZWQgYnkgZmFsbGJhY2siKQogICAgICAgICAgICAuaXNfc29tZSgpCiAgICApOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBjb25jdXJyZW50X21vYmlsaXR5X3dyaXRlc19wcmVzZXJ2ZV9sZWdhY3lfYW5kX3R5cGVkX2FnZ3JlZ2F0ZXMoKSB7CiAgICBjb25zdCBXUklURVJTOiB1c2l6ZSA9IDg7CiAgICBjb25zdCBSRUFERVJTOiB1c2l6ZSA9IDQ7CiAgICBsZXQgKF9kaXIsIHN0b3JlKSA9IG9wZW5fdGVzdF9zdG9yZSgpLmF3YWl0OwogICAgbGV0IHN0YXJ0ID0gQXJjOjpuZXcodG9raW86OnN5bmM6OkJhcnJpZXI6Om5ldyhXUklURVJTICsgUkVBREVSUykpOwogICAgbGV0IG11dCB3cml0ZXJzID0gVmVjOjpuZXcoKTsKICAgIGZvciBpbmRleCBpbiAwLi5XUklURVJTIHsKICAgICAgICBsZXQgd3JpdGVyID0gc3RvcmUuY2xvbmUoKTsKICAgICAgICBsZXQgc3RhcnQgPSBzdGFydC5jbG9uZSgpOwogICAgICAgIHdyaXRlcnMucHVzaCh0b2tpbzo6c3Bhd24oYXN5bmMgbW92ZSB7CiAgICAgICAgICAgIHN0YXJ0LndhaXQoKS5hd2FpdDsKICAgICAgICAgICAgbGV0IHNlc3Npb25faWQgPSBmb3JtYXQhKCJ0eXBlZC1tb2JpbGl0eS1jb25jdXJyZW50LXtpbmRleH0iKTsKICAgICAgICAgICAgbGV0IHNlc3Npb24gPSBuZXdfbG9naW5fc2Vzc2lvbigKICAgICAgICAgICAgICAgICZzZXNzaW9uX2lkLAogICAgICAgICAgICAgICAgJmZvcm1hdCEoIkNvbmN1cnJlbnQge2luZGV4fSIpLAogICAgICAgICAgICAgICAgJmZvcm1hdCEoIjE5Mi4wLjIue30iLCBpbmRleCArIDEwMCksCiAgICAgICAgICAgICAgICAidGVzdCIsCiAgICAgICAgICAgICAgICAzXzYwMCwKICAgICAgICAgICAgKTsKICAgICAgICAgICAgd3JpdGVyLmFkZF9zZXNzaW9uKCZzZXNzaW9uX2lkLCAmc2Vzc2lvbiwgM182MDApLmF3YWl0PzsKICAgICAgICAgICAgd3JpdGVyCiAgICAgICAgICAgICAgICAuYWRkX2F1dGhfbW9iaWxpdHlfcGVuZGluZ193aGl0ZWxpc3QoCiAgICAgICAgICAgICAgICAgICAgJnNlc3Npb25faWQsCiAgICAgICAgICAgICAgICAgICAgJmZvcm1hdCEoIndoaXRlbGlzdDpjb25jdXJyZW50OntpbmRleH0iKSwKICAgICAgICAgICAgICAgICAgICAmZm9ybWF0ISgiZm5fa25vY2s6dGVzdDpjb25jdXJyZW50LW93bmVyOntpbmRleH0iKSwKICAgICAgICAgICAgICAgICAgICAzXzYwMCwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgICAgIHdyaXRlcgogICAgICAgICAgICAgICAgLnNhdmVfYXV0aF9tb2JpbGl0eV9hY3RpdmVfaXBfZGV0YWlsKAogICAgICAgICAgICAgICAgICAgICZzZXNzaW9uX2lkLAogICAgICAgICAgICAgICAgICAgICZmb3JtYXQhKCIxOTIuMC4yLnt9IiwgaW5kZXggKyAxMDApLAogICAgICAgICAgICAgICAgICAgIGluZGV4IGFzIGk2NCwKICAgICAgICAgICAgICAgICAgICAmanNvbiEoeyAid2hpdGVsaXN0UmVjb3JkSWQiOiBmb3JtYXQhKCJ3aGl0ZWxpc3Q6Y29uY3VycmVudDp7aW5kZXh9IikgfSksCiAgICAgICAgICAgICAgICAgICAgM182MDAsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgICAgICBPazo6PCgpLCBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZUVycm9yPigoKSkKICAgICAgICB9KSk7CiAgICB9CiAgICBsZXQgbXV0IHJlYWRlcnMgPSBWZWM6Om5ldygpOwogICAgZm9yIHJlYWRlcl9pbmRleCBpbiAwLi5SRUFERVJTIHsKICAgICAgICBsZXQgcmVhZGVyID0gc3RvcmUuY2xvbmUoKTsKICAgICAgICBsZXQgc3RhcnQgPSBzdGFydC5jbG9uZSgpOwogICAgICAgIHJlYWRlcnMucHVzaCh0b2tpbzo6c3Bhd24oYXN5bmMgbW92ZSB7CiAgICAgICAgICAgIHN0YXJ0LndhaXQoKS5hd2FpdDsKICAgICAgICAgICAgZm9yIGl0ZXJhdGlvbiBpbiAwLi4xNiB7CiAgICAgICAgICAgICAgICBsZXQgc2Vzc2lvbl9pZCA9IGZvcm1hdCEoCiAgICAgICAgICAgICAgICAgICAgInR5cGVkLW1vYmlsaXR5LWNvbmN1cnJlbnQte30iLAogICAgICAgICAgICAgICAgICAgIChyZWFkZXJfaW5kZXggKyBpdGVyYXRpb24pICUgV1JJVEVSUwogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgIHJlYWRlcgogICAgICAgICAgICAgICAgICAgIC5saXN0X2F1dGhfbW9iaWxpdHlfc2Vzc2lvbl93aGl0ZWxpc3RfaWRzKCZzZXNzaW9uX2lkKQogICAgICAgICAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgICAgICAgICB0b2tpbzo6dGFzazo6eWllbGRfbm93KCkuYXdhaXQ7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgT2s6OjwoKSwgY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VFcnJvcj4oKCkpCiAgICAgICAgfSkpOwogICAgfQogICAgZm9yIHdyaXRlciBpbiB3cml0ZXJzIHsKICAgICAgICB3cml0ZXIuYXdhaXQuZXhwZWN0KCJqb2luIG1vYmlsaXR5IHdyaXRlciIpLnVud3JhcCgpOwogICAgfQogICAgZm9yIHJlYWRlciBpbiByZWFkZXJzIHsKICAgICAgICByZWFkZXIuYXdhaXQuZXhwZWN0KCJqb2luIG1vYmlsaXR5IHJlYWRlciIpLnVud3JhcCgpOwogICAgfQoKICAgIGFzc2VydF9lcSEoc3RvcmUudHlwZWQudHlwZWRfbW9iaWxpdHkuY291bnRzKCkuYXdhaXQudW53cmFwKCksICg4LCAwKSk7CiAgICBmb3IgaW5kZXggaW4gMC4uV1JJVEVSUyB7CiAgICAgICAgbGV0IHNlc3Npb25faWQgPSBmb3JtYXQhKCJ0eXBlZC1tb2JpbGl0eS1jb25jdXJyZW50LXtpbmRleH0iKTsKICAgICAgICBsZXQgZXhwZWN0ZWQgPSB2ZWMhW2Zvcm1hdCEoIndoaXRlbGlzdDpjb25jdXJyZW50OntpbmRleH0iKV07CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc3RvcmUKICAgICAgICAgICAgICAgIC5saXN0X2F1dGhfbW9iaWxpdHlfc2Vzc2lvbl93aGl0ZWxpc3RfaWRzKCZzZXNzaW9uX2lkKQogICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICAudW53cmFwKCksCiAgICAgICAgICAgIGV4cGVjdGVkCiAgICAgICAgKTsKICAgICAgICBsZXQgdHlwZWQgPSBzdG9yZQogICAgICAgICAgICAudHlwZWQKICAgICAgICAgICAgLnR5cGVkX21vYmlsaXR5CiAgICAgICAgICAgIC5sb2FkX3Nlc3Npb24oJnNlc3Npb25faWQpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmV4cGVjdCgidHlwZWQgY29uY3VycmVudCBhZ2dyZWdhdGUiKTsKICAgICAgICBhc3NlcnQhKHR5cGVkLnNlc3Npb24uaXNfc29tZSgpKTsKICAgICAgICBhc3NlcnRfZXEhKHR5cGVkLnBlbmRpbmdfd2hpdGVsaXN0LmxlbigpLCAxKTsKICAgICAgICBhc3NlcnRfZXEhKHR5cGVkLmFjdGl2ZV9pcHMubGVuKCksIDEpOwogICAgfQp9Cg==
+use super::*;
+
+#[tokio::test]
+async fn matched_session_authority_read_bypasses_the_primary_executor() {
+    let (_dir, store) = open_test_store().await;
+    let session_id = "typed-mobility-auth-reader";
+    let session = new_login_session(session_id, "Auth reader", "192.0.2.90", "test", 3_600);
+    store
+        .add_session(session_id, &session, 3_600)
+        .await
+        .expect("seed matched session");
+
+    let manager = store.manager.clone();
+    let (started_tx, started_rx) = tokio::sync::oneshot::channel();
+    let (release_tx, release_rx) = std::sync::mpsc::channel();
+    let blocker = manager.call(move |_conn| {
+        let _ = started_tx.send(());
+        release_rx
+            .recv_timeout(std::time::Duration::from_secs(5))
+            .map_err(|error| {
+                crate::storage::storage_error(format!("release auth blocker: {error}"))
+            })?;
+        Ok(())
+    });
+    let read = async {
+        started_rx.await.expect("primary executor started");
+        let loaded = tokio::time::timeout(
+            std::time::Duration::from_millis(250),
+            store.get_session(session_id),
+        )
+        .await
+        .expect("matched auth read must bypass primary storage")
+        .expect("load session")
+        .expect("session exists");
+        assert_eq!(loaded.ip, session.ip);
+        release_tx.send(()).expect("release primary executor");
+    };
+    let (blocker_result, ()) = tokio::join!(blocker, read);
+    blocker_result.expect("primary blocker result");
+}
+
+#[tokio::test]
+async fn queued_session_repair_returns_the_latest_authoritative_value() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let session_id = "typed-mobility-queued-repair";
+    let initial = new_login_session(session_id, "Initial", "192.0.2.91", "test", 3_600);
+    store
+        .add_session(session_id, &initial, 3_600)
+        .await
+        .expect("seed matched session");
+
+    let queued_snapshot = new_login_session(session_id, "Queued", "192.0.2.92", "test", 3_600);
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute(
+            "UPDATE kv_strings SET value = ?2 WHERE key = ?1",
+            tokio_rusqlite::rusqlite::params![
+                crate::auth_session_keys::session_key(session_id),
+                serde_json::to_string(&queued_snapshot).unwrap()
+            ],
+        )
+        .expect("create session shadow mismatch");
+    drop(connection);
+
+    let blocker_manager = store.manager.clone();
+    let (started_tx, started_rx) = tokio::sync::oneshot::channel();
+    let (release_tx, release_rx) = std::sync::mpsc::channel();
+    let blocker = blocker_manager.call(move |_conn| {
+        let _ = started_tx.send(());
+        release_rx
+            .recv_timeout(std::time::Duration::from_secs(5))
+            .map_err(|error| {
+                crate::storage::storage_error(format!("release session repair blocker: {error}"))
+            })?;
+        Ok(())
+    });
+    let load = store.get_session(session_id);
+    let latest = new_login_session(session_id, "Latest", "192.0.2.93", "test", 3_600);
+    let replace_while_queued = async {
+        started_rx.await.expect("primary blocker started");
+        let deadline = std::time::Instant::now() + std::time::Duration::from_secs(2);
+        while store.primary_queue_status().queue_depth == 0 {
+            assert!(
+                std::time::Instant::now() < deadline,
+                "session repair did not queue behind primary blocker"
+            );
+            tokio::task::yield_now().await;
+        }
+        let connection = open_fixture_connection(&path);
+        connection
+            .execute(
+                "UPDATE kv_strings SET value = ?2 WHERE key = ?1",
+                tokio_rusqlite::rusqlite::params![
+                    crate::auth_session_keys::session_key(session_id),
+                    serde_json::to_string(&latest).unwrap()
+                ],
+            )
+            .expect("replace authority while repair is queued");
+        drop(connection);
+        release_tx.send(()).expect("release primary blocker");
+    };
+    let (blocker_result, loaded, ()) = tokio::join!(blocker, load, replace_while_queued);
+    blocker_result.expect("primary blocker result");
+    let loaded = loaded
+        .expect("load repaired session")
+        .expect("repaired session exists");
+    assert_eq!(loaded.ip, "192.0.2.93");
+    assert_eq!(loaded.credential_name, "Latest");
+}
+
+#[tokio::test]
+async fn typed_mobility_rebuilds_after_backup_restore_and_clear() {
+    let source_dir = tempfile::tempdir().expect("create source temp dir");
+    let source = Store::connect(source_dir.path().join("fn-knock.sqlite3"))
+        .await
+        .expect("open source store");
+    let session_id = "typed-mobility-backup";
+    let session = new_login_session(
+        session_id,
+        "Typed mobility backup",
+        "192.0.2.91",
+        "test",
+        3_600,
+    );
+    source
+        .add_session(session_id, &session, 3_600)
+        .await
+        .expect("seed source session");
+    assert!(
+        source
+            .add_auth_mobility_pending_whitelist(
+                session_id,
+                "whitelist:backup",
+                "fn_knock:test:backup-owner",
+                3_600,
+            )
+            .await
+            .expect("seed source pending whitelist")
+    );
+    let entries = source
+        .export_backup_entries_by_prefix_limited("fn_knock:", 1_000_000, |_| true)
+        .await
+        .expect("export compatibility backup");
+
+    let target_dir = tempfile::tempdir().expect("create target temp dir");
+    let target = Store::connect(target_dir.path().join("fn-knock.sqlite3"))
+        .await
+        .expect("open target store");
+    target
+        .replace_backup_entries_by_prefix("fn_knock:", &entries, 200)
+        .await
+        .expect("restore compatibility backup");
+    let restored = target
+        .typed
+        .typed_mobility
+        .load_session(session_id)
+        .await
+        .expect("load restored aggregate")
+        .expect("restored aggregate exists");
+    assert!(restored.session.is_some());
+    assert_eq!(restored.pending_whitelist.len(), 1);
+
+    target.clear_all_keys().await.expect("clear restored store");
+    assert_eq!(target.typed.typed_mobility.counts().await.unwrap(), (0, 0));
+}
+
+#[tokio::test]
+async fn typed_mobility_expiry_and_legacy_rewrite_are_reconciled() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let session_id = "typed-mobility-legacy-rewrite";
+    let store = Store::connect(&path).await.expect("open store");
+    let initial = new_login_session(
+        session_id,
+        "Before legacy rewrite",
+        "192.0.2.92",
+        "test",
+        3_600,
+    );
+    store
+        .add_session(session_id, &initial, 3_600)
+        .await
+        .expect("seed session");
+    drop(store);
+
+    let rewritten = new_login_session(
+        session_id,
+        "After legacy rewrite",
+        "192.0.2.93",
+        "legacy-test",
+        3_600,
+    );
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute(
+            "UPDATE kv_strings SET value = ?2 WHERE key = ?1",
+            tokio_rusqlite::rusqlite::params![
+                crate::auth_session_keys::session_key(session_id),
+                serde_json::to_string(&rewritten).unwrap()
+            ],
+        )
+        .unwrap();
+    drop(connection);
+
+    let reopened = Store::connect(&path)
+        .await
+        .expect("reopen after legacy rewrite");
+    let typed = reopened
+        .typed
+        .typed_mobility
+        .load_session(session_id)
+        .await
+        .expect("load reconciled aggregate")
+        .expect("reconciled aggregate exists");
+    assert_eq!(
+        typed
+            .session
+            .as_ref()
+            .and_then(|session| session.value.get("credentialName"))
+            .and_then(Value::as_str),
+        Some("After legacy rewrite")
+    );
+
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute(
+            "UPDATE kv_keys SET expires_at_ms = ?2 WHERE key = ?1",
+            tokio_rusqlite::rusqlite::params![
+                crate::auth_session_keys::session_key(session_id),
+                crate::time_utils::now_ms() - 1
+            ],
+        )
+        .unwrap();
+    drop(connection);
+    assert!(
+        reopened
+            .get_session(session_id)
+            .await
+            .expect("read expired authoritative session")
+            .is_none()
+    );
+    assert!(
+        reopened
+            .typed
+            .typed_mobility
+            .load_session(session_id)
+            .await
+            .expect("load expired aggregate")
+            .is_none()
+    );
+    assert_eq!(reopened.purge_expired_keys().await.unwrap(), 0);
+}
+
+#[tokio::test]
+async fn typed_mobility_reconcile_does_not_rewrite_unchanged_aggregates() {
+    let (_dir, store) = open_test_store().await;
+    for session_id in ["typed-mobility-changed", "typed-mobility-unchanged"] {
+        let session = new_login_session(session_id, session_id, "192.0.2.94", "test", 3_600);
+        store
+            .add_session(session_id, &session, 3_600)
+            .await
+            .expect("seed typed mobility session");
+    }
+    let changed_before = store
+        .typed
+        .typed_mobility
+        .aggregate_updated_at_ms("typed-mobility-changed")
+        .await
+        .unwrap()
+        .unwrap();
+    let unchanged_before = store
+        .typed
+        .typed_mobility
+        .aggregate_updated_at_ms("typed-mobility-unchanged")
+        .await
+        .unwrap()
+        .unwrap();
+    tokio::time::sleep(std::time::Duration::from_millis(5)).await;
+
+    assert!(
+        store
+            .add_auth_mobility_pending_whitelist(
+                "typed-mobility-changed",
+                "whitelist:changed",
+                "fn_knock:test:changed-owner",
+                3_600,
+            )
+            .await
+            .expect("mutate one typed mobility aggregate")
+    );
+
+    let changed_after = store
+        .typed
+        .typed_mobility
+        .aggregate_updated_at_ms("typed-mobility-changed")
+        .await
+        .unwrap()
+        .unwrap();
+    let unchanged_after = store
+        .typed
+        .typed_mobility
+        .aggregate_updated_at_ms("typed-mobility-unchanged")
+        .await
+        .unwrap()
+        .unwrap();
+    assert!(changed_after > changed_before);
+    assert_eq!(unchanged_after, unchanged_before);
+}
+
+#[tokio::test]
+async fn typed_mobility_incremental_sync_does_not_touch_unrelated_aggregates() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    for session_id in ["typed-mobility-target", "typed-mobility-unrelated"] {
+        let session = new_login_session(session_id, session_id, "192.0.2.96", "test", 3_600);
+        store
+            .add_session(session_id, &session, 3_600)
+            .await
+            .expect("seed incremental session");
+    }
+    let mut conn = store.conn();
+    conn.set(
+        auth_mobility_binding_key("malformed", "unrelated"),
+        "{not-json",
+    )
+    .await
+    .expect("seed malformed unrelated compatibility binding");
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute(
+            "UPDATE mobility_session_aggregates SET aggregate_json = 'unrelated-marker' WHERE session_id = 'typed-mobility-unrelated'",
+            [],
+        )
+        .unwrap();
+    drop(connection);
+
+    assert!(
+        store
+            .add_auth_mobility_pending_whitelist(
+                "typed-mobility-target",
+                "whitelist:incremental-target",
+                "fn_knock:test:incremental-target-owner",
+                3_600,
+            )
+            .await
+            .expect("incrementally mutate target session")
+    );
+    let connection = open_fixture_connection(&path);
+    let unrelated_raw = connection
+        .query_row(
+            "SELECT aggregate_json FROM mobility_session_aggregates WHERE session_id = 'typed-mobility-unrelated'",
+            [],
+            |row| row.get::<_, String>(0),
+        )
+        .unwrap();
+    assert_eq!(unrelated_raw, "unrelated-marker");
+    drop(connection);
+
+    assert!(
+        store
+            .add_auth_mobility_pending_whitelist(
+                "typed-mobility-unrelated",
+                "whitelist:incremental-repair",
+                "fn_knock:test:incremental-repair-owner",
+                3_600,
+            )
+            .await
+            .expect("targeted corruption falls back to full repair")
+    );
+    let repaired = store
+        .typed
+        .typed_mobility
+        .load_session("typed-mobility-unrelated")
+        .await
+        .expect("load repaired target")
+        .expect("repaired target exists");
+    assert_eq!(repaired.pending_whitelist.len(), 1);
+}
+
+#[tokio::test]
+async fn typed_mobility_incrementally_reconciles_binding_and_owner_moves() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let first_session = "typed-mobility-owner-a";
+    let second_session = "typed-mobility-owner-b";
+    for session_id in [first_session, second_session] {
+        let session = new_login_session(session_id, session_id, "192.0.2.95", "test", 3_600);
+        store
+            .add_session(session_id, &session, 3_600)
+            .await
+            .expect("seed owner session");
+    }
+
+    let subject = "incremental-owner-subject";
+    let first_binding = json!({
+        "ownerSessionId": first_session,
+        "whitelistRecordId": "whitelist:incremental-binding"
+    });
+    assert!(
+        store
+            .save_auth_mobility_owned_binding(
+                "fnos-token",
+                subject,
+                &first_binding,
+                first_session,
+                3_600,
+                Some(3_600),
+            )
+            .await
+            .expect("save first binding owner")
+    );
+    let second_binding = json!({
+        "ownerSessionId": second_session,
+        "whitelistRecordId": "whitelist:incremental-binding"
+    });
+    assert!(
+        store
+            .save_auth_mobility_owned_binding(
+                "fnos-token",
+                subject,
+                &second_binding,
+                second_session,
+                3_600,
+                Some(3_600),
+            )
+            .await
+            .expect("move binding owner")
+    );
+    let subject_hash = auth_mobility_subject_hash("fnos-token", subject);
+    let binding_key = auth_mobility_binding_key("fnos-token", &subject_hash);
+    store
+        .remove_auth_mobility_session_bindings(first_session, std::slice::from_ref(&binding_key))
+        .await
+        .expect("remove stale first owner index");
+    let first_typed = store
+        .typed
+        .typed_mobility
+        .load_session(first_session)
+        .await
+        .unwrap()
+        .unwrap();
+    let second_typed = store
+        .typed
+        .typed_mobility
+        .load_session(second_session)
+        .await
+        .unwrap()
+        .unwrap();
+    assert!(first_typed.bindings.is_empty());
+    assert_eq!(second_typed.bindings.len(), 1);
+
+    assert!(
+        store
+            .save_auth_mobility_orphaned_binding(
+                "fnos-token",
+                subject,
+                &json!({ "whitelistRecordId": "whitelist:incremental-binding" }),
+                second_session,
+            )
+            .await
+            .expect("orphan moved binding")
+    );
+    assert_eq!(store.typed.typed_mobility.counts().await.unwrap(), (2, 1));
+    assert!(
+        store
+            .typed
+            .typed_mobility
+            .load_session(second_session)
+            .await
+            .unwrap()
+            .unwrap()
+            .bindings
+            .is_empty()
+    );
+    assert!(
+        store
+            .save_auth_mobility_owned_binding(
+                "fnos-token",
+                subject,
+                &second_binding,
+                second_session,
+                3_600,
+                Some(3_600),
+            )
+            .await
+            .expect("reclaim orphan binding")
+    );
+    assert_eq!(store.typed.typed_mobility.counts().await.unwrap(), (2, 0));
+
+    let owner_record_id = "whitelist:incremental-owner";
+    assert!(
+        store
+            .set_auth_mobility_whitelist_owner(owner_record_id, first_session, 3_600)
+            .await
+            .expect("set first whitelist owner")
+    );
+    assert!(
+        store
+            .set_auth_mobility_whitelist_owner(owner_record_id, second_session, 3_600)
+            .await
+            .expect("move whitelist owner")
+    );
+    let first_typed = store
+        .typed
+        .typed_mobility
+        .load_session(first_session)
+        .await
+        .unwrap()
+        .unwrap();
+    let second_typed = store
+        .typed
+        .typed_mobility
+        .load_session(second_session)
+        .await
+        .unwrap()
+        .unwrap();
+    assert!(first_typed.whitelist_owners.is_empty());
+    assert_eq!(second_typed.whitelist_owners.len(), 1);
+
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute(
+            "UPDATE mobility_session_aggregates SET aggregate_json = 'not-json' WHERE session_id = ?1",
+            [first_session],
+        )
+        .unwrap();
+    drop(connection);
+    let mut conn = store.conn();
+    conn.set("fn_knock:auth_mobility:future-key:opaque", "future-value")
+        .await
+        .expect("unknown mobility key uses full reconcile fallback");
+    assert!(
+        store
+            .typed
+            .typed_mobility
+            .load_session(first_session)
+            .await
+            .expect("load aggregate repaired by fallback")
+            .is_some()
+    );
+}
+
+#[tokio::test]
+async fn concurrent_mobility_writes_preserve_legacy_and_typed_aggregates() {
+    const WRITERS: usize = 8;
+    const READERS: usize = 4;
+    let (_dir, store) = open_test_store().await;
+    let start = Arc::new(tokio::sync::Barrier::new(WRITERS + READERS));
+    let mut writers = Vec::new();
+    for index in 0..WRITERS {
+        let writer = store.clone();
+        let start = start.clone();
+        writers.push(tokio::spawn(async move {
+            start.wait().await;
+            let session_id = format!("typed-mobility-concurrent-{index}");
+            let session = new_login_session(
+                &session_id,
+                &format!("Concurrent {index}"),
+                &format!("192.0.2.{}", index + 100),
+                "test",
+                3_600,
+            );
+            writer.add_session(&session_id, &session, 3_600).await?;
+            writer
+                .add_auth_mobility_pending_whitelist(
+                    &session_id,
+                    &format!("whitelist:concurrent:{index}"),
+                    &format!("fn_knock:test:concurrent-owner:{index}"),
+                    3_600,
+                )
+                .await?;
+            writer
+                .save_auth_mobility_active_ip_detail(
+                    &session_id,
+                    &format!("192.0.2.{}", index + 100),
+                    index as i64,
+                    &json!({ "whitelistRecordId": format!("whitelist:concurrent:{index}") }),
+                    3_600,
+                )
+                .await?;
+            Ok::<(), crate::storage::StorageError>(())
+        }));
+    }
+    let mut readers = Vec::new();
+    for reader_index in 0..READERS {
+        let reader = store.clone();
+        let start = start.clone();
+        readers.push(tokio::spawn(async move {
+            start.wait().await;
+            for iteration in 0..16 {
+                let session_id = format!(
+                    "typed-mobility-concurrent-{}",
+                    (reader_index + iteration) % WRITERS
+                );
+                reader
+                    .list_auth_mobility_session_whitelist_ids(&session_id)
+                    .await?;
+                tokio::task::yield_now().await;
+            }
+            Ok::<(), crate::storage::StorageError>(())
+        }));
+    }
+    for writer in writers {
+        writer.await.expect("join mobility writer").unwrap();
+    }
+    for reader in readers {
+        reader.await.expect("join mobility reader").unwrap();
+    }
+
+    assert_eq!(store.typed.typed_mobility.counts().await.unwrap(), (8, 0));
+    for index in 0..WRITERS {
+        let session_id = format!("typed-mobility-concurrent-{index}");
+        let expected = vec![format!("whitelist:concurrent:{index}")];
+        assert_eq!(
+            store
+                .list_auth_mobility_session_whitelist_ids(&session_id)
+                .await
+                .unwrap(),
+            expected
+        );
+        let typed = store
+            .typed
+            .typed_mobility
+            .load_session(&session_id)
+            .await
+            .unwrap()
+            .expect("typed concurrent aggregate");
+        assert!(typed.session.is_some());
+        assert_eq!(typed.pending_whitelist.len(), 1);
+        assert_eq!(typed.active_ips.len(), 1);
+    }
+}

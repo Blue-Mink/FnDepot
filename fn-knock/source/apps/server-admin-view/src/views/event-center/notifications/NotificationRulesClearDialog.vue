@@ -1,1 +1,54 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IExvYWRlcjIgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgdHlwZSB7IHVzZU5vdGlmaWNhdGlvblJ1bGVzIH0gZnJvbSAiLi91c2VOb3RpZmljYXRpb25SdWxlcyI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjb250cm9sbGVyOiBSZXR1cm5UeXBlPHR5cGVvZiB1c2VOb3RpZmljYXRpb25SdWxlcz47Cn0+KCk7CmNvbnN0IHsgY2xlYXJBbGxEaWFsb2dPcGVuLCBjbGVhcmluZ0FsbCwgY2xlYXJBbGxSdWxlcywgcnVsZXMgfSA9CiAgcHJvcHMuY29udHJvbGxlcjsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgdi1tb2RlbDpvcGVuPSJjbGVhckFsbERpYWxvZ09wZW4iPgogICAgPERpYWxvZ0NvbnRlbnQgY2xhc3M9InNtOm1heC13LVs0MjBweF0iPgogICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgIDxEaWFsb2dUaXRsZT4KICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucnVsZXMuY2xlYXJEaWFsb2dUaXRsZSIpIH19CiAgICAgICAgPC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLmNsZWFyRGlhbG9nRGVzY3JpcHRpb24iKSB9fQogICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgoKICAgICAgPERpYWxvZ0Zvb3RlciBjbGFzcz0iZ2FwLTIiPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImNsZWFyaW5nQWxsIgogICAgICAgICAgQGNsaWNrPSJjbGVhckFsbERpYWxvZ09wZW4gPSBmYWxzZSIKICAgICAgICA+CiAgICAgICAgICB7eyB0KCJjb21tb24uY2FuY2VsIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJkZXN0cnVjdGl2ZSIKICAgICAgICAgIDpkaXNhYmxlZD0iY2xlYXJpbmdBbGwgfHwgcnVsZXMubGVuZ3RoID09PSAwIgogICAgICAgICAgQGNsaWNrPSJjbGVhckFsbFJ1bGVzIgogICAgICAgID4KICAgICAgICAgIDxMb2FkZXIyIHYtaWY9ImNsZWFyaW5nQWxsIiBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucnVsZXMuY2xlYXJBbGxSdWxlcyIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Loader2 } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import type { useNotificationRules } from "./useNotificationRules";
+
+const props = defineProps<{
+  controller: ReturnType<typeof useNotificationRules>;
+}>();
+const { clearAllDialogOpen, clearingAll, clearAllRules, rules } =
+  props.controller;
+const { t } = useI18n();
+</script>
+
+<template>
+  <Dialog v-model:open="clearAllDialogOpen">
+    <DialogContent class="sm:max-w-[420px]">
+      <DialogHeader>
+        <DialogTitle>
+          {{ t("admin.notifications.rules.clearDialogTitle") }}
+        </DialogTitle>
+        <DialogDescription>
+          {{ t("admin.notifications.rules.clearDialogDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+
+      <DialogFooter class="gap-2">
+        <Button
+          variant="outline"
+          :disabled="clearingAll"
+          @click="clearAllDialogOpen = false"
+        >
+          {{ t("common.cancel") }}
+        </Button>
+        <Button
+          variant="destructive"
+          :disabled="clearingAll || rules.length === 0"
+          @click="clearAllRules"
+        >
+          <Loader2 v-if="clearingAll" class="mr-2 h-4 w-4 animate-spin" />
+          {{ t("admin.notifications.rules.clearAllRules") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

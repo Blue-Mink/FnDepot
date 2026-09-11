@@ -1,1 +1,35 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgppbXBvcnQgeyBTa2VsZXRvbiB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9za2VsZXRvbicKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIHNob3dJY29uPzogYm9vbGVhbgogIGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0KfT4oKQoKY29uc3Qgd2lkdGggPSBjb21wdXRlZCgoKSA9PiB7CiAgcmV0dXJuIGAke01hdGguZmxvb3IoTWF0aC5yYW5kb20oKSAqIDQwKSArIDUwfSVgCn0pCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYKICAgIGRhdGEtc2xvdD0ic2lkZWJhci1tZW51LXNrZWxldG9uIgogICAgZGF0YS1zaWRlYmFyPSJtZW51LXNrZWxldG9uIgogICAgOmNsYXNzPSJjbignZmxleCBoLTggaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtbWQgcHgtMicsIHByb3BzLmNsYXNzKSIKICA+CiAgICA8U2tlbGV0b24KICAgICAgdi1pZj0ic2hvd0ljb24iCiAgICAgIGNsYXNzPSJzaXplLTQgcm91bmRlZC1tZCIKICAgICAgZGF0YS1zaWRlYmFyPSJtZW51LXNrZWxldG9uLWljb24iCiAgICAvPgoKICAgIDxTa2VsZXRvbgogICAgICBjbGFzcz0iaC00IG1heC13LSgtLXNrZWxldG9uLXdpZHRoKSBmbGV4LTEiCiAgICAgIGRhdGEtc2lkZWJhcj0ibWVudS1za2VsZXRvbi10ZXh0IgogICAgICA6c3R5bGU9InsgJy0tc2tlbGV0b24td2lkdGgnOiB3aWR0aCB9IgogICAgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { computed } from "vue"
+import { cn } from "@/lib/utils"
+import { Skeleton } from '@/components/ui/skeleton'
+
+const props = defineProps<{
+  showIcon?: boolean
+  class?: HTMLAttributes["class"]
+}>()
+
+const width = computed(() => {
+  return `${Math.floor(Math.random() * 40) + 50}%`
+})
+</script>
+
+<template>
+  <div
+    data-slot="sidebar-menu-skeleton"
+    data-sidebar="menu-skeleton"
+    :class="cn('flex h-8 items-center gap-2 rounded-md px-2', props.class)"
+  >
+    <Skeleton
+      v-if="showIcon"
+      class="size-4 rounded-md"
+      data-sidebar="menu-skeleton-icon"
+    />
+
+    <Skeleton
+      class="h-4 max-w-(--skeleton-width) flex-1"
+      data-sidebar="menu-skeleton-text"
+      :style="{ '--skeleton-width': width }"
+    />
+  </div>
+</template>

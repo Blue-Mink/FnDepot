@@ -1,1 +1,56 @@
-aW1wb3J0IHR5cGUgewogIFNtYXJ0Q29ubmVjdENvbmZpZywKICBTbWFydENvbm5lY3REZXRhaWxzLAogIFNtYXJ0Q29ubmVjdExvY2FsSXBPcHRpb24sCn0gZnJvbSAiQC90eXBlcyI7CgpleHBvcnQgY29uc3QgY2xvbmVTbWFydENvbm5lY3REZXRhaWxzID0gKAogIHZhbHVlOiBTbWFydENvbm5lY3REZXRhaWxzLAopOiBTbWFydENvbm5lY3REZXRhaWxzID0+ICh7CiAgY29uZmlnOiB7IC4uLnZhbHVlLmNvbmZpZyB9LAogIGF2YWlsYWJpbGl0eTogeyAuLi52YWx1ZS5hdmFpbGFiaWxpdHkgfSwKICBkbnNtYXNxOiB7CiAgICAuLi52YWx1ZS5kbnNtYXNxLAogICAgaW5zdGFsbF9zdGF0ZTogeyAuLi52YWx1ZS5kbnNtYXNxLmluc3RhbGxfc3RhdGUgfSwKICAgIHJ1bnRpbWU6IHsKICAgICAgLi4udmFsdWUuZG5zbWFzcS5ydW50aW1lLAogICAgICBzeW5jZWRfZG9tYWluczogWy4uLnZhbHVlLmRuc21hc3EucnVudGltZS5zeW5jZWRfZG9tYWluc10sCiAgICB9LAogIH0sCiAgZG9tYWluczogWy4uLnZhbHVlLmRvbWFpbnNdLAogIGxvY2FsX2lwX29wdGlvbnM6IHZhbHVlLmxvY2FsX2lwX29wdGlvbnMubWFwKChpdGVtKSA9PiAoeyAuLi5pdGVtIH0pKSwKfSk7CgpleHBvcnQgY29uc3QgcmVzb2x2ZVNlbGVjdGVkSXB2NCA9ICgKICBjb25maWd1cmVkVmFsdWU6IHN0cmluZywKICBsb2NhbElwT3B0aW9uczogU21hcnRDb25uZWN0TG9jYWxJcE9wdGlvbltdLAopOiBzdHJpbmcgPT4gY29uZmlndXJlZFZhbHVlLnRyaW0oKSB8fCBsb2NhbElwT3B0aW9uc1swXT8udmFsdWUgfHwgIiI7CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplU21hcnRDb25uZWN0Q29uZmlnID0gKAogIHZhbHVlOiBQYXJ0aWFsPFNtYXJ0Q29ubmVjdENvbmZpZz4sCik6IFNtYXJ0Q29ubmVjdENvbmZpZyA9PiAoewogIGVuYWJsZWQ6IHZhbHVlLmVuYWJsZWQgPT09IHRydWUsCiAgc2VsZWN0ZWRfaXB2NDogU3RyaW5nKHZhbHVlLnNlbGVjdGVkX2lwdjQgPz8gIiIpLnRyaW0oKSwKfSk7CgpleHBvcnQgY29uc3QgZ2V0Q29tcGFyYWJsZVNtYXJ0Q29ubmVjdENvbmZpZyA9ICgKICB2YWx1ZTogUGFydGlhbDxTbWFydENvbm5lY3RDb25maWc+LAogIHBlcnNpc3RlZFNlbGVjdGVkSXB2NCA9ICIiLAopOiBTbWFydENvbm5lY3RDb25maWcgPT4gewogIGNvbnN0IG5vcm1hbGl6ZWQgPSBub3JtYWxpemVTbWFydENvbm5lY3RDb25maWcodmFsdWUpOwogIHJldHVybiBub3JtYWxpemVkLmVuYWJsZWQKICAgID8gbm9ybWFsaXplZAogICAgOiB7IC4uLm5vcm1hbGl6ZWQsIHNlbGVjdGVkX2lwdjQ6IHBlcnNpc3RlZFNlbGVjdGVkSXB2NC50cmltKCkgfTsKfTsKCmV4cG9ydCBjb25zdCBoYXNVbnNhdmVkU21hcnRDb25uZWN0RHJhZnQgPSAoCiAgZGV0YWlsczogU21hcnRDb25uZWN0RGV0YWlscyB8IG51bGwsCiAgZm9ybTogU21hcnRDb25uZWN0Q29uZmlnLAopOiBib29sZWFuID0+CiAgQm9vbGVhbigKICAgIGRldGFpbHMgJiYKICAgIEpTT04uc3RyaW5naWZ5KG5vcm1hbGl6ZVNtYXJ0Q29ubmVjdENvbmZpZyhkZXRhaWxzLmNvbmZpZykpICE9PQogICAgICBKU09OLnN0cmluZ2lmeSgKICAgICAgICBnZXRDb21wYXJhYmxlU21hcnRDb25uZWN0Q29uZmlnKGZvcm0sIGRldGFpbHMuY29uZmlnLnNlbGVjdGVkX2lwdjQpLAogICAgICApLAogICk7Cg==
+import type {
+  SmartConnectConfig,
+  SmartConnectDetails,
+  SmartConnectLocalIpOption,
+} from "@/types";
+
+export const cloneSmartConnectDetails = (
+  value: SmartConnectDetails,
+): SmartConnectDetails => ({
+  config: { ...value.config },
+  availability: { ...value.availability },
+  dnsmasq: {
+    ...value.dnsmasq,
+    install_state: { ...value.dnsmasq.install_state },
+    runtime: {
+      ...value.dnsmasq.runtime,
+      synced_domains: [...value.dnsmasq.runtime.synced_domains],
+    },
+  },
+  domains: [...value.domains],
+  local_ip_options: value.local_ip_options.map((item) => ({ ...item })),
+});
+
+export const resolveSelectedIpv4 = (
+  configuredValue: string,
+  localIpOptions: SmartConnectLocalIpOption[],
+): string => configuredValue.trim() || localIpOptions[0]?.value || "";
+
+export const normalizeSmartConnectConfig = (
+  value: Partial<SmartConnectConfig>,
+): SmartConnectConfig => ({
+  enabled: value.enabled === true,
+  selected_ipv4: String(value.selected_ipv4 ?? "").trim(),
+});
+
+export const getComparableSmartConnectConfig = (
+  value: Partial<SmartConnectConfig>,
+  persistedSelectedIpv4 = "",
+): SmartConnectConfig => {
+  const normalized = normalizeSmartConnectConfig(value);
+  return normalized.enabled
+    ? normalized
+    : { ...normalized, selected_ipv4: persistedSelectedIpv4.trim() };
+};
+
+export const hasUnsavedSmartConnectDraft = (
+  details: SmartConnectDetails | null,
+  form: SmartConnectConfig,
+): boolean =>
+  Boolean(
+    details &&
+    JSON.stringify(normalizeSmartConnectConfig(details.config)) !==
+      JSON.stringify(
+        getComparableSmartConnectConfig(form, details.config.selected_ipv4),
+      ),
+  );

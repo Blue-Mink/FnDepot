@@ -1,1 +1,446 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IG9uTW91bnRlZCwgdG9SZWYsIHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgQWxlcnRUcmlhbmdsZSwgTG9hZGVyMiwgUGx1cyB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB0eXBlIHsgQWNjZXB0YWJsZVZhbHVlIH0gZnJvbSAicmVrYS11aSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IGV4dHJhY3RFcnJvck1lc3NhZ2UgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENoZWNrYm94IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NoZWNrYm94IjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7CiAgU2VsZWN0LAogIFNlbGVjdENvbnRlbnQsCiAgU2VsZWN0SXRlbSwKICBTZWxlY3RUcmlnZ2VyLAogIFNlbGVjdFZhbHVlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9zZWxlY3QiOwppbXBvcnQgewogIFRhZ3NJbnB1dCwKICBUYWdzSW5wdXRJdGVtLAogIFRhZ3NJbnB1dEl0ZW1EZWxldGUsCiAgVGFnc0lucHV0SXRlbVRleHQsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RhZ3MtaW5wdXQiOwppbXBvcnQgeyBDaWRyQVBJIH0gZnJvbSAiQC9saWIvYXBpL2dhdGV3YXkiOwppbXBvcnQgdHlwZSB7IENpZHJPcGVyYXRvciwgR2F0ZXdheVZpc2liaWxpdHlTZWxlY3Rpb24gfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsKICBnZXRDaWRyUmVnaW9uU2VsZWN0aW9uS2V5LAogIGdldENpZHJSZWdpb25TZWxlY3Rpb25MYWJlbCwKfSBmcm9tICJAL3R5cGVzL2NpZHIiOwppbXBvcnQgeyBjcmVhdGVDaWRyUmVnaW9uU2VsZWN0b3JTdGF0ZSB9IGZyb20gIi4vY2lkci1yZWdpb24tc2VsZWN0b3Itc3RhdGUiOwoKY29uc3QgYTExeUlkID0gdXNlSWQoKTsKCmludGVyZmFjZSBDaWRyUmVnaW9uU2VsZWN0b3JUZXh0IHsKICBhZGQ6IHN0cmluZzsKICBhZGRSZWdpb246IHN0cmluZzsKICBjYW5jZWw6IHN0cmluZzsKICBkaWFsb2dEZXNjcmlwdGlvbjogc3RyaW5nOwogIGxvYWRGYWlsZWQ6IHN0cmluZzsKICBsb2FkRmFpbGVkRGVzY3JpcHRpb246IHN0cmluZzsKICBsb2FkaW5nOiBzdHJpbmc7CiAgbm9SZWdpb25zOiBzdHJpbmc7CiAgcHJvdmluY2U6IHN0cmluZzsKICByZXRyeTogc3RyaW5nOwogIHNlbGVjdGVkQ291bnQ6IChjb3VudDogbnVtYmVyKSA9PiBzdHJpbmc7CiAgc2NvcGU6IHN0cmluZzsKICBzZWxlY3RDaXR5OiBzdHJpbmc7CiAgc2VsZWN0UHJvdmluY2U6IHN0cmluZzsKICBzZWxlY3RQcm92aW5jZUZpcnN0OiBzdHJpbmc7CiAgdW5hdmFpbGFibGU6IHN0cmluZzsKfQoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoCiAgZGVmaW5lUHJvcHM8ewogICAgZGVzY3JpcHRpb24/OiBzdHJpbmc7CiAgICBkaXNhYmxlZD86IGJvb2xlYW47CiAgICBsYXlvdXQ/OiAiZGVmYXVsdCIgfCAiY29tcGFjdCI7CiAgICB0ZXh0OiBDaWRyUmVnaW9uU2VsZWN0b3JUZXh0OwogIH0+KCksCiAgewogICAgZGVzY3JpcHRpb246ICIiLAogICAgZGlzYWJsZWQ6IGZhbHNlLAogICAgbGF5b3V0OiAiZGVmYXVsdCIsCiAgfSwKKTsKCmNvbnN0IHNlbGVjdGlvbnMgPSBkZWZpbmVNb2RlbDxHYXRld2F5VmlzaWJpbGl0eVNlbGVjdGlvbltdPih7CiAgcmVxdWlyZWQ6IHRydWUsCn0pOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgewogIGFjdGl2ZVNlbGVjdGlvbktleXMsCiAgY2FuU2F2ZVNlbGVjdGlvbnMsCiAgY2FwYWJpbGl0aWVzLAogIGNhcGFiaWxpdGllc0xvYWRpbmcsCiAgY2FwYWJpbGl0eUxvYWRFcnJvciwKICBjaXR5Q2hvaWNlcywKICBjaXR5T3B0aW9uc0xvYWRpbmcsCiAgZHJhZnQsCiAgaGFuZGxlRGlhbG9nT3BlbkNoYW5nZSwKICBpc0RpYWxvZ09wZW4sCiAgbG9hZENhcGFiaWxpdGllcywKICBsb2FkUHJvdmluY2VzLAogIG9wZW5EaWFsb2csCiAgb3BlcmF0b3JGaWx0ZXJpbmdTdXBwb3J0ZWQsCiAgb3BlcmF0b3JzLAogIHByb3ZpbmNlcywKICBwcm92aW5jZXNMb2FkRXJyb3IsCiAgcHJvdmluY2VzTG9hZGluZywKICByZW1vdmVSZWdpb24sCiAgc2F2ZVByb3ZpbmNlU2VsZWN0aW9ucywKICBzZWxlY3RPcGVyYXRvciwKICBzZWxlY3RQcm92aW5jZSwKICBzZWxlY3RlZENpdHlDb3VudCwKICB0b2dnbGVDaXR5LAp9ID0gY3JlYXRlQ2lkclJlZ2lvblNlbGVjdG9yU3RhdGUoewogIGRpc2FibGVkOiB0b1JlZihwcm9wcywgImRpc2FibGVkIiksCiAgZm9ybWF0TG9hZEVycm9yOiAoZXJyb3IpID0+CiAgICBleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCBwcm9wcy50ZXh0LmxvYWRGYWlsZWREZXNjcmlwdGlvbiksCiAgbG9hZENhcGFiaWxpdGllczogKCkgPT4gQ2lkckFQSS5nZXRDYXBhYmlsaXRpZXMoKSwKICBsb2FkQ2l0aWVzOiAocHJvdmluY2UpID0+IENpZHJBUEkuZ2V0Q2l0aWVzKHByb3ZpbmNlKSwKICBsb2FkUHJvdmluY2VzOiAoKSA9PiBDaWRyQVBJLmdldFByb3ZpbmNlcygpLAogIG9uTG9hZEVycm9yOiAoZGVzY3JpcHRpb24pID0+IHsKICAgIHRvYXN0LmVycm9yKHByb3BzLnRleHQubG9hZEZhaWxlZCwgeyBkZXNjcmlwdGlvbiB9KTsKICB9LAogIHNlbGVjdGlvbnMsCn0pOwoKY29uc3QgaGFuZGxlUHJvdmluY2VDaGFuZ2UgPSAodmFsdWU6IEFjY2VwdGFibGVWYWx1ZSkgPT4gewogIHNlbGVjdFByb3ZpbmNlKHR5cGVvZiB2YWx1ZSA9PT0gInN0cmluZyIgPyB2YWx1ZSA6ICIiKTsKfTsKY29uc3QgQUxMX09QRVJBVE9SU19WQUxVRSA9ICJfX2FsbF9vcGVyYXRvcnNfXyI7CmNvbnN0IGhhbmRsZU9wZXJhdG9yQ2hhbmdlID0gKHZhbHVlOiBBY2NlcHRhYmxlVmFsdWUpID0+IHsKICBjb25zdCBub3JtYWxpemVkID0gdHlwZW9mIHZhbHVlID09PSAic3RyaW5nIiA/IHZhbHVlIDogQUxMX09QRVJBVE9SU19WQUxVRTsKICBzZWxlY3RPcGVyYXRvcigKICAgIG5vcm1hbGl6ZWQgPT09IEFMTF9PUEVSQVRPUlNfVkFMVUUgPyBudWxsIDogKG5vcm1hbGl6ZWQgYXMgQ2lkck9wZXJhdG9yKSwKICApOwp9Owpjb25zdCBpc0NpdHlTZWxlY3RlZCA9IChrZXk6IHN0cmluZykgPT4gYWN0aXZlU2VsZWN0aW9uS2V5cy52YWx1ZS5pbmNsdWRlcyhrZXkpOwpvbk1vdW50ZWQoKCkgPT4gewogIHZvaWQgUHJvbWlzZS5hbGwoW2xvYWRQcm92aW5jZXMoKSwgbG9hZENhcGFiaWxpdGllcygpXSk7Cn0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJzcGFjZS15LTMiPgogICAgPGRpdgogICAgICB2LWlmPSJsYXlvdXQgPT09ICdjb21wYWN0JyIKICAgICAgY2xhc3M9ImZsZXggbWluLWgtOSBtaW4tdy0wIGl0ZW1zLWNlbnRlciBnYXAtMiByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItaW5wdXQgYmctYmFja2dyb3VuZCBweC0yIHB5LTEgc2hhZG93LXhzIgogICAgICA6dGl0bGU9ImRlc2NyaXB0aW9uIgogICAgPgogICAgICA8ZGl2CiAgICAgICAgY2xhc3M9Im1pbi13LTAgZmxleC0xIG92ZXJmbG93LXgtYXV0byBbc2Nyb2xsYmFyLXdpZHRoOm5vbmVdIFstbXMtb3ZlcmZsb3ctc3R5bGU6bm9uZV0gWyY6Oi13ZWJraXQtc2Nyb2xsYmFyXTpoaWRkZW4iCiAgICAgID4KICAgICAgICA8VGFnc0lucHV0CiAgICAgICAgICA6bW9kZWwtdmFsdWU9IgogICAgICAgICAgICBzZWxlY3Rpb25zLm1hcCgoaXRlbSkgPT4gZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbktleShpdGVtKSkKICAgICAgICAgICIKICAgICAgICAgIGNsYXNzPSJoLTcgbWluLWgtMCB3LW1heCBtaW4tdy1mdWxsIGZsZXgtbm93cmFwIGl0ZW1zLWNlbnRlciBnYXAtMS41IGJvcmRlci1ub25lIGJnLXRyYW5zcGFyZW50IHB4LTAgcHktMCBzaGFkb3ctbm9uZSIKICAgICAgICA+CiAgICAgICAgICA8dGVtcGxhdGUgdi1pZj0ic2VsZWN0aW9ucy5sZW5ndGggPiAwIj4KICAgICAgICAgICAgPFRhZ3NJbnB1dEl0ZW0KICAgICAgICAgICAgICB2LWZvcj0ic2VsZWN0aW9uIGluIHNlbGVjdGlvbnMiCiAgICAgICAgICAgICAgOmtleT0iZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbktleShzZWxlY3Rpb24pIgogICAgICAgICAgICAgIDp2YWx1ZT0iZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbktleShzZWxlY3Rpb24pIgogICAgICAgICAgICAgIGNsYXNzPSJoLTYgc2hyaW5rLTAgcm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItYm9yZGVyLzcwIGJnLW11dGVkLzQwIHByLTAuNSB0ZXh0LXhzIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFRhZ3NJbnB1dEl0ZW1UZXh0IGNsYXNzPSJweC0yIHB5LTAuNSI+CiAgICAgICAgICAgICAgICB7eyBnZXRDaWRyUmVnaW9uU2VsZWN0aW9uTGFiZWwoc2VsZWN0aW9uKSB9fQogICAgICAgICAgICAgIDwvVGFnc0lucHV0SXRlbVRleHQ+CiAgICAgICAgICAgICAgPFRhZ3NJbnB1dEl0ZW1EZWxldGUKICAgICAgICAgICAgICAgIGNsYXNzPSJtci0wLjUgcm91bmRlZC1mdWxsIGhvdmVyOmJnLW11dGVkIgogICAgICAgICAgICAgICAgOmRpc2FibGVkPSJkaXNhYmxlZCIKICAgICAgICAgICAgICAgIEBjbGljay5wcmV2ZW50PSJyZW1vdmVSZWdpb24oc2VsZWN0aW9uKSIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L1RhZ3NJbnB1dEl0ZW0+CiAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgPHNwYW4KICAgICAgICAgICAgdi1lbHNlCiAgICAgICAgICAgIGNsYXNzPSJ3aGl0ZXNwYWNlLW5vd3JhcCBweC0xIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0ZXh0Lm5vUmVnaW9ucyB9fQogICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvVGFnc0lucHV0PgogICAgICA8L2Rpdj4KICAgICAgPEJ1dHRvbgogICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICBzaXplPSJzbSIKICAgICAgICBjbGFzcz0iaC03IHctNyBzaHJpbmstMCBnYXAtMS41IHAtMCB0ZXh0LXhzIG1pbi1bNDgwcHhdOnctYXV0byBtaW4tWzQ4MHB4XTpweC0yIgogICAgICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQgfHwgcHJvdmluY2VzTG9hZGluZyB8fCBwcm92aW5jZXMubGVuZ3RoID09PSAwIgogICAgICAgIDphcmlhLWxhYmVsPSJ0ZXh0LmFkZFJlZ2lvbiIKICAgICAgICBAY2xpY2s9Im9wZW5EaWFsb2ciCiAgICAgID4KICAgICAgICA8TG9hZGVyMiB2LWlmPSJwcm92aW5jZXNMb2FkaW5nIiBjbGFzcz0iaC0zLjUgdy0zLjUgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgIDxQbHVzIHYtZWxzZSBjbGFzcz0iaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgPHNwYW4gY2xhc3M9ImhpZGRlbiBtaW4tWzQ4MHB4XTppbmxpbmUiPnt7IHRleHQuYWRkUmVnaW9uIH19PC9zcGFuPgogICAgICA8L0J1dHRvbj4KICAgIDwvZGl2PgoKICAgIDxkaXYgdi1lbHNlIGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgPHAgdi1pZj0iZGVzY3JpcHRpb24iIGNsYXNzPSJ0ZXh0LXNtIGxlYWRpbmctNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIHt7IGRlc2NyaXB0aW9uIH19CiAgICAgIDwvcD4KICAgICAgPHNwYW4gdi1lbHNlPjwvc3Bhbj4KICAgICAgPEJ1dHRvbgogICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgIHNpemU9InNtIgogICAgICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQgfHwgcHJvdmluY2VzTG9hZGluZyB8fCBwcm92aW5jZXMubGVuZ3RoID09PSAwIgogICAgICAgIEBjbGljaz0ib3BlbkRpYWxvZyIKICAgICAgPgogICAgICAgIDxMb2FkZXIyIHYtaWY9InByb3ZpbmNlc0xvYWRpbmciIGNsYXNzPSJoLTQgdy00IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICA8UGx1cyB2LWVsc2UgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAge3sgdGV4dC5hZGRSZWdpb24gfX0KICAgICAgPC9CdXR0b24+CiAgICA8L2Rpdj4KCiAgICA8ZGl2CiAgICAgIHYtaWY9InByb3ZpbmNlc0xvYWRFcnJvciIKICAgICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyByb3VuZGVkLW1kIGJnLWRlc3RydWN0aXZlLzUgcHgtMyBweS0yIHRleHQteHMgdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgcm9sZT0iYWxlcnQiCiAgICA+CiAgICAgIDxzcGFuPnt7IHByb3ZpbmNlc0xvYWRFcnJvciB9fTwvc3Bhbj4KICAgICAgPEJ1dHRvbiB0eXBlPSJidXR0b24iIHZhcmlhbnQ9Im91dGxpbmUiIHNpemU9InNtIiBAY2xpY2s9ImxvYWRQcm92aW5jZXMiPgogICAgICAgIHt7IHRleHQucmV0cnkgfX0KICAgICAgPC9CdXR0b24+CiAgICA8L2Rpdj4KCiAgICA8ZGl2CiAgICAgIHYtaWY9IgogICAgICAgIGNhcGFiaWxpdHlMb2FkRXJyb3IgfHwgKGNhcGFiaWxpdGllcyAmJiAhb3BlcmF0b3JGaWx0ZXJpbmdTdXBwb3J0ZWQpCiAgICAgICIKICAgICAgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTMgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWFtYmVyLTUwMC8zMCBiZy1hbWJlci01MDAvNSBweC0zIHB5LTIgdGV4dC14cyB0ZXh0LWFtYmVyLTcwMCBkYXJrOnRleHQtYW1iZXItMzAwIgogICAgICA6cm9sZT0iY2FwYWJpbGl0eUxvYWRFcnJvciA/ICdhbGVydCcgOiB1bmRlZmluZWQiCiAgICA+CiAgICAgIDxBbGVydFRyaWFuZ2xlIGNsYXNzPSJtdC0wLjUgaC00IHctNCBzaHJpbmstMCIgLz4KICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBmbGV4LTEgc3BhY2UteS0xIj4KICAgICAgICA8cCBjbGFzcz0iZm9udC1tZWRpdW0iPgogICAgICAgICAge3sgdCgiYWRtaW4uY2lkclNlbGVjdG9yLm9wZXJhdG9yVW5hdmFpbGFibGUiKSB9fQogICAgICAgIDwvcD4KICAgICAgICA8cD4KICAgICAgICAgIHt7CiAgICAgICAgICAgIGNhcGFiaWxpdHlMb2FkRXJyb3IKICAgICAgICAgICAgICA/IHQoImFkbWluLmNpZHJTZWxlY3Rvci5jYXBhYmlsaXR5Q2hlY2tGYWlsZWQiKQogICAgICAgICAgICAgIDogdCgiYWRtaW4uY2lkclNlbGVjdG9yLm9wZXJhdG9yVXBncmFkZVJlcXVpcmVkIiwgewogICAgICAgICAgICAgICAgICB2ZXJzaW9uOgogICAgICAgICAgICAgICAgICAgIGNhcGFiaWxpdGllcz8ub3BlcmF0b3JGaWx0ZXJpbmcubWluaW11bUNvbnRhaW5lclZlcnNpb24gPz8KICAgICAgICAgICAgICAgICAgICAiMC4xLjMiLAogICAgICAgICAgICAgICAgfSkKICAgICAgICAgIH19CiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KICAgICAgPEJ1dHRvbgogICAgICAgIHYtaWY9ImNhcGFiaWxpdHlMb2FkRXJyb3IiCiAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgOmRpc2FibGVkPSJjYXBhYmlsaXRpZXNMb2FkaW5nIgogICAgICAgIEBjbGljaz0ibG9hZENhcGFiaWxpdGllcyIKICAgICAgPgogICAgICAgIHt7IHRleHQucmV0cnkgfX0KICAgICAgPC9CdXR0b24+CiAgICA8L2Rpdj4KCiAgICA8ZGl2IHYtaWY9ImxheW91dCAhPT0gJ2NvbXBhY3QnIiBjbGFzcz0icm91bmRlZC14bCBiZy1tdXRlZC8yMCBweC00IHB5LTQiPgogICAgICA8VGFnc0lucHV0CiAgICAgICAgOm1vZGVsLXZhbHVlPSJzZWxlY3Rpb25zLm1hcCgoaXRlbSkgPT4gZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbktleShpdGVtKSkiCiAgICAgICAgY2xhc3M9Im1pbi1oLTAgaXRlbXMtc3RhcnQgZ2FwLTIgYm9yZGVyLW5vbmUgYmctdHJhbnNwYXJlbnQgcHgtMCBweS0wIHNoYWRvdy1ub25lIgogICAgICA+CiAgICAgICAgPHRlbXBsYXRlIHYtaWY9InNlbGVjdGlvbnMubGVuZ3RoID4gMCI+CiAgICAgICAgICA8VGFnc0lucHV0SXRlbQogICAgICAgICAgICB2LWZvcj0ic2VsZWN0aW9uIGluIHNlbGVjdGlvbnMiCiAgICAgICAgICAgIDprZXk9ImdldENpZHJSZWdpb25TZWxlY3Rpb25LZXkoc2VsZWN0aW9uKSIKICAgICAgICAgICAgOnZhbHVlPSJnZXRDaWRyUmVnaW9uU2VsZWN0aW9uS2V5KHNlbGVjdGlvbikiCiAgICAgICAgICAgIGNsYXNzPSJoLWF1dG8gcm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItYm9yZGVyLzcwIGJnLWJhY2tncm91bmQgcHItMSIKICAgICAgICAgID4KICAgICAgICAgICAgPFRhZ3NJbnB1dEl0ZW1UZXh0IGNsYXNzPSJweC0zIHB5LTEuNSI+CiAgICAgICAgICAgICAge3sgZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbkxhYmVsKHNlbGVjdGlvbikgfX0KICAgICAgICAgICAgPC9UYWdzSW5wdXRJdGVtVGV4dD4KICAgICAgICAgICAgPFRhZ3NJbnB1dEl0ZW1EZWxldGUKICAgICAgICAgICAgICBjbGFzcz0ibXItMSByb3VuZGVkLWZ1bGwgaG92ZXI6YmctbXV0ZWQiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJkaXNhYmxlZCIKICAgICAgICAgICAgICBAY2xpY2sucHJldmVudD0icmVtb3ZlUmVnaW9uKHNlbGVjdGlvbikiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L1RhZ3NJbnB1dEl0ZW0+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICA8c3BhbiB2LWVsc2UgY2xhc3M9InB4LTEgcHktMSB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyB0ZXh0Lm5vUmVnaW9ucyB9fQogICAgICAgIDwvc3Bhbj4KICAgICAgPC9UYWdzSW5wdXQ+CiAgICA8L2Rpdj4KCiAgICA8RGlhbG9nIDpvcGVuPSJpc0RpYWxvZ09wZW4iIEB1cGRhdGU6b3Blbj0iaGFuZGxlRGlhbG9nT3BlbkNoYW5nZSI+CiAgICAgIDxEaWFsb2dDb250ZW50CiAgICAgICAgY2xhc3M9Im92ZXJmbG93LWhpZGRlbiBib3JkZXItYm9yZGVyLzcwIGJnLWJhY2tncm91bmQgcC0wIHNoYWRvdy14bCBzbTptYXgtdy1bNTYwcHhdIgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzcz0icHgtNiBwdC02IHBiLTIiPgogICAgICAgICAgPERpYWxvZ0hlYWRlciBjbGFzcz0ic3BhY2UteS0yIHRleHQtbGVmdCI+CiAgICAgICAgICAgIDxEaWFsb2dUaXRsZSBjbGFzcz0idGV4dC14bCBmb250LXNlbWlib2xkIHRyYWNraW5nLXRpZ2h0Ij4KICAgICAgICAgICAgICB7eyB0ZXh0LmFkZFJlZ2lvbiB9fQogICAgICAgICAgICA8L0RpYWxvZ1RpdGxlPgogICAgICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24gY2xhc3M9InRleHQtc20gbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAge3sgdGV4dC5kaWFsb2dEZXNjcmlwdGlvbiB9fQogICAgICAgICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktNCBib3JkZXItdCBib3JkZXItYm9yZGVyLzYwIHB4LTYgcHktNSI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC00IHNtOmdyaWQtY29scy0yIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgICAgICA8TGFiZWwKICAgICAgICAgICAgICAgIDpmb3I9ImAke2ExMXlJZH0tY2lkcnJlZ2lvbnNlbGVjdG9yLTFgIgogICAgICAgICAgICAgICAgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iCiAgICAgICAgICAgICAgICA+e3sgdGV4dC5wcm92aW5jZSB9fTwvTGFiZWwKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFNlbGVjdAogICAgICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJkcmFmdC5wcm92aW5jZSIKICAgICAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9ImhhbmRsZVByb3ZpbmNlQ2hhbmdlIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyCiAgICAgICAgICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1jaWRycmVnaW9uc2VsZWN0b3ItMWAiCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJoLTExIHctZnVsbCByb3VuZGVkLWxnIGJvcmRlci1ib3JkZXIvNzAgYmctYmFja2dyb3VuZCBweC0zIHNoYWRvdy1ub25lIgogICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImRpc2FibGVkIHx8IHByb3ZpbmNlcy5sZW5ndGggPT09IDAiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxTZWxlY3RWYWx1ZSA6cGxhY2Vob2xkZXI9InRleHQuc2VsZWN0UHJvdmluY2UiIC8+CiAgICAgICAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICAgICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICAgICAgICAgICAgPFNlbGVjdEl0ZW0KICAgICAgICAgICAgICAgICAgICB2LWZvcj0icHJvdmluY2UgaW4gcHJvdmluY2VzIgogICAgICAgICAgICAgICAgICAgIDprZXk9InByb3ZpbmNlLnZhbHVlIgogICAgICAgICAgICAgICAgICAgIDp2YWx1ZT0icHJvdmluY2UudmFsdWUiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7eyBwcm92aW5jZS5sYWJlbCB9fQogICAgICAgICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgICAgPC9TZWxlY3Q+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgICAgICA8TGFiZWwKICAgICAgICAgICAgICAgIDpmb3I9ImAke2ExMXlJZH0tY2lkcnJlZ2lvbnNlbGVjdG9yLTJgIgogICAgICAgICAgICAgICAgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2lkclNlbGVjdG9yLm9wZXJhdG9yIikgfX0KICAgICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICAgIDxTZWxlY3QKICAgICAgICAgICAgICAgIDptb2RlbC12YWx1ZT0iZHJhZnQub3BlcmF0b3IgPz8gQUxMX09QRVJBVE9SU19WQUxVRSIKICAgICAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9ImhhbmRsZU9wZXJhdG9yQ2hhbmdlIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyCiAgICAgICAgICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1jaWRycmVnaW9uc2VsZWN0b3ItMmAiCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJoLTExIHctZnVsbCByb3VuZGVkLWxnIGJvcmRlci1ib3JkZXIvNzAgYmctYmFja2dyb3VuZCBweC0zIHNoYWRvdy1ub25lIgogICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImRpc2FibGVkIHx8IGNhcGFiaWxpdGllc0xvYWRpbmciCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxTZWxlY3RWYWx1ZSAvPgogICAgICAgICAgICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICAgICAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgICAgICAgIDxTZWxlY3RJdGVtIDp2YWx1ZT0iQUxMX09QRVJBVE9SU19WQUxVRSI+CiAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2lkclNlbGVjdG9yLmFsbE9wZXJhdG9ycyIpIH19CiAgICAgICAgICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICAgICAgICAgICAgPFNlbGVjdEl0ZW0KICAgICAgICAgICAgICAgICAgICB2LWZvcj0ib3BlcmF0b3IgaW4gb3BlcmF0b3JzIgogICAgICAgICAgICAgICAgICAgIDprZXk9Im9wZXJhdG9yIgogICAgICAgICAgICAgICAgICAgIDp2YWx1ZT0ib3BlcmF0b3IiCiAgICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSIhb3BlcmF0b3JGaWx0ZXJpbmdTdXBwb3J0ZWQiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7eyBvcGVyYXRvciB9fQogICAgICAgICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgICAgPC9TZWxlY3Q+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIHNtOmNvbC1zcGFuLTIiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggbWluLWgtNSBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPnt7IHRleHQuc2NvcGUgfX08L2Rpdj4KICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgIHYtaWY9ImRyYWZ0LnByb3ZpbmNlICYmICFjaXR5T3B0aW9uc0xvYWRpbmciCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAge3sgdGV4dC5zZWxlY3RlZENvdW50KHNlbGVjdGVkQ2l0eUNvdW50KSB9fQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICByb2xlPSJncm91cCIKICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0ZXh0LnNjb3BlIgogICAgICAgICAgICAgICAgY2xhc3M9Im1pbi1oLTQ0IG92ZXJmbG93LWhpZGRlbiByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyLzcwIGJnLWJhY2tncm91bmQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICB2LWlmPSJjaXR5T3B0aW9uc0xvYWRpbmciCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJmbGV4IG1pbi1oLTQ0IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPExvYWRlcjIgY2xhc3M9ImgtNCB3LTQgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgICAgICAgICAgICB7eyB0ZXh0LmxvYWRpbmcgfX0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICB2LWVsc2UtaWY9IiFkcmFmdC5wcm92aW5jZSIKICAgICAgICAgICAgICAgICAgY2xhc3M9ImZsZXggbWluLWgtNDQgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHB4LTQgdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IHRleHQuc2VsZWN0UHJvdmluY2VGaXJzdCB9fQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgIHYtZWxzZS1pZj0iY2l0eUNob2ljZXMubGVuZ3RoID09PSAwIgogICAgICAgICAgICAgICAgICBjbGFzcz0iZmxleCBtaW4taC00NCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcHgtNCB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAge3sgdGV4dC5zZWxlY3RDaXR5IH19CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgdi1lbHNlIGNsYXNzPSJtYXgtaC02NCBvdmVyZmxvdy15LWF1dG8gcC0yIj4KICAgICAgICAgICAgICAgICAgPGxhYmVsCiAgICAgICAgICAgICAgICAgICAgdi1mb3I9ImNob2ljZSBpbiBjaXR5Q2hvaWNlcyIKICAgICAgICAgICAgICAgICAgICA6a2V5PSJjaG9pY2Uua2V5IgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJmbGV4IGN1cnNvci1wb2ludGVyIGl0ZW1zLWNlbnRlciBnYXAtMyByb3VuZGVkLW1kIHB4LTMgcHktMi41IHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLW11dGVkLzUwIgogICAgICAgICAgICAgICAgICAgIDpjbGFzcz0iewogICAgICAgICAgICAgICAgICAgICAgJ2JnLXByaW1hcnkvNSc6IGlzQ2l0eVNlbGVjdGVkKGNob2ljZS5rZXkpLAogICAgICAgICAgICAgICAgICAgICAgJ2N1cnNvci1ub3QtYWxsb3dlZCBvcGFjaXR5LTYwJzogZGlzYWJsZWQsCiAgICAgICAgICAgICAgICAgICAgfSIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxDaGVja2JveAogICAgICAgICAgICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJpc0NpdHlTZWxlY3RlZChjaG9pY2Uua2V5KSIKICAgICAgICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQiCiAgICAgICAgICAgICAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSIKICAgICAgICAgICAgICAgICAgICAgICAgKHZhbHVlKSA9PiB0b2dnbGVDaXR5KGNob2ljZS5rZXksIHZhbHVlID09PSB0cnVlKQogICAgICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9Im1pbi13LTAgZmxleC0xIHRleHQtc20iPgogICAgICAgICAgICAgICAgICAgICAge3sgY2hvaWNlLmxhYmVsIH19CiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICB2LWlmPSJjaG9pY2UudW5hdmFpbGFibGUiCiAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0ic2hyaW5rLTAgcm91bmRlZC1mdWxsIGJnLW11dGVkIHB4LTIgcHktMC41IHRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICB7eyB0ZXh0LnVuYXZhaWxhYmxlIH19CiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxEaWFsb2dGb290ZXIKICAgICAgICAgIGNsYXNzPSJib3JkZXItdCBib3JkZXItYm9yZGVyLzYwIHB4LTYgcHktNCBzbTpqdXN0aWZ5LWVuZCIKICAgICAgICA+CiAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0iaGFuZGxlRGlhbG9nT3BlbkNoYW5nZShmYWxzZSkiPgogICAgICAgICAgICB7eyB0ZXh0LmNhbmNlbCB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIDpkaXNhYmxlZD0iIWNhblNhdmVTZWxlY3Rpb25zIgogICAgICAgICAgICBAY2xpY2s9InNhdmVQcm92aW5jZVNlbGVjdGlvbnMiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHRleHQuYWRkIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgICAgPC9EaWFsb2dDb250ZW50PgogICAgPC9EaWFsb2c+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { onMounted, toRef, useId } from "vue";
+import { AlertTriangle, Loader2, Plus } from "lucide-vue-next";
+import type { AcceptableValue } from "reka-ui";
+import { useI18n } from "vue-i18n";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
+  TagsInput,
+  TagsInputItem,
+  TagsInputItemDelete,
+  TagsInputItemText,
+} from "@/components/ui/tags-input";
+import { CidrAPI } from "@/lib/api/gateway";
+import type { CidrOperator, GatewayVisibilitySelection } from "@/types";
+import {
+  getCidrRegionSelectionKey,
+  getCidrRegionSelectionLabel,
+} from "@/types/cidr";
+import { createCidrRegionSelectorState } from "./cidr-region-selector-state";
+
+const a11yId = useId();
+
+interface CidrRegionSelectorText {
+  add: string;
+  addRegion: string;
+  cancel: string;
+  dialogDescription: string;
+  loadFailed: string;
+  loadFailedDescription: string;
+  loading: string;
+  noRegions: string;
+  province: string;
+  retry: string;
+  selectedCount: (count: number) => string;
+  scope: string;
+  selectCity: string;
+  selectProvince: string;
+  selectProvinceFirst: string;
+  unavailable: string;
+}
+
+const props = withDefaults(
+  defineProps<{
+    description?: string;
+    disabled?: boolean;
+    layout?: "default" | "compact";
+    text: CidrRegionSelectorText;
+  }>(),
+  {
+    description: "",
+    disabled: false,
+    layout: "default",
+  },
+);
+
+const selections = defineModel<GatewayVisibilitySelection[]>({
+  required: true,
+});
+const { t } = useI18n();
+const {
+  activeSelectionKeys,
+  canSaveSelections,
+  capabilities,
+  capabilitiesLoading,
+  capabilityLoadError,
+  cityChoices,
+  cityOptionsLoading,
+  draft,
+  handleDialogOpenChange,
+  isDialogOpen,
+  loadCapabilities,
+  loadProvinces,
+  openDialog,
+  operatorFilteringSupported,
+  operators,
+  provinces,
+  provincesLoadError,
+  provincesLoading,
+  removeRegion,
+  saveProvinceSelections,
+  selectOperator,
+  selectProvince,
+  selectedCityCount,
+  toggleCity,
+} = createCidrRegionSelectorState({
+  disabled: toRef(props, "disabled"),
+  formatLoadError: (error) =>
+    extractErrorMessage(error, props.text.loadFailedDescription),
+  loadCapabilities: () => CidrAPI.getCapabilities(),
+  loadCities: (province) => CidrAPI.getCities(province),
+  loadProvinces: () => CidrAPI.getProvinces(),
+  onLoadError: (description) => {
+    toast.error(props.text.loadFailed, { description });
+  },
+  selections,
+});
+
+const handleProvinceChange = (value: AcceptableValue) => {
+  selectProvince(typeof value === "string" ? value : "");
+};
+const ALL_OPERATORS_VALUE = "__all_operators__";
+const handleOperatorChange = (value: AcceptableValue) => {
+  const normalized = typeof value === "string" ? value : ALL_OPERATORS_VALUE;
+  selectOperator(
+    normalized === ALL_OPERATORS_VALUE ? null : (normalized as CidrOperator),
+  );
+};
+const isCitySelected = (key: string) => activeSelectionKeys.value.includes(key);
+onMounted(() => {
+  void Promise.all([loadProvinces(), loadCapabilities()]);
+});
+</script>
+
+<template>
+  <div class="space-y-3">
+    <div
+      v-if="layout === 'compact'"
+      class="flex min-h-9 min-w-0 items-center gap-2 rounded-md border border-input bg-background px-2 py-1 shadow-xs"
+      :title="description"
+    >
+      <div
+        class="min-w-0 flex-1 overflow-x-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
+      >
+        <TagsInput
+          :model-value="
+            selections.map((item) => getCidrRegionSelectionKey(item))
+          "
+          class="h-7 min-h-0 w-max min-w-full flex-nowrap items-center gap-1.5 border-none bg-transparent px-0 py-0 shadow-none"
+        >
+          <template v-if="selections.length > 0">
+            <TagsInputItem
+              v-for="selection in selections"
+              :key="getCidrRegionSelectionKey(selection)"
+              :value="getCidrRegionSelectionKey(selection)"
+              class="h-6 shrink-0 rounded-full border border-border/70 bg-muted/40 pr-0.5 text-xs"
+            >
+              <TagsInputItemText class="px-2 py-0.5">
+                {{ getCidrRegionSelectionLabel(selection) }}
+              </TagsInputItemText>
+              <TagsInputItemDelete
+                class="mr-0.5 rounded-full hover:bg-muted"
+                :disabled="disabled"
+                @click.prevent="removeRegion(selection)"
+              />
+            </TagsInputItem>
+          </template>
+          <span
+            v-else
+            class="whitespace-nowrap px-1 text-sm text-muted-foreground"
+          >
+            {{ text.noRegions }}
+          </span>
+        </TagsInput>
+      </div>
+      <Button
+        type="button"
+        variant="ghost"
+        size="sm"
+        class="h-7 w-7 shrink-0 gap-1.5 p-0 text-xs min-[480px]:w-auto min-[480px]:px-2"
+        :disabled="disabled || provincesLoading || provinces.length === 0"
+        :aria-label="text.addRegion"
+        @click="openDialog"
+      >
+        <Loader2 v-if="provincesLoading" class="h-3.5 w-3.5 animate-spin" />
+        <Plus v-else class="h-3.5 w-3.5" />
+        <span class="hidden min-[480px]:inline">{{ text.addRegion }}</span>
+      </Button>
+    </div>
+
+    <div v-else class="flex flex-wrap items-center justify-between gap-3">
+      <p v-if="description" class="text-sm leading-6 text-muted-foreground">
+        {{ description }}
+      </p>
+      <span v-else></span>
+      <Button
+        type="button"
+        variant="outline"
+        size="sm"
+        :disabled="disabled || provincesLoading || provinces.length === 0"
+        @click="openDialog"
+      >
+        <Loader2 v-if="provincesLoading" class="h-4 w-4 animate-spin" />
+        <Plus v-else class="h-4 w-4" />
+        {{ text.addRegion }}
+      </Button>
+    </div>
+
+    <div
+      v-if="provincesLoadError"
+      class="flex items-center justify-between gap-3 rounded-md bg-destructive/5 px-3 py-2 text-xs text-destructive"
+      role="alert"
+    >
+      <span>{{ provincesLoadError }}</span>
+      <Button type="button" variant="outline" size="sm" @click="loadProvinces">
+        {{ text.retry }}
+      </Button>
+    </div>
+
+    <div
+      v-if="
+        capabilityLoadError || (capabilities && !operatorFilteringSupported)
+      "
+      class="flex items-start gap-3 rounded-md border border-amber-500/30 bg-amber-500/5 px-3 py-2 text-xs text-amber-700 dark:text-amber-300"
+      :role="capabilityLoadError ? 'alert' : undefined"
+    >
+      <AlertTriangle class="mt-0.5 h-4 w-4 shrink-0" />
+      <div class="min-w-0 flex-1 space-y-1">
+        <p class="font-medium">
+          {{ t("admin.cidrSelector.operatorUnavailable") }}
+        </p>
+        <p>
+          {{
+            capabilityLoadError
+              ? t("admin.cidrSelector.capabilityCheckFailed")
+              : t("admin.cidrSelector.operatorUpgradeRequired", {
+                  version:
+                    capabilities?.operatorFiltering.minimumContainerVersion ??
+                    "0.1.3",
+                })
+          }}
+        </p>
+      </div>
+      <Button
+        v-if="capabilityLoadError"
+        type="button"
+        variant="outline"
+        size="sm"
+        :disabled="capabilitiesLoading"
+        @click="loadCapabilities"
+      >
+        {{ text.retry }}
+      </Button>
+    </div>
+
+    <div v-if="layout !== 'compact'" class="rounded-xl bg-muted/20 px-4 py-4">
+      <TagsInput
+        :model-value="selections.map((item) => getCidrRegionSelectionKey(item))"
+        class="min-h-0 items-start gap-2 border-none bg-transparent px-0 py-0 shadow-none"
+      >
+        <template v-if="selections.length > 0">
+          <TagsInputItem
+            v-for="selection in selections"
+            :key="getCidrRegionSelectionKey(selection)"
+            :value="getCidrRegionSelectionKey(selection)"
+            class="h-auto rounded-full border border-border/70 bg-background pr-1"
+          >
+            <TagsInputItemText class="px-3 py-1.5">
+              {{ getCidrRegionSelectionLabel(selection) }}
+            </TagsInputItemText>
+            <TagsInputItemDelete
+              class="mr-1 rounded-full hover:bg-muted"
+              :disabled="disabled"
+              @click.prevent="removeRegion(selection)"
+            />
+          </TagsInputItem>
+        </template>
+        <span v-else class="px-1 py-1 text-sm text-muted-foreground">
+          {{ text.noRegions }}
+        </span>
+      </TagsInput>
+    </div>
+
+    <Dialog :open="isDialogOpen" @update:open="handleDialogOpenChange">
+      <DialogContent
+        class="overflow-hidden border-border/70 bg-background p-0 shadow-xl sm:max-w-[560px]"
+      >
+        <div class="px-6 pt-6 pb-2">
+          <DialogHeader class="space-y-2 text-left">
+            <DialogTitle class="text-xl font-semibold tracking-tight">
+              {{ text.addRegion }}
+            </DialogTitle>
+            <DialogDescription class="text-sm leading-6 text-muted-foreground">
+              {{ text.dialogDescription }}
+            </DialogDescription>
+          </DialogHeader>
+        </div>
+
+        <div class="space-y-4 border-t border-border/60 px-6 py-5">
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div class="space-y-2">
+              <Label
+                :for="`${a11yId}-cidrregionselector-1`"
+                class="text-sm font-medium"
+                >{{ text.province }}</Label
+              >
+              <Select
+                :model-value="draft.province"
+                @update:model-value="handleProvinceChange"
+              >
+                <SelectTrigger
+                  :id="`${a11yId}-cidrregionselector-1`"
+                  class="h-11 w-full rounded-lg border-border/70 bg-background px-3 shadow-none"
+                  :disabled="disabled || provinces.length === 0"
+                >
+                  <SelectValue :placeholder="text.selectProvince" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem
+                    v-for="province in provinces"
+                    :key="province.value"
+                    :value="province.value"
+                  >
+                    {{ province.label }}
+                  </SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div class="space-y-2">
+              <Label
+                :for="`${a11yId}-cidrregionselector-2`"
+                class="text-sm font-medium"
+              >
+                {{ t("admin.cidrSelector.operator") }}
+              </Label>
+              <Select
+                :model-value="draft.operator ?? ALL_OPERATORS_VALUE"
+                @update:model-value="handleOperatorChange"
+              >
+                <SelectTrigger
+                  :id="`${a11yId}-cidrregionselector-2`"
+                  class="h-11 w-full rounded-lg border-border/70 bg-background px-3 shadow-none"
+                  :disabled="disabled || capabilitiesLoading"
+                >
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem :value="ALL_OPERATORS_VALUE">
+                    {{ t("admin.cidrSelector.allOperators") }}
+                  </SelectItem>
+                  <SelectItem
+                    v-for="operator in operators"
+                    :key="operator"
+                    :value="operator"
+                    :disabled="!operatorFilteringSupported"
+                  >
+                    {{ operator }}
+                  </SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div class="space-y-2 sm:col-span-2">
+              <div class="flex min-h-5 items-center justify-between gap-3">
+                <div class="text-sm font-medium">{{ text.scope }}</div>
+                <span
+                  v-if="draft.province && !cityOptionsLoading"
+                  class="text-xs text-muted-foreground"
+                >
+                  {{ text.selectedCount(selectedCityCount) }}
+                </span>
+              </div>
+
+              <div
+                role="group"
+                :aria-label="text.scope"
+                class="min-h-44 overflow-hidden rounded-lg border border-border/70 bg-background"
+              >
+                <div
+                  v-if="cityOptionsLoading"
+                  class="flex min-h-44 items-center justify-center gap-2 text-sm text-muted-foreground"
+                >
+                  <Loader2 class="h-4 w-4 animate-spin" />
+                  {{ text.loading }}
+                </div>
+                <div
+                  v-else-if="!draft.province"
+                  class="flex min-h-44 items-center justify-center px-4 text-center text-sm text-muted-foreground"
+                >
+                  {{ text.selectProvinceFirst }}
+                </div>
+                <div
+                  v-else-if="cityChoices.length === 0"
+                  class="flex min-h-44 items-center justify-center px-4 text-center text-sm text-muted-foreground"
+                >
+                  {{ text.selectCity }}
+                </div>
+                <div v-else class="max-h-64 overflow-y-auto p-2">
+                  <label
+                    v-for="choice in cityChoices"
+                    :key="choice.key"
+                    class="flex cursor-pointer items-center gap-3 rounded-md px-3 py-2.5 transition-colors hover:bg-muted/50"
+                    :class="{
+                      'bg-primary/5': isCitySelected(choice.key),
+                      'cursor-not-allowed opacity-60': disabled,
+                    }"
+                  >
+                    <Checkbox
+                      :model-value="isCitySelected(choice.key)"
+                      :disabled="disabled"
+                      @update:model-value="
+                        (value) => toggleCity(choice.key, value === true)
+                      "
+                    />
+                    <span class="min-w-0 flex-1 text-sm">
+                      {{ choice.label }}
+                    </span>
+                    <span
+                      v-if="choice.unavailable"
+                      class="shrink-0 rounded-full bg-muted px-2 py-0.5 text-[11px] text-muted-foreground"
+                    >
+                      {{ text.unavailable }}
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <DialogFooter
+          class="border-t border-border/60 px-6 py-4 sm:justify-end"
+        >
+          <Button variant="outline" @click="handleDialogOpenChange(false)">
+            {{ text.cancel }}
+          </Button>
+          <Button
+            :disabled="!canSaveSelections"
+            @click="saveProvinceSelections"
+          >
+            {{ text.add }}
+          </Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  </div>
+</template>

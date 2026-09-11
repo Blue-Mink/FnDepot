@@ -1,1 +1,554 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiBzeW5jX2dvX3J1bGVzKHN0YXRlOiAmQXBwU3RhdGUsIHJ1bGVzOiAmVmFsdWUpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBlbnN1cmVfZ29fc3VjY2VzcygKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAuY2xpZW50CiAgICAgICAgICAgIC5zZXRfcnVsZXMocnVsZXMpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT8sCiAgICApCn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gc3luY19nb19ob3N0X3J1bGVzX2xvY2tlZCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBydWxlczogJlZhbHVlLAopIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBzeW5jX2dvX2hvc3RfcnVsZXNfd2l0aF9jbGllbnRfbG9ja2VkKHN0YXRlLCAmc3RhdGUuZ2F0ZXdheS5jbGllbnQsIHJ1bGVzLCB0cnVlKS5hd2FpdAp9Cgphc3luYyBmbiBzeW5jX2dvX2hvc3RfcnVsZXNfd2l0aF9jbGllbnRfbG9ja2VkKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGNsaWVudDogJmNyYXRlOjpnb19iYWNrZW5kOjpHb0JhY2tlbmRDbGllbnQsCiAgICBydWxlczogJlZhbHVlLAogICAgbm90aWZ5X3JlY29uY2lsZXJfb25fZmFpbHVyZTogYm9vbCwKKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgc3RhdGUuc2V0X2dhdGV3YXlfY29uZmlnX3N5bmNlZChmYWxzZSk7CiAgICBzdGF0ZS5ydW50aW1lX2hlYWx0aC5vcGVyYXRpb25hbF9sb2coCiAgICAgICAgIklORk8iLAogICAgICAgICJjb25maWdfc3luYyIsCiAgICAgICAgImFwcGx5X3N0YXJ0ZWQiLAogICAgICAgICJob3N0X3J1bGVzX3BlbmRpbmciLAogICAgICAgIE1hcDo6bmV3KCksCiAgICApOwogICAgbGV0IHJlc3VsdDogUmVzdWx0PCgpLCBTdHJpbmc+ID0gYXN5bmMgewogICAgICAgIGxldCByZXNwb25zZSA9IGNsaWVudAogICAgICAgICAgICAuc2V0X2hvc3RfcnVsZXMocnVsZXMpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICAgICAgZW5zdXJlX2dvX3N1Y2Nlc3MocmVzcG9uc2UuY2xvbmUoKSk/OwogICAgICAgIGVuc3VyZV9nb19ob3N0X3Byb3RvY29sX21vZGVzX2FwcGxpZWQocnVsZXMsICZyZXNwb25zZSk/OwogICAgICAgIE9rKCgpKQogICAgfQogICAgLmF3YWl0OwogICAgaWYgcmVzdWx0LmlzX29rKCkgewogICAgICAgIHN0YXRlLnNldF9nYXRld2F5X2NvbmZpZ19zeW5jZWQodHJ1ZSk7CiAgICAgICAgc3RhdGUucnVudGltZV9oZWFsdGgub3BlcmF0aW9uYWxfbG9nKAogICAgICAgICAgICAiSU5GTyIsCiAgICAgICAgICAgICJjb25maWdfc3luYyIsCiAgICAgICAgICAgICJhcHBseV9jb21wbGV0ZWQiLAogICAgICAgICAgICAiaG9zdF9ydWxlc19hcHBsaWVkIiwKICAgICAgICAgICAgTWFwOjpuZXcoKSwKICAgICAgICApOwogICAgfSBlbHNlIGlmIGxldCBFcnIoZXJyb3IpID0gJnJlc3VsdCB7CiAgICAgICAgbGV0IG11dCBmaWVsZHMgPSBNYXA6Om5ldygpOwogICAgICAgIGZpZWxkcy5pbnNlcnQoCiAgICAgICAgICAgICJmYWlsdXJlX2NsYXNzIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgVmFsdWU6OlN0cmluZyhob3N0X3J1bGVzX2ZhaWx1cmVfY2xhc3MoZXJyb3IpLnRvX3N0cmluZygpKSwKICAgICAgICApOwogICAgICAgIHN0YXRlLnJ1bnRpbWVfaGVhbHRoLm9wZXJhdGlvbmFsX2xvZygKICAgICAgICAgICAgIkVSUk9SIiwKICAgICAgICAgICAgImNvbmZpZ19zeW5jIiwKICAgICAgICAgICAgImFwcGx5X2ZhaWxlZCIsCiAgICAgICAgICAgICJob3N0X3J1bGVzX3JlamVjdGVkIiwKICAgICAgICAgICAgZmllbGRzLAogICAgICAgICk7CiAgICAgICAgaWYgbm90aWZ5X3JlY29uY2lsZXJfb25fZmFpbHVyZSB7CiAgICAgICAgICAgIHN0YXRlLnJlcXVlc3RfZ2F0ZXdheV9jb25maWdfcmVjb25jaWxlKCk7CiAgICAgICAgfQogICAgfQogICAgcmVzdWx0Cn0KCnB1YihzdXBlcikgZm4gaG9zdF9ydWxlc19mYWlsdXJlX2NsYXNzKGVycm9yOiAmc3RyKSAtPiAmJ3N0YXRpYyBzdHIgewogICAgbGV0IGVycm9yID0gZXJyb3IudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBpZiBlcnJvci5jb250YWlucygicmV0dXJuZWQgNDAwIGJhZCByZXF1ZXN0IikgfHwgZXJyb3IuY29udGFpbnMoImludmFsaWQgaG9zdCBydWxlIikgewogICAgICAgICJ2YWxpZGF0aW9uIgogICAgfSBlbHNlIGlmIGVycm9yLmNvbnRhaW5zKCJyZXR1cm5lZCA0MDEgdW5hdXRob3JpemVkIikKICAgICAgICB8fCBlcnJvci5jb250YWlucygicmV0dXJuZWQgNDAzIGZvcmJpZGRlbiIpCiAgICB7CiAgICAgICAgImF1dGhvcml6YXRpb24iCiAgICB9IGVsc2UgaWYgZXJyb3IuY29udGFpbnMoImRpZCBub3QgYXBwbHkiKQogICAgICAgIHx8IGVycm9yLmNvbnRhaW5zKCJtaXNzaW5nIGRhdGEiKQogICAgICAgIHx8IGVycm9yLmNvbnRhaW5zKCJ1cGdyYWRlIHRoZSBnYXRld2F5IGJhY2tlbmQiKQogICAgewogICAgICAgICJjb21wYXRpYmlsaXR5IgogICAgfSBlbHNlIGlmIFsKICAgICAgICAidGltZWQgb3V0IiwKICAgICAgICAidGltZW91dCBleHBpcmVkIiwKICAgICAgICAiZGVhZGxpbmUgZXhjZWVkZWQiLAogICAgICAgICJyZXR1cm5lZCA1MDAgaW50ZXJuYWwgc2VydmVyIGVycm9yIiwKICAgICAgICAicmV0dXJuZWQgNTAyIGJhZCBnYXRld2F5IiwKICAgICAgICAicmV0dXJuZWQgNTAzIHNlcnZpY2UgdW5hdmFpbGFibGUiLAogICAgICAgICJyZXR1cm5lZCA1MDQgZ2F0ZXdheSB0aW1lb3V0IiwKICAgICAgICAic3RhdHVzOiB1bmF2YWlsYWJsZSIsCiAgICAgICAgInRyYW5zcG9ydCBlcnJvciIsCiAgICAgICAgImNvbm5lY3Rpb24gcmVmdXNlZCIsCiAgICAgICAgImNvbm5lY3Rpb24gcmVzZXQiLAogICAgXQogICAgLml0ZXIoKQogICAgLmFueSh8bWFya2VyfCBlcnJvci5jb250YWlucyhtYXJrZXIpKQogICAgewogICAgICAgICJ0cmFuc2llbnRfZ2F0ZXdheSIKICAgIH0gZWxzZSB7CiAgICAgICAgInVua25vd24iCiAgICB9Cn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gZmx1c2hfZ29faG9zdF9ydWxlc19sb2NrZWQoc3RhdGU6ICZBcHBTdGF0ZSkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGZsdXNoX2dvX2hvc3RfcnVsZXNfd2l0aF9jbGllbnRfbG9ja2VkKHN0YXRlLCAmc3RhdGUuZ2F0ZXdheS5jbGllbnQsIHRydWUpLmF3YWl0Cn0KCmFzeW5jIGZuIGZsdXNoX2dvX2hvc3RfcnVsZXNfd2l0aF9jbGllbnRfbG9ja2VkKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGNsaWVudDogJmNyYXRlOjpnb19iYWNrZW5kOjpHb0JhY2tlbmRDbGllbnQsCiAgICBub3RpZnlfcmVjb25jaWxlcl9vbl9mYWlsdXJlOiBib29sLAopIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBzdGF0ZS5zZXRfZ2F0ZXdheV9jb25maWdfc3luY2VkKGZhbHNlKTsKICAgIGxldCByZXN1bHQgPSBjbGllbnQKICAgICAgICAuZmx1c2hfaG9zdF9ydWxlcygpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSkKICAgICAgICAuYW5kX3RoZW4oZW5zdXJlX2dvX3N1Y2Nlc3MpOwogICAgaWYgcmVzdWx0LmlzX29rKCkgewogICAgICAgIHN0YXRlLnNldF9nYXRld2F5X2NvbmZpZ19zeW5jZWQodHJ1ZSk7CiAgICAgICAgc3RhdGUucnVudGltZV9oZWFsdGgub3BlcmF0aW9uYWxfbG9nKAogICAgICAgICAgICAiSU5GTyIsCiAgICAgICAgICAgICJjb25maWdfc3luYyIsCiAgICAgICAgICAgICJhcHBseV9jb21wbGV0ZWQiLAogICAgICAgICAgICAiaG9zdF9ydWxlc19mbHVzaGVkIiwKICAgICAgICAgICAgTWFwOjpuZXcoKSwKICAgICAgICApOwogICAgfSBlbHNlIHsKICAgICAgICBzdGF0ZS5ydW50aW1lX2hlYWx0aC5vcGVyYXRpb25hbF9sb2coCiAgICAgICAgICAgICJFUlJPUiIsCiAgICAgICAgICAgICJjb25maWdfc3luYyIsCiAgICAgICAgICAgICJhcHBseV9mYWlsZWQiLAogICAgICAgICAgICAiaG9zdF9ydWxlc19mbHVzaF9mYWlsZWQiLAogICAgICAgICAgICBNYXA6Om5ldygpLAogICAgICAgICk7CiAgICAgICAgaWYgbm90aWZ5X3JlY29uY2lsZXJfb25fZmFpbHVyZSB7CiAgICAgICAgICAgIHN0YXRlLnJlcXVlc3RfZ2F0ZXdheV9jb25maWdfcmVjb25jaWxlKCk7CiAgICAgICAgfQogICAgfQogICAgcmVzdWx0Cn0KCnB1YihzdXBlcikgZm4gaG9zdF9ydWxlc19wYXlsb2FkX2Zvcl9jb25maWcoY29uZmlnOiAmVmFsdWUpIC0+IE9wdGlvbjxWYWx1ZT4gewogICAgaWYgIWlzX2FueV9zdWJkb21haW5fcm91dGluZ19tb2RlKGNvbmZpZykgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgU29tZShidWlsZF9ob3N0X3J1bGVzX3BheWxvYWRfZm9yX2NvbmZpZyhjb25maWcpKQp9CgpwdWIoY3JhdGUpIGFzeW5jIGZuIHN5bmNfZ29faG9zdF9ydWxlc19mb3JfY29uZmlnX2xvY2tlZCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBjb25maWc6ICZWYWx1ZSwKKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgbWF0Y2ggaG9zdF9ydWxlc19wYXlsb2FkX2Zvcl9jb25maWcoY29uZmlnKSB7CiAgICAgICAgU29tZShydWxlcykgPT4gc3luY19nb19ob3N0X3J1bGVzX2xvY2tlZChzdGF0ZSwgJnJ1bGVzKS5hd2FpdCwKICAgICAgICBOb25lID0+IGZsdXNoX2dvX2hvc3RfcnVsZXNfbG9ja2VkKHN0YXRlKS5hd2FpdCwKICAgIH0KfQoKcHViKGNyYXRlKSBhc3luYyBmbiBzeW5jX2dvX2hvc3RfcnVsZXNfZm9yX2NvbmZpZ193aXRob3V0X3JlY29uY2lsZV9sb2NrZWQoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgY29uZmlnOiAmVmFsdWUsCikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIG1hdGNoIGhvc3RfcnVsZXNfcGF5bG9hZF9mb3JfY29uZmlnKGNvbmZpZykgewogICAgICAgIFNvbWUocnVsZXMpID0+IHsKICAgICAgICAgICAgc3luY19nb19ob3N0X3J1bGVzX3dpdGhfY2xpZW50X2xvY2tlZChzdGF0ZSwgJnN0YXRlLmdhdGV3YXkuY2xpZW50LCAmcnVsZXMsIGZhbHNlKS5hd2FpdAogICAgICAgIH0KICAgICAgICBOb25lID0+IGZsdXNoX2dvX2hvc3RfcnVsZXNfd2l0aF9jbGllbnRfbG9ja2VkKHN0YXRlLCAmc3RhdGUuZ2F0ZXdheS5jbGllbnQsIGZhbHNlKS5hd2FpdCwKICAgIH0KfQoKcHViKGNyYXRlKSBhc3luYyBmbiBzeW5jX2dvX2hvc3RfcnVsZXNfZm9yX2NvbmZpZ193aXRoX3RpbWVvdXRfbG9ja2VkKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGNvbmZpZzogJlZhbHVlLAogICAgdGltZW91dDogc3RkOjp0aW1lOjpEdXJhdGlvbiwKKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgbGV0IGNsaWVudCA9IHN0YXRlCiAgICAgICAgLmdhdGV3YXkKICAgICAgICAuY2xpZW50CiAgICAgICAgLndpdGhfdGltZW91dCh0aW1lb3V0KQogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIG1hdGNoIGhvc3RfcnVsZXNfcGF5bG9hZF9mb3JfY29uZmlnKGNvbmZpZykgewogICAgICAgIFNvbWUocnVsZXMpID0+IHN5bmNfZ29faG9zdF9ydWxlc193aXRoX2NsaWVudF9sb2NrZWQoc3RhdGUsICZjbGllbnQsICZydWxlcywgdHJ1ZSkuYXdhaXQsCiAgICAgICAgTm9uZSA9PiBmbHVzaF9nb19ob3N0X3J1bGVzX3dpdGhfY2xpZW50X2xvY2tlZChzdGF0ZSwgJmNsaWVudCwgdHJ1ZSkuYXdhaXQsCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gZW5zdXJlX2dvX2hvc3RfcHJvdG9jb2xfbW9kZXNfYXBwbGllZCgKICAgIHJlcXVlc3RlZDogJlZhbHVlLAogICAgcmVzcG9uc2U6ICZWYWx1ZSwKKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgbGV0IGVjaG9lZF9wYXlsb2FkID0gcmVzcG9uc2UKICAgICAgICAuZ2V0KCJkYXRhIikKICAgICAgICAub2tfb3JfZWxzZSh8fCAiR28gYmFja2VuZCBob3N0LXJ1bGVzIHJlc3BvbnNlIGlzIG1pc3NpbmcgZGF0YSIudG9fc3RyaW5nKCkpPzsKICAgIGxldCByZXF1ZXN0ZWRfbW9kZXMgPSBob3N0X3Byb3RvY29sX21vZGVzX2J5X2hvc3QocmVxdWVzdGVkLCAiSG9zdC1ydWxlcyByZXF1ZXN0Iik/OwogICAgbGV0IGVjaG9lZF9tb2RlcyA9IGhvc3RfcHJvdG9jb2xfbW9kZXNfYnlfaG9zdChlY2hvZWRfcGF5bG9hZCwgIkdvIGJhY2tlbmQgcmVzcG9uc2UiKT87CiAgICBsZXQgcmVxdWVzdGVkX3RhcmdldF9wYXRoX21vZGVzID0KICAgICAgICBob3N0X3RhcmdldF9wYXRoX21vZGVzX2J5X2hvc3QocmVxdWVzdGVkLCAiSG9zdC1ydWxlcyByZXF1ZXN0Iik/OwogICAgbGV0IGVjaG9lZF90YXJnZXRfcGF0aF9tb2RlcyA9CiAgICAgICAgaG9zdF90YXJnZXRfcGF0aF9tb2Rlc19ieV9ob3N0KGVjaG9lZF9wYXlsb2FkLCAiR28gYmFja2VuZCByZXNwb25zZSIpPzsKICAgIGxldCByZXF1ZXN0ZWRfdmlzaWJpbGl0aWVzID0gaG9zdF92aXNpYmlsaXRpZXNfYnlfaG9zdChyZXF1ZXN0ZWQpPzsKICAgIGxldCBlY2hvZWRfdmlzaWJpbGl0aWVzID0gaG9zdF92aXNpYmlsaXRpZXNfYnlfaG9zdChlY2hvZWRfcGF5bG9hZCk/OwogICAgbGV0IHJlcXVlc3RlZF9hZHZhbmNlZF9hdXRoID0gaG9zdF9hZHZhbmNlZF9hdXRoX2J5X2hvc3QocmVxdWVzdGVkKT87CiAgICBsZXQgZWNob2VkX2FkdmFuY2VkX2F1dGggPSBob3N0X2FkdmFuY2VkX2F1dGhfYnlfaG9zdChlY2hvZWRfcGF5bG9hZCk/OwogICAgbGV0IHJlcXVlc3RlZF9ncm91cHMgPSBob3N0X2dyb3Vwc19ieV9ob3N0KHJlcXVlc3RlZCk/OwogICAgbGV0IGVjaG9lZF9ncm91cHMgPSBob3N0X2dyb3Vwc19ieV9ob3N0KGVjaG9lZF9wYXlsb2FkKT87CiAgICBsZXQgcmVxdWVzdGVkX3RhcmdldHMgPSBob3N0X3RhcmdldHNfYnlfaG9zdChyZXF1ZXN0ZWQpPzsKICAgIGxldCBlY2hvZWRfdGFyZ2V0cyA9IGhvc3RfdGFyZ2V0c19ieV9ob3N0KGVjaG9lZF9wYXlsb2FkKT87CiAgICBmb3IgKGhvc3QsIHJlcXVlc3RlZF9tb2RlKSBpbiAmcmVxdWVzdGVkX21vZGVzIHsKICAgICAgICBsZXQgU29tZShlY2hvZWRfbW9kZSkgPSBlY2hvZWRfbW9kZXMuZ2V0KGhvc3QpIGVsc2UgewogICAgICAgICAgICByZXR1cm4gRXJyKGZvcm1hdCEoCiAgICAgICAgICAgICAgICAiR28gYmFja2VuZCBkaWQgbm90IGFwcGx5IGhvc3QgbWFwcGluZyB7aG9zdH07IHVwZ3JhZGUgdGhlIGdhdGV3YXkgYmFja2VuZCIKICAgICAgICAgICAgKSk7CiAgICAgICAgfTsKICAgICAgICBpZiBlY2hvZWRfbW9kZSAhPSByZXF1ZXN0ZWRfbW9kZSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoZm9ybWF0ISgKICAgICAgICAgICAgICAgICJHbyBiYWNrZW5kIGRpZCBub3QgYXBwbHkgSFRUUFMgcHJvdG9jb2wgbW9kZSB7cmVxdWVzdGVkX21vZGV9IGZvciB7aG9zdH0gKHJlcG9ydGVkIHtlY2hvZWRfbW9kZX0pOyB1cGdyYWRlIHRoZSBnYXRld2F5IGJhY2tlbmQiCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgICAgICBsZXQgcmVxdWVzdGVkX3RhcmdldF9wYXRoX21vZGUgPSByZXF1ZXN0ZWRfdGFyZ2V0X3BhdGhfbW9kZXMKICAgICAgICAgICAgLmdldChob3N0KQogICAgICAgICAgICAuZXhwZWN0KCJ0YXJnZXQgcGF0aCBtb2RlIG1hcCBmb2xsb3dzIHRoZSB2YWxpZGF0ZWQgaG9zdCBtYXAiKTsKICAgICAgICBsZXQgZWNob2VkX3RhcmdldF9wYXRoX21vZGUgPSBlY2hvZWRfdGFyZ2V0X3BhdGhfbW9kZXMKICAgICAgICAgICAgLmdldChob3N0KQogICAgICAgICAgICAuZXhwZWN0KCJ0YXJnZXQgcGF0aCBtb2RlIG1hcCBmb2xsb3dzIHRoZSB2YWxpZGF0ZWQgaG9zdCBtYXAiKTsKICAgICAgICBpZiBlY2hvZWRfdGFyZ2V0X3BhdGhfbW9kZSAhPSByZXF1ZXN0ZWRfdGFyZ2V0X3BhdGhfbW9kZSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoZm9ybWF0ISgKICAgICAgICAgICAgICAgICJHbyBiYWNrZW5kIGRpZCBub3QgYXBwbHkgdGFyZ2V0IHBhdGggbW9kZSB7cmVxdWVzdGVkX3RhcmdldF9wYXRoX21vZGV9IGZvciB7aG9zdH0gKHJlcG9ydGVkIHtlY2hvZWRfdGFyZ2V0X3BhdGhfbW9kZX0pOyB1cGdyYWRlIHRoZSBnYXRld2F5IGJhY2tlbmQiCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgICAgICBpZiBlY2hvZWRfZ3JvdXBzLmdldChob3N0KSAhPSByZXF1ZXN0ZWRfZ3JvdXBzLmdldChob3N0KSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoZm9ybWF0ISgKICAgICAgICAgICAgICAgICJHbyBiYWNrZW5kIGRpZCBub3QgYXBwbHkgaG9zdCBydWxlIGdyb3VwIGZvciB7aG9zdH07IHVwZ3JhZGUgdGhlIGdhdGV3YXkgYmFja2VuZCIKICAgICAgICAgICAgKSk7CiAgICAgICAgfQogICAgICAgIGlmIGVjaG9lZF90YXJnZXRzLmdldChob3N0KSAhPSByZXF1ZXN0ZWRfdGFyZ2V0cy5nZXQoaG9zdCkgewogICAgICAgICAgICByZXR1cm4gRXJyKGZvcm1hdCEoCiAgICAgICAgICAgICAgICAiR28gYmFja2VuZCBkaWQgbm90IGFwcGx5IHN0YXRpYyB0YXJnZXQgY29uZmlndXJhdGlvbiBmb3Ige2hvc3R9OyB1cGdyYWRlIHRoZSBnYXRld2F5IGJhY2tlbmQiCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgICAgICBsZXQgcmVxdWVzdGVkX3Zpc2liaWxpdHkgPSByZXF1ZXN0ZWRfdmlzaWJpbGl0aWVzCiAgICAgICAgICAgIC5nZXQoaG9zdCkKICAgICAgICAgICAgLmV4cGVjdCgidmlzaWJpbGl0eSBtYXAgZm9sbG93cyB0aGUgdmFsaWRhdGVkIGhvc3QgbWFwIik7CiAgICAgICAgbGV0IGVjaG9lZF92aXNpYmlsaXR5ID0gZWNob2VkX3Zpc2liaWxpdGllcwogICAgICAgICAgICAuZ2V0KGhvc3QpCiAgICAgICAgICAgIC5leHBlY3QoInZpc2liaWxpdHkgbWFwIGZvbGxvd3MgdGhlIHZhbGlkYXRlZCBob3N0IG1hcCIpOwogICAgICAgIGlmIGVjaG9lZF92aXNpYmlsaXR5LjAgIT0gcmVxdWVzdGVkX3Zpc2liaWxpdHkuMAogICAgICAgICAgICB8fCAocmVxdWVzdGVkX3Zpc2liaWxpdHkuMCA9PSAiY3VzdG9tIiAmJiBlY2hvZWRfdmlzaWJpbGl0eS4xICE9IHJlcXVlc3RlZF92aXNpYmlsaXR5LjEpCiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gRXJyKGZvcm1hdCEoCiAgICAgICAgICAgICAgICAiR28gYmFja2VuZCBkaWQgbm90IGFwcGx5IGhvc3QgdmlzaWJpbGl0eSBmb3Ige2hvc3R9OyB1cGdyYWRlIHRoZSBnYXRld2F5IGJhY2tlbmQiCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgICAgICBpZiBsZXQgU29tZShyZXF1ZXN0ZWRfcG9saWN5KSA9IHJlcXVlc3RlZF9hZHZhbmNlZF9hdXRoLmdldChob3N0KQogICAgICAgICAgICAmJiByZXF1ZXN0ZWRfcG9saWN5CiAgICAgICAgICAgICAgICAuZ2V0KCJlbmFibGVkIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAgICAgICAgIC51bndyYXBfb3IoZmFsc2UpCiAgICAgICAgICAgICYmIGVjaG9lZF9hZHZhbmNlZF9hdXRoCiAgICAgICAgICAgICAgICAuZ2V0KGhvc3QpCiAgICAgICAgICAgICAgICAubWFwKGdhdGV3YXlfYWR2YW5jZWRfYXV0aF9wcm9qZWN0aW9uKQogICAgICAgICAgICAgICAgIT0gU29tZShnYXRld2F5X2FkdmFuY2VkX2F1dGhfcHJvamVjdGlvbihyZXF1ZXN0ZWRfcG9saWN5KSkKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybiBFcnIoZm9ybWF0ISgKICAgICAgICAgICAgICAgICJHbyBiYWNrZW5kIGRpZCBub3QgYXBwbHkgYWR2YW5jZWQgYXV0aGVudGljYXRpb24gZm9yIHtob3N0fTsgdXBncmFkZSB0aGUgZ2F0ZXdheSBiYWNrZW5kIgogICAgICAgICAgICApKTsKICAgICAgICB9CiAgICB9CiAgICBsZXQgbXV0IHVuZXhwZWN0ZWRfaG9zdHMgPSBlY2hvZWRfbW9kZXMKICAgICAgICAua2V5cygpCiAgICAgICAgLmZpbHRlcih8aG9zdHwgIXJlcXVlc3RlZF9tb2Rlcy5jb250YWluc19rZXkoKmhvc3QpKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgdW5leHBlY3RlZF9ob3N0cy5zb3J0X3Vuc3RhYmxlKCk7CiAgICBpZiBsZXQgU29tZShob3N0KSA9IHVuZXhwZWN0ZWRfaG9zdHMuZmlyc3QoKSB7CiAgICAgICAgcmV0dXJuIEVycihmb3JtYXQhKAogICAgICAgICAgICAiR28gYmFja2VuZCByZXRhaW5lZCB1bmV4cGVjdGVkIGhvc3QgbWFwcGluZyB7aG9zdH07IHVwZ3JhZGUgdGhlIGdhdGV3YXkgYmFja2VuZCIKICAgICAgICApKTsKICAgIH0KICAgIE9rKCgpKQp9CgpmbiBob3N0X3RhcmdldHNfYnlfaG9zdCh2YWx1ZTogJlZhbHVlKSAtPiBSZXN1bHQ8SGFzaE1hcDxTdHJpbmcsIChTdHJpbmcsIFZhbHVlKT4sIFN0cmluZz4gewogICAgbGV0IGl0ZW1zID0gaG9zdF9ydWxlX2l0ZW1zKHZhbHVlKQogICAgICAgIC5va19vcl9lbHNlKHx8ICJIb3N0LXJ1bGVzIHRhcmdldCBwYXlsb2FkIG11c3QgYmUgYW4gYXJyYXkiLnRvX3N0cmluZygpKT87CiAgICBsZXQgbXV0IHRhcmdldHMgPSBIYXNoTWFwOjp3aXRoX2NhcGFjaXR5KGl0ZW1zLmxlbigpKTsKICAgIGZvciBpdGVtIGluIGl0ZW1zIHsKICAgICAgICBsZXQgaG9zdCA9IG5vcm1hbGl6ZV9ob3N0X3ZhbHVlKGl0ZW0uZ2V0KCJob3N0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKSk7CiAgICAgICAgbGV0IHRhcmdldF90eXBlID0gbm9ybWFsaXplZF9ob3N0X3RhcmdldF90eXBlKGl0ZW0pLnRvX3N0cmluZygpOwogICAgICAgIGxldCBzdGF0aWNfc2VydmUgPSBpZiB0YXJnZXRfdHlwZSA9PSBIT1NUX1RBUkdFVF9UWVBFX1BST1hZIHsKICAgICAgICAgICAgVmFsdWU6Ok51bGwKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBpdGVtLmdldCgic3RhdGljX3NlcnZlIikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpOdWxsKQogICAgICAgIH07CiAgICAgICAgdGFyZ2V0cy5pbnNlcnQoaG9zdCwgKHRhcmdldF90eXBlLCBzdGF0aWNfc2VydmUpKTsKICAgIH0KICAgIE9rKHRhcmdldHMpCn0KCmZuIGhvc3RfcnVsZV9pdGVtcyh2YWx1ZTogJlZhbHVlKSAtPiBPcHRpb248JlZlYzxWYWx1ZT4+IHsKICAgIHZhbHVlCiAgICAgICAgLmdldCgiaXRlbXMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgLm9yX2Vsc2UofHwgdmFsdWUuYXNfYXJyYXkoKSkKfQoKZm4gaG9zdF9ncm91cHNfYnlfaG9zdCh2YWx1ZTogJlZhbHVlKSAtPiBSZXN1bHQ8SGFzaE1hcDxTdHJpbmcsIChTdHJpbmcsIFN0cmluZyk+LCBTdHJpbmc+IHsKICAgIGxldCBpdGVtcyA9CiAgICAgICAgaG9zdF9ydWxlX2l0ZW1zKHZhbHVlKS5va19vcl9lbHNlKHx8ICJIb3N0LXJ1bGVzIHBheWxvYWQgbXVzdCBiZSBhbiBhcnJheSIudG9fc3RyaW5nKCkpPzsKICAgIGxldCBtdXQgZ3JvdXBzID0gSGFzaE1hcDo6d2l0aF9jYXBhY2l0eShpdGVtcy5sZW4oKSk7CiAgICBmb3IgaXRlbSBpbiBpdGVtcyB7CiAgICAgICAgbGV0IGhvc3QgPSBub3JtYWxpemVfaG9zdF92YWx1ZShpdGVtLmdldCgiaG9zdCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIikpOwogICAgICAgIGlmIGhvc3QuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoIkhvc3QtcnVsZXMgcGF5bG9hZCBjb250YWlucyBhbiBlbXB0eSBob3N0Ii50b19zdHJpbmcoKSk7CiAgICAgICAgfQogICAgICAgIGdyb3Vwcy5pbnNlcnQoCiAgICAgICAgICAgIGhvc3QsCiAgICAgICAgICAgICgKICAgICAgICAgICAgICAgIGl0ZW0uZ2V0KCJncm91cF9pZCIpCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcigiIikKICAgICAgICAgICAgICAgICAgICAudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICBpdGVtLmdldCgiZ3JvdXBfbmFtZSIpCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcigiIikKICAgICAgICAgICAgICAgICAgICAudG9fc3RyaW5nKCksCiAgICAgICAgICAgICksCiAgICAgICAgKTsKICAgIH0KICAgIE9rKGdyb3VwcykKfQoKLy8vIFRoZSBwcm90b2J1ZiBkZWxpYmVyYXRlbHkgY2FycmllcyBvbmx5IGZpZWxkcyB0aGUgZ2F0ZXdheSBldmFsdWF0ZXMuICBBCi8vLyBwZXJzaXN0ZWQgY29udHJvbC1wbGFuZSBwb2xpY3kgYWxzbyBjb250YWlucyBDSURSIHNlbGVjdG9yIG1ldGFkYXRhCi8vLyAoYHNlbGVjdGlvbnNgLCBzb3VyY2UgZmluZ2VycHJpbnQgYW5kIGNvbXBpbGUgdGltZSksIHdoaWNoIHRoZSBnYXRld2F5Ci8vLyBjYW5ub3QgZWNoby4gIENvbXBhcmUgdGhpcyBzdGFibGUgcHJvamVjdGlvbiBpbnN0ZWFkIG9mIHJlamVjdGluZyBldmVyeQovLy8gcmVnaW9uLWJhY2tlZCBwb2xpY3kgZHVyaW5nIHRoZSBydW50aW1lIHRyYW5zYWN0aW9uLgpmbiBnYXRld2F5X2FkdmFuY2VkX2F1dGhfcHJvamVjdGlvbih2YWx1ZTogJlZhbHVlKSAtPiBWYWx1ZSB7CiAgICBsZXQgU29tZShvYmplY3QpID0gdmFsdWUuYXNfb2JqZWN0KCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIFZhbHVlOjpOdWxsOwogICAgfTsKICAgIGxldCBncm91cHMgPSBvYmplY3QKICAgICAgICAuZ2V0KCJncm91cHMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgLm1hcCh8Z3JvdXBzfCB7CiAgICAgICAgICAgIGdyb3VwcwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLmZpbHRlcl9tYXAoVmFsdWU6OmFzX29iamVjdCkKICAgICAgICAgICAgICAgIC5tYXAofGdyb3VwfCB7CiAgICAgICAgICAgICAgICAgICAgbGV0IGNvbmRpdGlvbnMgPSBncm91cAogICAgICAgICAgICAgICAgICAgICAgICAuZ2V0KCJjb25kaXRpb25zIikKICAgICAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAgICAgICAgICAgICAgICAgLm1hcCh8Y29uZGl0aW9uc3wgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uZGl0aW9ucwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZmlsdGVyX21hcChWYWx1ZTo6YXNfb2JqZWN0KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5tYXAofGNvbmRpdGlvbnwgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBqc29uISh7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaWQiOiBjb25kaXRpb24uZ2V0KCJpZCIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6U3RyaW5nKFN0cmluZzo6bmV3KCkpKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0YXJnZXQiOiBjb25kaXRpb24uZ2V0KCJ0YXJnZXQiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6OlN0cmluZyhTdHJpbmc6Om5ldygpKSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAib3BlcmF0b3IiOiBjb25kaXRpb24uZ2V0KCJvcGVyYXRvciIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6U3RyaW5nKFN0cmluZzo6bmV3KCkpKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJuYW1lIjogY29uZGl0aW9uLmdldCgibmFtZSIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6U3RyaW5nKFN0cmluZzo6bmV3KCkpKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwb2xpY3lfaWQiOiBjb25kaXRpb24uZ2V0KCJwb2xpY3lfaWQiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6OlN0cmluZyhTdHJpbmc6Om5ldygpKSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBHbyBub3JtYWxpemVzIGVtcHR5IHNsaWNlcyB0byBuaWwgaW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIHByb3RvYnVmIGFuZCBlbWl0cyBKU09OIG51bGw7IHRyZWF0CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBudWxsIGFuZCBbXSBhcyB0aGUgc2FtZSBzZW1hbnRpYwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gdmFsdWUgZm9yIGFuIG9taXR0ZWQgZmllbGQuCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAidmFsdWVzIjogZ2F0ZXdheV9saXN0X3ZhbHVlKGNvbmRpdGlvbi5nZXQoInZhbHVlcyIpKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJjaWRycyI6IGdhdGV3YXlfbGlzdF92YWx1ZShjb25kaXRpb24uZ2V0KCJjaWRycyIpKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpCiAgICAgICAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgICAgICAgICAgICAgICAgIGpzb24hKHsKICAgICAgICAgICAgICAgICAgICAgICAgImlkIjogZ3JvdXAuZ2V0KCJpZCIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6U3RyaW5nKFN0cmluZzo6bmV3KCkpKSwKICAgICAgICAgICAgICAgICAgICAgICAgImNvbmRpdGlvbnMiOiBjb25kaXRpb25zLAogICAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCkKICAgICAgICB9KQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAganNvbiEoewogICAgICAgICJlbmFibGVkIjogb2JqZWN0LmdldCgiZW5hYmxlZCIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6Qm9vbChmYWxzZSkpLAogICAgICAgICJpZGxlX3R0bF9zZWNvbmRzIjogb2JqZWN0LmdldCgiaWRsZV90dGxfc2Vjb25kcyIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6ZnJvbSgwKSksCiAgICAgICAgIm1heF9saWZldGltZV9zZWNvbmRzIjogb2JqZWN0LmdldCgibWF4X2xpZmV0aW1lX3NlY29uZHMiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6OmZyb20oMCkpLAogICAgICAgICJwb2xpY3lfdmVyc2lvbiI6IG9iamVjdC5nZXQoInBvbGljeV92ZXJzaW9uIikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpTdHJpbmcoU3RyaW5nOjpuZXcoKSkpLAogICAgICAgICJncm91cHMiOiBncm91cHMsCiAgICB9KQp9CgpmbiBnYXRld2F5X2xpc3RfdmFsdWUodmFsdWU6IE9wdGlvbjwmVmFsdWU+KSAtPiBWYWx1ZSB7CiAgICBtYXRjaCB2YWx1ZSB7CiAgICAgICAgU29tZShWYWx1ZTo6QXJyYXkodmFsdWVzKSkgaWYgdmFsdWVzLmlzX2VtcHR5KCkgPT4gVmFsdWU6Ok51bGwsCiAgICAgICAgU29tZSh2YWx1ZSkgPT4gdmFsdWUuY2xvbmUoKSwKICAgICAgICBOb25lID0+IFZhbHVlOjpOdWxsLAogICAgfQp9CgpmbiBob3N0X2FkdmFuY2VkX2F1dGhfYnlfaG9zdCh2YWx1ZTogJlZhbHVlKSAtPiBSZXN1bHQ8SGFzaE1hcDxTdHJpbmcsIFZhbHVlPiwgU3RyaW5nPiB7CiAgICBsZXQgaXRlbXMgPSBob3N0X3J1bGVfaXRlbXModmFsdWUpCiAgICAgICAgLm9rX29yX2Vsc2UofHwgIkhvc3QtcnVsZXMgYWR2YW5jZWQtYXV0aCBwYXlsb2FkIG11c3QgYmUgYW4gYXJyYXkiLnRvX3N0cmluZygpKT87CiAgICBsZXQgbXV0IHBvbGljaWVzID0gSGFzaE1hcDo6d2l0aF9jYXBhY2l0eShpdGVtcy5sZW4oKSk7CiAgICBmb3IgaXRlbSBpbiBpdGVtcyB7CiAgICAgICAgbGV0IGhvc3QgPSBub3JtYWxpemVfaG9zdF92YWx1ZShpdGVtLmdldCgiaG9zdCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIikpOwogICAgICAgIGxldCBwb2xpY3kgPSBpdGVtLmdldCgiYWR2YW5jZWRfYXV0aCIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCk7CiAgICAgICAgcG9saWNpZXMuaW5zZXJ0KGhvc3QsIHBvbGljeSk7CiAgICB9CiAgICBPayhwb2xpY2llcykKfQoKZm4gaG9zdF92aXNpYmlsaXRpZXNfYnlfaG9zdCh2YWx1ZTogJlZhbHVlKSAtPiBSZXN1bHQ8SGFzaE1hcDxTdHJpbmcsIChTdHJpbmcsIFN0cmluZyk+LCBTdHJpbmc+IHsKICAgIGxldCBpdGVtcyA9IGhvc3RfcnVsZV9pdGVtcyh2YWx1ZSkKICAgICAgICAub2tfb3JfZWxzZSh8fCAiSG9zdC1ydWxlcyB2aXNpYmlsaXR5IHBheWxvYWQgbXVzdCBiZSBhbiBhcnJheSIudG9fc3RyaW5nKCkpPzsKICAgIGxldCBtdXQgdmlzaWJpbGl0aWVzID0gSGFzaE1hcDo6d2l0aF9jYXBhY2l0eShpdGVtcy5sZW4oKSk7CiAgICBmb3IgaXRlbSBpbiBpdGVtcyB7CiAgICAgICAgbGV0IGhvc3QgPSBub3JtYWxpemVfaG9zdF92YWx1ZShpdGVtLmdldCgiaG9zdCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIikpOwogICAgICAgIGxldCB2aXNpYmlsaXR5ID0gaXRlbS5nZXQoInZpc2liaWxpdHkiKTsKICAgICAgICBsZXQgbW9kZSA9IG1hdGNoIHZpc2liaWxpdHkKICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuZ2V0KCJtb2RlIikpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIHsKICAgICAgICAgICAgU29tZSgiY3VzdG9tIikgPT4gImN1c3RvbSIsCiAgICAgICAgICAgIFNvbWUoImRpc2FibGVkIikgPT4gImRpc2FibGVkIiwKICAgICAgICAgICAgXyA9PiAiaW5oZXJpdCIsCiAgICAgICAgfTsKICAgICAgICBsZXQgcG9saWN5X2lkID0gdmlzaWJpbGl0eQogICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5nZXQoInBvbGljeV9pZCIpKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLnVud3JhcF9vcigiIikKICAgICAgICAgICAgLnRvX3N0cmluZygpOwogICAgICAgIHZpc2liaWxpdGllcy5pbnNlcnQoaG9zdCwgKG1vZGUudG9fc3RyaW5nKCksIHBvbGljeV9pZCkpOwogICAgfQogICAgT2sodmlzaWJpbGl0aWVzKQp9CgpmbiBob3N0X3Byb3RvY29sX21vZGVzX2J5X2hvc3QoCiAgICB2YWx1ZTogJlZhbHVlLAogICAgY29udGV4dDogJnN0ciwKKSAtPiBSZXN1bHQ8SGFzaE1hcDxTdHJpbmcsIFN0cmluZz4sIFN0cmluZz4gewogICAgbGV0IGl0ZW1zID0gaG9zdF9ydWxlX2l0ZW1zKHZhbHVlKQogICAgICAgIC5va19vcl9lbHNlKHx8IGZvcm1hdCEoIntjb250ZXh0fSBob3N0LXJ1bGVzIHBheWxvYWQgbXVzdCBiZSBhbiBhcnJheSIpKT87CiAgICBsZXQgbXV0IG1vZGVzID0gSGFzaE1hcDo6d2l0aF9jYXBhY2l0eShpdGVtcy5sZW4oKSk7CiAgICBmb3IgaXRlbSBpbiBpdGVtcyB7CiAgICAgICAgbGV0IGhvc3QgPSBub3JtYWxpemVfaG9zdF92YWx1ZShpdGVtLmdldCgiaG9zdCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIikpOwogICAgICAgIGlmIGhvc3QuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoZm9ybWF0ISgie2NvbnRleHR9IGNvbnRhaW5zIGEgaG9zdCBydWxlIHdpdGhvdXQgYSBob3N0IikpOwogICAgICAgIH0KICAgICAgICBsZXQgbW9kZSA9IG5vcm1hbGl6ZV9wcm90b2NvbF9tb2RlKGl0ZW0uZ2V0KCJwcm90b2NvbF9tb2RlIikpOwogICAgICAgIGlmIG1vZGVzLmluc2VydChob3N0LmNsb25lKCksIG1vZGUpLmlzX3NvbWUoKSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoZm9ybWF0ISgKICAgICAgICAgICAgICAgICJ7Y29udGV4dH0gY29udGFpbnMgZHVwbGljYXRlIGNhbm9uaWNhbCBob3N0IG1hcHBpbmcge2hvc3R9IgogICAgICAgICAgICApKTsKICAgICAgICB9CiAgICB9CiAgICBPayhtb2RlcykKfQoKZm4gaG9zdF90YXJnZXRfcGF0aF9tb2Rlc19ieV9ob3N0KAogICAgdmFsdWU6ICZWYWx1ZSwKICAgIGNvbnRleHQ6ICZzdHIsCikgLT4gUmVzdWx0PEhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+LCBTdHJpbmc+IHsKICAgIGxldCBpdGVtcyA9IGhvc3RfcnVsZV9pdGVtcyh2YWx1ZSkKICAgICAgICAub2tfb3JfZWxzZSh8fCBmb3JtYXQhKCJ7Y29udGV4dH0gaG9zdC1ydWxlcyBwYXlsb2FkIG11c3QgYmUgYW4gYXJyYXkiKSk/OwogICAgbGV0IG11dCBtb2RlcyA9IEhhc2hNYXA6OndpdGhfY2FwYWNpdHkoaXRlbXMubGVuKCkpOwogICAgZm9yIGl0ZW0gaW4gaXRlbXMgewogICAgICAgIGxldCBob3N0ID0gbm9ybWFsaXplX2hvc3RfdmFsdWUoaXRlbS5nZXQoImhvc3QiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpKTsKICAgICAgICBpZiBob3N0LmlzX2VtcHR5KCkgewogICAgICAgICAgICByZXR1cm4gRXJyKGZvcm1hdCEoIntjb250ZXh0fSBjb250YWlucyBhIGhvc3QgcnVsZSB3aXRob3V0IGEgaG9zdCIpKTsKICAgICAgICB9CiAgICAgICAgbGV0IG1vZGUgPSBub3JtYWxpemVfdGFyZ2V0X3BhdGhfbW9kZShpdGVtLmdldCgidGFyZ2V0X3BhdGhfbW9kZSIpKTsKICAgICAgICBpZiBtb2Rlcy5pbnNlcnQoaG9zdC5jbG9uZSgpLCBtb2RlKS5pc19zb21lKCkgewogICAgICAgICAgICByZXR1cm4gRXJyKGZvcm1hdCEoCiAgICAgICAgICAgICAgICAie2NvbnRleHR9IGNvbnRhaW5zIGR1cGxpY2F0ZSBjYW5vbmljYWwgaG9zdCBtYXBwaW5nIHtob3N0fSIKICAgICAgICAgICAgKSk7CiAgICAgICAgfQogICAgfQogICAgT2sobW9kZXMpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc3luY19zdHJlYW1fbWFwcGluZ3NfcnVudGltZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBjb25maWc6ICZWYWx1ZSwKKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgbGV0IHJ1bl90eXBlID0gY29uZmlnLmdldCgicnVuX3R5cGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KS51bndyYXBfb3IoMyk7CiAgICBydW50aW1lX2NvbmZpZzo6YXBwbHlfcnVuX3R5cGVfY29uZmlnKHN0YXRlLCBjb25maWcsIHJ1bl90eXBlKS5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHN5bmNfZ29fYXV0aF9jb25maWcoc3RhdGU6ICZBcHBTdGF0ZSwgY29uZmlnOiAmVmFsdWUpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBsZXQgYXV0aF9jb25maWcgPSBidWlsZF9nYXRld2F5X2F1dGhfY29uZmlnKGNvbmZpZyk7CiAgICBlbnN1cmVfZ29fc3VjY2VzcygKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAuY2xpZW50CiAgICAgICAgICAgIC5zZXRfYXV0aF9jb25maWcoJmF1dGhfY29uZmlnKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/LAogICAgKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHN5bmNfaG9zdF9tYXBwaW5nc19ydW50aW1lKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHByZXZpb3VzX2NvbmZpZzogJlZhbHVlLAogICAgX21hcHBpbmdzOiAmW1ZhbHVlXSwKKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgLy8gQSBub24tSG9zdCBjb25maWcgd3JpdGVyIGRvZXMgbm90IHRha2UgdGhlIEhvc3RSdWxlcyBsZWFzZSBhbmQgbWF5IGhhdmUKICAgIC8vIGNvbW1pdHRlZCBydW5fdHlwZS9zdWJtb2RlIHNldHRpbmdzIGFmdGVyIHRoZSBIb3N0IHNlY3Rpb24gQ0FTLiBSZS1yZWFkCiAgICAvLyB3aGlsZSB0aGUgY2FsbGVyIHN0aWxsIG93bnMgdGhlIGxlYXNlIHNvIHRoZSBydW50aW1lIGFsd2F5cyBmb2xsb3dzIHRoZQogICAgLy8gbGF0ZXN0IGNvbXBsZXRlIHBlcnNpc3RlZCBjb25maWcuCiAgICBsZXQgY3VycmVudF9jb25maWcgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmdldF9jb25maWcoKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIHN5bmNfZ29faG9zdF9ydWxlc19mb3JfY29uZmlnX2xvY2tlZChzdGF0ZSwgJmN1cnJlbnRfY29uZmlnKS5hd2FpdD87CiAgICBzeW5jX2dvX2F1dGhfY29uZmlnKHN0YXRlLCAmY3VycmVudF9jb25maWcpLmF3YWl0PzsKICAgIGdhdGV3YXlfc2V0dGluZ3M6OnN5bmNfZ2F0ZXdheV90YXJnZXRfcnVudGltZV9mb3JfY29uZmlnKHN0YXRlLCAmY3VycmVudF9jb25maWcsIHRydWUsIHRydWUpCiAgICAgICAgLmF3YWl0PzsKICAgIGlmIHdhZjo6ZGlzYWJsZWRfaG9zdHNfZm9yX2NvbmZpZyhwcmV2aW91c19jb25maWcpCiAgICAgICAgIT0gd2FmOjpkaXNhYmxlZF9ob3N0c19mb3JfY29uZmlnKCZjdXJyZW50X2NvbmZpZykKICAgIHsKICAgICAgICB3YWY6OnN5bmNfd2FmX2NvbmZpZ190b19nYXRld2F5KHN0YXRlLCAmY3VycmVudF9jb25maWcpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICB9CiAgICBjcmF0ZTo6cGFuZWxfc3luYzo6bm90aWZ5X3NvdXJjZV9jaGFuZ2VkKHN0YXRlKTsKICAgIE9rKCgpKQp9CgojW2NmZyh0ZXN0KV0KbW9kIGZhaWx1cmVfY2xhc3NfdGVzdHMgewogICAgdXNlIHN1cGVyOjpob3N0X3J1bGVzX2ZhaWx1cmVfY2xhc3M7CgogICAgI1t0ZXN0XQogICAgZm4gY2xhc3NpZmllc19ob3N0X3J1bGVzX2ZhaWx1cmVzX3dpdGhvdXRfZXhwb3J0aW5nX2Vycm9yX2RldGFpbHMoKSB7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgaG9zdF9ydWxlc19mYWlsdXJlX2NsYXNzKCJzZXRfaG9zdF9ydWxlcyByZXR1cm5lZCA1MDIgQmFkIEdhdGV3YXk6IGRpc2sgZXJyb3IiKSwKICAgICAgICAgICAgInRyYW5zaWVudF9nYXRld2F5IgogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgaG9zdF9ydWxlc19mYWlsdXJlX2NsYXNzKCJzZXRfaG9zdF9ydWxlcyByZXR1cm5lZCA0MDAgQmFkIFJlcXVlc3QiKSwKICAgICAgICAgICAgInZhbGlkYXRpb24iCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBob3N0X3J1bGVzX2ZhaWx1cmVfY2xhc3MoIkdvIGJhY2tlbmQgZGlkIG5vdCBhcHBseSBob3N0IG1hcHBpbmcgZXhhbXBsZS50ZXN0IiksCiAgICAgICAgICAgICJjb21wYXRpYmlsaXR5IgogICAgICAgICk7CiAgICB9Cn0K
+use super::*;
+
+pub(super) async fn sync_go_rules(state: &AppState, rules: &Value) -> Result<(), String> {
+    ensure_go_success(
+        state
+            .gateway
+            .client
+            .set_rules(rules)
+            .await
+            .map_err(|error| error.to_string())?,
+    )
+}
+
+pub(crate) async fn sync_go_host_rules_locked(
+    state: &AppState,
+    rules: &Value,
+) -> Result<(), String> {
+    sync_go_host_rules_with_client_locked(state, &state.gateway.client, rules, true).await
+}
+
+async fn sync_go_host_rules_with_client_locked(
+    state: &AppState,
+    client: &crate::go_backend::GoBackendClient,
+    rules: &Value,
+    notify_reconciler_on_failure: bool,
+) -> Result<(), String> {
+    state.set_gateway_config_synced(false);
+    state.runtime_health.operational_log(
+        "INFO",
+        "config_sync",
+        "apply_started",
+        "host_rules_pending",
+        Map::new(),
+    );
+    let result: Result<(), String> = async {
+        let response = client
+            .set_host_rules(rules)
+            .await
+            .map_err(|error| error.to_string())?;
+        ensure_go_success(response.clone())?;
+        ensure_go_host_protocol_modes_applied(rules, &response)?;
+        Ok(())
+    }
+    .await;
+    if result.is_ok() {
+        state.set_gateway_config_synced(true);
+        state.runtime_health.operational_log(
+            "INFO",
+            "config_sync",
+            "apply_completed",
+            "host_rules_applied",
+            Map::new(),
+        );
+    } else if let Err(error) = &result {
+        let mut fields = Map::new();
+        fields.insert(
+            "failure_class".to_string(),
+            Value::String(host_rules_failure_class(error).to_string()),
+        );
+        state.runtime_health.operational_log(
+            "ERROR",
+            "config_sync",
+            "apply_failed",
+            "host_rules_rejected",
+            fields,
+        );
+        if notify_reconciler_on_failure {
+            state.request_gateway_config_reconcile();
+        }
+    }
+    result
+}
+
+pub(super) fn host_rules_failure_class(error: &str) -> &'static str {
+    let error = error.to_ascii_lowercase();
+    if error.contains("returned 400 bad request") || error.contains("invalid host rule") {
+        "validation"
+    } else if error.contains("returned 401 unauthorized")
+        || error.contains("returned 403 forbidden")
+    {
+        "authorization"
+    } else if error.contains("did not apply")
+        || error.contains("missing data")
+        || error.contains("upgrade the gateway backend")
+    {
+        "compatibility"
+    } else if [
+        "timed out",
+        "timeout expired",
+        "deadline exceeded",
+        "returned 500 internal server error",
+        "returned 502 bad gateway",
+        "returned 503 service unavailable",
+        "returned 504 gateway timeout",
+        "status: unavailable",
+        "transport error",
+        "connection refused",
+        "connection reset",
+    ]
+    .iter()
+    .any(|marker| error.contains(marker))
+    {
+        "transient_gateway"
+    } else {
+        "unknown"
+    }
+}
+
+pub(crate) async fn flush_go_host_rules_locked(state: &AppState) -> Result<(), String> {
+    flush_go_host_rules_with_client_locked(state, &state.gateway.client, true).await
+}
+
+async fn flush_go_host_rules_with_client_locked(
+    state: &AppState,
+    client: &crate::go_backend::GoBackendClient,
+    notify_reconciler_on_failure: bool,
+) -> Result<(), String> {
+    state.set_gateway_config_synced(false);
+    let result = client
+        .flush_host_rules()
+        .await
+        .map_err(|error| error.to_string())
+        .and_then(ensure_go_success);
+    if result.is_ok() {
+        state.set_gateway_config_synced(true);
+        state.runtime_health.operational_log(
+            "INFO",
+            "config_sync",
+            "apply_completed",
+            "host_rules_flushed",
+            Map::new(),
+        );
+    } else {
+        state.runtime_health.operational_log(
+            "ERROR",
+            "config_sync",
+            "apply_failed",
+            "host_rules_flush_failed",
+            Map::new(),
+        );
+        if notify_reconciler_on_failure {
+            state.request_gateway_config_reconcile();
+        }
+    }
+    result
+}
+
+pub(super) fn host_rules_payload_for_config(config: &Value) -> Option<Value> {
+    if !is_any_subdomain_routing_mode(config) {
+        return None;
+    }
+    Some(build_host_rules_payload_for_config(config))
+}
+
+pub(crate) async fn sync_go_host_rules_for_config_locked(
+    state: &AppState,
+    config: &Value,
+) -> Result<(), String> {
+    match host_rules_payload_for_config(config) {
+        Some(rules) => sync_go_host_rules_locked(state, &rules).await,
+        None => flush_go_host_rules_locked(state).await,
+    }
+}
+
+pub(crate) async fn sync_go_host_rules_for_config_without_reconcile_locked(
+    state: &AppState,
+    config: &Value,
+) -> Result<(), String> {
+    match host_rules_payload_for_config(config) {
+        Some(rules) => {
+            sync_go_host_rules_with_client_locked(state, &state.gateway.client, &rules, false).await
+        }
+        None => flush_go_host_rules_with_client_locked(state, &state.gateway.client, false).await,
+    }
+}
+
+pub(crate) async fn sync_go_host_rules_for_config_with_timeout_locked(
+    state: &AppState,
+    config: &Value,
+    timeout: std::time::Duration,
+) -> Result<(), String> {
+    let client = state
+        .gateway
+        .client
+        .with_timeout(timeout)
+        .map_err(|error| error.to_string())?;
+    match host_rules_payload_for_config(config) {
+        Some(rules) => sync_go_host_rules_with_client_locked(state, &client, &rules, true).await,
+        None => flush_go_host_rules_with_client_locked(state, &client, true).await,
+    }
+}
+
+pub(super) fn ensure_go_host_protocol_modes_applied(
+    requested: &Value,
+    response: &Value,
+) -> Result<(), String> {
+    let echoed_payload = response
+        .get("data")
+        .ok_or_else(|| "Go backend host-rules response is missing data".to_string())?;
+    let requested_modes = host_protocol_modes_by_host(requested, "Host-rules request")?;
+    let echoed_modes = host_protocol_modes_by_host(echoed_payload, "Go backend response")?;
+    let requested_target_path_modes =
+        host_target_path_modes_by_host(requested, "Host-rules request")?;
+    let echoed_target_path_modes =
+        host_target_path_modes_by_host(echoed_payload, "Go backend response")?;
+    let requested_visibilities = host_visibilities_by_host(requested)?;
+    let echoed_visibilities = host_visibilities_by_host(echoed_payload)?;
+    let requested_advanced_auth = host_advanced_auth_by_host(requested)?;
+    let echoed_advanced_auth = host_advanced_auth_by_host(echoed_payload)?;
+    let requested_groups = host_groups_by_host(requested)?;
+    let echoed_groups = host_groups_by_host(echoed_payload)?;
+    let requested_targets = host_targets_by_host(requested)?;
+    let echoed_targets = host_targets_by_host(echoed_payload)?;
+    for (host, requested_mode) in &requested_modes {
+        let Some(echoed_mode) = echoed_modes.get(host) else {
+            return Err(format!(
+                "Go backend did not apply host mapping {host}; upgrade the gateway backend"
+            ));
+        };
+        if echoed_mode != requested_mode {
+            return Err(format!(
+                "Go backend did not apply HTTPS protocol mode {requested_mode} for {host} (reported {echoed_mode}); upgrade the gateway backend"
+            ));
+        }
+        let requested_target_path_mode = requested_target_path_modes
+            .get(host)
+            .expect("target path mode map follows the validated host map");
+        let echoed_target_path_mode = echoed_target_path_modes
+            .get(host)
+            .expect("target path mode map follows the validated host map");
+        if echoed_target_path_mode != requested_target_path_mode {
+            return Err(format!(
+                "Go backend did not apply target path mode {requested_target_path_mode} for {host} (reported {echoed_target_path_mode}); upgrade the gateway backend"
+            ));
+        }
+        if echoed_groups.get(host) != requested_groups.get(host) {
+            return Err(format!(
+                "Go backend did not apply host rule group for {host}; upgrade the gateway backend"
+            ));
+        }
+        if echoed_targets.get(host) != requested_targets.get(host) {
+            return Err(format!(
+                "Go backend did not apply static target configuration for {host}; upgrade the gateway backend"
+            ));
+        }
+        let requested_visibility = requested_visibilities
+            .get(host)
+            .expect("visibility map follows the validated host map");
+        let echoed_visibility = echoed_visibilities
+            .get(host)
+            .expect("visibility map follows the validated host map");
+        if echoed_visibility.0 != requested_visibility.0
+            || (requested_visibility.0 == "custom" && echoed_visibility.1 != requested_visibility.1)
+        {
+            return Err(format!(
+                "Go backend did not apply host visibility for {host}; upgrade the gateway backend"
+            ));
+        }
+        if let Some(requested_policy) = requested_advanced_auth.get(host)
+            && requested_policy
+                .get("enabled")
+                .and_then(Value::as_bool)
+                .unwrap_or(false)
+            && echoed_advanced_auth
+                .get(host)
+                .map(gateway_advanced_auth_projection)
+                != Some(gateway_advanced_auth_projection(requested_policy))
+        {
+            return Err(format!(
+                "Go backend did not apply advanced authentication for {host}; upgrade the gateway backend"
+            ));
+        }
+    }
+    let mut unexpected_hosts = echoed_modes
+        .keys()
+        .filter(|host| !requested_modes.contains_key(*host))
+        .collect::<Vec<_>>();
+    unexpected_hosts.sort_unstable();
+    if let Some(host) = unexpected_hosts.first() {
+        return Err(format!(
+            "Go backend retained unexpected host mapping {host}; upgrade the gateway backend"
+        ));
+    }
+    Ok(())
+}
+
+fn host_targets_by_host(value: &Value) -> Result<HashMap<String, (String, Value)>, String> {
+    let items = host_rule_items(value)
+        .ok_or_else(|| "Host-rules target payload must be an array".to_string())?;
+    let mut targets = HashMap::with_capacity(items.len());
+    for item in items {
+        let host = normalize_host_value(item.get("host").and_then(Value::as_str).unwrap_or(""));
+        let target_type = normalized_host_target_type(item).to_string();
+        let static_serve = if target_type == HOST_TARGET_TYPE_PROXY {
+            Value::Null
+        } else {
+            item.get("static_serve").cloned().unwrap_or(Value::Null)
+        };
+        targets.insert(host, (target_type, static_serve));
+    }
+    Ok(targets)
+}
+
+fn host_rule_items(value: &Value) -> Option<&Vec<Value>> {
+    value
+        .get("items")
+        .and_then(Value::as_array)
+        .or_else(|| value.as_array())
+}
+
+fn host_groups_by_host(value: &Value) -> Result<HashMap<String, (String, String)>, String> {
+    let items =
+        host_rule_items(value).ok_or_else(|| "Host-rules payload must be an array".to_string())?;
+    let mut groups = HashMap::with_capacity(items.len());
+    for item in items {
+        let host = normalize_host_value(item.get("host").and_then(Value::as_str).unwrap_or(""));
+        if host.is_empty() {
+            return Err("Host-rules payload contains an empty host".to_string());
+        }
+        groups.insert(
+            host,
+            (
+                item.get("group_id")
+                    .and_then(Value::as_str)
+                    .unwrap_or("")
+                    .to_string(),
+                item.get("group_name")
+                    .and_then(Value::as_str)
+                    .unwrap_or("")
+                    .to_string(),
+            ),
+        );
+    }
+    Ok(groups)
+}
+
+/// The protobuf deliberately carries only fields the gateway evaluates.  A
+/// persisted control-plane policy also contains CIDR selector metadata
+/// (`selections`, source fingerprint and compile time), which the gateway
+/// cannot echo.  Compare this stable projection instead of rejecting every
+/// region-backed policy during the runtime transaction.
+fn gateway_advanced_auth_projection(value: &Value) -> Value {
+    let Some(object) = value.as_object() else {
+        return Value::Null;
+    };
+    let groups = object
+        .get("groups")
+        .and_then(Value::as_array)
+        .map(|groups| {
+            groups
+                .iter()
+                .filter_map(Value::as_object)
+                .map(|group| {
+                    let conditions = group
+                        .get("conditions")
+                        .and_then(Value::as_array)
+                        .map(|conditions| {
+                            conditions
+                                .iter()
+                                .filter_map(Value::as_object)
+                                .map(|condition| {
+                                    json!({
+                                        "id": condition.get("id").cloned().unwrap_or(Value::String(String::new())),
+                                        "target": condition.get("target").cloned().unwrap_or(Value::String(String::new())),
+                                        "operator": condition.get("operator").cloned().unwrap_or(Value::String(String::new())),
+                                        "name": condition.get("name").cloned().unwrap_or(Value::String(String::new())),
+                                        "policy_id": condition.get("policy_id").cloned().unwrap_or(Value::String(String::new())),
+                                        // Go normalizes empty slices to nil in
+                                        // protobuf and emits JSON null; treat
+                                        // null and [] as the same semantic
+                                        // value for an omitted field.
+                                        "values": gateway_list_value(condition.get("values")),
+                                        "cidrs": gateway_list_value(condition.get("cidrs")),
+                                    })
+                                })
+                                .collect::<Vec<_>>()
+                        })
+                        .unwrap_or_default();
+                    json!({
+                        "id": group.get("id").cloned().unwrap_or(Value::String(String::new())),
+                        "conditions": conditions,
+                    })
+                })
+                .collect::<Vec<_>>()
+        })
+        .unwrap_or_default();
+    json!({
+        "enabled": object.get("enabled").cloned().unwrap_or(Value::Bool(false)),
+        "idle_ttl_seconds": object.get("idle_ttl_seconds").cloned().unwrap_or(Value::from(0)),
+        "max_lifetime_seconds": object.get("max_lifetime_seconds").cloned().unwrap_or(Value::from(0)),
+        "policy_version": object.get("policy_version").cloned().unwrap_or(Value::String(String::new())),
+        "groups": groups,
+    })
+}
+
+fn gateway_list_value(value: Option<&Value>) -> Value {
+    match value {
+        Some(Value::Array(values)) if values.is_empty() => Value::Null,
+        Some(value) => value.clone(),
+        None => Value::Null,
+    }
+}
+
+fn host_advanced_auth_by_host(value: &Value) -> Result<HashMap<String, Value>, String> {
+    let items = host_rule_items(value)
+        .ok_or_else(|| "Host-rules advanced-auth payload must be an array".to_string())?;
+    let mut policies = HashMap::with_capacity(items.len());
+    for item in items {
+        let host = normalize_host_value(item.get("host").and_then(Value::as_str).unwrap_or(""));
+        let policy = item.get("advanced_auth").cloned().unwrap_or(Value::Null);
+        policies.insert(host, policy);
+    }
+    Ok(policies)
+}
+
+fn host_visibilities_by_host(value: &Value) -> Result<HashMap<String, (String, String)>, String> {
+    let items = host_rule_items(value)
+        .ok_or_else(|| "Host-rules visibility payload must be an array".to_string())?;
+    let mut visibilities = HashMap::with_capacity(items.len());
+    for item in items {
+        let host = normalize_host_value(item.get("host").and_then(Value::as_str).unwrap_or(""));
+        let visibility = item.get("visibility");
+        let mode = match visibility
+            .and_then(|value| value.get("mode"))
+            .and_then(Value::as_str)
+        {
+            Some("custom") => "custom",
+            Some("disabled") => "disabled",
+            _ => "inherit",
+        };
+        let policy_id = visibility
+            .and_then(|value| value.get("policy_id"))
+            .and_then(Value::as_str)
+            .unwrap_or("")
+            .to_string();
+        visibilities.insert(host, (mode.to_string(), policy_id));
+    }
+    Ok(visibilities)
+}
+
+fn host_protocol_modes_by_host(
+    value: &Value,
+    context: &str,
+) -> Result<HashMap<String, String>, String> {
+    let items = host_rule_items(value)
+        .ok_or_else(|| format!("{context} host-rules payload must be an array"))?;
+    let mut modes = HashMap::with_capacity(items.len());
+    for item in items {
+        let host = normalize_host_value(item.get("host").and_then(Value::as_str).unwrap_or(""));
+        if host.is_empty() {
+            return Err(format!("{context} contains a host rule without a host"));
+        }
+        let mode = normalize_protocol_mode(item.get("protocol_mode"));
+        if modes.insert(host.clone(), mode).is_some() {
+            return Err(format!(
+                "{context} contains duplicate canonical host mapping {host}"
+            ));
+        }
+    }
+    Ok(modes)
+}
+
+fn host_target_path_modes_by_host(
+    value: &Value,
+    context: &str,
+) -> Result<HashMap<String, String>, String> {
+    let items = host_rule_items(value)
+        .ok_or_else(|| format!("{context} host-rules payload must be an array"))?;
+    let mut modes = HashMap::with_capacity(items.len());
+    for item in items {
+        let host = normalize_host_value(item.get("host").and_then(Value::as_str).unwrap_or(""));
+        if host.is_empty() {
+            return Err(format!("{context} contains a host rule without a host"));
+        }
+        let mode = normalize_target_path_mode(item.get("target_path_mode"));
+        if modes.insert(host.clone(), mode).is_some() {
+            return Err(format!(
+                "{context} contains duplicate canonical host mapping {host}"
+            ));
+        }
+    }
+    Ok(modes)
+}
+
+pub(super) async fn sync_stream_mappings_runtime(
+    state: &AppState,
+    config: &Value,
+) -> Result<(), String> {
+    let run_type = config.get("run_type").and_then(Value::as_i64).unwrap_or(3);
+    runtime_config::apply_run_type_config(state, config, run_type).await
+}
+
+pub(super) async fn sync_go_auth_config(state: &AppState, config: &Value) -> Result<(), String> {
+    let auth_config = build_gateway_auth_config(config);
+    ensure_go_success(
+        state
+            .gateway
+            .client
+            .set_auth_config(&auth_config)
+            .await
+            .map_err(|error| error.to_string())?,
+    )
+}
+
+pub(super) async fn sync_host_mappings_runtime(
+    state: &AppState,
+    previous_config: &Value,
+    _mappings: &[Value],
+) -> Result<(), String> {
+    // A non-Host config writer does not take the HostRules lease and may have
+    // committed run_type/submode settings after the Host section CAS. Re-read
+    // while the caller still owns the lease so the runtime always follows the
+    // latest complete persisted config.
+    let current_config = state
+        .storage
+        .store
+        .get_config()
+        .await
+        .map_err(|error| error.to_string())?;
+    sync_go_host_rules_for_config_locked(state, &current_config).await?;
+    sync_go_auth_config(state, &current_config).await?;
+    gateway_settings::sync_gateway_target_runtime_for_config(state, &current_config, true, true)
+        .await?;
+    if waf::disabled_hosts_for_config(previous_config)
+        != waf::disabled_hosts_for_config(&current_config)
+    {
+        waf::sync_waf_config_to_gateway(state, &current_config)
+            .await
+            .map_err(|error| error.to_string())?;
+    }
+    crate::panel_sync::notify_source_changed(state);
+    Ok(())
+}
+
+#[cfg(test)]
+mod failure_class_tests {
+    use super::host_rules_failure_class;
+
+    #[test]
+    fn classifies_host_rules_failures_without_exporting_error_details() {
+        assert_eq!(
+            host_rules_failure_class("set_host_rules returned 502 Bad Gateway: disk error"),
+            "transient_gateway"
+        );
+        assert_eq!(
+            host_rules_failure_class("set_host_rules returned 400 Bad Request"),
+            "validation"
+        );
+        assert_eq!(
+            host_rules_failure_class("Go backend did not apply host mapping example.test"),
+            "compatibility"
+        );
+    }
+}

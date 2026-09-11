@@ -1,1 +1,140 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgpjb25zdCBjb21wb25lbnRTb3VyY2UgPSByZWFkU291cmNlKAogICIuLi9zcmMvY29tcG9uZW50cy9TY2FuRGlzY292ZXJ5SW50ZW5zaXR5RGlhbG9nLnZ1ZSIsCik7CmNvbnN0IG1hdHJpeENvbXBvc2FibGVTb3VyY2UgPSByZWFkU291cmNlKAogICIuLi9zcmMvY29tcG9zYWJsZXMvdXNlU2NhbkludGVuc2l0eU1hdHJpeC50cyIsCik7CmNvbnN0IHNldHRpbmdzQ29tcG9zYWJsZVNvdXJjZSA9IHJlYWRTb3VyY2UoCiAgIi4uL3NyYy9jb21wb3NhYmxlcy91c2VTY2FuRGlzY292ZXJ5SW50ZW5zaXR5U2V0dGluZ3MudHMiLAopOwpjb25zdCB6aENuQWRtaW5Tb3VyY2UgPSByZWFkU291cmNlKAogICIuLi8uLi8uLi9wYWNrYWdlcy9pMThuL3NyYy9tZXNzYWdlcy9hZG1pbi96aC1DTi50cyIsCik7CmNvbnN0IHNjYW5BcGlTb3VyY2UgPSByZWFkU291cmNlKCIuLi9zcmMvbGliL2FwaS9zY2FuLnRzIik7CmNvbnN0IHJldmVyc2VQcm94eVNvdXJjZSA9IHJlYWRTb3VyY2UoIi4uL3NyYy92aWV3cy9SZXZlcnNlUHJveHkudnVlIik7CmNvbnN0IHJldmVyc2VQcm94eUNhcmRTb3VyY2UgPSByZWFkU291cmNlKAogICIuLi9zcmMvdmlld3MvcmV2ZXJzZS1wcm94eS9SZXZlcnNlUHJveHlNYXBwaW5nc0NhcmQudnVlIiwKKTsKY29uc3Qgc3ViZG9tYWluUHJveHlTb3VyY2UgPSByZWFkU291cmNlKAogICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L1N1YmRvbWFpblByb3h5T3ZlcnZpZXcudnVlIiwKKTsKY29uc3Qgc3ViZG9tYWluQ2FyZFNvdXJjZSA9IHJlYWRTb3VyY2UoCiAgIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvU3ViZG9tYWluTWFwcGluZ3NDYXJkLnZ1ZSIsCik7CgpkZXNjcmliZSgic2NhbiBkaXNjb3ZlcnkgaW50ZW5zaXR5IiwgKCkgPT4gewogIGl0KCJrZWVwcyB0aGUgY29uZmlndXJhdGlvbiBVSSBpbiBvbmUgYnVzaW5lc3MtbmFtZWQgU0ZDIiwgKCkgPT4gewogICAgYXNzZXJ0Lm1hdGNoKGNvbXBvbmVudFNvdXJjZSwgL3VzZVNjYW5EaXNjb3ZlcnlJbnRlbnNpdHlTZXR0aW5ncy91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goY29tcG9uZW50U291cmNlLCAvU2NhbkFQSVwuL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHNldHRpbmdzQ29tcG9zYWJsZVNvdXJjZSwgL1NjYW5BUElcLmdldERpc2NvdmVyU2V0dGluZ3NcKFwpL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHNldHRpbmdzQ29tcG9zYWJsZVNvdXJjZSwgL1NjYW5BUElcLnNhdmVEaXNjb3ZlclNldHRpbmdzL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaCgKICAgICAgY29tcG9uZW50U291cmNlLAogICAgICAvRWZmb3J0Q2FyZHxVbHRyYWNvZGV8dXNlU2xpZGVyU3RhdGV8dXNlV2ViZ2xGaXJlL3UsCiAgICApOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaCgKICAgICAgY29tcG9uZW50U291cmNlLAogICAgICAvRGlhbG9nSGVhZGVyfERpYWxvZ0Rlc2NyaXB0aW9ufERpYWxvZ0Zvb3Rlcnw8U3dpdGNofDxCdXR0b24vdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goY29tcG9uZW50U291cmNlLCAvOnNob3ctY2xvc2UtYnV0dG9uPSJmYWxzZSIvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKAogICAgICBjb21wb25lbnRTb3VyY2UsCiAgICAgIC9sb3dMb2FkfGhpZ2hTcGVlZHxzY2FuLXByZXNzdXJlLXNjYWxlL3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHpoQ25BZG1pblNvdXJjZSwgL3RpdGxlOiAi5omr5o+P5by65bqm6YWN572uIi91KTsKICAgIGFzc2VydC5tYXRjaChjb21wb25lbnRTb3VyY2UsIC93aWR0aDogbWluXCgzNzZweC91KTsKICAgIGFzc2VydC5tYXRjaChjb21wb25lbnRTb3VyY2UsIC9oZWlnaHQ6IDMwcHgvdSk7CiAgICBhc3NlcnQubWF0Y2goY29tcG9uZW50U291cmNlLCAvd2lkdGg6IDI5cHgvdSk7CiAgICBhc3NlcnQubWF0Y2goY29tcG9uZW50U291cmNlLCAvY2xhc3M9InNjYW4tcHJlc3N1cmUtaGFuZGxlIi91KTsKICAgIGFzc2VydC5tYXRjaChjb21wb25lbnRTb3VyY2UsIC86c3R5bGU9InNsaWRlckhhbmRsZVN0eWxlIi91KTsKICAgIGFzc2VydC5tYXRjaChjb21wb25lbnRTb3VyY2UsIC8tLXNjYW4taGFuZGxlLW9mZnNldC91KTsKICAgIGFzc2VydC5tYXRjaChjb21wb25lbnRTb3VyY2UsIC9yaWdodDogIjBweCIvdSk7CiAgICBhc3NlcnQubWF0Y2goY29tcG9uZW50U291cmNlLCAvc2Nhbi1wcmVzc3VyZS10ZXJtaW5hbC1zaGllbGQvdSk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGNvbXBvbmVudFNvdXJjZSwKICAgICAgL1wuc2Nhbi1wcmVzc3VyZS1jYXJkXC5pcy1lbmVyZ2l6ZWQgXC5zY2FuLXByZXNzdXJlLXRlcm1pbmFsLXNoaWVsZC9zdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGNvbXBvbmVudFNvdXJjZSwKICAgICAgLzo6LXdlYmtpdC1zbGlkZXItdGh1bWJccypce1tefV0qYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7W159XSpib3gtc2hhZG93OiBub25lOy9zdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGNvbXBvbmVudFNvdXJjZSwKICAgICAgL1wuc2Nhbi1wcmVzc3VyZS1jYXJkXC5pcy1lbmVyZ2l6ZWQgXC5zY2FuLXByZXNzdXJlLWhhbmRsZS9zdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGNvbXBvbmVudFNvdXJjZSwKICAgICAgL1wuc2Nhbi1wcmVzc3VyZS10cmFja1xzKlx7W159XSpvdmVyZmxvdzogdmlzaWJsZS9zdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGNvbXBvbmVudFNvdXJjZSwKICAgICAgL1wuc2Nhbi1wcmVzc3VyZS12aXN1YWxccypce1tefV0qb3ZlcmZsb3c6IGhpZGRlbi9zdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goY29tcG9uZW50U291cmNlLCAvbWF4PSIxMDAiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNvbXBvbmVudFNvdXJjZSwgLzxUb29sdGlwUHJvdmlkZXI+L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNvbXBvbmVudFNvdXJjZSwgLzxUb29sdGlwQ29udGVudCBhbGlnbj0iZW5kIi91KTsKICAgIGFzc2VydC5tYXRjaChzZXR0aW5nc0NvbXBvc2FibGVTb3VyY2UsIC9jdXJyZW50RWZmZWN0aXZlQ29uY3VycmVuY3kvdSk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIHNldHRpbmdzQ29tcG9zYWJsZVNvdXJjZSwKICAgICAgL3BheWxvYWRcLmNhcGFiaWxpdHlcLnNhZmVDb25jdXJyZW5jeS91LAogICAgKTsKICAgIGFzc2VydC5tYXRjaChjb21wb25lbnRTb3VyY2UsIC9hZG1pblwuc2NhbkludGVuc2l0eVwuc2FmZUNvbmN1cnJlbmN5L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNvbXBvbmVudFNvdXJjZSwgL0BjbGlja1wuc3RvcD0idG9nZ2xlQ29uY3VycmVuY3lQb3B1cCIvdSk7CiAgICBhc3NlcnQubWF0Y2goc2V0dGluZ3NDb21wb3NhYmxlU291cmNlLCAvcG9zaXRpb24gPCAzMy91KTsKICAgIGFzc2VydC5tYXRjaChzZXR0aW5nc0NvbXBvc2FibGVTb3VyY2UsIC9wb3NpdGlvbiA8IDY2L3UpOwogICAgYXNzZXJ0Lm1hdGNoKHNldHRpbmdzQ29tcG9zYWJsZVNvdXJjZSwgL3Bvc2l0aW9uIDwgMTAwL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChjb21wb25lbnRTb3VyY2UsIC9tYXg9IjMiL3UpOwogIH0pOwoKICBpdCgiZW5jYXBzdWxhdGVzIHRoZSBmb3VyLXBhc3MgV2ViR0wgcGlwZWxpbmUgYmVoaW5kIGEgYnVzaW5lc3MgY29tcG9zYWJsZSIsICgpID0+IHsKICAgIGFzc2VydC5tYXRjaChjb21wb25lbnRTb3VyY2UsIC91c2VTY2FuSW50ZW5zaXR5TWF0cml4L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNvbXBvbmVudFNvdXJjZSwgL3NldENhbnZhczogc2V0TWF0cml4Q2FudmFzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG1hdHJpeENvbXBvc2FibGVTb3VyY2UsIC9nZXRDb250ZXh0XCgid2ViZ2wyIi91KTsKICAgIGFzc2VydC5tYXRjaChtYXRyaXhDb21wb3NhYmxlU291cmNlLCAvUFJPQkVfRklFTERfU09VUkNFL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG1hdHJpeENvbXBvc2FibGVTb3VyY2UsIC9QUk9CRV9CTFVSX1NPVVJDRS91KTsKICAgIGFzc2VydC5tYXRjaChtYXRyaXhDb21wb3NhYmxlU291cmNlLCAvUFJPQkVfQ09NUE9TSVRFX1NPVVJDRS91KTsKICAgIGFzc2VydC5tYXRjaChtYXRyaXhDb21wb3NhYmxlU291cmNlLCAvZmVlZGJhY2tGcm9udC91KTsKICAgIGFzc2VydC5tYXRjaChtYXRyaXhDb21wb3NhYmxlU291cmNlLCAvZmVlZGJhY2tCYWNrL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG1hdHJpeENvbXBvc2FibGVTb3VyY2UsIC9SZXNpemVPYnNlcnZlci91KTsKICAgIGFzc2VydC5tYXRjaChtYXRyaXhDb21wb3NhYmxlU291cmNlLCAvd2ViZ2xjb250ZXh0bG9zdC91KTsKICAgIGFzc2VydC5tYXRjaChtYXRyaXhDb21wb3NhYmxlU291cmNlLCAvd2ViZ2xjb250ZXh0cmVzdG9yZWQvdSk7CiAgICBhc3NlcnQubWF0Y2gobWF0cml4Q29tcG9zYWJsZVNvdXJjZSwgL3ByZWZlcnMtcmVkdWNlZC1tb3Rpb24vdSk7CiAgICBhc3NlcnQubWF0Y2gobWF0cml4Q29tcG9zYWJsZVNvdXJjZSwgL3JlbGVhc2VSZW5kZXJUYXJnZXRzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKG1hdHJpeENvbXBvc2FibGVTb3VyY2UsIC9yZWxlYXNlTWF0cml4UHJvZ3JhbXMvdSk7CiAgICBhc3NlcnQubWF0Y2gobWF0cml4Q29tcG9zYWJsZVNvdXJjZSwgL3Zpc3VhbFRpZXIgIT09IDMvdSk7CiAgICBhc3NlcnQubWF0Y2gobWF0cml4Q29tcG9zYWJsZVNvdXJjZSwgL3N0YXJ0UG9ydFdhdmUvdSk7CiAgICBhc3NlcnQubWF0Y2gobWF0cml4Q29tcG9zYWJsZVNvdXJjZSwgL3N0b3BQb3J0V2F2ZS91KTsKICB9KTsKCiAgaXQoInVzZXMgZm91ciBjb25jdXJyZW5jeS1vbmx5IGxldmVscyBhbmQgdGhlIHNoYXJlZCBzZXR0aW5ncyBlbmRwb2ludCIsICgpID0+IHsKICAgIGFzc2VydC5tYXRjaChzY2FuQXBpU291cmNlLCAvU2NhblNjaGVtYXNcWyJTY2FuRGlzY292ZXJ5U2V0dGluZ3NEYXRhIlxdL3UpOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBzY2FuQXBpU291cmNlLAogICAgICAvU2NhblNjaGVtYXNcWyJTY2FuRGlzY292ZXJ5U2V0dGluZ3NVcGRhdGVEYXRhIlxdL3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHNjYW5BcGlTb3VyY2UsIC9nZXRcKCJcL3NjYW5cL2Rpc2NvdmVyLXNldHRpbmdzIlwpL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHNjYW5BcGlTb3VyY2UsIC9wb3N0XCgiXC9zY2FuXC9kaXNjb3Zlci1zZXR0aW5ncyIvdSk7CiAgICBhc3NlcnQubWF0Y2goc2V0dGluZ3NDb21wb3NhYmxlU291cmNlLCAvbG93OiAzMi91KTsKICAgIGFzc2VydC5tYXRjaChzZXR0aW5nc0NvbXBvc2FibGVTb3VyY2UsIC9tZWRpdW06IDExNS91KTsKICAgIGFzc2VydC5tYXRjaChzZXR0aW5nc0NvbXBvc2FibGVTb3VyY2UsIC9oaWdoOiAyNTYvdSk7CiAgICBhc3NlcnQubWF0Y2goc2V0dGluZ3NDb21wb3NhYmxlU291cmNlLCAvZXh0cmVtZTogNTEyL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNvbXBvbmVudFNvdXJjZSwgL0BjaGFuZ2U9ImZsdXNoTWFudWFsU2F2ZSIvdSk7CiAgICBhc3NlcnQubWF0Y2goc2V0dGluZ3NDb21wb3NhYmxlU291cmNlLCAvcGVyc2lzdFNldHRpbmdzXCgiYXV0byJcKS91KTsKICAgIGFzc2VydC5tYXRjaCh6aENuQWRtaW5Tb3VyY2UsIC84MOKAkzYwMDAwL3UpOwogIH0pOwoKICBpdCgid2lyZXMgYm90aCBkaXNjb3ZlcnkgZHJvcGRvd25zIHRvIHRoZSBzaGFyZWQgZGlhbG9nIiwgKCkgPT4gewogICAgYXNzZXJ0Lm1hdGNoKHJldmVyc2VQcm94eVNvdXJjZSwgLzxTY2FuRGlzY292ZXJ5SW50ZW5zaXR5RGlhbG9nL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHJldmVyc2VQcm94eUNhcmRTb3VyY2UsIC9hZG1pblwuc2NhbkludGVuc2l0eVwudGl0bGUvdSk7CiAgICBhc3NlcnQubWF0Y2goc3ViZG9tYWluUHJveHlTb3VyY2UsIC88U2NhbkRpc2NvdmVyeUludGVuc2l0eURpYWxvZy91KTsKICAgIGFzc2VydC5tYXRjaChzdWJkb21haW5Qcm94eVNvdXJjZSwgL0BvcGVuLWRpc2NvdmVyLXNldHRpbmdzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHN1YmRvbWFpbkNhcmRTb3VyY2UsIC9lbWl0XCgnb3Blbi1kaXNjb3Zlci1zZXR0aW5ncydcKS91KTsKICB9KTsKfSk7Cg==
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+const componentSource = readSource(
+  "../src/components/ScanDiscoveryIntensityDialog.vue",
+);
+const matrixComposableSource = readSource(
+  "../src/composables/useScanIntensityMatrix.ts",
+);
+const settingsComposableSource = readSource(
+  "../src/composables/useScanDiscoveryIntensitySettings.ts",
+);
+const zhCnAdminSource = readSource(
+  "../../../packages/i18n/src/messages/admin/zh-CN.ts",
+);
+const scanApiSource = readSource("../src/lib/api/scan.ts");
+const reverseProxySource = readSource("../src/views/ReverseProxy.vue");
+const reverseProxyCardSource = readSource(
+  "../src/views/reverse-proxy/ReverseProxyMappingsCard.vue",
+);
+const subdomainProxySource = readSource(
+  "../src/views/subdomain-proxy/SubdomainProxyOverview.vue",
+);
+const subdomainCardSource = readSource(
+  "../src/views/subdomain-proxy/SubdomainMappingsCard.vue",
+);
+
+describe("scan discovery intensity", () => {
+  it("keeps the configuration UI in one business-named SFC", () => {
+    assert.match(componentSource, /useScanDiscoveryIntensitySettings/u);
+    assert.doesNotMatch(componentSource, /ScanAPI\./u);
+    assert.match(settingsComposableSource, /ScanAPI\.getDiscoverSettings\(\)/u);
+    assert.match(settingsComposableSource, /ScanAPI\.saveDiscoverSettings/u);
+    assert.doesNotMatch(
+      componentSource,
+      /EffortCard|Ultracode|useSliderState|useWebglFire/u,
+    );
+    assert.doesNotMatch(
+      componentSource,
+      /DialogHeader|DialogDescription|DialogFooter|<Switch|<Button/u,
+    );
+    assert.match(componentSource, /:show-close-button="false"/u);
+    assert.doesNotMatch(
+      componentSource,
+      /lowLoad|highSpeed|scan-pressure-scale/u,
+    );
+    assert.match(zhCnAdminSource, /title: "扫描强度配置"/u);
+    assert.match(componentSource, /width: min\(376px/u);
+    assert.match(componentSource, /height: 30px/u);
+    assert.match(componentSource, /width: 29px/u);
+    assert.match(componentSource, /class="scan-pressure-handle"/u);
+    assert.match(componentSource, /:style="sliderHandleStyle"/u);
+    assert.match(componentSource, /--scan-handle-offset/u);
+    assert.match(componentSource, /right: "0px"/u);
+    assert.match(componentSource, /scan-pressure-terminal-shield/u);
+    assert.match(
+      componentSource,
+      /\.scan-pressure-card\.is-energized \.scan-pressure-terminal-shield/su,
+    );
+    assert.match(
+      componentSource,
+      /::-webkit-slider-thumb\s*\{[^}]*background: transparent;[^}]*box-shadow: none;/su,
+    );
+    assert.match(
+      componentSource,
+      /\.scan-pressure-card\.is-energized \.scan-pressure-handle/su,
+    );
+    assert.match(
+      componentSource,
+      /\.scan-pressure-track\s*\{[^}]*overflow: visible/su,
+    );
+    assert.match(
+      componentSource,
+      /\.scan-pressure-visual\s*\{[^}]*overflow: hidden/su,
+    );
+    assert.match(componentSource, /max="100"/u);
+    assert.match(componentSource, /<TooltipProvider>/u);
+    assert.match(componentSource, /<TooltipContent align="end"/u);
+    assert.match(settingsComposableSource, /currentEffectiveConcurrency/u);
+    assert.match(
+      settingsComposableSource,
+      /payload\.capability\.safeConcurrency/u,
+    );
+    assert.match(componentSource, /admin\.scanIntensity\.safeConcurrency/u);
+    assert.match(componentSource, /@click\.stop="toggleConcurrencyPopup"/u);
+    assert.match(settingsComposableSource, /position < 33/u);
+    assert.match(settingsComposableSource, /position < 66/u);
+    assert.match(settingsComposableSource, /position < 100/u);
+    assert.doesNotMatch(componentSource, /max="3"/u);
+  });
+
+  it("encapsulates the four-pass WebGL pipeline behind a business composable", () => {
+    assert.match(componentSource, /useScanIntensityMatrix/u);
+    assert.match(componentSource, /setCanvas: setMatrixCanvas/u);
+    assert.match(matrixComposableSource, /getContext\("webgl2"/u);
+    assert.match(matrixComposableSource, /PROBE_FIELD_SOURCE/u);
+    assert.match(matrixComposableSource, /PROBE_BLUR_SOURCE/u);
+    assert.match(matrixComposableSource, /PROBE_COMPOSITE_SOURCE/u);
+    assert.match(matrixComposableSource, /feedbackFront/u);
+    assert.match(matrixComposableSource, /feedbackBack/u);
+    assert.match(matrixComposableSource, /ResizeObserver/u);
+    assert.match(matrixComposableSource, /webglcontextlost/u);
+    assert.match(matrixComposableSource, /webglcontextrestored/u);
+    assert.match(matrixComposableSource, /prefers-reduced-motion/u);
+    assert.match(matrixComposableSource, /releaseRenderTargets/u);
+    assert.match(matrixComposableSource, /releaseMatrixPrograms/u);
+    assert.match(matrixComposableSource, /visualTier !== 3/u);
+    assert.match(matrixComposableSource, /startPortWave/u);
+    assert.match(matrixComposableSource, /stopPortWave/u);
+  });
+
+  it("uses four concurrency-only levels and the shared settings endpoint", () => {
+    assert.match(scanApiSource, /ScanSchemas\["ScanDiscoverySettingsData"\]/u);
+    assert.match(
+      scanApiSource,
+      /ScanSchemas\["ScanDiscoverySettingsUpdateData"\]/u,
+    );
+    assert.match(scanApiSource, /get\("\/scan\/discover-settings"\)/u);
+    assert.match(scanApiSource, /post\("\/scan\/discover-settings"/u);
+    assert.match(settingsComposableSource, /low: 32/u);
+    assert.match(settingsComposableSource, /medium: 115/u);
+    assert.match(settingsComposableSource, /high: 256/u);
+    assert.match(settingsComposableSource, /extreme: 512/u);
+    assert.match(componentSource, /@change="flushManualSave"/u);
+    assert.match(settingsComposableSource, /persistSettings\("auto"\)/u);
+    assert.match(zhCnAdminSource, /80–60000/u);
+  });
+
+  it("wires both discovery dropdowns to the shared dialog", () => {
+    assert.match(reverseProxySource, /<ScanDiscoveryIntensityDialog/u);
+    assert.match(reverseProxyCardSource, /admin\.scanIntensity\.title/u);
+    assert.match(subdomainProxySource, /<ScanDiscoveryIntensityDialog/u);
+    assert.match(subdomainProxySource, /@open-discover-settings/u);
+    assert.match(subdomainCardSource, /emit\('open-discover-settings'\)/u);
+  });
+});

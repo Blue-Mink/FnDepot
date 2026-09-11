@@ -1,1 +1,208 @@
-ZXhwb3J0IHR5cGUgREROU0RvbWFpblRhcmdldE1vZGUgPSAic2luZ2xlIiB8ICJzaW5nbGVfb3Jfd2lsZGNhcmRfcm9vdF9wYWlyIjsKCmV4cG9ydCB0eXBlIERETlNEb21haW5UYXJnZXRSb290RmllbGQgPSAicm9vdF9kb21haW4iIHwgInNpdGVfbmFtZSI7CgpleHBvcnQgaW50ZXJmYWNlIERETlNEb21haW5UYXJnZXRzQ2FwYWJpbGl0eSB7CiAgbW9kZTogREROU0RvbWFpblRhcmdldE1vZGU7CiAgcm9vdEZpZWxkPzogREROU0RvbWFpblRhcmdldFJvb3RGaWVsZDsKfQoKZXhwb3J0IHR5cGUgREROU0RvbWFpblRhcmdldEVycm9yQ29kZSA9CiAgfCAiZW1wdHkiCiAgfCAiaW52YWxpZF9kb21haW4iCiAgfCAidG9vX21hbnlfdGFyZ2V0cyIKICB8ICJkdXBsaWNhdGVfdGFyZ2V0cyIKICB8ICJpbnZhbGlkX3BhaXIiCiAgfCAicGFpcl91bnN1cHBvcnRlZCIKICB8ICJyb290X21pc21hdGNoIjsKCmV4cG9ydCBpbnRlcmZhY2UgREROU0RvbWFpblRhcmdldFBhcnNlU3VjY2VzcyB7CiAgb2s6IHRydWU7CiAgY2Fub25pY2FsOiBzdHJpbmc7CiAgdGFyZ2V0czogc3RyaW5nW107CiAgcGFpckJhc2U6IHN0cmluZyB8IG51bGw7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgREROU0RvbWFpblRhcmdldFBhcnNlRmFpbHVyZSB7CiAgb2s6IGZhbHNlOwogIGNhbm9uaWNhbDogc3RyaW5nOwogIHRhcmdldHM6IHN0cmluZ1tdOwogIGVycm9yOiBERE5TRG9tYWluVGFyZ2V0RXJyb3JDb2RlOwp9CgpleHBvcnQgdHlwZSBERE5TRG9tYWluVGFyZ2V0UGFyc2VSZXN1bHQgPQogIHwgREROU0RvbWFpblRhcmdldFBhcnNlU3VjY2VzcwogIHwgREROU0RvbWFpblRhcmdldFBhcnNlRmFpbHVyZTsKCmV4cG9ydCBpbnRlcmZhY2UgREROU0RvbWFpblRhcmdldFZhbGlkYXRpb25PcHRpb25zIHsKICBjYXBhYmlsaXR5PzogREROU0RvbWFpblRhcmdldHNDYXBhYmlsaXR5IHwgbnVsbDsKICByb290RG9tYWluPzogc3RyaW5nIHwgbnVsbDsKfQoKY29uc3QgRE9NQUlOX1RBUkdFVF9TRVBBUkFUT1IgPSAvWyxcdUZGMENccHtXaGl0ZV9TcGFjZX1dKy91Owpjb25zdCBBU0NJSV9ET01BSU5fTEFCRUwgPSAvXlthLXowLTktXSskLzsKCmNvbnN0IHRvQVNDSUlMb3dlcmNhc2UgPSAodmFsdWU6IHN0cmluZykgPT4KICB2YWx1ZS5yZXBsYWNlKC9bQS1aXS9nLCAoY2hhcmFjdGVyKSA9PgogICAgU3RyaW5nLmZyb21DaGFyQ29kZShjaGFyYWN0ZXIuY2hhckNvZGVBdCgwKSArIDMyKSwKICApOwoKY29uc3Qgbm9ybWFsaXplRG9tYWluVGFyZ2V0VG9rZW4gPSAodmFsdWU6IHN0cmluZykgPT4KICB0b0FTQ0lJTG93ZXJjYXNlKHZhbHVlKS5yZXBsYWNlKC9cLiskL3UsICIiKTsKCmNvbnN0IHNwbGl0RG9tYWluVGFyZ2V0SW5wdXQgPSAodmFsdWU6IHVua25vd24pID0+CiAgU3RyaW5nKHZhbHVlID8/ICIiKQogICAgLnNwbGl0KERPTUFJTl9UQVJHRVRfU0VQQVJBVE9SKQogICAgLmZpbHRlcigodG9rZW4pID0+IHRva2VuLmxlbmd0aCA+IDApCiAgICAubWFwKG5vcm1hbGl6ZURvbWFpblRhcmdldFRva2VuKTsKCmNvbnN0IGlzSVB2NExpdGVyYWwgPSAodmFsdWU6IHN0cmluZykgPT4gewogIGNvbnN0IHBhcnRzID0gdmFsdWUuc3BsaXQoIi4iKTsKICByZXR1cm4gKAogICAgcGFydHMubGVuZ3RoID09PSA0ICYmCiAgICBwYXJ0cy5ldmVyeSgocGFydCkgPT4gewogICAgICBpZiAoIS9eXGR7MSwzfSQvLnRlc3QocGFydCkpIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgIH0KICAgICAgY29uc3QgbnVtYmVyID0gTnVtYmVyKHBhcnQpOwogICAgICByZXR1cm4gbnVtYmVyID49IDAgJiYgbnVtYmVyIDw9IDI1NTsKICAgIH0pCiAgKTsKfTsKCmNvbnN0IGdldFdpbGRjYXJkQmFzZSA9ICh0YXJnZXQ6IHN0cmluZykgPT4KICB0YXJnZXQuc3RhcnRzV2l0aCgiKi4iKSA/IHRhcmdldC5zbGljZSgyKSA6IG51bGw7CgpleHBvcnQgY29uc3QgaXNTYW1lT3JTdWJkb21haW4gPSAoZG9tYWluOiBzdHJpbmcsIHpvbmVSb290OiBzdHJpbmcpID0+CiAgQm9vbGVhbigKICAgIGRvbWFpbiAmJgogICAgem9uZVJvb3QgJiYKICAgIChkb21haW4gPT09IHpvbmVSb290IHx8IGRvbWFpbi5lbmRzV2l0aChgLiR7em9uZVJvb3R9YCkpLAogICk7CgpleHBvcnQgY29uc3QgaXNWYWxpZERETlNEb21haW5UYXJnZXQgPSAodGFyZ2V0OiBzdHJpbmcpID0+IHsKICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgbm8tY29udHJvbC1yZWdleCAtLSB0aGlzIHZhbGlkYXRpb24gaW50ZW50aW9uYWxseSByZWplY3RzIG5vbi1BU0NJSSBpbnB1dCwgaW5jbHVkaW5nIE5VTC4KICBpZiAoIXRhcmdldCB8fCB0YXJnZXQubGVuZ3RoID4gMjUzIHx8ICEvXltceDAwLVx4N0ZdKyQvLnRlc3QodGFyZ2V0KSkgewogICAgcmV0dXJuIGZhbHNlOwogIH0KCiAgY29uc3Qgd2lsZGNhcmRCYXNlID0gZ2V0V2lsZGNhcmRCYXNlKHRhcmdldCk7CiAgY29uc3QgZG9tYWluID0gd2lsZGNhcmRCYXNlID8/IHRhcmdldDsKICBpZiAoIWRvbWFpbiB8fCBkb21haW4uaW5jbHVkZXMoIioiKSB8fCBpc0lQdjRMaXRlcmFsKGRvbWFpbikpIHsKICAgIHJldHVybiBmYWxzZTsKICB9CgogIGNvbnN0IGxhYmVscyA9IGRvbWFpbi5zcGxpdCgiLiIpOwogIGlmIChsYWJlbHMubGVuZ3RoIDwgMikgewogICAgcmV0dXJuIGZhbHNlOwogIH0KCiAgcmV0dXJuIGxhYmVscy5ldmVyeSgKICAgIChsYWJlbCkgPT4KICAgICAgbGFiZWwubGVuZ3RoID49IDEgJiYKICAgICAgbGFiZWwubGVuZ3RoIDw9IDYzICYmCiAgICAgIEFTQ0lJX0RPTUFJTl9MQUJFTC50ZXN0KGxhYmVsKSAmJgogICAgICAhbGFiZWwuc3RhcnRzV2l0aCgiLSIpICYmCiAgICAgICFsYWJlbC5lbmRzV2l0aCgiLSIpLAogICk7Cn07CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplREROU0RvbWFpblRhcmdldElucHV0ID0gKHZhbHVlOiB1bmtub3duKSA9PiB7CiAgY29uc3QgdGFyZ2V0cyA9IHNwbGl0RG9tYWluVGFyZ2V0SW5wdXQodmFsdWUpOwogIGlmICh0YXJnZXRzLmxlbmd0aCA9PT0gMikgewogICAgY29uc3Qgd2lsZGNhcmRUYXJnZXQgPSB0YXJnZXRzLmZpbmQoKHRhcmdldCkgPT4gZ2V0V2lsZGNhcmRCYXNlKHRhcmdldCkpOwogICAgY29uc3Qgcm9vdFRhcmdldCA9IHRhcmdldHMuZmluZCgodGFyZ2V0KSA9PiAhZ2V0V2lsZGNhcmRCYXNlKHRhcmdldCkpOwogICAgaWYgKAogICAgICB3aWxkY2FyZFRhcmdldCAmJgogICAgICByb290VGFyZ2V0ICYmCiAgICAgIGdldFdpbGRjYXJkQmFzZSh3aWxkY2FyZFRhcmdldCkgPT09IHJvb3RUYXJnZXQKICAgICkgewogICAgICByZXR1cm4gYCR7d2lsZGNhcmRUYXJnZXR9LCR7cm9vdFRhcmdldH1gOwogICAgfQogIH0KICByZXR1cm4gdGFyZ2V0cy5qb2luKCIsIik7Cn07CgpleHBvcnQgY29uc3QgcGFyc2VERE5TRG9tYWluVGFyZ2V0cyA9ICgKICB2YWx1ZTogdW5rbm93biwKKTogREROU0RvbWFpblRhcmdldFBhcnNlUmVzdWx0ID0+IHsKICBjb25zdCB0YXJnZXRzID0gc3BsaXREb21haW5UYXJnZXRJbnB1dCh2YWx1ZSk7CiAgY29uc3QgY2Fub25pY2FsID0gbm9ybWFsaXplREROU0RvbWFpblRhcmdldElucHV0KHZhbHVlKTsKCiAgaWYgKHRhcmdldHMubGVuZ3RoID09PSAwKSB7CiAgICByZXR1cm4geyBvazogZmFsc2UsIGNhbm9uaWNhbCwgdGFyZ2V0cywgZXJyb3I6ICJlbXB0eSIgfTsKICB9CiAgaWYgKHRhcmdldHMubGVuZ3RoID4gMikgewogICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBjYW5vbmljYWwsIHRhcmdldHMsIGVycm9yOiAidG9vX21hbnlfdGFyZ2V0cyIgfTsKICB9CiAgaWYgKCF0YXJnZXRzLmV2ZXJ5KGlzVmFsaWRERE5TRG9tYWluVGFyZ2V0KSkgewogICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBjYW5vbmljYWwsIHRhcmdldHMsIGVycm9yOiAiaW52YWxpZF9kb21haW4iIH07CiAgfQogIGlmIChuZXcgU2V0KHRhcmdldHMpLnNpemUgIT09IHRhcmdldHMubGVuZ3RoKSB7CiAgICByZXR1cm4geyBvazogZmFsc2UsIGNhbm9uaWNhbCwgdGFyZ2V0cywgZXJyb3I6ICJkdXBsaWNhdGVfdGFyZ2V0cyIgfTsKICB9CgogIGlmICh0YXJnZXRzLmxlbmd0aCA9PT0gMSkgewogICAgcmV0dXJuIHsKICAgICAgb2s6IHRydWUsCiAgICAgIGNhbm9uaWNhbDogdGFyZ2V0c1swXSA/PyAiIiwKICAgICAgdGFyZ2V0cywKICAgICAgcGFpckJhc2U6IG51bGwsCiAgICB9OwogIH0KCiAgY29uc3Qgd2lsZGNhcmRUYXJnZXQgPSB0YXJnZXRzLmZpbmQoKHRhcmdldCkgPT4gZ2V0V2lsZGNhcmRCYXNlKHRhcmdldCkpOwogIGNvbnN0IHJvb3RUYXJnZXQgPSB0YXJnZXRzLmZpbmQoKHRhcmdldCkgPT4gIWdldFdpbGRjYXJkQmFzZSh0YXJnZXQpKTsKICBpZiAoCiAgICAhd2lsZGNhcmRUYXJnZXQgfHwKICAgICFyb290VGFyZ2V0IHx8CiAgICBnZXRXaWxkY2FyZEJhc2Uod2lsZGNhcmRUYXJnZXQpICE9PSByb290VGFyZ2V0CiAgKSB7CiAgICByZXR1cm4geyBvazogZmFsc2UsIGNhbm9uaWNhbCwgdGFyZ2V0cywgZXJyb3I6ICJpbnZhbGlkX3BhaXIiIH07CiAgfQoKICByZXR1cm4gewogICAgb2s6IHRydWUsCiAgICBjYW5vbmljYWw6IGAke3dpbGRjYXJkVGFyZ2V0fSwke3Jvb3RUYXJnZXR9YCwKICAgIHRhcmdldHM6IFt3aWxkY2FyZFRhcmdldCwgcm9vdFRhcmdldF0sCiAgICBwYWlyQmFzZTogcm9vdFRhcmdldCwKICB9Owp9OwoKZXhwb3J0IGNvbnN0IHZhbGlkYXRlREROU0RvbWFpblRhcmdldHMgPSAoCiAgdmFsdWU6IHVua25vd24sCiAgb3B0aW9uczogREROU0RvbWFpblRhcmdldFZhbGlkYXRpb25PcHRpb25zID0ge30sCik6IERETlNEb21haW5UYXJnZXRQYXJzZVJlc3VsdCA9PiB7CiAgY29uc3QgcmVzdWx0ID0gcGFyc2VERE5TRG9tYWluVGFyZ2V0cyh2YWx1ZSk7CiAgaWYgKCFyZXN1bHQub2sgfHwgcmVzdWx0LnBhaXJCYXNlID09PSBudWxsKSB7CiAgICByZXR1cm4gcmVzdWx0OwogIH0KCiAgaWYgKG9wdGlvbnMuY2FwYWJpbGl0eT8ubW9kZSAhPT0gInNpbmdsZV9vcl93aWxkY2FyZF9yb290X3BhaXIiKSB7CiAgICByZXR1cm4gewogICAgICBvazogZmFsc2UsCiAgICAgIGNhbm9uaWNhbDogcmVzdWx0LmNhbm9uaWNhbCwKICAgICAgdGFyZ2V0czogcmVzdWx0LnRhcmdldHMsCiAgICAgIGVycm9yOiAicGFpcl91bnN1cHBvcnRlZCIsCiAgICB9OwogIH0KCiAgaWYgKG9wdGlvbnMuY2FwYWJpbGl0eS5yb290RmllbGQpIHsKICAgIGNvbnN0IHJvb3RSZXN1bHQgPSBwYXJzZURETlNEb21haW5UYXJnZXRzKG9wdGlvbnMucm9vdERvbWFpbik7CiAgICBpZiAoCiAgICAgICFyb290UmVzdWx0Lm9rIHx8CiAgICAgIHJvb3RSZXN1bHQudGFyZ2V0cy5sZW5ndGggIT09IDEgfHwKICAgICAgcm9vdFJlc3VsdC50YXJnZXRzWzBdPy5zdGFydHNXaXRoKCIqLiIpIHx8CiAgICAgICFpc1NhbWVPclN1YmRvbWFpbihyZXN1bHQucGFpckJhc2UsIHJvb3RSZXN1bHQudGFyZ2V0c1swXSA/PyAiIikKICAgICkgewogICAgICByZXR1cm4gewogICAgICAgIG9rOiBmYWxzZSwKICAgICAgICBjYW5vbmljYWw6IHJlc3VsdC5jYW5vbmljYWwsCiAgICAgICAgdGFyZ2V0czogcmVzdWx0LnRhcmdldHMsCiAgICAgICAgZXJyb3I6ICJyb290X21pc21hdGNoIiwKICAgICAgfTsKICAgIH0KICB9CgogIHJldHVybiByZXN1bHQ7Cn07Cg==
+export type DDNSDomainTargetMode = "single" | "single_or_wildcard_root_pair";
+
+export type DDNSDomainTargetRootField = "root_domain" | "site_name";
+
+export interface DDNSDomainTargetsCapability {
+  mode: DDNSDomainTargetMode;
+  rootField?: DDNSDomainTargetRootField;
+}
+
+export type DDNSDomainTargetErrorCode =
+  | "empty"
+  | "invalid_domain"
+  | "too_many_targets"
+  | "duplicate_targets"
+  | "invalid_pair"
+  | "pair_unsupported"
+  | "root_mismatch";
+
+export interface DDNSDomainTargetParseSuccess {
+  ok: true;
+  canonical: string;
+  targets: string[];
+  pairBase: string | null;
+}
+
+export interface DDNSDomainTargetParseFailure {
+  ok: false;
+  canonical: string;
+  targets: string[];
+  error: DDNSDomainTargetErrorCode;
+}
+
+export type DDNSDomainTargetParseResult =
+  | DDNSDomainTargetParseSuccess
+  | DDNSDomainTargetParseFailure;
+
+export interface DDNSDomainTargetValidationOptions {
+  capability?: DDNSDomainTargetsCapability | null;
+  rootDomain?: string | null;
+}
+
+const DOMAIN_TARGET_SEPARATOR = /[,\uFF0C\p{White_Space}]+/u;
+const ASCII_DOMAIN_LABEL = /^[a-z0-9-]+$/;
+
+const toASCIILowercase = (value: string) =>
+  value.replace(/[A-Z]/g, (character) =>
+    String.fromCharCode(character.charCodeAt(0) + 32),
+  );
+
+const normalizeDomainTargetToken = (value: string) =>
+  toASCIILowercase(value).replace(/\.+$/u, "");
+
+const splitDomainTargetInput = (value: unknown) =>
+  String(value ?? "")
+    .split(DOMAIN_TARGET_SEPARATOR)
+    .filter((token) => token.length > 0)
+    .map(normalizeDomainTargetToken);
+
+const isIPv4Literal = (value: string) => {
+  const parts = value.split(".");
+  return (
+    parts.length === 4 &&
+    parts.every((part) => {
+      if (!/^\d{1,3}$/.test(part)) {
+        return false;
+      }
+      const number = Number(part);
+      return number >= 0 && number <= 255;
+    })
+  );
+};
+
+const getWildcardBase = (target: string) =>
+  target.startsWith("*.") ? target.slice(2) : null;
+
+export const isSameOrSubdomain = (domain: string, zoneRoot: string) =>
+  Boolean(
+    domain &&
+    zoneRoot &&
+    (domain === zoneRoot || domain.endsWith(`.${zoneRoot}`)),
+  );
+
+export const isValidDDNSDomainTarget = (target: string) => {
+  // eslint-disable-next-line no-control-regex -- this validation intentionally rejects non-ASCII input, including NUL.
+  if (!target || target.length > 253 || !/^[\x00-\x7F]+$/.test(target)) {
+    return false;
+  }
+
+  const wildcardBase = getWildcardBase(target);
+  const domain = wildcardBase ?? target;
+  if (!domain || domain.includes("*") || isIPv4Literal(domain)) {
+    return false;
+  }
+
+  const labels = domain.split(".");
+  if (labels.length < 2) {
+    return false;
+  }
+
+  return labels.every(
+    (label) =>
+      label.length >= 1 &&
+      label.length <= 63 &&
+      ASCII_DOMAIN_LABEL.test(label) &&
+      !label.startsWith("-") &&
+      !label.endsWith("-"),
+  );
+};
+
+export const normalizeDDNSDomainTargetInput = (value: unknown) => {
+  const targets = splitDomainTargetInput(value);
+  if (targets.length === 2) {
+    const wildcardTarget = targets.find((target) => getWildcardBase(target));
+    const rootTarget = targets.find((target) => !getWildcardBase(target));
+    if (
+      wildcardTarget &&
+      rootTarget &&
+      getWildcardBase(wildcardTarget) === rootTarget
+    ) {
+      return `${wildcardTarget},${rootTarget}`;
+    }
+  }
+  return targets.join(",");
+};
+
+export const parseDDNSDomainTargets = (
+  value: unknown,
+): DDNSDomainTargetParseResult => {
+  const targets = splitDomainTargetInput(value);
+  const canonical = normalizeDDNSDomainTargetInput(value);
+
+  if (targets.length === 0) {
+    return { ok: false, canonical, targets, error: "empty" };
+  }
+  if (targets.length > 2) {
+    return { ok: false, canonical, targets, error: "too_many_targets" };
+  }
+  if (!targets.every(isValidDDNSDomainTarget)) {
+    return { ok: false, canonical, targets, error: "invalid_domain" };
+  }
+  if (new Set(targets).size !== targets.length) {
+    return { ok: false, canonical, targets, error: "duplicate_targets" };
+  }
+
+  if (targets.length === 1) {
+    return {
+      ok: true,
+      canonical: targets[0] ?? "",
+      targets,
+      pairBase: null,
+    };
+  }
+
+  const wildcardTarget = targets.find((target) => getWildcardBase(target));
+  const rootTarget = targets.find((target) => !getWildcardBase(target));
+  if (
+    !wildcardTarget ||
+    !rootTarget ||
+    getWildcardBase(wildcardTarget) !== rootTarget
+  ) {
+    return { ok: false, canonical, targets, error: "invalid_pair" };
+  }
+
+  return {
+    ok: true,
+    canonical: `${wildcardTarget},${rootTarget}`,
+    targets: [wildcardTarget, rootTarget],
+    pairBase: rootTarget,
+  };
+};
+
+export const validateDDNSDomainTargets = (
+  value: unknown,
+  options: DDNSDomainTargetValidationOptions = {},
+): DDNSDomainTargetParseResult => {
+  const result = parseDDNSDomainTargets(value);
+  if (!result.ok || result.pairBase === null) {
+    return result;
+  }
+
+  if (options.capability?.mode !== "single_or_wildcard_root_pair") {
+    return {
+      ok: false,
+      canonical: result.canonical,
+      targets: result.targets,
+      error: "pair_unsupported",
+    };
+  }
+
+  if (options.capability.rootField) {
+    const rootResult = parseDDNSDomainTargets(options.rootDomain);
+    if (
+      !rootResult.ok ||
+      rootResult.targets.length !== 1 ||
+      rootResult.targets[0]?.startsWith("*.") ||
+      !isSameOrSubdomain(result.pairBase, rootResult.targets[0] ?? "")
+    ) {
+      return {
+        ok: false,
+        canonical: result.canonical,
+        targets: result.targets,
+        error: "root_mismatch",
+      };
+    }
+  }
+
+  return result;
+};

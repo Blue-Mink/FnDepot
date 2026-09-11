@@ -1,1 +1,362 @@
-dXNlIHN1cGVyOjoqOwp1c2UgdXRvaXBhX2F4dW06Ontyb3V0ZXI6Ok9wZW5BcGlSb3V0ZXIsIHJvdXRlc307CgpwdWIoc3VwZXIpIGZuIG9wZW5hcGlfcm91dGVzKCkgLT4gT3BlbkFwaVJvdXRlcjxBcHBTdGF0ZT4gewogICAgT3BlbkFwaVJvdXRlcjo6bmV3KCkKICAgICAgICAucm91dGVzKHJvdXRlcyEoc3RhdHVzKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEob3ZlcnZpZXcpKQogICAgICAgIC5yb3V0ZXMocm91dGVzISh3ZWJfc3RhdHVzKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoZ2V0X2NvbmZpZykpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHNhdmVfY29uZmlnKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoc3RhcnRfcHJpbWFyeSkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHN0b3BfcHJpbWFyeSkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF9sb2dzKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoY2xlYXJfbG9ncykpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHBvbGxfcHJpbWFyeSkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGdldF9pbnN0YW5jZXMpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShjcmVhdGVfaW5zdGFuY2UpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShjcmVhdGVfZHJhZnQpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShnZXRfaW5zdGFuY2UpKQogICAgICAgIC5yb3V0ZXMocm91dGVzISh1cGRhdGVfaW5zdGFuY2UpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShkZWxldGVfaW5zdGFuY2UpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShzdGFydF9pbnN0YW5jZSkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKHN0b3BfaW5zdGFuY2UpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShyZXN0YXJ0X2luc3RhbmNlKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoZ2V0X2luc3RhbmNlX2xvZ3MpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShjbGVhcl9pbnN0YW5jZV9sb2dzKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEocG9sbF9pbnN0YW5jZSkpCn0KCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL2ZycGMvc3RhdHVzIiwgdGFnID0gImZycGMiLCBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9mcnBjX3N0YXR1cyIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJGUlBDIHN0YXR1cyIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gc3RhdHVzKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBmcnBjX3Jlc3BvbnNlKAogICAgICAgICZzdGF0ZSwKICAgICAgICBhc3luYyB7CiAgICAgICAgICAgIGxldCBvdmVydmlldyA9IGJ1aWxkX292ZXJ2aWV3KCZzdGF0ZSkuYXdhaXQ/OwogICAgICAgICAgICBsZXQgcHJpbWFyeSA9IG92ZXJ2aWV3CiAgICAgICAgICAgICAgICAuaXRlbXMKICAgICAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgICAgIC5maW5kKHxpdGVtfCBpdGVtLmlkID09IG92ZXJ2aWV3LnByaW1hcnlfaW5zdGFuY2VfaWQpOwogICAgICAgICAgICBPayhqc29uISh7CiAgICAgICAgICAgICAgICAiaW5pdGlhbGl6ZWQiOiBvdmVydmlldy5pbml0aWFsaXplZCwKICAgICAgICAgICAgICAgICJwbGF0Zm9ybSI6IG92ZXJ2aWV3LnBsYXRmb3JtLAogICAgICAgICAgICAgICAgInJ1bm5pbmciOiBwcmltYXJ5Lm1hcCh8aXRlbXwgaXRlbS5ydW5uaW5nKS51bndyYXBfb3IoZmFsc2UpLAogICAgICAgICAgICAgICAgInBpZCI6IHByaW1hcnkuYW5kX3RoZW4ofGl0ZW18IGl0ZW0ucGlkKSwKICAgICAgICAgICAgICAgICJkZXNpcmVkUnVubmluZyI6IHByaW1hcnkubWFwKHxpdGVtfCBpdGVtLmRlc2lyZWRfcnVubmluZykudW53cmFwX29yKGZhbHNlKSwKICAgICAgICAgICAgICAgICJzdXBlcnZpc29yIjogcHJpbWFyeS5tYXAofGl0ZW18IGl0ZW0uc3VwZXJ2aXNvci5jbG9uZSgpKS51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICAgICAgICAgImNvbmZpZ19wYXRoIjogcHJpbWFyeS5tYXAofGl0ZW18IGl0ZW0uY29uZmlnX3BhdGguY2xvbmUoKSkudW53cmFwX29yX2RlZmF1bHQoKSwKICAgICAgICAgICAgICAgICJkZWZhdWx0cyI6IG92ZXJ2aWV3LmRlZmF1bHRzLAogICAgICAgICAgICAgICAgInRvdGFsIjogb3ZlcnZpZXcudG90YWwsCiAgICAgICAgICAgICAgICAicnVubmluZ19jb3VudCI6IG92ZXJ2aWV3LnJ1bm5pbmdfY291bnQsCiAgICAgICAgICAgIH0pKQogICAgICAgIH0KICAgICAgICAuYXdhaXQsCiAgICApCiAgICAuYXdhaXQKfQoKI1t1dG9pcGE6OnBhdGgoZ2V0LCBwYXRoID0gIi9hcGkvYWRtaW4vZnJwYy9vdmVydmlldyIsIHRhZyA9ICJmcnBjIiwgb3BlcmF0aW9uX2lkID0gImdldF9hcGlfYWRtaW5fZnJwY19vdmVydmlldyIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJGUlBDIG92ZXJ2aWV3IikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBvdmVydmlldygKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgUXVlcnkocXVlcnkpOiBRdWVyeTxMaW1pdFF1ZXJ5PiwKKSAtPiBSZXNwb25zZSB7CiAgICBmcnBjX3Jlc3BvbnNlKAogICAgICAgICZzdGF0ZSwKICAgICAgICBhc3luYyB7CiAgICAgICAgICAgIGxldCBsb2dzID0gbGlzdF9sb2dzX2lubmVyKAogICAgICAgICAgICAgICAgJnN0YXRlLAogICAgICAgICAgICAgICAgRlJQQ19QUklNQVJZX0lOU1RBTkNFX0lELAogICAgICAgICAgICAgICAgcGFyc2VfbGltaXQocXVlcnkubGltaXQuYXNfZGVyZWYoKSksCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICAgICAgT2soanNvbiEoeyAidGNwIjogW10sICJsb2dzIjogbG9ncyB9KSkKICAgICAgICB9CiAgICAgICAgLmF3YWl0LAogICAgKQogICAgLmF3YWl0Cn0KCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL2ZycGMvd2ViLXN0YXR1cyIsIHRhZyA9ICJmcnBjIiwgb3BlcmF0aW9uX2lkID0gImdldF9hcGlfYWRtaW5fZnJwY193ZWJfc3RhdHVzIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkZSUEMgd2ViIHN0YXR1cyIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gd2ViX3N0YXR1cygpIC0+IFJlc3BvbnNlIHsKICAgIHJlc3BvbnNlOjpvayhqc29uISh7ICJ0Y3AiOiBbXSB9KSkuaW50b19yZXNwb25zZSgpCn0KCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL2ZycGMvY29uZmlnIiwgdGFnID0gImZycGMiLCBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9mcnBjX2NvbmZpZyIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJGUlBDIGNvbmZpZ3VyYXRpb24iKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGdldF9jb25maWcoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGZycGNfcmVzcG9uc2UoCiAgICAgICAgJnN0YXRlLAogICAgICAgIGFzeW5jIHsKICAgICAgICAgICAgbGV0IGNvbnRlbnQgPSByZWFkX2NvbmZpZygmc3RhdGUsIEZSUENfUFJJTUFSWV9JTlNUQU5DRV9JRCkuYXdhaXQ/OwogICAgICAgICAgICBPayhqc29uISh7ICJjb250ZW50IjogY29udGVudCB9KSkKICAgICAgICB9CiAgICAgICAgLmF3YWl0LAogICAgKQogICAgLmF3YWl0Cn0KCiNbdXRvaXBhOjpwYXRoKHBvc3QsIHBhdGggPSAiL2FwaS9hZG1pbi9mcnBjL2NvbmZpZyIsIHRhZyA9ICJmcnBjIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX2ZycGNfY29uZmlnIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlVwZGF0ZWQgRlJQQyBjb25maWd1cmF0aW9uIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBzYXZlX2NvbmZpZygKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgSnNvbihib2R5KTogSnNvbjxDb25maWdCb2R5PiwKKSAtPiBSZXNwb25zZSB7CiAgICBmcnBjX3Jlc3BvbnNlX2VtcHR5KAogICAgICAgICZzdGF0ZSwKICAgICAgICBzYXZlX2NvbmZpZ19pbm5lcigmc3RhdGUsIEZSUENfUFJJTUFSWV9JTlNUQU5DRV9JRCwgYm9keS5jb250ZW50KS5hd2FpdCwKICAgICkKICAgIC5hd2FpdAp9CgojW3V0b2lwYTo6cGF0aChwb3N0LCBwYXRoID0gIi9hcGkvYWRtaW4vZnJwYy9zdGFydCIsIHRhZyA9ICJmcnBjIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX2ZycGNfc3RhcnQiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiU3RhcnRlZCBwcmltYXJ5IEZSUEMgaW5zdGFuY2UiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHN0YXJ0X3ByaW1hcnkoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGZycGNfcmVzcG9uc2UoCiAgICAgICAgJnN0YXRlLAogICAgICAgIGFzeW5jIHsKICAgICAgICAgICAgbGV0IHBpZCA9IHN0YXJ0X2luc3RhbmNlX2lubmVyKCZzdGF0ZSwgRlJQQ19QUklNQVJZX0lOU1RBTkNFX0lEKS5hd2FpdD87CiAgICAgICAgICAgIE9rKGpzb24hKHsgInBpZCI6IHBpZCB9KSkKICAgICAgICB9CiAgICAgICAgLmF3YWl0LAogICAgKQogICAgLmF3YWl0Cn0KCiNbdXRvaXBhOjpwYXRoKHBvc3QsIHBhdGggPSAiL2FwaS9hZG1pbi9mcnBjL3N0b3AiLCB0YWcgPSAiZnJwYyIsIG9wZXJhdGlvbl9pZCA9ICJwb3N0X2FwaV9hZG1pbl9mcnBjX3N0b3AiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiU3RvcHBlZCBwcmltYXJ5IEZSUEMgaW5zdGFuY2UiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHN0b3BfcHJpbWFyeShTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPikgLT4gUmVzcG9uc2UgewogICAgZnJwY19yZXNwb25zZV9lbXB0eSgKICAgICAgICAmc3RhdGUsCiAgICAgICAgc3RvcF9pbnN0YW5jZV9pbm5lcigmc3RhdGUsIEZSUENfUFJJTUFSWV9JTlNUQU5DRV9JRCkuYXdhaXQsCiAgICApCiAgICAuYXdhaXQKfQoKI1t1dG9pcGE6OnBhdGgoZ2V0LCBwYXRoID0gIi9hcGkvYWRtaW4vZnJwYy9sb2dzIiwgdGFnID0gImZycGMiLCBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9mcnBjX2xvZ3MiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiUHJpbWFyeSBGUlBDIGxvZ3MiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGdldF9sb2dzKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBRdWVyeShxdWVyeSk6IFF1ZXJ5PExpbWl0UXVlcnk+LAopIC0+IFJlc3BvbnNlIHsKICAgIGZycGNfcmVzcG9uc2UoCiAgICAgICAgJnN0YXRlLAogICAgICAgIGFzeW5jIHsKICAgICAgICAgICAgT2soanNvbiEoCiAgICAgICAgICAgICAgICBsaXN0X2xvZ3NfaW5uZXIoCiAgICAgICAgICAgICAgICAgICAgJnN0YXRlLAogICAgICAgICAgICAgICAgICAgIEZSUENfUFJJTUFSWV9JTlNUQU5DRV9JRCwKICAgICAgICAgICAgICAgICAgICBwYXJzZV9saW1pdChxdWVyeS5saW1pdC5hc19kZXJlZigpKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIC5hd2FpdD8KICAgICAgICAgICAgKSkKICAgICAgICB9CiAgICAgICAgLmF3YWl0LAogICAgKQogICAgLmF3YWl0Cn0KCiNbdXRvaXBhOjpwYXRoKGRlbGV0ZSwgcGF0aCA9ICIvYXBpL2FkbWluL2ZycGMvbG9ncyIsIHRhZyA9ICJmcnBjIiwgb3BlcmF0aW9uX2lkID0gImRlbGV0ZV9hcGlfYWRtaW5fZnJwY19sb2dzIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkNsZWFyZWQgcHJpbWFyeSBGUlBDIGxvZ3MiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGNsZWFyX2xvZ3MoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGZycGNfcmVzcG9uc2VfZW1wdHkoCiAgICAgICAgJnN0YXRlLAogICAgICAgIGNsZWFyX2xvZ3NfaW5uZXIoJnN0YXRlLCBGUlBDX1BSSU1BUllfSU5TVEFOQ0VfSUQpLmF3YWl0LAogICAgKQogICAgLmF3YWl0Cn0KCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL2ZycGMvcG9sbCIsIHRhZyA9ICJmcnBjIiwgb3BlcmF0aW9uX2lkID0gImdldF9hcGlfYWRtaW5fZnJwY19wb2xsIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlByaW1hcnkgRlJQQyBwb2xsIHJlc3VsdCIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gcG9sbF9wcmltYXJ5KAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBRdWVyeShxdWVyeSk6IFF1ZXJ5PFBvbGxRdWVyeT4sCikgLT4gUmVzcG9uc2UgewogICAgZnJwY19yZXNwb25zZSgKICAgICAgICAmc3RhdGUsCiAgICAgICAgYXN5bmMgewogICAgICAgICAgICBsZXQgbXV0IGRhdGEgPQogICAgICAgICAgICAgICAgcG9sbF9pbm5lcigmc3RhdGUsIEZSUENfUFJJTUFSWV9JTlNUQU5DRV9JRCwgcXVlcnkuY3Vyc29yLmFzX2RlcmVmKCkpLmF3YWl0PzsKICAgICAgICAgICAgbGV0IG92ZXJ2aWV3ID0gYnVpbGRfb3ZlcnZpZXcoJnN0YXRlKS5hd2FpdD87CiAgICAgICAgICAgIGlmIGxldCBTb21lKHN0YXR1cykgPSBkYXRhLmdldF9tdXQoInN0YXR1cyIpLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3RfbXV0KSB7CiAgICAgICAgICAgICAgICBzdGF0dXMuaW5zZXJ0KCJ0Y3AiLnRvX3N0cmluZygpLCBqc29uIShbXSkpOwogICAgICAgICAgICAgICAgc3RhdHVzLmluc2VydCgiaW5zdGFuY2VzIi50b19zdHJpbmcoKSwgc2VyZGVfanNvbjo6dG9fdmFsdWUob3ZlcnZpZXcpPyk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgT2soZGF0YSkKICAgICAgICB9CiAgICAgICAgLmF3YWl0LAogICAgKQogICAgLmF3YWl0Cn0KCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL2ZycGMvaW5zdGFuY2VzIiwgdGFnID0gImZycGMiLCBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9mcnBjX2luc3RhbmNlcyIsIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJGUlBDIGluc3RhbmNlcyIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gZ2V0X2luc3RhbmNlcyhTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPikgLT4gUmVzcG9uc2UgewogICAgZnJwY19yZXNwb25zZSgKICAgICAgICAmc3RhdGUsCiAgICAgICAgYXN5bmMgeyBPayhzZXJkZV9qc29uOjp0b192YWx1ZShidWlsZF9vdmVydmlldygmc3RhdGUpLmF3YWl0Pyk/KSB9LmF3YWl0LAogICAgKQogICAgLmF3YWl0Cn0KCiNbdXRvaXBhOjpwYXRoKHBvc3QsIHBhdGggPSAiL2FwaS9hZG1pbi9mcnBjL2luc3RhbmNlcy9kcmFmdCIsIHRhZyA9ICJmcnBjIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX2ZycGNfaW5zdGFuY2VzX2RyYWZ0IiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkNyZWF0ZWQgRlJQQyBkcmFmdCIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gY3JlYXRlX2RyYWZ0KFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgXyA9IHN0YXRlOwogICAgcmVzcG9uc2U6Om9rKGpzb24hKHsgImNvbnRlbnQiOiBkZWZhdWx0X2ZycGNfdGVtcGxhdGUoKSB9KSkuaW50b19yZXNwb25zZSgpCn0KCiNbdXRvaXBhOjpwYXRoKHBvc3QsIHBhdGggPSAiL2FwaS9hZG1pbi9mcnBjL2luc3RhbmNlcyIsIHRhZyA9ICJmcnBjIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX2ZycGNfaW5zdGFuY2VzIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkNyZWF0ZWQgRlJQQyBpbnN0YW5jZSIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gY3JlYXRlX2luc3RhbmNlKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBKc29uKGJvZHkpOiBKc29uPEluc3RhbmNlQm9keT4sCikgLT4gUmVzcG9uc2UgewogICAgZnJwY19yZXNwb25zZSgKICAgICAgICAmc3RhdGUsCiAgICAgICAgYXN5bmMgewogICAgICAgICAgICBPayhzZXJkZV9qc29uOjp0b192YWx1ZSgKICAgICAgICAgICAgICAgIGNyZWF0ZV9pbnN0YW5jZV9pbm5lcigmc3RhdGUsIGJvZHkpLmF3YWl0PywKICAgICAgICAgICAgKT8pCiAgICAgICAgfQogICAgICAgIC5hd2FpdCwKICAgICkKICAgIC5hd2FpdAp9CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi9mcnBjL2luc3RhbmNlcy97aWR9IiwgdGFnID0gImZycGMiLCBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9mcnBjX2luc3RhbmNlc19faWRfIiwgcGFyYW1zKCgiaWQiID0gU3RyaW5nLCBQYXRoLCBkZXNjcmlwdGlvbiA9ICJGUlBDIGluc3RhbmNlIGlkZW50aWZpZXIiKSksIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJGUlBDIGluc3RhbmNlIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfaW5zdGFuY2UoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIEF4dW1QYXRoKGlkKTogQXh1bVBhdGg8U3RyaW5nPiwKICAgIFF1ZXJ5KHF1ZXJ5KTogUXVlcnk8TGltaXRRdWVyeT4sCikgLT4gUmVzcG9uc2UgewogICAgZnJwY19yZXNwb25zZSgKICAgICAgICAmc3RhdGUsCiAgICAgICAgYXN5bmMgewogICAgICAgICAgICBsZXQgbWV0YSA9IGdldF9tZXRhX29yX2Vycm9yKCZzdGF0ZSwgJmlkKS5hd2FpdD87CiAgICAgICAgICAgIGxldCBpdGVtID0gYnVpbGRfc3RhdHVzKCZzdGF0ZSwgJm1ldGEpLmF3YWl0PzsKICAgICAgICAgICAgbGV0IGNvbnRlbnQgPSByZWFkX2NvbmZpZ19mb3JfbWV0YSgmbWV0YSkuYXdhaXQ/OwogICAgICAgICAgICBsZXQgbG9ncyA9CiAgICAgICAgICAgICAgICBsaXN0X2xvZ3NfaW5uZXIoJnN0YXRlLCAmbWV0YS5pZCwgcGFyc2VfbGltaXQocXVlcnkubGltaXQuYXNfZGVyZWYoKSkpLmF3YWl0PzsKICAgICAgICAgICAgT2soanNvbiEoeyAiaXRlbSI6IGl0ZW0sICJjb250ZW50IjogY29udGVudCwgImxvZ3MiOiBsb2dzIH0pKQogICAgICAgIH0KICAgICAgICAuYXdhaXQsCiAgICApCiAgICAuYXdhaXQKfQoKI1t1dG9pcGE6OnBhdGgocHV0LCBwYXRoID0gIi9hcGkvYWRtaW4vZnJwYy9pbnN0YW5jZXMve2lkfSIsIHRhZyA9ICJmcnBjIiwgb3BlcmF0aW9uX2lkID0gInB1dF9hcGlfYWRtaW5fZnJwY19pbnN0YW5jZXNfaWQiLCBwYXJhbXMoKCJpZCIgPSBTdHJpbmcsIFBhdGgsIGRlc2NyaXB0aW9uID0gIkZSUEMgaW5zdGFuY2UgaWRlbnRpZmllciIpKSwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlVwZGF0ZWQgRlJQQyBpbnN0YW5jZSIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gdXBkYXRlX2luc3RhbmNlKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBBeHVtUGF0aChpZCk6IEF4dW1QYXRoPFN0cmluZz4sCiAgICBKc29uKGJvZHkpOiBKc29uPEluc3RhbmNlQm9keT4sCikgLT4gUmVzcG9uc2UgewogICAgZnJwY19yZXNwb25zZSgKICAgICAgICAmc3RhdGUsCiAgICAgICAgYXN5bmMgewogICAgICAgICAgICBPayhzZXJkZV9qc29uOjp0b192YWx1ZSgKICAgICAgICAgICAgICAgIHVwZGF0ZV9pbnN0YW5jZV9pbm5lcigmc3RhdGUsICZpZCwgYm9keSkuYXdhaXQ/LAogICAgICAgICAgICApPykKICAgICAgICB9CiAgICAgICAgLmF3YWl0LAogICAgKQogICAgLmF3YWl0Cn0KCiNbdXRvaXBhOjpwYXRoKGRlbGV0ZSwgcGF0aCA9ICIvYXBpL2FkbWluL2ZycGMvaW5zdGFuY2VzL3tpZH0iLCB0YWcgPSAiZnJwYyIsIG9wZXJhdGlvbl9pZCA9ICJkZWxldGVfYXBpX2FkbWluX2ZycGNfaW5zdGFuY2VzX2lkIiwgcGFyYW1zKCgiaWQiID0gU3RyaW5nLCBQYXRoLCBkZXNjcmlwdGlvbiA9ICJGUlBDIGluc3RhbmNlIGlkZW50aWZpZXIiKSksIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJEZWxldGVkIEZSUEMgaW5zdGFuY2UiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGRlbGV0ZV9pbnN0YW5jZSgKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgQXh1bVBhdGgoaWQpOiBBeHVtUGF0aDxTdHJpbmc+LAopIC0+IFJlc3BvbnNlIHsKICAgIGZycGNfcmVzcG9uc2VfZW1wdHkoJnN0YXRlLCBkZWxldGVfaW5zdGFuY2VfaW5uZXIoJnN0YXRlLCAmaWQpLmF3YWl0KS5hd2FpdAp9CgojW3V0b2lwYTo6cGF0aChwb3N0LCBwYXRoID0gIi9hcGkvYWRtaW4vZnJwYy9pbnN0YW5jZXMve2lkfS9zdGFydCIsIHRhZyA9ICJmcnBjIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX2ZycGNfaW5zdGFuY2VzX2lkX3N0YXJ0IiwgcGFyYW1zKCgiaWQiID0gU3RyaW5nLCBQYXRoLCBkZXNjcmlwdGlvbiA9ICJGUlBDIGluc3RhbmNlIGlkZW50aWZpZXIiKSksIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJTdGFydGVkIEZSUEMgaW5zdGFuY2UiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHN0YXJ0X2luc3RhbmNlKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBBeHVtUGF0aChpZCk6IEF4dW1QYXRoPFN0cmluZz4sCikgLT4gUmVzcG9uc2UgewogICAgZnJwY19yZXNwb25zZSgKICAgICAgICAmc3RhdGUsCiAgICAgICAgYXN5bmMgewogICAgICAgICAgICBsZXQgcGlkID0gc3RhcnRfaW5zdGFuY2VfaW5uZXIoJnN0YXRlLCAmaWQpLmF3YWl0PzsKICAgICAgICAgICAgT2soanNvbiEoeyAicGlkIjogcGlkIH0pKQogICAgICAgIH0KICAgICAgICAuYXdhaXQsCiAgICApCiAgICAuYXdhaXQKfQoKI1t1dG9pcGE6OnBhdGgocG9zdCwgcGF0aCA9ICIvYXBpL2FkbWluL2ZycGMvaW5zdGFuY2VzL3tpZH0vc3RvcCIsIHRhZyA9ICJmcnBjIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX2ZycGNfaW5zdGFuY2VzX2lkX3N0b3AiLCBwYXJhbXMoKCJpZCIgPSBTdHJpbmcsIFBhdGgsIGRlc2NyaXB0aW9uID0gIkZSUEMgaW5zdGFuY2UgaWRlbnRpZmllciIpKSwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlN0b3BwZWQgRlJQQyBpbnN0YW5jZSIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gc3RvcF9pbnN0YW5jZSgKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgQXh1bVBhdGgoaWQpOiBBeHVtUGF0aDxTdHJpbmc+LAopIC0+IFJlc3BvbnNlIHsKICAgIGZycGNfcmVzcG9uc2VfZW1wdHkoJnN0YXRlLCBzdG9wX2luc3RhbmNlX2lubmVyKCZzdGF0ZSwgJmlkKS5hd2FpdCkuYXdhaXQKfQoKI1t1dG9pcGE6OnBhdGgocG9zdCwgcGF0aCA9ICIvYXBpL2FkbWluL2ZycGMvaW5zdGFuY2VzL3tpZH0vcmVzdGFydCIsIHRhZyA9ICJmcnBjIiwgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX2ZycGNfaW5zdGFuY2VzX2lkX3Jlc3RhcnQiLCBwYXJhbXMoKCJpZCIgPSBTdHJpbmcsIFBhdGgsIGRlc2NyaXB0aW9uID0gIkZSUEMgaW5zdGFuY2UgaWRlbnRpZmllciIpKSwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlJlc3RhcnRlZCBGUlBDIGluc3RhbmNlIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiByZXN0YXJ0X2luc3RhbmNlKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBBeHVtUGF0aChpZCk6IEF4dW1QYXRoPFN0cmluZz4sCikgLT4gUmVzcG9uc2UgewogICAgZnJwY19yZXNwb25zZSgKICAgICAgICAmc3RhdGUsCiAgICAgICAgYXN5bmMgewogICAgICAgICAgICBsZXQgcGlkID0gcmVzdGFydF9pbnN0YW5jZV9pbm5lcigmc3RhdGUsICZpZCkuYXdhaXQ/OwogICAgICAgICAgICBPayhqc29uISh7ICJwaWQiOiBwaWQgfSkpCiAgICAgICAgfQogICAgICAgIC5hd2FpdCwKICAgICkKICAgIC5hd2FpdAp9CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi9mcnBjL2luc3RhbmNlcy97aWR9L2xvZ3MiLCB0YWcgPSAiZnJwYyIsIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX2ZycGNfaW5zdGFuY2VzX19pZF9fbG9ncyIsIHBhcmFtcygoImlkIiA9IFN0cmluZywgUGF0aCwgZGVzY3JpcHRpb24gPSAiRlJQQyBpbnN0YW5jZSBpZGVudGlmaWVyIikpLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiRlJQQyBpbnN0YW5jZSBsb2dzIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfaW5zdGFuY2VfbG9ncygKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgQXh1bVBhdGgoaWQpOiBBeHVtUGF0aDxTdHJpbmc+LAogICAgUXVlcnkocXVlcnkpOiBRdWVyeTxMaW1pdFF1ZXJ5PiwKKSAtPiBSZXNwb25zZSB7CiAgICBmcnBjX3Jlc3BvbnNlKAogICAgICAgICZzdGF0ZSwKICAgICAgICBhc3luYyB7CiAgICAgICAgICAgIE9rKGpzb24hKAogICAgICAgICAgICAgICAgbGlzdF9sb2dzX2lubmVyKCZzdGF0ZSwgJmlkLCBwYXJzZV9saW1pdChxdWVyeS5saW1pdC5hc19kZXJlZigpKSkuYXdhaXQ/CiAgICAgICAgICAgICkpCiAgICAgICAgfQogICAgICAgIC5hd2FpdCwKICAgICkKICAgIC5hd2FpdAp9CgojW3V0b2lwYTo6cGF0aChkZWxldGUsIHBhdGggPSAiL2FwaS9hZG1pbi9mcnBjL2luc3RhbmNlcy97aWR9L2xvZ3MiLCB0YWcgPSAiZnJwYyIsIG9wZXJhdGlvbl9pZCA9ICJkZWxldGVfYXBpX2FkbWluX2ZycGNfaW5zdGFuY2VzX2lkX2xvZ3MiLCBwYXJhbXMoKCJpZCIgPSBTdHJpbmcsIFBhdGgsIGRlc2NyaXB0aW9uID0gIkZSUEMgaW5zdGFuY2UgaWRlbnRpZmllciIpKSwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkNsZWFyZWQgRlJQQyBpbnN0YW5jZSBsb2dzIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiBjbGVhcl9pbnN0YW5jZV9sb2dzKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBBeHVtUGF0aChpZCk6IEF4dW1QYXRoPFN0cmluZz4sCikgLT4gUmVzcG9uc2UgewogICAgZnJwY19yZXNwb25zZV9lbXB0eSgmc3RhdGUsIGNsZWFyX2xvZ3NfaW5uZXIoJnN0YXRlLCAmaWQpLmF3YWl0KS5hd2FpdAp9CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi9mcnBjL2luc3RhbmNlcy97aWR9L3BvbGwiLCB0YWcgPSAiZnJwYyIsIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX2ZycGNfaW5zdGFuY2VzX19pZF9fcG9sbCIsIHBhcmFtcygoImlkIiA9IFN0cmluZywgUGF0aCwgZGVzY3JpcHRpb24gPSAiRlJQQyBpbnN0YW5jZSBpZGVudGlmaWVyIikpLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiRlJQQyBpbnN0YW5jZSBwb2xsIHJlc3VsdCIpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gcG9sbF9pbnN0YW5jZSgKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgQXh1bVBhdGgoaWQpOiBBeHVtUGF0aDxTdHJpbmc+LAogICAgUXVlcnkocXVlcnkpOiBRdWVyeTxQb2xsUXVlcnk+LAopIC0+IFJlc3BvbnNlIHsKICAgIGZycGNfcmVzcG9uc2UoCiAgICAgICAgJnN0YXRlLAogICAgICAgIHBvbGxfaW5uZXIoJnN0YXRlLCAmaWQsIHF1ZXJ5LmN1cnNvci5hc19kZXJlZigpKS5hd2FpdCwKICAgICkKICAgIC5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGZycGNfcmVzcG9uc2Uoc3RhdGU6ICZBcHBTdGF0ZSwgcmVzdWx0OiBGcnBjUmVzdWx0PFZhbHVlPikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKHN0YXRlKS5hd2FpdDsKICAgIG1hdGNoIHJlc3VsdCB7CiAgICAgICAgT2sodmFsdWUpID0+IHJlc3BvbnNlOjpvayhsb2NhbGl6ZV9mcnBjX3Jlc3BvbnNlX3ZhbHVlKHZhbHVlLCAmdHJhbnNsYXRvcikpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgZXJyb3Iuc3RhdHVzLAogICAgICAgICAgICBsb2NhbGl6ZV9mcnBjX2Vycm9yKCZ0cmFuc2xhdG9yLCAmZXJyb3IubWVzc2FnZSksCiAgICAgICAgKSwKICAgIH0KfQoKcHViKHN1cGVyKSBhc3luYyBmbiBmcnBjX3Jlc3BvbnNlX2VtcHR5KHN0YXRlOiAmQXBwU3RhdGUsIHJlc3VsdDogRnJwY1Jlc3VsdDwoKT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZShzdGF0ZSkuYXdhaXQ7CiAgICBtYXRjaCByZXN1bHQgewogICAgICAgIE9rKCgpKSA9PiByZXNwb25zZTo6c3VjY2Vzc19lbXB0eSgpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgZXJyb3Iuc3RhdHVzLAogICAgICAgICAgICBsb2NhbGl6ZV9mcnBjX2Vycm9yKCZ0cmFuc2xhdG9yLCAmZXJyb3IubWVzc2FnZSksCiAgICAgICAgKSwKICAgIH0KfQo=
+use super::*;
+use utoipa_axum::{router::OpenApiRouter, routes};
+
+pub(super) fn openapi_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(status))
+        .routes(routes!(overview))
+        .routes(routes!(web_status))
+        .routes(routes!(get_config))
+        .routes(routes!(save_config))
+        .routes(routes!(start_primary))
+        .routes(routes!(stop_primary))
+        .routes(routes!(get_logs))
+        .routes(routes!(clear_logs))
+        .routes(routes!(poll_primary))
+        .routes(routes!(get_instances))
+        .routes(routes!(create_instance))
+        .routes(routes!(create_draft))
+        .routes(routes!(get_instance))
+        .routes(routes!(update_instance))
+        .routes(routes!(delete_instance))
+        .routes(routes!(start_instance))
+        .routes(routes!(stop_instance))
+        .routes(routes!(restart_instance))
+        .routes(routes!(get_instance_logs))
+        .routes(routes!(clear_instance_logs))
+        .routes(routes!(poll_instance))
+}
+
+#[utoipa::path(get, path = "/api/admin/frpc/status", tag = "frpc", operation_id = "get_api_admin_frpc_status", responses((status = 200, description = "FRPC status")))]
+pub(super) async fn status(State(state): State<AppState>) -> Response {
+    frpc_response(
+        &state,
+        async {
+            let overview = build_overview(&state).await?;
+            let primary = overview
+                .items
+                .iter()
+                .find(|item| item.id == overview.primary_instance_id);
+            Ok(json!({
+                "initialized": overview.initialized,
+                "platform": overview.platform,
+                "running": primary.map(|item| item.running).unwrap_or(false),
+                "pid": primary.and_then(|item| item.pid),
+                "desiredRunning": primary.map(|item| item.desired_running).unwrap_or(false),
+                "supervisor": primary.map(|item| item.supervisor.clone()).unwrap_or_default(),
+                "config_path": primary.map(|item| item.config_path.clone()).unwrap_or_default(),
+                "defaults": overview.defaults,
+                "total": overview.total,
+                "running_count": overview.running_count,
+            }))
+        }
+        .await,
+    )
+    .await
+}
+
+#[utoipa::path(get, path = "/api/admin/frpc/overview", tag = "frpc", operation_id = "get_api_admin_frpc_overview", responses((status = 200, description = "FRPC overview")))]
+pub(super) async fn overview(
+    State(state): State<AppState>,
+    Query(query): Query<LimitQuery>,
+) -> Response {
+    frpc_response(
+        &state,
+        async {
+            let logs = list_logs_inner(
+                &state,
+                FRPC_PRIMARY_INSTANCE_ID,
+                parse_limit(query.limit.as_deref()),
+            )
+            .await?;
+            Ok(json!({ "tcp": [], "logs": logs }))
+        }
+        .await,
+    )
+    .await
+}
+
+#[utoipa::path(get, path = "/api/admin/frpc/web-status", tag = "frpc", operation_id = "get_api_admin_frpc_web_status", responses((status = 200, description = "FRPC web status")))]
+pub(super) async fn web_status() -> Response {
+    response::ok(json!({ "tcp": [] })).into_response()
+}
+
+#[utoipa::path(get, path = "/api/admin/frpc/config", tag = "frpc", operation_id = "get_api_admin_frpc_config", responses((status = 200, description = "FRPC configuration")))]
+pub(super) async fn get_config(State(state): State<AppState>) -> Response {
+    frpc_response(
+        &state,
+        async {
+            let content = read_config(&state, FRPC_PRIMARY_INSTANCE_ID).await?;
+            Ok(json!({ "content": content }))
+        }
+        .await,
+    )
+    .await
+}
+
+#[utoipa::path(post, path = "/api/admin/frpc/config", tag = "frpc", operation_id = "post_api_admin_frpc_config", responses((status = 200, description = "Updated FRPC configuration")))]
+pub(super) async fn save_config(
+    State(state): State<AppState>,
+    Json(body): Json<ConfigBody>,
+) -> Response {
+    frpc_response_empty(
+        &state,
+        save_config_inner(&state, FRPC_PRIMARY_INSTANCE_ID, body.content).await,
+    )
+    .await
+}
+
+#[utoipa::path(post, path = "/api/admin/frpc/start", tag = "frpc", operation_id = "post_api_admin_frpc_start", responses((status = 200, description = "Started primary FRPC instance")))]
+pub(super) async fn start_primary(State(state): State<AppState>) -> Response {
+    frpc_response(
+        &state,
+        async {
+            let pid = start_instance_inner(&state, FRPC_PRIMARY_INSTANCE_ID).await?;
+            Ok(json!({ "pid": pid }))
+        }
+        .await,
+    )
+    .await
+}
+
+#[utoipa::path(post, path = "/api/admin/frpc/stop", tag = "frpc", operation_id = "post_api_admin_frpc_stop", responses((status = 200, description = "Stopped primary FRPC instance")))]
+pub(super) async fn stop_primary(State(state): State<AppState>) -> Response {
+    frpc_response_empty(
+        &state,
+        stop_instance_inner(&state, FRPC_PRIMARY_INSTANCE_ID).await,
+    )
+    .await
+}
+
+#[utoipa::path(get, path = "/api/admin/frpc/logs", tag = "frpc", operation_id = "get_api_admin_frpc_logs", responses((status = 200, description = "Primary FRPC logs")))]
+pub(super) async fn get_logs(
+    State(state): State<AppState>,
+    Query(query): Query<LimitQuery>,
+) -> Response {
+    frpc_response(
+        &state,
+        async {
+            Ok(json!(
+                list_logs_inner(
+                    &state,
+                    FRPC_PRIMARY_INSTANCE_ID,
+                    parse_limit(query.limit.as_deref()),
+                )
+                .await?
+            ))
+        }
+        .await,
+    )
+    .await
+}
+
+#[utoipa::path(delete, path = "/api/admin/frpc/logs", tag = "frpc", operation_id = "delete_api_admin_frpc_logs", responses((status = 200, description = "Cleared primary FRPC logs")))]
+pub(super) async fn clear_logs(State(state): State<AppState>) -> Response {
+    frpc_response_empty(
+        &state,
+        clear_logs_inner(&state, FRPC_PRIMARY_INSTANCE_ID).await,
+    )
+    .await
+}
+
+#[utoipa::path(get, path = "/api/admin/frpc/poll", tag = "frpc", operation_id = "get_api_admin_frpc_poll", responses((status = 200, description = "Primary FRPC poll result")))]
+pub(super) async fn poll_primary(
+    State(state): State<AppState>,
+    Query(query): Query<PollQuery>,
+) -> Response {
+    frpc_response(
+        &state,
+        async {
+            let mut data =
+                poll_inner(&state, FRPC_PRIMARY_INSTANCE_ID, query.cursor.as_deref()).await?;
+            let overview = build_overview(&state).await?;
+            if let Some(status) = data.get_mut("status").and_then(Value::as_object_mut) {
+                status.insert("tcp".to_string(), json!([]));
+                status.insert("instances".to_string(), serde_json::to_value(overview)?);
+            }
+            Ok(data)
+        }
+        .await,
+    )
+    .await
+}
+
+#[utoipa::path(get, path = "/api/admin/frpc/instances", tag = "frpc", operation_id = "get_api_admin_frpc_instances", responses((status = 200, description = "FRPC instances")))]
+pub(super) async fn get_instances(State(state): State<AppState>) -> Response {
+    frpc_response(
+        &state,
+        async { Ok(serde_json::to_value(build_overview(&state).await?)?) }.await,
+    )
+    .await
+}
+
+#[utoipa::path(post, path = "/api/admin/frpc/instances/draft", tag = "frpc", operation_id = "post_api_admin_frpc_instances_draft", responses((status = 200, description = "Created FRPC draft")))]
+pub(super) async fn create_draft(State(state): State<AppState>) -> Response {
+    let _ = state;
+    response::ok(json!({ "content": default_frpc_template() })).into_response()
+}
+
+#[utoipa::path(post, path = "/api/admin/frpc/instances", tag = "frpc", operation_id = "post_api_admin_frpc_instances", responses((status = 200, description = "Created FRPC instance")))]
+pub(super) async fn create_instance(
+    State(state): State<AppState>,
+    Json(body): Json<InstanceBody>,
+) -> Response {
+    frpc_response(
+        &state,
+        async {
+            Ok(serde_json::to_value(
+                create_instance_inner(&state, body).await?,
+            )?)
+        }
+        .await,
+    )
+    .await
+}
+
+#[utoipa::path(get, path = "/api/admin/frpc/instances/{id}", tag = "frpc", operation_id = "get_api_admin_frpc_instances__id_", params(("id" = String, Path, description = "FRPC instance identifier")), responses((status = 200, description = "FRPC instance")))]
+pub(super) async fn get_instance(
+    State(state): State<AppState>,
+    AxumPath(id): AxumPath<String>,
+    Query(query): Query<LimitQuery>,
+) -> Response {
+    frpc_response(
+        &state,
+        async {
+            let meta = get_meta_or_error(&state, &id).await?;
+            let item = build_status(&state, &meta).await?;
+            let content = read_config_for_meta(&meta).await?;
+            let logs =
+                list_logs_inner(&state, &meta.id, parse_limit(query.limit.as_deref())).await?;
+            Ok(json!({ "item": item, "content": content, "logs": logs }))
+        }
+        .await,
+    )
+    .await
+}
+
+#[utoipa::path(put, path = "/api/admin/frpc/instances/{id}", tag = "frpc", operation_id = "put_api_admin_frpc_instances_id", params(("id" = String, Path, description = "FRPC instance identifier")), responses((status = 200, description = "Updated FRPC instance")))]
+pub(super) async fn update_instance(
+    State(state): State<AppState>,
+    AxumPath(id): AxumPath<String>,
+    Json(body): Json<InstanceBody>,
+) -> Response {
+    frpc_response(
+        &state,
+        async {
+            Ok(serde_json::to_value(
+                update_instance_inner(&state, &id, body).await?,
+            )?)
+        }
+        .await,
+    )
+    .await
+}
+
+#[utoipa::path(delete, path = "/api/admin/frpc/instances/{id}", tag = "frpc", operation_id = "delete_api_admin_frpc_instances_id", params(("id" = String, Path, description = "FRPC instance identifier")), responses((status = 200, description = "Deleted FRPC instance")))]
+pub(super) async fn delete_instance(
+    State(state): State<AppState>,
+    AxumPath(id): AxumPath<String>,
+) -> Response {
+    frpc_response_empty(&state, delete_instance_inner(&state, &id).await).await
+}
+
+#[utoipa::path(post, path = "/api/admin/frpc/instances/{id}/start", tag = "frpc", operation_id = "post_api_admin_frpc_instances_id_start", params(("id" = String, Path, description = "FRPC instance identifier")), responses((status = 200, description = "Started FRPC instance")))]
+pub(super) async fn start_instance(
+    State(state): State<AppState>,
+    AxumPath(id): AxumPath<String>,
+) -> Response {
+    frpc_response(
+        &state,
+        async {
+            let pid = start_instance_inner(&state, &id).await?;
+            Ok(json!({ "pid": pid }))
+        }
+        .await,
+    )
+    .await
+}
+
+#[utoipa::path(post, path = "/api/admin/frpc/instances/{id}/stop", tag = "frpc", operation_id = "post_api_admin_frpc_instances_id_stop", params(("id" = String, Path, description = "FRPC instance identifier")), responses((status = 200, description = "Stopped FRPC instance")))]
+pub(super) async fn stop_instance(
+    State(state): State<AppState>,
+    AxumPath(id): AxumPath<String>,
+) -> Response {
+    frpc_response_empty(&state, stop_instance_inner(&state, &id).await).await
+}
+
+#[utoipa::path(post, path = "/api/admin/frpc/instances/{id}/restart", tag = "frpc", operation_id = "post_api_admin_frpc_instances_id_restart", params(("id" = String, Path, description = "FRPC instance identifier")), responses((status = 200, description = "Restarted FRPC instance")))]
+pub(super) async fn restart_instance(
+    State(state): State<AppState>,
+    AxumPath(id): AxumPath<String>,
+) -> Response {
+    frpc_response(
+        &state,
+        async {
+            let pid = restart_instance_inner(&state, &id).await?;
+            Ok(json!({ "pid": pid }))
+        }
+        .await,
+    )
+    .await
+}
+
+#[utoipa::path(get, path = "/api/admin/frpc/instances/{id}/logs", tag = "frpc", operation_id = "get_api_admin_frpc_instances__id__logs", params(("id" = String, Path, description = "FRPC instance identifier")), responses((status = 200, description = "FRPC instance logs")))]
+pub(super) async fn get_instance_logs(
+    State(state): State<AppState>,
+    AxumPath(id): AxumPath<String>,
+    Query(query): Query<LimitQuery>,
+) -> Response {
+    frpc_response(
+        &state,
+        async {
+            Ok(json!(
+                list_logs_inner(&state, &id, parse_limit(query.limit.as_deref())).await?
+            ))
+        }
+        .await,
+    )
+    .await
+}
+
+#[utoipa::path(delete, path = "/api/admin/frpc/instances/{id}/logs", tag = "frpc", operation_id = "delete_api_admin_frpc_instances_id_logs", params(("id" = String, Path, description = "FRPC instance identifier")), responses((status = 200, description = "Cleared FRPC instance logs")))]
+pub(super) async fn clear_instance_logs(
+    State(state): State<AppState>,
+    AxumPath(id): AxumPath<String>,
+) -> Response {
+    frpc_response_empty(&state, clear_logs_inner(&state, &id).await).await
+}
+
+#[utoipa::path(get, path = "/api/admin/frpc/instances/{id}/poll", tag = "frpc", operation_id = "get_api_admin_frpc_instances__id__poll", params(("id" = String, Path, description = "FRPC instance identifier")), responses((status = 200, description = "FRPC instance poll result")))]
+pub(super) async fn poll_instance(
+    State(state): State<AppState>,
+    AxumPath(id): AxumPath<String>,
+    Query(query): Query<PollQuery>,
+) -> Response {
+    frpc_response(
+        &state,
+        poll_inner(&state, &id, query.cursor.as_deref()).await,
+    )
+    .await
+}
+
+pub(super) async fn frpc_response(state: &AppState, result: FrpcResult<Value>) -> Response {
+    let translator = Translator::from_state(state).await;
+    match result {
+        Ok(value) => response::ok(localize_frpc_response_value(value, &translator)).into_response(),
+        Err(error) => response::error(
+            error.status,
+            localize_frpc_error(&translator, &error.message),
+        ),
+    }
+}
+
+pub(super) async fn frpc_response_empty(state: &AppState, result: FrpcResult<()>) -> Response {
+    let translator = Translator::from_state(state).await;
+    match result {
+        Ok(()) => response::success_empty().into_response(),
+        Err(error) => response::error(
+            error.status,
+            localize_frpc_error(&translator, &error.message),
+        ),
+    }
+}

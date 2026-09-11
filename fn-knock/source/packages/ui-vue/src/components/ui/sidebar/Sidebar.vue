@@ -1,1 +1,96 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgU2lkZWJhclByb3BzIH0gZnJvbSAiLiIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKaW1wb3J0IHsgU2hlZXQsIFNoZWV0Q29udGVudCB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9zaGVldCcKaW1wb3J0IFNoZWV0RGVzY3JpcHRpb24gZnJvbSAnQC9jb21wb25lbnRzL3VpL3NoZWV0L1NoZWV0RGVzY3JpcHRpb24udnVlJwppbXBvcnQgU2hlZXRIZWFkZXIgZnJvbSAnQC9jb21wb25lbnRzL3VpL3NoZWV0L1NoZWV0SGVhZGVyLnZ1ZScKaW1wb3J0IFNoZWV0VGl0bGUgZnJvbSAnQC9jb21wb25lbnRzL3VpL3NoZWV0L1NoZWV0VGl0bGUudnVlJwppbXBvcnQgeyBTSURFQkFSX1dJRFRIX01PQklMRSwgdXNlU2lkZWJhciB9IGZyb20gIi4vdXRpbHMiCgpkZWZpbmVPcHRpb25zKHsKICBpbmhlcml0QXR0cnM6IGZhbHNlLAp9KQoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoZGVmaW5lUHJvcHM8U2lkZWJhclByb3BzPigpLCB7CiAgc2lkZTogImxlZnQiLAogIHZhcmlhbnQ6ICJzaWRlYmFyIiwKICBjb2xsYXBzaWJsZTogIm9mZmNhbnZhcyIsCn0pCgpjb25zdCB7IGlzTW9iaWxlLCBzdGF0ZSwgb3Blbk1vYmlsZSwgc2V0T3Blbk1vYmlsZSB9ID0gdXNlU2lkZWJhcigpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYKICAgIHYtaWY9ImNvbGxhcHNpYmxlID09PSAnbm9uZSciCiAgICBkYXRhLXNsb3Q9InNpZGViYXIiCiAgICA6Y2xhc3M9ImNuKCdiZy1zaWRlYmFyIHRleHQtc2lkZWJhci1mb3JlZ3JvdW5kIGZsZXggaC1mdWxsIHctKC0tc2lkZWJhci13aWR0aCkgZmxleC1jb2wnLCBwcm9wcy5jbGFzcykiCiAgICB2LWJpbmQ9IiRhdHRycyIKICA+CiAgICA8c2xvdCAvPgogIDwvZGl2PgoKICA8U2hlZXQgdi1lbHNlLWlmPSJpc01vYmlsZSIgOm9wZW49Im9wZW5Nb2JpbGUiIHYtYmluZD0iJGF0dHJzIiBAdXBkYXRlOm9wZW49InNldE9wZW5Nb2JpbGUiPgogICAgPFNoZWV0Q29udGVudAogICAgICBkYXRhLXNpZGViYXI9InNpZGViYXIiCiAgICAgIGRhdGEtc2xvdD0ic2lkZWJhciIKICAgICAgZGF0YS1tb2JpbGU9InRydWUiCiAgICAgIDpzaWRlPSJzaWRlIgogICAgICBjbGFzcz0iYmctc2lkZWJhciB0ZXh0LXNpZGViYXItZm9yZWdyb3VuZCB3LSgtLXNpZGViYXItd2lkdGgpIHAtMCBbJj5idXR0b25dOmhpZGRlbiIKICAgICAgOnN0eWxlPSJ7CiAgICAgICAgJy0tc2lkZWJhci13aWR0aCc6IFNJREVCQVJfV0lEVEhfTU9CSUxFLAogICAgICB9IgogICAgPgogICAgICA8U2hlZXRIZWFkZXIgY2xhc3M9InNyLW9ubHkiPgogICAgICAgIDxTaGVldFRpdGxlPlNpZGViYXI8L1NoZWV0VGl0bGU+CiAgICAgICAgPFNoZWV0RGVzY3JpcHRpb24+RGlzcGxheXMgdGhlIG1vYmlsZSBzaWRlYmFyLjwvU2hlZXREZXNjcmlwdGlvbj4KICAgICAgPC9TaGVldEhlYWRlcj4KICAgICAgPGRpdiBjbGFzcz0iZmxleCBoLWZ1bGwgdy1mdWxsIGZsZXgtY29sIj4KICAgICAgICA8c2xvdCAvPgogICAgICA8L2Rpdj4KICAgIDwvU2hlZXRDb250ZW50PgogIDwvU2hlZXQ+CgogIDxkaXYKICAgIHYtZWxzZQogICAgY2xhc3M9Imdyb3VwIHBlZXIgdGV4dC1zaWRlYmFyLWZvcmVncm91bmQgaGlkZGVuIG1kOmJsb2NrIgogICAgZGF0YS1zbG90PSJzaWRlYmFyIgogICAgOmRhdGEtc3RhdGU9InN0YXRlIgogICAgOmRhdGEtY29sbGFwc2libGU9InN0YXRlID09PSAnY29sbGFwc2VkJyA/IGNvbGxhcHNpYmxlIDogJyciCiAgICA6ZGF0YS12YXJpYW50PSJ2YXJpYW50IgogICAgOmRhdGEtc2lkZT0ic2lkZSIKICA+CiAgICA8IS0tIFRoaXMgaXMgd2hhdCBoYW5kbGVzIHRoZSBzaWRlYmFyIGdhcCBvbiBkZXNrdG9wICAtLT4KICAgIDxkaXYKICAgICAgOmNsYXNzPSJjbigKICAgICAgICAncmVsYXRpdmUgdy0oLS1zaWRlYmFyLXdpZHRoKSBiZy10cmFuc3BhcmVudCB0cmFuc2l0aW9uLVt3aWR0aF0gZHVyYXRpb24tMjAwIGVhc2UtbGluZWFyJywKICAgICAgICAnZ3JvdXAtZGF0YS1bY29sbGFwc2libGU9b2ZmY2FudmFzXTp3LTAnLAogICAgICAgICdncm91cC1kYXRhLVtzaWRlPXJpZ2h0XTpyb3RhdGUtMTgwJywKICAgICAgICB2YXJpYW50ID09PSAnZmxvYXRpbmcnIHx8IHZhcmlhbnQgPT09ICdpbnNldCcKICAgICAgICAgID8gJ2dyb3VwLWRhdGEtW2NvbGxhcHNpYmxlPWljb25dOnctW2NhbGModmFyKC0tc2lkZWJhci13aWR0aC1pY29uKSsoLS1zcGFjaW5nKDQpKSldJwogICAgICAgICAgOiAnZ3JvdXAtZGF0YS1bY29sbGFwc2libGU9aWNvbl06dy0oLS1zaWRlYmFyLXdpZHRoLWljb24pJywKICAgICAgKSIKICAgIC8+CiAgICA8ZGl2CiAgICAgIDpjbGFzcz0iY24oCiAgICAgICAgJ2ZpeGVkIGluc2V0LXktMCB6LTEwIGhpZGRlbiBoLXN2aCB3LSgtLXNpZGViYXItd2lkdGgpIHRyYW5zaXRpb24tW2xlZnQscmlnaHQsd2lkdGhdIGR1cmF0aW9uLTIwMCBlYXNlLWxpbmVhciBtZDpmbGV4JywKICAgICAgICBzaWRlID09PSAnbGVmdCcKICAgICAgICAgID8gJ2xlZnQtMCBncm91cC1kYXRhLVtjb2xsYXBzaWJsZT1vZmZjYW52YXNdOmxlZnQtW2NhbGModmFyKC0tc2lkZWJhci13aWR0aCkqLTEpXScKICAgICAgICAgIDogJ3JpZ2h0LTAgZ3JvdXAtZGF0YS1bY29sbGFwc2libGU9b2ZmY2FudmFzXTpyaWdodC1bY2FsYyh2YXIoLS1zaWRlYmFyLXdpZHRoKSotMSldJywKICAgICAgICAvLyBBZGp1c3QgdGhlIHBhZGRpbmcgZm9yIGZsb2F0aW5nIGFuZCBpbnNldCB2YXJpYW50cy4KICAgICAgICB2YXJpYW50ID09PSAnZmxvYXRpbmcnIHx8IHZhcmlhbnQgPT09ICdpbnNldCcKICAgICAgICAgID8gJ3AtMiBncm91cC1kYXRhLVtjb2xsYXBzaWJsZT1pY29uXTp3LVtjYWxjKHZhcigtLXNpZGViYXItd2lkdGgtaWNvbikrKC0tc3BhY2luZyg0KSkrMnB4KV0nCiAgICAgICAgICA6ICdncm91cC1kYXRhLVtjb2xsYXBzaWJsZT1pY29uXTp3LSgtLXNpZGViYXItd2lkdGgtaWNvbikgZ3JvdXAtZGF0YS1bc2lkZT1sZWZ0XTpib3JkZXItciBncm91cC1kYXRhLVtzaWRlPXJpZ2h0XTpib3JkZXItbCcsCiAgICAgICAgcHJvcHMuY2xhc3MsCiAgICAgICkiCiAgICAgIHYtYmluZD0iJGF0dHJzIgogICAgPgogICAgICA8ZGl2CiAgICAgICAgZGF0YS1zaWRlYmFyPSJzaWRlYmFyIgogICAgICAgIGNsYXNzPSJiZy1zaWRlYmFyIGdyb3VwLWRhdGEtW3ZhcmlhbnQ9ZmxvYXRpbmddOmJvcmRlci1zaWRlYmFyLWJvcmRlciBmbGV4IGgtZnVsbCB3LWZ1bGwgZmxleC1jb2wgZ3JvdXAtZGF0YS1bdmFyaWFudD1mbG9hdGluZ106cm91bmRlZC1sZyBncm91cC1kYXRhLVt2YXJpYW50PWZsb2F0aW5nXTpib3JkZXIgZ3JvdXAtZGF0YS1bdmFyaWFudD1mbG9hdGluZ106c2hhZG93LXNtIgogICAgICA+CiAgICAgICAgPHNsb3QgLz4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { SidebarProps } from "."
+import { cn } from "@/lib/utils"
+import { Sheet, SheetContent } from '@/components/ui/sheet'
+import SheetDescription from '@/components/ui/sheet/SheetDescription.vue'
+import SheetHeader from '@/components/ui/sheet/SheetHeader.vue'
+import SheetTitle from '@/components/ui/sheet/SheetTitle.vue'
+import { SIDEBAR_WIDTH_MOBILE, useSidebar } from "./utils"
+
+defineOptions({
+  inheritAttrs: false,
+})
+
+const props = withDefaults(defineProps<SidebarProps>(), {
+  side: "left",
+  variant: "sidebar",
+  collapsible: "offcanvas",
+})
+
+const { isMobile, state, openMobile, setOpenMobile } = useSidebar()
+</script>
+
+<template>
+  <div
+    v-if="collapsible === 'none'"
+    data-slot="sidebar"
+    :class="cn('bg-sidebar text-sidebar-foreground flex h-full w-(--sidebar-width) flex-col', props.class)"
+    v-bind="$attrs"
+  >
+    <slot />
+  </div>
+
+  <Sheet v-else-if="isMobile" :open="openMobile" v-bind="$attrs" @update:open="setOpenMobile">
+    <SheetContent
+      data-sidebar="sidebar"
+      data-slot="sidebar"
+      data-mobile="true"
+      :side="side"
+      class="bg-sidebar text-sidebar-foreground w-(--sidebar-width) p-0 [&>button]:hidden"
+      :style="{
+        '--sidebar-width': SIDEBAR_WIDTH_MOBILE,
+      }"
+    >
+      <SheetHeader class="sr-only">
+        <SheetTitle>Sidebar</SheetTitle>
+        <SheetDescription>Displays the mobile sidebar.</SheetDescription>
+      </SheetHeader>
+      <div class="flex h-full w-full flex-col">
+        <slot />
+      </div>
+    </SheetContent>
+  </Sheet>
+
+  <div
+    v-else
+    class="group peer text-sidebar-foreground hidden md:block"
+    data-slot="sidebar"
+    :data-state="state"
+    :data-collapsible="state === 'collapsed' ? collapsible : ''"
+    :data-variant="variant"
+    :data-side="side"
+  >
+    <!-- This is what handles the sidebar gap on desktop  -->
+    <div
+      :class="cn(
+        'relative w-(--sidebar-width) bg-transparent transition-[width] duration-200 ease-linear',
+        'group-data-[collapsible=offcanvas]:w-0',
+        'group-data-[side=right]:rotate-180',
+        variant === 'floating' || variant === 'inset'
+          ? 'group-data-[collapsible=icon]:w-[calc(var(--sidebar-width-icon)+(--spacing(4)))]'
+          : 'group-data-[collapsible=icon]:w-(--sidebar-width-icon)',
+      )"
+    />
+    <div
+      :class="cn(
+        'fixed inset-y-0 z-10 hidden h-svh w-(--sidebar-width) transition-[left,right,width] duration-200 ease-linear md:flex',
+        side === 'left'
+          ? 'left-0 group-data-[collapsible=offcanvas]:left-[calc(var(--sidebar-width)*-1)]'
+          : 'right-0 group-data-[collapsible=offcanvas]:right-[calc(var(--sidebar-width)*-1)]',
+        // Adjust the padding for floating and inset variants.
+        variant === 'floating' || variant === 'inset'
+          ? 'p-2 group-data-[collapsible=icon]:w-[calc(var(--sidebar-width-icon)+(--spacing(4))+2px)]'
+          : 'group-data-[collapsible=icon]:w-(--sidebar-width-icon) group-data-[side=left]:border-r group-data-[side=right]:border-l',
+        props.class,
+      )"
+      v-bind="$attrs"
+    >
+      <div
+        data-sidebar="sidebar"
+        class="bg-sidebar group-data-[variant=floating]:border-sidebar-border flex h-full w-full flex-col group-data-[variant=floating]:rounded-lg group-data-[variant=floating]:border group-data-[variant=floating]:shadow-sm"
+      >
+        <slot />
+      </div>
+    </div>
+  </div>
+</template>

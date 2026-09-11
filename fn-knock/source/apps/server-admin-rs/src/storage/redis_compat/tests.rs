@@ -1,1 +1,16 @@
-dXNlIHN1cGVyOjoqOwoKYXN5bmMgZm4gdGVtcF9tYW5hZ2VyKCkgLT4gQ29ubmVjdGlvbk1hbmFnZXIgewogICAgbGV0IGRpciA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgdGVtcCBkaXIiKTsKICAgIGxldCBwYXRoID0gZGlyLnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIik7CiAgICBsZXQgbWFuYWdlciA9IENvbm5lY3Rpb25NYW5hZ2VyOjpvcGVuKCZwYXRoKS5hd2FpdC5leHBlY3QoIm9wZW4gc3FsaXRlIik7CiAgICBzdGQ6Om1lbTo6Zm9yZ2V0KGRpcik7CiAgICBtYW5hZ2VyCn0KCm1vZCBjb2xsZWN0aW9uczsKbW9kIG1pZ3JhdGlvbnM7Cm1vZCBvcGVyYXRpb25zOwptb2Qgc3RyZWFtX2NvbW1hbmRzOwptb2Qgc3RyZWFtc190YWlsOwptb2QgdHJhbnNhY3Rpb25zOwo=
+use super::*;
+
+async fn temp_manager() -> ConnectionManager {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let manager = ConnectionManager::open(&path).await.expect("open sqlite");
+    std::mem::forget(dir);
+    manager
+}
+
+mod collections;
+mod migrations;
+mod operations;
+mod stream_commands;
+mod streams_tail;
+mod transactions;

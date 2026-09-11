@@ -1,1 +1,28 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgVGFic0NvbnRlbnRQcm9wcyB9IGZyb20gInJla2EtdWkiOwppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgcmVhY3RpdmVPbWl0IH0gZnJvbSAiQHZ1ZXVzZS9jb3JlIjsKaW1wb3J0IHsgVGFic0NvbnRlbnQgYXMgUmVrYVRhYnNDb250ZW50UHJpbWl0aXZlIH0gZnJvbSAicmVrYS11aSI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczwKICBUYWJzQ29udGVudFByb3BzICYgeyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdIH0KPigpOwoKY29uc3QgZGVsZWdhdGVkUHJvcHMgPSByZWFjdGl2ZU9taXQocHJvcHMsICJjbGFzcyIpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UmVrYVRhYnNDb250ZW50UHJpbWl0aXZlCiAgICBkYXRhLXNsb3Q9InJla2EtdGFicy1jb250ZW50IgogICAgdi1iaW5kPSJkZWxlZ2F0ZWRQcm9wcyIKICAgIDpjbGFzcz0iCiAgICAgIGNuKAogICAgICAgICdtaW4taC0wIGZsZXgtMSBvdXRsaW5lLW5vbmUgbW90aW9uLXNhZmU6ZGF0YS1bc3RhdGU9YWN0aXZlXTphbmltYXRlLWluIG1vdGlvbi1zYWZlOmRhdGEtW3N0YXRlPWFjdGl2ZV06ZmFkZS1pbi0wIG1vdGlvbi1zYWZlOmRhdGEtW3N0YXRlPWFjdGl2ZV06c2xpZGUtaW4tZnJvbS1ib3R0b20tMiBtb3Rpb24tc2FmZTpkYXRhLVtzdGF0ZT1hY3RpdmVdOmR1cmF0aW9uLTIwMCcsCiAgICAgICAgcHJvcHMuY2xhc3MsCiAgICAgICkKICAgICIKICA+CiAgICA8c2xvdCAvPgogIDwvUmVrYVRhYnNDb250ZW50UHJpbWl0aXZlPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { TabsContentProps } from "reka-ui";
+import type { HTMLAttributes } from "vue";
+import { reactiveOmit } from "@vueuse/core";
+import { TabsContent as RekaTabsContentPrimitive } from "reka-ui";
+import { cn } from "@/lib/utils";
+
+const props = defineProps<
+  TabsContentProps & { class?: HTMLAttributes["class"] }
+>();
+
+const delegatedProps = reactiveOmit(props, "class");
+</script>
+
+<template>
+  <RekaTabsContentPrimitive
+    data-slot="reka-tabs-content"
+    v-bind="delegatedProps"
+    :class="
+      cn(
+        'min-h-0 flex-1 outline-none motion-safe:data-[state=active]:animate-in motion-safe:data-[state=active]:fade-in-0 motion-safe:data-[state=active]:slide-in-from-bottom-2 motion-safe:data-[state=active]:duration-200',
+        props.class,
+      )
+    "
+  >
+    <slot />
+  </RekaTabsContentPrimitive>
+</template>

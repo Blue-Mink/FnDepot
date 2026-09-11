@@ -1,1 +1,132 @@
-dXNlIHN0ZDo6dGltZTo6U3lzdGVtVGltZTsKCnVzZSB0aW1lOjp7RHVyYXRpb24sIE9mZnNldERhdGVUaW1lLCBVdGNPZmZzZXQsIGZvcm1hdF9kZXNjcmlwdGlvbjo6d2VsbF9rbm93bjo6UmZjMzMzOX07CgpwdWIgZm4gbm93X21zKCkgLT4gaTY0IHsKICAgIGxldCBub3cgPSBPZmZzZXREYXRlVGltZTo6bm93X3V0YygpOwogICAgbm93LnVuaXhfdGltZXN0YW1wKCkgKiAxMDAwICsgaTY0Ojpmcm9tKG5vdy5taWxsaXNlY29uZCgpKQp9CgpwdWIgZm4gbm93X3NlY29uZHMoKSAtPiBpNjQgewogICAgbm93X21zKCkuZGl2X2V1Y2xpZCgxMDAwKQp9CgpwdWIgZm4gbm93X2lzbygpIC0+IFN0cmluZyB7CiAgICBPZmZzZXREYXRlVGltZTo6bm93X3V0YygpCiAgICAgICAgLmZvcm1hdCgmUmZjMzMzOSkKICAgICAgICAudW53cmFwX29yX2Vsc2UofF98ICIxOTcwLTAxLTAxVDAwOjAwOjAwWiIudG9fc3RyaW5nKCkpCn0KCnB1YiBmbiBzeXN0ZW1fdGltZV9pc28odGltZTogU3lzdGVtVGltZSkgLT4gU3RyaW5nIHsKICAgIGxldCBkdXJhdGlvbiA9IHRpbWUKICAgICAgICAuZHVyYXRpb25fc2luY2UoU3lzdGVtVGltZTo6VU5JWF9FUE9DSCkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIE9mZnNldERhdGVUaW1lOjpmcm9tX3VuaXhfdGltZXN0YW1wKGR1cmF0aW9uLmFzX3NlY3MoKSBhcyBpNjQpCiAgICAgICAgLm9rKCkKICAgICAgICAuYW5kX3RoZW4ofHRpbWV8IHRpbWUuZm9ybWF0KCZSZmMzMzM5KS5vaygpKQogICAgICAgIC51bndyYXBfb3JfZWxzZShub3dfaXNvKQp9CgpwdWIgZm4gaXNvX2FmdGVyX3NlY29uZHMoc2Vjb25kczogaTY0KSAtPiBTdHJpbmcgewogICAgKE9mZnNldERhdGVUaW1lOjpub3dfdXRjKCkgKyBEdXJhdGlvbjo6c2Vjb25kcyhzZWNvbmRzKSkKICAgICAgICAuZm9ybWF0KCZSZmMzMzM5KQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8X3wgbm93X2lzbygpKQp9CgpwdWIgZm4gbm9kZV9pc29fbm93KCkgLT4gU3RyaW5nIHsKICAgIGZvcm1hdF9ub2RlX2lzb190aW1lc3RhbXAoT2Zmc2V0RGF0ZVRpbWU6Om5vd191dGMoKSkKfQoKcHViIGZuIG5vZGVfaXNvX2FmdGVyX3NlY29uZHMoc2Vjb25kczogaTY0KSAtPiBTdHJpbmcgewogICAgZm9ybWF0X25vZGVfaXNvX3RpbWVzdGFtcChPZmZzZXREYXRlVGltZTo6bm93X3V0YygpICsgRHVyYXRpb246OnNlY29uZHMoc2Vjb25kcykpCn0KCnB1YiBmbiBub3JtYWxpemVfbm9kZV9pc28odmFsdWU6ICZzdHIpIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIGxldCB0cmltbWVkID0gdmFsdWUudHJpbSgpOwogICAgaWYgdHJpbW1lZC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIGxldCB0aW1lc3RhbXAgPSBPZmZzZXREYXRlVGltZTo6cGFyc2UodHJpbW1lZCwgJlJmYzMzMzkpCiAgICAgICAgLm9rKCk/CiAgICAgICAgLnRvX29mZnNldChVdGNPZmZzZXQ6OlVUQyk7CiAgICBTb21lKGZvcm1hdF9ub2RlX2lzb190aW1lc3RhbXAodGltZXN0YW1wKSkKfQoKcHViIGZuIGlzb19mcm9tX21zKG1zOiBpNjQpIC0+IFN0cmluZyB7CiAgICBsZXQgc2Vjb25kcyA9IG1zLmRpdl9ldWNsaWQoMTAwMCk7CiAgICBsZXQgbWlsbGlzID0gbXMucmVtX2V1Y2xpZCgxMDAwKSBhcyBpMTI4OwogICAgT2Zmc2V0RGF0ZVRpbWU6OmZyb21fdW5peF90aW1lc3RhbXAoc2Vjb25kcykKICAgICAgICAub2soKQogICAgICAgIC5hbmRfdGhlbih8dGltZXwgewogICAgICAgICAgICAodGltZSArIER1cmF0aW9uOjptaWxsaXNlY29uZHMobWlsbGlzIGFzIGk2NCkpCiAgICAgICAgICAgICAgICAuZm9ybWF0KCZSZmMzMzM5KQogICAgICAgICAgICAgICAgLm9rKCkKICAgICAgICB9KQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCAiMTk3MC0wMS0wMVQwMDowMDowMFoiLnRvX3N0cmluZygpKQp9CgpwdWIgZm4gcGFyc2VfaXNvX21zKHZhbHVlOiAmc3RyKSAtPiBPcHRpb248aTY0PiB7CiAgICBPZmZzZXREYXRlVGltZTo6cGFyc2UodmFsdWUsICZSZmMzMzM5KQogICAgICAgIC5vaygpCiAgICAgICAgLm1hcCh8dGltZXwgdGltZS51bml4X3RpbWVzdGFtcCgpICogMTAwMCArIGk2NDo6ZnJvbSh0aW1lLm1pbGxpc2Vjb25kKCkpKQp9CgpwdWIgZm4gbG9jYWxfZGF0ZV9mcm9tX21zKG1zOiBpNjQpIC0+IFN0cmluZyB7CiAgICBsZXQgdGltZXN0YW1wID0gbXMuZGl2X2V1Y2xpZCgxMDAwKTsKICAgIGxldCBPayh1dGMpID0gT2Zmc2V0RGF0ZVRpbWU6OmZyb21fdW5peF90aW1lc3RhbXAodGltZXN0YW1wKSBlbHNlIHsKICAgICAgICByZXR1cm4gIjE5NzAtMDEtMDEiLnRvX3N0cmluZygpOwogICAgfTsKICAgIGxldCBsb2NhbCA9IHRpbWU6OlV0Y09mZnNldDo6Y3VycmVudF9sb2NhbF9vZmZzZXQoKQogICAgICAgIC5tYXAofG9mZnNldHwgdXRjLnRvX29mZnNldChvZmZzZXQpKQogICAgICAgIC51bndyYXBfb3IodXRjKTsKICAgIGZvcm1hdCEoCiAgICAgICAgIns6MDR9LXs6MDJ9LXs6MDJ9IiwKICAgICAgICBsb2NhbC55ZWFyKCksCiAgICAgICAgdTg6OmZyb20obG9jYWwubW9udGgoKSksCiAgICAgICAgbG9jYWwuZGF5KCkKICAgICkKfQoKZm4gZm9ybWF0X25vZGVfaXNvX3RpbWVzdGFtcCh0aW1lc3RhbXA6IE9mZnNldERhdGVUaW1lKSAtPiBTdHJpbmcgewogICAgbGV0IHRpbWVzdGFtcCA9IHRpbWVzdGFtcC50b19vZmZzZXQoVXRjT2Zmc2V0OjpVVEMpOwogICAgZm9ybWF0ISgKICAgICAgICAiezowNH0tezowMn0tezowMn1UezowMn06ezowMn06ezowMn0uezowM31aIiwKICAgICAgICB0aW1lc3RhbXAueWVhcigpLAogICAgICAgIHU4Ojpmcm9tKHRpbWVzdGFtcC5tb250aCgpKSwKICAgICAgICB0aW1lc3RhbXAuZGF5KCksCiAgICAgICAgdGltZXN0YW1wLmhvdXIoKSwKICAgICAgICB0aW1lc3RhbXAubWludXRlKCksCiAgICAgICAgdGltZXN0YW1wLnNlY29uZCgpLAogICAgICAgIHRpbWVzdGFtcC5taWxsaXNlY29uZCgpCiAgICApCn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwoKICAgICNbdGVzdF0KICAgIGZuIHN5c3RlbV90aW1lX2lzb19mb3JtYXRzX2Vwb2NoX3NlY29uZHNfbGlrZV9leGlzdGluZ19oZWxwZXJzKCkgewogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHN5c3RlbV90aW1lX2lzbyhTeXN0ZW1UaW1lOjpVTklYX0VQT0NIKSwKICAgICAgICAgICAgIjE5NzAtMDEtMDFUMDA6MDA6MDBaIgogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc3lzdGVtX3RpbWVfaXNvKFN5c3RlbVRpbWU6OlVOSVhfRVBPQ0ggKyBzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX21pbGxpcygxXzIzNCkpLAogICAgICAgICAgICAiMTk3MC0wMS0wMVQwMDowMDowMVoiCiAgICAgICAgKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBub3JtYWxpemVfbm9kZV9pc29fcHJlc2VydmVzX25vZGVfbWlsbGlzZWNvbmRfc2hhcGUoKSB7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgbm9ybWFsaXplX25vZGVfaXNvKCIyMDI2LTA3LTA3VDEwOjE4OjIzLjk0NjUxMTc5MloiKSwKICAgICAgICAgICAgU29tZSgiMjAyNi0wNy0wN1QxMDoxODoyMy45NDZaIi50b19zdHJpbmcoKSkKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIG5vcm1hbGl6ZV9ub2RlX2lzbygiMjAyNi0wNy0wN1QxODoxODoyMyswODowMCIpLAogICAgICAgICAgICBTb21lKCIyMDI2LTA3LTA3VDEwOjE4OjIzLjAwMFoiLnRvX3N0cmluZygpKQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxIShub3JtYWxpemVfbm9kZV9pc28oIm5vdC1hLWRhdGUiKSwgTm9uZSk7CiAgICB9Cn0K
+use std::time::SystemTime;
+
+use time::{Duration, OffsetDateTime, UtcOffset, format_description::well_known::Rfc3339};
+
+pub fn now_ms() -> i64 {
+    let now = OffsetDateTime::now_utc();
+    now.unix_timestamp() * 1000 + i64::from(now.millisecond())
+}
+
+pub fn now_seconds() -> i64 {
+    now_ms().div_euclid(1000)
+}
+
+pub fn now_iso() -> String {
+    OffsetDateTime::now_utc()
+        .format(&Rfc3339)
+        .unwrap_or_else(|_| "1970-01-01T00:00:00Z".to_string())
+}
+
+pub fn system_time_iso(time: SystemTime) -> String {
+    let duration = time
+        .duration_since(SystemTime::UNIX_EPOCH)
+        .unwrap_or_default();
+    OffsetDateTime::from_unix_timestamp(duration.as_secs() as i64)
+        .ok()
+        .and_then(|time| time.format(&Rfc3339).ok())
+        .unwrap_or_else(now_iso)
+}
+
+pub fn iso_after_seconds(seconds: i64) -> String {
+    (OffsetDateTime::now_utc() + Duration::seconds(seconds))
+        .format(&Rfc3339)
+        .unwrap_or_else(|_| now_iso())
+}
+
+pub fn node_iso_now() -> String {
+    format_node_iso_timestamp(OffsetDateTime::now_utc())
+}
+
+pub fn node_iso_after_seconds(seconds: i64) -> String {
+    format_node_iso_timestamp(OffsetDateTime::now_utc() + Duration::seconds(seconds))
+}
+
+pub fn normalize_node_iso(value: &str) -> Option<String> {
+    let trimmed = value.trim();
+    if trimmed.is_empty() {
+        return None;
+    }
+    let timestamp = OffsetDateTime::parse(trimmed, &Rfc3339)
+        .ok()?
+        .to_offset(UtcOffset::UTC);
+    Some(format_node_iso_timestamp(timestamp))
+}
+
+pub fn iso_from_ms(ms: i64) -> String {
+    let seconds = ms.div_euclid(1000);
+    let millis = ms.rem_euclid(1000) as i128;
+    OffsetDateTime::from_unix_timestamp(seconds)
+        .ok()
+        .and_then(|time| {
+            (time + Duration::milliseconds(millis as i64))
+                .format(&Rfc3339)
+                .ok()
+        })
+        .unwrap_or_else(|| "1970-01-01T00:00:00Z".to_string())
+}
+
+pub fn parse_iso_ms(value: &str) -> Option<i64> {
+    OffsetDateTime::parse(value, &Rfc3339)
+        .ok()
+        .map(|time| time.unix_timestamp() * 1000 + i64::from(time.millisecond()))
+}
+
+pub fn local_date_from_ms(ms: i64) -> String {
+    let timestamp = ms.div_euclid(1000);
+    let Ok(utc) = OffsetDateTime::from_unix_timestamp(timestamp) else {
+        return "1970-01-01".to_string();
+    };
+    let local = time::UtcOffset::current_local_offset()
+        .map(|offset| utc.to_offset(offset))
+        .unwrap_or(utc);
+    format!(
+        "{:04}-{:02}-{:02}",
+        local.year(),
+        u8::from(local.month()),
+        local.day()
+    )
+}
+
+fn format_node_iso_timestamp(timestamp: OffsetDateTime) -> String {
+    let timestamp = timestamp.to_offset(UtcOffset::UTC);
+    format!(
+        "{:04}-{:02}-{:02}T{:02}:{:02}:{:02}.{:03}Z",
+        timestamp.year(),
+        u8::from(timestamp.month()),
+        timestamp.day(),
+        timestamp.hour(),
+        timestamp.minute(),
+        timestamp.second(),
+        timestamp.millisecond()
+    )
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn system_time_iso_formats_epoch_seconds_like_existing_helpers() {
+        assert_eq!(
+            system_time_iso(SystemTime::UNIX_EPOCH),
+            "1970-01-01T00:00:00Z"
+        );
+        assert_eq!(
+            system_time_iso(SystemTime::UNIX_EPOCH + std::time::Duration::from_millis(1_234)),
+            "1970-01-01T00:00:01Z"
+        );
+    }
+
+    #[test]
+    fn normalize_node_iso_preserves_node_millisecond_shape() {
+        assert_eq!(
+            normalize_node_iso("2026-07-07T10:18:23.946511792Z"),
+            Some("2026-07-07T10:18:23.946Z".to_string())
+        );
+        assert_eq!(
+            normalize_node_iso("2026-07-07T18:18:23+08:00"),
+            Some("2026-07-07T10:18:23.000Z".to_string())
+        );
+        assert_eq!(normalize_node_iso("not-a-date"), None);
+    }
+}

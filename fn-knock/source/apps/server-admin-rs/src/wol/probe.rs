@@ -1,1 +1,188 @@
-dXNlIGZuX2tub2NrX3dvbF9wcm90b2NvbDo6TWFjQWRkcmVzczsKdXNlIHN0ZDo6ewogICAgY29sbGVjdGlvbnM6OntIYXNoTWFwLCBIYXNoU2V0fSwKICAgIG5ldDo6SXB2NEFkZHIsCiAgICB0aW1lOjpEdXJhdGlvbiwKfTsKdXNlIHRva2lvOjp0aW1lOwoKdXNlIHN1cGVyOjpkaXNjb3Zlcnk6Ontwcm9iZV9ob3N0LCByZWFkX25laWdoYm9yX3RhYmxlX2NoZWNrZWR9OwoKY29uc3QgREVWSUNFX1BST0JFX1RJTUVPVVQ6IER1cmF0aW9uID0gRHVyYXRpb246OmZyb21fbWlsbGlzKDFfNjUwKTsKCiNbZGVyaXZlKENsb25lLCBDb3B5LCBEZWJ1ZywgRXEsIFBhcnRpYWxFcSldCnB1YihzdXBlcikgZW51bSBEZXZpY2VQcm9iZVN0YXRlIHsKICAgIE9ubGluZSwKICAgIE9mZmxpbmUsCiAgICBVbmtub3duLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIEVxLCBQYXJ0aWFsRXEpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZXZpY2VQcm9iZVJlc3VsdCB7CiAgICBwdWIgc3RhdGU6IERldmljZVByb2JlU3RhdGUsCiAgICBwdWIgb2JzZXJ2ZWRfaXA6IE9wdGlvbjxJcHY0QWRkcj4sCiAgICBwdWIgZXJyb3I6IE9wdGlvbjxTdHJpbmc+LAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHByb2JlX2RldmljZV9ib3VuZGVkKAogICAgbWFjOiBNYWNBZGRyZXNzLAogICAgcHJlZmVycmVkX2lwOiBPcHRpb248SXB2NEFkZHI+LAopIC0+IERldmljZVByb2JlUmVzdWx0IHsKICAgIHByb2JlX2RldmljZV9jYW5kaWRhdGVzX2JvdW5kZWQobWFjLCBwcmVmZXJyZWRfaXApLmF3YWl0Cn0KCnB1YihzdXBlcikgYXN5bmMgZm4gcHJvYmVfZGV2aWNlX2NhbmRpZGF0ZXNfYm91bmRlZCgKICAgIG1hYzogTWFjQWRkcmVzcywKICAgIHByZWZlcnJlZF9pcHM6IGltcGwgSW50b0l0ZXJhdG9yPEl0ZW0gPSBJcHY0QWRkcj4sCikgLT4gRGV2aWNlUHJvYmVSZXN1bHQgewogICAgbGV0IHByZWZlcnJlZF9pcHMgPSBwcmVmZXJyZWRfaXBzLmludG9faXRlcigpLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgZmFsbGJhY2tfaXAgPSBwcmVmZXJyZWRfaXBzLmZpcnN0KCkuY29waWVkKCk7CiAgICBtYXRjaCB0aW1lOjp0aW1lb3V0KAogICAgICAgIERFVklDRV9QUk9CRV9USU1FT1VULAogICAgICAgIHByb2JlX2RldmljZV9jYW5kaWRhdGVzKG1hYywgcHJlZmVycmVkX2lwcyksCiAgICApCiAgICAuYXdhaXQKICAgIHsKICAgICAgICBPayhyZXN1bHQpID0+IHJlc3VsdCwKICAgICAgICBFcnIoXykgPT4gcHJvYmVfdGltZW91dF9yZXN1bHQoZmFsbGJhY2tfaXApLAogICAgfQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHByb2JlX2RldmljZV9jYW5kaWRhdGVzKAogICAgbWFjOiBNYWNBZGRyZXNzLAogICAgcHJlZmVycmVkX2lwczogaW1wbCBJbnRvSXRlcmF0b3I8SXRlbSA9IElwdjRBZGRyPiwKKSAtPiBEZXZpY2VQcm9iZVJlc3VsdCB7CiAgICBsZXQgYmVmb3JlID0gcmVhZF9uZWlnaGJvcl90YWJsZV9jaGVja2VkKCkuYXdhaXQ7CiAgICBsZXQgZXhwZWN0ZWRfbWFjID0gbWFjLnRvX3N0cmluZygpOwogICAgbGV0IGVtcHR5X25laWdoYm9ycyA9IEhhc2hNYXA6Om5ldygpOwogICAgbGV0IGNhbmRpZGF0ZXMgPSBvcmRlcmVkX2NhbmRpZGF0ZXMoCiAgICAgICAgcHJlZmVycmVkX2lwcywKICAgICAgICBiZWZvcmUuYXNfcmVmKCkudW53cmFwX29yKCZlbXB0eV9uZWlnaGJvcnMpLAogICAgICAgICZleHBlY3RlZF9tYWMsCiAgICApOwoKICAgIGlmIGNhbmRpZGF0ZXMuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIERldmljZVByb2JlUmVzdWx0IHsKICAgICAgICAgICAgc3RhdGU6IERldmljZVByb2JlU3RhdGU6OlVua25vd24sCiAgICAgICAgICAgIG9ic2VydmVkX2lwOiBOb25lLAogICAgICAgICAgICBlcnJvcjogU29tZSgKICAgICAgICAgICAgICAgIGJlZm9yZQogICAgICAgICAgICAgICAgICAgIC5lcnIoKQogICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCAiTm8gSVB2NCBhZGRyZXNzIGlzIGF2YWlsYWJsZSBmb3IgdGhpcyB0YXJnZXQiLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgKSwKICAgICAgICB9OwogICAgfQogICAgbGV0IGZhbGxiYWNrX2lwID0gY2FuZGlkYXRlcy5maXJzdCgpLmNvcGllZCgpOwoKICAgIGxldCBtdXQgbGFzdF9lcnJvciA9IE5vbmU7CiAgICBsZXQgbXV0IGNvbXBsZXRlZF9wcm9iZSA9IGZhbHNlOwogICAgbGV0IG11dCBwcm9iZV9mYWlsZWQgPSBmYWxzZTsKICAgIGZvciBpcCBpbiBjYW5kaWRhdGVzIHsKICAgICAgICBtYXRjaCBwcm9iZV9ob3N0KGlwKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKGZhbHNlKSA9PiBjb21wbGV0ZWRfcHJvYmUgPSB0cnVlLAogICAgICAgICAgICBPayh0cnVlKSA9PiB7CiAgICAgICAgICAgICAgICBsZXQgYWZ0ZXIgPSBtYXRjaCByZWFkX25laWdoYm9yX3RhYmxlX2NoZWNrZWQoKS5hd2FpdCB7CiAgICAgICAgICAgICAgICAgICAgT2soYWZ0ZXIpID0+IGFmdGVyLAogICAgICAgICAgICAgICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICAgICAgICAgICAgICBwcm9iZV9mYWlsZWQgPSB0cnVlOwogICAgICAgICAgICAgICAgICAgICAgICBsYXN0X2Vycm9yID0gU29tZShlcnJvcik7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICBjb21wbGV0ZWRfcHJvYmUgPSB0cnVlOwogICAgICAgICAgICAgICAgbGV0IG1hY19tYXRjaGVzID0gYWZ0ZXIuZ2V0KCZpcCkgPT0gU29tZSgmZXhwZWN0ZWRfbWFjKTsKICAgICAgICAgICAgICAgIGlmIG1hY19tYXRjaGVzIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gRGV2aWNlUHJvYmVSZXN1bHQgewogICAgICAgICAgICAgICAgICAgICAgICBzdGF0ZTogRGV2aWNlUHJvYmVTdGF0ZTo6T25saW5lLAogICAgICAgICAgICAgICAgICAgICAgICBvYnNlcnZlZF9pcDogU29tZShpcCksCiAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yOiBOb25lLAogICAgICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgICAgICBwcm9iZV9mYWlsZWQgPSB0cnVlOwogICAgICAgICAgICAgICAgbGFzdF9lcnJvciA9IFNvbWUoZXJyb3IpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIERldmljZVByb2JlUmVzdWx0IHsKICAgICAgICBzdGF0ZTogaWYgcHJvYmVfZmFpbGVkIHsKICAgICAgICAgICAgRGV2aWNlUHJvYmVTdGF0ZTo6VW5rbm93bgogICAgICAgIH0gZWxzZSBpZiBjb21wbGV0ZWRfcHJvYmUgewogICAgICAgICAgICBEZXZpY2VQcm9iZVN0YXRlOjpPZmZsaW5lCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgRGV2aWNlUHJvYmVTdGF0ZTo6VW5rbm93bgogICAgICAgIH0sCiAgICAgICAgb2JzZXJ2ZWRfaXA6IGZhbGxiYWNrX2lwLAogICAgICAgIGVycm9yOiBsYXN0X2Vycm9yLAogICAgfQp9CgpmbiBwcm9iZV90aW1lb3V0X3Jlc3VsdChmYWxsYmFja19pcDogT3B0aW9uPElwdjRBZGRyPikgLT4gRGV2aWNlUHJvYmVSZXN1bHQgewogICAgRGV2aWNlUHJvYmVSZXN1bHQgewogICAgICAgIHN0YXRlOiBEZXZpY2VQcm9iZVN0YXRlOjpVbmtub3duLAogICAgICAgIG9ic2VydmVkX2lwOiBmYWxsYmFja19pcCwKICAgICAgICBlcnJvcjogU29tZSgiRGV2aWNlIHByb2JlIHBpcGVsaW5lIHRpbWVkIG91dCIudG9fc3RyaW5nKCkpLAogICAgfQp9CgpmbiBvcmRlcmVkX2NhbmRpZGF0ZXMoCiAgICBwcmVmZXJyZWRfaXBzOiBpbXBsIEludG9JdGVyYXRvcjxJdGVtID0gSXB2NEFkZHI+LAogICAgbmVpZ2hib3JzOiAmc3RkOjpjb2xsZWN0aW9uczo6SGFzaE1hcDxJcHY0QWRkciwgU3RyaW5nPiwKICAgIGV4cGVjdGVkX21hYzogJnN0ciwKKSAtPiBWZWM8SXB2NEFkZHI+IHsKICAgIGxldCBtdXQgc2VlbiA9IEhhc2hTZXQ6Om5ldygpOwogICAgcHJlZmVycmVkX2lwcwogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5jaGFpbigKICAgICAgICAgICAgbmVpZ2hib3JzCiAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAuZmlsdGVyX21hcCh8KGlwLCBtYWMpfCAobWFjID09IGV4cGVjdGVkX21hYykudGhlbl9zb21lKCppcCkpLAogICAgICAgICkKICAgICAgICAuZmlsdGVyKHxpcHwgc2Vlbi5pbnNlcnQoKmlwKSkKICAgICAgICAuY29sbGVjdCgpCn0KCnB1YihzdXBlcikgZm4gaXB2NF90b193aXJlKHZhbHVlOiBPcHRpb248SXB2NEFkZHI+KSAtPiBbdTg7IDRdIHsKICAgIHZhbHVlLm1hcCh8YWRkcmVzc3wgYWRkcmVzcy5vY3RldHMoKSkudW53cmFwX29yKFswOyA0XSkKfQoKcHViKHN1cGVyKSBmbiBpcHY0X2Zyb21fd2lyZSh2YWx1ZTogW3U4OyA0XSkgLT4gT3B0aW9uPElwdjRBZGRyPiB7CiAgICAodmFsdWUgIT0gWzA7IDRdKS50aGVuKHx8IElwdjRBZGRyOjpmcm9tKHZhbHVlKSkKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CiAgICB1c2Ugc3RkOjpjb2xsZWN0aW9uczo6SGFzaE1hcDsKCiAgICAjW3Rlc3RdCiAgICBmbiBjb25maWd1cmVkX2FuZF9vYnNlcnZlZF9hZGRyZXNzZXNfcHJlY2VkZV9uZWlnaGJvcl9jYW5kaWRhdGVzKCkgewogICAgICAgIGxldCBjb25maWd1cmVkID0gSXB2NEFkZHI6Om5ldygxOTIsIDAsIDIsIDEwKTsKICAgICAgICBsZXQgb2JzZXJ2ZWQgPSBJcHY0QWRkcjo6bmV3KDE5MiwgMCwgMiwgMTEpOwogICAgICAgIGxldCBuZWlnaGJvciA9IElwdjRBZGRyOjpuZXcoMTkyLCAwLCAyLCAxMik7CiAgICAgICAgbGV0IGR1cGxpY2F0ZSA9IGNvbmZpZ3VyZWQ7CiAgICAgICAgbGV0IG5laWdoYm9ycyA9IEhhc2hNYXA6OmZyb20oWwogICAgICAgICAgICAobmVpZ2hib3IsICIwMjoxMToyMjozMzo0NDo1NSIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAoZHVwbGljYXRlLCAiMDI6MTE6MjI6MzM6NDQ6NTUiLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgKAogICAgICAgICAgICAgICAgSXB2NEFkZHI6Om5ldygxOTIsIDAsIDIsIDk5KSwKICAgICAgICAgICAgICAgICIwMjphYTpiYjpjYzpkZDplZSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICksCiAgICAgICAgXSk7CgogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIG9yZGVyZWRfY2FuZGlkYXRlcyhbY29uZmlndXJlZCwgb2JzZXJ2ZWRdLCAmbmVpZ2hib3JzLCAiMDI6MTE6MjI6MzM6NDQ6NTUiLCksCiAgICAgICAgICAgIHZlYyFbY29uZmlndXJlZCwgb2JzZXJ2ZWQsIG5laWdoYm9yXQogICAgICAgICk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gYm91bmRlZF9wcm9iZV90aW1lb3V0X2lzX3Vua25vd25faW5zdGVhZF9vZl9vZmZsaW5lKCkgewogICAgICAgIGxldCBmYWxsYmFjayA9IElwdjRBZGRyOjpuZXcoMTkyLCAwLCAyLCAxMCk7CiAgICAgICAgbGV0IHRpbWVvdXQgPSBwcm9iZV90aW1lb3V0X3Jlc3VsdChTb21lKGZhbGxiYWNrKSk7CiAgICAgICAgYXNzZXJ0X2VxISh0aW1lb3V0LnN0YXRlLCBEZXZpY2VQcm9iZVN0YXRlOjpVbmtub3duKTsKICAgICAgICBhc3NlcnRfZXEhKHRpbWVvdXQub2JzZXJ2ZWRfaXAsIFNvbWUoZmFsbGJhY2spKTsKICAgIH0KfQo=
+use fn_knock_wol_protocol::MacAddress;
+use std::{
+    collections::{HashMap, HashSet},
+    net::Ipv4Addr,
+    time::Duration,
+};
+use tokio::time;
+
+use super::discovery::{probe_host, read_neighbor_table_checked};
+
+const DEVICE_PROBE_TIMEOUT: Duration = Duration::from_millis(1_650);
+
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+pub(super) enum DeviceProbeState {
+    Online,
+    Offline,
+    Unknown,
+}
+
+#[derive(Clone, Debug, Eq, PartialEq)]
+pub(super) struct DeviceProbeResult {
+    pub state: DeviceProbeState,
+    pub observed_ip: Option<Ipv4Addr>,
+    pub error: Option<String>,
+}
+
+pub(super) async fn probe_device_bounded(
+    mac: MacAddress,
+    preferred_ip: Option<Ipv4Addr>,
+) -> DeviceProbeResult {
+    probe_device_candidates_bounded(mac, preferred_ip).await
+}
+
+pub(super) async fn probe_device_candidates_bounded(
+    mac: MacAddress,
+    preferred_ips: impl IntoIterator<Item = Ipv4Addr>,
+) -> DeviceProbeResult {
+    let preferred_ips = preferred_ips.into_iter().collect::<Vec<_>>();
+    let fallback_ip = preferred_ips.first().copied();
+    match time::timeout(
+        DEVICE_PROBE_TIMEOUT,
+        probe_device_candidates(mac, preferred_ips),
+    )
+    .await
+    {
+        Ok(result) => result,
+        Err(_) => probe_timeout_result(fallback_ip),
+    }
+}
+
+pub(super) async fn probe_device_candidates(
+    mac: MacAddress,
+    preferred_ips: impl IntoIterator<Item = Ipv4Addr>,
+) -> DeviceProbeResult {
+    let before = read_neighbor_table_checked().await;
+    let expected_mac = mac.to_string();
+    let empty_neighbors = HashMap::new();
+    let candidates = ordered_candidates(
+        preferred_ips,
+        before.as_ref().unwrap_or(&empty_neighbors),
+        &expected_mac,
+    );
+
+    if candidates.is_empty() {
+        return DeviceProbeResult {
+            state: DeviceProbeState::Unknown,
+            observed_ip: None,
+            error: Some(
+                before
+                    .err()
+                    .unwrap_or_else(|| "No IPv4 address is available for this target".to_string()),
+            ),
+        };
+    }
+    let fallback_ip = candidates.first().copied();
+
+    let mut last_error = None;
+    let mut completed_probe = false;
+    let mut probe_failed = false;
+    for ip in candidates {
+        match probe_host(ip).await {
+            Ok(false) => completed_probe = true,
+            Ok(true) => {
+                let after = match read_neighbor_table_checked().await {
+                    Ok(after) => after,
+                    Err(error) => {
+                        probe_failed = true;
+                        last_error = Some(error);
+                        continue;
+                    }
+                };
+                completed_probe = true;
+                let mac_matches = after.get(&ip) == Some(&expected_mac);
+                if mac_matches {
+                    return DeviceProbeResult {
+                        state: DeviceProbeState::Online,
+                        observed_ip: Some(ip),
+                        error: None,
+                    };
+                }
+            }
+            Err(error) => {
+                probe_failed = true;
+                last_error = Some(error);
+            }
+        }
+    }
+
+    DeviceProbeResult {
+        state: if probe_failed {
+            DeviceProbeState::Unknown
+        } else if completed_probe {
+            DeviceProbeState::Offline
+        } else {
+            DeviceProbeState::Unknown
+        },
+        observed_ip: fallback_ip,
+        error: last_error,
+    }
+}
+
+fn probe_timeout_result(fallback_ip: Option<Ipv4Addr>) -> DeviceProbeResult {
+    DeviceProbeResult {
+        state: DeviceProbeState::Unknown,
+        observed_ip: fallback_ip,
+        error: Some("Device probe pipeline timed out".to_string()),
+    }
+}
+
+fn ordered_candidates(
+    preferred_ips: impl IntoIterator<Item = Ipv4Addr>,
+    neighbors: &std::collections::HashMap<Ipv4Addr, String>,
+    expected_mac: &str,
+) -> Vec<Ipv4Addr> {
+    let mut seen = HashSet::new();
+    preferred_ips
+        .into_iter()
+        .chain(
+            neighbors
+                .iter()
+                .filter_map(|(ip, mac)| (mac == expected_mac).then_some(*ip)),
+        )
+        .filter(|ip| seen.insert(*ip))
+        .collect()
+}
+
+pub(super) fn ipv4_to_wire(value: Option<Ipv4Addr>) -> [u8; 4] {
+    value.map(|address| address.octets()).unwrap_or([0; 4])
+}
+
+pub(super) fn ipv4_from_wire(value: [u8; 4]) -> Option<Ipv4Addr> {
+    (value != [0; 4]).then(|| Ipv4Addr::from(value))
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use std::collections::HashMap;
+
+    #[test]
+    fn configured_and_observed_addresses_precede_neighbor_candidates() {
+        let configured = Ipv4Addr::new(192, 0, 2, 10);
+        let observed = Ipv4Addr::new(192, 0, 2, 11);
+        let neighbor = Ipv4Addr::new(192, 0, 2, 12);
+        let duplicate = configured;
+        let neighbors = HashMap::from([
+            (neighbor, "02:11:22:33:44:55".to_string()),
+            (duplicate, "02:11:22:33:44:55".to_string()),
+            (
+                Ipv4Addr::new(192, 0, 2, 99),
+                "02:aa:bb:cc:dd:ee".to_string(),
+            ),
+        ]);
+
+        assert_eq!(
+            ordered_candidates([configured, observed], &neighbors, "02:11:22:33:44:55",),
+            vec![configured, observed, neighbor]
+        );
+    }
+
+    #[test]
+    fn bounded_probe_timeout_is_unknown_instead_of_offline() {
+        let fallback = Ipv4Addr::new(192, 0, 2, 10);
+        let timeout = probe_timeout_result(Some(fallback));
+        assert_eq!(timeout.state, DeviceProbeState::Unknown);
+        assert_eq!(timeout.observed_ip, Some(fallback));
+    }
+}

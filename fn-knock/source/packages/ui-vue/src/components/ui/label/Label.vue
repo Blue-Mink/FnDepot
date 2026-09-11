@@ -1,1 +1,26 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgTGFiZWxQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxMYWJlbFByb3BzICYgeyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdIH0+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8TGFiZWwKICAgIGRhdGEtc2xvdD0ibGFiZWwiCiAgICB2LWJpbmQ9ImRlbGVnYXRlZFByb3BzIgogICAgOmNsYXNzPSIKICAgICAgY24oCiAgICAgICAgJ2ZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtc20gbGVhZGluZy1ub25lIGZvbnQtbWVkaXVtIHNlbGVjdC1ub25lIGdyb3VwLWRhdGEtW2Rpc2FibGVkPXRydWVdOnBvaW50ZXItZXZlbnRzLW5vbmUgZ3JvdXAtZGF0YS1bZGlzYWJsZWQ9dHJ1ZV06b3BhY2l0eS01MCBwZWVyLWRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBwZWVyLWRpc2FibGVkOm9wYWNpdHktNTAnLAogICAgICAgIHByb3BzLmNsYXNzLAogICAgICApCiAgICAiCiAgPgogICAgPHNsb3QgLz4KICA8L0xhYmVsPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { LabelProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { Label } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<LabelProps & { class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+</script>
+
+<template>
+  <Label
+    data-slot="label"
+    v-bind="delegatedProps"
+    :class="
+      cn(
+        'flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50',
+        props.class,
+      )
+    "
+  >
+    <slot />
+  </Label>
+</template>

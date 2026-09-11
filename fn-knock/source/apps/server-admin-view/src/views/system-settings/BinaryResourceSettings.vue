@@ -1,1 +1,179 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgdHlwZSB7IGNvbXBvbmVudHMgYXMgQXBpQ29udHJhY3RDb21wb25lbnRzIH0gZnJvbSAiQGZuLWtub2NrL2FwaS1jb250cmFjdCI7CmltcG9ydCBCaW5hcnlEb3dubG9hZENhcmQgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL3N5c3RlbS9CaW5hcnlEb3dubG9hZENhcmQudnVlIjsKaW1wb3J0IHsKICBleHRyYWN0RXJyb3JNZXNzYWdlLAogIHVzZUFzeW5jQWN0aW9uLAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB1c2VQb2xsaW5nUmVzb3VyY2VTdGF0dXMgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZVBvbGxpbmdSZXNvdXJjZVN0YXR1cyI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7Cgp0eXBlIFJlc291cmNlRG93bmxvYWRTdGF0dXMgPQogIEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJTeXN0ZW1Bc3NldERvd25sb2FkUHJvZ3Jlc3NEYXRhIl1bInN0YXR1cyJdOwp0eXBlIENsb3VkZmxhcmVkSW5zdGFsbGF0aW9uU3RhdHVzID0KICBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiQ2xvdWRmbGFyZWRBc3NldFN0YXR1c0RhdGEiXVsiaW5zdGFsbGF0aW9uX3N0YXR1cyJdOwoKdHlwZSBSZXNvdXJjZVN0YXR1c1BheWxvYWQgPQogIHwgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIkNsb3VkZmxhcmVkQXNzZXRTdGF0dXNEYXRhIl0KICB8IEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJGcnBBc3NldFN0YXR1c0RhdGEiXTsKCnR5cGUgUmVzb3VyY2VBcGlSZXNwb25zZTxUID0gdW5rbm93bj4gPSBPbWl0PAogIEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJBcGlTdWNjZXNzRW52ZWxvcGUiXSwKICAiZGF0YSIKPiAmIHsgZGF0YT86IFQgfTsKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKAogIGRlZmluZVByb3BzPHsKICAgIGFsbG93TWFuYWdlUGxhdGZvcm1zPzogc3RyaW5nW107CiAgICBjYW5jZWxEb3dubG9hZDogKCkgPT4gUHJvbWlzZTxSZXNvdXJjZUFwaVJlc3BvbnNlPjsKICAgIGRlbGV0ZVJlc291cmNlOiAoKSA9PiBQcm9taXNlPFJlc291cmNlQXBpUmVzcG9uc2U+OwogICAgZmV0Y2hTdGF0dXM6ICgKICAgICAgc2lnbmFsPzogQWJvcnRTaWduYWwsCiAgICApID0+IFByb21pc2U8UmVzb3VyY2VBcGlSZXNwb25zZTxSZXNvdXJjZVN0YXR1c1BheWxvYWQ+PjsKICAgIG1lc3NhZ2VLZXlQcmVmaXg6IHN0cmluZzsKICAgIHN0YXJ0RG93bmxvYWQ6ICgpID0+IFByb21pc2U8UmVzb3VyY2VBcGlSZXNwb25zZT47CiAgICB2ZXJzaW9uQXdhcmU/OiBib29sZWFuOwogIH0+KCksCiAgewogICAgYWxsb3dNYW5hZ2VQbGF0Zm9ybXM6ICgpID0+IFtdLAogICAgdmVyc2lvbkF3YXJlOiBmYWxzZSwKICB9LAopOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cgpjb25zdCBzdXBwb3J0ZWQgPSByZWYoZmFsc2UpOwpjb25zdCBwbGF0Zm9ybSA9IHJlZigidW5zdXBwb3J0ZWQiKTsKY29uc3QgZG93bmxvYWRlZCA9IHJlZihmYWxzZSk7CmNvbnN0IGluc3RhbGxhdGlvblN0YXR1cyA9IHJlZjxDbG91ZGZsYXJlZEluc3RhbGxhdGlvblN0YXR1cz4oIm1pc3NpbmciKTsKY29uc3QgdGFyZ2V0VmVyc2lvbiA9IHJlZigiIik7CmNvbnN0IHN0YXR1cyA9IHJlZjxSZXNvdXJjZURvd25sb2FkU3RhdHVzPigiaWRsZSIpOwpjb25zdCBwZXJjZW50ID0gcmVmKDApOwpjb25zdCBlcnJvciA9IHJlZigiIik7CmNvbnN0IG1lc3NhZ2UgPSAoa2V5OiBzdHJpbmcsIHBhcmFtcz86IFJlY29yZDxzdHJpbmcsIHN0cmluZz4pID0+CiAgdChgJHtwcm9wcy5tZXNzYWdlS2V5UHJlZml4fS4ke2tleX1gLCBwYXJhbXMgPz8ge30pOwoKY29uc3QgYWxsb3dNYW5hZ2UgPSBjb21wdXRlZCgKICAoKSA9PgogICAgcHJvcHMuYWxsb3dNYW5hZ2VQbGF0Zm9ybXMubGVuZ3RoID09PSAwIHx8CiAgICBwcm9wcy5hbGxvd01hbmFnZVBsYXRmb3Jtcy5pbmNsdWRlcyhwbGF0Zm9ybS52YWx1ZSksCik7Cgpjb25zdCB7IHJ1bjogcnVuU3RhcnREb3dubG9hZCB9ID0gdXNlQXN5bmNBY3Rpb24oewogIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgdG9hc3QuZXJyb3IoZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgbWVzc2FnZSgic3RhcnREb3dubG9hZEZhaWxlZCIpKSk7CiAgfSwKfSk7CmNvbnN0IHsgcnVuOiBydW5EZWxldGVSZXNvdXJjZSB9ID0gdXNlQXN5bmNBY3Rpb24oewogIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgdG9hc3QuZXJyb3IoZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgbWVzc2FnZSgiZGVsZXRlRmFpbGVkIikpKTsKICB9LAp9KTsKY29uc3QgeyBpc1BlbmRpbmc6IGlzQ2FuY2VsbGluZywgcnVuOiBydW5DYW5jZWxEb3dubG9hZCB9ID0gdXNlQXN5bmNBY3Rpb24oewogIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgdG9hc3QuZXJyb3IoZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgbWVzc2FnZSgiY2FuY2VsRmFpbGVkIikpKTsKICB9LAp9KTsKCmNvbnN0IHsgaXNJbml0aWFsaXppbmcsIHJlZnJlc2g6IHJlZnJlc2hTdGF0dXMgfSA9IHVzZVBvbGxpbmdSZXNvdXJjZVN0YXR1cyh7CiAgZmV0Y2hlcjogcHJvcHMuZmV0Y2hTdGF0dXMsCiAgb25EYXRhOiAocmVzKSA9PiB7CiAgICBpZiAoIXJlcy5zdWNjZXNzIHx8ICFyZXMuZGF0YSkgcmV0dXJuOwogICAgc3VwcG9ydGVkLnZhbHVlID0gcmVzLmRhdGEuc3VwcG9ydGVkOwogICAgcGxhdGZvcm0udmFsdWUgPSByZXMuZGF0YS5wbGF0Zm9ybTsKICAgIGRvd25sb2FkZWQudmFsdWUgPSByZXMuZGF0YS5kb3dubG9hZGVkOwogICAgaW5zdGFsbGF0aW9uU3RhdHVzLnZhbHVlID0gcmVzLmRhdGEuaW5zdGFsbGF0aW9uX3N0YXR1czsKICAgIHRhcmdldFZlcnNpb24udmFsdWUgPSByZXMuZGF0YS50YXJnZXRfdmVyc2lvbjsKICAgIHN0YXR1cy52YWx1ZSA9IHJlcy5kYXRhLnByb2dyZXNzPy5zdGF0dXMgfHwgImlkbGUiOwogICAgcGVyY2VudC52YWx1ZSA9IHJlcy5kYXRhLnByb2dyZXNzPy5wZXJjZW50IHx8IDA7CiAgICBlcnJvci52YWx1ZSA9IHJlcy5kYXRhLnByb2dyZXNzPy5lcnJvciB8fCAiIjsKICB9LAogIGlzRG93bmxvYWRpbmc6IChyZXMpID0+CiAgICBCb29sZWFuKHJlcy5zdWNjZXNzICYmIHJlcy5kYXRhPy5wcm9ncmVzcz8uc3RhdHVzID09PSAiZG93bmxvYWRpbmciKSwKfSk7Cgpjb25zdCBzdGFydFJlc291cmNlRG93bmxvYWQgPSBhc3luYyAoKSA9PiB7CiAgYXdhaXQgcnVuU3RhcnREb3dubG9hZChhc3luYyAoKSA9PiB7CiAgICBlcnJvci52YWx1ZSA9ICIiOwogICAgY29uc3QgcmVzID0gYXdhaXQgcHJvcHMuc3RhcnREb3dubG9hZCgpOwogICAgaWYgKHJlcy5zdWNjZXNzKSB7CiAgICAgIHRvYXN0LnN1Y2Nlc3MobWVzc2FnZSgiZG93bmxvYWRTdGFydGVkIikpOwogICAgICBhd2FpdCByZWZyZXNoU3RhdHVzKCk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHRvYXN0LmVycm9yKHJlcy5tZXNzYWdlIHx8IG1lc3NhZ2UoInN0YXJ0RG93bmxvYWRGYWlsZWQiKSk7CiAgfSk7Cn07Cgpjb25zdCBkZWxldGVNYW5hZ2VkUmVzb3VyY2UgPSBhc3luYyAoKSA9PiB7CiAgYXdhaXQgcnVuRGVsZXRlUmVzb3VyY2UoYXN5bmMgKCkgPT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgcHJvcHMuZGVsZXRlUmVzb3VyY2UoKTsKICAgIGlmIChyZXMuc3VjY2VzcykgewogICAgICB0b2FzdC5zdWNjZXNzKG1lc3NhZ2UoImRlbGV0ZWQiKSk7CiAgICAgIGF3YWl0IHJlZnJlc2hTdGF0dXMoKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgdG9hc3QuZXJyb3IocmVzLm1lc3NhZ2UgfHwgbWVzc2FnZSgiZGVsZXRlRmFpbGVkIikpOwogIH0pOwp9OwoKY29uc3QgY2FuY2VsUmVzb3VyY2VEb3dubG9hZCA9IGFzeW5jICgpID0+IHsKICBhd2FpdCBydW5DYW5jZWxEb3dubG9hZChhc3luYyAoKSA9PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBwcm9wcy5jYW5jZWxEb3dubG9hZCgpOwogICAgaWYgKHJlcy5zdWNjZXNzKSB7CiAgICAgIHRvYXN0LmluZm8obWVzc2FnZSgiY2FuY2VsUmVxdWVzdGVkIikpOwogICAgICBhd2FpdCByZWZyZXNoU3RhdHVzKCk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHRvYXN0LmVycm9yKHJlcy5tZXNzYWdlIHx8IG1lc3NhZ2UoImNhbmNlbEZhaWxlZCIpKTsKICB9KTsKfTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPEJpbmFyeURvd25sb2FkQ2FyZAogICAgOnRpdGxlPSJtZXNzYWdlKCd0aXRsZScpIgogICAgOmRlc2NyaXB0aW9uPSJtZXNzYWdlKCdkZXNjcmlwdGlvbicpIgogICAgOmlzLWluaXRpYWxpemluZz0iaXNJbml0aWFsaXppbmciCiAgICA6c3VwcG9ydGVkPSJzdXBwb3J0ZWQiCiAgICA6cGxhdGZvcm09InBsYXRmb3JtIgogICAgOmRvd25sb2FkZWQ9ImRvd25sb2FkZWQiCiAgICA6aW5zdGFsbGF0aW9uLXN0YXR1cz0iaW5zdGFsbGF0aW9uU3RhdHVzIgogICAgOnN0YXR1cz0ic3RhdHVzIgogICAgOnBlcmNlbnQ9InBlcmNlbnQiCiAgICA6ZXJyb3I9ImVycm9yIgogICAgOmlzLWNhbmNlbGxpbmc9ImlzQ2FuY2VsbGluZyIKICAgIDphbGxvdy1tYW5hZ2U9ImFsbG93TWFuYWdlIgogICAgOnJlYWR5LWxhYmVsPSJtZXNzYWdlKCdyZWFkeUxhYmVsJykiCiAgICA6cGVuZGluZy1sYWJlbD0ibWVzc2FnZSgncGVuZGluZ0xhYmVsJykiCiAgICA6ZG93bmxvYWQtYnV0dG9uLXRleHQ9Im1lc3NhZ2UoJ2Rvd25sb2FkQnV0dG9uJykiCiAgICA6ZG93bmxvYWRpbmctdGV4dD0ibWVzc2FnZSgnZG93bmxvYWRpbmcnKSIKICAgIDpvdXRkYXRlZC1sYWJlbD0icHJvcHMudmVyc2lvbkF3YXJlID8gbWVzc2FnZSgnb3V0ZGF0ZWRMYWJlbCcpIDogdW5kZWZpbmVkIgogICAgOm91dGRhdGVkLXRpdGxlPSJwcm9wcy52ZXJzaW9uQXdhcmUgPyBtZXNzYWdlKCdvdXRkYXRlZFRpdGxlJykgOiB1bmRlZmluZWQiCiAgICA6b3V0ZGF0ZWQtZGVzY3JpcHRpb249IgogICAgICBwcm9wcy52ZXJzaW9uQXdhcmUKICAgICAgICA/IG1lc3NhZ2UoJ291dGRhdGVkRGVzY3JpcHRpb24nLCB7IHZlcnNpb246IHRhcmdldFZlcnNpb24gfSkKICAgICAgICA6IHVuZGVmaW5lZAogICAgIgogICAgOnVwZGF0ZS1idXR0b24tdGV4dD0iCiAgICAgIHByb3BzLnZlcnNpb25Bd2FyZSA/IG1lc3NhZ2UoJ3VwZGF0ZUJ1dHRvbicpIDogdW5kZWZpbmVkCiAgICAiCiAgICA6dXBkYXRlLWNvbmZpcm0tdGl0bGU9IgogICAgICBwcm9wcy52ZXJzaW9uQXdhcmUgPyBtZXNzYWdlKCd1cGRhdGVDb25maXJtVGl0bGUnKSA6IHVuZGVmaW5lZAogICAgIgogICAgOnVwZGF0ZS1jb25maXJtLWRlc2NyaXB0aW9uPSIKICAgICAgcHJvcHMudmVyc2lvbkF3YXJlID8gbWVzc2FnZSgndXBkYXRlQ29uZmlybURlc2NyaXB0aW9uJykgOiB1bmRlZmluZWQKICAgICIKICAgIDpyZWRvd25sb2FkLWNvbmZpcm0tdGl0bGU9Im1lc3NhZ2UoJ3JlZG93bmxvYWRDb25maXJtVGl0bGUnKSIKICAgIDpyZWRvd25sb2FkLWNvbmZpcm0tZGVzY3JpcHRpb249Im1lc3NhZ2UoJ3JlZG93bmxvYWRDb25maXJtRGVzY3JpcHRpb24nKSIKICAgIDpkZWxldGUtY29uZmlybS10aXRsZT0ibWVzc2FnZSgnZGVsZXRlQ29uZmlybVRpdGxlJykiCiAgICA6ZGVsZXRlLWNvbmZpcm0tZGVzY3JpcHRpb249Im1lc3NhZ2UoJ2RlbGV0ZUNvbmZpcm1EZXNjcmlwdGlvbicpIgogICAgQHN0YXJ0PSJzdGFydFJlc291cmNlRG93bmxvYWQiCiAgICBAdXBkYXRlPSJzdGFydFJlc291cmNlRG93bmxvYWQiCiAgICBAY2FuY2VsPSJjYW5jZWxSZXNvdXJjZURvd25sb2FkIgogICAgQHJlZG93bmxvYWQ9InN0YXJ0UmVzb3VyY2VEb3dubG9hZCIKICAgIEBkZWxldGU9ImRlbGV0ZU1hbmFnZWRSZXNvdXJjZSIKICAvPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import type { components as ApiContractComponents } from "@fn-knock/api-contract";
+import BinaryDownloadCard from "@admin-shared/components/system/BinaryDownloadCard.vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { usePollingResourceStatus } from "@admin-shared/composables/usePollingResourceStatus";
+import { toast } from "@admin-shared/utils/toast";
+
+type ResourceDownloadStatus =
+  ApiContractComponents["schemas"]["SystemAssetDownloadProgressData"]["status"];
+type CloudflaredInstallationStatus =
+  ApiContractComponents["schemas"]["CloudflaredAssetStatusData"]["installation_status"];
+
+type ResourceStatusPayload =
+  | ApiContractComponents["schemas"]["CloudflaredAssetStatusData"]
+  | ApiContractComponents["schemas"]["FrpAssetStatusData"];
+
+type ResourceApiResponse<T = unknown> = Omit<
+  ApiContractComponents["schemas"]["ApiSuccessEnvelope"],
+  "data"
+> & { data?: T };
+
+const props = withDefaults(
+  defineProps<{
+    allowManagePlatforms?: string[];
+    cancelDownload: () => Promise<ResourceApiResponse>;
+    deleteResource: () => Promise<ResourceApiResponse>;
+    fetchStatus: (
+      signal?: AbortSignal,
+    ) => Promise<ResourceApiResponse<ResourceStatusPayload>>;
+    messageKeyPrefix: string;
+    startDownload: () => Promise<ResourceApiResponse>;
+    versionAware?: boolean;
+  }>(),
+  {
+    allowManagePlatforms: () => [],
+    versionAware: false,
+  },
+);
+
+const { t } = useI18n();
+
+const supported = ref(false);
+const platform = ref("unsupported");
+const downloaded = ref(false);
+const installationStatus = ref<CloudflaredInstallationStatus>("missing");
+const targetVersion = ref("");
+const status = ref<ResourceDownloadStatus>("idle");
+const percent = ref(0);
+const error = ref("");
+const message = (key: string, params?: Record<string, string>) =>
+  t(`${props.messageKeyPrefix}.${key}`, params ?? {});
+
+const allowManage = computed(
+  () =>
+    props.allowManagePlatforms.length === 0 ||
+    props.allowManagePlatforms.includes(platform.value),
+);
+
+const { run: runStartDownload } = useAsyncAction({
+  onError: (error) => {
+    toast.error(extractErrorMessage(error, message("startDownloadFailed")));
+  },
+});
+const { run: runDeleteResource } = useAsyncAction({
+  onError: (error) => {
+    toast.error(extractErrorMessage(error, message("deleteFailed")));
+  },
+});
+const { isPending: isCancelling, run: runCancelDownload } = useAsyncAction({
+  onError: (error) => {
+    toast.error(extractErrorMessage(error, message("cancelFailed")));
+  },
+});
+
+const { isInitializing, refresh: refreshStatus } = usePollingResourceStatus({
+  fetcher: props.fetchStatus,
+  onData: (res) => {
+    if (!res.success || !res.data) return;
+    supported.value = res.data.supported;
+    platform.value = res.data.platform;
+    downloaded.value = res.data.downloaded;
+    installationStatus.value = res.data.installation_status;
+    targetVersion.value = res.data.target_version;
+    status.value = res.data.progress?.status || "idle";
+    percent.value = res.data.progress?.percent || 0;
+    error.value = res.data.progress?.error || "";
+  },
+  isDownloading: (res) =>
+    Boolean(res.success && res.data?.progress?.status === "downloading"),
+});
+
+const startResourceDownload = async () => {
+  await runStartDownload(async () => {
+    error.value = "";
+    const res = await props.startDownload();
+    if (res.success) {
+      toast.success(message("downloadStarted"));
+      await refreshStatus();
+      return;
+    }
+    toast.error(res.message || message("startDownloadFailed"));
+  });
+};
+
+const deleteManagedResource = async () => {
+  await runDeleteResource(async () => {
+    const res = await props.deleteResource();
+    if (res.success) {
+      toast.success(message("deleted"));
+      await refreshStatus();
+      return;
+    }
+    toast.error(res.message || message("deleteFailed"));
+  });
+};
+
+const cancelResourceDownload = async () => {
+  await runCancelDownload(async () => {
+    const res = await props.cancelDownload();
+    if (res.success) {
+      toast.info(message("cancelRequested"));
+      await refreshStatus();
+      return;
+    }
+    toast.error(res.message || message("cancelFailed"));
+  });
+};
+</script>
+
+<template>
+  <BinaryDownloadCard
+    :title="message('title')"
+    :description="message('description')"
+    :is-initializing="isInitializing"
+    :supported="supported"
+    :platform="platform"
+    :downloaded="downloaded"
+    :installation-status="installationStatus"
+    :status="status"
+    :percent="percent"
+    :error="error"
+    :is-cancelling="isCancelling"
+    :allow-manage="allowManage"
+    :ready-label="message('readyLabel')"
+    :pending-label="message('pendingLabel')"
+    :download-button-text="message('downloadButton')"
+    :downloading-text="message('downloading')"
+    :outdated-label="props.versionAware ? message('outdatedLabel') : undefined"
+    :outdated-title="props.versionAware ? message('outdatedTitle') : undefined"
+    :outdated-description="
+      props.versionAware
+        ? message('outdatedDescription', { version: targetVersion })
+        : undefined
+    "
+    :update-button-text="
+      props.versionAware ? message('updateButton') : undefined
+    "
+    :update-confirm-title="
+      props.versionAware ? message('updateConfirmTitle') : undefined
+    "
+    :update-confirm-description="
+      props.versionAware ? message('updateConfirmDescription') : undefined
+    "
+    :redownload-confirm-title="message('redownloadConfirmTitle')"
+    :redownload-confirm-description="message('redownloadConfirmDescription')"
+    :delete-confirm-title="message('deleteConfirmTitle')"
+    :delete-confirm-description="message('deleteConfirmDescription')"
+    @start="startResourceDownload"
+    @update="startResourceDownload"
+    @cancel="cancelResourceDownload"
+    @redownload="startResourceDownload"
+    @delete="deleteManagedResource"
+  />
+</template>

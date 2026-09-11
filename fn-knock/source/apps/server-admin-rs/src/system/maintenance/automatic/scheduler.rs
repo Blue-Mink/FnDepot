@@ -1,1 +1,194 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpzeXN0ZW06Om1haW50ZW5hbmNlKSBmbiBzcGF3bl9hdXRvbWF0aWNfYmFja3VwX3Rhc2soc3RhdGU6IEFwcFN0YXRlKSB7CiAgICBzdGF0ZS5zcGF3bl9iYWNrZ3JvdW5kKAogICAgICAgICJhdXRvbWF0aWMtYmFja3VwIiwKICAgICAgICBhdXRvbWF0aWNfYmFja3VwX3NjaGVkdWxlcihzdGF0ZS5jbG9uZSgpKSwKICAgICk7Cn0KCnB1YihpbiBjcmF0ZTo6c3lzdGVtOjptYWludGVuYW5jZSkgYXN5bmMgZm4gYXV0b21hdGljX2JhY2t1cF9zY2hlZHVsZXIoc3RhdGU6IEFwcFN0YXRlKSB7CiAgICBtYXRjaCBlbnN1cmVfYXV0b21hdGljX2JhY2t1cF9kaXJlY3RvcnkoJnN0YXRlKS5hd2FpdCB7CiAgICAgICAgT2soZGlyZWN0b3J5KSA9PiB7CiAgICAgICAgICAgIGlmIGxldCBFcnIoZXJyb3IpID0gY2xlYW51cF9hdXRvbWF0aWNfYmFja3VwX3RlbXBfZmlsZXMoJmRpcmVjdG9yeSkuYXdhaXQgewogICAgICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGNsZWFuIHN0YWxlIGF1dG9tYXRpYyBiYWNrdXAgZmlsZXMgb24gc3RhcnR1cCIpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gaW5pdGlhbGl6ZSBhdXRvbWF0aWMgYmFja3VwIGRpcmVjdG9yeSIpOwogICAgICAgIH0KICAgIH0KICAgIGxvb3AgewogICAgICAgIGlmIHN0YXRlLnNodXRkb3duLmlzX2NhbmNlbGxlZCgpIHsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBsZXQgY29uZmlnID0gbWF0Y2ggbG9hZF9hdXRvbWF0aWNfYmFja3VwX2NvbmZpZygmc3RhdGUpLmF3YWl0IHsKICAgICAgICAgICAgT2soY29uZmlnKSA9PiBjb25maWcsCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgYXV0b21hdGljIGJhY2t1cCBjb25maWciKTsKICAgICAgICAgICAgICAgIHdhaXRfZm9yX2F1dG9tYXRpY19iYWNrdXBfd2FrZXVwKCZzdGF0ZSwgQVVUT01BVElDX0JBQ0tVUF9SRUNIRUNLX1NFQ09ORFMpLmF3YWl0OwogICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgIH0KICAgICAgICB9OwogICAgICAgIGlmIGNvbmZpZy5nZXQoImVuYWJsZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgIT0gU29tZSh0cnVlKSB7CiAgICAgICAgICAgIHRva2lvOjpzZWxlY3QhIHsKICAgICAgICAgICAgICAgIF8gPSBzdGF0ZS5zaHV0ZG93bi5jYW5jZWxsZWQoKSA9PiByZXR1cm4sCiAgICAgICAgICAgICAgICBfID0gc3RhdGUubWFpbnRlbmFuY2UuYXV0b21hdGljX2JhY2t1cF9ub3RpZnkubm90aWZpZWQoKSA9PiB7fQogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBsZXQgcnVudGltZSA9IG1hdGNoIGxvYWRfYXV0b21hdGljX2JhY2t1cF9ydW50aW1lKCZzdGF0ZSkuYXdhaXQgewogICAgICAgICAgICBPayhydW50aW1lKSA9PiBydW50aW1lLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBsb2FkIGF1dG9tYXRpYyBiYWNrdXAgcnVudGltZSIpOwogICAgICAgICAgICAgICAgd2FpdF9mb3JfYXV0b21hdGljX2JhY2t1cF93YWtldXAoJnN0YXRlLCBBVVRPTUFUSUNfQkFDS1VQX1JFQ0hFQ0tfU0VDT05EUykuYXdhaXQ7CiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgfQogICAgICAgIH07CiAgICAgICAgbGV0IG5leHRfbXMgPSBydW50aW1lCiAgICAgICAgICAgIC5nZXQoIm5leHRfYmFja3VwX2F0IikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgIC5hbmRfdGhlbih0aW1lX3V0aWxzOjpwYXJzZV9pc29fbXMpCiAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh0aW1lX3V0aWxzOjpub3dfbXMpOwogICAgICAgIGxldCByZW1haW5pbmdfbXMgPSBuZXh0X21zLnNhdHVyYXRpbmdfc3ViKHRpbWVfdXRpbHM6Om5vd19tcygpKTsKICAgICAgICBpZiByZW1haW5pbmdfbXMgPiAwIHsKICAgICAgICAgICAgd2FpdF9mb3JfYXV0b21hdGljX2JhY2t1cF93YWtldXAoCiAgICAgICAgICAgICAgICAmc3RhdGUsCiAgICAgICAgICAgICAgICAoKHJlbWFpbmluZ19tcyBhcyB1NjQpLnNhdHVyYXRpbmdfYWRkKDk5OSkgLyAxMDAwKQogICAgICAgICAgICAgICAgICAgIC5taW4oQVVUT01BVElDX0JBQ0tVUF9SRUNIRUNLX1NFQ09ORFMpLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdDsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGlmIGxldCBFcnIoZXJyb3IpID0gcnVuX2F1dG9tYXRpY19iYWNrdXBfb25jZSgmc3RhdGUpLmF3YWl0IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiYXV0b21hdGljIGJhY2t1cCBhdHRlbXB0IGZhaWxlZCIpOwogICAgICAgIH0KICAgIH0KfQoKcHViKGluIGNyYXRlOjpzeXN0ZW06Om1haW50ZW5hbmNlKSBhc3luYyBmbiB3YWl0X2Zvcl9hdXRvbWF0aWNfYmFja3VwX3dha2V1cCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBzZWNvbmRzOiB1NjQsCikgewogICAgdG9raW86OnNlbGVjdCEgewogICAgICAgIF8gPSBzdGF0ZS5zaHV0ZG93bi5jYW5jZWxsZWQoKSA9PiB7fQogICAgICAgIF8gPSBzdGF0ZS5tYWludGVuYW5jZS5hdXRvbWF0aWNfYmFja3VwX25vdGlmeS5ub3RpZmllZCgpID0+IHt9CiAgICAgICAgXyA9IHRva2lvOjp0aW1lOjpzbGVlcChEdXJhdGlvbjo6ZnJvbV9zZWNzKHNlY29uZHMubWF4KDEpKSkgPT4ge30KICAgIH0KfQoKcHViKGluIGNyYXRlOjpzeXN0ZW06Om1haW50ZW5hbmNlKSBhc3luYyBmbiBydW5fYXV0b21hdGljX2JhY2t1cF9vbmNlKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgbGV0IF9ndWFyZCA9IHN0YXRlLm1haW50ZW5hbmNlLmF1dG9tYXRpY19iYWNrdXBfbG9jay5sb2NrKCkuYXdhaXQ7CiAgICBsZXQgY29uZmlnID0gbG9hZF9hdXRvbWF0aWNfYmFja3VwX2NvbmZpZyhzdGF0ZSkuYXdhaXQ/OwogICAgaWYgY29uZmlnLmdldCgiZW5hYmxlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSAhPSBTb21lKHRydWUpIHsKICAgICAgICByZXR1cm4gT2soVmFsdWU6Ok51bGwpOwogICAgfQogICAgbGV0IGludGVydmFsX2hvdXJzID0gY29uZmlnCiAgICAgICAgLmdldCgiaW50ZXJ2YWxfaG91cnMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KQogICAgICAgIC51bndyYXBfb3IoQVVUT01BVElDX0JBQ0tVUF9ERUZBVUxUX0lOVEVSVkFMX0hPVVJTKTsKICAgIGxldCByZXRlbnRpb25fZGF5cyA9IGNvbmZpZwogICAgICAgIC5nZXQoInJldGVudGlvbl9kYXlzIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkKICAgICAgICAudW53cmFwX29yKEFVVE9NQVRJQ19CQUNLVVBfREVGQVVMVF9SRVRFTlRJT05fREFZUyk7CiAgICBsZXQgYXR0ZW1wdF9hdCA9IHRpbWVfdXRpbHM6Om5vd19pc28oKTsKICAgIGxldCBtdXQgcnVudGltZSA9IGxvYWRfYXV0b21hdGljX2JhY2t1cF9ydW50aW1lKHN0YXRlKS5hd2FpdD87CiAgICBydW50aW1lWyJsYXN0X2F0dGVtcHRfYXQiXSA9IFZhbHVlOjpTdHJpbmcoYXR0ZW1wdF9hdCk7CgogICAgbGV0IHJlc3VsdCA9IHdyaXRlX2F1dG9tYXRpY19iYWNrdXBfYXJjaGl2ZShzdGF0ZSkuYXdhaXQ7CiAgICBtYXRjaCByZXN1bHQgewogICAgICAgIE9rKGRhdGEpID0+IHsKICAgICAgICAgICAgbGV0IG11dCBmYWlsdXJlX3J1bnRpbWUgPSBydW50aW1lLmNsb25lKCk7CiAgICAgICAgICAgIGxldCBjb21wbGV0ZWRfYXQgPSB0aW1lX3V0aWxzOjpub3dfaXNvKCk7CiAgICAgICAgICAgIGxldCBmaWxlbmFtZSA9IGRhdGEKICAgICAgICAgICAgICAgIC5nZXQoImZpbGVuYW1lIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICAgICAgICAgIC50b19zdHJpbmcoKTsKICAgICAgICAgICAgcnVudGltZVsibGFzdF9zdWNjZXNzX2F0Il0gPSBWYWx1ZTo6U3RyaW5nKGNvbXBsZXRlZF9hdCk7CiAgICAgICAgICAgIHJ1bnRpbWVbImxhc3RfZXJyb3IiXSA9IFZhbHVlOjpOdWxsOwogICAgICAgICAgICBydW50aW1lWyJsYXN0X2ZpbGVuYW1lIl0gPSBWYWx1ZTo6U3RyaW5nKGZpbGVuYW1lLmNsb25lKCkpOwogICAgICAgICAgICBydW50aW1lWyJuZXh0X2JhY2t1cF9hdCJdID0KICAgICAgICAgICAgICAgIFZhbHVlOjpTdHJpbmcodGltZV91dGlsczo6aXNvX2FmdGVyX3NlY29uZHMoaW50ZXJ2YWxfaG91cnMgKiAzNjAwKSk7CiAgICAgICAgICAgIGxldCBjb21taXQgPSBhc3luYyB7CiAgICAgICAgICAgICAgICBsZXQgbXV0IGVtYWlsID0gYmFja3VwX2VtYWlsOjpsb2FkKHN0YXRlKS5hd2FpdD87CiAgICAgICAgICAgICAgICBiYWNrdXBfZW1haWw6OmVucXVldWUoCiAgICAgICAgICAgICAgICAgICAgJm11dCBlbWFpbCwKICAgICAgICAgICAgICAgICAgICAmZmlsZW5hbWUsCiAgICAgICAgICAgICAgICAgICAgZGF0YVsiZXhwb3J0ZWRBdCJdLmFzX3N0cigpLnVud3JhcF9vcl9kZWZhdWx0KCksCiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgbGV0IHZhbHVlID0gc2VyZGVfanNvbjo6dG9fdmFsdWUoZW1haWwpPzsKICAgICAgICAgICAgICAgIHN0YXRlCiAgICAgICAgICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgICAgICAgICAuc2V0X2pzb25fdmFsdWVzX2F0b21pY2FsbHkoJlsKICAgICAgICAgICAgICAgICAgICAgICAgKEFVVE9NQVRJQ19CQUNLVVBfUlVOVElNRV9LRVksICZydW50aW1lKSwKICAgICAgICAgICAgICAgICAgICAgICAgKGJhY2t1cF9lbWFpbDo6RU1BSUxfS0VZLCAmdmFsdWUpLAogICAgICAgICAgICAgICAgICAgIF0pCiAgICAgICAgICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICAgICAgICAgIE9rOjo8KCksIGFueWhvdzo6RXJyb3I+KCgpKQogICAgICAgICAgICB9CiAgICAgICAgICAgIC5hd2FpdDsKICAgICAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPSBjb21taXQgewogICAgICAgICAgICAgICAgbGV0IHVuY29tbWl0dGVkX3BhdGggPSBhdXRvbWF0aWNfYmFja3VwX2RpcmVjdG9yeShzdGF0ZSkuam9pbigmZmlsZW5hbWUpOwogICAgICAgICAgICAgICAgaWYgbGV0IEVycihyZW1vdmVfZXJyb3IpID0gZnM6OnJlbW92ZV9maWxlKCZ1bmNvbW1pdHRlZF9wYXRoKS5hd2FpdAogICAgICAgICAgICAgICAgICAgICYmIHJlbW92ZV9lcnJvci5raW5kKCkgIT0gaW86OkVycm9yS2luZDo6Tm90Rm91bmQKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglcmVtb3ZlX2Vycm9yLCBwYXRoID0gJXVuY29tbWl0dGVkX3BhdGguZGlzcGxheSgpLCAiZmFpbGVkIHRvIHJlbW92ZSB1bmNvbW1pdHRlZCBhdXRvbWF0aWMgYmFja3VwIik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBsZXQgcmV0cnlfc2Vjb25kcyA9IChpbnRlcnZhbF9ob3VycyAqIDM2MDApLm1pbigzNjAwKTsKICAgICAgICAgICAgICAgIGZhaWx1cmVfcnVudGltZVsibGFzdF9lcnJvciJdID0gVmFsdWU6OlN0cmluZyhlcnJvci50b19zdHJpbmcoKSk7CiAgICAgICAgICAgICAgICBmYWlsdXJlX3J1bnRpbWVbIm5leHRfYmFja3VwX2F0Il0gPQogICAgICAgICAgICAgICAgICAgIFZhbHVlOjpTdHJpbmcodGltZV91dGlsczo6aXNvX2FmdGVyX3NlY29uZHMocmV0cnlfc2Vjb25kcykpOwogICAgICAgICAgICAgICAgaWYgbGV0IEVycihzYXZlX2Vycm9yKSA9CiAgICAgICAgICAgICAgICAgICAgc2F2ZV9hdXRvbWF0aWNfYmFja3VwX3J1bnRpbWUoc3RhdGUsICZmYWlsdXJlX3J1bnRpbWUpLmF3YWl0CiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJXNhdmVfZXJyb3IsICJmYWlsZWQgdG8gcGVyc2lzdCBhdXRvbWF0aWMgYmFja3VwIGJvb2trZWVwaW5nIGZhaWx1cmUiKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJldHVybiBFcnIoZXJyb3IpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIGxldCBFcnIoZXJyb3IpID0gcHJ1bmVfYXV0b21hdGljX2JhY2t1cF9kaXJlY3Rvcnkoc3RhdGUsIHJldGVudGlvbl9kYXlzKS5hd2FpdCB7CiAgICAgICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gcHJ1bmUgZXhwaXJlZCBhdXRvbWF0aWMgYmFja3VwcyIpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIE9rKGRhdGEpCiAgICAgICAgfQogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICBsZXQgcmV0cnlfc2Vjb25kcyA9IChpbnRlcnZhbF9ob3VycyAqIDM2MDApLm1pbigzNjAwKTsKICAgICAgICAgICAgcnVudGltZVsibGFzdF9lcnJvciJdID0gVmFsdWU6OlN0cmluZyhlcnJvci50b19zdHJpbmcoKSk7CiAgICAgICAgICAgIHJ1bnRpbWVbIm5leHRfYmFja3VwX2F0Il0gPSBWYWx1ZTo6U3RyaW5nKHRpbWVfdXRpbHM6Omlzb19hZnRlcl9zZWNvbmRzKHJldHJ5X3NlY29uZHMpKTsKICAgICAgICAgICAgaWYgbGV0IEVycihzYXZlX2Vycm9yKSA9IHNhdmVfYXV0b21hdGljX2JhY2t1cF9ydW50aW1lKHN0YXRlLCAmcnVudGltZSkuYXdhaXQgewogICAgICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJXNhdmVfZXJyb3IsICJmYWlsZWQgdG8gcGVyc2lzdCBhdXRvbWF0aWMgYmFja3VwIGZhaWx1cmUiKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBFcnIoZXJyb3IpCiAgICAgICAgfQogICAgfQp9CgpwdWIoaW4gY3JhdGU6OnN5c3RlbTo6bWFpbnRlbmFuY2UpIGZuIG5leHRfYmFja3VwX2FmdGVyX2xhc3Rfc3VjY2VzcygKICAgIGxhc3Rfc3VjY2Vzc19hdDogT3B0aW9uPCZzdHI+LAogICAgaW50ZXJ2YWxfaG91cnM6IGk2NCwKICAgIG5vd19tczogaTY0LAopIC0+IFN0cmluZyB7CiAgICBsZXQgbmV4dF9tcyA9IGxhc3Rfc3VjY2Vzc19hdAogICAgICAgIC5hbmRfdGhlbih0aW1lX3V0aWxzOjpwYXJzZV9pc29fbXMpCiAgICAgICAgLmFuZF90aGVuKHxsYXN0fCBsYXN0LmNoZWNrZWRfYWRkKGludGVydmFsX2hvdXJzICogMzYwMCAqIDEwMDApKQogICAgICAgIC5maWx0ZXIofG5leHR8ICpuZXh0ID4gbm93X21zKQogICAgICAgIC51bndyYXBfb3Iobm93X21zKTsKICAgIHRpbWVfdXRpbHM6Omlzb19mcm9tX21zKG5leHRfbXMpCn0KCnB1YihpbiBjcmF0ZTo6c3lzdGVtOjptYWludGVuYW5jZSkgZm4gbmV4dF9iYWNrdXBfYWZ0ZXJfZmFpbHVyZSgKICAgIGN1cnJlbnRfbmV4dF9iYWNrdXBfYXQ6IE9wdGlvbjwmc3RyPiwKICAgIGludGVydmFsX2hvdXJzOiBpNjQsCiAgICBub3dfbXM6IGk2NCwKKSAtPiBTdHJpbmcgewogICAgbGV0IHJldHJ5X3NlY29uZHMgPSBpbnRlcnZhbF9ob3Vycy5zYXR1cmF0aW5nX211bCgzNjAwKS5taW4oMzYwMCk7CiAgICBsZXQgcmV0cnlfY2FwX21zID0gbm93X21zLnNhdHVyYXRpbmdfYWRkKHJldHJ5X3NlY29uZHMuc2F0dXJhdGluZ19tdWwoMTAwMCkpOwogICAgbGV0IG5leHRfbXMgPSBjdXJyZW50X25leHRfYmFja3VwX2F0CiAgICAgICAgLmFuZF90aGVuKHRpbWVfdXRpbHM6OnBhcnNlX2lzb19tcykKICAgICAgICAubWFwKHxuZXh0fCBuZXh0Lm1pbihyZXRyeV9jYXBfbXMpKQogICAgICAgIC51bndyYXBfb3IocmV0cnlfY2FwX21zKTsKICAgIHRpbWVfdXRpbHM6Omlzb19mcm9tX21zKG5leHRfbXMpCn0K
+use super::*;
+
+pub(in crate::system::maintenance) fn spawn_automatic_backup_task(state: AppState) {
+    state.spawn_background(
+        "automatic-backup",
+        automatic_backup_scheduler(state.clone()),
+    );
+}
+
+pub(in crate::system::maintenance) async fn automatic_backup_scheduler(state: AppState) {
+    match ensure_automatic_backup_directory(&state).await {
+        Ok(directory) => {
+            if let Err(error) = cleanup_automatic_backup_temp_files(&directory).await {
+                tracing::warn!(%error, "failed to clean stale automatic backup files on startup");
+            }
+        }
+        Err(error) => {
+            tracing::warn!(%error, "failed to initialize automatic backup directory");
+        }
+    }
+    loop {
+        if state.shutdown.is_cancelled() {
+            return;
+        }
+        let config = match load_automatic_backup_config(&state).await {
+            Ok(config) => config,
+            Err(error) => {
+                tracing::warn!(%error, "failed to load automatic backup config");
+                wait_for_automatic_backup_wakeup(&state, AUTOMATIC_BACKUP_RECHECK_SECONDS).await;
+                continue;
+            }
+        };
+        if config.get("enabled").and_then(Value::as_bool) != Some(true) {
+            tokio::select! {
+                _ = state.shutdown.cancelled() => return,
+                _ = state.maintenance.automatic_backup_notify.notified() => {}
+            }
+            continue;
+        }
+        let runtime = match load_automatic_backup_runtime(&state).await {
+            Ok(runtime) => runtime,
+            Err(error) => {
+                tracing::warn!(%error, "failed to load automatic backup runtime");
+                wait_for_automatic_backup_wakeup(&state, AUTOMATIC_BACKUP_RECHECK_SECONDS).await;
+                continue;
+            }
+        };
+        let next_ms = runtime
+            .get("next_backup_at")
+            .and_then(Value::as_str)
+            .and_then(time_utils::parse_iso_ms)
+            .unwrap_or_else(time_utils::now_ms);
+        let remaining_ms = next_ms.saturating_sub(time_utils::now_ms());
+        if remaining_ms > 0 {
+            wait_for_automatic_backup_wakeup(
+                &state,
+                ((remaining_ms as u64).saturating_add(999) / 1000)
+                    .min(AUTOMATIC_BACKUP_RECHECK_SECONDS),
+            )
+            .await;
+            continue;
+        }
+        if let Err(error) = run_automatic_backup_once(&state).await {
+            tracing::warn!(%error, "automatic backup attempt failed");
+        }
+    }
+}
+
+pub(in crate::system::maintenance) async fn wait_for_automatic_backup_wakeup(
+    state: &AppState,
+    seconds: u64,
+) {
+    tokio::select! {
+        _ = state.shutdown.cancelled() => {}
+        _ = state.maintenance.automatic_backup_notify.notified() => {}
+        _ = tokio::time::sleep(Duration::from_secs(seconds.max(1))) => {}
+    }
+}
+
+pub(in crate::system::maintenance) async fn run_automatic_backup_once(
+    state: &AppState,
+) -> anyhow::Result<Value> {
+    let _guard = state.maintenance.automatic_backup_lock.lock().await;
+    let config = load_automatic_backup_config(state).await?;
+    if config.get("enabled").and_then(Value::as_bool) != Some(true) {
+        return Ok(Value::Null);
+    }
+    let interval_hours = config
+        .get("interval_hours")
+        .and_then(Value::as_i64)
+        .unwrap_or(AUTOMATIC_BACKUP_DEFAULT_INTERVAL_HOURS);
+    let retention_days = config
+        .get("retention_days")
+        .and_then(Value::as_i64)
+        .unwrap_or(AUTOMATIC_BACKUP_DEFAULT_RETENTION_DAYS);
+    let attempt_at = time_utils::now_iso();
+    let mut runtime = load_automatic_backup_runtime(state).await?;
+    runtime["last_attempt_at"] = Value::String(attempt_at);
+
+    let result = write_automatic_backup_archive(state).await;
+    match result {
+        Ok(data) => {
+            let mut failure_runtime = runtime.clone();
+            let completed_at = time_utils::now_iso();
+            let filename = data
+                .get("filename")
+                .and_then(Value::as_str)
+                .unwrap_or_default()
+                .to_string();
+            runtime["last_success_at"] = Value::String(completed_at);
+            runtime["last_error"] = Value::Null;
+            runtime["last_filename"] = Value::String(filename.clone());
+            runtime["next_backup_at"] =
+                Value::String(time_utils::iso_after_seconds(interval_hours * 3600));
+            let commit = async {
+                let mut email = backup_email::load(state).await?;
+                backup_email::enqueue(
+                    &mut email,
+                    &filename,
+                    data["exportedAt"].as_str().unwrap_or_default(),
+                );
+                let value = serde_json::to_value(email)?;
+                state
+                    .storage
+                    .store
+                    .set_json_values_atomically(&[
+                        (AUTOMATIC_BACKUP_RUNTIME_KEY, &runtime),
+                        (backup_email::EMAIL_KEY, &value),
+                    ])
+                    .await?;
+                Ok::<(), anyhow::Error>(())
+            }
+            .await;
+            if let Err(error) = commit {
+                let uncommitted_path = automatic_backup_directory(state).join(&filename);
+                if let Err(remove_error) = fs::remove_file(&uncommitted_path).await
+                    && remove_error.kind() != io::ErrorKind::NotFound
+                {
+                    tracing::warn!(%remove_error, path = %uncommitted_path.display(), "failed to remove uncommitted automatic backup");
+                }
+                let retry_seconds = (interval_hours * 3600).min(3600);
+                failure_runtime["last_error"] = Value::String(error.to_string());
+                failure_runtime["next_backup_at"] =
+                    Value::String(time_utils::iso_after_seconds(retry_seconds));
+                if let Err(save_error) =
+                    save_automatic_backup_runtime(state, &failure_runtime).await
+                {
+                    tracing::warn!(%save_error, "failed to persist automatic backup bookkeeping failure");
+                }
+                return Err(error);
+            }
+            if let Err(error) = prune_automatic_backup_directory(state, retention_days).await {
+                tracing::warn!(%error, "failed to prune expired automatic backups");
+            }
+            Ok(data)
+        }
+        Err(error) => {
+            let retry_seconds = (interval_hours * 3600).min(3600);
+            runtime["last_error"] = Value::String(error.to_string());
+            runtime["next_backup_at"] = Value::String(time_utils::iso_after_seconds(retry_seconds));
+            if let Err(save_error) = save_automatic_backup_runtime(state, &runtime).await {
+                tracing::warn!(%save_error, "failed to persist automatic backup failure");
+            }
+            Err(error)
+        }
+    }
+}
+
+pub(in crate::system::maintenance) fn next_backup_after_last_success(
+    last_success_at: Option<&str>,
+    interval_hours: i64,
+    now_ms: i64,
+) -> String {
+    let next_ms = last_success_at
+        .and_then(time_utils::parse_iso_ms)
+        .and_then(|last| last.checked_add(interval_hours * 3600 * 1000))
+        .filter(|next| *next > now_ms)
+        .unwrap_or(now_ms);
+    time_utils::iso_from_ms(next_ms)
+}
+
+pub(in crate::system::maintenance) fn next_backup_after_failure(
+    current_next_backup_at: Option<&str>,
+    interval_hours: i64,
+    now_ms: i64,
+) -> String {
+    let retry_seconds = interval_hours.saturating_mul(3600).min(3600);
+    let retry_cap_ms = now_ms.saturating_add(retry_seconds.saturating_mul(1000));
+    let next_ms = current_next_backup_at
+        .and_then(time_utils::parse_iso_ms)
+        .map(|next| next.min(retry_cap_ms))
+        .unwrap_or(retry_cap_ms);
+    time_utils::iso_from_ms(next_ms)
+}

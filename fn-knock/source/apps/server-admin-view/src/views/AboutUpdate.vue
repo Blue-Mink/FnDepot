@@ -1,1 +1,106 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJvb2tPcGVuLCBHaXRodWIsIEdsb2JlMiwgVGVybWluYWwgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQ2FyZCwgQ2FyZENvbnRlbnQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCBSZWxlYXNlTm90ZXNNYXJrZG93biBmcm9tICIuLi9jb21wb25lbnRzL1JlbGVhc2VOb3Rlc01hcmtkb3duLnZ1ZSI7CmltcG9ydCB7CiAgT0ZGSUNJQUxfRE9DVU1FTlRBVElPTl9VUkwsCiAgT0ZGSUNJQUxfV0VCU0lURV9VUkwsCn0gZnJvbSAiLi4vbGliL3VwZGF0ZS1wcmVzZW50YXRpb24iOwppbXBvcnQgQWJvdXRVcGRhdGVEZXBsb3ltZW50Tm90aWNlcyBmcm9tICIuL2Fib3V0LXVwZGF0ZS9BYm91dFVwZGF0ZURlcGxveW1lbnROb3RpY2VzLnZ1ZSI7CmltcG9ydCBBYm91dFVwZGF0ZVByb2dyZXNzT3ZlcmxheSBmcm9tICIuL2Fib3V0LXVwZGF0ZS9BYm91dFVwZGF0ZVByb2dyZXNzT3ZlcmxheS52dWUiOwppbXBvcnQgQWJvdXRVcGRhdGVWZXJzaW9uUGFuZWwgZnJvbSAiLi9hYm91dC11cGRhdGUvQWJvdXRVcGRhdGVWZXJzaW9uUGFuZWwudnVlIjsKaW1wb3J0IHsgdXNlQWJvdXRVcGRhdGVQYWdlIH0gZnJvbSAiLi9hYm91dC11cGRhdGUvdXNlQWJvdXRVcGRhdGVQYWdlIjsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBjb250cm9sbGVyID0gdXNlQWJvdXRVcGRhdGVQYWdlKCk7CmNvbnN0IHsgb3BlbkdpdGh1Yiwgc3RhdHVzLCB1cGRhdGVTdWJ0aXRsZUtleSB9ID0gY29udHJvbGxlcjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0ibXgtYXV0byBzcGFjZS15LTYiPgogICAgPENhcmQgY2xhc3M9Im92ZXJmbG93LWhpZGRlbiBib3JkZXItYm9yZGVyLzUwIHNoYWRvdy1zbSI+CiAgICAgIDxDYXJkQ29udGVudCBjbGFzcz0ic3BhY2UteS04Ij4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtNCBweC0xIHNtOmZsZXgtcm93IHNtOml0ZW1zLXN0YXJ0IHNtOmp1c3RpZnktYmV0d2VlbiIKICAgICAgICA+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8aDIgY2xhc3M9InRleHQtMnhsIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmFib3V0VXBkYXRlLnRpdGxlIikgfX0KICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgPHAgY2xhc3M9Im10LTEgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQodXBkYXRlU3VidGl0bGVLZXkpIH19CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIGFzLWNoaWxkCiAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICBjbGFzcz0iYm9yZGVyLWJvcmRlci83MCBiZy1jYXJkIHNoYWRvdy1ub25lIGhvdmVyOmJnLW11dGVkLzYwIGRhcms6YmctbXV0ZWQvMjAgZGFyazpob3ZlcjpiZy1tdXRlZC8zNSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxhCiAgICAgICAgICAgICAgICA6aHJlZj0iT0ZGSUNJQUxfV0VCU0lURV9VUkwiCiAgICAgICAgICAgICAgICB0YXJnZXQ9Il9ibGFuayIKICAgICAgICAgICAgICAgIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8R2xvYmUyIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uYWJvdXRVcGRhdGUub2ZmaWNpYWxXZWJzaXRlIikgfX0KICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgYXMtY2hpbGQKICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgIGNsYXNzPSJib3JkZXItYm9yZGVyLzcwIGJnLWNhcmQgc2hhZG93LW5vbmUgaG92ZXI6YmctbXV0ZWQvNjAgZGFyazpiZy1tdXRlZC8yMCBkYXJrOmhvdmVyOmJnLW11dGVkLzM1IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGEKICAgICAgICAgICAgICAgIDpocmVmPSJPRkZJQ0lBTF9ET0NVTUVOVEFUSU9OX1VSTCIKICAgICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgICAgcmVsPSJub29wZW5lciBub3JlZmVycmVyIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxCb29rT3BlbiBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmFib3V0VXBkYXRlLm9mZmljaWFsRG9jdW1lbnRhdGlvbiIpIH19CiAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgIHNpemU9Imljb24tc20iCiAgICAgICAgICAgICAgY2xhc3M9InJvdW5kZWQtZnVsbCBob3ZlcjpiZy1tdXRlZCIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9IiFzdGF0dXM/LmdpdGh1YlVybCIKICAgICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLmFib3V0VXBkYXRlLm9wZW5HaXRodWInKSIKICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uYWJvdXRVcGRhdGUub3BlbkdpdGh1YicpIgogICAgICAgICAgICAgIEBjbGljaz0ib3BlbkdpdGh1YiIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxHaXRodWIgY2xhc3M9ImgtNSB3LTUiIC8+CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxBYm91dFVwZGF0ZURlcGxveW1lbnROb3RpY2VzIDpjb250cm9sbGVyPSJjb250cm9sbGVyIiAvPgogICAgICAgIDxBYm91dFVwZGF0ZVZlcnNpb25QYW5lbCA6Y29udHJvbGxlcj0iY29udHJvbGxlciIgLz4KCiAgICAgICAgPGRpdgogICAgICAgICAgdi1pZj0ic3RhdHVzPy5sYXRlc3Q/LnJlbGVhc2Vfbm90ZXMiCiAgICAgICAgICBjbGFzcz0iYm9yZGVyLXQgYm9yZGVyLWJvcmRlci80MCBwdC00IgogICAgICAgID4KICAgICAgICAgIDxoMwogICAgICAgICAgICBjbGFzcz0ibWItNCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAgPFRlcm1pbmFsIGNsYXNzPSJoLTQgdy00IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICAgICAgICAgICAge3sgdCgiYWRtaW4uYWJvdXRVcGRhdGUucmVsZWFzZU5vdGVzIikgfX0KICAgICAgICAgIDwvaDM+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJyb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWJvcmRlci80MCBiZy1tdXRlZC8zMCBwLTUiPgogICAgICAgICAgICA8UmVsZWFzZU5vdGVzTWFya2Rvd24KICAgICAgICAgICAgICA6c291cmNlPSJzdGF0dXMubGF0ZXN0LnJlbGVhc2Vfbm90ZXMiCiAgICAgICAgICAgICAgOmZhbGxiYWNrPSJ0KCdhZG1pbi5hYm91dFVwZGF0ZS5ub1JlbGVhc2VOb3RlcycpIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICA8L0NhcmQ+CgogICAgPEFib3V0VXBkYXRlUHJvZ3Jlc3NPdmVybGF5IDpjb250cm9sbGVyPSJjb250cm9sbGVyIiAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { BookOpen, Github, Globe2, Terminal } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import ReleaseNotesMarkdown from "../components/ReleaseNotesMarkdown.vue";
+import {
+  OFFICIAL_DOCUMENTATION_URL,
+  OFFICIAL_WEBSITE_URL,
+} from "../lib/update-presentation";
+import AboutUpdateDeploymentNotices from "./about-update/AboutUpdateDeploymentNotices.vue";
+import AboutUpdateProgressOverlay from "./about-update/AboutUpdateProgressOverlay.vue";
+import AboutUpdateVersionPanel from "./about-update/AboutUpdateVersionPanel.vue";
+import { useAboutUpdatePage } from "./about-update/useAboutUpdatePage";
+
+const { t } = useI18n();
+const controller = useAboutUpdatePage();
+const { openGithub, status, updateSubtitleKey } = controller;
+</script>
+
+<template>
+  <div class="mx-auto space-y-6">
+    <Card class="overflow-hidden border-border/50 shadow-sm">
+      <CardContent class="space-y-8">
+        <div
+          class="flex flex-col gap-4 px-1 sm:flex-row sm:items-start sm:justify-between"
+        >
+          <div>
+            <h2 class="text-2xl font-semibold tracking-tight">
+              {{ t("admin.aboutUpdate.title") }}
+            </h2>
+            <p class="mt-1 text-sm text-muted-foreground">
+              {{ t(updateSubtitleKey) }}
+            </p>
+          </div>
+          <div class="flex flex-wrap items-center gap-2">
+            <Button
+              as-child
+              variant="outline"
+              size="sm"
+              class="border-border/70 bg-card shadow-none hover:bg-muted/60 dark:bg-muted/20 dark:hover:bg-muted/35"
+            >
+              <a
+                :href="OFFICIAL_WEBSITE_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Globe2 class="h-4 w-4" />
+                {{ t("admin.aboutUpdate.officialWebsite") }}
+              </a>
+            </Button>
+            <Button
+              as-child
+              variant="outline"
+              size="sm"
+              class="border-border/70 bg-card shadow-none hover:bg-muted/60 dark:bg-muted/20 dark:hover:bg-muted/35"
+            >
+              <a
+                :href="OFFICIAL_DOCUMENTATION_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BookOpen class="h-4 w-4" />
+                {{ t("admin.aboutUpdate.officialDocumentation") }}
+              </a>
+            </Button>
+            <Button
+              variant="ghost"
+              size="icon-sm"
+              class="rounded-full hover:bg-muted"
+              :disabled="!status?.githubUrl"
+              :title="t('admin.aboutUpdate.openGithub')"
+              :aria-label="t('admin.aboutUpdate.openGithub')"
+              @click="openGithub"
+            >
+              <Github class="h-5 w-5" />
+            </Button>
+          </div>
+        </div>
+
+        <AboutUpdateDeploymentNotices :controller="controller" />
+        <AboutUpdateVersionPanel :controller="controller" />
+
+        <div
+          v-if="status?.latest?.release_notes"
+          class="border-t border-border/40 pt-4"
+        >
+          <h3
+            class="mb-4 flex items-center gap-2 text-sm font-medium text-foreground"
+          >
+            <Terminal class="h-4 w-4 text-muted-foreground" />
+            {{ t("admin.aboutUpdate.releaseNotes") }}
+          </h3>
+          <div class="rounded-2xl border border-border/40 bg-muted/30 p-5">
+            <ReleaseNotesMarkdown
+              :source="status.latest.release_notes"
+              :fallback="t('admin.aboutUpdate.noReleaseNotes')"
+            />
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+
+    <AboutUpdateProgressOverlay :controller="controller" />
+  </div>
+</template>

@@ -1,1 +1,46 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgQ2xvdWRmbGFyZU9wdGltaXphdGlvbkNhcmRQcmVzZW50YXRpb24gfSBmcm9tICIuL3VzZUNsb3VkZmxhcmVPcHRpbWl6YXRpb25DYXJkUHJlc2VudGF0aW9uIjsKaW1wb3J0IHR5cGUgeyBDbG91ZGZsYXJlVHVubmVsQ29udHJvbGxlciB9IGZyb20gIi4vdXNlQ2xvdWRmbGFyZVR1bm5lbENvbnRyb2xsZXIiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgY29udHJvbGxlcjogQ2xvdWRmbGFyZVR1bm5lbENvbnRyb2xsZXI7CiAgcHJlc2VudGF0aW9uOiBDbG91ZGZsYXJlT3B0aW1pemF0aW9uQ2FyZFByZXNlbnRhdGlvbjsKfT4oKTsKY29uc3QgeyBvcHRpbWl6YXRpb24sIHQgfSA9IHByb3BzLmNvbnRyb2xsZXI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkZXRhaWxzIGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBiZy1tdXRlZC8yMCI+CiAgICA8c3VtbWFyeSBjbGFzcz0iY3Vyc29yLXBvaW50ZXIgbGlzdC1ub25lIHB4LTQgcHktMyB0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAge3sgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24udGVjaG5pY2FsU3RhdHVzIikgfX0KICAgIDwvc3VtbWFyeT4KICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTMgYm9yZGVyLXQgcC00IHRleHQtc20gc206Z3JpZC1jb2xzLTIiPgogICAgICA8ZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7IHQoImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLmNhcGFiaWxpdHlQcm9iZSIpIH19CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ibXQtMSI+e3sgcHJlc2VudGF0aW9uLmNhcGFiaWxpdHlQcm9iZU1lc3NhZ2UgfX08L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXY+CiAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sgdCgiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24ubGFzdEhlYWx0aCIpIH19CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ibXQtMSI+CiAgICAgICAgICB7eyBwcmVzZW50YXRpb24uZm9ybWF0RGF0ZShvcHRpbWl6YXRpb24/LnNjaGVkdWxlLmxhc3RIZWFsdGhBdCkgfX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgdi1pZj0ib3B0aW1pemF0aW9uPy5zY2hlZHVsZS5sYXN0U3dpdGNoUmVhc29uIj4KICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5sYXN0U3dpdGNoUmVhc29uIikgfX0KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJtdC0xIj4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHByZXNlbnRhdGlvbi5zd2l0Y2hSZWFzb25MYWJlbCgKICAgICAgICAgICAgICBvcHRpbWl6YXRpb24uc2NoZWR1bGUubGFzdFN3aXRjaFJlYXNvbiwKICAgICAgICAgICAgKQogICAgICAgICAgfX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L2RldGFpbHM+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { CloudflareOptimizationCardPresentation } from "./useCloudflareOptimizationCardPresentation";
+import type { CloudflareTunnelController } from "./useCloudflareTunnelController";
+
+const props = defineProps<{
+  controller: CloudflareTunnelController;
+  presentation: CloudflareOptimizationCardPresentation;
+}>();
+const { optimization, t } = props.controller;
+</script>
+
+<template>
+  <details class="rounded-lg border bg-muted/20">
+    <summary class="cursor-pointer list-none px-4 py-3 text-sm font-medium">
+      {{ t("admin.cloudflareTunnel.optimization.technicalStatus") }}
+    </summary>
+    <div class="grid gap-3 border-t p-4 text-sm sm:grid-cols-2">
+      <div>
+        <div class="text-xs text-muted-foreground">
+          {{ t("admin.cloudflareTunnel.optimization.capabilityProbe") }}
+        </div>
+        <div class="mt-1">{{ presentation.capabilityProbeMessage }}</div>
+      </div>
+      <div>
+        <div class="text-xs text-muted-foreground">
+          {{ t("admin.cloudflareTunnel.optimization.lastHealth") }}
+        </div>
+        <div class="mt-1">
+          {{ presentation.formatDate(optimization?.schedule.lastHealthAt) }}
+        </div>
+      </div>
+      <div v-if="optimization?.schedule.lastSwitchReason">
+        <div class="text-xs text-muted-foreground">
+          {{ t("admin.cloudflareTunnel.optimization.lastSwitchReason") }}
+        </div>
+        <div class="mt-1">
+          {{
+            presentation.switchReasonLabel(
+              optimization.schedule.lastSwitchReason,
+            )
+          }}
+        </div>
+      </div>
+    </div>
+  </details>
+</template>

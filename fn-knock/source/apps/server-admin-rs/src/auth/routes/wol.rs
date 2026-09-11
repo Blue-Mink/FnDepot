@@ -1,1 +1,250 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiB0YXJnZXRzKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICB2ZXJpZmllZDogT3B0aW9uPEV4dGVuc2lvbjxjcmF0ZTo6YXV0aDo6aG1hYzo6VmVyaWZpZWRJbnRlcm5hbFJlcXVlc3Q+PiwKICAgIGhlYWRlcnM6IEhlYWRlck1hcCwKKSAtPiBSZXNwb25zZSB7CiAgICBpZiBsZXQgRXJyKHJlc3BvbnNlKSA9IGF1dGhvcml6ZSgmc3RhdGUsICZoZWFkZXJzLCB2ZXJpZmllZC5pc19zb21lKCkpLmF3YWl0IHsKICAgICAgICByZXR1cm4gcmVzcG9uc2U7CiAgICB9CiAgICBtYXRjaCBjcmF0ZTo6d29sOjpzZXJ2aWNlOjpsaXN0X2F1dGhfdGFyZ2V0cygmc3RhdGUpLmF3YWl0IHsKICAgICAgICBPayhpdGVtcykgPT4gbm9fc3RvcmUoCiAgICAgICAgICAgIHJlc3BvbnNlOjpvayhqc29uISh7CiAgICAgICAgICAgICAgICAidG90YWwiOiBpdGVtcy5sZW4oKSwKICAgICAgICAgICAgICAgICJpdGVtcyI6IGl0ZW1zLAogICAgICAgICAgICB9KSkKICAgICAgICAgICAgLmludG9fcmVzcG9uc2UoKSwKICAgICAgICApLAogICAgICAgIEVycihlcnJvcikgPT4gbm9fc3RvcmUocmVzcG9uc2U6OmVycm9yKGVycm9yLnN0YXR1cywgZXJyb3IubWVzc2FnZSkpLAogICAgfQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHdha2UoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIHZlcmlmaWVkOiBPcHRpb248RXh0ZW5zaW9uPGNyYXRlOjphdXRoOjpobWFjOjpWZXJpZmllZEludGVybmFsUmVxdWVzdD4+LAogICAgaGVhZGVyczogSGVhZGVyTWFwLAogICAgUGF0aChpZCk6IFBhdGg8U3RyaW5nPiwKKSAtPiBSZXNwb25zZSB7CiAgICBpZiBsZXQgRXJyKHJlc3BvbnNlKSA9IGF1dGhvcml6ZSgmc3RhdGUsICZoZWFkZXJzLCB2ZXJpZmllZC5pc19zb21lKCkpLmF3YWl0IHsKICAgICAgICByZXR1cm4gcmVzcG9uc2U7CiAgICB9CiAgICBtYXRjaCBjcmF0ZTo6d29sOjpzZXJ2aWNlOjp3YWtlX3RhcmdldCgmc3RhdGUsICZpZCwgY3JhdGU6OndvbDo6c2VydmljZTo6V2FrZVNvdXJjZTo6UG9ydGFsKQogICAgICAgIC5hd2FpdAogICAgewogICAgICAgIE9rKHZhbHVlKSA9PiBub19zdG9yZSgKICAgICAgICAgICAgcmVzcG9uc2U6Om9rKGpzb24hKHsKICAgICAgICAgICAgICAgICJ0YXJnZXRJZCI6IGlkLAogICAgICAgICAgICAgICAgInN0YXR1cyI6IHZhbHVlLmdldCgic3RhdHVzIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCJicm9hZGNhc3RlZCIpLAogICAgICAgICAgICB9KSkKICAgICAgICAgICAgLmludG9fcmVzcG9uc2UoKSwKICAgICAgICApLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISh0YXJnZXRfaWQgPSAlaWQsIHN0YXR1cyA9ICVlcnJvci5zdGF0dXMsIGRldGFpbCA9ICVlcnJvci5tZXNzYWdlLCAiV29MIHBvcnRhbCB3YWtlIGZhaWxlZCIpOwogICAgICAgICAgICBsZXQgKHN0YXR1cywgbWVzc2FnZSkgPSBwb3J0YWxfd2FrZV9wdWJsaWNfZXJyb3IoZXJyb3Iuc3RhdHVzKTsKICAgICAgICAgICAgbm9fc3RvcmUocmVzcG9uc2U6OmVycm9yKHN0YXR1cywgbWVzc2FnZSkpCiAgICAgICAgfQogICAgfQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHNodXRkb3duKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICB2ZXJpZmllZDogT3B0aW9uPEV4dGVuc2lvbjxjcmF0ZTo6YXV0aDo6aG1hYzo6VmVyaWZpZWRJbnRlcm5hbFJlcXVlc3Q+PiwKICAgIGhlYWRlcnM6IEhlYWRlck1hcCwKICAgIFBhdGgoaWQpOiBQYXRoPFN0cmluZz4sCikgLT4gUmVzcG9uc2UgewogICAgaWYgbGV0IEVycihyZXNwb25zZSkgPSBhdXRob3JpemUoJnN0YXRlLCAmaGVhZGVycywgdmVyaWZpZWQuaXNfc29tZSgpKS5hd2FpdCB7CiAgICAgICAgcmV0dXJuIHJlc3BvbnNlOwogICAgfQogICAgbWF0Y2ggY3JhdGU6OndvbDo6c2h1dGRvd25fdGFyZ2V0X2Zvcl9wb3J0YWwoJnN0YXRlLCAmaWQpLmF3YWl0IHsKICAgICAgICBPayh2YWx1ZSkgPT4gbm9fc3RvcmUoCiAgICAgICAgICAgIHJlc3BvbnNlOjpvayhqc29uISh7CiAgICAgICAgICAgICAgICAidGFyZ2V0SWQiOiBpZCwKICAgICAgICAgICAgICAgICJzdGF0dXMiOiB2YWx1ZS5nZXQoInN0YXR1cyIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiYWNjZXB0ZWQiKSwKICAgICAgICAgICAgfSkpCiAgICAgICAgICAgIC5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEodGFyZ2V0X2lkID0gJWlkLCBzdGF0dXMgPSAlZXJyb3Iuc3RhdHVzLCAiV29MIHBvcnRhbCBzaHV0ZG93biBmYWlsZWQiKTsKICAgICAgICAgICAgbGV0IChzdGF0dXMsIG1lc3NhZ2UpID0gcG9ydGFsX3NodXRkb3duX3B1YmxpY19lcnJvcihlcnJvci5zdGF0dXMpOwogICAgICAgICAgICBub19zdG9yZShyZXNwb25zZTo6ZXJyb3Ioc3RhdHVzLCBtZXNzYWdlKSkKICAgICAgICB9CiAgICB9Cn0KCmZuIHBvcnRhbF93YWtlX3B1YmxpY19lcnJvcihzdGF0dXM6IFN0YXR1c0NvZGUpIC0+IChTdGF0dXNDb2RlLCAmJ3N0YXRpYyBzdHIpIHsKICAgIG1hdGNoIHN0YXR1cyB7CiAgICAgICAgU3RhdHVzQ29kZTo6Tk9UX0ZPVU5EID0+IChzdGF0dXMsICJUYXJnZXQgd2FzIG5vdCBmb3VuZCIpLAogICAgICAgIFN0YXR1c0NvZGU6OlRPT19NQU5ZX1JFUVVFU1RTID0+IHsKICAgICAgICAgICAgKHN0YXR1cywgIlRhcmdldCB3YXMgd29rZW4gcmVjZW50bHk7IHdhaXQgYmVmb3JlIHJldHJ5aW5nIikKICAgICAgICB9CiAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QgPT4gKHN0YXR1cywgIlRhcmdldCBjb25maWd1cmF0aW9uIGlzIGludmFsaWQiKSwKICAgICAgICBTdGF0dXNDb2RlOjpDT05GTElDVCA9PiAoc3RhdHVzLCAiVGFyZ2V0IGlzIHVuYXZhaWxhYmxlIiksCiAgICAgICAgXyA9PiAoU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLCAiRmFpbGVkIHRvIHdha2UgVGFyZ2V0IiksCiAgICB9Cn0KCmZuIHBvcnRhbF9zaHV0ZG93bl9wdWJsaWNfZXJyb3Ioc3RhdHVzOiBTdGF0dXNDb2RlKSAtPiAoU3RhdHVzQ29kZSwgJidzdGF0aWMgc3RyKSB7CiAgICBtYXRjaCBzdGF0dXMgewogICAgICAgIFN0YXR1c0NvZGU6Ok5PVF9GT1VORCA9PiAoc3RhdHVzLCAiVGFyZ2V0IHdhcyBub3QgZm91bmQiKSwKICAgICAgICBTdGF0dXNDb2RlOjpUT09fTUFOWV9SRVFVRVNUUyA9PiAoCiAgICAgICAgICAgIHN0YXR1cywKICAgICAgICAgICAgIlRhcmdldCBzaHV0ZG93biB3YXMgcmVxdWVzdGVkIHJlY2VudGx5OyB3YWl0IGJlZm9yZSByZXRyeWluZyIsCiAgICAgICAgKSwKICAgICAgICBTdGF0dXNDb2RlOjpHQVRFV0FZX1RJTUVPVVQgPT4gKHN0YXR1cywgIlNodXRkb3duIHJlc3VsdCBpcyB1bmtub3duIiksCiAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QgfCBTdGF0dXNDb2RlOjpDT05GTElDVCA9PiB7CiAgICAgICAgICAgIChTdGF0dXNDb2RlOjpDT05GTElDVCwgIlRhcmdldCBpcyB1bmF2YWlsYWJsZSIpCiAgICAgICAgfQogICAgICAgIF8gPT4gKFN0YXR1c0NvZGU6OkJBRF9HQVRFV0FZLCAiRmFpbGVkIHRvIHNodXQgZG93biBUYXJnZXQiKSwKICAgIH0KfQoKYXN5bmMgZm4gYXV0aG9yaXplKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGhlYWRlcnM6ICZIZWFkZXJNYXAsCiAgICBpbnRlcm5hbF9yZXF1ZXN0X3ZlcmlmaWVkOiBib29sLAopIC0+IFJlc3VsdDwoKSwgUmVzcG9uc2U+IHsKICAgIGxldCBjb25maWcgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmNvbmZpZ19zbmFwc2hvdCgpOwogICAgbGV0IGF2YWlsYWJsZSA9IGNyYXRlOjp3b2w6OmZlYXR1cmVfZW5hYmxlZChjb25maWcuYXNfcmVmKCkpCiAgICAgICAgJiYgY29uZmlnCiAgICAgICAgICAgIC5nZXQoImdhdGV3YXlfcG9ydGFsIikKICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuZ2V0KCJzaG93X3dvbCIpKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgICAgIC51bndyYXBfb3IodHJ1ZSk7CiAgICBpZiAhYXZhaWxhYmxlIHsKICAgICAgICByZXR1cm4gRXJyKG5vX3N0b3JlKHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgU3RhdHVzQ29kZTo6Rk9SQklEREVOLAogICAgICAgICAgICAiV2FrZS1vbi1MQU4gcG9ydGFsIGlzIGRpc2FibGVkIiwKICAgICAgICApKSk7CiAgICB9CgogICAgbGV0IGlkZW50aXR5ID0gaW5zcGVjdF9hdXRoX21vYmlsaXR5X3JlcXVlc3QoaGVhZGVycyk7CiAgICBsZXQgbXV0IGhhc192YWxpZF9zZXNzaW9uID0gZmFsc2U7CiAgICBpZiBsZXQgU29tZShzZXNzaW9uX2lkKSA9IGlkZW50aXR5LnNlc3Npb25faWQuYXNfZGVyZWYoKSB7CiAgICAgICAgbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfc2Vzc2lvbihzZXNzaW9uX2lkKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKFNvbWUoc2Vzc2lvbikpIGlmICFsb2dpbl9zZXNzaW9uX2hhc19leHBpcmVkKCZzZXNzaW9uKSA9PiB7CiAgICAgICAgICAgICAgICBtYXRjaCBzZXNzaW9uX2Nhbl91c2Vfd29sKHN0YXRlLCAmc2Vzc2lvbikuYXdhaXQgewogICAgICAgICAgICAgICAgICAgIE9rKFNvbWUodHJ1ZSkpID0+IHJldHVybiBPaygoKSksCiAgICAgICAgICAgICAgICAgICAgT2soU29tZShmYWxzZSkpID0+IGhhc192YWxpZF9zZXNzaW9uID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICBPayhOb25lKSA9PiB7fQogICAgICAgICAgICAgICAgICAgIEVycihyZXNwb25zZSkgPT4gcmV0dXJuIEVycihyZXNwb25zZSksCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgT2soU29tZShzZXNzaW9uKSkgPT4gewogICAgICAgICAgICAgICAgcmV2b2tlX2V4cGlyZWRfcHJlc2VudGVkX3Nlc3Npb24oc3RhdGUsIHNlc3Npb25faWQsICZzZXNzaW9uLCBjb25maWcuYXNfcmVmKCkpCiAgICAgICAgICAgICAgICAgICAgLmF3YWl0OwogICAgICAgICAgICB9CiAgICAgICAgICAgIE9rKE5vbmUpID0+IHt9CiAgICAgICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgbG9naW4gc2Vzc2lvbiBmb3IgV29MIHBvcnRhbCBBUEkiKTsKICAgICAgICAgICAgICAgIHJldHVybiBFcnIobm9fc3RvcmUocmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgICAgICAiRmFpbGVkIHRvIHZhbGlkYXRlIHRoZSBsb2dpbiBzZXNzaW9uIiwKICAgICAgICAgICAgICAgICkpKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBpZiBpbnRlcm5hbF9yZXF1ZXN0X3ZlcmlmaWVkIHsKICAgICAgICBsZXQgY2xpZW50X2lwID0gY2xpZW50X2lwX2Zvcl9hdXRoKGhlYWRlcnMpOwogICAgICAgIGxldCBzZXNzaW9ucyA9IG1hdGNoIGxpc3RfYXV0aF9tb2JpbGl0eV9vd25lcl9zZXNzaW9uc19ieV9pcChzdGF0ZSwgJmNsaWVudF9pcCkuYXdhaXQgewogICAgICAgICAgICBPayhzZXNzaW9ucykgPT4gc2Vzc2lvbnMsCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIHJlc29sdmUgV29MIHBvcnRhbCBzZXNzaW9uIGJ5IGNsaWVudCBJUCIpOwogICAgICAgICAgICAgICAgcmV0dXJuIEVycihub19zdG9yZShyZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgICAgICJGYWlsZWQgdG8gdmFsaWRhdGUgdGhlIGxvZ2luIHNlc3Npb24iLAogICAgICAgICAgICAgICAgKSkpOwogICAgICAgICAgICB9CiAgICAgICAgfTsKICAgICAgICBmb3IgKF8sIHNlc3Npb24pIGluIHNlc3Npb25zIHsKICAgICAgICAgICAgaWYgIWF1dGhfbW9iaWxpdHlfc2Vzc2lvbl9oYXNfcmVtYWluaW5nX3R0bCgmc2Vzc2lvbikgewogICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgbWF0Y2ggc2Vzc2lvbl9jYW5fdXNlX3dvbChzdGF0ZSwgJnNlc3Npb24pLmF3YWl0IHsKICAgICAgICAgICAgICAgIE9rKFNvbWUodHJ1ZSkpID0+IHJldHVybiBPaygoKSksCiAgICAgICAgICAgICAgICBPayhTb21lKGZhbHNlKSkgPT4gaGFzX3ZhbGlkX3Nlc3Npb24gPSB0cnVlLAogICAgICAgICAgICAgICAgT2soTm9uZSkgPT4ge30KICAgICAgICAgICAgICAgIEVycihyZXNwb25zZSkgPT4gcmV0dXJuIEVycihyZXNwb25zZSksCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgaWYgaGFzX3ZhbGlkX3Nlc3Npb24gewogICAgICAgIHJldHVybiBFcnIobm9fc3RvcmUocmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpGT1JCSURERU4sCiAgICAgICAgICAgICJObyBhY3RpdmUgc2Vzc2lvbiBmb3IgdGhpcyBJUCBjYW4gdXNlIFdha2Utb24tTEFOIiwKICAgICAgICApKSk7CiAgICB9CgogICAgRXJyKG5vX3N0b3JlKHJlc3BvbnNlOjplcnJvcigKICAgICAgICBTdGF0dXNDb2RlOjpVTkFVVEhPUklaRUQsCiAgICAgICAgIkEgdmFsaWQgbG9naW4gc2Vzc2lvbiBvciBhbiBhdXRob3JpemVkIGFjdGl2ZSBzZXNzaW9uIGZvciB0aGlzIElQIGlzIHJlcXVpcmVkIiwKICAgICkpKQp9Cgphc3luYyBmbiBzZXNzaW9uX2Nhbl91c2Vfd29sKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHNlc3Npb246ICZMb2dpblNlc3Npb24sCikgLT4gUmVzdWx0PE9wdGlvbjxib29sPiwgUmVzcG9uc2U+IHsKICAgIGxldCBjcmVkZW50aWFsID0gbWF0Y2ggc2Vzc2lvbl9hdXRoX2NyZWRlbnRpYWwoc3RhdGUsIHNlc3Npb24pLmF3YWl0IHsKICAgICAgICBPayhTb21lKGNyZWRlbnRpYWwpKSA9PiBjcmVkZW50aWFsLAogICAgICAgIE9rKE5vbmUpID0+IHJldHVybiBPayhOb25lKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgbG9naW4gYWNjb3VudCBmb3IgV29MIHBvcnRhbCBBUEkiKTsKICAgICAgICAgICAgcmV0dXJuIEVycihub19zdG9yZShyZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICAiRmFpbGVkIHRvIHZhbGlkYXRlIHRoZSBsb2dpbiBhY2NvdW50IiwKICAgICAgICAgICAgKSkpOwogICAgICAgIH0KICAgIH07CiAgICBPayhTb21lKGlzX2hvc3RfYWxsb3dlZF9ieV90b3RwX3N1YmRvbWFpbl9hY2Nlc3MoCiAgICAgICAgJmNyZWRlbnRpYWwuc3ViZG9tYWluX2FjY2VzcywKICAgICAgICBUT1RQX1NVQkRPTUFJTl9BQ0NFU1NfV09MX1BBR0UsCiAgICApKSkKfQoKZm4gbm9fc3RvcmUobXV0IHJlc3BvbnNlOiBSZXNwb25zZSkgLT4gUmVzcG9uc2UgewogICAgYXBwbHlfbm9fc3RvcmVfaGVhZGVycyhyZXNwb25zZS5oZWFkZXJzX211dCgpKTsKICAgIHJlc3BvbnNlCn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjp7cG9ydGFsX3NodXRkb3duX3B1YmxpY19lcnJvciwgcG9ydGFsX3dha2VfcHVibGljX2Vycm9yfTsKICAgIHVzZSBheHVtOjpodHRwOjpTdGF0dXNDb2RlOwoKICAgICNbdGVzdF0KICAgIGZuIHBvcnRhbF93YWtlX2Vycm9yc19kb19ub3RfZXhwb3NlX3JlbGF5X2RldGFpbHMoKSB7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgcG9ydGFsX3dha2VfcHVibGljX2Vycm9yKFN0YXR1c0NvZGU6OkJBRF9HQVRFV0FZKSwKICAgICAgICAgICAgKFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwgIkZhaWxlZCB0byB3YWtlIFRhcmdldCIpCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBwb3J0YWxfd2FrZV9wdWJsaWNfZXJyb3IoU3RhdHVzQ29kZTo6R0FURVdBWV9USU1FT1VUKSwKICAgICAgICAgICAgKFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwgIkZhaWxlZCB0byB3YWtlIFRhcmdldCIpCiAgICAgICAgKTsKICAgICAgICBhc3NlcnQhKAogICAgICAgICAgICAhcG9ydGFsX3dha2VfcHVibGljX2Vycm9yKFN0YXR1c0NvZGU6OkNPTkZMSUNUKQogICAgICAgICAgICAgICAgLjEKICAgICAgICAgICAgICAgIC5jb250YWlucygiUmVsYXkiKQogICAgICAgICk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gcG9ydGFsX3NodXRkb3duX2Vycm9yc19kb19ub3RfZXhwb3NlX3NzaF9kZXRhaWxzKCkgewogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHBvcnRhbF9zaHV0ZG93bl9wdWJsaWNfZXJyb3IoU3RhdHVzQ29kZTo6R0FURVdBWV9USU1FT1VUKSwKICAgICAgICAgICAgKFN0YXR1c0NvZGU6OkdBVEVXQVlfVElNRU9VVCwgIlNodXRkb3duIHJlc3VsdCBpcyB1bmtub3duIikKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHBvcnRhbF9zaHV0ZG93bl9wdWJsaWNfZXJyb3IoU3RhdHVzQ29kZTo6VU5BVVRIT1JJWkVEKSwKICAgICAgICAgICAgKFN0YXR1c0NvZGU6OkJBRF9HQVRFV0FZLCAiRmFpbGVkIHRvIHNodXQgZG93biBUYXJnZXQiKQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgIXBvcnRhbF9zaHV0ZG93bl9wdWJsaWNfZXJyb3IoU3RhdHVzQ29kZTo6Q09ORkxJQ1QpCiAgICAgICAgICAgICAgICAuMQogICAgICAgICAgICAgICAgLmNvbnRhaW5zKCJTU0giKQogICAgICAgICk7CiAgICB9Cn0K
+use super::*;
+
+pub(super) async fn targets(
+    State(state): State<AppState>,
+    verified: Option<Extension<crate::auth::hmac::VerifiedInternalRequest>>,
+    headers: HeaderMap,
+) -> Response {
+    if let Err(response) = authorize(&state, &headers, verified.is_some()).await {
+        return response;
+    }
+    match crate::wol::service::list_auth_targets(&state).await {
+        Ok(items) => no_store(
+            response::ok(json!({
+                "total": items.len(),
+                "items": items,
+            }))
+            .into_response(),
+        ),
+        Err(error) => no_store(response::error(error.status, error.message)),
+    }
+}
+
+pub(super) async fn wake(
+    State(state): State<AppState>,
+    verified: Option<Extension<crate::auth::hmac::VerifiedInternalRequest>>,
+    headers: HeaderMap,
+    Path(id): Path<String>,
+) -> Response {
+    if let Err(response) = authorize(&state, &headers, verified.is_some()).await {
+        return response;
+    }
+    match crate::wol::service::wake_target(&state, &id, crate::wol::service::WakeSource::Portal)
+        .await
+    {
+        Ok(value) => no_store(
+            response::ok(json!({
+                "targetId": id,
+                "status": value.get("status").and_then(Value::as_str).unwrap_or("broadcasted"),
+            }))
+            .into_response(),
+        ),
+        Err(error) => {
+            tracing::warn!(target_id = %id, status = %error.status, detail = %error.message, "WoL portal wake failed");
+            let (status, message) = portal_wake_public_error(error.status);
+            no_store(response::error(status, message))
+        }
+    }
+}
+
+pub(super) async fn shutdown(
+    State(state): State<AppState>,
+    verified: Option<Extension<crate::auth::hmac::VerifiedInternalRequest>>,
+    headers: HeaderMap,
+    Path(id): Path<String>,
+) -> Response {
+    if let Err(response) = authorize(&state, &headers, verified.is_some()).await {
+        return response;
+    }
+    match crate::wol::shutdown_target_for_portal(&state, &id).await {
+        Ok(value) => no_store(
+            response::ok(json!({
+                "targetId": id,
+                "status": value.get("status").and_then(Value::as_str).unwrap_or("accepted"),
+            }))
+            .into_response(),
+        ),
+        Err(error) => {
+            tracing::warn!(target_id = %id, status = %error.status, "WoL portal shutdown failed");
+            let (status, message) = portal_shutdown_public_error(error.status);
+            no_store(response::error(status, message))
+        }
+    }
+}
+
+fn portal_wake_public_error(status: StatusCode) -> (StatusCode, &'static str) {
+    match status {
+        StatusCode::NOT_FOUND => (status, "Target was not found"),
+        StatusCode::TOO_MANY_REQUESTS => {
+            (status, "Target was woken recently; wait before retrying")
+        }
+        StatusCode::BAD_REQUEST => (status, "Target configuration is invalid"),
+        StatusCode::CONFLICT => (status, "Target is unavailable"),
+        _ => (StatusCode::INTERNAL_SERVER_ERROR, "Failed to wake Target"),
+    }
+}
+
+fn portal_shutdown_public_error(status: StatusCode) -> (StatusCode, &'static str) {
+    match status {
+        StatusCode::NOT_FOUND => (status, "Target was not found"),
+        StatusCode::TOO_MANY_REQUESTS => (
+            status,
+            "Target shutdown was requested recently; wait before retrying",
+        ),
+        StatusCode::GATEWAY_TIMEOUT => (status, "Shutdown result is unknown"),
+        StatusCode::BAD_REQUEST | StatusCode::CONFLICT => {
+            (StatusCode::CONFLICT, "Target is unavailable")
+        }
+        _ => (StatusCode::BAD_GATEWAY, "Failed to shut down Target"),
+    }
+}
+
+async fn authorize(
+    state: &AppState,
+    headers: &HeaderMap,
+    internal_request_verified: bool,
+) -> Result<(), Response> {
+    let config = state.storage.store.config_snapshot();
+    let available = crate::wol::feature_enabled(config.as_ref())
+        && config
+            .get("gateway_portal")
+            .and_then(|value| value.get("show_wol"))
+            .and_then(Value::as_bool)
+            .unwrap_or(true);
+    if !available {
+        return Err(no_store(response::error(
+            StatusCode::FORBIDDEN,
+            "Wake-on-LAN portal is disabled",
+        )));
+    }
+
+    let identity = inspect_auth_mobility_request(headers);
+    let mut has_valid_session = false;
+    if let Some(session_id) = identity.session_id.as_deref() {
+        match state.storage.store.get_session(session_id).await {
+            Ok(Some(session)) if !login_session_has_expired(&session) => {
+                match session_can_use_wol(state, &session).await {
+                    Ok(Some(true)) => return Ok(()),
+                    Ok(Some(false)) => has_valid_session = true,
+                    Ok(None) => {}
+                    Err(response) => return Err(response),
+                }
+            }
+            Ok(Some(session)) => {
+                revoke_expired_presented_session(state, session_id, &session, config.as_ref())
+                    .await;
+            }
+            Ok(None) => {}
+            Err(error) => {
+                tracing::warn!(%error, "failed to load login session for WoL portal API");
+                return Err(no_store(response::error(
+                    StatusCode::INTERNAL_SERVER_ERROR,
+                    "Failed to validate the login session",
+                )));
+            }
+        }
+    }
+
+    if internal_request_verified {
+        let client_ip = client_ip_for_auth(headers);
+        let sessions = match list_auth_mobility_owner_sessions_by_ip(state, &client_ip).await {
+            Ok(sessions) => sessions,
+            Err(error) => {
+                tracing::warn!(%error, "failed to resolve WoL portal session by client IP");
+                return Err(no_store(response::error(
+                    StatusCode::INTERNAL_SERVER_ERROR,
+                    "Failed to validate the login session",
+                )));
+            }
+        };
+        for (_, session) in sessions {
+            if !auth_mobility_session_has_remaining_ttl(&session) {
+                continue;
+            }
+            match session_can_use_wol(state, &session).await {
+                Ok(Some(true)) => return Ok(()),
+                Ok(Some(false)) => has_valid_session = true,
+                Ok(None) => {}
+                Err(response) => return Err(response),
+            }
+        }
+    }
+
+    if has_valid_session {
+        return Err(no_store(response::error(
+            StatusCode::FORBIDDEN,
+            "No active session for this IP can use Wake-on-LAN",
+        )));
+    }
+
+    Err(no_store(response::error(
+        StatusCode::UNAUTHORIZED,
+        "A valid login session or an authorized active session for this IP is required",
+    )))
+}
+
+async fn session_can_use_wol(
+    state: &AppState,
+    session: &LoginSession,
+) -> Result<Option<bool>, Response> {
+    let credential = match session_auth_credential(state, session).await {
+        Ok(Some(credential)) => credential,
+        Ok(None) => return Ok(None),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load login account for WoL portal API");
+            return Err(no_store(response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                "Failed to validate the login account",
+            )));
+        }
+    };
+    Ok(Some(is_host_allowed_by_totp_subdomain_access(
+        &credential.subdomain_access,
+        TOTP_SUBDOMAIN_ACCESS_WOL_PAGE,
+    )))
+}
+
+fn no_store(mut response: Response) -> Response {
+    apply_no_store_headers(response.headers_mut());
+    response
+}
+
+#[cfg(test)]
+mod tests {
+    use super::{portal_shutdown_public_error, portal_wake_public_error};
+    use axum::http::StatusCode;
+
+    #[test]
+    fn portal_wake_errors_do_not_expose_relay_details() {
+        assert_eq!(
+            portal_wake_public_error(StatusCode::BAD_GATEWAY),
+            (StatusCode::INTERNAL_SERVER_ERROR, "Failed to wake Target")
+        );
+        assert_eq!(
+            portal_wake_public_error(StatusCode::GATEWAY_TIMEOUT),
+            (StatusCode::INTERNAL_SERVER_ERROR, "Failed to wake Target")
+        );
+        assert!(
+            !portal_wake_public_error(StatusCode::CONFLICT)
+                .1
+                .contains("Relay")
+        );
+    }
+
+    #[test]
+    fn portal_shutdown_errors_do_not_expose_ssh_details() {
+        assert_eq!(
+            portal_shutdown_public_error(StatusCode::GATEWAY_TIMEOUT),
+            (StatusCode::GATEWAY_TIMEOUT, "Shutdown result is unknown")
+        );
+        assert_eq!(
+            portal_shutdown_public_error(StatusCode::UNAUTHORIZED),
+            (StatusCode::BAD_GATEWAY, "Failed to shut down Target")
+        );
+        assert!(
+            !portal_shutdown_public_error(StatusCode::CONFLICT)
+                .1
+                .contains("SSH")
+        );
+    }
+}

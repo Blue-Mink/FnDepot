@@ -1,1 +1,302 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgcmVmLCB0eXBlIFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdXNlRGVsYXllZExvYWRpbmcgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZURlbGF5ZWRMb2FkaW5nIjsKaW1wb3J0IHsgZG93bmxvYWRCbG9iIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9kb3dubG9hZEJsb2IiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyBDb25maWdBUEkgfSBmcm9tICJAL2xpYi9hcGkvY29uZmlnIjsKCnR5cGUgVHJhbnNsYXRlID0gKAogIGtleTogc3RyaW5nLAogIHBhcmFtcz86IFJlY29yZDxzdHJpbmcsIHN0cmluZyB8IG51bWJlcj4sCikgPT4gc3RyaW5nOwoKZXhwb3J0IGNvbnN0IHVzZVNlbGZTaWduZWRDQSA9ICh7CiAgbG9jYWxlLAogIHRyYW5zbGF0ZSwKfTogewogIGxvY2FsZTogUmVmPHN0cmluZz47CiAgdHJhbnNsYXRlOiBUcmFuc2xhdGU7Cn0pID0+IHsKICBjb25zdCBuZXdIb3N0ID0gcmVmKCIiKTsKICBjb25zdCBob3N0cyA9IHJlZjxzdHJpbmdbXT4oW10pOwogIGNvbnN0IHBhcnNlSG9zdHMgPSAodmFsdWU6IHN0cmluZykgPT4KICAgIHZhbHVlCiAgICAgIC5zcGxpdCgvW++8jCxdL2d1KQogICAgICAubWFwKChpdGVtKSA9PiBpdGVtLnRyaW0oKSkKICAgICAgLmZpbHRlcihCb29sZWFuKTsKICBjb25zdCBwZW5kaW5nSG9zdHMgPSBjb21wdXRlZCgoKSA9PiBbLi4ubmV3IFNldChwYXJzZUhvc3RzKG5ld0hvc3QudmFsdWUpKV0pOwoKICBjb25zdCBoYXNSb290Q0EgPSByZWYoZmFsc2UpOwogIGNvbnN0IGNhSW5mbyA9IHJlZjx7CiAgICBzdWJqZWN0OiBzdHJpbmc7CiAgICBpc3N1ZXI6IHN0cmluZzsKICAgIHZhbGlkRnJvbTogc3RyaW5nOwogICAgdmFsaWRUbzogc3RyaW5nOwogICAgc2VyaWFsTnVtYmVyOiBzdHJpbmc7CiAgfSB8IG51bGw+KG51bGwpOwogIGNvbnN0IGlzSW5pdGlhbGl6aW5nID0gcmVmKHRydWUpOwogIGNvbnN0IHNob3dJbml0aWFsaXppbmdTa2VsZXRvbiA9IHVzZURlbGF5ZWRMb2FkaW5nKGlzSW5pdGlhbGl6aW5nKTsKICBjb25zdCByZW1vdmluZ0hvc3QgPSByZWY8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3Qgc2hvd0ZpcnN0Q29uZmlybSA9IHJlZihmYWxzZSk7CiAgY29uc3Qgc2hvd1NlY29uZENvbmZpcm0gPSByZWYoZmFsc2UpOwogIGNvbnN0IHNob3dSZWdlbkZpcnN0Q29uZmlybSA9IHJlZihmYWxzZSk7CiAgY29uc3Qgc2hvd1JlZ2VuU2Vjb25kQ29uZmlybSA9IHJlZihmYWxzZSk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzQnVzeSwgcnVuOiBydW5CdXN5QWN0aW9uIH0gPSB1c2VBc3luY0FjdGlvbigpOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1JlbW92aW5nLCBydW46IHJ1blJlbW92ZUhvc3RBY3Rpb24gfSA9IHVzZUFzeW5jQWN0aW9uKCk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzQ2xlYXJpbmcsIHJ1bjogcnVuQ2xlYXJSb290Q0EgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0cmFuc2xhdGUoImFkbWluLnNlbGZTaWduZWRDQS5jbGVhckZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uc2VsZlNpZ25lZENBLnVua25vd25FcnJvciIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSwKICB9KTsKICBjb25zdCB7IGlzUGVuZGluZzogaXNSZWdlbmVyYXRpbmcsIHJ1bjogcnVuUmVnZW5lcmF0ZVJvb3RDQSB9ID0KICAgIHVzZUFzeW5jQWN0aW9uKHsKICAgICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgICAgdG9hc3QuZXJyb3IodHJhbnNsYXRlKCJhZG1pbi5zZWxmU2lnbmVkQ0EucmVnZW5lcmF0ZUZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgICAgZXJyb3IsCiAgICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uc2VsZlNpZ25lZENBLnVua25vd25FcnJvciIpLAogICAgICAgICAgKSwKICAgICAgICB9KTsKICAgICAgfSwKICAgIH0pOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc0Rvd25sb2FkaW5nLCBydW46IHJ1bkRvd25sb2FkRmlsZSB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKAogICAgICAgIGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uc2VsZlNpZ25lZENBLmRvd25sb2FkRmFpbGVkIiksCiAgICAgICAgKSwKICAgICAgKTsKICAgIH0sCiAgfSk7CiAgY29uc3QgeyBydW46IHJ1blJlZnJlc2hDQVN0YXR1cyB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKCkgPT4gewogICAgICBoYXNSb290Q0EudmFsdWUgPSBmYWxzZTsKICAgICAgY2FJbmZvLnZhbHVlID0gbnVsbDsKICAgICAgaG9zdHMudmFsdWUgPSBbXTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IGlzSVAgPSAodmFsdWU6IHN0cmluZykgPT4gewogICAgY29uc3Qgbm9ybWFsaXplZCA9IHZhbHVlLnRyaW0oKTsKICAgIGNvbnN0IHdpdGhvdXRQb3J0ID0gbm9ybWFsaXplZC5pbmNsdWRlcygiOiIpCiAgICAgID8gbm9ybWFsaXplZC5zcGxpdCgiOiIpWzBdIHx8IG5vcm1hbGl6ZWQKICAgICAgOiBub3JtYWxpemVkOwogICAgcmV0dXJuIC9eKD86KD86MjVbMC01XXwyWzAtNF1cZHxbMDFdP1xkP1xkKSg/OlwufCQpKXs0fSQvdS50ZXN0KAogICAgICB3aXRob3V0UG9ydCwKICAgICk7CiAgfTsKCiAgY29uc3QgcmVmcmVzaENBU3RhdHVzID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuUmVmcmVzaENBU3RhdHVzKAogICAgICBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgeyBpbml0aWFsaXplZCwgaW5mbyB9ID0gYXdhaXQgQ29uZmlnQVBJLmdldENBU3RhdHVzKCk7CiAgICAgICAgaGFzUm9vdENBLnZhbHVlID0gaW5pdGlhbGl6ZWQ7CiAgICAgICAgY2FJbmZvLnZhbHVlID0gaW5mbyB8fCBudWxsOwogICAgICAgIGhvc3RzLnZhbHVlID0gYXdhaXQgQ29uZmlnQVBJLmdldENBSG9zdHMoKTsKICAgICAgfSwKICAgICAgewogICAgICAgIG9uRmluYWxseTogKCkgPT4gewogICAgICAgICAgaXNJbml0aWFsaXppbmcudmFsdWUgPSBmYWxzZTsKICAgICAgICB9LAogICAgICB9LAogICAgKTsKICB9OwoKICBjb25zdCBhZGRIb3N0ID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgZW50cmllcyA9IHBlbmRpbmdIb3N0cy52YWx1ZTsKICAgIGlmICghZW50cmllcy5sZW5ndGgpIHJldHVybjsKICAgIGF3YWl0IHJ1bkJ1c3lBY3Rpb24oCiAgICAgIGFzeW5jICgpID0+IHsKICAgICAgICBmb3IgKGNvbnN0IGVudHJ5IG9mIGVudHJpZXMpIHsKICAgICAgICAgIGhvc3RzLnZhbHVlID0gYXdhaXQgQ29uZmlnQVBJLmFkZENBSG9zdChlbnRyeSk7CiAgICAgICAgfQogICAgICB9LAogICAgICB7CiAgICAgICAgb25TdWNjZXNzOiAoKSA9PiB7CiAgICAgICAgICBuZXdIb3N0LnZhbHVlID0gIiI7CiAgICAgICAgICB0b2FzdC5zdWNjZXNzKAogICAgICAgICAgICBlbnRyaWVzLmxlbmd0aCA+IDEKICAgICAgICAgICAgICA/IHRyYW5zbGF0ZSgiYWRtaW4uc2VsZlNpZ25lZENBLmhvc3RzQWRkZWQiLCB7CiAgICAgICAgICAgICAgICAgIGNvdW50OiBlbnRyaWVzLmxlbmd0aCwKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgOiB0cmFuc2xhdGUoImFkbWluLnNlbGZTaWduZWRDQS5ob3N0QWRkZWQiKSwKICAgICAgICAgICk7CiAgICAgICAgfSwKICAgICAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uc2VsZlNpZ25lZENBLmFkZEZhaWxlZCIpLCB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgICAgIGVycm9yLAogICAgICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uc2VsZlNpZ25lZENBLnVua25vd25FcnJvciIpLAogICAgICAgICAgICApLAogICAgICAgICAgfSk7CiAgICAgICAgfSwKICAgICAgfSwKICAgICk7CiAgfTsKCiAgY29uc3QgY29uZmlybVJlbW92ZUhvc3QgPSBhc3luYyAodmFsdWU6IHN0cmluZykgPT4gewogICAgcmVtb3ZpbmdIb3N0LnZhbHVlID0gdmFsdWU7CiAgICBhd2FpdCBydW5SZW1vdmVIb3N0QWN0aW9uKCgpID0+IENvbmZpZ0FQSS5yZW1vdmVDQUhvc3QodmFsdWUpLCB7CiAgICAgIG9uU3VjY2VzczogKG5leHRIb3N0cykgPT4gewogICAgICAgIGhvc3RzLnZhbHVlID0gbmV4dEhvc3RzOwogICAgICAgIHRvYXN0LnN1Y2Nlc3ModHJhbnNsYXRlKCJhZG1pbi5zZWxmU2lnbmVkQ0EuaG9zdFJlbW92ZWQiKSk7CiAgICAgIH0sCiAgICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uc2VsZlNpZ25lZENBLnJlbW92ZUZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgICAgZXJyb3IsCiAgICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uc2VsZlNpZ25lZENBLnVua25vd25FcnJvciIpLAogICAgICAgICAgKSwKICAgICAgICB9KTsKICAgICAgfSwKICAgICAgb25GaW5hbGx5OiAoKSA9PiB7CiAgICAgICAgcmVtb3ZpbmdIb3N0LnZhbHVlID0gbnVsbDsKICAgICAgfSwKICAgIH0pOwogIH07CgogIGNvbnN0IGdlbmVyYXRlUm9vdENBID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuQnVzeUFjdGlvbigoKSA9PiBDb25maWdBUEkuaW5pdENBKCksIHsKICAgICAgb25TdWNjZXNzOiBhc3luYyAoKSA9PiB7CiAgICAgICAgYXdhaXQgcmVmcmVzaENBU3RhdHVzKCk7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0cmFuc2xhdGUoImFkbWluLnNlbGZTaWduZWRDQS5yb290R2VuZXJhdGVkIikpOwogICAgICB9LAogICAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgICB0b2FzdC5lcnJvcih0cmFuc2xhdGUoImFkbWluLnNlbGZTaWduZWRDQS5nZW5lcmF0ZUZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgICAgZXJyb3IsCiAgICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uc2VsZlNpZ25lZENBLnVua25vd25FcnJvciIpLAogICAgICAgICAgKSwKICAgICAgICB9KTsKICAgICAgfSwKICAgIH0pOwogIH07CgogIGNvbnN0IGNvbmZpcm1GaW5hbENsZWFyID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuQ2xlYXJSb290Q0EoKCkgPT4gQ29uZmlnQVBJLmNsZWFyQ0EoKSwgewogICAgICBvblN1Y2Nlc3M6ICgpID0+IHsKICAgICAgICBjYUluZm8udmFsdWUgPSBudWxsOwogICAgICAgIGhhc1Jvb3RDQS52YWx1ZSA9IGZhbHNlOwogICAgICAgIHRvYXN0LnN1Y2Nlc3ModHJhbnNsYXRlKCJhZG1pbi5zZWxmU2lnbmVkQ0Eucm9vdENsZWFyZWQiKSk7CiAgICAgICAgc2hvd1NlY29uZENvbmZpcm0udmFsdWUgPSBmYWxzZTsKICAgICAgfSwKICAgIH0pOwogIH07CgogIGNvbnN0IGNvbmZpcm1GaW5hbFJlZ2VuID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuUmVnZW5lcmF0ZVJvb3RDQSgoKSA9PiBDb25maWdBUEkuaW5pdENBKCksIHsKICAgICAgb25TdWNjZXNzOiBhc3luYyAoKSA9PiB7CiAgICAgICAgYXdhaXQgcmVmcmVzaENBU3RhdHVzKCk7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0cmFuc2xhdGUoImFkbWluLnNlbGZTaWduZWRDQS5yb290UmVnZW5lcmF0ZWQiKSk7CiAgICAgICAgc2hvd1JlZ2VuU2Vjb25kQ29uZmlybS52YWx1ZSA9IGZhbHNlOwogICAgICB9LAogICAgfSk7CiAgfTsKCiAgY29uc3QgaXNzdWVBbmRJbnN0YWxsID0gYXN5bmMgKCkgPT4gewogICAgaWYgKCFoYXNSb290Q0EudmFsdWUgfHwgIWhvc3RzLnZhbHVlLmxlbmd0aCkgcmV0dXJuOwogICAgYXdhaXQgcnVuQnVzeUFjdGlvbigoKSA9PiBDb25maWdBUEkuaXNzdWVBbmRJbnN0YWxsKCksIHsKICAgICAgb25TdWNjZXNzOiAoeyBzdWNjZXNzLCBtZXNzYWdlIH0pID0+IHsKICAgICAgICBpZiAoc3VjY2VzcykgewogICAgICAgICAgdG9hc3Quc3VjY2VzcygKICAgICAgICAgICAgdHJhbnNsYXRlKCJhZG1pbi5zZWxmU2lnbmVkQ0EuY2VydGlmaWNhdGVJc3N1ZWRJbnN0YWxsZWQiKSwKICAgICAgICAgICk7CiAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uc2VsZlNpZ25lZENBLmlzc3VlRmFpbGVkIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiBtZXNzYWdlIHx8IHRyYW5zbGF0ZSgiYWRtaW4uc2VsZlNpZ25lZENBLnVua25vd25FcnJvciIpLAogICAgICAgIH0pOwogICAgICB9LAogICAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgICB0b2FzdC5lcnJvcih0cmFuc2xhdGUoImFkbWluLnNlbGZTaWduZWRDQS5pc3N1ZUZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgICAgZXJyb3IsCiAgICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uc2VsZlNpZ25lZENBLnVua25vd25FcnJvciIpLAogICAgICAgICAgKSwKICAgICAgICB9KTsKICAgICAgfSwKICAgIH0pOwogIH07CgogIGNvbnN0IGZvcm1hdERhdGUgPSAoZGF0ZVN0cmluZzogc3RyaW5nKSA9PiB7CiAgICBjb25zdCBkYXRlID0gbmV3IERhdGUoZGF0ZVN0cmluZyk7CiAgICBpZiAoTnVtYmVyLmlzTmFOKGRhdGUuZ2V0VGltZSgpKSkgcmV0dXJuIGRhdGVTdHJpbmc7CiAgICByZXR1cm4gZGF0ZS50b0xvY2FsZURhdGVTdHJpbmcobG9jYWxlLnZhbHVlLCB7CiAgICAgIHllYXI6ICJudW1lcmljIiwKICAgICAgbW9udGg6ICIyLWRpZ2l0IiwKICAgICAgZGF5OiAiMi1kaWdpdCIsCiAgICAgIGhvdXI6ICIyLWRpZ2l0IiwKICAgICAgbWludXRlOiAiMi1kaWdpdCIsCiAgICB9KTsKICB9OwoKICBjb25zdCBkb3dubG9hZENBID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuRG93bmxvYWRGaWxlKGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgYmxvYiA9IGF3YWl0IENvbmZpZ0FQSS5kb3dubG9hZENBQ2VydCgpOwogICAgICBkb3dubG9hZEJsb2IoYmxvYiwgIktDSS1MTkstUm9vdC1DQS5wZW0iKTsKICAgIH0pOwogIH07CiAgY29uc3QgZG93bmxvYWRTZXJ2ZXIgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBydW5Eb3dubG9hZEZpbGUoYXN5bmMgKCkgPT4gewogICAgICBjb25zdCBibG9iID0gYXdhaXQgQ29uZmlnQVBJLmRvd25sb2FkU2VydmVyQ2VydCgpOwogICAgICBkb3dubG9hZEJsb2IoYmxvYiwgInNlcnZlci1jZXJ0LnppcCIpOwogICAgfSk7CiAgfTsKCiAgb25Nb3VudGVkKCgpID0+IHsKICAgIHZvaWQgcmVmcmVzaENBU3RhdHVzKCk7CiAgfSk7CgogIHJldHVybiB7CiAgICBhZGRIb3N0LAogICAgY2FJbmZvLAogICAgY29uZmlybUZpbmFsQ2xlYXIsCiAgICBjb25maXJtRmluYWxSZWdlbiwKICAgIGNvbmZpcm1GaXJzdDogKCkgPT4gewogICAgICBzaG93Rmlyc3RDb25maXJtLnZhbHVlID0gZmFsc2U7CiAgICAgIHNob3dTZWNvbmRDb25maXJtLnZhbHVlID0gdHJ1ZTsKICAgIH0sCiAgICBjb25maXJtUmVnZW5GaXJzdDogKCkgPT4gewogICAgICBzaG93UmVnZW5GaXJzdENvbmZpcm0udmFsdWUgPSBmYWxzZTsKICAgICAgc2hvd1JlZ2VuU2Vjb25kQ29uZmlybS52YWx1ZSA9IHRydWU7CiAgICB9LAogICAgY29uZmlybVJlbW92ZUhvc3QsCiAgICBkb3dubG9hZENBLAogICAgZG93bmxvYWRTZXJ2ZXIsCiAgICBmb3JtYXREYXRlLAogICAgZ2VuZXJhdGVSb290Q0EsCiAgICBoYXNSb290Q0EsCiAgICBob3N0cywKICAgIGlzQnVzeSwKICAgIGlzQ2xlYXJpbmcsCiAgICBpc0Rvd25sb2FkaW5nLAogICAgaXNJUCwKICAgIGlzSW5pdGlhbGl6aW5nLAogICAgaXNSZWdlbmVyYXRpbmcsCiAgICBpc1JlbW92aW5nLAogICAgaXNzdWVBbmRJbnN0YWxsLAogICAgbmV3SG9zdCwKICAgIG9wZW5GaXJzdENvbmZpcm06ICgpID0+IHsKICAgICAgc2hvd0ZpcnN0Q29uZmlybS52YWx1ZSA9IHRydWU7CiAgICB9LAogICAgb3BlblJlZ2VuRmlyc3RDb25maXJtOiAoKSA9PiB7CiAgICAgIHNob3dSZWdlbkZpcnN0Q29uZmlybS52YWx1ZSA9IHRydWU7CiAgICB9LAogICAgcGVuZGluZ0hvc3RzLAogICAgcmVtb3ZpbmdIb3N0LAogICAgc2hvd0ZpcnN0Q29uZmlybSwKICAgIHNob3dJbml0aWFsaXppbmdTa2VsZXRvbiwKICAgIHNob3dSZWdlbkZpcnN0Q29uZmlybSwKICAgIHNob3dSZWdlblNlY29uZENvbmZpcm0sCiAgICBzaG93U2Vjb25kQ29uZmlybSwKICB9Owp9Owo=
+import { computed, onMounted, ref, type Ref } from "vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import { downloadBlob } from "@admin-shared/utils/downloadBlob";
+import { toast } from "@admin-shared/utils/toast";
+import { ConfigAPI } from "@/lib/api/config";
+
+type Translate = (
+  key: string,
+  params?: Record<string, string | number>,
+) => string;
+
+export const useSelfSignedCA = ({
+  locale,
+  translate,
+}: {
+  locale: Ref<string>;
+  translate: Translate;
+}) => {
+  const newHost = ref("");
+  const hosts = ref<string[]>([]);
+  const parseHosts = (value: string) =>
+    value
+      .split(/[，,]/gu)
+      .map((item) => item.trim())
+      .filter(Boolean);
+  const pendingHosts = computed(() => [...new Set(parseHosts(newHost.value))]);
+
+  const hasRootCA = ref(false);
+  const caInfo = ref<{
+    subject: string;
+    issuer: string;
+    validFrom: string;
+    validTo: string;
+    serialNumber: string;
+  } | null>(null);
+  const isInitializing = ref(true);
+  const showInitializingSkeleton = useDelayedLoading(isInitializing);
+  const removingHost = ref<string | null>(null);
+  const showFirstConfirm = ref(false);
+  const showSecondConfirm = ref(false);
+  const showRegenFirstConfirm = ref(false);
+  const showRegenSecondConfirm = ref(false);
+  const { isPending: isBusy, run: runBusyAction } = useAsyncAction();
+  const { isPending: isRemoving, run: runRemoveHostAction } = useAsyncAction();
+  const { isPending: isClearing, run: runClearRootCA } = useAsyncAction({
+    onError: (error) => {
+      toast.error(translate("admin.selfSignedCA.clearFailed"), {
+        description: extractErrorMessage(
+          error,
+          translate("admin.selfSignedCA.unknownError"),
+        ),
+      });
+    },
+  });
+  const { isPending: isRegenerating, run: runRegenerateRootCA } =
+    useAsyncAction({
+      onError: (error) => {
+        toast.error(translate("admin.selfSignedCA.regenerateFailed"), {
+          description: extractErrorMessage(
+            error,
+            translate("admin.selfSignedCA.unknownError"),
+          ),
+        });
+      },
+    });
+  const { isPending: isDownloading, run: runDownloadFile } = useAsyncAction({
+    onError: (error) => {
+      toast.error(
+        extractErrorMessage(
+          error,
+          translate("admin.selfSignedCA.downloadFailed"),
+        ),
+      );
+    },
+  });
+  const { run: runRefreshCAStatus } = useAsyncAction({
+    onError: () => {
+      hasRootCA.value = false;
+      caInfo.value = null;
+      hosts.value = [];
+    },
+  });
+
+  const isIP = (value: string) => {
+    const normalized = value.trim();
+    const withoutPort = normalized.includes(":")
+      ? normalized.split(":")[0] || normalized
+      : normalized;
+    return /^(?:(?:25[0-5]|2[0-4]\d|[01]?\d?\d)(?:\.|$)){4}$/u.test(
+      withoutPort,
+    );
+  };
+
+  const refreshCAStatus = async () => {
+    await runRefreshCAStatus(
+      async () => {
+        const { initialized, info } = await ConfigAPI.getCAStatus();
+        hasRootCA.value = initialized;
+        caInfo.value = info || null;
+        hosts.value = await ConfigAPI.getCAHosts();
+      },
+      {
+        onFinally: () => {
+          isInitializing.value = false;
+        },
+      },
+    );
+  };
+
+  const addHost = async () => {
+    const entries = pendingHosts.value;
+    if (!entries.length) return;
+    await runBusyAction(
+      async () => {
+        for (const entry of entries) {
+          hosts.value = await ConfigAPI.addCAHost(entry);
+        }
+      },
+      {
+        onSuccess: () => {
+          newHost.value = "";
+          toast.success(
+            entries.length > 1
+              ? translate("admin.selfSignedCA.hostsAdded", {
+                  count: entries.length,
+                })
+              : translate("admin.selfSignedCA.hostAdded"),
+          );
+        },
+        onError: (error) => {
+          toast.error(translate("admin.selfSignedCA.addFailed"), {
+            description: extractErrorMessage(
+              error,
+              translate("admin.selfSignedCA.unknownError"),
+            ),
+          });
+        },
+      },
+    );
+  };
+
+  const confirmRemoveHost = async (value: string) => {
+    removingHost.value = value;
+    await runRemoveHostAction(() => ConfigAPI.removeCAHost(value), {
+      onSuccess: (nextHosts) => {
+        hosts.value = nextHosts;
+        toast.success(translate("admin.selfSignedCA.hostRemoved"));
+      },
+      onError: (error) => {
+        toast.error(translate("admin.selfSignedCA.removeFailed"), {
+          description: extractErrorMessage(
+            error,
+            translate("admin.selfSignedCA.unknownError"),
+          ),
+        });
+      },
+      onFinally: () => {
+        removingHost.value = null;
+      },
+    });
+  };
+
+  const generateRootCA = async () => {
+    await runBusyAction(() => ConfigAPI.initCA(), {
+      onSuccess: async () => {
+        await refreshCAStatus();
+        toast.success(translate("admin.selfSignedCA.rootGenerated"));
+      },
+      onError: (error) => {
+        toast.error(translate("admin.selfSignedCA.generateFailed"), {
+          description: extractErrorMessage(
+            error,
+            translate("admin.selfSignedCA.unknownError"),
+          ),
+        });
+      },
+    });
+  };
+
+  const confirmFinalClear = async () => {
+    await runClearRootCA(() => ConfigAPI.clearCA(), {
+      onSuccess: () => {
+        caInfo.value = null;
+        hasRootCA.value = false;
+        toast.success(translate("admin.selfSignedCA.rootCleared"));
+        showSecondConfirm.value = false;
+      },
+    });
+  };
+
+  const confirmFinalRegen = async () => {
+    await runRegenerateRootCA(() => ConfigAPI.initCA(), {
+      onSuccess: async () => {
+        await refreshCAStatus();
+        toast.success(translate("admin.selfSignedCA.rootRegenerated"));
+        showRegenSecondConfirm.value = false;
+      },
+    });
+  };
+
+  const issueAndInstall = async () => {
+    if (!hasRootCA.value || !hosts.value.length) return;
+    await runBusyAction(() => ConfigAPI.issueAndInstall(), {
+      onSuccess: ({ success, message }) => {
+        if (success) {
+          toast.success(
+            translate("admin.selfSignedCA.certificateIssuedInstalled"),
+          );
+          return;
+        }
+        toast.error(translate("admin.selfSignedCA.issueFailed"), {
+          description: message || translate("admin.selfSignedCA.unknownError"),
+        });
+      },
+      onError: (error) => {
+        toast.error(translate("admin.selfSignedCA.issueFailed"), {
+          description: extractErrorMessage(
+            error,
+            translate("admin.selfSignedCA.unknownError"),
+          ),
+        });
+      },
+    });
+  };
+
+  const formatDate = (dateString: string) => {
+    const date = new Date(dateString);
+    if (Number.isNaN(date.getTime())) return dateString;
+    return date.toLocaleDateString(locale.value, {
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+  };
+
+  const downloadCA = async () => {
+    await runDownloadFile(async () => {
+      const blob = await ConfigAPI.downloadCACert();
+      downloadBlob(blob, "KCI-LNK-Root-CA.pem");
+    });
+  };
+  const downloadServer = async () => {
+    await runDownloadFile(async () => {
+      const blob = await ConfigAPI.downloadServerCert();
+      downloadBlob(blob, "server-cert.zip");
+    });
+  };
+
+  onMounted(() => {
+    void refreshCAStatus();
+  });
+
+  return {
+    addHost,
+    caInfo,
+    confirmFinalClear,
+    confirmFinalRegen,
+    confirmFirst: () => {
+      showFirstConfirm.value = false;
+      showSecondConfirm.value = true;
+    },
+    confirmRegenFirst: () => {
+      showRegenFirstConfirm.value = false;
+      showRegenSecondConfirm.value = true;
+    },
+    confirmRemoveHost,
+    downloadCA,
+    downloadServer,
+    formatDate,
+    generateRootCA,
+    hasRootCA,
+    hosts,
+    isBusy,
+    isClearing,
+    isDownloading,
+    isIP,
+    isInitializing,
+    isRegenerating,
+    isRemoving,
+    issueAndInstall,
+    newHost,
+    openFirstConfirm: () => {
+      showFirstConfirm.value = true;
+    },
+    openRegenFirstConfirm: () => {
+      showRegenFirstConfirm.value = true;
+    },
+    pendingHosts,
+    removingHost,
+    showFirstConfirm,
+    showInitializingSkeleton,
+    showRegenFirstConfirm,
+    showRegenSecondConfirm,
+    showSecondConfirm,
+  };
+};

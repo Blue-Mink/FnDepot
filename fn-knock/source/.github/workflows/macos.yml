@@ -1,1 +1,226 @@
-bmFtZTogbWFjT1MgQ0xJCgpvbjoKICB3b3JrZmxvd19jYWxsOgogICAgb3V0cHV0czoKICAgICAgc291cmNlX3NoYToKICAgICAgICBkZXNjcmlwdGlvbjogRnJvemVuIGZuLWtub2NrIHNvdXJjZSBjb21taXQKICAgICAgICB2YWx1ZTogJHt7IGpvYnMucHJlZmxpZ2h0Lm91dHB1dHMuc291cmNlX3NoYSB9fQogICAgICBnb19zaGE6CiAgICAgICAgZGVzY3JpcHRpb246IEZyb3plbiBHbyBnYXRld2F5IHNvdXJjZSBjb21taXQKICAgICAgICB2YWx1ZTogJHt7IGpvYnMucHJlZmxpZ2h0Lm91dHB1dHMuZ29fc2hhIH19CiAgICAgIHZlcnNpb246CiAgICAgICAgZGVzY3JpcHRpb246IGZuLWtub2NrIHJlbGVhc2UgdmVyc2lvbgogICAgICAgIHZhbHVlOiAke3sgam9icy5wcmVmbGlnaHQub3V0cHV0cy52ZXJzaW9uIH19CiAgcHVzaDoKICAgIHRhZ3M6CiAgICAgIC0gInYqIgogIHdvcmtmbG93X2Rpc3BhdGNoOgoKcGVybWlzc2lvbnM6CiAgY29udGVudHM6IHJlYWQKCmNvbmN1cnJlbmN5OgogIGdyb3VwOiBtYWNvcy1jbGktJHt7IGdpdGh1Yi5yZWYgfX0KICBjYW5jZWwtaW4tcHJvZ3Jlc3M6IHRydWUKCmVudjoKICBDQVJHT19URVJNX0NPTE9SOiBhbHdheXMKICBOT0RFX1ZFUlNJT046ICIyMi4yMi4zIgogIE5QTV9WRVJTSU9OOiAiMTAuOC4yIgogIFBST1RPQ19WRVJTSU9OOiAiMzUuMSIKICBSVVNUX1ZFUlNJT046ICIxLjk2LjAiCiAgTUFDT1NYX0RFUExPWU1FTlRfVEFSR0VUOiAiMTMuMCIKCmpvYnM6CiAgcHJlZmxpZ2h0OgogICAgcnVucy1vbjogdWJ1bnR1LTI0LjA0CiAgICB0aW1lb3V0LW1pbnV0ZXM6IDE1CiAgICBvdXRwdXRzOgogICAgICBzb3VyY2Vfc2hhOiAke3sgc3RlcHMuc291cmNlLm91dHB1dHMuc2hhIH19CiAgICAgIGdvX3NoYTogJHt7IHN0ZXBzLmdhdGV3YXkub3V0cHV0cy5zaGEgfX0KICAgICAgdmVyc2lvbjogJHt7IHN0ZXBzLnZlcnNpb24ub3V0cHV0cy52ZXJzaW9uIH19CgogICAgc3RlcHM6CiAgICAgIC0gbmFtZTogQ2hlY2tvdXQgZm4ta25vY2sKICAgICAgICB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QGRlMGZhYzJlNDUwMGRhYmUwMDA5ZTY3MjE0ZmY1ZjU0NDdjZTgzZGQgIyB2Ni4wLjIKICAgICAgICB3aXRoOgogICAgICAgICAgcGVyc2lzdC1jcmVkZW50aWFsczogZmFsc2UKCiAgICAgIC0gbmFtZTogRnJlZXplIHNvdXJjZSBjb21taXQKICAgICAgICBpZDogc291cmNlCiAgICAgICAgc2hlbGw6IGJhc2gKICAgICAgICBydW46IHByaW50ZiAnc2hhPSVzXG4nICIkKGdpdCByZXYtcGFyc2UgSEVBRCkiID4+ICIke0dJVEhVQl9PVVRQVVR9IgoKICAgICAgLSBuYW1lOiBDaGVja291dCBHbyBnYXRld2F5CiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEBkZTBmYWMyZTQ1MDBkYWJlMDAwOWU2NzIxNGZmNWY1NDQ3Y2U4M2RkICMgdjYuMC4yCiAgICAgICAgd2l0aDoKICAgICAgICAgIHJlcG9zaXRvcnk6IGtjaS1sbmsvR28tUmVhdXRoLVByb3h5CiAgICAgICAgICBwYXRoOiBHby1SZWF1dGgtUHJveHkKICAgICAgICAgIHBlcnNpc3QtY3JlZGVudGlhbHM6IGZhbHNlCgogICAgICAtIG5hbWU6IEZyZWV6ZSBjaGVja2VkLW91dCBHbyBnYXRld2F5IGNvbW1pdAogICAgICAgIGlkOiBnYXRld2F5CiAgICAgICAgc2hlbGw6IGJhc2gKICAgICAgICBydW46IHwKICAgICAgICAgIHNoYT0iJChnaXQgLUMgR28tUmVhdXRoLVByb3h5IHJldi1wYXJzZSBIRUFEKSIKICAgICAgICAgIHByaW50ZiAnJXNcbicgIiR7c2hhfSIgfCBncmVwIC1FcSAnXlswLTlhLWZdezQwfSQnCiAgICAgICAgICBwcmludGYgJ3NoYT0lc1xuJyAiJHtzaGF9IiA+PiAiJHtHSVRIVUJfT1VUUFVUfSIKCiAgICAgIC0gbmFtZTogUmVhZCB2ZXJzaW9uCiAgICAgICAgaWQ6IHZlcnNpb24KICAgICAgICBzaGVsbDogYmFzaAogICAgICAgIHJ1bjogcHJpbnRmICd2ZXJzaW9uPSVzXG4nICIkKGpxIC1yIC52ZXJzaW9uIHZlcnNpb24uanNvbikiID4+ICIke0dJVEhVQl9PVVRQVVR9IgoKICBjb21tb246CiAgICBuZWVkczogcHJlZmxpZ2h0CiAgICBydW5zLW9uOiB1YnVudHUtMjQuMDQKICAgIHRpbWVvdXQtbWludXRlczogNjAKCiAgICBzdGVwczoKICAgICAgLSBuYW1lOiBDaGVja291dCBmbi1rbm9jawogICAgICAgIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAZGUwZmFjMmU0NTAwZGFiZTAwMDllNjcyMTRmZjVmNTQ0N2NlODNkZCAjIHY2LjAuMgogICAgICAgIHdpdGg6CiAgICAgICAgICByZWY6ICR7eyBuZWVkcy5wcmVmbGlnaHQub3V0cHV0cy5zb3VyY2Vfc2hhIH19CiAgICAgICAgICBwZXJzaXN0LWNyZWRlbnRpYWxzOiBmYWxzZQoKICAgICAgLSBuYW1lOiBDaGVja291dCBmcm96ZW4gR28gZ2F0ZXdheQogICAgICAgIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAZGUwZmFjMmU0NTAwZGFiZTAwMDllNjcyMTRmZjVmNTQ0N2NlODNkZCAjIHY2LjAuMgogICAgICAgIHdpdGg6CiAgICAgICAgICByZXBvc2l0b3J5OiBrY2ktbG5rL0dvLVJlYXV0aC1Qcm94eQogICAgICAgICAgcGF0aDogR28tUmVhdXRoLVByb3h5CiAgICAgICAgICByZWY6ICR7eyBuZWVkcy5wcmVmbGlnaHQub3V0cHV0cy5nb19zaGEgfX0KICAgICAgICAgIHBlcnNpc3QtY3JlZGVudGlhbHM6IGZhbHNlCgogICAgICAtIG5hbWU6IFNldCB1cCBOb2RlLmpzCiAgICAgICAgdXNlczogYWN0aW9ucy9zZXR1cC1ub2RlQDI0OTk3MDcyOWNiMGVmMzU4OTY0NGUyODk2NjQ1ZTVkYzViYTljMzggIyB2Ni41LjAKICAgICAgICB3aXRoOgogICAgICAgICAgbm9kZS12ZXJzaW9uOiAke3sgZW52Lk5PREVfVkVSU0lPTiB9fQogICAgICAgICAgY2FjaGU6IG5wbQoKICAgICAgLSBuYW1lOiBTZXQgdXAgR28KICAgICAgICB1c2VzOiBhY3Rpb25zL3NldHVwLWdvQDkyNGFlM2ExY2RlZDYxMzM3MmFiNTU5NTM1NmZiNTcyMGUyMmJhMTYgIyB2NgogICAgICAgIHdpdGg6CiAgICAgICAgICBnby12ZXJzaW9uLWZpbGU6IEdvLVJlYXV0aC1Qcm94eS9nby5tb2QKICAgICAgICAgIGNhY2hlLWRlcGVuZGVuY3ktcGF0aDogR28tUmVhdXRoLVByb3h5L2dvLnN1bQoKICAgICAgLSBuYW1lOiBUZXN0IGdhdGV3YXkgYW5kIGJ1aWxkIHNoYXJlZCBhc3NldHMKICAgICAgICBzaGVsbDogYmFzaAogICAgICAgIHJ1bjogfAogICAgICAgICAgbnBtIGluc3RhbGwgLS1nbG9iYWwgIm5wbUAke05QTV9WRVJTSU9OfSIKICAgICAgICAgIG5wbSBjaQogICAgICAgICAgYmFzaCAuL3NjcmlwdHMvdmVyaWZ5LWdvLWNvbnRyb2wtYXBpLWNvbnRyYWN0LnNoIEdvLVJlYXV0aC1Qcm94eQogICAgICAgICAgKGNkIEdvLVJlYXV0aC1Qcm94eSAmJiBHT0ZMQUdTPS1tb2Q9cmVhZG9ubHkgZ28gdGVzdCAuLy4uLikKICAgICAgICAgIG5weCB0dXJibyBydW4gYnVpbGQgLS1maWx0ZXI9c2VydmVyLWFkbWluLXZpZXcgLS1maWx0ZXI9c2VydmVyLWF1dGgtdmlldwogICAgICAgICAgcnVudGltZT0iZGlzdC9mbi1rbm9jay1hcnRpZmFjdHMvcnVudGltZSIKICAgICAgICAgIG1rZGlyIC1wIFwKICAgICAgICAgICAgIiR7cnVudGltZX0vdWkvd3d3IiBcCiAgICAgICAgICAgICIke3J1bnRpbWV9L3NlcnZlci1hdXRoLXZpZXcvZGlzdCIgXAogICAgICAgICAgICAiJHtydW50aW1lfS9zZXJ2ZXIvc2VydmVyLWFkbWluL3Jlc291cmNlcyIKICAgICAgICAgIHJzeW5jIC1hIGFwcHMvc2VydmVyLWFkbWluLXZpZXcvZGlzdC8gIiR7cnVudGltZX0vdWkvd3d3LyIKICAgICAgICAgIHJzeW5jIC1hIGFwcHMvc2VydmVyLWF1dGgtdmlldy9kaXN0LyAiJHtydW50aW1lfS9zZXJ2ZXItYXV0aC12aWV3L2Rpc3QvIgogICAgICAgICAgY3AgYXBwcy9zZXJ2ZXItYWRtaW4tcnMvcmVzb3VyY2VzL2FjbWVzaC56aXAgXAogICAgICAgICAgICAiJHtydW50aW1lfS9zZXJ2ZXIvc2VydmVyLWFkbWluL3Jlc291cmNlcy9hY21lc2guemlwIgogICAgICAgICAgdGFyIC1jemYgbWFjb3MtY2ktY29tbW9uLnRhci5neiBkaXN0L2ZuLWtub2NrLWFydGlmYWN0cy9ydW50aW1lCgogICAgICAtIG5hbWU6IFVwbG9hZCBzaGFyZWQgYXNzZXRzCiAgICAgICAgdXNlczogYWN0aW9ucy91cGxvYWQtYXJ0aWZhY3RAMDQzZmI0NmQxYTkzYzc3YWFlNjU2ZTdjMWM2NGE4NzVkMWZjNmEwYSAjIHY3LjAuMQogICAgICAgIHdpdGg6CiAgICAgICAgICBuYW1lOiBtYWNvcy1jaS1jb21tb24KICAgICAgICAgIHBhdGg6IG1hY29zLWNpLWNvbW1vbi50YXIuZ3oKICAgICAgICAgIGlmLW5vLWZpbGVzLWZvdW5kOiBlcnJvcgogICAgICAgICAgcmV0ZW50aW9uLWRheXM6IDcKCiAgYnVpbGQ6CiAgICBuZWVkczogW3ByZWZsaWdodCwgY29tbW9uXQogICAgdGltZW91dC1taW51dGVzOiAxMjAKICAgIHN0cmF0ZWd5OgogICAgICBmYWlsLWZhc3Q6IGZhbHNlCiAgICAgIG1hdHJpeDoKICAgICAgICBpbmNsdWRlOgogICAgICAgICAgLSBhcmNoOiBhbWQ2NAogICAgICAgICAgICBydW5uZXI6IG1hY29zLTE1LWludGVsCiAgICAgICAgICAgIHByb3RvY19hc3NldDogb3N4LXg4Nl82NAogICAgICAgICAgICBwcm90b2Nfc2hhMjU2OiA1MzdkNzM2MDRhMzQ0ZGVkNmZjOTRlOThlMDdlNTI5ZDRmZTNlNGEwYjA5ZTU5OTA1MzUzOTUwZmFmYzJhMWY3CiAgICAgICAgICAtIGFyY2g6IGFybTY0CiAgICAgICAgICAgIHJ1bm5lcjogbWFjb3MtMTUKICAgICAgICAgICAgcHJvdG9jX2Fzc2V0OiBvc3gtYWFyY2hfNjQKICAgICAgICAgICAgcHJvdG9jX3NoYTI1NjogMTkzMjg5YWYwNDcwYzZhMWFhZGEzNTdkNGZiYTBiYmY4ZDc4YmZhYWM4YjVlNDJjYTMwYWYyZWY3NTU4M2RlMgogICAgcnVucy1vbjogJHt7IG1hdHJpeC5ydW5uZXIgfX0KICAgIGVudjoKICAgICAgRk5fS05PQ0tfR0FURVdBWV9DT01NSVQ6ICR7eyBuZWVkcy5wcmVmbGlnaHQub3V0cHV0cy5nb19zaGEgfX0KICAgICAgRk5fS05PQ0tfR09fU09VUkNFX0NPTU1JVDogJHt7IG5lZWRzLnByZWZsaWdodC5vdXRwdXRzLmdvX3NoYSB9fQogICAgICBGTl9LTk9DS19TT1VSQ0VfQ09NTUlUOiAke3sgbmVlZHMucHJlZmxpZ2h0Lm91dHB1dHMuc291cmNlX3NoYSB9fQogICAgICBGTl9LTk9DS19WRVJTSU9OOiAke3sgbmVlZHMucHJlZmxpZ2h0Lm91dHB1dHMudmVyc2lvbiB9fQoKICAgIHN0ZXBzOgogICAgICAtIG5hbWU6IENoZWNrb3V0IGZuLWtub2NrCiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEBkZTBmYWMyZTQ1MDBkYWJlMDAwOWU2NzIxNGZmNWY1NDQ3Y2U4M2RkICMgdjYuMC4yCiAgICAgICAgd2l0aDoKICAgICAgICAgIHJlZjogJHt7IG5lZWRzLnByZWZsaWdodC5vdXRwdXRzLnNvdXJjZV9zaGEgfX0KICAgICAgICAgIHBlcnNpc3QtY3JlZGVudGlhbHM6IGZhbHNlCgogICAgICAtIG5hbWU6IENoZWNrb3V0IGZyb3plbiBHbyBnYXRld2F5CiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEBkZTBmYWMyZTQ1MDBkYWJlMDAwOWU2NzIxNGZmNWY1NDQ3Y2U4M2RkICMgdjYuMC4yCiAgICAgICAgd2l0aDoKICAgICAgICAgIHJlcG9zaXRvcnk6IGtjaS1sbmsvR28tUmVhdXRoLVByb3h5CiAgICAgICAgICBwYXRoOiBHby1SZWF1dGgtUHJveHkKICAgICAgICAgIHJlZjogJHt7IGVudi5GTl9LTk9DS19HT19TT1VSQ0VfQ09NTUlUIH19CiAgICAgICAgICBwZXJzaXN0LWNyZWRlbnRpYWxzOiBmYWxzZQoKICAgICAgLSBuYW1lOiBTZXQgdXAgR28KICAgICAgICB1c2VzOiBhY3Rpb25zL3NldHVwLWdvQDkyNGFlM2ExY2RlZDYxMzM3MmFiNTU5NTM1NmZiNTcyMGUyMmJhMTYgIyB2NgogICAgICAgIHdpdGg6CiAgICAgICAgICBnby12ZXJzaW9uLWZpbGU6IEdvLVJlYXV0aC1Qcm94eS9nby5tb2QKICAgICAgICAgIGNhY2hlLWRlcGVuZGVuY3ktcGF0aDogR28tUmVhdXRoLVByb3h5L2dvLnN1bQoKICAgICAgLSBuYW1lOiBTZXQgdXAgUnVzdAogICAgICAgIHVzZXM6IGR0b2xuYXkvcnVzdC10b29sY2hhaW5ANGJlNzA2NmFkYTYyZGQzOGRlMTBlN2I3MDE2NmJjNzRlZDE5OGMzMAogICAgICAgIHdpdGg6CiAgICAgICAgICB0b29sY2hhaW46ICR7eyBlbnYuUlVTVF9WRVJTSU9OIH19CgogICAgICAtIG5hbWU6IFNldCB1cCB2ZXJpZmllZCBwcm90b2J1ZiBjb21waWxlcgogICAgICAgIHNoZWxsOiBiYXNoCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBhcmNoaXZlPSIke1JVTk5FUl9URU1QfS9wcm90b2MtJHtQUk9UT0NfVkVSU0lPTn0tJHt7IG1hdHJpeC5wcm90b2NfYXNzZXQgfX0uemlwIgogICAgICAgICAgaW5zdGFsbF9kaXI9IiR7UlVOTkVSX1RFTVB9L3Byb3RvYy0ke1BST1RPQ19WRVJTSU9OfSIKICAgICAgICAgIGN1cmwgLS1mYWlsIC0tbG9jYXRpb24gLS1yZXRyeSA1IC0tcmV0cnktYWxsLWVycm9ycyBcCiAgICAgICAgICAgIC0tb3V0cHV0ICIke2FyY2hpdmV9IiBcCiAgICAgICAgICAgICJodHRwczovL2dpdGh1Yi5jb20vcHJvdG9jb2xidWZmZXJzL3Byb3RvYnVmL3JlbGVhc2VzL2Rvd25sb2FkL3Yke1BST1RPQ19WRVJTSU9OfS9wcm90b2MtJHtQUk9UT0NfVkVSU0lPTn0tJHt7IG1hdHJpeC5wcm90b2NfYXNzZXQgfX0uemlwIgogICAgICAgICAgcHJpbnRmICclcyAgJXNcbicgIiR7eyBtYXRyaXgucHJvdG9jX3NoYTI1NiB9fSIgIiR7YXJjaGl2ZX0iIHwgc2hhc3VtIC1hIDI1NiAtLWNoZWNrCiAgICAgICAgICBta2RpciAtcCAiJHtpbnN0YWxsX2Rpcn0iCiAgICAgICAgICB1bnppcCAtcSAiJHthcmNoaXZlfSIgLWQgIiR7aW5zdGFsbF9kaXJ9IgogICAgICAgICAgcHJpbnRmICclc1xuJyAiJHtpbnN0YWxsX2Rpcn0vYmluIiA+PiAiJHtHSVRIVUJfUEFUSH0iCgogICAgICAtIG5hbWU6IERvd25sb2FkIHNoYXJlZCBydW50aW1lIGFzc2V0cwogICAgICAgIHVzZXM6IGFjdGlvbnMvZG93bmxvYWQtYXJ0aWZhY3RAM2U1ZjQ1YjJjZmI5MTcyMDU0YjQwODdhNDBlOGUwYjVhNTQ2MWU3YyAjIHY4LjAuMQogICAgICAgIHdpdGg6CiAgICAgICAgICBuYW1lOiBtYWNvcy1jaS1jb21tb24KICAgICAgICAgIHBhdGg6IGRvd25sb2FkcwoKICAgICAgLSBuYW1lOiBCdWlsZCBhbmQgdGVzdCBuYXRpdmUgcGFja2FnZQogICAgICAgIHNoZWxsOiBiYXNoCiAgICAgICAgcnVuOiB8CiAgICAgICAgICB0YXIgLXh6ZiBkb3dubG9hZHMvbWFjb3MtY2ktY29tbW9uLnRhci5negogICAgICAgICAgY2FyZ28gdGVzdCAtLWxvY2tlZCAtLW1hbmlmZXN0LXBhdGggYXBwcy9zZXJ2ZXItYWRtaW4tcnMvQ2FyZ28udG9tbCBtYWNvcwogICAgICAgICAgRk5fS05PQ0tfR09fU0tJUF9URVNUUz0xIFwKICAgICAgICAgICAgYmFzaCAuL3NjcmlwdHMvZm4ta25vY2stbWFjb3MtcGFja2FnZS5zaCBcCiAgICAgICAgICAgICAgIiR7eyBtYXRyaXguYXJjaCB9fSIgXAogICAgICAgICAgICAgICIke0dJVEhVQl9XT1JLU1BBQ0V9L2Rpc3QvZm4ta25vY2stYXJ0aWZhY3RzL3J1bnRpbWUiIFwKICAgICAgICAgICAgICAiJHtHSVRIVUJfV09SS1NQQUNFfS9Hby1SZWF1dGgtUHJveHkiIFwKICAgICAgICAgICAgICAiJHtHSVRIVUJfV09SS1NQQUNFfS9kaXN0L2ZuLWtub2NrLW1hY29zIgogICAgICAgICAgYmFzaCAuL3NjcmlwdHMvZm4ta25vY2stbWFjb3Mtc21va2Uuc2ggXAogICAgICAgICAgICAiZGlzdC9mbi1rbm9jay1tYWNvcy9mbi1rbm9jay1tYWNvcy0ke0ZOX0tOT0NLX1ZFUlNJT059LSR7eyBtYXRyaXguYXJjaCB9fS50YXIuZ3oiCiAgICAgICAgICBiYXNoIC4vZGVwbG95L21hY29zL3Rlc3RzL3Rlc3QtbWFjb3MtbWFuYWdlbWVudC5zaAogICAgICAgICAgc3VkbyBlbnYgQ0k9dHJ1ZSBHSVRIVUJfUlVOX0lEPSIke0dJVEhVQl9SVU5fSUR9IiBcCiAgICAgICAgICAgIGJhc2ggLi9zY3JpcHRzL2ZuLWtub2NrLW1hY29zLWxhdW5jaGQtc21va2Uuc2ggXAogICAgICAgICAgICAgICIke0dJVEhVQl9XT1JLU1BBQ0V9L2Rpc3QvZm4ta25vY2stbWFjb3MvZm4ta25vY2stbWFjb3MtJHtGTl9LTk9DS19WRVJTSU9OfS0ke3sgbWF0cml4LmFyY2ggfX0udGFyLmd6IgoKICAgICAgLSBuYW1lOiBVcGxvYWQgQ0kgcGFja2FnZQogICAgICAgIGlmOiBnaXRodWIuZXZlbnRfbmFtZSAhPSAncHVsbF9yZXF1ZXN0JwogICAgICAgIHVzZXM6IGFjdGlvbnMvdXBsb2FkLWFydGlmYWN0QDA0M2ZiNDZkMWE5M2M3N2FhZTY1NmU3YzFjNjRhODc1ZDFmYzZhMGEgIyB2Ny4wLjEKICAgICAgICB3aXRoOgogICAgICAgICAgbmFtZTogZm4ta25vY2stbWFjb3MtJHt7IG5lZWRzLnByZWZsaWdodC5vdXRwdXRzLnZlcnNpb24gfX0tJHt7IG1hdHJpeC5hcmNoIH19CiAgICAgICAgICBwYXRoOiBkaXN0L2ZuLWtub2NrLW1hY29zL2ZuLWtub2NrLW1hY29zLSR7eyBuZWVkcy5wcmVmbGlnaHQub3V0cHV0cy52ZXJzaW9uIH19LSR7eyBtYXRyaXguYXJjaCB9fS50YXIuZ3oKICAgICAgICAgIGlmLW5vLWZpbGVzLWZvdW5kOiBlcnJvcgogICAgICAgICAgcmV0ZW50aW9uLWRheXM6IDcK
+name: macOS CLI
+
+on:
+  workflow_call:
+    outputs:
+      source_sha:
+        description: Frozen fn-knock source commit
+        value: ${{ jobs.preflight.outputs.source_sha }}
+      go_sha:
+        description: Frozen Go gateway source commit
+        value: ${{ jobs.preflight.outputs.go_sha }}
+      version:
+        description: fn-knock release version
+        value: ${{ jobs.preflight.outputs.version }}
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: macos-cli-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CARGO_TERM_COLOR: always
+  NODE_VERSION: "22.22.3"
+  NPM_VERSION: "10.8.2"
+  PROTOC_VERSION: "35.1"
+  RUST_VERSION: "1.96.0"
+  MACOSX_DEPLOYMENT_TARGET: "13.0"
+
+jobs:
+  preflight:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    outputs:
+      source_sha: ${{ steps.source.outputs.sha }}
+      go_sha: ${{ steps.gateway.outputs.sha }}
+      version: ${{ steps.version.outputs.version }}
+
+    steps:
+      - name: Checkout fn-knock
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      - name: Freeze source commit
+        id: source
+        shell: bash
+        run: printf 'sha=%s\n' "$(git rev-parse HEAD)" >> "${GITHUB_OUTPUT}"
+
+      - name: Checkout Go gateway
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: kci-lnk/Go-Reauth-Proxy
+          path: Go-Reauth-Proxy
+          persist-credentials: false
+
+      - name: Freeze checked-out Go gateway commit
+        id: gateway
+        shell: bash
+        run: |
+          sha="$(git -C Go-Reauth-Proxy rev-parse HEAD)"
+          printf '%s\n' "${sha}" | grep -Eq '^[0-9a-f]{40}$'
+          printf 'sha=%s\n' "${sha}" >> "${GITHUB_OUTPUT}"
+
+      - name: Read version
+        id: version
+        shell: bash
+        run: printf 'version=%s\n' "$(jq -r .version version.json)" >> "${GITHUB_OUTPUT}"
+
+  common:
+    needs: preflight
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout fn-knock
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: ${{ needs.preflight.outputs.source_sha }}
+          persist-credentials: false
+
+      - name: Checkout frozen Go gateway
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: kci-lnk/Go-Reauth-Proxy
+          path: Go-Reauth-Proxy
+          ref: ${{ needs.preflight.outputs.go_sha }}
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+
+      - name: Set up Go
+        uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6
+        with:
+          go-version-file: Go-Reauth-Proxy/go.mod
+          cache-dependency-path: Go-Reauth-Proxy/go.sum
+
+      - name: Test gateway and build shared assets
+        shell: bash
+        run: |
+          npm install --global "npm@${NPM_VERSION}"
+          npm ci
+          bash ./scripts/verify-go-control-api-contract.sh Go-Reauth-Proxy
+          (cd Go-Reauth-Proxy && GOFLAGS=-mod=readonly go test ./...)
+          npx turbo run build --filter=server-admin-view --filter=server-auth-view
+          runtime="dist/fn-knock-artifacts/runtime"
+          mkdir -p \
+            "${runtime}/ui/www" \
+            "${runtime}/server-auth-view/dist" \
+            "${runtime}/server/server-admin/resources"
+          rsync -a apps/server-admin-view/dist/ "${runtime}/ui/www/"
+          rsync -a apps/server-auth-view/dist/ "${runtime}/server-auth-view/dist/"
+          cp apps/server-admin-rs/resources/acmesh.zip \
+            "${runtime}/server/server-admin/resources/acmesh.zip"
+          tar -czf macos-ci-common.tar.gz dist/fn-knock-artifacts/runtime
+
+      - name: Upload shared assets
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: macos-ci-common
+          path: macos-ci-common.tar.gz
+          if-no-files-found: error
+          retention-days: 7
+
+  build:
+    needs: [preflight, common]
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - arch: amd64
+            runner: macos-15-intel
+            protoc_asset: osx-x86_64
+            protoc_sha256: 537d73604a344ded6fc94e98e07e529d4fe3e4a0b09e59905353950fafc2a1f7
+          - arch: arm64
+            runner: macos-15
+            protoc_asset: osx-aarch_64
+            protoc_sha256: 193289af0470c6a1aada357d4fba0bbf8d78bfaac8b5e42ca30af2ef75583de2
+    runs-on: ${{ matrix.runner }}
+    env:
+      FN_KNOCK_GATEWAY_COMMIT: ${{ needs.preflight.outputs.go_sha }}
+      FN_KNOCK_GO_SOURCE_COMMIT: ${{ needs.preflight.outputs.go_sha }}
+      FN_KNOCK_SOURCE_COMMIT: ${{ needs.preflight.outputs.source_sha }}
+      FN_KNOCK_VERSION: ${{ needs.preflight.outputs.version }}
+
+    steps:
+      - name: Checkout fn-knock
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: ${{ needs.preflight.outputs.source_sha }}
+          persist-credentials: false
+
+      - name: Checkout frozen Go gateway
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: kci-lnk/Go-Reauth-Proxy
+          path: Go-Reauth-Proxy
+          ref: ${{ env.FN_KNOCK_GO_SOURCE_COMMIT }}
+          persist-credentials: false
+
+      - name: Set up Go
+        uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6
+        with:
+          go-version-file: Go-Reauth-Proxy/go.mod
+          cache-dependency-path: Go-Reauth-Proxy/go.sum
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@4be7066ada62dd38de10e7b70166bc74ed198c30
+        with:
+          toolchain: ${{ env.RUST_VERSION }}
+
+      - name: Set up verified protobuf compiler
+        shell: bash
+        run: |
+          archive="${RUNNER_TEMP}/protoc-${PROTOC_VERSION}-${{ matrix.protoc_asset }}.zip"
+          install_dir="${RUNNER_TEMP}/protoc-${PROTOC_VERSION}"
+          curl --fail --location --retry 5 --retry-all-errors \
+            --output "${archive}" \
+            "https://github.com/protocolbuffers/protobuf/releases/download/v${PROTOC_VERSION}/protoc-${PROTOC_VERSION}-${{ matrix.protoc_asset }}.zip"
+          printf '%s  %s\n' "${{ matrix.protoc_sha256 }}" "${archive}" | shasum -a 256 --check
+          mkdir -p "${install_dir}"
+          unzip -q "${archive}" -d "${install_dir}"
+          printf '%s\n' "${install_dir}/bin" >> "${GITHUB_PATH}"
+
+      - name: Download shared runtime assets
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: macos-ci-common
+          path: downloads
+
+      - name: Build and test native package
+        shell: bash
+        run: |
+          tar -xzf downloads/macos-ci-common.tar.gz
+          cargo test --locked --manifest-path apps/server-admin-rs/Cargo.toml macos
+          FN_KNOCK_GO_SKIP_TESTS=1 \
+            bash ./scripts/fn-knock-macos-package.sh \
+              "${{ matrix.arch }}" \
+              "${GITHUB_WORKSPACE}/dist/fn-knock-artifacts/runtime" \
+              "${GITHUB_WORKSPACE}/Go-Reauth-Proxy" \
+              "${GITHUB_WORKSPACE}/dist/fn-knock-macos"
+          bash ./scripts/fn-knock-macos-smoke.sh \
+            "dist/fn-knock-macos/fn-knock-macos-${FN_KNOCK_VERSION}-${{ matrix.arch }}.tar.gz"
+          bash ./deploy/macos/tests/test-macos-management.sh
+          sudo env CI=true GITHUB_RUN_ID="${GITHUB_RUN_ID}" \
+            bash ./scripts/fn-knock-macos-launchd-smoke.sh \
+              "${GITHUB_WORKSPACE}/dist/fn-knock-macos/fn-knock-macos-${FN_KNOCK_VERSION}-${{ matrix.arch }}.tar.gz"
+
+      - name: Upload CI package
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: fn-knock-macos-${{ needs.preflight.outputs.version }}-${{ matrix.arch }}
+          path: dist/fn-knock-macos/fn-knock-macos-${{ needs.preflight.outputs.version }}-${{ matrix.arch }}.tar.gz
+          if-no-files-found: error
+          retention-days: 7

@@ -1,1 +1,126 @@
-dXNlIHN1cGVyOjoqOwoKY29uc3QgSEFSTU9OWU9TX01FT1dfREVGQVVMVF9TRVJWRVJfVVJMOiAmc3RyID0gImh0dHBzOi8vYXBpLmNodWNrZmFuZy5jb20iOwoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIGhhcm1vbnlvc21lb3dfZGVmaW5pdGlvbigpIC0+IFByb3ZpZGVyRGVmaW5pdGlvbiB7CiAgICBQcm92aWRlckRlZmluaXRpb24gewogICAgICAgIHByb3ZpZGVyX3R5cGU6ICJoYXJtb255b3NtZW93IiwKICAgICAgICBsYWJlbDogIkhhcm1vbnlPU01lb1ciLAogICAgICAgIGRlc2NyaXB0aW9uOiAiU2VuZCBNYXJrZG93biBub3RpZmljYXRpb25zIHRocm91Z2ggSGFybW9ueU9TTWVvVy4iLAogICAgICAgIGNvbm5lY3Rpb25fc2NoZW1hOiB2ZWMhWwogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKAogICAgICAgICAgICAgICAgInNlcnZlcl91cmwiLAogICAgICAgICAgICAgICAgIlNlcnZlciBVUkwiLAogICAgICAgICAgICAgICAgdHJ1ZSwKICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICAgICAgU29tZShIQVJNT05ZT1NfTUVPV19ERUZBVUxUX1NFUlZFUl9VUkwpLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5wbGFjZWhvbGRlcihIQVJNT05ZT1NfTUVPV19ERUZBVUxUX1NFUlZFUl9VUkwpLAogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJuaWNrbmFtZSIsICJOaWNrbmFtZSIsIHRydWUsIHRydWUsIE5vbmUpLnBsYWNlaG9sZGVyKCJKb2huRG9lIiksCiAgICAgICAgICAgIG51bWJlcl9zY2hlbWEoInRpbWVvdXRfc2Vjb25kcyIsICJUaW1lb3V0IHNlY29uZHMiLCB0cnVlLCBTb21lKDUpKS5ib3VuZHMoMSwgMzApLAogICAgICAgIF0sCiAgICAgICAgdGFyZ2V0X3NjaGVtYTogVmVjOjpuZXcoKSwKICAgICAgICBzZW5zaXRpdmVfZmllbGRzOiB2ZWMhWyJuaWNrbmFtZSJdLAogICAgICAgIHN1cHBvcnRzX21hcmtkb3duOiB0cnVlLAogICAgICAgIHN1cHBvcnRzX2FjdGlvbnM6IHRydWUsCiAgICAgICAgc3VwcG9ydHNfbWVudGlvbnM6IGZhbHNlLAogICAgICAgIHN1cHBvcnRzX3Byb3ZpZGVyX2RlZHVwZV9rZXk6IGZhbHNlLAogICAgfQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgZm4gcmVzb2x2ZV9oYXJtb255b3NtZW93X3VybCgKICAgIGJhc2VfdXJsOiAmc3RyLAogICAgbmlja25hbWU6ICZzdHIsCiAgICB0aXRsZTogJnN0ciwKKSAtPiBSZXN1bHQ8U3RyaW5nLCAoKT4gewogICAgaWYgIWhhcm1vbnlvc21lb3dfbmlja25hbWVfaXNfdmFsaWQobmlja25hbWUpIHsKICAgICAgICByZXR1cm4gRXJyKCgpKTsKICAgIH0KICAgIGxldCBtdXQgdXJsID0gdXJsOjpVcmw6OnBhcnNlKGJhc2VfdXJsLnRyaW0oKSkubWFwX2Vycih8X3wgKCkpPzsKICAgIGlmICFtYXRjaGVzISh1cmwuc2NoZW1lKCksICJodHRwIiB8ICJodHRwcyIpIHx8IHVybC5ob3N0KCkuaXNfbm9uZSgpIHsKICAgICAgICByZXR1cm4gRXJyKCgpKTsKICAgIH0KICAgIHVybC5zZXRfcXVlcnkoTm9uZSk7CiAgICB1cmwuc2V0X2ZyYWdtZW50KE5vbmUpOwogICAgewogICAgICAgIGxldCBtdXQgc2VnbWVudHMgPSB1cmwucGF0aF9zZWdtZW50c19tdXQoKS5tYXBfZXJyKHxffCAoKSk/OwogICAgICAgIHNlZ21lbnRzLnBvcF9pZl9lbXB0eSgpOwogICAgICAgIHNlZ21lbnRzLnB1c2gobmlja25hbWUpOwogICAgICAgIHNlZ21lbnRzLnB1c2godGl0bGUpOwogICAgfQogICAgdXJsLnF1ZXJ5X3BhaXJzX211dCgpLmFwcGVuZF9wYWlyKCJtc2dUeXBlIiwgIm1hcmtkb3duIik7CiAgICBPayh1cmwudG9fc3RyaW5nKCkpCn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBmbiBoYXJtb255b3NtZW93X25pY2tuYW1lX2lzX3ZhbGlkKG5pY2tuYW1lOiAmc3RyKSAtPiBib29sIHsKICAgICFuaWNrbmFtZS5jb250YWlucygnLycpCn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBmbiBidWlsZF9oYXJtb255b3NtZW93X2JvZHkobWVzc2FnZTogJlZhbHVlKSAtPiBTdHJpbmcgewogICAgZGVmYXVsdF9zdHJpbmcoYnVpbGRfbWFya2Rvd25fYm9keShtZXNzYWdlLCAiIiksICZtZXNzYWdlX3RpdGxlKG1lc3NhZ2UpKQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgZm4gaGFybW9ueW9zbWVvd19yZXN1bHQoCiAgICByZXF1ZXN0X3N1bW1hcnk6IFZhbHVlLAogICAgc3RhdHVzOiB1MTYsCiAgICBvazogYm9vbCwKICAgIHRleHQ6IFN0cmluZywKICAgIHBhcnNlZDogT3B0aW9uPFZhbHVlPiwKKSAtPiBQcm92aWRlclRlc3RSZXN1bHQgewogICAgcHJvdmlkZXJfcmVzdWx0X2Zyb21fYXBpKAogICAgICAgICJIYXJtb255T1NNZW9XIiwKICAgICAgICByZXF1ZXN0X3N1bW1hcnksCiAgICAgICAgc3RhdHVzLAogICAgICAgIG9rLAogICAgICAgIHRleHQsCiAgICAgICAgcGFyc2VkLAogICAgICAgIHx2YWx1ZXwganNvbl9pNjQodmFsdWUsICJzdGF0dXMiKSA9PSBTb21lKDIwMCksCiAgICAgICAgfHZhbHVlfCBqc29uX3RleHRfYW55KHZhbHVlLCAmWyJtZXNzYWdlIiwgIm1zZyIsICJlcnJvciJdKSwKICAgICkKfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGFzeW5jIGZuIHNlbmRfaGFybW9ueW9zbWVvdygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBwcm92aWRlcjogJlZhbHVlLAogICAgbWVzc2FnZTogJlZhbHVlLAogICAgdGltZW91dF9zZWNvbmRzOiBpNjQsCikgLT4gUHJvdmlkZXJUZXN0UmVzdWx0IHsKICAgIGxldCBjb25maWcgPSBwcm92aWRlcl9jb25maWcocHJvdmlkZXIpOwogICAgbGV0IG5pY2tuYW1lID0gY29uZmlnX3RleHQoJmNvbmZpZywgIm5pY2tuYW1lIik7CiAgICBpZiBuaWNrbmFtZS5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gbWlzc2luZ19jb25maWdfcmVzdWx0KCZub3RpZmljYXRpb25fcHJvdmlkZXJfZXJyb3JfZGVmYXVsdCgKICAgICAgICAgICAgImhhcm1vbnlvc21lb3ciLAogICAgICAgICAgICAibWlzc2luZ05pY2tuYW1lIiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpOwogICAgfQogICAgaWYgIWhhcm1vbnlvc21lb3dfbmlja25hbWVfaXNfdmFsaWQoJm5pY2tuYW1lKSB7CiAgICAgICAgcmV0dXJuIG1pc3NpbmdfY29uZmlnX3Jlc3VsdCgmbm90aWZpY2F0aW9uX3Byb3ZpZGVyX2Vycm9yX2RlZmF1bHQoCiAgICAgICAgICAgICJoYXJtb255b3NtZW93IiwKICAgICAgICAgICAgImludmFsaWROaWNrbmFtZSIsCiAgICAgICAgICAgICZbXSwKICAgICAgICApKTsKICAgIH0KICAgIGxldCBiYXNlX3VybCA9IGRlZmF1bHRfc3RyaW5nKAogICAgICAgIGNvbmZpZ190ZXh0KCZjb25maWcsICJzZXJ2ZXJfdXJsIiksCiAgICAgICAgSEFSTU9OWU9TX01FT1dfREVGQVVMVF9TRVJWRVJfVVJMLAogICAgKTsKICAgIGxldCB0aXRsZSA9IG1lc3NhZ2VfdGl0bGUobWVzc2FnZSk7CiAgICBsZXQgYm9keSA9IGJ1aWxkX2hhcm1vbnlvc21lb3dfYm9keShtZXNzYWdlKTsKICAgIGxldCBPayh1cmwpID0gcmVzb2x2ZV9oYXJtb255b3NtZW93X3VybCgmYmFzZV91cmwsICZuaWNrbmFtZSwgJnRpdGxlKSBlbHNlIHsKICAgICAgICByZXR1cm4gbWlzc2luZ19jb25maWdfcmVzdWx0KCZub3RpZmljYXRpb25fcHJvdmlkZXJfZXJyb3JfZGVmYXVsdCgKICAgICAgICAgICAgImhhcm1vbnlvc21lb3ciLAogICAgICAgICAgICAiaW52YWxpZFNlcnZlclVybCIsCiAgICAgICAgICAgICZbXSwKICAgICAgICApKTsKICAgIH07CiAgICBsZXQgcmVxdWVzdF9zdW1tYXJ5ID0ganNvbiEoewogICAgICAgICJtZXRob2QiOiAiUE9TVCIsCiAgICAgICAgImVuZHBvaW50IjogYmFzZV91cmwsCiAgICAgICAgIm1zZ190eXBlIjogIm1hcmtkb3duIiwKICAgICAgICAidGl0bGVfcHJldmlldyI6IHRydW5jYXRlX3RleHQoJnRpdGxlLCAyMDApLAogICAgICAgICJib2R5X3ByZXZpZXciOiB0cnVuY2F0ZV90ZXh0KCZib2R5LCA1MDApCiAgICB9KTsKICAgIGxldCAoc3RhdHVzLCBvaywgdGV4dCwgcGFyc2VkKSA9IHBvc3RfdGV4dChzdGF0ZSwgJnVybCwgJmJvZHksIHRpbWVvdXRfc2Vjb25kcykuYXdhaXQ7CiAgICBoYXJtb255b3NtZW93X3Jlc3VsdChyZXF1ZXN0X3N1bW1hcnksIHN0YXR1cywgb2ssIHRleHQsIHBhcnNlZCkKfQo=
+use super::*;
+
+const HARMONYOS_MEOW_DEFAULT_SERVER_URL: &str = "https://api.chuckfang.com";
+
+pub(in crate::notifications::routes) fn harmonyosmeow_definition() -> ProviderDefinition {
+    ProviderDefinition {
+        provider_type: "harmonyosmeow",
+        label: "HarmonyOSMeoW",
+        description: "Send Markdown notifications through HarmonyOSMeoW.",
+        connection_schema: vec![
+            string_schema(
+                "server_url",
+                "Server URL",
+                true,
+                false,
+                Some(HARMONYOS_MEOW_DEFAULT_SERVER_URL),
+            )
+            .placeholder(HARMONYOS_MEOW_DEFAULT_SERVER_URL),
+            string_schema("nickname", "Nickname", true, true, None).placeholder("JohnDoe"),
+            number_schema("timeout_seconds", "Timeout seconds", true, Some(5)).bounds(1, 30),
+        ],
+        target_schema: Vec::new(),
+        sensitive_fields: vec!["nickname"],
+        supports_markdown: true,
+        supports_actions: true,
+        supports_mentions: false,
+        supports_provider_dedupe_key: false,
+    }
+}
+
+pub(in crate::notifications::routes) fn resolve_harmonyosmeow_url(
+    base_url: &str,
+    nickname: &str,
+    title: &str,
+) -> Result<String, ()> {
+    if !harmonyosmeow_nickname_is_valid(nickname) {
+        return Err(());
+    }
+    let mut url = url::Url::parse(base_url.trim()).map_err(|_| ())?;
+    if !matches!(url.scheme(), "http" | "https") || url.host().is_none() {
+        return Err(());
+    }
+    url.set_query(None);
+    url.set_fragment(None);
+    {
+        let mut segments = url.path_segments_mut().map_err(|_| ())?;
+        segments.pop_if_empty();
+        segments.push(nickname);
+        segments.push(title);
+    }
+    url.query_pairs_mut().append_pair("msgType", "markdown");
+    Ok(url.to_string())
+}
+
+pub(in crate::notifications::routes) fn harmonyosmeow_nickname_is_valid(nickname: &str) -> bool {
+    !nickname.contains('/')
+}
+
+pub(in crate::notifications::routes) fn build_harmonyosmeow_body(message: &Value) -> String {
+    default_string(build_markdown_body(message, ""), &message_title(message))
+}
+
+pub(in crate::notifications::routes) fn harmonyosmeow_result(
+    request_summary: Value,
+    status: u16,
+    ok: bool,
+    text: String,
+    parsed: Option<Value>,
+) -> ProviderTestResult {
+    provider_result_from_api(
+        "HarmonyOSMeoW",
+        request_summary,
+        status,
+        ok,
+        text,
+        parsed,
+        |value| json_i64(value, "status") == Some(200),
+        |value| json_text_any(value, &["message", "msg", "error"]),
+    )
+}
+
+pub(in crate::notifications::routes) async fn send_harmonyosmeow(
+    state: &AppState,
+    provider: &Value,
+    message: &Value,
+    timeout_seconds: i64,
+) -> ProviderTestResult {
+    let config = provider_config(provider);
+    let nickname = config_text(&config, "nickname");
+    if nickname.is_empty() {
+        return missing_config_result(&notification_provider_error_default(
+            "harmonyosmeow",
+            "missingNickname",
+            &[],
+        ));
+    }
+    if !harmonyosmeow_nickname_is_valid(&nickname) {
+        return missing_config_result(&notification_provider_error_default(
+            "harmonyosmeow",
+            "invalidNickname",
+            &[],
+        ));
+    }
+    let base_url = default_string(
+        config_text(&config, "server_url"),
+        HARMONYOS_MEOW_DEFAULT_SERVER_URL,
+    );
+    let title = message_title(message);
+    let body = build_harmonyosmeow_body(message);
+    let Ok(url) = resolve_harmonyosmeow_url(&base_url, &nickname, &title) else {
+        return missing_config_result(&notification_provider_error_default(
+            "harmonyosmeow",
+            "invalidServerUrl",
+            &[],
+        ));
+    };
+    let request_summary = json!({
+        "method": "POST",
+        "endpoint": base_url,
+        "msg_type": "markdown",
+        "title_preview": truncate_text(&title, 200),
+        "body_preview": truncate_text(&body, 500)
+    });
+    let (status, ok, text, parsed) = post_text(state, &url, &body, timeout_seconds).await;
+    harmonyosmeow_result(request_summary, status, ok, text, parsed)
+}

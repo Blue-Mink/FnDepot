@@ -1,1 +1,60 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCB9IGZyb20gIm5vZGU6dXJsIjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocmVsYXRpdmVQYXRoOiBzdHJpbmcpID0+CiAgcmVhZEZpbGVTeW5jKGZpbGVVUkxUb1BhdGgobmV3IFVSTChyZWxhdGl2ZVBhdGgsIGltcG9ydC5tZXRhLnVybCkpLCAidXRmOCIpOwoKZGVzY3JpYmUoInVuaWZpZWQgZXh0ZXJuYWwgbG9naW4gbWFuYWdlbWVudCIsICgpID0+IHsKICBpdCgia2VlcHMgdGhlIGxlZ2FjeSBPSURDIHJvdXRlIGFuZCByZWRpcmVjdHMgdG8gdGhlIHVuaWZpZWQgcGFnZSIsICgpID0+IHsKICAgIGNvbnN0IHJvdXRlciA9IHJlYWRTb3VyY2UoIi4uL3NyYy9yb3V0ZXIvaW5kZXgudHMiKTsKICAgIGFzc2VydC5tYXRjaChyb3V0ZXIsIC9wYXRoOiAiYXV0aFwvZXh0ZXJuYWwtcHJvdmlkZXJzIi8pOwogICAgYXNzZXJ0Lm1hdGNoKHJvdXRlciwgL3BhdGg6ICJhdXRoXC9vaWRjLXByb3ZpZGVycyIvKTsKICAgIGFzc2VydC5tYXRjaChyb3V0ZXIsIC9yZWRpcmVjdDogIlwvYXV0aFwvZXh0ZXJuYWwtcHJvdmlkZXJzIi8pOwogIH0pOwoKICBpdCgibG9hZHMgYW5kIHJlbmRlcnMgYm90aCBPSURDIGFuZCBMREFQIHByb3ZpZGVyIHNldHRpbmdzIiwgKCkgPT4gewogICAgY29uc3QgY29uZmlnQXBpID0gcmVhZFNvdXJjZSgiLi4vc3JjL2xpYi9hcGkvY29uZmlnLWF1dGgtYXBpLnRzIik7CiAgICBjb25zdCBwYWdlID0gcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL09JRENQcm92aWRlclNldHRpbmdzLnZ1ZSIpOwogICAgY29uc3QgbGRhcENhcmQgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL29pZGMtcHJvdmlkZXItc2V0dGluZ3MvTERBUFByb3ZpZGVyU2V0dGluZ3NDYXJkLnZ1ZSIsCiAgICApOwogICAgY29uc3QgbGRhcE1hbmFnZW1lbnQgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL29pZGMtcHJvdmlkZXItc2V0dGluZ3MvdXNlTGRhcFByb3ZpZGVyTWFuYWdlbWVudC50cyIsCiAgICApOwogICAgY29uc3QgbGRhcENyZWRlbnRpYWxzID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9vaWRjLXByb3ZpZGVyLXNldHRpbmdzL0xEQVBUZXN0Q3JlZGVudGlhbHNEaWFsb2cudnVlIiwKICAgICk7CiAgICBhc3NlcnQubWF0Y2gocGFnZSwgL0xEQVBQcm92aWRlclNldHRpbmdzQ2FyZC8pOwogICAgYXNzZXJ0Lm1hdGNoKGxkYXBDYXJkLCAvdXNlTGRhcFByb3ZpZGVyTWFuYWdlbWVudC8pOwogICAgYXNzZXJ0Lm1hdGNoKGxkYXBDYXJkLCAvTERBUFByb3ZpZGVyRWRpdG9yRGlhbG9nLyk7CiAgICBhc3NlcnQubWF0Y2gobGRhcENhcmQsIC9MREFQVGVzdENyZWRlbnRpYWxzRGlhbG9nLyk7CiAgICBhc3NlcnQubWF0Y2gobGRhcE1hbmFnZW1lbnQsIC9Db25maWdBUElcLmdldExkYXBQcm92aWRlcnMvKTsKICAgIGFzc2VydC5tYXRjaChsZGFwTWFuYWdlbWVudCwgL0NvbmZpZ0FQSVwudGVzdExkYXBQcm92aWRlci8pOwogICAgYXNzZXJ0Lm1hdGNoKGxkYXBDcmVkZW50aWFscywgL3Rlc3RDcmVkZW50aWFsc0Rlc2NyaXB0aW9uLyk7CiAgICBhc3NlcnQubWF0Y2gobGRhcE1hbmFnZW1lbnQsIC9wYXNzd29yZDpccyp0ZXN0UGFzc3dvcmRcLnZhbHVlLyk7CiAgICBhc3NlcnQubWF0Y2gobGRhcE1hbmFnZW1lbnQsIC9mb3JtXC5zZXJ2aWNlQmluZFBhc3N3b3JkID0gIiIvKTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgY29uZmlnQXBpLAogICAgICAvXC9hdXRoXC9sZGFwXC9wcm92aWRlcnNcL1wkXHtlbmNvZGVVUklDb21wb25lbnRcKGlkXClcfVwvdGVzdGBbXHNcU10qY3JlZGVudGlhbHMgXD9cPyBce1x9LywKICAgICk7CiAgfSk7CgogIGl0KCJtZXJnZXMgYmluZGluZ3MgYW5kIGRpc3BhdGNoZXMgaW52aXRhdGlvbi9kZWxldGlvbiBieSBwcm90b2NvbCIsICgpID0+IHsKICAgIGNvbnN0IGludml0ZURpYWxvZyA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3MvcGFzc2tleS1zZXR0aW5ncy9PaWRjSW52aXRlRGlhbG9nLnZ1ZSIsCiAgICApOwogICAgY29uc3Qgd29ya2Zsb3cgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3Bhc3NrZXktc2V0dGluZ3MvdXNlT2lkY0JpbmRpbmdXb3JrZmxvdy50cyIsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHdvcmtmbG93LCAvQ29uZmlnQVBJXC5nZXRPSURDQmluZGluZ3MvKTsKICAgIGFzc2VydC5tYXRjaCh3b3JrZmxvdywgL0NvbmZpZ0FQSVwuZ2V0TGRhcEJpbmRpbmdzLyk7CiAgICBhc3NlcnQubWF0Y2god29ya2Zsb3csIC9wcm92aWRlclwua2luZCA9PT0gImxkYXAiLyk7CiAgICBhc3NlcnQubWF0Y2god29ya2Zsb3csIC9Db25maWdBUElcLmNyZWF0ZUxkYXBJbnZpdGUvKTsKICAgIGFzc2VydC5tYXRjaCh3b3JrZmxvdywgL2JpbmRpbmdcP1wucHJvdG9jb2wgPT09ICJsZGFwIi8pOwogICAgYXNzZXJ0Lm1hdGNoKHdvcmtmbG93LCAvQ29uZmlnQVBJXC5kZWxldGVMZGFwQmluZGluZy8pOwogICAgYXNzZXJ0Lm1hdGNoKGludml0ZURpYWxvZywgL1x7XHsgcHJvdmlkZXJcLm5hbWUgXH1cfS8pOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChpbnZpdGVEaWFsb2csIC9wcm92aWRlclwua2luZFwudG9VcHBlckNhc2UvKTsKICB9KTsKfSk7Cg==
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+import { fileURLToPath } from "node:url";
+
+const readSource = (relativePath: string) =>
+  readFileSync(fileURLToPath(new URL(relativePath, import.meta.url)), "utf8");
+
+describe("unified external login management", () => {
+  it("keeps the legacy OIDC route and redirects to the unified page", () => {
+    const router = readSource("../src/router/index.ts");
+    assert.match(router, /path: "auth\/external-providers"/);
+    assert.match(router, /path: "auth\/oidc-providers"/);
+    assert.match(router, /redirect: "\/auth\/external-providers"/);
+  });
+
+  it("loads and renders both OIDC and LDAP provider settings", () => {
+    const configApi = readSource("../src/lib/api/config-auth-api.ts");
+    const page = readSource("../src/views/OIDCProviderSettings.vue");
+    const ldapCard = readSource(
+      "../src/views/oidc-provider-settings/LDAPProviderSettingsCard.vue",
+    );
+    const ldapManagement = readSource(
+      "../src/views/oidc-provider-settings/useLdapProviderManagement.ts",
+    );
+    const ldapCredentials = readSource(
+      "../src/views/oidc-provider-settings/LDAPTestCredentialsDialog.vue",
+    );
+    assert.match(page, /LDAPProviderSettingsCard/);
+    assert.match(ldapCard, /useLdapProviderManagement/);
+    assert.match(ldapCard, /LDAPProviderEditorDialog/);
+    assert.match(ldapCard, /LDAPTestCredentialsDialog/);
+    assert.match(ldapManagement, /ConfigAPI\.getLdapProviders/);
+    assert.match(ldapManagement, /ConfigAPI\.testLdapProvider/);
+    assert.match(ldapCredentials, /testCredentialsDescription/);
+    assert.match(ldapManagement, /password:\s*testPassword\.value/);
+    assert.match(ldapManagement, /form\.serviceBindPassword = ""/);
+    assert.match(
+      configApi,
+      /\/auth\/ldap\/providers\/\$\{encodeURIComponent\(id\)\}\/test`[\s\S]*credentials \?\? \{\}/,
+    );
+  });
+
+  it("merges bindings and dispatches invitation/deletion by protocol", () => {
+    const inviteDialog = readSource(
+      "../src/views/passkey-settings/OidcInviteDialog.vue",
+    );
+    const workflow = readSource(
+      "../src/views/passkey-settings/useOidcBindingWorkflow.ts",
+    );
+    assert.match(workflow, /ConfigAPI\.getOIDCBindings/);
+    assert.match(workflow, /ConfigAPI\.getLdapBindings/);
+    assert.match(workflow, /provider\.kind === "ldap"/);
+    assert.match(workflow, /ConfigAPI\.createLdapInvite/);
+    assert.match(workflow, /binding\?\.protocol === "ldap"/);
+    assert.match(workflow, /ConfigAPI\.deleteLdapBinding/);
+    assert.match(inviteDialog, /\{\{ provider\.name \}\}/);
+    assert.doesNotMatch(inviteDialog, /provider\.kind\.toUpperCase/);
+  });
+});

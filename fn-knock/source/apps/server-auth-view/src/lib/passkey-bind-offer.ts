@@ -1,1 +1,26 @@
-ZXhwb3J0IGNvbnN0IHNob3VsZE9mZmVyUGFzc2tleUJpbmRpbmcgPSAoewogIGNhbkJpbmRQYXNza2V5LAogIGN1cnJlbnRCcm93c2VySGFzS25vd25QYXNza2V5LAogIGlzUGFzc2tleVN1cHBvcnRlZCwKICBsb2dpbk1vZGUsCn06IHsKICBjYW5CaW5kUGFzc2tleTogYm9vbGVhbjsKICBjdXJyZW50QnJvd3Nlckhhc0tub3duUGFzc2tleTogYm9vbGVhbjsKICBpc1Bhc3NrZXlTdXBwb3J0ZWQ6IGJvb2xlYW47CiAgbG9naW5Nb2RlPzogInRvdHAiIHwgInBhc3N3b3JkIjsKfSkgPT4KICBjYW5CaW5kUGFzc2tleSAmJgogICFjdXJyZW50QnJvd3Nlckhhc0tub3duUGFzc2tleSAmJgogIGlzUGFzc2tleVN1cHBvcnRlZCAmJgogIGxvZ2luTW9kZSAhPT0gInBhc3N3b3JkIjsKCmV4cG9ydCBjb25zdCBwYXNza2V5QmluZGluZ0NvcHlLZXlzID0gKGFjY291bnRIYXNQYXNza2V5OiBib29sZWFuKSA9PgogIGFjY291bnRIYXNQYXNza2V5CiAgICA/IHsKICAgICAgICBidXR0b246ICJhdXRoLmhvbWUuYWRkUGFzc2tleSIsCiAgICAgICAgaGludDogImF1dGguaG9tZS5wYXNza2V5QXZhaWxhYmxlQWRkRGV2aWNlIiwKICAgICAgfQogICAgOiB7CiAgICAgICAgYnV0dG9uOiAiYXV0aC5ob21lLmVuYWJsZVBhc3NrZXkiLAogICAgICAgIGhpbnQ6ICJhdXRoLmhvbWUucGFzc2tleVN1cHBvcnRlZFVuYm91bmQiLAogICAgICB9Owo=
+export const shouldOfferPasskeyBinding = ({
+  canBindPasskey,
+  currentBrowserHasKnownPasskey,
+  isPasskeySupported,
+  loginMode,
+}: {
+  canBindPasskey: boolean;
+  currentBrowserHasKnownPasskey: boolean;
+  isPasskeySupported: boolean;
+  loginMode?: "totp" | "password";
+}) =>
+  canBindPasskey &&
+  !currentBrowserHasKnownPasskey &&
+  isPasskeySupported &&
+  loginMode !== "password";
+
+export const passkeyBindingCopyKeys = (accountHasPasskey: boolean) =>
+  accountHasPasskey
+    ? {
+        button: "auth.home.addPasskey",
+        hint: "auth.home.passkeyAvailableAddDevice",
+      }
+    : {
+        button: "auth.home.enablePasskey",
+        hint: "auth.home.passkeySupportedUnbound",
+      };

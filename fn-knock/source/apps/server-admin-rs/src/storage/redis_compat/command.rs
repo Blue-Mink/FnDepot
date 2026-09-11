@@ -1,1 +1,223 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGNyYXRlKSBzdHJ1Y3QgQ21kIHsKICAgIHNwZWM6IENvbW1hbmRTcGVjLAp9CgpwdWIoY3JhdGUpIGZuIGNtZChuYW1lOiAmc3RyKSAtPiBDbWQgewogICAgQ21kIHsKICAgICAgICBzcGVjOiBDb21tYW5kU3BlYzo6bmV3KG5hbWUpLAogICAgfQp9CgppbXBsIENtZCB7CiAgICBwdWIoY3JhdGUpIGZuIGFyZzxUOiBUb1JlZGlzQXJncz4obXV0IHNlbGYsIHZhbHVlOiBUKSAtPiBTZWxmIHsKICAgICAgICB2YWx1ZS5hcHBlbmRfYXJncygmbXV0IHNlbGYuc3BlYy5hcmdzKTsKICAgICAgICBzZWxmCiAgICB9CgogICAgcHViKGNyYXRlKSBhc3luYyBmbiBxdWVyeV9hc3luYzxUOiBGcm9tQ21kT3V0cHV0PigKICAgICAgICBzZWxmLAogICAgICAgIGNvbm46ICZtdXQgQ29ubmVjdGlvbk1hbmFnZXIsCiAgICApIC0+IFJlZGlzUmVzdWx0PFQ+IHsKICAgICAgICBUOjpmcm9tX2NtZF9vdXRwdXQoY29ubi5leGVjdXRlX2NvbW1hbmQoc2VsZi5zcGVjKS5hd2FpdD8pCiAgICB9Cn0KCnB1YihjcmF0ZSkgc3RydWN0IFBpcGVsaW5lIHsKICAgIGNvbW1hbmRzOiBWZWM8Q29tbWFuZFNwZWM+LAogICAgY3VycmVudDogT3B0aW9uPENvbW1hbmRTcGVjPiwKfQoKcHViKGNyYXRlKSBmbiBwaXBlKCkgLT4gUGlwZWxpbmUgewogICAgUGlwZWxpbmUgewogICAgICAgIGNvbW1hbmRzOiBWZWM6Om5ldygpLAogICAgICAgIGN1cnJlbnQ6IE5vbmUsCiAgICB9Cn0KCmltcGwgUGlwZWxpbmUgewogICAgcHViKGNyYXRlKSBmbiBjbWQoJm11dCBzZWxmLCBuYW1lOiAmc3RyKSAtPiAmbXV0IFNlbGYgewogICAgICAgIHNlbGYuZmx1c2hfY3VycmVudCgpOwogICAgICAgIHNlbGYuY3VycmVudCA9IFNvbWUoQ29tbWFuZFNwZWM6Om5ldyhuYW1lKSk7CiAgICAgICAgc2VsZgogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gYXJnPFQ6IFRvUmVkaXNBcmdzPigmbXV0IHNlbGYsIHZhbHVlOiBUKSAtPiAmbXV0IFNlbGYgewogICAgICAgIGlmIGxldCBTb21lKGN1cnJlbnQpID0gJm11dCBzZWxmLmN1cnJlbnQgewogICAgICAgICAgICB2YWx1ZS5hcHBlbmRfYXJncygmbXV0IGN1cnJlbnQuYXJncyk7CiAgICAgICAgfQogICAgICAgIHNlbGYKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIGlnbm9yZSgmbXV0IHNlbGYpIC0+ICZtdXQgU2VsZiB7CiAgICAgICAgaWYgbGV0IFNvbWUoY3VycmVudCkgPSAmbXV0IHNlbGYuY3VycmVudCB7CiAgICAgICAgICAgIGN1cnJlbnQuaWdub3JlID0gdHJ1ZTsKICAgICAgICB9IGVsc2UgaWYgbGV0IFNvbWUobGFzdCkgPSBzZWxmLmNvbW1hbmRzLmxhc3RfbXV0KCkgewogICAgICAgICAgICBsYXN0Lmlnbm9yZSA9IHRydWU7CiAgICAgICAgfQogICAgICAgIHNlbGYuZmx1c2hfY3VycmVudCgpOwogICAgICAgIHNlbGYKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIHNldDxLOiBJbnRvS2V5LCBWOiBEaXNwbGF5PigmbXV0IHNlbGYsIGtleTogSywgdmFsdWU6IFYpIC0+ICZtdXQgU2VsZiB7CiAgICAgICAgc2VsZi5wdXNoX3NpbXBsZSgiU0VUIiwgdmVjIVtrZXkuaW50b19rZXkoKSwgdmFsdWUudG9fc3RyaW5nKCldKQogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gc2V0X2V4PEs6IEludG9LZXksIFY6IERpc3BsYXk+KAogICAgICAgICZtdXQgc2VsZiwKICAgICAgICBrZXk6IEssCiAgICAgICAgdmFsdWU6IFYsCiAgICAgICAgdHRsX3NlY29uZHM6IHU2NCwKICAgICkgLT4gJm11dCBTZWxmIHsKICAgICAgICBzZWxmLnB1c2hfc2ltcGxlKAogICAgICAgICAgICAiU0VURVgiLAogICAgICAgICAgICB2ZWMhW2tleS5pbnRvX2tleSgpLCB0dGxfc2Vjb25kcy50b19zdHJpbmcoKSwgdmFsdWUudG9fc3RyaW5nKCldLAogICAgICAgICkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIGRlbDxLOiBJbnRvS2V5cz4oJm11dCBzZWxmLCBrZXlzOiBLKSAtPiAmbXV0IFNlbGYgewogICAgICAgIHNlbGYucHVzaF9zaW1wbGUoIkRFTCIsIGtleXMuaW50b19rZXlzKCkpCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiBoc2V0PEs6IEludG9LZXksIEY6IERpc3BsYXksIFY6IERpc3BsYXk+KAogICAgICAgICZtdXQgc2VsZiwKICAgICAgICBrZXk6IEssCiAgICAgICAgZmllbGQ6IEYsCiAgICAgICAgdmFsdWU6IFYsCiAgICApIC0+ICZtdXQgU2VsZiB7CiAgICAgICAgc2VsZi5wdXNoX3NpbXBsZSgKICAgICAgICAgICAgIkhTRVQiLAogICAgICAgICAgICB2ZWMhW2tleS5pbnRvX2tleSgpLCBmaWVsZC50b19zdHJpbmcoKSwgdmFsdWUudG9fc3RyaW5nKCldLAogICAgICAgICkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIGhzZXRfbXVsdGlwbGUoJm11dCBzZWxmLCBrZXk6ICZzdHIsIHZhbHVlczogJlsoJlN0cmluZywgJlN0cmluZyldKSAtPiAmbXV0IFNlbGYgewogICAgICAgIGxldCBtdXQgYXJncyA9IHZlYyFba2V5LnRvX3N0cmluZygpXTsKICAgICAgICBmb3IgKGZpZWxkLCB2YWx1ZSkgaW4gdmFsdWVzIHsKICAgICAgICAgICAgYXJncy5wdXNoKCgqZmllbGQpLmNsb25lKCkpOwogICAgICAgICAgICBhcmdzLnB1c2goKCp2YWx1ZSkuY2xvbmUoKSk7CiAgICAgICAgfQogICAgICAgIHNlbGYucHVzaF9zaW1wbGUoIkhTRVQiLCBhcmdzKQogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gaGRlbDxLOiBJbnRvS2V5LCBGOiBJbnRvTWVtYmVycz4oJm11dCBzZWxmLCBrZXk6IEssIGZpZWxkczogRikgLT4gJm11dCBTZWxmIHsKICAgICAgICBsZXQgbXV0IGFyZ3MgPSB2ZWMhW2tleS5pbnRvX2tleSgpXTsKICAgICAgICBhcmdzLmV4dGVuZChmaWVsZHMuaW50b19tZW1iZXJzKCkpOwogICAgICAgIHNlbGYucHVzaF9zaW1wbGUoIkhERUwiLCBhcmdzKQogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gc2FkZDxLOiBJbnRvS2V5LCBNOiBJbnRvTWVtYmVycz4oJm11dCBzZWxmLCBrZXk6IEssIG1lbWJlcnM6IE0pIC0+ICZtdXQgU2VsZiB7CiAgICAgICAgbGV0IG11dCBhcmdzID0gdmVjIVtrZXkuaW50b19rZXkoKV07CiAgICAgICAgYXJncy5leHRlbmQobWVtYmVycy5pbnRvX21lbWJlcnMoKSk7CiAgICAgICAgc2VsZi5wdXNoX3NpbXBsZSgiU0FERCIsIGFyZ3MpCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiBzcmVtPEs6IEludG9LZXksIE06IEludG9NZW1iZXJzPigmbXV0IHNlbGYsIGtleTogSywgbWVtYmVyczogTSkgLT4gJm11dCBTZWxmIHsKICAgICAgICBsZXQgbXV0IGFyZ3MgPSB2ZWMhW2tleS5pbnRvX2tleSgpXTsKICAgICAgICBhcmdzLmV4dGVuZChtZW1iZXJzLmludG9fbWVtYmVycygpKTsKICAgICAgICBzZWxmLnB1c2hfc2ltcGxlKCJTUkVNIiwgYXJncykKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIHphZGQ8SzogSW50b0tleSwgTTogRGlzcGxheSwgUzogRGlzcGxheT4oCiAgICAgICAgJm11dCBzZWxmLAogICAgICAgIGtleTogSywKICAgICAgICBtZW1iZXI6IE0sCiAgICAgICAgc2NvcmU6IFMsCiAgICApIC0+ICZtdXQgU2VsZiB7CiAgICAgICAgc2VsZi5wdXNoX3NpbXBsZSgKICAgICAgICAgICAgIlpBREQiLAogICAgICAgICAgICB2ZWMhW2tleS5pbnRvX2tleSgpLCBzY29yZS50b19zdHJpbmcoKSwgbWVtYmVyLnRvX3N0cmluZygpXSwKICAgICAgICApCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiB6cmVtPEs6IEludG9LZXksIE06IEludG9NZW1iZXJzPigmbXV0IHNlbGYsIGtleTogSywgbWVtYmVyczogTSkgLT4gJm11dCBTZWxmIHsKICAgICAgICBsZXQgbXV0IGFyZ3MgPSB2ZWMhW2tleS5pbnRvX2tleSgpXTsKICAgICAgICBhcmdzLmV4dGVuZChtZW1iZXJzLmludG9fbWVtYmVycygpKTsKICAgICAgICBzZWxmLnB1c2hfc2ltcGxlKCJaUkVNIiwgYXJncykKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIHpyZW1ieXNjb3JlPEs6IEludG9LZXksIE1pbjogRGlzcGxheSwgTWF4OiBEaXNwbGF5PigKICAgICAgICAmbXV0IHNlbGYsCiAgICAgICAga2V5OiBLLAogICAgICAgIG1pbl9zY29yZTogTWluLAogICAgICAgIG1heF9zY29yZTogTWF4LAogICAgKSAtPiAmbXV0IFNlbGYgewogICAgICAgIHNlbGYucHVzaF9zaW1wbGUoCiAgICAgICAgICAgICJaUkVNUkFOR0VCWVNDT1JFIiwKICAgICAgICAgICAgdmVjIVtrZXkuaW50b19rZXkoKSwgbWluX3Njb3JlLnRvX3N0cmluZygpLCBtYXhfc2NvcmUudG9fc3RyaW5nKCldLAogICAgICAgICkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIHpjYXJkPEs6IEludG9LZXk+KCZtdXQgc2VsZiwga2V5OiBLKSAtPiAmbXV0IFNlbGYgewogICAgICAgIHNlbGYucHVzaF9zaW1wbGUoIlpDQVJEIiwgdmVjIVtrZXkuaW50b19rZXkoKV0pCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiB0dGw8SzogSW50b0tleT4oJm11dCBzZWxmLCBrZXk6IEspIC0+ICZtdXQgU2VsZiB7CiAgICAgICAgc2VsZi5wdXNoX3NpbXBsZSgiVFRMIiwgdmVjIVtrZXkuaW50b19rZXkoKV0pCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiBleHBpcmU8SzogSW50b0tleSwgVDogRGlzcGxheT4oJm11dCBzZWxmLCBrZXk6IEssIHR0bF9zZWNvbmRzOiBUKSAtPiAmbXV0IFNlbGYgewogICAgICAgIHNlbGYucHVzaF9zaW1wbGUoIkVYUElSRSIsIHZlYyFba2V5LmludG9fa2V5KCksIHR0bF9zZWNvbmRzLnRvX3N0cmluZygpXSkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGFzeW5jIGZuIHF1ZXJ5X2FzeW5jPFQ6IEZyb21QaXBlT3V0cHV0PigKICAgICAgICBtdXQgc2VsZiwKICAgICAgICBjb25uOiAmbXV0IENvbm5lY3Rpb25NYW5hZ2VyLAogICAgKSAtPiBSZWRpc1Jlc3VsdDxUPiB7CiAgICAgICAgc2VsZi5mbHVzaF9jdXJyZW50KCk7CiAgICAgICAgVDo6ZnJvbV9waXBlX291dHB1dHMoY29ubi5leGVjdXRlX3BpcGVsaW5lKHNlbGYuY29tbWFuZHMsIE5vbmUpLmF3YWl0PykKICAgIH0KCiAgICAvLy8gQXR0YWNoIGEgc3RhdGljIG9wZXJhdGlvbiBpZGVudGlmaWVyIHRvIHRoZSBhY3R1YWwgU1FMaXRlIGV4ZWN1dGlvbi4KICAgIC8vLyBMYWJlbHMgbXVzdCBuZXZlciBjb250YWluIGtleXMsIHJlcXVlc3QgZmllbGRzLCBvciBjb25maWd1cmF0aW9uIHZhbHVlcy4KICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gcXVlcnlfYXN5bmNfbmFtZWQ8VDogRnJvbVBpcGVPdXRwdXQ+KAogICAgICAgIG11dCBzZWxmLAogICAgICAgIGNvbm46ICZtdXQgQ29ubmVjdGlvbk1hbmFnZXIsCiAgICAgICAgbGFiZWw6ICYnc3RhdGljIHN0ciwKICAgICkgLT4gUmVkaXNSZXN1bHQ8VD4gewogICAgICAgIHNlbGYuZmx1c2hfY3VycmVudCgpOwogICAgICAgIFQ6OmZyb21fcGlwZV9vdXRwdXRzKGNvbm4uZXhlY3V0ZV9waXBlbGluZShzZWxmLmNvbW1hbmRzLCBTb21lKGxhYmVsKSkuYXdhaXQ/KQogICAgfQoKICAgIC8vLyBFeGVjdXRlcyB0aGlzIHBpcGVsaW5lIGluc2lkZSBhIGNhbGxlci1vd25lZCBTUUxpdGUgdHJhbnNhY3Rpb24uCiAgICAvLy8KICAgIC8vLyBEb21haW4gcmVwb3NpdG9yaWVzIHVzZSB0aGlzIHRvZ2V0aGVyIHdpdGgKICAgIC8vLyBbYGhhc2hfZmllbGRfbWF0Y2hlc19pbl90cmFuc2FjdGlvbmBdIHNvIGEgdHlwZWQtdGFibGUgbXV0YXRpb24gYW5kCiAgICAvLy8gaXRzIGNvbXBhdGliaWxpdHkta2V5c3BhY2UgaW5kZXhlcyBzaGFyZSBvbmUgY29tbWl0IGJvdW5kYXJ5LgogICAgcHViKGNyYXRlKSBmbiBxdWVyeV9pbl90cmFuc2FjdGlvbjxUOiBGcm9tUGlwZU91dHB1dD4oCiAgICAgICAgbXV0IHNlbGYsCiAgICAgICAgdHg6ICZydXNxbGl0ZTo6VHJhbnNhY3Rpb248J18+LAogICAgKSAtPiBSZWRpc1Jlc3VsdDxUPiB7CiAgICAgICAgc2VsZi5mbHVzaF9jdXJyZW50KCk7CiAgICAgICAgVDo6ZnJvbV9waXBlX291dHB1dHMoZXhlY3V0ZV9waXBlbGluZV9jb21tYW5kc190eCh0eCwgc2VsZi5jb21tYW5kcyk/KQogICAgfQoKICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gcXVlcnlfYXN5bmNfcmVwbGFjaW5nX3ByZWZpeDxUOiBGcm9tUGlwZU91dHB1dD4oCiAgICAgICAgbXV0IHNlbGYsCiAgICAgICAgY29ubjogJm11dCBDb25uZWN0aW9uTWFuYWdlciwKICAgICAgICBwcmVmaXg6ICZzdHIsCiAgICApIC0+IFJlZGlzUmVzdWx0PCh1c2l6ZSwgVCk+IHsKICAgICAgICBzZWxmLmZsdXNoX2N1cnJlbnQoKTsKICAgICAgICBsZXQgKGRlbGV0ZWQsIG91dHB1dHMpID0gY29ubgogICAgICAgICAgICAuZXhlY3V0ZV9waXBlbGluZV9yZXBsYWNpbmdfcHJlZml4KHByZWZpeCwgc2VsZi5jb21tYW5kcykKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBPaygoZGVsZXRlZCwgVDo6ZnJvbV9waXBlX291dHB1dHMob3V0cHV0cyk/KSkKICAgIH0KCiAgICBmbiBwdXNoX3NpbXBsZSgmbXV0IHNlbGYsIG5hbWU6ICZzdHIsIGFyZ3M6IFZlYzxTdHJpbmc+KSAtPiAmbXV0IFNlbGYgewogICAgICAgIHNlbGYuZmx1c2hfY3VycmVudCgpOwogICAgICAgIHNlbGYuY29tbWFuZHMucHVzaChDb21tYW5kU3BlYyB7CiAgICAgICAgICAgIG5hbWU6IG5hbWUudG9fYXNjaWlfdXBwZXJjYXNlKCksCiAgICAgICAgICAgIGFyZ3MsCiAgICAgICAgICAgIGlnbm9yZTogZmFsc2UsCiAgICAgICAgfSk7CiAgICAgICAgc2VsZgogICAgfQoKICAgIGZuIGZsdXNoX2N1cnJlbnQoJm11dCBzZWxmKSB7CiAgICAgICAgaWYgbGV0IFNvbWUoY3VycmVudCkgPSBzZWxmLmN1cnJlbnQudGFrZSgpIHsKICAgICAgICAgICAgc2VsZi5jb21tYW5kcy5wdXNoKGN1cnJlbnQpOwogICAgICAgIH0KICAgIH0KfQo=
+use super::*;
+
+pub(crate) struct Cmd {
+    spec: CommandSpec,
+}
+
+pub(crate) fn cmd(name: &str) -> Cmd {
+    Cmd {
+        spec: CommandSpec::new(name),
+    }
+}
+
+impl Cmd {
+    pub(crate) fn arg<T: ToRedisArgs>(mut self, value: T) -> Self {
+        value.append_args(&mut self.spec.args);
+        self
+    }
+
+    pub(crate) async fn query_async<T: FromCmdOutput>(
+        self,
+        conn: &mut ConnectionManager,
+    ) -> RedisResult<T> {
+        T::from_cmd_output(conn.execute_command(self.spec).await?)
+    }
+}
+
+pub(crate) struct Pipeline {
+    commands: Vec<CommandSpec>,
+    current: Option<CommandSpec>,
+}
+
+pub(crate) fn pipe() -> Pipeline {
+    Pipeline {
+        commands: Vec::new(),
+        current: None,
+    }
+}
+
+impl Pipeline {
+    pub(crate) fn cmd(&mut self, name: &str) -> &mut Self {
+        self.flush_current();
+        self.current = Some(CommandSpec::new(name));
+        self
+    }
+
+    pub(crate) fn arg<T: ToRedisArgs>(&mut self, value: T) -> &mut Self {
+        if let Some(current) = &mut self.current {
+            value.append_args(&mut current.args);
+        }
+        self
+    }
+
+    pub(crate) fn ignore(&mut self) -> &mut Self {
+        if let Some(current) = &mut self.current {
+            current.ignore = true;
+        } else if let Some(last) = self.commands.last_mut() {
+            last.ignore = true;
+        }
+        self.flush_current();
+        self
+    }
+
+    pub(crate) fn set<K: IntoKey, V: Display>(&mut self, key: K, value: V) -> &mut Self {
+        self.push_simple("SET", vec![key.into_key(), value.to_string()])
+    }
+
+    pub(crate) fn set_ex<K: IntoKey, V: Display>(
+        &mut self,
+        key: K,
+        value: V,
+        ttl_seconds: u64,
+    ) -> &mut Self {
+        self.push_simple(
+            "SETEX",
+            vec![key.into_key(), ttl_seconds.to_string(), value.to_string()],
+        )
+    }
+
+    pub(crate) fn del<K: IntoKeys>(&mut self, keys: K) -> &mut Self {
+        self.push_simple("DEL", keys.into_keys())
+    }
+
+    pub(crate) fn hset<K: IntoKey, F: Display, V: Display>(
+        &mut self,
+        key: K,
+        field: F,
+        value: V,
+    ) -> &mut Self {
+        self.push_simple(
+            "HSET",
+            vec![key.into_key(), field.to_string(), value.to_string()],
+        )
+    }
+
+    pub(crate) fn hset_multiple(&mut self, key: &str, values: &[(&String, &String)]) -> &mut Self {
+        let mut args = vec![key.to_string()];
+        for (field, value) in values {
+            args.push((*field).clone());
+            args.push((*value).clone());
+        }
+        self.push_simple("HSET", args)
+    }
+
+    pub(crate) fn hdel<K: IntoKey, F: IntoMembers>(&mut self, key: K, fields: F) -> &mut Self {
+        let mut args = vec![key.into_key()];
+        args.extend(fields.into_members());
+        self.push_simple("HDEL", args)
+    }
+
+    pub(crate) fn sadd<K: IntoKey, M: IntoMembers>(&mut self, key: K, members: M) -> &mut Self {
+        let mut args = vec![key.into_key()];
+        args.extend(members.into_members());
+        self.push_simple("SADD", args)
+    }
+
+    pub(crate) fn srem<K: IntoKey, M: IntoMembers>(&mut self, key: K, members: M) -> &mut Self {
+        let mut args = vec![key.into_key()];
+        args.extend(members.into_members());
+        self.push_simple("SREM", args)
+    }
+
+    pub(crate) fn zadd<K: IntoKey, M: Display, S: Display>(
+        &mut self,
+        key: K,
+        member: M,
+        score: S,
+    ) -> &mut Self {
+        self.push_simple(
+            "ZADD",
+            vec![key.into_key(), score.to_string(), member.to_string()],
+        )
+    }
+
+    pub(crate) fn zrem<K: IntoKey, M: IntoMembers>(&mut self, key: K, members: M) -> &mut Self {
+        let mut args = vec![key.into_key()];
+        args.extend(members.into_members());
+        self.push_simple("ZREM", args)
+    }
+
+    pub(crate) fn zrembyscore<K: IntoKey, Min: Display, Max: Display>(
+        &mut self,
+        key: K,
+        min_score: Min,
+        max_score: Max,
+    ) -> &mut Self {
+        self.push_simple(
+            "ZREMRANGEBYSCORE",
+            vec![key.into_key(), min_score.to_string(), max_score.to_string()],
+        )
+    }
+
+    pub(crate) fn zcard<K: IntoKey>(&mut self, key: K) -> &mut Self {
+        self.push_simple("ZCARD", vec![key.into_key()])
+    }
+
+    pub(crate) fn ttl<K: IntoKey>(&mut self, key: K) -> &mut Self {
+        self.push_simple("TTL", vec![key.into_key()])
+    }
+
+    pub(crate) fn expire<K: IntoKey, T: Display>(&mut self, key: K, ttl_seconds: T) -> &mut Self {
+        self.push_simple("EXPIRE", vec![key.into_key(), ttl_seconds.to_string()])
+    }
+
+    pub(crate) async fn query_async<T: FromPipeOutput>(
+        mut self,
+        conn: &mut ConnectionManager,
+    ) -> RedisResult<T> {
+        self.flush_current();
+        T::from_pipe_outputs(conn.execute_pipeline(self.commands, None).await?)
+    }
+
+    /// Attach a static operation identifier to the actual SQLite execution.
+    /// Labels must never contain keys, request fields, or configuration values.
+    pub(crate) async fn query_async_named<T: FromPipeOutput>(
+        mut self,
+        conn: &mut ConnectionManager,
+        label: &'static str,
+    ) -> RedisResult<T> {
+        self.flush_current();
+        T::from_pipe_outputs(conn.execute_pipeline(self.commands, Some(label)).await?)
+    }
+
+    /// Executes this pipeline inside a caller-owned SQLite transaction.
+    ///
+    /// Domain repositories use this together with
+    /// [`hash_field_matches_in_transaction`] so a typed-table mutation and
+    /// its compatibility-keyspace indexes share one commit boundary.
+    pub(crate) fn query_in_transaction<T: FromPipeOutput>(
+        mut self,
+        tx: &rusqlite::Transaction<'_>,
+    ) -> RedisResult<T> {
+        self.flush_current();
+        T::from_pipe_outputs(execute_pipeline_commands_tx(tx, self.commands)?)
+    }
+
+    pub(crate) async fn query_async_replacing_prefix<T: FromPipeOutput>(
+        mut self,
+        conn: &mut ConnectionManager,
+        prefix: &str,
+    ) -> RedisResult<(usize, T)> {
+        self.flush_current();
+        let (deleted, outputs) = conn
+            .execute_pipeline_replacing_prefix(prefix, self.commands)
+            .await?;
+        Ok((deleted, T::from_pipe_outputs(outputs)?))
+    }
+
+    fn push_simple(&mut self, name: &str, args: Vec<String>) -> &mut Self {
+        self.flush_current();
+        self.commands.push(CommandSpec {
+            name: name.to_ascii_uppercase(),
+            args,
+            ignore: false,
+        });
+        self
+    }
+
+    fn flush_current(&mut self) {
+        if let Some(current) = self.current.take() {
+            self.commands.push(current);
+        }
+    }
+}

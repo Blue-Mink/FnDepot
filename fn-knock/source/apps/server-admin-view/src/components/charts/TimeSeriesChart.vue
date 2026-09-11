@@ -1,1 +1,101 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCAidXBsb3QvZGlzdC91UGxvdC5taW4uY3NzIjsKaW1wb3J0IHsKICB1c2VUaW1lU2VyaWVzQ2hhcnQsCiAgdHlwZSBUaW1lU2VyaWVzQ2hhcnRQcm9wcywKfSBmcm9tICIuL3VzZVRpbWVTZXJpZXNDaGFydCI7CgpleHBvcnQgdHlwZSB7CiAgVGltZVNlcmllc0NoYXJ0U2VyaWVzLAogIFRpbWVTZXJpZXNQb2ludCwKfSBmcm9tICIuL3RpbWVTZXJpZXNDaGFydE1vZGVsIjsKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKGRlZmluZVByb3BzPFRpbWVTZXJpZXNDaGFydFByb3BzPigpLCB7CiAgdmFsdWVGb3JtYXR0ZXI6IHVuZGVmaW5lZCwKICB0aW1lRm9ybWF0dGVyOiB1bmRlZmluZWQsCiAgZW1wdHlUZXh0OiAiIiwKICBtaW5IZWlnaHQ6IDEyMCwKICB5TWluOiB1bmRlZmluZWQsCiAgc2hvd0xlZ2VuZDogdHJ1ZSwKfSk7Cgpjb25zdCB7IGhhc1JlbmRlcmFibGVEYXRhLCBsZWdlbmRJdGVtcywgcm9vdCwgc2hvdWxkU2hvd0xlZ2VuZCwgdG9vbHRpcCB9ID0KICB1c2VUaW1lU2VyaWVzQ2hhcnQocHJvcHMpOwoKLy8gVnVlIGFzc2lnbnMgdGhpcyBzdHJpbmcgdGVtcGxhdGUgcmVmIGF0IHJ1bnRpbWUuCnZvaWQgcm9vdDsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgY2xhc3M9InRpbWUtc2VyaWVzLWNoYXJ0IGZsZXggaC1mdWxsIHctZnVsbCBtaW4tdy0wIGZsZXgtY29sIG92ZXJmbG93LWhpZGRlbiIKICA+CiAgICA8ZGl2CiAgICAgIHYtaWY9InNob3VsZFNob3dMZWdlbmQiCiAgICAgIGNsYXNzPSJmbGV4IHNocmluay0wIGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1lbmQgZ2FwLXgtMyBnYXAteS0xIHB4LTEgcGItMSB0ZXh0LVsxMXB4XSBsZWFkaW5nLTQgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgPgogICAgICA8c3BhbgogICAgICAgIHYtZm9yPSJpdGVtIGluIGxlZ2VuZEl0ZW1zIgogICAgICAgIDprZXk9Iml0ZW0ubmFtZSIKICAgICAgICBjbGFzcz0iaW5saW5lLWZsZXggbWluLXctMCBtYXgtdy00MCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSIKICAgICAgICA6dGl0bGU9Iml0ZW0ubmFtZSIKICAgICAgPgogICAgICAgIDxzcGFuCiAgICAgICAgICBjbGFzcz0iaC0yIHctMiBzaHJpbmstMCByb3VuZGVkLWZ1bGwiCiAgICAgICAgICA6c3R5bGU9InsgYmFja2dyb3VuZENvbG9yOiBpdGVtLmNvbG9yIH0iCiAgICAgICAgPjwvc3Bhbj4KICAgICAgICA8c3BhbiBjbGFzcz0idHJ1bmNhdGUiPnt7IGl0ZW0ubmFtZSB9fTwvc3Bhbj4KICAgICAgPC9zcGFuPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJyZWxhdGl2ZSBtaW4taC0wIHctZnVsbCBmbGV4LTEiPgogICAgICA8ZGl2IHJlZj0icm9vdCIgY2xhc3M9ImgtZnVsbCB3LWZ1bGwgbWluLXctMCI+PC9kaXY+CiAgICAgIDxkaXYKICAgICAgICB2LWlmPSIhaGFzUmVuZGVyYWJsZURhdGEgJiYgZW1wdHlUZXh0IgogICAgICAgIGNsYXNzPSJhYnNvbHV0ZSBpbnNldC0wIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICA+CiAgICAgICAge3sgZW1wdHlUZXh0IH19CiAgICAgIDwvZGl2PgogICAgICA8ZGl2CiAgICAgICAgdi1pZj0idG9vbHRpcC52aXNpYmxlIgogICAgICAgIGNsYXNzPSJwb2ludGVyLWV2ZW50cy1ub25lIGFic29sdXRlIHotMTAgbWluLXctMzYgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLXdoaXRlLzEwIGJnLWJsYWNrLzg1IHB4LTMgcHktMiB0ZXh0LXhzIHRleHQtd2hpdGUgc2hhZG93LWxnIgogICAgICAgIDpzdHlsZT0ieyBsZWZ0OiBgJHt0b29sdGlwLmxlZnR9cHhgLCB0b3A6IGAke3Rvb2x0aXAudG9wfXB4YCB9IgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzcz0ibWItMSBmb250LW1lZGl1bSB0ZXh0LXdoaXRlLzg1Ij57eyB0b29sdGlwLnRpbWUgfX08L2Rpdj4KICAgICAgICA8ZGl2CiAgICAgICAgICB2LWZvcj0iaXRlbSBpbiB0b29sdGlwLml0ZW1zIgogICAgICAgICAgOmtleT0iaXRlbS5uYW1lIgogICAgICAgICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtNCIKICAgICAgICA+CiAgICAgICAgICA8c3BhbiBjbGFzcz0iaW5saW5lLWZsZXggbWluLXctMCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSI+CiAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgY2xhc3M9ImgtMiB3LTIgc2hyaW5rLTAgcm91bmRlZC1mdWxsIgogICAgICAgICAgICAgIDpzdHlsZT0ieyBiYWNrZ3JvdW5kQ29sb3I6IGl0ZW0uY29sb3IgfSIKICAgICAgICAgICAgPjwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9InRydW5jYXRlIj57eyBpdGVtLm5hbWUgfX08L3NwYW4+CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8c3BhbiBjbGFzcz0ic2hyaW5rLTAgZm9udC1tZWRpdW0iPnt7IGl0ZW0udmFsdWUgfX08L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkPgoudGltZS1zZXJpZXMtY2hhcnQgOmRlZXAoLnVwbG90KSB7CiAgaGVpZ2h0OiAxMDAlOwogIHdpZHRoOiAxMDAlOwp9CgoudGltZS1zZXJpZXMtY2hhcnQgOmRlZXAoLnUtb3ZlciksCi50aW1lLXNlcmllcy1jaGFydCA6ZGVlcCgudS11bmRlcikgewogIG1heC13aWR0aDogMTAwJTsKfQoKLnRpbWUtc2VyaWVzLWNoYXJ0IDpkZWVwKC51LWN1cnNvci14KSB7CiAgYm9yZGVyLXJpZ2h0LWNvbG9yOiByZ2JhKDExNSwgMTE1LCAxMTUsIDAuNTUpOwp9Cgo6Z2xvYmFsKC5kYXJrKSAudGltZS1zZXJpZXMtY2hhcnQgOmRlZXAoLnUtY3Vyc29yLXgpIHsKICBib3JkZXItcmlnaHQtY29sb3I6IHJnYmEoMjEyLCAyMTIsIDIxMiwgMC40NSk7Cn0KPC9zdHlsZT4K
+<script setup lang="ts">
+import "uplot/dist/uPlot.min.css";
+import {
+  useTimeSeriesChart,
+  type TimeSeriesChartProps,
+} from "./useTimeSeriesChart";
+
+export type {
+  TimeSeriesChartSeries,
+  TimeSeriesPoint,
+} from "./timeSeriesChartModel";
+
+const props = withDefaults(defineProps<TimeSeriesChartProps>(), {
+  valueFormatter: undefined,
+  timeFormatter: undefined,
+  emptyText: "",
+  minHeight: 120,
+  yMin: undefined,
+  showLegend: true,
+});
+
+const { hasRenderableData, legendItems, root, shouldShowLegend, tooltip } =
+  useTimeSeriesChart(props);
+
+// Vue assigns this string template ref at runtime.
+void root;
+</script>
+
+<template>
+  <div
+    class="time-series-chart flex h-full w-full min-w-0 flex-col overflow-hidden"
+  >
+    <div
+      v-if="shouldShowLegend"
+      class="flex shrink-0 flex-wrap items-center justify-end gap-x-3 gap-y-1 px-1 pb-1 text-[11px] leading-4 text-muted-foreground"
+    >
+      <span
+        v-for="item in legendItems"
+        :key="item.name"
+        class="inline-flex min-w-0 max-w-40 items-center gap-1.5"
+        :title="item.name"
+      >
+        <span
+          class="h-2 w-2 shrink-0 rounded-full"
+          :style="{ backgroundColor: item.color }"
+        ></span>
+        <span class="truncate">{{ item.name }}</span>
+      </span>
+    </div>
+    <div class="relative min-h-0 w-full flex-1">
+      <div ref="root" class="h-full w-full min-w-0"></div>
+      <div
+        v-if="!hasRenderableData && emptyText"
+        class="absolute inset-0 flex items-center justify-center text-xs text-muted-foreground"
+      >
+        {{ emptyText }}
+      </div>
+      <div
+        v-if="tooltip.visible"
+        class="pointer-events-none absolute z-10 min-w-36 rounded-md border border-white/10 bg-black/85 px-3 py-2 text-xs text-white shadow-lg"
+        :style="{ left: `${tooltip.left}px`, top: `${tooltip.top}px` }"
+      >
+        <div class="mb-1 font-medium text-white/85">{{ tooltip.time }}</div>
+        <div
+          v-for="item in tooltip.items"
+          :key="item.name"
+          class="flex items-center justify-between gap-4"
+        >
+          <span class="inline-flex min-w-0 items-center gap-1.5">
+            <span
+              class="h-2 w-2 shrink-0 rounded-full"
+              :style="{ backgroundColor: item.color }"
+            ></span>
+            <span class="truncate">{{ item.name }}</span>
+          </span>
+          <span class="shrink-0 font-medium">{{ item.value }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.time-series-chart :deep(.uplot) {
+  height: 100%;
+  width: 100%;
+}
+
+.time-series-chart :deep(.u-over),
+.time-series-chart :deep(.u-under) {
+  max-width: 100%;
+}
+
+.time-series-chart :deep(.u-cursor-x) {
+  border-right-color: rgba(115, 115, 115, 0.55);
+}
+
+:global(.dark) .time-series-chart :deep(.u-cursor-x) {
+  border-right-color: rgba(212, 212, 212, 0.45);
+}
+</style>

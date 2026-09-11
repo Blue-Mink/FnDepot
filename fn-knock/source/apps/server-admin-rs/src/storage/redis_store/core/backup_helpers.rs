@@ -1,1 +1,110 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBhcHBlbmRfYmFja3VwX3Jlc3RvcmVfY29tbWFuZHMocGlwZTogJm11dCByZWRpczo6UGlwZWxpbmUsIGVudHJ5OiAmVmFsdWUpIC0+IHVzaXplIHsKICAgIGxldCBrZXkgPSBlbnRyeS5nZXQoImtleSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIik7CiAgICBsZXQgdmFsdWVfdHlwZSA9IGVudHJ5LmdldCgidHlwZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIik7CiAgICBsZXQgdHRsX21zID0gZW50cnkKICAgICAgICAuZ2V0KCJ0dGxfbXMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAqdmFsdWUgPiAwKTsKICAgIGlmIGtleS5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gMDsKICAgIH0KCiAgICBsZXQgbXV0IGNvbW1hbmRfY291bnQgPSAwdXNpemU7CiAgICBtYXRjaCB2YWx1ZV90eXBlIHsKICAgICAgICAic3RyaW5nIiA9PiB7CiAgICAgICAgICAgIGxldCBjb21tYW5kID0gcGlwZQogICAgICAgICAgICAgICAgLmNtZCgiU0VUIikKICAgICAgICAgICAgICAgIC5hcmcoa2V5KQogICAgICAgICAgICAgICAgLmFyZyhlbnRyeS5nZXQoInZhbHVlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKSk7CiAgICAgICAgICAgIGlmIGxldCBTb21lKHR0bF9tcykgPSB0dGxfbXMgewogICAgICAgICAgICAgICAgY29tbWFuZC5hcmcoIlBYIikuYXJnKHR0bF9tcyk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY29tbWFuZC5pZ25vcmUoKTsKICAgICAgICAgICAgY29tbWFuZF9jb3VudCArPSAxOwogICAgICAgIH0KICAgICAgICAiaGFzaCIgPT4gewogICAgICAgICAgICBpZiBsZXQgU29tZShvYmplY3QpID0gZW50cnkuZ2V0KCJ2YWx1ZSIpLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3QpCiAgICAgICAgICAgICAgICAmJiAhb2JqZWN0LmlzX2VtcHR5KCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgbGV0IHBhaXJzID0gb2JqZWN0CiAgICAgICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgICAgIC5maWx0ZXJfbWFwKHwoZmllbGQsIHZhbHVlKXwgdmFsdWUuYXNfc3RyKCkubWFwKHx0ZXh0fCAoZmllbGQuYXNfc3RyKCksIHRleHQpKSkKICAgICAgICAgICAgICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgICAgICAgICAgICAgIGlmIHBhaXJzLmlzX2VtcHR5KCkgewogICAgICAgICAgICAgICAgICAgIHJldHVybiBjb21tYW5kX2NvdW50OwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcGlwZS5jbWQoIkhTRVQiKS5hcmcoa2V5KTsKICAgICAgICAgICAgICAgIGZvciAoZmllbGQsIHZhbHVlKSBpbiBwYWlycyB7CiAgICAgICAgICAgICAgICAgICAgcGlwZS5hcmcoZmllbGQpLmFyZyh2YWx1ZSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBwaXBlLmlnbm9yZSgpOwogICAgICAgICAgICAgICAgY29tbWFuZF9jb3VudCArPSAxOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgICJsaXN0IiA9PiB7CiAgICAgICAgICAgIGlmIGxldCBTb21lKGl0ZW1zKSA9IGVudHJ5LmdldCgidmFsdWUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgICAgICAgICAmJiAhaXRlbXMuaXNfZW1wdHkoKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBwaXBlLmNtZCgiUlBVU0giKS5hcmcoa2V5KTsKICAgICAgICAgICAgICAgIGZvciBpdGVtIGluIGl0ZW1zIHsKICAgICAgICAgICAgICAgICAgICBwaXBlLmFyZyhpdGVtLmFzX3N0cigpLnVud3JhcF9vcigiIikpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcGlwZS5pZ25vcmUoKTsKICAgICAgICAgICAgICAgIGNvbW1hbmRfY291bnQgKz0gMTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAic2V0IiA9PiB7CiAgICAgICAgICAgIGlmIGxldCBTb21lKGl0ZW1zKSA9IGVudHJ5LmdldCgidmFsdWUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgICAgICAgICAmJiAhaXRlbXMuaXNfZW1wdHkoKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBwaXBlLmNtZCgiU0FERCIpLmFyZyhrZXkpOwogICAgICAgICAgICAgICAgZm9yIGl0ZW0gaW4gaXRlbXMgewogICAgICAgICAgICAgICAgICAgIHBpcGUuYXJnKGl0ZW0uYXNfc3RyKCkudW53cmFwX29yKCIiKSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBwaXBlLmlnbm9yZSgpOwogICAgICAgICAgICAgICAgY29tbWFuZF9jb3VudCArPSAxOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgICJ6c2V0IiA9PiB7CiAgICAgICAgICAgIGlmIGxldCBTb21lKGl0ZW1zKSA9IGVudHJ5LmdldCgidmFsdWUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgICAgICAgICAmJiAhaXRlbXMuaXNfZW1wdHkoKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBwaXBlLmNtZCgiWkFERCIpLmFyZyhrZXkpOwogICAgICAgICAgICAgICAgZm9yIGl0ZW0gaW4gaXRlbXMgewogICAgICAgICAgICAgICAgICAgIHBpcGUuYXJnKGl0ZW0uZ2V0KCJzY29yZSIpLmFuZF90aGVuKFZhbHVlOjphc19mNjQpLnVud3JhcF9vcigwLjApKQogICAgICAgICAgICAgICAgICAgICAgICAuYXJnKGl0ZW0uZ2V0KCJtZW1iZXIiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHBpcGUuaWdub3JlKCk7CiAgICAgICAgICAgICAgICBjb21tYW5kX2NvdW50ICs9IDE7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgInN0cmVhbSIgPT4gewogICAgICAgICAgICBpZiBsZXQgU29tZShpdGVtcykgPSBlbnRyeS5nZXQoInZhbHVlIikuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KSB7CiAgICAgICAgICAgICAgICBmb3IgaXRlbSBpbiBpdGVtcyB7CiAgICAgICAgICAgICAgICAgICAgbGV0IGlkID0gaXRlbS5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIqIik7CiAgICAgICAgICAgICAgICAgICAgbGV0IFNvbWUoZmllbGRzKSA9IGl0ZW0uZ2V0KCJmaWVsZHMiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpIGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgICAgICAgICB9OwogICAgICAgICAgICAgICAgICAgIGlmIGZpZWxkcy5pc19lbXB0eSgpIHx8IGZpZWxkcy5sZW4oKSAlIDIgIT0gMCB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBwaXBlLmNtZCgiWEFERCIpLmFyZyhrZXkpLmFyZyhpZCk7CiAgICAgICAgICAgICAgICAgICAgZm9yIGZpZWxkIGluIGZpZWxkcyB7CiAgICAgICAgICAgICAgICAgICAgICAgIHBpcGUuYXJnKGZpZWxkLmFzX3N0cigpLnVud3JhcF9vcigiIikpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBwaXBlLmlnbm9yZSgpOwogICAgICAgICAgICAgICAgICAgIGNvbW1hbmRfY291bnQgKz0gMTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBfID0+IHt9CiAgICB9CgogICAgaWYgbGV0IFNvbWUodHRsX21zKSA9IHR0bF9tcy5maWx0ZXIofF98ICFtYXRjaGVzISh2YWx1ZV90eXBlLCAibm9uZSIgfCAic3RyaW5nIikpIHsKICAgICAgICBwaXBlLmNtZCgiUEVYUElSRSIpLmFyZyhrZXkpLmFyZyh0dGxfbXMpLmlnbm9yZSgpOwogICAgICAgIGNvbW1hbmRfY291bnQgKz0gMTsKICAgIH0KICAgIGNvbW1hbmRfY291bnQKfQo=
+use super::*;
+
+pub(super) fn append_backup_restore_commands(pipe: &mut redis::Pipeline, entry: &Value) -> usize {
+    let key = entry.get("key").and_then(Value::as_str).unwrap_or("");
+    let value_type = entry.get("type").and_then(Value::as_str).unwrap_or("");
+    let ttl_ms = entry
+        .get("ttl_ms")
+        .and_then(Value::as_i64)
+        .filter(|value| *value > 0);
+    if key.is_empty() {
+        return 0;
+    }
+
+    let mut command_count = 0usize;
+    match value_type {
+        "string" => {
+            let command = pipe
+                .cmd("SET")
+                .arg(key)
+                .arg(entry.get("value").and_then(Value::as_str).unwrap_or(""));
+            if let Some(ttl_ms) = ttl_ms {
+                command.arg("PX").arg(ttl_ms);
+            }
+            command.ignore();
+            command_count += 1;
+        }
+        "hash" => {
+            if let Some(object) = entry.get("value").and_then(Value::as_object)
+                && !object.is_empty()
+            {
+                let pairs = object
+                    .iter()
+                    .filter_map(|(field, value)| value.as_str().map(|text| (field.as_str(), text)))
+                    .collect::<Vec<_>>();
+                if pairs.is_empty() {
+                    return command_count;
+                }
+                pipe.cmd("HSET").arg(key);
+                for (field, value) in pairs {
+                    pipe.arg(field).arg(value);
+                }
+                pipe.ignore();
+                command_count += 1;
+            }
+        }
+        "list" => {
+            if let Some(items) = entry.get("value").and_then(Value::as_array)
+                && !items.is_empty()
+            {
+                pipe.cmd("RPUSH").arg(key);
+                for item in items {
+                    pipe.arg(item.as_str().unwrap_or(""));
+                }
+                pipe.ignore();
+                command_count += 1;
+            }
+        }
+        "set" => {
+            if let Some(items) = entry.get("value").and_then(Value::as_array)
+                && !items.is_empty()
+            {
+                pipe.cmd("SADD").arg(key);
+                for item in items {
+                    pipe.arg(item.as_str().unwrap_or(""));
+                }
+                pipe.ignore();
+                command_count += 1;
+            }
+        }
+        "zset" => {
+            if let Some(items) = entry.get("value").and_then(Value::as_array)
+                && !items.is_empty()
+            {
+                pipe.cmd("ZADD").arg(key);
+                for item in items {
+                    pipe.arg(item.get("score").and_then(Value::as_f64).unwrap_or(0.0))
+                        .arg(item.get("member").and_then(Value::as_str).unwrap_or(""));
+                }
+                pipe.ignore();
+                command_count += 1;
+            }
+        }
+        "stream" => {
+            if let Some(items) = entry.get("value").and_then(Value::as_array) {
+                for item in items {
+                    let id = item.get("id").and_then(Value::as_str).unwrap_or("*");
+                    let Some(fields) = item.get("fields").and_then(Value::as_array) else {
+                        continue;
+                    };
+                    if fields.is_empty() || fields.len() % 2 != 0 {
+                        continue;
+                    }
+                    pipe.cmd("XADD").arg(key).arg(id);
+                    for field in fields {
+                        pipe.arg(field.as_str().unwrap_or(""));
+                    }
+                    pipe.ignore();
+                    command_count += 1;
+                }
+            }
+        }
+        _ => {}
+    }
+
+    if let Some(ttl_ms) = ttl_ms.filter(|_| !matches!(value_type, "none" | "string")) {
+        pipe.cmd("PEXPIRE").arg(key).arg(ttl_ms).ignore();
+        command_count += 1;
+    }
+    command_count
+}

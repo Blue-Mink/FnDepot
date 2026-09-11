@@ -1,1 +1,30 @@
-aW1wb3J0IHsgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgU3lzdGVtQVBJIH0gZnJvbSAiQC9saWIvYXBpL3N5c3RlbSI7CgppbnRlcmZhY2UgVXNlQWNjZXNzRW50cnlQb3J0T3B0aW9ucyB7CiAgZmFsbGJhY2tQb3J0Pzogc3RyaW5nOwogIG9uRXJyb3I/OiAoZXJyb3I6IHVua25vd24pID0+IHZvaWQ7Cn0KCmV4cG9ydCBmdW5jdGlvbiB1c2VBY2Nlc3NFbnRyeVBvcnQoewogIGZhbGxiYWNrUG9ydCA9ICI3OTk5IiwKICBvbkVycm9yID0gKGVycm9yKSA9PiB7CiAgICBjb25zb2xlLndhcm4oImxvYWQgYWNjZXNzIGVudHJ5IHBvcnQgZmFpbGVkOiIsIGVycm9yKTsKICB9LAp9OiBVc2VBY2Nlc3NFbnRyeVBvcnRPcHRpb25zID0ge30pIHsKICBjb25zdCBhY2Nlc3NFbnRyeVBvcnQgPSByZWYoZmFsbGJhY2tQb3J0KTsKCiAgYXN5bmMgZnVuY3Rpb24gbG9hZEFjY2Vzc0VudHJ5UG9ydCgpIHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IGluZm8gPSBhd2FpdCBTeXN0ZW1BUEkuZ2V0QWNjZXNzRW50cnkoKTsKICAgICAgYWNjZXNzRW50cnlQb3J0LnZhbHVlID0gaW5mby5wb3J0LnRyaW0oKSB8fCBmYWxsYmFja1BvcnQ7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBvbkVycm9yKGVycm9yKTsKICAgIH0KICB9CgogIHJldHVybiB7CiAgICBhY2Nlc3NFbnRyeVBvcnQsCiAgICBsb2FkQWNjZXNzRW50cnlQb3J0LAogIH07Cn0K
+import { ref } from "vue";
+import { SystemAPI } from "@/lib/api/system";
+
+interface UseAccessEntryPortOptions {
+  fallbackPort?: string;
+  onError?: (error: unknown) => void;
+}
+
+export function useAccessEntryPort({
+  fallbackPort = "7999",
+  onError = (error) => {
+    console.warn("load access entry port failed:", error);
+  },
+}: UseAccessEntryPortOptions = {}) {
+  const accessEntryPort = ref(fallbackPort);
+
+  async function loadAccessEntryPort() {
+    try {
+      const info = await SystemAPI.getAccessEntry();
+      accessEntryPort.value = info.port.trim() || fallbackPort;
+    } catch (error) {
+      onError(error);
+    }
+  }
+
+  return {
+    accessEntryPort,
+    loadAccessEntryPort,
+  };
+}

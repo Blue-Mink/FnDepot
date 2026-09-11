@@ -1,1 +1,66 @@
-cHViKGNyYXRlKSBtb2QgbGVnYWN5X3JlZGlzX21pZ3JhdGlvbjsKcHViKGNyYXRlKSBtb2QgcmVkaXNfY29tcGF0OwpwdWIoY3JhdGUpIG1vZCByZWRpc19zdG9yZTsKcHViKGNyYXRlKSBtb2QgdHlwZWRfY29uZmlnOwpwdWIoY3JhdGUpIG1vZCB0eXBlZF9kb2NrZXJfYWRtaW47CnB1YihjcmF0ZSkgbW9kIHR5cGVkX2V2ZW50X2RlZHVwZTsKcHViKGNyYXRlKSBtb2QgdHlwZWRfZXZlbnRzOwpwdWIoY3JhdGUpIG1vZCB0eXBlZF9mbm9zX3NoYXJlOwpwdWIoY3JhdGUpIG1vZCB0eXBlZF9obWFjX25vbmNlOwpwdWIoY3JhdGUpIG1vZCB0eXBlZF9pZGVudGl0eV9ydW50aW1lOwpwdWIoY3JhdGUpIG1vZCB0eXBlZF9sb2dpbl9iYWNrb2ZmOwpwdWIoY3JhdGUpIG1vZCB0eXBlZF9tb2JpbGl0eTsKcHViKGNyYXRlKSBtb2QgdHlwZWRfbm90aWZpY2F0aW9uX3J1bnRpbWU7CnB1YihjcmF0ZSkgbW9kIHR5cGVkX25vdGlmaWNhdGlvbnM7CnB1YihjcmF0ZSkgbW9kIHR5cGVkX3Bhc3NrZXlfcnVudGltZTsKcHViKGNyYXRlKSBtb2QgdHlwZWRfc3ViZG9tYWluX2dyYW50OwpwdWIoY3JhdGUpIG1vZCB0eXBlZF9zdWJkb21haW5fcmF0ZV9saW1pdDsKcHViKGNyYXRlKSBtb2QgdHlwZWRfd2hpdGVsaXN0OwpwdWIoY3JhdGUpIG1vZCB0eXBlZF93aGl0ZWxpc3RfcnVudGltZTsKcHViKGNyYXRlKSBtb2QgdHlwZWRfd29sX2Nvb2xkb3duOwoKcHViKGNyYXRlKSB1c2UgcmVkaXNfc3RvcmUgYXMgc3RvcmU7CgpwdWIoY3JhdGUpIHR5cGUgU3RvcmFnZVJlc3VsdDxUPiA9IFJlc3VsdDxULCBTdG9yYWdlRXJyb3I+OwoKI1tkZXJpdmUoRGVidWcsIHRoaXNlcnJvcjo6RXJyb3IpXQpwdWIoY3JhdGUpIGVudW0gU3RvcmFnZUVycm9yIHsKICAgICNbZXJyb3IoInNxbGl0ZSBlcnJvcjogezB9IildCiAgICBTcWxpdGUoI1tmcm9tXSB0b2tpb19ydXNxbGl0ZTo6cnVzcWxpdGU6OkVycm9yKSwKICAgICNbZXJyb3IoInNxbGl0ZSB3b3JrZXIgaXMgY2xvc2VkIildCiAgICBTcWxpdGVDb25uZWN0aW9uQ2xvc2VkLAogICAgI1tlcnJvcigic3FsaXRlIGNsb3NlIGVycm9yOiB7MH0iKV0KICAgIFNxbGl0ZUNsb3NlKHRva2lvX3J1c3FsaXRlOjpydXNxbGl0ZTo6RXJyb3IpLAogICAgI1tlcnJvcigic3RvcmFnZSBzZXJpYWxpemF0aW9uIGVycm9yOiB7MH0iKV0KICAgIFNlcmRlSnNvbigjW2Zyb21dIHNlcmRlX2pzb246OkVycm9yKSwKICAgICNbZXJyb3IoInN0b3JhZ2UgaW8gZXJyb3I6IHswfSIpXQogICAgSW8oI1tmcm9tXSBzdGQ6OmlvOjpFcnJvciksCiAgICAjW2Vycm9yKCJ7MH0iKV0KICAgIE1lc3NhZ2UoU3RyaW5nKSwKfQoKaW1wbCBGcm9tPHRva2lvX3J1c3FsaXRlOjpFcnJvcjxTdG9yYWdlRXJyb3I+PiBmb3IgU3RvcmFnZUVycm9yIHsKICAgIGZuIGZyb20odmFsdWU6IHRva2lvX3J1c3FsaXRlOjpFcnJvcjxTdG9yYWdlRXJyb3I+KSAtPiBTZWxmIHsKICAgICAgICBtYXRjaCB2YWx1ZSB7CiAgICAgICAgICAgIHRva2lvX3J1c3FsaXRlOjpFcnJvcjo6Q29ubmVjdGlvbkNsb3NlZCA9PiBTZWxmOjpTcWxpdGVDb25uZWN0aW9uQ2xvc2VkLAogICAgICAgICAgICB0b2tpb19ydXNxbGl0ZTo6RXJyb3I6OkNsb3NlKChfLCBlcnJvcikpID0+IFNlbGY6OlNxbGl0ZUNsb3NlKGVycm9yKSwKICAgICAgICAgICAgdG9raW9fcnVzcWxpdGU6OkVycm9yOjpFcnJvcihlcnJvcikgPT4gZXJyb3IsCiAgICAgICAgICAgIF8gPT4gU2VsZjo6TWVzc2FnZSgidW5rbm93biBzcWxpdGUgd29ya2VyIGVycm9yIi50b19zdHJpbmcoKSksCiAgICAgICAgfQogICAgfQp9CgppbXBsIEZyb208dG9raW9fcnVzcWxpdGU6OkVycm9yPiBmb3IgU3RvcmFnZUVycm9yIHsKICAgIGZuIGZyb20odmFsdWU6IHRva2lvX3J1c3FsaXRlOjpFcnJvcikgLT4gU2VsZiB7CiAgICAgICAgbWF0Y2ggdmFsdWUgewogICAgICAgICAgICB0b2tpb19ydXNxbGl0ZTo6RXJyb3I6OkNvbm5lY3Rpb25DbG9zZWQgPT4gU2VsZjo6U3FsaXRlQ29ubmVjdGlvbkNsb3NlZCwKICAgICAgICAgICAgdG9raW9fcnVzcWxpdGU6OkVycm9yOjpDbG9zZSgoXywgZXJyb3IpKSA9PiBTZWxmOjpTcWxpdGVDbG9zZShlcnJvciksCiAgICAgICAgICAgIHRva2lvX3J1c3FsaXRlOjpFcnJvcjo6RXJyb3IoZXJyb3IpID0+IFNlbGY6OlNxbGl0ZShlcnJvciksCiAgICAgICAgICAgIF8gPT4gU2VsZjo6TWVzc2FnZSgidW5rbm93biBzcWxpdGUgd29ya2VyIGVycm9yIi50b19zdHJpbmcoKSksCiAgICAgICAgfQogICAgfQp9CgpwdWIoY3JhdGUpIGZuIHN0b3JhZ2VfZXJyb3IobWVzc2FnZTogaW1wbCBJbnRvPFN0cmluZz4pIC0+IFN0b3JhZ2VFcnJvciB7CiAgICBTdG9yYWdlRXJyb3I6Ok1lc3NhZ2UobWVzc2FnZS5pbnRvKCkpCn0K
+pub(crate) mod legacy_redis_migration;
+pub(crate) mod redis_compat;
+pub(crate) mod redis_store;
+pub(crate) mod typed_config;
+pub(crate) mod typed_docker_admin;
+pub(crate) mod typed_event_dedupe;
+pub(crate) mod typed_events;
+pub(crate) mod typed_fnos_share;
+pub(crate) mod typed_hmac_nonce;
+pub(crate) mod typed_identity_runtime;
+pub(crate) mod typed_login_backoff;
+pub(crate) mod typed_mobility;
+pub(crate) mod typed_notification_runtime;
+pub(crate) mod typed_notifications;
+pub(crate) mod typed_passkey_runtime;
+pub(crate) mod typed_subdomain_grant;
+pub(crate) mod typed_subdomain_rate_limit;
+pub(crate) mod typed_whitelist;
+pub(crate) mod typed_whitelist_runtime;
+pub(crate) mod typed_wol_cooldown;
+
+pub(crate) use redis_store as store;
+
+pub(crate) type StorageResult<T> = Result<T, StorageError>;
+
+#[derive(Debug, thiserror::Error)]
+pub(crate) enum StorageError {
+    #[error("sqlite error: {0}")]
+    Sqlite(#[from] tokio_rusqlite::rusqlite::Error),
+    #[error("sqlite worker is closed")]
+    SqliteConnectionClosed,
+    #[error("sqlite close error: {0}")]
+    SqliteClose(tokio_rusqlite::rusqlite::Error),
+    #[error("storage serialization error: {0}")]
+    SerdeJson(#[from] serde_json::Error),
+    #[error("storage io error: {0}")]
+    Io(#[from] std::io::Error),
+    #[error("{0}")]
+    Message(String),
+}
+
+impl From<tokio_rusqlite::Error<StorageError>> for StorageError {
+    fn from(value: tokio_rusqlite::Error<StorageError>) -> Self {
+        match value {
+            tokio_rusqlite::Error::ConnectionClosed => Self::SqliteConnectionClosed,
+            tokio_rusqlite::Error::Close((_, error)) => Self::SqliteClose(error),
+            tokio_rusqlite::Error::Error(error) => error,
+            _ => Self::Message("unknown sqlite worker error".to_string()),
+        }
+    }
+}
+
+impl From<tokio_rusqlite::Error> for StorageError {
+    fn from(value: tokio_rusqlite::Error) -> Self {
+        match value {
+            tokio_rusqlite::Error::ConnectionClosed => Self::SqliteConnectionClosed,
+            tokio_rusqlite::Error::Close((_, error)) => Self::SqliteClose(error),
+            tokio_rusqlite::Error::Error(error) => Self::Sqlite(error),
+            _ => Self::Message("unknown sqlite worker error".to_string()),
+        }
+    }
+}
+
+pub(crate) fn storage_error(message: impl Into<String>) -> StorageError {
+    StorageError::Message(message.into())
+}

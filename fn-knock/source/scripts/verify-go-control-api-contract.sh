@@ -1,1 +1,25 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4iICYmIHB3ZCkiCkdPX1JFUE9TSVRPUlk9IiR7MTotJHtGTl9LTk9DS19HT19SRUFVVEhfUFJPWFlfRElSOi0ke1JPT1RfRElSfS8uLi9Hby1SZWF1dGgtUHJveHl9fSIKR0VORVJBVEVEX1BBVEg9IiR7R09fUkVQT1NJVE9SWX0vcGtnL2dycGMvcGIvZ2F0ZXdheS5wYi5nbyIKCmZhaWwoKSB7CiAgcHJpbnRmICdbdmVyaWZ5LWdvLWNvbnRyb2wtYXBpLWNvbnRyYWN0XSBFUlJPUjogJXNcbicgIiQqIiA+JjIKICBleGl0IDEKfQoKRVhQRUNURUQ9IiQoYmFzaCAiJHtST09UX0RJUn0vc2NyaXB0cy9jb250cm9sLWFwaS12ZXJzaW9uLnNoIikiClsgLWYgIiR7R0VORVJBVEVEX1BBVEh9IiBdIHx8IGZhaWwgIm1pc3NpbmcgZ2VuZXJhdGVkIEdvIGNvbnRyYWN0OiAke0dFTkVSQVRFRF9QQVRIfSIKQUNUVUFMPSIkKAogIHNlZCAtbkUgXAogICAgJ3MvXltbOnNwYWNlOl1dKkNvbnRyb2xBcGlWZXJzaW9uX0NPTlRST0xfQVBJX1ZFUlNJT05fQ1VSUkVOVFtbOnNwYWNlOl1dK0NvbnRyb2xBcGlWZXJzaW9uW1s6c3BhY2U6XV0qPVtbOnNwYWNlOl1dKihbMC05XSspW1s6c3BhY2U6XV0qJC9cMS9wJyBcCiAgICAiJHtHRU5FUkFURURfUEFUSH0iCikiCmNhc2UgIiR7QUNUVUFMfSIgaW4KICAnJ3wqWyEwLTldKikgZmFpbCAiZ2VuZXJhdGVkIEdvIGNvbnRyYWN0IGRvZXMgbm90IGRlZmluZSBDT05UUk9MX0FQSV9WRVJTSU9OX0NVUlJFTlQiIDs7CmVzYWMKWyAiJHtBQ1RVQUx9IiA9ICIke0VYUEVDVEVEfSIgXSB8fCBcCiAgZmFpbCAiZ2VuZXJhdGVkIEdvIHZlcnNpb24gJHtBQ1RVQUx9IGRvZXMgbm90IG1hdGNoIGdhdGV3YXkucHJvdG8gJHtFWFBFQ1RFRH07IHJ1biBucG0gcnVuIGZuLWtub2NrOmdycGM6c3luYy1nbyIKcHJpbnRmICdbdmVyaWZ5LWdvLWNvbnRyb2wtYXBpLWNvbnRyYWN0XSBjb250cm9sIEFQSSB2ZXJzaW9uICVzIGlzIHN5bmNocm9uaXplZFxuJyAiJHtFWFBFQ1RFRH0iCg==
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+GO_REPOSITORY="${1:-${FN_KNOCK_GO_REAUTH_PROXY_DIR:-${ROOT_DIR}/../Go-Reauth-Proxy}}"
+GENERATED_PATH="${GO_REPOSITORY}/pkg/grpc/pb/gateway.pb.go"
+
+fail() {
+  printf '[verify-go-control-api-contract] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+EXPECTED="$(bash "${ROOT_DIR}/scripts/control-api-version.sh")"
+[ -f "${GENERATED_PATH}" ] || fail "missing generated Go contract: ${GENERATED_PATH}"
+ACTUAL="$(
+  sed -nE \
+    's/^[[:space:]]*ControlApiVersion_CONTROL_API_VERSION_CURRENT[[:space:]]+ControlApiVersion[[:space:]]*=[[:space:]]*([0-9]+)[[:space:]]*$/\1/p' \
+    "${GENERATED_PATH}"
+)"
+case "${ACTUAL}" in
+  ''|*[!0-9]*) fail "generated Go contract does not define CONTROL_API_VERSION_CURRENT" ;;
+esac
+[ "${ACTUAL}" = "${EXPECTED}" ] || \
+  fail "generated Go version ${ACTUAL} does not match gateway.proto ${EXPECTED}; run npm run fn-knock:grpc:sync-go"
+printf '[verify-go-control-api-contract] control API version %s is synchronized\n' "${EXPECTED}"

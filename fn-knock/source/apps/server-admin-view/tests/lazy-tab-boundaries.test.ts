@@ -1,1 +1,28 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRWaWV3ID0gKG5hbWU6IHN0cmluZykgPT4KICByZWFkRmlsZVN5bmMobmV3IFVSTChgLi4vc3JjL3ZpZXdzLyR7bmFtZX0udnVlYCwgaW1wb3J0Lm1ldGEudXJsKSwgInV0ZjgiKTsKCmNvbnN0IGFzc2VydExhenlWaWV3cyA9IChzb3VyY2U6IHN0cmluZywgbWluaW11bTogbnVtYmVyKSA9PiB7CiAgYXNzZXJ0Lm1hdGNoKHNvdXJjZSwgL2RlZmluZUFzeW5jQ29tcG9uZW50L3UpOwogIGFzc2VydC5lcXVhbCgKICAgIChzb3VyY2UubWF0Y2goL2RlZmluZUFzeW5jQ29tcG9uZW50XCgvZ3UpID8/IFtdKS5sZW5ndGggPj0gbWluaW11bSwKICAgIHRydWUsCiAgKTsKICBhc3NlcnQuZG9lc05vdE1hdGNoKHNvdXJjZSwgL15pbXBvcnRccytcdytccytmcm9tXHMrIlwuXC9bXlxuXStcLnZ1ZSI7L2dtdSk7Cn07CgpkZXNjcmliZSgidGFiIHJvdXRlIGNodW5rIGJvdW5kYXJpZXMiLCAoKSA9PiB7CiAgaXQoImxvYWRzIHRoZSBsYXJnZSBzeXN0ZW0gc2V0dGluZ3Mgc2VjdGlvbnMgb24gZGVtYW5kIiwgKCkgPT4gewogICAgYXNzZXJ0TGF6eVZpZXdzKHJlYWRWaWV3KCJTeXN0ZW1TZXR0aW5ncyIpLCAxNSk7CiAgfSk7CgogIGl0KCJrZWVwcyBzZWNvbmRhcnkgdGFiIHBhZ2VzIG91dCBvZiB0aGVpciBwYXJlbnQgcm91dGUgY2h1bmtzIiwgKCkgPT4gewogICAgYXNzZXJ0TGF6eVZpZXdzKHJlYWRWaWV3KCJFdmVudENlbnRlciIpLCAzKTsKICAgIGFzc2VydExhenlWaWV3cyhyZWFkVmlldygiUmVxdWVzdEFuYWx5c2lzIiksIDIpOwogICAgYXNzZXJ0TGF6eVZpZXdzKHJlYWRWaWV3KCJTZXNzaW9uTWFuYWdlbWVudCIpLCA0KTsKICAgIGFzc2VydExhenlWaWV3cyhyZWFkVmlldygiU1NMU2V0dGluZ3MiKSwgMyk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readView = (name: string) =>
+  readFileSync(new URL(`../src/views/${name}.vue`, import.meta.url), "utf8");
+
+const assertLazyViews = (source: string, minimum: number) => {
+  assert.match(source, /defineAsyncComponent/u);
+  assert.equal(
+    (source.match(/defineAsyncComponent\(/gu) ?? []).length >= minimum,
+    true,
+  );
+  assert.doesNotMatch(source, /^import\s+\w+\s+from\s+"\.\/[^\n]+\.vue";/gmu);
+};
+
+describe("tab route chunk boundaries", () => {
+  it("loads the large system settings sections on demand", () => {
+    assertLazyViews(readView("SystemSettings"), 15);
+  });
+
+  it("keeps secondary tab pages out of their parent route chunks", () => {
+    assertLazyViews(readView("EventCenter"), 3);
+    assertLazyViews(readView("RequestAnalysis"), 2);
+    assertLazyViews(readView("SessionManagement"), 4);
+    assertLazyViews(readView("SSLSettings"), 3);
+  });
+});

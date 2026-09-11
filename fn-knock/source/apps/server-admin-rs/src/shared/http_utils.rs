@@ -1,1 +1,404 @@
-dXNlIHN0ZDo6bmV0OjpJcEFkZHI7Cgp1c2UgYXh1bTo6aHR0cDo6e0hlYWRlck1hcCwgSGVhZGVyVmFsdWUsIFVyaSwgaGVhZGVyfTsKdXNlIHVybDo6VXJsOwoKcHViIGZuIGdldF9jbGllbnRfaXAoaGVhZGVyczogJkhlYWRlck1hcCkgLT4gU3RyaW5nIHsKICAgIGZvciBuYW1lIGluIFsKICAgICAgICAieC1mb3J3YXJkZWQtZm9yIiwKICAgICAgICAieC1yZWFsLWlwIiwKICAgICAgICAiZW8tY29ubmVjdGluZy1pcCIsCiAgICAgICAgImFsaS1yZWFsLWNsaWVudC1pcCIsCiAgICBdIHsKICAgICAgICBpZiBsZXQgU29tZSh2YWx1ZSkgPSBoZWFkZXJzLmdldChuYW1lKS5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnRvX3N0cigpLm9rKCkpIHsKICAgICAgICAgICAgbGV0IGZpcnN0ID0gdmFsdWUuc3BsaXQoJywnKS5uZXh0KCkudW53cmFwX29yKCIiKS50cmltKCk7CiAgICAgICAgICAgIGxldCBub3JtYWxpemVkID0gbm9ybWFsaXplX2lwKGZpcnN0KTsKICAgICAgICAgICAgaWYgIW5vcm1hbGl6ZWQuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gbm9ybWFsaXplZDsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIFN0cmluZzo6bmV3KCkKfQoKcHViIGZuIGZpcnN0X2hlYWRlcl92YWx1ZShoZWFkZXJzOiAmSGVhZGVyTWFwLCBuYW1lOiAmc3RyKSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBoZWFkZXJzCiAgICAgICAgLmdldChuYW1lKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnRvX3N0cigpLm9rKCkpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuc3BsaXQoJywnKS5uZXh0KCkpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIC5tYXAoVG9TdHJpbmc6OnRvX3N0cmluZykKfQoKcHViIGZuIHVzZXJfYWdlbnQoaGVhZGVyczogJkhlYWRlck1hcCkgLT4gU3RyaW5nIHsKICAgIGhlYWRlcnMKICAgICAgICAuZ2V0KGhlYWRlcjo6VVNFUl9BR0VOVCkKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS50b19zdHIoKS5vaygpKQogICAgICAgIC5tYXAofHZhbHVlfCB2YWx1ZS50cmltKCkuY2hhcnMoKS50YWtlKDUxMikuY29sbGVjdDo6PFN0cmluZz4oKSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8ICJVbmtub3duIi50b19zdHJpbmcoKSkKfQoKcHViIGZuIGFwcGx5X25vX3N0b3JlX2hlYWRlcnMoaGVhZGVyczogJm11dCBIZWFkZXJNYXApIHsKICAgIGhlYWRlcnMuaW5zZXJ0KAogICAgICAgIGhlYWRlcjo6Q0FDSEVfQ09OVFJPTCwKICAgICAgICBIZWFkZXJWYWx1ZTo6ZnJvbV9zdGF0aWMoInByaXZhdGUsIG5vLXN0b3JlLCBuby1jYWNoZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGUiKSwKICAgICk7CiAgICBoZWFkZXJzLmluc2VydChoZWFkZXI6OlBSQUdNQSwgSGVhZGVyVmFsdWU6OmZyb21fc3RhdGljKCJuby1jYWNoZSIpKTsKICAgIGhlYWRlcnMuaW5zZXJ0KGhlYWRlcjo6RVhQSVJFUywgSGVhZGVyVmFsdWU6OmZyb21fc3RhdGljKCIwIikpOwogICAgaGVhZGVycy5pbnNlcnQoCiAgICAgICAgIkNETi1DYWNoZS1Db250cm9sIiwKICAgICAgICBIZWFkZXJWYWx1ZTo6ZnJvbV9zdGF0aWMoInByaXZhdGUsIG5vLXN0b3JlIiksCiAgICApOwogICAgaGVhZGVycy5pbnNlcnQoIlN1cnJvZ2F0ZS1Db250cm9sIiwgSGVhZGVyVmFsdWU6OmZyb21fc3RhdGljKCJuby1zdG9yZSIpKTsKfQoKcHViIGZuIGh0bWxfZXNjYXBlKHZhbHVlOiAmc3RyKSAtPiBTdHJpbmcgewogICAgdmFsdWUKICAgICAgICAucmVwbGFjZSgnJicsICImYW1wOyIpCiAgICAgICAgLnJlcGxhY2UoJzwnLCAiJmx0OyIpCiAgICAgICAgLnJlcGxhY2UoJz4nLCAiJmd0OyIpCiAgICAgICAgLnJlcGxhY2UoJyInLCAiJnF1b3Q7IikKICAgICAgICAucmVwbGFjZSgnXCcnLCAiJiMzOTsiKQp9CgpwdWIgZm4gZm9yd2FyZGVkX2hlYWRlcl92YWx1ZShoZWFkZXJzOiAmSGVhZGVyTWFwLCBrZXk6ICZzdHIpIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIGxldCB2YWx1ZSA9IGhlYWRlcnMuZ2V0KCJmb3J3YXJkZWQiKT8udG9fc3RyKCkub2soKT87CiAgICBsZXQgZmlyc3QgPSB2YWx1ZS5zcGxpdCgnLCcpLm5leHQoKT8udHJpbSgpOwogICAgZm9yIHNlZ21lbnQgaW4gZmlyc3Quc3BsaXQoJzsnKSB7CiAgICAgICAgbGV0IFNvbWUoKHJhd19rZXksIHJhd192YWx1ZSkpID0gc2VnbWVudC5zcGxpdF9vbmNlKCc9JykgZWxzZSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH07CiAgICAgICAgaWYgcmF3X2tleS50cmltKCkuZXFfaWdub3JlX2FzY2lpX2Nhc2Uoa2V5KSB7CiAgICAgICAgICAgIGxldCB2YWx1ZSA9IHJhd192YWx1ZS50cmltKCkudHJpbV9tYXRjaGVzKCciJyk7CiAgICAgICAgICAgIGlmICF2YWx1ZS5pc19lbXB0eSgpIHsKICAgICAgICAgICAgICAgIHJldHVybiBTb21lKHZhbHVlLnRvX3N0cmluZygpKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIE5vbmUKfQoKcHViIGZuIG5vcm1hbGl6ZV9pcCh2YWx1ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGxldCBtdXQgY2FuZGlkYXRlID0gdmFsdWUudHJpbSgpLnRvX3N0cmluZygpOwogICAgaWYgY2FuZGlkYXRlLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBTdHJpbmc6Om5ldygpOwogICAgfQogICAgaWYgbGV0IFNvbWUoYnJhY2tldGVkKSA9IHN0cmlwX2JyYWNrZXRlZF9ob3N0KCZjYW5kaWRhdGUpIHsKICAgICAgICBjYW5kaWRhdGUgPSBicmFja2V0ZWQudG9fc3RyaW5nKCk7CiAgICB9IGVsc2UgaWYgbGV0IFNvbWUoaXB2NCkgPSBzdHJpcF9pcHY0X3BvcnQoJmNhbmRpZGF0ZSkgewogICAgICAgIGNhbmRpZGF0ZSA9IGlwdjQudG9fc3RyaW5nKCk7CiAgICB9CiAgICBpZiBsZXQgU29tZSgoaXAsIF96b25lKSkgPSBjYW5kaWRhdGUuc3BsaXRfb25jZSgnJScpCiAgICAgICAgJiYgIWlwLmlzX2VtcHR5KCkKICAgIHsKICAgICAgICBjYW5kaWRhdGUgPSBpcC50b19zdHJpbmcoKTsKICAgIH0KICAgIGlmIGxldCBTb21lKG1hcHBlZCkgPSBjYW5kaWRhdGUuc3RyaXBfcHJlZml4KCI6OmZmZmY6IikKICAgICAgICAmJiBpc192YWxpZF9pcHY0KG1hcHBlZCkKICAgIHsKICAgICAgICBjYW5kaWRhdGUgPSBtYXBwZWQudG9fc3RyaW5nKCk7CiAgICB9CiAgICBpZiBjYW5kaWRhdGUgPT0gIjo6MSIgewogICAgICAgIGNhbmRpZGF0ZSA9ICIxMjcuMC4wLjEiLnRvX3N0cmluZygpOwogICAgfQogICAgaWYgaXNfdmFsaWRfaXAoJmNhbmRpZGF0ZSkgewogICAgICAgIGNhbmRpZGF0ZQogICAgfSBlbHNlIHsKICAgICAgICBTdHJpbmc6Om5ldygpCiAgICB9Cn0KCnB1YiBmbiBub3JtYWxpemVfYXBpX2Jhc2VfdXJsKHZhbHVlOiAmc3RyLCBkZWZhdWx0X3BhdGg6ICZzdHIpIC0+IFJlc3VsdDxTdHJpbmcsIFN0cmluZz4gewogICAgbGV0IG5vcm1hbGl6ZWQgPSB2YWx1ZS50cmltKCkudHJpbV9lbmRfbWF0Y2hlcygnLycpOwogICAgbGV0IG11dCB1cmwgPSBVcmw6OnBhcnNlKG5vcm1hbGl6ZWQpLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgbGV0IHBhdGggPSB1cmwucGF0aCgpLnRyaW1fZW5kX21hdGNoZXMoJy8nKS50b19zdHJpbmcoKTsKICAgIGlmIHBhdGguaXNfZW1wdHkoKSB7CiAgICAgICAgdXJsLnNldF9wYXRoKGRlZmF1bHRfcGF0aCk7CiAgICB9IGVsc2UgewogICAgICAgIHVybC5zZXRfcGF0aCgmcGF0aCk7CiAgICB9CiAgICB1cmwuc2V0X3F1ZXJ5KE5vbmUpOwogICAgdXJsLnNldF9mcmFnbWVudChOb25lKTsKICAgIE9rKHVybC5hc19zdHIoKS50cmltX2VuZF9tYXRjaGVzKCcvJykudG9fc3RyaW5nKCkpCn0KCnB1YiBmbiB1cmxfZW5jb2RlX2NvbXBvbmVudCh2YWx1ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIHVybDo6Zm9ybV91cmxlbmNvZGVkOjpieXRlX3NlcmlhbGl6ZSh2YWx1ZS5hc19ieXRlcygpKS5jb2xsZWN0KCkKfQoKZm4gc3RyaXBfYnJhY2tldGVkX2hvc3QoY2FuZGlkYXRlOiAmc3RyKSAtPiBPcHRpb248JnN0cj4gewogICAgaWYgIWNhbmRpZGF0ZS5zdGFydHNfd2l0aCgnWycpIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIGxldCBlbmQgPSBjYW5kaWRhdGUucmZpbmQoJ10nKT87CiAgICBpZiBlbmQgPT0gMCB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBsZXQgc3VmZml4ID0gJmNhbmRpZGF0ZVtlbmQgKyAxLi5dOwogICAgbGV0IHN1ZmZpeF92YWxpZCA9IHN1ZmZpeC5pc19lbXB0eSgpCiAgICAgICAgfHwgc3VmZml4CiAgICAgICAgICAgIC5zdHJpcF9wcmVmaXgoJzonKQogICAgICAgICAgICAuaXNfc29tZV9hbmQofHBvcnR8ICFwb3J0LmlzX2VtcHR5KCkgJiYgcG9ydC5jaGFycygpLmFsbCh8Y2h8IGNoLmlzX2FzY2lpX2RpZ2l0KCkpKTsKICAgIHN1ZmZpeF92YWxpZC50aGVuX3NvbWUoJmNhbmRpZGF0ZVsxLi5lbmRdKQp9CgpmbiBzdHJpcF9pcHY0X3BvcnQoY2FuZGlkYXRlOiAmc3RyKSAtPiBPcHRpb248JnN0cj4gewogICAgbGV0IChpcCwgcG9ydCkgPSBjYW5kaWRhdGUucnNwbGl0X29uY2UoJzonKT87CiAgICBpZiBwb3J0LmlzX2VtcHR5KCkgfHwgIXBvcnQuY2hhcnMoKS5hbGwofGNofCBjaC5pc19hc2NpaV9kaWdpdCgpKSB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBsZXQgcGFydHMgPSBpcC5zcGxpdCgnLicpLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBpZiBwYXJ0cy5sZW4oKSA9PSA0CiAgICAgICAgJiYgcGFydHMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAuYWxsKHxwYXJ0fCAhcGFydC5pc19lbXB0eSgpICYmIHBhcnQuY2hhcnMoKS5hbGwofGNofCBjaC5pc19hc2NpaV9kaWdpdCgpKSkKICAgIHsKICAgICAgICBTb21lKGlwKQogICAgfSBlbHNlIHsKICAgICAgICBOb25lCiAgICB9Cn0KCmZuIHN0cmlwX2hvc3RuYW1lX3BvcnQoY2FuZGlkYXRlOiAmc3RyKSAtPiBPcHRpb248JnN0cj4gewogICAgbGV0IChob3N0LCBwb3J0KSA9IGNhbmRpZGF0ZS5yc3BsaXRfb25jZSgnOicpPzsKICAgICghaG9zdC5pc19lbXB0eSgpCiAgICAgICAgJiYgIWhvc3QuY29udGFpbnMoJzonKQogICAgICAgICYmICFwb3J0LmlzX2VtcHR5KCkKICAgICAgICAmJiBwb3J0LmNoYXJzKCkuYWxsKHxjaHwgY2guaXNfYXNjaWlfZGlnaXQoKSkpCiAgICAudGhlbl9zb21lKGhvc3QpCn0KCmZuIGlzX3ZhbGlkX2lwKHZhbHVlOiAmc3RyKSAtPiBib29sIHsKICAgIHZhbHVlLnBhcnNlOjo8SXBBZGRyPigpLmlzX29rKCkKfQoKZm4gaXNfdmFsaWRfaXB2NCh2YWx1ZTogJnN0cikgLT4gYm9vbCB7CiAgICBtYXRjaGVzISh2YWx1ZS5wYXJzZTo6PElwQWRkcj4oKSwgT2soSXBBZGRyOjpWNChfKSkpCn0KCnB1YiBmbiBpc19wcml2YXRlX29yX2xvY2FsX2lwKHZhbHVlOiAmc3RyKSAtPiBib29sIHsKICAgIG1hdGNoIG5vcm1hbGl6ZV9pcCh2YWx1ZSkucGFyc2U6OjxJcEFkZHI+KCkgewogICAgICAgIE9rKElwQWRkcjo6VjQoaXApKSA9PiB7CiAgICAgICAgICAgIGxldCBvY3RldHMgPSBpcC5vY3RldHMoKTsKICAgICAgICAgICAgbWF0Y2hlcyEob2N0ZXRzWzBdLCAwIHwgMTAgfCAxMjcpCiAgICAgICAgICAgICAgICB8fCAob2N0ZXRzWzBdID09IDE2OSAmJiBvY3RldHNbMV0gPT0gMjU0KQogICAgICAgICAgICAgICAgfHwgKG9jdGV0c1swXSA9PSAxNzIgJiYgKDE2Li49MzEpLmNvbnRhaW5zKCZvY3RldHNbMV0pKQogICAgICAgICAgICAgICAgfHwgKG9jdGV0c1swXSA9PSAxOTIgJiYgb2N0ZXRzWzFdID09IDE2OCkKICAgICAgICAgICAgICAgIHx8IChvY3RldHNbMF0gPT0gMTAwICYmICg2NC4uPTEyNykuY29udGFpbnMoJm9jdGV0c1sxXSkpCiAgICAgICAgfQogICAgICAgIE9rKElwQWRkcjo6VjYoaXApKSA9PiB7CiAgICAgICAgICAgIGlwLmlzX2xvb3BiYWNrKCkKICAgICAgICAgICAgICAgIHx8IGlwLmlzX3Vuc3BlY2lmaWVkKCkKICAgICAgICAgICAgICAgIHx8IGlwLmlzX3VuaXF1ZV9sb2NhbCgpCiAgICAgICAgICAgICAgICB8fCBpcC5pc191bmljYXN0X2xpbmtfbG9jYWwoKQogICAgICAgIH0KICAgICAgICBFcnIoXykgPT4gZmFsc2UsCiAgICB9Cn0KCi8vLyBMb29wYmFjayBpcyBuZXZlciBhIHRydXN0d29ydGh5IGJyb3dzZXIvc2Vzc2lvbiBpZGVudGl0eS4gQSBsb2NhbCByZXZlcnNlCi8vLyBwcm94eSBjYW4gbGVnaXRpbWF0ZWx5IGJlIHRoZSB0cmFuc3BvcnQgcGVlciB3aGlsZSB0aGUgcmVhbCB2aXNpdG9yIGlzCi8vLyByZW1vdGUsIHNvIGFjY2VwdGluZyBpdHMgYWRkcmVzcyB3b3VsZCBjb2xsYXBzZSB1bnJlbGF0ZWQgdXNlcnMgb250byBhCi8vLyBzaGFyZWQgbG9jYWxob3N0IGlkZW50aXR5LgpwdWIgZm4gaXNfbG9vcGJhY2tfb3JfbG9jYWxob3N0KHZhbHVlOiAmc3RyKSAtPiBib29sIHsKICAgIGxldCB0cmltbWVkID0gdmFsdWUudHJpbSgpOwogICAgaWYgdHJpbW1lZC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CgogICAgbGV0IGhvc3QgPSBzdHJpcF9icmFja2V0ZWRfaG9zdCh0cmltbWVkKQogICAgICAgIC5vcl9lbHNlKHx8IHN0cmlwX2hvc3RuYW1lX3BvcnQodHJpbW1lZCkpCiAgICAgICAgLnVud3JhcF9vcih0cmltbWVkKQogICAgICAgIC50cmltX2VuZF9tYXRjaGVzKCcuJyk7CiAgICBpZiBob3N0LmVxX2lnbm9yZV9hc2NpaV9jYXNlKCJsb2NhbGhvc3QiKSB8fCBob3N0ID09ICI6OjoxIiB7CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CgogICAgbm9ybWFsaXplX2lwKHRyaW1tZWQpCiAgICAgICAgLnBhcnNlOjo8SXBBZGRyPigpCiAgICAgICAgLmlzX29rX2FuZCh8YWRkcmVzc3wgYWRkcmVzcy5pc19sb29wYmFjaygpKQp9CgovLy8gQ2Fub25pY2FsaXplIGFuIGFkZHJlc3MgYmVmb3JlIGl0IGlzIHVzZWQgYXMgYSBzZXNzaW9uIGlkZW50aXR5LiBJbnZhbGlkCi8vLyBzdHJpbmdzIGFuZCBsb29wYmFjayBhbGlhc2VzIGZhaWwgY2xvc2VkIGluc3RlYWQgb2YgYmVpbmcgcGVyc2lzdGVkIGFzIGEKLy8vIHVzZXItY29udHJvbGxlZCBpZGVudGl0eSB2YWx1ZS4KcHViIGZuIG5vcm1hbGl6ZV9zZXNzaW9uX2NsaWVudF9pcCh2YWx1ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGlmIGlzX2xvb3BiYWNrX29yX2xvY2FsaG9zdCh2YWx1ZSkgewogICAgICAgIHJldHVybiBTdHJpbmc6Om5ldygpOwogICAgfQogICAgbGV0IG5vcm1hbGl6ZWQgPSBub3JtYWxpemVfaXAodmFsdWUpOwogICAgbGV0IE9rKGFkZHJlc3MpID0gbm9ybWFsaXplZC5wYXJzZTo6PElwQWRkcj4oKSBlbHNlIHsKICAgICAgICByZXR1cm4gU3RyaW5nOjpuZXcoKTsKICAgIH07CiAgICBsZXQgaW52YWxpZCA9IG1hdGNoIGFkZHJlc3MgewogICAgICAgIElwQWRkcjo6VjQoYWRkcmVzcykgPT4gewogICAgICAgICAgICBhZGRyZXNzLmlzX3Vuc3BlY2lmaWVkKCkKICAgICAgICAgICAgICAgIHx8IGFkZHJlc3MuaXNfbG9vcGJhY2soKQogICAgICAgICAgICAgICAgfHwgYWRkcmVzcy5pc19tdWx0aWNhc3QoKQogICAgICAgICAgICAgICAgfHwgYWRkcmVzcy5pc19icm9hZGNhc3QoKQogICAgICAgIH0KICAgICAgICBJcEFkZHI6OlY2KGFkZHJlc3MpID0+IHsKICAgICAgICAgICAgYWRkcmVzcy5pc191bnNwZWNpZmllZCgpIHx8IGFkZHJlc3MuaXNfbG9vcGJhY2soKSB8fCBhZGRyZXNzLmlzX211bHRpY2FzdCgpCiAgICAgICAgfQogICAgfTsKICAgIGlmIGludmFsaWQgeyBTdHJpbmc6Om5ldygpIH0gZWxzZSB7IG5vcm1hbGl6ZWQgfQp9CgpwdWIgZm4gaXNfc2VjdXJlX3JlcXVlc3QoaGVhZGVyczogJkhlYWRlck1hcCwgdXJpOiAmVXJpKSAtPiBib29sIHsKICAgIGlmIGxldCBTb21lKHByb3RvKSA9IGhlYWRlcnMKICAgICAgICAuZ2V0KCJ4LWZvcndhcmRlZC1wcm90byIpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUudG9fc3RyKCkub2soKSkKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5zcGxpdCgnLCcpLm5leHQoKSkKICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUudHJpbSgpLnRvX2FzY2lpX2xvd2VyY2FzZSgpKQogICAgewogICAgICAgIGlmIHByb3RvID09ICJodHRwcyIgewogICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICB9CiAgICAgICAgaWYgcHJvdG8gPT0gImh0dHAiIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgIH0KICAgIH0KICAgIHVyaS5zY2hlbWVfc3RyKCkgPT0gU29tZSgiaHR0cHMiKQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKCiAgICAjW3Rlc3RdCiAgICBmbiBub3JtYWxpemVzX2lwdjRfbWFwcGVkX2lwdjZfYW5kX3BvcnRzKCkgewogICAgICAgIGFzc2VydF9lcSEobm9ybWFsaXplX2lwKCI6OmZmZmY6MTkyLjE2OC4xLjIiKSwgIjE5Mi4xNjguMS4yIik7CiAgICAgICAgYXNzZXJ0X2VxIShub3JtYWxpemVfaXAoIjEwLjAuMC4xOjQ0MyIpLCAiMTAuMC4wLjEiKTsKICAgICAgICBhc3NlcnRfZXEhKG5vcm1hbGl6ZV9pcCgiWzo6MV06NDQzIiksICIxMjcuMC4wLjEiKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBub3JtYWxpemVzX2lwX2xpa2Vfbm9kZV93aXRob3V0X2Nhbm9uaWNhbGl6aW5nX3ZhbGlkX2xpdGVyYWxzKCkgewogICAgICAgIGFzc2VydF9lcSEobm9ybWFsaXplX2lwKCIyMDAxOjBEQjg6OjEiKSwgIjIwMDE6MERCODo6MSIpOwogICAgICAgIGFzc2VydF9lcSEobm9ybWFsaXplX2lwKCJbMjAwMTowREI4OjoxXSIpLCAiMjAwMTowREI4OjoxIik7CiAgICAgICAgYXNzZXJ0X2VxIShub3JtYWxpemVfaXAoIls6OjFdOmFiYyIpLCAiIik7CiAgICAgICAgYXNzZXJ0X2VxIShub3JtYWxpemVfaXAoIjEwLjAuMC4xOmFiYyIpLCAiIik7CiAgICAgICAgYXNzZXJ0X2VxIShub3JtYWxpemVfaXAoIiVldGgwIiksICIiKTsKICAgICAgICBhc3NlcnRfZXEhKG5vcm1hbGl6ZV9pcCgiZmU4MDo6MSVldGgwIiksICJmZTgwOjoxIik7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gZGV0ZWN0c19wcml2YXRlX25ldHdvcmtfcmFuZ2VzKCkgewogICAgICAgIGFzc2VydCEoaXNfcHJpdmF0ZV9vcl9sb2NhbF9pcCgiMTI3LjAuMC4xIikpOwogICAgICAgIGFzc2VydCEoaXNfcHJpdmF0ZV9vcl9sb2NhbF9pcCgiMTkyLjE2OC4zMS4yIikpOwogICAgICAgIGFzc2VydCEoaXNfcHJpdmF0ZV9vcl9sb2NhbF9pcCgiMTcyLjE2LjAuMSIpKTsKICAgICAgICBhc3NlcnQhKGlzX3ByaXZhdGVfb3JfbG9jYWxfaXAoIjEwMC42NC4wLjEiKSk7CiAgICAgICAgYXNzZXJ0IShpc19wcml2YXRlX29yX2xvY2FsX2lwKCIxMDAuMTI3LjI1NS4yNTQiKSk7CiAgICAgICAgYXNzZXJ0IShpc19wcml2YXRlX29yX2xvY2FsX2lwKCJmZDdhOjExNWM6YTFlMDo6MSIpKTsKICAgICAgICBhc3NlcnQhKCFpc19wcml2YXRlX29yX2xvY2FsX2lwKCIxMDAuMTI4LjAuMSIpKTsKICAgICAgICBhc3NlcnQhKCFpc19wcml2YXRlX29yX2xvY2FsX2lwKCI4LjguOC44IikpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGlkZW50aWZpZXNfbG9vcGJhY2tfYW5kX2xvY2FsaG9zdF9zZXNzaW9uX3NvdXJjZXMoKSB7CiAgICAgICAgZm9yIHZhbHVlIGluIFsKICAgICAgICAgICAgIjEyNy4wLjAuMSIsCiAgICAgICAgICAgICIxMjcuMTAuMjAuMzA6NDQzIiwKICAgICAgICAgICAgIjo6MSIsCiAgICAgICAgICAgICJbOjoxXTo0NDMiLAogICAgICAgICAgICAiOjpmZmZmOjEyNy4wLjAuMSIsCiAgICAgICAgICAgICJsb2NhbGhvc3QiLAogICAgICAgICAgICAiTE9DQUxIT1NULiIsCiAgICAgICAgICAgICJsb2NhbGhvc3Q6NDQzIiwKICAgICAgICAgICAgIltsb2NhbGhvc3RdOjQ0MyIsCiAgICAgICAgICAgICI6OjoxIiwKICAgICAgICBdIHsKICAgICAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgICAgIGlzX2xvb3BiYWNrX29yX2xvY2FsaG9zdCh2YWx1ZSksCiAgICAgICAgICAgICAgICAiZXhwZWN0ZWQgcmVqZWN0ZWQgbG9vcGJhY2sgc291cmNlOiB7dmFsdWV9IgogICAgICAgICAgICApOwogICAgICAgIH0KICAgICAgICBmb3IgdmFsdWUgaW4gWyIiLCAiMTkyLjE2OC4xLjIiLCAiMjAzLjAuMTEzLjEwIiwgIjIwMDE6ZGI4OjoxMCJdIHsKICAgICAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgICAgICFpc19sb29wYmFja19vcl9sb2NhbGhvc3QodmFsdWUpLAogICAgICAgICAgICAgICAgInVuZXhwZWN0ZWQgcmVqZWN0ZWQgc2Vzc2lvbiBzb3VyY2U6IHt2YWx1ZX0iCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHNlc3Npb25fY2xpZW50X2lwX25vcm1hbGl6YXRpb25fZmFpbHNfY2xvc2VkKCkgewogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIG5vcm1hbGl6ZV9zZXNzaW9uX2NsaWVudF9pcCgiMjAzLjAuMTEzLjEwOjQ0MyIpLAogICAgICAgICAgICAiMjAzLjAuMTEzLjEwIgogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgbm9ybWFsaXplX3Nlc3Npb25fY2xpZW50X2lwKCJbMjAwMTpkYjg6OjEwXTo0NDMiKSwKICAgICAgICAgICAgIjIwMDE6ZGI4OjoxMCIKICAgICAgICApOwogICAgICAgIGZvciB2YWx1ZSBpbiBbCiAgICAgICAgICAgICIiLAogICAgICAgICAgICAibm90LWFuLWlwIiwKICAgICAgICAgICAgImxvY2FsaG9zdCIsCiAgICAgICAgICAgICIxMjcuMC4wLjEiLAogICAgICAgICAgICAiOjoxIiwKICAgICAgICAgICAgIjo6ZmZmZjoxMjcuMC4wLjEiLAogICAgICAgICAgICAiOjo6MSIsCiAgICAgICAgICAgICIwLjAuMC4wIiwKICAgICAgICAgICAgIjo6IiwKICAgICAgICAgICAgIjIyNC4wLjAuMSIsCiAgICAgICAgICAgICJmZjAyOjoxIiwKICAgICAgICAgICAgIjI1NS4yNTUuMjU1LjI1NSIsCiAgICAgICAgXSB7CiAgICAgICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgICAgICBub3JtYWxpemVfc2Vzc2lvbl9jbGllbnRfaXAodmFsdWUpLAogICAgICAgICAgICAgICAgIiIsCiAgICAgICAgICAgICAgICAidW5leHBlY3RlZCBzZXNzaW9uIGlkZW50aXR5IGZvciB7dmFsdWV9IgogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiB1cmxfY29tcG9uZW50X2VuY29kaW5nX3ByZXNlcnZlc19leGlzdGluZ19mb3JtX3VybGVuY29kZWRfYmVoYXZpb3IoKSB7CiAgICAgICAgYXNzZXJ0X2VxISh1cmxfZW5jb2RlX2NvbXBvbmVudCgiYSBiL2M/ZD1lIiksICJhK2IlMkZjJTNGZCUzRGUiKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiB1c2VyX2FnZW50X3RyaW1zX2xpbWl0c19hbmRfZGVmYXVsdHMoKSB7CiAgICAgICAgbGV0IG11dCBoZWFkZXJzID0gSGVhZGVyTWFwOjpuZXcoKTsKICAgICAgICBhc3NlcnRfZXEhKHVzZXJfYWdlbnQoJmhlYWRlcnMpLCAiVW5rbm93biIpOwoKICAgICAgICBoZWFkZXJzLmluc2VydCgKICAgICAgICAgICAgaGVhZGVyOjpVU0VSX0FHRU5ULAogICAgICAgICAgICBIZWFkZXJWYWx1ZTo6ZnJvbV9zdGF0aWMoIiAgS25vY2tUZXN0ICAiKSwKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEodXNlcl9hZ2VudCgmaGVhZGVycyksICJLbm9ja1Rlc3QiKTsKCiAgICAgICAgbGV0IGxvbmcgPSAiYSIucmVwZWF0KDYwMCk7CiAgICAgICAgaGVhZGVycy5pbnNlcnQoaGVhZGVyOjpVU0VSX0FHRU5ULCBIZWFkZXJWYWx1ZTo6ZnJvbV9zdHIoJmxvbmcpLnVud3JhcCgpKTsKICAgICAgICBhc3NlcnRfZXEhKHVzZXJfYWdlbnQoJmhlYWRlcnMpLmxlbigpLCA1MTIpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIG5vX3N0b3JlX2hlYWRlcnNfbWF0Y2hfYXV0aF9yZXNwb25zZV9jb250cmFjdCgpIHsKICAgICAgICBsZXQgbXV0IGhlYWRlcnMgPSBIZWFkZXJNYXA6Om5ldygpOwogICAgICAgIGFwcGx5X25vX3N0b3JlX2hlYWRlcnMoJm11dCBoZWFkZXJzKTsKCiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgaGVhZGVycy5nZXQoaGVhZGVyOjpDQUNIRV9DT05UUk9MKS51bndyYXAoKSwKICAgICAgICAgICAgInByaXZhdGUsIG5vLXN0b3JlLCBuby1jYWNoZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGUiCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKGhlYWRlcnMuZ2V0KGhlYWRlcjo6UFJBR01BKS51bndyYXAoKSwgIm5vLWNhY2hlIik7CiAgICAgICAgYXNzZXJ0X2VxIShoZWFkZXJzLmdldChoZWFkZXI6OkVYUElSRVMpLnVud3JhcCgpLCAiMCIpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGhlYWRlcnMuZ2V0KCJDRE4tQ2FjaGUtQ29udHJvbCIpLnVud3JhcCgpLAogICAgICAgICAgICAicHJpdmF0ZSwgbm8tc3RvcmUiCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKGhlYWRlcnMuZ2V0KCJTdXJyb2dhdGUtQ29udHJvbCIpLnVud3JhcCgpLCAibm8tc3RvcmUiKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBodG1sX2VzY2FwZV9jb3ZlcnNfYXR0cmlidXRlX3NlbnNpdGl2ZV9jaGFyYWN0ZXJzKCkgewogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGh0bWxfZXNjYXBlKCI8dGFnIGF0dHI9XCJ4XCI+JyYiKSwKICAgICAgICAgICAgIiZsdDt0YWcgYXR0cj0mcXVvdDt4JnF1b3Q7Jmd0OyYjMzk7JmFtcDsiCiAgICAgICAgKTsKICAgIH0KfQo=
+use std::net::IpAddr;
+
+use axum::http::{HeaderMap, HeaderValue, Uri, header};
+use url::Url;
+
+pub fn get_client_ip(headers: &HeaderMap) -> String {
+    for name in [
+        "x-forwarded-for",
+        "x-real-ip",
+        "eo-connecting-ip",
+        "ali-real-client-ip",
+    ] {
+        if let Some(value) = headers.get(name).and_then(|value| value.to_str().ok()) {
+            let first = value.split(',').next().unwrap_or("").trim();
+            let normalized = normalize_ip(first);
+            if !normalized.is_empty() {
+                return normalized;
+            }
+        }
+    }
+    String::new()
+}
+
+pub fn first_header_value(headers: &HeaderMap, name: &str) -> Option<String> {
+    headers
+        .get(name)
+        .and_then(|value| value.to_str().ok())
+        .and_then(|value| value.split(',').next())
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .map(ToString::to_string)
+}
+
+pub fn user_agent(headers: &HeaderMap) -> String {
+    headers
+        .get(header::USER_AGENT)
+        .and_then(|value| value.to_str().ok())
+        .map(|value| value.trim().chars().take(512).collect::<String>())
+        .filter(|value| !value.is_empty())
+        .unwrap_or_else(|| "Unknown".to_string())
+}
+
+pub fn apply_no_store_headers(headers: &mut HeaderMap) {
+    headers.insert(
+        header::CACHE_CONTROL,
+        HeaderValue::from_static("private, no-store, no-cache, max-age=0, must-revalidate"),
+    );
+    headers.insert(header::PRAGMA, HeaderValue::from_static("no-cache"));
+    headers.insert(header::EXPIRES, HeaderValue::from_static("0"));
+    headers.insert(
+        "CDN-Cache-Control",
+        HeaderValue::from_static("private, no-store"),
+    );
+    headers.insert("Surrogate-Control", HeaderValue::from_static("no-store"));
+}
+
+pub fn html_escape(value: &str) -> String {
+    value
+        .replace('&', "&amp;")
+        .replace('<', "&lt;")
+        .replace('>', "&gt;")
+        .replace('"', "&quot;")
+        .replace('\'', "&#39;")
+}
+
+pub fn forwarded_header_value(headers: &HeaderMap, key: &str) -> Option<String> {
+    let value = headers.get("forwarded")?.to_str().ok()?;
+    let first = value.split(',').next()?.trim();
+    for segment in first.split(';') {
+        let Some((raw_key, raw_value)) = segment.split_once('=') else {
+            continue;
+        };
+        if raw_key.trim().eq_ignore_ascii_case(key) {
+            let value = raw_value.trim().trim_matches('"');
+            if !value.is_empty() {
+                return Some(value.to_string());
+            }
+        }
+    }
+    None
+}
+
+pub fn normalize_ip(value: &str) -> String {
+    let mut candidate = value.trim().to_string();
+    if candidate.is_empty() {
+        return String::new();
+    }
+    if let Some(bracketed) = strip_bracketed_host(&candidate) {
+        candidate = bracketed.to_string();
+    } else if let Some(ipv4) = strip_ipv4_port(&candidate) {
+        candidate = ipv4.to_string();
+    }
+    if let Some((ip, _zone)) = candidate.split_once('%')
+        && !ip.is_empty()
+    {
+        candidate = ip.to_string();
+    }
+    if let Some(mapped) = candidate.strip_prefix("::ffff:")
+        && is_valid_ipv4(mapped)
+    {
+        candidate = mapped.to_string();
+    }
+    if candidate == "::1" {
+        candidate = "127.0.0.1".to_string();
+    }
+    if is_valid_ip(&candidate) {
+        candidate
+    } else {
+        String::new()
+    }
+}
+
+pub fn normalize_api_base_url(value: &str, default_path: &str) -> Result<String, String> {
+    let normalized = value.trim().trim_end_matches('/');
+    let mut url = Url::parse(normalized).map_err(|error| error.to_string())?;
+    let path = url.path().trim_end_matches('/').to_string();
+    if path.is_empty() {
+        url.set_path(default_path);
+    } else {
+        url.set_path(&path);
+    }
+    url.set_query(None);
+    url.set_fragment(None);
+    Ok(url.as_str().trim_end_matches('/').to_string())
+}
+
+pub fn url_encode_component(value: &str) -> String {
+    url::form_urlencoded::byte_serialize(value.as_bytes()).collect()
+}
+
+fn strip_bracketed_host(candidate: &str) -> Option<&str> {
+    if !candidate.starts_with('[') {
+        return None;
+    }
+    let end = candidate.rfind(']')?;
+    if end == 0 {
+        return None;
+    }
+    let suffix = &candidate[end + 1..];
+    let suffix_valid = suffix.is_empty()
+        || suffix
+            .strip_prefix(':')
+            .is_some_and(|port| !port.is_empty() && port.chars().all(|ch| ch.is_ascii_digit()));
+    suffix_valid.then_some(&candidate[1..end])
+}
+
+fn strip_ipv4_port(candidate: &str) -> Option<&str> {
+    let (ip, port) = candidate.rsplit_once(':')?;
+    if port.is_empty() || !port.chars().all(|ch| ch.is_ascii_digit()) {
+        return None;
+    }
+    let parts = ip.split('.').collect::<Vec<_>>();
+    if parts.len() == 4
+        && parts
+            .iter()
+            .all(|part| !part.is_empty() && part.chars().all(|ch| ch.is_ascii_digit()))
+    {
+        Some(ip)
+    } else {
+        None
+    }
+}
+
+fn strip_hostname_port(candidate: &str) -> Option<&str> {
+    let (host, port) = candidate.rsplit_once(':')?;
+    (!host.is_empty()
+        && !host.contains(':')
+        && !port.is_empty()
+        && port.chars().all(|ch| ch.is_ascii_digit()))
+    .then_some(host)
+}
+
+fn is_valid_ip(value: &str) -> bool {
+    value.parse::<IpAddr>().is_ok()
+}
+
+fn is_valid_ipv4(value: &str) -> bool {
+    matches!(value.parse::<IpAddr>(), Ok(IpAddr::V4(_)))
+}
+
+pub fn is_private_or_local_ip(value: &str) -> bool {
+    match normalize_ip(value).parse::<IpAddr>() {
+        Ok(IpAddr::V4(ip)) => {
+            let octets = ip.octets();
+            matches!(octets[0], 0 | 10 | 127)
+                || (octets[0] == 169 && octets[1] == 254)
+                || (octets[0] == 172 && (16..=31).contains(&octets[1]))
+                || (octets[0] == 192 && octets[1] == 168)
+                || (octets[0] == 100 && (64..=127).contains(&octets[1]))
+        }
+        Ok(IpAddr::V6(ip)) => {
+            ip.is_loopback()
+                || ip.is_unspecified()
+                || ip.is_unique_local()
+                || ip.is_unicast_link_local()
+        }
+        Err(_) => false,
+    }
+}
+
+/// Loopback is never a trustworthy browser/session identity. A local reverse
+/// proxy can legitimately be the transport peer while the real visitor is
+/// remote, so accepting its address would collapse unrelated users onto a
+/// shared localhost identity.
+pub fn is_loopback_or_localhost(value: &str) -> bool {
+    let trimmed = value.trim();
+    if trimmed.is_empty() {
+        return false;
+    }
+
+    let host = strip_bracketed_host(trimmed)
+        .or_else(|| strip_hostname_port(trimmed))
+        .unwrap_or(trimmed)
+        .trim_end_matches('.');
+    if host.eq_ignore_ascii_case("localhost") || host == ":::1" {
+        return true;
+    }
+
+    normalize_ip(trimmed)
+        .parse::<IpAddr>()
+        .is_ok_and(|address| address.is_loopback())
+}
+
+/// Canonicalize an address before it is used as a session identity. Invalid
+/// strings and loopback aliases fail closed instead of being persisted as a
+/// user-controlled identity value.
+pub fn normalize_session_client_ip(value: &str) -> String {
+    if is_loopback_or_localhost(value) {
+        return String::new();
+    }
+    let normalized = normalize_ip(value);
+    let Ok(address) = normalized.parse::<IpAddr>() else {
+        return String::new();
+    };
+    let invalid = match address {
+        IpAddr::V4(address) => {
+            address.is_unspecified()
+                || address.is_loopback()
+                || address.is_multicast()
+                || address.is_broadcast()
+        }
+        IpAddr::V6(address) => {
+            address.is_unspecified() || address.is_loopback() || address.is_multicast()
+        }
+    };
+    if invalid { String::new() } else { normalized }
+}
+
+pub fn is_secure_request(headers: &HeaderMap, uri: &Uri) -> bool {
+    if let Some(proto) = headers
+        .get("x-forwarded-proto")
+        .and_then(|value| value.to_str().ok())
+        .and_then(|value| value.split(',').next())
+        .map(|value| value.trim().to_ascii_lowercase())
+    {
+        if proto == "https" {
+            return true;
+        }
+        if proto == "http" {
+            return false;
+        }
+    }
+    uri.scheme_str() == Some("https")
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn normalizes_ipv4_mapped_ipv6_and_ports() {
+        assert_eq!(normalize_ip("::ffff:192.168.1.2"), "192.168.1.2");
+        assert_eq!(normalize_ip("10.0.0.1:443"), "10.0.0.1");
+        assert_eq!(normalize_ip("[::1]:443"), "127.0.0.1");
+    }
+
+    #[test]
+    fn normalizes_ip_like_node_without_canonicalizing_valid_literals() {
+        assert_eq!(normalize_ip("2001:0DB8::1"), "2001:0DB8::1");
+        assert_eq!(normalize_ip("[2001:0DB8::1]"), "2001:0DB8::1");
+        assert_eq!(normalize_ip("[::1]:abc"), "");
+        assert_eq!(normalize_ip("10.0.0.1:abc"), "");
+        assert_eq!(normalize_ip("%eth0"), "");
+        assert_eq!(normalize_ip("fe80::1%eth0"), "fe80::1");
+    }
+
+    #[test]
+    fn detects_private_network_ranges() {
+        assert!(is_private_or_local_ip("127.0.0.1"));
+        assert!(is_private_or_local_ip("192.168.31.2"));
+        assert!(is_private_or_local_ip("172.16.0.1"));
+        assert!(is_private_or_local_ip("100.64.0.1"));
+        assert!(is_private_or_local_ip("100.127.255.254"));
+        assert!(is_private_or_local_ip("fd7a:115c:a1e0::1"));
+        assert!(!is_private_or_local_ip("100.128.0.1"));
+        assert!(!is_private_or_local_ip("8.8.8.8"));
+    }
+
+    #[test]
+    fn identifies_loopback_and_localhost_session_sources() {
+        for value in [
+            "127.0.0.1",
+            "127.10.20.30:443",
+            "::1",
+            "[::1]:443",
+            "::ffff:127.0.0.1",
+            "localhost",
+            "LOCALHOST.",
+            "localhost:443",
+            "[localhost]:443",
+            ":::1",
+        ] {
+            assert!(
+                is_loopback_or_localhost(value),
+                "expected rejected loopback source: {value}"
+            );
+        }
+        for value in ["", "192.168.1.2", "203.0.113.10", "2001:db8::10"] {
+            assert!(
+                !is_loopback_or_localhost(value),
+                "unexpected rejected session source: {value}"
+            );
+        }
+    }
+
+    #[test]
+    fn session_client_ip_normalization_fails_closed() {
+        assert_eq!(
+            normalize_session_client_ip("203.0.113.10:443"),
+            "203.0.113.10"
+        );
+        assert_eq!(
+            normalize_session_client_ip("[2001:db8::10]:443"),
+            "2001:db8::10"
+        );
+        for value in [
+            "",
+            "not-an-ip",
+            "localhost",
+            "127.0.0.1",
+            "::1",
+            "::ffff:127.0.0.1",
+            ":::1",
+            "0.0.0.0",
+            "::",
+            "224.0.0.1",
+            "ff02::1",
+            "255.255.255.255",
+        ] {
+            assert_eq!(
+                normalize_session_client_ip(value),
+                "",
+                "unexpected session identity for {value}"
+            );
+        }
+    }
+
+    #[test]
+    fn url_component_encoding_preserves_existing_form_urlencoded_behavior() {
+        assert_eq!(url_encode_component("a b/c?d=e"), "a+b%2Fc%3Fd%3De");
+    }
+
+    #[test]
+    fn user_agent_trims_limits_and_defaults() {
+        let mut headers = HeaderMap::new();
+        assert_eq!(user_agent(&headers), "Unknown");
+
+        headers.insert(
+            header::USER_AGENT,
+            HeaderValue::from_static("  KnockTest  "),
+        );
+        assert_eq!(user_agent(&headers), "KnockTest");
+
+        let long = "a".repeat(600);
+        headers.insert(header::USER_AGENT, HeaderValue::from_str(&long).unwrap());
+        assert_eq!(user_agent(&headers).len(), 512);
+    }
+
+    #[test]
+    fn no_store_headers_match_auth_response_contract() {
+        let mut headers = HeaderMap::new();
+        apply_no_store_headers(&mut headers);
+
+        assert_eq!(
+            headers.get(header::CACHE_CONTROL).unwrap(),
+            "private, no-store, no-cache, max-age=0, must-revalidate"
+        );
+        assert_eq!(headers.get(header::PRAGMA).unwrap(), "no-cache");
+        assert_eq!(headers.get(header::EXPIRES).unwrap(), "0");
+        assert_eq!(
+            headers.get("CDN-Cache-Control").unwrap(),
+            "private, no-store"
+        );
+        assert_eq!(headers.get("Surrogate-Control").unwrap(), "no-store");
+    }
+
+    #[test]
+    fn html_escape_covers_attribute_sensitive_characters() {
+        assert_eq!(
+            html_escape("<tag attr=\"x\">'&"),
+            "&lt;tag attr=&quot;x&quot;&gt;&#39;&amp;"
+        );
+    }
+}

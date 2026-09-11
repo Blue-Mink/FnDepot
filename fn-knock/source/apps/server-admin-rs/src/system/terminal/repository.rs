@@ -1,1 +1,228 @@
-dXNlIHN0ZDo6Y29sbGVjdGlvbnM6Okhhc2hTZXQ7Cgp1c2Ugc2VyZGU6OntEZXNlcmlhbGl6ZSwgU2VyaWFsaXplfTsKdXNlIHNlcmRlX2pzb246OlZhbHVlOwp1c2UgdXVpZDo6VXVpZDsKCnVzZSBjcmF0ZTo6c3RhdGU6OkFwcFN0YXRlOwoKdXNlIHN1cGVyOjp7CiAgICBkb21haW46OntUYXJnZXRSZWNvcmQsIFRlcm1pbmFsRXJyb3IsIFRlcm1pbmFsUmVzdWx0fSwKICAgIHJ1bnRpbWU6Ok1BWF9UQVJHRVRTLAp9OwoKY29uc3QgVEFSR0VUU19LRVk6ICZzdHIgPSAiZm5fa25vY2s6dGVybWluYWw6dGFyZ2V0cyI7CnB1YihzdXBlcikgY29uc3QgTE9DQUxfU0VUVElOR1NfS0VZOiAmc3RyID0gImZuX2tub2NrOnRlcm1pbmFsOmxvY2FsLXNldHRpbmdzIjsKCiNbZGVyaXZlKENsb25lLCBDb3B5LCBEZWJ1ZywgRGVmYXVsdCwgRGVzZXJpYWxpemUsIFNlcmlhbGl6ZSwgUGFydGlhbEVxLCBFcSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTG9jYWxTZXR0aW5nc1JlY29yZCB7CiAgICBwdWIgZW5hYmxlZDogYm9vbCwKICAgIHB1YiByZXZpc2lvbjogdTY0LAp9CgpwdWIoc3VwZXIpIHN0cnVjdCBMb2NhbFNldHRpbmdzUmVwb3NpdG9yeTwnYT4gewogICAgc3RhdGU6ICYnYSBBcHBTdGF0ZSwKfQoKaW1wbDwnYT4gTG9jYWxTZXR0aW5nc1JlcG9zaXRvcnk8J2E+IHsKICAgIHB1YiBmbiBuZXcoc3RhdGU6ICYnYSBBcHBTdGF0ZSkgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7IHN0YXRlIH0KICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gZ2V0KCZzZWxmKSAtPiBUZXJtaW5hbFJlc3VsdDxMb2NhbFNldHRpbmdzUmVjb3JkPiB7CiAgICAgICAgbGV0IHZhbHVlID0gc2VsZgogICAgICAgICAgICAuc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5nZXRfanNvbl92YWx1ZShMT0NBTF9TRVRUSU5HU19LRVkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IFRlcm1pbmFsRXJyb3I6OmludGVybmFsKGVycm9yLnRvX3N0cmluZygpKSk/OwogICAgICAgIGxldCBTb21lKHZhbHVlKSA9IHZhbHVlIGVsc2UgewogICAgICAgICAgICByZXR1cm4gT2soTG9jYWxTZXR0aW5nc1JlY29yZDo6ZGVmYXVsdCgpKTsKICAgICAgICB9OwogICAgICAgIGxldCByZWNvcmQgPSBzZXJkZV9qc29uOjpmcm9tX3ZhbHVlOjo8TG9jYWxTZXR0aW5nc1JlY29yZD4odmFsdWUpLm1hcF9lcnIofGVycm9yfCB7CiAgICAgICAgICAgIHRyYWNpbmc6OmVycm9yISglZXJyb3IsICJsb2NhbCB0ZXJtaW5hbCBzZXR0aW5ncyBhcmUgY29ycnVwdGVkIik7CiAgICAgICAgICAgIFRlcm1pbmFsRXJyb3I6OmludGVybmFsKCJsb2NhbCB0ZXJtaW5hbCBzZXR0aW5ncyBhcmUgY29ycnVwdGVkIikKICAgICAgICB9KT87CiAgICAgICAgaWYgcmVjb3JkLnJldmlzaW9uID09IDAgewogICAgICAgICAgICB0cmFjaW5nOjplcnJvciEoImxvY2FsIHRlcm1pbmFsIHNldHRpbmdzIHJldmlzaW9uIGlzIGludmFsaWQiKTsKICAgICAgICAgICAgcmV0dXJuIEVycihUZXJtaW5hbEVycm9yOjppbnRlcm5hbCgKICAgICAgICAgICAgICAgICJsb2NhbCB0ZXJtaW5hbCBzZXR0aW5ncyBhcmUgY29ycnVwdGVkIiwKICAgICAgICAgICAgKSk7CiAgICAgICAgfQogICAgICAgIE9rKHJlY29yZCkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gc2F2ZSgmc2VsZiwgcmVjb3JkOiBMb2NhbFNldHRpbmdzUmVjb3JkKSAtPiBUZXJtaW5hbFJlc3VsdDwoKT4gewogICAgICAgIGlmIHJlY29yZC5yZXZpc2lvbiA9PSAwIHsKICAgICAgICAgICAgcmV0dXJuIEVycihUZXJtaW5hbEVycm9yOjppbnRlcm5hbCgKICAgICAgICAgICAgICAgICJsb2NhbCB0ZXJtaW5hbCBzZXR0aW5ncyByZXZpc2lvbiBpcyBpbnZhbGlkIiwKICAgICAgICAgICAgKSk7CiAgICAgICAgfQogICAgICAgIGxldCB2YWx1ZSA9IHNlcmRlX2pzb246OnRvX3ZhbHVlKHJlY29yZCkKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBUZXJtaW5hbEVycm9yOjppbnRlcm5hbChlcnJvci50b19zdHJpbmcoKSkpPzsKICAgICAgICBzZWxmLnN0YXRlCiAgICAgICAgICAgIC5zdG9yYWdlCiAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAuc2V0X2pzb25fdmFsdWUoTE9DQUxfU0VUVElOR1NfS0VZLCAmdmFsdWUpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IFRlcm1pbmFsRXJyb3I6OmludGVybmFsKGVycm9yLnRvX3N0cmluZygpKSkKICAgIH0KfQoKcHViIHN0cnVjdCBUYXJnZXRSZXBvc2l0b3J5PCdhPiB7CiAgICBzdGF0ZTogJidhIEFwcFN0YXRlLAp9CgppbXBsPCdhPiBUYXJnZXRSZXBvc2l0b3J5PCdhPiB7CiAgICBwdWIgZm4gbmV3KHN0YXRlOiAmJ2EgQXBwU3RhdGUpIC0+IFNlbGYgewogICAgICAgIFNlbGYgeyBzdGF0ZSB9CiAgICB9CgogICAgcHViIGFzeW5jIGZuIGxpc3QoJnNlbGYpIC0+IFRlcm1pbmFsUmVzdWx0PFZlYzxUYXJnZXRSZWNvcmQ+PiB7CiAgICAgICAgbGV0IHZhbHVlID0gc2VsZgogICAgICAgICAgICAuc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5nZXRfanNvbl92YWx1ZShUQVJHRVRTX0tFWSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgVGVybWluYWxFcnJvcjo6aW50ZXJuYWwoZXJyb3IudG9fc3RyaW5nKCkpKT87CiAgICAgICAgbGV0IG11dCB0YXJnZXRzID0gdmFsdWUKICAgICAgICAgICAgLm1hcChzZXJkZV9qc29uOjpmcm9tX3ZhbHVlOjo8VmVjPFRhcmdldFJlY29yZD4+KQogICAgICAgICAgICAudHJhbnNwb3NlKCkKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCB7CiAgICAgICAgICAgICAgICB0cmFjaW5nOjplcnJvciEoJWVycm9yLCAidGVybWluYWwgdGFyZ2V0IG1ldGFkYXRhIGlzIGNvcnJ1cHRlZCIpOwogICAgICAgICAgICAgICAgVGVybWluYWxFcnJvcjo6aW50ZXJuYWwoInRlcm1pbmFsIHRhcmdldCBtZXRhZGF0YSBpcyBjb3JydXB0ZWQiKQogICAgICAgICAgICB9KT8KICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICAgICAgdmFsaWRhdGVfcmVjb3JkcygmdGFyZ2V0cyk/OwogICAgICAgIHRhcmdldHMuc29ydF9ieSh8bGVmdCwgcmlnaHR8IHJpZ2h0LnVwZGF0ZWRfYXQuY21wKCZsZWZ0LnVwZGF0ZWRfYXQpKTsKICAgICAgICBPayh0YXJnZXRzKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBnZXQoJnNlbGYsIGlkOiAmc3RyKSAtPiBUZXJtaW5hbFJlc3VsdDxPcHRpb248VGFyZ2V0UmVjb3JkPj4gewogICAgICAgIE9rKHNlbGYKICAgICAgICAgICAgLmxpc3QoKQogICAgICAgICAgICAuYXdhaXQ/CiAgICAgICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgICAgICAuZmluZCh8dGFyZ2V0fCB0YXJnZXQuaWQgPT0gaWQpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBpbnNlcnQoJnNlbGYsIHRhcmdldDogVGFyZ2V0UmVjb3JkKSAtPiBUZXJtaW5hbFJlc3VsdDwoKT4gewogICAgICAgIGxldCBtdXQgdGFyZ2V0cyA9IHNlbGYubGlzdCgpLmF3YWl0PzsKICAgICAgICBpZiB0YXJnZXRzLml0ZXIoKS5hbnkofGl0ZW18IGl0ZW0uaWQgPT0gdGFyZ2V0LmlkKSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoVGVybWluYWxFcnJvcjo6aW50ZXJuYWwoCiAgICAgICAgICAgICAgICAidGVybWluYWwgdGFyZ2V0IGlkZW50aWZpZXIgY29sbGlzaW9uIiwKICAgICAgICAgICAgKSk7CiAgICAgICAgfQogICAgICAgIHRhcmdldHMucHVzaCh0YXJnZXQpOwogICAgICAgIHNlbGYuc2F2ZV9hbGwoJnRhcmdldHMpLmF3YWl0CiAgICB9CgogICAgcHViIGFzeW5jIGZuIHJlcGxhY2UoJnNlbGYsIHRhcmdldDogVGFyZ2V0UmVjb3JkKSAtPiBUZXJtaW5hbFJlc3VsdDwoKT4gewogICAgICAgIGxldCBtdXQgdGFyZ2V0cyA9IHNlbGYubGlzdCgpLmF3YWl0PzsKICAgICAgICBsZXQgU29tZShleGlzdGluZykgPSB0YXJnZXRzLml0ZXJfbXV0KCkuZmluZCh8aXRlbXwgaXRlbS5pZCA9PSB0YXJnZXQuaWQpIGVsc2UgewogICAgICAgICAgICByZXR1cm4gRXJyKHN1cGVyOjpkb21haW46OlRlcm1pbmFsRXJyb3I6Om5ldygKICAgICAgICAgICAgICAgIHN1cGVyOjpkb21haW46OlRlcm1pbmFsRXJyb3JDb2RlOjpUYXJnZXROb3RGb3VuZCwKICAgICAgICAgICAgICAgICJ0ZXJtaW5hbCB0YXJnZXQgbm90IGZvdW5kIiwKICAgICAgICAgICAgKSk7CiAgICAgICAgfTsKICAgICAgICAqZXhpc3RpbmcgPSB0YXJnZXQ7CiAgICAgICAgc2VsZi5zYXZlX2FsbCgmdGFyZ2V0cykuYXdhaXQKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gZGVsZXRlKCZzZWxmLCBpZDogJnN0cikgLT4gVGVybWluYWxSZXN1bHQ8Ym9vbD4gewogICAgICAgIGxldCBtdXQgdGFyZ2V0cyA9IHNlbGYubGlzdCgpLmF3YWl0PzsKICAgICAgICBsZXQgcHJldmlvdXMgPSB0YXJnZXRzLmxlbigpOwogICAgICAgIHRhcmdldHMucmV0YWluKHx0YXJnZXR8IHRhcmdldC5pZCAhPSBpZCk7CiAgICAgICAgaWYgdGFyZ2V0cy5sZW4oKSA9PSBwcmV2aW91cyB7CiAgICAgICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICAgICAgfQogICAgICAgIHNlbGYuc2F2ZV9hbGwoJnRhcmdldHMpLmF3YWl0PzsKICAgICAgICBPayh0cnVlKQogICAgfQoKICAgIGFzeW5jIGZuIHNhdmVfYWxsKCZzZWxmLCB0YXJnZXRzOiAmW1RhcmdldFJlY29yZF0pIC0+IFRlcm1pbmFsUmVzdWx0PCgpPiB7CiAgICAgICAgdmFsaWRhdGVfcmVjb3Jkcyh0YXJnZXRzKT87CiAgICAgICAgc2VsZi5zdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnNldF9qc29uX3ZhbHVlKAogICAgICAgICAgICAgICAgVEFSR0VUU19LRVksCiAgICAgICAgICAgICAgICAmc2VyZGVfanNvbjo6dG9fdmFsdWUodGFyZ2V0cykudW53cmFwX29yKFZhbHVlOjpBcnJheShWZWM6Om5ldygpKSksCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgVGVybWluYWxFcnJvcjo6aW50ZXJuYWwoZXJyb3IudG9fc3RyaW5nKCkpKQogICAgfQp9CgpmbiB2YWxpZGF0ZV9yZWNvcmRzKHRhcmdldHM6ICZbVGFyZ2V0UmVjb3JkXSkgLT4gVGVybWluYWxSZXN1bHQ8KCk+IHsKICAgIGxldCBtdXQgaWRzID0gSGFzaFNldDo6d2l0aF9jYXBhY2l0eSh0YXJnZXRzLmxlbigpKTsKICAgIGxldCB2YWxpZCA9IHRhcmdldHMubGVuKCkgPD0gTUFYX1RBUkdFVFMKICAgICAgICAmJiB0YXJnZXRzLml0ZXIoKS5hbGwofHRhcmdldHwgewogICAgICAgICAgICBVdWlkOjpwYXJzZV9zdHIoJnRhcmdldC5pZCkuaXNfb2soKQogICAgICAgICAgICAgICAgJiYgaWRzLmluc2VydCh0YXJnZXQuaWQuYXNfc3RyKCkpCiAgICAgICAgICAgICAgICAmJiB0YXJnZXQucmV2aXNpb24gPiAwCiAgICAgICAgICAgICAgICAmJiB2YWxpZF90ZXh0KCZ0YXJnZXQubmFtZSwgODApCiAgICAgICAgICAgICAgICAmJiB2YWxpZF90ZXh0KCZ0YXJnZXQuaG9zdCwgMjUzKQogICAgICAgICAgICAgICAgJiYgdmFsaWRfdGV4dCgmdGFyZ2V0LnVzZXJuYW1lLCAxMjgpCiAgICAgICAgICAgICAgICAmJiB0YXJnZXQucG9ydCA+IDAKICAgICAgICAgICAgICAgICYmIHRhcmdldC50cnVzdGVkX2hvc3Rfa2V5LmFzX3JlZigpLmlzX25vbmVfb3IofGtleXwgewogICAgICAgICAgICAgICAgICAgIHZhbGlkX3RleHQoJmtleS5hbGdvcml0aG0sIDY0KQogICAgICAgICAgICAgICAgICAgICAgICAmJiBrZXkuZmluZ2VycHJpbnQuc3RhcnRzX3dpdGgoIlNIQTI1NjoiKQogICAgICAgICAgICAgICAgICAgICAgICAmJiBrZXkuZmluZ2VycHJpbnQubGVuKCkgPD0gMTI4CiAgICAgICAgICAgICAgICAgICAgICAgICYmICFrZXkuZmluZ2VycHJpbnQuY2hhcnMoKS5hbnkoY2hhcjo6aXNfY29udHJvbCkKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgfSk7CiAgICBpZiAhdmFsaWQgewogICAgICAgIHRyYWNpbmc6OmVycm9yISgKICAgICAgICAgICAgY291bnQgPSB0YXJnZXRzLmxlbigpLAogICAgICAgICAgICAidGVybWluYWwgdGFyZ2V0IG1ldGFkYXRhIGZhaWxlZCB2YWxpZGF0aW9uIgogICAgICAgICk7CiAgICAgICAgcmV0dXJuIEVycihUZXJtaW5hbEVycm9yOjppbnRlcm5hbCgKICAgICAgICAgICAgInRlcm1pbmFsIHRhcmdldCBtZXRhZGF0YSBpcyBjb3JydXB0ZWQiLAogICAgICAgICkpOwogICAgfQogICAgT2soKCkpCn0KCmZuIHZhbGlkX3RleHQodmFsdWU6ICZzdHIsIG1heF9jaGFyczogdXNpemUpIC0+IGJvb2wgewogICAgbGV0IHRyaW1tZWQgPSB2YWx1ZS50cmltKCk7CiAgICAhdHJpbW1lZC5pc19lbXB0eSgpCiAgICAgICAgJiYgdHJpbW1lZC5jaGFycygpLmNvdW50KCkgPD0gbWF4X2NoYXJzCiAgICAgICAgJiYgIXRyaW1tZWQuY2hhcnMoKS5hbnkoY2hhcjo6aXNfY29udHJvbCkKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CiAgICB1c2UgY3JhdGU6OnN5c3RlbTo6dGVybWluYWw6OmRvbWFpbjo6QXV0aE1ldGhvZDsKCiAgICBmbiByZWNvcmQoaWQ6IFN0cmluZykgLT4gVGFyZ2V0UmVjb3JkIHsKICAgICAgICBUYXJnZXRSZWNvcmQgewogICAgICAgICAgICBpZCwKICAgICAgICAgICAgbmFtZTogInRhcmdldCIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGhvc3Q6ICJsb2NhbGhvc3QiLnRvX3N0cmluZygpLAogICAgICAgICAgICBwb3J0OiAyMiwKICAgICAgICAgICAgdXNlcm5hbWU6ICJ1c2VyIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgYXV0aF9tZXRob2Q6IEF1dGhNZXRob2Q6OlBhc3N3b3JkLAogICAgICAgICAgICB0cnVzdGVkX2hvc3Rfa2V5OiBOb25lLAogICAgICAgICAgICByZXZpc2lvbjogMSwKICAgICAgICAgICAgbGFzdF92ZXJpZmllZF9hdDogTm9uZSwKICAgICAgICAgICAgY3JlYXRlZF9hdDogIm5vdyIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIHVwZGF0ZWRfYXQ6ICJub3ciLnRvX3N0cmluZygpLAogICAgICAgIH0KICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiByZWplY3RzX2R1cGxpY2F0ZV9pbnZhbGlkX29yX292ZXJzaXplZF9tZXRhZGF0YSgpIHsKICAgICAgICBsZXQgaWQgPSBVdWlkOjpuZXdfdjQoKS50b19zdHJpbmcoKTsKICAgICAgICBhc3NlcnQhKHZhbGlkYXRlX3JlY29yZHMoJltyZWNvcmQoaWQuY2xvbmUoKSksIHJlY29yZChpZCldKS5pc19lcnIoKSk7CiAgICAgICAgYXNzZXJ0ISh2YWxpZGF0ZV9yZWNvcmRzKCZbcmVjb3JkKCJub3QtYS11dWlkIi50b19zdHJpbmcoKSldKS5pc19lcnIoKSk7CiAgICAgICAgbGV0IHRhcmdldHMgPSAoMC4uPU1BWF9UQVJHRVRTKQogICAgICAgICAgICAubWFwKHxffCByZWNvcmQoVXVpZDo6bmV3X3Y0KCkudG9fc3RyaW5nKCkpKQogICAgICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgICAgICBhc3NlcnQhKHZhbGlkYXRlX3JlY29yZHMoJnRhcmdldHMpLmlzX2VycigpKTsKICAgIH0KfQo=
+use std::collections::HashSet;
+
+use serde::{Deserialize, Serialize};
+use serde_json::Value;
+use uuid::Uuid;
+
+use crate::state::AppState;
+
+use super::{
+    domain::{TargetRecord, TerminalError, TerminalResult},
+    runtime::MAX_TARGETS,
+};
+
+const TARGETS_KEY: &str = "fn_knock:terminal:targets";
+pub(super) const LOCAL_SETTINGS_KEY: &str = "fn_knock:terminal:local-settings";
+
+#[derive(Clone, Copy, Debug, Default, Deserialize, Serialize, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct LocalSettingsRecord {
+    pub enabled: bool,
+    pub revision: u64,
+}
+
+pub(super) struct LocalSettingsRepository<'a> {
+    state: &'a AppState,
+}
+
+impl<'a> LocalSettingsRepository<'a> {
+    pub fn new(state: &'a AppState) -> Self {
+        Self { state }
+    }
+
+    pub async fn get(&self) -> TerminalResult<LocalSettingsRecord> {
+        let value = self
+            .state
+            .storage
+            .store
+            .get_json_value(LOCAL_SETTINGS_KEY)
+            .await
+            .map_err(|error| TerminalError::internal(error.to_string()))?;
+        let Some(value) = value else {
+            return Ok(LocalSettingsRecord::default());
+        };
+        let record = serde_json::from_value::<LocalSettingsRecord>(value).map_err(|error| {
+            tracing::error!(%error, "local terminal settings are corrupted");
+            TerminalError::internal("local terminal settings are corrupted")
+        })?;
+        if record.revision == 0 {
+            tracing::error!("local terminal settings revision is invalid");
+            return Err(TerminalError::internal(
+                "local terminal settings are corrupted",
+            ));
+        }
+        Ok(record)
+    }
+
+    pub async fn save(&self, record: LocalSettingsRecord) -> TerminalResult<()> {
+        if record.revision == 0 {
+            return Err(TerminalError::internal(
+                "local terminal settings revision is invalid",
+            ));
+        }
+        let value = serde_json::to_value(record)
+            .map_err(|error| TerminalError::internal(error.to_string()))?;
+        self.state
+            .storage
+            .store
+            .set_json_value(LOCAL_SETTINGS_KEY, &value)
+            .await
+            .map_err(|error| TerminalError::internal(error.to_string()))
+    }
+}
+
+pub struct TargetRepository<'a> {
+    state: &'a AppState,
+}
+
+impl<'a> TargetRepository<'a> {
+    pub fn new(state: &'a AppState) -> Self {
+        Self { state }
+    }
+
+    pub async fn list(&self) -> TerminalResult<Vec<TargetRecord>> {
+        let value = self
+            .state
+            .storage
+            .store
+            .get_json_value(TARGETS_KEY)
+            .await
+            .map_err(|error| TerminalError::internal(error.to_string()))?;
+        let mut targets = value
+            .map(serde_json::from_value::<Vec<TargetRecord>>)
+            .transpose()
+            .map_err(|error| {
+                tracing::error!(%error, "terminal target metadata is corrupted");
+                TerminalError::internal("terminal target metadata is corrupted")
+            })?
+            .unwrap_or_default();
+        validate_records(&targets)?;
+        targets.sort_by(|left, right| right.updated_at.cmp(&left.updated_at));
+        Ok(targets)
+    }
+
+    pub async fn get(&self, id: &str) -> TerminalResult<Option<TargetRecord>> {
+        Ok(self
+            .list()
+            .await?
+            .into_iter()
+            .find(|target| target.id == id))
+    }
+
+    pub async fn insert(&self, target: TargetRecord) -> TerminalResult<()> {
+        let mut targets = self.list().await?;
+        if targets.iter().any(|item| item.id == target.id) {
+            return Err(TerminalError::internal(
+                "terminal target identifier collision",
+            ));
+        }
+        targets.push(target);
+        self.save_all(&targets).await
+    }
+
+    pub async fn replace(&self, target: TargetRecord) -> TerminalResult<()> {
+        let mut targets = self.list().await?;
+        let Some(existing) = targets.iter_mut().find(|item| item.id == target.id) else {
+            return Err(super::domain::TerminalError::new(
+                super::domain::TerminalErrorCode::TargetNotFound,
+                "terminal target not found",
+            ));
+        };
+        *existing = target;
+        self.save_all(&targets).await
+    }
+
+    pub async fn delete(&self, id: &str) -> TerminalResult<bool> {
+        let mut targets = self.list().await?;
+        let previous = targets.len();
+        targets.retain(|target| target.id != id);
+        if targets.len() == previous {
+            return Ok(false);
+        }
+        self.save_all(&targets).await?;
+        Ok(true)
+    }
+
+    async fn save_all(&self, targets: &[TargetRecord]) -> TerminalResult<()> {
+        validate_records(targets)?;
+        self.state
+            .storage
+            .store
+            .set_json_value(
+                TARGETS_KEY,
+                &serde_json::to_value(targets).unwrap_or(Value::Array(Vec::new())),
+            )
+            .await
+            .map_err(|error| TerminalError::internal(error.to_string()))
+    }
+}
+
+fn validate_records(targets: &[TargetRecord]) -> TerminalResult<()> {
+    let mut ids = HashSet::with_capacity(targets.len());
+    let valid = targets.len() <= MAX_TARGETS
+        && targets.iter().all(|target| {
+            Uuid::parse_str(&target.id).is_ok()
+                && ids.insert(target.id.as_str())
+                && target.revision > 0
+                && valid_text(&target.name, 80)
+                && valid_text(&target.host, 253)
+                && valid_text(&target.username, 128)
+                && target.port > 0
+                && target.trusted_host_key.as_ref().is_none_or(|key| {
+                    valid_text(&key.algorithm, 64)
+                        && key.fingerprint.starts_with("SHA256:")
+                        && key.fingerprint.len() <= 128
+                        && !key.fingerprint.chars().any(char::is_control)
+                })
+        });
+    if !valid {
+        tracing::error!(
+            count = targets.len(),
+            "terminal target metadata failed validation"
+        );
+        return Err(TerminalError::internal(
+            "terminal target metadata is corrupted",
+        ));
+    }
+    Ok(())
+}
+
+fn valid_text(value: &str, max_chars: usize) -> bool {
+    let trimmed = value.trim();
+    !trimmed.is_empty()
+        && trimmed.chars().count() <= max_chars
+        && !trimmed.chars().any(char::is_control)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::system::terminal::domain::AuthMethod;
+
+    fn record(id: String) -> TargetRecord {
+        TargetRecord {
+            id,
+            name: "target".to_string(),
+            host: "localhost".to_string(),
+            port: 22,
+            username: "user".to_string(),
+            auth_method: AuthMethod::Password,
+            trusted_host_key: None,
+            revision: 1,
+            last_verified_at: None,
+            created_at: "now".to_string(),
+            updated_at: "now".to_string(),
+        }
+    }
+
+    #[test]
+    fn rejects_duplicate_invalid_or_oversized_metadata() {
+        let id = Uuid::new_v4().to_string();
+        assert!(validate_records(&[record(id.clone()), record(id)]).is_err());
+        assert!(validate_records(&[record("not-a-uuid".to_string())]).is_err());
+        let targets = (0..=MAX_TARGETS)
+            .map(|_| record(Uuid::new_v4().to_string()))
+            .collect::<Vec<_>>();
+        assert!(validate_records(&targets).is_err());
+    }
+}

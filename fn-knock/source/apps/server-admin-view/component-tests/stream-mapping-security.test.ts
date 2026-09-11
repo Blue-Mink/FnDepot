@@ -1,1 +1,441 @@
-aW1wb3J0IHsgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBjcmVhdGVQaW5pYSwgc2V0QWN0aXZlUGluaWEgfSBmcm9tICJwaW5pYSI7CmltcG9ydCB7IGRlZmluZUNvbXBvbmVudCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IGNyZWF0ZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IGJlZm9yZUVhY2gsIGRlc2NyaWJlLCBleHBlY3QsIGl0LCB2aSB9IGZyb20gInZpdGVzdCI7CmltcG9ydCB7IENvbmZpZ0FQSSB9IGZyb20gIi4uL3NyYy9saWIvYXBpL2NvbmZpZyI7CmltcG9ydCB7IHVzZUNvbmZpZ1N0b3JlIH0gZnJvbSAiLi4vc3JjL3N0b3JlL2NvbmZpZyI7CmltcG9ydCB0eXBlIHsgQXBwQ29uZmlnLCBTdHJlYW1NYXBwaW5nIH0gZnJvbSAiLi4vc3JjL3R5cGVzIjsKaW1wb3J0IHsgdXNlU3RyZWFtTWFwcGluZ1NlY3VyaXR5IH0gZnJvbSAiLi4vc3JjL3ZpZXdzL3N0cmVhbS1tYXBwaW5ncy91c2VTdHJlYW1NYXBwaW5nU2VjdXJpdHkiOwoKY29uc3QgdG9hc3RNb2NrcyA9IHZpLmhvaXN0ZWQoKCkgPT4gKHsKICBlcnJvcjogdmkuZm4oKSwKICBzdWNjZXNzOiB2aS5mbigpLAogIHdhcm5pbmc6IHZpLmZuKCksCn0pKTsKCnZpLm1vY2soIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiLCAoKSA9PiAoeyB0b2FzdDogdG9hc3RNb2NrcyB9KSk7Cgpjb25zdCBtYXBwaW5nOiBTdHJlYW1NYXBwaW5nID0gewogIGNvbW1lbnQ6ICJXZWJEQVYiLAogIGxpc3Rlbl9wb3J0OiA2MDA2LAogIHByb2JlX3N0YXR1czogInVua25vd24iLAogIHByb3RvY29sOiAidGNwIiwKICBzZXJ2aWNlX3Byb2ZpbGU6IHsKICAgIGNsYXNzaWZpZXJfdmVyc2lvbjogInN0cmVhbS1zaWduYXR1cmVzLXYzIiwKICAgIGRldmljZV9yb2xlOiAid2ViX3NlcnZpY2UiLAogICAgZXZpZGVuY2VfY29kZXM6IFsiaHR0cF9zdGF0dXNfbGluZSJdLAogICAgbWV0YWRhdGE6IHsKICAgICAgYXV0aF9wcm9iZV9zdGF0dXM6ICI0MDEiLAogICAgICBhdXRoX3NjaGVtZTogImJhc2ljIiwKICAgICAgaHR0cF9zdGF0dXM6ICIyMDAiLAogICAgfSwKICAgIG9ic2VydmVkX2F0OiAiMjAyNi0wOC0xNlQwMDowMDowMFoiLAogICAgcm9sZV9jb25maWRlbmNlOiAic3Ryb25nIiwKICAgIHNlcnZpY2VfY29uZmlkZW5jZTogInN0cm9uZyIsCiAgICBzZXJ2aWNlX2ZhbWlseTogIndlYiIsCiAgICBzZXJ2aWNlX2lkOiAiaHR0cDEiLAogICAgc291cmNlOiAicHJvYmUiLAogICAgc3RyaWN0X2NhcGFibGU6IHRydWUsCiAgICB0YXJnZXRfZmluZ2VycHJpbnQ6ICJmaW5nZXJwcmludCIsCiAgfSwKICB0YXJnZXQ6ICIxMjcuMC4wLjE6NTAwNSIsCiAgdXNlX2F1dGg6IHRydWUsCn07CgpkZXNjcmliZSgic3RyZWFtIG1hcHBpbmcgc2VydmljZSBkZXRlY3Rpb24iLCAoKSA9PiB7CiAgYmVmb3JlRWFjaCgoKSA9PiB7CiAgICBzZXRBY3RpdmVQaW5pYShjcmVhdGVQaW5pYSgpKTsKICAgIHZpLnJlc3RvcmVBbGxNb2NrcygpOwogICAgdG9hc3RNb2Nrcy5lcnJvci5tb2NrUmVzZXQoKTsKICAgIHRvYXN0TW9ja3Muc3VjY2Vzcy5tb2NrUmVzZXQoKTsKICAgIHRvYXN0TW9ja3Mud2FybmluZy5tb2NrUmVzZXQoKTsKICB9KTsKCiAgaXQoIm9wZW5zIG1hbnVhbCBzZXJ2aWNlIGNvbmZpcm1hdGlvbiB3aGVuIHVwc3RyZWFtIGF1dGggaGlkZXMgV2ViREFWIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwogICAgY29uZmlnU3RvcmUuY29uZmlnID0gewogICAgICBob3N0X21hcHBpbmdfZ3JvdXBlZF92aWV3OiBmYWxzZSwKICAgICAgaG9zdF9tYXBwaW5nX2dyb3VwczogW10sCiAgICAgIGhvc3RfbWFwcGluZ3M6IFtdLAogICAgICBzdHJlYW1fbWFwcGluZ3M6IFttYXBwaW5nXSwKICAgIH0gYXMgQXBwQ29uZmlnOwogICAgY29uc3QgbG9hZENvbmZpZyA9IHZpLnNweU9uKGNvbmZpZ1N0b3JlLCAibG9hZENvbmZpZyIpOwogICAgdmkuc3B5T24oQ29uZmlnQVBJLCAicHJvYmVTdHJlYW1NYXBwaW5nIikubW9ja1Jlc29sdmVkVmFsdWUoewogICAgICBwcm9maWxlOiBtYXBwaW5nLnNlcnZpY2VfcHJvZmlsZSwKICAgICAgbWVzc2FnZToKICAgICAgICAiSFRUUCBhdXRoZW50aWNhdGlvbiBjaGFsbGVuZ2UgaGlkZXMgdGhlIGFwcGxpY2F0aW9uIHNlcnZpY2U7IG1hbnVhbCBjb25maXJtYXRpb24gaXMgcmVxdWlyZWQiLAogICAgICBzdGF0dXM6ICJ1bmtub3duIiwKICAgIH0pOwogICAgdmkuc3B5T24oQ29uZmlnQVBJLCAiZ2V0U3RyZWFtTWFwcGluZ3MiKS5tb2NrUmVzb2x2ZWRWYWx1ZShbbWFwcGluZ10pOwogICAgdmkuc3B5T24oQ29uZmlnQVBJLCAiZ2V0U3RyZWFtU2VydmljZUNhdGFsb2ciKS5tb2NrUmVzb2x2ZWRWYWx1ZSh7CiAgICAgIGNsYXNzaWZpZXJfdmVyc2lvbjogInN0cmVhbS1zaWduYXR1cmVzLXYzIiwKICAgICAgaXRlbXM6IFsKICAgICAgICB7CiAgICAgICAgICBhY3RpdmVfcHJvYmVfc3VwcG9ydGVkOiB0cnVlLAogICAgICAgICAgZGlzcGxheV9uYW1lOiAiV2ViREFWIiwKICAgICAgICAgIHNlcnZpY2VfZmFtaWx5OiAiZmlsZV9zZXJ2aWNlIiwKICAgICAgICAgIHNlcnZpY2VfaWQ6ICJ3ZWJkYXYiLAogICAgICAgICAgc3RyaWN0X2NhcGFibGU6IHRydWUsCiAgICAgICAgICB0cmFuc3BvcnRzOiBbInRjcCJdLAogICAgICAgIH0sCiAgICAgIF0sCiAgICB9KTsKCiAgICBsZXQgbW9kZWwhOiBSZXR1cm5UeXBlPHR5cGVvZiB1c2VTdHJlYW1NYXBwaW5nU2VjdXJpdHk+OwogICAgY29uc3QgSGFybmVzcyA9IGRlZmluZUNvbXBvbmVudCh7CiAgICAgIHNldHVwKCkgewogICAgICAgIG1vZGVsID0gdXNlU3RyZWFtTWFwcGluZ1NlY3VyaXR5KCk7CiAgICAgICAgcmV0dXJuICgpID0+IG51bGw7CiAgICAgIH0sCiAgICB9KTsKICAgIGNvbnN0IHdyYXBwZXIgPSBtb3VudChIYXJuZXNzLCB7CiAgICAgIGdsb2JhbDogewogICAgICAgIHBsdWdpbnM6IFsKICAgICAgICAgIGNyZWF0ZUkxOG4oewogICAgICAgICAgICBsZWdhY3k6IGZhbHNlLAogICAgICAgICAgICBsb2NhbGU6ICJlbiIsCiAgICAgICAgICAgIG1lc3NhZ2VzOiB7CiAgICAgICAgICAgICAgZW46IHsKICAgICAgICAgICAgICAgIGFkbWluOiB7CiAgICAgICAgICAgICAgICAgIHN0cmVhbU1hcHBpbmdzOiB7CiAgICAgICAgICAgICAgICAgICAgcHJvYmVBdXRoZW50aWNhdGVkSHR0cDoKICAgICAgICAgICAgICAgICAgICAgICJIVFRQIGF1dGhlbnRpY2F0aW9uIGhpZGVzIHRoZSBzZXJ2aWNlIiwKICAgICAgICAgICAgICAgICAgICBwcm9iZUF1dGhlbnRpY2F0ZWRIdHRwRGVzY3JpcHRpb246CiAgICAgICAgICAgICAgICAgICAgICAiQ29uZmlybSBXZWJEQVYgbWFudWFsbHkiLAogICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICB9LAogICAgICAgICAgICB9LAogICAgICAgICAgfSksCiAgICAgICAgXSwKICAgICAgfSwKICAgIH0pOwoKICAgIGF3YWl0IG1vZGVsLnByb2JlTWFwcGluZyhtYXBwaW5nKTsKCiAgICBleHBlY3QobG9hZENvbmZpZykubm90LnRvSGF2ZUJlZW5DYWxsZWQoKTsKICAgIGV4cGVjdCh0b2FzdE1vY2tzLndhcm5pbmcpLnRvSGF2ZUJlZW5DYWxsZWRPbmNlKCk7CiAgICBleHBlY3QobW9kZWwuaXNTZXJ2aWNlUHJvZmlsZU9wZW4udmFsdWUpLnRvQmUodHJ1ZSk7CiAgICBleHBlY3QobW9kZWwuc2VydmljZVByb2ZpbGVJbml0aWFsU2VydmljZUlkLnZhbHVlKS50b0JlKCIiKTsKICAgIGV4cGVjdChtb2RlbC5zZXJ2aWNlUHJvZmlsZU1hcHBpbmcudmFsdWU/LnRhcmdldCkudG9CZSgiMTI3LjAuMC4xOjUwMDUiKTsKICAgIGV4cGVjdChtb2RlbC5zZXJ2aWNlQ2F0YWxvZy52YWx1ZT8uaXRlbXNbMF0/LnNlcnZpY2VfaWQpLnRvQmUoIndlYmRhdiIpOwogICAgd3JhcHBlci51bm1vdW50KCk7CiAgfSk7CgogIGl0KCJrZWVwcyBhbiB1bmtub3duIGJ1dCByZWFjaGFibGUgdGFyZ2V0IGVuYWJsZWQgd2l0aG91dCBzdHJpY3QgdmFsaWRhdGlvbiIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHVua25vd25NYXBwaW5nOiBTdHJlYW1NYXBwaW5nID0gewogICAgICAuLi5tYXBwaW5nLAogICAgICBkaXNhYmxlZDogdHJ1ZSwKICAgICAgc2VydmljZV9wcm9maWxlOiB1bmRlZmluZWQsCiAgICAgIHZhbGlkYXRpb25fbW9kZTogInN0cmljdCIsCiAgICB9OwogICAgY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwogICAgY29uZmlnU3RvcmUuY29uZmlnID0gewogICAgICBob3N0X21hcHBpbmdfZ3JvdXBlZF92aWV3OiBmYWxzZSwKICAgICAgaG9zdF9tYXBwaW5nX2dyb3VwczogW10sCiAgICAgIGhvc3RfbWFwcGluZ3M6IFtdLAogICAgICBzdHJlYW1fbWFwcGluZ3M6IFt1bmtub3duTWFwcGluZ10sCiAgICB9IGFzIEFwcENvbmZpZzsKICAgIHZpLnNweU9uKENvbmZpZ0FQSSwgInByb2JlU3RyZWFtTWFwcGluZyIpLm1vY2tSZXNvbHZlZFZhbHVlKHsKICAgICAgbWVzc2FnZTogInRhcmdldCByZXNwb25kZWQgYnV0IG5vIHN0cm9uZyBzZXJ2aWNlIHNpZ25hdHVyZSBtYXRjaGVkIiwKICAgICAgc3RhdHVzOiAidW5rbm93biIsCiAgICB9KTsKICAgIHZpLnNweU9uKENvbmZpZ0FQSSwgImdldFN0cmVhbU1hcHBpbmdzIikubW9ja1Jlc29sdmVkVmFsdWUoWwogICAgICB7CiAgICAgICAgLi4udW5rbm93bk1hcHBpbmcsCiAgICAgICAgZGlzYWJsZWQ6IGZhbHNlLAogICAgICAgIHByb2JlX3N0YXR1czogInVua25vd24iLAogICAgICAgIHZhbGlkYXRpb25fbW9kZTogIm9mZiIsCiAgICAgIH0sCiAgICBdKTsKCiAgICBsZXQgbW9kZWwhOiBSZXR1cm5UeXBlPHR5cGVvZiB1c2VTdHJlYW1NYXBwaW5nU2VjdXJpdHk+OwogICAgY29uc3QgSGFybmVzcyA9IGRlZmluZUNvbXBvbmVudCh7CiAgICAgIHNldHVwKCkgewogICAgICAgIG1vZGVsID0gdXNlU3RyZWFtTWFwcGluZ1NlY3VyaXR5KCk7CiAgICAgICAgcmV0dXJuICgpID0+IG51bGw7CiAgICAgIH0sCiAgICB9KTsKICAgIGNvbnN0IHdyYXBwZXIgPSBtb3VudChIYXJuZXNzLCB7CiAgICAgIGdsb2JhbDogewogICAgICAgIHBsdWdpbnM6IFsKICAgICAgICAgIGNyZWF0ZUkxOG4oewogICAgICAgICAgICBsZWdhY3k6IGZhbHNlLAogICAgICAgICAgICBsb2NhbGU6ICJlbiIsCiAgICAgICAgICAgIG1lc3NhZ2VzOiB7CiAgICAgICAgICAgICAgZW46IHsKICAgICAgICAgICAgICAgIGFkbWluOiB7CiAgICAgICAgICAgICAgICAgIHN0cmVhbU1hcHBpbmdzOiB7CiAgICAgICAgICAgICAgICAgICAgcHJvYmVVbnZlcmlmaWVkOgogICAgICAgICAgICAgICAgICAgICAgIlRhcmdldCByZWFjaGFibGUgd2l0aG91dCBzdHJpY3QgdmFsaWRhdGlvbiIsCiAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgIH0sCiAgICAgICAgICB9KSwKICAgICAgICBdLAogICAgICB9LAogICAgfSk7CgogICAgYXdhaXQgbW9kZWwucHJvYmVNYXBwaW5nKHVua25vd25NYXBwaW5nKTsKCiAgICBleHBlY3QoY29uZmlnU3RvcmUuY29uZmlnPy5zdHJlYW1fbWFwcGluZ3M/LlswXT8uZGlzYWJsZWQpLnRvQmUoZmFsc2UpOwogICAgZXhwZWN0KGNvbmZpZ1N0b3JlLmNvbmZpZz8uc3RyZWFtX21hcHBpbmdzPy5bMF0/LnZhbGlkYXRpb25fbW9kZSkudG9CZSgKICAgICAgIm9mZiIsCiAgICApOwogICAgZXhwZWN0KHRvYXN0TW9ja3Mud2FybmluZykudG9IYXZlQmVlbkNhbGxlZFdpdGgoCiAgICAgICJUYXJnZXQgcmVhY2hhYmxlIHdpdGhvdXQgc3RyaWN0IHZhbGlkYXRpb24iLAogICAgICB7CiAgICAgICAgZGVzY3JpcHRpb246ICJ0YXJnZXQgcmVzcG9uZGVkIGJ1dCBubyBzdHJvbmcgc2VydmljZSBzaWduYXR1cmUgbWF0Y2hlZCIsCiAgICAgIH0sCiAgICApOwogICAgZXhwZWN0KHRvYXN0TW9ja3MuZXJyb3IpLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICB3cmFwcGVyLnVubW91bnQoKTsKICB9KTsKCiAgaXQoInJlcG9ydHMgYW4gaWRlbnRpZmljYXRpb24tb25seSBFYXN5VGllciBwcm9iZSB3aXRob3V0IGVuYWJsaW5nIHN0cmljdCB2YWxpZGF0aW9uIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgZWFzeVRpZXJNYXBwaW5nOiBTdHJlYW1NYXBwaW5nID0gewogICAgICAuLi5tYXBwaW5nLAogICAgICBkaXNhYmxlZDogZmFsc2UsCiAgICAgIHNlcnZpY2VfcHJvZmlsZTogdW5kZWZpbmVkLAogICAgICB2YWxpZGF0aW9uX21vZGU6ICJvZmYiLAogICAgfTsKICAgIGNvbnN0IGVhc3lUaWVyUHJvZmlsZSA9IHsKICAgICAgLi4ubWFwcGluZy5zZXJ2aWNlX3Byb2ZpbGUhLAogICAgICBkZXZpY2Vfcm9sZTogInZwbiIsCiAgICAgIHNlcnZpY2VfY29uZmlkZW5jZTogInN0cm9uZyIsCiAgICAgIHNlcnZpY2VfZmFtaWx5OiAidnBuIiwKICAgICAgc2VydmljZV9pZDogImVhc3l0aWVyIiwKICAgICAgc3RyaWN0X2NhcGFibGU6IGZhbHNlLAogICAgfTsKICAgIGNvbnN0IGNvbmZpZ1N0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKICAgIGNvbmZpZ1N0b3JlLmNvbmZpZyA9IHsKICAgICAgaG9zdF9tYXBwaW5nX2dyb3VwZWRfdmlldzogZmFsc2UsCiAgICAgIGhvc3RfbWFwcGluZ19ncm91cHM6IFtdLAogICAgICBob3N0X21hcHBpbmdzOiBbXSwKICAgICAgc3RyZWFtX21hcHBpbmdzOiBbZWFzeVRpZXJNYXBwaW5nXSwKICAgIH0gYXMgQXBwQ29uZmlnOwogICAgdmkuc3B5T24oQ29uZmlnQVBJLCAicHJvYmVTdHJlYW1NYXBwaW5nIikubW9ja1Jlc29sdmVkVmFsdWUoewogICAgICBtZXNzYWdlOiAic2VydmljZSBpZGVudGlmaWVkOyBzdHJpY3QgdmFsaWRhdGlvbiBpcyBub3QgZW5hYmxlZCIsCiAgICAgIHByb2ZpbGU6IGVhc3lUaWVyUHJvZmlsZSwKICAgICAgc3RhdHVzOiAidW5rbm93biIsCiAgICB9KTsKICAgIHZpLnNweU9uKENvbmZpZ0FQSSwgImdldFN0cmVhbU1hcHBpbmdzIikubW9ja1Jlc29sdmVkVmFsdWUoWwogICAgICB7CiAgICAgICAgLi4uZWFzeVRpZXJNYXBwaW5nLAogICAgICAgIGRpc2FibGVkOiBmYWxzZSwKICAgICAgICBwcm9iZV9zdGF0dXM6ICJ1bmtub3duIiwKICAgICAgICBzZXJ2aWNlX3Byb2ZpbGU6IGVhc3lUaWVyUHJvZmlsZSwKICAgICAgICB2YWxpZGF0aW9uX21vZGU6ICJvZmYiLAogICAgICB9LAogICAgXSk7CgogICAgbGV0IG1vZGVsITogUmV0dXJuVHlwZTx0eXBlb2YgdXNlU3RyZWFtTWFwcGluZ1NlY3VyaXR5PjsKICAgIGNvbnN0IEhhcm5lc3MgPSBkZWZpbmVDb21wb25lbnQoewogICAgICBzZXR1cCgpIHsKICAgICAgICBtb2RlbCA9IHVzZVN0cmVhbU1hcHBpbmdTZWN1cml0eSgpOwogICAgICAgIHJldHVybiAoKSA9PiBudWxsOwogICAgICB9LAogICAgfSk7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoSGFybmVzcywgewogICAgICBnbG9iYWw6IHsKICAgICAgICBwbHVnaW5zOiBbCiAgICAgICAgICBjcmVhdGVJMThuKHsKICAgICAgICAgICAgbGVnYWN5OiBmYWxzZSwKICAgICAgICAgICAgbG9jYWxlOiAiZW4iLAogICAgICAgICAgICBtZXNzYWdlczogewogICAgICAgICAgICAgIGVuOiB7CiAgICAgICAgICAgICAgICBhZG1pbjogewogICAgICAgICAgICAgICAgICBzdHJlYW1NYXBwaW5nczogewogICAgICAgICAgICAgICAgICAgIHByb2JlSWRlbnRpZmllZFdpdGhvdXRTdHJpY3Q6CiAgICAgICAgICAgICAgICAgICAgICAiVGFyZ2V0IGlkZW50aWZpZWQgd2l0aG91dCBzdHJpY3QgdmFsaWRhdGlvbiIsCiAgICAgICAgICAgICAgICAgICAgcHJvYmVJZGVudGlmaWVkV2l0aG91dFN0cmljdERlc2NyaXB0aW9uOgogICAgICAgICAgICAgICAgICAgICAgIklkZW50aWZpZWQgYXMge3NlcnZpY2V9OyBtYXBwaW5nIGVuYWJsZWQuIiwKICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgfSwKICAgICAgICAgIH0pLAogICAgICAgIF0sCiAgICAgIH0sCiAgICB9KTsKCiAgICBhd2FpdCBtb2RlbC5wcm9iZU1hcHBpbmcoZWFzeVRpZXJNYXBwaW5nKTsKCiAgICBleHBlY3QoY29uZmlnU3RvcmUuY29uZmlnPy5zdHJlYW1fbWFwcGluZ3M/LlswXT8uZGlzYWJsZWQpLnRvQmUoZmFsc2UpOwogICAgZXhwZWN0KGNvbmZpZ1N0b3JlLmNvbmZpZz8uc3RyZWFtX21hcHBpbmdzPy5bMF0/LnZhbGlkYXRpb25fbW9kZSkudG9CZSgKICAgICAgIm9mZiIsCiAgICApOwogICAgZXhwZWN0KAogICAgICBjb25maWdTdG9yZS5jb25maWc/LnN0cmVhbV9tYXBwaW5ncz8uWzBdPy5zZXJ2aWNlX3Byb2ZpbGU/LnNlcnZpY2VfaWQsCiAgICApLnRvQmUoImVhc3l0aWVyIik7CiAgICBleHBlY3QodG9hc3RNb2Nrcy53YXJuaW5nKS50b0hhdmVCZWVuQ2FsbGVkV2l0aCgKICAgICAgIlRhcmdldCBpZGVudGlmaWVkIHdpdGhvdXQgc3RyaWN0IHZhbGlkYXRpb24iLAogICAgICB7IGRlc2NyaXB0aW9uOiAiSWRlbnRpZmllZCBhcyBlYXN5dGllcjsgbWFwcGluZyBlbmFibGVkLiIgfSwKICAgICk7CiAgICBleHBlY3QodG9hc3RNb2Nrcy5lcnJvcikubm90LnRvSGF2ZUJlZW5DYWxsZWQoKTsKICAgIHdyYXBwZXIudW5tb3VudCgpOwogIH0pOwoKICBpdCgiY29uZmlybXMgYW4gaWRlbnRpZmljYXRpb24tb25seSBFYXN5VGllciBwcm9maWxlIHdpdGhvdXQgY2xhaW1pbmcgc3RyaWN0IHZhbGlkYXRpb24iLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBlYXN5VGllclByb2ZpbGUgPSB7CiAgICAgIC4uLm1hcHBpbmcuc2VydmljZV9wcm9maWxlISwKICAgICAgZGV2aWNlX3JvbGU6ICJ2cG4iLAogICAgICBzZXJ2aWNlX2ZhbWlseTogInZwbiIsCiAgICAgIHNlcnZpY2VfaWQ6ICJlYXN5dGllciIsCiAgICAgIHNvdXJjZTogIm1hbnVhbCIsCiAgICAgIHN0cmljdF9jYXBhYmxlOiBmYWxzZSwKICAgIH07CiAgICBjb25zdCBlYXN5VGllck1hcHBpbmc6IFN0cmVhbU1hcHBpbmcgPSB7CiAgICAgIC4uLm1hcHBpbmcsCiAgICAgIGRpc2FibGVkOiBmYWxzZSwKICAgICAgcHJvYmVfc3RhdHVzOiAidW5rbm93biIsCiAgICAgIHNlcnZpY2VfcHJvZmlsZTogewogICAgICAgIC4uLmVhc3lUaWVyUHJvZmlsZSwKICAgICAgICBzb3VyY2U6ICJwcm9iZSIsCiAgICAgIH0sCiAgICAgIHZhbGlkYXRpb25fbW9kZTogIm9mZiIsCiAgICB9OwogICAgY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwogICAgY29uZmlnU3RvcmUuY29uZmlnID0gewogICAgICBob3N0X21hcHBpbmdfZ3JvdXBlZF92aWV3OiBmYWxzZSwKICAgICAgaG9zdF9tYXBwaW5nX2dyb3VwczogW10sCiAgICAgIGhvc3RfbWFwcGluZ3M6IFtdLAogICAgICBzdHJlYW1fbWFwcGluZ3M6IFtlYXN5VGllck1hcHBpbmddLAogICAgfSBhcyBBcHBDb25maWc7CiAgICBjb25zdCBjb25maXJtID0gdmkKICAgICAgLnNweU9uKENvbmZpZ0FQSSwgImNvbmZpcm1TdHJlYW1TZXJ2aWNlUHJvZmlsZSIpCiAgICAgIC5tb2NrUmVzb2x2ZWRWYWx1ZShlYXN5VGllclByb2ZpbGUpOwogICAgdmkuc3B5T24oQ29uZmlnQVBJLCAiZ2V0U3RyZWFtTWFwcGluZ3MiKS5tb2NrUmVzb2x2ZWRWYWx1ZShbCiAgICAgIHsKICAgICAgICAuLi5lYXN5VGllck1hcHBpbmcsCiAgICAgICAgcHJvYmVfc3RhdHVzOiAibWFudWFsIiwKICAgICAgICBzZXJ2aWNlX3Byb2ZpbGU6IGVhc3lUaWVyUHJvZmlsZSwKICAgICAgICB2YWxpZGF0aW9uX21vZGU6ICJvZmYiLAogICAgICB9LAogICAgXSk7CgogICAgbGV0IG1vZGVsITogUmV0dXJuVHlwZTx0eXBlb2YgdXNlU3RyZWFtTWFwcGluZ1NlY3VyaXR5PjsKICAgIGNvbnN0IEhhcm5lc3MgPSBkZWZpbmVDb21wb25lbnQoewogICAgICBzZXR1cCgpIHsKICAgICAgICBtb2RlbCA9IHVzZVN0cmVhbU1hcHBpbmdTZWN1cml0eSgpOwogICAgICAgIHJldHVybiAoKSA9PiBudWxsOwogICAgICB9LAogICAgfSk7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoSGFybmVzcywgewogICAgICBnbG9iYWw6IHsKICAgICAgICBwbHVnaW5zOiBbCiAgICAgICAgICBjcmVhdGVJMThuKHsKICAgICAgICAgICAgbGVnYWN5OiBmYWxzZSwKICAgICAgICAgICAgbG9jYWxlOiAiZW4iLAogICAgICAgICAgICBtZXNzYWdlczogewogICAgICAgICAgICAgIGVuOiB7CiAgICAgICAgICAgICAgICBhZG1pbjogewogICAgICAgICAgICAgICAgICBzdHJlYW1NYXBwaW5nczogewogICAgICAgICAgICAgICAgICAgIHNlcnZpY2VDb25maXJtRmFpbGVkOiAiQ29uZmlybSBmYWlsZWQiLAogICAgICAgICAgICAgICAgICAgIHNlcnZpY2VDb25maXJtZWRJZGVudGlmaWNhdGlvbk9ubHk6CiAgICAgICAgICAgICAgICAgICAgICAiU2VydmljZSBjb25maXJtZWQgd2l0aG91dCBzdHJpY3QgdmFsaWRhdGlvbiIsCiAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgY29tbW9uOiB7IHRyeUxhdGVyOiAiVHJ5IGxhdGVyIiB9LAogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgIH0sCiAgICAgICAgICB9KSwKICAgICAgICBdLAogICAgICB9LAogICAgfSk7CiAgICBtb2RlbC5zZXJ2aWNlUHJvZmlsZU1hcHBpbmcudmFsdWUgPSBlYXN5VGllck1hcHBpbmc7CiAgICBtb2RlbC5pc1NlcnZpY2VQcm9maWxlT3Blbi52YWx1ZSA9IHRydWU7CgogICAgYXdhaXQgbW9kZWwuY29uZmlybVNlcnZpY2VQcm9maWxlKCJlYXN5dGllciIpOwoKICAgIGV4cGVjdChjb25maXJtKS50b0hhdmVCZWVuQ2FsbGVkV2l0aChlYXN5VGllck1hcHBpbmcsICJlYXN5dGllciIpOwogICAgZXhwZWN0KGNvbmZpZ1N0b3JlLmNvbmZpZz8uc3RyZWFtX21hcHBpbmdzPy5bMF0/LmRpc2FibGVkKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChjb25maWdTdG9yZS5jb25maWc/LnN0cmVhbV9tYXBwaW5ncz8uWzBdPy5wcm9iZV9zdGF0dXMpLnRvQmUoCiAgICAgICJtYW51YWwiLAogICAgKTsKICAgIGV4cGVjdChjb25maWdTdG9yZS5jb25maWc/LnN0cmVhbV9tYXBwaW5ncz8uWzBdPy52YWxpZGF0aW9uX21vZGUpLnRvQmUoCiAgICAgICJvZmYiLAogICAgKTsKICAgIGV4cGVjdChtb2RlbC5pc1NlcnZpY2VQcm9maWxlT3Blbi52YWx1ZSkudG9CZShmYWxzZSk7CiAgICBleHBlY3QodG9hc3RNb2Nrcy5zdWNjZXNzKS50b0hhdmVCZWVuQ2FsbGVkV2l0aCgKICAgICAgIlNlcnZpY2UgY29uZmlybWVkIHdpdGhvdXQgc3RyaWN0IHZhbGlkYXRpb24iLAogICAgKTsKICAgIHdyYXBwZXIudW5tb3VudCgpOwogIH0pOwoKICBpdCgiY2xlYXJzIGEgbWFudWFsbHkgc3BlY2lmaWVkIHNlcnZpY2UgYW5kIHJlZnJlc2hlcyB0aGUgZW5hYmxlZCBtYXBwaW5nIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgbWFudWFsTWFwcGluZzogU3RyZWFtTWFwcGluZyA9IHsKICAgICAgLi4ubWFwcGluZywKICAgICAgcHJvYmVfc3RhdHVzOiAibWFudWFsIiwKICAgICAgc2VydmljZV9wcm9maWxlOiB7CiAgICAgICAgLi4ubWFwcGluZy5zZXJ2aWNlX3Byb2ZpbGUhLAogICAgICAgIHNlcnZpY2VfaWQ6ICJ3ZWJkYXZfdGxzIiwKICAgICAgICBzb3VyY2U6ICJtYW51YWwiLAogICAgICB9LAogICAgICB2YWxpZGF0aW9uX21vZGU6ICJzdHJpY3QiLAogICAgfTsKICAgIGNvbnN0IGNvbmZpZ1N0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKICAgIGNvbmZpZ1N0b3JlLmNvbmZpZyA9IHsKICAgICAgaG9zdF9tYXBwaW5nX2dyb3VwZWRfdmlldzogZmFsc2UsCiAgICAgIGhvc3RfbWFwcGluZ19ncm91cHM6IFtdLAogICAgICBob3N0X21hcHBpbmdzOiBbXSwKICAgICAgc3RyZWFtX21hcHBpbmdzOiBbbWFudWFsTWFwcGluZ10sCiAgICB9IGFzIEFwcENvbmZpZzsKICAgIGNvbnN0IGNsZWFyID0gdmkKICAgICAgLnNweU9uKENvbmZpZ0FQSSwgImNsZWFyU3RyZWFtU2VydmljZVByb2ZpbGUiKQogICAgICAubW9ja1Jlc29sdmVkVmFsdWUoKTsKICAgIHZpLnNweU9uKENvbmZpZ0FQSSwgImdldFN0cmVhbU1hcHBpbmdzIikubW9ja1Jlc29sdmVkVmFsdWUoWwogICAgICB7CiAgICAgICAgLi4ubWFudWFsTWFwcGluZywKICAgICAgICBkaXNhYmxlZDogZmFsc2UsCiAgICAgICAgcHJvYmVfc3RhdHVzOiAic3RhbGUiLAogICAgICAgIHNlcnZpY2VfcHJvZmlsZTogdW5kZWZpbmVkLAogICAgICAgIHZhbGlkYXRpb25fbW9kZTogIm9mZiIsCiAgICAgIH0sCiAgICBdKTsKCiAgICBsZXQgbW9kZWwhOiBSZXR1cm5UeXBlPHR5cGVvZiB1c2VTdHJlYW1NYXBwaW5nU2VjdXJpdHk+OwogICAgY29uc3QgSGFybmVzcyA9IGRlZmluZUNvbXBvbmVudCh7CiAgICAgIHNldHVwKCkgewogICAgICAgIG1vZGVsID0gdXNlU3RyZWFtTWFwcGluZ1NlY3VyaXR5KCk7CiAgICAgICAgcmV0dXJuICgpID0+IG51bGw7CiAgICAgIH0sCiAgICB9KTsKICAgIGNvbnN0IHdyYXBwZXIgPSBtb3VudChIYXJuZXNzLCB7CiAgICAgIGdsb2JhbDogewogICAgICAgIHBsdWdpbnM6IFsKICAgICAgICAgIGNyZWF0ZUkxOG4oewogICAgICAgICAgICBsZWdhY3k6IGZhbHNlLAogICAgICAgICAgICBsb2NhbGU6ICJlbiIsCiAgICAgICAgICAgIG1lc3NhZ2VzOiB7CiAgICAgICAgICAgICAgZW46IHsKICAgICAgICAgICAgICAgIGFkbWluOiB7CiAgICAgICAgICAgICAgICAgIHN0cmVhbU1hcHBpbmdzOiB7CiAgICAgICAgICAgICAgICAgICAgc2VydmljZUNsZWFyRmFpbGVkOiAiQ2xlYXIgZmFpbGVkIiwKICAgICAgICAgICAgICAgICAgICBzZXJ2aWNlQ2xlYXJlZDogIlNlcnZpY2UgY2xlYXJlZCIsCiAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgY29tbW9uOiB7IHRyeUxhdGVyOiAiVHJ5IGxhdGVyIiB9LAogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgIH0sCiAgICAgICAgICB9KSwKICAgICAgICBdLAogICAgICB9LAogICAgfSk7CiAgICBtb2RlbC5zZXJ2aWNlUHJvZmlsZU1hcHBpbmcudmFsdWUgPSBtYW51YWxNYXBwaW5nOwogICAgbW9kZWwuaXNTZXJ2aWNlUHJvZmlsZU9wZW4udmFsdWUgPSB0cnVlOwoKICAgIGF3YWl0IG1vZGVsLmNsZWFyU2VydmljZVByb2ZpbGUoKTsKCiAgICBleHBlY3QoY2xlYXIpLnRvSGF2ZUJlZW5DYWxsZWRXaXRoKG1hbnVhbE1hcHBpbmcpOwogICAgZXhwZWN0KGNvbmZpZ1N0b3JlLmNvbmZpZz8uc3RyZWFtX21hcHBpbmdzPy5bMF0/LmRpc2FibGVkKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdCgKICAgICAgY29uZmlnU3RvcmUuY29uZmlnPy5zdHJlYW1fbWFwcGluZ3M/LlswXT8uc2VydmljZV9wcm9maWxlLAogICAgKS50b0JlVW5kZWZpbmVkKCk7CiAgICBleHBlY3QobW9kZWwuaXNTZXJ2aWNlUHJvZmlsZU9wZW4udmFsdWUpLnRvQmUoZmFsc2UpOwogICAgZXhwZWN0KHRvYXN0TW9ja3Muc3VjY2VzcykudG9IYXZlQmVlbkNhbGxlZFdpdGgoIlNlcnZpY2UgY2xlYXJlZCIpOwogICAgd3JhcHBlci51bm1vdW50KCk7CiAgfSk7Cn0pOwo=
+import { mount } from "@vue/test-utils";
+import { createPinia, setActivePinia } from "pinia";
+import { defineComponent } from "vue";
+import { createI18n } from "vue-i18n";
+import { beforeEach, describe, expect, it, vi } from "vitest";
+import { ConfigAPI } from "../src/lib/api/config";
+import { useConfigStore } from "../src/store/config";
+import type { AppConfig, StreamMapping } from "../src/types";
+import { useStreamMappingSecurity } from "../src/views/stream-mappings/useStreamMappingSecurity";
+
+const toastMocks = vi.hoisted(() => ({
+  error: vi.fn(),
+  success: vi.fn(),
+  warning: vi.fn(),
+}));
+
+vi.mock("@admin-shared/utils/toast", () => ({ toast: toastMocks }));
+
+const mapping: StreamMapping = {
+  comment: "WebDAV",
+  listen_port: 6006,
+  probe_status: "unknown",
+  protocol: "tcp",
+  service_profile: {
+    classifier_version: "stream-signatures-v3",
+    device_role: "web_service",
+    evidence_codes: ["http_status_line"],
+    metadata: {
+      auth_probe_status: "401",
+      auth_scheme: "basic",
+      http_status: "200",
+    },
+    observed_at: "2026-08-16T00:00:00Z",
+    role_confidence: "strong",
+    service_confidence: "strong",
+    service_family: "web",
+    service_id: "http1",
+    source: "probe",
+    strict_capable: true,
+    target_fingerprint: "fingerprint",
+  },
+  target: "127.0.0.1:5005",
+  use_auth: true,
+};
+
+describe("stream mapping service detection", () => {
+  beforeEach(() => {
+    setActivePinia(createPinia());
+    vi.restoreAllMocks();
+    toastMocks.error.mockReset();
+    toastMocks.success.mockReset();
+    toastMocks.warning.mockReset();
+  });
+
+  it("opens manual service confirmation when upstream auth hides WebDAV", async () => {
+    const configStore = useConfigStore();
+    configStore.config = {
+      host_mapping_grouped_view: false,
+      host_mapping_groups: [],
+      host_mappings: [],
+      stream_mappings: [mapping],
+    } as AppConfig;
+    const loadConfig = vi.spyOn(configStore, "loadConfig");
+    vi.spyOn(ConfigAPI, "probeStreamMapping").mockResolvedValue({
+      profile: mapping.service_profile,
+      message:
+        "HTTP authentication challenge hides the application service; manual confirmation is required",
+      status: "unknown",
+    });
+    vi.spyOn(ConfigAPI, "getStreamMappings").mockResolvedValue([mapping]);
+    vi.spyOn(ConfigAPI, "getStreamServiceCatalog").mockResolvedValue({
+      classifier_version: "stream-signatures-v3",
+      items: [
+        {
+          active_probe_supported: true,
+          display_name: "WebDAV",
+          service_family: "file_service",
+          service_id: "webdav",
+          strict_capable: true,
+          transports: ["tcp"],
+        },
+      ],
+    });
+
+    let model!: ReturnType<typeof useStreamMappingSecurity>;
+    const Harness = defineComponent({
+      setup() {
+        model = useStreamMappingSecurity();
+        return () => null;
+      },
+    });
+    const wrapper = mount(Harness, {
+      global: {
+        plugins: [
+          createI18n({
+            legacy: false,
+            locale: "en",
+            messages: {
+              en: {
+                admin: {
+                  streamMappings: {
+                    probeAuthenticatedHttp:
+                      "HTTP authentication hides the service",
+                    probeAuthenticatedHttpDescription:
+                      "Confirm WebDAV manually",
+                  },
+                },
+              },
+            },
+          }),
+        ],
+      },
+    });
+
+    await model.probeMapping(mapping);
+
+    expect(loadConfig).not.toHaveBeenCalled();
+    expect(toastMocks.warning).toHaveBeenCalledOnce();
+    expect(model.isServiceProfileOpen.value).toBe(true);
+    expect(model.serviceProfileInitialServiceId.value).toBe("");
+    expect(model.serviceProfileMapping.value?.target).toBe("127.0.0.1:5005");
+    expect(model.serviceCatalog.value?.items[0]?.service_id).toBe("webdav");
+    wrapper.unmount();
+  });
+
+  it("keeps an unknown but reachable target enabled without strict validation", async () => {
+    const unknownMapping: StreamMapping = {
+      ...mapping,
+      disabled: true,
+      service_profile: undefined,
+      validation_mode: "strict",
+    };
+    const configStore = useConfigStore();
+    configStore.config = {
+      host_mapping_grouped_view: false,
+      host_mapping_groups: [],
+      host_mappings: [],
+      stream_mappings: [unknownMapping],
+    } as AppConfig;
+    vi.spyOn(ConfigAPI, "probeStreamMapping").mockResolvedValue({
+      message: "target responded but no strong service signature matched",
+      status: "unknown",
+    });
+    vi.spyOn(ConfigAPI, "getStreamMappings").mockResolvedValue([
+      {
+        ...unknownMapping,
+        disabled: false,
+        probe_status: "unknown",
+        validation_mode: "off",
+      },
+    ]);
+
+    let model!: ReturnType<typeof useStreamMappingSecurity>;
+    const Harness = defineComponent({
+      setup() {
+        model = useStreamMappingSecurity();
+        return () => null;
+      },
+    });
+    const wrapper = mount(Harness, {
+      global: {
+        plugins: [
+          createI18n({
+            legacy: false,
+            locale: "en",
+            messages: {
+              en: {
+                admin: {
+                  streamMappings: {
+                    probeUnverified:
+                      "Target reachable without strict validation",
+                  },
+                },
+              },
+            },
+          }),
+        ],
+      },
+    });
+
+    await model.probeMapping(unknownMapping);
+
+    expect(configStore.config?.stream_mappings?.[0]?.disabled).toBe(false);
+    expect(configStore.config?.stream_mappings?.[0]?.validation_mode).toBe(
+      "off",
+    );
+    expect(toastMocks.warning).toHaveBeenCalledWith(
+      "Target reachable without strict validation",
+      {
+        description: "target responded but no strong service signature matched",
+      },
+    );
+    expect(toastMocks.error).not.toHaveBeenCalled();
+    wrapper.unmount();
+  });
+
+  it("reports an identification-only EasyTier probe without enabling strict validation", async () => {
+    const easyTierMapping: StreamMapping = {
+      ...mapping,
+      disabled: false,
+      service_profile: undefined,
+      validation_mode: "off",
+    };
+    const easyTierProfile = {
+      ...mapping.service_profile!,
+      device_role: "vpn",
+      service_confidence: "strong",
+      service_family: "vpn",
+      service_id: "easytier",
+      strict_capable: false,
+    };
+    const configStore = useConfigStore();
+    configStore.config = {
+      host_mapping_grouped_view: false,
+      host_mapping_groups: [],
+      host_mappings: [],
+      stream_mappings: [easyTierMapping],
+    } as AppConfig;
+    vi.spyOn(ConfigAPI, "probeStreamMapping").mockResolvedValue({
+      message: "service identified; strict validation is not enabled",
+      profile: easyTierProfile,
+      status: "unknown",
+    });
+    vi.spyOn(ConfigAPI, "getStreamMappings").mockResolvedValue([
+      {
+        ...easyTierMapping,
+        disabled: false,
+        probe_status: "unknown",
+        service_profile: easyTierProfile,
+        validation_mode: "off",
+      },
+    ]);
+
+    let model!: ReturnType<typeof useStreamMappingSecurity>;
+    const Harness = defineComponent({
+      setup() {
+        model = useStreamMappingSecurity();
+        return () => null;
+      },
+    });
+    const wrapper = mount(Harness, {
+      global: {
+        plugins: [
+          createI18n({
+            legacy: false,
+            locale: "en",
+            messages: {
+              en: {
+                admin: {
+                  streamMappings: {
+                    probeIdentifiedWithoutStrict:
+                      "Target identified without strict validation",
+                    probeIdentifiedWithoutStrictDescription:
+                      "Identified as {service}; mapping enabled.",
+                  },
+                },
+              },
+            },
+          }),
+        ],
+      },
+    });
+
+    await model.probeMapping(easyTierMapping);
+
+    expect(configStore.config?.stream_mappings?.[0]?.disabled).toBe(false);
+    expect(configStore.config?.stream_mappings?.[0]?.validation_mode).toBe(
+      "off",
+    );
+    expect(
+      configStore.config?.stream_mappings?.[0]?.service_profile?.service_id,
+    ).toBe("easytier");
+    expect(toastMocks.warning).toHaveBeenCalledWith(
+      "Target identified without strict validation",
+      { description: "Identified as easytier; mapping enabled." },
+    );
+    expect(toastMocks.error).not.toHaveBeenCalled();
+    wrapper.unmount();
+  });
+
+  it("confirms an identification-only EasyTier profile without claiming strict validation", async () => {
+    const easyTierProfile = {
+      ...mapping.service_profile!,
+      device_role: "vpn",
+      service_family: "vpn",
+      service_id: "easytier",
+      source: "manual",
+      strict_capable: false,
+    };
+    const easyTierMapping: StreamMapping = {
+      ...mapping,
+      disabled: false,
+      probe_status: "unknown",
+      service_profile: {
+        ...easyTierProfile,
+        source: "probe",
+      },
+      validation_mode: "off",
+    };
+    const configStore = useConfigStore();
+    configStore.config = {
+      host_mapping_grouped_view: false,
+      host_mapping_groups: [],
+      host_mappings: [],
+      stream_mappings: [easyTierMapping],
+    } as AppConfig;
+    const confirm = vi
+      .spyOn(ConfigAPI, "confirmStreamServiceProfile")
+      .mockResolvedValue(easyTierProfile);
+    vi.spyOn(ConfigAPI, "getStreamMappings").mockResolvedValue([
+      {
+        ...easyTierMapping,
+        probe_status: "manual",
+        service_profile: easyTierProfile,
+        validation_mode: "off",
+      },
+    ]);
+
+    let model!: ReturnType<typeof useStreamMappingSecurity>;
+    const Harness = defineComponent({
+      setup() {
+        model = useStreamMappingSecurity();
+        return () => null;
+      },
+    });
+    const wrapper = mount(Harness, {
+      global: {
+        plugins: [
+          createI18n({
+            legacy: false,
+            locale: "en",
+            messages: {
+              en: {
+                admin: {
+                  streamMappings: {
+                    serviceConfirmFailed: "Confirm failed",
+                    serviceConfirmedIdentificationOnly:
+                      "Service confirmed without strict validation",
+                  },
+                },
+                common: { tryLater: "Try later" },
+              },
+            },
+          }),
+        ],
+      },
+    });
+    model.serviceProfileMapping.value = easyTierMapping;
+    model.isServiceProfileOpen.value = true;
+
+    await model.confirmServiceProfile("easytier");
+
+    expect(confirm).toHaveBeenCalledWith(easyTierMapping, "easytier");
+    expect(configStore.config?.stream_mappings?.[0]?.disabled).toBe(false);
+    expect(configStore.config?.stream_mappings?.[0]?.probe_status).toBe(
+      "manual",
+    );
+    expect(configStore.config?.stream_mappings?.[0]?.validation_mode).toBe(
+      "off",
+    );
+    expect(model.isServiceProfileOpen.value).toBe(false);
+    expect(toastMocks.success).toHaveBeenCalledWith(
+      "Service confirmed without strict validation",
+    );
+    wrapper.unmount();
+  });
+
+  it("clears a manually specified service and refreshes the enabled mapping", async () => {
+    const manualMapping: StreamMapping = {
+      ...mapping,
+      probe_status: "manual",
+      service_profile: {
+        ...mapping.service_profile!,
+        service_id: "webdav_tls",
+        source: "manual",
+      },
+      validation_mode: "strict",
+    };
+    const configStore = useConfigStore();
+    configStore.config = {
+      host_mapping_grouped_view: false,
+      host_mapping_groups: [],
+      host_mappings: [],
+      stream_mappings: [manualMapping],
+    } as AppConfig;
+    const clear = vi
+      .spyOn(ConfigAPI, "clearStreamServiceProfile")
+      .mockResolvedValue();
+    vi.spyOn(ConfigAPI, "getStreamMappings").mockResolvedValue([
+      {
+        ...manualMapping,
+        disabled: false,
+        probe_status: "stale",
+        service_profile: undefined,
+        validation_mode: "off",
+      },
+    ]);
+
+    let model!: ReturnType<typeof useStreamMappingSecurity>;
+    const Harness = defineComponent({
+      setup() {
+        model = useStreamMappingSecurity();
+        return () => null;
+      },
+    });
+    const wrapper = mount(Harness, {
+      global: {
+        plugins: [
+          createI18n({
+            legacy: false,
+            locale: "en",
+            messages: {
+              en: {
+                admin: {
+                  streamMappings: {
+                    serviceClearFailed: "Clear failed",
+                    serviceCleared: "Service cleared",
+                  },
+                },
+                common: { tryLater: "Try later" },
+              },
+            },
+          }),
+        ],
+      },
+    });
+    model.serviceProfileMapping.value = manualMapping;
+    model.isServiceProfileOpen.value = true;
+
+    await model.clearServiceProfile();
+
+    expect(clear).toHaveBeenCalledWith(manualMapping);
+    expect(configStore.config?.stream_mappings?.[0]?.disabled).toBe(false);
+    expect(
+      configStore.config?.stream_mappings?.[0]?.service_profile,
+    ).toBeUndefined();
+    expect(model.isServiceProfileOpen.value).toBe(false);
+    expect(toastMocks.success).toHaveBeenCalledWith("Service cleared");
+    wrapper.unmount();
+  });
+});

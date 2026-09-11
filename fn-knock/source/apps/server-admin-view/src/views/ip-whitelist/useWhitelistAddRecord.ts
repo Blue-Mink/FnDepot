@@ -1,1 +1,211 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IGlzVmFsaWRDSURSIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9jaWRyIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgV2hpdGVsaXN0QVBJIH0gZnJvbSAiQC9saWIvYXBpL3doaXRlbGlzdCI7CmltcG9ydCB7IHR5cGUgR2F0ZXdheVZpc2liaWxpdHlTZWxlY3Rpb24gfSBmcm9tICJAL3R5cGVzIjsKCnR5cGUgVHJhbnNsYXRlID0gKAogIGtleTogc3RyaW5nLAogIHBhcmFtcz86IFJlY29yZDxzdHJpbmcsIHN0cmluZyB8IG51bWJlcj4sCikgPT4gc3RyaW5nOwoKaW50ZXJmYWNlIFVzZVdoaXRlbGlzdEFkZFJlY29yZE9wdGlvbnMgewogIGN1cnJlbnRQYWdlOiBSZWY8bnVtYmVyPjsKICBmZXRjaFJlY29yZHM6ICgpID0+IFByb21pc2U8dW5rbm93bj47CiAgc2VhcmNoUXVlcnk6IFJlZjxzdHJpbmc+OwogIHRyYW5zbGF0ZTogVHJhbnNsYXRlOwp9CgpleHBvcnQgdHlwZSBXaGl0ZWxpc3ROZXdSZWNvcmQgPSB7CiAgaXA6IHN0cmluZzsKICB0YXJnZXRUeXBlOiAiaXAiIHwgImNpZHIiIHwgImNuYW1lIjsKICBjaGVja0ludGVydmFsTWludXRlczogbnVtYmVyOwogIGNvbW1lbnQ6IHN0cmluZzsKfTsKCmV4cG9ydCBmdW5jdGlvbiB1c2VXaGl0ZWxpc3RBZGRSZWNvcmQoewogIGN1cnJlbnRQYWdlLAogIGZldGNoUmVjb3JkcywKICBzZWFyY2hRdWVyeSwKICB0cmFuc2xhdGUsCn06IFVzZVdoaXRlbGlzdEFkZFJlY29yZE9wdGlvbnMpIHsKICBjb25zdCBzaG93QWRkRGlhbG9nID0gcmVmKGZhbHNlKTsKICBjb25zdCBkdXJhdGlvblNldHRpbmcgPSByZWYoInBlcm1hbmVudCIpOwogIGNvbnN0IGN1c3RvbUhvdXJzID0gcmVmKDI0KTsKICBjb25zdCBuZXdSZWNvcmQgPSByZWY8V2hpdGVsaXN0TmV3UmVjb3JkPih7CiAgICBpcDogIiIsCiAgICB0YXJnZXRUeXBlOiAiaXAiIGFzICJpcCIgfCAiY2lkciIgfCAiY25hbWUiLAogICAgY2hlY2tJbnRlcnZhbE1pbnV0ZXM6IDUsCiAgICBjb21tZW50OiAiIiwKICB9KTsKICBjb25zdCBjaWRySW5wdXRNb2RlID0gcmVmPCJtYW51YWwiIHwgInJlZ2lvbiI+KCJtYW51YWwiKTsKICBjb25zdCB3aGl0ZWxpc3RSZWdpb25TZWxlY3Rpb25zID0gcmVmPEdhdGV3YXlWaXNpYmlsaXR5U2VsZWN0aW9uW10+KFtdKTsKCiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzU2F2aW5nLCBydW46IHJ1bkFkZFJlY29yZCB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QubmV0d29ya0FkZFRpdGxlIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdHJhbnNsYXRlKCJhZG1pbi5pcFdoaXRlbGlzdC5hZGRGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CiAgY29uc3QgbmV3UmVjb3JkUGxhY2Vob2xkZXIgPSBjb21wdXRlZCgoKSA9PgogICAgbmV3UmVjb3JkLnZhbHVlLnRhcmdldFR5cGUgPT09ICJjaWRyIgogICAgICA/IHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QucGxhY2Vob2xkZXJDaWRyIikKICAgICAgOiBuZXdSZWNvcmQudmFsdWUudGFyZ2V0VHlwZSA9PT0gImNuYW1lIgogICAgICAgID8gdHJhbnNsYXRlKCJhZG1pbi5pcFdoaXRlbGlzdC5wbGFjZWhvbGRlckNuYW1lIikKICAgICAgICA6IHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QucGxhY2Vob2xkZXJJcCIpLAogICk7CiAgY29uc3QgaXNSZWdpb25DaWRyTW9kZSA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgbmV3UmVjb3JkLnZhbHVlLnRhcmdldFR5cGUgPT09ICJjaWRyIiAmJiBjaWRySW5wdXRNb2RlLnZhbHVlID09PSAicmVnaW9uIiwKICApOwogIGNvbnN0IHJlZ2lvbklucHV0c0Rpc2FibGVkID0gY29tcHV0ZWQoCiAgICAoKSA9PiBpc1NhdmluZy52YWx1ZSB8fCAhaXNSZWdpb25DaWRyTW9kZS52YWx1ZSwKICApOwogIGNvbnN0IGNhblNhdmVOZXdSZWNvcmQgPSBjb21wdXRlZCgoKSA9PgogICAgaXNSZWdpb25DaWRyTW9kZS52YWx1ZQogICAgICA/IHdoaXRlbGlzdFJlZ2lvblNlbGVjdGlvbnMudmFsdWUubGVuZ3RoID4gMAogICAgICA6IEJvb2xlYW4obmV3UmVjb3JkLnZhbHVlLmlwLnRyaW0oKSksCiAgKTsKCiAgZnVuY3Rpb24gZ2V0TmV3UmVjb3JkRXhwaXJlQXQoKSB7CiAgICBpZiAoZHVyYXRpb25TZXR0aW5nLnZhbHVlID09PSAicGVybWFuZW50IikgcmV0dXJuIG51bGw7CgogICAgY29uc3Qgbm93ID0gTWF0aC5mbG9vcihEYXRlLm5vdygpIC8gMTAwMCk7CiAgICBjb25zdCBkdXJhdGlvbkhvdXJzID0KICAgICAgZHVyYXRpb25TZXR0aW5nLnZhbHVlID09PSAiMWgiCiAgICAgICAgPyAxCiAgICAgICAgOiBkdXJhdGlvblNldHRpbmcudmFsdWUgPT09ICIyNGgiCiAgICAgICAgICA/IDI0CiAgICAgICAgICA6IGR1cmF0aW9uU2V0dGluZy52YWx1ZSA9PT0gIjdkIgogICAgICAgICAgICA/IDI0ICogNwogICAgICAgICAgICA6IGN1c3RvbUhvdXJzLnZhbHVlIHx8IDE7CiAgICByZXR1cm4gbm93ICsgZHVyYXRpb25Ib3VycyAqIDM2MDA7CiAgfQoKICBmdW5jdGlvbiByZXNldEFkZEZvcm0oKSB7CiAgICBuZXdSZWNvcmQudmFsdWUgPSB7CiAgICAgIGlwOiAiIiwKICAgICAgdGFyZ2V0VHlwZTogImlwIiwKICAgICAgY2hlY2tJbnRlcnZhbE1pbnV0ZXM6IDUsCiAgICAgIGNvbW1lbnQ6ICIiLAogICAgfTsKICAgIGNpZHJJbnB1dE1vZGUudmFsdWUgPSAibWFudWFsIjsKICAgIHdoaXRlbGlzdFJlZ2lvblNlbGVjdGlvbnMudmFsdWUgPSBbXTsKICAgIGR1cmF0aW9uU2V0dGluZy52YWx1ZSA9ICJwZXJtYW5lbnQiOwogICAgY3VzdG9tSG91cnMudmFsdWUgPSAyNDsKICB9CgogIGFzeW5jIGZ1bmN0aW9uIGNvbXBsZXRlQWRkKCkgewogICAgc2hvd0FkZERpYWxvZy52YWx1ZSA9IGZhbHNlOwogICAgcmVzZXRBZGRGb3JtKCk7CiAgICBjdXJyZW50UGFnZS52YWx1ZSA9IDE7CiAgICBzZWFyY2hRdWVyeS52YWx1ZSA9ICIiOwogICAgYXdhaXQgZmV0Y2hSZWNvcmRzKCk7CiAgfQoKICBhc3luYyBmdW5jdGlvbiBhZGRSZWNvcmQoKSB7CiAgICBpZiAoaXNSZWdpb25DaWRyTW9kZS52YWx1ZSkgewogICAgICBpZiAod2hpdGVsaXN0UmVnaW9uU2VsZWN0aW9ucy52YWx1ZS5sZW5ndGggPT09IDApIHsKICAgICAgICB0b2FzdC5lcnJvcih0cmFuc2xhdGUoImFkbWluLmlwV2hpdGVsaXN0LnJlZ2lvblJlcXVpcmVkVGl0bGUiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QucmVnaW9uUmVxdWlyZWREZXNjcmlwdGlvbiIpLAogICAgICAgIH0pOwogICAgICAgIHJldHVybjsKICAgICAgfQoKICAgICAgY29uc3QgZXhwaXJlQXQgPSBnZXROZXdSZWNvcmRFeHBpcmVBdCgpOwogICAgICBjb25zdCBjb21tZW50ID0gbmV3UmVjb3JkLnZhbHVlLmNvbW1lbnQudHJpbSgpIHx8IHVuZGVmaW5lZDsKICAgICAgYXdhaXQgcnVuQWRkUmVjb3JkKGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IFdoaXRlbGlzdEFQSS5hZGRSZWdpb25zKHsKICAgICAgICAgIHJlZ2lvbnM6IHdoaXRlbGlzdFJlZ2lvblNlbGVjdGlvbnMudmFsdWUubWFwKChpdGVtKSA9PiAoewogICAgICAgICAgICBwcm92aW5jZTogaXRlbS5wcm92aW5jZSwKICAgICAgICAgICAgcXVlcnlfY2l0eTogaXRlbS5xdWVyeV9jaXR5LAogICAgICAgICAgICBvcGVyYXRvcjogaXRlbS5vcGVyYXRvciwKICAgICAgICAgIH0pKSwKICAgICAgICAgIGV4cGlyZUF0LAogICAgICAgICAgLi4uKGNvbW1lbnQgPyB7IGNvbW1lbnQgfSA6IHt9KSwKICAgICAgICB9KTsKCiAgICAgICAgaWYgKCFyZXNwb25zZS5zdWNjZXNzIHx8ICFyZXNwb25zZS5kYXRhKSB7CiAgICAgICAgICB0b2FzdC5lcnJvcih0cmFuc2xhdGUoImFkbWluLmlwV2hpdGVsaXN0LmFkZEZhaWxlZCIpLCB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uOiByZXNwb25zZS5tZXNzYWdlID8/IHVuZGVmaW5lZCwKICAgICAgICAgIH0pOwogICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KCiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0cmFuc2xhdGUoImFkbWluLmlwV2hpdGVsaXN0LmFkZFJlZ2lvbnNTdWNjZXNzIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiB0cmFuc2xhdGUoImFkbWluLmlwV2hpdGVsaXN0LmFkZFJlZ2lvbnNSZXN1bHQiLCB7CiAgICAgICAgICAgIHJlZ2lvbnM6IHJlc3BvbnNlLmRhdGEuZ3JvdXAucmVnaW9ucy5sZW5ndGgsCiAgICAgICAgICAgIHRvdGFsOiByZXNwb25zZS5kYXRhLnRvdGFsLAogICAgICAgICAgfSksCiAgICAgICAgfSk7CiAgICAgICAgYXdhaXQgY29tcGxldGVBZGQoKTsKICAgICAgfSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBjb25zdCBpcCA9IG5ld1JlY29yZC52YWx1ZS5pcC50cmltKCk7CiAgICBpZiAoIWlwKSByZXR1cm47CiAgICBpZiAobmV3UmVjb3JkLnZhbHVlLnRhcmdldFR5cGUgPT09ICJjaWRyIiAmJiAhaXNWYWxpZENJRFIoaXApKSB7CiAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QuaW52YWxpZENpZHJUaXRsZSIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QuaW52YWxpZENpZHJEZXNjcmlwdGlvbiIpLAogICAgICB9KTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKAogICAgICBuZXdSZWNvcmQudmFsdWUudGFyZ2V0VHlwZSA9PT0gImNuYW1lIiAmJgogICAgICAoIU51bWJlci5pc0Zpbml0ZShuZXdSZWNvcmQudmFsdWUuY2hlY2tJbnRlcnZhbE1pbnV0ZXMpIHx8CiAgICAgICAgbmV3UmVjb3JkLnZhbHVlLmNoZWNrSW50ZXJ2YWxNaW51dGVzIDwgMSkKICAgICkgewogICAgICB0b2FzdC5lcnJvcih0cmFuc2xhdGUoImFkbWluLmlwV2hpdGVsaXN0LmludmFsaWRJbnRlcnZhbFRpdGxlIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogdHJhbnNsYXRlKCJhZG1pbi5pcFdoaXRlbGlzdC5pbnZhbGlkSW50ZXJ2YWxEZXNjcmlwdGlvbiIpLAogICAgICB9KTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGF3YWl0IHJ1bkFkZFJlY29yZChhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgV2hpdGVsaXN0QVBJLmFkZFJlY29yZCh7CiAgICAgICAgaXAsCiAgICAgICAgdGFyZ2V0VHlwZTogbmV3UmVjb3JkLnZhbHVlLnRhcmdldFR5cGUsCiAgICAgICAgZXhwaXJlQXQ6IGdldE5ld1JlY29yZEV4cGlyZUF0KCksCiAgICAgICAgc291cmNlOiAibWFudWFsIiwKICAgICAgICBjb21tZW50OiBuZXdSZWNvcmQudmFsdWUuY29tbWVudC50cmltKCkgfHwgdW5kZWZpbmVkLAogICAgICAgIGNoZWNrSW50ZXJ2YWxNaW51dGVzOgogICAgICAgICAgbmV3UmVjb3JkLnZhbHVlLnRhcmdldFR5cGUgPT09ICJjbmFtZSIKICAgICAgICAgICAgPyBNYXRoLmZsb29yKG5ld1JlY29yZC52YWx1ZS5jaGVja0ludGVydmFsTWludXRlcyB8fCA1KQogICAgICAgICAgICA6IHVuZGVmaW5lZCwKICAgICAgfSk7CiAgICAgIGlmICghcmVzcG9uc2Uuc3VjY2VzcykgewogICAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QuYWRkRmFpbGVkIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiByZXNwb25zZS5tZXNzYWdlID8/IHVuZGVmaW5lZCwKICAgICAgICB9KTsKICAgICAgICByZXR1cm47CiAgICAgIH0KCiAgICAgIHRvYXN0LnN1Y2Nlc3ModHJhbnNsYXRlKCJhZG1pbi5pcFdoaXRlbGlzdC5hZGRTdWNjZXNzIikpOwogICAgICBhd2FpdCBjb21wbGV0ZUFkZCgpOwogICAgfSk7CiAgfQoKICByZXR1cm4gewogICAgYWRkUmVjb3JkLAogICAgY2FuU2F2ZU5ld1JlY29yZCwKICAgIGNpZHJJbnB1dE1vZGUsCiAgICBjdXN0b21Ib3VycywKICAgIGR1cmF0aW9uU2V0dGluZywKICAgIGlzUmVnaW9uQ2lkck1vZGUsCiAgICBpc1NhdmluZywKICAgIG5ld1JlY29yZCwKICAgIG5ld1JlY29yZFBsYWNlaG9sZGVyLAogICAgcmVnaW9uSW5wdXRzRGlzYWJsZWQsCiAgICBzaG93QWRkRGlhbG9nLAogICAgd2hpdGVsaXN0UmVnaW9uU2VsZWN0aW9ucywKICB9Owp9Cg==
+import { computed, ref, type Ref } from "vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { isValidCIDR } from "@admin-shared/utils/cidr";
+import { toast } from "@admin-shared/utils/toast";
+import { WhitelistAPI } from "@/lib/api/whitelist";
+import { type GatewayVisibilitySelection } from "@/types";
+
+type Translate = (
+  key: string,
+  params?: Record<string, string | number>,
+) => string;
+
+interface UseWhitelistAddRecordOptions {
+  currentPage: Ref<number>;
+  fetchRecords: () => Promise<unknown>;
+  searchQuery: Ref<string>;
+  translate: Translate;
+}
+
+export type WhitelistNewRecord = {
+  ip: string;
+  targetType: "ip" | "cidr" | "cname";
+  checkIntervalMinutes: number;
+  comment: string;
+};
+
+export function useWhitelistAddRecord({
+  currentPage,
+  fetchRecords,
+  searchQuery,
+  translate,
+}: UseWhitelistAddRecordOptions) {
+  const showAddDialog = ref(false);
+  const durationSetting = ref("permanent");
+  const customHours = ref(24);
+  const newRecord = ref<WhitelistNewRecord>({
+    ip: "",
+    targetType: "ip" as "ip" | "cidr" | "cname",
+    checkIntervalMinutes: 5,
+    comment: "",
+  });
+  const cidrInputMode = ref<"manual" | "region">("manual");
+  const whitelistRegionSelections = ref<GatewayVisibilitySelection[]>([]);
+
+  const { isPending: isSaving, run: runAddRecord } = useAsyncAction({
+    onError: (error) => {
+      toast.error(translate("admin.ipWhitelist.networkAddTitle"), {
+        description: extractErrorMessage(
+          error,
+          translate("admin.ipWhitelist.addFailed"),
+        ),
+      });
+    },
+  });
+  const newRecordPlaceholder = computed(() =>
+    newRecord.value.targetType === "cidr"
+      ? translate("admin.ipWhitelist.placeholderCidr")
+      : newRecord.value.targetType === "cname"
+        ? translate("admin.ipWhitelist.placeholderCname")
+        : translate("admin.ipWhitelist.placeholderIp"),
+  );
+  const isRegionCidrMode = computed(
+    () =>
+      newRecord.value.targetType === "cidr" && cidrInputMode.value === "region",
+  );
+  const regionInputsDisabled = computed(
+    () => isSaving.value || !isRegionCidrMode.value,
+  );
+  const canSaveNewRecord = computed(() =>
+    isRegionCidrMode.value
+      ? whitelistRegionSelections.value.length > 0
+      : Boolean(newRecord.value.ip.trim()),
+  );
+
+  function getNewRecordExpireAt() {
+    if (durationSetting.value === "permanent") return null;
+
+    const now = Math.floor(Date.now() / 1000);
+    const durationHours =
+      durationSetting.value === "1h"
+        ? 1
+        : durationSetting.value === "24h"
+          ? 24
+          : durationSetting.value === "7d"
+            ? 24 * 7
+            : customHours.value || 1;
+    return now + durationHours * 3600;
+  }
+
+  function resetAddForm() {
+    newRecord.value = {
+      ip: "",
+      targetType: "ip",
+      checkIntervalMinutes: 5,
+      comment: "",
+    };
+    cidrInputMode.value = "manual";
+    whitelistRegionSelections.value = [];
+    durationSetting.value = "permanent";
+    customHours.value = 24;
+  }
+
+  async function completeAdd() {
+    showAddDialog.value = false;
+    resetAddForm();
+    currentPage.value = 1;
+    searchQuery.value = "";
+    await fetchRecords();
+  }
+
+  async function addRecord() {
+    if (isRegionCidrMode.value) {
+      if (whitelistRegionSelections.value.length === 0) {
+        toast.error(translate("admin.ipWhitelist.regionRequiredTitle"), {
+          description: translate("admin.ipWhitelist.regionRequiredDescription"),
+        });
+        return;
+      }
+
+      const expireAt = getNewRecordExpireAt();
+      const comment = newRecord.value.comment.trim() || undefined;
+      await runAddRecord(async () => {
+        const response = await WhitelistAPI.addRegions({
+          regions: whitelistRegionSelections.value.map((item) => ({
+            province: item.province,
+            query_city: item.query_city,
+            operator: item.operator,
+          })),
+          expireAt,
+          ...(comment ? { comment } : {}),
+        });
+
+        if (!response.success || !response.data) {
+          toast.error(translate("admin.ipWhitelist.addFailed"), {
+            description: response.message ?? undefined,
+          });
+          return;
+        }
+
+        toast.success(translate("admin.ipWhitelist.addRegionsSuccess"), {
+          description: translate("admin.ipWhitelist.addRegionsResult", {
+            regions: response.data.group.regions.length,
+            total: response.data.total,
+          }),
+        });
+        await completeAdd();
+      });
+      return;
+    }
+
+    const ip = newRecord.value.ip.trim();
+    if (!ip) return;
+    if (newRecord.value.targetType === "cidr" && !isValidCIDR(ip)) {
+      toast.error(translate("admin.ipWhitelist.invalidCidrTitle"), {
+        description: translate("admin.ipWhitelist.invalidCidrDescription"),
+      });
+      return;
+    }
+    if (
+      newRecord.value.targetType === "cname" &&
+      (!Number.isFinite(newRecord.value.checkIntervalMinutes) ||
+        newRecord.value.checkIntervalMinutes < 1)
+    ) {
+      toast.error(translate("admin.ipWhitelist.invalidIntervalTitle"), {
+        description: translate("admin.ipWhitelist.invalidIntervalDescription"),
+      });
+      return;
+    }
+
+    await runAddRecord(async () => {
+      const response = await WhitelistAPI.addRecord({
+        ip,
+        targetType: newRecord.value.targetType,
+        expireAt: getNewRecordExpireAt(),
+        source: "manual",
+        comment: newRecord.value.comment.trim() || undefined,
+        checkIntervalMinutes:
+          newRecord.value.targetType === "cname"
+            ? Math.floor(newRecord.value.checkIntervalMinutes || 5)
+            : undefined,
+      });
+      if (!response.success) {
+        toast.error(translate("admin.ipWhitelist.addFailed"), {
+          description: response.message ?? undefined,
+        });
+        return;
+      }
+
+      toast.success(translate("admin.ipWhitelist.addSuccess"));
+      await completeAdd();
+    });
+  }
+
+  return {
+    addRecord,
+    canSaveNewRecord,
+    cidrInputMode,
+    customHours,
+    durationSetting,
+    isRegionCidrMode,
+    isSaving,
+    newRecord,
+    newRecordPlaceholder,
+    regionInputsDisabled,
+    showAddDialog,
+    whitelistRegionSelections,
+  };
+}

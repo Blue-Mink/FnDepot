@@ -1,1 +1,130 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InZlcnNpb24tZmxvdy1hcnJvdyIgYXJpYS1oaWRkZW49InRydWUiPgogICAgPHNwYW4gY2xhc3M9InZlcnNpb24tZmxvdy1hcnJvd19fZ2x5cGgiIC8+CiAgICA8c3BhbiBjbGFzcz0idmVyc2lvbi1mbG93LWFycm93X19mbG93IiAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHN0eWxlIHNjb3BlZD4KLnZlcnNpb24tZmxvdy1hcnJvdyB7CiAgLS12ZXJzaW9uLWFycm93LW1hc2s6IHVybCgiZGF0YTppbWFnZS9zdmcreG1sLCUzQ3N2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCclM0UlM0NwYXRoIGQ9J001IDEyaDE0TTEyIDVsNyA3LTcgNycgZmlsbD0nbm9uZScgc3Ryb2tlPSdibGFjaycgc3Ryb2tlLXdpZHRoPScyJyBzdHJva2UtbGluZWNhcD0ncm91bmQnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnLyUzRSUzQy9zdmclM0UiKTsKCiAgcG9zaXRpb246IHJlbGF0aXZlOwogIGRpc3BsYXk6IGdyaWQ7CiAgd2lkdGg6IDIuNzVyZW07CiAgaGVpZ2h0OiAyLjc1cmVtOwogIGNvbG9yOiB2YXIoLS1mb3JlZ3JvdW5kKTsKICBwbGFjZS1pdGVtczogY2VudGVyOwogIGlzb2xhdGlvbjogaXNvbGF0ZTsKfQoKLnZlcnNpb24tZmxvdy1hcnJvdzo6YmVmb3JlIHsKICB6LWluZGV4OiAtMTsKICB3aWR0aDogMS43NXJlbTsKICBoZWlnaHQ6IDEuMXJlbTsKICBncmlkLWFyZWE6IDEgLyAxOwogIGJvcmRlci1yYWRpdXM6IDk5OXB4OwogIGJhY2tncm91bmQ6IGNvbmljLWdyYWRpZW50KAogICAgZnJvbSA5MGRlZywKICAgICNmZjRmOWEsCiAgICAjZmZlNjZkLAogICAgIzRmZmZjMSwKICAgICM0NWNhZmYsCiAgICAjOGI3Y2ZmLAogICAgI2ZmNWZkMiwKICAgICNmZjRmOWEKICApOwogIGNvbnRlbnQ6ICIiOwogIG9wYWNpdHk6IDA7CiAgZmlsdGVyOiBibHVyKDAuNXJlbSkgc2F0dXJhdGUoMS4yNSk7CiAgdHJhbnNmb3JtOiBzY2FsZSgwLjcyKTsKICB0cmFuc2l0aW9uOgogICAgb3BhY2l0eSA2MDBtcyBjdWJpYy1iZXppZXIoMC4yMiwgMSwgMC4zNiwgMSksCiAgICB0cmFuc2Zvcm0gNzAwbXMgY3ViaWMtYmV6aWVyKDAuMTYsIDEsIDAuMywgMSk7CiAgYW5pbWF0aW9uOiB2ZXJzaW9uLWFycm93LWF1cmEgNnMgbGluZWFyIGluZmluaXRlIHBhdXNlZDsKfQoKLnZlcnNpb24tZmxvdy1hcnJvd19fZmxvdywKLnZlcnNpb24tZmxvdy1hcnJvd19fZ2x5cGggewogIHdpZHRoOiAxLjVyZW07CiAgaGVpZ2h0OiAxLjVyZW07CiAgZ3JpZC1hcmVhOiAxIC8gMTsKICAtd2Via2l0LW1hc2s6IHZhcigtLXZlcnNpb24tYXJyb3ctbWFzaykgY2VudGVyIC8gY29udGFpbiBuby1yZXBlYXQ7CiAgbWFzazogdmFyKC0tdmVyc2lvbi1hcnJvdy1tYXNrKSBjZW50ZXIgLyBjb250YWluIG5vLXJlcGVhdDsKfQoKLnZlcnNpb24tZmxvdy1hcnJvd19fZ2x5cGggewogIGJhY2tncm91bmQ6IGN1cnJlbnRDb2xvcjsKICB0cmFuc2l0aW9uOiBvcGFjaXR5IDQ1MG1zIGN1YmljLWJlemllcigwLjIyLCAxLCAwLjM2LCAxKTsKfQoKLnZlcnNpb24tZmxvdy1hcnJvd19fZmxvdyB7CiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KAogICAgMTEwZGVnLAogICAgI2ZmNGY5YSAwJSwKICAgICNmZjlmNDMgMTYlLAogICAgI2ZmZTY2ZCAzMSUsCiAgICAjNGZmZmMxIDQ4JSwKICAgICM0NWNhZmYgNjUlLAogICAgIzhiN2NmZiA4MiUsCiAgICAjZmY1ZmQyIDEwMCUKICApOwogIGJhY2tncm91bmQtc2l6ZTogMTc1JSAxMDAlOwogIG9wYWNpdHk6IDA7CiAgZmlsdGVyOiBzYXR1cmF0ZSgxLjA1KSBkcm9wLXNoYWRvdygwIDAgMCByZ2IoMTEwIDE5NiAyNTUgLyAwJSkpOwogIHRyYW5zZm9ybTogc2NhbGUoMC45Mik7CiAgdHJhbnNpdGlvbjoKICAgIG9wYWNpdHkgNTAwbXMgY3ViaWMtYmV6aWVyKDAuMjIsIDEsIDAuMzYsIDEpLAogICAgZmlsdGVyIDYwMG1zIGVhc2UsCiAgICB0cmFuc2Zvcm0gNjUwbXMgY3ViaWMtYmV6aWVyKDAuMTYsIDEsIDAuMywgMSk7CiAgYW5pbWF0aW9uOiB2ZXJzaW9uLWFycm93LWZsb3cgMy44cyBsaW5lYXIgaW5maW5pdGUgcGF1c2VkOwp9CgoudmVyc2lvbi1mbG93LWFycm93OmhvdmVyIC52ZXJzaW9uLWZsb3ctYXJyb3dfX2dseXBoIHsKICBvcGFjaXR5OiAwOwp9CgoudmVyc2lvbi1mbG93LWFycm93OmhvdmVyOjpiZWZvcmUgewogIG9wYWNpdHk6IDAuMjY7CiAgdHJhbnNmb3JtOiBzY2FsZSgxLjA4KTsKICBhbmltYXRpb24tcGxheS1zdGF0ZTogcnVubmluZzsKfQoKLnZlcnNpb24tZmxvdy1hcnJvdzpob3ZlciAudmVyc2lvbi1mbG93LWFycm93X19mbG93IHsKICBvcGFjaXR5OiAxOwogIGZpbHRlcjogc2F0dXJhdGUoMS4xNSkgZHJvcC1zaGFkb3coMCAwIDAuMjJyZW0gcmdiKDEyNSAxODMgMjU1IC8gNDglKSk7CiAgdHJhbnNmb3JtOiBzY2FsZSgxKTsKICBhbmltYXRpb24tcGxheS1zdGF0ZTogcnVubmluZzsKfQoKQGtleWZyYW1lcyB2ZXJzaW9uLWFycm93LWZsb3cgewogIGZyb20gewogICAgYmFja2dyb3VuZC1wb3NpdGlvbjogMCUgNTAlOwogIH0KCiAgdG8gewogICAgYmFja2dyb3VuZC1wb3NpdGlvbjogMTUwJSA1MCU7CiAgfQp9CgpAa2V5ZnJhbWVzIHZlcnNpb24tYXJyb3ctYXVyYSB7CiAgdG8gewogICAgcm90YXRlOiAxdHVybjsKICB9Cn0KCkBtZWRpYSAocHJlZmVycy1yZWR1Y2VkLW1vdGlvbjogcmVkdWNlKSB7CiAgLnZlcnNpb24tZmxvdy1hcnJvdzo6YmVmb3JlLAogIC52ZXJzaW9uLWZsb3ctYXJyb3dfX2Zsb3csCiAgLnZlcnNpb24tZmxvdy1hcnJvd19fZ2x5cGggewogICAgYW5pbWF0aW9uOiBub25lOwogICAgYmFja2dyb3VuZC1wb3NpdGlvbjogNTAlIDUwJTsKICB9CgogIC52ZXJzaW9uLWZsb3ctYXJyb3dfX2Zsb3csCiAgLnZlcnNpb24tZmxvdy1hcnJvd19fZ2x5cGgsCiAgLnZlcnNpb24tZmxvdy1hcnJvdzo6YmVmb3JlIHsKICAgIHRyYW5zaXRpb24tZHVyYXRpb246IDAuMDFtczsKICB9Cn0KPC9zdHlsZT4K
+<template>
+  <div class="version-flow-arrow" aria-hidden="true">
+    <span class="version-flow-arrow__glyph" />
+    <span class="version-flow-arrow__flow" />
+  </div>
+</template>
+
+<style scoped>
+.version-flow-arrow {
+  --version-arrow-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12h14M12 5l7 7-7 7' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+
+  position: relative;
+  display: grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  color: var(--foreground);
+  place-items: center;
+  isolation: isolate;
+}
+
+.version-flow-arrow::before {
+  z-index: -1;
+  width: 1.75rem;
+  height: 1.1rem;
+  grid-area: 1 / 1;
+  border-radius: 999px;
+  background: conic-gradient(
+    from 90deg,
+    #ff4f9a,
+    #ffe66d,
+    #4fffc1,
+    #45caff,
+    #8b7cff,
+    #ff5fd2,
+    #ff4f9a
+  );
+  content: "";
+  opacity: 0;
+  filter: blur(0.5rem) saturate(1.25);
+  transform: scale(0.72);
+  transition:
+    opacity 600ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
+  animation: version-arrow-aura 6s linear infinite paused;
+}
+
+.version-flow-arrow__flow,
+.version-flow-arrow__glyph {
+  width: 1.5rem;
+  height: 1.5rem;
+  grid-area: 1 / 1;
+  -webkit-mask: var(--version-arrow-mask) center / contain no-repeat;
+  mask: var(--version-arrow-mask) center / contain no-repeat;
+}
+
+.version-flow-arrow__glyph {
+  background: currentColor;
+  transition: opacity 450ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.version-flow-arrow__flow {
+  background-image: linear-gradient(
+    110deg,
+    #ff4f9a 0%,
+    #ff9f43 16%,
+    #ffe66d 31%,
+    #4fffc1 48%,
+    #45caff 65%,
+    #8b7cff 82%,
+    #ff5fd2 100%
+  );
+  background-size: 175% 100%;
+  opacity: 0;
+  filter: saturate(1.05) drop-shadow(0 0 0 rgb(110 196 255 / 0%));
+  transform: scale(0.92);
+  transition:
+    opacity 500ms cubic-bezier(0.22, 1, 0.36, 1),
+    filter 600ms ease,
+    transform 650ms cubic-bezier(0.16, 1, 0.3, 1);
+  animation: version-arrow-flow 3.8s linear infinite paused;
+}
+
+.version-flow-arrow:hover .version-flow-arrow__glyph {
+  opacity: 0;
+}
+
+.version-flow-arrow:hover::before {
+  opacity: 0.26;
+  transform: scale(1.08);
+  animation-play-state: running;
+}
+
+.version-flow-arrow:hover .version-flow-arrow__flow {
+  opacity: 1;
+  filter: saturate(1.15) drop-shadow(0 0 0.22rem rgb(125 183 255 / 48%));
+  transform: scale(1);
+  animation-play-state: running;
+}
+
+@keyframes version-arrow-flow {
+  from {
+    background-position: 0% 50%;
+  }
+
+  to {
+    background-position: 150% 50%;
+  }
+}
+
+@keyframes version-arrow-aura {
+  to {
+    rotate: 1turn;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .version-flow-arrow::before,
+  .version-flow-arrow__flow,
+  .version-flow-arrow__glyph {
+    animation: none;
+    background-position: 50% 50%;
+  }
+
+  .version-flow-arrow__flow,
+  .version-flow-arrow__glyph,
+  .version-flow-arrow::before {
+    transition-duration: 0.01ms;
+  }
+}
+</style>

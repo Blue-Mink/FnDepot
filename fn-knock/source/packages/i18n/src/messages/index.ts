@@ -1,1 +1,95 @@
-aW1wb3J0IHsgemhDTkNvbW1vbiB9IGZyb20gIi4vY29tbW9uL3poLUNOIjsKaW1wb3J0IHsgemhIYW50Q29tbW9uIH0gZnJvbSAiLi9jb21tb24vemgtSGFudCI7CmltcG9ydCB7IGVuQ29tbW9uIH0gZnJvbSAiLi9jb21tb24vZW4iOwppbXBvcnQgeyBrb0tSQ29tbW9uIH0gZnJvbSAiLi9jb21tb24va28tS1IiOwppbXBvcnQgeyBqYUpQQ29tbW9uIH0gZnJvbSAiLi9jb21tb24vamEtSlAiOwppbXBvcnQgeyB6aENOTG9jYWxlIH0gZnJvbSAiLi9sb2NhbGUvemgtQ04iOwppbXBvcnQgeyB6aEhhbnRMb2NhbGUgfSBmcm9tICIuL2xvY2FsZS96aC1IYW50IjsKaW1wb3J0IHsgZW5Mb2NhbGUgfSBmcm9tICIuL2xvY2FsZS9lbiI7CmltcG9ydCB7IGtvS1JMb2NhbGUgfSBmcm9tICIuL2xvY2FsZS9rby1LUiI7CmltcG9ydCB7IGphSlBMb2NhbGUgfSBmcm9tICIuL2xvY2FsZS9qYS1KUCI7CmltcG9ydCB7IHpoQ05TaGFyZWQgfSBmcm9tICIuL3NoYXJlZC96aC1DTiI7CmltcG9ydCB7IHpoSGFudFNoYXJlZCB9IGZyb20gIi4vc2hhcmVkL3poLUhhbnQiOwppbXBvcnQgeyBlblNoYXJlZCB9IGZyb20gIi4vc2hhcmVkL2VuIjsKaW1wb3J0IHsga29LUlNoYXJlZCB9IGZyb20gIi4vc2hhcmVkL2tvLUtSIjsKaW1wb3J0IHsgamFKUFNoYXJlZCB9IGZyb20gIi4vc2hhcmVkL2phLUpQIjsKaW1wb3J0IHsgemhDTkFkbWluIH0gZnJvbSAiLi9hZG1pbi96aC1DTiI7CmltcG9ydCB7IHpoSGFudEFkbWluIH0gZnJvbSAiLi9hZG1pbi96aC1IYW50IjsKaW1wb3J0IHsgZW5BZG1pbiB9IGZyb20gIi4vYWRtaW4vZW4iOwppbXBvcnQgeyBrb0tSQWRtaW4gfSBmcm9tICIuL2FkbWluL2tvLUtSIjsKaW1wb3J0IHsgamFKUEFkbWluIH0gZnJvbSAiLi9hZG1pbi9qYS1KUCI7CmltcG9ydCB7IHpoQ05BdXRoIH0gZnJvbSAiLi9hdXRoL3poLUNOIjsKaW1wb3J0IHsgemhIYW50QXV0aCB9IGZyb20gIi4vYXV0aC96aC1IYW50IjsKaW1wb3J0IHsgZW5BdXRoIH0gZnJvbSAiLi9hdXRoL2VuIjsKaW1wb3J0IHsga29LUkF1dGggfSBmcm9tICIuL2F1dGgva28tS1IiOwppbXBvcnQgeyBqYUpQQXV0aCB9IGZyb20gIi4vYXV0aC9qYS1KUCI7CmltcG9ydCB7IHpoQ05TZXJ2ZXIgfSBmcm9tICIuL3NlcnZlci96aC1DTiI7CmltcG9ydCB7IHpoSGFudFNlcnZlciB9IGZyb20gIi4vc2VydmVyL3poLUhhbnQiOwppbXBvcnQgeyBlblNlcnZlciB9IGZyb20gIi4vc2VydmVyL2VuIjsKaW1wb3J0IHsga29LUlNlcnZlciB9IGZyb20gIi4vc2VydmVyL2tvLUtSIjsKaW1wb3J0IHsgamFKUFNlcnZlciB9IGZyb20gIi4vc2VydmVyL2phLUpQIjsKaW1wb3J0IHsgemhDTkdhdGV3YXkgfSBmcm9tICIuL2dhdGV3YXkvemgtQ04iOwppbXBvcnQgeyB6aEhhbnRHYXRld2F5IH0gZnJvbSAiLi9nYXRld2F5L3poLUhhbnQiOwppbXBvcnQgeyBlbkdhdGV3YXkgfSBmcm9tICIuL2dhdGV3YXkvZW4iOwppbXBvcnQgeyBrb0tSR2F0ZXdheSB9IGZyb20gIi4vZ2F0ZXdheS9rby1LUiI7CmltcG9ydCB7IGphSlBHYXRld2F5IH0gZnJvbSAiLi9nYXRld2F5L2phLUpQIjsKCmV4cG9ydCBjb25zdCB6aENOID0gewogIGNvbW1vbjogemhDTkNvbW1vbiwKICBsb2NhbGU6IHpoQ05Mb2NhbGUsCiAgc2hhcmVkOiB6aENOU2hhcmVkLAogIGFkbWluOiB6aENOQWRtaW4sCiAgYXV0aDogemhDTkF1dGgsCiAgc2VydmVyOiB6aENOU2VydmVyLAogIGdhdGV3YXk6IHpoQ05HYXRld2F5LAp9OwoKZXhwb3J0IGNvbnN0IHpoSGFudCA9IHsKICBjb21tb246IHpoSGFudENvbW1vbiwKICBsb2NhbGU6IHpoSGFudExvY2FsZSwKICBzaGFyZWQ6IHpoSGFudFNoYXJlZCwKICBhZG1pbjogemhIYW50QWRtaW4sCiAgYXV0aDogemhIYW50QXV0aCwKICBzZXJ2ZXI6IHpoSGFudFNlcnZlciwKICBnYXRld2F5OiB6aEhhbnRHYXRld2F5LAp9OwoKZXhwb3J0IGNvbnN0IGVuID0gewogIGNvbW1vbjogZW5Db21tb24sCiAgbG9jYWxlOiBlbkxvY2FsZSwKICBzaGFyZWQ6IGVuU2hhcmVkLAogIGFkbWluOiBlbkFkbWluLAogIGF1dGg6IGVuQXV0aCwKICBzZXJ2ZXI6IGVuU2VydmVyLAogIGdhdGV3YXk6IGVuR2F0ZXdheSwKfTsKCmV4cG9ydCBjb25zdCBrb0tSID0gewogIGNvbW1vbjoga29LUkNvbW1vbiwKICBsb2NhbGU6IGtvS1JMb2NhbGUsCiAgc2hhcmVkOiBrb0tSU2hhcmVkLAogIGFkbWluOiBrb0tSQWRtaW4sCiAgYXV0aDoga29LUkF1dGgsCiAgc2VydmVyOiBrb0tSU2VydmVyLAogIGdhdGV3YXk6IGtvS1JHYXRld2F5LAp9OwoKZXhwb3J0IGNvbnN0IGphSlAgPSB7CiAgY29tbW9uOiBqYUpQQ29tbW9uLAogIGxvY2FsZTogamFKUExvY2FsZSwKICBzaGFyZWQ6IGphSlBTaGFyZWQsCiAgYWRtaW46IGphSlBBZG1pbiwKICBhdXRoOiBqYUpQQXV0aCwKICBzZXJ2ZXI6IGphSlBTZXJ2ZXIsCiAgZ2F0ZXdheTogamFKUEdhdGV3YXksCn07CgpleHBvcnQgY29uc3QgbWVzc2FnZXMgPSB7CiAgInpoLUNOIjogemhDTiwKICAiemgtSGFudCI6IHpoSGFudCwKICBlbiwKICAia28tS1IiOiBrb0tSLAogICJqYS1KUCI6IGphSlAsCn0gYXMgY29uc3Q7CgpleHBvcnQgdHlwZSBJMThuTWVzc2FnZVNjaGVtYSA9IHR5cGVvZiB6aENOOwo=
+import { zhCNCommon } from "./common/zh-CN";
+import { zhHantCommon } from "./common/zh-Hant";
+import { enCommon } from "./common/en";
+import { koKRCommon } from "./common/ko-KR";
+import { jaJPCommon } from "./common/ja-JP";
+import { zhCNLocale } from "./locale/zh-CN";
+import { zhHantLocale } from "./locale/zh-Hant";
+import { enLocale } from "./locale/en";
+import { koKRLocale } from "./locale/ko-KR";
+import { jaJPLocale } from "./locale/ja-JP";
+import { zhCNShared } from "./shared/zh-CN";
+import { zhHantShared } from "./shared/zh-Hant";
+import { enShared } from "./shared/en";
+import { koKRShared } from "./shared/ko-KR";
+import { jaJPShared } from "./shared/ja-JP";
+import { zhCNAdmin } from "./admin/zh-CN";
+import { zhHantAdmin } from "./admin/zh-Hant";
+import { enAdmin } from "./admin/en";
+import { koKRAdmin } from "./admin/ko-KR";
+import { jaJPAdmin } from "./admin/ja-JP";
+import { zhCNAuth } from "./auth/zh-CN";
+import { zhHantAuth } from "./auth/zh-Hant";
+import { enAuth } from "./auth/en";
+import { koKRAuth } from "./auth/ko-KR";
+import { jaJPAuth } from "./auth/ja-JP";
+import { zhCNServer } from "./server/zh-CN";
+import { zhHantServer } from "./server/zh-Hant";
+import { enServer } from "./server/en";
+import { koKRServer } from "./server/ko-KR";
+import { jaJPServer } from "./server/ja-JP";
+import { zhCNGateway } from "./gateway/zh-CN";
+import { zhHantGateway } from "./gateway/zh-Hant";
+import { enGateway } from "./gateway/en";
+import { koKRGateway } from "./gateway/ko-KR";
+import { jaJPGateway } from "./gateway/ja-JP";
+
+export const zhCN = {
+  common: zhCNCommon,
+  locale: zhCNLocale,
+  shared: zhCNShared,
+  admin: zhCNAdmin,
+  auth: zhCNAuth,
+  server: zhCNServer,
+  gateway: zhCNGateway,
+};
+
+export const zhHant = {
+  common: zhHantCommon,
+  locale: zhHantLocale,
+  shared: zhHantShared,
+  admin: zhHantAdmin,
+  auth: zhHantAuth,
+  server: zhHantServer,
+  gateway: zhHantGateway,
+};
+
+export const en = {
+  common: enCommon,
+  locale: enLocale,
+  shared: enShared,
+  admin: enAdmin,
+  auth: enAuth,
+  server: enServer,
+  gateway: enGateway,
+};
+
+export const koKR = {
+  common: koKRCommon,
+  locale: koKRLocale,
+  shared: koKRShared,
+  admin: koKRAdmin,
+  auth: koKRAuth,
+  server: koKRServer,
+  gateway: koKRGateway,
+};
+
+export const jaJP = {
+  common: jaJPCommon,
+  locale: jaJPLocale,
+  shared: jaJPShared,
+  admin: jaJPAdmin,
+  auth: jaJPAuth,
+  server: jaJPServer,
+  gateway: jaJPGateway,
+};
+
+export const messages = {
+  "zh-CN": zhCN,
+  "zh-Hant": zhHant,
+  en,
+  "ko-KR": koKR,
+  "ja-JP": jaJP,
+} as const;
+
+export type I18nMessageSchema = typeof zhCN;

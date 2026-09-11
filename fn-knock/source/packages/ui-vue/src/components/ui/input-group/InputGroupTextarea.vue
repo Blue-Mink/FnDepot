@@ -1,1 +1,19 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCmltcG9ydCB7IFRleHRhcmVhIH0gZnJvbSAnQC9jb21wb25lbnRzL3VpL3RleHRhcmVhJwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXQp9PigpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxUZXh0YXJlYQogICAgZGF0YS1zbG90PSJpbnB1dC1ncm91cC1jb250cm9sIgogICAgOmNsYXNzPSJjbigKICAgICAgJ2ZsZXgtMSByZXNpemUtbm9uZSByb3VuZGVkLW5vbmUgYm9yZGVyLTAgYmctdHJhbnNwYXJlbnQgcHktMyBzaGFkb3ctbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMCBkYXJrOmJnLXRyYW5zcGFyZW50JywKICAgICAgcHJvcHMuY2xhc3MsCiAgICApIgogIC8+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+import { Textarea } from '@/components/ui/textarea'
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <Textarea
+    data-slot="input-group-control"
+    :class="cn(
+      'flex-1 resize-none rounded-none border-0 bg-transparent py-3 shadow-none focus-visible:ring-0 dark:bg-transparent',
+      props.class,
+    )"
+  />
+</template>

@@ -1,1 +1,34 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgppbXBvcnQgeyB0b0hvc3RNYXBwaW5nVXBkYXRlUGF5bG9hZCB9IGZyb20gIi4uL3NyYy9saWIvYXBpL2hvc3QtbWFwcGluZy1wYXlsb2FkIjsKaW1wb3J0IHsgY3JlYXRlRGVmYXVsdE1hcHBpbmcgfSBmcm9tICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L21vZGVsIjsKCmRlc2NyaWJlKCJzdWJkb21haW4gcmVuYW1lIGlkZW50aXR5IiwgKCkgPT4gewogIGl0KCJzZW5kcyB0aGUgcHJldmlvdXMgaG9zdCBvbmx5IGZvciBhIGdlbnVpbmUgcmVuYW1lIiwgKCkgPT4gewogICAgY29uc3QgbWFwcGluZyA9IHsKICAgICAgLi4uY3JlYXRlRGVmYXVsdE1hcHBpbmcoKSwKICAgICAgaG9zdDogIm5ldy5leGFtcGxlLmNvbSIsCiAgICAgIHRhcmdldDogImh0dHA6Ly8xMjcuMC4wLjE6OTA5MCIsCiAgICB9OwoKICAgIGFzc2VydC5lcXVhbCgKICAgICAgdG9Ib3N0TWFwcGluZ1VwZGF0ZVBheWxvYWQobWFwcGluZywgewogICAgICAgIHByZXZpb3VzSG9zdDogIiBvbGQuZXhhbXBsZS5jb20gIiwKICAgICAgfSkucHJldmlvdXNfaG9zdCwKICAgICAgIm9sZC5leGFtcGxlLmNvbSIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICB0b0hvc3RNYXBwaW5nVXBkYXRlUGF5bG9hZChtYXBwaW5nLCB7CiAgICAgICAgcHJldmlvdXNIb3N0OiAibmV3LmV4YW1wbGUuY29tIiwKICAgICAgfSkucHJldmlvdXNfaG9zdCwKICAgICAgdW5kZWZpbmVkLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgdG9Ib3N0TWFwcGluZ1VwZGF0ZVBheWxvYWQobWFwcGluZykucHJldmlvdXNfaG9zdCwKICAgICAgdW5kZWZpbmVkLAogICAgKTsKICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import { toHostMappingUpdatePayload } from "../src/lib/api/host-mapping-payload";
+import { createDefaultMapping } from "../src/views/subdomain-proxy/model";
+
+describe("subdomain rename identity", () => {
+  it("sends the previous host only for a genuine rename", () => {
+    const mapping = {
+      ...createDefaultMapping(),
+      host: "new.example.com",
+      target: "http://127.0.0.1:9090",
+    };
+
+    assert.equal(
+      toHostMappingUpdatePayload(mapping, {
+        previousHost: " old.example.com ",
+      }).previous_host,
+      "old.example.com",
+    );
+    assert.equal(
+      toHostMappingUpdatePayload(mapping, {
+        previousHost: "new.example.com",
+      }).previous_host,
+      undefined,
+    );
+    assert.equal(
+      toHostMappingUpdatePayload(mapping).previous_host,
+      undefined,
+    );
+  });
+});

@@ -1,1 +1,456 @@
-dXNlIHN1cGVyOjoqOwp1c2UgYXh1bTo6SnNvbjsKdXNlIHV0b2lwYV9heHVtOjp7cm91dGVyOjpPcGVuQXBpUm91dGVyLCByb3V0ZXN9OwoKcHViKHN1cGVyKSBmbiByb3V0ZXMoKSAtPiBPcGVuQXBpUm91dGVyPEFwcFN0YXRlPiB7CiAgICBPcGVuQXBpUm91dGVyOjpuZXcoKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShnZXRfZ2F0ZXdheV9odHRwMywgdXBkYXRlX2dhdGV3YXlfaHR0cDMpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShnZXRfZ2F0ZXdheSwgdXBkYXRlX2dhdGV3YXkpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShnZXRfZ2F0ZXdheV92aXNpYmlsaXR5LCB1cGRhdGVfZ2F0ZXdheV92aXNpYmlsaXR5KSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoCiAgICAgICAgICAgIGdldF9nYXRld2F5X3Byb3h5X2hlYWRlcnMsCiAgICAgICAgICAgIHVwZGF0ZV9nYXRld2F5X3Byb3h5X2hlYWRlcnMKICAgICAgICApKQogICAgICAgIC5yb3V0ZXMocm91dGVzISgKICAgICAgICAgICAgZ2V0X2dhdGV3YXlfaG9zdF9yZXNwb25zZSwKICAgICAgICAgICAgdXBkYXRlX2dhdGV3YXlfaG9zdF9yZXNwb25zZQogICAgICAgICkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKAogICAgICAgICAgICBnZXRfZ2F0ZXdheV9wcm94eV9wcm90b2NvbCwKICAgICAgICAgICAgdXBkYXRlX2dhdGV3YXlfcHJveHlfcHJvdG9jb2wKICAgICAgICApKQp9CgojW3V0b2lwYTo6cGF0aCgKICAgIGdldCwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9jb25maWcvZ2F0ZXdheS9wcm94eS1wcm90b2NvbCIsCiAgICB0YWcgPSAiY29uZmlnIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX2NvbmZpZ19nYXRld2F5X3Byb3h5X3Byb3RvY29sIiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJHYXRld2F5IFBST1hZIHByb3RvY29sIHNldHRpbmdzIikpCildCnB1YihzdXBlcikgYXN5bmMgZm4gZ2V0X2dhdGV3YXlfcHJveHlfcHJvdG9jb2woU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbWF0Y2ggZ2V0X2dhdGV3YXlfcHJveHlfcHJvdG9jb2xfZGV0YWlscygmc3RhdGUpLmF3YWl0IHsKICAgICAgICBPayhkYXRhKSA9PiByZXNwb25zZTo6b2soZGF0YSkuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gbG9hZCBnYXRld2F5IFBST1hZIHByb3RvY29sIHNldHRpbmdzIik7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIGdhdGV3YXlfcm91dGVfdGV4dCgmdHJhbnNsYXRvciwgImxvYWRHYXRld2F5UHJveHlQcm90b2NvbEZhaWxlZCIpLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9CgojW3V0b2lwYTo6cGF0aCgKICAgIHBvc3QsCiAgICBwYXRoID0gIi9hcGkvYWRtaW4vY29uZmlnL2dhdGV3YXkvcHJveHktcHJvdG9jb2wiLAogICAgdGFnID0gImNvbmZpZyIsCiAgICBvcGVyYXRpb25faWQgPSAicG9zdF9hcGlfYWRtaW5fY29uZmlnX2dhdGV3YXlfcHJveHlfcHJvdG9jb2wiLAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlVwZGF0ZWQgZ2F0ZXdheSBQUk9YWSBwcm90b2NvbCBzZXR0aW5ncyIpKQopXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHVwZGF0ZV9nYXRld2F5X3Byb3h5X3Byb3RvY29sKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBKc29uKGJvZHkpOiBKc29uPFZhbHVlPiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGlmIGxldCBFcnIobWVzc2FnZSkgPSBnYXRld2F5X3Byb3h5X3Byb3RvY29sX2Zyb21fYm9keSgmYm9keSkgewogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgICAgICBsb2NhbGl6ZV9nYXRld2F5X3JvdXRlX21lc3NhZ2UoJnRyYW5zbGF0b3IsICZtZXNzYWdlKSwKICAgICAgICApOwogICAgfQogICAgbWF0Y2ggdXBkYXRlX2dhdGV3YXlfcHJveHlfcHJvdG9jb2xfaW5uZXIoJnN0YXRlLCAmYm9keSkuYXdhaXQgewogICAgICAgIE9rKGRhdGEpID0+IHJlc3BvbnNlOjpvayhkYXRhKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgRXJyKG1lc3NhZ2UpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJW1lc3NhZ2UsICJmYWlsZWQgdG8gdXBkYXRlIGdhdGV3YXkgUFJPWFkgcHJvdG9jb2wgc2V0dGluZ3MiKTsKICAgICAgICAgICAgcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX0dBVEVXQVksCiAgICAgICAgICAgICAgICBsb2NhbGl6ZV9nYXRld2F5X3JvdXRlX21lc3NhZ2UoJnRyYW5zbGF0b3IsICZtZXNzYWdlKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBnZXQsCiAgICBwYXRoID0gIi9hcGkvYWRtaW4vY29uZmlnL2dhdGV3YXkiLAogICAgdGFnID0gImNvbmZpZyIsCiAgICBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9jb25maWdfZ2F0ZXdheSIsCiAgICByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiR2F0ZXdheSBzZXR0aW5ncyIpKQopXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGdldF9nYXRld2F5KFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIG1hdGNoIGJ1aWxkX2dhdGV3YXlfc2V0dGluZ3NfcmVzcG9uc2UoJnN0YXRlKS5hd2FpdCB7CiAgICAgICAgT2soZGF0YSkgPT4gcmVzcG9uc2U6Om9rKGRhdGEpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgZ2F0ZXdheSBzZXR0aW5ncyIpOwogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICBnYXRld2F5X3JvdXRlX3RleHQoJnRyYW5zbGF0b3IsICJsb2FkR2F0ZXdheVNldHRpbmdzRmFpbGVkIiksCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCiNbdXRvaXBhOjpwYXRoKAogICAgcG9zdCwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9jb25maWcvZ2F0ZXdheSIsCiAgICB0YWcgPSAiY29uZmlnIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJwb3N0X2FwaV9hZG1pbl9jb25maWdfZ2F0ZXdheSIsCiAgICByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiVXBkYXRlZCBnYXRld2F5IHNldHRpbmdzIikpCildCnB1YihzdXBlcikgYXN5bmMgZm4gdXBkYXRlX2dhdGV3YXkoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIEpzb24oYm9keSk6IEpzb248VmFsdWU+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbGV0IFNvbWUocGF0Y2gpID0gYm9keS5hc19vYmplY3QoKSBlbHNlIHsKICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwKICAgICAgICAgICAgZ2F0ZXdheV9yb3V0ZV90ZXh0KCZ0cmFuc2xhdG9yLCAicGF5bG9hZE9iamVjdFJlcXVpcmVkIiksCiAgICAgICAgKTsKICAgIH07CgogICAgbGV0IHByZXZpb3VzX2NvbmZpZyA9IG1hdGNoIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0IHsKICAgICAgICBPayhjb25maWcpID0+IGNvbmZpZywKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgY29uZmlnIGJlZm9yZSBnYXRld2F5IHVwZGF0ZSIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgZ2F0ZXdheV9yb3V0ZV90ZXh0KCZ0cmFuc2xhdG9yLCAibG9hZENvbmZpZ0ZhaWxlZCIpLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH07CgogICAgbGV0IG11dCB1cGRhdGVkX2NvbmZpZyA9IHByZXZpb3VzX2NvbmZpZy5jbG9uZSgpOwogICAgYXBwbHlfZ2F0ZXdheV9wYXRjaCgmbXV0IHVwZGF0ZWRfY29uZmlnLCBwYXRjaCk7CgogICAgaWYgbGV0IEVycihlcnJvcikgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLnNhdmVfY29uZmlnKCZ1cGRhdGVkX2NvbmZpZykuYXdhaXQgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBzYXZlIGdhdGV3YXkgc2V0dGluZ3MiKTsKICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgIGdhdGV3YXlfcm91dGVfdGV4dCgmdHJhbnNsYXRvciwgInNhdmVHYXRld2F5U2V0dGluZ3NGYWlsZWQiKSwKICAgICAgICApOwogICAgfQoKICAgIGlmIGxldCBFcnIobWVzc2FnZSkgPSBzeW5jX2dhdGV3YXlfcnVudGltZSgmc3RhdGUsICZ1cGRhdGVkX2NvbmZpZykuYXdhaXQgewogICAgICAgIHJvbGxiYWNrX2dhdGV3YXlfc2V0dGluZ3MoJnN0YXRlLCAmcHJldmlvdXNfY29uZmlnKS5hd2FpdDsKICAgICAgICB0cmFjaW5nOjp3YXJuISglbWVzc2FnZSwgImZhaWxlZCB0byBzeW5jIGdhdGV3YXkgc2V0dGluZ3MgcnVudGltZSIpOwogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9HQVRFV0FZLAogICAgICAgICAgICBnYXRld2F5X3JvdXRlX3RleHRfcGFyYW1zKAogICAgICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAic3luY0dhdGV3YXlTZXR0aW5nc0ZhaWxlZCIsCiAgICAgICAgICAgICAgICAmWygibWVzc2FnZSIsIG1lc3NhZ2UpXSwKICAgICAgICAgICAgKSwKICAgICAgICApOwogICAgfQogICAgd2hpdGVsaXN0OjpzeW5jX3JldmVyc2VfcHJveHlfdHJ1c3RlZF9pcHMoJnN0YXRlKS5hd2FpdDsKCiAgICBpZiBsZXQgRXJyKG1lc3NhZ2UpID0KICAgICAgICBhcHBseV9nYXRld2F5X3BvcnRhbF9ob3N0X3J1bGVzX3BhdGNoZXNfaWZfbmVlZGVkKCZzdGF0ZSwgJnVwZGF0ZWRfY29uZmlnKS5hd2FpdAogICAgewogICAgICAgIHJvbGxiYWNrX2dhdGV3YXlfc2V0dGluZ3MoJnN0YXRlLCAmcHJldmlvdXNfY29uZmlnKS5hd2FpdDsKICAgICAgICB0cmFjaW5nOjp3YXJuISglbWVzc2FnZSwgImZhaWxlZCB0byBhcHBseSBnYXRld2F5IHBvcnRhbCBob3N0LXJ1bGVzIHBhdGNoZXMiKTsKICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfR0FURVdBWSwKICAgICAgICAgICAgZ2F0ZXdheV9yb3V0ZV90ZXh0X3BhcmFtcygKICAgICAgICAgICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgInN5bmNHYXRld2F5U2V0dGluZ3NGYWlsZWQiLAogICAgICAgICAgICAgICAgJlsoIm1lc3NhZ2UiLCBtZXNzYWdlKV0sCiAgICAgICAgICAgICksCiAgICAgICAgKTsKICAgIH0KCiAgICBtYXRjaCBidWlsZF9nYXRld2F5X3NldHRpbmdzX3Jlc3BvbnNlX2Zyb21fY29uZmlnKCZzdGF0ZSwgdXBkYXRlZF9jb25maWcpLmF3YWl0IHsKICAgICAgICBPayhkYXRhKSA9PiByZXNwb25zZTo6b2soZGF0YSkuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gcmVsb2FkIGdhdGV3YXkgc2V0dGluZ3MgYWZ0ZXIgdXBkYXRlIik7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIGdhdGV3YXlfcm91dGVfdGV4dCgmdHJhbnNsYXRvciwgInJlc3BvbnNlUmVsb2FkRmFpbGVkIiksCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCiNbdXRvaXBhOjpwYXRoKAogICAgZ2V0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL2NvbmZpZy9nYXRld2F5L3Zpc2liaWxpdHkiLAogICAgdGFnID0gImNvbmZpZyIsCiAgICBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9jb25maWdfZ2F0ZXdheV92aXNpYmlsaXR5IiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJHYXRld2F5IHZpc2liaWxpdHkgc2V0dGluZ3MiKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfZ2F0ZXdheV92aXNpYmlsaXR5KFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIG1hdGNoIGdldF9nYXRld2F5X3Zpc2liaWxpdHlfZGV0YWlscygmc3RhdGUpLmF3YWl0IHsKICAgICAgICBPayhkYXRhKSA9PiByZXNwb25zZTo6b2soZGF0YSkuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gbG9hZCBnYXRld2F5IHZpc2liaWxpdHkgZGV0YWlscyIpOwogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICBnYXRld2F5X3JvdXRlX3RleHQoJnRyYW5zbGF0b3IsICJsb2FkR2F0ZXdheVZpc2liaWxpdHlGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBwb3N0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL2NvbmZpZy9nYXRld2F5L3Zpc2liaWxpdHkiLAogICAgdGFnID0gImNvbmZpZyIsCiAgICBvcGVyYXRpb25faWQgPSAicG9zdF9hcGlfYWRtaW5fY29uZmlnX2dhdGV3YXlfdmlzaWJpbGl0eSIsCiAgICByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiVXBkYXRlZCBnYXRld2F5IHZpc2liaWxpdHkgc2V0dGluZ3MiKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiB1cGRhdGVfZ2F0ZXdheV92aXNpYmlsaXR5KAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBKc29uKGJvZHkpOiBKc29uPFZhbHVlPiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGxldCBwcmV2aW91c19jb25maWcgPSBtYXRjaCBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9jb25maWcoKS5hd2FpdCB7CiAgICAgICAgT2soY29uZmlnKSA9PiBjb25maWcsCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBsb2FkIGNvbmZpZyBiZWZvcmUgZ2F0ZXdheSB2aXNpYmlsaXR5IHVwZGF0ZSIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgZ2F0ZXdheV9yb3V0ZV90ZXh0KCZ0cmFuc2xhdG9yLCAibG9hZENvbmZpZ0ZhaWxlZCIpLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH07CiAgICBsZXQgcHJldmlvdXNfcnVudGltZSA9IG1hdGNoIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZ2V0X2pzb25fdmFsdWUoR0FURVdBWV9WSVNJQklMSVRZX1JVTlRJTUVfS0VZKQogICAgICAgIC5hd2FpdAogICAgewogICAgICAgIE9rKHJ1bnRpbWUpID0+IHJ1bnRpbWUudW53cmFwX29yX2Vsc2UoZGVmYXVsdF9nYXRld2F5X3Zpc2liaWxpdHlfcnVudGltZSksCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBsb2FkIGdhdGV3YXkgdmlzaWJpbGl0eSBydW50aW1lIGJlZm9yZSB1cGRhdGUiKTsKICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIGdhdGV3YXlfcm91dGVfdGV4dCgmdHJhbnNsYXRvciwgImxvYWRSdW50aW1lRmFpbGVkIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfTsKCiAgICBtYXRjaCB1cGRhdGVfZ2F0ZXdheV92aXNpYmlsaXR5X2lubmVyKCZzdGF0ZSwgJmJvZHkpLmF3YWl0IHsKICAgICAgICBPayhkYXRhKSA9PiByZXNwb25zZTo6b2soZGF0YSkuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihtZXNzYWdlKSA9PiB7CiAgICAgICAgICAgIGxldCByb2xsYmFja19lcnJvciA9IHJvbGxiYWNrX2dhdGV3YXlfdmlzaWJpbGl0eSgKICAgICAgICAgICAgICAgICZzdGF0ZSwKICAgICAgICAgICAgICAgICZwcmV2aW91c19jb25maWcsCiAgICAgICAgICAgICAgICAmcHJldmlvdXNfcnVudGltZSwKICAgICAgICAgICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdDsKICAgICAgICAgICAgbGV0IG1lc3NhZ2UgPSByb2xsYmFja19tZXNzYWdlKAogICAgICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAmbWVzc2FnZSwKICAgICAgICAgICAgICAgIHJvbGxiYWNrX2Vycm9yLmFzX2RlcmVmKCksCiAgICAgICAgICAgICAgICAic2VydmVyLmFkbWluLmdhdGV3YXlWaXNpYmlsaXR5LnVwZGF0ZUZhaWxlZFJvbGxlZEJhY2siLAogICAgICAgICAgICApOwogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoU3RhdHVzQ29kZTo6QkFEX0dBVEVXQVksIG1lc3NhZ2UpCiAgICAgICAgfQogICAgfQp9CgojW3V0b2lwYTo6cGF0aCgKICAgIGdldCwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9jb25maWcvZ2F0ZXdheS9wcm94eS1oZWFkZXJzIiwKICAgIHRhZyA9ICJjb25maWciLAogICAgb3BlcmF0aW9uX2lkID0gImdldF9hcGlfYWRtaW5fY29uZmlnX2dhdGV3YXlfcHJveHlfaGVhZGVycyIsCiAgICByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiR2F0ZXdheSBwcm94eSBoZWFkZXIgc2V0dGluZ3MiKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfZ2F0ZXdheV9wcm94eV9oZWFkZXJzKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIG1hdGNoIGdldF9nYXRld2F5X3Byb3h5X2hlYWRlcnNfZGV0YWlscygmc3RhdGUsICZ0cmFuc2xhdG9yKS5hd2FpdCB7CiAgICAgICAgT2soZGF0YSkgPT4gcmVzcG9uc2U6Om9rKGRhdGEpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgZ2F0ZXdheSBwcm94eSBoZWFkZXJzIGRldGFpbHMiKTsKICAgICAgICAgICAgcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgZ2F0ZXdheV9yb3V0ZV90ZXh0KCZ0cmFuc2xhdG9yLCAibG9hZEdhdGV3YXlQcm94eUhlYWRlcnNGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBwb3N0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL2NvbmZpZy9nYXRld2F5L3Byb3h5LWhlYWRlcnMiLAogICAgdGFnID0gImNvbmZpZyIsCiAgICBvcGVyYXRpb25faWQgPSAicG9zdF9hcGlfYWRtaW5fY29uZmlnX2dhdGV3YXlfcHJveHlfaGVhZGVycyIsCiAgICByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiVXBkYXRlZCBnYXRld2F5IHByb3h5IGhlYWRlciBzZXR0aW5ncyIpKQopXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHVwZGF0ZV9nYXRld2F5X3Byb3h5X2hlYWRlcnMoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIEpzb24oYm9keSk6IEpzb248VmFsdWU+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbGV0IHByZXZpb3VzX2NvbmZpZyA9IG1hdGNoIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0IHsKICAgICAgICBPayhjb25maWcpID0+IGNvbmZpZywKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgY29uZmlnIGJlZm9yZSBnYXRld2F5IHByb3h5IGhlYWRlcnMgdXBkYXRlIik7CiAgICAgICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICBnYXRld2F5X3JvdXRlX3RleHQoJnRyYW5zbGF0b3IsICJsb2FkQ29uZmlnRmFpbGVkIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfTsKICAgIGlmICFpc19hbnlfc3ViZG9tYWluX3JvdXRpbmdfbW9kZSgmcHJldmlvdXNfY29uZmlnKSB7CiAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsCiAgICAgICAgICAgIHRyYW5zbGF0b3IudCgic2VydmVyLmFkbWluLmdhdGV3YXlQcm94eUhlYWRlcnMuc3ViZG9tYWluT25seSIpLAogICAgICAgICk7CiAgICB9CiAgICBsZXQgcHJldmlvdXNfcnVudGltZSA9IG1hdGNoIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZ2V0X2pzb25fdmFsdWUoR0FURVdBWV9QUk9YWV9IRUFERVJTX1JVTlRJTUVfS0VZKQogICAgICAgIC5hd2FpdAogICAgewogICAgICAgIE9rKHJ1bnRpbWUpID0+IHJ1bnRpbWUudW53cmFwX29yX2Vsc2UoZGVmYXVsdF9nYXRld2F5X3Byb3h5X2hlYWRlcnNfcnVudGltZSksCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBsb2FkIGdhdGV3YXkgcHJveHkgaGVhZGVycyBydW50aW1lIGJlZm9yZSB1cGRhdGUiKTsKICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIGdhdGV3YXlfcm91dGVfdGV4dCgmdHJhbnNsYXRvciwgImxvYWRSdW50aW1lRmFpbGVkIiksCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfTsKCiAgICBtYXRjaCB1cGRhdGVfZ2F0ZXdheV9wcm94eV9oZWFkZXJzX2lubmVyKCZzdGF0ZSwgJnByZXZpb3VzX2NvbmZpZywgJmJvZHkpLmF3YWl0IHsKICAgICAgICBPayhkYXRhKSA9PiByZXNwb25zZTo6b2soZGF0YSkuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihtZXNzYWdlKSA9PiB7CiAgICAgICAgICAgIGxldCByb2xsYmFja19lcnJvciA9IHJvbGxiYWNrX2dhdGV3YXlfcHJveHlfaGVhZGVycygKICAgICAgICAgICAgICAgICZzdGF0ZSwKICAgICAgICAgICAgICAgICZwcmV2aW91c19jb25maWcsCiAgICAgICAgICAgICAgICAmcHJldmlvdXNfcnVudGltZSwKICAgICAgICAgICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdDsKICAgICAgICAgICAgbGV0IG1lc3NhZ2UgPSByb2xsYmFja19tZXNzYWdlKAogICAgICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAmbWVzc2FnZSwKICAgICAgICAgICAgICAgIHJvbGxiYWNrX2Vycm9yLmFzX2RlcmVmKCksCiAgICAgICAgICAgICAgICAic2VydmVyLmFkbWluLmdhdGV3YXlQcm94eUhlYWRlcnMudXBkYXRlRmFpbGVkUm9sbGVkQmFjayIsCiAgICAgICAgICAgICk7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcihTdGF0dXNDb2RlOjpCQURfR0FURVdBWSwgbWVzc2FnZSkKICAgICAgICB9CiAgICB9Cn0KCiNbdXRvaXBhOjpwYXRoKAogICAgZ2V0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL2NvbmZpZy9nYXRld2F5L2hvc3QtcmVzcG9uc2UiLAogICAgdGFnID0gImNvbmZpZyIsCiAgICBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9jb25maWdfZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlIiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJHYXRld2F5IGhvc3QgcmVzcG9uc2Ugc2V0dGluZ3MiKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiBnZXRfZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIG1hdGNoIGdldF9nYXRld2F5X2hvc3RfcmVzcG9uc2VfZGV0YWlscygmc3RhdGUsICZ0cmFuc2xhdG9yKS5hd2FpdCB7CiAgICAgICAgT2soZGF0YSkgPT4gcmVzcG9uc2U6Om9rKGRhdGEpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgZ2F0ZXdheSBob3N0IHJlc3BvbnNlIGRldGFpbHMiKTsKICAgICAgICAgICAgcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgZ2F0ZXdheV9yb3V0ZV90ZXh0KCZ0cmFuc2xhdG9yLCAibG9hZEdhdGV3YXlIb3N0UmVzcG9uc2VGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBwb3N0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL2NvbmZpZy9nYXRld2F5L2hvc3QtcmVzcG9uc2UiLAogICAgdGFnID0gImNvbmZpZyIsCiAgICBvcGVyYXRpb25faWQgPSAicG9zdF9hcGlfYWRtaW5fY29uZmlnX2dhdGV3YXlfaG9zdF9yZXNwb25zZSIsCiAgICByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiVXBkYXRlZCBnYXRld2F5IGhvc3QgcmVzcG9uc2Ugc2V0dGluZ3MiKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiB1cGRhdGVfZ2F0ZXdheV9ob3N0X3Jlc3BvbnNlKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBKc29uKGJvZHkpOiBKc29uPFZhbHVlPiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGxldCBwcmV2aW91c19jb25maWcgPSBtYXRjaCBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9jb25maWcoKS5hd2FpdCB7CiAgICAgICAgT2soY29uZmlnKSA9PiBjb25maWcsCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBsb2FkIGNvbmZpZyBiZWZvcmUgZ2F0ZXdheSBob3N0IHJlc3BvbnNlIHVwZGF0ZSIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgZ2F0ZXdheV9yb3V0ZV90ZXh0KCZ0cmFuc2xhdG9yLCAibG9hZENvbmZpZ0ZhaWxlZCIpLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH07CiAgICBpZiAhaXNfYW55X3N1YmRvbWFpbl9yb3V0aW5nX21vZGUoJnByZXZpb3VzX2NvbmZpZykgewogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgICAgICB0cmFuc2xhdG9yLnQoInNlcnZlci5nYXRld2F5SG9zdFJlc3BvbnNlLmVkaXRTdWJkb21haW5Pbmx5IiksCiAgICAgICAgKTsKICAgIH0KICAgIGxldCBwcmV2aW91c19ydW50aW1lID0gbWF0Y2ggc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfanNvbl92YWx1ZShHQVRFV0FZX0hPU1RfUkVTUE9OU0VfUlVOVElNRV9LRVkpCiAgICAgICAgLmF3YWl0CiAgICB7CiAgICAgICAgT2socnVudGltZSkgPT4gcnVudGltZS51bndyYXBfb3JfZWxzZShkZWZhdWx0X2dhdGV3YXlfaG9zdF9yZXNwb25zZV9ydW50aW1lKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgZ2F0ZXdheSBob3N0IHJlc3BvbnNlIHJ1bnRpbWUgYmVmb3JlIHVwZGF0ZSIpOwogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgZ2F0ZXdheV9yb3V0ZV90ZXh0KCZ0cmFuc2xhdG9yLCAibG9hZFJ1bnRpbWVGYWlsZWQiKSwKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICB9OwoKICAgIG1hdGNoIHVwZGF0ZV9nYXRld2F5X2hvc3RfcmVzcG9uc2VfaW5uZXIoJnN0YXRlLCAmcHJldmlvdXNfY29uZmlnLCAmYm9keSwgJnRyYW5zbGF0b3IpLmF3YWl0IHsKICAgICAgICBPayhkYXRhKSA9PiByZXNwb25zZTo6b2soZGF0YSkuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihtZXNzYWdlKSA9PiB7CiAgICAgICAgICAgIGxldCByb2xsYmFja19lcnJvciA9IHJvbGxiYWNrX2dhdGV3YXlfaG9zdF9yZXNwb25zZSgKICAgICAgICAgICAgICAgICZzdGF0ZSwKICAgICAgICAgICAgICAgICZwcmV2aW91c19jb25maWcsCiAgICAgICAgICAgICAgICAmcHJldmlvdXNfcnVudGltZSwKICAgICAgICAgICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdDsKICAgICAgICAgICAgbGV0IG1lc3NhZ2UgPSByb2xsYmFja19tZXNzYWdlKAogICAgICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAmbWVzc2FnZSwKICAgICAgICAgICAgICAgIHJvbGxiYWNrX2Vycm9yLmFzX2RlcmVmKCksCiAgICAgICAgICAgICAgICAic2VydmVyLmdhdGV3YXlIb3N0UmVzcG9uc2UudXBkYXRlRmFpbGVkUm9sbGVkQmFjayIsCiAgICAgICAgICAgICk7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcihTdGF0dXNDb2RlOjpCQURfR0FURVdBWSwgbWVzc2FnZSkKICAgICAgICB9CiAgICB9Cn0KCiNbdXRvaXBhOjpwYXRoKGdldCwgcGF0aCA9ICIvYXBpL2FkbWluL2NvbmZpZy9nYXRld2F5L2h0dHAzIiwgdGFnID0gImNvbmZpZyIsIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX2NvbmZpZ19nYXRld2F5X2h0dHAzIiwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkhUVFAvMyBjb25maWd1cmF0aW9uIGFuZCBsb2NhbCBsaXN0ZW5lciBzdGF0dXMiKSkpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGdldF9nYXRld2F5X2h0dHAzKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBtYXRjaCBzdGF0ZS5nYXRld2F5LmNsaWVudC5nZXRfZ2F0ZXdheV9odHRwMygpLmF3YWl0IHsKICAgICAgICBPayhkYXRhKSA9PiByZXNwb25zZTo6b2soZGF0YSkuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsImZhaWxlZCB0byBsb2FkIEhUVFAvMyBzdGF0dXMiKTsKICAgICAgICAgICAgcmVzcG9uc2U6OmVycm9yKFN0YXR1c0NvZGU6OkJBRF9HQVRFV0FZLCAiRmFpbGVkIHRvIGxvYWQgSFRUUC8zIHN0YXR1cyIpCiAgICAgICAgfQogICAgfQp9CiNbdXRvaXBhOjpwYXRoKHBvc3QsIHBhdGggPSAiL2FwaS9hZG1pbi9jb25maWcvZ2F0ZXdheS9odHRwMyIsIHRhZyA9ICJjb25maWciLCBvcGVyYXRpb25faWQgPSAicG9zdF9hcGlfYWRtaW5fY29uZmlnX2dhdGV3YXlfaHR0cDMiLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiVXBkYXRlZCBIVFRQLzMgY29uZmlndXJhdGlvbiBhbmQgbG9jYWwgbGlzdGVuZXIgc3RhdHVzIikpKV0KcHViKHN1cGVyKSBhc3luYyBmbiB1cGRhdGVfZ2F0ZXdheV9odHRwMygKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgSnNvbihib2R5KTogSnNvbjxWYWx1ZT4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IGNvbmZpZyA9IG1hdGNoIGh0dHAzOjpodHRwM19jb25maWcoJmJvZHkpIHsKICAgICAgICBPayhjb25maWcpID0+IGNvbmZpZywKICAgICAgICBFcnIoZXJyb3IpID0+IHJldHVybiByZXNwb25zZTo6ZXJyb3IoU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsIGVycm9yKSwKICAgIH07CiAgICBtYXRjaCBodHRwMzo6dXBkYXRlX2h0dHAzKCZzdGF0ZSwgY29uZmlnKS5hd2FpdCB7CiAgICAgICAgT2soZGF0YSkgPT4gcmVzcG9uc2U6Om9rKGRhdGEpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCJmYWlsZWQgdG8gdXBkYXRlIEhUVFAvMyBjb25maWd1cmF0aW9uIik7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcihTdGF0dXNDb2RlOjpCQURfR0FURVdBWSwgZXJyb3IpCiAgICAgICAgfQogICAgfQp9Cg==
+use super::*;
+use axum::Json;
+use utoipa_axum::{router::OpenApiRouter, routes};
+
+pub(super) fn routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_gateway_http3, update_gateway_http3))
+        .routes(routes!(get_gateway, update_gateway))
+        .routes(routes!(get_gateway_visibility, update_gateway_visibility))
+        .routes(routes!(
+            get_gateway_proxy_headers,
+            update_gateway_proxy_headers
+        ))
+        .routes(routes!(
+            get_gateway_host_response,
+            update_gateway_host_response
+        ))
+        .routes(routes!(
+            get_gateway_proxy_protocol,
+            update_gateway_proxy_protocol
+        ))
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/config/gateway/proxy-protocol",
+    tag = "config",
+    operation_id = "get_api_admin_config_gateway_proxy_protocol",
+    responses((status = 200, description = "Gateway PROXY protocol settings"))
+)]
+pub(super) async fn get_gateway_proxy_protocol(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match get_gateway_proxy_protocol_details(&state).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load gateway PROXY protocol settings");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                gateway_route_text(&translator, "loadGatewayProxyProtocolFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/config/gateway/proxy-protocol",
+    tag = "config",
+    operation_id = "post_api_admin_config_gateway_proxy_protocol",
+    responses((status = 200, description = "Updated gateway PROXY protocol settings"))
+)]
+pub(super) async fn update_gateway_proxy_protocol(
+    State(state): State<AppState>,
+    Json(body): Json<Value>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    if let Err(message) = gateway_proxy_protocol_from_body(&body) {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            localize_gateway_route_message(&translator, &message),
+        );
+    }
+    match update_gateway_proxy_protocol_inner(&state, &body).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(message) => {
+            tracing::warn!(%message, "failed to update gateway PROXY protocol settings");
+            response::error(
+                StatusCode::BAD_GATEWAY,
+                localize_gateway_route_message(&translator, &message),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/config/gateway",
+    tag = "config",
+    operation_id = "get_api_admin_config_gateway",
+    responses((status = 200, description = "Gateway settings"))
+)]
+pub(super) async fn get_gateway(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match build_gateway_settings_response(&state).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load gateway settings");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                gateway_route_text(&translator, "loadGatewaySettingsFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/config/gateway",
+    tag = "config",
+    operation_id = "post_api_admin_config_gateway",
+    responses((status = 200, description = "Updated gateway settings"))
+)]
+pub(super) async fn update_gateway(
+    State(state): State<AppState>,
+    Json(body): Json<Value>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let Some(patch) = body.as_object() else {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            gateway_route_text(&translator, "payloadObjectRequired"),
+        );
+    };
+
+    let previous_config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => {
+            tracing::warn!(%error, "failed to load config before gateway update");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                gateway_route_text(&translator, "loadConfigFailed"),
+            );
+        }
+    };
+
+    let mut updated_config = previous_config.clone();
+    apply_gateway_patch(&mut updated_config, patch);
+
+    if let Err(error) = state.storage.store.save_config(&updated_config).await {
+        tracing::warn!(%error, "failed to save gateway settings");
+        return response::error(
+            StatusCode::INTERNAL_SERVER_ERROR,
+            gateway_route_text(&translator, "saveGatewaySettingsFailed"),
+        );
+    }
+
+    if let Err(message) = sync_gateway_runtime(&state, &updated_config).await {
+        rollback_gateway_settings(&state, &previous_config).await;
+        tracing::warn!(%message, "failed to sync gateway settings runtime");
+        return response::error(
+            StatusCode::BAD_GATEWAY,
+            gateway_route_text_params(
+                &translator,
+                "syncGatewaySettingsFailed",
+                &[("message", message)],
+            ),
+        );
+    }
+    whitelist::sync_reverse_proxy_trusted_ips(&state).await;
+
+    if let Err(message) =
+        apply_gateway_portal_host_rules_patches_if_needed(&state, &updated_config).await
+    {
+        rollback_gateway_settings(&state, &previous_config).await;
+        tracing::warn!(%message, "failed to apply gateway portal host-rules patches");
+        return response::error(
+            StatusCode::BAD_GATEWAY,
+            gateway_route_text_params(
+                &translator,
+                "syncGatewaySettingsFailed",
+                &[("message", message)],
+            ),
+        );
+    }
+
+    match build_gateway_settings_response_from_config(&state, updated_config).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to reload gateway settings after update");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                gateway_route_text(&translator, "responseReloadFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/config/gateway/visibility",
+    tag = "config",
+    operation_id = "get_api_admin_config_gateway_visibility",
+    responses((status = 200, description = "Gateway visibility settings"))
+)]
+pub(super) async fn get_gateway_visibility(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match get_gateway_visibility_details(&state).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load gateway visibility details");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                gateway_route_text(&translator, "loadGatewayVisibilityFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/config/gateway/visibility",
+    tag = "config",
+    operation_id = "post_api_admin_config_gateway_visibility",
+    responses((status = 200, description = "Updated gateway visibility settings"))
+)]
+pub(super) async fn update_gateway_visibility(
+    State(state): State<AppState>,
+    Json(body): Json<Value>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let previous_config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => {
+            tracing::warn!(%error, "failed to load config before gateway visibility update");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                gateway_route_text(&translator, "loadConfigFailed"),
+            );
+        }
+    };
+    let previous_runtime = match state
+        .storage
+        .store
+        .get_json_value(GATEWAY_VISIBILITY_RUNTIME_KEY)
+        .await
+    {
+        Ok(runtime) => runtime.unwrap_or_else(default_gateway_visibility_runtime),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load gateway visibility runtime before update");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                gateway_route_text(&translator, "loadRuntimeFailed"),
+            );
+        }
+    };
+
+    match update_gateway_visibility_inner(&state, &body).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(message) => {
+            let rollback_error = rollback_gateway_visibility(
+                &state,
+                &previous_config,
+                &previous_runtime,
+                &translator,
+            )
+            .await;
+            let message = rollback_message(
+                &translator,
+                &message,
+                rollback_error.as_deref(),
+                "server.admin.gatewayVisibility.updateFailedRolledBack",
+            );
+            response::error(StatusCode::BAD_GATEWAY, message)
+        }
+    }
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/config/gateway/proxy-headers",
+    tag = "config",
+    operation_id = "get_api_admin_config_gateway_proxy_headers",
+    responses((status = 200, description = "Gateway proxy header settings"))
+)]
+pub(super) async fn get_gateway_proxy_headers(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match get_gateway_proxy_headers_details(&state, &translator).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load gateway proxy headers details");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                gateway_route_text(&translator, "loadGatewayProxyHeadersFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/config/gateway/proxy-headers",
+    tag = "config",
+    operation_id = "post_api_admin_config_gateway_proxy_headers",
+    responses((status = 200, description = "Updated gateway proxy header settings"))
+)]
+pub(super) async fn update_gateway_proxy_headers(
+    State(state): State<AppState>,
+    Json(body): Json<Value>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let previous_config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => {
+            tracing::warn!(%error, "failed to load config before gateway proxy headers update");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                gateway_route_text(&translator, "loadConfigFailed"),
+            );
+        }
+    };
+    if !is_any_subdomain_routing_mode(&previous_config) {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            translator.t("server.admin.gatewayProxyHeaders.subdomainOnly"),
+        );
+    }
+    let previous_runtime = match state
+        .storage
+        .store
+        .get_json_value(GATEWAY_PROXY_HEADERS_RUNTIME_KEY)
+        .await
+    {
+        Ok(runtime) => runtime.unwrap_or_else(default_gateway_proxy_headers_runtime),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load gateway proxy headers runtime before update");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                gateway_route_text(&translator, "loadRuntimeFailed"),
+            );
+        }
+    };
+
+    match update_gateway_proxy_headers_inner(&state, &previous_config, &body).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(message) => {
+            let rollback_error = rollback_gateway_proxy_headers(
+                &state,
+                &previous_config,
+                &previous_runtime,
+                &translator,
+            )
+            .await;
+            let message = rollback_message(
+                &translator,
+                &message,
+                rollback_error.as_deref(),
+                "server.admin.gatewayProxyHeaders.updateFailedRolledBack",
+            );
+            response::error(StatusCode::BAD_GATEWAY, message)
+        }
+    }
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/config/gateway/host-response",
+    tag = "config",
+    operation_id = "get_api_admin_config_gateway_host_response",
+    responses((status = 200, description = "Gateway host response settings"))
+)]
+pub(super) async fn get_gateway_host_response(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match get_gateway_host_response_details(&state, &translator).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load gateway host response details");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                gateway_route_text(&translator, "loadGatewayHostResponseFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/config/gateway/host-response",
+    tag = "config",
+    operation_id = "post_api_admin_config_gateway_host_response",
+    responses((status = 200, description = "Updated gateway host response settings"))
+)]
+pub(super) async fn update_gateway_host_response(
+    State(state): State<AppState>,
+    Json(body): Json<Value>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let previous_config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => {
+            tracing::warn!(%error, "failed to load config before gateway host response update");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                gateway_route_text(&translator, "loadConfigFailed"),
+            );
+        }
+    };
+    if !is_any_subdomain_routing_mode(&previous_config) {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            translator.t("server.gatewayHostResponse.editSubdomainOnly"),
+        );
+    }
+    let previous_runtime = match state
+        .storage
+        .store
+        .get_json_value(GATEWAY_HOST_RESPONSE_RUNTIME_KEY)
+        .await
+    {
+        Ok(runtime) => runtime.unwrap_or_else(default_gateway_host_response_runtime),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load gateway host response runtime before update");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                gateway_route_text(&translator, "loadRuntimeFailed"),
+            );
+        }
+    };
+
+    match update_gateway_host_response_inner(&state, &previous_config, &body, &translator).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(message) => {
+            let rollback_error = rollback_gateway_host_response(
+                &state,
+                &previous_config,
+                &previous_runtime,
+                &translator,
+            )
+            .await;
+            let message = rollback_message(
+                &translator,
+                &message,
+                rollback_error.as_deref(),
+                "server.gatewayHostResponse.updateFailedRolledBack",
+            );
+            response::error(StatusCode::BAD_GATEWAY, message)
+        }
+    }
+}
+
+#[utoipa::path(get, path = "/api/admin/config/gateway/http3", tag = "config", operation_id = "get_api_admin_config_gateway_http3", responses((status = 200, description = "HTTP/3 configuration and local listener status")))]
+pub(super) async fn get_gateway_http3(State(state): State<AppState>) -> Response {
+    match state.gateway.client.get_gateway_http3().await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(error) => {
+            tracing::warn!(%error,"failed to load HTTP/3 status");
+            response::error(StatusCode::BAD_GATEWAY, "Failed to load HTTP/3 status")
+        }
+    }
+}
+#[utoipa::path(post, path = "/api/admin/config/gateway/http3", tag = "config", operation_id = "post_api_admin_config_gateway_http3", responses((status = 200, description = "Updated HTTP/3 configuration and local listener status")))]
+pub(super) async fn update_gateway_http3(
+    State(state): State<AppState>,
+    Json(body): Json<Value>,
+) -> Response {
+    let config = match http3::http3_config(&body) {
+        Ok(config) => config,
+        Err(error) => return response::error(StatusCode::BAD_REQUEST, error),
+    };
+    match http3::update_http3(&state, config).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(error) => {
+            tracing::warn!(%error,"failed to update HTTP/3 configuration");
+            response::error(StatusCode::BAD_GATEWAY, error)
+        }
+    }
+}

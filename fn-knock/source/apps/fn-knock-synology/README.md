@@ -1,1 +1,57 @@
-IyBmbi1rbm9jayBTeW5vbG9neSBTUEsKClRoaXMgZGlyZWN0b3J5IGNvbnRhaW5zIHRoZSBuYXRpdmUgU3lub2xvZ3kgRFNNIDcgcGFja2FnZSBhZGFwdGVyLiBJdCBpcwpzZXBhcmF0ZSBmcm9tIHRoZSBmbk9TIEZQSyBwYWNrYWdlcyB1bmRlciBgYXBwcy9mbi1rbm9jaypgIGJlY2F1c2UgRFNNIHVzZXMgYQpkaWZmZXJlbnQgcGFja2FnZSBmb3JtYXQsIGxpZmVjeWNsZSBlbnZpcm9ubWVudCwgcHJpdmlsZWdlIG1vZGVsLCBhbmQgZGVza3RvcAppbnRlZ3JhdGlvbi4KCkJ1aWxkIHRoZSB4ODZfNjQsIEFSTXY4LCBhbmQgQVJNdjcgcGFja2FnZXMgZnJvbSB0aGUgcmVwb3NpdG9yeSByb290OgoKYGBgYmFzaApucG0gcnVuIGZuLWtub2NrOnNwazpidWlsZApgYGAKClRvIGJ1aWxkIG9uZSBhcmNoaXRlY3R1cmUgb25seSwgdXNlIG9uZSBvZjoKCmBgYGJhc2gKbnBtIHJ1biBmbi1rbm9jazpzcGs6YnVpbGQ6eDg2XzY0Cm5wbSBydW4gZm4ta25vY2s6c3BrOmJ1aWxkOmFybXY4Cm5wbSBydW4gZm4ta25vY2s6c3BrOmJ1aWxkOmFybXY3CmBgYAoKVGhlIGdlbmVyYXRlZCBwYWNrYWdlcyBhcmUgd3JpdHRlbiB0bwpgZGlzdC9zeW5vbG9neS9mbi1rbm9jay1zeW5vbG9neS17eDg2XzY0fGFybXY4fGFybXY3fS08dmVyc2lvbj4tPGJ1aWxkPi5zcGtgLgpVc2UgYG5wbSBydW4gZm4ta25vY2s6c3BrOmJ1aWxkOnByZXBhcmVkYCB0byBwYWNrYWdlIGFsbCB0aHJlZSBhcmNoaXRlY3R1cmVzCmZyb20gYW4gZXhpc3RpbmcgcHJlcGFyZWQgcnVudGltZSB3aXRob3V0IHJlYnVpbGRpbmcgc2hhcmVkIGlucHV0cy4KCiMjIEFSTSBEU00gNyBtYW51YWwgc21va2UgY2hlY2tsaXN0CgpSdW4gdGhpcyBjaGVja2xpc3Qgb24gYm90aCBhbiBgYXJtdjhgIGFuZCBhbiBgYXJtdjdgIERTTSA3IE5BUyB3aGVuIGhhcmR3YXJlIGlzCmF2YWlsYWJsZToKCi0gQ29uZmlybSB0aGUgbW9kZWwncyBTeW5vbG9neSBQYWNrYWdlIEFyY2gsIG1hbnVhbGx5IGluc3RhbGwgdGhlIG1hdGNoaW5nIFNQSywKICBhbmQgdmVyaWZ5IHRoYXQgRFNNIHJlamVjdHMgdGhlIG90aGVyIEFSTSBwYWNrYWdlLgotIFN0YXJ0IGFuZCBzdG9wIHRoZSBwYWNrYWdlIGZyb20gUGFja2FnZSBDZW50ZXIgYW5kIGNvbmZpcm0gdGhhdCBib3RoIG5hdGl2ZQogIHNlcnZpY2VzIHN0YXkgcnVubmluZyB1bmRlciB0aGUgcGFja2FnZSBhY2NvdW50LgotIE9wZW4gKipLbm9jayoqIGZyb20gdGhlIERTTSBkZXNrdG9wIGFuZCBjb21wbGV0ZSB0aGUgYXV0aGVudGljYXRlZCBDR0kgbGF1bmNoLgotIENvbmZpcm0gdGhhdCB0aGUgYWRtaW4gYmFja2VuZCBsaXN0ZW5zIG9ubHkgb24gYDEyNy4wLjAuMTo3OTk4YCBhbmQgcmVtYWlucwogIHJlYWNoYWJsZSB0aHJvdWdoIHRoZSBEU00gZGVza3RvcCBwcm94eS4KLSBDb25maWd1cmUgYSBnYXRld2F5IG1hcHBpbmcgYW5kIHZlcmlmeSBzZXJ2aWNlIHRyYWZmaWMgdGhyb3VnaCBwb3J0IGA3OTk5YC4KLSBVcGdyYWRlIGZyb20gdGhlIHByZXZpb3VzIFNQSyBidWlsZCBhbmQgY29uZmlybSB0aGF0IGNvbmZpZ3VyYXRpb24sIGtleXMsIGFuZAogIHJ1bnRpbWUgZGF0YSBhcmUgcHJlc2VydmVkLgoKVGhlIHBhY2thZ2UgcnVucyBhcyB0aGUgRFNNLWNyZWF0ZWQgYGZuLWtub2NrLXN5bm9sb2d5YCBwYWNrYWdlIHVzZXIuIEhvc3QKZmlyZXdhbGwgbXV0YXRpb24gaXMgaW50ZW50aW9uYWxseSBkaXNhYmxlZDogRFNNIDcgcmVqZWN0cyB1bnNpZ25lZCB0aGlyZC1wYXJ0eQpwYWNrYWdlcyB0aGF0IHJlcXVlc3QgcGFja2FnZS13aWRlIHJvb3QgZXhlY3V0aW9uLiBEU00ncyBwYWNrYWdlIHJlc291cmNlCndvcmtlciByZWdpc3RlcnMgdGhlIHB1YmxpYyByZXZlcnNlLXByb3h5IHBvcnQgNzk5OSB3aXRoIHRoZSBidWlsdC1pbiBmaXJld2FsbApVSS4KClJ1bnRpbWUgZGF0YSBhbmQgc2VjcmV0cyBhcmUgcGVyc2lzdGVkIGluCmAvdmFyL3BhY2thZ2VzL2ZuLWtub2NrLXN5bm9sb2d5L3ZhcmAuIE9uIFN5bm9sb2d5IHRoZSBhZG1pbmlzdHJhdGlvbiBzZXJ2aWNlCmxpc3RlbnMgb25seSBvbiBsb29wYmFjayBwb3J0IDc5OTg7IHRoZSBtYW5hZ2VtZW50IFVJIGlzIGV4cG9zZWQgZXhjbHVzaXZlbHkKdGhyb3VnaCB0aGUgYXV0aGVudGljYXRlZCBEU00gZGVza3RvcCBDR0kgcHJveHkuIFBvcnQgNzk5MSBpcyBub3Qgb3BlbmVkLgpUaGUgR28gcmV2ZXJzZS1wcm94eSBnYXRld2F5IGNvbnRpbnVlcyB0byBsaXN0ZW4gcHVibGljbHkgb24gcG9ydCA3OTk5IGJ5CmRlZmF1bHQ7IHBvcnQgNzk5OCBpcyBvbmx5IHRoZSBwcml2YXRlIGFkbWluaXN0cmF0aW9uIGJhY2tlbmQuClRoZSBEU00gZGVza3RvcCBlbnRyeSB1c2VzCmAvd2VibWFuLzNyZHBhcnR5L2ZuLWtub2NrLXN5bm9sb2d5L2luZGV4LmNnaS9gOyBEU00ncyByb290LWxldmVsCmAvM3JkcGFydHkvLi4uYCByb3V0ZSBpcyBub3QgdGhlIHBhY2thZ2UgQ0dJIHJvdXRlIG9uIERTTSA3Lgo=
+# fn-knock Synology SPK
+
+This directory contains the native Synology DSM 7 package adapter. It is
+separate from the fnOS FPK packages under `apps/fn-knock*` because DSM uses a
+different package format, lifecycle environment, privilege model, and desktop
+integration.
+
+Build the x86_64, ARMv8, and ARMv7 packages from the repository root:
+
+```bash
+npm run fn-knock:spk:build
+```
+
+To build one architecture only, use one of:
+
+```bash
+npm run fn-knock:spk:build:x86_64
+npm run fn-knock:spk:build:armv8
+npm run fn-knock:spk:build:armv7
+```
+
+The generated packages are written to
+`dist/synology/fn-knock-synology-{x86_64|armv8|armv7}-<version>-<build>.spk`.
+Use `npm run fn-knock:spk:build:prepared` to package all three architectures
+from an existing prepared runtime without rebuilding shared inputs.
+
+## ARM DSM 7 manual smoke checklist
+
+Run this checklist on both an `armv8` and an `armv7` DSM 7 NAS when hardware is
+available:
+
+- Confirm the model's Synology Package Arch, manually install the matching SPK,
+  and verify that DSM rejects the other ARM package.
+- Start and stop the package from Package Center and confirm that both native
+  services stay running under the package account.
+- Open **Knock** from the DSM desktop and complete the authenticated CGI launch.
+- Confirm that the admin backend listens only on `127.0.0.1:7998` and remains
+  reachable through the DSM desktop proxy.
+- Configure a gateway mapping and verify service traffic through port `7999`.
+- Upgrade from the previous SPK build and confirm that configuration, keys, and
+  runtime data are preserved.
+
+The package runs as the DSM-created `fn-knock-synology` package user. Host
+firewall mutation is intentionally disabled: DSM 7 rejects unsigned third-party
+packages that request package-wide root execution. DSM's package resource
+worker registers the public reverse-proxy port 7999 with the built-in firewall
+UI.
+
+Runtime data and secrets are persisted in
+`/var/packages/fn-knock-synology/var`. On Synology the administration service
+listens only on loopback port 7998; the management UI is exposed exclusively
+through the authenticated DSM desktop CGI proxy. Port 7991 is not opened.
+The Go reverse-proxy gateway continues to listen publicly on port 7999 by
+default; port 7998 is only the private administration backend.
+The DSM desktop entry uses
+`/webman/3rdparty/fn-knock-synology/index.cgi/`; DSM's root-level
+`/3rdparty/...` route is not the package CGI route on DSM 7.

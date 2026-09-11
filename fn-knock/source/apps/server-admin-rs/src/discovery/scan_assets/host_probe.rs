@@ -1,1 +1,168 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiBwcm9iZV9jb25maWd1cmVkX2hvc3RfbWFwcGluZ3MoCiAgICBtYXBwaW5nczogVmVjPFZhbHVlPiwKICAgIGhvc3RzOiBWZWM8U3RyaW5nPiwKKSAtPiBWZWM8VmFsdWU+IHsKICAgIGxldCByZXF1ZXN0ZWRfaG9zdHMgPSBpZiBob3N0cy5pc19lbXB0eSgpIHsKICAgICAgICBOb25lCiAgICB9IGVsc2UgewogICAgICAgIFNvbWUoCiAgICAgICAgICAgIGhvc3RzCiAgICAgICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgICAgIC5tYXAofGhvc3R8IG5vcm1hbGl6ZV9ob3N0X2tleSgmaG9zdCkpCiAgICAgICAgICAgICAgICAuZmlsdGVyKHxob3N0fCAhaG9zdC5pc19lbXB0eSgpKQogICAgICAgICAgICAgICAgLmNvbGxlY3Q6OjxCVHJlZVNldDxfPj4oKSwKICAgICAgICApCiAgICB9OwogICAgbGV0IG11dCB0YXJnZXRfY2FjaGUgPSBIYXNoTWFwOjo8U3RyaW5nLCBWYWx1ZT46Om5ldygpOwogICAgbGV0IG11dCByZXN1bHRzID0gVmVjOjpuZXcoKTsKICAgIGZvciBtYXBwaW5nIGluIG1hcHBpbmdzIHsKICAgICAgICBsZXQgaG9zdCA9IG1hcHBpbmcKICAgICAgICAgICAgLmdldCgiaG9zdCIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAudW53cmFwX29yKCIiKQogICAgICAgICAgICAudHJpbSgpCiAgICAgICAgICAgIC50b19zdHJpbmcoKTsKICAgICAgICBsZXQgdGFyZ2V0ID0gbWFwcGluZwogICAgICAgICAgICAuZ2V0KCJ0YXJnZXQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLnVud3JhcF9vcigiIikKICAgICAgICAgICAgLnRyaW0oKQogICAgICAgICAgICAudG9fc3RyaW5nKCk7CiAgICAgICAgaWYgaG9zdC5pc19lbXB0eSgpCiAgICAgICAgICAgIHx8IHRhcmdldC5pc19lbXB0eSgpCiAgICAgICAgICAgIHx8IGlzX2F1dGhfc2VydmljZV90YXJnZXQoJnRhcmdldCkKICAgICAgICAgICAgfHwgcmVxdWVzdGVkX2hvc3RzCiAgICAgICAgICAgICAgICAuYXNfcmVmKCkKICAgICAgICAgICAgICAgIC5pc19zb21lX2FuZCh8c2V0fCAhc2V0LmNvbnRhaW5zKCZub3JtYWxpemVfaG9zdF9rZXkoJmhvc3QpKSkKICAgICAgICB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBsZXQgdGFyZ2V0X2tleSA9IG5vcm1hbGl6ZV9wcm9iZV91cmwoJnRhcmdldCkudW53cmFwX29yX2Vsc2UofHwgdGFyZ2V0LmNsb25lKCkpOwogICAgICAgIGxldCBwcm9iZSA9IGlmIGxldCBTb21lKGNhY2hlZCkgPSB0YXJnZXRfY2FjaGUuZ2V0KCZ0YXJnZXRfa2V5KSB7CiAgICAgICAgICAgIGNhY2hlZC5jbG9uZSgpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgbGV0IHJlc3VsdCA9IHByb2JlX2hvc3RfbWFwcGluZ190YXJnZXQoJnRhcmdldCkuYXdhaXQ7CiAgICAgICAgICAgIHRhcmdldF9jYWNoZS5pbnNlcnQodGFyZ2V0X2tleSwgcmVzdWx0LmNsb25lKCkpOwogICAgICAgICAgICByZXN1bHQKICAgICAgICB9OwogICAgICAgIGxldCBtdXQgcmVzdWx0ID0gc2VyZGVfanNvbjo6TWFwOjpuZXcoKTsKICAgICAgICByZXN1bHQuaW5zZXJ0KCJob3N0Ii50b19zdHJpbmcoKSwganNvbiEoaG9zdCkpOwogICAgICAgIHJlc3VsdC5pbnNlcnQoInRhcmdldCIudG9fc3RyaW5nKCksIGpzb24hKHRhcmdldCkpOwogICAgICAgIGlmIGxldCBTb21lKG9iamVjdCkgPSBwcm9iZS5hc19vYmplY3QoKSB7CiAgICAgICAgICAgIGZvciAoa2V5LCB2YWx1ZSkgaW4gb2JqZWN0IHsKICAgICAgICAgICAgICAgIHJlc3VsdC5pbnNlcnQoa2V5LmNsb25lKCksIHZhbHVlLmNsb25lKCkpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJlc3VsdHMucHVzaChWYWx1ZTo6T2JqZWN0KHJlc3VsdCkpOwogICAgfQogICAgcmVzdWx0cwp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHByb2JlX2hvc3RfbWFwcGluZ190YXJnZXQodGFyZ2V0OiAmc3RyKSAtPiBWYWx1ZSB7CiAgICBsZXQgc3RhcnRlZCA9IEluc3RhbnQ6Om5vdygpOwogICAgbGV0IFNvbWUodXJsKSA9IG5vcm1hbGl6ZV9wcm9iZV91cmwodGFyZ2V0KSBlbHNlIHsKICAgICAgICByZXR1cm4ganNvbiEoewogICAgICAgICAgICAic3RhdHVzIjogInVuc3VwcG9ydGVkIiwKICAgICAgICAgICAgImVycm9yIjogIk9ubHkgaHR0cDovLyBhbmQgaHR0cHM6Ly8gdGFyZ2V0cyBjYW4gYmUgcHJvYmVkIiwKICAgICAgICAgICAgImxhdGVuY3lNcyI6IDAKICAgICAgICB9KTsKICAgIH07CiAgICBsZXQgY2xpZW50ID0gbWF0Y2ggcmVxd2VzdDo6Q2xpZW50OjpidWlsZGVyKCkKICAgICAgICAudGltZW91dChzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX21pbGxpcygyNTAwKSkKICAgICAgICAuZGFuZ2VyX2FjY2VwdF9pbnZhbGlkX2NlcnRzKHRydWUpCiAgICAgICAgLnJlZGlyZWN0KHJlcXdlc3Q6OnJlZGlyZWN0OjpQb2xpY3k6Om5vbmUoKSkKICAgICAgICAuYnVpbGQoKQogICAgewogICAgICAgIE9rKGNsaWVudCkgPT4gY2xpZW50LAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICByZXR1cm4ganNvbiEoewogICAgICAgICAgICAgICAgInN0YXR1cyI6ICJzdGFsZSIsCiAgICAgICAgICAgICAgICAiZXJyb3IiOiBlcnJvci50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICJsYXRlbmN5TXMiOiBlbGFwc2VkX21zKHN0YXJ0ZWQpCiAgICAgICAgICAgIH0pOwogICAgICAgIH0KICAgIH07CgogICAgZm9yIG1ldGhvZCBpbiBbcmVxd2VzdDo6TWV0aG9kOjpIRUFELCByZXF3ZXN0OjpNZXRob2Q6OkdFVF0gewogICAgICAgIGxldCBpc19nZXQgPSBtZXRob2QgPT0gcmVxd2VzdDo6TWV0aG9kOjpHRVQ7CiAgICAgICAgbWF0Y2ggY2xpZW50CiAgICAgICAgICAgIC5yZXF1ZXN0KG1ldGhvZCwgdXJsLmFzX3N0cigpKQogICAgICAgICAgICAuaGVhZGVyKCJVc2VyLUFnZW50IiwgImZuLWtub2NrLWhvc3QtbWFwcGluZy1wcm9iZS8xLjAiKQogICAgICAgICAgICAuaGVhZGVyKCJDb25uZWN0aW9uIiwgImNsb3NlIikKICAgICAgICAgICAgLnNlbmQoKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICB7CiAgICAgICAgICAgIE9rKHJlc3BvbnNlKSA9PiB7CiAgICAgICAgICAgICAgICByZXR1cm4ganNvbiEoewogICAgICAgICAgICAgICAgICAgICJzdGF0dXMiOiAib25saW5lIiwKICAgICAgICAgICAgICAgICAgICAiaHR0cFN0YXR1cyI6IHJlc3BvbnNlLnN0YXR1cygpLmFzX3UxNigpLAogICAgICAgICAgICAgICAgICAgICJsYXRlbmN5TXMiOiBlbGFwc2VkX21zKHN0YXJ0ZWQpCiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgfQogICAgICAgICAgICBFcnIoZXJyb3IpIGlmIGlzX2dldCA9PiB7CiAgICAgICAgICAgICAgICByZXR1cm4ganNvbiEoewogICAgICAgICAgICAgICAgICAgICJzdGF0dXMiOiAic3RhbGUiLAogICAgICAgICAgICAgICAgICAgICJlcnJvciI6IGVycm9yLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgICAgICJsYXRlbmN5TXMiOiBlbGFwc2VkX21zKHN0YXJ0ZWQpCiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgfQogICAgICAgICAgICBFcnIoXykgPT4ge30KICAgICAgICB9CiAgICB9CiAgICBqc29uISh7CiAgICAgICAgInN0YXR1cyI6ICJzdGFsZSIsCiAgICAgICAgImVycm9yIjogIlByb2JlIGZhaWxlZCIsCiAgICAgICAgImxhdGVuY3lNcyI6IGVsYXBzZWRfbXMoc3RhcnRlZCkKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gZWxhcHNlZF9tcyhzdGFydGVkOiBJbnN0YW50KSAtPiBpNjQgewogICAgc3RhcnRlZC5lbGFwc2VkKCkuYXNfbWlsbGlzKCkubWluKGk2NDo6TUFYIGFzIHUxMjgpIGFzIGk2NAp9CgpwdWIoc3VwZXIpIGZuIG5vd19taWxsaXMoKSAtPiBpNjQgewogICAgc3RkOjp0aW1lOjpTeXN0ZW1UaW1lOjpub3coKQogICAgICAgIC5kdXJhdGlvbl9zaW5jZShzdGQ6OnRpbWU6OlVOSVhfRVBPQ0gpCiAgICAgICAgLm1hcCh8ZHVyYXRpb258IGR1cmF0aW9uLmFzX21pbGxpcygpLm1pbihpNjQ6Ok1BWCBhcyB1MTI4KSBhcyBpNjQpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfcHJvYmVfdXJsKHRhcmdldDogJnN0cikgLT4gT3B0aW9uPFN0cmluZz4gewogICAgbGV0IHVybCA9IFVybDo6cGFyc2UodGFyZ2V0LnRyaW0oKSkub2soKT87CiAgICBtYXRjaGVzISh1cmwuc2NoZW1lKCksICJodHRwIiB8ICJodHRwcyIpLnRoZW4ofHwgdXJsLnRvX3N0cmluZygpKQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9ob3N0X2tleSh2YWx1ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGxldCBsb3dlciA9IHZhbHVlLnRyaW0oKS50b19sb3dlcmNhc2UoKTsKICAgIGxldCB3aXRob3V0X3NjaGVtZSA9IHN0cmlwX2FscGhhX3NjaGVtZSgmbG93ZXIpOwogICAgd2l0aG91dF9zY2hlbWUKICAgICAgICAuc3BsaXQoJy8nKQogICAgICAgIC5uZXh0KCkKICAgICAgICAudW53cmFwX29yKCIiKQogICAgICAgIC50cmltX2VuZF9tYXRjaGVzKCcuJykKICAgICAgICAudG9fc3RyaW5nKCkKfQoKcHViKHN1cGVyKSBmbiBzdHJpcF9hbHBoYV9zY2hlbWUodmFsdWU6ICZzdHIpIC0+ICZzdHIgewogICAgbGV0IFNvbWUoKHNjaGVtZSwgcmVzdCkpID0gdmFsdWUuc3BsaXRfb25jZSgiOi8vIikgZWxzZSB7CiAgICAgICAgcmV0dXJuIHZhbHVlOwogICAgfTsKICAgIGlmICFzY2hlbWUuaXNfZW1wdHkoKSAmJiBzY2hlbWUuY2hhcnMoKS5hbGwofGNofCBjaC5pc19hc2NpaV9hbHBoYWJldGljKCkpIHsKICAgICAgICByZXN0CiAgICB9IGVsc2UgewogICAgICAgIHZhbHVlCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gaXNfYXV0aF9zZXJ2aWNlX3RhcmdldCh0YXJnZXQ6ICZzdHIpIC0+IGJvb2wgewogICAgbGV0IE9rKHVybCkgPSBVcmw6OnBhcnNlKHRhcmdldC50cmltKCkpIGVsc2UgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH07CiAgICBpZiAhbWF0Y2hlcyEodXJsLnNjaGVtZSgpLCAiaHR0cCIgfCAiaHR0cHMiKSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogICAgbGV0IHBvcnQgPSB1cmwucG9ydF9vcl9rbm93bl9kZWZhdWx0KCkudW53cmFwX29yKDApOwogICAgcG9ydCA9PSByZXNvbHZlX2Vudl9wb3J0X3dpdGhfZmFsbGJhY2soIkFVVEhfUE9SVCIsIDc5OTcpCn0K
+use super::*;
+
+pub(super) async fn probe_configured_host_mappings(
+    mappings: Vec<Value>,
+    hosts: Vec<String>,
+) -> Vec<Value> {
+    let requested_hosts = if hosts.is_empty() {
+        None
+    } else {
+        Some(
+            hosts
+                .into_iter()
+                .map(|host| normalize_host_key(&host))
+                .filter(|host| !host.is_empty())
+                .collect::<BTreeSet<_>>(),
+        )
+    };
+    let mut target_cache = HashMap::<String, Value>::new();
+    let mut results = Vec::new();
+    for mapping in mappings {
+        let host = mapping
+            .get("host")
+            .and_then(Value::as_str)
+            .unwrap_or("")
+            .trim()
+            .to_string();
+        let target = mapping
+            .get("target")
+            .and_then(Value::as_str)
+            .unwrap_or("")
+            .trim()
+            .to_string();
+        if host.is_empty()
+            || target.is_empty()
+            || is_auth_service_target(&target)
+            || requested_hosts
+                .as_ref()
+                .is_some_and(|set| !set.contains(&normalize_host_key(&host)))
+        {
+            continue;
+        }
+        let target_key = normalize_probe_url(&target).unwrap_or_else(|| target.clone());
+        let probe = if let Some(cached) = target_cache.get(&target_key) {
+            cached.clone()
+        } else {
+            let result = probe_host_mapping_target(&target).await;
+            target_cache.insert(target_key, result.clone());
+            result
+        };
+        let mut result = serde_json::Map::new();
+        result.insert("host".to_string(), json!(host));
+        result.insert("target".to_string(), json!(target));
+        if let Some(object) = probe.as_object() {
+            for (key, value) in object {
+                result.insert(key.clone(), value.clone());
+            }
+        }
+        results.push(Value::Object(result));
+    }
+    results
+}
+
+pub(super) async fn probe_host_mapping_target(target: &str) -> Value {
+    let started = Instant::now();
+    let Some(url) = normalize_probe_url(target) else {
+        return json!({
+            "status": "unsupported",
+            "error": "Only http:// and https:// targets can be probed",
+            "latencyMs": 0
+        });
+    };
+    let client = match reqwest::Client::builder()
+        .timeout(std::time::Duration::from_millis(2500))
+        .danger_accept_invalid_certs(true)
+        .redirect(reqwest::redirect::Policy::none())
+        .build()
+    {
+        Ok(client) => client,
+        Err(error) => {
+            return json!({
+                "status": "stale",
+                "error": error.to_string(),
+                "latencyMs": elapsed_ms(started)
+            });
+        }
+    };
+
+    for method in [reqwest::Method::HEAD, reqwest::Method::GET] {
+        let is_get = method == reqwest::Method::GET;
+        match client
+            .request(method, url.as_str())
+            .header("User-Agent", "fn-knock-host-mapping-probe/1.0")
+            .header("Connection", "close")
+            .send()
+            .await
+        {
+            Ok(response) => {
+                return json!({
+                    "status": "online",
+                    "httpStatus": response.status().as_u16(),
+                    "latencyMs": elapsed_ms(started)
+                });
+            }
+            Err(error) if is_get => {
+                return json!({
+                    "status": "stale",
+                    "error": error.to_string(),
+                    "latencyMs": elapsed_ms(started)
+                });
+            }
+            Err(_) => {}
+        }
+    }
+    json!({
+        "status": "stale",
+        "error": "Probe failed",
+        "latencyMs": elapsed_ms(started)
+    })
+}
+
+pub(super) fn elapsed_ms(started: Instant) -> i64 {
+    started.elapsed().as_millis().min(i64::MAX as u128) as i64
+}
+
+pub(super) fn now_millis() -> i64 {
+    std::time::SystemTime::now()
+        .duration_since(std::time::UNIX_EPOCH)
+        .map(|duration| duration.as_millis().min(i64::MAX as u128) as i64)
+        .unwrap_or_default()
+}
+
+pub(super) fn normalize_probe_url(target: &str) -> Option<String> {
+    let url = Url::parse(target.trim()).ok()?;
+    matches!(url.scheme(), "http" | "https").then(|| url.to_string())
+}
+
+pub(super) fn normalize_host_key(value: &str) -> String {
+    let lower = value.trim().to_lowercase();
+    let without_scheme = strip_alpha_scheme(&lower);
+    without_scheme
+        .split('/')
+        .next()
+        .unwrap_or("")
+        .trim_end_matches('.')
+        .to_string()
+}
+
+pub(super) fn strip_alpha_scheme(value: &str) -> &str {
+    let Some((scheme, rest)) = value.split_once("://") else {
+        return value;
+    };
+    if !scheme.is_empty() && scheme.chars().all(|ch| ch.is_ascii_alphabetic()) {
+        rest
+    } else {
+        value
+    }
+}
+
+pub(super) fn is_auth_service_target(target: &str) -> bool {
+    let Ok(url) = Url::parse(target.trim()) else {
+        return false;
+    };
+    if !matches!(url.scheme(), "http" | "https") {
+        return false;
+    }
+    let port = url.port_or_known_default().unwrap_or(0);
+    port == resolve_env_port_with_fallback("AUTH_PORT", 7997)
+}

@@ -1,1 +1,26 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgVGFic1RyaWdnZXJQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgVGFic1RyaWdnZXIsIHVzZUZvcndhcmRQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPFRhYnNUcmlnZ2VyUHJvcHMgJiB7IGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0gfT4oKQoKY29uc3QgZGVsZWdhdGVkUHJvcHMgPSByZWFjdGl2ZU9taXQocHJvcHMsICJjbGFzcyIpCgpjb25zdCBmb3J3YXJkZWRQcm9wcyA9IHVzZUZvcndhcmRQcm9wcyhkZWxlZ2F0ZWRQcm9wcykKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFRhYnNUcmlnZ2VyCiAgICBkYXRhLXNsb3Q9InRhYnMtdHJpZ2dlciIKICAgIDpjbGFzcz0iY24oCiAgICAgICdkYXRhLVtzdGF0ZT1hY3RpdmVdOmJnLWJhY2tncm91bmQgZGFyazpkYXRhLVtzdGF0ZT1hY3RpdmVdOnRleHQtZm9yZWdyb3VuZCBmb2N1cy12aXNpYmxlOmJvcmRlci1yaW5nIGZvY3VzLXZpc2libGU6cmluZy1yaW5nLzUwIGZvY3VzLXZpc2libGU6b3V0bGluZS1yaW5nIGRhcms6ZGF0YS1bc3RhdGU9YWN0aXZlXTpib3JkZXItaW5wdXQgZGFyazpkYXRhLVtzdGF0ZT1hY3RpdmVdOmJnLWlucHV0LzMwIHRleHQtZm9yZWdyb3VuZCBkYXJrOnRleHQtbXV0ZWQtZm9yZWdyb3VuZCBpbmxpbmUtZmxleCBzZWxlY3Qtbm9uZSBbLXdlYmtpdC11c2VyLXNlbGVjdDpub25lXSBbLXdlYmtpdC10b3VjaC1jYWxsb3V0Om5vbmVdIGgtW2NhbGMoMTAwJS0xcHgpXSBmbGV4LTEgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0xLjUgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLXRyYW5zcGFyZW50IHB4LTIgcHktMSB0ZXh0LXNtIGZvbnQtbWVkaXVtIHdoaXRlc3BhY2Utbm93cmFwIHRyYW5zaXRpb24tW2NvbG9yLGJveC1zaGFkb3ddIGZvY3VzLXZpc2libGU6cmluZy1bM3B4XSBmb2N1cy12aXNpYmxlOm91dGxpbmUtMSBkaXNhYmxlZDpwb2ludGVyLWV2ZW50cy1ub25lIGRpc2FibGVkOm9wYWNpdHktNTAgZGF0YS1bc3RhdGU9YWN0aXZlXTpzaGFkb3ctc20gWyZfc3ZnXTpwb2ludGVyLWV2ZW50cy1ub25lIFsmX3N2Z106c2hyaW5rLTAgWyZfc3ZnOm5vdChbY2xhc3MqPVwnc2l6ZS1cJ10pXTpzaXplLTQnLAogICAgICBwcm9wcy5jbGFzcywKICAgICkiCiAgICB2LWJpbmQ9ImZvcndhcmRlZFByb3BzIgogID4KICAgIDxzbG90IC8+CiAgPC9UYWJzVHJpZ2dlcj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { TabsTriggerProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { TabsTrigger, useForwardProps } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<TabsTriggerProps & { class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwardedProps = useForwardProps(delegatedProps)
+</script>
+
+<template>
+  <TabsTrigger
+    data-slot="tabs-trigger"
+    :class="cn(
+      'data-[state=active]:bg-background dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-foreground dark:text-muted-foreground inline-flex select-none [-webkit-user-select:none] [-webkit-touch-callout:none] h-[calc(100%-1px)] flex-1 items-center justify-center gap-1.5 rounded-md border border-transparent px-2 py-1 text-sm font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*=\'size-\'])]:size-4',
+      props.class,
+    )"
+    v-bind="forwardedProps"
+  >
+    <slot />
+  </TabsTrigger>
+</template>

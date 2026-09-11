@@ -1,1 +1,94 @@
-dXNlIHN0ZDo6ZW52OwoKY29uc3QgREVGQVVMVF9UT0tJT19XT1JLRVJfVEhSRUFEUzogdXNpemUgPSAyOwpjb25zdCBNQVhfVE9LSU9fV09SS0VSX1RIUkVBRFM6IHVzaXplID0gNjQ7CiNbY2ZnKHRhcmdldF9mYW1pbHkgPSAidW5peCIpXQpjb25zdCBUQVJHRVRfTk9GSUxFX0xJTUlUOiB1NjQgPSAxXzA0OF81NzY7CgpmbiBtYWluKCkgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIGNvbmZpZ3VyZV9vcGVuX2ZpbGVfbGltaXQoKTsKICAgIGNvbmZpZ3VyZV9hbGxvY2F0b3JfZm9yX2xvd19tZW1vcnkoKTsKICAgIHRva2lvOjpydW50aW1lOjpCdWlsZGVyOjpuZXdfbXVsdGlfdGhyZWFkKCkKICAgICAgICAud29ya2VyX3RocmVhZHModG9raW9fd29ya2VyX3RocmVhZHMoKSkKICAgICAgICAuZW5hYmxlX2FsbCgpCiAgICAgICAgLmJ1aWxkKCk/CiAgICAgICAgLmJsb2NrX29uKHNlcnZlcl9hZG1pbl9yczo6YXBwOjpydW4oKSkKfQoKZm4gdG9raW9fd29ya2VyX3RocmVhZHMoKSAtPiB1c2l6ZSB7CiAgICBlbnY6OnZhcigiRk5fS05PQ0tfVE9LSU9fV09SS0VSX1RIUkVBRFMiKQogICAgICAgIC5vaygpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUudHJpbSgpLnBhcnNlOjo8dXNpemU+KCkub2soKSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgKnZhbHVlID4gMCkKICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUubWluKE1BWF9UT0tJT19XT1JLRVJfVEhSRUFEUykpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKGRlZmF1bHRfdG9raW9fd29ya2VyX3RocmVhZHMpCn0KCmZuIGRlZmF1bHRfdG9raW9fd29ya2VyX3RocmVhZHMoKSAtPiB1c2l6ZSB7CiAgICBzdGQ6OnRocmVhZDo6YXZhaWxhYmxlX3BhcmFsbGVsaXNtKCkKICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUuZ2V0KCkubWluKERFRkFVTFRfVE9LSU9fV09SS0VSX1RIUkVBRFMpKQogICAgICAgIC51bndyYXBfb3IoREVGQVVMVF9UT0tJT19XT1JLRVJfVEhSRUFEUykKfQoKI1tjZmcodGFyZ2V0X2ZhbWlseSA9ICJ1bml4IildCmZuIGNvbmZpZ3VyZV9vcGVuX2ZpbGVfbGltaXQoKSB7CiAgICBsZXQgdGFyZ2V0ID0gVEFSR0VUX05PRklMRV9MSU1JVCBhcyBsaWJjOjpybGltX3Q7CgogICAgLy8gU0FGRVRZOiBnZXRybGltaXQvc2V0cmxpbWl0IG9wZXJhdGUgb24gcHJvY2VzcyByZXNvdXJjZSBsaW1pdHMuIFRoaXMgcnVucwogICAgLy8gYmVmb3JlIHRoZSBhc3luYyBydW50aW1lIHN0YXJ0cyBzbyBjaGlsZCB0YXNrcyBpbmhlcml0IHRoZSBmaW5hbCB2YWx1ZS4KICAgIHVuc2FmZSB7CiAgICAgICAgbGV0IHRhcmdldF9saW1pdCA9IGxpYmM6OnJsaW1pdCB7CiAgICAgICAgICAgIHJsaW1fY3VyOiB0YXJnZXQsCiAgICAgICAgICAgIHJsaW1fbWF4OiB0YXJnZXQsCiAgICAgICAgfTsKICAgICAgICBpZiBsaWJjOjpzZXRybGltaXQobGliYzo6UkxJTUlUX05PRklMRSwgJnRhcmdldF9saW1pdCkgPT0gMCB7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CgogICAgICAgIGxldCB0YXJnZXRfZXJyb3IgPSBzdGQ6OmlvOjpFcnJvcjo6bGFzdF9vc19lcnJvcigpOwogICAgICAgIGxldCBtdXQgaW5oZXJpdGVkID0gbGliYzo6cmxpbWl0IHsKICAgICAgICAgICAgcmxpbV9jdXI6IDAsCiAgICAgICAgICAgIHJsaW1fbWF4OiAwLAogICAgICAgIH07CiAgICAgICAgaWYgbGliYzo6Z2V0cmxpbWl0KGxpYmM6OlJMSU1JVF9OT0ZJTEUsICZtdXQgaW5oZXJpdGVkKSA9PSAwCiAgICAgICAgICAgICYmIGluaGVyaXRlZC5ybGltX2N1ciA8IGluaGVyaXRlZC5ybGltX21heAogICAgICAgIHsKICAgICAgICAgICAgbGV0IGZhbGxiYWNrX2xpbWl0ID0gbGliYzo6cmxpbWl0IHsKICAgICAgICAgICAgICAgIHJsaW1fY3VyOiBpbmhlcml0ZWQucmxpbV9tYXgsCiAgICAgICAgICAgICAgICBybGltX21heDogaW5oZXJpdGVkLnJsaW1fbWF4LAogICAgICAgICAgICB9OwogICAgICAgICAgICBpZiBsaWJjOjpzZXRybGltaXQobGliYzo6UkxJTUlUX05PRklMRSwgJmZhbGxiYWNrX2xpbWl0KSA9PSAwIHsKICAgICAgICAgICAgICAgIGVwcmludGxuISgKICAgICAgICAgICAgICAgICAgICAic2VydmVyLWFkbWluLXJzOiBmYWlsZWQgdG8gc2V0IFJMSU1JVF9OT0ZJTEUgdG8ge1RBUkdFVF9OT0ZJTEVfTElNSVR9OyByYWlzZWQgc29mdCBsaW1pdCB0byBpbmhlcml0ZWQgaGFyZCBsaW1pdCB7fSBpbnN0ZWFkOiB7dGFyZ2V0X2Vycm9yfSIsCiAgICAgICAgICAgICAgICAgICAgaW5oZXJpdGVkLnJsaW1fbWF4CiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBlcHJpbnRsbiEoCiAgICAgICAgICAgICJzZXJ2ZXItYWRtaW4tcnM6IGZhaWxlZCB0byBzZXQgUkxJTUlUX05PRklMRSB0byB7VEFSR0VUX05PRklMRV9MSU1JVH06IHt0YXJnZXRfZXJyb3J9IgogICAgICAgICk7CiAgICB9Cn0KCiNbY2ZnKG5vdCh0YXJnZXRfZmFtaWx5ID0gInVuaXgiKSldCmZuIGNvbmZpZ3VyZV9vcGVuX2ZpbGVfbGltaXQoKSB7fQoKI1tjZmcoYWxsKHRhcmdldF9vcyA9ICJsaW51eCIsIHRhcmdldF9lbnYgPSAiZ251IikpXQpmbiBjb25maWd1cmVfYWxsb2NhdG9yX2Zvcl9sb3dfbWVtb3J5KCkgewogICAgLy8gc2VydmVyLWFkbWluLXJzIGlzIGxhdGVuY3ktbGlnaHQgYnV0IG1lbW9yeS1zZW5zaXRpdmUgb24gTkFTIHRhcmdldHMuCiAgICAvLyBLZWVwIGdsaWJjIGZyb20gY3JlYXRpbmcgbGFyZ2UgcGVyLXRocmVhZCBhcmVuYXMgYW5kIHJldHVybiBidXJzdHkgc3RhcnR1cAogICAgLy8gYWxsb2NhdGlvbnMgdG8gdGhlIGtlcm5lbCBtb3JlIGVhZ2VybHkuCiAgICAvLyBTQUZFVFk6IG1hbGxvcHQgbXV0YXRlcyBwcm9jZXNzLXdpZGUgZ2xpYmMgYWxsb2NhdG9yIHR1bmFibGVzIGJlZm9yZSB0aGUKICAgIC8vIFRva2lvIHJ1bnRpbWUgc3RhcnRzIGFuZCBkb2VzIG5vdCBhY2Nlc3MgUnVzdC1tYW5hZ2VkIG1lbW9yeS4KICAgIHVuc2FmZSB7CiAgICAgICAgbGliYzo6bWFsbG9wdChsaWJjOjpNX0FSRU5BX01BWCwgMSk7CiAgICAgICAgbGliYzo6bWFsbG9wdChsaWJjOjpNX1RSSU1fVEhSRVNIT0xELCAxMjggKiAxMDI0KTsKICAgICAgICBsaWJjOjptYWxsb3B0KGxpYmM6Ok1fTU1BUF9USFJFU0hPTEQsIDEyOCAqIDEwMjQpOwogICAgICAgIGxpYmM6Om1hbGxvcHQobGliYzo6TV9UT1BfUEFELCAwKTsKICAgIH0KfQoKI1tjZmcobm90KGFsbCh0YXJnZXRfb3MgPSAibGludXgiLCB0YXJnZXRfZW52ID0gImdudSIpKSldCmZuIGNvbmZpZ3VyZV9hbGxvY2F0b3JfZm9yX2xvd19tZW1vcnkoKSB7fQo=
+use std::env;
+
+const DEFAULT_TOKIO_WORKER_THREADS: usize = 2;
+const MAX_TOKIO_WORKER_THREADS: usize = 64;
+#[cfg(target_family = "unix")]
+const TARGET_NOFILE_LIMIT: u64 = 1_048_576;
+
+fn main() -> anyhow::Result<()> {
+    configure_open_file_limit();
+    configure_allocator_for_low_memory();
+    tokio::runtime::Builder::new_multi_thread()
+        .worker_threads(tokio_worker_threads())
+        .enable_all()
+        .build()?
+        .block_on(server_admin_rs::app::run())
+}
+
+fn tokio_worker_threads() -> usize {
+    env::var("FN_KNOCK_TOKIO_WORKER_THREADS")
+        .ok()
+        .and_then(|value| value.trim().parse::<usize>().ok())
+        .filter(|value| *value > 0)
+        .map(|value| value.min(MAX_TOKIO_WORKER_THREADS))
+        .unwrap_or_else(default_tokio_worker_threads)
+}
+
+fn default_tokio_worker_threads() -> usize {
+    std::thread::available_parallelism()
+        .map(|value| value.get().min(DEFAULT_TOKIO_WORKER_THREADS))
+        .unwrap_or(DEFAULT_TOKIO_WORKER_THREADS)
+}
+
+#[cfg(target_family = "unix")]
+fn configure_open_file_limit() {
+    let target = TARGET_NOFILE_LIMIT as libc::rlim_t;
+
+    // SAFETY: getrlimit/setrlimit operate on process resource limits. This runs
+    // before the async runtime starts so child tasks inherit the final value.
+    unsafe {
+        let target_limit = libc::rlimit {
+            rlim_cur: target,
+            rlim_max: target,
+        };
+        if libc::setrlimit(libc::RLIMIT_NOFILE, &target_limit) == 0 {
+            return;
+        }
+
+        let target_error = std::io::Error::last_os_error();
+        let mut inherited = libc::rlimit {
+            rlim_cur: 0,
+            rlim_max: 0,
+        };
+        if libc::getrlimit(libc::RLIMIT_NOFILE, &mut inherited) == 0
+            && inherited.rlim_cur < inherited.rlim_max
+        {
+            let fallback_limit = libc::rlimit {
+                rlim_cur: inherited.rlim_max,
+                rlim_max: inherited.rlim_max,
+            };
+            if libc::setrlimit(libc::RLIMIT_NOFILE, &fallback_limit) == 0 {
+                eprintln!(
+                    "server-admin-rs: failed to set RLIMIT_NOFILE to {TARGET_NOFILE_LIMIT}; raised soft limit to inherited hard limit {} instead: {target_error}",
+                    inherited.rlim_max
+                );
+                return;
+            }
+        }
+
+        eprintln!(
+            "server-admin-rs: failed to set RLIMIT_NOFILE to {TARGET_NOFILE_LIMIT}: {target_error}"
+        );
+    }
+}
+
+#[cfg(not(target_family = "unix"))]
+fn configure_open_file_limit() {}
+
+#[cfg(all(target_os = "linux", target_env = "gnu"))]
+fn configure_allocator_for_low_memory() {
+    // server-admin-rs is latency-light but memory-sensitive on NAS targets.
+    // Keep glibc from creating large per-thread arenas and return bursty startup
+    // allocations to the kernel more eagerly.
+    // SAFETY: mallopt mutates process-wide glibc allocator tunables before the
+    // Tokio runtime starts and does not access Rust-managed memory.
+    unsafe {
+        libc::mallopt(libc::M_ARENA_MAX, 1);
+        libc::mallopt(libc::M_TRIM_THRESHOLD, 128 * 1024);
+        libc::mallopt(libc::M_MMAP_THRESHOLD, 128 * 1024);
+        libc::mallopt(libc::M_TOP_PAD, 0);
+    }
+}
+
+#[cfg(not(all(target_os = "linux", target_env = "gnu")))]
+fn configure_allocator_for_low_memory() {}

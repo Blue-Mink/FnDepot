@@ -1,1 +1,343 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7CiAgQWN0aXZpdHksCiAgQ29weSwKICBEb3dubG9hZCwKICBMb2FkZXIyLAogIFJlZnJlc2hDdywKICBUcmFzaDIsCn0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IENvbmZpcm1EYW5nZXJQb3BvdmVyIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vQ29uZmlybURhbmdlclBvcG92ZXIudnVlIjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCBSdW50aW1lQ29tcG9uZW50Q2FyZCBmcm9tICIuL1J1bnRpbWVDb21wb25lbnRDYXJkLnZ1ZSI7CmltcG9ydCBHYXRld2F5TWVtb3J5RGlhbG9nIGZyb20gIi4vR2F0ZXdheU1lbW9yeURpYWxvZy52dWUiOwppbXBvcnQgUnVudGltZURlYnVnRGlhbG9nIGZyb20gIi4vUnVudGltZURlYnVnRGlhbG9nLnZ1ZSI7CmltcG9ydCB7CiAgZm9ybWF0UnVudGltZUJ5dGVzIGFzIGZvcm1hdEJ5dGVzLAogIGZvcm1hdFJ1bnRpbWVEYXRlIGFzIGZvcm1hdERhdGUsCiAgZm9ybWF0UnVudGltZUxvZ0xpbmUgYXMgZm9ybWF0TG9nTGluZSwKICBnZXRSdW50aW1lRXZlbnRDb21wb25lbnQgYXMgZXZlbnRDb21wb25lbnQsCiAgcnVudGltZVN0YXR1c0NsYXNzIGFzIHN0YXR1c0NsYXNzLAp9IGZyb20gIi4vcnVudGltZVByZXNlbnRhdGlvbiI7CmltcG9ydCB7IHVzZVJ1bnRpbWVIZWFsdGggfSBmcm9tICIuL3VzZVJ1bnRpbWVIZWFsdGgiOwoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoZGVmaW5lUHJvcHM8eyBhY3RpdmU/OiBib29sZWFuIH0+KCksIHsKICBhY3RpdmU6IHRydWUsCn0pOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgZGVidWdEaWFsb2dPcGVuID0gcmVmKGZhbHNlKTsKY29uc3QgewogIGNsZWFyUnVudGltZUxvZ3MsCiAgY29weWluZywKICBjb3B5RGlhZ25vc3RpY3MsCiAgZXhwb3J0aW5nLAogIGV4cG9ydERpYWdub3N0aWNzLAogIGZldGNoUnVudGltZSwKICBnYXRld2F5TWVtb3J5RGlhbG9nT3BlbiwKICBsb2FkUnVudGltZUxvZ3MsCiAgbG9hZGluZywKICBsb2dEaWFsb2dPcGVuLAogIGxvZ0VudHJpZXMsCiAgbG9nR2VuZXJhdGVkQXQsCiAgbG9nc0NsZWFyaW5nLAogIGxvZ3NMb2FkaW5nLAogIG9wZW5HYXRld2F5TWVtb3J5RGlhbG9nLAogIG9wZW5SdW50aW1lTG9ncywKICBwcm9jZXNzQ29tcG9uZW50cywKICByZWNlbnRFdmVudHMsCiAgc2VsZWN0ZWRMb2dDb21wb25lbnROYW1lLAogIHNlcnZpY2VDb21wb25lbnRzLAogIHNuYXBzaG90LAp9ID0gdXNlUnVudGltZUhlYWx0aCh7IGFjdGl2ZTogKCkgPT4gcHJvcHMuYWN0aXZlIH0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJmbGV4IGgtZnVsbCBmbGV4LWNvbCBnYXAtNCBvdmVyZmxvdy1hdXRvIHBiLTIiPgogICAgPGRpdgogICAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBpdGVtcy1zdHJldGNoIGp1c3RpZnktYmV0d2VlbiBnYXAtNCByb3VuZGVkLWxnIGJvcmRlciBiZy1iYWNrZ3JvdW5kIHAtNCBsZzpmbGV4LXJvdyBsZzppdGVtcy1jZW50ZXIiCiAgICA+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgPHNwYW4gY2xhc3M9InRleHQtYmFzZSBmb250LXNlbWlib2xkIj57ewogICAgICAgICAgICB0KCJhZG1pbi5ldmVudENlbnRlci5ydW50aW1lLm92ZXJhbGwiKQogICAgICAgICAgfX08L3NwYW4+CiAgICAgICAgICA8QmFkZ2UKICAgICAgICAgICAgdi1pZj0ic25hcHNob3QiCiAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgIDpjbGFzcz0ic3RhdHVzQ2xhc3Moc25hcHNob3Qub3ZlcmFsbF9zdGF0dXMpIgogICAgICAgICAgPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIHQoYGFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUuc3RhdHVzLiR7c25hcHNob3Qub3ZlcmFsbF9zdGF0dXN9YCkKICAgICAgICAgICAgfX0KICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICA8TG9hZGVyMgogICAgICAgICAgICB2LWVsc2UtaWY9ImxvYWRpbmciCiAgICAgICAgICAgIGNsYXNzPSJoLTQgdy00IGFuaW1hdGUtc3BpbiB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7IHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUubGFzdENoZWNrZWQiKSB9fToKICAgICAgICAgIHt7IGZvcm1hdERhdGUoc25hcHNob3Q/Lmxhc3RfY2hlY2tlZF9hdCkgfX0KICAgICAgICAgIDxzcGFuIHYtaWY9InNuYXBzaG90Ij4KICAgICAgICAgICAgwrcge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5zdXBlcnZpc29yIikgfX06CiAgICAgICAgICAgIHt7IHNuYXBzaG90LnN1cGVydmlzb3IgfX08L3NwYW4KICAgICAgICAgID4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0iZ3JpZCB3LWZ1bGwgZ3JpZC1jb2xzLTEgZ2FwLTIgc206Z3JpZC1jb2xzLTIgeGw6Z3JpZC1jb2xzLTQgbGc6dy1hdXRvIgogICAgICA+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBzaXplPSJzbSIgQGNsaWNrPSJkZWJ1Z0RpYWxvZ09wZW4gPSB0cnVlIj4KICAgICAgICAgIDxBY3Rpdml0eSBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5kZWJ1Zy5vcGVuIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICA6ZGlzYWJsZWQ9ImxvYWRpbmciCiAgICAgICAgICBAY2xpY2s9ImZldGNoUnVudGltZSgpIgogICAgICAgID4KICAgICAgICAgIDxSZWZyZXNoQ3cKICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCIKICAgICAgICAgICAgOmNsYXNzPSJ7ICdhbmltYXRlLXNwaW4nOiBsb2FkaW5nIH0iCiAgICAgICAgICAvPgogICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5yZWZyZXNoIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICA6ZGlzYWJsZWQ9ImNvcHlpbmciCiAgICAgICAgICBAY2xpY2s9ImNvcHlEaWFnbm9zdGljcyIKICAgICAgICA+CiAgICAgICAgICA8TG9hZGVyMiB2LWlmPSJjb3B5aW5nIiBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgIDxDb3B5IHYtZWxzZSBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5jb3B5IikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uIHNpemU9InNtIiA6ZGlzYWJsZWQ9ImV4cG9ydGluZyIgQGNsaWNrPSJleHBvcnREaWFnbm9zdGljcyI+CiAgICAgICAgICA8TG9hZGVyMiB2LWlmPSJleHBvcnRpbmciIGNsYXNzPSJtci0yIGgtNCB3LTQgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgICAgPERvd25sb2FkIHYtZWxzZSBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5leHBvcnQiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTQgeGw6Z3JpZC1jb2xzLTMiPgogICAgICA8c2VjdGlvbgogICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIG92ZXJmbG93LWhpZGRlbiByb3VuZGVkLWxnIGJvcmRlciB4bDpjb2wtc3Bhbi0yIgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzcz0iYm9yZGVyLWIgYmctbXV0ZWQvMjAgcHgtNCBweS0zIj4KICAgICAgICAgIDxoMyBjbGFzcz0iZm9udC1tZWRpdW0iPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5ldmVudENlbnRlci5ydW50aW1lLnByb2Nlc3NTZWN0aW9uIikgfX0KICAgICAgICAgIDwvaDM+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBmbGV4LTEgZ2FwLXB4IGJnLWJvcmRlciBtZDpncmlkLWNvbHMtMiI+CiAgICAgICAgICA8UnVudGltZUNvbXBvbmVudENhcmQKICAgICAgICAgICAgdi1mb3I9ImNvbXBvbmVudCBpbiBwcm9jZXNzQ29tcG9uZW50cyIKICAgICAgICAgICAgOmtleT0iY29tcG9uZW50LmlkIgogICAgICAgICAgICA6Y29tcG9uZW50PSJjb21wb25lbnQiCiAgICAgICAgICAgIHZhcmlhbnQ9InByb2Nlc3MiCiAgICAgICAgICAgIHNob3ctbG9nLWFjdGlvbgogICAgICAgICAgICA6c2hvdy1tZW1vcnktYWN0aW9uPSJjb21wb25lbnQuaWQgPT09ICdnYXRld2F5X3Byb2Nlc3MnIgogICAgICAgICAgICA6c2hvdy1kZWJ1Zy1hY3Rpb249ImNvbXBvbmVudC5pZCA9PT0gJ21hbmFnZW1lbnQnIgogICAgICAgICAgICBAdmlldy1kZWJ1Zz0iZGVidWdEaWFsb2dPcGVuID0gdHJ1ZSIKICAgICAgICAgICAgQHZpZXctbG9ncz0ib3BlblJ1bnRpbWVMb2dzIgogICAgICAgICAgICBAbWFuYWdlLW1lbW9yeT0ib3BlbkdhdGV3YXlNZW1vcnlEaWFsb2ciCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CgogICAgICA8c2VjdGlvbgogICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIG92ZXJmbG93LWhpZGRlbiByb3VuZGVkLWxnIGJvcmRlciB4bDpjb2wtc3Bhbi0xIgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzcz0iYm9yZGVyLWIgYmctbXV0ZWQvMjAgcHgtNCBweS0zIj4KICAgICAgICAgIDxoMyBjbGFzcz0iZm9udC1tZWRpdW0iPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5ldmVudENlbnRlci5ydW50aW1lLnNlcnZpY2VTZWN0aW9uIikgfX0KICAgICAgICAgIDwvaDM+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdgogICAgICAgICAgY2xhc3M9ImdyaWQgZmxleC0xIGdhcC1weCBiZy1ib3JkZXIgc206Z3JpZC1jb2xzLTIgeGw6YXV0by1yb3dzLWZyIHhsOmdyaWQtY29scy0xIgogICAgICAgID4KICAgICAgICAgIDxSdW50aW1lQ29tcG9uZW50Q2FyZAogICAgICAgICAgICB2LWZvcj0iY29tcG9uZW50IGluIHNlcnZpY2VDb21wb25lbnRzIgogICAgICAgICAgICA6a2V5PSJjb21wb25lbnQuaWQiCiAgICAgICAgICAgIDpjb21wb25lbnQ9ImNvbXBvbmVudCIKICAgICAgICAgICAgdmFyaWFudD0ic2VydmljZSIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KICAgIDwvZGl2PgoKICAgIDxkaXYgdi1pZj0ic25hcHNob3QiIGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBiZy1iYWNrZ3JvdW5kIHAtNCI+CiAgICAgIDxkaXYgY2xhc3M9Im1iLTMgZm9udC1tZWRpdW0iPgogICAgICAgIHt7IHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUubG9ncyIpIH19CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0zIHRleHQtc20gc206Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTQiPgogICAgICAgIDxkaXY+CiAgICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57ewogICAgICAgICAgICB0KCJhZG1pbi5ldmVudENlbnRlci5ydW50aW1lLmNvdmVyYWdlIikKICAgICAgICAgIH19PC9zcGFuPgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAge3sgZm9ybWF0RGF0ZShzbmFwc2hvdC5sb2dzLm9sZGVzdF9hdCkgfX0g4oCUCiAgICAgICAgICAgIHt7IGZvcm1hdERhdGUoc25hcHNob3QubG9ncy5uZXdlc3RfYXQpIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2PgogICAgICAgICAgPHNwYW4gY2xhc3M9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3sKICAgICAgICAgICAgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5kaXNrVXNhZ2UiKQogICAgICAgICAgfX08L3NwYW4+CiAgICAgICAgICA8ZGl2Pnt7IGZvcm1hdEJ5dGVzKHNuYXBzaG90LmxvZ3MuYnl0ZXNfdXNlZCkgfX0gLyA2IE1pQjwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXY+CiAgICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57ewogICAgICAgICAgICB0KCJhZG1pbi5ldmVudENlbnRlci5ydW50aW1lLmRyb3BwZWQiKQogICAgICAgICAgfX08L3NwYW4+CiAgICAgICAgICA8ZGl2Pnt7IHNuYXBzaG90LmxvZ3MuZHJvcHBlZF9pbmZvIH19PC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt7CiAgICAgICAgICAgIHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUuZGlyZWN0b3J5IikKICAgICAgICAgIH19PC9zcGFuPgogICAgICAgICAgPGRpdj57eyBzbmFwc2hvdC5sb2dzLmRpcmVjdG9yeSB9fTwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxkaXYgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIGJnLWJhY2tncm91bmQiPgogICAgICA8ZGl2IGNsYXNzPSJib3JkZXItYiBweC00IHB5LTMgZm9udC1tZWRpdW0iPgogICAgICAgIHt7IHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUucmVjZW50RXZlbnRzIikgfX0KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgdi1pZj0icmVjZW50RXZlbnRzLmxlbmd0aCIgY2xhc3M9ImRpdmlkZS15Ij4KICAgICAgICA8ZGl2CiAgICAgICAgICB2LWZvcj0iZXZlbnQgaW4gcmVjZW50RXZlbnRzIgogICAgICAgICAgOmtleT0iZXZlbnQuaWQiCiAgICAgICAgICBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIHB4LTQgcHktMyB0ZXh0LXNtIgogICAgICAgID4KICAgICAgICAgIDxCYWRnZSB2YXJpYW50PSJvdXRsaW5lIj57ewogICAgICAgICAgICB0KGBhZG1pbi5ldmVudENlbnRlci5ldmVudFR5cGVzLiR7ZXZlbnQudHlwZX1gKQogICAgICAgICAgfX08L0JhZGdlPgogICAgICAgICAgPHNwYW4gY2xhc3M9ImZvbnQtbWVkaXVtIj57ewogICAgICAgICAgICB0KGBhZG1pbi5ldmVudENlbnRlci5ydW50aW1lLmNvbXBvbmVudHMuJHtldmVudENvbXBvbmVudChldmVudCl9YCkKICAgICAgICAgIH19PC9zcGFuPgogICAgICAgICAgPHNwYW4gY2xhc3M9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3sKICAgICAgICAgICAgU3RyaW5nKGV2ZW50LnBheWxvYWQ/LnJlYXNvbl9jb2RlIHx8ICItIikKICAgICAgICAgIH19PC9zcGFuPgogICAgICAgICAgPHNwYW4gY2xhc3M9Im1sLWF1dG8gdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt7CiAgICAgICAgICAgIGZvcm1hdERhdGUoZXZlbnQuaGFwcGVuZWRfYXQpCiAgICAgICAgICB9fTwvc3Bhbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgdi1lbHNlIGNsYXNzPSJweC00IHB5LTggdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIHt7IHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUubm9FdmVudHMiKSB9fQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxEaWFsb2cgdi1tb2RlbDpvcGVuPSJsb2dEaWFsb2dPcGVuIj4KICAgICAgPERpYWxvZ0NvbnRlbnQgY2xhc3M9ImZsZXggbWF4LWgtWzg1dmhdIGZsZXgtY29sIHNtOm1heC13LTR4bCI+CiAgICAgICAgPERpYWxvZ0hlYWRlciBjbGFzcz0ic2hyaW5rLTAgcHItOCB0ZXh0LWxlZnQiPgogICAgICAgICAgPERpYWxvZ1RpdGxlPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUubG9nRGlhbG9nVGl0bGUiLCB7CiAgICAgICAgICAgICAgICBjb21wb25lbnQ6IHNlbGVjdGVkTG9nQ29tcG9uZW50TmFtZSwKICAgICAgICAgICAgICB9KQogICAgICAgICAgICB9fQogICAgICAgICAgPC9EaWFsb2dUaXRsZT4KICAgICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5sb2dEaWFsb2dEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgIDwvRGlhbG9nSGVhZGVyPgoKICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0iZmxleCBzaHJpbmstMCBmbGV4LWNvbCBpdGVtcy1zdHJldGNoIGp1c3RpZnktYmV0d2VlbiBnYXAtMiB0ZXh0LXhzIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciIKICAgICAgICA+CiAgICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5sb2dVcGRhdGVkQXQiKSB9fToKICAgICAgICAgICAge3sgZm9ybWF0RGF0ZShsb2dHZW5lcmF0ZWRBdCkgfX0KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ3JpZC1jb2xzLTIgZ2FwLTIgc206ZmxleCI+CiAgICAgICAgICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5jbGVhckxvZ1RpdGxlJykiCiAgICAgICAgICAgICAgOmRlc2NyaXB0aW9uPSIKICAgICAgICAgICAgICAgIHQoJ2FkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUuY2xlYXJMb2dEZXNjcmlwdGlvbicsIHsKICAgICAgICAgICAgICAgICAgY29tcG9uZW50OiBzZWxlY3RlZExvZ0NvbXBvbmVudE5hbWUsCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICIKICAgICAgICAgICAgICA6Y29uZmlybS10ZXh0PSJ0KCdhZG1pbi5ldmVudENlbnRlci5ydW50aW1lLmNvbmZpcm1DbGVhckxvZ3MnKSIKICAgICAgICAgICAgICA6bG9hZGluZz0ibG9nc0NsZWFyaW5nIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0ibG9nc0xvYWRpbmcgfHwgbG9nc0NsZWFyaW5nIgogICAgICAgICAgICAgIGNvbnRlbnQtY2xhc3M9InctODAgdGV4dC1sZWZ0IgogICAgICAgICAgICAgIDpvbi1jb25maXJtPSJjbGVhclJ1bnRpbWVMb2dzIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgICAgY2xhc3M9ImJvcmRlci1kZXN0cnVjdGl2ZS8yMCB0ZXh0LWRlc3RydWN0aXZlIGhvdmVyOmJnLWRlc3RydWN0aXZlLzUgaG92ZXI6dGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJsb2dzTG9hZGluZyB8fCBsb2dzQ2xlYXJpbmciCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxUcmFzaDIgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5jbGVhckxvZ3MiKSB9fQogICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJsb2dzTG9hZGluZyB8fCBsb2dzQ2xlYXJpbmciCiAgICAgICAgICAgICAgQGNsaWNrPSJsb2FkUnVudGltZUxvZ3MiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8UmVmcmVzaEN3CiAgICAgICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IgogICAgICAgICAgICAgICAgOmNsYXNzPSJ7ICdhbmltYXRlLXNwaW4nOiBsb2dzTG9hZGluZyB9IgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5yZWZyZXNoIikgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdgogICAgICAgICAgY2xhc3M9Im1pbi1oLTQ4IGZsZXgtMSBvdmVyZmxvdy1hdXRvIHJvdW5kZWQtbWQgYm9yZGVyIGJnLXNsYXRlLTk1MCBwLTMgZm9udC1tb25vIHRleHQteHMgbGVhZGluZy01IHRleHQtc2xhdGUtMTAwIgogICAgICAgID4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgdi1pZj0ibG9nc0xvYWRpbmcgJiYgIWxvZ0VudHJpZXMubGVuZ3RoIgogICAgICAgICAgICBjbGFzcz0iZmxleCBoLTQ4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LXNsYXRlLTQwMCIKICAgICAgICAgID4KICAgICAgICAgICAgPExvYWRlcjIgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4iIC8+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmV2ZW50Q2VudGVyLnJ1bnRpbWUubG9hZGluZ0xvZ3MiKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIHYtZWxzZS1pZj0iIWxvZ0VudHJpZXMubGVuZ3RoIgogICAgICAgICAgICBjbGFzcz0iZmxleCBoLTQ4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LXNsYXRlLTQwMCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZXZlbnRDZW50ZXIucnVudGltZS5ub0xvZ3MiKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IHYtZWxzZSBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIHYtZm9yPSIoZW50cnksIGluZGV4KSBpbiBsb2dFbnRyaWVzIgogICAgICAgICAgICAgIDprZXk9ImAke2VudHJ5LnRpbWV9LSR7ZW50cnkuZXZlbnR9LSR7aW5kZXh9YCIKICAgICAgICAgICAgICBjbGFzcz0id2hpdGVzcGFjZS1wcmUtd3JhcCBicmVhay1hbGwiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyBmb3JtYXRMb2dMaW5lKGVudHJ5KSB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgICA8L0RpYWxvZz4KCiAgICA8UnVudGltZURlYnVnRGlhbG9nIHYtbW9kZWw6b3Blbj0iZGVidWdEaWFsb2dPcGVuIiA6YWN0aXZlPSJwcm9wcy5hY3RpdmUiIC8+CgogICAgPEdhdGV3YXlNZW1vcnlEaWFsb2cKICAgICAgdi1tb2RlbDpvcGVuPSJnYXRld2F5TWVtb3J5RGlhbG9nT3BlbiIKICAgICAgQHVwZGF0ZWQ9ImZldGNoUnVudGltZShmYWxzZSkiCiAgICAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { ref } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  Activity,
+  Copy,
+  Download,
+  Loader2,
+  RefreshCw,
+  Trash2,
+} from "lucide-vue-next";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import RuntimeComponentCard from "./RuntimeComponentCard.vue";
+import GatewayMemoryDialog from "./GatewayMemoryDialog.vue";
+import RuntimeDebugDialog from "./RuntimeDebugDialog.vue";
+import {
+  formatRuntimeBytes as formatBytes,
+  formatRuntimeDate as formatDate,
+  formatRuntimeLogLine as formatLogLine,
+  getRuntimeEventComponent as eventComponent,
+  runtimeStatusClass as statusClass,
+} from "./runtimePresentation";
+import { useRuntimeHealth } from "./useRuntimeHealth";
+
+const props = withDefaults(defineProps<{ active?: boolean }>(), {
+  active: true,
+});
+const { t } = useI18n();
+const debugDialogOpen = ref(false);
+const {
+  clearRuntimeLogs,
+  copying,
+  copyDiagnostics,
+  exporting,
+  exportDiagnostics,
+  fetchRuntime,
+  gatewayMemoryDialogOpen,
+  loadRuntimeLogs,
+  loading,
+  logDialogOpen,
+  logEntries,
+  logGeneratedAt,
+  logsClearing,
+  logsLoading,
+  openGatewayMemoryDialog,
+  openRuntimeLogs,
+  processComponents,
+  recentEvents,
+  selectedLogComponentName,
+  serviceComponents,
+  snapshot,
+} = useRuntimeHealth({ active: () => props.active });
+</script>
+
+<template>
+  <div class="flex h-full flex-col gap-4 overflow-auto pb-2">
+    <div
+      class="flex flex-col items-stretch justify-between gap-4 rounded-lg border bg-background p-4 lg:flex-row lg:items-center"
+    >
+      <div class="space-y-1">
+        <div class="flex items-center gap-2">
+          <span class="text-base font-semibold">{{
+            t("admin.eventCenter.runtime.overall")
+          }}</span>
+          <Badge
+            v-if="snapshot"
+            variant="outline"
+            :class="statusClass(snapshot.overall_status)"
+          >
+            {{
+              t(`admin.eventCenter.runtime.status.${snapshot.overall_status}`)
+            }}
+          </Badge>
+          <Loader2
+            v-else-if="loading"
+            class="h-4 w-4 animate-spin text-muted-foreground"
+          />
+        </div>
+        <div class="text-sm text-muted-foreground">
+          {{ t("admin.eventCenter.runtime.lastChecked") }}:
+          {{ formatDate(snapshot?.last_checked_at) }}
+          <span v-if="snapshot">
+            · {{ t("admin.eventCenter.runtime.supervisor") }}:
+            {{ snapshot.supervisor }}</span
+          >
+        </div>
+      </div>
+      <div
+        class="grid w-full grid-cols-1 gap-2 sm:grid-cols-2 xl:grid-cols-4 lg:w-auto"
+      >
+        <Button variant="outline" size="sm" @click="debugDialogOpen = true">
+          <Activity class="mr-2 h-4 w-4" />
+          {{ t("admin.eventCenter.runtime.debug.open") }}
+        </Button>
+        <Button
+          variant="outline"
+          size="sm"
+          :disabled="loading"
+          @click="fetchRuntime()"
+        >
+          <RefreshCw
+            class="mr-2 h-4 w-4"
+            :class="{ 'animate-spin': loading }"
+          />
+          {{ t("admin.eventCenter.runtime.refresh") }}
+        </Button>
+        <Button
+          variant="outline"
+          size="sm"
+          :disabled="copying"
+          @click="copyDiagnostics"
+        >
+          <Loader2 v-if="copying" class="mr-2 h-4 w-4 animate-spin" />
+          <Copy v-else class="mr-2 h-4 w-4" />
+          {{ t("admin.eventCenter.runtime.copy") }}
+        </Button>
+        <Button size="sm" :disabled="exporting" @click="exportDiagnostics">
+          <Loader2 v-if="exporting" class="mr-2 h-4 w-4 animate-spin" />
+          <Download v-else class="mr-2 h-4 w-4" />
+          {{ t("admin.eventCenter.runtime.export") }}
+        </Button>
+      </div>
+    </div>
+
+    <div class="grid gap-4 xl:grid-cols-3">
+      <section
+        class="flex flex-col overflow-hidden rounded-lg border xl:col-span-2"
+      >
+        <div class="border-b bg-muted/20 px-4 py-3">
+          <h3 class="font-medium">
+            {{ t("admin.eventCenter.runtime.processSection") }}
+          </h3>
+        </div>
+        <div class="grid flex-1 gap-px bg-border md:grid-cols-2">
+          <RuntimeComponentCard
+            v-for="component in processComponents"
+            :key="component.id"
+            :component="component"
+            variant="process"
+            show-log-action
+            :show-memory-action="component.id === 'gateway_process'"
+            :show-debug-action="component.id === 'management'"
+            @view-debug="debugDialogOpen = true"
+            @view-logs="openRuntimeLogs"
+            @manage-memory="openGatewayMemoryDialog"
+          />
+        </div>
+      </section>
+
+      <section
+        class="flex flex-col overflow-hidden rounded-lg border xl:col-span-1"
+      >
+        <div class="border-b bg-muted/20 px-4 py-3">
+          <h3 class="font-medium">
+            {{ t("admin.eventCenter.runtime.serviceSection") }}
+          </h3>
+        </div>
+        <div
+          class="grid flex-1 gap-px bg-border sm:grid-cols-2 xl:auto-rows-fr xl:grid-cols-1"
+        >
+          <RuntimeComponentCard
+            v-for="component in serviceComponents"
+            :key="component.id"
+            :component="component"
+            variant="service"
+          />
+        </div>
+      </section>
+    </div>
+
+    <div v-if="snapshot" class="rounded-lg border bg-background p-4">
+      <div class="mb-3 font-medium">
+        {{ t("admin.eventCenter.runtime.logs") }}
+      </div>
+      <div class="grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-4">
+        <div>
+          <span class="text-muted-foreground">{{
+            t("admin.eventCenter.runtime.coverage")
+          }}</span>
+          <div>
+            {{ formatDate(snapshot.logs.oldest_at) }} —
+            {{ formatDate(snapshot.logs.newest_at) }}
+          </div>
+        </div>
+        <div>
+          <span class="text-muted-foreground">{{
+            t("admin.eventCenter.runtime.diskUsage")
+          }}</span>
+          <div>{{ formatBytes(snapshot.logs.bytes_used) }} / 6 MiB</div>
+        </div>
+        <div>
+          <span class="text-muted-foreground">{{
+            t("admin.eventCenter.runtime.dropped")
+          }}</span>
+          <div>{{ snapshot.logs.dropped_info }}</div>
+        </div>
+        <div>
+          <span class="text-muted-foreground">{{
+            t("admin.eventCenter.runtime.directory")
+          }}</span>
+          <div>{{ snapshot.logs.directory }}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rounded-lg border bg-background">
+      <div class="border-b px-4 py-3 font-medium">
+        {{ t("admin.eventCenter.runtime.recentEvents") }}
+      </div>
+      <div v-if="recentEvents.length" class="divide-y">
+        <div
+          v-for="event in recentEvents"
+          :key="event.id"
+          class="flex flex-wrap items-center gap-2 px-4 py-3 text-sm"
+        >
+          <Badge variant="outline">{{
+            t(`admin.eventCenter.eventTypes.${event.type}`)
+          }}</Badge>
+          <span class="font-medium">{{
+            t(`admin.eventCenter.runtime.components.${eventComponent(event)}`)
+          }}</span>
+          <span class="text-muted-foreground">{{
+            String(event.payload?.reason_code || "-")
+          }}</span>
+          <span class="ml-auto text-xs text-muted-foreground">{{
+            formatDate(event.happened_at)
+          }}</span>
+        </div>
+      </div>
+      <div v-else class="px-4 py-8 text-center text-sm text-muted-foreground">
+        {{ t("admin.eventCenter.runtime.noEvents") }}
+      </div>
+    </div>
+
+    <Dialog v-model:open="logDialogOpen">
+      <DialogContent class="flex max-h-[85vh] flex-col sm:max-w-4xl">
+        <DialogHeader class="shrink-0 pr-8 text-left">
+          <DialogTitle>
+            {{
+              t("admin.eventCenter.runtime.logDialogTitle", {
+                component: selectedLogComponentName,
+              })
+            }}
+          </DialogTitle>
+          <DialogDescription>
+            {{ t("admin.eventCenter.runtime.logDialogDescription") }}
+          </DialogDescription>
+        </DialogHeader>
+
+        <div
+          class="flex shrink-0 flex-col items-stretch justify-between gap-2 text-xs sm:flex-row sm:items-center"
+        >
+          <span class="text-muted-foreground">
+            {{ t("admin.eventCenter.runtime.logUpdatedAt") }}:
+            {{ formatDate(logGeneratedAt) }}
+          </span>
+          <div class="grid grid-cols-2 gap-2 sm:flex">
+            <ConfirmDangerPopover
+              :title="t('admin.eventCenter.runtime.clearLogTitle')"
+              :description="
+                t('admin.eventCenter.runtime.clearLogDescription', {
+                  component: selectedLogComponentName,
+                })
+              "
+              :confirm-text="t('admin.eventCenter.runtime.confirmClearLogs')"
+              :loading="logsClearing"
+              :disabled="logsLoading || logsClearing"
+              content-class="w-80 text-left"
+              :on-confirm="clearRuntimeLogs"
+            >
+              <template #trigger>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  class="border-destructive/20 text-destructive hover:bg-destructive/5 hover:text-destructive"
+                  :disabled="logsLoading || logsClearing"
+                >
+                  <Trash2 class="mr-2 h-4 w-4" />
+                  {{ t("admin.eventCenter.runtime.clearLogs") }}
+                </Button>
+              </template>
+            </ConfirmDangerPopover>
+            <Button
+              variant="outline"
+              size="sm"
+              :disabled="logsLoading || logsClearing"
+              @click="loadRuntimeLogs"
+            >
+              <RefreshCw
+                class="mr-2 h-4 w-4"
+                :class="{ 'animate-spin': logsLoading }"
+              />
+              {{ t("admin.eventCenter.runtime.refresh") }}
+            </Button>
+          </div>
+        </div>
+
+        <div
+          class="min-h-48 flex-1 overflow-auto rounded-md border bg-slate-950 p-3 font-mono text-xs leading-5 text-slate-100"
+        >
+          <div
+            v-if="logsLoading && !logEntries.length"
+            class="flex h-48 items-center justify-center text-slate-400"
+          >
+            <Loader2 class="mr-2 h-4 w-4 animate-spin" />
+            {{ t("admin.eventCenter.runtime.loadingLogs") }}
+          </div>
+          <div
+            v-else-if="!logEntries.length"
+            class="flex h-48 items-center justify-center text-slate-400"
+          >
+            {{ t("admin.eventCenter.runtime.noLogs") }}
+          </div>
+          <div v-else class="space-y-1">
+            <div
+              v-for="(entry, index) in logEntries"
+              :key="`${entry.time}-${entry.event}-${index}`"
+              class="whitespace-pre-wrap break-all"
+            >
+              {{ formatLogLine(entry) }}
+            </div>
+          </div>
+        </div>
+      </DialogContent>
+    </Dialog>
+
+    <RuntimeDebugDialog v-model:open="debugDialogOpen" :active="props.active" />
+
+    <GatewayMemoryDialog
+      v-model:open="gatewayMemoryDialogOpen"
+      @updated="fetchRuntime(false)"
+    />
+  </div>
+</template>

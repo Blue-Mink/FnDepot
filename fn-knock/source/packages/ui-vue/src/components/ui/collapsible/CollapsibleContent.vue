@@ -1,1 +1,15 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgQ29sbGFwc2libGVDb250ZW50UHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBDb2xsYXBzaWJsZUNvbnRlbnQgfSBmcm9tICJyZWthLXVpIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxDb2xsYXBzaWJsZUNvbnRlbnRQcm9wcz4oKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8Q29sbGFwc2libGVDb250ZW50CiAgICBkYXRhLXNsb3Q9ImNvbGxhcHNpYmxlLWNvbnRlbnQiCiAgICB2LWJpbmQ9InByb3BzIgogID4KICAgIDxzbG90IC8+CiAgPC9Db2xsYXBzaWJsZUNvbnRlbnQ+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { CollapsibleContentProps } from "reka-ui"
+import { CollapsibleContent } from "reka-ui"
+
+const props = defineProps<CollapsibleContentProps>()
+</script>
+
+<template>
+  <CollapsibleContent
+    data-slot="collapsible-content"
+    v-bind="props"
+  >
+    <slot />
+  </CollapsibleContent>
+</template>

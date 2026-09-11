@@ -1,1 +1,11 @@
-aW1wb3J0ICIuL2Jyb3dzZXItYWRtaW4iOwppbXBvcnQgewogIGNyZWF0ZVNjb3BlZEZuS25vY2tJMThuLAogIHR5cGUgQ3JlYXRlRm5Lbm9ja0kxOG5PcHRpb25zLAp9IGZyb20gIi4vdnVlLXJ1bnRpbWUiOwoKZXhwb3J0ICogZnJvbSAiLi92dWUtcnVudGltZSI7CgpleHBvcnQgY29uc3QgY3JlYXRlRm5Lbm9ja0kxOG4gPSAoCiAgb3B0aW9uczogT21pdDxDcmVhdGVGbktub2NrSTE4bk9wdGlvbnMsICJzY29wZSI+ICYgeyBzY29wZT86ICJhZG1pbiIgfSA9IHt9LAopID0+IGNyZWF0ZVNjb3BlZEZuS25vY2tJMThuKCJhZG1pbiIsIG9wdGlvbnMpOwo=
+import "./browser-admin";
+import {
+  createScopedFnKnockI18n,
+  type CreateFnKnockI18nOptions,
+} from "./vue-runtime";
+
+export * from "./vue-runtime";
+
+export const createFnKnockI18n = (
+  options: Omit<CreateFnKnockI18nOptions, "scope"> & { scope?: "admin" } = {},
+) => createScopedFnKnockI18n("admin", options);

@@ -1,1 +1,295 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiBleHBvcnRfYmFja3VwX2FyY2hpdmUoc3RhdGU6ICZBcHBTdGF0ZSkgLT4gYW55aG93OjpSZXN1bHQ8QmFja3VwQXJjaGl2ZT4gewogICAgbGV0IGFyY2hpdmVfd29ya19ndWFyZCA9IHN0YXRlCiAgICAgICAgLm1haW50ZW5hbmNlCiAgICAgICAgLmJhY2t1cF9hcmNoaXZlX3dvcmtfbG9jawogICAgICAgIC5jbG9uZSgpCiAgICAgICAgLmxvY2tfb3duZWQoKQogICAgICAgIC5hd2FpdDsKICAgIGxldCBwYXlsb2FkID0gZXhwb3J0X2JhY2t1cF9wYXlsb2FkKHN0YXRlKS5hd2FpdD87CiAgICBydW5fYmFja3VwX2FyY2hpdmVfd29yayhhcmNoaXZlX3dvcmtfZ3VhcmQsIG1vdmUgfHwgewogICAgICAgIGxldCBleHBvcnRlZF9hdCA9IHBheWxvYWQKICAgICAgICAgICAgLmdldCgiZXhwb3J0ZWRfYXQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLnVud3JhcF9vcigiIikKICAgICAgICAgICAgLnRvX3N0cmluZygpOwogICAgICAgIGxldCBmaWxlbmFtZSA9IGJ1aWxkX2JhY2t1cF9maWxlbmFtZSgmZXhwb3J0ZWRfYXQpOwogICAgICAgIGxldCBidWZmZXIgPSBjcmVhdGVfcGFzc3dvcmRfcHJvdGVjdGVkX2pzb25femlwKAogICAgICAgICAgICBLTk9DS19CQUNLVVBfSlNPTl9GSUxFTkFNRSwKICAgICAgICAgICAgJnBheWxvYWQsCiAgICAgICAgICAgIEtOT0NLX0JBQ0tVUF9QQVNTV09SRCwKICAgICAgICAgICAgdGltZV91dGlsczo6cGFyc2VfaXNvX21zKCZleHBvcnRlZF9hdCkudW53cmFwX29yX2Vsc2UodGltZV91dGlsczo6bm93X21zKSwKICAgICAgICApPzsKICAgICAgICBlbnN1cmVfYmFja3VwX2V4cG9ydF9zaXplKGJ1ZmZlci5sZW4oKSk/OwogICAgICAgIE9rKEJhY2t1cEFyY2hpdmUgewogICAgICAgICAgICBidWZmZXIsCiAgICAgICAgICAgIGV4cG9ydGVkX2F0LAogICAgICAgICAgICBmaWxlbmFtZSwKICAgICAgICB9KQogICAgfSkKICAgIC5hd2FpdD8KfQoKcHViKHN1cGVyKSBhc3luYyBmbiBydW5fYmFja3VwX2FyY2hpdmVfd29yazxULCBGPigKICAgIGd1YXJkOiB0b2tpbzo6c3luYzo6T3duZWRNdXRleEd1YXJkPCgpPiwKICAgIHdvcms6IEYsCikgLT4gUmVzdWx0PFQsIHRva2lvOjp0YXNrOjpKb2luRXJyb3I+CndoZXJlCiAgICBUOiBTZW5kICsgJ3N0YXRpYywKICAgIEY6IEZuT25jZSgpIC0+IFQgKyBTZW5kICsgJ3N0YXRpYywKewogICAgdG9raW86OnRhc2s6OnNwYXduX2Jsb2NraW5nKG1vdmUgfHwgewogICAgICAgIC8vIEJsb2NraW5nIHdvcmsgb3V0bGl2ZXMgYSBjYW5jZWxsZWQgY2FsbGVyLiBJdHMgYXJjaGl2ZSBwZXJtaXQgbXVzdAogICAgICAgIC8vIGRvIHNvIHRvbywgaW5jbHVkaW5nIHdoaWxlIHF1ZXVlZCBpbiBUb2tpbydzIGJsb2NraW5nIHBvb2wuCiAgICAgICAgbGV0IF9ndWFyZCA9IGd1YXJkOwogICAgICAgIHdvcmsoKQogICAgfSkKICAgIC5hd2FpdAp9CgpwdWIoc3VwZXIpIGZuIGVuc3VyZV9iYWNrdXBfZXhwb3J0X3NpemUoc2l6ZTogdXNpemUpIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBpZiBzaXplID4gTUFYX0JBQ0tVUF9BUkNISVZFX1NJWkUgewogICAgICAgIGFueWhvdzo6YmFpbCEoIkJhY2t1cCBleHBvcnQgaXMgdG9vIGxhcmdlIik7CiAgICB9CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBleHBvcnRfYmFja3VwX3BheWxvYWQoc3RhdGU6ICZBcHBTdGF0ZSkgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgIC8vIEFuY2hvciBUVEwgYWdpbmcgYmVmb3JlIHRoZSBzbmFwc2hvdCBzdGFydHMgc28gdGltZSBzcGVudCByZWFkaW5nIGFuZAogICAgLy8gcGFja2FnaW5nIHRoZSBhcmNoaXZlIGNhbiBuZXZlciBleHRlbmQgYSBrZXkncyBsaWZldGltZSBvbiByZXN0b3JlLgogICAgbGV0IGV4cG9ydGVkX2F0ID0gdGltZV91dGlsczo6bm93X2lzbygpOwogICAgbGV0IG11dCBlbnRyaWVzID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5leHBvcnRfYmFja3VwX2VudHJpZXNfYnlfcHJlZml4X2xpbWl0ZWQoCiAgICAgICAgICAgIEtOT0NLX0JBQ0tVUF9QUkVGSVgsCiAgICAgICAgICAgIE1BWF9CQUNLVVBfQVJDSElWRV9TSVpFLAogICAgICAgICAgICBzaG91bGRfZXhwb3J0X2JhY2t1cF9rZXksCiAgICAgICAgKQogICAgICAgIC5hd2FpdD87CiAgICBmb3IgZW50cnkgaW4gJmVudHJpZXMgewogICAgICAgIGlmICFpc19zdXBwb3J0ZWRfYmFja3VwX3R5cGUoZW50cnkuZ2V0KCJ0eXBlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpIHsKICAgICAgICAgICAgbGV0IGtleSA9IGVudHJ5LmdldCgia2V5IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKTsKICAgICAgICAgICAgYW55aG93OjpiYWlsISgKICAgICAgICAgICAgICAgICJVbnN1cHBvcnRlZCBSZWRpcyB0eXBlIGZvciBiYWNrdXA6IHt9ICh7fSkiLAogICAgICAgICAgICAgICAgZW50cnkKICAgICAgICAgICAgICAgICAgICAuZ2V0KCJ0eXBlIikKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAudW53cmFwX29yKCJ1bmtub3duIiksCiAgICAgICAgICAgICAgICBrZXkKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICB9CiAgICBlbnRyaWVzLnNvcnRfYnkofGxlZnQsIHJpZ2h0fCB7CiAgICAgICAgbm9kZV9sb2NhbGVfY29tcGFyZV9vcmRlcmluZygKICAgICAgICAgICAgbGVmdC5nZXQoImtleSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIiksCiAgICAgICAgICAgIHJpZ2h0LmdldCgia2V5IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKSwKICAgICAgICApCiAgICB9KTsKICAgIGxldCBwcm90ZWN0ZWRfY3JlZGVudGlhbHMgPSBleHBvcnRfcHJvdGVjdGVkX2NyZWRlbnRpYWxzKHN0YXRlKS5hd2FpdD87CiAgICBsZXQgbXV0IHBheWxvYWQgPSBqc29uISh7CiAgICAgICAgInZlcnNpb24iOiBBUFBfQkFDS1VQX1NDSEVNQV9WRVJTSU9OLAogICAgICAgICJhcHBfdmVyc2lvbiI6IEFQUF9MT0NBTF9WRVJTSU9OLAogICAgICAgICJwcmVmaXgiOiBLTk9DS19CQUNLVVBfUFJFRklYLAogICAgICAgICJleHBvcnRlZF9hdCI6IGV4cG9ydGVkX2F0LAogICAgICAgICJlbnRyeV9jb3VudCI6IGVudHJpZXMubGVuKCksCiAgICB9KTsKICAgIC8vIGpzb24hIHNlcmlhbGl6ZXMgaXRzIGV4cHJlc3Npb25zIGJ5IHJlZmVyZW5jZSwgd2hpY2ggd291bGQgY29weSBldmVyeQogICAgLy8gc3RyaW5nIGluIHRoZSBzbmFwc2hvdC4gVHJhbnNmZXIgdGhlIGFscmVhZHktb3duZWQgdmFsdWVzIGluc3RlYWQuCiAgICBwYXlsb2FkWyJlbnRyaWVzIl0gPSBWYWx1ZTo6QXJyYXkoZW50cmllcyk7CiAgICBwYXlsb2FkWyJwcm90ZWN0ZWRfY3JlZGVudGlhbHMiXSA9IHByb3RlY3RlZF9jcmVkZW50aWFsczsKICAgIE9rKHBheWxvYWQpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gZXhwb3J0X2JhY2t1cF9hcmNoaXZlX3RvX2RpcmVjdG9yeSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCikgLT4gUmVzdWx0PFZhbHVlLCBCYWNrdXBJbXBvcnRFcnJvcj4gewogICAgbGV0IGFyY2hpdmUgPSBleHBvcnRfYmFja3VwX2FyY2hpdmUoc3RhdGUpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBCYWNrdXBJbXBvcnRFcnJvcjo6aW50ZXJuYWwoZXJyb3IudG9fc3RyaW5nKCkpKT87CiAgICBsZXQgZGlyZWN0b3J5ID0gZW5zdXJlX2JhY2t1cF9kaXJlY3RvcnkoKS5hd2FpdD87CiAgICBsZXQgKGZpbGVuYW1lLCBmaWxlX3BhdGgpID0gdW5pcXVlX2JhY2t1cF9kZXN0aW5hdGlvbigmZGlyZWN0b3J5LCAmYXJjaGl2ZS5maWxlbmFtZSkuYXdhaXQ7CiAgICBsZXQgdGVtcF9wYXRoID0gZGlyZWN0b3J5LmpvaW4oZm9ybWF0ISgiLm1hbnVhbC1iYWNrdXAte30udG1wIiwgVXVpZDo6bmV3X3Y0KCkpKTsKICAgIGxldCB3cml0ZV9yZXN1bHQgPSBhc3luYyB7CiAgICAgICAgbGV0IG11dCBvcHRpb25zID0gZnM6Ok9wZW5PcHRpb25zOjpuZXcoKTsKICAgICAgICBvcHRpb25zLndyaXRlKHRydWUpLmNyZWF0ZV9uZXcodHJ1ZSk7CiAgICAgICAgbGV0IG11dCBmaWxlID0gb3B0aW9ucy5vcGVuKCZ0ZW1wX3BhdGgpLmF3YWl0PzsKICAgICAgICBmb3IgY2h1bmsgaW4gYXJjaGl2ZS5idWZmZXIuY2h1bmtzKCkgewogICAgICAgICAgICBmaWxlLndyaXRlX2FsbChjaHVuaykuYXdhaXQ/OwogICAgICAgIH0KICAgICAgICBmaWxlLnN5bmNfYWxsKCkuYXdhaXQ/OwogICAgICAgIGRyb3AoZmlsZSk7CiAgICAgICAgZnM6OnJlbmFtZSgmdGVtcF9wYXRoLCAmZmlsZV9wYXRoKS5hd2FpdD87CiAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPSBzeW5jX2JhY2t1cF9kaXJlY3RvcnkoJmRpcmVjdG9yeSkuYXdhaXQgewogICAgICAgICAgICBsZXQgXyA9IGZzOjpyZW1vdmVfZmlsZSgmZmlsZV9wYXRoKS5hd2FpdDsKICAgICAgICAgICAgbGV0IF8gPSBzeW5jX2JhY2t1cF9kaXJlY3RvcnkoJmRpcmVjdG9yeSkuYXdhaXQ7CiAgICAgICAgICAgIHJldHVybiBFcnIoZXJyb3IpOwogICAgICAgIH0KICAgICAgICBPazo6PCgpLCBpbzo6RXJyb3I+KCgpKQogICAgfQogICAgLmF3YWl0OwogICAgaWYgbGV0IEVycihlcnJvcikgPSB3cml0ZV9yZXN1bHQgewogICAgICAgIGxldCBfID0gZnM6OnJlbW92ZV9maWxlKCZ0ZW1wX3BhdGgpLmF3YWl0OwogICAgICAgIHJldHVybiBFcnIoQmFja3VwSW1wb3J0RXJyb3I6OmludGVybmFsKGVycm9yLnRvX3N0cmluZygpKSk7CiAgICB9CiAgICBsZXQgbWV0YWRhdGEgPSBmczo6bWV0YWRhdGEoJmZpbGVfcGF0aCkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IEJhY2t1cEltcG9ydEVycm9yOjppbnRlcm5hbChlcnJvci50b19zdHJpbmcoKSkpPzsKICAgIE9rKGpzb24hKHsKICAgICAgICAiZmlsZW5hbWUiOiBmaWxlbmFtZSwKICAgICAgICAicmVsYXRpdmVQYXRoIjogZmlsZW5hbWUsCiAgICAgICAgImZpbGVQYXRoIjogZmlsZV9wYXRoLnRvX3N0cmluZ19sb3NzeSgpLAogICAgICAgICJzaXplIjogbWV0YWRhdGEubGVuKCksCiAgICAgICAgImV4cG9ydGVkQXQiOiBhcmNoaXZlLmV4cG9ydGVkX2F0LAogICAgfSkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gdW5pcXVlX2JhY2t1cF9kZXN0aW5hdGlvbigKICAgIGRpcmVjdG9yeTogJlBhdGgsCiAgICByZXF1ZXN0ZWRfZmlsZW5hbWU6ICZzdHIsCikgLT4gKFN0cmluZywgUGF0aEJ1ZikgewogICAgbGV0IHJlcXVlc3RlZF9wYXRoID0gZGlyZWN0b3J5LmpvaW4ocmVxdWVzdGVkX2ZpbGVuYW1lKTsKICAgIGlmICFmczo6dHJ5X2V4aXN0cygmcmVxdWVzdGVkX3BhdGgpLmF3YWl0LnVud3JhcF9vcih0cnVlKSB7CiAgICAgICAgcmV0dXJuIChyZXF1ZXN0ZWRfZmlsZW5hbWUudG9fc3RyaW5nKCksIHJlcXVlc3RlZF9wYXRoKTsKICAgIH0KICAgIGxldCBwYXRoID0gUGF0aDo6bmV3KHJlcXVlc3RlZF9maWxlbmFtZSk7CiAgICBsZXQgc3RlbSA9IHBhdGgKICAgICAgICAuZmlsZV9zdGVtKCkKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS50b19zdHIoKSkKICAgICAgICAudW53cmFwX29yKCJmbi1rbm9jay1iYWNrdXAiKTsKICAgIGxldCBleHRlbnNpb24gPSBwYXRoCiAgICAgICAgLmV4dGVuc2lvbigpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUudG9fc3RyKCkpCiAgICAgICAgLnVud3JhcF9vcigia25vY2siKTsKICAgIGxldCBmaWxlbmFtZSA9IGZvcm1hdCEoIntzdGVtfS17fS57fSIsIFV1aWQ6Om5ld192NCgpLCBleHRlbnNpb24pOwogICAgbGV0IGRlc3RpbmF0aW9uID0gZGlyZWN0b3J5LmpvaW4oJmZpbGVuYW1lKTsKICAgIChmaWxlbmFtZSwgZGVzdGluYXRpb24pCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc3luY19iYWNrdXBfZGlyZWN0b3J5KGRpcmVjdG9yeTogJlBhdGgpIC0+IGlvOjpSZXN1bHQ8KCk+IHsKICAgICNbY2ZnKHVuaXgpXQogICAgewogICAgICAgIGZzOjpGaWxlOjpvcGVuKGRpcmVjdG9yeSkuYXdhaXQ/LnN5bmNfYWxsKCkuYXdhaXQKICAgIH0KICAgICNbY2ZnKG5vdCh1bml4KSldCiAgICB7CiAgICAgICAgbGV0IF8gPSBkaXJlY3Rvcnk7CiAgICAgICAgT2soKCkpCiAgICB9Cn0KCnN0cnVjdCBBZG1pdHRlZEJhY2t1cEJ5dGVzIHsKICAgIGJ1ZmZlcjogVmVjPHU4PiwKICAgIF9hZG1pc3Npb246IHJvdXRlczo6QmFja3VwQWRtaXNzaW9uLAp9CgppbXBsIEFzUmVmPFt1OF0+IGZvciBBZG1pdHRlZEJhY2t1cEJ5dGVzIHsKICAgIGZuIGFzX3JlZigmc2VsZikgLT4gJlt1OF0gewogICAgICAgICZzZWxmLmJ1ZmZlcgogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGJpbmFyeV9hcmNoaXZlX3Jlc3BvbnNlKAogICAgYXJjaGl2ZTogQmFja3VwQXJjaGl2ZSwKICAgIGFkbWlzc2lvbjogcm91dGVzOjpCYWNrdXBBZG1pc3Npb24sCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBSZXNwb25zZSB7CiAgICBSZXNwb25zZTo6YnVpbGRlcigpCiAgICAgICAgLnN0YXR1cyhTdGF0dXNDb2RlOjpPSykKICAgICAgICAuaGVhZGVyKGhlYWRlcjo6Q09OVEVOVF9UWVBFLCAiYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtIikKICAgICAgICAuaGVhZGVyKGhlYWRlcjo6Q09OVEVOVF9MRU5HVEgsIGFyY2hpdmUuYnVmZmVyLmxlbigpKQogICAgICAgIC5oZWFkZXIoCiAgICAgICAgICAgIGhlYWRlcjo6Q09OVEVOVF9ESVNQT1NJVElPTiwKICAgICAgICAgICAgZm9ybWF0ISgiYXR0YWNobWVudDsgZmlsZW5hbWU9XCJ7fVwiIiwgYXJjaGl2ZS5maWxlbmFtZSksCiAgICAgICAgKQogICAgICAgIC5oZWFkZXIoaGVhZGVyOjpDQUNIRV9DT05UUk9MLCAibm8tc3RvcmUiKQogICAgICAgIC8vIFRoZSBpdGVyYXRvciBvd25zIGFkbWlzc2lvbiB1bnRpbCB0aGUgYm9keSBpcyBkcm9wcGVkLCBhbmQgZWFjaAogICAgICAgIC8vIHlpZWxkZWQgYWxsb2NhdGlvbiByZXRhaW5zIGl0cyBvd24gY2xvbmUuIEEgc2xvdyBib2R5IG9yIGFueSBjbG9uZWQKICAgICAgICAvLyBmcmFtZSB0aGVyZWZvcmUga2VlcHMgdGhlIHNhbWUgc2luZ2xlLW9wZXJhdGlvbiBsaW1pdCBpbiBmb3JjZS4KICAgICAgICAuYm9keShCb2R5Ojpmcm9tX3N0cmVhbSh0b2tpb19zdHJlYW06Oml0ZXIoCiAgICAgICAgICAgIGFyY2hpdmUuYnVmZmVyLmludG9fY2h1bmtzKCkuaW50b19pdGVyKCkubWFwKG1vdmUgfGJ1ZmZlcnwgewogICAgICAgICAgICAgICAgT2s6OjxfLCBpbzo6RXJyb3I+KGJ5dGVzOjpCeXRlczo6ZnJvbV9vd25lcihBZG1pdHRlZEJhY2t1cEJ5dGVzIHsKICAgICAgICAgICAgICAgICAgICBidWZmZXIsCiAgICAgICAgICAgICAgICAgICAgX2FkbWlzc2lvbjogYWRtaXNzaW9uLmNsb25lKCksCiAgICAgICAgICAgICAgICB9KSkKICAgICAgICAgICAgfSksCiAgICAgICAgKSkpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHxffCB7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0KHRyYW5zbGF0b3IsICJidWlsZFJlc3BvbnNlRmFpbGVkIiksCiAgICAgICAgICAgICkKICAgICAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX2JhY2t1cF9maWxlbmFtZShleHBvcnRlZF9hdDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGxldCBub3JtYWxpemVkID0gaWYgZXhwb3J0ZWRfYXQudHJpbSgpLmlzX2VtcHR5KCkgewogICAgICAgIHRpbWVfdXRpbHM6Om5vd19pc28oKQogICAgfSBlbHNlIHsKICAgICAgICBleHBvcnRlZF9hdC50b19zdHJpbmcoKQogICAgfTsKICAgIGZvcm1hdCEoCiAgICAgICAgImZuLWtub2NrLWJhY2t1cC17fXt9IiwKICAgICAgICBub3JtYWxpemVkLnJlcGxhY2UoWyc6JywgJy4nXSwgIi0iKSwKICAgICAgICBLTk9DS19CQUNLVVBfRVhURU5TSU9OCiAgICApCn0KCnB1YihzdXBlcikgZm4gc2hvdWxkX2V4cG9ydF9iYWNrdXBfa2V5KGtleTogJnN0cikgLT4gYm9vbCB7CiAgICAhQkFDS1VQX0VYQ0xVREVEX0tFWV9QUkVGSVhFUwogICAgICAgIC5pdGVyKCkKICAgICAgICAuYW55KHxwcmVmaXh8IGtleS5zdGFydHNfd2l0aChwcmVmaXgpKQogICAgICAgICYmICFtYXRjaGVzX2V4Y2x1ZGVkX2JhY2t1cF9wYXR0ZXJuKGtleSkKfQoKcHViKHN1cGVyKSBmbiBzaG91bGRfc25hcHNob3RfYmFja3VwX2ltcG9ydF9rZXkoa2V5OiAmc3RyKSAtPiBib29sIHsKICAgIHNob3VsZF9leHBvcnRfYmFja3VwX2tleShrZXkpCiAgICAgICAgfHwgbWF0Y2hlcyEoCiAgICAgICAgICAgIGtleSwKICAgICAgICAgICAgQVVUT01BVElDX0JBQ0tVUF9DT05GSUdfS0VZIHwgQVVUT01BVElDX0JBQ0tVUF9SVU5USU1FX0tFWSB8IGJhY2t1cF9lbWFpbDo6RU1BSUxfS0VZCiAgICAgICAgKQp9CgpwdWIoc3VwZXIpIGZuIG1hdGNoZXNfZXhjbHVkZWRfYmFja3VwX3BhdHRlcm4oa2V5OiAmc3RyKSAtPiBib29sIHsKICAgIG1hdGNoZXMhKAogICAgICAgIGtleSwKICAgICAgICAiZm5fa25vY2s6YWNtZTpydW50aW1lLWxvY2siCiAgICAgICAgICAgIHwgImZuX2tub2NrOmNvbmZpZzpob3N0X21hcHBpbmdzOmdlbmVyYXRpb24iCiAgICAgICAgICAgIHwgImZuX2tub2NrOmRkbnM6bGFzdF9pcCIKICAgICAgICAgICAgfCAiZm5fa25vY2s6ZGRuczpsYXN0X2NoZWNrIgogICAgICAgICAgICB8ICJmbl9rbm9jazpkZG5zOmxvZ3MiCiAgICAgICAgICAgIHwgImZuX2tub2NrOmRkbnM6bG9nczpzZXEiCiAgICApIHx8IGtleS5lbmRzX3dpdGgoIjpsb2NrIikKICAgICAgICB8fCBrZXkuZW5kc193aXRoKCI6bGVhc2UiKQogICAgICAgIHx8IGtleS5lbmRzX3dpdGgoIjpydW50aW1lLWxvY2siKQogICAgICAgIHx8IGlzX2RkbnNfdjJfcnVudGltZV9rZXkoa2V5KQogICAgICAgIHx8IGlzX2ZycGNfdjJfcnVudGltZV9rZXkoa2V5KQp9CgpwdWIoc3VwZXIpIGZuIGlzX2RkbnNfdjJfcnVudGltZV9rZXkoa2V5OiAmc3RyKSAtPiBib29sIHsKICAgIGxldCBwYXJ0cyA9IGtleS5zcGxpdCgnOicpLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBwYXJ0cy5sZW4oKSA9PSA2CiAgICAgICAgJiYgcGFydHNbMF0gPT0gImZuX2tub2NrIgogICAgICAgICYmIHBhcnRzWzFdID09ICJkZG5zIgogICAgICAgICYmIHBhcnRzWzJdID09ICJ2MiIKICAgICAgICAmJiBwYXJ0c1szXSA9PSAidGFyZ2V0IgogICAgICAgICYmIG1hdGNoZXMhKHBhcnRzWzVdLCAibGFzdF9pcCIgfCAibGFzdF9jaGVjayIpCn0KCnB1YihzdXBlcikgZm4gaXNfZnJwY192Ml9ydW50aW1lX2tleShrZXk6ICZzdHIpIC0+IGJvb2wgewogICAgbGV0IHBhcnRzID0ga2V5LnNwbGl0KCc6JykuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIHBhcnRzLmxlbigpID49IDYKICAgICAgICAmJiBwYXJ0c1swXSA9PSAiZm5fa25vY2siCiAgICAgICAgJiYgcGFydHNbMV0gPT0gImZycGMiCiAgICAgICAgJiYgcGFydHNbMl0gPT0gInYyIgogICAgICAgICYmIHBhcnRzWzNdID09ICJpbnN0YW5jZSIKICAgICAgICAmJiBtYXRjaGVzISgmcGFydHNbNS4uXSwgWyJydW50aW1lIl0gfCBbImxvZ3MiXSB8IFsibG9ncyIsICJzZXEiXSkKfQoKcHViKHN1cGVyKSBmbiBpc19zdXBwb3J0ZWRfYmFja3VwX3R5cGUodmFsdWU6IE9wdGlvbjwmc3RyPikgLT4gYm9vbCB7CiAgICBtYXRjaGVzISgKICAgICAgICB2YWx1ZSwKICAgICAgICBTb21lKCJzdHJpbmciIHwgImhhc2giIHwgImxpc3QiIHwgInNldCIgfCAienNldCIgfCAic3RyZWFtIikKICAgICkKfQo=
+use super::*;
+
+pub(super) async fn export_backup_archive(state: &AppState) -> anyhow::Result<BackupArchive> {
+    let archive_work_guard = state
+        .maintenance
+        .backup_archive_work_lock
+        .clone()
+        .lock_owned()
+        .await;
+    let payload = export_backup_payload(state).await?;
+    run_backup_archive_work(archive_work_guard, move || {
+        let exported_at = payload
+            .get("exported_at")
+            .and_then(Value::as_str)
+            .unwrap_or("")
+            .to_string();
+        let filename = build_backup_filename(&exported_at);
+        let buffer = create_password_protected_json_zip(
+            KNOCK_BACKUP_JSON_FILENAME,
+            &payload,
+            KNOCK_BACKUP_PASSWORD,
+            time_utils::parse_iso_ms(&exported_at).unwrap_or_else(time_utils::now_ms),
+        )?;
+        ensure_backup_export_size(buffer.len())?;
+        Ok(BackupArchive {
+            buffer,
+            exported_at,
+            filename,
+        })
+    })
+    .await?
+}
+
+pub(super) async fn run_backup_archive_work<T, F>(
+    guard: tokio::sync::OwnedMutexGuard<()>,
+    work: F,
+) -> Result<T, tokio::task::JoinError>
+where
+    T: Send + 'static,
+    F: FnOnce() -> T + Send + 'static,
+{
+    tokio::task::spawn_blocking(move || {
+        // Blocking work outlives a cancelled caller. Its archive permit must
+        // do so too, including while queued in Tokio's blocking pool.
+        let _guard = guard;
+        work()
+    })
+    .await
+}
+
+pub(super) fn ensure_backup_export_size(size: usize) -> anyhow::Result<()> {
+    if size > MAX_BACKUP_ARCHIVE_SIZE {
+        anyhow::bail!("Backup export is too large");
+    }
+    Ok(())
+}
+
+pub(super) async fn export_backup_payload(state: &AppState) -> anyhow::Result<Value> {
+    // Anchor TTL aging before the snapshot starts so time spent reading and
+    // packaging the archive can never extend a key's lifetime on restore.
+    let exported_at = time_utils::now_iso();
+    let mut entries = state
+        .storage
+        .store
+        .export_backup_entries_by_prefix_limited(
+            KNOCK_BACKUP_PREFIX,
+            MAX_BACKUP_ARCHIVE_SIZE,
+            should_export_backup_key,
+        )
+        .await?;
+    for entry in &entries {
+        if !is_supported_backup_type(entry.get("type").and_then(Value::as_str)) {
+            let key = entry.get("key").and_then(Value::as_str).unwrap_or("");
+            anyhow::bail!(
+                "Unsupported Redis type for backup: {} ({})",
+                entry
+                    .get("type")
+                    .and_then(Value::as_str)
+                    .unwrap_or("unknown"),
+                key
+            );
+        }
+    }
+    entries.sort_by(|left, right| {
+        node_locale_compare_ordering(
+            left.get("key").and_then(Value::as_str).unwrap_or(""),
+            right.get("key").and_then(Value::as_str).unwrap_or(""),
+        )
+    });
+    let protected_credentials = export_protected_credentials(state).await?;
+    let mut payload = json!({
+        "version": APP_BACKUP_SCHEMA_VERSION,
+        "app_version": APP_LOCAL_VERSION,
+        "prefix": KNOCK_BACKUP_PREFIX,
+        "exported_at": exported_at,
+        "entry_count": entries.len(),
+    });
+    // json! serializes its expressions by reference, which would copy every
+    // string in the snapshot. Transfer the already-owned values instead.
+    payload["entries"] = Value::Array(entries);
+    payload["protected_credentials"] = protected_credentials;
+    Ok(payload)
+}
+
+pub(super) async fn export_backup_archive_to_directory(
+    state: &AppState,
+) -> Result<Value, BackupImportError> {
+    let archive = export_backup_archive(state)
+        .await
+        .map_err(|error| BackupImportError::internal(error.to_string()))?;
+    let directory = ensure_backup_directory().await?;
+    let (filename, file_path) = unique_backup_destination(&directory, &archive.filename).await;
+    let temp_path = directory.join(format!(".manual-backup-{}.tmp", Uuid::new_v4()));
+    let write_result = async {
+        let mut options = fs::OpenOptions::new();
+        options.write(true).create_new(true);
+        let mut file = options.open(&temp_path).await?;
+        for chunk in archive.buffer.chunks() {
+            file.write_all(chunk).await?;
+        }
+        file.sync_all().await?;
+        drop(file);
+        fs::rename(&temp_path, &file_path).await?;
+        if let Err(error) = sync_backup_directory(&directory).await {
+            let _ = fs::remove_file(&file_path).await;
+            let _ = sync_backup_directory(&directory).await;
+            return Err(error);
+        }
+        Ok::<(), io::Error>(())
+    }
+    .await;
+    if let Err(error) = write_result {
+        let _ = fs::remove_file(&temp_path).await;
+        return Err(BackupImportError::internal(error.to_string()));
+    }
+    let metadata = fs::metadata(&file_path)
+        .await
+        .map_err(|error| BackupImportError::internal(error.to_string()))?;
+    Ok(json!({
+        "filename": filename,
+        "relativePath": filename,
+        "filePath": file_path.to_string_lossy(),
+        "size": metadata.len(),
+        "exportedAt": archive.exported_at,
+    }))
+}
+
+pub(super) async fn unique_backup_destination(
+    directory: &Path,
+    requested_filename: &str,
+) -> (String, PathBuf) {
+    let requested_path = directory.join(requested_filename);
+    if !fs::try_exists(&requested_path).await.unwrap_or(true) {
+        return (requested_filename.to_string(), requested_path);
+    }
+    let path = Path::new(requested_filename);
+    let stem = path
+        .file_stem()
+        .and_then(|value| value.to_str())
+        .unwrap_or("fn-knock-backup");
+    let extension = path
+        .extension()
+        .and_then(|value| value.to_str())
+        .unwrap_or("knock");
+    let filename = format!("{stem}-{}.{}", Uuid::new_v4(), extension);
+    let destination = directory.join(&filename);
+    (filename, destination)
+}
+
+pub(super) async fn sync_backup_directory(directory: &Path) -> io::Result<()> {
+    #[cfg(unix)]
+    {
+        fs::File::open(directory).await?.sync_all().await
+    }
+    #[cfg(not(unix))]
+    {
+        let _ = directory;
+        Ok(())
+    }
+}
+
+struct AdmittedBackupBytes {
+    buffer: Vec<u8>,
+    _admission: routes::BackupAdmission,
+}
+
+impl AsRef<[u8]> for AdmittedBackupBytes {
+    fn as_ref(&self) -> &[u8] {
+        &self.buffer
+    }
+}
+
+pub(super) fn binary_archive_response(
+    archive: BackupArchive,
+    admission: routes::BackupAdmission,
+    translator: &Translator,
+) -> Response {
+    Response::builder()
+        .status(StatusCode::OK)
+        .header(header::CONTENT_TYPE, "application/octet-stream")
+        .header(header::CONTENT_LENGTH, archive.buffer.len())
+        .header(
+            header::CONTENT_DISPOSITION,
+            format!("attachment; filename=\"{}\"", archive.filename),
+        )
+        .header(header::CACHE_CONTROL, "no-store")
+        // The iterator owns admission until the body is dropped, and each
+        // yielded allocation retains its own clone. A slow body or any cloned
+        // frame therefore keeps the same single-operation limit in force.
+        .body(Body::from_stream(tokio_stream::iter(
+            archive.buffer.into_chunks().into_iter().map(move |buffer| {
+                Ok::<_, io::Error>(bytes::Bytes::from_owner(AdmittedBackupBytes {
+                    buffer,
+                    _admission: admission.clone(),
+                }))
+            }),
+        )))
+        .unwrap_or_else(|_| {
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                maintenance_backup_text(translator, "buildResponseFailed"),
+            )
+        })
+}
+
+pub(super) fn build_backup_filename(exported_at: &str) -> String {
+    let normalized = if exported_at.trim().is_empty() {
+        time_utils::now_iso()
+    } else {
+        exported_at.to_string()
+    };
+    format!(
+        "fn-knock-backup-{}{}",
+        normalized.replace([':', '.'], "-"),
+        KNOCK_BACKUP_EXTENSION
+    )
+}
+
+pub(super) fn should_export_backup_key(key: &str) -> bool {
+    !BACKUP_EXCLUDED_KEY_PREFIXES
+        .iter()
+        .any(|prefix| key.starts_with(prefix))
+        && !matches_excluded_backup_pattern(key)
+}
+
+pub(super) fn should_snapshot_backup_import_key(key: &str) -> bool {
+    should_export_backup_key(key)
+        || matches!(
+            key,
+            AUTOMATIC_BACKUP_CONFIG_KEY | AUTOMATIC_BACKUP_RUNTIME_KEY | backup_email::EMAIL_KEY
+        )
+}
+
+pub(super) fn matches_excluded_backup_pattern(key: &str) -> bool {
+    matches!(
+        key,
+        "fn_knock:acme:runtime-lock"
+            | "fn_knock:config:host_mappings:generation"
+            | "fn_knock:ddns:last_ip"
+            | "fn_knock:ddns:last_check"
+            | "fn_knock:ddns:logs"
+            | "fn_knock:ddns:logs:seq"
+    ) || key.ends_with(":lock")
+        || key.ends_with(":lease")
+        || key.ends_with(":runtime-lock")
+        || is_ddns_v2_runtime_key(key)
+        || is_frpc_v2_runtime_key(key)
+}
+
+pub(super) fn is_ddns_v2_runtime_key(key: &str) -> bool {
+    let parts = key.split(':').collect::<Vec<_>>();
+    parts.len() == 6
+        && parts[0] == "fn_knock"
+        && parts[1] == "ddns"
+        && parts[2] == "v2"
+        && parts[3] == "target"
+        && matches!(parts[5], "last_ip" | "last_check")
+}
+
+pub(super) fn is_frpc_v2_runtime_key(key: &str) -> bool {
+    let parts = key.split(':').collect::<Vec<_>>();
+    parts.len() >= 6
+        && parts[0] == "fn_knock"
+        && parts[1] == "frpc"
+        && parts[2] == "v2"
+        && parts[3] == "instance"
+        && matches!(&parts[5..], ["runtime"] | ["logs"] | ["logs", "seq"])
+}
+
+pub(super) fn is_supported_backup_type(value: Option<&str>) -> bool {
+    matches!(
+        value,
+        Some("string" | "hash" | "list" | "set" | "zset" | "stream")
+    )
+}

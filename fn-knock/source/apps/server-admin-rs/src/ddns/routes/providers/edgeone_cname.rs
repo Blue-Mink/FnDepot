@@ -1,1 +1,214 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGVkZ2VvbmVfY25hbWVfY2F0YWxvZ19lbnRyeSgpIC0+IFZhbHVlIHsKICAgIGxldCBtdXQgdmFsdWUgPSBwcm92aWRlcigKICAgICAgICAiZWRnZW9uZV9jbmFtZSIsCiAgICAgICAgIkVkZ2VPbmUgQ05BTUUiLAogICAgICAgIHZlYyFbCiAgICAgICAgICAgIGZpZWxkKCJzZWNyZXRfaWQiLCAiU2VjcmV0SWQiLCAidGV4dCIsICJBS0lELi4uIiwgdHJ1ZSksCiAgICAgICAgICAgIGZpZWxkKCJzZWNyZXRfa2V5IiwgIlNlY3JldEtleSIsICJwYXNzd29yZCIsICJTZWNyZXRLZXkiLCB0cnVlKSwKICAgICAgICAgICAgZmllbGQoInpvbmVfaWQiLCAiWm9uZSBJRCIsICJ0ZXh0IiwgInpvbmUteHh4eHh4eHgiLCB0cnVlKSwKICAgICAgICAgICAgZmllbGQoImRvbWFpbiIsICJEb21haW4iLCAidGV4dCIsICJob21lLmV4YW1wbGUuY29tIiwgdHJ1ZSksCiAgICAgICAgICAgIHNlbGVjdF9maWVsZCgKICAgICAgICAgICAgICAgIERETlNfRURHRU9ORV9PVkVSU0VBU19BQ0NFU1NfRklFTEQsCiAgICAgICAgICAgICAgICAiT3ZlcnNlYXMgYWNjZXNzIGNvbnRyb2wiLAogICAgICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgICAgICB2ZWMhWygiT2ZmIiwgIm9mZiIpLCAoIkJsb2NrIG92ZXJzZWFzIElQcyIsICJibG9ja19vdmVyc2VhcyIpXSwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgZmllbGQoCiAgICAgICAgICAgICAgICAiZW5kcG9pbnQiLAogICAgICAgICAgICAgICAgIkFQSSBFbmRwb2ludCIsCiAgICAgICAgICAgICAgICAidGV4dCIsCiAgICAgICAgICAgICAgICAiaHR0cHM6Ly90ZW8udGVuY2VudGNsb3VkYXBpLmNvbSIsCiAgICAgICAgICAgICAgICBmYWxzZSwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgZmllbGQoInJlZ2lvbiIsICJSZWdpb24iLCAidGV4dCIsICIiLCBmYWxzZSksCiAgICAgICAgXSwKICAgICk7CiAgICBpZiBsZXQgU29tZShvYmplY3QpID0gdmFsdWUuYXNfb2JqZWN0X211dCgpIHsKICAgICAgICBvYmplY3QuaW5zZXJ0KAogICAgICAgICAgICAiY2FwYWJpbGl0aWVzIi50b19zdHJpbmcoKSwKICAgICAgICAgICAganNvbiEoeyAiYWRkcmVzc01vZGUiOiAic2luZ2xlX2FkZHJlc3MiIH0pLAogICAgICAgICk7CiAgICB9CiAgICB2YWx1ZQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgYXN5bmMgZm4gdXBkYXRlX2VkZ2VvbmVfY25hbWUoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIGNvbmZpZzogJkhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgaHR0cF9vcHRpb25zOiAmREROU0h0dHBDbGllbnRPcHRpb25zLAogICAgaXB2NDogT3B0aW9uPCZzdHI+LAogICAgaXB2NjogT3B0aW9uPCZzdHI+LAopIC0+IGFueWhvdzo6UmVzdWx0PERETlNQcm92aWRlclVwZGF0ZVJlc3VsdD4gewogICAgbGV0IHNlY3JldF9pZCA9IGNvbmZpZ192YWx1ZShjb25maWcsICJzZWNyZXRfaWQiKTsKICAgIGxldCBzZWNyZXRfa2V5ID0gY29uZmlnX3ZhbHVlKGNvbmZpZywgInNlY3JldF9rZXkiKTsKICAgIGxldCB6b25lX2lkID0gY29uZmlnX3ZhbHVlKGNvbmZpZywgInpvbmVfaWQiKTsKICAgIGxldCBkb21haW4gPSBub3JtYWxpemVfZG9tYWluKCZjb25maWdfdmFsdWUoY29uZmlnLCAiZG9tYWluIikpOwogICAgaWYgc2VjcmV0X2lkLmlzX2VtcHR5KCkgfHwgc2VjcmV0X2tleS5pc19lbXB0eSgpIHx8IHpvbmVfaWQuaXNfZW1wdHkoKSB8fCBkb21haW4uaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE9rKHByb3ZpZGVyX2ZhaWx1cmUoZGRuc190ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAicHJvdmlkZXJzLmVkZ2VvbmVfY25hbWUuY29uZmlnSW5jb21wbGV0ZSIsCiAgICAgICAgICAgICZbXSwKICAgICAgICApKSk7CiAgICB9CiAgICBsZXQgZGVzaXJlZCA9IG1hdGNoIChpcHY0LCBpcHY2KSB7CiAgICAgICAgKFNvbWUoXyksIFNvbWUoXykpID0+IHsKICAgICAgICAgICAgcmV0dXJuIE9rKHByb3ZpZGVyX2ZhaWx1cmUoZGRuc190ZXh0KAogICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJwcm92aWRlcnMuZWRnZW9uZV9jbmFtZS5zaW5nbGVBZGRyZXNzT25seSIsCiAgICAgICAgICAgICAgICAmW10sCiAgICAgICAgICAgICkpKTsKICAgICAgICB9CiAgICAgICAgKFNvbWUodmFsdWUpLCBOb25lKSA9PiAoImlwdjQiLCB2YWx1ZSksCiAgICAgICAgKE5vbmUsIFNvbWUodmFsdWUpKSA9PiAoImlwdjYiLCB2YWx1ZSksCiAgICAgICAgKE5vbmUsIE5vbmUpID0+IHsKICAgICAgICAgICAgcmV0dXJuIE9rKHByb3ZpZGVyX2ZhaWx1cmUoZGRuc190ZXh0KAogICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJwcm92aWRlcnMuZWRnZW9uZV9jbmFtZS5ub0lwQXZhaWxhYmxlIiwKICAgICAgICAgICAgICAgICZbXSwKICAgICAgICAgICAgKSkpOwogICAgICAgIH0KICAgIH07CiAgICBsZXQgY2xpZW50ID0gZGRuc19odHRwX2NsaWVudCh0cmFuc2xhdG9yLCBodHRwX29wdGlvbnMpPzsKICAgIGxldCBsaXN0ID0gZWRnZW9uZV9yZXF1ZXN0KAogICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgJmNsaWVudCwKICAgICAgICBjb25maWcsCiAgICAgICAgJnNlY3JldF9pZCwKICAgICAgICAmc2VjcmV0X2tleSwKICAgICAgICAiRGVzY3JpYmVBY2NlbGVyYXRpb25Eb21haW5zIiwKICAgICAgICBqc29uISh7CiAgICAgICAgICAgICJab25lSWQiOiB6b25lX2lkLAogICAgICAgICAgICAiT2Zmc2V0IjogMCwKICAgICAgICAgICAgIkxpbWl0IjogMjAsCiAgICAgICAgICAgICJNYXRjaCI6ICJhbGwiLAogICAgICAgICAgICAiRmlsdGVycyI6IFt7CiAgICAgICAgICAgICAgICAiTmFtZSI6ICJkb21haW4tbmFtZSIsCiAgICAgICAgICAgICAgICAiVmFsdWVzIjogW2RvbWFpbl0sCiAgICAgICAgICAgICAgICAiRnV6enkiOiBmYWxzZQogICAgICAgICAgICB9XQogICAgICAgIH0pLAogICAgKQogICAgLmF3YWl0PzsKICAgIGxldCBleGlzdGluZyA9IGxpc3QKICAgICAgICAuZ2V0KCJBY2NlbGVyYXRpb25Eb21haW5zIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5mbGF0dGVuKCkKICAgICAgICAuZmluZCh8aXRlbXwgewogICAgICAgICAgICBub3JtYWxpemVfZG9tYWluKAogICAgICAgICAgICAgICAgaXRlbS5nZXQoIkRvbWFpbk5hbWUiKQogICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICAgICApID09IGRvbWFpbgogICAgICAgIH0pCiAgICAgICAgLmNsb25lZCgpOwogICAgbGV0IFNvbWUoZXhpc3RpbmcpID0gZXhpc3RpbmcgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKHByb3ZpZGVyX2ZhaWx1cmUoZGRuc190ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAicHJvdmlkZXJzLmVkZ2VvbmVfY25hbWUuZG9tYWluTm90Rm91bmQiLAogICAgICAgICAgICAmWygiZG9tYWluIiwgZG9tYWluLmNsb25lKCkpXSwKICAgICAgICApKSk7CiAgICB9OwogICAgbGV0IG9yaWdpbl9kZXRhaWwgPSBleGlzdGluZy5nZXQoIk9yaWdpbkRldGFpbCIpLnVud3JhcF9vcigmVmFsdWU6Ok51bGwpOwogICAgbGV0IG9yaWdpbl90eXBlID0gb3JpZ2luX2RldGFpbAogICAgICAgIC5nZXQoIk9yaWdpblR5cGUiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCiAgICAgICAgLnRyaW0oKQogICAgICAgIC50b19hc2NpaV91cHBlcmNhc2UoKTsKICAgIGlmICFvcmlnaW5fdHlwZS5pc19lbXB0eSgpICYmIG9yaWdpbl90eXBlICE9ICJJUF9ET01BSU4iIHsKICAgICAgICByZXR1cm4gT2socHJvdmlkZXJfZmFpbHVyZShkZG5zX3RleHQoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJwcm92aWRlcnMuZWRnZW9uZV9jbmFtZS51bnN1cHBvcnRlZE9yaWdpblR5cGUiLAogICAgICAgICAgICAmWygib3JpZ2luVHlwZSIsIG9yaWdpbl90eXBlKV0sCiAgICAgICAgKSkpOwogICAgfQogICAgbGV0IGN1cnJlbnRfb3JpZ2luID0gb3JpZ2luX2RldGFpbAogICAgICAgIC5nZXQoIk9yaWdpbiIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICAudHJpbSgpOwogICAgaWYgY3VycmVudF9vcmlnaW4gPT0gZGVzaXJlZC4xIHsKICAgICAgICByZXR1cm4gT2soREROU1Byb3ZpZGVyVXBkYXRlUmVzdWx0IHsKICAgICAgICAgICAgc3VjY2VzczogdHJ1ZSwKICAgICAgICAgICAgbWVzc2FnZTogZGRuc190ZXh0KHRyYW5zbGF0b3IsICJwcm92aWRlcnMuZWRnZW9uZV9jbmFtZS5vcmlnaW5VbmNoYW5nZWQiLCAmW10pLAogICAgICAgIH0pOwogICAgfQogICAgbGV0IHJhd19ob3N0X2hlYWRlciA9IG9yaWdpbl9kZXRhaWwKICAgICAgICAuZ2V0KCJIb3N0SGVhZGVyIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgLm1hcChzdHI6OnRvX3N0cmluZyk7CiAgICBsZXQgaG9zdF9oZWFkZXIgPSByYXdfaG9zdF9oZWFkZXIKICAgICAgICAuYXNfZGVyZWYoKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCBpc192YWxpZF9lZGdlb25lX2hvc3RfaGVhZGVyKHZhbHVlKSkKICAgICAgICAubWFwKG5vcm1hbGl6ZV9kb21haW4pOwogICAgbGV0IGlnbm9yZWRfaW52YWxpZF9ob3N0X2hlYWRlciA9IHJhd19ob3N0X2hlYWRlci5pc19zb21lKCkgJiYgaG9zdF9oZWFkZXIuaXNfbm9uZSgpOwogICAgbGV0IG1vZGlmeV9yZXN1bHQgPSBlZGdlb25lX3JlcXVlc3QoCiAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAmY2xpZW50LAogICAgICAgIGNvbmZpZywKICAgICAgICAmc2VjcmV0X2lkLAogICAgICAgICZzZWNyZXRfa2V5LAogICAgICAgICJNb2RpZnlBY2NlbGVyYXRpb25Eb21haW4iLAogICAgICAgIGpzb24hKHsKICAgICAgICAgICAgIlpvbmVJZCI6IHpvbmVfaWQsCiAgICAgICAgICAgICJEb21haW5OYW1lIjogZG9tYWluLAogICAgICAgICAgICAiT3JpZ2luSW5mbyI6IGVkZ2VvbmVfY25hbWVfb3JpZ2luX2luZm8oZGVzaXJlZC4xLCBob3N0X2hlYWRlci5hc19kZXJlZigpKQogICAgICAgIH0pLAogICAgKQogICAgLmF3YWl0OwogICAgaWYgbGV0IEVycihlcnJvcikgPSBtb2RpZnlfcmVzdWx0IHsKICAgICAgICBpZiBob3N0X2hlYWRlci5pc19ub25lKCkgfHwgIWlzX2VkZ2VvbmVfaG9zdF9oZWFkZXJfZm9ybWF0X2Vycm9yKCZlcnJvcikgewogICAgICAgICAgICByZXR1cm4gRXJyKGVycm9yKTsKICAgICAgICB9CiAgICAgICAgZWRnZW9uZV9yZXF1ZXN0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAmY2xpZW50LAogICAgICAgICAgICBjb25maWcsCiAgICAgICAgICAgICZzZWNyZXRfaWQsCiAgICAgICAgICAgICZzZWNyZXRfa2V5LAogICAgICAgICAgICAiTW9kaWZ5QWNjZWxlcmF0aW9uRG9tYWluIiwKICAgICAgICAgICAganNvbiEoewogICAgICAgICAgICAgICAgIlpvbmVJZCI6IHpvbmVfaWQsCiAgICAgICAgICAgICAgICAiRG9tYWluTmFtZSI6IGRvbWFpbiwKICAgICAgICAgICAgICAgICJPcmlnaW5JbmZvIjogZWRnZW9uZV9jbmFtZV9vcmlnaW5faW5mbyhkZXNpcmVkLjEsIE5vbmUpCiAgICAgICAgICAgIH0pLAogICAgICAgICkKICAgICAgICAuYXdhaXQ/OwogICAgfQogICAgT2soREROU1Byb3ZpZGVyVXBkYXRlUmVzdWx0IHsKICAgICAgICBzdWNjZXNzOiB0cnVlLAogICAgICAgIG1lc3NhZ2U6IGRkbnNfdGV4dCgKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgaWYgaWdub3JlZF9pbnZhbGlkX2hvc3RfaGVhZGVyIHsKICAgICAgICAgICAgICAgICJwcm92aWRlcnMuZWRnZW9uZV9jbmFtZS5zdWNjZXNzV2l0aEludmFsaWRIb3N0SGVhZGVySWdub3JlZCIKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICJwcm92aWRlcnMuZWRnZW9uZV9jbmFtZS5zdWNjZXNzIgogICAgICAgICAgICB9LAogICAgICAgICAgICAmW10sCiAgICAgICAgKSwKICAgIH0pCn0KCnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBmbiBlZGdlb25lX2NuYW1lX29yaWdpbl9pbmZvKAogICAgb3JpZ2luOiAmc3RyLAogICAgaG9zdF9oZWFkZXI6IE9wdGlvbjwmc3RyPiwKKSAtPiBWYWx1ZSB7CiAgICBsZXQgbXV0IHZhbHVlID0ganNvbiEoewogICAgICAgICJPcmlnaW5UeXBlIjogIklQX0RPTUFJTiIsCiAgICAgICAgIk9yaWdpbiI6IG9yaWdpbgogICAgfSk7CiAgICBpZiBsZXQgU29tZShob3N0X2hlYWRlcikgPSBob3N0X2hlYWRlci5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkgewogICAgICAgIGluc2VydF9qc29uX2ZpZWxkKCZtdXQgdmFsdWUsICJIb3N0SGVhZGVyIiwganNvbiEoaG9zdF9oZWFkZXIpKTsKICAgIH0KICAgIHZhbHVlCn0KCnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBmbiBpc19lZGdlb25lX2hvc3RfaGVhZGVyX2Zvcm1hdF9lcnJvcihlcnJvcjogJmFueWhvdzo6RXJyb3IpIC0+IGJvb2wgewogICAgbGV0IG1lc3NhZ2UgPSBlcnJvci50b19zdHJpbmcoKTsKICAgIG1lc3NhZ2UuY29udGFpbnMoIkludmFsaWRIb3N0SGVhZGVyRm9ybWF0IikgfHwgbWVzc2FnZS5jb250YWlucygiSG9zdEhlYWRlckludmFsaWQiKQp9Cg==
+use super::*;
+
+pub(in crate::ddns::routes) fn edgeone_cname_catalog_entry() -> Value {
+    let mut value = provider(
+        "edgeone_cname",
+        "EdgeOne CNAME",
+        vec![
+            field("secret_id", "SecretId", "text", "AKID...", true),
+            field("secret_key", "SecretKey", "password", "SecretKey", true),
+            field("zone_id", "Zone ID", "text", "zone-xxxxxxxx", true),
+            field("domain", "Domain", "text", "home.example.com", true),
+            select_field(
+                DDNS_EDGEONE_OVERSEAS_ACCESS_FIELD,
+                "Overseas access control",
+                false,
+                vec![("Off", "off"), ("Block overseas IPs", "block_overseas")],
+            ),
+            field(
+                "endpoint",
+                "API Endpoint",
+                "text",
+                "https://teo.tencentcloudapi.com",
+                false,
+            ),
+            field("region", "Region", "text", "", false),
+        ],
+    );
+    if let Some(object) = value.as_object_mut() {
+        object.insert(
+            "capabilities".to_string(),
+            json!({ "addressMode": "single_address" }),
+        );
+    }
+    value
+}
+
+pub(in crate::ddns::routes) async fn update_edgeone_cname(
+    translator: &Translator,
+    config: &HashMap<String, String>,
+    http_options: &DDNSHttpClientOptions,
+    ipv4: Option<&str>,
+    ipv6: Option<&str>,
+) -> anyhow::Result<DDNSProviderUpdateResult> {
+    let secret_id = config_value(config, "secret_id");
+    let secret_key = config_value(config, "secret_key");
+    let zone_id = config_value(config, "zone_id");
+    let domain = normalize_domain(&config_value(config, "domain"));
+    if secret_id.is_empty() || secret_key.is_empty() || zone_id.is_empty() || domain.is_empty() {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.edgeone_cname.configIncomplete",
+            &[],
+        )));
+    }
+    let desired = match (ipv4, ipv6) {
+        (Some(_), Some(_)) => {
+            return Ok(provider_failure(ddns_text(
+                translator,
+                "providers.edgeone_cname.singleAddressOnly",
+                &[],
+            )));
+        }
+        (Some(value), None) => ("ipv4", value),
+        (None, Some(value)) => ("ipv6", value),
+        (None, None) => {
+            return Ok(provider_failure(ddns_text(
+                translator,
+                "providers.edgeone_cname.noIpAvailable",
+                &[],
+            )));
+        }
+    };
+    let client = ddns_http_client(translator, http_options)?;
+    let list = edgeone_request(
+        translator,
+        &client,
+        config,
+        &secret_id,
+        &secret_key,
+        "DescribeAccelerationDomains",
+        json!({
+            "ZoneId": zone_id,
+            "Offset": 0,
+            "Limit": 20,
+            "Match": "all",
+            "Filters": [{
+                "Name": "domain-name",
+                "Values": [domain],
+                "Fuzzy": false
+            }]
+        }),
+    )
+    .await?;
+    let existing = list
+        .get("AccelerationDomains")
+        .and_then(Value::as_array)
+        .into_iter()
+        .flatten()
+        .find(|item| {
+            normalize_domain(
+                item.get("DomainName")
+                    .and_then(Value::as_str)
+                    .unwrap_or_default(),
+            ) == domain
+        })
+        .cloned();
+    let Some(existing) = existing else {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.edgeone_cname.domainNotFound",
+            &[("domain", domain.clone())],
+        )));
+    };
+    let origin_detail = existing.get("OriginDetail").unwrap_or(&Value::Null);
+    let origin_type = origin_detail
+        .get("OriginType")
+        .and_then(Value::as_str)
+        .unwrap_or_default()
+        .trim()
+        .to_ascii_uppercase();
+    if !origin_type.is_empty() && origin_type != "IP_DOMAIN" {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.edgeone_cname.unsupportedOriginType",
+            &[("originType", origin_type)],
+        )));
+    }
+    let current_origin = origin_detail
+        .get("Origin")
+        .and_then(Value::as_str)
+        .unwrap_or_default()
+        .trim();
+    if current_origin == desired.1 {
+        return Ok(DDNSProviderUpdateResult {
+            success: true,
+            message: ddns_text(translator, "providers.edgeone_cname.originUnchanged", &[]),
+        });
+    }
+    let raw_host_header = origin_detail
+        .get("HostHeader")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .map(str::to_string);
+    let host_header = raw_host_header
+        .as_deref()
+        .filter(|value| is_valid_edgeone_host_header(value))
+        .map(normalize_domain);
+    let ignored_invalid_host_header = raw_host_header.is_some() && host_header.is_none();
+    let modify_result = edgeone_request(
+        translator,
+        &client,
+        config,
+        &secret_id,
+        &secret_key,
+        "ModifyAccelerationDomain",
+        json!({
+            "ZoneId": zone_id,
+            "DomainName": domain,
+            "OriginInfo": edgeone_cname_origin_info(desired.1, host_header.as_deref())
+        }),
+    )
+    .await;
+    if let Err(error) = modify_result {
+        if host_header.is_none() || !is_edgeone_host_header_format_error(&error) {
+            return Err(error);
+        }
+        edgeone_request(
+            translator,
+            &client,
+            config,
+            &secret_id,
+            &secret_key,
+            "ModifyAccelerationDomain",
+            json!({
+                "ZoneId": zone_id,
+                "DomainName": domain,
+                "OriginInfo": edgeone_cname_origin_info(desired.1, None)
+            }),
+        )
+        .await?;
+    }
+    Ok(DDNSProviderUpdateResult {
+        success: true,
+        message: ddns_text(
+            translator,
+            if ignored_invalid_host_header {
+                "providers.edgeone_cname.successWithInvalidHostHeaderIgnored"
+            } else {
+                "providers.edgeone_cname.success"
+            },
+            &[],
+        ),
+    })
+}
+
+pub(in crate::ddns::routes) fn edgeone_cname_origin_info(
+    origin: &str,
+    host_header: Option<&str>,
+) -> Value {
+    let mut value = json!({
+        "OriginType": "IP_DOMAIN",
+        "Origin": origin
+    });
+    if let Some(host_header) = host_header.filter(|value| !value.is_empty()) {
+        insert_json_field(&mut value, "HostHeader", json!(host_header));
+    }
+    value
+}
+
+pub(in crate::ddns::routes) fn is_edgeone_host_header_format_error(error: &anyhow::Error) -> bool {
+    let message = error.to_string();
+    message.contains("InvalidHostHeaderFormat") || message.contains("HostHeaderInvalid")
+}

@@ -1,1 +1,23 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBDb2RlTWlycm9yRWRpdG9yIGZyb20gIi4vQ29kZU1pcnJvckVkaXRvci52dWUiOwoKaW50ZXJmYWNlIFByb3BzIHsKICBtb2RlbFZhbHVlOiBzdHJpbmc7Cn0KCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8UHJvcHM+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIChldmVudDogInVwZGF0ZTptb2RlbFZhbHVlIiwgdmFsdWU6IHN0cmluZyk6IHZvaWQ7Cn0+KCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxDb2RlTWlycm9yRWRpdG9yCiAgICA6bW9kZWwtdmFsdWU9InByb3BzLm1vZGVsVmFsdWUiCiAgICBsYW5ndWFnZT0idG9tbCIKICAgIG1pbi1oZWlnaHQ9IjM0MHB4IgogICAgYXJpYS1sYWJlbD0iZnJwYy50b21sIgogICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iKHZhbHVlKSA9PiBlbWl0KCd1cGRhdGU6bW9kZWxWYWx1ZScsIHZhbHVlKSIKICAvPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import CodeMirrorEditor from "./CodeMirrorEditor.vue";
+
+interface Props {
+  modelValue: string;
+}
+
+const props = defineProps<Props>();
+
+const emit = defineEmits<{
+  (event: "update:modelValue", value: string): void;
+}>();
+</script>
+
+<template>
+  <CodeMirrorEditor
+    :model-value="props.modelValue"
+    language="toml"
+    min-height="340px"
+    aria-label="frpc.toml"
+    @update:model-value="(value) => emit('update:modelValue', value)"
+  />
+</template>

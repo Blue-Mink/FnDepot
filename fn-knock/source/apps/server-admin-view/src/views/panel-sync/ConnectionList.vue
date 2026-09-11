@@ -1,1 +1,55 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IFNlcnZlckNvZyB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB0eXBlIHsgUGFuZWxDb25uZWN0aW9uIH0gZnJvbSAiQC9saWIvYXBpL3BhbmVsLXN5bmMtYXBpIjsKaW1wb3J0IENvbm5lY3Rpb25DYXJkIGZyb20gIi4vQ29ubmVjdGlvbkNhcmQudnVlIjsKCmRlZmluZVByb3BzPHsKICBjb25uZWN0aW9uczogUGFuZWxDb25uZWN0aW9uW107CiAgZGVsZXRpbmdJZHM6IFNldDxzdHJpbmc+OwogIGxvYWRpbmc6IGJvb2xlYW47CiAgcHJldmlld2luZ0lkOiBzdHJpbmc7CiAgdGVzdGluZ0lkczogU2V0PHN0cmluZz47Cn0+KCk7CmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgZGVsZXRlOiBbY29ubmVjdGlvbjogUGFuZWxDb25uZWN0aW9uXTsKICBlZGl0OiBbY29ubmVjdGlvbjogUGFuZWxDb25uZWN0aW9uXTsKICBoaXN0b3J5OiBbY29ubmVjdGlvbjogUGFuZWxDb25uZWN0aW9uXTsKICBwcmV2aWV3OiBbY29ubmVjdGlvbjogUGFuZWxDb25uZWN0aW9uXTsKICB0ZXN0OiBbY29ubmVjdGlvbjogUGFuZWxDb25uZWN0aW9uXTsKICAidG9nZ2xlLWF1dG8iOiBbY29ubmVjdGlvbjogUGFuZWxDb25uZWN0aW9uLCB2YWx1ZTogYm9vbGVhbl07Cn0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IHYtaWY9ImxvYWRpbmciIGNsYXNzPSJweS0xMiB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICB7eyB0KCJhZG1pbi5wYW5lbFN5bmMubG9hZGluZ0Nvbm5lY3Rpb25zIikgfX0KICA8L2Rpdj4KICA8ZGl2CiAgICB2LWVsc2UtaWY9ImNvbm5lY3Rpb25zLmxlbmd0aCA9PT0gMCIKICAgIGNsYXNzPSJyb3VuZGVkLXhsIGJvcmRlciBib3JkZXItZGFzaGVkIHB5LTE0IHRleHQtY2VudGVyIgogID4KICAgIDxTZXJ2ZXJDb2cgY2xhc3M9Im14LWF1dG8gaC05IHctOSB0ZXh0LW11dGVkLWZvcmVncm91bmQiIC8+CiAgICA8cCBjbGFzcz0ibXQtMyBmb250LW1lZGl1bSI+e3sgdCgiYWRtaW4ucGFuZWxTeW5jLmVtcHR5IikgfX08L3A+CiAgICA8cCBjbGFzcz0ibXQtMSB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgIHt7IHQoImFkbWluLnBhbmVsU3luYy5lbXB0eURlc2NyaXB0aW9uIikgfX0KICAgIDwvcD4KICA8L2Rpdj4KICA8ZGl2IHYtZWxzZSBjbGFzcz0iZ3JpZCBnYXAtNCB4bDpncmlkLWNvbHMtMiI+CiAgICA8Q29ubmVjdGlvbkNhcmQKICAgICAgdi1mb3I9ImNvbm5lY3Rpb24gaW4gY29ubmVjdGlvbnMiCiAgICAgIDprZXk9ImNvbm5lY3Rpb24uaWQiCiAgICAgIDpjb25uZWN0aW9uPSJjb25uZWN0aW9uIgogICAgICA6ZGVsZXRpbmc9ImRlbGV0aW5nSWRzLmhhcyhjb25uZWN0aW9uLmlkKSIKICAgICAgOnByZXZpZXdpbmc9InByZXZpZXdpbmdJZCA9PT0gY29ubmVjdGlvbi5pZCIKICAgICAgOnRlc3Rpbmc9InRlc3RpbmdJZHMuaGFzKGNvbm5lY3Rpb24uaWQpIgogICAgICBAZGVsZXRlPSJlbWl0KCdkZWxldGUnLCBjb25uZWN0aW9uKSIKICAgICAgQGVkaXQ9ImVtaXQoJ2VkaXQnLCBjb25uZWN0aW9uKSIKICAgICAgQGhpc3Rvcnk9ImVtaXQoJ2hpc3RvcnknLCBjb25uZWN0aW9uKSIKICAgICAgQHByZXZpZXc9ImVtaXQoJ3ByZXZpZXcnLCBjb25uZWN0aW9uKSIKICAgICAgQHRlc3Q9ImVtaXQoJ3Rlc3QnLCBjb25uZWN0aW9uKSIKICAgICAgQHRvZ2dsZS1hdXRvPSJlbWl0KCd0b2dnbGUtYXV0bycsIGNvbm5lY3Rpb24sICRldmVudCkiCiAgICAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { ServerCog } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import type { PanelConnection } from "@/lib/api/panel-sync-api";
+import ConnectionCard from "./ConnectionCard.vue";
+
+defineProps<{
+  connections: PanelConnection[];
+  deletingIds: Set<string>;
+  loading: boolean;
+  previewingId: string;
+  testingIds: Set<string>;
+}>();
+const emit = defineEmits<{
+  delete: [connection: PanelConnection];
+  edit: [connection: PanelConnection];
+  history: [connection: PanelConnection];
+  preview: [connection: PanelConnection];
+  test: [connection: PanelConnection];
+  "toggle-auto": [connection: PanelConnection, value: boolean];
+}>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div v-if="loading" class="py-12 text-center text-sm text-muted-foreground">
+    {{ t("admin.panelSync.loadingConnections") }}
+  </div>
+  <div
+    v-else-if="connections.length === 0"
+    class="rounded-xl border border-dashed py-14 text-center"
+  >
+    <ServerCog class="mx-auto h-9 w-9 text-muted-foreground" />
+    <p class="mt-3 font-medium">{{ t("admin.panelSync.empty") }}</p>
+    <p class="mt-1 text-sm text-muted-foreground">
+      {{ t("admin.panelSync.emptyDescription") }}
+    </p>
+  </div>
+  <div v-else class="grid gap-4 xl:grid-cols-2">
+    <ConnectionCard
+      v-for="connection in connections"
+      :key="connection.id"
+      :connection="connection"
+      :deleting="deletingIds.has(connection.id)"
+      :previewing="previewingId === connection.id"
+      :testing="testingIds.has(connection.id)"
+      @delete="emit('delete', connection)"
+      @edit="emit('edit', connection)"
+      @history="emit('history', connection)"
+      @preview="emit('preview', connection)"
+      @test="emit('test', connection)"
+      @toggle-auto="emit('toggle-auto', connection, $event)"
+    />
+  </div>
+</template>

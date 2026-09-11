@@ -1,1 +1,300 @@
-aW1wb3J0IHsgZGVmaW5lU3RvcmUgfSBmcm9tICJwaW5pYSI7CmltcG9ydCB7IGNvbXB1dGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyBVcGRhdGVBUEksIHR5cGUgVXBkYXRlU3RhdHVzUGF5bG9hZCB9IGZyb20gIkAvbGliL2FwaS9jb25maWciOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyBleHRyYWN0RXJyb3JNZXNzYWdlIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IGJyb3dzZXJUIH0gZnJvbSAiQGZuLWtub2NrL2kxOG4vdnVlL2FkbWluIjsKaW1wb3J0IHsgY3JlYXRlUG9sbGluZ0xpZmVjeWNsZSB9IGZyb20gIkAvbGliL3BvbGxpbmdMaWZlY3ljbGUiOwppbXBvcnQgewogIHJlcGxhY2VXaXRoVXBkYXRlZEFwcGxpY2F0aW9uLAogIHdhaXRGb3JVcGRhdGVkQXBwbGljYXRpb24sCn0gZnJvbSAiQC9saWIvdXBkYXRlLXJlbG9hZCI7Cgpjb25zdCBQT0xMX0lETEVfTVMgPSAxNV8wMDA7CmNvbnN0IFBPTExfQlVTWV9NUyA9IDFfMDAwOwpjb25zdCBJTlNUQUxMX1BSRVBBUkVfTVMgPSA0XzAwMDsKCmV4cG9ydCBjb25zdCB1c2VVcGRhdGVTdG9yZSA9IGRlZmluZVN0b3JlKCJ1cGRhdGUiLCAoKSA9PiB7CiAgY29uc3Qgc3RhdHVzID0gcmVmPFVwZGF0ZVN0YXR1c1BheWxvYWQgfCBudWxsPihudWxsKTsKICBjb25zdCBpc0xvYWRpbmcgPSByZWYoZmFsc2UpOwogIGNvbnN0IGlzQ2hlY2tpbmcgPSByZWYoZmFsc2UpOwogIGNvbnN0IGlzVHJpZ2dlcmluZ0Rvd25sb2FkID0gcmVmKGZhbHNlKTsKICBjb25zdCBpc1RyaWdnZXJpbmdJbnN0YWxsID0gcmVmKGZhbHNlKTsKICBjb25zdCBpc1ByZXBhcmluZ0luc3RhbGwgPSByZWYoZmFsc2UpOwogIGNvbnN0IHNob3VsZEF1dG9JbnN0YWxsQWZ0ZXJEb3dubG9hZCA9IHJlZihmYWxzZSk7CiAgbGV0IHBvbGxUaW1lcjogbnVtYmVyIHwgbnVsbCA9IG51bGw7CiAgbGV0IHBvbGxpbmdTdGFydGVkID0gZmFsc2U7CgogIGNvbnN0IGRvd25sb2FkU3RhdHVzID0gY29tcHV0ZWQoCiAgICAoKSA9PiBzdGF0dXMudmFsdWU/LmRvd25sb2FkLnN0YXR1cyA/PyAiaWRsZSIsCiAgKTsKICBjb25zdCBpc0Rvd25sb2FkQnVzeSA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgZG93bmxvYWRTdGF0dXMudmFsdWUgPT09ICJkb3dubG9hZGluZyIgfHwKICAgICAgZG93bmxvYWRTdGF0dXMudmFsdWUgPT09ICJ2ZXJpZnlpbmciIHx8CiAgICAgIGRvd25sb2FkU3RhdHVzLnZhbHVlID09PSAiaW5zdGFsbGluZyIsCiAgKTsKICBjb25zdCBjYW5JbnN0YWxsID0gY29tcHV0ZWQoKCkgPT4gewogICAgcmV0dXJuICgKICAgICAgc3RhdHVzLnZhbHVlPy5oYXNVcGRhdGUgPT09IHRydWUgJiYKICAgICAgc3RhdHVzLnZhbHVlLmRvd25sb2FkLnN0YXR1cyA9PT0gImRvd25sb2FkZWQiCiAgICApOwogIH0pOwogIGNvbnN0IHNob3VsZFNob3dCYW5uZXIgPSBjb21wdXRlZCgoKSA9PiBzdGF0dXMudmFsdWU/Lmhhc1VwZGF0ZSA9PT0gdHJ1ZSk7CiAgY29uc3QgaXNGb3JjZVVwZGF0ZSA9IGNvbXB1dGVkKAogICAgKCkgPT4gc3RhdHVzLnZhbHVlPy5mb3JjZVVwZGF0ZSA9PT0gdHJ1ZSAmJiBzaG91bGRTaG93QmFubmVyLnZhbHVlLAogICk7CgogIGNvbnN0IGNsZWFyVGltZXIgPSAoKSA9PiB7CiAgICBpZiAocG9sbFRpbWVyICE9PSBudWxsKSB7CiAgICAgIHdpbmRvdy5jbGVhclRpbWVvdXQocG9sbFRpbWVyKTsKICAgICAgcG9sbFRpbWVyID0gbnVsbDsKICAgIH0KICB9OwoKICBjb25zdCBzY2hlZHVsZVBvbGwgPSAoKSA9PiB7CiAgICBjbGVhclRpbWVyKCk7CiAgICBpZiAoIXBvbGxpbmdTdGFydGVkKSByZXR1cm47CiAgICBwb2xsVGltZXIgPSB3aW5kb3cuc2V0VGltZW91dCgKICAgICAgYXN5bmMgKCkgPT4gewogICAgICAgIGlmICghaXNQcmVwYXJpbmdJbnN0YWxsLnZhbHVlKSB7CiAgICAgICAgICBhd2FpdCBsb2FkU3RhdHVzKHRydWUpOwogICAgICAgICAgYXdhaXQgbWF5YmVBdXRvSW5zdGFsbCgpOwogICAgICAgIH0KICAgICAgICBzY2hlZHVsZVBvbGwoKTsKICAgICAgfSwKICAgICAgaXNEb3dubG9hZEJ1c3kudmFsdWUgPyBQT0xMX0JVU1lfTVMgOiBQT0xMX0lETEVfTVMsCiAgICApOwogIH07CgogIGFzeW5jIGZ1bmN0aW9uIG1heWJlQXV0b0luc3RhbGwoKSB7CiAgICBpZiAoIXNob3VsZEF1dG9JbnN0YWxsQWZ0ZXJEb3dubG9hZC52YWx1ZSkgcmV0dXJuOwogICAgaWYgKGlzVHJpZ2dlcmluZ0luc3RhbGwudmFsdWUpIHJldHVybjsKICAgIGlmICghY2FuSW5zdGFsbC52YWx1ZSkgcmV0dXJuOwogICAgc2hvdWxkQXV0b0luc3RhbGxBZnRlckRvd25sb2FkLnZhbHVlID0gZmFsc2U7CiAgICBhd2FpdCBzdGFydEluc3RhbGwoKTsKICB9CgogIGFzeW5jIGZ1bmN0aW9uIGxvYWRTdGF0dXMoc2lsZW50ID0gZmFsc2UpIHsKICAgIGlmICghc2lsZW50KSBpc0xvYWRpbmcudmFsdWUgPSB0cnVlOwogICAgdHJ5IHsKICAgICAgc3RhdHVzLnZhbHVlID0gYXdhaXQgVXBkYXRlQVBJLmdldFN0YXR1cygpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgaWYgKCFzaWxlbnQpIHsKICAgICAgICB0b2FzdC5lcnJvcihicm93c2VyVCgiYWRtaW4udXBkYXRlLmxvYWRTdGF0dXNGYWlsZWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoZXJyb3IsIGJyb3dzZXJUKCJjb21tb24udHJ5TGF0ZXIiKSksCiAgICAgICAgfSk7CiAgICAgIH0KICAgIH0gZmluYWxseSB7CiAgICAgIGlmICghc2lsZW50KSBpc0xvYWRpbmcudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGNoZWNrTm93KHNob3dUb2FzdCA9IHRydWUpIHsKICAgIGlmIChpc0NoZWNraW5nLnZhbHVlKSByZXR1cm4gZmFsc2U7CiAgICBpc0NoZWNraW5nLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIHN0YXR1cy52YWx1ZSA9IGF3YWl0IFVwZGF0ZUFQSS5jaGVja05vdygpOwogICAgICBpZiAoc2hvd1RvYXN0KSB7CiAgICAgICAgaWYgKHN0YXR1cy52YWx1ZS5oYXNVcGRhdGUpIHsKICAgICAgICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgICAgICAgIGJyb3dzZXJUKCJhZG1pbi51cGRhdGUubmV3VmVyc2lvbkRldGVjdGVkIiwgewogICAgICAgICAgICAgIHZlcnNpb246IHN0YXR1cy52YWx1ZS5sYXRlc3Q/LnZlcnNpb24gfHwgIiIsCiAgICAgICAgICAgIH0pLAogICAgICAgICAgKTsKICAgICAgICB9IGVsc2UgaWYgKHN0YXR1cy52YWx1ZS51cGRhdGVFbmFibGVkKSB7CiAgICAgICAgICB0b2FzdC5zdWNjZXNzKGJyb3dzZXJUKCJhZG1pbi51cGRhdGUuYWxyZWFkeUxhdGVzdCIpKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgdG9hc3QuaW5mbyhicm93c2VyVCgiYWRtaW4udXBkYXRlLmRpc2FibGVkIikpOwogICAgICAgIH0KICAgICAgfQogICAgICByZXR1cm4gdHJ1ZTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGlmIChzaG93VG9hc3QpIHsKICAgICAgICB0b2FzdC5lcnJvcihicm93c2VyVCgiYWRtaW4udXBkYXRlLmNoZWNrRmFpbGVkIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCBicm93c2VyVCgiY29tbW9uLnRyeUxhdGVyIikpLAogICAgICAgIH0pOwogICAgICB9CiAgICAgIHJldHVybiBmYWxzZTsKICAgIH0gZmluYWxseSB7CiAgICAgIGlzQ2hlY2tpbmcudmFsdWUgPSBmYWxzZTsKICAgICAgc2NoZWR1bGVQb2xsKCk7CiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBjaGVja0FuZERvd25sb2FkKCkgewogICAgaWYgKGlzVHJpZ2dlcmluZ0Rvd25sb2FkLnZhbHVlKSByZXR1cm4gZmFsc2U7CiAgICBpc1RyaWdnZXJpbmdEb3dubG9hZC52YWx1ZSA9IHRydWU7CiAgICBzaG91bGRBdXRvSW5zdGFsbEFmdGVyRG93bmxvYWQudmFsdWUgPSBmYWxzZTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IFVwZGF0ZUFQSS5jaGVja0FuZERvd25sb2FkKCk7CiAgICAgIGlmICghcmVzLnN1Y2Nlc3MpIHsKICAgICAgICB0b2FzdC5lcnJvcihicm93c2VyVCgiYWRtaW4udXBkYXRlLnN0YXJ0VXBkYXRlRmFpbGVkIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiByZXMubWVzc2FnZSB8fCBicm93c2VyVCgiY29tbW9uLnRyeUxhdGVyIiksCiAgICAgICAgfSk7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICB9CiAgICAgIGlmIChyZXMuZGF0YSkgewogICAgICAgIHN0YXR1cy52YWx1ZSA9IHJlcy5kYXRhOwogICAgICB9CiAgICAgIGF3YWl0IGxvYWRTdGF0dXModHJ1ZSk7CiAgICAgIHNjaGVkdWxlUG9sbCgpOwogICAgICBpZiAoc3RhdHVzLnZhbHVlPy5oYXNVcGRhdGUpIHsKICAgICAgICBzaG91bGRBdXRvSW5zdGFsbEFmdGVyRG93bmxvYWQudmFsdWUgPSB0cnVlOwogICAgICAgIGF3YWl0IG1heWJlQXV0b0luc3RhbGwoKTsKICAgICAgfQogICAgICB0b2FzdC5zdWNjZXNzKHJlcy5tZXNzYWdlIHx8IGJyb3dzZXJUKCJhZG1pbi51cGRhdGUuZG93bmxvYWRTdGFydGVkIikpOwogICAgICByZXR1cm4gdHJ1ZTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRvYXN0LmVycm9yKGJyb3dzZXJUKCJhZG1pbi51cGRhdGUuc3RhcnRVcGRhdGVGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCBicm93c2VyVCgiY29tbW9uLnRyeUxhdGVyIikpLAogICAgICB9KTsKICAgICAgcmV0dXJuIGZhbHNlOwogICAgfSBmaW5hbGx5IHsKICAgICAgaXNUcmlnZ2VyaW5nRG93bmxvYWQudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIHN0YXJ0RG93bmxvYWQoKSB7CiAgICBpZiAoaXNUcmlnZ2VyaW5nRG93bmxvYWQudmFsdWUpIHJldHVybiBmYWxzZTsKICAgIGlzVHJpZ2dlcmluZ0Rvd25sb2FkLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IFVwZGF0ZUFQSS5zdGFydERvd25sb2FkKCk7CiAgICAgIGlmICghcmVzLnN1Y2Nlc3MpIHsKICAgICAgICB0b2FzdC5lcnJvcihicm93c2VyVCgiYWRtaW4udXBkYXRlLnN0YXJ0RG93bmxvYWRGYWlsZWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IHJlcy5tZXNzYWdlIHx8IGJyb3dzZXJUKCJjb21tb24udHJ5TGF0ZXIiKSwKICAgICAgICB9KTsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgIH0KICAgICAgaWYgKHJlcy5kYXRhKSB7CiAgICAgICAgc3RhdHVzLnZhbHVlID0gcmVzLmRhdGE7CiAgICAgIH0KICAgICAgYXdhaXQgbG9hZFN0YXR1cyh0cnVlKTsKICAgICAgc2NoZWR1bGVQb2xsKCk7CiAgICAgIHRvYXN0LnN1Y2Nlc3MocmVzLm1lc3NhZ2UgfHwgYnJvd3NlclQoImFkbWluLnVwZGF0ZS5kb3dubG9hZFN0YXJ0ZWQiKSk7CiAgICAgIHJldHVybiB0cnVlOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdG9hc3QuZXJyb3IoYnJvd3NlclQoImFkbWluLnVwZGF0ZS5zdGFydERvd25sb2FkRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgYnJvd3NlclQoImNvbW1vbi50cnlMYXRlciIpKSwKICAgICAgfSk7CiAgICAgIHJldHVybiBmYWxzZTsKICAgIH0gZmluYWxseSB7CiAgICAgIGlzVHJpZ2dlcmluZ0Rvd25sb2FkLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBzdGFydEluc3RhbGwoKSB7CiAgICBpZiAoaXNUcmlnZ2VyaW5nSW5zdGFsbC52YWx1ZSkgcmV0dXJuIGZhbHNlOwogICAgc2hvdWxkQXV0b0luc3RhbGxBZnRlckRvd25sb2FkLnZhbHVlID0gZmFsc2U7CiAgICBpc1RyaWdnZXJpbmdJbnN0YWxsLnZhbHVlID0gdHJ1ZTsKICAgIGlzUHJlcGFyaW5nSW5zdGFsbC52YWx1ZSA9IHRydWU7CiAgICBjb25zdCB0YXJnZXRWZXJzaW9uID0KICAgICAgc3RhdHVzLnZhbHVlPy5kb3dubG9hZC50YXJnZXRWZXJzaW9uID8/IHN0YXR1cy52YWx1ZT8ubGF0ZXN0Py52ZXJzaW9uOwogICAgY29uc3QgcHJldmlvdXNWZXJzaW9uID0gc3RhdHVzLnZhbHVlPy5sb2NhbFZlcnNpb247CiAgICB0cnkgewogICAgICBpZiAoc3RhdHVzLnZhbHVlKSB7CiAgICAgICAgc3RhdHVzLnZhbHVlLmRvd25sb2FkLnN0YXR1cyA9ICJpbnN0YWxsaW5nIjsKICAgICAgICBzdGF0dXMudmFsdWUuZG93bmxvYWQuZXJyb3IgPSBudWxsOwogICAgICB9CiAgICAgIHNjaGVkdWxlUG9sbCgpOwogICAgICBhd2FpdCBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4KICAgICAgICB3aW5kb3cuc2V0VGltZW91dChyZXNvbHZlLCBJTlNUQUxMX1BSRVBBUkVfTVMpLAogICAgICApOwoKICAgICAgY29uc3QgcmVzID0gYXdhaXQgVXBkYXRlQVBJLnN0YXJ0SW5zdGFsbCgpOwogICAgICBpZiAoIXJlcy5zdWNjZXNzKSB7CiAgICAgICAgdG9hc3QuZXJyb3IoYnJvd3NlclQoImFkbWluLnVwZGF0ZS5zdGFydEluc3RhbGxGYWlsZWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IHJlcy5tZXNzYWdlIHx8IGJyb3dzZXJUKCJjb21tb24udHJ5TGF0ZXIiKSwKICAgICAgICB9KTsKICAgICAgICBhd2FpdCBsb2FkU3RhdHVzKHRydWUpOwogICAgICAgIHNjaGVkdWxlUG9sbCgpOwogICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgfQoKICAgICAgc3RvcFBvbGxpbmcoKTsKICAgICAgY29uc3QgdXBkYXRlZFN0YXR1cyA9IGF3YWl0IHdhaXRGb3JVcGRhdGVkQXBwbGljYXRpb24oewogICAgICAgIGxvYWRTdGF0dXM6ICgpID0+IFVwZGF0ZUFQSS5nZXRTdGF0dXModHJ1ZSksCiAgICAgICAgdGFyZ2V0VmVyc2lvbiwKICAgICAgICBwcmV2aW91c1ZlcnNpb24sCiAgICAgIH0pOwogICAgICBpZiAoIXVwZGF0ZWRTdGF0dXMpIHsKICAgICAgICB0b2FzdC5lcnJvcihicm93c2VyVCgiYWRtaW4udXBkYXRlLmF1dG9tYXRpY1JlbG9hZEZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogYnJvd3NlclQoImNvbW1vbi50cnlMYXRlciIpLAogICAgICAgIH0pOwogICAgICAgIGF3YWl0IGxvYWRTdGF0dXModHJ1ZSk7CiAgICAgICAgc3RhcnRQb2xsaW5nKCk7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICB9CgogICAgICBzdGF0dXMudmFsdWUgPSB1cGRhdGVkU3RhdHVzOwogICAgICByZXBsYWNlV2l0aFVwZGF0ZWRBcHBsaWNhdGlvbigpOwogICAgICByZXR1cm4gdHJ1ZTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRvYXN0LmVycm9yKGJyb3dzZXJUKCJhZG1pbi51cGRhdGUuc3RhcnRJbnN0YWxsRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgYnJvd3NlclQoImNvbW1vbi50cnlMYXRlciIpKSwKICAgICAgfSk7CiAgICAgIGF3YWl0IGxvYWRTdGF0dXModHJ1ZSk7CiAgICAgIHNjaGVkdWxlUG9sbCgpOwogICAgICByZXR1cm4gZmFsc2U7CiAgICB9IGZpbmFsbHkgewogICAgICBpc1ByZXBhcmluZ0luc3RhbGwudmFsdWUgPSBmYWxzZTsKICAgICAgaXNUcmlnZ2VyaW5nSW5zdGFsbC52YWx1ZSA9IGZhbHNlOwogICAgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gY29uc3VtZUNvbmZpcm0oKSB7CiAgICB0cnkgewogICAgICBjb25zdCBjb25maXJtID0gYXdhaXQgVXBkYXRlQVBJLmNvbnN1bWVDb25maXJtKCk7CiAgICAgIGlmICghY29uZmlybT8udmVyc2lvbikgcmV0dXJuOwogICAgICB0b2FzdC5zdWNjZXNzKAogICAgICAgIGJyb3dzZXJUKCJhZG1pbi51cGRhdGUuY29tcGxldGVkIiwgeyB2ZXJzaW9uOiBjb25maXJtLnZlcnNpb24gfSksCiAgICAgICk7CiAgICB9IGNhdGNoIHsKICAgICAgLy8gaWdub3JlIGNvbmZpcm0gZXJyb3JzCiAgICB9CiAgfQoKICBjb25zdCBwb2xsaW5nTGlmZWN5Y2xlID0gY3JlYXRlUG9sbGluZ0xpZmVjeWNsZSh7CiAgICBpbml0aWFsaXplOiBhc3luYyAoKSA9PiB7CiAgICAgIGF3YWl0IFByb21pc2UuYWxsKFtsb2FkU3RhdHVzKHRydWUpLCBjb25zdW1lQ29uZmlybSgpXSk7CiAgICB9LAogICAgc3RhcnQ6IHN0YXJ0UG9sbGluZywKICB9KTsKCiAgYXN5bmMgZnVuY3Rpb24gaW5pdGlhbGl6ZSgpIHsKICAgIGF3YWl0IHBvbGxpbmdMaWZlY3ljbGUuYWN0aXZhdGUoKTsKICB9CgogIGZ1bmN0aW9uIHN0YXJ0UG9sbGluZygpIHsKICAgIGlmIChwb2xsaW5nU3RhcnRlZCkgcmV0dXJuOwogICAgcG9sbGluZ1N0YXJ0ZWQgPSB0cnVlOwogICAgc2NoZWR1bGVQb2xsKCk7CiAgfQoKICBmdW5jdGlvbiBzdG9wUG9sbGluZygpIHsKICAgIHBvbGxpbmdMaWZlY3ljbGUuZGVhY3RpdmF0ZSgpOwogICAgcG9sbGluZ1N0YXJ0ZWQgPSBmYWxzZTsKICAgIGNsZWFyVGltZXIoKTsKICB9CgogIHJldHVybiB7CiAgICBzdGF0dXMsCiAgICBpc0xvYWRpbmcsCiAgICBpc0NoZWNraW5nLAogICAgaXNUcmlnZ2VyaW5nRG93bmxvYWQsCiAgICBpc1RyaWdnZXJpbmdJbnN0YWxsLAogICAgY2FuSW5zdGFsbCwKICAgIHNob3VsZFNob3dCYW5uZXIsCiAgICBpc0ZvcmNlVXBkYXRlLAogICAgaXNEb3dubG9hZEJ1c3ksCiAgICBsb2FkU3RhdHVzLAogICAgY2hlY2tOb3csCiAgICBjaGVja0FuZERvd25sb2FkLAogICAgc3RhcnREb3dubG9hZCwKICAgIHN0YXJ0SW5zdGFsbCwKICAgIGNvbnN1bWVDb25maXJtLAogICAgaW5pdGlhbGl6ZSwKICAgIHN0YXJ0UG9sbGluZywKICAgIHN0b3BQb2xsaW5nLAogIH07Cn0pOwo=
+import { defineStore } from "pinia";
+import { computed, ref } from "vue";
+import { UpdateAPI, type UpdateStatusPayload } from "@/lib/api/config";
+import { toast } from "@admin-shared/utils/toast";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { browserT } from "@fn-knock/i18n/vue/admin";
+import { createPollingLifecycle } from "@/lib/pollingLifecycle";
+import {
+  replaceWithUpdatedApplication,
+  waitForUpdatedApplication,
+} from "@/lib/update-reload";
+
+const POLL_IDLE_MS = 15_000;
+const POLL_BUSY_MS = 1_000;
+const INSTALL_PREPARE_MS = 4_000;
+
+export const useUpdateStore = defineStore("update", () => {
+  const status = ref<UpdateStatusPayload | null>(null);
+  const isLoading = ref(false);
+  const isChecking = ref(false);
+  const isTriggeringDownload = ref(false);
+  const isTriggeringInstall = ref(false);
+  const isPreparingInstall = ref(false);
+  const shouldAutoInstallAfterDownload = ref(false);
+  let pollTimer: number | null = null;
+  let pollingStarted = false;
+
+  const downloadStatus = computed(
+    () => status.value?.download.status ?? "idle",
+  );
+  const isDownloadBusy = computed(
+    () =>
+      downloadStatus.value === "downloading" ||
+      downloadStatus.value === "verifying" ||
+      downloadStatus.value === "installing",
+  );
+  const canInstall = computed(() => {
+    return (
+      status.value?.hasUpdate === true &&
+      status.value.download.status === "downloaded"
+    );
+  });
+  const shouldShowBanner = computed(() => status.value?.hasUpdate === true);
+  const isForceUpdate = computed(
+    () => status.value?.forceUpdate === true && shouldShowBanner.value,
+  );
+
+  const clearTimer = () => {
+    if (pollTimer !== null) {
+      window.clearTimeout(pollTimer);
+      pollTimer = null;
+    }
+  };
+
+  const schedulePoll = () => {
+    clearTimer();
+    if (!pollingStarted) return;
+    pollTimer = window.setTimeout(
+      async () => {
+        if (!isPreparingInstall.value) {
+          await loadStatus(true);
+          await maybeAutoInstall();
+        }
+        schedulePoll();
+      },
+      isDownloadBusy.value ? POLL_BUSY_MS : POLL_IDLE_MS,
+    );
+  };
+
+  async function maybeAutoInstall() {
+    if (!shouldAutoInstallAfterDownload.value) return;
+    if (isTriggeringInstall.value) return;
+    if (!canInstall.value) return;
+    shouldAutoInstallAfterDownload.value = false;
+    await startInstall();
+  }
+
+  async function loadStatus(silent = false) {
+    if (!silent) isLoading.value = true;
+    try {
+      status.value = await UpdateAPI.getStatus();
+    } catch (error) {
+      if (!silent) {
+        toast.error(browserT("admin.update.loadStatusFailed"), {
+          description: extractErrorMessage(error, browserT("common.tryLater")),
+        });
+      }
+    } finally {
+      if (!silent) isLoading.value = false;
+    }
+  }
+
+  async function checkNow(showToast = true) {
+    if (isChecking.value) return false;
+    isChecking.value = true;
+    try {
+      status.value = await UpdateAPI.checkNow();
+      if (showToast) {
+        if (status.value.hasUpdate) {
+          toast.success(
+            browserT("admin.update.newVersionDetected", {
+              version: status.value.latest?.version || "",
+            }),
+          );
+        } else if (status.value.updateEnabled) {
+          toast.success(browserT("admin.update.alreadyLatest"));
+        } else {
+          toast.info(browserT("admin.update.disabled"));
+        }
+      }
+      return true;
+    } catch (error) {
+      if (showToast) {
+        toast.error(browserT("admin.update.checkFailed"), {
+          description: extractErrorMessage(error, browserT("common.tryLater")),
+        });
+      }
+      return false;
+    } finally {
+      isChecking.value = false;
+      schedulePoll();
+    }
+  }
+
+  async function checkAndDownload() {
+    if (isTriggeringDownload.value) return false;
+    isTriggeringDownload.value = true;
+    shouldAutoInstallAfterDownload.value = false;
+    try {
+      const res = await UpdateAPI.checkAndDownload();
+      if (!res.success) {
+        toast.error(browserT("admin.update.startUpdateFailed"), {
+          description: res.message || browserT("common.tryLater"),
+        });
+        return false;
+      }
+      if (res.data) {
+        status.value = res.data;
+      }
+      await loadStatus(true);
+      schedulePoll();
+      if (status.value?.hasUpdate) {
+        shouldAutoInstallAfterDownload.value = true;
+        await maybeAutoInstall();
+      }
+      toast.success(res.message || browserT("admin.update.downloadStarted"));
+      return true;
+    } catch (error) {
+      toast.error(browserT("admin.update.startUpdateFailed"), {
+        description: extractErrorMessage(error, browserT("common.tryLater")),
+      });
+      return false;
+    } finally {
+      isTriggeringDownload.value = false;
+    }
+  }
+
+  async function startDownload() {
+    if (isTriggeringDownload.value) return false;
+    isTriggeringDownload.value = true;
+    try {
+      const res = await UpdateAPI.startDownload();
+      if (!res.success) {
+        toast.error(browserT("admin.update.startDownloadFailed"), {
+          description: res.message || browserT("common.tryLater"),
+        });
+        return false;
+      }
+      if (res.data) {
+        status.value = res.data;
+      }
+      await loadStatus(true);
+      schedulePoll();
+      toast.success(res.message || browserT("admin.update.downloadStarted"));
+      return true;
+    } catch (error) {
+      toast.error(browserT("admin.update.startDownloadFailed"), {
+        description: extractErrorMessage(error, browserT("common.tryLater")),
+      });
+      return false;
+    } finally {
+      isTriggeringDownload.value = false;
+    }
+  }
+
+  async function startInstall() {
+    if (isTriggeringInstall.value) return false;
+    shouldAutoInstallAfterDownload.value = false;
+    isTriggeringInstall.value = true;
+    isPreparingInstall.value = true;
+    const targetVersion =
+      status.value?.download.targetVersion ?? status.value?.latest?.version;
+    const previousVersion = status.value?.localVersion;
+    try {
+      if (status.value) {
+        status.value.download.status = "installing";
+        status.value.download.error = null;
+      }
+      schedulePoll();
+      await new Promise((resolve) =>
+        window.setTimeout(resolve, INSTALL_PREPARE_MS),
+      );
+
+      const res = await UpdateAPI.startInstall();
+      if (!res.success) {
+        toast.error(browserT("admin.update.startInstallFailed"), {
+          description: res.message || browserT("common.tryLater"),
+        });
+        await loadStatus(true);
+        schedulePoll();
+        return false;
+      }
+
+      stopPolling();
+      const updatedStatus = await waitForUpdatedApplication({
+        loadStatus: () => UpdateAPI.getStatus(true),
+        targetVersion,
+        previousVersion,
+      });
+      if (!updatedStatus) {
+        toast.error(browserT("admin.update.automaticReloadFailed"), {
+          description: browserT("common.tryLater"),
+        });
+        await loadStatus(true);
+        startPolling();
+        return false;
+      }
+
+      status.value = updatedStatus;
+      replaceWithUpdatedApplication();
+      return true;
+    } catch (error) {
+      toast.error(browserT("admin.update.startInstallFailed"), {
+        description: extractErrorMessage(error, browserT("common.tryLater")),
+      });
+      await loadStatus(true);
+      schedulePoll();
+      return false;
+    } finally {
+      isPreparingInstall.value = false;
+      isTriggeringInstall.value = false;
+    }
+  }
+
+  async function consumeConfirm() {
+    try {
+      const confirm = await UpdateAPI.consumeConfirm();
+      if (!confirm?.version) return;
+      toast.success(
+        browserT("admin.update.completed", { version: confirm.version }),
+      );
+    } catch {
+      // ignore confirm errors
+    }
+  }
+
+  const pollingLifecycle = createPollingLifecycle({
+    initialize: async () => {
+      await Promise.all([loadStatus(true), consumeConfirm()]);
+    },
+    start: startPolling,
+  });
+
+  async function initialize() {
+    await pollingLifecycle.activate();
+  }
+
+  function startPolling() {
+    if (pollingStarted) return;
+    pollingStarted = true;
+    schedulePoll();
+  }
+
+  function stopPolling() {
+    pollingLifecycle.deactivate();
+    pollingStarted = false;
+    clearTimer();
+  }
+
+  return {
+    status,
+    isLoading,
+    isChecking,
+    isTriggeringDownload,
+    isTriggeringInstall,
+    canInstall,
+    shouldShowBanner,
+    isForceUpdate,
+    isDownloadBusy,
+    loadStatus,
+    checkNow,
+    checkAndDownload,
+    startDownload,
+    startInstall,
+    consumeConfirm,
+    initialize,
+    startPolling,
+    stopPolling,
+  };
+});

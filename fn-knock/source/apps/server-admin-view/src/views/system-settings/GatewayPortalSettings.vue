@@ -1,1 +1,73 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7CiAgQnJlYWRjcnVtYiwKICBCcmVhZGNydW1iSXRlbSwKICBCcmVhZGNydW1iTGluaywKICBCcmVhZGNydW1iTGlzdCwKICBCcmVhZGNydW1iUGFnZSwKICBCcmVhZGNydW1iU2VwYXJhdG9yLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9icmVhZGNydW1iIjsKaW1wb3J0IHsgQ2FyZCwgQ2FyZENvbnRlbnQsIENhcmREZXNjcmlwdGlvbiwgQ2FyZEhlYWRlciwgQ2FyZFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgR2F0ZXdheVBvcnRhbFNldHRpbmdzUGFuZWwgZnJvbSAiLi9nYXRld2F5LXBvcnRhbC9HYXRld2F5UG9ydGFsU2V0dGluZ3NQYW5lbC52dWUiOwppbXBvcnQgeyB1c2VHYXRld2F5UG9ydGFsU2V0dGluZ3MgfSBmcm9tICIuL2dhdGV3YXktcG9ydGFsL3VzZUdhdGV3YXlQb3J0YWxTZXR0aW5ncyI7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgbW9kZWwgPSB1c2VHYXRld2F5UG9ydGFsU2V0dGluZ3MoKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0ic3BhY2UteS02Ij4KICAgIDxCcmVhZGNydW1iPgogICAgICA8QnJlYWRjcnVtYkxpc3Q+CiAgICAgICAgPEJyZWFkY3J1bWJJdGVtPgogICAgICAgICAgPEJyZWFkY3J1bWJMaW5rIGhyZWY9IiMvc3lzdGVtIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVBvcnRhbFNldHRpbmdzLnN5c3RlbVNldHRpbmdzIikgfX0KICAgICAgICAgIDwvQnJlYWRjcnVtYkxpbms+CiAgICAgICAgPC9CcmVhZGNydW1iSXRlbT4KICAgICAgICA8QnJlYWRjcnVtYlNlcGFyYXRvciAvPgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iTGluayBocmVmPSIjL3N5c3RlbT90YWI9Z2F0ZXdheSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlQb3J0YWxTZXR0aW5ncy5nYXRld2F5IikgfX0KICAgICAgICAgIDwvQnJlYWRjcnVtYkxpbms+CiAgICAgICAgPC9CcmVhZGNydW1iSXRlbT4KICAgICAgICA8QnJlYWRjcnVtYlNlcGFyYXRvciAvPgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iUGFnZT4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVBvcnRhbFNldHRpbmdzLnRpdGxlIikgfX0KICAgICAgICAgIDwvQnJlYWRjcnVtYlBhZ2U+CiAgICAgICAgPC9CcmVhZGNydW1iSXRlbT4KICAgICAgPC9CcmVhZGNydW1iTGlzdD4KICAgIDwvQnJlYWRjcnVtYj4KCiAgICA8Q2FyZCBjbGFzcz0iYm9yZGVyLWJvcmRlci82MCBzaGFkb3ctbm9uZSI+CiAgICAgIDxDYXJkSGVhZGVyIGNsYXNzPSJzcGFjZS15LTMiPgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMS41Ij4KICAgICAgICAgIDxDYXJkVGl0bGUgY2xhc3M9InRleHQteGwiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5UG9ydGFsU2V0dGluZ3MudGl0bGUiKSB9fQogICAgICAgICAgPC9DYXJkVGl0bGU+CiAgICAgICAgICA8Q2FyZERlc2NyaXB0aW9uIGNsYXNzPSJtYXgtdy0zeGwgbGVhZGluZy02Ij4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVBvcnRhbFNldHRpbmdzLmRlc2NyaXB0aW9uIikgfX0KICAgICAgICAgIDwvQ2FyZERlc2NyaXB0aW9uPgogICAgICAgIDwvZGl2PgogICAgICA8L0NhcmRIZWFkZXI+CiAgICAgIDxDYXJkQ29udGVudCBjbGFzcz0ic3BhY2UteS0wIGRpdmlkZS15IGJvcmRlci10IHAtMCI+CiAgICAgICAgPGRpdgogICAgICAgICAgdi1pZj0ibW9kZWwuaXNMb2FkaW5nIgogICAgICAgICAgY2xhc3M9InB4LTUgcHktMTIgdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICByb2xlPSJzdGF0dXMiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheVBvcnRhbFNldHRpbmdzLmxvYWRpbmdDb25maWciKSB9fQogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYKICAgICAgICAgIHYtZWxzZS1pZj0ibW9kZWwubG9hZEVycm9yIgogICAgICAgICAgY2xhc3M9InB4LTUgcHktNCB0ZXh0LXNtIHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICByb2xlPSJhbGVydCIKICAgICAgICA+CiAgICAgICAgICB7eyBtb2RlbC5sb2FkRXJyb3IgfX0KICAgICAgICA8L2Rpdj4KICAgICAgICA8R2F0ZXdheVBvcnRhbFNldHRpbmdzUGFuZWwgdi1lbHNlIDptb2RlbD0ibW9kZWwiIC8+CiAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICA8L0NhcmQ+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import GatewayPortalSettingsPanel from "./gateway-portal/GatewayPortalSettingsPanel.vue";
+import { useGatewayPortalSettings } from "./gateway-portal/useGatewayPortalSettings";
+
+const { t } = useI18n();
+const model = useGatewayPortalSettings();
+</script>
+
+<template>
+  <div class="space-y-6">
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system">
+            {{ t("admin.gatewayPortalSettings.systemSettings") }}
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system?tab=gateway">
+            {{ t("admin.gatewayPortalSettings.gateway") }}
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbPage>
+            {{ t("admin.gatewayPortalSettings.title") }}
+          </BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+
+    <Card class="border-border/60 shadow-none">
+      <CardHeader class="space-y-3">
+        <div class="space-y-1.5">
+          <CardTitle class="text-xl">
+            {{ t("admin.gatewayPortalSettings.title") }}
+          </CardTitle>
+          <CardDescription class="max-w-3xl leading-6">
+            {{ t("admin.gatewayPortalSettings.description") }}
+          </CardDescription>
+        </div>
+      </CardHeader>
+      <CardContent class="space-y-0 divide-y border-t p-0">
+        <div
+          v-if="model.isLoading"
+          class="px-5 py-12 text-center text-sm text-muted-foreground"
+          role="status"
+        >
+          {{ t("admin.gatewayPortalSettings.loadingConfig") }}
+        </div>
+        <div
+          v-else-if="model.loadError"
+          class="px-5 py-4 text-sm text-destructive"
+          role="alert"
+        >
+          {{ model.loadError }}
+        </div>
+        <GatewayPortalSettingsPanel v-else :model="model" />
+      </CardContent>
+    </Card>
+  </div>
+</template>

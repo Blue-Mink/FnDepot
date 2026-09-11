@@ -1,1 +1,47 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmRlZmluZVByb3BzPHsKICBmdWxsc2NyZWVuOiBib29sZWFuOwogIGZ1bGxzY3JlZW5MYWJlbDogc3RyaW5nOwogIHRpdGxlOiBzdHJpbmc7CiAgdG9nZ2xlRnVsbHNjcmVlbjogKCkgPT4gdm9pZDsKfT4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgY2xhc3M9InJlbGF0aXZlIGZsZXggaC1bMzFweF0gc2hyaW5rLTAgaXRlbXMtY2VudGVyIGJvcmRlci1iIGJvcmRlci1ibGFjay8yOCBiZy1bbGluZWFyLWdyYWRpZW50KDE4MGRlZyxyZ2JhKDU4LDU4LDYxLDAuOTQpXzAlLHJnYmEoNDUsNDUsNDgsMC45NClfMTAwJSldIHB4LTMgYmFja2Ryb3AtYmx1ci14bCByb3VuZGVkLXQtWzE4cHhdIgogID4KICAgIDxkaXYKICAgICAgY2xhc3M9InBvaW50ZXItZXZlbnRzLW5vbmUgYWJzb2x1dGUgaW5zZXQteC0wIHRvcC0wIGgtcHggYmctd2hpdGUvMTAiCiAgICAvPgogICAgPGRpdiBjbGFzcz0iei0xMCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgIDxzcGFuCiAgICAgICAgY2xhc3M9ImgtWzExcHhdIHctWzExcHhdIHJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLWJsYWNrLzE4IGJnLVsjZmY1ZjU3XSBzaGFkb3ctW2luc2V0XzBfMXB4XzAuNXB4X3JnYmEoMjU1LDI1NSwyNTUsMC4yKV0iCiAgICAgIC8+CiAgICAgIDxzcGFuCiAgICAgICAgY2xhc3M9ImgtWzExcHhdIHctWzExcHhdIHJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLWJsYWNrLzE4IGJnLVsjZmViYzJlXSBzaGFkb3ctW2luc2V0XzBfMXB4XzAuNXB4X3JnYmEoMjU1LDI1NSwyNTUsMC4xOCldIgogICAgICAvPgogICAgICA8YnV0dG9uCiAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgIGNsYXNzPSJoLVsxMXB4XSB3LVsxMXB4XSByb3VuZGVkLWZ1bGwgYm9yZGVyIGJvcmRlci1ibGFjay8xOCBiZy1bIzI4Yzg0MF0gc2hhZG93LVtpbnNldF8wXzFweF8wLjVweF9yZ2JhKDI1NSwyNTUsMjU1LDAuMTgpXSB0cmFuc2l0aW9uLXRyYW5zZm9ybSBob3ZlcjpzY2FsZS0xMTAgZm9jdXMtdmlzaWJsZTpvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpyaW5nLTIgZm9jdXMtdmlzaWJsZTpyaW5nLVsjN2VlNzhkXS83MCIKICAgICAgICA6Y2xhc3M9ImZ1bGxzY3JlZW4gPyAncmluZy0xIHJpbmctd2hpdGUvMzUnIDogJyciCiAgICAgICAgOmFyaWEtbGFiZWw9ImZ1bGxzY3JlZW5MYWJlbCIKICAgICAgICA6YXJpYS1wcmVzc2VkPSJmdWxsc2NyZWVuIgogICAgICAgIDp0aXRsZT0iZnVsbHNjcmVlbkxhYmVsIgogICAgICAgIEBjbGljaz0idG9nZ2xlRnVsbHNjcmVlbiIKICAgICAgPgogICAgICAgIDxzcGFuIGNsYXNzPSJzci1vbmx5Ij57eyBmdWxsc2NyZWVuTGFiZWwgfX08L3NwYW4+CiAgICAgIDwvYnV0dG9uPgogICAgPC9kaXY+CgogICAgPGRpdgogICAgICBjbGFzcz0icG9pbnRlci1ldmVudHMtbm9uZSBhYnNvbHV0ZSBsZWZ0LTEvMiB0b3AtMS8yIG1pbi13LTAgbWF4LXctWzU2JV0gLXRyYW5zbGF0ZS14LTEvMiAtdHJhbnNsYXRlLXktMS8yIHRleHQtY2VudGVyIgogICAgPgogICAgICA8cAogICAgICAgIGNsYXNzPSJ0cnVuY2F0ZSB0ZXh0LVsxMnB4XSBmb250LW1lZGl1bSB0cmFja2luZy1bLTAuMDFlbV0gdGV4dC13aGl0ZS82OCIKICAgICAgPgogICAgICAgIHt7IHRpdGxlIH19CiAgICAgIDwvcD4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+defineProps<{
+  fullscreen: boolean;
+  fullscreenLabel: string;
+  title: string;
+  toggleFullscreen: () => void;
+}>();
+</script>
+
+<template>
+  <div
+    class="relative flex h-[31px] shrink-0 items-center border-b border-black/28 bg-[linear-gradient(180deg,rgba(58,58,61,0.94)_0%,rgba(45,45,48,0.94)_100%)] px-3 backdrop-blur-xl rounded-t-[18px]"
+  >
+    <div
+      class="pointer-events-none absolute inset-x-0 top-0 h-px bg-white/10"
+    />
+    <div class="z-10 flex items-center gap-2">
+      <span
+        class="h-[11px] w-[11px] rounded-full border border-black/18 bg-[#ff5f57] shadow-[inset_0_1px_0.5px_rgba(255,255,255,0.2)]"
+      />
+      <span
+        class="h-[11px] w-[11px] rounded-full border border-black/18 bg-[#febc2e] shadow-[inset_0_1px_0.5px_rgba(255,255,255,0.18)]"
+      />
+      <button
+        type="button"
+        class="h-[11px] w-[11px] rounded-full border border-black/18 bg-[#28c840] shadow-[inset_0_1px_0.5px_rgba(255,255,255,0.18)] transition-transform hover:scale-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7ee78d]/70"
+        :class="fullscreen ? 'ring-1 ring-white/35' : ''"
+        :aria-label="fullscreenLabel"
+        :aria-pressed="fullscreen"
+        :title="fullscreenLabel"
+        @click="toggleFullscreen"
+      >
+        <span class="sr-only">{{ fullscreenLabel }}</span>
+      </button>
+    </div>
+
+    <div
+      class="pointer-events-none absolute left-1/2 top-1/2 min-w-0 max-w-[56%] -translate-x-1/2 -translate-y-1/2 text-center"
+    >
+      <p
+        class="truncate text-[12px] font-medium tracking-[-0.01em] text-white/68"
+      >
+        {{ title }}
+      </p>
+    </div>
+  </div>
+</template>

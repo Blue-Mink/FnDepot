@@ -1,1 +1,91 @@
-aW1wb3J0IHsgcmVmLCB3YXRjaCwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwoKZXhwb3J0IHR5cGUgTWFwcGluZ1N0YXR1c1Rvb2x0aXAgPQogIHwgImF2YWlsYWJpbGl0eSIKICB8ICJkZWZhdWx0LWRvbWFpbiIKICB8ICJhdXRoZW50aWNhdGlvbiIKICB8ICJ3YWYiCiAgfCAidmlzaWJpbGl0eSIKICB8ICJ0b29sYmFyIgogIHwgImFkdmFuY2VkLWF1dGgiCiAgfCAibG9jYXRpb24tcnVsZXMiOwoKZXhwb3J0IGNvbnN0IHVzZVN1YmRvbWFpblRvdWNoVG9vbHRpcHMgPSAoewogIGlzVG91Y2hJbnRlcmFjdGlvbiwKICBzaG91bGRTaG93UG9ydGFsRGlzYWJsZWRUb29sdGlwLAp9OiB7CiAgaXNUb3VjaEludGVyYWN0aW9uOiBSZWY8Ym9vbGVhbj47CiAgc2hvdWxkU2hvd1BvcnRhbERpc2FibGVkVG9vbHRpcDogUmVmPGJvb2xlYW4+Owp9KSA9PiB7CiAgY29uc3Qgb3Blbk1hcHBpbmdTdGF0dXNUb29sdGlwS2V5ID0gcmVmPHN0cmluZyB8IG51bGw+KG51bGwpOwogIGNvbnN0IGlzUG9ydGFsRGlzYWJsZWRUb29sdGlwT3BlbiA9IHJlZihmYWxzZSk7CgogIGNvbnN0IGdldE1hcHBpbmdTdGF0dXNUb29sdGlwS2V5ID0gKAogICAgaG9zdDogc3RyaW5nLAogICAgdG9vbHRpcDogTWFwcGluZ1N0YXR1c1Rvb2x0aXAsCiAgKSA9PiBgJHtob3N0fVx1MDAwMCR7dG9vbHRpcH1gOwoKICBjb25zdCBpc01hcHBpbmdTdGF0dXNUb29sdGlwT3BlbiA9ICgKICAgIGhvc3Q6IHN0cmluZywKICAgIHRvb2x0aXA6IE1hcHBpbmdTdGF0dXNUb29sdGlwLAogICk6IGJvb2xlYW4gPT4KICAgIG9wZW5NYXBwaW5nU3RhdHVzVG9vbHRpcEtleS52YWx1ZSA9PT0KICAgIGdldE1hcHBpbmdTdGF0dXNUb29sdGlwS2V5KGhvc3QsIHRvb2x0aXApOwoKICBjb25zdCBoYW5kbGVNYXBwaW5nU3RhdHVzVG9vbHRpcE9wZW5DaGFuZ2UgPSAoCiAgICBob3N0OiBzdHJpbmcsCiAgICB0b29sdGlwOiBNYXBwaW5nU3RhdHVzVG9vbHRpcCwKICAgIG5leHRPcGVuOiBib29sZWFuLAogICkgPT4gewogICAgY29uc3Qga2V5ID0gZ2V0TWFwcGluZ1N0YXR1c1Rvb2x0aXBLZXkoaG9zdCwgdG9vbHRpcCk7CgogICAgaWYgKG5leHRPcGVuKSB7CiAgICAgIG9wZW5NYXBwaW5nU3RhdHVzVG9vbHRpcEtleS52YWx1ZSA9IGtleTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGlmIChvcGVuTWFwcGluZ1N0YXR1c1Rvb2x0aXBLZXkudmFsdWUgPT09IGtleSkgewogICAgICBvcGVuTWFwcGluZ1N0YXR1c1Rvb2x0aXBLZXkudmFsdWUgPSBudWxsOwogICAgfQogIH07CgogIGNvbnN0IGhhbmRsZU1hcHBpbmdTdGF0dXNUb29sdGlwVHJpZ2dlckNsaWNrID0gKAogICAgaG9zdDogc3RyaW5nLAogICAgdG9vbHRpcDogTWFwcGluZ1N0YXR1c1Rvb2x0aXAsCiAgKSA9PiB7CiAgICBpZiAoIWlzVG91Y2hJbnRlcmFjdGlvbi52YWx1ZSkgewogICAgICByZXR1cm47CiAgICB9CgogICAgY29uc3Qga2V5ID0gZ2V0TWFwcGluZ1N0YXR1c1Rvb2x0aXBLZXkoaG9zdCwgdG9vbHRpcCk7CiAgICBvcGVuTWFwcGluZ1N0YXR1c1Rvb2x0aXBLZXkudmFsdWUgPQogICAgICBvcGVuTWFwcGluZ1N0YXR1c1Rvb2x0aXBLZXkudmFsdWUgPT09IGtleSA/IG51bGwgOiBrZXk7CiAgfTsKCiAgY29uc3QgaGFuZGxlUG9ydGFsRGlzYWJsZWRUb29sdGlwT3BlbkNoYW5nZSA9IChuZXh0T3BlbjogYm9vbGVhbikgPT4gewogICAgaXNQb3J0YWxEaXNhYmxlZFRvb2x0aXBPcGVuLnZhbHVlID0gbmV4dE9wZW47CiAgfTsKCiAgY29uc3QgaGFuZGxlUG9ydGFsRGlzYWJsZWRUb29sdGlwVHJpZ2dlckNsaWNrID0gKCkgPT4gewogICAgaWYgKCFzaG91bGRTaG93UG9ydGFsRGlzYWJsZWRUb29sdGlwLnZhbHVlIHx8ICFpc1RvdWNoSW50ZXJhY3Rpb24udmFsdWUpIHsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGlzUG9ydGFsRGlzYWJsZWRUb29sdGlwT3Blbi52YWx1ZSA9ICFpc1BvcnRhbERpc2FibGVkVG9vbHRpcE9wZW4udmFsdWU7CiAgfTsKCiAgd2F0Y2goc2hvdWxkU2hvd1BvcnRhbERpc2FibGVkVG9vbHRpcCwgKHZpc2libGUpID0+IHsKICAgIGlmICghdmlzaWJsZSkgewogICAgICBpc1BvcnRhbERpc2FibGVkVG9vbHRpcE9wZW4udmFsdWUgPSBmYWxzZTsKICAgIH0KICB9KTsKCiAgcmV0dXJuIHsKICAgIGhhbmRsZU1hcHBpbmdTdGF0dXNUb29sdGlwT3BlbkNoYW5nZSwKICAgIGhhbmRsZU1hcHBpbmdTdGF0dXNUb29sdGlwVHJpZ2dlckNsaWNrLAogICAgaGFuZGxlUG9ydGFsRGlzYWJsZWRUb29sdGlwT3BlbkNoYW5nZSwKICAgIGhhbmRsZVBvcnRhbERpc2FibGVkVG9vbHRpcFRyaWdnZXJDbGljaywKICAgIGlzTWFwcGluZ1N0YXR1c1Rvb2x0aXBPcGVuLAogICAgaXNQb3J0YWxEaXNhYmxlZFRvb2x0aXBPcGVuLAogIH07Cn07Cg==
+import { ref, watch, type Ref } from "vue";
+
+export type MappingStatusTooltip =
+  | "availability"
+  | "default-domain"
+  | "authentication"
+  | "waf"
+  | "visibility"
+  | "toolbar"
+  | "advanced-auth"
+  | "location-rules";
+
+export const useSubdomainTouchTooltips = ({
+  isTouchInteraction,
+  shouldShowPortalDisabledTooltip,
+}: {
+  isTouchInteraction: Ref<boolean>;
+  shouldShowPortalDisabledTooltip: Ref<boolean>;
+}) => {
+  const openMappingStatusTooltipKey = ref<string | null>(null);
+  const isPortalDisabledTooltipOpen = ref(false);
+
+  const getMappingStatusTooltipKey = (
+    host: string,
+    tooltip: MappingStatusTooltip,
+  ) => `${host}\u0000${tooltip}`;
+
+  const isMappingStatusTooltipOpen = (
+    host: string,
+    tooltip: MappingStatusTooltip,
+  ): boolean =>
+    openMappingStatusTooltipKey.value ===
+    getMappingStatusTooltipKey(host, tooltip);
+
+  const handleMappingStatusTooltipOpenChange = (
+    host: string,
+    tooltip: MappingStatusTooltip,
+    nextOpen: boolean,
+  ) => {
+    const key = getMappingStatusTooltipKey(host, tooltip);
+
+    if (nextOpen) {
+      openMappingStatusTooltipKey.value = key;
+      return;
+    }
+
+    if (openMappingStatusTooltipKey.value === key) {
+      openMappingStatusTooltipKey.value = null;
+    }
+  };
+
+  const handleMappingStatusTooltipTriggerClick = (
+    host: string,
+    tooltip: MappingStatusTooltip,
+  ) => {
+    if (!isTouchInteraction.value) {
+      return;
+    }
+
+    const key = getMappingStatusTooltipKey(host, tooltip);
+    openMappingStatusTooltipKey.value =
+      openMappingStatusTooltipKey.value === key ? null : key;
+  };
+
+  const handlePortalDisabledTooltipOpenChange = (nextOpen: boolean) => {
+    isPortalDisabledTooltipOpen.value = nextOpen;
+  };
+
+  const handlePortalDisabledTooltipTriggerClick = () => {
+    if (!shouldShowPortalDisabledTooltip.value || !isTouchInteraction.value) {
+      return;
+    }
+
+    isPortalDisabledTooltipOpen.value = !isPortalDisabledTooltipOpen.value;
+  };
+
+  watch(shouldShowPortalDisabledTooltip, (visible) => {
+    if (!visible) {
+      isPortalDisabledTooltipOpen.value = false;
+    }
+  });
+
+  return {
+    handleMappingStatusTooltipOpenChange,
+    handleMappingStatusTooltipTriggerClick,
+    handlePortalDisabledTooltipOpenChange,
+    handlePortalDisabledTooltipTriggerClick,
+    isMappingStatusTooltipOpen,
+    isPortalDisabledTooltipOpen,
+  };
+};

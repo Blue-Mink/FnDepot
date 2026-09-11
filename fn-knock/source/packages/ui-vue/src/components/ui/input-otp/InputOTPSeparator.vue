@@ -1,1 +1,21 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IE1pbnVzSWNvbiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCIKaW1wb3J0IHsgdXNlRm9yd2FyZFByb3BzIH0gZnJvbSAicmVrYS11aSIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8eyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdIH0+KCkKCmNvbnN0IGZvcndhcmRlZCA9IHVzZUZvcndhcmRQcm9wcyhwcm9wcykKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgZGF0YS1zbG90PSJpbnB1dC1vdHAtc2VwYXJhdG9yIgogICAgcm9sZT0ic2VwYXJhdG9yIgogICAgdi1iaW5kPSJmb3J3YXJkZWQiCiAgPgogICAgPHNsb3Q+CiAgICAgIDxNaW51c0ljb24gLz4KICAgIDwvc2xvdD4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { MinusIcon } from "lucide-vue-next"
+import { useForwardProps } from "reka-ui"
+
+const props = defineProps<{ class?: HTMLAttributes["class"] }>()
+
+const forwarded = useForwardProps(props)
+</script>
+
+<template>
+  <div
+    data-slot="input-otp-separator"
+    role="separator"
+    v-bind="forwarded"
+  >
+    <slot>
+      <MinusIcon />
+    </slot>
+  </div>
+</template>

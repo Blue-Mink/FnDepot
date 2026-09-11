@@ -1,1 +1,22 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCmltcG9ydCB7IElucHV0IH0gZnJvbSAnQC9jb21wb25lbnRzL3VpL2lucHV0JwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXQp9PigpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxJbnB1dAogICAgZGF0YS1zbG90PSJzaWRlYmFyLWlucHV0IgogICAgZGF0YS1zaWRlYmFyPSJpbnB1dCIKICAgIDpjbGFzcz0iY24oCiAgICAgICdiZy1iYWNrZ3JvdW5kIGgtOCB3LWZ1bGwgc2hhZG93LW5vbmUnLAogICAgICBwcm9wcy5jbGFzcywKICAgICkiCiAgPgogICAgPHNsb3QgLz4KICA8L0lucHV0Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+import { Input } from '@/components/ui/input'
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <Input
+    data-slot="sidebar-input"
+    data-sidebar="input"
+    :class="cn(
+      'bg-background h-8 w-full shadow-none',
+      props.class,
+    )"
+  >
+    <slot />
+  </Input>
+</template>

@@ -1,1 +1,75 @@
-WwogIHsKICAgICJzdGVwVGl0bGUiOiAi56uv5Y+j6YWN572uIiwKICAgICJpdGVtcyI6IFsKICAgICAgewogICAgICAgICJ0eXBlIjogInRpcHMiLAogICAgICAgICJoZWxwVGV4dCI6ICLor7fmjInpnIDphY3nva7mlbLpl6hrbm9ja+S9v+eUqOeahOerr+WPo+OAguerr+WPo+W/hemhu+aYryAxLTY1NTM1IOeahOaVsOWtl++8jOS4lOWbm+S4querr+WPo+S4jeiDvemHjeWkjeOAgiIKICAgICAgfSwKICAgICAgewogICAgICAgICJ0eXBlIjogInRleHQiLAogICAgICAgICJmaWVsZCI6ICJ3aXphcmRfYmFja2VuZF9wb3J0IiwKICAgICAgICAibGFiZWwiOiAi566h55CG5ZCO56uv56uv5Y+jIChCQUNLRU5EX1BPUlQpIiwKICAgICAgICAiaW5pdFZhbHVlIjogIjc5OTgiLAogICAgICAgICJydWxlcyI6IFsKICAgICAgICAgIHsKICAgICAgICAgICAgInJlcXVpcmVkIjogdHJ1ZSwKICAgICAgICAgICAgIm1lc3NhZ2UiOiAi6K+36L6T5YWl566h55CG5ZCO56uv56uv5Y+jIgogICAgICAgICAgfSwKICAgICAgICAgIHsKICAgICAgICAgICAgInBhdHRlcm4iOiAiXlswLTldKyQiLAogICAgICAgICAgICAibWVzc2FnZSI6ICLnq6/lj6Plv4XpobvmmK/mlbDlrZciCiAgICAgICAgICB9CiAgICAgICAgXQogICAgICB9LAogICAgICB7CiAgICAgICAgInR5cGUiOiAidGV4dCIsCiAgICAgICAgImZpZWxkIjogIndpemFyZF9hdXRoX3BvcnQiLAogICAgICAgICJsYWJlbCI6ICLorqTor4Hnq6/lj6MgKEFVVEhfUE9SVCkiLAogICAgICAgICJpbml0VmFsdWUiOiAiNzk5NyIsCiAgICAgICAgInJ1bGVzIjogWwogICAgICAgICAgewogICAgICAgICAgICAicmVxdWlyZWQiOiB0cnVlLAogICAgICAgICAgICAibWVzc2FnZSI6ICLor7fovpPlhaXorqTor4Hnq6/lj6MiCiAgICAgICAgICB9LAogICAgICAgICAgewogICAgICAgICAgICAicGF0dGVybiI6ICJeWzAtOV0rJCIsCiAgICAgICAgICAgICJtZXNzYWdlIjogIuerr+WPo+W/hemhu+aYr+aVsOWtlyIKICAgICAgICAgIH0KICAgICAgICBdCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAidHlwZSI6ICJ0ZXh0IiwKICAgICAgICAiZmllbGQiOiAid2l6YXJkX2dvX2JhY2tlbmRfcG9ydCIsCiAgICAgICAgImxhYmVsIjogIkdvIOeuoeeQhuerr+WPoyAoR09fQkFDS0VORF9QT1JUKSIsCiAgICAgICAgImluaXRWYWx1ZSI6ICI3OTk2IiwKICAgICAgICAicnVsZXMiOiBbCiAgICAgICAgICB7CiAgICAgICAgICAgICJyZXF1aXJlZCI6IHRydWUsCiAgICAgICAgICAgICJtZXNzYWdlIjogIuivt+i+k+WFpSBHbyDnrqHnkIbnq6/lj6MiCiAgICAgICAgICB9LAogICAgICAgICAgewogICAgICAgICAgICAicGF0dGVybiI6ICJeWzAtOV0rJCIsCiAgICAgICAgICAgICJtZXNzYWdlIjogIuerr+WPo+W/hemhu+aYr+aVsOWtlyIKICAgICAgICAgIH0KICAgICAgICBdCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAidHlwZSI6ICJ0ZXh0IiwKICAgICAgICAiZmllbGQiOiAid2l6YXJkX2dvX3JlcHJveHlfcG9ydCIsCiAgICAgICAgImxhYmVsIjogIkdvIOS7o+eQhuerr+WPoyAoR09fUkVQUk9YWV9QT1JUKSIsCiAgICAgICAgImluaXRWYWx1ZSI6ICI3OTk5IiwKICAgICAgICAicnVsZXMiOiBbCiAgICAgICAgICB7CiAgICAgICAgICAgICJyZXF1aXJlZCI6IHRydWUsCiAgICAgICAgICAgICJtZXNzYWdlIjogIuivt+i+k+WFpSBHbyDku6PnkIbnq6/lj6MiCiAgICAgICAgICB9LAogICAgICAgICAgewogICAgICAgICAgICAicGF0dGVybiI6ICJeWzAtOV0rJCIsCiAgICAgICAgICAgICJtZXNzYWdlIjogIuerr+WPo+W/hemhu+aYr+aVsOWtlyIKICAgICAgICAgIH0KICAgICAgICBdCiAgICAgIH0KICAgIF0KICB9Cl0K
+[
+  {
+    "stepTitle": "端口配置",
+    "items": [
+      {
+        "type": "tips",
+        "helpText": "请按需配置敲门knock使用的端口。端口必须是 1-65535 的数字，且四个端口不能重复。"
+      },
+      {
+        "type": "text",
+        "field": "wizard_backend_port",
+        "label": "管理后端端口 (BACKEND_PORT)",
+        "initValue": "7998",
+        "rules": [
+          {
+            "required": true,
+            "message": "请输入管理后端端口"
+          },
+          {
+            "pattern": "^[0-9]+$",
+            "message": "端口必须是数字"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "field": "wizard_auth_port",
+        "label": "认证端口 (AUTH_PORT)",
+        "initValue": "7997",
+        "rules": [
+          {
+            "required": true,
+            "message": "请输入认证端口"
+          },
+          {
+            "pattern": "^[0-9]+$",
+            "message": "端口必须是数字"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "field": "wizard_go_backend_port",
+        "label": "Go 管理端口 (GO_BACKEND_PORT)",
+        "initValue": "7996",
+        "rules": [
+          {
+            "required": true,
+            "message": "请输入 Go 管理端口"
+          },
+          {
+            "pattern": "^[0-9]+$",
+            "message": "端口必须是数字"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "field": "wizard_go_reproxy_port",
+        "label": "Go 代理端口 (GO_REPROXY_PORT)",
+        "initValue": "7999",
+        "rules": [
+          {
+            "required": true,
+            "message": "请输入 Go 代理端口"
+          },
+          {
+            "pattern": "^[0-9]+$",
+            "message": "端口必须是数字"
+          }
+        ]
+      }
+    ]
+  }
+]

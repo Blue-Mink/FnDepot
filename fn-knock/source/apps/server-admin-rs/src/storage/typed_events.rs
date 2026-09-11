@@ -1,1 +1,346 @@
-dXNlIHNlcmRlX2pzb246OlZhbHVlOwp1c2UgdG9raW9fcnVzcWxpdGU6OnJ1c3FsaXRlOjp7T3B0aW9uYWxFeHRlbnNpb24sIFRyYW5zYWN0aW9uLCBUcmFuc2FjdGlvbkJlaGF2aW9yLCBwYXJhbXN9OwoKdXNlIHN1cGVyOjp7U3RvcmFnZVJlc3VsdCwgcmVkaXNfY29tcGF0OjpDb25uZWN0aW9uTWFuYWdlciwgc3RvcmFnZV9lcnJvcn07Cgpjb25zdCBUWVBFRF9FVkVOVF9TQ0hFTUFfVkVSU0lPTjogaTY0ID0gMTsKY29uc3QgVFlQRURfRVZFTlRfU0NIRU1BX05BTUU6ICZzdHIgPSAidHlwZWRfc3lzdGVtX2V2ZW50cyI7CmNvbnN0IFRZUEVEX0VWRU5UX1RSQUNFX1NDSEVNQV9WRVJTSU9OOiBpNjQgPSAyOwpjb25zdCBUWVBFRF9FVkVOVF9UUkFDRV9TQ0hFTUFfTkFNRTogJnN0ciA9ICJ0eXBlZF9zeXN0ZW1fZXZlbnRfdHJhY2VfaW5kZXgiOwpjb25zdCBUWVBFRF9FVkVOVF9UUkFDRV9TQ0hFTUFfU1FMOiAmc3RyID0gciMiCkFMVEVSIFRBQkxFIHN5c3RlbV9ldmVudF9kb2N1bWVudHMgQUREIENPTFVNTiB0cmFjZV9pZCBURVhUOwpDUkVBVEUgSU5ERVggaWR4X3N5c3RlbV9ldmVudF9kb2N1bWVudHNfdHJhY2UKICBPTiBzeXN0ZW1fZXZlbnRfZG9jdW1lbnRzKHRyYWNlX2lkLCBoYXBwZW5lZF9hdF9tcyBERVNDLCBpZCBERVNDKTsKIiM7CmNvbnN0IFRZUEVEX0VWRU5UX1NDSEVNQV9TUUw6ICZzdHIgPSByIyIKQ1JFQVRFIFRBQkxFIHN5c3RlbV9ldmVudF9kb2N1bWVudHMgKAogIGlkIFRFWFQgUFJJTUFSWSBLRVksCiAgZXZlbnRfanNvbiBURVhUIE5PVCBOVUxMLAogIGhhcHBlbmVkX2F0X21zIElOVEVHRVIgTk9UIE5VTEwgQ0hFQ0sgKGhhcHBlbmVkX2F0X21zID49IDApLAogIGV4cGlyZXNfYXRfbXMgSU5URUdFUiBOT1QgTlVMTCBDSEVDSyAoZXhwaXJlc19hdF9tcyA+PSAwKSwKICBzdHJlYW1faWQgVEVYVCBOT1QgTlVMTCwKICB1cGRhdGVkX2F0X21zIElOVEVHRVIgTk9UIE5VTEwKKTsKQ1JFQVRFIElOREVYIGlkeF9zeXN0ZW1fZXZlbnRfZG9jdW1lbnRzX2hhcHBlbmVkCiAgT04gc3lzdGVtX2V2ZW50X2RvY3VtZW50cyhoYXBwZW5lZF9hdF9tcyBERVNDLCBpZCBERVNDKTsKQ1JFQVRFIElOREVYIGlkeF9zeXN0ZW1fZXZlbnRfZG9jdW1lbnRzX2V4cGlyZXMKICBPTiBzeXN0ZW1fZXZlbnRfZG9jdW1lbnRzKGV4cGlyZXNfYXRfbXMpOwoiIzsKCmNvbnN0IFRZUEVEX0VWRU5UX01JR1JBVElPTlNfU1FMOiAmc3RyID0gciMiCkNSRUFURSBUQUJMRSBJRiBOT1QgRVhJU1RTIHR5cGVkX2V2ZW50X3NjaGVtYV9taWdyYXRpb25zICgKICB2ZXJzaW9uIElOVEVHRVIgUFJJTUFSWSBLRVksCiAgbmFtZSBURVhUIE5PVCBOVUxMLAogIGNoZWNrc3VtIFRFWFQgTk9UIE5VTEwsCiAgYXBwbGllZF9hdF9tcyBJTlRFR0VSIE5PVCBOVUxMCik7CiIjOwoKI1tkZXJpdmUoQ2xvbmUpXQpwdWIoY3JhdGUpIHN0cnVjdCBUeXBlZEV2ZW50UmVwb3NpdG9yeSB7CiAgICBtYW5hZ2VyOiBDb25uZWN0aW9uTWFuYWdlciwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnKV0KcHViKGNyYXRlKSBzdHJ1Y3QgVHlwZWRTeXN0ZW1FdmVudCB7CiAgICBwdWIoY3JhdGUpIGV2ZW50OiBWYWx1ZSwKICAgIHB1YihjcmF0ZSkgaGFwcGVuZWRfYXRfbXM6IGk2NCwKfQoKaW1wbCBUeXBlZEV2ZW50UmVwb3NpdG9yeSB7CiAgICBwdWIoY3JhdGUpIGZuIG5ldyhtYW5hZ2VyOiBDb25uZWN0aW9uTWFuYWdlcikgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7IG1hbmFnZXIgfQogICAgfQoKICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gaW5pdGlhbGl6ZSgmc2VsZikgLT4gU3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIHNlbGYubWFuYWdlcgogICAgICAgICAgICAuY2FsbChtb3ZlIHxjb25ufCB7CiAgICAgICAgICAgICAgICBsZXQgdHggPSBjb25uLnRyYW5zYWN0aW9uX3dpdGhfYmVoYXZpb3IoVHJhbnNhY3Rpb25CZWhhdmlvcjo6SW1tZWRpYXRlKT87CiAgICAgICAgICAgICAgICB0eC5leGVjdXRlX2JhdGNoKFRZUEVEX0VWRU5UX01JR1JBVElPTlNfU1FMKT87CiAgICAgICAgICAgICAgICBsZXQgZXhwZWN0ZWRfY2hlY2tzdW0gPSBjcmF0ZTo6Y3J5cHRvX3V0aWxzOjpzaGEyNTZfaGV4X2J5dGVzKFRZUEVEX0VWRU5UX1NDSEVNQV9TUUwpOwogICAgICAgICAgICAgICAgbGV0IGFwcGxpZWQgPSB0eAogICAgICAgICAgICAgICAgICAgIC5xdWVyeV9yb3coCiAgICAgICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgbmFtZSwgY2hlY2tzdW0gRlJPTSB0eXBlZF9ldmVudF9zY2hlbWFfbWlncmF0aW9ucyBXSEVSRSB2ZXJzaW9uID0gPzEiLAogICAgICAgICAgICAgICAgICAgICAgICBbVFlQRURfRVZFTlRfU0NIRU1BX1ZFUlNJT05dLAogICAgICAgICAgICAgICAgICAgICAgICB8cm93fCBPaygocm93LmdldDo6PF8sIFN0cmluZz4oMCk/LCByb3cuZ2V0Ojo8XywgU3RyaW5nPigxKT8pKSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgLm9wdGlvbmFsKCk/OwogICAgICAgICAgICAgICAgbWF0Y2ggYXBwbGllZCB7CiAgICAgICAgICAgICAgICAgICAgU29tZSgobmFtZSwgY2hlY2tzdW0pKQogICAgICAgICAgICAgICAgICAgICAgICBpZiBuYW1lID09IFRZUEVEX0VWRU5UX1NDSEVNQV9OQU1FICYmIGNoZWNrc3VtID09IGV4cGVjdGVkX2NoZWNrc3VtID0+CiAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICBsZXQgdGFibGVfZXhpc3RzID0gdHgucXVlcnlfcm93KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIlNFTEVDVCBFWElTVFMoU0VMRUNUIDEgRlJPTSBzcWxpdGVfbWFzdGVyIFdIRVJFIHR5cGUgPSAndGFibGUnIEFORCBuYW1lID0gJ3N5c3RlbV9ldmVudF9kb2N1bWVudHMnKSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHxyb3d8IHJvdy5nZXQ6OjxfLCBib29sPigwKSwKICAgICAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICAgICAgICAgIGlmICF0YWJsZV9leGlzdHMgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihzdG9yYWdlX2Vycm9yKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0eXBlZCBzeXN0ZW0tZXZlbnQgbWlncmF0aW9uIGlzIHJlY29yZGVkIGJ1dCBpdHMgdGFibGUgaXMgbWlzc2luZyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBTb21lKChuYW1lLCBfKSkgaWYgbmFtZSAhPSBUWVBFRF9FVkVOVF9TQ0hFTUFfTkFNRSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigidHlwZWQgc3lzdGVtLWV2ZW50IG1pZ3JhdGlvbiBuYW1lIG1pc21hdGNoIikpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBTb21lKF8pID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihzdG9yYWdlX2Vycm9yKCJ0eXBlZCBzeXN0ZW0tZXZlbnQgbWlncmF0aW9uIGNoZWNrc3VtIG1pc21hdGNoIikpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBOb25lID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgdHguZXhlY3V0ZV9iYXRjaChUWVBFRF9FVkVOVF9TQ0hFTUFfU1FMKT87CiAgICAgICAgICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiSU5TRVJUIElOVE8gdHlwZWRfZXZlbnRfc2NoZW1hX21pZ3JhdGlvbnModmVyc2lvbiwgbmFtZSwgY2hlY2tzdW0sIGFwcGxpZWRfYXRfbXMpIFZBTFVFUyAoPzEsID8yLCA/MywgPzQpIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtcyFbCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVFlQRURfRVZFTlRfU0NIRU1BX1ZFUlNJT04sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVFlQRURfRVZFTlRfU0NIRU1BX05BTUUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXhwZWN0ZWRfY2hlY2tzdW0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgbGV0IHRyYWNlX2NoZWNrc3VtID0KICAgICAgICAgICAgICAgICAgICBjcmF0ZTo6Y3J5cHRvX3V0aWxzOjpzaGEyNTZfaGV4X2J5dGVzKFRZUEVEX0VWRU5UX1RSQUNFX1NDSEVNQV9TUUwpOwogICAgICAgICAgICAgICAgbGV0IHRyYWNlX2FwcGxpZWQgPSB0eAogICAgICAgICAgICAgICAgICAgIC5xdWVyeV9yb3coCiAgICAgICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgbmFtZSwgY2hlY2tzdW0gRlJPTSB0eXBlZF9ldmVudF9zY2hlbWFfbWlncmF0aW9ucyBXSEVSRSB2ZXJzaW9uID0gPzEiLAogICAgICAgICAgICAgICAgICAgICAgICBbVFlQRURfRVZFTlRfVFJBQ0VfU0NIRU1BX1ZFUlNJT05dLAogICAgICAgICAgICAgICAgICAgICAgICB8cm93fCBPaygocm93LmdldDo6PF8sIFN0cmluZz4oMCk/LCByb3cuZ2V0Ojo8XywgU3RyaW5nPigxKT8pKSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgLm9wdGlvbmFsKCk/OwogICAgICAgICAgICAgICAgbWF0Y2ggdHJhY2VfYXBwbGllZCB7CiAgICAgICAgICAgICAgICAgICAgU29tZSgobmFtZSwgY2hlY2tzdW0pKQogICAgICAgICAgICAgICAgICAgICAgICBpZiBuYW1lID09IFRZUEVEX0VWRU5UX1RSQUNFX1NDSEVNQV9OQU1FICYmIGNoZWNrc3VtID09IHRyYWNlX2NoZWNrc3VtID0+IHt9CiAgICAgICAgICAgICAgICAgICAgU29tZSgobmFtZSwgXykpIGlmIG5hbWUgIT0gVFlQRURfRVZFTlRfVFJBQ0VfU0NIRU1BX05BTUUgPT4gewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gRXJyKHN0b3JhZ2VfZXJyb3IoInR5cGVkIHN5c3RlbS1ldmVudCB0cmFjZSBtaWdyYXRpb24gbmFtZSBtaXNtYXRjaCIpKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgU29tZShfKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigidHlwZWQgc3lzdGVtLWV2ZW50IHRyYWNlIG1pZ3JhdGlvbiBjaGVja3N1bSBtaXNtYXRjaCIpKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgTm9uZSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGVfYmF0Y2goVFlQRURfRVZFTlRfVFJBQ0VfU0NIRU1BX1NRTCk/OwogICAgICAgICAgICAgICAgICAgICAgICB0eC5leGVjdXRlKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIklOU0VSVCBJTlRPIHR5cGVkX2V2ZW50X3NjaGVtYV9taWdyYXRpb25zKHZlcnNpb24sIG5hbWUsIGNoZWNrc3VtLCBhcHBsaWVkX2F0X21zKSBWQUxVRVMgKD8xLCA/MiwgPzMsID80KSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXJhbXMhWwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRZUEVEX0VWRU5UX1RSQUNFX1NDSEVNQV9WRVJTSU9OLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRZUEVEX0VWRU5UX1RSQUNFX1NDSEVNQV9OQU1FLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNlX2NoZWNrc3VtLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfbXMoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICAgICAgICk/OwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHR4LmNvbW1pdCgpPzsKICAgICAgICAgICAgICAgIE9rKCgpKQogICAgICAgICAgICB9KQogICAgICAgICAgICAuYXdhaXQKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIHVwc2VydF90eCgKICAgICAgICB0eDogJlRyYW5zYWN0aW9uPCdfPiwKICAgICAgICBpZDogJnN0ciwKICAgICAgICBldmVudF9qc29uOiAmc3RyLAogICAgICAgIGhhcHBlbmVkX2F0X21zOiBpNjQsCiAgICAgICAgZXhwaXJlc19hdF9tczogaTY0LAogICAgICAgIHN0cmVhbV9pZDogJnN0ciwKICAgICkgLT4gU3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGxldCBldmVudDogVmFsdWUgPSBzZXJkZV9qc29uOjpmcm9tX3N0cihldmVudF9qc29uKT87CiAgICAgICAgbGV0IHRyYWNlX2lkID0gY3JhdGU6OnRyYWNlX2lkOjpldmVudF90cmFjZV9pZCgmZXZlbnQpOwogICAgICAgIGlmIGlkLnRyaW0oKS5pc19lbXB0eSgpIHx8IHN0cmVhbV9pZC50cmltKCkuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigKICAgICAgICAgICAgICAgICJ0eXBlZCBzeXN0ZW0gZXZlbnQgcmVxdWlyZXMgYW4gaWQgYW5kIHN0cmVhbSBpZCIsCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgICAgICB0eC5leGVjdXRlKAogICAgICAgICAgICAiSU5TRVJUIElOVE8gc3lzdGVtX2V2ZW50X2RvY3VtZW50cyhpZCwgZXZlbnRfanNvbiwgaGFwcGVuZWRfYXRfbXMsIGV4cGlyZXNfYXRfbXMsIHN0cmVhbV9pZCwgdXBkYXRlZF9hdF9tcywgdHJhY2VfaWQpCiAgICAgICAgICAgICBWQUxVRVMgKD8xLCA/MiwgPzMsID80LCA/NSwgPzYsID83KQogICAgICAgICAgICAgT04gQ09ORkxJQ1QoaWQpIERPIFVQREFURSBTRVQKICAgICAgICAgICAgICAgZXZlbnRfanNvbiA9IGV4Y2x1ZGVkLmV2ZW50X2pzb24sCiAgICAgICAgICAgICAgIGhhcHBlbmVkX2F0X21zID0gZXhjbHVkZWQuaGFwcGVuZWRfYXRfbXMsCiAgICAgICAgICAgICAgIGV4cGlyZXNfYXRfbXMgPSBleGNsdWRlZC5leHBpcmVzX2F0X21zLAogICAgICAgICAgICAgICBzdHJlYW1faWQgPSBleGNsdWRlZC5zdHJlYW1faWQsCiAgICAgICAgICAgICAgIHVwZGF0ZWRfYXRfbXMgPSBleGNsdWRlZC51cGRhdGVkX2F0X21zLAogICAgICAgICAgICAgICB0cmFjZV9pZCA9IGV4Y2x1ZGVkLnRyYWNlX2lkIiwKICAgICAgICAgICAgcGFyYW1zIVsKICAgICAgICAgICAgICAgIGlkLAogICAgICAgICAgICAgICAgZXZlbnRfanNvbiwKICAgICAgICAgICAgICAgIGhhcHBlbmVkX2F0X21zLm1heCgwKSwKICAgICAgICAgICAgICAgIGV4cGlyZXNfYXRfbXMubWF4KDApLAogICAgICAgICAgICAgICAgc3RyZWFtX2lkLAogICAgICAgICAgICAgICAgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpLAogICAgICAgICAgICAgICAgdHJhY2VfaWQsCiAgICAgICAgICAgIF0sCiAgICAgICAgKT87CiAgICAgICAgT2soKCkpCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiB0cmltX3R4KAogICAgICAgIHR4OiAmVHJhbnNhY3Rpb248J18+LAogICAgICAgIGN1dG9mZl90aW1lc3RhbXA6IGk2NCwKICAgICAgICBtYXhfcmVjb3JkczogaTY0LAogICAgKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgdHguZXhlY3V0ZSgKICAgICAgICAgICAgIkRFTEVURSBGUk9NIHN5c3RlbV9ldmVudF9kb2N1bWVudHMgV0hFUkUgaGFwcGVuZWRfYXRfbXMgPD0gPzEgT1IgZXhwaXJlc19hdF9tcyA8PSA/MiIsCiAgICAgICAgICAgIHBhcmFtcyFbY3V0b2ZmX3RpbWVzdGFtcCwgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpXSwKICAgICAgICApPzsKICAgICAgICB0eC5leGVjdXRlKAogICAgICAgICAgICAiREVMRVRFIEZST00gc3lzdGVtX2V2ZW50X2RvY3VtZW50cwogICAgICAgICAgICAgV0hFUkUgaWQgSU4gKAogICAgICAgICAgICAgICBTRUxFQ1QgaWQgRlJPTSBzeXN0ZW1fZXZlbnRfZG9jdW1lbnRzCiAgICAgICAgICAgICAgIE9SREVSIEJZIGhhcHBlbmVkX2F0X21zIERFU0MsIGlkIERFU0MKICAgICAgICAgICAgICAgTElNSVQgLTEgT0ZGU0VUID8xCiAgICAgICAgICAgICApIiwKICAgICAgICAgICAgW21heF9yZWNvcmRzLm1heCgwKV0sCiAgICAgICAgKT87CiAgICAgICAgT2soKCkpCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiB1cGRhdGVfZXZlbnRfanNvbl90eCgKICAgICAgICB0eDogJlRyYW5zYWN0aW9uPCdfPiwKICAgICAgICBpZDogJnN0ciwKICAgICAgICBldmVudF9qc29uOiAmc3RyLAogICAgKSAtPiBTdG9yYWdlUmVzdWx0PGJvb2w+IHsKICAgICAgICBsZXQgZXZlbnQ6IFZhbHVlID0gc2VyZGVfanNvbjo6ZnJvbV9zdHIoZXZlbnRfanNvbik/OwogICAgICAgIGxldCB0cmFjZV9pZCA9IGNyYXRlOjp0cmFjZV9pZDo6ZXZlbnRfdHJhY2VfaWQoJmV2ZW50KTsKICAgICAgICBsZXQgdXBkYXRlZCA9IHR4LmV4ZWN1dGUoCiAgICAgICAgICAgICJVUERBVEUgc3lzdGVtX2V2ZW50X2RvY3VtZW50cwogICAgICAgICAgICAgU0VUIGV2ZW50X2pzb24gPSA/MiwgdXBkYXRlZF9hdF9tcyA9ID8zLCB0cmFjZV9pZCA9ID80CiAgICAgICAgICAgICBXSEVSRSBpZCA9ID8xIiwKICAgICAgICAgICAgcGFyYW1zIVtpZCwgZXZlbnRfanNvbiwgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpLCB0cmFjZV9pZF0sCiAgICAgICAgKT87CiAgICAgICAgT2sodXBkYXRlZCA+IDApCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiBkZWxldGVfdHgodHg6ICZUcmFuc2FjdGlvbjwnXz4sIGlkczogJltTdHJpbmddKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgZm9yIGlkIGluIGlkcyB7CiAgICAgICAgICAgIHR4LmV4ZWN1dGUoIkRFTEVURSBGUk9NIHN5c3RlbV9ldmVudF9kb2N1bWVudHMgV0hFUkUgaWQgPSA/MSIsIFtpZF0pPzsKICAgICAgICB9CiAgICAgICAgT2soKCkpCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiBjbGVhcl90eCh0eDogJlRyYW5zYWN0aW9uPCdfPikgLT4gU3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIHR4LmV4ZWN1dGUoIkRFTEVURSBGUk9NIHN5c3RlbV9ldmVudF9kb2N1bWVudHMiLCBbXSk/OwogICAgICAgIE9rKCgpKQogICAgfQoKICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gcmVidWlsZF9mcm9tX2xlZ2FjeSgKICAgICAgICAmc2VsZiwKICAgICAgICBpbmRleF9rZXk6ICZzdHIsCiAgICAgICAgZGF0YV9wcmVmaXg6ICZzdHIsCiAgICAgICAgc3RyZWFtX2lkX3ByZWZpeDogJnN0ciwKICAgICkgLT4gU3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGxldCBpbmRleF9rZXkgPSBpbmRleF9rZXkudG9fc3RyaW5nKCk7CiAgICAgICAgbGV0IGRhdGFfcHJlZml4ID0gZGF0YV9wcmVmaXgudG9fc3RyaW5nKCk7CiAgICAgICAgbGV0IHN0cmVhbV9pZF9wcmVmaXggPSBzdHJlYW1faWRfcHJlZml4LnRvX3N0cmluZygpOwogICAgICAgIHNlbGYubWFuYWdlcgogICAgICAgICAgICAuY2FsbChtb3ZlIHxjb25ufCB7CiAgICAgICAgICAgICAgICBsZXQgdHggPSBjb25uLnRyYW5zYWN0aW9uX3dpdGhfYmVoYXZpb3IoVHJhbnNhY3Rpb25CZWhhdmlvcjo6SW1tZWRpYXRlKT87CiAgICAgICAgICAgICAgICB0eC5leGVjdXRlKCJERUxFVEUgRlJPTSBzeXN0ZW1fZXZlbnRfZG9jdW1lbnRzIiwgW10pPzsKICAgICAgICAgICAgICAgIGxldCBub3cgPSBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCk7CiAgICAgICAgICAgICAgICBsZXQgbXV0IHN0YXRlbWVudCA9IHR4LnByZXBhcmUoCiAgICAgICAgICAgICAgICAgICAgIlNFTEVDVCBpbmRleGVkLm1lbWJlciwgaW5kZXhlZC5zY29yZSwgZGF0YS52YWx1ZSwgZGF0YV9rZXkuZXhwaXJlc19hdF9tcywgc3RyZWFtLnZhbHVlCiAgICAgICAgICAgICAgICAgICAgIEZST00ga3ZfenNldCBBUyBpbmRleGVkCiAgICAgICAgICAgICAgICAgICAgIEpPSU4ga3Zfc3RyaW5ncyBBUyBkYXRhIE9OIGRhdGEua2V5ID0gPzIgfHwgaW5kZXhlZC5tZW1iZXIKICAgICAgICAgICAgICAgICAgICAgSk9JTiBrdl9rZXlzIEFTIGRhdGFfa2V5IE9OIGRhdGFfa2V5LmtleSA9IGRhdGEua2V5CiAgICAgICAgICAgICAgICAgICAgIExFRlQgSk9JTiBrdl9zdHJpbmdzIEFTIHN0cmVhbSBPTiBzdHJlYW0ua2V5ID0gPzMgfHwgaW5kZXhlZC5tZW1iZXIKICAgICAgICAgICAgICAgICAgICAgV0hFUkUgaW5kZXhlZC5rZXkgPSA/MQogICAgICAgICAgICAgICAgICAgICAgIEFORCAoZGF0YV9rZXkuZXhwaXJlc19hdF9tcyBJUyBOVUxMIE9SIGRhdGFfa2V5LmV4cGlyZXNfYXRfbXMgPiA/NCkKICAgICAgICAgICAgICAgICAgICAgT1JERVIgQlkgaW5kZXhlZC5zY29yZSBBU0MsIGluZGV4ZWQubWVtYmVyIEFTQyIsCiAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgICAgIGxldCByb3dzID0gc3RhdGVtZW50LnF1ZXJ5X21hcCgKICAgICAgICAgICAgICAgICAgICBwYXJhbXMhW2luZGV4X2tleSwgZGF0YV9wcmVmaXgsIHN0cmVhbV9pZF9wcmVmaXgsIG5vd10sCiAgICAgICAgICAgICAgICAgICAgfHJvd3wgewogICAgICAgICAgICAgICAgICAgICAgICBPaygoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByb3cuZ2V0Ojo8XywgU3RyaW5nPigwKT8sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByb3cuZ2V0Ojo8XywgZjY0PigxKT8sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByb3cuZ2V0Ojo8XywgU3RyaW5nPigyKT8sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByb3cuZ2V0Ojo8XywgT3B0aW9uPGk2ND4+KDMpPywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJvdy5nZXQ6OjxfLCBPcHRpb248U3RyaW5nPj4oNCk/LAogICAgICAgICAgICAgICAgICAgICAgICApKQogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgICAgIGZvciByb3cgaW4gcm93cyB7CiAgICAgICAgICAgICAgICAgICAgbGV0IChpZCwgc2NvcmUsIGV2ZW50X2pzb24sIGV4cGlyZXNfYXRfbXMsIHN0cmVhbV9pZCkgPSByb3c/OwogICAgICAgICAgICAgICAgICAgIGlmIHNlcmRlX2pzb246OmZyb21fc3RyOjo8VmFsdWU+KCZldmVudF9qc29uKS5pc19lcnIoKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBsZXQgc3RyZWFtX2lkID0gc3RyZWFtX2lkLnVud3JhcF9vcl9lbHNlKHx8IGZvcm1hdCEoImxlZ2FjeTp7aWR9IikpOwogICAgICAgICAgICAgICAgICAgIFNlbGY6OnVwc2VydF90eCgKICAgICAgICAgICAgICAgICAgICAgICAgJnR4LAogICAgICAgICAgICAgICAgICAgICAgICAmaWQsCiAgICAgICAgICAgICAgICAgICAgICAgICZldmVudF9qc29uLAogICAgICAgICAgICAgICAgICAgICAgICBzY29yZSBhcyBpNjQsCiAgICAgICAgICAgICAgICAgICAgICAgIGV4cGlyZXNfYXRfbXMudW53cmFwX29yKG5vdy5zYXR1cmF0aW5nX2FkZCg4Nl80MDBfMDAwKSksCiAgICAgICAgICAgICAgICAgICAgICAgICZzdHJlYW1faWQsCiAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBkcm9wKHN0YXRlbWVudCk7CiAgICAgICAgICAgICAgICB0eC5jb21taXQoKT87CiAgICAgICAgICAgICAgICBPaygoKSkKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmF3YWl0CiAgICB9CgogICAgcHViKGNyYXRlKSBhc3luYyBmbiBsb2FkX2FjdGl2ZSgmc2VsZikgLT4gU3RvcmFnZVJlc3VsdDxWZWM8VHlwZWRTeXN0ZW1FdmVudD4+IHsKICAgICAgICBzZWxmLm1hbmFnZXIKICAgICAgICAgICAgLmNhbGwobW92ZSB8Y29ubnwgewogICAgICAgICAgICAgICAgbGV0IG5vdyA9IGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfbXMoKTsKICAgICAgICAgICAgICAgIGxldCBtdXQgc3RhdGVtZW50ID0gY29ubi5wcmVwYXJlKAogICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgZXZlbnRfanNvbiwgaGFwcGVuZWRfYXRfbXMKICAgICAgICAgICAgICAgICAgICAgRlJPTSBzeXN0ZW1fZXZlbnRfZG9jdW1lbnRzCiAgICAgICAgICAgICAgICAgICAgIFdIRVJFIGV4cGlyZXNfYXRfbXMgPiA/MQogICAgICAgICAgICAgICAgICAgICBPUkRFUiBCWSBoYXBwZW5lZF9hdF9tcyBERVNDLCBpZCBERVNDIiwKICAgICAgICAgICAgICAgICk/OwogICAgICAgICAgICAgICAgbGV0IHJvd3MgPSBzdGF0ZW1lbnQucXVlcnlfbWFwKFtub3ddLCB8cm93fCB7CiAgICAgICAgICAgICAgICAgICAgT2soKHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDApPywgcm93LmdldDo6PF8sIGk2ND4oMSk/KSkKICAgICAgICAgICAgICAgIH0pPzsKICAgICAgICAgICAgICAgIGxldCBtdXQgZXZlbnRzID0gVmVjOjpuZXcoKTsKICAgICAgICAgICAgICAgIGZvciByb3cgaW4gcm93cyB7CiAgICAgICAgICAgICAgICAgICAgbGV0IChldmVudF9qc29uLCBoYXBwZW5lZF9hdF9tcykgPSByb3c/OwogICAgICAgICAgICAgICAgICAgIGxldCBldmVudCA9IHNlcmRlX2pzb246OmZyb21fc3RyKCZldmVudF9qc29uKS5tYXBfZXJyKHxlcnJvcnwgewogICAgICAgICAgICAgICAgICAgICAgICBzdG9yYWdlX2Vycm9yKGZvcm1hdCEoInR5cGVkIHN5c3RlbSBldmVudCBkb2N1bWVudCBpcyBpbnZhbGlkOiB7ZXJyb3J9IikpCiAgICAgICAgICAgICAgICAgICAgfSk/OwogICAgICAgICAgICAgICAgICAgIGV2ZW50cy5wdXNoKFR5cGVkU3lzdGVtRXZlbnQgewogICAgICAgICAgICAgICAgICAgICAgICBldmVudCwKICAgICAgICAgICAgICAgICAgICAgICAgaGFwcGVuZWRfYXRfbXMsCiAgICAgICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBPayhldmVudHMpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gbG9hZF9ieV90cmFjZSgmc2VsZiwgdHJhY2VfaWQ6ICZzdHIpIC0+IFN0b3JhZ2VSZXN1bHQ8VmVjPFZhbHVlPj4gewogICAgICAgIGxldCB0cmFjZV9pZCA9IHRyYWNlX2lkLnRvX3N0cmluZygpOwogICAgICAgIHNlbGYubWFuYWdlcgogICAgICAgICAgICAuY2FsbChtb3ZlIHxjb25ufCB7CiAgICAgICAgICAgICAgICBsZXQgbXV0IHN0YXRlbWVudCA9IGNvbm4ucHJlcGFyZSgKICAgICAgICAgICAgICAgICAgICAiU0VMRUNUIGV2ZW50X2pzb24gRlJPTSBzeXN0ZW1fZXZlbnRfZG9jdW1lbnRzCiAgICAgICAgICAgICAgICAgICAgIFdIRVJFIHRyYWNlX2lkID0gPzEgQU5EIGV4cGlyZXNfYXRfbXMgPiA/MgogICAgICAgICAgICAgICAgICAgICBPUkRFUiBCWSBoYXBwZW5lZF9hdF9tcyBBU0MsIGlkIEFTQyIsCiAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgICAgIGxldCByb3dzID0gc3RhdGVtZW50CiAgICAgICAgICAgICAgICAgICAgLnF1ZXJ5X21hcChwYXJhbXMhW3RyYWNlX2lkLCBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCldLCB8cm93fCB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDApCiAgICAgICAgICAgICAgICAgICAgfSk/OwogICAgICAgICAgICAgICAgbGV0IG11dCBldmVudHMgPSBWZWM6Om5ldygpOwogICAgICAgICAgICAgICAgZm9yIHJvdyBpbiByb3dzIHsKICAgICAgICAgICAgICAgICAgICBldmVudHMucHVzaChzZXJkZV9qc29uOjpmcm9tX3N0cigmcm93Pyk/KTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIE9rKGV2ZW50cykKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmF3YWl0CiAgICB9CgogICAgI1tjZmcodGVzdCldCiAgICBwdWIoY3JhdGUpIGFzeW5jIGZuIGNvdW50KCZzZWxmKSAtPiBTdG9yYWdlUmVzdWx0PGk2ND4gewogICAgICAgIHNlbGYubWFuYWdlcgogICAgICAgICAgICAuY2FsbChtb3ZlIHxjb25ufCB7CiAgICAgICAgICAgICAgICBjb25uLnF1ZXJ5X3JvdygiU0VMRUNUIENPVU5UKCopIEZST00gc3lzdGVtX2V2ZW50X2RvY3VtZW50cyIsIFtdLCB8cm93fCB7CiAgICAgICAgICAgICAgICAgICAgcm93LmdldCgwKQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC5tYXBfZXJyKEludG86OmludG8pCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQp9Cg==
+use serde_json::Value;
+use tokio_rusqlite::rusqlite::{OptionalExtension, Transaction, TransactionBehavior, params};
+
+use super::{StorageResult, redis_compat::ConnectionManager, storage_error};
+
+const TYPED_EVENT_SCHEMA_VERSION: i64 = 1;
+const TYPED_EVENT_SCHEMA_NAME: &str = "typed_system_events";
+const TYPED_EVENT_TRACE_SCHEMA_VERSION: i64 = 2;
+const TYPED_EVENT_TRACE_SCHEMA_NAME: &str = "typed_system_event_trace_index";
+const TYPED_EVENT_TRACE_SCHEMA_SQL: &str = r#"
+ALTER TABLE system_event_documents ADD COLUMN trace_id TEXT;
+CREATE INDEX idx_system_event_documents_trace
+  ON system_event_documents(trace_id, happened_at_ms DESC, id DESC);
+"#;
+const TYPED_EVENT_SCHEMA_SQL: &str = r#"
+CREATE TABLE system_event_documents (
+  id TEXT PRIMARY KEY,
+  event_json TEXT NOT NULL,
+  happened_at_ms INTEGER NOT NULL CHECK (happened_at_ms >= 0),
+  expires_at_ms INTEGER NOT NULL CHECK (expires_at_ms >= 0),
+  stream_id TEXT NOT NULL,
+  updated_at_ms INTEGER NOT NULL
+);
+CREATE INDEX idx_system_event_documents_happened
+  ON system_event_documents(happened_at_ms DESC, id DESC);
+CREATE INDEX idx_system_event_documents_expires
+  ON system_event_documents(expires_at_ms);
+"#;
+
+const TYPED_EVENT_MIGRATIONS_SQL: &str = r#"
+CREATE TABLE IF NOT EXISTS typed_event_schema_migrations (
+  version INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  checksum TEXT NOT NULL,
+  applied_at_ms INTEGER NOT NULL
+);
+"#;
+
+#[derive(Clone)]
+pub(crate) struct TypedEventRepository {
+    manager: ConnectionManager,
+}
+
+#[derive(Clone, Debug)]
+pub(crate) struct TypedSystemEvent {
+    pub(crate) event: Value,
+    pub(crate) happened_at_ms: i64,
+}
+
+impl TypedEventRepository {
+    pub(crate) fn new(manager: ConnectionManager) -> Self {
+        Self { manager }
+    }
+
+    pub(crate) async fn initialize(&self) -> StorageResult<()> {
+        self.manager
+            .call(move |conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                tx.execute_batch(TYPED_EVENT_MIGRATIONS_SQL)?;
+                let expected_checksum = crate::crypto_utils::sha256_hex_bytes(TYPED_EVENT_SCHEMA_SQL);
+                let applied = tx
+                    .query_row(
+                        "SELECT name, checksum FROM typed_event_schema_migrations WHERE version = ?1",
+                        [TYPED_EVENT_SCHEMA_VERSION],
+                        |row| Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?)),
+                    )
+                    .optional()?;
+                match applied {
+                    Some((name, checksum))
+                        if name == TYPED_EVENT_SCHEMA_NAME && checksum == expected_checksum =>
+                    {
+                        let table_exists = tx.query_row(
+                            "SELECT EXISTS(SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'system_event_documents')",
+                            [],
+                            |row| row.get::<_, bool>(0),
+                        )?;
+                        if !table_exists {
+                            return Err(storage_error(
+                                "typed system-event migration is recorded but its table is missing",
+                            ));
+                        }
+                    }
+                    Some((name, _)) if name != TYPED_EVENT_SCHEMA_NAME => {
+                        return Err(storage_error("typed system-event migration name mismatch"));
+                    }
+                    Some(_) => {
+                        return Err(storage_error("typed system-event migration checksum mismatch"));
+                    }
+                    None => {
+                        tx.execute_batch(TYPED_EVENT_SCHEMA_SQL)?;
+                        tx.execute(
+                            "INSERT INTO typed_event_schema_migrations(version, name, checksum, applied_at_ms) VALUES (?1, ?2, ?3, ?4)",
+                            params![
+                                TYPED_EVENT_SCHEMA_VERSION,
+                                TYPED_EVENT_SCHEMA_NAME,
+                                expected_checksum,
+                                crate::time_utils::now_ms(),
+                            ],
+                        )?;
+                    }
+                }
+                let trace_checksum =
+                    crate::crypto_utils::sha256_hex_bytes(TYPED_EVENT_TRACE_SCHEMA_SQL);
+                let trace_applied = tx
+                    .query_row(
+                        "SELECT name, checksum FROM typed_event_schema_migrations WHERE version = ?1",
+                        [TYPED_EVENT_TRACE_SCHEMA_VERSION],
+                        |row| Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?)),
+                    )
+                    .optional()?;
+                match trace_applied {
+                    Some((name, checksum))
+                        if name == TYPED_EVENT_TRACE_SCHEMA_NAME && checksum == trace_checksum => {}
+                    Some((name, _)) if name != TYPED_EVENT_TRACE_SCHEMA_NAME => {
+                        return Err(storage_error("typed system-event trace migration name mismatch"));
+                    }
+                    Some(_) => {
+                        return Err(storage_error("typed system-event trace migration checksum mismatch"));
+                    }
+                    None => {
+                        tx.execute_batch(TYPED_EVENT_TRACE_SCHEMA_SQL)?;
+                        tx.execute(
+                            "INSERT INTO typed_event_schema_migrations(version, name, checksum, applied_at_ms) VALUES (?1, ?2, ?3, ?4)",
+                            params![
+                                TYPED_EVENT_TRACE_SCHEMA_VERSION,
+                                TYPED_EVENT_TRACE_SCHEMA_NAME,
+                                trace_checksum,
+                                crate::time_utils::now_ms(),
+                            ],
+                        )?;
+                    }
+                }
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub(crate) fn upsert_tx(
+        tx: &Transaction<'_>,
+        id: &str,
+        event_json: &str,
+        happened_at_ms: i64,
+        expires_at_ms: i64,
+        stream_id: &str,
+    ) -> StorageResult<()> {
+        let event: Value = serde_json::from_str(event_json)?;
+        let trace_id = crate::trace_id::event_trace_id(&event);
+        if id.trim().is_empty() || stream_id.trim().is_empty() {
+            return Err(storage_error(
+                "typed system event requires an id and stream id",
+            ));
+        }
+        tx.execute(
+            "INSERT INTO system_event_documents(id, event_json, happened_at_ms, expires_at_ms, stream_id, updated_at_ms, trace_id)
+             VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7)
+             ON CONFLICT(id) DO UPDATE SET
+               event_json = excluded.event_json,
+               happened_at_ms = excluded.happened_at_ms,
+               expires_at_ms = excluded.expires_at_ms,
+               stream_id = excluded.stream_id,
+               updated_at_ms = excluded.updated_at_ms,
+               trace_id = excluded.trace_id",
+            params![
+                id,
+                event_json,
+                happened_at_ms.max(0),
+                expires_at_ms.max(0),
+                stream_id,
+                crate::time_utils::now_ms(),
+                trace_id,
+            ],
+        )?;
+        Ok(())
+    }
+
+    pub(crate) fn trim_tx(
+        tx: &Transaction<'_>,
+        cutoff_timestamp: i64,
+        max_records: i64,
+    ) -> StorageResult<()> {
+        tx.execute(
+            "DELETE FROM system_event_documents WHERE happened_at_ms <= ?1 OR expires_at_ms <= ?2",
+            params![cutoff_timestamp, crate::time_utils::now_ms()],
+        )?;
+        tx.execute(
+            "DELETE FROM system_event_documents
+             WHERE id IN (
+               SELECT id FROM system_event_documents
+               ORDER BY happened_at_ms DESC, id DESC
+               LIMIT -1 OFFSET ?1
+             )",
+            [max_records.max(0)],
+        )?;
+        Ok(())
+    }
+
+    pub(crate) fn update_event_json_tx(
+        tx: &Transaction<'_>,
+        id: &str,
+        event_json: &str,
+    ) -> StorageResult<bool> {
+        let event: Value = serde_json::from_str(event_json)?;
+        let trace_id = crate::trace_id::event_trace_id(&event);
+        let updated = tx.execute(
+            "UPDATE system_event_documents
+             SET event_json = ?2, updated_at_ms = ?3, trace_id = ?4
+             WHERE id = ?1",
+            params![id, event_json, crate::time_utils::now_ms(), trace_id],
+        )?;
+        Ok(updated > 0)
+    }
+
+    pub(crate) fn delete_tx(tx: &Transaction<'_>, ids: &[String]) -> StorageResult<()> {
+        for id in ids {
+            tx.execute("DELETE FROM system_event_documents WHERE id = ?1", [id])?;
+        }
+        Ok(())
+    }
+
+    pub(crate) fn clear_tx(tx: &Transaction<'_>) -> StorageResult<()> {
+        tx.execute("DELETE FROM system_event_documents", [])?;
+        Ok(())
+    }
+
+    pub(crate) async fn rebuild_from_legacy(
+        &self,
+        index_key: &str,
+        data_prefix: &str,
+        stream_id_prefix: &str,
+    ) -> StorageResult<()> {
+        let index_key = index_key.to_string();
+        let data_prefix = data_prefix.to_string();
+        let stream_id_prefix = stream_id_prefix.to_string();
+        self.manager
+            .call(move |conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                tx.execute("DELETE FROM system_event_documents", [])?;
+                let now = crate::time_utils::now_ms();
+                let mut statement = tx.prepare(
+                    "SELECT indexed.member, indexed.score, data.value, data_key.expires_at_ms, stream.value
+                     FROM kv_zset AS indexed
+                     JOIN kv_strings AS data ON data.key = ?2 || indexed.member
+                     JOIN kv_keys AS data_key ON data_key.key = data.key
+                     LEFT JOIN kv_strings AS stream ON stream.key = ?3 || indexed.member
+                     WHERE indexed.key = ?1
+                       AND (data_key.expires_at_ms IS NULL OR data_key.expires_at_ms > ?4)
+                     ORDER BY indexed.score ASC, indexed.member ASC",
+                )?;
+                let rows = statement.query_map(
+                    params![index_key, data_prefix, stream_id_prefix, now],
+                    |row| {
+                        Ok((
+                            row.get::<_, String>(0)?,
+                            row.get::<_, f64>(1)?,
+                            row.get::<_, String>(2)?,
+                            row.get::<_, Option<i64>>(3)?,
+                            row.get::<_, Option<String>>(4)?,
+                        ))
+                    },
+                )?;
+                for row in rows {
+                    let (id, score, event_json, expires_at_ms, stream_id) = row?;
+                    if serde_json::from_str::<Value>(&event_json).is_err() {
+                        continue;
+                    }
+                    let stream_id = stream_id.unwrap_or_else(|| format!("legacy:{id}"));
+                    Self::upsert_tx(
+                        &tx,
+                        &id,
+                        &event_json,
+                        score as i64,
+                        expires_at_ms.unwrap_or(now.saturating_add(86_400_000)),
+                        &stream_id,
+                    )?;
+                }
+                drop(statement);
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub(crate) async fn load_active(&self) -> StorageResult<Vec<TypedSystemEvent>> {
+        self.manager
+            .call(move |conn| {
+                let now = crate::time_utils::now_ms();
+                let mut statement = conn.prepare(
+                    "SELECT event_json, happened_at_ms
+                     FROM system_event_documents
+                     WHERE expires_at_ms > ?1
+                     ORDER BY happened_at_ms DESC, id DESC",
+                )?;
+                let rows = statement.query_map([now], |row| {
+                    Ok((row.get::<_, String>(0)?, row.get::<_, i64>(1)?))
+                })?;
+                let mut events = Vec::new();
+                for row in rows {
+                    let (event_json, happened_at_ms) = row?;
+                    let event = serde_json::from_str(&event_json).map_err(|error| {
+                        storage_error(format!("typed system event document is invalid: {error}"))
+                    })?;
+                    events.push(TypedSystemEvent {
+                        event,
+                        happened_at_ms,
+                    });
+                }
+                Ok(events)
+            })
+            .await
+    }
+
+    pub(crate) async fn load_by_trace(&self, trace_id: &str) -> StorageResult<Vec<Value>> {
+        let trace_id = trace_id.to_string();
+        self.manager
+            .call(move |conn| {
+                let mut statement = conn.prepare(
+                    "SELECT event_json FROM system_event_documents
+                     WHERE trace_id = ?1 AND expires_at_ms > ?2
+                     ORDER BY happened_at_ms ASC, id ASC",
+                )?;
+                let rows = statement
+                    .query_map(params![trace_id, crate::time_utils::now_ms()], |row| {
+                        row.get::<_, String>(0)
+                    })?;
+                let mut events = Vec::new();
+                for row in rows {
+                    events.push(serde_json::from_str(&row?)?);
+                }
+                Ok(events)
+            })
+            .await
+    }
+
+    #[cfg(test)]
+    pub(crate) async fn count(&self) -> StorageResult<i64> {
+        self.manager
+            .call(move |conn| {
+                conn.query_row("SELECT COUNT(*) FROM system_event_documents", [], |row| {
+                    row.get(0)
+                })
+                .map_err(Into::into)
+            })
+            .await
+    }
+}

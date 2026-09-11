@@ -1,1 +1,11 @@
-aW1wb3J0IHsga29LUkF1dGggfSBmcm9tICIuLi8uLi9hdXRoL2tvLUtSIjsKaW1wb3J0IHsga29LUkNvbW1vbiB9IGZyb20gIi4uLy4uL2NvbW1vbi9rby1LUiI7CmltcG9ydCB7IGtvS1JMb2NhbGUgfSBmcm9tICIuLi8uLi9sb2NhbGUva28tS1IiOwppbXBvcnQgeyBrb0tSU2hhcmVkIH0gZnJvbSAiLi4vLi4vc2hhcmVkL2tvLUtSIjsKCmV4cG9ydCBkZWZhdWx0IHsKICBjb21tb246IGtvS1JDb21tb24sCiAgbG9jYWxlOiBrb0tSTG9jYWxlLAogIHNoYXJlZDoga29LUlNoYXJlZCwKICBhdXRoOiBrb0tSQXV0aCwKfTsK
+import { koKRAuth } from "../../auth/ko-KR";
+import { koKRCommon } from "../../common/ko-KR";
+import { koKRLocale } from "../../locale/ko-KR";
+import { koKRShared } from "../../shared/ko-KR";
+
+export default {
+  common: koKRCommon,
+  locale: koKRLocale,
+  shared: koKRShared,
+  auth: koKRAuth,
+};

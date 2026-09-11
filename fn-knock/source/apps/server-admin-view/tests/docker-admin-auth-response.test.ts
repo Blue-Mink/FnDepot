@@ -1,1 +1,56 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgppbXBvcnQgeyBpc0RvY2tlckFkbWluQXV0aFJlcXVpcmVkUmVzcG9uc2UgfSBmcm9tICIuLi9zcmMvbGliL2RvY2tlci1hZG1pbi1hdXRoLXJlc3BvbnNlIjsKCmRlc2NyaWJlKCJEb2NrZXIgYWRtaW4gYXV0aGVudGljYXRpb24gcmVzcG9uc2UgbWFya2VyIiwgKCkgPT4gewogIGl0KCJhY2NlcHRzIG9ubHkgbWFya2VkIDQwMSByZXNwb25zZXMiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGlzRG9ja2VyQWRtaW5BdXRoUmVxdWlyZWRSZXNwb25zZSh7CiAgICAgICAgcmVzcG9uc2U6IHsKICAgICAgICAgIHN0YXR1czogNDAxLAogICAgICAgICAgaGVhZGVyczogeyAieC1mbi1rbm9jay1hZG1pbi1hdXRoIjogInJlcXVpcmVkIiB9LAogICAgICAgIH0sCiAgICAgIH0pLAogICAgICB0cnVlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgaXNEb2NrZXJBZG1pbkF1dGhSZXF1aXJlZFJlc3BvbnNlKHsKICAgICAgICByZXNwb25zZTogeyBzdGF0dXM6IDQwMSwgaGVhZGVyczoge30gfSwKICAgICAgfSksCiAgICAgIGZhbHNlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgaXNEb2NrZXJBZG1pbkF1dGhSZXF1aXJlZFJlc3BvbnNlKHsKICAgICAgICByZXNwb25zZTogewogICAgICAgICAgc3RhdHVzOiA0MDMsCiAgICAgICAgICBoZWFkZXJzOiB7ICJ4LWZuLWtub2NrLWFkbWluLWF1dGgiOiAicmVxdWlyZWQiIH0sCiAgICAgICAgfSwKICAgICAgfSksCiAgICAgIGZhbHNlLAogICAgKTsKICB9KTsKCiAgaXQoInN1cHBvcnRzIEF4aW9zSGVhZGVycy1zdHlsZSBhY2Nlc3MgYW5kIGNhc2UtaW5zZW5zaXRpdmUgdmFsdWVzIiwgKCkgPT4gewogICAgY29uc3QgaGVhZGVycyA9IG5ldyBNYXA8c3RyaW5nLCBzdHJpbmc+KFsKICAgICAgWyJ4LWZuLWtub2NrLWFkbWluLWF1dGgiLCAicmVxdWlyZWQiXSwKICAgIF0pOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBpc0RvY2tlckFkbWluQXV0aFJlcXVpcmVkUmVzcG9uc2UoewogICAgICAgIHJlc3BvbnNlOiB7IHN0YXR1czogNDAxLCBoZWFkZXJzIH0sCiAgICAgIH0pLAogICAgICB0cnVlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgaXNEb2NrZXJBZG1pbkF1dGhSZXF1aXJlZFJlc3BvbnNlKHsKICAgICAgICByZXNwb25zZTogewogICAgICAgICAgc3RhdHVzOiA0MDEsCiAgICAgICAgICBoZWFkZXJzOiB7ICJYLUZuLUtub2NrLUFkbWluLUF1dGgiOiAicmVxdWlyZWQiIH0sCiAgICAgICAgfSwKICAgICAgfSksCiAgICAgIHRydWUsCiAgICApOwogIH0pOwp9KTsK
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import { isDockerAdminAuthRequiredResponse } from "../src/lib/docker-admin-auth-response";
+
+describe("Docker admin authentication response marker", () => {
+  it("accepts only marked 401 responses", () => {
+    assert.equal(
+      isDockerAdminAuthRequiredResponse({
+        response: {
+          status: 401,
+          headers: { "x-fn-knock-admin-auth": "required" },
+        },
+      }),
+      true,
+    );
+    assert.equal(
+      isDockerAdminAuthRequiredResponse({
+        response: { status: 401, headers: {} },
+      }),
+      false,
+    );
+    assert.equal(
+      isDockerAdminAuthRequiredResponse({
+        response: {
+          status: 403,
+          headers: { "x-fn-knock-admin-auth": "required" },
+        },
+      }),
+      false,
+    );
+  });
+
+  it("supports AxiosHeaders-style access and case-insensitive values", () => {
+    const headers = new Map<string, string>([
+      ["x-fn-knock-admin-auth", "required"],
+    ]);
+    assert.equal(
+      isDockerAdminAuthRequiredResponse({
+        response: { status: 401, headers },
+      }),
+      true,
+    );
+    assert.equal(
+      isDockerAdminAuthRequiredResponse({
+        response: {
+          status: 401,
+          headers: { "X-Fn-Knock-Admin-Auth": "required" },
+        },
+      }),
+      true,
+    );
+  });
+});

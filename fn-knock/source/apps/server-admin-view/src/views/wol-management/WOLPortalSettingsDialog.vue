@@ -1,1 +1,59 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsgU3dpdGNoIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N3aXRjaCI7CgpkZWZpbmVQcm9wczx7CiAgb3BlbjogYm9vbGVhbjsKICBzaG93V29sOiBib29sZWFuOwogIHNhdmluZzogYm9vbGVhbjsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgInVwZGF0ZTpvcGVuIjogW3ZhbHVlOiBib29sZWFuXTsKICAidXBkYXRlOnNob3dXb2wiOiBbdmFsdWU6IGJvb2xlYW5dOwogIHNhdmU6IFtdOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iZW1pdCgndXBkYXRlOm9wZW4nLCAkZXZlbnQpIj4KICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJzbTptYXgtdy1tZCI+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPnt7IHQoImFkbWluLndvbC5wb3J0YWwudGl0bGUiKSB9fTwvRGlhbG9nVGl0bGU+CiAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPnt7CiAgICAgICAgICB0KCJhZG1pbi53b2wucG9ydGFsLmRlc2NyaXB0aW9uIikKICAgICAgICB9fTwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQgcm91bmRlZC1sZyBib3JkZXIgcC00Ij4KICAgICAgICA8TGFiZWwgZm9yPSJ3b2wtcG9ydGFsLXNob3J0Y3V0IiBjbGFzcz0ibGVhZGluZy02Ij4KICAgICAgICAgIHt7IHQoImFkbWluLndvbC5wb3J0YWwuc2hvd1Nob3J0Y3V0IikgfX0KICAgICAgICA8L0xhYmVsPgogICAgICAgIDxTd2l0Y2gKICAgICAgICAgIGlkPSJ3b2wtcG9ydGFsLXNob3J0Y3V0IgogICAgICAgICAgOm1vZGVsLXZhbHVlPSJzaG93V29sIgogICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgndXBkYXRlOnNob3dXb2wnLCAkZXZlbnQpIgogICAgICAgIC8+CiAgICAgIDwvZGl2PgogICAgICA8RGlhbG9nRm9vdGVyPgogICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgQGNsaWNrPSJlbWl0KCd1cGRhdGU6b3BlbicsIGZhbHNlKSI+CiAgICAgICAgICB7eyB0KCJjb21tb24uY2FuY2VsIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uIDpkaXNhYmxlZD0ic2F2aW5nIiBAY2xpY2s9ImVtaXQoJ3NhdmUnKSI+CiAgICAgICAgICB7eyBzYXZpbmcgPyB0KCJhZG1pbi53b2wuc2F2aW5nIikgOiB0KCJjb21tb24uc2F2ZSIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+
+defineProps<{
+  open: boolean;
+  showWol: boolean;
+  saving: boolean;
+}>();
+
+const emit = defineEmits<{
+  "update:open": [value: boolean];
+  "update:showWol": [value: boolean];
+  save: [];
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="sm:max-w-md">
+      <DialogHeader>
+        <DialogTitle>{{ t("admin.wol.portal.title") }}</DialogTitle>
+        <DialogDescription>{{
+          t("admin.wol.portal.description")
+        }}</DialogDescription>
+      </DialogHeader>
+      <div class="flex items-center justify-between gap-4 rounded-lg border p-4">
+        <Label for="wol-portal-shortcut" class="leading-6">
+          {{ t("admin.wol.portal.showShortcut") }}
+        </Label>
+        <Switch
+          id="wol-portal-shortcut"
+          :model-value="showWol"
+          @update:model-value="emit('update:showWol', $event)"
+        />
+      </div>
+      <DialogFooter>
+        <Button variant="outline" @click="emit('update:open', false)">
+          {{ t("common.cancel") }}
+        </Button>
+        <Button :disabled="saving" @click="emit('save')">
+          {{ saving ? t("admin.wol.saving") : t("common.save") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

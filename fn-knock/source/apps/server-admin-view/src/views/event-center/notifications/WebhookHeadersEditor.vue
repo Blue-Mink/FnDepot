@@ -1,1 +1,180 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCB1c2VJZCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IFBsdXMsIFRyYXNoMiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHR5cGUgewogIE5vdGlmaWNhdGlvbkhlYWRlckNvbnN0cmFpbnRzLAogIE5vdGlmaWNhdGlvbkhlYWRlckVudHJ5LAp9IGZyb20gIi4uLy4uLy4uL3R5cGVzIjsKaW1wb3J0IHsKICBjb2VyY2VXZWJob29rSGVhZGVyRW50cmllcywKICByZXNvbHZlV2ViaG9va0hlYWRlckNvbnN0cmFpbnRzLAogIHZhbGlkYXRlV2ViaG9va0hlYWRlckVudHJpZXMsCiAgdHlwZSBXZWJob29rSGVhZGVyVmFsaWRhdGlvbklzc3VlLAp9IGZyb20gIi4vd2ViaG9vay1oZWFkZXJzIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIG1vZGVsVmFsdWU6IE5vdGlmaWNhdGlvbkhlYWRlckVudHJ5W107CiAgY29uc3RyYWludHM/OiBOb3RpZmljYXRpb25IZWFkZXJDb25zdHJhaW50czsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgInVwZGF0ZTptb2RlbFZhbHVlIjogW3ZhbHVlOiBOb3RpZmljYXRpb25IZWFkZXJFbnRyeVtdXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBhMTF5SWQgPSB1c2VJZCgpOwpjb25zdCBlbnRyaWVzID0gY29tcHV0ZWQoKCkgPT4gY29lcmNlV2ViaG9va0hlYWRlckVudHJpZXMocHJvcHMubW9kZWxWYWx1ZSkpOwpjb25zdCByZXNvbHZlZENvbnN0cmFpbnRzID0gY29tcHV0ZWQoKCkgPT4KICByZXNvbHZlV2ViaG9va0hlYWRlckNvbnN0cmFpbnRzKHByb3BzLmNvbnN0cmFpbnRzKSwKKTsKY29uc3QgaXNzdWVzID0gY29tcHV0ZWQoKCkgPT4KICB2YWxpZGF0ZVdlYmhvb2tIZWFkZXJFbnRyaWVzKGVudHJpZXMudmFsdWUsIHJlc29sdmVkQ29uc3RyYWludHMudmFsdWUpLAopOwpjb25zdCBnbG9iYWxJc3N1ZXMgPSBjb21wdXRlZCgoKSA9PgogIGlzc3Vlcy52YWx1ZS5maWx0ZXIoKGlzc3VlKSA9PiBpc3N1ZS5yb3cgPT09IHVuZGVmaW5lZCksCik7Cgpjb25zdCByb3dJc3N1ZXMgPSAocm93OiBudW1iZXIpID0+CiAgaXNzdWVzLnZhbHVlLmZpbHRlcigoaXNzdWUpID0+IGlzc3VlLnJvdyA9PT0gcm93KTsKY29uc3Qgcm93SGFzVmFsdWVJc3N1ZSA9IChyb3c6IG51bWJlcikgPT4KICByb3dJc3N1ZXMocm93KS5zb21lKChpc3N1ZSkgPT4KICAgIFsidmFsdWVUb29Mb25nIiwgImludmFsaWRWYWx1ZSJdLmluY2x1ZGVzKGlzc3VlLmNvZGUpLAogICk7CmNvbnN0IHJvd0hhc05hbWVJc3N1ZSA9IChyb3c6IG51bWJlcikgPT4KICByb3dJc3N1ZXMocm93KS5zb21lKAogICAgKGlzc3VlKSA9PiAhWyJ2YWx1ZVRvb0xvbmciLCAiaW52YWxpZFZhbHVlIl0uaW5jbHVkZXMoaXNzdWUuY29kZSksCiAgKTsKCmNvbnN0IGZvcm1hdElzc3VlID0gKGlzc3VlOiBXZWJob29rSGVhZGVyVmFsaWRhdGlvbklzc3VlKSA9PgogIHQoYGFkbWluLm5vdGlmaWNhdGlvbnMuaGVhZGVycy5lcnJvcnMuJHtpc3N1ZS5jb2RlfWAsIHsKICAgIG5hbWU6IGlzc3VlLm5hbWUgfHwgIiIsCiAgICBtYXg6IGlzc3VlLm1heCB8fCAiIiwKICB9KTsKCmNvbnN0IHVwZGF0ZUVudHJ5ID0gKAogIGluZGV4OiBudW1iZXIsCiAga2V5OiBrZXlvZiBOb3RpZmljYXRpb25IZWFkZXJFbnRyeSwKICB2YWx1ZTogc3RyaW5nIHwgbnVtYmVyLAopID0+IHsKICBjb25zdCBuZXh0ID0gZW50cmllcy52YWx1ZS5tYXAoKGVudHJ5KSA9PiAoeyAuLi5lbnRyeSB9KSk7CiAgbmV4dFtpbmRleF0gPSB7CiAgICAuLi4obmV4dFtpbmRleF0gfHwgeyBuYW1lOiAiIiwgdmFsdWU6ICIiIH0pLAogICAgW2tleV06IFN0cmluZyh2YWx1ZSksCiAgfTsKICBlbWl0KCJ1cGRhdGU6bW9kZWxWYWx1ZSIsIG5leHQpOwp9OwoKY29uc3QgYWRkRW50cnkgPSAoKSA9PiB7CiAgZW1pdCgidXBkYXRlOm1vZGVsVmFsdWUiLCBbCiAgICAuLi5lbnRyaWVzLnZhbHVlLm1hcCgoZW50cnkpID0+ICh7IC4uLmVudHJ5IH0pKSwKICAgIHsgbmFtZTogIiIsIHZhbHVlOiAiIiB9LAogIF0pOwp9OwoKY29uc3QgcmVtb3ZlRW50cnkgPSAoaW5kZXg6IG51bWJlcikgPT4gewogIGVtaXQoCiAgICAidXBkYXRlOm1vZGVsVmFsdWUiLAogICAgZW50cmllcy52YWx1ZS5maWx0ZXIoKF8sIHJvdykgPT4gcm93ICE9PSBpbmRleCksCiAgKTsKfTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0ic3BhY2UteS0zIj4KICAgIDxkaXYKICAgICAgdi1pZj0iZW50cmllcy5sZW5ndGggPT09IDAiCiAgICAgIGNsYXNzPSJyb3VuZGVkLW1kIGJvcmRlciBib3JkZXItZGFzaGVkIHB4LTMgcHktNCB0ZXh0LWNlbnRlciB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgID4KICAgICAge3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5oZWFkZXJzLmVtcHR5IikgfX0KICAgIDwvZGl2PgoKICAgIDxkaXYgdi1lbHNlIGNsYXNzPSJzcGFjZS15LTMiPgogICAgICA8ZGl2CiAgICAgICAgdi1mb3I9IihlbnRyeSwgaW5kZXgpIGluIGVudHJpZXMiCiAgICAgICAgOmtleT0iaW5kZXgiCiAgICAgICAgY2xhc3M9ImdyaWQgZ2FwLTIgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlci82MCBwLTMgbWQ6Z3JpZC1jb2xzLVttaW5tYXgoMCwwLjhmcilfbWlubWF4KDAsMS4yZnIpX2F1dG9dIG1kOml0ZW1zLXN0YXJ0IgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xLjUiPgogICAgICAgICAgPExhYmVsIDpmb3I9ImAke2ExMXlJZH0taGVhZGVyLW5hbWUtJHtpbmRleH1gIiBjbGFzcz0idGV4dC14cyI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMuaGVhZGVycy5uYW1lIikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgOmlkPSJgJHthMTF5SWR9LWhlYWRlci1uYW1lLSR7aW5kZXh9YCIKICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJlbnRyeS5uYW1lIgogICAgICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLm5vdGlmaWNhdGlvbnMuaGVhZGVycy5uYW1lUGxhY2Vob2xkZXInKSIKICAgICAgICAgICAgOmFyaWEtaW52YWxpZD0icm93SGFzTmFtZUlzc3VlKGluZGV4KSIKICAgICAgICAgICAgOmFyaWEtZGVzY3JpYmVkYnk9IgogICAgICAgICAgICAgIHJvd0lzc3VlcyhpbmRleCkubGVuZ3RoCiAgICAgICAgICAgICAgICA/IGAke2ExMXlJZH0taGVhZGVyLWVycm9ycy0ke2luZGV4fWAKICAgICAgICAgICAgICAgIDogdW5kZWZpbmVkCiAgICAgICAgICAgICIKICAgICAgICAgICAgYXV0b2NvbXBsZXRlPSJvZmYiCiAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9InVwZGF0ZUVudHJ5KGluZGV4LCAnbmFtZScsICRldmVudCkiCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMS41Ij4KICAgICAgICAgIDxMYWJlbCA6Zm9yPSJgJHthMTF5SWR9LWhlYWRlci12YWx1ZS0ke2luZGV4fWAiIGNsYXNzPSJ0ZXh0LXhzIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5oZWFkZXJzLnZhbHVlIikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgOmlkPSJgJHthMTF5SWR9LWhlYWRlci12YWx1ZS0ke2luZGV4fWAiCiAgICAgICAgICAgIDptb2RlbC12YWx1ZT0iZW50cnkudmFsdWUiCiAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4ubm90aWZpY2F0aW9ucy5oZWFkZXJzLnZhbHVlUGxhY2Vob2xkZXInKSIKICAgICAgICAgICAgOmFyaWEtaW52YWxpZD0icm93SGFzVmFsdWVJc3N1ZShpbmRleCkiCiAgICAgICAgICAgIDphcmlhLWRlc2NyaWJlZGJ5PSIKICAgICAgICAgICAgICByb3dJc3N1ZXMoaW5kZXgpLmxlbmd0aAogICAgICAgICAgICAgICAgPyBgJHthMTF5SWR9LWhlYWRlci1lcnJvcnMtJHtpbmRleH1gCiAgICAgICAgICAgICAgICA6IHVuZGVmaW5lZAogICAgICAgICAgICAiCiAgICAgICAgICAgIGF1dG9jb21wbGV0ZT0ib2ZmIgogICAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJ1cGRhdGVFbnRyeShpbmRleCwgJ3ZhbHVlJywgJGV2ZW50KSIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICBzaXplPSJpY29uIgogICAgICAgICAgY2xhc3M9Im10LTUgdGV4dC1kZXN0cnVjdGl2ZSBtZDptdC02IgogICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLm5vdGlmaWNhdGlvbnMuaGVhZGVycy5yZW1vdmUnKSIKICAgICAgICAgIEBjbGljaz0icmVtb3ZlRW50cnkoaW5kZXgpIgogICAgICAgID4KICAgICAgICAgIDxUcmFzaDIgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPGRpdgogICAgICAgICAgdi1pZj0icm93SXNzdWVzKGluZGV4KS5sZW5ndGgiCiAgICAgICAgICA6aWQ9ImAke2ExMXlJZH0taGVhZGVyLWVycm9ycy0ke2luZGV4fWAiCiAgICAgICAgICBjbGFzcz0idGV4dC14cyB0ZXh0LWRlc3RydWN0aXZlIG1kOmNvbC1zcGFuLTMiCiAgICAgICAgICByb2xlPSJhbGVydCIKICAgICAgICA+CiAgICAgICAgICA8cCB2LWZvcj0iaXNzdWUgaW4gcm93SXNzdWVzKGluZGV4KSIgOmtleT0iaXNzdWUuY29kZSI+CiAgICAgICAgICAgIHt7IGZvcm1hdElzc3VlKGlzc3VlKSB9fQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxkaXYKICAgICAgdi1pZj0iZ2xvYmFsSXNzdWVzLmxlbmd0aCIKICAgICAgY2xhc3M9InRleHQteHMgdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgcm9sZT0iYWxlcnQiCiAgICA+CiAgICAgIDxwIHYtZm9yPSJpc3N1ZSBpbiBnbG9iYWxJc3N1ZXMiIDprZXk9Imlzc3VlLmNvZGUiPgogICAgICAgIHt7IGZvcm1hdElzc3VlKGlzc3VlKSB9fQogICAgICA8L3A+CiAgICA8L2Rpdj4KCiAgICA8QnV0dG9uCiAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgc2l6ZT0ic20iCiAgICAgIDpkaXNhYmxlZD0iZW50cmllcy5sZW5ndGggPj0gcmVzb2x2ZWRDb25zdHJhaW50cy5tYXhfaXRlbXMiCiAgICAgIEBjbGljaz0iYWRkRW50cnkiCiAgICA+CiAgICAgIDxQbHVzIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMuaGVhZGVycy5hZGQiKSB9fQogICAgPC9CdXR0b24+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, useId } from "vue";
+import { Plus, Trash2 } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import type {
+  NotificationHeaderConstraints,
+  NotificationHeaderEntry,
+} from "../../../types";
+import {
+  coerceWebhookHeaderEntries,
+  resolveWebhookHeaderConstraints,
+  validateWebhookHeaderEntries,
+  type WebhookHeaderValidationIssue,
+} from "./webhook-headers";
+
+const props = defineProps<{
+  modelValue: NotificationHeaderEntry[];
+  constraints?: NotificationHeaderConstraints;
+}>();
+
+const emit = defineEmits<{
+  "update:modelValue": [value: NotificationHeaderEntry[]];
+}>();
+
+const { t } = useI18n();
+const a11yId = useId();
+const entries = computed(() => coerceWebhookHeaderEntries(props.modelValue));
+const resolvedConstraints = computed(() =>
+  resolveWebhookHeaderConstraints(props.constraints),
+);
+const issues = computed(() =>
+  validateWebhookHeaderEntries(entries.value, resolvedConstraints.value),
+);
+const globalIssues = computed(() =>
+  issues.value.filter((issue) => issue.row === undefined),
+);
+
+const rowIssues = (row: number) =>
+  issues.value.filter((issue) => issue.row === row);
+const rowHasValueIssue = (row: number) =>
+  rowIssues(row).some((issue) =>
+    ["valueTooLong", "invalidValue"].includes(issue.code),
+  );
+const rowHasNameIssue = (row: number) =>
+  rowIssues(row).some(
+    (issue) => !["valueTooLong", "invalidValue"].includes(issue.code),
+  );
+
+const formatIssue = (issue: WebhookHeaderValidationIssue) =>
+  t(`admin.notifications.headers.errors.${issue.code}`, {
+    name: issue.name || "",
+    max: issue.max || "",
+  });
+
+const updateEntry = (
+  index: number,
+  key: keyof NotificationHeaderEntry,
+  value: string | number,
+) => {
+  const next = entries.value.map((entry) => ({ ...entry }));
+  next[index] = {
+    ...(next[index] || { name: "", value: "" }),
+    [key]: String(value),
+  };
+  emit("update:modelValue", next);
+};
+
+const addEntry = () => {
+  emit("update:modelValue", [
+    ...entries.value.map((entry) => ({ ...entry })),
+    { name: "", value: "" },
+  ]);
+};
+
+const removeEntry = (index: number) => {
+  emit(
+    "update:modelValue",
+    entries.value.filter((_, row) => row !== index),
+  );
+};
+</script>
+
+<template>
+  <div class="space-y-3">
+    <div
+      v-if="entries.length === 0"
+      class="rounded-md border border-dashed px-3 py-4 text-center text-xs text-muted-foreground"
+    >
+      {{ t("admin.notifications.headers.empty") }}
+    </div>
+
+    <div v-else class="space-y-3">
+      <div
+        v-for="(entry, index) in entries"
+        :key="index"
+        class="grid gap-2 rounded-md border border-border/60 p-3 md:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)_auto] md:items-start"
+      >
+        <div class="space-y-1.5">
+          <Label :for="`${a11yId}-header-name-${index}`" class="text-xs">
+            {{ t("admin.notifications.headers.name") }}
+          </Label>
+          <Input
+            :id="`${a11yId}-header-name-${index}`"
+            :model-value="entry.name"
+            :placeholder="t('admin.notifications.headers.namePlaceholder')"
+            :aria-invalid="rowHasNameIssue(index)"
+            :aria-describedby="
+              rowIssues(index).length
+                ? `${a11yId}-header-errors-${index}`
+                : undefined
+            "
+            autocomplete="off"
+            @update:model-value="updateEntry(index, 'name', $event)"
+          />
+        </div>
+        <div class="space-y-1.5">
+          <Label :for="`${a11yId}-header-value-${index}`" class="text-xs">
+            {{ t("admin.notifications.headers.value") }}
+          </Label>
+          <Input
+            :id="`${a11yId}-header-value-${index}`"
+            :model-value="entry.value"
+            :placeholder="t('admin.notifications.headers.valuePlaceholder')"
+            :aria-invalid="rowHasValueIssue(index)"
+            :aria-describedby="
+              rowIssues(index).length
+                ? `${a11yId}-header-errors-${index}`
+                : undefined
+            "
+            autocomplete="off"
+            @update:model-value="updateEntry(index, 'value', $event)"
+          />
+        </div>
+        <Button
+          variant="ghost"
+          size="icon"
+          class="mt-5 text-destructive md:mt-6"
+          :aria-label="t('admin.notifications.headers.remove')"
+          @click="removeEntry(index)"
+        >
+          <Trash2 class="h-4 w-4" />
+        </Button>
+        <div
+          v-if="rowIssues(index).length"
+          :id="`${a11yId}-header-errors-${index}`"
+          class="text-xs text-destructive md:col-span-3"
+          role="alert"
+        >
+          <p v-for="issue in rowIssues(index)" :key="issue.code">
+            {{ formatIssue(issue) }}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      v-if="globalIssues.length"
+      class="text-xs text-destructive"
+      role="alert"
+    >
+      <p v-for="issue in globalIssues" :key="issue.code">
+        {{ formatIssue(issue) }}
+      </p>
+    </div>
+
+    <Button
+      type="button"
+      variant="outline"
+      size="sm"
+      :disabled="entries.length >= resolvedConstraints.max_items"
+      @click="addEntry"
+    >
+      <Plus class="mr-2 h-4 w-4" />
+      {{ t("admin.notifications.headers.add") }}
+    </Button>
+  </div>
+</template>

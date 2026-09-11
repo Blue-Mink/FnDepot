@@ -1,1 +1,12 @@
-aW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAidnVlLXJvdXRlciI7CmltcG9ydCB0eXBlIHsgU3RyZWFtTWFwcGluZyB9IGZyb20gIi4uLy4uL3R5cGVzIjsKCmV4cG9ydCBjb25zdCB1c2VTdHJlYW1NYXBwaW5nTmF2aWdhdGlvbiA9ICgpID0+IHsKICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTsKICByZXR1cm4gewogICAgb3BlbkJ5cGFzc1BvbGljeTogKG1hcHBpbmc6IFN0cmVhbU1hcHBpbmcpID0+CiAgICAgIHZvaWQgcm91dGVyLnB1c2goCiAgICAgICAgYC9zdHJlYW1zLyR7bWFwcGluZy5wcm90b2NvbH0vJHttYXBwaW5nLmxpc3Rlbl9wb3J0fS9ieXBhc3MtcG9saWN5YCwKICAgICAgKSwKICB9Owp9Owo=
+import { useRouter } from "vue-router";
+import type { StreamMapping } from "../../types";
+
+export const useStreamMappingNavigation = () => {
+  const router = useRouter();
+  return {
+    openBypassPolicy: (mapping: StreamMapping) =>
+      void router.push(
+        `/streams/${mapping.protocol}/${mapping.listen_port}/bypass-policy`,
+      ),
+  };
+};

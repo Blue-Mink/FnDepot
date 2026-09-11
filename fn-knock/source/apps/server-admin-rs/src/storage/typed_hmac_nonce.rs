@@ -1,1 +1,301 @@
-dXNlIHRva2lvX3J1c3FsaXRlOjpydXNxbGl0ZTo6e09wdGlvbmFsRXh0ZW5zaW9uLCBUcmFuc2FjdGlvbiwgVHJhbnNhY3Rpb25CZWhhdmlvciwgcGFyYW1zfTsKCnVzZSBzdXBlcjo6e1N0b3JhZ2VSZXN1bHQsIHJlZGlzX2NvbXBhdDo6Q29ubmVjdGlvbk1hbmFnZXIsIHN0b3JhZ2VfZXJyb3J9OwoKcHViKGNyYXRlKSBjb25zdCBOT05DRV9QUkVGSVg6ICZzdHIgPSAiZm5fa25vY2s6bm9uY2U6IjsKCmNvbnN0IFNDSEVNQV9WRVJTSU9OOiBpNjQgPSAxOwpjb25zdCBTQ0hFTUFfTkFNRTogJnN0ciA9ICJ0eXBlZF9obWFjX3JlcGxheV9ub25jZXMiOwpjb25zdCBTQ0hFTUFfU1FMOiAmc3RyID0gciMiCkNSRUFURSBUQUJMRSBobWFjX3JlcGxheV9ub25jZXMgKAogIG5vbmNlX2RpZ2VzdCBURVhUIFBSSU1BUlkgS0VZIENIRUNLIChsZW5ndGgobm9uY2VfZGlnZXN0KSA9IDY0KSwKICBndWFyZF92YWx1ZSBURVhUIE5PVCBOVUxMIENIRUNLIChndWFyZF92YWx1ZSA9ICcxJyksCiAgZXhwaXJlc19hdF9tcyBJTlRFR0VSIE5PVCBOVUxMIENIRUNLIChleHBpcmVzX2F0X21zID49IDApLAogIHVwZGF0ZWRfYXRfbXMgSU5URUdFUiBOT1QgTlVMTAopOwpDUkVBVEUgSU5ERVggaWR4X2htYWNfcmVwbGF5X25vbmNlc19leHBpcnkgT04gaG1hY19yZXBsYXlfbm9uY2VzKGV4cGlyZXNfYXRfbXMpOwoiIzsKY29uc3QgTUlHUkFUSU9OU19TUUw6ICZzdHIgPSByIyIKQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgdHlwZWRfaG1hY19ub25jZV9zY2hlbWFfbWlncmF0aW9ucyAoCiAgdmVyc2lvbiBJTlRFR0VSIFBSSU1BUlkgS0VZLAogIG5hbWUgVEVYVCBOT1QgTlVMTCwKICBjaGVja3N1bSBURVhUIE5PVCBOVUxMLAogIGFwcGxpZWRfYXRfbXMgSU5URUdFUiBOT1QgTlVMTAopOwoiIzsKCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgUGFydGlhbEVxLCBFcSldCnB1YihjcmF0ZSkgc3RydWN0IFR5cGVkSG1hY1JlcGxheU5vbmNlIHsKICAgIHB1YihjcmF0ZSkgbm9uY2VfZGlnZXN0OiBTdHJpbmcsCiAgICBwdWIoY3JhdGUpIGV4cGlyZXNfYXRfbXM6IGk2NCwKfQoKI1tkZXJpdmUoQ2xvbmUpXQpwdWIoY3JhdGUpIHN0cnVjdCBUeXBlZEhtYWNOb25jZVJlcG9zaXRvcnkgewogICAgbWFuYWdlcjogQ29ubmVjdGlvbk1hbmFnZXIsCn0KCmltcGwgVHlwZWRIbWFjTm9uY2VSZXBvc2l0b3J5IHsKICAgIHB1YihjcmF0ZSkgZm4gbmV3KG1hbmFnZXI6IENvbm5lY3Rpb25NYW5hZ2VyKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsgbWFuYWdlciB9CiAgICB9CgogICAgcHViKGNyYXRlKSBhc3luYyBmbiBpbml0aWFsaXplKCZzZWxmKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5jYWxsKHxjb25ufCB7CiAgICAgICAgICAgICAgICBsZXQgdHggPSBjb25uLnRyYW5zYWN0aW9uX3dpdGhfYmVoYXZpb3IoVHJhbnNhY3Rpb25CZWhhdmlvcjo6SW1tZWRpYXRlKT87CiAgICAgICAgICAgICAgICB0eC5leGVjdXRlX2JhdGNoKE1JR1JBVElPTlNfU1FMKT87CiAgICAgICAgICAgICAgICBsZXQgY2hlY2tzdW0gPSBjcmF0ZTo6Y3J5cHRvX3V0aWxzOjpzaGEyNTZfaGV4X2J5dGVzKFNDSEVNQV9TUUwpOwogICAgICAgICAgICAgICAgbGV0IGFwcGxpZWQgPSB0eAogICAgICAgICAgICAgICAgICAgIC5xdWVyeV9yb3coCiAgICAgICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgbmFtZSwgY2hlY2tzdW0gRlJPTSB0eXBlZF9obWFjX25vbmNlX3NjaGVtYV9taWdyYXRpb25zIFdIRVJFIHZlcnNpb24gPSA/MSIsCiAgICAgICAgICAgICAgICAgICAgICAgIFtTQ0hFTUFfVkVSU0lPTl0sCiAgICAgICAgICAgICAgICAgICAgICAgIHxyb3d8IE9rKChyb3cuZ2V0Ojo8XywgU3RyaW5nPigwKT8sIHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDEpPykpLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAub3B0aW9uYWwoKT87CiAgICAgICAgICAgICAgICBtYXRjaCBhcHBsaWVkIHsKICAgICAgICAgICAgICAgICAgICBTb21lKChuYW1lLCBzdG9yZWQpKSBpZiBuYW1lID09IFNDSEVNQV9OQU1FICYmIHN0b3JlZCA9PSBjaGVja3N1bSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxldCBleGlzdHMgPSB0eC5xdWVyeV9yb3coCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiU0VMRUNUIEVYSVNUUyhTRUxFQ1QgMSBGUk9NIHNxbGl0ZV9tYXN0ZXIgV0hFUkUgdHlwZSA9ICd0YWJsZScgQU5EIG5hbWUgPSAnaG1hY19yZXBsYXlfbm9uY2VzJykiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgW10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB8cm93fCByb3cuZ2V0Ojo8XywgYm9vbD4oMCksCiAgICAgICAgICAgICAgICAgICAgICAgICk/OwogICAgICAgICAgICAgICAgICAgICAgICBpZiAhZXhpc3RzIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAidHlwZWQgSE1BQyBub25jZSBtaWdyYXRpb24gaXMgcmVjb3JkZWQgYnV0IGl0cyB0YWJsZSBpcyBtaXNzaW5nIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIFNvbWUoKG5hbWUsIF8pKSBpZiBuYW1lICE9IFNDSEVNQV9OQU1FID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihzdG9yYWdlX2Vycm9yKCJ0eXBlZCBITUFDIG5vbmNlIG1pZ3JhdGlvbiBuYW1lIG1pc21hdGNoIikpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBTb21lKF8pID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihzdG9yYWdlX2Vycm9yKCJ0eXBlZCBITUFDIG5vbmNlIG1pZ3JhdGlvbiBjaGVja3N1bSBtaXNtYXRjaCIpKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgTm9uZSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGVfYmF0Y2goU0NIRU1BX1NRTCk/OwogICAgICAgICAgICAgICAgICAgICAgICB0eC5leGVjdXRlKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIklOU0VSVCBJTlRPIHR5cGVkX2htYWNfbm9uY2Vfc2NoZW1hX21pZ3JhdGlvbnModmVyc2lvbiwgbmFtZSwgY2hlY2tzdW0sIGFwcGxpZWRfYXRfbXMpIFZBTFVFUyAoPzEsID8yLCA/MywgPzQpIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtcyFbU0NIRU1BX1ZFUlNJT04sIFNDSEVNQV9OQU1FLCBjaGVja3N1bSwgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpXSwKICAgICAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdHguY29tbWl0KCk/OwogICAgICAgICAgICAgICAgT2soKCkpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gcmVidWlsZF9mcm9tX2xlZ2FjeSgmc2VsZikgLT4gU3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIHNlbGYubWFuYWdlcgogICAgICAgICAgICAuY2FsbCh8Y29ubnwgewogICAgICAgICAgICAgICAgbGV0IHR4ID0gY29ubi50cmFuc2FjdGlvbl93aXRoX2JlaGF2aW9yKFRyYW5zYWN0aW9uQmVoYXZpb3I6OkltbWVkaWF0ZSk/OwogICAgICAgICAgICAgICAgU2VsZjo6cmVidWlsZF9mcm9tX2xlZ2FjeV90eCgmdHgpPzsKICAgICAgICAgICAgICAgIHR4LmNvbW1pdCgpPzsKICAgICAgICAgICAgICAgIE9rKCgpKQogICAgICAgICAgICB9KQogICAgICAgICAgICAuYXdhaXQKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIHJlYnVpbGRfZnJvbV9sZWdhY3lfdHgodHg6ICZUcmFuc2FjdGlvbjwnXz4pIC0+IFN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBsZXQgcmVjb3JkcyA9IGxlZ2FjeV9ub25jZXNfdHgodHgpPzsKICAgICAgICB0eC5leGVjdXRlKCJERUxFVEUgRlJPTSBobWFjX3JlcGxheV9ub25jZXMiLCBbXSk/OwogICAgICAgIGZvciByZWNvcmQgaW4gcmVjb3JkcyB7CiAgICAgICAgICAgIHVwc2VydF90eCh0eCwgJnJlY29yZCk/OwogICAgICAgIH0KICAgICAgICBPaygoKSkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIHJlY29uY2lsZV9sZWdhY3lfa2V5c190eCgKICAgICAgICB0eDogJlRyYW5zYWN0aW9uPCdfPiwKICAgICAgICBrZXlzOiAmW1N0cmluZ10sCiAgICApIC0+IFN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBmb3Iga2V5IGluIGtleXMgewogICAgICAgICAgICBsZXQgU29tZShub25jZSkgPSBrZXkKICAgICAgICAgICAgICAgIC5zdHJpcF9wcmVmaXgoTk9OQ0VfUFJFRklYKQogICAgICAgICAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgICAgICBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICB9OwogICAgICAgICAgICBsZXQgZGlnZXN0ID0gbm9uY2VfZGlnZXN0KG5vbmNlKTsKICAgICAgICAgICAgbWF0Y2ggbGl2ZV9sZWdhY3lfbm9uY2VfdHgodHgsIGtleSk/IHsKICAgICAgICAgICAgICAgIFNvbWUocmVjb3JkKSA9PiB1cHNlcnRfdHgodHgsICZyZWNvcmQpPywKICAgICAgICAgICAgICAgIE5vbmUgPT4gZGVsZXRlX3R4KHR4LCAmZGlnZXN0KT8sCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgT2soKCkpCiAgICB9CgogICAgcHViKGNyYXRlKSBhc3luYyBmbiB2ZXJpZnlfYW5kX3JlcGFpcigmc2VsZiwgbm9uY2U6ICZzdHIpIC0+IFN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgICAgIGxldCBub25jZV9kaWdlc3QgPSBub25jZV9kaWdlc3Qobm9uY2UpOwogICAgICAgIGxldCBrZXkgPSBmb3JtYXQhKCJ7Tk9OQ0VfUFJFRklYfXtub25jZX0iKTsKICAgICAgICBzZWxmLm1hbmFnZXIKICAgICAgICAgICAgLmNhbGwobW92ZSB8Y29ubnwgewogICAgICAgICAgICAgICAgbGV0IHR4ID0gY29ubi50cmFuc2FjdGlvbl93aXRoX2JlaGF2aW9yKFRyYW5zYWN0aW9uQmVoYXZpb3I6OkltbWVkaWF0ZSk/OwogICAgICAgICAgICAgICAgbGV0IHJhdyA9IGxpdmVfbGVnYWN5X3Jhd190eCgmdHgsICZrZXkpPzsKICAgICAgICAgICAgICAgIGxldCBsZWdhY3kgPSBsaXZlX2xlZ2FjeV9ub25jZV90eCgmdHgsICZrZXkpPzsKICAgICAgICAgICAgICAgIGxldCBpbnZhbGlkID0gcmF3LmlzX3NvbWUoKSAmJiBsZWdhY3kuaXNfbm9uZSgpOwogICAgICAgICAgICAgICAgbGV0IHR5cGVkID0gdHlwZWRfbm9uY2VfdHgoJnR4LCAmbm9uY2VfZGlnZXN0KT87CiAgICAgICAgICAgICAgICBsZXQgbWF0Y2hlZCA9ICFpbnZhbGlkICYmIHR5cGVkID09IGxlZ2FjeTsKICAgICAgICAgICAgICAgIGlmICFtYXRjaGVkIHsKICAgICAgICAgICAgICAgICAgICBtYXRjaCBsZWdhY3kgewogICAgICAgICAgICAgICAgICAgICAgICBTb21lKHJlY29yZCkgPT4gdXBzZXJ0X3R4KCZ0eCwgJnJlY29yZCk/LAogICAgICAgICAgICAgICAgICAgICAgICBOb25lID0+IGRlbGV0ZV90eCgmdHgsICZub25jZV9kaWdlc3QpPywKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB0eC5jb21taXQoKT87CiAgICAgICAgICAgICAgICBPayhtYXRjaGVkKQogICAgICAgICAgICB9KQogICAgICAgICAgICAuYXdhaXQKICAgIH0KCiAgICAjW2NmZyh0ZXN0KV0KICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gbG9hZCgmc2VsZiwgbm9uY2U6ICZzdHIpIC0+IFN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFR5cGVkSG1hY1JlcGxheU5vbmNlPj4gewogICAgICAgIGxldCBkaWdlc3QgPSBub25jZV9kaWdlc3Qobm9uY2UpOwogICAgICAgIHNlbGYubWFuYWdlcgogICAgICAgICAgICAuY2FsbChtb3ZlIHxjb25ufCB0eXBlZF9ub25jZV9jb25uKGNvbm4sICZkaWdlc3QpKQogICAgICAgICAgICAuYXdhaXQKICAgIH0KCiAgICAjW2NmZyh0ZXN0KV0KICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gY291bnQoJnNlbGYpIC0+IFN0b3JhZ2VSZXN1bHQ8aTY0PiB7CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5jYWxsKHxjb25ufCB7CiAgICAgICAgICAgICAgICBjb25uLnF1ZXJ5X3JvdygiU0VMRUNUIENPVU5UKCopIEZST00gaG1hY19yZXBsYXlfbm9uY2VzIiwgW10sIHxyb3d8IHsKICAgICAgICAgICAgICAgICAgICByb3cuZ2V0Ojo8XywgaTY0PigwKQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC5tYXBfZXJyKEludG86OmludG8pCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQp9CgpmbiBub25jZV9kaWdlc3Qobm9uY2U6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBjcmF0ZTo6Y3J5cHRvX3V0aWxzOjpzaGEyNTZfaGV4X3N0cihub25jZSkKfQoKZm4gbGl2ZV9sZWdhY3lfcmF3X3R4KHR4OiAmVHJhbnNhY3Rpb248J18+LCBrZXk6ICZzdHIpIC0+IFN0b3JhZ2VSZXN1bHQ8T3B0aW9uPChTdHJpbmcsIGk2NCk+PiB7CiAgICB0eC5xdWVyeV9yb3coCiAgICAgICAgIlNFTEVDVCBzdHJpbmdzLnZhbHVlLCBrZXlzLmV4cGlyZXNfYXRfbXMKICAgICAgICAgRlJPTSBrdl9rZXlzIEFTIGtleXMgSk9JTiBrdl9zdHJpbmdzIEFTIHN0cmluZ3MgT04gc3RyaW5ncy5rZXkgPSBrZXlzLmtleQogICAgICAgICBXSEVSRSBrZXlzLmtleSA9ID8xIEFORCBrZXlzLmtpbmQgPSAnc3RyaW5nJwogICAgICAgICAgIEFORCBrZXlzLmV4cGlyZXNfYXRfbXMgSVMgTk9UIE5VTEwgQU5EIGtleXMuZXhwaXJlc19hdF9tcyA+ID8yIiwKICAgICAgICBwYXJhbXMhW2tleSwgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpXSwKICAgICAgICB8cm93fCBPaygocm93LmdldDo6PF8sIFN0cmluZz4oMCk/LCByb3cuZ2V0Ojo8XywgaTY0PigxKT8pKSwKICAgICkKICAgIC5vcHRpb25hbCgpCiAgICAubWFwX2VycihJbnRvOjppbnRvKQp9CgpmbiBsaXZlX2xlZ2FjeV9ub25jZV90eCgKICAgIHR4OiAmVHJhbnNhY3Rpb248J18+LAogICAga2V5OiAmc3RyLAopIC0+IFN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFR5cGVkSG1hY1JlcGxheU5vbmNlPj4gewogICAgbGV0IFNvbWUobm9uY2UpID0ga2V5CiAgICAgICAgLnN0cmlwX3ByZWZpeChOT05DRV9QUkVGSVgpCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfTsKICAgIGxldCBTb21lKCh2YWx1ZSwgZXhwaXJlc19hdF9tcykpID0gbGl2ZV9sZWdhY3lfcmF3X3R4KHR4LCBrZXkpPyBlbHNlIHsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9OwogICAgaWYgdmFsdWUgIT0gIjEiIHsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9CiAgICBPayhTb21lKFR5cGVkSG1hY1JlcGxheU5vbmNlIHsKICAgICAgICBub25jZV9kaWdlc3Q6IG5vbmNlX2RpZ2VzdChub25jZSksCiAgICAgICAgZXhwaXJlc19hdF9tcywKICAgIH0pKQp9CgpmbiBsZWdhY3lfbm9uY2VzX3R4KHR4OiAmVHJhbnNhY3Rpb248J18+KSAtPiBTdG9yYWdlUmVzdWx0PFZlYzxUeXBlZEhtYWNSZXBsYXlOb25jZT4+IHsKICAgIGxldCBtdXQgc3RhdGVtZW50ID0gdHgucHJlcGFyZSgKICAgICAgICAiU0VMRUNUIGtleSBGUk9NIGt2X2tleXMKICAgICAgICAgV0hFUkUga2luZCA9ICdzdHJpbmcnIEFORCBleHBpcmVzX2F0X21zIElTIE5PVCBOVUxMIEFORCBleHBpcmVzX2F0X21zID4gPzEKICAgICAgICAgICBBTkQgc3Vic3RyKGtleSwgMSwgPzIpID0gPzMKICAgICAgICAgT1JERVIgQlkga2V5IiwKICAgICk/OwogICAgbGV0IHJvd3MgPSBzdGF0ZW1lbnQucXVlcnlfbWFwKAogICAgICAgIHBhcmFtcyFbCiAgICAgICAgICAgIGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfbXMoKSwKICAgICAgICAgICAgTk9OQ0VfUFJFRklYLmxlbigpIGFzIGk2NCwKICAgICAgICAgICAgTk9OQ0VfUFJFRklYCiAgICAgICAgXSwKICAgICAgICB8cm93fCByb3cuZ2V0Ojo8XywgU3RyaW5nPigwKSwKICAgICk/OwogICAgbGV0IG11dCByZWNvcmRzID0gVmVjOjpuZXcoKTsKICAgIGZvciBrZXkgaW4gcm93cyB7CiAgICAgICAgaWYgbGV0IFNvbWUocmVjb3JkKSA9IGxpdmVfbGVnYWN5X25vbmNlX3R4KHR4LCAma2V5Pyk/IHsKICAgICAgICAgICAgcmVjb3Jkcy5wdXNoKHJlY29yZCk7CiAgICAgICAgfQogICAgfQogICAgT2socmVjb3JkcykKfQoKZm4gdHlwZWRfbm9uY2VfdHgoCiAgICB0eDogJlRyYW5zYWN0aW9uPCdfPiwKICAgIG5vbmNlX2RpZ2VzdDogJnN0ciwKKSAtPiBTdG9yYWdlUmVzdWx0PE9wdGlvbjxUeXBlZEhtYWNSZXBsYXlOb25jZT4+IHsKICAgIHR4LnF1ZXJ5X3JvdygKICAgICAgICAiU0VMRUNUIGV4cGlyZXNfYXRfbXMgRlJPTSBobWFjX3JlcGxheV9ub25jZXMgV0hFUkUgbm9uY2VfZGlnZXN0ID0gPzEiLAogICAgICAgIFtub25jZV9kaWdlc3RdLAogICAgICAgIHxyb3d8IHsKICAgICAgICAgICAgT2soVHlwZWRIbWFjUmVwbGF5Tm9uY2UgewogICAgICAgICAgICAgICAgbm9uY2VfZGlnZXN0OiBub25jZV9kaWdlc3QudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICBleHBpcmVzX2F0X21zOiByb3cuZ2V0KDApPywKICAgICAgICAgICAgfSkKICAgICAgICB9LAogICAgKQogICAgLm9wdGlvbmFsKCkKICAgIC5tYXBfZXJyKEludG86OmludG8pCn0KCiNbY2ZnKHRlc3QpXQpmbiB0eXBlZF9ub25jZV9jb25uKAogICAgY29ubjogJnRva2lvX3J1c3FsaXRlOjpydXNxbGl0ZTo6Q29ubmVjdGlvbiwKICAgIG5vbmNlX2RpZ2VzdDogJnN0ciwKKSAtPiBTdG9yYWdlUmVzdWx0PE9wdGlvbjxUeXBlZEhtYWNSZXBsYXlOb25jZT4+IHsKICAgIGNvbm4ucXVlcnlfcm93KAogICAgICAgICJTRUxFQ1QgZXhwaXJlc19hdF9tcyBGUk9NIGhtYWNfcmVwbGF5X25vbmNlcyBXSEVSRSBub25jZV9kaWdlc3QgPSA/MSIsCiAgICAgICAgW25vbmNlX2RpZ2VzdF0sCiAgICAgICAgfHJvd3wgewogICAgICAgICAgICBPayhUeXBlZEhtYWNSZXBsYXlOb25jZSB7CiAgICAgICAgICAgICAgICBub25jZV9kaWdlc3Q6IG5vbmNlX2RpZ2VzdC50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgIGV4cGlyZXNfYXRfbXM6IHJvdy5nZXQoMCk/LAogICAgICAgICAgICB9KQogICAgICAgIH0sCiAgICApCiAgICAub3B0aW9uYWwoKQogICAgLm1hcF9lcnIoSW50bzo6aW50bykKfQoKZm4gdXBzZXJ0X3R4KHR4OiAmVHJhbnNhY3Rpb248J18+LCBub25jZTogJlR5cGVkSG1hY1JlcGxheU5vbmNlKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICBpZiBub25jZS5ub25jZV9kaWdlc3QubGVuKCkgIT0gNjQgewogICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigiaW52YWxpZCB0eXBlZCBITUFDIG5vbmNlIGRpZ2VzdCIpKTsKICAgIH0KICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgIklOU0VSVCBJTlRPIGhtYWNfcmVwbGF5X25vbmNlcyhub25jZV9kaWdlc3QsIGd1YXJkX3ZhbHVlLCBleHBpcmVzX2F0X21zLCB1cGRhdGVkX2F0X21zKQogICAgICAgICBWQUxVRVMgKD8xLCAnMScsID8yLCA/MykKICAgICAgICAgT04gQ09ORkxJQ1Qobm9uY2VfZGlnZXN0KSBETyBVUERBVEUgU0VUCiAgICAgICAgICAgZ3VhcmRfdmFsdWUgPSBleGNsdWRlZC5ndWFyZF92YWx1ZSwKICAgICAgICAgICBleHBpcmVzX2F0X21zID0gZXhjbHVkZWQuZXhwaXJlc19hdF9tcywKICAgICAgICAgICB1cGRhdGVkX2F0X21zID0gZXhjbHVkZWQudXBkYXRlZF9hdF9tcwogICAgICAgICBXSEVSRSBobWFjX3JlcGxheV9ub25jZXMuZ3VhcmRfdmFsdWUgPD4gZXhjbHVkZWQuZ3VhcmRfdmFsdWUKICAgICAgICAgICAgT1IgaG1hY19yZXBsYXlfbm9uY2VzLmV4cGlyZXNfYXRfbXMgPD4gZXhjbHVkZWQuZXhwaXJlc19hdF9tcyIsCiAgICAgICAgcGFyYW1zIVsKICAgICAgICAgICAgbm9uY2Uubm9uY2VfZGlnZXN0LAogICAgICAgICAgICBub25jZS5leHBpcmVzX2F0X21zLAogICAgICAgICAgICBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCkKICAgICAgICBdLAogICAgKT87CiAgICBPaygoKSkKfQoKZm4gZGVsZXRlX3R4KHR4OiAmVHJhbnNhY3Rpb248J18+LCBub25jZV9kaWdlc3Q6ICZzdHIpIC0+IFN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgIkRFTEVURSBGUk9NIGhtYWNfcmVwbGF5X25vbmNlcyBXSEVSRSBub25jZV9kaWdlc3QgPSA/MSIsCiAgICAgICAgW25vbmNlX2RpZ2VzdF0sCiAgICApPzsKICAgIE9rKCgpKQp9Cg==
+use tokio_rusqlite::rusqlite::{OptionalExtension, Transaction, TransactionBehavior, params};
+
+use super::{StorageResult, redis_compat::ConnectionManager, storage_error};
+
+pub(crate) const NONCE_PREFIX: &str = "fn_knock:nonce:";
+
+const SCHEMA_VERSION: i64 = 1;
+const SCHEMA_NAME: &str = "typed_hmac_replay_nonces";
+const SCHEMA_SQL: &str = r#"
+CREATE TABLE hmac_replay_nonces (
+  nonce_digest TEXT PRIMARY KEY CHECK (length(nonce_digest) = 64),
+  guard_value TEXT NOT NULL CHECK (guard_value = '1'),
+  expires_at_ms INTEGER NOT NULL CHECK (expires_at_ms >= 0),
+  updated_at_ms INTEGER NOT NULL
+);
+CREATE INDEX idx_hmac_replay_nonces_expiry ON hmac_replay_nonces(expires_at_ms);
+"#;
+const MIGRATIONS_SQL: &str = r#"
+CREATE TABLE IF NOT EXISTS typed_hmac_nonce_schema_migrations (
+  version INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  checksum TEXT NOT NULL,
+  applied_at_ms INTEGER NOT NULL
+);
+"#;
+
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub(crate) struct TypedHmacReplayNonce {
+    pub(crate) nonce_digest: String,
+    pub(crate) expires_at_ms: i64,
+}
+
+#[derive(Clone)]
+pub(crate) struct TypedHmacNonceRepository {
+    manager: ConnectionManager,
+}
+
+impl TypedHmacNonceRepository {
+    pub(crate) fn new(manager: ConnectionManager) -> Self {
+        Self { manager }
+    }
+
+    pub(crate) async fn initialize(&self) -> StorageResult<()> {
+        self.manager
+            .call(|conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                tx.execute_batch(MIGRATIONS_SQL)?;
+                let checksum = crate::crypto_utils::sha256_hex_bytes(SCHEMA_SQL);
+                let applied = tx
+                    .query_row(
+                        "SELECT name, checksum FROM typed_hmac_nonce_schema_migrations WHERE version = ?1",
+                        [SCHEMA_VERSION],
+                        |row| Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?)),
+                    )
+                    .optional()?;
+                match applied {
+                    Some((name, stored)) if name == SCHEMA_NAME && stored == checksum => {
+                        let exists = tx.query_row(
+                            "SELECT EXISTS(SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'hmac_replay_nonces')",
+                            [],
+                            |row| row.get::<_, bool>(0),
+                        )?;
+                        if !exists {
+                            return Err(storage_error(
+                                "typed HMAC nonce migration is recorded but its table is missing",
+                            ));
+                        }
+                    }
+                    Some((name, _)) if name != SCHEMA_NAME => {
+                        return Err(storage_error("typed HMAC nonce migration name mismatch"));
+                    }
+                    Some(_) => {
+                        return Err(storage_error("typed HMAC nonce migration checksum mismatch"));
+                    }
+                    None => {
+                        tx.execute_batch(SCHEMA_SQL)?;
+                        tx.execute(
+                            "INSERT INTO typed_hmac_nonce_schema_migrations(version, name, checksum, applied_at_ms) VALUES (?1, ?2, ?3, ?4)",
+                            params![SCHEMA_VERSION, SCHEMA_NAME, checksum, crate::time_utils::now_ms()],
+                        )?;
+                    }
+                }
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub(crate) async fn rebuild_from_legacy(&self) -> StorageResult<()> {
+        self.manager
+            .call(|conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                Self::rebuild_from_legacy_tx(&tx)?;
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub(crate) fn rebuild_from_legacy_tx(tx: &Transaction<'_>) -> StorageResult<()> {
+        let records = legacy_nonces_tx(tx)?;
+        tx.execute("DELETE FROM hmac_replay_nonces", [])?;
+        for record in records {
+            upsert_tx(tx, &record)?;
+        }
+        Ok(())
+    }
+
+    pub(crate) fn reconcile_legacy_keys_tx(
+        tx: &Transaction<'_>,
+        keys: &[String],
+    ) -> StorageResult<()> {
+        for key in keys {
+            let Some(nonce) = key
+                .strip_prefix(NONCE_PREFIX)
+                .filter(|value| !value.is_empty())
+            else {
+                continue;
+            };
+            let digest = nonce_digest(nonce);
+            match live_legacy_nonce_tx(tx, key)? {
+                Some(record) => upsert_tx(tx, &record)?,
+                None => delete_tx(tx, &digest)?,
+            }
+        }
+        Ok(())
+    }
+
+    pub(crate) async fn verify_and_repair(&self, nonce: &str) -> StorageResult<bool> {
+        let nonce_digest = nonce_digest(nonce);
+        let key = format!("{NONCE_PREFIX}{nonce}");
+        self.manager
+            .call(move |conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                let raw = live_legacy_raw_tx(&tx, &key)?;
+                let legacy = live_legacy_nonce_tx(&tx, &key)?;
+                let invalid = raw.is_some() && legacy.is_none();
+                let typed = typed_nonce_tx(&tx, &nonce_digest)?;
+                let matched = !invalid && typed == legacy;
+                if !matched {
+                    match legacy {
+                        Some(record) => upsert_tx(&tx, &record)?,
+                        None => delete_tx(&tx, &nonce_digest)?,
+                    }
+                }
+                tx.commit()?;
+                Ok(matched)
+            })
+            .await
+    }
+
+    #[cfg(test)]
+    pub(crate) async fn load(&self, nonce: &str) -> StorageResult<Option<TypedHmacReplayNonce>> {
+        let digest = nonce_digest(nonce);
+        self.manager
+            .call(move |conn| typed_nonce_conn(conn, &digest))
+            .await
+    }
+
+    #[cfg(test)]
+    pub(crate) async fn count(&self) -> StorageResult<i64> {
+        self.manager
+            .call(|conn| {
+                conn.query_row("SELECT COUNT(*) FROM hmac_replay_nonces", [], |row| {
+                    row.get::<_, i64>(0)
+                })
+                .map_err(Into::into)
+            })
+            .await
+    }
+}
+
+fn nonce_digest(nonce: &str) -> String {
+    crate::crypto_utils::sha256_hex_str(nonce)
+}
+
+fn live_legacy_raw_tx(tx: &Transaction<'_>, key: &str) -> StorageResult<Option<(String, i64)>> {
+    tx.query_row(
+        "SELECT strings.value, keys.expires_at_ms
+         FROM kv_keys AS keys JOIN kv_strings AS strings ON strings.key = keys.key
+         WHERE keys.key = ?1 AND keys.kind = 'string'
+           AND keys.expires_at_ms IS NOT NULL AND keys.expires_at_ms > ?2",
+        params![key, crate::time_utils::now_ms()],
+        |row| Ok((row.get::<_, String>(0)?, row.get::<_, i64>(1)?)),
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+fn live_legacy_nonce_tx(
+    tx: &Transaction<'_>,
+    key: &str,
+) -> StorageResult<Option<TypedHmacReplayNonce>> {
+    let Some(nonce) = key
+        .strip_prefix(NONCE_PREFIX)
+        .filter(|value| !value.is_empty())
+    else {
+        return Ok(None);
+    };
+    let Some((value, expires_at_ms)) = live_legacy_raw_tx(tx, key)? else {
+        return Ok(None);
+    };
+    if value != "1" {
+        return Ok(None);
+    }
+    Ok(Some(TypedHmacReplayNonce {
+        nonce_digest: nonce_digest(nonce),
+        expires_at_ms,
+    }))
+}
+
+fn legacy_nonces_tx(tx: &Transaction<'_>) -> StorageResult<Vec<TypedHmacReplayNonce>> {
+    let mut statement = tx.prepare(
+        "SELECT key FROM kv_keys
+         WHERE kind = 'string' AND expires_at_ms IS NOT NULL AND expires_at_ms > ?1
+           AND substr(key, 1, ?2) = ?3
+         ORDER BY key",
+    )?;
+    let rows = statement.query_map(
+        params![
+            crate::time_utils::now_ms(),
+            NONCE_PREFIX.len() as i64,
+            NONCE_PREFIX
+        ],
+        |row| row.get::<_, String>(0),
+    )?;
+    let mut records = Vec::new();
+    for key in rows {
+        if let Some(record) = live_legacy_nonce_tx(tx, &key?)? {
+            records.push(record);
+        }
+    }
+    Ok(records)
+}
+
+fn typed_nonce_tx(
+    tx: &Transaction<'_>,
+    nonce_digest: &str,
+) -> StorageResult<Option<TypedHmacReplayNonce>> {
+    tx.query_row(
+        "SELECT expires_at_ms FROM hmac_replay_nonces WHERE nonce_digest = ?1",
+        [nonce_digest],
+        |row| {
+            Ok(TypedHmacReplayNonce {
+                nonce_digest: nonce_digest.to_string(),
+                expires_at_ms: row.get(0)?,
+            })
+        },
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+#[cfg(test)]
+fn typed_nonce_conn(
+    conn: &tokio_rusqlite::rusqlite::Connection,
+    nonce_digest: &str,
+) -> StorageResult<Option<TypedHmacReplayNonce>> {
+    conn.query_row(
+        "SELECT expires_at_ms FROM hmac_replay_nonces WHERE nonce_digest = ?1",
+        [nonce_digest],
+        |row| {
+            Ok(TypedHmacReplayNonce {
+                nonce_digest: nonce_digest.to_string(),
+                expires_at_ms: row.get(0)?,
+            })
+        },
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+fn upsert_tx(tx: &Transaction<'_>, nonce: &TypedHmacReplayNonce) -> StorageResult<()> {
+    if nonce.nonce_digest.len() != 64 {
+        return Err(storage_error("invalid typed HMAC nonce digest"));
+    }
+    tx.execute(
+        "INSERT INTO hmac_replay_nonces(nonce_digest, guard_value, expires_at_ms, updated_at_ms)
+         VALUES (?1, '1', ?2, ?3)
+         ON CONFLICT(nonce_digest) DO UPDATE SET
+           guard_value = excluded.guard_value,
+           expires_at_ms = excluded.expires_at_ms,
+           updated_at_ms = excluded.updated_at_ms
+         WHERE hmac_replay_nonces.guard_value <> excluded.guard_value
+            OR hmac_replay_nonces.expires_at_ms <> excluded.expires_at_ms",
+        params![
+            nonce.nonce_digest,
+            nonce.expires_at_ms,
+            crate::time_utils::now_ms()
+        ],
+    )?;
+    Ok(())
+}
+
+fn delete_tx(tx: &Transaction<'_>, nonce_digest: &str) -> StorageResult<()> {
+    tx.execute(
+        "DELETE FROM hmac_replay_nonces WHERE nonce_digest = ?1",
+        [nonce_digest],
+    )?;
+    Ok(())
+}

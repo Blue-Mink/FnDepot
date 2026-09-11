@@ -1,1 +1,60 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBTdWJkb21haW5BY3Rpb25Db25maXJtRGlhbG9nIGZyb20gIi4vU3ViZG9tYWluQWN0aW9uQ29uZmlybURpYWxvZy52dWUiOwppbXBvcnQgU3ViZG9tYWluQXZhaWxhYmlsaXR5RGlhbG9nIGZyb20gIi4vU3ViZG9tYWluQXZhaWxhYmlsaXR5RGlhbG9nLnZ1ZSI7CmltcG9ydCB0eXBlIHsgU3ViZG9tYWluUHJveHlEaWFsb2dzQ29udHJvbGxlciB9IGZyb20gIi4vdXNlU3ViZG9tYWluUHJveHlQYWdlIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8eyBjb250cm9sbGVyOiBTdWJkb21haW5Qcm94eURpYWxvZ3NDb250cm9sbGVyIH0+KCk7CmNvbnN0IHsKICBiYXRjaEF2YWlsYWJpbGl0eUZvcm1FbmFibGVkLAogIGJhdGNoQXZhaWxhYmlsaXR5Rm9ybUVuZFRpbWUsCiAgYmF0Y2hBdmFpbGFiaWxpdHlGb3JtU3RhcnRUaW1lLAogIGJhdGNoQXZhaWxhYmlsaXR5T3BlbiwKICBiYXRjaEF2YWlsYWJpbGl0eVZhbGlkYXRpb25NZXNzYWdlLAogIGJhdGNoTXV0YXRpb25Db25maXJtTGFiZWwsCiAgYmF0Y2hNdXRhdGlvbkNvbmZpcm1WYXJpYW50LAogIGJhdGNoTXV0YXRpb25EZXNjcmlwdGlvbiwKICBiYXRjaE11dGF0aW9uVGl0bGUsCiAgYmF0Y2hTZWxlY3RlZENvdW50LAogIGNsb3NlQmF0Y2hBdmFpbGFiaWxpdHksCiAgY2xvc2VCYXRjaE11dGF0aW9uLAogIGNvbmZpcm1CYXRjaE11dGF0aW9uLAogIGlzQmF0Y2hNdXRhdGlvbk9wZW4sCiAgaXNTYXZpbmdNYXBwaW5ncywKICBzYXZlQmF0Y2hBdmFpbGFiaWxpdHksCiAgdCwKfSA9IHByb3BzLmNvbnRyb2xsZXI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxTdWJkb21haW5BY3Rpb25Db25maXJtRGlhbG9nCiAgICA6b3Blbj0iaXNCYXRjaE11dGF0aW9uT3BlbiIKICAgIDp0aXRsZT0iYmF0Y2hNdXRhdGlvblRpdGxlIgogICAgOmRlc2NyaXB0aW9uPSJiYXRjaE11dGF0aW9uRGVzY3JpcHRpb24iCiAgICA6Y2FuY2VsLWxhYmVsPSJ0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5jYW5jZWwnKSIKICAgIDpjb25maXJtLWxhYmVsPSJiYXRjaE11dGF0aW9uQ29uZmlybUxhYmVsIgogICAgOmNvbmZpcm0tdmFyaWFudD0iYmF0Y2hNdXRhdGlvbkNvbmZpcm1WYXJpYW50IgogICAgOmxvYWRpbmc9ImlzU2F2aW5nTWFwcGluZ3MiCiAgICBAdXBkYXRlOm9wZW49IihvcGVuKSA9PiAhb3BlbiAmJiBjbG9zZUJhdGNoTXV0YXRpb24oKSIKICAgIEBjYW5jZWw9ImNsb3NlQmF0Y2hNdXRhdGlvbiIKICAgIEBjb25maXJtPSJjb25maXJtQmF0Y2hNdXRhdGlvbiIKICAvPgoKICA8U3ViZG9tYWluQXZhaWxhYmlsaXR5RGlhbG9nCiAgICA6b3Blbj0iYmF0Y2hBdmFpbGFiaWxpdHlPcGVuIgogICAgOmhvc3Q9IlN0cmluZyhiYXRjaFNlbGVjdGVkQ291bnQpIgogICAgOnRpdGxlPSJ0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5iYXRjaEF2YWlsYWJpbGl0eVRpdGxlJywgeyBjb3VudDogYmF0Y2hTZWxlY3RlZENvdW50IH0pIgogICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5iYXRjaEF2YWlsYWJpbGl0eURlc2NyaXB0aW9uJywgeyBjb3VudDogYmF0Y2hTZWxlY3RlZENvdW50IH0pIgogICAgOnNhdmUtbGFiZWw9InQoJ2FkbWluLnN1YmRvbWFpblByb3h5LnNhdmVCYXRjaEF2YWlsYWJpbGl0eScpIgogICAgOmVuYWJsZWQ9ImJhdGNoQXZhaWxhYmlsaXR5Rm9ybUVuYWJsZWQiCiAgICA6c3RhcnQtdGltZT0iYmF0Y2hBdmFpbGFiaWxpdHlGb3JtU3RhcnRUaW1lIgogICAgOmVuZC10aW1lPSJiYXRjaEF2YWlsYWJpbGl0eUZvcm1FbmRUaW1lIgogICAgOmxvYWRpbmc9ImlzU2F2aW5nTWFwcGluZ3MiCiAgICA6dmFsaWRhdGlvbi1tZXNzYWdlPSJiYXRjaEF2YWlsYWJpbGl0eVZhbGlkYXRpb25NZXNzYWdlIgogICAgQHVwZGF0ZTpvcGVuPSIob3BlbikgPT4gIW9wZW4gJiYgY2xvc2VCYXRjaEF2YWlsYWJpbGl0eSgpIgogICAgQHVwZGF0ZTplbmFibGVkPSJiYXRjaEF2YWlsYWJpbGl0eUZvcm1FbmFibGVkID0gJGV2ZW50IgogICAgQHVwZGF0ZTpzdGFydC10aW1lPSJiYXRjaEF2YWlsYWJpbGl0eUZvcm1TdGFydFRpbWUgPSAkZXZlbnQiCiAgICBAdXBkYXRlOmVuZC10aW1lPSJiYXRjaEF2YWlsYWJpbGl0eUZvcm1FbmRUaW1lID0gJGV2ZW50IgogICAgQGNhbmNlbD0iY2xvc2VCYXRjaEF2YWlsYWJpbGl0eSIKICAgIEBzYXZlPSJzYXZlQmF0Y2hBdmFpbGFiaWxpdHkiCiAgLz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import SubdomainActionConfirmDialog from "./SubdomainActionConfirmDialog.vue";
+import SubdomainAvailabilityDialog from "./SubdomainAvailabilityDialog.vue";
+import type { SubdomainProxyDialogsController } from "./useSubdomainProxyPage";
+
+const props = defineProps<{ controller: SubdomainProxyDialogsController }>();
+const {
+  batchAvailabilityFormEnabled,
+  batchAvailabilityFormEndTime,
+  batchAvailabilityFormStartTime,
+  batchAvailabilityOpen,
+  batchAvailabilityValidationMessage,
+  batchMutationConfirmLabel,
+  batchMutationConfirmVariant,
+  batchMutationDescription,
+  batchMutationTitle,
+  batchSelectedCount,
+  closeBatchAvailability,
+  closeBatchMutation,
+  confirmBatchMutation,
+  isBatchMutationOpen,
+  isSavingMappings,
+  saveBatchAvailability,
+  t,
+} = props.controller;
+</script>
+
+<template>
+  <SubdomainActionConfirmDialog
+    :open="isBatchMutationOpen"
+    :title="batchMutationTitle"
+    :description="batchMutationDescription"
+    :cancel-label="t('admin.subdomainProxy.cancel')"
+    :confirm-label="batchMutationConfirmLabel"
+    :confirm-variant="batchMutationConfirmVariant"
+    :loading="isSavingMappings"
+    @update:open="(open) => !open && closeBatchMutation()"
+    @cancel="closeBatchMutation"
+    @confirm="confirmBatchMutation"
+  />
+
+  <SubdomainAvailabilityDialog
+    :open="batchAvailabilityOpen"
+    :host="String(batchSelectedCount)"
+    :title="t('admin.subdomainProxy.batchAvailabilityTitle', { count: batchSelectedCount })"
+    :description="t('admin.subdomainProxy.batchAvailabilityDescription', { count: batchSelectedCount })"
+    :save-label="t('admin.subdomainProxy.saveBatchAvailability')"
+    :enabled="batchAvailabilityFormEnabled"
+    :start-time="batchAvailabilityFormStartTime"
+    :end-time="batchAvailabilityFormEndTime"
+    :loading="isSavingMappings"
+    :validation-message="batchAvailabilityValidationMessage"
+    @update:open="(open) => !open && closeBatchAvailability()"
+    @update:enabled="batchAvailabilityFormEnabled = $event"
+    @update:start-time="batchAvailabilityFormStartTime = $event"
+    @update:end-time="batchAvailabilityFormEndTime = $event"
+    @cancel="closeBatchAvailability"
+    @save="saveBatchAvailability"
+  />
+</template>

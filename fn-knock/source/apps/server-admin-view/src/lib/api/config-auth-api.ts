@@ -1,1 +1,316 @@
-aW1wb3J0IHR5cGUgeyBjb21wb25lbnRzIGFzIEFwaUNvbnRyYWN0Q29tcG9uZW50cyB9IGZyb20gIkBmbi1rbm9jay9hcGktY29udHJhY3QiOwppbXBvcnQgdHlwZSB7CiAgQXV0aEFjY291bnQsCiAgQXV0aExvZ2luTW9kZSwKICBBdXRoTG9naW5Nb2RlUHJldmlldywKICBBdXRoTG9naW5Nb2RlU3RhdHVzLAogIExkYXBCaW5kaW5nLAogIExkYXBQcm92aWRlckNhdGFsb2dJdGVtLAogIExkYXBQcm92aWRlclZpZXcsCiAgT0lEQ0JpbmRpbmcsCiAgT0lEQ1Byb3ZpZGVyQ2F0YWxvZ0l0ZW0sCiAgT0lEQ1Byb3ZpZGVyVmlldywKICBQYXNza2V5Q3JlZGVudGlhbCwKICBUT1RQQ3JlZGVudGlhbCwKICBUT1RQQ3JlZGVudGlhbEltcG9ydFN1bW1hcnksCiAgVE9UUFN1YmRvbWFpbkFjY2VzcywKICBUT1RQQWNjZXNzU2NvcGUsCn0gZnJvbSAiLi4vLi4vdHlwZXMiOwppbXBvcnQgeyBhcGlDbGllbnQgfSBmcm9tICIuL2NsaWVudCI7Cgp0eXBlIEF1dGhBY2NvdW50Q3JlYXRlUmVxdWVzdCA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIkF1dGhBY2NvdW50Q3JlYXRlQm9keSJdOwp0eXBlIEF1dGhBY2NvdW50UGF0Y2hSZXF1ZXN0ID0KICBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiQXV0aEFjY291bnRQYXRjaEJvZHkiXTsKdHlwZSBBdXRoQWNjb3VudFNldHVwUmVxdWVzdCA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIkF1dGhBY2NvdW50U2V0dXBCb2R5Il07CnR5cGUgT2lkY1Byb3ZpZGVyQ3JlYXRlUmVxdWVzdCA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIk9pZGNQcm92aWRlckNyZWF0ZURhdGEiXTsKdHlwZSBPaWRjUHJvdmlkZXJVcGRhdGVSZXF1ZXN0ID0KICBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiT2lkY1Byb3ZpZGVyVXBkYXRlRGF0YSJdOwp0eXBlIExkYXBQcm92aWRlckNyZWF0ZVJlcXVlc3QgPQogIEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJMZGFwUHJvdmlkZXJDcmVhdGVEYXRhIl07CnR5cGUgTGRhcFByb3ZpZGVyVXBkYXRlUmVxdWVzdCA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIkxkYXBQcm92aWRlclVwZGF0ZURhdGEiXTsKdHlwZSBMZGFwUHJvdmlkZXJUZXN0UmVxdWVzdCA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIkxkYXBQcm92aWRlclRlc3RCb2R5RGF0YSJdOwp0eXBlIEV4dGVybmFsQXV0aENvbm5lY3Rpb25UZXN0ID0KICBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiRXh0ZXJuYWxBdXRoQ29ubmVjdGlvblRlc3REYXRhIl07CnR5cGUgRXh0ZXJuYWxBdXRoSW52aXRhdGlvblJlcXVlc3QgPQogIEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJFeHRlcm5hbEF1dGhJbnZpdGF0aW9uQm9keURhdGEiXTsKdHlwZSBFeHRlcm5hbEF1dGhJbnZpdGF0aW9uID0KICBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiRXh0ZXJuYWxBdXRoSW52aXRhdGlvbkRhdGEiXTsKZXhwb3J0IGNvbnN0IGNvbmZpZ0F1dGhBcGkgPSB7CiAgYXN5bmMgZ2V0VE9UUFN0YXR1cygpOiBQcm9taXNlPHsKICAgIGJvdW5kOiBib29sZWFuOwogICAgY3JlZGVudGlhbHM6IFRPVFBDcmVkZW50aWFsW107CiAgfT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL3RvdHAvc3RhdHVzIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGdldEF1dGhMb2dpbk1vZGUoKTogUHJvbWlzZTxBdXRoTG9naW5Nb2RlU3RhdHVzPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvYXV0aC9tb2RlIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHByZXZpZXdBdXRoTG9naW5Nb2RlKAogICAgbW9kZTogQXV0aExvZ2luTW9kZSwKICApOiBQcm9taXNlPEF1dGhMb2dpbk1vZGVQcmV2aWV3PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL2F1dGgvbW9kZS9wcmV2aWV3IiwgeyBtb2RlIH0pOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBzd2l0Y2hBdXRoTG9naW5Nb2RlKG1vZGU6IEF1dGhMb2dpbk1vZGUpOiBQcm9taXNlPEF1dGhMb2dpbk1vZGVTdGF0dXM+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvYXV0aC9tb2RlL3N3aXRjaCIsIHsgbW9kZSB9KTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0QXV0aEFjY291bnRzKCk6IFByb21pc2U8QXV0aEFjY291bnRbXT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2F1dGgvYWNjb3VudHMiKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhLmFjY291bnRzIHx8IFtdOwogIH0sCiAgYXN5bmMgY3JlYXRlQXV0aEFjY291bnQoCiAgICBwYXlsb2FkOiBBdXRoQWNjb3VudENyZWF0ZVJlcXVlc3QsCiAgKTogUHJvbWlzZTxBdXRoQWNjb3VudD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9hdXRoL2FjY291bnRzIiwgcGF5bG9hZCk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHVwZGF0ZUF1dGhBY2NvdW50KAogICAgaWQ6IHN0cmluZywKICAgIHBheWxvYWQ6IEF1dGhBY2NvdW50UGF0Y2hSZXF1ZXN0LAogICk6IFByb21pc2U8QXV0aEFjY291bnQ+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wYXRjaCgKICAgICAgYC9hdXRoL2FjY291bnRzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX1gLAogICAgICBwYXlsb2FkLAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZGVsZXRlQXV0aEFjY291bnQoaWQ6IHN0cmluZyk6IFByb21pc2U8dm9pZD4gewogICAgYXdhaXQgYXBpQ2xpZW50LmRlbGV0ZShgL2F1dGgvYWNjb3VudHMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfWApOwogIH0sCiAgYXN5bmMgc2V0QXV0aEFjY291bnRQYXNzd29yZCgKICAgIGlkOiBzdHJpbmcsCiAgICBwYXNzd29yZDogc3RyaW5nLAogICk6IFByb21pc2U8QXV0aEFjY291bnQ+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KAogICAgICBgL2F1dGgvYWNjb3VudHMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfS9wYXNzd29yZGAsCiAgICAgIHsgcGFzc3dvcmQgfSwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHNldHVwQXV0aEFjY291bnQoCiAgICBpZDogc3RyaW5nLAogICAgcGF5bG9hZDogQXV0aEFjY291bnRTZXR1cFJlcXVlc3QsCiAgKTogUHJvbWlzZTxBdXRoQWNjb3VudD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoCiAgICAgIGAvYXV0aC9hY2NvdW50cy8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9L3NldHVwYCwKICAgICAgcGF5bG9hZCwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHNldHVwQXV0aEFjY291bnRUT1RQKAogICAgaWQ6IHN0cmluZywKICApOiBQcm9taXNlPHsgc2VjcmV0OiBzdHJpbmc7IHVyaTogc3RyaW5nIH0+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KAogICAgICBgL2F1dGgvYWNjb3VudHMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfS90b3RwL3NldHVwYCwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGJpbmRBdXRoQWNjb3VudFRPVFAoCiAgICBpZDogc3RyaW5nLAogICAgc2VjcmV0OiBzdHJpbmcsCiAgICB0b2tlbjogc3RyaW5nLAogICk6IFByb21pc2U8QXV0aEFjY291bnQ+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KAogICAgICBgL2F1dGgvYWNjb3VudHMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfS90b3RwL2JpbmRgLAogICAgICB7IHNlY3JldCwgdG9rZW4gfSwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHVwZGF0ZUF1dGhBY2NvdW50QWNjZXNzU2NvcGVzKAogICAgaWQ6IHN0cmluZywKICAgIGFjY2Vzc1Njb3BlczogVE9UUEFjY2Vzc1Njb3BlW10sCiAgKTogUHJvbWlzZTxBdXRoQWNjb3VudD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBhdGNoKAogICAgICBgL2F1dGgvYWNjb3VudHMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfS9hY2Nlc3Mtc2NvcGVzYCwKICAgICAgewogICAgICAgIGFjY2Vzc19zY29wZXM6IGFjY2Vzc1Njb3BlcywKICAgICAgfSwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHVwZGF0ZUF1dGhBY2NvdW50U3ViZG9tYWluQWNjZXNzKAogICAgaWQ6IHN0cmluZywKICAgIHN1YmRvbWFpbkFjY2VzczogVE9UUFN1YmRvbWFpbkFjY2VzcywKICApOiBQcm9taXNlPEF1dGhBY2NvdW50PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucGF0Y2goCiAgICAgIGAvYXV0aC9hY2NvdW50cy8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9L3N1YmRvbWFpbi1hY2Nlc3NgLAogICAgICB7CiAgICAgICAgc3ViZG9tYWluX2FjY2Vzczogc3ViZG9tYWluQWNjZXNzLAogICAgICB9LAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgc2V0dXBUT1RQKCk6IFByb21pc2U8eyBzZWNyZXQ6IHN0cmluZzsgdXJpOiBzdHJpbmcgfT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi90b3RwL3NldHVwIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGJpbmRUT1RQKAogICAgc2VjcmV0OiBzdHJpbmcsCiAgICB0b2tlbjogc3RyaW5nLAogICAgY29tbWVudD86IHN0cmluZywKICApOiBQcm9taXNlPHsgc3VjY2VzczogYm9vbGVhbjsgbWVzc2FnZT86IHN0cmluZyB9PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL3RvdHAvYmluZCIsIHsgc2VjcmV0LCB0b2tlbiwgY29tbWVudCB9KTsKICAgIHJldHVybiByZXMuZGF0YTsKICB9LAogIGFzeW5jIGRvd25sb2FkVE9UUENyZWRlbnRpYWxzKCk6IFByb21pc2U8QmxvYj4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL3RvdHAvY3JlZGVudGlhbHMvZXhwb3J0IiwgewogICAgICByZXNwb25zZVR5cGU6ICJibG9iIiwKICAgIH0pOwogICAgcmV0dXJuIHJlcy5kYXRhOwogIH0sCiAgYXN5bmMgaW1wb3J0VE9UUENyZWRlbnRpYWxzKAogICAgcGF5bG9hZDogdW5rbm93biwKICApOiBQcm9taXNlPFRPVFBDcmVkZW50aWFsSW1wb3J0U3VtbWFyeT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi90b3RwL2NyZWRlbnRpYWxzL2ltcG9ydCIsIHsgcGF5bG9hZCB9KTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZGVsZXRlVE9UUChpZDogc3RyaW5nKTogUHJvbWlzZTx2b2lkPiB7CiAgICBhd2FpdCBhcGlDbGllbnQuZGVsZXRlKGAvdG90cC8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9YCk7CiAgfSwKICBhc3luYyB1cGRhdGVUT1RQQ29tbWVudChpZDogc3RyaW5nLCBjb21tZW50OiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGF3YWl0IGFwaUNsaWVudC5wYXRjaChgL3RvdHAvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfS9jb21tZW50YCwgewogICAgICBjb21tZW50LAogICAgfSk7CiAgfSwKICBhc3luYyB1cGRhdGVUT1RQQWNjZXNzU2NvcGVzKAogICAgaWQ6IHN0cmluZywKICAgIGFjY2Vzc1Njb3BlczogVE9UUEFjY2Vzc1Njb3BlW10sCiAgKTogUHJvbWlzZTxUT1RQQ3JlZGVudGlhbD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBhdGNoKAogICAgICBgL3RvdHAvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfS9hY2Nlc3Mtc2NvcGVzYCwKICAgICAgewogICAgICAgIGFjY2Vzc19zY29wZXM6IGFjY2Vzc1Njb3BlcywKICAgICAgfSwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHVwZGF0ZVRPVFBTdWJkb21haW5BY2Nlc3MoCiAgICBpZDogc3RyaW5nLAogICAgc3ViZG9tYWluQWNjZXNzOiBUT1RQU3ViZG9tYWluQWNjZXNzLAogICk6IFByb21pc2U8VE9UUENyZWRlbnRpYWw+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wYXRjaCgKICAgICAgYC90b3RwLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX0vc3ViZG9tYWluLWFjY2Vzc2AsCiAgICAgIHsKICAgICAgICBzdWJkb21haW5fYWNjZXNzOiBzdWJkb21haW5BY2Nlc3MsCiAgICAgIH0sCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRQYXNza2V5cyh0b3RwSWQ6IHN0cmluZyk6IFByb21pc2U8UGFzc2tleUNyZWRlbnRpYWxbXT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgKICAgICAgYC90b3RwLyR7ZW5jb2RlVVJJQ29tcG9uZW50KHRvdHBJZCl9L3Bhc3NrZXlzYCwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGRlbGV0ZVBhc3NrZXkoaWQ6IHN0cmluZyk6IFByb21pc2U8dm9pZD4gewogICAgYXdhaXQgYXBpQ2xpZW50LmRlbGV0ZShgL3Bhc3NrZXlzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX1gKTsKICB9LAogIGFzeW5jIGdldE9JRENQcm92aWRlckNhdGFsb2coKTogUHJvbWlzZTxPSURDUHJvdmlkZXJDYXRhbG9nSXRlbVtdPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvYXV0aC9vaWRjL2NhdGFsb2ciKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhLnByb3ZpZGVyczsKICB9LAogIGFzeW5jIGdldE9JRENQcm92aWRlcnMoKTogUHJvbWlzZTxPSURDUHJvdmlkZXJWaWV3W10+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9hdXRoL29pZGMvcHJvdmlkZXJzIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YS5wcm92aWRlcnM7CiAgfSwKICBhc3luYyBjcmVhdGVPSURDUHJvdmlkZXIoCiAgICBwYXlsb2FkOiBPaWRjUHJvdmlkZXJDcmVhdGVSZXF1ZXN0LAogICk6IFByb21pc2U8T0lEQ1Byb3ZpZGVyVmlldz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9hdXRoL29pZGMvcHJvdmlkZXJzIiwgcGF5bG9hZCk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHVwZGF0ZU9JRENQcm92aWRlcigKICAgIGlkOiBzdHJpbmcsCiAgICBwYXlsb2FkOiBPaWRjUHJvdmlkZXJVcGRhdGVSZXF1ZXN0LAogICk6IFByb21pc2U8T0lEQ1Byb3ZpZGVyVmlldz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBhdGNoKAogICAgICBgL2F1dGgvb2lkYy9wcm92aWRlcnMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfWAsCiAgICAgIHBheWxvYWQsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBkZWxldGVPSURDUHJvdmlkZXIoaWQ6IHN0cmluZyk6IFByb21pc2U8dm9pZD4gewogICAgYXdhaXQgYXBpQ2xpZW50LmRlbGV0ZShgL2F1dGgvb2lkYy9wcm92aWRlcnMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfWApOwogIH0sCiAgYXN5bmMgdGVzdE9JRENQcm92aWRlcihpZDogc3RyaW5nKTogUHJvbWlzZTxFeHRlcm5hbEF1dGhDb25uZWN0aW9uVGVzdD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoCiAgICAgIGAvYXV0aC9vaWRjL3Byb3ZpZGVycy8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9L3Rlc3RgLAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YTsKICB9LAogIGFzeW5jIGdldE9JRENCaW5kaW5ncyh0b3RwSWQ6IHN0cmluZyk6IFByb21pc2U8T0lEQ0JpbmRpbmdbXT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgKICAgICAgYC9hdXRoL29pZGMvdG90cC8ke2VuY29kZVVSSUNvbXBvbmVudCh0b3RwSWQpfS9iaW5kaW5nc2AsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGEuYmluZGluZ3M7CiAgfSwKICBhc3luYyBkZWxldGVPSURDQmluZGluZyhpZDogc3RyaW5nKTogUHJvbWlzZTx2b2lkPiB7CiAgICBhd2FpdCBhcGlDbGllbnQuZGVsZXRlKGAvYXV0aC9vaWRjL2JpbmRpbmdzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX1gKTsKICB9LAogIGFzeW5jIGNyZWF0ZU9JRENJbnZpdGUoCiAgICBwYXlsb2FkOiBFeHRlcm5hbEF1dGhJbnZpdGF0aW9uUmVxdWVzdCwKICApOiBQcm9taXNlPEV4dGVybmFsQXV0aEludml0YXRpb24+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvYXV0aC9vaWRjL2ludml0YXRpb25zIiwgcGF5bG9hZCk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGdldExkYXBQcm92aWRlckNhdGFsb2coKTogUHJvbWlzZTxMZGFwUHJvdmlkZXJDYXRhbG9nSXRlbVtdPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvYXV0aC9sZGFwL2NhdGFsb2ciKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhLnByb3ZpZGVyczsKICB9LAogIGFzeW5jIGdldExkYXBQcm92aWRlcnMoKTogUHJvbWlzZTxMZGFwUHJvdmlkZXJWaWV3W10+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9hdXRoL2xkYXAvcHJvdmlkZXJzIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YS5wcm92aWRlcnM7CiAgfSwKICBhc3luYyBjcmVhdGVMZGFwUHJvdmlkZXIoCiAgICBwYXlsb2FkOiBMZGFwUHJvdmlkZXJDcmVhdGVSZXF1ZXN0LAogICk6IFByb21pc2U8TGRhcFByb3ZpZGVyVmlldz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9hdXRoL2xkYXAvcHJvdmlkZXJzIiwgcGF5bG9hZCk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHVwZGF0ZUxkYXBQcm92aWRlcigKICAgIGlkOiBzdHJpbmcsCiAgICBwYXlsb2FkOiBMZGFwUHJvdmlkZXJVcGRhdGVSZXF1ZXN0LAogICk6IFByb21pc2U8TGRhcFByb3ZpZGVyVmlldz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBhdGNoKAogICAgICBgL2F1dGgvbGRhcC9wcm92aWRlcnMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfWAsCiAgICAgIHBheWxvYWQsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBkZWxldGVMZGFwUHJvdmlkZXIoaWQ6IHN0cmluZyk6IFByb21pc2U8dm9pZD4gewogICAgYXdhaXQgYXBpQ2xpZW50LmRlbGV0ZShgL2F1dGgvbGRhcC9wcm92aWRlcnMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfWApOwogIH0sCiAgYXN5bmMgdGVzdExkYXBQcm92aWRlcigKICAgIGlkOiBzdHJpbmcsCiAgICBjcmVkZW50aWFscz86IExkYXBQcm92aWRlclRlc3RSZXF1ZXN0LAogICk6IFByb21pc2U8RXh0ZXJuYWxBdXRoQ29ubmVjdGlvblRlc3Q+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KAogICAgICBgL2F1dGgvbGRhcC9wcm92aWRlcnMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfS90ZXN0YCwKICAgICAgY3JlZGVudGlhbHMgPz8ge30sCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0TGRhcEJpbmRpbmdzKHRvdHBJZDogc3RyaW5nKTogUHJvbWlzZTxMZGFwQmluZGluZ1tdPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KAogICAgICBgL2F1dGgvbGRhcC90b3RwLyR7ZW5jb2RlVVJJQ29tcG9uZW50KHRvdHBJZCl9L2JpbmRpbmdzYCwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YS5iaW5kaW5nczsKICB9LAogIGFzeW5jIGRlbGV0ZUxkYXBCaW5kaW5nKGlkOiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGF3YWl0IGFwaUNsaWVudC5kZWxldGUoYC9hdXRoL2xkYXAvYmluZGluZ3MvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfWApOwogIH0sCiAgYXN5bmMgY3JlYXRlTGRhcEludml0ZSgKICAgIHBheWxvYWQ6IEV4dGVybmFsQXV0aEludml0YXRpb25SZXF1ZXN0LAogICk6IFByb21pc2U8RXh0ZXJuYWxBdXRoSW52aXRhdGlvbj4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9hdXRoL2xkYXAvaW52aXRhdGlvbnMiLCBwYXlsb2FkKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCn07Cg==
+import type { components as ApiContractComponents } from "@fn-knock/api-contract";
+import type {
+  AuthAccount,
+  AuthLoginMode,
+  AuthLoginModePreview,
+  AuthLoginModeStatus,
+  LdapBinding,
+  LdapProviderCatalogItem,
+  LdapProviderView,
+  OIDCBinding,
+  OIDCProviderCatalogItem,
+  OIDCProviderView,
+  PasskeyCredential,
+  TOTPCredential,
+  TOTPCredentialImportSummary,
+  TOTPSubdomainAccess,
+  TOTPAccessScope,
+} from "../../types";
+import { apiClient } from "./client";
+
+type AuthAccountCreateRequest =
+  ApiContractComponents["schemas"]["AuthAccountCreateBody"];
+type AuthAccountPatchRequest =
+  ApiContractComponents["schemas"]["AuthAccountPatchBody"];
+type AuthAccountSetupRequest =
+  ApiContractComponents["schemas"]["AuthAccountSetupBody"];
+type OidcProviderCreateRequest =
+  ApiContractComponents["schemas"]["OidcProviderCreateData"];
+type OidcProviderUpdateRequest =
+  ApiContractComponents["schemas"]["OidcProviderUpdateData"];
+type LdapProviderCreateRequest =
+  ApiContractComponents["schemas"]["LdapProviderCreateData"];
+type LdapProviderUpdateRequest =
+  ApiContractComponents["schemas"]["LdapProviderUpdateData"];
+type LdapProviderTestRequest =
+  ApiContractComponents["schemas"]["LdapProviderTestBodyData"];
+type ExternalAuthConnectionTest =
+  ApiContractComponents["schemas"]["ExternalAuthConnectionTestData"];
+type ExternalAuthInvitationRequest =
+  ApiContractComponents["schemas"]["ExternalAuthInvitationBodyData"];
+type ExternalAuthInvitation =
+  ApiContractComponents["schemas"]["ExternalAuthInvitationData"];
+export const configAuthApi = {
+  async getTOTPStatus(): Promise<{
+    bound: boolean;
+    credentials: TOTPCredential[];
+  }> {
+    const res = await apiClient.get("/totp/status");
+    return res.data.data;
+  },
+  async getAuthLoginMode(): Promise<AuthLoginModeStatus> {
+    const res = await apiClient.get("/auth/mode");
+    return res.data.data;
+  },
+  async previewAuthLoginMode(
+    mode: AuthLoginMode,
+  ): Promise<AuthLoginModePreview> {
+    const res = await apiClient.post("/auth/mode/preview", { mode });
+    return res.data.data;
+  },
+  async switchAuthLoginMode(mode: AuthLoginMode): Promise<AuthLoginModeStatus> {
+    const res = await apiClient.post("/auth/mode/switch", { mode });
+    return res.data.data;
+  },
+  async getAuthAccounts(): Promise<AuthAccount[]> {
+    const res = await apiClient.get("/auth/accounts");
+    return res.data.data.accounts || [];
+  },
+  async createAuthAccount(
+    payload: AuthAccountCreateRequest,
+  ): Promise<AuthAccount> {
+    const res = await apiClient.post("/auth/accounts", payload);
+    return res.data.data;
+  },
+  async updateAuthAccount(
+    id: string,
+    payload: AuthAccountPatchRequest,
+  ): Promise<AuthAccount> {
+    const res = await apiClient.patch(
+      `/auth/accounts/${encodeURIComponent(id)}`,
+      payload,
+    );
+    return res.data.data;
+  },
+  async deleteAuthAccount(id: string): Promise<void> {
+    await apiClient.delete(`/auth/accounts/${encodeURIComponent(id)}`);
+  },
+  async setAuthAccountPassword(
+    id: string,
+    password: string,
+  ): Promise<AuthAccount> {
+    const res = await apiClient.post(
+      `/auth/accounts/${encodeURIComponent(id)}/password`,
+      { password },
+    );
+    return res.data.data;
+  },
+  async setupAuthAccount(
+    id: string,
+    payload: AuthAccountSetupRequest,
+  ): Promise<AuthAccount> {
+    const res = await apiClient.post(
+      `/auth/accounts/${encodeURIComponent(id)}/setup`,
+      payload,
+    );
+    return res.data.data;
+  },
+  async setupAuthAccountTOTP(
+    id: string,
+  ): Promise<{ secret: string; uri: string }> {
+    const res = await apiClient.post(
+      `/auth/accounts/${encodeURIComponent(id)}/totp/setup`,
+    );
+    return res.data.data;
+  },
+  async bindAuthAccountTOTP(
+    id: string,
+    secret: string,
+    token: string,
+  ): Promise<AuthAccount> {
+    const res = await apiClient.post(
+      `/auth/accounts/${encodeURIComponent(id)}/totp/bind`,
+      { secret, token },
+    );
+    return res.data.data;
+  },
+  async updateAuthAccountAccessScopes(
+    id: string,
+    accessScopes: TOTPAccessScope[],
+  ): Promise<AuthAccount> {
+    const res = await apiClient.patch(
+      `/auth/accounts/${encodeURIComponent(id)}/access-scopes`,
+      {
+        access_scopes: accessScopes,
+      },
+    );
+    return res.data.data;
+  },
+  async updateAuthAccountSubdomainAccess(
+    id: string,
+    subdomainAccess: TOTPSubdomainAccess,
+  ): Promise<AuthAccount> {
+    const res = await apiClient.patch(
+      `/auth/accounts/${encodeURIComponent(id)}/subdomain-access`,
+      {
+        subdomain_access: subdomainAccess,
+      },
+    );
+    return res.data.data;
+  },
+  async setupTOTP(): Promise<{ secret: string; uri: string }> {
+    const res = await apiClient.post("/totp/setup");
+    return res.data.data;
+  },
+  async bindTOTP(
+    secret: string,
+    token: string,
+    comment?: string,
+  ): Promise<{ success: boolean; message?: string }> {
+    const res = await apiClient.post("/totp/bind", { secret, token, comment });
+    return res.data;
+  },
+  async downloadTOTPCredentials(): Promise<Blob> {
+    const res = await apiClient.get("/totp/credentials/export", {
+      responseType: "blob",
+    });
+    return res.data;
+  },
+  async importTOTPCredentials(
+    payload: unknown,
+  ): Promise<TOTPCredentialImportSummary> {
+    const res = await apiClient.post("/totp/credentials/import", { payload });
+    return res.data.data;
+  },
+  async deleteTOTP(id: string): Promise<void> {
+    await apiClient.delete(`/totp/${encodeURIComponent(id)}`);
+  },
+  async updateTOTPComment(id: string, comment: string): Promise<void> {
+    await apiClient.patch(`/totp/${encodeURIComponent(id)}/comment`, {
+      comment,
+    });
+  },
+  async updateTOTPAccessScopes(
+    id: string,
+    accessScopes: TOTPAccessScope[],
+  ): Promise<TOTPCredential> {
+    const res = await apiClient.patch(
+      `/totp/${encodeURIComponent(id)}/access-scopes`,
+      {
+        access_scopes: accessScopes,
+      },
+    );
+    return res.data.data;
+  },
+  async updateTOTPSubdomainAccess(
+    id: string,
+    subdomainAccess: TOTPSubdomainAccess,
+  ): Promise<TOTPCredential> {
+    const res = await apiClient.patch(
+      `/totp/${encodeURIComponent(id)}/subdomain-access`,
+      {
+        subdomain_access: subdomainAccess,
+      },
+    );
+    return res.data.data;
+  },
+  async getPasskeys(totpId: string): Promise<PasskeyCredential[]> {
+    const res = await apiClient.get(
+      `/totp/${encodeURIComponent(totpId)}/passkeys`,
+    );
+    return res.data.data;
+  },
+  async deletePasskey(id: string): Promise<void> {
+    await apiClient.delete(`/passkeys/${encodeURIComponent(id)}`);
+  },
+  async getOIDCProviderCatalog(): Promise<OIDCProviderCatalogItem[]> {
+    const res = await apiClient.get("/auth/oidc/catalog");
+    return res.data.data.providers;
+  },
+  async getOIDCProviders(): Promise<OIDCProviderView[]> {
+    const res = await apiClient.get("/auth/oidc/providers");
+    return res.data.data.providers;
+  },
+  async createOIDCProvider(
+    payload: OidcProviderCreateRequest,
+  ): Promise<OIDCProviderView> {
+    const res = await apiClient.post("/auth/oidc/providers", payload);
+    return res.data.data;
+  },
+  async updateOIDCProvider(
+    id: string,
+    payload: OidcProviderUpdateRequest,
+  ): Promise<OIDCProviderView> {
+    const res = await apiClient.patch(
+      `/auth/oidc/providers/${encodeURIComponent(id)}`,
+      payload,
+    );
+    return res.data.data;
+  },
+  async deleteOIDCProvider(id: string): Promise<void> {
+    await apiClient.delete(`/auth/oidc/providers/${encodeURIComponent(id)}`);
+  },
+  async testOIDCProvider(id: string): Promise<ExternalAuthConnectionTest> {
+    const res = await apiClient.post(
+      `/auth/oidc/providers/${encodeURIComponent(id)}/test`,
+    );
+    return res.data;
+  },
+  async getOIDCBindings(totpId: string): Promise<OIDCBinding[]> {
+    const res = await apiClient.get(
+      `/auth/oidc/totp/${encodeURIComponent(totpId)}/bindings`,
+    );
+    return res.data.data.bindings;
+  },
+  async deleteOIDCBinding(id: string): Promise<void> {
+    await apiClient.delete(`/auth/oidc/bindings/${encodeURIComponent(id)}`);
+  },
+  async createOIDCInvite(
+    payload: ExternalAuthInvitationRequest,
+  ): Promise<ExternalAuthInvitation> {
+    const res = await apiClient.post("/auth/oidc/invitations", payload);
+    return res.data.data;
+  },
+  async getLdapProviderCatalog(): Promise<LdapProviderCatalogItem[]> {
+    const res = await apiClient.get("/auth/ldap/catalog");
+    return res.data.data.providers;
+  },
+  async getLdapProviders(): Promise<LdapProviderView[]> {
+    const res = await apiClient.get("/auth/ldap/providers");
+    return res.data.data.providers;
+  },
+  async createLdapProvider(
+    payload: LdapProviderCreateRequest,
+  ): Promise<LdapProviderView> {
+    const res = await apiClient.post("/auth/ldap/providers", payload);
+    return res.data.data;
+  },
+  async updateLdapProvider(
+    id: string,
+    payload: LdapProviderUpdateRequest,
+  ): Promise<LdapProviderView> {
+    const res = await apiClient.patch(
+      `/auth/ldap/providers/${encodeURIComponent(id)}`,
+      payload,
+    );
+    return res.data.data;
+  },
+  async deleteLdapProvider(id: string): Promise<void> {
+    await apiClient.delete(`/auth/ldap/providers/${encodeURIComponent(id)}`);
+  },
+  async testLdapProvider(
+    id: string,
+    credentials?: LdapProviderTestRequest,
+  ): Promise<ExternalAuthConnectionTest> {
+    const res = await apiClient.post(
+      `/auth/ldap/providers/${encodeURIComponent(id)}/test`,
+      credentials ?? {},
+    );
+    return res.data;
+  },
+  async getLdapBindings(totpId: string): Promise<LdapBinding[]> {
+    const res = await apiClient.get(
+      `/auth/ldap/totp/${encodeURIComponent(totpId)}/bindings`,
+    );
+    return res.data.data.bindings;
+  },
+  async deleteLdapBinding(id: string): Promise<void> {
+    await apiClient.delete(`/auth/ldap/bindings/${encodeURIComponent(id)}`);
+  },
+  async createLdapInvite(
+    payload: ExternalAuthInvitationRequest,
+  ): Promise<ExternalAuthInvitation> {
+    const res = await apiClient.post("/auth/ldap/invitations", payload);
+    return res.data.data;
+  },
+};

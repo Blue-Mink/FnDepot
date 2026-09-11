@@ -1,1 +1,485 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBleHRyYWN0RXJyb3JNZXNzYWdlIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IGNvcHlUZXh0VG9DbGlwYm9hcmQgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL2NvcHlUZXh0VG9DbGlwYm9hcmQiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyBDb25maWdBUEkgfSBmcm9tICJAL2xpYi9hcGkvY29uZmlnIjsKaW1wb3J0IHR5cGUgewogIEV4dGVybmFsQ2VydGlmaWNhdGVCaW5kaW5nLAogIEV4dGVybmFsQ2VydGlmaWNhdGVCaW5kaW5nQ3JlZGVudGlhbCwKICBMYW5DZXJ0aWZpY2F0ZURlcGxveW1lbnQsCn0gZnJvbSAiQC90eXBlcyI7CgpleHBvcnQgdHlwZSBFeHRlcm5hbENlcnRpZmljYXRlQ3JlZGVudGlhbEZpZWxkID0gewogIGxhYmVsOiBzdHJpbmc7CiAgdmFsdWU6IHN0cmluZzsKICBtdWx0aWxpbmU/OiBib29sZWFuOwp9OwoKY29uc3QgUFJPVklERVJfTkFNRVMgPSB7CiAgY2VydGQ6ICJDZXJ0ZCIsCiAgYWNtZV9zaDogImFjbWUuc2giLAogIGxlZ286ICJsZWdvIiwKICBjZXJ0Ym90OiAiQ2VydGJvdCIsCn0gYXMgY29uc3Qgc2F0aXNmaWVzIFJlY29yZDxFeHRlcm5hbENlcnRpZmljYXRlQmluZGluZ1sicHJvdmlkZXIiXSwgc3RyaW5nPjsKCmV4cG9ydCBmdW5jdGlvbiB1c2VFeHRlcm5hbENlcnRpZmljYXRlQmluZGluZ3MoKSB7CiAgY29uc3QgeyB0LCBsb2NhbGUgfSA9IHVzZUkxOG4oKTsKICBjb25zdCBiaW5kaW5ncyA9IHJlZjxFeHRlcm5hbENlcnRpZmljYXRlQmluZGluZ1tdPihbXSk7CiAgY29uc3QgYmluZGluZ05hbWVEcmFmdHMgPSByZWY8UmVjb3JkPHN0cmluZywgc3RyaW5nPj4oe30pOwogIGNvbnN0IGNyZWRlbnRpYWwgPSByZWY8RXh0ZXJuYWxDZXJ0aWZpY2F0ZUJpbmRpbmdDcmVkZW50aWFsIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgcHJvdmlkZXIgPSByZWY8RXh0ZXJuYWxDZXJ0aWZpY2F0ZUJpbmRpbmdbInByb3ZpZGVyIl0+KCJjZXJ0ZCIpOwogIGNvbnN0IGJpbmRpbmdOYW1lID0gcmVmKCJDZXJ0ZCIpOwogIGNvbnN0IGlzTG9hZGluZyA9IHJlZih0cnVlKTsKICBjb25zdCBpc0NyZWF0aW5nID0gcmVmKGZhbHNlKTsKICBjb25zdCBwZW5kaW5nQmluZGluZ0lkID0gcmVmPHN0cmluZyB8IG51bGw+KG51bGwpOwogIGNvbnN0IGxhblNldHRpbmdzID0gcmVmPExhbkNlcnRpZmljYXRlRGVwbG95bWVudCB8IG51bGw+KG51bGwpOwogIGNvbnN0IGxhbkFkZHJlc3NEcmFmdCA9IHJlZigiIik7CiAgY29uc3QgaXNTYXZpbmdMYW4gPSByZWYoZmFsc2UpOwogIGNvbnN0IHNlbGVjdGVkRGVwbG95VXJsID0gcmVmKCIiKTsKCiAgY29uc3QgY29uZmlndXJlZCA9IGNvbXB1dGVkKCgpID0+IGJpbmRpbmdzLnZhbHVlLmxlbmd0aCA+IDApOwogIGNvbnN0IHByb3ZpZGVyT3B0aW9ucyA9IE9iamVjdC5lbnRyaWVzKFBST1ZJREVSX05BTUVTKS5tYXAoCiAgICAoW3ZhbHVlLCBsYWJlbF0pID0+ICh7CiAgICAgIHZhbHVlOiB2YWx1ZSBhcyBFeHRlcm5hbENlcnRpZmljYXRlQmluZGluZ1sicHJvdmlkZXIiXSwKICAgICAgbGFiZWwsCiAgICB9KSwKICApOwogIGNvbnN0IHN1bW1hcnkgPSBjb21wdXRlZCgoKSA9PgogICAgYmluZGluZ3MudmFsdWUubGVuZ3RoCiAgICAgID8gdCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbEJpbmRpbmdzU3VtbWFyeSIsIHsKICAgICAgICAgIGNvdW50OiBiaW5kaW5ncy52YWx1ZS5sZW5ndGgsCiAgICAgICAgfSkKICAgICAgOiB0KCJhZG1pbi5jZXJ0Q29uZmlnLmV4dGVybmFsTm9CaW5kaW5nc1N1bW1hcnkiKSwKICApOwogIGNvbnN0IGNyZWRlbnRpYWxGaWVsZHMgPSBjb21wdXRlZDxFeHRlcm5hbENlcnRpZmljYXRlQ3JlZGVudGlhbEZpZWxkW10+KAogICAgKCkgPT4gewogICAgICBjb25zdCB2YWx1ZSA9IGNyZWRlbnRpYWwudmFsdWU7CiAgICAgIGlmICghdmFsdWUpIHJldHVybiBbXTsKICAgICAgY29uc3QgbG9jYWxVcmwgPSBsb2NhbERlcGxveVVybCh2YWx1ZS5iaW5kaW5nKTsKICAgICAgY29uc3QgZGVwbG95VXJsID0KICAgICAgICBzZWxlY3RlZERlcGxveVVybC52YWx1ZSB8fCBwcmVmZXJyZWREZXBsb3lVcmwodmFsdWUuYmluZGluZyk7CiAgICAgIGNvbnN0IGxhblNlbGVjdGVkID0gdmFsdWUuYmluZGluZy5sYW5fZGVwbG95X3VybHMuaW5jbHVkZXMoZGVwbG95VXJsKTsKICAgICAgaWYgKHZhbHVlLmJpbmRpbmcuc2V0dXBfa2luZCA9PT0gImRlcGxveV9ob29rIikgewogICAgICAgIGNvbnN0IHNjcmlwdCA9IHJlbmRlckRlcGxveUhvb2soCiAgICAgICAgICB2YWx1ZS5iaW5kaW5nLAogICAgICAgICAgZGVwbG95VXJsLAogICAgICAgICAgdmFsdWUudG9rZW4sCiAgICAgICAgICBsYW5TZWxlY3RlZCwKICAgICAgICApOwogICAgICAgIHJldHVybiBbCiAgICAgICAgICB7CiAgICAgICAgICAgIGxhYmVsOiB0KCJhZG1pbi5jZXJ0Q29uZmlnLmV4dGVybmFsVXNhZ2VMYWJlbCIpLAogICAgICAgICAgICB2YWx1ZTogdmFsdWUuYmluZGluZy51c2FnZV9pbnN0cnVjdGlvbnMgPz8gIiIsCiAgICAgICAgICAgIG11bHRpbGluZTogdHJ1ZSwKICAgICAgICAgIH0sCiAgICAgICAgICB7CiAgICAgICAgICAgIGxhYmVsOiB0KCJhZG1pbi5jZXJ0Q29uZmlnLmV4dGVybmFsU2NyaXB0TGFiZWwiKSwKICAgICAgICAgICAgdmFsdWU6IHNjcmlwdCwKICAgICAgICAgICAgbXVsdGlsaW5lOiB0cnVlLAogICAgICAgICAgfSwKICAgICAgICAgIHsKICAgICAgICAgICAgbGFiZWw6IHQoImFkbWluLmNlcnRDb25maWcuZXh0ZXJuYWxMb2NhbFVybExhYmVsIiksCiAgICAgICAgICAgIHZhbHVlOiBsb2NhbFVybCwKICAgICAgICAgIH0sCiAgICAgICAgICAuLi4obGFuU2VsZWN0ZWQKICAgICAgICAgICAgPyBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgIGxhYmVsOiB0KCJhZG1pbi5jZXJ0Q29uZmlnLmV4dGVybmFsTGFuVHJ1c3RMYWJlbCIpLAogICAgICAgICAgICAgICAgICB2YWx1ZTogdCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbExhbkluc2VjdXJlTm90aWNlIiksCiAgICAgICAgICAgICAgICAgIG11bHRpbGluZTogdHJ1ZSwKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgXQogICAgICAgICAgICA6IFtdKSwKICAgICAgICBdLmZpbHRlcigoZmllbGQpID0+IGZpZWxkLnZhbHVlKTsKICAgICAgfQogICAgICByZXR1cm4gWwogICAgICAgIHsKICAgICAgICAgIGxhYmVsOiB0KCJhZG1pbi5jZXJ0Q29uZmlnLmV4dGVybmFsTWV0aG9kTGFiZWwiKSwKICAgICAgICAgIHZhbHVlOiB2YWx1ZS5iaW5kaW5nLnJlcXVlc3RfbWV0aG9kID8/ICIiLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgbGFiZWw6IHQoImFkbWluLmNlcnRDb25maWcuZXh0ZXJuYWxVcmxMYWJlbCIpLAogICAgICAgICAgdmFsdWU6IGRlcGxveVVybCwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIGxhYmVsOiB0KCJhZG1pbi5jZXJ0Q29uZmlnLmV4dGVybmFsTG9jYWxVcmxMYWJlbCIpLAogICAgICAgICAgdmFsdWU6IGxvY2FsVXJsLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgbGFiZWw6IHQoImFkbWluLmNlcnRDb25maWcuZXh0ZXJuYWxIZWFkZXJMYWJlbCIpLAogICAgICAgICAgdmFsdWU6IGF1dGhvcml6YXRpb25IZWFkZXIodmFsdWUudG9rZW4pLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgbGFiZWw6IHQoImFkbWluLmNlcnRDb25maWcuZXh0ZXJuYWxCb2R5TGFiZWwiKSwKICAgICAgICAgIHZhbHVlOiB2YWx1ZS5iaW5kaW5nLnJlcXVlc3RfYm9keV90ZW1wbGF0ZSA/PyAiIiwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIGxhYmVsOiB0KCJhZG1pbi5jZXJ0Q29uZmlnLmV4dGVybmFsU3VjY2Vzc01hcmtlckxhYmVsIiksCiAgICAgICAgICB2YWx1ZTogdmFsdWUuYmluZGluZy5zdWNjZXNzX21hcmtlciA/PyAiIiwKICAgICAgICB9LAogICAgICAgIC4uLihsYW5TZWxlY3RlZAogICAgICAgICAgPyBbCiAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgbGFiZWw6IHQoImFkbWluLmNlcnRDb25maWcuZXh0ZXJuYWxMYW5UcnVzdExhYmVsIiksCiAgICAgICAgICAgICAgICB2YWx1ZTogdCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbExhbkNlcnRkSW5zZWN1cmUiKSwKICAgICAgICAgICAgICAgIG11bHRpbGluZTogdHJ1ZSwKICAgICAgICAgICAgICB9LAogICAgICAgICAgICBdCiAgICAgICAgICA6IFtdKSwKICAgICAgXS5maWx0ZXIoKGZpZWxkKSA9PiBmaWVsZC52YWx1ZSk7CiAgICB9LAogICk7CgogIGNvbnN0IGRlcGxveVVybE9wdGlvbnMgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBiaW5kaW5nID0gY3JlZGVudGlhbC52YWx1ZT8uYmluZGluZzsKICAgIGlmICghYmluZGluZykgcmV0dXJuIFtdOwogICAgY29uc3Qgb3B0aW9uczogQXJyYXk8eyB2YWx1ZTogc3RyaW5nOyBsYWJlbDogc3RyaW5nIH0+ID0gW107CiAgICBpZiAoYmluZGluZy5wdWJsaWNfZGVwbG95X3N0YXR1cyA9PT0gInJlYWR5IiAmJiBiaW5kaW5nLnB1YmxpY19kZXBsb3lfdXJsKSB7CiAgICAgIG9wdGlvbnMucHVzaCh7CiAgICAgICAgdmFsdWU6IGJpbmRpbmcucHVibGljX2RlcGxveV91cmwsCiAgICAgICAgbGFiZWw6IHQoImFkbWluLmNlcnRDb25maWcuZXh0ZXJuYWxFbmRwb2ludFB1YmxpYyIpLAogICAgICB9KTsKICAgIH0KICAgIGZvciAoY29uc3QgdXJsIG9mIGJpbmRpbmcubGFuX2RlcGxveV91cmxzKSB7CiAgICAgIG9wdGlvbnMucHVzaCh7CiAgICAgICAgdmFsdWU6IHVybCwKICAgICAgICBsYWJlbDogYCR7dCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbEVuZHBvaW50TGFuIil9IMK3ICR7dXJsfWAsCiAgICAgIH0pOwogICAgfQogICAgY29uc3QgbG9jYWwgPSBsb2NhbERlcGxveVVybChiaW5kaW5nKTsKICAgIG9wdGlvbnMucHVzaCh7CiAgICAgIHZhbHVlOiBsb2NhbCwKICAgICAgbGFiZWw6IHQoImFkbWluLmNlcnRDb25maWcuZXh0ZXJuYWxFbmRwb2ludExvb3BiYWNrIiksCiAgICB9KTsKICAgIHJldHVybiBvcHRpb25zOwogIH0pOwoKICB3YXRjaChjcmVkZW50aWFsLCAodmFsdWUpID0+IHsKICAgIGlmICghdmFsdWUpIHsKICAgICAgc2VsZWN0ZWREZXBsb3lVcmwudmFsdWUgPSAiIjsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKCFiaW5kaW5nRGVwbG95VXJscyh2YWx1ZS5iaW5kaW5nKS5pbmNsdWRlcyhzZWxlY3RlZERlcGxveVVybC52YWx1ZSkpIHsKICAgICAgc2VsZWN0ZWREZXBsb3lVcmwudmFsdWUgPSBwcmVmZXJyZWREZXBsb3lVcmwodmFsdWUuYmluZGluZyk7CiAgICB9CiAgfSk7CgogIHdhdGNoKHByb3ZpZGVyLCAobmV4dFByb3ZpZGVyLCBwcmV2aW91c1Byb3ZpZGVyKSA9PiB7CiAgICBjb25zdCBjdXJyZW50TmFtZSA9IGJpbmRpbmdOYW1lLnZhbHVlLnRyaW0oKTsKICAgIGlmICghY3VycmVudE5hbWUgfHwgY3VycmVudE5hbWUgPT09IFBST1ZJREVSX05BTUVTW3ByZXZpb3VzUHJvdmlkZXJdKSB7CiAgICAgIGJpbmRpbmdOYW1lLnZhbHVlID0gUFJPVklERVJfTkFNRVNbbmV4dFByb3ZpZGVyXTsKICAgIH0KICB9KTsKCiAgYXN5bmMgZnVuY3Rpb24gbG9hZEJpbmRpbmdzKCkgewogICAgaXNMb2FkaW5nLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IFtsb2FkZWRCaW5kaW5ncywgbG9hZGVkTGFuXSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgICAgICBDb25maWdBUEkuZ2V0RXh0ZXJuYWxDZXJ0aWZpY2F0ZUJpbmRpbmdzKCksCiAgICAgICAgQ29uZmlnQVBJLmdldExhbkNlcnRpZmljYXRlRGVwbG95bWVudCgpLAogICAgICBdKTsKICAgICAgYmluZGluZ3MudmFsdWUgPSBsb2FkZWRCaW5kaW5nczsKICAgICAgbGFuU2V0dGluZ3MudmFsdWUgPSBsb2FkZWRMYW47CiAgICAgIGxhbkFkZHJlc3NEcmFmdC52YWx1ZSA9IGxvYWRlZExhbi5jb25maWd1cmVkX2FkZHJlc3Nlcy5qb2luKCJcbiIpOwogICAgICBiaW5kaW5nTmFtZURyYWZ0cy52YWx1ZSA9IE9iamVjdC5mcm9tRW50cmllcygKICAgICAgICBiaW5kaW5ncy52YWx1ZS5tYXAoKGJpbmRpbmcpID0+IFtiaW5kaW5nLmlkLCBiaW5kaW5nLm5hbWVdKSwKICAgICAgKTsKICAgICAgaWYgKGNyZWRlbnRpYWwudmFsdWUpIHsKICAgICAgICBjb25zdCByZWZyZXNoZWRCaW5kaW5nID0gYmluZGluZ3MudmFsdWUuZmluZCgKICAgICAgICAgIChiaW5kaW5nKSA9PiBiaW5kaW5nLmlkID09PSBjcmVkZW50aWFsLnZhbHVlPy5iaW5kaW5nLmlkLAogICAgICAgICk7CiAgICAgICAgaWYgKHJlZnJlc2hlZEJpbmRpbmcpIHsKICAgICAgICAgIGNyZWRlbnRpYWwudmFsdWUgPSB7CiAgICAgICAgICAgIC4uLmNyZWRlbnRpYWwudmFsdWUsCiAgICAgICAgICAgIGJpbmRpbmc6IHJlZnJlc2hlZEJpbmRpbmcsCiAgICAgICAgICB9OwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICBjcmVkZW50aWFsLnZhbHVlID0gbnVsbDsKICAgICAgICB9CiAgICAgIH0KICAgICAgcmV0dXJuIHRydWU7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBzaG93RXJyb3IoZXJyb3IsICJhZG1pbi5jZXJ0Q29uZmlnLmV4dGVybmFsTG9hZEZhaWxlZCIpOwogICAgICByZXR1cm4gZmFsc2U7CiAgICB9IGZpbmFsbHkgewogICAgICBpc0xvYWRpbmcudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9CgogIGZ1bmN0aW9uIGFkZERldGVjdGVkTGFuQWRkcmVzcyhhZGRyZXNzOiBzdHJpbmcpIHsKICAgIGNvbnN0IGFkZHJlc3NlcyA9IG5ldyBTZXQoCiAgICAgIGxhbkFkZHJlc3NEcmFmdC52YWx1ZQogICAgICAgIC5zcGxpdCgvXHMrLykKICAgICAgICAubWFwKCh2YWx1ZSkgPT4gdmFsdWUudHJpbSgpKQogICAgICAgIC5maWx0ZXIoQm9vbGVhbiksCiAgICApOwogICAgYWRkcmVzc2VzLmFkZChhZGRyZXNzKTsKICAgIGxhbkFkZHJlc3NEcmFmdC52YWx1ZSA9IFsuLi5hZGRyZXNzZXNdLnNvcnQoKS5qb2luKCJcbiIpOwogIH0KCiAgYXN5bmMgZnVuY3Rpb24gc2F2ZUxhblNldHRpbmdzKGVuYWJsZWQ6IGJvb2xlYW4pIHsKICAgIGlzU2F2aW5nTGFuLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGxhblNldHRpbmdzLnZhbHVlID0gYXdhaXQgQ29uZmlnQVBJLnVwZGF0ZUxhbkNlcnRpZmljYXRlRGVwbG95bWVudCh7CiAgICAgICAgZW5hYmxlZCwKICAgICAgICBhZGRyZXNzZXM6IGxhbkFkZHJlc3NEcmFmdC52YWx1ZQogICAgICAgICAgLnNwbGl0KC9ccysvKQogICAgICAgICAgLm1hcCgodmFsdWUpID0+IHZhbHVlLnRyaW0oKSkKICAgICAgICAgIC5maWx0ZXIoQm9vbGVhbiksCiAgICAgIH0pOwogICAgICBsYW5BZGRyZXNzRHJhZnQudmFsdWUgPSBsYW5TZXR0aW5ncy52YWx1ZS5jb25maWd1cmVkX2FkZHJlc3Nlcy5qb2luKCJcbiIpOwogICAgICBhd2FpdCBsb2FkQmluZGluZ3MoKTsKICAgICAgdG9hc3Quc3VjY2VzcygKICAgICAgICB0KAogICAgICAgICAgZW5hYmxlZAogICAgICAgICAgICA/ICJhZG1pbi5jZXJ0Q29uZmlnLmV4dGVybmFsTGFuRW5hYmxlZFN1Y2Nlc3MiCiAgICAgICAgICAgIDogImFkbWluLmNlcnRDb25maWcuZXh0ZXJuYWxMYW5EaXNhYmxlZFN1Y2Nlc3MiLAogICAgICAgICksCiAgICAgICk7CiAgICAgIHJldHVybiB0cnVlOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgc2hvd0Vycm9yKGVycm9yLCAiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbExhblNhdmVGYWlsZWQiKTsKICAgICAgcmV0dXJuIGZhbHNlOwogICAgfSBmaW5hbGx5IHsKICAgICAgaXNTYXZpbmdMYW4udmFsdWUgPSBmYWxzZTsKICAgIH0KICB9CgogIGZ1bmN0aW9uIHJlcGxhY2VCaW5kaW5nKGJpbmRpbmc6IEV4dGVybmFsQ2VydGlmaWNhdGVCaW5kaW5nKSB7CiAgICBjb25zdCBpbmRleCA9IGJpbmRpbmdzLnZhbHVlLmZpbmRJbmRleCgoaXRlbSkgPT4gaXRlbS5pZCA9PT0gYmluZGluZy5pZCk7CiAgICBpZiAoaW5kZXggPT09IC0xKSBiaW5kaW5ncy52YWx1ZS5wdXNoKGJpbmRpbmcpOwogICAgZWxzZSBiaW5kaW5ncy52YWx1ZS5zcGxpY2UoaW5kZXgsIDEsIGJpbmRpbmcpOwogICAgYmluZGluZ05hbWVEcmFmdHMudmFsdWVbYmluZGluZy5pZF0gPSBiaW5kaW5nLm5hbWU7CiAgfQoKICBhc3luYyBmdW5jdGlvbiBjcmVhdGVCaW5kaW5nKCkgewogICAgY29uc3QgbmFtZSA9IGJpbmRpbmdOYW1lLnZhbHVlLnRyaW0oKTsKICAgIGlmICghbmFtZSkgcmV0dXJuOwogICAgaXNDcmVhdGluZy52YWx1ZSA9IHRydWU7CiAgICB0cnkgewogICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBDb25maWdBUEkuY3JlYXRlRXh0ZXJuYWxDZXJ0aWZpY2F0ZUJpbmRpbmcoCiAgICAgICAgbmFtZSwKICAgICAgICBwcm92aWRlci52YWx1ZSwKICAgICAgKTsKICAgICAgY3JlZGVudGlhbC52YWx1ZSA9IHJlc3VsdDsKICAgICAgcmVwbGFjZUJpbmRpbmcocmVzdWx0LmJpbmRpbmcpOwogICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmNlcnRDb25maWcuZXh0ZXJuYWxDcmVhdGVTdWNjZXNzIikpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgc2hvd0Vycm9yKGVycm9yLCAiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbENyZWF0ZUZhaWxlZCIpOwogICAgfSBmaW5hbGx5IHsKICAgICAgaXNDcmVhdGluZy52YWx1ZSA9IGZhbHNlOwogICAgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gc2V0QmluZGluZ0VuYWJsZWQoCiAgICBiaW5kaW5nOiBFeHRlcm5hbENlcnRpZmljYXRlQmluZGluZywKICAgIGVuYWJsZWQ6IGJvb2xlYW4sCiAgKSB7CiAgICBwZW5kaW5nQmluZGluZ0lkLnZhbHVlID0gYmluZGluZy5pZDsKICAgIHRyeSB7CiAgICAgIHJlcGxhY2VCaW5kaW5nKAogICAgICAgIGF3YWl0IENvbmZpZ0FQSS51cGRhdGVFeHRlcm5hbENlcnRpZmljYXRlQmluZGluZyhiaW5kaW5nLmlkLCB7CiAgICAgICAgICBlbmFibGVkLAogICAgICAgIH0pLAogICAgICApOwogICAgICB0b2FzdC5zdWNjZXNzKAogICAgICAgIGVuYWJsZWQKICAgICAgICAgID8gdCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbEVuYWJsZWRTdWNjZXNzIikKICAgICAgICAgIDogdCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbERpc2FibGVkU3VjY2VzcyIpLAogICAgICApOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgc2hvd0Vycm9yKGVycm9yLCAiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbFVwZGF0ZUZhaWxlZCIpOwogICAgfSBmaW5hbGx5IHsKICAgICAgcGVuZGluZ0JpbmRpbmdJZC52YWx1ZSA9IG51bGw7CiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiByZW5hbWVCaW5kaW5nKGJpbmRpbmc6IEV4dGVybmFsQ2VydGlmaWNhdGVCaW5kaW5nKSB7CiAgICBjb25zdCBuYW1lID0gKGJpbmRpbmdOYW1lRHJhZnRzLnZhbHVlW2JpbmRpbmcuaWRdID8/ICIiKS50cmltKCk7CiAgICBpZiAoIW5hbWUgfHwgbmFtZSA9PT0gYmluZGluZy5uYW1lKSByZXR1cm4gZmFsc2U7CiAgICBwZW5kaW5nQmluZGluZ0lkLnZhbHVlID0gYmluZGluZy5pZDsKICAgIHRyeSB7CiAgICAgIHJlcGxhY2VCaW5kaW5nKAogICAgICAgIGF3YWl0IENvbmZpZ0FQSS51cGRhdGVFeHRlcm5hbENlcnRpZmljYXRlQmluZGluZyhiaW5kaW5nLmlkLCB7IG5hbWUgfSksCiAgICAgICk7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbFJlbmFtZVN1Y2Nlc3MiKSk7CiAgICAgIHJldHVybiB0cnVlOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgc2hvd0Vycm9yKGVycm9yLCAiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbFVwZGF0ZUZhaWxlZCIpOwogICAgICByZXR1cm4gZmFsc2U7CiAgICB9IGZpbmFsbHkgewogICAgICBwZW5kaW5nQmluZGluZ0lkLnZhbHVlID0gbnVsbDsKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIHJvdGF0ZVRva2VuKGJpbmRpbmc6IEV4dGVybmFsQ2VydGlmaWNhdGVCaW5kaW5nKSB7CiAgICBwZW5kaW5nQmluZGluZ0lkLnZhbHVlID0gYmluZGluZy5pZDsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IENvbmZpZ0FQSS5yb3RhdGVFeHRlcm5hbENlcnRpZmljYXRlQmluZGluZ1Rva2VuKAogICAgICAgIGJpbmRpbmcuaWQsCiAgICAgICk7CiAgICAgIGNyZWRlbnRpYWwudmFsdWUgPSByZXN1bHQ7CiAgICAgIHJlcGxhY2VCaW5kaW5nKHJlc3VsdC5iaW5kaW5nKTsKICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5jZXJ0Q29uZmlnLmV4dGVybmFsUm90YXRlU3VjY2VzcyIpKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHNob3dFcnJvcihlcnJvciwgImFkbWluLmNlcnRDb25maWcuZXh0ZXJuYWxSb3RhdGVGYWlsZWQiKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHBlbmRpbmdCaW5kaW5nSWQudmFsdWUgPSBudWxsOwogICAgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gcmV2b2tlQmluZGluZyhiaW5kaW5nOiBFeHRlcm5hbENlcnRpZmljYXRlQmluZGluZykgewogICAgcGVuZGluZ0JpbmRpbmdJZC52YWx1ZSA9IGJpbmRpbmcuaWQ7CiAgICB0cnkgewogICAgICBhd2FpdCBDb25maWdBUEkuZGVsZXRlRXh0ZXJuYWxDZXJ0aWZpY2F0ZUJpbmRpbmcoYmluZGluZy5pZCk7CiAgICAgIGJpbmRpbmdzLnZhbHVlID0gYmluZGluZ3MudmFsdWUuZmlsdGVyKChpdGVtKSA9PiBpdGVtLmlkICE9PSBiaW5kaW5nLmlkKTsKICAgICAgZGVsZXRlIGJpbmRpbmdOYW1lRHJhZnRzLnZhbHVlW2JpbmRpbmcuaWRdOwogICAgICBpZiAoY3JlZGVudGlhbC52YWx1ZT8uYmluZGluZy5pZCA9PT0gYmluZGluZy5pZCkgY3JlZGVudGlhbC52YWx1ZSA9IG51bGw7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbFJldm9rZVN1Y2Nlc3MiKSk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBzaG93RXJyb3IoZXJyb3IsICJhZG1pbi5jZXJ0Q29uZmlnLmV4dGVybmFsUmV2b2tlRmFpbGVkIik7CiAgICB9IGZpbmFsbHkgewogICAgICBwZW5kaW5nQmluZGluZ0lkLnZhbHVlID0gbnVsbDsKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGNvcHlWYWx1ZSh2YWx1ZTogc3RyaW5nKSB7CiAgICB0cnkgewogICAgICBhd2FpdCBjb3B5VGV4dFRvQ2xpcGJvYXJkKHZhbHVlKTsKICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5jZXJ0Q29uZmlnLmV4dGVybmFsQ29waWVkIikpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgc2hvd0Vycm9yKGVycm9yLCAiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbENvcHlGYWlsZWQiKTsKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGNvcHlDb21wbGV0ZUNvbmZpZ3VyYXRpb24oKSB7CiAgICBpZiAoIWNyZWRlbnRpYWwudmFsdWUpIHJldHVybjsKICAgIGlmIChjcmVkZW50aWFsLnZhbHVlLmJpbmRpbmcuc2V0dXBfa2luZCA9PT0gImRlcGxveV9ob29rIikgewogICAgICBjb25zdCBzY3JpcHQgPSBjcmVkZW50aWFsRmllbGRzLnZhbHVlLmZpbmQoCiAgICAgICAgKGZpZWxkKSA9PiBmaWVsZC5sYWJlbCA9PT0gdCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbFNjcmlwdExhYmVsIiksCiAgICAgICk7CiAgICAgIGlmIChzY3JpcHQpIHsKICAgICAgICBhd2FpdCBjb3B5VmFsdWUoc2NyaXB0LnZhbHVlKTsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgIH0KICAgIGF3YWl0IGNvcHlWYWx1ZSgKICAgICAgY3JlZGVudGlhbEZpZWxkcy52YWx1ZQogICAgICAgIC5tYXAoKGZpZWxkKSA9PiBgJHtmaWVsZC5sYWJlbH06ICR7ZmllbGQudmFsdWV9YCkKICAgICAgICAuam9pbigiXG4iKSwKICAgICk7CiAgfQoKICBmdW5jdGlvbiBjbGVhckNyZWRlbnRpYWwoKSB7CiAgICBjcmVkZW50aWFsLnZhbHVlID0gbnVsbDsKICB9CgogIGZ1bmN0aW9uIGZvcm1hdERhdGUodmFsdWU/OiBzdHJpbmcgfCBudWxsKSB7CiAgICBpZiAoIXZhbHVlKSByZXR1cm4gdCgiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbE5ldmVyRGVwbG95ZWQiKTsKICAgIGNvbnN0IGRhdGUgPSBuZXcgRGF0ZSh2YWx1ZSk7CiAgICBpZiAoTnVtYmVyLmlzTmFOKGRhdGUuZ2V0VGltZSgpKSkgcmV0dXJuIHZhbHVlOwogICAgcmV0dXJuIG5ldyBJbnRsLkRhdGVUaW1lRm9ybWF0KGxvY2FsZS52YWx1ZSwgewogICAgICBkYXRlU3R5bGU6ICJtZWRpdW0iLAogICAgICB0aW1lU3R5bGU6ICJzaG9ydCIsCiAgICB9KS5mb3JtYXQoZGF0ZSk7CiAgfQoKICBmdW5jdGlvbiBzaG93RXJyb3IoZXJyb3I6IHVua25vd24sIGZhbGxiYWNrS2V5OiBzdHJpbmcpIHsKICAgIHRvYXN0LmVycm9yKGV4dHJhY3RFcnJvck1lc3NhZ2UoZXJyb3IsIHQoZmFsbGJhY2tLZXkpKSk7CiAgfQoKICByZXR1cm4gewogICAgYmluZGluZ05hbWUsCiAgICBiaW5kaW5nTmFtZURyYWZ0cywKICAgIGJpbmRpbmdzLAogICAgY29uZmlndXJlZCwKICAgIGNsZWFyQ3JlZGVudGlhbCwKICAgIGNvcHlDb21wbGV0ZUNvbmZpZ3VyYXRpb24sCiAgICBjb3B5VmFsdWUsCiAgICBjcmVhdGVCaW5kaW5nLAogICAgY3JlZGVudGlhbCwKICAgIGNyZWRlbnRpYWxGaWVsZHMsCiAgICBmb3JtYXREYXRlLAogICAgaXNDcmVhdGluZywKICAgIGlzU2F2aW5nTGFuLAogICAgaXNMb2FkaW5nLAogICAgbG9hZEJpbmRpbmdzLAogICAgcGVuZGluZ0JpbmRpbmdJZCwKICAgIHByb3ZpZGVyLAogICAgcHJvdmlkZXJPcHRpb25zLAogICAgZGVwbG95VXJsT3B0aW9ucywKICAgIHNlbGVjdGVkRGVwbG95VXJsLAogICAgbGFuU2V0dGluZ3MsCiAgICBsYW5BZGRyZXNzRHJhZnQsCiAgICBhZGREZXRlY3RlZExhbkFkZHJlc3MsCiAgICBzYXZlTGFuU2V0dGluZ3MsCiAgICBwdWJsaWNEZXBsb3lTdGF0dXNEZXNjcmlwdGlvbiwKICAgIHByb3ZpZGVyTmFtZSwKICAgIHJlbmFtZUJpbmRpbmcsCiAgICByZXZva2VCaW5kaW5nLAogICAgcm90YXRlVG9rZW4sCiAgICBzZXRCaW5kaW5nRW5hYmxlZCwKICAgIHN1bW1hcnksCiAgfTsKfQoKZnVuY3Rpb24gbG9jYWxEZXBsb3lVcmwoYmluZGluZzogRXh0ZXJuYWxDZXJ0aWZpY2F0ZUJpbmRpbmcpIHsKICByZXR1cm4gbmV3IFVSTCgKICAgIGJpbmRpbmcuZGVwbG95X3BhdGgsCiAgICBgaHR0cDovLzEyNy4wLjAuMToke2JpbmRpbmcuZGVwbG95X3BvcnR9YCwKICApLnRvU3RyaW5nKCk7Cn0KCmZ1bmN0aW9uIHByZWZlcnJlZERlcGxveVVybChiaW5kaW5nOiBFeHRlcm5hbENlcnRpZmljYXRlQmluZGluZykgewogIGlmIChiaW5kaW5nLnB1YmxpY19kZXBsb3lfc3RhdHVzID09PSAicmVhZHkiICYmIGJpbmRpbmcucHVibGljX2RlcGxveV91cmwpIHsKICAgIHJldHVybiBiaW5kaW5nLnB1YmxpY19kZXBsb3lfdXJsOwogIH0KICByZXR1cm4gYmluZGluZy5sYW5fZGVwbG95X3N0YXR1cyA9PT0gInJlYWR5IiAmJiBiaW5kaW5nLmxhbl9kZXBsb3lfdXJsc1swXQogICAgPyBiaW5kaW5nLmxhbl9kZXBsb3lfdXJsc1swXQogICAgOiBsb2NhbERlcGxveVVybChiaW5kaW5nKTsKfQoKZnVuY3Rpb24gYmluZGluZ0RlcGxveVVybHMoYmluZGluZzogRXh0ZXJuYWxDZXJ0aWZpY2F0ZUJpbmRpbmcpIHsKICByZXR1cm4gWwogICAgLi4uKGJpbmRpbmcucHVibGljX2RlcGxveV91cmwgPyBbYmluZGluZy5wdWJsaWNfZGVwbG95X3VybF0gOiBbXSksCiAgICAuLi5iaW5kaW5nLmxhbl9kZXBsb3lfdXJscywKICAgIGxvY2FsRGVwbG95VXJsKGJpbmRpbmcpLAogIF07Cn0KCmZ1bmN0aW9uIHB1YmxpY0RlcGxveVN0YXR1c0Rlc2NyaXB0aW9uKGJpbmRpbmc6IEV4dGVybmFsQ2VydGlmaWNhdGVCaW5kaW5nKSB7CiAgc3dpdGNoIChiaW5kaW5nLnB1YmxpY19kZXBsb3lfc3RhdHVzKSB7CiAgICBjYXNlICJyZWFkeSI6CiAgICAgIHJldHVybiAiYWRtaW4uY2VydENvbmZpZy5leHRlcm5hbFB1YmxpY1JlYWR5RGVzY3JpcHRpb24iOwogICAgY2FzZSAiaHR0cHNfcmVxdWlyZWQiOgogICAgICByZXR1cm4gImFkbWluLmNlcnRDb25maWcuZXh0ZXJuYWxQdWJsaWNIdHRwc1JlcXVpcmVkRGVzY3JpcHRpb24iOwogICAgZGVmYXVsdDoKICAgICAgcmV0dXJuICJhZG1pbi5jZXJ0Q29uZmlnLmV4dGVybmFsUHVibGljVW5jb25maWd1cmVkRGVzY3JpcHRpb24iOwogIH0KfQoKZnVuY3Rpb24gYXV0aG9yaXphdGlvbkhlYWRlcih0b2tlbjogc3RyaW5nKSB7CiAgcmV0dXJuIGBBdXRob3JpemF0aW9uPUJlYXJlciAke3Rva2VufWA7Cn0KCmZ1bmN0aW9uIHByb3ZpZGVyTmFtZShwcm92aWRlcjogRXh0ZXJuYWxDZXJ0aWZpY2F0ZUJpbmRpbmdbInByb3ZpZGVyIl0pIHsKICByZXR1cm4gUFJPVklERVJfTkFNRVNbcHJvdmlkZXJdOwp9CgpmdW5jdGlvbiByZW5kZXJEZXBsb3lIb29rKAogIGJpbmRpbmc6IEV4dGVybmFsQ2VydGlmaWNhdGVCaW5kaW5nLAogIGRlcGxveVVybDogc3RyaW5nLAogIHRva2VuOiBzdHJpbmcsCiAgbGFuOiBib29sZWFuLAopIHsKICBsZXQgc2NyaXB0ID0gKGJpbmRpbmcuc2NyaXB0X3RlbXBsYXRlID8/ICIiKQogICAgLnNwbGl0KCJfX0ZOX0tOT0NLX0RFUExPWV9VUkxfXyIpCiAgICAuam9pbihkZXBsb3lVcmwpCiAgICAuc3BsaXQoIl9fRk5fS05PQ0tfREVQTE9ZX1RPS0VOX18iKQogICAgLmpvaW4odG9rZW4pOwogIGlmIChsYW4pIHsKICAgIHNjcmlwdCA9IHNjcmlwdC5zcGxpdCgiY3VybCAtLXNpbGVudCIpLmpvaW4oImN1cmwgLWsgLS1zaWxlbnQiKTsKICB9CiAgcmV0dXJuIHNjcmlwdDsKfQo=
+import { computed, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { copyTextToClipboard } from "@admin-shared/utils/copyTextToClipboard";
+import { toast } from "@admin-shared/utils/toast";
+import { ConfigAPI } from "@/lib/api/config";
+import type {
+  ExternalCertificateBinding,
+  ExternalCertificateBindingCredential,
+  LanCertificateDeployment,
+} from "@/types";
+
+export type ExternalCertificateCredentialField = {
+  label: string;
+  value: string;
+  multiline?: boolean;
+};
+
+const PROVIDER_NAMES = {
+  certd: "Certd",
+  acme_sh: "acme.sh",
+  lego: "lego",
+  certbot: "Certbot",
+} as const satisfies Record<ExternalCertificateBinding["provider"], string>;
+
+export function useExternalCertificateBindings() {
+  const { t, locale } = useI18n();
+  const bindings = ref<ExternalCertificateBinding[]>([]);
+  const bindingNameDrafts = ref<Record<string, string>>({});
+  const credential = ref<ExternalCertificateBindingCredential | null>(null);
+  const provider = ref<ExternalCertificateBinding["provider"]>("certd");
+  const bindingName = ref("Certd");
+  const isLoading = ref(true);
+  const isCreating = ref(false);
+  const pendingBindingId = ref<string | null>(null);
+  const lanSettings = ref<LanCertificateDeployment | null>(null);
+  const lanAddressDraft = ref("");
+  const isSavingLan = ref(false);
+  const selectedDeployUrl = ref("");
+
+  const configured = computed(() => bindings.value.length > 0);
+  const providerOptions = Object.entries(PROVIDER_NAMES).map(
+    ([value, label]) => ({
+      value: value as ExternalCertificateBinding["provider"],
+      label,
+    }),
+  );
+  const summary = computed(() =>
+    bindings.value.length
+      ? t("admin.certConfig.externalBindingsSummary", {
+          count: bindings.value.length,
+        })
+      : t("admin.certConfig.externalNoBindingsSummary"),
+  );
+  const credentialFields = computed<ExternalCertificateCredentialField[]>(
+    () => {
+      const value = credential.value;
+      if (!value) return [];
+      const localUrl = localDeployUrl(value.binding);
+      const deployUrl =
+        selectedDeployUrl.value || preferredDeployUrl(value.binding);
+      const lanSelected = value.binding.lan_deploy_urls.includes(deployUrl);
+      if (value.binding.setup_kind === "deploy_hook") {
+        const script = renderDeployHook(
+          value.binding,
+          deployUrl,
+          value.token,
+          lanSelected,
+        );
+        return [
+          {
+            label: t("admin.certConfig.externalUsageLabel"),
+            value: value.binding.usage_instructions ?? "",
+            multiline: true,
+          },
+          {
+            label: t("admin.certConfig.externalScriptLabel"),
+            value: script,
+            multiline: true,
+          },
+          {
+            label: t("admin.certConfig.externalLocalUrlLabel"),
+            value: localUrl,
+          },
+          ...(lanSelected
+            ? [
+                {
+                  label: t("admin.certConfig.externalLanTrustLabel"),
+                  value: t("admin.certConfig.externalLanInsecureNotice"),
+                  multiline: true,
+                },
+              ]
+            : []),
+        ].filter((field) => field.value);
+      }
+      return [
+        {
+          label: t("admin.certConfig.externalMethodLabel"),
+          value: value.binding.request_method ?? "",
+        },
+        {
+          label: t("admin.certConfig.externalUrlLabel"),
+          value: deployUrl,
+        },
+        {
+          label: t("admin.certConfig.externalLocalUrlLabel"),
+          value: localUrl,
+        },
+        {
+          label: t("admin.certConfig.externalHeaderLabel"),
+          value: authorizationHeader(value.token),
+        },
+        {
+          label: t("admin.certConfig.externalBodyLabel"),
+          value: value.binding.request_body_template ?? "",
+        },
+        {
+          label: t("admin.certConfig.externalSuccessMarkerLabel"),
+          value: value.binding.success_marker ?? "",
+        },
+        ...(lanSelected
+          ? [
+              {
+                label: t("admin.certConfig.externalLanTrustLabel"),
+                value: t("admin.certConfig.externalLanCertdInsecure"),
+                multiline: true,
+              },
+            ]
+          : []),
+      ].filter((field) => field.value);
+    },
+  );
+
+  const deployUrlOptions = computed(() => {
+    const binding = credential.value?.binding;
+    if (!binding) return [];
+    const options: Array<{ value: string; label: string }> = [];
+    if (binding.public_deploy_status === "ready" && binding.public_deploy_url) {
+      options.push({
+        value: binding.public_deploy_url,
+        label: t("admin.certConfig.externalEndpointPublic"),
+      });
+    }
+    for (const url of binding.lan_deploy_urls) {
+      options.push({
+        value: url,
+        label: `${t("admin.certConfig.externalEndpointLan")} · ${url}`,
+      });
+    }
+    const local = localDeployUrl(binding);
+    options.push({
+      value: local,
+      label: t("admin.certConfig.externalEndpointLoopback"),
+    });
+    return options;
+  });
+
+  watch(credential, (value) => {
+    if (!value) {
+      selectedDeployUrl.value = "";
+      return;
+    }
+    if (!bindingDeployUrls(value.binding).includes(selectedDeployUrl.value)) {
+      selectedDeployUrl.value = preferredDeployUrl(value.binding);
+    }
+  });
+
+  watch(provider, (nextProvider, previousProvider) => {
+    const currentName = bindingName.value.trim();
+    if (!currentName || currentName === PROVIDER_NAMES[previousProvider]) {
+      bindingName.value = PROVIDER_NAMES[nextProvider];
+    }
+  });
+
+  async function loadBindings() {
+    isLoading.value = true;
+    try {
+      const [loadedBindings, loadedLan] = await Promise.all([
+        ConfigAPI.getExternalCertificateBindings(),
+        ConfigAPI.getLanCertificateDeployment(),
+      ]);
+      bindings.value = loadedBindings;
+      lanSettings.value = loadedLan;
+      lanAddressDraft.value = loadedLan.configured_addresses.join("\n");
+      bindingNameDrafts.value = Object.fromEntries(
+        bindings.value.map((binding) => [binding.id, binding.name]),
+      );
+      if (credential.value) {
+        const refreshedBinding = bindings.value.find(
+          (binding) => binding.id === credential.value?.binding.id,
+        );
+        if (refreshedBinding) {
+          credential.value = {
+            ...credential.value,
+            binding: refreshedBinding,
+          };
+        } else {
+          credential.value = null;
+        }
+      }
+      return true;
+    } catch (error) {
+      showError(error, "admin.certConfig.externalLoadFailed");
+      return false;
+    } finally {
+      isLoading.value = false;
+    }
+  }
+
+  function addDetectedLanAddress(address: string) {
+    const addresses = new Set(
+      lanAddressDraft.value
+        .split(/\s+/)
+        .map((value) => value.trim())
+        .filter(Boolean),
+    );
+    addresses.add(address);
+    lanAddressDraft.value = [...addresses].sort().join("\n");
+  }
+
+  async function saveLanSettings(enabled: boolean) {
+    isSavingLan.value = true;
+    try {
+      lanSettings.value = await ConfigAPI.updateLanCertificateDeployment({
+        enabled,
+        addresses: lanAddressDraft.value
+          .split(/\s+/)
+          .map((value) => value.trim())
+          .filter(Boolean),
+      });
+      lanAddressDraft.value = lanSettings.value.configured_addresses.join("\n");
+      await loadBindings();
+      toast.success(
+        t(
+          enabled
+            ? "admin.certConfig.externalLanEnabledSuccess"
+            : "admin.certConfig.externalLanDisabledSuccess",
+        ),
+      );
+      return true;
+    } catch (error) {
+      showError(error, "admin.certConfig.externalLanSaveFailed");
+      return false;
+    } finally {
+      isSavingLan.value = false;
+    }
+  }
+
+  function replaceBinding(binding: ExternalCertificateBinding) {
+    const index = bindings.value.findIndex((item) => item.id === binding.id);
+    if (index === -1) bindings.value.push(binding);
+    else bindings.value.splice(index, 1, binding);
+    bindingNameDrafts.value[binding.id] = binding.name;
+  }
+
+  async function createBinding() {
+    const name = bindingName.value.trim();
+    if (!name) return;
+    isCreating.value = true;
+    try {
+      const result = await ConfigAPI.createExternalCertificateBinding(
+        name,
+        provider.value,
+      );
+      credential.value = result;
+      replaceBinding(result.binding);
+      toast.success(t("admin.certConfig.externalCreateSuccess"));
+    } catch (error) {
+      showError(error, "admin.certConfig.externalCreateFailed");
+    } finally {
+      isCreating.value = false;
+    }
+  }
+
+  async function setBindingEnabled(
+    binding: ExternalCertificateBinding,
+    enabled: boolean,
+  ) {
+    pendingBindingId.value = binding.id;
+    try {
+      replaceBinding(
+        await ConfigAPI.updateExternalCertificateBinding(binding.id, {
+          enabled,
+        }),
+      );
+      toast.success(
+        enabled
+          ? t("admin.certConfig.externalEnabledSuccess")
+          : t("admin.certConfig.externalDisabledSuccess"),
+      );
+    } catch (error) {
+      showError(error, "admin.certConfig.externalUpdateFailed");
+    } finally {
+      pendingBindingId.value = null;
+    }
+  }
+
+  async function renameBinding(binding: ExternalCertificateBinding) {
+    const name = (bindingNameDrafts.value[binding.id] ?? "").trim();
+    if (!name || name === binding.name) return false;
+    pendingBindingId.value = binding.id;
+    try {
+      replaceBinding(
+        await ConfigAPI.updateExternalCertificateBinding(binding.id, { name }),
+      );
+      toast.success(t("admin.certConfig.externalRenameSuccess"));
+      return true;
+    } catch (error) {
+      showError(error, "admin.certConfig.externalUpdateFailed");
+      return false;
+    } finally {
+      pendingBindingId.value = null;
+    }
+  }
+
+  async function rotateToken(binding: ExternalCertificateBinding) {
+    pendingBindingId.value = binding.id;
+    try {
+      const result = await ConfigAPI.rotateExternalCertificateBindingToken(
+        binding.id,
+      );
+      credential.value = result;
+      replaceBinding(result.binding);
+      toast.success(t("admin.certConfig.externalRotateSuccess"));
+    } catch (error) {
+      showError(error, "admin.certConfig.externalRotateFailed");
+    } finally {
+      pendingBindingId.value = null;
+    }
+  }
+
+  async function revokeBinding(binding: ExternalCertificateBinding) {
+    pendingBindingId.value = binding.id;
+    try {
+      await ConfigAPI.deleteExternalCertificateBinding(binding.id);
+      bindings.value = bindings.value.filter((item) => item.id !== binding.id);
+      delete bindingNameDrafts.value[binding.id];
+      if (credential.value?.binding.id === binding.id) credential.value = null;
+      toast.success(t("admin.certConfig.externalRevokeSuccess"));
+    } catch (error) {
+      showError(error, "admin.certConfig.externalRevokeFailed");
+    } finally {
+      pendingBindingId.value = null;
+    }
+  }
+
+  async function copyValue(value: string) {
+    try {
+      await copyTextToClipboard(value);
+      toast.success(t("admin.certConfig.externalCopied"));
+    } catch (error) {
+      showError(error, "admin.certConfig.externalCopyFailed");
+    }
+  }
+
+  async function copyCompleteConfiguration() {
+    if (!credential.value) return;
+    if (credential.value.binding.setup_kind === "deploy_hook") {
+      const script = credentialFields.value.find(
+        (field) => field.label === t("admin.certConfig.externalScriptLabel"),
+      );
+      if (script) {
+        await copyValue(script.value);
+        return;
+      }
+    }
+    await copyValue(
+      credentialFields.value
+        .map((field) => `${field.label}: ${field.value}`)
+        .join("\n"),
+    );
+  }
+
+  function clearCredential() {
+    credential.value = null;
+  }
+
+  function formatDate(value?: string | null) {
+    if (!value) return t("admin.certConfig.externalNeverDeployed");
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return value;
+    return new Intl.DateTimeFormat(locale.value, {
+      dateStyle: "medium",
+      timeStyle: "short",
+    }).format(date);
+  }
+
+  function showError(error: unknown, fallbackKey: string) {
+    toast.error(extractErrorMessage(error, t(fallbackKey)));
+  }
+
+  return {
+    bindingName,
+    bindingNameDrafts,
+    bindings,
+    configured,
+    clearCredential,
+    copyCompleteConfiguration,
+    copyValue,
+    createBinding,
+    credential,
+    credentialFields,
+    formatDate,
+    isCreating,
+    isSavingLan,
+    isLoading,
+    loadBindings,
+    pendingBindingId,
+    provider,
+    providerOptions,
+    deployUrlOptions,
+    selectedDeployUrl,
+    lanSettings,
+    lanAddressDraft,
+    addDetectedLanAddress,
+    saveLanSettings,
+    publicDeployStatusDescription,
+    providerName,
+    renameBinding,
+    revokeBinding,
+    rotateToken,
+    setBindingEnabled,
+    summary,
+  };
+}
+
+function localDeployUrl(binding: ExternalCertificateBinding) {
+  return new URL(
+    binding.deploy_path,
+    `http://127.0.0.1:${binding.deploy_port}`,
+  ).toString();
+}
+
+function preferredDeployUrl(binding: ExternalCertificateBinding) {
+  if (binding.public_deploy_status === "ready" && binding.public_deploy_url) {
+    return binding.public_deploy_url;
+  }
+  return binding.lan_deploy_status === "ready" && binding.lan_deploy_urls[0]
+    ? binding.lan_deploy_urls[0]
+    : localDeployUrl(binding);
+}
+
+function bindingDeployUrls(binding: ExternalCertificateBinding) {
+  return [
+    ...(binding.public_deploy_url ? [binding.public_deploy_url] : []),
+    ...binding.lan_deploy_urls,
+    localDeployUrl(binding),
+  ];
+}
+
+function publicDeployStatusDescription(binding: ExternalCertificateBinding) {
+  switch (binding.public_deploy_status) {
+    case "ready":
+      return "admin.certConfig.externalPublicReadyDescription";
+    case "https_required":
+      return "admin.certConfig.externalPublicHttpsRequiredDescription";
+    default:
+      return "admin.certConfig.externalPublicUnconfiguredDescription";
+  }
+}
+
+function authorizationHeader(token: string) {
+  return `Authorization=Bearer ${token}`;
+}
+
+function providerName(provider: ExternalCertificateBinding["provider"]) {
+  return PROVIDER_NAMES[provider];
+}
+
+function renderDeployHook(
+  binding: ExternalCertificateBinding,
+  deployUrl: string,
+  token: string,
+  lan: boolean,
+) {
+  let script = (binding.script_template ?? "")
+    .split("__FN_KNOCK_DEPLOY_URL__")
+    .join(deployUrl)
+    .split("__FN_KNOCK_DEPLOY_TOKEN__")
+    .join(token);
+  if (lan) {
+    script = script.split("curl --silent").join("curl -k --silent");
+  }
+  return script;
+}

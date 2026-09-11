@@ -1,1 +1,41 @@
-ewogICJleHRlbmRzIjogIkB2dWUvdHNjb25maWcvdHNjb25maWcuZG9tLmpzb24iLAogICJjb21waWxlck9wdGlvbnMiOiB7CiAgICAidHNCdWlsZEluZm9GaWxlIjogIi4vbm9kZV9tb2R1bGVzLy50bXAvdHNjb25maWcuYXBwLnRzYnVpbGRpbmZvIiwKICAgICJ0eXBlcyI6IFsidml0ZS9jbGllbnQiXSwKICAgICJiYXNlVXJsIjogIi4iLAogICAgInBhdGhzIjogewogICAgICAiQC9jb21wb25lbnRzL3VpIjogWyIuLi8uLi9wYWNrYWdlcy91aS12dWUvc3JjL2NvbXBvbmVudHMvdWkvaW5kZXgudHMiXSwKICAgICAgIkAvY29tcG9uZW50cy91aS8qIjogWyIuLi8uLi9wYWNrYWdlcy91aS12dWUvc3JjL2NvbXBvbmVudHMvdWkvKiJdLAogICAgICAiQC9saWIvdXRpbHMiOiBbIi4uLy4uL3BhY2thZ2VzL3VpLXZ1ZS9zcmMvbGliL3V0aWxzLnRzIl0sCiAgICAgICJAYWRtaW4tc2hhcmVkLyoiOiBbIi4uLy4uL3BhY2thZ2VzL2FkbWluLXNoYXJlZC9zcmMvKiJdLAogICAgICAiQGZyb250ZW5kLWNvcmUvKiI6IFsiLi4vLi4vcGFja2FnZXMvZnJvbnRlbmQtY29yZS9zcmMvKiJdLAogICAgICAiQGZuLWtub2NrL2kxOG4iOiBbIi4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL2luZGV4LnRzIl0sCiAgICAgICJAZm4ta25vY2svaTE4bi9jb3JlIjogWyIuLi8uLi9wYWNrYWdlcy9pMThuL3NyYy9jb3JlLnRzIl0sCiAgICAgICJAZm4ta25vY2svaTE4bi92dWUvYXV0aCI6IFsiLi4vLi4vcGFja2FnZXMvaTE4bi9zcmMvdnVlLWF1dGgudHMiXSwKICAgICAgIkBmbi1rbm9jay9pMThuL3Z1ZSI6IFsiLi4vLi4vcGFja2FnZXMvaTE4bi9zcmMvdnVlLnRzIl0sCiAgICAgICJALyoiOiBbCiAgICAgICAgIi4vc3JjLyoiCiAgICAgIF0KICAgIH0sCgogICAgLyogTGludGluZyAqLwogICAgInN0cmljdCI6IHRydWUsCiAgICAibm9VbnVzZWRMb2NhbHMiOiB0cnVlLAogICAgIm5vVW51c2VkUGFyYW1ldGVycyI6IHRydWUsCiAgICAiZXJhc2FibGVTeW50YXhPbmx5IjogdHJ1ZSwKICAgICJub0ZhbGx0aHJvdWdoQ2FzZXNJblN3aXRjaCI6IHRydWUsCiAgICAibm9VbmNoZWNrZWRTaWRlRWZmZWN0SW1wb3J0cyI6IHRydWUKICB9LAogICJpbmNsdWRlIjogWwogICAgInNyYy8qKi8qLnRzIiwKICAgICJzcmMvKiovKi50c3giLAogICAgInNyYy8qKi8qLnZ1ZSIsCiAgICAiLi4vLi4vcGFja2FnZXMvdWktdnVlL3NyYy8qKi8qLnRzIiwKICAgICIuLi8uLi9wYWNrYWdlcy91aS12dWUvc3JjLyoqLyoudnVlIiwKICAgICIuLi8uLi9wYWNrYWdlcy9hZG1pbi1zaGFyZWQvc3JjLyoqLyoudHMiLAogICAgIi4uLy4uL3BhY2thZ2VzL2FkbWluLXNoYXJlZC9zcmMvKiovKi52dWUiLAogICAgIi4uLy4uL3BhY2thZ2VzL2Zyb250ZW5kLWNvcmUvc3JjLyoqLyoudHMiLAogICAgIi4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjLyoqLyoudHMiCiAgXQp9Cg==
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "types": ["vite/client"],
+    "baseUrl": ".",
+    "paths": {
+      "@/components/ui": ["../../packages/ui-vue/src/components/ui/index.ts"],
+      "@/components/ui/*": ["../../packages/ui-vue/src/components/ui/*"],
+      "@/lib/utils": ["../../packages/ui-vue/src/lib/utils.ts"],
+      "@admin-shared/*": ["../../packages/admin-shared/src/*"],
+      "@frontend-core/*": ["../../packages/frontend-core/src/*"],
+      "@fn-knock/i18n": ["../../packages/i18n/src/index.ts"],
+      "@fn-knock/i18n/core": ["../../packages/i18n/src/core.ts"],
+      "@fn-knock/i18n/vue/auth": ["../../packages/i18n/src/vue-auth.ts"],
+      "@fn-knock/i18n/vue": ["../../packages/i18n/src/vue.ts"],
+      "@/*": [
+        "./src/*"
+      ]
+    },
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "../../packages/ui-vue/src/**/*.ts",
+    "../../packages/ui-vue/src/**/*.vue",
+    "../../packages/admin-shared/src/**/*.ts",
+    "../../packages/admin-shared/src/**/*.vue",
+    "../../packages/frontend-core/src/**/*.ts",
+    "../../packages/i18n/src/**/*.ts"
+  ]
+}

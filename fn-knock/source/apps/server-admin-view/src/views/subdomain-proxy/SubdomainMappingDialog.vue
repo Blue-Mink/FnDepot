@@ -1,1 +1,123 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQ2hldnJvbkxlZnQgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgU3ViZG9tYWluTWFwcGluZ0Jhc2ljRm9ybSBmcm9tICIuL1N1YmRvbWFpbk1hcHBpbmdCYXNpY0Zvcm0udnVlIjsKaW1wb3J0IFN1YmRvbWFpbk1hcHBpbmdEaWFsb2dGb290ZXIgZnJvbSAiLi9TdWJkb21haW5NYXBwaW5nRGlhbG9nRm9vdGVyLnZ1ZSI7CmltcG9ydCBTdWJkb21haW5NYXBwaW5nSWNvblBhbmVsIGZyb20gIi4vU3ViZG9tYWluTWFwcGluZ0ljb25QYW5lbC52dWUiOwppbXBvcnQgU3ViZG9tYWluTWFwcGluZ1N0YXRpY1BhdGhCcm93c2VyIGZyb20gIi4vU3ViZG9tYWluTWFwcGluZ1N0YXRpY1BhdGhCcm93c2VyLnZ1ZSI7CmltcG9ydCBTdWJkb21haW5NYXBwaW5nVmlzaWJpbGl0eVBhbmVsIGZyb20gIi4vU3ViZG9tYWluTWFwcGluZ1Zpc2liaWxpdHlQYW5lbC52dWUiOwppbXBvcnQgdHlwZSB7CiAgU3ViZG9tYWluTWFwcGluZ0RpYWxvZ0VtaXRzLAogIFN1YmRvbWFpbk1hcHBpbmdEaWFsb2dQcm9wcywKfSBmcm9tICIuL3N1YmRvbWFpbi1tYXBwaW5nLWRpYWxvZy1jb250cmFjdCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPFN1YmRvbWFpbk1hcHBpbmdEaWFsb2dQcm9wcz4oKTsKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPFN1YmRvbWFpbk1hcHBpbmdEaWFsb2dFbWl0cz4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cgpjb25zdCBESUFMT0dfQ09QWV9LRVlTID0gewogIGJhc2ljOiBbIm1hcHBpbmdEaWFsb2dUaXRsZSIsICJtYXBwaW5nRGlhbG9nRGVzY3JpcHRpb24iXSwKICBpY29uOiBbImljb25UaXRsZSIsICJpY29uUHJldmlld0Rlc2NyaXB0aW9uIl0sCiAgInBhdGgtYnJvd3NlciI6IFsic3RhdGljU2VydmUuYnJvd3Nlci50aXRsZSIsICJzdGF0aWNTZXJ2ZS5icm93c2VyLmhpbnQiXSwKICB2aXNpYmlsaXR5OiBbInZpc2liaWxpdHlUaXRsZSIsICJ2aXNpYmlsaXR5QmVoYXZpb3JEZXNjcmlwdGlvbiJdLAp9IGFzIGNvbnN0Owpjb25zdCBkaWFsb2dUaXRsZSA9IGNvbXB1dGVkKCgpID0+CiAgdCgKICAgIGBhZG1pbi5zdWJkb21haW5Qcm94eS4ke0RJQUxPR19DT1BZX0tFWVNbcHJvcHMudmlzaWJpbGl0eUVkaXRvci5tYXBwaW5nRGlhbG9nVmlld11bMF19YCwKICApLAopOwpjb25zdCBkaWFsb2dEZXNjcmlwdGlvbiA9IGNvbXB1dGVkKCgpID0+CiAgdCgKICAgIGBhZG1pbi5zdWJkb21haW5Qcm94eS4ke0RJQUxPR19DT1BZX0tFWVNbcHJvcHMudmlzaWJpbGl0eUVkaXRvci5tYXBwaW5nRGlhbG9nVmlld11bMV19YCwKICApLAopOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nIDpvcGVuPSJvcGVuIiBAdXBkYXRlOm9wZW49ImVtaXQoJ3VwZGF0ZTpvcGVuJywgJGV2ZW50KSI+CiAgICA8RGlhbG9nQ29udGVudAogICAgICBjbGFzcz0iZmxleCBtYXgtaC1bODV2aF0gZmxleC1jb2wgZ2FwLTAgb3ZlcmZsb3ctaGlkZGVuIG92ZXJzY3JvbGwtY29udGFpbiBwLTAgbWF4LXNtOiFpbnNldC14LTAgbWF4LXNtOiFib3R0b20tMCBtYXgtc206IXRvcC1hdXRvIG1heC1zbTohaC1hdXRvIG1heC1zbTohbWF4LWgtWzgyZHZoXSBtYXgtc206IW1heC13LW5vbmUgbWF4LXNtOiF0cmFuc2xhdGUteC0wIG1heC1zbTohdHJhbnNsYXRlLXktMCBtYXgtc206cm91bmRlZC1iLW5vbmUgbWF4LXNtOmJvcmRlci1iLTAiCiAgICAgIDpjbGFzcz0iCiAgICAgICAgdmlzaWJpbGl0eUVkaXRvci5tYXBwaW5nRGlhbG9nVmlldyA9PT0gJ3BhdGgtYnJvd3NlcicKICAgICAgICAgID8gJ3NtOiFtYXgtdy1bNzYwcHhdJwogICAgICAgICAgOiAnc206bWF4LXctWzUyMHB4XScKICAgICAgIgogICAgICA6c2hvdy1jbG9zZS1idXR0b249ImZhbHNlIgogICAgPgogICAgICA8RGlhbG9nVGl0bGUgY2xhc3M9InNyLW9ubHkiPnt7IGRpYWxvZ1RpdGxlIH19PC9EaWFsb2dUaXRsZT4KICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uIGNsYXNzPSJzci1vbmx5Ij57eyBkaWFsb2dEZXNjcmlwdGlvbiB9fTwvRGlhbG9nRGVzY3JpcHRpb24+CgogICAgICA8ZGl2CiAgICAgICAgdi1pZj0idmlzaWJpbGl0eUVkaXRvci5tYXBwaW5nRGlhbG9nVmlldyAhPT0gJ2Jhc2ljJyIKICAgICAgICBjbGFzcz0ic2hyaW5rLTAgYm9yZGVyLWIgYmctYmFja2dyb3VuZCBweC02IHBiLTMgcHQtOCIKICAgICAgPgogICAgICAgIDxidXR0b24KICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIGNsYXNzPSItbXgtMiBpbmxpbmUtZmxleCB3LVtjYWxjKDEwMCUrMXJlbSldIGl0ZW1zLWNlbnRlciBnYXAtMyByb3VuZGVkLW1kIHB4LTIgcHktMS41IHRleHQtbGVmdCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy1hY2NlbnQgaG92ZXI6dGV4dC1hY2NlbnQtZm9yZWdyb3VuZCBmb2N1cy12aXNpYmxlOm91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMiBmb2N1cy12aXNpYmxlOnJpbmctcmluZyIKICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5iYWNrVG9CYXNpY0FyaWEnKSIKICAgICAgICAgIEBjbGljaz0iCiAgICAgICAgICAgIHZpc2liaWxpdHlFZGl0b3IubWFwcGluZ0RpYWxvZ1ZpZXcgPT09ICdwYXRoLWJyb3dzZXInCiAgICAgICAgICAgICAgPyBwYXRoQnJvd3NlckVkaXRvci5jYW5jZWwoKQogICAgICAgICAgICAgIDogdmlzaWJpbGl0eUVkaXRvci5yZXR1cm5CYXNpY1ZpZXcoKQogICAgICAgICAgIgogICAgICAgID4KICAgICAgICAgIDxDaGV2cm9uTGVmdCBjbGFzcz0iaC00IHctNCBzaHJpbmstMCIgLz4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQiPgogICAgICAgICAgICB7eyBkaWFsb2dUaXRsZSB9fQogICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYKICAgICAgICBkYXRhLWRpYWxvZy1pbnB1dC1zY3JvbGwKICAgICAgICBjbGFzcz0icmVsYXRpdmUgbWluLWgtMCBmbGV4LTEgb3ZlcmZsb3cteC1oaWRkZW4gb3ZlcmZsb3cteS1hdXRvIG92ZXJzY3JvbGwtY29udGFpbiBweC02IFtvdmVyZmxvdy1hbmNob3I6bm9uZV0gW3Njcm9sbC1wYWRkaW5nLWJvdHRvbTo5NnB4XSBbc2Nyb2xsLXBhZGRpbmctdG9wOjk2cHhdIgogICAgICA+CiAgICAgICAgPFRyYW5zaXRpb24KICAgICAgICAgIGVudGVyLWFjdGl2ZS1jbGFzcz0ibW90aW9uLXNhZmU6dHJhbnNpdGlvbi1bb3BhY2l0eSx0cmFuc2Zvcm1dIG1vdGlvbi1zYWZlOmR1cmF0aW9uLTIwMCBtb3Rpb24tc2FmZTplYXNlLW91dCBtb3Rpb24tc2FmZTp3aWxsLWNoYW5nZS10cmFuc2Zvcm0gbW90aW9uLXJlZHVjZTp0cmFuc2l0aW9uLW5vbmUiCiAgICAgICAgICBsZWF2ZS1hY3RpdmUtY2xhc3M9ImFic29sdXRlIGluc2V0LXgtNiB0b3AtMCBtb3Rpb24tc2FmZTp0cmFuc2l0aW9uLVtvcGFjaXR5LHRyYW5zZm9ybV0gbW90aW9uLXNhZmU6ZHVyYXRpb24tMjAwIG1vdGlvbi1zYWZlOmVhc2Utb3V0IG1vdGlvbi1zYWZlOndpbGwtY2hhbmdlLXRyYW5zZm9ybSBtb3Rpb24tcmVkdWNlOmhpZGRlbiIKICAgICAgICAgIDplbnRlci1mcm9tLWNsYXNzPSJ2aXNpYmlsaXR5RWRpdG9yLnRyYW5zaXRpb25FbnRlckZyb21DbGFzcyIKICAgICAgICAgIGVudGVyLXRvLWNsYXNzPSJ0cmFuc2xhdGUteC0wIG9wYWNpdHktMTAwIgogICAgICAgICAgbGVhdmUtZnJvbS1jbGFzcz0idHJhbnNsYXRlLXgtMCBvcGFjaXR5LTEwMCIKICAgICAgICAgIDpsZWF2ZS10by1jbGFzcz0idmlzaWJpbGl0eUVkaXRvci50cmFuc2l0aW9uTGVhdmVUb0NsYXNzIgogICAgICAgID4KICAgICAgICAgIDxTdWJkb21haW5NYXBwaW5nQmFzaWNGb3JtCiAgICAgICAgICAgIHYtaWY9InZpc2liaWxpdHlFZGl0b3IubWFwcGluZ0RpYWxvZ1ZpZXcgPT09ICdiYXNpYyciCiAgICAgICAgICAgIGtleT0ibWFwcGluZy1iYXNpYyIKICAgICAgICAgICAgOmRpYWxvZz0icHJvcHMiCiAgICAgICAgICAvPgogICAgICAgICAgPFN1YmRvbWFpbk1hcHBpbmdJY29uUGFuZWwKICAgICAgICAgICAgdi1lbHNlLWlmPSJ2aXNpYmlsaXR5RWRpdG9yLm1hcHBpbmdEaWFsb2dWaWV3ID09PSAnaWNvbiciCiAgICAgICAgICAgIGtleT0ibWFwcGluZy1pY29uIgogICAgICAgICAgICA6aWNvbi1lZGl0b3I9Imljb25FZGl0b3IiCiAgICAgICAgICAgIDppcy1zYXZpbmctbWFwcGluZ3M9ImlzU2F2aW5nTWFwcGluZ3MiCiAgICAgICAgICAvPgogICAgICAgICAgPFN1YmRvbWFpbk1hcHBpbmdWaXNpYmlsaXR5UGFuZWwKICAgICAgICAgICAgdi1lbHNlLWlmPSJ2aXNpYmlsaXR5RWRpdG9yLm1hcHBpbmdEaWFsb2dWaWV3ID09PSAndmlzaWJpbGl0eSciCiAgICAgICAgICAgIGtleT0ibWFwcGluZy12aXNpYmlsaXR5IgogICAgICAgICAgICA6Y29tcG9zZWQtcHJldmlldy1ob3N0PSJjb21wb3NlZFByZXZpZXdIb3N0IgogICAgICAgICAgICA6bWFwcGluZy1mb3JtPSJtYXBwaW5nRm9ybSIKICAgICAgICAgICAgOnZpc2liaWxpdHktZWRpdG9yPSJ2aXNpYmlsaXR5RWRpdG9yIgogICAgICAgICAgLz4KICAgICAgICAgIDxTdWJkb21haW5NYXBwaW5nU3RhdGljUGF0aEJyb3dzZXIKICAgICAgICAgICAgdi1lbHNlCiAgICAgICAgICAgIGtleT0ibWFwcGluZy1wYXRoLWJyb3dzZXIiCiAgICAgICAgICAgIDplZGl0b3I9InBhdGhCcm93c2VyRWRpdG9yIgogICAgICAgICAgLz4KICAgICAgICA8L1RyYW5zaXRpb24+CiAgICAgIDwvZGl2PgoKICAgICAgPFN1YmRvbWFpbk1hcHBpbmdEaWFsb2dGb290ZXIKICAgICAgICA6ZGlhbG9nPSJwcm9wcyIKICAgICAgICBAY2xvc2U9ImVtaXQoJ2Nsb3NlJykiCiAgICAgICAgQHNhdmU9ImVtaXQoJ3NhdmUnKSIKICAgICAgLz4KICAgIDwvRGlhbG9nQ29udGVudD4KICA8L0RpYWxvZz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { ChevronLeft } from "lucide-vue-next";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import SubdomainMappingBasicForm from "./SubdomainMappingBasicForm.vue";
+import SubdomainMappingDialogFooter from "./SubdomainMappingDialogFooter.vue";
+import SubdomainMappingIconPanel from "./SubdomainMappingIconPanel.vue";
+import SubdomainMappingStaticPathBrowser from "./SubdomainMappingStaticPathBrowser.vue";
+import SubdomainMappingVisibilityPanel from "./SubdomainMappingVisibilityPanel.vue";
+import type {
+  SubdomainMappingDialogEmits,
+  SubdomainMappingDialogProps,
+} from "./subdomain-mapping-dialog-contract";
+
+const props = defineProps<SubdomainMappingDialogProps>();
+const emit = defineEmits<SubdomainMappingDialogEmits>();
+const { t } = useI18n();
+
+const DIALOG_COPY_KEYS = {
+  basic: ["mappingDialogTitle", "mappingDialogDescription"],
+  icon: ["iconTitle", "iconPreviewDescription"],
+  "path-browser": ["staticServe.browser.title", "staticServe.browser.hint"],
+  visibility: ["visibilityTitle", "visibilityBehaviorDescription"],
+} as const;
+const dialogTitle = computed(() =>
+  t(
+    `admin.subdomainProxy.${DIALOG_COPY_KEYS[props.visibilityEditor.mappingDialogView][0]}`,
+  ),
+);
+const dialogDescription = computed(() =>
+  t(
+    `admin.subdomainProxy.${DIALOG_COPY_KEYS[props.visibilityEditor.mappingDialogView][1]}`,
+  ),
+);
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent
+      class="flex max-h-[85vh] flex-col gap-0 overflow-hidden overscroll-contain p-0 max-sm:!inset-x-0 max-sm:!bottom-0 max-sm:!top-auto max-sm:!h-auto max-sm:!max-h-[82dvh] max-sm:!max-w-none max-sm:!translate-x-0 max-sm:!translate-y-0 max-sm:rounded-b-none max-sm:border-b-0"
+      :class="
+        visibilityEditor.mappingDialogView === 'path-browser'
+          ? 'sm:!max-w-[760px]'
+          : 'sm:max-w-[520px]'
+      "
+      :show-close-button="false"
+    >
+      <DialogTitle class="sr-only">{{ dialogTitle }}</DialogTitle>
+      <DialogDescription class="sr-only">{{ dialogDescription }}</DialogDescription>
+
+      <div
+        v-if="visibilityEditor.mappingDialogView !== 'basic'"
+        class="shrink-0 border-b bg-background px-6 pb-3 pt-8"
+      >
+        <button
+          type="button"
+          class="-mx-2 inline-flex w-[calc(100%+1rem)] items-center gap-3 rounded-md px-2 py-1.5 text-left transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+          :aria-label="t('admin.subdomainProxy.backToBasicAria')"
+          @click="
+            visibilityEditor.mappingDialogView === 'path-browser'
+              ? pathBrowserEditor.cancel()
+              : visibilityEditor.returnBasicView()
+          "
+        >
+          <ChevronLeft class="h-4 w-4 shrink-0" />
+          <span class="text-sm font-semibold">
+            {{ dialogTitle }}
+          </span>
+        </button>
+      </div>
+
+      <div
+        data-dialog-input-scroll
+        class="relative min-h-0 flex-1 overflow-x-hidden overflow-y-auto overscroll-contain px-6 [overflow-anchor:none] [scroll-padding-bottom:96px] [scroll-padding-top:96px]"
+      >
+        <Transition
+          enter-active-class="motion-safe:transition-[opacity,transform] motion-safe:duration-200 motion-safe:ease-out motion-safe:will-change-transform motion-reduce:transition-none"
+          leave-active-class="absolute inset-x-6 top-0 motion-safe:transition-[opacity,transform] motion-safe:duration-200 motion-safe:ease-out motion-safe:will-change-transform motion-reduce:hidden"
+          :enter-from-class="visibilityEditor.transitionEnterFromClass"
+          enter-to-class="translate-x-0 opacity-100"
+          leave-from-class="translate-x-0 opacity-100"
+          :leave-to-class="visibilityEditor.transitionLeaveToClass"
+        >
+          <SubdomainMappingBasicForm
+            v-if="visibilityEditor.mappingDialogView === 'basic'"
+            key="mapping-basic"
+            :dialog="props"
+          />
+          <SubdomainMappingIconPanel
+            v-else-if="visibilityEditor.mappingDialogView === 'icon'"
+            key="mapping-icon"
+            :icon-editor="iconEditor"
+            :is-saving-mappings="isSavingMappings"
+          />
+          <SubdomainMappingVisibilityPanel
+            v-else-if="visibilityEditor.mappingDialogView === 'visibility'"
+            key="mapping-visibility"
+            :composed-preview-host="composedPreviewHost"
+            :mapping-form="mappingForm"
+            :visibility-editor="visibilityEditor"
+          />
+          <SubdomainMappingStaticPathBrowser
+            v-else
+            key="mapping-path-browser"
+            :editor="pathBrowserEditor"
+          />
+        </Transition>
+      </div>
+
+      <SubdomainMappingDialogFooter
+        :dialog="props"
+        @close="emit('close')"
+        @save="emit('save')"
+      />
+    </DialogContent>
+  </Dialog>
+</template>

@@ -1,1 +1,40 @@
-dXNlIHN0ZDo6e2VudiwgZnMsIHBhdGg6OlBhdGhCdWZ9OwoKdXNlIGFueWhvdzo6e0NvbnRleHQsIFJlc3VsdCwgYmFpbH07CgpmbiBtYWluKCkgLT4gUmVzdWx0PCgpPiB7CiAgICBsZXQgbXV0IGFyZ3VtZW50cyA9IGVudjo6YXJncygpLnNraXAoMSk7CiAgICBsZXQgY2hlY2sgPSBhcmd1bWVudHMKICAgICAgICAubmV4dCgpCiAgICAgICAgLmlzX3NvbWVfYW5kKHxhcmd1bWVudHwgYXJndW1lbnQgPT0gIi0tY2hlY2siKTsKICAgIGxldCBvdXRwdXQgPSBpZiBjaGVjayB7CiAgICAgICAgYXJndW1lbnRzLm5leHQoKQogICAgfSBlbHNlIHsKICAgICAgICBlbnY6OmFyZ3MoKS5udGgoMSkKICAgIH0KICAgIC5tYXAoUGF0aEJ1Zjo6ZnJvbSkKICAgIC51bndyYXBfb3JfZWxzZSh8fCBQYXRoQnVmOjpmcm9tKCJwYWNrYWdlcy9hcGktY29udHJhY3Qvb3BlbmFwaS5qc29uIikpOwogICAgaWYgYXJndW1lbnRzLm5leHQoKS5pc19zb21lKCkgewogICAgICAgIGJhaWwhKCJ1c2FnZTogZXhwb3J0LW9wZW5hcGkgWy0tY2hlY2tdIFtvdXRwdXRdIik7CiAgICB9CgogICAgbGV0IG11dCBqc29uID0gc2VyZGVfanNvbjo6dG9fc3RyaW5nX3ByZXR0eSgmc2VydmVyX2FkbWluX3JzOjphcGlfY29udHJhY3RfZG9jdW1lbnQoKSkKICAgICAgICAuY29udGV4dCgic2VyaWFsaXplIE9wZW5BUEkgZG9jdW1lbnQiKT87CiAgICBqc29uLnB1c2goJ1xuJyk7CiAgICBpZiBjaGVjayB7CiAgICAgICAgbGV0IGN1cnJlbnQgPSBmczo6cmVhZF90b19zdHJpbmcoJm91dHB1dCkKICAgICAgICAgICAgLndpdGhfY29udGV4dCh8fCBmb3JtYXQhKCJyZWFkIGNoZWNrZWQgY29udHJhY3Qge30iLCBvdXRwdXQuZGlzcGxheSgpKSk/OwogICAgICAgIGlmIGN1cnJlbnQgIT0ganNvbiB7CiAgICAgICAgICAgIGJhaWwhKCJ7fSBpcyBzdGFsZTsgcnVuIG5wbSBydW4gYXBpOmdlbmVyYXRlIiwgb3V0cHV0LmRpc3BsYXkoKSk7CiAgICAgICAgfQogICAgICAgIHByaW50bG4hKCJbYXBpLWNvbnRyYWN0XSB7fSBpcyBjdXJyZW50Iiwgb3V0cHV0LmRpc3BsYXkoKSk7CiAgICB9IGVsc2UgewogICAgICAgIGlmIGxldCBTb21lKHBhcmVudCkgPSBvdXRwdXQucGFyZW50KCkgewogICAgICAgICAgICBmczo6Y3JlYXRlX2Rpcl9hbGwocGFyZW50KS53aXRoX2NvbnRleHQofHwgZm9ybWF0ISgiY3JlYXRlIHt9IiwgcGFyZW50LmRpc3BsYXkoKSkpPzsKICAgICAgICB9CiAgICAgICAgZnM6OndyaXRlKCZvdXRwdXQsIGpzb24pCiAgICAgICAgICAgIC53aXRoX2NvbnRleHQofHwgZm9ybWF0ISgid3JpdGUgT3BlbkFQSSBjb250cmFjdCB7fSIsIG91dHB1dC5kaXNwbGF5KCkpKT87CiAgICAgICAgcHJpbnRsbiEoIlthcGktY29udHJhY3RdIHdyb3RlIHt9Iiwgb3V0cHV0LmRpc3BsYXkoKSk7CiAgICB9CiAgICBPaygoKSkKfQo=
+use std::{env, fs, path::PathBuf};
+
+use anyhow::{Context, Result, bail};
+
+fn main() -> Result<()> {
+    let mut arguments = env::args().skip(1);
+    let check = arguments
+        .next()
+        .is_some_and(|argument| argument == "--check");
+    let output = if check {
+        arguments.next()
+    } else {
+        env::args().nth(1)
+    }
+    .map(PathBuf::from)
+    .unwrap_or_else(|| PathBuf::from("packages/api-contract/openapi.json"));
+    if arguments.next().is_some() {
+        bail!("usage: export-openapi [--check] [output]");
+    }
+
+    let mut json = serde_json::to_string_pretty(&server_admin_rs::api_contract_document())
+        .context("serialize OpenAPI document")?;
+    json.push('\n');
+    if check {
+        let current = fs::read_to_string(&output)
+            .with_context(|| format!("read checked contract {}", output.display()))?;
+        if current != json {
+            bail!("{} is stale; run npm run api:generate", output.display());
+        }
+        println!("[api-contract] {} is current", output.display());
+    } else {
+        if let Some(parent) = output.parent() {
+            fs::create_dir_all(parent).with_context(|| format!("create {}", parent.display()))?;
+        }
+        fs::write(&output, json)
+            .with_context(|| format!("write OpenAPI contract {}", output.display()))?;
+        println!("[api-contract] wrote {}", output.display());
+    }
+    Ok(())
+}

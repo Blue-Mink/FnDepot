@@ -1,1 +1,106 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgU2F2ZSB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDYXJkQ29udGVudCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IEZsb2F0aW5nQWN0aW9uRG9jayBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0Zsb2F0aW5nQWN0aW9uRG9jay52dWUiOwppbXBvcnQgQWR2YW5jZWRBdXRoRHVyYXRpb25TZXR0aW5ncyBmcm9tICIuL0FkdmFuY2VkQXV0aER1cmF0aW9uU2V0dGluZ3MudnVlIjsKaW1wb3J0IEFkdmFuY2VkQXV0aFJ1bGVHcm91cHMgZnJvbSAiLi9BZHZhbmNlZEF1dGhSdWxlR3JvdXBzLnZ1ZSI7CmltcG9ydCB0eXBlIHsgU3ViZG9tYWluQWR2YW5jZWRBdXRoUGFnZU1vZGVsIH0gZnJvbSAiLi91c2VTdWJkb21haW5BZHZhbmNlZEF1dGhQYWdlIjsKCmRlZmluZVByb3BzPHsgbW9kZWw6IFN1YmRvbWFpbkFkdmFuY2VkQXV0aFBhZ2VNb2RlbCB9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgYTExeUlkID0gdXNlSWQoKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPENhcmRDb250ZW50IGNsYXNzPSJzcGFjZS15LTYgcHgtMyBzbTpweC02Ij4KICAgIDxzZWN0aW9uIGNsYXNzPSJyb3VuZGVkLXhsIGJnLW11dGVkLzMwIHAtNCBzbTpwLTUiPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxMYWJlbCA6Zm9yPSJgJHthMTF5SWR9LWVuYWJsZWRgIiBjbGFzcz0idGV4dC1iYXNlIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uYWR2YW5jZWRBdXRoLmVuYWJsZWQiKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxwIGNsYXNzPSJtdC0xIHRleHQtc20gbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmFkdmFuY2VkQXV0aC5lbmFibGVkRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxTd2l0Y2gKICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1lbmFibGVkYCIKICAgICAgICAgIHYtbW9kZWw6bW9kZWwtdmFsdWU9Im1vZGVsLmZvcm0uZW5hYmxlZCIKICAgICAgICAgIDpkaXNhYmxlZD0ibW9kZWwuc2F2aW5nIgogICAgICAgIC8+CiAgICAgIDwvZGl2PgogICAgICA8cCBjbGFzcz0ibXQtMyB0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LWFtYmVyLTcwMCBkYXJrOnRleHQtYW1iZXItMzAwIj4KICAgICAgICB7eyB0KCJhZG1pbi5hZHZhbmNlZEF1dGgudGVtcG9yYXJ5R3JhbnROb3RpY2UiKSB9fQogICAgICA8L3A+CiAgICA8L3NlY3Rpb24+CgogICAgPGRpdiB2LWlmPSJtb2RlbC5mb3JtLmVuYWJsZWQiIGNsYXNzPSJzcGFjZS15LTYiPgogICAgICA8QWR2YW5jZWRBdXRoUnVsZUdyb3VwcwogICAgICAgIDpmb3JtPSJtb2RlbC5mb3JtIgogICAgICAgIDpzYXZpbmc9Im1vZGVsLnNhdmluZyIKICAgICAgICA6dmFsdWUtZHJhZnRzPSJtb2RlbC52YWx1ZURyYWZ0cyIKICAgICAgLz4KICAgICAgPEFkdmFuY2VkQXV0aER1cmF0aW9uU2V0dGluZ3MKICAgICAgICA6Zm9ybT0ibW9kZWwuZm9ybSIKICAgICAgICA6c2F2aW5nPSJtb2RlbC5zYXZpbmciCiAgICAgIC8+CiAgICA8L2Rpdj4KICA8L0NhcmRDb250ZW50PgoKICA8RmxvYXRpbmdBY3Rpb25Eb2NrCiAgICA6YWN0aXZlPSJtb2RlbC5pc0RpcnR5IgogICAgaW5saW5lLWNsYXNzPSJib3JkZXItdCBib3JkZXItYm9yZGVyLzYwIHAtNSIKICA+CiAgICA8dGVtcGxhdGUgI2lubGluZT4KICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgID4KICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sKICAgICAgICAgICAgbW9kZWwuZm9ybS5lbmFibGVkICYmIG1vZGVsLmlzQnJvYWRSdWxlCiAgICAgICAgICAgICAgPyB0KCJhZG1pbi5hZHZhbmNlZEF1dGguYnJvYWRSdWxlV2FybmluZyIpCiAgICAgICAgICAgICAgOiB0KCJhZG1pbi5hZHZhbmNlZEF1dGguc2F2ZUhpbnQiKQogICAgICAgICAgfX0KICAgICAgICA8L3A+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBnYXAtMyBzbTptbC1hdXRvIj4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgOmRpc2FibGVkPSJtb2RlbC5zYXZpbmciCiAgICAgICAgICAgIEBjbGljaz0ibW9kZWwuY2FuY2VsIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJjb21tb24uY2FuY2VsIikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICA6ZGlzYWJsZWQ9IiFtb2RlbC5pc0RpcnR5IHx8IG1vZGVsLnNhdmluZyIKICAgICAgICAgICAgQGNsaWNrPSJtb2RlbC5zYXZlIgogICAgICAgICAgPgogICAgICAgICAgICA8U2F2ZSBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIG1vZGVsLnNhdmluZyA/IHQoImFkbWluLmFkdmFuY2VkQXV0aC5zYXZpbmciKSA6IHQoImNvbW1vbi5zYXZlIikKICAgICAgICAgICAgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvdGVtcGxhdGU+CiAgICA8dGVtcGxhdGUgI2Zsb2F0aW5nPgogICAgICA8QnV0dG9uCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICA6ZGlzYWJsZWQ9Im1vZGVsLnNhdmluZyIKICAgICAgICBAY2xpY2s9Im1vZGVsLmNhbmNlbCIKICAgICAgPgogICAgICAgIHt7IHQoImNvbW1vbi5jYW5jZWwiKSB9fQogICAgICA8L0J1dHRvbj4KICAgICAgPEJ1dHRvbgogICAgICAgIDpkaXNhYmxlZD0iIW1vZGVsLmlzRGlydHkgfHwgbW9kZWwuc2F2aW5nIgogICAgICAgIEBjbGljaz0ibW9kZWwuc2F2ZSIKICAgICAgPgogICAgICAgIDxTYXZlIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+e3sgdCgiY29tbW9uLnNhdmUiKSB9fQogICAgICA8L0J1dHRvbj4KICAgIDwvdGVtcGxhdGU+CiAgPC9GbG9hdGluZ0FjdGlvbkRvY2s+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { Save } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { CardContent } from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import FloatingActionDock from "@admin-shared/components/common/FloatingActionDock.vue";
+import AdvancedAuthDurationSettings from "./AdvancedAuthDurationSettings.vue";
+import AdvancedAuthRuleGroups from "./AdvancedAuthRuleGroups.vue";
+import type { SubdomainAdvancedAuthPageModel } from "./useSubdomainAdvancedAuthPage";
+
+defineProps<{ model: SubdomainAdvancedAuthPageModel }>();
+const { t } = useI18n();
+const a11yId = useId();
+</script>
+
+<template>
+  <CardContent class="space-y-6 px-3 sm:px-6">
+    <section class="rounded-xl bg-muted/30 p-4 sm:p-5">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <Label :for="`${a11yId}-enabled`" class="text-base">
+            {{ t("admin.advancedAuth.enabled") }}
+          </Label>
+          <p class="mt-1 text-sm leading-6 text-muted-foreground">
+            {{ t("admin.advancedAuth.enabledDescription") }}
+          </p>
+        </div>
+        <Switch
+          :id="`${a11yId}-enabled`"
+          v-model:model-value="model.form.enabled"
+          :disabled="model.saving"
+        />
+      </div>
+      <p class="mt-3 text-xs leading-5 text-amber-700 dark:text-amber-300">
+        {{ t("admin.advancedAuth.temporaryGrantNotice") }}
+      </p>
+    </section>
+
+    <div v-if="model.form.enabled" class="space-y-6">
+      <AdvancedAuthRuleGroups
+        :form="model.form"
+        :saving="model.saving"
+        :value-drafts="model.valueDrafts"
+      />
+      <AdvancedAuthDurationSettings
+        :form="model.form"
+        :saving="model.saving"
+      />
+    </div>
+  </CardContent>
+
+  <FloatingActionDock
+    :active="model.isDirty"
+    inline-class="border-t border-border/60 p-5"
+  >
+    <template #inline>
+      <div
+        class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"
+      >
+        <p class="text-sm text-muted-foreground">
+          {{
+            model.form.enabled && model.isBroadRule
+              ? t("admin.advancedAuth.broadRuleWarning")
+              : t("admin.advancedAuth.saveHint")
+          }}
+        </p>
+        <div class="flex gap-3 sm:ml-auto">
+          <Button
+            variant="outline"
+            :disabled="model.saving"
+            @click="model.cancel"
+          >
+            {{ t("common.cancel") }}
+          </Button>
+          <Button
+            :disabled="!model.isDirty || model.saving"
+            @click="model.save"
+          >
+            <Save class="mr-2 h-4 w-4" />
+            {{
+              model.saving ? t("admin.advancedAuth.saving") : t("common.save")
+            }}
+          </Button>
+        </div>
+      </div>
+    </template>
+    <template #floating>
+      <Button
+        variant="outline"
+        :disabled="model.saving"
+        @click="model.cancel"
+      >
+        {{ t("common.cancel") }}
+      </Button>
+      <Button
+        :disabled="!model.isDirty || model.saving"
+        @click="model.save"
+      >
+        <Save class="mr-2 h-4 w-4" />{{ t("common.save") }}
+      </Button>
+    </template>
+  </FloatingActionDock>
+</template>

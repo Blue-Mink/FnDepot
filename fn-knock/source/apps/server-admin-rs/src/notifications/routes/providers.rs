@@ -1,1 +1,190 @@
-dXNlIHN1cGVyOjoqOwptb2QgYmFyazsKbW9kIGNvbmZpZzsKbW9kIGNvbnRlbnQ7Cm1vZCBkaW5ndGFsazsKbW9kIGVtYWlsOwptb2QgZmVpc2h1Owptb2QgaGFybW9ueW9zbWVvdzsKbW9kIGh0dHA7Cm1vZCBtYWdpY3B1c2g7Cm1vZCBtaXNjOwptb2QgcHVzaGRlZXI7Cm1vZCBwdXNocGx1czsKbW9kIHNlcnZlcmNoYW47Cm1vZCB0ZWxlZ3JhbTsKbW9kIHdlYmhvb2s7Cm1vZCB3ZWJob29rX2JvZHk7Cm1vZCB3ZWNvbTsKbW9kIHd4cHVzaGVyOwoKcHViKHN1cGVyKSB1c2UgYmFyazo6KjsKcHViKHN1cGVyKSB1c2UgY29uZmlnOjoqOwpwdWIoc3VwZXIpIHVzZSBjb250ZW50OjoqOwpwdWIoc3VwZXIpIHVzZSBkaW5ndGFsazo6KjsKcHViKHN1cGVyKSB1c2UgZW1haWw6Oio7CnB1YihzdXBlcikgdXNlIGZlaXNodTo6KjsKcHViKHN1cGVyKSB1c2UgaGFybW9ueW9zbWVvdzo6KjsKcHViKHN1cGVyKSB1c2UgaHR0cDo6KjsKcHViKHN1cGVyKSB1c2UgbWFnaWNwdXNoOjoqOwpwdWIoc3VwZXIpIHVzZSBtaXNjOjoqOwpwdWIoc3VwZXIpIHVzZSBwdXNoZGVlcjo6KjsKcHViKHN1cGVyKSB1c2UgcHVzaHBsdXM6Oio7CnB1YihzdXBlcikgdXNlIHNlcnZlcmNoYW46Oio7CnB1YihzdXBlcikgdXNlIHRlbGVncmFtOjoqOwpwdWIoc3VwZXIpIHVzZSB3ZWJob29rOjoqOwpwdWIoc3VwZXIpIHVzZSB3ZWJob29rX2JvZHk6Oio7CnB1YihzdXBlcikgdXNlIHdlY29tOjoqOwpwdWIoc3VwZXIpIHVzZSB3eHB1c2hlcjo6KjsKCiNbZGVyaXZlKENsb25lKV0KcHViKHN1cGVyKSBzdHJ1Y3QgUHJvdmlkZXJUZXN0UmVzdWx0IHsKICAgIHB1YihzdXBlcikgc3VjY2VzczogYm9vbCwKICAgIHB1YihzdXBlcikgcmV0cnlhYmxlOiBib29sLAogICAgcHViKHN1cGVyKSBtZXNzYWdlOiBTdHJpbmcsCiAgICBwdWIoc3VwZXIpIHJlcXVlc3Rfc3VtbWFyeTogT3B0aW9uPFZhbHVlPiwKICAgIHB1YihzdXBlcikgcmVzcG9uc2Vfc3VtbWFyeTogT3B0aW9uPFZhbHVlPiwKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBydW5fcHJvdmlkZXJfdGVzdCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBwcm92aWRlcjogVmFsdWUsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBSZXN1bHQ8UHJvdmlkZXJUZXN0UmVzdWx0LCBTdHJpbmc+IHsKICAgIHJ1bl9wcm92aWRlcl90ZXN0X3dpdGhfb3B0aW9ucyhzdGF0ZSwgcHJvdmlkZXIsIHRyYW5zbGF0b3IsIFdlYmhvb2tUZXN0T3B0aW9uczo6ZGVmYXVsdCgpKS5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHJ1bl9wcm92aWRlcl90ZXN0X3dpdGhfb3B0aW9ucygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBwcm92aWRlcjogVmFsdWUsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIHdlYmhvb2tfb3B0aW9uczogV2ViaG9va1Rlc3RPcHRpb25zLAopIC0+IFJlc3VsdDxQcm92aWRlclRlc3RSZXN1bHQsIFN0cmluZz4gewogICAgbGV0IHByb3ZpZGVyX3R5cGUgPSBwcm92aWRlcgogICAgICAgIC5nZXQoInR5cGUiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgbWF0Y2ggcHJvdmlkZXJfdHlwZSB7CiAgICAgICAgIndlYmhvb2siID0+IHsKICAgICAgICAgICAgc2VuZF93ZWJob29rX3Rlc3Rfd2l0aF9vcHRpb25zKHN0YXRlLCAmcHJvdmlkZXIsIHRyYW5zbGF0b3IsIHdlYmhvb2tfb3B0aW9ucykuYXdhaXQKICAgICAgICB9CiAgICAgICAgcHJvdmlkZXJfdHlwZSBpZiBpc19odHRwX25vdGlmaWNhdGlvbl9wcm92aWRlcihwcm92aWRlcl90eXBlKSA9PiB7CiAgICAgICAgICAgIGxldCBtZXNzYWdlID0gYnVpbGRfcHJvdmlkZXJfdGVzdF9tZXNzYWdlKHRyYW5zbGF0b3IpOwogICAgICAgICAgICBsZXQgdGFyZ2V0ID0ganNvbiEoeyAidGFyZ2V0X2NvbmZpZyI6IHt9IH0pOwogICAgICAgICAgICBPayhzZW5kX2h0dHBfbm90aWZpY2F0aW9uX3Byb3ZpZGVyKAogICAgICAgICAgICAgICAgc3RhdGUsCiAgICAgICAgICAgICAgICAmcHJvdmlkZXIsCiAgICAgICAgICAgICAgICAmdGFyZ2V0LAogICAgICAgICAgICAgICAgJm1lc3NhZ2UsCiAgICAgICAgICAgICAgICBwcm92aWRlcl90aW1lb3V0X3NlY29uZHMoJnByb3ZpZGVyLCA1KSwKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXdhaXQpCiAgICAgICAgfQogICAgICAgICJlbWFpbCIgPT4gewogICAgICAgICAgICBsZXQgbWVzc2FnZSA9IGJ1aWxkX3Byb3ZpZGVyX3Rlc3RfbWVzc2FnZSh0cmFuc2xhdG9yKTsKICAgICAgICAgICAgbGV0IHRhcmdldCA9IGpzb24hKHsgInRhcmdldF9jb25maWciOiB7fSB9KTsKICAgICAgICAgICAgT2soc2VuZF9lbWFpbF9ub3RpZmljYXRpb24oCiAgICAgICAgICAgICAgICAmcHJvdmlkZXIsCiAgICAgICAgICAgICAgICAmdGFyZ2V0LAogICAgICAgICAgICAgICAgJm1lc3NhZ2UsCiAgICAgICAgICAgICAgICBwcm92aWRlcl90aW1lb3V0X3NlY29uZHMoJnByb3ZpZGVyLCAxMCksCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdCkKICAgICAgICB9CiAgICAgICAgXyA9PiBPayhQcm92aWRlclRlc3RSZXN1bHQgewogICAgICAgICAgICBzdWNjZXNzOiBmYWxzZSwKICAgICAgICAgICAgcmV0cnlhYmxlOiBmYWxzZSwKICAgICAgICAgICAgbWVzc2FnZTogbm90aWZpY2F0aW9uX3NlcnZpY2VfdGV4dCh0cmFuc2xhdG9yLCAidW5zdXBwb3J0ZWRQcm92aWRlclR5cGUiLCAmW10pLAogICAgICAgICAgICByZXF1ZXN0X3N1bW1hcnk6IE5vbmUsCiAgICAgICAgICAgIHJlc3BvbnNlX3N1bW1hcnk6IE5vbmUsCiAgICAgICAgfSksCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gaXNfaHR0cF9ub3RpZmljYXRpb25fcHJvdmlkZXIocHJvdmlkZXJfdHlwZTogJnN0cikgLT4gYm9vbCB7CiAgICBtYXRjaGVzISgKICAgICAgICBwcm92aWRlcl90eXBlLAogICAgICAgICJ3eHB1c2hlciIKICAgICAgICAgICAgfCAic2VydmVyY2hhbiIKICAgICAgICAgICAgfCAicHVzaHBsdXMiCiAgICAgICAgICAgIHwgIndlY29tIgogICAgICAgICAgICB8ICJkaW5ndGFsayIKICAgICAgICAgICAgfCAiZmVpc2h1IgogICAgICAgICAgICB8ICJwdXNoZGVlciIKICAgICAgICAgICAgfCAiaGFybW9ueW9zbWVvdyIKICAgICAgICAgICAgfCAibWFnaWNwdXNoIgogICAgICAgICAgICB8ICJiYXJrIgogICAgICAgICAgICB8ICJ0ZWxlZ3JhbSIKICAgICkKfQoKcHViKHN1cGVyKSBmbiBidWlsZF9wcm92aWRlcl90ZXN0X21lc3NhZ2UodHJhbnNsYXRvcjogJlRyYW5zbGF0b3IpIC0+IFZhbHVlIHsKICAgIGxldCBub3cgPSB0aW1lX3V0aWxzOjpub3dfaXNvKCk7CiAgICBqc29uISh7CiAgICAgICAgInRpdGxlIjogbm90aWZpY2F0aW9uX3NlcnZpY2VfdGV4dCh0cmFuc2xhdG9yLCAidGVzdE1lc3NhZ2UudGl0bGUiLCAmW10pLAogICAgICAgICJzdW1tYXJ5Ijogbm90aWZpY2F0aW9uX3NlcnZpY2VfdGV4dCh0cmFuc2xhdG9yLCAidGVzdE1lc3NhZ2Uuc3VtbWFyeSIsICZbXSksCiAgICAgICAgImJvZHlfdGV4dCI6IG5vdGlmaWNhdGlvbl9zZXJ2aWNlX3RleHQodHJhbnNsYXRvciwgInRlc3RNZXNzYWdlLmJvZHlUZXh0IiwgJltdKSwKICAgICAgICAiYm9keV9tYXJrZG93biI6IG5vdGlmaWNhdGlvbl9zZXJ2aWNlX3RleHQodHJhbnNsYXRvciwgInRlc3RNZXNzYWdlLmJvZHlNYXJrZG93biIsICZbXSksCiAgICAgICAgInNldmVyaXR5IjogImluZm8iLAogICAgICAgICJmYWN0cyI6IFsKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgImxhYmVsIjogbm90aWZpY2F0aW9uX3NlcnZpY2VfdGV4dCh0cmFuc2xhdG9yLCAidGVzdE1lc3NhZ2Uuc2VuZFR5cGUiLCAmW10pLAogICAgICAgICAgICAgICAgInZhbHVlIjogbm90aWZpY2F0aW9uX3NlcnZpY2VfdGV4dCh0cmFuc2xhdG9yLCAidGVzdE1lc3NhZ2UucHJvdmlkZXJUZXN0IiwgJltdKQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAibGFiZWwiOiBub3RpZmljYXRpb25fc2VydmljZV90ZXh0KHRyYW5zbGF0b3IsICJ0ZXN0TWVzc2FnZS5zZW50QXQiLCAmW10pLAogICAgICAgICAgICAgICAgInZhbHVlIjogbm93CiAgICAgICAgICAgIH0KICAgICAgICBdLAogICAgICAgICJhY3Rpb25zIjogW10sCiAgICAgICAgIm1lbnRpb25zIjogW10sCiAgICAgICAgImRlZHVwZV9rZXkiOiBWYWx1ZTo6TnVsbCwKICAgICAgICAib2NjdXJyZWRfYXQiOiBub3csCiAgICAgICAgImV2ZW50X2lkIjogVmFsdWU6Ok51bGwsCiAgICAgICAgIm1ldGFkYXRhIjogeyAidGVzdCI6IHRydWUgfQogICAgfSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzZW5kX2h0dHBfbm90aWZpY2F0aW9uX3Byb3ZpZGVyKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHByb3ZpZGVyOiAmVmFsdWUsCiAgICB0YXJnZXQ6ICZWYWx1ZSwKICAgIG1lc3NhZ2U6ICZWYWx1ZSwKICAgIHRpbWVvdXRfc2Vjb25kczogaTY0LAopIC0+IFByb3ZpZGVyVGVzdFJlc3VsdCB7CiAgICBsZXQgc2FuaXRpemVkX21lc3NhZ2UgPSBzYW5pdGl6ZV9ub3RpZmljYXRpb25fbWVzc2FnZShtZXNzYWdlKTsKICAgIGxldCBtZXNzYWdlID0gJnNhbml0aXplZF9tZXNzYWdlOwogICAgbWF0Y2ggcHJvdmlkZXIKICAgICAgICAuZ2V0KCJ0eXBlIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQogICAgewogICAgICAgICJ3eHB1c2hlciIgPT4gc2VuZF93eHB1c2hlcihzdGF0ZSwgcHJvdmlkZXIsIHRhcmdldCwgbWVzc2FnZSwgdGltZW91dF9zZWNvbmRzKS5hd2FpdCwKICAgICAgICAic2VydmVyY2hhbiIgPT4gc2VuZF9zZXJ2ZXJjaGFuKHN0YXRlLCBwcm92aWRlciwgdGFyZ2V0LCBtZXNzYWdlLCB0aW1lb3V0X3NlY29uZHMpLmF3YWl0LAogICAgICAgICJwdXNocGx1cyIgPT4gc2VuZF9wdXNocGx1cyhzdGF0ZSwgcHJvdmlkZXIsIHRhcmdldCwgbWVzc2FnZSwgdGltZW91dF9zZWNvbmRzKS5hd2FpdCwKICAgICAgICAid2Vjb20iID0+IHNlbmRfd2Vjb20oc3RhdGUsIHByb3ZpZGVyLCB0YXJnZXQsIG1lc3NhZ2UsIHRpbWVvdXRfc2Vjb25kcykuYXdhaXQsCiAgICAgICAgImRpbmd0YWxrIiA9PiBzZW5kX2Rpbmd0YWxrKHN0YXRlLCBwcm92aWRlciwgdGFyZ2V0LCBtZXNzYWdlLCB0aW1lb3V0X3NlY29uZHMpLmF3YWl0LAogICAgICAgICJmZWlzaHUiID0+IHNlbmRfZmVpc2h1KHN0YXRlLCBwcm92aWRlciwgdGFyZ2V0LCBtZXNzYWdlLCB0aW1lb3V0X3NlY29uZHMpLmF3YWl0LAogICAgICAgICJwdXNoZGVlciIgPT4gc2VuZF9wdXNoZGVlcihzdGF0ZSwgcHJvdmlkZXIsIG1lc3NhZ2UsIHRpbWVvdXRfc2Vjb25kcykuYXdhaXQsCiAgICAgICAgImhhcm1vbnlvc21lb3ciID0+IHNlbmRfaGFybW9ueW9zbWVvdyhzdGF0ZSwgcHJvdmlkZXIsIG1lc3NhZ2UsIHRpbWVvdXRfc2Vjb25kcykuYXdhaXQsCiAgICAgICAgIm1hZ2ljcHVzaCIgPT4gc2VuZF9tYWdpY3B1c2goc3RhdGUsIHByb3ZpZGVyLCBtZXNzYWdlLCB0aW1lb3V0X3NlY29uZHMpLmF3YWl0LAogICAgICAgICJiYXJrIiA9PiBzZW5kX2Jhcmsoc3RhdGUsIHByb3ZpZGVyLCB0YXJnZXQsIG1lc3NhZ2UsIHRpbWVvdXRfc2Vjb25kcykuYXdhaXQsCiAgICAgICAgInRlbGVncmFtIiA9PiBzZW5kX3RlbGVncmFtKHN0YXRlLCBwcm92aWRlciwgdGFyZ2V0LCBtZXNzYWdlLCB0aW1lb3V0X3NlY29uZHMpLmF3YWl0LAogICAgICAgIF9wcm92aWRlcl90eXBlID0+IFByb3ZpZGVyVGVzdFJlc3VsdCB7CiAgICAgICAgICAgIHN1Y2Nlc3M6IGZhbHNlLAogICAgICAgICAgICByZXRyeWFibGU6IGZhbHNlLAogICAgICAgICAgICBtZXNzYWdlOiBub3RpZmljYXRpb25fc2VydmljZV9kZWZhdWx0X3RleHQoInVuc3VwcG9ydGVkUHJvdmlkZXJUeXBlIiwgJltdKSwKICAgICAgICAgICAgcmVxdWVzdF9zdW1tYXJ5OiBOb25lLAogICAgICAgICAgICByZXNwb25zZV9zdW1tYXJ5OiBOb25lLAogICAgICAgIH0sCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gZW1wdHlfdG9fbnVsbCh2YWx1ZTogJnN0cikgLT4gVmFsdWUgewogICAgaWYgdmFsdWUudHJpbSgpLmlzX2VtcHR5KCkgewogICAgICAgIFZhbHVlOjpOdWxsCiAgICB9IGVsc2UgewogICAgICAgIFZhbHVlOjpTdHJpbmcodmFsdWUudG9fc3RyaW5nKCkpCiAgICB9Cn0K
+use super::*;
+mod bark;
+mod config;
+mod content;
+mod dingtalk;
+mod email;
+mod feishu;
+mod harmonyosmeow;
+mod http;
+mod magicpush;
+mod misc;
+mod pushdeer;
+mod pushplus;
+mod serverchan;
+mod telegram;
+mod webhook;
+mod webhook_body;
+mod wecom;
+mod wxpusher;
+
+pub(super) use bark::*;
+pub(super) use config::*;
+pub(super) use content::*;
+pub(super) use dingtalk::*;
+pub(super) use email::*;
+pub(super) use feishu::*;
+pub(super) use harmonyosmeow::*;
+pub(super) use http::*;
+pub(super) use magicpush::*;
+pub(super) use misc::*;
+pub(super) use pushdeer::*;
+pub(super) use pushplus::*;
+pub(super) use serverchan::*;
+pub(super) use telegram::*;
+pub(super) use webhook::*;
+pub(super) use webhook_body::*;
+pub(super) use wecom::*;
+pub(super) use wxpusher::*;
+
+#[derive(Clone)]
+pub(super) struct ProviderTestResult {
+    pub(super) success: bool,
+    pub(super) retryable: bool,
+    pub(super) message: String,
+    pub(super) request_summary: Option<Value>,
+    pub(super) response_summary: Option<Value>,
+}
+
+pub(super) async fn run_provider_test(
+    state: &AppState,
+    provider: Value,
+    translator: &Translator,
+) -> Result<ProviderTestResult, String> {
+    run_provider_test_with_options(state, provider, translator, WebhookTestOptions::default()).await
+}
+
+pub(super) async fn run_provider_test_with_options(
+    state: &AppState,
+    provider: Value,
+    translator: &Translator,
+    webhook_options: WebhookTestOptions,
+) -> Result<ProviderTestResult, String> {
+    let provider_type = provider
+        .get("type")
+        .and_then(Value::as_str)
+        .unwrap_or_default();
+    match provider_type {
+        "webhook" => {
+            send_webhook_test_with_options(state, &provider, translator, webhook_options).await
+        }
+        provider_type if is_http_notification_provider(provider_type) => {
+            let message = build_provider_test_message(translator);
+            let target = json!({ "target_config": {} });
+            Ok(send_http_notification_provider(
+                state,
+                &provider,
+                &target,
+                &message,
+                provider_timeout_seconds(&provider, 5),
+            )
+            .await)
+        }
+        "email" => {
+            let message = build_provider_test_message(translator);
+            let target = json!({ "target_config": {} });
+            Ok(send_email_notification(
+                &provider,
+                &target,
+                &message,
+                provider_timeout_seconds(&provider, 10),
+                translator,
+            )
+            .await)
+        }
+        _ => Ok(ProviderTestResult {
+            success: false,
+            retryable: false,
+            message: notification_service_text(translator, "unsupportedProviderType", &[]),
+            request_summary: None,
+            response_summary: None,
+        }),
+    }
+}
+
+pub(super) fn is_http_notification_provider(provider_type: &str) -> bool {
+    matches!(
+        provider_type,
+        "wxpusher"
+            | "serverchan"
+            | "pushplus"
+            | "wecom"
+            | "dingtalk"
+            | "feishu"
+            | "pushdeer"
+            | "harmonyosmeow"
+            | "magicpush"
+            | "bark"
+            | "telegram"
+    )
+}
+
+pub(super) fn build_provider_test_message(translator: &Translator) -> Value {
+    let now = time_utils::now_iso();
+    json!({
+        "title": notification_service_text(translator, "testMessage.title", &[]),
+        "summary": notification_service_text(translator, "testMessage.summary", &[]),
+        "body_text": notification_service_text(translator, "testMessage.bodyText", &[]),
+        "body_markdown": notification_service_text(translator, "testMessage.bodyMarkdown", &[]),
+        "severity": "info",
+        "facts": [
+            {
+                "label": notification_service_text(translator, "testMessage.sendType", &[]),
+                "value": notification_service_text(translator, "testMessage.providerTest", &[])
+            },
+            {
+                "label": notification_service_text(translator, "testMessage.sentAt", &[]),
+                "value": now
+            }
+        ],
+        "actions": [],
+        "mentions": [],
+        "dedupe_key": Value::Null,
+        "occurred_at": now,
+        "event_id": Value::Null,
+        "metadata": { "test": true }
+    })
+}
+
+pub(super) async fn send_http_notification_provider(
+    state: &AppState,
+    provider: &Value,
+    target: &Value,
+    message: &Value,
+    timeout_seconds: i64,
+) -> ProviderTestResult {
+    let sanitized_message = sanitize_notification_message(message);
+    let message = &sanitized_message;
+    match provider
+        .get("type")
+        .and_then(Value::as_str)
+        .unwrap_or_default()
+    {
+        "wxpusher" => send_wxpusher(state, provider, target, message, timeout_seconds).await,
+        "serverchan" => send_serverchan(state, provider, target, message, timeout_seconds).await,
+        "pushplus" => send_pushplus(state, provider, target, message, timeout_seconds).await,
+        "wecom" => send_wecom(state, provider, target, message, timeout_seconds).await,
+        "dingtalk" => send_dingtalk(state, provider, target, message, timeout_seconds).await,
+        "feishu" => send_feishu(state, provider, target, message, timeout_seconds).await,
+        "pushdeer" => send_pushdeer(state, provider, message, timeout_seconds).await,
+        "harmonyosmeow" => send_harmonyosmeow(state, provider, message, timeout_seconds).await,
+        "magicpush" => send_magicpush(state, provider, message, timeout_seconds).await,
+        "bark" => send_bark(state, provider, target, message, timeout_seconds).await,
+        "telegram" => send_telegram(state, provider, target, message, timeout_seconds).await,
+        _provider_type => ProviderTestResult {
+            success: false,
+            retryable: false,
+            message: notification_service_default_text("unsupportedProviderType", &[]),
+            request_summary: None,
+            response_summary: None,
+        },
+    }
+}
+
+pub(super) fn empty_to_null(value: &str) -> Value {
+    if value.trim().is_empty() {
+        Value::Null
+    } else {
+        Value::String(value.to_string())
+    }
+}

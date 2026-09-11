@@ -1,1 +1,94 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IFBsdXMsIFRyYXNoMiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgdHlwZSB7IEFkdmFuY2VkQXV0aFJ1bGVHcm91cCB9IGZyb20gIi4uLy4uL3R5cGVzIjsKaW1wb3J0IEFkdmFuY2VkQXV0aENvbmRpdGlvbkVkaXRvciBmcm9tICIuL0FkdmFuY2VkQXV0aENvbmRpdGlvbkVkaXRvci52dWUiOwppbXBvcnQgewogIE1BWF9BRFZBTkNFRF9BVVRIX0NPTkRJVElPTlMsCiAgdHlwZSBBZHZhbmNlZEF1dGhSdWxlRWRpdG9yLAp9IGZyb20gIi4vYWR2YW5jZWQtYXV0aC1mb3JtIjsKaW1wb3J0IHR5cGUgeyBBZHZhbmNlZEF1dGhSZWdpb25TZWxlY3RvclRleHQgfSBmcm9tICIuL2FkdmFuY2VkLWF1dGgtcnVsZS1jb250cmFjdCI7CgpkZWZpbmVQcm9wczx7CiAgZWRpdG9yOiBBZHZhbmNlZEF1dGhSdWxlRWRpdG9yOwogIGdyb3VwOiBBZHZhbmNlZEF1dGhSdWxlR3JvdXA7CiAgZ3JvdXBJbmRleDogbnVtYmVyOwogIHJlZ2lvblRleHQ6IEFkdmFuY2VkQXV0aFJlZ2lvblNlbGVjdG9yVGV4dDsKICBzYXZpbmc6IGJvb2xlYW47Cn0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICBjbGFzcz0iZ3JvdXAvcnVsZSBzcGFjZS15LTMgcm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJvcmRlci82NSBiZy1tdXRlZC8yNSBwLTMgc2hhZG93LW5vbmUgcmluZy0yIHJpbmctdHJhbnNwYXJlbnQgdHJhbnNpdGlvbi1bYm9yZGVyLWNvbG9yLGJhY2tncm91bmQtY29sb3IsYm94LXNoYWRvd10gZHVyYXRpb24tWzI4MG1zXSBlYXNlLW91dCBob3Zlcjpib3JkZXItcHJpbWFyeS8yNSBob3ZlcjpiZy1tdXRlZC8zNSBob3ZlcjpyaW5nLXByaW1hcnkvNSBmb2N1cy13aXRoaW46Ym9yZGVyLXByaW1hcnkvNTAgZm9jdXMtd2l0aGluOmJnLW11dGVkLzM1IGZvY3VzLXdpdGhpbjpyaW5nLXByaW1hcnkvMTUgbW90aW9uLXJlZHVjZTp0cmFuc2l0aW9uLW5vbmUgZGFyazpiZy1tdXRlZC8yMCBkYXJrOmhvdmVyOmJnLW11dGVkLzMwIGRhcms6Zm9jdXMtd2l0aGluOmJnLW11dGVkLzMwIHNtOnAtNSIKICA+CiAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IG1pbi13LTAgaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgIDxzcGFuCiAgICAgICAgICBjbGFzcz0ic2hyaW5rLTAgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLXByaW1hcnkvMjAgYmctcHJpbWFyeS8xMCBweC0yIHB5LTEgdGV4dC14cyBmb250LXNlbWlib2xkIHRleHQtcHJpbWFyeSB0cmFuc2l0aW9uLVtib3JkZXItY29sb3IsYmFja2dyb3VuZC1jb2xvcl0gZHVyYXRpb24tWzI4MG1zXSBlYXNlLW91dCBncm91cC1ob3Zlci9ydWxlOmJvcmRlci1wcmltYXJ5LzM1IGdyb3VwLWhvdmVyL3J1bGU6YmctcHJpbWFyeS8xNSBncm91cC1mb2N1cy13aXRoaW4vcnVsZTpib3JkZXItcHJpbWFyeS81MCBncm91cC1mb2N1cy13aXRoaW4vcnVsZTpiZy1wcmltYXJ5LzIwIG1vdGlvbi1yZWR1Y2U6dHJhbnNpdGlvbi1ub25lIgogICAgICAgID4KICAgICAgICAgIE9SIHt7IGdyb3VwSW5kZXggKyAxIH19CiAgICAgICAgPC9zcGFuPgogICAgICAgIDxzcGFuIGNsYXNzPSJ0cnVuY2F0ZSI+e3sgdCgiYWRtaW4uYWR2YW5jZWRBdXRoLmdyb3VwQWxsIikgfX08L3NwYW4+CiAgICAgIDwvZGl2PgogICAgICA8QnV0dG9uCiAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICBjbGFzcz0iaC04IHctOCBzaHJpbmstMCIKICAgICAgICA6ZGlzYWJsZWQ9InNhdmluZyIKICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uYWR2YW5jZWRBdXRoLmRlbGV0ZUdyb3VwJykiCiAgICAgICAgQGNsaWNrPSJlZGl0b3IucmVtb3ZlR3JvdXAoZ3JvdXBJbmRleCkiCiAgICAgID4KICAgICAgICA8VHJhc2gyIGNsYXNzPSJoLTQgdy00IHRleHQtZGVzdHJ1Y3RpdmUiIC8+CiAgICAgIDwvQnV0dG9uPgogICAgPC9kaXY+CgogICAgPGRpdgogICAgICBjbGFzcz0icmVsYXRpdmUgc3BhY2UteS0zIgogICAgICA6Y2xhc3M9Imdyb3VwLmNvbmRpdGlvbnMubGVuZ3RoID4gMSA/ICdzbTpwbC05JyA6ICcnIgogICAgPgogICAgICA8ZGl2CiAgICAgICAgdi1pZj0iZ3JvdXAuY29uZGl0aW9ucy5sZW5ndGggPiAxIgogICAgICAgIGNsYXNzPSJhYnNvbHV0ZSBpbnNldC15LTggbGVmdC0zLjUgaGlkZGVuIHctcHggYmctYm9yZGVyIHNtOmJsb2NrIgogICAgICA+PC9kaXY+CiAgICAgIDxzcGFuCiAgICAgICAgdi1pZj0iZ3JvdXAuY29uZGl0aW9ucy5sZW5ndGggPiAxIgogICAgICAgIGNsYXNzPSJhYnNvbHV0ZSB0b3AtMS8yIGxlZnQtMy41IHotMTAgaGlkZGVuIC10cmFuc2xhdGUteC0xLzIgLXRyYW5zbGF0ZS15LTEvMiByb3VuZGVkIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWJhY2tncm91bmQgcHgtMS41IHB5LTAuNSB0ZXh0LVsxMHB4XSBmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQgc206YmxvY2siCiAgICAgID4KICAgICAgICBBTkQKICAgICAgPC9zcGFuPgoKICAgICAgPEFkdmFuY2VkQXV0aENvbmRpdGlvbkVkaXRvcgogICAgICAgIHYtZm9yPSIoY29uZGl0aW9uLCBjb25kaXRpb25JbmRleCkgaW4gZ3JvdXAuY29uZGl0aW9ucyIKICAgICAgICA6a2V5PSJjb25kaXRpb24uaWQiCiAgICAgICAgOmNvbmRpdGlvbj0iY29uZGl0aW9uIgogICAgICAgIDpjb25kaXRpb24taW5kZXg9ImNvbmRpdGlvbkluZGV4IgogICAgICAgIDplZGl0b3I9ImVkaXRvciIKICAgICAgICA6Z3JvdXA9Imdyb3VwIgogICAgICAgIDptdWx0aXBsZT0iZ3JvdXAuY29uZGl0aW9ucy5sZW5ndGggPiAxIgogICAgICAgIDpyZWdpb24tdGV4dD0icmVnaW9uVGV4dCIKICAgICAgICA6c2F2aW5nPSJzYXZpbmciCiAgICAgIC8+CiAgICA8L2Rpdj4KCiAgICA8ZGl2CiAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LXN0YXJ0IgogICAgICA6Y2xhc3M9Imdyb3VwLmNvbmRpdGlvbnMubGVuZ3RoID4gMSA/ICdzbTpwbC05JyA6ICcnIgogICAgPgogICAgICA8QnV0dG9uCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICBzaXplPSJzbSIKICAgICAgICBjbGFzcz0idy1mdWxsIG1pbi1bNDgwcHhdOnctYXV0byIKICAgICAgICA6ZGlzYWJsZWQ9IgogICAgICAgICAgZ3JvdXAuY29uZGl0aW9ucy5sZW5ndGggPj0gTUFYX0FEVkFOQ0VEX0FVVEhfQ09ORElUSU9OUyB8fCBzYXZpbmcKICAgICAgICAiCiAgICAgICAgQGNsaWNrPSJlZGl0b3IuYWRkQ29uZGl0aW9uKGdyb3VwKSIKICAgICAgPgogICAgICAgIDxQbHVzIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAge3sgdCgiYWRtaW4uYWR2YW5jZWRBdXRoLmFkZEFuZENvbmRpdGlvbiIpIH19CiAgICAgIDwvQnV0dG9uPgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { Plus, Trash2 } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import type { AdvancedAuthRuleGroup } from "../../types";
+import AdvancedAuthConditionEditor from "./AdvancedAuthConditionEditor.vue";
+import {
+  MAX_ADVANCED_AUTH_CONDITIONS,
+  type AdvancedAuthRuleEditor,
+} from "./advanced-auth-form";
+import type { AdvancedAuthRegionSelectorText } from "./advanced-auth-rule-contract";
+
+defineProps<{
+  editor: AdvancedAuthRuleEditor;
+  group: AdvancedAuthRuleGroup;
+  groupIndex: number;
+  regionText: AdvancedAuthRegionSelectorText;
+  saving: boolean;
+}>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div
+    class="group/rule space-y-3 rounded-xl border border-border/65 bg-muted/25 p-3 shadow-none ring-2 ring-transparent transition-[border-color,background-color,box-shadow] duration-[280ms] ease-out hover:border-primary/25 hover:bg-muted/35 hover:ring-primary/5 focus-within:border-primary/50 focus-within:bg-muted/35 focus-within:ring-primary/15 motion-reduce:transition-none dark:bg-muted/20 dark:hover:bg-muted/30 dark:focus-within:bg-muted/30 sm:p-5"
+  >
+    <div class="flex items-center justify-between gap-3">
+      <div class="flex min-w-0 items-center gap-2 text-sm font-medium">
+        <span
+          class="shrink-0 rounded-md border border-primary/20 bg-primary/10 px-2 py-1 text-xs font-semibold text-primary transition-[border-color,background-color] duration-[280ms] ease-out group-hover/rule:border-primary/35 group-hover/rule:bg-primary/15 group-focus-within/rule:border-primary/50 group-focus-within/rule:bg-primary/20 motion-reduce:transition-none"
+        >
+          OR {{ groupIndex + 1 }}
+        </span>
+        <span class="truncate">{{ t("admin.advancedAuth.groupAll") }}</span>
+      </div>
+      <Button
+        variant="ghost"
+        size="icon"
+        class="h-8 w-8 shrink-0"
+        :disabled="saving"
+        :aria-label="t('admin.advancedAuth.deleteGroup')"
+        @click="editor.removeGroup(groupIndex)"
+      >
+        <Trash2 class="h-4 w-4 text-destructive" />
+      </Button>
+    </div>
+
+    <div
+      class="relative space-y-3"
+      :class="group.conditions.length > 1 ? 'sm:pl-9' : ''"
+    >
+      <div
+        v-if="group.conditions.length > 1"
+        class="absolute inset-y-8 left-3.5 hidden w-px bg-border sm:block"
+      ></div>
+      <span
+        v-if="group.conditions.length > 1"
+        class="absolute top-1/2 left-3.5 z-10 hidden -translate-x-1/2 -translate-y-1/2 rounded border border-border bg-background px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground sm:block"
+      >
+        AND
+      </span>
+
+      <AdvancedAuthConditionEditor
+        v-for="(condition, conditionIndex) in group.conditions"
+        :key="condition.id"
+        :condition="condition"
+        :condition-index="conditionIndex"
+        :editor="editor"
+        :group="group"
+        :multiple="group.conditions.length > 1"
+        :region-text="regionText"
+        :saving="saving"
+      />
+    </div>
+
+    <div
+      class="flex items-center justify-start"
+      :class="group.conditions.length > 1 ? 'sm:pl-9' : ''"
+    >
+      <Button
+        variant="outline"
+        size="sm"
+        class="w-full min-[480px]:w-auto"
+        :disabled="
+          group.conditions.length >= MAX_ADVANCED_AUTH_CONDITIONS || saving
+        "
+        @click="editor.addCondition(group)"
+      >
+        <Plus class="mr-2 h-4 w-4" />
+        {{ t("admin.advancedAuth.addAndCondition") }}
+      </Button>
+    </div>
+  </div>
+</template>

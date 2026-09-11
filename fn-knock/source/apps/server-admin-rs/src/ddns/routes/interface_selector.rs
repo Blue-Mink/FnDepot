@@ -1,1 +1,501 @@
-dXNlIHN1cGVyOjoqOwp1c2UgaXBuZXQ6OklwTmV0Owp1c2Ugc2VyZGU6OntEZXNlcmlhbGl6ZSwgU2VyaWFsaXplfTsKdXNlIHN0ZDo6Y21wOjpPcmRlcmluZzsKCmNvbnN0IElOVEVSRkFDRV9TRUxFQ1RPUl9WRVJTSU9OOiB1OCA9IDE7CgojW2Rlcml2ZShDbG9uZSwgQ29weSwgRGVidWcsIERlZmF1bHQsIERlc2VyaWFsaXplLCBQYXJ0aWFsRXEsIEVxLCBTZXJpYWxpemUpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAic25ha2VfY2FzZSIpXQpwdWIoc3VwZXIpIGVudW0gSW50ZXJmYWNlU2VsZWN0b3JNb2RlIHsKICAgICNbZGVmYXVsdF0KICAgIEF1dG8sCiAgICBSdWxlcywKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgUGFydGlhbEVxLCBFcSwgU2VyaWFsaXplKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIsIGRlbnlfdW5rbm93bl9maWVsZHMpXQpwdWIoc3VwZXIpIHN0cnVjdCBJbnRlcmZhY2VBZGRyZXNzU2VsZWN0b3IgewogICAgcHViIHZlcnNpb246IHU4LAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBtb2RlOiBJbnRlcmZhY2VTZWxlY3Rvck1vZGUsCiAgICAjW3NlcmRlKGRlZmF1bHQsIHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIildCiAgICBwdWIgcHJlZmVycmVkX2FkZHJlc3M6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzZXJkZShkZWZhdWx0LCBza2lwX3NlcmlhbGl6aW5nX2lmID0gIlZlYzo6aXNfZW1wdHkiKV0KICAgIHB1YiBpbmNsdWRlX2NpZHJzOiBWZWM8U3RyaW5nPiwKICAgICNbc2VyZGUoZGVmYXVsdCwgc2tpcF9zZXJpYWxpemluZ19pZiA9ICJWZWM6OmlzX2VtcHR5IildCiAgICBwdWIgZXhjbHVkZV9jaWRyczogVmVjPFN0cmluZz4sCiAgICAjW3NlcmRlKGRlZmF1bHQsIHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIildCiAgICBwdWIgaXB2Nl9pbnRlcmZhY2VfaWQ6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBhbGxvd190ZW1wb3Jhcnk6IGJvb2wsCn0KCmltcGwgRGVmYXVsdCBmb3IgSW50ZXJmYWNlQWRkcmVzc1NlbGVjdG9yIHsKICAgIGZuIGRlZmF1bHQoKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsKICAgICAgICAgICAgdmVyc2lvbjogSU5URVJGQUNFX1NFTEVDVE9SX1ZFUlNJT04sCiAgICAgICAgICAgIG1vZGU6IEludGVyZmFjZVNlbGVjdG9yTW9kZTo6QXV0bywKICAgICAgICAgICAgcHJlZmVycmVkX2FkZHJlc3M6IE5vbmUsCiAgICAgICAgICAgIGluY2x1ZGVfY2lkcnM6IFZlYzo6bmV3KCksCiAgICAgICAgICAgIGV4Y2x1ZGVfY2lkcnM6IFZlYzo6bmV3KCksCiAgICAgICAgICAgIGlwdjZfaW50ZXJmYWNlX2lkOiBOb25lLAogICAgICAgICAgICBhbGxvd190ZW1wb3Jhcnk6IGZhbHNlLAogICAgICAgIH0KICAgIH0KfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnKV0KcHViKHN1cGVyKSBzdHJ1Y3QgSW50ZXJmYWNlU2VsZWN0aW9uIHsKICAgIHB1YiBzZWxlY3RlZDogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIgZWxpZ2libGU6IFZlYzxWYWx1ZT4sCiAgICBwdWIgcmVqZWN0ZWQ6IFZlYzxWYWx1ZT4sCiAgICBwdWIgcmVhc29uOiAmJ3N0YXRpYyBzdHIsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZyldCnB1YihzdXBlcikgc3RydWN0IEludGVyZmFjZUFkZHJlc3NSZXNvbHV0aW9uIHsKICAgIHB1YiBhZGRyZXNzOiBPcHRpb248U3RyaW5nPiwKICAgIHB1YiBzZWxlY3Rpb25fbG9nczogVmVjPFN0cmluZz4sCiAgICBwdWIgc2VsZWN0aW9uOiBPcHRpb248SW50ZXJmYWNlU2VsZWN0aW9uPiwKICAgIHB1YiBzZWxlY3RvcjogT3B0aW9uPEludGVyZmFjZUFkZHJlc3NTZWxlY3Rvcj4sCiAgICBwdWIgbW9kZTogU3RyaW5nLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFBhcnRpYWxFcSwgRXEpXQpwdWIoc3VwZXIpIHN0cnVjdCBQcmVmZXJyZWRSZWNvdmVyeVN0YXRlIHsKICAgIHB1YiBhZGRyZXNzOiBTdHJpbmcsCiAgICBwdWIgY29uZmlybWF0aW9uczogdTgsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgUGFydGlhbEVxLCBFcSldCnB1YihzdXBlcikgc3RydWN0IFByZWZlcnJlZFJlY292ZXJ5RGVjaXNpb24gewogICAgcHViIHNlbGVjdGVkOiBPcHRpb248U3RyaW5nPiwKICAgIHB1YiBzdGF0ZTogT3B0aW9uPFByZWZlcnJlZFJlY292ZXJ5U3RhdGU+LAogICAgcHViIGRlZmVycmVkOiBib29sLAp9CgpwdWIoc3VwZXIpIGZuIHNlbGVjdG9yX2ZpZWxkKGZhbWlseTogJnN0cikgLT4gJidzdGF0aWMgc3RyIHsKICAgIGlmIGZhbWlseSA9PSAiaXB2NCIgewogICAgICAgIERETlNfSU5URVJGQUNFX0lQVjRfU0VMRUNUT1JfRklFTEQKICAgIH0gZWxzZSB7CiAgICAgICAgREROU19JTlRFUkZBQ0VfSVBWNl9TRUxFQ1RPUl9GSUVMRAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIHBhcnNlX2ludGVyZmFjZV9zZWxlY3RvcigKICAgIHZhbHVlOiBPcHRpb248JnN0cj4sCiAgICBmYW1pbHk6ICZzdHIsCikgLT4gYW55aG93OjpSZXN1bHQ8T3B0aW9uPEludGVyZmFjZUFkZHJlc3NTZWxlY3Rvcj4+IHsKICAgIGxldCBTb21lKHJhdykgPSB2YWx1ZS5tYXAoc3RyOjp0cmltKS5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfTsKICAgIGxldCBzZWxlY3RvciA9IHNlcmRlX2pzb246OmZyb21fc3RyOjo8SW50ZXJmYWNlQWRkcmVzc1NlbGVjdG9yPihyYXcpCiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBhbnlob3c6OmFueWhvdyEoIkludmFsaWQgREROUyBpbnRlcmZhY2Ugc2VsZWN0b3I6IHtlcnJvcn0iKSk/OwogICAgbm9ybWFsaXplX2ludGVyZmFjZV9zZWxlY3RvcihzZWxlY3RvciwgZmFtaWx5KS5tYXAoU29tZSkKfQoKcHViKHN1cGVyKSBmbiBwYXJzZV9pbnRlcmZhY2Vfc2VsZWN0b3JfdmFsdWUoCiAgICB2YWx1ZTogJlZhbHVlLAogICAgZmFtaWx5OiAmc3RyLAopIC0+IGFueWhvdzo6UmVzdWx0PEludGVyZmFjZUFkZHJlc3NTZWxlY3Rvcj4gewogICAgbGV0IHNlbGVjdG9yID0gc2VyZGVfanNvbjo6ZnJvbV92YWx1ZTo6PEludGVyZmFjZUFkZHJlc3NTZWxlY3Rvcj4odmFsdWUuY2xvbmUoKSkKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGFueWhvdzo6YW55aG93ISgiSW52YWxpZCBERE5TIGludGVyZmFjZSBzZWxlY3Rvcjoge2Vycm9yfSIpKT87CiAgICBub3JtYWxpemVfaW50ZXJmYWNlX3NlbGVjdG9yKHNlbGVjdG9yLCBmYW1pbHkpCn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX2ludGVyZmFjZV9zZWxlY3Rvcl9zdHJpbmcodmFsdWU6IE9wdGlvbjwmc3RyPiwgZmFtaWx5OiAmc3RyKSAtPiBTdHJpbmcgewogICAgcGFyc2VfaW50ZXJmYWNlX3NlbGVjdG9yKHZhbHVlLCBmYW1pbHkpCiAgICAgICAgLm9rKCkKICAgICAgICAuZmxhdHRlbigpCiAgICAgICAgLmFuZF90aGVuKHxzZWxlY3Rvcnwgc2VyZGVfanNvbjo6dG9fc3RyaW5nKCZzZWxlY3Rvcikub2soKSkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9pbnRlcmZhY2Vfc2VsZWN0b3IoCiAgICBtdXQgc2VsZWN0b3I6IEludGVyZmFjZUFkZHJlc3NTZWxlY3RvciwKICAgIGZhbWlseTogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDxJbnRlcmZhY2VBZGRyZXNzU2VsZWN0b3I+IHsKICAgIGlmIHNlbGVjdG9yLnZlcnNpb24gIT0gSU5URVJGQUNFX1NFTEVDVE9SX1ZFUlNJT04gewogICAgICAgIGFueWhvdzo6YmFpbCEoCiAgICAgICAgICAgICJJbnZhbGlkIERETlMgaW50ZXJmYWNlIHNlbGVjdG9yOiB1bnN1cHBvcnRlZCB2ZXJzaW9uIHt9IiwKICAgICAgICAgICAgc2VsZWN0b3IudmVyc2lvbgogICAgICAgICk7CiAgICB9CiAgICBpZiAhbWF0Y2hlcyEoZmFtaWx5LCAiaXB2NCIgfCAiaXB2NiIpIHsKICAgICAgICBhbnlob3c6OmJhaWwhKCJJbnZhbGlkIERETlMgaW50ZXJmYWNlIHNlbGVjdG9yOiBpbnZhbGlkIGFkZHJlc3MgZmFtaWx5Iik7CiAgICB9CgogICAgc2VsZWN0b3IucHJlZmVycmVkX2FkZHJlc3MgPSBzZWxlY3RvcgogICAgICAgIC5wcmVmZXJyZWRfYWRkcmVzcwogICAgICAgIC5hc19kZXJlZigpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIC5tYXAofHZhbHVlfCBub3JtYWxpemVfZmFtaWx5X2lwKHZhbHVlLCBmYW1pbHkpKQogICAgICAgIC50cmFuc3Bvc2UoKT87CiAgICBzZWxlY3Rvci5pbmNsdWRlX2NpZHJzID0gbm9ybWFsaXplX2NpZHJzKCZzZWxlY3Rvci5pbmNsdWRlX2NpZHJzLCBmYW1pbHkpPzsKICAgIHNlbGVjdG9yLmV4Y2x1ZGVfY2lkcnMgPSBub3JtYWxpemVfY2lkcnMoJnNlbGVjdG9yLmV4Y2x1ZGVfY2lkcnMsIGZhbWlseSk/OwogICAgc2VsZWN0b3IuaXB2Nl9pbnRlcmZhY2VfaWQgPSBtYXRjaCBzZWxlY3Rvci5pcHY2X2ludGVyZmFjZV9pZC5hc19kZXJlZigpIHsKICAgICAgICBTb21lKHZhbHVlKSBpZiBmYW1pbHkgPT0gImlwdjQiICYmICF2YWx1ZS50cmltKCkuaXNfZW1wdHkoKSA9PiB7CiAgICAgICAgICAgIGFueWhvdzo6YmFpbCEoCiAgICAgICAgICAgICAgICAiSW52YWxpZCBERE5TIGludGVyZmFjZSBzZWxlY3RvcjogSVB2NiBpbnRlcmZhY2UgSUQgaXMgbm90IHZhbGlkIGZvciBJUHY0IgogICAgICAgICAgICApOwogICAgICAgIH0KICAgICAgICBTb21lKHZhbHVlKSBpZiAhdmFsdWUudHJpbSgpLmlzX2VtcHR5KCkgPT4gU29tZShub3JtYWxpemVfaXB2Nl9pbnRlcmZhY2VfaWQodmFsdWUpPyksCiAgICAgICAgXyA9PiBOb25lLAogICAgfTsKICAgIE9rKHNlbGVjdG9yKQp9CgpmbiBub3JtYWxpemVfZmFtaWx5X2lwKHZhbHVlOiAmc3RyLCBmYW1pbHk6ICZzdHIpIC0+IGFueWhvdzo6UmVzdWx0PFN0cmluZz4gewogICAgbGV0IGlwID0gdmFsdWUucGFyc2U6OjxJcEFkZHI+KCkubWFwX2Vycih8X3wgewogICAgICAgIGFueWhvdzo6YW55aG93ISgiSW52YWxpZCBERE5TIGludGVyZmFjZSBzZWxlY3RvcjogaW52YWxpZCBwcmVmZXJyZWQgYWRkcmVzcyB7dmFsdWV9IikKICAgIH0pPzsKICAgIGlmIChmYW1pbHkgPT0gImlwdjQiICYmICFpcC5pc19pcHY0KCkpIHx8IChmYW1pbHkgPT0gImlwdjYiICYmICFpcC5pc19pcHY2KCkpIHsKICAgICAgICBhbnlob3c6OmJhaWwhKCJJbnZhbGlkIERETlMgaW50ZXJmYWNlIHNlbGVjdG9yOiBwcmVmZXJyZWQgYWRkcmVzcyBmYW1pbHkgbWlzbWF0Y2giKTsKICAgIH0KICAgIE9rKGlwLnRvX3N0cmluZygpKQp9CgpmbiBub3JtYWxpemVfY2lkcnModmFsdWVzOiAmW1N0cmluZ10sIGZhbWlseTogJnN0cikgLT4gYW55aG93OjpSZXN1bHQ8VmVjPFN0cmluZz4+IHsKICAgIGxldCBtdXQgb3V0cHV0ID0gVmVjOjpuZXcoKTsKICAgIGZvciB2YWx1ZSBpbiB2YWx1ZXMgewogICAgICAgIGxldCB2YWx1ZSA9IHZhbHVlLnRyaW0oKTsKICAgICAgICBpZiB2YWx1ZS5pc19lbXB0eSgpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBuZXR3b3JrID0gdmFsdWUucGFyc2U6OjxJcE5ldD4oKS5tYXBfZXJyKHxffCB7CiAgICAgICAgICAgIGFueWhvdzo6YW55aG93ISgiSW52YWxpZCBERE5TIGludGVyZmFjZSBzZWxlY3RvcjogaW52YWxpZCBDSURSIHt2YWx1ZX0iKQogICAgICAgIH0pPzsKICAgICAgICBpZiAoZmFtaWx5ID09ICJpcHY0IiAmJiAhbmV0d29yay5hZGRyKCkuaXNfaXB2NCgpKQogICAgICAgICAgICB8fCAoZmFtaWx5ID09ICJpcHY2IiAmJiAhbmV0d29yay5hZGRyKCkuaXNfaXB2NigpKQogICAgICAgIHsKICAgICAgICAgICAgYW55aG93OjpiYWlsISgiSW52YWxpZCBERE5TIGludGVyZmFjZSBzZWxlY3RvcjogQ0lEUiBmYW1pbHkgbWlzbWF0Y2ggZm9yIHt2YWx1ZX0iKTsKICAgICAgICB9CiAgICAgICAgbGV0IGNhbm9uaWNhbCA9IG5ldHdvcmsudHJ1bmMoKS50b19zdHJpbmcoKTsKICAgICAgICBpZiAhb3V0cHV0LmNvbnRhaW5zKCZjYW5vbmljYWwpIHsKICAgICAgICAgICAgb3V0cHV0LnB1c2goY2Fub25pY2FsKTsKICAgICAgICB9CiAgICB9CiAgICBPayhvdXRwdXQpCn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX2lwdjZfaW50ZXJmYWNlX2lkKHZhbHVlOiAmc3RyKSAtPiBhbnlob3c6OlJlc3VsdDxTdHJpbmc+IHsKICAgIGxldCB2YWx1ZSA9IHZhbHVlLnRyaW0oKTsKICAgIGxldCBwYXJzZWQgPSBpZiBsZXQgT2soaXApID0gdmFsdWUucGFyc2U6OjxJcHY2QWRkcj4oKSB7CiAgICAgICAgaXAKICAgIH0gZWxzZSB7CiAgICAgICAgZm9ybWF0ISgiOjp7dmFsdWV9IikucGFyc2U6OjxJcHY2QWRkcj4oKS5tYXBfZXJyKHxffCB7CiAgICAgICAgICAgIGFueWhvdzo6YW55aG93ISgiSW52YWxpZCBERE5TIGludGVyZmFjZSBzZWxlY3RvcjogaW52YWxpZCBJUHY2IGludGVyZmFjZSBJRCB7dmFsdWV9IikKICAgICAgICB9KT8KICAgIH07CiAgICBPayhpcHY2X2ludGVyZmFjZV9pZChwYXJzZWQpKQp9CgpwdWIoc3VwZXIpIGZuIGlwdjZfaW50ZXJmYWNlX2lkKGlwOiBJcHY2QWRkcikgLT4gU3RyaW5nIHsKICAgIGxldCBzZWdtZW50cyA9IGlwLnNlZ21lbnRzKCk7CiAgICBmb3JtYXQhKAogICAgICAgICJ7OjA0eH06ezowNHh9Ons6MDR4fTp7OjA0eH0iLAogICAgICAgIHNlZ21lbnRzWzRdLCBzZWdtZW50c1s1XSwgc2VnbWVudHNbNl0sIHNlZ21lbnRzWzddCiAgICApCn0KCiNbY2ZnKHRlc3QpXQpwdWIoc3VwZXIpIGZuIHJlc29sdmVfaW50ZXJmYWNlX3NlbGVjdG9yKAogICAgbmV0d29yazogJlZhbHVlLAogICAgZmFtaWx5OiAmc3RyLAogICAgc2VsZWN0b3I6ICZJbnRlcmZhY2VBZGRyZXNzU2VsZWN0b3IsCiAgICBjdXJyZW50X2FkZHJlc3M6IE9wdGlvbjwmc3RyPiwKKSAtPiBJbnRlcmZhY2VTZWxlY3Rpb24gewogICAgcmVzb2x2ZV9pbnRlcmZhY2Vfc2VsZWN0b3Jfd2l0aF9wb2xpY3kobmV0d29yaywgZmFtaWx5LCBzZWxlY3RvciwgY3VycmVudF9hZGRyZXNzLCBmYWxzZSkKfQoKcHViKHN1cGVyKSBmbiByZXNvbHZlX2ludGVyZmFjZV9zZWxlY3Rvcl93aXRoX3BvbGljeSgKICAgIG5ldHdvcms6ICZWYWx1ZSwKICAgIGZhbWlseTogJnN0ciwKICAgIHNlbGVjdG9yOiAmSW50ZXJmYWNlQWRkcmVzc1NlbGVjdG9yLAogICAgY3VycmVudF9hZGRyZXNzOiBPcHRpb248JnN0cj4sCiAgICBhbGxvd19wcml2YXRlX2FkZHJlc3NlczogYm9vbCwKKSAtPiBJbnRlcmZhY2VTZWxlY3Rpb24gewogICAgbGV0IGluY2x1ZGVzID0gcGFyc2Vfbm9ybWFsaXplZF9jaWRycygmc2VsZWN0b3IuaW5jbHVkZV9jaWRycyk7CiAgICBsZXQgZXhjbHVkZXMgPSBwYXJzZV9ub3JtYWxpemVkX2NpZHJzKCZzZWxlY3Rvci5leGNsdWRlX2NpZHJzKTsKICAgIGxldCBtdXQgZWxpZ2libGUgPSBWZWM6Om5ldygpOwogICAgbGV0IG11dCByZWplY3RlZCA9IFZlYzo6bmV3KCk7CgogICAgZm9yIGl0ZW0gaW4gaW50ZXJmYWNlX2NhbmRpZGF0ZV9hZGRyZXNzZXMobmV0d29yaywgYWxsb3dfcHJpdmF0ZV9hZGRyZXNzZXMpIHsKICAgICAgICBpZiBpdGVtLmdldCgiZmFtaWx5IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgIT0gU29tZShmYW1pbHkpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBtdXQgcmVhc29ucyA9IFZlYzo6bmV3KCk7CiAgICAgICAgbGV0IHBhcnNlZCA9IGl0ZW0KICAgICAgICAgICAgLmdldCgiYWRkcmVzcyIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5wYXJzZTo6PElwQWRkcj4oKS5vaygpKTsKICAgICAgICBpZiBwYXJzZWQuaXNfbm9uZSgpIHsKICAgICAgICAgICAgcmVhc29ucy5wdXNoKCJpbnZhbGlkX2FkZHJlc3MiKTsKICAgICAgICB9CiAgICAgICAgaWYgaXRlbS5nZXQoInRlbnRhdGl2ZSIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSA9PSBTb21lKHRydWUpIHsKICAgICAgICAgICAgcmVhc29ucy5wdXNoKCJ0ZW50YXRpdmUiKTsKICAgICAgICB9CiAgICAgICAgaWYgaXRlbS5nZXQoImRhZEZhaWxlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSA9PSBTb21lKHRydWUpIHsKICAgICAgICAgICAgcmVhc29ucy5wdXNoKCJkYWRfZmFpbGVkIik7CiAgICAgICAgfQogICAgICAgIGlmIGl0ZW0uZ2V0KCJkZXByZWNhdGVkIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpID09IFNvbWUodHJ1ZSkgewogICAgICAgICAgICByZWFzb25zLnB1c2goImRlcHJlY2F0ZWQiKTsKICAgICAgICB9CiAgICAgICAgaWYgIXNlbGVjdG9yLmFsbG93X3RlbXBvcmFyeSAmJiBpdGVtLmdldCgidGVtcG9yYXJ5IikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpID09IFNvbWUodHJ1ZSkKICAgICAgICB7CiAgICAgICAgICAgIHJlYXNvbnMucHVzaCgidGVtcG9yYXJ5Iik7CiAgICAgICAgfQoKICAgICAgICBpZiBzZWxlY3Rvci5tb2RlID09IEludGVyZmFjZVNlbGVjdG9yTW9kZTo6UnVsZXMKICAgICAgICAgICAgJiYgbGV0IFNvbWUoaXApID0gcGFyc2VkCiAgICAgICAgewogICAgICAgICAgICBpZiAhaW5jbHVkZXMuaXNfZW1wdHkoKSAmJiAhaW5jbHVkZXMuaXRlcigpLmFueSh8bmV0d29ya3wgbmV0d29yay5jb250YWlucygmaXApKSB7CiAgICAgICAgICAgICAgICByZWFzb25zLnB1c2goIm91dHNpZGVfaW5jbHVkZV9jaWRycyIpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIGV4Y2x1ZGVzLml0ZXIoKS5hbnkofG5ldHdvcmt8IG5ldHdvcmsuY29udGFpbnMoJmlwKSkgewogICAgICAgICAgICAgICAgcmVhc29ucy5wdXNoKCJleGNsdWRlZF9jaWRyIik7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgZmFtaWx5ID09ICJpcHY2IgogICAgICAgICAgICAgICAgJiYgbGV0IFNvbWUoZXhwZWN0ZWQpID0gc2VsZWN0b3IuaXB2Nl9pbnRlcmZhY2VfaWQuYXNfZGVyZWYoKQogICAgICAgICAgICAgICAgJiYgaXAKICAgICAgICAgICAgICAgICAgICAudG9fc3RyaW5nKCkKICAgICAgICAgICAgICAgICAgICAucGFyc2U6OjxJcHY2QWRkcj4oKQogICAgICAgICAgICAgICAgICAgIC5pc19va19hbmQofGFkZHJlc3N8IGlwdjZfaW50ZXJmYWNlX2lkKGFkZHJlc3MpICE9IGV4cGVjdGVkKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICByZWFzb25zLnB1c2goImludGVyZmFjZV9pZF9taXNtYXRjaCIpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBpZiByZWFzb25zLmlzX2VtcHR5KCkgewogICAgICAgICAgICBlbGlnaWJsZS5wdXNoKGl0ZW0pOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJlamVjdGVkLnB1c2goanNvbiEoewogICAgICAgICAgICAgICAgImFkZHJlc3MiOiBpdGVtLmdldCgiYWRkcmVzcyIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCksCiAgICAgICAgICAgICAgICAicmVhc29ucyI6IHJlYXNvbnMKICAgICAgICAgICAgfSkpOwogICAgICAgIH0KICAgIH0KCiAgICBlbGlnaWJsZS5zb3J0X2J5KGNvbXBhcmVfaW50ZXJmYWNlX2NhbmRpZGF0ZXMpOwogICAgbGV0IGN1cnJlbnQgPSBjYW5vbmljYWxfY2FuZGlkYXRlX2FkZHJlc3MoY3VycmVudF9hZGRyZXNzLCBmYW1pbHkpOwogICAgbGV0IHByZWZlcnJlZCA9IHNlbGVjdG9yLnByZWZlcnJlZF9hZGRyZXNzLmFzX2RlcmVmKCk7CiAgICBsZXQgKHNlbGVjdGVkLCByZWFzb24pID0gaWYgbGV0IFNvbWUodmFsdWUpID0gZmluZF9jYW5kaWRhdGUoJmVsaWdpYmxlLCBwcmVmZXJyZWQpIHsKICAgICAgICAoU29tZSh2YWx1ZSksICJwcmVmZXJyZWQiKQogICAgfSBlbHNlIGlmIGxldCBTb21lKHZhbHVlKSA9IGZpbmRfY2FuZGlkYXRlKCZlbGlnaWJsZSwgY3VycmVudC5hc19kZXJlZigpKSB7CiAgICAgICAgKFNvbWUodmFsdWUpLCAiY3VycmVudCIpCiAgICB9IGVsc2UgaWYgbGV0IFNvbWUodmFsdWUpID0gZWxpZ2libGUKICAgICAgICAuZmlyc3QoKQogICAgICAgIC5hbmRfdGhlbihjYW5kaWRhdGVfYWRkcmVzcykKICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgewogICAgICAgIChTb21lKHZhbHVlKSwgInJhbmtlZCIpCiAgICB9IGVsc2UgewogICAgICAgIChOb25lLCAibm9fbWF0Y2giKQogICAgfTsKCiAgICBJbnRlcmZhY2VTZWxlY3Rpb24gewogICAgICAgIHNlbGVjdGVkLAogICAgICAgIGVsaWdpYmxlLAogICAgICAgIHJlamVjdGVkLAogICAgICAgIHJlYXNvbiwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBpbnRlcmZhY2VfY2FuZGlkYXRlX2FkZHJlc3NlcygKICAgIG5ldHdvcms6ICZWYWx1ZSwKICAgIGFsbG93X3ByaXZhdGVfYWRkcmVzc2VzOiBib29sLAopIC0+IFZlYzxWYWx1ZT4gewogICAgbGV0IG11dCBjYW5kaWRhdGVzID0gbmV0d29yawogICAgICAgIC5nZXQoInNlbGVjdGFibGVBZGRyZXNzZXMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBpZiBhbGxvd19wcml2YXRlX2FkZHJlc3NlcyB7CiAgICAgICAgZm9yIGNhbmRpZGF0ZSBpbiBuZXR3b3JrCiAgICAgICAgICAgIC5nZXQoInByaXZhdGVBZGRyZXNzZXMiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgICAgICAuY2xvbmVkKCkKICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICB7CiAgICAgICAgICAgIGxldCBmYW1pbHkgPSBjYW5kaWRhdGUuZ2V0KCJmYW1pbHkiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKTsKICAgICAgICAgICAgbGV0IGFkZHJlc3MgPSBjYW5kaWRhdGUuZ2V0KCJhZGRyZXNzIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cik7CiAgICAgICAgICAgIGlmICFjYW5kaWRhdGVzLml0ZXIoKS5hbnkofGV4aXN0aW5nfCB7CiAgICAgICAgICAgICAgICBleGlzdGluZy5nZXQoImZhbWlseSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IGZhbWlseQogICAgICAgICAgICAgICAgICAgICYmIGV4aXN0aW5nLmdldCgiYWRkcmVzcyIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IGFkZHJlc3MKICAgICAgICAgICAgfSkgewogICAgICAgICAgICAgICAgY2FuZGlkYXRlcy5wdXNoKGNhbmRpZGF0ZSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICBjYW5kaWRhdGVzCn0KCmZuIHBhcnNlX25vcm1hbGl6ZWRfY2lkcnModmFsdWVzOiAmW1N0cmluZ10pIC0+IFZlYzxJcE5ldD4gewogICAgdmFsdWVzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXJfbWFwKHx2YWx1ZXwgdmFsdWUucGFyc2UoKS5vaygpKQogICAgICAgIC5jb2xsZWN0KCkKfQoKZm4gY2Fub25pY2FsX2NhbmRpZGF0ZV9hZGRyZXNzKHZhbHVlOiBPcHRpb248JnN0cj4sIGZhbWlseTogJnN0cikgLT4gT3B0aW9uPFN0cmluZz4gewogICAgbGV0IGlwID0gdmFsdWU/LnRyaW0oKS5wYXJzZTo6PElwQWRkcj4oKS5vaygpPzsKICAgICgoZmFtaWx5ID09ICJpcHY0IiAmJiBpcC5pc19pcHY0KCkpIHx8IChmYW1pbHkgPT0gImlwdjYiICYmIGlwLmlzX2lwdjYoKSkpCiAgICAgICAgLnRoZW4ofHwgaXAudG9fc3RyaW5nKCkpCn0KCmZuIGZpbmRfY2FuZGlkYXRlKGNhbmRpZGF0ZXM6ICZbVmFsdWVdLCBleHBlY3RlZDogT3B0aW9uPCZzdHI+KSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBsZXQgZXhwZWN0ZWQgPSBleHBlY3RlZD87CiAgICBjYW5kaWRhdGVzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXJfbWFwKGNhbmRpZGF0ZV9hZGRyZXNzKQogICAgICAgIC5maW5kKHx2YWx1ZXwgKnZhbHVlID09IGV4cGVjdGVkKQogICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCn0KCmZuIGNhbmRpZGF0ZV9hZGRyZXNzKHZhbHVlOiAmVmFsdWUpIC0+IE9wdGlvbjwmc3RyPiB7CiAgICB2YWx1ZS5nZXQoImFkZHJlc3MiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQp9CgpwdWIoc3VwZXIpIGZuIHN0YWJpbGl6ZV9wcmVmZXJyZWRfcmVjb3ZlcnkoCiAgICBzZWxlY3Rpb246ICZJbnRlcmZhY2VTZWxlY3Rpb24sCiAgICBzZWxlY3RvcjogJkludGVyZmFjZUFkZHJlc3NTZWxlY3RvciwKICAgIGN1cnJlbnRfYWRkcmVzczogT3B0aW9uPCZzdHI+LAogICAgcHJldmlvdXNfc3RhdGU6IE9wdGlvbjwmUHJlZmVycmVkUmVjb3ZlcnlTdGF0ZT4sCiAgICByZXF1aXJlZF9jb25maXJtYXRpb25zOiB1OCwKKSAtPiBQcmVmZXJyZWRSZWNvdmVyeURlY2lzaW9uIHsKICAgIGxldCBzZWxlY3RlZCA9IHNlbGVjdGlvbi5zZWxlY3RlZC5jbG9uZSgpOwogICAgbGV0IFNvbWUocHJlZmVycmVkKSA9IHNlbGVjdG9yCiAgICAgICAgLnByZWZlcnJlZF9hZGRyZXNzCiAgICAgICAgLmFzX2RlcmVmKCkKICAgICAgICAuYW5kX3RoZW4oY2Fub25pY2FsX2lwX2FkZHJlc3MpCiAgICBlbHNlIHsKICAgICAgICByZXR1cm4gUHJlZmVycmVkUmVjb3ZlcnlEZWNpc2lvbiB7CiAgICAgICAgICAgIHNlbGVjdGVkLAogICAgICAgICAgICBzdGF0ZTogTm9uZSwKICAgICAgICAgICAgZGVmZXJyZWQ6IGZhbHNlLAogICAgICAgIH07CiAgICB9OwogICAgbGV0IFNvbWUoY3VycmVudCkgPSBjdXJyZW50X2FkZHJlc3MuYW5kX3RoZW4oY2Fub25pY2FsX2lwX2FkZHJlc3MpIGVsc2UgewogICAgICAgIHJldHVybiBQcmVmZXJyZWRSZWNvdmVyeURlY2lzaW9uIHsKICAgICAgICAgICAgc2VsZWN0ZWQsCiAgICAgICAgICAgIHN0YXRlOiBOb25lLAogICAgICAgICAgICBkZWZlcnJlZDogZmFsc2UsCiAgICAgICAgfTsKICAgIH07CiAgICBsZXQgc2hvdWxkX2NvbmZpcm1fcmVjb3ZlcnkgPSBwcmVmZXJyZWQgIT0gY3VycmVudAogICAgICAgICYmIHNlbGVjdGVkLmFzX2RlcmVmKCkgPT0gU29tZShwcmVmZXJyZWQuYXNfc3RyKCkpCiAgICAgICAgJiYgZmluZF9jYW5kaWRhdGUoJnNlbGVjdGlvbi5lbGlnaWJsZSwgU29tZShjdXJyZW50LmFzX3N0cigpKSkuaXNfc29tZSgpOwoKICAgIGlmICFzaG91bGRfY29uZmlybV9yZWNvdmVyeSB7CiAgICAgICAgcmV0dXJuIFByZWZlcnJlZFJlY292ZXJ5RGVjaXNpb24gewogICAgICAgICAgICBzZWxlY3RlZCwKICAgICAgICAgICAgc3RhdGU6IE5vbmUsCiAgICAgICAgICAgIGRlZmVycmVkOiBmYWxzZSwKICAgICAgICB9OwogICAgfQoKICAgIGxldCBjb25maXJtYXRpb25zID0gcHJldmlvdXNfc3RhdGUKICAgICAgICAuZmlsdGVyKHxzdGF0ZXwgc3RhdGUuYWRkcmVzcyA9PSBwcmVmZXJyZWQpCiAgICAgICAgLm1hcCh8c3RhdGV8IHN0YXRlLmNvbmZpcm1hdGlvbnMpCiAgICAgICAgLnVud3JhcF9vcigwKQogICAgICAgIC5zYXR1cmF0aW5nX2FkZCgxKTsKICAgIGxldCBzdGF0ZSA9IFByZWZlcnJlZFJlY292ZXJ5U3RhdGUgewogICAgICAgIGFkZHJlc3M6IHByZWZlcnJlZCwKICAgICAgICBjb25maXJtYXRpb25zLAogICAgfTsKICAgIGxldCBkZWZlcnJlZCA9IGNvbmZpcm1hdGlvbnMgPCByZXF1aXJlZF9jb25maXJtYXRpb25zLm1heCgxKTsKCiAgICBQcmVmZXJyZWRSZWNvdmVyeURlY2lzaW9uIHsKICAgICAgICBzZWxlY3RlZDogaWYgZGVmZXJyZWQgewogICAgICAgICAgICBTb21lKGN1cnJlbnQpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgc2VsZWN0aW9uLnNlbGVjdGVkLmNsb25lKCkKICAgICAgICB9LAogICAgICAgIHN0YXRlOiBTb21lKHN0YXRlKSwKICAgICAgICBkZWZlcnJlZCwKICAgIH0KfQoKZm4gY2Fub25pY2FsX2lwX2FkZHJlc3ModmFsdWU6ICZzdHIpIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIHZhbHVlLnRyaW0oKS5wYXJzZTo6PElwQWRkcj4oKS5vaygpLm1hcCh8aXB8IGlwLnRvX3N0cmluZygpKQp9CgpmbiBjb21wYXJlX2ludGVyZmFjZV9jYW5kaWRhdGVzKGxlZnQ6ICZWYWx1ZSwgcmlnaHQ6ICZWYWx1ZSkgLT4gT3JkZXJpbmcgewogICAgY2FuZGlkYXRlX3Njb3BlX3JhbmsobGVmdCkKICAgICAgICAuY21wKCZjYW5kaWRhdGVfc2NvcGVfcmFuayhyaWdodCkpCiAgICAgICAgLnRoZW5fd2l0aCh8fCBjYW5kaWRhdGVfc3RhYmlsaXR5X3JhbmsobGVmdCkuY21wKCZjYW5kaWRhdGVfc3RhYmlsaXR5X3JhbmsocmlnaHQpKSkKICAgICAgICAudGhlbl93aXRoKHx8IHsKICAgICAgICAgICAgbGV0IGxlZnQgPSBjYW5kaWRhdGVfYWRkcmVzcyhsZWZ0KS5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnBhcnNlOjo8SXBBZGRyPigpLm9rKCkpOwogICAgICAgICAgICBsZXQgcmlnaHQgPSBjYW5kaWRhdGVfYWRkcmVzcyhyaWdodCkuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5wYXJzZTo6PElwQWRkcj4oKS5vaygpKTsKICAgICAgICAgICAgbGVmdC5jbXAoJnJpZ2h0KQogICAgICAgIH0pCn0KCmZuIGNhbmRpZGF0ZV9zY29wZV9yYW5rKHZhbHVlOiAmVmFsdWUpIC0+IHU4IHsKICAgIGlmIGlzX3ByaXZhdGVfaW50ZXJmYWNlX2FkZHJlc3ModmFsdWUpIHsKICAgICAgICAxCiAgICB9IGVsc2UgewogICAgICAgIDAKICAgIH0KfQoKZm4gY2FuZGlkYXRlX3N0YWJpbGl0eV9yYW5rKHZhbHVlOiAmVmFsdWUpIC0+IHU4IHsKICAgIG1hdGNoIHZhbHVlLmdldCgidGVtcG9yYXJ5IikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpIHsKICAgICAgICBTb21lKGZhbHNlKSA9PiAwLAogICAgICAgIE5vbmUgPT4gMSwKICAgICAgICBTb21lKHRydWUpID0+IDIsCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gbGVnYWN5X3NlbGVjdF9pbnRlcmZhY2VfYWRkcmVzcygKICAgIGNhbmRpZGF0ZXM6ICZbVmFsdWVdLAogICAgZmFtaWx5OiAmc3RyLAogICAgaW5kZXg6IE9wdGlvbjwmc3RyPiwKICAgIGN1cnJlbnRfYWRkcmVzczogT3B0aW9uPCZzdHI+LAopIC0+IE9wdGlvbjwoU3RyaW5nLCAmJ3N0YXRpYyBzdHIpPiB7CiAgICBsZXQgZmFtaWx5X2NhbmRpZGF0ZXMgPSBjYW5kaWRhdGVzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXIofGl0ZW18IGl0ZW0uZ2V0KCJmYW1pbHkiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKGZhbWlseSkpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgdXNhYmxlID0gZmFtaWx5X2NhbmRpZGF0ZXMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmNvcGllZCgpCiAgICAgICAgLmZpbHRlcih8aXRlbXwgbGVnYWN5X2NhbmRpZGF0ZV9pc191c2FibGUoaXRlbSkpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgY3VycmVudCA9IGNhbm9uaWNhbF9jYW5kaWRhdGVfYWRkcmVzcyhjdXJyZW50X2FkZHJlc3MsIGZhbWlseSk7CiAgICBpZiBsZXQgU29tZSh2YWx1ZSkgPSBmaW5kX2NhbmRpZGF0ZSgmdXNhYmxlLCBjdXJyZW50LmFzX2RlcmVmKCkpIHsKICAgICAgICByZXR1cm4gU29tZSgodmFsdWUsICJsZWdhY3lfY3VycmVudCIpKTsKICAgIH0KICAgIGlmIGZhbWlseSA9PSAiaXB2NiIKICAgICAgICAmJiBsZXQgU29tZShjdXJyZW50KSA9IGN1cnJlbnQKICAgICAgICAmJiBsZXQgT2soY3VycmVudCkgPSBjdXJyZW50LnBhcnNlOjo8SXB2NkFkZHI+KCkKICAgIHsKICAgICAgICBsZXQgZXhwZWN0ZWQgPSBpcHY2X2ludGVyZmFjZV9pZChjdXJyZW50KTsKICAgICAgICBsZXQgbXV0IG1hdGNoZXMgPSB1c2FibGUKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAuZmlsdGVyX21hcChjYW5kaWRhdGVfYWRkcmVzcykKICAgICAgICAgICAgLmZpbHRlcl9tYXAofHZhbHVlfCB2YWx1ZS5wYXJzZTo6PElwdjZBZGRyPigpLm9rKCkpCiAgICAgICAgICAgIC5maWx0ZXIofHZhbHVlfCBpcHY2X2ludGVyZmFjZV9pZCgqdmFsdWUpID09IGV4cGVjdGVkKQogICAgICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgICAgICBtYXRjaGVzLnNvcnQoKTsKICAgICAgICBpZiBsZXQgU29tZSh2YWx1ZSkgPSBtYXRjaGVzLmZpcnN0KCkgewogICAgICAgICAgICByZXR1cm4gU29tZSgodmFsdWUudG9fc3RyaW5nKCksICJsZWdhY3lfaW50ZXJmYWNlX2lkIikpOwogICAgICAgIH0KICAgIH0KICAgIGxldCBpbmRleCA9IGluZGV4Py50cmltKCkucGFyc2U6Ojx1c2l6ZT4oKS5vaygpPzsKICAgIGZhbWlseV9jYW5kaWRhdGVzCiAgICAgICAgLmdldChpbmRleCkKICAgICAgICAuY29waWVkKCkKICAgICAgICAuZmlsdGVyKHxpdGVtfCBsZWdhY3lfY2FuZGlkYXRlX2lzX3VzYWJsZShpdGVtKSkKICAgICAgICAuYW5kX3RoZW4oY2FuZGlkYXRlX2FkZHJlc3MpCiAgICAgICAgLm1hcCh8dmFsdWV8ICh2YWx1ZS50b19zdHJpbmcoKSwgImxlZ2FjeV9pbmRleCIpKQp9CgpmbiBsZWdhY3lfY2FuZGlkYXRlX2lzX3VzYWJsZShpdGVtOiAmVmFsdWUpIC0+IGJvb2wgewogICAgaXRlbS5nZXQoInRlbnRhdGl2ZSIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSAhPSBTb21lKHRydWUpCiAgICAgICAgJiYgaXRlbS5nZXQoImRhZEZhaWxlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSAhPSBTb21lKHRydWUpCiAgICAgICAgJiYgaXRlbS5nZXQoImRlcHJlY2F0ZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgIT0gU29tZSh0cnVlKQp9Cg==
+use super::*;
+use ipnet::IpNet;
+use serde::{Deserialize, Serialize};
+use std::cmp::Ordering;
+
+const INTERFACE_SELECTOR_VERSION: u8 = 1;
+
+#[derive(Clone, Copy, Debug, Default, Deserialize, PartialEq, Eq, Serialize)]
+#[serde(rename_all = "snake_case")]
+pub(super) enum InterfaceSelectorMode {
+    #[default]
+    Auto,
+    Rules,
+}
+
+#[derive(Clone, Debug, Deserialize, PartialEq, Eq, Serialize)]
+#[serde(rename_all = "camelCase", deny_unknown_fields)]
+pub(super) struct InterfaceAddressSelector {
+    pub version: u8,
+    #[serde(default)]
+    pub mode: InterfaceSelectorMode,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub preferred_address: Option<String>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub include_cidrs: Vec<String>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub exclude_cidrs: Vec<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub ipv6_interface_id: Option<String>,
+    #[serde(default)]
+    pub allow_temporary: bool,
+}
+
+impl Default for InterfaceAddressSelector {
+    fn default() -> Self {
+        Self {
+            version: INTERFACE_SELECTOR_VERSION,
+            mode: InterfaceSelectorMode::Auto,
+            preferred_address: None,
+            include_cidrs: Vec::new(),
+            exclude_cidrs: Vec::new(),
+            ipv6_interface_id: None,
+            allow_temporary: false,
+        }
+    }
+}
+
+#[derive(Clone, Debug)]
+pub(super) struct InterfaceSelection {
+    pub selected: Option<String>,
+    pub eligible: Vec<Value>,
+    pub rejected: Vec<Value>,
+    pub reason: &'static str,
+}
+
+#[derive(Clone, Debug)]
+pub(super) struct InterfaceAddressResolution {
+    pub address: Option<String>,
+    pub selection_logs: Vec<String>,
+    pub selection: Option<InterfaceSelection>,
+    pub selector: Option<InterfaceAddressSelector>,
+    pub mode: String,
+}
+
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub(super) struct PreferredRecoveryState {
+    pub address: String,
+    pub confirmations: u8,
+}
+
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub(super) struct PreferredRecoveryDecision {
+    pub selected: Option<String>,
+    pub state: Option<PreferredRecoveryState>,
+    pub deferred: bool,
+}
+
+pub(super) fn selector_field(family: &str) -> &'static str {
+    if family == "ipv4" {
+        DDNS_INTERFACE_IPV4_SELECTOR_FIELD
+    } else {
+        DDNS_INTERFACE_IPV6_SELECTOR_FIELD
+    }
+}
+
+pub(super) fn parse_interface_selector(
+    value: Option<&str>,
+    family: &str,
+) -> anyhow::Result<Option<InterfaceAddressSelector>> {
+    let Some(raw) = value.map(str::trim).filter(|value| !value.is_empty()) else {
+        return Ok(None);
+    };
+    let selector = serde_json::from_str::<InterfaceAddressSelector>(raw)
+        .map_err(|error| anyhow::anyhow!("Invalid DDNS interface selector: {error}"))?;
+    normalize_interface_selector(selector, family).map(Some)
+}
+
+pub(super) fn parse_interface_selector_value(
+    value: &Value,
+    family: &str,
+) -> anyhow::Result<InterfaceAddressSelector> {
+    let selector = serde_json::from_value::<InterfaceAddressSelector>(value.clone())
+        .map_err(|error| anyhow::anyhow!("Invalid DDNS interface selector: {error}"))?;
+    normalize_interface_selector(selector, family)
+}
+
+pub(super) fn normalize_interface_selector_string(value: Option<&str>, family: &str) -> String {
+    parse_interface_selector(value, family)
+        .ok()
+        .flatten()
+        .and_then(|selector| serde_json::to_string(&selector).ok())
+        .unwrap_or_default()
+}
+
+pub(super) fn normalize_interface_selector(
+    mut selector: InterfaceAddressSelector,
+    family: &str,
+) -> anyhow::Result<InterfaceAddressSelector> {
+    if selector.version != INTERFACE_SELECTOR_VERSION {
+        anyhow::bail!(
+            "Invalid DDNS interface selector: unsupported version {}",
+            selector.version
+        );
+    }
+    if !matches!(family, "ipv4" | "ipv6") {
+        anyhow::bail!("Invalid DDNS interface selector: invalid address family");
+    }
+
+    selector.preferred_address = selector
+        .preferred_address
+        .as_deref()
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .map(|value| normalize_family_ip(value, family))
+        .transpose()?;
+    selector.include_cidrs = normalize_cidrs(&selector.include_cidrs, family)?;
+    selector.exclude_cidrs = normalize_cidrs(&selector.exclude_cidrs, family)?;
+    selector.ipv6_interface_id = match selector.ipv6_interface_id.as_deref() {
+        Some(value) if family == "ipv4" && !value.trim().is_empty() => {
+            anyhow::bail!(
+                "Invalid DDNS interface selector: IPv6 interface ID is not valid for IPv4"
+            );
+        }
+        Some(value) if !value.trim().is_empty() => Some(normalize_ipv6_interface_id(value)?),
+        _ => None,
+    };
+    Ok(selector)
+}
+
+fn normalize_family_ip(value: &str, family: &str) -> anyhow::Result<String> {
+    let ip = value.parse::<IpAddr>().map_err(|_| {
+        anyhow::anyhow!("Invalid DDNS interface selector: invalid preferred address {value}")
+    })?;
+    if (family == "ipv4" && !ip.is_ipv4()) || (family == "ipv6" && !ip.is_ipv6()) {
+        anyhow::bail!("Invalid DDNS interface selector: preferred address family mismatch");
+    }
+    Ok(ip.to_string())
+}
+
+fn normalize_cidrs(values: &[String], family: &str) -> anyhow::Result<Vec<String>> {
+    let mut output = Vec::new();
+    for value in values {
+        let value = value.trim();
+        if value.is_empty() {
+            continue;
+        }
+        let network = value.parse::<IpNet>().map_err(|_| {
+            anyhow::anyhow!("Invalid DDNS interface selector: invalid CIDR {value}")
+        })?;
+        if (family == "ipv4" && !network.addr().is_ipv4())
+            || (family == "ipv6" && !network.addr().is_ipv6())
+        {
+            anyhow::bail!("Invalid DDNS interface selector: CIDR family mismatch for {value}");
+        }
+        let canonical = network.trunc().to_string();
+        if !output.contains(&canonical) {
+            output.push(canonical);
+        }
+    }
+    Ok(output)
+}
+
+pub(super) fn normalize_ipv6_interface_id(value: &str) -> anyhow::Result<String> {
+    let value = value.trim();
+    let parsed = if let Ok(ip) = value.parse::<Ipv6Addr>() {
+        ip
+    } else {
+        format!("::{value}").parse::<Ipv6Addr>().map_err(|_| {
+            anyhow::anyhow!("Invalid DDNS interface selector: invalid IPv6 interface ID {value}")
+        })?
+    };
+    Ok(ipv6_interface_id(parsed))
+}
+
+pub(super) fn ipv6_interface_id(ip: Ipv6Addr) -> String {
+    let segments = ip.segments();
+    format!(
+        "{:04x}:{:04x}:{:04x}:{:04x}",
+        segments[4], segments[5], segments[6], segments[7]
+    )
+}
+
+#[cfg(test)]
+pub(super) fn resolve_interface_selector(
+    network: &Value,
+    family: &str,
+    selector: &InterfaceAddressSelector,
+    current_address: Option<&str>,
+) -> InterfaceSelection {
+    resolve_interface_selector_with_policy(network, family, selector, current_address, false)
+}
+
+pub(super) fn resolve_interface_selector_with_policy(
+    network: &Value,
+    family: &str,
+    selector: &InterfaceAddressSelector,
+    current_address: Option<&str>,
+    allow_private_addresses: bool,
+) -> InterfaceSelection {
+    let includes = parse_normalized_cidrs(&selector.include_cidrs);
+    let excludes = parse_normalized_cidrs(&selector.exclude_cidrs);
+    let mut eligible = Vec::new();
+    let mut rejected = Vec::new();
+
+    for item in interface_candidate_addresses(network, allow_private_addresses) {
+        if item.get("family").and_then(Value::as_str) != Some(family) {
+            continue;
+        }
+        let mut reasons = Vec::new();
+        let parsed = item
+            .get("address")
+            .and_then(Value::as_str)
+            .and_then(|value| value.parse::<IpAddr>().ok());
+        if parsed.is_none() {
+            reasons.push("invalid_address");
+        }
+        if item.get("tentative").and_then(Value::as_bool) == Some(true) {
+            reasons.push("tentative");
+        }
+        if item.get("dadFailed").and_then(Value::as_bool) == Some(true) {
+            reasons.push("dad_failed");
+        }
+        if item.get("deprecated").and_then(Value::as_bool) == Some(true) {
+            reasons.push("deprecated");
+        }
+        if !selector.allow_temporary && item.get("temporary").and_then(Value::as_bool) == Some(true)
+        {
+            reasons.push("temporary");
+        }
+
+        if selector.mode == InterfaceSelectorMode::Rules
+            && let Some(ip) = parsed
+        {
+            if !includes.is_empty() && !includes.iter().any(|network| network.contains(&ip)) {
+                reasons.push("outside_include_cidrs");
+            }
+            if excludes.iter().any(|network| network.contains(&ip)) {
+                reasons.push("excluded_cidr");
+            }
+            if family == "ipv6"
+                && let Some(expected) = selector.ipv6_interface_id.as_deref()
+                && ip
+                    .to_string()
+                    .parse::<Ipv6Addr>()
+                    .is_ok_and(|address| ipv6_interface_id(address) != expected)
+            {
+                reasons.push("interface_id_mismatch");
+            }
+        }
+
+        if reasons.is_empty() {
+            eligible.push(item);
+        } else {
+            rejected.push(json!({
+                "address": item.get("address").cloned().unwrap_or(Value::Null),
+                "reasons": reasons
+            }));
+        }
+    }
+
+    eligible.sort_by(compare_interface_candidates);
+    let current = canonical_candidate_address(current_address, family);
+    let preferred = selector.preferred_address.as_deref();
+    let (selected, reason) = if let Some(value) = find_candidate(&eligible, preferred) {
+        (Some(value), "preferred")
+    } else if let Some(value) = find_candidate(&eligible, current.as_deref()) {
+        (Some(value), "current")
+    } else if let Some(value) = eligible
+        .first()
+        .and_then(candidate_address)
+        .map(str::to_string)
+    {
+        (Some(value), "ranked")
+    } else {
+        (None, "no_match")
+    };
+
+    InterfaceSelection {
+        selected,
+        eligible,
+        rejected,
+        reason,
+    }
+}
+
+pub(super) fn interface_candidate_addresses(
+    network: &Value,
+    allow_private_addresses: bool,
+) -> Vec<Value> {
+    let mut candidates = network
+        .get("selectableAddresses")
+        .and_then(Value::as_array)
+        .cloned()
+        .unwrap_or_default();
+    if allow_private_addresses {
+        for candidate in network
+            .get("privateAddresses")
+            .and_then(Value::as_array)
+            .cloned()
+            .unwrap_or_default()
+        {
+            let family = candidate.get("family").and_then(Value::as_str);
+            let address = candidate.get("address").and_then(Value::as_str);
+            if !candidates.iter().any(|existing| {
+                existing.get("family").and_then(Value::as_str) == family
+                    && existing.get("address").and_then(Value::as_str) == address
+            }) {
+                candidates.push(candidate);
+            }
+        }
+    }
+    candidates
+}
+
+fn parse_normalized_cidrs(values: &[String]) -> Vec<IpNet> {
+    values
+        .iter()
+        .filter_map(|value| value.parse().ok())
+        .collect()
+}
+
+fn canonical_candidate_address(value: Option<&str>, family: &str) -> Option<String> {
+    let ip = value?.trim().parse::<IpAddr>().ok()?;
+    ((family == "ipv4" && ip.is_ipv4()) || (family == "ipv6" && ip.is_ipv6()))
+        .then(|| ip.to_string())
+}
+
+fn find_candidate(candidates: &[Value], expected: Option<&str>) -> Option<String> {
+    let expected = expected?;
+    candidates
+        .iter()
+        .filter_map(candidate_address)
+        .find(|value| *value == expected)
+        .map(str::to_string)
+}
+
+fn candidate_address(value: &Value) -> Option<&str> {
+    value.get("address").and_then(Value::as_str)
+}
+
+pub(super) fn stabilize_preferred_recovery(
+    selection: &InterfaceSelection,
+    selector: &InterfaceAddressSelector,
+    current_address: Option<&str>,
+    previous_state: Option<&PreferredRecoveryState>,
+    required_confirmations: u8,
+) -> PreferredRecoveryDecision {
+    let selected = selection.selected.clone();
+    let Some(preferred) = selector
+        .preferred_address
+        .as_deref()
+        .and_then(canonical_ip_address)
+    else {
+        return PreferredRecoveryDecision {
+            selected,
+            state: None,
+            deferred: false,
+        };
+    };
+    let Some(current) = current_address.and_then(canonical_ip_address) else {
+        return PreferredRecoveryDecision {
+            selected,
+            state: None,
+            deferred: false,
+        };
+    };
+    let should_confirm_recovery = preferred != current
+        && selected.as_deref() == Some(preferred.as_str())
+        && find_candidate(&selection.eligible, Some(current.as_str())).is_some();
+
+    if !should_confirm_recovery {
+        return PreferredRecoveryDecision {
+            selected,
+            state: None,
+            deferred: false,
+        };
+    }
+
+    let confirmations = previous_state
+        .filter(|state| state.address == preferred)
+        .map(|state| state.confirmations)
+        .unwrap_or(0)
+        .saturating_add(1);
+    let state = PreferredRecoveryState {
+        address: preferred,
+        confirmations,
+    };
+    let deferred = confirmations < required_confirmations.max(1);
+
+    PreferredRecoveryDecision {
+        selected: if deferred {
+            Some(current)
+        } else {
+            selection.selected.clone()
+        },
+        state: Some(state),
+        deferred,
+    }
+}
+
+fn canonical_ip_address(value: &str) -> Option<String> {
+    value.trim().parse::<IpAddr>().ok().map(|ip| ip.to_string())
+}
+
+fn compare_interface_candidates(left: &Value, right: &Value) -> Ordering {
+    candidate_scope_rank(left)
+        .cmp(&candidate_scope_rank(right))
+        .then_with(|| candidate_stability_rank(left).cmp(&candidate_stability_rank(right)))
+        .then_with(|| {
+            let left = candidate_address(left).and_then(|value| value.parse::<IpAddr>().ok());
+            let right = candidate_address(right).and_then(|value| value.parse::<IpAddr>().ok());
+            left.cmp(&right)
+        })
+}
+
+fn candidate_scope_rank(value: &Value) -> u8 {
+    if is_private_interface_address(value) {
+        1
+    } else {
+        0
+    }
+}
+
+fn candidate_stability_rank(value: &Value) -> u8 {
+    match value.get("temporary").and_then(Value::as_bool) {
+        Some(false) => 0,
+        None => 1,
+        Some(true) => 2,
+    }
+}
+
+pub(super) fn legacy_select_interface_address(
+    candidates: &[Value],
+    family: &str,
+    index: Option<&str>,
+    current_address: Option<&str>,
+) -> Option<(String, &'static str)> {
+    let family_candidates = candidates
+        .iter()
+        .filter(|item| item.get("family").and_then(Value::as_str) == Some(family))
+        .collect::<Vec<_>>();
+    let usable = family_candidates
+        .iter()
+        .copied()
+        .filter(|item| legacy_candidate_is_usable(item))
+        .cloned()
+        .collect::<Vec<_>>();
+    let current = canonical_candidate_address(current_address, family);
+    if let Some(value) = find_candidate(&usable, current.as_deref()) {
+        return Some((value, "legacy_current"));
+    }
+    if family == "ipv6"
+        && let Some(current) = current
+        && let Ok(current) = current.parse::<Ipv6Addr>()
+    {
+        let expected = ipv6_interface_id(current);
+        let mut matches = usable
+            .iter()
+            .filter_map(candidate_address)
+            .filter_map(|value| value.parse::<Ipv6Addr>().ok())
+            .filter(|value| ipv6_interface_id(*value) == expected)
+            .collect::<Vec<_>>();
+        matches.sort();
+        if let Some(value) = matches.first() {
+            return Some((value.to_string(), "legacy_interface_id"));
+        }
+    }
+    let index = index?.trim().parse::<usize>().ok()?;
+    family_candidates
+        .get(index)
+        .copied()
+        .filter(|item| legacy_candidate_is_usable(item))
+        .and_then(candidate_address)
+        .map(|value| (value.to_string(), "legacy_index"))
+}
+
+fn legacy_candidate_is_usable(item: &Value) -> bool {
+    item.get("tentative").and_then(Value::as_bool) != Some(true)
+        && item.get("dadFailed").and_then(Value::as_bool) != Some(true)
+        && item.get("deprecated").and_then(Value::as_bool) != Some(true)
+}

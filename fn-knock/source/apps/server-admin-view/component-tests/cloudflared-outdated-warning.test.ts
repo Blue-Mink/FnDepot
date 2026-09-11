@@ -1,1 +1,139 @@
-aW1wb3J0IHsgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBkZWZpbmVDb21wb25lbnQsIGggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyBiZWZvcmVFYWNoLCBkZXNjcmliZSwgZXhwZWN0LCBpdCwgdmkgfSBmcm9tICJ2aXRlc3QiOwoKY29uc3QgcnVudGltZSA9IHZpLmhvaXN0ZWQoKCkgPT4gKHsKICBpbnN0YWxsYXRpb25TdGF0dXM6ICJvdXRkYXRlZCIgYXMgIm1pc3NpbmciIHwgIm91dGRhdGVkIiB8ICJjdXJyZW50IiwKICBydW5uaW5nOiB0cnVlLAogIGdvdG9SZXNvdXJjZXM6IHZpLmZuKCksCn0pKTsKCnZpLm1vY2soIi4uL3NyYy92aWV3cy90dW5uZWwvY2xvdWRmbGFyZS91c2VDbG91ZGZsYXJlVHVubmVsQ29udHJvbGxlciIsICgpID0+ICh7CiAgdXNlQ2xvdWRmbGFyZVR1bm5lbENvbnRyb2xsZXI6ICgpID0+ICh7CiAgICBjYW5TdGFydDogZmFsc2UsCiAgICBjYW5TdG9wOiB0cnVlLAogICAgY2xvdWRmbGFyZWRJbnN0YWxsYXRpb25TdGF0dXM6IHJ1bnRpbWUuaW5zdGFsbGF0aW9uU3RhdHVzLAogICAgY2xvdWRmbGFyZWRMb2dBbmFseXNpczogbnVsbCwKICAgIGNsb3VkZmxhcmVkTG9nQW5hbHlzaXNNZXNzYWdlOiAiIiwKICAgIGNsb3VkZmxhcmVkVGFyZ2V0VmVyc2lvbjogIjIwMjYuNy4zIiwKICAgIGNvbmZpZ0xvYWRlZDogdHJ1ZSwKICAgIGdvdG9SZXNvdXJjZXM6IHJ1bnRpbWUuZ290b1Jlc291cmNlcywKICAgIGhhc1N1YmRvbWFpblJvb3Q6IHRydWUsCiAgICBpc0NsZWFyaW5nTG9nczogZmFsc2UsCiAgICBpc1JldmVyc2VQcm94eVN1YmRvbWFpbk1vZGU6IHRydWUsCiAgICBpc1N0YXJ0aW5nOiBmYWxzZSwKICAgIGlzU3RvcHBpbmc6IGZhbHNlLAogICAgbG9nczogW10sCiAgICBvbkNsZWFyTG9nc0NsaWNrOiB2aS5mbigpLAogICAgcGlkOiBydW50aW1lLnJ1bm5pbmcgPyA0MiA6IG51bGwsCiAgICBydW5uaW5nOiBydW50aW1lLnJ1bm5pbmcsCiAgICBzaG93SW5pdERpYWxvZzogcnVudGltZS5pbnN0YWxsYXRpb25TdGF0dXMgPT09ICJtaXNzaW5nIiwKICAgIHN0YXJ0Q2xvdWRmbGFyZWQ6IHZpLmZuKCksCiAgICBzdG9wQ2xvdWRmbGFyZWQ6IHZpLmZuKCksCiAgICBzdXBlcnZpc29yOiB7CiAgICAgIGRlc2lyZWRSdW5uaW5nOiBydW50aW1lLnJ1bm5pbmcsCiAgICAgIHJ1bm5pbmc6IHJ1bnRpbWUucnVubmluZywKICAgIH0sCiAgICB0OiAoa2V5OiBzdHJpbmcsIHBhcmFtcz86IFJlY29yZDxzdHJpbmcsIHN0cmluZz4pID0+CiAgICAgIHBhcmFtcz8udmVyc2lvbiA/IGAke2tleX06JHtwYXJhbXMudmVyc2lvbn1gIDoga2V5LAogIH0pLAp9KSk7CgppbXBvcnQgQ2xvdWRmbGFyZVR1bm5lbCBmcm9tICIuLi9zcmMvdmlld3MvdHVubmVsL0Nsb3VkZmxhcmVUdW5uZWwudnVlIjsKCmNvbnN0IHBhc3N0aHJvdWdoID0gZGVmaW5lQ29tcG9uZW50KHsKICBzZXR1cChfLCB7IGF0dHJzLCBzbG90cyB9KSB7CiAgICByZXR1cm4gKCkgPT4gaCgiZGl2IiwgYXR0cnMsIHNsb3RzLmRlZmF1bHQ/LigpKTsKICB9LAp9KTsKCmNvbnN0IGJ1dHRvbiA9IGRlZmluZUNvbXBvbmVudCh7CiAgaW5oZXJpdEF0dHJzOiBmYWxzZSwKICBzZXR1cChfLCB7IGF0dHJzLCBzbG90cyB9KSB7CiAgICByZXR1cm4gKCkgPT4gaCgiYnV0dG9uIiwgYXR0cnMsIHNsb3RzLmRlZmF1bHQ/LigpKTsKICB9LAp9KTsKCmNvbnN0IGRpYWxvZyA9IGRlZmluZUNvbXBvbmVudCh7CiAgcHJvcHM6IHsgb3BlbjogQm9vbGVhbiB9LAogIHNldHVwKHByb3BzLCB7IHNsb3RzIH0pIHsKICAgIHJldHVybiAoKSA9PiAocHJvcHMub3BlbiA/IGgoImRpdiIsIHNsb3RzLmRlZmF1bHQ/LigpKSA6IG51bGwpOwogIH0sCn0pOwoKY29uc3QgbW91bnRQYWdlID0gKCkgPT4KICBtb3VudChDbG91ZGZsYXJlVHVubmVsLCB7CiAgICBnbG9iYWw6IHsKICAgICAgc3R1YnM6IHsKICAgICAgICBBbGVydDogcGFzc3Rocm91Z2gsCiAgICAgICAgQWxlcnREZXNjcmlwdGlvbjogcGFzc3Rocm91Z2gsCiAgICAgICAgQWxlcnRUaXRsZTogcGFzc3Rocm91Z2gsCiAgICAgICAgQnV0dG9uOiBidXR0b24sCiAgICAgICAgQ2xvdWRmbGFyZUFwaUNvbm5lY3Rpb25DYXJkOiB0cnVlLAogICAgICAgIENsb3VkZmxhcmVNYW5hZ2VkVHVubmVsQ2FyZDogdHJ1ZSwKICAgICAgICBDbG91ZGZsYXJlTWFudWFsQ29uZmlnQ2FyZDogdHJ1ZSwKICAgICAgICBDbG91ZGZsYXJlT3B0aW1pemF0aW9uQ2FyZDogdHJ1ZSwKICAgICAgICBDb25maWdDb2xsYXBzaWJsZUNhcmQ6IHRydWUsCiAgICAgICAgRGlhbG9nOiBkaWFsb2csCiAgICAgICAgRGlhbG9nQ29udGVudDogcGFzc3Rocm91Z2gsCiAgICAgICAgRGlhbG9nRm9vdGVyOiBwYXNzdGhyb3VnaCwKICAgICAgICBEaWFsb2dIZWFkZXI6IHBhc3N0aHJvdWdoLAogICAgICAgIERpYWxvZ1RpdGxlOiBwYXNzdGhyb3VnaCwKICAgICAgICBMb2FkZXJDaXJjbGU6IHRydWUsCiAgICAgICAgVHJpYW5nbGVBbGVydDogdHJ1ZSwKICAgICAgfSwKICAgIH0sCiAgfSk7CgpkZXNjcmliZSgiQ2xvdWRmbGFyZSB0dW5uZWwgb3V0ZGF0ZWQgQ2xvdWRmbGFyZWQgd2FybmluZyIsICgpID0+IHsKICBiZWZvcmVFYWNoKCgpID0+IHsKICAgIHJ1bnRpbWUuaW5zdGFsbGF0aW9uU3RhdHVzID0gIm91dGRhdGVkIjsKICAgIHJ1bnRpbWUucnVubmluZyA9IHRydWU7CiAgICB2aS5jbGVhckFsbE1vY2tzKCk7CiAgfSk7CgogIGl0KCJrZWVwcyBhIHJ1bm5pbmcgb2xkIHByb2Nlc3MgYXZhaWxhYmxlIHdoaWxlIGRpcmVjdGluZyB0aGUgdXNlciB0byB1cGRhdGUiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnRQYWdlKCk7CiAgICBjb25zdCB3YXJuaW5nID0gd3JhcHBlci5nZXQoJ1tkYXRhLXRlc3RpZD0iY2xvdWRmbGFyZWQtb3V0ZGF0ZWQtd2FybmluZyJdJyk7CgogICAgZXhwZWN0KHdhcm5pbmcudGV4dCgpKS50b0NvbnRhaW4oCiAgICAgICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm91dGRhdGVkUnVubmluZ1RpdGxlIiwKICAgICk7CiAgICBleHBlY3Qod2FybmluZy50ZXh0KCkpLnRvQ29udGFpbigiMjAyNi43LjMiKTsKICAgIGNvbnN0IHN0b3AgPSB3cmFwcGVyCiAgICAgIC5maW5kQWxsKCJidXR0b24iKQogICAgICAuZmluZCgoY2FuZGlkYXRlKSA9PiBjYW5kaWRhdGUudGV4dCgpID09PSAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5zdG9wIik7CiAgICBleHBlY3Qoc3RvcCkudG9CZURlZmluZWQoKTsKICAgIGV4cGVjdChzdG9wPy5hdHRyaWJ1dGVzKCJkaXNhYmxlZCIpKS50b0JlVW5kZWZpbmVkKCk7CiAgICBhd2FpdCB3YXJuaW5nLmdldCgiYnV0dG9uIikudHJpZ2dlcigiY2xpY2siKTsKICAgIGV4cGVjdChydW50aW1lLmdvdG9SZXNvdXJjZXMpLnRvSGF2ZUJlZW5DYWxsZWRUaW1lcygxKTsKICB9KTsKCiAgaXQoImV4cGxhaW5zIHRoYXQgYSBzdG9wcGVkIG9sZCBwcm9jZXNzIGNhbm5vdCBiZSByZXN0YXJ0ZWQiLCAoKSA9PiB7CiAgICBydW50aW1lLnJ1bm5pbmcgPSBmYWxzZTsKICAgIGNvbnN0IHdhcm5pbmcgPSBtb3VudFBhZ2UoKS5nZXQoCiAgICAgICdbZGF0YS10ZXN0aWQ9ImNsb3VkZmxhcmVkLW91dGRhdGVkLXdhcm5pbmciXScsCiAgICApOwoKICAgIGV4cGVjdCh3YXJuaW5nLnRleHQoKSkudG9Db250YWluKAogICAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vdXRkYXRlZFN0b3BwZWRUaXRsZSIsCiAgICApOwogICAgY29uc3Qgc3RhcnQgPSB3YXJuaW5nLmVsZW1lbnQKICAgICAgLmNsb3Nlc3QoIi5zcGFjZS15LTYiKQogICAgICA/LnF1ZXJ5U2VsZWN0b3I8SFRNTEJ1dHRvbkVsZW1lbnQ+KCJidXR0b24iKTsKICAgIGV4cGVjdChzdGFydD8udGV4dENvbnRlbnQpLnRvQ29udGFpbigiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5zdGFydCIpOwogICAgZXhwZWN0KHN0YXJ0Py5kaXNhYmxlZCkudG9CZSh0cnVlKTsKICB9KTsKCiAgaXQoImtlZXBzIHRoZSBpbml0aWFsaXphdGlvbiBkaWFsb2cgZm9yIGEgbWlzc2luZyBpbnN0YWxsYXRpb24iLCAoKSA9PiB7CiAgICBydW50aW1lLmluc3RhbGxhdGlvblN0YXR1cyA9ICJtaXNzaW5nIjsKICAgIGNvbnN0IHdyYXBwZXIgPSBtb3VudFBhZ2UoKTsKCiAgICBleHBlY3QoCiAgICAgIHdyYXBwZXIuZmluZCgnW2RhdGEtdGVzdGlkPSJjbG91ZGZsYXJlZC1vdXRkYXRlZC13YXJuaW5nIl0nKS5leGlzdHMoKSwKICAgICkudG9CZShmYWxzZSk7CiAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLnRvQ29udGFpbigKICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwubm90SW5pdGlhbGl6ZWRUaXRsZSIsCiAgICApOwogIH0pOwp9KTsK
+import { mount } from "@vue/test-utils";
+import { defineComponent, h } from "vue";
+import { beforeEach, describe, expect, it, vi } from "vitest";
+
+const runtime = vi.hoisted(() => ({
+  installationStatus: "outdated" as "missing" | "outdated" | "current",
+  running: true,
+  gotoResources: vi.fn(),
+}));
+
+vi.mock("../src/views/tunnel/cloudflare/useCloudflareTunnelController", () => ({
+  useCloudflareTunnelController: () => ({
+    canStart: false,
+    canStop: true,
+    cloudflaredInstallationStatus: runtime.installationStatus,
+    cloudflaredLogAnalysis: null,
+    cloudflaredLogAnalysisMessage: "",
+    cloudflaredTargetVersion: "2026.7.3",
+    configLoaded: true,
+    gotoResources: runtime.gotoResources,
+    hasSubdomainRoot: true,
+    isClearingLogs: false,
+    isReverseProxySubdomainMode: true,
+    isStarting: false,
+    isStopping: false,
+    logs: [],
+    onClearLogsClick: vi.fn(),
+    pid: runtime.running ? 42 : null,
+    running: runtime.running,
+    showInitDialog: runtime.installationStatus === "missing",
+    startCloudflared: vi.fn(),
+    stopCloudflared: vi.fn(),
+    supervisor: {
+      desiredRunning: runtime.running,
+      running: runtime.running,
+    },
+    t: (key: string, params?: Record<string, string>) =>
+      params?.version ? `${key}:${params.version}` : key,
+  }),
+}));
+
+import CloudflareTunnel from "../src/views/tunnel/CloudflareTunnel.vue";
+
+const passthrough = defineComponent({
+  setup(_, { attrs, slots }) {
+    return () => h("div", attrs, slots.default?.());
+  },
+});
+
+const button = defineComponent({
+  inheritAttrs: false,
+  setup(_, { attrs, slots }) {
+    return () => h("button", attrs, slots.default?.());
+  },
+});
+
+const dialog = defineComponent({
+  props: { open: Boolean },
+  setup(props, { slots }) {
+    return () => (props.open ? h("div", slots.default?.()) : null);
+  },
+});
+
+const mountPage = () =>
+  mount(CloudflareTunnel, {
+    global: {
+      stubs: {
+        Alert: passthrough,
+        AlertDescription: passthrough,
+        AlertTitle: passthrough,
+        Button: button,
+        CloudflareApiConnectionCard: true,
+        CloudflareManagedTunnelCard: true,
+        CloudflareManualConfigCard: true,
+        CloudflareOptimizationCard: true,
+        ConfigCollapsibleCard: true,
+        Dialog: dialog,
+        DialogContent: passthrough,
+        DialogFooter: passthrough,
+        DialogHeader: passthrough,
+        DialogTitle: passthrough,
+        LoaderCircle: true,
+        TriangleAlert: true,
+      },
+    },
+  });
+
+describe("Cloudflare tunnel outdated Cloudflared warning", () => {
+  beforeEach(() => {
+    runtime.installationStatus = "outdated";
+    runtime.running = true;
+    vi.clearAllMocks();
+  });
+
+  it("keeps a running old process available while directing the user to update", async () => {
+    const wrapper = mountPage();
+    const warning = wrapper.get('[data-testid="cloudflared-outdated-warning"]');
+
+    expect(warning.text()).toContain(
+      "admin.cloudflareTunnel.outdatedRunningTitle",
+    );
+    expect(warning.text()).toContain("2026.7.3");
+    const stop = wrapper
+      .findAll("button")
+      .find((candidate) => candidate.text() === "admin.cloudflareTunnel.stop");
+    expect(stop).toBeDefined();
+    expect(stop?.attributes("disabled")).toBeUndefined();
+    await warning.get("button").trigger("click");
+    expect(runtime.gotoResources).toHaveBeenCalledTimes(1);
+  });
+
+  it("explains that a stopped old process cannot be restarted", () => {
+    runtime.running = false;
+    const warning = mountPage().get(
+      '[data-testid="cloudflared-outdated-warning"]',
+    );
+
+    expect(warning.text()).toContain(
+      "admin.cloudflareTunnel.outdatedStoppedTitle",
+    );
+    const start = warning.element
+      .closest(".space-y-6")
+      ?.querySelector<HTMLButtonElement>("button");
+    expect(start?.textContent).toContain("admin.cloudflareTunnel.start");
+    expect(start?.disabled).toBe(true);
+  });
+
+  it("keeps the initialization dialog for a missing installation", () => {
+    runtime.installationStatus = "missing";
+    const wrapper = mountPage();
+
+    expect(
+      wrapper.find('[data-testid="cloudflared-outdated-warning"]').exists(),
+    ).toBe(false);
+    expect(wrapper.text()).toContain(
+      "admin.cloudflareTunnel.notInitializedTitle",
+    );
+  });
+});

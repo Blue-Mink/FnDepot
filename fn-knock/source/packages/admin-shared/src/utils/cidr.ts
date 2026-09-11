@@ -1,1 +1,118 @@
-Y29uc3QgSVBWNF9TRUdNRU5UX1JFID0gL14oMjVbMC01XXwyWzAtNF1cZHwxXGRcZHxbMS05XT9cZCkkLzsKY29uc3QgSVBWNl9TRUdNRU5UX1JFID0gL15bMC05YS1mXXsxLDR9JC9pOwoKZXhwb3J0IGNvbnN0IGlzVmFsaWRJUHY0QWRkcmVzcyA9ICh2YWx1ZTogc3RyaW5nKTogYm9vbGVhbiA9PiB7CiAgY29uc3QgcGFydHMgPSB2YWx1ZS5zcGxpdCgiLiIpOwogIGlmIChwYXJ0cy5sZW5ndGggIT09IDQpIHJldHVybiBmYWxzZTsKICByZXR1cm4gcGFydHMuZXZlcnkoKHBhcnQpID0+IElQVjRfU0VHTUVOVF9SRS50ZXN0KHBhcnQpKTsKfTsKCmV4cG9ydCBjb25zdCBpc1ZhbGlkSVB2NkFkZHJlc3MgPSAodmFsdWU6IHN0cmluZyk6IGJvb2xlYW4gPT4gewogIGNvbnN0IG5vcm1hbGl6ZWQgPSB2YWx1ZS50cmltKCk7CiAgaWYgKCFub3JtYWxpemVkIHx8IG5vcm1hbGl6ZWQuaW5jbHVkZXMoIiUiKSkgewogICAgcmV0dXJuIGZhbHNlOwogIH0KCiAgbGV0IHdvcmtpbmcgPSBub3JtYWxpemVkOwogIGxldCBlbWJlZGRlZElQdjRIZXh0ZXRzID0gMDsKCiAgaWYgKHdvcmtpbmcuaW5jbHVkZXMoIi4iKSkgewogICAgY29uc3QgbGFzdENvbG9uID0gd29ya2luZy5sYXN0SW5kZXhPZigiOiIpOwogICAgaWYgKGxhc3RDb2xvbiA8IDApIHJldHVybiBmYWxzZTsKICAgIGNvbnN0IGlwdjRQYXJ0ID0gd29ya2luZy5zbGljZShsYXN0Q29sb24gKyAxKTsKICAgIGlmICghaXNWYWxpZElQdjRBZGRyZXNzKGlwdjRQYXJ0KSkgcmV0dXJuIGZhbHNlOwogICAgd29ya2luZyA9IHdvcmtpbmcuc2xpY2UoMCwgbGFzdENvbG9uKTsKICAgIGVtYmVkZGVkSVB2NEhleHRldHMgPSAyOwogIH0KCiAgY29uc3Qgc2VjdGlvbnMgPSB3b3JraW5nLnNwbGl0KCI6OiIpOwogIGlmIChzZWN0aW9ucy5sZW5ndGggPiAyKSB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQoKICBjb25zdCBwYXJzZVNpZGUgPSAoaW5wdXQ6IHN0cmluZyk6IHN0cmluZ1tdIHwgbnVsbCA9PiB7CiAgICBpZiAoIWlucHV0KSByZXR1cm4gW107CiAgICBjb25zdCBwYXJ0cyA9IGlucHV0LnNwbGl0KCI6Iik7CiAgICBpZiAocGFydHMuc29tZSgocGFydCkgPT4gIXBhcnQgfHwgIUlQVjZfU0VHTUVOVF9SRS50ZXN0KHBhcnQpKSkgewogICAgICByZXR1cm4gbnVsbDsKICAgIH0KICAgIHJldHVybiBwYXJ0czsKICB9OwoKICBjb25zdCBsZWZ0UGFydHMgPSBwYXJzZVNpZGUoc2VjdGlvbnNbMF0gPz8gIiIpOwogIGlmIChsZWZ0UGFydHMgPT0gbnVsbCkgcmV0dXJuIGZhbHNlOwoKICBjb25zdCByaWdodFBhcnRzID0gcGFyc2VTaWRlKHNlY3Rpb25zWzFdID8/ICIiKTsKICBpZiAocmlnaHRQYXJ0cyA9PSBudWxsKSByZXR1cm4gZmFsc2U7CgogIGNvbnN0IHRvdGFsSGV4dGV0cyA9CiAgICBsZWZ0UGFydHMubGVuZ3RoICsgcmlnaHRQYXJ0cy5sZW5ndGggKyBlbWJlZGRlZElQdjRIZXh0ZXRzOwoKICBpZiAoc2VjdGlvbnMubGVuZ3RoID09PSAxKSB7CiAgICByZXR1cm4gdG90YWxIZXh0ZXRzID09PSA4OwogIH0KCiAgcmV0dXJuIHRvdGFsSGV4dGV0cyA8IDg7Cn07CgpleHBvcnQgY29uc3QgaXNWYWxpZENJRFIgPSAodmFsdWU6IHN0cmluZyk6IGJvb2xlYW4gPT4gewogIGNvbnN0IG5vcm1hbGl6ZWQgPSB2YWx1ZS50cmltKCk7CiAgY29uc3Qgc2xhc2hJbmRleCA9IG5vcm1hbGl6ZWQuaW5kZXhPZigiLyIpOwogIGlmIChzbGFzaEluZGV4IDw9IDAgfHwgc2xhc2hJbmRleCAhPT0gbm9ybWFsaXplZC5sYXN0SW5kZXhPZigiLyIpKSB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQoKICBjb25zdCBhZGRyZXNzID0gbm9ybWFsaXplZC5zbGljZSgwLCBzbGFzaEluZGV4KS50cmltKCk7CiAgY29uc3QgcHJlZml4UmF3ID0gbm9ybWFsaXplZC5zbGljZShzbGFzaEluZGV4ICsgMSkudHJpbSgpOwogIGlmICghYWRkcmVzcyB8fCAhL15cZCskLy50ZXN0KHByZWZpeFJhdykpIHsKICAgIHJldHVybiBmYWxzZTsKICB9CgogIGNvbnN0IHByZWZpeCA9IE51bWJlci5wYXJzZUludChwcmVmaXhSYXcsIDEwKTsKICBpZiAoIU51bWJlci5pc0Zpbml0ZShwcmVmaXgpIHx8IHByZWZpeCA8IDApIHsKICAgIHJldHVybiBmYWxzZTsKICB9CgogIGlmIChpc1ZhbGlkSVB2NEFkZHJlc3MoYWRkcmVzcykpIHsKICAgIHJldHVybiBwcmVmaXggPD0gMzI7CiAgfQoKICBpZiAoaXNWYWxpZElQdjZBZGRyZXNzKGFkZHJlc3MpKSB7CiAgICByZXR1cm4gcHJlZml4IDw9IDEyODsKICB9CgogIHJldHVybiBmYWxzZTsKfTsKCmV4cG9ydCBjb25zdCBub3JtYWxpemVDaWRyTGluZXMgPSAodmFsdWVzOiBJdGVyYWJsZTxzdHJpbmc+KTogc3RyaW5nW10gPT4gewogIGNvbnN0IHJlc3VsdDogc3RyaW5nW10gPSBbXTsKICBjb25zdCBzZWVuID0gbmV3IFNldDxzdHJpbmc+KCk7CgogIGZvciAoY29uc3QgdmFsdWUgb2YgdmFsdWVzKSB7CiAgICBjb25zdCBub3JtYWxpemVkID0gdmFsdWUudHJpbSgpOwogICAgaWYgKCFub3JtYWxpemVkKSBjb250aW51ZTsKICAgIGNvbnN0IGtleSA9IG5vcm1hbGl6ZWQudG9Mb3dlckNhc2UoKTsKICAgIGlmIChzZWVuLmhhcyhrZXkpKSBjb250aW51ZTsKICAgIHNlZW4uYWRkKGtleSk7CiAgICByZXN1bHQucHVzaChub3JtYWxpemVkKTsKICB9CgogIHJldHVybiByZXN1bHQ7Cn07CgpleHBvcnQgY29uc3Qgc3BsaXRDaWRyVGV4dGFyZWEgPSAodmFsdWU6IHN0cmluZyk6IHN0cmluZ1tdID0+CiAgdmFsdWUKICAgIC5zcGxpdCgvXHI/XG4vdSkKICAgIC5tYXAoKGxpbmUpID0+IGxpbmUudHJpbSgpKQogICAgLmZpbHRlcihCb29sZWFuKTsKCmV4cG9ydCBjb25zdCBwYXJzZUNpZHJUZXh0YXJlYSA9ICh2YWx1ZTogc3RyaW5nKSA9PiB7CiAgY29uc3QgbGluZXMgPSBzcGxpdENpZHJUZXh0YXJlYSh2YWx1ZSk7CiAgY29uc3QgY2lkcnMgPSBub3JtYWxpemVDaWRyTGluZXMobGluZXMpOwogIGNvbnN0IGludmFsaWQgPSBjaWRycy5maWx0ZXIoKGNpZHIpID0+ICFpc1ZhbGlkQ0lEUihjaWRyKSk7CgogIHJldHVybiB7CiAgICBjaWRycywKICAgIGludmFsaWQsCiAgfTsKfTsK
+const IPV4_SEGMENT_RE = /^(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)$/;
+const IPV6_SEGMENT_RE = /^[0-9a-f]{1,4}$/i;
+
+export const isValidIPv4Address = (value: string): boolean => {
+  const parts = value.split(".");
+  if (parts.length !== 4) return false;
+  return parts.every((part) => IPV4_SEGMENT_RE.test(part));
+};
+
+export const isValidIPv6Address = (value: string): boolean => {
+  const normalized = value.trim();
+  if (!normalized || normalized.includes("%")) {
+    return false;
+  }
+
+  let working = normalized;
+  let embeddedIPv4Hextets = 0;
+
+  if (working.includes(".")) {
+    const lastColon = working.lastIndexOf(":");
+    if (lastColon < 0) return false;
+    const ipv4Part = working.slice(lastColon + 1);
+    if (!isValidIPv4Address(ipv4Part)) return false;
+    working = working.slice(0, lastColon);
+    embeddedIPv4Hextets = 2;
+  }
+
+  const sections = working.split("::");
+  if (sections.length > 2) {
+    return false;
+  }
+
+  const parseSide = (input: string): string[] | null => {
+    if (!input) return [];
+    const parts = input.split(":");
+    if (parts.some((part) => !part || !IPV6_SEGMENT_RE.test(part))) {
+      return null;
+    }
+    return parts;
+  };
+
+  const leftParts = parseSide(sections[0] ?? "");
+  if (leftParts == null) return false;
+
+  const rightParts = parseSide(sections[1] ?? "");
+  if (rightParts == null) return false;
+
+  const totalHextets =
+    leftParts.length + rightParts.length + embeddedIPv4Hextets;
+
+  if (sections.length === 1) {
+    return totalHextets === 8;
+  }
+
+  return totalHextets < 8;
+};
+
+export const isValidCIDR = (value: string): boolean => {
+  const normalized = value.trim();
+  const slashIndex = normalized.indexOf("/");
+  if (slashIndex <= 0 || slashIndex !== normalized.lastIndexOf("/")) {
+    return false;
+  }
+
+  const address = normalized.slice(0, slashIndex).trim();
+  const prefixRaw = normalized.slice(slashIndex + 1).trim();
+  if (!address || !/^\d+$/.test(prefixRaw)) {
+    return false;
+  }
+
+  const prefix = Number.parseInt(prefixRaw, 10);
+  if (!Number.isFinite(prefix) || prefix < 0) {
+    return false;
+  }
+
+  if (isValidIPv4Address(address)) {
+    return prefix <= 32;
+  }
+
+  if (isValidIPv6Address(address)) {
+    return prefix <= 128;
+  }
+
+  return false;
+};
+
+export const normalizeCidrLines = (values: Iterable<string>): string[] => {
+  const result: string[] = [];
+  const seen = new Set<string>();
+
+  for (const value of values) {
+    const normalized = value.trim();
+    if (!normalized) continue;
+    const key = normalized.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    result.push(normalized);
+  }
+
+  return result;
+};
+
+export const splitCidrTextarea = (value: string): string[] =>
+  value
+    .split(/\r?\n/u)
+    .map((line) => line.trim())
+    .filter(Boolean);
+
+export const parseCidrTextarea = (value: string) => {
+  const lines = splitCidrTextarea(value);
+  const cidrs = normalizeCidrLines(lines);
+  const invalid = cidrs.filter((cidr) => !isValidCIDR(cidr));
+
+  return {
+    cidrs,
+    invalid,
+  };
+};

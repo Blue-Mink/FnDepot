@@ -1,1 +1,73 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIHB1c2hkZWVyX2RlZmluaXRpb24oKSAtPiBQcm92aWRlckRlZmluaXRpb24gewogICAgUHJvdmlkZXJEZWZpbml0aW9uIHsKICAgICAgICBwcm92aWRlcl90eXBlOiAicHVzaGRlZXIiLAogICAgICAgIGxhYmVsOiAiUHVzaERlZXIiLAogICAgICAgIGRlc2NyaXB0aW9uOiAiU2VuZCBub3RpZmljYXRpb25zIHRocm91Z2ggUHVzaERlZXIuIiwKICAgICAgICBjb25uZWN0aW9uX3NjaGVtYTogdmVjIVsKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgKICAgICAgICAgICAgICAgICJzZXJ2ZXJfdXJsIiwKICAgICAgICAgICAgICAgICJTZXJ2ZXIgVVJMIiwKICAgICAgICAgICAgICAgIHRydWUsCiAgICAgICAgICAgICAgICBmYWxzZSwKICAgICAgICAgICAgICAgIFNvbWUoImh0dHBzOi8vYXBpMi5wdXNoZGVlci5jb20iKSwKICAgICAgICAgICAgKQogICAgICAgICAgICAucGxhY2Vob2xkZXIoImh0dHBzOi8vYXBpMi5wdXNoZGVlci5jb20iKSwKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgicHVzaGtleSIsICJQdXNoS2V5IiwgdHJ1ZSwgdHJ1ZSwgTm9uZSkucGxhY2Vob2xkZXIoIlBEVXh4eHgsUERVeXl5eSIpLAogICAgICAgICAgICBudW1iZXJfc2NoZW1hKCJ0aW1lb3V0X3NlY29uZHMiLCAiVGltZW91dCBzZWNvbmRzIiwgdHJ1ZSwgU29tZSg1KSkuYm91bmRzKDEsIDMwKSwKICAgICAgICBdLAogICAgICAgIHRhcmdldF9zY2hlbWE6IFZlYzo6bmV3KCksCiAgICAgICAgc2Vuc2l0aXZlX2ZpZWxkczogdmVjIVsicHVzaGtleSJdLAogICAgICAgIHN1cHBvcnRzX21hcmtkb3duOiB0cnVlLAogICAgICAgIHN1cHBvcnRzX2FjdGlvbnM6IHRydWUsCiAgICAgICAgc3VwcG9ydHNfbWVudGlvbnM6IGZhbHNlLAogICAgICAgIHN1cHBvcnRzX3Byb3ZpZGVyX2RlZHVwZV9rZXk6IGZhbHNlLAogICAgfQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgYXN5bmMgZm4gc2VuZF9wdXNoZGVlcigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBwcm92aWRlcjogJlZhbHVlLAogICAgbWVzc2FnZTogJlZhbHVlLAogICAgdGltZW91dF9zZWNvbmRzOiBpNjQsCikgLT4gUHJvdmlkZXJUZXN0UmVzdWx0IHsKICAgIGxldCBjb25maWcgPSBwcm92aWRlcl9jb25maWcocHJvdmlkZXIpOwogICAgbGV0IHB1c2hrZXkgPSBjb25maWdfdGV4dCgmY29uZmlnLCAicHVzaGtleSIpOwogICAgaWYgcHVzaGtleS5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gbWlzc2luZ19jb25maWdfcmVzdWx0KCZub3RpZmljYXRpb25fcHJvdmlkZXJfZXJyb3JfZGVmYXVsdCgKICAgICAgICAgICAgInB1c2hkZWVyIiwKICAgICAgICAgICAgIm1pc3NpbmdQdXNoS2V5IiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpOwogICAgfQogICAgbGV0IGJhc2VfdXJsID0gZGVmYXVsdF9zdHJpbmcoCiAgICAgICAgY29uZmlnX3RleHQoJmNvbmZpZywgInNlcnZlcl91cmwiKSwKICAgICAgICAiaHR0cHM6Ly9hcGkyLnB1c2hkZWVyLmNvbSIsCiAgICApOwogICAgbGV0IHVybCA9IGZvcm1hdCEoInt9L21lc3NhZ2UvcHVzaCIsIGJhc2VfdXJsLnRyaW1fZW5kX21hdGNoZXMoJy8nKSk7CiAgICBsZXQgZm9ybSA9IHZlYyFbCiAgICAgICAgKCJwdXNoa2V5Ii50b19zdHJpbmcoKSwgcHVzaGtleS5jbG9uZSgpKSwKICAgICAgICAoInRleHQiLnRvX3N0cmluZygpLCBtZXNzYWdlX3RpdGxlKG1lc3NhZ2UpKSwKICAgICAgICAoImRlc3AiLnRvX3N0cmluZygpLCBidWlsZF9tYXJrZG93bl9ib2R5KG1lc3NhZ2UsICIiKSksCiAgICAgICAgKCJ0eXBlIi50b19zdHJpbmcoKSwgIm1hcmtkb3duIi50b19zdHJpbmcoKSksCiAgICBdOwogICAgbGV0IHJlcXVlc3Rfc3VtbWFyeSA9IGpzb24hKHsKICAgICAgICAibWV0aG9kIjogIlBPU1QiLAogICAgICAgICJ1cmwiOiB1cmwsCiAgICAgICAgInB1c2hrZXlfY291bnQiOiBzcGxpdF92YWx1ZXMoU29tZSgmVmFsdWU6OlN0cmluZyhwdXNoa2V5KSkpLmxlbigpLAogICAgICAgICJ0eXBlIjogIm1hcmtkb3duIiwKICAgICAgICAidGl0bGVfcHJldmlldyI6IG1lc3NhZ2VfdGl0bGUobWVzc2FnZSkKICAgIH0pOwogICAgbGV0IChzdGF0dXMsIG9rLCB0ZXh0LCBwYXJzZWQpID0gcG9zdF9mb3JtKHN0YXRlLCAmdXJsLCAmZm9ybSwgdGltZW91dF9zZWNvbmRzKS5hd2FpdDsKICAgIHByb3ZpZGVyX3Jlc3VsdF9mcm9tX2FwaSgKICAgICAgICAiUHVzaERlZXIiLAogICAgICAgIHJlcXVlc3Rfc3VtbWFyeSwKICAgICAgICBzdGF0dXMsCiAgICAgICAgb2ssCiAgICAgICAgdGV4dCwKICAgICAgICBwYXJzZWQsCiAgICAgICAgfHZhbHVlfCBqc29uX2k2NCh2YWx1ZSwgImNvZGUiKS51bndyYXBfb3IoMCkgPT0gMCwKICAgICAgICB8dmFsdWV8IGpzb25fdGV4dF9hbnkodmFsdWUsICZbImVycm9yIiwgIm1lc3NhZ2UiLCAibXNnIl0pLAogICAgKQp9Cg==
+use super::*;
+
+pub(in crate::notifications::routes) fn pushdeer_definition() -> ProviderDefinition {
+    ProviderDefinition {
+        provider_type: "pushdeer",
+        label: "PushDeer",
+        description: "Send notifications through PushDeer.",
+        connection_schema: vec![
+            string_schema(
+                "server_url",
+                "Server URL",
+                true,
+                false,
+                Some("https://api2.pushdeer.com"),
+            )
+            .placeholder("https://api2.pushdeer.com"),
+            string_schema("pushkey", "PushKey", true, true, None).placeholder("PDUxxxx,PDUyyyy"),
+            number_schema("timeout_seconds", "Timeout seconds", true, Some(5)).bounds(1, 30),
+        ],
+        target_schema: Vec::new(),
+        sensitive_fields: vec!["pushkey"],
+        supports_markdown: true,
+        supports_actions: true,
+        supports_mentions: false,
+        supports_provider_dedupe_key: false,
+    }
+}
+
+pub(in crate::notifications::routes) async fn send_pushdeer(
+    state: &AppState,
+    provider: &Value,
+    message: &Value,
+    timeout_seconds: i64,
+) -> ProviderTestResult {
+    let config = provider_config(provider);
+    let pushkey = config_text(&config, "pushkey");
+    if pushkey.is_empty() {
+        return missing_config_result(&notification_provider_error_default(
+            "pushdeer",
+            "missingPushKey",
+            &[],
+        ));
+    }
+    let base_url = default_string(
+        config_text(&config, "server_url"),
+        "https://api2.pushdeer.com",
+    );
+    let url = format!("{}/message/push", base_url.trim_end_matches('/'));
+    let form = vec![
+        ("pushkey".to_string(), pushkey.clone()),
+        ("text".to_string(), message_title(message)),
+        ("desp".to_string(), build_markdown_body(message, "")),
+        ("type".to_string(), "markdown".to_string()),
+    ];
+    let request_summary = json!({
+        "method": "POST",
+        "url": url,
+        "pushkey_count": split_values(Some(&Value::String(pushkey))).len(),
+        "type": "markdown",
+        "title_preview": message_title(message)
+    });
+    let (status, ok, text, parsed) = post_form(state, &url, &form, timeout_seconds).await;
+    provider_result_from_api(
+        "PushDeer",
+        request_summary,
+        status,
+        ok,
+        text,
+        parsed,
+        |value| json_i64(value, "code").unwrap_or(0) == 0,
+        |value| json_text_any(value, &["error", "message", "msg"]),
+    )
+}

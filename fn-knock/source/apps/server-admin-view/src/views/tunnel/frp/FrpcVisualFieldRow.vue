@@ -1,1 +1,50 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKCndpdGhEZWZhdWx0cygKICBkZWZpbmVQcm9wczx7CiAgICBjb250ZW50Q2xhc3M/OiBzdHJpbmc7CiAgICBoaW50Pzogc3RyaW5nOwogICAgaWQ6IHN0cmluZzsKICAgIGxhYmVsOiBzdHJpbmc7CiAgICBtb2JpbGVIaW50Pzogc3RyaW5nOwogICAgcmVxdWlyZWQ/OiBib29sZWFuOwogIH0+KCksCiAgewogICAgY29udGVudENsYXNzOiAibWF4LXctbWQiLAogICAgaGludDogIiIsCiAgICBtb2JpbGVIaW50OiAiIiwKICAgIHJlcXVpcmVkOiBmYWxzZSwKICB9LAopOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICBjbGFzcz0iZ3JpZCBpdGVtcy1zdGFydCBnYXAtMiBwLTQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvMTAgc206Z3JpZC1jb2xzLVsxODBweF8xZnJdIHNtOnAtNSBtZDpncmlkLWNvbHMtWzIyMHB4XzFmcl0iCiAgPgogICAgPGRpdiBjbGFzcz0ibXQtMS41IHNwYWNlLXktMSI+CiAgICAgIDxMYWJlbCA6Zm9yPSJpZCIgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIHRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgIHt7IGxhYmVsIH19CiAgICAgICAgPHNwYW4gdi1pZj0icmVxdWlyZWQiIGNsYXNzPSJ0ZXh0LWRlc3RydWN0aXZlIj4qPC9zcGFuPgogICAgICA8L0xhYmVsPgogICAgICA8cAogICAgICAgIHYtaWY9ImhpbnQiCiAgICAgICAgY2xhc3M9ImhpZGRlbiBwci00IHRleHQteHMgbGVhZGluZy1yZWxheGVkIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTpibG9jayIKICAgICAgPgogICAgICAgIHt7IGhpbnQgfX0KICAgICAgPC9wPgogICAgPC9kaXY+CiAgICA8ZGl2CiAgICAgIDpjbGFzcz0iWyd3LWZ1bGwnLCBjb250ZW50Q2xhc3MsIGhpbnQgfHwgbW9iaWxlSGludCA/ICdzcGFjZS15LTInIDogJyddIgogICAgPgogICAgICA8c2xvdCAvPgogICAgICA8cAogICAgICAgIHYtaWY9Im1vYmlsZUhpbnQgfHwgaGludCIKICAgICAgICBjbGFzcz0ibXQtMS41IHRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTpoaWRkZW4iCiAgICAgID4KICAgICAgICB7eyBtb2JpbGVIaW50IHx8IGhpbnQgfX0KICAgICAgPC9wPgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { Label } from "@/components/ui/label";
+
+withDefaults(
+  defineProps<{
+    contentClass?: string;
+    hint?: string;
+    id: string;
+    label: string;
+    mobileHint?: string;
+    required?: boolean;
+  }>(),
+  {
+    contentClass: "max-w-md",
+    hint: "",
+    mobileHint: "",
+    required: false,
+  },
+);
+</script>
+
+<template>
+  <div
+    class="grid items-start gap-2 p-4 transition-colors hover:bg-muted/10 sm:grid-cols-[180px_1fr] sm:p-5 md:grid-cols-[220px_1fr]"
+  >
+    <div class="mt-1.5 space-y-1">
+      <Label :for="id" class="flex items-center gap-1 text-sm font-medium">
+        {{ label }}
+        <span v-if="required" class="text-destructive">*</span>
+      </Label>
+      <p
+        v-if="hint"
+        class="hidden pr-4 text-xs leading-relaxed text-muted-foreground sm:block"
+      >
+        {{ hint }}
+      </p>
+    </div>
+    <div
+      :class="['w-full', contentClass, hint || mobileHint ? 'space-y-2' : '']"
+    >
+      <slot />
+      <p
+        v-if="mobileHint || hint"
+        class="mt-1.5 text-[11px] text-muted-foreground sm:hidden"
+      >
+        {{ mobileHint || hint }}
+      </p>
+    </div>
+  </div>
+</template>

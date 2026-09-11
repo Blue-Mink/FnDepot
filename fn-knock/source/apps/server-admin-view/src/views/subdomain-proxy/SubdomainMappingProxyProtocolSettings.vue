@@ -1,1 +1,136 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgewogIFNlbGVjdCwKICBTZWxlY3RDb250ZW50LAogIFNlbGVjdEl0ZW0sCiAgU2VsZWN0VHJpZ2dlciwKICBTZWxlY3RWYWx1ZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKaW1wb3J0IHsgU3dpdGNoIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N3aXRjaCI7CmltcG9ydCB0eXBlIHsgU3ViZG9tYWluTWFwcGluZ0RpYWxvZ1Byb3BzIH0gZnJvbSAiLi9zdWJkb21haW4tbWFwcGluZy1kaWFsb2ctY29udHJhY3QiOwoKY29uc3QgeyBkaWFsb2cgfSA9IGRlZmluZVByb3BzPHsgZGlhbG9nOiBTdWJkb21haW5NYXBwaW5nRGlhbG9nUHJvcHMgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHNlbmRQcm94eUhlYWRlcnNNb2RlbCA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IGRpYWxvZy5zZW5kUHJveHlIZWFkZXJzLAogIHNldDogKHZhbHVlOiBib29sZWFuKSA9PiBkaWFsb2cuc2V0U2VuZFByb3h5SGVhZGVycyh2YWx1ZSksCn0pOwpjb25zdCBwcmVzZXJ2ZUhvc3RNb2RlbCA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IGRpYWxvZy5wcmVzZXJ2ZUhvc3QsCiAgc2V0OiAodmFsdWU6IGJvb2xlYW4pID0+IGRpYWxvZy5zZXRQcmVzZXJ2ZUhvc3QodmFsdWUpLAp9KTsKY29uc3QgcHJvdG9jb2xNb2RlTW9kZWwgPSBjb21wdXRlZCh7CiAgZ2V0OiAoKSA9PiBkaWFsb2cubWFwcGluZ0Zvcm0ucHJvdG9jb2xfbW9kZSB8fCAiYXV0byIsCiAgc2V0OiAodmFsdWUpID0+CiAgICBkaWFsb2cudXBkYXRlTWFwcGluZ0Zvcm0oewogICAgICBwcm90b2NvbF9tb2RlOiB2YWx1ZSA9PT0gImh0dHAxIiB8fCB2YWx1ZSA9PT0gImh0dHAyIiA/IHZhbHVlIDogImF1dG8iLAogICAgfSksCn0pOwpjb25zdCBtYXBwaW5nV2FmRW5hYmxlZE1vZGVsID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gZGlhbG9nLm1hcHBpbmdGb3JtLndhZl9lbmFibGVkICE9PSBmYWxzZSwKICBzZXQ6ICh2YWx1ZTogYm9vbGVhbikgPT4gZGlhbG9nLnVwZGF0ZU1hcHBpbmdGb3JtKHsgd2FmX2VuYWJsZWQ6IHZhbHVlIH0pLAp9KTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgdi1pZj0iZGlhbG9nLm1hcHBpbmdGb3JtLnRhcmdldF90eXBlID09PSAncHJveHknIgogICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtNCByb3VuZGVkLWxnIGJvcmRlciBweC00IHB5LTMiCiAgPgogICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTEiPgogICAgICA8TGFiZWwgZm9yPSJtYXBwaW5nLXByb3h5LWhlYWRlcnMiPgogICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnByb3h5SGVhZGVycyIpIH19CiAgICAgIDwvTGFiZWw+CiAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIHt7CiAgICAgICAgICBkaWFsb2cuZ2F0ZXdheVByb3h5SGVhZGVyc0Jsb2NrZWRSZWFzb24gfHwKICAgICAgICAgIHQoImFkbWluLnN1YmRvbWFpblByb3h5LnByb3h5SGVhZGVyc0Rlc2NyaXB0aW9uIikKICAgICAgICB9fQogICAgICA8L3A+CiAgICA8L2Rpdj4KICAgIDxTd2l0Y2gKICAgICAgaWQ9Im1hcHBpbmctcHJveHktaGVhZGVycyIKICAgICAgdi1tb2RlbD0ic2VuZFByb3h5SGVhZGVyc01vZGVsIgogICAgICA6ZGlzYWJsZWQ9IgogICAgICAgIGRpYWxvZy5pc1NhdmluZ01hcHBpbmdzIHx8ICEhZGlhbG9nLmdhdGV3YXlQcm94eUhlYWRlcnNCbG9ja2VkUmVhc29uCiAgICAgICIKICAgIC8+CiAgPC9kaXY+CgogIDxkaXYKICAgIHYtaWY9ImRpYWxvZy5tYXBwaW5nRm9ybS50YXJnZXRfdHlwZSA9PT0gJ3Byb3h5JyIKICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQgcm91bmRlZC1sZyBib3JkZXIgcHgtNCBweS0zIgogID4KICAgIDxkaXYgY2xhc3M9Im1pbi13LTAgc3BhY2UteS0xIj4KICAgICAgPExhYmVsIGZvcj0ibWFwcGluZy1ob3N0LXJlc3BvbnNlIj4KICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5ob3N0UmVzcG9uc2UiKSB9fQogICAgICA8L0xhYmVsPgogICAgICA8cCBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7ewogICAgICAgICAgZGlhbG9nLmdhdGV3YXlIb3N0UmVzcG9uc2VCbG9ja2VkUmVhc29uIHx8CiAgICAgICAgICB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5ob3N0UmVzcG9uc2VEZXNjcmlwdGlvbiIpCiAgICAgICAgfX0KICAgICAgPC9wPgogICAgPC9kaXY+CiAgICA8U3dpdGNoCiAgICAgIGlkPSJtYXBwaW5nLWhvc3QtcmVzcG9uc2UiCiAgICAgIHYtbW9kZWw9InByZXNlcnZlSG9zdE1vZGVsIgogICAgICA6ZGlzYWJsZWQ9IgogICAgICAgIGRpYWxvZy5pc1NhdmluZ01hcHBpbmdzIHx8ICEhZGlhbG9nLmdhdGV3YXlIb3N0UmVzcG9uc2VCbG9ja2VkUmVhc29uCiAgICAgICIKICAgIC8+CiAgPC9kaXY+CgogIDxkaXYgY2xhc3M9InNwYWNlLXktMiByb3VuZGVkLWxnIGJvcmRlciBweC00IHB5LTMiPgogICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgPExhYmVsIGZvcj0ibWFwcGluZy1wcm90b2NvbC1tb2RlIj4KICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5wcm90b2NvbE1vZGUiKSB9fQogICAgICA8L0xhYmVsPgogICAgICA8cCBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5wcm90b2NvbE1vZGVEZXNjcmlwdGlvbiIpIH19CiAgICAgIDwvcD4KICAgIDwvZGl2PgogICAgPFNlbGVjdCB2LW1vZGVsPSJwcm90b2NvbE1vZGVNb2RlbCIgOmRpc2FibGVkPSJkaWFsb2cuaXNTYXZpbmdNYXBwaW5ncyI+CiAgICAgIDxTZWxlY3RUcmlnZ2VyCiAgICAgICAgaWQ9Im1hcHBpbmctcHJvdG9jb2wtbW9kZSIKICAgICAgICBjbGFzcz0idy1mdWxsIgogICAgICAgIDpkaXNhYmxlZD0iZGlhbG9nLmlzU2F2aW5nTWFwcGluZ3MiCiAgICAgID4KICAgICAgICA8U2VsZWN0VmFsdWUgLz4KICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0iYXV0byI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5wcm90b2NvbE1vZGVBdXRvIikgfX0KICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgPFNlbGVjdEl0ZW0gdmFsdWU9Imh0dHAxIj4KICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnByb3RvY29sTW9kZUh0dHAxIikgfX0KICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgPFNlbGVjdEl0ZW0gdmFsdWU9Imh0dHAyIj4KICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnByb3RvY29sTW9kZUh0dHAyIikgfX0KICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgIDwvU2VsZWN0PgogIDwvZGl2PgoKICA8ZGl2CiAgICB2LWlmPSJkaWFsb2cuZ2xvYmFsV2FmRW5hYmxlZCAmJiAhZGlhbG9nLmlzTWFwcGluZ0F1dGhTZXJ2aWNlIgogICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtNCByb3VuZGVkLWxnIGJvcmRlciBweC00IHB5LTMiCiAgPgogICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTEiPgogICAgICA8TGFiZWwgZm9yPSJtYXBwaW5nLXdhZiI+CiAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkud2FmRW5hYmxlZCIpIH19CiAgICAgIDwvTGFiZWw+CiAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LndhZkVuYWJsZWREZXNjcmlwdGlvbiIpIH19CiAgICAgIDwvcD4KICAgIDwvZGl2PgogICAgPFN3aXRjaAogICAgICBpZD0ibWFwcGluZy13YWYiCiAgICAgIHYtbW9kZWw9Im1hcHBpbmdXYWZFbmFibGVkTW9kZWwiCiAgICAgIDpkaXNhYmxlZD0iZGlhbG9nLmlzU2F2aW5nTWFwcGluZ3MiCiAgICAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Switch } from "@/components/ui/switch";
+import type { SubdomainMappingDialogProps } from "./subdomain-mapping-dialog-contract";
+
+const { dialog } = defineProps<{ dialog: SubdomainMappingDialogProps }>();
+const { t } = useI18n();
+const sendProxyHeadersModel = computed({
+  get: () => dialog.sendProxyHeaders,
+  set: (value: boolean) => dialog.setSendProxyHeaders(value),
+});
+const preserveHostModel = computed({
+  get: () => dialog.preserveHost,
+  set: (value: boolean) => dialog.setPreserveHost(value),
+});
+const protocolModeModel = computed({
+  get: () => dialog.mappingForm.protocol_mode || "auto",
+  set: (value) =>
+    dialog.updateMappingForm({
+      protocol_mode: value === "http1" || value === "http2" ? value : "auto",
+    }),
+});
+const mappingWafEnabledModel = computed({
+  get: () => dialog.mappingForm.waf_enabled !== false,
+  set: (value: boolean) => dialog.updateMappingForm({ waf_enabled: value }),
+});
+</script>
+
+<template>
+  <div
+    v-if="dialog.mappingForm.target_type === 'proxy'"
+    class="flex items-center justify-between gap-4 rounded-lg border px-4 py-3"
+  >
+    <div class="min-w-0 space-y-1">
+      <Label for="mapping-proxy-headers">
+        {{ t("admin.subdomainProxy.proxyHeaders") }}
+      </Label>
+      <p class="text-xs leading-5 text-muted-foreground">
+        {{
+          dialog.gatewayProxyHeadersBlockedReason ||
+          t("admin.subdomainProxy.proxyHeadersDescription")
+        }}
+      </p>
+    </div>
+    <Switch
+      id="mapping-proxy-headers"
+      v-model="sendProxyHeadersModel"
+      :disabled="
+        dialog.isSavingMappings || !!dialog.gatewayProxyHeadersBlockedReason
+      "
+    />
+  </div>
+
+  <div
+    v-if="dialog.mappingForm.target_type === 'proxy'"
+    class="flex items-center justify-between gap-4 rounded-lg border px-4 py-3"
+  >
+    <div class="min-w-0 space-y-1">
+      <Label for="mapping-host-response">
+        {{ t("admin.subdomainProxy.hostResponse") }}
+      </Label>
+      <p class="text-xs leading-5 text-muted-foreground">
+        {{
+          dialog.gatewayHostResponseBlockedReason ||
+          t("admin.subdomainProxy.hostResponseDescription")
+        }}
+      </p>
+    </div>
+    <Switch
+      id="mapping-host-response"
+      v-model="preserveHostModel"
+      :disabled="
+        dialog.isSavingMappings || !!dialog.gatewayHostResponseBlockedReason
+      "
+    />
+  </div>
+
+  <div class="space-y-2 rounded-lg border px-4 py-3">
+    <div class="space-y-1">
+      <Label for="mapping-protocol-mode">
+        {{ t("admin.subdomainProxy.protocolMode") }}
+      </Label>
+      <p class="text-xs leading-5 text-muted-foreground">
+        {{ t("admin.subdomainProxy.protocolModeDescription") }}
+      </p>
+    </div>
+    <Select v-model="protocolModeModel" :disabled="dialog.isSavingMappings">
+      <SelectTrigger
+        id="mapping-protocol-mode"
+        class="w-full"
+        :disabled="dialog.isSavingMappings"
+      >
+        <SelectValue />
+      </SelectTrigger>
+      <SelectContent>
+        <SelectItem value="auto">
+          {{ t("admin.subdomainProxy.protocolModeAuto") }}
+        </SelectItem>
+        <SelectItem value="http1">
+          {{ t("admin.subdomainProxy.protocolModeHttp1") }}
+        </SelectItem>
+        <SelectItem value="http2">
+          {{ t("admin.subdomainProxy.protocolModeHttp2") }}
+        </SelectItem>
+      </SelectContent>
+    </Select>
+  </div>
+
+  <div
+    v-if="dialog.globalWafEnabled && !dialog.isMappingAuthService"
+    class="flex items-center justify-between gap-4 rounded-lg border px-4 py-3"
+  >
+    <div class="min-w-0 space-y-1">
+      <Label for="mapping-waf">
+        {{ t("admin.subdomainProxy.wafEnabled") }}
+      </Label>
+      <p class="text-xs leading-5 text-muted-foreground">
+        {{ t("admin.subdomainProxy.wafEnabledDescription") }}
+      </p>
+    </div>
+    <Switch
+      id="mapping-waf"
+      v-model="mappingWafEnabledModel"
+      :disabled="dialog.isSavingMappings"
+    />
+  </div>
+</template>

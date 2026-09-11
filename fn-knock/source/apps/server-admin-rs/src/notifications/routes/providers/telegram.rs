@@ -1,1 +1,113 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIHRlbGVncmFtX2RlZmluaXRpb24oKSAtPiBQcm92aWRlckRlZmluaXRpb24gewogICAgUHJvdmlkZXJEZWZpbml0aW9uIHsKICAgICAgICBwcm92aWRlcl90eXBlOiAidGVsZWdyYW0iLAogICAgICAgIGxhYmVsOiAiVGVsZWdyYW0iLAogICAgICAgIGRlc2NyaXB0aW9uOiAiU2VuZCBub3RpZmljYXRpb25zIHRocm91Z2ggVGVsZWdyYW0gYm90IEFQSS4iLAogICAgICAgIGNvbm5lY3Rpb25fc2NoZW1hOiB2ZWMhWwogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKAogICAgICAgICAgICAgICAgInNlcnZlcl91cmwiLAogICAgICAgICAgICAgICAgIlNlcnZlciBVUkwiLAogICAgICAgICAgICAgICAgdHJ1ZSwKICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICAgICAgU29tZSgiaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnIiksCiAgICAgICAgICAgICkKICAgICAgICAgICAgLnBsYWNlaG9sZGVyKCJodHRwczovL2FwaS50ZWxlZ3JhbS5vcmciKSwKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgiYm90X3Rva2VuIiwgIkJvdCBUb2tlbiIsIHRydWUsIHRydWUsIE5vbmUpCiAgICAgICAgICAgICAgICAucGxhY2Vob2xkZXIoIjEyMzQ1NjpBQkMtREVGMTIzNGdoSWtsLXp5eDU3VzJ2MXUxMjNldzExIiksCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoImNoYXRfaWQiLCAiQ2hhdCBJRCIsIHRydWUsIGZhbHNlLCBOb25lKS5wbGFjZWhvbGRlcigiLTEwMDEyMzQ1Njc4OTAiKSwKICAgICAgICAgICAgbnVtYmVyX3NjaGVtYSgidGltZW91dF9zZWNvbmRzIiwgIlRpbWVvdXQgc2Vjb25kcyIsIHRydWUsIFNvbWUoNSkpLmJvdW5kcygxLCAzMCksCiAgICAgICAgXSwKICAgICAgICB0YXJnZXRfc2NoZW1hOiB2ZWMhWwogICAgICAgICAgICBudW1iZXJfc2NoZW1hKCJtZXNzYWdlX3RocmVhZF9pZCIsICJUb3BpYyBJRCIsIGZhbHNlLCBOb25lKS5taW4oMSksCiAgICAgICAgICAgIGJvb2xfc2NoZW1hKAogICAgICAgICAgICAgICAgImRpc2FibGVfbm90aWZpY2F0aW9uIiwKICAgICAgICAgICAgICAgICJEaXNhYmxlIG5vdGlmaWNhdGlvbiIsCiAgICAgICAgICAgICAgICBmYWxzZSwKICAgICAgICAgICAgICAgIFNvbWUoZmFsc2UpLAogICAgICAgICAgICApLAogICAgICAgIF0sCiAgICAgICAgc2Vuc2l0aXZlX2ZpZWxkczogdmVjIVsiYm90X3Rva2VuIl0sCiAgICAgICAgc3VwcG9ydHNfbWFya2Rvd246IGZhbHNlLAogICAgICAgIHN1cHBvcnRzX2FjdGlvbnM6IHRydWUsCiAgICAgICAgc3VwcG9ydHNfbWVudGlvbnM6IGZhbHNlLAogICAgICAgIHN1cHBvcnRzX3Byb3ZpZGVyX2RlZHVwZV9rZXk6IGZhbHNlLAogICAgfQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgYXN5bmMgZm4gc2VuZF90ZWxlZ3JhbSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBwcm92aWRlcjogJlZhbHVlLAogICAgdGFyZ2V0OiAmVmFsdWUsCiAgICBtZXNzYWdlOiAmVmFsdWUsCiAgICB0aW1lb3V0X3NlY29uZHM6IGk2NCwKKSAtPiBQcm92aWRlclRlc3RSZXN1bHQgewogICAgbGV0IGNvbmZpZyA9IHByb3ZpZGVyX2NvbmZpZyhwcm92aWRlcik7CiAgICBsZXQgdGFyZ2V0X2NvbmZpZyA9IHRhcmdldF9jb25maWcodGFyZ2V0KTsKICAgIGxldCBiYXNlX3VybCA9IGRlZmF1bHRfc3RyaW5nKAogICAgICAgIGNvbmZpZ190ZXh0KCZjb25maWcsICJzZXJ2ZXJfdXJsIiksCiAgICAgICAgImh0dHBzOi8vYXBpLnRlbGVncmFtLm9yZyIsCiAgICApOwogICAgbGV0IGJvdF90b2tlbiA9IGNvbmZpZ190ZXh0KCZjb25maWcsICJib3RfdG9rZW4iKTsKICAgIGxldCBjaGF0X2lkID0gY29uZmlnX3RleHQoJmNvbmZpZywgImNoYXRfaWQiKTsKICAgIGlmIGJvdF90b2tlbi5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gbWlzc2luZ19jb25maWdfcmVzdWx0KCZub3RpZmljYXRpb25fcHJvdmlkZXJfZXJyb3JfZGVmYXVsdCgKICAgICAgICAgICAgInRlbGVncmFtIiwKICAgICAgICAgICAgIm1pc3NpbmdCb3RUb2tlbiIsCiAgICAgICAgICAgICZbXSwKICAgICAgICApKTsKICAgIH0KICAgIGlmIGNoYXRfaWQuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIG1pc3NpbmdfY29uZmlnX3Jlc3VsdCgmbm90aWZpY2F0aW9uX3Byb3ZpZGVyX2Vycm9yX2RlZmF1bHQoCiAgICAgICAgICAgICJ0ZWxlZ3JhbSIsCiAgICAgICAgICAgICJtaXNzaW5nQ2hhdElkIiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpOwogICAgfQogICAgbGV0IHVybCA9IGZvcm1hdCEoCiAgICAgICAgInt9L2JvdHt9L3NlbmRNZXNzYWdlIiwKICAgICAgICBiYXNlX3VybC50cmltX2VuZF9tYXRjaGVzKCcvJyksCiAgICAgICAgYm90X3Rva2VuCiAgICApOwogICAgbGV0IHJlcGx5X21hcmt1cCA9IGJ1aWxkX3RlbGVncmFtX3JlcGx5X21hcmt1cChtZXNzYWdlKTsKICAgIGxldCBtZXNzYWdlX3RocmVhZF9pZCA9IG9wdGlvbmFsX3Bvc2l0aXZlX2k2NCh0YXJnZXRfY29uZmlnLmdldCgibWVzc2FnZV90aHJlYWRfaWQiKSk7CiAgICBsZXQgZGlzYWJsZV9ub3RpZmljYXRpb24gPSB0YXJnZXRfY29uZmlnCiAgICAgICAgLmdldCgiZGlzYWJsZV9ub3RpZmljYXRpb24iKQogICAgICAgIC5tYXAodmFsdWVfdG9fYm9vbCkKICAgICAgICAudW53cmFwX29yKGZhbHNlKTsKICAgIGxldCBtdXQgYm9keSA9IGpzb24hKHsKICAgICAgICAiY2hhdF9pZCI6IGNoYXRfaWQsCiAgICAgICAgInRleHQiOiBkZWZhdWx0X3N0cmluZyhidWlsZF90ZWxlZ3JhbV90ZXh0KG1lc3NhZ2UpLCBERUZBVUxUX05PVElGSUNBVElPTl9NRVNTQUdFX1RJVExFKSwKICAgICAgICAicGFyc2VfbW9kZSI6ICJIVE1MIiwKICAgIH0pOwogICAgaWYgZGlzYWJsZV9ub3RpZmljYXRpb24gewogICAgICAgIGluc2VydF92YWx1ZSgmbXV0IGJvZHksICJkaXNhYmxlX25vdGlmaWNhdGlvbiIsIFZhbHVlOjpCb29sKHRydWUpKTsKICAgIH0KICAgIGlmIGxldCBTb21lKG1lc3NhZ2VfdGhyZWFkX2lkKSA9IG1lc3NhZ2VfdGhyZWFkX2lkIHsKICAgICAgICBpbnNlcnRfaTY0KCZtdXQgYm9keSwgIm1lc3NhZ2VfdGhyZWFkX2lkIiwgbWVzc2FnZV90aHJlYWRfaWQpOwogICAgfQogICAgaWYgbGV0IFNvbWUocmVwbHlfbWFya3VwKSA9IHJlcGx5X21hcmt1cCB7CiAgICAgICAgaW5zZXJ0X3ZhbHVlKCZtdXQgYm9keSwgInJlcGx5X21hcmt1cCIsIHJlcGx5X21hcmt1cCk7CiAgICB9CiAgICBsZXQgcmVxdWVzdF9zdW1tYXJ5ID0ganNvbiEoewogICAgICAgICJtZXRob2QiOiAiUE9TVCIsCiAgICAgICAgInVybCI6IGZvcm1hdCEoInt9L2JvdDxyZWRhY3RlZD4vc2VuZE1lc3NhZ2UiLCBiYXNlX3VybC50cmltX2VuZF9tYXRjaGVzKCcvJykpLAogICAgICAgICJjaGF0X2lkIjogY2hhdF9pZCwKICAgICAgICAibWVzc2FnZV90aHJlYWRfaWQiOiBtZXNzYWdlX3RocmVhZF9pZCwKICAgICAgICAiZGlzYWJsZV9ub3RpZmljYXRpb24iOiBkaXNhYmxlX25vdGlmaWNhdGlvbiwKICAgICAgICAiaGFzX2lubGluZV9rZXlib2FyZCI6IGJvZHkuZ2V0KCJyZXBseV9tYXJrdXAiKS5pc19zb21lKCksCiAgICAgICAgInRleHRfcHJldmlldyI6IHRydW5jYXRlX3RleHQoJm1lc3NhZ2VfdGl0bGUobWVzc2FnZSksIDEyMCkKICAgIH0pOwogICAgbGV0IChzdGF0dXMsIG9rLCB0ZXh0LCBwYXJzZWQpID0gcG9zdF9qc29uKHN0YXRlLCAmdXJsLCAmYm9keSwgdGltZW91dF9zZWNvbmRzKS5hd2FpdDsKICAgIHByb3ZpZGVyX3Jlc3VsdF9mcm9tX2FwaSgKICAgICAgICAiVGVsZWdyYW0iLAogICAgICAgIHJlcXVlc3Rfc3VtbWFyeSwKICAgICAgICBzdGF0dXMsCiAgICAgICAgb2ssCiAgICAgICAgdGV4dCwKICAgICAgICBwYXJzZWQsCiAgICAgICAgfHZhbHVlfCB2YWx1ZS5nZXQoIm9rIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpLnVud3JhcF9vcih0cnVlKSwKICAgICAgICB8dmFsdWV8IGpzb25fdGV4dCh2YWx1ZSwgImRlc2NyaXB0aW9uIiksCiAgICApCn0K
+use super::*;
+
+pub(in crate::notifications::routes) fn telegram_definition() -> ProviderDefinition {
+    ProviderDefinition {
+        provider_type: "telegram",
+        label: "Telegram",
+        description: "Send notifications through Telegram bot API.",
+        connection_schema: vec![
+            string_schema(
+                "server_url",
+                "Server URL",
+                true,
+                false,
+                Some("https://api.telegram.org"),
+            )
+            .placeholder("https://api.telegram.org"),
+            string_schema("bot_token", "Bot Token", true, true, None)
+                .placeholder("123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"),
+            string_schema("chat_id", "Chat ID", true, false, None).placeholder("-1001234567890"),
+            number_schema("timeout_seconds", "Timeout seconds", true, Some(5)).bounds(1, 30),
+        ],
+        target_schema: vec![
+            number_schema("message_thread_id", "Topic ID", false, None).min(1),
+            bool_schema(
+                "disable_notification",
+                "Disable notification",
+                false,
+                Some(false),
+            ),
+        ],
+        sensitive_fields: vec!["bot_token"],
+        supports_markdown: false,
+        supports_actions: true,
+        supports_mentions: false,
+        supports_provider_dedupe_key: false,
+    }
+}
+
+pub(in crate::notifications::routes) async fn send_telegram(
+    state: &AppState,
+    provider: &Value,
+    target: &Value,
+    message: &Value,
+    timeout_seconds: i64,
+) -> ProviderTestResult {
+    let config = provider_config(provider);
+    let target_config = target_config(target);
+    let base_url = default_string(
+        config_text(&config, "server_url"),
+        "https://api.telegram.org",
+    );
+    let bot_token = config_text(&config, "bot_token");
+    let chat_id = config_text(&config, "chat_id");
+    if bot_token.is_empty() {
+        return missing_config_result(&notification_provider_error_default(
+            "telegram",
+            "missingBotToken",
+            &[],
+        ));
+    }
+    if chat_id.is_empty() {
+        return missing_config_result(&notification_provider_error_default(
+            "telegram",
+            "missingChatId",
+            &[],
+        ));
+    }
+    let url = format!(
+        "{}/bot{}/sendMessage",
+        base_url.trim_end_matches('/'),
+        bot_token
+    );
+    let reply_markup = build_telegram_reply_markup(message);
+    let message_thread_id = optional_positive_i64(target_config.get("message_thread_id"));
+    let disable_notification = target_config
+        .get("disable_notification")
+        .map(value_to_bool)
+        .unwrap_or(false);
+    let mut body = json!({
+        "chat_id": chat_id,
+        "text": default_string(build_telegram_text(message), DEFAULT_NOTIFICATION_MESSAGE_TITLE),
+        "parse_mode": "HTML",
+    });
+    if disable_notification {
+        insert_value(&mut body, "disable_notification", Value::Bool(true));
+    }
+    if let Some(message_thread_id) = message_thread_id {
+        insert_i64(&mut body, "message_thread_id", message_thread_id);
+    }
+    if let Some(reply_markup) = reply_markup {
+        insert_value(&mut body, "reply_markup", reply_markup);
+    }
+    let request_summary = json!({
+        "method": "POST",
+        "url": format!("{}/bot<redacted>/sendMessage", base_url.trim_end_matches('/')),
+        "chat_id": chat_id,
+        "message_thread_id": message_thread_id,
+        "disable_notification": disable_notification,
+        "has_inline_keyboard": body.get("reply_markup").is_some(),
+        "text_preview": truncate_text(&message_title(message), 120)
+    });
+    let (status, ok, text, parsed) = post_json(state, &url, &body, timeout_seconds).await;
+    provider_result_from_api(
+        "Telegram",
+        request_summary,
+        status,
+        ok,
+        text,
+        parsed,
+        |value| value.get("ok").and_then(Value::as_bool).unwrap_or(true),
+        |value| json_text(value, "description"),
+    )
+}

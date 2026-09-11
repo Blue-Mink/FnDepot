@@ -1,1 +1,20 @@
-aW1wb3J0IHR5cGUgeyBDb21wdXRlZFJlZiwgSW5qZWN0aW9uS2V5LCBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyBpbmplY3QgfSBmcm9tICJ2dWUiOwoKZXhwb3J0IHR5cGUgVGFic1ZhbHVlID0gc3RyaW5nIHwgbnVtYmVyOwpleHBvcnQgdHlwZSBUYWJzTW90aW9uRGlyZWN0aW9uID0gImZyb20tc3RhcnQiIHwgImZyb20tZW5kIiB8ICJub25lIjsKCmV4cG9ydCBpbnRlcmZhY2UgVGFic01vdGlvbkNvbnRleHQgewogIG1vZGVsVmFsdWU6IFJlZjxUYWJzVmFsdWUgfCB1bmRlZmluZWQ+OwogIHByZXZpb3VzVmFsdWU6IFJlZjxUYWJzVmFsdWUgfCB1bmRlZmluZWQ+OwogIG1vdGlvbkRpcmVjdGlvbjogQ29tcHV0ZWRSZWY8VGFic01vdGlvbkRpcmVjdGlvbj47CiAgcmVnaXN0ZXJDb250ZW50OiAodmFsdWU6IFRhYnNWYWx1ZSkgPT4gdm9pZDsKICB1bnJlZ2lzdGVyQ29udGVudDogKHZhbHVlOiBUYWJzVmFsdWUpID0+IHZvaWQ7Cn0KCmV4cG9ydCBjb25zdCB0YWJzTW90aW9uQ29udGV4dEtleTogSW5qZWN0aW9uS2V5PFRhYnNNb3Rpb25Db250ZXh0PiA9CiAgU3ltYm9sKCJ0YWJzLW1vdGlvbiIpOwoKZXhwb3J0IGZ1bmN0aW9uIHVzZVRhYnNNb3Rpb25Db250ZXh0KCkgewogIHJldHVybiBpbmplY3QodGFic01vdGlvbkNvbnRleHRLZXksIG51bGwpOwp9Cg==
+import type { ComputedRef, InjectionKey, Ref } from "vue";
+import { inject } from "vue";
+
+export type TabsValue = string | number;
+export type TabsMotionDirection = "from-start" | "from-end" | "none";
+
+export interface TabsMotionContext {
+  modelValue: Ref<TabsValue | undefined>;
+  previousValue: Ref<TabsValue | undefined>;
+  motionDirection: ComputedRef<TabsMotionDirection>;
+  registerContent: (value: TabsValue) => void;
+  unregisterContent: (value: TabsValue) => void;
+}
+
+export const tabsMotionContextKey: InjectionKey<TabsMotionContext> =
+  Symbol("tabs-motion");
+
+export function useTabsMotionContext() {
+  return inject(tabsMotionContextKey, null);
+}

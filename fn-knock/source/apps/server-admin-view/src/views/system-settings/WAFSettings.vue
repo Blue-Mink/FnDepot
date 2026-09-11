@@ -1,1 +1,367 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgUmVmcmVzaEN3LCBUcmlhbmdsZUFsZXJ0LCBVcGxvYWQgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBBbGVydCwgQWxlcnREZXNjcmlwdGlvbiwgQWxlcnRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9hbGVydCI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsKICBDYXJkLAogIENhcmRDb250ZW50LAogIENhcmREZXNjcmlwdGlvbiwKICBDYXJkSGVhZGVyLAogIENhcmRUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7CiAgU2VsZWN0LAogIFNlbGVjdENvbnRlbnQsCiAgU2VsZWN0SXRlbSwKICBTZWxlY3RUcmlnZ2VyLAogIFNlbGVjdFZhbHVlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9zZWxlY3QiOwppbXBvcnQgeyBTa2VsZXRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9za2VsZXRvbiI7CmltcG9ydCB7IFRvb2x0aXBQcm92aWRlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS90b29sdGlwIjsKaW1wb3J0IERldGFpbERpYWxvZyBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0RldGFpbERpYWxvZy52dWUiOwppbXBvcnQgV0FGUnVsZUxpc3QgZnJvbSAiLi93YWYtc2V0dGluZ3MvV0FGUnVsZUxpc3QudnVlIjsKaW1wb3J0IFdBRkJsb2NrQmVoYXZpb3JTZXR0aW5nUm93IGZyb20gIi4vd2FmLXNldHRpbmdzL1dBRkJsb2NrQmVoYXZpb3JTZXR0aW5nUm93LnZ1ZSI7CmltcG9ydCBXQUZTZXR0aW5nU3dpdGNoUm93IGZyb20gIi4vd2FmLXNldHRpbmdzL1dBRlNldHRpbmdTd2l0Y2hSb3cudnVlIjsKaW1wb3J0IHsgdXNlV0FGU2V0dGluZ3MgfSBmcm9tICIuL3dhZi1zZXR0aW5ncy91c2VXQUZTZXR0aW5ncyI7Cgpjb25zdCBhMTF5SWQgPSB1c2VJZCgpOwoKY29uc3QgewogIGFjdGl2YXRlUnVsZUFjdGlvbnMsCiAgYWN0aXZlUnVsZUFjdGlvbnNLZXksCiAgYWN0aXZlUnVsZVByZXZpZXcsCiAgY3VzdG9tUnVsZXMsCiAgZGVsZXRlQ3VzdG9tUnVsZSwKICBkZXRhaWxzLAogIGRvd25sb2FkaW5nUnVsZUtleSwKICBkb3dubG9hZFJ1bGVGaWxlLAogIGVuYWJsZVJlY29tbWVuZGVkU3lzdGVtUnVsZXMsCiAgZm9ybSwKICBmb3JtYXRDdXN0b21SdWxlTWV0YSwKICBmb3JtYXRDdXN0b21SdWxlTmFtZSwKICBmb3JtYXREYXRlLAogIGZvcm1hdFJ1bGVTaXplLAogIGZvcm1hdFNpemUsCiAgZm9ybWF0U3lzdGVtUnVsZU1ldGEsCiAgZm9ybWF0U3lzdGVtUnVsZU5hbWUsCiAgaGFuZGxlQXV0b1VwZGF0ZUNoYW5nZSwKICBoYW5kbGVCbG9ja0JlaGF2aW9yQ2hhbmdlLAogIGhhbmRsZUNvbW1vbkxvY2F0aW9uRXhlbXB0Q2hhbmdlLAogIGhhbmRsZUVuYWJsZWRDaGFuZ2UsCiAgaGFuZGxlUGFyYW5vaWFMZXZlbENoYW5nZSwKICBoYW5kbGVQcml2YXRlSVBFeGVtcHRDaGFuZ2UsCiAgaGFuZGxlVXBsb2FkQ2hhbmdlLAogIGlzQnVzeSwKICBpc0NoYW5naW5nUnVsZXMsCiAgaXNMb2FkaW5nLAogIGlzUnVsZVByZXZpZXdPcGVuLAogIGlzVXBkYXRpbmdTeXN0ZW1SdWxlcywKICBsZXZlbE9wdGlvbnMsCiAgbG9hZGluZ1J1bGVLZXksCiAgbWFuaWZlc3RMYWJlbCwKICBvcGVuUnVsZVByZXZpZXcsCiAgc2VsZWN0ZWRDdXN0b21SdWxlcywKICBzZWxlY3RlZFN5c3RlbVJ1bGVzLAogIHNldEFsbFNlbGVjdGVkLAogIHNldFJ1bGVTZWxlY3RlZCwKICBzaG93TG9hZGluZ1NrZWxldG9uLAogIHNvdXJjZUxhYmVsLAogIHN5bmNlZExhYmVsLAogIHN5c3RlbVJ1bGVzLAogIHQsCiAgdG9nZ2xlQWxsUnVsZXMsCiAgdG9nZ2xlUnVsZSwKICB0cmlnZ2VyVXBsb2FkLAogIHVwZGF0ZVNlbGVjdGVkUnVsZXMsCiAgdXBkYXRlU3lzdGVtUnVsZXMsCiAgdXBsb2FkSW5wdXRSZWYsCn0gPSB1c2VXQUZTZXR0aW5ncygpOwoKLy8gVnVlIGFzc2lnbnMgdGhpcyBzdHJpbmcgdGVtcGxhdGUgcmVmIGF0IHJ1bnRpbWUuCnZvaWQgdXBsb2FkSW5wdXRSZWY7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxUb29sdGlwUHJvdmlkZXI+CiAgICA8Q2FyZD4KICAgICAgPENhcmRIZWFkZXI+CiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xLjUiPgogICAgICAgICAgPENhcmRUaXRsZSBjbGFzcz0idGV4dC1tZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLndhZlNldHRpbmdzLnRpdGxlIikgfX0KICAgICAgICAgIDwvQ2FyZFRpdGxlPgogICAgICAgICAgPENhcmREZXNjcmlwdGlvbj4KICAgICAgICAgICAge3sgdCgiYWRtaW4ud2FmU2V0dGluZ3MuZGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgPC9DYXJkRGVzY3JpcHRpb24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvQ2FyZEhlYWRlcj4KCiAgICAgIDxDYXJkQ29udGVudCB2LWlmPSJpc0xvYWRpbmcgJiYgc2hvd0xvYWRpbmdTa2VsZXRvbiIgY2xhc3M9ImJvcmRlci10IHAtMCI+CiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS00IHAtNiI+CiAgICAgICAgICA8U2tlbGV0b24gY2xhc3M9ImgtNiB3LTEvMyIgLz4KICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC00IHctMi8zIiAvPgogICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTI0IHctZnVsbCIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9DYXJkQ29udGVudD4KCiAgICAgIDxDYXJkQ29udGVudCB2LWVsc2UgY2xhc3M9ImJvcmRlci10IHAtMCBkaXZpZGUteSI+CiAgICAgICAgPHNlY3Rpb24gdi1pZj0iZm9ybS5lbmFibGVkIiBjbGFzcz0icC02Ij4KICAgICAgICAgIDxBbGVydAogICAgICAgICAgICBjbGFzcz0iaXRlbXMtc3RhcnQgcm91bmRlZC14bCBib3JkZXItYW1iZXItMjAwIGJnLWFtYmVyLTUwLzcwIHRleHQtYW1iZXItOTUwIFsmPnN2Z106dGV4dC1hbWJlci02MDAiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxUcmlhbmdsZUFsZXJ0IGNsYXNzPSJtdC0wLjUgaC00IHctNCIgLz4KICAgICAgICAgICAgPEFsZXJ0VGl0bGU+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4ud2FmU2V0dGluZ3MuZmFsc2VQb3NpdGl2ZVRpdGxlIikgfX0KICAgICAgICAgICAgPC9BbGVydFRpdGxlPgogICAgICAgICAgICA8QWxlcnREZXNjcmlwdGlvbiBjbGFzcz0idGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1hbWJlci05MDAiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLndhZlNldHRpbmdzLmZhbHNlUG9zaXRpdmVEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICAgIDwvQWxlcnREZXNjcmlwdGlvbj4KICAgICAgICAgIDwvQWxlcnQ+CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICA8V0FGU2V0dGluZ1N3aXRjaFJvdwogICAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi53YWZTZXR0aW5ncy5lbmFibGVXYWZEZXNjcmlwdGlvbicpIgogICAgICAgICAgOmRpc2FibGVkPSJpc0J1c3kiCiAgICAgICAgICA6bW9kZWwtdmFsdWU9ImZvcm0uZW5hYmxlZCIKICAgICAgICAgIG11dGVkCiAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLndhZlNldHRpbmdzLmVuYWJsZVdhZicpIgogICAgICAgICAgQGNoYW5nZT0iaGFuZGxlRW5hYmxlZENoYW5nZSIKICAgICAgICAvPgoKICAgICAgICA8V0FGU2V0dGluZ1N3aXRjaFJvdwogICAgICAgICAgdi1pZj0iZm9ybS5lbmFibGVkIgogICAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi53YWZTZXR0aW5ncy5hdXRvVXBkYXRlRGVzY3JpcHRpb24nKSIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNCdXN5IgogICAgICAgICAgOm1vZGVsLXZhbHVlPSJmb3JtLnN5c3RlbV9ydWxlc19hdXRvX3VwZGF0ZV9lbmFibGVkIgogICAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi53YWZTZXR0aW5ncy5hdXRvVXBkYXRlJykiCiAgICAgICAgICBAY2hhbmdlPSJoYW5kbGVBdXRvVXBkYXRlQ2hhbmdlIgogICAgICAgIC8+CgogICAgICAgIDxXQUZCbG9ja0JlaGF2aW9yU2V0dGluZ1JvdwogICAgICAgICAgdi1pZj0iZm9ybS5lbmFibGVkIgogICAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi53YWZTZXR0aW5ncy5ibG9ja0JlaGF2aW9yRGVzY3JpcHRpb24nKSIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNCdXN5IgogICAgICAgICAgOmVycm9yLXBhZ2UtbGFiZWw9InQoJ2FkbWluLndhZlNldHRpbmdzLmJsb2NrQmVoYXZpb3JFcnJvclBhZ2UnKSIKICAgICAgICAgIDptb2RlbC12YWx1ZT0iZm9ybS5ibG9ja19iZWhhdmlvciIKICAgICAgICAgIDpyZXNldC1jb25uZWN0aW9uLWxhYmVsPSIKICAgICAgICAgICAgdCgnYWRtaW4ud2FmU2V0dGluZ3MuYmxvY2tCZWhhdmlvclJlc2V0Q29ubmVjdGlvbicpCiAgICAgICAgICAiCiAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLndhZlNldHRpbmdzLmJsb2NrQmVoYXZpb3InKSIKICAgICAgICAgIDp3YXJuaW5nPSJ0KCdhZG1pbi53YWZTZXR0aW5ncy5ibG9ja0JlaGF2aW9yUmVzZXRXYXJuaW5nJykiCiAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJoYW5kbGVCbG9ja0JlaGF2aW9yQ2hhbmdlIgogICAgICAgIC8+CgogICAgICAgIDxXQUZTZXR0aW5nU3dpdGNoUm93CiAgICAgICAgICB2LWlmPSJmb3JtLmVuYWJsZWQiCiAgICAgICAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLndhZlNldHRpbmdzLmNvbW1vbkxvY2F0aW9uRXhlbXB0RGVzY3JpcHRpb24nKSIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNCdXN5IgogICAgICAgICAgOm1vZGVsLXZhbHVlPSJmb3JtLmNvbW1vbl9sb2NhdGlvbl9leGVtcHRfZW5hYmxlZCIKICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4ud2FmU2V0dGluZ3MuY29tbW9uTG9jYXRpb25FeGVtcHQnKSIKICAgICAgICAgIEBjaGFuZ2U9ImhhbmRsZUNvbW1vbkxvY2F0aW9uRXhlbXB0Q2hhbmdlIgogICAgICAgIC8+CgogICAgICAgIDxXQUZTZXR0aW5nU3dpdGNoUm93CiAgICAgICAgICB2LWlmPSJmb3JtLmVuYWJsZWQiCiAgICAgICAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLndhZlNldHRpbmdzLnByaXZhdGVJcEV4ZW1wdERlc2NyaXB0aW9uJykiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImlzQnVzeSIKICAgICAgICAgIDptb2RlbC12YWx1ZT0iZm9ybS5wcml2YXRlX2lwX2V4ZW1wdF9lbmFibGVkIgogICAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi53YWZTZXR0aW5ncy5wcml2YXRlSXBFeGVtcHQnKSIKICAgICAgICAgIEBjaGFuZ2U9ImhhbmRsZVByaXZhdGVJUEV4ZW1wdENoYW5nZSIKICAgICAgICAvPgoKICAgICAgICA8dGVtcGxhdGUgdi1pZj0iZm9ybS5lbmFibGVkIj4KICAgICAgICAgIDxzZWN0aW9uCiAgICAgICAgICAgIGNsYXNzPSJncmlkIGdhcC02IHAtNiBsZzpncmlkLWNvbHMtW21pbm1heCgwLDFmcilfbWlubWF4KDM2MHB4LDUyMHB4KV0iCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSBwci02Ij4KICAgICAgICAgICAgICA8TGFiZWwgOmZvcj0iYCR7YTExeUlkfS13YWZzZXR0aW5ncy00YCIgY2xhc3M9InRleHQtYmFzZSI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi53YWZTZXR0aW5ncy5wcm90ZWN0aW9uTGV2ZWwiKSB9fQogICAgICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ud2FmU2V0dGluZ3MucHJvdGVjdGlvbkxldmVsRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBqdXN0aWZ5LWl0ZW1zLWVuZCBnYXAtNSI+CiAgICAgICAgICAgICAgPFNlbGVjdAogICAgICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJTdHJpbmcoZm9ybS5wYXJhbm9pYV9sZXZlbCkiCiAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzQnVzeSIKICAgICAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9ImhhbmRsZVBhcmFub2lhTGV2ZWxDaGFuZ2UiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPFNlbGVjdFRyaWdnZXIgOmlkPSJgJHthMTF5SWR9LXdhZnNldHRpbmdzLTRgIj4KICAgICAgICAgICAgICAgICAgPFNlbGVjdFZhbHVlIC8+CiAgICAgICAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICAgICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICAgICAgICAgICAgPFNlbGVjdEl0ZW0KICAgICAgICAgICAgICAgICAgICB2LWZvcj0ibGV2ZWwgaW4gbGV2ZWxPcHRpb25zIgogICAgICAgICAgICAgICAgICAgIDprZXk9ImxldmVsLnZhbHVlIgogICAgICAgICAgICAgICAgICAgIDp2YWx1ZT0ibGV2ZWwudmFsdWUiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7eyBsZXZlbC5sYWJlbCB9fSDCtyB7eyBsZXZlbC5kZXNjcmlwdGlvbiB9fQogICAgICAgICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgICAgPC9TZWxlY3Q+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICAgIDxzZWN0aW9uIGNsYXNzPSJzcGFjZS15LTUgcC02Ij4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLXN0YXJ0IHNtOmp1c3RpZnktYmV0d2VlbiIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtYmFzZSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ud2FmU2V0dGluZ3Muc3lzdGVtUnVsZXMiKSB9fQogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPEJhZGdlCiAgICAgICAgICAgICAgICAgICAgdi1pZj0iZGV0YWlscz8uc3lzdGVtLnVwZGF0ZV9hdmFpbGFibGUiCiAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0ic2Vjb25kYXJ5IgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ud2FmU2V0dGluZ3MudXBkYXRlQXZhaWxhYmxlIikgfX0KICAgICAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICAgIHQoImFkbWluLndhZlNldHRpbmdzLm1hbmlmZXN0TG9jYWwiLCB7CiAgICAgICAgICAgICAgICAgICAgICBtYW5pZmVzdDogbWFuaWZlc3RMYWJlbCwKICAgICAgICAgICAgICAgICAgICAgIHN5bmNlZDogc3luY2VkTGFiZWwsCiAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICB2LWlmPSJkZXRhaWxzPy5zeXN0ZW0ubWFuaWZlc3RfbGFzdF9lcnJvciIKICAgICAgICAgICAgICAgICAgY2xhc3M9InRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAge3sgZGV0YWlscy5zeXN0ZW0ubWFuaWZlc3RfbGFzdF9lcnJvciB9fQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgZ2FwLTIiPgogICAgICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgOmRpc2FibGVkPSJpc0J1c3kiIEBjbGljaz0idXBkYXRlU3lzdGVtUnVsZXMiPgogICAgICAgICAgICAgICAgICA8UmVmcmVzaEN3CiAgICAgICAgICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCIKICAgICAgICAgICAgICAgICAgICA6Y2xhc3M9ImlzVXBkYXRpbmdTeXN0ZW1SdWxlcyA/ICdhbmltYXRlLXNwaW4nIDogJyciCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLndhZlNldHRpbmdzLnVwZGF0ZVJ1bGVzIikgfX0KICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxXQUZSdWxlTGlzdAogICAgICAgICAgICAgIDphY3RpdmUtcnVsZS1hY3Rpb25zLWtleT0iYWN0aXZlUnVsZUFjdGlvbnNLZXkiCiAgICAgICAgICAgICAgOmRvd25sb2FkaW5nLXJ1bGUta2V5PSJkb3dubG9hZGluZ1J1bGVLZXkiCiAgICAgICAgICAgICAgOmVtcHR5LWxhYmVsPSJ0KCdhZG1pbi53YWZTZXR0aW5ncy5ub3RTeW5jZWRTeXN0ZW1SdWxlcycpIgogICAgICAgICAgICAgIDpmb3JtYXQtcnVsZS1hc2lkZT0iZm9ybWF0UnVsZVNpemUiCiAgICAgICAgICAgICAgOmZvcm1hdC1ydWxlLW1ldGE9ImZvcm1hdFN5c3RlbVJ1bGVNZXRhIgogICAgICAgICAgICAgIDpmb3JtYXQtcnVsZS1uYW1lPSJmb3JtYXRTeXN0ZW1SdWxlTmFtZSIKICAgICAgICAgICAgICA6aXMtYnVzeT0iaXNCdXN5IgogICAgICAgICAgICAgIDppcy1jaGFuZ2luZy1ydWxlcz0iaXNDaGFuZ2luZ1J1bGVzIgogICAgICAgICAgICAgIDpsb2FkaW5nLXJ1bGUta2V5PSJsb2FkaW5nUnVsZUtleSIKICAgICAgICAgICAgICA6cnVsZXM9InN5c3RlbVJ1bGVzIgogICAgICAgICAgICAgIDpzZWxlY3RlZC1maWxlbmFtZXM9InNlbGVjdGVkU3lzdGVtUnVsZXMiCiAgICAgICAgICAgICAgc2hvdy1yZWNvbW1lbmRlZC1hY3Rpb24KICAgICAgICAgICAgICA6dG9nZ2xlLWFsbC1ydWxlcy1hY3Rpb249IigpID0+IHRvZ2dsZUFsbFJ1bGVzKCdzeXN0ZW0nKSIKICAgICAgICAgICAgICBAYWN0aXZhdGUtcnVsZS1hY3Rpb25zPSJhY3RpdmF0ZVJ1bGVBY3Rpb25zIgogICAgICAgICAgICAgIEBhcHBseS1yZWNvbW1lbmRlZD0iZW5hYmxlUmVjb21tZW5kZWRTeXN0ZW1SdWxlcyIKICAgICAgICAgICAgICBAZG93bmxvYWQtcnVsZS1maWxlPSJkb3dubG9hZFJ1bGVGaWxlIgogICAgICAgICAgICAgIEBvcGVuLXJ1bGUtcHJldmlldz0ib3BlblJ1bGVQcmV2aWV3IgogICAgICAgICAgICAgIEBzZXQtYWxsLXNlbGVjdGVkPSIoY2hlY2tlZCkgPT4gc2V0QWxsU2VsZWN0ZWQoJ3N5c3RlbScsIGNoZWNrZWQpIgogICAgICAgICAgICAgIEBzZXQtcnVsZS1zZWxlY3RlZD0iCiAgICAgICAgICAgICAgICAoZmlsZW5hbWUsIGNoZWNrZWQpID0+CiAgICAgICAgICAgICAgICAgIHNldFJ1bGVTZWxlY3RlZCgnc3lzdGVtJywgZmlsZW5hbWUsIGNoZWNrZWQpCiAgICAgICAgICAgICAgIgogICAgICAgICAgICAgIEB0b2dnbGUtcnVsZT0iKHJ1bGUsIGVuYWJsZWQpID0+IHRvZ2dsZVJ1bGUocnVsZSwgZW5hYmxlZCkiCiAgICAgICAgICAgICAgQHVwZGF0ZS1zZWxlY3RlZC1ydWxlcz0iCiAgICAgICAgICAgICAgICAoZW5hYmxlZCkgPT4gdXBkYXRlU2VsZWN0ZWRSdWxlcygnc3lzdGVtJywgZW5hYmxlZCkKICAgICAgICAgICAgICAiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgICAgPHNlY3Rpb24gY2xhc3M9InNwYWNlLXktNSBwLTYiPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTMgc206ZmxleC1yb3cgc206aXRlbXMtc3RhcnQgc206anVzdGlmeS1iZXR3ZWVuIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICAgICAgICAgIDxMYWJlbCA6Zm9yPSJgJHthMTF5SWR9LXdhZnNldHRpbmdzLTVgIiBjbGFzcz0idGV4dC1iYXNlIj4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ud2FmU2V0dGluZ3MuY3VzdG9tUnVsZXMiKSB9fQogICAgICAgICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ud2FmU2V0dGluZ3MuY3VzdG9tUnVsZXNEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc0J1c3kiCiAgICAgICAgICAgICAgICAgIEBjbGljaz0idHJpZ2dlclVwbG9hZCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPFVwbG9hZCBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi53YWZTZXR0aW5ncy51cGxvYWRSdWxlcyIpIH19CiAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICA6aWQ9ImAke2ExMXlJZH0td2Fmc2V0dGluZ3MtNWAiCiAgICAgICAgICAgICAgICAgIHJlZj0idXBsb2FkSW5wdXRSZWYiCiAgICAgICAgICAgICAgICAgIHR5cGU9ImZpbGUiCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJoaWRkZW4iCiAgICAgICAgICAgICAgICAgIGFjY2VwdD0iLmNvbmYiCiAgICAgICAgICAgICAgICAgIG11bHRpcGxlCiAgICAgICAgICAgICAgICAgIEBjaGFuZ2U9ImhhbmRsZVVwbG9hZENoYW5nZSIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPFdBRlJ1bGVMaXN0CiAgICAgICAgICAgICAgOmFjdGl2ZS1ydWxlLWFjdGlvbnMta2V5PSJhY3RpdmVSdWxlQWN0aW9uc0tleSIKICAgICAgICAgICAgICA6ZGVsZXRlLXJ1bGU9ImRlbGV0ZUN1c3RvbVJ1bGUiCiAgICAgICAgICAgICAgOmRvd25sb2FkaW5nLXJ1bGUta2V5PSJkb3dubG9hZGluZ1J1bGVLZXkiCiAgICAgICAgICAgICAgOmVtcHR5LWxhYmVsPSJ0KCdhZG1pbi53YWZTZXR0aW5ncy5ub0N1c3RvbVJ1bGVzJykiCiAgICAgICAgICAgICAgOmZvcm1hdC1ydWxlLW1ldGE9ImZvcm1hdEN1c3RvbVJ1bGVNZXRhIgogICAgICAgICAgICAgIDpmb3JtYXQtcnVsZS1uYW1lPSJmb3JtYXRDdXN0b21SdWxlTmFtZSIKICAgICAgICAgICAgICA6aXMtYnVzeT0iaXNCdXN5IgogICAgICAgICAgICAgIDppcy1jaGFuZ2luZy1ydWxlcz0iaXNDaGFuZ2luZ1J1bGVzIgogICAgICAgICAgICAgIDpsb2FkaW5nLXJ1bGUta2V5PSJsb2FkaW5nUnVsZUtleSIKICAgICAgICAgICAgICA6cnVsZXM9ImN1c3RvbVJ1bGVzIgogICAgICAgICAgICAgIDpzZWxlY3RlZC1maWxlbmFtZXM9InNlbGVjdGVkQ3VzdG9tUnVsZXMiCiAgICAgICAgICAgICAgc2hvdy1kZWxldGUKICAgICAgICAgICAgICA6dG9nZ2xlLWFsbC1ydWxlcy1hY3Rpb249IigpID0+IHRvZ2dsZUFsbFJ1bGVzKCdjdXN0b20nKSIKICAgICAgICAgICAgICBAYWN0aXZhdGUtcnVsZS1hY3Rpb25zPSJhY3RpdmF0ZVJ1bGVBY3Rpb25zIgogICAgICAgICAgICAgIEBkb3dubG9hZC1ydWxlLWZpbGU9ImRvd25sb2FkUnVsZUZpbGUiCiAgICAgICAgICAgICAgQG9wZW4tcnVsZS1wcmV2aWV3PSJvcGVuUnVsZVByZXZpZXciCiAgICAgICAgICAgICAgQHNldC1hbGwtc2VsZWN0ZWQ9IihjaGVja2VkKSA9PiBzZXRBbGxTZWxlY3RlZCgnY3VzdG9tJywgY2hlY2tlZCkiCiAgICAgICAgICAgICAgQHNldC1ydWxlLXNlbGVjdGVkPSIKICAgICAgICAgICAgICAgIChmaWxlbmFtZSwgY2hlY2tlZCkgPT4KICAgICAgICAgICAgICAgICAgc2V0UnVsZVNlbGVjdGVkKCdjdXN0b20nLCBmaWxlbmFtZSwgY2hlY2tlZCkKICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgQHRvZ2dsZS1ydWxlPSIocnVsZSwgZW5hYmxlZCkgPT4gdG9nZ2xlUnVsZShydWxlLCBlbmFibGVkKSIKICAgICAgICAgICAgICBAdXBkYXRlLXNlbGVjdGVkLXJ1bGVzPSIKICAgICAgICAgICAgICAgIChlbmFibGVkKSA9PiB1cGRhdGVTZWxlY3RlZFJ1bGVzKCdjdXN0b20nLCBlbmFibGVkKQogICAgICAgICAgICAgICIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvc2VjdGlvbj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L0NhcmRDb250ZW50PgogICAgPC9DYXJkPgogICAgPERldGFpbERpYWxvZwogICAgICB2LW1vZGVsOm9wZW49ImlzUnVsZVByZXZpZXdPcGVuIgogICAgICA6dGl0bGU9ImFjdGl2ZVJ1bGVQcmV2aWV3Py5maWxlbmFtZSB8fCB0KCdhZG1pbi53YWZTZXR0aW5ncy5ydWxlQ29udGVudCcpIgogICAgICA6ZGVzY3JpcHRpb249IgogICAgICAgIGFjdGl2ZVJ1bGVQcmV2aWV3CiAgICAgICAgICA/IGAke3NvdXJjZUxhYmVsKGFjdGl2ZVJ1bGVQcmV2aWV3LnNvdXJjZSl9IMK3ICR7Zm9ybWF0U2l6ZShhY3RpdmVSdWxlUHJldmlldy5zaXplX2J5dGVzKX0gwrcgJHtmb3JtYXREYXRlKGFjdGl2ZVJ1bGVQcmV2aWV3LnVwZGF0ZWRfYXQpfWAKICAgICAgICAgIDogJycKICAgICAgIgogICAgICBtYXgtd2lkdGgtY2xhc3M9InNtOm1heC13LVs4NDBweF0iCiAgICAgIGNsb3NlLXZhcmlhbnQ9ImRlZmF1bHQiCiAgICA+CiAgICAgIDxkaXYKICAgICAgICB2LWlmPSJhY3RpdmVSdWxlUHJldmlldyIKICAgICAgICBjbGFzcz0ib3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbWQgYm9yZGVyIGJnLW11dGVkLzIwIgogICAgICA+CiAgICAgICAgPHByZQogICAgICAgICAgY2xhc3M9Im1heC1oLVs2MHZoXSBvdmVyZmxvdy1hdXRvIHdoaXRlc3BhY2UtcHJlLXdyYXAgYnJlYWstd29yZHMgcC0zIGZvbnQtbW9ubyB0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LWZvcmVncm91bmQiCiAgICAgICAgICA+e3sgYWN0aXZlUnVsZVByZXZpZXcuY29udGVudCB9fTwvcHJlCiAgICAgICAgPgogICAgICA8L2Rpdj4KICAgIDwvRGV0YWlsRGlhbG9nPgogIDwvVG9vbHRpcFByb3ZpZGVyPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useId } from "vue";
+import { RefreshCw, TriangleAlert, Upload } from "lucide-vue-next";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Badge } from "@/components/ui/badge";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Skeleton } from "@/components/ui/skeleton";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import DetailDialog from "@admin-shared/components/common/DetailDialog.vue";
+import WAFRuleList from "./waf-settings/WAFRuleList.vue";
+import WAFBlockBehaviorSettingRow from "./waf-settings/WAFBlockBehaviorSettingRow.vue";
+import WAFSettingSwitchRow from "./waf-settings/WAFSettingSwitchRow.vue";
+import { useWAFSettings } from "./waf-settings/useWAFSettings";
+
+const a11yId = useId();
+
+const {
+  activateRuleActions,
+  activeRuleActionsKey,
+  activeRulePreview,
+  customRules,
+  deleteCustomRule,
+  details,
+  downloadingRuleKey,
+  downloadRuleFile,
+  enableRecommendedSystemRules,
+  form,
+  formatCustomRuleMeta,
+  formatCustomRuleName,
+  formatDate,
+  formatRuleSize,
+  formatSize,
+  formatSystemRuleMeta,
+  formatSystemRuleName,
+  handleAutoUpdateChange,
+  handleBlockBehaviorChange,
+  handleCommonLocationExemptChange,
+  handleEnabledChange,
+  handleParanoiaLevelChange,
+  handlePrivateIPExemptChange,
+  handleUploadChange,
+  isBusy,
+  isChangingRules,
+  isLoading,
+  isRulePreviewOpen,
+  isUpdatingSystemRules,
+  levelOptions,
+  loadingRuleKey,
+  manifestLabel,
+  openRulePreview,
+  selectedCustomRules,
+  selectedSystemRules,
+  setAllSelected,
+  setRuleSelected,
+  showLoadingSkeleton,
+  sourceLabel,
+  syncedLabel,
+  systemRules,
+  t,
+  toggleAllRules,
+  toggleRule,
+  triggerUpload,
+  updateSelectedRules,
+  updateSystemRules,
+  uploadInputRef,
+} = useWAFSettings();
+
+// Vue assigns this string template ref at runtime.
+void uploadInputRef;
+</script>
+
+<template>
+  <TooltipProvider>
+    <Card>
+      <CardHeader>
+        <div class="space-y-1.5">
+          <CardTitle class="text-md">
+            {{ t("admin.wafSettings.title") }}
+          </CardTitle>
+          <CardDescription>
+            {{ t("admin.wafSettings.description") }}
+          </CardDescription>
+        </div>
+      </CardHeader>
+
+      <CardContent v-if="isLoading && showLoadingSkeleton" class="border-t p-0">
+        <div class="space-y-4 p-6">
+          <Skeleton class="h-6 w-1/3" />
+          <Skeleton class="h-4 w-2/3" />
+          <Skeleton class="h-24 w-full" />
+        </div>
+      </CardContent>
+
+      <CardContent v-else class="border-t p-0 divide-y">
+        <section v-if="form.enabled" class="p-6">
+          <Alert
+            class="items-start rounded-xl border-amber-200 bg-amber-50/70 text-amber-950 [&>svg]:text-amber-600"
+          >
+            <TriangleAlert class="mt-0.5 h-4 w-4" />
+            <AlertTitle>
+              {{ t("admin.wafSettings.falsePositiveTitle") }}
+            </AlertTitle>
+            <AlertDescription class="text-sm leading-6 text-amber-900">
+              {{ t("admin.wafSettings.falsePositiveDescription") }}
+            </AlertDescription>
+          </Alert>
+        </section>
+
+        <WAFSettingSwitchRow
+          :description="t('admin.wafSettings.enableWafDescription')"
+          :disabled="isBusy"
+          :model-value="form.enabled"
+          muted
+          :title="t('admin.wafSettings.enableWaf')"
+          @change="handleEnabledChange"
+        />
+
+        <WAFSettingSwitchRow
+          v-if="form.enabled"
+          :description="t('admin.wafSettings.autoUpdateDescription')"
+          :disabled="isBusy"
+          :model-value="form.system_rules_auto_update_enabled"
+          :title="t('admin.wafSettings.autoUpdate')"
+          @change="handleAutoUpdateChange"
+        />
+
+        <WAFBlockBehaviorSettingRow
+          v-if="form.enabled"
+          :description="t('admin.wafSettings.blockBehaviorDescription')"
+          :disabled="isBusy"
+          :error-page-label="t('admin.wafSettings.blockBehaviorErrorPage')"
+          :model-value="form.block_behavior"
+          :reset-connection-label="
+            t('admin.wafSettings.blockBehaviorResetConnection')
+          "
+          :title="t('admin.wafSettings.blockBehavior')"
+          :warning="t('admin.wafSettings.blockBehaviorResetWarning')"
+          @update:model-value="handleBlockBehaviorChange"
+        />
+
+        <WAFSettingSwitchRow
+          v-if="form.enabled"
+          :description="t('admin.wafSettings.commonLocationExemptDescription')"
+          :disabled="isBusy"
+          :model-value="form.common_location_exempt_enabled"
+          :title="t('admin.wafSettings.commonLocationExempt')"
+          @change="handleCommonLocationExemptChange"
+        />
+
+        <WAFSettingSwitchRow
+          v-if="form.enabled"
+          :description="t('admin.wafSettings.privateIpExemptDescription')"
+          :disabled="isBusy"
+          :model-value="form.private_ip_exempt_enabled"
+          :title="t('admin.wafSettings.privateIpExempt')"
+          @change="handlePrivateIPExemptChange"
+        />
+
+        <template v-if="form.enabled">
+          <section
+            class="grid gap-6 p-6 lg:grid-cols-[minmax(0,1fr)_minmax(360px,520px)]"
+          >
+            <div class="space-y-1 pr-6">
+              <Label :for="`${a11yId}-wafsettings-4`" class="text-base">
+                {{ t("admin.wafSettings.protectionLevel") }}
+              </Label>
+              <div class="text-sm text-muted-foreground">
+                {{ t("admin.wafSettings.protectionLevelDescription") }}
+              </div>
+            </div>
+            <div class="grid justify-items-end gap-5">
+              <Select
+                :model-value="String(form.paranoia_level)"
+                :disabled="isBusy"
+                @update:model-value="handleParanoiaLevelChange"
+              >
+                <SelectTrigger :id="`${a11yId}-wafsettings-4`">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem
+                    v-for="level in levelOptions"
+                    :key="level.value"
+                    :value="level.value"
+                  >
+                    {{ level.label }} · {{ level.description }}
+                  </SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+          </section>
+
+          <section class="space-y-5 p-6">
+            <div
+              class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+            >
+              <div class="space-y-1">
+                <div class="flex items-center gap-2">
+                  <div class="text-base font-medium">
+                    {{ t("admin.wafSettings.systemRules") }}
+                  </div>
+                  <Badge
+                    v-if="details?.system.update_available"
+                    variant="secondary"
+                  >
+                    {{ t("admin.wafSettings.updateAvailable") }}
+                  </Badge>
+                </div>
+                <div class="text-sm text-muted-foreground">
+                  {{
+                    t("admin.wafSettings.manifestLocal", {
+                      manifest: manifestLabel,
+                      synced: syncedLabel,
+                    })
+                  }}
+                </div>
+                <div
+                  v-if="details?.system.manifest_last_error"
+                  class="text-sm text-destructive"
+                >
+                  {{ details.system.manifest_last_error }}
+                </div>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <Button size="sm" :disabled="isBusy" @click="updateSystemRules">
+                  <RefreshCw
+                    class="mr-2 h-4 w-4"
+                    :class="isUpdatingSystemRules ? 'animate-spin' : ''"
+                  />
+                  {{ t("admin.wafSettings.updateRules") }}
+                </Button>
+              </div>
+            </div>
+
+            <WAFRuleList
+              :active-rule-actions-key="activeRuleActionsKey"
+              :downloading-rule-key="downloadingRuleKey"
+              :empty-label="t('admin.wafSettings.notSyncedSystemRules')"
+              :format-rule-aside="formatRuleSize"
+              :format-rule-meta="formatSystemRuleMeta"
+              :format-rule-name="formatSystemRuleName"
+              :is-busy="isBusy"
+              :is-changing-rules="isChangingRules"
+              :loading-rule-key="loadingRuleKey"
+              :rules="systemRules"
+              :selected-filenames="selectedSystemRules"
+              show-recommended-action
+              :toggle-all-rules-action="() => toggleAllRules('system')"
+              @activate-rule-actions="activateRuleActions"
+              @apply-recommended="enableRecommendedSystemRules"
+              @download-rule-file="downloadRuleFile"
+              @open-rule-preview="openRulePreview"
+              @set-all-selected="(checked) => setAllSelected('system', checked)"
+              @set-rule-selected="
+                (filename, checked) =>
+                  setRuleSelected('system', filename, checked)
+              "
+              @toggle-rule="(rule, enabled) => toggleRule(rule, enabled)"
+              @update-selected-rules="
+                (enabled) => updateSelectedRules('system', enabled)
+              "
+            />
+          </section>
+
+          <section class="space-y-5 p-6">
+            <div
+              class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+            >
+              <div class="space-y-1">
+                <Label :for="`${a11yId}-wafsettings-5`" class="text-base">
+                  {{ t("admin.wafSettings.customRules") }}
+                </Label>
+                <div class="text-sm text-muted-foreground">
+                  {{ t("admin.wafSettings.customRulesDescription") }}
+                </div>
+              </div>
+              <div>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  :disabled="isBusy"
+                  @click="triggerUpload"
+                >
+                  <Upload class="mr-2 h-4 w-4" />
+                  {{ t("admin.wafSettings.uploadRules") }}
+                </Button>
+                <input
+                  :id="`${a11yId}-wafsettings-5`"
+                  ref="uploadInputRef"
+                  type="file"
+                  class="hidden"
+                  accept=".conf"
+                  multiple
+                  @change="handleUploadChange"
+                />
+              </div>
+            </div>
+
+            <WAFRuleList
+              :active-rule-actions-key="activeRuleActionsKey"
+              :delete-rule="deleteCustomRule"
+              :downloading-rule-key="downloadingRuleKey"
+              :empty-label="t('admin.wafSettings.noCustomRules')"
+              :format-rule-meta="formatCustomRuleMeta"
+              :format-rule-name="formatCustomRuleName"
+              :is-busy="isBusy"
+              :is-changing-rules="isChangingRules"
+              :loading-rule-key="loadingRuleKey"
+              :rules="customRules"
+              :selected-filenames="selectedCustomRules"
+              show-delete
+              :toggle-all-rules-action="() => toggleAllRules('custom')"
+              @activate-rule-actions="activateRuleActions"
+              @download-rule-file="downloadRuleFile"
+              @open-rule-preview="openRulePreview"
+              @set-all-selected="(checked) => setAllSelected('custom', checked)"
+              @set-rule-selected="
+                (filename, checked) =>
+                  setRuleSelected('custom', filename, checked)
+              "
+              @toggle-rule="(rule, enabled) => toggleRule(rule, enabled)"
+              @update-selected-rules="
+                (enabled) => updateSelectedRules('custom', enabled)
+              "
+            />
+          </section>
+        </template>
+      </CardContent>
+    </Card>
+    <DetailDialog
+      v-model:open="isRulePreviewOpen"
+      :title="activeRulePreview?.filename || t('admin.wafSettings.ruleContent')"
+      :description="
+        activeRulePreview
+          ? `${sourceLabel(activeRulePreview.source)} · ${formatSize(activeRulePreview.size_bytes)} · ${formatDate(activeRulePreview.updated_at)}`
+          : ''
+      "
+      max-width-class="sm:max-w-[840px]"
+      close-variant="default"
+    >
+      <div
+        v-if="activeRulePreview"
+        class="overflow-hidden rounded-md border bg-muted/20"
+      >
+        <pre
+          class="max-h-[60vh] overflow-auto whitespace-pre-wrap break-words p-3 font-mono text-xs leading-5 text-foreground"
+          >{{ activeRulePreview.content }}</pre
+        >
+      </div>
+    </DetailDialog>
+  </TooltipProvider>
+</template>

@@ -1,1 +1,38 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgeyBjcmVhdGVEZWZhdWx0TWFwcGluZyB9IGZyb20gIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvbW9kZWwiOwppbXBvcnQgeyBoYXNQZW5kaW5nSG9zdE1hcHBpbmdNZXRhZGF0YSB9IGZyb20gIi4uL3NyYy9zdG9yZS9ob3N0TWFwcGluZ01ldGFkYXRhIjsKCmNvbnN0IGNvbXBsZXRlTWFwcGluZyA9ICgpID0+ICh7CiAgLi4uY3JlYXRlRGVmYXVsdE1hcHBpbmcoKSwKICBob3N0OiAiYXBwLmV4YW1wbGUuY29tIiwKICB0YXJnZXQ6ICJodHRwOi8vMTI3LjAuMC4xOjgwODAiLAogIHRpdGxlOiAiQXBwbGljYXRpb24iLAogIGZhdmljb246ICJkYXRhOmltYWdlL3BuZztiYXNlNjQsQUE9PSIsCn0pOwoKZGVzY3JpYmUoImhvc3QgbWFwcGluZyBtZXRhZGF0YSByZWZyZXNoIHBvbGljeSIsICgpID0+IHsKICBpdCgicmVmcmVzaGVzIGluY29tcGxldGUgbWV0YWRhdGEgYnV0IGlnbm9yZXMgZW1wdHkgdGFyZ2V0cyIsICgpID0+IHsKICAgIGNvbnN0IG1hcHBpbmcgPSBjb21wbGV0ZU1hcHBpbmcoKTsKICAgIGFzc2VydC5lcXVhbChoYXNQZW5kaW5nSG9zdE1hcHBpbmdNZXRhZGF0YShbeyAuLi5tYXBwaW5nLCB0aXRsZTogIiIgfV0pLCB0cnVlKTsKICAgIGFzc2VydC5lcXVhbChoYXNQZW5kaW5nSG9zdE1hcHBpbmdNZXRhZGF0YShbeyAuLi5tYXBwaW5nLCB0YXJnZXQ6ICIiIH1dKSwgZmFsc2UpOwogIH0pOwoKICBpdCgicmVmcmVzaGVzIGF1dGhlbnRpY2F0ZWQgbWV0YWRhdGEgb25seSB3aGVuIGl0cyByZXF1ZXN0IGlkZW50aXR5IGNoYW5nZXMiLCAoKSA9PiB7CiAgICBjb25zdCBwcmV2aW91cyA9IGNvbXBsZXRlTWFwcGluZygpOwogICAgcHJldmlvdXMuYmFzaWNfYXV0aCA9IHsKICAgICAgZW5hYmxlZDogdHJ1ZSwKICAgICAgdXNlcm5hbWU6ICJyZWFkZXIiLAogICAgICBwYXNzd29yZDogInNlY3JldCIsCiAgICB9OwogICAgY29uc3QgdW5jaGFuZ2VkID0geyAuLi5wcmV2aW91cywgYmFzaWNfYXV0aDogeyAuLi5wcmV2aW91cy5iYXNpY19hdXRoIH0gfTsKICAgIGFzc2VydC5lcXVhbChoYXNQZW5kaW5nSG9zdE1hcHBpbmdNZXRhZGF0YShbdW5jaGFuZ2VkXSwgW3ByZXZpb3VzXSksIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgaGFzUGVuZGluZ0hvc3RNYXBwaW5nTWV0YWRhdGEoCiAgICAgICAgW3sgLi4udW5jaGFuZ2VkLCB0YXJnZXQ6ICJodHRwOi8vMTI3LjAuMC4xOjkwOTAiIH1dLAogICAgICAgIFtwcmV2aW91c10sCiAgICAgICksCiAgICAgIHRydWUsCiAgICApOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import { createDefaultMapping } from "../src/views/subdomain-proxy/model";
+import { hasPendingHostMappingMetadata } from "../src/store/hostMappingMetadata";
+
+const completeMapping = () => ({
+  ...createDefaultMapping(),
+  host: "app.example.com",
+  target: "http://127.0.0.1:8080",
+  title: "Application",
+  favicon: "data:image/png;base64,AA==",
+});
+
+describe("host mapping metadata refresh policy", () => {
+  it("refreshes incomplete metadata but ignores empty targets", () => {
+    const mapping = completeMapping();
+    assert.equal(hasPendingHostMappingMetadata([{ ...mapping, title: "" }]), true);
+    assert.equal(hasPendingHostMappingMetadata([{ ...mapping, target: "" }]), false);
+  });
+
+  it("refreshes authenticated metadata only when its request identity changes", () => {
+    const previous = completeMapping();
+    previous.basic_auth = {
+      enabled: true,
+      username: "reader",
+      password: "secret",
+    };
+    const unchanged = { ...previous, basic_auth: { ...previous.basic_auth } };
+    assert.equal(hasPendingHostMappingMetadata([unchanged], [previous]), false);
+    assert.equal(
+      hasPendingHostMappingMetadata(
+        [{ ...unchanged, target: "http://127.0.0.1:9090" }],
+        [previous],
+      ),
+      true,
+    );
+  });
+});

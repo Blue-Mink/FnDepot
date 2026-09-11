@@ -1,1 +1,354 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTQiPgogICAgPENhcmQgdi1pZj0iaXNJbml0aWFsaXppbmcgJiYgc2hvd0luaXRpYWxpemluZ1NrZWxldG9uIj4KICAgICAgPENhcmRIZWFkZXI+CiAgICAgICAgPENhcmRUaXRsZT57eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0Eucm9vdFRpdGxlJykgfX08L0NhcmRUaXRsZT4KICAgICAgICA8Q2FyZERlc2NyaXB0aW9uPnt7IHQoJ2FkbWluLnNlbGZTaWduZWRDQS5yb290RGVzY3JpcHRpb24nKSB9fTwvQ2FyZERlc2NyaXB0aW9uPgogICAgICA8L0NhcmRIZWFkZXI+CiAgICAgIDxDYXJkQ29udGVudCBjbGFzcz0iZ3JpZCBnYXAtNCI+CiAgICAgICAgPGRpdiBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgYmctbXV0ZWQvMzAgcC00IGdyaWQgZ2FwLTMgdGV4dC1zbSI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdyaWQtY29scy1bMTEwcHhfMWZyXSBnYXAteS0yIj4KICAgICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy0xMiIgLz4KICAgICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy02NCIgLz4KICAgICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy0xMiIgLz4KICAgICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy02NCIgLz4KICAgICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy0xMiIgLz4KICAgICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy00MCIgLz4KICAgICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy0xMiIgLz4KICAgICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy00OCIgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L0NhcmRDb250ZW50PgogICAgICA8Q2FyZEZvb3RlciBjbGFzcz0iZmxleCBnYXAtMiI+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTEwIHctMjgiIC8+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTEwIHctMjgiIC8+CiAgICAgIDwvQ2FyZEZvb3Rlcj4KICAgIDwvQ2FyZD4KCiAgICA8Q2FyZCB2LWVsc2UtaWY9IiFpc0luaXRpYWxpemluZyI+CiAgICAgIDxDYXJkSGVhZGVyPgogICAgICAgIDxDYXJkVGl0bGU+e3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLnJvb3RUaXRsZScpIH19PC9DYXJkVGl0bGU+CiAgICAgICAgPENhcmREZXNjcmlwdGlvbj57eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0Eucm9vdERlc2NyaXB0aW9uJykgfX08L0NhcmREZXNjcmlwdGlvbj4KICAgICAgPC9DYXJkSGVhZGVyPgogICAgICA8Q2FyZENvbnRlbnQgY2xhc3M9ImdyaWQgZ2FwLTQiPgogICAgICAgIDxBbGVydAogICAgICAgICAgdi1pZj0iIWhhc1Jvb3RDQSIKICAgICAgICAgIHZhcmlhbnQ9ImRlc3RydWN0aXZlIgogICAgICAgICAgY2xhc3M9ImR5bmFtaWMtd2hpdGUtZ2xhc3Mtc3VyZmFjZSIKICAgICAgICA+CiAgICAgICAgICA8QWxlcnRUaXRsZT57eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0Eubm90SW5pdGlhbGl6ZWRUaXRsZScpIH19PC9BbGVydFRpdGxlPgogICAgICAgICAgPEFsZXJ0RGVzY3JpcHRpb24+e3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLm5vdEluaXRpYWxpemVkRGVzY3JpcHRpb24nKSB9fTwvQWxlcnREZXNjcmlwdGlvbj4KICAgICAgICA8L0FsZXJ0PgogICAgICAgIDxkaXYgdi1lbHNlIGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBiZy1tdXRlZC8zMCBwLTQgZ3JpZCBnYXAtMyB0ZXh0LXNtIj4KICAgICAgICAgIDxCYWRnZQogICAgICAgICAgICB2YXJpYW50PSJkZWZhdWx0IgogICAgICAgICAgICBjbGFzcz0iZHluYW1pYy13aGl0ZS1nbGFzcy1jaGlwIGR5bmFtaWMtd2hpdGUtZ2xhc3MtY2hpcC1zdWNjZXNzIGJnLWdyZWVuLTYwMCBob3ZlcjpiZy1ncmVlbi02MDAiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBjbGFzcz0ibXItMSBoLTMgdy0zIiB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9Im5vbmUiCiAgICAgICAgICAgICAgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICAgICAgICAgICA8cGF0aCBkPSJNMTIgMjJzOC00IDgtMTBWNWwtOC0zLTggM3Y3YzAgNiA4IDEwIDggMTB6IiAvPgogICAgICAgICAgICAgIDxwYXRoIGQ9Im05IDEyIDIgMiA0LTQiIC8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICB7eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0Eucm9vdENlcnRpZmljYXRlJykgfX0KICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdyaWQtY29scy1bMTEwcHhfMWZyXSBnYXAteS0yIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCBmb250LW1lZGl1bSI+e3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLnN1YmplY3QnKSB9fTwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImZvbnQtbW9ubyB0ZXh0LXhzIGJyZWFrLWFsbCI+e3sgY2FJbmZvPy5zdWJqZWN0IH19PC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGZvbnQtbWVkaXVtIj57eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0EuaXNzdWVyJykgfX08L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJmb250LW1vbm8gdGV4dC14cyBicmVhay1hbGwiPnt7IGNhSW5mbz8uaXNzdWVyIH19PC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGZvbnQtbWVkaXVtIj57eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0EudmFsaWRpdHknKSB9fTwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9InRleHQteHMiPgogICAgICAgICAgICAgIDxzcGFuPnt7IGNhSW5mbyA/IGZvcm1hdERhdGUoY2FJbmZvLnZhbGlkRnJvbSkgOiAnJyB9fTwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0ibXgtMSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt7IHQoJ2FkbWluLnNlbGZTaWduZWRDQS50bycpIH19PC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuPnt7IGNhSW5mbyA/IGZvcm1hdERhdGUoY2FJbmZvLnZhbGlkVG8pIDogJycgfX08L3NwYW4+CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCBmb250LW1lZGl1bSI+e3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLnNlcmlhbE51bWJlcicpIH19PC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iZm9udC1tb25vIHRleHQteHMgYnJlYWstYWxsIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3sgY2FJbmZvPy5zZXJpYWxOdW1iZXIgfX08L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgPENhcmRGb290ZXIgY2xhc3M9ImZsZXggZ2FwLTIiPgogICAgICAgIDxCdXR0b24gdi1pZj0iIWhhc1Jvb3RDQSIgQGNsaWNrPSJnZW5lcmF0ZVJvb3RDQSIgOmRpc2FibGVkPSJpc0J1c3kiPgogICAgICAgICAgPHNwYW4gdi1pZj0iaXNCdXN5IgogICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLWJhY2tncm91bmQgYm9yZGVyLXQtZm9yZWdyb3VuZCI+PC9zcGFuPgogICAgICAgICAge3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLmluaXRpYWxpemVSb290JykgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8dGVtcGxhdGUgdi1lbHNlPgoKICAgICAgICAgIDxkaXYgY2xhc3M9ImlubGluZS1mbGV4IGl0ZW1zLXN0cmV0Y2giPgogICAgICAgICAgICA8QnV0dG9uR3JvdXA+CiAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBAY2xpY2s9ImRvd25sb2FkQ0EiIDpkaXNhYmxlZD0iaXNCdXN5IHx8IGlzRG93bmxvYWRpbmciPnt7IHQoJ2FkbWluLnNlbGZTaWduZWRDQS5kb3dubG9hZFJvb3QnKSB9fTwvQnV0dG9uPgogICAgICAgICAgICAgIDxEcm9wZG93bk1lbnU+CiAgICAgICAgICAgICAgICA8RHJvcGRvd25NZW51VHJpZ2dlciBhcy1jaGlsZD4KICAgICAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBzaXplPSJpY29uIiA6YXJpYS1sYWJlbD0idCgnYWRtaW4uc2VsZlNpZ25lZENBLm1vcmVBY3Rpb25zJykiIDpkaXNhYmxlZD0iaXNCdXN5IHx8IGlzRG93bmxvYWRpbmciPgogICAgICAgICAgICAgICAgICAgIDxNb3JlSG9yaXpvbnRhbCBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICA8L0Ryb3Bkb3duTWVudVRyaWdnZXI+CiAgICAgICAgICAgICAgICA8RHJvcGRvd25NZW51Q29udGVudCBhbGlnbj0iZW5kIiBjbGFzcz0idy01MiI+CiAgICAgICAgICAgICAgICAgIDxEcm9wZG93bk1lbnVHcm91cD4KICAgICAgICAgICAgICAgICAgICA8RHJvcGRvd25NZW51SXRlbSBAY2xpY2s9Im9wZW5SZWdlbkZpcnN0Q29uZmlybSI+CiAgICAgICAgICAgICAgICAgICAgICA8UmVmcmVzaEN3IGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICAgICAgICB7eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0EucmVnZW5lcmF0ZScpIH19CiAgICAgICAgICAgICAgICAgICAgPC9Ecm9wZG93bk1lbnVJdGVtPgogICAgICAgICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUdyb3VwPgogICAgICAgICAgICAgICAgICA8RHJvcGRvd25NZW51U2VwYXJhdG9yIC8+CiAgICAgICAgICAgICAgICAgIDxEcm9wZG93bk1lbnVHcm91cD4KICAgICAgICAgICAgICAgICAgICA8RHJvcGRvd25NZW51SXRlbSB2YXJpYW50PSJkZXN0cnVjdGl2ZSIgQGNsaWNrPSJvcGVuRmlyc3RDb25maXJtIj4KICAgICAgICAgICAgICAgICAgICAgIDxUcmFzaDIgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgICAgICAgICAgICAgIHt7IHQoJ2FkbWluLnNlbGZTaWduZWRDQS5jbGVhclJvb3QnKSB9fQogICAgICAgICAgICAgICAgICAgIDwvRHJvcGRvd25NZW51SXRlbT4KICAgICAgICAgICAgICAgICAgPC9Ecm9wZG93bk1lbnVHcm91cD4KICAgICAgICAgICAgICAgIDwvRHJvcGRvd25NZW51Q29udGVudD4KICAgICAgICAgICAgICA8L0Ryb3Bkb3duTWVudT4KICAgICAgICAgICAgPC9CdXR0b25Hcm91cD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwvQ2FyZEZvb3Rlcj4KICAgIDwvQ2FyZD4KICAgIDxDYXJkIHYtZWxzZSBjbGFzcz0ibWluLWgtWzI2MHB4XSIgYXJpYS1oaWRkZW49InRydWUiID48L0NhcmQ+CgogICAgPENhcmQgdi1pZj0iIWlzSW5pdGlhbGl6aW5nIj4KICAgICAgPENhcmRIZWFkZXI+CiAgICAgICAgPENhcmRUaXRsZT57eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0EuaG9zdExpc3RUaXRsZScpIH19PC9DYXJkVGl0bGU+CiAgICAgICAgPENhcmREZXNjcmlwdGlvbj57eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0EuaG9zdExpc3REZXNjcmlwdGlvbicpIH19PC9DYXJkRGVzY3JpcHRpb24+CiAgICAgIDwvQ2FyZEhlYWRlcj4KICAgICAgPENhcmRDb250ZW50IGNsYXNzPSJncmlkIGdhcC0zIj4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGdhcC0yIj4KICAgICAgICAgIDxJbnB1dCA6YXJpYS1sYWJlbD0idCgnYWRtaW4uc2VsZlNpZ25lZENBLmhvc3RQbGFjZWhvbGRlcicpIiB2LW1vZGVsPSJuZXdIb3N0IiA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLnNlbGZTaWduZWRDQS5ob3N0UGxhY2Vob2xkZXInKSIgQGtleWRvd24uZW50ZXIucHJldmVudD0iYWRkSG9zdCIgLz4KICAgICAgICAgIDxCdXR0b24gQGNsaWNrPSJhZGRIb3N0IiA6ZGlzYWJsZWQ9IiFwZW5kaW5nSG9zdHMubGVuZ3RoIj57eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0EuYWRkJykgfX08L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJyb3VuZGVkLW1kIGJvcmRlciBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgICAgPFRhYmxlPgogICAgICAgICAgICA8VGFibGVIZWFkZXI+CiAgICAgICAgICAgICAgPFRhYmxlUm93PgogICAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bNjBweF0iPiM8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLmhvc3RPcklwJykgfX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9InctWzEyMHB4XSI+e3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLnR5cGUnKSB9fTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bMTAwcHhdIj57eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0EuYWN0aW9ucycpIH19PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgPC9UYWJsZUhlYWRlcj4KICAgICAgICAgICAgPFRhYmxlQm9keT4KICAgICAgICAgICAgICA8VGFibGVSb3cgdi1mb3I9IihoLCBpZHgpIGluIGhvc3RzIiA6a2V5PSJoICsgaWR4Ij4KICAgICAgICAgICAgICAgIDxUYWJsZUNlbGw+e3sgaWR4ICsgMSB9fTwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0iZm9udC1tb25vIHRleHQteHMiPnt7IGggfX08L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgIDxUYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgIDxCYWRnZSB2YXJpYW50PSJzZWNvbmRhcnkiPnt7IGlzSVAoaCkgPyAnSVAnIDogJ0ROUycgfX08L0JhZGdlPgogICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICAgICAgICA8Q29uZmlybURhbmdlclBvcG92ZXIKICAgICAgICAgICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLnNlbGZTaWduZWRDQS5jb25maXJtUmVtb3ZlSG9zdFRpdGxlJykiCiAgICAgICAgICAgICAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5zZWxmU2lnbmVkQ0EuY29uZmlybVJlbW92ZUhvc3REZXNjcmlwdGlvbicpIgogICAgICAgICAgICAgICAgICAgIDpjb25maXJtLXRleHQ9InQoJ2FkbWluLnNlbGZTaWduZWRDQS5jb25maXJtUmVtb3ZlJykiCiAgICAgICAgICAgICAgICAgICAgOmxvYWRpbmc9ImlzUmVtb3ZpbmcgJiYgcmVtb3ZpbmdIb3N0ID09PSBoIgogICAgICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNSZW1vdmluZyAmJiByZW1vdmluZ0hvc3QgPT09IGgiCiAgICAgICAgICAgICAgICAgICAgOm9uLWNvbmZpcm09IigpID0+IGNvbmZpcm1SZW1vdmVIb3N0KGgpIgogICAgICAgICAgICAgICAgICAgIGNvbnRlbnQtY2xhc3M9InctNzIgdGV4dC1sZWZ0IgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgdmFyaWFudD0iZGVzdHJ1Y3RpdmUtb3V0bGluZSIgOmRpc2FibGVkPSJpc1JlbW92aW5nICYmIHJlbW92aW5nSG9zdCA9PT0gaCI+e3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLnJlbW92ZScpIH19PC9CdXR0b24+CiAgICAgICAgICAgICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgICAgICAgICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICAgICAgPFRhYmxlUm93IHYtaWY9IiFob3N0cy5sZW5ndGgiPgogICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjb2xzcGFuPSI0IiBjbGFzcz0idGV4dC1jZW50ZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0Eubm9FbnRyaWVzJykgfX08L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgICA8L1RhYmxlQm9keT4KICAgICAgICAgIDwvVGFibGU+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICAgIDxDYXJkRm9vdGVyIGNsYXNzPSJmbGV4IGp1c3RpZnktZW5kIj4KICAgICAgICA8QnV0dG9uIEBjbGljaz0iaXNzdWVBbmRJbnN0YWxsIiA6ZGlzYWJsZWQ9IiFoYXNSb290Q0EgfHwgIWhvc3RzLmxlbmd0aCB8fCBpc0J1c3kiPgogICAgICAgICAgPHNwYW4gdi1pZj0iaXNCdXN5IgogICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLWJhY2tncm91bmQgYm9yZGVyLXQtZm9yZWdyb3VuZCI+PC9zcGFuPgogICAgICAgICAge3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLmRlcGxveScpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBjbGFzcz0ibWwtMiIgQGNsaWNrPSJkb3dubG9hZFNlcnZlciIgOmRpc2FibGVkPSJpc0J1c3kgfHwgaXNEb3dubG9hZGluZyI+e3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLmRvd25sb2FkQ2VydGlmaWNhdGUnKSB9fTwvQnV0dG9uPgogICAgICA8L0NhcmRGb290ZXI+CiAgICA8L0NhcmQ+CiAgICA8Q2FyZCB2LWVsc2UtaWY9InNob3dJbml0aWFsaXppbmdTa2VsZXRvbiI+CiAgICAgIDxDYXJkSGVhZGVyPgogICAgICAgIDxDYXJkVGl0bGU+e3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLmhvc3RMaXN0VGl0bGUnKSB9fTwvQ2FyZFRpdGxlPgogICAgICAgIDxDYXJkRGVzY3JpcHRpb24+e3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLmhvc3RMaXN0RGVzY3JpcHRpb24nKSB9fTwvQ2FyZERlc2NyaXB0aW9uPgogICAgICA8L0NhcmRIZWFkZXI+CiAgICAgIDxDYXJkQ29udGVudCBjbGFzcz0iZ3JpZCBnYXAtMyI+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBnYXAtMiI+CiAgICAgICAgICA8U2tlbGV0b24gY2xhc3M9ImgtOSB3LTgwIiAvPgogICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTkgdy0yMCIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJyb3VuZGVkLW1kIGJvcmRlciBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgICAgPFRhYmxlPgogICAgICAgICAgICA8VGFibGVIZWFkZXI+CiAgICAgICAgICAgICAgPFRhYmxlUm93PgogICAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bNjBweF0iPiM8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLmhvc3RPcklwJykgfX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9InctWzEyMHB4XSI+e3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLnR5cGUnKSB9fTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bMTAwcHhdIj57eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0EuYWN0aW9ucycpIH19PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgPC9UYWJsZUhlYWRlcj4KICAgICAgICAgICAgPFRhYmxlQm9keT4KICAgICAgICAgICAgICA8VGFibGVSb3cgdi1mb3I9Im4gaW4gNSIgOmtleT0ibiI+CiAgICAgICAgICAgICAgICA8VGFibGVDZWxsPjxTa2VsZXRvbiBjbGFzcz0iaC00IHctNCIgLz48L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgIDxUYWJsZUNlbGw+PFNrZWxldG9uIGNsYXNzPSJoLTQgdy02NCIgLz48L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgIDxUYWJsZUNlbGw+PFNrZWxldG9uIGNsYXNzPSJoLTQgdy0xMCIgLz48L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgIDxUYWJsZUNlbGw+PFNrZWxldG9uIGNsYXNzPSJoLTggdy0xNiByb3VuZGVkLW1kIiAvPjwvVGFibGVDZWxsPgogICAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICAgIDwvVGFibGVCb2R5PgogICAgICAgICAgPC9UYWJsZT4KICAgICAgICA8L2Rpdj4KICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgPENhcmRGb290ZXIgY2xhc3M9ImZsZXgganVzdGlmeS1lbmQiPgogICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC0xMCB3LTI4IiAvPgogICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC0xMCB3LTI4IG1sLTIiIC8+CiAgICAgIDwvQ2FyZEZvb3Rlcj4KICAgIDwvQ2FyZD4KICAgIDxDYXJkIHYtZWxzZSBjbGFzcz0ibWluLWgtWzMyMHB4XSIgYXJpYS1oaWRkZW49InRydWUiID48L0NhcmQ+CiAgICA8RGlhbG9nIDpvcGVuPSJzaG93Rmlyc3RDb25maXJtIiBAdXBkYXRlOm9wZW49InNob3dGaXJzdENvbmZpcm0gPSAkZXZlbnQiPgogICAgICA8RGlhbG9nQ29udGVudD4KICAgICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgICAgPERpYWxvZ1RpdGxlPnt7IHQoJ2FkbWluLnNlbGZTaWduZWRDQS5jb25maXJtQ2xlYXJUaXRsZScpIH19PC9EaWFsb2dUaXRsZT4KICAgICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj57eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0EuY29uZmlybUNsZWFyRGVzY3JpcHRpb24nKSB9fTwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ0Zvb3Rlcj4KICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgQGNsaWNrPSJzaG93Rmlyc3RDb25maXJtID0gZmFsc2UiPnt7IHQoJ2NvbW1vbi5jYW5jZWwnKSB9fTwvQnV0dG9uPgogICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJkZXN0cnVjdGl2ZSIgQGNsaWNrPSJjb25maXJtRmlyc3QiIDpkaXNhYmxlZD0iaXNDbGVhcmluZyI+CiAgICAgICAgICAgIDxzcGFuIHYtaWY9ImlzQ2xlYXJpbmciCiAgICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiPjwvc3Bhbj4KICAgICAgICAgICAge3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLm5leHRTdGVwJykgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgICA8L0RpYWxvZz4KICAgIDxEaWFsb2cgOm9wZW49InNob3dTZWNvbmRDb25maXJtIiBAdXBkYXRlOm9wZW49InNob3dTZWNvbmRDb25maXJtID0gJGV2ZW50Ij4KICAgICAgPERpYWxvZ0NvbnRlbnQ+CiAgICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICAgIDxEaWFsb2dUaXRsZT57eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0Euc2Vjb25kQ29uZmlybVRpdGxlJykgfX08L0RpYWxvZ1RpdGxlPgogICAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPnt7IHQoJ2FkbWluLnNlbGZTaWduZWRDQS5zZWNvbmRDbGVhckRlc2NyaXB0aW9uJykgfX08L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgIDwvRGlhbG9nSGVhZGVyPgogICAgICAgIDxEaWFsb2dGb290ZXI+CiAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0ic2hvd1NlY29uZENvbmZpcm0gPSBmYWxzZSI+e3sgdCgnY29tbW9uLmNhbmNlbCcpIH19PC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9ImRlc3RydWN0aXZlIiBAY2xpY2s9ImNvbmZpcm1GaW5hbENsZWFyIiA6ZGlzYWJsZWQ9ImlzQ2xlYXJpbmciPgogICAgICAgICAgICA8c3BhbiB2LWlmPSJpc0NsZWFyaW5nIgogICAgICAgICAgICAgIGNsYXNzPSJtci0yIGgtNCB3LTQgYW5pbWF0ZS1zcGluIHJvdW5kZWQtZnVsbCBib3JkZXItMiBib3JkZXItYmFja2dyb3VuZCBib3JkZXItdC1mb3JlZ3JvdW5kIj48L3NwYW4+CiAgICAgICAgICAgIHt7IHQoJ2FkbWluLnNlbGZTaWduZWRDQS5jb25maXJtQ2xlYXInKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICAgIDwvRGlhbG9nQ29udGVudD4KICAgIDwvRGlhbG9nPgogICAgPERpYWxvZyA6b3Blbj0ic2hvd1JlZ2VuRmlyc3RDb25maXJtIiBAdXBkYXRlOm9wZW49InNob3dSZWdlbkZpcnN0Q29uZmlybSA9ICRldmVudCI+CiAgICAgIDxEaWFsb2dDb250ZW50PgogICAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgICA8RGlhbG9nVGl0bGU+e3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLmNvbmZpcm1SZWdlbmVyYXRlVGl0bGUnKSB9fTwvRGlhbG9nVGl0bGU+CiAgICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+e3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLmNvbmZpcm1SZWdlbmVyYXRlRGVzY3JpcHRpb24nKSB9fTwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ0Zvb3Rlcj4KICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgQGNsaWNrPSJzaG93UmVnZW5GaXJzdENvbmZpcm0gPSBmYWxzZSI+e3sgdCgnY29tbW9uLmNhbmNlbCcpIH19PC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9ImRlc3RydWN0aXZlIiBAY2xpY2s9ImNvbmZpcm1SZWdlbkZpcnN0IiA6ZGlzYWJsZWQ9ImlzUmVnZW5lcmF0aW5nIj4KICAgICAgICAgICAgPHNwYW4gdi1pZj0iaXNSZWdlbmVyYXRpbmciCiAgICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiPjwvc3Bhbj4KICAgICAgICAgICAge3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLm5leHRTdGVwJykgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgICA8L0RpYWxvZz4KICAgIDxEaWFsb2cgOm9wZW49InNob3dSZWdlblNlY29uZENvbmZpcm0iIEB1cGRhdGU6b3Blbj0ic2hvd1JlZ2VuU2Vjb25kQ29uZmlybSA9ICRldmVudCI+CiAgICAgIDxEaWFsb2dDb250ZW50PgogICAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgICA8RGlhbG9nVGl0bGU+e3sgdCgnYWRtaW4uc2VsZlNpZ25lZENBLnNlY29uZENvbmZpcm1UaXRsZScpIH19PC9EaWFsb2dUaXRsZT4KICAgICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj57eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0Euc2Vjb25kUmVnZW5lcmF0ZURlc2NyaXB0aW9uJykgfX08L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgIDwvRGlhbG9nSGVhZGVyPgogICAgICAgIDxEaWFsb2dGb290ZXI+CiAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0ic2hvd1JlZ2VuU2Vjb25kQ29uZmlybSA9IGZhbHNlIj57eyB0KCdjb21tb24uY2FuY2VsJykgfX08L0J1dHRvbj4KICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZGVzdHJ1Y3RpdmUiIEBjbGljaz0iY29uZmlybUZpbmFsUmVnZW4iIDpkaXNhYmxlZD0iaXNSZWdlbmVyYXRpbmciPgogICAgICAgICAgICA8c3BhbiB2LWlmPSJpc1JlZ2VuZXJhdGluZyIKICAgICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLWJhY2tncm91bmQgYm9yZGVyLXQtZm9yZWdyb3VuZCI+PC9zcGFuPgogICAgICAgICAgICB7eyB0KCdhZG1pbi5zZWxmU2lnbmVkQ0EuY29uZmlybVJlZ2VuZXJhdGUnKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICAgIDwvRGlhbG9nQ29udGVudD4KICAgIDwvRGlhbG9nPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7CiAgQ2FyZCwKICBDYXJkQ29udGVudCwKICBDYXJkRGVzY3JpcHRpb24sCiAgQ2FyZEZvb3RlciwKICBDYXJkSGVhZGVyLAogIENhcmRUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7IEFsZXJ0LCBBbGVydERlc2NyaXB0aW9uLCBBbGVydFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2FsZXJ0IjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQnV0dG9uR3JvdXAgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uLWdyb3VwIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgewogIERyb3Bkb3duTWVudSwKICBEcm9wZG93bk1lbnVDb250ZW50LAogIERyb3Bkb3duTWVudUdyb3VwLAogIERyb3Bkb3duTWVudUl0ZW0sCiAgRHJvcGRvd25NZW51U2VwYXJhdG9yLAogIERyb3Bkb3duTWVudVRyaWdnZXIsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2Ryb3Bkb3duLW1lbnUiOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IFNrZWxldG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NrZWxldG9uIjsKaW1wb3J0IHsKICBUYWJsZSwKICBUYWJsZUJvZHksCiAgVGFibGVDZWxsLAogIFRhYmxlSGVhZCwKICBUYWJsZUhlYWRlciwKICBUYWJsZVJvdywKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFibGUiOwppbXBvcnQgeyBNb3JlSG9yaXpvbnRhbCwgUmVmcmVzaEN3LCBUcmFzaDIgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgQ29uZmlybURhbmdlclBvcG92ZXIgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtRGFuZ2VyUG9wb3Zlci52dWUiOwppbXBvcnQgeyB1c2VTZWxmU2lnbmVkQ0EgfSBmcm9tICIuL3VzZVNlbGZTaWduZWRDQSI7Cgpjb25zdCB7IGxvY2FsZSwgdCB9ID0gdXNlSTE4bigpOwpjb25zdCB7CiAgYWRkSG9zdCwKICBjYUluZm8sCiAgY29uZmlybUZpbmFsQ2xlYXIsCiAgY29uZmlybUZpbmFsUmVnZW4sCiAgY29uZmlybUZpcnN0LAogIGNvbmZpcm1SZWdlbkZpcnN0LAogIGNvbmZpcm1SZW1vdmVIb3N0LAogIGRvd25sb2FkQ0EsCiAgZG93bmxvYWRTZXJ2ZXIsCiAgZm9ybWF0RGF0ZSwKICBnZW5lcmF0ZVJvb3RDQSwKICBoYXNSb290Q0EsCiAgaG9zdHMsCiAgaXNCdXN5LAogIGlzQ2xlYXJpbmcsCiAgaXNEb3dubG9hZGluZywKICBpc0lQLAogIGlzSW5pdGlhbGl6aW5nLAogIGlzUmVnZW5lcmF0aW5nLAogIGlzUmVtb3ZpbmcsCiAgaXNzdWVBbmRJbnN0YWxsLAogIG5ld0hvc3QsCiAgb3BlbkZpcnN0Q29uZmlybSwKICBvcGVuUmVnZW5GaXJzdENvbmZpcm0sCiAgcGVuZGluZ0hvc3RzLAogIHJlbW92aW5nSG9zdCwKICBzaG93Rmlyc3RDb25maXJtLAogIHNob3dJbml0aWFsaXppbmdTa2VsZXRvbiwKICBzaG93UmVnZW5GaXJzdENvbmZpcm0sCiAgc2hvd1JlZ2VuU2Vjb25kQ29uZmlybSwKICBzaG93U2Vjb25kQ29uZmlybSwKfSA9IHVzZVNlbGZTaWduZWRDQSh7CiAgbG9jYWxlLAogIHRyYW5zbGF0ZTogKGtleSwgcGFyYW1zKSA9PiAocGFyYW1zID8gdChrZXksIHBhcmFtcykgOiB0KGtleSkpLAp9KTsKPC9zY3JpcHQ+Cg==
+<template>
+  <div class="grid gap-4">
+    <Card v-if="isInitializing && showInitializingSkeleton">
+      <CardHeader>
+        <CardTitle>{{ t('admin.selfSignedCA.rootTitle') }}</CardTitle>
+        <CardDescription>{{ t('admin.selfSignedCA.rootDescription') }}</CardDescription>
+      </CardHeader>
+      <CardContent class="grid gap-4">
+        <div class="rounded-lg border bg-muted/30 p-4 grid gap-3 text-sm">
+          <div class="grid grid-cols-[110px_1fr] gap-y-2">
+            <Skeleton class="h-4 w-12" />
+            <Skeleton class="h-4 w-64" />
+            <Skeleton class="h-4 w-12" />
+            <Skeleton class="h-4 w-64" />
+            <Skeleton class="h-4 w-12" />
+            <Skeleton class="h-4 w-40" />
+            <Skeleton class="h-4 w-12" />
+            <Skeleton class="h-4 w-48" />
+          </div>
+        </div>
+      </CardContent>
+      <CardFooter class="flex gap-2">
+        <Skeleton class="h-10 w-28" />
+        <Skeleton class="h-10 w-28" />
+      </CardFooter>
+    </Card>
+
+    <Card v-else-if="!isInitializing">
+      <CardHeader>
+        <CardTitle>{{ t('admin.selfSignedCA.rootTitle') }}</CardTitle>
+        <CardDescription>{{ t('admin.selfSignedCA.rootDescription') }}</CardDescription>
+      </CardHeader>
+      <CardContent class="grid gap-4">
+        <Alert
+          v-if="!hasRootCA"
+          variant="destructive"
+          class="dynamic-white-glass-surface"
+        >
+          <AlertTitle>{{ t('admin.selfSignedCA.notInitializedTitle') }}</AlertTitle>
+          <AlertDescription>{{ t('admin.selfSignedCA.notInitializedDescription') }}</AlertDescription>
+        </Alert>
+        <div v-else class="rounded-lg border bg-muted/30 p-4 grid gap-3 text-sm">
+          <Badge
+            variant="default"
+            class="dynamic-white-glass-chip dynamic-white-glass-chip-success bg-green-600 hover:bg-green-600"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 h-3 w-3" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              <path d="m9 12 2 2 4-4" />
+            </svg>
+            {{ t('admin.selfSignedCA.rootCertificate') }}
+          </Badge>
+          <div class="grid grid-cols-[110px_1fr] gap-y-2">
+            <span class="text-muted-foreground font-medium">{{ t('admin.selfSignedCA.subject') }}</span>
+            <span class="font-mono text-xs break-all">{{ caInfo?.subject }}</span>
+            <span class="text-muted-foreground font-medium">{{ t('admin.selfSignedCA.issuer') }}</span>
+            <span class="font-mono text-xs break-all">{{ caInfo?.issuer }}</span>
+            <span class="text-muted-foreground font-medium">{{ t('admin.selfSignedCA.validity') }}</span>
+            <span class="text-xs">
+              <span>{{ caInfo ? formatDate(caInfo.validFrom) : '' }}</span>
+              <span class="mx-1 text-muted-foreground">{{ t('admin.selfSignedCA.to') }}</span>
+              <span>{{ caInfo ? formatDate(caInfo.validTo) : '' }}</span>
+            </span>
+            <span class="text-muted-foreground font-medium">{{ t('admin.selfSignedCA.serialNumber') }}</span>
+            <span class="font-mono text-xs break-all text-muted-foreground">{{ caInfo?.serialNumber }}</span>
+          </div>
+        </div>
+      </CardContent>
+      <CardFooter class="flex gap-2">
+        <Button v-if="!hasRootCA" @click="generateRootCA" :disabled="isBusy">
+          <span v-if="isBusy"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"></span>
+          {{ t('admin.selfSignedCA.initializeRoot') }}
+        </Button>
+        <template v-else>
+
+          <div class="inline-flex items-stretch">
+            <ButtonGroup>
+              <Button variant="outline" @click="downloadCA" :disabled="isBusy || isDownloading">{{ t('admin.selfSignedCA.downloadRoot') }}</Button>
+              <DropdownMenu>
+                <DropdownMenuTrigger as-child>
+                  <Button variant="outline" size="icon" :aria-label="t('admin.selfSignedCA.moreActions')" :disabled="isBusy || isDownloading">
+                    <MoreHorizontal class="h-4 w-4" />
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end" class="w-52">
+                  <DropdownMenuGroup>
+                    <DropdownMenuItem @click="openRegenFirstConfirm">
+                      <RefreshCw class="mr-2 h-4 w-4" />
+                      {{ t('admin.selfSignedCA.regenerate') }}
+                    </DropdownMenuItem>
+                  </DropdownMenuGroup>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuGroup>
+                    <DropdownMenuItem variant="destructive" @click="openFirstConfirm">
+                      <Trash2 class="mr-2 h-4 w-4" />
+                      {{ t('admin.selfSignedCA.clearRoot') }}
+                    </DropdownMenuItem>
+                  </DropdownMenuGroup>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </ButtonGroup>
+          </div>
+        </template>
+      </CardFooter>
+    </Card>
+    <Card v-else class="min-h-[260px]" aria-hidden="true" ></Card>
+
+    <Card v-if="!isInitializing">
+      <CardHeader>
+        <CardTitle>{{ t('admin.selfSignedCA.hostListTitle') }}</CardTitle>
+        <CardDescription>{{ t('admin.selfSignedCA.hostListDescription') }}</CardDescription>
+      </CardHeader>
+      <CardContent class="grid gap-3">
+        <div class="flex gap-2">
+          <Input :aria-label="t('admin.selfSignedCA.hostPlaceholder')" v-model="newHost" :placeholder="t('admin.selfSignedCA.hostPlaceholder')" @keydown.enter.prevent="addHost" />
+          <Button @click="addHost" :disabled="!pendingHosts.length">{{ t('admin.selfSignedCA.add') }}</Button>
+        </div>
+        <div class="rounded-md border overflow-hidden">
+          <Table>
+            <TableHeader>
+              <TableRow>
+                <TableHead class="w-[60px]">#</TableHead>
+                <TableHead>{{ t('admin.selfSignedCA.hostOrIp') }}</TableHead>
+                <TableHead class="w-[120px]">{{ t('admin.selfSignedCA.type') }}</TableHead>
+                <TableHead class="w-[100px]">{{ t('admin.selfSignedCA.actions') }}</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              <TableRow v-for="(h, idx) in hosts" :key="h + idx">
+                <TableCell>{{ idx + 1 }}</TableCell>
+                <TableCell class="font-mono text-xs">{{ h }}</TableCell>
+                <TableCell>
+                  <Badge variant="secondary">{{ isIP(h) ? 'IP' : 'DNS' }}</Badge>
+                </TableCell>
+                <TableCell>
+                  <ConfirmDangerPopover
+                    :title="t('admin.selfSignedCA.confirmRemoveHostTitle')"
+                    :description="t('admin.selfSignedCA.confirmRemoveHostDescription')"
+                    :confirm-text="t('admin.selfSignedCA.confirmRemove')"
+                    :loading="isRemoving && removingHost === h"
+                    :disabled="isRemoving && removingHost === h"
+                    :on-confirm="() => confirmRemoveHost(h)"
+                    content-class="w-72 text-left"
+                  >
+                    <template #trigger>
+                      <Button size="sm" variant="destructive-outline" :disabled="isRemoving && removingHost === h">{{ t('admin.selfSignedCA.remove') }}</Button>
+                    </template>
+                  </ConfirmDangerPopover>
+                </TableCell>
+              </TableRow>
+              <TableRow v-if="!hosts.length">
+                <TableCell colspan="4" class="text-center text-muted-foreground">{{ t('admin.selfSignedCA.noEntries') }}</TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </div>
+      </CardContent>
+      <CardFooter class="flex justify-end">
+        <Button @click="issueAndInstall" :disabled="!hasRootCA || !hosts.length || isBusy">
+          <span v-if="isBusy"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"></span>
+          {{ t('admin.selfSignedCA.deploy') }}
+        </Button>
+        <Button variant="outline" class="ml-2" @click="downloadServer" :disabled="isBusy || isDownloading">{{ t('admin.selfSignedCA.downloadCertificate') }}</Button>
+      </CardFooter>
+    </Card>
+    <Card v-else-if="showInitializingSkeleton">
+      <CardHeader>
+        <CardTitle>{{ t('admin.selfSignedCA.hostListTitle') }}</CardTitle>
+        <CardDescription>{{ t('admin.selfSignedCA.hostListDescription') }}</CardDescription>
+      </CardHeader>
+      <CardContent class="grid gap-3">
+        <div class="flex gap-2">
+          <Skeleton class="h-9 w-80" />
+          <Skeleton class="h-9 w-20" />
+        </div>
+        <div class="rounded-md border overflow-hidden">
+          <Table>
+            <TableHeader>
+              <TableRow>
+                <TableHead class="w-[60px]">#</TableHead>
+                <TableHead>{{ t('admin.selfSignedCA.hostOrIp') }}</TableHead>
+                <TableHead class="w-[120px]">{{ t('admin.selfSignedCA.type') }}</TableHead>
+                <TableHead class="w-[100px]">{{ t('admin.selfSignedCA.actions') }}</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              <TableRow v-for="n in 5" :key="n">
+                <TableCell><Skeleton class="h-4 w-4" /></TableCell>
+                <TableCell><Skeleton class="h-4 w-64" /></TableCell>
+                <TableCell><Skeleton class="h-4 w-10" /></TableCell>
+                <TableCell><Skeleton class="h-8 w-16 rounded-md" /></TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </div>
+      </CardContent>
+      <CardFooter class="flex justify-end">
+        <Skeleton class="h-10 w-28" />
+        <Skeleton class="h-10 w-28 ml-2" />
+      </CardFooter>
+    </Card>
+    <Card v-else class="min-h-[320px]" aria-hidden="true" ></Card>
+    <Dialog :open="showFirstConfirm" @update:open="showFirstConfirm = $event">
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>{{ t('admin.selfSignedCA.confirmClearTitle') }}</DialogTitle>
+          <DialogDescription>{{ t('admin.selfSignedCA.confirmClearDescription') }}</DialogDescription>
+        </DialogHeader>
+        <DialogFooter>
+          <Button variant="outline" @click="showFirstConfirm = false">{{ t('common.cancel') }}</Button>
+          <Button variant="destructive" @click="confirmFirst" :disabled="isClearing">
+            <span v-if="isClearing"
+              class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"></span>
+            {{ t('admin.selfSignedCA.nextStep') }}
+          </Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+    <Dialog :open="showSecondConfirm" @update:open="showSecondConfirm = $event">
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>{{ t('admin.selfSignedCA.secondConfirmTitle') }}</DialogTitle>
+          <DialogDescription>{{ t('admin.selfSignedCA.secondClearDescription') }}</DialogDescription>
+        </DialogHeader>
+        <DialogFooter>
+          <Button variant="outline" @click="showSecondConfirm = false">{{ t('common.cancel') }}</Button>
+          <Button variant="destructive" @click="confirmFinalClear" :disabled="isClearing">
+            <span v-if="isClearing"
+              class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"></span>
+            {{ t('admin.selfSignedCA.confirmClear') }}
+          </Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+    <Dialog :open="showRegenFirstConfirm" @update:open="showRegenFirstConfirm = $event">
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>{{ t('admin.selfSignedCA.confirmRegenerateTitle') }}</DialogTitle>
+          <DialogDescription>{{ t('admin.selfSignedCA.confirmRegenerateDescription') }}</DialogDescription>
+        </DialogHeader>
+        <DialogFooter>
+          <Button variant="outline" @click="showRegenFirstConfirm = false">{{ t('common.cancel') }}</Button>
+          <Button variant="destructive" @click="confirmRegenFirst" :disabled="isRegenerating">
+            <span v-if="isRegenerating"
+              class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"></span>
+            {{ t('admin.selfSignedCA.nextStep') }}
+          </Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+    <Dialog :open="showRegenSecondConfirm" @update:open="showRegenSecondConfirm = $event">
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>{{ t('admin.selfSignedCA.secondConfirmTitle') }}</DialogTitle>
+          <DialogDescription>{{ t('admin.selfSignedCA.secondRegenerateDescription') }}</DialogDescription>
+        </DialogHeader>
+        <DialogFooter>
+          <Button variant="outline" @click="showRegenSecondConfirm = false">{{ t('common.cancel') }}</Button>
+          <Button variant="destructive" @click="confirmFinalRegen" :disabled="isRegenerating">
+            <span v-if="isRegenerating"
+              class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"></span>
+            {{ t('admin.selfSignedCA.confirmRegenerate') }}
+          </Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { ButtonGroup } from "@/components/ui/button-group";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { Input } from "@/components/ui/input";
+import { Skeleton } from "@/components/ui/skeleton";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import { MoreHorizontal, RefreshCw, Trash2 } from "lucide-vue-next";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import { useSelfSignedCA } from "./useSelfSignedCA";
+
+const { locale, t } = useI18n();
+const {
+  addHost,
+  caInfo,
+  confirmFinalClear,
+  confirmFinalRegen,
+  confirmFirst,
+  confirmRegenFirst,
+  confirmRemoveHost,
+  downloadCA,
+  downloadServer,
+  formatDate,
+  generateRootCA,
+  hasRootCA,
+  hosts,
+  isBusy,
+  isClearing,
+  isDownloading,
+  isIP,
+  isInitializing,
+  isRegenerating,
+  isRemoving,
+  issueAndInstall,
+  newHost,
+  openFirstConfirm,
+  openRegenFirstConfirm,
+  pendingHosts,
+  removingHost,
+  showFirstConfirm,
+  showInitializingSkeleton,
+  showRegenFirstConfirm,
+  showRegenSecondConfirm,
+  showSecondConfirm,
+} = useSelfSignedCA({
+  locale,
+  translate: (key, params) => (params ? t(key, params) : t(key)),
+});
+</script>

@@ -1,1 +1,371 @@
-dXNlIHN1cGVyOjoqOwp1c2UgYXh1bTo6aHR0cDo6SGVhZGVyTWFwOwp1c2UgZ2V0X2lmX2FkZHJzOjp7SWZBZGRyLCBnZXRfaWZfYWRkcnN9Owp1c2Ugc2VyZGU6OlNlcmlhbGl6ZTsKdXNlIHN0ZDo6bmV0Ojp7SXBBZGRyLCBJcHY0QWRkcn07CnVzZSB1dG9pcGE6OlRvU2NoZW1hOwoKcHViKHN1cGVyKSBjb25zdCBTU0xfTEFOX0RFUExPWU1FTlRfS0VZOiAmc3RyID0gInNzbF9sYW5fZGVwbG95bWVudCI7CmNvbnN0IE1BWF9MQU5fQUREUkVTU0VTOiB1c2l6ZSA9IDE2Owpjb25zdCBET0NLRVJfRElTQ09WRVJfSVBfSEVBREVSOiAmc3RyID0gIngtZm4ta25vY2stZG9ja2VyLWRpc2NvdmVyLWlwIjsKCiNbZGVyaXZlKERlYnVnLCBEZXNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBMYW5DZXJ0aWZpY2F0ZURlcGxveW1lbnRVcGRhdGVCb2R5IHsKICAgIGVuYWJsZWQ6IGJvb2wsCiAgICBhZGRyZXNzZXM6IFZlYzxTdHJpbmc+LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBMYW5DZXJ0aWZpY2F0ZURlcGxveW1lbnREYXRhIHsKICAgIGVuYWJsZWQ6IGJvb2wsCiAgICBjb25maWd1cmVkX2FkZHJlc3NlczogVmVjPFN0cmluZz4sCiAgICBkZXRlY3RlZF9hZGRyZXNzZXM6IFZlYzxTdHJpbmc+LAogICAgZ2F0ZXdheV9wb3J0OiB1MTYsCiAgICBsaXN0ZW5lcl9zY29wZTogU3RyaW5nLAogICAgc3RhdHVzOiBTdHJpbmcsCn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX2xhbl9kZXBsb3ltZW50KHZhbHVlOiBPcHRpb248JlZhbHVlPikgLT4gVmFsdWUgewogICAgbGV0IGVuYWJsZWQgPSB2YWx1ZQogICAgICAgIC5hbmRfdGhlbih8aXRlbXwgaXRlbS5nZXQoImVuYWJsZWQiKSkKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgLnVud3JhcF9vcihmYWxzZSk7CiAgICBsZXQgYWRkcmVzc2VzID0gdmFsdWUKICAgICAgICAuYW5kX3RoZW4ofGl0ZW18IGl0ZW0uZ2V0KCJhZGRyZXNzZXMiKSkKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5tYXAofGl0ZW1zfCB7CiAgICAgICAgICAgIGl0ZW1zCiAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAuZmlsdGVyX21hcChWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgLmZpbHRlcl9tYXAofGl0ZW18IG5vcm1hbGl6ZV9yZmMxOTE4X2lwdjQoaXRlbSkub2soKSkKICAgICAgICAgICAgICAgIC5jb2xsZWN0Ojo8QlRyZWVTZXQ8Xz4+KCkKICAgICAgICAgICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgICAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCkKICAgICAgICB9KQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAganNvbiEoewogICAgICAgICJlbmFibGVkIjogZW5hYmxlZCwKICAgICAgICAiYWRkcmVzc2VzIjogYWRkcmVzc2VzLAogICAgICAgICJ1cGRhdGVkX2F0IjogdmFsdWUuYW5kX3RoZW4ofGl0ZW18IGl0ZW0uZ2V0KCJ1cGRhdGVkX2F0IikpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIikKICAgIH0pCn0KCmZuIG5vcm1hbGl6ZV9yZmMxOTE4X2lwdjQodmFsdWU6ICZzdHIpIC0+IFJlc3VsdDxTdHJpbmcsIFN0cmluZz4gewogICAgbGV0IGFkZHJlc3MgPSB2YWx1ZQogICAgICAgIC50cmltKCkKICAgICAgICAucGFyc2U6OjxJcHY0QWRkcj4oKQogICAgICAgIC5tYXBfZXJyKHxffCBmb3JtYXQhKCJ7dmFsdWU6P30gaXMgbm90IGEgdmFsaWQgSVB2NCBhZGRyZXNzIikpPzsKICAgIGlmICFhZGRyZXNzLmlzX3ByaXZhdGUoKSB7CiAgICAgICAgcmV0dXJuIEVycihmb3JtYXQhKCJ7YWRkcmVzc30gaXMgbm90IGFuIFJGQzE5MTggSVB2NCBhZGRyZXNzIikpOwogICAgfQogICAgT2soYWRkcmVzcy50b19zdHJpbmcoKSkKfQoKZm4gbm9ybWFsaXplX2xhbl9hZGRyZXNzZXModmFsdWVzOiAmW1N0cmluZ10pIC0+IFJlc3VsdDxWZWM8U3RyaW5nPiwgU3RyaW5nPiB7CiAgICBsZXQgcmVzdWx0ID0gdmFsdWVzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5tYXAofHZhbHVlfCBub3JtYWxpemVfcmZjMTkxOF9pcHY0KHZhbHVlKSkKICAgICAgICAuY29sbGVjdDo6PFJlc3VsdDxCVHJlZVNldDxfPiwgXz4+KCk/CiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBpZiByZXN1bHQuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIEVycigiQXQgbGVhc3Qgb25lIExBTiBhZGRyZXNzIGlzIHJlcXVpcmVkIi50b19zdHJpbmcoKSk7CiAgICB9CiAgICBpZiByZXN1bHQubGVuKCkgPiBNQVhfTEFOX0FERFJFU1NFUyB7CiAgICAgICAgcmV0dXJuIEVycihmb3JtYXQhKAogICAgICAgICAgICAiQXQgbW9zdCB7TUFYX0xBTl9BRERSRVNTRVN9IExBTiBhZGRyZXNzZXMgYXJlIHN1cHBvcnRlZCIKICAgICAgICApKTsKICAgIH0KICAgIE9rKHJlc3VsdCkKfQoKZm4gZXhjbHVkZWRfaW50ZXJmYWNlKG5hbWU6ICZzdHIpIC0+IGJvb2wgewogICAgbGV0IG5hbWUgPSBuYW1lLnRvX2FzY2lpX2xvd2VyY2FzZSgpOwogICAgbmFtZSA9PSAibG8iCiAgICAgICAgfHwgbmFtZS5zdGFydHNfd2l0aCgiZG9ja2VyIikKICAgICAgICB8fCBuYW1lLnN0YXJ0c193aXRoKCJici0iKQogICAgICAgIHx8IG5hbWUuc3RhcnRzX3dpdGgoInZldGgiKQogICAgICAgIHx8IG5hbWUuc3RhcnRzX3dpdGgoInR1biIpCiAgICAgICAgfHwgbmFtZS5zdGFydHNfd2l0aCgidGFwIikKICAgICAgICB8fCBuYW1lLnN0YXJ0c193aXRoKCJ0YWlsc2NhbGUiKQogICAgICAgIHx8IG5hbWUuc3RhcnRzX3dpdGgoIndnIikKICAgICAgICB8fCBuYW1lLnN0YXJ0c193aXRoKCJ6dCIpCn0KCmZuIGRldGVjdGVkX2xhbl9hZGRyZXNzZXMoaGVhZGVyczogJkhlYWRlck1hcCkgLT4gVmVjPFN0cmluZz4gewogICAgbGV0IG11dCBhZGRyZXNzZXMgPSBCVHJlZVNldDo6bmV3KCk7CiAgICBpZiBsZXQgT2soaW50ZXJmYWNlcykgPSBnZXRfaWZfYWRkcnMoKSB7CiAgICAgICAgZm9yIGludGVyZmFjZSBpbiBpbnRlcmZhY2VzIHsKICAgICAgICAgICAgaWYgaW50ZXJmYWNlLmlzX2xvb3BiYWNrKCkgfHwgZXhjbHVkZWRfaW50ZXJmYWNlKCZpbnRlcmZhY2UubmFtZSkgewogICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgbGV0IElmQWRkcjo6VjQoYWRkcmVzcykgPSBpbnRlcmZhY2UuYWRkcgogICAgICAgICAgICAgICAgJiYgYWRkcmVzcy5pcC5pc19wcml2YXRlKCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgYWRkcmVzc2VzLmluc2VydChhZGRyZXNzLmlwLnRvX3N0cmluZygpKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIGlmIGxldCBTb21lKGFkZHJlc3MpID0gaGVhZGVycwogICAgICAgIC5nZXQoRE9DS0VSX0RJU0NPVkVSX0lQX0hFQURFUikKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS50b19zdHIoKS5vaygpKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IG5vcm1hbGl6ZV9yZmMxOTE4X2lwdjQodmFsdWUpLm9rKCkpCiAgICB7CiAgICAgICAgYWRkcmVzc2VzLmluc2VydChhZGRyZXNzKTsKICAgIH0KICAgIGFkZHJlc3Nlcy5pbnRvX2l0ZXIoKS50YWtlKE1BWF9MQU5fQUREUkVTU0VTKS5jb2xsZWN0KCkKfQoKcHViKHN1cGVyKSBmbiBnYXRld2F5X3BvcnQoKSAtPiB1MTYgewogICAgc3RkOjplbnY6OnZhcigiR09fUkVQUk9YWV9QT1JUIikKICAgICAgICAub2soKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnRyaW0oKS5wYXJzZTo6PHUxNj4oKS5vaygpKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAqdmFsdWUgPiAwKQogICAgICAgIC51bndyYXBfb3IoNzk5OSkKfQoKcHViKHN1cGVyKSBmbiBkZWZhdWx0X3NzbF9hdmFpbGFibGUoY29uZmlnOiAmVmFsdWUpIC0+IGJvb2wgewogICAgbGV0IHNzbCA9IG5vcm1hbGl6ZV9zc2xfY29uZmlnKGNvbmZpZy5nZXQoInNzbCIpKTsKICAgICFzc2wuZ2V0KCJjZXJ0IikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAudW53cmFwX29yKCIiKQogICAgICAgIC5pc19lbXB0eSgpCn0KCmFzeW5jIGZuIGxhbl9kYXRhKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGhlYWRlcnM6ICZIZWFkZXJNYXAsCikgLT4gYW55aG93OjpSZXN1bHQ8TGFuQ2VydGlmaWNhdGVEZXBsb3ltZW50RGF0YT4gewogICAgbGV0IGNvbmZpZyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0PzsKICAgIGxldCBsYW4gPSBub3JtYWxpemVfbGFuX2RlcGxveW1lbnQoY29uZmlnLmdldChTU0xfTEFOX0RFUExPWU1FTlRfS0VZKSk7CiAgICBsZXQgZW5hYmxlZCA9IGxhbi5nZXQoImVuYWJsZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkudW53cmFwX29yKGZhbHNlKTsKICAgIGxldCBjb25maWd1cmVkX2FkZHJlc3NlcyA9IGxhbgogICAgICAgIC5nZXQoImFkZHJlc3NlcyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyX21hcChWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCiAgICAgICAgLmNvbGxlY3QoKTsKICAgIGxldCBsaXN0ZW5lciA9IHN0YXRlLmdhdGV3YXkuY2xpZW50LmdldF9nYXRld2F5X2xpc3RlbmVyX3Njb3BlKCkuYXdhaXQ7CiAgICBsZXQgKGxpc3RlbmVyX3Njb3BlLCBzdGF0dXMpID0gbWF0Y2ggbGlzdGVuZXIgewogICAgICAgIEVycihfKSBpZiBlbmFibGVkID0+ICgidW5rbm93biIudG9fc3RyaW5nKCksICJnYXRld2F5X3VuYXZhaWxhYmxlIi50b19zdHJpbmcoKSksCiAgICAgICAgRXJyKF8pID0+ICgidW5rbm93biIudG9fc3RyaW5nKCksICJkaXNhYmxlZCIudG9fc3RyaW5nKCkpLAogICAgICAgIE9rKHNjb3BlKSBpZiAhZW5hYmxlZCA9PiAoc2NvcGUsICJkaXNhYmxlZCIudG9fc3RyaW5nKCkpLAogICAgICAgIE9rKHNjb3BlKSBpZiBzY29wZSA9PSAibG9vcGJhY2siID0+IChzY29wZSwgImxpc3RlbmVyX2xvb3BiYWNrIi50b19zdHJpbmcoKSksCiAgICAgICAgT2soc2NvcGUpIGlmICFkZWZhdWx0X3NzbF9hdmFpbGFibGUoJmNvbmZpZykgPT4gKHNjb3BlLCAic3NsX3VuYXZhaWxhYmxlIi50b19zdHJpbmcoKSksCiAgICAgICAgT2soc2NvcGUpID0+IChzY29wZSwgInJlYWR5Ii50b19zdHJpbmcoKSksCiAgICB9OwogICAgT2soTGFuQ2VydGlmaWNhdGVEZXBsb3ltZW50RGF0YSB7CiAgICAgICAgZW5hYmxlZCwKICAgICAgICBjb25maWd1cmVkX2FkZHJlc3NlcywKICAgICAgICBkZXRlY3RlZF9hZGRyZXNzZXM6IGRldGVjdGVkX2xhbl9hZGRyZXNzZXMoaGVhZGVycyksCiAgICAgICAgZ2F0ZXdheV9wb3J0OiBnYXRld2F5X3BvcnQoKSwKICAgICAgICBsaXN0ZW5lcl9zY29wZSwKICAgICAgICBzdGF0dXMsCiAgICB9KQp9CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi9zc2wvZXh0ZXJuYWwtYmluZGluZ3MvbGFuIiwgdGFnID0gInNzbCIsIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX3NzbF9leHRlcm5hbF9iaW5kaW5nc19sYW4iLCByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgYm9keSA9IExhbkNlcnRpZmljYXRlRGVwbG95bWVudERhdGEpKSldCnB1YihzdXBlcikgYXN5bmMgZm4gZ2V0X2xhbl9jZXJ0aWZpY2F0ZV9kZXBsb3ltZW50KAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBoZWFkZXJzOiBIZWFkZXJNYXAsCikgLT4gUmVzcG9uc2UgewogICAgbWF0Y2ggbGFuX2RhdGEoJnN0YXRlLCAmaGVhZGVycykuYXdhaXQgewogICAgICAgIE9rKGRhdGEpID0+IHJlc3BvbnNlOjpvayhkYXRhKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBsb2FkIExBTiBjZXJ0aWZpY2F0ZSBkZXBsb3ltZW50IHNldHRpbmdzIik7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgICJGYWlsZWQgdG8gbG9hZCBMQU4gY2VydGlmaWNhdGUgZGVwbG95bWVudCBzZXR0aW5ncyIsCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCiNbdXRvaXBhOjpwYXRoKHB1dCwgcGF0aCA9ICIvYXBpL2FkbWluL3NzbC9leHRlcm5hbC1iaW5kaW5ncy9sYW4iLCB0YWcgPSAic3NsIiwgb3BlcmF0aW9uX2lkID0gInB1dF9hcGlfYWRtaW5fc3NsX2V4dGVybmFsX2JpbmRpbmdzX2xhbiIsIHJlcXVlc3RfYm9keSA9IExhbkNlcnRpZmljYXRlRGVwbG95bWVudFVwZGF0ZUJvZHksIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBib2R5ID0gTGFuQ2VydGlmaWNhdGVEZXBsb3ltZW50RGF0YSkpKV0KcHViKHN1cGVyKSBhc3luYyBmbiB1cGRhdGVfbGFuX2NlcnRpZmljYXRlX2RlcGxveW1lbnQoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIGhlYWRlcnM6IEhlYWRlck1hcCwKICAgIEpzb24oYm9keSk6IEpzb248TGFuQ2VydGlmaWNhdGVEZXBsb3ltZW50VXBkYXRlQm9keT4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IGFkZHJlc3NlcyA9IGlmIGJvZHkuZW5hYmxlZCB7CiAgICAgICAgbWF0Y2ggbm9ybWFsaXplX2xhbl9hZGRyZXNzZXMoJmJvZHkuYWRkcmVzc2VzKSB7CiAgICAgICAgICAgIE9rKGFkZHJlc3NlcykgPT4gYWRkcmVzc2VzLAogICAgICAgICAgICBFcnIobWVzc2FnZSkgPT4gcmV0dXJuIHJlc3BvbnNlOjplcnJvcihTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwgbWVzc2FnZSksCiAgICAgICAgfQogICAgfSBlbHNlIHsKICAgICAgICBib2R5LmFkZHJlc3NlcwogICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgIC5maWx0ZXJfbWFwKHxhZGRyZXNzfCBub3JtYWxpemVfcmZjMTkxOF9pcHY0KGFkZHJlc3MpLm9rKCkpCiAgICAgICAgICAgIC5jb2xsZWN0Ojo8QlRyZWVTZXQ8Xz4+KCkKICAgICAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgICAgIC50YWtlKE1BWF9MQU5fQUREUkVTU0VTKQogICAgICAgICAgICAuY29sbGVjdCgpCiAgICB9OwogICAgbGV0IF9ndWFyZCA9IHN0YXRlLmdhdGV3YXkuc3NsX3VwZGF0ZV9sb2NrLmxvY2soKS5hd2FpdDsKICAgIGlmIGJvZHkuZW5hYmxlZCB7CiAgICAgICAgbWF0Y2ggc3RhdGUuZ2F0ZXdheS5jbGllbnQuZ2V0X2dhdGV3YXlfbGlzdGVuZXJfc2NvcGUoKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKHNjb3BlKSBpZiBzY29wZSA9PSAibG9vcGJhY2siID0+IHsKICAgICAgICAgICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6Q09ORkxJQ1QsCiAgICAgICAgICAgICAgICAgICAgIlRoZSBnYXRld2F5IGxpc3RlbmVyIGlzIGxpbWl0ZWQgdG8gbG9vcGJhY2s7IGNoYW5nZSBpdHMgc2NvcGUgYmVmb3JlIGVuYWJsaW5nIExBTiBjZXJ0aWZpY2F0ZSBkZXBsb3ltZW50IiwKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgT2soXykgPT4ge30KICAgICAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gaW5zcGVjdCBnYXRld2F5IGxpc3RlbmVyIGJlZm9yZSBMQU4gY2VydGlmaWNhdGUgdXBkYXRlIik7CiAgICAgICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKFN0YXR1c0NvZGU6OkJBRF9HQVRFV0FZLCAiVGhlIGdhdGV3YXkgaXMgdW5hdmFpbGFibGUiKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIGxldCBwcmV2aW91c19jb25maWcgPSBtYXRjaCBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9jb25maWcoKS5hd2FpdCB7CiAgICAgICAgT2soY29uZmlnKSA9PiBjb25maWcsCiAgICAgICAgRXJyKGVycm9yKSA9PiByZXR1cm4gcmVzcG9uc2U6OmVycm9yKFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwgZXJyb3IudG9fc3RyaW5nKCkpLAogICAgfTsKICAgIGlmIGJvZHkuZW5hYmxlZCAmJiAhZGVmYXVsdF9zc2xfYXZhaWxhYmxlKCZwcmV2aW91c19jb25maWcpIHsKICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpDT05GTElDVCwKICAgICAgICAgICAgIkluc3RhbGwgYW5kIGFjdGl2YXRlIGEgZGVmYXVsdCBTU0wgY2VydGlmaWNhdGUgYmVmb3JlIGVuYWJsaW5nIExBTiBjZXJ0aWZpY2F0ZSBkZXBsb3ltZW50IiwKICAgICAgICApOwogICAgfQogICAgbGV0IHByZXZpb3VzX2xhbiA9IHByZXZpb3VzX2NvbmZpZwogICAgICAgIC5nZXQoU1NMX0xBTl9ERVBMT1lNRU5UX0tFWSkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAudW53cmFwX29yKFZhbHVlOjpOdWxsKTsKICAgIGxldCBuZXh0X2xhbiA9IGpzb24hKHsKICAgICAgICAiZW5hYmxlZCI6IGJvZHkuZW5hYmxlZCwKICAgICAgICAiYWRkcmVzc2VzIjogYWRkcmVzc2VzLAogICAgICAgICJ1cGRhdGVkX2F0IjogdGltZV91dGlsczo6bm9kZV9pc29fbm93KCkKICAgIH0pOwogICAgbGV0IG5leHRfY29uZmlnID0gbWF0Y2ggc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5zZXRfY29uZmlnX3RvcF9sZXZlbF92YWx1ZShTU0xfTEFOX0RFUExPWU1FTlRfS0VZLCBuZXh0X2xhbikKICAgICAgICAuYXdhaXQKICAgIHsKICAgICAgICBPayhjb25maWcpID0+IGNvbmZpZywKICAgICAgICBFcnIoZXJyb3IpID0+IHJldHVybiByZXNwb25zZTo6ZXJyb3IoU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLCBlcnJvci50b19zdHJpbmcoKSksCiAgICB9OwogICAgaWYgbGV0IEVycihlcnJvcikgPSBzeW5jX3NzbF9kZXBsb3ltZW50X3RvX2dhdGV3YXkoJnN0YXRlLCBTb21lKCZuZXh0X2NvbmZpZykpLmF3YWl0IHsKICAgICAgICBsZXQgcmVzdG9yZV9jb25maWcgPSBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnNldF9jb25maWdfdG9wX2xldmVsX3ZhbHVlKFNTTF9MQU5fREVQTE9ZTUVOVF9LRVksIHByZXZpb3VzX2xhbikKICAgICAgICAgICAgLmF3YWl0OwogICAgICAgIGxldCByZXN0b3JlX2dhdGV3YXkgPSBtYXRjaCAmcmVzdG9yZV9jb25maWcgewogICAgICAgICAgICBPayhjb25maWcpID0+IHN5bmNfc3NsX2RlcGxveW1lbnRfdG9fZ2F0ZXdheSgmc3RhdGUsIFNvbWUoY29uZmlnKSkuYXdhaXQsCiAgICAgICAgICAgIEVycihfKSA9PiBFcnIoYW55aG93ISgiTEFOIGNvbmZpZ3VyYXRpb24gcm9sbGJhY2sgZmFpbGVkIikpLAogICAgICAgIH07CiAgICAgICAgaWYgcmVzdG9yZV9jb25maWcuaXNfZXJyKCkgfHwgcmVzdG9yZV9nYXRld2F5LmlzX2VycigpIHsKICAgICAgICAgICAgdHJhY2luZzo6ZXJyb3IhKCVlcnJvciwgIkxBTiBjZXJ0aWZpY2F0ZSBkZXBsb3ltZW50IHVwZGF0ZSBhbmQgcm9sbGJhY2sgZmFpbGVkIik7CiAgICAgICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfR0FURVdBWSwKICAgICAgICAgICAgICAgICJMQU4gY2VydGlmaWNhdGUgZGVwbG95bWVudCBmYWlsZWQgYW5kIHRoZSBwcmV2aW91cyBnYXRld2F5IHN0YXRlIGNvdWxkIG5vdCBiZSBjb25maXJtZWQiLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfR0FURVdBWSwKICAgICAgICAgICAgIkxBTiBjZXJ0aWZpY2F0ZSBkZXBsb3ltZW50IGZhaWxlZDsgdGhlIHByZXZpb3VzIGNvbmZpZ3VyYXRpb24gd2FzIHJlc3RvcmVkIiwKICAgICAgICApOwogICAgfQogICAgY3JhdGU6OnBhbmVsX3N5bmM6Om5vdGlmeV9zb3VyY2VfY2hhbmdlZCgmc3RhdGUpOwogICAgbWF0Y2ggbGFuX2RhdGEoJnN0YXRlLCAmaGVhZGVycykuYXdhaXQgewogICAgICAgIE9rKGRhdGEpID0+IHJlc3BvbnNlOjpvayhkYXRhKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgRXJyKGVycm9yKSA9PiByZXNwb25zZTo6ZXJyb3IoU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLCBlcnJvci50b19zdHJpbmcoKSksCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gbGFuX2RlcGxveV9yZXF1ZXN0X21hdGNoZXMoY29uZmlnOiAmVmFsdWUsIGhlYWRlcnM6ICZIZWFkZXJNYXApIC0+IGJvb2wgewogICAgbGV0IFNvbWUoaG9zdCkgPSBzdXBlcjo6ZXh0ZXJuYWw6Om5vcm1hbGl6ZWRfcmVxdWVzdF9ob3N0KGhlYWRlcnMpIGVsc2UgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH07CiAgICBsZXQgbGFuID0gbm9ybWFsaXplX2xhbl9kZXBsb3ltZW50KGNvbmZpZy5nZXQoU1NMX0xBTl9ERVBMT1lNRU5UX0tFWSkpOwogICAgaWYgIWxhbi5nZXQoImVuYWJsZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkudW53cmFwX29yKGZhbHNlKQogICAgICAgIHx8IGhlYWRlcnMKICAgICAgICAgICAgLmdldCgieC1mb3J3YXJkZWQtcHJvdG8iKQogICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS50b19zdHIoKS5vaygpKQogICAgICAgICAgICAhPSBTb21lKCJodHRwcyIpCiAgICB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogICAgaWYgIWxhbl9ob3N0X2FsbG93ZWQoJmxhbiwgJmhvc3QpIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CiAgICBoZWFkZXJzCiAgICAgICAgLmdldCgieC1mb3J3YXJkZWQtZm9yIikKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS50b19zdHIoKS5vaygpKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnRyaW0oKS5wYXJzZTo6PElwQWRkcj4oKS5vaygpKQogICAgICAgIC5pc19zb21lX2FuZCh8YWRkcmVzc3wgbWF0Y2ggYWRkcmVzcyB7CiAgICAgICAgICAgIElwQWRkcjo6VjQoYWRkcmVzcykgPT4gewogICAgICAgICAgICAgICAgYWRkcmVzcy5pc19wcml2YXRlKCkKICAgICAgICAgICAgICAgICAgICB8fCBhZGRyZXNzLmlzX2xvb3BiYWNrKCkKICAgICAgICAgICAgICAgICAgICB8fCAodTMyOjpmcm9tKGFkZHJlc3MpICYgMHhmZmMwXzAwMDApID09IDB4NjQ0MF8wMDAwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgSXBBZGRyOjpWNihhZGRyZXNzKSA9PiBhZGRyZXNzLmlzX2xvb3BiYWNrKCkgfHwgYWRkcmVzcy5pc191bmlxdWVfbG9jYWwoKSwKICAgICAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIGNvbmZpZ3VyZWRfbGFuX2hvc3RfbWF0Y2hlcyhjb25maWc6ICZWYWx1ZSwgaG9zdDogJnN0cikgLT4gYm9vbCB7CiAgICBsZXQgbGFuID0gbm9ybWFsaXplX2xhbl9kZXBsb3ltZW50KGNvbmZpZy5nZXQoU1NMX0xBTl9ERVBMT1lNRU5UX0tFWSkpOwogICAgbGFuLmdldCgiZW5hYmxlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKS51bndyYXBfb3IoZmFsc2UpICYmIGxhbl9ob3N0X2FsbG93ZWQoJmxhbiwgaG9zdCkKfQoKZm4gbGFuX2hvc3RfYWxsb3dlZChsYW46ICZWYWx1ZSwgaG9zdDogJnN0cikgLT4gYm9vbCB7CiAgICBsYW4uZ2V0KCJhZGRyZXNzZXMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgLmlzX3NvbWVfYW5kKHxhZGRyZXNzZXN8IHsKICAgICAgICAgICAgYWRkcmVzc2VzCiAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAuYW55KHxhZGRyZXNzfCBhZGRyZXNzLmFzX3N0cigpID09IFNvbWUoaG9zdCkpCiAgICAgICAgfSkKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CiAgICB1c2UgYXh1bTo6aHR0cDo6e0hlYWRlclZhbHVlLCBoZWFkZXI6OkhPU1R9OwoKICAgICNbdGVzdF0KICAgIGZuIGxhbl9hZGRyZXNzZXNfYWNjZXB0X29ubHlfY2Fub25pY2FsX3JmYzE5MThfaXB2NCgpIHsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBub3JtYWxpemVfbGFuX2FkZHJlc3NlcygmWwogICAgICAgICAgICAgICAgIjE5Mi4xNjguMzEuOTgiLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgIjEwLjAuMC4yIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICIxOTIuMTY4LjMxLjk4Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgXSkKICAgICAgICAgICAgLnVud3JhcCgpLAogICAgICAgICAgICB2ZWMhWyIxMC4wLjAuMiIsICIxOTIuMTY4LjMxLjk4Il0KICAgICAgICApOwogICAgICAgIGFzc2VydCEobm9ybWFsaXplX2xhbl9hZGRyZXNzZXMoJlsiMTAwLjY0LjAuMSIudG9fc3RyaW5nKCldKS5pc19lcnIoKSk7CiAgICAgICAgYXNzZXJ0IShub3JtYWxpemVfbGFuX2FkZHJlc3NlcygmWyI4LjguOC44Ii50b19zdHJpbmcoKV0pLmlzX2VycigpKTsKICAgICAgICBhc3NlcnQhKG5vcm1hbGl6ZV9sYW5fYWRkcmVzc2VzKCZbImZkMDA6OjEiLnRvX3N0cmluZygpXSkuaXNfZXJyKCkpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGxhbl9yZXF1ZXN0X3JlY2hlY2tzX2hvc3RfaHR0cHNfYW5kX3JlYnVpbHRfY2xpZW50X2FkZHJlc3MoKSB7CiAgICAgICAgbGV0IGNvbmZpZyA9IGpzb24hKHsKICAgICAgICAgICAgInNzbF9sYW5fZGVwbG95bWVudCI6IHsKICAgICAgICAgICAgICAgICJlbmFibGVkIjogdHJ1ZSwKICAgICAgICAgICAgICAgICJhZGRyZXNzZXMiOiBbIjE5Mi4xNjguMzEuOTgiXQogICAgICAgICAgICB9CiAgICAgICAgfSk7CiAgICAgICAgYXNzZXJ0IShjb25maWd1cmVkX2xhbl9ob3N0X21hdGNoZXMoJmNvbmZpZywgIjE5Mi4xNjguMzEuOTgiKSk7CiAgICAgICAgYXNzZXJ0ISghY29uZmlndXJlZF9sYW5faG9zdF9tYXRjaGVzKCZjb25maWcsICIxOTIuMTY4LjMxLjk5IikpOwogICAgICAgIGxldCBtdXQgaGVhZGVycyA9IEhlYWRlck1hcDo6bmV3KCk7CiAgICAgICAgaGVhZGVycy5pbnNlcnQoSE9TVCwgSGVhZGVyVmFsdWU6OmZyb21fc3RhdGljKCIxOTIuMTY4LjMxLjk4Ojc5OTkiKSk7CiAgICAgICAgaGVhZGVycy5pbnNlcnQoIngtZm9yd2FyZGVkLXByb3RvIiwgSGVhZGVyVmFsdWU6OmZyb21fc3RhdGljKCJodHRwcyIpKTsKICAgICAgICBoZWFkZXJzLmluc2VydCgieC1mb3J3YXJkZWQtZm9yIiwgSGVhZGVyVmFsdWU6OmZyb21fc3RhdGljKCIxOTIuMTY4LjMxLjUwIikpOwogICAgICAgIGFzc2VydCEobGFuX2RlcGxveV9yZXF1ZXN0X21hdGNoZXMoJmNvbmZpZywgJmhlYWRlcnMpKTsKCiAgICAgICAgaGVhZGVycy5pbnNlcnQoIngtZm9yd2FyZGVkLWZvciIsIEhlYWRlclZhbHVlOjpmcm9tX3N0YXRpYygiMjAzLjAuMTEzLjgiKSk7CiAgICAgICAgYXNzZXJ0ISghbGFuX2RlcGxveV9yZXF1ZXN0X21hdGNoZXMoJmNvbmZpZywgJmhlYWRlcnMpKTsKICAgICAgICBoZWFkZXJzLmluc2VydCgieC1mb3J3YXJkZWQtZm9yIiwgSGVhZGVyVmFsdWU6OmZyb21fc3RhdGljKCIxOTIuMTY4LjMxLjUwIikpOwogICAgICAgIGhlYWRlcnMuaW5zZXJ0KCJ4LWZvcndhcmRlZC1wcm90byIsIEhlYWRlclZhbHVlOjpmcm9tX3N0YXRpYygiaHR0cCIpKTsKICAgICAgICBhc3NlcnQhKCFsYW5fZGVwbG95X3JlcXVlc3RfbWF0Y2hlcygmY29uZmlnLCAmaGVhZGVycykpOwogICAgICAgIGhlYWRlcnMuaW5zZXJ0KCJ4LWZvcndhcmRlZC1wcm90byIsIEhlYWRlclZhbHVlOjpmcm9tX3N0YXRpYygiaHR0cHMiKSk7CiAgICAgICAgaGVhZGVycy5pbnNlcnQoSE9TVCwgSGVhZGVyVmFsdWU6OmZyb21fc3RhdGljKCIxOTIuMTY4LjMxLjk5Ojc5OTkiKSk7CiAgICAgICAgYXNzZXJ0ISghbGFuX2RlcGxveV9yZXF1ZXN0X21hdGNoZXMoJmNvbmZpZywgJmhlYWRlcnMpKTsKICAgIH0KfQo=
+use super::*;
+use axum::http::HeaderMap;
+use get_if_addrs::{IfAddr, get_if_addrs};
+use serde::Serialize;
+use std::net::{IpAddr, Ipv4Addr};
+use utoipa::ToSchema;
+
+pub(super) const SSL_LAN_DEPLOYMENT_KEY: &str = "ssl_lan_deployment";
+const MAX_LAN_ADDRESSES: usize = 16;
+const DOCKER_DISCOVER_IP_HEADER: &str = "x-fn-knock-docker-discover-ip";
+
+#[derive(Debug, Deserialize, ToSchema)]
+pub(super) struct LanCertificateDeploymentUpdateBody {
+    enabled: bool,
+    addresses: Vec<String>,
+}
+
+#[derive(Clone, Debug, Serialize, ToSchema)]
+pub(super) struct LanCertificateDeploymentData {
+    enabled: bool,
+    configured_addresses: Vec<String>,
+    detected_addresses: Vec<String>,
+    gateway_port: u16,
+    listener_scope: String,
+    status: String,
+}
+
+pub(super) fn normalize_lan_deployment(value: Option<&Value>) -> Value {
+    let enabled = value
+        .and_then(|item| item.get("enabled"))
+        .and_then(Value::as_bool)
+        .unwrap_or(false);
+    let addresses = value
+        .and_then(|item| item.get("addresses"))
+        .and_then(Value::as_array)
+        .map(|items| {
+            items
+                .iter()
+                .filter_map(Value::as_str)
+                .filter_map(|item| normalize_rfc1918_ipv4(item).ok())
+                .collect::<BTreeSet<_>>()
+                .into_iter()
+                .collect::<Vec<_>>()
+        })
+        .unwrap_or_default();
+    json!({
+        "enabled": enabled,
+        "addresses": addresses,
+        "updated_at": value.and_then(|item| item.get("updated_at")).and_then(Value::as_str).unwrap_or("")
+    })
+}
+
+fn normalize_rfc1918_ipv4(value: &str) -> Result<String, String> {
+    let address = value
+        .trim()
+        .parse::<Ipv4Addr>()
+        .map_err(|_| format!("{value:?} is not a valid IPv4 address"))?;
+    if !address.is_private() {
+        return Err(format!("{address} is not an RFC1918 IPv4 address"));
+    }
+    Ok(address.to_string())
+}
+
+fn normalize_lan_addresses(values: &[String]) -> Result<Vec<String>, String> {
+    let result = values
+        .iter()
+        .map(|value| normalize_rfc1918_ipv4(value))
+        .collect::<Result<BTreeSet<_>, _>>()?
+        .into_iter()
+        .collect::<Vec<_>>();
+    if result.is_empty() {
+        return Err("At least one LAN address is required".to_string());
+    }
+    if result.len() > MAX_LAN_ADDRESSES {
+        return Err(format!(
+            "At most {MAX_LAN_ADDRESSES} LAN addresses are supported"
+        ));
+    }
+    Ok(result)
+}
+
+fn excluded_interface(name: &str) -> bool {
+    let name = name.to_ascii_lowercase();
+    name == "lo"
+        || name.starts_with("docker")
+        || name.starts_with("br-")
+        || name.starts_with("veth")
+        || name.starts_with("tun")
+        || name.starts_with("tap")
+        || name.starts_with("tailscale")
+        || name.starts_with("wg")
+        || name.starts_with("zt")
+}
+
+fn detected_lan_addresses(headers: &HeaderMap) -> Vec<String> {
+    let mut addresses = BTreeSet::new();
+    if let Ok(interfaces) = get_if_addrs() {
+        for interface in interfaces {
+            if interface.is_loopback() || excluded_interface(&interface.name) {
+                continue;
+            }
+            if let IfAddr::V4(address) = interface.addr
+                && address.ip.is_private()
+            {
+                addresses.insert(address.ip.to_string());
+            }
+        }
+    }
+    if let Some(address) = headers
+        .get(DOCKER_DISCOVER_IP_HEADER)
+        .and_then(|value| value.to_str().ok())
+        .and_then(|value| normalize_rfc1918_ipv4(value).ok())
+    {
+        addresses.insert(address);
+    }
+    addresses.into_iter().take(MAX_LAN_ADDRESSES).collect()
+}
+
+pub(super) fn gateway_port() -> u16 {
+    std::env::var("GO_REPROXY_PORT")
+        .ok()
+        .and_then(|value| value.trim().parse::<u16>().ok())
+        .filter(|value| *value > 0)
+        .unwrap_or(7999)
+}
+
+pub(super) fn default_ssl_available(config: &Value) -> bool {
+    let ssl = normalize_ssl_config(config.get("ssl"));
+    !ssl.get("cert")
+        .and_then(Value::as_str)
+        .unwrap_or("")
+        .is_empty()
+}
+
+async fn lan_data(
+    state: &AppState,
+    headers: &HeaderMap,
+) -> anyhow::Result<LanCertificateDeploymentData> {
+    let config = state.storage.store.get_config().await?;
+    let lan = normalize_lan_deployment(config.get(SSL_LAN_DEPLOYMENT_KEY));
+    let enabled = lan.get("enabled").and_then(Value::as_bool).unwrap_or(false);
+    let configured_addresses = lan
+        .get("addresses")
+        .and_then(Value::as_array)
+        .cloned()
+        .unwrap_or_default()
+        .iter()
+        .filter_map(Value::as_str)
+        .map(str::to_string)
+        .collect();
+    let listener = state.gateway.client.get_gateway_listener_scope().await;
+    let (listener_scope, status) = match listener {
+        Err(_) if enabled => ("unknown".to_string(), "gateway_unavailable".to_string()),
+        Err(_) => ("unknown".to_string(), "disabled".to_string()),
+        Ok(scope) if !enabled => (scope, "disabled".to_string()),
+        Ok(scope) if scope == "loopback" => (scope, "listener_loopback".to_string()),
+        Ok(scope) if !default_ssl_available(&config) => (scope, "ssl_unavailable".to_string()),
+        Ok(scope) => (scope, "ready".to_string()),
+    };
+    Ok(LanCertificateDeploymentData {
+        enabled,
+        configured_addresses,
+        detected_addresses: detected_lan_addresses(headers),
+        gateway_port: gateway_port(),
+        listener_scope,
+        status,
+    })
+}
+
+#[utoipa::path(get, path = "/api/admin/ssl/external-bindings/lan", tag = "ssl", operation_id = "get_api_admin_ssl_external_bindings_lan", responses((status = 200, body = LanCertificateDeploymentData)))]
+pub(super) async fn get_lan_certificate_deployment(
+    State(state): State<AppState>,
+    headers: HeaderMap,
+) -> Response {
+    match lan_data(&state, &headers).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load LAN certificate deployment settings");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                "Failed to load LAN certificate deployment settings",
+            )
+        }
+    }
+}
+
+#[utoipa::path(put, path = "/api/admin/ssl/external-bindings/lan", tag = "ssl", operation_id = "put_api_admin_ssl_external_bindings_lan", request_body = LanCertificateDeploymentUpdateBody, responses((status = 200, body = LanCertificateDeploymentData)))]
+pub(super) async fn update_lan_certificate_deployment(
+    State(state): State<AppState>,
+    headers: HeaderMap,
+    Json(body): Json<LanCertificateDeploymentUpdateBody>,
+) -> Response {
+    let addresses = if body.enabled {
+        match normalize_lan_addresses(&body.addresses) {
+            Ok(addresses) => addresses,
+            Err(message) => return response::error(StatusCode::BAD_REQUEST, message),
+        }
+    } else {
+        body.addresses
+            .iter()
+            .filter_map(|address| normalize_rfc1918_ipv4(address).ok())
+            .collect::<BTreeSet<_>>()
+            .into_iter()
+            .take(MAX_LAN_ADDRESSES)
+            .collect()
+    };
+    let _guard = state.gateway.ssl_update_lock.lock().await;
+    if body.enabled {
+        match state.gateway.client.get_gateway_listener_scope().await {
+            Ok(scope) if scope == "loopback" => {
+                return response::error(
+                    StatusCode::CONFLICT,
+                    "The gateway listener is limited to loopback; change its scope before enabling LAN certificate deployment",
+                );
+            }
+            Ok(_) => {}
+            Err(error) => {
+                tracing::warn!(%error, "failed to inspect gateway listener before LAN certificate update");
+                return response::error(StatusCode::BAD_GATEWAY, "The gateway is unavailable");
+            }
+        }
+    }
+    let previous_config = match state.storage.store.get_config().await {
+        Ok(config) => config,
+        Err(error) => return response::error(StatusCode::INTERNAL_SERVER_ERROR, error.to_string()),
+    };
+    if body.enabled && !default_ssl_available(&previous_config) {
+        return response::error(
+            StatusCode::CONFLICT,
+            "Install and activate a default SSL certificate before enabling LAN certificate deployment",
+        );
+    }
+    let previous_lan = previous_config
+        .get(SSL_LAN_DEPLOYMENT_KEY)
+        .cloned()
+        .unwrap_or(Value::Null);
+    let next_lan = json!({
+        "enabled": body.enabled,
+        "addresses": addresses,
+        "updated_at": time_utils::node_iso_now()
+    });
+    let next_config = match state
+        .storage
+        .store
+        .set_config_top_level_value(SSL_LAN_DEPLOYMENT_KEY, next_lan)
+        .await
+    {
+        Ok(config) => config,
+        Err(error) => return response::error(StatusCode::INTERNAL_SERVER_ERROR, error.to_string()),
+    };
+    if let Err(error) = sync_ssl_deployment_to_gateway(&state, Some(&next_config)).await {
+        let restore_config = state
+            .storage
+            .store
+            .set_config_top_level_value(SSL_LAN_DEPLOYMENT_KEY, previous_lan)
+            .await;
+        let restore_gateway = match &restore_config {
+            Ok(config) => sync_ssl_deployment_to_gateway(&state, Some(config)).await,
+            Err(_) => Err(anyhow!("LAN configuration rollback failed")),
+        };
+        if restore_config.is_err() || restore_gateway.is_err() {
+            tracing::error!(%error, "LAN certificate deployment update and rollback failed");
+            return response::error(
+                StatusCode::BAD_GATEWAY,
+                "LAN certificate deployment failed and the previous gateway state could not be confirmed",
+            );
+        }
+        return response::error(
+            StatusCode::BAD_GATEWAY,
+            "LAN certificate deployment failed; the previous configuration was restored",
+        );
+    }
+    crate::panel_sync::notify_source_changed(&state);
+    match lan_data(&state, &headers).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(error) => response::error(StatusCode::INTERNAL_SERVER_ERROR, error.to_string()),
+    }
+}
+
+pub(super) fn lan_deploy_request_matches(config: &Value, headers: &HeaderMap) -> bool {
+    let Some(host) = super::external::normalized_request_host(headers) else {
+        return false;
+    };
+    let lan = normalize_lan_deployment(config.get(SSL_LAN_DEPLOYMENT_KEY));
+    if !lan.get("enabled").and_then(Value::as_bool).unwrap_or(false)
+        || headers
+            .get("x-forwarded-proto")
+            .and_then(|value| value.to_str().ok())
+            != Some("https")
+    {
+        return false;
+    }
+    if !lan_host_allowed(&lan, &host) {
+        return false;
+    }
+    headers
+        .get("x-forwarded-for")
+        .and_then(|value| value.to_str().ok())
+        .and_then(|value| value.trim().parse::<IpAddr>().ok())
+        .is_some_and(|address| match address {
+            IpAddr::V4(address) => {
+                address.is_private()
+                    || address.is_loopback()
+                    || (u32::from(address) & 0xffc0_0000) == 0x6440_0000
+            }
+            IpAddr::V6(address) => address.is_loopback() || address.is_unique_local(),
+        })
+}
+
+pub(super) fn configured_lan_host_matches(config: &Value, host: &str) -> bool {
+    let lan = normalize_lan_deployment(config.get(SSL_LAN_DEPLOYMENT_KEY));
+    lan.get("enabled").and_then(Value::as_bool).unwrap_or(false) && lan_host_allowed(&lan, host)
+}
+
+fn lan_host_allowed(lan: &Value, host: &str) -> bool {
+    lan.get("addresses")
+        .and_then(Value::as_array)
+        .is_some_and(|addresses| {
+            addresses
+                .iter()
+                .any(|address| address.as_str() == Some(host))
+        })
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use axum::http::{HeaderValue, header::HOST};
+
+    #[test]
+    fn lan_addresses_accept_only_canonical_rfc1918_ipv4() {
+        assert_eq!(
+            normalize_lan_addresses(&[
+                "192.168.31.98".to_string(),
+                "10.0.0.2".to_string(),
+                "192.168.31.98".to_string(),
+            ])
+            .unwrap(),
+            vec!["10.0.0.2", "192.168.31.98"]
+        );
+        assert!(normalize_lan_addresses(&["100.64.0.1".to_string()]).is_err());
+        assert!(normalize_lan_addresses(&["8.8.8.8".to_string()]).is_err());
+        assert!(normalize_lan_addresses(&["fd00::1".to_string()]).is_err());
+    }
+
+    #[test]
+    fn lan_request_rechecks_host_https_and_rebuilt_client_address() {
+        let config = json!({
+            "ssl_lan_deployment": {
+                "enabled": true,
+                "addresses": ["192.168.31.98"]
+            }
+        });
+        assert!(configured_lan_host_matches(&config, "192.168.31.98"));
+        assert!(!configured_lan_host_matches(&config, "192.168.31.99"));
+        let mut headers = HeaderMap::new();
+        headers.insert(HOST, HeaderValue::from_static("192.168.31.98:7999"));
+        headers.insert("x-forwarded-proto", HeaderValue::from_static("https"));
+        headers.insert("x-forwarded-for", HeaderValue::from_static("192.168.31.50"));
+        assert!(lan_deploy_request_matches(&config, &headers));
+
+        headers.insert("x-forwarded-for", HeaderValue::from_static("203.0.113.8"));
+        assert!(!lan_deploy_request_matches(&config, &headers));
+        headers.insert("x-forwarded-for", HeaderValue::from_static("192.168.31.50"));
+        headers.insert("x-forwarded-proto", HeaderValue::from_static("http"));
+        assert!(!lan_deploy_request_matches(&config, &headers));
+        headers.insert("x-forwarded-proto", HeaderValue::from_static("https"));
+        headers.insert(HOST, HeaderValue::from_static("192.168.31.99:7999"));
+        assert!(!lan_deploy_request_matches(&config, &headers));
+    }
+}

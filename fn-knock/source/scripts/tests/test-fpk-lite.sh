@@ -1,1 +1,156 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCmNkICIke1JPT1RfRElSfSIKbWtkaXIgLXAgIiR7Uk9PVF9ESVJ9L2Rpc3QiCldPUktfRElSPSIkKG1rdGVtcCAtZCAiJHtST09UX0RJUn0vZGlzdC9mcGstbGl0ZS10ZXN0LlhYWFhYWCIpIgoKY2xlYW51cCgpIHsKICBybSAtcmYgIiR7V09SS19ESVJ9Igp9CnRyYXAgY2xlYW51cCBFWElUCgpmYWlsKCkgewogIGVjaG8gIlt0ZXN0LWZway1saXRlXSBFUlJPUjogJCoiID4mMgogIGV4aXQgMQp9Cgphc3NlcnRfZmlsZV9jb250YWlucygpIHsKICBsb2NhbCBmaWxlPSIkMSIKICBsb2NhbCBwYXR0ZXJuPSIkMiIKICByZyAtcSAtLSAiJHtwYXR0ZXJufSIgIiR7ZmlsZX0iIHx8IGZhaWwgIiR7ZmlsZX0gZG9lcyBub3QgY29udGFpbiAke3BhdHRlcm59Igp9Cgphc3NlcnRfdHJlZV9kb2VzX25vdF9jb250YWluKCkgewogIGxvY2FsIHBhdGg9IiQxIgogIGxvY2FsIHBhdHRlcm49IiQyIgogIGlmIHJnIC1xIC0taGlkZGVuIC0tZ2xvYiAnIWRpc3QvKionIC0tZ2xvYiAnIW5vZGVfbW9kdWxlcy8qKicgLS0gIiR7cGF0dGVybn0iICIke3BhdGh9IjsgdGhlbgogICAgZmFpbCAiJHtwYXRofSB1bmV4cGVjdGVkbHkgY29udGFpbnMgJHtwYXR0ZXJufSIKICBmaQp9Cgphc3NlcnRfZnBrX2hhc19ub19jb250YWluZXJfcGF0aHMoKSB7CiAgbG9jYWwgZnBrPSIkMSIKICBsb2NhbCBtYXRjaGVzCgogIFsgLWYgIiR7ZnBrfSIgXSB8fCByZXR1cm4gMAogIG1hdGNoZXM9IiQoCiAgICB0YXIgLXh6T2YgIiR7ZnBrfSIgYXBwLnRneiBcCiAgICAgIHwgdGFyIC10emYgLSBcCiAgICAgIHwgcmcgLWkgJyhefC8pW14vXSooZG9ja2VyfGNvbXBvc2V8Y29udGFpbmVyKVteL10qKCR8LyknIFwKICAgICAgfHwgdHJ1ZQogICkiCiAgWyAteiAiJHttYXRjaGVzfSIgXSB8fCBmYWlsICIke2Zwa30gY29udGFpbnMgY29udGFpbmVyLXJlbGF0ZWQgcGF0aHM6ICR7bWF0Y2hlc30iCn0KClsgISAtZSBhcHBzL2ZuLWtub2NrLWRvY2tlciBdIHx8IGZhaWwgImxlZ2FjeSBhcHBzL2ZuLWtub2NrLWRvY2tlciBzdGlsbCBleGlzdHMiClsgISAtZSBzY3JpcHRzL2ZuLWtub2NrLWRvY2tlci1mcGsuc2ggXSB8fCBmYWlsICJsZWdhY3kgRG9ja2VyIEZQSyBkZXBsb3kgc2NyaXB0IHN0aWxsIGV4aXN0cyIKWyAtZiBzY3JpcHRzL2ZuLWtub2NrLWRvY2tlci5zaCBdIHx8IGZhaWwgInN1cHBvcnRlZCBEb2NrZXIgZGVwbG95bWVudCBzY3JpcHQgd2FzIHJlbW92ZWQiClsgLWQgZGVwbG95L2RvY2tlciBdIHx8IGZhaWwgInN1cHBvcnRlZCBEb2NrZXIgZGVwbG95bWVudCBjb250ZXh0IHdhcyByZW1vdmVkIgoKYXNzZXJ0X2ZpbGVfY29udGFpbnMgYXBwcy9mbi1rbm9jay1saXRlL21hbmlmZXN0ICdeYXBwbmFtZT1mbi1rbm9jay1saXRlJCcKYXNzZXJ0X2ZpbGVfY29udGFpbnMgYXBwcy9mbi1rbm9jay1saXRlL21hbmlmZXN0ICdeZGlzcGxheV9uYW1lPeaVsumXqGtub2NrIExpdGUkJwphc3NlcnRfZmlsZV9jb250YWlucyBhcHBzL2ZuLWtub2NrLWxpdGUvbWFuaWZlc3QgJ15kZXNrdG9wX2FwcGxhdW5jaG5hbWU9Zm4ta25vY2stbGl0ZVwuQXBwbGljYXRpb24kJwphc3NlcnRfZmlsZV9jb250YWlucyBhcHBzL2ZuLWtub2NrLWxpdGUvbWFuaWZlc3QgJ15zZXJ2aWNlX3BvcnQ9ODk5OSQnCmFzc2VydF9maWxlX2NvbnRhaW5zIGFwcHMvZm4ta25vY2stbGl0ZS9tYW5pZmVzdCAnaHR0cHM6Ly93d3dcLmZua25vY2tcLmNuLycKYXNzZXJ0X2ZpbGVfY29udGFpbnMgYXBwcy9mbi1rbm9jay1saXRlL21hbmlmZXN0ICdodHRwczovL2RvY3NcLmZua25vY2tcLmNuLycKYXNzZXJ0X2ZpbGVfY29udGFpbnMgYXBwcy9mbi1rbm9jay1saXRlL21hbmlmZXN0ICcxMDgxNjA5Mjc0Jwphc3NlcnRfZmlsZV9jb250YWlucyBhcHBzL2ZuLWtub2NrL21hbmlmZXN0ICdodHRwczovL3d3d1wuZm5rbm9ja1wuY24vJwphc3NlcnRfZmlsZV9jb250YWlucyBhcHBzL2ZuLWtub2NrL21hbmlmZXN0ICdodHRwczovL2RvY3NcLmZua25vY2tcLmNuLycKYXNzZXJ0X2ZpbGVfY29udGFpbnMgYXBwcy9mbi1rbm9jay9tYW5pZmVzdCAnMTA4MTYwOTI3NCcKYXNzZXJ0X2ZpbGVfY29udGFpbnMgYXBwcy9mbi1rbm9jay9tYW5pZmVzdCAnXnNlcnZpY2VfcG9ydD03OTk5JCcKCmFzc2VydF9maWxlX2NvbnRhaW5zIGFwcHMvZm4ta25vY2stbGl0ZS9jb25maWcvcHJpdmlsZWdlICcicnVuLWFzIjogInBhY2thZ2UiJwphc3NlcnRfZmlsZV9jb250YWlucyBhcHBzL2ZuLWtub2NrLWxpdGUvY29uZmlnL3ByaXZpbGVnZSAnInVzZXJuYW1lIjogImZuLWtub2NrLWxpdGUiJwphc3NlcnRfZmlsZV9jb250YWlucyBhcHBzL2ZuLWtub2NrLWxpdGUvY29uZmlnL3Jlc291cmNlICcibmFtZSI6ICJmbi1rbm9jay1saXRlIicKYXNzZXJ0X2ZpbGVfY29udGFpbnMgYXBwcy9mbi1rbm9jay1saXRlL2FwcC91aS9jb25maWcgJyJmbi1rbm9jay1saXRlLkFwcGxpY2F0aW9uIicKYXNzZXJ0X2ZpbGVfY29udGFpbnMgYXBwcy9mbi1rbm9jay1saXRlL2FwcC91aS9jb25maWcgJy9jZ2kvVGhpcmRQYXJ0eS9mbi1rbm9jay1saXRlL2luZGV4XC5jZ2kvJwoKYXNzZXJ0X2ZpbGVfY29udGFpbnMgYXBwcy9mbi1rbm9jay1saXRlL2NtZC9tYWluICdGTl9LTk9DS19SVU5USU1FX1RBUkdFVD0iZnBrLWxpdGUiJwphc3NlcnRfZmlsZV9jb250YWlucyBhcHBzL2ZuLWtub2NrLWxpdGUvY21kL21haW4gJ0ZOX0tOT0NLX0RJU0FCTEVfUkVESVNfTUlHUkFUSU9OPSIxIicKYXNzZXJ0X2ZpbGVfY29udGFpbnMgYXBwcy9mbi1rbm9jay1saXRlL2NtZC9tYWluICdHQVRFV0FZX0NPTkZJR19ESVI9IlwkXHtQS0dfVkFSX0RJUn0vZ2F0ZXdheSInCmFzc2VydF9maWxlX2NvbnRhaW5zIGFwcHMvZm4ta25vY2stbGl0ZS9jbWQvbWFpbiAncmVxdWlyZXMgYW4gaW50ZWdlciBiZXR3ZWVuIDEwMjQgYW5kIDY1NTM1Jwphc3NlcnRfZmlsZV9jb250YWlucyBhcHBzL2ZuLWtub2NrLWxpdGUvY21kL21haW4gJyI4OTkxIicKYXNzZXJ0X2ZpbGVfY29udGFpbnMgYXBwcy9mbi1rbm9jay1saXRlL2NtZC9tYWluICdSRUFESU5FU1NfTUFSS0VSPS4qcnVudGltZVwucmVhZHknCmFzc2VydF9maWxlX2NvbnRhaW5zIGFwcHMvZm4ta25vY2stbGl0ZS9jbWQvbWFpbiAnRk5fS05PQ0tfU1RBUlRfVElNRU9VVF9TRUNPTkRTOi0zMDAnCmFzc2VydF9maWxlX2NvbnRhaW5zIGFwcHMvZm4ta25vY2stbGl0ZS9jbWQvbWFpbiAnRk5fS05PQ0tfU1RPUF9USU1FT1VUX1NFQ09ORFM6LTc1Jwphc3NlcnRfZmlsZV9jb250YWlucyBhcHBzL2ZuLWtub2NrLWxpdGUvY21kL21haW4gJ0ZOX0tOT0NLX0ZPUkNFX0tJTExfVElNRU9VVF9TRUNPTkRTOi0xMCcKYXNzZXJ0X2ZpbGVfY29udGFpbnMgYXBwcy9mbi1rbm9jay1saXRlL2NtZC9tYWluICd3YWl0X3J1bnRpbWVfcmVhZHknCmFzc2VydF9maWxlX2NvbnRhaW5zIGFwcHMvZm4ta25vY2stbGl0ZS9jbWQvbWFpbiAnSW5jb21wbGV0ZSBydW50aW1lIGRldGVjdGVkJwphc3NlcnRfZmlsZV9jb250YWlucyBhcHBzL2ZuLWtub2NrLWxpdGUvY21kL21haW4gJ3N0b3BfbWF0Y2hpbmdfcHJvY2Vzc2VzICJcJFx7QkFDS0VORF9FTlRSWVx9IicKYXNzZXJ0X2ZpbGVfY29udGFpbnMgYXBwcy9mbi1rbm9jay1saXRlL2NtZC9tYWluICdzdG9wX21hdGNoaW5nX3Byb2Nlc3NlcyAiXCRce0dBVEVXQVlfQklOXH0iJwphc3NlcnRfZmlsZV9jb250YWlucyBhcHBzL2ZuLWtub2NrLWxpdGUvYXBwL3VpL2luZGV4LmNnaSAnVEFSR0VUX1BPUlQ9Ijg5OTgiJwphc3NlcnRfdHJlZV9kb2VzX25vdF9jb250YWluIGFwcHMvZm4ta25vY2stbGl0ZSAnL3Vzci9sb2NhbC9ldGMvZm4ta25vY2snCmFzc2VydF90cmVlX2RvZXNfbm90X2NvbnRhaW4gYXBwcy9mbi1rbm9jay1saXRlICcicnVuLWFzIltbOnNwYWNlOl1dKjpbWzpzcGFjZTpdXSoicm9vdCInCmFzc2VydF90cmVlX2RvZXNfbm90X2NvbnRhaW4gYXBwcy9mbi1rbm9jay1saXRlICdkb2NrZXItY29tcG9zZXxjb21wb3NlXFwueWE/bWx8Y29udGFpbmVyX25hbWU6Jwphc3NlcnRfdHJlZV9kb2VzX25vdF9jb250YWluIGFwcHMvZm4ta25vY2stbGl0ZSAnaXB0YWJsZXN8aXA2dGFibGVzfG5mdGFibGVzfHN5c2N0bCcKCmZvciB3aXphcmQgaW4gYXBwcy9mbi1rbm9jay1saXRlL3dpemFyZC9pbnN0YWxsIGFwcHMvZm4ta25vY2stbGl0ZS93aXphcmQvY29uZmlnOyBkbwogIGFzc2VydF9maWxlX2NvbnRhaW5zICIke3dpemFyZH0iICciODk5OCInCiAgYXNzZXJ0X2ZpbGVfY29udGFpbnMgIiR7d2l6YXJkfSIgJyI4OTk3IicKICBhc3NlcnRfZmlsZV9jb250YWlucyAiJHt3aXphcmR9IiAnIjg5OTYiJwogIGFzc2VydF9maWxlX2NvbnRhaW5zICIke3dpemFyZH0iICciODk5OSInCiAgYXNzZXJ0X2ZpbGVfY29udGFpbnMgIiR7d2l6YXJkfSIgJzEwMjQtNjU1MzUnCmRvbmUKCmFzc2VydF9maWxlX2NvbnRhaW5zIHBhY2thZ2UuanNvbiAnImZuLWtub2NrOmxpdGU6YnVpbGQtcGFja2FnZSInCmFzc2VydF9maWxlX2NvbnRhaW5zIHBhY2thZ2UuanNvbiAnImZuLWtub2NrOmxpdGU6ZnBrOmRlcGxveSInCmFzc2VydF9maWxlX2NvbnRhaW5zIHNjcmlwdHMvZm4ta25vY2stbGl0ZS1kZXBsb3kuc2ggJ0ZOX0tOT0NLX1dJWkFSRF9BRE1JTl9WSUVXX1BPUlQuKjg5OTEnCmFzc2VydF9maWxlX2NvbnRhaW5zIHNjcmlwdHMvZm4ta25vY2stbGl0ZS1kZXBsb3kuc2ggJ0ZOX0tOT0NLX1dJWkFSRF9HT19SRVBST1hZX1BPUlQuKjg5OTknCmFzc2VydF9maWxlX2NvbnRhaW5zIHNjcmlwdHMvZm4ta25vY2stbGl0ZS1kZXBsb3kuc2ggXAogICdzb3VyY2UuKmZuLWtub2NrLWxpdGUtc3luYy1nby1ncnBjXC5zaCcKYXNzZXJ0X2ZpbGVfY29udGFpbnMgYXBwcy9zZXJ2ZXItYWRtaW4tdmlldy9zcmMvbGliL3VwZGF0ZS1wcmVzZW50YXRpb24udHMgXAogICdodHRwczovL3d3d1wuZm5rbm9ja1wuY24vJwphc3NlcnRfZmlsZV9jb250YWlucyBhcHBzL2ZuLWtub2NrLWxpdGUvc2NyaXB0cy9idWlsZC1wYWNrYWdlLnNoIFwKICAnRk5fS05PQ0tfRlJPTlRFTkRfVEFSR0VUPSJmcGstbGl0ZSInCmFzc2VydF9maWxlX2NvbnRhaW5zIGFwcHMvZm4ta25vY2stbGl0ZS9zY3JpcHRzL2J1aWxkLXBhY2thZ2Uuc2ggXAogICdWSVRFX0ZOX0tOT0NLX0RFRkFVTFRfQVVUSF9QT1JULio4OTk3Jwphc3NlcnRfZmlsZV9jb250YWlucyBhcHBzL2ZuLWtub2NrLWxpdGUvc2NyaXB0cy9idWlsZC1wYWNrYWdlLnNoIFwKICAnc291cmNlLipmbi1rbm9jay1saXRlLXN5bmMtZ28tZ3JwY1wuc2gnCmFzc2VydF9maWxlX2NvbnRhaW5zIHNjcmlwdHMvZm4ta25vY2stbGl0ZS1zeW5jLWdvLWdycGMuc2ggXAogICdzY3JpcHRzL3N5bmMtZ28tZ3JwYy1jb250cmFjdFwuc2gnCmFzc2VydF9maWxlX2NvbnRhaW5zIHNjcmlwdHMvZm4ta25vY2stbGl0ZS1zeW5jLWdvLWdycGMuc2ggXAogICdGTl9LTk9DS19MSVRFX0dSUENfU1lOQ19HT19DT01QTEVURUQnCmFzc2VydF90cmVlX2RvZXNfbm90X2NvbnRhaW4gcGFja2FnZS5qc29uICdmbi1rbm9jazpmcGstZG9ja2VyJwphc3NlcnRfdHJlZV9kb2VzX25vdF9jb250YWluIC5naXRodWIvd29ya2Zsb3dzICdmbi1rbm9jay1saXRlJwoKRkFLRV9CSU49IiR7V09SS19ESVJ9L2JpbiIKU1lOQ19MT0c9IiR7V09SS19ESVJ9L2dycGMtc3luYy5sb2ciCm1rZGlyIC1wICIke0ZBS0VfQklOfSIKY2F0ID4gIiR7RkFLRV9CSU59L2Jhc2giIDw8J0VPRicKIyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKcHJpbnRmICclc1xuJyAiJCoiID4+ICIke0ZOX0tOT0NLX1RFU1RfU1lOQ19MT0d9IgpFT0YKL2Jpbi9jaG1vZCA3NTUgIiR7RkFLRV9CSU59L2Jhc2giCgpQQVRIPSIke0ZBS0VfQklOfToke1BBVEh9IiBcCkZOX0tOT0NLX1RFU1RfU1lOQ19MT0c9IiR7U1lOQ19MT0d9IiBcCiAgL2Jpbi9iYXNoIC1zIC0tICIke1JPT1RfRElSfS9zY3JpcHRzL2ZuLWtub2NrLWxpdGUtc3luYy1nby1ncnBjLnNoIiA8PCdFT0YnCnNldCAtZXVvIHBpcGVmYWlsCnN5bmNfaGVscGVyPSIkMSIKc291cmNlICIke3N5bmNfaGVscGVyfSIKL2Jpbi9iYXNoIC1zIC0tICIke3N5bmNfaGVscGVyfSIgPDwnSU5ORVInCnNldCAtZXVvIHBpcGVmYWlsCnNvdXJjZSAiJDEiCklOTkVSCkVPRgoKWyAiJCh3YyAtbCA8ICIke1NZTkNfTE9HfSIgfCB0ciAtZCAnWzpzcGFjZTpdJykiID0gIjEiIF0gfHwgXAogIGZhaWwgIm5lc3RlZCBMaXRlIGJ1aWxkL2RlcGxveSBlbnRyeXBvaW50cyBtdXN0IHN5bmNocm9uaXplIHRoZSBHbyBnUlBDIGNvbnRyYWN0IGV4YWN0bHkgb25jZSIKYXNzZXJ0X2ZpbGVfY29udGFpbnMgIiR7U1lOQ19MT0d9IiAnc2NyaXB0cy9zeW5jLWdvLWdycGMtY29udHJhY3RcLnNoJwoKZm9yIHJlbGVhc2VfZmlsZSBpbiBcCiAgc2NyaXB0cy9mbi1rbm9jay1wYWNrYWdlLWZway5zaCBcCiAgc2NyaXB0cy9mbi1rbm9jay1hc3NlbWJsZS1yZWxlYXNlLnNoIFwKICBzY3JpcHRzL3JlbGVhc2UtcHJlZmxpZ2h0LnNoIFwKICBzY3JpcHRzL2ZuLWtub2NrLXJlbGVhc2UtZmluYWxpemUubWpzOyBkbwogIFsgLWYgIiR7cmVsZWFzZV9maWxlfSIgXSB8fCBmYWlsICJyZWxlYXNlIGlzb2xhdGlvbiBjaGVjayB0YXJnZXQgaXMgbWlzc2luZzogJHtyZWxlYXNlX2ZpbGV9IgogIGFzc2VydF90cmVlX2RvZXNfbm90X2NvbnRhaW4gIiR7cmVsZWFzZV9maWxlfSIgJ2ZuLWtub2NrLWxpdGUnCmRvbmUKCmFzc2VydF9mcGtfaGFzX25vX2NvbnRhaW5lcl9wYXRocyBhcHBzL2ZuLWtub2NrLWxpdGUvZGlzdC9mbi1rbm9jay1saXRlLWFtZDY0LmZwawphc3NlcnRfZnBrX2hhc19ub19jb250YWluZXJfcGF0aHMgYXBwcy9mbi1rbm9jay1saXRlL2Rpc3QvZm4ta25vY2stbGl0ZS1hcm02NC5mcGsKCmVjaG8gIlt0ZXN0LWZway1saXRlXSBPSyIK
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+cd "${ROOT_DIR}"
+mkdir -p "${ROOT_DIR}/dist"
+WORK_DIR="$(mktemp -d "${ROOT_DIR}/dist/fpk-lite-test.XXXXXX")"
+
+cleanup() {
+  rm -rf "${WORK_DIR}"
+}
+trap cleanup EXIT
+
+fail() {
+  echo "[test-fpk-lite] ERROR: $*" >&2
+  exit 1
+}
+
+assert_file_contains() {
+  local file="$1"
+  local pattern="$2"
+  rg -q -- "${pattern}" "${file}" || fail "${file} does not contain ${pattern}"
+}
+
+assert_tree_does_not_contain() {
+  local path="$1"
+  local pattern="$2"
+  if rg -q --hidden --glob '!dist/**' --glob '!node_modules/**' -- "${pattern}" "${path}"; then
+    fail "${path} unexpectedly contains ${pattern}"
+  fi
+}
+
+assert_fpk_has_no_container_paths() {
+  local fpk="$1"
+  local matches
+
+  [ -f "${fpk}" ] || return 0
+  matches="$(
+    tar -xzOf "${fpk}" app.tgz \
+      | tar -tzf - \
+      | rg -i '(^|/)[^/]*(docker|compose|container)[^/]*($|/)' \
+      || true
+  )"
+  [ -z "${matches}" ] || fail "${fpk} contains container-related paths: ${matches}"
+}
+
+[ ! -e apps/fn-knock-docker ] || fail "legacy apps/fn-knock-docker still exists"
+[ ! -e scripts/fn-knock-docker-fpk.sh ] || fail "legacy Docker FPK deploy script still exists"
+[ -f scripts/fn-knock-docker.sh ] || fail "supported Docker deployment script was removed"
+[ -d deploy/docker ] || fail "supported Docker deployment context was removed"
+
+assert_file_contains apps/fn-knock-lite/manifest '^appname=fn-knock-lite$'
+assert_file_contains apps/fn-knock-lite/manifest '^display_name=敲门knock Lite$'
+assert_file_contains apps/fn-knock-lite/manifest '^desktop_applaunchname=fn-knock-lite\.Application$'
+assert_file_contains apps/fn-knock-lite/manifest '^service_port=8999$'
+assert_file_contains apps/fn-knock-lite/manifest 'https://www\.fnknock\.cn/'
+assert_file_contains apps/fn-knock-lite/manifest 'https://docs\.fnknock\.cn/'
+assert_file_contains apps/fn-knock-lite/manifest '1081609274'
+assert_file_contains apps/fn-knock/manifest 'https://www\.fnknock\.cn/'
+assert_file_contains apps/fn-knock/manifest 'https://docs\.fnknock\.cn/'
+assert_file_contains apps/fn-knock/manifest '1081609274'
+assert_file_contains apps/fn-knock/manifest '^service_port=7999$'
+
+assert_file_contains apps/fn-knock-lite/config/privilege '"run-as": "package"'
+assert_file_contains apps/fn-knock-lite/config/privilege '"username": "fn-knock-lite"'
+assert_file_contains apps/fn-knock-lite/config/resource '"name": "fn-knock-lite"'
+assert_file_contains apps/fn-knock-lite/app/ui/config '"fn-knock-lite.Application"'
+assert_file_contains apps/fn-knock-lite/app/ui/config '/cgi/ThirdParty/fn-knock-lite/index\.cgi/'
+
+assert_file_contains apps/fn-knock-lite/cmd/main 'FN_KNOCK_RUNTIME_TARGET="fpk-lite"'
+assert_file_contains apps/fn-knock-lite/cmd/main 'FN_KNOCK_DISABLE_REDIS_MIGRATION="1"'
+assert_file_contains apps/fn-knock-lite/cmd/main 'GATEWAY_CONFIG_DIR="\$\{PKG_VAR_DIR}/gateway"'
+assert_file_contains apps/fn-knock-lite/cmd/main 'requires an integer between 1024 and 65535'
+assert_file_contains apps/fn-knock-lite/cmd/main '"8991"'
+assert_file_contains apps/fn-knock-lite/cmd/main 'READINESS_MARKER=.*runtime\.ready'
+assert_file_contains apps/fn-knock-lite/cmd/main 'FN_KNOCK_START_TIMEOUT_SECONDS:-300'
+assert_file_contains apps/fn-knock-lite/cmd/main 'FN_KNOCK_STOP_TIMEOUT_SECONDS:-75'
+assert_file_contains apps/fn-knock-lite/cmd/main 'FN_KNOCK_FORCE_KILL_TIMEOUT_SECONDS:-10'
+assert_file_contains apps/fn-knock-lite/cmd/main 'wait_runtime_ready'
+assert_file_contains apps/fn-knock-lite/cmd/main 'Incomplete runtime detected'
+assert_file_contains apps/fn-knock-lite/cmd/main 'stop_matching_processes "\$\{BACKEND_ENTRY\}"'
+assert_file_contains apps/fn-knock-lite/cmd/main 'stop_matching_processes "\$\{GATEWAY_BIN\}"'
+assert_file_contains apps/fn-knock-lite/app/ui/index.cgi 'TARGET_PORT="8998"'
+assert_tree_does_not_contain apps/fn-knock-lite '/usr/local/etc/fn-knock'
+assert_tree_does_not_contain apps/fn-knock-lite '"run-as"[[:space:]]*:[[:space:]]*"root"'
+assert_tree_does_not_contain apps/fn-knock-lite 'docker-compose|compose\\.ya?ml|container_name:'
+assert_tree_does_not_contain apps/fn-knock-lite 'iptables|ip6tables|nftables|sysctl'
+
+for wizard in apps/fn-knock-lite/wizard/install apps/fn-knock-lite/wizard/config; do
+  assert_file_contains "${wizard}" '"8998"'
+  assert_file_contains "${wizard}" '"8997"'
+  assert_file_contains "${wizard}" '"8996"'
+  assert_file_contains "${wizard}" '"8999"'
+  assert_file_contains "${wizard}" '1024-65535'
+done
+
+assert_file_contains package.json '"fn-knock:lite:build-package"'
+assert_file_contains package.json '"fn-knock:lite:fpk:deploy"'
+assert_file_contains scripts/fn-knock-lite-deploy.sh 'FN_KNOCK_WIZARD_ADMIN_VIEW_PORT.*8991'
+assert_file_contains scripts/fn-knock-lite-deploy.sh 'FN_KNOCK_WIZARD_GO_REPROXY_PORT.*8999'
+assert_file_contains scripts/fn-knock-lite-deploy.sh \
+  'source.*fn-knock-lite-sync-go-grpc\.sh'
+assert_file_contains apps/server-admin-view/src/lib/update-presentation.ts \
+  'https://www\.fnknock\.cn/'
+assert_file_contains apps/fn-knock-lite/scripts/build-package.sh \
+  'FN_KNOCK_FRONTEND_TARGET="fpk-lite"'
+assert_file_contains apps/fn-knock-lite/scripts/build-package.sh \
+  'VITE_FN_KNOCK_DEFAULT_AUTH_PORT.*8997'
+assert_file_contains apps/fn-knock-lite/scripts/build-package.sh \
+  'source.*fn-knock-lite-sync-go-grpc\.sh'
+assert_file_contains scripts/fn-knock-lite-sync-go-grpc.sh \
+  'scripts/sync-go-grpc-contract\.sh'
+assert_file_contains scripts/fn-knock-lite-sync-go-grpc.sh \
+  'FN_KNOCK_LITE_GRPC_SYNC_GO_COMPLETED'
+assert_tree_does_not_contain package.json 'fn-knock:fpk-docker'
+assert_tree_does_not_contain .github/workflows 'fn-knock-lite'
+
+FAKE_BIN="${WORK_DIR}/bin"
+SYNC_LOG="${WORK_DIR}/grpc-sync.log"
+mkdir -p "${FAKE_BIN}"
+cat > "${FAKE_BIN}/bash" <<'EOF'
+#!/bin/bash
+set -euo pipefail
+printf '%s\n' "$*" >> "${FN_KNOCK_TEST_SYNC_LOG}"
+EOF
+/bin/chmod 755 "${FAKE_BIN}/bash"
+
+PATH="${FAKE_BIN}:${PATH}" \
+FN_KNOCK_TEST_SYNC_LOG="${SYNC_LOG}" \
+  /bin/bash -s -- "${ROOT_DIR}/scripts/fn-knock-lite-sync-go-grpc.sh" <<'EOF'
+set -euo pipefail
+sync_helper="$1"
+source "${sync_helper}"
+/bin/bash -s -- "${sync_helper}" <<'INNER'
+set -euo pipefail
+source "$1"
+INNER
+EOF
+
+[ "$(wc -l < "${SYNC_LOG}" | tr -d '[:space:]')" = "1" ] || \
+  fail "nested Lite build/deploy entrypoints must synchronize the Go gRPC contract exactly once"
+assert_file_contains "${SYNC_LOG}" 'scripts/sync-go-grpc-contract\.sh'
+
+for release_file in \
+  scripts/fn-knock-package-fpk.sh \
+  scripts/fn-knock-assemble-release.sh \
+  scripts/release-preflight.sh \
+  scripts/fn-knock-release-finalize.mjs; do
+  [ -f "${release_file}" ] || fail "release isolation check target is missing: ${release_file}"
+  assert_tree_does_not_contain "${release_file}" 'fn-knock-lite'
+done
+
+assert_fpk_has_no_container_paths apps/fn-knock-lite/dist/fn-knock-lite-amd64.fpk
+assert_fpk_has_no_container_paths apps/fn-knock-lite/dist/fn-knock-lite-arm64.fpk
+
+echo "[test-fpk-lite] OK"

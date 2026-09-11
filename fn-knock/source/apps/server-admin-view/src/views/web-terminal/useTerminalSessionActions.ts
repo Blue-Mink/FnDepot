@@ -1,1 +1,151 @@
-aW1wb3J0IHsgbmV4dFRpY2ssIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHR5cGUgewogIFRlcm1pbmFsRGVzdGluYXRpb24sCiAgVGVybWluYWxTZXNzaW9uUmVjb3JkLAogIFRlcm1pbmFsVGFyZ2V0UmVjb3JkLAp9IGZyb20gIkAvbGliL2FwaS90ZXJtaW5hbCI7CmltcG9ydCB7IGV4dHJhY3RUZXJtaW5hbEVycm9yLCBsb2NhbGl6ZVRlcm1pbmFsRXJyb3IgfSBmcm9tICIuL3Rlcm1pbmFsLWVycm9ycyI7CgpleHBvcnQgY29uc3QgdXNlVGVybWluYWxTZXNzaW9uQWN0aW9ucyA9ICh7CiAgYmVnaW5UYXJnZXRDcmVhdGUsCiAgYmVnaW5UYXJnZXRFZGl0LAogIGJlZ2luTG9jYWxTZXR0aW5ncywKICBjb25uZWN0LAogIGNyZWF0ZVNlc3Npb246IHJlcXVlc3RDcmVhdGVTZXNzaW9uLAogIGRldGFjaCwKICBlbmRTZXNzaW9uLAogIGdldFRlcm1pbmFsU2l6ZSwKICBpc0F0dGFjaGVkVG8sCiAgb25Db25uZWN0U3RhcnQsCiAgcmVjb25uZWN0QXR0YWNobWVudCwKICBzZWxlY3RlZFNlc3Npb24sCiAgc2VsZWN0ZWRTZXNzaW9uSWQsCiAgc2VsZWN0ZWRUYXJnZXQsCiAgc2Vzc2lvbnMsCiAgdHJhbnNsYXRlLAp9OiB7CiAgYmVnaW5UYXJnZXRDcmVhdGU6ICgpID0+IHZvaWQ7CiAgYmVnaW5UYXJnZXRFZGl0OiAodGFyZ2V0OiBUZXJtaW5hbFRhcmdldFJlY29yZCkgPT4gdm9pZDsKICBiZWdpbkxvY2FsU2V0dGluZ3M6ICgpID0+IHZvaWQ7CiAgY29ubmVjdDogKHNlc3Npb246IFRlcm1pbmFsU2Vzc2lvblJlY29yZCkgPT4gUHJvbWlzZTx2b2lkPjsKICBjcmVhdGVTZXNzaW9uOiAoCiAgICB0YXJnZXRJZDogc3RyaW5nLAogICAgc2l6ZTogeyBjb2xzOiBudW1iZXI7IHJvd3M6IG51bWJlciB9LAogICkgPT4gUHJvbWlzZTxUZXJtaW5hbFNlc3Npb25SZWNvcmQ+OwogIGRldGFjaDogKCkgPT4gUHJvbWlzZTx2b2lkPjsKICBlbmRTZXNzaW9uOiAoc2Vzc2lvbklkOiBzdHJpbmcpID0+IFByb21pc2U8dm9pZD47CiAgZ2V0VGVybWluYWxTaXplOiAoKSA9PiB7IGNvbHM6IG51bWJlcjsgcm93czogbnVtYmVyIH07CiAgaXNBdHRhY2hlZFRvOiAoc2Vzc2lvbklkOiBzdHJpbmcpID0+IGJvb2xlYW47CiAgb25Db25uZWN0U3RhcnQ6ICgpID0+IHZvaWQ7CiAgcmVjb25uZWN0QXR0YWNobWVudDogKCkgPT4gUHJvbWlzZTx2b2lkPjsKICBzZWxlY3RlZFNlc3Npb246IFJlYWRvbmx5PFJlZjxUZXJtaW5hbFNlc3Npb25SZWNvcmQgfCBudWxsPj47CiAgc2VsZWN0ZWRTZXNzaW9uSWQ6IFJlYWRvbmx5PFJlZjxzdHJpbmc+PjsKICBzZWxlY3RlZFRhcmdldDogUmVhZG9ubHk8UmVmPFRlcm1pbmFsRGVzdGluYXRpb24gfCBudWxsPj47CiAgc2Vzc2lvbnM6IFJlYWRvbmx5PFJlZjxUZXJtaW5hbFNlc3Npb25SZWNvcmRbXT4+OwogIHRyYW5zbGF0ZTogKGtleTogc3RyaW5nKSA9PiBzdHJpbmc7Cn0pID0+IHsKICBjb25zdCBlcnJvck1lc3NhZ2UgPSAocmVhc29uOiB1bmtub3duLCBmYWxsYmFjazogc3RyaW5nKSA9PgogICAgbG9jYWxpemVUZXJtaW5hbEVycm9yKGV4dHJhY3RUZXJtaW5hbEVycm9yKHJlYXNvbiwgZmFsbGJhY2spLCB0cmFuc2xhdGUpOwoKICBjb25zdCBjb25uZWN0VG9TZXNzaW9uID0gYXN5bmMgKHNlc3Npb246IFRlcm1pbmFsU2Vzc2lvblJlY29yZCkgPT4gewogICAgb25Db25uZWN0U3RhcnQoKTsKICAgIGF3YWl0IGNvbm5lY3Qoc2Vzc2lvbik7CiAgfTsKCiAgY29uc3QgaGFuZGxlU2Vzc2lvblRhYkNoYW5nZSA9IGFzeW5jIChzZXNzaW9uSWQ6IHN0cmluZyB8IG51bWJlcikgPT4gewogICAgY29uc3Qgc2Vzc2lvbiA9IHNlc3Npb25zLnZhbHVlLmZpbmQoCiAgICAgIChpdGVtKSA9PiBpdGVtLmlkID09PSBTdHJpbmcoc2Vzc2lvbklkKSwKICAgICk7CiAgICBpZiAoIXNlc3Npb24pIHJldHVybjsKICAgIGlmIChzZXNzaW9uLmlkID09PSBzZWxlY3RlZFNlc3Npb25JZC52YWx1ZSAmJiBpc0F0dGFjaGVkVG8oc2Vzc2lvbi5pZCkpIHsKICAgICAgcmV0dXJuOwogICAgfQogICAgdHJ5IHsKICAgICAgYXdhaXQgY29ubmVjdFRvU2Vzc2lvbihzZXNzaW9uKTsKICAgIH0gY2F0Y2ggKHJlYXNvbikgewogICAgICB0b2FzdC5lcnJvcih0cmFuc2xhdGUoImFkbWluLndlYlRlcm1pbmFsLnN3aXRjaEZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGVycm9yTWVzc2FnZSgKICAgICAgICAgIHJlYXNvbiwKICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4ud2ViVGVybWluYWwuc3dpdGNoRmFpbGVkRGVzY3JpcHRpb24iKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0KICB9OwoKICBjb25zdCBjcmVhdGVTZXNzaW9uID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgdGFyZ2V0ID0gc2VsZWN0ZWRUYXJnZXQudmFsdWU7CiAgICBpZiAoIXRhcmdldCkgewogICAgICBiZWdpblRhcmdldENyZWF0ZSgpOwogICAgICByZXR1cm4gbnVsbDsKICAgIH0KICAgIGlmICh0YXJnZXQua2luZCA9PT0gImxvY2FsIiAmJiAoIXRhcmdldC5lbmFibGVkIHx8ICF0YXJnZXQucmVhZHkpKSB7CiAgICAgIGJlZ2luTG9jYWxTZXR0aW5ncygpOwogICAgICByZXR1cm4gbnVsbDsKICAgIH0KICAgIGlmICgKICAgICAgdGFyZ2V0LmtpbmQgPT09ICJzc2giICYmCiAgICAgICghdGFyZ2V0LmNyZWRlbnRpYWxDb25maWd1cmVkIHx8CiAgICAgICAgIXRhcmdldC50cnVzdGVkSG9zdEtleSB8fAogICAgICAgICF0YXJnZXQubGFzdFZlcmlmaWVkQXQpCiAgICApIHsKICAgICAgYmVnaW5UYXJnZXRFZGl0KHRhcmdldCk7CiAgICAgIHJldHVybiBudWxsOwogICAgfQogICAgdHJ5IHsKICAgICAgY29uc3Qgc2Vzc2lvbiA9IGF3YWl0IHJlcXVlc3RDcmVhdGVTZXNzaW9uKHRhcmdldC5pZCwgZ2V0VGVybWluYWxTaXplKCkpOwogICAgICBhd2FpdCBuZXh0VGljaygpOwogICAgICBhd2FpdCBjb25uZWN0VG9TZXNzaW9uKHNlc3Npb24pOwogICAgICB0b2FzdC5zdWNjZXNzKHRyYW5zbGF0ZSgiYWRtaW4ud2ViVGVybWluYWwuc2Vzc2lvbkNyZWF0ZWQiKSk7CiAgICAgIHJldHVybiBzZXNzaW9uOwogICAgfSBjYXRjaCAocmVhc29uKSB7CiAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4ud2ViVGVybWluYWwuY3JlYXRlRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXJyb3JNZXNzYWdlKAogICAgICAgICAgcmVhc29uLAogICAgICAgICAgdHJhbnNsYXRlKCJhZG1pbi53ZWJUZXJtaW5hbC5jcmVhdGVGYWlsZWREZXNjcmlwdGlvbiIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgICByZXR1cm4gbnVsbDsKICAgIH0KICB9OwoKICBjb25zdCBkZXN0cm95U2VsZWN0ZWRTZXNzaW9uID0gYXN5bmMgKCkgPT4gewogICAgY29uc3Qgc2Vzc2lvbiA9IHNlbGVjdGVkU2Vzc2lvbi52YWx1ZTsKICAgIGlmICghc2Vzc2lvbikgcmV0dXJuOwogICAgdHJ5IHsKICAgICAgYXdhaXQgZGV0YWNoKCk7CiAgICAgIGF3YWl0IGVuZFNlc3Npb24oc2Vzc2lvbi5pZCk7CiAgICAgIGNvbnN0IG5leHRTZXNzaW9uID0gc2VsZWN0ZWRTZXNzaW9uLnZhbHVlOwogICAgICBpZiAobmV4dFNlc3Npb24pIGF3YWl0IGNvbm5lY3RUb1Nlc3Npb24obmV4dFNlc3Npb24pOwogICAgICB0b2FzdC5zdWNjZXNzKHRyYW5zbGF0ZSgiYWRtaW4ud2ViVGVybWluYWwuc2Vzc2lvbkVuZGVkIikpOwogICAgfSBjYXRjaCAocmVhc29uKSB7CiAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4ud2ViVGVybWluYWwuZW5kRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXJyb3JNZXNzYWdlKAogICAgICAgICAgcmVhc29uLAogICAgICAgICAgdHJhbnNsYXRlKCJhZG1pbi53ZWJUZXJtaW5hbC5lbmRGYWlsZWREZXNjcmlwdGlvbiIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfQogIH07CgogIGNvbnN0IHJlY29ubmVjdFNlc3Npb24gPSBhc3luYyAoKSA9PiB7CiAgICB0cnkgewogICAgICBhd2FpdCByZWNvbm5lY3RBdHRhY2htZW50KCk7CiAgICB9IGNhdGNoIChyZWFzb24pIHsKICAgICAgdG9hc3QuZXJyb3IodHJhbnNsYXRlKCJhZG1pbi53ZWJUZXJtaW5hbC5yZWNvbm5lY3RGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBlcnJvck1lc3NhZ2UoCiAgICAgICAgICByZWFzb24sCiAgICAgICAgICB0cmFuc2xhdGUoImFkbWluLndlYlRlcm1pbmFsLnJlY29ubmVjdEZhaWxlZERlc2NyaXB0aW9uIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9CiAgfTsKCiAgcmV0dXJuIHsKICAgIGNvbm5lY3RUb1Nlc3Npb24sCiAgICBjcmVhdGVTZXNzaW9uLAogICAgZGVzdHJveVNlbGVjdGVkU2Vzc2lvbiwKICAgIGhhbmRsZVNlc3Npb25UYWJDaGFuZ2UsCiAgICByZWNvbm5lY3RTZXNzaW9uLAogIH07Cn07Cg==
+import { nextTick, type Ref } from "vue";
+import { toast } from "@admin-shared/utils/toast";
+import type {
+  TerminalDestination,
+  TerminalSessionRecord,
+  TerminalTargetRecord,
+} from "@/lib/api/terminal";
+import { extractTerminalError, localizeTerminalError } from "./terminal-errors";
+
+export const useTerminalSessionActions = ({
+  beginTargetCreate,
+  beginTargetEdit,
+  beginLocalSettings,
+  connect,
+  createSession: requestCreateSession,
+  detach,
+  endSession,
+  getTerminalSize,
+  isAttachedTo,
+  onConnectStart,
+  reconnectAttachment,
+  selectedSession,
+  selectedSessionId,
+  selectedTarget,
+  sessions,
+  translate,
+}: {
+  beginTargetCreate: () => void;
+  beginTargetEdit: (target: TerminalTargetRecord) => void;
+  beginLocalSettings: () => void;
+  connect: (session: TerminalSessionRecord) => Promise<void>;
+  createSession: (
+    targetId: string,
+    size: { cols: number; rows: number },
+  ) => Promise<TerminalSessionRecord>;
+  detach: () => Promise<void>;
+  endSession: (sessionId: string) => Promise<void>;
+  getTerminalSize: () => { cols: number; rows: number };
+  isAttachedTo: (sessionId: string) => boolean;
+  onConnectStart: () => void;
+  reconnectAttachment: () => Promise<void>;
+  selectedSession: Readonly<Ref<TerminalSessionRecord | null>>;
+  selectedSessionId: Readonly<Ref<string>>;
+  selectedTarget: Readonly<Ref<TerminalDestination | null>>;
+  sessions: Readonly<Ref<TerminalSessionRecord[]>>;
+  translate: (key: string) => string;
+}) => {
+  const errorMessage = (reason: unknown, fallback: string) =>
+    localizeTerminalError(extractTerminalError(reason, fallback), translate);
+
+  const connectToSession = async (session: TerminalSessionRecord) => {
+    onConnectStart();
+    await connect(session);
+  };
+
+  const handleSessionTabChange = async (sessionId: string | number) => {
+    const session = sessions.value.find(
+      (item) => item.id === String(sessionId),
+    );
+    if (!session) return;
+    if (session.id === selectedSessionId.value && isAttachedTo(session.id)) {
+      return;
+    }
+    try {
+      await connectToSession(session);
+    } catch (reason) {
+      toast.error(translate("admin.webTerminal.switchFailed"), {
+        description: errorMessage(
+          reason,
+          translate("admin.webTerminal.switchFailedDescription"),
+        ),
+      });
+    }
+  };
+
+  const createSession = async () => {
+    const target = selectedTarget.value;
+    if (!target) {
+      beginTargetCreate();
+      return null;
+    }
+    if (target.kind === "local" && (!target.enabled || !target.ready)) {
+      beginLocalSettings();
+      return null;
+    }
+    if (
+      target.kind === "ssh" &&
+      (!target.credentialConfigured ||
+        !target.trustedHostKey ||
+        !target.lastVerifiedAt)
+    ) {
+      beginTargetEdit(target);
+      return null;
+    }
+    try {
+      const session = await requestCreateSession(target.id, getTerminalSize());
+      await nextTick();
+      await connectToSession(session);
+      toast.success(translate("admin.webTerminal.sessionCreated"));
+      return session;
+    } catch (reason) {
+      toast.error(translate("admin.webTerminal.createFailed"), {
+        description: errorMessage(
+          reason,
+          translate("admin.webTerminal.createFailedDescription"),
+        ),
+      });
+      return null;
+    }
+  };
+
+  const destroySelectedSession = async () => {
+    const session = selectedSession.value;
+    if (!session) return;
+    try {
+      await detach();
+      await endSession(session.id);
+      const nextSession = selectedSession.value;
+      if (nextSession) await connectToSession(nextSession);
+      toast.success(translate("admin.webTerminal.sessionEnded"));
+    } catch (reason) {
+      toast.error(translate("admin.webTerminal.endFailed"), {
+        description: errorMessage(
+          reason,
+          translate("admin.webTerminal.endFailedDescription"),
+        ),
+      });
+    }
+  };
+
+  const reconnectSession = async () => {
+    try {
+      await reconnectAttachment();
+    } catch (reason) {
+      toast.error(translate("admin.webTerminal.reconnectFailed"), {
+        description: errorMessage(
+          reason,
+          translate("admin.webTerminal.reconnectFailedDescription"),
+        ),
+      });
+    }
+  };
+
+  return {
+    connectToSession,
+    createSession,
+    destroySelectedSession,
+    handleSessionTabChange,
+    reconnectSession,
+  };
+};

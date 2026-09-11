@@ -1,1 +1,18 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGxpCiAgICBkYXRhLXNsb3Q9InNpZGViYXItbWVudS1pdGVtIgogICAgZGF0YS1zaWRlYmFyPSJtZW51LWl0ZW0iCiAgICA6Y2xhc3M9ImNuKCdncm91cC9tZW51LWl0ZW0gcmVsYXRpdmUnLCBwcm9wcy5jbGFzcykiCiAgPgogICAgPHNsb3QgLz4KICA8L2xpPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <li
+    data-slot="sidebar-menu-item"
+    data-sidebar="menu-item"
+    :class="cn('group/menu-item relative', props.class)"
+  >
+    <slot />
+  </li>
+</template>

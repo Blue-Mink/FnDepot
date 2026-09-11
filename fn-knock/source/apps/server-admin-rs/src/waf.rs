@@ -1,1 +1,3 @@
-cHViKGNyYXRlKSBtb2Qgcm91dGVzOwoKcHViKGNyYXRlKSB1c2Ugcm91dGVzOjoqOwo=
+pub(crate) mod routes;
+
+pub(crate) use routes::*;

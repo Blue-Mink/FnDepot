@@ -1,1 +1,374 @@
-aW1wb3J0IHR5cGUgewogIGNvbXBvbmVudHMgYXMgQXBpQ29udHJhY3RDb21wb25lbnRzLAogIG9wZXJhdGlvbnMgYXMgQXBpQ29udHJhY3RPcGVyYXRpb25zLAp9IGZyb20gIkBmbi1rbm9jay9hcGktY29udHJhY3QiOwppbXBvcnQgeyBhcGlDbGllbnQgfSBmcm9tICIuL2NsaWVudCI7Cgp0eXBlIFR1bm5lbFNjaGVtYXMgPSBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXTsKCmV4cG9ydCB0eXBlIEZycGNUY3BJdGVtID0gVHVubmVsU2NoZW1hc1siRnJwY1RjcEl0ZW1EYXRhIl07CgpleHBvcnQgdHlwZSBGcnBjSW5zdGFuY2VTdW1tYXJ5ID0gVHVubmVsU2NoZW1hc1siRnJwY0luc3RhbmNlU3VtbWFyeURhdGEiXTsKCmV4cG9ydCB0eXBlIFR1bm5lbFN1cGVydmlzb3JGYWlsdXJlID0KICBUdW5uZWxTY2hlbWFzWyJDbG91ZGZsYXJlZFN1cGVydmlzb3JGYWlsdXJlRGF0YSJdOwoKZXhwb3J0IHR5cGUgVHVubmVsU3VwZXJ2aXNvclN0YXR1cyA9IFR1bm5lbFNjaGVtYXNbIkNsb3VkZmxhcmVkU3VwZXJ2aXNvckRhdGEiXTsKCmV4cG9ydCB0eXBlIEZycGNJbnN0YW5jZVN0YXR1cyA9IFR1bm5lbFNjaGVtYXNbIkZycGNJbnN0YW5jZVN0YXR1c0RhdGEiXTsKCmV4cG9ydCB0eXBlIEZycGNJbnN0YW5jZXNPdmVydmlldyA9IFR1bm5lbFNjaGVtYXNbIkZycGNJbnN0YW5jZXNPdmVydmlld0RhdGEiXTsKCmV4cG9ydCB0eXBlIEZycGNJbnN0YW5jZURldGFpbCA9IFR1bm5lbFNjaGVtYXNbIkZycGNJbnN0YW5jZURldGFpbERhdGEiXTsKCmV4cG9ydCB0eXBlIEZycGNTdGF0dXNQYXlsb2FkID0gVHVubmVsU2NoZW1hc1siRnJwY1ByaW1hcnlTdGF0dXNEYXRhIl07CgpleHBvcnQgdHlwZSBGcnBjUG9sbFBheWxvYWQgPSBUdW5uZWxTY2hlbWFzWyJGcnBjUG9sbERhdGEiXTsKCmV4cG9ydCB0eXBlIEZycGNJbnN0YW5jZVBvbGxQYXlsb2FkID0gVHVubmVsU2NoZW1hc1siRnJwY0luc3RhbmNlUG9sbERhdGEiXTsKCmV4cG9ydCB0eXBlIENsb3VkZmxhcmVkUHJvdG9jb2wgPQogIFR1bm5lbFNjaGVtYXNbIkNsb3VkZmxhcmVkQ29uZmlnRGF0YSJdWyJwcm90b2NvbCJdOwpleHBvcnQgdHlwZSBDbG91ZGZsYXJlZENvbmZpZyA9IFR1bm5lbFNjaGVtYXNbIkNsb3VkZmxhcmVkQ29uZmlnRGF0YSJdOwpleHBvcnQgdHlwZSBDbG91ZGZsYXJlVHVubmVsU3VtbWFyeSA9CiAgVHVubmVsU2NoZW1hc1siQ2xvdWRmbGFyZVR1bm5lbFN1bW1hcnlEYXRhIl07CmV4cG9ydCB0eXBlIENsb3VkZmxhcmVPcHRpbWl6YXRpb25DYW5kaWRhdGUgPQogIFR1bm5lbFNjaGVtYXNbIkNsb3VkZmxhcmVPcHRpbWl6YXRpb25DYW5kaWRhdGVEYXRhIl07CmV4cG9ydCB0eXBlIENsb3VkZmxhcmVPcHRpbWl6YXRpb25WYW50YWdlID0KICBUdW5uZWxTY2hlbWFzWyJDbG91ZGZsYXJlT3B0aW1pemF0aW9uVmFudGFnZURhdGEiXTsKZXhwb3J0IHR5cGUgQ2xvdWRmbGFyZU9wdGltaXphdGlvbkNhbmRpZGF0ZVNvdXJjZXMgPQogIFR1bm5lbFNjaGVtYXNbIkNsb3VkZmxhcmVPcHRpbWl6YXRpb25DYW5kaWRhdGVTb3VyY2VzRGF0YSJdOwpleHBvcnQgdHlwZSBDbG91ZGZsYXJlT3B0aW1pemF0aW9uUmVzb2x2ZXJEaWFnbm9zdGljID0KICBUdW5uZWxTY2hlbWFzWyJDbG91ZGZsYXJlT3B0aW1pemF0aW9uUmVzb2x2ZXJEaWFnbm9zdGljRGF0YSJdOwpleHBvcnQgdHlwZSBDbG91ZGZsYXJlT3B0aW1pemF0aW9uU2NhbiA9CiAgVHVubmVsU2NoZW1hc1siQ2xvdWRmbGFyZU9wdGltaXphdGlvblNjYW5EYXRhIl07CmV4cG9ydCB0eXBlIENsb3VkZmxhcmVPcHRpbWl6YXRpb25Eb21haW4gPQogIFR1bm5lbFNjaGVtYXNbIkNsb3VkZmxhcmVPcHRpbWl6YXRpb25Eb21haW5EYXRhIl07CmV4cG9ydCB0eXBlIENsb3VkZmxhcmVNYW5hZ2VkU3RhdGUgPQogIFR1bm5lbFNjaGVtYXNbIkNsb3VkZmxhcmVNYW5hZ2VkU3RhdGVEYXRhIl07CmV4cG9ydCB0eXBlIENsb3VkZmxhcmVSZWNvbmNpbGVPcGVyYXRpb24gPQogIFR1bm5lbFNjaGVtYXNbIkNsb3VkZmxhcmVSZWNvbmNpbGVPcGVyYXRpb25EYXRhIl07CmV4cG9ydCB0eXBlIENsb3VkZmxhcmVSZWNvbmNpbGVDb25mbGljdCA9CiAgVHVubmVsU2NoZW1hc1siQ2xvdWRmbGFyZVJlY29uY2lsZUNvbmZsaWN0RGF0YSJdOwpleHBvcnQgdHlwZSBDbG91ZGZsYXJlUmVjb25jaWxlUGxhbiA9CiAgVHVubmVsU2NoZW1hc1siQ2xvdWRmbGFyZVJlY29uY2lsZVBsYW5EYXRhIl07CmV4cG9ydCB0eXBlIENsb3VkZmxhcmVSZWNvbmNpbGVKb2IgPQogIFR1bm5lbFNjaGVtYXNbIkNsb3VkZmxhcmVSZWNvbmNpbGVKb2JEYXRhIl07CmV4cG9ydCB0eXBlIENsb3VkZmxhcmVkU3RhdHVzUGF5bG9hZCA9CiAgVHVubmVsU2NoZW1hc1siQ2xvdWRmbGFyZWRSdW50aW1lU3RhdHVzRGF0YSJdOwpleHBvcnQgdHlwZSBDbG91ZGZsYXJlZFBvbGxQYXlsb2FkID0gVHVubmVsU2NoZW1hc1siQ2xvdWRmbGFyZWRQb2xsRGF0YSJdOwoKdHlwZSBDbG91ZGZsYXJlZFN0YXR1cyA9IFR1bm5lbFNjaGVtYXNbIkNsb3VkZmxhcmVkU3RhdHVzRGF0YSJdOwp0eXBlIENsb3VkZmxhcmVkQ29uZmlnVXBkYXRlID0gVHVubmVsU2NoZW1hc1siQ2xvdWRmbGFyZWRDb25maWdVcGRhdGVEYXRhIl07CnR5cGUgQ2xvdWRmbGFyZUNyZWRlbnRpYWxCb2R5ID0gVHVubmVsU2NoZW1hc1siQ2xvdWRmbGFyZUNyZWRlbnRpYWxCb2R5RGF0YSJdOwp0eXBlIENsb3VkZmxhcmVSZWNvbmNpbGVSZXF1ZXN0ID0KICBUdW5uZWxTY2hlbWFzWyJDbG91ZGZsYXJlUmVjb25jaWxlUmVxdWVzdERhdGEiXTsKdHlwZSBDbG91ZGZsYXJlUmVjb25jaWxlQXBwbHlCb2R5ID0KICBUdW5uZWxTY2hlbWFzWyJDbG91ZGZsYXJlUmVjb25jaWxlQXBwbHlCb2R5RGF0YSJdOwp0eXBlIENsb3VkZmxhcmVPcHRpbWl6YXRpb25TY2FuQm9keSA9CiAgVHVubmVsU2NoZW1hc1siQ2xvdWRmbGFyZU9wdGltaXphdGlvblNjYW5Cb2R5RGF0YSJdOwp0eXBlIENsb3VkZmxhcmVPcHRpbWl6YXRpb25Tb3VyY2VTZXR0aW5nc0JvZHkgPQogIFR1bm5lbFNjaGVtYXNbIkNsb3VkZmxhcmVPcHRpbWl6YXRpb25Tb3VyY2VTZXR0aW5nc0JvZHlEYXRhIl07CnR5cGUgQ2xvdWRmbGFyZU9wdGltaXphdGlvbkRvbWFpbkJvZHkgPQogIFR1bm5lbFNjaGVtYXNbIkNsb3VkZmxhcmVPcHRpbWl6YXRpb25Eb21haW5Cb2R5RGF0YSJdOwp0eXBlIENsb3VkZmxhcmVPcHRpbWl6YXRpb25Eb21haW5VcGRhdGUgPQogIFR1bm5lbFNjaGVtYXNbIkNsb3VkZmxhcmVPcHRpbWl6YXRpb25Eb21haW5VcGRhdGVEYXRhIl07CnR5cGUgQ2xvdWRmbGFyZU9wdGltaXphdGlvbkFwcGx5Qm9keSA9CiAgVHVubmVsU2NoZW1hc1siQ2xvdWRmbGFyZU9wdGltaXphdGlvbkFwcGx5Qm9keURhdGEiXTsKdHlwZSBDbG91ZGZsYXJlT3B0aW1pemF0aW9uQXBwbHkgPQogIFR1bm5lbFNjaGVtYXNbIkNsb3VkZmxhcmVPcHRpbWl6YXRpb25BcHBseURhdGEiXTsKdHlwZSBDbG91ZGZsYXJlT3B0aW1pemF0aW9uRmFsbGJhY2sgPQogIFR1bm5lbFNjaGVtYXNbIkNsb3VkZmxhcmVPcHRpbWl6YXRpb25GYWxsYmFja0RhdGEiXTsKdHlwZSBDbG91ZGZsYXJlZExvZ3NRdWVyeSA9IE5vbk51bGxhYmxlPAogIEFwaUNvbnRyYWN0T3BlcmF0aW9uc1siZ2V0X2FwaV9hZG1pbl9jbG91ZGZsYXJlZF9sb2dzIl1bInBhcmFtZXRlcnMiXVsicXVlcnkiXQo+Owp0eXBlIENsb3VkZmxhcmVkUG9sbFF1ZXJ5ID0gTm9uTnVsbGFibGU8CiAgQXBpQ29udHJhY3RPcGVyYXRpb25zWyJnZXRfYXBpX2FkbWluX2Nsb3VkZmxhcmVkX3BvbGwiXVsicGFyYW1ldGVycyJdWyJxdWVyeSJdCj47CnR5cGUgRnJwY1N0YXR1cyA9IFR1bm5lbFNjaGVtYXNbIkZycGNTdGF0dXNEYXRhIl07CnR5cGUgRnJwY0xlZ2FjeU92ZXJ2aWV3ID0gVHVubmVsU2NoZW1hc1siRnJwY0xlZ2FjeU92ZXJ2aWV3RGF0YSJdOwp0eXBlIEZycGNXZWJTdGF0dXMgPSBUdW5uZWxTY2hlbWFzWyJGcnBjV2ViU3RhdHVzRGF0YSJdOwp0eXBlIEZycGNDb25maWcgPSBUdW5uZWxTY2hlbWFzWyJGcnBjQ29uZmlnRGF0YSJdOwp0eXBlIEZycGNDb25maWdVcGRhdGUgPSBUdW5uZWxTY2hlbWFzWyJGcnBjQ29uZmlnVXBkYXRlRGF0YSJdOwp0eXBlIEZycGNTdGFydCA9IFR1bm5lbFNjaGVtYXNbIkZycGNTdGFydERhdGEiXTsKdHlwZSBGcnBjSW5zdGFuY2VCb2R5ID0gVHVubmVsU2NoZW1hc1siRnJwY0luc3RhbmNlQm9keURhdGEiXTsKdHlwZSBGcnBjT3ZlcnZpZXdRdWVyeSA9IE5vbk51bGxhYmxlPAogIEFwaUNvbnRyYWN0T3BlcmF0aW9uc1siZ2V0X2FwaV9hZG1pbl9mcnBjX292ZXJ2aWV3Il1bInBhcmFtZXRlcnMiXVsicXVlcnkiXQo+Owp0eXBlIEZycGNMb2dzUXVlcnkgPSBOb25OdWxsYWJsZTwKICBBcGlDb250cmFjdE9wZXJhdGlvbnNbImdldF9hcGlfYWRtaW5fZnJwY19sb2dzIl1bInBhcmFtZXRlcnMiXVsicXVlcnkiXQo+Owp0eXBlIEZycGNQb2xsUXVlcnkgPSBOb25OdWxsYWJsZTwKICBBcGlDb250cmFjdE9wZXJhdGlvbnNbImdldF9hcGlfYWRtaW5fZnJwY19wb2xsIl1bInBhcmFtZXRlcnMiXVsicXVlcnkiXQo+Owp0eXBlIEZycGNJbnN0YW5jZVF1ZXJ5ID0gTm9uTnVsbGFibGU8CiAgQXBpQ29udHJhY3RPcGVyYXRpb25zWyJnZXRfYXBpX2FkbWluX2ZycGNfaW5zdGFuY2VzX19pZF8iXVsicGFyYW1ldGVycyJdWyJxdWVyeSJdCj47CnR5cGUgRnJwY0luc3RhbmNlTG9nc1F1ZXJ5ID0gTm9uTnVsbGFibGU8CiAgQXBpQ29udHJhY3RPcGVyYXRpb25zWyJnZXRfYXBpX2FkbWluX2ZycGNfaW5zdGFuY2VzX19pZF9fbG9ncyJdWyJwYXJhbWV0ZXJzIl1bInF1ZXJ5Il0KPjsKdHlwZSBGcnBjSW5zdGFuY2VQb2xsUXVlcnkgPSBOb25OdWxsYWJsZTwKICBBcGlDb250cmFjdE9wZXJhdGlvbnNbImdldF9hcGlfYWRtaW5fZnJwY19pbnN0YW5jZXNfX2lkX19wb2xsIl1bInBhcmFtZXRlcnMiXVsicXVlcnkiXQo+OwoKZXhwb3J0IGNvbnN0IEZycGNBUEkgPSB7CiAgYXN5bmMgZ2V0U3RhdHVzKCk6IFByb21pc2U8RnJwY1N0YXR1cz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2ZycGMvc3RhdHVzIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGdldE92ZXJ2aWV3KGxpbWl0ID0gMjAwKTogUHJvbWlzZTxGcnBjTGVnYWN5T3ZlcnZpZXc+IHsKICAgIGNvbnN0IHBhcmFtcyA9IHsgbGltaXQgfSBzYXRpc2ZpZXMgRnJwY092ZXJ2aWV3UXVlcnk7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvZnJwYy9vdmVydmlldyIsIHsgcGFyYW1zIH0pOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRXZWJTdGF0dXMoKTogUHJvbWlzZTxGcnBjV2ViU3RhdHVzPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvZnJwYy93ZWItc3RhdHVzIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGdldENvbmZpZygpOiBQcm9taXNlPHN0cmluZz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2ZycGMvY29uZmlnIik7CiAgICBjb25zdCBkYXRhOiBGcnBjQ29uZmlnID0gcmVzLmRhdGEuZGF0YTsKICAgIHJldHVybiBkYXRhLmNvbnRlbnQ7CiAgfSwKICBhc3luYyBzYXZlQ29uZmlnKGNvbnRlbnQ6IHN0cmluZyk6IFByb21pc2U8dm9pZD4gewogICAgY29uc3QgcGF5bG9hZCA9IHsgY29udGVudCB9IHNhdGlzZmllcyBGcnBjQ29uZmlnVXBkYXRlOwogICAgYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9mcnBjL2NvbmZpZyIsIHBheWxvYWQpOwogIH0sCiAgYXN5bmMgc3RhcnQoKTogUHJvbWlzZTxGcnBjU3RhcnQ+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvZnJwYy9zdGFydCIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBzdG9wKCk6IFByb21pc2U8dm9pZD4gewogICAgYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9mcnBjL3N0b3AiKTsKICB9LAogIGFzeW5jIGdldExvZ3MobGltaXQgPSAyMDApOiBQcm9taXNlPHN0cmluZ1tdPiB7CiAgICBjb25zdCBwYXJhbXMgPSB7IGxpbWl0IH0gc2F0aXNmaWVzIEZycGNMb2dzUXVlcnk7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvZnJwYy9sb2dzIiwgeyBwYXJhbXMgfSk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGNsZWFyTG9ncygpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGF3YWl0IGFwaUNsaWVudC5kZWxldGUoIi9mcnBjL2xvZ3MiKTsKICB9LAogIGFzeW5jIHBvbGwoY3Vyc29yPzogbnVtYmVyLCBzaWduYWw/OiBBYm9ydFNpZ25hbCk6IFByb21pc2U8RnJwY1BvbGxQYXlsb2FkPiB7CiAgICBjb25zdCBwYXJhbXMgPQogICAgICB0eXBlb2YgY3Vyc29yID09PSAibnVtYmVyIgogICAgICAgID8gKHsgY3Vyc29yIH0gc2F0aXNmaWVzIEZycGNQb2xsUXVlcnkpCiAgICAgICAgOiB1bmRlZmluZWQ7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvZnJwYy9wb2xsIiwgewogICAgICBwYXJhbXMsCiAgICAgIHNpZ25hbCwKICAgIH0pOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRJbnN0YW5jZXMoKTogUHJvbWlzZTxGcnBjSW5zdGFuY2VzT3ZlcnZpZXc+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9mcnBjL2luc3RhbmNlcyIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBjcmVhdGVEcmFmdCgpOiBQcm9taXNlPHN0cmluZz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9mcnBjL2luc3RhbmNlcy9kcmFmdCIpOwogICAgY29uc3QgZGF0YTogRnJwY0NvbmZpZyA9IHJlcy5kYXRhLmRhdGE7CiAgICByZXR1cm4gZGF0YS5jb250ZW50OwogIH0sCiAgYXN5bmMgY3JlYXRlSW5zdGFuY2UocGF5bG9hZDogRnJwY0luc3RhbmNlQm9keSk6IFByb21pc2U8RnJwY0luc3RhbmNlU3RhdHVzPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL2ZycGMvaW5zdGFuY2VzIiwgcGF5bG9hZCk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGdldEluc3RhbmNlKGlkOiBzdHJpbmcsIGxpbWl0ID0gMjAwKTogUHJvbWlzZTxGcnBjSW5zdGFuY2VEZXRhaWw+IHsKICAgIGNvbnN0IHBhcmFtcyA9IHsgbGltaXQgfSBzYXRpc2ZpZXMgRnJwY0luc3RhbmNlUXVlcnk7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KAogICAgICBgL2ZycGMvaW5zdGFuY2VzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX1gLAogICAgICB7IHBhcmFtcyB9LAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgdXBkYXRlSW5zdGFuY2UoCiAgICBpZDogc3RyaW5nLAogICAgcGF5bG9hZDogRnJwY0luc3RhbmNlQm9keSwKICApOiBQcm9taXNlPEZycGNJbnN0YW5jZVN0YXR1cz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnB1dCgKICAgICAgYC9mcnBjL2luc3RhbmNlcy8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9YCwKICAgICAgcGF5bG9hZCwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGRlbGV0ZUluc3RhbmNlKGlkOiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGF3YWl0IGFwaUNsaWVudC5kZWxldGUoYC9mcnBjL2luc3RhbmNlcy8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9YCk7CiAgfSwKICBhc3luYyBzdGFydEluc3RhbmNlKGlkOiBzdHJpbmcpOiBQcm9taXNlPEZycGNTdGFydD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoCiAgICAgIGAvZnJwYy9pbnN0YW5jZXMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfS9zdGFydGAsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBzdG9wSW5zdGFuY2UoaWQ6IHN0cmluZyk6IFByb21pc2U8dm9pZD4gewogICAgYXdhaXQgYXBpQ2xpZW50LnBvc3QoYC9mcnBjL2luc3RhbmNlcy8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9L3N0b3BgKTsKICB9LAogIGFzeW5jIHJlc3RhcnRJbnN0YW5jZShpZDogc3RyaW5nKTogUHJvbWlzZTxGcnBjU3RhcnQ+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KAogICAgICBgL2ZycGMvaW5zdGFuY2VzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX0vcmVzdGFydGAsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRJbnN0YW5jZUxvZ3MoaWQ6IHN0cmluZywgbGltaXQgPSAyMDApOiBQcm9taXNlPHN0cmluZ1tdPiB7CiAgICBjb25zdCBwYXJhbXMgPSB7IGxpbWl0IH0gc2F0aXNmaWVzIEZycGNJbnN0YW5jZUxvZ3NRdWVyeTsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoCiAgICAgIGAvZnJwYy9pbnN0YW5jZXMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfS9sb2dzYCwKICAgICAgeyBwYXJhbXMgfSwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGNsZWFySW5zdGFuY2VMb2dzKGlkOiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGF3YWl0IGFwaUNsaWVudC5kZWxldGUoYC9mcnBjL2luc3RhbmNlcy8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9L2xvZ3NgKTsKICB9LAogIGFzeW5jIHBvbGxJbnN0YW5jZSgKICAgIGlkOiBzdHJpbmcsCiAgICBjdXJzb3I/OiBudW1iZXIsCiAgKTogUHJvbWlzZTxGcnBjSW5zdGFuY2VQb2xsUGF5bG9hZD4gewogICAgY29uc3QgcGFyYW1zID0KICAgICAgdHlwZW9mIGN1cnNvciA9PT0gIm51bWJlciIKICAgICAgICA/ICh7IGN1cnNvciB9IHNhdGlzZmllcyBGcnBjSW5zdGFuY2VQb2xsUXVlcnkpCiAgICAgICAgOiB1bmRlZmluZWQ7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KAogICAgICBgL2ZycGMvaW5zdGFuY2VzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX0vcG9sbGAsCiAgICAgIHsgcGFyYW1zIH0sCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKfTsKCmV4cG9ydCBjb25zdCBDbG91ZGZsYXJlZEFQSSA9IHsKICBhc3luYyBnZXRTdGF0dXMoKTogUHJvbWlzZTxDbG91ZGZsYXJlZFN0YXR1cz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2Nsb3VkZmxhcmVkL3N0YXR1cyIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRDb25maWcoKTogUHJvbWlzZTxDbG91ZGZsYXJlZENvbmZpZz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2Nsb3VkZmxhcmVkL2NvbmZpZyIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBzYXZlQ29uZmlnKGNvbmZpZzogQ2xvdWRmbGFyZWRDb25maWdVcGRhdGUpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvY2xvdWRmbGFyZWQvY29uZmlnIiwgY29uZmlnKTsKICB9LAogIGFzeW5jIHNhdmVDbG91ZGZsYXJlQ3JlZGVudGlhbCgKICAgIGFwaVRva2VuOiBzdHJpbmcsCiAgKTogUHJvbWlzZTxDbG91ZGZsYXJlTWFuYWdlZFN0YXRlPiB7CiAgICBjb25zdCBib2R5ID0geyBhcGlUb2tlbiB9IHNhdGlzZmllcyBDbG91ZGZsYXJlQ3JlZGVudGlhbEJvZHk7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucHV0KCIvY2xvdWRmbGFyZWQvY2xvdWRmbGFyZS9jcmVkZW50aWFsIiwgYm9keSk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGRlbGV0ZUNsb3VkZmxhcmVDcmVkZW50aWFsKCk6IFByb21pc2U8dm9pZD4gewogICAgYXdhaXQgYXBpQ2xpZW50LmRlbGV0ZSgiL2Nsb3VkZmxhcmVkL2Nsb3VkZmxhcmUvY3JlZGVudGlhbCIpOwogIH0sCiAgYXN5bmMgZ2V0Q2xvdWRmbGFyZVN0YXRlKCk6IFByb21pc2U8Q2xvdWRmbGFyZU1hbmFnZWRTdGF0ZT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2Nsb3VkZmxhcmVkL2Nsb3VkZmxhcmUvc3RhdGUiKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgcHJldmlld1JlY29uY2lsZSgKICAgIHBheWxvYWQ6IENsb3VkZmxhcmVSZWNvbmNpbGVSZXF1ZXN0LAogICk6IFByb21pc2U8Q2xvdWRmbGFyZVJlY29uY2lsZVBsYW4+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvY2xvdWRmbGFyZWQvcmVjb25jaWxlL3ByZXZpZXciLCBwYXlsb2FkKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgYXBwbHlSZWNvbmNpbGUoCiAgICBwYXlsb2FkOiBDbG91ZGZsYXJlUmVjb25jaWxlQXBwbHlCb2R5LAogICk6IFByb21pc2U8Q2xvdWRmbGFyZVJlY29uY2lsZUpvYj4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9jbG91ZGZsYXJlZC9yZWNvbmNpbGUvYXBwbHkiLCBwYXlsb2FkKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0UmVjb25jaWxlSm9iKGlkOiBzdHJpbmcpOiBQcm9taXNlPENsb3VkZmxhcmVSZWNvbmNpbGVKb2I+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoCiAgICAgIGAvY2xvdWRmbGFyZWQvcmVjb25jaWxlL2pvYnMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfWAsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRBY3RpdmVSZWNvbmNpbGVKb2IoKTogUHJvbWlzZTxDbG91ZGZsYXJlUmVjb25jaWxlSm9iPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvY2xvdWRmbGFyZWQvcmVjb25jaWxlL2pvYnMvYWN0aXZlIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGdldFJlY29uY2lsZUpvYkJ5UGxhbihwbGFuSWQ6IHN0cmluZyk6IFByb21pc2U8Q2xvdWRmbGFyZVJlY29uY2lsZUpvYj4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgKICAgICAgYC9jbG91ZGZsYXJlZC9yZWNvbmNpbGUvam9icy9ieS1wbGFuLyR7ZW5jb2RlVVJJQ29tcG9uZW50KHBsYW5JZCl9YCwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHN0YXJ0T3B0aW1pemF0aW9uU2NhbigKICAgIHBheWxvYWQ6IENsb3VkZmxhcmVPcHRpbWl6YXRpb25TY2FuQm9keSA9IHt9LAogICk6IFByb21pc2U8Q2xvdWRmbGFyZU9wdGltaXphdGlvblNjYW4+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KAogICAgICAiL2Nsb3VkZmxhcmVkL29wdGltaXphdGlvbi9zY2FucyIsCiAgICAgIHBheWxvYWQsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBzYXZlT3B0aW1pemF0aW9uU291cmNlU2V0dGluZ3MoCiAgICBwYXlsb2FkOiBDbG91ZGZsYXJlT3B0aW1pemF0aW9uU291cmNlU2V0dGluZ3NCb2R5LAogICk6IFByb21pc2U8Q2xvdWRmbGFyZU9wdGltaXphdGlvbkNhbmRpZGF0ZVNvdXJjZXM+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wdXQoCiAgICAgICIvY2xvdWRmbGFyZWQvb3B0aW1pemF0aW9uL3NldHRpbmdzIiwKICAgICAgcGF5bG9hZCwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHNldE9wdGltaXphdGlvbkRvbWFpbk1vZGUoCiAgICBob3N0bmFtZTogc3RyaW5nLAogICAgbW9kZTogQ2xvdWRmbGFyZU9wdGltaXphdGlvbkRvbWFpbkJvZHlbIm1vZGUiXSwKICApOiBQcm9taXNlPENsb3VkZmxhcmVPcHRpbWl6YXRpb25Eb21haW5VcGRhdGU+IHsKICAgIGNvbnN0IGJvZHkgPSB7IG1vZGUgfSBzYXRpc2ZpZXMgQ2xvdWRmbGFyZU9wdGltaXphdGlvbkRvbWFpbkJvZHk7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucHV0KAogICAgICBgL2Nsb3VkZmxhcmVkL29wdGltaXphdGlvbi9kb21haW5zLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGhvc3RuYW1lKX1gLAogICAgICBib2R5LAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0T3B0aW1pemF0aW9uU2NhbihpZDogc3RyaW5nKTogUHJvbWlzZTxDbG91ZGZsYXJlT3B0aW1pemF0aW9uU2Nhbj4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgKICAgICAgYC9jbG91ZGZsYXJlZC9vcHRpbWl6YXRpb24vc2NhbnMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfWAsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBjYW5jZWxPcHRpbWl6YXRpb25TY2FuKGlkOiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGF3YWl0IGFwaUNsaWVudC5kZWxldGUoCiAgICAgIGAvY2xvdWRmbGFyZWQvb3B0aW1pemF0aW9uL3NjYW5zLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX1gLAogICAgKTsKICB9LAogIGFzeW5jIGFwcGx5T3B0aW1pemF0aW9uKAogICAgcGF5bG9hZDogQ2xvdWRmbGFyZU9wdGltaXphdGlvbkFwcGx5Qm9keSwKICApOiBQcm9taXNlPENsb3VkZmxhcmVPcHRpbWl6YXRpb25BcHBseT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoCiAgICAgICIvY2xvdWRmbGFyZWQvb3B0aW1pemF0aW9uL2FwcGx5IiwKICAgICAgcGF5bG9hZCwKICAgICk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGZhbGxiYWNrT3B0aW1pemF0aW9uKCk6IFByb21pc2U8Q2xvdWRmbGFyZU9wdGltaXphdGlvbkZhbGxiYWNrPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL2Nsb3VkZmxhcmVkL29wdGltaXphdGlvbi9mYWxsYmFjayIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBzdGFydCgpOiBQcm9taXNlPHsgcGlkOiBudW1iZXIgfT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9jbG91ZGZsYXJlZC9zdGFydCIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBzdG9wKCk6IFByb21pc2U8dm9pZD4gewogICAgYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9jbG91ZGZsYXJlZC9zdG9wIik7CiAgfSwKICBhc3luYyBnZXRMb2dzKGxpbWl0ID0gMjAwKTogUHJvbWlzZTxzdHJpbmdbXT4gewogICAgY29uc3QgcGFyYW1zID0geyBsaW1pdCB9IHNhdGlzZmllcyBDbG91ZGZsYXJlZExvZ3NRdWVyeTsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9jbG91ZGZsYXJlZC9sb2dzIiwgeyBwYXJhbXMgfSk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGNsZWFyTG9ncygpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGF3YWl0IGFwaUNsaWVudC5kZWxldGUoIi9jbG91ZGZsYXJlZC9sb2dzIik7CiAgfSwKICBhc3luYyBwb2xsKAogICAgY3Vyc29yPzogbnVtYmVyLAogICAgc2lnbmFsPzogQWJvcnRTaWduYWwsCiAgKTogUHJvbWlzZTxDbG91ZGZsYXJlZFBvbGxQYXlsb2FkPiB7CiAgICBjb25zdCBwYXJhbXMgPSAoCiAgICAgIHR5cGVvZiBjdXJzb3IgPT09ICJudW1iZXIiID8geyBjdXJzb3IgfSA6IHVuZGVmaW5lZAogICAgKSBzYXRpc2ZpZXMgQ2xvdWRmbGFyZWRQb2xsUXVlcnkgfCB1bmRlZmluZWQ7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvY2xvdWRmbGFyZWQvcG9sbCIsIHsKICAgICAgcGFyYW1zLAogICAgICBzaWduYWwsCiAgICB9KTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCn07Cg==
+import type {
+  components as ApiContractComponents,
+  operations as ApiContractOperations,
+} from "@fn-knock/api-contract";
+import { apiClient } from "./client";
+
+type TunnelSchemas = ApiContractComponents["schemas"];
+
+export type FrpcTcpItem = TunnelSchemas["FrpcTcpItemData"];
+
+export type FrpcInstanceSummary = TunnelSchemas["FrpcInstanceSummaryData"];
+
+export type TunnelSupervisorFailure =
+  TunnelSchemas["CloudflaredSupervisorFailureData"];
+
+export type TunnelSupervisorStatus = TunnelSchemas["CloudflaredSupervisorData"];
+
+export type FrpcInstanceStatus = TunnelSchemas["FrpcInstanceStatusData"];
+
+export type FrpcInstancesOverview = TunnelSchemas["FrpcInstancesOverviewData"];
+
+export type FrpcInstanceDetail = TunnelSchemas["FrpcInstanceDetailData"];
+
+export type FrpcStatusPayload = TunnelSchemas["FrpcPrimaryStatusData"];
+
+export type FrpcPollPayload = TunnelSchemas["FrpcPollData"];
+
+export type FrpcInstancePollPayload = TunnelSchemas["FrpcInstancePollData"];
+
+export type CloudflaredProtocol =
+  TunnelSchemas["CloudflaredConfigData"]["protocol"];
+export type CloudflaredConfig = TunnelSchemas["CloudflaredConfigData"];
+export type CloudflareTunnelSummary =
+  TunnelSchemas["CloudflareTunnelSummaryData"];
+export type CloudflareOptimizationCandidate =
+  TunnelSchemas["CloudflareOptimizationCandidateData"];
+export type CloudflareOptimizationVantage =
+  TunnelSchemas["CloudflareOptimizationVantageData"];
+export type CloudflareOptimizationCandidateSources =
+  TunnelSchemas["CloudflareOptimizationCandidateSourcesData"];
+export type CloudflareOptimizationResolverDiagnostic =
+  TunnelSchemas["CloudflareOptimizationResolverDiagnosticData"];
+export type CloudflareOptimizationScan =
+  TunnelSchemas["CloudflareOptimizationScanData"];
+export type CloudflareOptimizationDomain =
+  TunnelSchemas["CloudflareOptimizationDomainData"];
+export type CloudflareManagedState =
+  TunnelSchemas["CloudflareManagedStateData"];
+export type CloudflareReconcileOperation =
+  TunnelSchemas["CloudflareReconcileOperationData"];
+export type CloudflareReconcileConflict =
+  TunnelSchemas["CloudflareReconcileConflictData"];
+export type CloudflareReconcilePlan =
+  TunnelSchemas["CloudflareReconcilePlanData"];
+export type CloudflareReconcileJob =
+  TunnelSchemas["CloudflareReconcileJobData"];
+export type CloudflaredStatusPayload =
+  TunnelSchemas["CloudflaredRuntimeStatusData"];
+export type CloudflaredPollPayload = TunnelSchemas["CloudflaredPollData"];
+
+type CloudflaredStatus = TunnelSchemas["CloudflaredStatusData"];
+type CloudflaredConfigUpdate = TunnelSchemas["CloudflaredConfigUpdateData"];
+type CloudflareCredentialBody = TunnelSchemas["CloudflareCredentialBodyData"];
+type CloudflareReconcileRequest =
+  TunnelSchemas["CloudflareReconcileRequestData"];
+type CloudflareReconcileApplyBody =
+  TunnelSchemas["CloudflareReconcileApplyBodyData"];
+type CloudflareOptimizationScanBody =
+  TunnelSchemas["CloudflareOptimizationScanBodyData"];
+type CloudflareOptimizationSourceSettingsBody =
+  TunnelSchemas["CloudflareOptimizationSourceSettingsBodyData"];
+type CloudflareOptimizationDomainBody =
+  TunnelSchemas["CloudflareOptimizationDomainBodyData"];
+type CloudflareOptimizationDomainUpdate =
+  TunnelSchemas["CloudflareOptimizationDomainUpdateData"];
+type CloudflareOptimizationApplyBody =
+  TunnelSchemas["CloudflareOptimizationApplyBodyData"];
+type CloudflareOptimizationApply =
+  TunnelSchemas["CloudflareOptimizationApplyData"];
+type CloudflareOptimizationFallback =
+  TunnelSchemas["CloudflareOptimizationFallbackData"];
+type CloudflaredLogsQuery = NonNullable<
+  ApiContractOperations["get_api_admin_cloudflared_logs"]["parameters"]["query"]
+>;
+type CloudflaredPollQuery = NonNullable<
+  ApiContractOperations["get_api_admin_cloudflared_poll"]["parameters"]["query"]
+>;
+type FrpcStatus = TunnelSchemas["FrpcStatusData"];
+type FrpcLegacyOverview = TunnelSchemas["FrpcLegacyOverviewData"];
+type FrpcWebStatus = TunnelSchemas["FrpcWebStatusData"];
+type FrpcConfig = TunnelSchemas["FrpcConfigData"];
+type FrpcConfigUpdate = TunnelSchemas["FrpcConfigUpdateData"];
+type FrpcStart = TunnelSchemas["FrpcStartData"];
+type FrpcInstanceBody = TunnelSchemas["FrpcInstanceBodyData"];
+type FrpcOverviewQuery = NonNullable<
+  ApiContractOperations["get_api_admin_frpc_overview"]["parameters"]["query"]
+>;
+type FrpcLogsQuery = NonNullable<
+  ApiContractOperations["get_api_admin_frpc_logs"]["parameters"]["query"]
+>;
+type FrpcPollQuery = NonNullable<
+  ApiContractOperations["get_api_admin_frpc_poll"]["parameters"]["query"]
+>;
+type FrpcInstanceQuery = NonNullable<
+  ApiContractOperations["get_api_admin_frpc_instances__id_"]["parameters"]["query"]
+>;
+type FrpcInstanceLogsQuery = NonNullable<
+  ApiContractOperations["get_api_admin_frpc_instances__id__logs"]["parameters"]["query"]
+>;
+type FrpcInstancePollQuery = NonNullable<
+  ApiContractOperations["get_api_admin_frpc_instances__id__poll"]["parameters"]["query"]
+>;
+
+export const FrpcAPI = {
+  async getStatus(): Promise<FrpcStatus> {
+    const res = await apiClient.get("/frpc/status");
+    return res.data.data;
+  },
+  async getOverview(limit = 200): Promise<FrpcLegacyOverview> {
+    const params = { limit } satisfies FrpcOverviewQuery;
+    const res = await apiClient.get("/frpc/overview", { params });
+    return res.data.data;
+  },
+  async getWebStatus(): Promise<FrpcWebStatus> {
+    const res = await apiClient.get("/frpc/web-status");
+    return res.data.data;
+  },
+  async getConfig(): Promise<string> {
+    const res = await apiClient.get("/frpc/config");
+    const data: FrpcConfig = res.data.data;
+    return data.content;
+  },
+  async saveConfig(content: string): Promise<void> {
+    const payload = { content } satisfies FrpcConfigUpdate;
+    await apiClient.post("/frpc/config", payload);
+  },
+  async start(): Promise<FrpcStart> {
+    const res = await apiClient.post("/frpc/start");
+    return res.data.data;
+  },
+  async stop(): Promise<void> {
+    await apiClient.post("/frpc/stop");
+  },
+  async getLogs(limit = 200): Promise<string[]> {
+    const params = { limit } satisfies FrpcLogsQuery;
+    const res = await apiClient.get("/frpc/logs", { params });
+    return res.data.data;
+  },
+  async clearLogs(): Promise<void> {
+    await apiClient.delete("/frpc/logs");
+  },
+  async poll(cursor?: number, signal?: AbortSignal): Promise<FrpcPollPayload> {
+    const params =
+      typeof cursor === "number"
+        ? ({ cursor } satisfies FrpcPollQuery)
+        : undefined;
+    const res = await apiClient.get("/frpc/poll", {
+      params,
+      signal,
+    });
+    return res.data.data;
+  },
+  async getInstances(): Promise<FrpcInstancesOverview> {
+    const res = await apiClient.get("/frpc/instances");
+    return res.data.data;
+  },
+  async createDraft(): Promise<string> {
+    const res = await apiClient.post("/frpc/instances/draft");
+    const data: FrpcConfig = res.data.data;
+    return data.content;
+  },
+  async createInstance(payload: FrpcInstanceBody): Promise<FrpcInstanceStatus> {
+    const res = await apiClient.post("/frpc/instances", payload);
+    return res.data.data;
+  },
+  async getInstance(id: string, limit = 200): Promise<FrpcInstanceDetail> {
+    const params = { limit } satisfies FrpcInstanceQuery;
+    const res = await apiClient.get(
+      `/frpc/instances/${encodeURIComponent(id)}`,
+      { params },
+    );
+    return res.data.data;
+  },
+  async updateInstance(
+    id: string,
+    payload: FrpcInstanceBody,
+  ): Promise<FrpcInstanceStatus> {
+    const res = await apiClient.put(
+      `/frpc/instances/${encodeURIComponent(id)}`,
+      payload,
+    );
+    return res.data.data;
+  },
+  async deleteInstance(id: string): Promise<void> {
+    await apiClient.delete(`/frpc/instances/${encodeURIComponent(id)}`);
+  },
+  async startInstance(id: string): Promise<FrpcStart> {
+    const res = await apiClient.post(
+      `/frpc/instances/${encodeURIComponent(id)}/start`,
+    );
+    return res.data.data;
+  },
+  async stopInstance(id: string): Promise<void> {
+    await apiClient.post(`/frpc/instances/${encodeURIComponent(id)}/stop`);
+  },
+  async restartInstance(id: string): Promise<FrpcStart> {
+    const res = await apiClient.post(
+      `/frpc/instances/${encodeURIComponent(id)}/restart`,
+    );
+    return res.data.data;
+  },
+  async getInstanceLogs(id: string, limit = 200): Promise<string[]> {
+    const params = { limit } satisfies FrpcInstanceLogsQuery;
+    const res = await apiClient.get(
+      `/frpc/instances/${encodeURIComponent(id)}/logs`,
+      { params },
+    );
+    return res.data.data;
+  },
+  async clearInstanceLogs(id: string): Promise<void> {
+    await apiClient.delete(`/frpc/instances/${encodeURIComponent(id)}/logs`);
+  },
+  async pollInstance(
+    id: string,
+    cursor?: number,
+  ): Promise<FrpcInstancePollPayload> {
+    const params =
+      typeof cursor === "number"
+        ? ({ cursor } satisfies FrpcInstancePollQuery)
+        : undefined;
+    const res = await apiClient.get(
+      `/frpc/instances/${encodeURIComponent(id)}/poll`,
+      { params },
+    );
+    return res.data.data;
+  },
+};
+
+export const CloudflaredAPI = {
+  async getStatus(): Promise<CloudflaredStatus> {
+    const res = await apiClient.get("/cloudflared/status");
+    return res.data.data;
+  },
+  async getConfig(): Promise<CloudflaredConfig> {
+    const res = await apiClient.get("/cloudflared/config");
+    return res.data.data;
+  },
+  async saveConfig(config: CloudflaredConfigUpdate): Promise<void> {
+    await apiClient.post("/cloudflared/config", config);
+  },
+  async saveCloudflareCredential(
+    apiToken: string,
+  ): Promise<CloudflareManagedState> {
+    const body = { apiToken } satisfies CloudflareCredentialBody;
+    const res = await apiClient.put("/cloudflared/cloudflare/credential", body);
+    return res.data.data;
+  },
+  async deleteCloudflareCredential(): Promise<void> {
+    await apiClient.delete("/cloudflared/cloudflare/credential");
+  },
+  async getCloudflareState(): Promise<CloudflareManagedState> {
+    const res = await apiClient.get("/cloudflared/cloudflare/state");
+    return res.data.data;
+  },
+  async previewReconcile(
+    payload: CloudflareReconcileRequest,
+  ): Promise<CloudflareReconcilePlan> {
+    const res = await apiClient.post("/cloudflared/reconcile/preview", payload);
+    return res.data.data;
+  },
+  async applyReconcile(
+    payload: CloudflareReconcileApplyBody,
+  ): Promise<CloudflareReconcileJob> {
+    const res = await apiClient.post("/cloudflared/reconcile/apply", payload);
+    return res.data.data;
+  },
+  async getReconcileJob(id: string): Promise<CloudflareReconcileJob> {
+    const res = await apiClient.get(
+      `/cloudflared/reconcile/jobs/${encodeURIComponent(id)}`,
+    );
+    return res.data.data;
+  },
+  async getActiveReconcileJob(): Promise<CloudflareReconcileJob> {
+    const res = await apiClient.get("/cloudflared/reconcile/jobs/active");
+    return res.data.data;
+  },
+  async getReconcileJobByPlan(planId: string): Promise<CloudflareReconcileJob> {
+    const res = await apiClient.get(
+      `/cloudflared/reconcile/jobs/by-plan/${encodeURIComponent(planId)}`,
+    );
+    return res.data.data;
+  },
+  async startOptimizationScan(
+    payload: CloudflareOptimizationScanBody = {},
+  ): Promise<CloudflareOptimizationScan> {
+    const res = await apiClient.post(
+      "/cloudflared/optimization/scans",
+      payload,
+    );
+    return res.data.data;
+  },
+  async saveOptimizationSourceSettings(
+    payload: CloudflareOptimizationSourceSettingsBody,
+  ): Promise<CloudflareOptimizationCandidateSources> {
+    const res = await apiClient.put(
+      "/cloudflared/optimization/settings",
+      payload,
+    );
+    return res.data.data;
+  },
+  async setOptimizationDomainMode(
+    hostname: string,
+    mode: CloudflareOptimizationDomainBody["mode"],
+  ): Promise<CloudflareOptimizationDomainUpdate> {
+    const body = { mode } satisfies CloudflareOptimizationDomainBody;
+    const res = await apiClient.put(
+      `/cloudflared/optimization/domains/${encodeURIComponent(hostname)}`,
+      body,
+    );
+    return res.data.data;
+  },
+  async getOptimizationScan(id: string): Promise<CloudflareOptimizationScan> {
+    const res = await apiClient.get(
+      `/cloudflared/optimization/scans/${encodeURIComponent(id)}`,
+    );
+    return res.data.data;
+  },
+  async cancelOptimizationScan(id: string): Promise<void> {
+    await apiClient.delete(
+      `/cloudflared/optimization/scans/${encodeURIComponent(id)}`,
+    );
+  },
+  async applyOptimization(
+    payload: CloudflareOptimizationApplyBody,
+  ): Promise<CloudflareOptimizationApply> {
+    const res = await apiClient.post(
+      "/cloudflared/optimization/apply",
+      payload,
+    );
+    return res.data.data;
+  },
+  async fallbackOptimization(): Promise<CloudflareOptimizationFallback> {
+    const res = await apiClient.post("/cloudflared/optimization/fallback");
+    return res.data.data;
+  },
+  async start(): Promise<{ pid: number }> {
+    const res = await apiClient.post("/cloudflared/start");
+    return res.data.data;
+  },
+  async stop(): Promise<void> {
+    await apiClient.post("/cloudflared/stop");
+  },
+  async getLogs(limit = 200): Promise<string[]> {
+    const params = { limit } satisfies CloudflaredLogsQuery;
+    const res = await apiClient.get("/cloudflared/logs", { params });
+    return res.data.data;
+  },
+  async clearLogs(): Promise<void> {
+    await apiClient.delete("/cloudflared/logs");
+  },
+  async poll(
+    cursor?: number,
+    signal?: AbortSignal,
+  ): Promise<CloudflaredPollPayload> {
+    const params = (
+      typeof cursor === "number" ? { cursor } : undefined
+    ) satisfies CloudflaredPollQuery | undefined;
+    const res = await apiClient.get("/cloudflared/poll", {
+      params,
+      signal,
+    });
+    return res.data.data;
+  },
+};

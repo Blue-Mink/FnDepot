@@ -1,1 +1,201 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IExvYWRlckNpcmNsZSB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgewogIFNlbGVjdCwKICBTZWxlY3RDb250ZW50LAogIFNlbGVjdEl0ZW0sCiAgU2VsZWN0VHJpZ2dlciwKICBTZWxlY3RWYWx1ZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKaW1wb3J0IHsgU3dpdGNoIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N3aXRjaCI7CmltcG9ydCB7IFRleHRhcmVhIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RleHRhcmVhIjsKaW1wb3J0IHR5cGUgeyBMZGFwUHJvdmlkZXJDYXRhbG9nSXRlbSwgTGRhcFByb3ZpZGVyVHlwZSB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgdHlwZSB7IExkYXBQcm92aWRlckZvcm0gfSBmcm9tICIuL3VzZUxkYXBQcm92aWRlck1hbmFnZW1lbnQiOwoKZGVmaW5lUHJvcHM8ewogIGFwcGx5UHJlc2V0OiAodHlwZTogTGRhcFByb3ZpZGVyVHlwZSkgPT4gdm9pZDsKICBjYXRhbG9nOiBMZGFwUHJvdmlkZXJDYXRhbG9nSXRlbVtdOwogIGVkaXRpbmc6IGJvb2xlYW47CiAgZm9ybTogTGRhcFByb3ZpZGVyRm9ybTsKICBpc1NhdmluZzogYm9vbGVhbjsKICBvcGVuOiBib29sZWFuOwogIHNhdmU6ICgpID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwp9PigpOwpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8eyAidXBkYXRlOm9wZW4iOiBbdmFsdWU6IGJvb2xlYW5dIH0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nIDpvcGVuPSJvcGVuIiBAdXBkYXRlOm9wZW49ImVtaXQoJ3VwZGF0ZTpvcGVuJywgJGV2ZW50KSI+CiAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ibWF4LWgtWzkwdmhdIG92ZXJmbG93LXktYXV0byBzbTptYXgtdy1bNzIwcHhdIj4KICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICA8RGlhbG9nVGl0bGU+CiAgICAgICAgICB7ewogICAgICAgICAgICBlZGl0aW5nCiAgICAgICAgICAgICAgPyB0KCJhZG1pbi5sZGFwUHJvdmlkZXJzLmVkaXRUaXRsZSIpCiAgICAgICAgICAgICAgOiB0KCJhZG1pbi5sZGFwUHJvdmlkZXJzLmNyZWF0ZVRpdGxlIikKICAgICAgICAgIH19CiAgICAgICAgPC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+e3sgdCgiYWRtaW4ubGRhcFByb3ZpZGVycy5mb3JtRGVzY3JpcHRpb24iKSB9fTwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgogICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC00IHNtOmdyaWQtY29scy0yIj4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgPExhYmVsIGZvcj0ibGRhcC1wcm92aWRlci10eXBlIj57eyB0KCJhZG1pbi5sZGFwUHJvdmlkZXJzLnR5cGUiKSB9fTwvTGFiZWw+CiAgICAgICAgICA8U2VsZWN0CiAgICAgICAgICAgIDptb2RlbC12YWx1ZT0iZm9ybS50eXBlIgogICAgICAgICAgICA6ZGlzYWJsZWQ9ImVkaXRpbmciCiAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9ImFwcGx5UHJlc2V0KCRldmVudCBhcyBMZGFwUHJvdmlkZXJUeXBlKSIKICAgICAgICAgID4KICAgICAgICAgICAgPFNlbGVjdFRyaWdnZXIgaWQ9ImxkYXAtcHJvdmlkZXItdHlwZSI+PFNlbGVjdFZhbHVlIC8+PC9TZWxlY3RUcmlnZ2VyPgogICAgICAgICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICAgICAgICA8U2VsZWN0SXRlbQogICAgICAgICAgICAgICAgdi1mb3I9Iml0ZW0gaW4gY2F0YWxvZyIKICAgICAgICAgICAgICAgIDprZXk9Iml0ZW0udHlwZSIKICAgICAgICAgICAgICAgIDp2YWx1ZT0iaXRlbS50eXBlIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IGl0ZW0ubGFiZWwgfX0KICAgICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgICAgIDwvU2VsZWN0PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICA8TGFiZWwgZm9yPSJsZGFwLXByb3ZpZGVyLW5hbWUiPnt7IHQoImFkbWluLmxkYXBQcm92aWRlcnMubmFtZSIpIH19PC9MYWJlbD4KICAgICAgICAgIDxJbnB1dCBpZD0ibGRhcC1wcm92aWRlci1uYW1lIiB2LW1vZGVsPSJmb3JtLm5hbWUiIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIHNtOmNvbC1zcGFuLTIiPgogICAgICAgICAgPExhYmVsIGZvcj0ibGRhcC1wcm92aWRlci1zZXJ2ZXJzIj57eyB0KCJhZG1pbi5sZGFwUHJvdmlkZXJzLnNlcnZlcnMiKSB9fTwvTGFiZWw+CiAgICAgICAgICA8VGV4dGFyZWEKICAgICAgICAgICAgaWQ9ImxkYXAtcHJvdmlkZXItc2VydmVycyIKICAgICAgICAgICAgdi1tb2RlbD0iZm9ybS5zZXJ2ZXJzIgogICAgICAgICAgICByb3dzPSIzIgogICAgICAgICAgICBwbGFjZWhvbGRlcj0ibGRhcHM6Ly9sZGFwMS5leGFtcGxlLmNvbTo2MzYiCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICA8TGFiZWwgZm9yPSJsZGFwLXByb3ZpZGVyLXRyYW5zcG9ydCI+e3sgdCgiYWRtaW4ubGRhcFByb3ZpZGVycy50cmFuc3BvcnQiKSB9fTwvTGFiZWw+CiAgICAgICAgICA8U2VsZWN0IHYtbW9kZWw9ImZvcm0udHJhbnNwb3J0Ij4KICAgICAgICAgICAgPFNlbGVjdFRyaWdnZXIgaWQ9ImxkYXAtcHJvdmlkZXItdHJhbnNwb3J0Ij48U2VsZWN0VmFsdWUgLz48L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJsZGFwcyI+TERBUFM8L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgICAgPFNlbGVjdEl0ZW0gdmFsdWU9InN0YXJ0dGxzIj5TdGFydFRMUzwvU2VsZWN0SXRlbT4KICAgICAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICAgICAgPC9TZWxlY3Q+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgIDxMYWJlbCBmb3I9ImxkYXAtcHJvdmlkZXItYmluZC1tb2RlIj57eyB0KCJhZG1pbi5sZGFwUHJvdmlkZXJzLmJpbmRNb2RlIikgfX08L0xhYmVsPgogICAgICAgICAgPFNlbGVjdCB2LW1vZGVsPSJmb3JtLmJpbmRNb2RlIj4KICAgICAgICAgICAgPFNlbGVjdFRyaWdnZXIgaWQ9ImxkYXAtcHJvdmlkZXItYmluZC1tb2RlIj48U2VsZWN0VmFsdWUgLz48L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJzZWFyY2giPnt7IHQoImFkbWluLmxkYXBQcm92aWRlcnMuc2VhcmNoQmluZCIpIH19PC9TZWxlY3RJdGVtPgogICAgICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJkaXJlY3QiPnt7IHQoImFkbWluLmxkYXBQcm92aWRlcnMuZGlyZWN0QmluZCIpIH19PC9TZWxlY3RJdGVtPgogICAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgICAgICA8L1NlbGVjdD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIgc206Y29sLXNwYW4tMiI+CiAgICAgICAgICA8TGFiZWwgZm9yPSJsZGFwLXByb3ZpZGVyLWJhc2UtZG4iPkJhc2UgRE48L0xhYmVsPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIGlkPSJsZGFwLXByb3ZpZGVyLWJhc2UtZG4iCiAgICAgICAgICAgIHYtbW9kZWw9ImZvcm0uYmFzZURuIgogICAgICAgICAgICBwbGFjZWhvbGRlcj0iZGM9ZXhhbXBsZSxkYz1jb20iCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiBzbTpjb2wtc3Bhbi0yIj4KICAgICAgICAgIDxMYWJlbCBmb3I9ImxkYXAtcHJvdmlkZXItdXNlci1maWx0ZXIiPnt7IHQoImFkbWluLmxkYXBQcm92aWRlcnMudXNlckZpbHRlciIpIH19PC9MYWJlbD4KICAgICAgICAgIDxJbnB1dCBpZD0ibGRhcC1wcm92aWRlci11c2VyLWZpbHRlciIgdi1tb2RlbD0iZm9ybS51c2VyRmlsdGVyIiAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDx0ZW1wbGF0ZSB2LWlmPSJmb3JtLmJpbmRNb2RlID09PSAnc2VhcmNoJyI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgICA8TGFiZWwgZm9yPSJsZGFwLXByb3ZpZGVyLXNlcnZpY2UtZG4iPnt7IHQoImFkbWluLmxkYXBQcm92aWRlcnMuc2VydmljZURuIikgfX08L0xhYmVsPgogICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICBpZD0ibGRhcC1wcm92aWRlci1zZXJ2aWNlLWRuIgogICAgICAgICAgICAgIHYtbW9kZWw9ImZvcm0uc2VydmljZUJpbmREbiIKICAgICAgICAgICAgICBhdXRvY29tcGxldGU9Im9mZiIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgICAgPExhYmVsIGZvcj0ibGRhcC1wcm92aWRlci1zZXJ2aWNlLXBhc3N3b3JkIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5sZGFwUHJvdmlkZXJzLnNlcnZpY2VQYXNzd29yZCIpIH19CiAgICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgIGlkPSJsZGFwLXByb3ZpZGVyLXNlcnZpY2UtcGFzc3dvcmQiCiAgICAgICAgICAgICAgdi1tb2RlbD0iZm9ybS5zZXJ2aWNlQmluZFBhc3N3b3JkIgogICAgICAgICAgICAgIHR5cGU9InBhc3N3b3JkIgogICAgICAgICAgICAgIGF1dG9jb21wbGV0ZT0ibmV3LXBhc3N3b3JkIgogICAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0iZWRpdGluZyA/IHQoJ2FkbWluLmxkYXBQcm92aWRlcnMua2VlcFNlY3JldCcpIDogJyciCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgIDxkaXYgdi1lbHNlIGNsYXNzPSJzcGFjZS15LTIgc206Y29sLXNwYW4tMiI+CiAgICAgICAgICA8TGFiZWwgZm9yPSJsZGFwLXByb3ZpZGVyLWRpcmVjdC10ZW1wbGF0ZSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmxkYXBQcm92aWRlcnMuZGlyZWN0VGVtcGxhdGUiKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICBpZD0ibGRhcC1wcm92aWRlci1kaXJlY3QtdGVtcGxhdGUiCiAgICAgICAgICAgIHYtbW9kZWw9ImZvcm0uZGlyZWN0QmluZFRlbXBsYXRlIgogICAgICAgICAgICBwbGFjZWhvbGRlcj0ie3VzZXJuYW1lfUBleGFtcGxlLmNvbSIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgIDxMYWJlbCBmb3I9ImxkYXAtcHJvdmlkZXItc3ViamVjdC1hdHRyaWJ1dGUiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5sZGFwUHJvdmlkZXJzLnN1YmplY3RBdHRyaWJ1dGUiKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxJbnB1dCBpZD0ibGRhcC1wcm92aWRlci1zdWJqZWN0LWF0dHJpYnV0ZSIgdi1tb2RlbD0iZm9ybS5zdWJqZWN0QXR0cmlidXRlIiAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICA8TGFiZWwgZm9yPSJsZGFwLXByb3ZpZGVyLXVzZXJuYW1lLWF0dHJpYnV0ZSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmxkYXBQcm92aWRlcnMudXNlcm5hbWVBdHRyaWJ1dGUiKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxJbnB1dCBpZD0ibGRhcC1wcm92aWRlci11c2VybmFtZS1hdHRyaWJ1dGUiIHYtbW9kZWw9ImZvcm0udXNlcm5hbWVBdHRyaWJ1dGUiIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgIDxMYWJlbCBmb3I9ImxkYXAtcHJvdmlkZXItZGlzcGxheS1hdHRyaWJ1dGUiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5sZGFwUHJvdmlkZXJzLmRpc3BsYXlBdHRyaWJ1dGUiKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxJbnB1dCBpZD0ibGRhcC1wcm92aWRlci1kaXNwbGF5LWF0dHJpYnV0ZSIgdi1tb2RlbD0iZm9ybS5kaXNwbGF5TmFtZUF0dHJpYnV0ZSIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgPExhYmVsIGZvcj0ibGRhcC1wcm92aWRlci1lbWFpbC1hdHRyaWJ1dGUiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5sZGFwUHJvdmlkZXJzLmVtYWlsQXR0cmlidXRlIikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8SW5wdXQgaWQ9ImxkYXAtcHJvdmlkZXItZW1haWwtYXR0cmlidXRlIiB2LW1vZGVsPSJmb3JtLmVtYWlsQXR0cmlidXRlIiAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiBzbTpjb2wtc3Bhbi0yIj4KICAgICAgICAgIDxMYWJlbCBmb3I9ImxkYXAtcHJvdmlkZXItY2EtcGVtIj57eyB0KCJhZG1pbi5sZGFwUHJvdmlkZXJzLmNhUGVtIikgfX08L0xhYmVsPgogICAgICAgICAgPFRleHRhcmVhCiAgICAgICAgICAgIGlkPSJsZGFwLXByb3ZpZGVyLWNhLXBlbSIKICAgICAgICAgICAgdi1tb2RlbD0iZm9ybS5jYVBlbSIKICAgICAgICAgICAgcm93cz0iNCIKICAgICAgICAgICAgcGxhY2Vob2xkZXI9Ii0tLS0tQkVHSU4gQ0VSVElGSUNBVEUtLS0tLSIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdgogICAgICAgICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiByb3VuZGVkLW1kIGJvcmRlciBwLTMgc206Y29sLXNwYW4tMiIKICAgICAgICA+CiAgICAgICAgICA8TGFiZWwgZm9yPSJsZGFwLXByb3ZpZGVyLWVuYWJsZWQiPnt7IHQoImFkbWluLmxkYXBQcm92aWRlcnMuZW5hYmxlZCIpIH19PC9MYWJlbD4KICAgICAgICAgIDxTd2l0Y2ggaWQ9ImxkYXAtcHJvdmlkZXItZW5hYmxlZCIgdi1tb2RlbD0iZm9ybS5lbmFibGVkIiAvPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPERpYWxvZ0Zvb3Rlcj4KICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0iZW1pdCgndXBkYXRlOm9wZW4nLCBmYWxzZSkiPgogICAgICAgICAge3sgdCgiYWRtaW4ubGRhcFByb3ZpZGVycy5jYW5jZWwiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24gOmRpc2FibGVkPSJpc1NhdmluZyIgQGNsaWNrPSJzYXZlIj4KICAgICAgICAgIDxMb2FkZXJDaXJjbGUgdi1pZj0iaXNTYXZpbmciIGNsYXNzPSJoLTQgdy00IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLmxkYXBQcm92aWRlcnMuc2F2ZSIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { LoaderCircle } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Switch } from "@/components/ui/switch";
+import { Textarea } from "@/components/ui/textarea";
+import type { LdapProviderCatalogItem, LdapProviderType } from "@/types";
+import type { LdapProviderForm } from "./useLdapProviderManagement";
+
+defineProps<{
+  applyPreset: (type: LdapProviderType) => void;
+  catalog: LdapProviderCatalogItem[];
+  editing: boolean;
+  form: LdapProviderForm;
+  isSaving: boolean;
+  open: boolean;
+  save: () => Promise<void> | void;
+}>();
+const emit = defineEmits<{ "update:open": [value: boolean] }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="max-h-[90vh] overflow-y-auto sm:max-w-[720px]">
+      <DialogHeader>
+        <DialogTitle>
+          {{
+            editing
+              ? t("admin.ldapProviders.editTitle")
+              : t("admin.ldapProviders.createTitle")
+          }}
+        </DialogTitle>
+        <DialogDescription>{{ t("admin.ldapProviders.formDescription") }}</DialogDescription>
+      </DialogHeader>
+      <div class="grid gap-4 sm:grid-cols-2">
+        <div class="space-y-2">
+          <Label for="ldap-provider-type">{{ t("admin.ldapProviders.type") }}</Label>
+          <Select
+            :model-value="form.type"
+            :disabled="editing"
+            @update:model-value="applyPreset($event as LdapProviderType)"
+          >
+            <SelectTrigger id="ldap-provider-type"><SelectValue /></SelectTrigger>
+            <SelectContent>
+              <SelectItem
+                v-for="item in catalog"
+                :key="item.type"
+                :value="item.type"
+              >
+                {{ item.label }}
+              </SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+        <div class="space-y-2">
+          <Label for="ldap-provider-name">{{ t("admin.ldapProviders.name") }}</Label>
+          <Input id="ldap-provider-name" v-model="form.name" />
+        </div>
+        <div class="space-y-2 sm:col-span-2">
+          <Label for="ldap-provider-servers">{{ t("admin.ldapProviders.servers") }}</Label>
+          <Textarea
+            id="ldap-provider-servers"
+            v-model="form.servers"
+            rows="3"
+            placeholder="ldaps://ldap1.example.com:636"
+          />
+        </div>
+        <div class="space-y-2">
+          <Label for="ldap-provider-transport">{{ t("admin.ldapProviders.transport") }}</Label>
+          <Select v-model="form.transport">
+            <SelectTrigger id="ldap-provider-transport"><SelectValue /></SelectTrigger>
+            <SelectContent>
+              <SelectItem value="ldaps">LDAPS</SelectItem>
+              <SelectItem value="starttls">StartTLS</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+        <div class="space-y-2">
+          <Label for="ldap-provider-bind-mode">{{ t("admin.ldapProviders.bindMode") }}</Label>
+          <Select v-model="form.bindMode">
+            <SelectTrigger id="ldap-provider-bind-mode"><SelectValue /></SelectTrigger>
+            <SelectContent>
+              <SelectItem value="search">{{ t("admin.ldapProviders.searchBind") }}</SelectItem>
+              <SelectItem value="direct">{{ t("admin.ldapProviders.directBind") }}</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+        <div class="space-y-2 sm:col-span-2">
+          <Label for="ldap-provider-base-dn">Base DN</Label>
+          <Input
+            id="ldap-provider-base-dn"
+            v-model="form.baseDn"
+            placeholder="dc=example,dc=com"
+          />
+        </div>
+        <div class="space-y-2 sm:col-span-2">
+          <Label for="ldap-provider-user-filter">{{ t("admin.ldapProviders.userFilter") }}</Label>
+          <Input id="ldap-provider-user-filter" v-model="form.userFilter" />
+        </div>
+        <template v-if="form.bindMode === 'search'">
+          <div class="space-y-2">
+            <Label for="ldap-provider-service-dn">{{ t("admin.ldapProviders.serviceDn") }}</Label>
+            <Input
+              id="ldap-provider-service-dn"
+              v-model="form.serviceBindDn"
+              autocomplete="off"
+            />
+          </div>
+          <div class="space-y-2">
+            <Label for="ldap-provider-service-password">
+              {{ t("admin.ldapProviders.servicePassword") }}
+            </Label>
+            <Input
+              id="ldap-provider-service-password"
+              v-model="form.serviceBindPassword"
+              type="password"
+              autocomplete="new-password"
+              :placeholder="editing ? t('admin.ldapProviders.keepSecret') : ''"
+            />
+          </div>
+        </template>
+        <div v-else class="space-y-2 sm:col-span-2">
+          <Label for="ldap-provider-direct-template">
+            {{ t("admin.ldapProviders.directTemplate") }}
+          </Label>
+          <Input
+            id="ldap-provider-direct-template"
+            v-model="form.directBindTemplate"
+            placeholder="{username}@example.com"
+          />
+        </div>
+        <div class="space-y-2">
+          <Label for="ldap-provider-subject-attribute">
+            {{ t("admin.ldapProviders.subjectAttribute") }}
+          </Label>
+          <Input id="ldap-provider-subject-attribute" v-model="form.subjectAttribute" />
+        </div>
+        <div class="space-y-2">
+          <Label for="ldap-provider-username-attribute">
+            {{ t("admin.ldapProviders.usernameAttribute") }}
+          </Label>
+          <Input id="ldap-provider-username-attribute" v-model="form.usernameAttribute" />
+        </div>
+        <div class="space-y-2">
+          <Label for="ldap-provider-display-attribute">
+            {{ t("admin.ldapProviders.displayAttribute") }}
+          </Label>
+          <Input id="ldap-provider-display-attribute" v-model="form.displayNameAttribute" />
+        </div>
+        <div class="space-y-2">
+          <Label for="ldap-provider-email-attribute">
+            {{ t("admin.ldapProviders.emailAttribute") }}
+          </Label>
+          <Input id="ldap-provider-email-attribute" v-model="form.emailAttribute" />
+        </div>
+        <div class="space-y-2 sm:col-span-2">
+          <Label for="ldap-provider-ca-pem">{{ t("admin.ldapProviders.caPem") }}</Label>
+          <Textarea
+            id="ldap-provider-ca-pem"
+            v-model="form.caPem"
+            rows="4"
+            placeholder="-----BEGIN CERTIFICATE-----"
+          />
+        </div>
+        <div
+          class="flex items-center justify-between rounded-md border p-3 sm:col-span-2"
+        >
+          <Label for="ldap-provider-enabled">{{ t("admin.ldapProviders.enabled") }}</Label>
+          <Switch id="ldap-provider-enabled" v-model="form.enabled" />
+        </div>
+      </div>
+      <DialogFooter>
+        <Button variant="outline" @click="emit('update:open', false)">
+          {{ t("admin.ldapProviders.cancel") }}
+        </Button>
+        <Button :disabled="isSaving" @click="save">
+          <LoaderCircle v-if="isSaving" class="h-4 w-4 animate-spin" />
+          {{ t("admin.ldapProviders.save") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

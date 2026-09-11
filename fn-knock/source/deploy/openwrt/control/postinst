@@ -1,1 +1,34 @@
-IyEvYmluL3NoCnNldCAtZQoKWyAtbiAiJElQS0dfSU5TVFJPT1QiIF0gJiYgZXhpdCAwCgojIE9sZGVyIHJlbGVhc2VzIGdlbmVyYXRlZCBhbiBleGVjdXRhYmxlIGZpcmV3YWxsIGNsZWFudXAgc2NyaXB0LiBPcGVuV3J0CiMgbmV2ZXIgZXhlY3V0ZXMgdGhhdCBzY3JpcHQgYW5kIHJlbW92ZXMgdGhlIGtub3duIGxlZ2FjeSBwYXRoIG9uIHVwZ3JhZGUuCnJtIC1mIC92YXIvbGliL2ZuLWtub2NrL2NsZWFuLnNoIDI+L2Rldi9udWxsIHx8IHRydWUKCmlmIFsgLXggL3Vzci9saWJleGVjL2ZuLWtub2NrLW1pZ3JhdGUtZGF0YS1kaXIgXTsgdGhlbgoJL3Vzci9saWJleGVjL2ZuLWtub2NrLW1pZ3JhdGUtZGF0YS1kaXIKZmkKCnJlbG9hZF9sdWNpKCkgewoJcm0gLWYgL3RtcC9sdWNpLWluZGV4Y2FjaGUgL3RtcC9sdWNpLW1vZHVsZWNhY2hlLyogMj4vZGV2L251bGwgfHwgdHJ1ZQoJWyAteCAvZXRjL2luaXQuZC9ycGNkIF0gJiYgL2V0Yy9pbml0LmQvcnBjZCByZXN0YXJ0ID4vZGV2L251bGwgMj4mMSB8fCB0cnVlCglbIC14IC9ldGMvaW5pdC5kL3VodHRwZCBdICYmIC9ldGMvaW5pdC5kL3VodHRwZCByZXN0YXJ0ID4vZGV2L251bGwgMj4mMSB8fCB0cnVlCn0KCmlmIGNvbW1hbmQgLXYgdWNpID4vZGV2L251bGwgMj4mMTsgdGhlbgoJaWYgWyAiJCh1Y2kgLXEgZ2V0IGZuLWtub2NrLm1haW4uYWRtaW5fdmlld19wb3J0KSIgPSAiNzk5OCIgXTsgdGhlbgoJCXVjaSBzZXQgZm4ta25vY2subWFpbi5hZG1pbl92aWV3X3BvcnQ9Ijc5OTEiID4vZGV2L251bGwgMj4mMSB8fCB0cnVlCgkJdWNpIGNvbW1pdCBmbi1rbm9jayA+L2Rldi9udWxsIDI+JjEgfHwgdHJ1ZQoJZmkKZmkKCmlmIFsgLXggL2V0Yy9pbml0LmQvZm4ta25vY2sgXTsgdGhlbgoJL2V0Yy9pbml0LmQvZm4ta25vY2sgZW5hYmxlID4vZGV2L251bGwgMj4mMSB8fCB0cnVlCgkvZXRjL2luaXQuZC9mbi1rbm9jayByZXN0YXJ0ID4vZGV2L251bGwgMj4mMSB8fCB0cnVlCmZpCgpyZWxvYWRfbHVjaQoKZXhpdCAwCg==
+#!/bin/sh
+set -e
+
+[ -n "$IPKG_INSTROOT" ] && exit 0
+
+# Older releases generated an executable firewall cleanup script. OpenWrt
+# never executes that script and removes the known legacy path on upgrade.
+rm -f /var/lib/fn-knock/clean.sh 2>/dev/null || true
+
+if [ -x /usr/libexec/fn-knock-migrate-data-dir ]; then
+	/usr/libexec/fn-knock-migrate-data-dir
+fi
+
+reload_luci() {
+	rm -f /tmp/luci-indexcache /tmp/luci-modulecache/* 2>/dev/null || true
+	[ -x /etc/init.d/rpcd ] && /etc/init.d/rpcd restart >/dev/null 2>&1 || true
+	[ -x /etc/init.d/uhttpd ] && /etc/init.d/uhttpd restart >/dev/null 2>&1 || true
+}
+
+if command -v uci >/dev/null 2>&1; then
+	if [ "$(uci -q get fn-knock.main.admin_view_port)" = "7998" ]; then
+		uci set fn-knock.main.admin_view_port="7991" >/dev/null 2>&1 || true
+		uci commit fn-knock >/dev/null 2>&1 || true
+	fi
+fi
+
+if [ -x /etc/init.d/fn-knock ]; then
+	/etc/init.d/fn-knock enable >/dev/null 2>&1 || true
+	/etc/init.d/fn-knock restart >/dev/null 2>&1 || true
+fi
+
+reload_luci
+
+exit 0

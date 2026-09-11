@@ -1,1 +1,155 @@
-Ly8gQnVpbGQtdGltZSB2YWxpZGF0aW9uIGludGVudGlvbmFsbHkgYWJvcnRzIHdoZW4gcmVwb3NpdG9yeSBtZXRhZGF0YSBpcwovLyBpbnZhbGlkLiBUaGlzIHNjcmlwdCBpcyBub3QgbGlua2VkIGludG8gdGhlIHByb2R1Y3Rpb24gcnVudGltZSBndWFyZGVkIGJ5Ci8vIHNjcmlwdHMvY2hlY2stcnVzdC1wcm9kLXBhbmljcy5zaC4KIyFbYWxsb3coY2xpcHB5OjpwYW5pYywgY2xpcHB5Ojp0b2RvLCBjbGlwcHk6OnVuaW1wbGVtZW50ZWQpXQoKdXNlIHN0ZDo6ewogICAgZW52LCBmcywKICAgIGlvOjp7Q3Vyc29yLCBSZWFkfSwKICAgIHBhdGg6OntQYXRoLCBQYXRoQnVmfSwKfTsKCnVzZSBzZXJkZV9qc29uOjpWYWx1ZTsKCnN0cnVjdCBBcHBNZXRhZGF0YSB7CiAgICB2ZXJzaW9uOiBTdHJpbmcsCiAgICBnaXRodWJfdXJsOiBTdHJpbmcsCiAgICBnYXRld2F5X2NvbW1pdDogU3RyaW5nLAogICAgYmFja3VwX3NjaGVtYV92ZXJzaW9uOiBpNjQsCiAgICBiYWNrdXBfaW1wb3J0X21pbl92ZXJzaW9uOiBTdHJpbmcsCn0KCmZuIG1haW4oKSB7CiAgICBsZXQgbWFuaWZlc3RfZGlyID0gUGF0aEJ1Zjo6ZnJvbShlbnY6OnZhcigiQ0FSR09fTUFOSUZFU1RfRElSIikuZXhwZWN0KCJDQVJHT19NQU5JRkVTVF9ESVIiKSk7CiAgICBsZXQgdmVyc2lvbl9maWxlID0gbWFuaWZlc3RfZGlyLmpvaW4oIi4uLy4uL3ZlcnNpb24uanNvbiIpOwogICAgbGV0IHByb3RvX2ZpbGUgPQogICAgICAgIG1hbmlmZXN0X2Rpci5qb2luKCIuLi8uLi9wYWNrYWdlcy9ncnBjLWNvbnRyYWN0cy9wcm90by9mbmtub2NrL3YxL2dhdGV3YXkucHJvdG8iKTsKICAgIGxldCBwcm90b19yb290ID0gbWFuaWZlc3RfZGlyLmpvaW4oIi4uLy4uL3BhY2thZ2VzL2dycGMtY29udHJhY3RzL3Byb3RvIik7CiAgICBwcmludGxuISgiY2FyZ286cmVydW4taWYtY2hhbmdlZD17fSIsIHZlcnNpb25fZmlsZS5kaXNwbGF5KCkpOwogICAgcHJpbnRsbiEoImNhcmdvOnJlcnVuLWlmLWNoYW5nZWQ9e30iLCBwcm90b19maWxlLmRpc3BsYXkoKSk7CiAgICBwcmludGxuISgiY2FyZ286cmVydW4taWYtZW52LWNoYW5nZWQ9Rk5fS05PQ0tfR0FURVdBWV9DT01NSVQiKTsKCiAgICBsZXQgcHJvdG9jID0gcHJvdG9jX2Jpbl92ZW5kb3JlZDo6cHJvdG9jX2Jpbl9wYXRoKCkuZXhwZWN0KCJyZXNvbHZlIHZlbmRvcmVkIHByb3RvYyIpOwogICAgLy8gU0FGRVRZOiBidWlsZCBzY3JpcHRzIHJ1biBzaW5nbGUtdGhyZWFkZWQgaGVyZSBiZWZvcmUgdG9uaWNfYnVpbGQgcmVhZHMKICAgIC8vIFBST1RPQywgc28gbm8gY29uY3VycmVudCBlbnZpcm9ubWVudCBhY2Nlc3MgaXMgaW50cm9kdWNlZC4KICAgIHVuc2FmZSB7CiAgICAgICAgZW52OjpzZXRfdmFyKCJQUk9UT0MiLCBwcm90b2MpOwogICAgfQogICAgdG9uaWNfYnVpbGQ6OmNvbmZpZ3VyZSgpCiAgICAgICAgLmJ1aWxkX3NlcnZlcih0cnVlKQogICAgICAgIC5zZXJ2ZXJfbW9kX2F0dHJpYnV0ZSgiLiIsICIjW2NmZyh0ZXN0KV0iKQogICAgICAgIC5jb21waWxlX3Byb3RvcygmW3Byb3RvX2ZpbGVdLCAmW3Byb3RvX3Jvb3RdKQogICAgICAgIC5leHBlY3QoImNvbXBpbGUgZm4ta25vY2sgZ3JwYyBwcm90byIpOwoKICAgIGxldCBtdXQgbWV0YWRhdGEgPSBsb2FkX2FwcF9tZXRhZGF0YSgmdmVyc2lvbl9maWxlKTsKICAgIGlmIGxldCBPayhjb21taXQpID0gZW52Ojp2YXIoIkZOX0tOT0NLX0dBVEVXQVlfQ09NTUlUIikKICAgICAgICAmJiAhY29tbWl0LnRyaW0oKS5pc19lbXB0eSgpCiAgICB7CiAgICAgICAgbWV0YWRhdGEuZ2F0ZXdheV9jb21taXQgPSB2YWxpZGF0ZV9nYXRld2F5X2NvbW1pdChjb21taXQudHJpbSgpKTsKICAgIH0KICAgIHByaW50bG4hKAogICAgICAgICJjYXJnbzpydXN0Yy1lbnY9Rk5fS05PQ0tfR0FURVdBWV9DT01NSVQ9e30iLAogICAgICAgIG1ldGFkYXRhLmdhdGV3YXlfY29tbWl0CiAgICApOwogICAgbGV0IG91dF9kaXIgPSBQYXRoQnVmOjpmcm9tKGVudjo6dmFyKCJPVVRfRElSIikuZXhwZWN0KCJPVVRfRElSIikpOwogICAgZnM6OndyaXRlKAogICAgICAgIG91dF9kaXIuam9pbigiYXBwX3ZlcnNpb24ucnMiKSwKICAgICAgICBhcHBfdmVyc2lvbl9zb3VyY2UoJm1ldGFkYXRhKSwKICAgICkKICAgIC5leHBlY3QoIndyaXRlIGdlbmVyYXRlZCBhcHAgdmVyc2lvbiIpOwogICAgd3JpdGVfc3dhZ2dlcl91aV9hc3NldHMoJm91dF9kaXIpOwp9CgpmbiB3cml0ZV9zd2FnZ2VyX3VpX2Fzc2V0cyhvdXRfZGlyOiAmUGF0aCkgewogICAgY29uc3QgQVNTRVRTOiBbKCZzdHIsICZzdHIpOyA2XSA9IFsKICAgICAgICAoIi9kaXN0L3N3YWdnZXItdWkuY3NzIiwgInN3YWdnZXItdWkuY3NzIiksCiAgICAgICAgKCIvZGlzdC9pbmRleC5jc3MiLCAiaW5kZXguY3NzIiksCiAgICAgICAgKCIvZGlzdC9zd2FnZ2VyLXVpLWJ1bmRsZS5qcyIsICJzd2FnZ2VyLXVpLWJ1bmRsZS5qcyIpLAogICAgICAgICgKICAgICAgICAgICAgIi9kaXN0L3N3YWdnZXItdWktc3RhbmRhbG9uZS1wcmVzZXQuanMiLAogICAgICAgICAgICAic3dhZ2dlci11aS1zdGFuZGFsb25lLXByZXNldC5qcyIsCiAgICAgICAgKSwKICAgICAgICAoIi9kaXN0L2Zhdmljb24tMTZ4MTYucG5nIiwgImZhdmljb24tMTZ4MTYucG5nIiksCiAgICAgICAgKCIvZGlzdC9mYXZpY29uLTMyeDMyLnBuZyIsICJmYXZpY29uLTMyeDMyLnBuZyIpLAogICAgXTsKCiAgICBsZXQgcmVhZGVyID0gQ3Vyc29yOjpuZXcodXRvaXBhX3N3YWdnZXJfdWlfdmVuZG9yZWQ6OlNXQUdHRVJfVUlfVkVORE9SRUQpOwogICAgbGV0IG11dCBhcmNoaXZlID0gemlwOjpaaXBBcmNoaXZlOjpuZXcocmVhZGVyKS5leHBlY3QoIm9wZW4gdmVuZG9yZWQgU3dhZ2dlciBVSSBhcmNoaXZlIik7CgogICAgZm9yIChzb3VyY2Vfc3VmZml4LCBvdXRwdXRfbmFtZSkgaW4gQVNTRVRTIHsKICAgICAgICBsZXQgaW5kZXggPSAoMC4uYXJjaGl2ZS5sZW4oKSkKICAgICAgICAgICAgLmZpbmQofGluZGV4fCB7CiAgICAgICAgICAgICAgICBhcmNoaXZlCiAgICAgICAgICAgICAgICAgICAgLmJ5X2luZGV4KCppbmRleCkKICAgICAgICAgICAgICAgICAgICAubWFwKHxmaWxlfCBmaWxlLm5hbWUoKS5lbmRzX3dpdGgoc291cmNlX3N1ZmZpeCkpCiAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcihmYWxzZSkKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IHBhbmljISgidmVuZG9yZWQgU3dhZ2dlciBVSSBpcyBtaXNzaW5nIHtzb3VyY2Vfc3VmZml4fSIpKTsKICAgICAgICBsZXQgbXV0IHNvdXJjZSA9IGFyY2hpdmUKICAgICAgICAgICAgLmJ5X2luZGV4KGluZGV4KQogICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofF98IHBhbmljISgicmVhZCB2ZW5kb3JlZCBTd2FnZ2VyIFVJIGFzc2V0IHtzb3VyY2Vfc3VmZml4fSIpKTsKICAgICAgICBsZXQgbXV0IGJ5dGVzID0gVmVjOjp3aXRoX2NhcGFjaXR5KHNvdXJjZS5zaXplKCkgYXMgdXNpemUpOwogICAgICAgIHNvdXJjZQogICAgICAgICAgICAucmVhZF90b19lbmQoJm11dCBieXRlcykKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHxffCBwYW5pYyEoImV4dHJhY3QgdmVuZG9yZWQgU3dhZ2dlciBVSSBhc3NldCB7c291cmNlX3N1ZmZpeH0iKSk7CiAgICAgICAgZnM6OndyaXRlKG91dF9kaXIuam9pbihvdXRwdXRfbmFtZSksIGJ5dGVzKQogICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofF98IHBhbmljISgid3JpdGUgdmVuZG9yZWQgU3dhZ2dlciBVSSBhc3NldCB7b3V0cHV0X25hbWV9IikpOwogICAgfQp9CgpmbiBsb2FkX2FwcF9tZXRhZGF0YShwYXRoOiAmUGF0aCkgLT4gQXBwTWV0YWRhdGEgewogICAgbGV0IGNvbnRlbnQgPSBmczo6cmVhZF90b19zdHJpbmcocGF0aCkuZXhwZWN0KCJyZWFkIHZlcnNpb24uanNvbiIpOwogICAgbGV0IHZhbHVlID0gc2VyZGVfanNvbjo6ZnJvbV9zdHI6OjxWYWx1ZT4oJmNvbnRlbnQpLmV4cGVjdCgicGFyc2UgdmVyc2lvbi5qc29uIik7CiAgICBsZXQgb2JqZWN0ID0gdmFsdWUuYXNfb2JqZWN0KCkuZXhwZWN0KCJ2ZXJzaW9uLmpzb24gbXVzdCBiZSBhbiBvYmplY3QiKTsKICAgIGxldCBnYXRld2F5X2NvbW1pdCA9IHJlcXVpcmVkX2dhdGV3YXlfY29tbWl0KG9iamVjdC5nZXQoImdhdGV3YXlDb21taXQiKSk7CiAgICBBcHBNZXRhZGF0YSB7CiAgICAgICAgdmVyc2lvbjogcmVxdWlyZWRfc3RyaW5nKG9iamVjdC5nZXQoInZlcnNpb24iKSwgInZlcnNpb24iKSwKICAgICAgICBnaXRodWJfdXJsOiByZXF1aXJlZF9zdHJpbmcob2JqZWN0LmdldCgiZ2l0aHViVXJsIiksICJnaXRodWJVcmwiKSwKICAgICAgICBnYXRld2F5X2NvbW1pdCwKICAgICAgICBiYWNrdXBfc2NoZW1hX3ZlcnNpb246IG9iamVjdAogICAgICAgICAgICAuZ2V0KCJiYWNrdXBTY2hlbWFWZXJzaW9uIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19pNjQpCiAgICAgICAgICAgIC5leHBlY3QoInZlcnNpb24uanNvbiBiYWNrdXBTY2hlbWFWZXJzaW9uIG11c3QgYmUgYW4gaW50ZWdlciIpLAogICAgICAgIGJhY2t1cF9pbXBvcnRfbWluX3ZlcnNpb246IHJlcXVpcmVkX3N0cmluZygKICAgICAgICAgICAgb2JqZWN0LmdldCgiYmFja3VwSW1wb3J0TWluVmVyc2lvbiIpLAogICAgICAgICAgICAiYmFja3VwSW1wb3J0TWluVmVyc2lvbiIsCiAgICAgICAgKSwKICAgIH0KfQoKZm4gcmVxdWlyZWRfZ2F0ZXdheV9jb21taXQodmFsdWU6IE9wdGlvbjwmVmFsdWU+KSAtPiBTdHJpbmcgewogICAgdmFsaWRhdGVfZ2F0ZXdheV9jb21taXQoJnJlcXVpcmVkX3N0cmluZyh2YWx1ZSwgImdhdGV3YXlDb21taXQiKSkKfQoKZm4gdmFsaWRhdGVfZ2F0ZXdheV9jb21taXQoY29tbWl0OiAmc3RyKSAtPiBTdHJpbmcgewogICAgaWYgY29tbWl0LmxlbigpICE9IDQwCiAgICAgICAgfHwgIWNvbW1pdAogICAgICAgICAgICAuYnl0ZXMoKQogICAgICAgICAgICAuYWxsKHxieXRlfCBieXRlLmlzX2FzY2lpX2RpZ2l0KCkgfHwgbWF0Y2hlcyEoYnl0ZSwgYidhJy4uPWInZicpKQogICAgewogICAgICAgIHBhbmljISgiZ2F0ZXdheSBjb21taXQgbXVzdCBiZSBhIDQwLWNoYXJhY3RlciBsb3dlcmNhc2UgR2l0IGNvbW1pdCIpOwogICAgfQogICAgY29tbWl0LnRvX3N0cmluZygpCn0KCmZuIHJlcXVpcmVkX3N0cmluZyh2YWx1ZTogT3B0aW9uPCZWYWx1ZT4sIGtleTogJnN0cikgLT4gU3RyaW5nIHsKICAgIHZhbHVlCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIC5tYXAoVG9TdHJpbmc6OnRvX3N0cmluZykKICAgICAgICAudW53cmFwX29yX2Vsc2UofHwgcGFuaWMhKCJ2ZXJzaW9uLmpzb24ge2tleX0gbXVzdCBiZSBhIG5vbi1lbXB0eSBzdHJpbmciKSkKfQoKZm4gYXBwX3ZlcnNpb25fc291cmNlKG1ldGFkYXRhOiAmQXBwTWV0YWRhdGEpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKAogICAgICAgICJwdWIgY29uc3QgQVBQX0xPQ0FMX1ZFUlNJT046ICZzdHIgPSB7dmVyc2lvbjo/fTtcblwKICAgICAgICAgcHViIGNvbnN0IEFQUF9HSVRIVUJfVVJMOiAmc3RyID0ge2dpdGh1Yl91cmw6P307XG5cCiAgICAgICAgIHB1YiBjb25zdCBBUFBfQkFDS1VQX1NDSEVNQV9WRVJTSU9OOiBpNjQgPSB7YmFja3VwX3NjaGVtYV92ZXJzaW9ufTtcblwKICAgICAgICAgcHViIGNvbnN0IEFQUF9CQUNLVVBfSU1QT1JUX01JTl9WRVJTSU9OOiAmc3RyID0ge2JhY2t1cF9pbXBvcnRfbWluX3ZlcnNpb246P307XG4iLAogICAgICAgIHZlcnNpb24gPSBtZXRhZGF0YS52ZXJzaW9uLAogICAgICAgIGdpdGh1Yl91cmwgPSBtZXRhZGF0YS5naXRodWJfdXJsLAogICAgICAgIGJhY2t1cF9zY2hlbWFfdmVyc2lvbiA9IG1ldGFkYXRhLmJhY2t1cF9zY2hlbWFfdmVyc2lvbiwKICAgICAgICBiYWNrdXBfaW1wb3J0X21pbl92ZXJzaW9uID0gbWV0YWRhdGEuYmFja3VwX2ltcG9ydF9taW5fdmVyc2lvbiwKICAgICkKfQo=
+// Build-time validation intentionally aborts when repository metadata is
+// invalid. This script is not linked into the production runtime guarded by
+// scripts/check-rust-prod-panics.sh.
+#![allow(clippy::panic, clippy::todo, clippy::unimplemented)]
+
+use std::{
+    env, fs,
+    io::{Cursor, Read},
+    path::{Path, PathBuf},
+};
+
+use serde_json::Value;
+
+struct AppMetadata {
+    version: String,
+    github_url: String,
+    gateway_commit: String,
+    backup_schema_version: i64,
+    backup_import_min_version: String,
+}
+
+fn main() {
+    let manifest_dir = PathBuf::from(env::var("CARGO_MANIFEST_DIR").expect("CARGO_MANIFEST_DIR"));
+    let version_file = manifest_dir.join("../../version.json");
+    let proto_file =
+        manifest_dir.join("../../packages/grpc-contracts/proto/fnknock/v1/gateway.proto");
+    let proto_root = manifest_dir.join("../../packages/grpc-contracts/proto");
+    println!("cargo:rerun-if-changed={}", version_file.display());
+    println!("cargo:rerun-if-changed={}", proto_file.display());
+    println!("cargo:rerun-if-env-changed=FN_KNOCK_GATEWAY_COMMIT");
+
+    let protoc = protoc_bin_vendored::protoc_bin_path().expect("resolve vendored protoc");
+    // SAFETY: build scripts run single-threaded here before tonic_build reads
+    // PROTOC, so no concurrent environment access is introduced.
+    unsafe {
+        env::set_var("PROTOC", protoc);
+    }
+    tonic_build::configure()
+        .build_server(true)
+        .server_mod_attribute(".", "#[cfg(test)]")
+        .compile_protos(&[proto_file], &[proto_root])
+        .expect("compile fn-knock grpc proto");
+
+    let mut metadata = load_app_metadata(&version_file);
+    if let Ok(commit) = env::var("FN_KNOCK_GATEWAY_COMMIT")
+        && !commit.trim().is_empty()
+    {
+        metadata.gateway_commit = validate_gateway_commit(commit.trim());
+    }
+    println!(
+        "cargo:rustc-env=FN_KNOCK_GATEWAY_COMMIT={}",
+        metadata.gateway_commit
+    );
+    let out_dir = PathBuf::from(env::var("OUT_DIR").expect("OUT_DIR"));
+    fs::write(
+        out_dir.join("app_version.rs"),
+        app_version_source(&metadata),
+    )
+    .expect("write generated app version");
+    write_swagger_ui_assets(&out_dir);
+}
+
+fn write_swagger_ui_assets(out_dir: &Path) {
+    const ASSETS: [(&str, &str); 6] = [
+        ("/dist/swagger-ui.css", "swagger-ui.css"),
+        ("/dist/index.css", "index.css"),
+        ("/dist/swagger-ui-bundle.js", "swagger-ui-bundle.js"),
+        (
+            "/dist/swagger-ui-standalone-preset.js",
+            "swagger-ui-standalone-preset.js",
+        ),
+        ("/dist/favicon-16x16.png", "favicon-16x16.png"),
+        ("/dist/favicon-32x32.png", "favicon-32x32.png"),
+    ];
+
+    let reader = Cursor::new(utoipa_swagger_ui_vendored::SWAGGER_UI_VENDORED);
+    let mut archive = zip::ZipArchive::new(reader).expect("open vendored Swagger UI archive");
+
+    for (source_suffix, output_name) in ASSETS {
+        let index = (0..archive.len())
+            .find(|index| {
+                archive
+                    .by_index(*index)
+                    .map(|file| file.name().ends_with(source_suffix))
+                    .unwrap_or(false)
+            })
+            .unwrap_or_else(|| panic!("vendored Swagger UI is missing {source_suffix}"));
+        let mut source = archive
+            .by_index(index)
+            .unwrap_or_else(|_| panic!("read vendored Swagger UI asset {source_suffix}"));
+        let mut bytes = Vec::with_capacity(source.size() as usize);
+        source
+            .read_to_end(&mut bytes)
+            .unwrap_or_else(|_| panic!("extract vendored Swagger UI asset {source_suffix}"));
+        fs::write(out_dir.join(output_name), bytes)
+            .unwrap_or_else(|_| panic!("write vendored Swagger UI asset {output_name}"));
+    }
+}
+
+fn load_app_metadata(path: &Path) -> AppMetadata {
+    let content = fs::read_to_string(path).expect("read version.json");
+    let value = serde_json::from_str::<Value>(&content).expect("parse version.json");
+    let object = value.as_object().expect("version.json must be an object");
+    let gateway_commit = required_gateway_commit(object.get("gatewayCommit"));
+    AppMetadata {
+        version: required_string(object.get("version"), "version"),
+        github_url: required_string(object.get("githubUrl"), "githubUrl"),
+        gateway_commit,
+        backup_schema_version: object
+            .get("backupSchemaVersion")
+            .and_then(Value::as_i64)
+            .expect("version.json backupSchemaVersion must be an integer"),
+        backup_import_min_version: required_string(
+            object.get("backupImportMinVersion"),
+            "backupImportMinVersion",
+        ),
+    }
+}
+
+fn required_gateway_commit(value: Option<&Value>) -> String {
+    validate_gateway_commit(&required_string(value, "gatewayCommit"))
+}
+
+fn validate_gateway_commit(commit: &str) -> String {
+    if commit.len() != 40
+        || !commit
+            .bytes()
+            .all(|byte| byte.is_ascii_digit() || matches!(byte, b'a'..=b'f'))
+    {
+        panic!("gateway commit must be a 40-character lowercase Git commit");
+    }
+    commit.to_string()
+}
+
+fn required_string(value: Option<&Value>, key: &str) -> String {
+    value
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .map(ToString::to_string)
+        .unwrap_or_else(|| panic!("version.json {key} must be a non-empty string"))
+}
+
+fn app_version_source(metadata: &AppMetadata) -> String {
+    format!(
+        "pub const APP_LOCAL_VERSION: &str = {version:?};\n\
+         pub const APP_GITHUB_URL: &str = {github_url:?};\n\
+         pub const APP_BACKUP_SCHEMA_VERSION: i64 = {backup_schema_version};\n\
+         pub const APP_BACKUP_IMPORT_MIN_VERSION: &str = {backup_import_min_version:?};\n",
+        version = metadata.version,
+        github_url = metadata.github_url,
+        backup_schema_version = metadata.backup_schema_version,
+        backup_import_min_version = metadata.backup_import_min_version,
+    )
+}

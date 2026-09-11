@@ -1,1 +1,35 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUHJpbWl0aXZlUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyBQcmltaXRpdmUgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoZGVmaW5lUHJvcHM8UHJpbWl0aXZlUHJvcHMgJiB7CiAgc2hvd09uSG92ZXI/OiBib29sZWFuCiAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXQp9PigpLCB7CiAgYXM6ICJidXR0b24iLAp9KQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UHJpbWl0aXZlCiAgICBkYXRhLXNsb3Q9InNpZGViYXItbWVudS1hY3Rpb24iCiAgICBkYXRhLXNpZGViYXI9Im1lbnUtYWN0aW9uIgogICAgOmNsYXNzPSJjbigKICAgICAgJ3RleHQtc2lkZWJhci1mb3JlZ3JvdW5kIHJpbmctc2lkZWJhci1yaW5nIGhvdmVyOmJnLXNpZGViYXItYWNjZW50IGhvdmVyOnRleHQtc2lkZWJhci1hY2NlbnQtZm9yZWdyb3VuZCBwZWVyLWhvdmVyL21lbnUtYnV0dG9uOnRleHQtc2lkZWJhci1hY2NlbnQtZm9yZWdyb3VuZCBhYnNvbHV0ZSB0b3AtMS41IHJpZ2h0LTEgZmxleCBhc3BlY3Qtc3F1YXJlIHctNSBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1tZCBwLTAgb3V0bGluZS1oaWRkZW4gdHJhbnNpdGlvbi10cmFuc2Zvcm0gZm9jdXMtdmlzaWJsZTpyaW5nLTIgWyY+c3ZnXTpzaXplLTQgWyY+c3ZnXTpzaHJpbmstMCcsCiAgICAgICdhZnRlcjphYnNvbHV0ZSBhZnRlcjotaW5zZXQtMiBtZDphZnRlcjpoaWRkZW4nLAogICAgICAncGVlci1kYXRhLVtzaXplPXNtXS9tZW51LWJ1dHRvbjp0b3AtMScsCiAgICAgICdwZWVyLWRhdGEtW3NpemU9ZGVmYXVsdF0vbWVudS1idXR0b246dG9wLTEuNScsCiAgICAgICdwZWVyLWRhdGEtW3NpemU9bGddL21lbnUtYnV0dG9uOnRvcC0yLjUnLAogICAgICAnZ3JvdXAtZGF0YS1bY29sbGFwc2libGU9aWNvbl06aGlkZGVuJywKICAgICAgc2hvd09uSG92ZXIKICAgICAgICAmJiAncGVlci1kYXRhLVthY3RpdmU9dHJ1ZV0vbWVudS1idXR0b246dGV4dC1zaWRlYmFyLWFjY2VudC1mb3JlZ3JvdW5kIGdyb3VwLWZvY3VzLXdpdGhpbi9tZW51LWl0ZW06b3BhY2l0eS0xMDAgZ3JvdXAtaG92ZXIvbWVudS1pdGVtOm9wYWNpdHktMTAwIGRhdGEtW3N0YXRlPW9wZW5dOm9wYWNpdHktMTAwIG1kOm9wYWNpdHktMCcsCiAgICAgIHByb3BzLmNsYXNzLAogICAgKSIKICAgIDphcz0iYXMiCiAgICA6YXMtY2hpbGQ9ImFzQ2hpbGQiCiAgPgogICAgPHNsb3QgLz4KICA8L1ByaW1pdGl2ZT4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { PrimitiveProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { Primitive } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = withDefaults(defineProps<PrimitiveProps & {
+  showOnHover?: boolean
+  class?: HTMLAttributes["class"]
+}>(), {
+  as: "button",
+})
+</script>
+
+<template>
+  <Primitive
+    data-slot="sidebar-menu-action"
+    data-sidebar="menu-action"
+    :class="cn(
+      'text-sidebar-foreground ring-sidebar-ring hover:bg-sidebar-accent hover:text-sidebar-accent-foreground peer-hover/menu-button:text-sidebar-accent-foreground absolute top-1.5 right-1 flex aspect-square w-5 items-center justify-center rounded-md p-0 outline-hidden transition-transform focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0',
+      'after:absolute after:-inset-2 md:after:hidden',
+      'peer-data-[size=sm]/menu-button:top-1',
+      'peer-data-[size=default]/menu-button:top-1.5',
+      'peer-data-[size=lg]/menu-button:top-2.5',
+      'group-data-[collapsible=icon]:hidden',
+      showOnHover
+        && 'peer-data-[active=true]/menu-button:text-sidebar-accent-foreground group-focus-within/menu-item:opacity-100 group-hover/menu-item:opacity-100 data-[state=open]:opacity-100 md:opacity-0',
+      props.class,
+    )"
+    :as="as"
+    :as-child="asChild"
+  >
+    <slot />
+  </Primitive>
+</template>

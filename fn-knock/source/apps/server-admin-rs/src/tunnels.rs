@@ -1,1 +1,22 @@
-cHViKGNyYXRlKSBtb2QgY2xvdWRmbGFyZWQ7Cm1vZCBjb25uZWN0aXZpdHk7CnB1YihjcmF0ZSkgbW9kIGZycGM7CnB1YihjcmF0ZSkgbW9kIHN1cGVydmlzb3I7CgpwdWIoY3JhdGUpIGNvbnN0IFRVTk5FTF9SVU5USU1FX0tFWTogJnN0ciA9ICJmbl9rbm9jazp0dW5uZWw6cnVudGltZSI7Ci8vLyBMb29wYmFjay1vbmx5IGluZ3Jlc3MgZXhwb3NlZCBieSB0aGUgR28gZ2F0ZXdheSBmb3IgZm4ta25vY2stbWFuYWdlZAovLy8gQ2xvdWRmbGFyZSBUdW5uZWxzLiBLZWVwIHNlcnZpY2UgZGlzY292ZXJ5IGFuZCBtYW5hZ2VkIHR1bm5lbCByZWNvbmNpbGlhdGlvbgovLy8gb24gdGhpcyBzaGFyZWQgdmFsdWUgc28gdGhlIHByaXZhdGUgaW5ncmVzcyBjYW4gbmV2ZXIgYmUgYWR2ZXJ0aXNlZCBhcyBhbgovLy8gb3JkaW5hcnkgdXBzdHJlYW0gc2VydmljZS4KcHViKGNyYXRlKSBjb25zdCBNQU5BR0VEX0NMT1VERkxBUkVfSU5HUkVTU19QT1JUOiB1MTYgPSAxN185OTk7CgovLy8gTGl0ZSBjYW4gY29leGlzdCB3aXRoIHRoZSBmdWxsIGZuT1MgcGFja2FnZSBvbiB0aGUgc2FtZSBob3N0LgpwdWIoY3JhdGUpIGNvbnN0IE1BTkFHRURfQ0xPVURGTEFSRV9MSVRFX0lOR1JFU1NfUE9SVDogdTE2ID0gMThfOTk5OwoKcHViKGNyYXRlKSBmbiBtYW5hZ2VkX2Nsb3VkZmxhcmVfaW5ncmVzc19wb3J0KHJ1bnRpbWVfdGFyZ2V0OiAmc3RyKSAtPiB1MTYgewogICAgaWYgcnVudGltZV90YXJnZXQgPT0gImZway1saXRlIiB7CiAgICAgICAgTUFOQUdFRF9DTE9VREZMQVJFX0xJVEVfSU5HUkVTU19QT1JUCiAgICB9IGVsc2UgewogICAgICAgIE1BTkFHRURfQ0xPVURGTEFSRV9JTkdSRVNTX1BPUlQKICAgIH0KfQo=
+pub(crate) mod cloudflared;
+mod connectivity;
+pub(crate) mod frpc;
+pub(crate) mod supervisor;
+
+pub(crate) const TUNNEL_RUNTIME_KEY: &str = "fn_knock:tunnel:runtime";
+/// Loopback-only ingress exposed by the Go gateway for fn-knock-managed
+/// Cloudflare Tunnels. Keep service discovery and managed tunnel reconciliation
+/// on this shared value so the private ingress can never be advertised as an
+/// ordinary upstream service.
+pub(crate) const MANAGED_CLOUDFLARE_INGRESS_PORT: u16 = 17_999;
+
+/// Lite can coexist with the full fnOS package on the same host.
+pub(crate) const MANAGED_CLOUDFLARE_LITE_INGRESS_PORT: u16 = 18_999;
+
+pub(crate) fn managed_cloudflare_ingress_port(runtime_target: &str) -> u16 {
+    if runtime_target == "fpk-lite" {
+        MANAGED_CLOUDFLARE_LITE_INGRESS_PORT
+    } else {
+        MANAGED_CLOUDFLARE_INGRESS_PORT
+    }
+}

@@ -1,1 +1,247 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGNyYXRlKSBzdHJ1Y3QgTGRhcEJpbmRpbmdDbGFpbTwnYT4gewogICAgcHViIGludml0ZV9rZXk6ICYnYSBzdHIsCiAgICBwdWIgc3ViamVjdF9rZXk6ICYnYSBzdHIsCiAgICBwdWIgYmluZGluZ19rZXk6ICYnYSBzdHIsCiAgICBwdWIgYmluZGluZ3NfaW5kZXhfa2V5OiAmJ2Egc3RyLAogICAgcHViIGJpbmRpbmdfaWQ6ICYnYSBzdHIsCiAgICBwdWIgYmluZGluZzogJidhIFZhbHVlLAogICAgcHViIHByb3ZpZGVyX2lkOiAmJ2Egc3RyLAogICAgcHViIHRvdHBfaWQ6ICYnYSBzdHIsCiAgICBwdWIgc2NvcmU6IGk2NCwKfQoKcHViKGNyYXRlKSBzdHJ1Y3QgT3duZWRCaW5kaW5nVXBkYXRlPCdhPiB7CiAgICBwdWIgc3ViamVjdF9rZXk6ICYnYSBzdHIsCiAgICBwdWIgYmluZGluZ19rZXk6ICYnYSBzdHIsCiAgICBwdWIgYmluZGluZ3NfaW5kZXhfa2V5OiAmJ2Egc3RyLAogICAgcHViIGJpbmRpbmdfaWQ6ICYnYSBzdHIsCiAgICBwdWIgYmluZGluZzogJidhIFZhbHVlLAogICAgcHViIHNjb3JlOiBpNjQsCn0KCnB1YihjcmF0ZSkgc3RydWN0IE93bmVkQmluZGluZ0RlbGV0ZTwnYT4gewogICAgcHViIHN1YmplY3Rfa2V5OiAmJ2Egc3RyLAogICAgcHViIGJpbmRpbmdfa2V5OiAmJ2Egc3RyLAogICAgcHViIGJpbmRpbmdzX2luZGV4X2tleTogJidhIHN0ciwKICAgIHB1YiBiaW5kaW5nX2lkOiAmJ2Egc3RyLAp9CgpwdWIoY3JhdGUpIHN0cnVjdCBPaWRjQmluZGluZ0NsYWltPCdhPiB7CiAgICBwdWIgaW52aXRlX2tleTogJidhIHN0ciwKICAgIHB1YiBzdWJqZWN0X2tleTogJidhIHN0ciwKICAgIHB1YiBiaW5kaW5nX2tleTogJidhIHN0ciwKICAgIHB1YiBiaW5kaW5nc19pbmRleF9rZXk6ICYnYSBzdHIsCiAgICBwdWIgYmluZGluZ19pZDogJidhIHN0ciwKICAgIHB1YiBiaW5kaW5nOiAmJ2EgVmFsdWUsCiAgICBwdWIgcHJvdmlkZXJfaWQ6ICYnYSBzdHIsCiAgICBwdWIgdG90cF9pZDogJidhIHN0ciwKICAgIHB1YiBzY29yZTogaTY0LAp9CgpwdWIoc3VwZXIpIHN0cnVjdCBDb25maWdGZW5jZVNuYXBzaG90IHsKICAgIHB1YihzdXBlcikgY29uZmlnX3JhdzogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIoc3VwZXIpIGdlbmVyYXRpb25fcmF3OiBPcHRpb248U3RyaW5nPiwKICAgIHB1YihzdXBlcikgY29uZmlnOiBWYWx1ZSwKICAgIHB1YihzdXBlcikgZ2VuZXJhdGlvbjogdTY0LAp9CgpwdWIoc3VwZXIpIHN0cnVjdCBDb25maWdHZW5lcmF0aW9uTWFya2VyIHsKICAgIHB1YihzdXBlcikgZ2VuZXJhdGlvbjogdTY0LAogICAgcHViKHN1cGVyKSBob3N0X2ZpbmdlcnByaW50OiBTdHJpbmcsCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gbG9hZF9jb25maWdfZmVuY2Vfc25hcHNob3QoCiAgICBjb25uOiAmbXV0IENvbm5lY3Rpb25NYW5hZ2VyLAopIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PENvbmZpZ0ZlbmNlU25hcHNob3Q+IHsKICAgIGxldCB2YWx1ZXM6IFZlYzxPcHRpb248U3RyaW5nPj4gPSByZWRpczo6Y21kKCJNR0VUIikKICAgICAgICAuYXJnKHZlYyFbCiAgICAgICAgICAgIENPTkZJR19LRVkudG9fc3RyaW5nKCksCiAgICAgICAgICAgIEhPU1RfTUFQUElOR1NfR0VORVJBVElPTl9LRVkudG9fc3RyaW5nKCksCiAgICAgICAgXSkKICAgICAgICAucXVlcnlfYXN5bmMoY29ubikKICAgICAgICAuYXdhaXQ/OwogICAgY29uZmlnX2ZlbmNlX3NuYXBzaG90X2Zyb21fcmF3KAogICAgICAgIHZhbHVlcy5maXJzdCgpLmNsb25lZCgpLmZsYXR0ZW4oKSwKICAgICAgICB2YWx1ZXMuZ2V0KDEpLmNsb25lZCgpLmZsYXR0ZW4oKSwKICAgICkKfQoKcHViKHN1cGVyKSBmbiBjb25maWdfZmVuY2Vfc25hcHNob3RfZnJvbV9yYXcoCiAgICBjb25maWdfcmF3OiBPcHRpb248U3RyaW5nPiwKICAgIGdlbmVyYXRpb25fcmF3OiBPcHRpb248U3RyaW5nPiwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxDb25maWdGZW5jZVNuYXBzaG90PiB7CiAgICBsZXQgY29uZmlnID0gbWF0Y2ggY29uZmlnX3Jhdy5hc19kZXJlZigpIHsKICAgICAgICBTb21lKHJhdykgPT4gc2VyZGVfanNvbjo6ZnJvbV9zdHIocmF3KT8sCiAgICAgICAgTm9uZSA9PiBkZWZhdWx0X2NvbmZpZygpLAogICAgfTsKICAgIGxldCBnZW5lcmF0aW9uID0gZ2VuZXJhdGlvbl9yYXcKICAgICAgICAuYXNfZGVyZWYoKQogICAgICAgIC51bndyYXBfb3IoIjAiKQogICAgICAgIC5wYXJzZTo6PHU2ND4oKQogICAgICAgIC5tYXBfZXJyKHxffCBjcmF0ZTo6c3RvcmFnZTo6c3RvcmFnZV9lcnJvcigiaG9zdCBtYXBwaW5ncyBnZW5lcmF0aW9uIGlzIGludmFsaWQiKSk/OwogICAgT2soQ29uZmlnRmVuY2VTbmFwc2hvdCB7CiAgICAgICAgY29uZmlnX3JhdywKICAgICAgICBnZW5lcmF0aW9uX3JhdywKICAgICAgICBjb25maWcsCiAgICAgICAgZ2VuZXJhdGlvbiwKICAgIH0pCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gY29tcGFyZV9hbmRfc2V0X2NvbmZpZ19mZW5jZV9zbmFwc2hvdCgKICAgIGNvbm46ICZtdXQgQ29ubmVjdGlvbk1hbmFnZXIsCiAgICBzbmFwc2hvdDogJkNvbmZpZ0ZlbmNlU25hcHNob3QsCiAgICByZXBsYWNlbWVudF9yYXc6ICZzdHIsCiAgICByZXBsYWNlbWVudF9nZW5lcmF0aW9uOiB1NjQsCikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8T3B0aW9uPHU2ND4+IHsKICAgIGxldCBhcHBsaWVkOiBpNjQgPSByZWRpczo6Y21kKCJFVkFMIikKICAgICAgICAuYXJnKAogICAgICAgICAgICByIyIKLS0gZm4ta25vY2s6ZXZhbDpjYXMtY29uZmlnLWhvc3QtZ2VuZXJhdGlvbi1yYXc6djMKbG9jYWwgY3VycmVudF9jb25maWcgPSByZWRpcy5jYWxsKCJHRVQiLCBLRVlTWzFdKQpsb2NhbCBjdXJyZW50X2dlbmVyYXRpb24gPSByZWRpcy5jYWxsKCJHRVQiLCBLRVlTWzJdKQpsb2NhbCBmdW5jdGlvbiByYXdfbWF0Y2hlcyhjdXJyZW50LCBleHBlY3RlZF9leGlzdHMsIGV4cGVjdGVkKQogIGlmIGV4cGVjdGVkX2V4aXN0cyA9PSAiMCIgdGhlbgogICAgcmV0dXJuIG5vdCBjdXJyZW50CiAgZW5kCiAgcmV0dXJuIGN1cnJlbnQgYW5kIGN1cnJlbnQgPT0gZXhwZWN0ZWQKZW5kCmlmIG5vdCByYXdfbWF0Y2hlcyhjdXJyZW50X2NvbmZpZywgQVJHVlsxXSwgQVJHVlsyXSkKICAgIG9yIG5vdCByYXdfbWF0Y2hlcyhjdXJyZW50X2dlbmVyYXRpb24sIEFSR1ZbM10sIEFSR1ZbNF0pIHRoZW4KICByZXR1cm4gMAplbmQKcmVkaXMuY2FsbCgiU0VUIiwgS0VZU1sxXSwgQVJHVls1XSkKcmVkaXMuY2FsbCgiU0VUIiwgS0VZU1syXSwgQVJHVls2XSkKcmV0dXJuIDEKIiMsCiAgICAgICAgKQogICAgICAgIC5hcmcoMikKICAgICAgICAuYXJnKENPTkZJR19LRVkpCiAgICAgICAgLmFyZyhIT1NUX01BUFBJTkdTX0dFTkVSQVRJT05fS0VZKQogICAgICAgIC5hcmcoaWYgc25hcHNob3QuY29uZmlnX3Jhdy5pc19zb21lKCkgewogICAgICAgICAgICAiMSIKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAiMCIKICAgICAgICB9KQogICAgICAgIC5hcmcoc25hcHNob3QuY29uZmlnX3Jhdy5hc19kZXJlZigpLnVud3JhcF9vcigiIikpCiAgICAgICAgLmFyZyhpZiBzbmFwc2hvdC5nZW5lcmF0aW9uX3Jhdy5pc19zb21lKCkgewogICAgICAgICAgICAiMSIKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAiMCIKICAgICAgICB9KQogICAgICAgIC5hcmcoc25hcHNob3QuZ2VuZXJhdGlvbl9yYXcuYXNfZGVyZWYoKS51bndyYXBfb3IoIiIpKQogICAgICAgIC5hcmcocmVwbGFjZW1lbnRfcmF3KQogICAgICAgIC5hcmcocmVwbGFjZW1lbnRfZ2VuZXJhdGlvbi50b19zdHJpbmcoKSkKICAgICAgICAucXVlcnlfYXN5bmMoY29ubikKICAgICAgICAuYXdhaXQ/OwogICAgaWYgYXBwbGllZCA9PSAwIHsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9CiAgICBsZXQgcmV2aXNpb24gPSB1NjQ6OnRyeV9mcm9tKGFwcGxpZWQpCiAgICAgICAgLm9rKCkKICAgICAgICAuZmlsdGVyKHxyZXZpc2lvbnwgKnJldmlzaW9uID4gMCkKICAgICAgICAub2tfb3JfZWxzZSh8fCBjcmF0ZTo6c3RvcmFnZTo6c3RvcmFnZV9lcnJvcigidHlwZWQgY29uZmlnIHJldmlzaW9uIGlzIGludmFsaWQiKSk/OwogICAgT2soU29tZShyZXZpc2lvbikpCn0KCnB1YihzdXBlcikgZm4gY29uZmlnX2hvc3RfbWFwcGluZ3MoY29uZmlnOiAmVmFsdWUpIC0+IFZhbHVlIHsKICAgIGNvbmZpZwogICAgICAgIC5nZXQoImhvc3RfbWFwcGluZ3MiKQogICAgICAgIC5jbG9uZWQoKQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCBWYWx1ZTo6QXJyYXkoVmVjOjpuZXcoKSkpCn0KCnB1YihzdXBlcikgZm4gY29uZmlnX2hvc3RfbWFwcGluZ3NfZmluZ2VycHJpbnQoCiAgICBjb25maWc6ICZWYWx1ZSwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxTdHJpbmc+IHsKICAgIGxldCBlbXB0eV9tYXBwaW5ncyA9IFZhbHVlOjpBcnJheShWZWM6Om5ldygpKTsKICAgIE9rKGNyYXRlOjpjcnlwdG9fdXRpbHM6OnNoYTI1Nl9oZXhfYnl0ZXMoc2VyZGVfanNvbjo6dG9fdmVjKAogICAgICAgIGNvbmZpZy5nZXQoImhvc3RfbWFwcGluZ3MiKS51bndyYXBfb3IoJmVtcHR5X21hcHBpbmdzKSwKICAgICk/KSkKfQoKcHViKHN1cGVyKSBmbiByZXBsYWNlX3Zpc2liaWxpdHlfcG9saWNpZXNfZm9yX2hvc3RfbWFwcGluZ3MoCiAgICBjb25maWc6ICZtdXQgVmFsdWUsCiAgICByZXBsYWNlbWVudF9tYXBwaW5nczogJltWYWx1ZV0sCiAgICBzdXBwbGllZF9wb2xpY2llczogJk1hcDxTdHJpbmcsIFZhbHVlPiwKKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgbGV0IGV4aXN0aW5nX3BvbGljaWVzID0gY29uZmlnCiAgICAgICAgLmdldCgidmlzaWJpbGl0eV9wb2xpY2llcyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3QpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgbXV0IHJlZmVyZW5jZWQgPSByZWZlcmVuY2VkX2hvc3RfaXBzZXRfcG9saWN5X2lkcyhyZXBsYWNlbWVudF9tYXBwaW5ncyk7CiAgICBpZiBsZXQgU29tZShpZCkgPSBjb25maWcKICAgICAgICAucG9pbnRlcigiL2dhdGV3YXlfdmlzaWJpbGl0eS9wb2xpY3lfaWQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgIHsKICAgICAgICByZWZlcmVuY2VkLmluc2VydChpZC50b19zdHJpbmcoKSk7CiAgICB9CiAgICBsZXQgbXV0IG5leHQgPSBNYXA6Om5ldygpOwogICAgZm9yIGlkIGluIHJlZmVyZW5jZWQgewogICAgICAgIGxldCBwb2xpY3kgPSBzdXBwbGllZF9wb2xpY2llcwogICAgICAgICAgICAuZ2V0KCZpZCkKICAgICAgICAgICAgLm9yX2Vsc2UofHwgZXhpc3RpbmdfcG9saWNpZXMuZ2V0KCZpZCkpCiAgICAgICAgICAgIC5jbG9uZWQoKQogICAgICAgICAgICAub2tfb3JfZWxzZSh8fCB7CiAgICAgICAgICAgICAgICBjcmF0ZTo6c3RvcmFnZTo6c3RvcmFnZV9lcnJvcihmb3JtYXQhKAogICAgICAgICAgICAgICAgICAgICJ2aXNpYmlsaXR5IHBvbGljeSB7aWR9IGlzIG1pc3NpbmcgZnJvbSB0aGUgaG9zdCBtYXBwaW5nIHRyYW5zYWN0aW9uIgogICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgfSk/OwogICAgICAgIG5leHQuaW5zZXJ0KGlkLCBwb2xpY3kpOwogICAgfQogICAgbGV0IG9iamVjdCA9IGNvbmZpZwogICAgICAgIC5hc19vYmplY3RfbXV0KCkKICAgICAgICAub2tfb3JfZWxzZSh8fCBjcmF0ZTo6c3RvcmFnZTo6c3RvcmFnZV9lcnJvcigic3RvcmVkIGNvbmZpZyBtdXN0IGJlIGEgSlNPTiBvYmplY3QiKSk/OwogICAgb2JqZWN0Lmluc2VydCgidmlzaWJpbGl0eV9wb2xpY2llcyIudG9fc3RyaW5nKCksIFZhbHVlOjpPYmplY3QobmV4dCkpOwogICAgT2soKCkpCn0KCnB1YihzdXBlcikgZm4gdGFrZV9jb25maWdfZ2VuZXJhdGlvbl9tYXJrZXIoCiAgICBjb25maWc6ICZtdXQgVmFsdWUsCikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8T3B0aW9uPENvbmZpZ0dlbmVyYXRpb25NYXJrZXI+PiB7CiAgICBsZXQgU29tZShvYmplY3QpID0gY29uZmlnLmFzX29iamVjdF9tdXQoKSBlbHNlIHsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9OwogICAgbGV0IFNvbWUobWFya2VyKSA9IG9iamVjdC5yZW1vdmUoQ09ORklHX0dFTkVSQVRJT05fTUFSS0VSKSBlbHNlIHsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9OwogICAgbGV0IGdlbmVyYXRpb24gPSBtYXJrZXIKICAgICAgICAuZ2V0KCJnZW5lcmF0aW9uIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3U2NCkKICAgICAgICAub2tfb3JfZWxzZSh8fCB7CiAgICAgICAgICAgIGNyYXRlOjpzdG9yYWdlOjpzdG9yYWdlX2Vycm9yKCJob3N0IG1hcHBpbmdzIGdlbmVyYXRpb24gbWFya2VyIGlzIGludmFsaWQiKQogICAgICAgIH0pPzsKICAgIGxldCBob3N0X2ZpbmdlcnByaW50ID0gbWFya2VyCiAgICAgICAgLmdldCgiaG9zdF9maW5nZXJwcmludCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIC5va19vcl9lbHNlKHx8IHsKICAgICAgICAgICAgY3JhdGU6OnN0b3JhZ2U6OnN0b3JhZ2VfZXJyb3IoImhvc3QgbWFwcGluZ3MgZ2VuZXJhdGlvbiBmaW5nZXJwcmludCBpcyBpbnZhbGlkIikKICAgICAgICB9KT8KICAgICAgICAudG9fc3RyaW5nKCk7CiAgICBPayhTb21lKENvbmZpZ0dlbmVyYXRpb25NYXJrZXIgewogICAgICAgIGdlbmVyYXRpb24sCiAgICAgICAgaG9zdF9maW5nZXJwcmludCwKICAgIH0pKQp9CgpwdWIoc3VwZXIpIGZuIGluamVjdF9jb25maWdfZ2VuZXJhdGlvbl9tYXJrZXIoCiAgICBjb25maWc6ICZtdXQgVmFsdWUsCiAgICBnZW5lcmF0aW9uOiB1NjQsCikgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgIGxldCBob3N0X2ZpbmdlcnByaW50ID0gY29uZmlnX2hvc3RfbWFwcGluZ3NfZmluZ2VycHJpbnQoY29uZmlnKT87CiAgICBpZiBsZXQgU29tZShvYmplY3QpID0gY29uZmlnLmFzX29iamVjdF9tdXQoKSB7CiAgICAgICAgb2JqZWN0Lmluc2VydCgKICAgICAgICAgICAgQ09ORklHX0dFTkVSQVRJT05fTUFSS0VSLnRvX3N0cmluZygpLAogICAgICAgICAgICBqc29uISh7CiAgICAgICAgICAgICAgICAiZ2VuZXJhdGlvbiI6IGdlbmVyYXRpb24sCiAgICAgICAgICAgICAgICAiaG9zdF9maW5nZXJwcmludCI6IGhvc3RfZmluZ2VycHJpbnQsCiAgICAgICAgICAgIH0pLAogICAgICAgICk7CiAgICB9CiAgICBPaygoKSkKfQo=
+use super::*;
+
+pub(crate) struct LdapBindingClaim<'a> {
+    pub invite_key: &'a str,
+    pub subject_key: &'a str,
+    pub binding_key: &'a str,
+    pub bindings_index_key: &'a str,
+    pub binding_id: &'a str,
+    pub binding: &'a Value,
+    pub provider_id: &'a str,
+    pub totp_id: &'a str,
+    pub score: i64,
+}
+
+pub(crate) struct OwnedBindingUpdate<'a> {
+    pub subject_key: &'a str,
+    pub binding_key: &'a str,
+    pub bindings_index_key: &'a str,
+    pub binding_id: &'a str,
+    pub binding: &'a Value,
+    pub score: i64,
+}
+
+pub(crate) struct OwnedBindingDelete<'a> {
+    pub subject_key: &'a str,
+    pub binding_key: &'a str,
+    pub bindings_index_key: &'a str,
+    pub binding_id: &'a str,
+}
+
+pub(crate) struct OidcBindingClaim<'a> {
+    pub invite_key: &'a str,
+    pub subject_key: &'a str,
+    pub binding_key: &'a str,
+    pub bindings_index_key: &'a str,
+    pub binding_id: &'a str,
+    pub binding: &'a Value,
+    pub provider_id: &'a str,
+    pub totp_id: &'a str,
+    pub score: i64,
+}
+
+pub(super) struct ConfigFenceSnapshot {
+    pub(super) config_raw: Option<String>,
+    pub(super) generation_raw: Option<String>,
+    pub(super) config: Value,
+    pub(super) generation: u64,
+}
+
+pub(super) struct ConfigGenerationMarker {
+    pub(super) generation: u64,
+    pub(super) host_fingerprint: String,
+}
+
+pub(super) async fn load_config_fence_snapshot(
+    conn: &mut ConnectionManager,
+) -> crate::storage::StorageResult<ConfigFenceSnapshot> {
+    let values: Vec<Option<String>> = redis::cmd("MGET")
+        .arg(vec![
+            CONFIG_KEY.to_string(),
+            HOST_MAPPINGS_GENERATION_KEY.to_string(),
+        ])
+        .query_async(conn)
+        .await?;
+    config_fence_snapshot_from_raw(
+        values.first().cloned().flatten(),
+        values.get(1).cloned().flatten(),
+    )
+}
+
+pub(super) fn config_fence_snapshot_from_raw(
+    config_raw: Option<String>,
+    generation_raw: Option<String>,
+) -> crate::storage::StorageResult<ConfigFenceSnapshot> {
+    let config = match config_raw.as_deref() {
+        Some(raw) => serde_json::from_str(raw)?,
+        None => default_config(),
+    };
+    let generation = generation_raw
+        .as_deref()
+        .unwrap_or("0")
+        .parse::<u64>()
+        .map_err(|_| crate::storage::storage_error("host mappings generation is invalid"))?;
+    Ok(ConfigFenceSnapshot {
+        config_raw,
+        generation_raw,
+        config,
+        generation,
+    })
+}
+
+pub(super) async fn compare_and_set_config_fence_snapshot(
+    conn: &mut ConnectionManager,
+    snapshot: &ConfigFenceSnapshot,
+    replacement_raw: &str,
+    replacement_generation: u64,
+) -> crate::storage::StorageResult<Option<u64>> {
+    let applied: i64 = redis::cmd("EVAL")
+        .arg(
+            r#"
+-- fn-knock:eval:cas-config-host-generation-raw:v3
+local current_config = redis.call("GET", KEYS[1])
+local current_generation = redis.call("GET", KEYS[2])
+local function raw_matches(current, expected_exists, expected)
+  if expected_exists == "0" then
+    return not current
+  end
+  return current and current == expected
+end
+if not raw_matches(current_config, ARGV[1], ARGV[2])
+    or not raw_matches(current_generation, ARGV[3], ARGV[4]) then
+  return 0
+end
+redis.call("SET", KEYS[1], ARGV[5])
+redis.call("SET", KEYS[2], ARGV[6])
+return 1
+"#,
+        )
+        .arg(2)
+        .arg(CONFIG_KEY)
+        .arg(HOST_MAPPINGS_GENERATION_KEY)
+        .arg(if snapshot.config_raw.is_some() {
+            "1"
+        } else {
+            "0"
+        })
+        .arg(snapshot.config_raw.as_deref().unwrap_or(""))
+        .arg(if snapshot.generation_raw.is_some() {
+            "1"
+        } else {
+            "0"
+        })
+        .arg(snapshot.generation_raw.as_deref().unwrap_or(""))
+        .arg(replacement_raw)
+        .arg(replacement_generation.to_string())
+        .query_async(conn)
+        .await?;
+    if applied == 0 {
+        return Ok(None);
+    }
+    let revision = u64::try_from(applied)
+        .ok()
+        .filter(|revision| *revision > 0)
+        .ok_or_else(|| crate::storage::storage_error("typed config revision is invalid"))?;
+    Ok(Some(revision))
+}
+
+pub(super) fn config_host_mappings(config: &Value) -> Value {
+    config
+        .get("host_mappings")
+        .cloned()
+        .unwrap_or_else(|| Value::Array(Vec::new()))
+}
+
+pub(super) fn config_host_mappings_fingerprint(
+    config: &Value,
+) -> crate::storage::StorageResult<String> {
+    let empty_mappings = Value::Array(Vec::new());
+    Ok(crate::crypto_utils::sha256_hex_bytes(serde_json::to_vec(
+        config.get("host_mappings").unwrap_or(&empty_mappings),
+    )?))
+}
+
+pub(super) fn replace_visibility_policies_for_host_mappings(
+    config: &mut Value,
+    replacement_mappings: &[Value],
+    supplied_policies: &Map<String, Value>,
+) -> crate::storage::StorageResult<()> {
+    let existing_policies = config
+        .get("visibility_policies")
+        .and_then(Value::as_object)
+        .cloned()
+        .unwrap_or_default();
+    let mut referenced = referenced_host_ipset_policy_ids(replacement_mappings);
+    if let Some(id) = config
+        .pointer("/gateway_visibility/policy_id")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+    {
+        referenced.insert(id.to_string());
+    }
+    let mut next = Map::new();
+    for id in referenced {
+        let policy = supplied_policies
+            .get(&id)
+            .or_else(|| existing_policies.get(&id))
+            .cloned()
+            .ok_or_else(|| {
+                crate::storage::storage_error(format!(
+                    "visibility policy {id} is missing from the host mapping transaction"
+                ))
+            })?;
+        next.insert(id, policy);
+    }
+    let object = config
+        .as_object_mut()
+        .ok_or_else(|| crate::storage::storage_error("stored config must be a JSON object"))?;
+    object.insert("visibility_policies".to_string(), Value::Object(next));
+    Ok(())
+}
+
+pub(super) fn take_config_generation_marker(
+    config: &mut Value,
+) -> crate::storage::StorageResult<Option<ConfigGenerationMarker>> {
+    let Some(object) = config.as_object_mut() else {
+        return Ok(None);
+    };
+    let Some(marker) = object.remove(CONFIG_GENERATION_MARKER) else {
+        return Ok(None);
+    };
+    let generation = marker
+        .get("generation")
+        .and_then(Value::as_u64)
+        .ok_or_else(|| {
+            crate::storage::storage_error("host mappings generation marker is invalid")
+        })?;
+    let host_fingerprint = marker
+        .get("host_fingerprint")
+        .and_then(Value::as_str)
+        .filter(|value| !value.is_empty())
+        .ok_or_else(|| {
+            crate::storage::storage_error("host mappings generation fingerprint is invalid")
+        })?
+        .to_string();
+    Ok(Some(ConfigGenerationMarker {
+        generation,
+        host_fingerprint,
+    }))
+}
+
+pub(super) fn inject_config_generation_marker(
+    config: &mut Value,
+    generation: u64,
+) -> crate::storage::StorageResult<()> {
+    let host_fingerprint = config_host_mappings_fingerprint(config)?;
+    if let Some(object) = config.as_object_mut() {
+        object.insert(
+            CONFIG_GENERATION_MARKER.to_string(),
+            json!({
+                "generation": generation,
+                "host_fingerprint": host_fingerprint,
+            }),
+        );
+    }
+    Ok(())
+}

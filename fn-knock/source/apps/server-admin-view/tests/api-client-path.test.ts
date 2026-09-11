@@ -1,1 +1,28 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgppbXBvcnQgeyByZXNvbHZlQXBwUmVsYXRpdmVQYXRoRnJvbVVybCB9IGZyb20gIi4uL3NyYy9saWIvYXBpL2NsaWVudCI7CgpkZXNjcmliZSgiYWRtaW4gQVBJIGJhc2UgcGF0aCIsICgpID0+IHsKICBpdCgidXNlcyBicm93c2VyIFVSTCByZXNvbHV0aW9uIGZvciBhbiBpbmRleCBkb2N1bWVudCIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgcmVzb2x2ZUFwcFJlbGF0aXZlUGF0aEZyb21VcmwoCiAgICAgICAgIi4vYXBpL2FkbWluIiwKICAgICAgICAiaHR0cHM6Ly9hZG1pbi5leGFtcGxlLmNvbS9pbmRleC5odG1sIy93b2wiLAogICAgICApLAogICAgICAiL2FwaS9hZG1pbiIsCiAgICApOwogIH0pOwoKICBpdCgicHJlc2VydmVzIGEgZGlyZWN0b3J5LXN0eWxlIENHSSBhcHBsaWNhdGlvbiBwcmVmaXgiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHJlc29sdmVBcHBSZWxhdGl2ZVBhdGhGcm9tVXJsKAogICAgICAgICIuL2FwaS9hZG1pbiIsCiAgICAgICAgImh0dHBzOi8vbmFzLmV4YW1wbGUuY29tL2NnaS9UaGlyZFBhcnR5L2ZuLWtub2NrL2luZGV4LmNnaS8/bGF1bmNoPTEjL3dvbCIsCiAgICAgICksCiAgICAgICIvY2dpL1RoaXJkUGFydHkvZm4ta25vY2svaW5kZXguY2dpL2FwaS9hZG1pbiIsCiAgICApOwogIH0pOwp9KTsK
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import { resolveAppRelativePathFromUrl } from "../src/lib/api/client";
+
+describe("admin API base path", () => {
+  it("uses browser URL resolution for an index document", () => {
+    assert.equal(
+      resolveAppRelativePathFromUrl(
+        "./api/admin",
+        "https://admin.example.com/index.html#/wol",
+      ),
+      "/api/admin",
+    );
+  });
+
+  it("preserves a directory-style CGI application prefix", () => {
+    assert.equal(
+      resolveAppRelativePathFromUrl(
+        "./api/admin",
+        "https://nas.example.com/cgi/ThirdParty/fn-knock/index.cgi/?launch=1#/wol",
+      ),
+      "/cgi/ThirdParty/fn-knock/index.cgi/api/admin",
+    );
+  });
+});

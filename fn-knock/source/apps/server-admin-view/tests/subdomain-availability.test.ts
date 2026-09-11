@@ -1,1 +1,74 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CgppbXBvcnQgewogIGdldEF2YWlsYWJpbGl0eVdpbmRvd1ZhbGlkYXRpb25FcnJvciwKICBnZXRIb3N0TWFwcGluZ0F2YWlsYWJpbGl0eVN0YXRlLAogIGlzQXZhaWxhYmlsaXR5V2luZG93T3BlbiwKICBpc0F2YWlsYWJpbGl0eVdpbmRvd1ZhbGlkLAogIHBhcnNlQXZhaWxhYmlsaXR5VGltZVRvTWludXRlcywKfSBmcm9tICIuLi9zcmMvbGliL2hvc3QtbWFwcGluZy1hdmFpbGFiaWxpdHkiOwoKY29uc3QgYXQgPSAoaG91cjogbnVtYmVyLCBtaW51dGUgPSAwKSA9PiBuZXcgRGF0ZSgyMDI2LCAwLCAxLCBob3VyLCBtaW51dGUpOwoKZGVzY3JpYmUoInN1YmRvbWFpbiBhdmFpbGFiaWxpdHkgaGVscGVycyIsICgpID0+IHsKICBpdCgidmFsaWRhdGVzIEhIOm1tIHdpbmRvd3MgYW5kIHJlamVjdHMgZXF1YWwgdGltZXMiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwocGFyc2VBdmFpbGFiaWxpdHlUaW1lVG9NaW51dGVzKCIwOTozMCIpLCA1NzApOwogICAgYXNzZXJ0LmVxdWFsKHBhcnNlQXZhaWxhYmlsaXR5VGltZVRvTWludXRlcygiMjQ6MDAiKSwgbnVsbCk7CiAgICBhc3NlcnQuZXF1YWwocGFyc2VBdmFpbGFiaWxpdHlUaW1lVG9NaW51dGVzKCI5OjAwIiksIG51bGwpOwogICAgYXNzZXJ0LmVxdWFsKGlzQXZhaWxhYmlsaXR5V2luZG93VmFsaWQoIjA5OjAwIiwgIjE4OjAwIiksIHRydWUpOwogICAgYXNzZXJ0LmVxdWFsKGlzQXZhaWxhYmlsaXR5V2luZG93VmFsaWQoIjIyOjAwIiwgIjA2OjAwIiksIHRydWUpOwogICAgYXNzZXJ0LmVxdWFsKGlzQXZhaWxhYmlsaXR5V2luZG93VmFsaWQoIjA5OjAwIiwgIjA5OjAwIiksIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgZ2V0QXZhaWxhYmlsaXR5V2luZG93VmFsaWRhdGlvbkVycm9yKCIwOTowMCIsICIwOTowMCIpLAogICAgICAic2FtZV90aW1lIiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGdldEF2YWlsYWJpbGl0eVdpbmRvd1ZhbGlkYXRpb25FcnJvcigiOTowMCIsICIxODowMCIpLAogICAgICAiaW52YWxpZF90aW1lIiwKICAgICk7CiAgfSk7CgogIGl0KCJvcGVucyBub3JtYWwgc2FtZS1kYXkgd2luZG93cyBpbmNsdXNpdmVseSBhdCBzdGFydCBhbmQgZXhjbHVzaXZlbHkgYXQgZW5kIiwgKCkgPT4gewogICAgY29uc3QgYXZhaWxhYmlsaXR5ID0gewogICAgICBlbmFibGVkOiB0cnVlLAogICAgICBzdGFydF90aW1lOiAiMDk6MDAiLAogICAgICBlbmRfdGltZTogIjE4OjAwIiwKICAgIH07CiAgICBhc3NlcnQuZXF1YWwoaXNBdmFpbGFiaWxpdHlXaW5kb3dPcGVuKGF2YWlsYWJpbGl0eSwgYXQoOSkpLCB0cnVlKTsKICAgIGFzc2VydC5lcXVhbChpc0F2YWlsYWJpbGl0eVdpbmRvd09wZW4oYXZhaWxhYmlsaXR5LCBhdCgxNywgNTkpKSwgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwoaXNBdmFpbGFiaWxpdHlXaW5kb3dPcGVuKGF2YWlsYWJpbGl0eSwgYXQoMTgpKSwgZmFsc2UpOwogICAgYXNzZXJ0LmVxdWFsKGlzQXZhaWxhYmlsaXR5V2luZG93T3BlbihhdmFpbGFiaWxpdHksIGF0KDgsIDU5KSksIGZhbHNlKTsKICB9KTsKCiAgaXQoInN1cHBvcnRzIG92ZXJuaWdodCB3aW5kb3dzIiwgKCkgPT4gewogICAgY29uc3QgYXZhaWxhYmlsaXR5ID0gewogICAgICBlbmFibGVkOiB0cnVlLAogICAgICBzdGFydF90aW1lOiAiMjI6MDAiLAogICAgICBlbmRfdGltZTogIjA2OjAwIiwKICAgIH07CiAgICBhc3NlcnQuZXF1YWwoaXNBdmFpbGFiaWxpdHlXaW5kb3dPcGVuKGF2YWlsYWJpbGl0eSwgYXQoMjIpKSwgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwoaXNBdmFpbGFiaWxpdHlXaW5kb3dPcGVuKGF2YWlsYWJpbGl0eSwgYXQoMikpLCB0cnVlKTsKICAgIGFzc2VydC5lcXVhbChpc0F2YWlsYWJpbGl0eVdpbmRvd09wZW4oYXZhaWxhYmlsaXR5LCBhdCg2KSksIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbChpc0F2YWlsYWJpbGl0eVdpbmRvd09wZW4oYXZhaWxhYmlsaXR5LCBhdCgxMikpLCBmYWxzZSk7CiAgfSk7CgogIGl0KCJwcmlvcml0aXplcyBtYW51YWwgZGlzYWJsZWQgb3ZlciBzY2hlZHVsZSBzdGF0ZSIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgZ2V0SG9zdE1hcHBpbmdBdmFpbGFiaWxpdHlTdGF0ZSgKICAgICAgICB7CiAgICAgICAgICBkaXNhYmxlZDogdHJ1ZSwKICAgICAgICAgIGF2YWlsYWJpbGl0eTogewogICAgICAgICAgICBlbmFibGVkOiB0cnVlLAogICAgICAgICAgICBzdGFydF90aW1lOiAiMDk6MDAiLAogICAgICAgICAgICBlbmRfdGltZTogIjE4OjAwIiwKICAgICAgICAgIH0sCiAgICAgICAgfSwKICAgICAgICBhdCgxMCksCiAgICAgICksCiAgICAgICJkaXNhYmxlZCIsCiAgICApOwogIH0pOwp9KTsK
+/// <reference types="node" />
+
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
+
+import {
+  getAvailabilityWindowValidationError,
+  getHostMappingAvailabilityState,
+  isAvailabilityWindowOpen,
+  isAvailabilityWindowValid,
+  parseAvailabilityTimeToMinutes,
+} from "../src/lib/host-mapping-availability";
+
+const at = (hour: number, minute = 0) => new Date(2026, 0, 1, hour, minute);
+
+describe("subdomain availability helpers", () => {
+  it("validates HH:mm windows and rejects equal times", () => {
+    assert.equal(parseAvailabilityTimeToMinutes("09:30"), 570);
+    assert.equal(parseAvailabilityTimeToMinutes("24:00"), null);
+    assert.equal(parseAvailabilityTimeToMinutes("9:00"), null);
+    assert.equal(isAvailabilityWindowValid("09:00", "18:00"), true);
+    assert.equal(isAvailabilityWindowValid("22:00", "06:00"), true);
+    assert.equal(isAvailabilityWindowValid("09:00", "09:00"), false);
+    assert.equal(
+      getAvailabilityWindowValidationError("09:00", "09:00"),
+      "same_time",
+    );
+    assert.equal(
+      getAvailabilityWindowValidationError("9:00", "18:00"),
+      "invalid_time",
+    );
+  });
+
+  it("opens normal same-day windows inclusively at start and exclusively at end", () => {
+    const availability = {
+      enabled: true,
+      start_time: "09:00",
+      end_time: "18:00",
+    };
+    assert.equal(isAvailabilityWindowOpen(availability, at(9)), true);
+    assert.equal(isAvailabilityWindowOpen(availability, at(17, 59)), true);
+    assert.equal(isAvailabilityWindowOpen(availability, at(18)), false);
+    assert.equal(isAvailabilityWindowOpen(availability, at(8, 59)), false);
+  });
+
+  it("supports overnight windows", () => {
+    const availability = {
+      enabled: true,
+      start_time: "22:00",
+      end_time: "06:00",
+    };
+    assert.equal(isAvailabilityWindowOpen(availability, at(22)), true);
+    assert.equal(isAvailabilityWindowOpen(availability, at(2)), true);
+    assert.equal(isAvailabilityWindowOpen(availability, at(6)), false);
+    assert.equal(isAvailabilityWindowOpen(availability, at(12)), false);
+  });
+
+  it("prioritizes manual disabled over schedule state", () => {
+    assert.equal(
+      getHostMappingAvailabilityState(
+        {
+          disabled: true,
+          availability: {
+            enabled: true,
+            start_time: "09:00",
+            end_time: "18:00",
+          },
+        },
+        at(10),
+      ),
+      "disabled",
+    );
+  });
+});

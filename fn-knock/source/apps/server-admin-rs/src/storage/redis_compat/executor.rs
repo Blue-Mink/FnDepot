@@ -1,1 +1,345 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBleGVjdXRlX2NvbW1hbmRfdHgoCiAgICB0eDogJnJ1c3FsaXRlOjpUcmFuc2FjdGlvbjwnXz4sCiAgICBjb21tYW5kOiBDb21tYW5kU3BlYywKKSAtPiBSZWRpc1Jlc3VsdDxDbWRPdXRwdXQ+IHsKICAgIGxldCBhcmdzID0gY29tbWFuZC5hcmdzOwogICAgbWF0Y2ggY29tbWFuZC5uYW1lLmFzX3N0cigpIHsKICAgICAgICAiUElORyIgPT4gT2soQ21kT3V0cHV0OjpOaWwpLAogICAgICAgICJUWVBFIiA9PiB7CiAgICAgICAgICAgIGxldCBrZXkgPSBhcmcoJmFyZ3MsIDApPzsKICAgICAgICAgICAgcHVyZ2VfZXhwaXJlZF90eCh0eCwga2V5KT87CiAgICAgICAgICAgIE9rKENtZE91dHB1dDo6U3RyaW5nKAogICAgICAgICAgICAgICAga2V5X2tpbmRfdHgodHgsIGtleSk/LnVud3JhcF9vcl9lbHNlKHx8ICJub25lIi50b19zdHJpbmcoKSksCiAgICAgICAgICAgICkpCiAgICAgICAgfQogICAgICAgICJQVFRMIiA9PiB7CiAgICAgICAgICAgIGxldCBrZXkgPSBhcmcoJmFyZ3MsIDApPzsKICAgICAgICAgICAgcHVyZ2VfZXhwaXJlZF90eCh0eCwga2V5KT87CiAgICAgICAgICAgIGxldCBleHBpcmVzX2F0OiBPcHRpb248T3B0aW9uPGk2ND4+ID0gdHgKICAgICAgICAgICAgICAgIC5xdWVyeV9yb3coCiAgICAgICAgICAgICAgICAgICAgIlNFTEVDVCBleHBpcmVzX2F0X21zIEZST00ga3Zfa2V5cyBXSEVSRSBrZXkgPSA/MSIsCiAgICAgICAgICAgICAgICAgICAgcGFyYW1zIVtrZXldLAogICAgICAgICAgICAgICAgICAgIHxyb3d8IHJvdy5nZXQoMCksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAub3B0aW9uYWwoKT87CiAgICAgICAgICAgIE9rKENtZE91dHB1dDo6SW50KG1hdGNoIGV4cGlyZXNfYXQgewogICAgICAgICAgICAgICAgTm9uZSA9PiAtMiwKICAgICAgICAgICAgICAgIFNvbWUoTm9uZSkgPT4gLTEsCiAgICAgICAgICAgICAgICBTb21lKFNvbWUodmFsdWUpKSA9PiAodmFsdWUgLSBub3dfbXMoKSkubWF4KDApLAogICAgICAgICAgICB9KSkKICAgICAgICB9CiAgICAgICAgIlRUTCIgPT4gewogICAgICAgICAgICBsZXQga2V5ID0gYXJnKCZhcmdzLCAwKT87CiAgICAgICAgICAgIHB1cmdlX2V4cGlyZWRfdHgodHgsIGtleSk/OwogICAgICAgICAgICBsZXQgZXhwaXJlc19hdDogT3B0aW9uPE9wdGlvbjxpNjQ+PiA9IHR4CiAgICAgICAgICAgICAgICAucXVlcnlfcm93KAogICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgZXhwaXJlc19hdF9tcyBGUk9NIGt2X2tleXMgV0hFUkUga2V5ID0gPzEiLAogICAgICAgICAgICAgICAgICAgIHBhcmFtcyFba2V5XSwKICAgICAgICAgICAgICAgICAgICB8cm93fCByb3cuZ2V0KDApLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgLm9wdGlvbmFsKCk/OwogICAgICAgICAgICBPayhDbWRPdXRwdXQ6OkludChtYXRjaCBleHBpcmVzX2F0IHsKICAgICAgICAgICAgICAgIE5vbmUgPT4gLTIsCiAgICAgICAgICAgICAgICBTb21lKE5vbmUpID0+IC0xLAogICAgICAgICAgICAgICAgU29tZShTb21lKHZhbHVlKSkgPT4gKCh2YWx1ZSAtIG5vd19tcygpKS5tYXgoMCkgKyA5OTkpIC8gMTAwMCwKICAgICAgICAgICAgfSkpCiAgICAgICAgfQogICAgICAgICJHRVQiID0+IHsKICAgICAgICAgICAgbGV0IGtleSA9IGFyZygmYXJncywgMCk/OwogICAgICAgICAgICBPayhDbWRPdXRwdXQ6Ok9wdGlvbmFsU3RyaW5nKHN0cmluZ19nZXRfdHgodHgsIGtleSk/KSkKICAgICAgICB9CiAgICAgICAgIk1HRVQiID0+IHsKICAgICAgICAgICAgbGV0IG11dCB2YWx1ZXMgPSBWZWM6OndpdGhfY2FwYWNpdHkoYXJncy5sZW4oKSk7CiAgICAgICAgICAgIGZvciBrZXkgaW4gYXJncyB7CiAgICAgICAgICAgICAgICB2YWx1ZXMucHVzaChzdHJpbmdfZ2V0X3R4KHR4LCAma2V5KT8pOwogICAgICAgICAgICB9CiAgICAgICAgICAgIE9rKENtZE91dHB1dDo6T3B0aW9uYWxTdHJpbmdzKHZhbHVlcykpCiAgICAgICAgfQogICAgICAgICJTRVQiID0+IHNldF9jb21tYW5kX3R4KHR4LCAmYXJncyksCiAgICAgICAgIlNFVEVYIiA9PiB7CiAgICAgICAgICAgIGxldCBrZXkgPSBhcmcoJmFyZ3MsIDApPy50b19zdHJpbmcoKTsKICAgICAgICAgICAgbGV0IHR0bCA9IHBhcnNlX2k2NChhcmcoJmFyZ3MsIDEpPyk/Lm1heCgxKTsKICAgICAgICAgICAgbGV0IHZhbHVlID0gYXJnKCZhcmdzLCAyKT8udG9fc3RyaW5nKCk7CiAgICAgICAgICAgIHNldF9zdHJpbmdfdHgodHgsICZrZXksICZ2YWx1ZSwgU29tZShub3dfbXMoKSArIHR0bCAqIDEwMDApKT87CiAgICAgICAgICAgIE9rKENtZE91dHB1dDo6TmlsKQogICAgICAgIH0KICAgICAgICAiREVMIiA9PiB7CiAgICAgICAgICAgIGxldCBtdXQgZGVsZXRlZCA9IDB1c2l6ZTsKICAgICAgICAgICAgZm9yIGtleSBpbiBhcmdzIHsKICAgICAgICAgICAgICAgIHB1cmdlX2V4cGlyZWRfdHgodHgsICZrZXkpPzsKICAgICAgICAgICAgICAgIGRlbGV0ZWQgKz0gZGVsZXRlX2tleV90eCh0eCwgJmtleSk/OwogICAgICAgICAgICB9CiAgICAgICAgICAgIE9rKENtZE91dHB1dDo6SW50KGRlbGV0ZWQgYXMgaTY0KSkKICAgICAgICB9CiAgICAgICAgIkVYUElSRSIgPT4gewogICAgICAgICAgICBsZXQga2V5ID0gYXJnKCZhcmdzLCAwKT87CiAgICAgICAgICAgIGxldCB0dGwgPSBwYXJzZV9pNjQoYXJnKCZhcmdzLCAxKT8pPy5tYXgoMSk7CiAgICAgICAgICAgIHB1cmdlX2V4cGlyZWRfdHgodHgsIGtleSk/OwogICAgICAgICAgICB0eC5leGVjdXRlKAogICAgICAgICAgICAgICAgIlVQREFURSBrdl9rZXlzIFNFVCBleHBpcmVzX2F0X21zID0gPzIgV0hFUkUga2V5ID0gPzEiLAogICAgICAgICAgICAgICAgcGFyYW1zIVtrZXksIG5vd19tcygpICsgdHRsICogMTAwMF0sCiAgICAgICAgICAgICk/OwogICAgICAgICAgICBPayhDbWRPdXRwdXQ6Ok5pbCkKICAgICAgICB9CiAgICAgICAgIlBFWFBJUkUiID0+IHsKICAgICAgICAgICAgbGV0IGtleSA9IGFyZygmYXJncywgMCk/OwogICAgICAgICAgICBsZXQgdHRsID0gcGFyc2VfaTY0KGFyZygmYXJncywgMSk/KT8ubWF4KDEpOwogICAgICAgICAgICBwdXJnZV9leHBpcmVkX3R4KHR4LCBrZXkpPzsKICAgICAgICAgICAgdHguZXhlY3V0ZSgKICAgICAgICAgICAgICAgICJVUERBVEUga3Zfa2V5cyBTRVQgZXhwaXJlc19hdF9tcyA9ID8yIFdIRVJFIGtleSA9ID8xIiwKICAgICAgICAgICAgICAgIHBhcmFtcyFba2V5LCBub3dfbXMoKSArIHR0bF0sCiAgICAgICAgICAgICk/OwogICAgICAgICAgICBPayhDbWRPdXRwdXQ6Ok5pbCkKICAgICAgICB9CiAgICAgICAgIkhTRVQiID0+IHsKICAgICAgICAgICAgbGV0IGtleSA9IGFyZygmYXJncywgMCk/LnRvX3N0cmluZygpOwogICAgICAgICAgICBlbnN1cmVfa2V5X3R4KHR4LCAma2V5LCAiaGFzaCIsIE5vbmUpPzsKICAgICAgICAgICAgZm9yIHBhaXIgaW4gYXJnc1sxLi5dLmNodW5rcygyKSB7CiAgICAgICAgICAgICAgICBpZiBwYWlyLmxlbigpID09IDIgewogICAgICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAgICAgICAgICJJTlNFUlQgT1IgUkVQTEFDRSBJTlRPIGt2X2hhc2goa2V5LCBmaWVsZCwgdmFsdWUpIFZBTFVFUyAoPzEsID8yLCA/MykiLAogICAgICAgICAgICAgICAgICAgICAgICBwYXJhbXMhW2tleSwgcGFpclswXSwgcGFpclsxXV0sCiAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgT2soQ21kT3V0cHV0OjpOaWwpCiAgICAgICAgfQogICAgICAgICJIREVMIiA9PiB7CiAgICAgICAgICAgIGxldCBrZXkgPSBhcmcoJmFyZ3MsIDApPzsKICAgICAgICAgICAgcHVyZ2VfZXhwaXJlZF90eCh0eCwga2V5KT87CiAgICAgICAgICAgIGZvciBmaWVsZCBpbiAmYXJnc1sxLi5dIHsKICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAgICAgIkRFTEVURSBGUk9NIGt2X2hhc2ggV0hFUkUga2V5ID0gPzEgQU5EIGZpZWxkID0gPzIiLAogICAgICAgICAgICAgICAgICAgIHBhcmFtcyFba2V5LCBmaWVsZF0sCiAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgfQogICAgICAgICAgICBkZWxldGVfY29sbGVjdGlvbl9rZXlfaWZfZW1wdHlfdHgodHgsIGtleSwgImhhc2giKT87CiAgICAgICAgICAgIE9rKENtZE91dHB1dDo6TmlsKQogICAgICAgIH0KICAgICAgICAiSE1HRVQiID0+IHsKICAgICAgICAgICAgbGV0IGtleSA9IGFyZygmYXJncywgMCk/OwogICAgICAgICAgICBwdXJnZV9leHBpcmVkX3R4KHR4LCBrZXkpPzsKICAgICAgICAgICAgbGV0IG11dCB2YWx1ZXMgPSBWZWM6Om5ldygpOwogICAgICAgICAgICBmb3IgZmllbGQgaW4gJmFyZ3NbMS4uXSB7CiAgICAgICAgICAgICAgICB2YWx1ZXMucHVzaCgKICAgICAgICAgICAgICAgICAgICB0eC5xdWVyeV9yb3coCiAgICAgICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgdmFsdWUgRlJPTSBrdl9oYXNoIFdIRVJFIGtleSA9ID8xIEFORCBmaWVsZCA9ID8yIiwKICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1zIVtrZXksIGZpZWxkXSwKICAgICAgICAgICAgICAgICAgICAgICAgfHJvd3wgcm93LmdldDo6PF8sIFN0cmluZz4oMCksCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIC5vcHRpb25hbCgpPywKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgT2soQ21kT3V0cHV0OjpPcHRpb25hbFN0cmluZ3ModmFsdWVzKSkKICAgICAgICB9CiAgICAgICAgIkhJTkNSQlkiID0+IHsKICAgICAgICAgICAgbGV0IGtleSA9IGFyZygmYXJncywgMCk/LnRvX3N0cmluZygpOwogICAgICAgICAgICBsZXQgZmllbGQgPSBhcmcoJmFyZ3MsIDEpPy50b19zdHJpbmcoKTsKICAgICAgICAgICAgbGV0IGRlbHRhID0gcGFyc2VfaTY0KGFyZygmYXJncywgMik/KT87CiAgICAgICAgICAgIGVuc3VyZV9rZXlfdHgodHgsICZrZXksICJoYXNoIiwgTm9uZSk/OwogICAgICAgICAgICBsZXQgY3VycmVudCA9IHR4CiAgICAgICAgICAgICAgICAucXVlcnlfcm93KAogICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgdmFsdWUgRlJPTSBrdl9oYXNoIFdIRVJFIGtleSA9ID8xIEFORCBmaWVsZCA9ID8yIiwKICAgICAgICAgICAgICAgICAgICBwYXJhbXMhW2tleSwgZmllbGRdLAogICAgICAgICAgICAgICAgICAgIHxyb3d8IHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDApLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgLm9wdGlvbmFsKCk/CiAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5wYXJzZTo6PGk2ND4oKS5vaygpKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcigwKTsKICAgICAgICAgICAgbGV0IG5leHQgPSBjdXJyZW50ICsgZGVsdGE7CiAgICAgICAgICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAiSU5TRVJUIE9SIFJFUExBQ0UgSU5UTyBrdl9oYXNoKGtleSwgZmllbGQsIHZhbHVlKSBWQUxVRVMgKD8xLCA/MiwgPzMpIiwKICAgICAgICAgICAgICAgIHBhcmFtcyFba2V5LCBmaWVsZCwgbmV4dC50b19zdHJpbmcoKV0sCiAgICAgICAgICAgICk/OwogICAgICAgICAgICBPayhDbWRPdXRwdXQ6OkludChuZXh0KSkKICAgICAgICB9CiAgICAgICAgIlNBREQiID0+IHsKICAgICAgICAgICAgbGV0IGtleSA9IGFyZygmYXJncywgMCk/LnRvX3N0cmluZygpOwogICAgICAgICAgICBlbnN1cmVfa2V5X3R4KHR4LCAma2V5LCAic2V0IiwgTm9uZSk/OwogICAgICAgICAgICBmb3IgbWVtYmVyIGluICZhcmdzWzEuLl0gewogICAgICAgICAgICAgICAgdHguZXhlY3V0ZSgKICAgICAgICAgICAgICAgICAgICAiSU5TRVJUIE9SIElHTk9SRSBJTlRPIGt2X3NldChrZXksIG1lbWJlcikgVkFMVUVTICg/MSwgPzIpIiwKICAgICAgICAgICAgICAgICAgICBwYXJhbXMhW2tleSwgbWVtYmVyXSwKICAgICAgICAgICAgICAgICk/OwogICAgICAgICAgICB9CiAgICAgICAgICAgIE9rKENtZE91dHB1dDo6TmlsKQogICAgICAgIH0KICAgICAgICAiU1JFTSIgPT4gewogICAgICAgICAgICBsZXQga2V5ID0gYXJnKCZhcmdzLCAwKT87CiAgICAgICAgICAgIHB1cmdlX2V4cGlyZWRfdHgodHgsIGtleSk/OwogICAgICAgICAgICBmb3IgbWVtYmVyIGluICZhcmdzWzEuLl0gewogICAgICAgICAgICAgICAgdHguZXhlY3V0ZSgKICAgICAgICAgICAgICAgICAgICAiREVMRVRFIEZST00ga3Zfc2V0IFdIRVJFIGtleSA9ID8xIEFORCBtZW1iZXIgPSA/MiIsCiAgICAgICAgICAgICAgICAgICAgcGFyYW1zIVtrZXksIG1lbWJlcl0sCiAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgfQogICAgICAgICAgICBkZWxldGVfY29sbGVjdGlvbl9rZXlfaWZfZW1wdHlfdHgodHgsIGtleSwgInNldCIpPzsKICAgICAgICAgICAgT2soQ21kT3V0cHV0OjpOaWwpCiAgICAgICAgfQogICAgICAgICJaQUREIiA9PiB7CiAgICAgICAgICAgIGxldCBrZXkgPSBhcmcoJmFyZ3MsIDApPy50b19zdHJpbmcoKTsKICAgICAgICAgICAgZW5zdXJlX2tleV90eCh0eCwgJmtleSwgInpzZXQiLCBOb25lKT87CiAgICAgICAgICAgIGZvciBwYWlyIGluIGFyZ3NbMS4uXS5jaHVua3MoMikgewogICAgICAgICAgICAgICAgaWYgcGFpci5sZW4oKSA9PSAyIHsKICAgICAgICAgICAgICAgICAgICB0eC5leGVjdXRlKAogICAgICAgICAgICAgICAgICAgICAgICAiSU5TRVJUIE9SIFJFUExBQ0UgSU5UTyBrdl96c2V0KGtleSwgbWVtYmVyLCBzY29yZSkgVkFMVUVTICg/MSwgPzIsID8zKSIsCiAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtcyFba2V5LCBwYWlyWzFdLCBwYXJzZV9mNjQoJnBhaXJbMF0pP10sCiAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgT2soQ21kT3V0cHV0OjpOaWwpCiAgICAgICAgfQogICAgICAgICJaUkVNIiA9PiB7CiAgICAgICAgICAgIGxldCBrZXkgPSBhcmcoJmFyZ3MsIDApPzsKICAgICAgICAgICAgcHVyZ2VfZXhwaXJlZF90eCh0eCwga2V5KT87CiAgICAgICAgICAgIGZvciBtZW1iZXIgaW4gJmFyZ3NbMS4uXSB7CiAgICAgICAgICAgICAgICB0eC5leGVjdXRlKAogICAgICAgICAgICAgICAgICAgICJERUxFVEUgRlJPTSBrdl96c2V0IFdIRVJFIGtleSA9ID8xIEFORCBtZW1iZXIgPSA/MiIsCiAgICAgICAgICAgICAgICAgICAgcGFyYW1zIVtrZXksIG1lbWJlcl0sCiAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgfQogICAgICAgICAgICBkZWxldGVfY29sbGVjdGlvbl9rZXlfaWZfZW1wdHlfdHgodHgsIGtleSwgInpzZXQiKT87CiAgICAgICAgICAgIE9rKENtZE91dHB1dDo6TmlsKQogICAgICAgIH0KICAgICAgICAiWlJFTVJBTkdFQllTQ09SRSIgPT4gewogICAgICAgICAgICBsZXQga2V5ID0gYXJnKCZhcmdzLCAwKT87CiAgICAgICAgICAgIGxldCBtaW4gPSBwYXJzZV9zY29yZV9ib3VuZChhcmcoJmFyZ3MsIDEpPyk/OwogICAgICAgICAgICBsZXQgbWF4ID0gcGFyc2Vfc2NvcmVfYm91bmQoYXJnKCZhcmdzLCAyKT8pPzsKICAgICAgICAgICAgcHVyZ2VfZXhwaXJlZF90eCh0eCwga2V5KT87CiAgICAgICAgICAgIGRlbGV0ZV96c2V0X3Njb3JlX3JhbmdlX3R4KHR4LCBrZXksIG1pbiwgbWF4KT87CiAgICAgICAgICAgIE9rKENtZE91dHB1dDo6TmlsKQogICAgICAgIH0KICAgICAgICAiWkNBUkQiID0+IHsKICAgICAgICAgICAgbGV0IGtleSA9IGFyZygmYXJncywgMCk/OwogICAgICAgICAgICBwdXJnZV9leHBpcmVkX3R4KHR4LCBrZXkpPzsKICAgICAgICAgICAgT2soQ21kT3V0cHV0OjpJbnQoY291bnRfcm93c190eCgKICAgICAgICAgICAgICAgIHR4LAogICAgICAgICAgICAgICAgIlNFTEVDVCBDT1VOVCgqKSBGUk9NIGt2X3pzZXQgV0hFUkUga2V5ID0gPzEiLAogICAgICAgICAgICAgICAgJlsma2V5XSwKICAgICAgICAgICAgKT8pKQogICAgICAgIH0KICAgICAgICAiWkNPVU5UIiA9PiB7CiAgICAgICAgICAgIGxldCBrZXkgPSBhcmcoJmFyZ3MsIDApPzsKICAgICAgICAgICAgbGV0IG1pbiA9IHBhcnNlX3Njb3JlX2JvdW5kKGFyZygmYXJncywgMSk/KT87CiAgICAgICAgICAgIGxldCBtYXggPSBwYXJzZV9zY29yZV9ib3VuZChhcmcoJmFyZ3MsIDIpPyk/OwogICAgICAgICAgICBwdXJnZV9leHBpcmVkX3R4KHR4LCBrZXkpPzsKICAgICAgICAgICAgT2soQ21kT3V0cHV0OjpJbnQoY291bnRfenNldF9zY29yZV9yYW5nZV90eCgKICAgICAgICAgICAgICAgIHR4LCBrZXksIG1pbiwgbWF4LAogICAgICAgICAgICApPykpCiAgICAgICAgfQogICAgICAgICJaUkFOR0VCWVNDT1JFIiA9PiB6cmFuZ2VieXNjb3JlX2NvbW1hbmRfdHgodHgsICZhcmdzLCBmYWxzZSksCiAgICAgICAgIlpSRVZSQU5HRUJZU0NPUkUiID0+IHpyYW5nZWJ5c2NvcmVfY29tbWFuZF90eCh0eCwgJmFyZ3MsIHRydWUpLAogICAgICAgICJaUkFOR0UiID0+IHpyYW5nZV9jb21tYW5kX3R4KHR4LCAmYXJncywgZmFsc2UpLAogICAgICAgICJSUFVTSCIgPT4gewogICAgICAgICAgICBsZXQga2V5ID0gYXJnKCZhcmdzLCAwKT8udG9fc3RyaW5nKCk7CiAgICAgICAgICAgIGVuc3VyZV9rZXlfdHgodHgsICZrZXksICJsaXN0IiwgTm9uZSk/OwogICAgICAgICAgICBsZXQgaWR4ID0gY291bnRfcm93c190eCh0eCwgIlNFTEVDVCBDT1VOVCgqKSBGUk9NIGt2X2xpc3QgV0hFUkUga2V5ID0gPzEiLCAmWyZrZXldKT87CiAgICAgICAgICAgIGZvciAob2Zmc2V0LCB2YWx1ZSkgaW4gYXJnc1sxLi5dLml0ZXIoKS5lbnVtZXJhdGUoKSB7CiAgICAgICAgICAgICAgICB0eC5leGVjdXRlKAogICAgICAgICAgICAgICAgICAgICJJTlNFUlQgSU5UTyBrdl9saXN0KGtleSwgaWR4LCB2YWx1ZSkgVkFMVUVTICg/MSwgPzIsID8zKSIsCiAgICAgICAgICAgICAgICAgICAgcGFyYW1zIVtrZXksIGlkeCArIG9mZnNldCBhcyBpNjQsIHZhbHVlXSwKICAgICAgICAgICAgICAgICk/OwogICAgICAgICAgICB9CiAgICAgICAgICAgIE9rKENtZE91dHB1dDo6TmlsKQogICAgICAgIH0KICAgICAgICAiTFRSSU0iID0+IHsKICAgICAgICAgICAgbGV0IGtleSA9IGFyZygmYXJncywgMCk/LnRvX3N0cmluZygpOwogICAgICAgICAgICBsZXQgc3RhcnQgPSBwYXJzZV9pNjQoYXJnKCZhcmdzLCAxKT8pPyBhcyBpc2l6ZTsKICAgICAgICAgICAgbGV0IGVuZCA9IHBhcnNlX2k2NChhcmcoJmFyZ3MsIDIpPyk/IGFzIGlzaXplOwogICAgICAgICAgICBwdXJnZV9leHBpcmVkX3R4KHR4LCAma2V5KT87CiAgICAgICAgICAgIGxldCB2YWx1ZXMgPSBsaXN0X3JhbmdlX3R4KHR4LCAma2V5LCBzdGFydCwgZW5kKT87CiAgICAgICAgICAgIHR4LmV4ZWN1dGUoIkRFTEVURSBGUk9NIGt2X2xpc3QgV0hFUkUga2V5ID0gPzEiLCBwYXJhbXMhW2tleV0pPzsKICAgICAgICAgICAgZm9yIChpZHgsIHZhbHVlKSBpbiB2YWx1ZXMuaXRlcigpLmVudW1lcmF0ZSgpIHsKICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAgICAgIklOU0VSVCBJTlRPIGt2X2xpc3Qoa2V5LCBpZHgsIHZhbHVlKSBWQUxVRVMgKD8xLCA/MiwgPzMpIiwKICAgICAgICAgICAgICAgICAgICBwYXJhbXMhW2tleSwgaWR4IGFzIGk2NCwgdmFsdWVdLAogICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZGVsZXRlX2NvbGxlY3Rpb25fa2V5X2lmX2VtcHR5X3R4KHR4LCAma2V5LCAibGlzdCIpPzsKICAgICAgICAgICAgT2soQ21kT3V0cHV0OjpOaWwpCiAgICAgICAgfQogICAgICAgICJJTkNSQlkiID0+IHsKICAgICAgICAgICAgbGV0IGtleSA9IGFyZygmYXJncywgMCk/LnRvX3N0cmluZygpOwogICAgICAgICAgICBsZXQgZGVsdGEgPSBwYXJzZV9pNjQoYXJnKCZhcmdzLCAxKT8pPzsKICAgICAgICAgICAgbGV0IGN1cnJlbnQgPSBzdHJpbmdfZ2V0X3R4KHR4LCAma2V5KT8KICAgICAgICAgICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnBhcnNlOjo8aTY0PigpLm9rKCkpCiAgICAgICAgICAgICAgICAudW53cmFwX29yKDApOwogICAgICAgICAgICBsZXQgbmV4dCA9IGN1cnJlbnQgKyBkZWx0YTsKICAgICAgICAgICAgc2V0X3N0cmluZ19wcmVzZXJ2ZV90dGxfdHgodHgsICZrZXksICZuZXh0LnRvX3N0cmluZygpKT87CiAgICAgICAgICAgIE9rKENtZE91dHB1dDo6SW50KG5leHQpKQogICAgICAgIH0KICAgICAgICAiU0NBTiIgPT4gewogICAgICAgICAgICBsZXQgbXV0IHByZWZpeCA9ICIiOwogICAgICAgICAgICBmb3IgcGFpciBpbiBhcmdzLndpbmRvd3MoMikgewogICAgICAgICAgICAgICAgaWYgcGFpclswXS5lcV9pZ25vcmVfYXNjaWlfY2FzZSgiTUFUQ0giKSB7CiAgICAgICAgICAgICAgICAgICAgcHJlZml4ID0gcGFpclsxXS50cmltX2VuZF9tYXRjaGVzKCcqJyk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgbGV0IGtleXMgPSBzY2FuX2tleXNfdHgodHgsIHByZWZpeCk/OwogICAgICAgICAgICBPayhDbWRPdXRwdXQ6OlNjYW4oIjAiLnRvX3N0cmluZygpLCBrZXlzKSkKICAgICAgICB9CiAgICAgICAgIlhBREQiID0+IHhhZGRfY29tbWFuZF90eCh0eCwgJmFyZ3MpLAogICAgICAgICJYUkFOR0UiID0+IHsKICAgICAgICAgICAgbGV0IGtleSA9IGFyZygmYXJncywgMCk/OwogICAgICAgICAgICBsZXQgbWluID0gcGFyc2Vfc3RyZWFtX2JvdW5kKGFyZygmYXJncywgMSk/LCB0cnVlKT87CiAgICAgICAgICAgIGxldCBtYXggPSBwYXJzZV9zdHJlYW1fYm91bmQoYXJnKCZhcmdzLCAyKT8sIGZhbHNlKT87CiAgICAgICAgICAgIHB1cmdlX2V4cGlyZWRfdHgodHgsIGtleSk/OwogICAgICAgICAgICBsZXQgZW50cmllcyA9IHF1ZXJ5X3N0cmVhbV9yb3dzKHR4LCBrZXksIG1pbiwgZmFsc2UsIG1heCwgZmFsc2UsIHVzaXplOjpNQVgpPzsKICAgICAgICAgICAgT2soQ21kT3V0cHV0OjpTdHJlYW1FbnRyaWVzKAogICAgICAgICAgICAgICAgZW50cmllcwogICAgICAgICAgICAgICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgICAgICAgICAgICAgIC5tYXAofChpZCwgZmllbGRzX2pzb24pfCBPaygoaWQsIHN0cmVhbV9maWVsZHNfdmVjKCZmaWVsZHNfanNvbik/KSkpCiAgICAgICAgICAgICAgICAgICAgLmNvbGxlY3Q6OjxSZXN1bHQ8VmVjPF8+LCBydXNxbGl0ZTo6RXJyb3I+PigpPywKICAgICAgICAgICAgKSkKICAgICAgICB9CiAgICAgICAgIlhUUklNIiA9PiB7CiAgICAgICAgICAgIGxldCBrZXkgPSBhcmcoJmFyZ3MsIDApPzsKICAgICAgICAgICAgcHVyZ2VfZXhwaXJlZF90eCh0eCwga2V5KT87CiAgICAgICAgICAgIGxldCBzdHJhdGVneSA9IGFyZygmYXJncywgMSk/LnRvX2FzY2lpX3VwcGVyY2FzZSgpOwogICAgICAgICAgICBtYXRjaCBzdHJhdGVneS5hc19zdHIoKSB7CiAgICAgICAgICAgICAgICAiTUlOSUQiID0+IHsKICAgICAgICAgICAgICAgICAgICBsZXQgbWluX2lkID0gcGFyc2Vfc3RyZWFtX2lkKGFyZygmYXJncywgYXJncy5sZW4oKS5zYXR1cmF0aW5nX3N1YigxKSk/KQogICAgICAgICAgICAgICAgICAgICAgICAub2tfb3JfZWxzZSh8fCBzdG9yYWdlX2Vycm9yKCJYVFJJTSBNSU5JRCByZXF1aXJlcyBhIHZhbGlkIHN0cmVhbSBJRCIpKT87CiAgICAgICAgICAgICAgICAgICAgbGV0IChtaW5fbXMsIG1pbl9zZXF1ZW5jZSkgPSBzdHJlYW1faWRfc3FsX3R1cGxlKG1pbl9pZCk/OwogICAgICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAgICAgICAgICJERUxFVEUgRlJPTSBrdl9zdHJlYW0KICAgICAgICAgICAgICAgICAgICAgICAgIFdIRVJFIGtleSA9ID8xIEFORCAoaWRfbXMsIGlkX3NlcXVlbmNlKSA8ICg/MiwgPzMpIiwKICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1zIVtrZXksIG1pbl9tcywgbWluX3NlcXVlbmNlXSwKICAgICAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICJNQVhMRU4iID0+IHsKICAgICAgICAgICAgICAgICAgICBsZXQgbWF4X2xlbiA9IHBhcnNlX2k2NChhcmcoJmFyZ3MsIGFyZ3MubGVuKCkuc2F0dXJhdGluZ19zdWIoMSkpPyk/Lm1heCgwKTsKICAgICAgICAgICAgICAgICAgICB0eC5leGVjdXRlKAogICAgICAgICAgICAgICAgICAgICAgICAiREVMRVRFIEZST00ga3Zfc3RyZWFtCiAgICAgICAgICAgICAgICAgICAgICAgICBXSEVSRSBrZXkgPSA/MSBBTkQgcm93aWQgSU4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICBTRUxFQ1Qgcm93aWQgRlJPTSBrdl9zdHJlYW0KICAgICAgICAgICAgICAgICAgICAgICAgICAgV0hFUkUga2V5ID0gPzEKICAgICAgICAgICAgICAgICAgICAgICAgICAgT1JERVIgQlkgaWRfbXMgREVTQywgaWRfc2VxdWVuY2UgREVTQwogICAgICAgICAgICAgICAgICAgICAgICAgICBMSU1JVCAtMSBPRkZTRVQgPzIKICAgICAgICAgICAgICAgICAgICAgICAgICkiLAogICAgICAgICAgICAgICAgICAgICAgICBwYXJhbXMhW2tleSwgbWF4X2xlbl0sCiAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBfID0+IHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigiWFRSSU0gcmVxdWlyZXMgTUlOSUQgb3IgTUFYTEVOIikpLAogICAgICAgICAgICB9CiAgICAgICAgICAgIE9rKENtZE91dHB1dDo6TmlsKQogICAgICAgIH0KICAgICAgICAiWERFTCIgPT4gewogICAgICAgICAgICBsZXQga2V5ID0gYXJnKCZhcmdzLCAwKT87CiAgICAgICAgICAgIGZvciBpZCBpbiAmYXJnc1sxLi5dIHsKICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAgICAgIkRFTEVURSBGUk9NIGt2X3N0cmVhbSBXSEVSRSBrZXkgPSA/MSBBTkQgaWQgPSA/MiIsCiAgICAgICAgICAgICAgICAgICAgcGFyYW1zIVtrZXksIGlkXSwKICAgICAgICAgICAgICAgICk/OwogICAgICAgICAgICB9CiAgICAgICAgICAgIE9rKENtZE91dHB1dDo6TmlsKQogICAgICAgIH0KICAgICAgICAiRVZBTCIgPT4gZXZhbF9jb21tYW5kX3R4KHR4LCAmYXJncyksCiAgICAgICAgXyA9PiBFcnIoc3RvcmFnZV9lcnJvcihmb3JtYXQhKAogICAgICAgICAgICAidW5zdXBwb3J0ZWQgUmVkaXMtY29tcGF0aWJsZSBjb21tYW5kIHt9IiwKICAgICAgICAgICAgY29tbWFuZC5uYW1lCiAgICAgICAgKSkpLAogICAgfQp9Cg==
+use super::*;
+
+pub(super) fn execute_command_tx(
+    tx: &rusqlite::Transaction<'_>,
+    command: CommandSpec,
+) -> RedisResult<CmdOutput> {
+    let args = command.args;
+    match command.name.as_str() {
+        "PING" => Ok(CmdOutput::Nil),
+        "TYPE" => {
+            let key = arg(&args, 0)?;
+            purge_expired_tx(tx, key)?;
+            Ok(CmdOutput::String(
+                key_kind_tx(tx, key)?.unwrap_or_else(|| "none".to_string()),
+            ))
+        }
+        "PTTL" => {
+            let key = arg(&args, 0)?;
+            purge_expired_tx(tx, key)?;
+            let expires_at: Option<Option<i64>> = tx
+                .query_row(
+                    "SELECT expires_at_ms FROM kv_keys WHERE key = ?1",
+                    params![key],
+                    |row| row.get(0),
+                )
+                .optional()?;
+            Ok(CmdOutput::Int(match expires_at {
+                None => -2,
+                Some(None) => -1,
+                Some(Some(value)) => (value - now_ms()).max(0),
+            }))
+        }
+        "TTL" => {
+            let key = arg(&args, 0)?;
+            purge_expired_tx(tx, key)?;
+            let expires_at: Option<Option<i64>> = tx
+                .query_row(
+                    "SELECT expires_at_ms FROM kv_keys WHERE key = ?1",
+                    params![key],
+                    |row| row.get(0),
+                )
+                .optional()?;
+            Ok(CmdOutput::Int(match expires_at {
+                None => -2,
+                Some(None) => -1,
+                Some(Some(value)) => ((value - now_ms()).max(0) + 999) / 1000,
+            }))
+        }
+        "GET" => {
+            let key = arg(&args, 0)?;
+            Ok(CmdOutput::OptionalString(string_get_tx(tx, key)?))
+        }
+        "MGET" => {
+            let mut values = Vec::with_capacity(args.len());
+            for key in args {
+                values.push(string_get_tx(tx, &key)?);
+            }
+            Ok(CmdOutput::OptionalStrings(values))
+        }
+        "SET" => set_command_tx(tx, &args),
+        "SETEX" => {
+            let key = arg(&args, 0)?.to_string();
+            let ttl = parse_i64(arg(&args, 1)?)?.max(1);
+            let value = arg(&args, 2)?.to_string();
+            set_string_tx(tx, &key, &value, Some(now_ms() + ttl * 1000))?;
+            Ok(CmdOutput::Nil)
+        }
+        "DEL" => {
+            let mut deleted = 0usize;
+            for key in args {
+                purge_expired_tx(tx, &key)?;
+                deleted += delete_key_tx(tx, &key)?;
+            }
+            Ok(CmdOutput::Int(deleted as i64))
+        }
+        "EXPIRE" => {
+            let key = arg(&args, 0)?;
+            let ttl = parse_i64(arg(&args, 1)?)?.max(1);
+            purge_expired_tx(tx, key)?;
+            tx.execute(
+                "UPDATE kv_keys SET expires_at_ms = ?2 WHERE key = ?1",
+                params![key, now_ms() + ttl * 1000],
+            )?;
+            Ok(CmdOutput::Nil)
+        }
+        "PEXPIRE" => {
+            let key = arg(&args, 0)?;
+            let ttl = parse_i64(arg(&args, 1)?)?.max(1);
+            purge_expired_tx(tx, key)?;
+            tx.execute(
+                "UPDATE kv_keys SET expires_at_ms = ?2 WHERE key = ?1",
+                params![key, now_ms() + ttl],
+            )?;
+            Ok(CmdOutput::Nil)
+        }
+        "HSET" => {
+            let key = arg(&args, 0)?.to_string();
+            ensure_key_tx(tx, &key, "hash", None)?;
+            for pair in args[1..].chunks(2) {
+                if pair.len() == 2 {
+                    tx.execute(
+                        "INSERT OR REPLACE INTO kv_hash(key, field, value) VALUES (?1, ?2, ?3)",
+                        params![key, pair[0], pair[1]],
+                    )?;
+                }
+            }
+            Ok(CmdOutput::Nil)
+        }
+        "HDEL" => {
+            let key = arg(&args, 0)?;
+            purge_expired_tx(tx, key)?;
+            for field in &args[1..] {
+                tx.execute(
+                    "DELETE FROM kv_hash WHERE key = ?1 AND field = ?2",
+                    params![key, field],
+                )?;
+            }
+            delete_collection_key_if_empty_tx(tx, key, "hash")?;
+            Ok(CmdOutput::Nil)
+        }
+        "HMGET" => {
+            let key = arg(&args, 0)?;
+            purge_expired_tx(tx, key)?;
+            let mut values = Vec::new();
+            for field in &args[1..] {
+                values.push(
+                    tx.query_row(
+                        "SELECT value FROM kv_hash WHERE key = ?1 AND field = ?2",
+                        params![key, field],
+                        |row| row.get::<_, String>(0),
+                    )
+                    .optional()?,
+                );
+            }
+            Ok(CmdOutput::OptionalStrings(values))
+        }
+        "HINCRBY" => {
+            let key = arg(&args, 0)?.to_string();
+            let field = arg(&args, 1)?.to_string();
+            let delta = parse_i64(arg(&args, 2)?)?;
+            ensure_key_tx(tx, &key, "hash", None)?;
+            let current = tx
+                .query_row(
+                    "SELECT value FROM kv_hash WHERE key = ?1 AND field = ?2",
+                    params![key, field],
+                    |row| row.get::<_, String>(0),
+                )
+                .optional()?
+                .and_then(|value| value.parse::<i64>().ok())
+                .unwrap_or(0);
+            let next = current + delta;
+            tx.execute(
+                "INSERT OR REPLACE INTO kv_hash(key, field, value) VALUES (?1, ?2, ?3)",
+                params![key, field, next.to_string()],
+            )?;
+            Ok(CmdOutput::Int(next))
+        }
+        "SADD" => {
+            let key = arg(&args, 0)?.to_string();
+            ensure_key_tx(tx, &key, "set", None)?;
+            for member in &args[1..] {
+                tx.execute(
+                    "INSERT OR IGNORE INTO kv_set(key, member) VALUES (?1, ?2)",
+                    params![key, member],
+                )?;
+            }
+            Ok(CmdOutput::Nil)
+        }
+        "SREM" => {
+            let key = arg(&args, 0)?;
+            purge_expired_tx(tx, key)?;
+            for member in &args[1..] {
+                tx.execute(
+                    "DELETE FROM kv_set WHERE key = ?1 AND member = ?2",
+                    params![key, member],
+                )?;
+            }
+            delete_collection_key_if_empty_tx(tx, key, "set")?;
+            Ok(CmdOutput::Nil)
+        }
+        "ZADD" => {
+            let key = arg(&args, 0)?.to_string();
+            ensure_key_tx(tx, &key, "zset", None)?;
+            for pair in args[1..].chunks(2) {
+                if pair.len() == 2 {
+                    tx.execute(
+                        "INSERT OR REPLACE INTO kv_zset(key, member, score) VALUES (?1, ?2, ?3)",
+                        params![key, pair[1], parse_f64(&pair[0])?],
+                    )?;
+                }
+            }
+            Ok(CmdOutput::Nil)
+        }
+        "ZREM" => {
+            let key = arg(&args, 0)?;
+            purge_expired_tx(tx, key)?;
+            for member in &args[1..] {
+                tx.execute(
+                    "DELETE FROM kv_zset WHERE key = ?1 AND member = ?2",
+                    params![key, member],
+                )?;
+            }
+            delete_collection_key_if_empty_tx(tx, key, "zset")?;
+            Ok(CmdOutput::Nil)
+        }
+        "ZREMRANGEBYSCORE" => {
+            let key = arg(&args, 0)?;
+            let min = parse_score_bound(arg(&args, 1)?)?;
+            let max = parse_score_bound(arg(&args, 2)?)?;
+            purge_expired_tx(tx, key)?;
+            delete_zset_score_range_tx(tx, key, min, max)?;
+            Ok(CmdOutput::Nil)
+        }
+        "ZCARD" => {
+            let key = arg(&args, 0)?;
+            purge_expired_tx(tx, key)?;
+            Ok(CmdOutput::Int(count_rows_tx(
+                tx,
+                "SELECT COUNT(*) FROM kv_zset WHERE key = ?1",
+                &[&key],
+            )?))
+        }
+        "ZCOUNT" => {
+            let key = arg(&args, 0)?;
+            let min = parse_score_bound(arg(&args, 1)?)?;
+            let max = parse_score_bound(arg(&args, 2)?)?;
+            purge_expired_tx(tx, key)?;
+            Ok(CmdOutput::Int(count_zset_score_range_tx(
+                tx, key, min, max,
+            )?))
+        }
+        "ZRANGEBYSCORE" => zrangebyscore_command_tx(tx, &args, false),
+        "ZREVRANGEBYSCORE" => zrangebyscore_command_tx(tx, &args, true),
+        "ZRANGE" => zrange_command_tx(tx, &args, false),
+        "RPUSH" => {
+            let key = arg(&args, 0)?.to_string();
+            ensure_key_tx(tx, &key, "list", None)?;
+            let idx = count_rows_tx(tx, "SELECT COUNT(*) FROM kv_list WHERE key = ?1", &[&key])?;
+            for (offset, value) in args[1..].iter().enumerate() {
+                tx.execute(
+                    "INSERT INTO kv_list(key, idx, value) VALUES (?1, ?2, ?3)",
+                    params![key, idx + offset as i64, value],
+                )?;
+            }
+            Ok(CmdOutput::Nil)
+        }
+        "LTRIM" => {
+            let key = arg(&args, 0)?.to_string();
+            let start = parse_i64(arg(&args, 1)?)? as isize;
+            let end = parse_i64(arg(&args, 2)?)? as isize;
+            purge_expired_tx(tx, &key)?;
+            let values = list_range_tx(tx, &key, start, end)?;
+            tx.execute("DELETE FROM kv_list WHERE key = ?1", params![key])?;
+            for (idx, value) in values.iter().enumerate() {
+                tx.execute(
+                    "INSERT INTO kv_list(key, idx, value) VALUES (?1, ?2, ?3)",
+                    params![key, idx as i64, value],
+                )?;
+            }
+            delete_collection_key_if_empty_tx(tx, &key, "list")?;
+            Ok(CmdOutput::Nil)
+        }
+        "INCRBY" => {
+            let key = arg(&args, 0)?.to_string();
+            let delta = parse_i64(arg(&args, 1)?)?;
+            let current = string_get_tx(tx, &key)?
+                .and_then(|value| value.parse::<i64>().ok())
+                .unwrap_or(0);
+            let next = current + delta;
+            set_string_preserve_ttl_tx(tx, &key, &next.to_string())?;
+            Ok(CmdOutput::Int(next))
+        }
+        "SCAN" => {
+            let mut prefix = "";
+            for pair in args.windows(2) {
+                if pair[0].eq_ignore_ascii_case("MATCH") {
+                    prefix = pair[1].trim_end_matches('*');
+                }
+            }
+            let keys = scan_keys_tx(tx, prefix)?;
+            Ok(CmdOutput::Scan("0".to_string(), keys))
+        }
+        "XADD" => xadd_command_tx(tx, &args),
+        "XRANGE" => {
+            let key = arg(&args, 0)?;
+            let min = parse_stream_bound(arg(&args, 1)?, true)?;
+            let max = parse_stream_bound(arg(&args, 2)?, false)?;
+            purge_expired_tx(tx, key)?;
+            let entries = query_stream_rows(tx, key, min, false, max, false, usize::MAX)?;
+            Ok(CmdOutput::StreamEntries(
+                entries
+                    .into_iter()
+                    .map(|(id, fields_json)| Ok((id, stream_fields_vec(&fields_json)?)))
+                    .collect::<Result<Vec<_>, rusqlite::Error>>()?,
+            ))
+        }
+        "XTRIM" => {
+            let key = arg(&args, 0)?;
+            purge_expired_tx(tx, key)?;
+            let strategy = arg(&args, 1)?.to_ascii_uppercase();
+            match strategy.as_str() {
+                "MINID" => {
+                    let min_id = parse_stream_id(arg(&args, args.len().saturating_sub(1))?)
+                        .ok_or_else(|| storage_error("XTRIM MINID requires a valid stream ID"))?;
+                    let (min_ms, min_sequence) = stream_id_sql_tuple(min_id)?;
+                    tx.execute(
+                        "DELETE FROM kv_stream
+                         WHERE key = ?1 AND (id_ms, id_sequence) < (?2, ?3)",
+                        params![key, min_ms, min_sequence],
+                    )?;
+                }
+                "MAXLEN" => {
+                    let max_len = parse_i64(arg(&args, args.len().saturating_sub(1))?)?.max(0);
+                    tx.execute(
+                        "DELETE FROM kv_stream
+                         WHERE key = ?1 AND rowid IN (
+                           SELECT rowid FROM kv_stream
+                           WHERE key = ?1
+                           ORDER BY id_ms DESC, id_sequence DESC
+                           LIMIT -1 OFFSET ?2
+                         )",
+                        params![key, max_len],
+                    )?;
+                }
+                _ => return Err(storage_error("XTRIM requires MINID or MAXLEN")),
+            }
+            Ok(CmdOutput::Nil)
+        }
+        "XDEL" => {
+            let key = arg(&args, 0)?;
+            for id in &args[1..] {
+                tx.execute(
+                    "DELETE FROM kv_stream WHERE key = ?1 AND id = ?2",
+                    params![key, id],
+                )?;
+            }
+            Ok(CmdOutput::Nil)
+        }
+        "EVAL" => eval_command_tx(tx, &args),
+        _ => Err(storage_error(format!(
+            "unsupported Redis-compatible command {}",
+            command.name
+        ))),
+    }
+}

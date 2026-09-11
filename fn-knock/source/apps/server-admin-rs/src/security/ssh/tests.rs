@@ -1,1 +1,200 @@
-dXNlIHN1cGVyOjpjb25maWc6OnBhcnNlX2FsbG93ZWRfcmVnaW9uOwp1c2Ugc3VwZXI6Oio7CgojW3Rlc3RdCmZuIHBhcnNlc19zc2hfbG9naW5fbWVzc2FnZXMoKSB7CiAgICBsZXQgc3VjY2VzcyA9IHBhcnNlX3NzaF9tZXNzYWdlKAogICAgICAgICJzc2hkWzFdOiBBY2NlcHRlZCBwdWJsaWNrZXkgZm9yIHJvb3QgZnJvbSAxLjIuMy40IHBvcnQgNDU2IHNzaDIiLAogICAgICAgICIyMDI2LTAxLTAxVDAwOjAwOjAwWiIsCiAgICAgICAgImF1dGgubG9nIiwKICAgICkKICAgIC51bndyYXAoKTsKICAgIGFzc2VydF9lcSEoc3VjY2Vzc1sib3V0Y29tZSJdLCBqc29uISgic3VjY2VzcyIpKTsKICAgIGFzc2VydF9lcSEoc3VjY2Vzc1siaXAiXSwganNvbiEoIjEuMi4zLjQiKSk7CiAgICBhc3NlcnRfZXEhKHN1Y2Nlc3NbInBvcnQiXSwganNvbiEoNDU2KSk7CgogICAgbGV0IGZhaWx1cmUgPSBwYXJzZV9zc2hfbWVzc2FnZSgKICAgICAgICAic3NoZFsxXTogRmFpbGVkIHBhc3N3b3JkIGZvciBpbnZhbGlkIHVzZXIgYWRtaW4gZnJvbSA1LjYuNy44IHBvcnQgMjIgc3NoMiIsCiAgICAgICAgIjIwMjYtMDEtMDFUMDA6MDA6MDBaIiwKICAgICAgICAiYXV0aC5sb2ciLAogICAgKQogICAgLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxIShmYWlsdXJlWyJvdXRjb21lIl0sIGpzb24hKCJmYWlsdXJlIikpOwogICAgYXNzZXJ0X2VxIShmYWlsdXJlWyJpbnZhbGlkX3VzZXIiXSwganNvbiEodHJ1ZSkpOwp9CgojW3Rlc3RdCmZuIG5vcm1hbGl6ZXNfc3NoX2NvbmZpZ19kZWZhdWx0cygpIHsKICAgIGxldCBjb25maWcgPSBub3JtYWxpemVfY29uZmlnKE5vbmUpOwogICAgYXNzZXJ0X2VxIShjb25maWdbIndpbmRvd19taW51dGVzIl0sIGpzb24hKDEwKSk7CiAgICBhc3NlcnRfZXEhKGNvbmZpZ1siYmxvY2tfZHVyYXRpb25fdW5pdCJdLCBqc29uISgiZGF5IikpOwp9CgojW3Rlc3RdCmZuIHN1cHBvcnRzX21vbnRoX3NzaF9ibG9ja19kdXJhdGlvbnMoKSB7CiAgICBsZXQgY29uZmlnID0gbm9ybWFsaXplX2NvbmZpZyhTb21lKGpzb24hKHsKICAgICAgICAiYmxvY2tfZHVyYXRpb25fdmFsdWUiOiAyLAogICAgICAgICJibG9ja19kdXJhdGlvbl91bml0IjogIm1vbnRoIgogICAgfSkpKTsKICAgIGFzc2VydF9lcSEoY29uZmlnWyJibG9ja19kdXJhdGlvbl91bml0Il0sIGpzb24hKCJtb250aCIpKTsKICAgIGFzc2VydF9lcSEoc3NoX2Jsb2NrX2R1cmF0aW9uX3NlY29uZHMoJmNvbmZpZyksIDYwICogMjQgKiAzNjAwKTsKfQoKI1t0ZXN0XQpmbiBkaXNhYmxlZF9zc2hfcnVudGltZV9rZWVwc19jb21waWxlZF9hbGxvd19wb2xpY3lfZm9yX29mZmxpbmVfcmVlbmFibGUoKSB7CiAgICBsZXQgcnVudGltZSA9IGNvbmZpZzo6YnVpbGRfcnVudGltZV9mcm9tX2NvbmZpZygKICAgICAgICAmanNvbiEoewogICAgICAgICAgICAiZW5hYmxlZCI6IGZhbHNlLAogICAgICAgICAgICAiY3VzdG9tX2NpZHJzIjogWyIxOTIuMC4yLjAvMjQiLCAiMjAwMTpkYjg6Oi8zMiJdCiAgICAgICAgfSksCiAgICAgICAgY29tcGlsZV9pcF9zZXQoc3RkOjppdGVyOjplbXB0eTo6PCZzdHI+KCkpLnVud3JhcCgpLAogICAgKQogICAgLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxIShydW50aW1lWyJlbmFibGVkIl0sIGpzb24hKGZhbHNlKSk7CiAgICBhc3NlcnQhKHJ1bnRpbWUuZ2V0KCJhbGxvd2VkX2NpZHJzIikuaXNfbm9uZSgpKTsKICAgIGFzc2VydCEoCiAgICAgICAgcnVudGltZVsicG9saWN5X2lkIl0KICAgICAgICAgICAgLmFzX3N0cigpCiAgICAgICAgICAgIC5pc19zb21lX2FuZCh8aWR8IGlkLnN0YXJ0c193aXRoKCJpcHNldC12MjoiKSkKICAgICk7CiAgICBhc3NlcnQhKHJ1bnRpbWVbInBvbGljeSJdLmlzX29iamVjdCgpKTsKICAgIGFzc2VydF9lcSEocnVudGltZVsicmFuZ2VfY291bnQiXSwganNvbiEoMikpOwogICAgbGV0IHBvbGljeSA9IGNvbmZpZzo6cG9saWN5X2Zyb21fcnVudGltZSgmcnVudGltZSkudW53cmFwKCk7CiAgICBhc3NlcnQhKHBvbGljeS5jb250YWlucygiMTkyLjAuMi4xIi5wYXJzZSgpLnVud3JhcCgpKSk7CiAgICBhc3NlcnQhKHBvbGljeS5jb250YWlucygiMjAwMTpkYjg6OjEiLnBhcnNlKCkudW53cmFwKCkpKTsKfQoKI1t0ZXN0XQpmbiBsb2NhbGl6ZXNfc3NoX3NlY3VyaXR5X3JvdXRlX3N1Y2Nlc3NfbWVzc2FnZXMoKSB7CiAgICBsZXQgemggPSBUcmFuc2xhdG9yOjpuZXcoInpoLUNOIik7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHNzaF9zZWN1cml0eV9yb3V0ZV90ZXh0X3BhcmFtcygKICAgICAgICAgICAgJnpoLAogICAgICAgICAgICAic3luY0ZpcmV3YWxsU3VjY2VzcyIsCiAgICAgICAgICAgICZbCiAgICAgICAgICAgICAgICAoImFsbG93ZWRDaWRycyIsICIyIi50b19zdHJpbmcoKSksCiAgICAgICAgICAgICAgICAoInBvcnRzIiwgIjIyLCAyMjIyIi50b19zdHJpbmcoKSksCiAgICAgICAgICAgICAgICAoInN5bmNlZCIsICIzIi50b19zdHJpbmcoKSkKICAgICAgICAgICAgXSwKICAgICAgICApLAogICAgICAgICLlt7LlkIzmraUgMiDmnaHlhYHorrggQ0lEUiDkuI4gMyDkuKogU1NIIOWwgemUgSBJUCDliLAgMjIsIDIyMjIg56uv5Y+jIgogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3NoX3NlY3VyaXR5X3JvdXRlX3RleHQoJnpoLCAiY2xlYXJGaXJld2FsbFN1Y2Nlc3MiKSwKICAgICAgICAi5bey5riF56m6IFNTSCDkuJPnlKjpmLLngavlopnop4TliJkiCiAgICApOwp9CgojW3Rlc3RdCmZuIGFjdGl2ZV9ibG9ja19yZXF1aXJlc19hcHBsaWVkX2FuZF9mdXR1cmVfZXhwaXJ5KCkgewogICAgbGV0IHJlY29yZCA9IGpzb24hKHsKICAgICAgICAiaXAiOiAiMS4yLjMuNCIsCiAgICAgICAgImJsb2NrZWRfYXQiOiAiMjAyNi0wMS0wMVQwMDowMDowMFoiLAogICAgICAgICJleHBpcmVzX2F0IjogIjI5OTktMDEtMDFUMDA6MDA6MDBaIiwKICAgICAgICAiYXBwbGllZCI6IHRydWUsCiAgICAgICAgInBvcnRzIjogWyIyMiIsICIyMjIyeCIsIDAsIDIyXQogICAgfSk7CiAgICBsZXQgbm9ybWFsaXplZCA9IG5vcm1hbGl6ZV9ibG9ja19yZWNvcmQocmVjb3JkKS51bndyYXAoKTsKICAgIGFzc2VydCEoaXNfYWN0aXZlX2Jsb2NrKCZub3JtYWxpemVkLCB0aW1lX3V0aWxzOjpub3dfbXMoKSkpOwogICAgYXNzZXJ0X2VxIShub3JtYWxpemVkWyJwb3J0cyJdLCBqc29uIShbMjIsIDIyMjJdKSk7Cn0KCiNbdGVzdF0KZm4gc3NoX3F1ZXJ5X2FuZF9kZWxldGVfcGFyc2Vyc19tYXRjaF9ub2RlX2VkZ2VzKCkgewogICAgYXNzZXJ0X2VxIShwYXJzZV9wb3NpdGl2ZShOb25lLCAxLCAxMDApLCAxKTsKICAgIGFzc2VydF9lcSEocGFyc2VfcG9zaXRpdmUoU29tZSgiMngiKSwgMSwgMTAwKSwgMik7CiAgICBhc3NlcnRfZXEhKHBhcnNlX3Bvc2l0aXZlKFNvbWUoIiAgKzMuOSIpLCAxLCAxMDApLCAzKTsKICAgIGFzc2VydF9lcSEocGFyc2VfcG9zaXRpdmUoU29tZSgiLTEiKSwgMSwgMTAwKSwgMSk7CiAgICBhc3NlcnRfZXEhKHBhcnNlX3Bvc2l0aXZlKFNvbWUoIjk5OSIpLCAxLCAxMDApLCAxMDApOwoKICAgIGFzc2VydF9lcSEoZGVsZXRlX2lwX3ZhbHVlX3RvX3N0cmluZygmVmFsdWU6Ok51bGwpLCAiIik7CiAgICBhc3NlcnRfZXEhKGRlbGV0ZV9pcF92YWx1ZV90b19zdHJpbmcoJmpzb24hKDEyMykpLCAiMTIzIik7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGRlbGV0ZV9pcF92YWx1ZV90b19zdHJpbmcoJmpzb24hKHsiaXAiOiIxLjIuMy40In0pKSwKICAgICAgICAiW29iamVjdCBPYmplY3RdIgogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgZGVsZXRlX2lwX3ZhbHVlX3RvX3N0cmluZygmanNvbiEoWyIxLjIuMy40IiwgbnVsbCwgdHJ1ZV0pKSwKICAgICAgICAiMS4yLjMuNCwsdHJ1ZSIKICAgICk7Cn0KCiNbdGVzdF0KZm4gY29hbGVzY2VzX3N1Y2Nlc3NfbG9naW5fbG9nc19saWtlX25vZGVfd2luZG93KCkgewogICAgbGV0IGZpcnN0ID0ganNvbiEoewogICAgICAgICJpZCI6ICJhIiwKICAgICAgICAiaGFwcGVuZWRfYXQiOiAiMjAyNi0wMS0wMVQwMDowMDowMFoiLAogICAgICAgICJvdXRjb21lIjogInN1Y2Nlc3MiLAogICAgICAgICJ1c2VybmFtZSI6ICJyb290IiwKICAgICAgICAiaXAiOiAiMS4yLjMuNCIsCiAgICAgICAgInNvdXJjZSI6ICJhdXRoLmxvZyIsCiAgICAgICAgImF1dGhfbWV0aG9kIjogInB1YmxpY2tleSIsCiAgICAgICAgInBvcnQiOiAyMiwKICAgICAgICAicmF3IjogImZpcnN0IgogICAgfSk7CiAgICBsZXQgc2Vjb25kID0ganNvbiEoewogICAgICAgICJpZCI6ICJiIiwKICAgICAgICAiaGFwcGVuZWRfYXQiOiAiMjAyNi0wMS0wMVQwMDowMDoyMFoiLAogICAgICAgICJvdXRjb21lIjogInN1Y2Nlc3MiLAogICAgICAgICJ1c2VybmFtZSI6ICJyb290IiwKICAgICAgICAiaXAiOiAiMS4yLjMuNCIsCiAgICAgICAgInNvdXJjZSI6ICJhdXRoLmxvZyIsCiAgICAgICAgImF1dGhfbWV0aG9kIjogInB1YmxpY2tleSIsCiAgICAgICAgInBvcnQiOiAiMjIyMiIsCiAgICAgICAgInJhdyI6ICJzZWNvbmQiCiAgICB9KTsKICAgIGxldCBmYWlsdXJlID0ganNvbiEoewogICAgICAgICJpZCI6ICJjIiwKICAgICAgICAiaGFwcGVuZWRfYXQiOiAiMjAyNi0wMS0wMVQwMDowMDoyMVoiLAogICAgICAgICJvdXRjb21lIjogImZhaWx1cmUiLAogICAgICAgICJ1c2VybmFtZSI6ICJyb290IiwKICAgICAgICAiaXAiOiAiMS4yLjMuNCIsCiAgICAgICAgInNvdXJjZSI6ICJhdXRoLmxvZyIsCiAgICAgICAgInJhdyI6ICJmYWlsdXJlIgogICAgfSk7CgogICAgbGV0IGVudHJpZXMgPSBjb2FsZXNjZV9zdWNjZXNzX2xvZ2luX2xvZ3ModmVjIVtmaXJzdCwgc2Vjb25kLCBmYWlsdXJlXSk7CiAgICBhc3NlcnRfZXEhKGVudHJpZXMubGVuKCksIDIpOwogICAgYXNzZXJ0X2VxIShlbnRyaWVzWzBdWyJyZXBlYXRfY291bnQiXSwganNvbiEoMikpOwogICAgYXNzZXJ0X2VxIShlbnRyaWVzWzBdWyJyZWxhdGVkX3BvcnRzIl0sIGpzb24hKFsyMiwgMjIyMl0pKTsKICAgIGFzc2VydF9lcSEoZW50cmllc1swXVsicmF3Il0sIGpzb24hKCJmaXJzdFxuc2Vjb25kIikpOwogICAgYXNzZXJ0X2VxIShlbnRyaWVzWzFdWyJvdXRjb21lIl0sIGpzb24hKCJmYWlsdXJlIikpOwp9CgojW3Rlc3RdCmZuIGxvY2FsaXplc19zc2hfc2VjdXJpdHlfcm91dGVfYW5kX3ZhbGlkYXRpb25fdGV4dCgpIHsKICAgIGxldCB6aCA9IFRyYW5zbGF0b3I6Om5ldygiemgtQ04iKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3NoX3NlY3VyaXR5X3JvdXRlX3RleHQoJnpoLCAibGlzdEJsb2Nrc0ZhaWxlZCIpLAogICAgICAgICLojrflj5YgU1NIIOWwgemUgeWIl+ihqOWksei0pSIKICAgICk7CiAgICBsZXQgZXJyb3IgPSB2YWxpZGF0ZV9jaWRycyhTb21lKCZqc29uIShbImJhZC1jaWRyIl0pKSwgJnpoKS51bndyYXBfZXJyKCk7CiAgICBtYXRjaCBlcnJvciB7CiAgICAgICAgU3NoRXJyb3I6OkJhZFJlcXVlc3QobWVzc2FnZSkgPT4gewogICAgICAgICAgICBhc3NlcnRfZXEhKG1lc3NhZ2UsICLoh6rlrprkuYkgQ0lEUiDmoLzlvI/kuI3mraPnoa7vvJpiYWQtY2lkciIpOwogICAgICAgIH0KICAgICAgICBfID0+IHBhbmljISgiZXhwZWN0ZWQgYmFkIHJlcXVlc3QiKSwKICAgIH0KfQoKI1t0ZXN0XQpmbiBzc2hfcmVnaW9uc19wcmVzZXJ2ZV9vcGVyYXRvcl9hbmRfcmVqZWN0X25vbl9zdHJpbmdfdmFsdWVzKCkgewogICAgbGV0IHpoID0gVHJhbnNsYXRvcjo6bmV3KCJ6aC1DTiIpOwogICAgbGV0IHF1ZXJ5ID0gcGFyc2VfYWxsb3dlZF9yZWdpb24oCiAgICAgICAgJmpzb24hKHsgInByb3ZpbmNlIjogIua1meaxnyIsICJxdWVyeV9jaXR5IjogIuadreW3niIsICJvcGVyYXRvciI6ICLogZTpgJoiIH0pLAogICAgICAgICZ6aCwKICAgICkKICAgIC51bndyYXAoKQogICAgLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxIShxdWVyeS5vcGVyYXRvciwgU29tZShDaWRyT3BlcmF0b3I6OlVuaWNvbSkpOwoKICAgIGxldCBlcnJvciA9IHBhcnNlX2FsbG93ZWRfcmVnaW9uKAogICAgICAgICZqc29uISh7ICJwcm92aW5jZSI6ICLmtZnmsZ8iLCAicXVlcnlfY2l0eSI6ICLmna3lt54iLCAib3BlcmF0b3IiOiBbXSB9KSwKICAgICAgICAmemgsCiAgICApCiAgICAudW53cmFwX2VycigpOwogICAgbWF0Y2ggZXJyb3IgewogICAgICAgIFNzaEVycm9yOjpCYWRSZXF1ZXN0KG1lc3NhZ2UpID0+IGFzc2VydF9lcSEobWVzc2FnZSwgIui/kOiQpeWVhuS7heaUr+aMgeeUteS/oeOAgeiBlOmAmuaIluenu+WKqCIpLAogICAgICAgIF8gPT4gcGFuaWMhKCJleHBlY3RlZCBiYWQgcmVxdWVzdCIpLAogICAgfQp9Cg==
+use super::config::parse_allowed_region;
+use super::*;
+
+#[test]
+fn parses_ssh_login_messages() {
+    let success = parse_ssh_message(
+        "sshd[1]: Accepted publickey for root from 1.2.3.4 port 456 ssh2",
+        "2026-01-01T00:00:00Z",
+        "auth.log",
+    )
+    .unwrap();
+    assert_eq!(success["outcome"], json!("success"));
+    assert_eq!(success["ip"], json!("1.2.3.4"));
+    assert_eq!(success["port"], json!(456));
+
+    let failure = parse_ssh_message(
+        "sshd[1]: Failed password for invalid user admin from 5.6.7.8 port 22 ssh2",
+        "2026-01-01T00:00:00Z",
+        "auth.log",
+    )
+    .unwrap();
+    assert_eq!(failure["outcome"], json!("failure"));
+    assert_eq!(failure["invalid_user"], json!(true));
+}
+
+#[test]
+fn normalizes_ssh_config_defaults() {
+    let config = normalize_config(None);
+    assert_eq!(config["window_minutes"], json!(10));
+    assert_eq!(config["block_duration_unit"], json!("day"));
+}
+
+#[test]
+fn supports_month_ssh_block_durations() {
+    let config = normalize_config(Some(json!({
+        "block_duration_value": 2,
+        "block_duration_unit": "month"
+    })));
+    assert_eq!(config["block_duration_unit"], json!("month"));
+    assert_eq!(ssh_block_duration_seconds(&config), 60 * 24 * 3600);
+}
+
+#[test]
+fn disabled_ssh_runtime_keeps_compiled_allow_policy_for_offline_reenable() {
+    let runtime = config::build_runtime_from_config(
+        &json!({
+            "enabled": false,
+            "custom_cidrs": ["192.0.2.0/24", "2001:db8::/32"]
+        }),
+        compile_ip_set(std::iter::empty::<&str>()).unwrap(),
+    )
+    .unwrap();
+    assert_eq!(runtime["enabled"], json!(false));
+    assert!(runtime.get("allowed_cidrs").is_none());
+    assert!(
+        runtime["policy_id"]
+            .as_str()
+            .is_some_and(|id| id.starts_with("ipset-v2:"))
+    );
+    assert!(runtime["policy"].is_object());
+    assert_eq!(runtime["range_count"], json!(2));
+    let policy = config::policy_from_runtime(&runtime).unwrap();
+    assert!(policy.contains("192.0.2.1".parse().unwrap()));
+    assert!(policy.contains("2001:db8::1".parse().unwrap()));
+}
+
+#[test]
+fn localizes_ssh_security_route_success_messages() {
+    let zh = Translator::new("zh-CN");
+    assert_eq!(
+        ssh_security_route_text_params(
+            &zh,
+            "syncFirewallSuccess",
+            &[
+                ("allowedCidrs", "2".to_string()),
+                ("ports", "22, 2222".to_string()),
+                ("synced", "3".to_string())
+            ],
+        ),
+        "已同步 2 条允许 CIDR 与 3 个 SSH 封锁 IP 到 22, 2222 端口"
+    );
+    assert_eq!(
+        ssh_security_route_text(&zh, "clearFirewallSuccess"),
+        "已清空 SSH 专用防火墙规则"
+    );
+}
+
+#[test]
+fn active_block_requires_applied_and_future_expiry() {
+    let record = json!({
+        "ip": "1.2.3.4",
+        "blocked_at": "2026-01-01T00:00:00Z",
+        "expires_at": "2999-01-01T00:00:00Z",
+        "applied": true,
+        "ports": ["22", "2222x", 0, 22]
+    });
+    let normalized = normalize_block_record(record).unwrap();
+    assert!(is_active_block(&normalized, time_utils::now_ms()));
+    assert_eq!(normalized["ports"], json!([22, 2222]));
+}
+
+#[test]
+fn ssh_query_and_delete_parsers_match_node_edges() {
+    assert_eq!(parse_positive(None, 1, 100), 1);
+    assert_eq!(parse_positive(Some("2x"), 1, 100), 2);
+    assert_eq!(parse_positive(Some("  +3.9"), 1, 100), 3);
+    assert_eq!(parse_positive(Some("-1"), 1, 100), 1);
+    assert_eq!(parse_positive(Some("999"), 1, 100), 100);
+
+    assert_eq!(delete_ip_value_to_string(&Value::Null), "");
+    assert_eq!(delete_ip_value_to_string(&json!(123)), "123");
+    assert_eq!(
+        delete_ip_value_to_string(&json!({"ip":"1.2.3.4"})),
+        "[object Object]"
+    );
+    assert_eq!(
+        delete_ip_value_to_string(&json!(["1.2.3.4", null, true])),
+        "1.2.3.4,,true"
+    );
+}
+
+#[test]
+fn coalesces_success_login_logs_like_node_window() {
+    let first = json!({
+        "id": "a",
+        "happened_at": "2026-01-01T00:00:00Z",
+        "outcome": "success",
+        "username": "root",
+        "ip": "1.2.3.4",
+        "source": "auth.log",
+        "auth_method": "publickey",
+        "port": 22,
+        "raw": "first"
+    });
+    let second = json!({
+        "id": "b",
+        "happened_at": "2026-01-01T00:00:20Z",
+        "outcome": "success",
+        "username": "root",
+        "ip": "1.2.3.4",
+        "source": "auth.log",
+        "auth_method": "publickey",
+        "port": "2222",
+        "raw": "second"
+    });
+    let failure = json!({
+        "id": "c",
+        "happened_at": "2026-01-01T00:00:21Z",
+        "outcome": "failure",
+        "username": "root",
+        "ip": "1.2.3.4",
+        "source": "auth.log",
+        "raw": "failure"
+    });
+
+    let entries = coalesce_success_login_logs(vec![first, second, failure]);
+    assert_eq!(entries.len(), 2);
+    assert_eq!(entries[0]["repeat_count"], json!(2));
+    assert_eq!(entries[0]["related_ports"], json!([22, 2222]));
+    assert_eq!(entries[0]["raw"], json!("first\nsecond"));
+    assert_eq!(entries[1]["outcome"], json!("failure"));
+}
+
+#[test]
+fn localizes_ssh_security_route_and_validation_text() {
+    let zh = Translator::new("zh-CN");
+    assert_eq!(
+        ssh_security_route_text(&zh, "listBlocksFailed"),
+        "获取 SSH 封锁列表失败"
+    );
+    let error = validate_cidrs(Some(&json!(["bad-cidr"])), &zh).unwrap_err();
+    match error {
+        SshError::BadRequest(message) => {
+            assert_eq!(message, "自定义 CIDR 格式不正确：bad-cidr");
+        }
+        _ => panic!("expected bad request"),
+    }
+}
+
+#[test]
+fn ssh_regions_preserve_operator_and_reject_non_string_values() {
+    let zh = Translator::new("zh-CN");
+    let query = parse_allowed_region(
+        &json!({ "province": "浙江", "query_city": "杭州", "operator": "联通" }),
+        &zh,
+    )
+    .unwrap()
+    .unwrap();
+    assert_eq!(query.operator, Some(CidrOperator::Unicom));
+
+    let error = parse_allowed_region(
+        &json!({ "province": "浙江", "query_city": "杭州", "operator": [] }),
+        &zh,
+    )
+    .unwrap_err();
+    match error {
+        SshError::BadRequest(message) => assert_eq!(message, "运营商仅支持电信、联通或移动"),
+        _ => panic!("expected bad request"),
+    }
+}

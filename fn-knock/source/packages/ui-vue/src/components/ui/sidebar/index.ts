@@ -1,1 +1,60 @@
-aW1wb3J0IHR5cGUgeyBWYXJpYW50UHJvcHMgfSBmcm9tICJjbGFzcy12YXJpYW5jZS1hdXRob3JpdHkiCmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGN2YSB9IGZyb20gImNsYXNzLXZhcmlhbmNlLWF1dGhvcml0eSIKCmV4cG9ydCBpbnRlcmZhY2UgU2lkZWJhclByb3BzIHsKICBzaWRlPzogImxlZnQiIHwgInJpZ2h0IgogIHZhcmlhbnQ/OiAic2lkZWJhciIgfCAiZmxvYXRpbmciIHwgImluc2V0IgogIGNvbGxhcHNpYmxlPzogIm9mZmNhbnZhcyIgfCAiaWNvbiIgfCAibm9uZSIKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0KCmV4cG9ydCB7IGRlZmF1bHQgYXMgU2lkZWJhciB9IGZyb20gIi4vU2lkZWJhci52dWUiCmV4cG9ydCB7IGRlZmF1bHQgYXMgU2lkZWJhckNvbnRlbnQgfSBmcm9tICIuL1NpZGViYXJDb250ZW50LnZ1ZSIKZXhwb3J0IHsgZGVmYXVsdCBhcyBTaWRlYmFyRm9vdGVyIH0gZnJvbSAiLi9TaWRlYmFyRm9vdGVyLnZ1ZSIKZXhwb3J0IHsgZGVmYXVsdCBhcyBTaWRlYmFyR3JvdXAgfSBmcm9tICIuL1NpZGViYXJHcm91cC52dWUiCmV4cG9ydCB7IGRlZmF1bHQgYXMgU2lkZWJhckdyb3VwQWN0aW9uIH0gZnJvbSAiLi9TaWRlYmFyR3JvdXBBY3Rpb24udnVlIgpleHBvcnQgeyBkZWZhdWx0IGFzIFNpZGViYXJHcm91cENvbnRlbnQgfSBmcm9tICIuL1NpZGViYXJHcm91cENvbnRlbnQudnVlIgpleHBvcnQgeyBkZWZhdWx0IGFzIFNpZGViYXJHcm91cExhYmVsIH0gZnJvbSAiLi9TaWRlYmFyR3JvdXBMYWJlbC52dWUiCmV4cG9ydCB7IGRlZmF1bHQgYXMgU2lkZWJhckhlYWRlciB9IGZyb20gIi4vU2lkZWJhckhlYWRlci52dWUiCmV4cG9ydCB7IGRlZmF1bHQgYXMgU2lkZWJhcklucHV0IH0gZnJvbSAiLi9TaWRlYmFySW5wdXQudnVlIgpleHBvcnQgeyBkZWZhdWx0IGFzIFNpZGViYXJJbnNldCB9IGZyb20gIi4vU2lkZWJhckluc2V0LnZ1ZSIKZXhwb3J0IHsgZGVmYXVsdCBhcyBTaWRlYmFyTWVudSB9IGZyb20gIi4vU2lkZWJhck1lbnUudnVlIgpleHBvcnQgeyBkZWZhdWx0IGFzIFNpZGViYXJNZW51QWN0aW9uIH0gZnJvbSAiLi9TaWRlYmFyTWVudUFjdGlvbi52dWUiCmV4cG9ydCB7IGRlZmF1bHQgYXMgU2lkZWJhck1lbnVCYWRnZSB9IGZyb20gIi4vU2lkZWJhck1lbnVCYWRnZS52dWUiCmV4cG9ydCB7IGRlZmF1bHQgYXMgU2lkZWJhck1lbnVCdXR0b24gfSBmcm9tICIuL1NpZGViYXJNZW51QnV0dG9uLnZ1ZSIKZXhwb3J0IHsgZGVmYXVsdCBhcyBTaWRlYmFyTWVudUl0ZW0gfSBmcm9tICIuL1NpZGViYXJNZW51SXRlbS52dWUiCmV4cG9ydCB7IGRlZmF1bHQgYXMgU2lkZWJhck1lbnVTa2VsZXRvbiB9IGZyb20gIi4vU2lkZWJhck1lbnVTa2VsZXRvbi52dWUiCmV4cG9ydCB7IGRlZmF1bHQgYXMgU2lkZWJhck1lbnVTdWIgfSBmcm9tICIuL1NpZGViYXJNZW51U3ViLnZ1ZSIKZXhwb3J0IHsgZGVmYXVsdCBhcyBTaWRlYmFyTWVudVN1YkJ1dHRvbiB9IGZyb20gIi4vU2lkZWJhck1lbnVTdWJCdXR0b24udnVlIgpleHBvcnQgeyBkZWZhdWx0IGFzIFNpZGViYXJNZW51U3ViSXRlbSB9IGZyb20gIi4vU2lkZWJhck1lbnVTdWJJdGVtLnZ1ZSIKZXhwb3J0IHsgZGVmYXVsdCBhcyBTaWRlYmFyUHJvdmlkZXIgfSBmcm9tICIuL1NpZGViYXJQcm92aWRlci52dWUiCmV4cG9ydCB7IGRlZmF1bHQgYXMgU2lkZWJhclJhaWwgfSBmcm9tICIuL1NpZGViYXJSYWlsLnZ1ZSIKZXhwb3J0IHsgZGVmYXVsdCBhcyBTaWRlYmFyU2VwYXJhdG9yIH0gZnJvbSAiLi9TaWRlYmFyU2VwYXJhdG9yLnZ1ZSIKZXhwb3J0IHsgZGVmYXVsdCBhcyBTaWRlYmFyVHJpZ2dlciB9IGZyb20gIi4vU2lkZWJhclRyaWdnZXIudnVlIgoKZXhwb3J0IHsgdXNlU2lkZWJhciB9IGZyb20gIi4vdXRpbHMiCgpleHBvcnQgY29uc3Qgc2lkZWJhck1lbnVCdXR0b25WYXJpYW50cyA9IGN2YSgKICAicGVlci9tZW51LWJ1dHRvbiBmbGV4IHctZnVsbCBpdGVtcy1jZW50ZXIgZ2FwLTIgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbWQgcC0yIHRleHQtbGVmdCB0ZXh0LXNtIG91dGxpbmUtaGlkZGVuIHJpbmctc2lkZWJhci1yaW5nIHRyYW5zaXRpb24tW3dpZHRoLGhlaWdodCxwYWRkaW5nXSBob3ZlcjpiZy1zaWRlYmFyLWFjY2VudCBob3Zlcjp0ZXh0LXNpZGViYXItYWNjZW50LWZvcmVncm91bmQgZm9jdXMtdmlzaWJsZTpyaW5nLTIgYWN0aXZlOmJnLXNpZGViYXItYWNjZW50IGFjdGl2ZTp0ZXh0LXNpZGViYXItYWNjZW50LWZvcmVncm91bmQgZGlzYWJsZWQ6cG9pbnRlci1ldmVudHMtbm9uZSBkaXNhYmxlZDpvcGFjaXR5LTUwIGdyb3VwLWhhcy1kYXRhLVtzaWRlYmFyPW1lbnUtYWN0aW9uXS9tZW51LWl0ZW06cHItOCBhcmlhLWRpc2FibGVkOnBvaW50ZXItZXZlbnRzLW5vbmUgYXJpYS1kaXNhYmxlZDpvcGFjaXR5LTUwIGRhdGEtW2FjdGl2ZT10cnVlXTpiZy1zaWRlYmFyLWFjY2VudCBkYXRhLVthY3RpdmU9dHJ1ZV06Zm9udC1tZWRpdW0gZGF0YS1bYWN0aXZlPXRydWVdOnRleHQtc2lkZWJhci1hY2NlbnQtZm9yZWdyb3VuZCBkYXRhLVtzdGF0ZT1vcGVuXTpob3ZlcjpiZy1zaWRlYmFyLWFjY2VudCBkYXRhLVtzdGF0ZT1vcGVuXTpob3Zlcjp0ZXh0LXNpZGViYXItYWNjZW50LWZvcmVncm91bmQgZ3JvdXAtZGF0YS1bY29sbGFwc2libGU9aWNvbl06c2l6ZS04ISBncm91cC1kYXRhLVtjb2xsYXBzaWJsZT1pY29uXTpwLTIhIFsmPnNwYW46bGFzdC1jaGlsZF06dHJ1bmNhdGUgWyY+c3ZnXTpzaXplLTQgWyY+c3ZnXTpzaHJpbmstMCIsCiAgewogICAgdmFyaWFudHM6IHsKICAgICAgdmFyaWFudDogewogICAgICAgIGRlZmF1bHQ6ICJob3ZlcjpiZy1zaWRlYmFyLWFjY2VudCBob3Zlcjp0ZXh0LXNpZGViYXItYWNjZW50LWZvcmVncm91bmQiLAogICAgICAgIG91dGxpbmU6CiAgICAgICAgICAiYmctYmFja2dyb3VuZCBzaGFkb3ctWzBfMF8wXzFweF9oc2wodmFyKC0tc2lkZWJhci1ib3JkZXIpKV0gaG92ZXI6Ymctc2lkZWJhci1hY2NlbnQgaG92ZXI6dGV4dC1zaWRlYmFyLWFjY2VudC1mb3JlZ3JvdW5kIGhvdmVyOnNoYWRvdy1bMF8wXzBfMXB4X2hzbCh2YXIoLS1zaWRlYmFyLWFjY2VudCkpXSIsCiAgICAgIH0sCiAgICAgIHNpemU6IHsKICAgICAgICBkZWZhdWx0OiAiaC04IHRleHQtc20iLAogICAgICAgIHNtOiAiaC03IHRleHQteHMiLAogICAgICAgIGxnOiAiaC0xMiB0ZXh0LXNtIGdyb3VwLWRhdGEtW2NvbGxhcHNpYmxlPWljb25dOnAtMCEiLAogICAgICB9LAogICAgfSwKICAgIGRlZmF1bHRWYXJpYW50czogewogICAgICB2YXJpYW50OiAiZGVmYXVsdCIsCiAgICAgIHNpemU6ICJkZWZhdWx0IiwKICAgIH0sCiAgfSwKKQoKZXhwb3J0IHR5cGUgU2lkZWJhck1lbnVCdXR0b25WYXJpYW50cyA9IFZhcmlhbnRQcm9wczx0eXBlb2Ygc2lkZWJhck1lbnVCdXR0b25WYXJpYW50cz4K
+import type { VariantProps } from "class-variance-authority"
+import type { HTMLAttributes } from "vue"
+import { cva } from "class-variance-authority"
+
+export interface SidebarProps {
+  side?: "left" | "right"
+  variant?: "sidebar" | "floating" | "inset"
+  collapsible?: "offcanvas" | "icon" | "none"
+  class?: HTMLAttributes["class"]
+}
+
+export { default as Sidebar } from "./Sidebar.vue"
+export { default as SidebarContent } from "./SidebarContent.vue"
+export { default as SidebarFooter } from "./SidebarFooter.vue"
+export { default as SidebarGroup } from "./SidebarGroup.vue"
+export { default as SidebarGroupAction } from "./SidebarGroupAction.vue"
+export { default as SidebarGroupContent } from "./SidebarGroupContent.vue"
+export { default as SidebarGroupLabel } from "./SidebarGroupLabel.vue"
+export { default as SidebarHeader } from "./SidebarHeader.vue"
+export { default as SidebarInput } from "./SidebarInput.vue"
+export { default as SidebarInset } from "./SidebarInset.vue"
+export { default as SidebarMenu } from "./SidebarMenu.vue"
+export { default as SidebarMenuAction } from "./SidebarMenuAction.vue"
+export { default as SidebarMenuBadge } from "./SidebarMenuBadge.vue"
+export { default as SidebarMenuButton } from "./SidebarMenuButton.vue"
+export { default as SidebarMenuItem } from "./SidebarMenuItem.vue"
+export { default as SidebarMenuSkeleton } from "./SidebarMenuSkeleton.vue"
+export { default as SidebarMenuSub } from "./SidebarMenuSub.vue"
+export { default as SidebarMenuSubButton } from "./SidebarMenuSubButton.vue"
+export { default as SidebarMenuSubItem } from "./SidebarMenuSubItem.vue"
+export { default as SidebarProvider } from "./SidebarProvider.vue"
+export { default as SidebarRail } from "./SidebarRail.vue"
+export { default as SidebarSeparator } from "./SidebarSeparator.vue"
+export { default as SidebarTrigger } from "./SidebarTrigger.vue"
+
+export { useSidebar } from "./utils"
+
+export const sidebarMenuButtonVariants = cva(
+  "peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left text-sm outline-hidden ring-sidebar-ring transition-[width,height,padding] hover:bg-sidebar-accent hover:text-sidebar-accent-foreground focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-data-[sidebar=menu-action]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! [&>span:last-child]:truncate [&>svg]:size-4 [&>svg]:shrink-0",
+  {
+    variants: {
+      variant: {
+        default: "hover:bg-sidebar-accent hover:text-sidebar-accent-foreground",
+        outline:
+          "bg-background shadow-[0_0_0_1px_hsl(var(--sidebar-border))] hover:bg-sidebar-accent hover:text-sidebar-accent-foreground hover:shadow-[0_0_0_1px_hsl(var(--sidebar-accent))]",
+      },
+      size: {
+        default: "h-8 text-sm",
+        sm: "h-7 text-xs",
+        lg: "h-12 text-sm group-data-[collapsible=icon]:p-0!",
+      },
+    },
+    defaultVariants: {
+      variant: "default",
+      size: "default",
+    },
+  },
+)
+
+export type SidebarMenuButtonVariants = VariantProps<typeof sidebarMenuButtonVariants>

@@ -1,1 +1,59 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgd2F0Y2gsIHR5cGUgQ29tcHV0ZWRSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyBTY2FuQVBJLCB0eXBlIFNjYW5EaXNjb3ZlcnlIb3N0Q2FuZGlkYXRlIH0gZnJvbSAiQC9saWIvYXBpL3NjYW4iOwppbXBvcnQgeyByZXNvbHZlRWZmZWN0aXZlSG9zdFRhcmdldENhbmRpZGF0ZXMgfSBmcm9tICIuL2hvc3QtdGFyZ2V0LWNhbmRpZGF0ZXMiOwoKZXhwb3J0IGNvbnN0IHVzZUhvc3RUYXJnZXRDYW5kaWRhdGVDYXRhbG9nID0gKHsKICBpc0RvY2tlckRlcGxveW1lbnQsCiAgb3BlbiwKfTogewogIGlzRG9ja2VyRGVwbG95bWVudDogQ29tcHV0ZWRSZWY8Ym9vbGVhbj47CiAgb3BlbjogQ29tcHV0ZWRSZWY8Ym9vbGVhbj47Cn0pID0+IHsKICBjb25zdCBjYW5kaWRhdGVzID0gcmVmPFNjYW5EaXNjb3ZlcnlIb3N0Q2FuZGlkYXRlW10+KFtdKTsKICBjb25zdCBpc0xvYWRpbmcgPSByZWYoZmFsc2UpOwogIGNvbnN0IGxvYWRGYWlsZWQgPSByZWYoZmFsc2UpOwogIGxldCByZXF1ZXN0SWQgPSAwOwoKICBjb25zdCBsb2FkQ2FuZGlkYXRlcyA9IGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGN1cnJlbnRSZXF1ZXN0SWQgPSArK3JlcXVlc3RJZDsKICAgIGlzTG9hZGluZy52YWx1ZSA9IHRydWU7CiAgICBsb2FkRmFpbGVkLnZhbHVlID0gZmFsc2U7CiAgICB0cnkgewogICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IFNjYW5BUEkuZ2V0RGlzY292ZXJUYXJnZXRzKCk7CiAgICAgIGlmIChjdXJyZW50UmVxdWVzdElkID09PSByZXF1ZXN0SWQpIHsKICAgICAgICBjYW5kaWRhdGVzLnZhbHVlID0gcmVzcG9uc2UuaG9zdENhbmRpZGF0ZXMgPz8gW107CiAgICAgIH0KICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGlmIChjdXJyZW50UmVxdWVzdElkID09PSByZXF1ZXN0SWQpIHsKICAgICAgICBjYW5kaWRhdGVzLnZhbHVlID0gW107CiAgICAgICAgbG9hZEZhaWxlZC52YWx1ZSA9IHRydWU7CiAgICAgICAgY29uc29sZS53YXJuKCJsb2FkIGhvc3QgdGFyZ2V0IGNhbmRpZGF0ZXMgZmFpbGVkIiwgZXJyb3IpOwogICAgICB9CiAgICB9IGZpbmFsbHkgewogICAgICBpZiAoY3VycmVudFJlcXVlc3RJZCA9PT0gcmVxdWVzdElkKSBpc0xvYWRpbmcudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9OwoKICB3YXRjaCgKICAgIFtvcGVuLCBpc0RvY2tlckRlcGxveW1lbnRdLAogICAgKFtpc09wZW5dKSA9PiB7CiAgICAgIGlmIChpc09wZW4pIHZvaWQgbG9hZENhbmRpZGF0ZXMoKTsKICAgIH0sCiAgICB7IGltbWVkaWF0ZTogdHJ1ZSB9LAogICk7CgogIGNvbnN0IGVmZmVjdGl2ZUNhbmRpZGF0ZXMgPSBjb21wdXRlZCgoKSA9PgogICAgcmVzb2x2ZUVmZmVjdGl2ZUhvc3RUYXJnZXRDYW5kaWRhdGVzKAogICAgICBjYW5kaWRhdGVzLnZhbHVlLAogICAgICBpc0RvY2tlckRlcGxveW1lbnQudmFsdWUsCiAgICApLAogICk7CgogIHJldHVybiB7CiAgICBjYW5kaWRhdGVzLAogICAgZWZmZWN0aXZlQ2FuZGlkYXRlcywKICAgIGlzTG9hZGluZywKICAgIGxvYWRDYW5kaWRhdGVzLAogICAgbG9hZEZhaWxlZCwKICB9Owp9Owo=
+import { computed, ref, watch, type ComputedRef } from "vue";
+import { ScanAPI, type ScanDiscoveryHostCandidate } from "@/lib/api/scan";
+import { resolveEffectiveHostTargetCandidates } from "./host-target-candidates";
+
+export const useHostTargetCandidateCatalog = ({
+  isDockerDeployment,
+  open,
+}: {
+  isDockerDeployment: ComputedRef<boolean>;
+  open: ComputedRef<boolean>;
+}) => {
+  const candidates = ref<ScanDiscoveryHostCandidate[]>([]);
+  const isLoading = ref(false);
+  const loadFailed = ref(false);
+  let requestId = 0;
+
+  const loadCandidates = async () => {
+    const currentRequestId = ++requestId;
+    isLoading.value = true;
+    loadFailed.value = false;
+    try {
+      const response = await ScanAPI.getDiscoverTargets();
+      if (currentRequestId === requestId) {
+        candidates.value = response.hostCandidates ?? [];
+      }
+    } catch (error) {
+      if (currentRequestId === requestId) {
+        candidates.value = [];
+        loadFailed.value = true;
+        console.warn("load host target candidates failed", error);
+      }
+    } finally {
+      if (currentRequestId === requestId) isLoading.value = false;
+    }
+  };
+
+  watch(
+    [open, isDockerDeployment],
+    ([isOpen]) => {
+      if (isOpen) void loadCandidates();
+    },
+    { immediate: true },
+  );
+
+  const effectiveCandidates = computed(() =>
+    resolveEffectiveHostTargetCandidates(
+      candidates.value,
+      isDockerDeployment.value,
+    ),
+  );
+
+  return {
+    candidates,
+    effectiveCandidates,
+    isLoading,
+    loadCandidates,
+    loadFailed,
+  };
+};

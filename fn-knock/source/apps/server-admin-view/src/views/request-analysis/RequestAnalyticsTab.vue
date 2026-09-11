@@ -1,1 +1,58 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IFRyaWFuZ2xlQWxlcnQgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBBbGVydCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9hbGVydCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBTa2VsZXRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9za2VsZXRvbiI7CmltcG9ydCBSZXF1ZXN0QW5hbHl0aWNzQWN0aW9ucyBmcm9tICIuL1JlcXVlc3RBbmFseXRpY3NBY3Rpb25zLnZ1ZSI7CmltcG9ydCBSZXF1ZXN0QW5hbHl0aWNzQnJlYWtkb3ducyBmcm9tICIuL1JlcXVlc3RBbmFseXRpY3NCcmVha2Rvd25zLnZ1ZSI7CmltcG9ydCBSZXF1ZXN0QW5hbHl0aWNzT3ZlcnZpZXcgZnJvbSAiLi9SZXF1ZXN0QW5hbHl0aWNzT3ZlcnZpZXcudnVlIjsKaW1wb3J0IHsgdXNlUmVxdWVzdEFuYWx5dGljc1BhZ2UgfSBmcm9tICIuL3VzZVJlcXVlc3RBbmFseXRpY3NQYWdlIjsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBtb2RlbCA9IHVzZVJlcXVlc3RBbmFseXRpY3NQYWdlKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktMyBzbTpzcGFjZS15LTQiPgogICAgPFJlcXVlc3RBbmFseXRpY3NBY3Rpb25zIDptb2RlbD0ibW9kZWwiIC8+CgogICAgPGRpdiB2LWlmPSJtb2RlbC5sb2FkaW5nICYmICFtb2RlbC5kYXRhIiBjbGFzcz0ic3BhY2UteS00Ij4KICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJncmlkIGdyaWQtY29scy0yIGdhcC0yLjUgc206Z2FwLTMgbGc6Z3JpZC1jb2xzLTMgeGw6Z3JpZC1jb2xzLTUiCiAgICAgID4KICAgICAgICA8U2tlbGV0b24gdi1mb3I9ImluZGV4IGluIDUiIDprZXk9ImluZGV4IiBjbGFzcz0iaC0zMiByb3VuZGVkLXhsIiAvPgogICAgICA8L2Rpdj4KICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLVszNjBweF0gcm91bmRlZC14bCIgLz4KICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtNCB4bDpncmlkLWNvbHMtMiI+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTgwIHJvdW5kZWQteGwiIC8+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTgwIHJvdW5kZWQteGwiIC8+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CgogICAgPEFsZXJ0CiAgICAgIHYtZWxzZS1pZj0ibW9kZWwubG9hZEZhaWxlZCAmJiAhbW9kZWwuZGF0YSIKICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgaXRlbXMtc3RhcnQgZ2FwLTMgYm9yZGVyLWRlc3RydWN0aXZlLzMwIGJnLWRlc3RydWN0aXZlLzUgdGV4dC1mb3JlZ3JvdW5kIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICA+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTMiPgogICAgICAgIDxUcmlhbmdsZUFsZXJ0IGNsYXNzPSJtdC0wLjUgaC00IHctNCBzaHJpbmstMCB0ZXh0LWRlc3RydWN0aXZlIiAvPgogICAgICAgIDxkaXY+CiAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnJlcXVlc3RBbmFseXNpcy5sb2FkRmFpbGVkIikgfX0KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxwIGNsYXNzPSJtdC0xIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLmxvYWRGYWlsZWREZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8QnV0dG9uIHR5cGU9ImJ1dHRvbiIgdmFyaWFudD0ib3V0bGluZSIgc2l6ZT0ic20iIEBjbGljaz0ibW9kZWwucmVmcmVzaCI+CiAgICAgICAge3sgdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLnJldHJ5IikgfX0KICAgICAgPC9CdXR0b24+CiAgICA8L0FsZXJ0PgoKICAgIDx0ZW1wbGF0ZSB2LWVsc2U+CiAgICAgIDxSZXF1ZXN0QW5hbHl0aWNzT3ZlcnZpZXcgOm1vZGVsPSJtb2RlbCIgLz4KICAgICAgPFJlcXVlc3RBbmFseXRpY3NCcmVha2Rvd25zIDptb2RlbD0ibW9kZWwiIC8+CiAgICA8L3RlbXBsYXRlPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { TriangleAlert } from "lucide-vue-next";
+import { Alert } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
+import RequestAnalyticsActions from "./RequestAnalyticsActions.vue";
+import RequestAnalyticsBreakdowns from "./RequestAnalyticsBreakdowns.vue";
+import RequestAnalyticsOverview from "./RequestAnalyticsOverview.vue";
+import { useRequestAnalyticsPage } from "./useRequestAnalyticsPage";
+
+const { t } = useI18n();
+const model = useRequestAnalyticsPage();
+</script>
+
+<template>
+  <div class="space-y-3 sm:space-y-4">
+    <RequestAnalyticsActions :model="model" />
+
+    <div v-if="model.loading && !model.data" class="space-y-4">
+      <div
+        class="grid grid-cols-2 gap-2.5 sm:gap-3 lg:grid-cols-3 xl:grid-cols-5"
+      >
+        <Skeleton v-for="index in 5" :key="index" class="h-32 rounded-xl" />
+      </div>
+      <Skeleton class="h-[360px] rounded-xl" />
+      <div class="grid gap-4 xl:grid-cols-2">
+        <Skeleton class="h-80 rounded-xl" />
+        <Skeleton class="h-80 rounded-xl" />
+      </div>
+    </div>
+
+    <Alert
+      v-else-if="model.loadFailed && !model.data"
+      class="flex flex-col items-start gap-3 border-destructive/30 bg-destructive/5 text-foreground sm:flex-row sm:items-center sm:justify-between"
+    >
+      <div class="flex items-start gap-3">
+        <TriangleAlert class="mt-0.5 h-4 w-4 shrink-0 text-destructive" />
+        <div>
+          <p class="text-sm font-medium">
+            {{ t("admin.requestAnalysis.loadFailed") }}
+          </p>
+          <p class="mt-1 text-xs text-muted-foreground">
+            {{ t("admin.requestAnalysis.loadFailedDescription") }}
+          </p>
+        </div>
+      </div>
+      <Button type="button" variant="outline" size="sm" @click="model.refresh">
+        {{ t("admin.requestAnalysis.retry") }}
+      </Button>
+    </Alert>
+
+    <template v-else>
+      <RequestAnalyticsOverview :model="model" />
+      <RequestAnalyticsBreakdowns :model="model" />
+    </template>
+  </div>
+</template>

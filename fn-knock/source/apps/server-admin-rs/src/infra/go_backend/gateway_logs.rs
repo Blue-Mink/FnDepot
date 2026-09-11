@@ -1,1 +1,121 @@
-dXNlIHN0ZDo6dGltZTo6RHVyYXRpb247Cgp1c2UgcmVxd2VzdDo6U3RhdHVzQ29kZTsKdXNlIHNlcmRlX2pzb246OntWYWx1ZSwganNvbn07Cgp1c2Ugc3VwZXI6OnsKICAgIEdvQmFja2VuZENsaWVudCwgZ3JwY19lcnJvciwgbG9nX2FuYWx5dGljc190b19qc29uLCBsb2dfZGF0ZXNfdG9fanNvbiwgbG9nX2RlbGV0ZV90b19qc29uLAogICAgbG9nX3F1ZXJ5X3RvX2pzb24sIGxvZ190cmFjZV90b19qc29uLCBsb2dnaW5nX3RvX2pzb24sIG9rLCBwYXJzZV9sb2dnaW5nLCBzdGF0dXNfdmFsdWUsCn07Cgp1c2UgY3JhdGU6OmdycGNfcHJvdG86OnsKICAgIEdhdGV3YXlMb2dBbmFseXRpY3NRdWVyeSwgR2F0ZXdheUxvZ1F1ZXJ5LCBHYXRld2F5TG9nVHJhY2VSZXF1ZXN0LCBTdHJpbmdWYWx1ZSwKfTsKCiNbYWxsb3coZGVhZF9jb2RlKV0KaW1wbCBHb0JhY2tlbmRDbGllbnQgewogICAgcHViIGFzeW5jIGZuIHNldF9nYXRld2F5X2xvZ2dpbmdfY29uZmlnKCZzZWxmLCBjb25maWc6ICZWYWx1ZSkgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgICAgICBzdGF0dXNfdmFsdWUoCiAgICAgICAgICAgICJzZXRfZ2F0ZXdheV9sb2dnaW5nX2NvbmZpZyIsCiAgICAgICAgICAgIHNlbGYuc2V0X2dhdGV3YXlfbG9nZ2luZ19jb25maWdfc3RhdHVzKGNvbmZpZykuYXdhaXQ/LAogICAgICAgICkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gc2V0X2dhdGV3YXlfbG9nZ2luZ19jb25maWdfc3RhdHVzKAogICAgICAgICZzZWxmLAogICAgICAgIGNvbmZpZzogJlZhbHVlLAogICAgKSAtPiBhbnlob3c6OlJlc3VsdDwoU3RhdHVzQ29kZSwgVmFsdWUpPiB7CiAgICAgICAgbGV0IG11dCBjbGllbnQgPSBzZWxmLmxvZ3MuY2xvbmUoKTsKICAgICAgICBtYXRjaCBjbGllbnQKICAgICAgICAgICAgLnNldF9sb2dnaW5nX2NvbmZpZyhzZWxmLnJlcXVlc3QocGFyc2VfbG9nZ2luZyhjb25maWcpKSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgewogICAgICAgICAgICBPayhyZXNwb25zZSkgPT4gT2sob2sobG9nZ2luZ190b19qc29uKHJlc3BvbnNlLmludG9faW5uZXIoKSkpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBPayhncnBjX2Vycm9yKGVycm9yKSksCiAgICAgICAgfQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBnZXRfbG9nZ2luZ19jb25maWcoJnNlbGYpIC0+IGFueWhvdzo6UmVzdWx0PFZhbHVlPiB7CiAgICAgICAgbGV0IG11dCBjbGllbnQgPSBzZWxmLmxvZ3MuY2xvbmUoKTsKICAgICAgICBsZXQgcmVzdWx0ID0gbWF0Y2ggY2xpZW50LmdldF9sb2dnaW5nX2NvbmZpZyhzZWxmLnJlcXVlc3QoKCkpKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKHJlc3BvbnNlKSA9PiBvayhsb2dnaW5nX3RvX2pzb24ocmVzcG9uc2UuaW50b19pbm5lcigpKSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gZ3JwY19lcnJvcihlcnJvciksCiAgICAgICAgfTsKICAgICAgICBzdGF0dXNfdmFsdWUoImdldF9sb2dnaW5nX2NvbmZpZyIsIHJlc3VsdCkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gZ2V0X2xvZ2dpbmdfZGlyZWN0b3J5KCZzZWxmKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgICAgIGxldCBtdXQgY2xpZW50ID0gc2VsZi5sb2dzLmNsb25lKCk7CiAgICAgICAgbGV0IHJlc3VsdCA9IG1hdGNoIGNsaWVudC5nZXRfbG9nZ2luZ19kaXJlY3Rvcnkoc2VsZi5yZXF1ZXN0KCgpKSkuYXdhaXQgewogICAgICAgICAgICBPayhyZXNwb25zZSkgPT4gb2soanNvbiEoeyAibG9nc19kaXIiOiByZXNwb25zZS5pbnRvX2lubmVyKCkudmFsdWUgfSkpLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IGdycGNfZXJyb3IoZXJyb3IpLAogICAgICAgIH07CiAgICAgICAgc3RhdHVzX3ZhbHVlKCJnZXRfbG9nZ2luZ19kaXJlY3RvcnkiLCByZXN1bHQpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIGdldF9sb2dfZGF0ZXMoJnNlbGYpIC0+IGFueWhvdzo6UmVzdWx0PFZhbHVlPiB7CiAgICAgICAgbGV0IG11dCBjbGllbnQgPSBzZWxmLmxvZ3MuY2xvbmUoKTsKICAgICAgICBsZXQgcmVzdWx0ID0gbWF0Y2ggY2xpZW50LmdldF9sb2dfZGF0ZXMoc2VsZi5yZXF1ZXN0KCgpKSkuYXdhaXQgewogICAgICAgICAgICBPayhyZXNwb25zZSkgPT4gb2sobG9nX2RhdGVzX3RvX2pzb24ocmVzcG9uc2UuaW50b19pbm5lcigpKSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gZ3JwY19lcnJvcihlcnJvciksCiAgICAgICAgfTsKICAgICAgICBzdGF0dXNfdmFsdWUoImdldF9sb2dfZGF0ZXMiLCByZXN1bHQpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIHF1ZXJ5X2xvZ19lbnRyaWVzKCZzZWxmLCBxdWVyeTogR2F0ZXdheUxvZ1F1ZXJ5KSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgICAgIGxldCBtdXQgY2xpZW50ID0gc2VsZi5sb2dzLmNsb25lKCk7CiAgICAgICAgbGV0IHJlc3VsdCA9IG1hdGNoIGNsaWVudC5xdWVyeV9sb2dfZW50cmllcyhzZWxmLnJlcXVlc3QocXVlcnkpKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKHJlc3BvbnNlKSA9PiBvayhsb2dfcXVlcnlfdG9fanNvbihyZXNwb25zZS5pbnRvX2lubmVyKCkpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBncnBjX2Vycm9yKGVycm9yKSwKICAgICAgICB9OwogICAgICAgIHN0YXR1c192YWx1ZSgicXVlcnlfbG9nX2VudHJpZXMiLCByZXN1bHQpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIGZpbmRfbG9nX2VudHJ5X2J5X3RyYWNlX2lkKCZzZWxmLCB0cmFjZV9pZDogJnN0cikgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgICAgICBsZXQgbXV0IGNsaWVudCA9IHNlbGYubG9ncy5jbG9uZSgpOwogICAgICAgIGxldCByZXN1bHQgPSBtYXRjaCBjbGllbnQKICAgICAgICAgICAgLmZpbmRfbG9nX2VudHJ5X2J5X3RyYWNlX2lkKHNlbGYucmVxdWVzdChHYXRld2F5TG9nVHJhY2VSZXF1ZXN0IHsKICAgICAgICAgICAgICAgIHRyYWNlX2lkOiB0cmFjZV9pZC50b19zdHJpbmcoKSwKICAgICAgICAgICAgfSkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgT2socmVzcG9uc2UpID0+IG9rKGxvZ190cmFjZV90b19qc29uKHJlc3BvbnNlLmludG9faW5uZXIoKSkpLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IGdycGNfZXJyb3IoZXJyb3IpLAogICAgICAgIH07CiAgICAgICAgc3RhdHVzX3ZhbHVlKCJmaW5kX2xvZ19lbnRyeV9ieV90cmFjZV9pZCIsIHJlc3VsdCkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gYW5hbHl6ZV9sb2dfZW50cmllcygKICAgICAgICAmc2VsZiwKICAgICAgICBxdWVyeTogR2F0ZXdheUxvZ0FuYWx5dGljc1F1ZXJ5LAogICAgKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgICAgIGxldCBtdXQgY2xpZW50ID0gc2VsZi5sb2dzLmNsb25lKCk7CiAgICAgICAgbGV0IHJlc3VsdCA9IG1hdGNoIGNsaWVudC5hbmFseXplX2xvZ19lbnRyaWVzKHNlbGYucmVxdWVzdChxdWVyeSkpLmF3YWl0IHsKICAgICAgICAgICAgT2socmVzcG9uc2UpID0+IG9rKGxvZ19hbmFseXRpY3NfdG9fanNvbihyZXNwb25zZS5pbnRvX2lubmVyKCkpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBncnBjX2Vycm9yKGVycm9yKSwKICAgICAgICB9OwogICAgICAgIHN0YXR1c192YWx1ZSgiYW5hbHl6ZV9sb2dfZW50cmllcyIsIHJlc3VsdCkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gYW5hbHl6ZV9sb2dfZW50cmllc193aXRoX3RpbWVvdXQoCiAgICAgICAgJnNlbGYsCiAgICAgICAgcXVlcnk6IEdhdGV3YXlMb2dBbmFseXRpY3NRdWVyeSwKICAgICAgICB0aW1lb3V0OiBEdXJhdGlvbiwKICAgICkgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgICAgICBzZWxmLndpdGhfdGltZW91dCh0aW1lb3V0KT8uYW5hbHl6ZV9sb2dfZW50cmllcyhxdWVyeSkuYXdhaXQKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gZGVsZXRlX2xvZ19kYXRlKCZzZWxmLCBkYXRlOiAmc3RyKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgICAgIGxldCBtdXQgY2xpZW50ID0gc2VsZi5sb2dzLmNsb25lKCk7CiAgICAgICAgbGV0IHJlc3VsdCA9IG1hdGNoIGNsaWVudAogICAgICAgICAgICAuZGVsZXRlX2xvZ19kYXRlKHNlbGYucmVxdWVzdChTdHJpbmdWYWx1ZSB7CiAgICAgICAgICAgICAgICB2YWx1ZTogZGF0ZS50b19zdHJpbmcoKSwKICAgICAgICAgICAgfSkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgT2socmVzcG9uc2UpID0+IG9rKGxvZ19kZWxldGVfdG9fanNvbihyZXNwb25zZS5pbnRvX2lubmVyKCkpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBncnBjX2Vycm9yKGVycm9yKSwKICAgICAgICB9OwogICAgICAgIHN0YXR1c192YWx1ZSgiZGVsZXRlX2xvZ19kYXRlIiwgcmVzdWx0KQogICAgfQp9Cg==
+use std::time::Duration;
+
+use reqwest::StatusCode;
+use serde_json::{Value, json};
+
+use super::{
+    GoBackendClient, grpc_error, log_analytics_to_json, log_dates_to_json, log_delete_to_json,
+    log_query_to_json, log_trace_to_json, logging_to_json, ok, parse_logging, status_value,
+};
+
+use crate::grpc_proto::{
+    GatewayLogAnalyticsQuery, GatewayLogQuery, GatewayLogTraceRequest, StringValue,
+};
+
+#[allow(dead_code)]
+impl GoBackendClient {
+    pub async fn set_gateway_logging_config(&self, config: &Value) -> anyhow::Result<Value> {
+        status_value(
+            "set_gateway_logging_config",
+            self.set_gateway_logging_config_status(config).await?,
+        )
+    }
+
+    pub async fn set_gateway_logging_config_status(
+        &self,
+        config: &Value,
+    ) -> anyhow::Result<(StatusCode, Value)> {
+        let mut client = self.logs.clone();
+        match client
+            .set_logging_config(self.request(parse_logging(config)))
+            .await
+        {
+            Ok(response) => Ok(ok(logging_to_json(response.into_inner()))),
+            Err(error) => Ok(grpc_error(error)),
+        }
+    }
+
+    pub async fn get_logging_config(&self) -> anyhow::Result<Value> {
+        let mut client = self.logs.clone();
+        let result = match client.get_logging_config(self.request(())).await {
+            Ok(response) => ok(logging_to_json(response.into_inner())),
+            Err(error) => grpc_error(error),
+        };
+        status_value("get_logging_config", result)
+    }
+
+    pub async fn get_logging_directory(&self) -> anyhow::Result<Value> {
+        let mut client = self.logs.clone();
+        let result = match client.get_logging_directory(self.request(())).await {
+            Ok(response) => ok(json!({ "logs_dir": response.into_inner().value })),
+            Err(error) => grpc_error(error),
+        };
+        status_value("get_logging_directory", result)
+    }
+
+    pub async fn get_log_dates(&self) -> anyhow::Result<Value> {
+        let mut client = self.logs.clone();
+        let result = match client.get_log_dates(self.request(())).await {
+            Ok(response) => ok(log_dates_to_json(response.into_inner())),
+            Err(error) => grpc_error(error),
+        };
+        status_value("get_log_dates", result)
+    }
+
+    pub async fn query_log_entries(&self, query: GatewayLogQuery) -> anyhow::Result<Value> {
+        let mut client = self.logs.clone();
+        let result = match client.query_log_entries(self.request(query)).await {
+            Ok(response) => ok(log_query_to_json(response.into_inner())),
+            Err(error) => grpc_error(error),
+        };
+        status_value("query_log_entries", result)
+    }
+
+    pub async fn find_log_entry_by_trace_id(&self, trace_id: &str) -> anyhow::Result<Value> {
+        let mut client = self.logs.clone();
+        let result = match client
+            .find_log_entry_by_trace_id(self.request(GatewayLogTraceRequest {
+                trace_id: trace_id.to_string(),
+            }))
+            .await
+        {
+            Ok(response) => ok(log_trace_to_json(response.into_inner())),
+            Err(error) => grpc_error(error),
+        };
+        status_value("find_log_entry_by_trace_id", result)
+    }
+
+    pub async fn analyze_log_entries(
+        &self,
+        query: GatewayLogAnalyticsQuery,
+    ) -> anyhow::Result<Value> {
+        let mut client = self.logs.clone();
+        let result = match client.analyze_log_entries(self.request(query)).await {
+            Ok(response) => ok(log_analytics_to_json(response.into_inner())),
+            Err(error) => grpc_error(error),
+        };
+        status_value("analyze_log_entries", result)
+    }
+
+    pub async fn analyze_log_entries_with_timeout(
+        &self,
+        query: GatewayLogAnalyticsQuery,
+        timeout: Duration,
+    ) -> anyhow::Result<Value> {
+        self.with_timeout(timeout)?.analyze_log_entries(query).await
+    }
+
+    pub async fn delete_log_date(&self, date: &str) -> anyhow::Result<Value> {
+        let mut client = self.logs.clone();
+        let result = match client
+            .delete_log_date(self.request(StringValue {
+                value: date.to_string(),
+            }))
+            .await
+        {
+            Ok(response) => ok(log_delete_to_json(response.into_inner())),
+            Err(error) => grpc_error(error),
+        };
+        status_value("delete_log_date", result)
+    }
+}

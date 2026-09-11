@@ -1,1 +1,198 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBxdWVyeV9yZWNlbnRfc3NoX2xvZ3MobGltaXQ6IHVzaXplKSAtPiBWZWM8VmFsdWU+IHsKICAgIGlmIGNvbW1hbmRfYXZhaWxhYmxlKCJqb3VybmFsY3RsIikgewogICAgICAgIGxldCBvdXRwdXQgPSBDb21tYW5kOjpuZXcoImpvdXJuYWxjdGwiKQogICAgICAgICAgICAuYXJncyhbCiAgICAgICAgICAgICAgICAiLXUiLAogICAgICAgICAgICAgICAgInNzaCIsCiAgICAgICAgICAgICAgICAiLXUiLAogICAgICAgICAgICAgICAgInNzaGQiLAogICAgICAgICAgICAgICAgIi1uIiwKICAgICAgICAgICAgICAgICZsaW1pdC50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICItbyIsCiAgICAgICAgICAgICAgICAianNvbiIsCiAgICAgICAgICAgIF0pCiAgICAgICAgICAgIC5vdXRwdXQoKTsKICAgICAgICBpZiBsZXQgT2sob3V0cHV0KSA9IG91dHB1dAogICAgICAgICAgICAmJiBvdXRwdXQuc3RhdHVzLnN1Y2Nlc3MoKQogICAgICAgIHsKICAgICAgICAgICAgbGV0IHRleHQgPSBTdHJpbmc6OmZyb21fdXRmOF9sb3NzeSgmb3V0cHV0LnN0ZG91dCk7CiAgICAgICAgICAgIGxldCBlbnRyaWVzID0gdGV4dAogICAgICAgICAgICAgICAgLmxpbmVzKCkKICAgICAgICAgICAgICAgIC5maWx0ZXJfbWFwKHBhcnNlX2pvdXJuYWxfbGluZSkKICAgICAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgICAgICAgICBpZiAhZW50cmllcy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgICAgIHJldHVybiBlbnRyaWVzOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQogICAgcXVlcnlfYXV0aF9sb2cobGltaXQpCn0KCnB1YihzdXBlcikgZm4gcGFyc2Vfam91cm5hbF9saW5lKGxpbmU6ICZzdHIpIC0+IE9wdGlvbjxWYWx1ZT4gewogICAgbGV0IHZhbHVlID0gc2VyZGVfanNvbjo6ZnJvbV9zdHI6OjxWYWx1ZT4obGluZSkub2soKT87CiAgICBsZXQgbWVzc2FnZSA9IHZhbHVlLmdldCgiTUVTU0FHRSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpPzsKICAgIGxldCBtaWNyb3MgPSB2YWx1ZQogICAgICAgIC5nZXQoIl9fUkVBTFRJTUVfVElNRVNUQU1QIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5wYXJzZTo6PGk2ND4oKS5vaygpKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgbGV0IGhhcHBlbmVkX2F0ID0gaWYgbWljcm9zID4gMCB7CiAgICAgICAgbWlsbGlzX3RvX2lzbyhtaWNyb3MgLyAxMDAwKQogICAgfSBlbHNlIHsKICAgICAgICB0aW1lX3V0aWxzOjpub3dfaXNvKCkKICAgIH07CiAgICBwYXJzZV9zc2hfbWVzc2FnZShtZXNzYWdlLCAmaGFwcGVuZWRfYXQsICJqb3VybmFsIikKfQoKcHViKHN1cGVyKSBmbiBxdWVyeV9hdXRoX2xvZyhsaW1pdDogdXNpemUpIC0+IFZlYzxWYWx1ZT4gewogICAgbGV0IG11dCBlbnRyaWVzID0gVmVjOjpuZXcoKTsKICAgIGZvciBwYXRoIGluIEFVVEhfTE9HX0NBTkRJREFURVMgewogICAgICAgIGxldCBPayhsaW5lcykgPSByZWFkX2xvZ19saW5lcyhwYXRoKSBlbHNlIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfTsKICAgICAgICBmb3IgbGluZSBpbiBsaW5lcy5pbnRvX2l0ZXIoKS5yZXYoKSB7CiAgICAgICAgICAgIGlmIGVudHJpZXMubGVuKCkgPj0gbGltaXQgewogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgIWxpbmUudG9fYXNjaWlfbG93ZXJjYXNlKCkuY29udGFpbnMoInNzaGQiKSB7CiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiBsZXQgU29tZSgoaGFwcGVuZWRfYXQsIG1lc3NhZ2UpKSA9IHBhcnNlX3N5c2xvZ19saW5lKCZsaW5lKQogICAgICAgICAgICAgICAgJiYgbGV0IFNvbWUoZW50cnkpID0gcGFyc2Vfc3NoX21lc3NhZ2UoJm1lc3NhZ2UsICZoYXBwZW5lZF9hdCwgImF1dGgubG9nIikKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgZW50cmllcy5wdXNoKGVudHJ5KTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBpZiAhZW50cmllcy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgfQogICAgfQogICAgZW50cmllcwp9CgpwdWIoc3VwZXIpIGZuIHJlYWRfbG9nX2xpbmVzKHBhdGg6ICZzdHIpIC0+IHN0ZDo6aW86OlJlc3VsdDxWZWM8U3RyaW5nPj4gewogICAgbGV0IGZpbGUgPSBmczo6RmlsZTo6b3BlbihwYXRoKT87CiAgICBsZXQgcmVhZGVyOiBCb3g8ZHluIFJlYWQ+ID0gaWYgcGF0aC5lbmRzX3dpdGgoIi5neiIpIHsKICAgICAgICBCb3g6Om5ldyhHekRlY29kZXI6Om5ldyhmaWxlKSkKICAgIH0gZWxzZSB7CiAgICAgICAgQm94OjpuZXcoZmlsZSkKICAgIH07CiAgICBsZXQgbXV0IGxpbmVzID0gQnVmUmVhZGVyOjpuZXcocmVhZGVyKQogICAgICAgIC5saW5lcygpCiAgICAgICAgLm1hcF93aGlsZShSZXN1bHQ6Om9rKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgaWYgbGluZXMubGVuKCkgPiA1MDAwIHsKICAgICAgICBsaW5lcyA9IGxpbmVzLnNwbGl0X29mZihsaW5lcy5sZW4oKSAtIDUwMDApOwogICAgfQogICAgT2sobGluZXMpCn0KCnB1YihzdXBlcikgZm4gcGFyc2Vfc3NoX21lc3NhZ2UobWVzc2FnZTogJnN0ciwgaGFwcGVuZWRfYXQ6ICZzdHIsIHNvdXJjZTogJnN0cikgLT4gT3B0aW9uPFZhbHVlPiB7CiAgICBsZXQgbWVzc2FnZSA9IG1lc3NhZ2UudHJpbSgpOwogICAgaWYgbWVzc2FnZS5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIGxldCBsb3dlciA9IG1lc3NhZ2UudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBsZXQgKG91dGNvbWUsIGludmFsaWRfdXNlciwgbWFya2VyKSA9IGlmIGxvd2VyLmNvbnRhaW5zKCJhY2NlcHRlZCAiKSB7CiAgICAgICAgKCJzdWNjZXNzIiwgZmFsc2UsICIgZm9yICIpCiAgICB9IGVsc2UgaWYgbG93ZXIuY29udGFpbnMoImZhaWxlZCAiKSAmJiBsb3dlci5jb250YWlucygiIGZvciBpbnZhbGlkIHVzZXIgIikgewogICAgICAgICgiZmFpbHVyZSIsIHRydWUsICIgZm9yIGludmFsaWQgdXNlciAiKQogICAgfSBlbHNlIGlmIGxvd2VyLmNvbnRhaW5zKCJmYWlsZWQgIikgewogICAgICAgICgiZmFpbHVyZSIsIGZhbHNlLCAiIGZvciAiKQogICAgfSBlbHNlIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH07CiAgICBsZXQgaXAgPSBleHRyYWN0X2JldHdlZW4obWVzc2FnZSwgIiBmcm9tICIsICIgcG9ydCAiKS5hbmRfdGhlbih8dmFsdWV8IHsKICAgICAgICBsZXQgaXAgPSBub3JtYWxpemVfaXAodmFsdWUpOwogICAgICAgIGlmIGlwLmlzX2VtcHR5KCkgeyBOb25lIH0gZWxzZSB7IFNvbWUoaXApIH0KICAgIH0pPzsKICAgIGxldCBwb3J0ID0gZXh0cmFjdF9hZnRlcihtZXNzYWdlLCAiIHBvcnQgIikKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5zcGxpdF93aGl0ZXNwYWNlKCkubmV4dCgpKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnBhcnNlOjo8aTY0PigpLm9rKCkpCiAgICAgICAgLmZpbHRlcih8cG9ydHwgKnBvcnQgPiAwICYmICpwb3J0IDw9IDY1NTM1KTsKICAgIGxldCBhdXRoX21ldGhvZCA9IG1lc3NhZ2UKICAgICAgICAuc3BsaXRfd2hpdGVzcGFjZSgpCiAgICAgICAgLm50aCgxKQogICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKTsKICAgIGxldCB1c2VybmFtZSA9IGV4dHJhY3RfYmV0d2VlbihtZXNzYWdlLCBtYXJrZXIsICIgZnJvbSAiKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICAudW53cmFwX29yKCItIik7CiAgICBsZXQgaWQgPSBmaW5nZXJwcmludCgmW3NvdXJjZSwgaGFwcGVuZWRfYXQsIG91dGNvbWUsIHVzZXJuYW1lLCAmaXAsIG1lc3NhZ2VdLmpvaW4oInwiKSk7CiAgICBsZXQgbXV0IGVudHJ5ID0ganNvbiEoewogICAgICAgICJpZCI6IGlkLAogICAgICAgICJoYXBwZW5lZF9hdCI6IGhhcHBlbmVkX2F0LAogICAgICAgICJvdXRjb21lIjogb3V0Y29tZSwKICAgICAgICAidXNlcm5hbWUiOiB1c2VybmFtZSwKICAgICAgICAiaW52YWxpZF91c2VyIjogaW52YWxpZF91c2VyLAogICAgICAgICJpcCI6IGlwLAogICAgICAgICJzZXJ2aWNlIjogInNzaGQiLAogICAgICAgICJzb3VyY2UiOiBzb3VyY2UsCiAgICAgICAgInJhdyI6IG1lc3NhZ2UKICAgIH0pOwogICAgaWYgbGV0IFNvbWUocG9ydCkgPSBwb3J0IHsKICAgICAgICBlbnRyeVsicG9ydCJdID0ganNvbiEocG9ydCk7CiAgICB9CiAgICBpZiBsZXQgU29tZShhdXRoX21ldGhvZCkgPSBhdXRoX21ldGhvZCB7CiAgICAgICAgZW50cnlbImF1dGhfbWV0aG9kIl0gPSBqc29uIShhdXRoX21ldGhvZCk7CiAgICB9CiAgICBTb21lKGVudHJ5KQp9CgpwdWIoc3VwZXIpIGZuIHBhcnNlX3N5c2xvZ19saW5lKGxpbmU6ICZzdHIpIC0+IE9wdGlvbjwoU3RyaW5nLCBTdHJpbmcpPiB7CiAgICBsZXQgbXV0IHBhcnRzID0gbGluZS5zcGxpdF93aGl0ZXNwYWNlKCk7CiAgICBsZXQgbW9udGggPSBwYXJ0cy5uZXh0KCk/OwogICAgbGV0IGRheSA9IHBhcnRzLm5leHQoKT8ucGFyc2U6Ojx1OD4oKS5vaygpPzsKICAgIGxldCB0aW1lX3RleHQgPSBwYXJ0cy5uZXh0KCk/OwogICAgbGV0IF9ob3N0ID0gcGFydHMubmV4dCgpPzsKICAgIGxldCBtZXNzYWdlID0gcGFydHMuY29sbGVjdDo6PFZlYzxfPj4oKS5qb2luKCIgIik7CiAgICBsZXQgbW9udGggPSBtYXRjaCBtb250aCB7CiAgICAgICAgIkphbiIgPT4gMSwKICAgICAgICAiRmViIiA9PiAyLAogICAgICAgICJNYXIiID0+IDMsCiAgICAgICAgIkFwciIgPT4gNCwKICAgICAgICAiTWF5IiA9PiA1LAogICAgICAgICJKdW4iID0+IDYsCiAgICAgICAgIkp1bCIgPT4gNywKICAgICAgICAiQXVnIiA9PiA4LAogICAgICAgICJTZXAiID0+IDksCiAgICAgICAgIk9jdCIgPT4gMTAsCiAgICAgICAgIk5vdiIgPT4gMTEsCiAgICAgICAgIkRlYyIgPT4gMTIsCiAgICAgICAgXyA9PiByZXR1cm4gTm9uZSwKICAgIH07CiAgICBsZXQgbXV0IHQgPSB0aW1lX3RleHQuc3BsaXQoJzonKTsKICAgIGxldCBob3VyID0gdC5uZXh0KCk/LnBhcnNlOjo8dTg+KCkub2soKT87CiAgICBsZXQgbWludXRlID0gdC5uZXh0KCk/LnBhcnNlOjo8dTg+KCkub2soKT87CiAgICBsZXQgc2Vjb25kID0gdC5uZXh0KCk/LnBhcnNlOjo8dTg+KCkub2soKT87CiAgICBsZXQgbm93ID0gdGltZTo6T2Zmc2V0RGF0ZVRpbWU6Om5vd191dGMoKTsKICAgIGxldCBkYXRlID0KICAgICAgICB0aW1lOjpEYXRlOjpmcm9tX2NhbGVuZGFyX2RhdGUobm93LnllYXIoKSwgdGltZTo6TW9udGg6OnRyeV9mcm9tKG1vbnRoKS5vaygpPywgZGF5KS5vaygpPzsKICAgIGxldCB0aW1lX3ZhbHVlID0gdGltZTo6VGltZTo6ZnJvbV9obXMoaG91ciwgbWludXRlLCBzZWNvbmQpLm9rKCk/OwogICAgbGV0IG11dCBoYXBwZW5lZF9hdCA9IGRhdGUud2l0aF90aW1lKHRpbWVfdmFsdWUpLmFzc3VtZV91dGMoKTsKICAgIGlmIGhhcHBlbmVkX2F0ID4gbm93ICsgdGltZTo6RHVyYXRpb246OmRheXMoMSkgewogICAgICAgIGhhcHBlbmVkX2F0ID0gaGFwcGVuZWRfYXQucmVwbGFjZV95ZWFyKG5vdy55ZWFyKCkgLSAxKS5vaygpPzsKICAgIH0KICAgIFNvbWUoKAogICAgICAgIGhhcHBlbmVkX2F0CiAgICAgICAgICAgIC5mb3JtYXQoJnRpbWU6OmZvcm1hdF9kZXNjcmlwdGlvbjo6d2VsbF9rbm93bjo6UmZjMzMzOSkKICAgICAgICAgICAgLm9rKCk/LAogICAgICAgIG1lc3NhZ2UsCiAgICApKQp9CgpwdWIoc3VwZXIpIGZuIGRldGVjdF9sb2dfc291cmNlKCkgLT4gJidzdGF0aWMgc3RyIHsKICAgIGlmIGNvbW1hbmRfYXZhaWxhYmxlKCJqb3VybmFsY3RsIikgewogICAgICAgIHJldHVybiAiam91cm5hbCI7CiAgICB9CiAgICBpZiBBVVRIX0xPR19DQU5ESURBVEVTCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5hbnkofHBhdGh8IFBhdGg6Om5ldyhwYXRoKS5leGlzdHMoKSkKICAgIHsKICAgICAgICByZXR1cm4gImF1dGgubG9nIjsKICAgIH0KICAgICJ1bmF2YWlsYWJsZSIKfQo=
+use super::*;
+
+pub(super) fn query_recent_ssh_logs(limit: usize) -> Vec<Value> {
+    if command_available("journalctl") {
+        let output = Command::new("journalctl")
+            .args([
+                "-u",
+                "ssh",
+                "-u",
+                "sshd",
+                "-n",
+                &limit.to_string(),
+                "-o",
+                "json",
+            ])
+            .output();
+        if let Ok(output) = output
+            && output.status.success()
+        {
+            let text = String::from_utf8_lossy(&output.stdout);
+            let entries = text
+                .lines()
+                .filter_map(parse_journal_line)
+                .collect::<Vec<_>>();
+            if !entries.is_empty() {
+                return entries;
+            }
+        }
+    }
+    query_auth_log(limit)
+}
+
+pub(super) fn parse_journal_line(line: &str) -> Option<Value> {
+    let value = serde_json::from_str::<Value>(line).ok()?;
+    let message = value.get("MESSAGE").and_then(Value::as_str)?;
+    let micros = value
+        .get("__REALTIME_TIMESTAMP")
+        .and_then(Value::as_str)
+        .and_then(|value| value.parse::<i64>().ok())
+        .unwrap_or_default();
+    let happened_at = if micros > 0 {
+        millis_to_iso(micros / 1000)
+    } else {
+        time_utils::now_iso()
+    };
+    parse_ssh_message(message, &happened_at, "journal")
+}
+
+pub(super) fn query_auth_log(limit: usize) -> Vec<Value> {
+    let mut entries = Vec::new();
+    for path in AUTH_LOG_CANDIDATES {
+        let Ok(lines) = read_log_lines(path) else {
+            continue;
+        };
+        for line in lines.into_iter().rev() {
+            if entries.len() >= limit {
+                break;
+            }
+            if !line.to_ascii_lowercase().contains("sshd") {
+                continue;
+            }
+            if let Some((happened_at, message)) = parse_syslog_line(&line)
+                && let Some(entry) = parse_ssh_message(&message, &happened_at, "auth.log")
+            {
+                entries.push(entry);
+            }
+        }
+        if !entries.is_empty() {
+            break;
+        }
+    }
+    entries
+}
+
+pub(super) fn read_log_lines(path: &str) -> std::io::Result<Vec<String>> {
+    let file = fs::File::open(path)?;
+    let reader: Box<dyn Read> = if path.ends_with(".gz") {
+        Box::new(GzDecoder::new(file))
+    } else {
+        Box::new(file)
+    };
+    let mut lines = BufReader::new(reader)
+        .lines()
+        .map_while(Result::ok)
+        .collect::<Vec<_>>();
+    if lines.len() > 5000 {
+        lines = lines.split_off(lines.len() - 5000);
+    }
+    Ok(lines)
+}
+
+pub(super) fn parse_ssh_message(message: &str, happened_at: &str, source: &str) -> Option<Value> {
+    let message = message.trim();
+    if message.is_empty() {
+        return None;
+    }
+    let lower = message.to_ascii_lowercase();
+    let (outcome, invalid_user, marker) = if lower.contains("accepted ") {
+        ("success", false, " for ")
+    } else if lower.contains("failed ") && lower.contains(" for invalid user ") {
+        ("failure", true, " for invalid user ")
+    } else if lower.contains("failed ") {
+        ("failure", false, " for ")
+    } else {
+        return None;
+    };
+    let ip = extract_between(message, " from ", " port ").and_then(|value| {
+        let ip = normalize_ip(value);
+        if ip.is_empty() { None } else { Some(ip) }
+    })?;
+    let port = extract_after(message, " port ")
+        .and_then(|value| value.split_whitespace().next())
+        .and_then(|value| value.parse::<i64>().ok())
+        .filter(|port| *port > 0 && *port <= 65535);
+    let auth_method = message
+        .split_whitespace()
+        .nth(1)
+        .map(str::to_string)
+        .filter(|value| !value.is_empty());
+    let username = extract_between(message, marker, " from ")
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .unwrap_or("-");
+    let id = fingerprint(&[source, happened_at, outcome, username, &ip, message].join("|"));
+    let mut entry = json!({
+        "id": id,
+        "happened_at": happened_at,
+        "outcome": outcome,
+        "username": username,
+        "invalid_user": invalid_user,
+        "ip": ip,
+        "service": "sshd",
+        "source": source,
+        "raw": message
+    });
+    if let Some(port) = port {
+        entry["port"] = json!(port);
+    }
+    if let Some(auth_method) = auth_method {
+        entry["auth_method"] = json!(auth_method);
+    }
+    Some(entry)
+}
+
+pub(super) fn parse_syslog_line(line: &str) -> Option<(String, String)> {
+    let mut parts = line.split_whitespace();
+    let month = parts.next()?;
+    let day = parts.next()?.parse::<u8>().ok()?;
+    let time_text = parts.next()?;
+    let _host = parts.next()?;
+    let message = parts.collect::<Vec<_>>().join(" ");
+    let month = match month {
+        "Jan" => 1,
+        "Feb" => 2,
+        "Mar" => 3,
+        "Apr" => 4,
+        "May" => 5,
+        "Jun" => 6,
+        "Jul" => 7,
+        "Aug" => 8,
+        "Sep" => 9,
+        "Oct" => 10,
+        "Nov" => 11,
+        "Dec" => 12,
+        _ => return None,
+    };
+    let mut t = time_text.split(':');
+    let hour = t.next()?.parse::<u8>().ok()?;
+    let minute = t.next()?.parse::<u8>().ok()?;
+    let second = t.next()?.parse::<u8>().ok()?;
+    let now = time::OffsetDateTime::now_utc();
+    let date =
+        time::Date::from_calendar_date(now.year(), time::Month::try_from(month).ok()?, day).ok()?;
+    let time_value = time::Time::from_hms(hour, minute, second).ok()?;
+    let mut happened_at = date.with_time(time_value).assume_utc();
+    if happened_at > now + time::Duration::days(1) {
+        happened_at = happened_at.replace_year(now.year() - 1).ok()?;
+    }
+    Some((
+        happened_at
+            .format(&time::format_description::well_known::Rfc3339)
+            .ok()?,
+        message,
+    ))
+}
+
+pub(super) fn detect_log_source() -> &'static str {
+    if command_available("journalctl") {
+        return "journal";
+    }
+    if AUTH_LOG_CANDIDATES
+        .iter()
+        .any(|path| Path::new(path).exists())
+    {
+        return "auth.log";
+    }
+    "unavailable"
+}

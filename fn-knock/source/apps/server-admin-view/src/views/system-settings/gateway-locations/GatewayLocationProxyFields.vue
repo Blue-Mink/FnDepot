@@ -1,1 +1,133 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQ2lyY2xlQWxlcnQgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7CiAgU2VsZWN0LAogIFNlbGVjdENvbnRlbnQsCiAgU2VsZWN0SXRlbSwKICBTZWxlY3RUcmlnZ2VyLAogIFNlbGVjdFZhbHVlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9zZWxlY3QiOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IHsKICBUb29sdGlwLAogIFRvb2x0aXBDb250ZW50LAogIFRvb2x0aXBQcm92aWRlciwKICBUb29sdGlwVHJpZ2dlciwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdG9vbHRpcCI7CmltcG9ydCBQcm94eVRhcmdldElucHV0RmllbGQgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Qcm94eVRhcmdldElucHV0RmllbGQudnVlIjsKaW1wb3J0IHsKICBidWlsZFByb3h5UGF0aEZvcndhcmRpbmdQcmV2aWV3LAogIHR5cGUgUHJveHlQYXRoRm9yd2FyZGluZ01vZGUsCn0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9wcm94eVBhdGhGb3J3YXJkaW5nIjsKaW1wb3J0IHR5cGUgeyBHYXRld2F5TG9jYXRpb25Gb3JtIH0gZnJvbSAiLi9nYXRld2F5TG9jYXRpb25Nb2RlbCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBmb3JtOiBHYXRld2F5TG9jYXRpb25Gb3JtOwogIGlzV2ViU29ja2V0VGFyZ2V0OiBib29sZWFuOwp9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IHBhdGhGb3J3YXJkaW5nTW9kZSA9IGNvbXB1dGVkPFByb3h5UGF0aEZvcndhcmRpbmdNb2RlPih7CiAgZ2V0OiAoKSA9PiAocHJvcHMuZm9ybS5zdHJpcF9wYXRoID8gInN0cmlwIiA6ICJrZWVwIiksCiAgc2V0OiAobW9kZSkgPT4gewogICAgcHJvcHMuZm9ybS5zdHJpcF9wYXRoID0gbW9kZSA9PT0gInN0cmlwIjsKICB9LAp9KTsKCmNvbnN0IHBhdGhGb3J3YXJkaW5nUHJldmlldyA9IGNvbXB1dGVkKCgpID0+CiAgYnVpbGRQcm94eVBhdGhGb3J3YXJkaW5nUHJldmlldyh7CiAgICByb3V0ZVBhdGg6IHByb3BzLmZvcm0ucGF0aCwKICAgIHRhcmdldDogcHJvcHMuZm9ybS50YXJnZXQsCiAgICBtb2RlOiBwYXRoRm9yd2FyZGluZ01vZGUudmFsdWUsCiAgfSksCik7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktNCI+CiAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICA8TGFiZWwgZm9yPSJsb2NhdGlvbi10YXJnZXQiPgogICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy50YXJnZXQiKSB9fQogICAgICA8L0xhYmVsPgogICAgICA8UHJveHlUYXJnZXRJbnB1dEZpZWxkCiAgICAgICAgdi1tb2RlbD0iZm9ybS50YXJnZXQiCiAgICAgICAgaW5wdXQtaWQ9ImxvY2F0aW9uLXRhcmdldCIKICAgICAgICBwcm90b2NvbC1pZD0ibG9jYXRpb24tdGFyZ2V0LXByb3RvY29sIgogICAgICAgIHBsYWNlaG9sZGVyPSIxMjcuMC4wLjE6ODA4MCIKICAgICAgLz4KICAgIDwvZGl2PgoKICAgIDxkaXYKICAgICAgY2xhc3M9ImdyaWQgZ2FwLTQiCiAgICAgIDpjbGFzcz0iaXNXZWJTb2NrZXRUYXJnZXQgPyAnc206Z3JpZC1jb2xzLTEnIDogJ3NtOmdyaWQtY29scy0yJyIKICAgID4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0zIj4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgPExhYmVsIGZvcj0ibG9jYXRpb24tcGF0aC1mb3J3YXJkaW5nIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLnBhdGhGb3J3YXJkaW5nIikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8U2VsZWN0IHYtbW9kZWw9InBhdGhGb3J3YXJkaW5nTW9kZSI+CiAgICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyIGlkPSJsb2NhdGlvbi1wYXRoLWZvcndhcmRpbmciIGNsYXNzPSJ3LWZ1bGwiPgogICAgICAgICAgICAgIDxTZWxlY3RWYWx1ZSAvPgogICAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJzdHJpcCI+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MucGF0aEZvcndhcmRpbmdTdHJpcCIpIH19CiAgICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJrZWVwIj4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5wYXRoRm9yd2FyZGluZ0tlZXAiKSB9fQogICAgICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICAgICAgPC9TZWxlY3Q+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdgogICAgICAgICAgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAteC0yIGdhcC15LTEgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgPgogICAgICAgICAgPHNwYW4gY2xhc3M9ImZvbnQtbWVkaXVtIHRleHQtZm9yZWdyb3VuZC84MCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5wYXRoUHJldmlldyIpIH19CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8c3BhbiBjbGFzcz0iYnJlYWstYWxsIGZvbnQtbW9ubyI+CiAgICAgICAgICAgIHt7IHBhdGhGb3J3YXJkaW5nUHJldmlldy5yZXF1ZXN0UGF0aCB9fQogICAgICAgICAgICA8c3BhbiBjbGFzcz0icHgtMSB0ZXh0LWZvcmVncm91bmQiPi0mZ3Q7PC9zcGFuPgogICAgICAgICAgICB7eyBwYXRoRm9yd2FyZGluZ1ByZXZpZXcudXBzdHJlYW1QYXRoIH19CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdgogICAgICAgIHYtaWY9IiFpc1dlYlNvY2tldFRhcmdldCIKICAgICAgICBjbGFzcz0iZmxleCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQgc206cHQtNyIKICAgICAgPgogICAgICAgIDxkaXYgY2xhc3M9ImZsZXggbWluLXctMCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBwdC0xLjUiPgogICAgICAgICAgPExhYmVsIGZvcj0ibG9jYXRpb24tcmV3cml0ZS1odG1sIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLnJld3JpdGVIdG1sUGF0aCIpIH19CiAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgPFRvb2x0aXBQcm92aWRlcj4KICAgICAgICAgICAgPFRvb2x0aXA+CiAgICAgICAgICAgICAgPFRvb2x0aXBUcmlnZ2VyIGFzLWNoaWxkPgogICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJpbmxpbmUtZmxleCBoLTYgdy02IHNocmluay0wIGN1cnNvci1oZWxwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOnRleHQtZm9yZWdyb3VuZCBmb2N1cy12aXNpYmxlOm91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMiBmb2N1cy12aXNpYmxlOnJpbmctcmluZyBmb2N1cy12aXNpYmxlOnJpbmctb2Zmc2V0LTIiCiAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSIKICAgICAgICAgICAgICAgICAgICB0KCdhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MucmV3cml0ZUh0bWxQYXRoSGVscEFyaWEnKQogICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxDaXJjbGVBbGVydCBhcmlhLWhpZGRlbj0idHJ1ZSIgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICA8L1Rvb2x0aXBUcmlnZ2VyPgogICAgICAgICAgICAgIDxUb29sdGlwQ29udGVudCBjbGFzcz0ibWF4LXctODAgdGV4dC1sZWZ0IGxlYWRpbmctNSI+CiAgICAgICAgICAgICAgICA8cD4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLnJld3JpdGVIdG1sUGF0aEhlbHAiKSB9fQogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDwvVG9vbHRpcENvbnRlbnQ+CiAgICAgICAgICAgIDwvVG9vbHRpcD4KICAgICAgICAgIDwvVG9vbHRpcFByb3ZpZGVyPgogICAgICAgIDwvZGl2PgogICAgICAgIDxTd2l0Y2ggaWQ9ImxvY2F0aW9uLXJld3JpdGUtaHRtbCIgdi1tb2RlbD0iZm9ybS5yZXdyaXRlX2h0bWwiIC8+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { CircleAlert } from "lucide-vue-next";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Switch } from "@/components/ui/switch";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import ProxyTargetInputField from "@admin-shared/components/common/ProxyTargetInputField.vue";
+import {
+  buildProxyPathForwardingPreview,
+  type ProxyPathForwardingMode,
+} from "@admin-shared/utils/proxyPathForwarding";
+import type { GatewayLocationForm } from "./gatewayLocationModel";
+
+const props = defineProps<{
+  form: GatewayLocationForm;
+  isWebSocketTarget: boolean;
+}>();
+const { t } = useI18n();
+
+const pathForwardingMode = computed<ProxyPathForwardingMode>({
+  get: () => (props.form.strip_path ? "strip" : "keep"),
+  set: (mode) => {
+    props.form.strip_path = mode === "strip";
+  },
+});
+
+const pathForwardingPreview = computed(() =>
+  buildProxyPathForwardingPreview({
+    routePath: props.form.path,
+    target: props.form.target,
+    mode: pathForwardingMode.value,
+  }),
+);
+</script>
+
+<template>
+  <div class="space-y-4">
+    <div class="space-y-2">
+      <Label for="location-target">
+        {{ t("admin.gatewayLocationsSettings.target") }}
+      </Label>
+      <ProxyTargetInputField
+        v-model="form.target"
+        input-id="location-target"
+        protocol-id="location-target-protocol"
+        placeholder="127.0.0.1:8080"
+      />
+    </div>
+
+    <div
+      class="grid gap-4"
+      :class="isWebSocketTarget ? 'sm:grid-cols-1' : 'sm:grid-cols-2'"
+    >
+      <div class="space-y-3">
+        <div class="space-y-2">
+          <Label for="location-path-forwarding">
+            {{ t("admin.gatewayLocationsSettings.pathForwarding") }}
+          </Label>
+          <Select v-model="pathForwardingMode">
+            <SelectTrigger id="location-path-forwarding" class="w-full">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="strip">
+                {{ t("admin.gatewayLocationsSettings.pathForwardingStrip") }}
+              </SelectItem>
+              <SelectItem value="keep">
+                {{ t("admin.gatewayLocationsSettings.pathForwardingKeep") }}
+              </SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+        <div
+          class="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-muted-foreground"
+        >
+          <span class="font-medium text-foreground/80">
+            {{ t("admin.gatewayLocationsSettings.pathPreview") }}
+          </span>
+          <span class="break-all font-mono">
+            {{ pathForwardingPreview.requestPath }}
+            <span class="px-1 text-foreground">-&gt;</span>
+            {{ pathForwardingPreview.upstreamPath }}
+          </span>
+        </div>
+      </div>
+
+      <div
+        v-if="!isWebSocketTarget"
+        class="flex items-start justify-between gap-4 sm:pt-7"
+      >
+        <div class="flex min-w-0 items-center gap-1.5 pt-1.5">
+          <Label for="location-rewrite-html">
+            {{ t("admin.gatewayLocationsSettings.rewriteHtmlPath") }}
+          </Label>
+          <TooltipProvider>
+            <Tooltip>
+              <TooltipTrigger as-child>
+                <button
+                  type="button"
+                  class="inline-flex h-6 w-6 shrink-0 cursor-help items-center justify-center rounded-full text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                  :aria-label="
+                    t('admin.gatewayLocationsSettings.rewriteHtmlPathHelpAria')
+                  "
+                >
+                  <CircleAlert aria-hidden="true" class="h-4 w-4" />
+                </button>
+              </TooltipTrigger>
+              <TooltipContent class="max-w-80 text-left leading-5">
+                <p>
+                  {{ t("admin.gatewayLocationsSettings.rewriteHtmlPathHelp") }}
+                </p>
+              </TooltipContent>
+            </Tooltip>
+          </TooltipProvider>
+        </div>
+        <Switch id="location-rewrite-html" v-model="form.rewrite_html" />
+      </div>
+    </div>
+  </div>
+</template>

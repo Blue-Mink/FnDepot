@@ -1,1 +1,255 @@
-dXNlIHN1cGVyOjoqOwoKI1tjZmcodGVzdCldCnB1YihjcmF0ZSkgZm4gYnVpbGRfaG9zdF9ydWxlc19wYXlsb2FkKG1hcHBpbmdzOiAmW1ZhbHVlXSkgLT4gVmFsdWUgewogICAgYnVpbGRfaG9zdF9ydWxlc19wYXlsb2FkX3dpdGhfZ3JvdXBzKG1hcHBpbmdzLCAmW10pCn0KCnB1YihjcmF0ZSkgZm4gYnVpbGRfaG9zdF9ydWxlc19wYXlsb2FkX2Zvcl9jb25maWcoY29uZmlnOiAmVmFsdWUpIC0+IFZhbHVlIHsKICAgIGxldCBtYXBwaW5ncyA9IGNvbmZpZwogICAgICAgIC5nZXQoImhvc3RfbWFwcGluZ3MiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgaXRlbXMgPSBpZiAhaG9zdF9tYXBwaW5nX2dyb3VwZWRfdmlld19mcm9tX2NvbmZpZyhjb25maWcpIHsKICAgICAgICBidWlsZF9ob3N0X3J1bGVzX3BheWxvYWRfd2l0aF9ncm91cHMoJm1hcHBpbmdzLCAmW10pCiAgICB9IGVsc2UgewogICAgICAgIGxldCBncm91cHMgPSBub3JtYWxpemVfaG9zdF9tYXBwaW5nX2dyb3Vwcyhob3N0X21hcHBpbmdfZ3JvdXBzX2Zyb21fY29uZmlnKGNvbmZpZykpCiAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgICAgIGxldCBvcmRlcmVkID0gb3JkZXJlZF9ob3N0X21hcHBpbmdzX2Zvcl9ncm91cHMoJm1hcHBpbmdzLCAmZ3JvdXBzKTsKICAgICAgICBidWlsZF9ob3N0X3J1bGVzX3BheWxvYWRfd2l0aF9ncm91cHMoJm9yZGVyZWQsICZncm91cHMpCiAgICB9OwogICAgbGV0IHJlZmVyZW5jZWQgPSByZWZlcmVuY2VkX2hvc3RfaXBzZXRfcG9saWN5X2lkcyhpdGVtcy5hc19hcnJheSgpLmludG9faXRlcigpLmZsYXR0ZW4oKSk7CiAgICBsZXQgdmlzaWJpbGl0eV9wb2xpY2llcyA9IGNvbmZpZwogICAgICAgIC5nZXQoInZpc2liaWxpdHlfcG9saWNpZXMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfb2JqZWN0KQogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5mbGF0X21hcCh8cG9saWNpZXN8IHBvbGljaWVzLml0ZXIoKSkKICAgICAgICAuZmlsdGVyKHwoaWQsIF8pfCByZWZlcmVuY2VkLmNvbnRhaW5zKGlkLmFzX3N0cigpKSkKICAgICAgICAubWFwKHwoaWQsIHBvbGljeSl8IHsKICAgICAgICAgICAgbGV0IG11dCBwb2xpY3kgPSBwb2xpY3kuYXNfb2JqZWN0KCkuY2xvbmVkKCkudW53cmFwX29yX2RlZmF1bHQoKTsKICAgICAgICAgICAgcG9saWN5Lmluc2VydCgiaWQiLnRvX3N0cmluZygpLCBWYWx1ZTo6U3RyaW5nKGlkLmNsb25lKCkpKTsKICAgICAgICAgICAgVmFsdWU6Ok9iamVjdChwb2xpY3kpCiAgICAgICAgfSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGpzb24hKHsKICAgICAgICAiaXRlbXMiOiBpdGVtcywKICAgICAgICAidmlzaWJpbGl0eV9wb2xpY2llcyI6IHZpc2liaWxpdHlfcG9saWNpZXMsCiAgICB9KQp9CgpmbiBidWlsZF9ob3N0X3J1bGVzX3BheWxvYWRfd2l0aF9ncm91cHMobWFwcGluZ3M6ICZbVmFsdWVdLCBncm91cHM6ICZbVmFsdWVdKSAtPiBWYWx1ZSB7CiAgICBsZXQgZ3JvdXBfbmFtZXMgPSBob3N0X21hcHBpbmdfZ3JvdXBfbmFtZXMoZ3JvdXBzKTsKICAgIFZhbHVlOjpBcnJheSgKICAgICAgICBtYXBwaW5ncwogICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgIC5maWx0ZXJfbWFwKFZhbHVlOjphc19vYmplY3QpCiAgICAgICAgICAgIC5tYXAofG9iamVjdHwgewogICAgICAgICAgICAgICAgbGV0IGdyb3VwX2lkID0gb2JqZWN0CiAgICAgICAgICAgICAgICAgICAgLmdldCgiZ3JvdXBfaWQiKQogICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgIC5maWx0ZXIofGlkfCBncm91cF9uYW1lcy5jb250YWluc19rZXkoKmlkKSkKICAgICAgICAgICAgICAgICAgICAudW53cmFwX29yKCIiKTsKICAgICAgICAgICAgICAgIGxldCBncm91cF9uYW1lID0gZ3JvdXBfbmFtZXMuZ2V0KGdyb3VwX2lkKS5tYXAoU3RyaW5nOjphc19zdHIpLnVud3JhcF9vcigiIik7CiAgICAgICAgICAgICAgICBsZXQgdGl0bGUgPSByZXNvbHZlX2hvc3RfcnVsZV90aXRsZShvYmplY3QpOwogICAgICAgICAgICAgICAgbGV0IHRhcmdldCA9IG9iamVjdAogICAgICAgICAgICAgICAgICAgIC5nZXQoInRhcmdldCIpCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcigiIik7CiAgICAgICAgICAgICAgICBsZXQgdGFyZ2V0X3R5cGUgPSBob3N0X3RhcmdldF90eXBlKG9iamVjdC5nZXQoInRhcmdldF90eXBlIikpCiAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcihIT1NUX1RBUkdFVF9UWVBFX1BST1hZKTsKICAgICAgICAgICAgICAgIGxldCBzdGF0aWNfc2VydmUgPSBpZiB0YXJnZXRfdHlwZSA9PSBIT1NUX1RBUkdFVF9UWVBFX1BST1hZIHsKICAgICAgICAgICAgICAgICAgICBWYWx1ZTo6TnVsbAogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBvYmplY3QuZ2V0KCJzdGF0aWNfc2VydmUiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpCiAgICAgICAgICAgICAgICB9OwogICAgICAgICAgICAgICAgbGV0IHRhcmdldF9wYXRoX21vZGUgPSBpZiBpc19hdXRoX3NlcnZpY2VfdGFyZ2V0KHRhcmdldCkKICAgICAgICAgICAgICAgICAgICB8fCB0YXJnZXRfdHlwZSAhPSBIT1NUX1RBUkdFVF9UWVBFX1BST1hZCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgImVudHJ5Ii50b19zdHJpbmcoKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBub3JtYWxpemVfdGFyZ2V0X3BhdGhfbW9kZShvYmplY3QuZ2V0KCJ0YXJnZXRfcGF0aF9tb2RlIikpCiAgICAgICAgICAgICAgICB9OwogICAgICAgICAgICAgICAgbGV0IGZhdmljb24gPSByZXNvbHZlX2hvc3RfbWFwcGluZ19pY29uKG9iamVjdCkKICAgICAgICAgICAgICAgICAgICAubWFwKFZhbHVlOjpTdHJpbmcpCiAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcihWYWx1ZTo6TnVsbCk7CiAgICAgICAgICAgICAgICAvLyBEaXNhYmxlZCBhZHZhbmNlZC1hdXRoIHJ1bGVzIHJlbWFpbiBhIGNvbnRyb2wtcGxhbmUgZHJhZnQuCiAgICAgICAgICAgICAgICAvLyBEbyBub3QgbWFrZSB1bnJlbGF0ZWQgSG9zdCBlZGl0cyBkZXBlbmQgb24gc3RhbGUgcmVnaW9uCiAgICAgICAgICAgICAgICAvLyBkYXRhLCB3aGlsZSBzdGlsbCByZXRhaW5pbmcgdGhlIGNvbXBsZXRlIGRyYWZ0IGFuZCBpdHMKICAgICAgICAgICAgICAgIC8vIHBvbGljeSByZWZlcmVuY2VzIGluIHBlcnNpc3RlbnQgY29uZmlndXJhdGlvbi4KICAgICAgICAgICAgICAgIGxldCBhZHZhbmNlZF9hdXRoID0gb2JqZWN0CiAgICAgICAgICAgICAgICAgICAgLmdldCgiYWR2YW5jZWRfYXV0aCIpCiAgICAgICAgICAgICAgICAgICAgLmZpbHRlcih8dmFsdWV8IHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5nZXQoImVuYWJsZWQiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcihmYWxzZSkKICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICAgIC5jbG9uZWQoKQogICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCBqc29uISh7ICJlbmFibGVkIjogZmFsc2UgfSkpOwogICAgICAgICAgICAgICAganNvbiEoewogICAgICAgICAgICAgICAgICAgICJob3N0Ijogb2JqZWN0LmdldCgiaG9zdCIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6U3RyaW5nKFN0cmluZzo6bmV3KCkpKSwKICAgICAgICAgICAgICAgICAgICAidGFyZ2V0Ijogb2JqZWN0LmdldCgidGFyZ2V0IikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpTdHJpbmcoU3RyaW5nOjpuZXcoKSkpLAogICAgICAgICAgICAgICAgICAgICJ0YXJnZXRfdHlwZSI6IHRhcmdldF90eXBlLAogICAgICAgICAgICAgICAgICAgICJzdGF0aWNfc2VydmUiOiBzdGF0aWNfc2VydmUsCiAgICAgICAgICAgICAgICAgICAgInRhcmdldF9wYXRoX21vZGUiOiB0YXJnZXRfcGF0aF9tb2RlLAogICAgICAgICAgICAgICAgICAgICJ1c2VfYXV0aCI6IG9iamVjdC5nZXQoInVzZV9hdXRoIikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpCb29sKHRydWUpKSwKICAgICAgICAgICAgICAgICAgICAiYWNjZXNzX21vZGUiOiBvYmplY3QuZ2V0KCJhY2Nlc3NfbW9kZSIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6U3RyaW5nKCJsb2dpbl9maXJzdCIudG9fc3RyaW5nKCkpKSwKICAgICAgICAgICAgICAgICAgICAic3VwcHJlc3NfdG9vbGJhciI6IG9iamVjdC5nZXQoInN1cHByZXNzX3Rvb2xiYXIiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6OkJvb2woZmFsc2UpKSwKICAgICAgICAgICAgICAgICAgICAicHJlc2VydmVfaG9zdCI6IG9iamVjdC5nZXQoInByZXNlcnZlX2hvc3QiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6OkJvb2wodHJ1ZSkpLAogICAgICAgICAgICAgICAgICAgICJpc19kZWZhdWx0Ijogb2JqZWN0LmdldCgiaXNfZGVmYXVsdCIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6Qm9vbChmYWxzZSkpLAogICAgICAgICAgICAgICAgICAgICJkaXNhYmxlZCI6IG9iamVjdC5nZXQoImRpc2FibGVkIikuY2xvbmVkKCkudW53cmFwX29yKFZhbHVlOjpCb29sKGZhbHNlKSksCiAgICAgICAgICAgICAgICAgICAgImF2YWlsYWJpbGl0eSI6IG9iamVjdC5nZXQoImF2YWlsYWJpbGl0eSIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCksCiAgICAgICAgICAgICAgICAgICAgInZpc2liaWxpdHkiOiBvYmplY3QuZ2V0KCJ2aXNpYmlsaXR5IikubWFwKHx2aXNpYmlsaXR5fCBqc29uISh7CiAgICAgICAgICAgICAgICAgICAgICAgICJtb2RlIjogdmlzaWJpbGl0eS5nZXQoIm1vZGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoImluaGVyaXQiKSwKICAgICAgICAgICAgICAgICAgICAgICAgInBvbGljeV9pZCI6IHZpc2liaWxpdHkuZ2V0KCJwb2xpY3lfaWQiKS5jbG9uZWQoKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgICAgICAgICAgICAgIH0pKS51bndyYXBfb3JfZWxzZSh8fCBqc29uISh7ICJtb2RlIjogImluaGVyaXQiIH0pKSwKICAgICAgICAgICAgICAgICAgICAiYWR2YW5jZWRfYXV0aCI6IGFkdmFuY2VkX2F1dGgsCiAgICAgICAgICAgICAgICAgICAgInByb3RvY29sX21vZGUiOiBub3JtYWxpemVfcHJvdG9jb2xfbW9kZShvYmplY3QuZ2V0KCJwcm90b2NvbF9tb2RlIikpLAogICAgICAgICAgICAgICAgICAgICJncm91cF9pZCI6IGdyb3VwX2lkLAogICAgICAgICAgICAgICAgICAgICJncm91cF9uYW1lIjogZ3JvdXBfbmFtZSwKICAgICAgICAgICAgICAgICAgICAidGl0bGUiOiB0aXRsZSwKICAgICAgICAgICAgICAgICAgICAiZmF2aWNvbiI6IGZhdmljb24sCiAgICAgICAgICAgICAgICAgICAgIndlYnNpdGVfaWNvbl9wYXRoIjogb2JqZWN0CiAgICAgICAgICAgICAgICAgICAgICAgIC5nZXQoInN5bmNfaWQiKQogICAgICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAgICAgLm1hcCh8c3luY19pZHwgd2Vic2l0ZV9pY29uX3BhdGgob2JqZWN0LCBzeW5jX2lkKSkKICAgICAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCksCiAgICAgICAgICAgICAgICAgICAgImJhc2ljX2F1dGgiOiBvYmplY3QuZ2V0KCJiYXNpY19hdXRoIikuY2xvbmVkKCkudW53cmFwX29yX2Vsc2UoZGlzYWJsZWRfaG9zdF9iYXNpY19hdXRoKSwKICAgICAgICAgICAgICAgICAgICAibG9jYXRpb25zIjogb2JqZWN0LmdldCgibG9jYXRpb25zIikuY2xvbmVkKCkudW53cmFwX29yX2Vsc2UofHwgVmFsdWU6OkFycmF5KFZlYzo6bmV3KCkpKSwKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5jb2xsZWN0KCksCiAgICApCn0KCnB1YihzdXBlcikgZm4gcmVzb2x2ZV9ob3N0X3J1bGVfdGl0bGUob2JqZWN0OiAmTWFwPFN0cmluZywgVmFsdWU+KSAtPiBTdHJpbmcgewogICAgbGV0IG92ZXJyaWRlX3RpdGxlID0gb2JqZWN0CiAgICAgICAgLmdldCgidGl0bGVfb3ZlcnJpZGUiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC51bndyYXBfb3IoIiIpOwogICAgaWYgIW92ZXJyaWRlX3RpdGxlLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBvdmVycmlkZV90aXRsZS50b19zdHJpbmcoKTsKICAgIH0KICAgIG9iamVjdAogICAgICAgIC5nZXQoInRpdGxlIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAudW53cmFwX29yKCIiKQogICAgICAgIC50b19zdHJpbmcoKQp9CgpwdWIoY3JhdGUpIGZuIGJ1aWxkX2dhdGV3YXlfYXV0aF9jb25maWcoY29uZmlnOiAmVmFsdWUpIC0+IFZhbHVlIHsKICAgIGxldCBzdWJkb21haW5fbW9kZSA9IGNvbmZpZwogICAgICAgIC5nZXQoInN1YmRvbWFpbl9tb2RlIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX29iamVjdCkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBpc19zdWJkb21haW5fbW9kZV9hY3RpdmUgPSBpc19hbnlfc3ViZG9tYWluX3JvdXRpbmdfbW9kZShjb25maWcpOwogICAgbGV0IGlzX3JldmVyc2Vfc3ViZG9tYWluX21vZGUgPSBpc19yZXZlcnNlX3Byb3h5X3N1YmRvbWFpbl9tb2RlKGNvbmZpZyk7CiAgICBsZXQgZGVmYXVsdF9hdXRoX3BvcnQgPSByZXNvbHZlX2F1dGhfc2VydmljZV9wb3J0KCk7CiAgICBsZXQgYXV0aF9tYXBwaW5nID0gZ2V0X2F1dGhfaG9zdF9tYXBwaW5nKGNvbmZpZyk7CiAgICBsZXQgZXhwbGljaXRfcHVibGljX2F1dGhfYmFzZV91cmwgPSBpZiBpc19zdWJkb21haW5fbW9kZV9hY3RpdmUgJiYgIWlzX3JldmVyc2Vfc3ViZG9tYWluX21vZGUgewogICAgICAgIGFwcGx5X3B1YmxpY19wb3J0X3RvX2Jhc2VfdXJsKAogICAgICAgICAgICBzdWJkb21haW5fbW9kZQogICAgICAgICAgICAgICAgLmdldCgicHVibGljX2F1dGhfYmFzZV91cmwiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAudW53cmFwX29yKCIiKSwKICAgICAgICAgICAgY29uZmlnLAogICAgICAgICkKICAgIH0gZWxzZSB7CiAgICAgICAgU3RyaW5nOjpuZXcoKQogICAgfTsKICAgIGxldCBhdXRoX3RhcmdldCA9IGF1dGhfbWFwcGluZwogICAgICAgIC5hbmRfdGhlbih8bWFwcGluZ3wgbWFwcGluZy5nZXQoInRhcmdldCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICAub3JfZWxzZSh8fCB7CiAgICAgICAgICAgIHN1YmRvbWFpbl9tb2RlCiAgICAgICAgICAgICAgICAuZ2V0KCJhdXRoX3RhcmdldCIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgICAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIH0pCiAgICAgICAgLnVud3JhcF9vcigiIik7CiAgICBsZXQgYXV0aF9wb3J0ID0gcGFyc2VfdGFyZ2V0X3BvcnQoYXV0aF90YXJnZXQpLnVud3JhcF9vcihkZWZhdWx0X2F1dGhfcG9ydCk7CiAgICBsZXQgcHVibGljX2F1dGhfYmFzZV91cmwgPSBpZiBpc19zdWJkb21haW5fbW9kZV9hY3RpdmUgewogICAgICAgIGlmIGV4cGxpY2l0X3B1YmxpY19hdXRoX2Jhc2VfdXJsLmlzX2VtcHR5KCkgewogICAgICAgICAgICByZXNvbHZlX3B1YmxpY19hdXRoX2Jhc2VfdXJsKGNvbmZpZykKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBleHBsaWNpdF9wdWJsaWNfYXV0aF9iYXNlX3VybAogICAgICAgIH0KICAgIH0gZWxzZSB7CiAgICAgICAgU3RyaW5nOjpuZXcoKQogICAgfTsKICAgIGxldCBlZGdlX2NsaWVudF9pcF9lbmFibGVkID0gY29uZmlnLmdldCgicnVuX3R5cGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KSA9PSBTb21lKDMpCiAgICAgICAgJiYgc3ViZG9tYWluX21vZGUKICAgICAgICAgICAgLmdldCgiZWRnZV9jbGllbnRfaXBfZW5hYmxlZCIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAgICAgLnVud3JhcF9vcihmYWxzZSk7CiAgICBsZXQgdGVuY2VudF9lZGdlb25lX2VuYWJsZWQgPSBlZGdlX2NsaWVudF9pcF9lbmFibGVkCiAgICAgICAgJiYgc3ViZG9tYWluX21vZGUKICAgICAgICAgICAgLmdldCgidGVuY2VudF9lZGdlb25lX2VuYWJsZWQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgICAgIC51bndyYXBfb3IoZmFsc2UpOwogICAgbGV0IGFsaXl1bl9lc2FfZW5hYmxlZCA9IGVkZ2VfY2xpZW50X2lwX2VuYWJsZWQKICAgICAgICAmJiAhdGVuY2VudF9lZGdlb25lX2VuYWJsZWQKICAgICAgICAmJiBzdWJkb21haW5fbW9kZQogICAgICAgICAgICAuZ2V0KCJhbGl5dW5fZXNhX2VuYWJsZWQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgICAgIC51bndyYXBfb3IoZmFsc2UpOwogICAgbGV0IHB1YmxpY19odHRwX3BvcnQgPSBpZiBpc19zdWJkb21haW5fbW9kZV9hY3RpdmUgewogICAgICAgIHJlc29sdmVfYXV0aF9wdWJsaWNfcG9ydF9mb3Jfc2NoZW1lKGNvbmZpZywgImh0dHAiLCAmcHVibGljX2F1dGhfYmFzZV91cmwsIGZhbHNlKQogICAgICAgICAgICAudW53cmFwX29yKDApCiAgICB9IGVsc2UgewogICAgICAgIDAKICAgIH07CiAgICBsZXQgcHVibGljX2h0dHBzX3BvcnQgPSBpZiBpc19zdWJkb21haW5fbW9kZV9hY3RpdmUgewogICAgICAgIHJlc29sdmVfYXV0aF9wdWJsaWNfcG9ydF9mb3Jfc2NoZW1lKGNvbmZpZywgImh0dHBzIiwgJnB1YmxpY19hdXRoX2Jhc2VfdXJsLCB0cnVlKQogICAgICAgICAgICAudW53cmFwX29yKDApCiAgICB9IGVsc2UgewogICAgICAgIDAKICAgIH07CiAgICBsZXQgYXV0aF9ob3N0ID0gaWYgaXNfc3ViZG9tYWluX21vZGVfYWN0aXZlIHsKICAgICAgICBhdXRoX21hcHBpbmcKICAgICAgICAgICAgLmFuZF90aGVuKHxtYXBwaW5nfCBtYXBwaW5nLmdldCgiaG9zdCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpKQogICAgICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgICAgICAub3JfZWxzZSh8fCB7CiAgICAgICAgICAgICAgICBzdWJkb21haW5fbW9kZQogICAgICAgICAgICAgICAgICAgIC5nZXQoImF1dGhfaG9zdCIpCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgICAgICAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgICAgICB9KQogICAgICAgICAgICAudW53cmFwX29yKCIiKQogICAgICAgICAgICAudG9fc3RyaW5nKCkKICAgIH0gZWxzZSB7CiAgICAgICAgU3RyaW5nOjpuZXcoKQogICAgfTsKCiAgICBqc29uISh7CiAgICAgICAgImF1dGhfcG9ydCI6IGF1dGhfcG9ydCwKICAgICAgICAiYXV0aF91cmwiOiAiL2FwaS9hdXRoL3ZlcmlmeSIsCiAgICAgICAgImxvZ2luX3VybCI6ICIvbG9naW4iLAogICAgICAgICJsb2dvdXRfdXJsIjogIi9hcGkvYXV0aC9sb2dvdXQiLAogICAgICAgICJwcmVmbGlnaHRfdXJsIjogIi9hcGkvYXV0aC9wcmVmbGlnaHQiLAogICAgICAgICJhdXRoX2NhY2hlX3R0bF9zZWNvbmRzIjogc3ViZG9tYWluX21vZGUKICAgICAgICAgICAgLmdldCgiYXV0aF9jYWNoZV90dGxfc2Vjb25kcyIpCiAgICAgICAgICAgIC5hbmRfdGhlbihqc29uX251bWJlcl9mbG9vcikKICAgICAgICAgICAgLnVud3JhcF9vcigxKSwKICAgICAgICAiYXV0aF9jYWNoZV91bmF1dGhvcml6ZWRfdHRsX3NlY29uZHMiOiBzdWJkb21haW5fbW9kZQogICAgICAgICAgICAuZ2V0KCJhdXRoX2NhY2hlX3VuYXV0aG9yaXplZF90dGxfc2Vjb25kcyIpCiAgICAgICAgICAgIC5hbmRfdGhlbihqc29uX251bWJlcl9mbG9vcikKICAgICAgICAgICAgLnVud3JhcF9vcigxKSwKICAgICAgICAiZWRnZV9jbGllbnRfaXBfZW5hYmxlZCI6IGVkZ2VfY2xpZW50X2lwX2VuYWJsZWQgJiYgKGFsaXl1bl9lc2FfZW5hYmxlZCB8fCB0ZW5jZW50X2VkZ2VvbmVfZW5hYmxlZCksCiAgICAgICAgImFsaXl1bl9lc2FfZW5hYmxlZCI6IGFsaXl1bl9lc2FfZW5hYmxlZCwKICAgICAgICAidGVuY2VudF9lZGdlb25lX2VuYWJsZWQiOiB0ZW5jZW50X2VkZ2VvbmVfZW5hYmxlZCwKICAgICAgICAicHVibGljX2F1dGhfYmFzZV91cmwiOiBwdWJsaWNfYXV0aF9iYXNlX3VybCwKICAgICAgICAicHVibGljX2h0dHBfcG9ydCI6IHB1YmxpY19odHRwX3BvcnQsCiAgICAgICAgInB1YmxpY19odHRwc19wb3J0IjogcHVibGljX2h0dHBzX3BvcnQsCiAgICAgICAgImF1dGhfaG9zdCI6IGF1dGhfaG9zdCwKICAgICAgICAidHJ1c3RfZm9yd2FyZGVkX3Byb3RvIjogaXNfY2xvdWRmbGFyZWRfcmV2ZXJzZV9wcm94eV9zdWJkb21haW5fbW9kZShjb25maWcpLAogICAgfSkKfQo=
+use super::*;
+
+#[cfg(test)]
+pub(crate) fn build_host_rules_payload(mappings: &[Value]) -> Value {
+    build_host_rules_payload_with_groups(mappings, &[])
+}
+
+pub(crate) fn build_host_rules_payload_for_config(config: &Value) -> Value {
+    let mappings = config
+        .get("host_mappings")
+        .and_then(Value::as_array)
+        .cloned()
+        .unwrap_or_default();
+    let items = if !host_mapping_grouped_view_from_config(config) {
+        build_host_rules_payload_with_groups(&mappings, &[])
+    } else {
+        let groups = normalize_host_mapping_groups(host_mapping_groups_from_config(config))
+            .unwrap_or_default();
+        let ordered = ordered_host_mappings_for_groups(&mappings, &groups);
+        build_host_rules_payload_with_groups(&ordered, &groups)
+    };
+    let referenced = referenced_host_ipset_policy_ids(items.as_array().into_iter().flatten());
+    let visibility_policies = config
+        .get("visibility_policies")
+        .and_then(Value::as_object)
+        .into_iter()
+        .flat_map(|policies| policies.iter())
+        .filter(|(id, _)| referenced.contains(id.as_str()))
+        .map(|(id, policy)| {
+            let mut policy = policy.as_object().cloned().unwrap_or_default();
+            policy.insert("id".to_string(), Value::String(id.clone()));
+            Value::Object(policy)
+        })
+        .collect::<Vec<_>>();
+    json!({
+        "items": items,
+        "visibility_policies": visibility_policies,
+    })
+}
+
+fn build_host_rules_payload_with_groups(mappings: &[Value], groups: &[Value]) -> Value {
+    let group_names = host_mapping_group_names(groups);
+    Value::Array(
+        mappings
+            .iter()
+            .filter_map(Value::as_object)
+            .map(|object| {
+                let group_id = object
+                    .get("group_id")
+                    .and_then(Value::as_str)
+                    .filter(|id| group_names.contains_key(*id))
+                    .unwrap_or("");
+                let group_name = group_names.get(group_id).map(String::as_str).unwrap_or("");
+                let title = resolve_host_rule_title(object);
+                let target = object
+                    .get("target")
+                    .and_then(Value::as_str)
+                    .unwrap_or("");
+                let target_type = host_target_type(object.get("target_type"))
+                    .unwrap_or(HOST_TARGET_TYPE_PROXY);
+                let static_serve = if target_type == HOST_TARGET_TYPE_PROXY {
+                    Value::Null
+                } else {
+                    object.get("static_serve").cloned().unwrap_or(Value::Null)
+                };
+                let target_path_mode = if is_auth_service_target(target)
+                    || target_type != HOST_TARGET_TYPE_PROXY
+                {
+                    "entry".to_string()
+                } else {
+                    normalize_target_path_mode(object.get("target_path_mode"))
+                };
+                let favicon = resolve_host_mapping_icon(object)
+                    .map(Value::String)
+                    .unwrap_or(Value::Null);
+                // Disabled advanced-auth rules remain a control-plane draft.
+                // Do not make unrelated Host edits depend on stale region
+                // data, while still retaining the complete draft and its
+                // policy references in persistent configuration.
+                let advanced_auth = object
+                    .get("advanced_auth")
+                    .filter(|value| {
+                        value
+                            .get("enabled")
+                            .and_then(Value::as_bool)
+                            .unwrap_or(false)
+                    })
+                    .cloned()
+                    .unwrap_or_else(|| json!({ "enabled": false }));
+                json!({
+                    "host": object.get("host").cloned().unwrap_or(Value::String(String::new())),
+                    "target": object.get("target").cloned().unwrap_or(Value::String(String::new())),
+                    "target_type": target_type,
+                    "static_serve": static_serve,
+                    "target_path_mode": target_path_mode,
+                    "use_auth": object.get("use_auth").cloned().unwrap_or(Value::Bool(true)),
+                    "access_mode": object.get("access_mode").cloned().unwrap_or(Value::String("login_first".to_string())),
+                    "suppress_toolbar": object.get("suppress_toolbar").cloned().unwrap_or(Value::Bool(false)),
+                    "preserve_host": object.get("preserve_host").cloned().unwrap_or(Value::Bool(true)),
+                    "is_default": object.get("is_default").cloned().unwrap_or(Value::Bool(false)),
+                    "disabled": object.get("disabled").cloned().unwrap_or(Value::Bool(false)),
+                    "availability": object.get("availability").cloned().unwrap_or(Value::Null),
+                    "visibility": object.get("visibility").map(|visibility| json!({
+                        "mode": visibility.get("mode").and_then(Value::as_str).unwrap_or("inherit"),
+                        "policy_id": visibility.get("policy_id").cloned().unwrap_or(Value::Null),
+                    })).unwrap_or_else(|| json!({ "mode": "inherit" })),
+                    "advanced_auth": advanced_auth,
+                    "protocol_mode": normalize_protocol_mode(object.get("protocol_mode")),
+                    "group_id": group_id,
+                    "group_name": group_name,
+                    "title": title,
+                    "favicon": favicon,
+                    "website_icon_path": object
+                        .get("sync_id")
+                        .and_then(Value::as_str)
+                        .map(|sync_id| website_icon_path(object, sync_id))
+                        .unwrap_or_default(),
+                    "basic_auth": object.get("basic_auth").cloned().unwrap_or_else(disabled_host_basic_auth),
+                    "locations": object.get("locations").cloned().unwrap_or_else(|| Value::Array(Vec::new())),
+                })
+            })
+            .collect(),
+    )
+}
+
+pub(super) fn resolve_host_rule_title(object: &Map<String, Value>) -> String {
+    let override_title = object
+        .get("title_override")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .unwrap_or("");
+    if !override_title.is_empty() {
+        return override_title.to_string();
+    }
+    object
+        .get("title")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .unwrap_or("")
+        .to_string()
+}
+
+pub(crate) fn build_gateway_auth_config(config: &Value) -> Value {
+    let subdomain_mode = config
+        .get("subdomain_mode")
+        .and_then(Value::as_object)
+        .cloned()
+        .unwrap_or_default();
+    let is_subdomain_mode_active = is_any_subdomain_routing_mode(config);
+    let is_reverse_subdomain_mode = is_reverse_proxy_subdomain_mode(config);
+    let default_auth_port = resolve_auth_service_port();
+    let auth_mapping = get_auth_host_mapping(config);
+    let explicit_public_auth_base_url = if is_subdomain_mode_active && !is_reverse_subdomain_mode {
+        apply_public_port_to_base_url(
+            subdomain_mode
+                .get("public_auth_base_url")
+                .and_then(Value::as_str)
+                .unwrap_or(""),
+            config,
+        )
+    } else {
+        String::new()
+    };
+    let auth_target = auth_mapping
+        .and_then(|mapping| mapping.get("target").and_then(Value::as_str))
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .or_else(|| {
+            subdomain_mode
+                .get("auth_target")
+                .and_then(Value::as_str)
+                .map(str::trim)
+                .filter(|value| !value.is_empty())
+        })
+        .unwrap_or("");
+    let auth_port = parse_target_port(auth_target).unwrap_or(default_auth_port);
+    let public_auth_base_url = if is_subdomain_mode_active {
+        if explicit_public_auth_base_url.is_empty() {
+            resolve_public_auth_base_url(config)
+        } else {
+            explicit_public_auth_base_url
+        }
+    } else {
+        String::new()
+    };
+    let edge_client_ip_enabled = config.get("run_type").and_then(Value::as_i64) == Some(3)
+        && subdomain_mode
+            .get("edge_client_ip_enabled")
+            .and_then(Value::as_bool)
+            .unwrap_or(false);
+    let tencent_edgeone_enabled = edge_client_ip_enabled
+        && subdomain_mode
+            .get("tencent_edgeone_enabled")
+            .and_then(Value::as_bool)
+            .unwrap_or(false);
+    let aliyun_esa_enabled = edge_client_ip_enabled
+        && !tencent_edgeone_enabled
+        && subdomain_mode
+            .get("aliyun_esa_enabled")
+            .and_then(Value::as_bool)
+            .unwrap_or(false);
+    let public_http_port = if is_subdomain_mode_active {
+        resolve_auth_public_port_for_scheme(config, "http", &public_auth_base_url, false)
+            .unwrap_or(0)
+    } else {
+        0
+    };
+    let public_https_port = if is_subdomain_mode_active {
+        resolve_auth_public_port_for_scheme(config, "https", &public_auth_base_url, true)
+            .unwrap_or(0)
+    } else {
+        0
+    };
+    let auth_host = if is_subdomain_mode_active {
+        auth_mapping
+            .and_then(|mapping| mapping.get("host").and_then(Value::as_str))
+            .map(str::trim)
+            .filter(|value| !value.is_empty())
+            .or_else(|| {
+                subdomain_mode
+                    .get("auth_host")
+                    .and_then(Value::as_str)
+                    .map(str::trim)
+                    .filter(|value| !value.is_empty())
+            })
+            .unwrap_or("")
+            .to_string()
+    } else {
+        String::new()
+    };
+
+    json!({
+        "auth_port": auth_port,
+        "auth_url": "/api/auth/verify",
+        "login_url": "/login",
+        "logout_url": "/api/auth/logout",
+        "preflight_url": "/api/auth/preflight",
+        "auth_cache_ttl_seconds": subdomain_mode
+            .get("auth_cache_ttl_seconds")
+            .and_then(json_number_floor)
+            .unwrap_or(1),
+        "auth_cache_unauthorized_ttl_seconds": subdomain_mode
+            .get("auth_cache_unauthorized_ttl_seconds")
+            .and_then(json_number_floor)
+            .unwrap_or(1),
+        "edge_client_ip_enabled": edge_client_ip_enabled && (aliyun_esa_enabled || tencent_edgeone_enabled),
+        "aliyun_esa_enabled": aliyun_esa_enabled,
+        "tencent_edgeone_enabled": tencent_edgeone_enabled,
+        "public_auth_base_url": public_auth_base_url,
+        "public_http_port": public_http_port,
+        "public_https_port": public_https_port,
+        "auth_host": auth_host,
+        "trust_forwarded_proto": is_cloudflared_reverse_proxy_subdomain_mode(config),
+    })
+}

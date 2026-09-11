@@ -1,1 +1,43 @@
-aW1wb3J0IHR5cGUgeyBUcmFmZmljU3RhdHMgfSBmcm9tICIuLi8uLi90eXBlcyI7CmltcG9ydCB7IERhc2hib2FyZEFQSSB9IGZyb20gIi4vZGFzaGJvYXJkIjsKaW1wb3J0IHsgREROU0FQSSB9IGZyb20gIi4vZGRucyI7CmltcG9ydCB0eXBlIHsgREROU1BvbGxQYXlsb2FkIH0gZnJvbSAiLi9kZG5zIjsKaW1wb3J0IHsKICBDbG91ZGZsYXJlZEFQSSwKICBGcnBjQVBJLAogIHR5cGUgQ2xvdWRmbGFyZWRQb2xsUGF5bG9hZCwKICB0eXBlIEZycGNQb2xsUGF5bG9hZCwKfSBmcm9tICIuL3R1bm5lbCI7CgpleHBvcnQgdHlwZSBQb2xsVGFyZ2V0ID0gImRhc2hib2FyZCIgfCAiZGRucyIgfCAiZnJwYyIgfCAiY2xvdWRmbGFyZWQiOwoKZXhwb3J0IHR5cGUgUG9sbGluZ1BheWxvYWRNYXAgPSB7CiAgZGFzaGJvYXJkOiBUcmFmZmljU3RhdHM7CiAgZGRuczogREROU1BvbGxQYXlsb2FkOwogIGZycGM6IEZycGNQb2xsUGF5bG9hZDsKICBjbG91ZGZsYXJlZDogQ2xvdWRmbGFyZWRQb2xsUGF5bG9hZDsKfTsKCmV4cG9ydCBjb25zdCBQb2xsaW5nQVBJID0gewogIGFzeW5jIHBvbGw8VCBleHRlbmRzIFBvbGxUYXJnZXQ+KAogICAgdGFyZ2V0OiBULAogICAgY3Vyc29yPzogbnVtYmVyLAogICAgc2lnbmFsPzogQWJvcnRTaWduYWwsCiAgKTogUHJvbWlzZTxQb2xsaW5nUGF5bG9hZE1hcFtUXT4gewogICAgc3dpdGNoICh0YXJnZXQpIHsKICAgICAgY2FzZSAiZGFzaGJvYXJkIjoKICAgICAgICByZXR1cm4gKGF3YWl0IERhc2hib2FyZEFQSS5nZXRSZWFsdGltZShzaWduYWwpKSBhcyBQb2xsaW5nUGF5bG9hZE1hcFtUXTsKICAgICAgY2FzZSAiZGRucyI6CiAgICAgICAgcmV0dXJuIChhd2FpdCBERE5TQVBJLnBvbGwoY3Vyc29yLCBzaWduYWwpKSBhcyBQb2xsaW5nUGF5bG9hZE1hcFtUXTsKICAgICAgY2FzZSAiZnJwYyI6CiAgICAgICAgcmV0dXJuIChhd2FpdCBGcnBjQVBJLnBvbGwoY3Vyc29yLCBzaWduYWwpKSBhcyBQb2xsaW5nUGF5bG9hZE1hcFtUXTsKICAgICAgY2FzZSAiY2xvdWRmbGFyZWQiOgogICAgICAgIHJldHVybiAoYXdhaXQgQ2xvdWRmbGFyZWRBUEkucG9sbCgKICAgICAgICAgIGN1cnNvciwKICAgICAgICAgIHNpZ25hbCwKICAgICAgICApKSBhcyBQb2xsaW5nUGF5bG9hZE1hcFtUXTsKICAgICAgZGVmYXVsdDoKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYFVuc3VwcG9ydGVkIHBvbGwgdGFyZ2V0OiAke1N0cmluZyh0YXJnZXQpfWApOwogICAgfQogIH0sCn07Cg==
+import type { TrafficStats } from "../../types";
+import { DashboardAPI } from "./dashboard";
+import { DDNSAPI } from "./ddns";
+import type { DDNSPollPayload } from "./ddns";
+import {
+  CloudflaredAPI,
+  FrpcAPI,
+  type CloudflaredPollPayload,
+  type FrpcPollPayload,
+} from "./tunnel";
+
+export type PollTarget = "dashboard" | "ddns" | "frpc" | "cloudflared";
+
+export type PollingPayloadMap = {
+  dashboard: TrafficStats;
+  ddns: DDNSPollPayload;
+  frpc: FrpcPollPayload;
+  cloudflared: CloudflaredPollPayload;
+};
+
+export const PollingAPI = {
+  async poll<T extends PollTarget>(
+    target: T,
+    cursor?: number,
+    signal?: AbortSignal,
+  ): Promise<PollingPayloadMap[T]> {
+    switch (target) {
+      case "dashboard":
+        return (await DashboardAPI.getRealtime(signal)) as PollingPayloadMap[T];
+      case "ddns":
+        return (await DDNSAPI.poll(cursor, signal)) as PollingPayloadMap[T];
+      case "frpc":
+        return (await FrpcAPI.poll(cursor, signal)) as PollingPayloadMap[T];
+      case "cloudflared":
+        return (await CloudflaredAPI.poll(
+          cursor,
+          signal,
+        )) as PollingPayloadMap[T];
+      default:
+        throw new Error(`Unsupported poll target: ${String(target)}`);
+    }
+  },
+};

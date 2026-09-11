@@ -1,1 +1,475 @@
-aW1wb3J0IHsKICBuZXh0VGljaywKICBvbkJlZm9yZVVubW91bnQsCiAgcmVmLAogIHRvVmFsdWUsCiAgd2F0Y2gsCiAgdHlwZSBDb21wb25lbnRQdWJsaWNJbnN0YW5jZSwKICB0eXBlIE1heWJlUmVmT3JHZXR0ZXIsCn0gZnJvbSAidnVlIjsKaW1wb3J0IHsKICBNQVRSSVhfVkVSVEVYX1NPVVJDRSwKICBQUk9CRV9CTFVSX1NPVVJDRSwKICBQUk9CRV9DT01QT1NJVEVfU09VUkNFLAogIFBST0JFX0ZJRUxEX1NPVVJDRSwKfSBmcm9tICIuL3NjYW5JbnRlbnNpdHlTaGFkZXJzIjsKCnR5cGUgUmVuZGVyVGFyZ2V0ID0geyB0ZXh0dXJlOiBXZWJHTFRleHR1cmU7IGZyYW1lYnVmZmVyOiBXZWJHTEZyYW1lYnVmZmVyIH07Cgp0eXBlIFVzZVNjYW5JbnRlbnNpdHlNYXRyaXhPcHRpb25zID0gewogIGFjdGl2ZTogTWF5YmVSZWZPckdldHRlcjxib29sZWFuPjsKICB0aWVyOiBNYXliZVJlZk9yR2V0dGVyPG51bWJlcj47Cn07CgpleHBvcnQgZnVuY3Rpb24gdXNlU2NhbkludGVuc2l0eU1hdHJpeCh7CiAgYWN0aXZlLAogIHRpZXIsCn06IFVzZVNjYW5JbnRlbnNpdHlNYXRyaXhPcHRpb25zKSB7CiAgY29uc3QgY2FudmFzUmVmID0gcmVmPEhUTUxDYW52YXNFbGVtZW50IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgaXNGYWxsYmFjayA9IHJlZihmYWxzZSk7CgogIGZ1bmN0aW9uIHNldENhbnZhcyhlbGVtZW50OiBFbGVtZW50IHwgQ29tcG9uZW50UHVibGljSW5zdGFuY2UgfCBudWxsKSB7CiAgICBjYW52YXNSZWYudmFsdWUgPSBlbGVtZW50IGluc3RhbmNlb2YgSFRNTENhbnZhc0VsZW1lbnQgPyBlbGVtZW50IDogbnVsbDsKICB9CgogIGxldCBncmFwaGljczogV2ViR0wyUmVuZGVyaW5nQ29udGV4dCB8IG51bGwgPSBudWxsOwogIGxldCBnZW9tZXRyeUFycmF5OiBXZWJHTFZlcnRleEFycmF5T2JqZWN0IHwgbnVsbCA9IG51bGw7CiAgbGV0IGdlb21ldHJ5QnVmZmVyOiBXZWJHTEJ1ZmZlciB8IG51bGwgPSBudWxsOwogIGxldCBmaWVsZFByb2dyYW06IFdlYkdMUHJvZ3JhbSB8IG51bGwgPSBudWxsOwogIGxldCBibHVyUHJvZ3JhbTogV2ViR0xQcm9ncmFtIHwgbnVsbCA9IG51bGw7CiAgbGV0IGNvbXBvc2l0ZVByb2dyYW06IFdlYkdMUHJvZ3JhbSB8IG51bGwgPSBudWxsOwogIGxldCBmZWVkYmFja0Zyb250OiBSZW5kZXJUYXJnZXQgfCBudWxsID0gbnVsbDsKICBsZXQgZmVlZGJhY2tCYWNrOiBSZW5kZXJUYXJnZXQgfCBudWxsID0gbnVsbDsKICBsZXQgYmx1ckhvcml6b250YWw6IFJlbmRlclRhcmdldCB8IG51bGwgPSBudWxsOwogIGxldCBibHVyVmVydGljYWw6IFJlbmRlclRhcmdldCB8IG51bGwgPSBudWxsOwogIGxldCBzaXplT2JzZXJ2ZXI6IFJlc2l6ZU9ic2VydmVyIHwgbnVsbCA9IG51bGw7CiAgbGV0IGFuaW1hdGlvblRva2VuID0gMDsKICBsZXQgbG9vcEFjdGl2ZSA9IGZhbHNlOwogIGxldCB2aXN1YWxUaWVyID0gdG9WYWx1ZSh0aWVyKTsKICBsZXQgcmVuZGVyU3RhcnRlZEF0ID0gMDsKICBsZXQgcmVkdWNlZE1vdGlvbiA9IGZhbHNlOwoKICBmdW5jdGlvbiBpbml0aWFsaXplUG9ydE1hdHJpeCgpIHsKICAgIHNodXRkb3duUG9ydE1hdHJpeCgpOwogICAgY29uc3QgY2FudmFzID0gY2FudmFzUmVmLnZhbHVlOwogICAgaWYgKCFjYW52YXMgfHwgIXRvVmFsdWUoYWN0aXZlKSkgcmV0dXJuOwogICAgY29uc3QgY29udGV4dCA9IGNhbnZhcy5nZXRDb250ZXh0KCJ3ZWJnbDIiLCB7CiAgICAgIGFudGlhbGlhczogZmFsc2UsCiAgICAgIGFscGhhOiB0cnVlLAogICAgICBwcmVzZXJ2ZURyYXdpbmdCdWZmZXI6IGZhbHNlLAogICAgICBwb3dlclByZWZlcmVuY2U6ICJsb3ctcG93ZXIiLAogICAgfSk7CiAgICBpZiAoIWNvbnRleHQpIHsKICAgICAgaXNGYWxsYmFjay52YWx1ZSA9IHRydWU7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGdyYXBoaWNzID0gY29udGV4dDsKICAgIGlzRmFsbGJhY2sudmFsdWUgPSBmYWxzZTsKICAgIHJlZHVjZWRNb3Rpb24gPSB3aW5kb3cubWF0Y2hNZWRpYSgKICAgICAgIihwcmVmZXJzLXJlZHVjZWQtbW90aW9uOiByZWR1Y2UpIiwKICAgICkubWF0Y2hlczsKICAgIGNhbnZhcy5hZGRFdmVudExpc3RlbmVyKCJ3ZWJnbGNvbnRleHRsb3N0IiwgaGFuZGxlTWF0cml4Q29udGV4dExvc3QpOwogICAgY2FudmFzLmFkZEV2ZW50TGlzdGVuZXIoCiAgICAgICJ3ZWJnbGNvbnRleHRyZXN0b3JlZCIsCiAgICAgIGhhbmRsZU1hdHJpeENvbnRleHRSZXN0b3JlZCwKICAgICk7CiAgICB0cnkgewogICAgICBjcmVhdGVNYXRyaXhQcm9ncmFtcygpOwogICAgICByZXNpemVQb3J0TWF0cml4KCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBjb25zb2xlLndhcm4oInNjYW4gaW50ZW5zaXR5IFdlYkdMIGluaXRpYWxpemF0aW9uIGZhaWxlZCIsIGVycm9yKTsKICAgICAgaXNGYWxsYmFjay52YWx1ZSA9IHRydWU7CiAgICAgIHNodXRkb3duUG9ydE1hdHJpeCgpOwogICAgICByZXR1cm47CiAgICB9CiAgICBzaXplT2JzZXJ2ZXIgPSBuZXcgUmVzaXplT2JzZXJ2ZXIocmVzaXplUG9ydE1hdHJpeCk7CiAgICBzaXplT2JzZXJ2ZXIub2JzZXJ2ZShjYW52YXMpOwogICAgdmlzdWFsVGllciA9IHRvVmFsdWUodGllcik7CiAgICBpZiAodmlzdWFsVGllciA9PT0gMykgc3RhcnRQb3J0V2F2ZSgpOwogIH0KCiAgZnVuY3Rpb24gY29tcGlsZU1hdHJpeFNoYWRlcihraW5kOiBudW1iZXIsIHNvdXJjZTogc3RyaW5nKSB7CiAgICBpZiAoIWdyYXBoaWNzKSB0aHJvdyBuZXcgRXJyb3IoIldlYkdMIGNvbnRleHQgdW5hdmFpbGFibGUiKTsKICAgIGNvbnN0IHNoYWRlciA9IGdyYXBoaWNzLmNyZWF0ZVNoYWRlcihraW5kKTsKICAgIGlmICghc2hhZGVyKSB0aHJvdyBuZXcgRXJyb3IoIlVuYWJsZSB0byBhbGxvY2F0ZSBzaGFkZXIiKTsKICAgIGdyYXBoaWNzLnNoYWRlclNvdXJjZShzaGFkZXIsIHNvdXJjZSk7CiAgICBncmFwaGljcy5jb21waWxlU2hhZGVyKHNoYWRlcik7CiAgICBpZiAoIWdyYXBoaWNzLmdldFNoYWRlclBhcmFtZXRlcihzaGFkZXIsIGdyYXBoaWNzLkNPTVBJTEVfU1RBVFVTKSkgewogICAgICBjb25zdCBtZXNzYWdlID0KICAgICAgICBncmFwaGljcy5nZXRTaGFkZXJJbmZvTG9nKHNoYWRlcikgfHwgIlNoYWRlciBjb21waWxhdGlvbiBmYWlsZWQiOwogICAgICBncmFwaGljcy5kZWxldGVTaGFkZXIoc2hhZGVyKTsKICAgICAgdGhyb3cgbmV3IEVycm9yKG1lc3NhZ2UpOwogICAgfQogICAgcmV0dXJuIHNoYWRlcjsKICB9CgogIGZ1bmN0aW9uIGxpbmtNYXRyaXhQcm9ncmFtKGZyYWdtZW50U291cmNlOiBzdHJpbmcpIHsKICAgIGlmICghZ3JhcGhpY3MpIHRocm93IG5ldyBFcnJvcigiV2ViR0wgY29udGV4dCB1bmF2YWlsYWJsZSIpOwogICAgY29uc3QgdmVydGV4ID0gY29tcGlsZU1hdHJpeFNoYWRlcigKICAgICAgZ3JhcGhpY3MuVkVSVEVYX1NIQURFUiwKICAgICAgTUFUUklYX1ZFUlRFWF9TT1VSQ0UsCiAgICApOwogICAgY29uc3QgZnJhZ21lbnQgPSBjb21waWxlTWF0cml4U2hhZGVyKAogICAgICBncmFwaGljcy5GUkFHTUVOVF9TSEFERVIsCiAgICAgIGZyYWdtZW50U291cmNlLAogICAgKTsKICAgIGNvbnN0IHByb2dyYW0gPSBncmFwaGljcy5jcmVhdGVQcm9ncmFtKCk7CiAgICBpZiAoIXByb2dyYW0pIHRocm93IG5ldyBFcnJvcigiVW5hYmxlIHRvIGFsbG9jYXRlIHByb2dyYW0iKTsKICAgIGdyYXBoaWNzLmF0dGFjaFNoYWRlcihwcm9ncmFtLCB2ZXJ0ZXgpOwogICAgZ3JhcGhpY3MuYXR0YWNoU2hhZGVyKHByb2dyYW0sIGZyYWdtZW50KTsKICAgIGdyYXBoaWNzLmJpbmRBdHRyaWJMb2NhdGlvbihwcm9ncmFtLCAwLCAiYV92ZXJ0ZXgiKTsKICAgIGdyYXBoaWNzLmxpbmtQcm9ncmFtKHByb2dyYW0pOwogICAgZ3JhcGhpY3MuZGVsZXRlU2hhZGVyKHZlcnRleCk7CiAgICBncmFwaGljcy5kZWxldGVTaGFkZXIoZnJhZ21lbnQpOwogICAgaWYgKCFncmFwaGljcy5nZXRQcm9ncmFtUGFyYW1ldGVyKHByb2dyYW0sIGdyYXBoaWNzLkxJTktfU1RBVFVTKSkgewogICAgICBjb25zdCBtZXNzYWdlID0KICAgICAgICBncmFwaGljcy5nZXRQcm9ncmFtSW5mb0xvZyhwcm9ncmFtKSB8fCAiUHJvZ3JhbSBsaW5rIGZhaWxlZCI7CiAgICAgIGdyYXBoaWNzLmRlbGV0ZVByb2dyYW0ocHJvZ3JhbSk7CiAgICAgIHRocm93IG5ldyBFcnJvcihtZXNzYWdlKTsKICAgIH0KICAgIHJldHVybiBwcm9ncmFtOwogIH0KCiAgZnVuY3Rpb24gY3JlYXRlTWF0cml4UHJvZ3JhbXMoKSB7CiAgICBpZiAoIWdyYXBoaWNzKSByZXR1cm47CiAgICBmaWVsZFByb2dyYW0gPSBsaW5rTWF0cml4UHJvZ3JhbShQUk9CRV9GSUVMRF9TT1VSQ0UpOwogICAgYmx1clByb2dyYW0gPSBsaW5rTWF0cml4UHJvZ3JhbShQUk9CRV9CTFVSX1NPVVJDRSk7CiAgICBjb21wb3NpdGVQcm9ncmFtID0gbGlua01hdHJpeFByb2dyYW0oUFJPQkVfQ09NUE9TSVRFX1NPVVJDRSk7CiAgICBnZW9tZXRyeUFycmF5ID0gZ3JhcGhpY3MuY3JlYXRlVmVydGV4QXJyYXkoKTsKICAgIGdlb21ldHJ5QnVmZmVyID0gZ3JhcGhpY3MuY3JlYXRlQnVmZmVyKCk7CiAgICBncmFwaGljcy5iaW5kVmVydGV4QXJyYXkoZ2VvbWV0cnlBcnJheSk7CiAgICBncmFwaGljcy5iaW5kQnVmZmVyKGdyYXBoaWNzLkFSUkFZX0JVRkZFUiwgZ2VvbWV0cnlCdWZmZXIpOwogICAgZ3JhcGhpY3MuYnVmZmVyRGF0YSgKICAgICAgZ3JhcGhpY3MuQVJSQVlfQlVGRkVSLAogICAgICBuZXcgRmxvYXQzMkFycmF5KFstMSwgLTEsIDEsIC0xLCAtMSwgMSwgLTEsIDEsIDEsIC0xLCAxLCAxXSksCiAgICAgIGdyYXBoaWNzLlNUQVRJQ19EUkFXLAogICAgKTsKICAgIGdyYXBoaWNzLmVuYWJsZVZlcnRleEF0dHJpYkFycmF5KDApOwogICAgZ3JhcGhpY3MudmVydGV4QXR0cmliUG9pbnRlcigwLCAyLCBncmFwaGljcy5GTE9BVCwgZmFsc2UsIDAsIDApOwogIH0KCiAgZnVuY3Rpb24gY3JlYXRlUmVuZGVyVGFyZ2V0KHdpZHRoOiBudW1iZXIsIGhlaWdodDogbnVtYmVyKTogUmVuZGVyVGFyZ2V0IHsKICAgIGlmICghZ3JhcGhpY3MpIHRocm93IG5ldyBFcnJvcigiV2ViR0wgY29udGV4dCB1bmF2YWlsYWJsZSIpOwogICAgY29uc3QgdGV4dHVyZSA9IGdyYXBoaWNzLmNyZWF0ZVRleHR1cmUoKTsKICAgIGNvbnN0IGZyYW1lYnVmZmVyID0gZ3JhcGhpY3MuY3JlYXRlRnJhbWVidWZmZXIoKTsKICAgIGlmICghdGV4dHVyZSB8fCAhZnJhbWVidWZmZXIpCiAgICAgIHRocm93IG5ldyBFcnJvcigiVW5hYmxlIHRvIGFsbG9jYXRlIHJlbmRlciB0YXJnZXQiKTsKICAgIGdyYXBoaWNzLmJpbmRUZXh0dXJlKGdyYXBoaWNzLlRFWFRVUkVfMkQsIHRleHR1cmUpOwogICAgZ3JhcGhpY3MudGV4UGFyYW1ldGVyaSgKICAgICAgZ3JhcGhpY3MuVEVYVFVSRV8yRCwKICAgICAgZ3JhcGhpY3MuVEVYVFVSRV9NSU5fRklMVEVSLAogICAgICBncmFwaGljcy5MSU5FQVIsCiAgICApOwogICAgZ3JhcGhpY3MudGV4UGFyYW1ldGVyaSgKICAgICAgZ3JhcGhpY3MuVEVYVFVSRV8yRCwKICAgICAgZ3JhcGhpY3MuVEVYVFVSRV9NQUdfRklMVEVSLAogICAgICBncmFwaGljcy5MSU5FQVIsCiAgICApOwogICAgZ3JhcGhpY3MudGV4UGFyYW1ldGVyaSgKICAgICAgZ3JhcGhpY3MuVEVYVFVSRV8yRCwKICAgICAgZ3JhcGhpY3MuVEVYVFVSRV9XUkFQX1MsCiAgICAgIGdyYXBoaWNzLkNMQU1QX1RPX0VER0UsCiAgICApOwogICAgZ3JhcGhpY3MudGV4UGFyYW1ldGVyaSgKICAgICAgZ3JhcGhpY3MuVEVYVFVSRV8yRCwKICAgICAgZ3JhcGhpY3MuVEVYVFVSRV9XUkFQX1QsCiAgICAgIGdyYXBoaWNzLkNMQU1QX1RPX0VER0UsCiAgICApOwogICAgZ3JhcGhpY3MudGV4SW1hZ2UyRCgKICAgICAgZ3JhcGhpY3MuVEVYVFVSRV8yRCwKICAgICAgMCwKICAgICAgZ3JhcGhpY3MuUkdCQSwKICAgICAgd2lkdGgsCiAgICAgIGhlaWdodCwKICAgICAgMCwKICAgICAgZ3JhcGhpY3MuUkdCQSwKICAgICAgZ3JhcGhpY3MuVU5TSUdORURfQllURSwKICAgICAgbnVsbCwKICAgICk7CiAgICBncmFwaGljcy5iaW5kRnJhbWVidWZmZXIoZ3JhcGhpY3MuRlJBTUVCVUZGRVIsIGZyYW1lYnVmZmVyKTsKICAgIGdyYXBoaWNzLmZyYW1lYnVmZmVyVGV4dHVyZTJEKAogICAgICBncmFwaGljcy5GUkFNRUJVRkZFUiwKICAgICAgZ3JhcGhpY3MuQ09MT1JfQVRUQUNITUVOVDAsCiAgICAgIGdyYXBoaWNzLlRFWFRVUkVfMkQsCiAgICAgIHRleHR1cmUsCiAgICAgIDAsCiAgICApOwogICAgaWYgKAogICAgICBncmFwaGljcy5jaGVja0ZyYW1lYnVmZmVyU3RhdHVzKGdyYXBoaWNzLkZSQU1FQlVGRkVSKSAhPT0KICAgICAgZ3JhcGhpY3MuRlJBTUVCVUZGRVJfQ09NUExFVEUKICAgICkgewogICAgICBncmFwaGljcy5kZWxldGVGcmFtZWJ1ZmZlcihmcmFtZWJ1ZmZlcik7CiAgICAgIGdyYXBoaWNzLmRlbGV0ZVRleHR1cmUodGV4dHVyZSk7CiAgICAgIHRocm93IG5ldyBFcnJvcigiSW5jb21wbGV0ZSBzY2FuIHZpc3VhbGl6YXRpb24gZnJhbWVidWZmZXIiKTsKICAgIH0KICAgIHJldHVybiB7IHRleHR1cmUsIGZyYW1lYnVmZmVyIH07CiAgfQoKICBmdW5jdGlvbiByZXNpemVQb3J0TWF0cml4KCkgewogICAgY29uc3QgY2FudmFzID0gY2FudmFzUmVmLnZhbHVlOwogICAgaWYgKCFncmFwaGljcyB8fCAhY2FudmFzKSByZXR1cm47CiAgICBjb25zdCBib3VuZHMgPSBjYW52YXMuZ2V0Qm91bmRpbmdDbGllbnRSZWN0KCk7CiAgICBpZiAoIWJvdW5kcy53aWR0aCB8fCAhYm91bmRzLmhlaWdodCkgcmV0dXJuOwogICAgY29uc3Qgc2NhbGUgPSBNYXRoLm1pbih3aW5kb3cuZGV2aWNlUGl4ZWxSYXRpbyB8fCAxLCAxLjUpOwogICAgY29uc3Qgd2lkdGggPSBNYXRoLm1heCgxLCBNYXRoLnJvdW5kKGJvdW5kcy53aWR0aCAqIHNjYWxlKSk7CiAgICBjb25zdCBoZWlnaHQgPSBNYXRoLm1heCgxLCBNYXRoLnJvdW5kKGJvdW5kcy5oZWlnaHQgKiBzY2FsZSkpOwogICAgaWYgKGNhbnZhcy53aWR0aCA9PT0gd2lkdGggJiYgY2FudmFzLmhlaWdodCA9PT0gaGVpZ2h0ICYmIGZlZWRiYWNrRnJvbnQpCiAgICAgIHJldHVybjsKICAgIGNhbnZhcy53aWR0aCA9IHdpZHRoOwogICAgY2FudmFzLmhlaWdodCA9IGhlaWdodDsKICAgIHJlbGVhc2VSZW5kZXJUYXJnZXRzKCk7CiAgICBmZWVkYmFja0Zyb250ID0gY3JlYXRlUmVuZGVyVGFyZ2V0KHdpZHRoLCBoZWlnaHQpOwogICAgZmVlZGJhY2tCYWNrID0gY3JlYXRlUmVuZGVyVGFyZ2V0KHdpZHRoLCBoZWlnaHQpOwogICAgYmx1ckhvcml6b250YWwgPSBjcmVhdGVSZW5kZXJUYXJnZXQod2lkdGgsIGhlaWdodCk7CiAgICBibHVyVmVydGljYWwgPSBjcmVhdGVSZW5kZXJUYXJnZXQod2lkdGgsIGhlaWdodCk7CiAgICBmb3IgKGNvbnN0IHRhcmdldCBvZiBbCiAgICAgIGZlZWRiYWNrRnJvbnQsCiAgICAgIGZlZWRiYWNrQmFjaywKICAgICAgYmx1ckhvcml6b250YWwsCiAgICAgIGJsdXJWZXJ0aWNhbCwKICAgIF0pIHsKICAgICAgZ3JhcGhpY3MuYmluZEZyYW1lYnVmZmVyKGdyYXBoaWNzLkZSQU1FQlVGRkVSLCB0YXJnZXQuZnJhbWVidWZmZXIpOwogICAgICBncmFwaGljcy5jbGVhckNvbG9yKDAsIDAsIDAsIDEpOwogICAgICBncmFwaGljcy5jbGVhcihncmFwaGljcy5DT0xPUl9CVUZGRVJfQklUKTsKICAgIH0KICAgIGdyYXBoaWNzLmJpbmRGcmFtZWJ1ZmZlcihncmFwaGljcy5GUkFNRUJVRkZFUiwgbnVsbCk7CiAgICBpZiAodmlzdWFsVGllciA9PT0gMykgc3RhcnRQb3J0V2F2ZSgpOwogIH0KCiAgZnVuY3Rpb24gY2xlYXJQb3J0V2F2ZVRhcmdldHMoKSB7CiAgICBpZiAoIWdyYXBoaWNzKSByZXR1cm47CiAgICBmb3IgKGNvbnN0IHRhcmdldCBvZiBbCiAgICAgIGZlZWRiYWNrRnJvbnQsCiAgICAgIGZlZWRiYWNrQmFjaywKICAgICAgYmx1ckhvcml6b250YWwsCiAgICAgIGJsdXJWZXJ0aWNhbCwKICAgIF0pIHsKICAgICAgaWYgKCF0YXJnZXQpIGNvbnRpbnVlOwogICAgICBncmFwaGljcy5iaW5kRnJhbWVidWZmZXIoZ3JhcGhpY3MuRlJBTUVCVUZGRVIsIHRhcmdldC5mcmFtZWJ1ZmZlcik7CiAgICAgIGdyYXBoaWNzLmNsZWFyQ29sb3IoMCwgMCwgMCwgMSk7CiAgICAgIGdyYXBoaWNzLmNsZWFyKGdyYXBoaWNzLkNPTE9SX0JVRkZFUl9CSVQpOwogICAgfQogICAgZ3JhcGhpY3MuYmluZEZyYW1lYnVmZmVyKGdyYXBoaWNzLkZSQU1FQlVGRkVSLCBudWxsKTsKICAgIGdyYXBoaWNzLmNsZWFyQ29sb3IoMCwgMCwgMCwgMCk7CiAgICBncmFwaGljcy5jbGVhcihncmFwaGljcy5DT0xPUl9CVUZGRVJfQklUKTsKICB9CgogIGZ1bmN0aW9uIHN0YXJ0UG9ydFdhdmUoKSB7CiAgICBpZiAoIWdyYXBoaWNzIHx8IHZpc3VhbFRpZXIgIT09IDMpIHJldHVybjsKICAgIGlmIChhbmltYXRpb25Ub2tlbikgY2FuY2VsQW5pbWF0aW9uRnJhbWUoYW5pbWF0aW9uVG9rZW4pOwogICAgYW5pbWF0aW9uVG9rZW4gPSAwOwogICAgbG9vcEFjdGl2ZSA9IGZhbHNlOwogICAgcmVuZGVyU3RhcnRlZEF0ID0gcGVyZm9ybWFuY2Uubm93KCk7CiAgICBjbGVhclBvcnRXYXZlVGFyZ2V0cygpOwogICAgcmVxdWVzdE1hdHJpeEZyYW1lcygpOwogIH0KCiAgZnVuY3Rpb24gc3RvcFBvcnRXYXZlKCkgewogICAgaWYgKGFuaW1hdGlvblRva2VuKSBjYW5jZWxBbmltYXRpb25GcmFtZShhbmltYXRpb25Ub2tlbik7CiAgICBhbmltYXRpb25Ub2tlbiA9IDA7CiAgICBsb29wQWN0aXZlID0gZmFsc2U7CiAgfQoKICBmdW5jdGlvbiBiaW5kVGV4dHVyZSh1bml0OiBudW1iZXIsIHRleHR1cmU6IFdlYkdMVGV4dHVyZSB8IG51bGwpIHsKICAgIGlmICghZ3JhcGhpY3MgfHwgIXRleHR1cmUpIHJldHVybjsKICAgIGdyYXBoaWNzLmFjdGl2ZVRleHR1cmUoZ3JhcGhpY3MuVEVYVFVSRTAgKyB1bml0KTsKICAgIGdyYXBoaWNzLmJpbmRUZXh0dXJlKGdyYXBoaWNzLlRFWFRVUkVfMkQsIHRleHR1cmUpOwogIH0KCiAgZnVuY3Rpb24gcmVuZGVyUG9ydE1hdHJpeCh0aW1lc3RhbXA6IG51bWJlcikgewogICAgaWYgKAogICAgICAhZ3JhcGhpY3MgfHwKICAgICAgIWNhbnZhc1JlZi52YWx1ZSB8fAogICAgICAhZmllbGRQcm9ncmFtIHx8CiAgICAgICFibHVyUHJvZ3JhbSB8fAogICAgICAhY29tcG9zaXRlUHJvZ3JhbSB8fAogICAgICAhZmVlZGJhY2tGcm9udCB8fAogICAgICAhZmVlZGJhY2tCYWNrIHx8CiAgICAgICFibHVySG9yaXpvbnRhbCB8fAogICAgICAhYmx1clZlcnRpY2FsCiAgICApIHsKICAgICAgbG9vcEFjdGl2ZSA9IGZhbHNlOwogICAgICByZXR1cm47CiAgICB9CiAgICBjb25zdCB3aWR0aCA9IGNhbnZhc1JlZi52YWx1ZS53aWR0aDsKICAgIGNvbnN0IGhlaWdodCA9IGNhbnZhc1JlZi52YWx1ZS5oZWlnaHQ7CiAgICBncmFwaGljcy52aWV3cG9ydCgwLCAwLCB3aWR0aCwgaGVpZ2h0KTsKICAgIGdyYXBoaWNzLmJpbmRWZXJ0ZXhBcnJheShnZW9tZXRyeUFycmF5KTsKCiAgICBncmFwaGljcy5iaW5kRnJhbWVidWZmZXIoZ3JhcGhpY3MuRlJBTUVCVUZGRVIsIGZlZWRiYWNrQmFjay5mcmFtZWJ1ZmZlcik7CiAgICBncmFwaGljcy51c2VQcm9ncmFtKGZpZWxkUHJvZ3JhbSk7CiAgICBiaW5kVGV4dHVyZSgwLCBmZWVkYmFja0Zyb250LnRleHR1cmUpOwogICAgZ3JhcGhpY3MudW5pZm9ybTFpKAogICAgICBncmFwaGljcy5nZXRVbmlmb3JtTG9jYXRpb24oZmllbGRQcm9ncmFtLCAidV9lY2hvVGV4dHVyZSIpLAogICAgICAwLAogICAgKTsKICAgIGdyYXBoaWNzLnVuaWZvcm0xZigKICAgICAgZ3JhcGhpY3MuZ2V0VW5pZm9ybUxvY2F0aW9uKGZpZWxkUHJvZ3JhbSwgInVfY2xvY2tTZWNvbmRzIiksCiAgICAgIHRpbWVzdGFtcCAvIDEwMDAsCiAgICApOwogICAgZ3JhcGhpY3MudW5pZm9ybTFmKAogICAgICBncmFwaGljcy5nZXRVbmlmb3JtTG9jYXRpb24oZmllbGRQcm9ncmFtLCAidV93YXZlQWdlIiksCiAgICAgICh0aW1lc3RhbXAgLSByZW5kZXJTdGFydGVkQXQpIC8gMTAwMCwKICAgICk7CiAgICBncmFwaGljcy51bmlmb3JtMWYoCiAgICAgIGdyYXBoaWNzLmdldFVuaWZvcm1Mb2NhdGlvbihmaWVsZFByb2dyYW0sICJ1X21vdGlvbkZhY3RvciIpLAogICAgICByZWR1Y2VkTW90aW9uID8gMCA6IDEsCiAgICApOwogICAgZ3JhcGhpY3MuZHJhd0FycmF5cyhncmFwaGljcy5UUklBTkdMRVMsIDAsIDYpOwoKICAgIGdyYXBoaWNzLmJpbmRGcmFtZWJ1ZmZlcihncmFwaGljcy5GUkFNRUJVRkZFUiwgYmx1ckhvcml6b250YWwuZnJhbWVidWZmZXIpOwogICAgZ3JhcGhpY3MudXNlUHJvZ3JhbShibHVyUHJvZ3JhbSk7CiAgICBiaW5kVGV4dHVyZSgwLCBmZWVkYmFja0JhY2sudGV4dHVyZSk7CiAgICBncmFwaGljcy51bmlmb3JtMWkoCiAgICAgIGdyYXBoaWNzLmdldFVuaWZvcm1Mb2NhdGlvbihibHVyUHJvZ3JhbSwgInVfc291cmNlRnJhbWUiKSwKICAgICAgMCwKICAgICk7CiAgICBncmFwaGljcy51bmlmb3JtMmYoCiAgICAgIGdyYXBoaWNzLmdldFVuaWZvcm1Mb2NhdGlvbihibHVyUHJvZ3JhbSwgInVfYmx1ckF4aXMiKSwKICAgICAgMSwKICAgICAgMCwKICAgICk7CiAgICBncmFwaGljcy51bmlmb3JtMmYoCiAgICAgIGdyYXBoaWNzLmdldFVuaWZvcm1Mb2NhdGlvbihibHVyUHJvZ3JhbSwgInVfZnJhbWVTaXplIiksCiAgICAgIHdpZHRoLAogICAgICBoZWlnaHQsCiAgICApOwogICAgZ3JhcGhpY3MuZHJhd0FycmF5cyhncmFwaGljcy5UUklBTkdMRVMsIDAsIDYpOwoKICAgIGdyYXBoaWNzLmJpbmRGcmFtZWJ1ZmZlcihncmFwaGljcy5GUkFNRUJVRkZFUiwgYmx1clZlcnRpY2FsLmZyYW1lYnVmZmVyKTsKICAgIGJpbmRUZXh0dXJlKDAsIGJsdXJIb3Jpem9udGFsLnRleHR1cmUpOwogICAgZ3JhcGhpY3MudW5pZm9ybTJmKAogICAgICBncmFwaGljcy5nZXRVbmlmb3JtTG9jYXRpb24oYmx1clByb2dyYW0sICJ1X2JsdXJBeGlzIiksCiAgICAgIDAsCiAgICAgIDEsCiAgICApOwogICAgZ3JhcGhpY3MuZHJhd0FycmF5cyhncmFwaGljcy5UUklBTkdMRVMsIDAsIDYpOwoKICAgIGdyYXBoaWNzLmJpbmRGcmFtZWJ1ZmZlcihncmFwaGljcy5GUkFNRUJVRkZFUiwgbnVsbCk7CiAgICBncmFwaGljcy51c2VQcm9ncmFtKGNvbXBvc2l0ZVByb2dyYW0pOwogICAgYmluZFRleHR1cmUoMCwgZmVlZGJhY2tCYWNrLnRleHR1cmUpOwogICAgYmluZFRleHR1cmUoMSwgYmx1clZlcnRpY2FsLnRleHR1cmUpOwogICAgZ3JhcGhpY3MudW5pZm9ybTFpKAogICAgICBncmFwaGljcy5nZXRVbmlmb3JtTG9jYXRpb24oY29tcG9zaXRlUHJvZ3JhbSwgInVfcHJvYmVGcmFtZSIpLAogICAgICAwLAogICAgKTsKICAgIGdyYXBoaWNzLnVuaWZvcm0xaSgKICAgICAgZ3JhcGhpY3MuZ2V0VW5pZm9ybUxvY2F0aW9uKGNvbXBvc2l0ZVByb2dyYW0sICJ1X2hhbG9GcmFtZSIpLAogICAgICAxLAogICAgKTsKICAgIGdyYXBoaWNzLmRyYXdBcnJheXMoZ3JhcGhpY3MuVFJJQU5HTEVTLCAwLCA2KTsKCiAgICBbZmVlZGJhY2tGcm9udCwgZmVlZGJhY2tCYWNrXSA9IFtmZWVkYmFja0JhY2ssIGZlZWRiYWNrRnJvbnRdOwogICAgY29uc3Qga2VlcEFuaW1hdGluZyA9ICFyZWR1Y2VkTW90aW9uICYmIHZpc3VhbFRpZXIgPT09IDM7CiAgICBpZiAoa2VlcEFuaW1hdGluZyAmJiB0b1ZhbHVlKGFjdGl2ZSkpIHsKICAgICAgYW5pbWF0aW9uVG9rZW4gPSByZXF1ZXN0QW5pbWF0aW9uRnJhbWUocmVuZGVyUG9ydE1hdHJpeCk7CiAgICB9IGVsc2UgewogICAgICBhbmltYXRpb25Ub2tlbiA9IDA7CiAgICAgIGxvb3BBY3RpdmUgPSBmYWxzZTsKICAgIH0KICB9CgogIGZ1bmN0aW9uIHJlcXVlc3RNYXRyaXhGcmFtZXMoKSB7CiAgICBpZiAoIWdyYXBoaWNzIHx8IGxvb3BBY3RpdmUgfHwgIXRvVmFsdWUoYWN0aXZlKSB8fCB2aXN1YWxUaWVyICE9PSAzKSByZXR1cm47CiAgICBsb29wQWN0aXZlID0gdHJ1ZTsKICAgIGFuaW1hdGlvblRva2VuID0gcmVxdWVzdEFuaW1hdGlvbkZyYW1lKHJlbmRlclBvcnRNYXRyaXgpOwogIH0KCiAgZnVuY3Rpb24gcmVsZWFzZVJlbmRlclRhcmdldHMoKSB7CiAgICBpZiAoZ3JhcGhpY3MpIHsKICAgICAgZm9yIChjb25zdCB0YXJnZXQgb2YgWwogICAgICAgIGZlZWRiYWNrRnJvbnQsCiAgICAgICAgZmVlZGJhY2tCYWNrLAogICAgICAgIGJsdXJIb3Jpem9udGFsLAogICAgICAgIGJsdXJWZXJ0aWNhbCwKICAgICAgXSkgewogICAgICAgIGlmICghdGFyZ2V0KSBjb250aW51ZTsKICAgICAgICBncmFwaGljcy5kZWxldGVGcmFtZWJ1ZmZlcih0YXJnZXQuZnJhbWVidWZmZXIpOwogICAgICAgIGdyYXBoaWNzLmRlbGV0ZVRleHR1cmUodGFyZ2V0LnRleHR1cmUpOwogICAgICB9CiAgICB9CiAgICBmZWVkYmFja0Zyb250ID0gbnVsbDsKICAgIGZlZWRiYWNrQmFjayA9IG51bGw7CiAgICBibHVySG9yaXpvbnRhbCA9IG51bGw7CiAgICBibHVyVmVydGljYWwgPSBudWxsOwogIH0KCiAgZnVuY3Rpb24gcmVsZWFzZU1hdHJpeFByb2dyYW1zKCkgewogICAgaWYgKGdyYXBoaWNzKSB7CiAgICAgIGZvciAoY29uc3QgcHJvZ3JhbSBvZiBbZmllbGRQcm9ncmFtLCBibHVyUHJvZ3JhbSwgY29tcG9zaXRlUHJvZ3JhbV0pIHsKICAgICAgICBpZiAocHJvZ3JhbSkgZ3JhcGhpY3MuZGVsZXRlUHJvZ3JhbShwcm9ncmFtKTsKICAgICAgfQogICAgICBpZiAoZ2VvbWV0cnlCdWZmZXIpIGdyYXBoaWNzLmRlbGV0ZUJ1ZmZlcihnZW9tZXRyeUJ1ZmZlcik7CiAgICAgIGlmIChnZW9tZXRyeUFycmF5KSBncmFwaGljcy5kZWxldGVWZXJ0ZXhBcnJheShnZW9tZXRyeUFycmF5KTsKICAgIH0KICAgIGZpZWxkUHJvZ3JhbSA9IG51bGw7CiAgICBibHVyUHJvZ3JhbSA9IG51bGw7CiAgICBjb21wb3NpdGVQcm9ncmFtID0gbnVsbDsKICAgIGdlb21ldHJ5QnVmZmVyID0gbnVsbDsKICAgIGdlb21ldHJ5QXJyYXkgPSBudWxsOwogIH0KCiAgZnVuY3Rpb24gc2h1dGRvd25Qb3J0TWF0cml4KCkgewogICAgaWYgKGFuaW1hdGlvblRva2VuKSBjYW5jZWxBbmltYXRpb25GcmFtZShhbmltYXRpb25Ub2tlbik7CiAgICBhbmltYXRpb25Ub2tlbiA9IDA7CiAgICBsb29wQWN0aXZlID0gZmFsc2U7CiAgICBzaXplT2JzZXJ2ZXI/LmRpc2Nvbm5lY3QoKTsKICAgIHNpemVPYnNlcnZlciA9IG51bGw7CiAgICBjb25zdCBjYW52YXMgPSBjYW52YXNSZWYudmFsdWU7CiAgICBjYW52YXM/LnJlbW92ZUV2ZW50TGlzdGVuZXIoIndlYmdsY29udGV4dGxvc3QiLCBoYW5kbGVNYXRyaXhDb250ZXh0TG9zdCk7CiAgICBjYW52YXM/LnJlbW92ZUV2ZW50TGlzdGVuZXIoCiAgICAgICJ3ZWJnbGNvbnRleHRyZXN0b3JlZCIsCiAgICAgIGhhbmRsZU1hdHJpeENvbnRleHRSZXN0b3JlZCwKICAgICk7CiAgICByZWxlYXNlUmVuZGVyVGFyZ2V0cygpOwogICAgcmVsZWFzZU1hdHJpeFByb2dyYW1zKCk7CiAgICBncmFwaGljcyA9IG51bGw7CiAgfQoKICBmdW5jdGlvbiBoYW5kbGVNYXRyaXhDb250ZXh0TG9zdChldmVudDogRXZlbnQpIHsKICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KCk7CiAgICBpZiAoYW5pbWF0aW9uVG9rZW4pIGNhbmNlbEFuaW1hdGlvbkZyYW1lKGFuaW1hdGlvblRva2VuKTsKICAgIGFuaW1hdGlvblRva2VuID0gMDsKICAgIGxvb3BBY3RpdmUgPSBmYWxzZTsKICB9CgogIGZ1bmN0aW9uIGhhbmRsZU1hdHJpeENvbnRleHRSZXN0b3JlZCgpIHsKICAgIHNodXRkb3duUG9ydE1hdHJpeCgpOwogICAgdm9pZCBuZXh0VGljayhpbml0aWFsaXplUG9ydE1hdHJpeCk7CiAgfQoKICB3YXRjaCgKICAgICgpID0+IHRvVmFsdWUoYWN0aXZlKSwKICAgIGFzeW5jIChpc0FjdGl2ZSkgPT4gewogICAgICBpZiAoIWlzQWN0aXZlKSB7CiAgICAgICAgc2h1dGRvd25Qb3J0TWF0cml4KCk7CiAgICAgICAgcmV0dXJuOwogICAgICB9CiAgICAgIGF3YWl0IG5leHRUaWNrKCk7CiAgICAgIGluaXRpYWxpemVQb3J0TWF0cml4KCk7CiAgICB9LAogICAgeyBpbW1lZGlhdGU6IHRydWUgfSwKICApOwoKICB3YXRjaCgKICAgICgpID0+IHRvVmFsdWUodGllciksCiAgICAodmFsdWUpID0+IHsKICAgICAgdmlzdWFsVGllciA9IHZhbHVlOwogICAgICBpZiAodmFsdWUgPT09IDMpIHsKICAgICAgICBzdGFydFBvcnRXYXZlKCk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgc3RvcFBvcnRXYXZlKCk7CiAgICAgIH0KICAgIH0sCiAgICB7IGltbWVkaWF0ZTogdHJ1ZSB9LAogICk7CgogIG9uQmVmb3JlVW5tb3VudChzaHV0ZG93blBvcnRNYXRyaXgpOwoKICByZXR1cm4gewogICAgc2V0Q2FudmFzLAogICAgaXNGYWxsYmFjaywKICAgIGluaXRpYWxpemU6IGluaXRpYWxpemVQb3J0TWF0cml4LAogICAgc2h1dGRvd246IHNodXRkb3duUG9ydE1hdHJpeCwKICB9Owp9Cg==
+import {
+  nextTick,
+  onBeforeUnmount,
+  ref,
+  toValue,
+  watch,
+  type ComponentPublicInstance,
+  type MaybeRefOrGetter,
+} from "vue";
+import {
+  MATRIX_VERTEX_SOURCE,
+  PROBE_BLUR_SOURCE,
+  PROBE_COMPOSITE_SOURCE,
+  PROBE_FIELD_SOURCE,
+} from "./scanIntensityShaders";
+
+type RenderTarget = { texture: WebGLTexture; framebuffer: WebGLFramebuffer };
+
+type UseScanIntensityMatrixOptions = {
+  active: MaybeRefOrGetter<boolean>;
+  tier: MaybeRefOrGetter<number>;
+};
+
+export function useScanIntensityMatrix({
+  active,
+  tier,
+}: UseScanIntensityMatrixOptions) {
+  const canvasRef = ref<HTMLCanvasElement | null>(null);
+  const isFallback = ref(false);
+
+  function setCanvas(element: Element | ComponentPublicInstance | null) {
+    canvasRef.value = element instanceof HTMLCanvasElement ? element : null;
+  }
+
+  let graphics: WebGL2RenderingContext | null = null;
+  let geometryArray: WebGLVertexArrayObject | null = null;
+  let geometryBuffer: WebGLBuffer | null = null;
+  let fieldProgram: WebGLProgram | null = null;
+  let blurProgram: WebGLProgram | null = null;
+  let compositeProgram: WebGLProgram | null = null;
+  let feedbackFront: RenderTarget | null = null;
+  let feedbackBack: RenderTarget | null = null;
+  let blurHorizontal: RenderTarget | null = null;
+  let blurVertical: RenderTarget | null = null;
+  let sizeObserver: ResizeObserver | null = null;
+  let animationToken = 0;
+  let loopActive = false;
+  let visualTier = toValue(tier);
+  let renderStartedAt = 0;
+  let reducedMotion = false;
+
+  function initializePortMatrix() {
+    shutdownPortMatrix();
+    const canvas = canvasRef.value;
+    if (!canvas || !toValue(active)) return;
+    const context = canvas.getContext("webgl2", {
+      antialias: false,
+      alpha: true,
+      preserveDrawingBuffer: false,
+      powerPreference: "low-power",
+    });
+    if (!context) {
+      isFallback.value = true;
+      return;
+    }
+    graphics = context;
+    isFallback.value = false;
+    reducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
+    canvas.addEventListener("webglcontextlost", handleMatrixContextLost);
+    canvas.addEventListener(
+      "webglcontextrestored",
+      handleMatrixContextRestored,
+    );
+    try {
+      createMatrixPrograms();
+      resizePortMatrix();
+    } catch (error) {
+      console.warn("scan intensity WebGL initialization failed", error);
+      isFallback.value = true;
+      shutdownPortMatrix();
+      return;
+    }
+    sizeObserver = new ResizeObserver(resizePortMatrix);
+    sizeObserver.observe(canvas);
+    visualTier = toValue(tier);
+    if (visualTier === 3) startPortWave();
+  }
+
+  function compileMatrixShader(kind: number, source: string) {
+    if (!graphics) throw new Error("WebGL context unavailable");
+    const shader = graphics.createShader(kind);
+    if (!shader) throw new Error("Unable to allocate shader");
+    graphics.shaderSource(shader, source);
+    graphics.compileShader(shader);
+    if (!graphics.getShaderParameter(shader, graphics.COMPILE_STATUS)) {
+      const message =
+        graphics.getShaderInfoLog(shader) || "Shader compilation failed";
+      graphics.deleteShader(shader);
+      throw new Error(message);
+    }
+    return shader;
+  }
+
+  function linkMatrixProgram(fragmentSource: string) {
+    if (!graphics) throw new Error("WebGL context unavailable");
+    const vertex = compileMatrixShader(
+      graphics.VERTEX_SHADER,
+      MATRIX_VERTEX_SOURCE,
+    );
+    const fragment = compileMatrixShader(
+      graphics.FRAGMENT_SHADER,
+      fragmentSource,
+    );
+    const program = graphics.createProgram();
+    if (!program) throw new Error("Unable to allocate program");
+    graphics.attachShader(program, vertex);
+    graphics.attachShader(program, fragment);
+    graphics.bindAttribLocation(program, 0, "a_vertex");
+    graphics.linkProgram(program);
+    graphics.deleteShader(vertex);
+    graphics.deleteShader(fragment);
+    if (!graphics.getProgramParameter(program, graphics.LINK_STATUS)) {
+      const message =
+        graphics.getProgramInfoLog(program) || "Program link failed";
+      graphics.deleteProgram(program);
+      throw new Error(message);
+    }
+    return program;
+  }
+
+  function createMatrixPrograms() {
+    if (!graphics) return;
+    fieldProgram = linkMatrixProgram(PROBE_FIELD_SOURCE);
+    blurProgram = linkMatrixProgram(PROBE_BLUR_SOURCE);
+    compositeProgram = linkMatrixProgram(PROBE_COMPOSITE_SOURCE);
+    geometryArray = graphics.createVertexArray();
+    geometryBuffer = graphics.createBuffer();
+    graphics.bindVertexArray(geometryArray);
+    graphics.bindBuffer(graphics.ARRAY_BUFFER, geometryBuffer);
+    graphics.bufferData(
+      graphics.ARRAY_BUFFER,
+      new Float32Array([-1, -1, 1, -1, -1, 1, -1, 1, 1, -1, 1, 1]),
+      graphics.STATIC_DRAW,
+    );
+    graphics.enableVertexAttribArray(0);
+    graphics.vertexAttribPointer(0, 2, graphics.FLOAT, false, 0, 0);
+  }
+
+  function createRenderTarget(width: number, height: number): RenderTarget {
+    if (!graphics) throw new Error("WebGL context unavailable");
+    const texture = graphics.createTexture();
+    const framebuffer = graphics.createFramebuffer();
+    if (!texture || !framebuffer)
+      throw new Error("Unable to allocate render target");
+    graphics.bindTexture(graphics.TEXTURE_2D, texture);
+    graphics.texParameteri(
+      graphics.TEXTURE_2D,
+      graphics.TEXTURE_MIN_FILTER,
+      graphics.LINEAR,
+    );
+    graphics.texParameteri(
+      graphics.TEXTURE_2D,
+      graphics.TEXTURE_MAG_FILTER,
+      graphics.LINEAR,
+    );
+    graphics.texParameteri(
+      graphics.TEXTURE_2D,
+      graphics.TEXTURE_WRAP_S,
+      graphics.CLAMP_TO_EDGE,
+    );
+    graphics.texParameteri(
+      graphics.TEXTURE_2D,
+      graphics.TEXTURE_WRAP_T,
+      graphics.CLAMP_TO_EDGE,
+    );
+    graphics.texImage2D(
+      graphics.TEXTURE_2D,
+      0,
+      graphics.RGBA,
+      width,
+      height,
+      0,
+      graphics.RGBA,
+      graphics.UNSIGNED_BYTE,
+      null,
+    );
+    graphics.bindFramebuffer(graphics.FRAMEBUFFER, framebuffer);
+    graphics.framebufferTexture2D(
+      graphics.FRAMEBUFFER,
+      graphics.COLOR_ATTACHMENT0,
+      graphics.TEXTURE_2D,
+      texture,
+      0,
+    );
+    if (
+      graphics.checkFramebufferStatus(graphics.FRAMEBUFFER) !==
+      graphics.FRAMEBUFFER_COMPLETE
+    ) {
+      graphics.deleteFramebuffer(framebuffer);
+      graphics.deleteTexture(texture);
+      throw new Error("Incomplete scan visualization framebuffer");
+    }
+    return { texture, framebuffer };
+  }
+
+  function resizePortMatrix() {
+    const canvas = canvasRef.value;
+    if (!graphics || !canvas) return;
+    const bounds = canvas.getBoundingClientRect();
+    if (!bounds.width || !bounds.height) return;
+    const scale = Math.min(window.devicePixelRatio || 1, 1.5);
+    const width = Math.max(1, Math.round(bounds.width * scale));
+    const height = Math.max(1, Math.round(bounds.height * scale));
+    if (canvas.width === width && canvas.height === height && feedbackFront)
+      return;
+    canvas.width = width;
+    canvas.height = height;
+    releaseRenderTargets();
+    feedbackFront = createRenderTarget(width, height);
+    feedbackBack = createRenderTarget(width, height);
+    blurHorizontal = createRenderTarget(width, height);
+    blurVertical = createRenderTarget(width, height);
+    for (const target of [
+      feedbackFront,
+      feedbackBack,
+      blurHorizontal,
+      blurVertical,
+    ]) {
+      graphics.bindFramebuffer(graphics.FRAMEBUFFER, target.framebuffer);
+      graphics.clearColor(0, 0, 0, 1);
+      graphics.clear(graphics.COLOR_BUFFER_BIT);
+    }
+    graphics.bindFramebuffer(graphics.FRAMEBUFFER, null);
+    if (visualTier === 3) startPortWave();
+  }
+
+  function clearPortWaveTargets() {
+    if (!graphics) return;
+    for (const target of [
+      feedbackFront,
+      feedbackBack,
+      blurHorizontal,
+      blurVertical,
+    ]) {
+      if (!target) continue;
+      graphics.bindFramebuffer(graphics.FRAMEBUFFER, target.framebuffer);
+      graphics.clearColor(0, 0, 0, 1);
+      graphics.clear(graphics.COLOR_BUFFER_BIT);
+    }
+    graphics.bindFramebuffer(graphics.FRAMEBUFFER, null);
+    graphics.clearColor(0, 0, 0, 0);
+    graphics.clear(graphics.COLOR_BUFFER_BIT);
+  }
+
+  function startPortWave() {
+    if (!graphics || visualTier !== 3) return;
+    if (animationToken) cancelAnimationFrame(animationToken);
+    animationToken = 0;
+    loopActive = false;
+    renderStartedAt = performance.now();
+    clearPortWaveTargets();
+    requestMatrixFrames();
+  }
+
+  function stopPortWave() {
+    if (animationToken) cancelAnimationFrame(animationToken);
+    animationToken = 0;
+    loopActive = false;
+  }
+
+  function bindTexture(unit: number, texture: WebGLTexture | null) {
+    if (!graphics || !texture) return;
+    graphics.activeTexture(graphics.TEXTURE0 + unit);
+    graphics.bindTexture(graphics.TEXTURE_2D, texture);
+  }
+
+  function renderPortMatrix(timestamp: number) {
+    if (
+      !graphics ||
+      !canvasRef.value ||
+      !fieldProgram ||
+      !blurProgram ||
+      !compositeProgram ||
+      !feedbackFront ||
+      !feedbackBack ||
+      !blurHorizontal ||
+      !blurVertical
+    ) {
+      loopActive = false;
+      return;
+    }
+    const width = canvasRef.value.width;
+    const height = canvasRef.value.height;
+    graphics.viewport(0, 0, width, height);
+    graphics.bindVertexArray(geometryArray);
+
+    graphics.bindFramebuffer(graphics.FRAMEBUFFER, feedbackBack.framebuffer);
+    graphics.useProgram(fieldProgram);
+    bindTexture(0, feedbackFront.texture);
+    graphics.uniform1i(
+      graphics.getUniformLocation(fieldProgram, "u_echoTexture"),
+      0,
+    );
+    graphics.uniform1f(
+      graphics.getUniformLocation(fieldProgram, "u_clockSeconds"),
+      timestamp / 1000,
+    );
+    graphics.uniform1f(
+      graphics.getUniformLocation(fieldProgram, "u_waveAge"),
+      (timestamp - renderStartedAt) / 1000,
+    );
+    graphics.uniform1f(
+      graphics.getUniformLocation(fieldProgram, "u_motionFactor"),
+      reducedMotion ? 0 : 1,
+    );
+    graphics.drawArrays(graphics.TRIANGLES, 0, 6);
+
+    graphics.bindFramebuffer(graphics.FRAMEBUFFER, blurHorizontal.framebuffer);
+    graphics.useProgram(blurProgram);
+    bindTexture(0, feedbackBack.texture);
+    graphics.uniform1i(
+      graphics.getUniformLocation(blurProgram, "u_sourceFrame"),
+      0,
+    );
+    graphics.uniform2f(
+      graphics.getUniformLocation(blurProgram, "u_blurAxis"),
+      1,
+      0,
+    );
+    graphics.uniform2f(
+      graphics.getUniformLocation(blurProgram, "u_frameSize"),
+      width,
+      height,
+    );
+    graphics.drawArrays(graphics.TRIANGLES, 0, 6);
+
+    graphics.bindFramebuffer(graphics.FRAMEBUFFER, blurVertical.framebuffer);
+    bindTexture(0, blurHorizontal.texture);
+    graphics.uniform2f(
+      graphics.getUniformLocation(blurProgram, "u_blurAxis"),
+      0,
+      1,
+    );
+    graphics.drawArrays(graphics.TRIANGLES, 0, 6);
+
+    graphics.bindFramebuffer(graphics.FRAMEBUFFER, null);
+    graphics.useProgram(compositeProgram);
+    bindTexture(0, feedbackBack.texture);
+    bindTexture(1, blurVertical.texture);
+    graphics.uniform1i(
+      graphics.getUniformLocation(compositeProgram, "u_probeFrame"),
+      0,
+    );
+    graphics.uniform1i(
+      graphics.getUniformLocation(compositeProgram, "u_haloFrame"),
+      1,
+    );
+    graphics.drawArrays(graphics.TRIANGLES, 0, 6);
+
+    [feedbackFront, feedbackBack] = [feedbackBack, feedbackFront];
+    const keepAnimating = !reducedMotion && visualTier === 3;
+    if (keepAnimating && toValue(active)) {
+      animationToken = requestAnimationFrame(renderPortMatrix);
+    } else {
+      animationToken = 0;
+      loopActive = false;
+    }
+  }
+
+  function requestMatrixFrames() {
+    if (!graphics || loopActive || !toValue(active) || visualTier !== 3) return;
+    loopActive = true;
+    animationToken = requestAnimationFrame(renderPortMatrix);
+  }
+
+  function releaseRenderTargets() {
+    if (graphics) {
+      for (const target of [
+        feedbackFront,
+        feedbackBack,
+        blurHorizontal,
+        blurVertical,
+      ]) {
+        if (!target) continue;
+        graphics.deleteFramebuffer(target.framebuffer);
+        graphics.deleteTexture(target.texture);
+      }
+    }
+    feedbackFront = null;
+    feedbackBack = null;
+    blurHorizontal = null;
+    blurVertical = null;
+  }
+
+  function releaseMatrixPrograms() {
+    if (graphics) {
+      for (const program of [fieldProgram, blurProgram, compositeProgram]) {
+        if (program) graphics.deleteProgram(program);
+      }
+      if (geometryBuffer) graphics.deleteBuffer(geometryBuffer);
+      if (geometryArray) graphics.deleteVertexArray(geometryArray);
+    }
+    fieldProgram = null;
+    blurProgram = null;
+    compositeProgram = null;
+    geometryBuffer = null;
+    geometryArray = null;
+  }
+
+  function shutdownPortMatrix() {
+    if (animationToken) cancelAnimationFrame(animationToken);
+    animationToken = 0;
+    loopActive = false;
+    sizeObserver?.disconnect();
+    sizeObserver = null;
+    const canvas = canvasRef.value;
+    canvas?.removeEventListener("webglcontextlost", handleMatrixContextLost);
+    canvas?.removeEventListener(
+      "webglcontextrestored",
+      handleMatrixContextRestored,
+    );
+    releaseRenderTargets();
+    releaseMatrixPrograms();
+    graphics = null;
+  }
+
+  function handleMatrixContextLost(event: Event) {
+    event.preventDefault();
+    if (animationToken) cancelAnimationFrame(animationToken);
+    animationToken = 0;
+    loopActive = false;
+  }
+
+  function handleMatrixContextRestored() {
+    shutdownPortMatrix();
+    void nextTick(initializePortMatrix);
+  }
+
+  watch(
+    () => toValue(active),
+    async (isActive) => {
+      if (!isActive) {
+        shutdownPortMatrix();
+        return;
+      }
+      await nextTick();
+      initializePortMatrix();
+    },
+    { immediate: true },
+  );
+
+  watch(
+    () => toValue(tier),
+    (value) => {
+      visualTier = value;
+      if (value === 3) {
+        startPortWave();
+      } else {
+        stopPortWave();
+      }
+    },
+    { immediate: true },
+  );
+
+  onBeforeUnmount(shutdownPortMatrix);
+
+  return {
+    setCanvas,
+    isFallback,
+    initialize: initializePortMatrix,
+    shutdown: shutdownPortMatrix,
+  };
+}

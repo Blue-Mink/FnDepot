@@ -1,1 +1,108 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJhbiwgVHJhc2gyLCBVbmxvY2sgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgQ29uZmlybURhbmdlclBvcG92ZXIgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtRGFuZ2VyUG9wb3Zlci52dWUiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IFJlZnJlc2hCdXR0b24gZnJvbSAiQC9jb21wb25lbnRzL1JlZnJlc2hCdXR0b24udnVlIjsKCmRlZmluZVByb3BzPHsKICBibG9ja0lwczogKGlwczogc3RyaW5nW10pID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwogIGRlbGV0ZVNlbGVjdGVkRGF0ZTogKCkgPT4gUHJvbWlzZTx2b2lkPiB8IHZvaWQ7CiAgaXNCbG9ja2luZzogYm9vbGVhbjsKICBpc0RlbGV0aW5nOiBib29sZWFuOwogIGlzTXV0YXRpbmc6IGJvb2xlYW47CiAgaXNSZWxlYXNpbmc6IGJvb2xlYW47CiAgbG9hZGluZzogYm9vbGVhbjsKICByZWZyZXNoOiAoKSA9PiBQcm9taXNlPHZvaWQ+IHwgdm9pZDsKICByZWxlYXNlSXBzOiAoaXBzOiBzdHJpbmdbXSkgPT4gUHJvbWlzZTx2b2lkPiB8IHZvaWQ7CiAgc2VsZWN0ZWRCbG9ja2VkSXBzOiBzdHJpbmdbXTsKICBzZWxlY3RlZERhdGU6IHN0cmluZzsKICBzZWxlY3RlZFVuYmxvY2tlZElwczogc3RyaW5nW107Cn0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJmbGV4IHctZnVsbCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGp1c3RpZnktZW5kIGdhcC0yIj4KICAgIDxSZWZyZXNoQnV0dG9uCiAgICAgIDpsb2FkaW5nPSJsb2FkaW5nIgogICAgICA6ZGlzYWJsZWQ9ImxvYWRpbmciCiAgICAgIGNsYXNzPSJweC0yLjUgWyZfc3Bhbl06aGlkZGVuIFsmX3N2Z106bXItMCBzbTpweC0zIHNtOlsmX3NwYW5dOmlubGluZSBzbTpbJl9zdmddOm1yLTEuNSIKICAgICAgQGNsaWNrPSJyZWZyZXNoIgogICAgLz4KICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICB2LWlmPSJzZWxlY3RlZFVuYmxvY2tlZElwcy5sZW5ndGggPiAwIgogICAgICA6dGl0bGU9IgogICAgICAgIHQoJ2FkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5ibGFja2xpc3RTZWxlY3RlZFRpdGxlJywgewogICAgICAgICAgY291bnQ6IHNlbGVjdGVkVW5ibG9ja2VkSXBzLmxlbmd0aCwKICAgICAgICB9KQogICAgICAiCiAgICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmJsYWNrbGlzdERlc2NyaXB0aW9uJykiCiAgICAgIDpsb2FkaW5nPSJpc0Jsb2NraW5nIgogICAgICA6ZGlzYWJsZWQ9InNlbGVjdGVkVW5ibG9ja2VkSXBzLmxlbmd0aCA9PT0gMCB8fCBpc011dGF0aW5nIgogICAgICA6b24tY29uZmlybT0iKCkgPT4gYmxvY2tJcHMoc2VsZWN0ZWRVbmJsb2NrZWRJcHMpIgogICAgPgogICAgICA8dGVtcGxhdGUgI3RyaWdnZXI+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIGNsYXNzPSJib3JkZXItZGVzdHJ1Y3RpdmUvMzAgcHgtMi41IHRleHQteHMgdGV4dC1kZXN0cnVjdGl2ZSBob3ZlcjpiZy1kZXN0cnVjdGl2ZS8xMCBob3Zlcjp0ZXh0LWRlc3RydWN0aXZlIHNtOnB4LTQgc206dGV4dC1zbSIKICAgICAgICAgIDpkaXNhYmxlZD0ic2VsZWN0ZWRVbmJsb2NrZWRJcHMubGVuZ3RoID09PSAwIHx8IGlzTXV0YXRpbmciCiAgICAgICAgPgogICAgICAgICAgPEJhbiBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmJsYWNrbGlzdFNlbGVjdGVkIiwgewogICAgICAgICAgICAgIGNvdW50OiBzZWxlY3RlZFVuYmxvY2tlZElwcy5sZW5ndGgsCiAgICAgICAgICAgIH0pCiAgICAgICAgICB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L3RlbXBsYXRlPgogICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICB2LWlmPSJzZWxlY3RlZEJsb2NrZWRJcHMubGVuZ3RoID4gMCIKICAgICAgOnRpdGxlPSIKICAgICAgICB0KCdhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MudW5ibGFja2xpc3RTZWxlY3RlZFRpdGxlJywgewogICAgICAgICAgY291bnQ6IHNlbGVjdGVkQmxvY2tlZElwcy5sZW5ndGgsCiAgICAgICAgfSkKICAgICAgIgogICAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy51bmJsYWNrbGlzdERlc2NyaXB0aW9uJykiCiAgICAgIDpsb2FkaW5nPSJpc1JlbGVhc2luZyIKICAgICAgOmRpc2FibGVkPSJzZWxlY3RlZEJsb2NrZWRJcHMubGVuZ3RoID09PSAwIHx8IGlzTXV0YXRpbmciCiAgICAgIDpvbi1jb25maXJtPSIoKSA9PiByZWxlYXNlSXBzKHNlbGVjdGVkQmxvY2tlZElwcykiCiAgICA+CiAgICAgIDx0ZW1wbGF0ZSAjdHJpZ2dlcj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgY2xhc3M9InB4LTIuNSB0ZXh0LXhzIHRleHQtZm9yZWdyb3VuZCBzbTpweC00IHNtOnRleHQtc20iCiAgICAgICAgICA6ZGlzYWJsZWQ9InNlbGVjdGVkQmxvY2tlZElwcy5sZW5ndGggPT09IDAgfHwgaXNNdXRhdGluZyIKICAgICAgICA+CiAgICAgICAgICA8VW5sb2NrIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICB7ewogICAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MudW5ibGFja2xpc3RTZWxlY3RlZCIsIHsKICAgICAgICAgICAgICBjb3VudDogc2VsZWN0ZWRCbG9ja2VkSXBzLmxlbmd0aCwKICAgICAgICAgICAgfSkKICAgICAgICAgIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvdGVtcGxhdGU+CiAgICA8L0NvbmZpcm1EYW5nZXJQb3BvdmVyPgogICAgPENvbmZpcm1EYW5nZXJQb3BvdmVyCiAgICAgIDp0aXRsZT0iCiAgICAgICAgdCgnYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRlbGV0ZURhdGVUaXRsZScsIHsgZGF0ZTogc2VsZWN0ZWREYXRlIH0pCiAgICAgICIKICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGVsZXRlRGF0ZURlc2NyaXB0aW9uJykiCiAgICAgIDpsb2FkaW5nPSJpc0RlbGV0aW5nIgogICAgICA6ZGlzYWJsZWQ9ImlzRGVsZXRpbmciCiAgICAgIDpvbi1jb25maXJtPSJkZWxldGVTZWxlY3RlZERhdGUiCiAgICA+CiAgICAgIDx0ZW1wbGF0ZSAjdHJpZ2dlcj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgY2xhc3M9ImJvcmRlci1kZXN0cnVjdGl2ZS8zMCBweC0yLjUgdGV4dC14cyB0ZXh0LWRlc3RydWN0aXZlIGhvdmVyOmJnLWRlc3RydWN0aXZlLzEwIGhvdmVyOnRleHQtZGVzdHJ1Y3RpdmUgc206cHgtNCBzbTp0ZXh0LXNtIgogICAgICAgICAgOmRpc2FibGVkPSJpc0RlbGV0aW5nIgogICAgICAgID4KICAgICAgICAgIDxUcmFzaDIgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZWxldGVEYXRlQWN0aW9uIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC90ZW1wbGF0ZT4KICAgIDwvQ29uZmlybURhbmdlclBvcG92ZXI+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Ban, Trash2, Unlock } from "lucide-vue-next";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import { Button } from "@/components/ui/button";
+import RefreshButton from "@/components/RefreshButton.vue";
+
+defineProps<{
+  blockIps: (ips: string[]) => Promise<void> | void;
+  deleteSelectedDate: () => Promise<void> | void;
+  isBlocking: boolean;
+  isDeleting: boolean;
+  isMutating: boolean;
+  isReleasing: boolean;
+  loading: boolean;
+  refresh: () => Promise<void> | void;
+  releaseIps: (ips: string[]) => Promise<void> | void;
+  selectedBlockedIps: string[];
+  selectedDate: string;
+  selectedUnblockedIps: string[];
+}>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div class="flex w-full flex-wrap items-center justify-end gap-2">
+    <RefreshButton
+      :loading="loading"
+      :disabled="loading"
+      class="px-2.5 [&_span]:hidden [&_svg]:mr-0 sm:px-3 sm:[&_span]:inline sm:[&_svg]:mr-1.5"
+      @click="refresh"
+    />
+    <ConfirmDangerPopover
+      v-if="selectedUnblockedIps.length > 0"
+      :title="
+        t('admin.gatewayRequestLogs.blacklistSelectedTitle', {
+          count: selectedUnblockedIps.length,
+        })
+      "
+      :description="t('admin.gatewayRequestLogs.blacklistDescription')"
+      :loading="isBlocking"
+      :disabled="selectedUnblockedIps.length === 0 || isMutating"
+      :on-confirm="() => blockIps(selectedUnblockedIps)"
+    >
+      <template #trigger>
+        <Button
+          variant="outline"
+          class="border-destructive/30 px-2.5 text-xs text-destructive hover:bg-destructive/10 hover:text-destructive sm:px-4 sm:text-sm"
+          :disabled="selectedUnblockedIps.length === 0 || isMutating"
+        >
+          <Ban class="mr-2 h-4 w-4" />
+          {{
+            t("admin.gatewayRequestLogs.blacklistSelected", {
+              count: selectedUnblockedIps.length,
+            })
+          }}
+        </Button>
+      </template>
+    </ConfirmDangerPopover>
+    <ConfirmDangerPopover
+      v-if="selectedBlockedIps.length > 0"
+      :title="
+        t('admin.gatewayRequestLogs.unblacklistSelectedTitle', {
+          count: selectedBlockedIps.length,
+        })
+      "
+      :description="t('admin.gatewayRequestLogs.unblacklistDescription')"
+      :loading="isReleasing"
+      :disabled="selectedBlockedIps.length === 0 || isMutating"
+      :on-confirm="() => releaseIps(selectedBlockedIps)"
+    >
+      <template #trigger>
+        <Button
+          variant="outline"
+          class="px-2.5 text-xs text-foreground sm:px-4 sm:text-sm"
+          :disabled="selectedBlockedIps.length === 0 || isMutating"
+        >
+          <Unlock class="mr-2 h-4 w-4" />
+          {{
+            t("admin.gatewayRequestLogs.unblacklistSelected", {
+              count: selectedBlockedIps.length,
+            })
+          }}
+        </Button>
+      </template>
+    </ConfirmDangerPopover>
+    <ConfirmDangerPopover
+      :title="
+        t('admin.gatewayRequestLogs.deleteDateTitle', { date: selectedDate })
+      "
+      :description="t('admin.gatewayRequestLogs.deleteDateDescription')"
+      :loading="isDeleting"
+      :disabled="isDeleting"
+      :on-confirm="deleteSelectedDate"
+    >
+      <template #trigger>
+        <Button
+          variant="outline"
+          class="border-destructive/30 px-2.5 text-xs text-destructive hover:bg-destructive/10 hover:text-destructive sm:px-4 sm:text-sm"
+          :disabled="isDeleting"
+        >
+          <Trash2 class="mr-2 h-4 w-4" />
+          {{ t("admin.gatewayRequestLogs.deleteDateAction") }}
+        </Button>
+      </template>
+    </ConfirmDangerPopover>
+  </div>
+</template>

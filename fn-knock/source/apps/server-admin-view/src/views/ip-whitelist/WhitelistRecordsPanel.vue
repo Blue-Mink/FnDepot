@@ -1,1 +1,301 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IFNrZWxldG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NrZWxldG9uIjsKaW1wb3J0IHsKICBUYWJsZSwKICBUYWJsZUJvZHksCiAgVGFibGVDZWxsLAogIFRhYmxlSGVhZCwKICBUYWJsZUhlYWRlciwKICBUYWJsZVJvdywKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFibGUiOwppbXBvcnQgUmVmcmVzaEJ1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvUmVmcmVzaEJ1dHRvbi52dWUiOwppbXBvcnQgQ29uZmlybURhbmdlclBvcG92ZXIgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtRGFuZ2VyUG9wb3Zlci52dWUiOwppbXBvcnQgSHVtYW5GcmllbmRseVRpbWUgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9IdW1hbkZyaWVuZGx5VGltZS52dWUiOwppbXBvcnQgSW5saW5lQ29tbWVudEVkaXRvciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvSW5saW5lQ29tbWVudEVkaXRvci52dWUiOwppbXBvcnQgUGFnZWRUYWJsZUZvb3RlciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvbGlzdC9QYWdlZFRhYmxlRm9vdGVyLnZ1ZSI7CmltcG9ydCBTZWFyY2hJbnB1dCBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvU2VhcmNoSW5wdXQudnVlIjsKaW1wb3J0IHsgUmVmcmVzaEN3LCBTaGllbGRDaGVjaywgVHJhc2gyIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHR5cGUgeyBJcFdoaXRlbGlzdFBhZ2VDb250cm9sbGVyIH0gZnJvbSAiLi91c2VJcFdoaXRlbGlzdFBhZ2UiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7IGNvbnRyb2xsZXI6IElwV2hpdGVsaXN0UGFnZUNvbnRyb2xsZXIgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHsKICBjdXJyZW50UGFnZSwKICBmZXRjaFJlY29yZHMsCiAgZmlsdGVyZWRSZWNvcmRzLAogIGZvcm1hdFJlbWFpbmluZywKICBnZXRSZXNvbHZlU3RhdHVzTGFiZWwsCiAgZ2V0UmVzb2x2ZVN0YXR1c1ZhcmlhbnQsCiAgaGFuZGxlTGltaXRDaGFuZ2UsCiAgaGFuZGxlUGFnZUNoYW5nZSwKICBpc0luaXRpYWxpemluZywKICBsaW1pdCwKICBsb2FkaW5nLAogIHBhZ2luYXRlZFJlY29yZHMsCiAgcGFyc2VkTGltaXQsCiAgcmVjb3JkcywKICByZWZyZXNoaW5nSWQsCiAgcmVmcmVzaFJlY29yZCwKICByZW1vdmVSZWNvcmQsCiAgcmVtb3ZpbmdJZCwKICBzYXZlQ29tbWVudCwKICBzZWFyY2hRdWVyeSwKICBzaG93SW5pdGlhbGl6aW5nU2tlbGV0b24sCiAgdGFyZ2V0VHlwZUJhZGdlTGFiZWwsCn0gPSBwcm9wcy5jb250cm9sbGVyOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IHYtaWY9IiFpc0luaXRpYWxpemluZyIgY2xhc3M9Im1iLTQgZmxleCBpdGVtcy1jZW50ZXIgc3BhY2UteC0yIj4KICAgIDxTZWFyY2hJbnB1dAogICAgICB2LW1vZGVsPSJzZWFyY2hRdWVyeSIKICAgICAgOnBsYWNlaG9sZGVyPSJ0KCdhZG1pbi5pcFdoaXRlbGlzdC5zZWFyY2hQbGFjZWhvbGRlcicpIgogICAgICBjbGFzcz0ibWF4LXcteHMiCiAgICAvPgogICAgPFJlZnJlc2hCdXR0b24KICAgICAgaWNvbi1vbmx5CiAgICAgIDpsb2FkaW5nPSJsb2FkaW5nIgogICAgICA6ZGlzYWJsZWQ9ImxvYWRpbmciCiAgICAgIEBjbGljaz0iZmV0Y2hSZWNvcmRzIgogICAgLz4KICA8L2Rpdj4KICA8ZGl2CiAgICB2LWVsc2UtaWY9InNob3dJbml0aWFsaXppbmdTa2VsZXRvbiIKICAgIGNsYXNzPSJtYi00IGZsZXggaXRlbXMtY2VudGVyIHNwYWNlLXgtMiIKICA+CiAgICA8U2tlbGV0b24gY2xhc3M9ImgtOSB3LTYwIiAvPgogICAgPFNrZWxldG9uIGNsYXNzPSJoLTkgdy05IHJvdW5kZWQtbWQiIC8+CiAgPC9kaXY+CiAgPGRpdiB2LWVsc2UgY2xhc3M9Im1iLTQgaC05IiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KCiAgPGRpdiB2LWlmPSIhaXNJbml0aWFsaXppbmciIGNsYXNzPSJyb3VuZGVkLW1kIGJvcmRlciI+CiAgICA8VGFibGU+CiAgICAgIDxUYWJsZUhlYWRlcj4KICAgICAgICA8VGFibGVSb3c+CiAgICAgICAgICA8VGFibGVIZWFkPnt7IHQoImFkbWluLmlwV2hpdGVsaXN0LnRhcmdldCIpIH19PC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkPnt7IHQoImFkbWluLmlwV2hpdGVsaXN0LnN0YXR1cyIpIH19PC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkPnt7IHQoImFkbWluLmlwV2hpdGVsaXN0LnNvdXJjZSIpIH19PC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkPnt7IHQoImFkbWluLmlwV2hpdGVsaXN0LmNyZWF0ZWRBdCIpIH19PC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkPnt7IHQoImFkbWluLmlwV2hpdGVsaXN0LmNvbW1lbnQiKSB9fTwvVGFibGVIZWFkPgogICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bMTgwcHhdIHRleHQtcmlnaHQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC5hY3Rpb25zIikgfX0KICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgIDwvVGFibGVSb3c+CiAgICAgIDwvVGFibGVIZWFkZXI+CiAgICAgIDxUYWJsZUJvZHk+CiAgICAgICAgPFRhYmxlUm93IHYtaWY9ImxvYWRpbmcgJiYgcmVjb3Jkcy5sZW5ndGggPT09IDAiPgogICAgICAgICAgPFRhYmxlQ2VsbAogICAgICAgICAgICBjb2xzcGFuPSI2IgogICAgICAgICAgICBjbGFzcz0icHktNiB0ZXh0LWNlbnRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmlwV2hpdGVsaXN0LmxvYWRpbmciKSB9fQogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICA8VGFibGVSb3cgdi1lbHNlLWlmPSJwYWdpbmF0ZWRSZWNvcmRzLmxlbmd0aCA9PT0gMCI+CiAgICAgICAgICA8VGFibGVDZWxsCiAgICAgICAgICAgIGNvbHNwYW49IjYiCiAgICAgICAgICAgIGNsYXNzPSJweS02IHRleHQtY2VudGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uaXBXaGl0ZWxpc3QuZW1wdHkiKSB9fQogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICA8VGFibGVSb3cgdi1mb3I9InJlY29yZCBpbiBwYWdpbmF0ZWRSZWNvcmRzIiA6a2V5PSJyZWNvcmQuaWQiPgogICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0iZm9udC1tZWRpdW0iPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgPHNwYW4+e3sgcmVjb3JkLmlwIH19PC9zcGFuPgogICAgICAgICAgICAgIDxCYWRnZSB2YXJpYW50PSJvdXRsaW5lIj4KICAgICAgICAgICAgICAgIHt7IHRhcmdldFR5cGVCYWRnZUxhYmVsKHJlY29yZC50YXJnZXRUeXBlKSB9fQogICAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IHYtaWY9InJlY29yZC50YXJnZXRUeXBlID09PSAnY25hbWUnIiBjbGFzcz0ibXQtMiBzcGFjZS15LTEiPgogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIHYtZm9yPSJyZXNvbHZlZFRhcmdldCBpbiByZWNvcmQucmVzb2x2ZWRUYXJnZXRzIHx8IFtdIgogICAgICAgICAgICAgICAgOmtleT0icmVzb2x2ZWRUYXJnZXQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9InNlY29uZGFyeSIgY2xhc3M9ImZvbnQtbm9ybWFsIj4KICAgICAgICAgICAgICAgICAge3sgcmVzb2x2ZWRUYXJnZXQgfX0KICAgICAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgIHYtaWY9IiEocmVjb3JkLnJlc29sdmVkVGFyZ2V0cyB8fCBbXSkubGVuZ3RoIgogICAgICAgICAgICAgICAgY2xhc3M9ImJsb2NrIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmlwV2hpdGVsaXN0Lm5vUmVzb2x2ZWRSZWNvcmRzIikgfX0KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgdi1pZj0icmVjb3JkLnRhcmdldFR5cGUgPT09ICdjbmFtZScgJiYgcmVjb3JkLnJlc29sdmVNZXNzYWdlIgogICAgICAgICAgICAgIGNsYXNzPSJtdC0xIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgcmVjb3JkLnJlc29sdmVNZXNzYWdlIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgdi1pZj0icmVjb3JkLmlwTG9jYXRpb24iCiAgICAgICAgICAgICAgY2xhc3M9Im10LTAuNSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHJlY29yZC5pcExvY2F0aW9uIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICA8dGVtcGxhdGUgdi1pZj0icmVjb3JkLnRhcmdldFR5cGUgPT09ICdjbmFtZSciPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC1jb2wgaXRlbXMtc3RhcnQgZ2FwLTEuNSI+CiAgICAgICAgICAgICAgICA8QmFkZ2UgOnZhcmlhbnQ9ImdldFJlc29sdmVTdGF0dXNWYXJpYW50KHJlY29yZCkiPgogICAgICAgICAgICAgICAgICB7eyBnZXRSZXNvbHZlU3RhdHVzTGFiZWwocmVjb3JkKSB9fQogICAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgICAgdCgiYWRtaW4uaXBXaGl0ZWxpc3QuY2hlY2tJbnRlcnZhbCIsIHsKICAgICAgICAgICAgICAgICAgICAgIG1pbnV0ZXM6IHJlY29yZC5jaGVja0ludGVydmFsTWludXRlcyB8fCA1LAogICAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICB2LWlmPSJyZWNvcmQubGFzdENoZWNrZWRBdCIKICAgICAgICAgICAgICAgICAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC5sYXN0Q2hlY2tlZEF0IikgfX0KICAgICAgICAgICAgICAgICAgPEh1bWFuRnJpZW5kbHlUaW1lIDp2YWx1ZT0icmVjb3JkLmxhc3RDaGVja2VkQXQgKiAxMDAwIiAvPgogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgdi1pZj0icmVjb3JkLmV4cGlyZUF0IgogICAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmlwV2hpdGVsaXN0LmV4cGlyZXNBdCIpIH19CiAgICAgICAgICAgICAgICAgIDxIdW1hbkZyaWVuZGx5VGltZSA6dmFsdWU9InJlY29yZC5leHBpcmVBdCAqIDEwMDAiIC8+CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8ZGl2IHYtZWxzZSBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgdGV4dC1zbSB0ZXh0LWdyZWVuLTYwMCI+CiAgICAgICAgICAgICAgICAgIDxTaGllbGRDaGVjayBjbGFzcz0ibXItMSBoLTQgdy00IiAvPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC5wZXJtYW5lbnQiKSB9fQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgIDx0ZW1wbGF0ZSB2LWVsc2U+CiAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgdi1pZj0iIXJlY29yZC5leHBpcmVBdCIKICAgICAgICAgICAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciB0ZXh0LWdyZWVuLTYwMCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8U2hpZWxkQ2hlY2sgY2xhc3M9Im1yLTEgaC00IHctNCIgLz4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmlwV2hpdGVsaXN0LnBlcm1hbmVudCIpIH19CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiB2LWVsc2UgY2xhc3M9ImZsZXggZmxleC1jb2wiPgogICAgICAgICAgICAgICAgPHNwYW4+e3sgZm9ybWF0UmVtYWluaW5nKHJlY29yZC5leHBpcmVBdCkgfX08L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC5leHBpcmVzQXQiKSB9fQogICAgICAgICAgICAgICAgICA8SHVtYW5GcmllbmRseVRpbWUgOnZhbHVlPSJyZWNvcmQuZXhwaXJlQXQgKiAxMDAwIiAvPgogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICA8QmFkZ2UKICAgICAgICAgICAgICA6dmFyaWFudD0icmVjb3JkLnNvdXJjZSA9PT0gJ21hbnVhbCcgPyAnZGVmYXVsdCcgOiAnc2Vjb25kYXJ5JyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICByZWNvcmQuc291cmNlID09PSAibWFudWFsIgogICAgICAgICAgICAgICAgICA/IHQoImFkbWluLmlwV2hpdGVsaXN0LnNvdXJjZU1hbnVhbCIpCiAgICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uaXBXaGl0ZWxpc3Quc291cmNlTG9naW5HcmFudCIpCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0id2hpdGVzcGFjZS1ub3dyYXAgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICA8SHVtYW5GcmllbmRseVRpbWUgOnZhbHVlPSJyZWNvcmQuY3JlYXRlZEF0ICogMTAwMCIgLz4KICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgPFRhYmxlQ2VsbD4KICAgICAgICAgICAgPElubGluZUNvbW1lbnRFZGl0b3IKICAgICAgICAgICAgICA6dGV4dD0icmVjb3JkLmNvbW1lbnQiCiAgICAgICAgICAgICAgOnNhdmU9Iih2YWx1ZSkgPT4gc2F2ZUNvbW1lbnQocmVjb3JkLmlkLCB2YWx1ZSkiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InRleHQtcmlnaHQiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktZW5kIGdhcC0yIj4KICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICB2LWlmPSJyZWNvcmQudGFyZ2V0VHlwZSA9PT0gJ2NuYW1lJyIKICAgICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0icmVmcmVzaGluZ0lkID09PSByZWNvcmQuaWQiCiAgICAgICAgICAgICAgICBAY2xpY2s9InJlZnJlc2hSZWNvcmQocmVjb3JkLmlkKSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8UmVmcmVzaEN3CiAgICAgICAgICAgICAgICAgIDpjbGFzcz0iWwogICAgICAgICAgICAgICAgICAgICdtci0xIGgtNCB3LTQnLAogICAgICAgICAgICAgICAgICAgIHJlZnJlc2hpbmdJZCA9PT0gcmVjb3JkLmlkID8gJ2FuaW1hdGUtc3BpbicgOiAnJywKICAgICAgICAgICAgICAgICAgXSIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC5yZWZyZXNoTm93IikgfX0KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8Q29uZmlybURhbmdlclBvcG92ZXIKICAgICAgICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4uaXBXaGl0ZWxpc3QuZGVsZXRlVGl0bGUnKSIKICAgICAgICAgICAgICAgIDpkZXNjcmlwdGlvbj0iCiAgICAgICAgICAgICAgICAgIHQoJ2FkbWluLmlwV2hpdGVsaXN0LmRlbGV0ZURlc2NyaXB0aW9uJywgewogICAgICAgICAgICAgICAgICAgIHRhcmdldDogcmVjb3JkLmlwLAogICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgOmxvYWRpbmc9InJlbW92aW5nSWQgPT09IHJlY29yZC5pZCIKICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0icmVtb3ZpbmdJZCA9PT0gcmVjb3JkLmlkIgogICAgICAgICAgICAgICAgOm9uLWNvbmZpcm09IigpID0+IHJlbW92ZVJlY29yZChyZWNvcmQuaWQpIgogICAgICAgICAgICAgICAgY29udGVudC1jbGFzcz0idy02MCB0ZXh0LWxlZnQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnY29tbW9uLmNvbmZpcm1EZWxldGUnKSIKICAgICAgICAgICAgICAgICAgICBjbGFzcz0iaC04IHctOCB0ZXh0LWRlc3RydWN0aXZlIGhvdmVyOmJnLWRlc3RydWN0aXZlLzEwIGhvdmVyOnRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJyZW1vdmluZ0lkID09PSByZWNvcmQuaWQiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8VHJhc2gyIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICA8L1RhYmxlUm93PgogICAgICA8L1RhYmxlQm9keT4KICAgIDwvVGFibGU+CiAgPC9kaXY+CiAgPGRpdgogICAgdi1lbHNlLWlmPSJzaG93SW5pdGlhbGl6aW5nU2tlbGV0b24iCiAgICBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIiCiAgPgogICAgPFRhYmxlPgogICAgICA8VGFibGVIZWFkZXI+CiAgICAgICAgPFRhYmxlUm93PgogICAgICAgICAgPFRhYmxlSGVhZD57eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC50YXJnZXQiKSB9fTwvVGFibGVIZWFkPgogICAgICAgICAgPFRhYmxlSGVhZD57eyB0KCJhZG1pbi5pcFdoaXRlbGlzdC5zdGF0dXNFeHBpcmVzIikgfX08L1RhYmxlSGVhZD4KICAgICAgICAgIDxUYWJsZUhlYWQ+e3sgdCgiYWRtaW4uaXBXaGl0ZWxpc3Quc291cmNlIikgfX08L1RhYmxlSGVhZD4KICAgICAgICAgIDxUYWJsZUhlYWQ+e3sgdCgiYWRtaW4uaXBXaGl0ZWxpc3QuY3JlYXRlZEF0IikgfX08L1RhYmxlSGVhZD4KICAgICAgICAgIDxUYWJsZUhlYWQ+e3sgdCgiYWRtaW4uaXBXaGl0ZWxpc3QuY29tbWVudCIpIH19PC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJ3LVsxODBweF0gdGV4dC1yaWdodCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmlwV2hpdGVsaXN0LmFjdGlvbnMiKSB9fQogICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgPC9UYWJsZUhlYWRlcj4KICAgICAgPFRhYmxlQm9keT4KICAgICAgICA8VGFibGVSb3cgdi1mb3I9ImluZGV4IGluIDYiIDprZXk9ImluZGV4Ij4KICAgICAgICAgIDxUYWJsZUNlbGw+PFNrZWxldG9uIGNsYXNzPSJoLTQgdy00MCIgLz48L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGw+PFNrZWxldG9uIGNsYXNzPSJoLTQgdy0yNCIgLz48L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGw+PFNrZWxldG9uIGNsYXNzPSJoLTQgdy0xNCIgLz48L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGw+PFNrZWxldG9uIGNsYXNzPSJoLTQgdy0yOCIgLz48L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGw+PFNrZWxldG9uIGNsYXNzPSJoLTQgdy0zMiIgLz48L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InRleHQtcmlnaHQiPgogICAgICAgICAgICA8U2tlbGV0b24gY2xhc3M9Im1sLWF1dG8gaC04IHctMjAgcm91bmRlZC1tZCIgLz4KICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgIDwvVGFibGVSb3c+CiAgICAgIDwvVGFibGVCb2R5PgogICAgPC9UYWJsZT4KICA8L2Rpdj4KICA8ZGl2IHYtZWxzZSBjbGFzcz0iaC1bMzIwcHhdIiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KCiAgPFBhZ2VkVGFibGVGb290ZXIKICAgIGNsYXNzPSJtdC00IHJvdW5kZWQtbWQgYm9yZGVyIgogICAgOnRvdGFsPSJmaWx0ZXJlZFJlY29yZHMubGVuZ3RoIgogICAgOnBhZ2U9ImN1cnJlbnRQYWdlIgogICAgOmxpbWl0PSJsaW1pdCIKICAgIDppdGVtcy1wZXItcGFnZT0icGFyc2VkTGltaXQiCiAgICBAdXBkYXRlOnBhZ2U9ImhhbmRsZVBhZ2VDaGFuZ2UiCiAgICBAdXBkYXRlOmxpbWl0PSJoYW5kbGVMaW1pdENoYW5nZSIKICAvPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import RefreshButton from "@/components/RefreshButton.vue";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import InlineCommentEditor from "@admin-shared/components/InlineCommentEditor.vue";
+import PagedTableFooter from "@admin-shared/components/list/PagedTableFooter.vue";
+import SearchInput from "@admin-shared/components/SearchInput.vue";
+import { RefreshCw, ShieldCheck, Trash2 } from "lucide-vue-next";
+import type { IpWhitelistPageController } from "./useIpWhitelistPage";
+
+const props = defineProps<{ controller: IpWhitelistPageController }>();
+const { t } = useI18n();
+const {
+  currentPage,
+  fetchRecords,
+  filteredRecords,
+  formatRemaining,
+  getResolveStatusLabel,
+  getResolveStatusVariant,
+  handleLimitChange,
+  handlePageChange,
+  isInitializing,
+  limit,
+  loading,
+  paginatedRecords,
+  parsedLimit,
+  records,
+  refreshingId,
+  refreshRecord,
+  removeRecord,
+  removingId,
+  saveComment,
+  searchQuery,
+  showInitializingSkeleton,
+  targetTypeBadgeLabel,
+} = props.controller;
+</script>
+
+<template>
+  <div v-if="!isInitializing" class="mb-4 flex items-center space-x-2">
+    <SearchInput
+      v-model="searchQuery"
+      :placeholder="t('admin.ipWhitelist.searchPlaceholder')"
+      class="max-w-xs"
+    />
+    <RefreshButton
+      icon-only
+      :loading="loading"
+      :disabled="loading"
+      @click="fetchRecords"
+    />
+  </div>
+  <div
+    v-else-if="showInitializingSkeleton"
+    class="mb-4 flex items-center space-x-2"
+  >
+    <Skeleton class="h-9 w-60" />
+    <Skeleton class="h-9 w-9 rounded-md" />
+  </div>
+  <div v-else class="mb-4 h-9" aria-hidden="true" />
+
+  <div v-if="!isInitializing" class="rounded-md border">
+    <Table>
+      <TableHeader>
+        <TableRow>
+          <TableHead>{{ t("admin.ipWhitelist.target") }}</TableHead>
+          <TableHead>{{ t("admin.ipWhitelist.status") }}</TableHead>
+          <TableHead>{{ t("admin.ipWhitelist.source") }}</TableHead>
+          <TableHead>{{ t("admin.ipWhitelist.createdAt") }}</TableHead>
+          <TableHead>{{ t("admin.ipWhitelist.comment") }}</TableHead>
+          <TableHead class="w-[180px] text-right">
+            {{ t("admin.ipWhitelist.actions") }}
+          </TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        <TableRow v-if="loading && records.length === 0">
+          <TableCell
+            colspan="6"
+            class="py-6 text-center text-muted-foreground"
+          >
+            {{ t("admin.ipWhitelist.loading") }}
+          </TableCell>
+        </TableRow>
+        <TableRow v-else-if="paginatedRecords.length === 0">
+          <TableCell
+            colspan="6"
+            class="py-6 text-center text-muted-foreground"
+          >
+            {{ t("admin.ipWhitelist.empty") }}
+          </TableCell>
+        </TableRow>
+        <TableRow v-for="record in paginatedRecords" :key="record.id">
+          <TableCell class="font-medium">
+            <div class="flex items-center gap-2">
+              <span>{{ record.ip }}</span>
+              <Badge variant="outline">
+                {{ targetTypeBadgeLabel(record.targetType) }}
+              </Badge>
+            </div>
+            <div v-if="record.targetType === 'cname'" class="mt-2 space-y-1">
+              <div
+                v-for="resolvedTarget in record.resolvedTargets || []"
+                :key="resolvedTarget"
+              >
+                <Badge variant="secondary" class="font-normal">
+                  {{ resolvedTarget }}
+                </Badge>
+              </div>
+              <span
+                v-if="!(record.resolvedTargets || []).length"
+                class="block text-xs text-muted-foreground"
+              >
+                {{ t("admin.ipWhitelist.noResolvedRecords") }}
+              </span>
+            </div>
+            <div
+              v-if="record.targetType === 'cname' && record.resolveMessage"
+              class="mt-1 text-xs text-muted-foreground"
+            >
+              {{ record.resolveMessage }}
+            </div>
+            <div
+              v-if="record.ipLocation"
+              class="mt-0.5 text-xs text-muted-foreground"
+            >
+              {{ record.ipLocation }}
+            </div>
+          </TableCell>
+          <TableCell>
+            <template v-if="record.targetType === 'cname'">
+              <div class="flex flex-col items-start gap-1.5">
+                <Badge :variant="getResolveStatusVariant(record)">
+                  {{ getResolveStatusLabel(record) }}
+                </Badge>
+                <span class="text-xs text-muted-foreground">
+                  {{
+                    t("admin.ipWhitelist.checkInterval", {
+                      minutes: record.checkIntervalMinutes || 5,
+                    })
+                  }}
+                </span>
+                <span
+                  v-if="record.lastCheckedAt"
+                  class="text-xs text-muted-foreground"
+                >
+                  {{ t("admin.ipWhitelist.lastCheckedAt") }}
+                  <HumanFriendlyTime :value="record.lastCheckedAt * 1000" />
+                </span>
+                <span
+                  v-if="record.expireAt"
+                  class="text-xs text-muted-foreground"
+                >
+                  {{ t("admin.ipWhitelist.expiresAt") }}
+                  <HumanFriendlyTime :value="record.expireAt * 1000" />
+                </span>
+                <div v-else class="flex items-center text-sm text-green-600">
+                  <ShieldCheck class="mr-1 h-4 w-4" />
+                  {{ t("admin.ipWhitelist.permanent") }}
+                </div>
+              </div>
+            </template>
+            <template v-else>
+              <div
+                v-if="!record.expireAt"
+                class="flex items-center text-green-600"
+              >
+                <ShieldCheck class="mr-1 h-4 w-4" />
+                {{ t("admin.ipWhitelist.permanent") }}
+              </div>
+              <div v-else class="flex flex-col">
+                <span>{{ formatRemaining(record.expireAt) }}</span>
+                <span class="text-xs text-muted-foreground">
+                  {{ t("admin.ipWhitelist.expiresAt") }}
+                  <HumanFriendlyTime :value="record.expireAt * 1000" />
+                </span>
+              </div>
+            </template>
+          </TableCell>
+          <TableCell>
+            <Badge
+              :variant="record.source === 'manual' ? 'default' : 'secondary'"
+            >
+              {{
+                record.source === "manual"
+                  ? t("admin.ipWhitelist.sourceManual")
+                  : t("admin.ipWhitelist.sourceLoginGrant")
+              }}
+            </Badge>
+          </TableCell>
+          <TableCell class="whitespace-nowrap text-xs text-muted-foreground">
+            <HumanFriendlyTime :value="record.createdAt * 1000" />
+          </TableCell>
+          <TableCell>
+            <InlineCommentEditor
+              :text="record.comment"
+              :save="(value) => saveComment(record.id, value)"
+            />
+          </TableCell>
+          <TableCell class="text-right">
+            <div class="flex justify-end gap-2">
+              <Button
+                v-if="record.targetType === 'cname'"
+                variant="outline"
+                size="sm"
+                :disabled="refreshingId === record.id"
+                @click="refreshRecord(record.id)"
+              >
+                <RefreshCw
+                  :class="[
+                    'mr-1 h-4 w-4',
+                    refreshingId === record.id ? 'animate-spin' : '',
+                  ]"
+                />
+                {{ t("admin.ipWhitelist.refreshNow") }}
+              </Button>
+              <ConfirmDangerPopover
+                :title="t('admin.ipWhitelist.deleteTitle')"
+                :description="
+                  t('admin.ipWhitelist.deleteDescription', {
+                    target: record.ip,
+                  })
+                "
+                :loading="removingId === record.id"
+                :disabled="removingId === record.id"
+                :on-confirm="() => removeRecord(record.id)"
+                content-class="w-60 text-left"
+              >
+                <template #trigger>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    :aria-label="t('common.confirmDelete')"
+                    class="h-8 w-8 text-destructive hover:bg-destructive/10 hover:text-destructive"
+                    :disabled="removingId === record.id"
+                  >
+                    <Trash2 class="h-4 w-4" />
+                  </Button>
+                </template>
+              </ConfirmDangerPopover>
+            </div>
+          </TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+  </div>
+  <div
+    v-else-if="showInitializingSkeleton"
+    class="rounded-md border"
+  >
+    <Table>
+      <TableHeader>
+        <TableRow>
+          <TableHead>{{ t("admin.ipWhitelist.target") }}</TableHead>
+          <TableHead>{{ t("admin.ipWhitelist.statusExpires") }}</TableHead>
+          <TableHead>{{ t("admin.ipWhitelist.source") }}</TableHead>
+          <TableHead>{{ t("admin.ipWhitelist.createdAt") }}</TableHead>
+          <TableHead>{{ t("admin.ipWhitelist.comment") }}</TableHead>
+          <TableHead class="w-[180px] text-right">
+            {{ t("admin.ipWhitelist.actions") }}
+          </TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        <TableRow v-for="index in 6" :key="index">
+          <TableCell><Skeleton class="h-4 w-40" /></TableCell>
+          <TableCell><Skeleton class="h-4 w-24" /></TableCell>
+          <TableCell><Skeleton class="h-4 w-14" /></TableCell>
+          <TableCell><Skeleton class="h-4 w-28" /></TableCell>
+          <TableCell><Skeleton class="h-4 w-32" /></TableCell>
+          <TableCell class="text-right">
+            <Skeleton class="ml-auto h-8 w-20 rounded-md" />
+          </TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+  </div>
+  <div v-else class="h-[320px]" aria-hidden="true" />
+
+  <PagedTableFooter
+    class="mt-4 rounded-md border"
+    :total="filteredRecords.length"
+    :page="currentPage"
+    :limit="limit"
+    :items-per-page="parsedLimit"
+    @update:page="handlePageChange"
+    @update:limit="handleLimitChange"
+  />
+</template>

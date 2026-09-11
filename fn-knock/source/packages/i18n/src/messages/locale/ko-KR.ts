@@ -1,1 +1,11 @@
-ZXhwb3J0IGNvbnN0IGtvS1JMb2NhbGUgPSB7CiAgbGFiZWw6ICLslrjslrQiLAogIHpoQ046ICLspJHqta3slrQg6rCE7LK0IiwKICB6aEhhbnQ6ICLspJHqta3slrQg67KI7LK0IiwKICBlbjogIkVuZ2xpc2giLAogIGtvS1I6ICLtlZzqta3slrQiLAogIGphSlA6ICLml6XmnKzoqp4iLAogIHNhdmVkOiAi7Ja47Ja0IOyEpOygleydtCDrs4Dqsr3rkJjsl4jsirXri4jri6QuIiwKICBzYXZlRmFpbGVkOiAi7Ja47Ja0IOyEpOygleydhCDsoIDsnqXtlZjsp4Ag66q77ZaI7Iq164uI64ukLiIsCiAgaW52YWxpZDogIuyngOybkO2VmOyngCDslYrripQg7Ja47Ja07J6F64uI64ukLiIsCn07Cg==
+export const koKRLocale = {
+  label: "언어",
+  zhCN: "중국어 간체",
+  zhHant: "중국어 번체",
+  en: "English",
+  koKR: "한국어",
+  jaJP: "日本語",
+  saved: "언어 설정이 변경되었습니다.",
+  saveFailed: "언어 설정을 저장하지 못했습니다.",
+  invalid: "지원하지 않는 언어입니다.",
+};

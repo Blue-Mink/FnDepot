@@ -1,1 +1,70 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiwgd2F0Y2gsIHR5cGUgVW53cmFwTmVzdGVkUmVmcyB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IENoZXZyb25SaWdodCwgSW1hZ2VJY29uIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IG1hcHBpbmdJY29uTmVlZHNEYXJrUHJldmlld0JhY2tncm91bmQgfSBmcm9tICIuL21hcHBpbmctaWNvbiI7CmltcG9ydCB0eXBlIHsgdXNlTWFwcGluZ0ljb24gfSBmcm9tICIuL3VzZU1hcHBpbmdJY29uIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIGljb25FZGl0b3I6IFVud3JhcE5lc3RlZFJlZnM8UmV0dXJuVHlwZTx0eXBlb2YgdXNlTWFwcGluZ0ljb24+PjsKICBvcGVuRWRpdG9yOiAoKSA9PiB2b2lkOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHByZXZpZXdCcm9rZW4gPSByZWYoZmFsc2UpOwpjb25zdCBwcmV2aWV3TmVlZHNEYXJrQmFja2dyb3VuZCA9IHJlZihmYWxzZSk7CmNvbnN0IGhhbmRsZVByZXZpZXdMb2FkID0gKGV2ZW50OiBFdmVudCkgPT4gewogIHByZXZpZXdOZWVkc0RhcmtCYWNrZ3JvdW5kLnZhbHVlID0gbWFwcGluZ0ljb25OZWVkc0RhcmtQcmV2aWV3QmFja2dyb3VuZCgKICAgIGV2ZW50LmN1cnJlbnRUYXJnZXQgYXMgSFRNTEltYWdlRWxlbWVudCwKICApOwp9Owpjb25zdCBoYW5kbGVQcmV2aWV3RXJyb3IgPSAoKSA9PiB7CiAgcHJldmlld0Jyb2tlbi52YWx1ZSA9IHRydWU7CiAgcHJldmlld05lZWRzRGFya0JhY2tncm91bmQudmFsdWUgPSBmYWxzZTsKfTsKd2F0Y2goCiAgKCkgPT4gcHJvcHMuaWNvbkVkaXRvci5lZmZlY3RpdmVGYXZpY29uU3JjLAogICgpID0+IHsKICAgIHByZXZpZXdCcm9rZW4udmFsdWUgPSBmYWxzZTsKICAgIHByZXZpZXdOZWVkc0RhcmtCYWNrZ3JvdW5kLnZhbHVlID0gZmFsc2U7CiAgfSwKKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPEJ1dHRvbgogICAgdHlwZT0iYnV0dG9uIgogICAgdmFyaWFudD0ib3V0bGluZSIKICAgIGNsYXNzPSJoLWF1dG8gdy1mdWxsIGp1c3RpZnktYmV0d2VlbiBnYXAtMyBweC00IHB5LTMgdGV4dC1sZWZ0IgogICAgQGNsaWNrPSJvcGVuRWRpdG9yIgogID4KICAgIDxzcGFuIGNsYXNzPSJmbGV4IG1pbi13LTAgZmxleC0xIGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgIDxzcGFuCiAgICAgICAgY2xhc3M9ImZsZXggaC05IHctOSBzaHJpbmstMCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbGcgYm9yZGVyIHRyYW5zaXRpb24tY29sb3JzIgogICAgICAgIDpjbGFzcz0icHJldmlld05lZWRzRGFya0JhY2tncm91bmQgPyAnYmctc2xhdGUtNzAwJyA6ICdiZy1tdXRlZC80MCciCiAgICAgID4KICAgICAgICA8aW1nCiAgICAgICAgICB2LWlmPSJpY29uRWRpdG9yLmVmZmVjdGl2ZUZhdmljb25TcmMgJiYgIXByZXZpZXdCcm9rZW4iCiAgICAgICAgICA6c3JjPSJpY29uRWRpdG9yLmVmZmVjdGl2ZUZhdmljb25TcmMiCiAgICAgICAgICA6YWx0PSJ0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5pY29uUHJldmlld0FsdCcpIgogICAgICAgICAgY2xhc3M9ImgtZnVsbCB3LWZ1bGwgb2JqZWN0LWNvbnRhaW4iCiAgICAgICAgICBAbG9hZD0iaGFuZGxlUHJldmlld0xvYWQiCiAgICAgICAgICBAZXJyb3I9ImhhbmRsZVByZXZpZXdFcnJvciIKICAgICAgICAvPgogICAgICAgIDxJbWFnZUljb24gdi1lbHNlIGNsYXNzPSJoLTQgdy00IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICAgICAgPC9zcGFuPgogICAgICA8c3BhbiBjbGFzcz0ibWluLXctMCBmbGV4LTEgc3BhY2UteS0xIj4KICAgICAgICA8c3BhbiBjbGFzcz0iYmxvY2sgdGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5pY29uVGl0bGUiKSB9fQogICAgICAgIDwvc3Bhbj4KICAgICAgICA8c3BhbgogICAgICAgICAgY2xhc3M9ImJsb2NrIHdoaXRlc3BhY2Utbm9ybWFsIGJyZWFrLXdvcmRzIHRleHQteHMgZm9udC1ub3JtYWwgbGVhZGluZy01IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICA+CiAgICAgICAgICB7eyBpY29uRWRpdG9yLmZhdmljb25TdW1tYXJ5IH19CiAgICAgICAgPC9zcGFuPgogICAgICA8L3NwYW4+CiAgICA8L3NwYW4+CiAgICA8Q2hldnJvblJpZ2h0IGNsYXNzPSJoLTQgdy00IHNocmluay0wIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICA8L0J1dHRvbj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { ref, watch, type UnwrapNestedRefs } from "vue";
+import { useI18n } from "vue-i18n";
+import { ChevronRight, ImageIcon } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { mappingIconNeedsDarkPreviewBackground } from "./mapping-icon";
+import type { useMappingIcon } from "./useMappingIcon";
+
+const props = defineProps<{
+  iconEditor: UnwrapNestedRefs<ReturnType<typeof useMappingIcon>>;
+  openEditor: () => void;
+}>();
+
+const { t } = useI18n();
+const previewBroken = ref(false);
+const previewNeedsDarkBackground = ref(false);
+const handlePreviewLoad = (event: Event) => {
+  previewNeedsDarkBackground.value = mappingIconNeedsDarkPreviewBackground(
+    event.currentTarget as HTMLImageElement,
+  );
+};
+const handlePreviewError = () => {
+  previewBroken.value = true;
+  previewNeedsDarkBackground.value = false;
+};
+watch(
+  () => props.iconEditor.effectiveFaviconSrc,
+  () => {
+    previewBroken.value = false;
+    previewNeedsDarkBackground.value = false;
+  },
+);
+</script>
+
+<template>
+  <Button
+    type="button"
+    variant="outline"
+    class="h-auto w-full justify-between gap-3 px-4 py-3 text-left"
+    @click="openEditor"
+  >
+    <span class="flex min-w-0 flex-1 items-center gap-3">
+      <span
+        class="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-lg border transition-colors"
+        :class="previewNeedsDarkBackground ? 'bg-slate-700' : 'bg-muted/40'"
+      >
+        <img
+          v-if="iconEditor.effectiveFaviconSrc && !previewBroken"
+          :src="iconEditor.effectiveFaviconSrc"
+          :alt="t('admin.subdomainProxy.iconPreviewAlt')"
+          class="h-full w-full object-contain"
+          @load="handlePreviewLoad"
+          @error="handlePreviewError"
+        />
+        <ImageIcon v-else class="h-4 w-4 text-muted-foreground" />
+      </span>
+      <span class="min-w-0 flex-1 space-y-1">
+        <span class="block text-sm font-medium">
+          {{ t("admin.subdomainProxy.iconTitle") }}
+        </span>
+        <span
+          class="block whitespace-normal break-words text-xs font-normal leading-5 text-muted-foreground"
+        >
+          {{ iconEditor.faviconSummary }}
+        </span>
+      </span>
+    </span>
+    <ChevronRight class="h-4 w-4 shrink-0 text-muted-foreground" />
+  </Button>
+</template>

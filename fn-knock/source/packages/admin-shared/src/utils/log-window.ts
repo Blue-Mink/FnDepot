@@ -1,1 +1,16 @@
-ZXhwb3J0IGNvbnN0IERFRkFVTFRfTE9HX1dJTkRPV19TSVpFID0gMTAwMDsKCmV4cG9ydCBmdW5jdGlvbiBtZXJnZVBvbGxpbmdMb2dXaW5kb3c8VD4oCiAgY3VycmVudDogVFtdLAogIGluY29taW5nOiBUW10sCiAgb3B0aW9ucz86IHsgcmVzZXQ/OiBib29sZWFuOyBtYXg/OiBudW1iZXIgfSwKKTogVFtdIHsKICBjb25zdCBtYXggPSBvcHRpb25zPy5tYXggPz8gREVGQVVMVF9MT0dfV0lORE9XX1NJWkU7CiAgaWYgKG9wdGlvbnM/LnJlc2V0KSB7CiAgICByZXR1cm4gaW5jb21pbmcuc2xpY2UoLW1heCk7CiAgfQogIGlmICghaW5jb21pbmcubGVuZ3RoKSB7CiAgICByZXR1cm4gY3VycmVudC5zbGljZSgtbWF4KTsKICB9CiAgcmV0dXJuIFsuLi5jdXJyZW50LCAuLi5pbmNvbWluZ10uc2xpY2UoLW1heCk7Cn0K
+export const DEFAULT_LOG_WINDOW_SIZE = 1000;
+
+export function mergePollingLogWindow<T>(
+  current: T[],
+  incoming: T[],
+  options?: { reset?: boolean; max?: number },
+): T[] {
+  const max = options?.max ?? DEFAULT_LOG_WINDOW_SIZE;
+  if (options?.reset) {
+    return incoming.slice(-max);
+  }
+  if (!incoming.length) {
+    return current.slice(-max);
+  }
+  return [...current, ...incoming].slice(-max);
+}

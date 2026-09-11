@@ -1,1 +1,70 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IHJlYWRGaWxlIH0gZnJvbSAibm9kZTpmcy9wcm9taXNlcyI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgppbXBvcnQgeyBjYW5Vc2VGbm9zQ29ubmVjdFdhZkZvclJ1bnRpbWUgfSBmcm9tICIuLi9zcmMvbGliL2Zub3MtY29ubmVjdC13YWYiOwppbXBvcnQgdHlwZSB7IFJ1bnRpbWVDYXBhYmlsaXRpZXMsIFJ1bnRpbWVQcm9maWxlIH0gZnJvbSAiLi4vc3JjL3R5cGVzIjsKCmNvbnN0IHByb2ZpbGUgPSAoZGVwbG95bWVudF90YXJnZXQ6IFJ1bnRpbWVQcm9maWxlWyJkZXBsb3ltZW50X3RhcmdldCJdKSA9PgogICh7CiAgICBkZXBsb3ltZW50X3RhcmdldCwKICAgIGlzX2RvY2tlcjogZGVwbG95bWVudF90YXJnZXQgPT09ICJkb2NrZXIiLAogICAgaXNfbGludXg6IHRydWUsCiAgICBpc193aW5kb3dzOiBmYWxzZSwKICAgIGlzX3Jvb3RfcHJvY2VzczogdHJ1ZSwKICB9KSBzYXRpc2ZpZXMgUnVudGltZVByb2ZpbGU7Cgpjb25zdCBjYXBhYmlsaXRpZXMgPSAoYXZhaWxhYmxlOiBib29sZWFuKSA9PgogICh7CiAgICBkaXJlY3RfbW9kZV9hdmFpbGFibGU6IGZhbHNlLAogICAgaG9zdF9maXJld2FsbF9hdmFpbGFibGU6IGZhbHNlLAogICAgc21hcnRfY29ubmVjdF9hdmFpbGFibGU6IGZhbHNlLAogICAgc3lzdGVtX2Nsb2NrX3N5bmNfYXZhaWxhYmxlOiBmYWxzZSwKICAgIHNlbGZfdXBkYXRlX2F2YWlsYWJsZTogZmFsc2UsCiAgICBzaGFyZWRfcm9vdF9hdmFpbGFibGU6IGZhbHNlLAogICAgZm5vc19jb25uZWN0X3dhZl9hdmFpbGFibGU6IGF2YWlsYWJsZSwKICB9KSBzYXRpc2ZpZXMgUnVudGltZUNhcGFiaWxpdGllczsKCmRlc2NyaWJlKCJGTiBDb25uZWN0IFdBRiB2aXNpYmlsaXR5IiwgKCkgPT4gewogIGl0KCJpcyBleHBvc2VkIG9ubHkgd2hlbiBzdGFuZGFyZCBGUEsgYW5kIHRoZSBiYWNrZW5kIGNhcGFiaWxpdHkgYm90aCBhZ3JlZSIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY2FuVXNlRm5vc0Nvbm5lY3RXYWZGb3JSdW50aW1lKHByb2ZpbGUoImZwayIpLCBjYXBhYmlsaXRpZXModHJ1ZSkpLAogICAgICB0cnVlLAogICAgKTsKICAgIGZvciAoY29uc3QgdGFyZ2V0IG9mIFsKICAgICAgImZway1saXRlIiwKICAgICAgImRvY2tlciIsCiAgICAgICJsaW51eCIsCiAgICAgICJvcGVud3J0IiwKICAgICAgInN5bm9sb2d5IiwKICAgICAgIndpbmRvd3MiLAogICAgICAiZGV2IiwKICAgIF0gYXMgY29uc3QpIHsKICAgICAgYXNzZXJ0LmVxdWFsKAogICAgICAgIGNhblVzZUZub3NDb25uZWN0V2FmRm9yUnVudGltZShwcm9maWxlKHRhcmdldCksIGNhcGFiaWxpdGllcyh0cnVlKSksCiAgICAgICAgZmFsc2UsCiAgICAgICk7CiAgICB9CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGNhblVzZUZub3NDb25uZWN0V2FmRm9yUnVudGltZShwcm9maWxlKCJmcGsiKSwgY2FwYWJpbGl0aWVzKGZhbHNlKSksCiAgICAgIGZhbHNlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY2FuVXNlRm5vc0Nvbm5lY3RXYWZGb3JSdW50aW1lKHByb2ZpbGUoImZwayIpLCB1bmRlZmluZWQpLAogICAgICBmYWxzZSwKICAgICk7CiAgfSk7CgogIGl0KCJndWFyZHMgY29tcG9uZW50IGNyZWF0aW9uIHNvIExpdGUgbmV2ZXIgY2FsbHMgdGhlIGVuZHBvaW50IiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgc291cmNlID0gYXdhaXQgcmVhZEZpbGUoCiAgICAgIG5ldyBVUkwoIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvRm5vc1NldHRpbmdzLnZ1ZSIsIGltcG9ydC5tZXRhLnVybCksCiAgICAgICJ1dGY4IiwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIHNvdXJjZSwKICAgICAgLzxGbm9zQ29ubmVjdFdhZlNldHRpbmcgdi1pZj0iY2FuVXNlRm5vc0Nvbm5lY3RXYWYiIFwvPi91LAogICAgKTsKICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+import { describe, it } from "node:test";
+
+import { canUseFnosConnectWafForRuntime } from "../src/lib/fnos-connect-waf";
+import type { RuntimeCapabilities, RuntimeProfile } from "../src/types";
+
+const profile = (deployment_target: RuntimeProfile["deployment_target"]) =>
+  ({
+    deployment_target,
+    is_docker: deployment_target === "docker",
+    is_linux: true,
+    is_windows: false,
+    is_root_process: true,
+  }) satisfies RuntimeProfile;
+
+const capabilities = (available: boolean) =>
+  ({
+    direct_mode_available: false,
+    host_firewall_available: false,
+    smart_connect_available: false,
+    system_clock_sync_available: false,
+    self_update_available: false,
+    shared_root_available: false,
+    fnos_connect_waf_available: available,
+  }) satisfies RuntimeCapabilities;
+
+describe("FN Connect WAF visibility", () => {
+  it("is exposed only when standard FPK and the backend capability both agree", () => {
+    assert.equal(
+      canUseFnosConnectWafForRuntime(profile("fpk"), capabilities(true)),
+      true,
+    );
+    for (const target of [
+      "fpk-lite",
+      "docker",
+      "linux",
+      "openwrt",
+      "synology",
+      "windows",
+      "dev",
+    ] as const) {
+      assert.equal(
+        canUseFnosConnectWafForRuntime(profile(target), capabilities(true)),
+        false,
+      );
+    }
+    assert.equal(
+      canUseFnosConnectWafForRuntime(profile("fpk"), capabilities(false)),
+      false,
+    );
+    assert.equal(
+      canUseFnosConnectWafForRuntime(profile("fpk"), undefined),
+      false,
+    );
+  });
+
+  it("guards component creation so Lite never calls the endpoint", async () => {
+    const source = await readFile(
+      new URL("../src/views/system-settings/FnosSettings.vue", import.meta.url),
+      "utf8",
+    );
+    assert.match(
+      source,
+      /<FnosConnectWafSetting v-if="canUseFnosConnectWaf" \/>/u,
+    );
+  });
+});

@@ -1,1 +1,15 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRHJvcGRvd25NZW51R3JvdXBQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IERyb3Bkb3duTWVudUdyb3VwIH0gZnJvbSAicmVrYS11aSIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8RHJvcGRvd25NZW51R3JvdXBQcm9wcz4oKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RHJvcGRvd25NZW51R3JvdXAKICAgIGRhdGEtc2xvdD0iZHJvcGRvd24tbWVudS1ncm91cCIKICAgIHYtYmluZD0icHJvcHMiCiAgPgogICAgPHNsb3QgLz4KICA8L0Ryb3Bkb3duTWVudUdyb3VwPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { DropdownMenuGroupProps } from "reka-ui"
+import { DropdownMenuGroup } from "reka-ui"
+
+const props = defineProps<DropdownMenuGroupProps>()
+</script>
+
+<template>
+  <DropdownMenuGroup
+    data-slot="dropdown-menu-group"
+    v-bind="props"
+  >
+    <slot />
+  </DropdownMenuGroup>
+</template>

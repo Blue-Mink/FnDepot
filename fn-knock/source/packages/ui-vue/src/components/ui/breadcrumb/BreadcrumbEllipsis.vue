@@ -1,1 +1,23 @@
-PHNjcmlwdCBsYW5nPSJ0cyIgc2V0dXA+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IE1vcmVIb3Jpem9udGFsIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXQp9PigpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxzcGFuCiAgICBkYXRhLXNsb3Q9ImJyZWFkY3J1bWItZWxsaXBzaXMiCiAgICByb2xlPSJwcmVzZW50YXRpb24iCiAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgIDpjbGFzcz0iY24oJ2ZsZXggc2l6ZS05IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlcicsIHByb3BzLmNsYXNzKSIKICA+CiAgICA8c2xvdD4KICAgICAgPE1vcmVIb3Jpem9udGFsIGNsYXNzPSJzaXplLTQiIC8+CiAgICA8L3Nsb3Q+CiAgICA8c3BhbiBjbGFzcz0ic3Itb25seSI+TW9yZTwvc3Bhbj4KICA8L3NwYW4+CjwvdGVtcGxhdGU+Cg==
+<script lang="ts" setup>
+import type { HTMLAttributes } from "vue"
+import { MoreHorizontal } from "lucide-vue-next"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <span
+    data-slot="breadcrumb-ellipsis"
+    role="presentation"
+    aria-hidden="true"
+    :class="cn('flex size-9 items-center justify-center', props.class)"
+  >
+    <slot>
+      <MoreHorizontal class="size-4" />
+    </slot>
+    <span class="sr-only">More</span>
+  </span>
+</template>

@@ -1,1 +1,156 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHR5cGUgQ29tcHV0ZWRSZWYsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHR5cGUgeyBBcHBDb25maWcsIFN1YmRvbWFpbk1vZGVDb25maWcgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsKICBpc0Nsb3VkZmxhcmVkUmV2ZXJzZVByb3h5U3ViZG9tYWluTW9kZSwKICBpc1JldmVyc2VQcm94eVN1YmRvbWFpbk1vZGUsCn0gZnJvbSAiQC9saWIvcmV2ZXJzZS1wcm94eS1zdWJtb2RlIjsKaW1wb3J0IHsKICBmb3JtYXRIb3N0V2l0aE9wdGlvbmFsUG9ydCwKICBpc0RlZmF1bHRQdWJsaWNQb3J0LAogIG5vcm1hbGl6ZVB1YmxpY1BvcnQsCiAgcmVzb2x2ZUNvbmZpZ3VyZWRBY2Nlc3NFbnRyeVB1YmxpY1BvcnQsCiAgcmVzb2x2ZUNvbmZpZ3VyZWRBdXRoU2VydmljZVB1YmxpY1BvcnQsCiAgcmVzb2x2ZUVkZ2VDbGllbnRJcFByb3ZpZGVyLAogIHN5bmNQdWJsaWNBdXRoQmFzZVVybFBvcnQsCiAgdHlwZSBFZGdlQ2xpZW50SXBQcm92aWRlciwKfSBmcm9tICIuL21vZGVsIjsKCmV4cG9ydCBjb25zdCB1c2VTdWJkb21haW5Qb3J0RGlzcGxheSA9ICh7CiAgYWNjZXNzRW50cnlQb3J0LAogIGN1cnJlbnRNb2RlQ29uZmlnLAogIGdldENvbmZpZywKICBtb2RlRm9ybSwKfTogewogIGFjY2Vzc0VudHJ5UG9ydDogUmVmPHN0cmluZz47CiAgY3VycmVudE1vZGVDb25maWc6IENvbXB1dGVkUmVmPFN1YmRvbWFpbk1vZGVDb25maWc+OwogIGdldENvbmZpZzogKCkgPT4gQXBwQ29uZmlnIHwgbnVsbDsKICBtb2RlRm9ybTogU3ViZG9tYWluTW9kZUNvbmZpZzsKfSkgPT4gewogIGNvbnN0IGRlZmF1bHRBdXRoU2VydmljZVB1YmxpY1BvcnQgPSBjb21wdXRlZCgKICAgICgpID0+IG5vcm1hbGl6ZVB1YmxpY1BvcnQoYWNjZXNzRW50cnlQb3J0LnZhbHVlKSB8fCA3OTk5LAogICk7CiAgY29uc3QgaXNSZXZlcnNlUHJveHlTdWJkb21haW4gPSBjb21wdXRlZCgoKSA9PgogICAgaXNSZXZlcnNlUHJveHlTdWJkb21haW5Nb2RlKGdldENvbmZpZygpKSwKICApOwogIGNvbnN0IGlzQ2xvdWRmbGFyZWRSZXZlcnNlUHJveHlTdWJkb21haW4gPSBjb21wdXRlZCgoKSA9PgogICAgaXNDbG91ZGZsYXJlZFJldmVyc2VQcm94eVN1YmRvbWFpbk1vZGUoZ2V0Q29uZmlnKCkpLAogICk7CiAgY29uc3QgaXNGcnBSZXZlcnNlUHJveHlTdWJkb21haW4gPSBjb21wdXRlZCgKICAgICgpID0+CiAgICAgIGlzUmV2ZXJzZVByb3h5U3ViZG9tYWluLnZhbHVlICYmCiAgICAgICFpc0Nsb3VkZmxhcmVkUmV2ZXJzZVByb3h5U3ViZG9tYWluLnZhbHVlLAogICk7CiAgY29uc3QgY29uZmlndXJlZEF1dGhTZXJ2aWNlUHVibGljUG9ydCA9IGNvbXB1dGVkKCgpID0+CiAgICByZXNvbHZlQ29uZmlndXJlZEF1dGhTZXJ2aWNlUHVibGljUG9ydCgKICAgICAgbW9kZUZvcm0sCiAgICAgICFpc0ZycFJldmVyc2VQcm94eVN1YmRvbWFpbi52YWx1ZSwKICAgICksCiAgKTsKICBjb25zdCBhdXRoU2VydmljZVB1YmxpY1BvcnQgPSBjb21wdXRlZCh7CiAgICBnZXQ6ICgpID0+IHsKICAgICAgcmV0dXJuICgKICAgICAgICBjb25maWd1cmVkQXV0aFNlcnZpY2VQdWJsaWNQb3J0LnZhbHVlIHx8CiAgICAgICAgZGVmYXVsdEF1dGhTZXJ2aWNlUHVibGljUG9ydC52YWx1ZQogICAgICApOwogICAgfSwKICAgIHNldDogKHZhbHVlOiBudW1iZXIgfCBzdHJpbmcpID0+IHsKICAgICAgY29uc3QgcG9ydCA9IG5vcm1hbGl6ZVB1YmxpY1BvcnQodmFsdWUpOwogICAgICBtb2RlRm9ybS5wdWJsaWNfaHR0cHNfcG9ydCA9IHBvcnQgfHwgMDsKICAgICAgbW9kZUZvcm0ucHVibGljX2h0dHBfcG9ydCA9IDA7CiAgICAgIG1vZGVGb3JtLnB1YmxpY19hdXRoX2Jhc2VfdXJsID0gc3luY1B1YmxpY0F1dGhCYXNlVXJsUG9ydCgKICAgICAgICBtb2RlRm9ybS5wdWJsaWNfYXV0aF9iYXNlX3VybCwKICAgICAgICBwb3J0LAogICAgICApOwogICAgfSwKICB9KTsKICBjb25zdCBkcmFmdEF1dGhTZXJ2aWNlUHVibGljUG9ydCA9IGNvbXB1dGVkKCgpID0+CiAgICBTdHJpbmcoYXV0aFNlcnZpY2VQdWJsaWNQb3J0LnZhbHVlIHx8IGRlZmF1bHRBdXRoU2VydmljZVB1YmxpY1BvcnQudmFsdWUpLAogICk7CiAgY29uc3QgY29uZmlndXJlZEFjY2Vzc0VudHJ5UG9ydCA9IGNvbXB1dGVkKCgpID0+CiAgICByZXNvbHZlQ29uZmlndXJlZEFjY2Vzc0VudHJ5UHVibGljUG9ydCgKICAgICAgY3VycmVudE1vZGVDb25maWcudmFsdWUsCiAgICAgICFpc0ZycFJldmVyc2VQcm94eVN1YmRvbWFpbi52YWx1ZSwKICAgICksCiAgKTsKICBjb25zdCBkaXNwbGF5QWNjZXNzRW50cnlQb3J0ID0gY29tcHV0ZWQoKCkgPT4KICAgIGNvbmZpZ3VyZWRBY2Nlc3NFbnRyeVBvcnQudmFsdWUgPiAwCiAgICAgID8gU3RyaW5nKGNvbmZpZ3VyZWRBY2Nlc3NFbnRyeVBvcnQudmFsdWUpCiAgICAgIDogYWNjZXNzRW50cnlQb3J0LnZhbHVlLnRyaW0oKSB8fCAiNzk5OSIsCiAgKTsKICBjb25zdCBpc0VkZ2VDbGllbnRJUE1vZGVFZGl0YWJsZSA9IGNvbXB1dGVkKAogICAgKCkgPT4gZ2V0Q29uZmlnKCk/LnJ1bl90eXBlID09PSAzLAogICk7CiAgY29uc3QgcmVzb2x2ZWRTYXZlZEVkZ2VDbGllbnRJcFByb3ZpZGVyID0gY29tcHV0ZWQoKCkgPT4KICAgIHJlc29sdmVFZGdlQ2xpZW50SXBQcm92aWRlcihjdXJyZW50TW9kZUNvbmZpZy52YWx1ZSksCiAgKTsKICBjb25zdCBzYXZlZEVkZ2VDbGllbnRJcFByb3ZpZGVyID0gY29tcHV0ZWQoKCkgPT4KICAgIGlzRWRnZUNsaWVudElQTW9kZUVkaXRhYmxlLnZhbHVlCiAgICAgID8gcmVzb2x2ZWRTYXZlZEVkZ2VDbGllbnRJcFByb3ZpZGVyLnZhbHVlCiAgICAgIDogbnVsbCwKICApOwogIGNvbnN0IGlzU2F2ZWRFZGdlQ2xpZW50SVBBY3RpdmUgPSBjb21wdXRlZCgKICAgICgpID0+IHNhdmVkRWRnZUNsaWVudElwUHJvdmlkZXIudmFsdWUgIT09IG51bGwsCiAgKTsKICBjb25zdCBhY3RpdmVFZGdlQ2xpZW50SXBQcm92aWRlciA9IGNvbXB1dGVkKCgpID0+CiAgICBpc0VkZ2VDbGllbnRJUE1vZGVFZGl0YWJsZS52YWx1ZQogICAgICA/IHJlc29sdmVFZGdlQ2xpZW50SXBQcm92aWRlcihtb2RlRm9ybSkKICAgICAgOiBudWxsLAogICk7CiAgY29uc3QgaXNFZGdlQ2xpZW50SVBBY3RpdmUgPSBjb21wdXRlZCgKICAgICgpID0+CiAgICAgIGlzRWRnZUNsaWVudElQTW9kZUVkaXRhYmxlLnZhbHVlICYmCiAgICAgIGFjdGl2ZUVkZ2VDbGllbnRJcFByb3ZpZGVyLnZhbHVlICE9PSBudWxsLAogICk7CiAgY29uc3Qgb21pdFB1YmxpY1BvcnRDb25maWd1cmF0aW9uID0gY29tcHV0ZWQoCiAgICAoKSA9PiBpc1JldmVyc2VQcm94eVN1YmRvbWFpbi52YWx1ZSwKICApOwogIGNvbnN0IHNob3VsZE9taXRBY2Nlc3NFbnRyeVBvcnQgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoCiAgICAgIGlzU2F2ZWRFZGdlQ2xpZW50SVBBY3RpdmUudmFsdWUgfHwKICAgICAgaXNDbG91ZGZsYXJlZFJldmVyc2VQcm94eVN1YmRvbWFpbi52YWx1ZQogICAgKSB7CiAgICAgIHJldHVybiB0cnVlOwogICAgfQogICAgcmV0dXJuIGlzRGVmYXVsdFB1YmxpY1BvcnQoZGlzcGxheUFjY2Vzc0VudHJ5UG9ydC52YWx1ZSk7CiAgfSk7CiAgY29uc3QgZm9ybWF0SG9zdFdpdGhBY2Nlc3NFbnRyeVBvcnQgPSAoaG9zdDogc3RyaW5nKTogc3RyaW5nID0+CiAgICBmb3JtYXRIb3N0V2l0aE9wdGlvbmFsUG9ydCgKICAgICAgaG9zdCwKICAgICAgZGlzcGxheUFjY2Vzc0VudHJ5UG9ydC52YWx1ZSwKICAgICAgc2hvdWxkT21pdEFjY2Vzc0VudHJ5UG9ydC52YWx1ZSwKICAgICk7CiAgY29uc3Qgc2hvdWxkT21pdERyYWZ0QXV0aFNlcnZpY2VQdWJsaWNQb3J0ID0gY29tcHV0ZWQoKCkgPT4gewogICAgaWYgKAogICAgICBpc0VkZ2VDbGllbnRJUEFjdGl2ZS52YWx1ZSB8fAogICAgICBpc0Nsb3VkZmxhcmVkUmV2ZXJzZVByb3h5U3ViZG9tYWluLnZhbHVlCiAgICApIHsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9CiAgICByZXR1cm4gaXNEZWZhdWx0UHVibGljUG9ydChhdXRoU2VydmljZVB1YmxpY1BvcnQudmFsdWUpOwogIH0pOwogIGNvbnN0IGZvcm1hdEF1dGhTZXJ2aWNlSG9zdFdpdGhQdWJsaWNQb3J0ID0gKGhvc3Q6IHN0cmluZyk6IHN0cmluZyA9PgogICAgZm9ybWF0SG9zdFdpdGhPcHRpb25hbFBvcnQoCiAgICAgIGhvc3QsCiAgICAgIGRyYWZ0QXV0aFNlcnZpY2VQdWJsaWNQb3J0LnZhbHVlLAogICAgICBzaG91bGRPbWl0RHJhZnRBdXRoU2VydmljZVB1YmxpY1BvcnQudmFsdWUsCiAgICApOwoKICBjb25zdCBzZWxlY3RFZGdlQ2xpZW50SXBQcm92aWRlciA9IChwcm92aWRlcjogRWRnZUNsaWVudElwUHJvdmlkZXIpID0+IHsKICAgIGlmICghaXNFZGdlQ2xpZW50SVBNb2RlRWRpdGFibGUudmFsdWUpIHJldHVybjsKCiAgICBtb2RlRm9ybS5lZGdlX2NsaWVudF9pcF9lbmFibGVkID0gdHJ1ZTsKICAgIG1vZGVGb3JtLmFsaXl1bl9lc2FfZW5hYmxlZCA9IHByb3ZpZGVyID09PSAiYWxpeXVuX2VzYSI7CiAgICBtb2RlRm9ybS50ZW5jZW50X2VkZ2VvbmVfZW5hYmxlZCA9IHByb3ZpZGVyID09PSAidGVuY2VudF9lZGdlb25lIjsKICB9OwoKICByZXR1cm4gewogICAgYWN0aXZlRWRnZUNsaWVudElwUHJvdmlkZXIsCiAgICBhdXRoU2VydmljZVB1YmxpY1BvcnQsCiAgICBmb3JtYXRBdXRoU2VydmljZUhvc3RXaXRoUHVibGljUG9ydCwKICAgIGZvcm1hdEhvc3RXaXRoQWNjZXNzRW50cnlQb3J0LAogICAgaXNFZGdlQ2xpZW50SVBNb2RlRWRpdGFibGUsCiAgICBvbWl0UHVibGljUG9ydENvbmZpZ3VyYXRpb24sCiAgICBzYXZlZEVkZ2VDbGllbnRJcFByb3ZpZGVyLAogICAgc2VsZWN0RWRnZUNsaWVudElwUHJvdmlkZXIsCiAgfTsKfTsK
+import { computed, type ComputedRef, type Ref } from "vue";
+import type { AppConfig, SubdomainModeConfig } from "@/types";
+import {
+  isCloudflaredReverseProxySubdomainMode,
+  isReverseProxySubdomainMode,
+} from "@/lib/reverse-proxy-submode";
+import {
+  formatHostWithOptionalPort,
+  isDefaultPublicPort,
+  normalizePublicPort,
+  resolveConfiguredAccessEntryPublicPort,
+  resolveConfiguredAuthServicePublicPort,
+  resolveEdgeClientIpProvider,
+  syncPublicAuthBaseUrlPort,
+  type EdgeClientIpProvider,
+} from "./model";
+
+export const useSubdomainPortDisplay = ({
+  accessEntryPort,
+  currentModeConfig,
+  getConfig,
+  modeForm,
+}: {
+  accessEntryPort: Ref<string>;
+  currentModeConfig: ComputedRef<SubdomainModeConfig>;
+  getConfig: () => AppConfig | null;
+  modeForm: SubdomainModeConfig;
+}) => {
+  const defaultAuthServicePublicPort = computed(
+    () => normalizePublicPort(accessEntryPort.value) || 7999,
+  );
+  const isReverseProxySubdomain = computed(() =>
+    isReverseProxySubdomainMode(getConfig()),
+  );
+  const isCloudflaredReverseProxySubdomain = computed(() =>
+    isCloudflaredReverseProxySubdomainMode(getConfig()),
+  );
+  const isFrpReverseProxySubdomain = computed(
+    () =>
+      isReverseProxySubdomain.value &&
+      !isCloudflaredReverseProxySubdomain.value,
+  );
+  const configuredAuthServicePublicPort = computed(() =>
+    resolveConfiguredAuthServicePublicPort(
+      modeForm,
+      !isFrpReverseProxySubdomain.value,
+    ),
+  );
+  const authServicePublicPort = computed({
+    get: () => {
+      return (
+        configuredAuthServicePublicPort.value ||
+        defaultAuthServicePublicPort.value
+      );
+    },
+    set: (value: number | string) => {
+      const port = normalizePublicPort(value);
+      modeForm.public_https_port = port || 0;
+      modeForm.public_http_port = 0;
+      modeForm.public_auth_base_url = syncPublicAuthBaseUrlPort(
+        modeForm.public_auth_base_url,
+        port,
+      );
+    },
+  });
+  const draftAuthServicePublicPort = computed(() =>
+    String(authServicePublicPort.value || defaultAuthServicePublicPort.value),
+  );
+  const configuredAccessEntryPort = computed(() =>
+    resolveConfiguredAccessEntryPublicPort(
+      currentModeConfig.value,
+      !isFrpReverseProxySubdomain.value,
+    ),
+  );
+  const displayAccessEntryPort = computed(() =>
+    configuredAccessEntryPort.value > 0
+      ? String(configuredAccessEntryPort.value)
+      : accessEntryPort.value.trim() || "7999",
+  );
+  const isEdgeClientIPModeEditable = computed(
+    () => getConfig()?.run_type === 3,
+  );
+  const resolvedSavedEdgeClientIpProvider = computed(() =>
+    resolveEdgeClientIpProvider(currentModeConfig.value),
+  );
+  const savedEdgeClientIpProvider = computed(() =>
+    isEdgeClientIPModeEditable.value
+      ? resolvedSavedEdgeClientIpProvider.value
+      : null,
+  );
+  const isSavedEdgeClientIPActive = computed(
+    () => savedEdgeClientIpProvider.value !== null,
+  );
+  const activeEdgeClientIpProvider = computed(() =>
+    isEdgeClientIPModeEditable.value
+      ? resolveEdgeClientIpProvider(modeForm)
+      : null,
+  );
+  const isEdgeClientIPActive = computed(
+    () =>
+      isEdgeClientIPModeEditable.value &&
+      activeEdgeClientIpProvider.value !== null,
+  );
+  const omitPublicPortConfiguration = computed(
+    () => isReverseProxySubdomain.value,
+  );
+  const shouldOmitAccessEntryPort = computed(() => {
+    if (
+      isSavedEdgeClientIPActive.value ||
+      isCloudflaredReverseProxySubdomain.value
+    ) {
+      return true;
+    }
+    return isDefaultPublicPort(displayAccessEntryPort.value);
+  });
+  const formatHostWithAccessEntryPort = (host: string): string =>
+    formatHostWithOptionalPort(
+      host,
+      displayAccessEntryPort.value,
+      shouldOmitAccessEntryPort.value,
+    );
+  const shouldOmitDraftAuthServicePublicPort = computed(() => {
+    if (
+      isEdgeClientIPActive.value ||
+      isCloudflaredReverseProxySubdomain.value
+    ) {
+      return true;
+    }
+    return isDefaultPublicPort(authServicePublicPort.value);
+  });
+  const formatAuthServiceHostWithPublicPort = (host: string): string =>
+    formatHostWithOptionalPort(
+      host,
+      draftAuthServicePublicPort.value,
+      shouldOmitDraftAuthServicePublicPort.value,
+    );
+
+  const selectEdgeClientIpProvider = (provider: EdgeClientIpProvider) => {
+    if (!isEdgeClientIPModeEditable.value) return;
+
+    modeForm.edge_client_ip_enabled = true;
+    modeForm.aliyun_esa_enabled = provider === "aliyun_esa";
+    modeForm.tencent_edgeone_enabled = provider === "tencent_edgeone";
+  };
+
+  return {
+    activeEdgeClientIpProvider,
+    authServicePublicPort,
+    formatAuthServiceHostWithPublicPort,
+    formatHostWithAccessEntryPort,
+    isEdgeClientIPModeEditable,
+    omitPublicPortConfiguration,
+    savedEdgeClientIpProvider,
+    selectEdgeClientIpProvider,
+  };
+};

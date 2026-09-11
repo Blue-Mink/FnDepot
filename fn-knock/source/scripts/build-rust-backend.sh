@@ -1,1 +1,167 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4iICYmIHB3ZCkiCk1PREU9IiR7MTotfSIKQVJDSD0iJHsyOi19IgpPVVRQVVQ9IiR7MzotfSIKTUFOSUZFU1Q9IiR7Uk9PVF9ESVJ9L2FwcHMvc2VydmVyLWFkbWluLXJzL0NhcmdvLnRvbWwiCkdMSUJDX1ZFUlNJT049IiR7Rk5fS05PQ0tfWklHX0dMSUJDX1ZFUlNJT046LTIuMTd9IgpNVVNMX0lNQUdFX0FNRDY0PSIke0ZOX0tOT0NLX1JVU1RfTVVTTF9JTUFHRV9BTUQ2NDotbWVzc2Vuc2UvcnVzdC1tdXNsLWNyb3NzOng4Nl82NC1tdXNsQHNoYTI1NjpjZTc1ZTkxNzQzMjVkNGZiYjNkZTg1YzMwOWUyZDdjYTI5Zjc1MDAxNjliYzRiNWQyYzYxMWZmN2U4NmQ1NDlhfSIKTVVTTF9JTUFHRV9BUk02ND0iJHtGTl9LTk9DS19SVVNUX01VU0xfSU1BR0VfQVJNNjQ6LW1lc3NlbnNlL3J1c3QtbXVzbC1jcm9zczphYXJjaDY0LW11c2xAc2hhMjU2OmVjYWU1ZGQ2MmQxYzkzOGMxNGY4MDcxZDM2YzE2ZmE2OTk4NjBhYWNlMDNiZmI1Mjg0ZmIxMjE2NDc0ZDI2NDN9IgpNVVNMX0lNQUdFX0FSTT0iJHtGTl9LTk9DS19SVVNUX01VU0xfSU1BR0VfQVJNOi1tZXNzZW5zZS9ydXN0LW11c2wtY3Jvc3M6YXJtdjctbXVzbGVhYmloZkBzaGEyNTY6NzE0ZDc1MjllZDkwOTg2OTljYzEzYWJhZGU4M2M1NjVlNmE5NDZlNTM5NzVjMTA4MDg5YThjZDNiNDNjYjg3MX0iClJFQURFTEZfQklOPSIiCgpsb2coKSB7CiAgcHJpbnRmICdbZm4ta25vY2stcnVzdC1yZWxlYXNlXSAlc1xuJyAiJCoiCn0KCmZhaWwoKSB7CiAgcHJpbnRmICdbZm4ta25vY2stcnVzdC1yZWxlYXNlXSBFUlJPUjogJXNcbicgIiQqIiA+JjIKICBleGl0IDEKfQoKdGFyZ2V0X2ZvcigpIHsKICBjYXNlICIke01PREV9OiR7QVJDSH0iIGluCiAgICBnbnU6YW1kNjQpIHByaW50ZiAnJXNcbicgeDg2XzY0LXVua25vd24tbGludXgtZ251IDs7CiAgICBnbnU6YXJtNjQpIHByaW50ZiAnJXNcbicgYWFyY2g2NC11bmtub3duLWxpbnV4LWdudSA7OwogICAgbXVzbDphbWQ2NCkgcHJpbnRmICclc1xuJyB4ODZfNjQtdW5rbm93bi1saW51eC1tdXNsIDs7CiAgICBtdXNsOmFybTY0KSBwcmludGYgJyVzXG4nIGFhcmNoNjQtdW5rbm93bi1saW51eC1tdXNsIDs7CiAgICBtdXNsOmFybSkgcHJpbnRmICclc1xuJyBhcm12Ny11bmtub3duLWxpbnV4LW11c2xlYWJpaGYgOzsKICAgICopIGZhaWwgInVuc3VwcG9ydGVkIG1vZGUvYXJjaGl0ZWN0dXJlOiAke01PREV9OiR7QVJDSH0iIDs7CiAgZXNhYwp9CgptdXNsX2ltYWdlX2ZvcigpIHsKICBjYXNlICIke0FSQ0h9IiBpbgogICAgYW1kNjQpIHByaW50ZiAnJXNcbicgIiR7TVVTTF9JTUFHRV9BTUQ2NH0iIDs7CiAgICBhcm02NCkgcHJpbnRmICclc1xuJyAiJHtNVVNMX0lNQUdFX0FSTTY0fSIgOzsKICAgIGFybSkgcHJpbnRmICclc1xuJyAiJHtNVVNMX0lNQUdFX0FSTX0iIDs7CiAgICAqKSBmYWlsICJ1bnN1cHBvcnRlZCBtdXNsIGFyY2hpdGVjdHVyZTogJHtBUkNIfSIgOzsKICBlc2FjCn0KCnZhbGlkYXRlX2FyY2goKSB7CiAgbG9jYWwgaW5mbwogIGxvY2FsIGVsZl9oZWFkZXIKICBsb2NhbCBkeW5hbWljX3NlY3Rpb24KICBpbmZvPSIkKGZpbGUgLWIgIiR7T1VUUFVUfSIpIgogIGNhc2UgIiR7QVJDSH0iIGluCiAgICBhbWQ2NCkKICAgICAgcHJpbnRmICclc1xuJyAiJHtpbmZvfSIgfCBncmVwIC1FcSAnRUxGIDY0LWJpdCBMU0IuKng4Ni02NCcgfHwgZmFpbCAiJHtPVVRQVVR9OiAke2luZm99IgogICAgICA7OwogICAgYXJtNjQpCiAgICAgIHByaW50ZiAnJXNcbicgIiR7aW5mb30iIHwgZ3JlcCAtRXEgJ0VMRiA2NC1iaXQgTFNCLiooQVJNIGFhcmNoNjR8YWFyY2g2NCknIHx8IGZhaWwgIiR7T1VUUFVUfTogJHtpbmZvfSIKICAgICAgOzsKICAgIGFybSkKICAgICAgcHJpbnRmICclc1xuJyAiJHtpbmZvfSIgfCBncmVwIC1FcSAnRUxGIDMyLWJpdCBMU0IuKkFSTScgfHwgZmFpbCAiJHtPVVRQVVR9OiAke2luZm99IgogICAgICA7OwogIGVzYWMKCiAgaWYgWyAiJHtNT0RFfSIgPSAibXVzbCIgXTsgdGhlbgogICAgcHJpbnRmICclc1xuJyAiJHtpbmZvfSIgfCBncmVwIC1FcSAnKHN0YXRpY2FsbHkgbGlua2VkfHN0YXRpYy1waWUgbGlua2VkKScgfHwgXAogICAgICBmYWlsICJtdXNsIG91dHB1dCBpcyBub3Qgc3RhdGljOiAke2luZm99IgogIGZpCgogIGlmIFsgLW4gIiR7UkVBREVMRl9CSU59IiBdOyB0aGVuCiAgICBlbGZfaGVhZGVyPSIkKCIke1JFQURFTEZfQklOfSIgLWggIiR7T1VUUFVUfSIpIgogICAgY2FzZSAiJHtBUkNIfSIgaW4KICAgICAgYW1kNjQpCiAgICAgICAgcHJpbnRmICclc1xuJyAiJHtlbGZfaGVhZGVyfSIgfCBncmVwIC1FcSAnTWFjaGluZTpbWzpzcGFjZTpdXSooQWR2YW5jZWQgTWljcm8gRGV2aWNlcyBYODYtNjR8QU1EIHg4Ni02NCknIHx8IFwKICAgICAgICAgIGZhaWwgIiR7T1VUUFVUfTogcmVhZGVsZiByZXBvcnRlZCBhbiB1bmV4cGVjdGVkIG1hY2hpbmUiCiAgICAgICAgOzsKICAgICAgYXJtNjQpCiAgICAgICAgcHJpbnRmICclc1xuJyAiJHtlbGZfaGVhZGVyfSIgfCBncmVwIC1FcSAnTWFjaGluZTpbWzpzcGFjZTpdXSpBQXJjaDY0JyB8fCBcCiAgICAgICAgICBmYWlsICIke09VVFBVVH06IHJlYWRlbGYgcmVwb3J0ZWQgYW4gdW5leHBlY3RlZCBtYWNoaW5lIgogICAgICAgIDs7CiAgICAgIGFybSkKICAgICAgICBwcmludGYgJyVzXG4nICIke2VsZl9oZWFkZXJ9IiB8IGdyZXAgLUVxICdNYWNoaW5lOltbOnNwYWNlOl1dKkFSTScgfHwgXAogICAgICAgICAgZmFpbCAiJHtPVVRQVVR9OiByZWFkZWxmIHJlcG9ydGVkIGFuIHVuZXhwZWN0ZWQgbWFjaGluZSIKICAgICAgICA7OwogICAgZXNhYwogICAgaWYgWyAiJHtNT0RFfSIgPSAibXVzbCIgXTsgdGhlbgogICAgICBkeW5hbWljX3NlY3Rpb249IiQoIiR7UkVBREVMRl9CSU59IiAtZCAiJHtPVVRQVVR9IiAyPiYxIHx8IHRydWUpIgogICAgICBpZiBwcmludGYgJyVzXG4nICIke2R5bmFtaWNfc2VjdGlvbn0iIHwgZ3JlcCAtcSAnKE5FRURFRCknOyB0aGVuCiAgICAgICAgZmFpbCAiJHtPVVRQVVR9OiBtdXNsIG91dHB1dCBoYXMgZHluYW1pYyBkZXBlbmRlbmNpZXMiCiAgICAgIGZpCiAgICBmaQogIGVsaWYgWyAiJHtDSTotfSIgPSAidHJ1ZSIgXTsgdGhlbgogICAgZmFpbCAicmVhZGVsZiBpcyByZXF1aXJlZCBmb3IgQ0kgRUxGIHZhbGlkYXRpb24iCiAgZmkKfQoKdmFsaWRhdGVfZ2xpYmNfY2VpbGluZygpIHsKICBsb2NhbCBoaWdoZXN0CiAgbG9jYWwgcGVybWl0dGVkCgogIFsgIiR7TU9ERX0iID0gImdudSIgXSB8fCByZXR1cm4gMAogIFsgLW4gIiR7UkVBREVMRl9CSU59IiBdIHx8IHJldHVybiAwCiAgaGlnaGVzdD0iJCgKICAgICIke1JFQURFTEZfQklOfSIgLS12ZXJzaW9uLWluZm8gIiR7T1VUUFVUfSIgMj4vZGV2L251bGwgfAogICAgICBncmVwIC1FbyAnR0xJQkNfWzAtOV0rKFwuWzAtOV0rKSsnIHwKICAgICAgc2VkICdzL15HTElCQ18vLycgfAogICAgICBzb3J0IC1WdSB8CiAgICAgIHRhaWwgLW4xCiAgKSIKICBbIC1uICIke2hpZ2hlc3R9IiBdIHx8IHJldHVybiAwCiAgcGVybWl0dGVkPSIkKHByaW50ZiAnJXNcbiVzXG4nICIke2hpZ2hlc3R9IiAiJHtHTElCQ19WRVJTSU9OfSIgfCBzb3J0IC1WIHwgaGVhZCAtbjEpIgogIFsgIiR7cGVybWl0dGVkfSIgPSAiJHtoaWdoZXN0fSIgXSB8fCBcCiAgICBmYWlsICIke09VVFBVVH0gcmVxdWlyZXMgR0xJQkNfJHtoaWdoZXN0fSwgYWJvdmUgR0xJQkNfJHtHTElCQ19WRVJTSU9OfSIKfQoKWyAtbiAiJHtNT0RFfSIgXSAmJiBbIC1uICIke0FSQ0h9IiBdICYmIFsgLW4gIiR7T1VUUFVUfSIgXSB8fCBcCiAgZmFpbCAidXNhZ2U6ICQwIDxnbnV8bXVzbD4gPGFtZDY0fGFybTY0fGFybT4gPG91dHB1dD4iCmNvbW1hbmQgLXYgZmlsZSA+L2Rldi9udWxsIDI+JjEgfHwgZmFpbCAibWlzc2luZyByZXF1aXJlZCBjb21tYW5kOiBmaWxlIgppZiBjb21tYW5kIC12IHJlYWRlbGYgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgUkVBREVMRl9CSU49IiQoY29tbWFuZCAtdiByZWFkZWxmKSIKZWxpZiBjb21tYW5kIC12IGdyZWFkZWxmID4vZGV2L251bGwgMj4mMTsgdGhlbgogIFJFQURFTEZfQklOPSIkKGNvbW1hbmQgLXYgZ3JlYWRlbGYpIgpmaQoKVEFSR0VUPSIkKHRhcmdldF9mb3IpIgpta2RpciAtcCAiJChkaXJuYW1lICIke09VVFBVVH0iKSIKCmNhc2UgIiR7TU9ERX0iIGluCiAgZ251KQogICAgY29tbWFuZCAtdiB6aWcgPi9kZXYvbnVsbCAyPiYxIHx8IGZhaWwgInppZyBpcyByZXF1aXJlZCBmb3IgR05VIGNyb3NzIGNvbXBpbGF0aW9uIgogICAgY29tbWFuZCAtdiBjYXJnby16aWdidWlsZCA+L2Rldi9udWxsIDI+JjEgfHwgZmFpbCAiY2FyZ28temlnYnVpbGQgaXMgcmVxdWlyZWQiCiAgICBydXN0dXAgdGFyZ2V0IGFkZCAiJHtUQVJHRVR9IiA+L2Rldi9udWxsCiAgICBUQVJHRVRfRElSPSIke1JPT1RfRElSfS9kaXN0L3NlcnZlci1hZG1pbi1ycy10YXJnZXQvcmVsZWFzZS1nbnUtJHtBUkNIfSIKICAgIGxvZyAiYnVpbGRpbmcgJHtUQVJHRVR9LmdsaWJjLSR7R0xJQkNfVkVSU0lPTn0iCiAgICBDQVJHT19UQVJHRVRfRElSPSIke1RBUkdFVF9ESVJ9IiBjYXJnbyB6aWdidWlsZCBcCiAgICAgIC0tbG9ja2VkIFwKICAgICAgLS1yZWxlYXNlIFwKICAgICAgLS1tYW5pZmVzdC1wYXRoICIke01BTklGRVNUfSIgXAogICAgICAtLXRhcmdldCAiJHtUQVJHRVR9LiR7R0xJQkNfVkVSU0lPTn0iCiAgICBCVUlMVD0iJChmaW5kICIke1RBUkdFVF9ESVJ9IiAtdHlwZSBmIC1wYXRoICcqL3JlbGVhc2Uvc2VydmVyLWFkbWluLXJzJyB8IGhlYWQgLW4xKSIKICAgIFsgLW4gIiR7QlVJTFR9IiBdIHx8IGZhaWwgImNhcmdvLXppZ2J1aWxkIG91dHB1dCB3YXMgbm90IGZvdW5kIgogICAgY3AgIiR7QlVJTFR9IiAiJHtPVVRQVVR9IgogICAgOzsKICBtdXNsKQogICAgY29tbWFuZCAtdiBkb2NrZXIgPi9kZXYvbnVsbCAyPiYxIHx8IGZhaWwgImRvY2tlciBpcyByZXF1aXJlZCBmb3IgbXVzbCBjb21waWxhdGlvbiIKICAgIElNQUdFPSIkKG11c2xfaW1hZ2VfZm9yKSIKICAgIFRBUkdFVF9ESVI9Ii93b3Jrc3BhY2UvZGlzdC9zZXJ2ZXItYWRtaW4tcnMtdGFyZ2V0L3JlbGVhc2UtbXVzbC0ke0FSQ0h9IgogICAgQ09OVEFJTkVSX09VVFBVVD0iL3dvcmtzcGFjZS8ke09VVFBVVCMke1JPT1RfRElSfS99IgogICAgbG9nICJidWlsZGluZyAke1RBUkdFVH0gd2l0aCAke0lNQUdFfSIKICAgIGRvY2tlciBydW4gLS1ybSBcCiAgICAgIC1lIENBUkdPX1RBUkdFVF9ESVI9IiR7VEFSR0VUX0RJUn0iIFwKICAgICAgLWUgRk5fS05PQ0tfR0FURVdBWV9DT01NSVQ9IiR7Rk5fS05PQ0tfR0FURVdBWV9DT01NSVQ6LX0iIFwKICAgICAgLWUgRk5fS05PQ0tfUlVTVF9UQVJHRVQ9IiR7VEFSR0VUfSIgXAogICAgICAtZSBGTl9LTk9DS19SVVNUX09VVD0iJHtDT05UQUlORVJfT1VUUFVUfSIgXAogICAgICAtdiAiJHtST09UX0RJUn06L3dvcmtzcGFjZSIgXAogICAgICAtdyAvd29ya3NwYWNlIFwKICAgICAgIiR7SU1BR0V9IiBcCiAgICAgIHNoIC1sYyAnY2FyZ28gYnVpbGQgLS1sb2NrZWQgLS1yZWxlYXNlIC0tbWFuaWZlc3QtcGF0aCBhcHBzL3NlcnZlci1hZG1pbi1ycy9DYXJnby50b21sIC0tdGFyZ2V0ICIke0ZOX0tOT0NLX1JVU1RfVEFSR0VUfSIgJiYgY3AgIiR7Q0FSR09fVEFSR0VUX0RJUn0vJHtGTl9LTk9DS19SVVNUX1RBUkdFVH0vcmVsZWFzZS9zZXJ2ZXItYWRtaW4tcnMiICIke0ZOX0tOT0NLX1JVU1RfT1VUfSIgJiYgY2htb2QgNzU1ICIke0ZOX0tOT0NLX1JVU1RfT1VUfSInCiAgICA7OwogICopCiAgICBmYWlsICJ1bnN1cHBvcnRlZCBtb2RlOiAke01PREV9IgogICAgOzsKZXNhYwoKWyAteCAiJHtPVVRQVVR9IiBdIHx8IGNobW9kIDc1NSAiJHtPVVRQVVR9IgppZiBbIC1uICIke0ZOX0tOT0NLX0dBVEVXQVlfQ09NTUlUOi19IiBdOyB0aGVuCiAgcHJpbnRmICclc1xuJyAiJHtGTl9LTk9DS19HQVRFV0FZX0NPTU1JVH0iID4gIiR7T1VUUFVUfS5nYXRld2F5LWNvbW1pdCIKZmkKdmFsaWRhdGVfYXJjaAp2YWxpZGF0ZV9nbGliY19jZWlsaW5nCmxvZyAiYnVpbHQgJHtPVVRQVVR9Igo=
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+MODE="${1:-}"
+ARCH="${2:-}"
+OUTPUT="${3:-}"
+MANIFEST="${ROOT_DIR}/apps/server-admin-rs/Cargo.toml"
+GLIBC_VERSION="${FN_KNOCK_ZIG_GLIBC_VERSION:-2.17}"
+MUSL_IMAGE_AMD64="${FN_KNOCK_RUST_MUSL_IMAGE_AMD64:-messense/rust-musl-cross:x86_64-musl@sha256:ce75e9174325d4fbb3de85c309e2d7ca29f7500169bc4b5d2c611ff7e86d549a}"
+MUSL_IMAGE_ARM64="${FN_KNOCK_RUST_MUSL_IMAGE_ARM64:-messense/rust-musl-cross:aarch64-musl@sha256:ecae5dd62d1c938c14f8071d36c16fa699860aace03bfb5284fb1216474d2643}"
+MUSL_IMAGE_ARM="${FN_KNOCK_RUST_MUSL_IMAGE_ARM:-messense/rust-musl-cross:armv7-musleabihf@sha256:714d7529ed9098699cc13abade83c565e6a946e53975c108089a8cd3b43cb871}"
+READELF_BIN=""
+
+log() {
+  printf '[fn-knock-rust-release] %s\n' "$*"
+}
+
+fail() {
+  printf '[fn-knock-rust-release] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+target_for() {
+  case "${MODE}:${ARCH}" in
+    gnu:amd64) printf '%s\n' x86_64-unknown-linux-gnu ;;
+    gnu:arm64) printf '%s\n' aarch64-unknown-linux-gnu ;;
+    musl:amd64) printf '%s\n' x86_64-unknown-linux-musl ;;
+    musl:arm64) printf '%s\n' aarch64-unknown-linux-musl ;;
+    musl:arm) printf '%s\n' armv7-unknown-linux-musleabihf ;;
+    *) fail "unsupported mode/architecture: ${MODE}:${ARCH}" ;;
+  esac
+}
+
+musl_image_for() {
+  case "${ARCH}" in
+    amd64) printf '%s\n' "${MUSL_IMAGE_AMD64}" ;;
+    arm64) printf '%s\n' "${MUSL_IMAGE_ARM64}" ;;
+    arm) printf '%s\n' "${MUSL_IMAGE_ARM}" ;;
+    *) fail "unsupported musl architecture: ${ARCH}" ;;
+  esac
+}
+
+validate_arch() {
+  local info
+  local elf_header
+  local dynamic_section
+  info="$(file -b "${OUTPUT}")"
+  case "${ARCH}" in
+    amd64)
+      printf '%s\n' "${info}" | grep -Eq 'ELF 64-bit LSB.*x86-64' || fail "${OUTPUT}: ${info}"
+      ;;
+    arm64)
+      printf '%s\n' "${info}" | grep -Eq 'ELF 64-bit LSB.*(ARM aarch64|aarch64)' || fail "${OUTPUT}: ${info}"
+      ;;
+    arm)
+      printf '%s\n' "${info}" | grep -Eq 'ELF 32-bit LSB.*ARM' || fail "${OUTPUT}: ${info}"
+      ;;
+  esac
+
+  if [ "${MODE}" = "musl" ]; then
+    printf '%s\n' "${info}" | grep -Eq '(statically linked|static-pie linked)' || \
+      fail "musl output is not static: ${info}"
+  fi
+
+  if [ -n "${READELF_BIN}" ]; then
+    elf_header="$("${READELF_BIN}" -h "${OUTPUT}")"
+    case "${ARCH}" in
+      amd64)
+        printf '%s\n' "${elf_header}" | grep -Eq 'Machine:[[:space:]]*(Advanced Micro Devices X86-64|AMD x86-64)' || \
+          fail "${OUTPUT}: readelf reported an unexpected machine"
+        ;;
+      arm64)
+        printf '%s\n' "${elf_header}" | grep -Eq 'Machine:[[:space:]]*AArch64' || \
+          fail "${OUTPUT}: readelf reported an unexpected machine"
+        ;;
+      arm)
+        printf '%s\n' "${elf_header}" | grep -Eq 'Machine:[[:space:]]*ARM' || \
+          fail "${OUTPUT}: readelf reported an unexpected machine"
+        ;;
+    esac
+    if [ "${MODE}" = "musl" ]; then
+      dynamic_section="$("${READELF_BIN}" -d "${OUTPUT}" 2>&1 || true)"
+      if printf '%s\n' "${dynamic_section}" | grep -q '(NEEDED)'; then
+        fail "${OUTPUT}: musl output has dynamic dependencies"
+      fi
+    fi
+  elif [ "${CI:-}" = "true" ]; then
+    fail "readelf is required for CI ELF validation"
+  fi
+}
+
+validate_glibc_ceiling() {
+  local highest
+  local permitted
+
+  [ "${MODE}" = "gnu" ] || return 0
+  [ -n "${READELF_BIN}" ] || return 0
+  highest="$(
+    "${READELF_BIN}" --version-info "${OUTPUT}" 2>/dev/null |
+      grep -Eo 'GLIBC_[0-9]+(\.[0-9]+)+' |
+      sed 's/^GLIBC_//' |
+      sort -Vu |
+      tail -n1
+  )"
+  [ -n "${highest}" ] || return 0
+  permitted="$(printf '%s\n%s\n' "${highest}" "${GLIBC_VERSION}" | sort -V | head -n1)"
+  [ "${permitted}" = "${highest}" ] || \
+    fail "${OUTPUT} requires GLIBC_${highest}, above GLIBC_${GLIBC_VERSION}"
+}
+
+[ -n "${MODE}" ] && [ -n "${ARCH}" ] && [ -n "${OUTPUT}" ] || \
+  fail "usage: $0 <gnu|musl> <amd64|arm64|arm> <output>"
+command -v file >/dev/null 2>&1 || fail "missing required command: file"
+if command -v readelf >/dev/null 2>&1; then
+  READELF_BIN="$(command -v readelf)"
+elif command -v greadelf >/dev/null 2>&1; then
+  READELF_BIN="$(command -v greadelf)"
+fi
+
+TARGET="$(target_for)"
+mkdir -p "$(dirname "${OUTPUT}")"
+
+case "${MODE}" in
+  gnu)
+    command -v zig >/dev/null 2>&1 || fail "zig is required for GNU cross compilation"
+    command -v cargo-zigbuild >/dev/null 2>&1 || fail "cargo-zigbuild is required"
+    rustup target add "${TARGET}" >/dev/null
+    TARGET_DIR="${ROOT_DIR}/dist/server-admin-rs-target/release-gnu-${ARCH}"
+    log "building ${TARGET}.glibc-${GLIBC_VERSION}"
+    CARGO_TARGET_DIR="${TARGET_DIR}" cargo zigbuild \
+      --locked \
+      --release \
+      --manifest-path "${MANIFEST}" \
+      --target "${TARGET}.${GLIBC_VERSION}"
+    BUILT="$(find "${TARGET_DIR}" -type f -path '*/release/server-admin-rs' | head -n1)"
+    [ -n "${BUILT}" ] || fail "cargo-zigbuild output was not found"
+    cp "${BUILT}" "${OUTPUT}"
+    ;;
+  musl)
+    command -v docker >/dev/null 2>&1 || fail "docker is required for musl compilation"
+    IMAGE="$(musl_image_for)"
+    TARGET_DIR="/workspace/dist/server-admin-rs-target/release-musl-${ARCH}"
+    CONTAINER_OUTPUT="/workspace/${OUTPUT#${ROOT_DIR}/}"
+    log "building ${TARGET} with ${IMAGE}"
+    docker run --rm \
+      -e CARGO_TARGET_DIR="${TARGET_DIR}" \
+      -e FN_KNOCK_GATEWAY_COMMIT="${FN_KNOCK_GATEWAY_COMMIT:-}" \
+      -e FN_KNOCK_RUST_TARGET="${TARGET}" \
+      -e FN_KNOCK_RUST_OUT="${CONTAINER_OUTPUT}" \
+      -v "${ROOT_DIR}:/workspace" \
+      -w /workspace \
+      "${IMAGE}" \
+      sh -lc 'cargo build --locked --release --manifest-path apps/server-admin-rs/Cargo.toml --target "${FN_KNOCK_RUST_TARGET}" && cp "${CARGO_TARGET_DIR}/${FN_KNOCK_RUST_TARGET}/release/server-admin-rs" "${FN_KNOCK_RUST_OUT}" && chmod 755 "${FN_KNOCK_RUST_OUT}"'
+    ;;
+  *)
+    fail "unsupported mode: ${MODE}"
+    ;;
+esac
+
+[ -x "${OUTPUT}" ] || chmod 755 "${OUTPUT}"
+if [ -n "${FN_KNOCK_GATEWAY_COMMIT:-}" ]; then
+  printf '%s\n' "${FN_KNOCK_GATEWAY_COMMIT}" > "${OUTPUT}.gateway-commit"
+fi
+validate_arch
+validate_glibc_ceiling
+log "built ${OUTPUT}"

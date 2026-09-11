@@ -1,1 +1,270 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgewogIHR5cGUgQWNtZUFwcGxpY2F0aW9uUGF5bG9hZCwKICB0eXBlIEFjbWVBcHBsaWNhdGlvblJlY29yZCwKICB0eXBlIEFjbWVEbnNQcm92aWRlciwKfSBmcm9tICJAL2xpYi9hcGkvYWNtZSI7CmltcG9ydCB7IHVzZURuc0NyZWRlbnRpYWxUcmFuc2ZlciB9IGZyb20gIkAvY29tcG9zYWJsZXMvdXNlRG5zQ3JlZGVudGlhbFRyYW5zZmVyIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsKICBidWlsZEFjbWVDcmVkZW50aWFsc1BheWxvYWQsCiAgZ2V0UHJvdmlkZXJDcmVkZW50aWFsRmllbGRzLAogIGdldFByb3ZpZGVyR3JvdXBLZXksCiAgZ2V0U2F0aXNmaWVkQ3JlZGVudGlhbFNjaGVtZSwKICBub3JtYWxpemVQcm92aWRlckNyZWRlbnRpYWxzLAogIHR5cGUgRG5zQ3JlZGVudGlhbFNjaGVtZSwKfSBmcm9tICIuL2FjbWVBcHBsaWNhdGlvbk1vZGVsIjsKCmV4cG9ydCB0eXBlIEFjbWVBcHBsaWNhdGlvbkRpYWxvZ1Byb3BzID0gewogIG9wZW46IGJvb2xlYW47CiAgbW9kZTogImNyZWF0ZSIgfCAiZWRpdCI7CiAgaW5pdGlhbFZhbHVlPzogQWNtZUFwcGxpY2F0aW9uUmVjb3JkIHwgbnVsbDsKICBkbnNQcm92aWRlcnM6IEFjbWVEbnNQcm92aWRlcltdOwogIHBlbmRpbmc/OiBib29sZWFuOwogIHJ1bnRpbWVMb2NrZWQ/OiBib29sZWFuOwp9OwoKZXhwb3J0IHR5cGUgQWNtZUFwcGxpY2F0aW9uRGlhbG9nRW1pdCA9IHsKICAoZXZlbnQ6ICJ1cGRhdGU6b3BlbiIsIHZhbHVlOiBib29sZWFuKTogdm9pZDsKICAoZXZlbnQ6ICJzdWJtaXQiLCBwYXlsb2FkOiBBY21lQXBwbGljYXRpb25QYXlsb2FkKTogdm9pZDsKfTsKCmV4cG9ydCBjb25zdCB1c2VBY21lQXBwbGljYXRpb25Gb3JtID0gKAogIHByb3BzOiBSZWFkb25seTxBY21lQXBwbGljYXRpb25EaWFsb2dQcm9wcz4sCiAgZW1pdDogQWNtZUFwcGxpY2F0aW9uRGlhbG9nRW1pdCwKKSA9PiB7CiAgY29uc3QgeyBsb2NhbGUsIHQgfSA9IHVzZUkxOG4oKTsKICBjb25zdCBuYW1lID0gcmVmKCIiKTsKICBjb25zdCBkb21haW5zID0gcmVmPHN0cmluZ1tdPihbXSk7CiAgY29uc3QgZG5zVHlwZSA9IHJlZigiIik7CiAgY29uc3QgY3JlZGVudGlhbHMgPSByZWY8UmVjb3JkPHN0cmluZywgc3RyaW5nPj4oe30pOwogIGNvbnN0IHJlbmV3RW5hYmxlZCA9IHJlZih0cnVlKTsKICBjb25zdCBpc0NyZWRlbnRpYWxzVmlzaWJsZSA9IHJlZihmYWxzZSk7CiAgY29uc3QgY3JlZGVudGlhbEVkaXRSZWFkeSA9IHJlZjxSZWNvcmQ8c3RyaW5nLCBib29sZWFuPj4oe30pOwoKICBjb25zdCBhY3RpdmVQcm92aWRlciA9IGNvbXB1dGVkKCgpID0+IHsKICAgIHJldHVybiAoCiAgICAgIHByb3BzLmRuc1Byb3ZpZGVycy5maW5kKAogICAgICAgIChwcm92aWRlcikgPT4gcHJvdmlkZXIuZG5zVHlwZSA9PT0gZG5zVHlwZS52YWx1ZSwKICAgICAgKSB8fCBudWxsCiAgICApOwogIH0pOwogIGNvbnN0IGFjdGl2ZURuc1R5cGUgPSBjb21wdXRlZCgoKSA9PiBkbnNUeXBlLnZhbHVlLnRyaW0oKSk7CiAgY29uc3QgYWN0aXZlQ3JlZGVudGlhbFNjaGVtZXMgPSBjb21wdXRlZDxEbnNDcmVkZW50aWFsU2NoZW1lW10+KAogICAgKCkgPT4gYWN0aXZlUHJvdmlkZXIudmFsdWU/LmNyZWRlbnRpYWxTY2hlbWVzIHx8IFtdLAogICk7CiAgY29uc3QgYWN0aXZlQ3JlZGVudGlhbEZpZWxkcyA9IGNvbXB1dGVkKCgpID0+CiAgICBnZXRQcm92aWRlckNyZWRlbnRpYWxGaWVsZHMoYWN0aXZlUHJvdmlkZXIudmFsdWUpLAogICk7CiAgY29uc3QgaGFzTXVsdGlwbGVDcmVkZW50aWFsU2NoZW1lcyA9IGNvbXB1dGVkKAogICAgKCkgPT4gYWN0aXZlQ3JlZGVudGlhbFNjaGVtZXMudmFsdWUubGVuZ3RoID4gMSwKICApOwogIGNvbnN0IG1hdGNoZWRDcmVkZW50aWFsU2NoZW1lID0gY29tcHV0ZWQoKCkgPT4KICAgIGdldFNhdGlzZmllZENyZWRlbnRpYWxTY2hlbWUoYWN0aXZlUHJvdmlkZXIudmFsdWUsIGNyZWRlbnRpYWxzLnZhbHVlKSwKICApOwogIGNvbnN0IGZpbGxlZENyZWRlbnRpYWxDb3VudCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIHJldHVybiBhY3RpdmVDcmVkZW50aWFsRmllbGRzLnZhbHVlLmZpbHRlcigKICAgICAgKGZpZWxkKSA9PiAoY3JlZGVudGlhbHMudmFsdWVbZmllbGQua2V5XSB8fCAiIikudHJpbSgpLmxlbmd0aCA+IDAsCiAgICApLmxlbmd0aDsKICB9KTsKCiAgY29uc3QgY3JlZGVudGlhbFN1bW1hcnkgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoIWFjdGl2ZUNyZWRlbnRpYWxGaWVsZHMudmFsdWUubGVuZ3RoKSB7CiAgICAgIHJldHVybiB0KCJhZG1pbi5hY21lQXBwbGljYXRpb25EaWFsb2cubm9FeHRyYUNyZWRlbnRpYWxzIik7CiAgICB9CiAgICBpZiAobWF0Y2hlZENyZWRlbnRpYWxTY2hlbWUudmFsdWUpIHsKICAgICAgcmV0dXJuIHQoImFkbWluLmFjbWVBcHBsaWNhdGlvbkRpYWxvZy5zY2hlbWVTYXRpc2ZpZWQiLCB7CiAgICAgICAgbGFiZWw6IG1hdGNoZWRDcmVkZW50aWFsU2NoZW1lLnZhbHVlLmxhYmVsLAogICAgICB9KTsKICAgIH0KICAgIGlmICghZmlsbGVkQ3JlZGVudGlhbENvdW50LnZhbHVlKSB7CiAgICAgIHJldHVybiBoYXNNdWx0aXBsZUNyZWRlbnRpYWxTY2hlbWVzLnZhbHVlCiAgICAgICAgPyB0KCJhZG1pbi5hY21lQXBwbGljYXRpb25EaWFsb2cuc2NoZW1lQ291bnQiLCB7CiAgICAgICAgICAgIGNvdW50OiBhY3RpdmVDcmVkZW50aWFsU2NoZW1lcy52YWx1ZS5sZW5ndGgsCiAgICAgICAgICB9KQogICAgICAgIDogdCgiYWRtaW4uYWNtZUFwcGxpY2F0aW9uRGlhbG9nLnJlcXVpcmVkRmllbGRDb3VudCIsIHsKICAgICAgICAgICAgY291bnQ6IGFjdGl2ZUNyZWRlbnRpYWxGaWVsZHMudmFsdWUubGVuZ3RoLAogICAgICAgICAgfSk7CiAgICB9CiAgICBpZiAoaGFzTXVsdGlwbGVDcmVkZW50aWFsU2NoZW1lcy52YWx1ZSkgewogICAgICByZXR1cm4gdCgiYWRtaW4uYWNtZUFwcGxpY2F0aW9uRGlhbG9nLmZpbGxlZEFueVNjaGVtZSIsIHsKICAgICAgICBjb3VudDogZmlsbGVkQ3JlZGVudGlhbENvdW50LnZhbHVlLAogICAgICB9KTsKICAgIH0KICAgIHJldHVybiB0KCJhZG1pbi5hY21lQXBwbGljYXRpb25EaWFsb2cuZmlsbGVkRmllbGRDb3VudCIsIHsKICAgICAgZmlsbGVkOiBmaWxsZWRDcmVkZW50aWFsQ291bnQudmFsdWUsCiAgICAgIHRvdGFsOiBhY3RpdmVDcmVkZW50aWFsRmllbGRzLnZhbHVlLmxlbmd0aCwKICAgIH0pOwogIH0pOwoKICBjb25zdCBwcm92aWRlckdyb3VwTGFiZWwgPSAoa2V5OiBzdHJpbmcpID0+IHsKICAgIGlmICgKICAgICAga2V5ID09PSAiY29tbW9uIiB8fAogICAgICBrZXkgPT09ICJjaGluYSIgfHwKICAgICAga2V5ID09PSAiaW50ZXJuYXRpb25hbCIgfHwKICAgICAga2V5ID09PSAiY3VzdG9tQWR2YW5jZWQiIHx8CiAgICAgIGtleSA9PT0gIm90aGVyIgogICAgKSB7CiAgICAgIHJldHVybiB0KGBhZG1pbi5hY21lQXBwbGljYXRpb25EaWFsb2cucHJvdmlkZXJHcm91cHMuJHtrZXl9YCk7CiAgICB9CiAgICByZXR1cm4ga2V5OwogIH07CgogIGNvbnN0IGdyb3VwZWRQcm92aWRlcnMgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBncm91cE9yZGVyID0gWyJjb21tb24iLCAiY2hpbmEiLCAiaW50ZXJuYXRpb25hbCIsICJjdXN0b21BZHZhbmNlZCJdOwogICAgY29uc3QgYnVja2V0ID0gbmV3IE1hcDxzdHJpbmcsIEFjbWVEbnNQcm92aWRlcltdPigpOwogICAgZm9yIChjb25zdCBwcm92aWRlciBvZiBwcm9wcy5kbnNQcm92aWRlcnMpIHsKICAgICAgY29uc3QgZ3JvdXAgPSBnZXRQcm92aWRlckdyb3VwS2V5KHByb3ZpZGVyLmdyb3VwKTsKICAgICAgaWYgKCFidWNrZXQuaGFzKGdyb3VwKSkgYnVja2V0LnNldChncm91cCwgW10pOwogICAgICBidWNrZXQuZ2V0KGdyb3VwKSEucHVzaChwcm92aWRlcik7CiAgICB9CgogICAgY29uc3QgZ3JvdXBzID0gQXJyYXkuZnJvbShidWNrZXQuZW50cmllcygpKS5tYXAoKFtncm91cCwgaXRlbXNdKSA9PiAoewogICAgICBncm91cDogcHJvdmlkZXJHcm91cExhYmVsKGdyb3VwKSwKICAgICAgZ3JvdXBLZXk6IGdyb3VwLAogICAgICBpdGVtczogaXRlbXMKICAgICAgICAuc2xpY2UoKQogICAgICAgIC5zb3J0KChhLCBiKSA9PiBhLmxhYmVsLmxvY2FsZUNvbXBhcmUoYi5sYWJlbCwgbG9jYWxlLnZhbHVlKSksCiAgICB9KSk7CgogICAgZ3JvdXBzLnNvcnQoKGEsIGIpID0+IHsKICAgICAgY29uc3QgYWkgPSBncm91cE9yZGVyLmluZGV4T2YoYS5ncm91cEtleSk7CiAgICAgIGNvbnN0IGJpID0gZ3JvdXBPcmRlci5pbmRleE9mKGIuZ3JvdXBLZXkpOwogICAgICBpZiAoYWkgPT09IC0xICYmIGJpID09PSAtMSkgewogICAgICAgIHJldHVybiBhLmdyb3VwLmxvY2FsZUNvbXBhcmUoYi5ncm91cCwgbG9jYWxlLnZhbHVlKTsKICAgICAgfQogICAgICBpZiAoYWkgPT09IC0xKSByZXR1cm4gMTsKICAgICAgaWYgKGJpID09PSAtMSkgcmV0dXJuIC0xOwogICAgICByZXR1cm4gYWkgLSBiaTsKICAgIH0pOwogICAgcmV0dXJuIGdyb3VwczsKICB9KTsKCiAgY29uc3QgZGlhbG9nVGl0bGUgPSBjb21wdXRlZCgoKSA9PiB7CiAgICByZXR1cm4gcHJvcHMubW9kZSA9PT0gImVkaXQiCiAgICAgID8gdCgiYWRtaW4uYWNtZUFwcGxpY2F0aW9uRGlhbG9nLmVkaXRUaXRsZSIpCiAgICAgIDogdCgiYWRtaW4uYWNtZUFwcGxpY2F0aW9uRGlhbG9nLmNyZWF0ZVRpdGxlIik7CiAgfSk7CgogIGNvbnN0IGdldENyZWRlbnRpYWxTdGF0ZUtleSA9IChrZXk6IHN0cmluZykgPT4KICAgIGAke2FjdGl2ZURuc1R5cGUudmFsdWV9OiR7a2V5fWA7CiAgY29uc3QgZW5hYmxlQ3JlZGVudGlhbEVkaXRpbmcgPSAoa2V5OiBzdHJpbmcpID0+IHsKICAgIGNyZWRlbnRpYWxFZGl0UmVhZHkudmFsdWVbZ2V0Q3JlZGVudGlhbFN0YXRlS2V5KGtleSldID0gdHJ1ZTsKICB9OwogIGNvbnN0IGlzQ3JlZGVudGlhbEVkaXRSZWFkeSA9IChrZXk6IHN0cmluZykgPT4KICAgIGNyZWRlbnRpYWxFZGl0UmVhZHkudmFsdWVbZ2V0Q3JlZGVudGlhbFN0YXRlS2V5KGtleSldID09PSB0cnVlOwoKICBjb25zdCB7CiAgICBhcHBseVN1Z2dlc3Rpb246IGFwcGx5VHJhbnNmZXJyZWRDcmVkZW50aWFscywKICAgIGlzTG9hZGluZ1NvdXJjZTogaXNUcmFuc2ZlclNvdXJjZUxvYWRpbmcsCiAgICBzb3VyY2VTY29wZUxhYmVsOiB0cmFuc2ZlclNvdXJjZVNjb3BlTGFiZWwsCiAgICBzdWdnZXN0aW9uOiBjcmVkZW50aWFsVHJhbnNmZXJTdWdnZXN0aW9uLAogIH0gPSB1c2VEbnNDcmVkZW50aWFsVHJhbnNmZXIoewogICAgdGFyZ2V0OiAiYWNtZSIsCiAgICBwcm92aWRlcklkOiBhY3RpdmVEbnNUeXBlLAogICAgdGFyZ2V0Q3JlZGVudGlhbHM6IGNyZWRlbnRpYWxzLAogIH0pOwoKICBjb25zdCBjcmVkZW50aWFsVHJhbnNmZXJEZXNjcmlwdGlvbiA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IHN1Z2dlc3Rpb24gPSBjcmVkZW50aWFsVHJhbnNmZXJTdWdnZXN0aW9uLnZhbHVlOwogICAgaWYgKCFzdWdnZXN0aW9uKSByZXR1cm4gIiI7CiAgICByZXR1cm4gdCgiYWRtaW4uYWNtZUFwcGxpY2F0aW9uRGlhbG9nLnRyYW5zZmVyRGVzY3JpcHRpb24iLCB7CiAgICAgIHNvdXJjZTogdHJhbnNmZXJTb3VyY2VTY29wZUxhYmVsLnZhbHVlLAogICAgICBicmlkZ2U6IHN1Z2dlc3Rpb24uYnJpZGdlTGFiZWwsCiAgICAgIGNvdW50OiBzdWdnZXN0aW9uLmZpbGxhYmxlRmllbGRzLmxlbmd0aCwKICAgIH0pOwogIH0pOwoKICBjb25zdCBjYW5TdWJtaXQgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoIWRvbWFpbnMudmFsdWUubGVuZ3RoKSByZXR1cm4gZmFsc2U7CiAgICBpZiAoIS9eZG5zX1thLXowLTlfXSskL2kudGVzdChhY3RpdmVEbnNUeXBlLnZhbHVlKSkgcmV0dXJuIGZhbHNlOwogICAgaWYgKCFhY3RpdmVDcmVkZW50aWFsRmllbGRzLnZhbHVlLmxlbmd0aCkgcmV0dXJuIHRydWU7CiAgICByZXR1cm4gQm9vbGVhbihtYXRjaGVkQ3JlZGVudGlhbFNjaGVtZS52YWx1ZSk7CiAgfSk7CgogIGNvbnN0IHN5bmNGb3JtID0gKCkgPT4gewogICAgY29uc3QgaW5pdGlhbFZhbHVlID0gcHJvcHMuaW5pdGlhbFZhbHVlOwogICAgbmFtZS52YWx1ZSA9IGluaXRpYWxWYWx1ZT8ubmFtZSB8fCAiIjsKICAgIGRvbWFpbnMudmFsdWUgPSBBcnJheS5pc0FycmF5KGluaXRpYWxWYWx1ZT8uZG9tYWlucykKICAgICAgPyBbLi4uaW5pdGlhbFZhbHVlLmRvbWFpbnNdCiAgICAgIDogW107CiAgICBkbnNUeXBlLnZhbHVlID0gaW5pdGlhbFZhbHVlPy5kbnNUeXBlIHx8ICIiOwogICAgY3JlZGVudGlhbHMudmFsdWUgPSB7IC4uLihpbml0aWFsVmFsdWU/LmNyZWRlbnRpYWxzIHx8IHt9KSB9OwogICAgcmVuZXdFbmFibGVkLnZhbHVlID0gaW5pdGlhbFZhbHVlPy5yZW5ld0VuYWJsZWQgPz8gdHJ1ZTsKICAgIGlzQ3JlZGVudGlhbHNWaXNpYmxlLnZhbHVlID0gZmFsc2U7CiAgICBjcmVkZW50aWFsRWRpdFJlYWR5LnZhbHVlID0ge307CiAgfTsKCiAgY29uc3QgaGFuZGxlT3BlbkNoYW5nZSA9IChuZXh0T3BlbjogYm9vbGVhbikgPT4gewogICAgZW1pdCgidXBkYXRlOm9wZW4iLCBuZXh0T3Blbik7CiAgfTsKCiAgY29uc3Qgc3VibWl0ID0gKHN1Ym1pdE5vdzogYm9vbGVhbikgPT4gewogICAgaWYgKCFjYW5TdWJtaXQudmFsdWUpIHJldHVybjsKICAgIGVtaXQoInN1Ym1pdCIsIHsKICAgICAgbmFtZTogbmFtZS52YWx1ZS50cmltKCkgfHwgdW5kZWZpbmVkLAogICAgICBkb21haW5zOiBkb21haW5zLnZhbHVlLAogICAgICBkbnNUeXBlOiBhY3RpdmVEbnNUeXBlLnZhbHVlLAogICAgICBjcmVkZW50aWFsczogYnVpbGRBY21lQ3JlZGVudGlhbHNQYXlsb2FkKGNyZWRlbnRpYWxzLnZhbHVlKSwKICAgICAgcmVuZXdFbmFibGVkOiByZW5ld0VuYWJsZWQudmFsdWUsCiAgICAgIHN1Ym1pdE5vdywKICAgIH0pOwogIH07CgogIGNvbnN0IGFwcGx5Q3JlZGVudGlhbFRyYW5zZmVyID0gKCkgPT4gewogICAgY29uc3QgcmVzdWx0ID0gYXBwbHlUcmFuc2ZlcnJlZENyZWRlbnRpYWxzKCk7CiAgICBpZiAoIXJlc3VsdCkgcmV0dXJuOwogICAgZm9yIChjb25zdCBrZXkgb2YgcmVzdWx0LmFwcGxpZWRLZXlzKSBlbmFibGVDcmVkZW50aWFsRWRpdGluZyhrZXkpOwogICAgdG9hc3Quc3VjY2VzcygKICAgICAgdCgiYWRtaW4uYWNtZUFwcGxpY2F0aW9uRGlhbG9nLnRyYW5zZmVyQXBwbGllZCIsIHsKICAgICAgICBzb3VyY2U6IHRyYW5zZmVyU291cmNlU2NvcGVMYWJlbC52YWx1ZSwKICAgICAgICBjb3VudDogcmVzdWx0LmNvdW50LAogICAgICB9KSwKICAgICk7CiAgfTsKCiAgd2F0Y2goCiAgICAoKSA9PiBbcHJvcHMub3BlbiwgcHJvcHMuaW5pdGlhbFZhbHVlXSBhcyBjb25zdCwKICAgIChbb3Blbl0pID0+IHsKICAgICAgaWYgKG9wZW4pIHN5bmNGb3JtKCk7CiAgICB9LAogICAgeyBpbW1lZGlhdGU6IHRydWUgfSwKICApOwoKICB3YXRjaChkbnNUeXBlLCAoKSA9PiB7CiAgICBjcmVkZW50aWFsRWRpdFJlYWR5LnZhbHVlID0ge307CiAgICBjcmVkZW50aWFscy52YWx1ZSA9IG5vcm1hbGl6ZVByb3ZpZGVyQ3JlZGVudGlhbHMoCiAgICAgIGFjdGl2ZVByb3ZpZGVyLnZhbHVlLAogICAgICBjcmVkZW50aWFscy52YWx1ZSwKICAgICk7CiAgICBpc0NyZWRlbnRpYWxzVmlzaWJsZS52YWx1ZSA9IGZhbHNlOwogIH0pOwoKICByZXR1cm4gewogICAgYWN0aXZlQ3JlZGVudGlhbEZpZWxkcywKICAgIGFjdGl2ZUNyZWRlbnRpYWxTY2hlbWVzLAogICAgYWN0aXZlRG5zVHlwZSwKICAgIGFwcGx5Q3JlZGVudGlhbFRyYW5zZmVyLAogICAgY2FuU3VibWl0LAogICAgY3JlZGVudGlhbFN1bW1hcnksCiAgICBjcmVkZW50aWFsVHJhbnNmZXJEZXNjcmlwdGlvbiwKICAgIGNyZWRlbnRpYWxUcmFuc2ZlclN1Z2dlc3Rpb24sCiAgICBjcmVkZW50aWFscywKICAgIGRpYWxvZ1RpdGxlLAogICAgZG5zVHlwZSwKICAgIGRvbWFpbnMsCiAgICBlbmFibGVDcmVkZW50aWFsRWRpdGluZywKICAgIGdyb3VwZWRQcm92aWRlcnMsCiAgICBoYW5kbGVPcGVuQ2hhbmdlLAogICAgaGFzTXVsdGlwbGVDcmVkZW50aWFsU2NoZW1lcywKICAgIGlzQ3JlZGVudGlhbEVkaXRSZWFkeSwKICAgIGlzQ3JlZGVudGlhbHNWaXNpYmxlLAogICAgaXNUcmFuc2ZlclNvdXJjZUxvYWRpbmcsCiAgICBuYW1lLAogICAgcmVuZXdFbmFibGVkLAogICAgc3VibWl0LAogICAgdCwKICAgIHRyYW5zZmVyU291cmNlU2NvcGVMYWJlbCwKICB9Owp9Owo=
+import { computed, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  type AcmeApplicationPayload,
+  type AcmeApplicationRecord,
+  type AcmeDnsProvider,
+} from "@/lib/api/acme";
+import { useDnsCredentialTransfer } from "@/composables/useDnsCredentialTransfer";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  buildAcmeCredentialsPayload,
+  getProviderCredentialFields,
+  getProviderGroupKey,
+  getSatisfiedCredentialScheme,
+  normalizeProviderCredentials,
+  type DnsCredentialScheme,
+} from "./acmeApplicationModel";
+
+export type AcmeApplicationDialogProps = {
+  open: boolean;
+  mode: "create" | "edit";
+  initialValue?: AcmeApplicationRecord | null;
+  dnsProviders: AcmeDnsProvider[];
+  pending?: boolean;
+  runtimeLocked?: boolean;
+};
+
+export type AcmeApplicationDialogEmit = {
+  (event: "update:open", value: boolean): void;
+  (event: "submit", payload: AcmeApplicationPayload): void;
+};
+
+export const useAcmeApplicationForm = (
+  props: Readonly<AcmeApplicationDialogProps>,
+  emit: AcmeApplicationDialogEmit,
+) => {
+  const { locale, t } = useI18n();
+  const name = ref("");
+  const domains = ref<string[]>([]);
+  const dnsType = ref("");
+  const credentials = ref<Record<string, string>>({});
+  const renewEnabled = ref(true);
+  const isCredentialsVisible = ref(false);
+  const credentialEditReady = ref<Record<string, boolean>>({});
+
+  const activeProvider = computed(() => {
+    return (
+      props.dnsProviders.find(
+        (provider) => provider.dnsType === dnsType.value,
+      ) || null
+    );
+  });
+  const activeDnsType = computed(() => dnsType.value.trim());
+  const activeCredentialSchemes = computed<DnsCredentialScheme[]>(
+    () => activeProvider.value?.credentialSchemes || [],
+  );
+  const activeCredentialFields = computed(() =>
+    getProviderCredentialFields(activeProvider.value),
+  );
+  const hasMultipleCredentialSchemes = computed(
+    () => activeCredentialSchemes.value.length > 1,
+  );
+  const matchedCredentialScheme = computed(() =>
+    getSatisfiedCredentialScheme(activeProvider.value, credentials.value),
+  );
+  const filledCredentialCount = computed(() => {
+    return activeCredentialFields.value.filter(
+      (field) => (credentials.value[field.key] || "").trim().length > 0,
+    ).length;
+  });
+
+  const credentialSummary = computed(() => {
+    if (!activeCredentialFields.value.length) {
+      return t("admin.acmeApplicationDialog.noExtraCredentials");
+    }
+    if (matchedCredentialScheme.value) {
+      return t("admin.acmeApplicationDialog.schemeSatisfied", {
+        label: matchedCredentialScheme.value.label,
+      });
+    }
+    if (!filledCredentialCount.value) {
+      return hasMultipleCredentialSchemes.value
+        ? t("admin.acmeApplicationDialog.schemeCount", {
+            count: activeCredentialSchemes.value.length,
+          })
+        : t("admin.acmeApplicationDialog.requiredFieldCount", {
+            count: activeCredentialFields.value.length,
+          });
+    }
+    if (hasMultipleCredentialSchemes.value) {
+      return t("admin.acmeApplicationDialog.filledAnyScheme", {
+        count: filledCredentialCount.value,
+      });
+    }
+    return t("admin.acmeApplicationDialog.filledFieldCount", {
+      filled: filledCredentialCount.value,
+      total: activeCredentialFields.value.length,
+    });
+  });
+
+  const providerGroupLabel = (key: string) => {
+    if (
+      key === "common" ||
+      key === "china" ||
+      key === "international" ||
+      key === "customAdvanced" ||
+      key === "other"
+    ) {
+      return t(`admin.acmeApplicationDialog.providerGroups.${key}`);
+    }
+    return key;
+  };
+
+  const groupedProviders = computed(() => {
+    const groupOrder = ["common", "china", "international", "customAdvanced"];
+    const bucket = new Map<string, AcmeDnsProvider[]>();
+    for (const provider of props.dnsProviders) {
+      const group = getProviderGroupKey(provider.group);
+      if (!bucket.has(group)) bucket.set(group, []);
+      bucket.get(group)!.push(provider);
+    }
+
+    const groups = Array.from(bucket.entries()).map(([group, items]) => ({
+      group: providerGroupLabel(group),
+      groupKey: group,
+      items: items
+        .slice()
+        .sort((a, b) => a.label.localeCompare(b.label, locale.value)),
+    }));
+
+    groups.sort((a, b) => {
+      const ai = groupOrder.indexOf(a.groupKey);
+      const bi = groupOrder.indexOf(b.groupKey);
+      if (ai === -1 && bi === -1) {
+        return a.group.localeCompare(b.group, locale.value);
+      }
+      if (ai === -1) return 1;
+      if (bi === -1) return -1;
+      return ai - bi;
+    });
+    return groups;
+  });
+
+  const dialogTitle = computed(() => {
+    return props.mode === "edit"
+      ? t("admin.acmeApplicationDialog.editTitle")
+      : t("admin.acmeApplicationDialog.createTitle");
+  });
+
+  const getCredentialStateKey = (key: string) =>
+    `${activeDnsType.value}:${key}`;
+  const enableCredentialEditing = (key: string) => {
+    credentialEditReady.value[getCredentialStateKey(key)] = true;
+  };
+  const isCredentialEditReady = (key: string) =>
+    credentialEditReady.value[getCredentialStateKey(key)] === true;
+
+  const {
+    applySuggestion: applyTransferredCredentials,
+    isLoadingSource: isTransferSourceLoading,
+    sourceScopeLabel: transferSourceScopeLabel,
+    suggestion: credentialTransferSuggestion,
+  } = useDnsCredentialTransfer({
+    target: "acme",
+    providerId: activeDnsType,
+    targetCredentials: credentials,
+  });
+
+  const credentialTransferDescription = computed(() => {
+    const suggestion = credentialTransferSuggestion.value;
+    if (!suggestion) return "";
+    return t("admin.acmeApplicationDialog.transferDescription", {
+      source: transferSourceScopeLabel.value,
+      bridge: suggestion.bridgeLabel,
+      count: suggestion.fillableFields.length,
+    });
+  });
+
+  const canSubmit = computed(() => {
+    if (!domains.value.length) return false;
+    if (!/^dns_[a-z0-9_]+$/i.test(activeDnsType.value)) return false;
+    if (!activeCredentialFields.value.length) return true;
+    return Boolean(matchedCredentialScheme.value);
+  });
+
+  const syncForm = () => {
+    const initialValue = props.initialValue;
+    name.value = initialValue?.name || "";
+    domains.value = Array.isArray(initialValue?.domains)
+      ? [...initialValue.domains]
+      : [];
+    dnsType.value = initialValue?.dnsType || "";
+    credentials.value = { ...(initialValue?.credentials || {}) };
+    renewEnabled.value = initialValue?.renewEnabled ?? true;
+    isCredentialsVisible.value = false;
+    credentialEditReady.value = {};
+  };
+
+  const handleOpenChange = (nextOpen: boolean) => {
+    emit("update:open", nextOpen);
+  };
+
+  const submit = (submitNow: boolean) => {
+    if (!canSubmit.value) return;
+    emit("submit", {
+      name: name.value.trim() || undefined,
+      domains: domains.value,
+      dnsType: activeDnsType.value,
+      credentials: buildAcmeCredentialsPayload(credentials.value),
+      renewEnabled: renewEnabled.value,
+      submitNow,
+    });
+  };
+
+  const applyCredentialTransfer = () => {
+    const result = applyTransferredCredentials();
+    if (!result) return;
+    for (const key of result.appliedKeys) enableCredentialEditing(key);
+    toast.success(
+      t("admin.acmeApplicationDialog.transferApplied", {
+        source: transferSourceScopeLabel.value,
+        count: result.count,
+      }),
+    );
+  };
+
+  watch(
+    () => [props.open, props.initialValue] as const,
+    ([open]) => {
+      if (open) syncForm();
+    },
+    { immediate: true },
+  );
+
+  watch(dnsType, () => {
+    credentialEditReady.value = {};
+    credentials.value = normalizeProviderCredentials(
+      activeProvider.value,
+      credentials.value,
+    );
+    isCredentialsVisible.value = false;
+  });
+
+  return {
+    activeCredentialFields,
+    activeCredentialSchemes,
+    activeDnsType,
+    applyCredentialTransfer,
+    canSubmit,
+    credentialSummary,
+    credentialTransferDescription,
+    credentialTransferSuggestion,
+    credentials,
+    dialogTitle,
+    dnsType,
+    domains,
+    enableCredentialEditing,
+    groupedProviders,
+    handleOpenChange,
+    hasMultipleCredentialSchemes,
+    isCredentialEditReady,
+    isCredentialsVisible,
+    isTransferSourceLoading,
+    name,
+    renewEnabled,
+    submit,
+    t,
+    transferSourceScopeLabel,
+  };
+};

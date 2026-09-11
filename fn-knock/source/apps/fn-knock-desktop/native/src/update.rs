@@ -1,1 +1,356 @@
-dXNlIHN0ZDo6ewogICAgZnMsCiAgICBpbzo6e0N1cnNvciwgUmVhZCwgU2VlaywgU2Vla0Zyb20sIFdyaXRlfSwKICAgIHBhdGg6OntQYXRoLCBQYXRoQnVmfSwKICAgIHByb2Nlc3M6OkNvbW1hbmQsCiAgICB0aW1lOjp7RHVyYXRpb24sIFN5c3RlbVRpbWUsIFVOSVhfRVBPQ0h9LAp9OwoKdXNlIHNlcmRlOjpEZXNlcmlhbGl6ZTsKdXNlIHNoYTI6OntEaWdlc3QsIFNoYTI1Nn07Cgp1c2UgY3JhdGU6OmkxOG47Cgpjb25zdCBFTkRQT0lOVDogJnN0ciA9ICJodHRwczovL2Nvci5mbmtub2NrLmNuL2xhdGVzdC5qc29uIjsKCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVzZXJpYWxpemUpXQpwdWIgc3RydWN0IFVwZGF0ZVBhY2thZ2UgewogICAgI1tzZXJkZShyZW5hbWUgPSAiZG93bmxvYWRfdXJsIildCiAgICBwdWIgdXJsOiBTdHJpbmcsCiAgICBwdWIgc2hhMjU2OiBTdHJpbmcsCiAgICBwdWIgc2l6ZTogdTY0LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplKV0KcHViIHN0cnVjdCBVcGRhdGVPZmZlciB7CiAgICBwdWIgdmVyc2lvbjogU3RyaW5nLAogICAgcHViIHBhY2thZ2U6IFVwZGF0ZVBhY2thZ2UsCiAgICBwdWIgZm9yY2VfdXBkYXRlOiBib29sLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplKV0Kc3RydWN0IFNoYXJlZExhdGVzdE1hbmlmZXN0IHsKICAgIHZlcnNpb246IFN0cmluZywKICAgIHVwZGF0ZV9hdmFpbGFibGU6IGJvb2wsCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgZm9yY2VfdXBkYXRlOiBib29sLAogICAgcGFja2FnZXM6IFNoYXJlZFBhY2thZ2VzLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplKV0Kc3RydWN0IFNoYXJlZFBhY2thZ2VzIHsKICAgIHdpbmRvd3M6IHN0ZDo6Y29sbGVjdGlvbnM6Okhhc2hNYXA8U3RyaW5nLCBVcGRhdGVQYWNrYWdlPiwKfQoKZm4gdmVyc2lvbl90dXBsZSh2YWx1ZTogJnN0cikgLT4gVmVjPHU2ND4gewogICAgdmFsdWUKICAgICAgICAudHJpbV9zdGFydF9tYXRjaGVzKCd2JykKICAgICAgICAuc3BsaXQoJy4nKQogICAgICAgIC5tYXAofHBhcnR8IHBhcnQucGFyc2UoKS51bndyYXBfb3IoMCkpCiAgICAgICAgLmNvbGxlY3QoKQp9CgpwdWIgZm4gY2hlY2soKSAtPiBSZXN1bHQ8T3B0aW9uPFVwZGF0ZU9mZmVyPiwgU3RyaW5nPiB7CiAgICBsZXQgY2xpZW50ID0gcmVxd2VzdDo6YmxvY2tpbmc6OkNsaWVudDo6YnVpbGRlcigpCiAgICAgICAgLnRpbWVvdXQoRHVyYXRpb246OmZyb21fc2VjcygxMCkpCiAgICAgICAgLmJ1aWxkKCkKICAgICAgICAubWFwX2Vycih8ZXwgZm9ybWF0ISgie33vvJp7ZX0iLCBpMThuOjp0cigi5peg5rOV5Yid5aeL5YyW5pu05paw572R57uc5a6i5oi356uvIikpKT87CiAgICBsZXQgbWFuaWZlc3QgPSBjbGllbnQKICAgICAgICAuZ2V0KEVORFBPSU5UKQogICAgICAgIC5zZW5kKCkKICAgICAgICAubWFwX2Vycih8ZXwgZm9ybWF0ISgie33vvJp7ZX0iLCBpMThuOjp0cigi5qOA5p+l5pu05paw5aSx6LSlIikpKT8KICAgICAgICAuZXJyb3JfZm9yX3N0YXR1cygpCiAgICAgICAgLm1hcF9lcnIofGV8IGZvcm1hdCEoInt977yae2V9IiwgaTE4bjo6dHIoIuajgOafpeabtOaWsOWksei0pSIpKSk/CiAgICAgICAgLmpzb246OjxTaGFyZWRMYXRlc3RNYW5pZmVzdD4oKQogICAgICAgIC5tYXBfZXJyKHxlfCBmb3JtYXQhKCJ7fe+8mntlfSIsIGkxOG46OnRyKCLmm7TmlrDmuIXljZXml6DmlYgiKSkpPzsKICAgIG9mZmVyX2Zyb21fbWFuaWZlc3QobWFuaWZlc3QsIGVudiEoIkNBUkdPX1BLR19WRVJTSU9OIikpCn0KCmZuIG9mZmVyX2Zyb21fbWFuaWZlc3QoCiAgICBtdXQgbWFuaWZlc3Q6IFNoYXJlZExhdGVzdE1hbmlmZXN0LAogICAgY3VycmVudF92ZXJzaW9uOiAmc3RyLAopIC0+IFJlc3VsdDxPcHRpb248VXBkYXRlT2ZmZXI+LCBTdHJpbmc+IHsKICAgIGxldCBwYWNrYWdlID0gbWFuaWZlc3QKICAgICAgICAucGFja2FnZXMKICAgICAgICAud2luZG93cwogICAgICAgIC5yZW1vdmUoIng4Nl82NCIpCiAgICAgICAgLm9rX29yX2Vsc2UofHwgaTE4bjo6dHIoIuabtOaWsOa4heWNlee8uuWwkSBXaW5kb3dzIHg4Nl82NCDlronoo4XljIUiKS50b19zdHJpbmcoKSk/OwogICAgaWYgbWFuaWZlc3QudXBkYXRlX2F2YWlsYWJsZQogICAgICAgICYmIHZlcnNpb25fdHVwbGUoJm1hbmlmZXN0LnZlcnNpb24pID4gdmVyc2lvbl90dXBsZShjdXJyZW50X3ZlcnNpb24pCiAgICB7CiAgICAgICAgT2soU29tZShVcGRhdGVPZmZlciB7CiAgICAgICAgICAgIHZlcnNpb246IG1hbmlmZXN0LnZlcnNpb24sCiAgICAgICAgICAgIHBhY2thZ2UsCiAgICAgICAgICAgIGZvcmNlX3VwZGF0ZTogbWFuaWZlc3QuZm9yY2VfdXBkYXRlLAogICAgICAgIH0pKQogICAgfSBlbHNlIHsKICAgICAgICBPayhOb25lKQogICAgfQp9CgpwdWIgZm4gaW5zdGFsbChvZmZlcjogJlVwZGF0ZU9mZmVyKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgbGV0IHBhY2thZ2UgPSAmb2ZmZXIucGFja2FnZTsKICAgIGlmICFwYWNrYWdlLnVybC5zdGFydHNfd2l0aCgiaHR0cHM6Ly9jZG4uZm5rbm9jay5jbi8iKSB7CiAgICAgICAgcmV0dXJuIEVycihpMThuOjp0cigi5pu05paw5LiL6L295Zyw5Z2A5LiN5Y+X5L+h5Lu7IikudG9fc3RyaW5nKCkpOwogICAgfQogICAgbGV0IGNsaWVudCA9IHJlcXdlc3Q6OmJsb2NraW5nOjpDbGllbnQ6OmJ1aWxkZXIoKQogICAgICAgIC50aW1lb3V0KER1cmF0aW9uOjpmcm9tX3NlY3MoMzAwKSkKICAgICAgICAuYnVpbGQoKQogICAgICAgIC5tYXBfZXJyKHxlfCBmb3JtYXQhKCJ7fe+8mntlfSIsIGkxOG46OnRyKCLml6Dms5XliJ3lp4vljJbmm7TmlrDnvZHnu5zlrqLmiLfnq68iKSkpPzsKICAgIGxldCBieXRlcyA9IGNsaWVudAogICAgICAgIC5nZXQoJnBhY2thZ2UudXJsKQogICAgICAgIC5zZW5kKCkKICAgICAgICAubWFwX2Vycih8ZXwgZm9ybWF0ISgie33vvJp7ZX0iLCBpMThuOjp0cigi5LiL6L295pu05paw5a6J6KOF5YyF5aSx6LSlIikpKT8KICAgICAgICAuZXJyb3JfZm9yX3N0YXR1cygpCiAgICAgICAgLm1hcF9lcnIofGV8IGZvcm1hdCEoInt977yae2V9IiwgaTE4bjo6dHIoIuS4i+i9veabtOaWsOWuieijheWMheWksei0pSIpKSk/CiAgICAgICAgLmJ5dGVzKCkKICAgICAgICAubWFwX2Vycih8ZXwgZm9ybWF0ISgie33vvJp7ZX0iLCBpMThuOjp0cigi5LiL6L295pu05paw5a6J6KOF5YyF5aSx6LSlIikpKT87CiAgICBpZiBieXRlcy5sZW4oKSBhcyB1NjQgIT0gcGFja2FnZS5zaXplIHsKICAgICAgICByZXR1cm4gRXJyKGkxOG46OnRyKCLmm7TmlrDlronoo4XljIXlpKflsI/kuI3ljLnphY0iKS50b19zdHJpbmcoKSk7CiAgICB9CiAgICBsZXQgZGlnZXN0ID0gaGV4OjplbmNvZGUoU2hhMjU2OjpkaWdlc3QoJmJ5dGVzKSk7CiAgICBpZiAhZGlnZXN0LmVxX2lnbm9yZV9hc2NpaV9jYXNlKCZwYWNrYWdlLnNoYTI1NikgewogICAgICAgIHJldHVybiBFcnIoaTE4bjo6dHIoIuabtOaWsOWuieijheWMhSBTSEEtMjU2IOS4jeWMuemFjSIpLnRvX3N0cmluZygpKTsKICAgIH0KICAgIHZlcmlmeV9wZV9oZWFkZXIoJm11dCBDdXJzb3I6Om5ldyhieXRlcy5hc19yZWYoKSksIGJ5dGVzLmxlbigpIGFzIHU2NCk/OwogICAgbGV0IHByaW1hcnlfZGlyZWN0b3J5ID0gY3JhdGU6OnBsYXRmb3JtOjpwcm9ncmFtX2RhdGFfZGlyKCk/LmpvaW4oInVwZGF0ZXMiKTsKICAgIGxldCBmYWxsYmFja19kaXJlY3RvcnkgPSBzdGQ6OmVudjo6dGVtcF9kaXIoKS5qb2luKCJGbktub2NrIikuam9pbigidXBkYXRlcyIpOwogICAgbGV0IG11dCBlcnJvcnMgPSBWZWM6Om5ldygpOwoKICAgIGZvciBkaXJlY3RvcnkgaW4gWyZwcmltYXJ5X2RpcmVjdG9yeSwgJmZhbGxiYWNrX2RpcmVjdG9yeV0gewogICAgICAgIGlmIGRpcmVjdG9yeSA9PSAmZmFsbGJhY2tfZGlyZWN0b3J5ICYmIGZhbGxiYWNrX2RpcmVjdG9yeSA9PSBwcmltYXJ5X2RpcmVjdG9yeSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBtYXRjaCBzdGFnZV9hbmRfbGF1bmNoKGRpcmVjdG9yeSwgb2ZmZXIsICZieXRlcykgewogICAgICAgICAgICBPaygoKSkgPT4gcmV0dXJuIE9rKCgpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBlcnJvcnMucHVzaChmb3JtYXQhKCJ7fe+8mntlcnJvcn0iLCBkaXJlY3RvcnkuZGlzcGxheSgpKSksCiAgICAgICAgfQogICAgfQoKICAgIEVycihmb3JtYXQhKAogICAgICAgICJ7feOAgnt977ybe30iLAogICAgICAgIGkxOG46OnRyKCLlkK/liqjmm7TmlrDlronoo4XlmajlpLHotKUiKSwKICAgICAgICBpMThuOjp0cigi5bey5bCd6K+V5Li75pu05paw55uu5b2V5ZKM5Li05pe25aSH55So55uu5b2VIiksCiAgICAgICAgZXJyb3JzLmpvaW4oIu+8myIpCiAgICApKQp9CgpmbiBzdGFnZV9hbmRfbGF1bmNoKGRpcmVjdG9yeTogJlBhdGgsIG9mZmVyOiAmVXBkYXRlT2ZmZXIsIGJ5dGVzOiAmW3U4XSkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGZzOjpjcmVhdGVfZGlyX2FsbChkaXJlY3RvcnkpCiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBmb3JtYXQhKCJ7fe+8mntlcnJvcn0iLCBpMThuOjp0cigi5Yib5bu65pu05paw55uu5b2V5aSx6LSlIikpKT87CgogICAgLy8gQSB1bmlxdWUgbmFtZSBhdm9pZHMgcmV1c2luZyBhIGRhbWFnZWQgb3IgbG9ja2VkIGluc3RhbGxlciBsZWZ0IGJ5IGFuIGVhcmxpZXIgYXR0ZW1wdC4KICAgIGxldCBub25jZSA9IFN5c3RlbVRpbWU6Om5vdygpCiAgICAgICAgLmR1cmF0aW9uX3NpbmNlKFVOSVhfRVBPQ0gpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICAuYXNfbWlsbGlzKCk7CiAgICBsZXQgZmlsZV9zdGVtID0gZm9ybWF0ISgKICAgICAgICAiZm4ta25vY2ste30tc2V0dXAte30te25vbmNlfSIsCiAgICAgICAgb2ZmZXIudmVyc2lvbiwKICAgICAgICBzdGQ6OnByb2Nlc3M6OmlkKCkKICAgICk7CiAgICBsZXQgcGF0aDogUGF0aEJ1ZiA9IGRpcmVjdG9yeS5qb2luKGZvcm1hdCEoIntmaWxlX3N0ZW19LmV4ZSIpKTsKICAgIGxldCB0ZW1wID0gZGlyZWN0b3J5LmpvaW4oZm9ybWF0ISgie2ZpbGVfc3RlbX0udG1wIikpOwoKICAgIGxldCB3cml0ZV9yZXN1bHQgPSAofHwgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgICAgICBsZXQgbXV0IGZpbGUgPSBmczo6RmlsZTo6Y3JlYXRlKCZ0ZW1wKQogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGZvcm1hdCEoInt977yae2Vycm9yfSIsIGkxOG46OnRyKCLliJvlu7rmm7TmlrDlronoo4XljIXlpLHotKUiKSkpPzsKICAgICAgICBmaWxlLndyaXRlX2FsbChieXRlcykKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBmb3JtYXQhKCJ7fe+8mntlcnJvcn0iLCBpMThuOjp0cigi5YaZ5YWl5pu05paw5a6J6KOF5YyF5aSx6LSlIikpKT87CiAgICAgICAgZmlsZS5zeW5jX2FsbCgpCiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZm9ybWF0ISgie33vvJp7ZXJyb3J9IiwgaTE4bjo6dHIoIuWQjOatpeabtOaWsOWuieijheWMheWksei0pSIpKSk/OwogICAgICAgIGRyb3AoZmlsZSk7CiAgICAgICAgdmVyaWZ5X2luc3RhbGxlcigmdGVtcCwgJm9mZmVyLnBhY2thZ2UpPzsKICAgICAgICBmczo6cmVuYW1lKCZ0ZW1wLCAmcGF0aCkKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBmb3JtYXQhKCJ7fe+8mntlcnJvcn0iLCBpMThuOjp0cigi5o+Q5Lqk5pu05paw5a6J6KOF5YyF5aSx6LSlIikpKT87CiAgICAgICAgdmVyaWZ5X2luc3RhbGxlcigmcGF0aCwgJm9mZmVyLnBhY2thZ2UpCiAgICB9KSgpOwogICAgaWYgbGV0IEVycihlcnJvcikgPSB3cml0ZV9yZXN1bHQgewogICAgICAgIGxldCBfID0gZnM6OnJlbW92ZV9maWxlKCZ0ZW1wKTsKICAgICAgICBsZXQgXyA9IGZzOjpyZW1vdmVfZmlsZSgmcGF0aCk7CiAgICAgICAgcmV0dXJuIEVycihlcnJvcik7CiAgICB9CgogICAgbWF0Y2ggQ29tbWFuZDo6bmV3KCZwYXRoKS5hcmcoIi9wYXNzaXZlIikuc3Bhd24oKSB7CiAgICAgICAgT2soXykgPT4gT2soKCkpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICBsZXQgXyA9IGZzOjpyZW1vdmVfZmlsZSgmcGF0aCk7CiAgICAgICAgICAgIGlmIGVycm9yLnJhd19vc19lcnJvcigpID09IFNvbWUoMTM5MikgewogICAgICAgICAgICAgICAgRXJyKGZvcm1hdCEoCiAgICAgICAgICAgICAgICAgICAgInt9IDEzOTLvvJp7fe+8iHtlcnJvcn3vvIkiLAogICAgICAgICAgICAgICAgICAgIGkxOG46OnRyKCJXaW5kb3dzIOmUmeivryIpLAogICAgICAgICAgICAgICAgICAgIGkxOG46OnRyKCLlronoo4XljIXmiJbmiYDlnKjnm67lvZXmjZ/lnY/kuJTml6Dms5Xor7vlj5YiKQogICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIEVycihmb3JtYXQhKCJ7fe+8mntlcnJvcn0iLCBpMThuOjp0cigi5Yib5bu65a6J6KOF5Zmo6L+b56iL5aSx6LSlIikpKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgpmbiB2ZXJpZnlfaW5zdGFsbGVyKHBhdGg6ICZQYXRoLCBwYWNrYWdlOiAmVXBkYXRlUGFja2FnZSkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGxldCBtdXQgZmlsZSA9IGZzOjpGaWxlOjpvcGVuKHBhdGgpCiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBmb3JtYXQhKCJ7fe+8mntlcnJvcn0iLCBpMThuOjp0cigi6YeN5paw6K+75Y+W5pu05paw5a6J6KOF5YyF5aSx6LSlIikpKT87CiAgICBsZXQgbWV0YWRhdGEgPSBmaWxlCiAgICAgICAgLm1ldGFkYXRhKCkKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGZvcm1hdCEoInt977yae2Vycm9yfSIsIGkxOG46OnRyKCLor7vlj5bmm7TmlrDlronoo4XljIXlsZ7mgKflpLHotKUiKSkpPzsKICAgIGlmIG1ldGFkYXRhLmxlbigpICE9IHBhY2thZ2Uuc2l6ZSB7CiAgICAgICAgcmV0dXJuIEVycihpMThuOjp0cigi5pu05paw5a6J6KOF5YyF6JC955uY5ZCO55qE5aSn5bCP5LiN5Yy56YWNIikudG9fc3RyaW5nKCkpOwogICAgfQoKICAgIHZlcmlmeV9wZV9oZWFkZXIoJm11dCBmaWxlLCBtZXRhZGF0YS5sZW4oKSk/OwogICAgZmlsZS5zZWVrKFNlZWtGcm9tOjpTdGFydCgwKSkKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGZvcm1hdCEoInt977yae2Vycm9yfSIsIGkxOG46OnRyKCLph43mlrDor7vlj5bmm7TmlrDlronoo4XljIXlpLHotKUiKSkpPzsKCiAgICBsZXQgbXV0IGRpZ2VzdCA9IFNoYTI1Njo6bmV3KCk7CiAgICBsZXQgbXV0IGJ1ZmZlciA9IFswX3U4OyA2NCAqIDEwMjRdOwogICAgbG9vcCB7CiAgICAgICAgbGV0IHJlYWQgPSBmaWxlCiAgICAgICAgICAgIC5yZWFkKCZtdXQgYnVmZmVyKQogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGZvcm1hdCEoInt977yae2Vycm9yfSIsIGkxOG46OnRyKCLph43mlrDor7vlj5bmm7TmlrDlronoo4XljIXlpLHotKUiKSkpPzsKICAgICAgICBpZiByZWFkID09IDAgewogICAgICAgICAgICBicmVhazsKICAgICAgICB9CiAgICAgICAgZGlnZXN0LnVwZGF0ZSgmYnVmZmVyWy4ucmVhZF0pOwogICAgfQogICAgaWYgIWhleDo6ZW5jb2RlKGRpZ2VzdC5maW5hbGl6ZSgpKS5lcV9pZ25vcmVfYXNjaWlfY2FzZSgmcGFja2FnZS5zaGEyNTYpIHsKICAgICAgICByZXR1cm4gRXJyKGkxOG46OnRyKCLmm7TmlrDlronoo4XljIXokL3nm5jlkI7nmoQgU0hBLTI1NiDkuI3ljLnphY0iKS50b19zdHJpbmcoKSk7CiAgICB9CiAgICBPaygoKSkKfQoKZm4gdmVyaWZ5X3BlX2hlYWRlcjxSOiBSZWFkICsgU2Vlaz4oZmlsZTogJm11dCBSLCBmaWxlX3NpemU6IHU2NCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGxldCBtdXQgZG9zX2hlYWRlciA9IFswX3U4OyA2NF07CiAgICBmaWxlLnJlYWRfZXhhY3QoJm11dCBkb3NfaGVhZGVyKS5tYXBfZXJyKHxlcnJvcnwgewogICAgICAgIGZvcm1hdCEoCiAgICAgICAgICAgICJ7fe+8mntlcnJvcn0iLAogICAgICAgICAgICBpMThuOjp0cigi5pu05paw5a6J6KOF5YyF5LiN5piv5pyJ5pWI55qEIFdpbmRvd3Mg5Y+v5omn6KGM5paH5Lu2IikKICAgICAgICApCiAgICB9KT87CiAgICBpZiAmZG9zX2hlYWRlclsuLjJdICE9IGIiTVoiIHsKICAgICAgICByZXR1cm4gRXJyKAogICAgICAgICAgICBpMThuOjp0cigi5pu05paw5a6J6KOF5YyF5LiN5piv5pyJ5pWI55qEIFdpbmRvd3Mg5Y+v5omn6KGM5paH5Lu277yI57y65bCRIE1aIOaWh+S7tuWktO+8iSIpLnRvX3N0cmluZygpLAogICAgICAgICk7CiAgICB9CgogICAgbGV0IHBlX29mZnNldCA9IHUzMjo6ZnJvbV9sZV9ieXRlcygKICAgICAgICBkb3NfaGVhZGVyWzB4M2MuLjB4NDBdCiAgICAgICAgICAgIC50cnlfaW50bygpCiAgICAgICAgICAgIC5leHBlY3QoIkRPUyBoZWFkZXIgUEUgb2Zmc2V0IGhhcyBhIGZpeGVkIHdpZHRoIiksCiAgICApIGFzIHU2NDsKICAgIGlmIHBlX29mZnNldCA+IGZpbGVfc2l6ZS5zYXR1cmF0aW5nX3N1Yig0KSB7CiAgICAgICAgcmV0dXJuIEVycigKICAgICAgICAgICAgaTE4bjo6dHIoIuabtOaWsOWuieijheWMheS4jeaYr+acieaViOeahCBXaW5kb3dzIOWPr+aJp+ihjOaWh+S7tu+8iFBFIOaWh+S7tuWktOi2iueVjO+8iSIpLnRvX3N0cmluZygpLAogICAgICAgICk7CiAgICB9CiAgICBmaWxlLnNlZWsoU2Vla0Zyb206OlN0YXJ0KHBlX29mZnNldCkpCiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBmb3JtYXQhKCJ7fe+8mntlcnJvcn0iLCBpMThuOjp0cigi6K+75Y+WIFdpbmRvd3MgUEUg5paH5Lu25aS05aSx6LSlIikpKT87CiAgICBsZXQgbXV0IHNpZ25hdHVyZSA9IFswX3U4OyA0XTsKICAgIGZpbGUucmVhZF9leGFjdCgmbXV0IHNpZ25hdHVyZSkKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGZvcm1hdCEoInt977yae2Vycm9yfSIsIGkxOG46OnRyKCLor7vlj5YgV2luZG93cyBQRSDmlofku7blpLTlpLHotKUiKSkpPzsKICAgIGlmIHNpZ25hdHVyZSAhPSAqYiJQRVwwXDAiIHsKICAgICAgICByZXR1cm4gRXJyKGkxOG46OnRyKCLmm7TmlrDlronoo4XljIXkuI3mmK/mnInmlYjnmoQgV2luZG93cyDlj6/miafooYzmlofku7bvvIhQRSDnrb7lkI3ml6DmlYjvvIkiKS50b19zdHJpbmcoKSk7CiAgICB9CiAgICBPaygoKSkKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CgogICAgZm4gdGVzdF9wYWNrYWdlKGJ5dGVzOiAmW3U4XSkgLT4gVXBkYXRlUGFja2FnZSB7CiAgICAgICAgVXBkYXRlUGFja2FnZSB7CiAgICAgICAgICAgIHVybDogImh0dHBzOi8vY2RuLmZua25vY2suY24vdGVzdC5leGUiLnRvX3N0cmluZygpLAogICAgICAgICAgICBzaGEyNTY6IGhleDo6ZW5jb2RlKFNoYTI1Njo6ZGlnZXN0KGJ5dGVzKSksCiAgICAgICAgICAgIHNpemU6IGJ5dGVzLmxlbigpIGFzIHU2NCwKICAgICAgICB9CiAgICB9CgogICAgZm4gd3JpdGVfdGVzdF9pbnN0YWxsZXIoYnl0ZXM6ICZbdThdLCBsYWJlbDogJnN0cikgLT4gUGF0aEJ1ZiB7CiAgICAgICAgbGV0IHBhdGggPSBzdGQ6OmVudjo6dGVtcF9kaXIoKS5qb2luKGZvcm1hdCEoCiAgICAgICAgICAgICJmbi1rbm9jay11cGRhdGUtdGVzdC17bGFiZWx9LXt9LXt9LmV4ZSIsCiAgICAgICAgICAgIHN0ZDo6cHJvY2Vzczo6aWQoKSwKICAgICAgICAgICAgU3lzdGVtVGltZTo6bm93KCkKICAgICAgICAgICAgICAgIC5kdXJhdGlvbl9zaW5jZShVTklYX0VQT0NIKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICAgICAgICAgIC5hc19uYW5vcygpCiAgICAgICAgKSk7CiAgICAgICAgZnM6OndyaXRlKCZwYXRoLCBieXRlcykudW53cmFwKCk7CiAgICAgICAgcGF0aAogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHBhcnNlc193aW5kb3dzX29mZmVyX2Zyb21fc2hhcmVkX2xhdGVzdF9kb2N1bWVudCgpIHsKICAgICAgICBsZXQgbWFuaWZlc3Q6IFNoYXJlZExhdGVzdE1hbmlmZXN0ID0gc2VyZGVfanNvbjo6ZnJvbV92YWx1ZShzZXJkZV9qc29uOjpqc29uISh7CiAgICAgICAgICAgICJ2ZXJzaW9uIjogIjIuMC4yIiwKICAgICAgICAgICAgInVwZGF0ZV9hdmFpbGFibGUiOiB0cnVlLAogICAgICAgICAgICAiZm9yY2VfdXBkYXRlIjogdHJ1ZSwKICAgICAgICAgICAgInJlbGVhc2Vfbm90ZXMiOiAiU2hhcmVkIHJlbGVhc2Ugbm90ZXMiLAogICAgICAgICAgICAicGFja2FnZXMiOiB7CiAgICAgICAgICAgICAgICAiZnBrIjogeyAiYW1kNjQiOiB7ICJzaGEyNTYiOiAiY29yZSIgfSB9LAogICAgICAgICAgICAgICAgIndpbmRvd3MiOiB7CiAgICAgICAgICAgICAgICAgICAgIng4Nl82NCI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgImRvd25sb2FkX3VybCI6ICJodHRwczovL2Nkbi5mbmtub2NrLmNuL2ZpbGVzLzIuMC4yL3dpbmRvd3MveDg2XzY0L3NldHVwLmV4ZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICJzaGEyNTYiOiAiYWJjMTIzIiwKICAgICAgICAgICAgICAgICAgICAgICAgInNpemUiOiA0MiwKICAgICAgICAgICAgICAgICAgICAgICAgInJlbGVhc2Vfbm90ZXMiOiAiV2luZG93cyBub3RlcyIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9KSkKICAgICAgICAudW53cmFwKCk7CiAgICAgICAgbGV0IG9mZmVyID0gb2ZmZXJfZnJvbV9tYW5pZmVzdChtYW5pZmVzdCwgIjIuMC4xIikudW53cmFwKCkudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0X2VxIShvZmZlci52ZXJzaW9uLCAiMi4wLjIiKTsKICAgICAgICBhc3NlcnQhKG9mZmVyLmZvcmNlX3VwZGF0ZSk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgb2ZmZXIucGFja2FnZS51cmwsCiAgICAgICAgICAgICJodHRwczovL2Nkbi5mbmtub2NrLmNuL2ZpbGVzLzIuMC4yL3dpbmRvd3MveDg2XzY0L3NldHVwLmV4ZSIKICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHJlc3BlY3RzX3Jvb3RfdXBkYXRlX2F2YWlsYWJsZV9mbGFnKCkgewogICAgICAgIGxldCBtYW5pZmVzdDogU2hhcmVkTGF0ZXN0TWFuaWZlc3QgPSBzZXJkZV9qc29uOjpmcm9tX3ZhbHVlKHNlcmRlX2pzb246Ompzb24hKHsKICAgICAgICAgICAgInZlcnNpb24iOiAiMi4wLjIiLAogICAgICAgICAgICAidXBkYXRlX2F2YWlsYWJsZSI6IGZhbHNlLAogICAgICAgICAgICAiZm9yY2VfdXBkYXRlIjogdHJ1ZSwKICAgICAgICAgICAgInBhY2thZ2VzIjogewogICAgICAgICAgICAgICAgIndpbmRvd3MiOiB7CiAgICAgICAgICAgICAgICAgICAgIng4Nl82NCI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgImRvd25sb2FkX3VybCI6ICJodHRwczovL2Nkbi5mbmtub2NrLmNuL2ZpbGVzLzIuMC4yL3dpbmRvd3MveDg2XzY0L3NldHVwLmV4ZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICJzaGEyNTYiOiAiYWJjMTIzIiwKICAgICAgICAgICAgICAgICAgICAgICAgInNpemUiOiAxMjM0NQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0pKQogICAgICAgIC51bndyYXAoKTsKCiAgICAgICAgYXNzZXJ0IShvZmZlcl9mcm9tX21hbmlmZXN0KG1hbmlmZXN0LCAiMi4wLjEiKS51bndyYXAoKS5pc19ub25lKCkpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGFjY2VwdHNfaW5zdGFsbGVyX3dpdGhfdmFsaWRfcGVfaGVhZGVycygpIHsKICAgICAgICBsZXQgbXV0IGJ5dGVzID0gdmVjIVswX3U4OyAxMjhdOwogICAgICAgIGJ5dGVzWy4uMl0uY29weV9mcm9tX3NsaWNlKGIiTVoiKTsKICAgICAgICBieXRlc1sweDNjLi4weDQwXS5jb3B5X2Zyb21fc2xpY2UoJjY0X3UzMi50b19sZV9ieXRlcygpKTsKICAgICAgICBieXRlc1s2NC4uNjhdLmNvcHlfZnJvbV9zbGljZShiIlBFXDBcMCIpOwogICAgICAgIGxldCBwYXRoID0gd3JpdGVfdGVzdF9pbnN0YWxsZXIoJmJ5dGVzLCAidmFsaWQtcGUiKTsKCiAgICAgICAgbGV0IHJlc3VsdCA9IHZlcmlmeV9pbnN0YWxsZXIoJnBhdGgsICZ0ZXN0X3BhY2thZ2UoJmJ5dGVzKSk7CiAgICAgICAgbGV0IF8gPSBmczo6cmVtb3ZlX2ZpbGUocGF0aCk7CgogICAgICAgIGFzc2VydCEocmVzdWx0LmlzX29rKCkpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHJlamVjdHNfemVyb19maWxsZWRfaW5zdGFsbGVyX2V2ZW5fd2hlbl9oYXNoX21hdGNoZXMoKSB7CiAgICAgICAgbGV0IGJ5dGVzID0gdmVjIVswX3U4OyAxMjhdOwogICAgICAgIGxldCBwYXRoID0gd3JpdGVfdGVzdF9pbnN0YWxsZXIoJmJ5dGVzLCAiemVyby1maWxsZWQiKTsKCiAgICAgICAgbGV0IHJlc3VsdCA9IHZlcmlmeV9pbnN0YWxsZXIoJnBhdGgsICZ0ZXN0X3BhY2thZ2UoJmJ5dGVzKSk7CiAgICAgICAgbGV0IF8gPSBmczo6cmVtb3ZlX2ZpbGUocGF0aCk7CgogICAgICAgIGFzc2VydCEocmVzdWx0LnVud3JhcF9lcnIoKS5jb250YWlucygiTVoiKSk7CiAgICB9Cn0K
+use std::{
+    fs,
+    io::{Cursor, Read, Seek, SeekFrom, Write},
+    path::{Path, PathBuf},
+    process::Command,
+    time::{Duration, SystemTime, UNIX_EPOCH},
+};
+
+use serde::Deserialize;
+use sha2::{Digest, Sha256};
+
+use crate::i18n;
+
+const ENDPOINT: &str = "https://cor.fnknock.cn/latest.json";
+
+#[derive(Clone, Debug, Deserialize)]
+pub struct UpdatePackage {
+    #[serde(rename = "download_url")]
+    pub url: String,
+    pub sha256: String,
+    pub size: u64,
+}
+
+#[derive(Clone, Debug, Deserialize)]
+pub struct UpdateOffer {
+    pub version: String,
+    pub package: UpdatePackage,
+    pub force_update: bool,
+}
+
+#[derive(Clone, Debug, Deserialize)]
+struct SharedLatestManifest {
+    version: String,
+    update_available: bool,
+    #[serde(default)]
+    force_update: bool,
+    packages: SharedPackages,
+}
+
+#[derive(Clone, Debug, Deserialize)]
+struct SharedPackages {
+    windows: std::collections::HashMap<String, UpdatePackage>,
+}
+
+fn version_tuple(value: &str) -> Vec<u64> {
+    value
+        .trim_start_matches('v')
+        .split('.')
+        .map(|part| part.parse().unwrap_or(0))
+        .collect()
+}
+
+pub fn check() -> Result<Option<UpdateOffer>, String> {
+    let client = reqwest::blocking::Client::builder()
+        .timeout(Duration::from_secs(10))
+        .build()
+        .map_err(|e| format!("{}：{e}", i18n::tr("无法初始化更新网络客户端")))?;
+    let manifest = client
+        .get(ENDPOINT)
+        .send()
+        .map_err(|e| format!("{}：{e}", i18n::tr("检查更新失败")))?
+        .error_for_status()
+        .map_err(|e| format!("{}：{e}", i18n::tr("检查更新失败")))?
+        .json::<SharedLatestManifest>()
+        .map_err(|e| format!("{}：{e}", i18n::tr("更新清单无效")))?;
+    offer_from_manifest(manifest, env!("CARGO_PKG_VERSION"))
+}
+
+fn offer_from_manifest(
+    mut manifest: SharedLatestManifest,
+    current_version: &str,
+) -> Result<Option<UpdateOffer>, String> {
+    let package = manifest
+        .packages
+        .windows
+        .remove("x86_64")
+        .ok_or_else(|| i18n::tr("更新清单缺少 Windows x86_64 安装包").to_string())?;
+    if manifest.update_available
+        && version_tuple(&manifest.version) > version_tuple(current_version)
+    {
+        Ok(Some(UpdateOffer {
+            version: manifest.version,
+            package,
+            force_update: manifest.force_update,
+        }))
+    } else {
+        Ok(None)
+    }
+}
+
+pub fn install(offer: &UpdateOffer) -> Result<(), String> {
+    let package = &offer.package;
+    if !package.url.starts_with("https://cdn.fnknock.cn/") {
+        return Err(i18n::tr("更新下载地址不受信任").to_string());
+    }
+    let client = reqwest::blocking::Client::builder()
+        .timeout(Duration::from_secs(300))
+        .build()
+        .map_err(|e| format!("{}：{e}", i18n::tr("无法初始化更新网络客户端")))?;
+    let bytes = client
+        .get(&package.url)
+        .send()
+        .map_err(|e| format!("{}：{e}", i18n::tr("下载更新安装包失败")))?
+        .error_for_status()
+        .map_err(|e| format!("{}：{e}", i18n::tr("下载更新安装包失败")))?
+        .bytes()
+        .map_err(|e| format!("{}：{e}", i18n::tr("下载更新安装包失败")))?;
+    if bytes.len() as u64 != package.size {
+        return Err(i18n::tr("更新安装包大小不匹配").to_string());
+    }
+    let digest = hex::encode(Sha256::digest(&bytes));
+    if !digest.eq_ignore_ascii_case(&package.sha256) {
+        return Err(i18n::tr("更新安装包 SHA-256 不匹配").to_string());
+    }
+    verify_pe_header(&mut Cursor::new(bytes.as_ref()), bytes.len() as u64)?;
+    let primary_directory = crate::platform::program_data_dir()?.join("updates");
+    let fallback_directory = std::env::temp_dir().join("FnKnock").join("updates");
+    let mut errors = Vec::new();
+
+    for directory in [&primary_directory, &fallback_directory] {
+        if directory == &fallback_directory && fallback_directory == primary_directory {
+            continue;
+        }
+        match stage_and_launch(directory, offer, &bytes) {
+            Ok(()) => return Ok(()),
+            Err(error) => errors.push(format!("{}：{error}", directory.display())),
+        }
+    }
+
+    Err(format!(
+        "{}。{}；{}",
+        i18n::tr("启动更新安装器失败"),
+        i18n::tr("已尝试主更新目录和临时备用目录"),
+        errors.join("；")
+    ))
+}
+
+fn stage_and_launch(directory: &Path, offer: &UpdateOffer, bytes: &[u8]) -> Result<(), String> {
+    fs::create_dir_all(directory)
+        .map_err(|error| format!("{}：{error}", i18n::tr("创建更新目录失败")))?;
+
+    // A unique name avoids reusing a damaged or locked installer left by an earlier attempt.
+    let nonce = SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .unwrap_or_default()
+        .as_millis();
+    let file_stem = format!(
+        "fn-knock-{}-setup-{}-{nonce}",
+        offer.version,
+        std::process::id()
+    );
+    let path: PathBuf = directory.join(format!("{file_stem}.exe"));
+    let temp = directory.join(format!("{file_stem}.tmp"));
+
+    let write_result = (|| -> Result<(), String> {
+        let mut file = fs::File::create(&temp)
+            .map_err(|error| format!("{}：{error}", i18n::tr("创建更新安装包失败")))?;
+        file.write_all(bytes)
+            .map_err(|error| format!("{}：{error}", i18n::tr("写入更新安装包失败")))?;
+        file.sync_all()
+            .map_err(|error| format!("{}：{error}", i18n::tr("同步更新安装包失败")))?;
+        drop(file);
+        verify_installer(&temp, &offer.package)?;
+        fs::rename(&temp, &path)
+            .map_err(|error| format!("{}：{error}", i18n::tr("提交更新安装包失败")))?;
+        verify_installer(&path, &offer.package)
+    })();
+    if let Err(error) = write_result {
+        let _ = fs::remove_file(&temp);
+        let _ = fs::remove_file(&path);
+        return Err(error);
+    }
+
+    match Command::new(&path).arg("/passive").spawn() {
+        Ok(_) => Ok(()),
+        Err(error) => {
+            let _ = fs::remove_file(&path);
+            if error.raw_os_error() == Some(1392) {
+                Err(format!(
+                    "{} 1392：{}（{error}）",
+                    i18n::tr("Windows 错误"),
+                    i18n::tr("安装包或所在目录损坏且无法读取")
+                ))
+            } else {
+                Err(format!("{}：{error}", i18n::tr("创建安装器进程失败")))
+            }
+        }
+    }
+}
+
+fn verify_installer(path: &Path, package: &UpdatePackage) -> Result<(), String> {
+    let mut file = fs::File::open(path)
+        .map_err(|error| format!("{}：{error}", i18n::tr("重新读取更新安装包失败")))?;
+    let metadata = file
+        .metadata()
+        .map_err(|error| format!("{}：{error}", i18n::tr("读取更新安装包属性失败")))?;
+    if metadata.len() != package.size {
+        return Err(i18n::tr("更新安装包落盘后的大小不匹配").to_string());
+    }
+
+    verify_pe_header(&mut file, metadata.len())?;
+    file.seek(SeekFrom::Start(0))
+        .map_err(|error| format!("{}：{error}", i18n::tr("重新读取更新安装包失败")))?;
+
+    let mut digest = Sha256::new();
+    let mut buffer = [0_u8; 64 * 1024];
+    loop {
+        let read = file
+            .read(&mut buffer)
+            .map_err(|error| format!("{}：{error}", i18n::tr("重新读取更新安装包失败")))?;
+        if read == 0 {
+            break;
+        }
+        digest.update(&buffer[..read]);
+    }
+    if !hex::encode(digest.finalize()).eq_ignore_ascii_case(&package.sha256) {
+        return Err(i18n::tr("更新安装包落盘后的 SHA-256 不匹配").to_string());
+    }
+    Ok(())
+}
+
+fn verify_pe_header<R: Read + Seek>(file: &mut R, file_size: u64) -> Result<(), String> {
+    let mut dos_header = [0_u8; 64];
+    file.read_exact(&mut dos_header).map_err(|error| {
+        format!(
+            "{}：{error}",
+            i18n::tr("更新安装包不是有效的 Windows 可执行文件")
+        )
+    })?;
+    if &dos_header[..2] != b"MZ" {
+        return Err(
+            i18n::tr("更新安装包不是有效的 Windows 可执行文件（缺少 MZ 文件头）").to_string(),
+        );
+    }
+
+    let pe_offset = u32::from_le_bytes(
+        dos_header[0x3c..0x40]
+            .try_into()
+            .expect("DOS header PE offset has a fixed width"),
+    ) as u64;
+    if pe_offset > file_size.saturating_sub(4) {
+        return Err(
+            i18n::tr("更新安装包不是有效的 Windows 可执行文件（PE 文件头越界）").to_string(),
+        );
+    }
+    file.seek(SeekFrom::Start(pe_offset))
+        .map_err(|error| format!("{}：{error}", i18n::tr("读取 Windows PE 文件头失败")))?;
+    let mut signature = [0_u8; 4];
+    file.read_exact(&mut signature)
+        .map_err(|error| format!("{}：{error}", i18n::tr("读取 Windows PE 文件头失败")))?;
+    if signature != *b"PE\0\0" {
+        return Err(i18n::tr("更新安装包不是有效的 Windows 可执行文件（PE 签名无效）").to_string());
+    }
+    Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn test_package(bytes: &[u8]) -> UpdatePackage {
+        UpdatePackage {
+            url: "https://cdn.fnknock.cn/test.exe".to_string(),
+            sha256: hex::encode(Sha256::digest(bytes)),
+            size: bytes.len() as u64,
+        }
+    }
+
+    fn write_test_installer(bytes: &[u8], label: &str) -> PathBuf {
+        let path = std::env::temp_dir().join(format!(
+            "fn-knock-update-test-{label}-{}-{}.exe",
+            std::process::id(),
+            SystemTime::now()
+                .duration_since(UNIX_EPOCH)
+                .unwrap_or_default()
+                .as_nanos()
+        ));
+        fs::write(&path, bytes).unwrap();
+        path
+    }
+
+    #[test]
+    fn parses_windows_offer_from_shared_latest_document() {
+        let manifest: SharedLatestManifest = serde_json::from_value(serde_json::json!({
+            "version": "2.0.2",
+            "update_available": true,
+            "force_update": true,
+            "release_notes": "Shared release notes",
+            "packages": {
+                "fpk": { "amd64": { "sha256": "core" } },
+                "windows": {
+                    "x86_64": {
+                        "download_url": "https://cdn.fnknock.cn/files/2.0.2/windows/x86_64/setup.exe",
+                        "sha256": "abc123",
+                        "size": 42,
+                        "release_notes": "Windows notes"
+                    }
+                }
+            }
+        }))
+        .unwrap();
+        let offer = offer_from_manifest(manifest, "2.0.1").unwrap().unwrap();
+        assert_eq!(offer.version, "2.0.2");
+        assert!(offer.force_update);
+        assert_eq!(
+            offer.package.url,
+            "https://cdn.fnknock.cn/files/2.0.2/windows/x86_64/setup.exe"
+        );
+    }
+
+    #[test]
+    fn respects_root_update_available_flag() {
+        let manifest: SharedLatestManifest = serde_json::from_value(serde_json::json!({
+            "version": "2.0.2",
+            "update_available": false,
+            "force_update": true,
+            "packages": {
+                "windows": {
+                    "x86_64": {
+                        "download_url": "https://cdn.fnknock.cn/files/2.0.2/windows/x86_64/setup.exe",
+                        "sha256": "abc123",
+                        "size": 12345
+                    }
+                }
+            }
+        }))
+        .unwrap();
+
+        assert!(offer_from_manifest(manifest, "2.0.1").unwrap().is_none());
+    }
+
+    #[test]
+    fn accepts_installer_with_valid_pe_headers() {
+        let mut bytes = vec![0_u8; 128];
+        bytes[..2].copy_from_slice(b"MZ");
+        bytes[0x3c..0x40].copy_from_slice(&64_u32.to_le_bytes());
+        bytes[64..68].copy_from_slice(b"PE\0\0");
+        let path = write_test_installer(&bytes, "valid-pe");
+
+        let result = verify_installer(&path, &test_package(&bytes));
+        let _ = fs::remove_file(path);
+
+        assert!(result.is_ok());
+    }
+
+    #[test]
+    fn rejects_zero_filled_installer_even_when_hash_matches() {
+        let bytes = vec![0_u8; 128];
+        let path = write_test_installer(&bytes, "zero-filled");
+
+        let result = verify_installer(&path, &test_package(&bytes));
+        let _ = fs::remove_file(path);
+
+        assert!(result.unwrap_err().contains("MZ"));
+    }
+}

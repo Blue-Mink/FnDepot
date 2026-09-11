@@ -1,1 +1,30 @@
-dXNlIGJhc2U2NDo6e0VuZ2luZSBhcyBfLCBlbmdpbmU6OmdlbmVyYWxfcHVycG9zZTo6VVJMX1NBRkVfTk9fUEFEfTsKCnB1YihjcmF0ZSkgZm4gY3JlYXRlX29pZGNfaWQocHJlZml4OiAmc3RyKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgie3ByZWZpeH1fe30iLCBoZXg6OmVuY29kZShyYW5kOjpyYW5kb206OjxbdTg7IDEwXT4oKSkpCn0KCnB1YihjcmF0ZSkgZm4gY3JlYXRlX3B1YmxpY190b2tlbigpIC0+IFN0cmluZyB7CiAgICBVUkxfU0FGRV9OT19QQUQuZW5jb2RlKHJhbmQ6OnJhbmRvbTo6PFt1ODsgMzJdPigpKQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKCiAgICAjW3Rlc3RdCiAgICBmbiBjcmVhdGVzX2V4cGVjdGVkX29pZGNfaWRfYW5kX3Rva2VuX3NoYXBlcygpIHsKICAgICAgICBsZXQgaWQgPSBjcmVhdGVfb2lkY19pZCgic3RhdGUiKTsKICAgICAgICBsZXQgc3VmZml4ID0gaWQuc3RyaXBfcHJlZml4KCJzdGF0ZV8iKS51bndyYXAoKTsKICAgICAgICBhc3NlcnRfZXEhKHN1ZmZpeC5sZW4oKSwgMjApOwogICAgICAgIGFzc2VydCEoc3VmZml4LmNoYXJzKCkuYWxsKHxjaHwgY2guaXNfYXNjaWlfaGV4ZGlnaXQoKSkpOwoKICAgICAgICBsZXQgdG9rZW4gPSBjcmVhdGVfcHVibGljX3Rva2VuKCk7CiAgICAgICAgYXNzZXJ0X2VxISh0b2tlbi5sZW4oKSwgNDMpOwogICAgICAgIGFzc2VydCEoCiAgICAgICAgICAgIHRva2VuCiAgICAgICAgICAgICAgICAuY2hhcnMoKQogICAgICAgICAgICAgICAgLmFsbCh8Y2h8IGNoLmlzX2FzY2lpX2FscGhhbnVtZXJpYygpIHx8IGNoID09ICctJyB8fCBjaCA9PSAnXycpCiAgICAgICAgKTsKICAgIH0KfQo=
+use base64::{Engine as _, engine::general_purpose::URL_SAFE_NO_PAD};
+
+pub(crate) fn create_oidc_id(prefix: &str) -> String {
+    format!("{prefix}_{}", hex::encode(rand::random::<[u8; 10]>()))
+}
+
+pub(crate) fn create_public_token() -> String {
+    URL_SAFE_NO_PAD.encode(rand::random::<[u8; 32]>())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn creates_expected_oidc_id_and_token_shapes() {
+        let id = create_oidc_id("state");
+        let suffix = id.strip_prefix("state_").unwrap();
+        assert_eq!(suffix.len(), 20);
+        assert!(suffix.chars().all(|ch| ch.is_ascii_hexdigit()));
+
+        let token = create_public_token();
+        assert_eq!(token.len(), 43);
+        assert!(
+            token
+                .chars()
+                .all(|ch| ch.is_ascii_alphanumeric() || ch == '-' || ch == '_')
+        );
+    }
+}

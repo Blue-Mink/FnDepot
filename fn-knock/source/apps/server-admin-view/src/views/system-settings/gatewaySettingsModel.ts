@@ -1,1 +1,8 @@
-aW1wb3J0IHR5cGUgeyBSZXZlcnNlUHJveHlUaHJvdHRsZUNvbmZpZyB9IGZyb20gIkAvdHlwZXMiOwoKZXhwb3J0IGNvbnN0IERFRkFVTFRfUkVWRVJTRV9QUk9YWV9USFJPVFRMRSA9IHsKICBlbmFibGVkOiB0cnVlLAogIHJlcXVlc3RzX3Blcl9zZWNvbmQ6IDUwMCwKICBidXJzdDogMTAwMCwKICBibG9ja19zZWNvbmRzOiAzMCwKfSBzYXRpc2ZpZXMgUmV2ZXJzZVByb3h5VGhyb3R0bGVDb25maWc7Cg==
+import type { ReverseProxyThrottleConfig } from "@/types";
+
+export const DEFAULT_REVERSE_PROXY_THROTTLE = {
+  enabled: true,
+  requests_per_second: 500,
+  burst: 1000,
+  block_seconds: 30,
+} satisfies ReverseProxyThrottleConfig;

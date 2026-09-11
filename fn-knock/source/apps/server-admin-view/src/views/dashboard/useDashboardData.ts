@@ -1,1 +1,223 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgb25Vbm1vdW50ZWQsIHJlZiwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyB1c2VBc3luY0FjdGlvbiB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB1c2VEZWxheWVkTG9hZGluZyB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlRGVsYXllZExvYWRpbmciOwppbXBvcnQgeyBEYXNoYm9hcmRBUEkgfSBmcm9tICIuLi8uLi9saWIvYXBpL2Rhc2hib2FyZCI7CmltcG9ydCB7IERETlNBUEksIHR5cGUgREROU1N0YXR1c1BheWxvYWQgfSBmcm9tICIuLi8uLi9saWIvYXBpL2RkbnMiOwppbXBvcnQgeyBTZWN1cml0eUFQSSB9IGZyb20gIi4uLy4uL2xpYi9hcGkvc2VjdXJpdHkiOwppbXBvcnQgdHlwZSB7IERhc2hib2FyZFN0YXRzLCBUaHJlYXRPdmVydmlldyB9IGZyb20gIi4uLy4uL3R5cGVzIjsKaW1wb3J0IHsgY3JlYXRlVmlzaWJpbGl0eVBvbGxlciB9IGZyb20gIkAvY29tcG9zYWJsZXMvdXNlVmlzaWJpbGl0eVBvbGxpbmciOwoKZXhwb3J0IGNvbnN0IGRhc2hib2FyZFJhbmdlcyA9IFsKICB7CiAgICBrZXk6ICIxNW0iLAogICAgbGFiZWxLZXk6ICJhZG1pbi5kYXNoYm9hcmQucmFuZ2VzLmZpZnRlZW5NaW51dGVzIiwKICAgIHNlYzogMTUgKiA2MCwKICB9LAogIHsga2V5OiAiMWgiLCBsYWJlbEtleTogImFkbWluLmRhc2hib2FyZC5yYW5nZXMub25lSG91ciIsIHNlYzogNjAgKiA2MCB9LAogIHsKICAgIGtleTogIjZoIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZGFzaGJvYXJkLnJhbmdlcy5zaXhIb3VycyIsCiAgICBzZWM6IDYgKiA2MCAqIDYwLAogIH0sCiAgewogICAga2V5OiAiMWQiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5kYXNoYm9hcmQucmFuZ2VzLnR3ZW50eUZvdXJIb3VycyIsCiAgICBzZWM6IDI0ICogNjAgKiA2MCwKICB9LAogIHsKICAgIGtleTogIjdkIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZGFzaGJvYXJkLnJhbmdlcy5zZXZlbkRheXMiLAogICAgc2VjOiA3ICogMjQgKiA2MCAqIDYwLAogIH0sCl0gYXMgY29uc3Q7CgppbnRlcmZhY2UgVXNlRGFzaGJvYXJkRGF0YU9wdGlvbnMgewogIGRpc3Bvc2VUdW5uZWxTdGF0dXM6ICgpID0+IHZvaWQ7CiAgc2NoZWR1bGVUdW5uZWxTdGF0dXNMb2FkOiAoKSA9PiB2b2lkOwogIHN0YXJ0UmVhbHRpbWVQb2xsaW5nOiAoKSA9PiB2b2lkOwogIHN0b3BSZWFsdGltZVBvbGxpbmc6ICgpID0+IHZvaWQ7CiAgdHJhbnNsYXRlOiAoa2V5OiBzdHJpbmcpID0+IHN0cmluZzsKfQoKZXhwb3J0IGZ1bmN0aW9uIHVzZURhc2hib2FyZERhdGEoewogIGRpc3Bvc2VUdW5uZWxTdGF0dXMsCiAgc2NoZWR1bGVUdW5uZWxTdGF0dXNMb2FkLAogIHN0YXJ0UmVhbHRpbWVQb2xsaW5nLAogIHN0b3BSZWFsdGltZVBvbGxpbmcsCiAgdHJhbnNsYXRlLAp9OiBVc2VEYXNoYm9hcmREYXRhT3B0aW9ucykgewogIGNvbnN0IHJhbmdlS2V5ID0gcmVmPCh0eXBlb2YgZGFzaGJvYXJkUmFuZ2VzKVtudW1iZXJdWyJrZXkiXT4oIjFoIik7CiAgY29uc3QgaXNBdXRvUmVmcmVzaCA9IHJlZih0cnVlKTsKICBjb25zdCBpc0luaXRpYWxpemluZyA9IHJlZih0cnVlKTsKICBjb25zdCBlcnJvck1lc3NhZ2UgPSByZWYoIiIpOwogIGNvbnN0IHN0YXRzID0gcmVmPERhc2hib2FyZFN0YXRzIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgdGhyZWF0T3ZlcnZpZXcgPSByZWY8VGhyZWF0T3ZlcnZpZXcgfCBudWxsPihudWxsKTsKICBjb25zdCBsYXN0VXBkYXRlZEF0ID0gcmVmPERhdGUgfCBudWxsPihudWxsKTsKICBjb25zdCBkZG5zU3RhdHVzID0gcmVmPERETlNTdGF0dXNQYXlsb2FkIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgaXNEZG5zSW5pdGlhbGl6aW5nID0gcmVmKHRydWUpOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc0RkbnNQZW5kaW5nLCBydW46IHJ1bkxvYWREZG5zU3RhdHVzIH0gPSB1c2VBc3luY0FjdGlvbigpOwogIGNvbnN0IGRkbnNFcnJvciA9IHJlZigiIik7CiAgbGV0IGRkbnNMb2FkVGltZXI6IG51bWJlciB8IG51bGwgPSBudWxsOwogIGxldCBkYXNoYm9hcmRBYm9ydENvbnRyb2xsZXI6IEFib3J0Q29udHJvbGxlciB8IG51bGwgPSBudWxsOwogIGxldCBkYXNoYm9hcmRSZXF1ZXN0SWQgPSAwOwogIGxldCBkaXNwb3NlZCA9IGZhbHNlOwoKICBjb25zdCBhY3RpdmVSYW5nZSA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgZGFzaGJvYXJkUmFuZ2VzLmZpbmQoKHJhbmdlKSA9PiByYW5nZS5rZXkgPT09IHJhbmdlS2V5LnZhbHVlKSA/PwogICAgICBkYXNoYm9hcmRSYW5nZXNbMV0sCiAgKTsKICBjb25zdCBpc0RkbnNMb2FkaW5nID0gY29tcHV0ZWQoCiAgICAoKSA9PiBpc0RkbnNJbml0aWFsaXppbmcudmFsdWUgfHwgaXNEZG5zUGVuZGluZy52YWx1ZSwKICApOwogIGNvbnN0IHNob3dNYWluU2tlbGV0b24gPSB1c2VEZWxheWVkTG9hZGluZyhpc0luaXRpYWxpemluZyk7CiAgY29uc3Qgc2hvd0RkbnNTa2VsZXRvbiA9IHVzZURlbGF5ZWRMb2FkaW5nKCgpID0+IGlzRGRuc0xvYWRpbmcudmFsdWUpOwoKICBjb25zdCBsb2FkRGRuc1N0YXR1cyA9IGFzeW5jICgpID0+IHsKICAgIGRkbnNFcnJvci52YWx1ZSA9ICIiOwogICAgYXdhaXQgcnVuTG9hZERkbnNTdGF0dXMoKCkgPT4gREROU0FQSS5nZXRTdGF0dXMoKSwgewogICAgICBvblN1Y2Nlc3M6IChzdGF0dXMpID0+IHsKICAgICAgICBkZG5zU3RhdHVzLnZhbHVlID0gc3RhdHVzOwogICAgICB9LAogICAgICBvbkVycm9yOiAoZXJyb3I6IGFueSkgPT4gewogICAgICAgIGRkbnNFcnJvci52YWx1ZSA9CiAgICAgICAgICBlcnJvcj8ucmVzcG9uc2U/LmRhdGE/Lm1lc3NhZ2UgfHwKICAgICAgICAgIGVycm9yPy5tZXNzYWdlIHx8CiAgICAgICAgICB0cmFuc2xhdGUoImFkbWluLmRhc2hib2FyZC5lcnJvcnMubG9hZEZhaWxlZCIpOwogICAgICAgIGRkbnNTdGF0dXMudmFsdWUgPSBudWxsOwogICAgICB9LAogICAgICBvbkZpbmFsbHk6ICgpID0+IHsKICAgICAgICBpc0RkbnNJbml0aWFsaXppbmcudmFsdWUgPSBmYWxzZTsKICAgICAgfSwKICAgIH0pOwogIH07CgogIGNvbnN0IGxvYWQgPSBhc3luYyAoc2lnbmFsPzogQWJvcnRTaWduYWwpID0+IHsKICAgIGNvbnN0IHJlcXVlc3RlZFJhbmdlID0gYWN0aXZlUmFuZ2UudmFsdWU7CiAgICBjb25zdCByZXF1ZXN0SWQgPSArK2Rhc2hib2FyZFJlcXVlc3RJZDsKICAgIGRhc2hib2FyZEFib3J0Q29udHJvbGxlcj8uYWJvcnQoKTsKICAgIGNvbnN0IGNvbnRyb2xsZXIgPSBuZXcgQWJvcnRDb250cm9sbGVyKCk7CiAgICBkYXNoYm9hcmRBYm9ydENvbnRyb2xsZXIgPSBjb250cm9sbGVyOwogICAgbGV0IHJlbW92ZUV4dGVybmFsQWJvcnRMaXN0ZW5lcjogKCgpID0+IHZvaWQpIHwgdW5kZWZpbmVkOwogICAgaWYgKHNpZ25hbD8uYWJvcnRlZCkgewogICAgICBjb250cm9sbGVyLmFib3J0KHNpZ25hbC5yZWFzb24pOwogICAgfSBlbHNlIGlmIChzaWduYWwpIHsKICAgICAgY29uc3QgcmVsYXlBYm9ydCA9ICgpID0+IGNvbnRyb2xsZXIuYWJvcnQoc2lnbmFsLnJlYXNvbik7CiAgICAgIHNpZ25hbC5hZGRFdmVudExpc3RlbmVyKCJhYm9ydCIsIHJlbGF5QWJvcnQsIHsgb25jZTogdHJ1ZSB9KTsKICAgICAgcmVtb3ZlRXh0ZXJuYWxBYm9ydExpc3RlbmVyID0gKCkgPT4KICAgICAgICBzaWduYWwucmVtb3ZlRXZlbnRMaXN0ZW5lcigiYWJvcnQiLCByZWxheUFib3J0KTsKICAgIH0KCiAgICBjb25zdCBpc0N1cnJlbnRSZXF1ZXN0ID0gKCkgPT4KICAgICAgIWRpc3Bvc2VkICYmCiAgICAgICFjb250cm9sbGVyLnNpZ25hbC5hYm9ydGVkICYmCiAgICAgIHJlcXVlc3RJZCA9PT0gZGFzaGJvYXJkUmVxdWVzdElkICYmCiAgICAgIHJhbmdlS2V5LnZhbHVlID09PSByZXF1ZXN0ZWRSYW5nZS5rZXk7CgogICAgZXJyb3JNZXNzYWdlLnZhbHVlID0gIiI7CiAgICB0cnkgewogICAgICBjb25zdCBbc3RhdHNSZXN1bHQsIHRocmVhdFJlc3VsdF0gPSBhd2FpdCBQcm9taXNlLmFsbFNldHRsZWQoWwogICAgICAgIERhc2hib2FyZEFQSS5nZXRTdGF0cygKICAgICAgICAgIHJlcXVlc3RlZFJhbmdlLnNlYywKICAgICAgICAgIHVuZGVmaW5lZCwKICAgICAgICAgIGNvbnRyb2xsZXIuc2lnbmFsLAogICAgICAgICksCiAgICAgICAgU2VjdXJpdHlBUEkuZ2V0T3ZlcnZpZXcocmVxdWVzdGVkUmFuZ2Uuc2VjLCBjb250cm9sbGVyLnNpZ25hbCksCiAgICAgIF0pOwogICAgICBpZiAoIWlzQ3VycmVudFJlcXVlc3QoKSkgcmV0dXJuOwogICAgICBpZiAoc3RhdHNSZXN1bHQuc3RhdHVzID09PSAiZnVsZmlsbGVkIikgewogICAgICAgIHN0YXRzLnZhbHVlID0gc3RhdHNSZXN1bHQudmFsdWU7CiAgICAgICAgbGFzdFVwZGF0ZWRBdC52YWx1ZSA9IG5ldyBEYXRlKCk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgY29uc3QgbWVzc2FnZSA9CiAgICAgICAgICAoc3RhdHNSZXN1bHQucmVhc29uIGFzIGFueSk/LnJlc3BvbnNlPy5kYXRhPy5tZXNzYWdlIHx8CiAgICAgICAgICAoc3RhdHNSZXN1bHQucmVhc29uIGFzIGFueSk/Lm1lc3NhZ2UgfHwKICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uZGFzaGJvYXJkLmVycm9ycy5sb2FkRmFpbGVkIik7CiAgICAgICAgZXJyb3JNZXNzYWdlLnZhbHVlID0gbWVzc2FnZTsKICAgICAgICB0b2FzdC5lcnJvcih0cmFuc2xhdGUoImFkbWluLmRhc2hib2FyZC5lcnJvcnMuZGFzaGJvYXJkTG9hZEZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogbWVzc2FnZSwKICAgICAgICB9KTsKICAgICAgfQogICAgICBpZiAodGhyZWF0UmVzdWx0LnN0YXR1cyA9PT0gImZ1bGZpbGxlZCIpIHsKICAgICAgICB0aHJlYXRPdmVydmlldy52YWx1ZSA9IHRocmVhdFJlc3VsdC52YWx1ZTsKICAgICAgfQogICAgfSBjYXRjaCAoZXJyb3I6IGFueSkgewogICAgICBpZiAoIWlzQ3VycmVudFJlcXVlc3QoKSkgcmV0dXJuOwogICAgICBjb25zdCBtZXNzYWdlID0KICAgICAgICBlcnJvcj8ucmVzcG9uc2U/LmRhdGE/Lm1lc3NhZ2UgfHwKICAgICAgICBlcnJvcj8ubWVzc2FnZSB8fAogICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uZGFzaGJvYXJkLmVycm9ycy5sb2FkRmFpbGVkIik7CiAgICAgIGVycm9yTWVzc2FnZS52YWx1ZSA9IG1lc3NhZ2U7CiAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uZGFzaGJvYXJkLmVycm9ycy5kYXNoYm9hcmRMb2FkRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogbWVzc2FnZSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICByZW1vdmVFeHRlcm5hbEFib3J0TGlzdGVuZXI/LigpOwogICAgICBpZiAoZGFzaGJvYXJkQWJvcnRDb250cm9sbGVyID09PSBjb250cm9sbGVyKSB7CiAgICAgICAgZGFzaGJvYXJkQWJvcnRDb250cm9sbGVyID0gbnVsbDsKICAgICAgfQogICAgICBpZiAoaXNDdXJyZW50UmVxdWVzdCgpKSB7CiAgICAgICAgaXNJbml0aWFsaXppbmcudmFsdWUgPSBmYWxzZTsKICAgICAgfQogICAgfQoKICAgIGlmICghaXNDdXJyZW50UmVxdWVzdCgpKSByZXR1cm47CiAgICBzY2hlZHVsZVR1bm5lbFN0YXR1c0xvYWQoKTsKICAgIGlmIChkZG5zTG9hZFRpbWVyICE9PSBudWxsKSB3aW5kb3cuY2xlYXJUaW1lb3V0KGRkbnNMb2FkVGltZXIpOwogICAgZGRuc0xvYWRUaW1lciA9IHdpbmRvdy5zZXRUaW1lb3V0KCgpID0+IHsKICAgICAgZGRuc0xvYWRUaW1lciA9IG51bGw7CiAgICAgIHZvaWQgbG9hZERkbnNTdGF0dXMoKTsKICAgIH0sIDApOwogIH07CgogIGNvbnN0IHJlZnJlc2hBbGwgPSAoKSA9PiB2b2lkIGxvYWQoKTsKICBjb25zdCBhdXRvUmVmcmVzaFBvbGxlciA9IGNyZWF0ZVZpc2liaWxpdHlQb2xsZXIoewogICAgLy8gSGlzdG9yaWNhbCB0cmFmZmljIGlzIGNvbGxlY3RlZCBldmVyeSAzMCBzZWNvbmRzLiBQb2xsaW5nIHR3aWNlIGluc2lkZQogICAgLy8gdGhhdCB3aW5kb3cgb25seSByZXBlYXRzIHRoZSBzYW1lIFNRTGl0ZSBzY2FucyBhbmQgY2FuIHN0YXJ2ZSBhdXRoIHdvcmsKICAgIC8vIG9uIGxvdy1wb3dlciBOQVMgQ1BVcywgc28ga2VlcCB0aGUgYXV0b21hdGljIGhpc3RvcnkgcmVmcmVzaCByZWxheGVkLgogICAgaW50ZXJ2YWxNczogNjBfMDAwLAogICAgaW1tZWRpYXRlOiBmYWxzZSwKICAgIGVuYWJsZWQ6ICgpID0+IGlzQXV0b1JlZnJlc2gudmFsdWUsCiAgICB0YXNrOiAoc2lnbmFsKSA9PiBsb2FkKHNpZ25hbCksCiAgfSk7CgogIHdhdGNoKHJhbmdlS2V5LCAoKSA9PiB2b2lkIGxvYWQoKSk7CiAgd2F0Y2goaXNBdXRvUmVmcmVzaCwgKCkgPT4gewogICAgYXV0b1JlZnJlc2hQb2xsZXIuc3luYygpOwogIH0pOwoKICBvbk1vdW50ZWQoKCkgPT4gewogICAgcmVmcmVzaEFsbCgpOwogICAgc3RhcnRSZWFsdGltZVBvbGxpbmcoKTsKICAgIGF1dG9SZWZyZXNoUG9sbGVyLnN0YXJ0KCk7CiAgfSk7CiAgb25Vbm1vdW50ZWQoKCkgPT4gewogICAgZGlzcG9zZWQgPSB0cnVlOwogICAgZGFzaGJvYXJkQWJvcnRDb250cm9sbGVyPy5hYm9ydCgpOwogICAgZGFzaGJvYXJkQWJvcnRDb250cm9sbGVyID0gbnVsbDsKICAgIGlmIChkZG5zTG9hZFRpbWVyICE9PSBudWxsKSB3aW5kb3cuY2xlYXJUaW1lb3V0KGRkbnNMb2FkVGltZXIpOwogICAgZGRuc0xvYWRUaW1lciA9IG51bGw7CiAgICBhdXRvUmVmcmVzaFBvbGxlci5zdG9wKCk7CiAgICBkaXNwb3NlVHVubmVsU3RhdHVzKCk7CiAgICBzdG9wUmVhbHRpbWVQb2xsaW5nKCk7CiAgfSk7CgogIHJldHVybiB7CiAgICBhY3RpdmVSYW5nZSwKICAgIGRkbnNFcnJvciwKICAgIGRkbnNTdGF0dXMsCiAgICBlcnJvck1lc3NhZ2UsCiAgICBpc0F1dG9SZWZyZXNoLAogICAgaXNEZG5zTG9hZGluZywKICAgIGlzSW5pdGlhbGl6aW5nLAogICAgbGFzdFVwZGF0ZWRBdCwKICAgIGxvYWQsCiAgICByYW5nZUtleSwKICAgIHJlZnJlc2hBbGwsCiAgICBzaG93RGRuc1NrZWxldG9uLAogICAgc2hvd01haW5Ta2VsZXRvbiwKICAgIHN0YXRzLAogICAgdGhyZWF0T3ZlcnZpZXcsCiAgfTsKfQo=
+import { computed, onMounted, onUnmounted, ref, watch } from "vue";
+import { toast } from "@admin-shared/utils/toast";
+import { useAsyncAction } from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import { DashboardAPI } from "../../lib/api/dashboard";
+import { DDNSAPI, type DDNSStatusPayload } from "../../lib/api/ddns";
+import { SecurityAPI } from "../../lib/api/security";
+import type { DashboardStats, ThreatOverview } from "../../types";
+import { createVisibilityPoller } from "@/composables/useVisibilityPolling";
+
+export const dashboardRanges = [
+  {
+    key: "15m",
+    labelKey: "admin.dashboard.ranges.fifteenMinutes",
+    sec: 15 * 60,
+  },
+  { key: "1h", labelKey: "admin.dashboard.ranges.oneHour", sec: 60 * 60 },
+  {
+    key: "6h",
+    labelKey: "admin.dashboard.ranges.sixHours",
+    sec: 6 * 60 * 60,
+  },
+  {
+    key: "1d",
+    labelKey: "admin.dashboard.ranges.twentyFourHours",
+    sec: 24 * 60 * 60,
+  },
+  {
+    key: "7d",
+    labelKey: "admin.dashboard.ranges.sevenDays",
+    sec: 7 * 24 * 60 * 60,
+  },
+] as const;
+
+interface UseDashboardDataOptions {
+  disposeTunnelStatus: () => void;
+  scheduleTunnelStatusLoad: () => void;
+  startRealtimePolling: () => void;
+  stopRealtimePolling: () => void;
+  translate: (key: string) => string;
+}
+
+export function useDashboardData({
+  disposeTunnelStatus,
+  scheduleTunnelStatusLoad,
+  startRealtimePolling,
+  stopRealtimePolling,
+  translate,
+}: UseDashboardDataOptions) {
+  const rangeKey = ref<(typeof dashboardRanges)[number]["key"]>("1h");
+  const isAutoRefresh = ref(true);
+  const isInitializing = ref(true);
+  const errorMessage = ref("");
+  const stats = ref<DashboardStats | null>(null);
+  const threatOverview = ref<ThreatOverview | null>(null);
+  const lastUpdatedAt = ref<Date | null>(null);
+  const ddnsStatus = ref<DDNSStatusPayload | null>(null);
+  const isDdnsInitializing = ref(true);
+  const { isPending: isDdnsPending, run: runLoadDdnsStatus } = useAsyncAction();
+  const ddnsError = ref("");
+  let ddnsLoadTimer: number | null = null;
+  let dashboardAbortController: AbortController | null = null;
+  let dashboardRequestId = 0;
+  let disposed = false;
+
+  const activeRange = computed(
+    () =>
+      dashboardRanges.find((range) => range.key === rangeKey.value) ??
+      dashboardRanges[1],
+  );
+  const isDdnsLoading = computed(
+    () => isDdnsInitializing.value || isDdnsPending.value,
+  );
+  const showMainSkeleton = useDelayedLoading(isInitializing);
+  const showDdnsSkeleton = useDelayedLoading(() => isDdnsLoading.value);
+
+  const loadDdnsStatus = async () => {
+    ddnsError.value = "";
+    await runLoadDdnsStatus(() => DDNSAPI.getStatus(), {
+      onSuccess: (status) => {
+        ddnsStatus.value = status;
+      },
+      onError: (error: any) => {
+        ddnsError.value =
+          error?.response?.data?.message ||
+          error?.message ||
+          translate("admin.dashboard.errors.loadFailed");
+        ddnsStatus.value = null;
+      },
+      onFinally: () => {
+        isDdnsInitializing.value = false;
+      },
+    });
+  };
+
+  const load = async (signal?: AbortSignal) => {
+    const requestedRange = activeRange.value;
+    const requestId = ++dashboardRequestId;
+    dashboardAbortController?.abort();
+    const controller = new AbortController();
+    dashboardAbortController = controller;
+    let removeExternalAbortListener: (() => void) | undefined;
+    if (signal?.aborted) {
+      controller.abort(signal.reason);
+    } else if (signal) {
+      const relayAbort = () => controller.abort(signal.reason);
+      signal.addEventListener("abort", relayAbort, { once: true });
+      removeExternalAbortListener = () =>
+        signal.removeEventListener("abort", relayAbort);
+    }
+
+    const isCurrentRequest = () =>
+      !disposed &&
+      !controller.signal.aborted &&
+      requestId === dashboardRequestId &&
+      rangeKey.value === requestedRange.key;
+
+    errorMessage.value = "";
+    try {
+      const [statsResult, threatResult] = await Promise.allSettled([
+        DashboardAPI.getStats(
+          requestedRange.sec,
+          undefined,
+          controller.signal,
+        ),
+        SecurityAPI.getOverview(requestedRange.sec, controller.signal),
+      ]);
+      if (!isCurrentRequest()) return;
+      if (statsResult.status === "fulfilled") {
+        stats.value = statsResult.value;
+        lastUpdatedAt.value = new Date();
+      } else {
+        const message =
+          (statsResult.reason as any)?.response?.data?.message ||
+          (statsResult.reason as any)?.message ||
+          translate("admin.dashboard.errors.loadFailed");
+        errorMessage.value = message;
+        toast.error(translate("admin.dashboard.errors.dashboardLoadFailed"), {
+          description: message,
+        });
+      }
+      if (threatResult.status === "fulfilled") {
+        threatOverview.value = threatResult.value;
+      }
+    } catch (error: any) {
+      if (!isCurrentRequest()) return;
+      const message =
+        error?.response?.data?.message ||
+        error?.message ||
+        translate("admin.dashboard.errors.loadFailed");
+      errorMessage.value = message;
+      toast.error(translate("admin.dashboard.errors.dashboardLoadFailed"), {
+        description: message,
+      });
+    } finally {
+      removeExternalAbortListener?.();
+      if (dashboardAbortController === controller) {
+        dashboardAbortController = null;
+      }
+      if (isCurrentRequest()) {
+        isInitializing.value = false;
+      }
+    }
+
+    if (!isCurrentRequest()) return;
+    scheduleTunnelStatusLoad();
+    if (ddnsLoadTimer !== null) window.clearTimeout(ddnsLoadTimer);
+    ddnsLoadTimer = window.setTimeout(() => {
+      ddnsLoadTimer = null;
+      void loadDdnsStatus();
+    }, 0);
+  };
+
+  const refreshAll = () => void load();
+  const autoRefreshPoller = createVisibilityPoller({
+    // Historical traffic is collected every 30 seconds. Polling twice inside
+    // that window only repeats the same SQLite scans and can starve auth work
+    // on low-power NAS CPUs, so keep the automatic history refresh relaxed.
+    intervalMs: 60_000,
+    immediate: false,
+    enabled: () => isAutoRefresh.value,
+    task: (signal) => load(signal),
+  });
+
+  watch(rangeKey, () => void load());
+  watch(isAutoRefresh, () => {
+    autoRefreshPoller.sync();
+  });
+
+  onMounted(() => {
+    refreshAll();
+    startRealtimePolling();
+    autoRefreshPoller.start();
+  });
+  onUnmounted(() => {
+    disposed = true;
+    dashboardAbortController?.abort();
+    dashboardAbortController = null;
+    if (ddnsLoadTimer !== null) window.clearTimeout(ddnsLoadTimer);
+    ddnsLoadTimer = null;
+    autoRefreshPoller.stop();
+    disposeTunnelStatus();
+    stopRealtimePolling();
+  });
+
+  return {
+    activeRange,
+    ddnsError,
+    ddnsStatus,
+    errorMessage,
+    isAutoRefresh,
+    isDdnsLoading,
+    isInitializing,
+    lastUpdatedAt,
+    load,
+    rangeKey,
+    refreshAll,
+    showDdnsSkeleton,
+    showMainSkeleton,
+    stats,
+    threatOverview,
+  };
+}

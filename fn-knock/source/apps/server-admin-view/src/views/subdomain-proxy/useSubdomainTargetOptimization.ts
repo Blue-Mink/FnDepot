@@ -1,1 +1,214 @@
-aW1wb3J0IHsKICBjb21wdXRlZCwKICByZWYsCiAgd2F0Y2gsCiAgdHlwZSBDb21wdXRlZFJlZiwKICB0eXBlIFJlZiwKfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgdHlwZSB7IEhvc3RNYXBwaW5nIH0gZnJvbSAiQC90eXBlcyI7CmltcG9ydCB7CiAgYnVpbGRUYXJnZXRPcHRpbWl6YXRpb25EZXN0aW5hdGlvbnMsCiAgYnVpbGRUYXJnZXRPcHRpbWl6YXRpb25QcmV2aWV3cywKICByZXNvbHZlRGVmYXVsdFRhcmdldE9wdGltaXphdGlvbkRlc3RpbmF0aW9uLAp9IGZyb20gIi4vc3ViZG9tYWluLXRhcmdldC1vcHRpbWl6YXRpb24iOwppbXBvcnQgeyB1c2VIb3N0VGFyZ2V0Q2FuZGlkYXRlQ2F0YWxvZyB9IGZyb20gIi4vdXNlSG9zdFRhcmdldENhbmRpZGF0ZUNhdGFsb2ciOwoKdHlwZSBBc3luY0FjdGlvblJ1biA9IDxUPihhY3Rpb246ICgpID0+IFByb21pc2U8VD4pID0+IFByb21pc2U8VCB8IHVuZGVmaW5lZD47CnR5cGUgVHJhbnNsYXRlID0gKGtleTogc3RyaW5nLCBwYXJhbXM/OiBSZWNvcmQ8c3RyaW5nLCBudW1iZXI+KSA9PiBzdHJpbmc7CgpleHBvcnQgY29uc3QgdXNlU3ViZG9tYWluVGFyZ2V0T3B0aW1pemF0aW9uID0gKHsKICBhbGxNYXBwaW5ncywKICBpc0F1dGhTZXJ2aWNlVGFyZ2V0LAogIGlzRG9ja2VyRGVwbG95bWVudCwKICBpc1NhdmluZ01hcHBpbmdzLAogIHJ1blNhdmVNYXBwaW5ncywKICBzYXZlSG9zdE1hcHBpbmdzLAogIHRyYW5zbGF0ZSwKfTogewogIGFsbE1hcHBpbmdzOiBDb21wdXRlZFJlZjxIb3N0TWFwcGluZ1tdPjsKICBpc0F1dGhTZXJ2aWNlVGFyZ2V0OiAodGFyZ2V0OiBzdHJpbmcpID0+IGJvb2xlYW47CiAgaXNEb2NrZXJEZXBsb3ltZW50OiBDb21wdXRlZFJlZjxib29sZWFuPjsKICBpc1NhdmluZ01hcHBpbmdzOiBSZWY8Ym9vbGVhbj47CiAgcnVuU2F2ZU1hcHBpbmdzOiBBc3luY0FjdGlvblJ1bjsKICBzYXZlSG9zdE1hcHBpbmdzOiAobWFwcGluZ3M6IEhvc3RNYXBwaW5nW10pID0+IFByb21pc2U8dW5rbm93bj47CiAgdHJhbnNsYXRlOiBUcmFuc2xhdGU7Cn0pID0+IHsKICBjb25zdCBpc09wZW4gPSByZWYoZmFsc2UpOwogIGNvbnN0IGRlc3RpbmF0aW9uQWRkcmVzcyA9IHJlZigiIik7CiAgY29uc3Qgc2VsZWN0ZWRIb3N0cyA9IHJlZihuZXcgU2V0PHN0cmluZz4oKSk7CiAgbGV0IGluaXRpYWxpemVkRm9yT3BlbiA9IGZhbHNlOwoKICBjb25zdCB7CiAgICBlZmZlY3RpdmVDYW5kaWRhdGVzLAogICAgaXNMb2FkaW5nOiBpc0xvYWRpbmdDYW5kaWRhdGVzLAogICAgbG9hZENhbmRpZGF0ZXMsCiAgICBsb2FkRmFpbGVkOiBjYW5kaWRhdGVMb2FkRmFpbGVkLAogIH0gPSB1c2VIb3N0VGFyZ2V0Q2FuZGlkYXRlQ2F0YWxvZyh7CiAgICBpc0RvY2tlckRlcGxveW1lbnQsCiAgICBvcGVuOiBjb21wdXRlZCgoKSA9PiBpc09wZW4udmFsdWUpLAogIH0pOwogIGNvbnN0IGRlc3RpbmF0aW9ucyA9IGNvbXB1dGVkKCgpID0+CiAgICBidWlsZFRhcmdldE9wdGltaXphdGlvbkRlc3RpbmF0aW9ucygKICAgICAgZWZmZWN0aXZlQ2FuZGlkYXRlcy52YWx1ZSwKICAgICAgaXNEb2NrZXJEZXBsb3ltZW50LnZhbHVlLAogICAgKSwKICApOwogIGNvbnN0IGRlc3RpbmF0aW9uU2lnbmF0dXJlID0gY29tcHV0ZWQoKCkgPT4KICAgIGRlc3RpbmF0aW9ucy52YWx1ZS5tYXAoKGRlc3RpbmF0aW9uKSA9PiBkZXN0aW5hdGlvbi5hZGRyZXNzKS5qb2luKCJcMCIpLAogICk7CiAgY29uc3QgcHJldmlld3MgPSBjb21wdXRlZCgoKSA9PgogICAgYnVpbGRUYXJnZXRPcHRpbWl6YXRpb25QcmV2aWV3cyh7CiAgICAgIGNhbmRpZGF0ZXM6IGVmZmVjdGl2ZUNhbmRpZGF0ZXMudmFsdWUsCiAgICAgIGRlc3RpbmF0aW9uQWRkcmVzczogZGVzdGluYXRpb25BZGRyZXNzLnZhbHVlLAogICAgICBpc0F1dGhTZXJ2aWNlVGFyZ2V0LAogICAgICBpc0RvY2tlckRlcGxveW1lbnQ6IGlzRG9ja2VyRGVwbG95bWVudC52YWx1ZSwKICAgICAgbWFwcGluZ3M6IGFsbE1hcHBpbmdzLnZhbHVlLAogICAgfSksCiAgKTsKICBjb25zdCBzZWxlY3RlZFByZXZpZXdzID0gY29tcHV0ZWQoKCkgPT4KICAgIHByZXZpZXdzLnZhbHVlLmZpbHRlcigocHJldmlldykgPT4gc2VsZWN0ZWRIb3N0cy52YWx1ZS5oYXMocHJldmlldy5ob3N0KSksCiAgKTsKICBjb25zdCBzZWxlY3RlZENvdW50ID0gY29tcHV0ZWQoKCkgPT4gc2VsZWN0ZWRQcmV2aWV3cy52YWx1ZS5sZW5ndGgpOwogIGNvbnN0IGFsbFNlbGVjdGVkID0gY29tcHV0ZWQoCiAgICAoKSA9PiBwcmV2aWV3cy52YWx1ZS5sZW5ndGggPiAwICYmIHNlbGVjdGVkQ291bnQudmFsdWUgPT09IHByZXZpZXdzLnZhbHVlLmxlbmd0aCwKICApOwogIGNvbnN0IHBhcnRpYWxseVNlbGVjdGVkID0gY29tcHV0ZWQoCiAgICAoKSA9PiBzZWxlY3RlZENvdW50LnZhbHVlID4gMCAmJiAhYWxsU2VsZWN0ZWQudmFsdWUsCiAgKTsKCiAgY29uc3Qgc2VsZWN0QWxsUHJldmlld3MgPSAoKSA9PiB7CiAgICBzZWxlY3RlZEhvc3RzLnZhbHVlID0gbmV3IFNldChwcmV2aWV3cy52YWx1ZS5tYXAoKHByZXZpZXcpID0+IHByZXZpZXcuaG9zdCkpOwogIH07CiAgY29uc3Qgc2V0RGVzdGluYXRpb25BZGRyZXNzID0gKGFkZHJlc3M6IHN0cmluZykgPT4gewogICAgZGVzdGluYXRpb25BZGRyZXNzLnZhbHVlID0gYWRkcmVzczsKICAgIHNlbGVjdEFsbFByZXZpZXdzKCk7CiAgfTsKICBjb25zdCBpbml0aWFsaXplRGlhbG9nID0gKCkgPT4gewogICAgY29uc3QgYWRkcmVzcyA9IHJlc29sdmVEZWZhdWx0VGFyZ2V0T3B0aW1pemF0aW9uRGVzdGluYXRpb24oewogICAgICBjYW5kaWRhdGVzOiBlZmZlY3RpdmVDYW5kaWRhdGVzLnZhbHVlLAogICAgICBpc0F1dGhTZXJ2aWNlVGFyZ2V0LAogICAgICBpc0RvY2tlckRlcGxveW1lbnQ6IGlzRG9ja2VyRGVwbG95bWVudC52YWx1ZSwKICAgICAgbWFwcGluZ3M6IGFsbE1hcHBpbmdzLnZhbHVlLAogICAgfSk7CiAgICBkZXN0aW5hdGlvbkFkZHJlc3MudmFsdWUgPSBhZGRyZXNzOwogICAgc2VsZWN0QWxsUHJldmlld3MoKTsKICAgIGluaXRpYWxpemVkRm9yT3BlbiA9IHRydWU7CiAgfTsKICBjb25zdCBvcGVuRGlhbG9nID0gKCkgPT4gewogICAgaWYgKGlzU2F2aW5nTWFwcGluZ3MudmFsdWUpIHJldHVybjsKICAgIGluaXRpYWxpemVkRm9yT3BlbiA9IGZhbHNlOwogICAgZGVzdGluYXRpb25BZGRyZXNzLnZhbHVlID0gIiI7CiAgICBzZWxlY3RlZEhvc3RzLnZhbHVlID0gbmV3IFNldCgpOwogICAgaXNPcGVuLnZhbHVlID0gdHJ1ZTsKICB9OwogIGNvbnN0IGNsb3NlRGlhbG9nID0gKCkgPT4gewogICAgaWYgKGlzU2F2aW5nTWFwcGluZ3MudmFsdWUpIHJldHVybjsKICAgIGlzT3Blbi52YWx1ZSA9IGZhbHNlOwogICAgZGVzdGluYXRpb25BZGRyZXNzLnZhbHVlID0gIiI7CiAgICBzZWxlY3RlZEhvc3RzLnZhbHVlID0gbmV3IFNldCgpOwogIH07CiAgY29uc3QgaGFuZGxlT3BlbkNoYW5nZSA9IChvcGVuOiBib29sZWFuKSA9PiB7CiAgICBpZiAob3Blbikgb3BlbkRpYWxvZygpOwogICAgZWxzZSBjbG9zZURpYWxvZygpOwogIH07CiAgY29uc3QgcmV0cnlDYW5kaWRhdGVzID0gYXN5bmMgKCkgPT4gewogICAgaW5pdGlhbGl6ZWRGb3JPcGVuID0gZmFsc2U7CiAgICBkZXN0aW5hdGlvbkFkZHJlc3MudmFsdWUgPSAiIjsKICAgIHNlbGVjdGVkSG9zdHMudmFsdWUgPSBuZXcgU2V0KCk7CiAgICBhd2FpdCBsb2FkQ2FuZGlkYXRlcygpOwogIH07CiAgY29uc3Qgc2V0QWxsU2VsZWN0ZWQgPSAoc2VsZWN0ZWQ6IGJvb2xlYW4pID0+IHsKICAgIHNlbGVjdGVkSG9zdHMudmFsdWUgPSBzZWxlY3RlZAogICAgICA/IG5ldyBTZXQocHJldmlld3MudmFsdWUubWFwKChwcmV2aWV3KSA9PiBwcmV2aWV3Lmhvc3QpKQogICAgICA6IG5ldyBTZXQoKTsKICB9OwogIGNvbnN0IHNldE1hcHBpbmdTZWxlY3RlZCA9IChob3N0OiBzdHJpbmcsIHNlbGVjdGVkOiBib29sZWFuKSA9PiB7CiAgICBjb25zdCBuZXh0ID0gbmV3IFNldChzZWxlY3RlZEhvc3RzLnZhbHVlKTsKICAgIGlmIChzZWxlY3RlZCkgbmV4dC5hZGQoaG9zdCk7CiAgICBlbHNlIG5leHQuZGVsZXRlKGhvc3QpOwogICAgc2VsZWN0ZWRIb3N0cy52YWx1ZSA9IG5leHQ7CiAgfTsKICBjb25zdCBpc01hcHBpbmdTZWxlY3RlZCA9IChob3N0OiBzdHJpbmcpID0+IHNlbGVjdGVkSG9zdHMudmFsdWUuaGFzKGhvc3QpOwoKICBjb25zdCBzYXZlT3B0aW1pemVkVGFyZ2V0cyA9IGFzeW5jICgpID0+IHsKICAgIGlmICgKICAgICAgaXNTYXZpbmdNYXBwaW5ncy52YWx1ZSB8fAogICAgICBpc0xvYWRpbmdDYW5kaWRhdGVzLnZhbHVlIHx8CiAgICAgIHNlbGVjdGVkQ291bnQudmFsdWUgPT09IDAKICAgICkgewogICAgICByZXR1cm47CiAgICB9CiAgICBjb25zdCBzZWxlY3RlZCA9IG5ldyBNYXAoCiAgICAgIHNlbGVjdGVkUHJldmlld3MudmFsdWUubWFwKChwcmV2aWV3KSA9PiBbcHJldmlldy5ob3N0LCBwcmV2aWV3Lm5leHRUYXJnZXRdKSwKICAgICk7CiAgICBpZiAoc2VsZWN0ZWQuc2l6ZSA9PT0gMCkgcmV0dXJuOwogICAgY29uc3Qgc2F2ZWRDb3VudCA9IGF3YWl0IHJ1blNhdmVNYXBwaW5ncyhhc3luYyAoKSA9PiB7CiAgICAgIGF3YWl0IHNhdmVIb3N0TWFwcGluZ3MoCiAgICAgICAgYWxsTWFwcGluZ3MudmFsdWUubWFwKChtYXBwaW5nKSA9PiB7CiAgICAgICAgICBjb25zdCBuZXh0VGFyZ2V0ID0gc2VsZWN0ZWQuZ2V0KG1hcHBpbmcuaG9zdCk7CiAgICAgICAgICByZXR1cm4gbmV4dFRhcmdldCA/IHsgLi4ubWFwcGluZywgdGFyZ2V0OiBuZXh0VGFyZ2V0IH0gOiBtYXBwaW5nOwogICAgICAgIH0pLAogICAgICApOwogICAgICB0b2FzdC5zdWNjZXNzKAogICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkudGFyZ2V0T3B0aW1pemF0aW9uU2F2ZWQiLCB7CiAgICAgICAgICBjb3VudDogc2VsZWN0ZWQuc2l6ZSwKICAgICAgICB9KSwKICAgICAgKTsKICAgICAgcmV0dXJuIHNlbGVjdGVkLnNpemU7CiAgICB9KTsKICAgIGlmIChzYXZlZENvdW50ICE9PSB1bmRlZmluZWQpIHsKICAgICAgaXNPcGVuLnZhbHVlID0gZmFsc2U7CiAgICAgIGRlc3RpbmF0aW9uQWRkcmVzcy52YWx1ZSA9ICIiOwogICAgICBzZWxlY3RlZEhvc3RzLnZhbHVlID0gbmV3IFNldCgpOwogICAgfQogIH07CgogIHdhdGNoKAogICAgWwogICAgICBpc09wZW4sCiAgICAgIGlzTG9hZGluZ0NhbmRpZGF0ZXMsCiAgICAgIGRlc3RpbmF0aW9uQWRkcmVzcywKICAgICAgZGVzdGluYXRpb25TaWduYXR1cmUsCiAgICBdLAogICAgKFtvcGVuLCBsb2FkaW5nXSkgPT4gewogICAgICBjb25zdCBkZXN0aW5hdGlvbklzVmFsaWQgPSBkZXN0aW5hdGlvbnMudmFsdWUuc29tZSgKICAgICAgICAoZGVzdGluYXRpb24pID0+IGRlc3RpbmF0aW9uLmFkZHJlc3MgPT09IGRlc3RpbmF0aW9uQWRkcmVzcy52YWx1ZSwKICAgICAgKTsKICAgICAgaWYgKAogICAgICAgIG9wZW4gJiYKICAgICAgICAhbG9hZGluZyAmJgogICAgICAgICghaW5pdGlhbGl6ZWRGb3JPcGVuIHx8ICFkZXN0aW5hdGlvbklzVmFsaWQpCiAgICAgICkgewogICAgICAgIGluaXRpYWxpemVEaWFsb2coKTsKICAgICAgfQogICAgfSwKICAgIHsgZmx1c2g6ICJwb3N0IiB9LAogICk7CgogIHJldHVybiB7CiAgICBhbGxTZWxlY3RlZCwKICAgIGNhbmRpZGF0ZUxvYWRGYWlsZWQsCiAgICBjbG9zZURpYWxvZywKICAgIGRlc3RpbmF0aW9uQWRkcmVzcywKICAgIGRlc3RpbmF0aW9ucywKICAgIGhhbmRsZU9wZW5DaGFuZ2UsCiAgICBpc0xvYWRpbmdDYW5kaWRhdGVzLAogICAgaXNNYXBwaW5nU2VsZWN0ZWQsCiAgICBpc09wZW4sCiAgICBpc1NhdmluZ01hcHBpbmdzLAogICAgb3BlbkRpYWxvZywKICAgIHBhcnRpYWxseVNlbGVjdGVkLAogICAgcHJldmlld3MsCiAgICByZXRyeUNhbmRpZGF0ZXMsCiAgICBzYXZlT3B0aW1pemVkVGFyZ2V0cywKICAgIHNlbGVjdGVkQ291bnQsCiAgICBzZXRBbGxTZWxlY3RlZCwKICAgIHNldERlc3RpbmF0aW9uQWRkcmVzcywKICAgIHNldE1hcHBpbmdTZWxlY3RlZCwKICB9Owp9OwoKZXhwb3J0IHR5cGUgU3ViZG9tYWluVGFyZ2V0T3B0aW1pemF0aW9uQ29udHJvbGxlciA9IFJldHVyblR5cGU8CiAgdHlwZW9mIHVzZVN1YmRvbWFpblRhcmdldE9wdGltaXphdGlvbgo+Owo=
+import {
+  computed,
+  ref,
+  watch,
+  type ComputedRef,
+  type Ref,
+} from "vue";
+import { toast } from "@admin-shared/utils/toast";
+import type { HostMapping } from "@/types";
+import {
+  buildTargetOptimizationDestinations,
+  buildTargetOptimizationPreviews,
+  resolveDefaultTargetOptimizationDestination,
+} from "./subdomain-target-optimization";
+import { useHostTargetCandidateCatalog } from "./useHostTargetCandidateCatalog";
+
+type AsyncActionRun = <T>(action: () => Promise<T>) => Promise<T | undefined>;
+type Translate = (key: string, params?: Record<string, number>) => string;
+
+export const useSubdomainTargetOptimization = ({
+  allMappings,
+  isAuthServiceTarget,
+  isDockerDeployment,
+  isSavingMappings,
+  runSaveMappings,
+  saveHostMappings,
+  translate,
+}: {
+  allMappings: ComputedRef<HostMapping[]>;
+  isAuthServiceTarget: (target: string) => boolean;
+  isDockerDeployment: ComputedRef<boolean>;
+  isSavingMappings: Ref<boolean>;
+  runSaveMappings: AsyncActionRun;
+  saveHostMappings: (mappings: HostMapping[]) => Promise<unknown>;
+  translate: Translate;
+}) => {
+  const isOpen = ref(false);
+  const destinationAddress = ref("");
+  const selectedHosts = ref(new Set<string>());
+  let initializedForOpen = false;
+
+  const {
+    effectiveCandidates,
+    isLoading: isLoadingCandidates,
+    loadCandidates,
+    loadFailed: candidateLoadFailed,
+  } = useHostTargetCandidateCatalog({
+    isDockerDeployment,
+    open: computed(() => isOpen.value),
+  });
+  const destinations = computed(() =>
+    buildTargetOptimizationDestinations(
+      effectiveCandidates.value,
+      isDockerDeployment.value,
+    ),
+  );
+  const destinationSignature = computed(() =>
+    destinations.value.map((destination) => destination.address).join("\0"),
+  );
+  const previews = computed(() =>
+    buildTargetOptimizationPreviews({
+      candidates: effectiveCandidates.value,
+      destinationAddress: destinationAddress.value,
+      isAuthServiceTarget,
+      isDockerDeployment: isDockerDeployment.value,
+      mappings: allMappings.value,
+    }),
+  );
+  const selectedPreviews = computed(() =>
+    previews.value.filter((preview) => selectedHosts.value.has(preview.host)),
+  );
+  const selectedCount = computed(() => selectedPreviews.value.length);
+  const allSelected = computed(
+    () => previews.value.length > 0 && selectedCount.value === previews.value.length,
+  );
+  const partiallySelected = computed(
+    () => selectedCount.value > 0 && !allSelected.value,
+  );
+
+  const selectAllPreviews = () => {
+    selectedHosts.value = new Set(previews.value.map((preview) => preview.host));
+  };
+  const setDestinationAddress = (address: string) => {
+    destinationAddress.value = address;
+    selectAllPreviews();
+  };
+  const initializeDialog = () => {
+    const address = resolveDefaultTargetOptimizationDestination({
+      candidates: effectiveCandidates.value,
+      isAuthServiceTarget,
+      isDockerDeployment: isDockerDeployment.value,
+      mappings: allMappings.value,
+    });
+    destinationAddress.value = address;
+    selectAllPreviews();
+    initializedForOpen = true;
+  };
+  const openDialog = () => {
+    if (isSavingMappings.value) return;
+    initializedForOpen = false;
+    destinationAddress.value = "";
+    selectedHosts.value = new Set();
+    isOpen.value = true;
+  };
+  const closeDialog = () => {
+    if (isSavingMappings.value) return;
+    isOpen.value = false;
+    destinationAddress.value = "";
+    selectedHosts.value = new Set();
+  };
+  const handleOpenChange = (open: boolean) => {
+    if (open) openDialog();
+    else closeDialog();
+  };
+  const retryCandidates = async () => {
+    initializedForOpen = false;
+    destinationAddress.value = "";
+    selectedHosts.value = new Set();
+    await loadCandidates();
+  };
+  const setAllSelected = (selected: boolean) => {
+    selectedHosts.value = selected
+      ? new Set(previews.value.map((preview) => preview.host))
+      : new Set();
+  };
+  const setMappingSelected = (host: string, selected: boolean) => {
+    const next = new Set(selectedHosts.value);
+    if (selected) next.add(host);
+    else next.delete(host);
+    selectedHosts.value = next;
+  };
+  const isMappingSelected = (host: string) => selectedHosts.value.has(host);
+
+  const saveOptimizedTargets = async () => {
+    if (
+      isSavingMappings.value ||
+      isLoadingCandidates.value ||
+      selectedCount.value === 0
+    ) {
+      return;
+    }
+    const selected = new Map(
+      selectedPreviews.value.map((preview) => [preview.host, preview.nextTarget]),
+    );
+    if (selected.size === 0) return;
+    const savedCount = await runSaveMappings(async () => {
+      await saveHostMappings(
+        allMappings.value.map((mapping) => {
+          const nextTarget = selected.get(mapping.host);
+          return nextTarget ? { ...mapping, target: nextTarget } : mapping;
+        }),
+      );
+      toast.success(
+        translate("admin.subdomainProxy.targetOptimizationSaved", {
+          count: selected.size,
+        }),
+      );
+      return selected.size;
+    });
+    if (savedCount !== undefined) {
+      isOpen.value = false;
+      destinationAddress.value = "";
+      selectedHosts.value = new Set();
+    }
+  };
+
+  watch(
+    [
+      isOpen,
+      isLoadingCandidates,
+      destinationAddress,
+      destinationSignature,
+    ],
+    ([open, loading]) => {
+      const destinationIsValid = destinations.value.some(
+        (destination) => destination.address === destinationAddress.value,
+      );
+      if (
+        open &&
+        !loading &&
+        (!initializedForOpen || !destinationIsValid)
+      ) {
+        initializeDialog();
+      }
+    },
+    { flush: "post" },
+  );
+
+  return {
+    allSelected,
+    candidateLoadFailed,
+    closeDialog,
+    destinationAddress,
+    destinations,
+    handleOpenChange,
+    isLoadingCandidates,
+    isMappingSelected,
+    isOpen,
+    isSavingMappings,
+    openDialog,
+    partiallySelected,
+    previews,
+    retryCandidates,
+    saveOptimizedTargets,
+    selectedCount,
+    setAllSelected,
+    setDestinationAddress,
+    setMappingSelected,
+  };
+};
+
+export type SubdomainTargetOptimizationController = ReturnType<
+  typeof useSubdomainTargetOptimization
+>;

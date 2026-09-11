@@ -1,1 +1,20 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgVGFnc0lucHV0SXRlbVByb3BzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHR5cGUgeyBIVE1MQXR0cmlidXRlcyB9IGZyb20gInZ1ZSIKCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgVGFnc0lucHV0SXRlbSwgdXNlRm9yd2FyZFByb3BzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8VGFnc0lucHV0SXRlbVByb3BzICYgeyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdIH0+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQoKY29uc3QgZm9yd2FyZGVkUHJvcHMgPSB1c2VGb3J3YXJkUHJvcHMoZGVsZWdhdGVkUHJvcHMpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxUYWdzSW5wdXRJdGVtIHYtYmluZD0iZm9yd2FyZGVkUHJvcHMiIDpjbGFzcz0iY24oJ2ZsZXggaC01IGl0ZW1zLWNlbnRlciByb3VuZGVkLW1kIGJnLXNlY29uZGFyeSBkYXRhLVtzdGF0ZT1hY3RpdmVdOnJpbmctcmluZyBkYXRhLVtzdGF0ZT1hY3RpdmVdOnJpbmctMiBkYXRhLVtzdGF0ZT1hY3RpdmVdOnJpbmctb2Zmc2V0LTIgcmluZy1vZmZzZXQtYmFja2dyb3VuZCcsIHByb3BzLmNsYXNzKSI+CiAgICA8c2xvdCAvPgogIDwvVGFnc0lucHV0SXRlbT4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { TagsInputItemProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+
+import { reactiveOmit } from "@vueuse/core"
+import { TagsInputItem, useForwardProps } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<TagsInputItemProps & { class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwardedProps = useForwardProps(delegatedProps)
+</script>
+
+<template>
+  <TagsInputItem v-bind="forwardedProps" :class="cn('flex h-5 items-center rounded-md bg-secondary data-[state=active]:ring-ring data-[state=active]:ring-2 data-[state=active]:ring-offset-2 ring-offset-background', props.class)">
+    <slot />
+  </TagsInputItem>
+</template>

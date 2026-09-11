@@ -1,1 +1,58 @@
-dXNlIHN0ZDo6e3Byb2Nlc3M6OkV4aXRTdGF0dXMsIHRpbWU6OkR1cmF0aW9ufTsKCmNvbnN0IFBST1hZX0VOVl9LRVlTOiBbJnN0cjsgOF0gPSBbCiAgICAiaHR0cF9wcm94eSIsCiAgICAiaHR0cHNfcHJveHkiLAogICAgImFsbF9wcm94eSIsCiAgICAiSFRUUF9QUk9YWSIsCiAgICAiSFRUUFNfUFJPWFkiLAogICAgIkFMTF9QUk9YWSIsCiAgICAibm9fcHJveHkiLAogICAgIk5PX1BST1hZIiwKXTsKCnB1YihzdXBlcikgZm4gY29tbWFuZCgKICAgIHRpbWVvdXQ6IER1cmF0aW9uLAogICAgbWF4X3Jlc3BvbnNlX2J5dGVzOiB1c2l6ZSwKICAgIGZvbGxvd19yZWRpcmVjdHM6IGJvb2wsCikgLT4gdG9raW86OnByb2Nlc3M6OkNvbW1hbmQgewogICAgbGV0IG11dCBjb21tYW5kID0gdG9raW86OnByb2Nlc3M6OkNvbW1hbmQ6Om5ldygiY3VybCIpOwogICAgY29tbWFuZAogICAgICAgIC5hcmcoIi1xIikKICAgICAgICAuYXJnKCItLXNpbGVudCIpCiAgICAgICAgLmFyZygiLS1zaG93LWVycm9yIikKICAgICAgICAuYXJnKCItLW1heC10aW1lIikKICAgICAgICAuYXJnKGZvcm1hdCEoIns6LjN9IiwgdGltZW91dC5hc19zZWNzX2Y2NCgpLm1heCgwLjAwMSkpKQogICAgICAgIC5hcmcoIi0tbWF4LWZpbGVzaXplIikKICAgICAgICAuYXJnKG1heF9yZXNwb25zZV9ieXRlcy50b19zdHJpbmcoKSk7CiAgICBpZiBmb2xsb3dfcmVkaXJlY3RzIHsKICAgICAgICBjb21tYW5kLmFyZygiLS1sb2NhdGlvbiIpOwogICAgfQogICAgZm9yIGtleSBpbiBQUk9YWV9FTlZfS0VZUyB7CiAgICAgICAgY29tbWFuZC5lbnZfcmVtb3ZlKGtleSk7CiAgICB9CiAgICBjb21tYW5kCn0KCnB1YihzdXBlcikgZm4gYmluZF9uZXR3b3JrX2ludGVyZmFjZSgKICAgIGNvbW1hbmQ6ICZtdXQgdG9raW86OnByb2Nlc3M6OkNvbW1hbmQsCiAgICBuZXR3b3JrX2ludGVyZmFjZTogJnN0ciwKKSB7CiAgICBpZiAhbmV0d29ya19pbnRlcmZhY2UuaXNfZW1wdHkoKQogICAgICAgICYmICFuZXR3b3JrX2ludGVyZmFjZS5zdGFydHNfd2l0aChzdXBlcjo6RE9DS0VSX0hPU1RfSU5URVJGQUNFX1BSRUZJWCkKICAgIHsKICAgICAgICBjb21tYW5kLmFyZygiLS1pbnRlcmZhY2UiKS5hcmcobmV0d29ya19pbnRlcmZhY2UpOwogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGZhaWx1cmVfZGV0YWlsKHN0YXR1czogRXhpdFN0YXR1cywgc3RkZXJyOiAmW3U4XSkgLT4gU3RyaW5nIHsKICAgIGxldCBkZXRhaWwgPSBTdHJpbmc6OmZyb21fdXRmOF9sb3NzeShzdGRlcnIpLnRyaW0oKS50b19zdHJpbmcoKTsKICAgIGlmIGRldGFpbC5pc19lbXB0eSgpIHsKICAgICAgICBzdGF0dXMKICAgICAgICAgICAgLmNvZGUoKQogICAgICAgICAgICAubWFwKHxjb2RlfCBmb3JtYXQhKCJleGl0IHtjb2RlfSIpKQogICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofHwgInRlcm1pbmF0ZWQiLnRvX3N0cmluZygpKQogICAgfSBlbHNlIHsKICAgICAgICBkZXRhaWwKICAgIH0KfQo=
+use std::{process::ExitStatus, time::Duration};
+
+const PROXY_ENV_KEYS: [&str; 8] = [
+    "http_proxy",
+    "https_proxy",
+    "all_proxy",
+    "HTTP_PROXY",
+    "HTTPS_PROXY",
+    "ALL_PROXY",
+    "no_proxy",
+    "NO_PROXY",
+];
+
+pub(super) fn command(
+    timeout: Duration,
+    max_response_bytes: usize,
+    follow_redirects: bool,
+) -> tokio::process::Command {
+    let mut command = tokio::process::Command::new("curl");
+    command
+        .arg("-q")
+        .arg("--silent")
+        .arg("--show-error")
+        .arg("--max-time")
+        .arg(format!("{:.3}", timeout.as_secs_f64().max(0.001)))
+        .arg("--max-filesize")
+        .arg(max_response_bytes.to_string());
+    if follow_redirects {
+        command.arg("--location");
+    }
+    for key in PROXY_ENV_KEYS {
+        command.env_remove(key);
+    }
+    command
+}
+
+pub(super) fn bind_network_interface(
+    command: &mut tokio::process::Command,
+    network_interface: &str,
+) {
+    if !network_interface.is_empty()
+        && !network_interface.starts_with(super::DOCKER_HOST_INTERFACE_PREFIX)
+    {
+        command.arg("--interface").arg(network_interface);
+    }
+}
+
+pub(super) fn failure_detail(status: ExitStatus, stderr: &[u8]) -> String {
+    let detail = String::from_utf8_lossy(stderr).trim().to_string();
+    if detail.is_empty() {
+        status
+            .code()
+            .map(|code| format!("exit {code}"))
+            .unwrap_or_else(|| "terminated".to_string())
+    } else {
+        detail
+    }
+}

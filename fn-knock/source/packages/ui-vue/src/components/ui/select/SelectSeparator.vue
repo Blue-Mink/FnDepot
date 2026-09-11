@@ -1,1 +1,19 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgU2VsZWN0U2VwYXJhdG9yUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyByZWFjdGl2ZU9taXQgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7IFNlbGVjdFNlcGFyYXRvciB9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPFNlbGVjdFNlcGFyYXRvclByb3BzICYgeyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdIH0+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8U2VsZWN0U2VwYXJhdG9yCiAgICBkYXRhLXNsb3Q9InNlbGVjdC1zZXBhcmF0b3IiCiAgICB2LWJpbmQ9ImRlbGVnYXRlZFByb3BzIgogICAgOmNsYXNzPSJjbignYmctYm9yZGVyIHBvaW50ZXItZXZlbnRzLW5vbmUgLW14LTEgbXktMSBoLXB4JywgcHJvcHMuY2xhc3MpIgogIC8+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { SelectSeparatorProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { SelectSeparator } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<SelectSeparatorProps & { class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+</script>
+
+<template>
+  <SelectSeparator
+    data-slot="select-separator"
+    v-bind="delegatedProps"
+    :class="cn('bg-border pointer-events-none -mx-1 my-1 h-px', props.class)"
+  />
+</template>

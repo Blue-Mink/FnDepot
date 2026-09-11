@@ -1,1 +1,103 @@
-dXNlIHN1cGVyOjoqOwp1c2UgY3JhdGU6OnsKICAgIHJ1bnRpbWVfcHJvZmlsZTo6Y29uZmlndXJlZF9zaGFyZV9kaXJlY3Rvcnlfd2l0aF9sZWdhY3lfZW52X3ByZWNlZGVuY2UgYXMgY29uZmlndXJlZF9zaGFyZV9kaXJlY3RvcnksCiAgICB0aW1lX3V0aWxzOjpzeXN0ZW1fdGltZV9pc28sCn07CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGxpc3RfYmFja3VwX2RpcmVjdG9yeV9maWxlcygpIC0+IGFueWhvdzo6UmVzdWx0PFZhbHVlPiB7CiAgICBsZXQgU29tZShkaXJlY3RvcnkpID0gY29uZmlndXJlZF9zaGFyZV9kaXJlY3RvcnkoKS5tYXAofHBhdGh8IHBhdGguam9pbihCQUNLVVBfRElSRUNUT1JZX05BTUUpKQogICAgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKGpzb24hKHsKICAgICAgICAgICAgInNoYXJlTmFtZSI6ICJmbi1rbm9jayAvIGJhY2t1cCIsCiAgICAgICAgICAgICJhdmFpbGFibGUiOiBmYWxzZSwKICAgICAgICAgICAgImZpbGVzIjogW10sCiAgICAgICAgfSkpOwogICAgfTsKICAgIGZzOjpjcmVhdGVfZGlyX2FsbCgmZGlyZWN0b3J5KS5hd2FpdD87CiAgICBsZXQgbXV0IGZpbGVzID0gVmVjOjpuZXcoKTsKICAgIGNvbGxlY3RfYmFja3VwX2RpcmVjdG9yeV9maWxlcygmZGlyZWN0b3J5LCAmZGlyZWN0b3J5LCAmbXV0IGZpbGVzLCAwKS5hd2FpdD87CiAgICBmaWxlcy5zb3J0X2J5KHxsZWZ0LCByaWdodHwgewogICAgICAgIGxldCBsZWZ0X3RpbWUgPSBsZWZ0LmdldCgibW9kaWZpZWRBdCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIik7CiAgICAgICAgbGV0IHJpZ2h0X3RpbWUgPSByaWdodAogICAgICAgICAgICAuZ2V0KCJtb2RpZmllZEF0IikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgIC51bndyYXBfb3IoIiIpOwogICAgICAgIHJpZ2h0X3RpbWUuY21wKGxlZnRfdGltZSkudGhlbl93aXRoKHx8IHsKICAgICAgICAgICAgbGVmdC5nZXQoInJlbGF0aXZlUGF0aCIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgIC51bndyYXBfb3IoIiIpCiAgICAgICAgICAgICAgICAuY21wKAogICAgICAgICAgICAgICAgICAgIHJpZ2h0CiAgICAgICAgICAgICAgICAgICAgICAgIC5nZXQoInJlbGF0aXZlUGF0aCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgICAgICAudW53cmFwX29yKCIiKSwKICAgICAgICAgICAgICAgICkKICAgICAgICB9KQogICAgfSk7CiAgICBPayhqc29uISh7CiAgICAgICAgInNoYXJlTmFtZSI6ICJmbi1rbm9jayAvIGJhY2t1cCIsCiAgICAgICAgImF2YWlsYWJsZSI6IHRydWUsCiAgICAgICAgImZpbGVzIjogZmlsZXMsCiAgICB9KSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBjb2xsZWN0X2JhY2t1cF9kaXJlY3RvcnlfZmlsZXMoCiAgICBjdXJyZW50OiAmUGF0aCwKICAgIHJvb3Q6ICZQYXRoLAogICAgYnVja2V0OiAmbXV0IFZlYzxWYWx1ZT4sCiAgICBkZXB0aDogdXNpemUsCikgLT4gaW86OlJlc3VsdDwoKT4gewogICAgaWYgYnVja2V0LmxlbigpID49IE1BWF9CQUNLVVBfRElSRUNUT1JZX0ZJTEVTIHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQogICAgbGV0IG11dCBlbnRyaWVzID0gZnM6OnJlYWRfZGlyKGN1cnJlbnQpLmF3YWl0PzsKICAgIHdoaWxlIGxldCBTb21lKGVudHJ5KSA9IGVudHJpZXMubmV4dF9lbnRyeSgpLmF3YWl0PyB7CiAgICAgICAgaWYgYnVja2V0LmxlbigpID49IE1BWF9CQUNLVVBfRElSRUNUT1JZX0ZJTEVTIHsKICAgICAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgICAgICB9CiAgICAgICAgbGV0IGZpbGVfdHlwZSA9IGVudHJ5LmZpbGVfdHlwZSgpLmF3YWl0PzsKICAgICAgICBsZXQgcGF0aCA9IGVudHJ5LnBhdGgoKTsKICAgICAgICBpZiBmaWxlX3R5cGUuaXNfZGlyKCkgewogICAgICAgICAgICBpZiBkZXB0aCA8IE1BWF9CQUNLVVBfRElSRUNUT1JZX1NDQU5fREVQVEggewogICAgICAgICAgICAgICAgQm94OjpwaW4oY29sbGVjdF9iYWNrdXBfZGlyZWN0b3J5X2ZpbGVzKAogICAgICAgICAgICAgICAgICAgICZwYXRoLAogICAgICAgICAgICAgICAgICAgIHJvb3QsCiAgICAgICAgICAgICAgICAgICAgYnVja2V0LAogICAgICAgICAgICAgICAgICAgIGRlcHRoICsgMSwKICAgICAgICAgICAgICAgICkpCiAgICAgICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBsZXQgbmFtZSA9IGVudHJ5LmZpbGVfbmFtZSgpLnRvX3N0cmluZ19sb3NzeSgpLnRvX3N0cmluZygpOwogICAgICAgIGlmICFmaWxlX3R5cGUuaXNfZmlsZSgpIHx8ICFuYW1lLnRvX2FzY2lpX2xvd2VyY2FzZSgpLmVuZHNfd2l0aChLTk9DS19CQUNLVVBfRVhURU5TSU9OKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBsZXQgbWV0YWRhdGEgPSBlbnRyeS5tZXRhZGF0YSgpLmF3YWl0PzsKICAgICAgICBidWNrZXQucHVzaChqc29uISh7CiAgICAgICAgICAgICJuYW1lIjogbmFtZSwKICAgICAgICAgICAgInJlbGF0aXZlUGF0aCI6IHBhdGguc3RyaXBfcHJlZml4KHJvb3QpCiAgICAgICAgICAgICAgICAudW53cmFwX29yKCZwYXRoKQogICAgICAgICAgICAgICAgLnRvX3N0cmluZ19sb3NzeSgpCiAgICAgICAgICAgICAgICAucmVwbGFjZSgnXFwnLCAiLyIpLAogICAgICAgICAgICAiZXh0ZW5zaW9uIjogS05PQ0tfQkFDS1VQX0VYVEVOU0lPTiwKICAgICAgICAgICAgInNpemUiOiBtZXRhZGF0YS5sZW4oKSwKICAgICAgICAgICAgIm1vZGlmaWVkQXQiOiBzeXN0ZW1fdGltZV9pc28obWV0YWRhdGEubW9kaWZpZWQoKS51bndyYXBfb3IoU3lzdGVtVGltZTo6VU5JWF9FUE9DSCkpLAogICAgICAgIH0pKTsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGVuc3VyZV9iYWNrdXBfZGlyZWN0b3J5KCkgLT4gUmVzdWx0PFBhdGhCdWYsIEJhY2t1cEltcG9ydEVycm9yPiB7CiAgICBsZXQgU29tZShkaXJlY3RvcnkpID0gY29uZmlndXJlZF9zaGFyZV9kaXJlY3RvcnkoKS5tYXAofHBhdGh8IHBhdGguam9pbihCQUNLVVBfRElSRUNUT1JZX05BTUUpKQogICAgZWxzZSB7CiAgICAgICAgcmV0dXJuIEVycihCYWNrdXBJbXBvcnRFcnJvcjo6bmV3KAogICAgICAgICAgICBTdGF0dXNDb2RlOjpOT1RfRk9VTkQsCiAgICAgICAgICAgICJCYWNrdXAgc2hhcmUgZGlyZWN0b3J5IGlzIG5vdCBjb25maWd1cmVkIiwKICAgICAgICApKTsKICAgIH07CiAgICBmczo6Y3JlYXRlX2Rpcl9hbGwoJmRpcmVjdG9yeSkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IEJhY2t1cEltcG9ydEVycm9yOjppbnRlcm5hbChlcnJvci50b19zdHJpbmcoKSkpPzsKICAgIE9rKGRpcmVjdG9yeSkKfQo=
+use super::*;
+use crate::{
+    runtime_profile::configured_share_directory_with_legacy_env_precedence as configured_share_directory,
+    time_utils::system_time_iso,
+};
+
+pub(super) async fn list_backup_directory_files() -> anyhow::Result<Value> {
+    let Some(directory) = configured_share_directory().map(|path| path.join(BACKUP_DIRECTORY_NAME))
+    else {
+        return Ok(json!({
+            "shareName": "fn-knock / backup",
+            "available": false,
+            "files": [],
+        }));
+    };
+    fs::create_dir_all(&directory).await?;
+    let mut files = Vec::new();
+    collect_backup_directory_files(&directory, &directory, &mut files, 0).await?;
+    files.sort_by(|left, right| {
+        let left_time = left.get("modifiedAt").and_then(Value::as_str).unwrap_or("");
+        let right_time = right
+            .get("modifiedAt")
+            .and_then(Value::as_str)
+            .unwrap_or("");
+        right_time.cmp(left_time).then_with(|| {
+            left.get("relativePath")
+                .and_then(Value::as_str)
+                .unwrap_or("")
+                .cmp(
+                    right
+                        .get("relativePath")
+                        .and_then(Value::as_str)
+                        .unwrap_or(""),
+                )
+        })
+    });
+    Ok(json!({
+        "shareName": "fn-knock / backup",
+        "available": true,
+        "files": files,
+    }))
+}
+
+pub(super) async fn collect_backup_directory_files(
+    current: &Path,
+    root: &Path,
+    bucket: &mut Vec<Value>,
+    depth: usize,
+) -> io::Result<()> {
+    if bucket.len() >= MAX_BACKUP_DIRECTORY_FILES {
+        return Ok(());
+    }
+    let mut entries = fs::read_dir(current).await?;
+    while let Some(entry) = entries.next_entry().await? {
+        if bucket.len() >= MAX_BACKUP_DIRECTORY_FILES {
+            return Ok(());
+        }
+        let file_type = entry.file_type().await?;
+        let path = entry.path();
+        if file_type.is_dir() {
+            if depth < MAX_BACKUP_DIRECTORY_SCAN_DEPTH {
+                Box::pin(collect_backup_directory_files(
+                    &path,
+                    root,
+                    bucket,
+                    depth + 1,
+                ))
+                .await?;
+            }
+            continue;
+        }
+        let name = entry.file_name().to_string_lossy().to_string();
+        if !file_type.is_file() || !name.to_ascii_lowercase().ends_with(KNOCK_BACKUP_EXTENSION) {
+            continue;
+        }
+        let metadata = entry.metadata().await?;
+        bucket.push(json!({
+            "name": name,
+            "relativePath": path.strip_prefix(root)
+                .unwrap_or(&path)
+                .to_string_lossy()
+                .replace('\\', "/"),
+            "extension": KNOCK_BACKUP_EXTENSION,
+            "size": metadata.len(),
+            "modifiedAt": system_time_iso(metadata.modified().unwrap_or(SystemTime::UNIX_EPOCH)),
+        }));
+    }
+    Ok(())
+}
+
+pub(super) async fn ensure_backup_directory() -> Result<PathBuf, BackupImportError> {
+    let Some(directory) = configured_share_directory().map(|path| path.join(BACKUP_DIRECTORY_NAME))
+    else {
+        return Err(BackupImportError::new(
+            StatusCode::NOT_FOUND,
+            "Backup share directory is not configured",
+        ));
+    };
+    fs::create_dir_all(&directory)
+        .await
+        .map_err(|error| BackupImportError::internal(error.to_string()))?;
+    Ok(directory)
+}

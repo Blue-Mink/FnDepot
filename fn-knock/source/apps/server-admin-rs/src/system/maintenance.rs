@@ -1,1 +1,238 @@
-dXNlIHN0ZDo6ewogICAgZnV0dXJlOjpGdXR1cmUsCiAgICBpbzo6e3NlbGYsIEN1cnNvciwgUmVhZCwgV3JpdGV9LAogICAgcGF0aDo6e0NvbXBvbmVudCwgUGF0aCwgUGF0aEJ1Zn0sCiAgICB0aW1lOjpTeXN0ZW1UaW1lLAp9OwoKdXNlIGF4dW06OnsKICAgIFJvdXRlciwKICAgIGJvZHk6OkJvZHksCiAgICBleHRyYWN0Ojp7RGVmYXVsdEJvZHlMaW1pdCwgSnNvbiwgU3RhdGUsIHJlamVjdGlvbjo6SnNvblJlamVjdGlvbn0sCiAgICBodHRwOjp7U3RhdHVzQ29kZSwgaGVhZGVyfSwKICAgIHJlc3BvbnNlOjp7SW50b1Jlc3BvbnNlLCBSZXNwb25zZX0sCn07CnVzZSBiYXNlNjQ6OntFbmdpbmUgYXMgXywgZW5naW5lOjpnZW5lcmFsX3B1cnBvc2U6OlNUQU5EQVJEfTsKdXNlIGZsYXRlMjo6e0NvbXByZXNzaW9uLCB3cml0ZTo6RGVmbGF0ZUVuY29kZXJ9Owp1c2Ugc2VyZGVfanNvbjo6e1ZhbHVlLCBqc29ufTsKdXNlIHRva2lvOjp7ZnMsIGlvOjpBc3luY1dyaXRlRXh0fTsKdXNlIHV1aWQ6OlV1aWQ7Cgp1c2UgY3JhdGU6OnsKICAgIGFkbWluX3BhbmVsOjpub3JtYWxpemVfbG9jYWxlX2NvbmZpZywKICAgIGFwcF92ZXJzaW9uOjp7QVBQX0JBQ0tVUF9JTVBPUlRfTUlOX1ZFUlNJT04sIEFQUF9CQUNLVVBfU0NIRU1BX1ZFUlNJT04sIEFQUF9MT0NBTF9WRVJTSU9OfSwKICAgIGF1dG9faHR0cHMsIGNsb3VkZmxhcmVkLCBjb21tb25fYXV0aF9sb2NhdGlvbnMsIGZzX3V0aWxzLCBnYXRld2F5X3NldHRpbmdzLAogICAgaTE4bjo6VHJhbnNsYXRvciwKICAgIHBhbmVsX3N5bmMsIHByb3h5X2NvbmZpZywgcmVzcG9uc2UsIHJ1bnRpbWVfY29uZmlnLCBzY2FubmVyLCBzc2hfc2VjdXJpdHksIHNzbCwKICAgIHN0YXRlOjpBcHBTdGF0ZSwKICAgIHN0b3JlOjpub2RlX2xvY2FsZV9jb21wYXJlX29yZGVyaW5nLAogICAgc3lzdGVtX21vbml0b3IsIHRlcm1pbmFsLCB0aW1lX3V0aWxzLCB3YWYsIHdoaXRlbGlzdCwgd29sLAp9OwoKY29uc3QgS05PQ0tfQkFDS1VQX1BSRUZJWDogJnN0ciA9ICJmbl9rbm9jazoiOwpjb25zdCBLTk9DS19CQUNLVVBfRVhURU5TSU9OOiAmc3RyID0gIi5rbm9jayI7CmNvbnN0IEtOT0NLX0JBQ0tVUF9KU09OX0ZJTEVOQU1FOiAmc3RyID0gImZuLWtub2NrLWJhY2t1cC5qc29uIjsKY29uc3QgS05PQ0tfQkFDS1VQX1BBU1NXT1JEOiAmc3RyID0gIjg5MGVjZWQwLTQ1NjEtNDA0NC04ZDZiLWRlZjgzYjVjNjAxNiI7CmNvbnN0IEJBQ0tVUF9ESVJFQ1RPUllfTkFNRTogJnN0ciA9ICJiYWNrdXAiOwpjb25zdCBBVVRPTUFUSUNfQkFDS1VQX0NPTkZJR19LRVk6ICZzdHIgPSAiZm5fa25vY2s6Y29uZmlnOmJhY2t1cDphdXRvbWF0aWMiOwpjb25zdCBBVVRPTUFUSUNfQkFDS1VQX1JVTlRJTUVfS0VZOiAmc3RyID0gImZuX2tub2NrOmNvbmZpZzpiYWNrdXA6YXV0b21hdGljOnJ1bnRpbWUiOwpjb25zdCBBVVRPTUFUSUNfQkFDS1VQX0RJUkVDVE9SWTogWyZzdHI7IDJdID0gWyJiYWNrdXBzIiwgImF1dG9tYXRpYyJdOwpjb25zdCBBVVRPTUFUSUNfQkFDS1VQX0RFRkFVTFRfSU5URVJWQUxfSE9VUlM6IGk2NCA9IDI0Owpjb25zdCBBVVRPTUFUSUNfQkFDS1VQX0RFRkFVTFRfUkVURU5USU9OX0RBWVM6IGk2NCA9IDc7CmNvbnN0IEFVVE9NQVRJQ19CQUNLVVBfTUlOX0lOVEVSVkFMX0hPVVJTOiBpNjQgPSAxOwpjb25zdCBBVVRPTUFUSUNfQkFDS1VQX01BWF9JTlRFUlZBTF9IT1VSUzogaTY0ID0gMjQgKiAzNjU7CmNvbnN0IEFVVE9NQVRJQ19CQUNLVVBfTUlOX1JFVEVOVElPTl9EQVlTOiBpNjQgPSAxOwpjb25zdCBBVVRPTUFUSUNfQkFDS1VQX01BWF9SRVRFTlRJT05fREFZUzogaTY0ID0gMzY1MDsKY29uc3QgQVVUT01BVElDX0JBQ0tVUF9SRUNIRUNLX1NFQ09ORFM6IHU2NCA9IDYwOwpjb25zdCBNQVhfQkFDS1VQX0RJUkVDVE9SWV9TQ0FOX0RFUFRIOiB1c2l6ZSA9IDU7CmNvbnN0IE1BWF9CQUNLVVBfRElSRUNUT1JZX0ZJTEVTOiB1c2l6ZSA9IDUwMDsKY29uc3QgTUFYX0JBQ0tVUF9BUkNISVZFX1NJWkU6IHVzaXplID0gMTI4ICogMTAyNCAqIDEwMjQ7CmNvbnN0IE1BWF9CQUNLVVBfSU1QT1JUX0JPRFlfU0laRTogdXNpemUgPSBNQVhfQkFDS1VQX0FSQ0hJVkVfU0laRSAvIDMgKiA0ICsgMTAyNCAqIDEwMjQ7CmNvbnN0IFNDQU5fQ09VTlQ6IHVzaXplID0gMjAwOwpjb25zdCBNQUlOVEVOQU5DRV9CQUNLVVBfRVJST1JfTUFSS0VSOiAmc3RyID0gIl9fbWFpbnRlbmFuY2VfYmFja3VwX2Vycm9yIjsKCmNvbnN0IEJBQ0tVUF9FWENMVURFRF9LRVlfUFJFRklYRVM6ICZbJnN0cl0gPSAmWwogICAgImZuX2tub2NrOmFjbWU6am9iOiIsCiAgICAiZm5fa25vY2s6YWNtZTpsb2dzOiIsCiAgICAiZm5fa25vY2s6YXV0aF9sb2dfZGF0YToiLAogICAgImZuX2tub2NrOmF1dGhfbG9nczoiLAogICAgImZuX2tub2NrOmF1dGhfbW9iaWxpdHk6IiwKICAgICJmbl9rbm9jazpjbGVhbnVwOiIsCiAgICAvLyBQZXItaG9zdCB0ZW1wb3JhcnkgZ3JhbnRzIGFyZSByZXZvY2FibGUgcnVudGltZSBjcmVkZW50aWFscywgbmV2ZXIKICAgIC8vIGJhY2t1cCBtYXRlcmlhbC4gIEtlZXBpbmcgdGhpcyBwcmVmaXggZXhjbHVkZWQgYWxzbyBwcmV2ZW50cyBhbgogICAgLy8gaW1wb3J0ZWQgYXJjaGl2ZSBmcm9tIHJlc3VycmVjdGluZyBhIGdyYW50IGlzc3VlZCBiZWZvcmUgcmVzdG9yZS4KICAgICJmbl9rbm9jazphdXRoOnN1YmRvbWFpbl9ydWxlX2dyYW50OiIsCiAgICAvLyBUaGUgcGVyLWhvc3QgZXhwaXJ5IGluZGV4IGNvbnRhaW5zIHJ1bnRpbWUgY3JlZGVudGlhbCBtZXRhZGF0YSBhbmQgbWF5CiAgICAvLyBvdGhlcndpc2UgcmVzdG9yZSBvcnBoYW4gbWVtYmVycyB3aXRob3V0IHRoZWlyIGV4Y2x1ZGVkIGdyYW50IHJlY29yZHMuCiAgICAiZm5fa25vY2s6YXV0aDpzdWJkb21haW5fcnVsZV9ncmFudF9hY3RpdmU6IiwKICAgIC8vIEEgc2hvcnQtbGl2ZWQgZWFybGllciBpbXBsZW1lbnRhdGlvbiB3cm90ZSBjb29raWUtY2FwYWJpbGl0eSBpc3N1ZQogICAgLy8gc2xvdHMuIFRoZXkgYXJlIG9ic29sZXRlIHJ1bnRpbWUgdG9tYnN0b25lcyBhbmQgbXVzdCBub3Qgc3Vydml2ZSBiYWNrdXAuCiAgICAiZm5fa25vY2s6YXV0aDpzdWJkb21haW5fcnVsZV9pc3N1ZV9zbG90OiIsCiAgICAvLyBTbGlkaW5nLXdpbmRvdyBpc3N1YW5jZSBjb3VudGVycyBhcmUgcnVudGltZSBzdGF0ZSBhcyB3ZWxsLgogICAgImZuX2tub2NrOmF1dGg6c3ViZG9tYWluX3J1bGVfcmF0ZToiLAogICAgImZuX2tub2NrOmF1dGg6ZXhwaXJlZF9zZXNzaW9uX2NsZWFudXA6IiwKICAgICJmbl9rbm9jazpiYWNrb2ZmOiIsCiAgICAiZm5fa25vY2s6Y2lkcjoiLAogICAgImZuX2tub2NrOmNsb3VkZmxhcmVkOmxvZ3MiLAogICAgImZuX2tub2NrOmNsb3VkZmxhcmVkOm1hbmFnZWQ6c3RhdGU6IiwKICAgICJmbl9rbm9jazpjbG91ZGZsYXJlZDpvcHRpbWl6YXRpb246cnVudGltZSIsCiAgICAiZm5fa25vY2s6Y2xvdWRmbGFyZWQ6cnVudGltZTp2MiIsCiAgICAiZm5fa25vY2s6Y29tbW9uX2F1dGhfbG9jYXRpb25zOnJ1bnRpbWUiLAogICAgImZuX2tub2NrOmNvbmZpZzpiYWNrdXA6IiwKICAgICJmbl9rbm9jazpkZG5zOmVkZ2VvbmU6b3ZlcnNlYXNfYWNjZXNzOiIsCiAgICAiZm5fa25vY2s6ZG9ja2VyX2FkbWluOmxvZ2luX2JhY2tvZmY6IiwKICAgICJmbl9rbm9jazpkb2NrZXJfYWRtaW46c2Vzc2lvbjoiLAogICAgImZuX2tub2NrOmVycm9yczoiLAogICAgImZuX2tub2NrOmV2ZW50czoiLAogICAgImZuX2tub2NrOmZub3Mtc2hhcmU6c2Vzc2lvbjoiLAogICAgImZuX2tub2NrOmZub3Mtc2hhcmU6dmFsaWRhdGlvbjoiLAogICAgImZuX2tub2NrOmdhdGV3YXk6IiwKICAgICJmbl9rbm9jazpnYXRld2F5X2xvZ3M6YW5hbHl0aWNzOiIsCiAgICAiZm5fa25vY2s6aXBfbG9jYXRpb246IiwKICAgICJmbl9rbm9jazpsb2NrOiIsCiAgICAiZm5fa25vY2s6bGRhcDppbnZpdGU6IiwKICAgICJmbl9rbm9jazpsb2dpbl9iYWNrb2ZmOiIsCiAgICAiZm5fa25vY2s6bm9uY2U6IiwKICAgICJmbl9rbm9jazpub3RpZmljYXRpb25zOmRlbGl2ZXJpZXM6IiwKICAgICJmbl9rbm9jazpub3RpZmljYXRpb25zOnJ1bnRpbWU6IiwKICAgICJmbl9rbm9jazpub3RpZmljYXRpb25zOnRyaWdnZXJzOiIsCiAgICAiZm5fa25vY2s6b2lkYzppbnZpdGU6IiwKICAgICJmbl9rbm9jazpvaWRjOmxvZ2luX2Vycm9yOiIsCiAgICAiZm5fa25vY2s6b2lkYzpzdGF0ZToiLAogICAgImZuX2tub2NrOnBhc3NrZXk6YmluZDoiLAogICAgImZuX2tub2NrOnBhc3NrZXk6Y2hhbGxlbmdlOiIsCiAgICAiZm5fa25vY2s6cGFzc2tleTpzdGF0ZToiLAogICAgImZuX2tub2NrOnBhbmVsX3N5bmM6cnVudGltZToiLAogICAgImZuX2tub2NrOnJlY2VudF9hdXRoX2lwczoiLAogICAgImZuX2tub2NrOnJldmVyc2UtcHJveHk6IiwKICAgICJmbl9rbm9jazpydW50aW1lOiIsCiAgICAiZm5fa25vY2s6c2Nhbm5lcjpibGFja2xpc3Q6IiwKICAgICJmbl9rbm9jazpzY2FubmVyOnN1c3BpY2lvdXM6IiwKICAgICJmbl9rbm9jazpzZXNzaW9uOiIsCiAgICAiZm5fa25vY2s6c21hcnQtY29ubmVjdDpydW50aW1lIiwKICAgICJmbl9rbm9jazpzc2hfc2VjdXJpdHk6IiwKICAgIC8vIFJlbW92ZWQgbG9jYWwtdGVybWluYWwgcnVudGltZSBzdGF0ZSAodG11eC9GSUZPL2xvZyBhdHRhY2htZW50cykgbXVzdAogICAgLy8gbmV2ZXIgYmUgZXhwb3J0ZWQgb3IgcmVzdXJyZWN0ZWQgZnJvbSBhbiBvbGRlciBiYWNrdXAuIFRoZSBsb2NhbCBQVFkKICAgIC8vIGZlYXR1cmUgc3dpdGNoIGlzIGhvc3Qtc3BlY2lmaWMgYW5kIGFsc28gZGVmYXVsdHMgb2ZmIGFmdGVyIGEgcmVzdG9yZS4KICAgIC8vIFNTSCB0YXJnZXQgbWV0YWRhdGEgcmVtYWlucyBpbmNsdWRlZC4KICAgICJmbl9rbm9jazp0ZXJtaW5hbDpsb2NhbC1zZXR0aW5ncyIsCiAgICAiZm5fa25vY2s6dGVybWluYWw6YWNjZXNzLWdyYW50OiIsCiAgICAiZm5fa25vY2s6dGVybWluYWw6c2Vzc2lvbjoiLAogICAgImZuX2tub2NrOnRlcm1pbmFsOmF0dGFjaG1lbnQ6IiwKICAgICJmbl9rbm9jazp0cmFmZmljOiIsCiAgICBjcmF0ZTo6dHVubmVsczo6VFVOTkVMX1JVTlRJTUVfS0VZLAogICAgImZuX2tub2NrOnVpOiIsCiAgICAiZm5fa25vY2s6dXBkYXRlOiIsCiAgICAvLyBQZXItdGFyZ2V0IHdha2UgY29vbGRvd25zIGFyZSBydW50aW1lLW9ubHkgYW50aS1hYnVzZSBzdGF0ZS4KICAgICJmbl9rbm9jazp3b2w6cnVudGltZToiLAogICAgImZuX2tub2NrOndhZjpsb2c6IiwKICAgICJmbl9rbm9jazp3YWY6bG9nczoiLAogICAgImZuX2tub2NrOndhZjpzdGF0czoiLAogICAgLy8gRGF0YWJhc2VzIHVwZ3JhZGVkIGZyb20gcmVsZWFzZXMgd2l0aCB0aGUgcmVtb3ZlZCBXZWxjb21lIGd1aWRlIGNhbgogICAgLy8gc3RpbGwgY29udGFpbiB0aGlzIG9ic29sZXRlIG1hcmtlci4gS2VlcCBpdCBxdWFyYW50aW5lZCBmcm9tIGV4cG9ydHMgc28KICAgIC8vIGJhY2t1cHMgY2Fubm90IHJlaW50cm9kdWNlIHRoZSBkZWxldGVkIGZlYXR1cmUgc3RhdGUuCiAgICAiZm5fa25vY2s6d2VsY29tZS1ndWlkZToiLApdOwoKcHViIGZuIG1haW50ZW5hbmNlX3JvdXRlcygpIC0+IFJvdXRlcjxBcHBTdGF0ZT4gewogICAgbGV0IGJhY2t1cF9yb3V0ZXM6IFJvdXRlcjxBcHBTdGF0ZT4gPSByb3V0ZXM6OmJhY2t1cF9yb3V0ZXMoKS5pbnRvKCk7CiAgICBsZXQgbWFpbnRlbmFuY2VfZGF0YV9yb3V0ZXM6IFJvdXRlcjxBcHBTdGF0ZT4gPSByb3V0ZXM6Om1haW50ZW5hbmNlX2RhdGFfcm91dGVzKCkuaW50bygpOwogICAgUm91dGVyOjpuZXcoKQogICAgICAgIC5tZXJnZShiYWNrdXBfcm91dGVzKQogICAgICAgIC5tZXJnZShtYWludGVuYW5jZV9kYXRhX3JvdXRlcykKfQoKcHViKGNyYXRlKSBmbiBiYWNrdXBfb3BlbmFwaV9yb3V0ZXMoKSAtPiB1dG9pcGFfYXh1bTo6cm91dGVyOjpPcGVuQXBpUm91dGVyPEFwcFN0YXRlPiB7CiAgICByb3V0ZXM6OmJhY2t1cF9yb3V0ZXMoKQp9CgpwdWIoY3JhdGUpIGZuIG1haW50ZW5hbmNlX2RhdGFfb3BlbmFwaV9yb3V0ZXMoKSAtPiB1dG9pcGFfYXh1bTo6cm91dGVyOjpPcGVuQXBpUm91dGVyPEFwcFN0YXRlPiB7CiAgICByb3V0ZXM6Om1haW50ZW5hbmNlX2RhdGFfcm91dGVzKCkKfQoKcHViIGZuIHN0YXJ0X2F1dG9tYXRpY19iYWNrdXBfdGFza3Moc3RhdGU6IEFwcFN0YXRlKSB7CiAgICBiYWNrdXBfZW1haWw6OnN0YXJ0KHN0YXRlLmNsb25lKCkpOwogICAgc3Bhd25fYXV0b21hdGljX2JhY2t1cF90YXNrKHN0YXRlKTsKfQoKI1tkZXJpdmUoc2VyZGU6OkRlc2VyaWFsaXplLCB1dG9pcGE6OlRvU2NoZW1hKV0KcHViKGNyYXRlKSBzdHJ1Y3QgSW1wb3J0QmFja3VwQm9keSB7CiAgICBmaWxlbmFtZTogT3B0aW9uPFN0cmluZz4sCiAgICBhcmNoaXZlX2Jhc2U2NDogU3RyaW5nLAp9CgojW2Rlcml2ZShzZXJkZTo6RGVzZXJpYWxpemUsIHV0b2lwYTo6VG9TY2hlbWEpXQpwdWIoY3JhdGUpIHN0cnVjdCBJbXBvcnRCYWNrdXBGcm9tRGlyZWN0b3J5Qm9keSB7CiAgICBwYXRoOiBTdHJpbmcsCn0KCiNbZGVyaXZlKHNlcmRlOjpEZXNlcmlhbGl6ZSwgdXRvaXBhOjpUb1NjaGVtYSldCnB1YihjcmF0ZSkgc3RydWN0IFVwZGF0ZUF1dG9tYXRpY0JhY2t1cEJvZHkgewogICAgZW1haWw6IE9wdGlvbjxiYWNrdXBfZW1haWw6OkJhY2t1cEVtYWlsVXBkYXRlPiwKICAgIGVuYWJsZWQ6IGJvb2wsCiAgICBpbnRlcnZhbF9ob3VyczogaTY0LAogICAgcmV0ZW50aW9uX2RheXM6IGk2NCwKfQoKI1tkZXJpdmUoc2VyZGU6OkRlc2VyaWFsaXplKV0Kc3RydWN0IENsZWFyQWxsRGF0YUJvZHkgewogICAgY29uZmlybWF0aW9uOiBTdHJpbmcsCn0KCnN0cnVjdCBCYWNrdXBBcmNoaXZlIHsKICAgIGJ1ZmZlcjogQmFja3VwQXJjaGl2ZUJ1ZmZlciwKICAgIGV4cG9ydGVkX2F0OiBTdHJpbmcsCiAgICBmaWxlbmFtZTogU3RyaW5nLAp9CgojW2Rlcml2ZShEZWJ1ZyldCnN0cnVjdCBCYWNrdXBJbXBvcnRFcnJvciB7CiAgICBzdGF0dXM6IFN0YXR1c0NvZGUsCiAgICBtZXNzYWdlOiBTdHJpbmcsCn0KCmltcGwgQmFja3VwSW1wb3J0RXJyb3IgewogICAgZm4gbmV3KHN0YXR1czogU3RhdHVzQ29kZSwgbWVzc2FnZTogaW1wbCBJbnRvPFN0cmluZz4pIC0+IFNlbGYgewogICAgICAgIFNlbGYgewogICAgICAgICAgICBzdGF0dXMsCiAgICAgICAgICAgIG1lc3NhZ2U6IG1lc3NhZ2UuaW50bygpLAogICAgICAgIH0KICAgIH0KCiAgICBmbiBiYWRfcmVxdWVzdChtZXNzYWdlOiBpbXBsIEludG88U3RyaW5nPikgLT4gU2VsZiB7CiAgICAgICAgU2VsZjo6bmV3KFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULCBtZXNzYWdlKQogICAgfQoKICAgIGZuIGludGVybmFsKG1lc3NhZ2U6IGltcGwgSW50bzxTdHJpbmc+KSAtPiBTZWxmIHsKICAgICAgICBTZWxmOjpuZXcoU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLCBtZXNzYWdlKQogICAgfQp9Cgptb2QgYXV0b21hdGljOwptb2QgYmFja3VwX2VtYWlsOwpwdWIoY3JhdGUpIHVzZSBiYWNrdXBfZW1haWw6OkJhY2t1cEVtYWlsQ29uZmlnOwptb2QgY3JlZGVudGlhbHM7Cm1vZCBkaXJlY3Rvcnk7Cm1vZCBleHBvcnQ7Cm1vZCBpMThuOwptb2QgaW1wb3J0Owptb2QgcGF0aHM7Cm1vZCByb3V0ZXM7Cm1vZCBzeW5jOwptb2QgemlwOwoKI1tjZmcodGVzdCldCnVzZSByb3V0ZXM6OmNsZWFyX2FsbF9kYXRhX3dpdGhfZ2F0ZXdheV9yZXNldDsKCnVzZSBhdXRvbWF0aWM6Oio7CnVzZSBjcmVkZW50aWFsczo6KjsKdXNlIGRpcmVjdG9yeTo6KjsKdXNlIGV4cG9ydDo6KjsKdXNlIGkxOG46Oio7CnVzZSBpbXBvcnQ6Oio7CnVzZSBwYXRoczo6KjsKdXNlIHN5bmM6Oio7CnVzZSB6aXA6Oio7CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzOwo=
+use std::{
+    future::Future,
+    io::{self, Cursor, Read, Write},
+    path::{Component, Path, PathBuf},
+    time::SystemTime,
+};
+
+use axum::{
+    Router,
+    body::Body,
+    extract::{DefaultBodyLimit, Json, State, rejection::JsonRejection},
+    http::{StatusCode, header},
+    response::{IntoResponse, Response},
+};
+use base64::{Engine as _, engine::general_purpose::STANDARD};
+use flate2::{Compression, write::DeflateEncoder};
+use serde_json::{Value, json};
+use tokio::{fs, io::AsyncWriteExt};
+use uuid::Uuid;
+
+use crate::{
+    admin_panel::normalize_locale_config,
+    app_version::{APP_BACKUP_IMPORT_MIN_VERSION, APP_BACKUP_SCHEMA_VERSION, APP_LOCAL_VERSION},
+    auto_https, cloudflared, common_auth_locations, fs_utils, gateway_settings,
+    i18n::Translator,
+    panel_sync, proxy_config, response, runtime_config, scanner, ssh_security, ssl,
+    state::AppState,
+    store::node_locale_compare_ordering,
+    system_monitor, terminal, time_utils, waf, whitelist, wol,
+};
+
+const KNOCK_BACKUP_PREFIX: &str = "fn_knock:";
+const KNOCK_BACKUP_EXTENSION: &str = ".knock";
+const KNOCK_BACKUP_JSON_FILENAME: &str = "fn-knock-backup.json";
+const KNOCK_BACKUP_PASSWORD: &str = "890eced0-4561-4044-8d6b-def83b5c6016";
+const BACKUP_DIRECTORY_NAME: &str = "backup";
+const AUTOMATIC_BACKUP_CONFIG_KEY: &str = "fn_knock:config:backup:automatic";
+const AUTOMATIC_BACKUP_RUNTIME_KEY: &str = "fn_knock:config:backup:automatic:runtime";
+const AUTOMATIC_BACKUP_DIRECTORY: [&str; 2] = ["backups", "automatic"];
+const AUTOMATIC_BACKUP_DEFAULT_INTERVAL_HOURS: i64 = 24;
+const AUTOMATIC_BACKUP_DEFAULT_RETENTION_DAYS: i64 = 7;
+const AUTOMATIC_BACKUP_MIN_INTERVAL_HOURS: i64 = 1;
+const AUTOMATIC_BACKUP_MAX_INTERVAL_HOURS: i64 = 24 * 365;
+const AUTOMATIC_BACKUP_MIN_RETENTION_DAYS: i64 = 1;
+const AUTOMATIC_BACKUP_MAX_RETENTION_DAYS: i64 = 3650;
+const AUTOMATIC_BACKUP_RECHECK_SECONDS: u64 = 60;
+const MAX_BACKUP_DIRECTORY_SCAN_DEPTH: usize = 5;
+const MAX_BACKUP_DIRECTORY_FILES: usize = 500;
+const MAX_BACKUP_ARCHIVE_SIZE: usize = 128 * 1024 * 1024;
+const MAX_BACKUP_IMPORT_BODY_SIZE: usize = MAX_BACKUP_ARCHIVE_SIZE / 3 * 4 + 1024 * 1024;
+const SCAN_COUNT: usize = 200;
+const MAINTENANCE_BACKUP_ERROR_MARKER: &str = "__maintenance_backup_error";
+
+const BACKUP_EXCLUDED_KEY_PREFIXES: &[&str] = &[
+    "fn_knock:acme:job:",
+    "fn_knock:acme:logs:",
+    "fn_knock:auth_log_data:",
+    "fn_knock:auth_logs:",
+    "fn_knock:auth_mobility:",
+    "fn_knock:cleanup:",
+    // Per-host temporary grants are revocable runtime credentials, never
+    // backup material.  Keeping this prefix excluded also prevents an
+    // imported archive from resurrecting a grant issued before restore.
+    "fn_knock:auth:subdomain_rule_grant:",
+    // The per-host expiry index contains runtime credential metadata and may
+    // otherwise restore orphan members without their excluded grant records.
+    "fn_knock:auth:subdomain_rule_grant_active:",
+    // A short-lived earlier implementation wrote cookie-capability issue
+    // slots. They are obsolete runtime tombstones and must not survive backup.
+    "fn_knock:auth:subdomain_rule_issue_slot:",
+    // Sliding-window issuance counters are runtime state as well.
+    "fn_knock:auth:subdomain_rule_rate:",
+    "fn_knock:auth:expired_session_cleanup:",
+    "fn_knock:backoff:",
+    "fn_knock:cidr:",
+    "fn_knock:cloudflared:logs",
+    "fn_knock:cloudflared:managed:state:",
+    "fn_knock:cloudflared:optimization:runtime",
+    "fn_knock:cloudflared:runtime:v2",
+    "fn_knock:common_auth_locations:runtime",
+    "fn_knock:config:backup:",
+    "fn_knock:ddns:edgeone:overseas_access:",
+    "fn_knock:docker_admin:login_backoff:",
+    "fn_knock:docker_admin:session:",
+    "fn_knock:errors:",
+    "fn_knock:events:",
+    "fn_knock:fnos-share:session:",
+    "fn_knock:fnos-share:validation:",
+    "fn_knock:gateway:",
+    "fn_knock:gateway_logs:analytics:",
+    "fn_knock:ip_location:",
+    "fn_knock:lock:",
+    "fn_knock:ldap:invite:",
+    "fn_knock:login_backoff:",
+    "fn_knock:nonce:",
+    "fn_knock:notifications:deliveries:",
+    "fn_knock:notifications:runtime:",
+    "fn_knock:notifications:triggers:",
+    "fn_knock:oidc:invite:",
+    "fn_knock:oidc:login_error:",
+    "fn_knock:oidc:state:",
+    "fn_knock:passkey:bind:",
+    "fn_knock:passkey:challenge:",
+    "fn_knock:passkey:state:",
+    "fn_knock:panel_sync:runtime:",
+    "fn_knock:recent_auth_ips:",
+    "fn_knock:reverse-proxy:",
+    "fn_knock:runtime:",
+    "fn_knock:scanner:blacklist:",
+    "fn_knock:scanner:suspicious:",
+    "fn_knock:session:",
+    "fn_knock:smart-connect:runtime",
+    "fn_knock:ssh_security:",
+    // Removed local-terminal runtime state (tmux/FIFO/log attachments) must
+    // never be exported or resurrected from an older backup. The local PTY
+    // feature switch is host-specific and also defaults off after a restore.
+    // SSH target metadata remains included.
+    "fn_knock:terminal:local-settings",
+    "fn_knock:terminal:access-grant:",
+    "fn_knock:terminal:session:",
+    "fn_knock:terminal:attachment:",
+    "fn_knock:traffic:",
+    crate::tunnels::TUNNEL_RUNTIME_KEY,
+    "fn_knock:ui:",
+    "fn_knock:update:",
+    // Per-target wake cooldowns are runtime-only anti-abuse state.
+    "fn_knock:wol:runtime:",
+    "fn_knock:waf:log:",
+    "fn_knock:waf:logs:",
+    "fn_knock:waf:stats:",
+    // Databases upgraded from releases with the removed Welcome guide can
+    // still contain this obsolete marker. Keep it quarantined from exports so
+    // backups cannot reintroduce the deleted feature state.
+    "fn_knock:welcome-guide:",
+];
+
+pub fn maintenance_routes() -> Router<AppState> {
+    let backup_routes: Router<AppState> = routes::backup_routes().into();
+    let maintenance_data_routes: Router<AppState> = routes::maintenance_data_routes().into();
+    Router::new()
+        .merge(backup_routes)
+        .merge(maintenance_data_routes)
+}
+
+pub(crate) fn backup_openapi_routes() -> utoipa_axum::router::OpenApiRouter<AppState> {
+    routes::backup_routes()
+}
+
+pub(crate) fn maintenance_data_openapi_routes() -> utoipa_axum::router::OpenApiRouter<AppState> {
+    routes::maintenance_data_routes()
+}
+
+pub fn start_automatic_backup_tasks(state: AppState) {
+    backup_email::start(state.clone());
+    spawn_automatic_backup_task(state);
+}
+
+#[derive(serde::Deserialize, utoipa::ToSchema)]
+pub(crate) struct ImportBackupBody {
+    filename: Option<String>,
+    archive_base64: String,
+}
+
+#[derive(serde::Deserialize, utoipa::ToSchema)]
+pub(crate) struct ImportBackupFromDirectoryBody {
+    path: String,
+}
+
+#[derive(serde::Deserialize, utoipa::ToSchema)]
+pub(crate) struct UpdateAutomaticBackupBody {
+    email: Option<backup_email::BackupEmailUpdate>,
+    enabled: bool,
+    interval_hours: i64,
+    retention_days: i64,
+}
+
+#[derive(serde::Deserialize)]
+struct ClearAllDataBody {
+    confirmation: String,
+}
+
+struct BackupArchive {
+    buffer: BackupArchiveBuffer,
+    exported_at: String,
+    filename: String,
+}
+
+#[derive(Debug)]
+struct BackupImportError {
+    status: StatusCode,
+    message: String,
+}
+
+impl BackupImportError {
+    fn new(status: StatusCode, message: impl Into<String>) -> Self {
+        Self {
+            status,
+            message: message.into(),
+        }
+    }
+
+    fn bad_request(message: impl Into<String>) -> Self {
+        Self::new(StatusCode::BAD_REQUEST, message)
+    }
+
+    fn internal(message: impl Into<String>) -> Self {
+        Self::new(StatusCode::INTERNAL_SERVER_ERROR, message)
+    }
+}
+
+mod automatic;
+mod backup_email;
+pub(crate) use backup_email::BackupEmailConfig;
+mod credentials;
+mod directory;
+mod export;
+mod i18n;
+mod import;
+mod paths;
+mod routes;
+mod sync;
+mod zip;
+
+#[cfg(test)]
+use routes::clear_all_data_with_gateway_reset;
+
+use automatic::*;
+use credentials::*;
+use directory::*;
+use export::*;
+use i18n::*;
+use import::*;
+use paths::*;
+use sync::*;
+use zip::*;
+
+#[cfg(test)]
+mod tests;

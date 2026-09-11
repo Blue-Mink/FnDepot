@@ -1,1 +1,323 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGh1YXdlaWNsb3VkX2NhdGFsb2dfZW50cnkoKSAtPiBWYWx1ZSB7CiAgICBwcm92aWRlcigKICAgICAgICAiaHVhd2VpY2xvdWQiLAogICAgICAgICLljY7kuLrkupEgRE5TIiwKICAgICAgICB2ZWMhWwogICAgICAgICAgICBmaWVsZCgiYWNjZXNzX2tleV9pZCIsICJBY2Nlc3MgS2V5IiwgInRleHQiLCAiQWNjZXNzIEtleSIsIHRydWUpLAogICAgICAgICAgICBmaWVsZCgKICAgICAgICAgICAgICAgICJzZWNyZXRfYWNjZXNzX2tleSIsCiAgICAgICAgICAgICAgICAiU2VjcmV0IEtleSIsCiAgICAgICAgICAgICAgICAicGFzc3dvcmQiLAogICAgICAgICAgICAgICAgIlNlY3JldCBLZXkiLAogICAgICAgICAgICAgICAgdHJ1ZSwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgZmllbGQoInJvb3RfZG9tYWluIiwgIlJvb3QgRG9tYWluIiwgInRleHQiLCAiZXhhbXBsZS5jb20iLCB0cnVlKSwKICAgICAgICAgICAgZmllbGQoImRvbWFpbiIsICJEb21haW4iLCAidGV4dCIsICJob21lLmV4YW1wbGUuY29tIiwgdHJ1ZSksCiAgICAgICAgICAgIGZpZWxkKCJ0dGwiLCAiVFRMIiwgInRleHQiLCAiMzAwIiwgZmFsc2UpLAogICAgICAgIF0sCiAgICApCn0KCnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBhc3luYyBmbiB1cGRhdGVfaHVhd2VpY2xvdWQoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIGNvbmZpZzogJkhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgaHR0cF9vcHRpb25zOiAmREROU0h0dHBDbGllbnRPcHRpb25zLAogICAgaXB2NDogT3B0aW9uPCZzdHI+LAogICAgaXB2NjogT3B0aW9uPCZzdHI+LAopIC0+IGFueWhvdzo6UmVzdWx0PERETlNQcm92aWRlclVwZGF0ZVJlc3VsdD4gewogICAgbGV0IGFjY2Vzc19rZXlfaWQgPSBjb25maWdfdmFsdWUoY29uZmlnLCAiYWNjZXNzX2tleV9pZCIpOwogICAgbGV0IHNlY3JldF9hY2Nlc3Nfa2V5ID0gY29uZmlnX3ZhbHVlKGNvbmZpZywgInNlY3JldF9hY2Nlc3Nfa2V5Iik7CiAgICBsZXQgcm9vdF9kb21haW4gPSBjb25maWdfdmFsdWUoY29uZmlnLCAicm9vdF9kb21haW4iKTsKICAgIGxldCBkb21haW4gPSBjb25maWdfdmFsdWUoY29uZmlnLCAiZG9tYWluIik7CiAgICBpZiBhY2Nlc3Nfa2V5X2lkLmlzX2VtcHR5KCkKICAgICAgICB8fCBzZWNyZXRfYWNjZXNzX2tleS5pc19lbXB0eSgpCiAgICAgICAgfHwgcm9vdF9kb21haW4uaXNfZW1wdHkoKQogICAgICAgIHx8IGRvbWFpbi5pc19lbXB0eSgpCiAgICB7CiAgICAgICAgcmV0dXJuIE9rKHByb3ZpZGVyX2ZhaWx1cmUoZGRuc190ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAicHJvdmlkZXJzLmh1YXdlaS5jb25maWdJbmNvbXBsZXRlIiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpKTsKICAgIH0KICAgIGxldCB0dGwgPSBwb3NpdGl2ZV9pNjQoY29uZmlnLmdldCgidHRsIiksIDMwMCk7CiAgICBsZXQgcGFyc2VkID0gc3BsaXRfZG9tYWluKHRyYW5zbGF0b3IsICZkb21haW4sICZyb290X2RvbWFpbik/OwogICAgbGV0IG5vcm1hbGl6ZWRfcm9vdCA9IHBhcnNlZC5yb290X2RvbWFpbi50cmltX2VuZF9tYXRjaGVzKCcuJykudG9fc3RyaW5nKCk7CiAgICBsZXQgZnFkbl93aXRoX2RvdCA9IGZvcm1hdCEoInt9LiIsIHBhcnNlZC5mcWRuLnRyaW1fZW5kX21hdGNoZXMoJy4nKSk7CiAgICBsZXQgZXhwZWN0ZWRfem9uZV9uYW1lID0gZm9ybWF0ISgie25vcm1hbGl6ZWRfcm9vdH0uIik7CiAgICBsZXQgY2xpZW50ID0gZGRuc19odHRwX2NsaWVudCh0cmFuc2xhdG9yLCBodHRwX29wdGlvbnMpPzsKICAgIGxldCB6b25lX3Jlc3BvbnNlID0gaHVhd2VpX3JlcXVlc3QoCiAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAmY2xpZW50LAogICAgICAgICZhY2Nlc3Nfa2V5X2lkLAogICAgICAgICZzZWNyZXRfYWNjZXNzX2tleSwKICAgICAgICAmZm9ybWF0ISgiL3YyL3pvbmVzP25hbWU9e30iLCB1cmxfZW5jb2RlX2NvbXBvbmVudCgmbm9ybWFsaXplZF9yb290KSksCiAgICAgICAgIkdFVCIsCiAgICAgICAgTm9uZSwKICAgICkKICAgIC5hd2FpdD87CiAgICBsZXQgem9uZV9pZCA9IHpvbmVfcmVzcG9uc2UKICAgICAgICAuZ2V0KCJ6b25lcyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAuYW5kX3RoZW4ofHpvbmVzfCB7CiAgICAgICAgICAgIHpvbmVzLml0ZXIoKS5maW5kX21hcCh8em9uZXwgewogICAgICAgICAgICAgICAgKHpvbmUuZ2V0KCJuYW1lIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZShleHBlY3RlZF96b25lX25hbWUuYXNfc3RyKCkpKQogICAgICAgICAgICAgICAgICAgIC50aGVuKHx8IHpvbmUuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLm1hcChzdHI6OnRvX3N0cmluZykpCiAgICAgICAgICAgICAgICAgICAgLmZsYXR0ZW4oKQogICAgICAgICAgICB9KQogICAgICAgIH0pOwogICAgbGV0IFNvbWUoem9uZV9pZCkgPSB6b25lX2lkIGVsc2UgewogICAgICAgIHJldHVybiBPayhwcm92aWRlcl9mYWlsdXJlKAogICAgICAgICAgICBkZG5zX3RleHQoCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgInByb3ZpZGVycy5odWF3ZWkuem9uZU5vdEZvdW5kIiwKICAgICAgICAgICAgICAgICZbKCJ6b25lIiwgZXhwZWN0ZWRfem9uZV9uYW1lLmNsb25lKCkpXSwKICAgICAgICAgICAgKQogICAgICAgICAgICAudG9fc3RyaW5nKCksCiAgICAgICAgKSk7CiAgICB9OwoKICAgIGxldCBwcm92aWRlcl9sYWJlbF90ZXh0ID0gcHJvdmlkZXJfbGFiZWwoU29tZSgiaHVhd2VpY2xvdWQiKSwgdHJhbnNsYXRvcik7CiAgICB1cGRhdGVfZHVhbF9zdGFjaygKICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICZwcm92aWRlcl9sYWJlbF90ZXh0LAogICAgICAgIGlwdjQsCiAgICAgICAgaXB2NiwKICAgICAgICB8cmVjb3JkX3R5cGUsIGlwfCB7CiAgICAgICAgICAgIGxldCBjbGllbnQgPSBjbGllbnQuY2xvbmUoKTsKICAgICAgICAgICAgbGV0IGFjY2Vzc19rZXlfaWQgPSBhY2Nlc3Nfa2V5X2lkLmNsb25lKCk7CiAgICAgICAgICAgIGxldCBzZWNyZXRfYWNjZXNzX2tleSA9IHNlY3JldF9hY2Nlc3Nfa2V5LmNsb25lKCk7CiAgICAgICAgICAgIGxldCB6b25lX2lkID0gem9uZV9pZC5jbG9uZSgpOwogICAgICAgICAgICBsZXQgZnFkbl93aXRoX2RvdCA9IGZxZG5fd2l0aF9kb3QuY2xvbmUoKTsKICAgICAgICAgICAgYXN5bmMgbW92ZSB7CiAgICAgICAgICAgICAgICBsZXQgcmVjb3Jkc2V0X3BhdGggPSBmb3JtYXQhKAogICAgICAgICAgICAgICAgICAgICIvdjIvem9uZXMve30vcmVjb3Jkc2V0cz9zZWFyY2hfbW9kZT1lcXVhbCZ0eXBlPXt9Jm5hbWU9e30mbGltaXQ9NTAwIiwKICAgICAgICAgICAgICAgICAgICB1cmxfZW5jb2RlX2NvbXBvbmVudCgmem9uZV9pZCksCiAgICAgICAgICAgICAgICAgICAgcmVjb3JkX3R5cGUsCiAgICAgICAgICAgICAgICAgICAgdXJsX2VuY29kZV9jb21wb25lbnQoJmZxZG5fd2l0aF9kb3QpCiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgbGV0IHJlY29yZHMgPSBodWF3ZWlfcmVxdWVzdCgKICAgICAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgICAgICZjbGllbnQsCiAgICAgICAgICAgICAgICAgICAgJmFjY2Vzc19rZXlfaWQsCiAgICAgICAgICAgICAgICAgICAgJnNlY3JldF9hY2Nlc3Nfa2V5LAogICAgICAgICAgICAgICAgICAgICZyZWNvcmRzZXRfcGF0aCwKICAgICAgICAgICAgICAgICAgICAiR0VUIiwKICAgICAgICAgICAgICAgICAgICBOb25lLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICAgICAgICAgIGxldCBleGlzdGluZyA9IHJlY29yZHMKICAgICAgICAgICAgICAgICAgICAuZ2V0KCJyZWNvcmRzZXRzIikKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgICAgICAgICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgICAgICAgICAgICAgIC5mbGF0dGVuKCkKICAgICAgICAgICAgICAgICAgICAuZmluZCh8cmVjb3JkfCB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJlY29yZC5nZXQoInpvbmVfaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKHpvbmVfaWQuYXNfc3RyKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAmJiByZWNvcmQuZ2V0KCJuYW1lIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PSBTb21lKGZxZG5fd2l0aF9kb3QuYXNfc3RyKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAmJiByZWNvcmQuZ2V0KCJ0eXBlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZShyZWNvcmRfdHlwZSkKICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICAgIC5jbG9uZWQoKTsKICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKGV4aXN0aW5nKSA9IGV4aXN0aW5nIHsKICAgICAgICAgICAgICAgICAgICBsZXQgc2FtZV9yZWNvcmRzID0gZXhpc3RpbmcKICAgICAgICAgICAgICAgICAgICAgICAgLmdldCgicmVjb3JkcyIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5pc19zb21lX2FuZCh8cmVjb3Jkc3wgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVjb3Jkcy5sZW4oKSA9PSAxCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJiYgcmVjb3Jkcy5maXJzdCgpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoaXAuYXNfc3RyKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgICAgIGxldCBzYW1lX3R0bCA9IGV4aXN0aW5nLmdldCgidHRsIikuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkgPT0gU29tZSh0dGwpOwogICAgICAgICAgICAgICAgICAgIGlmIHNhbWVfcmVjb3JkcyAmJiBzYW1lX3R0bCB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBPaygoKSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGxldCByZWNvcmRfaWQgPQogICAgICAgICAgICAgICAgICAgICAgICBleGlzdGluZy5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikub2tfb3JfZWxzZSh8fCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbnlob3c6OmFueWhvdyEoZGRuc190ZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInByb3ZpZGVycy5odWF3ZWkucmVjb3Jkc2V0SWRNaXNzaW5nIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAmW10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApKQogICAgICAgICAgICAgICAgICAgICAgICB9KT87CiAgICAgICAgICAgICAgICAgICAgaHVhd2VpX3JlcXVlc3QoCiAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAgICAgICAgICZjbGllbnQsCiAgICAgICAgICAgICAgICAgICAgICAgICZhY2Nlc3Nfa2V5X2lkLAogICAgICAgICAgICAgICAgICAgICAgICAmc2VjcmV0X2FjY2Vzc19rZXksCiAgICAgICAgICAgICAgICAgICAgICAgICZmb3JtYXQhKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIi92Mi4xL3pvbmVzL3t9L3JlY29yZHNldHMve30iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdXJsX2VuY29kZV9jb21wb25lbnQoJnpvbmVfaWQpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdXJsX2VuY29kZV9jb21wb25lbnQocmVjb3JkX2lkKQogICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAiUFVUIiwKICAgICAgICAgICAgICAgICAgICAgICAgU29tZShqc29uISh7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAibmFtZSI6IGZxZG5fd2l0aF9kb3QsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAidHlwZSI6IHJlY29yZF90eXBlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgInR0bCI6IHR0bCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJyZWNvcmRzIjogW2lwXQogICAgICAgICAgICAgICAgICAgICAgICB9KSksCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGh1YXdlaV9yZXF1ZXN0KAogICAgICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAgICAgJmNsaWVudCwKICAgICAgICAgICAgICAgICAgICAmYWNjZXNzX2tleV9pZCwKICAgICAgICAgICAgICAgICAgICAmc2VjcmV0X2FjY2Vzc19rZXksCiAgICAgICAgICAgICAgICAgICAgJmZvcm1hdCEoIi92Mi96b25lcy97fS9yZWNvcmRzZXRzIiwgdXJsX2VuY29kZV9jb21wb25lbnQoJnpvbmVfaWQpKSwKICAgICAgICAgICAgICAgICAgICAiUE9TVCIsCiAgICAgICAgICAgICAgICAgICAgU29tZShqc29uISh7CiAgICAgICAgICAgICAgICAgICAgICAgICJuYW1lIjogZnFkbl93aXRoX2RvdCwKICAgICAgICAgICAgICAgICAgICAgICAgInR5cGUiOiByZWNvcmRfdHlwZSwKICAgICAgICAgICAgICAgICAgICAgICAgInR0bCI6IHR0bCwKICAgICAgICAgICAgICAgICAgICAgICAgInJlY29yZHMiOiBbaXBdCiAgICAgICAgICAgICAgICAgICAgfSkpLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICAgICAgICAgIE9rKCgpKQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICkKICAgIC5hd2FpdAp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgYXN5bmMgZm4gaHVhd2VpX3JlcXVlc3QoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIGNsaWVudDogJkRETlNIdHRwQ2xpZW50LAogICAgYWNjZXNzX2tleV9pZDogJnN0ciwKICAgIHNlY3JldF9hY2Nlc3Nfa2V5OiAmc3RyLAogICAgcGF0aDogJnN0ciwKICAgIG1ldGhvZDogJnN0ciwKICAgIGJvZHk6IE9wdGlvbjxWYWx1ZT4sCikgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgIGxldCB1cmwgPSBmb3JtYXQhKCJodHRwczovL2Rucy5teWh1YXdlaWNsb3VkLmNvbXtwYXRofSIpOwogICAgbGV0IGJvZHlfc3RyaW5nID0gYm9keQogICAgICAgIC5hc19yZWYoKQogICAgICAgIC5tYXAoc2VyZGVfanNvbjo6dG9fc3RyaW5nKQogICAgICAgIC50cmFuc3Bvc2UoKT8KICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCAoeF9zZGtfZGF0ZSwgYXV0aG9yaXphdGlvbikgPSBodWF3ZWlfc2RrX2F1dGhvcml6YXRpb24oCiAgICAgICAgbWV0aG9kLAogICAgICAgICZ1cmwsCiAgICAgICAgImFwcGxpY2F0aW9uL2pzb24iLAogICAgICAgIGFjY2Vzc19rZXlfaWQsCiAgICAgICAgc2VjcmV0X2FjY2Vzc19rZXksCiAgICAgICAgJmJvZHlfc3RyaW5nLAogICAgKT87CiAgICBsZXQgbWV0aG9kID0gcmVxd2VzdDo6TWV0aG9kOjpmcm9tX2J5dGVzKG1ldGhvZC5hc19ieXRlcygpKT87CiAgICBsZXQgbXV0IHJlcXVlc3QgPSBjbGllbnQKICAgICAgICAucmVxdWVzdChtZXRob2QsICZ1cmwpCiAgICAgICAgLmhlYWRlcihyZXF3ZXN0OjpoZWFkZXI6OkNPTlRFTlRfVFlQRSwgImFwcGxpY2F0aW9uL2pzb24iKQogICAgICAgIC5oZWFkZXIocmVxd2VzdDo6aGVhZGVyOjpIT1NULCAiZG5zLm15aHVhd2VpY2xvdWQuY29tIikKICAgICAgICAuaGVhZGVyKCJYLVNkay1EYXRlIiwgeF9zZGtfZGF0ZSkKICAgICAgICAuaGVhZGVyKHJlcXdlc3Q6OmhlYWRlcjo6QVVUSE9SSVpBVElPTiwgYXV0aG9yaXphdGlvbik7CiAgICBpZiAhYm9keV9zdHJpbmcuaXNfZW1wdHkoKSB7CiAgICAgICAgcmVxdWVzdCA9IHJlcXVlc3QuYm9keShib2R5X3N0cmluZyk7CiAgICB9CiAgICBsZXQgcmVzcG9uc2UgPSByZXF1ZXN0LnNlbmQoKS5hd2FpdD87CiAgICBsZXQgc3RhdHVzID0gcmVzcG9uc2Uuc3RhdHVzKCk7CiAgICBsZXQgc3RhdHVzX3RleHQgPSByZXNwb25zZS5zdGF0dXNfdGV4dCgpLnRvX3N0cmluZygpOwogICAgbGV0IHRleHQgPSByZXNwb25zZS50ZXh0KCkuYXdhaXQ/LnRyaW0oKS50b19zdHJpbmcoKTsKICAgIGlmICFzdGF0dXMuaXNfc3VjY2VzcygpIHsKICAgICAgICByZXR1cm4gRXJyKGFueWhvdzo6YW55aG93IShodWF3ZWlfcmVxdWVzdF9mYWlsZWRfbWVzc2FnZSgKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgc3RhdHVzLmFzX3UxNigpLAogICAgICAgICAgICAmc3RhdHVzX3RleHQsCiAgICAgICAgICAgICZ0ZXh0LAogICAgICAgICkpKTsKICAgIH0KICAgIGlmIHRleHQuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE9rKGpzb24hKHt9KSk7CiAgICB9CiAgICBzZXJkZV9qc29uOjpmcm9tX3N0cjo6PFZhbHVlPigmdGV4dCkubWFwX2Vycih8X3wgewogICAgICAgIGFueWhvdzo6YW55aG93IShkZG5zX3RleHQoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJpbnZhbGlkSnNvblJlc3BvbnNlIiwKICAgICAgICAgICAgJlsoInRleHQiLCB0ZXh0LmNsb25lKCkpXSwKICAgICAgICApKQogICAgfSkKfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGh1YXdlaV9yZXF1ZXN0X2ZhaWxlZF9tZXNzYWdlKAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICBzdGF0dXM6IHUxNiwKICAgIHN0YXR1c190ZXh0OiAmc3RyLAogICAgdGV4dDogJnN0ciwKKSAtPiBTdHJpbmcgewogICAgZGRuc190ZXh0KAogICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgInByb3ZpZGVycy5odWF3ZWkucmVxdWVzdEZhaWxlZCIsCiAgICAgICAgJlsKICAgICAgICAgICAgKCJzdGF0dXMiLCBzdGF0dXMudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAoInN0YXR1c1RleHQiLCBzdGF0dXNfdGV4dC50b19zdHJpbmcoKSksCiAgICAgICAgICAgICgiZGV0YWlsIiwgaHVhd2VpX2Vycm9yX2RldGFpbCh0ZXh0KSksCiAgICAgICAgXSwKICAgICkKfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGh1YXdlaV9lcnJvcl9kZXRhaWwodGV4dDogJnN0cikgLT4gU3RyaW5nIHsKICAgIHNlcmRlX2pzb246OmZyb21fc3RyOjo8VmFsdWU+KHRleHQpCiAgICAgICAgLm9rKCkKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCBzZXJkZV9qc29uOjp0b19zdHJpbmcoJnZhbHVlKS5vaygpKQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCB0ZXh0LnRvX3N0cmluZygpKQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgZm4gY2Fub25pY2FsX2h1YXdlaV91cmkocGF0aDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGxldCBtdXQgdXJpID0gcGF0aAogICAgICAgIC5zcGxpdCgnLycpCiAgICAgICAgLm1hcCh8c2VnbWVudHwgcmZjMzk4Nl9lbmNvZGUoJnNhZmVfZGVjb2RlX3VyaV9jb21wb25lbnQoc2VnbWVudCkpKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpCiAgICAgICAgLmpvaW4oIi8iKTsKICAgIGlmICF1cmkuc3RhcnRzX3dpdGgoJy8nKSB7CiAgICAgICAgdXJpLmluc2VydCgwLCAnLycpOwogICAgfQogICAgaWYgIXVyaS5lbmRzX3dpdGgoJy8nKSB7CiAgICAgICAgdXJpLnB1c2goJy8nKTsKICAgIH0KICAgIHVyaQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgZm4gaHVhd2VpX3Nka19hdXRob3JpemF0aW9uKAogICAgbWV0aG9kOiAmc3RyLAogICAgdXJsOiAmc3RyLAogICAgY29udGVudF90eXBlOiAmc3RyLAogICAgYWNjZXNzX2tleV9pZDogJnN0ciwKICAgIHNlY3JldF9hY2Nlc3Nfa2V5OiAmc3RyLAogICAgcGF5bG9hZDogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDwoU3RyaW5nLCBTdHJpbmcpPiB7CiAgICBsZXQgdXJsID0gdXJsOjpVcmw6OnBhcnNlKHVybCk/OwogICAgbGV0IHhfc2RrX2RhdGUgPSBjb21wYWN0X3V0Y190aW1lc3RhbXAoKTsKICAgIGxldCBjYW5vbmljYWxfdXJpID0gY2Fub25pY2FsX2h1YXdlaV91cmkodXJsLnBhdGgoKSk7CiAgICBsZXQgY2Fub25pY2FsX3F1ZXJ5ID0gY2Fub25pY2FsX3F1ZXJ5X2Zyb21fdXJsKCZ1cmwpOwogICAgbGV0IHBheWxvYWRfaGFzaCA9IHNoYTI1Nl9oZXgocGF5bG9hZCk7CiAgICBsZXQgY2Fub25pY2FsX2hlYWRlcnMgPSBmb3JtYXQhKAogICAgICAgICJjb250ZW50LXR5cGU6e31cbmhvc3Q6e31cbngtc2RrLWRhdGU6e31cbiIsCiAgICAgICAgY29udGVudF90eXBlLnRyaW0oKSwKICAgICAgICB1cmwuaG9zdF9zdHIoKS51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgIHhfc2RrX2RhdGUKICAgICk7CiAgICBsZXQgc2lnbmVkX2hlYWRlcnMgPSAiY29udGVudC10eXBlO2hvc3Q7eC1zZGstZGF0ZSI7CiAgICBsZXQgY2Fub25pY2FsX3JlcXVlc3QgPSBbCiAgICAgICAgbWV0aG9kLAogICAgICAgICZjYW5vbmljYWxfdXJpLAogICAgICAgICZjYW5vbmljYWxfcXVlcnksCiAgICAgICAgJmNhbm9uaWNhbF9oZWFkZXJzLAogICAgICAgIHNpZ25lZF9oZWFkZXJzLAogICAgICAgICZwYXlsb2FkX2hhc2gsCiAgICBdCiAgICAuam9pbigiXG4iKTsKICAgIGxldCBzdHJpbmdfdG9fc2lnbiA9IGZvcm1hdCEoCiAgICAgICAgIlNESy1ITUFDLVNIQTI1Nlxue31cbnt9IiwKICAgICAgICB4X3Nka19kYXRlLAogICAgICAgIHNoYTI1Nl9oZXgoJmNhbm9uaWNhbF9yZXF1ZXN0KQogICAgKTsKICAgIGxldCBzaWduYXR1cmUgPSBobWFjX3NoYTI1Nl9oZXgoc2VjcmV0X2FjY2Vzc19rZXkuYXNfYnl0ZXMoKSwgc3RyaW5nX3RvX3NpZ24uYXNfYnl0ZXMoKSk7CiAgICBPaygoCiAgICAgICAgeF9zZGtfZGF0ZSwKICAgICAgICBmb3JtYXQhKAogICAgICAgICAgICAiU0RLLUhNQUMtU0hBMjU2IEFjY2Vzcz17YWNjZXNzX2tleV9pZH0sIFNpZ25lZEhlYWRlcnM9e3NpZ25lZF9oZWFkZXJzfSwgU2lnbmF0dXJlPXtzaWduYXR1cmV9IgogICAgICAgICksCiAgICApKQp9Cg==
+use super::*;
+
+pub(in crate::ddns::routes) fn huaweicloud_catalog_entry() -> Value {
+    provider(
+        "huaweicloud",
+        "华为云 DNS",
+        vec![
+            field("access_key_id", "Access Key", "text", "Access Key", true),
+            field(
+                "secret_access_key",
+                "Secret Key",
+                "password",
+                "Secret Key",
+                true,
+            ),
+            field("root_domain", "Root Domain", "text", "example.com", true),
+            field("domain", "Domain", "text", "home.example.com", true),
+            field("ttl", "TTL", "text", "300", false),
+        ],
+    )
+}
+
+pub(in crate::ddns::routes) async fn update_huaweicloud(
+    translator: &Translator,
+    config: &HashMap<String, String>,
+    http_options: &DDNSHttpClientOptions,
+    ipv4: Option<&str>,
+    ipv6: Option<&str>,
+) -> anyhow::Result<DDNSProviderUpdateResult> {
+    let access_key_id = config_value(config, "access_key_id");
+    let secret_access_key = config_value(config, "secret_access_key");
+    let root_domain = config_value(config, "root_domain");
+    let domain = config_value(config, "domain");
+    if access_key_id.is_empty()
+        || secret_access_key.is_empty()
+        || root_domain.is_empty()
+        || domain.is_empty()
+    {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.huawei.configIncomplete",
+            &[],
+        )));
+    }
+    let ttl = positive_i64(config.get("ttl"), 300);
+    let parsed = split_domain(translator, &domain, &root_domain)?;
+    let normalized_root = parsed.root_domain.trim_end_matches('.').to_string();
+    let fqdn_with_dot = format!("{}.", parsed.fqdn.trim_end_matches('.'));
+    let expected_zone_name = format!("{normalized_root}.");
+    let client = ddns_http_client(translator, http_options)?;
+    let zone_response = huawei_request(
+        translator,
+        &client,
+        &access_key_id,
+        &secret_access_key,
+        &format!("/v2/zones?name={}", url_encode_component(&normalized_root)),
+        "GET",
+        None,
+    )
+    .await?;
+    let zone_id = zone_response
+        .get("zones")
+        .and_then(Value::as_array)
+        .and_then(|zones| {
+            zones.iter().find_map(|zone| {
+                (zone.get("name").and_then(Value::as_str) == Some(expected_zone_name.as_str()))
+                    .then(|| zone.get("id").and_then(Value::as_str).map(str::to_string))
+                    .flatten()
+            })
+        });
+    let Some(zone_id) = zone_id else {
+        return Ok(provider_failure(
+            ddns_text(
+                translator,
+                "providers.huawei.zoneNotFound",
+                &[("zone", expected_zone_name.clone())],
+            )
+            .to_string(),
+        ));
+    };
+
+    let provider_label_text = provider_label(Some("huaweicloud"), translator);
+    update_dual_stack(
+        translator,
+        &provider_label_text,
+        ipv4,
+        ipv6,
+        |record_type, ip| {
+            let client = client.clone();
+            let access_key_id = access_key_id.clone();
+            let secret_access_key = secret_access_key.clone();
+            let zone_id = zone_id.clone();
+            let fqdn_with_dot = fqdn_with_dot.clone();
+            async move {
+                let recordset_path = format!(
+                    "/v2/zones/{}/recordsets?search_mode=equal&type={}&name={}&limit=500",
+                    url_encode_component(&zone_id),
+                    record_type,
+                    url_encode_component(&fqdn_with_dot)
+                );
+                let records = huawei_request(
+                    translator,
+                    &client,
+                    &access_key_id,
+                    &secret_access_key,
+                    &recordset_path,
+                    "GET",
+                    None,
+                )
+                .await?;
+                let existing = records
+                    .get("recordsets")
+                    .and_then(Value::as_array)
+                    .into_iter()
+                    .flatten()
+                    .find(|record| {
+                        record.get("zone_id").and_then(Value::as_str) == Some(zone_id.as_str())
+                            && record.get("name").and_then(Value::as_str)
+                                == Some(fqdn_with_dot.as_str())
+                            && record.get("type").and_then(Value::as_str) == Some(record_type)
+                    })
+                    .cloned();
+                if let Some(existing) = existing {
+                    let same_records = existing
+                        .get("records")
+                        .and_then(Value::as_array)
+                        .is_some_and(|records| {
+                            records.len() == 1
+                                && records.first().and_then(Value::as_str) == Some(ip.as_str())
+                        });
+                    let same_ttl = existing.get("ttl").and_then(Value::as_i64) == Some(ttl);
+                    if same_records && same_ttl {
+                        return Ok(());
+                    }
+                    let record_id =
+                        existing.get("id").and_then(Value::as_str).ok_or_else(|| {
+                            anyhow::anyhow!(ddns_text(
+                                translator,
+                                "providers.huawei.recordsetIdMissing",
+                                &[],
+                            ))
+                        })?;
+                    huawei_request(
+                        translator,
+                        &client,
+                        &access_key_id,
+                        &secret_access_key,
+                        &format!(
+                            "/v2.1/zones/{}/recordsets/{}",
+                            url_encode_component(&zone_id),
+                            url_encode_component(record_id)
+                        ),
+                        "PUT",
+                        Some(json!({
+                            "name": fqdn_with_dot,
+                            "type": record_type,
+                            "ttl": ttl,
+                            "records": [ip]
+                        })),
+                    )
+                    .await?;
+                    return Ok(());
+                }
+                huawei_request(
+                    translator,
+                    &client,
+                    &access_key_id,
+                    &secret_access_key,
+                    &format!("/v2/zones/{}/recordsets", url_encode_component(&zone_id)),
+                    "POST",
+                    Some(json!({
+                        "name": fqdn_with_dot,
+                        "type": record_type,
+                        "ttl": ttl,
+                        "records": [ip]
+                    })),
+                )
+                .await?;
+                Ok(())
+            }
+        },
+    )
+    .await
+}
+
+pub(in crate::ddns::routes) async fn huawei_request(
+    translator: &Translator,
+    client: &DDNSHttpClient,
+    access_key_id: &str,
+    secret_access_key: &str,
+    path: &str,
+    method: &str,
+    body: Option<Value>,
+) -> anyhow::Result<Value> {
+    let url = format!("https://dns.myhuaweicloud.com{path}");
+    let body_string = body
+        .as_ref()
+        .map(serde_json::to_string)
+        .transpose()?
+        .unwrap_or_default();
+    let (x_sdk_date, authorization) = huawei_sdk_authorization(
+        method,
+        &url,
+        "application/json",
+        access_key_id,
+        secret_access_key,
+        &body_string,
+    )?;
+    let method = reqwest::Method::from_bytes(method.as_bytes())?;
+    let mut request = client
+        .request(method, &url)
+        .header(reqwest::header::CONTENT_TYPE, "application/json")
+        .header(reqwest::header::HOST, "dns.myhuaweicloud.com")
+        .header("X-Sdk-Date", x_sdk_date)
+        .header(reqwest::header::AUTHORIZATION, authorization);
+    if !body_string.is_empty() {
+        request = request.body(body_string);
+    }
+    let response = request.send().await?;
+    let status = response.status();
+    let status_text = response.status_text().to_string();
+    let text = response.text().await?.trim().to_string();
+    if !status.is_success() {
+        return Err(anyhow::anyhow!(huawei_request_failed_message(
+            translator,
+            status.as_u16(),
+            &status_text,
+            &text,
+        )));
+    }
+    if text.is_empty() {
+        return Ok(json!({}));
+    }
+    serde_json::from_str::<Value>(&text).map_err(|_| {
+        anyhow::anyhow!(ddns_text(
+            translator,
+            "invalidJsonResponse",
+            &[("text", text.clone())],
+        ))
+    })
+}
+
+pub(in crate::ddns::routes) fn huawei_request_failed_message(
+    translator: &Translator,
+    status: u16,
+    status_text: &str,
+    text: &str,
+) -> String {
+    ddns_text(
+        translator,
+        "providers.huawei.requestFailed",
+        &[
+            ("status", status.to_string()),
+            ("statusText", status_text.to_string()),
+            ("detail", huawei_error_detail(text)),
+        ],
+    )
+}
+
+pub(in crate::ddns::routes) fn huawei_error_detail(text: &str) -> String {
+    serde_json::from_str::<Value>(text)
+        .ok()
+        .and_then(|value| serde_json::to_string(&value).ok())
+        .unwrap_or_else(|| text.to_string())
+}
+
+pub(in crate::ddns::routes) fn canonical_huawei_uri(path: &str) -> String {
+    let mut uri = path
+        .split('/')
+        .map(|segment| rfc3986_encode(&safe_decode_uri_component(segment)))
+        .collect::<Vec<_>>()
+        .join("/");
+    if !uri.starts_with('/') {
+        uri.insert(0, '/');
+    }
+    if !uri.ends_with('/') {
+        uri.push('/');
+    }
+    uri
+}
+
+pub(in crate::ddns::routes) fn huawei_sdk_authorization(
+    method: &str,
+    url: &str,
+    content_type: &str,
+    access_key_id: &str,
+    secret_access_key: &str,
+    payload: &str,
+) -> anyhow::Result<(String, String)> {
+    let url = url::Url::parse(url)?;
+    let x_sdk_date = compact_utc_timestamp();
+    let canonical_uri = canonical_huawei_uri(url.path());
+    let canonical_query = canonical_query_from_url(&url);
+    let payload_hash = sha256_hex(payload);
+    let canonical_headers = format!(
+        "content-type:{}\nhost:{}\nx-sdk-date:{}\n",
+        content_type.trim(),
+        url.host_str().unwrap_or_default(),
+        x_sdk_date
+    );
+    let signed_headers = "content-type;host;x-sdk-date";
+    let canonical_request = [
+        method,
+        &canonical_uri,
+        &canonical_query,
+        &canonical_headers,
+        signed_headers,
+        &payload_hash,
+    ]
+    .join("\n");
+    let string_to_sign = format!(
+        "SDK-HMAC-SHA256\n{}\n{}",
+        x_sdk_date,
+        sha256_hex(&canonical_request)
+    );
+    let signature = hmac_sha256_hex(secret_access_key.as_bytes(), string_to_sign.as_bytes());
+    Ok((
+        x_sdk_date,
+        format!(
+            "SDK-HMAC-SHA256 Access={access_key_id}, SignedHeaders={signed_headers}, Signature={signature}"
+        ),
+    ))
+}

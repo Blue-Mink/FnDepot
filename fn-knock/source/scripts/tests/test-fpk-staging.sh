@@ -1,1 +1,137 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCldPUktfRElSPSIkKG1rdGVtcCAtZCAiJHtUTVBESVI6LS90bXB9L2ZuLWtub2NrLWZway10ZXN0LlhYWFhYWCIpIgpTT1VSQ0VfRElSPSIke1dPUktfRElSfS9zb3VyY2UiCkFSVElGQUNUU19ESVI9IiR7V09SS19ESVJ9L2FydGlmYWN0cyIKUlVOVElNRV9ESVI9IiR7QVJUSUZBQ1RTX0RJUn0vcnVudGltZSIKUlVTVF9ESVI9IiR7QVJUSUZBQ1RTX0RJUn0vZnBrLXJ1c3QtYmFja2VuZHMiCkZOUEFDS19CSU49IiR7V09SS19ESVJ9L2ZucGFjayIKVkVSU0lPTj0iJChqcSAtciAnLnZlcnNpb24nICIke1JPT1RfRElSfS92ZXJzaW9uLmpzb24iKSIKCmNsZWFudXAoKSB7CiAgcm0gLXJmICIke1dPUktfRElSfSIKfQp0cmFwIGNsZWFudXAgRVhJVAoKZmFpbCgpIHsKICBwcmludGYgJ1t0ZXN0LWZway1zdGFnaW5nXSBFUlJPUjogJXNcbicgIiQqIiA+JjIKICBleGl0IDEKfQoKbWFrZV9lbGYoKSB7CiAgbG9jYWwgcGF0aD0iJDEiCiAgbG9jYWwgbWFjaGluZT0iJDIiCiAgbWtkaXIgLXAgIiQoZGlybmFtZSAiJHtwYXRofSIpIgogIHsKICAgIHByaW50ZiAnXDE3N0VMRlwwMDJcMDAxXDAwMVwwMDAnCiAgICBkZCBpZj0vZGV2L3plcm8gYnM9MSBjb3VudD04IDI+L2Rldi9udWxsCiAgICBwcmludGYgJ1wwMDJcMDAwJwogICAgY2FzZSAiJHttYWNoaW5lfSIgaW4KICAgICAgYW1kNjQpIHByaW50ZiAnXDA3NlwwMDAnIDs7CiAgICAgIGFybTY0KSBwcmludGYgJ1wyNjdcMDAwJyA7OwogICAgICAqKSBmYWlsICJ1bmtub3duIGZha2UgRUxGIGFyY2hpdGVjdHVyZTogJHttYWNoaW5lfSIgOzsKICAgIGVzYWMKICAgIGRkIGlmPS9kZXYvemVybyBicz0xIGNvdW50PTQ0IDI+L2Rldi9udWxsCiAgfSA+ICIke3BhdGh9IgogIGNobW9kIDc1NSAiJHtwYXRofSIKfQoKZXhwZWN0X2ZhaWx1cmUoKSB7CiAgbG9jYWwgZXhwZWN0ZWQ9IiQxIgogIHNoaWZ0CiAgbG9jYWwgb3V0cHV0CiAgaWYgb3V0cHV0PSIkKCIkQCIgMj4mMSkiOyB0aGVuCiAgICBmYWlsICJjb21tYW5kIHVuZXhwZWN0ZWRseSBzdWNjZWVkZWQ6ICQqIgogIGZpCiAgcHJpbnRmICclc1xuJyAiJHtvdXRwdXR9IiB8IGdyZXAgLUZxICIke2V4cGVjdGVkfSIgfHwgXAogICAgZmFpbCAiZmFpbHVyZSBkaWQgbm90IGNvbnRhaW4gJyR7ZXhwZWN0ZWR9JzogJHtvdXRwdXR9Igp9Cgpta2RpciAtcCBcCiAgIiR7U09VUkNFX0RJUn0vY21kIiBcCiAgIiR7U09VUkNFX0RJUn0vYXBwL3VpIiBcCiAgIiR7UlVOVElNRV9ESVJ9L3VpL3d3dy9hc3NldHMvdiR7VkVSU0lPTn0iIFwKICAiJHtSVU5USU1FX0RJUn0vc2VydmVyLWF1dGgtdmlldy9kaXN0IiBcCiAgIiR7UlVOVElNRV9ESVJ9L3NlcnZlci9zZXJ2ZXItYWRtaW4vcmVzb3VyY2VzIiBcCiAgIiR7UlVOVElNRV9ESVJ9L3NlcnZlciIgXAogICIke1JVU1RfRElSfSIKcHJpbnRmICdhcHBuYW1lPWZuLWtub2NrXG52ZXJzaW9uPSVzXG5wbGF0Zm9ybT14ODZcbicgIiR7VkVSU0lPTn0iID4gIiR7U09VUkNFX0RJUn0vbWFuaWZlc3QiCnByaW50ZiAnIyEvYmluL3NoXG5leGl0IDBcbicgPiAiJHtTT1VSQ0VfRElSfS9jbWQvbWFpbiIKcHJpbnRmICcjIS9iaW4vc2hcbmV4aXQgMFxuJyA+ICIke1NPVVJDRV9ESVJ9L2FwcC91aS9pbmRleC5jZ2kiCnByaW50ZiAnPGh0bWw+YWRtaW48L2h0bWw+XG4nID4gIiR7UlVOVElNRV9ESVJ9L3VpL3d3dy9pbmRleC5odG1sIgpwcmludGYgJ2VudHJ5XG4nID4gIiR7UlVOVElNRV9ESVJ9L3VpL3d3dy9hc3NldHMvdiR7VkVSU0lPTn0vZW50cnkuanMiCnByaW50ZiAnYWRtaW4tZ3ppcFxuJyA+ICIke1JVTlRJTUVfRElSfS91aS93d3cvaW5kZXguaHRtbC5neiIKcHJpbnRmICdhZG1pbi1icm90bGlcbicgPiAiJHtSVU5USU1FX0RJUn0vdWkvd3d3L2luZGV4Lmh0bWwuYnIiCnByaW50ZiAnPGh0bWw+YXV0aDwvaHRtbD5cbicgPiAiJHtSVU5USU1FX0RJUn0vc2VydmVyLWF1dGgtdmlldy9kaXN0L2luZGV4Lmh0bWwiCnByaW50ZiAnYXV0aC1nemlwXG4nID4gIiR7UlVOVElNRV9ESVJ9L3NlcnZlci1hdXRoLXZpZXcvZGlzdC9pbmRleC5odG1sLmd6IgpwcmludGYgJ2F1dGgtYnJvdGxpXG4nID4gIiR7UlVOVElNRV9ESVJ9L3NlcnZlci1hdXRoLXZpZXcvZGlzdC9pbmRleC5odG1sLmJyIgpwcmludGYgJ2ZpeHR1cmVcbicgPiAiJHtSVU5USU1FX0RJUn0vc2VydmVyL3NlcnZlci1hZG1pbi9yZXNvdXJjZXMvYWNtZXNoLnppcCIKY2htb2QgNzU1ICIke1NPVVJDRV9ESVJ9L2NtZC9tYWluIiAiJHtTT1VSQ0VfRElSfS9hcHAvdWkvaW5kZXguY2dpIgpwcmludGYgJ2ZpbmRlciBtZXRhZGF0YVxuJyA+ICIke1NPVVJDRV9ESVJ9L2FwcC8uRFNfU3RvcmUiCgptYWtlX2VsZiAiJHtSVU5USU1FX0RJUn0vc2VydmVyL2dvLXJlYXV0aC1wcm94eS1saW51eC1hbWQ2NCIgYW1kNjQKbWFrZV9lbGYgIiR7UlVOVElNRV9ESVJ9L3NlcnZlci9nby1yZWF1dGgtcHJveHktbGludXgtYXJtNjQiIGFybTY0Cm1ha2VfZWxmICIke1JVU1RfRElSfS9zZXJ2ZXItYWRtaW4tcnMtbGludXgtYW1kNjQiIGFtZDY0Cm1ha2VfZWxmICIke1JVU1RfRElSfS9zZXJ2ZXItYWRtaW4tcnMtbGludXgtYXJtNjQiIGFybTY0CgpjYXQgPiAiJHtGTlBBQ0tfQklOfSIgPDwnRk5QQUNLJwojIS9iaW4vYmFzaApzZXQgLWV1byBwaXBlZmFpbAppZiBbICIke0ZBS0VfRk5QQUNLX1BMQVRGT1JNOi19IiA9ICJ3cm9uZyIgXTsgdGhlbgogIHNlZCAtaS5iYWsgJ3MvXnBsYXRmb3JtPS4qL3BsYXRmb3JtPXdyb25nLycgbWFuaWZlc3QKZmkKaWYgWyAiJHtGQUtFX0ZOUEFDS19FWFRSQV9HQVRFV0FZOi0wfSIgPSAiMSIgXTsgdGhlbgogIGNwIGFwcC9zZXJ2ZXIvc2VydmVyLWFkbWluLXJzIGFwcC9zZXJ2ZXIvZ28tcmVhdXRoLXByb3h5LWxpbnV4LWV4dHJhCmZpCnRhciAtY3pmIGFwcC50Z3ogLUMgYXBwIC4KdGFyIC1jemYgZm4ta25vY2suZnBrIG1hbmlmZXN0IGFwcC50Z3oKRk5QQUNLCmNobW9kIDc1NSAiJHtGTlBBQ0tfQklOfSIKCnJ1bl9mcGsoKSB7CiAgRk5fS05PQ0tfQVJUSUZBQ1RTX0RJUj0iJHtBUlRJRkFDVFNfRElSfSIgXAogIEZOX0tOT0NLX1BSRVBBUkVEX1JVTlRJTUVfRElSPSIke1JVTlRJTUVfRElSfSIgXAogIEZOX0tOT0NLX1BSRVBBUkVEX0ZQS19SVVNUX0JBQ0tFTkRfRElSPSIke1JVU1RfRElSfSIgXAogIEZOX0tOT0NLX0ZQS19TT1VSQ0VfRElSPSIke1NPVVJDRV9ESVJ9IiBcCiAgRk5fS05PQ0tfRlBLX09VVFBVVF9ESVI9IiR7QVJUSUZBQ1RTX0RJUn0vZnBrIiBcCiAgRk5fS05PQ0tfRk5QQUNLX0JJTj0iJHtGTlBBQ0tfQklOfSIgXAogICAgYmFzaCAiJHtST09UX0RJUn0vc2NyaXB0cy9mbi1rbm9jay1wYWNrYWdlLWZway5zaCIKfQoKcnVuX2Zwa193cm9uZ19wbGF0Zm9ybSgpIHsKICBGQUtFX0ZOUEFDS19QTEFURk9STT13cm9uZyBydW5fZnBrCn0KCnJ1bl9mcGtfd2l0aF9leHRyYV9nYXRld2F5KCkgewogIEZBS0VfRk5QQUNLX0VYVFJBX0dBVEVXQVk9MSBydW5fZnBrCn0KCnJ1bl9mcGsgPi9kZXYvbnVsbApbIC1zICIke0FSVElGQUNUU19ESVJ9L2Zway9mbi1rbm9jay0ke1ZFUlNJT059LWZub3MtYW1kNjQuZnBrIiBdIHx8IGZhaWwgImFtZDY0IEZQSyBpcyBtaXNzaW5nIgpbIC1zICIke0FSVElGQUNUU19ESVJ9L2Zway9mbi1rbm9jay0ke1ZFUlNJT059LWZub3MtYXJtNjQuZnBrIiBdIHx8IGZhaWwgImFybTY0IEZQSyBpcyBtaXNzaW5nIgpwYXlsb2FkX2xpc3Rpbmc9IiQoewogIHRhciAteE96ZiAiJHtBUlRJRkFDVFNfRElSfS9mcGsvZm4ta25vY2stJHtWRVJTSU9OfS1mbm9zLWFtZDY0LmZwayIgYXBwLnRneiB8CiAgICB0YXIgLXR6ZiAtCn0pIgpwcmludGYgJyVzXG4nICIke3BheWxvYWRfbGlzdGluZ30iIHwgZ3JlcCAtRXEgJyhefC8pdWkvd3d3L2luZGV4XC5odG1sXC5iciQnIHx8IFwKICBmYWlsICJhbWQ2NCBGUEsgaXMgbWlzc2luZyB0aGUgYWRtaW4gQnJvdGxpIHNpZGVjYXIiCnByaW50ZiAnJXNcbicgIiR7cGF5bG9hZF9saXN0aW5nfSIgfCBncmVwIC1FcSAnKF58LylzZXJ2ZXItYXV0aC12aWV3L2Rpc3QvaW5kZXhcLmh0bWxcLmJyJCcgfHwgXAogIGZhaWwgImFtZDY0IEZQSyBpcyBtaXNzaW5nIHRoZSBhdXRoIEJyb3RsaSBzaWRlY2FyIgppZiBwcmludGYgJyVzXG4nICIke3BheWxvYWRfbGlzdGluZ30iIHwgZ3JlcCAtRXEgJ1wuZ3okJzsgdGhlbgogIGZhaWwgIkZQSyBtdXN0IG9taXQgcmVkdW5kYW50IGd6aXAgd2ViIHNpZGVjYXJzIgpmaQppZiBwcmludGYgJyVzXG4nICIke3BheWxvYWRfbGlzdGluZ30iIHwgZ3JlcCAtRXEgJyhefC8pXC5EU19TdG9yZSR8KF58LylcLl8nOyB0aGVuCiAgZmFpbCAiRlBLIG11c3Qgb21pdCBtYWNPUyBtZXRhZGF0YSBmaWxlcyIKZmkKCmV4cGVjdF9mYWlsdXJlICJ1bmV4cGVjdGVkIEZQSyBwbGF0Zm9ybSIgcnVuX2Zwa193cm9uZ19wbGF0Zm9ybQpleHBlY3RfZmFpbHVyZSBcCiAgImNvbnRhaW5zIGdhdGV3YXlzIGZvciBtb3JlIHRoYW4gb25lIGFyY2hpdGVjdHVyZSIgXAogIHJ1bl9mcGtfd2l0aF9leHRyYV9nYXRld2F5CgptYWtlX2VsZiAiJHtSVU5USU1FX0RJUn0vc2VydmVyL2dvLXJlYXV0aC1wcm94eS1saW51eC1hcm02NCIgYW1kNjQKZXhwZWN0X2ZhaWx1cmUgImlzIG5vdCBMaW51eCBhcm02NCIgcnVuX2ZwawoKcHJpbnRmICdbdGVzdC1mcGstc3RhZ2luZ10gYWxsIHN0YWdpbmcgdGVzdHMgcGFzc2VkXG4nCg==
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+WORK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/fn-knock-fpk-test.XXXXXX")"
+SOURCE_DIR="${WORK_DIR}/source"
+ARTIFACTS_DIR="${WORK_DIR}/artifacts"
+RUNTIME_DIR="${ARTIFACTS_DIR}/runtime"
+RUST_DIR="${ARTIFACTS_DIR}/fpk-rust-backends"
+FNPACK_BIN="${WORK_DIR}/fnpack"
+VERSION="$(jq -r '.version' "${ROOT_DIR}/version.json")"
+
+cleanup() {
+  rm -rf "${WORK_DIR}"
+}
+trap cleanup EXIT
+
+fail() {
+  printf '[test-fpk-staging] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+make_elf() {
+  local path="$1"
+  local machine="$2"
+  mkdir -p "$(dirname "${path}")"
+  {
+    printf '\177ELF\002\001\001\000'
+    dd if=/dev/zero bs=1 count=8 2>/dev/null
+    printf '\002\000'
+    case "${machine}" in
+      amd64) printf '\076\000' ;;
+      arm64) printf '\267\000' ;;
+      *) fail "unknown fake ELF architecture: ${machine}" ;;
+    esac
+    dd if=/dev/zero bs=1 count=44 2>/dev/null
+  } > "${path}"
+  chmod 755 "${path}"
+}
+
+expect_failure() {
+  local expected="$1"
+  shift
+  local output
+  if output="$("$@" 2>&1)"; then
+    fail "command unexpectedly succeeded: $*"
+  fi
+  printf '%s\n' "${output}" | grep -Fq "${expected}" || \
+    fail "failure did not contain '${expected}': ${output}"
+}
+
+mkdir -p \
+  "${SOURCE_DIR}/cmd" \
+  "${SOURCE_DIR}/app/ui" \
+  "${RUNTIME_DIR}/ui/www/assets/v${VERSION}" \
+  "${RUNTIME_DIR}/server-auth-view/dist" \
+  "${RUNTIME_DIR}/server/server-admin/resources" \
+  "${RUNTIME_DIR}/server" \
+  "${RUST_DIR}"
+printf 'appname=fn-knock\nversion=%s\nplatform=x86\n' "${VERSION}" > "${SOURCE_DIR}/manifest"
+printf '#!/bin/sh\nexit 0\n' > "${SOURCE_DIR}/cmd/main"
+printf '#!/bin/sh\nexit 0\n' > "${SOURCE_DIR}/app/ui/index.cgi"
+printf '<html>admin</html>\n' > "${RUNTIME_DIR}/ui/www/index.html"
+printf 'entry\n' > "${RUNTIME_DIR}/ui/www/assets/v${VERSION}/entry.js"
+printf 'admin-gzip\n' > "${RUNTIME_DIR}/ui/www/index.html.gz"
+printf 'admin-brotli\n' > "${RUNTIME_DIR}/ui/www/index.html.br"
+printf '<html>auth</html>\n' > "${RUNTIME_DIR}/server-auth-view/dist/index.html"
+printf 'auth-gzip\n' > "${RUNTIME_DIR}/server-auth-view/dist/index.html.gz"
+printf 'auth-brotli\n' > "${RUNTIME_DIR}/server-auth-view/dist/index.html.br"
+printf 'fixture\n' > "${RUNTIME_DIR}/server/server-admin/resources/acmesh.zip"
+chmod 755 "${SOURCE_DIR}/cmd/main" "${SOURCE_DIR}/app/ui/index.cgi"
+printf 'finder metadata\n' > "${SOURCE_DIR}/app/.DS_Store"
+
+make_elf "${RUNTIME_DIR}/server/go-reauth-proxy-linux-amd64" amd64
+make_elf "${RUNTIME_DIR}/server/go-reauth-proxy-linux-arm64" arm64
+make_elf "${RUST_DIR}/server-admin-rs-linux-amd64" amd64
+make_elf "${RUST_DIR}/server-admin-rs-linux-arm64" arm64
+
+cat > "${FNPACK_BIN}" <<'FNPACK'
+#!/bin/bash
+set -euo pipefail
+if [ "${FAKE_FNPACK_PLATFORM:-}" = "wrong" ]; then
+  sed -i.bak 's/^platform=.*/platform=wrong/' manifest
+fi
+if [ "${FAKE_FNPACK_EXTRA_GATEWAY:-0}" = "1" ]; then
+  cp app/server/server-admin-rs app/server/go-reauth-proxy-linux-extra
+fi
+tar -czf app.tgz -C app .
+tar -czf fn-knock.fpk manifest app.tgz
+FNPACK
+chmod 755 "${FNPACK_BIN}"
+
+run_fpk() {
+  FN_KNOCK_ARTIFACTS_DIR="${ARTIFACTS_DIR}" \
+  FN_KNOCK_PREPARED_RUNTIME_DIR="${RUNTIME_DIR}" \
+  FN_KNOCK_PREPARED_FPK_RUST_BACKEND_DIR="${RUST_DIR}" \
+  FN_KNOCK_FPK_SOURCE_DIR="${SOURCE_DIR}" \
+  FN_KNOCK_FPK_OUTPUT_DIR="${ARTIFACTS_DIR}/fpk" \
+  FN_KNOCK_FNPACK_BIN="${FNPACK_BIN}" \
+    bash "${ROOT_DIR}/scripts/fn-knock-package-fpk.sh"
+}
+
+run_fpk_wrong_platform() {
+  FAKE_FNPACK_PLATFORM=wrong run_fpk
+}
+
+run_fpk_with_extra_gateway() {
+  FAKE_FNPACK_EXTRA_GATEWAY=1 run_fpk
+}
+
+run_fpk >/dev/null
+[ -s "${ARTIFACTS_DIR}/fpk/fn-knock-${VERSION}-fnos-amd64.fpk" ] || fail "amd64 FPK is missing"
+[ -s "${ARTIFACTS_DIR}/fpk/fn-knock-${VERSION}-fnos-arm64.fpk" ] || fail "arm64 FPK is missing"
+payload_listing="$({
+  tar -xOzf "${ARTIFACTS_DIR}/fpk/fn-knock-${VERSION}-fnos-amd64.fpk" app.tgz |
+    tar -tzf -
+})"
+printf '%s\n' "${payload_listing}" | grep -Eq '(^|/)ui/www/index\.html\.br$' || \
+  fail "amd64 FPK is missing the admin Brotli sidecar"
+printf '%s\n' "${payload_listing}" | grep -Eq '(^|/)server-auth-view/dist/index\.html\.br$' || \
+  fail "amd64 FPK is missing the auth Brotli sidecar"
+if printf '%s\n' "${payload_listing}" | grep -Eq '\.gz$'; then
+  fail "FPK must omit redundant gzip web sidecars"
+fi
+if printf '%s\n' "${payload_listing}" | grep -Eq '(^|/)\.DS_Store$|(^|/)\._'; then
+  fail "FPK must omit macOS metadata files"
+fi
+
+expect_failure "unexpected FPK platform" run_fpk_wrong_platform
+expect_failure \
+  "contains gateways for more than one architecture" \
+  run_fpk_with_extra_gateway
+
+make_elf "${RUNTIME_DIR}/server/go-reauth-proxy-linux-arm64" amd64
+expect_failure "is not Linux arm64" run_fpk
+
+printf '[test-fpk-staging] all staging tests passed\n'

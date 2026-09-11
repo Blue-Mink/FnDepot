@@ -1,1 +1,222 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CmltcG9ydCB7IHJlZiB9IGZyb20gInZ1ZSI7CgppbXBvcnQgeyBlbkFkbWluIH0gZnJvbSAiLi4vLi4vLi4vcGFja2FnZXMvaTE4bi9zcmMvbWVzc2FnZXMvYWRtaW4vZW4iOwppbXBvcnQgeyBqYUpQQWRtaW4gfSBmcm9tICIuLi8uLi8uLi9wYWNrYWdlcy9pMThuL3NyYy9tZXNzYWdlcy9hZG1pbi9qYS1KUCI7CmltcG9ydCB7IGtvS1JBZG1pbiB9IGZyb20gIi4uLy4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL21lc3NhZ2VzL2FkbWluL2tvLUtSIjsKaW1wb3J0IHsgemhDTkFkbWluIH0gZnJvbSAiLi4vLi4vLi4vcGFja2FnZXMvaTE4bi9zcmMvbWVzc2FnZXMvYWRtaW4vemgtQ04iOwppbXBvcnQgeyB6aEhhbnRBZG1pbiB9IGZyb20gIi4uLy4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL21lc3NhZ2VzL2FkbWluL3poLUhhbnQiOwppbXBvcnQgdHlwZSB7IFN5c3RlbUV2ZW50UmVjb3JkIH0gZnJvbSAiLi4vc3JjL3R5cGVzIjsKaW1wb3J0IHsKICBERUZBVUxUX0dST1VQX0JZX0JZX0VWRU5UX1RZUEUsCiAgU1lTVEVNX0VWRU5UX1RZUEVfT1BUSU9OUywKfSBmcm9tICIuLi9zcmMvdmlld3MvZXZlbnQtY2VudGVyL2NvbnN0YW50cyI7CmltcG9ydCB7IHJlc29sdmVTeXN0ZW1FdmVudE9yaWdpbnMgfSBmcm9tICIuLi9zcmMvdmlld3MvZXZlbnQtY2VudGVyL3N5c3RlbUV2ZW50RGVzY3JpcHRpb24iOwppbXBvcnQgeyB1c2VTeXN0ZW1FdmVudERpc3BsYXkgfSBmcm9tICIuLi9zcmMvdmlld3MvZXZlbnQtY2VudGVyL3VzZVN5c3RlbUV2ZW50RGlzcGxheSI7Cgpjb25zdCB2aXNpYmlsaXR5RXZlbnQ6IFN5c3RlbUV2ZW50UmVjb3JkID0gewogIGlkOiAiZXZ0X3Zpc2liaWxpdHlfMSIsCiAgdHlwZTogIkZOX0VWRU5UX0dBVEVXQVlfVklTSUJJTElUWV9CTE9DS0VEIiwKICBzb3VyY2U6ICJHT19SRUFVVEhfUFJPWFkiLAogIGxldmVsOiAiV0FSTiIsCiAgaGFwcGVuZWRfYXQ6ICIyMDI2LTA3LTI3VDEwOjExOjEyWiIsCiAgc3ViamVjdDogeyBraW5kOiAiSVAiLCBpZDogIjIwMy4wLjExMy44IiB9LAogIHRhZ3M6IFsiZ2F0ZXdheSIsICJ2aXNpYmlsaXR5IiwgInNlY3VyaXR5Il0sCiAgcGF5bG9hZDogewogICAgaXA6ICIyMDMuMC4xMTMuOCIsCiAgICBpcF9sb2NhdGlvbjogIlNoYW5naGFpfFNoYW5naGFpfFVuaWNvbSIsCiAgICBibG9ja2VkX2F0OiAiMjAyNi0wNy0yN1QxMDoxMToxMloiLAogICAgbWV0aG9kOiAiR0VUIiwKICAgIHNjaGVtZTogImh0dHBzIiwKICAgIGhvc3Q6ICJhcHAuZXhhbXBsZS50ZXN0IiwKICAgIHBhdGg6ICIvcHJpdmF0ZSIsCiAgICByb3V0ZV90eXBlOiAiaG9zdF9ydWxlIiwKICAgIHJvdXRlX2tleTogImFwcC5leGFtcGxlLnRlc3QiLAogICAgdmlzaWJpbGl0eV9zY29wZTogImhvc3QiLAogICAgdmlzaWJpbGl0eV9tb2RlOiAiY3VzdG9tIiwKICAgIHN0YXR1czogNDk5LAogIH0sCn07Cgpjb25zdCB0ZXJtaW5hbEF1ZGl0RXZlbnQ6IFN5c3RlbUV2ZW50UmVjb3JkID0gewogIGlkOiAiZXZ0X3Rlcm1pbmFsXzEiLAogIHR5cGU6ICJGTl9FVkVOVF9URVJNSU5BTF9BVURJVCIsCiAgc291cmNlOiAiU0VSVkVSX0FETUlOIiwKICBsZXZlbDogIldBUk4iLAogIGhhcHBlbmVkX2F0OiAiMjAyNi0wOC0yOFQxMDoxMToxMloiLAogIHN1YmplY3Q6IHsga2luZDogIkNPTVBPTkVOVCIsIGlkOiAic2Vzc2lvbi0xMjM0NTY3ODkiIH0sCiAgdGFnczogWyJ0ZXJtaW5hbCIsICJhdWRpdCJdLAogIHBheWxvYWQ6IHsKICAgIGFjdGlvbjogInNlc3Npb25fbG9zdCIsCiAgICB0YXJnZXRfaWQ6ICJ0YXJnZXQtMTIzNDU2Nzg5IiwKICAgIHNlc3Npb25faWQ6ICJzZXNzaW9uLTEyMzQ1Njc4OSIsCiAgICBlcnJvcl9jb2RlOiAiY29ubmVjdF90aW1lb3V0IiwKICB9LAp9OwoKZGVzY3JpYmUoInN5c3RlbSBldmVudCBjYXRhbG9nIiwgKCkgPT4gewogIGl0KCJrZWVwcyBldmVyeSBub3RpZmljYXRpb24gZ3JvdXBpbmcgZXZlbnQgc2VsZWN0YWJsZSIsICgpID0+IHsKICAgIGNvbnN0IHNlbGVjdGFibGVUeXBlcyA9IFNZU1RFTV9FVkVOVF9UWVBFX09QVElPTlMubWFwKAogICAgICAob3B0aW9uKSA9PiBvcHRpb24udmFsdWUsCiAgICApLnNvcnQoKTsKICAgIGNvbnN0IGdyb3VwZWRUeXBlcyA9IE9iamVjdC5rZXlzKERFRkFVTFRfR1JPVVBfQllfQllfRVZFTlRfVFlQRSkuc29ydCgpOwoKICAgIGFzc2VydC5kZWVwRXF1YWwoc2VsZWN0YWJsZVR5cGVzLCBncm91cGVkVHlwZXMpOwogICAgYXNzZXJ0Lm9rKHNlbGVjdGFibGVUeXBlcy5pbmNsdWRlcygiRk5fRVZFTlRfV09MX1NIVVRET1dOX0NPTVBMRVRFRCIpKTsKICB9KTsKfSk7CgpkZXNjcmliZSgiZ2F0ZXdheSB2aXNpYmlsaXR5IHN5c3RlbSBldmVudCIsICgpID0+IHsKICBpdCgiaXMgYXZhaWxhYmxlIHRvIGZpbHRlcnMgYW5kIGRlZmF1bHRzIG5vdGlmaWNhdGlvbiBncm91cGluZyBnbG9iYWxseSIsICgpID0+IHsKICAgIGFzc2VydC5vaygKICAgICAgU1lTVEVNX0VWRU5UX1RZUEVfT1BUSU9OUy5zb21lKAogICAgICAgIChvcHRpb24pID0+IG9wdGlvbi52YWx1ZSA9PT0gIkZOX0VWRU5UX0dBVEVXQVlfVklTSUJJTElUWV9CTE9DS0VEIiwKICAgICAgKSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIERFRkFVTFRfR1JPVVBfQllfQllfRVZFTlRfVFlQRS5GTl9FVkVOVF9HQVRFV0FZX1ZJU0lCSUxJVFlfQkxPQ0tFRCwKICAgICAgIkdMT0JBTCIsCiAgICApOwogIH0pOwoKICBpdCgicmVuZGVycyBhIGRlZGljYXRlZCBzdW1tYXJ5IGFuZCBwb2xpY3kgZGV0YWlsIGZpZWxkcyIsICgpID0+IHsKICAgIGNvbnN0IGFjdGl2ZUV2ZW50ID0gcmVmPFN5c3RlbUV2ZW50UmVjb3JkIHwgbnVsbD4odmlzaWJpbGl0eUV2ZW50KTsKICAgIGNvbnN0IGRpc3BsYXkgPSB1c2VTeXN0ZW1FdmVudERpc3BsYXkoewogICAgICBhY3RpdmVFdmVudCwKICAgICAgdHJhbnNsYXRlOiAoa2V5LCBwYXJhbXMpID0+CiAgICAgICAgcGFyYW1zID8gYCR7a2V5fToke0pTT04uc3RyaW5naWZ5KHBhcmFtcyl9YCA6IGtleSwKICAgIH0pOwoKICAgIGNvbnN0IHN1bW1hcnkgPSBkaXNwbGF5LmRlc2NyaWJlRXZlbnQodmlzaWJpbGl0eUV2ZW50KTsKICAgIGFzc2VydC5tYXRjaChzdW1tYXJ5LCAvZ2F0ZXdheVZpc2liaWxpdHlCbG9ja2VkL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHN1bW1hcnksIC9hcHBcLmV4YW1wbGVcLnRlc3QvdSk7CgogICAgY29uc3QgZGV0YWlscyA9IG5ldyBNYXAoCiAgICAgIGRpc3BsYXkuZGV0YWlsSXRlbXMudmFsdWUubWFwKChpdGVtKSA9PiBbaXRlbS5rZXksIGl0ZW0udmFsdWVdKSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGRpc3BsYXkuZGV0YWlsSXRlbXMudmFsdWUuZmluZCgoaXRlbSkgPT4gaXRlbS5rZXkgPT09ICJtZXRob2QiKT8ubGFiZWwsCiAgICAgICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLnJlcXVlc3RfbWV0aG9kIiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoZGV0YWlscy5nZXQoIm1ldGhvZCIpLCAiR0VUIik7CiAgICBhc3NlcnQuZXF1YWwoZGV0YWlscy5nZXQoInNjaGVtZSIpLCAiaHR0cHMiKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgZGV0YWlscy5nZXQoInZpc2liaWxpdHlfc2NvcGUiKSwKICAgICAgImFkbWluLmV2ZW50Q2VudGVyLmV2ZW50cy52aXNpYmlsaXR5U2NvcGUuaG9zdCIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBkZXRhaWxzLmdldCgidmlzaWJpbGl0eV9tb2RlIiksCiAgICAgICJhZG1pbi5ldmVudENlbnRlci5ldmVudHMudmlzaWJpbGl0eU1vZGUuY3VzdG9tIiwKICAgICk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKHJlc29sdmVTeXN0ZW1FdmVudE9yaWdpbnModmlzaWJpbGl0eUV2ZW50KSwgWwogICAgICB7CiAgICAgICAga2V5OiAiaXA6MjAzLjAuMTEzLjgiLAogICAgICAgIGlwOiAiMjAzLjAuMTEzLjgiLAogICAgICAgIGxvY2F0aW9uOiAiU2hhbmdoYWl8U2hhbmdoYWl8VW5pY29tIiwKICAgICAgfSwKICAgIF0pOwogIH0pOwoKICBpdCgic2hvd3MgYm90aCBlbmRwb2ludHMgYW5kIGxvY2F0aW9ucyBmb3IgYW4gSVAgZHJpZnQiLCAoKSA9PiB7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICByZXNvbHZlU3lzdGVtRXZlbnRPcmlnaW5zKHsKICAgICAgICAuLi52aXNpYmlsaXR5RXZlbnQsCiAgICAgICAgdHlwZTogIkZOX0VWRU5UX0FVVEhfU0VTU0lPTl9JUF9EUklGVCIsCiAgICAgICAgcGF5bG9hZDogewogICAgICAgICAgZnJvbV9pcDogIjIwMy4wLjExMy44IiwKICAgICAgICAgIGZyb21faXBfbG9jYXRpb246ICJTaGFuZ2hhaXxTaGFuZ2hhaXxVbmljb20iLAogICAgICAgICAgdG9faXA6ICIxOTguNTEuMTAwLjkiLAogICAgICAgICAgdG9faXBfbG9jYXRpb246ICJUb2t5b3xUb2t5b3xFeGFtcGxlIElTUCIsCiAgICAgICAgfSwKICAgICAgfSksCiAgICAgIFsKICAgICAgICB7CiAgICAgICAgICBrZXk6ICJmcm9tX2lwOjIwMy4wLjExMy44IiwKICAgICAgICAgIGlwOiAiMjAzLjAuMTEzLjgiLAogICAgICAgICAgbG9jYXRpb246ICJTaGFuZ2hhaXxTaGFuZ2hhaXxVbmljb20iLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAga2V5OiAidG9faXA6MTk4LjUxLjEwMC45IiwKICAgICAgICAgIGlwOiAiMTk4LjUxLjEwMC45IiwKICAgICAgICAgIGxvY2F0aW9uOiAiVG9reW98VG9reW98RXhhbXBsZSBJU1AiLAogICAgICAgIH0sCiAgICAgIF0sCiAgICApOwogIH0pOwoKICBpdCgicHJvdmlkZXMgbGFiZWxzIGFuZCBkZXNjcmlwdGlvbnMgaW4gZXZlcnkgc3VwcG9ydGVkIGxvY2FsZSIsICgpID0+IHsKICAgIGZvciAoY29uc3QgY2F0YWxvZyBvZiBbCiAgICAgIHpoQ05BZG1pbiwKICAgICAgemhIYW50QWRtaW4sCiAgICAgIGVuQWRtaW4sCiAgICAgIGphSlBBZG1pbiwKICAgICAga29LUkFkbWluLAogICAgXSkgewogICAgICBhc3NlcnQub2soCiAgICAgICAgY2F0YWxvZy5ldmVudENlbnRlci5ldmVudFR5cGVzLkZOX0VWRU5UX0dBVEVXQVlfVklTSUJJTElUWV9CTE9DS0VELAogICAgICApOwogICAgICBhc3NlcnQub2soY2F0YWxvZy5ldmVudENlbnRlci5ldmVudHMuZ2F0ZXdheVZpc2liaWxpdHlCbG9ja2VkKTsKICAgICAgYXNzZXJ0Lm9rKGNhdGFsb2cuZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy52aXNpYmlsaXR5X3Njb3BlKTsKICAgICAgYXNzZXJ0Lm9rKGNhdGFsb2cuZXZlbnRDZW50ZXIuZXZlbnRzLmRldGFpbEZpZWxkcy52aXNpYmlsaXR5X21vZGUpOwogICAgfQogIH0pOwp9KTsKCmRlc2NyaWJlKCJ0ZXJtaW5hbCBhdWRpdCBzeXN0ZW0gZXZlbnQiLCAoKSA9PiB7CiAgaXQoImlzIGF2YWlsYWJsZSB0byBub3RpZmljYXRpb24gcnVsZXMgYW5kIGdyb3VwcyBieSBzdWJqZWN0IiwgKCkgPT4gewogICAgYXNzZXJ0Lm9rKAogICAgICBTWVNURU1fRVZFTlRfVFlQRV9PUFRJT05TLnNvbWUoCiAgICAgICAgKG9wdGlvbikgPT4gb3B0aW9uLnZhbHVlID09PSAiRk5fRVZFTlRfVEVSTUlOQUxfQVVESVQiLAogICAgICApLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgREVGQVVMVF9HUk9VUF9CWV9CWV9FVkVOVF9UWVBFLkZOX0VWRU5UX1RFUk1JTkFMX0FVRElULAogICAgICAiU1VCSkVDVCIsCiAgICApOwogIH0pOwoKICBpdCgicmVuZGVycyBtZXRhZGF0YS1vbmx5IHRlcm1pbmFsIGF1ZGl0IGRldGFpbHMiLCAoKSA9PiB7CiAgICBjb25zdCBhY3RpdmVFdmVudCA9IHJlZjxTeXN0ZW1FdmVudFJlY29yZCB8IG51bGw+KHRlcm1pbmFsQXVkaXRFdmVudCk7CiAgICBjb25zdCBkaXNwbGF5ID0gdXNlU3lzdGVtRXZlbnREaXNwbGF5KHsKICAgICAgYWN0aXZlRXZlbnQsCiAgICAgIHRyYW5zbGF0ZTogKGtleSwgcGFyYW1zKSA9PgogICAgICAgIHBhcmFtcyA/IGAke2tleX06JHtKU09OLnN0cmluZ2lmeShwYXJhbXMpfWAgOiBrZXksCiAgICB9KTsKCiAgICBjb25zdCBzdW1tYXJ5ID0gZGlzcGxheS5kZXNjcmliZUV2ZW50KHRlcm1pbmFsQXVkaXRFdmVudCk7CiAgICBhc3NlcnQubWF0Y2goc3VtbWFyeSwgL3Rlcm1pbmFsQXVkaXREZXNjcmlwdGlvbi91KTsKICAgIGFzc2VydC5tYXRjaChzdW1tYXJ5LCAvc2Vzc2lvbl9sb3N0L3UpOwogICAgYXNzZXJ0Lm1hdGNoKHN1bW1hcnksIC9jb25uZWN0X3RpbWVvdXQvdSk7CgogICAgY29uc3QgZGV0YWlscyA9IG5ldyBNYXAoCiAgICAgIGRpc3BsYXkuZGV0YWlsSXRlbXMudmFsdWUubWFwKChpdGVtKSA9PiBbaXRlbS5rZXksIGl0ZW0udmFsdWVdKSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoZGV0YWlscy5nZXQoInRhcmdldF9pZCIpLCAidGFyZ2V0LTEyMzQ1Njc4OSIpOwogICAgYXNzZXJ0LmVxdWFsKGRldGFpbHMuZ2V0KCJzZXNzaW9uX2lkIiksICJzZXNzaW9uLTEyMzQ1Njc4OSIpOwogICAgYXNzZXJ0LmVxdWFsKGRldGFpbHMuZ2V0KCJlcnJvcl9jb2RlIiksICJjb25uZWN0X3RpbWVvdXQiKTsKICB9KTsKCiAgaXQoInByb3ZpZGVzIHRlcm1pbmFsIGF1ZGl0IGNvcHkgaW4gZXZlcnkgc3VwcG9ydGVkIGxvY2FsZSIsICgpID0+IHsKICAgIGZvciAoY29uc3QgY2F0YWxvZyBvZiBbCiAgICAgIHpoQ05BZG1pbiwKICAgICAgemhIYW50QWRtaW4sCiAgICAgIGVuQWRtaW4sCiAgICAgIGphSlBBZG1pbiwKICAgICAga29LUkFkbWluLAogICAgXSkgewogICAgICBhc3NlcnQub2soY2F0YWxvZy5ldmVudENlbnRlci5ldmVudFR5cGVzLkZOX0VWRU5UX1RFUk1JTkFMX0FVRElUKTsKICAgICAgYXNzZXJ0Lm9rKGNhdGFsb2cuZXZlbnRDZW50ZXIuZXZlbnRzLnRlcm1pbmFsQXVkaXREZXNjcmlwdGlvbik7CiAgICAgIGFzc2VydC5vayhjYXRhbG9nLmV2ZW50Q2VudGVyLmV2ZW50cy50ZXJtaW5hbEF1ZGl0QWN0aW9ucy5zZXNzaW9uX2xvc3QpOwogICAgICBhc3NlcnQub2soCiAgICAgICAgY2F0YWxvZy5ldmVudENlbnRlci5ldmVudHMudGVybWluYWxBdWRpdEFjdGlvbnMubG9jYWxfdGVybWluYWxfZW5hYmxlZCwKICAgICAgKTsKICAgICAgYXNzZXJ0Lm9rKAogICAgICAgIGNhdGFsb2cuZXZlbnRDZW50ZXIuZXZlbnRzLnRlcm1pbmFsQXVkaXRBY3Rpb25zLnNlc3Npb25fY3JlYXRpb25fZmFpbGVkLAogICAgICApOwogICAgICBhc3NlcnQub2soY2F0YWxvZy5ldmVudENlbnRlci5ldmVudHMuZGV0YWlsRmllbGRzLmVycm9yX2NvZGUpOwogICAgfQogIH0pOwp9KTsK
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import { ref } from "vue";
+
+import { enAdmin } from "../../../packages/i18n/src/messages/admin/en";
+import { jaJPAdmin } from "../../../packages/i18n/src/messages/admin/ja-JP";
+import { koKRAdmin } from "../../../packages/i18n/src/messages/admin/ko-KR";
+import { zhCNAdmin } from "../../../packages/i18n/src/messages/admin/zh-CN";
+import { zhHantAdmin } from "../../../packages/i18n/src/messages/admin/zh-Hant";
+import type { SystemEventRecord } from "../src/types";
+import {
+  DEFAULT_GROUP_BY_BY_EVENT_TYPE,
+  SYSTEM_EVENT_TYPE_OPTIONS,
+} from "../src/views/event-center/constants";
+import { resolveSystemEventOrigins } from "../src/views/event-center/systemEventDescription";
+import { useSystemEventDisplay } from "../src/views/event-center/useSystemEventDisplay";
+
+const visibilityEvent: SystemEventRecord = {
+  id: "evt_visibility_1",
+  type: "FN_EVENT_GATEWAY_VISIBILITY_BLOCKED",
+  source: "GO_REAUTH_PROXY",
+  level: "WARN",
+  happened_at: "2026-07-27T10:11:12Z",
+  subject: { kind: "IP", id: "203.0.113.8" },
+  tags: ["gateway", "visibility", "security"],
+  payload: {
+    ip: "203.0.113.8",
+    ip_location: "Shanghai|Shanghai|Unicom",
+    blocked_at: "2026-07-27T10:11:12Z",
+    method: "GET",
+    scheme: "https",
+    host: "app.example.test",
+    path: "/private",
+    route_type: "host_rule",
+    route_key: "app.example.test",
+    visibility_scope: "host",
+    visibility_mode: "custom",
+    status: 499,
+  },
+};
+
+const terminalAuditEvent: SystemEventRecord = {
+  id: "evt_terminal_1",
+  type: "FN_EVENT_TERMINAL_AUDIT",
+  source: "SERVER_ADMIN",
+  level: "WARN",
+  happened_at: "2026-08-28T10:11:12Z",
+  subject: { kind: "COMPONENT", id: "session-123456789" },
+  tags: ["terminal", "audit"],
+  payload: {
+    action: "session_lost",
+    target_id: "target-123456789",
+    session_id: "session-123456789",
+    error_code: "connect_timeout",
+  },
+};
+
+describe("system event catalog", () => {
+  it("keeps every notification grouping event selectable", () => {
+    const selectableTypes = SYSTEM_EVENT_TYPE_OPTIONS.map(
+      (option) => option.value,
+    ).sort();
+    const groupedTypes = Object.keys(DEFAULT_GROUP_BY_BY_EVENT_TYPE).sort();
+
+    assert.deepEqual(selectableTypes, groupedTypes);
+    assert.ok(selectableTypes.includes("FN_EVENT_WOL_SHUTDOWN_COMPLETED"));
+  });
+});
+
+describe("gateway visibility system event", () => {
+  it("is available to filters and defaults notification grouping globally", () => {
+    assert.ok(
+      SYSTEM_EVENT_TYPE_OPTIONS.some(
+        (option) => option.value === "FN_EVENT_GATEWAY_VISIBILITY_BLOCKED",
+      ),
+    );
+    assert.equal(
+      DEFAULT_GROUP_BY_BY_EVENT_TYPE.FN_EVENT_GATEWAY_VISIBILITY_BLOCKED,
+      "GLOBAL",
+    );
+  });
+
+  it("renders a dedicated summary and policy detail fields", () => {
+    const activeEvent = ref<SystemEventRecord | null>(visibilityEvent);
+    const display = useSystemEventDisplay({
+      activeEvent,
+      translate: (key, params) =>
+        params ? `${key}:${JSON.stringify(params)}` : key,
+    });
+
+    const summary = display.describeEvent(visibilityEvent);
+    assert.match(summary, /gatewayVisibilityBlocked/u);
+    assert.match(summary, /app\.example\.test/u);
+
+    const details = new Map(
+      display.detailItems.value.map((item) => [item.key, item.value]),
+    );
+    assert.equal(
+      display.detailItems.value.find((item) => item.key === "method")?.label,
+      "admin.eventCenter.events.detailFields.request_method",
+    );
+    assert.equal(details.get("method"), "GET");
+    assert.equal(details.get("scheme"), "https");
+    assert.equal(
+      details.get("visibility_scope"),
+      "admin.eventCenter.events.visibilityScope.host",
+    );
+    assert.equal(
+      details.get("visibility_mode"),
+      "admin.eventCenter.events.visibilityMode.custom",
+    );
+    assert.deepEqual(resolveSystemEventOrigins(visibilityEvent), [
+      {
+        key: "ip:203.0.113.8",
+        ip: "203.0.113.8",
+        location: "Shanghai|Shanghai|Unicom",
+      },
+    ]);
+  });
+
+  it("shows both endpoints and locations for an IP drift", () => {
+    assert.deepEqual(
+      resolveSystemEventOrigins({
+        ...visibilityEvent,
+        type: "FN_EVENT_AUTH_SESSION_IP_DRIFT",
+        payload: {
+          from_ip: "203.0.113.8",
+          from_ip_location: "Shanghai|Shanghai|Unicom",
+          to_ip: "198.51.100.9",
+          to_ip_location: "Tokyo|Tokyo|Example ISP",
+        },
+      }),
+      [
+        {
+          key: "from_ip:203.0.113.8",
+          ip: "203.0.113.8",
+          location: "Shanghai|Shanghai|Unicom",
+        },
+        {
+          key: "to_ip:198.51.100.9",
+          ip: "198.51.100.9",
+          location: "Tokyo|Tokyo|Example ISP",
+        },
+      ],
+    );
+  });
+
+  it("provides labels and descriptions in every supported locale", () => {
+    for (const catalog of [
+      zhCNAdmin,
+      zhHantAdmin,
+      enAdmin,
+      jaJPAdmin,
+      koKRAdmin,
+    ]) {
+      assert.ok(
+        catalog.eventCenter.eventTypes.FN_EVENT_GATEWAY_VISIBILITY_BLOCKED,
+      );
+      assert.ok(catalog.eventCenter.events.gatewayVisibilityBlocked);
+      assert.ok(catalog.eventCenter.events.detailFields.visibility_scope);
+      assert.ok(catalog.eventCenter.events.detailFields.visibility_mode);
+    }
+  });
+});
+
+describe("terminal audit system event", () => {
+  it("is available to notification rules and groups by subject", () => {
+    assert.ok(
+      SYSTEM_EVENT_TYPE_OPTIONS.some(
+        (option) => option.value === "FN_EVENT_TERMINAL_AUDIT",
+      ),
+    );
+    assert.equal(
+      DEFAULT_GROUP_BY_BY_EVENT_TYPE.FN_EVENT_TERMINAL_AUDIT,
+      "SUBJECT",
+    );
+  });
+
+  it("renders metadata-only terminal audit details", () => {
+    const activeEvent = ref<SystemEventRecord | null>(terminalAuditEvent);
+    const display = useSystemEventDisplay({
+      activeEvent,
+      translate: (key, params) =>
+        params ? `${key}:${JSON.stringify(params)}` : key,
+    });
+
+    const summary = display.describeEvent(terminalAuditEvent);
+    assert.match(summary, /terminalAuditDescription/u);
+    assert.match(summary, /session_lost/u);
+    assert.match(summary, /connect_timeout/u);
+
+    const details = new Map(
+      display.detailItems.value.map((item) => [item.key, item.value]),
+    );
+    assert.equal(details.get("target_id"), "target-123456789");
+    assert.equal(details.get("session_id"), "session-123456789");
+    assert.equal(details.get("error_code"), "connect_timeout");
+  });
+
+  it("provides terminal audit copy in every supported locale", () => {
+    for (const catalog of [
+      zhCNAdmin,
+      zhHantAdmin,
+      enAdmin,
+      jaJPAdmin,
+      koKRAdmin,
+    ]) {
+      assert.ok(catalog.eventCenter.eventTypes.FN_EVENT_TERMINAL_AUDIT);
+      assert.ok(catalog.eventCenter.events.terminalAuditDescription);
+      assert.ok(catalog.eventCenter.events.terminalAuditActions.session_lost);
+      assert.ok(
+        catalog.eventCenter.events.terminalAuditActions.local_terminal_enabled,
+      );
+      assert.ok(
+        catalog.eventCenter.events.terminalAuditActions.session_creation_failed,
+      );
+      assert.ok(catalog.eventCenter.events.detailFields.error_code);
+    }
+  });
+});

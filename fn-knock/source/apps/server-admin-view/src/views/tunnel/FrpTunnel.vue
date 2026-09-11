@@ -1,1 +1,416 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50LCBDYXJkSGVhZGVyLCBDYXJkVGl0bGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7CiAgSW5mbywKICBQZW5jaWwsCiAgUGxheSwKICBQbHVzLAogIFNjcm9sbFRleHQsCiAgU3F1YXJlLAogIFRyYXNoMiwKfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgTG9nVmlld2VyIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9Mb2dWaWV3ZXIudnVlIjsKaW1wb3J0IENvbmZpZ0NvbGxhcHNpYmxlQ2FyZCBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvQ29uZmlnQ29sbGFwc2libGVDYXJkLnZ1ZSI7CmltcG9ydCBDb25maXJtRGFuZ2VyUG9wb3ZlciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0NvbmZpcm1EYW5nZXJQb3BvdmVyLnZ1ZSI7CmltcG9ydCBIdW1hbkZyaWVuZGx5VGltZSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0h1bWFuRnJpZW5kbHlUaW1lLnZ1ZSI7CmltcG9ydCBEb2NzTGlua0J1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvRG9jc0xpbmtCdXR0b24udnVlIjsKaW1wb3J0IFR1bm5lbFN1cGVydmlzb3JTdGF0dXMgZnJvbSAiQC9jb21wb25lbnRzL1R1bm5lbFN1cGVydmlzb3JTdGF0dXMudnVlIjsKaW1wb3J0IHsgZG9jc1VybHMgfSBmcm9tICJAL2xpYi9kb2NzIjsKaW1wb3J0IEZycGNJbnN0YW5jZUVkaXRvciBmcm9tICIuL2ZycC9GcnBjSW5zdGFuY2VFZGl0b3IudnVlIjsKaW1wb3J0IEZycE91dGRhdGVkQWxlcnQgZnJvbSAiLi9mcnAvRnJwT3V0ZGF0ZWRBbGVydC52dWUiOwppbXBvcnQgeyB1c2VGcnBUdW5uZWxDb250cm9sbGVyIH0gZnJvbSAiLi9mcnAvdXNlRnJwVHVubmVsQ29udHJvbGxlciI7Cgp3aXRoRGVmYXVsdHMoCiAgZGVmaW5lUHJvcHM8ewogICAgc2hvd0RvY3NCdXR0b24/OiBib29sZWFuOwogIH0+KCksCiAgeyBzaG93RG9jc0J1dHRvbjogZmFsc2UgfSwKKTsKCmNvbnN0IHsKICBjYW5TdGFydCwKICBjYW5TdG9wLAogIGNvbmZpZ0xvYWRlZCwKICBkZWZhdWx0cywKICBkZWxldGVJbnN0YW5jZSwKICBkZWxldGluZ0luc3RhbmNlSWQsCiAgZXh0cmFJbnN0YW5jZXMsCiAgZm9ybWF0U3VtbWFyeSwKICBmcnBJbnN0YWxsYXRpb25TdGF0dXMsCiAgZnJwVGFyZ2V0VmVyc2lvbiwKICBnZXRJbnN0YW5jZURpc3BsYXlOYW1lLAogIGdvdG9GcnBSZXNvdXJjZXMsCiAgZ290b0luc3RhbmNlQ3JlYXRlLAogIGdvdG9JbnN0YW5jZURldGFpbCwKICBpc0NsZWFyaW5nTG9ncywKICBpc1NhdmluZywKICBpc1N0YXJ0aW5nLAogIGlzU3RvcHBpbmcsCiAgb25DbGVhckxvZ3NDbGljaywKICBvdmVydmlldywKICBwaWQsCiAgcHJpbWFyeUNvbmZpZywKICBwcmltYXJ5SW5zdGFuY2UsCiAgcHJpbWFyeUxvZ3MsCiAgcHJpbWFyeVN1bW1hcnksCiAgc2F2ZUNvbmZpZywKICBzZXRQcmltYXJ5RWRpdG9yUmVmLAogIHNob3dJbml0RGlhbG9nLAogIHN0YXJ0RnJwYywKICBzdGFydEluc3RhbmNlLAogIHN0YXJ0aW5nSW5zdGFuY2VJZCwKICBzdG9wRnJwYywKICBzdG9wSW5zdGFuY2UsCiAgc3RvcHBpbmdJbnN0YW5jZUlkLAogIHQsCn0gPSB1c2VGcnBUdW5uZWxDb250cm9sbGVyKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktNiI+CiAgICA8ZGl2CiAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICA+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgPGgyIGNsYXNzPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQiPnt7IHQoImFkbWluLmZycFR1bm5lbC50aXRsZSIpIH19PC9oMj4KICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgiYWRtaW4uZnJwVHVubmVsLnJ1bm5pbmdTdW1tYXJ5IiwgewogICAgICAgICAgICAgIHJ1bm5pbmc6IG92ZXJ2aWV3Py5ydW5uaW5nQ291bnQgPz8gMCwKICAgICAgICAgICAgICB0b3RhbDogb3ZlcnZpZXc/LnRvdGFsID8/IDAsCiAgICAgICAgICAgIH0pCiAgICAgICAgICB9fQogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgPERvY3NMaW5rQnV0dG9uCiAgICAgICAgICB2LWlmPSJzaG93RG9jc0J1dHRvbiIKICAgICAgICAgIDpocmVmPSJkb2NzVXJscy5ndWlkZXMudHVubmVsIgogICAgICAgICAgc2l6ZT0iZGVmYXVsdCIKICAgICAgICAgIGNsYXNzPSJzaHJpbmstMCIKICAgICAgICAvPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHYtaWY9IiFwcmltYXJ5SW5zdGFuY2U/LmRlc2lyZWRSdW5uaW5nICYmICFwcmltYXJ5SW5zdGFuY2U/LnJ1bm5pbmciCiAgICAgICAgICA6ZGlzYWJsZWQ9IiFjYW5TdGFydCB8fCBpc1N0YXJ0aW5nIgogICAgICAgICAgQGNsaWNrPSJzdGFydEZycGMiCiAgICAgICAgPgogICAgICAgICAgPFBsYXkgY2xhc3M9Im1yLTEuNSBoLTQgdy00IiAvPgogICAgICAgICAge3sgdCgiYWRtaW4uZnJwVHVubmVsLnN0YXJ0IikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2LWVsc2UKICAgICAgICAgIHZhcmlhbnQ9ImRlc3RydWN0aXZlIgogICAgICAgICAgOmRpc2FibGVkPSIhY2FuU3RvcCB8fCBpc1N0b3BwaW5nIgogICAgICAgICAgQGNsaWNrPSJzdG9wRnJwYyIKICAgICAgICA+CiAgICAgICAgICA8U3F1YXJlIGNsYXNzPSJtci0xLjUgaC00IHctNCIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLmZycFR1bm5lbC5zdG9wIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8RnJwT3V0ZGF0ZWRBbGVydAogICAgICA6aW5zdGFsbGF0aW9uLXN0YXR1cz0iZnJwSW5zdGFsbGF0aW9uU3RhdHVzIgogICAgICA6dGFyZ2V0LXZlcnNpb249ImZycFRhcmdldFZlcnNpb24iCiAgICAgIDpydW5uaW5nLWNvdW50PSJvdmVydmlldz8ucnVubmluZ0NvdW50ID8/IDAiCiAgICAgIDpvdXRkYXRlZC1ydW5uaW5nLWNvdW50PSJvdmVydmlldz8ub3V0ZGF0ZWRSdW5uaW5nQ291bnQgPz8gMCIKICAgICAgQGdvLXVwZGF0ZT0iZ290b0ZycFJlc291cmNlcyIKICAgIC8+CgogICAgPENvbmZpZ0NvbGxhcHNpYmxlQ2FyZAogICAgICA6dGl0bGU9InQoJ2FkbWluLmZycFR1bm5lbC5wcmltYXJ5Q29uZmlnVGl0bGUnKSIKICAgICAgOmNvbmZpZ3VyZWQ9IkJvb2xlYW4ocHJpbWFyeVN1bW1hcnkuc2VydmVyQWRkcikiCiAgICAgIDpyZWFkeT0iY29uZmlnTG9hZGVkIgogICAgICBzdW1tYXJ5LWNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgZXhwYW5kZWQtY29udGVudC1jbGFzcz0icC0wIHNtOnAtMCIKICAgID4KICAgICAgPHRlbXBsYXRlICNzdW1tYXJ5PgogICAgICAgIHt7IGZvcm1hdFN1bW1hcnkocHJpbWFyeVN1bW1hcnkpIH19CiAgICAgIDwvdGVtcGxhdGU+CgogICAgICA8dGVtcGxhdGUgI2RlZmF1bHQ+CiAgICAgICAgPEZycGNJbnN0YW5jZUVkaXRvcgogICAgICAgICAgOnJlZj0ic2V0UHJpbWFyeUVkaXRvclJlZiIKICAgICAgICAgIHYtbW9kZWw9InByaW1hcnlDb25maWciCiAgICAgICAgICA6ZGVmYXVsdHM9ImRlZmF1bHRzIgogICAgICAgICAgaWQtcHJlZml4PSJmcnAtcHJpbWFyeSIKICAgICAgICAvPgogICAgICA8L3RlbXBsYXRlPgoKICAgICAgPHRlbXBsYXRlICNhY3Rpb25zPSJ7IGNvbGxhcHNlIH0iPgogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWVuZCBnYXAtMyByb3VuZGVkLWItbGcgYm9yZGVyLXQgYmctbXV0ZWQvMzAgcC00IHNtOnB4LTYgc206cHktNCIKICAgICAgICA+CiAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0iY29sbGFwc2UiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5mcnBUdW5uZWwuY29sbGFwc2UiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIGNsYXNzPSJtaW4tdy1bMTAwcHhdIHNoYWRvdy1zbSIKICAgICAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZyIKICAgICAgICAgICAgQGNsaWNrPSJzYXZlQ29uZmlnIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJjb21tb24uc2F2ZSIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC90ZW1wbGF0ZT4KICAgIDwvQ29uZmlnQ29sbGFwc2libGVDYXJkPgoKICAgIDxDYXJkPgogICAgICA8Q2FyZEhlYWRlcj4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgPENhcmRUaXRsZSBjbGFzcz0idGV4dC1iYXNlIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZnJwVHVubmVsLnByaW1hcnlDb25uZWN0aW9uSW5mbyIpIH19CiAgICAgICAgICA8L0NhcmRUaXRsZT4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNDbGVhcmluZ0xvZ3MgfHwgcHJpbWFyeUxvZ3MubGVuZ3RoID09PSAwIgogICAgICAgICAgICBAY2xpY2s9Im9uQ2xlYXJMb2dzQ2xpY2siCiAgICAgICAgICA+CiAgICAgICAgICAgIDxUcmFzaDIgY2xhc3M9Im1yLTEgaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmZycFR1bm5lbC5jbGVhciIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9DYXJkSGVhZGVyPgogICAgICA8Q2FyZENvbnRlbnQgY2xhc3M9InNwYWNlLXktNCI+CiAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMyB0ZXh0LXNtIHNtOmdyaWQtY29scy0zIj4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5mcnBUdW5uZWwuc3RhdHVzIikgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9Im10LTEgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgIDxUdW5uZWxTdXBlcnZpc29yU3RhdHVzCiAgICAgICAgICAgICAgICB2LWlmPSJwcmltYXJ5SW5zdGFuY2UiCiAgICAgICAgICAgICAgICA6c3VwZXJ2aXNvcj0icHJpbWFyeUluc3RhbmNlLnN1cGVydmlzb3IiCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5QSUQ8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMSBmb250LW1vbm8iPnt7IHBpZCA/PyAiLSIgfX08L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmZycFR1bm5lbC5sb2dBdHRhY2htZW50IikgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9Im10LTEiPgogICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICBwcmltYXJ5SW5zdGFuY2U/LmF0dGFjaGVkCiAgICAgICAgICAgICAgICAgID8gdCgiYWRtaW4uZnJwVHVubmVsLmN1cnJlbnRQcm9jZXNzIikKICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5mcnBUdW5uZWwuaGlzdG9yeUJ1ZmZlciIpCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8TG9nVmlld2VyIDpsb2dzPSJwcmltYXJ5TG9ncyIgcmV2ZXJzZWQgOnNob3ctaGVhZGVyPSJmYWxzZSIgLz4KICAgICAgPC9DYXJkQ29udGVudD4KICAgIDwvQ2FyZD4KCiAgICA8Q2FyZCBjbGFzcz0iZ2FwLTIiPgogICAgICA8Q2FyZEhlYWRlcj4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtMyBzbTpmbGV4LXJvdyBzbTppdGVtcy1zdGFydCBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgICAgPgogICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICAgICAgPENhcmRUaXRsZSBjbGFzcz0idGV4dC1iYXNlIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5mcnBUdW5uZWwubW9yZUZycCIpIH19CiAgICAgICAgICAgIDwvQ2FyZFRpdGxlPgogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmZycFR1bm5lbC5tb3JlRnJwRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxCdXR0b24gc2l6ZT0ic20iIEBjbGljaz0iZ290b0luc3RhbmNlQ3JlYXRlIj4KICAgICAgICAgICAgPFBsdXMgY2xhc3M9Im1yLTEuNSBoLTQgdy00IiAvPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5mcnBUdW5uZWwuYWRkRnJwIikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L0NhcmRIZWFkZXI+CiAgICAgIDxDYXJkQ29udGVudCBjbGFzcz0ic3BhY2UteS0zIj4KICAgICAgICA8ZGl2CiAgICAgICAgICB2LWlmPSJleHRyYUluc3RhbmNlcy5sZW5ndGggPT09IDAiCiAgICAgICAgICBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWRhc2hlZCBweC00IHB5LTYgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uZnJwVHVubmVsLmVtcHR5RXh0cmEiKSB9fQogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IHYtZWxzZSBjbGFzcz0ic3BhY2UteS0zIj4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgdi1mb3I9Imluc3RhbmNlIGluIGV4dHJhSW5zdGFuY2VzIgogICAgICAgICAgICA6a2V5PSJpbnN0YW5jZS5pZCIKICAgICAgICAgICAgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIGJnLWNhcmQgcHgtNCBweS00IgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTQgbGc6ZmxleC1yb3cgbGc6aXRlbXMtc3RhcnQgbGc6anVzdGlmeS1iZXR3ZWVuIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTIiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgICAgIHt7IGdldEluc3RhbmNlRGlzcGxheU5hbWUoaW5zdGFuY2UpIH19CiAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgPFR1bm5lbFN1cGVydmlzb3JTdGF0dXMKICAgICAgICAgICAgICAgICAgICA6c3VwZXJ2aXNvcj0iaW5zdGFuY2Uuc3VwZXJ2aXNvciIKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPHAgY2xhc3M9ImJyZWFrLWFsbCB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgIHt7IGZvcm1hdFN1bW1hcnkoaW5zdGFuY2Uuc3VtbWFyeSkgfX0KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgIDxwCiAgICAgICAgICAgICAgICAgIHYtaWY9Imluc3RhbmNlLmxhc3RNZXNzYWdlIgogICAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IGluc3RhbmNlLmxhc3RNZXNzYWdlIH19CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTMgc206Z3JpZC1jb2xzLTMgbGc6bWluLXctWzM2MHB4XSI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJyb3VuZGVkLWxnIHB4LTMgcHktMiI+CiAgICAgICAgICAgICAgICAgIDxwCiAgICAgICAgICAgICAgICAgICAgY2xhc3M9InRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICBQSUQKICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICA8cCBjbGFzcz0ibXQtMSBmb250LW1vbm8gdGV4dC1zbSI+CiAgICAgICAgICAgICAgICAgICAge3sgaW5zdGFuY2UucGlkID8/ICItIiB9fQogICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InJvdW5kZWQtbGcgcHgtMyBweS0yIj4KICAgICAgICAgICAgICAgICAgPHAKICAgICAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC1bMTBweF0gdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmZycFR1bm5lbC5sYXN0U3RhcnRlZCIpIH19CiAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3M9Im10LTEgdGV4dC1zbSI+CiAgICAgICAgICAgICAgICAgICAgPEh1bWFuRnJpZW5kbHlUaW1lIDp2YWx1ZT0iaW5zdGFuY2Uuc3RhcnRlZEF0IiAvPgogICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InJvdW5kZWQtbGcgcHgtMyBweS0yIj4KICAgICAgICAgICAgICAgICAgPHAKICAgICAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC1bMTBweF0gdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmZycFR1bm5lbC5sb2dzIikgfX0KICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICA8cCBjbGFzcz0ibXQtMSB0ZXh0LXNtIj4KICAgICAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICAgICAgaW5zdGFuY2UuYXR0YWNoZWQKICAgICAgICAgICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5mcnBUdW5uZWwubGl2ZUF0dGFjaGVkIikKICAgICAgICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5mcnBUdW5uZWwuaGlzdG9yeUJ1ZmZlciIpCiAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGRpdiBjbGFzcz0ibXQtNCBmbGV4IGZsZXgtd3JhcCBqdXN0aWZ5LWVuZCBnYXAtMiI+CiAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgICAgQGNsaWNrPSJnb3RvSW5zdGFuY2VEZXRhaWwoaW5zdGFuY2UsICdjb25maWcnKSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8UGVuY2lsIGNsYXNzPSJtci0xLjUgaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5mcnBUdW5uZWwuZWRpdCIpIH19CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgdi1pZj0iIWluc3RhbmNlLmRlc2lyZWRSdW5uaW5nICYmICFpbnN0YW5jZS5ydW5uaW5nIgogICAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgICAgOmRpc2FibGVkPSJzdGFydGluZ0luc3RhbmNlSWQgPT09IGluc3RhbmNlLmlkIgogICAgICAgICAgICAgICAgQGNsaWNrPSJzdGFydEluc3RhbmNlKGluc3RhbmNlKSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8UGxheSBjbGFzcz0ibXItMS41IGgtMy41IHctMy41IiAvPgogICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgc3RhcnRpbmdJbnN0YW5jZUlkID09PSBpbnN0YW5jZS5pZAogICAgICAgICAgICAgICAgICAgID8gdCgiYWRtaW4uZnJwVHVubmVsLnN0YXJ0aW5nIikKICAgICAgICAgICAgICAgICAgICA6IHQoImFkbWluLmZycFR1bm5lbC5zdGFydCIpCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgIHYtZWxzZQogICAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgICAgOmRpc2FibGVkPSJzdG9wcGluZ0luc3RhbmNlSWQgPT09IGluc3RhbmNlLmlkIgogICAgICAgICAgICAgICAgQGNsaWNrPSJzdG9wSW5zdGFuY2UoaW5zdGFuY2UpIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxTcXVhcmUgY2xhc3M9Im1yLTEuNSBoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgIHN0b3BwaW5nSW5zdGFuY2VJZCA9PT0gaW5zdGFuY2UuaWQKICAgICAgICAgICAgICAgICAgICA/IHQoImFkbWluLmZycFR1bm5lbC5zdG9wcGluZyIpCiAgICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5mcnBUdW5uZWwuc3RvcCIpCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgIEBjbGljaz0iZ290b0luc3RhbmNlRGV0YWlsKGluc3RhbmNlLCAnbG9ncycpIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxTY3JvbGxUZXh0IGNsYXNzPSJtci0xLjUgaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5mcnBUdW5uZWwubG9ncyIpIH19CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgICAgQGNsaWNrPSJnb3RvSW5zdGFuY2VEZXRhaWwoaW5zdGFuY2UpIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxJbmZvIGNsYXNzPSJtci0xLjUgaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5mcnBUdW5uZWwudmlld01vcmUiKSB9fQogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICAgICAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5mcnBUdW5uZWwuZGVsZXRlVGl0bGUnKSIKICAgICAgICAgICAgICAgIDpkZXNjcmlwdGlvbj0iCiAgICAgICAgICAgICAgICAgIHQoJ2FkbWluLmZycFR1bm5lbC5kZWxldGVEZXNjcmlwdGlvbicsIHsKICAgICAgICAgICAgICAgICAgICBuYW1lOiBnZXRJbnN0YW5jZURpc3BsYXlOYW1lKGluc3RhbmNlKSwKICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgIDpsb2FkaW5nPSJkZWxldGluZ0luc3RhbmNlSWQgPT09IGluc3RhbmNlLmlkIgogICAgICAgICAgICAgICAgOmRpc2FibGVkPSJkZWxldGluZ0luc3RhbmNlSWQgPT09IGluc3RhbmNlLmlkIgogICAgICAgICAgICAgICAgOm9uLWNvbmZpcm09IigpID0+IGRlbGV0ZUluc3RhbmNlKGluc3RhbmNlKSIKICAgICAgICAgICAgICAgIGNvbnRlbnQtY2xhc3M9InctNzIgdGV4dC1sZWZ0IgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDx0ZW1wbGF0ZSAjdHJpZ2dlcj4KICAgICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJkZWxldGluZ0luc3RhbmNlSWQgPT09IGluc3RhbmNlLmlkIgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LWRlc3RydWN0aXZlIGhvdmVyOnRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8VHJhc2gyIGNsYXNzPSJtci0xLjUgaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgICAgIGRlbGV0aW5nSW5zdGFuY2VJZCA9PT0gaW5zdGFuY2UuaWQKICAgICAgICAgICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5mcnBUdW5uZWwuZGVsZXRpbmciKQogICAgICAgICAgICAgICAgICAgICAgICA6IHQoImFkbWluLmZycFR1bm5lbC5kZWxldGUiKQogICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgICAgICA8L0NvbmZpcm1EYW5nZXJQb3BvdmVyPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L0NhcmRDb250ZW50PgogICAgPC9DYXJkPgoKICAgIDxEaWFsb2cgdi1tb2RlbDpvcGVuPSJzaG93SW5pdERpYWxvZyI+CiAgICAgIDxEaWFsb2dDb250ZW50PgogICAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgICA8RGlhbG9nVGl0bGU+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmZycFR1bm5lbC5ub3RJbml0aWFsaXplZFRpdGxlIikgfX0KICAgICAgICAgIDwvRGlhbG9nVGl0bGU+CiAgICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgICAgPHAgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7IHQoImFkbWluLmZycFR1bm5lbC5ub3RJbml0aWFsaXplZERlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L3A+CiAgICAgICAgPERpYWxvZ0Zvb3Rlcj4KICAgICAgICAgIDxCdXR0b24gQGNsaWNrPSJnb3RvRnJwUmVzb3VyY2VzIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZnJwVHVubmVsLmdvSW5pdGlhbGl6ZSIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgICAgPC9EaWFsb2dDb250ZW50PgogICAgPC9EaWFsb2c+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import {
+  Info,
+  Pencil,
+  Play,
+  Plus,
+  ScrollText,
+  Square,
+  Trash2,
+} from "lucide-vue-next";
+import LogViewer from "@admin-shared/components/LogViewer.vue";
+import ConfigCollapsibleCard from "@admin-shared/components/ConfigCollapsibleCard.vue";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import DocsLinkButton from "@/components/DocsLinkButton.vue";
+import TunnelSupervisorStatus from "@/components/TunnelSupervisorStatus.vue";
+import { docsUrls } from "@/lib/docs";
+import FrpcInstanceEditor from "./frp/FrpcInstanceEditor.vue";
+import FrpOutdatedAlert from "./frp/FrpOutdatedAlert.vue";
+import { useFrpTunnelController } from "./frp/useFrpTunnelController";
+
+withDefaults(
+  defineProps<{
+    showDocsButton?: boolean;
+  }>(),
+  { showDocsButton: false },
+);
+
+const {
+  canStart,
+  canStop,
+  configLoaded,
+  defaults,
+  deleteInstance,
+  deletingInstanceId,
+  extraInstances,
+  formatSummary,
+  frpInstallationStatus,
+  frpTargetVersion,
+  getInstanceDisplayName,
+  gotoFrpResources,
+  gotoInstanceCreate,
+  gotoInstanceDetail,
+  isClearingLogs,
+  isSaving,
+  isStarting,
+  isStopping,
+  onClearLogsClick,
+  overview,
+  pid,
+  primaryConfig,
+  primaryInstance,
+  primaryLogs,
+  primarySummary,
+  saveConfig,
+  setPrimaryEditorRef,
+  showInitDialog,
+  startFrpc,
+  startInstance,
+  startingInstanceId,
+  stopFrpc,
+  stopInstance,
+  stoppingInstanceId,
+  t,
+} = useFrpTunnelController();
+</script>
+
+<template>
+  <div class="space-y-6">
+    <div
+      class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"
+    >
+      <div class="space-y-1">
+        <h2 class="text-xl font-semibold">{{ t("admin.frpTunnel.title") }}</h2>
+        <p class="text-sm text-muted-foreground">
+          {{
+            t("admin.frpTunnel.runningSummary", {
+              running: overview?.runningCount ?? 0,
+              total: overview?.total ?? 0,
+            })
+          }}
+        </p>
+      </div>
+      <div class="flex flex-wrap items-center gap-3">
+        <DocsLinkButton
+          v-if="showDocsButton"
+          :href="docsUrls.guides.tunnel"
+          size="default"
+          class="shrink-0"
+        />
+        <Button
+          v-if="!primaryInstance?.desiredRunning && !primaryInstance?.running"
+          :disabled="!canStart || isStarting"
+          @click="startFrpc"
+        >
+          <Play class="mr-1.5 h-4 w-4" />
+          {{ t("admin.frpTunnel.start") }}
+        </Button>
+        <Button
+          v-else
+          variant="destructive"
+          :disabled="!canStop || isStopping"
+          @click="stopFrpc"
+        >
+          <Square class="mr-1.5 h-4 w-4" />
+          {{ t("admin.frpTunnel.stop") }}
+        </Button>
+      </div>
+    </div>
+
+    <FrpOutdatedAlert
+      :installation-status="frpInstallationStatus"
+      :target-version="frpTargetVersion"
+      :running-count="overview?.runningCount ?? 0"
+      :outdated-running-count="overview?.outdatedRunningCount ?? 0"
+      @go-update="gotoFrpResources"
+    />
+
+    <ConfigCollapsibleCard
+      :title="t('admin.frpTunnel.primaryConfigTitle')"
+      :configured="Boolean(primarySummary.serverAddr)"
+      :ready="configLoaded"
+      summary-class="text-xs text-muted-foreground"
+      expanded-content-class="p-0 sm:p-0"
+    >
+      <template #summary>
+        {{ formatSummary(primarySummary) }}
+      </template>
+
+      <template #default>
+        <FrpcInstanceEditor
+          :ref="setPrimaryEditorRef"
+          v-model="primaryConfig"
+          :defaults="defaults"
+          id-prefix="frp-primary"
+        />
+      </template>
+
+      <template #actions="{ collapse }">
+        <div
+          class="flex items-center justify-end gap-3 rounded-b-lg border-t bg-muted/30 p-4 sm:px-6 sm:py-4"
+        >
+          <Button variant="outline" @click="collapse">
+            {{ t("admin.frpTunnel.collapse") }}
+          </Button>
+          <Button
+            class="min-w-[100px] shadow-sm"
+            :disabled="isSaving"
+            @click="saveConfig"
+          >
+            {{ t("common.save") }}
+          </Button>
+        </div>
+      </template>
+    </ConfigCollapsibleCard>
+
+    <Card>
+      <CardHeader>
+        <div class="flex items-center justify-between gap-3">
+          <CardTitle class="text-base">
+            {{ t("admin.frpTunnel.primaryConnectionInfo") }}
+          </CardTitle>
+          <Button
+            variant="outline"
+            size="sm"
+            :disabled="isClearingLogs || primaryLogs.length === 0"
+            @click="onClearLogsClick"
+          >
+            <Trash2 class="mr-1 h-3.5 w-3.5" />
+            {{ t("admin.frpTunnel.clear") }}
+          </Button>
+        </div>
+      </CardHeader>
+      <CardContent class="space-y-4">
+        <div class="grid gap-3 text-sm sm:grid-cols-3">
+          <div>
+            <div class="text-xs text-muted-foreground">
+              {{ t("admin.frpTunnel.status") }}
+            </div>
+            <div class="mt-1 flex items-center gap-2">
+              <TunnelSupervisorStatus
+                v-if="primaryInstance"
+                :supervisor="primaryInstance.supervisor"
+              />
+            </div>
+          </div>
+          <div>
+            <div class="text-xs text-muted-foreground">PID</div>
+            <div class="mt-1 font-mono">{{ pid ?? "-" }}</div>
+          </div>
+          <div>
+            <div class="text-xs text-muted-foreground">
+              {{ t("admin.frpTunnel.logAttachment") }}
+            </div>
+            <div class="mt-1">
+              {{
+                primaryInstance?.attached
+                  ? t("admin.frpTunnel.currentProcess")
+                  : t("admin.frpTunnel.historyBuffer")
+              }}
+            </div>
+          </div>
+        </div>
+        <LogViewer :logs="primaryLogs" reversed :show-header="false" />
+      </CardContent>
+    </Card>
+
+    <Card class="gap-2">
+      <CardHeader>
+        <div
+          class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+        >
+          <div class="space-y-1">
+            <CardTitle class="text-base">
+              {{ t("admin.frpTunnel.moreFrp") }}
+            </CardTitle>
+            <p class="text-sm text-muted-foreground">
+              {{ t("admin.frpTunnel.moreFrpDescription") }}
+            </p>
+          </div>
+          <Button size="sm" @click="gotoInstanceCreate">
+            <Plus class="mr-1.5 h-4 w-4" />
+            {{ t("admin.frpTunnel.addFrp") }}
+          </Button>
+        </div>
+      </CardHeader>
+      <CardContent class="space-y-3">
+        <div
+          v-if="extraInstances.length === 0"
+          class="rounded-lg border border-dashed px-4 py-6 text-sm text-muted-foreground"
+        >
+          {{ t("admin.frpTunnel.emptyExtra") }}
+        </div>
+
+        <div v-else class="space-y-3">
+          <div
+            v-for="instance in extraInstances"
+            :key="instance.id"
+            class="rounded-lg border bg-card px-4 py-4"
+          >
+            <div
+              class="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between"
+            >
+              <div class="min-w-0 space-y-2">
+                <div class="flex flex-wrap items-center gap-2">
+                  <p class="text-sm font-medium">
+                    {{ getInstanceDisplayName(instance) }}
+                  </p>
+                  <TunnelSupervisorStatus
+                    :supervisor="instance.supervisor"
+                  />
+                </div>
+                <p class="break-all text-sm text-muted-foreground">
+                  {{ formatSummary(instance.summary) }}
+                </p>
+                <p
+                  v-if="instance.lastMessage"
+                  class="text-xs text-muted-foreground"
+                >
+                  {{ instance.lastMessage }}
+                </p>
+              </div>
+
+              <div class="grid gap-3 sm:grid-cols-3 lg:min-w-[360px]">
+                <div class="rounded-lg px-3 py-2">
+                  <p
+                    class="text-[10px] uppercase tracking-wider text-muted-foreground"
+                  >
+                    PID
+                  </p>
+                  <p class="mt-1 font-mono text-sm">
+                    {{ instance.pid ?? "-" }}
+                  </p>
+                </div>
+                <div class="rounded-lg px-3 py-2">
+                  <p
+                    class="text-[10px] uppercase tracking-wider text-muted-foreground"
+                  >
+                    {{ t("admin.frpTunnel.lastStarted") }}
+                  </p>
+                  <p class="mt-1 text-sm">
+                    <HumanFriendlyTime :value="instance.startedAt" />
+                  </p>
+                </div>
+                <div class="rounded-lg px-3 py-2">
+                  <p
+                    class="text-[10px] uppercase tracking-wider text-muted-foreground"
+                  >
+                    {{ t("admin.frpTunnel.logs") }}
+                  </p>
+                  <p class="mt-1 text-sm">
+                    {{
+                      instance.attached
+                        ? t("admin.frpTunnel.liveAttached")
+                        : t("admin.frpTunnel.historyBuffer")
+                    }}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4 flex flex-wrap justify-end gap-2">
+              <Button
+                variant="outline"
+                size="sm"
+                @click="gotoInstanceDetail(instance, 'config')"
+              >
+                <Pencil class="mr-1.5 h-3.5 w-3.5" />
+                {{ t("admin.frpTunnel.edit") }}
+              </Button>
+              <Button
+                v-if="!instance.desiredRunning && !instance.running"
+                variant="outline"
+                size="sm"
+                :disabled="startingInstanceId === instance.id"
+                @click="startInstance(instance)"
+              >
+                <Play class="mr-1.5 h-3.5 w-3.5" />
+                {{
+                  startingInstanceId === instance.id
+                    ? t("admin.frpTunnel.starting")
+                    : t("admin.frpTunnel.start")
+                }}
+              </Button>
+              <Button
+                v-else
+                variant="outline"
+                size="sm"
+                :disabled="stoppingInstanceId === instance.id"
+                @click="stopInstance(instance)"
+              >
+                <Square class="mr-1.5 h-3.5 w-3.5" />
+                {{
+                  stoppingInstanceId === instance.id
+                    ? t("admin.frpTunnel.stopping")
+                    : t("admin.frpTunnel.stop")
+                }}
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                @click="gotoInstanceDetail(instance, 'logs')"
+              >
+                <ScrollText class="mr-1.5 h-3.5 w-3.5" />
+                {{ t("admin.frpTunnel.logs") }}
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                @click="gotoInstanceDetail(instance)"
+              >
+                <Info class="mr-1.5 h-3.5 w-3.5" />
+                {{ t("admin.frpTunnel.viewMore") }}
+              </Button>
+              <ConfirmDangerPopover
+                :title="t('admin.frpTunnel.deleteTitle')"
+                :description="
+                  t('admin.frpTunnel.deleteDescription', {
+                    name: getInstanceDisplayName(instance),
+                  })
+                "
+                :loading="deletingInstanceId === instance.id"
+                :disabled="deletingInstanceId === instance.id"
+                :on-confirm="() => deleteInstance(instance)"
+                content-class="w-72 text-left"
+              >
+                <template #trigger>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    :disabled="deletingInstanceId === instance.id"
+                    class="text-destructive hover:text-destructive"
+                  >
+                    <Trash2 class="mr-1.5 h-3.5 w-3.5" />
+                    {{
+                      deletingInstanceId === instance.id
+                        ? t("admin.frpTunnel.deleting")
+                        : t("admin.frpTunnel.delete")
+                    }}
+                  </Button>
+                </template>
+              </ConfirmDangerPopover>
+            </div>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+
+    <Dialog v-model:open="showInitDialog">
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>
+            {{ t("admin.frpTunnel.notInitializedTitle") }}
+          </DialogTitle>
+        </DialogHeader>
+        <p class="text-sm text-muted-foreground">
+          {{ t("admin.frpTunnel.notInitializedDescription") }}
+        </p>
+        <DialogFooter>
+          <Button @click="gotoFrpResources">
+            {{ t("admin.frpTunnel.goInitialize") }}
+          </Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  </div>
+</template>

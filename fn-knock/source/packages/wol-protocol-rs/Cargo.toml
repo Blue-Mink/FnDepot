@@ -1,1 +1,13 @@
-W3BhY2thZ2VdCm5hbWUgPSAiZm4ta25vY2std29sLXByb3RvY29sIgp2ZXJzaW9uID0gIjAuMS4wIgplZGl0aW9uID0gIjIwMjQiCmxpY2Vuc2UgPSAiTUlUIgoKW2RlcGVuZGVuY2llc10KaG1hYyA9ICIwLjEyIgpzaGEyID0gIjAuMTAiCnRoaXNlcnJvciA9ICIyLjAiCgpbZGV2LWRlcGVuZGVuY2llc10KaGV4ID0gIjAuNCIK
+[package]
+name = "fn-knock-wol-protocol"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+hmac = "0.12"
+sha2 = "0.10"
+thiserror = "2.0"
+
+[dev-dependencies]
+hex = "0.4"

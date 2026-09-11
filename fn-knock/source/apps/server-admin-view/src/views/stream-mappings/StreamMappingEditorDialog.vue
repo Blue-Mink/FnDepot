@@ -1,1 +1,300 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWFjdGl2ZSwgcmVmLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IFN0cmVhbVByb3RvY29sTXVsdGlTZWxlY3QgZnJvbSAiQC9jb21wb25lbnRzL1N0cmVhbVByb3RvY29sTXVsdGlTZWxlY3QudnVlIjsKaW1wb3J0IHsgaXNWYWxpZEhvc3RQb3J0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9wYXJzZUhvc3RQb3J0IjsKaW1wb3J0IHR5cGUgeyBTdHJlYW1NYXBwaW5nLCBTdHJlYW1NYXBwaW5nUHJvdG9jb2wgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsKICBjcmVhdGVNYXBwaW5nS2V5LAogIERFRkFVTFRfU1RSRUFNX1BST1RPQ09MLAogIGZvcm1hdFByb3RvY29sTGFiZWwsCiAgZ2V0TWFwcGluZ0tleSwKICBpc09idmlvdXNMb2NhbFN0cmVhbVRhcmdldExvb3AsCiAgbm9ybWFsaXplUHJvdG9jb2xTZWxlY3Rpb24sCiAgbm9ybWFsaXplU3RyZWFtTWFwcGluZywKICB0eXBlIFN0cmVhbU1hcHBpbmdFZGl0b3JTdWJtaXNzaW9uLAp9IGZyb20gIi4vc3RyZWFtTWFwcGluZ01vZGVsIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIGV4aXN0aW5nTWFwcGluZ3M6IFN0cmVhbU1hcHBpbmdbXTsKICBtYXBwaW5nOiBTdHJlYW1NYXBwaW5nIHwgbnVsbDsKICBvcGVuOiBib29sZWFuOwogIHNhdmluZzogYm9vbGVhbjsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgc2F2ZTogW3N1Ym1pc3Npb246IFN0cmVhbU1hcHBpbmdFZGl0b3JTdWJtaXNzaW9uXTsKICAidXBkYXRlOm9wZW4iOiBbb3BlbjogYm9vbGVhbl07Cn0+KCk7Cgpjb25zdCB7IHQsIGxvY2FsZSB9ID0gdXNlSTE4bigpOwpjb25zdCBoYXNBdHRlbXB0ZWRTdWJtaXQgPSByZWYoZmFsc2UpOwpjb25zdCBoYXNQb3J0Qmx1cnJlZCA9IHJlZihmYWxzZSk7CmNvbnN0IGhhc1RhcmdldEJsdXJyZWQgPSByZWYoZmFsc2UpOwpjb25zdCBmb3JtID0gcmVhY3RpdmU8ewogIHByb3RvY29sczogU3RyZWFtTWFwcGluZ1Byb3RvY29sW107CiAgbGlzdGVuUG9ydDogc3RyaW5nOwogIGNvbW1lbnQ6IHN0cmluZzsKICB0YXJnZXQ6IHN0cmluZzsKICB1c2VBdXRoOiBib29sZWFuOwp9Pih7CiAgcHJvdG9jb2xzOiBbREVGQVVMVF9TVFJFQU1fUFJPVE9DT0xdLAogIGxpc3RlblBvcnQ6ICIiLAogIGNvbW1lbnQ6ICIiLAogIHRhcmdldDogIiIsCiAgdXNlQXV0aDogdHJ1ZSwKfSk7Cgpjb25zdCBlZGl0aW5nS2V5ID0gY29tcHV0ZWQoKCkgPT4KICBwcm9wcy5tYXBwaW5nID8gZ2V0TWFwcGluZ0tleShwcm9wcy5tYXBwaW5nKSA6IG51bGwsCik7CmNvbnN0IGlzRWRpdGluZyA9IGNvbXB1dGVkKCgpID0+IGVkaXRpbmdLZXkudmFsdWUgIT09IG51bGwpOwpjb25zdCBwYXJzZWRMaXN0ZW5Qb3J0ID0gY29tcHV0ZWQoKCkgPT4gewogIGNvbnN0IHZhbHVlID0gTnVtYmVyLnBhcnNlSW50KGZvcm0ubGlzdGVuUG9ydC50cmltKCksIDEwKTsKICByZXR1cm4gTnVtYmVyLmlzRmluaXRlKHZhbHVlKSA/IHZhbHVlIDogbnVsbDsKfSk7CmNvbnN0IHNlbGVjdGVkUHJvdG9jb2xzID0gY29tcHV0ZWQoKCkgPT4KICBub3JtYWxpemVQcm90b2NvbFNlbGVjdGlvbihmb3JtLnByb3RvY29scyksCik7CmNvbnN0IGR1cGxpY2F0ZVByb3RvY29scyA9IGNvbXB1dGVkKCgpID0+IHsKICBjb25zdCBwb3J0ID0gcGFyc2VkTGlzdGVuUG9ydC52YWx1ZTsKICBpZiAocG9ydCA9PT0gbnVsbCkgcmV0dXJuIFtdOwogIHJldHVybiBzZWxlY3RlZFByb3RvY29scy52YWx1ZS5maWx0ZXIoKHByb3RvY29sKSA9PgogICAgcHJvcHMuZXhpc3RpbmdNYXBwaW5ncy5zb21lKAogICAgICAobWFwcGluZykgPT4KICAgICAgICBnZXRNYXBwaW5nS2V5KG1hcHBpbmcpID09PSBjcmVhdGVNYXBwaW5nS2V5KHByb3RvY29sLCBwb3J0KSAmJgogICAgICAgIGdldE1hcHBpbmdLZXkobWFwcGluZykgIT09IGVkaXRpbmdLZXkudmFsdWUsCiAgICApLAogICk7Cn0pOwoKY29uc3QgZm9ybWF0UHJvdG9jb2xMaXN0ID0gKHByb3RvY29sczogU3RyZWFtTWFwcGluZ1Byb3RvY29sW10pID0+IHsKICBjb25zdCBzZXBhcmF0b3IgPSBTdHJpbmcobG9jYWxlLnZhbHVlKS5zdGFydHNXaXRoKCJlbiIpID8gIiwgIiA6ICLjgIEiOwogIHJldHVybiBwcm90b2NvbHMubWFwKGZvcm1hdFByb3RvY29sTGFiZWwpLmpvaW4oc2VwYXJhdG9yKTsKfTsKCmNvbnN0IGdldFBvcnRWYWxpZGF0aW9uTWVzc2FnZSA9IChzaG93UmVxdWlyZWQ6IGJvb2xlYW4pOiBzdHJpbmcgPT4gewogIGNvbnN0IHJhd1BvcnQgPSBmb3JtLmxpc3RlblBvcnQudHJpbSgpOwogIGlmICghcmF3UG9ydCkgewogICAgcmV0dXJuIHNob3dSZXF1aXJlZCA/IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnBvcnRSZXF1aXJlZCIpIDogIiI7CiAgfQoKICBjb25zdCBwb3J0ID0gcGFyc2VkTGlzdGVuUG9ydC52YWx1ZTsKICBpZiAocG9ydCA9PT0gbnVsbCkgcmV0dXJuIHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnBvcnRJbnRlZ2VyIik7CiAgaWYgKHBvcnQgPD0gMCB8fCBwb3J0ID4gNjU1MzUpIHsKICAgIHJldHVybiB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5wb3J0UmFuZ2UiKTsKICB9CiAgaWYgKGR1cGxpY2F0ZVByb3RvY29scy52YWx1ZS5sZW5ndGggPiAwKSB7CiAgICByZXR1cm4gdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuZHVwbGljYXRlUG9ydCIsIHsKICAgICAgcHJvdG9jb2xzOiBmb3JtYXRQcm90b2NvbExpc3QoZHVwbGljYXRlUHJvdG9jb2xzLnZhbHVlKSwKICAgICAgcG9ydCwKICAgIH0pOwogIH0KICByZXR1cm4gIiI7Cn07Cgpjb25zdCBnZXRUYXJnZXRWYWxpZGF0aW9uTWVzc2FnZSA9IChzaG93UmVxdWlyZWQ6IGJvb2xlYW4pOiBzdHJpbmcgPT4gewogIGNvbnN0IHJhd1RhcmdldCA9IGZvcm0udGFyZ2V0LnRyaW0oKTsKICBpZiAoIXJhd1RhcmdldCkgewogICAgcmV0dXJuIHNob3dSZXF1aXJlZCA/IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnRhcmdldFJlcXVpcmVkIikgOiAiIjsKICB9CiAgaWYgKCFpc1ZhbGlkSG9zdFBvcnQocmF3VGFyZ2V0KSkgewogICAgcmV0dXJuIHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnRhcmdldEludmFsaWQiKTsKICB9CiAgY29uc3QgbGlzdGVuUG9ydCA9IHBhcnNlZExpc3RlblBvcnQudmFsdWU7CiAgaWYgKAogICAgbGlzdGVuUG9ydCAhPT0gbnVsbCAmJgogICAgaXNPYnZpb3VzTG9jYWxTdHJlYW1UYXJnZXRMb29wKHJhd1RhcmdldCwgbGlzdGVuUG9ydCkKICApIHsKICAgIHJldHVybiB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5sb2NhbFRhcmdldExvb3AiKTsKICB9CiAgcmV0dXJuICIiOwp9OwoKY29uc3Qgc3VibWl0VmFsaWRhdGlvbk1lc3NhZ2UgPSBjb21wdXRlZCgoKSA9PiB7CiAgaWYgKHNlbGVjdGVkUHJvdG9jb2xzLnZhbHVlLmxlbmd0aCA9PT0gMCkgewogICAgcmV0dXJuIHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnByb3RvY29sUmVxdWlyZWQiKTsKICB9CiAgcmV0dXJuICgKICAgIGdldFBvcnRWYWxpZGF0aW9uTWVzc2FnZSh0cnVlKSB8fCBnZXRUYXJnZXRWYWxpZGF0aW9uTWVzc2FnZSh0cnVlKSB8fCAiIgogICk7Cn0pOwoKY29uc3QgdmFsaWRhdGlvbk1lc3NhZ2UgPSBjb21wdXRlZCgoKSA9PiB7CiAgaWYgKGhhc0F0dGVtcHRlZFN1Ym1pdC52YWx1ZSkgcmV0dXJuIHN1Ym1pdFZhbGlkYXRpb25NZXNzYWdlLnZhbHVlOwogIGlmIChoYXNQb3J0Qmx1cnJlZC52YWx1ZSAmJiBmb3JtLmxpc3RlblBvcnQudHJpbSgpKSB7CiAgICBjb25zdCBtZXNzYWdlID0gZ2V0UG9ydFZhbGlkYXRpb25NZXNzYWdlKGZhbHNlKTsKICAgIGlmIChtZXNzYWdlKSByZXR1cm4gbWVzc2FnZTsKICB9CiAgaWYgKGhhc1RhcmdldEJsdXJyZWQudmFsdWUgJiYgZm9ybS50YXJnZXQudHJpbSgpKSB7CiAgICByZXR1cm4gZ2V0VGFyZ2V0VmFsaWRhdGlvbk1lc3NhZ2UoZmFsc2UpOwogIH0KICByZXR1cm4gIiI7Cn0pOwoKY29uc3QgcmVzZXRGb3JtID0gKCkgPT4gewogIGNvbnN0IG1hcHBpbmcgPSBwcm9wcy5tYXBwaW5nID8gbm9ybWFsaXplU3RyZWFtTWFwcGluZyhwcm9wcy5tYXBwaW5nKSA6IG51bGw7CiAgZm9ybS5wcm90b2NvbHMgPSBtYXBwaW5nID8gW21hcHBpbmcucHJvdG9jb2xdIDogW0RFRkFVTFRfU1RSRUFNX1BST1RPQ09MXTsKICBmb3JtLmxpc3RlblBvcnQgPSBtYXBwaW5nID8gU3RyaW5nKG1hcHBpbmcubGlzdGVuX3BvcnQpIDogIiI7CiAgZm9ybS5jb21tZW50ID0gbWFwcGluZz8uY29tbWVudCA/PyAiIjsKICBmb3JtLnRhcmdldCA9IG1hcHBpbmc/LnRhcmdldCA/PyAiIjsKICBmb3JtLnVzZUF1dGggPSBtYXBwaW5nPy51c2VfYXV0aCA/PyB0cnVlOwogIGhhc0F0dGVtcHRlZFN1Ym1pdC52YWx1ZSA9IGZhbHNlOwogIGhhc1BvcnRCbHVycmVkLnZhbHVlID0gZmFsc2U7CiAgaGFzVGFyZ2V0Qmx1cnJlZC52YWx1ZSA9IGZhbHNlOwp9OwoKY29uc3Qgc3VibWl0ID0gKCkgPT4gewogIGhhc0F0dGVtcHRlZFN1Ym1pdC52YWx1ZSA9IHRydWU7CiAgY29uc3QgcG9ydCA9IHBhcnNlZExpc3RlblBvcnQudmFsdWU7CiAgaWYgKHN1Ym1pdFZhbGlkYXRpb25NZXNzYWdlLnZhbHVlIHx8IHBvcnQgPT09IG51bGwpIHJldHVybjsKCiAgZW1pdCgic2F2ZSIsIHsKICAgIGVkaXRpbmdLZXk6IGVkaXRpbmdLZXkudmFsdWUsCiAgICBtYXBwaW5nczogc2VsZWN0ZWRQcm90b2NvbHMudmFsdWUubWFwKChwcm90b2NvbCkgPT4gKHsKICAgICAgcHJvdG9jb2wsCiAgICAgIGxpc3Rlbl9wb3J0OiBwb3J0LAogICAgICBjb21tZW50OiBmb3JtLmNvbW1lbnQudHJpbSgpLAogICAgICB0YXJnZXQ6IGZvcm0udGFyZ2V0LnRyaW0oKSwKICAgICAgdXNlX2F1dGg6IGZvcm0udXNlQXV0aCwKICAgIH0pKSwKICB9KTsKfTsKCndhdGNoKAogICgpID0+IFtwcm9wcy5vcGVuLCBwcm9wcy5tYXBwaW5nXSBhcyBjb25zdCwKICAoW29wZW5dKSA9PiB7CiAgICBpZiAob3BlbikgcmVzZXRGb3JtKCk7CiAgfSwKICB7IGltbWVkaWF0ZTogdHJ1ZSB9LAopOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nIDpvcGVuPSJvcGVuIiBAdXBkYXRlOm9wZW49ImVtaXQoJ3VwZGF0ZTpvcGVuJywgJGV2ZW50KSI+CiAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ic206bWF4LXctWzUyMHB4XSI+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPgogICAgICAgICAge3sKICAgICAgICAgICAgaXNFZGl0aW5nCiAgICAgICAgICAgICAgPyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5lZGl0VGl0bGUiKQogICAgICAgICAgICAgIDogdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuY3JlYXRlVGl0bGUiKQogICAgICAgICAgfX0KICAgICAgICA8L0RpYWxvZ1RpdGxlPgogICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgIHt7IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLmRpYWxvZ0Rlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICA8L0RpYWxvZ0hlYWRlcj4KCiAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTQgcHktNCI+CiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgIDxMYWJlbCBmb3I9InN0cmVhbS1wcm90b2NvbCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnRyYW5zcG9ydFByb3RvY29sIikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8U3RyZWFtUHJvdG9jb2xNdWx0aVNlbGVjdAogICAgICAgICAgICBpZD0ic3RyZWFtLXByb3RvY29sIgogICAgICAgICAgICB2LW1vZGVsPSJmb3JtLnByb3RvY29scyIKICAgICAgICAgIC8+CiAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5wcm90b2NvbEhpbnQiKSB9fQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgPExhYmVsIGZvcj0ic3RyZWFtLWxpc3Rlbi1wb3J0Ij4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MubGlzdGVuUG9ydCIpIH19CiAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIGlkPSJzdHJlYW0tbGlzdGVuLXBvcnQiCiAgICAgICAgICAgIHYtbW9kZWw9ImZvcm0ubGlzdGVuUG9ydCIKICAgICAgICAgICAgaW5wdXRtb2RlPSJudW1lcmljIgogICAgICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLnN0cmVhbU1hcHBpbmdzLmxpc3RlblBvcnRQbGFjZWhvbGRlcicpIgogICAgICAgICAgICBAYmx1cj0iaGFzUG9ydEJsdXJyZWQgPSB0cnVlIgogICAgICAgICAgLz4KICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLmxpc3RlblBvcnRIaW50IikgfX0KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgIDxMYWJlbCBmb3I9InN0cmVhbS10YXJnZXQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy50YXJnZXQiKSB9fQogICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICBpZD0ic3RyZWFtLXRhcmdldCIKICAgICAgICAgICAgdi1tb2RlbD0iZm9ybS50YXJnZXQiCiAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uc3RyZWFtTWFwcGluZ3MudGFyZ2V0UGxhY2Vob2xkZXInKSIKICAgICAgICAgICAgQGJsdXI9Imhhc1RhcmdldEJsdXJyZWQgPSB0cnVlIgogICAgICAgICAgLz4KICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnRhcmdldEhpbnQiKSB9fQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgPExhYmVsIGZvcj0ic3RyZWFtLWNvbW1lbnQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5jb21tZW50IikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgaWQ9InN0cmVhbS1jb21tZW50IgogICAgICAgICAgICB2LW1vZGVsPSJmb3JtLmNvbW1lbnQiCiAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uc3RyZWFtTWFwcGluZ3MuY29tbWVudFBsYWNlaG9sZGVyJykiCiAgICAgICAgICAvPgogICAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuY29tbWVudEhpbnQiKSB9fQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHJvdW5kZWQtbGcgYm9yZGVyIHB4LTQgcHktMyIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEiPgogICAgICAgICAgICA8TGFiZWwgZm9yPSJzdHJlYW0tYXV0aCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuYXV0aFJlcXVpcmVkTGFiZWwiKSB9fQogICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICBmb3JtLnVzZUF1dGgKICAgICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5hdXRoUmVxdWlyZWRFbmFibGVkSGludCIpCiAgICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuYXV0aFJlcXVpcmVkRGlzYWJsZWRIaW50IikKICAgICAgICAgICAgICB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxTd2l0Y2ggaWQ9InN0cmVhbS1hdXRoIiB2LW1vZGVsPSJmb3JtLnVzZUF1dGgiIC8+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9InZhbGlkYXRpb25NZXNzYWdlIgogICAgICAgICAgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1kZXN0cnVjdGl2ZS8zMCBiZy1kZXN0cnVjdGl2ZS81IHB4LTQgcHktMyB0ZXh0LXNtIHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgPgogICAgICAgICAge3sgdmFsaWRhdGlvbk1lc3NhZ2UgfX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8RGlhbG9nRm9vdGVyPgogICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgQGNsaWNrPSJlbWl0KCd1cGRhdGU6b3BlbicsIGZhbHNlKSI+CiAgICAgICAgICB7eyB0KCJjb21tb24uY2FuY2VsIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uIDpkaXNhYmxlZD0ic2F2aW5nIiBAY2xpY2s9InN1Ym1pdCI+CiAgICAgICAgICA8c3BhbgogICAgICAgICAgICB2LWlmPSJzYXZpbmciCiAgICAgICAgICAgIGNsYXNzPSJtci0yIGgtNCB3LTQgYW5pbWF0ZS1zcGluIHJvdW5kZWQtZnVsbCBib3JkZXItMiBib3JkZXItYmFja2dyb3VuZCBib3JkZXItdC1mb3JlZ3JvdW5kIgogICAgICAgICAgLz4KICAgICAgICAgIHt7IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnNhdmVNYXBwaW5nIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, reactive, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import StreamProtocolMultiSelect from "@/components/StreamProtocolMultiSelect.vue";
+import { isValidHostPort } from "@admin-shared/utils/parseHostPort";
+import type { StreamMapping, StreamMappingProtocol } from "@/types";
+import {
+  createMappingKey,
+  DEFAULT_STREAM_PROTOCOL,
+  formatProtocolLabel,
+  getMappingKey,
+  isObviousLocalStreamTargetLoop,
+  normalizeProtocolSelection,
+  normalizeStreamMapping,
+  type StreamMappingEditorSubmission,
+} from "./streamMappingModel";
+
+const props = defineProps<{
+  existingMappings: StreamMapping[];
+  mapping: StreamMapping | null;
+  open: boolean;
+  saving: boolean;
+}>();
+
+const emit = defineEmits<{
+  save: [submission: StreamMappingEditorSubmission];
+  "update:open": [open: boolean];
+}>();
+
+const { t, locale } = useI18n();
+const hasAttemptedSubmit = ref(false);
+const hasPortBlurred = ref(false);
+const hasTargetBlurred = ref(false);
+const form = reactive<{
+  protocols: StreamMappingProtocol[];
+  listenPort: string;
+  comment: string;
+  target: string;
+  useAuth: boolean;
+}>({
+  protocols: [DEFAULT_STREAM_PROTOCOL],
+  listenPort: "",
+  comment: "",
+  target: "",
+  useAuth: true,
+});
+
+const editingKey = computed(() =>
+  props.mapping ? getMappingKey(props.mapping) : null,
+);
+const isEditing = computed(() => editingKey.value !== null);
+const parsedListenPort = computed(() => {
+  const value = Number.parseInt(form.listenPort.trim(), 10);
+  return Number.isFinite(value) ? value : null;
+});
+const selectedProtocols = computed(() =>
+  normalizeProtocolSelection(form.protocols),
+);
+const duplicateProtocols = computed(() => {
+  const port = parsedListenPort.value;
+  if (port === null) return [];
+  return selectedProtocols.value.filter((protocol) =>
+    props.existingMappings.some(
+      (mapping) =>
+        getMappingKey(mapping) === createMappingKey(protocol, port) &&
+        getMappingKey(mapping) !== editingKey.value,
+    ),
+  );
+});
+
+const formatProtocolList = (protocols: StreamMappingProtocol[]) => {
+  const separator = String(locale.value).startsWith("en") ? ", " : "、";
+  return protocols.map(formatProtocolLabel).join(separator);
+};
+
+const getPortValidationMessage = (showRequired: boolean): string => {
+  const rawPort = form.listenPort.trim();
+  if (!rawPort) {
+    return showRequired ? t("admin.streamMappings.portRequired") : "";
+  }
+
+  const port = parsedListenPort.value;
+  if (port === null) return t("admin.streamMappings.portInteger");
+  if (port <= 0 || port > 65535) {
+    return t("admin.streamMappings.portRange");
+  }
+  if (duplicateProtocols.value.length > 0) {
+    return t("admin.streamMappings.duplicatePort", {
+      protocols: formatProtocolList(duplicateProtocols.value),
+      port,
+    });
+  }
+  return "";
+};
+
+const getTargetValidationMessage = (showRequired: boolean): string => {
+  const rawTarget = form.target.trim();
+  if (!rawTarget) {
+    return showRequired ? t("admin.streamMappings.targetRequired") : "";
+  }
+  if (!isValidHostPort(rawTarget)) {
+    return t("admin.streamMappings.targetInvalid");
+  }
+  const listenPort = parsedListenPort.value;
+  if (
+    listenPort !== null &&
+    isObviousLocalStreamTargetLoop(rawTarget, listenPort)
+  ) {
+    return t("admin.streamMappings.localTargetLoop");
+  }
+  return "";
+};
+
+const submitValidationMessage = computed(() => {
+  if (selectedProtocols.value.length === 0) {
+    return t("admin.streamMappings.protocolRequired");
+  }
+  return (
+    getPortValidationMessage(true) || getTargetValidationMessage(true) || ""
+  );
+});
+
+const validationMessage = computed(() => {
+  if (hasAttemptedSubmit.value) return submitValidationMessage.value;
+  if (hasPortBlurred.value && form.listenPort.trim()) {
+    const message = getPortValidationMessage(false);
+    if (message) return message;
+  }
+  if (hasTargetBlurred.value && form.target.trim()) {
+    return getTargetValidationMessage(false);
+  }
+  return "";
+});
+
+const resetForm = () => {
+  const mapping = props.mapping ? normalizeStreamMapping(props.mapping) : null;
+  form.protocols = mapping ? [mapping.protocol] : [DEFAULT_STREAM_PROTOCOL];
+  form.listenPort = mapping ? String(mapping.listen_port) : "";
+  form.comment = mapping?.comment ?? "";
+  form.target = mapping?.target ?? "";
+  form.useAuth = mapping?.use_auth ?? true;
+  hasAttemptedSubmit.value = false;
+  hasPortBlurred.value = false;
+  hasTargetBlurred.value = false;
+};
+
+const submit = () => {
+  hasAttemptedSubmit.value = true;
+  const port = parsedListenPort.value;
+  if (submitValidationMessage.value || port === null) return;
+
+  emit("save", {
+    editingKey: editingKey.value,
+    mappings: selectedProtocols.value.map((protocol) => ({
+      protocol,
+      listen_port: port,
+      comment: form.comment.trim(),
+      target: form.target.trim(),
+      use_auth: form.useAuth,
+    })),
+  });
+};
+
+watch(
+  () => [props.open, props.mapping] as const,
+  ([open]) => {
+    if (open) resetForm();
+  },
+  { immediate: true },
+);
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="sm:max-w-[520px]">
+      <DialogHeader>
+        <DialogTitle>
+          {{
+            isEditing
+              ? t("admin.streamMappings.editTitle")
+              : t("admin.streamMappings.createTitle")
+          }}
+        </DialogTitle>
+        <DialogDescription>
+          {{ t("admin.streamMappings.dialogDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+
+      <div class="grid gap-4 py-4">
+        <div class="space-y-2">
+          <Label for="stream-protocol">
+            {{ t("admin.streamMappings.transportProtocol") }}
+          </Label>
+          <StreamProtocolMultiSelect
+            id="stream-protocol"
+            v-model="form.protocols"
+          />
+          <p class="text-xs text-muted-foreground">
+            {{ t("admin.streamMappings.protocolHint") }}
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <Label for="stream-listen-port">
+            {{ t("admin.streamMappings.listenPort") }}
+          </Label>
+          <Input
+            id="stream-listen-port"
+            v-model="form.listenPort"
+            inputmode="numeric"
+            :placeholder="t('admin.streamMappings.listenPortPlaceholder')"
+            @blur="hasPortBlurred = true"
+          />
+          <p class="text-xs text-muted-foreground">
+            {{ t("admin.streamMappings.listenPortHint") }}
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <Label for="stream-target">
+            {{ t("admin.streamMappings.target") }}
+          </Label>
+          <Input
+            id="stream-target"
+            v-model="form.target"
+            :placeholder="t('admin.streamMappings.targetPlaceholder')"
+            @blur="hasTargetBlurred = true"
+          />
+          <p class="text-xs text-muted-foreground">
+            {{ t("admin.streamMappings.targetHint") }}
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <Label for="stream-comment">
+            {{ t("admin.streamMappings.comment") }}
+          </Label>
+          <Input
+            id="stream-comment"
+            v-model="form.comment"
+            :placeholder="t('admin.streamMappings.commentPlaceholder')"
+          />
+          <p class="text-xs text-muted-foreground">
+            {{ t("admin.streamMappings.commentHint") }}
+          </p>
+        </div>
+
+        <div
+          class="flex items-center justify-between rounded-lg border px-4 py-3"
+        >
+          <div class="space-y-1">
+            <Label for="stream-auth">
+              {{ t("admin.streamMappings.authRequiredLabel") }}
+            </Label>
+            <p class="text-xs text-muted-foreground">
+              {{
+                form.useAuth
+                  ? t("admin.streamMappings.authRequiredEnabledHint")
+                  : t("admin.streamMappings.authRequiredDisabledHint")
+              }}
+            </p>
+          </div>
+          <Switch id="stream-auth" v-model="form.useAuth" />
+        </div>
+
+        <div
+          v-if="validationMessage"
+          class="rounded-lg border border-destructive/30 bg-destructive/5 px-4 py-3 text-sm text-destructive"
+        >
+          {{ validationMessage }}
+        </div>
+      </div>
+
+      <DialogFooter>
+        <Button variant="outline" @click="emit('update:open', false)">
+          {{ t("common.cancel") }}
+        </Button>
+        <Button :disabled="saving" @click="submit">
+          <span
+            v-if="saving"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          />
+          {{ t("admin.streamMappings.saveMapping") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

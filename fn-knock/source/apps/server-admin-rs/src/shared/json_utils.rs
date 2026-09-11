@@ -1,1 +1,11 @@
-dXNlIHNlcmRlX2pzb246OntNYXAsIFZhbHVlfTsKCnB1YihjcmF0ZSkgZm4gZW5zdXJlX29iamVjdCh2YWx1ZTogJm11dCBWYWx1ZSkgLT4gJm11dCBNYXA8U3RyaW5nLCBWYWx1ZT4gewogICAgaWYgIXZhbHVlLmlzX29iamVjdCgpIHsKICAgICAgICAqdmFsdWUgPSBWYWx1ZTo6T2JqZWN0KE1hcDo6bmV3KCkpOwogICAgfQogICAgbWF0Y2ggdmFsdWUgewogICAgICAgIFZhbHVlOjpPYmplY3Qob2JqZWN0KSA9PiBvYmplY3QsCiAgICAgICAgXyA9PiB1bnJlYWNoYWJsZSEoImVuc3VyZV9vYmplY3QgYXNzaWduZWQgYW4gb2JqZWN0IiksCiAgICB9Cn0K
+use serde_json::{Map, Value};
+
+pub(crate) fn ensure_object(value: &mut Value) -> &mut Map<String, Value> {
+    if !value.is_object() {
+        *value = Value::Object(Map::new());
+    }
+    match value {
+        Value::Object(object) => object,
+        _ => unreachable!("ensure_object assigned an object"),
+    }
+}

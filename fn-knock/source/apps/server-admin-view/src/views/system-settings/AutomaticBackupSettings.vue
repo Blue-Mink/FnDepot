@@ -1,1 +1,276 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IHsKICBEYXRhYmFzZUJhY2t1cCwKICBMb2FkZXIyLAogIFJvdGF0ZUNjdywKICBTYXZlLAogIE1haWwsCiAgQ2hldnJvblJpZ2h0LAp9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHVzZUF1dG9tYXRpY0JhY2t1cFNldHRpbmdzIH0gZnJvbSAiLi91c2VBdXRvbWF0aWNCYWNrdXBTZXR0aW5ncyI7CmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7IGZpbGVzQ2hhbmdlZDogW10gfT4oKTsKY29uc3QgewogIHQsCiAgYTExeUlkLAogIGRldGFpbHMsCiAgZm9ybSwKICBpc0xvYWRpbmcsCiAgaXNTYXZpbmcsCiAgaXNEaXJ0eSwKICBpc1ZhbGlkLAogIGludGVydmFsSXNJbnZhbGlkLAogIHJldGVudGlvbklzSW52YWxpZCwKICByZXF1ZXN0RXJyb3JNZXNzYWdlLAogIGZvcm1hdERhdGUsCiAgcmVzZXQsCiAgc2F2ZSwKfSA9IHVzZUF1dG9tYXRpY0JhY2t1cFNldHRpbmdzKGZhbHNlLCAoKSA9PiBlbWl0KCJmaWxlc0NoYW5nZWQiKSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYKICAgIGNsYXNzPSJweC02IHB5LTYgc206cHgtOCIKICAgIGRhdGEtYTExeS1zY29wZT0iYXV0b21hdGljLWJhY2t1cC1zZXR0aW5ncyIKICAgIHJvbGU9InJlZ2lvbiIKICAgIDphcmlhLWxhYmVsbGVkYnk9ImAke2ExMXlJZH0tdGl0bGVgIgogICAgOmFyaWEtZGVzY3JpYmVkYnk9ImAke2ExMXlJZH0tZGVzY3JpcHRpb25gIgogICAgOmFyaWEtYnVzeT0iaXNMb2FkaW5nIHx8IGlzU2F2aW5nIgogID4KICAgIDxwCiAgICAgIDppZD0iYCR7YTExeUlkfS1hY3Rpdml0eS1zdGF0dXNgIgogICAgICBjbGFzcz0ic3Itb25seSIKICAgICAgcm9sZT0ic3RhdHVzIgogICAgICBhcmlhLWxpdmU9InBvbGl0ZSIKICAgICAgYXJpYS1hdG9taWM9InRydWUiCiAgICA+CiAgICAgIHt7CiAgICAgICAgaXNMb2FkaW5nCiAgICAgICAgICA/IHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuYXV0b21hdGljTG9hZGluZyIpCiAgICAgICAgICA6IGlzU2F2aW5nCiAgICAgICAgICAgID8gdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5hdXRvbWF0aWNTYXZpbmciKQogICAgICAgICAgICA6ICIiCiAgICAgIH19CiAgICA8L3A+CiAgICA8ZGl2CiAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC01IGxnOmZsZXgtcm93IGxnOml0ZW1zLXN0YXJ0IGxnOmp1c3RpZnktYmV0d2VlbiIKICAgID4KICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBmbGV4LTEgc3BhY2UteS0yIj4KICAgICAgICA8aDIKICAgICAgICAgIDppZD0iYCR7YTExeUlkfS10aXRsZWAiCiAgICAgICAgICBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSBmb250LW1lZGl1bSIKICAgICAgICA+CiAgICAgICAgICA8RGF0YWJhc2VCYWNrdXAgY2xhc3M9ImgtNCB3LTQiIGFyaWEtaGlkZGVuPSJ0cnVlIiAvPgogICAgICAgICAgPHNwYW4+e3sgdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5hdXRvbWF0aWNUaXRsZSIpIH19PC9zcGFuPgogICAgICAgIDwvaDI+CiAgICAgICAgPHAKICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1kZXNjcmlwdGlvbmAiCiAgICAgICAgICBjbGFzcz0ibWF4LXctM3hsIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgID4KICAgICAgICAgIHt7IHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuYXV0b21hdGljRGVzY3JpcHRpb24iKSB9fQogICAgICAgIDwvcD4KICAgICAgICA8cAogICAgICAgICAgdi1pZj0iZGV0YWlscz8uc3RhdHVzLmRpcmVjdG9yeV9wYXRoIgogICAgICAgICAgY2xhc3M9ImJyZWFrLWFsbCB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICA+CiAgICAgICAgICB7eyB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmF1dG9tYXRpY0RpcmVjdG9yeSIpIH19OgogICAgICAgICAgPGNvZGU+e3sgZGV0YWlscy5zdGF0dXMuZGlyZWN0b3J5X3BhdGggfX08L2NvZGU+CiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3M9ImZsZXggc2hyaW5rLTAgaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICA8TGFiZWwgOmZvcj0iYCR7YTExeUlkfS1lbmFibGVkYCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmF1dG9tYXRpY0VuYWJsZWQiKSB9fQogICAgICAgIDwvTGFiZWw+CiAgICAgICAgPFN3aXRjaAogICAgICAgICAgOmlkPSJgJHthMTF5SWR9LWVuYWJsZWRgIgogICAgICAgICAgdi1tb2RlbD0iZm9ybS5lbmFibGVkIgogICAgICAgICAgOmRpc2FibGVkPSJpc0xvYWRpbmcgfHwgaXNTYXZpbmcgfHwgIWRldGFpbHMiCiAgICAgICAgICA6YXJpYS1kZXNjcmliZWRieT0iYCR7YTExeUlkfS1kZXNjcmlwdGlvbmAiCiAgICAgICAgLz4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8cAogICAgICB2LWlmPSJyZXF1ZXN0RXJyb3JNZXNzYWdlIgogICAgICA6aWQ9ImAke2ExMXlJZH0tcmVxdWVzdC1lcnJvcmAiCiAgICAgIGNsYXNzPSJtdC00IHRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgcm9sZT0iYWxlcnQiCiAgICA+CiAgICAgIHt7IHJlcXVlc3RFcnJvck1lc3NhZ2UgfX0KICAgIDwvcD4KCiAgICA8ZGl2CiAgICAgIGNsYXNzPSJtdC01IGdyaWQgZ2FwLTQgcm91bmRlZC14bCBib3JkZXIgYmctbXV0ZWQvWzAuMDhdIHAtNCBtZDpncmlkLWNvbHMtMiIKICAgID4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICA8TGFiZWwgOmZvcj0iYCR7YTExeUlkfS1pbnRlcnZhbGAiPnt7CiAgICAgICAgICB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmF1dG9tYXRpY0ludGVydmFsIikKICAgICAgICB9fTwvTGFiZWw+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1pbnRlcnZhbGAiCiAgICAgICAgICAgIHYtbW9kZWwubnVtYmVyPSJmb3JtLmludGVydmFsX2hvdXJzIgogICAgICAgICAgICB0eXBlPSJudW1iZXIiCiAgICAgICAgICAgIG1pbj0iMSIKICAgICAgICAgICAgbWF4PSI4NzYwIgogICAgICAgICAgICBzdGVwPSIxIgogICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzTG9hZGluZyB8fCBpc1NhdmluZyB8fCAhZGV0YWlscyIKICAgICAgICAgICAgOmFyaWEtaW52YWxpZD0iaW50ZXJ2YWxJc0ludmFsaWQiCiAgICAgICAgICAgIDphcmlhLWRlc2NyaWJlZGJ5PSJgJHthMTF5SWR9LWludGVydmFsLWhlbHBgIgogICAgICAgICAgLz4KICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIGNsYXNzPSJzaHJpbmstMCB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgYXJpYS1oaWRkZW49InRydWUiCiAgICAgICAgICAgID57eyB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmhvdXJzVW5pdCIpIH19PC9zcGFuCiAgICAgICAgICA+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPHAKICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1pbnRlcnZhbC1oZWxwYCIKICAgICAgICAgIGNsYXNzPSJ0ZXh0LXhzIgogICAgICAgICAgOmNsYXNzPSIKICAgICAgICAgICAgaW50ZXJ2YWxJc0ludmFsaWQgPyAndGV4dC1kZXN0cnVjdGl2ZScgOiAndGV4dC1tdXRlZC1mb3JlZ3JvdW5kJwogICAgICAgICAgIgogICAgICAgICAgOnJvbGU9ImludGVydmFsSXNJbnZhbGlkID8gJ2FsZXJ0JyA6IHVuZGVmaW5lZCIKICAgICAgICA+CiAgICAgICAgICB7ewogICAgICAgICAgICB0KAogICAgICAgICAgICAgIGludGVydmFsSXNJbnZhbGlkCiAgICAgICAgICAgICAgICA/ICJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmF1dG9tYXRpY0ludGVydmFsRXJyb3IiCiAgICAgICAgICAgICAgICA6ICJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmF1dG9tYXRpY0ludGVydmFsSGVscCIsCiAgICAgICAgICAgICkKICAgICAgICAgIH19CiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICA8TGFiZWwgOmZvcj0iYCR7YTExeUlkfS1yZXRlbnRpb25gIj57ewogICAgICAgICAgdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5hdXRvbWF0aWNSZXRlbnRpb24iKQogICAgICAgIH19PC9MYWJlbD4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgOmlkPSJgJHthMTF5SWR9LXJldGVudGlvbmAiCiAgICAgICAgICAgIHYtbW9kZWwubnVtYmVyPSJmb3JtLnJldGVudGlvbl9kYXlzIgogICAgICAgICAgICB0eXBlPSJudW1iZXIiCiAgICAgICAgICAgIG1pbj0iMSIKICAgICAgICAgICAgbWF4PSIzNjUwIgogICAgICAgICAgICBzdGVwPSIxIgogICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzTG9hZGluZyB8fCBpc1NhdmluZyB8fCAhZGV0YWlscyIKICAgICAgICAgICAgOmFyaWEtaW52YWxpZD0icmV0ZW50aW9uSXNJbnZhbGlkIgogICAgICAgICAgICA6YXJpYS1kZXNjcmliZWRieT0iYCR7YTExeUlkfS1yZXRlbnRpb24taGVscGAiCiAgICAgICAgICAvPgogICAgICAgICAgPHNwYW4KICAgICAgICAgICAgY2xhc3M9InNocmluay0wIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgICAgICAgPnt7IHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuZGF5c1VuaXQiKSB9fTwvc3BhbgogICAgICAgICAgPgogICAgICAgIDwvZGl2PgogICAgICAgIDxwCiAgICAgICAgICA6aWQ9ImAke2ExMXlJZH0tcmV0ZW50aW9uLWhlbHBgIgogICAgICAgICAgY2xhc3M9InRleHQteHMiCiAgICAgICAgICA6Y2xhc3M9IgogICAgICAgICAgICByZXRlbnRpb25Jc0ludmFsaWQgPyAndGV4dC1kZXN0cnVjdGl2ZScgOiAndGV4dC1tdXRlZC1mb3JlZ3JvdW5kJwogICAgICAgICAgIgogICAgICAgICAgOnJvbGU9InJldGVudGlvbklzSW52YWxpZCA/ICdhbGVydCcgOiB1bmRlZmluZWQiCiAgICAgICAgPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgKICAgICAgICAgICAgICByZXRlbnRpb25Jc0ludmFsaWQKICAgICAgICAgICAgICAgID8gImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuYXV0b21hdGljUmV0ZW50aW9uRXJyb3IiCiAgICAgICAgICAgICAgICA6ICJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmF1dG9tYXRpY1JldGVudGlvbkhlbHAiLAogICAgICAgICAgICApCiAgICAgICAgICB9fQogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8ZGl2IHYtaWY9ImRldGFpbHMiIGNsYXNzPSJtdC00IHNwYWNlLXktMiB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0iZ3JpZCBnYXAtMiBzbTpncmlkLWNvbHMtMiIKICAgICAgICByb2xlPSJzdGF0dXMiCiAgICAgICAgYXJpYS1saXZlPSJwb2xpdGUiCiAgICAgICAgYXJpYS1hdG9taWM9InRydWUiCiAgICAgID4KICAgICAgICA8cD4KICAgICAgICAgIHt7IHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuYXV0b21hdGljTGFzdFN1Y2Nlc3MiKSB9fToKICAgICAgICAgIHt7IGZvcm1hdERhdGUoZGV0YWlscy5zdGF0dXMubGFzdF9zdWNjZXNzX2F0KSB9fQogICAgICAgIDwvcD4KICAgICAgICA8cD4KICAgICAgICAgIHt7IHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuYXV0b21hdGljTmV4dEJhY2t1cCIpIH19OgogICAgICAgICAge3sgZm9ybWF0RGF0ZShkZXRhaWxzLnN0YXR1cy5uZXh0X2JhY2t1cF9hdCkgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgICA8cAogICAgICAgIHYtaWY9ImRldGFpbHMuc3RhdHVzLmxhc3RfZXJyb3IiCiAgICAgICAgY2xhc3M9ImJyZWFrLXdvcmRzIHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgcm9sZT0iYWxlcnQiCiAgICAgID4KICAgICAgICB7eyB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmF1dG9tYXRpY0xhc3RFcnJvciIpIH19OgogICAgICAgIHt7IGRldGFpbHMuc3RhdHVzLmxhc3RfZXJyb3IgfX0KICAgICAgPC9wPgogICAgPC9kaXY+CgogICAgPGEKICAgICAgaHJlZj0iIy9zeXN0ZW0vYmFja3VwLWVtYWlsIgogICAgICBjbGFzcz0iZ3JvdXAgbXQtNiBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtNCByb3VuZGVkLXhsIGJvcmRlciBwLTQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvNDAgZm9jdXMtdmlzaWJsZTpvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpyaW5nLTIgZm9jdXMtdmlzaWJsZTpyaW5nLXJpbmciCiAgICAgIGRhdGEtdGVzdGlkPSJiYWNrdXAtZW1haWwtZW50cnkiCiAgICA+CiAgICAgIDxzcGFuIGNsYXNzPSJyb3VuZGVkLWxnIGJnLW11dGVkIHAtMi41IgogICAgICAgID48TWFpbCBjbGFzcz0iaC01IHctNSIgYXJpYS1oaWRkZW49InRydWUiCiAgICAgIC8+PC9zcGFuPgogICAgICA8c3BhbiBjbGFzcz0ibWluLXctMCBmbGV4LTEgc3BhY2UteS0xIj4KICAgICAgICA8c3BhbiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIGZvbnQtbWVkaXVtIj4KICAgICAgICAgIHt7IHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuZW1haWxUaXRsZSIpIH19CiAgICAgICAgICA8QmFkZ2UgdmFyaWFudD0ic2Vjb25kYXJ5Ij57ewogICAgICAgICAgICB0KAogICAgICAgICAgICAgIGRldGFpbHM/LmNvbmZpZy5lbWFpbD8uZW5hYmxlZAogICAgICAgICAgICAgICAgPyAiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5lbWFpbFN0YXRlRW5hYmxlZCIKICAgICAgICAgICAgICAgIDogImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuZW1haWxTdGF0ZURpc2FibGVkIiwKICAgICAgICAgICAgKQogICAgICAgICAgfX08L0JhZGdlPgogICAgICAgIDwvc3Bhbj4KICAgICAgICA8c3BhbiBjbGFzcz0iYmxvY2sgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt7CiAgICAgICAgICB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmVtYWlsRW50cnlEZXNjcmlwdGlvbiIpCiAgICAgICAgfX08L3NwYW4+CiAgICAgIDwvc3Bhbj4KICAgICAgPENoZXZyb25SaWdodAogICAgICAgIGNsYXNzPSJoLTQgdy00IHNocmluay0wIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgLz4KICAgIDwvYT4KCiAgICA8ZGl2IGNsYXNzPSJtdC01IGZsZXgganVzdGlmeS1lbmQgZ2FwLTMiPgogICAgICA8QnV0dG9uCiAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgOmRpc2FibGVkPSIhaXNEaXJ0eSB8fCBpc1NhdmluZyIKICAgICAgICBAY2xpY2s9InJlc2V0IgogICAgICA+CiAgICAgICAgPFJvdGF0ZUNjdyBjbGFzcz0ibXItMiBoLTQgdy00IiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KICAgICAgICB7eyB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLnJlc2V0QXV0b21hdGljIikgfX0KICAgICAgPC9CdXR0b24+CiAgICAgIDxCdXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgOmRpc2FibGVkPSIhaXNEaXJ0eSB8fCAhaXNWYWxpZCB8fCBpc1NhdmluZyIKICAgICAgICBAY2xpY2s9InNhdmUiCiAgICAgID4KICAgICAgICA8TG9hZGVyMgogICAgICAgICAgdi1pZj0iaXNTYXZpbmciCiAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiIKICAgICAgICAgIGFyaWEtaGlkZGVuPSJ0cnVlIgogICAgICAgIC8+CiAgICAgICAgPFNhdmUgdi1lbHNlIGNsYXNzPSJtci0yIGgtNCB3LTQiIGFyaWEtaGlkZGVuPSJ0cnVlIiAvPgogICAgICAgIHt7CiAgICAgICAgICB0KAogICAgICAgICAgICBpc1NhdmluZwogICAgICAgICAgICAgID8gImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuYXV0b21hdGljU2F2aW5nIgogICAgICAgICAgICAgIDogImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3Muc2F2ZUF1dG9tYXRpYyIsCiAgICAgICAgICApCiAgICAgICAgfX0KICAgICAgPC9CdXR0b24+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import {
+  DatabaseBackup,
+  Loader2,
+  RotateCcw,
+  Save,
+  Mail,
+  ChevronRight,
+} from "lucide-vue-next";
+import { useAutomaticBackupSettings } from "./useAutomaticBackupSettings";
+const emit = defineEmits<{ filesChanged: [] }>();
+const {
+  t,
+  a11yId,
+  details,
+  form,
+  isLoading,
+  isSaving,
+  isDirty,
+  isValid,
+  intervalIsInvalid,
+  retentionIsInvalid,
+  requestErrorMessage,
+  formatDate,
+  reset,
+  save,
+} = useAutomaticBackupSettings(false, () => emit("filesChanged"));
+</script>
+
+<template>
+  <div
+    class="px-6 py-6 sm:px-8"
+    data-a11y-scope="automatic-backup-settings"
+    role="region"
+    :aria-labelledby="`${a11yId}-title`"
+    :aria-describedby="`${a11yId}-description`"
+    :aria-busy="isLoading || isSaving"
+  >
+    <p
+      :id="`${a11yId}-activity-status`"
+      class="sr-only"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+    >
+      {{
+        isLoading
+          ? t("admin.maintenanceSettings.automaticLoading")
+          : isSaving
+            ? t("admin.maintenanceSettings.automaticSaving")
+            : ""
+      }}
+    </p>
+    <div
+      class="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between"
+    >
+      <div class="min-w-0 flex-1 space-y-2">
+        <h2
+          :id="`${a11yId}-title`"
+          class="flex items-center gap-2 text-sm font-medium"
+        >
+          <DatabaseBackup class="h-4 w-4" aria-hidden="true" />
+          <span>{{ t("admin.maintenanceSettings.automaticTitle") }}</span>
+        </h2>
+        <p
+          :id="`${a11yId}-description`"
+          class="max-w-3xl text-sm text-muted-foreground"
+        >
+          {{ t("admin.maintenanceSettings.automaticDescription") }}
+        </p>
+        <p
+          v-if="details?.status.directory_path"
+          class="break-all text-xs text-muted-foreground"
+        >
+          {{ t("admin.maintenanceSettings.automaticDirectory") }}:
+          <code>{{ details.status.directory_path }}</code>
+        </p>
+      </div>
+
+      <div class="flex shrink-0 items-center gap-3">
+        <Label :for="`${a11yId}-enabled`">
+          {{ t("admin.maintenanceSettings.automaticEnabled") }}
+        </Label>
+        <Switch
+          :id="`${a11yId}-enabled`"
+          v-model="form.enabled"
+          :disabled="isLoading || isSaving || !details"
+          :aria-describedby="`${a11yId}-description`"
+        />
+      </div>
+    </div>
+
+    <p
+      v-if="requestErrorMessage"
+      :id="`${a11yId}-request-error`"
+      class="mt-4 text-sm text-destructive"
+      role="alert"
+    >
+      {{ requestErrorMessage }}
+    </p>
+
+    <div
+      class="mt-5 grid gap-4 rounded-xl border bg-muted/[0.08] p-4 md:grid-cols-2"
+    >
+      <div class="space-y-2">
+        <Label :for="`${a11yId}-interval`">{{
+          t("admin.maintenanceSettings.automaticInterval")
+        }}</Label>
+        <div class="flex items-center gap-2">
+          <Input
+            :id="`${a11yId}-interval`"
+            v-model.number="form.interval_hours"
+            type="number"
+            min="1"
+            max="8760"
+            step="1"
+            :disabled="isLoading || isSaving || !details"
+            :aria-invalid="intervalIsInvalid"
+            :aria-describedby="`${a11yId}-interval-help`"
+          />
+          <span
+            class="shrink-0 text-sm text-muted-foreground"
+            aria-hidden="true"
+            >{{ t("admin.maintenanceSettings.hoursUnit") }}</span
+          >
+        </div>
+        <p
+          :id="`${a11yId}-interval-help`"
+          class="text-xs"
+          :class="
+            intervalIsInvalid ? 'text-destructive' : 'text-muted-foreground'
+          "
+          :role="intervalIsInvalid ? 'alert' : undefined"
+        >
+          {{
+            t(
+              intervalIsInvalid
+                ? "admin.maintenanceSettings.automaticIntervalError"
+                : "admin.maintenanceSettings.automaticIntervalHelp",
+            )
+          }}
+        </p>
+      </div>
+      <div class="space-y-2">
+        <Label :for="`${a11yId}-retention`">{{
+          t("admin.maintenanceSettings.automaticRetention")
+        }}</Label>
+        <div class="flex items-center gap-2">
+          <Input
+            :id="`${a11yId}-retention`"
+            v-model.number="form.retention_days"
+            type="number"
+            min="1"
+            max="3650"
+            step="1"
+            :disabled="isLoading || isSaving || !details"
+            :aria-invalid="retentionIsInvalid"
+            :aria-describedby="`${a11yId}-retention-help`"
+          />
+          <span
+            class="shrink-0 text-sm text-muted-foreground"
+            aria-hidden="true"
+            >{{ t("admin.maintenanceSettings.daysUnit") }}</span
+          >
+        </div>
+        <p
+          :id="`${a11yId}-retention-help`"
+          class="text-xs"
+          :class="
+            retentionIsInvalid ? 'text-destructive' : 'text-muted-foreground'
+          "
+          :role="retentionIsInvalid ? 'alert' : undefined"
+        >
+          {{
+            t(
+              retentionIsInvalid
+                ? "admin.maintenanceSettings.automaticRetentionError"
+                : "admin.maintenanceSettings.automaticRetentionHelp",
+            )
+          }}
+        </p>
+      </div>
+    </div>
+
+    <div v-if="details" class="mt-4 space-y-2 text-xs text-muted-foreground">
+      <div
+        class="grid gap-2 sm:grid-cols-2"
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
+      >
+        <p>
+          {{ t("admin.maintenanceSettings.automaticLastSuccess") }}:
+          {{ formatDate(details.status.last_success_at) }}
+        </p>
+        <p>
+          {{ t("admin.maintenanceSettings.automaticNextBackup") }}:
+          {{ formatDate(details.status.next_backup_at) }}
+        </p>
+      </div>
+      <p
+        v-if="details.status.last_error"
+        class="break-words text-destructive"
+        role="alert"
+      >
+        {{ t("admin.maintenanceSettings.automaticLastError") }}:
+        {{ details.status.last_error }}
+      </p>
+    </div>
+
+    <a
+      href="#/system/backup-email"
+      class="group mt-6 flex items-center gap-4 rounded-xl border p-4 transition-colors hover:bg-muted/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+      data-testid="backup-email-entry"
+    >
+      <span class="rounded-lg bg-muted p-2.5"
+        ><Mail class="h-5 w-5" aria-hidden="true"
+      /></span>
+      <span class="min-w-0 flex-1 space-y-1">
+        <span class="flex flex-wrap items-center gap-2 font-medium">
+          {{ t("admin.maintenanceSettings.emailTitle") }}
+          <Badge variant="secondary">{{
+            t(
+              details?.config.email?.enabled
+                ? "admin.maintenanceSettings.emailStateEnabled"
+                : "admin.maintenanceSettings.emailStateDisabled",
+            )
+          }}</Badge>
+        </span>
+        <span class="block text-sm text-muted-foreground">{{
+          t("admin.maintenanceSettings.emailEntryDescription")
+        }}</span>
+      </span>
+      <ChevronRight
+        class="h-4 w-4 shrink-0 text-muted-foreground"
+        aria-hidden="true"
+      />
+    </a>
+
+    <div class="mt-5 flex justify-end gap-3">
+      <Button
+        type="button"
+        variant="outline"
+        :disabled="!isDirty || isSaving"
+        @click="reset"
+      >
+        <RotateCcw class="mr-2 h-4 w-4" aria-hidden="true" />
+        {{ t("admin.maintenanceSettings.resetAutomatic") }}
+      </Button>
+      <Button
+        type="button"
+        :disabled="!isDirty || !isValid || isSaving"
+        @click="save"
+      >
+        <Loader2
+          v-if="isSaving"
+          class="mr-2 h-4 w-4 animate-spin"
+          aria-hidden="true"
+        />
+        <Save v-else class="mr-2 h-4 w-4" aria-hidden="true" />
+        {{
+          t(
+            isSaving
+              ? "admin.maintenanceSettings.automaticSaving"
+              : "admin.maintenanceSettings.saveAutomatic",
+          )
+        }}
+      </Button>
+    </div>
+  </div>
+</template>

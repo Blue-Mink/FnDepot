@@ -1,1 +1,7 @@
-ewogICJ1c2VybmFtZSI6ICIiLAogICJncm91cG5hbWUiOiAiIiwKICAiZGVmYXVsdHMiOiB7CiAgICAicnVuLWFzIjogInJvb3QiCiAgfQp9
+{
+  "username": "",
+  "groupname": "",
+  "defaults": {
+    "run-as": "root"
+  }
+}

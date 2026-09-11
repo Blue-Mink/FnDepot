@@ -1,1 +1,267 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvbk1vdW50ZWQsIHJlYWN0aXZlLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgewogIENhcmQsCiAgQ2FyZENvbnRlbnQsCiAgQ2FyZERlc2NyaXB0aW9uLAogIENhcmRIZWFkZXIsCiAgQ2FyZFRpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsKICBTZWxlY3QsCiAgU2VsZWN0Q29udGVudCwKICBTZWxlY3RJdGVtLAogIFNlbGVjdFRyaWdnZXIsCiAgU2VsZWN0VmFsdWUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NlbGVjdCI7CmltcG9ydCB7IFNrZWxldG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NrZWxldG9uIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IEZsb2F0aW5nQWN0aW9uRG9jayBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0Zsb2F0aW5nQWN0aW9uRG9jay52dWUiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IHVzZURlbGF5ZWRMb2FkaW5nIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VEZWxheWVkTG9hZGluZyI7CmltcG9ydCB7IENhcHRjaGFBUEkgfSBmcm9tICJAL2xpYi9hcGkvY29uZmlnIjsKaW1wb3J0IHsgaXNQb3dEaWZmaWN1bHR5VmFsaWQgfSBmcm9tICIuLi8uLi9saWIvY2FwdGNoYS1zZXR0aW5ncyI7CmltcG9ydCB0eXBlIHsgQ2FwdGNoYVNldHRpbmdzIGFzIENhcHRjaGFTZXR0aW5nc01vZGVsIH0gZnJvbSAiQGZyb250ZW5kLWNvcmUvY2FwdGNoYS90eXBlcyI7CmltcG9ydCBQb3dDYXB0Y2hhU2V0dGluZ3NGaWVsZHMgZnJvbSAiLi9jYXB0Y2hhL1Bvd0NhcHRjaGFTZXR0aW5nc0ZpZWxkcy52dWUiOwppbXBvcnQgVHVybnN0aWxlQ2FwdGNoYVNldHRpbmdzRmllbGRzIGZyb20gIi4vY2FwdGNoYS9UdXJuc3RpbGVDYXB0Y2hhU2V0dGluZ3NGaWVsZHMudnVlIjsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBzZXR0aW5ncyA9IHJlZjxDYXB0Y2hhU2V0dGluZ3NNb2RlbCB8IG51bGw+KG51bGwpOwpjb25zdCBmb3JtID0gcmVhY3RpdmU8Q2FwdGNoYVNldHRpbmdzTW9kZWw+KHsKICBwcm92aWRlcjogInBvdyIsCiAgd2lkZ2V0X21vZGU6ICJub3JtYWwiLAogIHBvdzogewogICAgYmFzZV9tYXhfbnVtYmVyOiAxMDBfMDAwLAogICAgdW5jb21tb25fbG9jYXRpb246IHsKICAgICAgZW5hYmxlZDogZmFsc2UsCiAgICAgIG1heF9udW1iZXI6IDMwMF8wMDAsCiAgICB9LAogIH0sCiAgdHVybnN0aWxlOiB7CiAgICBzaXRlX2tleTogIiIsCiAgICBzZWNyZXRfa2V5OiAiIiwKICB9LAp9KTsKCmNvbnN0IHsgaXNQZW5kaW5nOiBpc0xvYWRpbmcsIHJ1bjogcnVuTG9hZFNldHRpbmdzIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5jYXB0Y2hhU2V0dGluZ3MubG9hZEZhaWxlZCIpLCB7CiAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgIGVycm9yLAogICAgICAgIHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy5sb2FkRGVzY3JpcHRpb24iKSwKICAgICAgKSwKICAgIH0pOwogIH0sCn0pOwpjb25zdCBzaG93TG9hZGluZ1NrZWxldG9uID0gdXNlRGVsYXllZExvYWRpbmcoaXNMb2FkaW5nKTsKY29uc3QgeyBpc1BlbmRpbmc6IGlzU2F2aW5nLCBydW46IHJ1blNhdmVTZXR0aW5ncyB9ID0gdXNlQXN5bmNBY3Rpb24oewogIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uY2FwdGNoYVNldHRpbmdzLnNhdmVGYWlsZWQiKSwgewogICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICBlcnJvciwKICAgICAgICB0KCJhZG1pbi5jYXB0Y2hhU2V0dGluZ3Muc2F2ZURlc2NyaXB0aW9uIiksCiAgICAgICksCiAgICB9KTsKICB9LAp9KTsKCmNvbnN0IGlzRGlydHkgPSBjb21wdXRlZCgoKSA9PiB7CiAgaWYgKCFzZXR0aW5ncy52YWx1ZSkgcmV0dXJuIGZhbHNlOwogIHJldHVybiAoCiAgICBzZXR0aW5ncy52YWx1ZS5wcm92aWRlciAhPT0gZm9ybS5wcm92aWRlciB8fAogICAgc2V0dGluZ3MudmFsdWUucG93LmJhc2VfbWF4X251bWJlciAhPT0gZm9ybS5wb3cuYmFzZV9tYXhfbnVtYmVyIHx8CiAgICBzZXR0aW5ncy52YWx1ZS5wb3cudW5jb21tb25fbG9jYXRpb24uZW5hYmxlZCAhPT0KICAgICAgZm9ybS5wb3cudW5jb21tb25fbG9jYXRpb24uZW5hYmxlZCB8fAogICAgc2V0dGluZ3MudmFsdWUucG93LnVuY29tbW9uX2xvY2F0aW9uLm1heF9udW1iZXIgIT09CiAgICAgIGZvcm0ucG93LnVuY29tbW9uX2xvY2F0aW9uLm1heF9udW1iZXIgfHwKICAgIHNldHRpbmdzLnZhbHVlLnR1cm5zdGlsZS5zaXRlX2tleSAhPT0gZm9ybS50dXJuc3RpbGUuc2l0ZV9rZXkgfHwKICAgIHNldHRpbmdzLnZhbHVlLnR1cm5zdGlsZS5zZWNyZXRfa2V5ICE9PSBmb3JtLnR1cm5zdGlsZS5zZWNyZXRfa2V5CiAgKTsKfSk7Cgpjb25zdCBhcHBseUZyb21TZXR0aW5ncyA9IChkYXRhOiBDYXB0Y2hhU2V0dGluZ3NNb2RlbCkgPT4gewogIHNldHRpbmdzLnZhbHVlID0gZGF0YTsKICBmb3JtLnByb3ZpZGVyID0gZGF0YS5wcm92aWRlcjsKICBmb3JtLndpZGdldF9tb2RlID0gIm5vcm1hbCI7CiAgZm9ybS5wb3cuYmFzZV9tYXhfbnVtYmVyID0gZGF0YS5wb3cuYmFzZV9tYXhfbnVtYmVyOwogIGZvcm0ucG93LnVuY29tbW9uX2xvY2F0aW9uLmVuYWJsZWQgPSBkYXRhLnBvdy51bmNvbW1vbl9sb2NhdGlvbi5lbmFibGVkOwogIGZvcm0ucG93LnVuY29tbW9uX2xvY2F0aW9uLm1heF9udW1iZXIgPSBkYXRhLnBvdy51bmNvbW1vbl9sb2NhdGlvbi5tYXhfbnVtYmVyOwogIGZvcm0udHVybnN0aWxlLnNpdGVfa2V5ID0gZGF0YS50dXJuc3RpbGUuc2l0ZV9rZXk7CiAgZm9ybS50dXJuc3RpbGUuc2VjcmV0X2tleSA9IGRhdGEudHVybnN0aWxlLnNlY3JldF9rZXk7Cn07Cgpjb25zdCBmZXRjaFNldHRpbmdzID0gYXN5bmMgKCkgPT4gewogIGF3YWl0IHJ1bkxvYWRTZXR0aW5ncyhhc3luYyAoKSA9PiB7CiAgICBjb25zdCBkYXRhID0gYXdhaXQgQ2FwdGNoYUFQSS5nZXRTZXR0aW5ncygpOwogICAgYXBwbHlGcm9tU2V0dGluZ3MoZGF0YSk7CiAgfSk7Cn07Cgpjb25zdCByZXNldEZvcm0gPSAoKSA9PiB7CiAgaWYgKHNldHRpbmdzLnZhbHVlKSBhcHBseUZyb21TZXR0aW5ncyhzZXR0aW5ncy52YWx1ZSk7Cn07Cgpjb25zdCBzYXZlU2V0dGluZ3MgPSBhc3luYyAoKSA9PiB7CiAgY29uc3QgYmFzZU1heE51bWJlciA9IE51bWJlcihmb3JtLnBvdy5iYXNlX21heF9udW1iZXIpOwogIGNvbnN0IHVuY29tbW9uTWF4TnVtYmVyID0gTnVtYmVyKGZvcm0ucG93LnVuY29tbW9uX2xvY2F0aW9uLm1heF9udW1iZXIpOwogIGlmICghaXNQb3dEaWZmaWN1bHR5VmFsaWQoYmFzZU1heE51bWJlciwgdW5jb21tb25NYXhOdW1iZXIpKSB7CiAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5jYXB0Y2hhU2V0dGluZ3MucG93RGlmZmljdWx0eUludmFsaWRUaXRsZSIpLCB7CiAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5jYXB0Y2hhU2V0dGluZ3MucG93RGlmZmljdWx0eUludmFsaWREZXNjcmlwdGlvbiIpLAogICAgfSk7CiAgICByZXR1cm47CiAgfQoKICBpZiAoZm9ybS5wcm92aWRlciA9PT0gInR1cm5zdGlsZSIpIHsKICAgIGlmICghZm9ybS50dXJuc3RpbGUuc2l0ZV9rZXkudHJpbSgpIHx8ICFmb3JtLnR1cm5zdGlsZS5zZWNyZXRfa2V5LnRyaW0oKSkgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5jYXB0Y2hhU2V0dGluZ3MuaW5jb21wbGV0ZVRpdGxlIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogdCgiYWRtaW4uY2FwdGNoYVNldHRpbmdzLmluY29tcGxldGVEZXNjcmlwdGlvbiIpLAogICAgICB9KTsKICAgICAgcmV0dXJuOwogICAgfQogIH0KCiAgYXdhaXQgcnVuU2F2ZVNldHRpbmdzKAogICAgKCkgPT4KICAgICAgQ2FwdGNoYUFQSS51cGRhdGVTZXR0aW5ncyh7CiAgICAgICAgcHJvdmlkZXI6IGZvcm0ucHJvdmlkZXIsCiAgICAgICAgd2lkZ2V0X21vZGU6ICJub3JtYWwiLAogICAgICAgIHBvdzogewogICAgICAgICAgYmFzZV9tYXhfbnVtYmVyOiBiYXNlTWF4TnVtYmVyLAogICAgICAgICAgdW5jb21tb25fbG9jYXRpb246IHsKICAgICAgICAgICAgZW5hYmxlZDogZm9ybS5wb3cudW5jb21tb25fbG9jYXRpb24uZW5hYmxlZCwKICAgICAgICAgICAgbWF4X251bWJlcjogdW5jb21tb25NYXhOdW1iZXIsCiAgICAgICAgICB9LAogICAgICAgIH0sCiAgICAgICAgdHVybnN0aWxlOiB7CiAgICAgICAgICBzaXRlX2tleTogZm9ybS50dXJuc3RpbGUuc2l0ZV9rZXkudHJpbSgpLAogICAgICAgICAgc2VjcmV0X2tleTogZm9ybS50dXJuc3RpbGUuc2VjcmV0X2tleS50cmltKCksCiAgICAgICAgfSwKICAgICAgfSksCiAgICB7CiAgICAgIG9uU3VjY2VzczogKGRhdGEpID0+IHsKICAgICAgICBhcHBseUZyb21TZXR0aW5ncyhkYXRhKTsKICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy51cGRhdGVkIikpOwogICAgICB9LAogICAgfSwKICApOwp9OwoKb25Nb3VudGVkKGZldGNoU2V0dGluZ3MpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8Q2FyZD4KICAgIDxDYXJkSGVhZGVyPgogICAgICA8Q2FyZFRpdGxlIGNsYXNzPSJ0ZXh0LW1kIj57ewogICAgICAgIHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy50aXRsZSIpCiAgICAgIH19PC9DYXJkVGl0bGU+CiAgICAgIDxDYXJkRGVzY3JpcHRpb24gY2xhc3M9Im10LTEuNSI+CiAgICAgICAge3sgdCgiYWRtaW4uY2FwdGNoYVNldHRpbmdzLmRlc2NyaXB0aW9uIikgfX0KICAgICAgPC9DYXJkRGVzY3JpcHRpb24+CiAgICA8L0NhcmRIZWFkZXI+CgogICAgPENhcmRDb250ZW50IHYtaWY9ImlzTG9hZGluZyAmJiBzaG93TG9hZGluZ1NrZWxldG9uIiBjbGFzcz0iYm9yZGVyLXQgcC0wIj4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS00IHAtNiI+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTYgdy0xLzMiIC8+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy0yLzMiIC8+CiAgICAgIDwvZGl2PgogICAgPC9DYXJkQ29udGVudD4KCiAgICA8Q2FyZENvbnRlbnQgdi1lbHNlLWlmPSIhaXNMb2FkaW5nIiBjbGFzcz0iYm9yZGVyLXQgcC0wIGRpdmlkZS15Ij4KICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC00IGJnLW11dGVkLzEwIHAtNiBzbTpmbGV4LXJvdyBzbTppdGVtcy1jZW50ZXIgc206anVzdGlmeS1iZXR3ZWVuIgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTEgc206ZmxleC0xIHNtOnByLTYiPgogICAgICAgICAgPExhYmVsIGZvcj0iY2FwdGNoYS1wcm92aWRlciIgY2xhc3M9InRleHQtYmFzZSI+e3sKICAgICAgICAgICAgdCgiYWRtaW4uY2FwdGNoYVNldHRpbmdzLnR5cGVMYWJlbCIpCiAgICAgICAgICB9fTwvTGFiZWw+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy50eXBlRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPFNlbGVjdCB2LW1vZGVsPSJmb3JtLnByb3ZpZGVyIiA6ZGlzYWJsZWQ9ImlzU2F2aW5nIj4KICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyCiAgICAgICAgICAgIGlkPSJjYXB0Y2hhLXByb3ZpZGVyIgogICAgICAgICAgICBjbGFzcz0idy1mdWxsIHNtOnNocmluay0wIgogICAgICAgICAgICBzdHlsZT0id2lkdGg6IG1pbigxMDAlLCAzMDBweCkiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxTZWxlY3RWYWx1ZQogICAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uY2FwdGNoYVNldHRpbmdzLnR5cGVQbGFjZWhvbGRlcicpIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJwb3ciPnt7CiAgICAgICAgICAgICAgdCgiYWRtaW4uY2FwdGNoYVNldHRpbmdzLnBvd09wdGlvbiIpCiAgICAgICAgICAgIH19PC9TZWxlY3RJdGVtPgogICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0idHVybnN0aWxlIj5DbG91ZGZsYXJlIFR1cm5zdGlsZTwvU2VsZWN0SXRlbT4KICAgICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgICA8L1NlbGVjdD4KICAgICAgPC9kaXY+CgogICAgICA8UG93Q2FwdGNoYVNldHRpbmdzRmllbGRzCiAgICAgICAgdi1pZj0iZm9ybS5wcm92aWRlciA9PT0gJ3BvdyciCiAgICAgICAgdi1tb2RlbD0iZm9ybS5wb3ciCiAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZyIKICAgICAgLz4KCiAgICAgIDxUdXJuc3RpbGVDYXB0Y2hhU2V0dGluZ3NGaWVsZHMKICAgICAgICB2LWlmPSJmb3JtLnByb3ZpZGVyID09PSAndHVybnN0aWxlJyIKICAgICAgICB2LW1vZGVsPSJmb3JtLnR1cm5zdGlsZSIKICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nIgogICAgICAvPgogICAgPC9DYXJkQ29udGVudD4KCiAgICA8Q2FyZENvbnRlbnQgdi1lbHNlIGNsYXNzPSJtaW4taC1bMjAwcHhdIiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KCiAgICA8RmxvYXRpbmdBY3Rpb25Eb2NrCiAgICAgIDphY3RpdmU9ImlzRGlydHkiCiAgICAgIGlubGluZS1jbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHJvdW5kZWQtYi14bCBib3JkZXItdCBiZy1tdXRlZC8yMCBwLTYiCiAgICA+CiAgICAgIDx0ZW1wbGF0ZSAjaW5saW5lPgogICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIDxzcGFuIHYtaWY9ImlzRGlydHkiPnt7IHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy5kaXJ0eSIpIH19PC9zcGFuPgogICAgICAgICAgPHNwYW4gdi1lbHNlPnt7IHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy5jbGVhbiIpIH19PC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZ2FwLTMiPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICBAY2xpY2s9InJlc2V0Rm9ybSIKICAgICAgICAgICAgOmRpc2FibGVkPSIhaXNEaXJ0eSB8fCBpc1NhdmluZyIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uY2FwdGNoYVNldHRpbmdzLmRpc2NhcmQiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uIDpkaXNhYmxlZD0iIWlzRGlydHkgfHwgaXNTYXZpbmciIEBjbGljaz0ic2F2ZVNldHRpbmdzIj4KICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICB2LWlmPSJpc1NhdmluZyIKICAgICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLWJhY2tncm91bmQgYm9yZGVyLXQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPjwvc3Bhbj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uY2FwdGNoYVNldHRpbmdzLnNhdmVDaGFuZ2VzIikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L3RlbXBsYXRlPgoKICAgICAgPHRlbXBsYXRlICNmbG9hdGluZz4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgQGNsaWNrPSJyZXNldEZvcm0iCiAgICAgICAgICA6ZGlzYWJsZWQ9IiFpc0RpcnR5IHx8IGlzU2F2aW5nIgogICAgICAgID4KICAgICAgICAgIHt7IHQoImFkbWluLmNhcHRjaGFTZXR0aW5ncy5kaXNjYXJkIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uIDpkaXNhYmxlZD0iIWlzRGlydHkgfHwgaXNTYXZpbmciIEBjbGljaz0ic2F2ZVNldHRpbmdzIj4KICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIHYtaWY9ImlzU2F2aW5nIgogICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLWJhY2tncm91bmQgYm9yZGVyLXQtZm9yZWdyb3VuZCIKICAgICAgICAgID48L3NwYW4+CiAgICAgICAgICB7eyB0KCJhZG1pbi5jYXB0Y2hhU2V0dGluZ3Muc2F2ZUNoYW5nZXMiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L3RlbXBsYXRlPgogICAgPC9GbG9hdGluZ0FjdGlvbkRvY2s+CiAgPC9DYXJkPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, onMounted, reactive, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Skeleton } from "@/components/ui/skeleton";
+import { toast } from "@admin-shared/utils/toast";
+import FloatingActionDock from "@admin-shared/components/common/FloatingActionDock.vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import { CaptchaAPI } from "@/lib/api/config";
+import { isPowDifficultyValid } from "../../lib/captcha-settings";
+import type { CaptchaSettings as CaptchaSettingsModel } from "@frontend-core/captcha/types";
+import PowCaptchaSettingsFields from "./captcha/PowCaptchaSettingsFields.vue";
+import TurnstileCaptchaSettingsFields from "./captcha/TurnstileCaptchaSettingsFields.vue";
+
+const { t } = useI18n();
+const settings = ref<CaptchaSettingsModel | null>(null);
+const form = reactive<CaptchaSettingsModel>({
+  provider: "pow",
+  widget_mode: "normal",
+  pow: {
+    base_max_number: 100_000,
+    uncommon_location: {
+      enabled: false,
+      max_number: 300_000,
+    },
+  },
+  turnstile: {
+    site_key: "",
+    secret_key: "",
+  },
+});
+
+const { isPending: isLoading, run: runLoadSettings } = useAsyncAction({
+  onError: (error) => {
+    toast.error(t("admin.captchaSettings.loadFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.captchaSettings.loadDescription"),
+      ),
+    });
+  },
+});
+const showLoadingSkeleton = useDelayedLoading(isLoading);
+const { isPending: isSaving, run: runSaveSettings } = useAsyncAction({
+  onError: (error) => {
+    toast.error(t("admin.captchaSettings.saveFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.captchaSettings.saveDescription"),
+      ),
+    });
+  },
+});
+
+const isDirty = computed(() => {
+  if (!settings.value) return false;
+  return (
+    settings.value.provider !== form.provider ||
+    settings.value.pow.base_max_number !== form.pow.base_max_number ||
+    settings.value.pow.uncommon_location.enabled !==
+      form.pow.uncommon_location.enabled ||
+    settings.value.pow.uncommon_location.max_number !==
+      form.pow.uncommon_location.max_number ||
+    settings.value.turnstile.site_key !== form.turnstile.site_key ||
+    settings.value.turnstile.secret_key !== form.turnstile.secret_key
+  );
+});
+
+const applyFromSettings = (data: CaptchaSettingsModel) => {
+  settings.value = data;
+  form.provider = data.provider;
+  form.widget_mode = "normal";
+  form.pow.base_max_number = data.pow.base_max_number;
+  form.pow.uncommon_location.enabled = data.pow.uncommon_location.enabled;
+  form.pow.uncommon_location.max_number = data.pow.uncommon_location.max_number;
+  form.turnstile.site_key = data.turnstile.site_key;
+  form.turnstile.secret_key = data.turnstile.secret_key;
+};
+
+const fetchSettings = async () => {
+  await runLoadSettings(async () => {
+    const data = await CaptchaAPI.getSettings();
+    applyFromSettings(data);
+  });
+};
+
+const resetForm = () => {
+  if (settings.value) applyFromSettings(settings.value);
+};
+
+const saveSettings = async () => {
+  const baseMaxNumber = Number(form.pow.base_max_number);
+  const uncommonMaxNumber = Number(form.pow.uncommon_location.max_number);
+  if (!isPowDifficultyValid(baseMaxNumber, uncommonMaxNumber)) {
+    toast.error(t("admin.captchaSettings.powDifficultyInvalidTitle"), {
+      description: t("admin.captchaSettings.powDifficultyInvalidDescription"),
+    });
+    return;
+  }
+
+  if (form.provider === "turnstile") {
+    if (!form.turnstile.site_key.trim() || !form.turnstile.secret_key.trim()) {
+      toast.error(t("admin.captchaSettings.incompleteTitle"), {
+        description: t("admin.captchaSettings.incompleteDescription"),
+      });
+      return;
+    }
+  }
+
+  await runSaveSettings(
+    () =>
+      CaptchaAPI.updateSettings({
+        provider: form.provider,
+        widget_mode: "normal",
+        pow: {
+          base_max_number: baseMaxNumber,
+          uncommon_location: {
+            enabled: form.pow.uncommon_location.enabled,
+            max_number: uncommonMaxNumber,
+          },
+        },
+        turnstile: {
+          site_key: form.turnstile.site_key.trim(),
+          secret_key: form.turnstile.secret_key.trim(),
+        },
+      }),
+    {
+      onSuccess: (data) => {
+        applyFromSettings(data);
+        toast.success(t("admin.captchaSettings.updated"));
+      },
+    },
+  );
+};
+
+onMounted(fetchSettings);
+</script>
+
+<template>
+  <Card>
+    <CardHeader>
+      <CardTitle class="text-md">{{
+        t("admin.captchaSettings.title")
+      }}</CardTitle>
+      <CardDescription class="mt-1.5">
+        {{ t("admin.captchaSettings.description") }}
+      </CardDescription>
+    </CardHeader>
+
+    <CardContent v-if="isLoading && showLoadingSkeleton" class="border-t p-0">
+      <div class="space-y-4 p-6">
+        <Skeleton class="h-6 w-1/3" />
+        <Skeleton class="h-4 w-2/3" />
+      </div>
+    </CardContent>
+
+    <CardContent v-else-if="!isLoading" class="border-t p-0 divide-y">
+      <div
+        class="flex flex-col gap-4 bg-muted/10 p-6 sm:flex-row sm:items-center sm:justify-between"
+      >
+        <div class="min-w-0 space-y-1 sm:flex-1 sm:pr-6">
+          <Label for="captcha-provider" class="text-base">{{
+            t("admin.captchaSettings.typeLabel")
+          }}</Label>
+          <div class="text-sm text-muted-foreground">
+            {{ t("admin.captchaSettings.typeDescription") }}
+          </div>
+        </div>
+        <Select v-model="form.provider" :disabled="isSaving">
+          <SelectTrigger
+            id="captcha-provider"
+            class="w-full sm:shrink-0"
+            style="width: min(100%, 300px)"
+          >
+            <SelectValue
+              :placeholder="t('admin.captchaSettings.typePlaceholder')"
+            />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="pow">{{
+              t("admin.captchaSettings.powOption")
+            }}</SelectItem>
+            <SelectItem value="turnstile">Cloudflare Turnstile</SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
+
+      <PowCaptchaSettingsFields
+        v-if="form.provider === 'pow'"
+        v-model="form.pow"
+        :disabled="isSaving"
+      />
+
+      <TurnstileCaptchaSettingsFields
+        v-if="form.provider === 'turnstile'"
+        v-model="form.turnstile"
+        :disabled="isSaving"
+      />
+    </CardContent>
+
+    <CardContent v-else class="min-h-[200px]" aria-hidden="true" />
+
+    <FloatingActionDock
+      :active="isDirty"
+      inline-class="flex items-center justify-between rounded-b-xl border-t bg-muted/20 p-6"
+    >
+      <template #inline>
+        <div class="text-sm text-muted-foreground">
+          <span v-if="isDirty">{{ t("admin.captchaSettings.dirty") }}</span>
+          <span v-else>{{ t("admin.captchaSettings.clean") }}</span>
+        </div>
+        <div class="flex gap-3">
+          <Button
+            variant="outline"
+            @click="resetForm"
+            :disabled="!isDirty || isSaving"
+          >
+            {{ t("admin.captchaSettings.discard") }}
+          </Button>
+          <Button :disabled="!isDirty || isSaving" @click="saveSettings">
+            <span
+              v-if="isSaving"
+              class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+            ></span>
+            {{ t("admin.captchaSettings.saveChanges") }}
+          </Button>
+        </div>
+      </template>
+
+      <template #floating>
+        <Button
+          variant="outline"
+          @click="resetForm"
+          :disabled="!isDirty || isSaving"
+        >
+          {{ t("admin.captchaSettings.discard") }}
+        </Button>
+        <Button :disabled="!isDirty || isSaving" @click="saveSettings">
+          <span
+            v-if="isSaving"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          ></span>
+          {{ t("admin.captchaSettings.saveChanges") }}
+        </Button>
+      </template>
+    </FloatingActionDock>
+  </Card>
+</template>

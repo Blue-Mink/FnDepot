@@ -1,1 +1,54 @@
-aW1wb3J0IHsgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBkZWZpbmVDb21wb25lbnQsIGggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyBhZnRlckVhY2gsIGRlc2NyaWJlLCBleHBlY3QsIGl0IH0gZnJvbSAidml0ZXN0IjsKCmltcG9ydCB7IHVzZVBvbGxpbmdSZXNvdXJjZVN0YXR1cyB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlUG9sbGluZ1Jlc291cmNlU3RhdHVzIjsKCmNvbnN0IHNldERvY3VtZW50SGlkZGVuID0gKGhpZGRlbjogYm9vbGVhbikgPT4gewogIE9iamVjdC5kZWZpbmVQcm9wZXJ0eShkb2N1bWVudCwgImhpZGRlbiIsIHsKICAgIGNvbmZpZ3VyYWJsZTogdHJ1ZSwKICAgIHZhbHVlOiBoaWRkZW4sCiAgfSk7CiAgZG9jdW1lbnQuZGlzcGF0Y2hFdmVudChuZXcgRXZlbnQoInZpc2liaWxpdHljaGFuZ2UiKSk7Cn07CgpkZXNjcmliZSgidXNlUG9sbGluZ1Jlc291cmNlU3RhdHVzIiwgKCkgPT4gewogIGFmdGVyRWFjaCgoKSA9PiBzZXREb2N1bWVudEhpZGRlbihmYWxzZSkpOwoKICBpdCgicmVzdW1lcyBhZnRlciB2aXNpYmlsaXR5IGFib3J0cyB0aGUgaW5pdGlhbCByZXF1ZXN0IiwgYXN5bmMgKCkgPT4gewogICAgbGV0IGNhbGxzID0gMDsKICAgIGNvbnN0IGNvbXBvbmVudCA9IGRlZmluZUNvbXBvbmVudCh7CiAgICAgIHNldHVwKCkgewogICAgICAgIHVzZVBvbGxpbmdSZXNvdXJjZVN0YXR1cyh7CiAgICAgICAgICBpbnRlcnZhbE1zOiA2MF8wMDAsCiAgICAgICAgICBmZXRjaGVyOiAoc2lnbmFsKSA9PiB7CiAgICAgICAgICAgIGNhbGxzICs9IDE7CiAgICAgICAgICAgIGlmIChjYWxscyA+IDEpIHJldHVybiBQcm9taXNlLnJlc29sdmUoeyBkb3dubG9hZGluZzogZmFsc2UgfSk7CiAgICAgICAgICAgIHJldHVybiBuZXcgUHJvbWlzZTx7IGRvd25sb2FkaW5nOiBib29sZWFuIH0+KChfLCByZWplY3QpID0+IHsKICAgICAgICAgICAgICBzaWduYWw/LmFkZEV2ZW50TGlzdGVuZXIoCiAgICAgICAgICAgICAgICAiYWJvcnQiLAogICAgICAgICAgICAgICAgKCkgPT4gcmVqZWN0KG5ldyBET01FeGNlcHRpb24oIkFib3J0ZWQiLCAiQWJvcnRFcnJvciIpKSwKICAgICAgICAgICAgICAgIHsgb25jZTogdHJ1ZSB9LAogICAgICAgICAgICAgICk7CiAgICAgICAgICAgIH0pOwogICAgICAgICAgfSwKICAgICAgICAgIG9uRGF0YTogKCkgPT4gdW5kZWZpbmVkLAogICAgICAgICAgaXNEb3dubG9hZGluZzogKGRhdGEpID0+IGRhdGEuZG93bmxvYWRpbmcsCiAgICAgICAgfSk7CiAgICAgICAgcmV0dXJuICgpID0+IGgoImRpdiIpOwogICAgICB9LAogICAgfSk7CgogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KGNvbXBvbmVudCk7CiAgICBhd2FpdCBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gc2V0VGltZW91dChyZXNvbHZlLCA1KSk7CiAgICBleHBlY3QoY2FsbHMpLnRvQmUoMSk7CgogICAgc2V0RG9jdW1lbnRIaWRkZW4odHJ1ZSk7CiAgICBhd2FpdCBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gc2V0VGltZW91dChyZXNvbHZlLCA1KSk7CiAgICBzZXREb2N1bWVudEhpZGRlbihmYWxzZSk7CiAgICBhd2FpdCBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gc2V0VGltZW91dChyZXNvbHZlLCAxMCkpOwoKICAgIGV4cGVjdChjYWxscykudG9CZSgyKTsKICAgIHdyYXBwZXIudW5tb3VudCgpOwogIH0pOwp9KTsK
+import { mount } from "@vue/test-utils";
+import { defineComponent, h } from "vue";
+import { afterEach, describe, expect, it } from "vitest";
+
+import { usePollingResourceStatus } from "@admin-shared/composables/usePollingResourceStatus";
+
+const setDocumentHidden = (hidden: boolean) => {
+  Object.defineProperty(document, "hidden", {
+    configurable: true,
+    value: hidden,
+  });
+  document.dispatchEvent(new Event("visibilitychange"));
+};
+
+describe("usePollingResourceStatus", () => {
+  afterEach(() => setDocumentHidden(false));
+
+  it("resumes after visibility aborts the initial request", async () => {
+    let calls = 0;
+    const component = defineComponent({
+      setup() {
+        usePollingResourceStatus({
+          intervalMs: 60_000,
+          fetcher: (signal) => {
+            calls += 1;
+            if (calls > 1) return Promise.resolve({ downloading: false });
+            return new Promise<{ downloading: boolean }>((_, reject) => {
+              signal?.addEventListener(
+                "abort",
+                () => reject(new DOMException("Aborted", "AbortError")),
+                { once: true },
+              );
+            });
+          },
+          onData: () => undefined,
+          isDownloading: (data) => data.downloading,
+        });
+        return () => h("div");
+      },
+    });
+
+    const wrapper = mount(component);
+    await new Promise((resolve) => setTimeout(resolve, 5));
+    expect(calls).toBe(1);
+
+    setDocumentHidden(true);
+    await new Promise((resolve) => setTimeout(resolve, 5));
+    setDocumentHidden(false);
+    await new Promise((resolve) => setTimeout(resolve, 10));
+
+    expect(calls).toBe(2);
+    wrapper.unmount();
+  });
+});

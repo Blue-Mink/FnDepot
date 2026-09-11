@@ -1,1 +1,48 @@
-dXNlIGF4dW06OnsKICAgIEpzb24sCiAgICBleHRyYWN0Ojp7UGF0aCwgU3RhdGV9LAogICAgaHR0cDo6U3RhdHVzQ29kZSwKICAgIHJlc3BvbnNlOjp7SW50b1Jlc3BvbnNlLCBSZXNwb25zZX0sCn07Cgp1c2UgY3JhdGU6OnsKICAgIHBhbmVsX3N5bmM6Onttb2RlbDo6KiwgcmVwb3NpdG9yeTo6UmVwb3NpdG9yeSwgc2VydmljZX0sCiAgICByZXNwb25zZSwKICAgIHN0YXRlOjpBcHBTdGF0ZSwKfTsKCnVzZSBzdXBlcjo6Y29ubmVjdGlvbnM6OnNlcnZpY2VfZXJyb3I7CgojW3V0b2lwYTo6cGF0aChwb3N0LCBwYXRoID0gIi9hcGkvYWRtaW4vcGFuZWwtc3luYy9jb25uZWN0aW9ucy97aWR9L3N5bmMiLCB0YWcgPSAicGFuZWwtc3luYyIsIHBhcmFtcygoImlkIiA9IFN0cmluZywgUGF0aCkpLCByZXF1ZXN0X2JvZHkgPSBTeW5jUmVxdWVzdCwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDIsIGJvZHkgPSBTeW5jQWNjZXB0ZWQpLCAoc3RhdHVzID0gNDA5LCBib2R5ID0gc2VyZGVfanNvbjo6VmFsdWUpKSldCnB1YiBhc3luYyBmbiBzeW5jKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBQYXRoKGlkKTogUGF0aDxTdHJpbmc+LAogICAgSnNvbihpbnB1dCk6IEpzb248U3luY1JlcXVlc3Q+LAopIC0+IFJlc3BvbnNlIHsKICAgIG1hdGNoIHNlcnZpY2U6OmVucXVldWVfbWFudWFsKCZzdGF0ZSwgJmlkLCBpbnB1dCkuYXdhaXQgewogICAgICAgIE9rKGFjY2VwdGVkKSA9PiAoU3RhdHVzQ29kZTo6QUNDRVBURUQsIHJlc3BvbnNlOjpvayhhY2NlcHRlZCkpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHNlcnZpY2VfZXJyb3IoZXJyb3IpLAogICAgfQp9CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi9wYW5lbC1zeW5jL2Nvbm5lY3Rpb25zL3tpZH0vcnVucyIsIHRhZyA9ICJwYW5lbC1zeW5jIiwgcGFyYW1zKCgiaWQiID0gU3RyaW5nLCBQYXRoKSksIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBib2R5ID0gW1N5bmNSdW5dKSkpXQpwdWIgYXN5bmMgZm4gbGlzdChTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwgUGF0aChpZCk6IFBhdGg8U3RyaW5nPikgLT4gUmVzcG9uc2UgewogICAgbGV0IHJlcG9zaXRvcnkgPSBSZXBvc2l0b3J5OjpuZXcoJnN0YXRlKTsKICAgIG1hdGNoIHJlcG9zaXRvcnkuY29ubmVjdGlvbigmaWQpLmF3YWl0IHsKICAgICAgICBPayhOb25lKSA9PiByZXNwb25zZTo6ZXJyb3IoU3RhdHVzQ29kZTo6Tk9UX0ZPVU5ELCAi6Z2i5p2/6L+e5o6l5LiN5a2Y5ZyoIiksCiAgICAgICAgRXJyKGVycm9yKSA9PiByZXNwb25zZTo6ZXJyb3IoU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLCBlcnJvciksCiAgICAgICAgT2soU29tZShfKSkgPT4gbWF0Y2ggcmVwb3NpdG9yeS5ydW5zKCZpZCkuYXdhaXQgewogICAgICAgICAgICBPayhydW5zKSA9PiByZXNwb25zZTo6b2socnVucykuaW50b19yZXNwb25zZSgpLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IHJlc3BvbnNlOjplcnJvcihTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsIGVycm9yKSwKICAgICAgICB9LAogICAgfQp9CgojW3V0b2lwYTo6cGF0aChnZXQsIHBhdGggPSAiL2FwaS9hZG1pbi9wYW5lbC1zeW5jL3J1bnMve3J1bl9pZH0iLCB0YWcgPSAicGFuZWwtc3luYyIsIHBhcmFtcygoInJ1bl9pZCIgPSBTdHJpbmcsIFBhdGgpKSwgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGJvZHkgPSBTeW5jUnVuKSwgKHN0YXR1cyA9IDQwNCwgYm9keSA9IHNlcmRlX2pzb246OlZhbHVlKSkpXQpwdWIgYXN5bmMgZm4gZ2V0KFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LCBQYXRoKHJ1bl9pZCk6IFBhdGg8U3RyaW5nPikgLT4gUmVzcG9uc2UgewogICAgbWF0Y2ggUmVwb3NpdG9yeTo6bmV3KCZzdGF0ZSkucnVuKCZydW5faWQpLmF3YWl0IHsKICAgICAgICBPayhTb21lKHJ1bikpID0+IHJlc3BvbnNlOjpvayhydW4pLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBPayhOb25lKSA9PiByZXNwb25zZTo6ZXJyb3IoU3RhdHVzQ29kZTo6Tk9UX0ZPVU5ELCAi5ZCM5q2l6L+Q6KGM6K6w5b2V5LiN5a2Y5ZyoIiksCiAgICAgICAgRXJyKGVycm9yKSA9PiByZXNwb25zZTo6ZXJyb3IoU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLCBlcnJvciksCiAgICB9Cn0K
+use axum::{
+    Json,
+    extract::{Path, State},
+    http::StatusCode,
+    response::{IntoResponse, Response},
+};
+
+use crate::{
+    panel_sync::{model::*, repository::Repository, service},
+    response,
+    state::AppState,
+};
+
+use super::connections::service_error;
+
+#[utoipa::path(post, path = "/api/admin/panel-sync/connections/{id}/sync", tag = "panel-sync", params(("id" = String, Path)), request_body = SyncRequest, responses((status = 202, body = SyncAccepted), (status = 409, body = serde_json::Value)))]
+pub async fn sync(
+    State(state): State<AppState>,
+    Path(id): Path<String>,
+    Json(input): Json<SyncRequest>,
+) -> Response {
+    match service::enqueue_manual(&state, &id, input).await {
+        Ok(accepted) => (StatusCode::ACCEPTED, response::ok(accepted)).into_response(),
+        Err(error) => service_error(error),
+    }
+}
+
+#[utoipa::path(get, path = "/api/admin/panel-sync/connections/{id}/runs", tag = "panel-sync", params(("id" = String, Path)), responses((status = 200, body = [SyncRun])))]
+pub async fn list(State(state): State<AppState>, Path(id): Path<String>) -> Response {
+    let repository = Repository::new(&state);
+    match repository.connection(&id).await {
+        Ok(None) => response::error(StatusCode::NOT_FOUND, "面板连接不存在"),
+        Err(error) => response::error(StatusCode::INTERNAL_SERVER_ERROR, error),
+        Ok(Some(_)) => match repository.runs(&id).await {
+            Ok(runs) => response::ok(runs).into_response(),
+            Err(error) => response::error(StatusCode::INTERNAL_SERVER_ERROR, error),
+        },
+    }
+}
+
+#[utoipa::path(get, path = "/api/admin/panel-sync/runs/{run_id}", tag = "panel-sync", params(("run_id" = String, Path)), responses((status = 200, body = SyncRun), (status = 404, body = serde_json::Value)))]
+pub async fn get(State(state): State<AppState>, Path(run_id): Path<String>) -> Response {
+    match Repository::new(&state).run(&run_id).await {
+        Ok(Some(run)) => response::ok(run).into_response(),
+        Ok(None) => response::error(StatusCode::NOT_FOUND, "同步运行记录不存在"),
+        Err(error) => response::error(StatusCode::INTERNAL_SERVER_ERROR, error),
+    }
+}

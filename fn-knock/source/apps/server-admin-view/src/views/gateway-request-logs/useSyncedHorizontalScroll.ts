@@ -1,1 +1,108 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgdHlwZSBDb21wb25lbnRQdWJsaWNJbnN0YW5jZSB9IGZyb20gInZ1ZSI7CgpleHBvcnQgY29uc3QgdXNlU3luY2VkSG9yaXpvbnRhbFNjcm9sbCA9ICgpID0+IHsKICBjb25zdCB0YWJsZVNjcm9sbFJlZiA9IHJlZjxIVE1MRWxlbWVudCB8IG51bGw+KG51bGwpOwogIGNvbnN0IHRvcFNjcm9sbGJhclJlZiA9IHJlZjxIVE1MRWxlbWVudCB8IG51bGw+KG51bGwpOwogIGNvbnN0IHRhYmxlQ29udGVudFdpZHRoID0gcmVmKDApOwogIGNvbnN0IHRhYmxlVmlld3BvcnRXaWR0aCA9IHJlZigwKTsKICBjb25zdCB0YWJsZVNjcm9sbExlZnQgPSByZWYoMCk7CgogIGxldCByZXNpemVPYnNlcnZlcjogUmVzaXplT2JzZXJ2ZXIgfCBudWxsID0gbnVsbDsKICBsZXQgaXNTeW5jaW5nSG9yaXpvbnRhbFNjcm9sbCA9IGZhbHNlOwoKICBjb25zdCBoYXNIb3Jpem9udGFsT3ZlcmZsb3cgPSBjb21wdXRlZCgKICAgICgpID0+IHRhYmxlQ29udGVudFdpZHRoLnZhbHVlID4gdGFibGVWaWV3cG9ydFdpZHRoLnZhbHVlICsgMSwKICApOwogIGNvbnN0IGNhblNjcm9sbExlZnQgPSBjb21wdXRlZCgKICAgICgpID0+IGhhc0hvcml6b250YWxPdmVyZmxvdy52YWx1ZSAmJiB0YWJsZVNjcm9sbExlZnQudmFsdWUgPiAxLAogICk7CiAgY29uc3QgY2FuU2Nyb2xsUmlnaHQgPSBjb21wdXRlZCgKICAgICgpID0+CiAgICAgIGhhc0hvcml6b250YWxPdmVyZmxvdy52YWx1ZSAmJgogICAgICB0YWJsZVNjcm9sbExlZnQudmFsdWUgKyB0YWJsZVZpZXdwb3J0V2lkdGgudmFsdWUgPAogICAgICAgIHRhYmxlQ29udGVudFdpZHRoLnZhbHVlIC0gMSwKICApOwoKICBjb25zdCB1cGRhdGVIb3Jpem9udGFsT3ZlcmZsb3cgPSAoKSA9PiB7CiAgICBjb25zdCBzY3JvbGxFbCA9IHRhYmxlU2Nyb2xsUmVmLnZhbHVlOwogICAgdGFibGVWaWV3cG9ydFdpZHRoLnZhbHVlID0gc2Nyb2xsRWw/LmNsaWVudFdpZHRoIHx8IDA7CiAgICB0YWJsZUNvbnRlbnRXaWR0aC52YWx1ZSA9IHNjcm9sbEVsPy5zY3JvbGxXaWR0aCB8fCAwOwogICAgdGFibGVTY3JvbGxMZWZ0LnZhbHVlID0gc2Nyb2xsRWw/LnNjcm9sbExlZnQgfHwgMDsKICB9OwoKICBjb25zdCBzeW5jSG9yaXpvbnRhbFNjcm9sbCA9IChzb3VyY2U6ICJ0YWJsZSIgfCAidG9wIikgPT4gewogICAgaWYgKGlzU3luY2luZ0hvcml6b250YWxTY3JvbGwpIHJldHVybjsKCiAgICBjb25zdCB0YWJsZUVsID0gdGFibGVTY3JvbGxSZWYudmFsdWU7CiAgICBjb25zdCB0b3BFbCA9IHRvcFNjcm9sbGJhclJlZi52YWx1ZTsKICAgIGlmICghdGFibGVFbCB8fCAhdG9wRWwpIHJldHVybjsKCiAgICBpc1N5bmNpbmdIb3Jpem9udGFsU2Nyb2xsID0gdHJ1ZTsKICAgIGlmIChzb3VyY2UgPT09ICJ0YWJsZSIpIHsKICAgICAgdG9wRWwuc2Nyb2xsTGVmdCA9IHRhYmxlRWwuc2Nyb2xsTGVmdDsKICAgIH0gZWxzZSB7CiAgICAgIHRhYmxlRWwuc2Nyb2xsTGVmdCA9IHRvcEVsLnNjcm9sbExlZnQ7CiAgICB9CgogICAgcmVxdWVzdEFuaW1hdGlvbkZyYW1lKCgpID0+IHsKICAgICAgaXNTeW5jaW5nSG9yaXpvbnRhbFNjcm9sbCA9IGZhbHNlOwogICAgfSk7CiAgfTsKCiAgY29uc3QgZGlzcG9zZVJlc2l6ZU9ic2VydmVyID0gKCkgPT4gewogICAgcmVzaXplT2JzZXJ2ZXI/LmRpc2Nvbm5lY3QoKTsKICAgIHJlc2l6ZU9ic2VydmVyID0gbnVsbDsKICB9OwoKICBjb25zdCByZXNvbHZlRWxlbWVudCA9ICgKICAgIHZhbHVlOiBFbGVtZW50IHwgQ29tcG9uZW50UHVibGljSW5zdGFuY2UgfCBudWxsLAogICk6IEhUTUxFbGVtZW50IHwgbnVsbCA9PiAodmFsdWUgaW5zdGFuY2VvZiBIVE1MRWxlbWVudCA/IHZhbHVlIDogbnVsbCk7CgogIGNvbnN0IHNldFRhYmxlU2Nyb2xsUmVmID0gKAogICAgdmFsdWU6IEVsZW1lbnQgfCBDb21wb25lbnRQdWJsaWNJbnN0YW5jZSB8IG51bGwsCiAgKSA9PiB7CiAgICB0YWJsZVNjcm9sbFJlZi52YWx1ZSA9IHJlc29sdmVFbGVtZW50KHZhbHVlKTsKICB9OwoKICBjb25zdCBzZXRUb3BTY3JvbGxiYXJSZWYgPSAoCiAgICB2YWx1ZTogRWxlbWVudCB8IENvbXBvbmVudFB1YmxpY0luc3RhbmNlIHwgbnVsbCwKICApID0+IHsKICAgIHRvcFNjcm9sbGJhclJlZi52YWx1ZSA9IHJlc29sdmVFbGVtZW50KHZhbHVlKTsKICB9OwoKICBjb25zdCBiaW5kUmVzaXplT2JzZXJ2ZXIgPSAoKSA9PiB7CiAgICBkaXNwb3NlUmVzaXplT2JzZXJ2ZXIoKTsKCiAgICBpZiAodHlwZW9mIFJlc2l6ZU9ic2VydmVyID09PSAidW5kZWZpbmVkIiB8fCAhdGFibGVTY3JvbGxSZWYudmFsdWUpIHsKICAgICAgdXBkYXRlSG9yaXpvbnRhbE92ZXJmbG93KCk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICByZXNpemVPYnNlcnZlciA9IG5ldyBSZXNpemVPYnNlcnZlcigoKSA9PiB7CiAgICAgIHVwZGF0ZUhvcml6b250YWxPdmVyZmxvdygpOwogICAgfSk7CgogICAgcmVzaXplT2JzZXJ2ZXIub2JzZXJ2ZSh0YWJsZVNjcm9sbFJlZi52YWx1ZSk7CgogICAgY29uc3QgdGFibGVFbCA9IHRhYmxlU2Nyb2xsUmVmLnZhbHVlLnF1ZXJ5U2VsZWN0b3IoInRhYmxlIik7CiAgICBpZiAodGFibGVFbCBpbnN0YW5jZW9mIEhUTUxFbGVtZW50KSB7CiAgICAgIHJlc2l6ZU9ic2VydmVyLm9ic2VydmUodGFibGVFbCk7CiAgICB9CgogICAgdXBkYXRlSG9yaXpvbnRhbE92ZXJmbG93KCk7CiAgfTsKCiAgcmV0dXJuIHsKICAgIGJpbmRSZXNpemVPYnNlcnZlciwKICAgIGNhblNjcm9sbExlZnQsCiAgICBjYW5TY3JvbGxSaWdodCwKICAgIGRpc3Bvc2VSZXNpemVPYnNlcnZlciwKICAgIGhhc0hvcml6b250YWxPdmVyZmxvdywKICAgIHNldFRhYmxlU2Nyb2xsUmVmLAogICAgc2V0VG9wU2Nyb2xsYmFyUmVmLAogICAgc3luY0hvcml6b250YWxTY3JvbGwsCiAgICB0YWJsZUNvbnRlbnRXaWR0aCwKICAgIHRhYmxlVmlld3BvcnRXaWR0aCwKICAgIHVwZGF0ZUhvcml6b250YWxPdmVyZmxvdywKICB9Owp9Owo=
+import { computed, ref, type ComponentPublicInstance } from "vue";
+
+export const useSyncedHorizontalScroll = () => {
+  const tableScrollRef = ref<HTMLElement | null>(null);
+  const topScrollbarRef = ref<HTMLElement | null>(null);
+  const tableContentWidth = ref(0);
+  const tableViewportWidth = ref(0);
+  const tableScrollLeft = ref(0);
+
+  let resizeObserver: ResizeObserver | null = null;
+  let isSyncingHorizontalScroll = false;
+
+  const hasHorizontalOverflow = computed(
+    () => tableContentWidth.value > tableViewportWidth.value + 1,
+  );
+  const canScrollLeft = computed(
+    () => hasHorizontalOverflow.value && tableScrollLeft.value > 1,
+  );
+  const canScrollRight = computed(
+    () =>
+      hasHorizontalOverflow.value &&
+      tableScrollLeft.value + tableViewportWidth.value <
+        tableContentWidth.value - 1,
+  );
+
+  const updateHorizontalOverflow = () => {
+    const scrollEl = tableScrollRef.value;
+    tableViewportWidth.value = scrollEl?.clientWidth || 0;
+    tableContentWidth.value = scrollEl?.scrollWidth || 0;
+    tableScrollLeft.value = scrollEl?.scrollLeft || 0;
+  };
+
+  const syncHorizontalScroll = (source: "table" | "top") => {
+    if (isSyncingHorizontalScroll) return;
+
+    const tableEl = tableScrollRef.value;
+    const topEl = topScrollbarRef.value;
+    if (!tableEl || !topEl) return;
+
+    isSyncingHorizontalScroll = true;
+    if (source === "table") {
+      topEl.scrollLeft = tableEl.scrollLeft;
+    } else {
+      tableEl.scrollLeft = topEl.scrollLeft;
+    }
+
+    requestAnimationFrame(() => {
+      isSyncingHorizontalScroll = false;
+    });
+  };
+
+  const disposeResizeObserver = () => {
+    resizeObserver?.disconnect();
+    resizeObserver = null;
+  };
+
+  const resolveElement = (
+    value: Element | ComponentPublicInstance | null,
+  ): HTMLElement | null => (value instanceof HTMLElement ? value : null);
+
+  const setTableScrollRef = (
+    value: Element | ComponentPublicInstance | null,
+  ) => {
+    tableScrollRef.value = resolveElement(value);
+  };
+
+  const setTopScrollbarRef = (
+    value: Element | ComponentPublicInstance | null,
+  ) => {
+    topScrollbarRef.value = resolveElement(value);
+  };
+
+  const bindResizeObserver = () => {
+    disposeResizeObserver();
+
+    if (typeof ResizeObserver === "undefined" || !tableScrollRef.value) {
+      updateHorizontalOverflow();
+      return;
+    }
+
+    resizeObserver = new ResizeObserver(() => {
+      updateHorizontalOverflow();
+    });
+
+    resizeObserver.observe(tableScrollRef.value);
+
+    const tableEl = tableScrollRef.value.querySelector("table");
+    if (tableEl instanceof HTMLElement) {
+      resizeObserver.observe(tableEl);
+    }
+
+    updateHorizontalOverflow();
+  };
+
+  return {
+    bindResizeObserver,
+    canScrollLeft,
+    canScrollRight,
+    disposeResizeObserver,
+    hasHorizontalOverflow,
+    setTableScrollRef,
+    setTopScrollbarRef,
+    syncHorizontalScroll,
+    tableContentWidth,
+    tableViewportWidth,
+    updateHorizontalOverflow,
+  };
+};

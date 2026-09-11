@@ -1,1 +1,174 @@
-ZXhwb3J0IGNvbnN0IGVuQXV0aCA9IHsKICBhdXRvSXBHcmFudENvbW1lbnQ6ICJBdXRvbWF0aWNhbGx5IGF1dGhvcml6ZWQgYWZ0ZXIgc2lnbi1pbiIsCiAgdGl0bGU6ICJTZWN1cml0eSB2ZXJpZmljYXRpb24iLAogIGNhcHRjaGFGaXJzdDogIkNvbXBsZXRlIHRoZSBodW1hbiB2ZXJpZmljYXRpb24gYmVsb3cgZmlyc3QiLAogIG90cFByb21wdDogIkVudGVyIHlvdXIgc2l4LWRpZ2l0IG9uZS10aW1lIHBhc3N3b3JkIHRvIHNpZ24gaW4iLAogIHBhc3N3b3JkUHJvbXB0OiAiRW50ZXIgeW91ciB1c2VybmFtZSBhbmQgcGFzc3dvcmQgdG8gc2lnbiBpbiIsCiAgbGRhcFByb21wdDogIkVudGVyIHlvdXIgTERBUCB1c2VybmFtZSBhbmQgcGFzc3dvcmQgdG8gc2lnbiBpbiIsCiAgbm90Um9ib3Q6ICJJJ20gbm90IGEgcm9ib3QiLAogIHZlcmlmaWVkOiAiVmVyaWZpZWQiLAogIHZlcmlmeWluZzogIlZlcmlmeWluZy4uLiIsCiAgd2FpdDogIlBsZWFzZSB3YWl0Li4uIiwKICB2ZXJpZnlFcnJvcjogIlZlcmlmaWNhdGlvbiBlcnJvciIsCiAgdHVybnN0aWxlTWlzc2luZzoKICAgICJUdXJuc3RpbGUgaXMgbm90IGNvbmZpZ3VyZWQuIEFzayBhbiBhZG1pbmlzdHJhdG9yIHRvIHNldCB0aGUgc2l0ZSBrZXkuIiwKICB0dXJuc3RpbGVTY3JpcHRMb2FkRmFpbGVkOiAiRmFpbGVkIHRvIGxvYWQgdGhlIFR1cm5zdGlsZSBzY3JpcHQiLAogIHR1cm5zdGlsZVJlbmRlckZhaWxlZDogIlR1cm5zdGlsZSBmYWlsZWQgdG8gcmVuZGVyLiBUcnkgYWdhaW4gbGF0ZXIuIiwKICB0dXJuc3RpbGVUaW1lb3V0OiAiVHVybnN0aWxlIHZlcmlmaWNhdGlvbiB0aW1lZCBvdXQuIFRyeSBhZ2Fpbi4iLAogIHBvd1Vuc3VwcG9ydGVkQWxnb3JpdGhtOiAiVW5zdXBwb3J0ZWQgUG9XIGFsZ29yaXRobSIsCiAgcG93SW52YWxpZENoYWxsZW5nZTogIkludmFsaWQgUG9XIGNoYWxsZW5nZSBkYXRhIiwKICBwb3dTb2x2ZUZhaWxlZDogIlBvVyBzb2x2aW5nIGZhaWxlZC4gUmVmcmVzaCB0aGUgcGFnZSBhbmQgdHJ5IGFnYWluLiIsCiAgbG9jYXRpb25SZXNvbHZpbmc6ICJSZXNvbHZpbmcgbG9jYXRpb24uLi4iLAogIGxvY2F0aW9uVW5hdmFpbGFibGU6ICJMb2NhdGlvbiB1bmF2YWlsYWJsZSIsCiAgb3BlbkdpdGh1YjogIk9wZW4gR2l0SHViIHByb2plY3QgcGFnZSIsCiAgbWVudTogIk1lbnUiLAogIG9yOiAiT1IiLAogIGxvZ2luV2l0aFByb3ZpZGVyOiAiU2lnbiBpbiB3aXRoIHtwcm92aWRlcn0iLAogIHJldHJ5QWZ0ZXJTZWNvbmRzOiAiUmV0cnkgaW4ge3NlY29uZHN9cyIsCiAgdmVyaWZ5Tm93OiAiVmVyaWZ5IG5vdyIsCiAgcGFzc3dvcmRMb2dpbjogIlBhc3N3b3JkIHNpZ24taW4iLAogIHRvdHBMb2dpbjogIlRPVFAgc2lnbi1pbiIsCiAgbGRhcExvZ2luOiAiTERBUCBzaWduLWluIiwKICBsZGFwUHJvdmlkZXI6ICJEaXJlY3RvcnkgcHJvdmlkZXIiLAogIGxkYXBQcm92aWRlclJlcXVpcmVkOiAiU2VsZWN0IGEgZGlyZWN0b3J5IHByb3ZpZGVyIiwKICBsZGFwVXNlcm5hbWU6ICJMREFQIHVzZXJuYW1lIiwKICBsZGFwUGFzc3dvcmQ6ICJMREFQIHBhc3N3b3JkIiwKICB1c2VybmFtZTogIlVzZXJuYW1lIiwKICBwYXNzd29yZDogIlBhc3N3b3JkIiwKICBzaG93UGFzc3dvcmQ6ICJTaG93IHBhc3N3b3JkIiwKICBoaWRlUGFzc3dvcmQ6ICJIaWRlIHBhc3N3b3JkIiwKICB1c2VybmFtZVBhc3N3b3JkUmVxdWlyZWQ6ICJFbnRlciB1c2VybmFtZSBhbmQgcGFzc3dvcmQiLAogIHBhc3NrZXlMb2dpbjogIlNpZ24gaW4gd2l0aCBQYXNza2V5IiwKICB0aXA6ICJOb3RpY2UiLAogIG9rOiAiT0siLAogIHJlbWVtYmVyTWU6ICJSZW1lbWJlciBtZSIsCiAgcGFzc2tleUJpbmRUaXRsZTogIkVuYWJsZSBQYXNza2V5IHNpZ24taW4iLAogIHBhc3NrZXlCaW5kRGVzY3JpcHRpb246CiAgICAiQmluZCBhIFBhc3NrZXkgb24gdGhpcyBkZXZpY2Ugc28geW91IGNhbiBzaWduIGluIHdpdGggb25lIGFjdGlvbiBuZXh0IHRpbWUuIiwKICBwYXNza2V5QmluZFNraXBQcm9tcHQ6ICJEb24ndCByZW1pbmQgbWUgYWdhaW4iLAogIHBhc3NrZXlCaW5kTGF0ZXI6ICJNYXliZSBsYXRlciIsCiAgcGFzc2tleUJpbmROb3c6ICJFbmFibGUgbm93IiwKICBjYXB0Y2hhQ29uZmlnTG9hZEZhaWxlZDoKICAgICJGYWlsZWQgdG8gbG9hZCBjYXB0Y2hhIGNvbmZpZ3VyYXRpb24uIFJlZnJlc2ggdGhlIHBhZ2UgYW5kIHRyeSBhZ2Fpbi4iLAogIGNhcHRjaGFGYWlsZWQ6ICJIdW1hbiB2ZXJpZmljYXRpb24gZmFpbGVkLiBQbGVhc2UgdHJ5IGFnYWluLiIsCiAgbG9nZ2VkT3V0TG9naW5JcEdyYW50OgogICAgIllvdXIgYnJvd3NlciBzZXNzaW9uIGhhcyBzaWduZWQgb3V0LiBUaGUgSVAgYWNjZXNzIGdyYW50ZWQgYXQgc2lnbi1pbiBoYXMgYWxzbyBiZWVuIHJldm9rZWQuIiwKICBsb2dnZWRPdXRNYW51YWxXaGl0ZWxpc3Q6CiAgICAiWW91ciBicm93c2VyIHNlc3Npb24gaGFzIHNpZ25lZCBvdXQuIFRoZSBhZG1pbmlzdHJhdG9yIHdoaXRlbGlzdCBpcyBzdGlsbCBhY3RpdmUuIiwKICBsb2dnZWRPdXRMb2NhbEV4ZW1wdDoKICAgICJZb3VyIGJyb3dzZXIgc2Vzc2lvbiBoYXMgc2lnbmVkIG91dC4gVGhpcyBuZXR3b3JrIGlzIHN0aWxsIGV4ZW1wdCBmcm9tIHdoaXRlbGlzdCBjaGVja3MuIiwKICBsb2dnZWRPdXREZWZhdWx0OiAiWW91ciBicm93c2VyIHNlc3Npb24gaGFzIHNpZ25lZCBvdXQuIFZlcmlmeSBhZ2Fpbi4iLAogIHJlZGlyZWN0TG9vcEJsb2NrZWQ6CiAgICAiUmVwZWF0ZWQgcmVkaXJlY3RzIGJldHdlZW4gdGhpcyB2ZXJpZmljYXRpb24gcGFnZSBhbmQgdGhlIHRhcmdldCBzZXJ2aWNlIHdlcmUgZGV0ZWN0ZWQsIHNvIGF1dG9tYXRpYyByZWRpcmVjdGlvbiBoYXMgYmVlbiBwYXVzZWQuIFZlcmlmeSBhZ2FpbiBoZXJlIHRvIGNvbnRpbnVlLiIsCiAgcmVkaXJlY3RUYXJnZXRCbG9ja2VkOgogICAgIlRoZSBzaWduLWluIGRlc3RpbmF0aW9uIGlzIGludmFsaWQgb3IgcG9pbnRzIGJhY2sgdG8gdGhpcyB2ZXJpZmljYXRpb24gcGFnZSwgc28gdGhlIHJlcGVhdGVkIHJlZGlyZWN0IHdhcyBzdG9wcGVkLiBPcGVuIHRoZSBvcmlnaW5hbCBzZXJ2aWNlIGFnYWluIG9yIGNvbnRhY3QgdGhlIGFkbWluaXN0cmF0b3IuIiwKICByZXRyeVN1ZmZpeDogIiBSZXRyeSBpbiB7c2Vjb25kc30gc2Vjb25kcy4iLAogIGludmFsaWRPdHBMZW5ndGg6ICJFbnRlciB0aGUgY29tcGxldGUgNi1kaWdpdCB2ZXJpZmljYXRpb24gY29kZSIsCiAgbG9naW5GYWlsZWQ6ICJWZXJpZmljYXRpb24gZmFpbGVkLiBQbGVhc2UgdHJ5IGFnYWluLiIsCiAgcGFzc2tleU5vUmVzcG9uc2U6ICJObyBQYXNza2V5IHJlc3BvbnNlIHdhcyByZXR1cm5lZCIsCiAgcGFzc2tleVZlcmlmeUZhaWxlZDogIlBhc3NrZXkgdmVyaWZpY2F0aW9uIGZhaWxlZCIsCiAgcGFzc2tleUxvZ2luRmFpbGVkOiAiUGFzc2tleSBzaWduLWluIGZhaWxlZC4gUGxlYXNlIHRyeSBhZ2Fpbi4iLAogIG9pZGNTdGFydEZhaWxlZDogIlVuYWJsZSB0byBzdGFydCBleHRlcm5hbCBzaWduLWluIiwKICBvaWRjTG9naW5GYWlsZWQ6ICJFeHRlcm5hbCBzaWduLWluIGZhaWxlZC4gUGxlYXNlIHRyeSBhZ2Fpbi4iLAogIHBhc3NrZXlCaW5kSW52YWxpZDogIkJpbmRpbmcgY3JlZGVudGlhbCBpcyBpbnZhbGlkLiBTaWduIGluIGFnYWluLiIsCiAgcGFzc2tleUJpbmRGYWlsZWQ6ICJQYXNza2V5IGJpbmRpbmcgZmFpbGVkIiwKICBwYXNza2V5Q3JlYXRlQ2FuY2VsbGVkOiAiUGFzc2tleSBjcmVhdGlvbiB3YXMgY2FuY2VsbGVkIG9yIHRpbWVkIG91dCIsCiAgcGFzc2tleUNyZWF0ZVVuYXZhaWxhYmxlOgogICAgIlRoZSBzeXN0ZW0gY291bGQgbm90IGNyZWF0ZSBhIFBhc3NrZXkuIE1ha2Ugc3VyZSBzY3JlZW4gbG9jayBhbmQgYSBwYXNzd29yZCBtYW5hZ2VyIGFyZSBlbmFibGVkLCB0aGVuIHRyeSBhZ2Fpbi4iLAogIHBhc3NrZXlBbHJlYWR5UmVnaXN0ZXJlZDoKICAgICJUaGlzIGRldmljZSBvciBwYXNzd29yZCBtYW5hZ2VyIGFscmVhZHkgaGFzIHRoZSBQYXNza2V5LiBZb3UgY2FuIHVzZSBpdCBkaXJlY3RseS4iLAogIGhvbWU6IHsKICAgIHN0YXR1c1RpdGxlczogewogICAgICBicm93c2VyU2Vzc2lvbjogIlRoaXMgYnJvd3NlciBzZXNzaW9uIGlzIHZlcmlmaWVkIiwKICAgICAgc2Vzc2lvbk1pZ3JhdGlvbjogIkJyb3dzZXIgc2Vzc2lvbiByZXN0b3JlZCIsCiAgICAgIGZub3NGaW5nZXJwcmludFNlc3Npb246ICJEZXZpY2UgZmluZ2VycHJpbnQgc2Vzc2lvbiByZXN0b3JlZCIsCiAgICAgIG1hbnVhbFdoaXRlbGlzdDogIldoaXRlbGlzdCBhY2Nlc3MgYWxsb3dlZCIsCiAgICAgIGxvY2FsRXhlbXB0OiAiQ3VycmVudCBuZXR3b3JrIGFsbG93ZWQiLAogICAgICBmbm9zU2hhcmU6ICJTaGFyZSBhY2Nlc3MgYXV0aG9yaXplZCIsCiAgICAgIGxvZ2luSXBHcmFudDogIlNlY3VyaXR5IHZlcmlmaWNhdGlvbiBwYXNzZWQiLAogICAgfSwKICAgIHN0YXR1c0Rlc2NyaXB0aW9uczogewogICAgICBicm93c2VyU2Vzc2lvbjogIlRoaXMgYnJvd3NlciBzZXNzaW9uIGlzIGFsbG93ZWQgdG8gYWNjZXNzIiwKICAgICAgc2Vzc2lvbk1pZ3JhdGlvbjoKICAgICAgICAiVGhpcyBicm93c2VyIHNlc3Npb24gd2FzIHJlc3RvcmVkIGFmdGVyIGEgbmV0d29yayBjaGFuZ2UiLAogICAgICBmbm9zRmluZ2VycHJpbnRTZXNzaW9uOgogICAgICAgICJUaGlzIGFjY2VzcyB3YXMgcmVzdG9yZWQgYnkgYSBGTk9TIGRldmljZSBmaW5nZXJwcmludCBzZXNzaW9uIiwKICAgICAgbWFudWFsV2hpdGVsaXN0OiAiVGhlIGN1cnJlbnQgSVAgaXMgb24gdGhlIGFkbWluaXN0cmF0b3Igd2hpdGVsaXN0IiwKICAgICAgbG9jYWxFeGVtcHQ6ICJUaGlzIG5ldHdvcmsgYWRkcmVzcyBpcyBleGVtcHQgZnJvbSB3aGl0ZWxpc3QgY2hlY2tzIiwKICAgICAgZm5vc1NoYXJlOiAiVGhpcyBhY2Nlc3Mgd2FzIGF1dGhvcml6ZWQgYnkgYSBGTk9TIHNoYXJlIGxpbmsiLAogICAgICBsb2dpbklwR3JhbnQ6ICJZb3VyIElQIGhhcyBiZWVuIGF1dGhvcml6ZWQgZm9yIGFjY2VzcyIsCiAgICB9LAogICAgbG9nb3V0SGludHM6IHsKICAgICAgYnJvd3NlclNlc3Npb246CiAgICAgICAgIldoZW4geW91IG5vIGxvbmdlciBuZWVkIGFjY2Vzcywgc2lnbiBvdXQgYmVsb3cuIFRoaXMgYnJvd3NlciBtdXN0IHZlcmlmeSBhZ2FpbiBiZWZvcmUgZW50ZXJpbmcuIiwKICAgICAgc2Vzc2lvbk1pZ3JhdGlvbjoKICAgICAgICAiV2hlbiB5b3Ugbm8gbG9uZ2VyIG5lZWQgYWNjZXNzLCBzaWduIG91dCBiZWxvdy4gVGhpcyBicm93c2VyIG11c3QgdmVyaWZ5IGFnYWluLCBhbmQgdGhlIGF1dGhvcml6YXRpb24gdGllZCB0byB0aGlzIHNlc3Npb24gbWlncmF0aW9uIHdpbGwgYmUgcmV2b2tlZC4iLAogICAgICBmbm9zRmluZ2VycHJpbnRTZXNzaW9uOgogICAgICAgICJXaGVuIHlvdSBubyBsb25nZXIgbmVlZCBhY2Nlc3MsIHNpZ24gb3V0IGJlbG93LiBUaGUgcmVzdG9yZWQgZGV2aWNlIGZpbmdlcnByaW50IHNlc3Npb24gd2lsbCBlbmQgYW5kIGl0cyBsaW5rZWQgYXV0aG9yaXphdGlvbiB3aWxsIGJlIHJldm9rZWQuIiwKICAgICAgbG9naW5JcEdyYW50OgogICAgICAgICJXaGVuIHlvdSBubyBsb25nZXIgbmVlZCBhY2Nlc3MsIHNpZ24gb3V0IGJlbG93LiBUaGlzIGJyb3dzZXIgc2Vzc2lvbiB3aWxsIGVuZCwgYW5kIHRoZSBjdXJyZW50IElQIGFjY2VzcyBncmFudGVkIGF0IHNpZ24taW4gd2lsbCBhbHNvIGJlIHJldm9rZWQuIiwKICAgICAgbWFudWFsV2hpdGVsaXN0OgogICAgICAgICJXaGVuIHlvdSBubyBsb25nZXIgbmVlZCBhY2Nlc3MsIHNpZ24gb3V0IGJlbG93LiBPbmx5IHRoaXMgYnJvd3NlciBzZXNzaW9uIHdpbGwgZW5kOyB0aGUgYWRtaW5pc3RyYXRvciB3aGl0ZWxpc3Qgd2lsbCByZW1haW4uIiwKICAgICAgbG9jYWxFeGVtcHQ6CiAgICAgICAgIldoZW4geW91IG5vIGxvbmdlciBuZWVkIGFjY2Vzcywgc2lnbiBvdXQgYmVsb3cuIE9ubHkgdGhpcyBicm93c2VyIHNlc3Npb24gd2lsbCBlbmQ7IHRoaXMgbmV0d29yaydzIHdoaXRlbGlzdCBleGVtcHRpb24gd2lsbCBub3QgY2hhbmdlLiIsCiAgICAgIGZub3NTaGFyZToKICAgICAgICAiV2hlbiB5b3Ugbm8gbG9uZ2VyIG5lZWQgYWNjZXNzLCBzaWduIG91dCBiZWxvdy4gVGhpcyBzaGFyZSBhY2Nlc3Mgc2Vzc2lvbiB3aWxsIGVuZCwgYW5kIHlvdSB3aWxsIG5lZWQgdG8gb3BlbiB0aGUgc2hhcmUgbGluayBhZ2Fpbi4iLAogICAgICBkZWZhdWx0OgogICAgICAgICJXaGVuIHlvdSBubyBsb25nZXIgbmVlZCBhY2Nlc3MsIHNpZ24gb3V0IGJlbG93IGFuZCByZXZva2UgeW91ciBhdXRob3JpemF0aW9uLiIsCiAgICB9LAogICAgbG9nb3V0RGlhbG9nRGVzY3JpcHRpb25zOiB7CiAgICAgIGJyb3dzZXJTZXNzaW9uOgogICAgICAgICJTaWduaW5nIG91dCB3aWxsIGVuZCB0aGlzIGJyb3dzZXIgc2Vzc2lvbi4gWW91IG11c3QgdmVyaWZ5IGFnYWluIGJlZm9yZSBlbnRlcmluZy4iLAogICAgICBzZXNzaW9uTWlncmF0aW9uOgogICAgICAgICJTaWduaW5nIG91dCB3aWxsIGVuZCB0aGlzIGJyb3dzZXIgc2Vzc2lvbiBhbmQgcmV2b2tlIHRoZSBhdXRob3JpemF0aW9uIHRpZWQgdG8gdGhpcyBzZXNzaW9uIG1pZ3JhdGlvbi4iLAogICAgICBmbm9zRmluZ2VycHJpbnRTZXNzaW9uOgogICAgICAgICJTaWduaW5nIG91dCB3aWxsIGVuZCB0aGUgcmVzdG9yZWQgZGV2aWNlIGZpbmdlcnByaW50IHNlc3Npb24gYW5kIHJldm9rZSBpdHMgbGlua2VkIGF1dGhvcml6YXRpb24uIiwKICAgICAgbG9naW5JcEdyYW50OgogICAgICAgICJTaWduaW5nIG91dCB3aWxsIGVuZCB0aGlzIGJyb3dzZXIgc2Vzc2lvbiBhbmQgcmV2b2tlIHRoZSBjdXJyZW50IElQIGFjY2VzcyBncmFudGVkIGJ5IHRoaXMgc2lnbi1pbi4iLAogICAgICBtYW51YWxXaGl0ZWxpc3Q6CiAgICAgICAgIlNpZ25pbmcgb3V0IG9ubHkgZW5kcyB0aGlzIGJyb3dzZXIgc2Vzc2lvbi4gVGhlIGFkbWluaXN0cmF0b3Igd2hpdGVsaXN0IHdpbGwgcmVtYWluLiIsCiAgICAgIGxvY2FsRXhlbXB0OgogICAgICAgICJTaWduaW5nIG91dCBvbmx5IGVuZHMgdGhpcyBicm93c2VyIHNlc3Npb24uIFRoaXMgbmV0d29yaydzIHdoaXRlbGlzdCBleGVtcHRpb24gd2lsbCBub3QgY2hhbmdlLiIsCiAgICAgIGZub3NTaGFyZToKICAgICAgICAiU2lnbmluZyBvdXQgd2lsbCBlbmQgdGhpcyBzaGFyZSBhY2Nlc3Mgc2Vzc2lvbi4gT3BlbiB0aGUgc2hhcmUgbGluayBhZ2FpbiB0byBhY2Nlc3MgaXQgbGF0ZXIuIiwKICAgICAgZGVmYXVsdDoKICAgICAgICAiU2lnbmluZyBvdXQgd2lsbCByZXZva2UgdGhlIGN1cnJlbnQgYWNjZXNzIGF1dGhvcml6YXRpb24uIFlvdSBtdXN0IHZlcmlmeSBhZ2FpbiBiZWZvcmUgZW50ZXJpbmcuIiwKICAgIH0sCiAgICBlbmFibGVQYXNza2V5OiAiRW5hYmxlIFBhc3NrZXkgc2lnbi1pbiIsCiAgICBwYXNza2V5U3VwcG9ydGVkVW5ib3VuZDoKICAgICAgIlRoaXMgYnJvd3NlciBzdXBwb3J0cyBQYXNza2V5LCBidXQgbm9uZSBpcyBib3VuZCB5ZXQiLAogICAgYWRkUGFzc2tleTogIkFkZCBhbm90aGVyIFBhc3NrZXkiLAogICAgcGFzc2tleUF2YWlsYWJsZUFkZERldmljZToKICAgICAgIlRoaXMgYWNjb3VudCBhbHJlYWR5IGhhcyBhIFBhc3NrZXkuIEFkZCBhbm90aGVyIGlmIGl0IGhhcyBub3Qgc3luY2VkIHRvIHRoaXMgZGV2aWNlLiIsCiAgICBsb2dvdXREZWxheTogIlRoZSBzaWduLW91dCBidXR0b24gd2lsbCBhcHBlYXIgaW4ge3NlY29uZHN9IHNlY29uZHMiLAogICAgbG9nb3V0OiAiU2lnbiBvdXQiLAogICAgbG9nb3V0Q29uZmlybVRpdGxlOiAiQ29uZmlybSBzaWduIG91dCIsCiAgICBjb25maXJtTG9nb3V0OiAiU2lnbiBvdXQiLAogICAgcGFzc2tleVRva2VuTWlzc2luZzogIlVuYWJsZSB0byBnZXQgYmluZGluZyBjcmVkZW50aWFsIiwKICB9LAogIGxkYXBCaW5kOiB7CiAgICB0aXRsZTogIkJpbmQgTERBUCBhY2NvdW50IiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiVmVyaWZ5IHlvdXIgTERBUCBpZGVudGl0eSBhbmQgYmluZCBpdCB0byBhbiBleGlzdGluZyBUT1RQIGNyZWRlbnRpYWwiLAogICAgY2hlY2tpbmdJbnZpdGU6ICJDaGVja2luZyBpbnZpdGUgbGluay4uLiIsCiAgICBiaW5kVG86ICJCaW5kIHRvIiwKICAgIG1pc3NpbmdUb2tlbjogIkludml0ZSBsaW5rIGlzIG1pc3NpbmcgdG9rZW4iLAogICAgaW52aXRlRXhwaXJlZDogIkludml0ZSBsaW5rIGhhcyBleHBpcmVkIiwKICAgIGJpbmROb3c6ICJWZXJpZnkgYW5kIGJpbmQiLAogICAgYmluZEZhaWxlZDogIkxEQVAgYWNjb3VudCBiaW5kaW5nIGZhaWxlZC4gUGxlYXNlIHRyeSBhZ2Fpbi4iLAogIH0sCiAgb2lkY0JpbmQ6IHsKICAgIHRpdGxlOiAiQmluZCBleHRlcm5hbCBhY2NvdW50IiwKICAgIGNoZWNraW5nSW52aXRlOiAiQ2hlY2tpbmcgaW52aXRlIGxpbmsuLi4iLAogICAgYmluZFRvOiAiQmluZCB0byIsCiAgICB1c2VQcm92aWRlcjogIkJpbmQgd2l0aCB7cHJvdmlkZXJ9IiwKICAgIGludmFsaWRJbnZpdGU6ICJJbnZpdGUgbGluayB1bmF2YWlsYWJsZSIsCiAgICB3YWl0OiAiUGxlYXNlIHdhaXQiLAogICAgc2VsZWN0UHJvdmlkZXI6ICJDaG9vc2UgYSBwcm92aWRlciB0byBzaWduIGluIGFuZCBiaW5kIiwKICAgIG1pc3NpbmdUb2tlbjogIkludml0ZSBsaW5rIGlzIG1pc3NpbmcgdG9rZW4iLAogICAgbm9Qcm92aWRlcnM6ICJObyBleHRlcm5hbCBzaWduLWluIHByb3ZpZGVycyBhcmUgYXZhaWxhYmxlIiwKICAgIGludml0ZUV4cGlyZWQ6ICJJbnZpdGUgbGluayBoYXMgZXhwaXJlZCIsCiAgICBzdGFydEZhaWxlZDogIlVuYWJsZSB0byBzdGFydCBleHRlcm5hbCBhY2NvdW50IGJpbmRpbmciLAogICAgYmluZEZhaWxlZDogIkV4dGVybmFsIGFjY291bnQgYmluZGluZyBmYWlsZWQuIFBsZWFzZSB0cnkgYWdhaW4uIiwKICB9LAp9Owo=
+export const enAuth = {
+  autoIpGrantComment: "Automatically authorized after sign-in",
+  title: "Security verification",
+  captchaFirst: "Complete the human verification below first",
+  otpPrompt: "Enter your six-digit one-time password to sign in",
+  passwordPrompt: "Enter your username and password to sign in",
+  ldapPrompt: "Enter your LDAP username and password to sign in",
+  notRobot: "I'm not a robot",
+  verified: "Verified",
+  verifying: "Verifying...",
+  wait: "Please wait...",
+  verifyError: "Verification error",
+  turnstileMissing:
+    "Turnstile is not configured. Ask an administrator to set the site key.",
+  turnstileScriptLoadFailed: "Failed to load the Turnstile script",
+  turnstileRenderFailed: "Turnstile failed to render. Try again later.",
+  turnstileTimeout: "Turnstile verification timed out. Try again.",
+  powUnsupportedAlgorithm: "Unsupported PoW algorithm",
+  powInvalidChallenge: "Invalid PoW challenge data",
+  powSolveFailed: "PoW solving failed. Refresh the page and try again.",
+  locationResolving: "Resolving location...",
+  locationUnavailable: "Location unavailable",
+  openGithub: "Open GitHub project page",
+  menu: "Menu",
+  or: "OR",
+  loginWithProvider: "Sign in with {provider}",
+  retryAfterSeconds: "Retry in {seconds}s",
+  verifyNow: "Verify now",
+  passwordLogin: "Password sign-in",
+  totpLogin: "TOTP sign-in",
+  ldapLogin: "LDAP sign-in",
+  ldapProvider: "Directory provider",
+  ldapProviderRequired: "Select a directory provider",
+  ldapUsername: "LDAP username",
+  ldapPassword: "LDAP password",
+  username: "Username",
+  password: "Password",
+  showPassword: "Show password",
+  hidePassword: "Hide password",
+  usernamePasswordRequired: "Enter username and password",
+  passkeyLogin: "Sign in with Passkey",
+  tip: "Notice",
+  ok: "OK",
+  rememberMe: "Remember me",
+  passkeyBindTitle: "Enable Passkey sign-in",
+  passkeyBindDescription:
+    "Bind a Passkey on this device so you can sign in with one action next time.",
+  passkeyBindSkipPrompt: "Don't remind me again",
+  passkeyBindLater: "Maybe later",
+  passkeyBindNow: "Enable now",
+  captchaConfigLoadFailed:
+    "Failed to load captcha configuration. Refresh the page and try again.",
+  captchaFailed: "Human verification failed. Please try again.",
+  loggedOutLoginIpGrant:
+    "Your browser session has signed out. The IP access granted at sign-in has also been revoked.",
+  loggedOutManualWhitelist:
+    "Your browser session has signed out. The administrator whitelist is still active.",
+  loggedOutLocalExempt:
+    "Your browser session has signed out. This network is still exempt from whitelist checks.",
+  loggedOutDefault: "Your browser session has signed out. Verify again.",
+  redirectLoopBlocked:
+    "Repeated redirects between this verification page and the target service were detected, so automatic redirection has been paused. Verify again here to continue.",
+  redirectTargetBlocked:
+    "The sign-in destination is invalid or points back to this verification page, so the repeated redirect was stopped. Open the original service again or contact the administrator.",
+  retrySuffix: " Retry in {seconds} seconds.",
+  invalidOtpLength: "Enter the complete 6-digit verification code",
+  loginFailed: "Verification failed. Please try again.",
+  passkeyNoResponse: "No Passkey response was returned",
+  passkeyVerifyFailed: "Passkey verification failed",
+  passkeyLoginFailed: "Passkey sign-in failed. Please try again.",
+  oidcStartFailed: "Unable to start external sign-in",
+  oidcLoginFailed: "External sign-in failed. Please try again.",
+  passkeyBindInvalid: "Binding credential is invalid. Sign in again.",
+  passkeyBindFailed: "Passkey binding failed",
+  passkeyCreateCancelled: "Passkey creation was cancelled or timed out",
+  passkeyCreateUnavailable:
+    "The system could not create a Passkey. Make sure screen lock and a password manager are enabled, then try again.",
+  passkeyAlreadyRegistered:
+    "This device or password manager already has the Passkey. You can use it directly.",
+  home: {
+    statusTitles: {
+      browserSession: "This browser session is verified",
+      sessionMigration: "Browser session restored",
+      fnosFingerprintSession: "Device fingerprint session restored",
+      manualWhitelist: "Whitelist access allowed",
+      localExempt: "Current network allowed",
+      fnosShare: "Share access authorized",
+      loginIpGrant: "Security verification passed",
+    },
+    statusDescriptions: {
+      browserSession: "This browser session is allowed to access",
+      sessionMigration:
+        "This browser session was restored after a network change",
+      fnosFingerprintSession:
+        "This access was restored by a FNOS device fingerprint session",
+      manualWhitelist: "The current IP is on the administrator whitelist",
+      localExempt: "This network address is exempt from whitelist checks",
+      fnosShare: "This access was authorized by a FNOS share link",
+      loginIpGrant: "Your IP has been authorized for access",
+    },
+    logoutHints: {
+      browserSession:
+        "When you no longer need access, sign out below. This browser must verify again before entering.",
+      sessionMigration:
+        "When you no longer need access, sign out below. This browser must verify again, and the authorization tied to this session migration will be revoked.",
+      fnosFingerprintSession:
+        "When you no longer need access, sign out below. The restored device fingerprint session will end and its linked authorization will be revoked.",
+      loginIpGrant:
+        "When you no longer need access, sign out below. This browser session will end, and the current IP access granted at sign-in will also be revoked.",
+      manualWhitelist:
+        "When you no longer need access, sign out below. Only this browser session will end; the administrator whitelist will remain.",
+      localExempt:
+        "When you no longer need access, sign out below. Only this browser session will end; this network's whitelist exemption will not change.",
+      fnosShare:
+        "When you no longer need access, sign out below. This share access session will end, and you will need to open the share link again.",
+      default:
+        "When you no longer need access, sign out below and revoke your authorization.",
+    },
+    logoutDialogDescriptions: {
+      browserSession:
+        "Signing out will end this browser session. You must verify again before entering.",
+      sessionMigration:
+        "Signing out will end this browser session and revoke the authorization tied to this session migration.",
+      fnosFingerprintSession:
+        "Signing out will end the restored device fingerprint session and revoke its linked authorization.",
+      loginIpGrant:
+        "Signing out will end this browser session and revoke the current IP access granted by this sign-in.",
+      manualWhitelist:
+        "Signing out only ends this browser session. The administrator whitelist will remain.",
+      localExempt:
+        "Signing out only ends this browser session. This network's whitelist exemption will not change.",
+      fnosShare:
+        "Signing out will end this share access session. Open the share link again to access it later.",
+      default:
+        "Signing out will revoke the current access authorization. You must verify again before entering.",
+    },
+    enablePasskey: "Enable Passkey sign-in",
+    passkeySupportedUnbound:
+      "This browser supports Passkey, but none is bound yet",
+    addPasskey: "Add another Passkey",
+    passkeyAvailableAddDevice:
+      "This account already has a Passkey. Add another if it has not synced to this device.",
+    logoutDelay: "The sign-out button will appear in {seconds} seconds",
+    logout: "Sign out",
+    logoutConfirmTitle: "Confirm sign out",
+    confirmLogout: "Sign out",
+    passkeyTokenMissing: "Unable to get binding credential",
+  },
+  ldapBind: {
+    title: "Bind LDAP account",
+    description:
+      "Verify your LDAP identity and bind it to an existing TOTP credential",
+    checkingInvite: "Checking invite link...",
+    bindTo: "Bind to",
+    missingToken: "Invite link is missing token",
+    inviteExpired: "Invite link has expired",
+    bindNow: "Verify and bind",
+    bindFailed: "LDAP account binding failed. Please try again.",
+  },
+  oidcBind: {
+    title: "Bind external account",
+    checkingInvite: "Checking invite link...",
+    bindTo: "Bind to",
+    useProvider: "Bind with {provider}",
+    invalidInvite: "Invite link unavailable",
+    wait: "Please wait",
+    selectProvider: "Choose a provider to sign in and bind",
+    missingToken: "Invite link is missing token",
+    noProviders: "No external sign-in providers are available",
+    inviteExpired: "Invite link has expired",
+    startFailed: "Unable to start external account binding",
+    bindFailed: "External account binding failed. Please try again.",
+  },
+};

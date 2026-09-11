@@ -1,1 +1,29 @@
-cHViKGNyYXRlKSBtb2Qgcm91dGVzOwoKcHViKGNyYXRlKSB1c2Ugcm91dGVzOjoqOwoKLy8vIFBheWxvYWQgZmllbGRzIHRoYXQgY2Fycnkgc291cmNlIElQcyBmb3IgZWFjaCBzeXN0ZW0gZXZlbnQgdHlwZS4KLy8vCi8vLyBLZWVwIHRoaXMgbWFwcGluZyBpbiB0aGUgZXZlbnQgZG9tYWluIHNvIHBlcnNpc3RlbmNlIGh5ZHJhdGlvbiwgYmFja2dyb3VuZAovLy8gSVAtbG9jYXRpb24gc3luY2hyb25pemF0aW9uLCBhbmQgbm90aWZpY2F0aW9uIHJlbmRlcmluZyBhbGwgYWdyZWUgb24gdGhlCi8vLyBzYW1lIGZpZWxkcy4KcHViKGNyYXRlKSBmbiBzeXN0ZW1fZXZlbnRfaXBfZmllbGRzKAogICAgZXZlbnRfdHlwZTogT3B0aW9uPCZzdHI+LAopIC0+ICYnc3RhdGljIFsoJidzdGF0aWMgc3RyLCAmJ3N0YXRpYyBzdHIpXSB7CiAgICBtYXRjaCBldmVudF90eXBlLnVud3JhcF9vcigiIikgewogICAgICAgICJGTl9FVkVOVF9BVVRIX1NFU1NJT05fSVBfRFJJRlQiID0+IHsKICAgICAgICAgICAgJlsoImZyb21faXAiLCAiZnJvbV9pcF9sb2NhdGlvbiIpLCAoInRvX2lwIiwgInRvX2lwX2xvY2F0aW9uIildCiAgICAgICAgfQogICAgICAgICJGTl9FVkVOVF9BVVRIX0xPR0lOX1NVQ0NFU1MiCiAgICAgICAgfCAiRk5fRVZFTlRfQVVUSF9MT0dPVVQiCiAgICAgICAgfCAiRk5fRVZFTlRfQVVUSF9MT0dJTl9GQUlMVVJFIgogICAgICAgIHwgIkZOX0VWRU5UX1NFQ1VSSVRZX1NDQU5ORVJfQkxPQ0tFRCIKICAgICAgICB8ICJGTl9FVkVOVF9HQVRFV0FZX1RIUk9UVExFX0JMT0NLRUQiCiAgICAgICAgfCAiRk5fRVZFTlRfR0FURVdBWV9WSVNJQklMSVRZX0JMT0NLRUQiCiAgICAgICAgfCAiRk5fRVZFTlRfV0FGX0JMT0NLRUQiCiAgICAgICAgfCAiRk5fRVZFTlRfU1NIX0xPR0lOX1NVQ0NFU1MiCiAgICAgICAgfCAiRk5fRVZFTlRfU1NIX0xPR0lOX0ZBSUxVUkUiCiAgICAgICAgfCAiRk5fRVZFTlRfU1NIX0lQX0JMT0NLRUQiID0+ICZbKCJpcCIsICJpcF9sb2NhdGlvbiIpXSwKICAgICAgICBfID0+ICZbXSwKICAgIH0KfQo=
+pub(crate) mod routes;
+
+pub(crate) use routes::*;
+
+/// Payload fields that carry source IPs for each system event type.
+///
+/// Keep this mapping in the event domain so persistence hydration, background
+/// IP-location synchronization, and notification rendering all agree on the
+/// same fields.
+pub(crate) fn system_event_ip_fields(
+    event_type: Option<&str>,
+) -> &'static [(&'static str, &'static str)] {
+    match event_type.unwrap_or("") {
+        "FN_EVENT_AUTH_SESSION_IP_DRIFT" => {
+            &[("from_ip", "from_ip_location"), ("to_ip", "to_ip_location")]
+        }
+        "FN_EVENT_AUTH_LOGIN_SUCCESS"
+        | "FN_EVENT_AUTH_LOGOUT"
+        | "FN_EVENT_AUTH_LOGIN_FAILURE"
+        | "FN_EVENT_SECURITY_SCANNER_BLOCKED"
+        | "FN_EVENT_GATEWAY_THROTTLE_BLOCKED"
+        | "FN_EVENT_GATEWAY_VISIBILITY_BLOCKED"
+        | "FN_EVENT_WAF_BLOCKED"
+        | "FN_EVENT_SSH_LOGIN_SUCCESS"
+        | "FN_EVENT_SSH_LOGIN_FAILURE"
+        | "FN_EVENT_SSH_IP_BLOCKED" => &[("ip", "ip_location")],
+        _ => &[],
+    }
+}

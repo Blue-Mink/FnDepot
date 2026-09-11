@@ -1,1 +1,167 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgewogIEJhZGdlQ2hlY2ssCiAgQ2hldnJvbkRvd24sCiAgTG9hZGVyMiwKICBSZWZyZXNoQ3csCiAgU2hpZWxkT2ZmLAogIFRyYXNoMiwKfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgewogIERyb3Bkb3duTWVudSwKICBEcm9wZG93bk1lbnVDb250ZW50LAogIERyb3Bkb3duTWVudUl0ZW0sCiAgRHJvcGRvd25NZW51U2VwYXJhdG9yLAogIERyb3Bkb3duTWVudVRyaWdnZXIsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2Ryb3Bkb3duLW1lbnUiOwppbXBvcnQgdHlwZSB7IFN0cmVhbU1hcHBpbmcgfSBmcm9tICIuLi8uLi90eXBlcyI7CmltcG9ydCB7CiAgZm9ybWF0TWFwcGluZ0xhYmVsLAogIGZvcm1hdFByb3RvY29sTGFiZWwsCiAgZ2V0TWFwcGluZ0tleSwKfSBmcm9tICIuL3N0cmVhbU1hcHBpbmdNb2RlbCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBtYXBwaW5nOiBTdHJlYW1NYXBwaW5nOwogIHByb2JpbmdNYXBwaW5nS2V5OiBzdHJpbmcgfCBudWxsOwogIHJlbW92aW5nTWFwcGluZ0tleTogc3RyaW5nIHwgbnVsbDsKICBvblJlbW92ZTogKG1hcHBpbmc6IFN0cmVhbU1hcHBpbmcpID0+IFByb21pc2U8Ym9vbGVhbj47Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIGVkaXQ6IFttYXBwaW5nOiBTdHJlYW1NYXBwaW5nXTsKICBwcm9iZTogW21hcHBpbmc6IFN0cmVhbU1hcHBpbmddOwogIHBvbGljeTogW21hcHBpbmc6IFN0cmVhbU1hcHBpbmddOwogIHNlcnZpY2U6IFttYXBwaW5nOiBTdHJlYW1NYXBwaW5nXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBkZWxldGVEaWFsb2dPcGVuID0gcmVmKGZhbHNlKTsKY29uc3QgbWFwcGluZ0tleSA9IGNvbXB1dGVkKCgpID0+IGdldE1hcHBpbmdLZXkocHJvcHMubWFwcGluZykpOwpjb25zdCBpc1Byb2JpbmcgPSBjb21wdXRlZCgoKSA9PiBwcm9wcy5wcm9iaW5nTWFwcGluZ0tleSA9PT0gbWFwcGluZ0tleS52YWx1ZSk7CmNvbnN0IGlzUmVtb3ZpbmcgPSBjb21wdXRlZCgKICAoKSA9PiBwcm9wcy5yZW1vdmluZ01hcHBpbmdLZXkgPT09IG1hcHBpbmdLZXkudmFsdWUsCik7CgpmdW5jdGlvbiBvcGVuRGVsZXRlRGlhbG9nKCkgewogIGRlbGV0ZURpYWxvZ09wZW4udmFsdWUgPSB0cnVlOwp9CgpmdW5jdGlvbiBoYW5kbGVEZWxldGVEaWFsb2dPcGVuQ2hhbmdlKG9wZW46IGJvb2xlYW4pIHsKICBpZiAoIWlzUmVtb3ZpbmcudmFsdWUpIGRlbGV0ZURpYWxvZ09wZW4udmFsdWUgPSBvcGVuOwp9Cgphc3luYyBmdW5jdGlvbiByZW1vdmVNYXBwaW5nKCkgewogIGlmIChhd2FpdCBwcm9wcy5vblJlbW92ZShwcm9wcy5tYXBwaW5nKSkgewogICAgZGVsZXRlRGlhbG9nT3Blbi52YWx1ZSA9IGZhbHNlOwogIH0KfQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktZW5kIj4KICAgIDxCdXR0b24KICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgc2l6ZT0ic20iCiAgICAgIGNsYXNzPSJyb3VuZGVkLXItbm9uZSIKICAgICAgQGNsaWNrPSJlbWl0KCdlZGl0JywgbWFwcGluZykiCiAgICA+CiAgICAgIHt7IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLmVkaXQiKSB9fQogICAgPC9CdXR0b24+CiAgICA8RHJvcGRvd25NZW51PgogICAgICA8RHJvcGRvd25NZW51VHJpZ2dlciBhcy1jaGlsZD4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24ubW9yZUFjdGlvbnMnKSIKICAgICAgICAgIGNsYXNzPSJoLTggdy04IHJvdW5kZWQtbC1ub25lIGJvcmRlci1sLTAiCiAgICAgICAgPgogICAgICAgICAgPENoZXZyb25Eb3duIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgIDwvQnV0dG9uPgogICAgICA8L0Ryb3Bkb3duTWVudVRyaWdnZXI+CiAgICAgIDxEcm9wZG93bk1lbnVDb250ZW50IGFsaWduPSJlbmQiIGNsYXNzPSJ3LTQ0Ij4KICAgICAgICA8RHJvcGRvd25NZW51SXRlbQogICAgICAgICAgOmRpc2FibGVkPSJpc1Byb2JpbmciCiAgICAgICAgICBAc2VsZWN0PSJlbWl0KCdwcm9iZScsIG1hcHBpbmcpIgogICAgICAgID4KICAgICAgICAgIDxSZWZyZXNoQ3cKICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCIKICAgICAgICAgICAgOmNsYXNzPSJ7ICdhbmltYXRlLXNwaW4nOiBpc1Byb2JpbmcgfSIKICAgICAgICAgIC8+CiAgICAgICAgICB7ewogICAgICAgICAgICBpc1Byb2JpbmcKICAgICAgICAgICAgICA/IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnByb2JpbmciKQogICAgICAgICAgICAgIDogdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MucHJvYmUiKQogICAgICAgICAgfX0KICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgPERyb3Bkb3duTWVudUl0ZW0gQHNlbGVjdD0iZW1pdCgncG9saWN5JywgbWFwcGluZykiPgogICAgICAgICAgPFNoaWVsZE9mZiBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgICAge3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuYnlwYXNzUG9saWN5IikgfX0KICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgPERyb3Bkb3duTWVudUl0ZW0gQHNlbGVjdD0iZW1pdCgnc2VydmljZScsIG1hcHBpbmcpIj4KICAgICAgICAgIDxCYWRnZUNoZWNrIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5zZWxlY3RTZXJ2aWNlIikgfX0KICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgPERyb3Bkb3duTWVudVNlcGFyYXRvciAvPgogICAgICAgIDxEcm9wZG93bk1lbnVJdGVtCiAgICAgICAgICB2YXJpYW50PSJkZXN0cnVjdGl2ZSIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNSZW1vdmluZyIKICAgICAgICAgIEBzZWxlY3Q9Im9wZW5EZWxldGVEaWFsb2ciCiAgICAgICAgPgogICAgICAgICAgPFRyYXNoMiBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgICAge3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuZGVsZXRlIikgfX0KICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgIDwvRHJvcGRvd25NZW51Q29udGVudD4KICAgIDwvRHJvcGRvd25NZW51PgogIDwvZGl2PgoKICA8RGlhbG9nIDpvcGVuPSJkZWxldGVEaWFsb2dPcGVuIiBAdXBkYXRlOm9wZW49ImhhbmRsZURlbGV0ZURpYWxvZ09wZW5DaGFuZ2UiPgogICAgPERpYWxvZ0NvbnRlbnQgY2xhc3M9InNtOm1heC13LVs0NDBweF0iIDpzaG93LWNsb3NlLWJ1dHRvbj0iIWlzUmVtb3ZpbmciPgogICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgIDxEaWFsb2dUaXRsZT4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLmRlbGV0ZVRpdGxlIiwgewogICAgICAgICAgICAgIHByb3RvY29sOiBmb3JtYXRQcm90b2NvbExhYmVsKG1hcHBpbmcucHJvdG9jb2wpLAogICAgICAgICAgICB9KQogICAgICAgICAgfX0KICAgICAgICA8L0RpYWxvZ1RpdGxlPgogICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgIHt7CiAgICAgICAgICAgIHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLmRlbGV0ZURlc2NyaXB0aW9uIiwgewogICAgICAgICAgICAgIG1hcHBpbmc6IGZvcm1hdE1hcHBpbmdMYWJlbChtYXBwaW5nKSwKICAgICAgICAgICAgICB0YXJnZXQ6IG1hcHBpbmcudGFyZ2V0LAogICAgICAgICAgICB9KQogICAgICAgICAgfX0KICAgICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICA8L0RpYWxvZ0hlYWRlcj4KICAgICAgPERpYWxvZ0Zvb3Rlcj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgOmRpc2FibGVkPSJpc1JlbW92aW5nIgogICAgICAgICAgQGNsaWNrPSJkZWxldGVEaWFsb2dPcGVuID0gZmFsc2UiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiY29tbW9uLmNhbmNlbCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImlzUmVtb3ZpbmciCiAgICAgICAgICBAY2xpY2s9InJlbW92ZU1hcHBpbmciCiAgICAgICAgPgogICAgICAgICAgPExvYWRlcjIgdi1pZj0iaXNSZW1vdmluZyIgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4iIC8+CiAgICAgICAgICB7eyB0KCJjb21tb24uY29uZmlybURlbGV0ZSIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  BadgeCheck,
+  ChevronDown,
+  Loader2,
+  RefreshCw,
+  ShieldOff,
+  Trash2,
+} from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import type { StreamMapping } from "../../types";
+import {
+  formatMappingLabel,
+  formatProtocolLabel,
+  getMappingKey,
+} from "./streamMappingModel";
+
+const props = defineProps<{
+  mapping: StreamMapping;
+  probingMappingKey: string | null;
+  removingMappingKey: string | null;
+  onRemove: (mapping: StreamMapping) => Promise<boolean>;
+}>();
+
+const emit = defineEmits<{
+  edit: [mapping: StreamMapping];
+  probe: [mapping: StreamMapping];
+  policy: [mapping: StreamMapping];
+  service: [mapping: StreamMapping];
+}>();
+
+const { t } = useI18n();
+const deleteDialogOpen = ref(false);
+const mappingKey = computed(() => getMappingKey(props.mapping));
+const isProbing = computed(() => props.probingMappingKey === mappingKey.value);
+const isRemoving = computed(
+  () => props.removingMappingKey === mappingKey.value,
+);
+
+function openDeleteDialog() {
+  deleteDialogOpen.value = true;
+}
+
+function handleDeleteDialogOpenChange(open: boolean) {
+  if (!isRemoving.value) deleteDialogOpen.value = open;
+}
+
+async function removeMapping() {
+  if (await props.onRemove(props.mapping)) {
+    deleteDialogOpen.value = false;
+  }
+}
+</script>
+
+<template>
+  <div class="flex justify-end">
+    <Button
+      variant="outline"
+      size="sm"
+      class="rounded-r-none"
+      @click="emit('edit', mapping)"
+    >
+      {{ t("admin.streamMappings.edit") }}
+    </Button>
+    <DropdownMenu>
+      <DropdownMenuTrigger as-child>
+        <Button
+          variant="outline"
+          size="icon"
+          :aria-label="t('common.moreActions')"
+          class="h-8 w-8 rounded-l-none border-l-0"
+        >
+          <ChevronDown class="h-4 w-4" />
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end" class="w-44">
+        <DropdownMenuItem
+          :disabled="isProbing"
+          @select="emit('probe', mapping)"
+        >
+          <RefreshCw
+            class="mr-2 h-4 w-4"
+            :class="{ 'animate-spin': isProbing }"
+          />
+          {{
+            isProbing
+              ? t("admin.streamMappings.probing")
+              : t("admin.streamMappings.probe")
+          }}
+        </DropdownMenuItem>
+        <DropdownMenuItem @select="emit('policy', mapping)">
+          <ShieldOff class="mr-2 h-4 w-4" />
+          {{ t("admin.streamMappings.bypassPolicy") }}
+        </DropdownMenuItem>
+        <DropdownMenuItem @select="emit('service', mapping)">
+          <BadgeCheck class="mr-2 h-4 w-4" />
+          {{ t("admin.streamMappings.selectService") }}
+        </DropdownMenuItem>
+        <DropdownMenuSeparator />
+        <DropdownMenuItem
+          variant="destructive"
+          :disabled="isRemoving"
+          @select="openDeleteDialog"
+        >
+          <Trash2 class="mr-2 h-4 w-4" />
+          {{ t("admin.streamMappings.delete") }}
+        </DropdownMenuItem>
+      </DropdownMenuContent>
+    </DropdownMenu>
+  </div>
+
+  <Dialog :open="deleteDialogOpen" @update:open="handleDeleteDialogOpenChange">
+    <DialogContent class="sm:max-w-[440px]" :show-close-button="!isRemoving">
+      <DialogHeader>
+        <DialogTitle>
+          {{
+            t("admin.streamMappings.deleteTitle", {
+              protocol: formatProtocolLabel(mapping.protocol),
+            })
+          }}
+        </DialogTitle>
+        <DialogDescription>
+          {{
+            t("admin.streamMappings.deleteDescription", {
+              mapping: formatMappingLabel(mapping),
+              target: mapping.target,
+            })
+          }}
+        </DialogDescription>
+      </DialogHeader>
+      <DialogFooter>
+        <Button
+          variant="outline"
+          :disabled="isRemoving"
+          @click="deleteDialogOpen = false"
+        >
+          {{ t("common.cancel") }}
+        </Button>
+        <Button
+          variant="destructive"
+          :disabled="isRemoving"
+          @click="removeMapping"
+        >
+          <Loader2 v-if="isRemoving" class="mr-2 h-4 w-4 animate-spin" />
+          {{ t("common.confirmDelete") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

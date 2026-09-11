@@ -1,1 +1,34 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgVG9vbHRpcENvbnRlbnRFbWl0cywgVG9vbHRpcENvbnRlbnRQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgVG9vbHRpcEFycm93LCBUb29sdGlwQ29udGVudCwgVG9vbHRpcFBvcnRhbCwgdXNlRm9yd2FyZFByb3BzRW1pdHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKZGVmaW5lT3B0aW9ucyh7CiAgaW5oZXJpdEF0dHJzOiBmYWxzZSwKfSkKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKGRlZmluZVByb3BzPFRvb2x0aXBDb250ZW50UHJvcHMgJiB7IGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0gfT4oKSwgewogIHNpZGVPZmZzZXQ6IDQsCn0pCgpjb25zdCBlbWl0cyA9IGRlZmluZUVtaXRzPFRvb2x0aXBDb250ZW50RW1pdHM+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQpjb25zdCBmb3J3YXJkZWQgPSB1c2VGb3J3YXJkUHJvcHNFbWl0cyhkZWxlZ2F0ZWRQcm9wcywgZW1pdHMpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxUb29sdGlwUG9ydGFsPgogICAgPFRvb2x0aXBDb250ZW50CiAgICAgIGRhdGEtc2xvdD0idG9vbHRpcC1jb250ZW50IgogICAgICB2LWJpbmQ9InsgLi4uZm9yd2FyZGVkLCAuLi4kYXR0cnMgfSIKICAgICAgOmNsYXNzPSJjbignYmctZm9yZWdyb3VuZCB0ZXh0LWJhY2tncm91bmQgYW5pbWF0ZS1pbiBmYWRlLWluLTAgem9vbS1pbi05NSBkYXRhLVtzdGF0ZT1jbG9zZWRdOmFuaW1hdGUtb3V0IGRhdGEtW3N0YXRlPWNsb3NlZF06ZmFkZS1vdXQtMCBkYXRhLVtzdGF0ZT1jbG9zZWRdOnpvb20tb3V0LTk1IGRhdGEtW3NpZGU9Ym90dG9tXTpzbGlkZS1pbi1mcm9tLXRvcC0yIGRhdGEtW3NpZGU9bGVmdF06c2xpZGUtaW4tZnJvbS1yaWdodC0yIGRhdGEtW3NpZGU9cmlnaHRdOnNsaWRlLWluLWZyb20tbGVmdC0yIGRhdGEtW3NpZGU9dG9wXTpzbGlkZS1pbi1mcm9tLWJvdHRvbS0yIHotNTAgdy1maXQgcm91bmRlZC1tZCBweC0zIHB5LTEuNSB0ZXh0LXhzIHRleHQtYmFsYW5jZScsIHByb3BzLmNsYXNzKSIKICAgID4KICAgICAgPHNsb3QgLz4KCiAgICAgIDxUb29sdGlwQXJyb3cgY2xhc3M9ImJnLWZvcmVncm91bmQgZmlsbC1mb3JlZ3JvdW5kIHotNTAgc2l6ZS0yLjUgdHJhbnNsYXRlLXktW2NhbGMoLTUwJV8tXzJweCldIHJvdGF0ZS00NSByb3VuZGVkLVsycHhdIiAvPgogICAgPC9Ub29sdGlwQ29udGVudD4KICA8L1Rvb2x0aXBQb3J0YWw+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { TooltipContentEmits, TooltipContentProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { TooltipArrow, TooltipContent, TooltipPortal, useForwardPropsEmits } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+defineOptions({
+  inheritAttrs: false,
+})
+
+const props = withDefaults(defineProps<TooltipContentProps & { class?: HTMLAttributes["class"] }>(), {
+  sideOffset: 4,
+})
+
+const emits = defineEmits<TooltipContentEmits>()
+
+const delegatedProps = reactiveOmit(props, "class")
+const forwarded = useForwardPropsEmits(delegatedProps, emits)
+</script>
+
+<template>
+  <TooltipPortal>
+    <TooltipContent
+      data-slot="tooltip-content"
+      v-bind="{ ...forwarded, ...$attrs }"
+      :class="cn('bg-foreground text-background animate-in fade-in-0 zoom-in-95 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 z-50 w-fit rounded-md px-3 py-1.5 text-xs text-balance', props.class)"
+    >
+      <slot />
+
+      <TooltipArrow class="bg-foreground fill-foreground z-50 size-2.5 translate-y-[calc(-50%_-_2px)] rotate-45 rounded-[2px]" />
+    </TooltipContent>
+  </TooltipPortal>
+</template>

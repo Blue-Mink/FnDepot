@@ -1,1 +1,3 @@
-aW1wb3J0IHsgdnVlQ29uZmlnIH0gZnJvbSAiQHJlcG8vZXNsaW50LWNvbmZpZy92dWUiOwoKZXhwb3J0IGRlZmF1bHQgdnVlQ29uZmlnOwo=
+import { vueConfig } from "@repo/eslint-config/vue";
+
+export default vueConfig;

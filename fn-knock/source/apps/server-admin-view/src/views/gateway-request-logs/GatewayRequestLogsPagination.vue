@@ -1,1 +1,41 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IEN1cnNvclBhZ2luYXRpb25Eb2NrIGZyb20gIkAvY29tcG9uZW50cy9DdXJzb3JQYWdpbmF0aW9uRG9jay52dWUiOwppbXBvcnQgdHlwZSB7IEN1cnNvclBhZ2luYXRpb25MYWJlbHMgfSBmcm9tICJAL2NvbXBvbmVudHMvY3Vyc29yLXBhZ2luYXRpb24tY29udHJhY3QiOwppbXBvcnQgeyBMSU1JVF9PUFRJT05TIH0gZnJvbSAiLi9tb2RlbCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjYW5Mb2FkTmV3ZXI6IGJvb2xlYW47CiAgY2FuTG9hZE9sZGVyOiBib29sZWFuOwogIGN1cnNvclBhZ2VMYWJlbDogc3RyaW5nOwogIGhhbmRsZUxpbWl0Q2hhbmdlOiAodmFsdWU6IHVua25vd24pID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwogIGhhbmRsZUxvYWRGaXJzdDogKCkgPT4gUHJvbWlzZTx2b2lkPiB8IHZvaWQ7CiAgaGFuZGxlTG9hZE5ld2VyOiAoKSA9PiBQcm9taXNlPHZvaWQ+IHwgdm9pZDsKICBoYW5kbGVMb2FkT2xkZXI6ICgpID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwogIGxpbWl0OiBzdHJpbmc7CiAgbG9hZGluZzogYm9vbGVhbjsKICBzaG91bGRGbG9hdDogYm9vbGVhbjsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBsYWJlbHMgPSBjb21wdXRlZDxDdXJzb3JQYWdpbmF0aW9uTGFiZWxzPigoKSA9PiAoewogIGFyaWFMYWJlbDogdCgiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLnRpdGxlIiksCiAgY2FuTG9hZE9sZGVyOiB0KCJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuY2FuTG9hZE9sZGVyIiksCiAgZmlyc3RQYWdlOiB0KCJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZmlyc3RQYWdlIiksCiAgbGFzdFBhZ2U6IHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5sYXN0UGFnZSIpLAogIG5leHRQYWdlOiB0KCJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MubmV4dFBhZ2UiKSwKICBwYWdlU2l6ZTogdCgiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLnBhZ2VTaXplIiksCiAgcGFnZVNpemVPcHRpb246IChjb3VudCkgPT4KICAgIHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5wYWdlU2l6ZU9wdGlvbiIsIHsgY291bnQgfSksCiAgcHJldmlvdXNQYWdlOiB0KCJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MucHJldmlvdXNQYWdlIiksCn0pKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPEN1cnNvclBhZ2luYXRpb25Eb2NrCiAgICB2LWJpbmQ9InByb3BzIgogICAgOmxhYmVscz0ibGFiZWxzIgogICAgOmxpbWl0LW9wdGlvbnM9IkxJTUlUX09QVElPTlMiCiAgLz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import CursorPaginationDock from "@/components/CursorPaginationDock.vue";
+import type { CursorPaginationLabels } from "@/components/cursor-pagination-contract";
+import { LIMIT_OPTIONS } from "./model";
+
+const props = defineProps<{
+  canLoadNewer: boolean;
+  canLoadOlder: boolean;
+  cursorPageLabel: string;
+  handleLimitChange: (value: unknown) => Promise<void> | void;
+  handleLoadFirst: () => Promise<void> | void;
+  handleLoadNewer: () => Promise<void> | void;
+  handleLoadOlder: () => Promise<void> | void;
+  limit: string;
+  loading: boolean;
+  shouldFloat: boolean;
+}>();
+
+const { t } = useI18n();
+const labels = computed<CursorPaginationLabels>(() => ({
+  ariaLabel: t("admin.gatewayRequestLogs.title"),
+  canLoadOlder: t("admin.gatewayRequestLogs.canLoadOlder"),
+  firstPage: t("admin.gatewayRequestLogs.firstPage"),
+  lastPage: t("admin.gatewayRequestLogs.lastPage"),
+  nextPage: t("admin.gatewayRequestLogs.nextPage"),
+  pageSize: t("admin.gatewayRequestLogs.pageSize"),
+  pageSizeOption: (count) =>
+    t("admin.gatewayRequestLogs.pageSizeOption", { count }),
+  previousPage: t("admin.gatewayRequestLogs.previousPage"),
+}));
+</script>
+
+<template>
+  <CursorPaginationDock
+    v-bind="props"
+    :labels="labels"
+    :limit-options="LIMIT_OPTIONS"
+  />
+</template>

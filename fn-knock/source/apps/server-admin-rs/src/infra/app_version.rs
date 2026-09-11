@@ -1,1 +1,1 @@
-aW5jbHVkZSEoY29uY2F0IShlbnYhKCJPVVRfRElSIiksICIvYXBwX3ZlcnNpb24ucnMiKSk7Cg==
+include!(concat!(env!("OUT_DIR"), "/app_version.rs"));

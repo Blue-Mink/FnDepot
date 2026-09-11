@@ -1,1 +1,479 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiBjcmVhdGVfcnVsZV92YWx1ZShzdGF0ZTogJkFwcFN0YXRlLCBib2R5OiBWYWx1ZSkgLT4gTm90aWZ5UmVzdWx0PFZhbHVlPiB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoc3RhdGUpLmF3YWl0OwogICAgbGV0IGV2ZW50X3R5cGUgPSB0cmltbWVkX3N0cmluZyhib2R5LmdldCgiZXZlbnRfdHlwZSIpKS5va19vcl9iYWQoCiAgICAgICAgbm90aWZpY2F0aW9uX3NlcnZpY2VfdGV4dCgmdHJhbnNsYXRvciwgInVuc3VwcG9ydGVkRXZlbnRUeXBlIiwgJltdKSwKICAgICk/OwogICAgaWYgIVNZU1RFTV9FVkVOVF9UWVBFUy5jb250YWlucygmZXZlbnRfdHlwZS5hc19zdHIoKSkgewogICAgICAgIHJldHVybiBFcnIoTm90aWZ5RXJyb3I6OkJhZFJlcXVlc3Qobm90aWZpY2F0aW9uX3NlcnZpY2VfdGV4dCgKICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgICJ1bnN1cHBvcnRlZEV2ZW50VHlwZSIsCiAgICAgICAgICAgICZbXSwKICAgICAgICApKSk7CiAgICB9CiAgICBsZXQgZ3JvdXBfYnkgPSB0cmltbWVkX3N0cmluZyhib2R5LmdldCgiZ3JvdXBfYnkiKSkub2tfb3JfYmFkKG5vdGlmaWNhdGlvbl9zZXJ2aWNlX3RleHQoCiAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgImludmFsaWRHcm91cEJ5IiwKICAgICAgICAmW10sCiAgICApKT87CiAgICBpZiAhR1JPVVBfQllfVkFMVUVTLmNvbnRhaW5zKCZncm91cF9ieS5hc19zdHIoKSkgewogICAgICAgIHJldHVybiBFcnIoTm90aWZ5RXJyb3I6OkJhZFJlcXVlc3Qobm90aWZpY2F0aW9uX3NlcnZpY2VfdGV4dCgKICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgICJpbnZhbGlkR3JvdXBCeSIsCiAgICAgICAgICAgICZbXSwKICAgICAgICApKSk7CiAgICB9CiAgICBsZXQgbWVzc2FnZV90ZW1wbGF0ZV9tb2RlID0KICAgICAgICB0cmltbWVkX3N0cmluZyhib2R5LmdldCgibWVzc2FnZV90ZW1wbGF0ZV9tb2RlIikpLnVud3JhcF9vcl9lbHNlKHx8ICJkZWZhdWx0Ii50b19zdHJpbmcoKSk7CiAgICBpZiAhTUVTU0FHRV9URU1QTEFURV9NT0RFUy5jb250YWlucygmbWVzc2FnZV90ZW1wbGF0ZV9tb2RlLmFzX3N0cigpKSB7CiAgICAgICAgcmV0dXJuIEVycihOb3RpZnlFcnJvcjo6QmFkUmVxdWVzdChub3RpZmljYXRpb25fc2VydmljZV90ZXh0KAogICAgICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAgICAgImludmFsaWRNZXNzYWdlVGVtcGxhdGVNb2RlIiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpKTsKICAgIH0KICAgIGxldCBldmVudF9sZXZlbF9maWx0ZXIgPSB1bmlxdWVfc3RyaW5nX2FycmF5KGJvZHkuZ2V0KCJldmVudF9sZXZlbF9maWx0ZXIiKSk7CiAgICBpZiAhZXZlbnRfbGV2ZWxfZmlsdGVyCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5hbGwofHZhbHVlfCBTWVNURU1fRVZFTlRfTEVWRUxTLmNvbnRhaW5zKCZ2YWx1ZS5hc19zdHIoKSkpCiAgICB7CiAgICAgICAgcmV0dXJuIEVycihOb3RpZnlFcnJvcjo6QmFkUmVxdWVzdChub3RpZmljYXRpb25fc2VydmljZV90ZXh0KAogICAgICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAgICAgImludmFsaWRFdmVudExldmVsRmlsdGVyIiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpKTsKICAgIH0KICAgIGxldCBldmVudF9zb3VyY2VfZmlsdGVyID0gdW5pcXVlX3N0cmluZ19hcnJheShib2R5LmdldCgiZXZlbnRfc291cmNlX2ZpbHRlciIpKTsKICAgIGlmICFldmVudF9zb3VyY2VfZmlsdGVyCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5hbGwofHZhbHVlfCBTWVNURU1fRVZFTlRfU09VUkNFUy5jb250YWlucygmdmFsdWUuYXNfc3RyKCkpKQogICAgewogICAgICAgIHJldHVybiBFcnIoTm90aWZ5RXJyb3I6OkJhZFJlcXVlc3Qobm90aWZpY2F0aW9uX3NlcnZpY2VfdGV4dCgKICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgICJpbnZhbGlkRXZlbnRTb3VyY2VGaWx0ZXIiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSkpOwogICAgfQoKICAgIGxldCB0YXJnZXRzID0gbm9ybWFsaXplX3J1bGVfdGFyZ2V0cyhzdGF0ZSwgYm9keS5nZXQoInRhcmdldHMiKSwgJltdLCAmdHJhbnNsYXRvcikuYXdhaXQ/OwogICAgaWYgdGFyZ2V0cy5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gRXJyKE5vdGlmeUVycm9yOjpCYWRSZXF1ZXN0KG5vdGlmaWNhdGlvbl9zZXJ2aWNlX3RleHQoCiAgICAgICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICAgICAidGFyZ2V0UmVxdWlyZWQiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSkpOwogICAgfQogICAgbGV0IGV4aXN0aW5nX3J1bGVzID0gbG9hZF9ydWxlcyhzdGF0ZSkuYXdhaXQ/OwogICAgaWYgZXhpc3RpbmdfcnVsZXMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmFueSh8cnVsZXwgcnVsZS5nZXQoImV2ZW50X3R5cGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKCZldmVudF90eXBlKSkKICAgIHsKICAgICAgICByZXR1cm4gRXJyKE5vdGlmeUVycm9yOjpCYWRSZXF1ZXN0KG5vdGlmaWNhdGlvbl9zZXJ2aWNlX3RleHQoCiAgICAgICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICAgICAiZHVwbGljYXRlRXZlbnRSdWxlIiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpKTsKICAgIH0KCiAgICBsZXQgbm93ID0gdGltZV91dGlsczo6bm93X2lzbygpOwogICAgbGV0IG11dCBydWxlID0gTWFwOjpuZXcoKTsKICAgIHJ1bGUuaW5zZXJ0KCJpZCIudG9fc3RyaW5nKCksIFZhbHVlOjpTdHJpbmcoY3JlYXRlX2lkKCJudGZydWxlIikpKTsKICAgIHJ1bGUuaW5zZXJ0KAogICAgICAgICJuYW1lIi50b19zdHJpbmcoKSwKICAgICAgICBWYWx1ZTo6U3RyaW5nKGJ1aWxkX25vdGlmaWNhdGlvbl9ydWxlX25hbWUoJmV2ZW50X3R5cGUsICZ0cmFuc2xhdG9yKSksCiAgICApOwogICAgcnVsZS5pbnNlcnQoCiAgICAgICAgImVuYWJsZWQiLnRvX3N0cmluZygpLAogICAgICAgIFZhbHVlOjpCb29sKGJvb2xfZmllbGQoJmJvZHksICJlbmFibGVkIiwgdHJ1ZSkpLAogICAgKTsKICAgIHJ1bGUuaW5zZXJ0KCJldmVudF90eXBlIi50b19zdHJpbmcoKSwgVmFsdWU6OlN0cmluZyhldmVudF90eXBlKSk7CiAgICBpZiAhZXZlbnRfbGV2ZWxfZmlsdGVyLmlzX2VtcHR5KCkgewogICAgICAgIHJ1bGUuaW5zZXJ0KCJldmVudF9sZXZlbF9maWx0ZXIiLnRvX3N0cmluZygpLCBqc29uIShldmVudF9sZXZlbF9maWx0ZXIpKTsKICAgIH0KICAgIGlmICFldmVudF9zb3VyY2VfZmlsdGVyLmlzX2VtcHR5KCkgewogICAgICAgIHJ1bGUuaW5zZXJ0KAogICAgICAgICAgICAiZXZlbnRfc291cmNlX2ZpbHRlciIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGpzb24hKGV2ZW50X3NvdXJjZV9maWx0ZXIpLAogICAgICAgICk7CiAgICB9CiAgICBydWxlLmluc2VydCgKICAgICAgICAid2luZG93X3NlY29uZHMiLnRvX3N0cmluZygpLAogICAgICAgIGpzb24hKG51bWJlcl9maWVsZCgmYm9keSwgIndpbmRvd19zZWNvbmRzIiwgNjAsIDEsIDg2NDAwKSksCiAgICApOwogICAgcnVsZS5pbnNlcnQoCiAgICAgICAgInRocmVzaG9sZF9jb3VudCIudG9fc3RyaW5nKCksCiAgICAgICAganNvbiEobnVtYmVyX2ZpZWxkKCZib2R5LCAidGhyZXNob2xkX2NvdW50IiwgMSwgMSwgOTk5OSkpLAogICAgKTsKICAgIHJ1bGUuaW5zZXJ0KCJncm91cF9ieSIudG9fc3RyaW5nKCksIFZhbHVlOjpTdHJpbmcoZ3JvdXBfYnkpKTsKICAgIHJ1bGUuaW5zZXJ0KAogICAgICAgICJjb29sZG93bl9zZWNvbmRzIi50b19zdHJpbmcoKSwKICAgICAgICBqc29uIShudW1iZXJfZmllbGQoJmJvZHksICJjb29sZG93bl9zZWNvbmRzIiwgNjAsIDAsIDg2NDAwKSksCiAgICApOwogICAgcnVsZS5pbnNlcnQoInRhcmdldHMiLnRvX3N0cmluZygpLCBWYWx1ZTo6QXJyYXkodGFyZ2V0cykpOwogICAgcnVsZS5pbnNlcnQoCiAgICAgICAgIm1lc3NhZ2VfdGVtcGxhdGVfbW9kZSIudG9fc3RyaW5nKCksCiAgICAgICAgVmFsdWU6OlN0cmluZyhtZXNzYWdlX3RlbXBsYXRlX21vZGUpLAogICAgKTsKICAgIHJ1bGUuaW5zZXJ0KAogICAgICAgICJtZXNzYWdlX3RlbXBsYXRlIi50b19zdHJpbmcoKSwKICAgICAgICBib2R5LmdldCgibWVzc2FnZV90ZW1wbGF0ZSIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCksCiAgICApOwogICAgcnVsZS5pbnNlcnQoImNyZWF0ZWRfYXQiLnRvX3N0cmluZygpLCBWYWx1ZTo6U3RyaW5nKG5vdy5jbG9uZSgpKSk7CiAgICBydWxlLmluc2VydCgidXBkYXRlZF9hdCIudG9fc3RyaW5nKCksIFZhbHVlOjpTdHJpbmcobm93KSk7CiAgICBydWxlLmluc2VydCgibGFzdF90cmlnZ2VyZWRfYXQiLnRvX3N0cmluZygpLCBWYWx1ZTo6TnVsbCk7CiAgICBsZXQgcnVsZSA9IFZhbHVlOjpPYmplY3QocnVsZSk7CiAgICBzYXZlX3J1bGVfcmF3KHN0YXRlLCAmcnVsZSkuYXdhaXQ/OwogICAgT2socnVsZSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiB1cGRhdGVfcnVsZV92YWx1ZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBpZDogJnN0ciwKICAgIGJvZHk6IFZhbHVlLAopIC0+IE5vdGlmeVJlc3VsdDxWYWx1ZT4gewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKHN0YXRlKS5hd2FpdDsKICAgIGxldCBjdXJyZW50ID0gbG9hZF9ydWxlKHN0YXRlLCBpZCkKICAgICAgICAuYXdhaXQ/CiAgICAgICAgLm9rX29yX2JhZChub3RpZmljYXRpb25fc2VydmljZV90ZXh0KCZ0cmFuc2xhdG9yLCAicnVsZU5vdEZvdW5kIiwgJltdKSk/OwogICAgbGV0IGN1cnJlbnRfb2JqZWN0ID0gY3VycmVudAogICAgICAgIC5hc19vYmplY3QoKQogICAgICAgIC5jbG9uZWQoKQogICAgICAgIC5va19vcl9iYWQobm90aWZpY2F0aW9uX3NlcnZpY2VfdGV4dCgKICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgICJpbnZhbGlkUnVsZVJlY29yZCIsCiAgICAgICAgICAgICZbXSwKICAgICAgICApKT87CiAgICBsZXQgZXZlbnRfdHlwZSA9IHRyaW1tZWRfc3RyaW5nKGJvZHkuZ2V0KCJldmVudF90eXBlIikpLnVud3JhcF9vcl9lbHNlKHx8IHsKICAgICAgICBjdXJyZW50CiAgICAgICAgICAgIC5nZXQoImV2ZW50X3R5cGUiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICAgICAgLnRvX3N0cmluZygpCiAgICB9KTsKICAgIGlmICFTWVNURU1fRVZFTlRfVFlQRVMuY29udGFpbnMoJmV2ZW50X3R5cGUuYXNfc3RyKCkpIHsKICAgICAgICByZXR1cm4gRXJyKE5vdGlmeUVycm9yOjpCYWRSZXF1ZXN0KG5vdGlmaWNhdGlvbl9zZXJ2aWNlX3RleHQoCiAgICAgICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICAgICAidW5zdXBwb3J0ZWRFdmVudFR5cGUiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSkpOwogICAgfQogICAgbGV0IGdyb3VwX2J5ID0gdHJpbW1lZF9zdHJpbmcoYm9keS5nZXQoImdyb3VwX2J5IikpLnVud3JhcF9vcl9lbHNlKHx8IHsKICAgICAgICBjdXJyZW50CiAgICAgICAgICAgIC5nZXQoImdyb3VwX2J5IikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgIC51bndyYXBfb3IoIkdMT0JBTCIpCiAgICAgICAgICAgIC50b19zdHJpbmcoKQogICAgfSk7CiAgICBpZiAhR1JPVVBfQllfVkFMVUVTLmNvbnRhaW5zKCZncm91cF9ieS5hc19zdHIoKSkgewogICAgICAgIHJldHVybiBFcnIoTm90aWZ5RXJyb3I6OkJhZFJlcXVlc3Qobm90aWZpY2F0aW9uX3NlcnZpY2VfdGV4dCgKICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgICJpbnZhbGlkR3JvdXBCeSIsCiAgICAgICAgICAgICZbXSwKICAgICAgICApKSk7CiAgICB9CiAgICBsZXQgbWVzc2FnZV90ZW1wbGF0ZV9tb2RlID0KICAgICAgICB0cmltbWVkX3N0cmluZyhib2R5LmdldCgibWVzc2FnZV90ZW1wbGF0ZV9tb2RlIikpLnVud3JhcF9vcl9lbHNlKHx8IHsKICAgICAgICAgICAgY3VycmVudAogICAgICAgICAgICAgICAgLmdldCgibWVzc2FnZV90ZW1wbGF0ZV9tb2RlIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcigiZGVmYXVsdCIpCiAgICAgICAgICAgICAgICAudG9fc3RyaW5nKCkKICAgICAgICB9KTsKICAgIGlmICFNRVNTQUdFX1RFTVBMQVRFX01PREVTLmNvbnRhaW5zKCZtZXNzYWdlX3RlbXBsYXRlX21vZGUuYXNfc3RyKCkpIHsKICAgICAgICByZXR1cm4gRXJyKE5vdGlmeUVycm9yOjpCYWRSZXF1ZXN0KG5vdGlmaWNhdGlvbl9zZXJ2aWNlX3RleHQoCiAgICAgICAgICAgICZ0cmFuc2xhdG9yLAogICAgICAgICAgICAiaW52YWxpZE1lc3NhZ2VUZW1wbGF0ZU1vZGUiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSkpOwogICAgfQogICAgbGV0IGV2ZW50X2xldmVsX2ZpbHRlciA9IGlmIGJvZHkuZ2V0KCJldmVudF9sZXZlbF9maWx0ZXIiKS5pc19zb21lKCkgewogICAgICAgIHVuaXF1ZV9zdHJpbmdfYXJyYXkoYm9keS5nZXQoImV2ZW50X2xldmVsX2ZpbHRlciIpKQogICAgfSBlbHNlIHsKICAgICAgICB1bmlxdWVfc3RyaW5nX2FycmF5KGN1cnJlbnQuZ2V0KCJldmVudF9sZXZlbF9maWx0ZXIiKSkKICAgIH07CiAgICBpZiAhZXZlbnRfbGV2ZWxfZmlsdGVyCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5hbGwofHZhbHVlfCBTWVNURU1fRVZFTlRfTEVWRUxTLmNvbnRhaW5zKCZ2YWx1ZS5hc19zdHIoKSkpCiAgICB7CiAgICAgICAgcmV0dXJuIEVycihOb3RpZnlFcnJvcjo6QmFkUmVxdWVzdChub3RpZmljYXRpb25fc2VydmljZV90ZXh0KAogICAgICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAgICAgImludmFsaWRFdmVudExldmVsRmlsdGVyIiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpKTsKICAgIH0KICAgIGxldCBldmVudF9zb3VyY2VfZmlsdGVyID0gaWYgYm9keS5nZXQoImV2ZW50X3NvdXJjZV9maWx0ZXIiKS5pc19zb21lKCkgewogICAgICAgIHVuaXF1ZV9zdHJpbmdfYXJyYXkoYm9keS5nZXQoImV2ZW50X3NvdXJjZV9maWx0ZXIiKSkKICAgIH0gZWxzZSB7CiAgICAgICAgdW5pcXVlX3N0cmluZ19hcnJheShjdXJyZW50LmdldCgiZXZlbnRfc291cmNlX2ZpbHRlciIpKQogICAgfTsKICAgIGlmICFldmVudF9zb3VyY2VfZmlsdGVyCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5hbGwofHZhbHVlfCBTWVNURU1fRVZFTlRfU09VUkNFUy5jb250YWlucygmdmFsdWUuYXNfc3RyKCkpKQogICAgewogICAgICAgIHJldHVybiBFcnIoTm90aWZ5RXJyb3I6OkJhZFJlcXVlc3Qobm90aWZpY2F0aW9uX3NlcnZpY2VfdGV4dCgKICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgICJpbnZhbGlkRXZlbnRTb3VyY2VGaWx0ZXIiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSkpOwogICAgfQogICAgbGV0IGN1cnJlbnRfdGFyZ2V0cyA9IGN1cnJlbnQKICAgICAgICAuZ2V0KCJ0YXJnZXRzIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5jbG9uZWQoKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgbGV0IHRhcmdldHMgPSBpZiBib2R5LmdldCgidGFyZ2V0cyIpLmlzX3NvbWUoKSB7CiAgICAgICAgbm9ybWFsaXplX3J1bGVfdGFyZ2V0cyhzdGF0ZSwgYm9keS5nZXQoInRhcmdldHMiKSwgJmN1cnJlbnRfdGFyZ2V0cywgJnRyYW5zbGF0b3IpLmF3YWl0PwogICAgfSBlbHNlIHsKICAgICAgICBjdXJyZW50X3RhcmdldHMKICAgIH07CiAgICBpZiB0YXJnZXRzLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBFcnIoTm90aWZ5RXJyb3I6OkJhZFJlcXVlc3Qobm90aWZpY2F0aW9uX3NlcnZpY2VfdGV4dCgKICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgICJ0YXJnZXRSZXF1aXJlZCIsCiAgICAgICAgICAgICZbXSwKICAgICAgICApKSk7CiAgICB9CiAgICBpZiBldmVudF90eXBlCiAgICAgICAgIT0gY3VycmVudAogICAgICAgICAgICAuZ2V0KCJldmVudF90eXBlIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCiAgICAgICAgJiYgbG9hZF9ydWxlcyhzdGF0ZSkuYXdhaXQ/Lml0ZXIoKS5hbnkofHJ1bGV8IHsKICAgICAgICAgICAgcnVsZS5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgIT0gU29tZShpZCkKICAgICAgICAgICAgICAgICYmIHJ1bGUuZ2V0KCJldmVudF90eXBlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSgmZXZlbnRfdHlwZSkKICAgICAgICB9KQogICAgewogICAgICAgIHJldHVybiBFcnIoTm90aWZ5RXJyb3I6OkJhZFJlcXVlc3Qobm90aWZpY2F0aW9uX3NlcnZpY2VfdGV4dCgKICAgICAgICAgICAgJnRyYW5zbGF0b3IsCiAgICAgICAgICAgICJkdXBsaWNhdGVFdmVudFJ1bGUiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSkpOwogICAgfQoKICAgIGxldCBtdXQgdXBkYXRlZCA9IGN1cnJlbnRfb2JqZWN0OwogICAgdXBkYXRlZC5pbnNlcnQoCiAgICAgICAgIm5hbWUiLnRvX3N0cmluZygpLAogICAgICAgIFZhbHVlOjpTdHJpbmcoYnVpbGRfbm90aWZpY2F0aW9uX3J1bGVfbmFtZSgmZXZlbnRfdHlwZSwgJnRyYW5zbGF0b3IpKSwKICAgICk7CiAgICBpZiBsZXQgU29tZShlbmFibGVkKSA9IGJvZHkuZ2V0KCJlbmFibGVkIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpIHsKICAgICAgICB1cGRhdGVkLmluc2VydCgiZW5hYmxlZCIudG9fc3RyaW5nKCksIFZhbHVlOjpCb29sKGVuYWJsZWQpKTsKICAgIH0KICAgIHVwZGF0ZWQuaW5zZXJ0KCJldmVudF90eXBlIi50b19zdHJpbmcoKSwgVmFsdWU6OlN0cmluZyhldmVudF90eXBlKSk7CiAgICBpZiBldmVudF9sZXZlbF9maWx0ZXIuaXNfZW1wdHkoKSB7CiAgICAgICAgdXBkYXRlZC5yZW1vdmUoImV2ZW50X2xldmVsX2ZpbHRlciIpOwogICAgfSBlbHNlIHsKICAgICAgICB1cGRhdGVkLmluc2VydCgiZXZlbnRfbGV2ZWxfZmlsdGVyIi50b19zdHJpbmcoKSwganNvbiEoZXZlbnRfbGV2ZWxfZmlsdGVyKSk7CiAgICB9CiAgICBpZiBldmVudF9zb3VyY2VfZmlsdGVyLmlzX2VtcHR5KCkgewogICAgICAgIHVwZGF0ZWQucmVtb3ZlKCJldmVudF9zb3VyY2VfZmlsdGVyIik7CiAgICB9IGVsc2UgewogICAgICAgIHVwZGF0ZWQuaW5zZXJ0KAogICAgICAgICAgICAiZXZlbnRfc291cmNlX2ZpbHRlciIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGpzb24hKGV2ZW50X3NvdXJjZV9maWx0ZXIpLAogICAgICAgICk7CiAgICB9CiAgICBpZiBib2R5LmdldCgid2luZG93X3NlY29uZHMiKS5pc19zb21lKCkgewogICAgICAgIHVwZGF0ZWQuaW5zZXJ0KAogICAgICAgICAgICAid2luZG93X3NlY29uZHMiLnRvX3N0cmluZygpLAogICAgICAgICAgICBqc29uIShudW1iZXJfZmllbGQoCiAgICAgICAgICAgICAgICAmYm9keSwKICAgICAgICAgICAgICAgICJ3aW5kb3dfc2Vjb25kcyIsCiAgICAgICAgICAgICAgICBjdXJyZW50CiAgICAgICAgICAgICAgICAgICAgLmdldCgid2luZG93X3NlY29uZHMiKQogICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KQogICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3IoNjApLAogICAgICAgICAgICAgICAgMSwKICAgICAgICAgICAgICAgIDg2NDAwCiAgICAgICAgICAgICkpLAogICAgICAgICk7CiAgICB9CiAgICBpZiBib2R5LmdldCgidGhyZXNob2xkX2NvdW50IikuaXNfc29tZSgpIHsKICAgICAgICB1cGRhdGVkLmluc2VydCgKICAgICAgICAgICAgInRocmVzaG9sZF9jb3VudCIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGpzb24hKG51bWJlcl9maWVsZCgKICAgICAgICAgICAgICAgICZib2R5LAogICAgICAgICAgICAgICAgInRocmVzaG9sZF9jb3VudCIsCiAgICAgICAgICAgICAgICBjdXJyZW50CiAgICAgICAgICAgICAgICAgICAgLmdldCgidGhyZXNob2xkX2NvdW50IikKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkKICAgICAgICAgICAgICAgICAgICAudW53cmFwX29yKDEpLAogICAgICAgICAgICAgICAgMSwKICAgICAgICAgICAgICAgIDk5OTkKICAgICAgICAgICAgKSksCiAgICAgICAgKTsKICAgIH0KICAgIHVwZGF0ZWQuaW5zZXJ0KCJncm91cF9ieSIudG9fc3RyaW5nKCksIFZhbHVlOjpTdHJpbmcoZ3JvdXBfYnkpKTsKICAgIGlmIGJvZHkuZ2V0KCJjb29sZG93bl9zZWNvbmRzIikuaXNfc29tZSgpIHsKICAgICAgICB1cGRhdGVkLmluc2VydCgKICAgICAgICAgICAgImNvb2xkb3duX3NlY29uZHMiLnRvX3N0cmluZygpLAogICAgICAgICAgICBqc29uIShudW1iZXJfZmllbGQoCiAgICAgICAgICAgICAgICAmYm9keSwKICAgICAgICAgICAgICAgICJjb29sZG93bl9zZWNvbmRzIiwKICAgICAgICAgICAgICAgIGN1cnJlbnQKICAgICAgICAgICAgICAgICAgICAuZ2V0KCJjb29sZG93bl9zZWNvbmRzIikKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkKICAgICAgICAgICAgICAgICAgICAudW53cmFwX29yKDYwKSwKICAgICAgICAgICAgICAgIDAsCiAgICAgICAgICAgICAgICA4NjQwMAogICAgICAgICAgICApKSwKICAgICAgICApOwogICAgfQogICAgdXBkYXRlZC5pbnNlcnQoInRhcmdldHMiLnRvX3N0cmluZygpLCBWYWx1ZTo6QXJyYXkodGFyZ2V0cykpOwogICAgdXBkYXRlZC5pbnNlcnQoCiAgICAgICAgIm1lc3NhZ2VfdGVtcGxhdGVfbW9kZSIudG9fc3RyaW5nKCksCiAgICAgICAgVmFsdWU6OlN0cmluZyhtZXNzYWdlX3RlbXBsYXRlX21vZGUpLAogICAgKTsKICAgIGlmIGxldCBTb21lKG1lc3NhZ2VfdGVtcGxhdGUpID0gYm9keS5nZXQoIm1lc3NhZ2VfdGVtcGxhdGUiKSB7CiAgICAgICAgdXBkYXRlZC5pbnNlcnQoIm1lc3NhZ2VfdGVtcGxhdGUiLnRvX3N0cmluZygpLCBtZXNzYWdlX3RlbXBsYXRlLmNsb25lKCkpOwogICAgfQogICAgdXBkYXRlZC5pbnNlcnQoCiAgICAgICAgInVwZGF0ZWRfYXQiLnRvX3N0cmluZygpLAogICAgICAgIFZhbHVlOjpTdHJpbmcodGltZV91dGlsczo6bm93X2lzbygpKSwKICAgICk7CiAgICBsZXQgdXBkYXRlZCA9IFZhbHVlOjpPYmplY3QodXBkYXRlZCk7CiAgICBzYXZlX3J1bGVfcmF3KHN0YXRlLCAmdXBkYXRlZCkuYXdhaXQ/OwogICAgT2sodXBkYXRlZCkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBkZWxldGVfcnVsZV92YWx1ZShzdGF0ZTogJkFwcFN0YXRlLCBpZDogJnN0cikgLT4gTm90aWZ5UmVzdWx0PCgpPiB7CiAgICBzdGF0ZS5zdG9yYWdlLnN0b3JlLmRlbGV0ZV9ub3RpZmljYXRpb25fcnVsZShpZCkuYXdhaXQ/OwogICAgT2soKCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gbm9ybWFsaXplX3J1bGVfdGFyZ2V0cygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICByYXdfdGFyZ2V0czogT3B0aW9uPCZWYWx1ZT4sCiAgICBjdXJyZW50X3RhcmdldHM6ICZbVmFsdWVdLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gTm90aWZ5UmVzdWx0PFZlYzxWYWx1ZT4+IHsKICAgIGxldCBTb21lKHJhd190YXJnZXRzKSA9IHJhd190YXJnZXRzLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKFZlYzo6bmV3KCkpOwogICAgfTsKICAgIGxldCBwcm92aWRlcnMgPSBsb2FkX3Byb3ZpZGVycyhzdGF0ZSkuYXdhaXQ/OwogICAgbGV0IHByb3ZpZGVyX21hcCA9IHByb3ZpZGVycwogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5maWx0ZXJfbWFwKHxwcm92aWRlcnwgewogICAgICAgICAgICBwcm92aWRlcgogICAgICAgICAgICAgICAgLmdldCgiaWQiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAubWFwKHxpZHwgKGlkLnRvX3N0cmluZygpLCBwcm92aWRlci5jbG9uZSgpKSkKICAgICAgICB9KQogICAgICAgIC5jb2xsZWN0Ojo8SGFzaE1hcDxfLCBfPj4oKTsKICAgIGxldCBjdXJyZW50X21hcCA9IGN1cnJlbnRfdGFyZ2V0cwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyX21hcCh8dGFyZ2V0fCB7CiAgICAgICAgICAgIHRhcmdldAogICAgICAgICAgICAgICAgLmdldCgiaWQiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAubWFwKHxpZHwgKGlkLnRvX3N0cmluZygpLCB0YXJnZXQuY2xvbmUoKSkpCiAgICAgICAgfSkKICAgICAgICAuY29sbGVjdDo6PEhhc2hNYXA8XywgXz4+KCk7CiAgICBsZXQgbXV0IHRhcmdldHMgPSBWZWM6Om5ldygpOwogICAgZm9yIHJhd190YXJnZXQgaW4gcmF3X3RhcmdldHMgewogICAgICAgIGxldCBwcm92aWRlcl9pZCA9IHRyaW1tZWRfc3RyaW5nKHJhd190YXJnZXQuZ2V0KCJwcm92aWRlcl9pZCIpKS5va19vcl9iYWQoCiAgICAgICAgICAgIG5vdGlmaWNhdGlvbl9zZXJ2aWNlX3RleHQodHJhbnNsYXRvciwgInJ1bGVQcm92aWRlck1pc3NpbmciLCAmW10pLAogICAgICAgICk/OwogICAgICAgIGxldCBwcm92aWRlciA9IHByb3ZpZGVyX21hcAogICAgICAgICAgICAuZ2V0KCZwcm92aWRlcl9pZCkKICAgICAgICAgICAgLm9rX29yX2JhZChub3RpZmljYXRpb25fc2VydmljZV90ZXh0KAogICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJydWxlUHJvdmlkZXJNaXNzaW5nIiwKICAgICAgICAgICAgICAgICZbXSwKICAgICAgICAgICAgKSk/OwogICAgICAgIGxldCBwcm92aWRlcl90eXBlID0KICAgICAgICAgICAgcHJvdmlkZXIKICAgICAgICAgICAgICAgIC5nZXQoInR5cGUiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAub2tfb3JfYmFkKG5vdGlmaWNhdGlvbl9zZXJ2aWNlX3RleHQoCiAgICAgICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICAgICAidW5zdXBwb3J0ZWRQcm92aWRlclR5cGUiLAogICAgICAgICAgICAgICAgICAgICZbXSwKICAgICAgICAgICAgICAgICkpPzsKICAgICAgICBsZXQgZGVmaW5pdGlvbiA9IHByb3ZpZGVyX2RlZmluaXRpb24ocHJvdmlkZXJfdHlwZSkub2tfb3JfYmFkKAogICAgICAgICAgICBub3RpZmljYXRpb25fc2VydmljZV90ZXh0KHRyYW5zbGF0b3IsICJ1bnN1cHBvcnRlZFByb3ZpZGVyVHlwZSIsICZbXSksCiAgICAgICAgKT87CiAgICAgICAgbGV0IGV4aXN0aW5nID0gcmF3X3RhcmdldAogICAgICAgICAgICAuZ2V0KCJpZCIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAuYW5kX3RoZW4ofGlkfCBjdXJyZW50X21hcC5nZXQoaWQpKTsKICAgICAgICBsZXQgbXV0IHJhd19jb25maWcgPSBvYmplY3RfZmllbGQocmF3X3RhcmdldCwgInRhcmdldF9jb25maWciKTsKICAgICAgICBub3JtYWxpemVfcHJvdmlkZXJfdGFyZ2V0X2FsaWFzZXMoZGVmaW5pdGlvbi5wcm92aWRlcl90eXBlLCAmbXV0IHJhd19jb25maWcpOwogICAgICAgIGlmIHByb3ZpZGVyX3R5cGUgPT0gIndlYmhvb2siCiAgICAgICAgICAgICYmIGxldCBTb21lKGJvZHkpID0gcmF3X2NvbmZpZy5nZXQoImJvZHlfb3ZlcnJpZGUiKQogICAgICAgIHsKICAgICAgICAgICAgcGFyc2Vfd2ViaG9va19ib2R5X2NvbmZpZyhib2R5LCBXZWJob29rQm9keVNjb3BlOjpUYXJnZXQpCiAgICAgICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IE5vdGlmeUVycm9yOjpCYWRSZXF1ZXN0KGVycm9yLnRleHQodHJhbnNsYXRvcikpKT87CiAgICAgICAgfQogICAgICAgIGxldCBtdXQgdGFyZ2V0X2NvbmZpZyA9IG5vcm1hbGl6ZV9zY2hlbWFfY29uZmlnKCZyYXdfY29uZmlnLCAmZGVmaW5pdGlvbi50YXJnZXRfc2NoZW1hKT87CiAgICAgICAgbGV0IHByb3ZpZGVyX3VzZXNfbmV3X3dlYmhvb2tfaGVhZGVycyA9IHByb3ZpZGVyX3R5cGUgPT0gIndlYmhvb2siCiAgICAgICAgICAgICYmIHByb3ZpZGVyCiAgICAgICAgICAgICAgICAucG9pbnRlcigiL2Nvbm5lY3Rpb25fY29uZmlnL2N1c3RvbV9oZWFkZXJzIikKICAgICAgICAgICAgICAgIC5pc19zb21lKCk7CiAgICAgICAgaWYgcHJvdmlkZXJfdHlwZSA9PSAid2ViaG9vayIgJiYgIXByb3ZpZGVyX3VzZXNfbmV3X3dlYmhvb2tfaGVhZGVycyB7CiAgICAgICAgICAgIGxldCBsZWdhY3lfaGVhZGVycyA9IHJhd19jb25maWcuZ2V0KCJleHRyYV9oZWFkZXJzX2pzb24iKS5jbG9uZWQoKS5vcl9lbHNlKHx8IHsKICAgICAgICAgICAgICAgIGV4aXN0aW5nCiAgICAgICAgICAgICAgICAgICAgLmZpbHRlcih8dGFyZ2V0fCB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhcmdldC5nZXQoInByb3ZpZGVyX2lkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAgICAgICAgID09IFNvbWUocHJvdmlkZXJfaWQuYXNfc3RyKCkpCiAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofHRhcmdldHwgdGFyZ2V0LnBvaW50ZXIoIi90YXJnZXRfY29uZmlnL2V4dHJhX2hlYWRlcnNfanNvbiIpKQogICAgICAgICAgICAgICAgICAgIC5jbG9uZWQoKQogICAgICAgICAgICB9KTsKICAgICAgICAgICAgaWYgbGV0IFNvbWUobGVnYWN5X2hlYWRlcnMpID0gbGVnYWN5X2hlYWRlcnMgewogICAgICAgICAgICAgICAgdGFyZ2V0X2NvbmZpZy5pbnNlcnQoImV4dHJhX2hlYWRlcnNfanNvbiIudG9fc3RyaW5nKCksIGxlZ2FjeV9oZWFkZXJzKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBpZiBwcm92aWRlcl90eXBlID09ICJ3ZWJob29rIiB7CiAgICAgICAgICAgIGxldCBsZWdhY3lfZXh0cmFfYm9keSA9IHJhd19jb25maWcuZ2V0KCJleHRyYV9ib2R5X2pzb24iKS5jbG9uZWQoKS5vcl9lbHNlKHx8IHsKICAgICAgICAgICAgICAgIGV4aXN0aW5nCiAgICAgICAgICAgICAgICAgICAgLmZpbHRlcih8dGFyZ2V0fCB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhcmdldC5nZXQoInByb3ZpZGVyX2lkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAgICAgICAgID09IFNvbWUocHJvdmlkZXJfaWQuYXNfc3RyKCkpCiAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofHRhcmdldHwgdGFyZ2V0LnBvaW50ZXIoIi90YXJnZXRfY29uZmlnL2V4dHJhX2JvZHlfanNvbiIpKQogICAgICAgICAgICAgICAgICAgIC5jbG9uZWQoKQogICAgICAgICAgICB9KTsKICAgICAgICAgICAgaWYgbGV0IFNvbWUobGVnYWN5X2V4dHJhX2JvZHkpID0gbGVnYWN5X2V4dHJhX2JvZHkgewogICAgICAgICAgICAgICAgdGFyZ2V0X2NvbmZpZy5pbnNlcnQoImV4dHJhX2JvZHlfanNvbiIudG9fc3RyaW5nKCksIGxlZ2FjeV9leHRyYV9ib2R5KTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICB2YWxpZGF0ZV9yZXF1aXJlZF9maWVsZHMoJnRhcmdldF9jb25maWcsICZkZWZpbml0aW9uLnRhcmdldF9zY2hlbWEpPzsKICAgICAgICBsZXQgbW9kZSA9IHRyaW1tZWRfc3RyaW5nKHJhd190YXJnZXQuZ2V0KCJ0ZW1wbGF0ZV9vdmVycmlkZV9tb2RlIikpCiAgICAgICAgICAgIC5vcl9lbHNlKHx8IHsKICAgICAgICAgICAgICAgIGV4aXN0aW5nCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKHx0YXJnZXR8IHRhcmdldC5nZXQoInRlbXBsYXRlX292ZXJyaWRlX21vZGUiKSkKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgICAgICAgICB9KQogICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofHwgImluaGVyaXQiLnRvX3N0cmluZygpKTsKICAgICAgICBpZiAhVEVNUExBVEVfT1ZFUlJJREVfTU9ERVMuY29udGFpbnMoJm1vZGUuYXNfc3RyKCkpIHsKICAgICAgICAgICAgcmV0dXJuIEVycihOb3RpZnlFcnJvcjo6QmFkUmVxdWVzdChub3RpZmljYXRpb25fc2VydmljZV90ZXh0KAogICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJpbnZhbGlkVGVtcGxhdGVPdmVycmlkZU1vZGUiLAogICAgICAgICAgICAgICAgJltdLAogICAgICAgICAgICApKSk7CiAgICAgICAgfQogICAgICAgIGxldCBub3cgPSB0aW1lX3V0aWxzOjpub3dfaXNvKCk7CiAgICAgICAgdGFyZ2V0cy5wdXNoKGpzb24hKHsKICAgICAgICAgICAgImlkIjogcmF3X3RhcmdldC5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikubWFwKHN0cjo6dG9fc3RyaW5nKS51bndyYXBfb3JfZWxzZSh8fCBjcmVhdGVfaWQoIm50ZnRhcmdldCIpKSwKICAgICAgICAgICAgInByb3ZpZGVyX2lkIjogcHJvdmlkZXJfaWQsCiAgICAgICAgICAgICJlbmFibGVkIjogcmF3X3RhcmdldC5nZXQoImVuYWJsZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAgICAgICAgIC5vcl9lbHNlKHx8IGV4aXN0aW5nLmFuZF90aGVuKHx0YXJnZXR8IHRhcmdldC5nZXQoImVuYWJsZWQiKSkuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcih0cnVlKSwKICAgICAgICAgICAgInRhcmdldF9jb25maWciOiBWYWx1ZTo6T2JqZWN0KHRhcmdldF9jb25maWcpLAogICAgICAgICAgICAidGVtcGxhdGVfb3ZlcnJpZGVfbW9kZSI6IG1vZGUsCiAgICAgICAgICAgICJ0ZW1wbGF0ZV9vdmVycmlkZSI6IHJhd190YXJnZXQuZ2V0KCJ0ZW1wbGF0ZV9vdmVycmlkZSIpCiAgICAgICAgICAgICAgICAuY2xvbmVkKCkKICAgICAgICAgICAgICAgIC5vcl9lbHNlKHx8IGV4aXN0aW5nLmFuZF90aGVuKHx0YXJnZXR8IHRhcmdldC5nZXQoInRlbXBsYXRlX292ZXJyaWRlIikpLmNsb25lZCgpKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcihWYWx1ZTo6TnVsbCksCiAgICAgICAgICAgICJkZWxpdmVyeV9wb2xpY3kiOiByYXdfdGFyZ2V0LmdldCgiZGVsaXZlcnlfcG9saWN5IikKICAgICAgICAgICAgICAgIC5jbG9uZWQoKQogICAgICAgICAgICAgICAgLm9yX2Vsc2UofHwgZXhpc3RpbmcuYW5kX3RoZW4ofHRhcmdldHwgdGFyZ2V0LmdldCgiZGVsaXZlcnlfcG9saWN5IikpLmNsb25lZCgpKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcihWYWx1ZTo6TnVsbCksCiAgICAgICAgICAgICJjcmVhdGVkX2F0IjogZXhpc3RpbmcuYW5kX3RoZW4ofHRhcmdldHwgdGFyZ2V0LmdldCgiY3JlYXRlZF9hdCIpKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoJm5vdyksCiAgICAgICAgICAgICJ1cGRhdGVkX2F0Ijogbm93CiAgICAgICAgfSkpOwogICAgfQogICAgT2sodGFyZ2V0cykKfQo=
+use super::*;
+
+pub(super) async fn create_rule_value(state: &AppState, body: Value) -> NotifyResult<Value> {
+    let translator = Translator::from_state(state).await;
+    let event_type = trimmed_string(body.get("event_type")).ok_or_bad(
+        notification_service_text(&translator, "unsupportedEventType", &[]),
+    )?;
+    if !SYSTEM_EVENT_TYPES.contains(&event_type.as_str()) {
+        return Err(NotifyError::BadRequest(notification_service_text(
+            &translator,
+            "unsupportedEventType",
+            &[],
+        )));
+    }
+    let group_by = trimmed_string(body.get("group_by")).ok_or_bad(notification_service_text(
+        &translator,
+        "invalidGroupBy",
+        &[],
+    ))?;
+    if !GROUP_BY_VALUES.contains(&group_by.as_str()) {
+        return Err(NotifyError::BadRequest(notification_service_text(
+            &translator,
+            "invalidGroupBy",
+            &[],
+        )));
+    }
+    let message_template_mode =
+        trimmed_string(body.get("message_template_mode")).unwrap_or_else(|| "default".to_string());
+    if !MESSAGE_TEMPLATE_MODES.contains(&message_template_mode.as_str()) {
+        return Err(NotifyError::BadRequest(notification_service_text(
+            &translator,
+            "invalidMessageTemplateMode",
+            &[],
+        )));
+    }
+    let event_level_filter = unique_string_array(body.get("event_level_filter"));
+    if !event_level_filter
+        .iter()
+        .all(|value| SYSTEM_EVENT_LEVELS.contains(&value.as_str()))
+    {
+        return Err(NotifyError::BadRequest(notification_service_text(
+            &translator,
+            "invalidEventLevelFilter",
+            &[],
+        )));
+    }
+    let event_source_filter = unique_string_array(body.get("event_source_filter"));
+    if !event_source_filter
+        .iter()
+        .all(|value| SYSTEM_EVENT_SOURCES.contains(&value.as_str()))
+    {
+        return Err(NotifyError::BadRequest(notification_service_text(
+            &translator,
+            "invalidEventSourceFilter",
+            &[],
+        )));
+    }
+
+    let targets = normalize_rule_targets(state, body.get("targets"), &[], &translator).await?;
+    if targets.is_empty() {
+        return Err(NotifyError::BadRequest(notification_service_text(
+            &translator,
+            "targetRequired",
+            &[],
+        )));
+    }
+    let existing_rules = load_rules(state).await?;
+    if existing_rules
+        .iter()
+        .any(|rule| rule.get("event_type").and_then(Value::as_str) == Some(&event_type))
+    {
+        return Err(NotifyError::BadRequest(notification_service_text(
+            &translator,
+            "duplicateEventRule",
+            &[],
+        )));
+    }
+
+    let now = time_utils::now_iso();
+    let mut rule = Map::new();
+    rule.insert("id".to_string(), Value::String(create_id("ntfrule")));
+    rule.insert(
+        "name".to_string(),
+        Value::String(build_notification_rule_name(&event_type, &translator)),
+    );
+    rule.insert(
+        "enabled".to_string(),
+        Value::Bool(bool_field(&body, "enabled", true)),
+    );
+    rule.insert("event_type".to_string(), Value::String(event_type));
+    if !event_level_filter.is_empty() {
+        rule.insert("event_level_filter".to_string(), json!(event_level_filter));
+    }
+    if !event_source_filter.is_empty() {
+        rule.insert(
+            "event_source_filter".to_string(),
+            json!(event_source_filter),
+        );
+    }
+    rule.insert(
+        "window_seconds".to_string(),
+        json!(number_field(&body, "window_seconds", 60, 1, 86400)),
+    );
+    rule.insert(
+        "threshold_count".to_string(),
+        json!(number_field(&body, "threshold_count", 1, 1, 9999)),
+    );
+    rule.insert("group_by".to_string(), Value::String(group_by));
+    rule.insert(
+        "cooldown_seconds".to_string(),
+        json!(number_field(&body, "cooldown_seconds", 60, 0, 86400)),
+    );
+    rule.insert("targets".to_string(), Value::Array(targets));
+    rule.insert(
+        "message_template_mode".to_string(),
+        Value::String(message_template_mode),
+    );
+    rule.insert(
+        "message_template".to_string(),
+        body.get("message_template").cloned().unwrap_or(Value::Null),
+    );
+    rule.insert("created_at".to_string(), Value::String(now.clone()));
+    rule.insert("updated_at".to_string(), Value::String(now));
+    rule.insert("last_triggered_at".to_string(), Value::Null);
+    let rule = Value::Object(rule);
+    save_rule_raw(state, &rule).await?;
+    Ok(rule)
+}
+
+pub(super) async fn update_rule_value(
+    state: &AppState,
+    id: &str,
+    body: Value,
+) -> NotifyResult<Value> {
+    let translator = Translator::from_state(state).await;
+    let current = load_rule(state, id)
+        .await?
+        .ok_or_bad(notification_service_text(&translator, "ruleNotFound", &[]))?;
+    let current_object = current
+        .as_object()
+        .cloned()
+        .ok_or_bad(notification_service_text(
+            &translator,
+            "invalidRuleRecord",
+            &[],
+        ))?;
+    let event_type = trimmed_string(body.get("event_type")).unwrap_or_else(|| {
+        current
+            .get("event_type")
+            .and_then(Value::as_str)
+            .unwrap_or_default()
+            .to_string()
+    });
+    if !SYSTEM_EVENT_TYPES.contains(&event_type.as_str()) {
+        return Err(NotifyError::BadRequest(notification_service_text(
+            &translator,
+            "unsupportedEventType",
+            &[],
+        )));
+    }
+    let group_by = trimmed_string(body.get("group_by")).unwrap_or_else(|| {
+        current
+            .get("group_by")
+            .and_then(Value::as_str)
+            .unwrap_or("GLOBAL")
+            .to_string()
+    });
+    if !GROUP_BY_VALUES.contains(&group_by.as_str()) {
+        return Err(NotifyError::BadRequest(notification_service_text(
+            &translator,
+            "invalidGroupBy",
+            &[],
+        )));
+    }
+    let message_template_mode =
+        trimmed_string(body.get("message_template_mode")).unwrap_or_else(|| {
+            current
+                .get("message_template_mode")
+                .and_then(Value::as_str)
+                .unwrap_or("default")
+                .to_string()
+        });
+    if !MESSAGE_TEMPLATE_MODES.contains(&message_template_mode.as_str()) {
+        return Err(NotifyError::BadRequest(notification_service_text(
+            &translator,
+            "invalidMessageTemplateMode",
+            &[],
+        )));
+    }
+    let event_level_filter = if body.get("event_level_filter").is_some() {
+        unique_string_array(body.get("event_level_filter"))
+    } else {
+        unique_string_array(current.get("event_level_filter"))
+    };
+    if !event_level_filter
+        .iter()
+        .all(|value| SYSTEM_EVENT_LEVELS.contains(&value.as_str()))
+    {
+        return Err(NotifyError::BadRequest(notification_service_text(
+            &translator,
+            "invalidEventLevelFilter",
+            &[],
+        )));
+    }
+    let event_source_filter = if body.get("event_source_filter").is_some() {
+        unique_string_array(body.get("event_source_filter"))
+    } else {
+        unique_string_array(current.get("event_source_filter"))
+    };
+    if !event_source_filter
+        .iter()
+        .all(|value| SYSTEM_EVENT_SOURCES.contains(&value.as_str()))
+    {
+        return Err(NotifyError::BadRequest(notification_service_text(
+            &translator,
+            "invalidEventSourceFilter",
+            &[],
+        )));
+    }
+    let current_targets = current
+        .get("targets")
+        .and_then(Value::as_array)
+        .cloned()
+        .unwrap_or_default();
+    let targets = if body.get("targets").is_some() {
+        normalize_rule_targets(state, body.get("targets"), &current_targets, &translator).await?
+    } else {
+        current_targets
+    };
+    if targets.is_empty() {
+        return Err(NotifyError::BadRequest(notification_service_text(
+            &translator,
+            "targetRequired",
+            &[],
+        )));
+    }
+    if event_type
+        != current
+            .get("event_type")
+            .and_then(Value::as_str)
+            .unwrap_or_default()
+        && load_rules(state).await?.iter().any(|rule| {
+            rule.get("id").and_then(Value::as_str) != Some(id)
+                && rule.get("event_type").and_then(Value::as_str) == Some(&event_type)
+        })
+    {
+        return Err(NotifyError::BadRequest(notification_service_text(
+            &translator,
+            "duplicateEventRule",
+            &[],
+        )));
+    }
+
+    let mut updated = current_object;
+    updated.insert(
+        "name".to_string(),
+        Value::String(build_notification_rule_name(&event_type, &translator)),
+    );
+    if let Some(enabled) = body.get("enabled").and_then(Value::as_bool) {
+        updated.insert("enabled".to_string(), Value::Bool(enabled));
+    }
+    updated.insert("event_type".to_string(), Value::String(event_type));
+    if event_level_filter.is_empty() {
+        updated.remove("event_level_filter");
+    } else {
+        updated.insert("event_level_filter".to_string(), json!(event_level_filter));
+    }
+    if event_source_filter.is_empty() {
+        updated.remove("event_source_filter");
+    } else {
+        updated.insert(
+            "event_source_filter".to_string(),
+            json!(event_source_filter),
+        );
+    }
+    if body.get("window_seconds").is_some() {
+        updated.insert(
+            "window_seconds".to_string(),
+            json!(number_field(
+                &body,
+                "window_seconds",
+                current
+                    .get("window_seconds")
+                    .and_then(Value::as_i64)
+                    .unwrap_or(60),
+                1,
+                86400
+            )),
+        );
+    }
+    if body.get("threshold_count").is_some() {
+        updated.insert(
+            "threshold_count".to_string(),
+            json!(number_field(
+                &body,
+                "threshold_count",
+                current
+                    .get("threshold_count")
+                    .and_then(Value::as_i64)
+                    .unwrap_or(1),
+                1,
+                9999
+            )),
+        );
+    }
+    updated.insert("group_by".to_string(), Value::String(group_by));
+    if body.get("cooldown_seconds").is_some() {
+        updated.insert(
+            "cooldown_seconds".to_string(),
+            json!(number_field(
+                &body,
+                "cooldown_seconds",
+                current
+                    .get("cooldown_seconds")
+                    .and_then(Value::as_i64)
+                    .unwrap_or(60),
+                0,
+                86400
+            )),
+        );
+    }
+    updated.insert("targets".to_string(), Value::Array(targets));
+    updated.insert(
+        "message_template_mode".to_string(),
+        Value::String(message_template_mode),
+    );
+    if let Some(message_template) = body.get("message_template") {
+        updated.insert("message_template".to_string(), message_template.clone());
+    }
+    updated.insert(
+        "updated_at".to_string(),
+        Value::String(time_utils::now_iso()),
+    );
+    let updated = Value::Object(updated);
+    save_rule_raw(state, &updated).await?;
+    Ok(updated)
+}
+
+pub(super) async fn delete_rule_value(state: &AppState, id: &str) -> NotifyResult<()> {
+    state.storage.store.delete_notification_rule(id).await?;
+    Ok(())
+}
+
+pub(super) async fn normalize_rule_targets(
+    state: &AppState,
+    raw_targets: Option<&Value>,
+    current_targets: &[Value],
+    translator: &Translator,
+) -> NotifyResult<Vec<Value>> {
+    let Some(raw_targets) = raw_targets.and_then(Value::as_array) else {
+        return Ok(Vec::new());
+    };
+    let providers = load_providers(state).await?;
+    let provider_map = providers
+        .into_iter()
+        .filter_map(|provider| {
+            provider
+                .get("id")
+                .and_then(Value::as_str)
+                .map(|id| (id.to_string(), provider.clone()))
+        })
+        .collect::<HashMap<_, _>>();
+    let current_map = current_targets
+        .iter()
+        .filter_map(|target| {
+            target
+                .get("id")
+                .and_then(Value::as_str)
+                .map(|id| (id.to_string(), target.clone()))
+        })
+        .collect::<HashMap<_, _>>();
+    let mut targets = Vec::new();
+    for raw_target in raw_targets {
+        let provider_id = trimmed_string(raw_target.get("provider_id")).ok_or_bad(
+            notification_service_text(translator, "ruleProviderMissing", &[]),
+        )?;
+        let provider = provider_map
+            .get(&provider_id)
+            .ok_or_bad(notification_service_text(
+                translator,
+                "ruleProviderMissing",
+                &[],
+            ))?;
+        let provider_type =
+            provider
+                .get("type")
+                .and_then(Value::as_str)
+                .ok_or_bad(notification_service_text(
+                    translator,
+                    "unsupportedProviderType",
+                    &[],
+                ))?;
+        let definition = provider_definition(provider_type).ok_or_bad(
+            notification_service_text(translator, "unsupportedProviderType", &[]),
+        )?;
+        let existing = raw_target
+            .get("id")
+            .and_then(Value::as_str)
+            .and_then(|id| current_map.get(id));
+        let mut raw_config = object_field(raw_target, "target_config");
+        normalize_provider_target_aliases(definition.provider_type, &mut raw_config);
+        if provider_type == "webhook"
+            && let Some(body) = raw_config.get("body_override")
+        {
+            parse_webhook_body_config(body, WebhookBodyScope::Target)
+                .map_err(|error| NotifyError::BadRequest(error.text(translator)))?;
+        }
+        let mut target_config = normalize_schema_config(&raw_config, &definition.target_schema)?;
+        let provider_uses_new_webhook_headers = provider_type == "webhook"
+            && provider
+                .pointer("/connection_config/custom_headers")
+                .is_some();
+        if provider_type == "webhook" && !provider_uses_new_webhook_headers {
+            let legacy_headers = raw_config.get("extra_headers_json").cloned().or_else(|| {
+                existing
+                    .filter(|target| {
+                        target.get("provider_id").and_then(Value::as_str)
+                            == Some(provider_id.as_str())
+                    })
+                    .and_then(|target| target.pointer("/target_config/extra_headers_json"))
+                    .cloned()
+            });
+            if let Some(legacy_headers) = legacy_headers {
+                target_config.insert("extra_headers_json".to_string(), legacy_headers);
+            }
+        }
+        if provider_type == "webhook" {
+            let legacy_extra_body = raw_config.get("extra_body_json").cloned().or_else(|| {
+                existing
+                    .filter(|target| {
+                        target.get("provider_id").and_then(Value::as_str)
+                            == Some(provider_id.as_str())
+                    })
+                    .and_then(|target| target.pointer("/target_config/extra_body_json"))
+                    .cloned()
+            });
+            if let Some(legacy_extra_body) = legacy_extra_body {
+                target_config.insert("extra_body_json".to_string(), legacy_extra_body);
+            }
+        }
+        validate_required_fields(&target_config, &definition.target_schema)?;
+        let mode = trimmed_string(raw_target.get("template_override_mode"))
+            .or_else(|| {
+                existing
+                    .and_then(|target| target.get("template_override_mode"))
+                    .and_then(Value::as_str)
+                    .map(str::to_string)
+            })
+            .unwrap_or_else(|| "inherit".to_string());
+        if !TEMPLATE_OVERRIDE_MODES.contains(&mode.as_str()) {
+            return Err(NotifyError::BadRequest(notification_service_text(
+                translator,
+                "invalidTemplateOverrideMode",
+                &[],
+            )));
+        }
+        let now = time_utils::now_iso();
+        targets.push(json!({
+            "id": raw_target.get("id").and_then(Value::as_str).map(str::to_string).unwrap_or_else(|| create_id("ntftarget")),
+            "provider_id": provider_id,
+            "enabled": raw_target.get("enabled").and_then(Value::as_bool)
+                .or_else(|| existing.and_then(|target| target.get("enabled")).and_then(Value::as_bool))
+                .unwrap_or(true),
+            "target_config": Value::Object(target_config),
+            "template_override_mode": mode,
+            "template_override": raw_target.get("template_override")
+                .cloned()
+                .or_else(|| existing.and_then(|target| target.get("template_override")).cloned())
+                .unwrap_or(Value::Null),
+            "delivery_policy": raw_target.get("delivery_policy")
+                .cloned()
+                .or_else(|| existing.and_then(|target| target.get("delivery_policy")).cloned())
+                .unwrap_or(Value::Null),
+            "created_at": existing.and_then(|target| target.get("created_at")).and_then(Value::as_str).unwrap_or(&now),
+            "updated_at": now
+        }));
+    }
+    Ok(targets)
+}

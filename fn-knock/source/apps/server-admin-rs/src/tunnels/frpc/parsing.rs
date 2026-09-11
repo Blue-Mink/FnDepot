@@ -1,1 +1,6 @@
-cHViKHN1cGVyKSBmbiBwYXJzZV9saW1pdCh2YWx1ZTogT3B0aW9uPCZzdHI+KSAtPiB1c2l6ZSB7CiAgICBsZXQgcGFyc2VkID0gdmFsdWUuYW5kX3RoZW4ocGFyc2Vfbm9kZV9wYXJzZV9pbnQpLnVud3JhcF9vcigyMDApOwogICAgcGFyc2VkLmNsYW1wKDEsIDEwMDApIGFzIHVzaXplCn0KCnB1YihzdXBlcikgdXNlIGNyYXRlOjpub2RlX2NvbXBhdDo6cGFyc2VfaTY0X3ByZWZpeF90cmltX3N0YXJ0IGFzIHBhcnNlX25vZGVfcGFyc2VfaW50Owo=
+pub(super) fn parse_limit(value: Option<&str>) -> usize {
+    let parsed = value.and_then(parse_node_parse_int).unwrap_or(200);
+    parsed.clamp(1, 1000) as usize
+}
+
+pub(super) use crate::node_compat::parse_i64_prefix_trim_start as parse_node_parse_int;

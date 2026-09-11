@@ -1,1 +1,446 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgZG93bmxvYWRCbG9iIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9kb3dubG9hZEJsb2IiOwppbXBvcnQgewogIGJ1aWxkS25vY2tCYWNrdXBGaWxlbmFtZSwKICBLTk9DS19CQUNLVVBfRVhURU5TSU9OLAogIE1BWF9LTk9DS19CQUNLVVBfQVJDSElWRV9TSVpFLAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvbWFpbnRlbmFuY2VCYWNrdXAiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IE1haW50ZW5hbmNlQVBJIH0gZnJvbSAiQC9saWIvYXBpL2NvbmZpZyI7CmltcG9ydCB7IHN1cHBvcnRzU2hhcmVkQmFja3VwRm9yUnVudGltZSB9IGZyb20gIkAvbGliL21haW50ZW5hbmNlLXJ1bnRpbWUiOwppbXBvcnQgewogIGF1dG9tYXRpY0JhY2t1cFNvdXJjZUlzQXZhaWxhYmxlLAogIGJhY2t1cFNvdXJjZU1lbnVJc1JlcXVpcmVkLAogIGJ1aWxkQXV0b21hdGljQmFja3VwU2VsZWN0aW9uU3VtbWFyeSwKfSBmcm9tICJAL2xpYi9hdXRvbWF0aWMtYmFja3VwIjsKaW1wb3J0IHR5cGUgewogIEJhY2t1cERpcmVjdG9yeUZpbGVzUGF5bG9hZCwKICBBdXRvbWF0aWNCYWNrdXBGaWxlc1BheWxvYWQsCiAgRm5Lbm9ja0JhY2t1cEltcG9ydFJlc3VsdCwKICBTaGFyZWREYXRhRmlsZUVudHJ5LAp9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgeyB1c2VDb25maWdTdG9yZSB9IGZyb20gIkAvc3RvcmUvY29uZmlnIjsKCnR5cGUgQmFja3VwU2VsZWN0aW9uU291cmNlID0gImxvY2FsIiB8ICJmbm9zIiB8ICJhdXRvbWF0aWMiOwoKY29uc3QgZGVmYXVsdEJhY2t1cEZpbGVzOiBCYWNrdXBEaXJlY3RvcnlGaWxlc1BheWxvYWQgPSB7CiAgc2hhcmVOYW1lOiAiZm4ta25vY2sgLyBiYWNrdXAiLAogIGF2YWlsYWJsZTogZmFsc2UsCiAgZmlsZXM6IFtdLAp9OwoKY29uc3QgZGVmYXVsdEF1dG9tYXRpY0JhY2t1cEZpbGVzOiBBdXRvbWF0aWNCYWNrdXBGaWxlc1BheWxvYWQgPSB7CiAgZGlyZWN0b3J5UGF0aDogIiIsCiAgYXZhaWxhYmxlOiB0cnVlLAogIGZpbGVzOiBbXSwKfTsKCmV4cG9ydCBjb25zdCB1c2VNYWludGVuYW5jZUJhY2t1cFdvcmtmbG93ID0gKCkgPT4gewogIGNvbnN0IGNvbmZpZ1N0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKICBjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKICBjb25zdCBmaWxlSW5wdXRSZWYgPSByZWY8SFRNTElucHV0RWxlbWVudCB8IG51bGw+KG51bGwpOwogIGNvbnN0IHNlbGVjdGVkTG9jYWxGaWxlID0gcmVmPEZpbGUgfCBudWxsPihudWxsKTsKICBjb25zdCBzZWxlY3RlZEZub3NGaWxlID0gcmVmPFNoYXJlZERhdGFGaWxlRW50cnkgfCBudWxsPihudWxsKTsKICBjb25zdCBzZWxlY3RlZEF1dG9tYXRpY0ZpbGUgPSByZWY8U2hhcmVkRGF0YUZpbGVFbnRyeSB8IG51bGw+KG51bGwpOwogIGNvbnN0IHNlbGVjdGVkU291cmNlID0gcmVmPEJhY2t1cFNlbGVjdGlvblNvdXJjZSB8IG51bGw+KG51bGwpOwogIGNvbnN0IGlzSW1wb3J0RGlhbG9nT3BlbiA9IHJlZihmYWxzZSk7CiAgY29uc3QgaXNCYWNrdXBQaWNrZXJPcGVuID0gcmVmKGZhbHNlKTsKICBjb25zdCBpc0F1dG9tYXRpY0JhY2t1cFBpY2tlck9wZW4gPSByZWYoZmFsc2UpOwogIGNvbnN0IGJhY2t1cEZpbGVzRXJyb3IgPSByZWYoIiIpOwogIGNvbnN0IGhhc0xvYWRlZEJhY2t1cEZpbGVzID0gcmVmKGZhbHNlKTsKICBjb25zdCBiYWNrdXBGaWxlcyA9IHJlZjxCYWNrdXBEaXJlY3RvcnlGaWxlc1BheWxvYWQ+KGRlZmF1bHRCYWNrdXBGaWxlcyk7CiAgY29uc3QgYXV0b21hdGljQmFja3VwRmlsZXNFcnJvciA9IHJlZigiIik7CiAgY29uc3QgaGFzTG9hZGVkQXV0b21hdGljQmFja3VwRmlsZXMgPSByZWYoZmFsc2UpOwogIGNvbnN0IGF1dG9tYXRpY0JhY2t1cEZpbGVzID0gcmVmPEF1dG9tYXRpY0JhY2t1cEZpbGVzUGF5bG9hZD4oCiAgICBkZWZhdWx0QXV0b21hdGljQmFja3VwRmlsZXMsCiAgKTsKCiAgY29uc3Qgc3VwcG9ydHNTaGFyZWRCYWNrdXAgPSBjb21wdXRlZCgoKSA9PgogICAgc3VwcG9ydHNTaGFyZWRCYWNrdXBGb3JSdW50aW1lKAogICAgICBjb25maWdTdG9yZS5ydW50aW1lUHJvZmlsZSwKICAgICAgY29uZmlnU3RvcmUuY2FwYWJpbGl0aWVzLAogICAgKSwKICApOwogIGNvbnN0IGxvY2FsSW1wb3J0SGludEJlZm9yZUtleSA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGlmIChjb25maWdTdG9yZS5pc0RvY2tlckRlcGxveW1lbnQpIHsKICAgICAgcmV0dXJuICJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmRvY2tlckltcG9ydEhpbnRCZWZvcmUiOwogICAgfQogICAgaWYgKGNvbmZpZ1N0b3JlLmlzT3BlbldydERlcGxveW1lbnQpIHsKICAgICAgcmV0dXJuICJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLm9wZW5XcnRJbXBvcnRIaW50QmVmb3JlIjsKICAgIH0KICAgIHJldHVybiAiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5sb2NhbEltcG9ydEhpbnRCZWZvcmUiOwogIH0pOwogIGNvbnN0IGxvY2FsSW1wb3J0SGludEFmdGVyS2V5ID0gY29tcHV0ZWQoKCkgPT4gewogICAgaWYgKGNvbmZpZ1N0b3JlLmlzRG9ja2VyRGVwbG95bWVudCkgewogICAgICByZXR1cm4gImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuZG9ja2VySW1wb3J0SGludEFmdGVyIjsKICAgIH0KICAgIGlmIChjb25maWdTdG9yZS5pc09wZW5XcnREZXBsb3ltZW50KSB7CiAgICAgIHJldHVybiAiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5vcGVuV3J0SW1wb3J0SGludEFmdGVyIjsKICAgIH0KICAgIHJldHVybiAiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5sb2NhbEltcG9ydEhpbnRBZnRlciI7CiAgfSk7CgogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc0V4cG9ydGluZywgcnVuOiBydW5FeHBvcnQgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmV4cG9ydEZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuZXhwb3J0RmFpbGVkRGVzY3JpcHRpb24iKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzSW1wb3J0aW5nLCBydW46IHJ1bkltcG9ydCB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuaW1wb3J0RmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5pbXBvcnRGYWlsZWREZXNjcmlwdGlvbiIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSwKICB9KTsKICBjb25zdCB7IGlzUGVuZGluZzogaXNMb2FkaW5nQmFja3VwRmlsZXMsIHJ1bjogcnVuTG9hZEJhY2t1cEZpbGVzIH0gPQogICAgdXNlQXN5bmNBY3Rpb24oewogICAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgICBjb25zdCBtZXNzYWdlID0gZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5sb2FkRm5vc0RpckZhaWxlZERlc2NyaXB0aW9uIiksCiAgICAgICAgKTsKICAgICAgICBiYWNrdXBGaWxlc0Vycm9yLnZhbHVlID0gbWVzc2FnZTsKICAgICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmxvYWRGbm9zRGlyRmFpbGVkIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiBtZXNzYWdlLAogICAgICAgIH0pOwogICAgICB9LAogICAgfSk7CiAgY29uc3QgewogICAgaXNQZW5kaW5nOiBpc0xvYWRpbmdBdXRvbWF0aWNCYWNrdXBGaWxlcywKICAgIHJ1bjogcnVuTG9hZEF1dG9tYXRpY0JhY2t1cEZpbGVzLAogIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgYXV0b21hdGljQmFja3VwRmlsZXNFcnJvci52YWx1ZSA9IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgZXJyb3IsCiAgICAgICAgdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5sb2FkQXV0b21hdGljRGlyRmFpbGVkRGVzY3JpcHRpb24iKSwKICAgICAgKTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IGlzQnVzeSA9IGNvbXB1dGVkKCgpID0+IGlzRXhwb3J0aW5nLnZhbHVlIHx8IGlzSW1wb3J0aW5nLnZhbHVlKTsKICBjb25zdCBoYXNTZWxlY3RlZEJhY2t1cCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGlmIChzZWxlY3RlZFNvdXJjZS52YWx1ZSA9PT0gImxvY2FsIikgewogICAgICByZXR1cm4gc2VsZWN0ZWRMb2NhbEZpbGUudmFsdWUgIT09IG51bGw7CiAgICB9CiAgICBpZiAoc2VsZWN0ZWRTb3VyY2UudmFsdWUgPT09ICJmbm9zIikgewogICAgICByZXR1cm4gc2VsZWN0ZWRGbm9zRmlsZS52YWx1ZSAhPT0gbnVsbDsKICAgIH0KICAgIGlmIChzZWxlY3RlZFNvdXJjZS52YWx1ZSA9PT0gImF1dG9tYXRpYyIpIHsKICAgICAgcmV0dXJuIHNlbGVjdGVkQXV0b21hdGljRmlsZS52YWx1ZSAhPT0gbnVsbDsKICAgIH0KICAgIHJldHVybiBmYWxzZTsKICB9KTsKICBjb25zdCBoYXNBdXRvbWF0aWNCYWNrdXBzID0gY29tcHV0ZWQoKCkgPT4KICAgIGF1dG9tYXRpY0JhY2t1cFNvdXJjZUlzQXZhaWxhYmxlKGF1dG9tYXRpY0JhY2t1cEZpbGVzLnZhbHVlLmZpbGVzLmxlbmd0aCksCiAgKTsKICBjb25zdCBoYXNNdWx0aXBsZUJhY2t1cFNvdXJjZXMgPSBjb21wdXRlZCgoKSA9PgogICAgYmFja3VwU291cmNlTWVudUlzUmVxdWlyZWQoCiAgICAgIHN1cHBvcnRzU2hhcmVkQmFja3VwLnZhbHVlLAogICAgICBhdXRvbWF0aWNCYWNrdXBGaWxlcy52YWx1ZS5maWxlcy5sZW5ndGgsCiAgICApLAogICk7CgogIGNvbnN0IGZvcm1hdEZpbGVTaXplID0gKHNpemU6IG51bWJlcikgPT4gewogICAgaWYgKCFOdW1iZXIuaXNGaW5pdGUoc2l6ZSkgfHwgc2l6ZSA8IDEwMjQpIHsKICAgICAgcmV0dXJuIGAke01hdGgubWF4KDAsIE1hdGguZmxvb3Ioc2l6ZSB8fCAwKSl9IEJgOwogICAgfQogICAgaWYgKHNpemUgPCAxMDI0ICogMTAyNCkgcmV0dXJuIGAkeyhzaXplIC8gMTAyNCkudG9GaXhlZCgxKX0gS0JgOwogICAgcmV0dXJuIGAkeyhzaXplIC8gKDEwMjQgKiAxMDI0KSkudG9GaXhlZCgyKX0gTUJgOwogIH07CgogIGNvbnN0IHNlbGVjdGVkU3VtbWFyeSA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGlmIChzZWxlY3RlZFNvdXJjZS52YWx1ZSA9PT0gImxvY2FsIiAmJiBzZWxlY3RlZExvY2FsRmlsZS52YWx1ZSkgewogICAgICByZXR1cm4gewogICAgICAgIG5hbWU6IHNlbGVjdGVkTG9jYWxGaWxlLnZhbHVlLm5hbWUsCiAgICAgICAgc2l6ZTogZm9ybWF0RmlsZVNpemUoc2VsZWN0ZWRMb2NhbEZpbGUudmFsdWUuc2l6ZSksCiAgICAgICAgc291cmNlTGFiZWw6IHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MubG9jYWxGaWxlIiksCiAgICAgICAgbG9jYXRpb246ICIiLAogICAgICB9OwogICAgfQogICAgaWYgKHNlbGVjdGVkU291cmNlLnZhbHVlID09PSAiZm5vcyIgJiYgc2VsZWN0ZWRGbm9zRmlsZS52YWx1ZSkgewogICAgICByZXR1cm4gewogICAgICAgIG5hbWU6IHNlbGVjdGVkRm5vc0ZpbGUudmFsdWUubmFtZSwKICAgICAgICBzaXplOiBmb3JtYXRGaWxlU2l6ZShzZWxlY3RlZEZub3NGaWxlLnZhbHVlLnNpemUpLAogICAgICAgIHNvdXJjZUxhYmVsOiB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmZub3NCYWNrdXAiKSwKICAgICAgICBsb2NhdGlvbjogc2VsZWN0ZWRGbm9zRmlsZS52YWx1ZS5yZWxhdGl2ZVBhdGgsCiAgICAgIH07CiAgICB9CiAgICBpZiAoc2VsZWN0ZWRTb3VyY2UudmFsdWUgPT09ICJhdXRvbWF0aWMiICYmIHNlbGVjdGVkQXV0b21hdGljRmlsZS52YWx1ZSkgewogICAgICByZXR1cm4gYnVpbGRBdXRvbWF0aWNCYWNrdXBTZWxlY3Rpb25TdW1tYXJ5KAogICAgICAgIHNlbGVjdGVkQXV0b21hdGljRmlsZS52YWx1ZSwKICAgICAgICBmb3JtYXRGaWxlU2l6ZShzZWxlY3RlZEF1dG9tYXRpY0ZpbGUudmFsdWUuc2l6ZSksCiAgICAgICAgdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5hdXRvbWF0aWNCYWNrdXAiKSwKICAgICAgKTsKICAgIH0KICAgIHJldHVybiBudWxsOwogIH0pOwoKICBjb25zdCByZXNldFNlbGVjdGVkQmFja3VwID0gKCkgPT4gewogICAgc2VsZWN0ZWRMb2NhbEZpbGUudmFsdWUgPSBudWxsOwogICAgc2VsZWN0ZWRGbm9zRmlsZS52YWx1ZSA9IG51bGw7CiAgICBzZWxlY3RlZEF1dG9tYXRpY0ZpbGUudmFsdWUgPSBudWxsOwogICAgc2VsZWN0ZWRTb3VyY2UudmFsdWUgPSBudWxsOwogICAgaWYgKGZpbGVJbnB1dFJlZi52YWx1ZSkgZmlsZUlucHV0UmVmLnZhbHVlLnZhbHVlID0gIiI7CiAgfTsKCiAgY29uc3QgdHJpZ2dlckxvY2FsRmlsZVBpY2tlciA9ICgpID0+IHsKICAgIGlmIChpc0J1c3kudmFsdWUpIHJldHVybjsKICAgIGlmIChmaWxlSW5wdXRSZWYudmFsdWUpIGZpbGVJbnB1dFJlZi52YWx1ZS52YWx1ZSA9ICIiOwogICAgZmlsZUlucHV0UmVmLnZhbHVlPy5jbGljaygpOwogIH07CgogIGNvbnN0IGhhbmRsZUZpbGVDaGFuZ2UgPSAoZXZlbnQ6IEV2ZW50KSA9PiB7CiAgICBjb25zdCBpbnB1dCA9IGV2ZW50LnRhcmdldCBhcyBIVE1MSW5wdXRFbGVtZW50IHwgbnVsbDsKICAgIGNvbnN0IGZpbGUgPSBpbnB1dD8uZmlsZXM/LlswXSA/PyBudWxsOwogICAgaWYgKCFmaWxlKSByZXR1cm47CiAgICBpZiAoIWZpbGUubmFtZS50b0xvd2VyQ2FzZSgpLmVuZHNXaXRoKEtOT0NLX0JBQ0tVUF9FWFRFTlNJT04pKSB7CiAgICAgIHJlc2V0U2VsZWN0ZWRCYWNrdXAoKTsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5pbnZhbGlkQmFja3VwRmlsZSIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IHQoCiAgICAgICAgICAiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5pbnZhbGlkQmFja3VwRmlsZURlc2NyaXB0aW9uIiwKICAgICAgICAgIHsgZXh0ZW5zaW9uOiBLTk9DS19CQUNLVVBfRVhURU5TSU9OIH0sCiAgICAgICAgKSwKICAgICAgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGlmIChmaWxlLnNpemUgPiBNQVhfS05PQ0tfQkFDS1VQX0FSQ0hJVkVfU0laRSkgewogICAgICByZXNldFNlbGVjdGVkQmFja3VwKCk7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuYmFja3VwRmlsZVRvb0xhcmdlIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogdCgKICAgICAgICAgICJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmJhY2t1cEZpbGVUb29MYXJnZURlc2NyaXB0aW9uIiwKICAgICAgICAgIHsgbWF4OiBmb3JtYXRGaWxlU2l6ZShNQVhfS05PQ0tfQkFDS1VQX0FSQ0hJVkVfU0laRSkgfSwKICAgICAgICApLAogICAgICB9KTsKICAgICAgcmV0dXJuOwogICAgfQogICAgc2VsZWN0ZWRMb2NhbEZpbGUudmFsdWUgPSBmaWxlOwogICAgc2VsZWN0ZWRGbm9zRmlsZS52YWx1ZSA9IG51bGw7CiAgICBzZWxlY3RlZEF1dG9tYXRpY0ZpbGUudmFsdWUgPSBudWxsOwogICAgc2VsZWN0ZWRTb3VyY2UudmFsdWUgPSAibG9jYWwiOwogIH07CgogIGNvbnN0IGxvYWRCYWNrdXBGaWxlcyA9IGFzeW5jIChmb3JjZSA9IGZhbHNlKSA9PiB7CiAgICBpZiAoaGFzTG9hZGVkQmFja3VwRmlsZXMudmFsdWUgJiYgIWZvcmNlKSByZXR1cm47CiAgICBiYWNrdXBGaWxlc0Vycm9yLnZhbHVlID0gIiI7CiAgICBjb25zdCBuZXh0RmlsZXMgPSBhd2FpdCBydW5Mb2FkQmFja3VwRmlsZXMoKCkgPT4KICAgICAgTWFpbnRlbmFuY2VBUEkuZ2V0QmFja3VwRGlyZWN0b3J5RmlsZXMoKSwKICAgICk7CiAgICBpZiAoIW5leHRGaWxlcykgcmV0dXJuOwogICAgYmFja3VwRmlsZXMudmFsdWUgPSBuZXh0RmlsZXM7CiAgICBoYXNMb2FkZWRCYWNrdXBGaWxlcy52YWx1ZSA9IHRydWU7CiAgfTsKCiAgY29uc3Qgb3BlbkZub3NCYWNrdXBQaWNrZXIgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoaXNCdXN5LnZhbHVlKSByZXR1cm47CiAgICBhd2FpdCBsb2FkQmFja3VwRmlsZXMoKTsKICAgIGlmICghYmFja3VwRmlsZXNFcnJvci52YWx1ZSkgaXNCYWNrdXBQaWNrZXJPcGVuLnZhbHVlID0gdHJ1ZTsKICB9OwogIGNvbnN0IHJlZnJlc2hCYWNrdXBGaWxlcyA9ICgpID0+IGxvYWRCYWNrdXBGaWxlcyh0cnVlKTsKCiAgY29uc3QgbG9hZEF1dG9tYXRpY0JhY2t1cEZpbGVzID0gYXN5bmMgKGZvcmNlID0gZmFsc2UpID0+IHsKICAgIGlmIChoYXNMb2FkZWRBdXRvbWF0aWNCYWNrdXBGaWxlcy52YWx1ZSAmJiAhZm9yY2UpIHJldHVybjsKICAgIGF1dG9tYXRpY0JhY2t1cEZpbGVzRXJyb3IudmFsdWUgPSAiIjsKICAgIGNvbnN0IG5leHRGaWxlcyA9IGF3YWl0IHJ1bkxvYWRBdXRvbWF0aWNCYWNrdXBGaWxlcygoKSA9PgogICAgICBNYWludGVuYW5jZUFQSS5nZXRBdXRvbWF0aWNCYWNrdXBGaWxlcygpLAogICAgKTsKICAgIGlmICghbmV4dEZpbGVzKSByZXR1cm47CiAgICBhdXRvbWF0aWNCYWNrdXBGaWxlcy52YWx1ZSA9IG5leHRGaWxlczsKICAgIGhhc0xvYWRlZEF1dG9tYXRpY0JhY2t1cEZpbGVzLnZhbHVlID0gdHJ1ZTsKICB9OwoKICBjb25zdCBvcGVuQXV0b21hdGljQmFja3VwUGlja2VyID0gYXN5bmMgKCkgPT4gewogICAgaWYgKGlzQnVzeS52YWx1ZSkgcmV0dXJuOwogICAgYXdhaXQgbG9hZEF1dG9tYXRpY0JhY2t1cEZpbGVzKHRydWUpOwogICAgaWYgKCFhdXRvbWF0aWNCYWNrdXBGaWxlc0Vycm9yLnZhbHVlKSB7CiAgICAgIGlzQXV0b21hdGljQmFja3VwUGlja2VyT3Blbi52YWx1ZSA9IHRydWU7CiAgICB9CiAgfTsKICBjb25zdCByZWZyZXNoQXV0b21hdGljQmFja3VwRmlsZXMgPSAoKSA9PiBsb2FkQXV0b21hdGljQmFja3VwRmlsZXModHJ1ZSk7CgogIGNvbnN0IGhhbmRsZUZub3NGaWxlU2VsZWN0ID0gKGZpbGU6IFNoYXJlZERhdGFGaWxlRW50cnkpID0+IHsKICAgIHNlbGVjdGVkRm5vc0ZpbGUudmFsdWUgPSBmaWxlOwogICAgc2VsZWN0ZWRMb2NhbEZpbGUudmFsdWUgPSBudWxsOwogICAgc2VsZWN0ZWRBdXRvbWF0aWNGaWxlLnZhbHVlID0gbnVsbDsKICAgIHNlbGVjdGVkU291cmNlLnZhbHVlID0gImZub3MiOwogICAgaXNCYWNrdXBQaWNrZXJPcGVuLnZhbHVlID0gZmFsc2U7CiAgICB0b2FzdC5zdWNjZXNzKAogICAgICB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmZub3NCYWNrdXBTZWxlY3RlZCIsIHsgbmFtZTogZmlsZS5uYW1lIH0pLAogICAgKTsKICB9OwoKICBjb25zdCBoYW5kbGVBdXRvbWF0aWNGaWxlU2VsZWN0ID0gKGZpbGU6IFNoYXJlZERhdGFGaWxlRW50cnkpID0+IHsKICAgIHNlbGVjdGVkQXV0b21hdGljRmlsZS52YWx1ZSA9IGZpbGU7CiAgICBzZWxlY3RlZEZub3NGaWxlLnZhbHVlID0gbnVsbDsKICAgIHNlbGVjdGVkTG9jYWxGaWxlLnZhbHVlID0gbnVsbDsKICAgIHNlbGVjdGVkU291cmNlLnZhbHVlID0gImF1dG9tYXRpYyI7CiAgICBpc0F1dG9tYXRpY0JhY2t1cFBpY2tlck9wZW4udmFsdWUgPSBmYWxzZTsKICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgIHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuYXV0b21hdGljQmFja3VwU2VsZWN0ZWQiLCB7CiAgICAgICAgbmFtZTogZmlsZS5uYW1lLAogICAgICB9KSwKICAgICk7CiAgfTsKCiAgY29uc3QgZXhwb3J0QmFja3VwVG9Mb2NhbCA9IGFzeW5jICgpID0+IHsKICAgIGF3YWl0IHJ1bkV4cG9ydChhc3luYyAoKSA9PiB7CiAgICAgIGRvd25sb2FkQmxvYigKICAgICAgICBhd2FpdCBNYWludGVuYW5jZUFQSS5kb3dubG9hZEJhY2t1cCgpLAogICAgICAgIGJ1aWxkS25vY2tCYWNrdXBGaWxlbmFtZSgpLAogICAgICApOwogICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuYmFja3VwRG93bmxvYWRTdGFydGVkIikpOwogICAgfSk7CiAgfTsKCiAgY29uc3QgZXhwb3J0QmFja3VwVG9Gbm9zID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuRXhwb3J0KGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgTWFpbnRlbmFuY2VBUEkuZXhwb3J0QmFja3VwVG9Gbm9zKCk7CiAgICAgIGlmIChoYXNMb2FkZWRCYWNrdXBGaWxlcy52YWx1ZSkgYXdhaXQgbG9hZEJhY2t1cEZpbGVzKHRydWUpOwogICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuYmFja3VwRXhwb3J0ZWRUb0Zub3MiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLndyaXR0ZW5Ub1BhdGgiLCB7CiAgICAgICAgICBwYXRoOiByZXN1bHQucmVsYXRpdmVQYXRoLAogICAgICAgIH0pLAogICAgICB9KTsKICAgIH0pOwogIH07CgogIGNvbnN0IG9wZW5JbXBvcnREaWFsb2cgPSAoKSA9PiB7CiAgICBpZiAoIWhhc1NlbGVjdGVkQmFja3VwLnZhbHVlKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuY2hvb3NlQmFja3VwRmlyc3QiKSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGlzSW1wb3J0RGlhbG9nT3Blbi52YWx1ZSA9IHRydWU7CiAgfTsKCiAgY29uc3QgYnVpbGRJbXBvcnREZXNjcmlwdGlvbiA9IChyZXN1bHQ6IEZuS25vY2tCYWNrdXBJbXBvcnRSZXN1bHQpID0+IHsKICAgIGlmIChyZXN1bHQud2FybmluZ3MubGVuZ3RoID09PSAwKSB7CiAgICAgIHJldHVybiB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmltcG9ydFN1Y2Nlc3NEZXNjcmlwdGlvbiIsIHsKICAgICAgICBrZXlzOiByZXN1bHQuaW1wb3J0ZWRfa2V5cywKICAgICAgICBzdGVwczogcmVzdWx0LnN5bmNlZF9zdGVwcy5sZW5ndGgsCiAgICAgIH0pOwogICAgfQogICAgY29uc3QgcHJldmlldyA9IHJlc3VsdC53YXJuaW5ncy5zbGljZSgwLCAyKS5qb2luKCLvvJsiKTsKICAgIHJldHVybiByZXN1bHQud2FybmluZ3MubGVuZ3RoID4gMgogICAgICA/IHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuaW1wb3J0V2FybmluZ3NXaXRoTW9yZSIsIHsKICAgICAgICAgIHByZXZpZXcsCiAgICAgICAgICBjb3VudDogcmVzdWx0Lndhcm5pbmdzLmxlbmd0aCAtIDIsCiAgICAgICAgfSkKICAgICAgOiBwcmV2aWV3OwogIH07CgogIGNvbnN0IHJlYWRGaWxlQXNCYXNlNjQgPSAoZmlsZTogRmlsZSk6IFByb21pc2U8c3RyaW5nPiA9PgogICAgbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgICBjb25zdCByZWFkZXIgPSBuZXcgRmlsZVJlYWRlcigpOwogICAgICByZWFkZXIub25lcnJvciA9ICgpID0+CiAgICAgICAgcmVqZWN0KAogICAgICAgICAgcmVhZGVyLmVycm9yIHx8CiAgICAgICAgICAgIG5ldyBFcnJvcih0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLnJlYWRCYWNrdXBGaWxlRmFpbGVkIikpLAogICAgICAgICk7CiAgICAgIHJlYWRlci5vbmxvYWQgPSAoKSA9PiB7CiAgICAgICAgY29uc3QgcmVzdWx0ID0gdHlwZW9mIHJlYWRlci5yZXN1bHQgPT09ICJzdHJpbmciID8gcmVhZGVyLnJlc3VsdCA6ICIiOwogICAgICAgIGNvbnN0IG1hcmtlciA9ICJiYXNlNjQsIjsKICAgICAgICBjb25zdCBtYXJrZXJJbmRleCA9IHJlc3VsdC5pbmRleE9mKG1hcmtlcik7CiAgICAgICAgaWYgKG1hcmtlckluZGV4IDwgMCkgewogICAgICAgICAgcmVqZWN0KAogICAgICAgICAgICBuZXcgRXJyb3IodCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5wYXJzZUJhY2t1cEZpbGVGYWlsZWQiKSksCiAgICAgICAgICApOwogICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICByZXNvbHZlKHJlc3VsdC5zbGljZShtYXJrZXJJbmRleCArIG1hcmtlci5sZW5ndGgpKTsKICAgICAgfTsKICAgICAgcmVhZGVyLnJlYWRBc0RhdGFVUkwoZmlsZSk7CiAgICB9KTsKCiAgY29uc3QgaW1wb3J0QmFja3VwID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuSW1wb3J0KAogICAgICBhc3luYyAoKSA9PiB7CiAgICAgICAgaWYgKHNlbGVjdGVkU291cmNlLnZhbHVlID09PSAiZm5vcyIgJiYgc2VsZWN0ZWRGbm9zRmlsZS52YWx1ZSkgewogICAgICAgICAgcmV0dXJuIE1haW50ZW5hbmNlQVBJLmltcG9ydEJhY2t1cEZyb21Gbm9zKAogICAgICAgICAgICBzZWxlY3RlZEZub3NGaWxlLnZhbHVlLnJlbGF0aXZlUGF0aCwKICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIGlmICgKICAgICAgICAgIHNlbGVjdGVkU291cmNlLnZhbHVlID09PSAiYXV0b21hdGljIiAmJgogICAgICAgICAgc2VsZWN0ZWRBdXRvbWF0aWNGaWxlLnZhbHVlCiAgICAgICAgKSB7CiAgICAgICAgICByZXR1cm4gTWFpbnRlbmFuY2VBUEkuaW1wb3J0QmFja3VwRnJvbUF1dG9tYXRpYygKICAgICAgICAgICAgc2VsZWN0ZWRBdXRvbWF0aWNGaWxlLnZhbHVlLnJlbGF0aXZlUGF0aCwKICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIGlmIChzZWxlY3RlZFNvdXJjZS52YWx1ZSA9PT0gImxvY2FsIiAmJiBzZWxlY3RlZExvY2FsRmlsZS52YWx1ZSkgewogICAgICAgICAgcmV0dXJuIE1haW50ZW5hbmNlQVBJLmltcG9ydEJhY2t1cCh7CiAgICAgICAgICAgIGZpbGVuYW1lOiBzZWxlY3RlZExvY2FsRmlsZS52YWx1ZS5uYW1lLAogICAgICAgICAgICBhcmNoaXZlX2Jhc2U2NDogYXdhaXQgcmVhZEZpbGVBc0Jhc2U2NChzZWxlY3RlZExvY2FsRmlsZS52YWx1ZSksCiAgICAgICAgICB9KTsKICAgICAgICB9CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuY2hvb3NlQmFja3VwRmlyc3QiKSk7CiAgICAgIH0sCiAgICAgIHsKICAgICAgICBvblN1Y2Nlc3M6IGFzeW5jIChyZXN1bHQpID0+IHsKICAgICAgICAgIGlzSW1wb3J0RGlhbG9nT3Blbi52YWx1ZSA9IGZhbHNlOwogICAgICAgICAgcmVzZXRTZWxlY3RlZEJhY2t1cCgpOwogICAgICAgICAgYXdhaXQgY29uZmlnU3RvcmUubG9hZENvbmZpZygpOwogICAgICAgICAgY29uc3Qgbm90aWZ5ID0KICAgICAgICAgICAgcmVzdWx0Lndhcm5pbmdzLmxlbmd0aCA+IDAgPyB0b2FzdC5pbmZvIDogdG9hc3Quc3VjY2VzczsKICAgICAgICAgIG5vdGlmeSh0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmJhY2t1cEltcG9ydGVkIiksIHsKICAgICAgICAgICAgZGVzY3JpcHRpb246IGJ1aWxkSW1wb3J0RGVzY3JpcHRpb24ocmVzdWx0KSwKICAgICAgICAgIH0pOwogICAgICAgICAgaWYgKHR5cGVvZiB3aW5kb3cgIT09ICJ1bmRlZmluZWQiKSB7CiAgICAgICAgICAgIHdpbmRvdy5zZXRUaW1lb3V0KCgpID0+IHdpbmRvdy5sb2NhdGlvbi5yZWxvYWQoKSwgMTIwMCk7CiAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgfSwKICAgICk7CiAgfTsKCiAgb25Nb3VudGVkKCgpID0+IHsKICAgIHZvaWQgbG9hZEF1dG9tYXRpY0JhY2t1cEZpbGVzKCk7CiAgfSk7CgogIHJldHVybiB7CiAgICBhdXRvbWF0aWNCYWNrdXBGaWxlcywKICAgIGF1dG9tYXRpY0JhY2t1cEZpbGVzRXJyb3IsCiAgICBiYWNrdXBGaWxlcywKICAgIGJhY2t1cEZpbGVzRXJyb3IsCiAgICBleHBvcnRCYWNrdXBUb0Zub3MsCiAgICBleHBvcnRCYWNrdXBUb0xvY2FsLAogICAgZmlsZUlucHV0UmVmLAogICAgaGFuZGxlRmlsZUNoYW5nZSwKICAgIGhhbmRsZUF1dG9tYXRpY0ZpbGVTZWxlY3QsCiAgICBoYW5kbGVGbm9zRmlsZVNlbGVjdCwKICAgIGhhc1NlbGVjdGVkQmFja3VwLAogICAgaGFzQXV0b21hdGljQmFja3VwcywKICAgIGhhc011bHRpcGxlQmFja3VwU291cmNlcywKICAgIGltcG9ydEJhY2t1cCwKICAgIGlzQmFja3VwUGlja2VyT3BlbiwKICAgIGlzQXV0b21hdGljQmFja3VwUGlja2VyT3BlbiwKICAgIGlzQnVzeSwKICAgIGlzRXhwb3J0aW5nLAogICAgaXNJbXBvcnREaWFsb2dPcGVuLAogICAgaXNJbXBvcnRpbmcsCiAgICBpc0xvYWRpbmdCYWNrdXBGaWxlcywKICAgIGlzTG9hZGluZ0F1dG9tYXRpY0JhY2t1cEZpbGVzLAogICAgbG9jYWxJbXBvcnRIaW50QWZ0ZXJLZXksCiAgICBsb2NhbEltcG9ydEhpbnRCZWZvcmVLZXksCiAgICBvcGVuRm5vc0JhY2t1cFBpY2tlciwKICAgIG9wZW5BdXRvbWF0aWNCYWNrdXBQaWNrZXIsCiAgICBvcGVuSW1wb3J0RGlhbG9nLAogICAgcmVmcmVzaEJhY2t1cEZpbGVzLAogICAgcmVmcmVzaEF1dG9tYXRpY0JhY2t1cEZpbGVzLAogICAgc2VsZWN0ZWRTdW1tYXJ5LAogICAgc3VwcG9ydHNTaGFyZWRCYWNrdXAsCiAgICB0cmlnZ2VyTG9jYWxGaWxlUGlja2VyLAogIH07Cn07Cg==
+import { computed, onMounted, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { toast } from "@admin-shared/utils/toast";
+import { downloadBlob } from "@admin-shared/utils/downloadBlob";
+import {
+  buildKnockBackupFilename,
+  KNOCK_BACKUP_EXTENSION,
+  MAX_KNOCK_BACKUP_ARCHIVE_SIZE,
+} from "@admin-shared/utils/maintenanceBackup";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { MaintenanceAPI } from "@/lib/api/config";
+import { supportsSharedBackupForRuntime } from "@/lib/maintenance-runtime";
+import {
+  automaticBackupSourceIsAvailable,
+  backupSourceMenuIsRequired,
+  buildAutomaticBackupSelectionSummary,
+} from "@/lib/automatic-backup";
+import type {
+  BackupDirectoryFilesPayload,
+  AutomaticBackupFilesPayload,
+  FnKnockBackupImportResult,
+  SharedDataFileEntry,
+} from "@/types";
+import { useConfigStore } from "@/store/config";
+
+type BackupSelectionSource = "local" | "fnos" | "automatic";
+
+const defaultBackupFiles: BackupDirectoryFilesPayload = {
+  shareName: "fn-knock / backup",
+  available: false,
+  files: [],
+};
+
+const defaultAutomaticBackupFiles: AutomaticBackupFilesPayload = {
+  directoryPath: "",
+  available: true,
+  files: [],
+};
+
+export const useMaintenanceBackupWorkflow = () => {
+  const configStore = useConfigStore();
+  const { t } = useI18n();
+  const fileInputRef = ref<HTMLInputElement | null>(null);
+  const selectedLocalFile = ref<File | null>(null);
+  const selectedFnosFile = ref<SharedDataFileEntry | null>(null);
+  const selectedAutomaticFile = ref<SharedDataFileEntry | null>(null);
+  const selectedSource = ref<BackupSelectionSource | null>(null);
+  const isImportDialogOpen = ref(false);
+  const isBackupPickerOpen = ref(false);
+  const isAutomaticBackupPickerOpen = ref(false);
+  const backupFilesError = ref("");
+  const hasLoadedBackupFiles = ref(false);
+  const backupFiles = ref<BackupDirectoryFilesPayload>(defaultBackupFiles);
+  const automaticBackupFilesError = ref("");
+  const hasLoadedAutomaticBackupFiles = ref(false);
+  const automaticBackupFiles = ref<AutomaticBackupFilesPayload>(
+    defaultAutomaticBackupFiles,
+  );
+
+  const supportsSharedBackup = computed(() =>
+    supportsSharedBackupForRuntime(
+      configStore.runtimeProfile,
+      configStore.capabilities,
+    ),
+  );
+  const localImportHintBeforeKey = computed(() => {
+    if (configStore.isDockerDeployment) {
+      return "admin.maintenanceSettings.dockerImportHintBefore";
+    }
+    if (configStore.isOpenWrtDeployment) {
+      return "admin.maintenanceSettings.openWrtImportHintBefore";
+    }
+    return "admin.maintenanceSettings.localImportHintBefore";
+  });
+  const localImportHintAfterKey = computed(() => {
+    if (configStore.isDockerDeployment) {
+      return "admin.maintenanceSettings.dockerImportHintAfter";
+    }
+    if (configStore.isOpenWrtDeployment) {
+      return "admin.maintenanceSettings.openWrtImportHintAfter";
+    }
+    return "admin.maintenanceSettings.localImportHintAfter";
+  });
+
+  const { isPending: isExporting, run: runExport } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.maintenanceSettings.exportFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.maintenanceSettings.exportFailedDescription"),
+        ),
+      });
+    },
+  });
+  const { isPending: isImporting, run: runImport } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.maintenanceSettings.importFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.maintenanceSettings.importFailedDescription"),
+        ),
+      });
+    },
+  });
+  const { isPending: isLoadingBackupFiles, run: runLoadBackupFiles } =
+    useAsyncAction({
+      onError: (error) => {
+        const message = extractErrorMessage(
+          error,
+          t("admin.maintenanceSettings.loadFnosDirFailedDescription"),
+        );
+        backupFilesError.value = message;
+        toast.error(t("admin.maintenanceSettings.loadFnosDirFailed"), {
+          description: message,
+        });
+      },
+    });
+  const {
+    isPending: isLoadingAutomaticBackupFiles,
+    run: runLoadAutomaticBackupFiles,
+  } = useAsyncAction({
+    onError: (error) => {
+      automaticBackupFilesError.value = extractErrorMessage(
+        error,
+        t("admin.maintenanceSettings.loadAutomaticDirFailedDescription"),
+      );
+    },
+  });
+
+  const isBusy = computed(() => isExporting.value || isImporting.value);
+  const hasSelectedBackup = computed(() => {
+    if (selectedSource.value === "local") {
+      return selectedLocalFile.value !== null;
+    }
+    if (selectedSource.value === "fnos") {
+      return selectedFnosFile.value !== null;
+    }
+    if (selectedSource.value === "automatic") {
+      return selectedAutomaticFile.value !== null;
+    }
+    return false;
+  });
+  const hasAutomaticBackups = computed(() =>
+    automaticBackupSourceIsAvailable(automaticBackupFiles.value.files.length),
+  );
+  const hasMultipleBackupSources = computed(() =>
+    backupSourceMenuIsRequired(
+      supportsSharedBackup.value,
+      automaticBackupFiles.value.files.length,
+    ),
+  );
+
+  const formatFileSize = (size: number) => {
+    if (!Number.isFinite(size) || size < 1024) {
+      return `${Math.max(0, Math.floor(size || 0))} B`;
+    }
+    if (size < 1024 * 1024) return `${(size / 1024).toFixed(1)} KB`;
+    return `${(size / (1024 * 1024)).toFixed(2)} MB`;
+  };
+
+  const selectedSummary = computed(() => {
+    if (selectedSource.value === "local" && selectedLocalFile.value) {
+      return {
+        name: selectedLocalFile.value.name,
+        size: formatFileSize(selectedLocalFile.value.size),
+        sourceLabel: t("admin.maintenanceSettings.localFile"),
+        location: "",
+      };
+    }
+    if (selectedSource.value === "fnos" && selectedFnosFile.value) {
+      return {
+        name: selectedFnosFile.value.name,
+        size: formatFileSize(selectedFnosFile.value.size),
+        sourceLabel: t("admin.maintenanceSettings.fnosBackup"),
+        location: selectedFnosFile.value.relativePath,
+      };
+    }
+    if (selectedSource.value === "automatic" && selectedAutomaticFile.value) {
+      return buildAutomaticBackupSelectionSummary(
+        selectedAutomaticFile.value,
+        formatFileSize(selectedAutomaticFile.value.size),
+        t("admin.maintenanceSettings.automaticBackup"),
+      );
+    }
+    return null;
+  });
+
+  const resetSelectedBackup = () => {
+    selectedLocalFile.value = null;
+    selectedFnosFile.value = null;
+    selectedAutomaticFile.value = null;
+    selectedSource.value = null;
+    if (fileInputRef.value) fileInputRef.value.value = "";
+  };
+
+  const triggerLocalFilePicker = () => {
+    if (isBusy.value) return;
+    if (fileInputRef.value) fileInputRef.value.value = "";
+    fileInputRef.value?.click();
+  };
+
+  const handleFileChange = (event: Event) => {
+    const input = event.target as HTMLInputElement | null;
+    const file = input?.files?.[0] ?? null;
+    if (!file) return;
+    if (!file.name.toLowerCase().endsWith(KNOCK_BACKUP_EXTENSION)) {
+      resetSelectedBackup();
+      toast.error(t("admin.maintenanceSettings.invalidBackupFile"), {
+        description: t(
+          "admin.maintenanceSettings.invalidBackupFileDescription",
+          { extension: KNOCK_BACKUP_EXTENSION },
+        ),
+      });
+      return;
+    }
+    if (file.size > MAX_KNOCK_BACKUP_ARCHIVE_SIZE) {
+      resetSelectedBackup();
+      toast.error(t("admin.maintenanceSettings.backupFileTooLarge"), {
+        description: t(
+          "admin.maintenanceSettings.backupFileTooLargeDescription",
+          { max: formatFileSize(MAX_KNOCK_BACKUP_ARCHIVE_SIZE) },
+        ),
+      });
+      return;
+    }
+    selectedLocalFile.value = file;
+    selectedFnosFile.value = null;
+    selectedAutomaticFile.value = null;
+    selectedSource.value = "local";
+  };
+
+  const loadBackupFiles = async (force = false) => {
+    if (hasLoadedBackupFiles.value && !force) return;
+    backupFilesError.value = "";
+    const nextFiles = await runLoadBackupFiles(() =>
+      MaintenanceAPI.getBackupDirectoryFiles(),
+    );
+    if (!nextFiles) return;
+    backupFiles.value = nextFiles;
+    hasLoadedBackupFiles.value = true;
+  };
+
+  const openFnosBackupPicker = async () => {
+    if (isBusy.value) return;
+    await loadBackupFiles();
+    if (!backupFilesError.value) isBackupPickerOpen.value = true;
+  };
+  const refreshBackupFiles = () => loadBackupFiles(true);
+
+  const loadAutomaticBackupFiles = async (force = false) => {
+    if (hasLoadedAutomaticBackupFiles.value && !force) return;
+    automaticBackupFilesError.value = "";
+    const nextFiles = await runLoadAutomaticBackupFiles(() =>
+      MaintenanceAPI.getAutomaticBackupFiles(),
+    );
+    if (!nextFiles) return;
+    automaticBackupFiles.value = nextFiles;
+    hasLoadedAutomaticBackupFiles.value = true;
+  };
+
+  const openAutomaticBackupPicker = async () => {
+    if (isBusy.value) return;
+    await loadAutomaticBackupFiles(true);
+    if (!automaticBackupFilesError.value) {
+      isAutomaticBackupPickerOpen.value = true;
+    }
+  };
+  const refreshAutomaticBackupFiles = () => loadAutomaticBackupFiles(true);
+
+  const handleFnosFileSelect = (file: SharedDataFileEntry) => {
+    selectedFnosFile.value = file;
+    selectedLocalFile.value = null;
+    selectedAutomaticFile.value = null;
+    selectedSource.value = "fnos";
+    isBackupPickerOpen.value = false;
+    toast.success(
+      t("admin.maintenanceSettings.fnosBackupSelected", { name: file.name }),
+    );
+  };
+
+  const handleAutomaticFileSelect = (file: SharedDataFileEntry) => {
+    selectedAutomaticFile.value = file;
+    selectedFnosFile.value = null;
+    selectedLocalFile.value = null;
+    selectedSource.value = "automatic";
+    isAutomaticBackupPickerOpen.value = false;
+    toast.success(
+      t("admin.maintenanceSettings.automaticBackupSelected", {
+        name: file.name,
+      }),
+    );
+  };
+
+  const exportBackupToLocal = async () => {
+    await runExport(async () => {
+      downloadBlob(
+        await MaintenanceAPI.downloadBackup(),
+        buildKnockBackupFilename(),
+      );
+      toast.success(t("admin.maintenanceSettings.backupDownloadStarted"));
+    });
+  };
+
+  const exportBackupToFnos = async () => {
+    await runExport(async () => {
+      const result = await MaintenanceAPI.exportBackupToFnos();
+      if (hasLoadedBackupFiles.value) await loadBackupFiles(true);
+      toast.success(t("admin.maintenanceSettings.backupExportedToFnos"), {
+        description: t("admin.maintenanceSettings.writtenToPath", {
+          path: result.relativePath,
+        }),
+      });
+    });
+  };
+
+  const openImportDialog = () => {
+    if (!hasSelectedBackup.value) {
+      toast.error(t("admin.maintenanceSettings.chooseBackupFirst"));
+      return;
+    }
+    isImportDialogOpen.value = true;
+  };
+
+  const buildImportDescription = (result: FnKnockBackupImportResult) => {
+    if (result.warnings.length === 0) {
+      return t("admin.maintenanceSettings.importSuccessDescription", {
+        keys: result.imported_keys,
+        steps: result.synced_steps.length,
+      });
+    }
+    const preview = result.warnings.slice(0, 2).join("；");
+    return result.warnings.length > 2
+      ? t("admin.maintenanceSettings.importWarningsWithMore", {
+          preview,
+          count: result.warnings.length - 2,
+        })
+      : preview;
+  };
+
+  const readFileAsBase64 = (file: File): Promise<string> =>
+    new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onerror = () =>
+        reject(
+          reader.error ||
+            new Error(t("admin.maintenanceSettings.readBackupFileFailed")),
+        );
+      reader.onload = () => {
+        const result = typeof reader.result === "string" ? reader.result : "";
+        const marker = "base64,";
+        const markerIndex = result.indexOf(marker);
+        if (markerIndex < 0) {
+          reject(
+            new Error(t("admin.maintenanceSettings.parseBackupFileFailed")),
+          );
+          return;
+        }
+        resolve(result.slice(markerIndex + marker.length));
+      };
+      reader.readAsDataURL(file);
+    });
+
+  const importBackup = async () => {
+    await runImport(
+      async () => {
+        if (selectedSource.value === "fnos" && selectedFnosFile.value) {
+          return MaintenanceAPI.importBackupFromFnos(
+            selectedFnosFile.value.relativePath,
+          );
+        }
+        if (
+          selectedSource.value === "automatic" &&
+          selectedAutomaticFile.value
+        ) {
+          return MaintenanceAPI.importBackupFromAutomatic(
+            selectedAutomaticFile.value.relativePath,
+          );
+        }
+        if (selectedSource.value === "local" && selectedLocalFile.value) {
+          return MaintenanceAPI.importBackup({
+            filename: selectedLocalFile.value.name,
+            archive_base64: await readFileAsBase64(selectedLocalFile.value),
+          });
+        }
+        throw new Error(t("admin.maintenanceSettings.chooseBackupFirst"));
+      },
+      {
+        onSuccess: async (result) => {
+          isImportDialogOpen.value = false;
+          resetSelectedBackup();
+          await configStore.loadConfig();
+          const notify =
+            result.warnings.length > 0 ? toast.info : toast.success;
+          notify(t("admin.maintenanceSettings.backupImported"), {
+            description: buildImportDescription(result),
+          });
+          if (typeof window !== "undefined") {
+            window.setTimeout(() => window.location.reload(), 1200);
+          }
+        },
+      },
+    );
+  };
+
+  onMounted(() => {
+    void loadAutomaticBackupFiles();
+  });
+
+  return {
+    automaticBackupFiles,
+    automaticBackupFilesError,
+    backupFiles,
+    backupFilesError,
+    exportBackupToFnos,
+    exportBackupToLocal,
+    fileInputRef,
+    handleFileChange,
+    handleAutomaticFileSelect,
+    handleFnosFileSelect,
+    hasSelectedBackup,
+    hasAutomaticBackups,
+    hasMultipleBackupSources,
+    importBackup,
+    isBackupPickerOpen,
+    isAutomaticBackupPickerOpen,
+    isBusy,
+    isExporting,
+    isImportDialogOpen,
+    isImporting,
+    isLoadingBackupFiles,
+    isLoadingAutomaticBackupFiles,
+    localImportHintAfterKey,
+    localImportHintBeforeKey,
+    openFnosBackupPicker,
+    openAutomaticBackupPicker,
+    openImportDialog,
+    refreshBackupFiles,
+    refreshAutomaticBackupFiles,
+    selectedSummary,
+    supportsSharedBackup,
+    triggerLocalFilePicker,
+  };
+};

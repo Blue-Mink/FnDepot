@@ -1,1 +1,431 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBpbXBvcnRfc3VjY2Vzc19yZXNwb25zZSgKICAgIGRhdGE6IFZhbHVlLAogICAgZnJvbV9kaXJlY3Rvcnk6IGJvb2wsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgaGFzX3dhcm5pbmdzID0gZGF0YQogICAgICAgIC5nZXQoIndhcm5pbmdzIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5pc19zb21lX2FuZCh8d2FybmluZ3N8ICF3YXJuaW5ncy5pc19lbXB0eSgpKTsKICAgIGxldCBrZXkgPSBtYXRjaCAoZnJvbV9kaXJlY3RvcnksIGhhc193YXJuaW5ncykgewogICAgICAgICh0cnVlLCB0cnVlKSA9PiAiaW1wb3J0Rm5vc1N1Y2Nlc3NXaXRoV2FybmluZ3MiLAogICAgICAgICh0cnVlLCBmYWxzZSkgPT4gImltcG9ydEZub3NTdWNjZXNzIiwKICAgICAgICAoZmFsc2UsIHRydWUpID0+ICJpbXBvcnRTdWNjZXNzV2l0aFdhcm5pbmdzIiwKICAgICAgICAoZmFsc2UsIGZhbHNlKSA9PiAiaW1wb3J0U3VjY2VzcyIsCiAgICB9OwogICAgYXh1bTo6SnNvbihqc29uISh7CiAgICAgICAgInN1Y2Nlc3MiOiB0cnVlLAogICAgICAgICJtZXNzYWdlIjogYWRtaW5fYmFja3VwX3RleHQodHJhbnNsYXRvciwga2V5KSwKICAgICAgICAiZGF0YSI6IGRhdGEKICAgIH0pKQogICAgLmludG9fcmVzcG9uc2UoKQp9CgpwdWIoc3VwZXIpIGZuIGFkbWluX2JhY2t1cF90ZXh0KHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLCBrZXk6ICZzdHIpIC0+IFN0cmluZyB7CiAgICB0cmFuc2xhdG9yLnQoJmZvcm1hdCEoInNlcnZlci5hZG1pbi5iYWNrdXAue2tleX0iKSkKfQoKcHViKHN1cGVyKSBmbiBtYWludGVuYW5jZV9iYWNrdXBfdGV4dCh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwga2V5OiAmc3RyKSAtPiBTdHJpbmcgewogICAgdHJhbnNsYXRvci50KCZmb3JtYXQhKCJzZXJ2ZXIubWFpbnRlbmFuY2VCYWNrdXAue2tleX0iKSkKfQoKcHViKHN1cGVyKSBmbiBtYWludGVuYW5jZV9jbGVhcl90ZXh0KHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLCBrZXk6ICZzdHIpIC0+IFN0cmluZyB7CiAgICB0cmFuc2xhdG9yLnQoJmZvcm1hdCEoInNlcnZlci5tYWludGVuYW5jZUNsZWFyLntrZXl9IikpCn0KCnB1YihzdXBlcikgZm4gbWFpbnRlbmFuY2VfYmFja3VwX3RleHRfcGFyYW1zKAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICBrZXk6ICZzdHIsCiAgICBwYXJhbXM6ICZbKCZzdHIsIFN0cmluZyldLAopIC0+IFN0cmluZyB7CiAgICB0cmFuc2xhdG9yLnRfcGFyYW1zKCZmb3JtYXQhKCJzZXJ2ZXIubWFpbnRlbmFuY2VCYWNrdXAue2tleX0iKSwgcGFyYW1zKQp9CgpwdWIoc3VwZXIpIGZuIGJhY2t1cF9pbXBvcnRfdmVyc2lvbl9yYW5nZSgpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7QVBQX0JBQ0tVUF9JTVBPUlRfTUlOX1ZFUlNJT059IH4ge0FQUF9MT0NBTF9WRVJTSU9OfSIpCn0KCnB1YihzdXBlcikgZm4gYmFja3VwX2Vycm9yX2tleV9tZXNzYWdlKGtleTogJnN0ciwgcGFyYW1zOiAmWygmc3RyLCBTdHJpbmcpXSkgLT4gU3RyaW5nIHsKICAgIGxldCBtdXQgcGFyYW1zX29iamVjdCA9IHNlcmRlX2pzb246Ok1hcDo6bmV3KCk7CiAgICBmb3IgKGtleSwgdmFsdWUpIGluIHBhcmFtcyB7CiAgICAgICAgcGFyYW1zX29iamVjdC5pbnNlcnQoKCprZXkpLnRvX3N0cmluZygpLCBWYWx1ZTo6U3RyaW5nKHZhbHVlLmNsb25lKCkpKTsKICAgIH0KICAgIGpzb24hKHsKICAgICAgICBNQUlOVEVOQU5DRV9CQUNLVVBfRVJST1JfTUFSS0VSOiB0cnVlLAogICAgICAgICJraW5kIjogImtleSIsCiAgICAgICAgImtleSI6IGtleSwKICAgICAgICAicGFyYW1zIjogcGFyYW1zX29iamVjdCwKICAgIH0pCiAgICAudG9fc3RyaW5nKCkKfQoKI1tjZmcodGVzdCldCnB1YihzdXBlcikgZm4gYmFja3VwX2NvbW1hbmRfZXJyb3JfbWVzc2FnZSgKICAgIG1lc3NhZ2U6IFN0cmluZywKICAgIGNvZGU6IGkzMiwKICAgIGRldGFpbDogT3B0aW9uPFN0cmluZz4sCikgLT4gU3RyaW5nIHsKICAgIGpzb24hKHsKICAgICAgICBNQUlOVEVOQU5DRV9CQUNLVVBfRVJST1JfTUFSS0VSOiB0cnVlLAogICAgICAgICJraW5kIjogImNvbW1hbmRfZXJyb3IiLAogICAgICAgICJtZXNzYWdlIjogbWVzc2FnZSwKICAgICAgICAiY29kZSI6IGNvZGUsCiAgICAgICAgImRldGFpbCI6IGRldGFpbC51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgfSkKICAgIC50b19zdHJpbmcoKQp9CgpwdWIoc3VwZXIpIGZuIGxvY2FsaXplX2JhY2t1cF9lcnJvcl9tZXNzYWdlKHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLCBtZXNzYWdlOiAmc3RyKSAtPiBTdHJpbmcgewogICAgbGV0IG5vcm1hbGl6ZWQgPSBtZXNzYWdlLnRyaW0oKTsKICAgIGlmIGxldCBTb21lKGxvY2FsaXplZCkgPSBsb2NhbGl6ZV9zdHJ1Y3R1cmVkX2JhY2t1cF9lcnJvcih0cmFuc2xhdG9yLCBub3JtYWxpemVkKSB7CiAgICAgICAgcmV0dXJuIGxvY2FsaXplZDsKICAgIH0KICAgIGlmIGxldCBTb21lKGxvY2FsaXplZCkgPSBsb2NhbGl6ZV9iYWNrdXBfZW50cnlfZXJyb3IodHJhbnNsYXRvciwgbm9ybWFsaXplZCkgewogICAgICAgIHJldHVybiBsb2NhbGl6ZWQ7CiAgICB9CiAgICBtYXRjaCBub3JtYWxpemVkIHsKICAgICAgICAiQmFja3VwIG9wZXJhdGlvbiBpcyBidXN5IiA9PiBtYXRjaCB0cmFuc2xhdG9yLmxvY2FsZSgpIHsKICAgICAgICAgICAgInpoLUNOIiA9PiAi5aSH5Lu95Lu75Yqh5q2j5Zyo6L+b6KGM77yM6K+356iN5ZCO6YeN6K+VIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgInpoLVRXIiA9PiAi5YKZ5Lu95bel5L2c5q2j5Zyo6YCy6KGM77yM6KuL56iN5b6M6YeN6KmmIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgXyA9PiAiQW5vdGhlciBiYWNrdXAgb3BlcmF0aW9uIGlzIGluIHByb2dyZXNzOyByZXRyeSBzaG9ydGx5Ii50b19zdHJpbmcoKSwKICAgICAgICB9LAogICAgICAgICJCYWNrdXAgc2VydmljZSBpcyBzaHV0dGluZyBkb3duIiA9PiBtYXRjaCB0cmFuc2xhdG9yLmxvY2FsZSgpIHsKICAgICAgICAgICAgInpoLUNOIiA9PiAi5aSH5Lu95pyN5Yqh5q2j5Zyo5YWz6Zet77yM6K+356iN5ZCO6YeN6K+VIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgInpoLVRXIiA9PiAi5YKZ5Lu95pyN5YuZ5q2j5Zyo6Zec6ZaJ77yM6KuL56iN5b6M6YeN6KmmIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgXyA9PiAiVGhlIGJhY2t1cCBzZXJ2aWNlIGlzIHNodXR0aW5nIGRvd247IHJldHJ5IHNob3J0bHkiLnRvX3N0cmluZygpLAogICAgICAgIH0sCiAgICAgICAgIkJhY2t1cCBzaGFyZSBkaXJlY3RvcnkgaXMgbm90IGNvbmZpZ3VyZWQiID0+IHsKICAgICAgICAgICAgbWFpbnRlbmFuY2VfYmFja3VwX3RleHQodHJhbnNsYXRvciwgInNoYXJlRGlyZWN0b3J5TWlzc2luZyIpCiAgICAgICAgfQogICAgICAgICJBdXRvbWF0aWMgYmFja3VwIGludGVydmFsIGlzIGludmFsaWQiID0+IHsKICAgICAgICAgICAgbWFpbnRlbmFuY2VfYmFja3VwX3RleHQodHJhbnNsYXRvciwgImF1dG9tYXRpY0ludGVydmFsSW52YWxpZCIpCiAgICAgICAgfQogICAgICAgICJBdXRvbWF0aWMgYmFja3VwIHJldGVudGlvbiBpcyBpbnZhbGlkIiA9PiB7CiAgICAgICAgICAgIG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0KHRyYW5zbGF0b3IsICJhdXRvbWF0aWNSZXRlbnRpb25JbnZhbGlkIikKICAgICAgICB9CiAgICAgICAgIkludmFsaWQgYmFja3VwIHBhdGgiID0+IG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0KHRyYW5zbGF0b3IsICJpbnZhbGlkQmFja3VwUGF0aCIpLAogICAgICAgICJCYWNrdXAgZmlsZSBub3QgZm91bmQiID0+IHsKICAgICAgICAgICAgbWFpbnRlbmFuY2VfYmFja3VwX3RleHQodHJhbnNsYXRvciwgImRpcmVjdG9yeUltcG9ydEZpbGVOb3RGb3VuZCIpCiAgICAgICAgfQogICAgICAgICJCYWNrdXAgZmlsZSBjYW5ub3QgYmUgcmVhZCIgPT4gewogICAgICAgICAgICBtYWludGVuYW5jZV9iYWNrdXBfdGV4dCh0cmFuc2xhdG9yLCAiZGlyZWN0b3J5SW1wb3J0RmlsZVVucmVhZGFibGUiKQogICAgICAgIH0KICAgICAgICAiQmFja3VwIHBhdGggbXVzdCBiZSBhIGZpbGUiID0+IHsKICAgICAgICAgICAgbWFpbnRlbmFuY2VfYmFja3VwX3RleHQodHJhbnNsYXRvciwgImRpcmVjdG9yeUltcG9ydEZpbGVPbmx5IikKICAgICAgICB9CiAgICAgICAgIkJhY2t1cCBhcmNoaXZlIGNvbnRlbnQgaXMgcmVxdWlyZWQiID0+IHsKICAgICAgICAgICAgbWFpbnRlbmFuY2VfYmFja3VwX3RleHQodHJhbnNsYXRvciwgImFyY2hpdmVDb250ZW50TWlzc2luZyIpCiAgICAgICAgfQogICAgICAgICJCYWNrdXAgYXJjaGl2ZSBiYXNlNjQgaXMgaW52YWxpZCIgPT4gewogICAgICAgICAgICBtYWludGVuYW5jZV9iYWNrdXBfdGV4dCh0cmFuc2xhdG9yLCAiYXJjaGl2ZUJhc2U2NEludmFsaWQiKQogICAgICAgIH0KICAgICAgICAiQmFja3VwIGFyY2hpdmUgaXMgZW1wdHkiID0+IG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0KHRyYW5zbGF0b3IsICJhcmNoaXZlRW1wdHkiKSwKICAgICAgICAiQmFja3VwIGFyY2hpdmUgaXMgdG9vIGxhcmdlIiA9PiBtYWludGVuYW5jZV9iYWNrdXBfdGV4dCh0cmFuc2xhdG9yLCAiYXJjaGl2ZVRvb0xhcmdlIiksCiAgICAgICAgIkJhY2t1cCBleHBvcnQgaXMgdG9vIGxhcmdlIiA9PiBtYWludGVuYW5jZV9iYWNrdXBfdGV4dCh0cmFuc2xhdG9yLCAiZXhwb3J0VG9vTGFyZ2UiKSwKICAgICAgICAiQmFja3VwIGRpcmVjdG9yeSBpbXBvcnQgYXJjaGl2ZSBpcyB0b28gbGFyZ2UiID0+IHsKICAgICAgICAgICAgbWFpbnRlbmFuY2VfYmFja3VwX3RleHQodHJhbnNsYXRvciwgImRpcmVjdG9yeUltcG9ydFRvb0xhcmdlIikKICAgICAgICB9CiAgICAgICAgIkJhY2t1cCBhcmNoaXZlIHBhc3N3b3JkIGlzIGludmFsaWQiID0+IHsKICAgICAgICAgICAgbWFpbnRlbmFuY2VfYmFja3VwX3RleHQodHJhbnNsYXRvciwgImFyY2hpdmVQYXNzd29yZEludmFsaWQiKQogICAgICAgIH0KICAgICAgICAiQmFja3VwIHBheWxvYWQgaXMgbm90IHZhbGlkIFVURi04IiA9PiB7CiAgICAgICAgICAgIG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0KHRyYW5zbGF0b3IsICJwYXlsb2FkVXRmOEludmFsaWQiKQogICAgICAgIH0KICAgICAgICAiQmFja3VwIEpTT04gcGF5bG9hZCBpcyBpbnZhbGlkIiA9PiBtYWludGVuYW5jZV9iYWNrdXBfdGV4dCh0cmFuc2xhdG9yLCAianNvblBhcnNlRmFpbGVkIiksCiAgICAgICAgIkJhY2t1cCBwYXlsb2FkIG11c3QgYmUgYW4gb2JqZWN0IiA9PiB7CiAgICAgICAgICAgIG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0KHRyYW5zbGF0b3IsICJwYXlsb2FkT2JqZWN0SW52YWxpZCIpCiAgICAgICAgfQogICAgICAgICJCYWNrdXAgYXBwIHZlcnNpb24gaXMgbWlzc2luZyIgPT4gbWFpbnRlbmFuY2VfYmFja3VwX3RleHQodHJhbnNsYXRvciwgIm1pc3NpbmdBcHBWZXJzaW9uIiksCiAgICAgICAgIkJhY2t1cCBleHBvcnRlZF9hdCBpcyBtaXNzaW5nIiA9PiBtYWludGVuYW5jZV9iYWNrdXBfdGV4dCh0cmFuc2xhdG9yLCAibWlzc2luZ0V4cG9ydGVkQXQiKSwKICAgICAgICAiQmFja3VwIGVudHJpZXMgYXJlIG1pc3NpbmciID0+IG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0KHRyYW5zbGF0b3IsICJtaXNzaW5nRW50cmllcyIpLAogICAgICAgICJCYWNrdXAgY29udGFpbnMgZHVwbGljYXRlZCBSZWRpcyBrZXlzIiA9PiB7CiAgICAgICAgICAgIG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0KHRyYW5zbGF0b3IsICJkdXBsaWNhdGVSZWRpc0tleSIpCiAgICAgICAgfQogICAgICAgIF8gaWYgbm9ybWFsaXplZC5zdGFydHNfd2l0aCgiQmFja3VwIGFyY2hpdmUgZmlsZW5hbWUgbXVzdCBlbmQgd2l0aCIpID0+IHsKICAgICAgICAgICAgbWFpbnRlbmFuY2VfYmFja3VwX3RleHRfcGFyYW1zKAogICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJpbnZhbGlkQmFja3VwRXh0ZW5zaW9uIiwKICAgICAgICAgICAgICAgICZbKCJleHRlbnNpb24iLCBLTk9DS19CQUNLVVBfRVhURU5TSU9OLnRvX3N0cmluZygpKV0sCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgXyBpZiBub3JtYWxpemVkLnN0YXJ0c193aXRoKCJCYWNrdXAgYXJjaGl2ZSBmaWxlIG11c3QgZW5kIHdpdGgiKSA9PiB7CiAgICAgICAgICAgIG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0X3BhcmFtcygKICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAiZGlyZWN0b3J5SW1wb3J0RXh0ZW5zaW9uT25seSIsCiAgICAgICAgICAgICAgICAmWygiZXh0ZW5zaW9uIiwgS05PQ0tfQkFDS1VQX0VYVEVOU0lPTi50b19zdHJpbmcoKSldLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgIF8gaWYgbm9ybWFsaXplZC5zdGFydHNfd2l0aCgiQmFja3VwIGFyY2hpdmUgaXMgbWlzc2luZyAiKSA9PiB7CiAgICAgICAgICAgIG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0X3BhcmFtcygKICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAiYXJjaGl2ZU1pc3NpbmdQYXlsb2FkIiwKICAgICAgICAgICAgICAgICZbKCJmaWxlbmFtZSIsIEtOT0NLX0JBQ0tVUF9KU09OX0ZJTEVOQU1FLnRvX3N0cmluZygpKV0sCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgXyBpZiBub3JtYWxpemVkLnN0YXJ0c193aXRoKCJVbnN1cHBvcnRlZCBSZWRpcyB0eXBlIGZvciBiYWNrdXA6ICIpID0+IHsKICAgICAgICAgICAgbGV0IGRldGFpbCA9IG5vcm1hbGl6ZWQKICAgICAgICAgICAgICAgIC5zdHJpcF9wcmVmaXgoIlVuc3VwcG9ydGVkIFJlZGlzIHR5cGUgZm9yIGJhY2t1cDogIikKICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgICAgICAgICBsZXQgKGRhdGFfdHlwZSwga2V5KSA9IHBhcnNlX3R5cGVfYW5kX2tleV9kZXRhaWwoZGV0YWlsKTsKICAgICAgICAgICAgbWFpbnRlbmFuY2VfYmFja3VwX3RleHRfcGFyYW1zKAogICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJ1bnN1cHBvcnRlZFJlZGlzRXhwb3J0VHlwZSIsCiAgICAgICAgICAgICAgICAmWygidHlwZSIsIGRhdGFfdHlwZSksICgia2V5Iiwga2V5KV0sCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgXyBpZiBub3JtYWxpemVkLnN0YXJ0c193aXRoKCJVbnN1cHBvcnRlZCBiYWNrdXAgc2NoZW1hIHZlcnNpb24uIikgPT4gewogICAgICAgICAgICBtYWludGVuYW5jZV9iYWNrdXBfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgInVuc3VwcG9ydGVkU2NoZW1hVmVyc2lvbiIsCiAgICAgICAgICAgICAgICAmWygidmVyc2lvbiIsIEFQUF9CQUNLVVBfU0NIRU1BX1ZFUlNJT04udG9fc3RyaW5nKCkpXSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgICAgICBfIGlmIG5vcm1hbGl6ZWQuc3RhcnRzX3dpdGgoIlVuc3VwcG9ydGVkIGJhY2t1cCBwcmVmaXguIikgPT4gewogICAgICAgICAgICBtYWludGVuYW5jZV9iYWNrdXBfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgInVuc3VwcG9ydGVkUHJlZml4IiwKICAgICAgICAgICAgICAgICZbKCJwcmVmaXgiLCBLTk9DS19CQUNLVVBfUFJFRklYLnRvX3N0cmluZygpKV0sCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgXyBpZiBub3JtYWxpemVkLnN0YXJ0c193aXRoKCJCYWNrdXAgYXBwIHZlcnNpb24gIikKICAgICAgICAgICAgJiYgbm9ybWFsaXplZC5jb250YWlucygiIGlzIHVuc3VwcG9ydGVkLiIpID0+CiAgICAgICAgewogICAgICAgICAgICBsZXQgYXBwX3ZlcnNpb24gPSBub3JtYWxpemVkCiAgICAgICAgICAgICAgICAuc3RyaXBfcHJlZml4KCJCYWNrdXAgYXBwIHZlcnNpb24gIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbih8cmVzdHwgcmVzdC5zcGxpdF9vbmNlKCIgaXMgdW5zdXBwb3J0ZWQuIikpCiAgICAgICAgICAgICAgICAubWFwKHwodmVyc2lvbiwgXyl8IHZlcnNpb24udHJpbSgpLnRvX3N0cmluZygpKQogICAgICAgICAgICAgICAgLmZpbHRlcih8dmVyc2lvbnwgIXZlcnNpb24uaXNfZW1wdHkoKSkKICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCAidW5rbm93biIudG9fc3RyaW5nKCkpOwogICAgICAgICAgICBtYWludGVuYW5jZV9iYWNrdXBfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgImFwcFZlcnNpb25VbnN1cHBvcnRlZCIsCiAgICAgICAgICAgICAgICAmWwogICAgICAgICAgICAgICAgICAgICgiY3VycmVudFZlcnNpb24iLCBBUFBfTE9DQUxfVkVSU0lPTi50b19zdHJpbmcoKSksCiAgICAgICAgICAgICAgICAgICAgKCJyYW5nZSIsIGJhY2t1cF9pbXBvcnRfdmVyc2lvbl9yYW5nZSgpKSwKICAgICAgICAgICAgICAgICAgICAoImFwcFZlcnNpb24iLCBhcHBfdmVyc2lvbiksCiAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgIF8gaWYgbm9ybWFsaXplZC5zdGFydHNfd2l0aCgiRmFpbGVkIHRvIHJlYWQgYmFja3VwIGFyY2hpdmUiKSA9PiB7CiAgICAgICAgICAgIG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0KHRyYW5zbGF0b3IsICJyZWFkQXJjaGl2ZUZhaWxlZCIpCiAgICAgICAgfQogICAgICAgIF8gPT4gbm9ybWFsaXplZC50b19zdHJpbmcoKSwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBsb2NhbGl6ZV9zdHJ1Y3R1cmVkX2JhY2t1cF9lcnJvcigKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgbWVzc2FnZTogJnN0ciwKKSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBsZXQgcGFyc2VkOiBWYWx1ZSA9IHNlcmRlX2pzb246OmZyb21fc3RyKG1lc3NhZ2UpLm9rKCk/OwogICAgbGV0IG9iamVjdCA9IHBhcnNlZC5hc19vYmplY3QoKT87CiAgICBpZiBvYmplY3QKICAgICAgICAuZ2V0KE1BSU5URU5BTkNFX0JBQ0tVUF9FUlJPUl9NQVJLRVIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgICE9IFNvbWUodHJ1ZSkKICAgIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KCiAgICBtYXRjaCBvYmplY3QuZ2V0KCJraW5kIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgewogICAgICAgIFNvbWUoImtleSIpID0+IHsKICAgICAgICAgICAgbGV0IGtleSA9IG9iamVjdC5nZXQoImtleSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpPzsKICAgICAgICAgICAgbGV0IHBhcmFtc19vYmplY3QgPSBvYmplY3QKICAgICAgICAgICAgICAgIC5nZXQoInBhcmFtcyIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX29iamVjdCkKICAgICAgICAgICAgICAgIC5jbG9uZWQoKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICAgICAgICAgIGxldCBwYXJhbXMgPSBwYXJhbXNfb2JqZWN0CiAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAubWFwKHwoa2V5LCB2YWx1ZSl8IChrZXkuYXNfc3RyKCksIGJhY2t1cF9wYXJhbV92YWx1ZV90b19zdHJpbmcodmFsdWUpKSkKICAgICAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgICAgICAgICBTb21lKG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0X3BhcmFtcyh0cmFuc2xhdG9yLCBrZXksICZwYXJhbXMpKQogICAgICAgIH0KICAgICAgICBTb21lKCJjb21tYW5kX2Vycm9yIikgPT4gewogICAgICAgICAgICBsZXQgcmF3X21lc3NhZ2UgPSBvYmplY3QuZ2V0KCJtZXNzYWdlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKTsKICAgICAgICAgICAgbGV0IG1lc3NhZ2UgPSBpZiByYXdfbWVzc2FnZS50cmltKCkuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgICAgICBtYWludGVuYW5jZV9iYWNrdXBfdGV4dCh0cmFuc2xhdG9yLCAidW5rbm93bkVycm9yIikKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGxvY2FsaXplX2JhY2t1cF9lcnJvcl9tZXNzYWdlKHRyYW5zbGF0b3IsIHJhd19tZXNzYWdlKQogICAgICAgICAgICB9OwogICAgICAgICAgICBsZXQgY29kZSA9IG9iamVjdAogICAgICAgICAgICAgICAgLmdldCgiY29kZSIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkKICAgICAgICAgICAgICAgIC51bndyYXBfb3IoLTEpCiAgICAgICAgICAgICAgICAudG9fc3RyaW5nKCk7CiAgICAgICAgICAgIGxldCBkZXRhaWwgPSBvYmplY3QKICAgICAgICAgICAgICAgIC5nZXQoImRldGFpbCIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgIC51bndyYXBfb3IoIiIpCiAgICAgICAgICAgICAgICAudHJpbSgpCiAgICAgICAgICAgICAgICAudG9fc3RyaW5nKCk7CiAgICAgICAgICAgIGlmIGRldGFpbC5pc19lbXB0eSgpIHsKICAgICAgICAgICAgICAgIFNvbWUobWFpbnRlbmFuY2VfYmFja3VwX3RleHRfcGFyYW1zKAogICAgICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAgICAgImNvbW1hbmRFcnJvciIsCiAgICAgICAgICAgICAgICAgICAgJlsoIm1lc3NhZ2UiLCBtZXNzYWdlKSwgKCJjb2RlIiwgY29kZSldLAogICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIFNvbWUobWFpbnRlbmFuY2VfYmFja3VwX3RleHRfcGFyYW1zKAogICAgICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAgICAgImNvbW1hbmRFcnJvcldpdGhEZXRhaWwiLAogICAgICAgICAgICAgICAgICAgICZbKCJtZXNzYWdlIiwgbWVzc2FnZSksICgiY29kZSIsIGNvZGUpLCAoImRldGFpbCIsIGRldGFpbCldLAogICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBfID0+IE5vbmUsCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gYmFja3VwX3BhcmFtX3ZhbHVlX3RvX3N0cmluZyh2YWx1ZTogJlZhbHVlKSAtPiBTdHJpbmcgewogICAgbWF0Y2ggdmFsdWUgewogICAgICAgIFZhbHVlOjpTdHJpbmcodmFsdWUpID0+IHZhbHVlLmNsb25lKCksCiAgICAgICAgVmFsdWU6Ok51bWJlcih2YWx1ZSkgPT4gdmFsdWUudG9fc3RyaW5nKCksCiAgICAgICAgVmFsdWU6OkJvb2wodmFsdWUpID0+IHZhbHVlLnRvX3N0cmluZygpLAogICAgICAgIFZhbHVlOjpOdWxsID0+IFN0cmluZzo6bmV3KCksCiAgICAgICAgdmFsdWUgPT4gdmFsdWUudG9fc3RyaW5nKCksCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gbG9jYWxpemVfYmFja3VwX2VudHJ5X2Vycm9yKAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICBtZXNzYWdlOiAmc3RyLAopIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIGxldCByZXN0ID0gbWVzc2FnZS5zdHJpcF9wcmVmaXgoImVudHJpZXNbIik/OwogICAgbGV0IChpbmRleCwgc3VmZml4KSA9IHJlc3Quc3BsaXRfb25jZSgnXScpPzsKICAgIGlmIGluZGV4LmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgbGV0IHZhbHVlX2xhYmVsID0gZm9ybWF0ISgiZW50cmllc1t7aW5kZXh9XS52YWx1ZSIpOwogICAgbWF0Y2ggc3VmZml4IHsKICAgICAgICAiIG11c3QgYmUgYW4gb2JqZWN0IiA9PiB7CiAgICAgICAgICAgIHJldHVybiBTb21lKG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0X3BhcmFtcygKICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAiZW50cnlPYmplY3RSZXF1aXJlZCIsCiAgICAgICAgICAgICAgICAmWygiaW5kZXgiLCBpbmRleC50b19zdHJpbmcoKSldLAogICAgICAgICAgICApKTsKICAgICAgICB9CiAgICAgICAgIi50eXBlIGlzIHVuc3VwcG9ydGVkIiA9PiB7CiAgICAgICAgICAgIHJldHVybiBTb21lKG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0X3BhcmFtcygKICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAiZW50cnlUeXBlVW5zdXBwb3J0ZWQiLAogICAgICAgICAgICAgICAgJlsoImluZGV4IiwgaW5kZXgudG9fc3RyaW5nKCkpXSwKICAgICAgICAgICAgKSk7CiAgICAgICAgfQogICAgICAgICIudHRsX21zIGlzIGludmFsaWQiID0+IHsKICAgICAgICAgICAgcmV0dXJuIFNvbWUobWFpbnRlbmFuY2VfYmFja3VwX3RleHRfcGFyYW1zKAogICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJlbnRyeVR0bEludmFsaWQiLAogICAgICAgICAgICAgICAgJlsoImluZGV4IiwgaW5kZXgudG9fc3RyaW5nKCkpXSwKICAgICAgICAgICAgKSk7CiAgICAgICAgfQogICAgICAgICIudmFsdWUgbXVzdCBiZSBhIHN0cmluZyIgPT4gewogICAgICAgICAgICByZXR1cm4gU29tZShtYWludGVuYW5jZV9iYWNrdXBfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgImVudHJ5VmFsdWVTdHJpbmdSZXF1aXJlZCIsCiAgICAgICAgICAgICAgICAmWygiaW5kZXgiLCBpbmRleC50b19zdHJpbmcoKSldLAogICAgICAgICAgICApKTsKICAgICAgICB9CiAgICAgICAgIi52YWx1ZSBtdXN0IGJlIGFuIG9iamVjdCIgPT4gewogICAgICAgICAgICByZXR1cm4gU29tZShtYWludGVuYW5jZV9iYWNrdXBfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgIm9iamVjdFJlcXVpcmVkIiwKICAgICAgICAgICAgICAgICZbKCJsYWJlbCIsIHZhbHVlX2xhYmVsKV0sCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgICAgICAiLnZhbHVlIG11c3QgYmUgYW4gYXJyYXkiID0+IHsKICAgICAgICAgICAgcmV0dXJuIFNvbWUobWFpbnRlbmFuY2VfYmFja3VwX3RleHRfcGFyYW1zKAogICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJhcnJheVJlcXVpcmVkIiwKICAgICAgICAgICAgICAgICZbKCJsYWJlbCIsIHZhbHVlX2xhYmVsKV0sCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgICAgICAiLnZhbHVlIG11c3QgY29udGFpbiBvbmx5IHN0cmluZ3MiID0+IHsKICAgICAgICAgICAgcmV0dXJuIFNvbWUobWFpbnRlbmFuY2VfYmFja3VwX3RleHRfcGFyYW1zKAogICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJzdHJpbmdBcnJheU9ubHlTdHJpbmdzIiwKICAgICAgICAgICAgICAgICZbKCJsYWJlbCIsIHZhbHVlX2xhYmVsKV0sCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgICAgICBfID0+IHt9CiAgICB9CgogICAgaWYgc3VmZml4LnN0YXJ0c193aXRoKCIua2V5IG11c3Qgc3RhcnQgd2l0aCAiKSB7CiAgICAgICAgcmV0dXJuIFNvbWUobWFpbnRlbmFuY2VfYmFja3VwX3RleHRfcGFyYW1zKAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAiZW50cnlLZXlQcmVmaXhSZXF1aXJlZCIsCiAgICAgICAgICAgICZbCiAgICAgICAgICAgICAgICAoImluZGV4IiwgaW5kZXgudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAgICAgKCJwcmVmaXgiLCBLTk9DS19CQUNLVVBfUFJFRklYLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgXSwKICAgICAgICApKTsKICAgIH0KCiAgICBpZiBsZXQgU29tZShmaWVsZCkgPSBzdWZmaXgKICAgICAgICAuc3RyaXBfcHJlZml4KCIudmFsdWUuIikKICAgICAgICAuYW5kX3RoZW4ofHJlc3R8IHJlc3Quc3RyaXBfc3VmZml4KCIgbXVzdCBiZSBhIHN0cmluZyIpKQogICAgewogICAgICAgIHJldHVybiBTb21lKG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0X3BhcmFtcygKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgImZpZWxkU3RyaW5nUmVxdWlyZWQiLAogICAgICAgICAgICAmWygibGFiZWwiLCB2YWx1ZV9sYWJlbCksICgiZmllbGQiLCBmaWVsZC50b19zdHJpbmcoKSldLAogICAgICAgICkpOwogICAgfQoKICAgIGxldCByZXN0ID0gc3VmZml4LnN0cmlwX3ByZWZpeCgiLnZhbHVlWyIpPzsKICAgIGxldCAoaXRlbV9pbmRleCwgaXRlbV9zdWZmaXgpID0gcmVzdC5zcGxpdF9vbmNlKCddJyk/OwogICAgaWYgaXRlbV9pbmRleC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIG1hdGNoIGl0ZW1fc3VmZml4IHsKICAgICAgICAiLm1lbWJlciBtdXN0IGJlIGEgc3RyaW5nIiA9PiBTb21lKG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0X3BhcmFtcygKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgInpzZXRNZW1iZXJSZXF1aXJlZCIsCiAgICAgICAgICAgICZbKCJsYWJlbCIsIHZhbHVlX2xhYmVsKSwgKCJpbmRleCIsIGl0ZW1faW5kZXgudG9fc3RyaW5nKCkpXSwKICAgICAgICApKSwKICAgICAgICAiLnNjb3JlIGlzIGludmFsaWQiID0+IFNvbWUobWFpbnRlbmFuY2VfYmFja3VwX3RleHRfcGFyYW1zKAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAienNldFNjb3JlUmVxdWlyZWQiLAogICAgICAgICAgICAmWygibGFiZWwiLCB2YWx1ZV9sYWJlbCksICgiaW5kZXgiLCBpdGVtX2luZGV4LnRvX3N0cmluZygpKV0sCiAgICAgICAgKSksCiAgICAgICAgIi5pZCBtdXN0IGJlIGEgc3RyaW5nIiA9PiBTb21lKG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0X3BhcmFtcygKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgInN0cmVhbUlkUmVxdWlyZWQiLAogICAgICAgICAgICAmWygibGFiZWwiLCB2YWx1ZV9sYWJlbCksICgiaW5kZXgiLCBpdGVtX2luZGV4LnRvX3N0cmluZygpKV0sCiAgICAgICAgKSksCiAgICAgICAgIi5maWVsZHMgbXVzdCBiZSBhbiBhcnJheSIgPT4gU29tZShtYWludGVuYW5jZV9iYWNrdXBfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJzdHJpbmdBcnJheVJlcXVpcmVkIiwKICAgICAgICAgICAgJlsoCiAgICAgICAgICAgICAgICAibGFiZWwiLAogICAgICAgICAgICAgICAgZm9ybWF0ISgiZW50cmllc1t7aW5kZXh9XS52YWx1ZVt7aXRlbV9pbmRleH1dLmZpZWxkcyIpLAogICAgICAgICAgICApXSwKICAgICAgICApKSwKICAgICAgICAiLmZpZWxkcyBtdXN0IGNvbnRhaW4gb25seSBzdHJpbmdzIiA9PiBTb21lKG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0X3BhcmFtcygKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgInN0cmluZ0FycmF5T25seVN0cmluZ3MiLAogICAgICAgICAgICAmWygKICAgICAgICAgICAgICAgICJsYWJlbCIsCiAgICAgICAgICAgICAgICBmb3JtYXQhKCJlbnRyaWVzW3tpbmRleH1dLnZhbHVlW3tpdGVtX2luZGV4fV0uZmllbGRzIiksCiAgICAgICAgICAgICldLAogICAgICAgICkpLAogICAgICAgICIuZmllbGRzIGlzIGludmFsaWQiID0+IFNvbWUobWFpbnRlbmFuY2VfYmFja3VwX3RleHRfcGFyYW1zKAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAic3RyZWFtRmllbGRzSW52YWxpZCIsCiAgICAgICAgICAgICZbKCJsYWJlbCIsIHZhbHVlX2xhYmVsKSwgKCJpbmRleCIsIGl0ZW1faW5kZXgudG9fc3RyaW5nKCkpXSwKICAgICAgICApKSwKICAgICAgICBfID0+IE5vbmUsCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gcGFyc2VfdHlwZV9hbmRfa2V5X2RldGFpbChkZXRhaWw6ICZzdHIpIC0+IChTdHJpbmcsIFN0cmluZykgewogICAgbGV0IFNvbWUoKGRhdGFfdHlwZSwgcmVzdCkpID0gZGV0YWlsLnRyaW0oKS5zcGxpdF9vbmNlKCIgKCIpIGVsc2UgewogICAgICAgIHJldHVybiAoZGV0YWlsLnRyaW0oKS50b19zdHJpbmcoKSwgInVua25vd24iLnRvX3N0cmluZygpKTsKICAgIH07CiAgICAoCiAgICAgICAgZGF0YV90eXBlLnRyaW0oKS50b19zdHJpbmcoKSwKICAgICAgICByZXN0LnRyaW1fZW5kX21hdGNoZXMoJyknKS50cmltKCkudG9fc3RyaW5nKCksCiAgICApCn0K
+use super::*;
+
+pub(super) fn import_success_response(
+    data: Value,
+    from_directory: bool,
+    translator: &Translator,
+) -> Response {
+    let has_warnings = data
+        .get("warnings")
+        .and_then(Value::as_array)
+        .is_some_and(|warnings| !warnings.is_empty());
+    let key = match (from_directory, has_warnings) {
+        (true, true) => "importFnosSuccessWithWarnings",
+        (true, false) => "importFnosSuccess",
+        (false, true) => "importSuccessWithWarnings",
+        (false, false) => "importSuccess",
+    };
+    axum::Json(json!({
+        "success": true,
+        "message": admin_backup_text(translator, key),
+        "data": data
+    }))
+    .into_response()
+}
+
+pub(super) fn admin_backup_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.admin.backup.{key}"))
+}
+
+pub(super) fn maintenance_backup_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.maintenanceBackup.{key}"))
+}
+
+pub(super) fn maintenance_clear_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.maintenanceClear.{key}"))
+}
+
+pub(super) fn maintenance_backup_text_params(
+    translator: &Translator,
+    key: &str,
+    params: &[(&str, String)],
+) -> String {
+    translator.t_params(&format!("server.maintenanceBackup.{key}"), params)
+}
+
+pub(super) fn backup_import_version_range() -> String {
+    format!("{APP_BACKUP_IMPORT_MIN_VERSION} ~ {APP_LOCAL_VERSION}")
+}
+
+pub(super) fn backup_error_key_message(key: &str, params: &[(&str, String)]) -> String {
+    let mut params_object = serde_json::Map::new();
+    for (key, value) in params {
+        params_object.insert((*key).to_string(), Value::String(value.clone()));
+    }
+    json!({
+        MAINTENANCE_BACKUP_ERROR_MARKER: true,
+        "kind": "key",
+        "key": key,
+        "params": params_object,
+    })
+    .to_string()
+}
+
+#[cfg(test)]
+pub(super) fn backup_command_error_message(
+    message: String,
+    code: i32,
+    detail: Option<String>,
+) -> String {
+    json!({
+        MAINTENANCE_BACKUP_ERROR_MARKER: true,
+        "kind": "command_error",
+        "message": message,
+        "code": code,
+        "detail": detail.unwrap_or_default(),
+    })
+    .to_string()
+}
+
+pub(super) fn localize_backup_error_message(translator: &Translator, message: &str) -> String {
+    let normalized = message.trim();
+    if let Some(localized) = localize_structured_backup_error(translator, normalized) {
+        return localized;
+    }
+    if let Some(localized) = localize_backup_entry_error(translator, normalized) {
+        return localized;
+    }
+    match normalized {
+        "Backup operation is busy" => match translator.locale() {
+            "zh-CN" => "备份任务正在进行，请稍后重试".to_string(),
+            "zh-TW" => "備份工作正在進行，請稍後重試".to_string(),
+            _ => "Another backup operation is in progress; retry shortly".to_string(),
+        },
+        "Backup service is shutting down" => match translator.locale() {
+            "zh-CN" => "备份服务正在关闭，请稍后重试".to_string(),
+            "zh-TW" => "備份服務正在關閉，請稍後重試".to_string(),
+            _ => "The backup service is shutting down; retry shortly".to_string(),
+        },
+        "Backup share directory is not configured" => {
+            maintenance_backup_text(translator, "shareDirectoryMissing")
+        }
+        "Automatic backup interval is invalid" => {
+            maintenance_backup_text(translator, "automaticIntervalInvalid")
+        }
+        "Automatic backup retention is invalid" => {
+            maintenance_backup_text(translator, "automaticRetentionInvalid")
+        }
+        "Invalid backup path" => maintenance_backup_text(translator, "invalidBackupPath"),
+        "Backup file not found" => {
+            maintenance_backup_text(translator, "directoryImportFileNotFound")
+        }
+        "Backup file cannot be read" => {
+            maintenance_backup_text(translator, "directoryImportFileUnreadable")
+        }
+        "Backup path must be a file" => {
+            maintenance_backup_text(translator, "directoryImportFileOnly")
+        }
+        "Backup archive content is required" => {
+            maintenance_backup_text(translator, "archiveContentMissing")
+        }
+        "Backup archive base64 is invalid" => {
+            maintenance_backup_text(translator, "archiveBase64Invalid")
+        }
+        "Backup archive is empty" => maintenance_backup_text(translator, "archiveEmpty"),
+        "Backup archive is too large" => maintenance_backup_text(translator, "archiveTooLarge"),
+        "Backup export is too large" => maintenance_backup_text(translator, "exportTooLarge"),
+        "Backup directory import archive is too large" => {
+            maintenance_backup_text(translator, "directoryImportTooLarge")
+        }
+        "Backup archive password is invalid" => {
+            maintenance_backup_text(translator, "archivePasswordInvalid")
+        }
+        "Backup payload is not valid UTF-8" => {
+            maintenance_backup_text(translator, "payloadUtf8Invalid")
+        }
+        "Backup JSON payload is invalid" => maintenance_backup_text(translator, "jsonParseFailed"),
+        "Backup payload must be an object" => {
+            maintenance_backup_text(translator, "payloadObjectInvalid")
+        }
+        "Backup app version is missing" => maintenance_backup_text(translator, "missingAppVersion"),
+        "Backup exported_at is missing" => maintenance_backup_text(translator, "missingExportedAt"),
+        "Backup entries are missing" => maintenance_backup_text(translator, "missingEntries"),
+        "Backup contains duplicated Redis keys" => {
+            maintenance_backup_text(translator, "duplicateRedisKey")
+        }
+        _ if normalized.starts_with("Backup archive filename must end with") => {
+            maintenance_backup_text_params(
+                translator,
+                "invalidBackupExtension",
+                &[("extension", KNOCK_BACKUP_EXTENSION.to_string())],
+            )
+        }
+        _ if normalized.starts_with("Backup archive file must end with") => {
+            maintenance_backup_text_params(
+                translator,
+                "directoryImportExtensionOnly",
+                &[("extension", KNOCK_BACKUP_EXTENSION.to_string())],
+            )
+        }
+        _ if normalized.starts_with("Backup archive is missing ") => {
+            maintenance_backup_text_params(
+                translator,
+                "archiveMissingPayload",
+                &[("filename", KNOCK_BACKUP_JSON_FILENAME.to_string())],
+            )
+        }
+        _ if normalized.starts_with("Unsupported Redis type for backup: ") => {
+            let detail = normalized
+                .strip_prefix("Unsupported Redis type for backup: ")
+                .unwrap_or_default();
+            let (data_type, key) = parse_type_and_key_detail(detail);
+            maintenance_backup_text_params(
+                translator,
+                "unsupportedRedisExportType",
+                &[("type", data_type), ("key", key)],
+            )
+        }
+        _ if normalized.starts_with("Unsupported backup schema version.") => {
+            maintenance_backup_text_params(
+                translator,
+                "unsupportedSchemaVersion",
+                &[("version", APP_BACKUP_SCHEMA_VERSION.to_string())],
+            )
+        }
+        _ if normalized.starts_with("Unsupported backup prefix.") => {
+            maintenance_backup_text_params(
+                translator,
+                "unsupportedPrefix",
+                &[("prefix", KNOCK_BACKUP_PREFIX.to_string())],
+            )
+        }
+        _ if normalized.starts_with("Backup app version ")
+            && normalized.contains(" is unsupported.") =>
+        {
+            let app_version = normalized
+                .strip_prefix("Backup app version ")
+                .and_then(|rest| rest.split_once(" is unsupported."))
+                .map(|(version, _)| version.trim().to_string())
+                .filter(|version| !version.is_empty())
+                .unwrap_or_else(|| "unknown".to_string());
+            maintenance_backup_text_params(
+                translator,
+                "appVersionUnsupported",
+                &[
+                    ("currentVersion", APP_LOCAL_VERSION.to_string()),
+                    ("range", backup_import_version_range()),
+                    ("appVersion", app_version),
+                ],
+            )
+        }
+        _ if normalized.starts_with("Failed to read backup archive") => {
+            maintenance_backup_text(translator, "readArchiveFailed")
+        }
+        _ => normalized.to_string(),
+    }
+}
+
+pub(super) fn localize_structured_backup_error(
+    translator: &Translator,
+    message: &str,
+) -> Option<String> {
+    let parsed: Value = serde_json::from_str(message).ok()?;
+    let object = parsed.as_object()?;
+    if object
+        .get(MAINTENANCE_BACKUP_ERROR_MARKER)
+        .and_then(Value::as_bool)
+        != Some(true)
+    {
+        return None;
+    }
+
+    match object.get("kind").and_then(Value::as_str) {
+        Some("key") => {
+            let key = object.get("key").and_then(Value::as_str)?;
+            let params_object = object
+                .get("params")
+                .and_then(Value::as_object)
+                .cloned()
+                .unwrap_or_default();
+            let params = params_object
+                .iter()
+                .map(|(key, value)| (key.as_str(), backup_param_value_to_string(value)))
+                .collect::<Vec<_>>();
+            Some(maintenance_backup_text_params(translator, key, &params))
+        }
+        Some("command_error") => {
+            let raw_message = object.get("message").and_then(Value::as_str).unwrap_or("");
+            let message = if raw_message.trim().is_empty() {
+                maintenance_backup_text(translator, "unknownError")
+            } else {
+                localize_backup_error_message(translator, raw_message)
+            };
+            let code = object
+                .get("code")
+                .and_then(Value::as_i64)
+                .unwrap_or(-1)
+                .to_string();
+            let detail = object
+                .get("detail")
+                .and_then(Value::as_str)
+                .unwrap_or("")
+                .trim()
+                .to_string();
+            if detail.is_empty() {
+                Some(maintenance_backup_text_params(
+                    translator,
+                    "commandError",
+                    &[("message", message), ("code", code)],
+                ))
+            } else {
+                Some(maintenance_backup_text_params(
+                    translator,
+                    "commandErrorWithDetail",
+                    &[("message", message), ("code", code), ("detail", detail)],
+                ))
+            }
+        }
+        _ => None,
+    }
+}
+
+pub(super) fn backup_param_value_to_string(value: &Value) -> String {
+    match value {
+        Value::String(value) => value.clone(),
+        Value::Number(value) => value.to_string(),
+        Value::Bool(value) => value.to_string(),
+        Value::Null => String::new(),
+        value => value.to_string(),
+    }
+}
+
+pub(super) fn localize_backup_entry_error(
+    translator: &Translator,
+    message: &str,
+) -> Option<String> {
+    let rest = message.strip_prefix("entries[")?;
+    let (index, suffix) = rest.split_once(']')?;
+    if index.is_empty() {
+        return None;
+    }
+    let value_label = format!("entries[{index}].value");
+    match suffix {
+        " must be an object" => {
+            return Some(maintenance_backup_text_params(
+                translator,
+                "entryObjectRequired",
+                &[("index", index.to_string())],
+            ));
+        }
+        ".type is unsupported" => {
+            return Some(maintenance_backup_text_params(
+                translator,
+                "entryTypeUnsupported",
+                &[("index", index.to_string())],
+            ));
+        }
+        ".ttl_ms is invalid" => {
+            return Some(maintenance_backup_text_params(
+                translator,
+                "entryTtlInvalid",
+                &[("index", index.to_string())],
+            ));
+        }
+        ".value must be a string" => {
+            return Some(maintenance_backup_text_params(
+                translator,
+                "entryValueStringRequired",
+                &[("index", index.to_string())],
+            ));
+        }
+        ".value must be an object" => {
+            return Some(maintenance_backup_text_params(
+                translator,
+                "objectRequired",
+                &[("label", value_label)],
+            ));
+        }
+        ".value must be an array" => {
+            return Some(maintenance_backup_text_params(
+                translator,
+                "arrayRequired",
+                &[("label", value_label)],
+            ));
+        }
+        ".value must contain only strings" => {
+            return Some(maintenance_backup_text_params(
+                translator,
+                "stringArrayOnlyStrings",
+                &[("label", value_label)],
+            ));
+        }
+        _ => {}
+    }
+
+    if suffix.starts_with(".key must start with ") {
+        return Some(maintenance_backup_text_params(
+            translator,
+            "entryKeyPrefixRequired",
+            &[
+                ("index", index.to_string()),
+                ("prefix", KNOCK_BACKUP_PREFIX.to_string()),
+            ],
+        ));
+    }
+
+    if let Some(field) = suffix
+        .strip_prefix(".value.")
+        .and_then(|rest| rest.strip_suffix(" must be a string"))
+    {
+        return Some(maintenance_backup_text_params(
+            translator,
+            "fieldStringRequired",
+            &[("label", value_label), ("field", field.to_string())],
+        ));
+    }
+
+    let rest = suffix.strip_prefix(".value[")?;
+    let (item_index, item_suffix) = rest.split_once(']')?;
+    if item_index.is_empty() {
+        return None;
+    }
+    match item_suffix {
+        ".member must be a string" => Some(maintenance_backup_text_params(
+            translator,
+            "zsetMemberRequired",
+            &[("label", value_label), ("index", item_index.to_string())],
+        )),
+        ".score is invalid" => Some(maintenance_backup_text_params(
+            translator,
+            "zsetScoreRequired",
+            &[("label", value_label), ("index", item_index.to_string())],
+        )),
+        ".id must be a string" => Some(maintenance_backup_text_params(
+            translator,
+            "streamIdRequired",
+            &[("label", value_label), ("index", item_index.to_string())],
+        )),
+        ".fields must be an array" => Some(maintenance_backup_text_params(
+            translator,
+            "stringArrayRequired",
+            &[(
+                "label",
+                format!("entries[{index}].value[{item_index}].fields"),
+            )],
+        )),
+        ".fields must contain only strings" => Some(maintenance_backup_text_params(
+            translator,
+            "stringArrayOnlyStrings",
+            &[(
+                "label",
+                format!("entries[{index}].value[{item_index}].fields"),
+            )],
+        )),
+        ".fields is invalid" => Some(maintenance_backup_text_params(
+            translator,
+            "streamFieldsInvalid",
+            &[("label", value_label), ("index", item_index.to_string())],
+        )),
+        _ => None,
+    }
+}
+
+pub(super) fn parse_type_and_key_detail(detail: &str) -> (String, String) {
+    let Some((data_type, rest)) = detail.trim().split_once(" (") else {
+        return (detail.trim().to_string(), "unknown".to_string());
+    };
+    (
+        data_type.trim().to_string(),
+        rest.trim_end_matches(')').trim().to_string(),
+    )
+}

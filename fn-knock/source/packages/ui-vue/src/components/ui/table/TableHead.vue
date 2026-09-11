@@ -1,1 +1,17 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPHRoCiAgICBkYXRhLXNsb3Q9InRhYmxlLWhlYWQiCiAgICA6Y2xhc3M9ImNuKCd0ZXh0LWZvcmVncm91bmQgaC0xMCBweC0yIHRleHQtbGVmdCBhbGlnbi1taWRkbGUgZm9udC1tZWRpdW0gd2hpdGVzcGFjZS1ub3dyYXAgWyY6aGFzKFtyb2xlPWNoZWNrYm94XSldOnByLTAgWyY+W3JvbGU9Y2hlY2tib3hdXTp0cmFuc2xhdGUteS1bMnB4XScsIHByb3BzLmNsYXNzKSIKICA+CiAgICA8c2xvdCAvPgogIDwvdGg+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <th
+    data-slot="table-head"
+    :class="cn('text-foreground h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]', props.class)"
+  >
+    <slot />
+  </th>
+</template>

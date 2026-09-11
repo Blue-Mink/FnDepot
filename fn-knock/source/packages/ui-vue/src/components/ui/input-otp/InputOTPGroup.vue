@@ -1,1 +1,22 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgdXNlRm9yd2FyZFByb3BzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8eyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdIH0+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQoKY29uc3QgZm9yd2FyZGVkID0gdXNlRm9yd2FyZFByb3BzKGRlbGVnYXRlZFByb3BzKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICBkYXRhLXNsb3Q9ImlucHV0LW90cC1ncm91cCIKICAgIHYtYmluZD0iZm9yd2FyZGVkIgogICAgOmNsYXNzPSJjbignZmxleCBpdGVtcy1jZW50ZXInLCBwcm9wcy5jbGFzcykiCiAgPgogICAgPHNsb3QgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { useForwardProps } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{ class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwarded = useForwardProps(delegatedProps)
+</script>
+
+<template>
+  <div
+    data-slot="input-otp-group"
+    v-bind="forwarded"
+    :class="cn('flex items-center', props.class)"
+  >
+    <slot />
+  </div>
+</template>

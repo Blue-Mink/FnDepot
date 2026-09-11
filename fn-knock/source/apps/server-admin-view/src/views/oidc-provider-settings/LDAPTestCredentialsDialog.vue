@@ -1,1 +1,71 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IFRlc3RUdWJlMiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwoKZGVmaW5lUHJvcHM8ewogIG9wZW46IGJvb2xlYW47CiAgcGFzc3dvcmQ6IHN0cmluZzsKICBzdWJtaXQ6ICgpID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwogIHVzZXJuYW1lOiBzdHJpbmc7Cn0+KCk7CmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgInVwZGF0ZTpvcGVuIjogW3ZhbHVlOiBib29sZWFuXTsKICAidXBkYXRlOnBhc3N3b3JkIjogW3ZhbHVlOiBzdHJpbmddOwogICJ1cGRhdGU6dXNlcm5hbWUiOiBbdmFsdWU6IHN0cmluZ107Cn0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nIDpvcGVuPSJvcGVuIiBAdXBkYXRlOm9wZW49ImVtaXQoJ3VwZGF0ZTpvcGVuJywgJGV2ZW50KSI+CiAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ic206bWF4LXctWzQ2MHB4XSI+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPnt7IHQoImFkbWluLmxkYXBQcm92aWRlcnMudGVzdENyZWRlbnRpYWxzVGl0bGUiKSB9fTwvRGlhbG9nVGl0bGU+CiAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAge3sgdCgiYWRtaW4ubGRhcFByb3ZpZGVycy50ZXN0Q3JlZGVudGlhbHNEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgIDxmb3JtIGNsYXNzPSJzcGFjZS15LTQiIEBzdWJtaXQucHJldmVudD0ic3VibWl0Ij4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgPExhYmVsIGZvcj0ibGRhcC10ZXN0LXVzZXJuYW1lIj57eyB0KCJhZG1pbi5sZGFwUHJvdmlkZXJzLnRlc3RVc2VybmFtZSIpIH19PC9MYWJlbD4KICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICBpZD0ibGRhcC10ZXN0LXVzZXJuYW1lIgogICAgICAgICAgICA6bW9kZWwtdmFsdWU9InVzZXJuYW1lIgogICAgICAgICAgICBhdXRvY29tcGxldGU9InVzZXJuYW1lIgogICAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJlbWl0KCd1cGRhdGU6dXNlcm5hbWUnLCBTdHJpbmcoJGV2ZW50KSkiCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICA8TGFiZWwgZm9yPSJsZGFwLXRlc3QtcGFzc3dvcmQiPnt7IHQoImFkbWluLmxkYXBQcm92aWRlcnMudGVzdFBhc3N3b3JkIikgfX08L0xhYmVsPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIGlkPSJsZGFwLXRlc3QtcGFzc3dvcmQiCiAgICAgICAgICAgIDptb2RlbC12YWx1ZT0icGFzc3dvcmQiCiAgICAgICAgICAgIHR5cGU9InBhc3N3b3JkIgogICAgICAgICAgICBhdXRvY29tcGxldGU9ImN1cnJlbnQtcGFzc3dvcmQiCiAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9ImVtaXQoJ3VwZGF0ZTpwYXNzd29yZCcsIFN0cmluZygkZXZlbnQpKSIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPERpYWxvZ0Zvb3Rlcj4KICAgICAgICAgIDxCdXR0b24gdHlwZT0iYnV0dG9uIiB2YXJpYW50PSJvdXRsaW5lIiBAY2xpY2s9ImVtaXQoJ3VwZGF0ZTpvcGVuJywgZmFsc2UpIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4ubGRhcFByb3ZpZGVycy5jYW5jZWwiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uIHR5cGU9InN1Ym1pdCI+CiAgICAgICAgICAgIDxUZXN0VHViZTIgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmxkYXBQcm92aWRlcnMudGVzdCIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgICAgPC9mb3JtPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { TestTube2 } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+
+defineProps<{
+  open: boolean;
+  password: string;
+  submit: () => Promise<void> | void;
+  username: string;
+}>();
+const emit = defineEmits<{
+  "update:open": [value: boolean];
+  "update:password": [value: string];
+  "update:username": [value: string];
+}>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="sm:max-w-[460px]">
+      <DialogHeader>
+        <DialogTitle>{{ t("admin.ldapProviders.testCredentialsTitle") }}</DialogTitle>
+        <DialogDescription>
+          {{ t("admin.ldapProviders.testCredentialsDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+      <form class="space-y-4" @submit.prevent="submit">
+        <div class="space-y-2">
+          <Label for="ldap-test-username">{{ t("admin.ldapProviders.testUsername") }}</Label>
+          <Input
+            id="ldap-test-username"
+            :model-value="username"
+            autocomplete="username"
+            @update:model-value="emit('update:username', String($event))"
+          />
+        </div>
+        <div class="space-y-2">
+          <Label for="ldap-test-password">{{ t("admin.ldapProviders.testPassword") }}</Label>
+          <Input
+            id="ldap-test-password"
+            :model-value="password"
+            type="password"
+            autocomplete="current-password"
+            @update:model-value="emit('update:password', String($event))"
+          />
+        </div>
+        <DialogFooter>
+          <Button type="button" variant="outline" @click="emit('update:open', false)">
+            {{ t("admin.ldapProviders.cancel") }}
+          </Button>
+          <Button type="submit">
+            <TestTube2 class="h-4 w-4" />
+            {{ t("admin.ldapProviders.test") }}
+          </Button>
+        </DialogFooter>
+      </form>
+    </DialogContent>
+  </Dialog>
+</template>

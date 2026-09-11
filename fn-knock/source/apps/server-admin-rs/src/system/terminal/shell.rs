@@ -1,1 +1,23 @@
-dXNlIGFzeW5jX3RyYWl0Ojphc3luY190cmFpdDsKCnVzZSBzdXBlcjo6ZG9tYWluOjpUZXJtaW5hbFJlc3VsdDsKCiNbZGVyaXZlKERlYnVnKV0KcHViKHN1cGVyKSBlbnVtIFNoZWxsRXZlbnQgewogICAgRGF0YShWZWM8dTg+KSwKICAgIEV4aXRlZCh1MzIpLAogICAgU2lnbmFsZWQoU3RyaW5nKSwKICAgIENsb3NlZCwKICAgIE90aGVyLAp9CgojW2FzeW5jX3RyYWl0XQpwdWIoc3VwZXIpIHRyYWl0IEludGVyYWN0aXZlU2hlbGw6IFNlbmQgewogICAgYXN5bmMgZm4gbmV4dF9ldmVudCgmbXV0IHNlbGYpIC0+IFNoZWxsRXZlbnQ7CiAgICBhc3luYyBmbiBpbnB1dCgmbXV0IHNlbGYsIGRhdGE6IFZlYzx1OD4pIC0+IFRlcm1pbmFsUmVzdWx0PCgpPjsKICAgIGFzeW5jIGZuIHJlc2l6ZSgmbXV0IHNlbGYsIGNvbHM6IHUzMiwgcm93czogdTMyKSAtPiBUZXJtaW5hbFJlc3VsdDwoKT47CiAgICBhc3luYyBmbiBjbG9zZSgmbXV0IHNlbGYpOwogICAgYXN5bmMgZm4gZGlzY29ubmVjdCgmbXV0IHNlbGYpOwp9CgpwdWIoc3VwZXIpIHR5cGUgQm94ZWRTaGVsbCA9IEJveDxkeW4gSW50ZXJhY3RpdmVTaGVsbD47Cg==
+use async_trait::async_trait;
+
+use super::domain::TerminalResult;
+
+#[derive(Debug)]
+pub(super) enum ShellEvent {
+    Data(Vec<u8>),
+    Exited(u32),
+    Signaled(String),
+    Closed,
+    Other,
+}
+
+#[async_trait]
+pub(super) trait InteractiveShell: Send {
+    async fn next_event(&mut self) -> ShellEvent;
+    async fn input(&mut self, data: Vec<u8>) -> TerminalResult<()>;
+    async fn resize(&mut self, cols: u32, rows: u32) -> TerminalResult<()>;
+    async fn close(&mut self);
+    async fn disconnect(&mut self);
+}
+
+pub(super) type BoxedShell = Box<dyn InteractiveShell>;

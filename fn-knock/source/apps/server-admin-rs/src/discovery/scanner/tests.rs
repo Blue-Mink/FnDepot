@@ -1,1 +1,662 @@
-dXNlIHN1cGVyOjoqOwoKZm4gZGVmYXVsdHMoKSAtPiBTY2FubmVyRW52RGVmYXVsdHMgewogICAgU2Nhbm5lckVudkRlZmF1bHRzIHsKICAgICAgICBlbmFibGVkOiBmYWxzZSwKICAgICAgICB3aW5kb3dfbWludXRlczogNSwKICAgICAgICB0aHJlc2hvbGQ6IDUsCiAgICAgICAgYmxhY2tsaXN0X3R0bF9zZWNvbmRzOiA5MCAqIDI0ICogMzYwMCwKICAgIH0KfQoKZm4gcHJlZmxpZ2h0X3BvbGljeShwYXRoczogJlsmc3RyXSkgLT4gU2Nhbm5lclByZWZsaWdodFBvbGljeSB7CiAgICBTY2FubmVyUHJlZmxpZ2h0UG9saWN5IHsKICAgICAgICBzZXR0aW5nczogc2Nhbm5lcl9zZXR0aW5nc19mcm9tX3JhdyhOb25lLCBkZWZhdWx0cygpKSwKICAgICAgICBwYXRoX3doaXRlbGlzdDogcGF0aHMuaXRlcigpLm1hcCh8cGF0aHwgKCpwYXRoKS50b19zdHJpbmcoKSkuY29sbGVjdCgpLAogICAgICAgIGNsaWVudF9pcDogU3RyaW5nOjpuZXcoKSwKICAgICAgICBpcF9leGVtcHQ6IHRydWUsCiAgICB9Cn0KCmFzeW5jIGZuIHNjYW5uZXJfdGVzdF9zdGF0ZSgpIC0+ICh0ZW1wZmlsZTo6VGVtcERpciwgQXBwU3RhdGUpIHsKICAgIGxldCBkaXJlY3RvcnkgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLnVud3JhcCgpOwogICAgbGV0IG11dCBzZXR0aW5ncyA9IHsKICAgICAgICBsZXQgX2Vudmlyb25tZW50ID0gY3JhdGU6OnRlc3Rfc3VwcG9ydDo6RW52R3VhcmQ6Om5ldygmW10pOwogICAgICAgIGNyYXRlOjpzZXR0aW5nczo6U2V0dGluZ3M6OmZyb21fZW52KCkKICAgIH07CiAgICBzZXR0aW5ncy5ydW50aW1lX3RhcmdldCA9ICJsaW51eCIudG9fc3RyaW5nKCk7CiAgICBzZXR0aW5ncy5kYXRhX2RpciA9IGRpcmVjdG9yeS5wYXRoKCkuam9pbigiZGF0YSIpOwogICAgc2V0dGluZ3MuZ2F0ZXdheV9jb25maWdfZGlyID0gZGlyZWN0b3J5LnBhdGgoKS5qb2luKCJnYXRld2F5Iik7CiAgICBzZXR0aW5ncy5zcWxpdGVfcGF0aCA9IGRpcmVjdG9yeS5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpOwogICAgc2V0dGluZ3MubGVnYWN5X3JlZGlzX3VybCA9IFN0cmluZzo6bmV3KCk7CiAgICBzZXR0aW5ncy5nb19iYWNrZW5kX2dycGNfYWRkciA9ICJodHRwOi8vMTI3LjAuMC4xOjEiLnRvX3N0cmluZygpOwogICAgc2V0dGluZ3MuaW50ZXJuYWxfcnBjX3Rva2VuID0gInRlc3QtaW50ZXJuYWwtcnBjLXRva2VuIi50b19zdHJpbmcoKTsKICAgIGxldCBzdGF0ZSA9IEFwcFN0YXRlOjpuZXcoc2V0dGluZ3MpLmF3YWl0LnVud3JhcCgpOwogICAgKGRpcmVjdG9yeSwgc3RhdGUpCn0KCiNbdGVzdF0KZm4gc2Nhbm5lcl9wYXRoX3doaXRlbGlzdF91c2VzX2RlZmF1bHRzX29ubHlfd2hlbl9vdmVycmlkZV9pc19hYnNlbnQoKSB7CiAgICBsZXQgZGVmYXVsdHMgPSBkZWZhdWx0X3NjYW5uZXJfcGF0aF93aGl0ZWxpc3QoKTsKICAgIGFzc2VydCEoZGVmYXVsdHMuY29udGFpbnMoJiIvc3luYy9ldmVudC9yZWdpc3RlciIudG9fc3RyaW5nKCkpKTsKICAgIGFzc2VydCEoZGVmYXVsdHMuY29udGFpbnMoJiIvYXBwLWNlbnRlci92MS9jaGVjay11cGRhdGUiLnRvX3N0cmluZygpKSk7CiAgICBhc3NlcnQhKCFkZWZhdWx0cy5pdGVyKCkuYW55KHxwYXRofCBwYXRoLmNvbnRhaW5zKCc/JykpKTsKICAgIGFzc2VydF9lcSEoc2Nhbm5lcl9wYXRoX3doaXRlbGlzdF9mcm9tX3JhdyhOb25lKS51bndyYXAoKSwgZGVmYXVsdHMpOwogICAgYXNzZXJ0ISgKICAgICAgICBzY2FubmVyX3BhdGhfd2hpdGVsaXN0X2Zyb21fcmF3KFNvbWUoJmpzb24hKHsgInBhdGhXaGl0ZWxpc3QiOiBbXSB9KSkpCiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfZW1wdHkoKQogICAgKTsKfQoKI1t0ZXN0XQpmbiBzY2FubmVyX3BhdGhfd2hpdGVsaXN0X25vcm1hbGl6ZXNfYW5kX3N0YWJseV9kZWR1cGxpY2F0ZXNfZW50cmllcygpIHsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgbm9ybWFsaXplX3NjYW5uZXJfcGF0aF93aGl0ZWxpc3QodmVjIVsKICAgICAgICAgICAgIiAvY3VzdG9tL3BhdGgvP3NvdXJjZT10ZXN0ICIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICIvY3VzdG9tL3BhdGgiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiL0Nhc2VTZW5zaXRpdmUiLnRvX3N0cmluZygpLAogICAgICAgIF0pCiAgICAgICAgLnVud3JhcCgpLAogICAgICAgIHZlYyFbIi9jdXN0b20vcGF0aCIsICIvQ2FzZVNlbnNpdGl2ZSJdCiAgICApOwogICAgYXNzZXJ0IShub3JtYWxpemVfc2Nhbm5lcl9wYXRoX3doaXRlbGlzdCh2ZWMhW1N0cmluZzo6bmV3KCldKS5pc19lcnIoKSk7CiAgICBhc3NlcnQhKG5vcm1hbGl6ZV9zY2FubmVyX3BhdGhfd2hpdGVsaXN0KHZlYyFbInJlbGF0aXZlIi50b19zdHJpbmcoKV0pLmlzX2VycigpKTsKICAgIGFzc2VydCEobm9ybWFsaXplX3NjYW5uZXJfcGF0aF93aGl0ZWxpc3QodmVjIVsiL2JhZFxucGF0aCIudG9fc3RyaW5nKCldKS5pc19lcnIoKSk7CiAgICBhc3NlcnQhKG5vcm1hbGl6ZV9zY2FubmVyX3BhdGhfd2hpdGVsaXN0KHZlYyFbIi9iYWQtcGF0aFxuIi50b19zdHJpbmcoKV0pLmlzX2VycigpKTsKICAgIGFzc2VydCEobm9ybWFsaXplX3NjYW5uZXJfcGF0aF93aGl0ZWxpc3QodmVjIVsiL2JhZFx1ezAwODV9cGF0aCIudG9fc3RyaW5nKCldKS5pc19lcnIoKSk7Cn0KCiNbdGVzdF0KZm4gc2Nhbm5lcl9wYXRoX3doaXRlbGlzdF9tYXRjaGVzX2V4YWN0X25vcm1hbGl6ZWRfcGF0aHNfb25seSgpIHsKICAgIGxldCBwb2xpY3kgPSBwcmVmbGlnaHRfcG9saWN5KCZbIi9jdXN0b20vcGF0aCJdKTsKICAgIGxldCBjb25maWcgPSBqc29uISh7fSk7CiAgICBhc3NlcnQhKGlzX2NvbW1vbl9wYXRoX2Zvcl9wcmVmbGlnaHQoCiAgICAgICAgIi9jdXN0b20vcGF0aC8/c291cmNlPXRlc3QiLAogICAgICAgICZjb25maWcsCiAgICAgICAgJnBvbGljeSwKICAgICkpOwogICAgYXNzZXJ0ISghaXNfY29tbW9uX3BhdGhfZm9yX3ByZWZsaWdodCgKICAgICAgICAiL2N1c3RvbS9wYXRoL2NoaWxkIiwKICAgICAgICAmY29uZmlnLAogICAgICAgICZwb2xpY3ksCiAgICApKTsKICAgIGFzc2VydCEoIWlzX2NvbW1vbl9wYXRoX2Zvcl9wcmVmbGlnaHQoCiAgICAgICAgIi9DdXN0b20vUGF0aCIsCiAgICAgICAgJmNvbmZpZywKICAgICAgICAmcG9saWN5LAogICAgKSk7Cn0KCiNbdGVzdF0KZm4gc2Nhbm5lcl9wYXRoX3doaXRlbGlzdF9yZW1vdmFsX2RvZXNfbm90X2NoYW5nZV9zdHJ1Y3R1cmFsX2V4ZW1wdGlvbnMoKSB7CiAgICBsZXQgcG9saWN5ID0gcHJlZmxpZ2h0X3BvbGljeSgmW10pOwogICAgYXNzZXJ0ISghaXNfY29tbW9uX3BhdGhfZm9yX3ByZWZsaWdodCgKICAgICAgICAiL3JvYm90cy50eHQiLAogICAgICAgICZqc29uISh7fSksCiAgICAgICAgJnBvbGljeSwKICAgICkpOwogICAgYXNzZXJ0IShpc19jb21tb25fcGF0aF9mb3JfcHJlZmxpZ2h0KAogICAgICAgICIvYXNzZXRzL2FwcC5qcyIsCiAgICAgICAgJmpzb24hKHt9KSwKICAgICAgICAmcG9saWN5LAogICAgKSk7CiAgICBhc3NlcnQhKGlzX2NvbW1vbl9wYXRoX2Zvcl9wcmVmbGlnaHQoCiAgICAgICAgIi9hc3NldHMvIiwKICAgICAgICAmanNvbiEoe30pLAogICAgICAgICZwb2xpY3ksCiAgICApKTsKICAgIGFzc2VydCEoaXNfY29tbW9uX3BhdGhfZm9yX3ByZWZsaWdodCgiL3MvIiwgJmpzb24hKHt9KSwgJnBvbGljeSwpKTsKICAgIGFzc2VydCEoaXNfY29tbW9uX3BhdGhfZm9yX3ByZWZsaWdodCgKICAgICAgICAiL3Jlc3QvcGluZy52aWV3P3U9dGVzdCIsCiAgICAgICAgJmpzb24hKHt9KSwKICAgICAgICAmcG9saWN5LAogICAgKSk7CiAgICBhc3NlcnQhKGlzX2NvbW1vbl9wYXRoX2Zvcl9wcmVmbGlnaHQoCiAgICAgICAgIi9tYXBwZWQvY2hpbGQiLAogICAgICAgICZqc29uISh7ICJwcm94eV9tYXBwaW5ncyI6IFt7ICJwYXRoIjogIi9tYXBwZWQiIH1dIH0pLAogICAgICAgICZwb2xpY3ksCiAgICApKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gc2Nhbm5lcl9wYXRoX3doaXRlbGlzdF9wZXJzaXN0c19hbl9leHBsaWNpdF9lbXB0eV9vdmVycmlkZSgpIHsKICAgIGxldCAoX2RpcmVjdG9yeSwgc3RhdGUpID0gc2Nhbm5lcl90ZXN0X3N0YXRlKCkuYXdhaXQ7CiAgICBsZXQgc2F2ZWQgPSByZXBsYWNlX3NjYW5uZXJfcGF0aF93aGl0ZWxpc3QoJnN0YXRlLCBWZWM6Om5ldygpKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIGFzc2VydCEoc2F2ZWQucGF0aHMuaXNfZW1wdHkoKSk7CiAgICBhc3NlcnQhKCFzYXZlZC5kZWZhdWx0X3BhdGhzLmlzX2VtcHR5KCkpOwogICAgYXNzZXJ0ISgKICAgICAgICBsb2FkX3NjYW5uZXJfcGF0aF93aGl0ZWxpc3QoJnN0YXRlKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5wYXRocwogICAgICAgICAgICAuaXNfZW1wdHkoKQogICAgKTsKICAgIGxldCByYXcgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNjYW5uZXJfc2V0dGluZ3NfcmF3KCkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCkKICAgICAgICAudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKHJhd1sicGF0aFdoaXRlbGlzdCJdLCBqc29uIShbXSkpOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBjb25jdXJyZW50X3NjYW5uZXJfc2V0dGluZ3NfYW5kX3BhdGhfd2hpdGVsaXN0X3NhdmVzX3ByZXNlcnZlX2JvdGhfdXBkYXRlcygpIHsKICAgIGxldCAoX2RpcmVjdG9yeSwgc3RhdGUpID0gc2Nhbm5lcl90ZXN0X3N0YXRlKCkuYXdhaXQ7CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNhdmVfc2Nhbm5lcl9zZXR0aW5ncygmanNvbiEoewogICAgICAgICAgICAiZW5hYmxlZCI6IHRydWUsCiAgICAgICAgICAgICJ3aW5kb3dNaW51dGVzIjogNSwKICAgICAgICAgICAgInRocmVzaG9sZCI6IDIsCiAgICAgICAgICAgICJibGFja2xpc3RUdGxTZWNvbmRzIjogMzYwMCwKICAgICAgICAgICAgInBhdGhXaGl0ZWxpc3QiOiBbIi9pbml0aWFsIl0KICAgICAgICB9KSkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBsZXQgdXBkYXRlID0gVXBkYXRlU2Nhbm5lclNldHRpbmdzQm9keSB7CiAgICAgICAgZW5hYmxlZDogZmFsc2UsCiAgICAgICAgd2luZG93X21pbnV0ZXM6IDEwLjAsCiAgICAgICAgdGhyZXNob2xkOiA0LjAsCiAgICAgICAgYmxhY2tsaXN0X3R0bF9zZWNvbmRzOiA3MjAwLjAsCiAgICAgICAgY29tbW9uX2xvY2F0aW9uX2V4ZW1wdF9lbmFibGVkOiBTb21lKGZhbHNlKSwKICAgICAgICBjaWRyX2V4ZW1wdGlvbnM6IFNvbWUoVmVjOjpuZXcoKSksCiAgICAgICAgY2lkcl9leGVtcHRpb25fcmVnaW9uczogU29tZShWZWM6Om5ldygpKSwKICAgIH07CgogICAgbGV0IChzZXR0aW5nc19yZXN1bHQsIHdoaXRlbGlzdF9yZXN1bHQpID0gdG9raW86OmpvaW4hKAogICAgICAgIHNhdmVfc2Nhbm5lcl9zZXR0aW5ncygmc3RhdGUsIHVwZGF0ZSksCiAgICAgICAgcmVwbGFjZV9zY2FubmVyX3BhdGhfd2hpdGVsaXN0KCZzdGF0ZSwgdmVjIVsiL2N1c3RvbSIudG9fc3RyaW5nKCldKSwKICAgICk7CiAgICBzZXR0aW5nc19yZXN1bHQudW53cmFwKCk7CiAgICB3aGl0ZWxpc3RfcmVzdWx0LnVud3JhcCgpOwoKICAgIGxldCByYXcgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNjYW5uZXJfc2V0dGluZ3NfcmF3KCkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCkKICAgICAgICAudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKHJhd1siZW5hYmxlZCJdLCBqc29uIShmYWxzZSkpOwogICAgYXNzZXJ0X2VxIShyYXdbIndpbmRvd01pbnV0ZXMiXSwganNvbiEoMTApKTsKICAgIGFzc2VydF9lcSEocmF3WyJwYXRoV2hpdGVsaXN0Il0sIGpzb24hKFsiL2N1c3RvbSJdKSk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHNjYW5uZXJfZmFsc2VfcG9zaXRpdmVfYWRkc19wYXRoX2FuZF91bmJsb2Nrc19pcF9pZGVtcG90ZW50bHkoKSB7CiAgICBsZXQgKF9kaXJlY3RvcnksIHN0YXRlKSA9IHNjYW5uZXJfdGVzdF9zdGF0ZSgpLmF3YWl0OwogICAgbGV0IGlwID0gIjIwMy4wLjExMy44OCI7CiAgICBsZXQgbm93ID0gdGltZV91dGlsczo6bm93X21zKCk7CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNhdmVfc2Nhbm5lcl9zZXR0aW5ncygmanNvbiEoewogICAgICAgICAgICAiZW5hYmxlZCI6IHRydWUsCiAgICAgICAgICAgICJ3aW5kb3dNaW51dGVzIjogNSwKICAgICAgICAgICAgInRocmVzaG9sZCI6IDIsCiAgICAgICAgICAgICJibGFja2xpc3RUdGxTZWNvbmRzIjogMzYwMAogICAgICAgIH0pKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAucmVjb3JkX3NjYW5uZXJfc3VzcGljaW91c19oaXQoCiAgICAgICAgICAgIGlwLAogICAgICAgICAgICAmanNvbiEoeyAicGF0aCI6ICIvbGVnaXRpbWF0ZS8iLCAiY3JlYXRlZEF0Ijogbm93IH0pLAogICAgICAgICAgICBub3csCiAgICAgICAgICAgIDAsCiAgICAgICAgICAgIDAsCiAgICAgICAgICAgIDM2MDAsCiAgICAgICAgKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuYWRkX3NjYW5uZXJfYmxhY2tsaXN0X3JlY29yZChpcCwgJmpzb24hKHsgImlwIjogaXAsICJoaXRzIjogW10gfSksIG5vdywgMzYwMCkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CgogICAgbGV0IGZpcnN0ID0gcmVzb2x2ZV9zY2FubmVyX2ZhbHNlX3Bvc2l0aXZlKCZzdGF0ZSwgaXAsICIvbGVnaXRpbWF0ZS8/ZnJvbT10ZXN0IikKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBhc3NlcnQhKGZpcnN0LmFkZGVkKTsKICAgIGFzc2VydCEoZmlyc3QudW5ibG9ja2VkKTsKICAgIGFzc2VydF9lcSEoZmlyc3QucGF0aCwgIi9sZWdpdGltYXRlIik7CiAgICBhc3NlcnQhKAogICAgICAgICFzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLnNjYW5uZXJfYmxhY2tsaXN0X2V4aXN0cyhpcCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5zY2FubmVyX3N1c3BpY2lvdXNfaGl0c19zaW5jZShpcCwgMCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfZW1wdHkoKQogICAgKTsKCiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnJlY29yZF9zY2FubmVyX3N1c3BpY2lvdXNfaGl0KAogICAgICAgICAgICBpcCwKICAgICAgICAgICAgJmpzb24hKHsgInBhdGgiOiAiL2xlZ2l0aW1hdGUiLCAiY3JlYXRlZEF0Ijogbm93ICsgMSB9KSwKICAgICAgICAgICAgbm93ICsgMSwKICAgICAgICAgICAgMCwKICAgICAgICAgICAgMCwKICAgICAgICAgICAgMzYwMCwKICAgICAgICApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5hZGRfc2Nhbm5lcl9ibGFja2xpc3RfcmVjb3JkKGlwLCAmanNvbiEoeyAiaXAiOiBpcCwgImhpdHMiOiBbXSB9KSwgbm93ICsgMSwgMzYwMCkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCk7CiAgICBsZXQgc2Vjb25kID0gcmVzb2x2ZV9zY2FubmVyX2ZhbHNlX3Bvc2l0aXZlKCZzdGF0ZSwgaXAsICIvbGVnaXRpbWF0ZSIpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgYXNzZXJ0ISghc2Vjb25kLmFkZGVkKTsKICAgIGFzc2VydCEoc2Vjb25kLnVuYmxvY2tlZCk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0YXRlCiAgICAgICAgICAgIC5zdG9yYWdlCiAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAuc2Nhbm5lcl9zdXNwaWNpb3VzX2hpdHNfc2luY2UoaXAsIDApCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmlzX2VtcHR5KCkKICAgICk7CgogICAgbGV0IHRoaXJkID0gcmVzb2x2ZV9zY2FubmVyX2ZhbHNlX3Bvc2l0aXZlKCZzdGF0ZSwgaXAsICIvbGVnaXRpbWF0ZSIpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgYXNzZXJ0ISghdGhpcmQuYWRkZWQpOwogICAgYXNzZXJ0ISghdGhpcmQudW5ibG9ja2VkKTsKICAgIGxldCByYXcgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNjYW5uZXJfc2V0dGluZ3NfcmF3KCkKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCkKICAgICAgICAudW53cmFwKCk7CiAgICBsZXQgcGF0aHMgPSByYXdbInBhdGhXaGl0ZWxpc3QiXS5hc19hcnJheSgpLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBwYXRocwogICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgIC5maWx0ZXIofHZhbHVlfCB2YWx1ZS5hc19zdHIoKSA9PSBTb21lKCIvbGVnaXRpbWF0ZSIpKQogICAgICAgICAgICAuY291bnQoKSwKICAgICAgICAxCiAgICApOwp9CgojW3Rlc3RdCmZuIHNjYW5uZXJfc2V0dGluZ3NfcHJlc2VydmVfbm9kZV9kZWZhdWx0c19hbmRfZWZmZWN0aXZlX2NpZHJzKCkgewogICAgbGV0IHJhdyA9IGpzb24hKHsKICAgICAgICAiZW5hYmxlZCI6IHRydWUsCiAgICAgICAgIndpbmRvd01pbnV0ZXMiOiAyLAogICAgICAgICJ0aHJlc2hvbGQiOiAzLAogICAgICAgICJibGFja2xpc3RUdGxTZWNvbmRzIjogMTIwLAogICAgICAgICJjb21tb25Mb2NhdGlvbkV4ZW1wdEVuYWJsZWQiOiB0cnVlLAogICAgICAgICJjaWRyRXhlbXB0aW9ucyI6IFsiIDEwLjAuMC4wLzggIiwgIjEwLjAuMC4wLzgiLCAiYmFkIl0sCiAgICAgICAgImNpZHJFeGVtcHRpb25SZWdpb25zIjogW3sKICAgICAgICAgICAgInByb3ZpbmNlIjogIuW5v+S4nCIsCiAgICAgICAgICAgICJjaXR5IjogbnVsbCwKICAgICAgICAgICAgImxhYmVsIjogIuW5v+S4nOWFqOecgSIsCiAgICAgICAgICAgICJ2YWx1ZSI6ICJfX3Byb3ZpbmNlX2FsbF9fIiwKICAgICAgICAgICAgInF1ZXJ5X2NpdHkiOiBudWxsLAogICAgICAgICAgICAiaXNfcHJvdmluY2Vfd2lkZSI6IHRydWUsCiAgICAgICAgICAgICJpc19tdW5pY2lwYWxpdHkiOiBmYWxzZQogICAgICAgIH1dLAogICAgICAgICJjaWRyRXhlbXB0aW9uUmVnaW9uQ2lkcnMiOiBbIjEuMS4xLjAvMjQiXQogICAgfSk7CgogICAgbGV0IHNldHRpbmdzID0gc2Nhbm5lcl9zZXR0aW5nc19mcm9tX3JhdyhTb21lKCZyYXcpLCBkZWZhdWx0cygpKTsKCiAgICBhc3NlcnQhKHNldHRpbmdzLmVuYWJsZWQpOwogICAgYXNzZXJ0X2VxIShzZXR0aW5ncy53aW5kb3dfc2Vjb25kcywgU0NBTk5FUl9CQVNFX1dJTkRPV19TRUNPTkRTKTsKICAgIGFzc2VydF9lcSEoc2V0dGluZ3MuY2lkcl9leGVtcHRpb25zLCB2ZWMhWyIxMC4wLjAuMC84Il0pOwogICAgYXNzZXJ0IShzZXR0aW5ncy5jaWRyX2V4ZW1wdGlvbl9yZWdpb25fY2lkcnMuaXNfZW1wdHkoKSk7CiAgICBhc3NlcnQhKHNldHRpbmdzLmNpZHJfZXhlbXB0aW9uX2NpZHJzLmlzX2VtcHR5KCkpOwp9CgojW3Rlc3RdCmZuIHNjYW5uZXJfY29tcGFjdGlvbl9yZW1vdmVzX2xlZ2FjeV9hcnJheXNfYW5kX2RlZHVwbGljYXRlc19lcXVhbF9wb2xpY2llcygpIHsKICAgIGxldCByYXcgPSBqc29uISh7CiAgICAgICAgImVuYWJsZWQiOiB0cnVlLAogICAgICAgICJjaWRyRXhlbXB0aW9ucyI6IFtdLAogICAgICAgICJjaWRyRXhlbXB0aW9uUmVnaW9ucyI6IFt7CiAgICAgICAgICAgICJwcm92aW5jZSI6ICLmtZnmsZ8iLAogICAgICAgICAgICAiY2l0eSI6IG51bGwsCiAgICAgICAgICAgICJsYWJlbCI6ICLmtZnmsZ/lhajnnIEiLAogICAgICAgICAgICAidmFsdWUiOiAiX19wcm92aW5jZV9hbGxfXyIsCiAgICAgICAgICAgICJxdWVyeV9jaXR5IjogbnVsbCwKICAgICAgICAgICAgImlzX3Byb3ZpbmNlX3dpZGUiOiB0cnVlLAogICAgICAgICAgICAiaXNfbXVuaWNpcGFsaXR5IjogZmFsc2UKICAgICAgICB9XSwKICAgICAgICAiY2lkckV4ZW1wdGlvblJlZ2lvbkNpZHJzIjogWyIxOTIuMC4yLjAvMjUiLCAiMTkyLjAuMi4xMjgvMjUiXSwKICAgICAgICAiY2lkckV4ZW1wdGlvbkNpZHJzIjogWyIxOTIuMC4yLjAvMjQiXQogICAgfSk7CiAgICBsZXQgKHN0b3JlZCwgcG9saWN5KSA9IHNldHRpbmdzOjpjb21wYWN0X3NjYW5uZXJfc2V0dGluZ3MoJnJhdykudW53cmFwKCk7CiAgICBhc3NlcnQhKHN0b3JlZC5nZXQoImNpZHJFeGVtcHRpb25SZWdpb25DaWRycyIpLmlzX25vbmUoKSk7CiAgICBhc3NlcnQhKHN0b3JlZC5nZXQoImNpZHJFeGVtcHRpb25DaWRycyIpLmlzX25vbmUoKSk7CiAgICBhc3NlcnQhKHN0b3JlZFsiY2lkckV4ZW1wdGlvblJlZ2lvblBvbGljeSJdLmlzX29iamVjdCgpKTsKICAgIGFzc2VydCEoc3RvcmVkLmdldCgiY2lkckV4ZW1wdGlvblBvbGljeSIpLmlzX25vbmUoKSk7CiAgICBhc3NlcnRfZXEhKHN0b3JlZFsiY2lkckV4ZW1wdGlvblBvbGljeUlkIl0sIGpzb24hKHBvbGljeS5pZCkpOwogICAgYXNzZXJ0X2VxIShzdG9yZWRbImNpZHJFeGVtcHRpb25SYW5nZUNvdW50Il0sIGpzb24hKDEpKTsKfQoKI1t0ZXN0XQpmbiB2YWxpZGF0ZXNfY2lkcl9leGVtcHRpb25zX3dpdGhvdXRfY2Fub25pY2FsaXppbmdfdmFsdWVzKCkgewogICAgYXNzZXJ0X2VxISgKICAgICAgICB2YWxpZGF0ZV9zY2FubmVyX2NpZHJfZXhlbXB0aW9ucyh2ZWMhWwogICAgICAgICAgICAiIDIwMDE6REI4OjovMzIgIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgIjIwMDE6ZGI4OjovMzIiLnRvX3N0cmluZygpLAogICAgICAgICAgICAiMTkyLjE2OC4wLjAvMTYiLnRvX3N0cmluZygpLAogICAgICAgIF0pCiAgICAgICAgLnVud3JhcCgpLAogICAgICAgIHZlYyFbIjIwMDE6REI4OjovMzIiLCAiMTkyLjE2OC4wLjAvMTYiXQogICAgKTsKICAgIGFzc2VydCEodmFsaWRhdGVfc2Nhbm5lcl9jaWRyX2V4ZW1wdGlvbnModmVjIVsiMTAuMC4wLjAvMzMiLnRvX3N0cmluZygpXSkuaXNfZXJyKCkpOwp9CgojW3Rlc3RdCmZuIHBhcnNlc19ibGFja2xpc3RfZGVsZXRlX2JvZHlfc2hhcGVzX2xpa2Vfbm9kZSgpIHsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgcGFyc2VfYmxhY2tsaXN0X2RlbGV0ZV9pcHMoYnIjIlsiMS4xLjEuMSIsIDIsICIgMi4yLjIuMiAiXSIjKS51bndyYXAoKSwKICAgICAgICB2ZWMhWyIxLjEuMS4xIiwgIiAyLjIuMi4yICJdCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBwYXJzZV9ibGFja2xpc3RfZGVsZXRlX2lwcyhiciMieyJpcHMiOlsiMy4zLjMuMyIsIjMuMy4zLjMiXX0iIykudW53cmFwKCksCiAgICAgICAgdmVjIVsiMy4zLjMuMyIsICIzLjMuMy4zIl0KICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHBhcnNlX2JsYWNrbGlzdF9kZWxldGVfaXBzKGJyIyJbIiAgICJdIiMpLnVud3JhcCgpLAogICAgICAgIHZlYyFbIiAgICJdCiAgICApOwogICAgYXNzZXJ0IShwYXJzZV9ibGFja2xpc3RfZGVsZXRlX2lwcyhiciMiIm5vdC1qc29uIiIjKS5pc19lcnIoKSk7Cn0KCiNbdGVzdF0KZm4gc2Nhbm5lcl9xdWVyeV9pbnRfcGFyc2VyX21hdGNoZXNfbm9kZV9wYXJzZV9pbnRfZWRnZXMoKSB7CiAgICBhc3NlcnRfZXEhKHBhcnNlX2k2NChOb25lLCAyMCksIDIwKTsKICAgIGFzc2VydF9lcSEocGFyc2VfaTY0KFNvbWUoIiIpLCAyMCksIDIwKTsKICAgIGFzc2VydF9lcSEocGFyc2VfaTY0KFNvbWUoIiAgICIpLCAyMCksIDIwKTsKICAgIGFzc2VydF9lcSEocGFyc2VfaTY0KFNvbWUoIjJ4IiksIDIwKSwgMik7CiAgICBhc3NlcnRfZXEhKHBhcnNlX2k2NChTb21lKCIgICszLjkiKSwgMjApLCAzKTsKICAgIGFzc2VydF9lcSEocGFyc2VfaTY0KFNvbWUoIi0xIiksIDIwKSwgLTEpOwp9CgojW3Rlc3RdCmZuIHN1YnNvbmljX3Jlc3RfZW5kcG9pbnRfcGFyc2VyX21hdGNoZXNfbm9kZV9yb3V0ZV9yZWdleCgpIHsKICAgIGFzc2VydF9lcSEobm9ybWFsaXplX3N1YnNvbmljX3Jlc3RfZW5kcG9pbnQoIi9yZXN0L3BpbmcudmlldyIpLCAicGluZyIpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBub3JtYWxpemVfc3Vic29uaWNfcmVzdF9lbmRwb2ludCgiL3Jlc3QvZ2V0TGljZW5zZS5qc29uIiksCiAgICAgICAgImdldGxpY2Vuc2UiCiAgICApOwogICAgYXNzZXJ0X2VxIShub3JtYWxpemVfc3Vic29uaWNfcmVzdF9lbmRwb2ludCgiL3Jlc3QvcGluZy54bWwiKSwgInBpbmciKTsKICAgIGFzc2VydF9lcSEobm9ybWFsaXplX3N1YnNvbmljX3Jlc3RfZW5kcG9pbnQoIi9yZXN0L3BpbmciKSwgInBpbmciKTsKICAgIGFzc2VydF9lcSEobm9ybWFsaXplX3N1YnNvbmljX3Jlc3RfZW5kcG9pbnQoIi9yZXN0L3BpbmcuYmFkIiksICIiKTsKICAgIGFzc2VydF9lcSEobm9ybWFsaXplX3N1YnNvbmljX3Jlc3RfZW5kcG9pbnQoIi9yZXN0L2Zvby9iYXIiKSwgIiIpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBub3JtYWxpemVfc3Vic29uaWNfcmVzdF9lbmRwb2ludCgiL3Jlc3QvcGluZy52aWV3L2V4dHJhIiksCiAgICAgICAgIiIKICAgICk7Cn0KCiNbdGVzdF0KZm4gc2Nhbm5lcl9sb2NhbF9hZGRyZXNzX2RldGVjdGlvbl9tYXRjaGVzX25vZGVfcmVnZXhfZWRnZXMoKSB7CiAgICBhc3NlcnQhKGlzX3NjYW5uZXJfbG9jYWxfYWRkcmVzcygiMTAuOTk5Ljk5OS45OTkiKSk7CiAgICBhc3NlcnQhKGlzX3NjYW5uZXJfbG9jYWxfYWRkcmVzcygiMTAuMC4wLjE6Nzk5OSIpKTsKICAgIGFzc2VydCEoIWlzX3NjYW5uZXJfbG9jYWxfYWRkcmVzcygiMTAuMC4wLjE6YmFkIikpOwogICAgYXNzZXJ0IShpc19zY2FubmVyX2xvY2FsX2FkZHJlc3MoIjEyNy45OTkuOTk5Ljk5OSIpKTsKICAgIGFzc2VydCEoaXNfc2Nhbm5lcl9sb2NhbF9hZGRyZXNzKCIxOTIuMTY4Ljk5OS45OTkiKSk7CiAgICBhc3NlcnQhKGlzX3NjYW5uZXJfbG9jYWxfYWRkcmVzcygiMTcyLjE2Ljk5OS45OTkiKSk7CiAgICBhc3NlcnQhKGlzX3NjYW5uZXJfbG9jYWxfYWRkcmVzcygiMTcyLjMxLjk5OS45OTkiKSk7CiAgICBhc3NlcnQhKCFpc19zY2FubmVyX2xvY2FsX2FkZHJlc3MoIjE3Mi4zMi4wLjEiKSk7CiAgICBhc3NlcnQhKCFpc19zY2FubmVyX2xvY2FsX2FkZHJlc3MoIjE3Mi4wMTYuMC4xIikpOwogICAgYXNzZXJ0IShpc19zY2FubmVyX2xvY2FsX2FkZHJlc3MoIjo6ZmZmZjoxMC45OTkuOTk5Ljk5OSIpKTsKICAgIGFzc2VydCEoIWlzX3NjYW5uZXJfbG9jYWxfYWRkcmVzcygiOjpmZmZmOjEwLjAuMC4xOmJhZCIpKTsKfQoKI1t0ZXN0XQpmbiBzY2FubmVyX2hvc3Rfbm9ybWFsaXphdGlvbl9wcmVzZXJ2ZXNfbm9kZV9mYWxsYmFja19wb3J0X3J1bGVzKCkgewogICAgYXNzZXJ0X2VxIShub3JtYWxpemVfc2Nhbm5lcl9ob3N0KCJFeGFtcGxlLkNPTTo3OTk5IiksICJleGFtcGxlLmNvbSIpOwogICAgYXNzZXJ0X2VxIShub3JtYWxpemVfc2Nhbm5lcl9ob3N0KCJmb286YmFyIiksICJmb286YmFyIik7CiAgICBhc3NlcnRfZXEhKG5vcm1hbGl6ZV9zY2FubmVyX2hvc3QoImZvbzoxMjNhYmMiKSwgImZvbzoxMjNhYmMiKTsKICAgIGFzc2VydF9lcSEobm9ybWFsaXplX3NjYW5uZXJfaG9zdCgiaHR0cDovL2Zvby5leGFtcGxlL3BhdGgiKSwgImh0dHAiKTsKICAgIGFzc2VydF9lcSEobm9ybWFsaXplX3NjYW5uZXJfaG9zdCgiMjAwMTpkYjg6OjEiKSwgIjIwMDE6ZGI4OiIpOwp9CgojW3Rlc3RdCmZuIGRlZHVwZXNfcmVnaW9uX2lucHV0c19ieV9wcm92aW5jZV9hbmRfcXVlcnlfY2l0eSgpIHsKICAgIGxldCByZWdpb25zID0gZGVkdXBlX3NjYW5uZXJfY2lkcl9leGVtcHRpb25fcmVnaW9uX2lucHV0cyh2ZWMhWwogICAgICAgIFNjYW5uZXJDaWRyRXhlbXB0aW9uUmVnaW9uQm9keSB7CiAgICAgICAgICAgIHByb3ZpbmNlOiAiIOW5v+S4nCAiLnRvX3N0cmluZygpLAogICAgICAgICAgICBxdWVyeV9jaXR5OiBOb25lLAogICAgICAgICAgICBvcGVyYXRvcjogTm9uZSwKICAgICAgICB9LAogICAgICAgIFNjYW5uZXJDaWRyRXhlbXB0aW9uUmVnaW9uQm9keSB7CiAgICAgICAgICAgIHByb3ZpbmNlOiAi5bm/5LicIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgcXVlcnlfY2l0eTogU29tZSgiIi50b19zdHJpbmcoKSksCiAgICAgICAgICAgIG9wZXJhdG9yOiBOb25lLAogICAgICAgIH0sCiAgICAgICAgU2Nhbm5lckNpZHJFeGVtcHRpb25SZWdpb25Cb2R5IHsKICAgICAgICAgICAgcHJvdmluY2U6ICLlub/kuJwiLnRvX3N0cmluZygpLAogICAgICAgICAgICBxdWVyeV9jaXR5OiBTb21lKCLmt7HlnLMiLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgb3BlcmF0b3I6IE5vbmUsCiAgICAgICAgfSwKICAgICAgICBTY2FubmVyQ2lkckV4ZW1wdGlvblJlZ2lvbkJvZHkgewogICAgICAgICAgICBwcm92aW5jZTogIuW5v+S4nCIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIHF1ZXJ5X2NpdHk6IFNvbWUoIua3seWcsyIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICBvcGVyYXRvcjogU29tZShqc29uISgi56e75YqoIikpLAogICAgICAgIH0sCiAgICBdKQogICAgLnVud3JhcCgpOwoKICAgIGFzc2VydF9lcSEocmVnaW9ucy5sZW4oKSwgMyk7CiAgICBhc3NlcnRfZXEhKHJlZ2lvbnNbMF0ucHJvdmluY2UsICLlub/kuJwiKTsKICAgIGFzc2VydF9lcSEocmVnaW9uc1swXS5xdWVyeV9jaXR5LCBOb25lKTsKICAgIGFzc2VydF9lcSEocmVnaW9uc1sxXS5xdWVyeV9jaXR5LmFzX2RlcmVmKCksIFNvbWUoIua3seWcsyIpKTsKICAgIGFzc2VydF9lcSEocmVnaW9uc1syXS5vcGVyYXRvciwgU29tZShDaWRyT3BlcmF0b3I6Ok1vYmlsZSkpOwp9CgojW3Rlc3RdCmZuIHNjYW5uZXJfcmVnaW9uc19yZWplY3Rfbm9uX3N0cmluZ19vcGVyYXRvcigpIHsKICAgIGxldCByZXN1bHQgPQogICAgICAgIGRlZHVwZV9zY2FubmVyX2NpZHJfZXhlbXB0aW9uX3JlZ2lvbl9pbnB1dHModmVjIVtTY2FubmVyQ2lkckV4ZW1wdGlvblJlZ2lvbkJvZHkgewogICAgICAgICAgICBwcm92aW5jZTogIua1meaxnyIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIHF1ZXJ5X2NpdHk6IFNvbWUoIuadreW3niIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICBvcGVyYXRvcjogU29tZShqc29uISh7ICJ1bmV4cGVjdGVkIjogdHJ1ZSB9KSksCiAgICAgICAgfV0pOwogICAgYXNzZXJ0IShyZXN1bHQuaXNfZXJyKCkpOwp9CgojW3Rlc3RdCmZuIGJ1aWxkc19wdWJsaWNfY2lkcl9sb29rdXBfcGF5bG9hZF93aXRoX2NhbWVsX2Nhc2VfZmllbGRzKCkgewogICAgbGV0IHBheWxvYWQgPSBjcmF0ZTo6Y2lkcjo6bG9va3VwX3BheWxvYWRfZnJvbV9kYXRhKAogICAgICAgICZDaWRyUmVnaW9uUXVlcnk6Om5ldygi5bm/5LicIiwgU29tZSgi5rex5ZyzIiksIFNvbWUoQ2lkck9wZXJhdG9yOjpNb2JpbGUpKSwKICAgICAgICAmanNvbiEoewogICAgICAgICAgICAicHJvdmluY2UiOiAi5bm/5LicIiwKICAgICAgICAgICAgImNpdHkiOiAi5rex5ZyzIiwKICAgICAgICAgICAgImNpZHJfZ3JvdXBzIjogewogICAgICAgICAgICAgICAgIjQiOiBbIjEuMS4xLjAvMjQiXSwKICAgICAgICAgICAgICAgICI2IjogWyIyMDAxOmRiODo6LzMyIl0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgImNvdW50cyI6IHsKICAgICAgICAgICAgICAgICI0IjogMTAsCiAgICAgICAgICAgICAgICAiNiI6IDEKICAgICAgICAgICAgfQogICAgICAgIH0pLAogICAgICAgIE5vbmUsCiAgICApOwoKICAgIGFzc2VydF9lcSEocGF5bG9hZFsic2VsZWN0aW9uIl1bInF1ZXJ5Q2l0eSJdLCAi5rex5ZyzIik7CiAgICBhc3NlcnRfZXEhKHBheWxvYWRbInNlbGVjdGlvbiJdWyJvcGVyYXRvciJdLCAi56e75YqoIik7CiAgICBhc3NlcnRfZXEhKHBheWxvYWRbInNlbGVjdGlvbiJdWyJsYWJlbCJdLCAi5rex5ZyzIMK3IOenu+WKqCIpOwogICAgYXNzZXJ0X2VxIShwYXlsb2FkWyJzZWxlY3Rpb24iXVsiaXNQcm92aW5jZVdpZGUiXSwgZmFsc2UpOwogICAgYXNzZXJ0X2VxIShwYXlsb2FkWyJjaWRyR3JvdXBzIl1bImlwdjQiXVswXSwgIjEuMS4xLjAvMjQiKTsKICAgIGFzc2VydF9lcSEocGF5bG9hZFsiY291bnRzIl1bImlwdjQiXSwgMTApOwogICAgYXNzZXJ0X2VxIShwYXlsb2FkWyJ0b3RhbENvdW50Il0sIDExKTsKfQoKI1t0ZXN0XQpmbiBjaWRyX2NpdGllc190b3RhbF9mYWxsYmFja19leGNsdWRlc19wcm92aW5jZV93aWRlX29wdGlvbl9saWtlX25vZGUoKSB7CiAgICBhc3NlcnRfZXEhKGNyYXRlOjpjaWRyOjpjaXRpZXNfdG90YWwoJmpzb24hKHt9KSwgMiksIDIpOwogICAgYXNzZXJ0X2VxIShjcmF0ZTo6Y2lkcjo6Y2l0aWVzX3RvdGFsKCZqc29uISh7ICJ0b3RhbCI6ICI3LjkiIH0pLCAyKSwgNyk7Cn0KCiNbdGVzdF0KZm4gcHVibGljX2NpZHJfcGF5bG9hZF9sb2NhbGl6ZXNfcHJvdmluY2Vfd2lkZV9sYWJlbF9saWtlX25vZGUoKSB7CiAgICBsZXQgZW4gPSBUcmFuc2xhdG9yOjpuZXcoImVuLVVTIik7CiAgICBsZXQgcGF5bG9hZCA9IGNyYXRlOjpjaWRyOjpsb29rdXBfcGF5bG9hZF9mcm9tX2RhdGEoCiAgICAgICAgJkNpZHJSZWdpb25RdWVyeTo6bmV3KCJHdWFuZ2RvbmciLCBOb25lOjo8U3RyaW5nPiwgTm9uZSksCiAgICAgICAgJmpzb24hKHsKICAgICAgICAgICAgInByb3ZpbmNlIjogIkd1YW5nZG9uZyIsCiAgICAgICAgICAgICJjaWRyX2dyb3VwcyI6IHsKICAgICAgICAgICAgICAgICI0IjogW10sCiAgICAgICAgICAgICAgICAiNiI6IFtdCiAgICAgICAgICAgIH0KICAgICAgICB9KSwKICAgICAgICBTb21lKCZlbiksCiAgICApOwoKICAgIGFzc2VydF9lcSEoCiAgICAgICAgY3JhdGU6OmNpZHI6OnByb3ZpbmNlX3dpZGVfbGFiZWwoU29tZSgmZW4pLCAiR3Vhbmdkb25nIiksCiAgICAgICAgIkFsbCBHdWFuZ2RvbmciCiAgICApOwogICAgYXNzZXJ0X2VxIShwYXlsb2FkWyJzZWxlY3Rpb24iXVsibGFiZWwiXSwgIkFsbCBHdWFuZ2RvbmciKTsKICAgIGFzc2VydF9lcSEocGF5bG9hZFsic2VsZWN0aW9uIl1bInZhbHVlIl0sICJfX3Byb3ZpbmNlX2FsbF9fIik7Cn0KCiNbdGVzdF0KZm4gcHVibGljX2NpZHJfcGF5bG9hZF9wcmVzZXJ2ZXNfdXBzdHJlYW1fY2lkcl9hcnJheXNfbGlrZV9ub2RlKCkgewogICAgbGV0IHBheWxvYWQgPSBjcmF0ZTo6Y2lkcjo6bG9va3VwX3BheWxvYWRfZnJvbV9kYXRhKAogICAgICAgICZDaWRyUmVnaW9uUXVlcnk6Om5ldygi5bm/5LicIiwgU29tZSgi5rex5ZyzIiksIE5vbmUpLAogICAgICAgICZqc29uISh7CiAgICAgICAgICAgICJwcm92aW5jZSI6ICLlub/kuJwiLAogICAgICAgICAgICAiY2l0eSI6ICLmt7HlnLMiLAogICAgICAgICAgICAiY2lkcl9ncm91cHMiOiB7CiAgICAgICAgICAgICAgICAiNCI6IFsiMS4xLjEuMC8yNCIsIDEyMywgbnVsbF0sCiAgICAgICAgICAgICAgICAiNiI6IFtdCiAgICAgICAgICAgIH0KICAgICAgICB9KSwKICAgICAgICBOb25lLAogICAgKTsKCiAgICBhc3NlcnRfZXEhKHBheWxvYWRbImNpZHJHcm91cHMiXVsiaXB2NCJdWzBdLCAiMS4xLjEuMC8yNCIpOwogICAgYXNzZXJ0X2VxIShwYXlsb2FkWyJjaWRyR3JvdXBzIl1bImlwdjQiXVsxXSwgMTIzKTsKICAgIGFzc2VydF9lcSEocGF5bG9hZFsiY2lkckdyb3VwcyJdWyJpcHY0Il1bMl0sIFZhbHVlOjpOdWxsKTsKICAgIGFzc2VydF9lcSEocGF5bG9hZFsiY291bnRzIl1bImlwdjQiXSwgMyk7CiAgICBhc3NlcnRfZXEhKHBheWxvYWRbInRvdGFsQ291bnQiXSwgMyk7Cn0KCiNbdGVzdF0KZm4gcmVzb2x2ZXNfY2lkcl9hcGlfYmFzZV91cmxfbGlrZV9ub2RlX2hlbHBlcigpIHsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgY3JhdGU6OmNpZHI6Om5vcm1hbGl6ZV9jaWRyX2FwaV9iYXNlX3VybCgiaHR0cHM6Ly9leGFtcGxlLnRlc3QiKS51bndyYXAoKSwKICAgICAgICAiaHR0cHM6Ly9leGFtcGxlLnRlc3QvYXBpL3YxIgogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgY3JhdGU6OmNpZHI6Om5vcm1hbGl6ZV9jaWRyX2FwaV9iYXNlX3VybCgiaHR0cHM6Ly9leGFtcGxlLnRlc3QvY3VzdG9tLyIpLnVud3JhcCgpLAogICAgICAgICJodHRwczovL2V4YW1wbGUudGVzdC9jdXN0b20iCiAgICApOwp9CgojW3Rlc3RdCmZuIGxvY2FsaXplc19zY2FubmVyX2FuZF9jaWRyX3JvdXRlX2Vycm9ycygpIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6bmV3KCJ6aC1DTiIpOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBsb2NhbGl6ZV9zY2FubmVyX2Vycm9yKCZ0cmFuc2xhdG9yLCAiSW52YWxpZCByZXF1ZXN0IGJvZHkiKSwKICAgICAgICAi6K+35rGC5L2T5LiN5q2j56GuIgogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgbG9jYWxpemVfc2Nhbm5lcl9lcnJvcigmdHJhbnNsYXRvciwgIkF0IGxlYXN0IG9uZSBJUCBpcyByZXF1aXJlZCIpLAogICAgICAgICLor7foh7PlsJHmj5DkvpvkuIDkuKogSVAiCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBsb2NhbGl6ZV9zY2FubmVyX2Vycm9yKCZ0cmFuc2xhdG9yLCAiUGF0aCBtdXN0IGJlIGFic29sdXRlIiksCiAgICAgICAgIui3r+W+hOW/hemhu+S7pSAvIOW8gOWktCIKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGxvY2FsaXplX3NjYW5uZXJfZXJyb3IoJnRyYW5zbGF0b3IsICJQYXRoIGNvbnRhaW5zIGNvbnRyb2wgY2hhcmFjdGVycyIpLAogICAgICAgICLot6/lvoTkuI3og73ljIXlkKvmjqfliLblrZfnrKYiCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBsb2NhbGl6ZV9zY2FubmVyX2Vycm9yKCZ0cmFuc2xhdG9yLCAiSW52YWxpZCBDSURSIGV4ZW1wdGlvbnM6IDEwLjAuMC4wLzMzIiksCiAgICAgICAgIkNJRFIg6LGB5YWN5qC85byP5LiN5q2j56Gu77yaMTAuMC4wLjAvMzMiCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBsb2NhbGl6ZV9jaWRyX2Vycm9yKCZ0cmFuc2xhdG9yLCAiQ0lEUiB1cHN0cmVhbSByZXF1ZXN0IGZhaWxlZDogSFRUUCA1MDIiKSwKICAgICAgICAiQ0lEUiDkuIrmuLjor7fmsYLlpLHotKUgKDUwMikiCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBsb2NhbGl6ZV9jaWRyX2Vycm9yKCZ0cmFuc2xhdG9yLCAiQ0lEUiB1cHN0cmVhbSByZXNwb25zZSBtaXNzaW5nIGRhdGEiKSwKICAgICAgICAiQ0lEUiDkuIrmuLjov5Tlm57lvILluLgiCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBsb2NhbGl6ZV9jaWRyX2Vycm9yKCZ0cmFuc2xhdG9yLCAiQ0lEUiBvcGVyYXRvciBmaWx0ZXJpbmcgaXMgdW5zdXBwb3J0ZWQiKSwKICAgICAgICAi5b2T5YmNIENJRFIg5pyN5Yqh5LiN5pSv5oyB6L+Q6JCl5ZWG562b6YCJ77yM6K+35Y2H57qnIENJRFIg5a655Zmo6IezIDAuMS4zIOaIluabtOmrmOeJiOacrCIKICAgICk7Cn0KCiNbdGVzdF0KZm4gc2Nhbm5lcl9leGVtcHRpb25fcmVzcGVjdHNfcmVxdWlyZWRfbG9naW5fcGF0aF9wcmVjZWRlbmNlKCkgewogICAgbGV0IGNvbmZpZyA9IGpzb24hKHsicnVuX3R5cGUiOiAzLCAiaG9zdF9tYXBwaW5ncyI6IFt7CiAgICAgICAgImhvc3QiOiAiYXBwLmV4YW1wbGUuY29tIiwgInVzZV9hdXRoIjogZmFsc2UsICJhY2Nlc3NfbW9kZSI6ICJsb2dpbl9maXJzdCIsCiAgICAgICAgImxvY2F0aW9ucyI6IFsKICAgICAgICAgICAgeyJwYXRoIjogIi9hZG1pbiIsICJtYXRjaCI6ICJwcmVmaXgiLCAiYXV0aF9tb2RlIjogInJlcXVpcmVfbG9naW4ifSwKICAgICAgICAgICAgeyJwYXRoIjogIi9hZG1pbi9wdWJsaWMiLCAibWF0Y2giOiAicHJlZml4IiwgImF1dGhfbW9kZSI6ICJwdWJsaWMifSwKICAgICAgICAgICAgeyJwYXRoIjogIi9hZG1pbi9wdWJsaWMvcHJpdmF0ZSIsICJtYXRjaCI6ICJleGFjdCIsICJhdXRoX21vZGUiOiAicmVxdWlyZV9sb2dpbiJ9LAogICAgICAgICAgICB7InBhdGgiOiAiL2FkbWluL2hlYWx0aCIsICJtYXRjaCI6ICJleGFjdCIsICJhdXRoX21vZGUiOiAicHVibGljIn0sCiAgICAgICAgICAgIHsicGF0aCI6ICIvZXhhY3QiLCAibWF0Y2giOiAiZXhhY3QiLCAiYXV0aF9tb2RlIjogInJlcXVpcmVfbG9naW4ifQogICAgICAgIF0KICAgIH1dfSk7CiAgICBmb3IgKHBhdGgsIGV4ZW1wdCkgaW4gWwogICAgICAgICgiL2FkbWluIiwgZmFsc2UpLAogICAgICAgICgiL2FkbWluLyIsIGZhbHNlKSwKICAgICAgICAoIi9hZG1pbi94P3F1ZXJ5PTEiLCBmYWxzZSksCiAgICAgICAgKCIvJTYxZG1pbi94IiwgZmFsc2UpLAogICAgICAgICgiL2FkbWluJTJGeCIsIGZhbHNlKSwKICAgICAgICAoIi9hZG1pbi9wdWJsaWMiLCB0cnVlKSwKICAgICAgICAoIi9hZG1pbi9wdWJsaWMveCIsIHRydWUpLAogICAgICAgICgiL2FkbWluL3B1YmxpYy9wcml2YXRlIiwgZmFsc2UpLAogICAgICAgICgiL2FkbWluL3B1YmxpYy9wcml2YXRlL3giLCB0cnVlKSwKICAgICAgICAoIi9hZG1pbi9oZWFsdGgiLCB0cnVlKSwKICAgICAgICAoIi9hZG1pbi9oZWFsdGgvIiwgZmFsc2UpLAogICAgICAgICgiL2FkbWluaXN0cmF0b3IiLCB0cnVlKSwKICAgICAgICAoIi9leGFjdCIsIGZhbHNlKSwKICAgICAgICAoIi9leGFjdC8iLCB0cnVlKSwKICAgICAgICAoIi9vdGhlciIsIHRydWUpLAogICAgXSB7CiAgICAgICAgbGV0IGhlYWRlcnMgPSBIZWFkZXJNYXA6OmZyb21faXRlcihbCiAgICAgICAgICAgICgKICAgICAgICAgICAgICAgIGh0dHA6OmhlYWRlcjo6SGVhZGVyTmFtZTo6ZnJvbV9zdGF0aWMoIngtZm9yd2FyZGVkLWhvc3QiKSwKICAgICAgICAgICAgICAgICJhcHAuZXhhbXBsZS5jb20iLnBhcnNlKCkudW53cmFwKCksCiAgICAgICAgICAgICksCiAgICAgICAgICAgICgKICAgICAgICAgICAgICAgIGh0dHA6OmhlYWRlcjo6SGVhZGVyTmFtZTo6ZnJvbV9zdGF0aWMoIngtZm9yd2FyZGVkLXBhdGgiKSwKICAgICAgICAgICAgICAgIHBhdGgucGFyc2UoKS51bndyYXAoKSwKICAgICAgICAgICAgKSwKICAgICAgICBdKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBpc19yZXF1ZXN0X2V4ZW1wdF9mcm9tX3NjYW4oJmhlYWRlcnMsICYiL2FwaS9hdXRoL3ByZWZsaWdodCIucGFyc2UoKS51bndyYXAoKSwgJmNvbmZpZyksCiAgICAgICAgICAgIGV4ZW1wdCwKICAgICAgICAgICAgIntwYXRofSIKICAgICAgICApOwogICAgfQp9Cg==
+use super::*;
+
+fn defaults() -> ScannerEnvDefaults {
+    ScannerEnvDefaults {
+        enabled: false,
+        window_minutes: 5,
+        threshold: 5,
+        blacklist_ttl_seconds: 90 * 24 * 3600,
+    }
+}
+
+fn preflight_policy(paths: &[&str]) -> ScannerPreflightPolicy {
+    ScannerPreflightPolicy {
+        settings: scanner_settings_from_raw(None, defaults()),
+        path_whitelist: paths.iter().map(|path| (*path).to_string()).collect(),
+        client_ip: String::new(),
+        ip_exempt: true,
+    }
+}
+
+async fn scanner_test_state() -> (tempfile::TempDir, AppState) {
+    let directory = tempfile::tempdir().unwrap();
+    let mut settings = {
+        let _environment = crate::test_support::EnvGuard::new(&[]);
+        crate::settings::Settings::from_env()
+    };
+    settings.runtime_target = "linux".to_string();
+    settings.data_dir = directory.path().join("data");
+    settings.gateway_config_dir = directory.path().join("gateway");
+    settings.sqlite_path = directory.path().join("fn-knock.sqlite3");
+    settings.legacy_redis_url = String::new();
+    settings.go_backend_grpc_addr = "http://127.0.0.1:1".to_string();
+    settings.internal_rpc_token = "test-internal-rpc-token".to_string();
+    let state = AppState::new(settings).await.unwrap();
+    (directory, state)
+}
+
+#[test]
+fn scanner_path_whitelist_uses_defaults_only_when_override_is_absent() {
+    let defaults = default_scanner_path_whitelist();
+    assert!(defaults.contains(&"/sync/event/register".to_string()));
+    assert!(defaults.contains(&"/app-center/v1/check-update".to_string()));
+    assert!(!defaults.iter().any(|path| path.contains('?')));
+    assert_eq!(scanner_path_whitelist_from_raw(None).unwrap(), defaults);
+    assert!(
+        scanner_path_whitelist_from_raw(Some(&json!({ "pathWhitelist": [] })))
+            .unwrap()
+            .is_empty()
+    );
+}
+
+#[test]
+fn scanner_path_whitelist_normalizes_and_stably_deduplicates_entries() {
+    assert_eq!(
+        normalize_scanner_path_whitelist(vec![
+            " /custom/path/?source=test ".to_string(),
+            "/custom/path".to_string(),
+            "/CaseSensitive".to_string(),
+        ])
+        .unwrap(),
+        vec!["/custom/path", "/CaseSensitive"]
+    );
+    assert!(normalize_scanner_path_whitelist(vec![String::new()]).is_err());
+    assert!(normalize_scanner_path_whitelist(vec!["relative".to_string()]).is_err());
+    assert!(normalize_scanner_path_whitelist(vec!["/bad\npath".to_string()]).is_err());
+    assert!(normalize_scanner_path_whitelist(vec!["/bad-path\n".to_string()]).is_err());
+    assert!(normalize_scanner_path_whitelist(vec!["/bad\u{0085}path".to_string()]).is_err());
+}
+
+#[test]
+fn scanner_path_whitelist_matches_exact_normalized_paths_only() {
+    let policy = preflight_policy(&["/custom/path"]);
+    let config = json!({});
+    assert!(is_common_path_for_preflight(
+        "/custom/path/?source=test",
+        &config,
+        &policy,
+    ));
+    assert!(!is_common_path_for_preflight(
+        "/custom/path/child",
+        &config,
+        &policy,
+    ));
+    assert!(!is_common_path_for_preflight(
+        "/Custom/Path",
+        &config,
+        &policy,
+    ));
+}
+
+#[test]
+fn scanner_path_whitelist_removal_does_not_change_structural_exemptions() {
+    let policy = preflight_policy(&[]);
+    assert!(!is_common_path_for_preflight(
+        "/robots.txt",
+        &json!({}),
+        &policy,
+    ));
+    assert!(is_common_path_for_preflight(
+        "/assets/app.js",
+        &json!({}),
+        &policy,
+    ));
+    assert!(is_common_path_for_preflight(
+        "/assets/",
+        &json!({}),
+        &policy,
+    ));
+    assert!(is_common_path_for_preflight("/s/", &json!({}), &policy,));
+    assert!(is_common_path_for_preflight(
+        "/rest/ping.view?u=test",
+        &json!({}),
+        &policy,
+    ));
+    assert!(is_common_path_for_preflight(
+        "/mapped/child",
+        &json!({ "proxy_mappings": [{ "path": "/mapped" }] }),
+        &policy,
+    ));
+}
+
+#[tokio::test]
+async fn scanner_path_whitelist_persists_an_explicit_empty_override() {
+    let (_directory, state) = scanner_test_state().await;
+    let saved = replace_scanner_path_whitelist(&state, Vec::new())
+        .await
+        .unwrap();
+    assert!(saved.paths.is_empty());
+    assert!(!saved.default_paths.is_empty());
+    assert!(
+        load_scanner_path_whitelist(&state)
+            .await
+            .unwrap()
+            .paths
+            .is_empty()
+    );
+    let raw = state
+        .storage
+        .store
+        .scanner_settings_raw()
+        .await
+        .unwrap()
+        .unwrap();
+    assert_eq!(raw["pathWhitelist"], json!([]));
+}
+
+#[tokio::test]
+async fn concurrent_scanner_settings_and_path_whitelist_saves_preserve_both_updates() {
+    let (_directory, state) = scanner_test_state().await;
+    state
+        .storage
+        .store
+        .save_scanner_settings(&json!({
+            "enabled": true,
+            "windowMinutes": 5,
+            "threshold": 2,
+            "blacklistTtlSeconds": 3600,
+            "pathWhitelist": ["/initial"]
+        }))
+        .await
+        .unwrap();
+    let update = UpdateScannerSettingsBody {
+        enabled: false,
+        window_minutes: 10.0,
+        threshold: 4.0,
+        blacklist_ttl_seconds: 7200.0,
+        common_location_exempt_enabled: Some(false),
+        cidr_exemptions: Some(Vec::new()),
+        cidr_exemption_regions: Some(Vec::new()),
+    };
+
+    let (settings_result, whitelist_result) = tokio::join!(
+        save_scanner_settings(&state, update),
+        replace_scanner_path_whitelist(&state, vec!["/custom".to_string()]),
+    );
+    settings_result.unwrap();
+    whitelist_result.unwrap();
+
+    let raw = state
+        .storage
+        .store
+        .scanner_settings_raw()
+        .await
+        .unwrap()
+        .unwrap();
+    assert_eq!(raw["enabled"], json!(false));
+    assert_eq!(raw["windowMinutes"], json!(10));
+    assert_eq!(raw["pathWhitelist"], json!(["/custom"]));
+}
+
+#[tokio::test]
+async fn scanner_false_positive_adds_path_and_unblocks_ip_idempotently() {
+    let (_directory, state) = scanner_test_state().await;
+    let ip = "203.0.113.88";
+    let now = time_utils::now_ms();
+    state
+        .storage
+        .store
+        .save_scanner_settings(&json!({
+            "enabled": true,
+            "windowMinutes": 5,
+            "threshold": 2,
+            "blacklistTtlSeconds": 3600
+        }))
+        .await
+        .unwrap();
+    state
+        .storage
+        .store
+        .record_scanner_suspicious_hit(
+            ip,
+            &json!({ "path": "/legitimate/", "createdAt": now }),
+            now,
+            0,
+            0,
+            3600,
+        )
+        .await
+        .unwrap();
+    state
+        .storage
+        .store
+        .add_scanner_blacklist_record(ip, &json!({ "ip": ip, "hits": [] }), now, 3600)
+        .await
+        .unwrap();
+
+    let first = resolve_scanner_false_positive(&state, ip, "/legitimate/?from=test")
+        .await
+        .unwrap();
+    assert!(first.added);
+    assert!(first.unblocked);
+    assert_eq!(first.path, "/legitimate");
+    assert!(
+        !state
+            .storage
+            .store
+            .scanner_blacklist_exists(ip)
+            .await
+            .unwrap()
+    );
+    assert!(
+        state
+            .storage
+            .store
+            .scanner_suspicious_hits_since(ip, 0)
+            .await
+            .unwrap()
+            .is_empty()
+    );
+
+    state
+        .storage
+        .store
+        .record_scanner_suspicious_hit(
+            ip,
+            &json!({ "path": "/legitimate", "createdAt": now + 1 }),
+            now + 1,
+            0,
+            0,
+            3600,
+        )
+        .await
+        .unwrap();
+    state
+        .storage
+        .store
+        .add_scanner_blacklist_record(ip, &json!({ "ip": ip, "hits": [] }), now + 1, 3600)
+        .await
+        .unwrap();
+    let second = resolve_scanner_false_positive(&state, ip, "/legitimate")
+        .await
+        .unwrap();
+    assert!(!second.added);
+    assert!(second.unblocked);
+    assert!(
+        state
+            .storage
+            .store
+            .scanner_suspicious_hits_since(ip, 0)
+            .await
+            .unwrap()
+            .is_empty()
+    );
+
+    let third = resolve_scanner_false_positive(&state, ip, "/legitimate")
+        .await
+        .unwrap();
+    assert!(!third.added);
+    assert!(!third.unblocked);
+    let raw = state
+        .storage
+        .store
+        .scanner_settings_raw()
+        .await
+        .unwrap()
+        .unwrap();
+    let paths = raw["pathWhitelist"].as_array().unwrap();
+    assert_eq!(
+        paths
+            .iter()
+            .filter(|value| value.as_str() == Some("/legitimate"))
+            .count(),
+        1
+    );
+}
+
+#[test]
+fn scanner_settings_preserve_node_defaults_and_effective_cidrs() {
+    let raw = json!({
+        "enabled": true,
+        "windowMinutes": 2,
+        "threshold": 3,
+        "blacklistTtlSeconds": 120,
+        "commonLocationExemptEnabled": true,
+        "cidrExemptions": [" 10.0.0.0/8 ", "10.0.0.0/8", "bad"],
+        "cidrExemptionRegions": [{
+            "province": "广东",
+            "city": null,
+            "label": "广东全省",
+            "value": "__province_all__",
+            "query_city": null,
+            "is_province_wide": true,
+            "is_municipality": false
+        }],
+        "cidrExemptionRegionCidrs": ["1.1.1.0/24"]
+    });
+
+    let settings = scanner_settings_from_raw(Some(&raw), defaults());
+
+    assert!(settings.enabled);
+    assert_eq!(settings.window_seconds, SCANNER_BASE_WINDOW_SECONDS);
+    assert_eq!(settings.cidr_exemptions, vec!["10.0.0.0/8"]);
+    assert!(settings.cidr_exemption_region_cidrs.is_empty());
+    assert!(settings.cidr_exemption_cidrs.is_empty());
+}
+
+#[test]
+fn scanner_compaction_removes_legacy_arrays_and_deduplicates_equal_policies() {
+    let raw = json!({
+        "enabled": true,
+        "cidrExemptions": [],
+        "cidrExemptionRegions": [{
+            "province": "浙江",
+            "city": null,
+            "label": "浙江全省",
+            "value": "__province_all__",
+            "query_city": null,
+            "is_province_wide": true,
+            "is_municipality": false
+        }],
+        "cidrExemptionRegionCidrs": ["192.0.2.0/25", "192.0.2.128/25"],
+        "cidrExemptionCidrs": ["192.0.2.0/24"]
+    });
+    let (stored, policy) = settings::compact_scanner_settings(&raw).unwrap();
+    assert!(stored.get("cidrExemptionRegionCidrs").is_none());
+    assert!(stored.get("cidrExemptionCidrs").is_none());
+    assert!(stored["cidrExemptionRegionPolicy"].is_object());
+    assert!(stored.get("cidrExemptionPolicy").is_none());
+    assert_eq!(stored["cidrExemptionPolicyId"], json!(policy.id));
+    assert_eq!(stored["cidrExemptionRangeCount"], json!(1));
+}
+
+#[test]
+fn validates_cidr_exemptions_without_canonicalizing_values() {
+    assert_eq!(
+        validate_scanner_cidr_exemptions(vec![
+            " 2001:DB8::/32 ".to_string(),
+            "2001:db8::/32".to_string(),
+            "192.168.0.0/16".to_string(),
+        ])
+        .unwrap(),
+        vec!["2001:DB8::/32", "192.168.0.0/16"]
+    );
+    assert!(validate_scanner_cidr_exemptions(vec!["10.0.0.0/33".to_string()]).is_err());
+}
+
+#[test]
+fn parses_blacklist_delete_body_shapes_like_node() {
+    assert_eq!(
+        parse_blacklist_delete_ips(br#"["1.1.1.1", 2, " 2.2.2.2 "]"#).unwrap(),
+        vec!["1.1.1.1", " 2.2.2.2 "]
+    );
+    assert_eq!(
+        parse_blacklist_delete_ips(br#"{"ips":["3.3.3.3","3.3.3.3"]}"#).unwrap(),
+        vec!["3.3.3.3", "3.3.3.3"]
+    );
+    assert_eq!(
+        parse_blacklist_delete_ips(br#"["   "]"#).unwrap(),
+        vec!["   "]
+    );
+    assert!(parse_blacklist_delete_ips(br#""not-json""#).is_err());
+}
+
+#[test]
+fn scanner_query_int_parser_matches_node_parse_int_edges() {
+    assert_eq!(parse_i64(None, 20), 20);
+    assert_eq!(parse_i64(Some(""), 20), 20);
+    assert_eq!(parse_i64(Some("   "), 20), 20);
+    assert_eq!(parse_i64(Some("2x"), 20), 2);
+    assert_eq!(parse_i64(Some("  +3.9"), 20), 3);
+    assert_eq!(parse_i64(Some("-1"), 20), -1);
+}
+
+#[test]
+fn subsonic_rest_endpoint_parser_matches_node_route_regex() {
+    assert_eq!(normalize_subsonic_rest_endpoint("/rest/ping.view"), "ping");
+    assert_eq!(
+        normalize_subsonic_rest_endpoint("/rest/getLicense.json"),
+        "getlicense"
+    );
+    assert_eq!(normalize_subsonic_rest_endpoint("/rest/ping.xml"), "ping");
+    assert_eq!(normalize_subsonic_rest_endpoint("/rest/ping"), "ping");
+    assert_eq!(normalize_subsonic_rest_endpoint("/rest/ping.bad"), "");
+    assert_eq!(normalize_subsonic_rest_endpoint("/rest/foo/bar"), "");
+    assert_eq!(
+        normalize_subsonic_rest_endpoint("/rest/ping.view/extra"),
+        ""
+    );
+}
+
+#[test]
+fn scanner_local_address_detection_matches_node_regex_edges() {
+    assert!(is_scanner_local_address("10.999.999.999"));
+    assert!(is_scanner_local_address("10.0.0.1:7999"));
+    assert!(!is_scanner_local_address("10.0.0.1:bad"));
+    assert!(is_scanner_local_address("127.999.999.999"));
+    assert!(is_scanner_local_address("192.168.999.999"));
+    assert!(is_scanner_local_address("172.16.999.999"));
+    assert!(is_scanner_local_address("172.31.999.999"));
+    assert!(!is_scanner_local_address("172.32.0.1"));
+    assert!(!is_scanner_local_address("172.016.0.1"));
+    assert!(is_scanner_local_address("::ffff:10.999.999.999"));
+    assert!(!is_scanner_local_address("::ffff:10.0.0.1:bad"));
+}
+
+#[test]
+fn scanner_host_normalization_preserves_node_fallback_port_rules() {
+    assert_eq!(normalize_scanner_host("Example.COM:7999"), "example.com");
+    assert_eq!(normalize_scanner_host("foo:bar"), "foo:bar");
+    assert_eq!(normalize_scanner_host("foo:123abc"), "foo:123abc");
+    assert_eq!(normalize_scanner_host("http://foo.example/path"), "http");
+    assert_eq!(normalize_scanner_host("2001:db8::1"), "2001:db8:");
+}
+
+#[test]
+fn dedupes_region_inputs_by_province_and_query_city() {
+    let regions = dedupe_scanner_cidr_exemption_region_inputs(vec![
+        ScannerCidrExemptionRegionBody {
+            province: " 广东 ".to_string(),
+            query_city: None,
+            operator: None,
+        },
+        ScannerCidrExemptionRegionBody {
+            province: "广东".to_string(),
+            query_city: Some("".to_string()),
+            operator: None,
+        },
+        ScannerCidrExemptionRegionBody {
+            province: "广东".to_string(),
+            query_city: Some("深圳".to_string()),
+            operator: None,
+        },
+        ScannerCidrExemptionRegionBody {
+            province: "广东".to_string(),
+            query_city: Some("深圳".to_string()),
+            operator: Some(json!("移动")),
+        },
+    ])
+    .unwrap();
+
+    assert_eq!(regions.len(), 3);
+    assert_eq!(regions[0].province, "广东");
+    assert_eq!(regions[0].query_city, None);
+    assert_eq!(regions[1].query_city.as_deref(), Some("深圳"));
+    assert_eq!(regions[2].operator, Some(CidrOperator::Mobile));
+}
+
+#[test]
+fn scanner_regions_reject_non_string_operator() {
+    let result =
+        dedupe_scanner_cidr_exemption_region_inputs(vec![ScannerCidrExemptionRegionBody {
+            province: "浙江".to_string(),
+            query_city: Some("杭州".to_string()),
+            operator: Some(json!({ "unexpected": true })),
+        }]);
+    assert!(result.is_err());
+}
+
+#[test]
+fn builds_public_cidr_lookup_payload_with_camel_case_fields() {
+    let payload = crate::cidr::lookup_payload_from_data(
+        &CidrRegionQuery::new("广东", Some("深圳"), Some(CidrOperator::Mobile)),
+        &json!({
+            "province": "广东",
+            "city": "深圳",
+            "cidr_groups": {
+                "4": ["1.1.1.0/24"],
+                "6": ["2001:db8::/32"]
+            },
+            "counts": {
+                "4": 10,
+                "6": 1
+            }
+        }),
+        None,
+    );
+
+    assert_eq!(payload["selection"]["queryCity"], "深圳");
+    assert_eq!(payload["selection"]["operator"], "移动");
+    assert_eq!(payload["selection"]["label"], "深圳 · 移动");
+    assert_eq!(payload["selection"]["isProvinceWide"], false);
+    assert_eq!(payload["cidrGroups"]["ipv4"][0], "1.1.1.0/24");
+    assert_eq!(payload["counts"]["ipv4"], 10);
+    assert_eq!(payload["totalCount"], 11);
+}
+
+#[test]
+fn cidr_cities_total_fallback_excludes_province_wide_option_like_node() {
+    assert_eq!(crate::cidr::cities_total(&json!({}), 2), 2);
+    assert_eq!(crate::cidr::cities_total(&json!({ "total": "7.9" }), 2), 7);
+}
+
+#[test]
+fn public_cidr_payload_localizes_province_wide_label_like_node() {
+    let en = Translator::new("en-US");
+    let payload = crate::cidr::lookup_payload_from_data(
+        &CidrRegionQuery::new("Guangdong", None::<String>, None),
+        &json!({
+            "province": "Guangdong",
+            "cidr_groups": {
+                "4": [],
+                "6": []
+            }
+        }),
+        Some(&en),
+    );
+
+    assert_eq!(
+        crate::cidr::province_wide_label(Some(&en), "Guangdong"),
+        "All Guangdong"
+    );
+    assert_eq!(payload["selection"]["label"], "All Guangdong");
+    assert_eq!(payload["selection"]["value"], "__province_all__");
+}
+
+#[test]
+fn public_cidr_payload_preserves_upstream_cidr_arrays_like_node() {
+    let payload = crate::cidr::lookup_payload_from_data(
+        &CidrRegionQuery::new("广东", Some("深圳"), None),
+        &json!({
+            "province": "广东",
+            "city": "深圳",
+            "cidr_groups": {
+                "4": ["1.1.1.0/24", 123, null],
+                "6": []
+            }
+        }),
+        None,
+    );
+
+    assert_eq!(payload["cidrGroups"]["ipv4"][0], "1.1.1.0/24");
+    assert_eq!(payload["cidrGroups"]["ipv4"][1], 123);
+    assert_eq!(payload["cidrGroups"]["ipv4"][2], Value::Null);
+    assert_eq!(payload["counts"]["ipv4"], 3);
+    assert_eq!(payload["totalCount"], 3);
+}
+
+#[test]
+fn resolves_cidr_api_base_url_like_node_helper() {
+    assert_eq!(
+        crate::cidr::normalize_cidr_api_base_url("https://example.test").unwrap(),
+        "https://example.test/api/v1"
+    );
+    assert_eq!(
+        crate::cidr::normalize_cidr_api_base_url("https://example.test/custom/").unwrap(),
+        "https://example.test/custom"
+    );
+}
+
+#[test]
+fn localizes_scanner_and_cidr_route_errors() {
+    let translator = Translator::new("zh-CN");
+    assert_eq!(
+        localize_scanner_error(&translator, "Invalid request body"),
+        "请求体不正确"
+    );
+    assert_eq!(
+        localize_scanner_error(&translator, "At least one IP is required"),
+        "请至少提供一个 IP"
+    );
+    assert_eq!(
+        localize_scanner_error(&translator, "Path must be absolute"),
+        "路径必须以 / 开头"
+    );
+    assert_eq!(
+        localize_scanner_error(&translator, "Path contains control characters"),
+        "路径不能包含控制字符"
+    );
+    assert_eq!(
+        localize_scanner_error(&translator, "Invalid CIDR exemptions: 10.0.0.0/33"),
+        "CIDR 豁免格式不正确：10.0.0.0/33"
+    );
+    assert_eq!(
+        localize_cidr_error(&translator, "CIDR upstream request failed: HTTP 502"),
+        "CIDR 上游请求失败 (502)"
+    );
+    assert_eq!(
+        localize_cidr_error(&translator, "CIDR upstream response missing data"),
+        "CIDR 上游返回异常"
+    );
+    assert_eq!(
+        localize_cidr_error(&translator, "CIDR operator filtering is unsupported"),
+        "当前 CIDR 服务不支持运营商筛选，请升级 CIDR 容器至 0.1.3 或更高版本"
+    );
+}
+
+#[test]
+fn scanner_exemption_respects_required_login_path_precedence() {
+    let config = json!({"run_type": 3, "host_mappings": [{
+        "host": "app.example.com", "use_auth": false, "access_mode": "login_first",
+        "locations": [
+            {"path": "/admin", "match": "prefix", "auth_mode": "require_login"},
+            {"path": "/admin/public", "match": "prefix", "auth_mode": "public"},
+            {"path": "/admin/public/private", "match": "exact", "auth_mode": "require_login"},
+            {"path": "/admin/health", "match": "exact", "auth_mode": "public"},
+            {"path": "/exact", "match": "exact", "auth_mode": "require_login"}
+        ]
+    }]});
+    for (path, exempt) in [
+        ("/admin", false),
+        ("/admin/", false),
+        ("/admin/x?query=1", false),
+        ("/%61dmin/x", false),
+        ("/admin%2Fx", false),
+        ("/admin/public", true),
+        ("/admin/public/x", true),
+        ("/admin/public/private", false),
+        ("/admin/public/private/x", true),
+        ("/admin/health", true),
+        ("/admin/health/", false),
+        ("/administrator", true),
+        ("/exact", false),
+        ("/exact/", true),
+        ("/other", true),
+    ] {
+        let headers = HeaderMap::from_iter([
+            (
+                http::header::HeaderName::from_static("x-forwarded-host"),
+                "app.example.com".parse().unwrap(),
+            ),
+            (
+                http::header::HeaderName::from_static("x-forwarded-path"),
+                path.parse().unwrap(),
+            ),
+        ]);
+        assert_eq!(
+            is_request_exempt_from_scan(&headers, &"/api/auth/preflight".parse().unwrap(), &config),
+            exempt,
+            "{path}"
+        );
+    }
+}

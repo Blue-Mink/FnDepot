@@ -1,1 +1,200 @@
-aW1wb3J0IHsgZmx1c2hQcm9taXNlcywgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBjcmVhdGVJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBjcmVhdGVNZW1vcnlIaXN0b3J5LCBjcmVhdGVSb3V0ZXIgfSBmcm9tICJ2dWUtcm91dGVyIjsKaW1wb3J0IHsgYWZ0ZXJFYWNoLCBiZWZvcmVFYWNoLCBkZXNjcmliZSwgZXhwZWN0LCBpdCwgdmkgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBHYXRld2F5TG9nc0FQSSB9IGZyb20gIi4uL3NyYy9saWIvYXBpL2dhdGV3YXkiOwppbXBvcnQgeyBDb25maWdBUEkgfSBmcm9tICIuLi9zcmMvbGliL2FwaS9jb25maWciOwppbXBvcnQgR2F0ZXdheUxvZ2dpbmdTZXR0aW5ncyBmcm9tICIuLi9zcmMvdmlld3Mvc3lzdGVtLXNldHRpbmdzL0dhdGV3YXlMb2dnaW5nU2V0dGluZ3MudnVlIjsKaW1wb3J0IHsgZW5BZG1pbiB9IGZyb20gIi4uLy4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL21lc3NhZ2VzL2FkbWluL2VuIjsKCmNvbnN0IG1vY2sgPSB2aS5ob2lzdGVkKCgpID0+ICh7CiAgbG9hZENvbmZpZzogdmkuZm4oKSwKICBlcnJvcjogdmkuZm4oKSwKICBzdWNjZXNzOiB2aS5mbigpLAp9KSk7CnZpLm1vY2soIi4uL3NyYy9zdG9yZS9jb25maWciLCAoKSA9PiAoewogIHVzZUNvbmZpZ1N0b3JlOiAoKSA9PiAoewogICAgbG9hZENvbmZpZzogbW9jay5sb2FkQ29uZmlnLAogICAgaXNEb2NrZXJEZXBsb3ltZW50OiBmYWxzZSwKICB9KSwKfSkpOwp2aS5tb2NrKCJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IiwgKCkgPT4gKHsKICB0b2FzdDogeyBlcnJvcjogbW9jay5lcnJvciwgc3VjY2VzczogbW9jay5zdWNjZXNzIH0sCn0pKTsKY29uc3QgaW5pdGlhbCA9IHsKICBlbmFibGVkOiB0cnVlLAogIHJlY29yZF9sb2NhbGhvc3Q6IGZhbHNlLAogIG1heF9kYXlzOiA3LAogIGxvZ3NfZGlyOiAiL21udC9vbGQiLAogIGN1c3RvbV9sb2dzX2RpcjogIi9tbnQvb2xkIiwKICBkZWZhdWx0X2xvZ3NfZGlyOiAiL3J1bnRpbWUvbG9ncyIsCiAgZHJvcHBlZF9lbnRyaWVzOiAwLAogIHF1ZXVlX3NpemU6IDAsCiAgcXVldWVfZGVwdGg6IDAsCn07CmNvbnN0IHdyYXBwZXJzOiBSZXR1cm5UeXBlPHR5cGVvZiBtb3VudD5bXSA9IFtdOwpiZWZvcmVFYWNoKCgpID0+IHsKICB2aS5jbGVhckFsbE1vY2tzKCk7CiAgdmkuc3B5T24oR2F0ZXdheUxvZ3NBUEksICJnZXRDb25maWciKS5tb2NrUmVzb2x2ZWRWYWx1ZSh7IC4uLmluaXRpYWwgfSk7CiAgdmkuc3B5T24oR2F0ZXdheUxvZ3NBUEksICJ1cGRhdGVDb25maWciKS5tb2NrSW1wbGVtZW50YXRpb24oCiAgICBhc3luYyAodmFsdWUpID0+ICh7CiAgICAgIC4uLmluaXRpYWwsCiAgICAgIC4uLnZhbHVlLAogICAgICBsb2dzX2RpcjogdmFsdWUuY3VzdG9tX2xvZ3NfZGlyIHx8IGluaXRpYWwuZGVmYXVsdF9sb2dzX2RpciwKICAgICAgY3VzdG9tX2xvZ3NfZGlyOiB2YWx1ZS5jdXN0b21fbG9nc19kaXIgfHwgIiIsCiAgICB9KSwKICApOwogIG1vY2subG9hZENvbmZpZy5tb2NrUmVzb2x2ZWRWYWx1ZSh1bmRlZmluZWQpOwp9KTsKYWZ0ZXJFYWNoKCgpID0+IHsKICBmb3IgKGNvbnN0IHdyYXBwZXIgb2Ygd3JhcHBlcnMuc3BsaWNlKDApKSB3cmFwcGVyLnVubW91bnQoKTsKICB2aS5yZXN0b3JlQWxsTW9ja3MoKTsKICBkb2N1bWVudC5ib2R5LmlubmVySFRNTCA9ICIiOwp9KTsKY29uc3Qgc2V0dXAgPSBhc3luYyAoaGFzaCA9ICIiKSA9PiB7CiAgY29uc3Qgcm91dGVyID0gY3JlYXRlUm91dGVyKHsKICAgIGhpc3Rvcnk6IGNyZWF0ZU1lbW9yeUhpc3RvcnkoKSwKICAgIHJvdXRlczogW3sgcGF0aDogIi9zeXN0ZW0iLCBjb21wb25lbnQ6IEdhdGV3YXlMb2dnaW5nU2V0dGluZ3MgfV0sCiAgfSk7CiAgYXdhaXQgcm91dGVyLnB1c2goYC9zeXN0ZW0/dGFiPWdhdGV3YXktbG9nZ2luZyR7aGFzaH1gKTsKICBjb25zdCB3cmFwcGVyID0gbW91bnQoR2F0ZXdheUxvZ2dpbmdTZXR0aW5ncywgewogICAgYXR0YWNoVG86IGRvY3VtZW50LmJvZHksCiAgICBnbG9iYWw6IHsKICAgICAgcGx1Z2luczogWwogICAgICAgIHJvdXRlciwKICAgICAgICBjcmVhdGVJMThuKHsKICAgICAgICAgIGxlZ2FjeTogZmFsc2UsCiAgICAgICAgICBsb2NhbGU6ICJlbiIsCiAgICAgICAgICBtZXNzYWdlczogeyBlbjogeyBhZG1pbjogZW5BZG1pbiwgY29tbW9uOiB7IGNhbmNlbDogIkNhbmNlbCIgfSB9IH0sCiAgICAgICAgfSksCiAgICAgIF0sCiAgICAgIHN0dWJzOiB7CiAgICAgICAgRmxvYXRpbmdBY3Rpb25Eb2NrOiB7IHRlbXBsYXRlOiAnPGRpdj48c2xvdCBuYW1lPSJpbmxpbmUiIC8+PC9kaXY+JyB9LAogICAgICB9LAogICAgfSwKICB9KTsKICB3cmFwcGVycy5wdXNoKHdyYXBwZXIpOwogIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICByZXR1cm4gd3JhcHBlcjsKfTsKY29uc3QgYnV0dG9uID0gKHdyYXBwZXI6IFJldHVyblR5cGU8dHlwZW9mIG1vdW50PiwgdGV4dDogc3RyaW5nKSA9PiB7CiAgY29uc3QgcmVzdWx0ID0gd3JhcHBlci5maW5kQWxsKCJidXR0b24iKS5maW5kKChpdGVtKSA9PiBpdGVtLnRleHQoKSA9PT0gdGV4dCk7CiAgaWYgKCFyZXN1bHQpIHRocm93IG5ldyBFcnJvcihgTWlzc2luZyBidXR0b246ICR7dGV4dH1gKTsKICByZXR1cm4gcmVzdWx0Owp9OwoKZGVzY3JpYmUoInJlcXVlc3QgbG9nIHN0b3JhZ2Ugc2V0dGluZ3MiLCAoKSA9PiB7CiAgaXQoInN0YWdlcyBkaXJlY3RvcnkgY2hhbmdlcywgcmV2ZXJ0cyBlZGl0cywgYW5kIHNhdmVzIGEgZGVmYXVsdCByZXNldCBleHBsaWNpdGx5IiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IGF3YWl0IHNldHVwKCk7CiAgICBjb25zdCBpbnB1dCA9IHdyYXBwZXIuZ2V0KCIjZ2F0ZXdheS1sb2ctZGlyZWN0b3J5Iik7CiAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLnRvQ29udGFpbigiQWN0aXZlIGxvY2F0aW9uOiAvbW50L29sZCIpOwogICAgZXhwZWN0KHdyYXBwZXIudGV4dCgpKS50b0NvbnRhaW4oIkRlZmF1bHQgbG9jYXRpb246IC9ydW50aW1lL2xvZ3MiKTsKICAgIGF3YWl0IGlucHV0LnNldFZhbHVlKCIvbW50L+aXpeW/lyBmb2xkZXIiKTsKICAgIGV4cGVjdChHYXRld2F5TG9nc0FQSS51cGRhdGVDb25maWcpLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICBhd2FpdCBidXR0b24od3JhcHBlciwgZW5BZG1pbi5nYXRld2F5TG9nZ2luZy5yZXNldCkudHJpZ2dlcigiY2xpY2siKTsKICAgIGV4cGVjdCgoaW5wdXQuZWxlbWVudCBhcyBIVE1MSW5wdXRFbGVtZW50KS52YWx1ZSkudG9CZSgiL21udC9vbGQiKTsKICAgIGF3YWl0IGJ1dHRvbih3cmFwcGVyLCAiUmVzdG9yZSBkZWZhdWx0IGxvY2F0aW9uIikudHJpZ2dlcigiY2xpY2siKTsKICAgIGV4cGVjdCgoaW5wdXQuZWxlbWVudCBhcyBIVE1MSW5wdXRFbGVtZW50KS52YWx1ZSkudG9CZSgiIik7CiAgICBleHBlY3QoR2F0ZXdheUxvZ3NBUEkudXBkYXRlQ29uZmlnKS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogICAgYXdhaXQgYnV0dG9uKHdyYXBwZXIsIGVuQWRtaW4uZ2F0ZXdheUxvZ2dpbmcuc2F2ZVNldHRpbmdzKS50cmlnZ2VyKCJjbGljayIpOwogICAgYXdhaXQgZmx1c2hQcm9taXNlcygpOwogICAgZXhwZWN0KEdhdGV3YXlMb2dzQVBJLnVwZGF0ZUNvbmZpZykudG9IYXZlQmVlbkNhbGxlZFdpdGgoewogICAgICBlbmFibGVkOiB0cnVlLAogICAgICByZWNvcmRfbG9jYWxob3N0OiBmYWxzZSwKICAgICAgbWF4X2RheXM6IDcsCiAgICAgIGN1c3RvbV9sb2dzX2RpcjogIiIsCiAgICB9KTsKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKCJBY3RpdmUgbG9jYXRpb246IC9ydW50aW1lL2xvZ3MiKTsKICB9KTsKICBpdCgia2VlcHMgdGhlIGRyYWZ0IGFuZCBhY3RpdmUgcGF0aCB3aGVuIHNhdmluZyBmYWlscyIsIGFzeW5jICgpID0+IHsKICAgIHZpLm1vY2tlZChHYXRld2F5TG9nc0FQSS51cGRhdGVDb25maWcpLm1vY2tSZWplY3RlZFZhbHVlKAogICAgICBuZXcgRXJyb3IoIlBlcm1pc3Npb24gZGVuaWVkIiksCiAgICApOwogICAgY29uc3Qgd3JhcHBlciA9IGF3YWl0IHNldHVwKCk7CiAgICBhd2FpdCB3cmFwcGVyLmdldCgiI2dhdGV3YXktbG9nLWRpcmVjdG9yeSIpLnNldFZhbHVlKCIvcmVhZC1vbmx5L2xvZ3MiKTsKICAgIGF3YWl0IGJ1dHRvbih3cmFwcGVyLCBlbkFkbWluLmdhdGV3YXlMb2dnaW5nLnNhdmVTZXR0aW5ncykudHJpZ2dlcigiY2xpY2siKTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgIGV4cGVjdChtb2NrLmVycm9yKS50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLnRvQ29udGFpbigiQWN0aXZlIGxvY2F0aW9uOiAvbW50L29sZCIpOwogICAgZXhwZWN0KAogICAgICAod3JhcHBlci5nZXQoIiNnYXRld2F5LWxvZy1kaXJlY3RvcnkiKS5lbGVtZW50IGFzIEhUTUxJbnB1dEVsZW1lbnQpLnZhbHVlLAogICAgKS50b0JlKCIvcmVhZC1vbmx5L2xvZ3MiKTsKICAgIGV4cGVjdCgKICAgICAgYnV0dG9uKHdyYXBwZXIsIGVuQWRtaW4uZ2F0ZXdheUxvZ2dpbmcuc2F2ZVNldHRpbmdzKS5hdHRyaWJ1dGVzKAogICAgICAgICJkaXNhYmxlZCIsCiAgICAgICksCiAgICApLnRvQmVVbmRlZmluZWQoKTsKICB9KTsKICBpdCgicmVmcmVzaGVzIHRoZSBhY3R1YWwgZGlyZWN0b3J5IGFmdGVyIGFuIHVuY2VydGFpbiBzYXZlIHdoaWxlIHByZXNlcnZpbmcgdGhlIGRyYWZ0IiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IGF3YWl0IHNldHVwKCk7CiAgICB2aS5tb2NrZWQoR2F0ZXdheUxvZ3NBUEkudXBkYXRlQ29uZmlnKS5tb2NrUmVqZWN0ZWRWYWx1ZSgKICAgICAgbmV3IEVycm9yKCJHYXRld2F5IHRpbWVvdXQiKSwKICAgICk7CiAgICB2aS5tb2NrZWQoR2F0ZXdheUxvZ3NBUEkuZ2V0Q29uZmlnKS5tb2NrUmVzb2x2ZWRWYWx1ZSh7CiAgICAgIC4uLmluaXRpYWwsCiAgICAgIGxvZ3NfZGlyOiAiL21udC9hY3RpdmUtYWZ0ZXItdGltZW91dCIsCiAgICB9KTsKICAgIGF3YWl0IHdyYXBwZXIuZ2V0KCIjZ2F0ZXdheS1sb2ctZGlyZWN0b3J5Iikuc2V0VmFsdWUoIi9tbnQvZHJhZnQiKTsKICAgIGF3YWl0IGJ1dHRvbih3cmFwcGVyLCBlbkFkbWluLmdhdGV3YXlMb2dnaW5nLnNhdmVTZXR0aW5ncykudHJpZ2dlcigiY2xpY2siKTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKAogICAgICAiQWN0aXZlIGxvY2F0aW9uOiAvbW50L2FjdGl2ZS1hZnRlci10aW1lb3V0IiwKICAgICk7CiAgICBleHBlY3QoCiAgICAgICh3cmFwcGVyLmdldCgiI2dhdGV3YXktbG9nLWRpcmVjdG9yeSIpLmVsZW1lbnQgYXMgSFRNTElucHV0RWxlbWVudCkudmFsdWUsCiAgICApLnRvQmUoIi9tbnQvZHJhZnQiKTsKICB9KTsKICBpdCgic2VsZWN0cyBhIGRpcmVjdG9yeSB0aHJvdWdoIHRoZSBleGlzdGluZyBicm93c2VyIHdpdGhvdXQgc2F2aW5nIGltbWVkaWF0ZWx5IiwgYXN5bmMgKCkgPT4gewogICAgdmkuc3B5T24oQ29uZmlnQVBJLCAiYnJvd3NlSG9zdE1hcHBpbmdTdGF0aWNQYXRoIikubW9ja1Jlc29sdmVkVmFsdWUoewogICAgICBicmVhZGNydW1iczogW10sCiAgICAgIGN1cnJlbnRfcGF0aDogIi9tbnQvbmV3IiwKICAgICAgY3VycmVudF9zZWxlY3RhYmxlOiB0cnVlLAogICAgICBlbnRyaWVzOiBbXSwKICAgICAgZXJyb3JfY29kZTogbnVsbCwKICAgICAgbmV4dF9jdXJzb3I6IG51bGwsCiAgICAgIHBhcmVudF9wYXRoOiAiL21udCIsCiAgICAgIHBsYXRmb3JtOiAicG9zaXgiLAogICAgICBwcmV2aW91c19jdXJzb3I6IG51bGwsCiAgICAgIHNlbGVjdGVkX3BhdGg6IG51bGwsCiAgICAgIHRhcmdldF90eXBlOiAiZGlyZWN0b3J5IiwKICAgIH0pOwogICAgdmkuc3B5T24oQ29uZmlnQVBJLCAicHJvYmVIb3N0TWFwcGluZ1N0YXRpY1BhdGgiKS5tb2NrUmVzb2x2ZWRWYWx1ZSh7CiAgICAgIGFjdHVhbF90eXBlOiAiZGlyZWN0b3J5IiwKICAgICAgZXJyb3JfY29kZTogbnVsbCwKICAgICAgZXhpc3RzOiB0cnVlLAogICAgICBub3JtYWxpemVkX3BhdGg6ICIvbW50L25ldyIsCiAgICAgIHJlYWRhYmxlOiB0cnVlLAogICAgICB0YXJnZXRfdHlwZTogImRpcmVjdG9yeSIsCiAgICB9KTsKICAgIGNvbnN0IHdyYXBwZXIgPSBhd2FpdCBzZXR1cCgpOwogICAgYXdhaXQgYnV0dG9uKHdyYXBwZXIsICJCcm93c2UgZm9sZGVycyIpLnRyaWdnZXIoImNsaWNrIik7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CiAgICBleHBlY3QoQ29uZmlnQVBJLmJyb3dzZUhvc3RNYXBwaW5nU3RhdGljUGF0aCkudG9IYXZlQmVlbkNhbGxlZFdpdGgoCiAgICAgICJkaXJlY3RvcnkiLAogICAgICAiL21udC9vbGQiLAogICAgICBudWxsLAogICAgICB0cnVlLAogICAgKTsKICAgIGNvbnN0IGNob29zZSA9IFsuLi5kb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJidXR0b24iKV0uZmluZCgKICAgICAgKGl0ZW0pID0+IGl0ZW0udGV4dENvbnRlbnQ/LnRyaW0oKSA9PT0gIlVzZSB0aGlzIGZvbGRlciIsCiAgICApOwogICAgZXhwZWN0KGNob29zZSkudG9CZVRydXRoeSgpOwogICAgY2hvb3NlIS5jbGljaygpOwogICAgYXdhaXQgZmx1c2hQcm9taXNlcygpOwogICAgZXhwZWN0KENvbmZpZ0FQSS5wcm9iZUhvc3RNYXBwaW5nU3RhdGljUGF0aCkudG9IYXZlQmVlbkNhbGxlZFdpdGgoCiAgICAgICJkaXJlY3RvcnkiLAogICAgICAiL21udC9uZXciLAogICAgICB0cnVlLAogICAgKTsKICAgIGV4cGVjdCgKICAgICAgKHdyYXBwZXIuZ2V0KCIjZ2F0ZXdheS1sb2ctZGlyZWN0b3J5IikuZWxlbWVudCBhcyBIVE1MSW5wdXRFbGVtZW50KS52YWx1ZSwKICAgICkudG9CZSgiL21udC9uZXciKTsKICAgIGV4cGVjdChHYXRld2F5TG9nc0FQSS51cGRhdGVDb25maWcpLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgfSk7CiAgaXQoImZvY3VzZXMgdGhlIHN0b3JhZ2UgaW5wdXQgYWZ0ZXIgZm9sbG93aW5nIHRoZSBvYnNlcnZhdGlvbiBsaW5rIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IGF3YWl0IHNldHVwKCIjZ2F0ZXdheS1sb2ctZGlyZWN0b3J5Iik7CiAgICBleHBlY3QoZG9jdW1lbnQuYWN0aXZlRWxlbWVudCkudG9CZSgKICAgICAgd3JhcHBlci5nZXQoIiNnYXRld2F5LWxvZy1kaXJlY3RvcnkiKS5lbGVtZW50LAogICAgKTsKICB9KTsKfSk7Cg==
+import { flushPromises, mount } from "@vue/test-utils";
+import { createI18n } from "vue-i18n";
+import { createMemoryHistory, createRouter } from "vue-router";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { GatewayLogsAPI } from "../src/lib/api/gateway";
+import { ConfigAPI } from "../src/lib/api/config";
+import GatewayLoggingSettings from "../src/views/system-settings/GatewayLoggingSettings.vue";
+import { enAdmin } from "../../../packages/i18n/src/messages/admin/en";
+
+const mock = vi.hoisted(() => ({
+  loadConfig: vi.fn(),
+  error: vi.fn(),
+  success: vi.fn(),
+}));
+vi.mock("../src/store/config", () => ({
+  useConfigStore: () => ({
+    loadConfig: mock.loadConfig,
+    isDockerDeployment: false,
+  }),
+}));
+vi.mock("@admin-shared/utils/toast", () => ({
+  toast: { error: mock.error, success: mock.success },
+}));
+const initial = {
+  enabled: true,
+  record_localhost: false,
+  max_days: 7,
+  logs_dir: "/mnt/old",
+  custom_logs_dir: "/mnt/old",
+  default_logs_dir: "/runtime/logs",
+  dropped_entries: 0,
+  queue_size: 0,
+  queue_depth: 0,
+};
+const wrappers: ReturnType<typeof mount>[] = [];
+beforeEach(() => {
+  vi.clearAllMocks();
+  vi.spyOn(GatewayLogsAPI, "getConfig").mockResolvedValue({ ...initial });
+  vi.spyOn(GatewayLogsAPI, "updateConfig").mockImplementation(
+    async (value) => ({
+      ...initial,
+      ...value,
+      logs_dir: value.custom_logs_dir || initial.default_logs_dir,
+      custom_logs_dir: value.custom_logs_dir || "",
+    }),
+  );
+  mock.loadConfig.mockResolvedValue(undefined);
+});
+afterEach(() => {
+  for (const wrapper of wrappers.splice(0)) wrapper.unmount();
+  vi.restoreAllMocks();
+  document.body.innerHTML = "";
+});
+const setup = async (hash = "") => {
+  const router = createRouter({
+    history: createMemoryHistory(),
+    routes: [{ path: "/system", component: GatewayLoggingSettings }],
+  });
+  await router.push(`/system?tab=gateway-logging${hash}`);
+  const wrapper = mount(GatewayLoggingSettings, {
+    attachTo: document.body,
+    global: {
+      plugins: [
+        router,
+        createI18n({
+          legacy: false,
+          locale: "en",
+          messages: { en: { admin: enAdmin, common: { cancel: "Cancel" } } },
+        }),
+      ],
+      stubs: {
+        FloatingActionDock: { template: '<div><slot name="inline" /></div>' },
+      },
+    },
+  });
+  wrappers.push(wrapper);
+  await flushPromises();
+  return wrapper;
+};
+const button = (wrapper: ReturnType<typeof mount>, text: string) => {
+  const result = wrapper.findAll("button").find((item) => item.text() === text);
+  if (!result) throw new Error(`Missing button: ${text}`);
+  return result;
+};
+
+describe("request log storage settings", () => {
+  it("stages directory changes, reverts edits, and saves a default reset explicitly", async () => {
+    const wrapper = await setup();
+    const input = wrapper.get("#gateway-log-directory");
+    expect(wrapper.text()).toContain("Active location: /mnt/old");
+    expect(wrapper.text()).toContain("Default location: /runtime/logs");
+    await input.setValue("/mnt/日志 folder");
+    expect(GatewayLogsAPI.updateConfig).not.toHaveBeenCalled();
+    await button(wrapper, enAdmin.gatewayLogging.reset).trigger("click");
+    expect((input.element as HTMLInputElement).value).toBe("/mnt/old");
+    await button(wrapper, "Restore default location").trigger("click");
+    expect((input.element as HTMLInputElement).value).toBe("");
+    expect(GatewayLogsAPI.updateConfig).not.toHaveBeenCalled();
+    await button(wrapper, enAdmin.gatewayLogging.saveSettings).trigger("click");
+    await flushPromises();
+    expect(GatewayLogsAPI.updateConfig).toHaveBeenCalledWith({
+      enabled: true,
+      record_localhost: false,
+      max_days: 7,
+      custom_logs_dir: "",
+    });
+    expect(wrapper.text()).toContain("Active location: /runtime/logs");
+  });
+  it("keeps the draft and active path when saving fails", async () => {
+    vi.mocked(GatewayLogsAPI.updateConfig).mockRejectedValue(
+      new Error("Permission denied"),
+    );
+    const wrapper = await setup();
+    await wrapper.get("#gateway-log-directory").setValue("/read-only/logs");
+    await button(wrapper, enAdmin.gatewayLogging.saveSettings).trigger("click");
+    await flushPromises();
+    expect(mock.error).toHaveBeenCalled();
+    expect(wrapper.text()).toContain("Active location: /mnt/old");
+    expect(
+      (wrapper.get("#gateway-log-directory").element as HTMLInputElement).value,
+    ).toBe("/read-only/logs");
+    expect(
+      button(wrapper, enAdmin.gatewayLogging.saveSettings).attributes(
+        "disabled",
+      ),
+    ).toBeUndefined();
+  });
+  it("refreshes the actual directory after an uncertain save while preserving the draft", async () => {
+    const wrapper = await setup();
+    vi.mocked(GatewayLogsAPI.updateConfig).mockRejectedValue(
+      new Error("Gateway timeout"),
+    );
+    vi.mocked(GatewayLogsAPI.getConfig).mockResolvedValue({
+      ...initial,
+      logs_dir: "/mnt/active-after-timeout",
+    });
+    await wrapper.get("#gateway-log-directory").setValue("/mnt/draft");
+    await button(wrapper, enAdmin.gatewayLogging.saveSettings).trigger("click");
+    await flushPromises();
+    expect(wrapper.text()).toContain(
+      "Active location: /mnt/active-after-timeout",
+    );
+    expect(
+      (wrapper.get("#gateway-log-directory").element as HTMLInputElement).value,
+    ).toBe("/mnt/draft");
+  });
+  it("selects a directory through the existing browser without saving immediately", async () => {
+    vi.spyOn(ConfigAPI, "browseHostMappingStaticPath").mockResolvedValue({
+      breadcrumbs: [],
+      current_path: "/mnt/new",
+      current_selectable: true,
+      entries: [],
+      error_code: null,
+      next_cursor: null,
+      parent_path: "/mnt",
+      platform: "posix",
+      previous_cursor: null,
+      selected_path: null,
+      target_type: "directory",
+    });
+    vi.spyOn(ConfigAPI, "probeHostMappingStaticPath").mockResolvedValue({
+      actual_type: "directory",
+      error_code: null,
+      exists: true,
+      normalized_path: "/mnt/new",
+      readable: true,
+      target_type: "directory",
+    });
+    const wrapper = await setup();
+    await button(wrapper, "Browse folders").trigger("click");
+    await flushPromises();
+    expect(ConfigAPI.browseHostMappingStaticPath).toHaveBeenCalledWith(
+      "directory",
+      "/mnt/old",
+      null,
+      true,
+    );
+    const choose = [...document.querySelectorAll("button")].find(
+      (item) => item.textContent?.trim() === "Use this folder",
+    );
+    expect(choose).toBeTruthy();
+    choose!.click();
+    await flushPromises();
+    expect(ConfigAPI.probeHostMappingStaticPath).toHaveBeenCalledWith(
+      "directory",
+      "/mnt/new",
+      true,
+    );
+    expect(
+      (wrapper.get("#gateway-log-directory").element as HTMLInputElement).value,
+    ).toBe("/mnt/new");
+    expect(GatewayLogsAPI.updateConfig).not.toHaveBeenCalled();
+  });
+  it("focuses the storage input after following the observation link", async () => {
+    const wrapper = await setup("#gateway-log-directory");
+    expect(document.activeElement).toBe(
+      wrapper.get("#gateway-log-directory").element,
+    );
+  });
+});

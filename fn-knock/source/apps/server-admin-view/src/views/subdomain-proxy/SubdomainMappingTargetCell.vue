@@ -1,1 +1,64 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEZpbGUsIEZvbGRlciwgTmV0d29yayB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgVGFibGVDZWxsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RhYmxlIjsKaW1wb3J0IHR5cGUgeyBIb3N0TWFwcGluZyB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgewogIGdldEhvc3RNYXBwaW5nVGFyZ2V0VGV4dCwKICBub3JtYWxpemVIb3N0TWFwcGluZ1RhcmdldFR5cGUsCn0gZnJvbSAiLi9tb2RlbCI7Cgp3aXRoRGVmYXVsdHMoCiAgZGVmaW5lUHJvcHM8ewogICAgYXNDZWxsPzogYm9vbGVhbjsKICAgIGNvbXBhY3Q/OiBib29sZWFuOwogICAgbWFwcGluZzogSG9zdE1hcHBpbmc7CiAgICB1bmF2YWlsYWJsZTogYm9vbGVhbjsKICB9PigpLAogIHsKICAgIGFzQ2VsbDogdHJ1ZSwKICAgIGNvbXBhY3Q6IGZhbHNlLAogIH0sCik7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8Y29tcG9uZW50CiAgICA6aXM9ImFzQ2VsbCA/IFRhYmxlQ2VsbCA6ICdkaXYnIgogICAgOmNsYXNzPSJ7ICd0ZXh0LW11dGVkLWZvcmVncm91bmQnOiB1bmF2YWlsYWJsZSB9IgogID4KICAgIDxkaXYgY2xhc3M9ImZsZXggbWluLXctMCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICA8TmV0d29yawogICAgICAgIHYtaWY9Im5vcm1hbGl6ZUhvc3RNYXBwaW5nVGFyZ2V0VHlwZShtYXBwaW5nLnRhcmdldF90eXBlKSA9PT0gJ3Byb3h5JyIKICAgICAgICBjbGFzcz0iaC0zLjUgdy0zLjUgc2hyaW5rLTAgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAvPgogICAgICA8RmlsZQogICAgICAgIHYtZWxzZS1pZj0ibWFwcGluZy50YXJnZXRfdHlwZSA9PT0gJ2ZpbGUnIgogICAgICAgIGNsYXNzPSJoLTMuNSB3LTMuNSBzaHJpbmstMCB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgIC8+CiAgICAgIDxGb2xkZXIgdi1lbHNlIGNsYXNzPSJoLTMuNSB3LTMuNSBzaHJpbmstMCB0ZXh0LW11dGVkLWZvcmVncm91bmQiIC8+CiAgICAgIDxzcGFuCiAgICAgICAgOmNsYXNzPSJbCiAgICAgICAgICAnbWluLXctMCBmb250LW1vbm8gdGV4dC14cycsCiAgICAgICAgICBjb21wYWN0ID8gJ3RydW5jYXRlIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCcgOiAnYnJlYWstYWxsJywKICAgICAgICBdIgogICAgICAgIDp0aXRsZT0iZ2V0SG9zdE1hcHBpbmdUYXJnZXRUZXh0KG1hcHBpbmcpIgogICAgICA+CiAgICAgICAge3sgZ2V0SG9zdE1hcHBpbmdUYXJnZXRUZXh0KG1hcHBpbmcpIH19CiAgICAgIDwvc3Bhbj4KICAgICAgPEJhZGdlCiAgICAgICAgdi1pZj0ibm9ybWFsaXplSG9zdE1hcHBpbmdUYXJnZXRUeXBlKG1hcHBpbmcudGFyZ2V0X3R5cGUpICE9PSAncHJveHknIgogICAgICAgIHZhcmlhbnQ9InNlY29uZGFyeSIKICAgICAgICBjbGFzcz0ic2hyaW5rLTAgdGV4dC1bMTBweF0iCiAgICAgID4KICAgICAgICB7ewogICAgICAgICAgdCgKICAgICAgICAgICAgYGFkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLnRhcmdldFR5cGVzLiR7bm9ybWFsaXplSG9zdE1hcHBpbmdUYXJnZXRUeXBlKG1hcHBpbmcudGFyZ2V0X3R5cGUpfWAsCiAgICAgICAgICApCiAgICAgICAgfX0KICAgICAgPC9CYWRnZT4KICAgIDwvZGl2PgogIDwvY29tcG9uZW50Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { File, Folder, Network } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import { TableCell } from "@/components/ui/table";
+import type { HostMapping } from "@/types";
+import {
+  getHostMappingTargetText,
+  normalizeHostMappingTargetType,
+} from "./model";
+
+withDefaults(
+  defineProps<{
+    asCell?: boolean;
+    compact?: boolean;
+    mapping: HostMapping;
+    unavailable: boolean;
+  }>(),
+  {
+    asCell: true,
+    compact: false,
+  },
+);
+const { t } = useI18n();
+</script>
+
+<template>
+  <component
+    :is="asCell ? TableCell : 'div'"
+    :class="{ 'text-muted-foreground': unavailable }"
+  >
+    <div class="flex min-w-0 items-center gap-2">
+      <Network
+        v-if="normalizeHostMappingTargetType(mapping.target_type) === 'proxy'"
+        class="h-3.5 w-3.5 shrink-0 text-muted-foreground"
+      />
+      <File
+        v-else-if="mapping.target_type === 'file'"
+        class="h-3.5 w-3.5 shrink-0 text-muted-foreground"
+      />
+      <Folder v-else class="h-3.5 w-3.5 shrink-0 text-muted-foreground" />
+      <span
+        :class="[
+          'min-w-0 font-mono text-xs',
+          compact ? 'truncate text-muted-foreground' : 'break-all',
+        ]"
+        :title="getHostMappingTargetText(mapping)"
+      >
+        {{ getHostMappingTargetText(mapping) }}
+      </span>
+      <Badge
+        v-if="normalizeHostMappingTargetType(mapping.target_type) !== 'proxy'"
+        variant="secondary"
+        class="shrink-0 text-[10px]"
+      >
+        {{
+          t(
+            `admin.subdomainProxy.staticServe.targetTypes.${normalizeHostMappingTargetType(mapping.target_type)}`,
+          )
+        }}
+      </Badge>
+    </div>
+  </component>
+</template>

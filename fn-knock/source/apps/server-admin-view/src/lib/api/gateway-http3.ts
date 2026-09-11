@@ -1,1 +1,17 @@
-aW1wb3J0IHsgYXBpQ2xpZW50IH0gZnJvbSAiLi9jbGllbnQiOwoKaW1wb3J0IHR5cGUgeyBjb21wb25lbnRzIH0gZnJvbSAiQGZuLWtub2NrL2FwaS1jb250cmFjdCI7CgpleHBvcnQgdHlwZSBHYXRld2F5SHR0cDNDb25maWcgPQogIGNvbXBvbmVudHNbInNjaGVtYXMiXVsiR2F0ZXdheUh0dHAzVXBkYXRlRGF0YSJdOwpleHBvcnQgdHlwZSBHYXRld2F5SHR0cDNTdGF0dXMgPSBjb21wb25lbnRzWyJzY2hlbWFzIl1bIkdhdGV3YXlIdHRwM0RhdGEiXTsKZXhwb3J0IGNvbnN0IGdhdGV3YXlIdHRwM0FwaSA9IHsKICBhc3luYyBnZXQoKTogUHJvbWlzZTxHYXRld2F5SHR0cDNTdGF0dXM+IHsKICAgIHJldHVybiAoYXdhaXQgYXBpQ2xpZW50LmdldCgiL2NvbmZpZy9nYXRld2F5L2h0dHAzIikpLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHNldChjb25maWc6IEdhdGV3YXlIdHRwM0NvbmZpZyk6IFByb21pc2U8R2F0ZXdheUh0dHAzU3RhdHVzPiB7CiAgICByZXR1cm4gKAogICAgICBhd2FpdCBhcGlDbGllbnQucG9zdCgiL2NvbmZpZy9nYXRld2F5L2h0dHAzIiwgY29uZmlnLCB7IHRpbWVvdXQ6IDQ1MDAwIH0pCiAgICApLmRhdGEuZGF0YTsKICB9LAp9Owo=
+import { apiClient } from "./client";
+
+import type { components } from "@fn-knock/api-contract";
+
+export type GatewayHttp3Config =
+  components["schemas"]["GatewayHttp3UpdateData"];
+export type GatewayHttp3Status = components["schemas"]["GatewayHttp3Data"];
+export const gatewayHttp3Api = {
+  async get(): Promise<GatewayHttp3Status> {
+    return (await apiClient.get("/config/gateway/http3")).data.data;
+  },
+  async set(config: GatewayHttp3Config): Promise<GatewayHttp3Status> {
+    return (
+      await apiClient.post("/config/gateway/http3", config, { timeout: 45000 })
+    ).data.data;
+  },
+};

@@ -1,1 +1,28 @@
-aW1wb3J0IHR5cGUgeyBIb3N0TWFwcGluZyB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgdHlwZSB7IEhvc3RNYXBwaW5nQXZhaWxhYmlsaXR5U3RhdGUgfSBmcm9tICIuL21vZGVsIjsKaW1wb3J0IHR5cGUgeyBNYXBwaW5nU3RhdHVzVG9vbHRpcCB9IGZyb20gIi4vdXNlU3ViZG9tYWluVG91Y2hUb29sdGlwcyI7CgpleHBvcnQgaW50ZXJmYWNlIFN1YmRvbWFpbk1hcHBpbmdTdGF0dXNJbmRpY2F0b3JzUHJvcHMgewogIGF2YWlsYWJpbGl0eVN0YXRlOiBIb3N0TWFwcGluZ0F2YWlsYWJpbGl0eVN0YXRlOwogIGF2YWlsYWJpbGl0eVdpbmRvdzogc3RyaW5nOwogIGZvcm1hdEhvc3Q6IChob3N0OiBzdHJpbmcpID0+IHN0cmluZzsKICBoYW5kbGVNYXBwaW5nU3RhdHVzVG9vbHRpcE9wZW5DaGFuZ2U6ICgKICAgIGhvc3Q6IHN0cmluZywKICAgIHRvb2x0aXA6IE1hcHBpbmdTdGF0dXNUb29sdGlwLAogICAgb3BlbjogYm9vbGVhbiwKICApID0+IHZvaWQ7CiAgaGFuZGxlTWFwcGluZ1N0YXR1c1Rvb2x0aXBUcmlnZ2VyQ2xpY2s6ICgKICAgIGhvc3Q6IHN0cmluZywKICAgIHRvb2x0aXA6IE1hcHBpbmdTdGF0dXNUb29sdGlwLAogICkgPT4gdm9pZDsKICBnbG9iYWxWaXNpYmlsaXR5RW5hYmxlZDogYm9vbGVhbjsKICBnbG9iYWxXYWZFbmFibGVkOiBib29sZWFuOwogIGlzQXV0aFNlcnZpY2U6IGJvb2xlYW47CiAgaXNHYXRld2F5UG9ydGFsRW5hYmxlZDogYm9vbGVhbjsKICBpc0RlZmF1bHREb21haW5BdmFpbGFibGU6IGJvb2xlYW47CiAgaXNNYXBwaW5nU3RhdHVzVG9vbHRpcE9wZW46ICgKICAgIGhvc3Q6IHN0cmluZywKICAgIHRvb2x0aXA6IE1hcHBpbmdTdGF0dXNUb29sdGlwLAogICkgPT4gYm9vbGVhbjsKICBtYXBwaW5nOiBIb3N0TWFwcGluZzsKfQo=
+import type { HostMapping } from "@/types";
+import type { HostMappingAvailabilityState } from "./model";
+import type { MappingStatusTooltip } from "./useSubdomainTouchTooltips";
+
+export interface SubdomainMappingStatusIndicatorsProps {
+  availabilityState: HostMappingAvailabilityState;
+  availabilityWindow: string;
+  formatHost: (host: string) => string;
+  handleMappingStatusTooltipOpenChange: (
+    host: string,
+    tooltip: MappingStatusTooltip,
+    open: boolean,
+  ) => void;
+  handleMappingStatusTooltipTriggerClick: (
+    host: string,
+    tooltip: MappingStatusTooltip,
+  ) => void;
+  globalVisibilityEnabled: boolean;
+  globalWafEnabled: boolean;
+  isAuthService: boolean;
+  isGatewayPortalEnabled: boolean;
+  isDefaultDomainAvailable: boolean;
+  isMappingStatusTooltipOpen: (
+    host: string,
+    tooltip: MappingStatusTooltip,
+  ) => boolean;
+  mapping: HostMapping;
+}

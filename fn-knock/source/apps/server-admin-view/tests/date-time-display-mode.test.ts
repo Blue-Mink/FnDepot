@@ -1,1 +1,73 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHRlc3QgZnJvbSAibm9kZTp0ZXN0IjsKCmltcG9ydCB7CiAgYXBwbHlEYXRlVGltZURpc3BsYXlDb25maWcsCiAgYXBwbHlEYXRlVGltZURpc3BsYXlNb2RlLAogIG5vcm1hbGl6ZURhdGVUaW1lRGlzcGxheU1vZGUsCiAgdXNlRGF0ZVRpbWVEaXNwbGF5U3RhdGUsCn0gZnJvbSAiLi4vLi4vLi4vcGFja2FnZXMvYWRtaW4tc2hhcmVkL3NyYy9jb21wb3NhYmxlcy91c2VEYXRlVGltZURpc3BsYXlTdGF0ZSI7Cgpjb25zdCByZWFkU291cmNlID0gKHBhdGg6IHN0cmluZykgPT4KICByZWFkRmlsZVN5bmMobmV3IFVSTChwYXRoLCBpbXBvcnQubWV0YS51cmwpLCAidXRmOCIpOwoKdGVzdCgiZGF0ZS10aW1lIGRpc3BsYXkgbW9kZSBkZWZhdWx0cyBpbnZhbGlkIGFuZCBsZWdhY3kgdmFsdWVzIHRvIGh1bWFuLWZyaWVuZGx5IiwgKCkgPT4gewogIGFzc2VydC5lcXVhbChub3JtYWxpemVEYXRlVGltZURpc3BsYXlNb2RlKCksICJodW1hbl9mcmllbmRseSIpOwogIGFzc2VydC5lcXVhbChub3JtYWxpemVEYXRlVGltZURpc3BsYXlNb2RlKCJpbnZhbGlkIiksICJodW1hbl9mcmllbmRseSIpOwogIGFzc2VydC5lcXVhbChub3JtYWxpemVEYXRlVGltZURpc3BsYXlNb2RlKCJmdWxsIiksICJmdWxsIik7Cn0pOwoKdGVzdCgiZGF0ZS10aW1lIGRpc3BsYXkgY29uZmlnIHVwZGF0ZXMgc2hhcmVkIHJlYWN0aXZlIHN0YXRlIiwgKCkgPT4gewogIGNvbnN0IHsgZGF0ZVRpbWVEaXNwbGF5TW9kZSB9ID0gdXNlRGF0ZVRpbWVEaXNwbGF5U3RhdGUoKTsKCiAgYXBwbHlEYXRlVGltZURpc3BsYXlDb25maWcoeyBkYXRlX3RpbWVfZGlzcGxheV9tb2RlOiAiZnVsbCIgfSk7CiAgYXNzZXJ0LmVxdWFsKGRhdGVUaW1lRGlzcGxheU1vZGUudmFsdWUsICJmdWxsIik7CgogIGFwcGx5RGF0ZVRpbWVEaXNwbGF5Q29uZmlnKG51bGwpOwogIGFzc2VydC5lcXVhbChkYXRlVGltZURpc3BsYXlNb2RlLnZhbHVlLCAiaHVtYW5fZnJpZW5kbHkiKTsKCiAgYXBwbHlEYXRlVGltZURpc3BsYXlNb2RlKCJodW1hbl9mcmllbmRseSIpOwp9KTsKCnRlc3QoIkh1bWFuRnJpZW5kbHlUaW1lIHNob3dzIHRoZSBvcHBvc2l0ZSBmb3JtYXQgaW4gaXRzIGRlZmF1bHQgdG9vbHRpcCIsICgpID0+IHsKICBjb25zdCBzb3VyY2UgPSByZWFkU291cmNlKAogICAgIi4uLy4uLy4uL3BhY2thZ2VzL2FkbWluLXNoYXJlZC9zcmMvY29tcG9uZW50cy9jb21tb24vSHVtYW5GcmllbmRseVRpbWUudnVlIiwKICApOwoKICBhc3NlcnQubWF0Y2goc291cmNlLCAvZGF0ZVRpbWVEaXNwbGF5TW9kZVwudmFsdWUgPT09ICJmdWxsIi91KTsKICBhc3NlcnQubWF0Y2goc291cmNlLCAvXD8gZnVsbFRleHRcLnZhbHVlXHMqOlxzKmh1bWFuRnJpZW5kbHlUZXh0XC52YWx1ZS91KTsKICBhc3NlcnQubWF0Y2goCiAgICBzb3VyY2UsCiAgICAvZGF0ZVRpbWVEaXNwbGF5TW9kZVwudmFsdWUgPT09ICJmdWxsIlxzKlw/IGh1bWFuRnJpZW5kbHlUZXh0XC52YWx1ZVxzKjpccypmdWxsVGV4dFwudmFsdWUvdSwKICApOwogIGFzc2VydC5tYXRjaCgKICAgIHNvdXJjZSwKICAgIC9kaXNwbGF5TW9kZSA9PT0gImZ1bGwiICYmIGN1c3RvbVRvb2x0aXBMaW5lQ291bnQgPiAwL3UsCiAgKTsKICBhc3NlcnQubWF0Y2goc291cmNlLCAvc3RvcFRpbWVyXChcKS91KTsKICBhc3NlcnQubWF0Y2goc291cmNlLCAvY3VzdG9tVG9vbHRpcExpbmVzXC52YWx1ZVwubGVuZ3RoID4gMC91KTsKfSk7Cgp0ZXN0KCJmZWF0dXJlcyBzZXR0aW5ncyBleHBvc2VzIGFuIGF1dG8tc2F2aW5nIHNlZ21lbnRlZCBzZWxlY3RvciIsICgpID0+IHsKICBjb25zdCB2aWV3U291cmNlID0gcmVhZFNvdXJjZSgKICAgICIuLi9zcmMvdmlld3Mvc3lzdGVtLXNldHRpbmdzL0ZlYXR1cmVzU2V0dGluZ3MudnVlIiwKICApOwogIGNvbnN0IHJvd1NvdXJjZSA9IHJlYWRTb3VyY2UoCiAgICAiLi4vc3JjL3ZpZXdzL3N5c3RlbS1zZXR0aW5ncy9EYXRlVGltZURpc3BsYXlTZXR0aW5nUm93LnZ1ZSIsCiAgKTsKICBjb25zdCBjb250cm9sbGVyU291cmNlID0gcmVhZFNvdXJjZSgKICAgICIuLi9zcmMvdmlld3Mvc3lzdGVtLXNldHRpbmdzL3VzZUZlYXR1cmVzU2V0dGluZ3MudHMiLAogICk7CgogIGFzc2VydC5tYXRjaCh2aWV3U291cmNlLCAvPERhdGVUaW1lRGlzcGxheVNldHRpbmdSb3cvdSk7CiAgYXNzZXJ0Lm1hdGNoKHZpZXdTb3VyY2UsIC9AY2hhbmdlPSJzYXZlRGF0ZVRpbWVEaXNwbGF5TW9kZSIvdSk7CiAgYXNzZXJ0Lm1hdGNoKHJvd1NvdXJjZSwgL3JvbGU9Imdyb3VwIi91KTsKICBhc3NlcnQubWF0Y2gocm93U291cmNlLCAvc2VsZWN0TW9kZVwoJ2h1bWFuX2ZyaWVuZGx5J1wpL3UpOwogIGFzc2VydC5tYXRjaChyb3dTb3VyY2UsIC9zZWxlY3RNb2RlXCgnZnVsbCdcKS91KTsKICBhc3NlcnQubWF0Y2goCiAgICBjb250cm9sbGVyU291cmNlLAogICAgL2RhdGVfdGltZV9kaXNwbGF5X21vZGU6XHMqbmV4dFZhbHVlL3UsCiAgKTsKICBhc3NlcnQubWF0Y2goY29udHJvbGxlclNvdXJjZSwgL2FwcGx5RGF0ZVRpbWVEaXNwbGF5TW9kZVwocHJldmlvdXNWYWx1ZVwpL3UpOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import test from "node:test";
+
+import {
+  applyDateTimeDisplayConfig,
+  applyDateTimeDisplayMode,
+  normalizeDateTimeDisplayMode,
+  useDateTimeDisplayState,
+} from "../../../packages/admin-shared/src/composables/useDateTimeDisplayState";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+test("date-time display mode defaults invalid and legacy values to human-friendly", () => {
+  assert.equal(normalizeDateTimeDisplayMode(), "human_friendly");
+  assert.equal(normalizeDateTimeDisplayMode("invalid"), "human_friendly");
+  assert.equal(normalizeDateTimeDisplayMode("full"), "full");
+});
+
+test("date-time display config updates shared reactive state", () => {
+  const { dateTimeDisplayMode } = useDateTimeDisplayState();
+
+  applyDateTimeDisplayConfig({ date_time_display_mode: "full" });
+  assert.equal(dateTimeDisplayMode.value, "full");
+
+  applyDateTimeDisplayConfig(null);
+  assert.equal(dateTimeDisplayMode.value, "human_friendly");
+
+  applyDateTimeDisplayMode("human_friendly");
+});
+
+test("HumanFriendlyTime shows the opposite format in its default tooltip", () => {
+  const source = readSource(
+    "../../../packages/admin-shared/src/components/common/HumanFriendlyTime.vue",
+  );
+
+  assert.match(source, /dateTimeDisplayMode\.value === "full"/u);
+  assert.match(source, /\? fullText\.value\s*:\s*humanFriendlyText\.value/u);
+  assert.match(
+    source,
+    /dateTimeDisplayMode\.value === "full"\s*\? humanFriendlyText\.value\s*:\s*fullText\.value/u,
+  );
+  assert.match(
+    source,
+    /displayMode === "full" && customTooltipLineCount > 0/u,
+  );
+  assert.match(source, /stopTimer\(\)/u);
+  assert.match(source, /customTooltipLines\.value\.length > 0/u);
+});
+
+test("features settings exposes an auto-saving segmented selector", () => {
+  const viewSource = readSource(
+    "../src/views/system-settings/FeaturesSettings.vue",
+  );
+  const rowSource = readSource(
+    "../src/views/system-settings/DateTimeDisplaySettingRow.vue",
+  );
+  const controllerSource = readSource(
+    "../src/views/system-settings/useFeaturesSettings.ts",
+  );
+
+  assert.match(viewSource, /<DateTimeDisplaySettingRow/u);
+  assert.match(viewSource, /@change="saveDateTimeDisplayMode"/u);
+  assert.match(rowSource, /role="group"/u);
+  assert.match(rowSource, /selectMode\('human_friendly'\)/u);
+  assert.match(rowSource, /selectMode\('full'\)/u);
+  assert.match(
+    controllerSource,
+    /date_time_display_mode:\s*nextValue/u,
+  );
+  assert.match(controllerSource, /applyDateTimeDisplayMode\(previousValue\)/u);
+});

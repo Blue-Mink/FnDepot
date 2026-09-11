@@ -1,1 +1,106 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaApzZXQgLWV1byBwaXBlZmFpbAoKQVJDSElWRT0iJHsxOi19IgpbIC1mICIke0FSQ0hJVkV9IiBdIHx8IHsgcHJpbnRmICdbZm4ta25vY2stbWFjb3Mtc21va2VdIGFyY2hpdmUgaXMgbWlzc2luZzogJXNcbicgIiR7QVJDSElWRX0iID4mMjsgZXhpdCAxOyB9ClsgIiQodW5hbWUgLXMpIiA9IERhcndpbiBdIHx8IHsgcHJpbnRmICdbZm4ta25vY2stbWFjb3Mtc21va2VdIG1hY09TIGlzIHJlcXVpcmVkXG4nID4mMjsgZXhpdCAxOyB9CgpXT1JLX0RJUj0iJChta3RlbXAgLWQgIiR7VE1QRElSOi0vdG1wfS9mbi1rbm9jay1tYWNvcy1zbW9rZS5YWFhYWFgiKSIKRU5UUllQT0lOVF9QSUQ9IiIKUlVTVF9QSUQ9IiIKR09fUElEPSIiCmNsZWFudXAoKSB7CiAgaWYgWyAtbiAiJHtFTlRSWVBPSU5UX1BJRH0iIF0gJiYga2lsbCAtMCAiJHtFTlRSWVBPSU5UX1BJRH0iIDI+L2Rldi9udWxsOyB0aGVuCiAgICBraWxsICIke0VOVFJZUE9JTlRfUElEfSIgMj4vZGV2L251bGwgfHwgdHJ1ZQogICAgd2FpdCAiJHtFTlRSWVBPSU5UX1BJRH0iIDI+L2Rldi9udWxsIHx8IHRydWUKICBmaQogIGZvciBydW50aW1lX3BpZCBpbiAiJHtSVVNUX1BJRH0iICIke0dPX1BJRH0iOyBkbwogICAgaWYgWyAtbiAiJHtydW50aW1lX3BpZH0iIF0gJiYga2lsbCAtMCAiJHtydW50aW1lX3BpZH0iIDI+L2Rldi9udWxsOyB0aGVuCiAgICAgIGtpbGwgIiR7cnVudGltZV9waWR9IiAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgICBmaQogIGRvbmUKICBybSAtcmYgIiR7V09SS19ESVJ9Igp9CnRyYXAgY2xlYW51cCBFWElUIElOVCBURVJNCgp0YXIgLXh6ZiAiJHtBUkNISVZFfSIgLUMgIiR7V09SS19ESVJ9IgpBUFBfSE9NRT0iJHtXT1JLX0RJUn0vZm4ta25vY2siClsgLXggIiR7QVBQX0hPTUV9L2Jpbi9mbi1rbm9jay1lbnRyeXBvaW50IiBdIHx8IHsgcHJpbnRmICdbZm4ta25vY2stbWFjb3Mtc21va2VdIGVudHJ5cG9pbnQgaXMgbWlzc2luZ1xuJyA+JjI7IGV4aXQgMTsgfQoKQkFTRV9QT1JUPSQoKDI0MDAwICsgKCQkICUgMTAwMDApKSkKZm9yIG9mZnNldCBpbiAwIDEgMiAzIDQ7IGRvCiAgaWYgL3Vzci9zYmluL2xzb2YgLW5QIC1pVENQOiIkKChCQVNFX1BPUlQgKyBvZmZzZXQpKSIgLXNUQ1A6TElTVEVOID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgcHJpbnRmICdbZm4ta25vY2stbWFjb3Mtc21va2VdIHNlbGVjdGVkIHBvcnQgaXMgYnVzeTogJXNcbicgIiQoKEJBU0VfUE9SVCArIG9mZnNldCkpIiA+JjIKICAgIGV4aXQgMQogIGZpCmRvbmUKCkZOX0tOT0NLX0FQUF9IT01FPSIke0FQUF9IT01FfSIgXApGTl9LTk9DS19URVNUX01PREU9MSBcCkZOX0tOT0NLX0FQUF9ST09UPSIke1dPUktfRElSfS9BcHBsaWNhdGlvbiBTdXBwb3J0L0ZuS25vY2siIFwKRk5fS05PQ0tfREFUQV9ESVI9IiR7V09SS19ESVJ9L0FwcGxpY2F0aW9uIFN1cHBvcnQvRm5Lbm9jay9kYXRhIiBcCkZOX0tOT0NLX0dBVEVXQVlfQ09ORklHX0RJUj0iJHtXT1JLX0RJUn0vQXBwbGljYXRpb24gU3VwcG9ydC9Gbktub2NrL2NvbmZpZy9nYXRld2F5IiBcCkJBQ0tFTkRfUE9SVD0iJCgoQkFTRV9QT1JUICsgMSkpIiBcCkFVVEhfUE9SVD0iJCgoQkFTRV9QT1JUICsgMikpIiBcCkFETUlOX1ZJRVdfUE9SVD0iJHtCQVNFX1BPUlR9IiBcCkdPX0JBQ0tFTkRfUE9SVD0iJCgoQkFTRV9QT1JUICsgMykpIiBcCkdPX1JFUFJPWFlfUE9SVD0iJCgoQkFTRV9QT1JUICsgNCkpIiBcCkFETUlOX1ZJRVdfSE9TVD0xMjcuMC4wLjEgXAogICIke0FQUF9IT01FfS9iaW4vZm4ta25vY2stZW50cnlwb2ludCIgPiAiJHtXT1JLX0RJUn0vc3Rkb3V0LmxvZyIgMj4gIiR7V09SS19ESVJ9L3N0ZGVyci5sb2ciICYKRU5UUllQT0lOVF9QSUQ9JCEKCkhFQUxUSF9VUkw9Imh0dHA6Ly8xMjcuMC4wLjE6JHtCQVNFX1BPUlR9L2FwaS9hZG1pbi9oZWFsdGh6IgpSRUFEWV9VUkw9Imh0dHA6Ly8xMjcuMC4wLjE6JHtCQVNFX1BPUlR9L19fZm4ta25vY2svcmVhZHl6IgpSRUxFQVNFX1ZFUlNJT049IiQoc2VkIC1uRSAncy9eW1s6c3BhY2U6XV0qInZlcnNpb24iW1s6c3BhY2U6XV0qOltbOnNwYWNlOl1dKiIoW14iXSspIi4qL1wxL3AnICIke0FQUF9IT01FfS9yZWxlYXNlLmpzb24iIHwgaGVhZCAtbjEpIgpDT05UUk9MX0FQSV9WRVJTSU9OPSIkKHNlZCAtbkUgJ3MvXltbOnNwYWNlOl1dKiJjb250cm9sX2FwaV92ZXJzaW9uIltbOnNwYWNlOl1dKjpbWzpzcGFjZTpdXSooWzAtOV0rKS4qL1wxL3AnICIke0FQUF9IT01FfS9yZWxlYXNlLmpzb24iIHwgaGVhZCAtbjEpIgpbIC1uICIke1JFTEVBU0VfVkVSU0lPTn0iIF0gJiYgWyAtbiAiJHtDT05UUk9MX0FQSV9WRVJTSU9OfSIgXSB8fCB7CiAgcHJpbnRmICdbZm4ta25vY2stbWFjb3Mtc21va2VdIHJlbGVhc2UgbWV0YWRhdGEgaXMgaW5jb21wbGV0ZVxuJyA+JjIKICBleGl0IDEKfQpoZWFsdGh5PTAKZm9yICgoYXR0ZW1wdCA9IDE7IGF0dGVtcHQgPD0gMzA7IGF0dGVtcHQrKykpOyBkbwogIGlmIGN1cmwgLS1zaWxlbnQgLS1tYXgtdGltZSAyICIke0hFQUxUSF9VUkx9IiA+ICIke1dPUktfRElSfS9oZWFsdGguanNvbiIgJiYgXAogICAgIGN1cmwgLS1zaWxlbnQgLS1tYXgtdGltZSAyICIke1JFQURZX1VSTH0iID4gIiR7V09SS19ESVJ9L3JlYWR5Lmpzb24iICYmIFwKICAgICBncmVwIC1GcSAnInN1Y2Nlc3MiOnRydWUnICIke1dPUktfRElSfS9oZWFsdGguanNvbiIgJiYgXAogICAgIGdyZXAgLUZxICcicmVhZHkiOnRydWUnICIke1dPUktfRElSfS9yZWFkeS5qc29uIjsgdGhlbgogICAgaGVhbHRoeT0xCiAgICBicmVhawogIGZpCiAgaWYgISBraWxsIC0wICIke0VOVFJZUE9JTlRfUElEfSIgMj4vZGV2L251bGw7IHRoZW4KICAgIGJyZWFrCiAgZmkKICBzbGVlcCAyCmRvbmUKCmlmIFsgIiR7aGVhbHRoeX0iICE9ICIxIiBdOyB0aGVuCiAgY2F0ICIke1dPUktfRElSfS9zdGRvdXQubG9nIiA+JjIgfHwgdHJ1ZQogIGNhdCAiJHtXT1JLX0RJUn0vc3RkZXJyLmxvZyIgPiYyIHx8IHRydWUKICBbICEgLWYgIiR7V09SS19ESVJ9L2hlYWx0aC5qc29uIiBdIHx8IGNhdCAiJHtXT1JLX0RJUn0vaGVhbHRoLmpzb24iID4mMgogIFsgISAtZiAiJHtXT1JLX0RJUn0vcmVhZHkuanNvbiIgXSB8fCBjYXQgIiR7V09SS19ESVJ9L3JlYWR5Lmpzb24iID4mMgogIHByaW50ZiAnW2ZuLWtub2NrLW1hY29zLXNtb2tlXSBoZWFsdGggY2hlY2sgZmFpbGVkXG4nID4mMgogIGV4aXQgMQpmaQpncmVwIC1GcSAnImRlcGxveW1lbnRfdGFyZ2V0IjoibWFjb3MiJyAiJHtXT1JLX0RJUn0vaGVhbHRoLmpzb24iCmdyZXAgLUZxICciaXNfbWFjb3MiOnRydWUnICIke1dPUktfRElSfS9oZWFsdGguanNvbiIKZ3JlcCAtRnEgJyJyZWFjaGFibGUiOnRydWUnICIke1dPUktfRElSfS9oZWFsdGguanNvbiIKZ3JlcCAtRnEgJyJyZWFkeSI6dHJ1ZScgIiR7V09SS19ESVJ9L3JlYWR5Lmpzb24iCmdyZXAgLUZxICJcInZlcnNpb25cIjpcIiR7UkVMRUFTRV9WRVJTSU9OfVwiIiAiJHtXT1JLX0RJUn0vcmVhZHkuanNvbiIKZ3JlcCAtRnEgIlwiY29udHJvbF9hcGlfdmVyc2lvblwiOiR7Q09OVFJPTF9BUElfVkVSU0lPTn0iICIke1dPUktfRElSfS9yZWFkeS5qc29uIgoKUlVTVF9QSUQ9IiQoL3Vzci9iaW4vcGdyZXAgLVAgIiR7RU5UUllQT0lOVF9QSUR9IiAteCBzZXJ2ZXItYWRtaW4tcnMgMj4vZGV2L251bGwgfHwgdHJ1ZSkiCkdPX1BJRD0iJCgvdXNyL2Jpbi9wZ3JlcCAtUCAiJHtFTlRSWVBPSU5UX1BJRH0iIC14IGdvLXJlYXV0aC1wcm94eSAyPi9kZXYvbnVsbCB8fCB0cnVlKSIKWyAtbiAiJHtSVVNUX1BJRH0iIF0gfHwgeyBwcmludGYgJ1tmbi1rbm9jay1tYWNvcy1zbW9rZV0gUnVzdCBiYWNrZW5kIGlzIG5vdCBhIGRpcmVjdCBzdXBlcnZpc29yIGNoaWxkXG4nID4mMjsgZXhpdCAxOyB9ClsgLW4gIiR7R09fUElEfSIgXSB8fCB7IHByaW50ZiAnW2ZuLWtub2NrLW1hY29zLXNtb2tlXSBHbyBnYXRld2F5IGlzIG5vdCBhIGRpcmVjdCBzdXBlcnZpc29yIGNoaWxkXG4nID4mMjsgZXhpdCAxOyB9CgpraWxsICIke0VOVFJZUE9JTlRfUElEfSIKd2FpdCAiJHtFTlRSWVBPSU5UX1BJRH0iCkVOVFJZUE9JTlRfUElEPSIiCmZvciBydW50aW1lX3BpZCBpbiAiJHtSVVNUX1BJRH0iICIke0dPX1BJRH0iOyBkbwogIGlmIGtpbGwgLTAgIiR7cnVudGltZV9waWR9IiAyPi9kZXYvbnVsbDsgdGhlbgogICAgcHJpbnRmICdbZm4ta25vY2stbWFjb3Mtc21va2VdIGNoaWxkIHByb2Nlc3MgbGVha2VkIGFmdGVyIHN1cGVydmlzb3IgZXhpdDogJXNcbicgIiR7cnVudGltZV9waWR9IiA+JjIKICAgIGV4aXQgMQogIGZpCmRvbmUKUlVTVF9QSUQ9IiIKR09fUElEPSIiCnByaW50ZiAnW2ZuLWtub2NrLW1hY29zLXNtb2tlXSBuYXRpdmUgcnVudGltZSBoZWFsdGggY2hlY2sgcGFzc2VkXG4nCg==
+#!/usr/bin/env bash
+set -euo pipefail
+
+ARCHIVE="${1:-}"
+[ -f "${ARCHIVE}" ] || { printf '[fn-knock-macos-smoke] archive is missing: %s\n' "${ARCHIVE}" >&2; exit 1; }
+[ "$(uname -s)" = Darwin ] || { printf '[fn-knock-macos-smoke] macOS is required\n' >&2; exit 1; }
+
+WORK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/fn-knock-macos-smoke.XXXXXX")"
+ENTRYPOINT_PID=""
+RUST_PID=""
+GO_PID=""
+cleanup() {
+  if [ -n "${ENTRYPOINT_PID}" ] && kill -0 "${ENTRYPOINT_PID}" 2>/dev/null; then
+    kill "${ENTRYPOINT_PID}" 2>/dev/null || true
+    wait "${ENTRYPOINT_PID}" 2>/dev/null || true
+  fi
+  for runtime_pid in "${RUST_PID}" "${GO_PID}"; do
+    if [ -n "${runtime_pid}" ] && kill -0 "${runtime_pid}" 2>/dev/null; then
+      kill "${runtime_pid}" 2>/dev/null || true
+    fi
+  done
+  rm -rf "${WORK_DIR}"
+}
+trap cleanup EXIT INT TERM
+
+tar -xzf "${ARCHIVE}" -C "${WORK_DIR}"
+APP_HOME="${WORK_DIR}/fn-knock"
+[ -x "${APP_HOME}/bin/fn-knock-entrypoint" ] || { printf '[fn-knock-macos-smoke] entrypoint is missing\n' >&2; exit 1; }
+
+BASE_PORT=$((24000 + ($$ % 10000)))
+for offset in 0 1 2 3 4; do
+  if /usr/sbin/lsof -nP -iTCP:"$((BASE_PORT + offset))" -sTCP:LISTEN >/dev/null 2>&1; then
+    printf '[fn-knock-macos-smoke] selected port is busy: %s\n' "$((BASE_PORT + offset))" >&2
+    exit 1
+  fi
+done
+
+FN_KNOCK_APP_HOME="${APP_HOME}" \
+FN_KNOCK_TEST_MODE=1 \
+FN_KNOCK_APP_ROOT="${WORK_DIR}/Application Support/FnKnock" \
+FN_KNOCK_DATA_DIR="${WORK_DIR}/Application Support/FnKnock/data" \
+FN_KNOCK_GATEWAY_CONFIG_DIR="${WORK_DIR}/Application Support/FnKnock/config/gateway" \
+BACKEND_PORT="$((BASE_PORT + 1))" \
+AUTH_PORT="$((BASE_PORT + 2))" \
+ADMIN_VIEW_PORT="${BASE_PORT}" \
+GO_BACKEND_PORT="$((BASE_PORT + 3))" \
+GO_REPROXY_PORT="$((BASE_PORT + 4))" \
+ADMIN_VIEW_HOST=127.0.0.1 \
+  "${APP_HOME}/bin/fn-knock-entrypoint" > "${WORK_DIR}/stdout.log" 2> "${WORK_DIR}/stderr.log" &
+ENTRYPOINT_PID=$!
+
+HEALTH_URL="http://127.0.0.1:${BASE_PORT}/api/admin/healthz"
+READY_URL="http://127.0.0.1:${BASE_PORT}/__fn-knock/readyz"
+RELEASE_VERSION="$(sed -nE 's/^[[:space:]]*"version"[[:space:]]*:[[:space:]]*"([^"]+)".*/\1/p' "${APP_HOME}/release.json" | head -n1)"
+CONTROL_API_VERSION="$(sed -nE 's/^[[:space:]]*"control_api_version"[[:space:]]*:[[:space:]]*([0-9]+).*/\1/p' "${APP_HOME}/release.json" | head -n1)"
+[ -n "${RELEASE_VERSION}" ] && [ -n "${CONTROL_API_VERSION}" ] || {
+  printf '[fn-knock-macos-smoke] release metadata is incomplete\n' >&2
+  exit 1
+}
+healthy=0
+for ((attempt = 1; attempt <= 30; attempt++)); do
+  if curl --silent --max-time 2 "${HEALTH_URL}" > "${WORK_DIR}/health.json" && \
+     curl --silent --max-time 2 "${READY_URL}" > "${WORK_DIR}/ready.json" && \
+     grep -Fq '"success":true' "${WORK_DIR}/health.json" && \
+     grep -Fq '"ready":true' "${WORK_DIR}/ready.json"; then
+    healthy=1
+    break
+  fi
+  if ! kill -0 "${ENTRYPOINT_PID}" 2>/dev/null; then
+    break
+  fi
+  sleep 2
+done
+
+if [ "${healthy}" != "1" ]; then
+  cat "${WORK_DIR}/stdout.log" >&2 || true
+  cat "${WORK_DIR}/stderr.log" >&2 || true
+  [ ! -f "${WORK_DIR}/health.json" ] || cat "${WORK_DIR}/health.json" >&2
+  [ ! -f "${WORK_DIR}/ready.json" ] || cat "${WORK_DIR}/ready.json" >&2
+  printf '[fn-knock-macos-smoke] health check failed\n' >&2
+  exit 1
+fi
+grep -Fq '"deployment_target":"macos"' "${WORK_DIR}/health.json"
+grep -Fq '"is_macos":true' "${WORK_DIR}/health.json"
+grep -Fq '"reachable":true' "${WORK_DIR}/health.json"
+grep -Fq '"ready":true' "${WORK_DIR}/ready.json"
+grep -Fq "\"version\":\"${RELEASE_VERSION}\"" "${WORK_DIR}/ready.json"
+grep -Fq "\"control_api_version\":${CONTROL_API_VERSION}" "${WORK_DIR}/ready.json"
+
+RUST_PID="$(/usr/bin/pgrep -P "${ENTRYPOINT_PID}" -x server-admin-rs 2>/dev/null || true)"
+GO_PID="$(/usr/bin/pgrep -P "${ENTRYPOINT_PID}" -x go-reauth-proxy 2>/dev/null || true)"
+[ -n "${RUST_PID}" ] || { printf '[fn-knock-macos-smoke] Rust backend is not a direct supervisor child\n' >&2; exit 1; }
+[ -n "${GO_PID}" ] || { printf '[fn-knock-macos-smoke] Go gateway is not a direct supervisor child\n' >&2; exit 1; }
+
+kill "${ENTRYPOINT_PID}"
+wait "${ENTRYPOINT_PID}"
+ENTRYPOINT_PID=""
+for runtime_pid in "${RUST_PID}" "${GO_PID}"; do
+  if kill -0 "${runtime_pid}" 2>/dev/null; then
+    printf '[fn-knock-macos-smoke] child process leaked after supervisor exit: %s\n' "${runtime_pid}" >&2
+    exit 1
+  fi
+done
+RUST_PID=""
+GO_PID=""
+printf '[fn-knock-macos-smoke] native runtime health check passed\n'

@@ -1,1 +1,313 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB0eXBlIHsgU1NMRGVwbG95bWVudE1vZGUsIFNTTFN0YXR1cyB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgQ29uZmlnQ29sbGFwc2libGVDYXJkIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9Db25maWdDb2xsYXBzaWJsZUNhcmQudnVlIjsKaW1wb3J0IHR5cGUgewogIERlcGxveW1lbnRQcmV2aWV3SXRlbSwKICBHYXRld2F5Q2VydGlmaWNhdGVJdGVtLAp9IGZyb20gIi4vdXNlQ2VydENvbmZpZ1ZpZXdNb2RlbCI7Cgp0eXBlIERlcGxveW1lbnRQcmV2aWV3ID0gewogIGNvdW50OiBudW1iZXI7CiAgZGVmYXVsdExhYmVsOiBzdHJpbmc7CiAgZG9tYWluU3VtbWFyeTogc3RyaW5nOwogIHByZXZpZXdJdGVtczogRGVwbG95bWVudFByZXZpZXdJdGVtW107CiAgcmVtYWluaW5nQ291bnQ6IG51bWJlcjsKfTsKCmRlZmluZVByb3BzPHsKICBjZXJ0aWZpY2F0ZUNvdW50OiBudW1iZXI7CiAgY29uZmlndXJlZERlcGxveW1lbnRNb2RlTGFiZWw6IHN0cmluZzsKICBkZXBsb3llZEdhdGV3YXlDZXJ0aWZpY2F0ZXM6IEdhdGV3YXlDZXJ0aWZpY2F0ZUl0ZW1bXTsKICBkZXBsb3ltZW50Q2FyZENsYXNzOiAobW9kZTogU1NMRGVwbG95bWVudE1vZGUpID0+IHN0cmluZzsKICBkZXBsb3ltZW50TW9kZURlc2NyaXB0aW9uOiBzdHJpbmc7CiAgZGVwbG95bWVudE1vZGVNaXNtYXRjaDogYm9vbGVhbjsKICBkZXBsb3ltZW50TW9kZVNob3J0TGFiZWw6IHN0cmluZzsKICBkZXBsb3ltZW50U2VjdGlvbkNvbmZpZ3VyZWQ6IGJvb2xlYW47CiAgZGVwbG95bWVudFN1bW1hcnk6IHN0cmluZzsKICBnYXRld2F5Q2VydGlmaWNhdGVLZXk6IChjZXJ0aWZpY2F0ZTogR2F0ZXdheUNlcnRpZmljYXRlSXRlbSkgPT4gc3RyaW5nOwogIGdhdGV3YXlDZXJ0aWZpY2F0ZUxhYmVsOiAoY2VydGlmaWNhdGU6IEdhdGV3YXlDZXJ0aWZpY2F0ZUl0ZW0pID0+IHN0cmluZzsKICBnYXRld2F5RGVwbG95bWVudFN1bW1hcnk6IHN0cmluZzsKICBnYXRld2F5U3luY0Vycm9yOiBzdHJpbmc7CiAgaXNVcGRhdGluZ0RlcGxveW1lbnRNb2RlOiBib29sZWFuOwogIG11bHRpU25pUHJldmlldzogRGVwbG95bWVudFByZXZpZXc7CiAgcGVuZGluZ0RlcGxveW1lbnRNb2RlOiBTU0xEZXBsb3ltZW50TW9kZSB8IG51bGw7CiAgcmVhZHk6IGJvb2xlYW47CiAgc2luZ2xlQWN0aXZlUHJldmlldzogRGVwbG95bWVudFByZXZpZXc7CiAgc3NsU3RhdHVzOiBTU0xTdGF0dXMgfCBudWxsOwp9PigpOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICB1cGRhdGVNb2RlOiBbbW9kZTogU1NMRGVwbG95bWVudE1vZGVdOwp9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPENvbmZpZ0NvbGxhcHNpYmxlQ2FyZAogICAgOnRpdGxlPSJ0KCdhZG1pbi5jZXJ0Q29uZmlnLmRlcGxveW1lbnRUaXRsZScpIgogICAgOmNvbmZpZ3VyZWQ9ImRlcGxveW1lbnRTZWN0aW9uQ29uZmlndXJlZCIKICAgIDpyZWFkeT0icmVhZHkiCiAgICA6ZWRpdC1sYWJlbD0idCgnYWRtaW4uY2VydENvbmZpZy52aWV3Q29uZmlnJykiCiAgICBjb2xsYXBzZWQtY29udGVudC1jbGFzcz0ibWluLWgtWzc2cHhdIGZsZXggZmxleC1jb2wgaXRlbXMtc3RhcnQgZ2FwLTMgc206aC1bNDBweF0gc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIHNtOmp1c3RpZnktYmV0d2VlbiIKICAgIHN1bW1hcnktY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1heC13LWZ1bGwgd2hpdGVzcGFjZS1ub3JtYWwgYnJlYWstd29yZHMgc206dHJ1bmNhdGUiCiAgICBleHBhbmRlZC1jb250ZW50LWNsYXNzPSJwLTAgc206cC0wIgogICAgYWN0aW9ucy1jbGFzcz0iYm9yZGVyLXQgYmctbXV0ZWQvMzAgcHgtNCBweS00IHNtOnB4LTYgZmxleCBmbGV4LWNvbC1yZXZlcnNlIGdhcC0yIHJvdW5kZWQtYi1sZyBzbTpmbGV4LXJvdyBzbTppdGVtcy1jZW50ZXIgc206anVzdGlmeS1lbmQiCiAgICBjYXJkLWNsYXNzPSJkeW5hbWljLXdoaXRlLWNlcnQtY2FyZCIKICA+CiAgICA8dGVtcGxhdGUgI3N1bW1hcnk+e3sgZGVwbG95bWVudFN1bW1hcnkgfX08L3RlbXBsYXRlPgoKICAgIDx0ZW1wbGF0ZSAjZGVmYXVsdD4KICAgICAgPGRpdiBjbGFzcz0iZGl2aWRlLXkgZGl2aWRlLWJvcmRlciI+CiAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMiBwLTQgc206cC02Ij4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5kZXBsb3ltZW50SGVhZGluZyIpIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8QmFkZ2UgdmFyaWFudD0ib3V0bGluZSI+e3sgZGVwbG95bWVudE1vZGVTaG9ydExhYmVsIH19PC9CYWRnZT4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPHAgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5kZXBsb3ltZW50SW50cm8iKSB9fQogICAgICAgICAgPC9wPgogICAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgZGVwbG95bWVudE1vZGVEZXNjcmlwdGlvbiB9fQogICAgICAgICAgPC9wPgogICAgICAgICAgPHAKICAgICAgICAgICAgdi1pZj0iZGVwbG95bWVudE1vZGVNaXNtYXRjaCIKICAgICAgICAgICAgY2xhc3M9InRleHQteHMgdGV4dC1hbWJlci02MDAgZGFyazp0ZXh0LWFtYmVyLTQwMCIKICAgICAgICAgID4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICB0KCJhZG1pbi5jZXJ0Q29uZmlnLmRlcGxveW1lbnRNaXNtYXRjaCIsIHsKICAgICAgICAgICAgICAgIGNvbmZpZ3VyZWQ6IGNvbmZpZ3VyZWREZXBsb3ltZW50TW9kZUxhYmVsLAogICAgICAgICAgICAgICAgY3VycmVudDogZGVwbG95bWVudE1vZGVTaG9ydExhYmVsLAogICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgICA8cAogICAgICAgICAgICB2LWVsc2UtaWY9ImdhdGV3YXlTeW5jRXJyb3IiCiAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LXhzIHRleHQtYW1iZXItNjAwIGRhcms6dGV4dC1hbWJlci00MDAiCiAgICAgICAgICAgIHJvbGU9ImFsZXJ0IgogICAgICAgICAgPgogICAgICAgICAgICB7eyBnYXRld2F5U3luY0Vycm9yIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTMgcC00IHNtOnAtNiBsZzpncmlkLWNvbHMtMiI+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzPSJkeW5hbWljLXdoaXRlLWNlcnQtc3Vic3VyZmFjZSBncmlkIGdhcC0zIHJvdW5kZWQtbGcgYm9yZGVyIHAtNCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgOmNsYXNzPSJkZXBsb3ltZW50Q2FyZENsYXNzKCdzaW5nbGVfYWN0aXZlJykiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtMiI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMSI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5zaW5nbGVBY3RpdmVUaXRsZSIpIH19CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcuc2luZ2xlQWN0aXZlRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxCYWRnZQogICAgICAgICAgICAgICAgdi1pZj0ic3NsU3RhdHVzPy5kZXBsb3ltZW50TW9kZSA9PT0gJ3NpbmdsZV9hY3RpdmUnIgogICAgICAgICAgICAgICAgdmFyaWFudD0iZGVmYXVsdCIKICAgICAgICAgICAgICAgIGNsYXNzPSJiZy1ncmVlbi02MDAgaG92ZXI6YmctZ3JlZW4tNjAwIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcuY3VycmVudE1vZGUiKSB9fQogICAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMiB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgIHQoImFkbWluLmNlcnRDb25maWcuZXhwZWN0ZWREZXBsb3kiLCB7CiAgICAgICAgICAgICAgICAgICAgY291bnQ6IHNpbmdsZUFjdGl2ZVByZXZpZXcuY291bnQsCiAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICB0KCJhZG1pbi5jZXJ0Q29uZmlnLnB1YmxpY0NlcnRpZmljYXRlIiwgewogICAgICAgICAgICAgICAgICAgIGxhYmVsOiBzaW5nbGVBY3RpdmVQcmV2aWV3LmRlZmF1bHRMYWJlbCwKICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiB2LWlmPSJzaW5nbGVBY3RpdmVQcmV2aWV3LmRvbWFpblN1bW1hcnkiPgogICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgdCgiYWRtaW4uY2VydENvbmZpZy5jb3ZlcmVkRG9tYWlucyIsIHsKICAgICAgICAgICAgICAgICAgICBkb21haW5zOiBzaW5nbGVBY3RpdmVQcmV2aWV3LmRvbWFpblN1bW1hcnksCiAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgIGNsYXNzPSJqdXN0aWZ5LXN0YXJ0IgogICAgICAgICAgICAgIDpjbGFzcz0iCiAgICAgICAgICAgICAgICBzc2xTdGF0dXM/LmRlcGxveW1lbnRNb2RlID09PSAnc2luZ2xlX2FjdGl2ZScKICAgICAgICAgICAgICAgICAgPyAnYm9yZGVyLWJvcmRlci83MCBiZy1tdXRlZC82MCB0ZXh0LWZvcmVncm91bmQgZGlzYWJsZWQ6b3BhY2l0eS0xMDAgZGFyazpiZy1tdXRlZC80MCcKICAgICAgICAgICAgICAgICAgOiAnJwogICAgICAgICAgICAgICIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9IgogICAgICAgICAgICAgICAgaXNVcGRhdGluZ0RlcGxveW1lbnRNb2RlIHx8CiAgICAgICAgICAgICAgICBzc2xTdGF0dXM/LmRlcGxveW1lbnRNb2RlID09PSAnc2luZ2xlX2FjdGl2ZScKICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgQGNsaWNrPSJlbWl0KCd1cGRhdGVNb2RlJywgJ3NpbmdsZV9hY3RpdmUnKSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICB2LWlmPSIKICAgICAgICAgICAgICAgICAgaXNVcGRhdGluZ0RlcGxveW1lbnRNb2RlICYmCiAgICAgICAgICAgICAgICAgIHBlbmRpbmdEZXBsb3ltZW50TW9kZSA9PT0gJ3NpbmdsZV9hY3RpdmUnCiAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLWN1cnJlbnQgYm9yZGVyLXQtdHJhbnNwYXJlbnQiCiAgICAgICAgICAgICAgPjwvc3Bhbj4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgc3NsU3RhdHVzPy5kZXBsb3ltZW50TW9kZSA9PT0gInNpbmdsZV9hY3RpdmUiCiAgICAgICAgICAgICAgICAgID8gdCgiYWRtaW4uY2VydENvbmZpZy5jdXJyZW50bHlJblVzZSIpCiAgICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uY2VydENvbmZpZy5zd2l0Y2hUb1NpbmdsZUFjdGl2ZSIpCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzPSJkeW5hbWljLXdoaXRlLWNlcnQtc3Vic3VyZmFjZSBncmlkIGdhcC0zIHJvdW5kZWQtbGcgYm9yZGVyIHAtNCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgOmNsYXNzPSJkZXBsb3ltZW50Q2FyZENsYXNzKCdtdWx0aV9zbmknKSIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC0yIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0xIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5jZXJ0Q29uZmlnLm11bHRpU25pVGl0bGUiKSB9fQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5jZXJ0Q29uZmlnLm11bHRpU25pRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxCYWRnZQogICAgICAgICAgICAgICAgdi1pZj0ic3NsU3RhdHVzPy5kZXBsb3ltZW50TW9kZSA9PT0gJ211bHRpX3NuaSciCiAgICAgICAgICAgICAgICB2YXJpYW50PSJkZWZhdWx0IgogICAgICAgICAgICAgICAgY2xhc3M9ImJnLWdyZWVuLTYwMCBob3ZlcjpiZy1ncmVlbi02MDAiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5jdXJyZW50TW9kZSIpIH19CiAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0yIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgdCgiYWRtaW4uY2VydENvbmZpZy5leHBlY3RlZERlcGxveSIsIHsKICAgICAgICAgICAgICAgICAgICBjb3VudDogbXVsdGlTbmlQcmV2aWV3LmNvdW50LAogICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgdCgiYWRtaW4uY2VydENvbmZpZy5kZWZhdWx0Q2VydGlmaWNhdGUiLCB7CiAgICAgICAgICAgICAgICAgICAgbGFiZWw6IG11bHRpU25pUHJldmlldy5kZWZhdWx0TGFiZWwsCiAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIHYtaWY9Im11bHRpU25pUHJldmlldy5wcmV2aWV3SXRlbXMubGVuZ3RoIgogICAgICAgICAgICAgICAgY2xhc3M9ImZsZXggZmxleC13cmFwIGdhcC0xLjUiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPEJhZGdlCiAgICAgICAgICAgICAgICAgIHYtZm9yPSJpdGVtIGluIG11bHRpU25pUHJldmlldy5wcmV2aWV3SXRlbXMiCiAgICAgICAgICAgICAgICAgIDprZXk9Iml0ZW0uaWQiCiAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9InNlY29uZGFyeSIKICAgICAgICAgICAgICAgICAgY2xhc3M9Im1heC13LWZ1bGwiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0cnVuY2F0ZSI+e3sgaXRlbS5sYWJlbCB9fTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICB2LWlmPSJpdGVtLmlzRGVmYXVsdCIKICAgICAgICAgICAgICAgICAgICBjbGFzcz0ibWwtMSB0ZXh0LVsxMHB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5jZXJ0Q29uZmlnLmRlZmF1bHRUYWciKSB9fQogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgICAgICAgPEJhZGdlCiAgICAgICAgICAgICAgICAgIHYtaWY9Im11bHRpU25pUHJldmlldy5yZW1haW5pbmdDb3VudCA+IDAiCiAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgICAgdCgiYWRtaW4uY2VydENvbmZpZy5tb3JlQ2VydGlmaWNhdGVzIiwgewogICAgICAgICAgICAgICAgICAgICAgY291bnQ6IG11bHRpU25pUHJldmlldy5yZW1haW5pbmdDb3VudCwKICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgY2xhc3M9Imp1c3RpZnktc3RhcnQiCiAgICAgICAgICAgICAgOmNsYXNzPSIKICAgICAgICAgICAgICAgIHNzbFN0YXR1cz8uZGVwbG95bWVudE1vZGUgPT09ICdtdWx0aV9zbmknCiAgICAgICAgICAgICAgICAgID8gJ2JvcmRlciBib3JkZXItYm9yZGVyLzcwIGJnLW11dGVkLzYwIHRleHQtZm9yZWdyb3VuZCBob3ZlcjpiZy1tdXRlZC82MCBkaXNhYmxlZDpvcGFjaXR5LTEwMCBkYXJrOmJnLW11dGVkLzQwIGRhcms6aG92ZXI6YmctbXV0ZWQvNDAnCiAgICAgICAgICAgICAgICAgIDogJycKICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgICAgIGlzVXBkYXRpbmdEZXBsb3ltZW50TW9kZSB8fAogICAgICAgICAgICAgICAgIWNlcnRpZmljYXRlQ291bnQgfHwKICAgICAgICAgICAgICAgIHNzbFN0YXR1cz8uZGVwbG95bWVudE1vZGUgPT09ICdtdWx0aV9zbmknCiAgICAgICAgICAgICAgIgogICAgICAgICAgICAgIEBjbGljaz0iZW1pdCgndXBkYXRlTW9kZScsICdtdWx0aV9zbmknKSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICB2LWlmPSIKICAgICAgICAgICAgICAgICAgaXNVcGRhdGluZ0RlcGxveW1lbnRNb2RlICYmCiAgICAgICAgICAgICAgICAgIHBlbmRpbmdEZXBsb3ltZW50TW9kZSA9PT0gJ211bHRpX3NuaScKICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgIGNsYXNzPSJtci0yIGgtNCB3LTQgYW5pbWF0ZS1zcGluIHJvdW5kZWQtZnVsbCBib3JkZXItMiBib3JkZXItYmFja2dyb3VuZCBib3JkZXItdC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgID48L3NwYW4+CiAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgIHNzbFN0YXR1cz8uZGVwbG95bWVudE1vZGUgPT09ICJtdWx0aV9zbmkiCiAgICAgICAgICAgICAgICAgID8gdCgiYWRtaW4uY2VydENvbmZpZy5jdXJyZW50bHlJblVzZSIpCiAgICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uY2VydENvbmZpZy5zd2l0Y2hUb011bHRpU25pIikKICAgICAgICAgICAgICB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzPSJwLTQgc206cC02Ij4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgY2xhc3M9ImR5bmFtaWMtd2hpdGUtY2VydC1zdWJzdXJmYWNlIGdyaWQgZ2FwLTIgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWRhc2hlZCBiZy1tdXRlZC8yMCBwLTQiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcuZ2F0ZXdheVJlY2VpdmVkVGl0bGUiKSB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyBnYXRld2F5RGVwbG95bWVudFN1bW1hcnkgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgdi1pZj0iZGVwbG95ZWRHYXRld2F5Q2VydGlmaWNhdGVzLmxlbmd0aCIKICAgICAgICAgICAgICBjbGFzcz0iZmxleCBmbGV4LXdyYXAgZ2FwLTEuNSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxCYWRnZQogICAgICAgICAgICAgICAgdi1mb3I9ImNlcnRpZmljYXRlIGluIGRlcGxveWVkR2F0ZXdheUNlcnRpZmljYXRlcyIKICAgICAgICAgICAgICAgIDprZXk9ImdhdGV3YXlDZXJ0aWZpY2F0ZUtleShjZXJ0aWZpY2F0ZSkiCiAgICAgICAgICAgICAgICB2YXJpYW50PSJzZWNvbmRhcnkiCiAgICAgICAgICAgICAgICBjbGFzcz0ibWF4LXctZnVsbCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0idHJ1bmNhdGUiPgogICAgICAgICAgICAgICAgICB7eyBnYXRld2F5Q2VydGlmaWNhdGVMYWJlbChjZXJ0aWZpY2F0ZSkgfX0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgIHYtaWY9ImNlcnRpZmljYXRlLmlzX2RlZmF1bHQiCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJtbC0xIHRleHQtWzEwcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5kZWZhdWx0VGFnIikgfX0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvdGVtcGxhdGU+CgogICAgPHRlbXBsYXRlICNhY3Rpb25zPSJ7IGNvbGxhcHNlIH0iPgogICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0iY29sbGFwc2UiPgogICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcuY29sbGFwc2UiKSB9fQogICAgICA8L0J1dHRvbj4KICAgIDwvdGVtcGxhdGU+CiAgPC9Db25maWdDb2xsYXBzaWJsZUNhcmQ+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import type { SSLDeploymentMode, SSLStatus } from "@/types";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import ConfigCollapsibleCard from "@admin-shared/components/ConfigCollapsibleCard.vue";
+import type {
+  DeploymentPreviewItem,
+  GatewayCertificateItem,
+} from "./useCertConfigViewModel";
+
+type DeploymentPreview = {
+  count: number;
+  defaultLabel: string;
+  domainSummary: string;
+  previewItems: DeploymentPreviewItem[];
+  remainingCount: number;
+};
+
+defineProps<{
+  certificateCount: number;
+  configuredDeploymentModeLabel: string;
+  deployedGatewayCertificates: GatewayCertificateItem[];
+  deploymentCardClass: (mode: SSLDeploymentMode) => string;
+  deploymentModeDescription: string;
+  deploymentModeMismatch: boolean;
+  deploymentModeShortLabel: string;
+  deploymentSectionConfigured: boolean;
+  deploymentSummary: string;
+  gatewayCertificateKey: (certificate: GatewayCertificateItem) => string;
+  gatewayCertificateLabel: (certificate: GatewayCertificateItem) => string;
+  gatewayDeploymentSummary: string;
+  gatewaySyncError: string;
+  isUpdatingDeploymentMode: boolean;
+  multiSniPreview: DeploymentPreview;
+  pendingDeploymentMode: SSLDeploymentMode | null;
+  ready: boolean;
+  singleActivePreview: DeploymentPreview;
+  sslStatus: SSLStatus | null;
+}>();
+
+const emit = defineEmits<{
+  updateMode: [mode: SSLDeploymentMode];
+}>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <ConfigCollapsibleCard
+    :title="t('admin.certConfig.deploymentTitle')"
+    :configured="deploymentSectionConfigured"
+    :ready="ready"
+    :edit-label="t('admin.certConfig.viewConfig')"
+    collapsed-content-class="min-h-[76px] flex flex-col items-start gap-3 sm:h-[40px] sm:flex-row sm:items-center sm:justify-between"
+    summary-class="text-xs text-muted-foreground max-w-full whitespace-normal break-words sm:truncate"
+    expanded-content-class="p-0 sm:p-0"
+    actions-class="border-t bg-muted/30 px-4 py-4 sm:px-6 flex flex-col-reverse gap-2 rounded-b-lg sm:flex-row sm:items-center sm:justify-end"
+    card-class="dynamic-white-cert-card"
+  >
+    <template #summary>{{ deploymentSummary }}</template>
+
+    <template #default>
+      <div class="divide-y divide-border">
+        <div class="grid gap-2 p-4 sm:p-6">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <div class="text-base font-semibold">
+              {{ t("admin.certConfig.deploymentHeading") }}
+            </div>
+            <Badge variant="outline">{{ deploymentModeShortLabel }}</Badge>
+          </div>
+          <p class="text-sm text-muted-foreground">
+            {{ t("admin.certConfig.deploymentIntro") }}
+          </p>
+          <p class="text-xs text-muted-foreground">
+            {{ deploymentModeDescription }}
+          </p>
+          <p
+            v-if="deploymentModeMismatch"
+            class="text-xs text-amber-600 dark:text-amber-400"
+          >
+            {{
+              t("admin.certConfig.deploymentMismatch", {
+                configured: configuredDeploymentModeLabel,
+                current: deploymentModeShortLabel,
+              })
+            }}
+          </p>
+          <p
+            v-else-if="gatewaySyncError"
+            class="text-xs text-amber-600 dark:text-amber-400"
+            role="alert"
+          >
+            {{ gatewaySyncError }}
+          </p>
+        </div>
+
+        <div class="grid gap-3 p-4 sm:p-6 lg:grid-cols-2">
+          <div
+            class="dynamic-white-cert-subsurface grid gap-3 rounded-lg border p-4 transition-colors"
+            :class="deploymentCardClass('single_active')"
+          >
+            <div class="flex flex-wrap items-start justify-between gap-2">
+              <div class="grid gap-1">
+                <div class="text-sm font-medium">
+                  {{ t("admin.certConfig.singleActiveTitle") }}
+                </div>
+                <p class="text-xs text-muted-foreground">
+                  {{ t("admin.certConfig.singleActiveDescription") }}
+                </p>
+              </div>
+              <Badge
+                v-if="sslStatus?.deploymentMode === 'single_active'"
+                variant="default"
+                class="bg-green-600 hover:bg-green-600"
+              >
+                {{ t("admin.certConfig.currentMode") }}
+              </Badge>
+            </div>
+
+            <div class="grid gap-2 text-xs text-muted-foreground">
+              <div>
+                {{
+                  t("admin.certConfig.expectedDeploy", {
+                    count: singleActivePreview.count,
+                  })
+                }}
+              </div>
+              <div>
+                {{
+                  t("admin.certConfig.publicCertificate", {
+                    label: singleActivePreview.defaultLabel,
+                  })
+                }}
+              </div>
+              <div v-if="singleActivePreview.domainSummary">
+                {{
+                  t("admin.certConfig.coveredDomains", {
+                    domains: singleActivePreview.domainSummary,
+                  })
+                }}
+              </div>
+            </div>
+
+            <Button
+              variant="outline"
+              class="justify-start"
+              :class="
+                sslStatus?.deploymentMode === 'single_active'
+                  ? 'border-border/70 bg-muted/60 text-foreground disabled:opacity-100 dark:bg-muted/40'
+                  : ''
+              "
+              :disabled="
+                isUpdatingDeploymentMode ||
+                sslStatus?.deploymentMode === 'single_active'
+              "
+              @click="emit('updateMode', 'single_active')"
+            >
+              <span
+                v-if="
+                  isUpdatingDeploymentMode &&
+                  pendingDeploymentMode === 'single_active'
+                "
+                class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-current border-t-transparent"
+              ></span>
+              {{
+                sslStatus?.deploymentMode === "single_active"
+                  ? t("admin.certConfig.currentlyInUse")
+                  : t("admin.certConfig.switchToSingleActive")
+              }}
+            </Button>
+          </div>
+
+          <div
+            class="dynamic-white-cert-subsurface grid gap-3 rounded-lg border p-4 transition-colors"
+            :class="deploymentCardClass('multi_sni')"
+          >
+            <div class="flex flex-wrap items-start justify-between gap-2">
+              <div class="grid gap-1">
+                <div class="text-sm font-medium">
+                  {{ t("admin.certConfig.multiSniTitle") }}
+                </div>
+                <p class="text-xs text-muted-foreground">
+                  {{ t("admin.certConfig.multiSniDescription") }}
+                </p>
+              </div>
+              <Badge
+                v-if="sslStatus?.deploymentMode === 'multi_sni'"
+                variant="default"
+                class="bg-green-600 hover:bg-green-600"
+              >
+                {{ t("admin.certConfig.currentMode") }}
+              </Badge>
+            </div>
+
+            <div class="grid gap-2 text-xs text-muted-foreground">
+              <div>
+                {{
+                  t("admin.certConfig.expectedDeploy", {
+                    count: multiSniPreview.count,
+                  })
+                }}
+              </div>
+              <div>
+                {{
+                  t("admin.certConfig.defaultCertificate", {
+                    label: multiSniPreview.defaultLabel,
+                  })
+                }}
+              </div>
+              <div
+                v-if="multiSniPreview.previewItems.length"
+                class="flex flex-wrap gap-1.5"
+              >
+                <Badge
+                  v-for="item in multiSniPreview.previewItems"
+                  :key="item.id"
+                  variant="secondary"
+                  class="max-w-full"
+                >
+                  <span class="truncate">{{ item.label }}</span>
+                  <span
+                    v-if="item.isDefault"
+                    class="ml-1 text-[10px] text-muted-foreground"
+                  >
+                    {{ t("admin.certConfig.defaultTag") }}
+                  </span>
+                </Badge>
+                <Badge
+                  v-if="multiSniPreview.remainingCount > 0"
+                  variant="outline"
+                >
+                  {{
+                    t("admin.certConfig.moreCertificates", {
+                      count: multiSniPreview.remainingCount,
+                    })
+                  }}
+                </Badge>
+              </div>
+            </div>
+
+            <Button
+              class="justify-start"
+              :class="
+                sslStatus?.deploymentMode === 'multi_sni'
+                  ? 'border border-border/70 bg-muted/60 text-foreground hover:bg-muted/60 disabled:opacity-100 dark:bg-muted/40 dark:hover:bg-muted/40'
+                  : ''
+              "
+              :disabled="
+                isUpdatingDeploymentMode ||
+                !certificateCount ||
+                sslStatus?.deploymentMode === 'multi_sni'
+              "
+              @click="emit('updateMode', 'multi_sni')"
+            >
+              <span
+                v-if="
+                  isUpdatingDeploymentMode &&
+                  pendingDeploymentMode === 'multi_sni'
+                "
+                class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+              ></span>
+              {{
+                sslStatus?.deploymentMode === "multi_sni"
+                  ? t("admin.certConfig.currentlyInUse")
+                  : t("admin.certConfig.switchToMultiSni")
+              }}
+            </Button>
+          </div>
+        </div>
+
+        <div class="p-4 sm:p-6">
+          <div
+            class="dynamic-white-cert-subsurface grid gap-2 rounded-lg border border-dashed bg-muted/20 p-4"
+          >
+            <div class="text-xs font-medium">
+              {{ t("admin.certConfig.gatewayReceivedTitle") }}
+            </div>
+            <p class="text-xs text-muted-foreground">
+              {{ gatewayDeploymentSummary }}
+            </p>
+            <div
+              v-if="deployedGatewayCertificates.length"
+              class="flex flex-wrap gap-1.5"
+            >
+              <Badge
+                v-for="certificate in deployedGatewayCertificates"
+                :key="gatewayCertificateKey(certificate)"
+                variant="secondary"
+                class="max-w-full"
+              >
+                <span class="truncate">
+                  {{ gatewayCertificateLabel(certificate) }}
+                </span>
+                <span
+                  v-if="certificate.is_default"
+                  class="ml-1 text-[10px] text-muted-foreground"
+                >
+                  {{ t("admin.certConfig.defaultTag") }}
+                </span>
+              </Badge>
+            </div>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <template #actions="{ collapse }">
+      <Button variant="outline" @click="collapse">
+        {{ t("admin.certConfig.collapse") }}
+      </Button>
+    </template>
+  </ConfigCollapsibleCard>
+</template>

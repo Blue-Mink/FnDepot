@@ -1,1 +1,180 @@
-ZXhwb3J0IHR5cGUgQ29weVRleHRSZXN1bHQgPSB7CiAgdmVyaWZpZWQ6IGJvb2xlYW47CiAgbWV0aG9kOiBzdHJpbmc7Cn07Cgpjb25zdCBub3JtYWxpemVDbGlwYm9hcmRUZXh0ID0gKHZhbHVlOiBzdHJpbmcpID0+CiAgdmFsdWUucmVwbGFjZSgvXHJcbi9nLCAnXG4nKS5yZXBsYWNlKC9cci9nLCAnXG4nKTsKCmNvbnN0IHZlcmlmeUNsaXBib2FyZFRleHQgPSBhc3luYyAoZXhwZWN0ZWRUZXh0OiBzdHJpbmcpID0+IHsKICBpZiAodHlwZW9mIG5hdmlnYXRvciA9PT0gJ3VuZGVmaW5lZCcgfHwgIW5hdmlnYXRvci5jbGlwYm9hcmQ/LnJlYWRUZXh0KSB7CiAgICByZXR1cm4gbnVsbDsKICB9CgogIHRyeSB7CiAgICBjb25zdCBhY3R1YWxUZXh0ID0gYXdhaXQgbmF2aWdhdG9yLmNsaXBib2FyZC5yZWFkVGV4dCgpOwogICAgcmV0dXJuICgKICAgICAgbm9ybWFsaXplQ2xpcGJvYXJkVGV4dChhY3R1YWxUZXh0KSA9PT0KICAgICAgbm9ybWFsaXplQ2xpcGJvYXJkVGV4dChleHBlY3RlZFRleHQpCiAgICApOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIG51bGw7CiAgfQp9OwoKY29uc3QgY29weVdpdGhFeGVjQ29tbWFuZCA9ICh0ZXh0OiBzdHJpbmcpID0+IHsKICBpZiAodHlwZW9mIGRvY3VtZW50ID09PSAndW5kZWZpbmVkJykgewogICAgcmV0dXJuIGZhbHNlOwogIH0KCiAgY29uc3QgYWN0aXZlRWxlbWVudCA9IGRvY3VtZW50LmFjdGl2ZUVsZW1lbnQ7CiAgY29uc3Qgc2VsZWN0aW9uID0gZG9jdW1lbnQuZ2V0U2VsZWN0aW9uKCk7CiAgY29uc3Qgc2VsZWN0ZWRSYW5nZXM6IFJhbmdlW10gPSBbXTsKCiAgaWYgKHNlbGVjdGlvbikgewogICAgZm9yIChsZXQgaW5kZXggPSAwOyBpbmRleCA8IHNlbGVjdGlvbi5yYW5nZUNvdW50OyBpbmRleCArPSAxKSB7CiAgICAgIHNlbGVjdGVkUmFuZ2VzLnB1c2goc2VsZWN0aW9uLmdldFJhbmdlQXQoaW5kZXgpLmNsb25lUmFuZ2UoKSk7CiAgICB9CiAgfQoKICBsZXQgY29weUV2ZW50SGFuZGxlZCA9IGZhbHNlOwogIGNvbnN0IGhhbmRsZUNvcHkgPSAoZXZlbnQ6IENsaXBib2FyZEV2ZW50KSA9PiB7CiAgICBpZiAoIWV2ZW50LmNsaXBib2FyZERhdGEpIHJldHVybjsKICAgIGV2ZW50LmNsaXBib2FyZERhdGEuc2V0RGF0YSgndGV4dC9wbGFpbicsIHRleHQpOwogICAgZXZlbnQucHJldmVudERlZmF1bHQoKTsKICAgIGNvcHlFdmVudEhhbmRsZWQgPSB0cnVlOwogIH07CgogIGNvbnN0IHRleHRhcmVhID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgndGV4dGFyZWEnKTsKICB0ZXh0YXJlYS52YWx1ZSA9IHRleHQ7CiAgdGV4dGFyZWEuc2V0QXR0cmlidXRlKCdyZWFkb25seScsICcnKTsKICB0ZXh0YXJlYS5zZXRBdHRyaWJ1dGUoJ2FyaWEtaGlkZGVuJywgJ3RydWUnKTsKICB0ZXh0YXJlYS5zdHlsZS5wb3NpdGlvbiA9ICdmaXhlZCc7CiAgdGV4dGFyZWEuc3R5bGUudG9wID0gJzAnOwogIHRleHRhcmVhLnN0eWxlLmxlZnQgPSAnMCc7CiAgdGV4dGFyZWEuc3R5bGUud2lkdGggPSAnMXB4JzsKICB0ZXh0YXJlYS5zdHlsZS5oZWlnaHQgPSAnMXB4JzsKICB0ZXh0YXJlYS5zdHlsZS5wYWRkaW5nID0gJzAnOwogIHRleHRhcmVhLnN0eWxlLmJvcmRlciA9ICcwJzsKICB0ZXh0YXJlYS5zdHlsZS5vcGFjaXR5ID0gJzAuMDEnOwogIHRleHRhcmVhLnN0eWxlLnBvaW50ZXJFdmVudHMgPSAnbm9uZSc7CiAgdGV4dGFyZWEuc3R5bGUuekluZGV4ID0gJy0xJzsKCiAgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZCh0ZXh0YXJlYSk7CiAgZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignY29weScsIGhhbmRsZUNvcHksIHRydWUpOwoKICB0cnkgewogICAgdHJ5IHsKICAgICAgdGV4dGFyZWEuZm9jdXMoeyBwcmV2ZW50U2Nyb2xsOiB0cnVlIH0pOwogICAgfSBjYXRjaCB7CiAgICAgIHRleHRhcmVhLmZvY3VzKCk7CiAgICB9CiAgICB0ZXh0YXJlYS5zZWxlY3QoKTsKICAgIHRleHRhcmVhLnNldFNlbGVjdGlvblJhbmdlKDAsIHRleHRhcmVhLnZhbHVlLmxlbmd0aCk7CgogICAgcmV0dXJuIGRvY3VtZW50LmV4ZWNDb21tYW5kKCdjb3B5JykgfHwgY29weUV2ZW50SGFuZGxlZDsKICB9IGZpbmFsbHkgewogICAgZG9jdW1lbnQucmVtb3ZlRXZlbnRMaXN0ZW5lcignY29weScsIGhhbmRsZUNvcHksIHRydWUpOwogICAgZG9jdW1lbnQuYm9keS5yZW1vdmVDaGlsZCh0ZXh0YXJlYSk7CgogICAgaWYgKHNlbGVjdGlvbikgewogICAgICBzZWxlY3Rpb24ucmVtb3ZlQWxsUmFuZ2VzKCk7CiAgICAgIHNlbGVjdGVkUmFuZ2VzLmZvckVhY2goKHJhbmdlKSA9PiBzZWxlY3Rpb24uYWRkUmFuZ2UocmFuZ2UpKTsKICAgIH0KCiAgICBpZiAoYWN0aXZlRWxlbWVudCBpbnN0YW5jZW9mIEhUTUxFbGVtZW50KSB7CiAgICAgIHRyeSB7CiAgICAgICAgYWN0aXZlRWxlbWVudC5mb2N1cyh7IHByZXZlbnRTY3JvbGw6IHRydWUgfSk7CiAgICAgIH0gY2F0Y2ggewogICAgICAgIGFjdGl2ZUVsZW1lbnQuZm9jdXMoKTsKICAgICAgfQogICAgfQogIH0KfTsKCmNvbnN0IGNvcHlXaXRoQ2xpcGJvYXJkSXRlbSA9IGFzeW5jICh0ZXh0OiBzdHJpbmcpID0+IHsKICBpZiAoCiAgICB0eXBlb2YgbmF2aWdhdG9yID09PSAndW5kZWZpbmVkJyB8fAogICAgIW5hdmlnYXRvci5jbGlwYm9hcmQ/LndyaXRlIHx8CiAgICB0eXBlb2YgQ2xpcGJvYXJkSXRlbSA9PT0gJ3VuZGVmaW5lZCcKICApIHsKICAgIHJldHVybiBmYWxzZTsKICB9CgogIGF3YWl0IG5hdmlnYXRvci5jbGlwYm9hcmQud3JpdGUoWwogICAgbmV3IENsaXBib2FyZEl0ZW0oewogICAgICAndGV4dC9wbGFpbic6IG5ldyBCbG9iKFt0ZXh0XSwgeyB0eXBlOiAndGV4dC9wbGFpbicgfSksCiAgICB9KSwKICBdKTsKCiAgcmV0dXJuIHRydWU7Cn07Cgpjb25zdCBjb3B5V2l0aFdyaXRlVGV4dCA9IGFzeW5jICh0ZXh0OiBzdHJpbmcpID0+IHsKICBpZiAodHlwZW9mIG5hdmlnYXRvciA9PT0gJ3VuZGVmaW5lZCcgfHwgIW5hdmlnYXRvci5jbGlwYm9hcmQ/LndyaXRlVGV4dCkgewogICAgcmV0dXJuIGZhbHNlOwogIH0KCiAgYXdhaXQgbmF2aWdhdG9yLmNsaXBib2FyZC53cml0ZVRleHQodGV4dCk7CiAgcmV0dXJuIHRydWU7Cn07CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gY29weVRleHRUb0NsaXBib2FyZCgKICB0ZXh0OiBzdHJpbmcsCik6IFByb21pc2U8Q29weVRleHRSZXN1bHQ+IHsKICBjb25zdCBlcnJvcnM6IHN0cmluZ1tdID0gW107CiAgbGV0IHVudmVyaWZpZWRSZXN1bHQ6IENvcHlUZXh0UmVzdWx0IHwgbnVsbCA9IG51bGw7CiAgbGV0IHZlcmlmaWNhdGlvbldhc0F2YWlsYWJsZSA9IGZhbHNlOwoKICBjb25zdCBydW5TdHJhdGVneSA9IGFzeW5jICgKICAgIG1ldGhvZDogc3RyaW5nLAogICAgc3RyYXRlZ3k6ICgpID0+IGJvb2xlYW4gfCBQcm9taXNlPGJvb2xlYW4+LAogICkgPT4gewogICAgdHJ5IHsKICAgICAgY29uc3QgY29waWVkID0gYXdhaXQgc3RyYXRlZ3koKTsKCiAgICAgIGlmICghY29waWVkKSB7CiAgICAgICAgZXJyb3JzLnB1c2goYCR7bWV0aG9kfTogdW5hdmFpbGFibGVgKTsKICAgICAgICByZXR1cm47CiAgICAgIH0KCiAgICAgIGNvbnN0IHZlcmlmaWVkID0gYXdhaXQgdmVyaWZ5Q2xpcGJvYXJkVGV4dCh0ZXh0KTsKCiAgICAgIGlmICh2ZXJpZmllZCA9PT0gdHJ1ZSkgewogICAgICAgIHJldHVybiB7IHZlcmlmaWVkOiB0cnVlLCBtZXRob2QgfTsKICAgICAgfQoKICAgICAgaWYgKHZlcmlmaWVkID09PSBmYWxzZSkgewogICAgICAgIHZlcmlmaWNhdGlvbldhc0F2YWlsYWJsZSA9IHRydWU7CiAgICAgICAgZXJyb3JzLnB1c2goYCR7bWV0aG9kfTogY2xpcGJvYXJkIGNvbnRlbnQgbWlzbWF0Y2hgKTsKICAgICAgICByZXR1cm47CiAgICAgIH0KCiAgICAgIHVudmVyaWZpZWRSZXN1bHQgPz89IHsgdmVyaWZpZWQ6IGZhbHNlLCBtZXRob2QgfTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGVycm9ycy5wdXNoKAogICAgICAgIGAke21ldGhvZH06ICR7ZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yLm1lc3NhZ2UgOiAnZmFpbGVkJ31gLAogICAgICApOwogICAgfQoKICAgIHJldHVybiB1bmRlZmluZWQ7CiAgfTsKCiAgZm9yIChjb25zdCBbbWV0aG9kLCBzdHJhdGVneV0gb2YgWwogICAgWydleGVjQ29tbWFuZCcsICgpID0+IGNvcHlXaXRoRXhlY0NvbW1hbmQodGV4dCldLAogICAgWydjbGlwYm9hcmQud3JpdGUnLCAoKSA9PiBjb3B5V2l0aENsaXBib2FyZEl0ZW0odGV4dCldLAogICAgWydjbGlwYm9hcmQud3JpdGVUZXh0JywgKCkgPT4gY29weVdpdGhXcml0ZVRleHQodGV4dCldLAogIF0gYXMgY29uc3QpIHsKICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHJ1blN0cmF0ZWd5KG1ldGhvZCwgc3RyYXRlZ3kpOwoKICAgIGlmIChyZXN1bHQ/LnZlcmlmaWVkKSB7CiAgICAgIHJldHVybiByZXN1bHQ7CiAgICB9CiAgfQoKICBpZiAodW52ZXJpZmllZFJlc3VsdCAmJiAhdmVyaWZpY2F0aW9uV2FzQXZhaWxhYmxlKSB7CiAgICByZXR1cm4gdW52ZXJpZmllZFJlc3VsdDsKICB9CgogIHRocm93IG5ldyBFcnJvcihlcnJvcnMuam9pbignOyAnKSB8fCAnQ29weSBmYWlsZWQnKTsKfQo=
+export type CopyTextResult = {
+  verified: boolean;
+  method: string;
+};
+
+const normalizeClipboardText = (value: string) =>
+  value.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+
+const verifyClipboardText = async (expectedText: string) => {
+  if (typeof navigator === 'undefined' || !navigator.clipboard?.readText) {
+    return null;
+  }
+
+  try {
+    const actualText = await navigator.clipboard.readText();
+    return (
+      normalizeClipboardText(actualText) ===
+      normalizeClipboardText(expectedText)
+    );
+  } catch {
+    return null;
+  }
+};
+
+const copyWithExecCommand = (text: string) => {
+  if (typeof document === 'undefined') {
+    return false;
+  }
+
+  const activeElement = document.activeElement;
+  const selection = document.getSelection();
+  const selectedRanges: Range[] = [];
+
+  if (selection) {
+    for (let index = 0; index < selection.rangeCount; index += 1) {
+      selectedRanges.push(selection.getRangeAt(index).cloneRange());
+    }
+  }
+
+  let copyEventHandled = false;
+  const handleCopy = (event: ClipboardEvent) => {
+    if (!event.clipboardData) return;
+    event.clipboardData.setData('text/plain', text);
+    event.preventDefault();
+    copyEventHandled = true;
+  };
+
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  textarea.setAttribute('readonly', '');
+  textarea.setAttribute('aria-hidden', 'true');
+  textarea.style.position = 'fixed';
+  textarea.style.top = '0';
+  textarea.style.left = '0';
+  textarea.style.width = '1px';
+  textarea.style.height = '1px';
+  textarea.style.padding = '0';
+  textarea.style.border = '0';
+  textarea.style.opacity = '0.01';
+  textarea.style.pointerEvents = 'none';
+  textarea.style.zIndex = '-1';
+
+  document.body.appendChild(textarea);
+  document.addEventListener('copy', handleCopy, true);
+
+  try {
+    try {
+      textarea.focus({ preventScroll: true });
+    } catch {
+      textarea.focus();
+    }
+    textarea.select();
+    textarea.setSelectionRange(0, textarea.value.length);
+
+    return document.execCommand('copy') || copyEventHandled;
+  } finally {
+    document.removeEventListener('copy', handleCopy, true);
+    document.body.removeChild(textarea);
+
+    if (selection) {
+      selection.removeAllRanges();
+      selectedRanges.forEach((range) => selection.addRange(range));
+    }
+
+    if (activeElement instanceof HTMLElement) {
+      try {
+        activeElement.focus({ preventScroll: true });
+      } catch {
+        activeElement.focus();
+      }
+    }
+  }
+};
+
+const copyWithClipboardItem = async (text: string) => {
+  if (
+    typeof navigator === 'undefined' ||
+    !navigator.clipboard?.write ||
+    typeof ClipboardItem === 'undefined'
+  ) {
+    return false;
+  }
+
+  await navigator.clipboard.write([
+    new ClipboardItem({
+      'text/plain': new Blob([text], { type: 'text/plain' }),
+    }),
+  ]);
+
+  return true;
+};
+
+const copyWithWriteText = async (text: string) => {
+  if (typeof navigator === 'undefined' || !navigator.clipboard?.writeText) {
+    return false;
+  }
+
+  await navigator.clipboard.writeText(text);
+  return true;
+};
+
+export async function copyTextToClipboard(
+  text: string,
+): Promise<CopyTextResult> {
+  const errors: string[] = [];
+  let unverifiedResult: CopyTextResult | null = null;
+  let verificationWasAvailable = false;
+
+  const runStrategy = async (
+    method: string,
+    strategy: () => boolean | Promise<boolean>,
+  ) => {
+    try {
+      const copied = await strategy();
+
+      if (!copied) {
+        errors.push(`${method}: unavailable`);
+        return;
+      }
+
+      const verified = await verifyClipboardText(text);
+
+      if (verified === true) {
+        return { verified: true, method };
+      }
+
+      if (verified === false) {
+        verificationWasAvailable = true;
+        errors.push(`${method}: clipboard content mismatch`);
+        return;
+      }
+
+      unverifiedResult ??= { verified: false, method };
+    } catch (error) {
+      errors.push(
+        `${method}: ${error instanceof Error ? error.message : 'failed'}`,
+      );
+    }
+
+    return undefined;
+  };
+
+  for (const [method, strategy] of [
+    ['execCommand', () => copyWithExecCommand(text)],
+    ['clipboard.write', () => copyWithClipboardItem(text)],
+    ['clipboard.writeText', () => copyWithWriteText(text)],
+  ] as const) {
+    const result = await runStrategy(method, strategy);
+
+    if (result?.verified) {
+      return result;
+    }
+  }
+
+  if (unverifiedResult && !verificationWasAvailable) {
+    return unverifiedResult;
+  }
+
+  throw new Error(errors.join('; ') || 'Copy failed');
+}

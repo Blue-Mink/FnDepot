@@ -1,1 +1,21 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB0eXBlIHsgU3ViZG9tYWluTWFwcGluZ0RpYWxvZ1Byb3BzIH0gZnJvbSAiLi9zdWJkb21haW4tbWFwcGluZy1kaWFsb2ctY29udHJhY3QiOwppbXBvcnQgU3ViZG9tYWluTWFwcGluZ0FjY2Vzc1NldHRpbmdzIGZyb20gIi4vU3ViZG9tYWluTWFwcGluZ0FjY2Vzc1NldHRpbmdzLnZ1ZSI7CmltcG9ydCBTdWJkb21haW5NYXBwaW5nUHJveHlQcm90b2NvbFNldHRpbmdzIGZyb20gIi4vU3ViZG9tYWluTWFwcGluZ1Byb3h5UHJvdG9jb2xTZXR0aW5ncy52dWUiOwppbXBvcnQgU3ViZG9tYWluTWFwcGluZ1Zpc2liaWxpdHlFbnRyeSBmcm9tICIuL1N1YmRvbWFpbk1hcHBpbmdWaXNpYmlsaXR5RW50cnkudnVlIjsKCmRlZmluZVByb3BzPHsgZGlhbG9nOiBTdWJkb21haW5NYXBwaW5nRGlhbG9nUHJvcHMgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktMyBwdC0yIj4KICAgIDxoMyBjbGFzcz0idGV4dC1zbSBmb250LXNlbWlib2xkIj4KICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuYWR2YW5jZWRDb25maWciKSB9fQogICAgPC9oMz4KICAgIDxTdWJkb21haW5NYXBwaW5nQWNjZXNzU2V0dGluZ3MgOmRpYWxvZz0iZGlhbG9nIiAvPgogICAgPFN1YmRvbWFpbk1hcHBpbmdQcm94eVByb3RvY29sU2V0dGluZ3MgOmRpYWxvZz0iZGlhbG9nIiAvPgogICAgPFN1YmRvbWFpbk1hcHBpbmdWaXNpYmlsaXR5RW50cnkgOmRpYWxvZz0iZGlhbG9nIiAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import type { SubdomainMappingDialogProps } from "./subdomain-mapping-dialog-contract";
+import SubdomainMappingAccessSettings from "./SubdomainMappingAccessSettings.vue";
+import SubdomainMappingProxyProtocolSettings from "./SubdomainMappingProxyProtocolSettings.vue";
+import SubdomainMappingVisibilityEntry from "./SubdomainMappingVisibilityEntry.vue";
+
+defineProps<{ dialog: SubdomainMappingDialogProps }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div class="space-y-3 pt-2">
+    <h3 class="text-sm font-semibold">
+      {{ t("admin.subdomainProxy.advancedConfig") }}
+    </h3>
+    <SubdomainMappingAccessSettings :dialog="dialog" />
+    <SubdomainMappingProxyProtocolSettings :dialog="dialog" />
+    <SubdomainMappingVisibilityEntry :dialog="dialog" />
+  </div>
+</template>

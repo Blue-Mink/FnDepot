@@ -1,1 +1,136 @@
-aW1wb3J0IHsgb25CZWZvcmVVbm1vdW50LCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgYXhpb3MgZnJvbSAiYXhpb3MiOwppbXBvcnQgeyBleHRyYWN0RXJyb3JNZXNzYWdlIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7CiAgUGFuZWxTeW5jQVBJLAogIHR5cGUgUGFuZWxDb25uZWN0aW9uLAogIHR5cGUgUGFuZWxTeW5jUHJldmlldywKICB0eXBlIFBhbmVsU3luY1J1biwKfSBmcm9tICJAL2xpYi9hcGkvcGFuZWwtc3luYy1hcGkiOwoKZXhwb3J0IGNvbnN0IHVzZVBhbmVsU3luY1J1biA9IChyZWxvYWRDb25uZWN0aW9uczogKCkgPT4gUHJvbWlzZTx2b2lkPikgPT4gewogIGNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IHByZXZpZXdPcGVuID0gcmVmKGZhbHNlKTsKICBjb25zdCBwcmV2aWV3aW5nSWQgPSByZWYoIiIpOwogIGNvbnN0IHByZXZpZXcgPSByZWY8UGFuZWxTeW5jUHJldmlldyB8IG51bGw+KG51bGwpOwogIGNvbnN0IHByZXZpZXdDb25uZWN0aW9uID0gcmVmPFBhbmVsQ29ubmVjdGlvbiB8IG51bGw+KG51bGwpOwogIGNvbnN0IHN5bmNpbmcgPSByZWYoZmFsc2UpOwogIGNvbnN0IGhpc3RvcnlPcGVuID0gcmVmKGZhbHNlKTsKICBjb25zdCBoaXN0b3J5Q29ubmVjdGlvbiA9IHJlZjxQYW5lbENvbm5lY3Rpb24gfCBudWxsPihudWxsKTsKICBjb25zdCBoaXN0b3J5ID0gcmVmPFBhbmVsU3luY1J1bltdPihbXSk7CiAgY29uc3QgbG9hZGluZ0hpc3RvcnkgPSByZWYoZmFsc2UpOwogIGxldCBwb2xsVGltZXI6IFJldHVyblR5cGU8dHlwZW9mIHNldFRpbWVvdXQ+IHwgdW5kZWZpbmVkOwoKICBjb25zdCBvcGVuUHJldmlldyA9IGFzeW5jIChjb25uZWN0aW9uOiBQYW5lbENvbm5lY3Rpb24pID0+IHsKICAgIHByZXZpZXdpbmdJZC52YWx1ZSA9IGNvbm5lY3Rpb24uaWQ7CiAgICBwcmV2aWV3Q29ubmVjdGlvbi52YWx1ZSA9IGNvbm5lY3Rpb247CiAgICB0cnkgewogICAgICBwcmV2aWV3LnZhbHVlID0gYXdhaXQgUGFuZWxTeW5jQVBJLnByZXZpZXcoY29ubmVjdGlvbi5pZCk7CiAgICAgIHByZXZpZXdPcGVuLnZhbHVlID0gdHJ1ZTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnBhbmVsU3luYy5tZXNzYWdlcy5wcmV2aWV3RmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4ucGFuZWxTeW5jLm1lc3NhZ2VzLnByZXZpZXdGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0gZmluYWxseSB7CiAgICAgIHByZXZpZXdpbmdJZC52YWx1ZSA9ICIiOwogICAgfQogIH07CgogIGNvbnN0IHBvbGxSdW4gPSBhc3luYyAocnVuSWQ6IHN0cmluZykgPT4gewogICAgdHJ5IHsKICAgICAgY29uc3QgcnVuID0gYXdhaXQgUGFuZWxTeW5jQVBJLnJ1bihydW5JZCk7CiAgICAgIGlmIChbInF1ZXVlZCIsICJydW5uaW5nIl0uaW5jbHVkZXMocnVuLnN0YXR1cykpIHsKICAgICAgICBwb2xsVGltZXIgPSBzZXRUaW1lb3V0KCgpID0+IHZvaWQgcG9sbFJ1bihydW5JZCksIDEyMDApOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBzeW5jaW5nLnZhbHVlID0gZmFsc2U7CiAgICAgIGF3YWl0IHJlbG9hZENvbm5lY3Rpb25zKCk7CiAgICAgIGlmIChydW4uc3RhdHVzID09PSAic3VjY2VzcyIgfHwgcnVuLnN0YXR1cyA9PT0gInNraXBwZWQiKSB7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5wYW5lbFN5bmMubWVzc2FnZXMuc3luY1N1Y2Nlc3MiKSk7CiAgICAgICAgcHJldmlld09wZW4udmFsdWUgPSBmYWxzZTsKICAgICAgfSBlbHNlIHsKICAgICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5wYW5lbFN5bmMubWVzc2FnZXMuc3luY0ZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogcnVuLm1lc3NhZ2UgPz8gdW5kZWZpbmVkLAogICAgICAgIH0pOwogICAgICB9CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBzeW5jaW5nLnZhbHVlID0gZmFsc2U7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnBhbmVsU3luYy5tZXNzYWdlcy5zeW5jRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4ucGFuZWxTeW5jLm1lc3NhZ2VzLnN5bmNGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0KICB9OwoKICBjb25zdCBjb25maXJtU3luYyA9IGFzeW5jICgpID0+IHsKICAgIGlmICghcHJldmlldy52YWx1ZSB8fCAhcHJldmlld0Nvbm5lY3Rpb24udmFsdWUpIHJldHVybjsKICAgIHN5bmNpbmcudmFsdWUgPSB0cnVlOwogICAgdHJ5IHsKICAgICAgY29uc3QgYWNjZXB0ZWQgPSBhd2FpdCBQYW5lbFN5bmNBUEkuc3luYygKICAgICAgICBwcmV2aWV3Q29ubmVjdGlvbi52YWx1ZS5pZCwKICAgICAgICBwcmV2aWV3LnZhbHVlLAogICAgICApOwogICAgICBhd2FpdCBwb2xsUnVuKGFjY2VwdGVkLnJ1bl9pZCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBzeW5jaW5nLnZhbHVlID0gZmFsc2U7CiAgICAgIGNvbnN0IG1lc3NhZ2UgPSBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgIGVycm9yLAogICAgICAgIHQoImFkbWluLnBhbmVsU3luYy5tZXNzYWdlcy5zeW5jRmFpbGVkIiksCiAgICAgICk7CiAgICAgIGNvbnN0IHBsYW5DaGFuZ2VkID0gYXhpb3MuaXNBeGlvc0Vycm9yKGVycm9yKSAmJiBlcnJvci5yZXNwb25zZT8uc3RhdHVzID09PSA0MDk7CiAgICAgIHRvYXN0LmVycm9yKAogICAgICAgIHBsYW5DaGFuZ2VkCiAgICAgICAgICA/IHQoImFkbWluLnBhbmVsU3luYy5tZXNzYWdlcy5wbGFuQ2hhbmdlZCIpCiAgICAgICAgICA6IHQoImFkbWluLnBhbmVsU3luYy5tZXNzYWdlcy5zeW5jRmFpbGVkIiksCiAgICAgICAgeyBkZXNjcmlwdGlvbjogbWVzc2FnZSB9LAogICAgICApOwogICAgICBpZiAocGxhbkNoYW5nZWQpIHsKICAgICAgICBhd2FpdCBvcGVuUHJldmlldyhwcmV2aWV3Q29ubmVjdGlvbi52YWx1ZSk7CiAgICAgIH0KICAgIH0KICB9OwoKICBjb25zdCBvcGVuSGlzdG9yeSA9IGFzeW5jIChjb25uZWN0aW9uOiBQYW5lbENvbm5lY3Rpb24pID0+IHsKICAgIGhpc3RvcnlDb25uZWN0aW9uLnZhbHVlID0gY29ubmVjdGlvbjsKICAgIGhpc3RvcnlPcGVuLnZhbHVlID0gdHJ1ZTsKICAgIGxvYWRpbmdIaXN0b3J5LnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGhpc3RvcnkudmFsdWUgPSBhd2FpdCBQYW5lbFN5bmNBUEkucnVucyhjb25uZWN0aW9uLmlkKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnBhbmVsU3luYy5tZXNzYWdlcy5oaXN0b3J5RmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4ucGFuZWxTeW5jLm1lc3NhZ2VzLmhpc3RvcnlGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0gZmluYWxseSB7CiAgICAgIGxvYWRpbmdIaXN0b3J5LnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgb25CZWZvcmVVbm1vdW50KCgpID0+IHsKICAgIGlmIChwb2xsVGltZXIpIGNsZWFyVGltZW91dChwb2xsVGltZXIpOwogIH0pOwoKICByZXR1cm4gewogICAgY29uZmlybVN5bmMsCiAgICBoaXN0b3J5LAogICAgaGlzdG9yeUNvbm5lY3Rpb24sCiAgICBoaXN0b3J5T3BlbiwKICAgIGxvYWRpbmdIaXN0b3J5LAogICAgb3Blbkhpc3RvcnksCiAgICBvcGVuUHJldmlldywKICAgIHByZXZpZXcsCiAgICBwcmV2aWV3Q29ubmVjdGlvbiwKICAgIHByZXZpZXdPcGVuLAogICAgcHJldmlld2luZ0lkLAogICAgc3luY2luZywKICB9Owp9Owo=
+import { onBeforeUnmount, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import axios from "axios";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  PanelSyncAPI,
+  type PanelConnection,
+  type PanelSyncPreview,
+  type PanelSyncRun,
+} from "@/lib/api/panel-sync-api";
+
+export const usePanelSyncRun = (reloadConnections: () => Promise<void>) => {
+  const { t } = useI18n();
+  const previewOpen = ref(false);
+  const previewingId = ref("");
+  const preview = ref<PanelSyncPreview | null>(null);
+  const previewConnection = ref<PanelConnection | null>(null);
+  const syncing = ref(false);
+  const historyOpen = ref(false);
+  const historyConnection = ref<PanelConnection | null>(null);
+  const history = ref<PanelSyncRun[]>([]);
+  const loadingHistory = ref(false);
+  let pollTimer: ReturnType<typeof setTimeout> | undefined;
+
+  const openPreview = async (connection: PanelConnection) => {
+    previewingId.value = connection.id;
+    previewConnection.value = connection;
+    try {
+      preview.value = await PanelSyncAPI.preview(connection.id);
+      previewOpen.value = true;
+    } catch (error) {
+      toast.error(t("admin.panelSync.messages.previewFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.panelSync.messages.previewFailed"),
+        ),
+      });
+    } finally {
+      previewingId.value = "";
+    }
+  };
+
+  const pollRun = async (runId: string) => {
+    try {
+      const run = await PanelSyncAPI.run(runId);
+      if (["queued", "running"].includes(run.status)) {
+        pollTimer = setTimeout(() => void pollRun(runId), 1200);
+        return;
+      }
+      syncing.value = false;
+      await reloadConnections();
+      if (run.status === "success" || run.status === "skipped") {
+        toast.success(t("admin.panelSync.messages.syncSuccess"));
+        previewOpen.value = false;
+      } else {
+        toast.error(t("admin.panelSync.messages.syncFailed"), {
+          description: run.message ?? undefined,
+        });
+      }
+    } catch (error) {
+      syncing.value = false;
+      toast.error(t("admin.panelSync.messages.syncFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.panelSync.messages.syncFailed"),
+        ),
+      });
+    }
+  };
+
+  const confirmSync = async () => {
+    if (!preview.value || !previewConnection.value) return;
+    syncing.value = true;
+    try {
+      const accepted = await PanelSyncAPI.sync(
+        previewConnection.value.id,
+        preview.value,
+      );
+      await pollRun(accepted.run_id);
+    } catch (error) {
+      syncing.value = false;
+      const message = extractErrorMessage(
+        error,
+        t("admin.panelSync.messages.syncFailed"),
+      );
+      const planChanged = axios.isAxiosError(error) && error.response?.status === 409;
+      toast.error(
+        planChanged
+          ? t("admin.panelSync.messages.planChanged")
+          : t("admin.panelSync.messages.syncFailed"),
+        { description: message },
+      );
+      if (planChanged) {
+        await openPreview(previewConnection.value);
+      }
+    }
+  };
+
+  const openHistory = async (connection: PanelConnection) => {
+    historyConnection.value = connection;
+    historyOpen.value = true;
+    loadingHistory.value = true;
+    try {
+      history.value = await PanelSyncAPI.runs(connection.id);
+    } catch (error) {
+      toast.error(t("admin.panelSync.messages.historyFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.panelSync.messages.historyFailed"),
+        ),
+      });
+    } finally {
+      loadingHistory.value = false;
+    }
+  };
+
+  onBeforeUnmount(() => {
+    if (pollTimer) clearTimeout(pollTimer);
+  });
+
+  return {
+    confirmSync,
+    history,
+    historyConnection,
+    historyOpen,
+    loadingHistory,
+    openHistory,
+    openPreview,
+    preview,
+    previewConnection,
+    previewOpen,
+    previewingId,
+    syncing,
+  };
+};

@@ -1,1 +1,713 @@
-dXNlIHN1cGVyOjoqOwoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gcGFzc2tleV9ydW50aW1lX2NhcGFiaWxpdGllc191c2VfbGVnYWN5X2F1dGhvcml0eV9hbmRfcmVwYWlyX3NoYWRvdygpIHsKICAgIGxldCBkaXIgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHRlbXAgZGlyIik7CiAgICBsZXQgcGF0aCA9IGRpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpOwogICAgbGV0IHN0b3JlID0gU3RvcmU6OmNvbm5lY3QoJnBhdGgpLmF3YWl0LmV4cGVjdCgib3BlbiBzdG9yZSIpOwogICAgbGV0IGNoYWxsZW5nZSA9ICJwYXNza2V5LXJ1bnRpbWUtYXV0aG9yaXR5LWNoYWxsZW5nZSI7CiAgICBsZXQgY2hhbGxlbmdlX2tleSA9IGZvcm1hdCEoCiAgICAgICAgInt9e30iLAogICAgICAgIGNyYXRlOjpzdG9yYWdlOjp0eXBlZF9wYXNza2V5X3J1bnRpbWU6OkNIQUxMRU5HRV9QUkVGSVgsCiAgICAgICAgY2hhbGxlbmdlCiAgICApOwogICAgc3RvcmUKICAgICAgICAuc2V0X3Bhc3NrZXlfY2hhbGxlbmdlKGNoYWxsZW5nZSwgImF1dGgiLCA2MDApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgic2VlZCBjaGFsbGVuZ2UiKTsKICAgIHN0b3JlCiAgICAgICAgLnNldF9wYXNza2V5X3N0YXRlKGNoYWxsZW5nZSwgJmpzb24hKHsgImNlcmVtb255IjogImF1dGgiIH0pLCA2MDApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgic2VlZCBzdGF0ZSIpOwogICAgbGV0IGJpbmRfdG9rZW4gPSBzdG9yZQogICAgICAgIC5jcmVhdGVfcGFzc2tleV9iaW5kX3Rva2VuKCJ0b3RwLXBhc3NrZXktcnVudGltZSIsIDYwMCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJzZWVkIGJpbmQgdG9rZW4iKTsKICAgIGxldCBiaW5kX2tleSA9IGZvcm1hdCEoCiAgICAgICAgInt9e30iLAogICAgICAgIGNyYXRlOjpzdG9yYWdlOjp0eXBlZF9wYXNza2V5X3J1bnRpbWU6OkJJTkRfUFJFRklYLAogICAgICAgIGJpbmRfdG9rZW4KICAgICk7CiAgICBhc3NlcnRfZXEhKHN0b3JlLnR5cGVkLnR5cGVkX3Bhc3NrZXlfcnVudGltZS5jb3VudCgpLmF3YWl0LnVud3JhcCgpLCAzKTsKICAgIGxldCB0eXBlZF9jaGFsbGVuZ2UgPSBzdG9yZQogICAgICAgIC50eXBlZAogICAgICAgIC50eXBlZF9wYXNza2V5X3J1bnRpbWUKICAgICAgICAubG9hZF9rZXkoJmNoYWxsZW5nZV9rZXkpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpCiAgICAgICAgLmV4cGVjdCgidHlwZWQgY2hhbGxlbmdlIik7CiAgICBhc3NlcnRfZXEhKHR5cGVkX2NoYWxsZW5nZS5raW5kLCAiY2hhbGxlbmdlIik7CiAgICBhc3NlcnRfZXEhKHR5cGVkX2NoYWxsZW5nZS52YWx1ZSwgImF1dGgiKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgdHlwZWRfY2hhbGxlbmdlLmV4cGlyZXNfYXRfbXMsCiAgICAgICAgc3FsaXRlX2tleV9leHBpcnlfYXRfbXMoJnBhdGgsICZjaGFsbGVuZ2Vfa2V5KQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgibGVnYWN5IGNoYWxsZW5nZSBleHBpcnkiKQogICAgKTsKICAgIGFzc2VydF9uZSEodHlwZWRfY2hhbGxlbmdlLmRpZ2VzdCwgY2hhbGxlbmdlKTsKICAgIGFzc2VydCEoIXR5cGVkX2NoYWxsZW5nZS5kaWdlc3QuY29udGFpbnMoY2hhbGxlbmdlKSk7CgogICAgbGV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmcGF0aCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGUoCiAgICAgICAgICAgICJVUERBVEUgcGFzc2tleV9ydW50aW1lX2NhcGFiaWxpdGllcwogICAgICAgICAgICAgU0VUIGNoYWxsZW5nZV90eXBlID0gJ3JlZ2lzdGVyJwogICAgICAgICAgICAgV0hFUkUgY2FwYWJpbGl0eV9raW5kID0gJ2NoYWxsZW5nZScgQU5EIGNhcGFiaWxpdHlfZGlnZXN0ID0gPzEiLAogICAgICAgICAgICBbdHlwZWRfY2hhbGxlbmdlLmRpZ2VzdC5hc19zdHIoKV0sCiAgICAgICAgKQogICAgICAgIC51bndyYXAoKTsKICAgIGRyb3AoY29ubmVjdGlvbik7CiAgICBhc3NlcnQhKAogICAgICAgICFzdG9yZQogICAgICAgICAgICAuY29uc3VtZV9wYXNza2V5X2NoYWxsZW5nZShjaGFsbGVuZ2UsICJyZWdpc3RlciIpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuZXhwZWN0KCJsZWdhY3kgdHlwZSByZW1haW5zIGF1dGhvcml0YXRpdmUiKQogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9wYXNza2V5X3J1bnRpbWUKICAgICAgICAgICAgLmxvYWRfa2V5KCZjaGFsbGVuZ2Vfa2V5KQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAudmFsdWUsCiAgICAgICAgImF1dGgiCiAgICApOwogICAgYXNzZXJ0ISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuY29uc3VtZV9wYXNza2V5X2NoYWxsZW5nZShjaGFsbGVuZ2UsICJhdXRoIikKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5leHBlY3QoImNvbnN1bWUgYXV0aG9yaXRhdGl2ZSBjaGFsbGVuZ2UiKQogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9wYXNza2V5X3J1bnRpbWUKICAgICAgICAgICAgLmxvYWRfa2V5KCZjaGFsbGVuZ2Vfa2V5KQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pc19ub25lKCkKICAgICk7CgogICAgbGV0IHN0YXRlX2tleSA9IGZvcm1hdCEoCiAgICAgICAgInt9e30iLAogICAgICAgIGNyYXRlOjpzdG9yYWdlOjp0eXBlZF9wYXNza2V5X3J1bnRpbWU6OlNUQVRFX1BSRUZJWCwKICAgICAgICBjaGFsbGVuZ2UKICAgICk7CiAgICBsZXQgY29ubmVjdGlvbiA9IG9wZW5fZml4dHVyZV9jb25uZWN0aW9uKCZwYXRoKTsKICAgIGNvbm5lY3Rpb24KICAgICAgICAuZXhlY3V0ZSgiREVMRVRFIEZST00ga3Zfa2V5cyBXSEVSRSBrZXkgPSA/MSIsIFtzdGF0ZV9rZXkuYXNfc3RyKCldKQogICAgICAgIC51bndyYXAoKTsKICAgIGRyb3AoY29ubmVjdGlvbik7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5jb25zdW1lX3Bhc3NrZXlfc3RhdGUoY2hhbGxlbmdlKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgidHlwZWQtb25seSBzdGF0ZSBjYW5ub3QgY29tcGxldGUgYSBjZXJlbW9ueSIpCiAgICAgICAgICAgIC5pc19ub25lKCkKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfcGFzc2tleV9ydW50aW1lCiAgICAgICAgICAgIC5sb2FkX2tleSgmc3RhdGVfa2V5KQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pc19ub25lKCkKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5jb25zdW1lX3Bhc3NrZXlfYmluZF90b2tlbigmYmluZF90b2tlbikKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5leHBlY3QoImNvbnN1bWUgYmluZCB0b2tlbiIpCiAgICAgICAgICAgIC5hc19kZXJlZigpLAogICAgICAgIFNvbWUoInRvdHAtcGFzc2tleS1ydW50aW1lIikKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfcGFzc2tleV9ydW50aW1lCiAgICAgICAgICAgIC5sb2FkX2tleSgmYmluZF9rZXkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmlzX25vbmUoKQogICAgKTsKICAgIGxldCBzdGF0dXMgPSBzdG9yZS50eXBlZF9wYXNza2V5X3J1bnRpbWVfc2hhZG93X3N0YXR1cygpOwogICAgYXNzZXJ0IShzdGF0dXMuaGVhbHRoeSk7CiAgICBhc3NlcnRfZXEhKHN0YXR1cy5taXNtYXRjaF9jb3VudCwgMik7Cn0KI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gcGFzc2tleV9ydW50aW1lX3R5cGVkX2ZhaWx1cmVzX3JvbGxfYmFja19jcmVhdGVfYW5kX2NvbnN1bWUoKSB7CiAgICBsZXQgZGlyID0gdGVtcGZpbGU6OnRlbXBkaXIoKS5leHBlY3QoImNyZWF0ZSB0ZW1wIGRpciIpOwogICAgbGV0IHBhdGggPSBkaXIucGF0aCgpLmpvaW4oImZuLWtub2NrLnNxbGl0ZTMiKTsKICAgIGxldCBzdG9yZSA9IFN0b3JlOjpjb25uZWN0KCZwYXRoKS5hd2FpdC5leHBlY3QoIm9wZW4gc3RvcmUiKTsKICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnBhdGgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlX2JhdGNoKAogICAgICAgICAgICAiQ1JFQVRFIFRSSUdHRVIgZmFpbF9wYXNza2V5X3J1bnRpbWVfaW5zZXJ0CiAgICAgICAgICAgICBCRUZPUkUgSU5TRVJUIE9OIHBhc3NrZXlfcnVudGltZV9jYXBhYmlsaXRpZXMKICAgICAgICAgICAgIEJFR0lOIFNFTEVDVCBSQUlTRShBQk9SVCwgJ2luamVjdGVkIHBhc3NrZXkgcnVudGltZSBpbnNlcnQgZmFpbHVyZScpOyBFTkQ7IiwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgZHJvcChjb25uZWN0aW9uKTsKICAgIGxldCBjaGFsbGVuZ2UgPSAicGFzc2tleS1ydW50aW1lLWNyZWF0ZS1yb2xsYmFjayI7CiAgICBsZXQgY2hhbGxlbmdlX2tleSA9IGZvcm1hdCEoCiAgICAgICAgInt9e30iLAogICAgICAgIGNyYXRlOjpzdG9yYWdlOjp0eXBlZF9wYXNza2V5X3J1bnRpbWU6OkNIQUxMRU5HRV9QUkVGSVgsCiAgICAgICAgY2hhbGxlbmdlCiAgICApOwogICAgbGV0IGVycm9yID0gc3RvcmUKICAgICAgICAuc2V0X3Bhc3NrZXlfY2hhbGxlbmdlKGNoYWxsZW5nZSwgImF1dGgiLCA2MDApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdF9lcnIoInR5cGVkIGluc2VydCBmYWlsdXJlIG11c3Qgcm9sbCBiYWNrIGNoYWxsZW5nZSBjcmVhdGlvbiIpOwogICAgYXNzZXJ0ISgKICAgICAgICBlcnJvcgogICAgICAgICAgICAudG9fc3RyaW5nKCkKICAgICAgICAgICAgLmNvbnRhaW5zKCJpbmplY3RlZCBwYXNza2V5IHJ1bnRpbWUgaW5zZXJ0IGZhaWx1cmUiKQogICAgKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLmdldF9zdHJpbmdfdmFsdWUoJmNoYWxsZW5nZV9rZXkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmlzX25vbmUoKQogICAgKTsKCiAgICBsZXQgY29ubmVjdGlvbiA9IG9wZW5fZml4dHVyZV9jb25uZWN0aW9uKCZwYXRoKTsKICAgIGNvbm5lY3Rpb24KICAgICAgICAuZXhlY3V0ZV9iYXRjaCgiRFJPUCBUUklHR0VSIGZhaWxfcGFzc2tleV9ydW50aW1lX2luc2VydDsiKQogICAgICAgIC51bndyYXAoKTsKICAgIGRyb3AoY29ubmVjdGlvbik7CiAgICBsZXQgYmluZF90b2tlbiA9IHN0b3JlCiAgICAgICAgLmNyZWF0ZV9wYXNza2V5X2JpbmRfdG9rZW4oInRvdHAtcm9sbGJhY2siLCA2MDApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgic2VlZCBiaW5kIHRva2VuIik7CiAgICBsZXQgYmluZF9rZXkgPSBmb3JtYXQhKAogICAgICAgICJ7fXt9IiwKICAgICAgICBjcmF0ZTo6c3RvcmFnZTo6dHlwZWRfcGFzc2tleV9ydW50aW1lOjpCSU5EX1BSRUZJWCwKICAgICAgICBiaW5kX3Rva2VuCiAgICApOwogICAgbGV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmcGF0aCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGVfYmF0Y2goCiAgICAgICAgICAgICJDUkVBVEUgVFJJR0dFUiBmYWlsX3Bhc3NrZXlfcnVudGltZV9kZWxldGUKICAgICAgICAgICAgIEJFRk9SRSBERUxFVEUgT04gcGFzc2tleV9ydW50aW1lX2NhcGFiaWxpdGllcwogICAgICAgICAgICAgQkVHSU4gU0VMRUNUIFJBSVNFKEFCT1JULCAnaW5qZWN0ZWQgcGFzc2tleSBydW50aW1lIGRlbGV0ZSBmYWlsdXJlJyk7IEVORDsiLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICBkcm9wKGNvbm5lY3Rpb24pOwogICAgbGV0IGVycm9yID0gc3RvcmUKICAgICAgICAuY29uc3VtZV9wYXNza2V5X2JpbmRfdG9rZW4oJmJpbmRfdG9rZW4pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdF9lcnIoInR5cGVkIGRlbGV0ZSBmYWlsdXJlIG11c3Qgcm9sbCBiYWNrIG9uZS10aW1lIGNvbnN1bXB0aW9uIik7CiAgICBhc3NlcnQhKAogICAgICAgIGVycm9yCiAgICAgICAgICAgIC50b19zdHJpbmcoKQogICAgICAgICAgICAuY29udGFpbnMoImluamVjdGVkIHBhc3NrZXkgcnVudGltZSBkZWxldGUgZmFpbHVyZSIpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzdG9yZS5nZXRfc3RyaW5nX3ZhbHVlKCZiaW5kX2tleSkuYXdhaXQudW53cmFwKCkuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKCJ0b3RwLXJvbGxiYWNrIikKICAgICk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHBhc3NrZXlfcnVudGltZV9iYWNrdXBfcmVzdG9yZV9hbmRfY2xlYXJfcmVidWlsZF9zaGFkb3coKSB7CiAgICBsZXQgc291cmNlX2RpciA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgc291cmNlIHRlbXAgZGlyIik7CiAgICBsZXQgc291cmNlID0gU3RvcmU6OmNvbm5lY3Qoc291cmNlX2Rpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoIm9wZW4gc291cmNlIHN0b3JlIik7CiAgICBzb3VyY2UKICAgICAgICAuc2V0X3Bhc3NrZXlfY2hhbGxlbmdlKCJiYWNrdXAtY2hhbGxlbmdlIiwgInJlZ2lzdGVyIiwgNjAwKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIHNvdXJjZQogICAgICAgIC5zZXRfcGFzc2tleV9zdGF0ZSgiYmFja3VwLWNoYWxsZW5nZSIsICZqc29uISh7ICJiYWNrdXAiOiB0cnVlIH0pLCA2MDApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgbGV0IGVudHJpZXMgPSBzb3VyY2UKICAgICAgICAuZXhwb3J0X2JhY2t1cF9lbnRyaWVzX2J5X3ByZWZpeF9saW1pdGVkKCJmbl9rbm9jazpwYXNza2V5OiIsIDFfMDAwXzAwMCwgfF98IHRydWUpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgiZXhwb3J0IHBhc3NrZXkgcnVudGltZSBjYXBhYmlsaXRpZXMiKTsKICAgIGFzc2VydF9lcSEoZW50cmllcy5sZW4oKSwgMik7CgogICAgbGV0IHRhcmdldF9kaXIgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHRhcmdldCB0ZW1wIGRpciIpOwogICAgbGV0IHRhcmdldCA9IFN0b3JlOjpjb25uZWN0KHRhcmdldF9kaXIucGF0aCgpLmpvaW4oImZuLWtub2NrLnNxbGl0ZTMiKSkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJvcGVuIHRhcmdldCBzdG9yZSIpOwogICAgdGFyZ2V0CiAgICAgICAgLnJlcGxhY2VfYmFja3VwX2VudHJpZXNfYnlfcHJlZml4KCJmbl9rbm9jazoiLCAmZW50cmllcywgMjAwKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInJlc3RvcmUgcGFzc2tleSBydW50aW1lIGNhcGFiaWxpdGllcyIpOwogICAgYXNzZXJ0X2VxISh0YXJnZXQudHlwZWQudHlwZWRfcGFzc2tleV9ydW50aW1lLmNvdW50KCkuYXdhaXQudW53cmFwKCksIDIpOwogICAgYXNzZXJ0ISgKICAgICAgICB0YXJnZXQKICAgICAgICAgICAgLmNvbnN1bWVfcGFzc2tleV9jaGFsbGVuZ2UoImJhY2t1cC1jaGFsbGVuZ2UiLCAicmVnaXN0ZXIiKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICB0YXJnZXQKICAgICAgICAgICAgLmNvbnN1bWVfcGFzc2tleV9zdGF0ZSgiYmFja3VwLWNoYWxsZW5nZSIpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCksCiAgICAgICAgU29tZShqc29uISh7ICJiYWNrdXAiOiB0cnVlIH0pKQogICAgKTsKICAgIHRhcmdldC5jbGVhcl9hbGxfa2V5cygpLmF3YWl0LmV4cGVjdCgiY2xlYXIgdGFyZ2V0IHN0b3JlIik7CiAgICBhc3NlcnRfZXEhKHRhcmdldC50eXBlZC50eXBlZF9wYXNza2V5X3J1bnRpbWUuY291bnQoKS5hd2FpdC51bndyYXAoKSwgMCk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIGlkZW50aXR5X3J1bnRpbWVfYWdncmVnYXRlX3RyYWNrc19pbmRleGVzX3R0bF9hbmRfcmVwYWlyc19mcm9tX2xlZ2FjeSgpIHsKICAgIGxldCBkaXIgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHRlbXAgZGlyIik7CiAgICBsZXQgcGF0aCA9IGRpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpOwogICAgbGV0IHN0b3JlID0gU3RvcmU6OmNvbm5lY3QoJnBhdGgpLmF3YWl0LmV4cGVjdCgib3BlbiBzdG9yZSIpOwogICAgbGV0IHByb3ZpZGVyX2tleSA9ICJmbl9rbm9jazpvaWRjOnByb3ZpZGVyczpkYXRhOnByb3ZpZGVyLXNoYWRvdyI7CiAgICBsZXQgcHJvdmlkZXJfaW5kZXggPSAiZm5fa25vY2s6b2lkYzpwcm92aWRlcnM6aW5kZXgiOwogICAgbGV0IGJpbmRpbmdfa2V5ID0gImZuX2tub2NrOm9pZGM6YmluZGluZ3M6ZGF0YTpiaW5kaW5nLXNoYWRvdyI7CiAgICBsZXQgc3ViamVjdF9rZXkgPSAiZm5fa25vY2s6b2lkYzpiaW5kaW5nczpzdWJqZWN0OnN1YmplY3Qtc2hhZG93IjsKICAgIGxldCBiaW5kaW5nX2luZGV4ID0gImZuX2tub2NrOm9pZGM6YmluZGluZ3M6aW5kZXgiOwogICAgbGV0IHN0YXRlX2tleSA9ICJmbl9rbm9jazpvaWRjOnN0YXRlOnN0YXRlLXNoYWRvdyI7CiAgICBzdG9yZQogICAgICAgIC5zZXRfanNvbl92YWx1ZShwcm92aWRlcl9rZXksICZqc29uISh7ICJpZCI6ICJwcm92aWRlci1zaGFkb3ciIH0pKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIHN0b3JlCiAgICAgICAgLnphZGRfc3RyaW5nX21lbWJlcihwcm92aWRlcl9pbmRleCwgInByb3ZpZGVyLXNoYWRvdyIsIDEwKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIHN0b3JlCiAgICAgICAgLnNldF9qc29uX3ZhbHVlKAogICAgICAgICAgICBiaW5kaW5nX2tleSwKICAgICAgICAgICAgJmpzb24hKHsKICAgICAgICAgICAgICAgICJpZCI6ICJiaW5kaW5nLXNoYWRvdyIsCiAgICAgICAgICAgICAgICAicHJvdmlkZXJfaWQiOiAicHJvdmlkZXItc2hhZG93IiwKICAgICAgICAgICAgICAgICJ0b3RwX2lkIjogInRvdHAtc2hhZG93IiwKICAgICAgICAgICAgICAgICJzdWJqZWN0X2tleSI6ICJzdWJqZWN0LXNoYWRvdyIKICAgICAgICAgICAgfSksCiAgICAgICAgKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIHN0b3JlCiAgICAgICAgLnNldF9zdHJpbmdfdmFsdWUoc3ViamVjdF9rZXksICJiaW5kaW5nLXNoYWRvdyIpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgc3RvcmUKICAgICAgICAuemFkZF9zdHJpbmdfbWVtYmVyKGJpbmRpbmdfaW5kZXgsICJiaW5kaW5nLXNoYWRvdyIsIDIwKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIHN0b3JlCiAgICAgICAgLnNldF9qc29uX3ZhbHVlX2V4KHN0YXRlX2tleSwgJmpzb24hKHsgImZsb3ciOiAic2hhZG93IiB9KSwgNjAwKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKCiAgICBsZXQgYWdncmVnYXRlID0gc3RvcmUKICAgICAgICAudHlwZWQKICAgICAgICAudHlwZWRfaWRlbnRpdHlfcnVudGltZQogICAgICAgIC5sb2FkX3Byb3RvY29sKCJvaWRjIikKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCkKICAgICAgICAuZXhwZWN0KCJPSURDIGFnZ3JlZ2F0ZSIpOwogICAgYXNzZXJ0X2VxIShhZ2dyZWdhdGUucHJvdmlkZXJzLmxlbigpLCAxKTsKICAgIGFzc2VydF9lcSEoYWdncmVnYXRlLnByb3ZpZGVyX2luZGV4LmxlbigpLCAxKTsKICAgIGFzc2VydF9lcSEoYWdncmVnYXRlLmJpbmRpbmdzLmxlbigpLCAxKTsKICAgIGFzc2VydF9lcSEoYWdncmVnYXRlLmJpbmRpbmdfaW5kZXgubGVuKCksIDEpOwogICAgYXNzZXJ0X2VxIShhZ2dyZWdhdGUuc3ViamVjdHMubGVuKCksIDEpOwogICAgYXNzZXJ0X2VxIShhZ2dyZWdhdGUuY2FwYWJpbGl0aWVzLmxlbigpLCAxKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgYWdncmVnYXRlLmNhcGFiaWxpdGllc1swXS5leHBpcmVzX2F0X21zLAogICAgICAgIHNxbGl0ZV9rZXlfZXhwaXJ5X2F0X21zKCZwYXRoLCBzdGF0ZV9rZXkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuZXhwZWN0KCJsZWdhY3kgT0lEQyBzdGF0ZSBleHBpcnkiKQogICAgKTsKCiAgICBsZXQgY29ycnVwdCA9IGpzb24hKHsgInByb3RvY29sIjogIm9pZGMiIH0pOwogICAgbGV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmcGF0aCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGUoCiAgICAgICAgICAgICJVUERBVEUgaWRlbnRpdHlfcnVudGltZV9hZ2dyZWdhdGVzIFNFVCBhZ2dyZWdhdGVfanNvbiA9ID8xIFdIRVJFIHByb3RvY29sID0gJ29pZGMnIiwKICAgICAgICAgICAgW3NlcmRlX2pzb246OnRvX3N0cmluZygmY29ycnVwdCkudW53cmFwKCldLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICBkcm9wKGNvbm5lY3Rpb24pOwogICAgc3RvcmUKICAgICAgICAudmVyaWZ5X2lkZW50aXR5X3J1bnRpbWVfc2hhZG93KCJvaWRjIikKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJyZXBhaXIgT0lEQyBhZ2dyZWdhdGUiKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9pZGVudGl0eV9ydW50aW1lCiAgICAgICAgICAgIC5sb2FkX3Byb3RvY29sKCJvaWRjIikKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAudW53cmFwKCksCiAgICAgICAgYWdncmVnYXRlCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzdG9yZS50eXBlZF9pZGVudGl0eV9ydW50aW1lX3NoYWRvd19zdGF0dXMoKS5taXNtYXRjaF9jb3VudCwKICAgICAgICAxCiAgICApOwoKICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnBhdGgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlKCJERUxFVEUgRlJPTSBrdl9rZXlzIFdIRVJFIGtleSA9ID8xIiwgW3N0YXRlX2tleV0pCiAgICAgICAgLnVud3JhcCgpOwogICAgZHJvcChjb25uZWN0aW9uKTsKICAgIGFzc2VydCEoc3RvcmUuZ2V0X2pzb25fdmFsdWUoc3RhdGVfa2V5KS5hd2FpdC51bndyYXAoKS5pc19ub25lKCkpOwogICAgc3RvcmUKICAgICAgICAudmVyaWZ5X2lkZW50aXR5X3J1bnRpbWVfc2hhZG93KCJvaWRjIikKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJ0eXBlZC1vbmx5IGNhcGFiaWxpdHkgbXVzdCBiZSByZW1vdmVkIik7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfaWRlbnRpdHlfcnVudGltZQogICAgICAgICAgICAubG9hZF9wcm90b2NvbCgib2lkYyIpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5jYXBhYmlsaXRpZXMKICAgICAgICAgICAgLmlzX2VtcHR5KCkKICAgICk7CiAgICBzdG9yZQogICAgICAgIC52ZXJpZnlfaWRlbnRpdHlfcnVudGltZV9zaGFkb3coIm9pZGMiKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoIm1hdGNoaW5nIGNvbXBhcmlzb24gcmVjb3ZlcnMgaGVhbHRoIik7CiAgICBsZXQgc3RhdHVzID0gc3RvcmUudHlwZWRfaWRlbnRpdHlfcnVudGltZV9zaGFkb3dfc3RhdHVzKCk7CiAgICBhc3NlcnQhKHN0YXR1cy5oZWFsdGh5KTsKICAgIGFzc2VydF9lcSEoc3RhdHVzLm1pc21hdGNoX2NvdW50LCAyKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gaWRlbnRpdHlfcnVudGltZV90eXBlZF9mYWlsdXJlc19yb2xsX2JhY2tfY3JlYXRlX2FuZF9jb25zdW1lKCkgewogICAgbGV0IGRpciA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgdGVtcCBkaXIiKTsKICAgIGxldCBwYXRoID0gZGlyLnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIik7CiAgICBsZXQgc3RvcmUgPSBTdG9yZTo6Y29ubmVjdCgmcGF0aCkuYXdhaXQuZXhwZWN0KCJvcGVuIHN0b3JlIik7CiAgICBsZXQgc3RhdGVfa2V5ID0gImZuX2tub2NrOm9pZGM6c3RhdGU6cm9sbGJhY2stc2hhZG93IjsKICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnBhdGgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlX2JhdGNoKAogICAgICAgICAgICAiQ1JFQVRFIFRSSUdHRVIgZmFpbF9pZGVudGl0eV9ydW50aW1lX3VwZGF0ZQogICAgICAgICAgICAgQkVGT1JFIFVQREFURSBPTiBpZGVudGl0eV9ydW50aW1lX2FnZ3JlZ2F0ZXMKICAgICAgICAgICAgIFdIRU4gTkVXLnByb3RvY29sID0gJ29pZGMnCiAgICAgICAgICAgICBCRUdJTiBTRUxFQ1QgUkFJU0UoQUJPUlQsICdpbmplY3RlZCBpZGVudGl0eSBydW50aW1lIGZhaWx1cmUnKTsgRU5EOyIsCiAgICAgICAgKQogICAgICAgIC51bndyYXAoKTsKICAgIGRyb3AoY29ubmVjdGlvbik7CiAgICBsZXQgZXJyb3IgPSBzdG9yZQogICAgICAgIC5zZXRfanNvbl92YWx1ZV9leChzdGF0ZV9rZXksICZqc29uISh7ICJmbG93IjogInJvbGxiYWNrIiB9KSwgNjAwKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3RfZXJyKCJ0eXBlZCBmYWlsdXJlIG11c3Qgcm9sbCBiYWNrIE9JREMgc3RhdGUgY3JlYXRpb24iKTsKICAgIGFzc2VydCEoCiAgICAgICAgZXJyb3IKICAgICAgICAgICAgLnRvX3N0cmluZygpCiAgICAgICAgICAgIC5jb250YWlucygiaW5qZWN0ZWQgaWRlbnRpdHkgcnVudGltZSBmYWlsdXJlIikKICAgICk7CiAgICBhc3NlcnQhKHN0b3JlLmdldF9qc29uX3ZhbHVlKHN0YXRlX2tleSkuYXdhaXQudW53cmFwKCkuaXNfbm9uZSgpKTsKCiAgICBsZXQgY29ubmVjdGlvbiA9IG9wZW5fZml4dHVyZV9jb25uZWN0aW9uKCZwYXRoKTsKICAgIGNvbm5lY3Rpb24KICAgICAgICAuZXhlY3V0ZV9iYXRjaCgiRFJPUCBUUklHR0VSIGZhaWxfaWRlbnRpdHlfcnVudGltZV91cGRhdGUiKQogICAgICAgIC51bndyYXAoKTsKICAgIGRyb3AoY29ubmVjdGlvbik7CiAgICBzdG9yZQogICAgICAgIC5zZXRfanNvbl92YWx1ZV9leChzdGF0ZV9rZXksICZqc29uISh7ICJmbG93IjogInJvbGxiYWNrIiB9KSwgNjAwKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIGxldCBjb25uZWN0aW9uID0gb3Blbl9maXh0dXJlX2Nvbm5lY3Rpb24oJnBhdGgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlX2JhdGNoKAogICAgICAgICAgICAiQ1JFQVRFIFRSSUdHRVIgZmFpbF9pZGVudGl0eV9ydW50aW1lX2RlbGV0ZV9zeW5jCiAgICAgICAgICAgICBCRUZPUkUgVVBEQVRFIE9OIGlkZW50aXR5X3J1bnRpbWVfYWdncmVnYXRlcwogICAgICAgICAgICAgV0hFTiBORVcucHJvdG9jb2wgPSAnb2lkYycKICAgICAgICAgICAgIEJFR0lOIFNFTEVDVCBSQUlTRShBQk9SVCwgJ2luamVjdGVkIGlkZW50aXR5IGNvbnN1bWUgZmFpbHVyZScpOyBFTkQ7IiwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgZHJvcChjb25uZWN0aW9uKTsKICAgIGxldCBlcnJvciA9IHN0b3JlCiAgICAgICAgLmNvbnN1bWVfanNvbl92YWx1ZShzdGF0ZV9rZXkpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdF9lcnIoInR5cGVkIGZhaWx1cmUgbXVzdCByb2xsIGJhY2sgb25lLXRpbWUgc3RhdGUgY29uc3VtcHRpb24iKTsKICAgIGFzc2VydCEoCiAgICAgICAgZXJyb3IKICAgICAgICAgICAgLnRvX3N0cmluZygpCiAgICAgICAgICAgIC5jb250YWlucygiaW5qZWN0ZWQgaWRlbnRpdHkgY29uc3VtZSBmYWlsdXJlIikKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlLmdldF9qc29uX3ZhbHVlKHN0YXRlX2tleSkuYXdhaXQudW53cmFwKCksCiAgICAgICAgU29tZShqc29uISh7ICJmbG93IjogInJvbGxiYWNrIiB9KSkKICAgICk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIGlkZW50aXR5X3J1bnRpbWVfYmFja3VwX3Jlc3RvcmVfYW5kX2NsZWFyX3JlYnVpbGRfc2hhZG93KCkgewogICAgbGV0IHNvdXJjZV9kaXIgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHNvdXJjZSB0ZW1wIGRpciIpOwogICAgbGV0IHNvdXJjZSA9IFN0b3JlOjpjb25uZWN0KHNvdXJjZV9kaXIucGF0aCgpLmpvaW4oImZuLWtub2NrLnNxbGl0ZTMiKSkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJvcGVuIHNvdXJjZSBzdG9yZSIpOwogICAgc291cmNlCiAgICAgICAgLnNldF9qc29uX3ZhbHVlX2V4KAogICAgICAgICAgICAiZm5fa25vY2s6bGRhcDppbnZpdGU6YmFja3VwLXNoYWRvdyIsCiAgICAgICAgICAgICZqc29uISh7ICJwcm92aWRlcl9pZCI6ICJsZGFwLXByb3ZpZGVyIiwgInRvdHBfaWQiOiAidG90cCIgfSksCiAgICAgICAgICAgIDYwMCwKICAgICAgICApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgbGV0IGVudHJpZXMgPSBzb3VyY2UKICAgICAgICAuZXhwb3J0X2JhY2t1cF9lbnRyaWVzX2J5X3ByZWZpeF9saW1pdGVkKCJmbl9rbm9jazpsZGFwOiIsIDFfMDAwXzAwMCwgfF98IHRydWUpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgiZXhwb3J0IExEQVAgaWRlbnRpdHkgcnVudGltZSIpOwogICAgYXNzZXJ0X2VxIShlbnRyaWVzLmxlbigpLCAxKTsKCiAgICBsZXQgdGFyZ2V0X2RpciA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgdGFyZ2V0IHRlbXAgZGlyIik7CiAgICBsZXQgdGFyZ2V0ID0gU3RvcmU6OmNvbm5lY3QodGFyZ2V0X2Rpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoIm9wZW4gdGFyZ2V0IHN0b3JlIik7CiAgICB0YXJnZXQKICAgICAgICAucmVwbGFjZV9iYWNrdXBfZW50cmllc19ieV9wcmVmaXgoImZuX2tub2NrOiIsICZlbnRyaWVzLCAyMDApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgicmVzdG9yZSBMREFQIGlkZW50aXR5IHJ1bnRpbWUiKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgdGFyZ2V0CiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfaWRlbnRpdHlfcnVudGltZQogICAgICAgICAgICAubG9hZF9wcm90b2NvbCgibGRhcCIpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5jYXBhYmlsaXRpZXMKICAgICAgICAgICAgLmxlbigpLAogICAgICAgIDEKICAgICk7CiAgICB0YXJnZXQuY2xlYXJfYWxsX2tleXMoKS5hd2FpdC5leHBlY3QoImNsZWFyIHRhcmdldCBzdG9yZSIpOwogICAgbGV0IGFnZ3JlZ2F0ZSA9IHRhcmdldAogICAgICAgIC50eXBlZAogICAgICAgIC50eXBlZF9pZGVudGl0eV9ydW50aW1lCiAgICAgICAgLmxvYWRfcHJvdG9jb2woImxkYXAiKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKQogICAgICAgIC51bndyYXAoKTsKICAgIGFzc2VydCEoYWdncmVnYXRlLnByb3ZpZGVycy5pc19lbXB0eSgpKTsKICAgIGFzc2VydCEoYWdncmVnYXRlLmJpbmRpbmdzLmlzX2VtcHR5KCkpOwogICAgYXNzZXJ0IShhZ2dyZWdhdGUuc3ViamVjdHMuaXNfZW1wdHkoKSk7CiAgICBhc3NlcnQhKGFnZ3JlZ2F0ZS5jYXBhYmlsaXRpZXMuaXNfZW1wdHkoKSk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIGlkZW50aXR5X3J1bnRpbWVfY29uY3VycmVudF9jYXBhYmlsaXRpZXNfYW5kX2xlZ2FjeV9yZXN0YXJ0X3ByZXNlcnZlX3NoYWRvdygpIHsKICAgIGxldCBkaXIgPSB0ZW1wZmlsZTo6dGVtcGRpcigpLmV4cGVjdCgiY3JlYXRlIHRlbXAgZGlyIik7CiAgICBsZXQgcGF0aCA9IGRpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpOwogICAgbGV0IHN0b3JlID0gc3RkOjpzeW5jOjpBcmM6Om5ldyhTdG9yZTo6Y29ubmVjdCgmcGF0aCkuYXdhaXQuZXhwZWN0KCJvcGVuIHN0b3JlIikpOwogICAgbGV0IG11dCBjcmVhdGVzID0gdG9raW86OnRhc2s6OkpvaW5TZXQ6Om5ldygpOwogICAgZm9yIGluZGV4IGluIDAuLjE2IHsKICAgICAgICBsZXQgc3RvcmUgPSBzdG9yZS5jbG9uZSgpOwogICAgICAgIGNyZWF0ZXMuc3Bhd24oYXN5bmMgbW92ZSB7CiAgICAgICAgICAgIGxldCBrZXkgPSBmb3JtYXQhKCJmbl9rbm9jazpvaWRjOnN0YXRlOmNvbmN1cnJlbnQte2luZGV4fSIpOwogICAgICAgICAgICBzdG9yZQogICAgICAgICAgICAgICAgLnNldF9qc29uX3ZhbHVlX2V4KCZrZXksICZqc29uISh7ICJpbmRleCI6IGluZGV4IH0pLCA2MDApCiAgICAgICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgICAgIC5tYXAofF98IGtleSkKICAgICAgICB9KTsKICAgIH0KICAgIGxldCBtdXQga2V5cyA9IFZlYzo6bmV3KCk7CiAgICB3aGlsZSBsZXQgU29tZShyZXN1bHQpID0gY3JlYXRlcy5qb2luX25leHQoKS5hd2FpdCB7CiAgICAgICAga2V5cy5wdXNoKHJlc3VsdC51bndyYXAoKS51bndyYXAoKSk7CiAgICB9CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfaWRlbnRpdHlfcnVudGltZQogICAgICAgICAgICAubG9hZF9wcm90b2NvbCgib2lkYyIpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5jYXBhYmlsaXRpZXMKICAgICAgICAgICAgLmxlbigpLAogICAgICAgIDE2CiAgICApOwoKICAgIGxldCBtdXQgY29uc3VtZXMgPSB0b2tpbzo6dGFzazo6Sm9pblNldDo6bmV3KCk7CiAgICBmb3Iga2V5IGluIGtleXMgewogICAgICAgIGxldCBzdG9yZSA9IHN0b3JlLmNsb25lKCk7CiAgICAgICAgY29uc3VtZXMuc3Bhd24oYXN5bmMgbW92ZSB7IHN0b3JlLmNvbnN1bWVfanNvbl92YWx1ZSgma2V5KS5hd2FpdCB9KTsKICAgIH0KICAgIGxldCBtdXQgY29uc3VtZWQgPSAwOwogICAgd2hpbGUgbGV0IFNvbWUocmVzdWx0KSA9IGNvbnN1bWVzLmpvaW5fbmV4dCgpLmF3YWl0IHsKICAgICAgICBpZiByZXN1bHQudW53cmFwKCkudW53cmFwKCkuaXNfc29tZSgpIHsKICAgICAgICAgICAgY29uc3VtZWQgKz0gMTsKICAgICAgICB9CiAgICB9CiAgICBhc3NlcnRfZXEhKGNvbnN1bWVkLCAxNik7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC50eXBlZAogICAgICAgICAgICAudHlwZWRfaWRlbnRpdHlfcnVudGltZQogICAgICAgICAgICAubG9hZF9wcm90b2NvbCgib2lkYyIpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5jYXBhYmlsaXRpZXMKICAgICAgICAgICAgLmlzX2VtcHR5KCkKICAgICk7CgogICAgZHJvcChzdG9yZSk7CiAgICBsZXQgbGVnYWN5X2tleSA9ICJmbl9rbm9jazpsZGFwOmludml0ZTpsZWdhY3ktcmVzdGFydCI7CiAgICBsZXQgY29ubmVjdGlvbiA9IG9wZW5fZml4dHVyZV9jb25uZWN0aW9uKCZwYXRoKTsKICAgIGNvbm5lY3Rpb24KICAgICAgICAucHJhZ21hX3VwZGF0ZShOb25lLCAiZm9yZWlnbl9rZXlzIiwgIk9OIikKICAgICAgICAudW53cmFwKCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGUoCiAgICAgICAgICAgICJJTlNFUlQgSU5UTyBrdl9rZXlzKGtleSwga2luZCwgZXhwaXJlc19hdF9tcykgVkFMVUVTICg/MSwgJ3N0cmluZycsID8yKSIsCiAgICAgICAgICAgIHRva2lvX3J1c3FsaXRlOjpydXNxbGl0ZTo6cGFyYW1zIVtsZWdhY3lfa2V5LCBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCkgKyA2MDBfMDAwXSwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlKAogICAgICAgICAgICAiSU5TRVJUIElOVE8ga3Zfc3RyaW5ncyhrZXksIHZhbHVlKSBWQUxVRVMgKD8xLCA/MikiLAogICAgICAgICAgICB0b2tpb19ydXNxbGl0ZTo6cnVzcWxpdGU6OnBhcmFtcyFbCiAgICAgICAgICAgICAgICBsZWdhY3lfa2V5LAogICAgICAgICAgICAgICAgc2VyZGVfanNvbjo6dG9fc3RyaW5nKAogICAgICAgICAgICAgICAgICAgICZqc29uISh7ICJwcm92aWRlcl9pZCI6ICJsZWdhY3ktcHJvdmlkZXIiLCAidG90cF9pZCI6ICJsZWdhY3ktdG90cCIgfSkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICBdLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICBkcm9wKGNvbm5lY3Rpb24pOwoKICAgIGxldCByZW9wZW5lZCA9IFN0b3JlOjpjb25uZWN0KCZwYXRoKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInJlb3BlbiBhZnRlciBsZWdhY3kgd3JpdGUiKTsKICAgIGxldCBsZGFwID0gcmVvcGVuZWQKICAgICAgICAudHlwZWQKICAgICAgICAudHlwZWRfaWRlbnRpdHlfcnVudGltZQogICAgICAgIC5sb2FkX3Byb3RvY29sKCJsZGFwIikKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCkKICAgICAgICAudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKGxkYXAuY2FwYWJpbGl0aWVzLmxlbigpLCAxKTsKICAgIGFzc2VydF9lcSEobGRhcC5jYXBhYmlsaXRpZXNbMF0uZGlnZXN0LCAibGVnYWN5LXJlc3RhcnQiKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgcmVvcGVuZWQuZ2V0X2pzb25fdmFsdWUobGVnYWN5X2tleSkuYXdhaXQudW53cmFwKCksCiAgICAgICAgU29tZShqc29uISh7ICJwcm92aWRlcl9pZCI6ICJsZWdhY3ktcHJvdmlkZXIiLCAidG90cF9pZCI6ICJsZWdhY3ktdG90cCIgfSkpCiAgICApOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBvaWRjX2ludml0ZV9jb25zdW1wdGlvbl9hbmRfc3ViamVjdF9iaW5kaW5nX2NvbW1pdF9hdG9taWNhbGx5KCkgewogICAgbGV0IGRpciA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgdGVtcCBkaXIiKTsKICAgIGxldCBwYXRoID0gZGlyLnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIik7CiAgICBsZXQgc3RvcmUgPSBTdG9yZTo6Y29ubmVjdCgmcGF0aCkuYXdhaXQuZXhwZWN0KCJvcGVuIHN0b3JlIik7CiAgICBsZXQgaW52aXRlX2tleSA9ICJmbl9rbm9jazpvaWRjOmludml0ZTphdG9taWMtY2xhaW0iOwogICAgbGV0IHN1YmplY3Rfa2V5ID0gImZuX2tub2NrOm9pZGM6YmluZGluZ3M6c3ViamVjdDphdG9taWMtc3ViamVjdCI7CiAgICBsZXQgYmluZGluZ19rZXkgPSAiZm5fa25vY2s6b2lkYzpiaW5kaW5nczpkYXRhOmF0b21pYy1iaW5kaW5nIjsKICAgIGxldCBpbmRleF9rZXkgPSAiZm5fa25vY2s6b2lkYzpiaW5kaW5nczppbmRleCI7CiAgICBsZXQgYmluZGluZyA9IGpzb24hKHsKICAgICAgICAiaWQiOiAiYXRvbWljLWJpbmRpbmciLAogICAgICAgICJwcm92aWRlcl9pZCI6ICJwcm92aWRlci1hIiwKICAgICAgICAidG90cF9pZCI6ICJ0b3RwLWEiLAogICAgICAgICJzdWJqZWN0X2tleSI6ICJhdG9taWMtc3ViamVjdCIsCiAgICAgICAgInVwZGF0ZWRfYXQiOiBjcmF0ZTo6dGltZV91dGlsczo6bm93X2lzbygpLAogICAgfSk7CiAgICBzdG9yZQogICAgICAgIC5zZXRfanNvbl92YWx1ZV9leCgKICAgICAgICAgICAgaW52aXRlX2tleSwKICAgICAgICAgICAgJmpzb24hKHsgInByb3ZpZGVyX2lkIjogInByb3ZpZGVyLWEiLCAidG90cF9pZCI6ICJ0b3RwLWEiIH0pLAogICAgICAgICAgICA2MDAsCiAgICAgICAgKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIGFzc2VydCEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLmNsYWltX29pZGNfYmluZGluZ19hbmRfY29uc3VtZV9pbnZpdGUoT2lkY0JpbmRpbmdDbGFpbSB7CiAgICAgICAgICAgICAgICBpbnZpdGVfa2V5LAogICAgICAgICAgICAgICAgc3ViamVjdF9rZXksCiAgICAgICAgICAgICAgICBiaW5kaW5nX2tleSwKICAgICAgICAgICAgICAgIGJpbmRpbmdzX2luZGV4X2tleTogaW5kZXhfa2V5LAogICAgICAgICAgICAgICAgYmluZGluZ19pZDogImF0b21pYy1iaW5kaW5nIiwKICAgICAgICAgICAgICAgIGJpbmRpbmc6ICZiaW5kaW5nLAogICAgICAgICAgICAgICAgcHJvdmlkZXJfaWQ6ICJwcm92aWRlci1hIiwKICAgICAgICAgICAgICAgIHRvdHBfaWQ6ICJ0b3RwLWEiLAogICAgICAgICAgICAgICAgc2NvcmU6IDQyLAogICAgICAgICAgICB9KQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgiY2xhaW0gT0lEQyBiaW5kaW5nIikKICAgICk7CiAgICBhc3NlcnQhKHN0b3JlLmdldF9qc29uX3ZhbHVlKGludml0ZV9rZXkpLmF3YWl0LnVud3JhcCgpLmlzX25vbmUoKSk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5nZXRfc3RyaW5nX3ZhbHVlKHN1YmplY3Rfa2V5KQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5hc19kZXJlZigpLAogICAgICAgIFNvbWUoImF0b21pYy1iaW5kaW5nIikKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlLmdldF9qc29uX3ZhbHVlKGJpbmRpbmdfa2V5KS5hd2FpdC51bndyYXAoKSwKICAgICAgICBTb21lKGJpbmRpbmcpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzdG9yZS56cmV2cmFuZ2Vfc3RyaW5ncyhpbmRleF9rZXkpLmF3YWl0LnVud3JhcCgpLAogICAgICAgIHZlYyFbImF0b21pYy1iaW5kaW5nIl0KICAgICk7CgogICAgbGV0IHJvbGxiYWNrX2ludml0ZV9rZXkgPSAiZm5fa25vY2s6b2lkYzppbnZpdGU6cm9sbGJhY2stY2xhaW0iOwogICAgbGV0IHJvbGxiYWNrX2JpbmRpbmdfa2V5ID0gImZuX2tub2NrOm9pZGM6YmluZGluZ3M6ZGF0YTpyb2xsYmFjay1iaW5kaW5nIjsKICAgIHN0b3JlCiAgICAgICAgLnNldF9qc29uX3ZhbHVlX2V4KAogICAgICAgICAgICByb2xsYmFja19pbnZpdGVfa2V5LAogICAgICAgICAgICAmanNvbiEoeyAicHJvdmlkZXJfaWQiOiAicHJvdmlkZXItYSIsICJ0b3RwX2lkIjogInRvdHAtYSIgfSksCiAgICAgICAgICAgIDYwMCwKICAgICAgICApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgbGV0IGNvbm5lY3Rpb24gPSBvcGVuX2ZpeHR1cmVfY29ubmVjdGlvbigmcGF0aCk7CiAgICBjb25uZWN0aW9uCiAgICAgICAgLmV4ZWN1dGVfYmF0Y2goCiAgICAgICAgICAgICJDUkVBVEUgVFJJR0dFUiBmYWlsX29pZGNfYmluZGluZ19pbnNlcnQKICAgICAgICAgICAgIEJFRk9SRSBJTlNFUlQgT04ga3Zfc3RyaW5ncwogICAgICAgICAgICAgV0hFTiBORVcua2V5ID0gJ2ZuX2tub2NrOm9pZGM6YmluZGluZ3M6ZGF0YTpyb2xsYmFjay1iaW5kaW5nJwogICAgICAgICAgICAgQkVHSU4gU0VMRUNUIFJBSVNFKEFCT1JULCAnaW5qZWN0ZWQgT0lEQyBiaW5kaW5nIGZhaWx1cmUnKTsgRU5EOyIsCiAgICAgICAgKQogICAgICAgIC51bndyYXAoKTsKICAgIGRyb3AoY29ubmVjdGlvbik7CiAgICBsZXQgcm9sbGJhY2tfYmluZGluZyA9IGpzb24hKHsKICAgICAgICAiaWQiOiAicm9sbGJhY2stYmluZGluZyIsCiAgICAgICAgInByb3ZpZGVyX2lkIjogInByb3ZpZGVyLWEiLAogICAgICAgICJ0b3RwX2lkIjogInRvdHAtYSIsCiAgICAgICAgInN1YmplY3Rfa2V5IjogInJvbGxiYWNrLXN1YmplY3QiLAogICAgICAgICJ1cGRhdGVkX2F0IjogY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19pc28oKSwKICAgIH0pOwogICAgbGV0IGVycm9yID0gc3RvcmUKICAgICAgICAuY2xhaW1fb2lkY19iaW5kaW5nX2FuZF9jb25zdW1lX2ludml0ZShPaWRjQmluZGluZ0NsYWltIHsKICAgICAgICAgICAgaW52aXRlX2tleTogcm9sbGJhY2tfaW52aXRlX2tleSwKICAgICAgICAgICAgc3ViamVjdF9rZXk6ICJmbl9rbm9jazpvaWRjOmJpbmRpbmdzOnN1YmplY3Q6cm9sbGJhY2stc3ViamVjdCIsCiAgICAgICAgICAgIGJpbmRpbmdfa2V5OiByb2xsYmFja19iaW5kaW5nX2tleSwKICAgICAgICAgICAgYmluZGluZ3NfaW5kZXhfa2V5OiBpbmRleF9rZXksCiAgICAgICAgICAgIGJpbmRpbmdfaWQ6ICJyb2xsYmFjay1iaW5kaW5nIiwKICAgICAgICAgICAgYmluZGluZzogJnJvbGxiYWNrX2JpbmRpbmcsCiAgICAgICAgICAgIHByb3ZpZGVyX2lkOiAicHJvdmlkZXItYSIsCiAgICAgICAgICAgIHRvdHBfaWQ6ICJ0b3RwLWEiLAogICAgICAgICAgICBzY29yZTogNDMsCiAgICAgICAgfSkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0X2VycigiYmluZGluZyBmYWlsdXJlIG11c3QgcHJlc2VydmUgdGhlIGludml0YXRpb24iKTsKICAgIGFzc2VydCEoZXJyb3IudG9fc3RyaW5nKCkuY29udGFpbnMoImluamVjdGVkIE9JREMgYmluZGluZyBmYWlsdXJlIikpOwogICAgYXNzZXJ0ISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuZ2V0X2pzb25fdmFsdWUocm9sbGJhY2tfaW52aXRlX2tleSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfc29tZSgpCiAgICApOwogICAgYXNzZXJ0ISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAuZ2V0X2pzb25fdmFsdWUocm9sbGJhY2tfYmluZGluZ19rZXkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgLmlzX25vbmUoKQogICAgKTsKfQo=
+use super::*;
+
+#[tokio::test]
+async fn passkey_runtime_capabilities_use_legacy_authority_and_repair_shadow() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let challenge = "passkey-runtime-authority-challenge";
+    let challenge_key = format!(
+        "{}{}",
+        crate::storage::typed_passkey_runtime::CHALLENGE_PREFIX,
+        challenge
+    );
+    store
+        .set_passkey_challenge(challenge, "auth", 600)
+        .await
+        .expect("seed challenge");
+    store
+        .set_passkey_state(challenge, &json!({ "ceremony": "auth" }), 600)
+        .await
+        .expect("seed state");
+    let bind_token = store
+        .create_passkey_bind_token("totp-passkey-runtime", 600)
+        .await
+        .expect("seed bind token");
+    let bind_key = format!(
+        "{}{}",
+        crate::storage::typed_passkey_runtime::BIND_PREFIX,
+        bind_token
+    );
+    assert_eq!(store.typed.typed_passkey_runtime.count().await.unwrap(), 3);
+    let typed_challenge = store
+        .typed
+        .typed_passkey_runtime
+        .load_key(&challenge_key)
+        .await
+        .unwrap()
+        .expect("typed challenge");
+    assert_eq!(typed_challenge.kind, "challenge");
+    assert_eq!(typed_challenge.value, "auth");
+    assert_eq!(
+        typed_challenge.expires_at_ms,
+        sqlite_key_expiry_at_ms(&path, &challenge_key)
+            .await
+            .expect("legacy challenge expiry")
+    );
+    assert_ne!(typed_challenge.digest, challenge);
+    assert!(!typed_challenge.digest.contains(challenge));
+
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute(
+            "UPDATE passkey_runtime_capabilities
+             SET challenge_type = 'register'
+             WHERE capability_kind = 'challenge' AND capability_digest = ?1",
+            [typed_challenge.digest.as_str()],
+        )
+        .unwrap();
+    drop(connection);
+    assert!(
+        !store
+            .consume_passkey_challenge(challenge, "register")
+            .await
+            .expect("legacy type remains authoritative")
+    );
+    assert_eq!(
+        store
+            .typed
+            .typed_passkey_runtime
+            .load_key(&challenge_key)
+            .await
+            .unwrap()
+            .unwrap()
+            .value,
+        "auth"
+    );
+    assert!(
+        store
+            .consume_passkey_challenge(challenge, "auth")
+            .await
+            .expect("consume authoritative challenge")
+    );
+    assert!(
+        store
+            .typed
+            .typed_passkey_runtime
+            .load_key(&challenge_key)
+            .await
+            .unwrap()
+            .is_none()
+    );
+
+    let state_key = format!(
+        "{}{}",
+        crate::storage::typed_passkey_runtime::STATE_PREFIX,
+        challenge
+    );
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute("DELETE FROM kv_keys WHERE key = ?1", [state_key.as_str()])
+        .unwrap();
+    drop(connection);
+    assert!(
+        store
+            .consume_passkey_state(challenge)
+            .await
+            .expect("typed-only state cannot complete a ceremony")
+            .is_none()
+    );
+    assert!(
+        store
+            .typed
+            .typed_passkey_runtime
+            .load_key(&state_key)
+            .await
+            .unwrap()
+            .is_none()
+    );
+    assert_eq!(
+        store
+            .consume_passkey_bind_token(&bind_token)
+            .await
+            .expect("consume bind token")
+            .as_deref(),
+        Some("totp-passkey-runtime")
+    );
+    assert!(
+        store
+            .typed
+            .typed_passkey_runtime
+            .load_key(&bind_key)
+            .await
+            .unwrap()
+            .is_none()
+    );
+    let status = store.typed_passkey_runtime_shadow_status();
+    assert!(status.healthy);
+    assert_eq!(status.mismatch_count, 2);
+}
+#[tokio::test]
+async fn passkey_runtime_typed_failures_roll_back_create_and_consume() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute_batch(
+            "CREATE TRIGGER fail_passkey_runtime_insert
+             BEFORE INSERT ON passkey_runtime_capabilities
+             BEGIN SELECT RAISE(ABORT, 'injected passkey runtime insert failure'); END;",
+        )
+        .unwrap();
+    drop(connection);
+    let challenge = "passkey-runtime-create-rollback";
+    let challenge_key = format!(
+        "{}{}",
+        crate::storage::typed_passkey_runtime::CHALLENGE_PREFIX,
+        challenge
+    );
+    let error = store
+        .set_passkey_challenge(challenge, "auth", 600)
+        .await
+        .expect_err("typed insert failure must roll back challenge creation");
+    assert!(
+        error
+            .to_string()
+            .contains("injected passkey runtime insert failure")
+    );
+    assert!(
+        store
+            .get_string_value(&challenge_key)
+            .await
+            .unwrap()
+            .is_none()
+    );
+
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute_batch("DROP TRIGGER fail_passkey_runtime_insert;")
+        .unwrap();
+    drop(connection);
+    let bind_token = store
+        .create_passkey_bind_token("totp-rollback", 600)
+        .await
+        .expect("seed bind token");
+    let bind_key = format!(
+        "{}{}",
+        crate::storage::typed_passkey_runtime::BIND_PREFIX,
+        bind_token
+    );
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute_batch(
+            "CREATE TRIGGER fail_passkey_runtime_delete
+             BEFORE DELETE ON passkey_runtime_capabilities
+             BEGIN SELECT RAISE(ABORT, 'injected passkey runtime delete failure'); END;",
+        )
+        .unwrap();
+    drop(connection);
+    let error = store
+        .consume_passkey_bind_token(&bind_token)
+        .await
+        .expect_err("typed delete failure must roll back one-time consumption");
+    assert!(
+        error
+            .to_string()
+            .contains("injected passkey runtime delete failure")
+    );
+    assert_eq!(
+        store.get_string_value(&bind_key).await.unwrap().as_deref(),
+        Some("totp-rollback")
+    );
+}
+
+#[tokio::test]
+async fn passkey_runtime_backup_restore_and_clear_rebuild_shadow() {
+    let source_dir = tempfile::tempdir().expect("create source temp dir");
+    let source = Store::connect(source_dir.path().join("fn-knock.sqlite3"))
+        .await
+        .expect("open source store");
+    source
+        .set_passkey_challenge("backup-challenge", "register", 600)
+        .await
+        .unwrap();
+    source
+        .set_passkey_state("backup-challenge", &json!({ "backup": true }), 600)
+        .await
+        .unwrap();
+    let entries = source
+        .export_backup_entries_by_prefix_limited("fn_knock:passkey:", 1_000_000, |_| true)
+        .await
+        .expect("export passkey runtime capabilities");
+    assert_eq!(entries.len(), 2);
+
+    let target_dir = tempfile::tempdir().expect("create target temp dir");
+    let target = Store::connect(target_dir.path().join("fn-knock.sqlite3"))
+        .await
+        .expect("open target store");
+    target
+        .replace_backup_entries_by_prefix("fn_knock:", &entries, 200)
+        .await
+        .expect("restore passkey runtime capabilities");
+    assert_eq!(target.typed.typed_passkey_runtime.count().await.unwrap(), 2);
+    assert!(
+        target
+            .consume_passkey_challenge("backup-challenge", "register")
+            .await
+            .unwrap()
+    );
+    assert_eq!(
+        target
+            .consume_passkey_state("backup-challenge")
+            .await
+            .unwrap(),
+        Some(json!({ "backup": true }))
+    );
+    target.clear_all_keys().await.expect("clear target store");
+    assert_eq!(target.typed.typed_passkey_runtime.count().await.unwrap(), 0);
+}
+
+#[tokio::test]
+async fn identity_runtime_aggregate_tracks_indexes_ttl_and_repairs_from_legacy() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let provider_key = "fn_knock:oidc:providers:data:provider-shadow";
+    let provider_index = "fn_knock:oidc:providers:index";
+    let binding_key = "fn_knock:oidc:bindings:data:binding-shadow";
+    let subject_key = "fn_knock:oidc:bindings:subject:subject-shadow";
+    let binding_index = "fn_knock:oidc:bindings:index";
+    let state_key = "fn_knock:oidc:state:state-shadow";
+    store
+        .set_json_value(provider_key, &json!({ "id": "provider-shadow" }))
+        .await
+        .unwrap();
+    store
+        .zadd_string_member(provider_index, "provider-shadow", 10)
+        .await
+        .unwrap();
+    store
+        .set_json_value(
+            binding_key,
+            &json!({
+                "id": "binding-shadow",
+                "provider_id": "provider-shadow",
+                "totp_id": "totp-shadow",
+                "subject_key": "subject-shadow"
+            }),
+        )
+        .await
+        .unwrap();
+    store
+        .set_string_value(subject_key, "binding-shadow")
+        .await
+        .unwrap();
+    store
+        .zadd_string_member(binding_index, "binding-shadow", 20)
+        .await
+        .unwrap();
+    store
+        .set_json_value_ex(state_key, &json!({ "flow": "shadow" }), 600)
+        .await
+        .unwrap();
+
+    let aggregate = store
+        .typed
+        .typed_identity_runtime
+        .load_protocol("oidc")
+        .await
+        .unwrap()
+        .expect("OIDC aggregate");
+    assert_eq!(aggregate.providers.len(), 1);
+    assert_eq!(aggregate.provider_index.len(), 1);
+    assert_eq!(aggregate.bindings.len(), 1);
+    assert_eq!(aggregate.binding_index.len(), 1);
+    assert_eq!(aggregate.subjects.len(), 1);
+    assert_eq!(aggregate.capabilities.len(), 1);
+    assert_eq!(
+        aggregate.capabilities[0].expires_at_ms,
+        sqlite_key_expiry_at_ms(&path, state_key)
+            .await
+            .expect("legacy OIDC state expiry")
+    );
+
+    let corrupt = json!({ "protocol": "oidc" });
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute(
+            "UPDATE identity_runtime_aggregates SET aggregate_json = ?1 WHERE protocol = 'oidc'",
+            [serde_json::to_string(&corrupt).unwrap()],
+        )
+        .unwrap();
+    drop(connection);
+    store
+        .verify_identity_runtime_shadow("oidc")
+        .await
+        .expect("repair OIDC aggregate");
+    assert_eq!(
+        store
+            .typed
+            .typed_identity_runtime
+            .load_protocol("oidc")
+            .await
+            .unwrap()
+            .unwrap(),
+        aggregate
+    );
+    assert_eq!(
+        store.typed_identity_runtime_shadow_status().mismatch_count,
+        1
+    );
+
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute("DELETE FROM kv_keys WHERE key = ?1", [state_key])
+        .unwrap();
+    drop(connection);
+    assert!(store.get_json_value(state_key).await.unwrap().is_none());
+    store
+        .verify_identity_runtime_shadow("oidc")
+        .await
+        .expect("typed-only capability must be removed");
+    assert!(
+        store
+            .typed
+            .typed_identity_runtime
+            .load_protocol("oidc")
+            .await
+            .unwrap()
+            .unwrap()
+            .capabilities
+            .is_empty()
+    );
+    store
+        .verify_identity_runtime_shadow("oidc")
+        .await
+        .expect("matching comparison recovers health");
+    let status = store.typed_identity_runtime_shadow_status();
+    assert!(status.healthy);
+    assert_eq!(status.mismatch_count, 2);
+}
+
+#[tokio::test]
+async fn identity_runtime_typed_failures_roll_back_create_and_consume() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let state_key = "fn_knock:oidc:state:rollback-shadow";
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute_batch(
+            "CREATE TRIGGER fail_identity_runtime_update
+             BEFORE UPDATE ON identity_runtime_aggregates
+             WHEN NEW.protocol = 'oidc'
+             BEGIN SELECT RAISE(ABORT, 'injected identity runtime failure'); END;",
+        )
+        .unwrap();
+    drop(connection);
+    let error = store
+        .set_json_value_ex(state_key, &json!({ "flow": "rollback" }), 600)
+        .await
+        .expect_err("typed failure must roll back OIDC state creation");
+    assert!(
+        error
+            .to_string()
+            .contains("injected identity runtime failure")
+    );
+    assert!(store.get_json_value(state_key).await.unwrap().is_none());
+
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute_batch("DROP TRIGGER fail_identity_runtime_update")
+        .unwrap();
+    drop(connection);
+    store
+        .set_json_value_ex(state_key, &json!({ "flow": "rollback" }), 600)
+        .await
+        .unwrap();
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute_batch(
+            "CREATE TRIGGER fail_identity_runtime_delete_sync
+             BEFORE UPDATE ON identity_runtime_aggregates
+             WHEN NEW.protocol = 'oidc'
+             BEGIN SELECT RAISE(ABORT, 'injected identity consume failure'); END;",
+        )
+        .unwrap();
+    drop(connection);
+    let error = store
+        .consume_json_value(state_key)
+        .await
+        .expect_err("typed failure must roll back one-time state consumption");
+    assert!(
+        error
+            .to_string()
+            .contains("injected identity consume failure")
+    );
+    assert_eq!(
+        store.get_json_value(state_key).await.unwrap(),
+        Some(json!({ "flow": "rollback" }))
+    );
+}
+
+#[tokio::test]
+async fn identity_runtime_backup_restore_and_clear_rebuild_shadow() {
+    let source_dir = tempfile::tempdir().expect("create source temp dir");
+    let source = Store::connect(source_dir.path().join("fn-knock.sqlite3"))
+        .await
+        .expect("open source store");
+    source
+        .set_json_value_ex(
+            "fn_knock:ldap:invite:backup-shadow",
+            &json!({ "provider_id": "ldap-provider", "totp_id": "totp" }),
+            600,
+        )
+        .await
+        .unwrap();
+    let entries = source
+        .export_backup_entries_by_prefix_limited("fn_knock:ldap:", 1_000_000, |_| true)
+        .await
+        .expect("export LDAP identity runtime");
+    assert_eq!(entries.len(), 1);
+
+    let target_dir = tempfile::tempdir().expect("create target temp dir");
+    let target = Store::connect(target_dir.path().join("fn-knock.sqlite3"))
+        .await
+        .expect("open target store");
+    target
+        .replace_backup_entries_by_prefix("fn_knock:", &entries, 200)
+        .await
+        .expect("restore LDAP identity runtime");
+    assert_eq!(
+        target
+            .typed
+            .typed_identity_runtime
+            .load_protocol("ldap")
+            .await
+            .unwrap()
+            .unwrap()
+            .capabilities
+            .len(),
+        1
+    );
+    target.clear_all_keys().await.expect("clear target store");
+    let aggregate = target
+        .typed
+        .typed_identity_runtime
+        .load_protocol("ldap")
+        .await
+        .unwrap()
+        .unwrap();
+    assert!(aggregate.providers.is_empty());
+    assert!(aggregate.bindings.is_empty());
+    assert!(aggregate.subjects.is_empty());
+    assert!(aggregate.capabilities.is_empty());
+}
+
+#[tokio::test]
+async fn identity_runtime_concurrent_capabilities_and_legacy_restart_preserve_shadow() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = std::sync::Arc::new(Store::connect(&path).await.expect("open store"));
+    let mut creates = tokio::task::JoinSet::new();
+    for index in 0..16 {
+        let store = store.clone();
+        creates.spawn(async move {
+            let key = format!("fn_knock:oidc:state:concurrent-{index}");
+            store
+                .set_json_value_ex(&key, &json!({ "index": index }), 600)
+                .await
+                .map(|_| key)
+        });
+    }
+    let mut keys = Vec::new();
+    while let Some(result) = creates.join_next().await {
+        keys.push(result.unwrap().unwrap());
+    }
+    assert_eq!(
+        store
+            .typed
+            .typed_identity_runtime
+            .load_protocol("oidc")
+            .await
+            .unwrap()
+            .unwrap()
+            .capabilities
+            .len(),
+        16
+    );
+
+    let mut consumes = tokio::task::JoinSet::new();
+    for key in keys {
+        let store = store.clone();
+        consumes.spawn(async move { store.consume_json_value(&key).await });
+    }
+    let mut consumed = 0;
+    while let Some(result) = consumes.join_next().await {
+        if result.unwrap().unwrap().is_some() {
+            consumed += 1;
+        }
+    }
+    assert_eq!(consumed, 16);
+    assert!(
+        store
+            .typed
+            .typed_identity_runtime
+            .load_protocol("oidc")
+            .await
+            .unwrap()
+            .unwrap()
+            .capabilities
+            .is_empty()
+    );
+
+    drop(store);
+    let legacy_key = "fn_knock:ldap:invite:legacy-restart";
+    let connection = open_fixture_connection(&path);
+    connection
+        .pragma_update(None, "foreign_keys", "ON")
+        .unwrap();
+    connection
+        .execute(
+            "INSERT INTO kv_keys(key, kind, expires_at_ms) VALUES (?1, 'string', ?2)",
+            tokio_rusqlite::rusqlite::params![legacy_key, crate::time_utils::now_ms() + 600_000],
+        )
+        .unwrap();
+    connection
+        .execute(
+            "INSERT INTO kv_strings(key, value) VALUES (?1, ?2)",
+            tokio_rusqlite::rusqlite::params![
+                legacy_key,
+                serde_json::to_string(
+                    &json!({ "provider_id": "legacy-provider", "totp_id": "legacy-totp" })
+                )
+                .unwrap()
+            ],
+        )
+        .unwrap();
+    drop(connection);
+
+    let reopened = Store::connect(&path)
+        .await
+        .expect("reopen after legacy write");
+    let ldap = reopened
+        .typed
+        .typed_identity_runtime
+        .load_protocol("ldap")
+        .await
+        .unwrap()
+        .unwrap();
+    assert_eq!(ldap.capabilities.len(), 1);
+    assert_eq!(ldap.capabilities[0].digest, "legacy-restart");
+    assert_eq!(
+        reopened.get_json_value(legacy_key).await.unwrap(),
+        Some(json!({ "provider_id": "legacy-provider", "totp_id": "legacy-totp" }))
+    );
+}
+
+#[tokio::test]
+async fn oidc_invite_consumption_and_subject_binding_commit_atomically() {
+    let dir = tempfile::tempdir().expect("create temp dir");
+    let path = dir.path().join("fn-knock.sqlite3");
+    let store = Store::connect(&path).await.expect("open store");
+    let invite_key = "fn_knock:oidc:invite:atomic-claim";
+    let subject_key = "fn_knock:oidc:bindings:subject:atomic-subject";
+    let binding_key = "fn_knock:oidc:bindings:data:atomic-binding";
+    let index_key = "fn_knock:oidc:bindings:index";
+    let binding = json!({
+        "id": "atomic-binding",
+        "provider_id": "provider-a",
+        "totp_id": "totp-a",
+        "subject_key": "atomic-subject",
+        "updated_at": crate::time_utils::now_iso(),
+    });
+    store
+        .set_json_value_ex(
+            invite_key,
+            &json!({ "provider_id": "provider-a", "totp_id": "totp-a" }),
+            600,
+        )
+        .await
+        .unwrap();
+    assert!(
+        store
+            .claim_oidc_binding_and_consume_invite(OidcBindingClaim {
+                invite_key,
+                subject_key,
+                binding_key,
+                bindings_index_key: index_key,
+                binding_id: "atomic-binding",
+                binding: &binding,
+                provider_id: "provider-a",
+                totp_id: "totp-a",
+                score: 42,
+            })
+            .await
+            .expect("claim OIDC binding")
+    );
+    assert!(store.get_json_value(invite_key).await.unwrap().is_none());
+    assert_eq!(
+        store
+            .get_string_value(subject_key)
+            .await
+            .unwrap()
+            .as_deref(),
+        Some("atomic-binding")
+    );
+    assert_eq!(
+        store.get_json_value(binding_key).await.unwrap(),
+        Some(binding)
+    );
+    assert_eq!(
+        store.zrevrange_strings(index_key).await.unwrap(),
+        vec!["atomic-binding"]
+    );
+
+    let rollback_invite_key = "fn_knock:oidc:invite:rollback-claim";
+    let rollback_binding_key = "fn_knock:oidc:bindings:data:rollback-binding";
+    store
+        .set_json_value_ex(
+            rollback_invite_key,
+            &json!({ "provider_id": "provider-a", "totp_id": "totp-a" }),
+            600,
+        )
+        .await
+        .unwrap();
+    let connection = open_fixture_connection(&path);
+    connection
+        .execute_batch(
+            "CREATE TRIGGER fail_oidc_binding_insert
+             BEFORE INSERT ON kv_strings
+             WHEN NEW.key = 'fn_knock:oidc:bindings:data:rollback-binding'
+             BEGIN SELECT RAISE(ABORT, 'injected OIDC binding failure'); END;",
+        )
+        .unwrap();
+    drop(connection);
+    let rollback_binding = json!({
+        "id": "rollback-binding",
+        "provider_id": "provider-a",
+        "totp_id": "totp-a",
+        "subject_key": "rollback-subject",
+        "updated_at": crate::time_utils::now_iso(),
+    });
+    let error = store
+        .claim_oidc_binding_and_consume_invite(OidcBindingClaim {
+            invite_key: rollback_invite_key,
+            subject_key: "fn_knock:oidc:bindings:subject:rollback-subject",
+            binding_key: rollback_binding_key,
+            bindings_index_key: index_key,
+            binding_id: "rollback-binding",
+            binding: &rollback_binding,
+            provider_id: "provider-a",
+            totp_id: "totp-a",
+            score: 43,
+        })
+        .await
+        .expect_err("binding failure must preserve the invitation");
+    assert!(error.to_string().contains("injected OIDC binding failure"));
+    assert!(
+        store
+            .get_json_value(rollback_invite_key)
+            .await
+            .unwrap()
+            .is_some()
+    );
+    assert!(
+        store
+            .get_json_value(rollback_binding_key)
+            .await
+            .unwrap()
+            .is_none()
+    );
+}

@@ -1,1 +1,110 @@
-dXNlIHN0ZDo6Y29sbGVjdGlvbnM6OkJUcmVlU2V0OwoKcHViKGNyYXRlKSBmbiB1bmlxX2RvbWFpbl9zdHJpbmdzPCdhPih2YWx1ZXM6IGltcGwgSW50b0l0ZXJhdG9yPEl0ZW0gPSAmJ2Egc3RyPikgLT4gVmVjPFN0cmluZz4gewogICAgbGV0IG11dCBzZWVuID0gQlRyZWVTZXQ6Om5ldygpOwogICAgbGV0IG11dCBvdXRwdXQgPSBWZWM6Om5ldygpOwogICAgZm9yIHZhbHVlIGluIHZhbHVlcyB7CiAgICAgICAgbGV0IG5vcm1hbGl6ZWQgPSBub3JtYWxpemVfZG9tYWluX25hbWUodmFsdWUpOwogICAgICAgIGlmIG5vcm1hbGl6ZWQuaXNfZW1wdHkoKSB8fCAhc2Vlbi5pbnNlcnQobm9ybWFsaXplZC5jbG9uZSgpKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBvdXRwdXQucHVzaChub3JtYWxpemVkKTsKICAgIH0KICAgIG91dHB1dAp9CgpwdWIoY3JhdGUpIGZuIG5vcm1hbGl6ZV9kb21haW5fbmFtZSh2YWx1ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIHZhbHVlLnRyaW0oKS50cmltX2VuZF9tYXRjaGVzKCcuJykudG9fYXNjaWlfbG93ZXJjYXNlKCkKfQoKcHViKGNyYXRlKSBmbiBpc193aWxkY2FyZF9kb21haW4odmFsdWU6ICZzdHIpIC0+IGJvb2wgewogICAgbm9ybWFsaXplX2RvbWFpbl9uYW1lKHZhbHVlKS5zdGFydHNfd2l0aCgiKi4iKQp9CgpwdWIoY3JhdGUpIGZuIHN0cmlwX3dpbGRjYXJkX3ByZWZpeCh2YWx1ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGxldCBub3JtYWxpemVkID0gbm9ybWFsaXplX2RvbWFpbl9uYW1lKHZhbHVlKTsKICAgIG5vcm1hbGl6ZWQKICAgICAgICAuc3RyaXBfcHJlZml4KCIqLiIpCiAgICAgICAgLnVud3JhcF9vcihub3JtYWxpemVkLmFzX3N0cigpKQogICAgICAgIC50b19zdHJpbmcoKQp9CgpwdWIoY3JhdGUpIGZuIGRvZXNfcGF0dGVybl9jb3Zlcl9jb25jcmV0ZV9ob3N0KGNvbmNyZXRlX2hvc3Q6ICZzdHIsIHBhdHRlcm46ICZzdHIpIC0+IGJvb2wgewogICAgbGV0IG5vcm1hbGl6ZWRfaG9zdCA9IG5vcm1hbGl6ZV9kb21haW5fbmFtZShjb25jcmV0ZV9ob3N0KTsKICAgIGxldCBub3JtYWxpemVkX3BhdHRlcm4gPSBub3JtYWxpemVfZG9tYWluX25hbWUocGF0dGVybik7CiAgICBpZiBub3JtYWxpemVkX2hvc3QuaXNfZW1wdHkoKQogICAgICAgIHx8IG5vcm1hbGl6ZWRfcGF0dGVybi5pc19lbXB0eSgpCiAgICAgICAgfHwgaXNfd2lsZGNhcmRfZG9tYWluKCZub3JtYWxpemVkX2hvc3QpCiAgICB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogICAgaWYgIWlzX3dpbGRjYXJkX2RvbWFpbigmbm9ybWFsaXplZF9wYXR0ZXJuKSB7CiAgICAgICAgcmV0dXJuIG5vcm1hbGl6ZWRfaG9zdCA9PSBub3JtYWxpemVkX3BhdHRlcm47CiAgICB9CiAgICBsZXQgc3VmZml4ID0gc3RyaXBfd2lsZGNhcmRfcHJlZml4KCZub3JtYWxpemVkX3BhdHRlcm4pOwogICAgaWYgc3VmZml4LmlzX2VtcHR5KCkgfHwgIW5vcm1hbGl6ZWRfaG9zdC5lbmRzX3dpdGgoJmZvcm1hdCEoIi57c3VmZml4fSIpKSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogICAgbGV0IGxhYmVsID0gJm5vcm1hbGl6ZWRfaG9zdFsuLm5vcm1hbGl6ZWRfaG9zdC5sZW4oKSAtIHN1ZmZpeC5sZW4oKSAtIDFdOwogICAgIWxhYmVsLmlzX2VtcHR5KCkgJiYgIWxhYmVsLmNvbnRhaW5zKCcuJykKfQoKcHViKGNyYXRlKSBmbiBpc19yZXF1aXJlbWVudF9jb3ZlcmVkX2J5X2NlcnRpZmljYXRlX2RvbWFpbnMoCiAgICByZXF1aXJlbWVudDogJnN0ciwKICAgIGNlcnRpZmljYXRlX2RvbWFpbnM6ICZbU3RyaW5nXSwKKSAtPiBib29sIHsKICAgIGxldCByZXF1aXJlbWVudCA9IG5vcm1hbGl6ZV9kb21haW5fbmFtZShyZXF1aXJlbWVudCk7CiAgICBpZiByZXF1aXJlbWVudC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CiAgICBpZiBpc193aWxkY2FyZF9kb21haW4oJnJlcXVpcmVtZW50KSB7CiAgICAgICAgcmV0dXJuIGNlcnRpZmljYXRlX2RvbWFpbnMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAuYW55KHxkb21haW58IG5vcm1hbGl6ZV9kb21haW5fbmFtZShkb21haW4pID09IHJlcXVpcmVtZW50KTsKICAgIH0KICAgIGNlcnRpZmljYXRlX2RvbWFpbnMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmFueSh8ZG9tYWlufCBkb2VzX3BhdHRlcm5fY292ZXJfY29uY3JldGVfaG9zdCgmcmVxdWlyZW1lbnQsIGRvbWFpbikpCn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwoKICAgICNbdGVzdF0KICAgIGZuIHdpbGRjYXJkX2NlcnRpZmljYXRlX2RvbWFpbl9jb3ZlcnNfb25seV9vbmVfbGFiZWwoKSB7CiAgICAgICAgYXNzZXJ0IShkb2VzX3BhdHRlcm5fY292ZXJfY29uY3JldGVfaG9zdCgKICAgICAgICAgICAgImFwcC5leGFtcGxlLmNvbSIsCiAgICAgICAgICAgICIqLmV4YW1wbGUuY29tIgogICAgICAgICkpOwogICAgICAgIGFzc2VydCEoIWRvZXNfcGF0dGVybl9jb3Zlcl9jb25jcmV0ZV9ob3N0KAogICAgICAgICAgICAiZGVlcC5hcHAuZXhhbXBsZS5jb20iLAogICAgICAgICAgICAiKi5leGFtcGxlLmNvbSIKICAgICAgICApKTsKICAgICAgICBhc3NlcnQhKCFkb2VzX3BhdHRlcm5fY292ZXJfY29uY3JldGVfaG9zdCgKICAgICAgICAgICAgIiouZXhhbXBsZS5jb20iLAogICAgICAgICAgICAiKi5leGFtcGxlLmNvbSIKICAgICAgICApKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiB3aWxkY2FyZF9yZXF1aXJlbWVudF9yZXF1aXJlc19tYXRjaGluZ193aWxkY2FyZF9jZXJ0aWZpY2F0ZSgpIHsKICAgICAgICBsZXQgY2VydGlmaWNhdGVfZG9tYWlucyA9IHZlYyFbImV4YW1wbGUuY29tIi50b19zdHJpbmcoKSwgIiouZXhhbXBsZS5jb20iLnRvX3N0cmluZygpXTsKICAgICAgICBhc3NlcnQhKGlzX3JlcXVpcmVtZW50X2NvdmVyZWRfYnlfY2VydGlmaWNhdGVfZG9tYWlucygKICAgICAgICAgICAgIiouZXhhbXBsZS5jb20iLAogICAgICAgICAgICAmY2VydGlmaWNhdGVfZG9tYWlucwogICAgICAgICkpOwogICAgICAgIGFzc2VydCEoIWlzX3JlcXVpcmVtZW50X2NvdmVyZWRfYnlfY2VydGlmaWNhdGVfZG9tYWlucygKICAgICAgICAgICAgIiouYXBpLmV4YW1wbGUuY29tIiwKICAgICAgICAgICAgJmNlcnRpZmljYXRlX2RvbWFpbnMKICAgICAgICApKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiB1bmlxX2RvbWFpbl9zdHJpbmdzX25vcm1hbGl6ZXNfYW5kX3ByZXNlcnZlc19vcmRlcigpIHsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICB1bmlxX2RvbWFpbl9zdHJpbmdzKFsiIEV4YW1wbGUuQ09NLiAiLCAiZXhhbXBsZS5jb20iLCAiYXBpLmV4YW1wbGUuY29tIl0pLAogICAgICAgICAgICB2ZWMhWyJleGFtcGxlLmNvbSIudG9fc3RyaW5nKCksICJhcGkuZXhhbXBsZS5jb20iLnRvX3N0cmluZygpXQogICAgICAgICk7CiAgICB9Cn0K
+use std::collections::BTreeSet;
+
+pub(crate) fn uniq_domain_strings<'a>(values: impl IntoIterator<Item = &'a str>) -> Vec<String> {
+    let mut seen = BTreeSet::new();
+    let mut output = Vec::new();
+    for value in values {
+        let normalized = normalize_domain_name(value);
+        if normalized.is_empty() || !seen.insert(normalized.clone()) {
+            continue;
+        }
+        output.push(normalized);
+    }
+    output
+}
+
+pub(crate) fn normalize_domain_name(value: &str) -> String {
+    value.trim().trim_end_matches('.').to_ascii_lowercase()
+}
+
+pub(crate) fn is_wildcard_domain(value: &str) -> bool {
+    normalize_domain_name(value).starts_with("*.")
+}
+
+pub(crate) fn strip_wildcard_prefix(value: &str) -> String {
+    let normalized = normalize_domain_name(value);
+    normalized
+        .strip_prefix("*.")
+        .unwrap_or(normalized.as_str())
+        .to_string()
+}
+
+pub(crate) fn does_pattern_cover_concrete_host(concrete_host: &str, pattern: &str) -> bool {
+    let normalized_host = normalize_domain_name(concrete_host);
+    let normalized_pattern = normalize_domain_name(pattern);
+    if normalized_host.is_empty()
+        || normalized_pattern.is_empty()
+        || is_wildcard_domain(&normalized_host)
+    {
+        return false;
+    }
+    if !is_wildcard_domain(&normalized_pattern) {
+        return normalized_host == normalized_pattern;
+    }
+    let suffix = strip_wildcard_prefix(&normalized_pattern);
+    if suffix.is_empty() || !normalized_host.ends_with(&format!(".{suffix}")) {
+        return false;
+    }
+    let label = &normalized_host[..normalized_host.len() - suffix.len() - 1];
+    !label.is_empty() && !label.contains('.')
+}
+
+pub(crate) fn is_requirement_covered_by_certificate_domains(
+    requirement: &str,
+    certificate_domains: &[String],
+) -> bool {
+    let requirement = normalize_domain_name(requirement);
+    if requirement.is_empty() {
+        return false;
+    }
+    if is_wildcard_domain(&requirement) {
+        return certificate_domains
+            .iter()
+            .any(|domain| normalize_domain_name(domain) == requirement);
+    }
+    certificate_domains
+        .iter()
+        .any(|domain| does_pattern_cover_concrete_host(&requirement, domain))
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn wildcard_certificate_domain_covers_only_one_label() {
+        assert!(does_pattern_cover_concrete_host(
+            "app.example.com",
+            "*.example.com"
+        ));
+        assert!(!does_pattern_cover_concrete_host(
+            "deep.app.example.com",
+            "*.example.com"
+        ));
+        assert!(!does_pattern_cover_concrete_host(
+            "*.example.com",
+            "*.example.com"
+        ));
+    }
+
+    #[test]
+    fn wildcard_requirement_requires_matching_wildcard_certificate() {
+        let certificate_domains = vec!["example.com".to_string(), "*.example.com".to_string()];
+        assert!(is_requirement_covered_by_certificate_domains(
+            "*.example.com",
+            &certificate_domains
+        ));
+        assert!(!is_requirement_covered_by_certificate_domains(
+            "*.api.example.com",
+            &certificate_domains
+        ));
+    }
+
+    #[test]
+    fn uniq_domain_strings_normalizes_and_preserves_order() {
+        assert_eq!(
+            uniq_domain_strings([" Example.COM. ", "example.com", "api.example.com"]),
+            vec!["example.com".to_string(), "api.example.com".to_string()]
+        );
+    }
+}

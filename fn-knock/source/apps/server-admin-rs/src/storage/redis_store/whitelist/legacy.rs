@@ -1,1 +1,29 @@
-cHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgY29uc3QgV0hJVEVMSVNUX1JFQ09SRFM6ICZzdHIgPSAiZm5fa25vY2s6d2hpdGVsaXN0OnJlY29yZHMiOwpwdWIoaW4gY3JhdGU6OnN0b3JhZ2U6OnJlZGlzX3N0b3JlKSBjb25zdCBXSElURUxJU1RfUkVDT1JEX09SREVSOiAmc3RyID0KICAgICJmbl9rbm9jazp3aGl0ZWxpc3Q6cmVjb3JkX29yZGVyIjsKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgY29uc3QgV0hJVEVMSVNUX0VYUElSWTogJnN0ciA9ICJmbl9rbm9jazp3aGl0ZWxpc3Q6ZXhwaXJ5IjsKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgY29uc3QgV0hJVEVMSVNUX0lQUzogJnN0ciA9ICJmbl9rbm9jazp3aGl0ZWxpc3Q6aXBzIjsKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgY29uc3QgV0hJVEVMSVNUX0NJRFJfUkVDT1JEUzogJnN0ciA9CiAgICAiZm5fa25vY2s6d2hpdGVsaXN0OmNpZHJfcmVjb3JkcyI7CnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGNvbnN0IFdISVRFTElTVF9ERUxFVEVEOiAmc3RyID0gImZuX2tub2NrOndoaXRlbGlzdDpkZWxldGVkIjsKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgY29uc3QgV0hJVEVMSVNUX1JFR0lPTl9HUk9VUF9SRUNPUkRTOiAmc3RyID0KICAgICJmbl9rbm9jazp3aGl0ZWxpc3Q6cmVnaW9uX2dyb3VwczpyZWNvcmRzIjsKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgY29uc3QgV0hJVEVMSVNUX1JFR0lPTl9HUk9VUF9PUkRFUjogJnN0ciA9CiAgICAiZm5fa25vY2s6d2hpdGVsaXN0OnJlZ2lvbl9ncm91cHM6b3JkZXIiOwpwdWIoaW4gY3JhdGU6OnN0b3JhZ2U6OnJlZGlzX3N0b3JlKSBjb25zdCBXSElURUxJU1RfUkVHSU9OX0dST1VQX0VYUElSWTogJnN0ciA9CiAgICAiZm5fa25vY2s6d2hpdGVsaXN0OnJlZ2lvbl9ncm91cHM6ZXhwaXJ5IjsKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgZm4gZGVmYXVsdF93aGl0ZWxpc3RfdGFyZ2V0X3R5cGUoKSAtPiBTdHJpbmcgewogICAgImlwIi50b19zdHJpbmcoKQp9CgpwdWIoaW4gY3JhdGU6OnN0b3JhZ2U6OnJlZGlzX3N0b3JlKSBmbiBkZWZhdWx0X3doaXRlbGlzdF9zb3VyY2UoKSAtPiBTdHJpbmcgewogICAgIm1hbnVhbCIudG9fc3RyaW5nKCkKfQoKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgZm4gZGVmYXVsdF93aGl0ZWxpc3Rfc3RhdHVzKCkgLT4gU3RyaW5nIHsKICAgICJhY3RpdmUiLnRvX3N0cmluZygpCn0KCnB1YihpbiBjcmF0ZTo6c3RvcmFnZTo6cmVkaXNfc3RvcmUpIGZuIHdoaXRlbGlzdF9pcF9yZWNvcmRzX2tleShpcDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoImZuX2tub2NrOndoaXRlbGlzdDppcF9yZWNvcmRzOntpcH0iKQp9Cg==
+pub(in crate::storage::redis_store) const WHITELIST_RECORDS: &str = "fn_knock:whitelist:records";
+pub(in crate::storage::redis_store) const WHITELIST_RECORD_ORDER: &str =
+    "fn_knock:whitelist:record_order";
+pub(in crate::storage::redis_store) const WHITELIST_EXPIRY: &str = "fn_knock:whitelist:expiry";
+pub(in crate::storage::redis_store) const WHITELIST_IPS: &str = "fn_knock:whitelist:ips";
+pub(in crate::storage::redis_store) const WHITELIST_CIDR_RECORDS: &str =
+    "fn_knock:whitelist:cidr_records";
+pub(in crate::storage::redis_store) const WHITELIST_DELETED: &str = "fn_knock:whitelist:deleted";
+pub(in crate::storage::redis_store) const WHITELIST_REGION_GROUP_RECORDS: &str =
+    "fn_knock:whitelist:region_groups:records";
+pub(in crate::storage::redis_store) const WHITELIST_REGION_GROUP_ORDER: &str =
+    "fn_knock:whitelist:region_groups:order";
+pub(in crate::storage::redis_store) const WHITELIST_REGION_GROUP_EXPIRY: &str =
+    "fn_knock:whitelist:region_groups:expiry";
+pub(in crate::storage::redis_store) fn default_whitelist_target_type() -> String {
+    "ip".to_string()
+}
+
+pub(in crate::storage::redis_store) fn default_whitelist_source() -> String {
+    "manual".to_string()
+}
+
+pub(in crate::storage::redis_store) fn default_whitelist_status() -> String {
+    "active".to_string()
+}
+
+pub(in crate::storage::redis_store) fn whitelist_ip_records_key(ip: &str) -> String {
+    format!("fn_knock:whitelist:ip_records:{ip}")
+}

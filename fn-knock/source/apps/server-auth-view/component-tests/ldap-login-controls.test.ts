@@ -1,1 +1,74 @@
-aW1wb3J0IHsgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBjcmVhdGVJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBkZXNjcmliZSwgZXhwZWN0LCBpdCB9IGZyb20gInZpdGVzdCI7CgppbXBvcnQgTGRhcExvZ2luQ29udHJvbHMgZnJvbSAiLi4vc3JjL2NvbXBvbmVudHMvTGRhcExvZ2luQ29udHJvbHMudnVlIjsKCmNvbnN0IHByb3ZpZGVycyA9IFsKICB7CiAgICBpZDogImVtcGxveWVlcyIsCiAgICBuYW1lOiAiRW1wbG95ZWVzIiwKICAgIHByb3RvY29sOiAibGRhcCIgYXMgY29uc3QsCiAgICB0eXBlOiAib3BlbmxkYXAiIGFzIGNvbnN0LAogIH0sCiAgewogICAgaWQ6ICJwYXJ0bmVycyIsCiAgICBuYW1lOiAiUGFydG5lcnMiLAogICAgcHJvdG9jb2w6ICJsZGFwIiBhcyBjb25zdCwKICAgIHR5cGU6ICJjdXN0b20iIGFzIGNvbnN0LAogIH0sCl07CgpmdW5jdGlvbiBtb3VudENvbnRyb2xzKGRpc2FibGVkID0gZmFsc2UpIHsKICBjb25zdCBpMThuID0gY3JlYXRlSTE4bih7CiAgICBsZWdhY3k6IGZhbHNlLAogICAgbG9jYWxlOiAiZW4iLAogICAgbWVzc2FnZXM6IHsKICAgICAgZW46IHsKICAgICAgICBhdXRoOiB7CiAgICAgICAgICB0b3RwTG9naW46ICJUT1RQIiwKICAgICAgICAgIGxkYXBMb2dpbjogIkxEQVAiLAogICAgICAgICAgbGRhcFByb3ZpZGVyOiAiUHJvdmlkZXIiLAogICAgICAgICAgbGRhcFVzZXJuYW1lOiAiVXNlcm5hbWUiLAogICAgICAgICAgbGRhcFBhc3N3b3JkOiAiUGFzc3dvcmQiLAogICAgICAgIH0sCiAgICAgIH0sCiAgICB9LAogIH0pOwogIHJldHVybiBtb3VudChMZGFwTG9naW5Db250cm9scywgewogICAgcHJvcHM6IHsKICAgICAgY3JlZGVudGlhbEtpbmQ6ICJsZGFwIiwKICAgICAgZGlzYWJsZWQsCiAgICAgIHBhc3N3b3JkOiAiIiwKICAgICAgcHJvdmlkZXJJZDogImVtcGxveWVlcyIsCiAgICAgIHByb3ZpZGVycywKICAgICAgdXNlcm5hbWU6ICIiLAogICAgfSwKICAgIGdsb2JhbDogeyBwbHVnaW5zOiBbaTE4bl0gfSwKICB9KTsKfQoKZGVzY3JpYmUoIkxkYXBMb2dpbkNvbnRyb2xzIiwgKCkgPT4gewogIGl0KCJlbWl0cyByZWFsIGZvcm0gY2hhbmdlcyBhbmQgY3JlZGVudGlhbC1tb2RlIHN3aXRjaGVzIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50Q29udHJvbHMoKTsKICAgIGNvbnN0IHNlbGVjdCA9IHdyYXBwZXIuZ2V0KCJzZWxlY3QiKTsKICAgIGNvbnN0IFt1c2VybmFtZSwgcGFzc3dvcmRdID0gd3JhcHBlci5maW5kQWxsKCJpbnB1dCIpOwoKICAgIGF3YWl0IHNlbGVjdC5zZXRWYWx1ZSgicGFydG5lcnMiKTsKICAgIGF3YWl0IHVzZXJuYW1lLnNldFZhbHVlKCJhbGljZSIpOwogICAgYXdhaXQgcGFzc3dvcmQuc2V0VmFsdWUoInNlY3JldCIpOwogICAgYXdhaXQgd3JhcHBlci5maW5kQWxsKCJidXR0b24iKVswXS50cmlnZ2VyKCJjbGljayIpOwoKICAgIGV4cGVjdCh3cmFwcGVyLmVtaXR0ZWQoInVwZGF0ZTpwcm92aWRlcklkIik/LmF0KC0xKSkudG9FcXVhbChbInBhcnRuZXJzIl0pOwogICAgZXhwZWN0KHdyYXBwZXIuZW1pdHRlZCgidXBkYXRlOnVzZXJuYW1lIik/LmF0KC0xKSkudG9FcXVhbChbImFsaWNlIl0pOwogICAgZXhwZWN0KHdyYXBwZXIuZW1pdHRlZCgidXBkYXRlOnBhc3N3b3JkIik/LmF0KC0xKSkudG9FcXVhbChbInNlY3JldCJdKTsKICAgIGV4cGVjdCh3cmFwcGVyLmVtaXR0ZWQoInVwZGF0ZTpjcmVkZW50aWFsS2luZCIpPy5hdCgtMSkpLnRvRXF1YWwoWyJ0b3RwIl0pOwogIH0pOwoKICBpdCgiZGlzYWJsZXMgZXZlcnkgaW50ZXJhY3RpdmUgY29udHJvbCB3aGlsZSBhdXRoZW50aWNhdGlvbiBpcyBwZW5kaW5nIiwgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50Q29udHJvbHModHJ1ZSk7CiAgICBmb3IgKGNvbnN0IGNvbnRyb2wgb2Ygd3JhcHBlci5maW5kQWxsKCJidXR0b24sIHNlbGVjdCwgaW5wdXQiKSkgewogICAgICBleHBlY3QoY29udHJvbC5hdHRyaWJ1dGVzKCkpLnRvSGF2ZVByb3BlcnR5KCJkaXNhYmxlZCIpOwogICAgfQogIH0pOwp9KTsK
+import { mount } from "@vue/test-utils";
+import { createI18n } from "vue-i18n";
+import { describe, expect, it } from "vitest";
+
+import LdapLoginControls from "../src/components/LdapLoginControls.vue";
+
+const providers = [
+  {
+    id: "employees",
+    name: "Employees",
+    protocol: "ldap" as const,
+    type: "openldap" as const,
+  },
+  {
+    id: "partners",
+    name: "Partners",
+    protocol: "ldap" as const,
+    type: "custom" as const,
+  },
+];
+
+function mountControls(disabled = false) {
+  const i18n = createI18n({
+    legacy: false,
+    locale: "en",
+    messages: {
+      en: {
+        auth: {
+          totpLogin: "TOTP",
+          ldapLogin: "LDAP",
+          ldapProvider: "Provider",
+          ldapUsername: "Username",
+          ldapPassword: "Password",
+        },
+      },
+    },
+  });
+  return mount(LdapLoginControls, {
+    props: {
+      credentialKind: "ldap",
+      disabled,
+      password: "",
+      providerId: "employees",
+      providers,
+      username: "",
+    },
+    global: { plugins: [i18n] },
+  });
+}
+
+describe("LdapLoginControls", () => {
+  it("emits real form changes and credential-mode switches", async () => {
+    const wrapper = mountControls();
+    const select = wrapper.get("select");
+    const [username, password] = wrapper.findAll("input");
+
+    await select.setValue("partners");
+    await username.setValue("alice");
+    await password.setValue("secret");
+    await wrapper.findAll("button")[0].trigger("click");
+
+    expect(wrapper.emitted("update:providerId")?.at(-1)).toEqual(["partners"]);
+    expect(wrapper.emitted("update:username")?.at(-1)).toEqual(["alice"]);
+    expect(wrapper.emitted("update:password")?.at(-1)).toEqual(["secret"]);
+    expect(wrapper.emitted("update:credentialKind")?.at(-1)).toEqual(["totp"]);
+  });
+
+  it("disables every interactive control while authentication is pending", () => {
+    const wrapper = mountControls(true);
+    for (const control of wrapper.findAll("button, select, input")) {
+      expect(control.attributes()).toHaveProperty("disabled");
+    }
+  });
+});

@@ -1,1 +1,122 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IENoZXZyb25Eb3duLCBQbHVzLCBUcmFzaDIgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBEcm9wZG93bk1lbnUsCiAgRHJvcGRvd25NZW51Q29udGVudCwKICBEcm9wZG93bk1lbnVJdGVtLAogIERyb3Bkb3duTWVudVRyaWdnZXIsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2Ryb3Bkb3duLW1lbnUiOwppbXBvcnQgUmVmcmVzaEJ1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvUmVmcmVzaEJ1dHRvbi52dWUiOwppbXBvcnQgTm90aWZpY2F0aW9uUnVsZUVkaXRvckRpYWxvZyBmcm9tICIuL05vdGlmaWNhdGlvblJ1bGVFZGl0b3JEaWFsb2cudnVlIjsKaW1wb3J0IE5vdGlmaWNhdGlvblJ1bGVzQ2xlYXJEaWFsb2cgZnJvbSAiLi9Ob3RpZmljYXRpb25SdWxlc0NsZWFyRGlhbG9nLnZ1ZSI7CmltcG9ydCBSdWxlc0xpc3RUYWJsZSBmcm9tICIuL1J1bGVzTGlzdFRhYmxlLnZ1ZSI7CmltcG9ydCB7IHVzZU5vdGlmaWNhdGlvblJ1bGVzIH0gZnJvbSAiLi91c2VOb3RpZmljYXRpb25SdWxlcyI7Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cyhkZWZpbmVQcm9wczx7IGFjdGl2ZT86IGJvb2xlYW4gfT4oKSwgewogIGFjdGl2ZTogZmFsc2UsCn0pOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgY29udHJvbGxlciA9IHVzZU5vdGlmaWNhdGlvblJ1bGVzKCgpID0+IHByb3BzLmFjdGl2ZSk7CmNvbnN0IHsKICBidWlsZFJ1bGVEaXNwbGF5TmFtZSwKICBjbGVhckFsbERpYWxvZ09wZW4sCiAgY2xlYXJpbmdBbGwsCiAgZGVsZXRlUnVsZSwKICBkZWxldGluZ0lkLAogIGZvcm1hdEV2ZW50VHlwZUxhYmVsLAogIGZvcm1hdEdyb3VwQnlMYWJlbCwKICBoYW5kbGVDcmVhdGVSdWxlQ2xpY2ssCiAgaGFzQXZhaWxhYmxlRXZlbnRUeXBlcywKICBoYXNQcm92aWRlcnMsCiAgbG9hZERhdGEsCiAgbG9hZGluZywKICBvcGVuRWRpdERpYWxvZywKICByZXNvbHZlUHJvdmlkZXJOYW1lLAogIHJ1bGVzLAp9ID0gY29udHJvbGxlcjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0ic3BhY2UteS00IHAtNCBzbTpwLTYiPgogICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLnRvb2xiYXJIaW50IikgfX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9Im1sLWF1dG8gZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgIDxSZWZyZXNoQnV0dG9uCiAgICAgICAgICA6bG9hZGluZz0ibG9hZGluZyIKICAgICAgICAgIDpkaXNhYmxlZD0ibG9hZGluZyB8fCBjbGVhcmluZ0FsbCIKICAgICAgICAgIEBjbGljaz0ibG9hZERhdGEiCiAgICAgICAgLz4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4Ij4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgY2xhc3M9InJvdW5kZWQtci1ub25lIgogICAgICAgICAgICA6ZGlzYWJsZWQ9ImxvYWRpbmcgfHwgY2xlYXJpbmdBbGwiCiAgICAgICAgICAgIEBjbGljaz0iaGFuZGxlQ3JlYXRlUnVsZUNsaWNrIgogICAgICAgICAgPgogICAgICAgICAgICA8UGx1cyBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLmFkZFJ1bGUiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8RHJvcGRvd25NZW51PgogICAgICAgICAgICA8RHJvcGRvd25NZW51VHJpZ2dlciBhcy1jaGlsZD4KICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICB2YXJpYW50PSJkZWZhdWx0IgogICAgICAgICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24ubW9yZUFjdGlvbnMnKSIKICAgICAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLWwtbm9uZSBib3JkZXItbCBib3JkZXItcHJpbWFyeS1mb3JlZ3JvdW5kLzIwIHB4LTIiCiAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImxvYWRpbmcgfHwgY2xlYXJpbmdBbGwiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPENoZXZyb25Eb3duIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8L0Ryb3Bkb3duTWVudVRyaWdnZXI+CiAgICAgICAgICAgIDxEcm9wZG93bk1lbnVDb250ZW50IGFsaWduPSJlbmQiIGNsYXNzPSJ3LTUyIj4KICAgICAgICAgICAgICA8RHJvcGRvd25NZW51SXRlbQogICAgICAgICAgICAgICAgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9InJ1bGVzLmxlbmd0aCA9PT0gMCB8fCBjbGVhcmluZ0FsbCIKICAgICAgICAgICAgICAgIEBjbGljaz0iY2xlYXJBbGxEaWFsb2dPcGVuID0gdHJ1ZSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8VHJhc2gyIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLmNsZWFyQWxsUnVsZXMiKSB9fQogICAgICAgICAgICAgIDwvRHJvcGRvd25NZW51SXRlbT4KICAgICAgICAgICAgPC9Ecm9wZG93bk1lbnVDb250ZW50PgogICAgICAgICAgPC9Ecm9wZG93bk1lbnU+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CgogICAgPGRpdgogICAgICB2LWlmPSIhaGFzUHJvdmlkZXJzIgogICAgICBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWRhc2hlZCBiZy1tdXRlZC8zMCBweC00IHB5LTYgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICA+CiAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucnVsZXMubm9Qcm92aWRlcnMiKSB9fQogICAgPC9kaXY+CgogICAgPGRpdgogICAgICB2LWVsc2UtaWY9IiFoYXNBdmFpbGFibGVFdmVudFR5cGVzIgogICAgICBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWRhc2hlZCBiZy1tdXRlZC8zMCBweC00IHB5LTYgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICA+CiAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucnVsZXMubm9BdmFpbGFibGVFdmVudFR5cGVzIikgfX0KICAgIDwvZGl2PgoKICAgIDxSdWxlc0xpc3RUYWJsZQogICAgICA6YnVpbGQtcnVsZS1kaXNwbGF5LW5hbWU9ImJ1aWxkUnVsZURpc3BsYXlOYW1lIgogICAgICA6Y2xlYXJpbmctYWxsPSJjbGVhcmluZ0FsbCIKICAgICAgOmRlbGV0aW5nLWlkPSJkZWxldGluZ0lkIgogICAgICA6Zm9ybWF0LWV2ZW50LXR5cGUtbGFiZWw9ImZvcm1hdEV2ZW50VHlwZUxhYmVsIgogICAgICA6Zm9ybWF0LWdyb3VwLWJ5LWxhYmVsPSJmb3JtYXRHcm91cEJ5TGFiZWwiCiAgICAgIDpsb2FkaW5nPSJsb2FkaW5nIgogICAgICA6cmVzb2x2ZS1wcm92aWRlci1uYW1lPSJyZXNvbHZlUHJvdmlkZXJOYW1lIgogICAgICA6cnVsZXM9InJ1bGVzIgogICAgICBAZGVsZXRlLXJ1bGU9ImRlbGV0ZVJ1bGUiCiAgICAgIEBlZGl0PSJvcGVuRWRpdERpYWxvZyIKICAgIC8+CiAgPC9kaXY+CgogIDxOb3RpZmljYXRpb25SdWxlRWRpdG9yRGlhbG9nIDpjb250cm9sbGVyPSJjb250cm9sbGVyIiAvPgoKICA8Tm90aWZpY2F0aW9uUnVsZXNDbGVhckRpYWxvZyA6Y29udHJvbGxlcj0iY29udHJvbGxlciIgLz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { ChevronDown, Plus, Trash2 } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import RefreshButton from "@/components/RefreshButton.vue";
+import NotificationRuleEditorDialog from "./NotificationRuleEditorDialog.vue";
+import NotificationRulesClearDialog from "./NotificationRulesClearDialog.vue";
+import RulesListTable from "./RulesListTable.vue";
+import { useNotificationRules } from "./useNotificationRules";
+
+const props = withDefaults(defineProps<{ active?: boolean }>(), {
+  active: false,
+});
+const { t } = useI18n();
+const controller = useNotificationRules(() => props.active);
+const {
+  buildRuleDisplayName,
+  clearAllDialogOpen,
+  clearingAll,
+  deleteRule,
+  deletingId,
+  formatEventTypeLabel,
+  formatGroupByLabel,
+  handleCreateRuleClick,
+  hasAvailableEventTypes,
+  hasProviders,
+  loadData,
+  loading,
+  openEditDialog,
+  resolveProviderName,
+  rules,
+} = controller;
+</script>
+
+<template>
+  <div class="space-y-4 p-4 sm:p-6">
+    <div class="flex flex-wrap items-center gap-2">
+      <div class="space-y-1">
+        <div class="text-xs text-muted-foreground">
+          {{ t("admin.notifications.rules.toolbarHint") }}
+        </div>
+      </div>
+      <div class="ml-auto flex items-center gap-2">
+        <RefreshButton
+          :loading="loading"
+          :disabled="loading || clearingAll"
+          @click="loadData"
+        />
+        <div class="flex">
+          <Button
+            class="rounded-r-none"
+            :disabled="loading || clearingAll"
+            @click="handleCreateRuleClick"
+          >
+            <Plus class="mr-2 h-4 w-4" />
+            {{ t("admin.notifications.rules.addRule") }}
+          </Button>
+          <DropdownMenu>
+            <DropdownMenuTrigger as-child>
+              <Button
+                variant="default"
+                size="icon"
+                :aria-label="t('common.moreActions')"
+                class="rounded-l-none border-l border-primary-foreground/20 px-2"
+                :disabled="loading || clearingAll"
+              >
+                <ChevronDown class="h-4 w-4" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end" class="w-52">
+              <DropdownMenuItem
+                variant="destructive"
+                :disabled="rules.length === 0 || clearingAll"
+                @click="clearAllDialogOpen = true"
+              >
+                <Trash2 class="mr-2 h-4 w-4" />
+                {{ t("admin.notifications.rules.clearAllRules") }}
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        </div>
+      </div>
+    </div>
+
+    <div
+      v-if="!hasProviders"
+      class="rounded-md border border-dashed bg-muted/30 px-4 py-6 text-sm text-muted-foreground"
+    >
+      {{ t("admin.notifications.rules.noProviders") }}
+    </div>
+
+    <div
+      v-else-if="!hasAvailableEventTypes"
+      class="rounded-md border border-dashed bg-muted/30 px-4 py-6 text-sm text-muted-foreground"
+    >
+      {{ t("admin.notifications.rules.noAvailableEventTypes") }}
+    </div>
+
+    <RulesListTable
+      :build-rule-display-name="buildRuleDisplayName"
+      :clearing-all="clearingAll"
+      :deleting-id="deletingId"
+      :format-event-type-label="formatEventTypeLabel"
+      :format-group-by-label="formatGroupByLabel"
+      :loading="loading"
+      :resolve-provider-name="resolveProviderName"
+      :rules="rules"
+      @delete-rule="deleteRule"
+      @edit="openEditDialog"
+    />
+  </div>
+
+  <NotificationRuleEditorDialog :controller="controller" />
+
+  <NotificationRulesClearDialog :controller="controller" />
+</template>

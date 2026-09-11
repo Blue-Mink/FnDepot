@@ -1,1 +1,246 @@
-PHAgYWxpZ249ImNlbnRlciI+CiAgPGEgaHJlZj0iaHR0cHM6Ly93d3cuZm5rbm9jay5jbi8iPgogICAgPGltZyBzcmM9Ii4vYXNzZXRzL2ZuLWtub2NrLndlYnAiIGFsdD0iZm4ta25vY2sg5pWy6ZeoIiB3aWR0aD0iODYwIj4KICA8L2E+CjwvcD4KCjxoMSBhbGlnbj0iY2VudGVyIj5mbi1rbm9jayDCtyDmlbLpl6g8L2gxPgoKPHAgYWxpZ249ImNlbnRlciI+CiAgPHN0cm9uZz7nroDkvZPkuK3mloc8L3N0cm9uZz4gwrcKICA8YSBocmVmPSIuL2RvY3MvcmVhZG1lL1JFQURNRS5lbi5tZCI+RW5nbGlzaDwvYT4gwrcKICA8YSBocmVmPSIuL2RvY3MvcmVhZG1lL1JFQURNRS5rby5tZCI+7ZWc6rWt7Ja0PC9hPiDCtwogIDxhIGhyZWY9Ii4vZG9jcy9yZWFkbWUvUkVBRE1FLmphLm1kIj7ml6XmnKzoqp48L2E+CjwvcD4KCjxwIGFsaWduPSJjZW50ZXIiPgogIOmdouWQkSBOQVPjgIHova/ot6/nlLHkuI7lrrbluq3mnI3liqHlmajnmoTlpJrlubPlj7Dpq5jmgKfog73lronlhajnvZHlhbMKPC9wPgoKPHAgYWxpZ249ImNlbnRlciI+CiAgPGEgaHJlZj0iaHR0cHM6Ly9zdGFuZC13aXRoLXVrcmFpbmUucHAudWEvIj48aW1nIGFsdD0iU3RhbmRXaXRoVWtyYWluZSIgc3JjPSJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vdnNoeW1hbnNreXkvU3RhbmRXaXRoVWtyYWluZS9tYWluL2JhZGdlcy9TdGFuZFdpdGhVa3JhaW5lLnN2ZyI+PC9hPgogIDxhIGhyZWY9Imh0dHBzOi8vd3d3LmZua25vY2suY24vIj48aW1nIGFsdD0iT2ZmaWNpYWwgV2Vic2l0ZSIgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0luc3RhbGwtZm5rbm9jay5jbi0yNTYzZWI/c3R5bGU9ZmxhdC1zcXVhcmUiPjwvYT4KICA8aW1nIGFsdD0iUnVzdCBDb3JlIiBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvQ29yZS1SdXN0LWRlYTU4ND9zdHlsZT1mbGF0LXNxdWFyZSZsb2dvPXJ1c3QmbG9nb0NvbG9yPXdoaXRlIj4KICA8aW1nIGFsdD0iR28gR2F0ZXdheSIgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0dhdGV3YXktR28tMDBhZGQ4P3N0eWxlPWZsYXQtc3F1YXJlJmxvZ289Z28mbG9nb0NvbG9yPXdoaXRlIj4KICA8aW1nIGFsdD0iVnVlIDMiIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9Db25zb2xlLVZ1ZV8zLTQyYjg4Mz9zdHlsZT1mbGF0LXNxdWFyZSZsb2dvPXZ1ZWRvdGpzJmxvZ29Db2xvcj13aGl0ZSI+CiAgPGEgaHJlZj0iaHR0cHM6Ly9odWIuZG9ja2VyLmNvbS9yL2tjaWxuay9mbi1rbm9jayI+PGltZyBhbHQ9IkRvY2tlciIgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0RvY2tlci1hbWQ2NF8lN0NfYXJtNjRfJTdDX2FybXY3LTI0OTZlZD9zdHlsZT1mbGF0LXNxdWFyZSZsb2dvPWRvY2tlciZsb2dvQ29sb3I9d2hpdGUiPjwvYT4KICA8YSBocmVmPSIuL0xJQ0VOU0UiPjxpbWcgYWx0PSJNSVQgTGljZW5zZSIgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0xpY2Vuc2UtTUlULTExMTgyNz9zdHlsZT1mbGF0LXNxdWFyZSI+PC9hPgo8L3A+Cgo8cCBhbGlnbj0iY2VudGVyIj4KICA8YSBocmVmPSJodHRwczovL3d3dy5mbmtub2NrLmNuLyI+5a6Y572RPC9hPiDCtwogIDxhIGhyZWY9Imh0dHBzOi8vZG9jcy5mbmtub2NrLmNuLyI+5L2/55So5paH5qGjPC9hPiDCtwogIDxhIGhyZWY9Imh0dHBzOi8vd3d3LmZua25vY2suY24vIj7kuIvovb3lronoo4U8L2E+IMK3CiAgPGEgaHJlZj0iaHR0cHM6Ly93d3cuZm5rbm9jay5jbi9sZWdhbCN0ZXJtcyI+55So5oi35Y2P6K6uPC9hPiDCtwogIDxhIGhyZWY9Imh0dHBzOi8vd3d3LmZua25vY2suY24vbGVnYWwjcHJpdmFjeSI+6ZqQ56eB5pS/562WPC9hPgo8L3A+Cgpmbi1rbm9jayDlt7LlrozmiJDljp/nlJ/ljJbph43mnoTvvIzmraPlvI/ov5DooYzml7bph4fnlKggKipSdXN0IOaOp+WItumdoiArIEdvIOaVsOaNrumdoioq77yM5YaF572uIFNRTGl0ZSDlrZjlgqjvvIwqKuS4jeS+nei1liBOb2RlLmpz77yM5Lmf5LiN6ZyA6KaBIFJlZGlzKirjgIJOb2RlLmpzIOS7heeUqOS6juS7jua6kOeggeW8gOWPkSBWdWUg5YmN56uv5ZKM57yW5o6S5LuT5bqT5p6E5bu65Lu75Yqh44CCCgojIyDkuLrku4DkuYjpgInmi6kgZm4ta25vY2sKCmZuLWtub2NrIOaKiuWPjeWQkeS7o+eQhuOAgeeZu+W9lemJtOadg+OAgeivgeS5puOAgURETlPjgIHorr/pl67mjqfliLbjgIFXQUbjgIHpmqfpgZPlkozov5DooYznirbmgIHpm4bkuK3liLDkuIDkuKrnrqHnkIbpnaLmnb/kuK3vvIzluK7liqnkvaDmm7TlronlhajjgIHmm7Tovbvmnb7lnLDmiornp4HmnInmnI3liqHlvIDmlL7nu5nlj6/kv6Horr/pl67ogIXjgIIKCnwg6IO95YqbICAgICAgIHwg6K+05piOICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IC0tLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfAp8IOWuieWFqOe9keWFsyAgIHwg5Y+N5ZCR5Luj55CG44CB6K6k6K+B5YmN572u44CB6K6/6Zeu5pel5b+X44CBSG9zdCAvIFBhdGggLyBUQ1Ag5pig5bCEICAgICAgICAgICAgICAgICAgICAgfAp8IOi6q+S7veiupOivgSAgIHwg5a+G56CB44CBVE9UUOOAgVBhc3NrZXnjgIFPSURD44CBTERBUC9BY3RpdmUgRGlyZWN0b3J544CB6aqM6K+B56CB5LiO57K+57uG5YyW6K6k6K+B6KeE5YiZIHwKfCDln5/lkI3kuI7or4HkuaYgfCBBQ01FIOivgeS5pueUs+ivt+OAgVNTTCDphY3nva7jgIHlpJrmnI3liqHllYYgREROUyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IOS4u+WKqOmYsuaKpCAgIHwgSVAg55m95ZCN5Y2V44CB5Zyw5Yy65Y+v6KeB5oCn44CBV0FG44CB54is6Jmr5oum5oiq44CB55m75b2V6YCA6YG/5LiO6ZmQ5rWBICAgICAgICAgICAgICAgICAgICAgfAp8IOWGhee9keepv+mAjyAgIHwgQ2xvdWRmbGFyZWTjgIFmcnBjIOeahOmFjee9ruOAgeWQr+WBnOOAgeaXpeW/l+S4jueKtuaAgeeuoeeQhiAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCDml6XluLjov5Dnu7QgICB8IOezu+e7n+ebkeaOp+OAgeS6i+S7tuWuoeiuoeOAgeWcqOe6v+e7iOerr+OAgemAmuefpeOAgeWkh+S7veS4juabtOaWsOajgOafpSAgICAgICAgICAgICAgICAgICAgICAgfAp8IOWkmuW5s+WPsOS6pOS7mCB8IGZuT1PjgIFPcGVuV3J044CBRG9ja2Vy44CBV2luZG93c+OAgW1hY09T44CBU3lub2xvZ3kgRFNNIOS4jumAmueUqCBMaW51eCAgICAgICAgIHwKCldlYiDnu4jnq6/nu6fnu63mlK/mjIHnrqHnkIblkZjmmL7lvI/phY3nva7lubbnoa7orqTkuLvmnLrmjIfnurnnmoQgU1NIIOebruagh+OAguWujOaVtCBGUEvjgIHpgJrnlKggTGludXjjgIFtYWNPUyDkuI4gT3BlbldydCDov5jlj6/pgInmi6nlkK/nlKjmnKzmnLogUFRZ77yb5pys5py657uI56uv6buY6K6k5YWz6Zet77yM5bm25aeL57uI5L2/55SoIGZuLWtub2NrIOacjeWKoeeahOacieaViCBVSUQvR0lE77yM5pyN5Yqh5LulIHJvb3Qg6L+Q6KGM5pe257uI56uv5ZCM5qC35oul5pyJIHJvb3Qg5p2D6ZmQ44CCRlBLIExpdGXjgIFTeW5vbG9neeOAgURvY2tlcuOAgVdpbmRvd3Mg5ZKM5byA5Y+R5qih5byP5LiN5o+Q5L6b5pys5py657uI56uv44CCCgo+IFshV0FSTklOR10KPiDlkK/nlKjliY3or7fmoLjlr7nnlYzpnaLmmL7npLrnmoTmnI3liqHouqvku73jgIFTaGVsbCDkuI7liJ3lp4vnm67lvZXjgILmnKzmnLrnu4jnq6/kuI3kvJrpmY3mnYPjgIHliIfmjaLnlKjmiLfmiJbpgJrov4cgbG9jYWxob3N0IFNTSO+8m+a1j+iniOWZqOWFs+mXreWQjuS8muivneS7jeWcqOi/m+eoi+WGhei/kOihjO+8jOS9hiBmbi1rbm9jayDph43lkK/kvJrnu5PmnZ/kvJror53jgILlrozmlbQgRlBLIOeahOe7iOerr+ivt+axguWPquWFgeiuuOmAmui/hyBgaW5kZXguY2dpYCDovazlj5HliLAgYDEyNy4wLjAuMWAg55qEIFJ1c3Qg5pyN5Yqh77yM57ud5LiN5o6l5YWl6aOe54mb57uf5LiA572R5YWz44CBR28vZ1JQQyDot6/nlLHmiJYgV2ViU29ja2V044CCCgojIyDmnrbmnoQKCmBgYG1lcm1haWQKZmxvd2NoYXJ0IExSCiAgICBWaXNpdG9yWyLkuJrliqHorr/pl67ogIUiXSAtLT4gR2F0ZXdheVsiR28g572R5YWzIMK3IOaVsOaNrumdojxici8+6buY6K6k56uv5Y+jIDc5OTkiXQogICAgQWRtaW5bIueuoeeQhuWRmOa1j+iniOWZqCJdIC0tPiBFbnRyeVsi566h55CG5YWl5Y+jPGJyLz7pu5jorqTnq6/lj6MgNzk5MSJdCiAgICBFbnRyeSAtLT4gQ29udHJvbFsiUnVzdCDmjqfliLbpnaIgwrcgQXh1bTxici8+6buY6K6k56uv5Y+jIDc5OTgiXQogICAgQ29udHJvbCA8LS0+fCJnUlBDIMK3IDc5OTYifCBHYXRld2F5CiAgICBDb250cm9sIC0tPiBTdG9yYWdlWygiU1FMaXRlIildCiAgICBWaWV3c1siVnVlIDMg566h55CG56uvIC8g6K6k6K+B56uvPGJyLz7pooTnvJbor5HpnZnmgIHotYTmupAiXSAtLT4gRW50cnkKYGBgCgotICoqUnVzdCDmjqfliLbpnaIqKu+8mueuoeeQhiBBUEnjgIHorqTor4HjgIHlronlhajnrZbnlaXjgIHor4HkuabjgIFERE5T44CB6Zqn6YGT5LiO57O757uf6L+Q57u044CCCi0gKipHbyDmlbDmja7pnaIqKu+8muWkhOeQhue9keWFs+ebkeWQrOOAgeWPjeWQkeS7o+eQhuS4jumrmOW5tuWPkeS4muWKoea1gemHj+OAggotICoqVnVlIDMg5YmN56uvKirvvJrmnoTlu7rlkI7kvZzkuLrpnZnmgIHotYTmupDpmo/lronoo4XljIXmiJbplZzlg4/lj5HluIPvvIzkuI3pnIDopoEgTm9kZS5qcyDov5DooYzml7bjgIIKLSAqKlNRTGl0ZSDlrZjlgqgqKu+8muaWsOmDqOe9suaXoOmcgOmineWklue7tOaKpCBSZWRpcyDmnI3liqHjgIIKCiMjIOS4i+i9veS4juWuieijhQoK6K+35LyY5YWI5YmN5b6AIFtmbi1rbm9jayDlrpjnvZFdKGh0dHBzOi8vd3d3LmZua25vY2suY24vKSDpgInmi6norr7lpIflubPlj7DlkozmnrbmnoTjgILlrpjnvZHkvJrmj5DkvpvkuI7lvZPliY3ns7vnu5/ljLnphY3nmoTlronoo4XljIXjgIHlronoo4Xlkb3ku6Tlj4rmnIDmlrDkvb/nlKjor7TmmI7jgIIKCnwg5bmz5Y+wICAgICAgICAgIHwg57O757ufIC8g5p625p6EICAgICAgICAgICAgICAgICAgICAgfCDkuIvovb3miJblronoo4UgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgLS0tLS0tLS0tLS0tLSB8IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfAp8IOmjnueJmyBmbk9TICAgICB8IHg4Nl82NCAgICAgICAgICAgICAgICAgICAgICAgICAgfCBb5LiL6L29IEZQS10oaHR0cHM6Ly9nZXQuZm5rbm9jay5jbi8pICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8Cnwg6aOe54mbIGZuT1MgICAgIHwgQVJNNjQgLyBhYXJjaDY0ICAgICAgICAgICAgICAgICB8IFvkuIvovb0gRlBLXShodHRwczovL2dldC5mbmtub2NrLmNuLz9hcmNoPWFybTY0KSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBPcGVuV3J0ICAgICAgIHwgeDg2XzY0ICAgICAgICAgICAgICAgICAgICAgICAgICB8IFtBUEvvvIgyNS4xMivvvIldKGh0dHBzOi8vZ2V0LmZua25vY2suY24vP3R5cGU9YXBrJmFyY2g9eDg2XzY0KSDCtyBbSVBL77yIMjQuMTAgLyDml6fniYjvvIldKGh0dHBzOi8vZ2V0LmZua25vY2suY24vP3R5cGU9aXBrJmFyY2g9eDg2XzY0KSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IE9wZW5XcnQgICAgICAgfCBhYXJjaDY0X2NvcnRleC1hNTMgICAgICAgICAgICAgIHwgW0FQS++8iDI1LjEyK++8iV0oaHR0cHM6Ly9nZXQuZm5rbm9jay5jbi8/dHlwZT1hcGsmYXJjaD1hYXJjaDY0X2NvcnRleC1hNTMpIMK3IFtJUEvvvIgyNC4xMCAvIOaXp+eJiO+8iV0oaHR0cHM6Ly9nZXQuZm5rbm9jay5jbi8/dHlwZT1pcGsmYXJjaD1hYXJjaDY0X2NvcnRleC1hNTMpICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgT3BlbldydCAgICAgICB8IGFhcmNoNjRfZ2VuZXJpYyAgICAgICAgICAgICAgICAgfCBbQVBL77yIMjUuMTIr77yJXShodHRwczovL2dldC5mbmtub2NrLmNuLz90eXBlPWFwayZhcmNoPWFhcmNoNjRfZ2VuZXJpYykgwrcgW0lQS++8iDI0LjEwIC8g5pen54mI77yJXShodHRwczovL2dldC5mbmtub2NrLmNuLz90eXBlPWlwayZhcmNoPWFhcmNoNjRfZ2VuZXJpYykgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBPcGVuV3J0ICAgICAgIHwgYXJtX2NvcnRleC1hN19uZW9uLXZmcHY0ICAgICAgICB8IFtBUEvvvIgyNS4xMivvvIldKGh0dHBzOi8vZ2V0LmZua25vY2suY24vP3R5cGU9YXBrJmFyY2g9YXJtX2NvcnRleC1hN19uZW9uLXZmcHY0KSDCtyBbSVBL77yIMjQuMTAgLyDml6fniYjvvIldKGh0dHBzOi8vZ2V0LmZua25vY2suY24vP3R5cGU9aXBrJmFyY2g9YXJtX2NvcnRleC1hN19uZW9uLXZmcHY0KSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IE9wZW5XcnQgICAgICAgfCBhcm1fY29ydGV4LWE1X3ZmcHY0ICAgICAgICAgICAgIHwgW0FQS++8iDI1LjEyK++8iV0oaHR0cHM6Ly9nZXQuZm5rbm9jay5jbi8/dHlwZT1hcGsmYXJjaD1hcm1fY29ydGV4LWE1X3ZmcHY0KSDCtyBbSVBL77yIMjQuMTAgLyDml6fniYjvvIldKGh0dHBzOi8vZ2V0LmZua25vY2suY24vP3R5cGU9aXBrJmFyY2g9YXJtX2NvcnRleC1hNV92ZnB2NCkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgRG9ja2VyICAgICAgICB8IGFtZDY0IC8gYXJtNjQgLyBhcm12NyAgICAgICAgICAgfCBbRG9ja2VyIEh1Yl0oaHR0cHM6Ly9odWIuZG9ja2VyLmNvbS9yL2tjaWxuay9mbi1rbm9jaykgwrcgW+mDqOe9suivtOaYjl0oLi9kZXBsb3kvZG9ja2VyL1JFQURNRS5tZCkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgV2luZG93cyAgICAgICB8IFdpbmRvd3MgeDg2XzY0ICAgICAgICAgICAgICAgICAgfCBb5LiL6L29IEVYRV0oaHR0cHM6Ly9nZXQuZm5rbm9jay5jbi8/dHlwZT13aW5kb3dzJmFyY2g9eDg2XzY0KSDCtyBb5a6J6KOF6K+05piOXShodHRwczovL3d3dy5mbmtub2NrLmNuL3dpbmRvd3MpICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCDnvqTmmZYgU3lub2xvZ3kgfCBEU00gNy4wKyB4ODZfNjQgLyBBUk12OCAvIEFSTXY3IHwgW3g4Nl82NCBTUEtdKGh0dHBzOi8vZ2V0LmZua25vY2suY24vP3R5cGU9c3lub2xvZ3kmYXJjaD14ODZfNjQpIMK3IFtBUk12OCBTUEtdKGh0dHBzOi8vZ2V0LmZua25vY2suY24vP3R5cGU9c3lub2xvZ3kmYXJjaD1hcm12OCkgwrcgW0FSTXY3IFNQS10oaHR0cHM6Ly9nZXQuZm5rbm9jay5jbi8/dHlwZT1zeW5vbG9neSZhcmNoPWFybXY3KSDCtyBb5a6J6KOF6K+05piOXShodHRwczovL3d3dy5mbmtub2NrLmNuL3N5bm9sb2d5KSB8CnwgTGludXggICAgICAgICB8IHg4Nl82NCAvIEFSTTY0IC8gQVJNdjcgICAgICAgICAgfCBb5LiA6ZSu5a6J6KOFXShodHRwczovL3d3dy5mbmtub2NrLmNuL2xpbnV4KSDCtyBb6YOo572y5paH5qGjXShodHRwczovL2RvY3MuZm5rbm9jay5jbi9xdWljay1zdGFydC9saW51eC1kZXBsb3ltZW50KSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IG1hY09TICAgICAgICAgfCBtYWNPUyAxMysgSW50ZWwgLyBBcHBsZSBTaWxpY29uIHwgYGN1cmwgLWZzU0wgaHR0cHM6Ly9jZG4uZm5rbm9jay5jbi9tYWNvcy9pbnN0YWxsLnNoIFx8IHN1ZG8gYmFzaGAgwrcgW+mDqOe9suivtOaYjl0oLi9kZXBsb3kvbWFjb3MvUkVBRE1FLm1kKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAoKIyMjIERvY2tlcgoKYGBgYmFzaApkb2NrZXIgcHVsbCBrY2lsbmsvZm4ta25vY2s6bGF0ZXN0CmBgYAoK55Sf5Lqn546v5aKD6K+35oyJIFtEb2NrZXIgQ29tcG9zZSDpg6jnvbLor7TmmI5dKC4vZGVwbG95L2RvY2tlci9SRUFETUUubWQpIOmFjee9ruerr+WPo+OAgeaVsOaNruWNt+OAgUlQdjYg5a2Q572R5ZKM5Y+v5L+h5Luj55CG44CCCgojIyMgTGludXgKCuaUr+aMgSBzeXN0ZW1kIOWSjCBBbHBpbmUgTGludXgg5L2/55So55qEIE9wZW5SQ+OAguWumOaWueS4gOmUruWuieijheWRveS7pO+8mgoKYGBgYmFzaAp3Z2V0IC1xTy0gaHR0cHM6Ly9jZG4uZm5rbm9jay5jbi9pbnN0YWxsLnNoIHwgeyBpZiBbICIkKGlkIC11KSIgLWVxIDAgXTsgdGhlbiBzaDsgZWxzZSBzdWRvIHNoOyBmaTsgfQpgYGAKCuWuieijheWujOaIkOWQjuaJk+W8gCBgaHR0cDovLzzorr7lpIcgSVA+Ojc5OTFgIOiuvue9rueuoeeQhuWvhueggeOAgue9keWFs+S4muWKoeWFpeWPo+m7mOiupOS4uiBgNzk5OWDjgIIKCj4gWyFXQVJOSU5HXQo+IOS4jeimgeaKiiBgNzk5MWAg566h55CG56uv5Y+j55u05o6l5pq06Zyy5Yiw5YWs572R44CC6L+c56iL566h55CG6K+35L2/55SoIFZQTu+8jOaIlumFjee9ruW4piBIVFRQUyDkuI7orr/pl67mjqfliLbnmoTlj6/kv6Hlj43lkJHku6PnkIbjgIIKCiMjIyBtYWNPUwoKbWFjT1MgMTMg5Y+K5Lul5LiK54mI5pys5o+Q5L6bIEludGVsIChgYW1kNjRgKSDlkowgQXBwbGUgU2lsaWNvbiAoYGFybTY0YCkg5Lik5Liq5Y6f55SfIENMSSDljovnvKnljIXvvIzkvb/nlKggYGxhdW5jaGRgIOi/kOihjO+8mgoKYGBgYmFzaApjdXJsIC1mc1NMIGh0dHBzOi8vY2RuLmZua25vY2suY24vbWFjb3MvaW5zdGFsbC5zaCB8IHN1ZG8gYmFzaApgYGAKCuWuieijheWQjui/kOihjCBgc3VkbyBrbm9ja2Ag566h55CG5pyN5Yqh44CC566h55CG6Z2i5p2/6buY6K6k5LuF55uR5ZCsIGAxMjcuMC4wLjE6Nzk5MWDvvJttYWNPUyDniYjmnKzkuI3mlK/mjIEgaXB0YWJsZXMg5oiW5Li75py66Ziy54Gr5aKZ566h55CG44CC572R6aG157uI56uv5pSv5oyBIFNTSCDnm67moIfvvIzkuZ/lj6/lnKjmmI7noa7noa7orqTmnI3liqHouqvku73po47pmanlkI7lkK/nlKjmnKzmnLogUFRZ44CC5b2T5YmN5Y+R6KGM5YyF5pyq57uPIEFwcGxlIERldmVsb3BlciBJRCDnrb7lkI3miJblhazor4HvvIzor7fpgJrov4cgUmVsZWFzZSDkuK3nmoQgYFNIQTI1NlNVTVNgIOagoemqjOaJi+WKqOS4i+i9veaWh+S7tuOAggoKIyMg6buY6K6k56uv5Y+jCgp8IOerr+WPoyAgIHwg57uE5Lu2ICAgICAgICB8IOm7mOiupOeUqOmAlCAgICAgICAgICAgICAgICAgICAgfAp8IC0tLS0tLSB8IC0tLS0tLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwKfCBgNzk5MWAgfCDnrqHnkIblhaXlj6MgICAgfCDmtY/op4jlmajorr/pl67nrqHnkIbpnaLmnb8gICAgICAgICAgfAp8IGA3OTk5YCB8IEdvIOe9keWFsyAgICAgfCDlr7nlpJbmib/ovb3ku6PnkIbkuJrliqHmtYHph48gICAgICAgIHwKfCBgNzk5OGAgfCBSdXN0IOWQjuerryAgIHwg5YaF6YOo566h55CGIEFQSSAgICAgICAgICAgICAgICB8CnwgYDc5OTdgIHwg6K6k6K+B5pyN5YqhICAgIHwg5YaF6YOo6K6k6K+B6aG16Z2i5pyN5YqhICAgICAgICAgICAgfAp8IGA3OTk2YCB8IEdvIOeuoeeQhuaOpeWPoyB8IFJ1c3Qg5LiOIEdvIOS5i+mXtOeahCBnUlBDIOmAmuS/oSB8CgrlhbfkvZPnm5HlkKzojIPlm7TkvJrlm6DlubPlj7DogIzlvILvvIzor7fku6Xlr7nlupTlubPlj7DnmoTlronoo4Xor7TmmI7kuLrlh4bjgIIKCiMjIOS+m+W6lOmTvuS4jumakOengQoK5q+P5qyh5q2j5byP5Y+R5biD6YO95Lya55Sf5oiQ5Y+v5qC46aqM55qE5Y+R5biD5YWD5pWw5o2u77yaCgotIERvY2tlciDlpJrmnrbmnoTplZzlg4/lj5HluIMgKipTQk9NKiog5LiO5pyA5aSn57qn5Yir55qE5p6E5bu65p2l5rqQ5L+h5oGv77yIcHJvdmVuYW5jZe+8ieOAggotIEdpdEh1YiBSZWxlYXNlIOS4reeahOWuieijheWMheS8mumZhOW4puaehOW7uuadpea6kOivgeaYju+8jOW5tuaPkOS+m+WujOaVtOS6p+eJqea4heWNleS4jiBTSEEtMjU244CCCi0gW3JlbGVhc2UtbWFuaWZlc3QuanNvbl0oaHR0cHM6Ly9naXRodWIuY29tL2tjaS1sbmsvZm4ta25vY2stdHVyYm9yZXBvL3JlbGVhc2VzL2xhdGVzdC9kb3dubG9hZC9yZWxlYXNlLW1hbmlmZXN0Lmpzb24pIOiusOW9leeJiOacrOOAgeaOp+WItiBBUEkg54mI5pys44CB5rqQ56CB5o+Q5Lqk44CBR28g572R5YWz5o+Q5Lqk44CB5bmz5Y+w44CB5p625p6E44CB5paH5Lu25aSn5bCP5LiO5pGY6KaB44CCCi0gW1NIQTI1NlNVTVNdKGh0dHBzOi8vZ2l0aHViLmNvbS9rY2ktbG5rL2ZuLWtub2NrLXR1cmJvcmVwby9yZWxlYXNlcy9sYXRlc3QvZG93bmxvYWQvU0hBMjU2U1VNUykg5Y+v55So5LqO5qCh6aqMIFJlbGVhc2Ug5Lit55qE5LiL6L295paH5Lu244CCCgrlronoo4XmiJbkvb/nlKjliY3vvIzor7fpmIXor7vvvJoKCi0gW+eUqOaIt+WNj+iurl0oaHR0cHM6Ly93d3cuZm5rbm9jay5jbi9sZWdhbCN0ZXJtcykKLSBb6ZqQ56eB5pS/562WXShodHRwczovL3d3dy5mbmtub2NrLmNuL2xlZ2FsI3ByaXZhY3kpCi0gW+esrOS4ieaWueW8gOa6kOi9r+S7tuivtOaYjl0oaHR0cHM6Ly93d3cuZm5rbm9jay5jbi90aGlyZC1wYXJ0eS1zb2Z0d2FyZSkKCmZuLWtub2NrIOS7peiHquaJmOeuoeS4uuaguOW/g+OAguWumOaWuemakOengeaUv+etluS8muWMuuWIhuWumOe9keWPiuWumOaWueWcqOe6v+acjeWKoeWkhOeQhueahOaVsOaNru+8jOS4jumDqOe9suWcqOS9oOiHquW3seiuvuWkh+S4iueahOi0puWPt+OAgeaXpeW/l+OAgeS8muivneWSjOS7o+eQhuS4muWKoeaVsOaNru+8m+WmguaenOS9oOWQkeS7luS6uuW8gOaUvuiHquW3seeahOWunuS+i++8jOS7jeW6lOagueaNruWunumZhemFjee9ruaPkOS+m+eLrOeri+eahOmakOengeWRiuefpeOAggoKIyMg5LuO5rqQ56CB5byA5Y+RCgojIyMg5byA5Y+R546v5aKDCgp8IOW3peWFtyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwg55So6YCUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwKfCBSdXN0IGAxLjk2LjBgICAgICAgICAgICAgICAgICAgICAgfCBSdXN0IOaOp+WItumdouS4jiBXaW5kb3dzIOWOn+eUn+euoeeQhueoi+W6jyAgICAgICAgICAgICAgICAgICAgICB8CnwgR28gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwg5p6E5bu6IGBHby1SZWF1dGgtUHJveHlgIOe9keWFs++8jOeJiOacrOimgeaxguS7peWFtiBgZ28ubW9kYCDkuLrlh4YgfAp8IE5vZGUuanMgYF4yMC4xOS4wYCDmiJYgYD49MjIuMTIuMGAgfCDku4XnlKjkuo4gVnVlIOWJjeerr+aehOW7uuOAgea1i+ivleWSjCBUdXJib3JlcG8g5Lu75Yqh57yW5o6SICAgICAgICAgIHwKfCBucG0gYDEwLjguMmAgICAgICAgICAgICAgICAgICAgICAgfCBXb3Jrc3BhY2Ug5YyF566h55CGICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBEb2NrZXIgLyBCdWlsZHggICAgICAgICAgICAgICAgICAgfCDlpJrmnrbmnoTplZzlg4/lj4rpg6jliIbot6jlubPlj7DkuqfnianmnoTlu7ogICAgICAgICAgICAgICAgICAgICAgICAgIHwKCmBgYGJhc2gKbnBtIGNpCm5wbSBydW4gZGV2CmBgYAoK6LSo6YeP5qOA5p+l77yaCgpgYGBiYXNoCm5wbSBydW4gbGludApucG0gcnVuIGNoZWNrLXR5cGVzCm5wbSBydW4gdGVzdApucG0gcnVuIHNlY3VyaXR5OmF1ZGl0CmBgYAoK5p6E5bu65YWo6YOo5bel5L2c5Yy677yaCgpgYGBiYXNoCm5wbSBydW4gYnVpbGQKYGBgCgpHbyDnvZHlhbPmupDnoIHpu5jorqTku47nm7jpgrvnm67lvZUgYC4uL0dvLVJlYXV0aC1Qcm94eWAg6K+75Y+W77yM5Lmf5Y+v5Lul6YCa6L+HIGBGTl9LTk9DS19HT19SRUFVVEhfUFJPWFlfRElSYCDmjIflrprot6/lvoTjgIIKCiMjIOS7k+W6k+e7k+aehAoKfCDot6/lvoQgICAgICAgICAgICAgICAgICAgICAgfCDor7TmmI4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8CnwgYGFwcHMvc2VydmVyLWFkbWluLXJzYCAgICB8IFJ1c3QgLyBBeHVtIOeuoeeQhuWQjuerr+OAgeiupOivgeS4juaOp+WItumdoiAgICAgICAgIHwKfCBgYXBwcy9zZXJ2ZXItYWRtaW4tdmlld2AgIHwgVnVlIDMg566h55CG5ZCO5Y+wICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgYGFwcHMvc2VydmVyLWF1dGgtdmlld2AgICB8IFZ1ZSAzIOiupOivgemhtemdoiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBhcHBzL2ZuLWtub2NrLWRlc2t0b3BgICAgfCBSdXN0ICsgV2luMzIgV2luZG93cyDnrqHnkIbnqIvluo/kuI4gTlNJUyDphY3nva4gIHwKfCBgYXBwcy9mbi1rbm9ja2AgICAgICAgICAgIHwg6aOe54mbIGZuT1Mg5Y6f55SfIEZQSyDpgILphY0gICAgICAgICAgICAgICAgICAgIHwKfCBgYXBwcy9mbi1rbm9jay1saXRlYCAgICAgIHwg6aOe54mbIGZuT1Mg6Z2eIFJvb3Qg546v5aKD55qE5Y6f55Sf57K+566AIEZQSyDpgILphY0gIHwKfCBgYXBwcy9mbi1rbm9jay1zeW5vbG9neWAgIHwgU3lub2xvZ3kgRFNNIDcg5Y6f55SfIFNQSyDpgILphY0gICAgICAgICAgICAgICB8CnwgYGRlcGxveS9kb2NrZXJgICAgICAgICAgICB8IERvY2tlcmZpbGXjgIFDb21wb3NlIOS4jumVnOWDj+WPkeW4g+mFjee9riAgICAgICAgIHwKfCBgZGVwbG95L2xpbnV4YCAgICAgICAgICAgIHwgc3lzdGVtZCAvIE9wZW5SQyDpgJrnlKggTGludXgg5a6J6KOF5LiO566h55CG6ISa5pysIHwKfCBgZGVwbG95L21hY29zYCAgICAgICAgICAgIHwgbGF1bmNoZCBtYWNPUyDlronoo4XkuI4gYGtub2NrYCDnrqHnkIbohJrmnKwgICAgICB8CnwgYGRlcGxveS9vcGVud3J0YCAgICAgICAgICB8IE9wZW5XcnQgQVBLIC8gSVBLIOS4jiBMdUNJIOmAgumFjSAgICAgICAgICAgICB8CnwgYHBhY2thZ2VzL2dycGMtY29udHJhY3RzYCB8IFJ1c3Qg5o6n5Yi26Z2i5LiOIEdvIOe9keWFs+eahCBnUlBDIOWNj+iuriAgICAgICAgICB8CnwgYHBhY2thZ2VzLypgICAgICAgICAgICAgICB8IOWJjeerr+WFseS6q+e7hOS7tuOAgUFQSeOAgeWbvemZheWMluS4juW3peeoi+mFjee9riAgICAgICAgfAoKIyMg5bi455So5p6E5bu65ZG95LukCgp8IOWRveS7pCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IOeUqOmAlCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfAp8IGBucG0gcnVuIGZuLWtub2NrOmJ1aWxkLXBhY2thZ2VgICAgICAgICAgICAgICAgfCDmnoTlu7ogZm5PUyBGUEsgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBucG0gcnVuIGZuLWtub2NrOmxpdGU6YnVpbGQtcGFja2FnZWAgICAgICAgICAgfCDmnoTlu7ogZm5PUyBMaXRlIEZQSyAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBucG0gcnVuIGZuLWtub2NrOmxpbnV4OnByZXBhcmVgICAgICAgICAgICAgICAgfCDmnoTlu7rpgJrnlKggTGludXgg5Lqn54mpICAgICAgICAgICAgICAgICAgICAgIHwKfCBgbnBtIHJ1biBmbi1rbm9jazptYWNvczpidWlsZCAtLSBhcm02NGAgICAgICAgIHwg5Zyo5b2T5YmN5Y6f55SfIE1hYyDmnoTlu7rlr7nlupTmnrbmnoTljovnvKnljIUgICAgICAgIHwKfCBgbnBtIHJ1biBmbi1rbm9jazpvcGVud3J0OmJ1aWxkYCAgICAgICAgICAgICAgIHwg5p6E5bu6IE9wZW5XcnQgQVBLIOS4jiBJUEsgICAgICAgICAgICAgICAgICB8CnwgYG5wbSBydW4gZm4ta25vY2s6c3BrOmJ1aWxkYCAgICAgICAgICAgICAgICAgICB8IOaehOW7uiBTeW5vbG9neSBTUEsgICAgICAgICAgICAgICAgICAgICAgICB8CnwgYG5wbSBydW4gZm4ta25vY2s6ZG9ja2VyOmJ1aWxkYCAgICAgICAgICAgICAgICB8IOaehOW7uuacrOWcsCBEb2NrZXIg6ZWc5YOPICAgICAgICAgICAgICAgICAgICAgfAp8IGBucG0gcnVuIGZuLWtub2NrOndpbmRvd3M6dGVzdGAgICAgICAgICAgICAgICAgfCDov5DooYwgV2luZG93cyDljp/nlJ/mnoTlu7rmo4Dmn6UgICAgICAgICAgICAgICAgfAp8IGBucG0gcnVuIGZuLWtub2NrOndpbmRvd3M6YnVpbGRgICAgICAgICAgICAgICAgfCDmnoTlu7ogV2luZG93cyB4ODZfNjQgdW5zaWduZWQgTlNJUyDlronoo4XljIUgfAp8IGBucG0gcnVuIGZuLWtub2NrOnJlbGVhc2U6dGVzdGAgICAgICAgICAgICAgICAgfCDmo4Dmn6XlrozmlbTlj5HluIPpk77ot68gICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBucG0gcnVuIGZuLWtub2NrOnJlbGVhc2U6cHJlZmxpZ2h0IC0tIHZYLlkuWmAgfCDmoKHpqozniYjmnKzkuI7lj5HluIPliY3nva7mnaHku7YgICAgICAgICAgICAgICAgICAgfAp8IGBucG0gcnVuIHJlbGVhc2Ugc3RhdHVzYCAgICAgICAgICAgICAgICAgICAgICAgfCDmn6XnnIvlvZPliY3lj5HluIPniYjmnKznirbmgIEgICAgICAgICAgICAgICAgICAgICB8CnwgYG5wbSBydW4gZm4ta25vY2s6Z3JwYzpzeW5jLWdvYCAgICAgICAgICAgICAgICB8IOS7juWFseS6qyBwcm90byDph43mlrDnlJ/miJAgR28gZ1JQQyBzdHViICAgICAgIHwKfCBgbnBtIHJ1biBmbi1rbm9jazpncnBjOmNoZWNrLWdvYCAgICAgICAgICAgICAgIHwg5qCh6aqMIEdvIHN0dWIg5LiO5YWx5LqrIHByb3RvIOeahOWNj+iurueJiOacrCAgICAgfAoK5o6n5Yi2IEFQSSDniYjmnKzlj6rlnKggW2BwYWNrYWdlcy9ncnBjLWNvbnRyYWN0cy9wcm90by9mbmtub2NrL3YxL2dhdGV3YXkucHJvdG9gXShwYWNrYWdlcy9ncnBjLWNvbnRyYWN0cy9wcm90by9mbmtub2NrL3YxL2dhdGV3YXkucHJvdG8pIOeahCBgQ09OVFJPTF9BUElfVkVSU0lPTl9DVVJSRU5UYCDlrprkuYnjgILljYfnuqfljY/orq7ml7blj6rkv67mlLnor6XmnprkuL7lgLzvvIzlho3ov5DooYwgYG5wbSBydW4gZm4ta25vY2s6Z3JwYzpzeW5jLWdvYO+8m1J1c3Qg5pyN5Yqh55u05o6l5L2/55So55Sf5oiQ55qEIHByb3RvYnVmIOaemuS4vu+8jFdpbmRvd3Mg5qGM6Z2i56uv44CB5omT5YyF6ISa5pys5ZKMIHNtb2tlIHRlc3Qg5Lya6K+75Y+W5ZCM5LiAIHByb3Rv77yMR28g572R5YWz5L2/55So55Sf5oiQ55qEIGBnYXRld2F5LnBiLmdvYOOAguS4jeimgeaJi+W3pee7tOaKpOesrOS6jOS7veeJiOacrOW4uOmHj+OAggoK5Y+R5biD5paw54mI5pys5pe277yM5bu66K6u5Zyo5pys5LuT5bqT5ZKM55u46YK755qEIGAuLi9Hby1SZWF1dGgtUHJveHlgIOWdh+S4uuW5suWHgOW3peS9nOWMuuaXtui/kOihjCBgbnBtIHJ1biByZWxlYXNlIHByZXBhcmUgcGF0Y2hg77yI5Lmf5Y+v5L2/55SoIGBtaW5vcmDjgIFgbWFqb3JgIOaIluaYjuehrueahCBgWC5ZLlpg77yJ44CC6K+l5bel5YW35Lya5ZCM5q2l5Lik5Liq5LuT5bqT5YaF55qE5omA5pyJ5Lqn5ZOB54mI5pys77yM5bm25LuO5LiK5LiA5Liq54mI5pysIFRhZyDlkI7nmoTmj5DkuqTnlJ/miJAgcmVsZWFzZSBub3Rlc++8m0dvIOS7k+W6k+S9jeS6juWFtuS7luS9jee9ruaXtuWPr+iuvue9riBgRk5fS05PQ0tfR09fUkVBVVRIX1BST1hZX0RJUmDjgILkvb/nlKggYC0tZHJ5LXJ1bmAg5Y+v5YWI6aKE6KeI77yM5L2/55SoIGAtLW5vdGVzLWZpbGUgPHBhdGg+YCDlj6/mjIflrprlj5HluIPor7TmmI7jgILlrozmiJDlkI7ov5DooYwgYG5wbSBydW4gcmVsZWFzZSBjaGVja2Ag5ZKMIGBucG0gcnVuIGZuLWtub2NrOnJlbGVhc2U6dGVzdGDvvIzlubblhYjmj5DkuqTjgIHmjqjpgIEgR28g5LuT5bqT44CC5bel5YW35LiN5Lya6Ieq5Yqo5o+Q5Lqk44CB5omTIFRhZyDmiJbmjqjpgIHjgIIKCmB2ZXJzaW9uLmpzb25gIOeahCBgcmVsZWFzZUNoYW5uZWxgIOaOp+WItuWPkeW4g+a4oOmBk++8jOWPr+WPliBgc3RhYmxlYCDmiJYgYGJldGFg44CCQmV0YSDku43kvb/nlKjnuq/mlbDlrZcgYFguWS5aYCDniYjmnKzlj7flkowgYHZYLlkuWmAgVGFn77yM5L2GIEdpdEh1YiBSZWxlYXNlIOS8muagh+iusOS4uiBQcmUtcmVsZWFzZe+8m0NJIOWPquWPkeW4g+WbuuWumueJiOacrOeahOWuieijheWMheS4jiBEb2NrZXIg6ZWc5YOP77yM5LiN5pu05pawIERvY2tlciBgbGF0ZXN0YOOAgeiFvuiuryBDT1MvQ0RO44CB6Ieq5Yqo5pu05paw5riF5Y2V5oiWIEdpdEh1YiBMYXRlc3QgUmVsZWFzZeOAguWPkeW4g+ivtOaYjuW/hemhu+aYjuehruaPkOmGkueUqOaIt+i/meaYr+a1i+ivleeJiOacrOOAggoKYHJlbGVhc2Ugc3RhdHVzYOOAgWByZWxlYXNlIHByZXBhcmVg44CBYHJlbGVhc2UgZ2F0ZXdheS1jaGVja2DjgIFgcmVsZWFzZSBjaGVja2DjgIHlj5HluIPliY3nva7mo4Dmn6Xku6Xlj4ogV2luZG93cy/pgJrnlKggR28g5p6E5bu66YO95Lya5qCh6aqM5o6n5Yi2IEFQSSDlpZHnuqbvvJvlpoLmnpwgR28gc3R1YiDlsJrmnKrku47lvZPliY0gcHJvdG8g55Sf5oiQ77yM5rWB56iL5Lya5Zyo5Lqn5Ye65a6J6KOF5YyF5oiW5Y+R5biD6LWE5Lqn5YmN5aSx6LSl77yM5bm25o+Q56S66L+Q6KGM5ZCM5q2l5ZG95Luk44CC5q2j5byP5Y+R5biDIENJIOi/mOS8mumHjeaWsOeUn+aIkOWFqOmDqCBHbyBzdHViIOW5tuimgeaxguW3peS9nOWMuuaXoOW3ruW8guOAggoK5o6o6YCB5LiOIGB2ZXJzaW9uLmpzb25gIOS4gOiHtOeahCBgdlguWS5aYCBUYWcg5ZCO77yM5Y+R5biD5bel5L2c5rWB5Lya5Ya757uT5b2T5YmN5rqQ56CB5ZKMIEdvIOe9keWFs+aPkOS6pO+8jOWujOaIkOi0qOmHj+mXqOemgeOAgeWkmuW5s+WPsOaehOW7uuOAgeaetuaehOagoemqjOOAgeagoemqjOa4heWNleOAgVNCT00gLyBwcm92ZW5hbmNlIOWPiiBHaXRIdWIgUmVsZWFzZSDlj5HluIPjgIIKCiMjIOaUr+aMgemhueebrgoK5aaC5p6cIGZuLWtub2NrIOWvueS9oOacieW4ruWKqe+8jOWPr+S7peivt+S9nOiAheWWneadr+WSluWVoe+8jOaUr+aMgemhueebrue7p+e7ree7tOaKpOOAggoKPHAgYWxpZ249ImNlbnRlciI+CiAgPGltZyBzcmM9Ii4vYXNzZXRzL1FSX1BBWS5KUEciIGFsdD0i6LWe5Yqp5LqM57u056CBIiB3aWR0aD0iMjYwIj4KPC9wPgoKIyMgTGljZW5zZQoKW01JVF0oLi9MSUNFTlNFKQo=
+<p align="center">
+  <a href="https://www.fnknock.cn/">
+    <img src="./assets/fn-knock.webp" alt="fn-knock 敲门" width="860">
+  </a>
+</p>
+
+<h1 align="center">fn-knock · 敲门</h1>
+
+<p align="center">
+  <strong>简体中文</strong> ·
+  <a href="./docs/readme/README.en.md">English</a> ·
+  <a href="./docs/readme/README.ko.md">한국어</a> ·
+  <a href="./docs/readme/README.ja.md">日本語</a>
+</p>
+
+<p align="center">
+  面向 NAS、软路由与家庭服务器的多平台高性能安全网关
+</p>
+
+<p align="center">
+  <a href="https://stand-with-ukraine.pp.ua/"><img alt="StandWithUkraine" src="https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg"></a>
+  <a href="https://www.fnknock.cn/"><img alt="Official Website" src="https://img.shields.io/badge/Install-fnknock.cn-2563eb?style=flat-square"></a>
+  <img alt="Rust Core" src="https://img.shields.io/badge/Core-Rust-dea584?style=flat-square&logo=rust&logoColor=white">
+  <img alt="Go Gateway" src="https://img.shields.io/badge/Gateway-Go-00add8?style=flat-square&logo=go&logoColor=white">
+  <img alt="Vue 3" src="https://img.shields.io/badge/Console-Vue_3-42b883?style=flat-square&logo=vuedotjs&logoColor=white">
+  <a href="https://hub.docker.com/r/kcilnk/fn-knock"><img alt="Docker" src="https://img.shields.io/badge/Docker-amd64_%7C_arm64_%7C_armv7-2496ed?style=flat-square&logo=docker&logoColor=white"></a>
+  <a href="./LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-111827?style=flat-square"></a>
+</p>
+
+<p align="center">
+  <a href="https://www.fnknock.cn/">官网</a> ·
+  <a href="https://docs.fnknock.cn/">使用文档</a> ·
+  <a href="https://www.fnknock.cn/">下载安装</a> ·
+  <a href="https://www.fnknock.cn/legal#terms">用户协议</a> ·
+  <a href="https://www.fnknock.cn/legal#privacy">隐私政策</a>
+</p>
+
+fn-knock 已完成原生化重构，正式运行时采用 **Rust 控制面 + Go 数据面**，内置 SQLite 存储，**不依赖 Node.js，也不需要 Redis**。Node.js 仅用于从源码开发 Vue 前端和编排仓库构建任务。
+
+## 为什么选择 fn-knock
+
+fn-knock 把反向代理、登录鉴权、证书、DDNS、访问控制、WAF、隧道和运行状态集中到一个管理面板中，帮助你更安全、更轻松地把私有服务开放给可信访问者。
+
+| 能力       | 说明                                                                     |
+| ---------- | ------------------------------------------------------------------------ |
+| 安全网关   | 反向代理、认证前置、访问日志、Host / Path / TCP 映射                     |
+| 身份认证   | 密码、TOTP、Passkey、OIDC、LDAP/Active Directory、验证码与精细化认证规则 |
+| 域名与证书 | ACME 证书申请、SSL 配置、多服务商 DDNS                                   |
+| 主动防护   | IP 白名单、地区可见性、WAF、爬虫拦截、登录退避与限流                     |
+| 内网穿透   | Cloudflared、frpc 的配置、启停、日志与状态管理                           |
+| 日常运维   | 系统监控、事件审计、在线终端、通知、备份与更新检查                       |
+| 多平台交付 | fnOS、OpenWrt、Docker、Windows、macOS、Synology DSM 与通用 Linux         |
+
+Web 终端继续支持管理员显式配置并确认主机指纹的 SSH 目标。完整 FPK、通用 Linux、macOS 与 OpenWrt 还可选择启用本机 PTY；本机终端默认关闭，并始终使用 fn-knock 服务的有效 UID/GID，服务以 root 运行时终端同样拥有 root 权限。FPK Lite、Synology、Docker、Windows 和开发模式不提供本机终端。
+
+> [!WARNING]
+> 启用前请核对界面显示的服务身份、Shell 与初始目录。本机终端不会降权、切换用户或通过 localhost SSH；浏览器关闭后会话仍在进程内运行，但 fn-knock 重启会结束会话。完整 FPK 的终端请求只允许通过 `index.cgi` 转发到 `127.0.0.1` 的 Rust 服务，绝不接入飞牛统一网关、Go/gRPC 路由或 WebSocket。
+
+## 架构
+
+```mermaid
+flowchart LR
+    Visitor["业务访问者"] --> Gateway["Go 网关 · 数据面<br/>默认端口 7999"]
+    Admin["管理员浏览器"] --> Entry["管理入口<br/>默认端口 7991"]
+    Entry --> Control["Rust 控制面 · Axum<br/>默认端口 7998"]
+    Control <-->|"gRPC · 7996"| Gateway
+    Control --> Storage[("SQLite")]
+    Views["Vue 3 管理端 / 认证端<br/>预编译静态资源"] --> Entry
+```
+
+- **Rust 控制面**：管理 API、认证、安全策略、证书、DDNS、隧道与系统运维。
+- **Go 数据面**：处理网关监听、反向代理与高并发业务流量。
+- **Vue 3 前端**：构建后作为静态资源随安装包或镜像发布，不需要 Node.js 运行时。
+- **SQLite 存储**：新部署无需额外维护 Redis 服务。
+
+## 下载与安装
+
+请优先前往 [fn-knock 官网](https://www.fnknock.cn/) 选择设备平台和架构。官网会提供与当前系统匹配的安装包、安装命令及最新使用说明。
+
+| 平台          | 系统 / 架构                     | 下载或安装                                                                                                                                                                                                                                    |
+| ------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 飞牛 fnOS     | x86_64                          | [下载 FPK](https://get.fnknock.cn/)                                                                                                                                                                                                           |
+| 飞牛 fnOS     | ARM64 / aarch64                 | [下载 FPK](https://get.fnknock.cn/?arch=arm64)                                                                                                                                                                                                |
+| OpenWrt       | x86_64                          | [APK（25.12+）](https://get.fnknock.cn/?type=apk&arch=x86_64) · [IPK（24.10 / 旧版）](https://get.fnknock.cn/?type=ipk&arch=x86_64)                                                                                                           |
+| OpenWrt       | aarch64_cortex-a53              | [APK（25.12+）](https://get.fnknock.cn/?type=apk&arch=aarch64_cortex-a53) · [IPK（24.10 / 旧版）](https://get.fnknock.cn/?type=ipk&arch=aarch64_cortex-a53)                                                                                   |
+| OpenWrt       | aarch64_generic                 | [APK（25.12+）](https://get.fnknock.cn/?type=apk&arch=aarch64_generic) · [IPK（24.10 / 旧版）](https://get.fnknock.cn/?type=ipk&arch=aarch64_generic)                                                                                         |
+| OpenWrt       | arm_cortex-a7_neon-vfpv4        | [APK（25.12+）](https://get.fnknock.cn/?type=apk&arch=arm_cortex-a7_neon-vfpv4) · [IPK（24.10 / 旧版）](https://get.fnknock.cn/?type=ipk&arch=arm_cortex-a7_neon-vfpv4)                                                                       |
+| OpenWrt       | arm_cortex-a5_vfpv4             | [APK（25.12+）](https://get.fnknock.cn/?type=apk&arch=arm_cortex-a5_vfpv4) · [IPK（24.10 / 旧版）](https://get.fnknock.cn/?type=ipk&arch=arm_cortex-a5_vfpv4)                                                                                 |
+| Docker        | amd64 / arm64 / armv7           | [Docker Hub](https://hub.docker.com/r/kcilnk/fn-knock) · [部署说明](./deploy/docker/README.md)                                                                                                                                                |
+| Windows       | Windows x86_64                  | [下载 EXE](https://get.fnknock.cn/?type=windows&arch=x86_64) · [安装说明](https://www.fnknock.cn/windows)                                                                                                                                     |
+| 群晖 Synology | DSM 7.0+ x86_64 / ARMv8 / ARMv7 | [x86_64 SPK](https://get.fnknock.cn/?type=synology&arch=x86_64) · [ARMv8 SPK](https://get.fnknock.cn/?type=synology&arch=armv8) · [ARMv7 SPK](https://get.fnknock.cn/?type=synology&arch=armv7) · [安装说明](https://www.fnknock.cn/synology) |
+| Linux         | x86_64 / ARM64 / ARMv7          | [一键安装](https://www.fnknock.cn/linux) · [部署文档](https://docs.fnknock.cn/quick-start/linux-deployment)                                                                                                                                   |
+| macOS         | macOS 13+ Intel / Apple Silicon | `curl -fsSL https://cdn.fnknock.cn/macos/install.sh \| sudo bash` · [部署说明](./deploy/macos/README.md)                                                                                                                                      |
+
+### Docker
+
+```bash
+docker pull kcilnk/fn-knock:latest
+```
+
+生产环境请按 [Docker Compose 部署说明](./deploy/docker/README.md) 配置端口、数据卷、IPv6 子网和可信代理。
+
+### Linux
+
+支持 systemd 和 Alpine Linux 使用的 OpenRC。官方一键安装命令：
+
+```bash
+wget -qO- https://cdn.fnknock.cn/install.sh | { if [ "$(id -u)" -eq 0 ]; then sh; else sudo sh; fi; }
+```
+
+安装完成后打开 `http://<设备 IP>:7991` 设置管理密码。网关业务入口默认为 `7999`。
+
+> [!WARNING]
+> 不要把 `7991` 管理端口直接暴露到公网。远程管理请使用 VPN，或配置带 HTTPS 与访问控制的可信反向代理。
+
+### macOS
+
+macOS 13 及以上版本提供 Intel (`amd64`) 和 Apple Silicon (`arm64`) 两个原生 CLI 压缩包，使用 `launchd` 运行：
+
+```bash
+curl -fsSL https://cdn.fnknock.cn/macos/install.sh | sudo bash
+```
+
+安装后运行 `sudo knock` 管理服务。管理面板默认仅监听 `127.0.0.1:7991`；macOS 版本不支持 iptables 或主机防火墙管理。网页终端支持 SSH 目标，也可在明确确认服务身份风险后启用本机 PTY。当前发行包未经 Apple Developer ID 签名或公证，请通过 Release 中的 `SHA256SUMS` 校验手动下载文件。
+
+## 默认端口
+
+| 端口   | 组件        | 默认用途                    |
+| ------ | ----------- | --------------------------- |
+| `7991` | 管理入口    | 浏览器访问管理面板          |
+| `7999` | Go 网关     | 对外承载代理业务流量        |
+| `7998` | Rust 后端   | 内部管理 API                |
+| `7997` | 认证服务    | 内部认证页面服务            |
+| `7996` | Go 管理接口 | Rust 与 Go 之间的 gRPC 通信 |
+
+具体监听范围会因平台而异，请以对应平台的安装说明为准。
+
+## 供应链与隐私
+
+每次正式发布都会生成可核验的发布元数据：
+
+- Docker 多架构镜像发布 **SBOM** 与最大级别的构建来源信息（provenance）。
+- GitHub Release 中的安装包会附带构建来源证明，并提供完整产物清单与 SHA-256。
+- [release-manifest.json](https://github.com/kci-lnk/fn-knock-turborepo/releases/latest/download/release-manifest.json) 记录版本、控制 API 版本、源码提交、Go 网关提交、平台、架构、文件大小与摘要。
+- [SHA256SUMS](https://github.com/kci-lnk/fn-knock-turborepo/releases/latest/download/SHA256SUMS) 可用于校验 Release 中的下载文件。
+
+安装或使用前，请阅读：
+
+- [用户协议](https://www.fnknock.cn/legal#terms)
+- [隐私政策](https://www.fnknock.cn/legal#privacy)
+- [第三方开源软件说明](https://www.fnknock.cn/third-party-software)
+
+fn-knock 以自托管为核心。官方隐私政策会区分官网及官方在线服务处理的数据，与部署在你自己设备上的账号、日志、会话和代理业务数据；如果你向他人开放自己的实例，仍应根据实际配置提供独立的隐私告知。
+
+## 从源码开发
+
+### 开发环境
+
+| 工具                              | 用途                                                    |
+| --------------------------------- | ------------------------------------------------------- |
+| Rust `1.96.0`                     | Rust 控制面与 Windows 原生管理程序                      |
+| Go                                | 构建 `Go-Reauth-Proxy` 网关，版本要求以其 `go.mod` 为准 |
+| Node.js `^20.19.0` 或 `>=22.12.0` | 仅用于 Vue 前端构建、测试和 Turborepo 任务编排          |
+| npm `10.8.2`                      | Workspace 包管理                                        |
+| Docker / Buildx                   | 多架构镜像及部分跨平台产物构建                          |
+
+```bash
+npm ci
+npm run dev
+```
+
+质量检查：
+
+```bash
+npm run lint
+npm run check-types
+npm run test
+npm run security:audit
+```
+
+构建全部工作区：
+
+```bash
+npm run build
+```
+
+Go 网关源码默认从相邻目录 `../Go-Reauth-Proxy` 读取，也可以通过 `FN_KNOCK_GO_REAUTH_PROXY_DIR` 指定路径。
+
+## 仓库结构
+
+| 路径                      | 说明                                       |
+| ------------------------- | ------------------------------------------ |
+| `apps/server-admin-rs`    | Rust / Axum 管理后端、认证与控制面         |
+| `apps/server-admin-view`  | Vue 3 管理后台                             |
+| `apps/server-auth-view`   | Vue 3 认证页面                             |
+| `apps/fn-knock-desktop`   | Rust + Win32 Windows 管理程序与 NSIS 配置  |
+| `apps/fn-knock`           | 飞牛 fnOS 原生 FPK 适配                    |
+| `apps/fn-knock-lite`      | 飞牛 fnOS 非 Root 环境的原生精简 FPK 适配  |
+| `apps/fn-knock-synology`  | Synology DSM 7 原生 SPK 适配               |
+| `deploy/docker`           | Dockerfile、Compose 与镜像发布配置         |
+| `deploy/linux`            | systemd / OpenRC 通用 Linux 安装与管理脚本 |
+| `deploy/macos`            | launchd macOS 安装与 `knock` 管理脚本      |
+| `deploy/openwrt`          | OpenWrt APK / IPK 与 LuCI 适配             |
+| `packages/grpc-contracts` | Rust 控制面与 Go 网关的 gRPC 协议          |
+| `packages/*`              | 前端共享组件、API、国际化与工程配置        |
+
+## 常用构建命令
+
+| 命令                                           | 用途                                     |
+| ---------------------------------------------- | ---------------------------------------- |
+| `npm run fn-knock:build-package`               | 构建 fnOS FPK                            |
+| `npm run fn-knock:lite:build-package`          | 构建 fnOS Lite FPK                       |
+| `npm run fn-knock:linux:prepare`               | 构建通用 Linux 产物                      |
+| `npm run fn-knock:macos:build -- arm64`        | 在当前原生 Mac 构建对应架构压缩包        |
+| `npm run fn-knock:openwrt:build`               | 构建 OpenWrt APK 与 IPK                  |
+| `npm run fn-knock:spk:build`                   | 构建 Synology SPK                        |
+| `npm run fn-knock:docker:build`                | 构建本地 Docker 镜像                     |
+| `npm run fn-knock:windows:test`                | 运行 Windows 原生构建检查                |
+| `npm run fn-knock:windows:build`               | 构建 Windows x86_64 unsigned NSIS 安装包 |
+| `npm run fn-knock:release:test`                | 检查完整发布链路                         |
+| `npm run fn-knock:release:preflight -- vX.Y.Z` | 校验版本与发布前置条件                   |
+| `npm run release status`                       | 查看当前发布版本状态                     |
+| `npm run fn-knock:grpc:sync-go`                | 从共享 proto 重新生成 Go gRPC stub       |
+| `npm run fn-knock:grpc:check-go`               | 校验 Go stub 与共享 proto 的协议版本     |
+
+控制 API 版本只在 [`packages/grpc-contracts/proto/fnknock/v1/gateway.proto`](packages/grpc-contracts/proto/fnknock/v1/gateway.proto) 的 `CONTROL_API_VERSION_CURRENT` 定义。升级协议时只修改该枚举值，再运行 `npm run fn-knock:grpc:sync-go`；Rust 服务直接使用生成的 protobuf 枚举，Windows 桌面端、打包脚本和 smoke test 会读取同一 proto，Go 网关使用生成的 `gateway.pb.go`。不要手工维护第二份版本常量。
+
+发布新版本时，建议在本仓库和相邻的 `../Go-Reauth-Proxy` 均为干净工作区时运行 `npm run release prepare patch`（也可使用 `minor`、`major` 或明确的 `X.Y.Z`）。该工具会同步两个仓库内的所有产品版本，并从上一个版本 Tag 后的提交生成 release notes；Go 仓库位于其他位置时可设置 `FN_KNOCK_GO_REAUTH_PROXY_DIR`。使用 `--dry-run` 可先预览，使用 `--notes-file <path>` 可指定发布说明。完成后运行 `npm run release check` 和 `npm run fn-knock:release:test`，并先提交、推送 Go 仓库。工具不会自动提交、打 Tag 或推送。
+
+`version.json` 的 `releaseChannel` 控制发布渠道，可取 `stable` 或 `beta`。Beta 仍使用纯数字 `X.Y.Z` 版本号和 `vX.Y.Z` Tag，但 GitHub Release 会标记为 Pre-release；CI 只发布固定版本的安装包与 Docker 镜像，不更新 Docker `latest`、腾讯 COS/CDN、自动更新清单或 GitHub Latest Release。发布说明必须明确提醒用户这是测试版本。
+
+`release status`、`release prepare`、`release gateway-check`、`release check`、发布前置检查以及 Windows/通用 Go 构建都会校验控制 API 契约；如果 Go stub 尚未从当前 proto 生成，流程会在产出安装包或发布资产前失败，并提示运行同步命令。正式发布 CI 还会重新生成全部 Go stub 并要求工作区无差异。
+
+推送与 `version.json` 一致的 `vX.Y.Z` Tag 后，发布工作流会冻结当前源码和 Go 网关提交，完成质量门禁、多平台构建、架构校验、校验清单、SBOM / provenance 及 GitHub Release 发布。
+
+## 支持项目
+
+如果 fn-knock 对你有帮助，可以请作者喝杯咖啡，支持项目继续维护。
+
+<p align="center">
+  <img src="./assets/QR_PAY.JPG" alt="赞助二维码" width="260">
+</p>
+
+## License
+
+[MIT](./LICENSE)

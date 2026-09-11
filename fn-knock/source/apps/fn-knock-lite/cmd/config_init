@@ -1,1 +1,5 @@
-IyEvYmluL2Jhc2gKCiMjIyBUaGlzIHNjcmlwdCBpcyBjYWxsZWQgYmVmb3JlIHRoZSB1c2VyIGNoYW5nZSBlbnZpcm9ubWVudCB2YXJpYWJsZXMgaW4gYXBwbGljYXRpb24gc2V0dGluZyBwYWdlLgoKZXhpdCAw
+#!/bin/bash
+
+### This script is called before the user change environment variables in application setting page.
+
+exit 0

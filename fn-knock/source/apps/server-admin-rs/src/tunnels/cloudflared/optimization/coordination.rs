@@ -1,1 +1,42 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjp0dW5uZWxzOjpjbG91ZGZsYXJlZCkgYXN5bmMgZm4gY29uZmlndXJlZF9vcHRpbWl6YXRpb25faG9zdHMoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgY29uZmlnOiAmVmFsdWUsCikgLT4gUmVzdWx0PFZlYzxTdHJpbmc+LCBDbG91ZGZsYXJlQXBpRXJyb3I+IHsKICAgIGxldCBzZXR0aW5ncyA9IGxvYWRfZG9tYWluX3NldHRpbmdzKHN0YXRlKS5hd2FpdD87CiAgICBPayhwYXJ0aXRpb25fb3B0aW1pemF0aW9uX2hvc3RzKGNvbmZpZ3VyZWRfaG9zdHMoY29uZmlnKSwgJnNldHRpbmdzKS4wKQp9CgpwdWIoaW4gY3JhdGU6OnR1bm5lbHM6OmNsb3VkZmxhcmVkKSBmbiBzdGFydF90YXNrcyhzdGF0ZTogQXBwU3RhdGUpIHsKICAgIGxldCB0YXNrX3N0YXRlID0gc3RhdGUuY2xvbmUoKTsKICAgIHN0YXRlLnNwYXduX2JhY2tncm91bmQoImNsb3VkZmxhcmUtb3B0aW1pemF0aW9uLXNjaGVkdWxlciIsIGFzeW5jIG1vdmUgewogICAgICAgIGxldCBtdXQgaW50ZXJ2YWwgPSB0aW1lOjppbnRlcnZhbChzdXBlcjo6c3VwZXI6Om1hbmFnZWQ6OnBsYW5fd2FrZXVwX2RlbGF5KCkpOwogICAgICAgIGludGVydmFsLnNldF9taXNzZWRfdGlja19iZWhhdmlvcih0aW1lOjpNaXNzZWRUaWNrQmVoYXZpb3I6OlNraXApOwogICAgICAgIGxvb3AgewogICAgICAgICAgICB0b2tpbzo6c2VsZWN0ISB7CiAgICAgICAgICAgICAgICBfID0gdGFza19zdGF0ZS5zaHV0ZG93bi5jYW5jZWxsZWQoKSA9PiBicmVhaywKICAgICAgICAgICAgICAgIF8gPSBpbnRlcnZhbC50aWNrKCkgPT4ge30sCiAgICAgICAgICAgICAgICBfID0gdGFza19zdGF0ZS50dW5uZWwuY2xvdWRmbGFyZWRfc2NoZWR1bGVfbm90aWZ5Lm5vdGlmaWVkKCkgPT4ge30sCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPSBzY2hlZHVsZWRfdGljaygmdGFza19zdGF0ZSkuYXdhaXQgewogICAgICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiQ2xvdWRmbGFyZSBvcHRpbWl6YXRpb24gc2NoZWR1bGVyIGZhaWxlZCIpOwogICAgICAgICAgICAgICAgbGV0IG11dCBydW50aW1lID0gbG9hZF9ydW50aW1lKCZ0YXNrX3N0YXRlKS5hd2FpdDsKICAgICAgICAgICAgICAgIGVuc3VyZV9vYmplY3QoJm11dCBydW50aW1lKQogICAgICAgICAgICAgICAgICAgIC5pbnNlcnQoImxhc3RFcnJvciIudG9fc3RyaW5nKCksIGpzb24hKGVycm9yLnRvX3N0cmluZygpKSk7CiAgICAgICAgICAgICAgICBsZXQgXyA9IHNhdmVfcnVudGltZSgmdGFza19zdGF0ZSwgJnJ1bnRpbWUpLmF3YWl0OwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfSk7Cn0KCnB1YihpbiBjcmF0ZTo6dHVubmVsczo6Y2xvdWRmbGFyZWQpIGZuIHNjaGVkdWxlX2FmdGVyX2hvc3RfbWFwcGluZ3NfY2hhbmdlKHN0YXRlOiBBcHBTdGF0ZSkgewogICAgbGV0IHRhc2tfc3RhdGUgPSBzdGF0ZS5jbG9uZSgpOwogICAgc3RhdGUuc3Bhd25fYmFja2dyb3VuZCgiY2xvdWRmbGFyZS1tYXBwaW5nLXJlY29uY2lsZSIsIGFzeW5jIG1vdmUgewogICAgICAgIGxldCBtYW5hZ2VkID0gbG9hZF9tYW5hZ2VkX2NvbmZpZygmdGFza19zdGF0ZSkuYXdhaXQ7CiAgICAgICAgaWYgbWFuYWdlZC5nZXQoIm1vZGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSAhPSBTb21lKCJtYW5hZ2VkIikgewogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIHRhc2tfc3RhdGUudHVubmVsLmNsb3VkZmxhcmVkX3NjaGVkdWxlX25vdGlmeS5ub3RpZnlfb25lKCk7CiAgICB9KTsKfQo=
+use super::*;
+
+pub(in crate::tunnels::cloudflared) async fn configured_optimization_hosts(
+    state: &AppState,
+    config: &Value,
+) -> Result<Vec<String>, CloudflareApiError> {
+    let settings = load_domain_settings(state).await?;
+    Ok(partition_optimization_hosts(configured_hosts(config), &settings).0)
+}
+
+pub(in crate::tunnels::cloudflared) fn start_tasks(state: AppState) {
+    let task_state = state.clone();
+    state.spawn_background("cloudflare-optimization-scheduler", async move {
+        let mut interval = time::interval(super::super::managed::plan_wakeup_delay());
+        interval.set_missed_tick_behavior(time::MissedTickBehavior::Skip);
+        loop {
+            tokio::select! {
+                _ = task_state.shutdown.cancelled() => break,
+                _ = interval.tick() => {},
+                _ = task_state.tunnel.cloudflared_schedule_notify.notified() => {},
+            }
+            if let Err(error) = scheduled_tick(&task_state).await {
+                tracing::warn!(%error, "Cloudflare optimization scheduler failed");
+                let mut runtime = load_runtime(&task_state).await;
+                ensure_object(&mut runtime)
+                    .insert("lastError".to_string(), json!(error.to_string()));
+                let _ = save_runtime(&task_state, &runtime).await;
+            }
+        }
+    });
+}
+
+pub(in crate::tunnels::cloudflared) fn schedule_after_host_mappings_change(state: AppState) {
+    let task_state = state.clone();
+    state.spawn_background("cloudflare-mapping-reconcile", async move {
+        let managed = load_managed_config(&task_state).await;
+        if managed.get("mode").and_then(Value::as_str) != Some("managed") {
+            return;
+        }
+        task_state.tunnel.cloudflared_schedule_notify.notify_one();
+    });
+}

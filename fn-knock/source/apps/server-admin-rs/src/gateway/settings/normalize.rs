@@ -1,1 +1,231 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfZ2F0ZXdheV92aXNpYmlsaXR5KHZhbHVlOiAmVmFsdWUpIC0+IFZhbHVlIHsKICAgIGpzb24hKHsKICAgICAgICAiZW5hYmxlZCI6IHZhbHVlLmdldCgiZW5hYmxlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKS51bndyYXBfb3IoZmFsc2UpLAogICAgICAgICJzZWxlY3Rpb25zIjogdmFsdWUuZ2V0KCJzZWxlY3Rpb25zIikuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KS5jbG9uZWQoKS51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICJjdXN0b21fY2lkcnMiOiBzdHJpbmdfbGlzdCh2YWx1ZS5nZXQoImN1c3RvbV9jaWRycyIpKSwKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX2Rpc2FibGVkX2hvc3RzX2NvbmZpZyh2YWx1ZTogJlZhbHVlKSAtPiBWYWx1ZSB7CiAgICBsZXQgbXV0IHNlZW4gPSBzdGQ6OmNvbGxlY3Rpb25zOjpIYXNoU2V0OjpuZXcoKTsKICAgIGxldCBkaXNhYmxlZF9ob3N0cyA9IHZhbHVlCiAgICAgICAgLmdldCgiZGlzYWJsZWRfaG9zdHMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgLm1hcCh8aXRlbXN8IHsKICAgICAgICAgICAgaXRlbXMKICAgICAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgICAgIC5maWx0ZXJfbWFwKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAubWFwKG5vcm1hbGl6ZV9ob3N0KQogICAgICAgICAgICAgICAgLmZpbHRlcih8aG9zdHwgIWhvc3QuaXNfZW1wdHkoKSAmJiBzZWVuLmluc2VydChob3N0LmNsb25lKCkpKQogICAgICAgICAgICAgICAgLm1hcChWYWx1ZTo6U3RyaW5nKQogICAgICAgICAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCkKICAgICAgICB9KQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAganNvbiEoeyAiZGlzYWJsZWRfaG9zdHMiOiBkaXNhYmxlZF9ob3N0cyB9KQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9yZXZlcnNlX3Byb3h5X3Rocm90dGxlKHZhbHVlOiAmVmFsdWUpIC0+IFZhbHVlIHsKICAgIGpzb24hKHsKICAgICAgICAiZW5hYmxlZCI6IHZhbHVlLmdldCgiZW5hYmxlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKS51bndyYXBfb3IodHJ1ZSksCiAgICAgICAgInJlcXVlc3RzX3Blcl9zZWNvbmQiOiBwb3NpdGl2ZV9pbnQoCiAgICAgICAgICAgIHZhbHVlLmdldCgicmVxdWVzdHNfcGVyX3NlY29uZCIpLAogICAgICAgICAgICBERUZBVUxUX1JFVkVSU0VfUFJPWFlfVEhST1RUTEVfUkVRVUVTVFNfUEVSX1NFQ09ORCwKICAgICAgICApLAogICAgICAgICJidXJzdCI6IHBvc2l0aXZlX2ludCgKICAgICAgICAgICAgdmFsdWUuZ2V0KCJidXJzdCIpLAogICAgICAgICAgICBERUZBVUxUX1JFVkVSU0VfUFJPWFlfVEhST1RUTEVfQlVSU1QsCiAgICAgICAgKSwKICAgICAgICAiYmxvY2tfc2Vjb25kcyI6IHBvc2l0aXZlX2ludCgKICAgICAgICAgICAgdmFsdWUuZ2V0KCJibG9ja19zZWNvbmRzIiksCiAgICAgICAgICAgIERFRkFVTFRfUkVWRVJTRV9QUk9YWV9USFJPVFRMRV9CTE9DS19TRUNPTkRTLAogICAgICAgICksCiAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9nYXRld2F5X2NyYXdsZXJfYmxvY2tlcih2YWx1ZTogJlZhbHVlKSAtPiBWYWx1ZSB7CiAgICBqc29uISh7CiAgICAgICAgImVuYWJsZWQiOiB2YWx1ZS5nZXQoImVuYWJsZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkudW53cmFwX29yKGZhbHNlKSwKICAgICAgICAidXBkYXRlZF9hdCI6IHZhbHVlLmdldCgidXBkYXRlZF9hdCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLm1hcCh8dmFsdWV8IFZhbHVlOjpTdHJpbmcodmFsdWUudG9fc3RyaW5nKCkpKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgfSkKfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfZ2F0ZXdheV9wb3J0YWwodmFsdWU6ICZWYWx1ZSkgLT4gVmFsdWUgewogICAganNvbiEoewogICAgICAgICJlbmFibGVkIjogdmFsdWUuZ2V0KCJlbmFibGVkIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpLnVud3JhcF9vcih0cnVlKSwKICAgICAgICAiZGlzcGxheV9zdHlsZSI6IGlmIHZhbHVlLmdldCgiZGlzcGxheV9zdHlsZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoImRvbWFpbiIpIHsgImRvbWFpbiIgfSBlbHNlIHsgInRpdGxlIiB9LAogICAgICAgICJzaG93X2FwcF9pY29uIjogdmFsdWUuZ2V0KCJzaG93X2FwcF9pY29uIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpLnVud3JhcF9vcih0cnVlKSwKICAgICAgICAic2hvd193b2wiOiB2YWx1ZS5nZXQoInNob3dfd29sIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpLnVud3JhcF9vcih0cnVlKSwKICAgICAgICAiaWNvbl9kcmFnX21vZGUiOiBpZiB2YWx1ZS5nZXQoImljb25fZHJhZ19tb2RlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSgiZnJlZSIpIHsgImZyZWUiIH0gZWxzZSB7ICJjb3JuZXJzIiB9LAogICAgICAgICJ2ZXJzaW9uIjogaWYgdmFsdWUuZ2V0KCJ2ZXJzaW9uIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSgidjIiKSB7ICJ2MiIgfSBlbHNlIHsgInYxIiB9LAogICAgfSkKfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfZ2F0ZXdheV91bm1hdGNoZWRfcm91dGUodmFsdWU6ICZWYWx1ZSkgLT4gVmFsdWUgewogICAganNvbiEoewogICAgICAgICJiZWhhdmlvciI6IGlmIHZhbHVlLmdldCgiYmVoYXZpb3IiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKCJyZXNldF9jb25uZWN0aW9uIikgewogICAgICAgICAgICAicmVzZXRfY29ubmVjdGlvbiIKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAiZXJyb3JfcGFnZSIKICAgICAgICB9LAogICAgICAgICJ1cHN0cmVhbV9lcnJvcl9kZXRhaWwiOiBtYXRjaCB2YWx1ZS5nZXQoInVwc3RyZWFtX2Vycm9yX2RldGFpbCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpIHsKICAgICAgICAgICAgU29tZSgibW9yZSIpID0+ICJtb3JlIiwKICAgICAgICAgICAgU29tZSgicmVzZXRfY29ubmVjdGlvbiIpID0+ICJyZXNldF9jb25uZWN0aW9uIiwKICAgICAgICAgICAgXyA9PiAibGVzcyIsCiAgICAgICAgfSwKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gaXNfZ2F0ZXdheV9wb3J0YWxfdGl0bGVfbW9kZShjb25maWc6ICZWYWx1ZSkgLT4gYm9vbCB7CiAgICBub3JtYWxpemVfZ2F0ZXdheV9wb3J0YWwoCiAgICAgICAgY29uZmlnCiAgICAgICAgICAgIC5nZXQoImdhdGV3YXlfcG9ydGFsIikKICAgICAgICAgICAgLnVud3JhcF9vcigmZGVmYXVsdF9nYXRld2F5X3BvcnRhbCgpKSwKICAgICkKICAgIC5nZXQoImRpc3BsYXlfc3R5bGUiKQogICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgIT0gU29tZSgiZG9tYWluIikKfQoKcHViKHN1cGVyKSBmbiBpc19nYXRld2F5X3BvcnRhbF9hcHBfaWNvbl9tb2RlKGNvbmZpZzogJlZhbHVlKSAtPiBib29sIHsKICAgIG5vcm1hbGl6ZV9nYXRld2F5X3BvcnRhbCgKICAgICAgICBjb25maWcKICAgICAgICAgICAgLmdldCgiZ2F0ZXdheV9wb3J0YWwiKQogICAgICAgICAgICAudW53cmFwX29yKCZkZWZhdWx0X2dhdGV3YXlfcG9ydGFsKCkpLAogICAgKQogICAgLmdldCgic2hvd19hcHBfaWNvbiIpCiAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgIT0gU29tZShmYWxzZSkKfQoKcHViKHN1cGVyKSBmbiBtZXJnZV9vYmplY3RzKHByZXZpb3VzOiAmVmFsdWUsIHBhdGNoOiAmVmFsdWUpIC0+IFZhbHVlIHsKICAgIGxldCBtdXQgbWVyZ2VkID0gcHJldmlvdXMuYXNfb2JqZWN0KCkuY2xvbmVkKCkudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGlmIGxldCBTb21lKHBhdGNoKSA9IHBhdGNoLmFzX29iamVjdCgpIHsKICAgICAgICBmb3IgKGtleSwgdmFsdWUpIGluIHBhdGNoIHsKICAgICAgICAgICAgbWVyZ2VkLmluc2VydChrZXkuY2xvbmUoKSwgdmFsdWUuY2xvbmUoKSk7CiAgICAgICAgfQogICAgfQogICAgVmFsdWU6Ok9iamVjdChtZXJnZWQpCn0KCnB1YihzdXBlcikgdXNlIGNyYXRlOjpqc29uX3V0aWxzOjplbnN1cmVfb2JqZWN0OwoKcHViKHN1cGVyKSBmbiBzdHJpbmdfbGlzdCh2YWx1ZTogT3B0aW9uPCZWYWx1ZT4pIC0+IFZlYzxWYWx1ZT4gewogICAgdmFsdWUKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5tYXAofGl0ZW1zfCB7CiAgICAgICAgICAgIGl0ZW1zCiAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAuZmlsdGVyX21hcChWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgICAgICAgICAuZmlsdGVyKHxpdGVtfCAhaXRlbS5pc19lbXB0eSgpKQogICAgICAgICAgICAgICAgLm1hcCh8aXRlbXwgVmFsdWU6OlN0cmluZyhpdGVtLnRvX3N0cmluZygpKSkKICAgICAgICAgICAgICAgIC5jb2xsZWN0KCkKICAgICAgICB9KQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX2hvc3QodmFsdWU6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBsZXQgd2l0aG91dF9zY2hlbWUgPSB2YWx1ZQogICAgICAgIC50cmltKCkKICAgICAgICAudG9fYXNjaWlfbG93ZXJjYXNlKCkKICAgICAgICAuc3BsaXRfb25jZSgiOi8vIikKICAgICAgICAubWFwKHwoXywgcmVzdCl8IHJlc3QudG9fc3RyaW5nKCkpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IHZhbHVlLnRyaW0oKS50b19hc2NpaV9sb3dlcmNhc2UoKSk7CiAgICB3aXRob3V0X3NjaGVtZQogICAgICAgIC5zcGxpdCgnLycpCiAgICAgICAgLm5leHQoKQogICAgICAgIC51bndyYXBfb3IoIiIpCiAgICAgICAgLnRyaW1fZW5kX21hdGNoZXMoJy4nKQogICAgICAgIC50b19zdHJpbmcoKQp9CgpwdWIoc3VwZXIpIGZuIHBvc2l0aXZlX2ludCh2YWx1ZTogT3B0aW9uPCZWYWx1ZT4sIGZhbGxiYWNrOiBpNjQpIC0+IGk2NCB7CiAgICBudW1iZXJfZmxvb3JfdmFsdWVfb3JfcGFyc2UodmFsdWUpCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICp2YWx1ZSA+IDApCiAgICAgICAgLnVud3JhcF9vcihmYWxsYmFjaykKfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfY2FjaGVfdHRsKHZhbHVlOiBPcHRpb248JlZhbHVlPiwgZmFsbGJhY2s6IGk2NCkgLT4gaTY0IHsKICAgIG51bWJlcl9mbG9vcl92YWx1ZV9vcl9wYXJzZSh2YWx1ZSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgKnZhbHVlID49IDApCiAgICAgICAgLnVud3JhcF9vcihmYWxsYmFjaykKfQoKcHViKHN1cGVyKSBmbiBudW1iZXJfZmxvb3JfdmFsdWVfb3JfcGFyc2UodmFsdWU6IE9wdGlvbjwmVmFsdWU+KSAtPiBPcHRpb248aTY0PiB7CiAgICBtYXRjaCB2YWx1ZT8gewogICAgICAgIFZhbHVlOjpTdHJpbmcocmF3KSA9PiBjcmF0ZTo6bm9kZV9jb21wYXQ6OnBhcnNlX2k2NF9wcmVmaXgocmF3LnRyaW1fc3RhcnQoKSksCiAgICAgICAgb3RoZXIgPT4gbnVtYmVyX2Zsb29yKG90aGVyKSwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBudW1iZXJfZmxvb3IodmFsdWU6ICZWYWx1ZSkgLT4gT3B0aW9uPGk2ND4gewogICAgaWYgbGV0IFNvbWUodmFsdWUpID0gdmFsdWUuYXNfaTY0KCkgewogICAgICAgIHJldHVybiBTb21lKHZhbHVlKTsKICAgIH0KICAgIGxldCB2YWx1ZSA9IHZhbHVlLmFzX2Y2NCgpPzsKICAgIGlmIHZhbHVlLmlzX2Zpbml0ZSgpIHsKICAgICAgICBTb21lKHZhbHVlLmZsb29yKCkgYXMgaTY0KQogICAgfSBlbHNlIHsKICAgICAgICBOb25lCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gZGVmYXVsdF9nYXRld2F5X3Zpc2liaWxpdHlfcnVudGltZSgpIC0+IFZhbHVlIHsKICAgIGpzb24hKHsgImVuYWJsZWQiOiBmYWxzZSwgImNpZHJzIjogW10sICJ1cGRhdGVkX2F0IjogbnVsbCB9KQp9CgpwdWIoc3VwZXIpIGZuIGRlZmF1bHRfZ2F0ZXdheV9wcm94eV9oZWFkZXJzX3J1bnRpbWUoKSAtPiBWYWx1ZSB7CiAgICBqc29uISh7ICJlbmFibGVkIjogZmFsc2UsICJvbWl0X3RhcmdldHMiOiBbXSwgInVwZGF0ZWRfYXQiOiBudWxsIH0pCn0KCnB1YihzdXBlcikgZm4gZGVmYXVsdF9nYXRld2F5X2hvc3RfcmVzcG9uc2VfcnVudGltZSgpIC0+IFZhbHVlIHsKICAgIGpzb24hKHsgImVuYWJsZWQiOiBmYWxzZSwgIm9taXRfdGFyZ2V0cyI6IFtdLCAidXBkYXRlZF9hdCI6IG51bGwgfSkKfQoKcHViKHN1cGVyKSBmbiBkZWZhdWx0X2dhdGV3YXlfdmlzaWJpbGl0eSgpIC0+IFZhbHVlIHsKICAgIGpzb24hKHsgImVuYWJsZWQiOiBmYWxzZSwgInNlbGVjdGlvbnMiOiBbXSwgImN1c3RvbV9jaWRycyI6IFtdIH0pCn0KCnB1YihzdXBlcikgZm4gZGVmYXVsdF9kaXNhYmxlZF9ob3N0c19jb25maWcoKSAtPiBWYWx1ZSB7CiAgICBqc29uISh7ICJkaXNhYmxlZF9ob3N0cyI6IFtdIH0pCn0KCnB1YihjcmF0ZSkgZm4gZGVmYXVsdF9yZXZlcnNlX3Byb3h5X3Rocm90dGxlKCkgLT4gVmFsdWUgewogICAganNvbiEoewogICAgICAgICJlbmFibGVkIjogdHJ1ZSwKICAgICAgICAicmVxdWVzdHNfcGVyX3NlY29uZCI6IERFRkFVTFRfUkVWRVJTRV9QUk9YWV9USFJPVFRMRV9SRVFVRVNUU19QRVJfU0VDT05ELAogICAgICAgICJidXJzdCI6IERFRkFVTFRfUkVWRVJTRV9QUk9YWV9USFJPVFRMRV9CVVJTVCwKICAgICAgICAiYmxvY2tfc2Vjb25kcyI6IERFRkFVTFRfUkVWRVJTRV9QUk9YWV9USFJPVFRMRV9CTE9DS19TRUNPTkRTLAogICAgfSkKfQoKcHViKHN1cGVyKSBmbiBkZWZhdWx0X2dhdGV3YXlfY3Jhd2xlcl9ibG9ja2VyKCkgLT4gVmFsdWUgewogICAganNvbiEoeyAiZW5hYmxlZCI6IGZhbHNlLCAidXBkYXRlZF9hdCI6IG51bGwgfSkKfQoKcHViKHN1cGVyKSBmbiBkZWZhdWx0X2dhdGV3YXlfcG9ydGFsKCkgLT4gVmFsdWUgewogICAganNvbiEoewogICAgICAgICJlbmFibGVkIjogdHJ1ZSwKICAgICAgICAiZGlzcGxheV9zdHlsZSI6ICJ0aXRsZSIsCiAgICAgICAgInNob3dfYXBwX2ljb24iOiB0cnVlLAogICAgICAgICJzaG93X3dvbCI6IHRydWUsCiAgICAgICAgImljb25fZHJhZ19tb2RlIjogImNvcm5lcnMiLAogICAgICAgICJ2ZXJzaW9uIjogInYxIiwKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gZGVmYXVsdF9nYXRld2F5X3VubWF0Y2hlZF9yb3V0ZSgpIC0+IFZhbHVlIHsKICAgIGpzb24hKHsKICAgICAgICAiYmVoYXZpb3IiOiAiZXJyb3JfcGFnZSIsCiAgICAgICAgInVwc3RyZWFtX2Vycm9yX2RldGFpbCI6ICJsZXNzIiwKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gZGVmYXVsdF9zdWJkb21haW5fbW9kZSgpIC0+IFZhbHVlIHsKICAgIGpzb24hKHsKICAgICAgICAiYXV0aF9jYWNoZV90dGxfc2Vjb25kcyI6IDEsCiAgICAgICAgImF1dGhfY2FjaGVfdW5hdXRob3JpemVkX3R0bF9zZWNvbmRzIjogMSwKICAgIH0pCn0K
+use super::*;
+
+pub(super) fn normalize_gateway_visibility(value: &Value) -> Value {
+    json!({
+        "enabled": value.get("enabled").and_then(Value::as_bool).unwrap_or(false),
+        "selections": value.get("selections").and_then(Value::as_array).cloned().unwrap_or_default(),
+        "custom_cidrs": string_list(value.get("custom_cidrs")),
+    })
+}
+
+pub(super) fn normalize_disabled_hosts_config(value: &Value) -> Value {
+    let mut seen = std::collections::HashSet::new();
+    let disabled_hosts = value
+        .get("disabled_hosts")
+        .and_then(Value::as_array)
+        .map(|items| {
+            items
+                .iter()
+                .filter_map(Value::as_str)
+                .map(normalize_host)
+                .filter(|host| !host.is_empty() && seen.insert(host.clone()))
+                .map(Value::String)
+                .collect::<Vec<_>>()
+        })
+        .unwrap_or_default();
+    json!({ "disabled_hosts": disabled_hosts })
+}
+
+pub(super) fn normalize_reverse_proxy_throttle(value: &Value) -> Value {
+    json!({
+        "enabled": value.get("enabled").and_then(Value::as_bool).unwrap_or(true),
+        "requests_per_second": positive_int(
+            value.get("requests_per_second"),
+            DEFAULT_REVERSE_PROXY_THROTTLE_REQUESTS_PER_SECOND,
+        ),
+        "burst": positive_int(
+            value.get("burst"),
+            DEFAULT_REVERSE_PROXY_THROTTLE_BURST,
+        ),
+        "block_seconds": positive_int(
+            value.get("block_seconds"),
+            DEFAULT_REVERSE_PROXY_THROTTLE_BLOCK_SECONDS,
+        ),
+    })
+}
+
+pub(super) fn normalize_gateway_crawler_blocker(value: &Value) -> Value {
+    json!({
+        "enabled": value.get("enabled").and_then(Value::as_bool).unwrap_or(false),
+        "updated_at": value.get("updated_at").and_then(Value::as_str).map(|value| Value::String(value.to_string())).unwrap_or(Value::Null),
+    })
+}
+
+pub(super) fn normalize_gateway_portal(value: &Value) -> Value {
+    json!({
+        "enabled": value.get("enabled").and_then(Value::as_bool).unwrap_or(true),
+        "display_style": if value.get("display_style").and_then(Value::as_str) == Some("domain") { "domain" } else { "title" },
+        "show_app_icon": value.get("show_app_icon").and_then(Value::as_bool).unwrap_or(true),
+        "show_wol": value.get("show_wol").and_then(Value::as_bool).unwrap_or(true),
+        "icon_drag_mode": if value.get("icon_drag_mode").and_then(Value::as_str) == Some("free") { "free" } else { "corners" },
+        "version": if value.get("version").and_then(Value::as_str) == Some("v2") { "v2" } else { "v1" },
+    })
+}
+
+pub(super) fn normalize_gateway_unmatched_route(value: &Value) -> Value {
+    json!({
+        "behavior": if value.get("behavior").and_then(Value::as_str) == Some("reset_connection") {
+            "reset_connection"
+        } else {
+            "error_page"
+        },
+        "upstream_error_detail": match value.get("upstream_error_detail").and_then(Value::as_str) {
+            Some("more") => "more",
+            Some("reset_connection") => "reset_connection",
+            _ => "less",
+        },
+    })
+}
+
+pub(super) fn is_gateway_portal_title_mode(config: &Value) -> bool {
+    normalize_gateway_portal(
+        config
+            .get("gateway_portal")
+            .unwrap_or(&default_gateway_portal()),
+    )
+    .get("display_style")
+    .and_then(Value::as_str)
+        != Some("domain")
+}
+
+pub(super) fn is_gateway_portal_app_icon_mode(config: &Value) -> bool {
+    normalize_gateway_portal(
+        config
+            .get("gateway_portal")
+            .unwrap_or(&default_gateway_portal()),
+    )
+    .get("show_app_icon")
+    .and_then(Value::as_bool)
+        != Some(false)
+}
+
+pub(super) fn merge_objects(previous: &Value, patch: &Value) -> Value {
+    let mut merged = previous.as_object().cloned().unwrap_or_default();
+    if let Some(patch) = patch.as_object() {
+        for (key, value) in patch {
+            merged.insert(key.clone(), value.clone());
+        }
+    }
+    Value::Object(merged)
+}
+
+pub(super) use crate::json_utils::ensure_object;
+
+pub(super) fn string_list(value: Option<&Value>) -> Vec<Value> {
+    value
+        .and_then(Value::as_array)
+        .map(|items| {
+            items
+                .iter()
+                .filter_map(Value::as_str)
+                .map(str::trim)
+                .filter(|item| !item.is_empty())
+                .map(|item| Value::String(item.to_string()))
+                .collect()
+        })
+        .unwrap_or_default()
+}
+
+pub(super) fn normalize_host(value: &str) -> String {
+    let without_scheme = value
+        .trim()
+        .to_ascii_lowercase()
+        .split_once("://")
+        .map(|(_, rest)| rest.to_string())
+        .unwrap_or_else(|| value.trim().to_ascii_lowercase());
+    without_scheme
+        .split('/')
+        .next()
+        .unwrap_or("")
+        .trim_end_matches('.')
+        .to_string()
+}
+
+pub(super) fn positive_int(value: Option<&Value>, fallback: i64) -> i64 {
+    number_floor_value_or_parse(value)
+        .filter(|value| *value > 0)
+        .unwrap_or(fallback)
+}
+
+pub(super) fn normalize_cache_ttl(value: Option<&Value>, fallback: i64) -> i64 {
+    number_floor_value_or_parse(value)
+        .filter(|value| *value >= 0)
+        .unwrap_or(fallback)
+}
+
+pub(super) fn number_floor_value_or_parse(value: Option<&Value>) -> Option<i64> {
+    match value? {
+        Value::String(raw) => crate::node_compat::parse_i64_prefix(raw.trim_start()),
+        other => number_floor(other),
+    }
+}
+
+pub(super) fn number_floor(value: &Value) -> Option<i64> {
+    if let Some(value) = value.as_i64() {
+        return Some(value);
+    }
+    let value = value.as_f64()?;
+    if value.is_finite() {
+        Some(value.floor() as i64)
+    } else {
+        None
+    }
+}
+
+pub(super) fn default_gateway_visibility_runtime() -> Value {
+    json!({ "enabled": false, "cidrs": [], "updated_at": null })
+}
+
+pub(super) fn default_gateway_proxy_headers_runtime() -> Value {
+    json!({ "enabled": false, "omit_targets": [], "updated_at": null })
+}
+
+pub(super) fn default_gateway_host_response_runtime() -> Value {
+    json!({ "enabled": false, "omit_targets": [], "updated_at": null })
+}
+
+pub(super) fn default_gateway_visibility() -> Value {
+    json!({ "enabled": false, "selections": [], "custom_cidrs": [] })
+}
+
+pub(super) fn default_disabled_hosts_config() -> Value {
+    json!({ "disabled_hosts": [] })
+}
+
+pub(crate) fn default_reverse_proxy_throttle() -> Value {
+    json!({
+        "enabled": true,
+        "requests_per_second": DEFAULT_REVERSE_PROXY_THROTTLE_REQUESTS_PER_SECOND,
+        "burst": DEFAULT_REVERSE_PROXY_THROTTLE_BURST,
+        "block_seconds": DEFAULT_REVERSE_PROXY_THROTTLE_BLOCK_SECONDS,
+    })
+}
+
+pub(super) fn default_gateway_crawler_blocker() -> Value {
+    json!({ "enabled": false, "updated_at": null })
+}
+
+pub(super) fn default_gateway_portal() -> Value {
+    json!({
+        "enabled": true,
+        "display_style": "title",
+        "show_app_icon": true,
+        "show_wol": true,
+        "icon_drag_mode": "corners",
+        "version": "v1",
+    })
+}
+
+pub(super) fn default_gateway_unmatched_route() -> Value {
+    json!({
+        "behavior": "error_page",
+        "upstream_error_detail": "less",
+    })
+}
+
+pub(super) fn default_subdomain_mode() -> Value {
+    json!({
+        "auth_cache_ttl_seconds": 1,
+        "auth_cache_unauthorized_ttl_seconds": 1,
+    })
+}

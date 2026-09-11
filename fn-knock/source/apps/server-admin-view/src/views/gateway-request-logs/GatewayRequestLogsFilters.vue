@@ -1,1 +1,230 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IFJvdXRlckxpbmsgfSBmcm9tICJ2dWUtcm91dGVyIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IFNlYXJjaElucHV0IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9TZWFyY2hJbnB1dC52dWUiOwppbXBvcnQgewogIFNlbGVjdCwKICBTZWxlY3RDb250ZW50LAogIFNlbGVjdEl0ZW0sCiAgU2VsZWN0VHJpZ2dlciwKICBTZWxlY3RWYWx1ZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKaW1wb3J0IHsKICBMT0dJTl9GSUxURVJfT1BUSU9OUywKICBTVEFUVVNfRklMVEVSX09QVElPTlMsCiAgV0FGX0ZJTFRFUl9PUFRJT05TLAp9IGZyb20gIi4vbW9kZWwiOwoKY29uc3QgeyBzZWFyY2hRdWVyeSB9ID0gZGVmaW5lUHJvcHM8ewogIGFjdGl2ZUNyZWRlbnRpYWxMYWJlbDogc3RyaW5nOwogIGFjdGl2ZUxvZ2dlZEluTGFiZWw6IHN0cmluZzsKICBhY3RpdmVTdGF0dXNMYWJlbDogc3RyaW5nOwogIGFjdGl2ZVdhZlN0YXR1c0xhYmVsOiBzdHJpbmc7CiAgYXZhaWxhYmxlRGF0ZXM6IHN0cmluZ1tdOwogIGNyZWRlbnRpYWxPcHRpb25zOiBBcnJheTx7IGxhYmVsOiBzdHJpbmc7IHZhbHVlOiBzdHJpbmcgfT47CiAgY3Vyc29yUGFnZUxhYmVsOiBzdHJpbmc7CiAgZW50cmllc0NvdW50OiBudW1iZXI7CiAgaGFuZGxlQ3JlZGVudGlhbENoYW5nZTogKHZhbHVlOiB1bmtub3duKSA9PiBQcm9taXNlPHZvaWQ+IHwgdm9pZDsKICBoYW5kbGVEYXRlQ2hhbmdlOiAodmFsdWU6IHVua25vd24pID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwogIGhhbmRsZUxvZ2dlZEluQ2hhbmdlOiAodmFsdWU6IHVua25vd24pID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwogIGhhbmRsZVNlYXJjaDogKCkgPT4gUHJvbWlzZTx2b2lkPiB8IHZvaWQ7CiAgaGFuZGxlU3RhdHVzQ2hhbmdlOiAodmFsdWU6IHVua25vd24pID0+IFByb21pc2U8dm9pZD4gfCB2b2lkOwogIGhhbmRsZVdhZlN0YXR1c0NoYW5nZTogKHZhbHVlOiB1bmtub3duKSA9PiBQcm9taXNlPHZvaWQ+IHwgdm9pZDsKICBsb2dzRGlyOiBzdHJpbmc7CiAgc2VhcmNoUXVlcnk6IHN0cmluZzsKICBzZWxlY3RlZENyZWRlbnRpYWw6IHN0cmluZzsKICBzZWxlY3RlZERhdGU6IHN0cmluZzsKICBzZWxlY3RlZExvZ2dlZEluOiBzdHJpbmc7CiAgc2VsZWN0ZWRTdGF0dXM6IHN0cmluZzsKICBzZWxlY3RlZFdhZlN0YXR1czogc3RyaW5nOwp9PigpOwpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8eyAidXBkYXRlOnNlYXJjaFF1ZXJ5IjogW3ZhbHVlOiBzdHJpbmddIH0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJib3JkZXItYiBweC0zIHB5LTMgc206cHgtNCI+CiAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0yIGxnOmZsZXgtcm93IGxnOml0ZW1zLXN0YXJ0Ij4KICAgICAgPFNlYXJjaElucHV0CiAgICAgICAgOm1vZGVsLXZhbHVlPSJzZWFyY2hRdWVyeSIKICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5zZWFyY2hQbGFjZWhvbGRlcicpIgogICAgICAgIGNsYXNzPSJ3LWZ1bGwgbWluLXctMCBzbTp3LVszMjBweF0gbGc6c2hyaW5rLTAiCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgndXBkYXRlOnNlYXJjaFF1ZXJ5JywgJGV2ZW50KSIKICAgICAgICBAc2VhcmNoPSJoYW5kbGVTZWFyY2giCiAgICAgIC8+CiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0iZ3JpZCBtaW4tdy0wIGZsZXgtMSBncmlkLWNvbHMtMiBpdGVtcy1jZW50ZXIgZ2FwLTIgc206ZmxleCBzbTpmbGV4LXdyYXAgc206anVzdGlmeS1lbmQiCiAgICAgID4KICAgICAgICA8U2VsZWN0CiAgICAgICAgICA6bW9kZWwtdmFsdWU9InNlbGVjdGVkRGF0ZSIKICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9ImhhbmRsZURhdGVDaGFuZ2UiCiAgICAgICAgPgogICAgICAgICAgPGRpdiBjbGFzcz0ib3JkZXItMSB3LWZ1bGwgbWluLXctMCBzbTpvcmRlci1ub25lIHNtOnctWzE0OHB4XSI+CiAgICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyCiAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kYXRlUGxhY2Vob2xkZXInKSIKICAgICAgICAgICAgICBjbGFzcz0idy1mdWxsIG1pbi13LTAiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8U2VsZWN0VmFsdWUKICAgICAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRhdGVQbGFjZWhvbGRlcicpIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvU2VsZWN0VHJpZ2dlcj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgIDxTZWxlY3RJdGVtCiAgICAgICAgICAgICAgdi1mb3I9ImRhdGUgaW4gYXZhaWxhYmxlRGF0ZXMiCiAgICAgICAgICAgICAgOmtleT0iZGF0ZSIKICAgICAgICAgICAgICA6dmFsdWU9ImRhdGUiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyBkYXRlIH19CiAgICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgICA8L1NlbGVjdD4KCiAgICAgICAgPFNlbGVjdAogICAgICAgICAgOm1vZGVsLXZhbHVlPSJzZWxlY3RlZFN0YXR1cyIKICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9ImhhbmRsZVN0YXR1c0NoYW5nZSIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJvcmRlci0yIHctZnVsbCBtaW4tdy0wIHNtOm9yZGVyLW5vbmUgc206dy1bMTU2cHhdIj4KICAgICAgICAgICAgPFNlbGVjdFRyaWdnZXIKICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLnN0YXR1c1BsYWNlaG9sZGVyJykiCiAgICAgICAgICAgICAgY2xhc3M9InctZnVsbCBtaW4tdy0wIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFNlbGVjdFZhbHVlCiAgICAgICAgICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5zdGF0dXNQbGFjZWhvbGRlcicpIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvU2VsZWN0VHJpZ2dlcj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgIDxTZWxlY3RJdGVtCiAgICAgICAgICAgICAgdi1mb3I9Im9wdGlvbiBpbiBTVEFUVVNfRklMVEVSX09QVElPTlMiCiAgICAgICAgICAgICAgOmtleT0ib3B0aW9uLnZhbHVlIgogICAgICAgICAgICAgIDp2YWx1ZT0ib3B0aW9uLnZhbHVlIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgdChvcHRpb24ubGFiZWxLZXkpIH19CiAgICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgICA8L1NlbGVjdD4KCiAgICAgICAgPFNlbGVjdAogICAgICAgICAgOm1vZGVsLXZhbHVlPSJzZWxlY3RlZExvZ2dlZEluIgogICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iaGFuZGxlTG9nZ2VkSW5DaGFuZ2UiCiAgICAgICAgPgogICAgICAgICAgPGRpdiBjbGFzcz0ib3JkZXItMyB3LWZ1bGwgbWluLXctMCBzbTpvcmRlci1ub25lIHNtOnctWzE2OHB4XSI+CiAgICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyCiAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5sb2dpblBsYWNlaG9sZGVyJykiCiAgICAgICAgICAgICAgY2xhc3M9InctZnVsbCBtaW4tdy0wIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFNlbGVjdFZhbHVlCiAgICAgICAgICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5sb2dpblBsYWNlaG9sZGVyJykiCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICAgICAgPFNlbGVjdEl0ZW0KICAgICAgICAgICAgICB2LWZvcj0ib3B0aW9uIGluIExPR0lOX0ZJTFRFUl9PUFRJT05TIgogICAgICAgICAgICAgIDprZXk9Im9wdGlvbi52YWx1ZSIKICAgICAgICAgICAgICA6dmFsdWU9Im9wdGlvbi52YWx1ZSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHQob3B0aW9uLmxhYmVsS2V5KSB9fQogICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgICAgPC9TZWxlY3Q+CgogICAgICAgIDxTZWxlY3QKICAgICAgICAgIDptb2RlbC12YWx1ZT0ic2VsZWN0ZWRDcmVkZW50aWFsIgogICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iaGFuZGxlQ3JlZGVudGlhbENoYW5nZSIKICAgICAgICA+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzPSJvcmRlci01IGNvbC1zcGFuLTIgdy1mdWxsIG1pbi13LTAgc206b3JkZXItbm9uZSBzbTpjb2wtc3Bhbi0xIHNtOnctWzIyMHB4XSIKICAgICAgICAgID4KICAgICAgICAgICAgPFNlbGVjdFRyaWdnZXIKICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmNyZWRlbnRpYWxQbGFjZWhvbGRlcicpIgogICAgICAgICAgICAgIGNsYXNzPSJ3LWZ1bGwgbWluLXctMCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxTZWxlY3RWYWx1ZQogICAgICAgICAgICAgICAgOnBsYWNlaG9sZGVyPSIKICAgICAgICAgICAgICAgICAgdCgnYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmNyZWRlbnRpYWxQbGFjZWhvbGRlcicpCiAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8U2VsZWN0Q29udGVudCBjbGFzcz0ibWF4LXctW21pbigyOHJlbSxjYWxjKDEwMHZ3LTJyZW0pKV0iPgogICAgICAgICAgICA8U2VsZWN0SXRlbQogICAgICAgICAgICAgIHYtZm9yPSJvcHRpb24gaW4gY3JlZGVudGlhbE9wdGlvbnMiCiAgICAgICAgICAgICAgOmtleT0ib3B0aW9uLnZhbHVlIgogICAgICAgICAgICAgIDp2YWx1ZT0ib3B0aW9uLnZhbHVlIgogICAgICAgICAgICAgIGNsYXNzPSJtaW4tdy0wIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImJsb2NrIG1heC13LVsyMnJlbV0gdHJ1bmNhdGUiIDp0aXRsZT0ib3B0aW9uLmxhYmVsIj4KICAgICAgICAgICAgICAgIHt7IG9wdGlvbi5sYWJlbCB9fQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICAgIDwvU2VsZWN0PgoKICAgICAgICA8U2VsZWN0CiAgICAgICAgICA6bW9kZWwtdmFsdWU9InNlbGVjdGVkV2FmU3RhdHVzIgogICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iaGFuZGxlV2FmU3RhdHVzQ2hhbmdlIgogICAgICAgID4KICAgICAgICAgIDxkaXYgY2xhc3M9Im9yZGVyLTQgdy1mdWxsIG1pbi13LTAgc206b3JkZXItbm9uZSBzbTp3LVsxNDRweF0iPgogICAgICAgICAgICA8U2VsZWN0VHJpZ2dlcgogICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3Mud2FmUGxhY2Vob2xkZXInKSIKICAgICAgICAgICAgICBjbGFzcz0idy1mdWxsIG1pbi13LTAiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8U2VsZWN0VmFsdWUKICAgICAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLndhZlBsYWNlaG9sZGVyJykiCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICAgICAgPFNlbGVjdEl0ZW0KICAgICAgICAgICAgICB2LWZvcj0ib3B0aW9uIGluIFdBRl9GSUxURVJfT1BUSU9OUyIKICAgICAgICAgICAgICA6a2V5PSJvcHRpb24udmFsdWUiCiAgICAgICAgICAgICAgOnZhbHVlPSJvcHRpb24udmFsdWUiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KG9wdGlvbi5sYWJlbEtleSkgfX0KICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICAgIDwvU2VsZWN0PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxkaXYKICAgICAgY2xhc3M9Im10LTIgZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC14LTMgZ2FwLXktMSB0ZXh0LVsxMXB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICA+CiAgICAgIDxzcGFuPgogICAgICAgIHt7IGN1cnNvclBhZ2VMYWJlbCB9fSDCtwogICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5yb3dzQ291bnQiLCB7IGNvdW50OiBlbnRyaWVzQ291bnQgfSkgfX0KICAgICAgPC9zcGFuPgogICAgICA8c3Bhbj57eyBhY3RpdmVTdGF0dXNMYWJlbCB9fTwvc3Bhbj4KICAgICAgPHNwYW4+e3sgYWN0aXZlTG9nZ2VkSW5MYWJlbCB9fTwvc3Bhbj4KICAgICAgPHNwYW4gY2xhc3M9Im1heC13LVsyMjBweF0gdHJ1bmNhdGUiIDp0aXRsZT0iYWN0aXZlQ3JlZGVudGlhbExhYmVsIj4KICAgICAgICB7eyBhY3RpdmVDcmVkZW50aWFsTGFiZWwgfX0KICAgICAgPC9zcGFuPgogICAgICA8c3Bhbj57eyBhY3RpdmVXYWZTdGF0dXNMYWJlbCB9fTwvc3Bhbj4KICAgICAgPHNwYW4gdi1pZj0ic2VhcmNoUXVlcnkudHJpbSgpIj4KICAgICAgICB7ewogICAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmtleXdvcmRGaWx0ZXIiLCB7CiAgICAgICAgICAgIGtleXdvcmQ6IHNlYXJjaFF1ZXJ5LnRyaW0oKSwKICAgICAgICAgIH0pCiAgICAgICAgfX0KICAgICAgPC9zcGFuPgogICAgICA8c3BhbiBjbGFzcz0iYnJlYWstYWxsIj4KICAgICAgICB7ewogICAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRpcmVjdG9yeUxhYmVsIiwgewogICAgICAgICAgICBkaXJlY3Rvcnk6IGxvZ3NEaXIgfHwgIi0iLAogICAgICAgICAgfSkKICAgICAgICB9fQogICAgICA8L3NwYW4+CiAgICAgIDxSb3V0ZXJMaW5rCiAgICAgICAgOnRvPSJ7CiAgICAgICAgICBwYXRoOiAnL3N5c3RlbScsCiAgICAgICAgICBxdWVyeTogeyB0YWI6ICdnYXRld2F5LWxvZ2dpbmcnIH0sCiAgICAgICAgICBoYXNoOiAnI2dhdGV3YXktbG9nLWRpcmVjdG9yeScsCiAgICAgICAgfSIKICAgICAgICBjbGFzcz0idGV4dC1wcmltYXJ5IHVuZGVybGluZSB1bmRlcmxpbmUtb2Zmc2V0LTQgaG92ZXI6b3BhY2l0eS04MCIKICAgICAgICA+e3sgdCgiYWRtaW4uZ2F0ZXdheUxvZ2dpbmcuY2hhbmdlRGlyZWN0b3J5TGluayIpIH19PC9Sb3V0ZXJMaW5rCiAgICAgID4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { RouterLink } from "vue-router";
+import { useI18n } from "vue-i18n";
+import SearchInput from "@admin-shared/components/SearchInput.vue";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
+  LOGIN_FILTER_OPTIONS,
+  STATUS_FILTER_OPTIONS,
+  WAF_FILTER_OPTIONS,
+} from "./model";
+
+const { searchQuery } = defineProps<{
+  activeCredentialLabel: string;
+  activeLoggedInLabel: string;
+  activeStatusLabel: string;
+  activeWafStatusLabel: string;
+  availableDates: string[];
+  credentialOptions: Array<{ label: string; value: string }>;
+  cursorPageLabel: string;
+  entriesCount: number;
+  handleCredentialChange: (value: unknown) => Promise<void> | void;
+  handleDateChange: (value: unknown) => Promise<void> | void;
+  handleLoggedInChange: (value: unknown) => Promise<void> | void;
+  handleSearch: () => Promise<void> | void;
+  handleStatusChange: (value: unknown) => Promise<void> | void;
+  handleWafStatusChange: (value: unknown) => Promise<void> | void;
+  logsDir: string;
+  searchQuery: string;
+  selectedCredential: string;
+  selectedDate: string;
+  selectedLoggedIn: string;
+  selectedStatus: string;
+  selectedWafStatus: string;
+}>();
+const emit = defineEmits<{ "update:searchQuery": [value: string] }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div class="border-b px-3 py-3 sm:px-4">
+    <div class="flex flex-col gap-2 lg:flex-row lg:items-start">
+      <SearchInput
+        :model-value="searchQuery"
+        :placeholder="t('admin.gatewayRequestLogs.searchPlaceholder')"
+        class="w-full min-w-0 sm:w-[320px] lg:shrink-0"
+        @update:model-value="emit('update:searchQuery', $event)"
+        @search="handleSearch"
+      />
+      <div
+        class="grid min-w-0 flex-1 grid-cols-2 items-center gap-2 sm:flex sm:flex-wrap sm:justify-end"
+      >
+        <Select
+          :model-value="selectedDate"
+          @update:model-value="handleDateChange"
+        >
+          <div class="order-1 w-full min-w-0 sm:order-none sm:w-[148px]">
+            <SelectTrigger
+              :aria-label="t('admin.gatewayRequestLogs.datePlaceholder')"
+              class="w-full min-w-0"
+            >
+              <SelectValue
+                :placeholder="t('admin.gatewayRequestLogs.datePlaceholder')"
+              />
+            </SelectTrigger>
+          </div>
+          <SelectContent>
+            <SelectItem
+              v-for="date in availableDates"
+              :key="date"
+              :value="date"
+            >
+              {{ date }}
+            </SelectItem>
+          </SelectContent>
+        </Select>
+
+        <Select
+          :model-value="selectedStatus"
+          @update:model-value="handleStatusChange"
+        >
+          <div class="order-2 w-full min-w-0 sm:order-none sm:w-[156px]">
+            <SelectTrigger
+              :aria-label="t('admin.gatewayRequestLogs.statusPlaceholder')"
+              class="w-full min-w-0"
+            >
+              <SelectValue
+                :placeholder="t('admin.gatewayRequestLogs.statusPlaceholder')"
+              />
+            </SelectTrigger>
+          </div>
+          <SelectContent>
+            <SelectItem
+              v-for="option in STATUS_FILTER_OPTIONS"
+              :key="option.value"
+              :value="option.value"
+            >
+              {{ t(option.labelKey) }}
+            </SelectItem>
+          </SelectContent>
+        </Select>
+
+        <Select
+          :model-value="selectedLoggedIn"
+          @update:model-value="handleLoggedInChange"
+        >
+          <div class="order-3 w-full min-w-0 sm:order-none sm:w-[168px]">
+            <SelectTrigger
+              :aria-label="t('admin.gatewayRequestLogs.loginPlaceholder')"
+              class="w-full min-w-0"
+            >
+              <SelectValue
+                :placeholder="t('admin.gatewayRequestLogs.loginPlaceholder')"
+              />
+            </SelectTrigger>
+          </div>
+          <SelectContent>
+            <SelectItem
+              v-for="option in LOGIN_FILTER_OPTIONS"
+              :key="option.value"
+              :value="option.value"
+            >
+              {{ t(option.labelKey) }}
+            </SelectItem>
+          </SelectContent>
+        </Select>
+
+        <Select
+          :model-value="selectedCredential"
+          @update:model-value="handleCredentialChange"
+        >
+          <div
+            class="order-5 col-span-2 w-full min-w-0 sm:order-none sm:col-span-1 sm:w-[220px]"
+          >
+            <SelectTrigger
+              :aria-label="t('admin.gatewayRequestLogs.credentialPlaceholder')"
+              class="w-full min-w-0"
+            >
+              <SelectValue
+                :placeholder="
+                  t('admin.gatewayRequestLogs.credentialPlaceholder')
+                "
+              />
+            </SelectTrigger>
+          </div>
+          <SelectContent class="max-w-[min(28rem,calc(100vw-2rem))]">
+            <SelectItem
+              v-for="option in credentialOptions"
+              :key="option.value"
+              :value="option.value"
+              class="min-w-0"
+            >
+              <span class="block max-w-[22rem] truncate" :title="option.label">
+                {{ option.label }}
+              </span>
+            </SelectItem>
+          </SelectContent>
+        </Select>
+
+        <Select
+          :model-value="selectedWafStatus"
+          @update:model-value="handleWafStatusChange"
+        >
+          <div class="order-4 w-full min-w-0 sm:order-none sm:w-[144px]">
+            <SelectTrigger
+              :aria-label="t('admin.gatewayRequestLogs.wafPlaceholder')"
+              class="w-full min-w-0"
+            >
+              <SelectValue
+                :placeholder="t('admin.gatewayRequestLogs.wafPlaceholder')"
+              />
+            </SelectTrigger>
+          </div>
+          <SelectContent>
+            <SelectItem
+              v-for="option in WAF_FILTER_OPTIONS"
+              :key="option.value"
+              :value="option.value"
+            >
+              {{ t(option.labelKey) }}
+            </SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
+    </div>
+
+    <div
+      class="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-muted-foreground"
+    >
+      <span>
+        {{ cursorPageLabel }} ·
+        {{ t("admin.gatewayRequestLogs.rowsCount", { count: entriesCount }) }}
+      </span>
+      <span>{{ activeStatusLabel }}</span>
+      <span>{{ activeLoggedInLabel }}</span>
+      <span class="max-w-[220px] truncate" :title="activeCredentialLabel">
+        {{ activeCredentialLabel }}
+      </span>
+      <span>{{ activeWafStatusLabel }}</span>
+      <span v-if="searchQuery.trim()">
+        {{
+          t("admin.gatewayRequestLogs.keywordFilter", {
+            keyword: searchQuery.trim(),
+          })
+        }}
+      </span>
+      <span class="break-all">
+        {{
+          t("admin.gatewayRequestLogs.directoryLabel", {
+            directory: logsDir || "-",
+          })
+        }}
+      </span>
+      <RouterLink
+        :to="{
+          path: '/system',
+          query: { tab: 'gateway-logging' },
+          hash: '#gateway-log-directory',
+        }"
+        class="text-primary underline underline-offset-4 hover:opacity-80"
+        >{{ t("admin.gatewayLogging.changeDirectoryLink") }}</RouterLink
+      >
+    </div>
+  </div>
+</template>

@@ -1,1 +1,249 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCB1c2VJZCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IHsgVGV4dGFyZWEgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGV4dGFyZWEiOwppbXBvcnQgewogIFNlbGVjdCwKICBTZWxlY3RDb250ZW50LAogIFNlbGVjdEl0ZW0sCiAgU2VsZWN0VHJpZ2dlciwKICBTZWxlY3RWYWx1ZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKaW1wb3J0IHR5cGUgewogIE5vdGlmaWNhdGlvbkhlYWRlckNvbnN0cmFpbnRzLAogIE5vdGlmaWNhdGlvbkhlYWRlckVudHJ5LAogIE5vdGlmaWNhdGlvblNjaGVtYUZpZWxkLAp9IGZyb20gIi4uLy4uLy4uL3R5cGVzIjsKaW1wb3J0IFdlYmhvb2tIZWFkZXJzRWRpdG9yIGZyb20gIi4vV2ViaG9va0hlYWRlcnNFZGl0b3IudnVlIjsKaW1wb3J0IFdlYmhvb2tCb2R5VGVtcGxhdGVFZGl0b3IgZnJvbSAiLi9XZWJob29rQm9keVRlbXBsYXRlRWRpdG9yLnZ1ZSI7CmltcG9ydCB0eXBlIHsKICBXZWJob29rQm9keUNvbnN0cmFpbnRzLAogIFdlYmhvb2tCb2R5UHJldmlldywKICBXZWJob29rQm9keVNjb3BlLAp9IGZyb20gIi4vd2ViaG9vay1ib2R5IjsKaW1wb3J0IHsgY29lcmNlV2ViaG9va0JvZHlDb25maWcgfSBmcm9tICIuL3dlYmhvb2stYm9keSI7CmltcG9ydCB7IGNvZXJjZVdlYmhvb2tIZWFkZXJFbnRyaWVzIH0gZnJvbSAiLi93ZWJob29rLWhlYWRlcnMiOwoKY29uc3QgYTExeUlkID0gdXNlSWQoKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoCiAgZGVmaW5lUHJvcHM8ewogICAgZmllbGRzOiBOb3RpZmljYXRpb25TY2hlbWFGaWVsZFtdOwogICAgbW9kZWxWYWx1ZTogUmVjb3JkPHN0cmluZywgdW5rbm93bj47CiAgICBjb25maWd1cmVkU2Vuc2l0aXZlRmllbGRzPzogc3RyaW5nW107CiAgICByZXZlYWxTZW5zaXRpdmVWYWx1ZXM/OiBib29sZWFuOwogIH0+KCksCiAgewogICAgY29uZmlndXJlZFNlbnNpdGl2ZUZpZWxkczogKCkgPT4gW10sCiAgICByZXZlYWxTZW5zaXRpdmVWYWx1ZXM6IGZhbHNlLAogIH0sCik7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICJ1cGRhdGU6bW9kZWxWYWx1ZSI6IFt2YWx1ZTogUmVjb3JkPHN0cmluZywgdW5rbm93bj5dOwogICJ3ZWJob29rLWJvZHktcHJldmlldyI6IFtdOwogICJ3ZWJob29rLWJvZHktdGVzdCI6IFtdOwp9PigpOwoKY29uc3QgY29uZmlndXJlZFNlbnNpdGl2ZUZpZWxkU2V0ID0gY29tcHV0ZWQoCiAgKCkgPT4gbmV3IFNldChwcm9wcy5jb25maWd1cmVkU2Vuc2l0aXZlRmllbGRzKSwKKTsKCmNvbnN0IGdldEZpZWxkRG9tSWQgPSAoZmllbGQ6IE5vdGlmaWNhdGlvblNjaGVtYUZpZWxkKSA9PgogIGAke2ExMXlJZH0tc2NoZW1hZmllbGRzZWRpdG9yLSR7ZmllbGQua2V5fWA7Cgpjb25zdCBpc1VybEZpZWxkID0gKGZpZWxkOiBOb3RpZmljYXRpb25TY2hlbWFGaWVsZCkgPT4KICBmaWVsZC5rZXkgPT09ICJ1cmwiIHx8IGZpZWxkLmtleSA9PT0gIndlYmhvb2tfdXJsIjsKCmNvbnN0IGdldFN0cmluZ0lucHV0VHlwZSA9IChmaWVsZDogTm90aWZpY2F0aW9uU2NoZW1hRmllbGQpID0+IHsKICAvLyBVUkxzIG1heSBjb250YWluIGNyZWRlbnRpYWxzLCBidXQgc3RpbGwgbmVlZCB0byBiZSByZWFkYWJsZSB3aGlsZSBlZGl0aW5nLgogIGlmIChpc1VybEZpZWxkKGZpZWxkKSkgcmV0dXJuICJ1cmwiOwogIHJldHVybiBmaWVsZC5zZW5zaXRpdmUgJiYgIXByb3BzLnJldmVhbFNlbnNpdGl2ZVZhbHVlcyA/ICJwYXNzd29yZCIgOiAidGV4dCI7Cn07Cgpjb25zdCB1cGRhdGVGaWVsZCA9IChrZXk6IHN0cmluZywgdmFsdWU6IHVua25vd24pID0+IHsKICBlbWl0KCJ1cGRhdGU6bW9kZWxWYWx1ZSIsIHsKICAgIC4uLnByb3BzLm1vZGVsVmFsdWUsCiAgICBba2V5XTogdmFsdWUsCiAgfSk7Cn07Cgpjb25zdCB1cGRhdGVXZWJob29rQm9keUZpZWxkID0gKGtleTogc3RyaW5nLCB2YWx1ZTogdW5rbm93bikgPT4gewogIGVtaXQoInVwZGF0ZTptb2RlbFZhbHVlIiwgewogICAgLi4ucHJvcHMubW9kZWxWYWx1ZSwKICAgIFtrZXldOiB2YWx1ZSwKICAgIF9fd2ViaG9va19ib2R5X3ByZXZpZXc6IG51bGwsCiAgfSk7Cn07Cgpjb25zdCByZWFkRmllbGRWYWx1ZSA9IChmaWVsZDogTm90aWZpY2F0aW9uU2NoZW1hRmllbGQpID0+IHsKICBjb25zdCB2YWx1ZSA9IHByb3BzLm1vZGVsVmFsdWVbZmllbGQua2V5XTsKICBpZiAodmFsdWUgPT09IHVuZGVmaW5lZCB8fCB2YWx1ZSA9PT0gbnVsbCkgewogICAgaWYgKGZpZWxkLnR5cGUgPT09ICJib29sZWFuIikgewogICAgICByZXR1cm4gQm9vbGVhbihmaWVsZC5kZWZhdWx0X3ZhbHVlID8/IGZhbHNlKTsKICAgIH0KICAgIHJldHVybiBmaWVsZC5kZWZhdWx0X3ZhbHVlID8/ICIiOwogIH0KICByZXR1cm4gdmFsdWU7Cn07Cgpjb25zdCByZWFkSGVhZGVyRmllbGRWYWx1ZSA9ICgKICBmaWVsZDogTm90aWZpY2F0aW9uU2NoZW1hRmllbGQsCik6IE5vdGlmaWNhdGlvbkhlYWRlckVudHJ5W10gPT4KICBjb2VyY2VXZWJob29rSGVhZGVyRW50cmllcyhyZWFkRmllbGRWYWx1ZShmaWVsZCkpOwoKY29uc3QgcmVhZEhlYWRlckNvbnN0cmFpbnRzID0gKGZpZWxkOiBOb3RpZmljYXRpb25TY2hlbWFGaWVsZCkgPT4KICBmaWVsZC5jb25zdHJhaW50cyBhcyBOb3RpZmljYXRpb25IZWFkZXJDb25zdHJhaW50cyB8IHVuZGVmaW5lZDsKCmNvbnN0IHJlYWRCb2R5RmllbGRWYWx1ZSA9IChmaWVsZDogTm90aWZpY2F0aW9uU2NoZW1hRmllbGQpID0+CiAgY29lcmNlV2ViaG9va0JvZHlDb25maWcoCiAgICByZWFkRmllbGRWYWx1ZShmaWVsZCksCiAgICAoZmllbGQuY29uc3RyYWludHMgYXMgV2ViaG9va0JvZHlDb25zdHJhaW50cyB8IHVuZGVmaW5lZCk/LnNjb3BlID09PQogICAgICAidGFyZ2V0IgogICAgICA/ICgidGFyZ2V0IiBzYXRpc2ZpZXMgV2ViaG9va0JvZHlTY29wZSkKICAgICAgOiAoInByb3ZpZGVyIiBzYXRpc2ZpZXMgV2ViaG9va0JvZHlTY29wZSksCiAgKTsKCmNvbnN0IHJlc29sdmVQbGFjZWhvbGRlciA9IChmaWVsZDogTm90aWZpY2F0aW9uU2NoZW1hRmllbGQpID0+IHsKICBpZiAoCiAgICBmaWVsZC5zZW5zaXRpdmUgJiYKICAgIGNvbmZpZ3VyZWRTZW5zaXRpdmVGaWVsZFNldC52YWx1ZS5oYXMoZmllbGQua2V5KSAmJgogICAgIXByb3BzLm1vZGVsVmFsdWVbZmllbGQua2V5XQogICkgewogICAgcmV0dXJuIHQoImFkbWluLm5vdGlmaWNhdGlvbnMuc2NoZW1hLnNlbnNpdGl2ZUNvbmZpZ3VyZWQiKTsKICB9CiAgcmV0dXJuIGZpZWxkLnBsYWNlaG9sZGVyIHx8ICIiOwp9Owo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJtaW4tdy0wIHNwYWNlLXktNCI+CiAgICA8ZGl2CiAgICAgIHYtZm9yPSJmaWVsZCBpbiBmaWVsZHMiCiAgICAgIDprZXk9ImZpZWxkLmtleSIKICAgICAgY2xhc3M9Im1pbi13LTAgZ3JpZCBnYXAtMiByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyLzYwIHAtMyIKICAgID4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICA8TGFiZWwKICAgICAgICAgIDpmb3I9IgogICAgICAgICAgICBbJ2hlYWRlcnMnLCAnd2ViaG9va19ib2R5J10uaW5jbHVkZXMoZmllbGQudHlwZSkKICAgICAgICAgICAgICA/IHVuZGVmaW5lZAogICAgICAgICAgICAgIDogZ2V0RmllbGREb21JZChmaWVsZCkKICAgICAgICAgICIKICAgICAgICAgIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIgogICAgICAgID4KICAgICAgICAgIHt7IGZpZWxkLmxhYmVsIH19CiAgICAgICAgICA8c3BhbiB2LWlmPSJmaWVsZC5yZXF1aXJlZCIgY2xhc3M9InRleHQtZGVzdHJ1Y3RpdmUiPio8L3NwYW4+CiAgICAgICAgPC9MYWJlbD4KICAgICAgICA8cCB2LWlmPSJmaWVsZC5kZXNjcmlwdGlvbiIgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7IGZpZWxkLmRlc2NyaXB0aW9uIH19CiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KCiAgICAgIDxJbnB1dAogICAgICAgIHYtaWY9ImZpZWxkLnR5cGUgPT09ICdzdHJpbmcnIgogICAgICAgIDppZD0iZ2V0RmllbGREb21JZChmaWVsZCkiCiAgICAgICAgOnR5cGU9ImdldFN0cmluZ0lucHV0VHlwZShmaWVsZCkiCiAgICAgICAgOmF1dG9jb21wbGV0ZT0iaXNVcmxGaWVsZChmaWVsZCkgPyAnb2ZmJyA6IHVuZGVmaW5lZCIKICAgICAgICA6YXV0b2NhcGl0YWxpemU9ImlzVXJsRmllbGQoZmllbGQpID8gJ25vbmUnIDogdW5kZWZpbmVkIgogICAgICAgIDpzcGVsbGNoZWNrPSJpc1VybEZpZWxkKGZpZWxkKSA/IGZhbHNlIDogdW5kZWZpbmVkIgogICAgICAgIDptb2RlbC12YWx1ZT0iU3RyaW5nKHJlYWRGaWVsZFZhbHVlKGZpZWxkKSA/PyAnJykiCiAgICAgICAgOnBsYWNlaG9sZGVyPSJyZXNvbHZlUGxhY2Vob2xkZXIoZmllbGQpIgogICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9Iih2YWx1ZSkgPT4gdXBkYXRlRmllbGQoZmllbGQua2V5LCB2YWx1ZSkiCiAgICAgIC8+CgogICAgICA8SW5wdXQKICAgICAgICB2LWVsc2UtaWY9ImZpZWxkLnR5cGUgPT09ICdudW1iZXInIgogICAgICAgIDppZD0iZ2V0RmllbGREb21JZChmaWVsZCkiCiAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgIDptaW49ImZpZWxkLm1pbiIKICAgICAgICA6bWF4PSJmaWVsZC5tYXgiCiAgICAgICAgOm1vZGVsLXZhbHVlPSJTdHJpbmcocmVhZEZpZWxkVmFsdWUoZmllbGQpID8/ICcnKSIKICAgICAgICA6cGxhY2Vob2xkZXI9InJlc29sdmVQbGFjZWhvbGRlcihmaWVsZCkiCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iKHZhbHVlKSA9PiB1cGRhdGVGaWVsZChmaWVsZC5rZXksIHZhbHVlKSIKICAgICAgLz4KCiAgICAgIDxTZWxlY3QKICAgICAgICB2LWVsc2UtaWY9ImZpZWxkLnR5cGUgPT09ICdzZWxlY3QnIgogICAgICAgIDptb2RlbC12YWx1ZT0iU3RyaW5nKHJlYWRGaWVsZFZhbHVlKGZpZWxkKSA/PyAnJykiCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iKHZhbHVlKSA9PiB1cGRhdGVGaWVsZChmaWVsZC5rZXksIHZhbHVlKSIKICAgICAgPgogICAgICAgIDxTZWxlY3RUcmlnZ2VyIDppZD0iZ2V0RmllbGREb21JZChmaWVsZCkiPgogICAgICAgICAgPFNlbGVjdFZhbHVlCiAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0icmVzb2x2ZVBsYWNlaG9sZGVyKGZpZWxkKSB8fCBmaWVsZC5sYWJlbCIKICAgICAgICAgIC8+CiAgICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgPFNlbGVjdEl0ZW0KICAgICAgICAgICAgdi1mb3I9Im9wdGlvbiBpbiBmaWVsZC5vcHRpb25zIHx8IFtdIgogICAgICAgICAgICA6a2V5PSJvcHRpb24udmFsdWUiCiAgICAgICAgICAgIDp2YWx1ZT0ib3B0aW9uLnZhbHVlIgogICAgICAgICAgPgogICAgICAgICAgICB7eyBvcHRpb24ubGFiZWwgfX0KICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgIDwvU2VsZWN0PgoKICAgICAgPGRpdgogICAgICAgIHYtZWxzZS1pZj0iZmllbGQudHlwZSA9PT0gJ2Jvb2xlYW4nIgogICAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlci82MCBweC0zIHB5LTIiCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7ewogICAgICAgICAgICBCb29sZWFuKHJlYWRGaWVsZFZhbHVlKGZpZWxkKSkKICAgICAgICAgICAgICA/IHQoImFkbWluLm5vdGlmaWNhdGlvbnMuc2NoZW1hLmVuYWJsZWQiKQogICAgICAgICAgICAgIDogdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5zY2hlbWEuZGlzYWJsZWQiKQogICAgICAgICAgfX0KICAgICAgICA8L2Rpdj4KICAgICAgICA8U3dpdGNoCiAgICAgICAgICA6aWQ9ImdldEZpZWxkRG9tSWQoZmllbGQpIgogICAgICAgICAgOm1vZGVsLXZhbHVlPSJCb29sZWFuKHJlYWRGaWVsZFZhbHVlKGZpZWxkKSkiCiAgICAgICAgICA6YXJpYS1sYWJlbD0iZmllbGQubGFiZWwiCiAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSIodmFsdWUpID0+IHVwZGF0ZUZpZWxkKGZpZWxkLmtleSwgdmFsdWUpIgogICAgICAgIC8+CiAgICAgIDwvZGl2PgoKICAgICAgPFdlYmhvb2tIZWFkZXJzRWRpdG9yCiAgICAgICAgdi1lbHNlLWlmPSJmaWVsZC50eXBlID09PSAnaGVhZGVycyciCiAgICAgICAgOm1vZGVsLXZhbHVlPSJyZWFkSGVhZGVyRmllbGRWYWx1ZShmaWVsZCkiCiAgICAgICAgOmNvbnN0cmFpbnRzPSJyZWFkSGVhZGVyQ29uc3RyYWludHMoZmllbGQpIgogICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9Iih2YWx1ZSkgPT4gdXBkYXRlRmllbGQoZmllbGQua2V5LCB2YWx1ZSkiCiAgICAgIC8+CgogICAgICA8V2ViaG9va0JvZHlUZW1wbGF0ZUVkaXRvcgogICAgICAgIHYtZWxzZS1pZj0iZmllbGQudHlwZSA9PT0gJ3dlYmhvb2tfYm9keSciCiAgICAgICAgOm1vZGVsLXZhbHVlPSJyZWFkQm9keUZpZWxkVmFsdWUoZmllbGQpIgogICAgICAgIDpjb25zdHJhaW50cz0iZmllbGQuY29uc3RyYWludHMgYXMgV2ViaG9va0JvZHlDb25zdHJhaW50cyIKICAgICAgICA6c2FtcGxlLWNvbnRleHQ9IlN0cmluZyhtb2RlbFZhbHVlLl9fd2ViaG9va19zYW1wbGVfY29udGV4dCB8fCAnJykiCiAgICAgICAgOnByZXZpZXc9IgogICAgICAgICAgKG1vZGVsVmFsdWUuX193ZWJob29rX2JvZHlfcHJldmlldyBhcyBXZWJob29rQm9keVByZXZpZXcgfCBudWxsKSB8fAogICAgICAgICAgbnVsbAogICAgICAgICIKICAgICAgICA6cHJldmlld2luZz0iQm9vbGVhbihtb2RlbFZhbHVlLl9fd2ViaG9va19ib2R5X3ByZXZpZXdpbmcpIgogICAgICAgIDp0ZXN0aW5nPSJCb29sZWFuKG1vZGVsVmFsdWUuX193ZWJob29rX2JvZHlfdGVzdGluZykiCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iCiAgICAgICAgICAodmFsdWUpID0+IHVwZGF0ZVdlYmhvb2tCb2R5RmllbGQoZmllbGQua2V5LCB2YWx1ZSkKICAgICAgICAiCiAgICAgICAgQHVwZGF0ZTpzYW1wbGUtY29udGV4dD0iCiAgICAgICAgICAodmFsdWUpID0+IHVwZGF0ZVdlYmhvb2tCb2R5RmllbGQoJ19fd2ViaG9va19zYW1wbGVfY29udGV4dCcsIHZhbHVlKQogICAgICAgICIKICAgICAgICBAcHJldmlldz0iZW1pdCgnd2ViaG9vay1ib2R5LXByZXZpZXcnKSIKICAgICAgICBAdGVzdD0iZW1pdCgnd2ViaG9vay1ib2R5LXRlc3QnKSIKICAgICAgLz4KCiAgICAgIDxUZXh0YXJlYQogICAgICAgIHYtZWxzZQogICAgICAgIDppZD0iZ2V0RmllbGREb21JZChmaWVsZCkiCiAgICAgICAgY2xhc3M9Im1pbi1oLVsxMTBweF0gZm9udC1tb25vIHRleHQteHMiCiAgICAgICAgOm1vZGVsLXZhbHVlPSJTdHJpbmcocmVhZEZpZWxkVmFsdWUoZmllbGQpID8/ICcnKSIKICAgICAgICA6cGxhY2Vob2xkZXI9InJlc29sdmVQbGFjZWhvbGRlcihmaWVsZCkiCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iKHZhbHVlKSA9PiB1cGRhdGVGaWVsZChmaWVsZC5rZXksIHZhbHVlKSIKICAgICAgLz4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import { Textarea } from "@/components/ui/textarea";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import type {
+  NotificationHeaderConstraints,
+  NotificationHeaderEntry,
+  NotificationSchemaField,
+} from "../../../types";
+import WebhookHeadersEditor from "./WebhookHeadersEditor.vue";
+import WebhookBodyTemplateEditor from "./WebhookBodyTemplateEditor.vue";
+import type {
+  WebhookBodyConstraints,
+  WebhookBodyPreview,
+  WebhookBodyScope,
+} from "./webhook-body";
+import { coerceWebhookBodyConfig } from "./webhook-body";
+import { coerceWebhookHeaderEntries } from "./webhook-headers";
+
+const a11yId = useId();
+
+const { t } = useI18n();
+
+const props = withDefaults(
+  defineProps<{
+    fields: NotificationSchemaField[];
+    modelValue: Record<string, unknown>;
+    configuredSensitiveFields?: string[];
+    revealSensitiveValues?: boolean;
+  }>(),
+  {
+    configuredSensitiveFields: () => [],
+    revealSensitiveValues: false,
+  },
+);
+
+const emit = defineEmits<{
+  "update:modelValue": [value: Record<string, unknown>];
+  "webhook-body-preview": [];
+  "webhook-body-test": [];
+}>();
+
+const configuredSensitiveFieldSet = computed(
+  () => new Set(props.configuredSensitiveFields),
+);
+
+const getFieldDomId = (field: NotificationSchemaField) =>
+  `${a11yId}-schemafieldseditor-${field.key}`;
+
+const isUrlField = (field: NotificationSchemaField) =>
+  field.key === "url" || field.key === "webhook_url";
+
+const getStringInputType = (field: NotificationSchemaField) => {
+  // URLs may contain credentials, but still need to be readable while editing.
+  if (isUrlField(field)) return "url";
+  return field.sensitive && !props.revealSensitiveValues ? "password" : "text";
+};
+
+const updateField = (key: string, value: unknown) => {
+  emit("update:modelValue", {
+    ...props.modelValue,
+    [key]: value,
+  });
+};
+
+const updateWebhookBodyField = (key: string, value: unknown) => {
+  emit("update:modelValue", {
+    ...props.modelValue,
+    [key]: value,
+    __webhook_body_preview: null,
+  });
+};
+
+const readFieldValue = (field: NotificationSchemaField) => {
+  const value = props.modelValue[field.key];
+  if (value === undefined || value === null) {
+    if (field.type === "boolean") {
+      return Boolean(field.default_value ?? false);
+    }
+    return field.default_value ?? "";
+  }
+  return value;
+};
+
+const readHeaderFieldValue = (
+  field: NotificationSchemaField,
+): NotificationHeaderEntry[] =>
+  coerceWebhookHeaderEntries(readFieldValue(field));
+
+const readHeaderConstraints = (field: NotificationSchemaField) =>
+  field.constraints as NotificationHeaderConstraints | undefined;
+
+const readBodyFieldValue = (field: NotificationSchemaField) =>
+  coerceWebhookBodyConfig(
+    readFieldValue(field),
+    (field.constraints as WebhookBodyConstraints | undefined)?.scope ===
+      "target"
+      ? ("target" satisfies WebhookBodyScope)
+      : ("provider" satisfies WebhookBodyScope),
+  );
+
+const resolvePlaceholder = (field: NotificationSchemaField) => {
+  if (
+    field.sensitive &&
+    configuredSensitiveFieldSet.value.has(field.key) &&
+    !props.modelValue[field.key]
+  ) {
+    return t("admin.notifications.schema.sensitiveConfigured");
+  }
+  return field.placeholder || "";
+};
+</script>
+
+<template>
+  <div class="min-w-0 space-y-4">
+    <div
+      v-for="field in fields"
+      :key="field.key"
+      class="min-w-0 grid gap-2 rounded-md border border-border/60 p-3"
+    >
+      <div class="space-y-1">
+        <Label
+          :for="
+            ['headers', 'webhook_body'].includes(field.type)
+              ? undefined
+              : getFieldDomId(field)
+          "
+          class="text-sm font-medium"
+        >
+          {{ field.label }}
+          <span v-if="field.required" class="text-destructive">*</span>
+        </Label>
+        <p v-if="field.description" class="text-xs text-muted-foreground">
+          {{ field.description }}
+        </p>
+      </div>
+
+      <Input
+        v-if="field.type === 'string'"
+        :id="getFieldDomId(field)"
+        :type="getStringInputType(field)"
+        :autocomplete="isUrlField(field) ? 'off' : undefined"
+        :autocapitalize="isUrlField(field) ? 'none' : undefined"
+        :spellcheck="isUrlField(field) ? false : undefined"
+        :model-value="String(readFieldValue(field) ?? '')"
+        :placeholder="resolvePlaceholder(field)"
+        @update:model-value="(value) => updateField(field.key, value)"
+      />
+
+      <Input
+        v-else-if="field.type === 'number'"
+        :id="getFieldDomId(field)"
+        type="number"
+        :min="field.min"
+        :max="field.max"
+        :model-value="String(readFieldValue(field) ?? '')"
+        :placeholder="resolvePlaceholder(field)"
+        @update:model-value="(value) => updateField(field.key, value)"
+      />
+
+      <Select
+        v-else-if="field.type === 'select'"
+        :model-value="String(readFieldValue(field) ?? '')"
+        @update:model-value="(value) => updateField(field.key, value)"
+      >
+        <SelectTrigger :id="getFieldDomId(field)">
+          <SelectValue
+            :placeholder="resolvePlaceholder(field) || field.label"
+          />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem
+            v-for="option in field.options || []"
+            :key="option.value"
+            :value="option.value"
+          >
+            {{ option.label }}
+          </SelectItem>
+        </SelectContent>
+      </Select>
+
+      <div
+        v-else-if="field.type === 'boolean'"
+        class="flex items-center justify-between rounded-md border border-border/60 px-3 py-2"
+      >
+        <div class="text-sm text-muted-foreground">
+          {{
+            Boolean(readFieldValue(field))
+              ? t("admin.notifications.schema.enabled")
+              : t("admin.notifications.schema.disabled")
+          }}
+        </div>
+        <Switch
+          :id="getFieldDomId(field)"
+          :model-value="Boolean(readFieldValue(field))"
+          :aria-label="field.label"
+          @update:model-value="(value) => updateField(field.key, value)"
+        />
+      </div>
+
+      <WebhookHeadersEditor
+        v-else-if="field.type === 'headers'"
+        :model-value="readHeaderFieldValue(field)"
+        :constraints="readHeaderConstraints(field)"
+        @update:model-value="(value) => updateField(field.key, value)"
+      />
+
+      <WebhookBodyTemplateEditor
+        v-else-if="field.type === 'webhook_body'"
+        :model-value="readBodyFieldValue(field)"
+        :constraints="field.constraints as WebhookBodyConstraints"
+        :sample-context="String(modelValue.__webhook_sample_context || '')"
+        :preview="
+          (modelValue.__webhook_body_preview as WebhookBodyPreview | null) ||
+          null
+        "
+        :previewing="Boolean(modelValue.__webhook_body_previewing)"
+        :testing="Boolean(modelValue.__webhook_body_testing)"
+        @update:model-value="
+          (value) => updateWebhookBodyField(field.key, value)
+        "
+        @update:sample-context="
+          (value) => updateWebhookBodyField('__webhook_sample_context', value)
+        "
+        @preview="emit('webhook-body-preview')"
+        @test="emit('webhook-body-test')"
+      />
+
+      <Textarea
+        v-else
+        :id="getFieldDomId(field)"
+        class="min-h-[110px] font-mono text-xs"
+        :model-value="String(readFieldValue(field) ?? '')"
+        :placeholder="resolvePlaceholder(field)"
+        @update:model-value="(value) => updateField(field.key, value)"
+      />
+    </div>
+  </div>
+</template>

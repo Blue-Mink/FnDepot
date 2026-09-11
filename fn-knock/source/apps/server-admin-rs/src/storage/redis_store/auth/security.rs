@@ -1,1 +1,191 @@
-dXNlIHN1cGVyOjoqOwoKaW1wbCBTdG9yZSB7CiAgICBwdWIgYXN5bmMgZm4gc2V0X25vbmNlX2lmX25vdF9leGlzdHMoCiAgICAgICAgJnNlbGYsCiAgICAgICAgbm9uY2U6ICZzdHIsCiAgICAgICAgdHRsX3NlY29uZHM6IHVzaXplLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxib29sPiB7CiAgICAgICAgbGV0IG1hdGNoZWQgPSBzZWxmLnR5cGVkLnR5cGVkX2htYWNfbm9uY2UudmVyaWZ5X2FuZF9yZXBhaXIobm9uY2UpLmF3YWl0PzsKICAgICAgICBpZiBtYXRjaGVkIHsKICAgICAgICAgICAgaWYgc2VsZi50eXBlZF9obWFjX25vbmNlX3NoYWRvdy5tYXJrX2hlYWx0aHkoKSB7CiAgICAgICAgICAgICAgICB0cmFjaW5nOjppbmZvISgidHlwZWQgSE1BQyBub25jZSBzaGFkb3cgY29tcGFyaXNvbiByZWNvdmVyZWQiKTsKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHNlbGYudHlwZWRfaG1hY19ub25jZV9zaGFkb3cubWFya19taXNtYXRjaCgpOwogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISgKICAgICAgICAgICAgICAgICJ0eXBlZCBITUFDIG5vbmNlIHNoYWRvdyBkaWZmZXJlZCBmcm9tIHRoZSBjb21wYXRpYmlsaXR5IHJlcGxheSBndWFyZCBhbmQgd2FzIHJlcGFpcmVkIgogICAgICAgICAgICApOwogICAgICAgIH0KICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBsZXQga2V5ID0gZm9ybWF0ISgiZm5fa25vY2s6bm9uY2U6e25vbmNlfSIpOwogICAgICAgIGxldCByZXN1bHQ6IE9wdGlvbjxTdHJpbmc+ID0gcmVkaXM6OmNtZCgiU0VUIikKICAgICAgICAgICAgLmFyZyhrZXkpCiAgICAgICAgICAgIC5hcmcoIjEiKQogICAgICAgICAgICAuYXJnKCJFWCIpCiAgICAgICAgICAgIC5hcmcodHRsX3NlY29uZHMpCiAgICAgICAgICAgIC5hcmcoIk5YIikKICAgICAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBPayhyZXN1bHQuYXNfZGVyZWYoKSA9PSBTb21lKCJPSyIpKQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBzZXRfbG9ja19pZl9ub3RfZXhpc3RzKAogICAgICAgICZzZWxmLAogICAgICAgIGxvY2tfbmFtZTogJnN0ciwKICAgICAgICB0dGxfc2Vjb25kczogdXNpemUsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PGJvb2w+IHsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBsZXQga2V5ID0gZm9ybWF0ISgiZm5fa25vY2s6bG9jazp7bG9ja19uYW1lfSIpOwogICAgICAgIGxldCByZXN1bHQ6IE9wdGlvbjxTdHJpbmc+ID0gcmVkaXM6OmNtZCgiU0VUIikKICAgICAgICAgICAgLmFyZyhrZXkpCiAgICAgICAgICAgIC5hcmcoIjEiKQogICAgICAgICAgICAuYXJnKCJFWCIpCiAgICAgICAgICAgIC5hcmcodHRsX3NlY29uZHMubWF4KDEpKQogICAgICAgICAgICAuYXJnKCJOWCIpCiAgICAgICAgICAgIC5xdWVyeV9hc3luYygmbXV0IGNvbm4pCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgT2socmVzdWx0LmFzX2RlcmVmKCkgPT0gU29tZSgiT0siKSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gZ2V0X2xvZ2luX2JhY2tvZmZfc3RhdHVzKAogICAgICAgICZzZWxmLAogICAgICAgIGlwOiAmc3RyLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDxMb2dpbkJhY2tvZmZTdGF0dXM+IHsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBsZXQgcmF3OiBPcHRpb248U3RyaW5nPiA9IGNvbm4uZ2V0KGxvZ2luX2JhY2tvZmZfa2V5KGlwKSkuYXdhaXQ/OwogICAgICAgIHNlbGYudmVyaWZ5X2xvZ2luX2JhY2tvZmZfc2hhZG93KGlwKS5hd2FpdD87CiAgICAgICAgT2sobG9naW5fYmFja29mZl9zdGF0dXNfZnJvbV9yYXcoCiAgICAgICAgICAgIGlwLAogICAgICAgICAgICByYXcuYXNfZGVyZWYoKSwKICAgICAgICAgICAgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpLAogICAgICAgICkpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIHJlZ2lzdGVyX2xvZ2luX2JhY2tvZmZfZmFpbHVyZSgKICAgICAgICAmc2VsZiwKICAgICAgICBpcDogJnN0ciwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8TG9naW5CYWNrb2ZmU3RhdHVzPiB7CiAgICAgICAgbGV0IG5vdyA9IGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfbXMoKTsKICAgICAgICBsZXQgbXV0IGNvbm4gPSBzZWxmLmNvbm4oKTsKICAgICAgICBsZXQgcmVzdWx0OiBWZWM8aTY0PiA9IHJlZGlzOjpjbWQoIkVWQUwiKQogICAgICAgICAgICAuYXJnKExPR0lOX0JBQ0tPRkZfUkVHSVNURVJfRkFJTFVSRV9TQ1JJUFQpCiAgICAgICAgICAgIC5hcmcoMSkKICAgICAgICAgICAgLmFyZyhsb2dpbl9iYWNrb2ZmX2tleShpcCkpCiAgICAgICAgICAgIC5hcmcoaXApCiAgICAgICAgICAgIC5hcmcobm93KQogICAgICAgICAgICAuYXJnKExPR0lOX0JBQ0tPRkZfVFRMX1NFQ09ORFMpCiAgICAgICAgICAgIC5hcmcoMjAwMCkKICAgICAgICAgICAgLmFyZygzXzYwMF8wMDApCiAgICAgICAgICAgIC5hcmcoIjAuNCIpCiAgICAgICAgICAgIC5xdWVyeV9hc3luYygmbXV0IGNvbm4pCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgbGV0IGF0dGVtcHRzID0gcmVzdWx0LmZpcnN0KCkuY29waWVkKCkudW53cmFwX29yX2RlZmF1bHQoKTsKICAgICAgICBsZXQgcmV0cnlfYWZ0ZXIgPSByZXN1bHQuZ2V0KDEpLmNvcGllZCgpLnVud3JhcF9vcl9kZWZhdWx0KCkubWF4KDApOwogICAgICAgIGxldCBibG9ja2VkX3VudGlsID0gcmVzdWx0LmdldCgyKS5jb3BpZWQoKTsKICAgICAgICBPayhMb2dpbkJhY2tvZmZTdGF0dXMgewogICAgICAgICAgICBpcDogaXAudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGF0dGVtcHRzLAogICAgICAgICAgICBibG9ja2VkOiBibG9ja2VkX3VudGlsLmlzX3NvbWVfYW5kKHx1bnRpbHwgbm93IDw9IHVudGlsKSwKICAgICAgICAgICAgcmV0cnlfYWZ0ZXI6IChyZXRyeV9hZnRlciA+IDApLnRoZW5fc29tZShyZXRyeV9hZnRlciksCiAgICAgICAgICAgIGJsb2NrZWRfdW50aWwsCiAgICAgICAgfSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gcmVzZXRfbG9naW5fYmFja29mZigmc2VsZiwgaXA6ICZzdHIpIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgY29ubi5kZWwobG9naW5fYmFja29mZl9rZXkoaXApKS5hd2FpdAogICAgfQoKICAgIHB1YiBhc3luYyBmbiBsaXN0X2Jsb2NrZWRfbG9naW5fYmFja29mZnMoCiAgICAgICAgJnNlbGYsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PFZlYzxMb2dpbkJhY2tvZmZTdGF0dXM+PiB7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IG11dCBjdXJzb3IgPSAiMCIudG9fc3RyaW5nKCk7CiAgICAgICAgbGV0IG11dCBrZXlzID0gVmVjOjo8U3RyaW5nPjo6bmV3KCk7CiAgICAgICAgbG9vcCB7CiAgICAgICAgICAgIGxldCAobmV4dF9jdXJzb3IsIGJhdGNoKTogKFN0cmluZywgVmVjPFN0cmluZz4pID0gcmVkaXM6OmNtZCgiU0NBTiIpCiAgICAgICAgICAgICAgICAuYXJnKCZjdXJzb3IpCiAgICAgICAgICAgICAgICAuYXJnKCJNQVRDSCIpCiAgICAgICAgICAgICAgICAuYXJnKGZvcm1hdCEoIntMT0dJTl9CQUNLT0ZGX1BSRUZJWH0qIikpCiAgICAgICAgICAgICAgICAuYXJnKCJDT1VOVCIpCiAgICAgICAgICAgICAgICAuYXJnKDEwMCkKICAgICAgICAgICAgICAgIC5xdWVyeV9hc3luYygmbXV0IGNvbm4pCiAgICAgICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgICAgICBrZXlzLmV4dGVuZChiYXRjaCk7CiAgICAgICAgICAgIGlmIG5leHRfY3Vyc29yID09ICIwIiB7CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgfQogICAgICAgICAgICBjdXJzb3IgPSBuZXh0X2N1cnNvcjsKICAgICAgICB9CiAgICAgICAgaWYga2V5cy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgc2VsZi52ZXJpZnlfYWxsX2xvZ2luX2JhY2tvZmZfc2hhZG93cygpLmF3YWl0PzsKICAgICAgICAgICAgcmV0dXJuIE9rKFZlYzo6bmV3KCkpOwogICAgICAgIH0KICAgICAgICBsZXQgdmFsdWVzOiBWZWM8T3B0aW9uPFN0cmluZz4+ID0gcmVkaXM6OmNtZCgiTUdFVCIpCiAgICAgICAgICAgIC5hcmcoa2V5cy5jbG9uZSgpKQogICAgICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIGxldCBub3cgPSBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCk7CiAgICAgICAgbGV0IG11dCBpdGVtcyA9IFZlYzo6bmV3KCk7CiAgICAgICAgZm9yIChrZXksIHJhdykgaW4ga2V5cy5pbnRvX2l0ZXIoKS56aXAodmFsdWVzKSB7CiAgICAgICAgICAgIGxldCBpcCA9IGtleQogICAgICAgICAgICAgICAgLnN0cmlwX3ByZWZpeChMT0dJTl9CQUNLT0ZGX1BSRUZJWCkKICAgICAgICAgICAgICAgIC51bndyYXBfb3IoJmtleSkKICAgICAgICAgICAgICAgIC50b19zdHJpbmcoKTsKICAgICAgICAgICAgbGV0IHN0YXR1cyA9IGxvZ2luX2JhY2tvZmZfc3RhdHVzX2Zyb21fcmF3KCZpcCwgcmF3LmFzX2RlcmVmKCksIG5vdyk7CiAgICAgICAgICAgIGlmIHN0YXR1cy5ibG9ja2VkIHsKICAgICAgICAgICAgICAgIGl0ZW1zLnB1c2goc3RhdHVzKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBzZWxmLnZlcmlmeV9hbGxfbG9naW5fYmFja29mZl9zaGFkb3dzKCkuYXdhaXQ/OwogICAgICAgIGl0ZW1zLnNvcnRfYnkofGxlZnQsIHJpZ2h0fCB7CiAgICAgICAgICAgIHJpZ2h0CiAgICAgICAgICAgICAgICAucmV0cnlfYWZ0ZXIKICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCiAgICAgICAgICAgICAgICAuY21wKCZsZWZ0LnJldHJ5X2FmdGVyLnVud3JhcF9vcl9kZWZhdWx0KCkpCiAgICAgICAgfSk7CiAgICAgICAgT2soaXRlbXMpCiAgICB9CgogICAgcHViKHN1cGVyKSBhc3luYyBmbiB2ZXJpZnlfbG9naW5fYmFja29mZl9zaGFkb3coCiAgICAgICAgJnNlbGYsCiAgICAgICAgaXA6ICZzdHIsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgbGV0IG1hdGNoZWQgPSBzZWxmLnR5cGVkLnR5cGVkX2xvZ2luX2JhY2tvZmYudmVyaWZ5X2FuZF9yZXBhaXIoaXApLmF3YWl0PzsKICAgICAgICBzZWxmLm9ic2VydmVfbG9naW5fYmFja29mZl9zaGFkb3dfY29tcGFyaXNvbihtYXRjaGVkLCBTb21lKGlwKSk7CiAgICAgICAgT2soKCkpCiAgICB9CgogICAgcHViKHN1cGVyKSBhc3luYyBmbiB2ZXJpZnlfYWxsX2xvZ2luX2JhY2tvZmZfc2hhZG93cygKICAgICAgICAmc2VsZiwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBsZXQgbWF0Y2hlZCA9IHNlbGYKICAgICAgICAgICAgLnR5cGVkCiAgICAgICAgICAgIC50eXBlZF9sb2dpbl9iYWNrb2ZmCiAgICAgICAgICAgIC52ZXJpZnlfYW5kX3JlcGFpcl9hbGwoKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIHNlbGYub2JzZXJ2ZV9sb2dpbl9iYWNrb2ZmX3NoYWRvd19jb21wYXJpc29uKG1hdGNoZWQsIE5vbmUpOwogICAgICAgIE9rKCgpKQogICAgfQoKICAgIHB1YihzdXBlcikgZm4gb2JzZXJ2ZV9sb2dpbl9iYWNrb2ZmX3NoYWRvd19jb21wYXJpc29uKCZzZWxmLCBtYXRjaGVkOiBib29sLCBpcDogT3B0aW9uPCZzdHI+KSB7CiAgICAgICAgaWYgbWF0Y2hlZCB7CiAgICAgICAgICAgIGlmIHNlbGYudHlwZWRfbG9naW5fYmFja29mZl9zaGFkb3cubWFya19oZWFsdGh5KCkgewogICAgICAgICAgICAgICAgdHJhY2luZzo6aW5mbyEoInR5cGVkIGxvZ2luLWJhY2tvZmYgc2hhZG93IGNvbXBhcmlzb24gcmVjb3ZlcmVkIik7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBzZWxmLnR5cGVkX2xvZ2luX2JhY2tvZmZfc2hhZG93Lm1hcmtfbWlzbWF0Y2goKTsKICAgICAgICBpZiBsZXQgU29tZShpcCkgPSBpcCB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKAogICAgICAgICAgICAgICAgaXAsCiAgICAgICAgICAgICAgICAidHlwZWQgbG9naW4tYmFja29mZiBzaGFkb3cgZGlmZmVyZWQgZnJvbSB0aGUgY29tcGF0aWJpbGl0eSByZWNvcmQgYW5kIHdhcyByZXBhaXJlZCIKICAgICAgICAgICAgKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISgKICAgICAgICAgICAgICAgICJ0eXBlZCBsb2dpbi1iYWNrb2ZmIHNoYWRvdyBzZXQgZGlmZmVyZWQgZnJvbSB0aGUgY29tcGF0aWJpbGl0eSBrZXlzcGFjZSBhbmQgd2FzIHJlcGFpcmVkIgogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH0KfQo=
+use super::*;
+
+impl Store {
+    pub async fn set_nonce_if_not_exists(
+        &self,
+        nonce: &str,
+        ttl_seconds: usize,
+    ) -> crate::storage::StorageResult<bool> {
+        let matched = self.typed.typed_hmac_nonce.verify_and_repair(nonce).await?;
+        if matched {
+            if self.typed_hmac_nonce_shadow.mark_healthy() {
+                tracing::info!("typed HMAC nonce shadow comparison recovered");
+            }
+        } else {
+            self.typed_hmac_nonce_shadow.mark_mismatch();
+            tracing::warn!(
+                "typed HMAC nonce shadow differed from the compatibility replay guard and was repaired"
+            );
+        }
+        let mut conn = self.conn();
+        let key = format!("fn_knock:nonce:{nonce}");
+        let result: Option<String> = redis::cmd("SET")
+            .arg(key)
+            .arg("1")
+            .arg("EX")
+            .arg(ttl_seconds)
+            .arg("NX")
+            .query_async(&mut conn)
+            .await?;
+        Ok(result.as_deref() == Some("OK"))
+    }
+
+    pub async fn set_lock_if_not_exists(
+        &self,
+        lock_name: &str,
+        ttl_seconds: usize,
+    ) -> crate::storage::StorageResult<bool> {
+        let mut conn = self.conn();
+        let key = format!("fn_knock:lock:{lock_name}");
+        let result: Option<String> = redis::cmd("SET")
+            .arg(key)
+            .arg("1")
+            .arg("EX")
+            .arg(ttl_seconds.max(1))
+            .arg("NX")
+            .query_async(&mut conn)
+            .await?;
+        Ok(result.as_deref() == Some("OK"))
+    }
+
+    pub async fn get_login_backoff_status(
+        &self,
+        ip: &str,
+    ) -> crate::storage::StorageResult<LoginBackoffStatus> {
+        let mut conn = self.conn();
+        let raw: Option<String> = conn.get(login_backoff_key(ip)).await?;
+        self.verify_login_backoff_shadow(ip).await?;
+        Ok(login_backoff_status_from_raw(
+            ip,
+            raw.as_deref(),
+            crate::time_utils::now_ms(),
+        ))
+    }
+
+    pub async fn register_login_backoff_failure(
+        &self,
+        ip: &str,
+    ) -> crate::storage::StorageResult<LoginBackoffStatus> {
+        let now = crate::time_utils::now_ms();
+        let mut conn = self.conn();
+        let result: Vec<i64> = redis::cmd("EVAL")
+            .arg(LOGIN_BACKOFF_REGISTER_FAILURE_SCRIPT)
+            .arg(1)
+            .arg(login_backoff_key(ip))
+            .arg(ip)
+            .arg(now)
+            .arg(LOGIN_BACKOFF_TTL_SECONDS)
+            .arg(2000)
+            .arg(3_600_000)
+            .arg("0.4")
+            .query_async(&mut conn)
+            .await?;
+        let attempts = result.first().copied().unwrap_or_default();
+        let retry_after = result.get(1).copied().unwrap_or_default().max(0);
+        let blocked_until = result.get(2).copied();
+        Ok(LoginBackoffStatus {
+            ip: ip.to_string(),
+            attempts,
+            blocked: blocked_until.is_some_and(|until| now <= until),
+            retry_after: (retry_after > 0).then_some(retry_after),
+            blocked_until,
+        })
+    }
+
+    pub async fn reset_login_backoff(&self, ip: &str) -> crate::storage::StorageResult<()> {
+        let mut conn = self.conn();
+        conn.del(login_backoff_key(ip)).await
+    }
+
+    pub async fn list_blocked_login_backoffs(
+        &self,
+    ) -> crate::storage::StorageResult<Vec<LoginBackoffStatus>> {
+        let mut conn = self.conn();
+        let mut cursor = "0".to_string();
+        let mut keys = Vec::<String>::new();
+        loop {
+            let (next_cursor, batch): (String, Vec<String>) = redis::cmd("SCAN")
+                .arg(&cursor)
+                .arg("MATCH")
+                .arg(format!("{LOGIN_BACKOFF_PREFIX}*"))
+                .arg("COUNT")
+                .arg(100)
+                .query_async(&mut conn)
+                .await?;
+            keys.extend(batch);
+            if next_cursor == "0" {
+                break;
+            }
+            cursor = next_cursor;
+        }
+        if keys.is_empty() {
+            self.verify_all_login_backoff_shadows().await?;
+            return Ok(Vec::new());
+        }
+        let values: Vec<Option<String>> = redis::cmd("MGET")
+            .arg(keys.clone())
+            .query_async(&mut conn)
+            .await?;
+        let now = crate::time_utils::now_ms();
+        let mut items = Vec::new();
+        for (key, raw) in keys.into_iter().zip(values) {
+            let ip = key
+                .strip_prefix(LOGIN_BACKOFF_PREFIX)
+                .unwrap_or(&key)
+                .to_string();
+            let status = login_backoff_status_from_raw(&ip, raw.as_deref(), now);
+            if status.blocked {
+                items.push(status);
+            }
+        }
+        self.verify_all_login_backoff_shadows().await?;
+        items.sort_by(|left, right| {
+            right
+                .retry_after
+                .unwrap_or_default()
+                .cmp(&left.retry_after.unwrap_or_default())
+        });
+        Ok(items)
+    }
+
+    pub(super) async fn verify_login_backoff_shadow(
+        &self,
+        ip: &str,
+    ) -> crate::storage::StorageResult<()> {
+        let matched = self.typed.typed_login_backoff.verify_and_repair(ip).await?;
+        self.observe_login_backoff_shadow_comparison(matched, Some(ip));
+        Ok(())
+    }
+
+    pub(super) async fn verify_all_login_backoff_shadows(
+        &self,
+    ) -> crate::storage::StorageResult<()> {
+        let matched = self
+            .typed
+            .typed_login_backoff
+            .verify_and_repair_all()
+            .await?;
+        self.observe_login_backoff_shadow_comparison(matched, None);
+        Ok(())
+    }
+
+    pub(super) fn observe_login_backoff_shadow_comparison(&self, matched: bool, ip: Option<&str>) {
+        if matched {
+            if self.typed_login_backoff_shadow.mark_healthy() {
+                tracing::info!("typed login-backoff shadow comparison recovered");
+            }
+            return;
+        }
+        self.typed_login_backoff_shadow.mark_mismatch();
+        if let Some(ip) = ip {
+            tracing::warn!(
+                ip,
+                "typed login-backoff shadow differed from the compatibility record and was repaired"
+            );
+        } else {
+            tracing::warn!(
+                "typed login-backoff shadow set differed from the compatibility keyspace and was repaired"
+            );
+        }
+    }
+}

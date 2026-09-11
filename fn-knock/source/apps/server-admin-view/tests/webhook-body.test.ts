@@ -1,1 +1,209 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgewogIGJ1aWxkU2NoZW1hUGF5bG9hZCwKICBjcmVhdGVFZGl0YWJsZVNjaGVtYVJlY29yZCwKfSBmcm9tICIuLi9zcmMvdmlld3MvZXZlbnQtY2VudGVyL25vdGlmaWNhdGlvbnMvZm9ybS11dGlscyI7CmltcG9ydCB7IGJ1aWxkUnVsZVRhcmdldENvbmZpZ1BheWxvYWQgfSBmcm9tICIuLi9zcmMvdmlld3MvZXZlbnQtY2VudGVyL25vdGlmaWNhdGlvbnMvcnVsZS1mb3JtIjsKaW1wb3J0IHsKICBERUZBVUxUX1dFQkhPT0tfQk9EWV9DT05TVFJBSU5UUywKICBub3JtYWxpemVXZWJob29rQm9keUNvbmZpZywKICBwYXJzZVdlYmhvb2tTYW1wbGVDb250ZXh0LAogIHZhbGlkYXRlV2ViaG9va0JvZHlDb25maWcsCiAgdmFsaWRhdGVXZWJob29rU2FtcGxlQ29udGV4dCwKfSBmcm9tICIuLi9zcmMvdmlld3MvZXZlbnQtY2VudGVyL25vdGlmaWNhdGlvbnMvd2ViaG9vay1ib2R5IjsKaW1wb3J0IHR5cGUgewogIE5vdGlmaWNhdGlvblByb3ZpZGVyRGVmaW5pdGlvbiwKICBOb3RpZmljYXRpb25TY2hlbWFGaWVsZCwKfSBmcm9tICIuLi9zcmMvdHlwZXMiOwoKY29uc3QgcHJvdmlkZXJCb2R5RmllbGQ6IE5vdGlmaWNhdGlvblNjaGVtYUZpZWxkID0gewogIGtleTogImJvZHlfY29uZmlnIiwKICBsYWJlbDogIlJlcXVlc3QgYm9keSIsCiAgdHlwZTogIndlYmhvb2tfYm9keSIsCiAgc2Vuc2l0aXZlOiB0cnVlLAogIGRlZmF1bHRfdmFsdWU6IHsgbW9kZTogInN0YW5kYXJkIiB9LAogIGNvbnN0cmFpbnRzOiBERUZBVUxUX1dFQkhPT0tfQk9EWV9DT05TVFJBSU5UUywKfTsKCmRlc2NyaWJlKCJ3ZWJob29rIGJvZHkgZm9ybSBoZWxwZXJzIiwgKCkgPT4gewogIGl0KCJyb3VuZC10cmlwcyBhIGN1c3RvbSBjb25maWcgYW5kIG9taXRzIHRyYW5zaWVudCBwcmV2aWV3IHN0YXRlIiwgKCkgPT4gewogICAgY29uc3Qgc291cmNlID0gewogICAgICBib2R5X2NvbmZpZzogewogICAgICAgIG1vZGU6ICJjdXN0b20iLAogICAgICAgIGZvcm1hdDogInRleHQiLAogICAgICAgIGNvbnRlbnRfdHlwZTogIiB0ZXh0L3BsYWluOyBjaGFyc2V0PXV0Zi04ICIsCiAgICAgICAgdGVtcGxhdGU6ICJ7e21lc3NhZ2UudGl0bGV9fSIsCiAgICAgIH0sCiAgICB9OwogICAgY29uc3QgZWRpdGFibGUgPSBjcmVhdGVFZGl0YWJsZVNjaGVtYVJlY29yZChbcHJvdmlkZXJCb2R5RmllbGRdLCBzb3VyY2UpOwogICAgZWRpdGFibGUuX193ZWJob29rX3NhbXBsZV9jb250ZXh0ID0KICAgICAgJ3siZXZlbnQiOnsicGF5bG9hZCI6eyJpcCI6IjE5Mi4wLjIuMSJ9fX0nOwogICAgZWRpdGFibGUuX193ZWJob29rX2JvZHlfcHJldmlldyA9IHsgYm9keTogInNlY3JldCBwcmV2aWV3IiB9OwogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgYnVpbGRTY2hlbWFQYXlsb2FkKHsgZmllbGRzOiBbcHJvdmlkZXJCb2R5RmllbGRdLCB2YWx1ZTogZWRpdGFibGUgfSksCiAgICAgIHsKICAgICAgICBib2R5X2NvbmZpZzogewogICAgICAgICAgbW9kZTogImN1c3RvbSIsCiAgICAgICAgICBmb3JtYXQ6ICJ0ZXh0IiwKICAgICAgICAgIGNvbnRlbnRfdHlwZTogInRleHQvcGxhaW47IGNoYXJzZXQ9dXRmLTgiLAogICAgICAgICAgdGVtcGxhdGU6ICJ7e21lc3NhZ2UudGl0bGV9fSIsCiAgICAgICAgfSwKICAgICAgfSwKICAgICk7CiAgfSk7CgogIGl0KCJrZWVwcyBoaWRkZW4gbGVnYWN5IHdlYmhvb2sgZGF0YSBpbiBydWxlIHNhdmUgYW5kIHRlc3QgcGF5bG9hZHMiLCAoKSA9PiB7CiAgICBjb25zdCB0YXJnZXRCb2R5RmllbGQ6IE5vdGlmaWNhdGlvblNjaGVtYUZpZWxkID0gewogICAgICAuLi5wcm92aWRlckJvZHlGaWVsZCwKICAgICAga2V5OiAiYm9keV9vdmVycmlkZSIsCiAgICAgIHNlbnNpdGl2ZTogZmFsc2UsCiAgICAgIGRlZmF1bHRfdmFsdWU6IHsgbW9kZTogImluaGVyaXQiIH0sCiAgICAgIGNvbnN0cmFpbnRzOiB7CiAgICAgICAgLi4uREVGQVVMVF9XRUJIT09LX0JPRFlfQ09OU1RSQUlOVFMsCiAgICAgICAgc2NvcGU6ICJ0YXJnZXQiLAogICAgICB9LAogICAgfTsKICAgIGNvbnN0IGRlZmluaXRpb24gPSB7CiAgICAgIHR5cGU6ICJ3ZWJob29rIiwKICAgICAgdGFyZ2V0X3NjaGVtYTogW3RhcmdldEJvZHlGaWVsZF0sCiAgICB9IGFzIE5vdGlmaWNhdGlvblByb3ZpZGVyRGVmaW5pdGlvbjsKICAgIGNvbnN0IHRhcmdldCA9IHsKICAgICAgcHJvdmlkZXJfaWQ6ICJudGZwcm92X3dlYmhvb2siLAogICAgICB0YXJnZXRfY29uZmlnOiB7CiAgICAgICAgYm9keV9vdmVycmlkZTogeyBtb2RlOiAiaW5oZXJpdCIgfSwKICAgICAgICBleHRyYV9oZWFkZXJzX2pzb246IHsgQXV0aG9yaXphdGlvbjogIkJlYXJlciBsZWdhY3kiIH0sCiAgICAgICAgZXh0cmFfYm9keV9qc29uOiB7IGxlZ2FjeTogdHJ1ZSB9LAogICAgICAgIF9fd2ViaG9va19zYW1wbGVfY29udGV4dDogInt9IiwKICAgICAgfSwKICAgICAgZGVsaXZlcnlfcG9saWN5OiB7CiAgICAgICAgdGltZW91dF9zZWNvbmRzOiAiIiwKICAgICAgICBtYXhfYXR0ZW1wdHM6ICIiLAogICAgICAgIGJhY2tvZmZfc2Vjb25kczogIiIsCiAgICAgIH0sCiAgICAgIHRlbXBsYXRlX292ZXJyaWRlX21vZGU6ICJpbmhlcml0IiBhcyBjb25zdCwKICAgICAgdGVtcGxhdGVfb3ZlcnJpZGU6IG51bGwsCiAgICB9OwogICAgYXNzZXJ0LmRlZXBFcXVhbChidWlsZFJ1bGVUYXJnZXRDb25maWdQYXlsb2FkKHsgdGFyZ2V0LCBkZWZpbml0aW9uIH0pLCB7CiAgICAgIGJvZHlfb3ZlcnJpZGU6IHsgbW9kZTogImluaGVyaXQiIH0sCiAgICAgIGV4dHJhX2hlYWRlcnNfanNvbjogeyBBdXRob3JpemF0aW9uOiAiQmVhcmVyIGxlZ2FjeSIgfSwKICAgICAgZXh0cmFfYm9keV9qc29uOiB7IGxlZ2FjeTogdHJ1ZSB9LAogICAgfSk7CiAgfSk7CgogIGl0KCJub3JtYWxpemVzIHByb3ZpZGVyIGFuZCB0YXJnZXQgZGVmYXVsdHMgd2l0aG91dCBpbnZlbnRpbmcgdGVtcGxhdGVzIiwgKCkgPT4gewogICAgYXNzZXJ0LmRlZXBFcXVhbChub3JtYWxpemVXZWJob29rQm9keUNvbmZpZyh1bmRlZmluZWQsICJwcm92aWRlciIpLCB7CiAgICAgIG1vZGU6ICJzdGFuZGFyZCIsCiAgICB9KTsKICAgIGFzc2VydC5kZWVwRXF1YWwobm9ybWFsaXplV2ViaG9va0JvZHlDb25maWcodW5kZWZpbmVkLCAidGFyZ2V0IiksIHsKICAgICAgbW9kZTogImluaGVyaXQiLAogICAgfSk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBub3JtYWxpemVXZWJob29rQm9keUNvbmZpZygKICAgICAgICB7IG1vZGU6ICJjdXN0b20iLCBmb3JtYXQ6ICJqc29uIiwgdGVtcGxhdGU6ICJ7fSIgfSwKICAgICAgICAicHJvdmlkZXIiLAogICAgICApLAogICAgICB7CiAgICAgICAgbW9kZTogImN1c3RvbSIsCiAgICAgICAgZm9ybWF0OiAianNvbiIsCiAgICAgICAgY29udGVudF90eXBlOiAiYXBwbGljYXRpb24vanNvbiIsCiAgICAgICAgdGVtcGxhdGU6ICJ7fSIsCiAgICAgIH0sCiAgICApOwogIH0pOwoKICBpdCgicmVqZWN0cyBpbnZhbGlkIEpTT04sIHVuc2FmZSByb290cywgTUlNRSB2YWx1ZXMsIGFuZCBjb25maWd1cmVkIGxpbWl0cyIsICgpID0+IHsKICAgIGNvbnN0IHZhbGlkYXRlID0gKHZhbHVlOiB1bmtub3duKSA9PgogICAgICB2YWxpZGF0ZVdlYmhvb2tCb2R5Q29uZmlnKAogICAgICAgIHZhbHVlLAogICAgICAgIERFRkFVTFRfV0VCSE9PS19CT0RZX0NPTlNUUkFJTlRTLAogICAgICAgICJwcm92aWRlciIsCiAgICAgICkubWFwKChpc3N1ZSkgPT4gaXNzdWUuY29kZSk7CiAgICBhc3NlcnQub2soCiAgICAgIHZhbGlkYXRlKHsgbW9kZTogImN1c3RvbSIsIGZvcm1hdDogImpzb24iLCB0ZW1wbGF0ZTogInsiIH0pLmluY2x1ZGVzKAogICAgICAgICJpbnZhbGlkSnNvbiIsCiAgICAgICksCiAgICApOwogICAgYXNzZXJ0Lm9rKHZhbGlkYXRlKDApLmluY2x1ZGVzKCJpbnZhbGlkTW9kZSIpKTsKICAgIGFzc2VydC5vayh2YWxpZGF0ZSh7IG1vZGU6IHRydWUgfSkuaW5jbHVkZXMoImludmFsaWRNb2RlIikpOwogICAgYXNzZXJ0Lm9rKAogICAgICB2YWxpZGF0ZSh7IG1vZGU6ICJjdXN0b20iLCBmb3JtYXQ6IGZhbHNlLCB0ZW1wbGF0ZTogInt9IiB9KS5pbmNsdWRlcygKICAgICAgICAiaW52YWxpZEZvcm1hdCIsCiAgICAgICksCiAgICApOwogICAgYXNzZXJ0Lm9rKAogICAgICB2YWxpZGF0ZSh7IG1vZGU6ICJjdXN0b20iLCBmb3JtYXQ6ICJ0ZXh0IiwgdGVtcGxhdGU6IDQyIH0pLmluY2x1ZGVzKAogICAgICAgICJ0ZW1wbGF0ZVJlcXVpcmVkIiwKICAgICAgKSwKICAgICk7CiAgICBhc3NlcnQub2soCiAgICAgIHZhbGlkYXRlKHsKICAgICAgICBtb2RlOiAiY3VzdG9tIiwKICAgICAgICBmb3JtYXQ6ICJ0ZXh0IiwKICAgICAgICB0ZW1wbGF0ZTogIiIsCiAgICAgICAgY29udGVudF90eXBlOiA0MiwKICAgICAgfSkuaW5jbHVkZXMoImludmFsaWRDb250ZW50VHlwZSIpLAogICAgKTsKICAgIGFzc2VydC5vaygKICAgICAgdmFsaWRhdGUoewogICAgICAgIG1vZGU6ICJjdXN0b20iLAogICAgICAgIGZvcm1hdDogInRleHQiLAogICAgICAgIHRlbXBsYXRlOiAie3tzaGFyZWRfc2VjcmV0fX0iLAogICAgICB9KS5pbmNsdWRlcygiaW52YWxpZFZhcmlhYmxlIiksCiAgICApOwogICAgYXNzZXJ0Lm9rKAogICAgICB2YWxpZGF0ZSh7CiAgICAgICAgbW9kZTogImN1c3RvbSIsCiAgICAgICAgZm9ybWF0OiAidGV4dCIsCiAgICAgICAgdGVtcGxhdGU6ICJvayIsCiAgICAgICAgY29udGVudF90eXBlOiAidGV4dC9wbGFpblxyXG5YLUV2aWw6IHllcyIsCiAgICAgIH0pLmluY2x1ZGVzKCJpbnZhbGlkQ29udGVudFR5cGUiKSwKICAgICk7CiAgICBhc3NlcnQub2soCiAgICAgIHZhbGlkYXRlV2ViaG9va0JvZHlDb25maWcoCiAgICAgICAgeyBtb2RlOiAiY3VzdG9tIiwgZm9ybWF0OiAidGV4dCIsIHRlbXBsYXRlOiAiMTIzNDUiIH0sCiAgICAgICAgeyAuLi5ERUZBVUxUX1dFQkhPT0tfQk9EWV9DT05TVFJBSU5UUywgbWF4X3RlbXBsYXRlX2J5dGVzOiA0IH0sCiAgICAgICAgInByb3ZpZGVyIiwKICAgICAgKS5zb21lKChpc3N1ZSkgPT4gaXNzdWUuY29kZSA9PT0gInRlbXBsYXRlVG9vTGFyZ2UiKSwKICAgICk7CiAgICBhc3NlcnQub2soCiAgICAgIHZhbGlkYXRlV2ViaG9va0JvZHlDb25maWcoCiAgICAgICAgewogICAgICAgICAgbW9kZTogImN1c3RvbSIsCiAgICAgICAgICBmb3JtYXQ6ICJ0ZXh0IiwKICAgICAgICAgIHRlbXBsYXRlOiAie3ttZXNzYWdlLnRpdGxlfX17e2V2ZW50LmlkfX0iLAogICAgICAgIH0sCiAgICAgICAgeyAuLi5ERUZBVUxUX1dFQkhPT0tfQk9EWV9DT05TVFJBSU5UUywgbWF4X3BsYWNlaG9sZGVyczogMSB9LAogICAgICAgICJwcm92aWRlciIsCiAgICAgICkuc29tZSgoaXNzdWUpID0+IGlzc3VlLmNvZGUgPT09ICJ0b29NYW55VmFyaWFibGVzIiksCiAgICApOwogIH0pOwoKICBpdCgiYWNjZXB0cyBvbmx5IEpTT04gb2JqZWN0cyBhcyB0ZW1wb3Jhcnkgc2FtcGxlIGNvbnRleHQiLCAoKSA9PiB7CiAgICBhc3NlcnQuZGVlcEVxdWFsKHBhcnNlV2ViaG9va1NhbXBsZUNvbnRleHQoJ3siZXZlbnQiOnsiaWQiOiJldnRfMSJ9fScpLCB7CiAgICAgIGV2ZW50OiB7IGlkOiAiZXZ0XzEiIH0sCiAgICB9KTsKICAgIGFzc2VydC5lcXVhbChwYXJzZVdlYmhvb2tTYW1wbGVDb250ZXh0KCIiKSwgdW5kZWZpbmVkKTsKICAgIGFzc2VydC50aHJvd3MoKCkgPT4gcGFyc2VXZWJob29rU2FtcGxlQ29udGV4dCgiW10iKSk7CiAgICBhc3NlcnQudGhyb3dzKCgpID0+IHBhcnNlV2ViaG9va1NhbXBsZUNvbnRleHQoIm5vdC1qc29uIikpOwogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgdmFsaWRhdGVXZWJob29rU2FtcGxlQ29udGV4dCgiW10iLCBERUZBVUxUX1dFQkhPT0tfQk9EWV9DT05TVFJBSU5UUykubWFwKAogICAgICAgIChpc3N1ZSkgPT4gaXNzdWUuY29kZSwKICAgICAgKSwKICAgICAgWyJpbnZhbGlkU2FtcGxlIl0sCiAgICApOwogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgdmFsaWRhdGVXZWJob29rU2FtcGxlQ29udGV4dChKU09OLnN0cmluZ2lmeSh7IHZhbHVlOiAiMTIzNDUiIH0pLCB7CiAgICAgICAgLi4uREVGQVVMVF9XRUJIT09LX0JPRFlfQ09OU1RSQUlOVFMsCiAgICAgICAgbWF4X3NhbXBsZV9ieXRlczogNCwKICAgICAgfSkubWFwKChpc3N1ZSkgPT4gaXNzdWUuY29kZSksCiAgICAgIFsic2FtcGxlVG9vTGFyZ2UiXSwKICAgICk7CiAgICBhc3NlcnQudGhyb3dzKCgpID0+CiAgICAgIHBhcnNlV2ViaG9va1NhbXBsZUNvbnRleHQoSlNPTi5zdHJpbmdpZnkoeyB2YWx1ZTogIjEyMzQ1IiB9KSwgewogICAgICAgIC4uLkRFRkFVTFRfV0VCSE9PS19CT0RZX0NPTlNUUkFJTlRTLAogICAgICAgIG1heF9zYW1wbGVfYnl0ZXM6IDQsCiAgICAgIH0pLAogICAgKTsKICB9KTsKfSk7Cg==
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import {
+  buildSchemaPayload,
+  createEditableSchemaRecord,
+} from "../src/views/event-center/notifications/form-utils";
+import { buildRuleTargetConfigPayload } from "../src/views/event-center/notifications/rule-form";
+import {
+  DEFAULT_WEBHOOK_BODY_CONSTRAINTS,
+  normalizeWebhookBodyConfig,
+  parseWebhookSampleContext,
+  validateWebhookBodyConfig,
+  validateWebhookSampleContext,
+} from "../src/views/event-center/notifications/webhook-body";
+import type {
+  NotificationProviderDefinition,
+  NotificationSchemaField,
+} from "../src/types";
+
+const providerBodyField: NotificationSchemaField = {
+  key: "body_config",
+  label: "Request body",
+  type: "webhook_body",
+  sensitive: true,
+  default_value: { mode: "standard" },
+  constraints: DEFAULT_WEBHOOK_BODY_CONSTRAINTS,
+};
+
+describe("webhook body form helpers", () => {
+  it("round-trips a custom config and omits transient preview state", () => {
+    const source = {
+      body_config: {
+        mode: "custom",
+        format: "text",
+        content_type: " text/plain; charset=utf-8 ",
+        template: "{{message.title}}",
+      },
+    };
+    const editable = createEditableSchemaRecord([providerBodyField], source);
+    editable.__webhook_sample_context =
+      '{"event":{"payload":{"ip":"192.0.2.1"}}}';
+    editable.__webhook_body_preview = { body: "secret preview" };
+    assert.deepEqual(
+      buildSchemaPayload({ fields: [providerBodyField], value: editable }),
+      {
+        body_config: {
+          mode: "custom",
+          format: "text",
+          content_type: "text/plain; charset=utf-8",
+          template: "{{message.title}}",
+        },
+      },
+    );
+  });
+
+  it("keeps hidden legacy webhook data in rule save and test payloads", () => {
+    const targetBodyField: NotificationSchemaField = {
+      ...providerBodyField,
+      key: "body_override",
+      sensitive: false,
+      default_value: { mode: "inherit" },
+      constraints: {
+        ...DEFAULT_WEBHOOK_BODY_CONSTRAINTS,
+        scope: "target",
+      },
+    };
+    const definition = {
+      type: "webhook",
+      target_schema: [targetBodyField],
+    } as NotificationProviderDefinition;
+    const target = {
+      provider_id: "ntfprov_webhook",
+      target_config: {
+        body_override: { mode: "inherit" },
+        extra_headers_json: { Authorization: "Bearer legacy" },
+        extra_body_json: { legacy: true },
+        __webhook_sample_context: "{}",
+      },
+      delivery_policy: {
+        timeout_seconds: "",
+        max_attempts: "",
+        backoff_seconds: "",
+      },
+      template_override_mode: "inherit" as const,
+      template_override: null,
+    };
+    assert.deepEqual(buildRuleTargetConfigPayload({ target, definition }), {
+      body_override: { mode: "inherit" },
+      extra_headers_json: { Authorization: "Bearer legacy" },
+      extra_body_json: { legacy: true },
+    });
+  });
+
+  it("normalizes provider and target defaults without inventing templates", () => {
+    assert.deepEqual(normalizeWebhookBodyConfig(undefined, "provider"), {
+      mode: "standard",
+    });
+    assert.deepEqual(normalizeWebhookBodyConfig(undefined, "target"), {
+      mode: "inherit",
+    });
+    assert.deepEqual(
+      normalizeWebhookBodyConfig(
+        { mode: "custom", format: "json", template: "{}" },
+        "provider",
+      ),
+      {
+        mode: "custom",
+        format: "json",
+        content_type: "application/json",
+        template: "{}",
+      },
+    );
+  });
+
+  it("rejects invalid JSON, unsafe roots, MIME values, and configured limits", () => {
+    const validate = (value: unknown) =>
+      validateWebhookBodyConfig(
+        value,
+        DEFAULT_WEBHOOK_BODY_CONSTRAINTS,
+        "provider",
+      ).map((issue) => issue.code);
+    assert.ok(
+      validate({ mode: "custom", format: "json", template: "{" }).includes(
+        "invalidJson",
+      ),
+    );
+    assert.ok(validate(0).includes("invalidMode"));
+    assert.ok(validate({ mode: true }).includes("invalidMode"));
+    assert.ok(
+      validate({ mode: "custom", format: false, template: "{}" }).includes(
+        "invalidFormat",
+      ),
+    );
+    assert.ok(
+      validate({ mode: "custom", format: "text", template: 42 }).includes(
+        "templateRequired",
+      ),
+    );
+    assert.ok(
+      validate({
+        mode: "custom",
+        format: "text",
+        template: "",
+        content_type: 42,
+      }).includes("invalidContentType"),
+    );
+    assert.ok(
+      validate({
+        mode: "custom",
+        format: "text",
+        template: "{{shared_secret}}",
+      }).includes("invalidVariable"),
+    );
+    assert.ok(
+      validate({
+        mode: "custom",
+        format: "text",
+        template: "ok",
+        content_type: "text/plain\r\nX-Evil: yes",
+      }).includes("invalidContentType"),
+    );
+    assert.ok(
+      validateWebhookBodyConfig(
+        { mode: "custom", format: "text", template: "12345" },
+        { ...DEFAULT_WEBHOOK_BODY_CONSTRAINTS, max_template_bytes: 4 },
+        "provider",
+      ).some((issue) => issue.code === "templateTooLarge"),
+    );
+    assert.ok(
+      validateWebhookBodyConfig(
+        {
+          mode: "custom",
+          format: "text",
+          template: "{{message.title}}{{event.id}}",
+        },
+        { ...DEFAULT_WEBHOOK_BODY_CONSTRAINTS, max_placeholders: 1 },
+        "provider",
+      ).some((issue) => issue.code === "tooManyVariables"),
+    );
+  });
+
+  it("accepts only JSON objects as temporary sample context", () => {
+    assert.deepEqual(parseWebhookSampleContext('{"event":{"id":"evt_1"}}'), {
+      event: { id: "evt_1" },
+    });
+    assert.equal(parseWebhookSampleContext(""), undefined);
+    assert.throws(() => parseWebhookSampleContext("[]"));
+    assert.throws(() => parseWebhookSampleContext("not-json"));
+    assert.deepEqual(
+      validateWebhookSampleContext("[]", DEFAULT_WEBHOOK_BODY_CONSTRAINTS).map(
+        (issue) => issue.code,
+      ),
+      ["invalidSample"],
+    );
+    assert.deepEqual(
+      validateWebhookSampleContext(JSON.stringify({ value: "12345" }), {
+        ...DEFAULT_WEBHOOK_BODY_CONSTRAINTS,
+        max_sample_bytes: 4,
+      }).map((issue) => issue.code),
+      ["sampleTooLarge"],
+    );
+    assert.throws(() =>
+      parseWebhookSampleContext(JSON.stringify({ value: "12345" }), {
+        ...DEFAULT_WEBHOOK_BODY_CONSTRAINTS,
+        max_sample_bytes: 4,
+      }),
+    );
+  });
+});

@@ -1,1 +1,47 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBmcnBjX2Vycm9yKHN0YXR1czogU3RhdHVzQ29kZSwgbWVzc2FnZTogaW1wbCBJbnRvPFN0cmluZz4pIC0+IEZycGNIdHRwRXJyb3IgewogICAgRnJwY0h0dHBFcnJvciB7CiAgICAgICAgc3RhdHVzLAogICAgICAgIG1lc3NhZ2U6IG1lc3NhZ2UuaW50bygpLAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGZycGNfaW50ZXJuYWwoZXJyb3I6IGltcGwgc3RkOjpmbXQ6OkRpc3BsYXkpIC0+IEZycGNIdHRwRXJyb3IgewogICAgZnJwY19lcnJvcihTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsIGVycm9yLnRvX3N0cmluZygpKQp9CgpwdWIoc3VwZXIpIGZuIGZycGNfdmFsaWRhdGlvbihtZXNzYWdlOiBpbXBsIEludG88U3RyaW5nPikgLT4gRnJwY0h0dHBFcnJvciB7CiAgICBmcnBjX2Vycm9yKFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULCBtZXNzYWdlKQp9CgpwdWIoc3VwZXIpIGZuIGZycGNfbm90X2ZvdW5kKGlkOiAmc3RyKSAtPiBGcnBjSHR0cEVycm9yIHsKICAgIGZycGNfZXJyb3IoCiAgICAgICAgU3RhdHVzQ29kZTo6Tk9UX0ZPVU5ELAogICAgICAgIGZvcm1hdCEoIkZSUEMgaW5zdGFuY2Ugbm90IGZvdW5kOiB7aWR9IiksCiAgICApCn0KCmltcGwgRnJvbTxhbnlob3c6OkVycm9yPiBmb3IgRnJwY0h0dHBFcnJvciB7CiAgICBmbiBmcm9tKHZhbHVlOiBhbnlob3c6OkVycm9yKSAtPiBTZWxmIHsKICAgICAgICBmcnBjX2ludGVybmFsKHZhbHVlKQogICAgfQp9CgppbXBsIEZyb208c3RkOjppbzo6RXJyb3I+IGZvciBGcnBjSHR0cEVycm9yIHsKICAgIGZuIGZyb20odmFsdWU6IHN0ZDo6aW86OkVycm9yKSAtPiBTZWxmIHsKICAgICAgICBmcnBjX2ludGVybmFsKHZhbHVlKQogICAgfQp9CgppbXBsIEZyb208Y3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VFcnJvcj4gZm9yIEZycGNIdHRwRXJyb3IgewogICAgZm4gZnJvbSh2YWx1ZTogY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VFcnJvcikgLT4gU2VsZiB7CiAgICAgICAgZnJwY19pbnRlcm5hbCh2YWx1ZSkKICAgIH0KfQoKaW1wbCBGcm9tPHNlcmRlX2pzb246OkVycm9yPiBmb3IgRnJwY0h0dHBFcnJvciB7CiAgICBmbiBmcm9tKHZhbHVlOiBzZXJkZV9qc29uOjpFcnJvcikgLT4gU2VsZiB7CiAgICAgICAgZnJwY19pbnRlcm5hbCh2YWx1ZSkKICAgIH0KfQo=
+use super::*;
+
+pub(super) fn frpc_error(status: StatusCode, message: impl Into<String>) -> FrpcHttpError {
+    FrpcHttpError {
+        status,
+        message: message.into(),
+    }
+}
+
+pub(super) fn frpc_internal(error: impl std::fmt::Display) -> FrpcHttpError {
+    frpc_error(StatusCode::INTERNAL_SERVER_ERROR, error.to_string())
+}
+
+pub(super) fn frpc_validation(message: impl Into<String>) -> FrpcHttpError {
+    frpc_error(StatusCode::BAD_REQUEST, message)
+}
+
+pub(super) fn frpc_not_found(id: &str) -> FrpcHttpError {
+    frpc_error(
+        StatusCode::NOT_FOUND,
+        format!("FRPC instance not found: {id}"),
+    )
+}
+
+impl From<anyhow::Error> for FrpcHttpError {
+    fn from(value: anyhow::Error) -> Self {
+        frpc_internal(value)
+    }
+}
+
+impl From<std::io::Error> for FrpcHttpError {
+    fn from(value: std::io::Error) -> Self {
+        frpc_internal(value)
+    }
+}
+
+impl From<crate::storage::StorageError> for FrpcHttpError {
+    fn from(value: crate::storage::StorageError) -> Self {
+        frpc_internal(value)
+    }
+}
+
+impl From<serde_json::Error> for FrpcHttpError {
+    fn from(value: serde_json::Error) -> Self {
+        frpc_internal(value)
+    }
+}

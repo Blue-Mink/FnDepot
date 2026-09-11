@@ -1,1 +1,1 @@
-ZXhwb3J0IHsgZGVmYXVsdCBhcyBUZXh0YXJlYSB9IGZyb20gIi4vVGV4dGFyZWEudnVlIgo=
+export { default as Textarea } from "./Textarea.vue"

@@ -1,1 +1,302 @@
-I1tjZmcodGFyZ2V0X29zID0gImxpbnV4IildCnB1YihjcmF0ZSkgZm4gaG9zdF9tZW1vcnlfYnl0ZXMoKSAtPiAoT3B0aW9uPHU2ND4sIE9wdGlvbjx1NjQ+KSB7CiAgICBsZXQgT2soY29udGVudCkgPSBzdGQ6OmZzOjpyZWFkX3RvX3N0cmluZygiL3Byb2MvbWVtaW5mbyIpIGVsc2UgewogICAgICAgIHJldHVybiAoTm9uZSwgTm9uZSk7CiAgICB9OwogICAgbGV0IHJlYWRfa2liID0gfG5hbWU6ICZzdHJ8IHsKICAgICAgICBjb250ZW50CiAgICAgICAgICAgIC5saW5lcygpCiAgICAgICAgICAgIC5maW5kKHxsaW5lfCBsaW5lLnN0YXJ0c193aXRoKG5hbWUpKQogICAgICAgICAgICAuYW5kX3RoZW4ofGxpbmV8IGxpbmUuc3BsaXRfd2hpdGVzcGFjZSgpLm50aCgxKSkKICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUucGFyc2U6Ojx1NjQ+KCkub2soKSkKICAgICAgICAgICAgLm1hcCh8dmFsdWV8IHZhbHVlLnNhdHVyYXRpbmdfbXVsKDEwMjQpKQogICAgfTsKICAgIChyZWFkX2tpYigiTWVtVG90YWw6IiksIHJlYWRfa2liKCJNZW1BdmFpbGFibGU6IikpCn0KCnB1YihjcmF0ZSkgZm4gZWZmZWN0aXZlX21lbW9yeV9ieXRlcygpIC0+IChPcHRpb248dTY0PiwgT3B0aW9uPHU2ND4pIHsKICAgIGxldCAoaG9zdF90b3RhbCwgaG9zdF9hdmFpbGFibGUpID0gaG9zdF9tZW1vcnlfYnl0ZXMoKTsKICAgICNbY2ZnKHRhcmdldF9vcyA9ICJsaW51eCIpXQogICAgewogICAgICAgIGlmIGxldCBTb21lKChsaW1pdCwgY2dyb3VwX2F2YWlsYWJsZSkpID0gbGludXhfY2dyb3VwX21lbW9yeV9ieXRlcygpIHsKICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgIFNvbWUoaG9zdF90b3RhbC5tYXBfb3IobGltaXQsIHx2YWx1ZXwgdmFsdWUubWluKGxpbWl0KSkpLAogICAgICAgICAgICAgICAgU29tZShob3N0X2F2YWlsYWJsZS5tYXBfb3IoY2dyb3VwX2F2YWlsYWJsZSwgfHZhbHVlfCB2YWx1ZS5taW4oY2dyb3VwX2F2YWlsYWJsZSkpKSwKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICB9CiAgICAoaG9zdF90b3RhbCwgaG9zdF9hdmFpbGFibGUpCn0KCiNbY2ZnKHRhcmdldF9vcyA9ICJsaW51eCIpXQpmbiBsaW51eF9jZ3JvdXBfbWVtb3J5X2J5dGVzKCkgLT4gT3B0aW9uPCh1NjQsIHU2NCk+IHsKICAgIGxldCBjZ3JvdXAgPSBzdGQ6OmZzOjpyZWFkX3RvX3N0cmluZygiL3Byb2Mvc2VsZi9jZ3JvdXAiKS5vaygpPzsKICAgIGxldCBtb3VudGluZm8gPSBzdGQ6OmZzOjpyZWFkX3RvX3N0cmluZygiL3Byb2Mvc2VsZi9tb3VudGluZm8iKS5vaygpPzsKICAgIGZvciBsYXlvdXQgaW4gY2dyb3VwX21lbW9yeV9sYXlvdXRzKCZjZ3JvdXAsICZtb3VudGluZm8pIHsKICAgICAgICBpZiBsZXQgU29tZShzYW1wbGUpID0gcmVhZF9jZ3JvdXBfbWVtb3J5X2xheW91dCgmbGF5b3V0KSB7CiAgICAgICAgICAgIHJldHVybiBTb21lKHNhbXBsZSk7CiAgICAgICAgfQogICAgfQogICAgTm9uZQp9CgojW2NmZyhhbnkodGFyZ2V0X29zID0gImxpbnV4IiwgdGVzdCkpXQojW2Rlcml2ZShEZWJ1ZywgUGFydGlhbEVxLCBFcSldCnN0cnVjdCBDZ3JvdXBNZW1vcnlMYXlvdXQgewogICAgbW91bnRfcG9pbnQ6IHN0ZDo6cGF0aDo6UGF0aEJ1ZiwKICAgIGxlYWY6IHN0ZDo6cGF0aDo6UGF0aEJ1ZiwKICAgIGxpbWl0X2ZpbGU6ICYnc3RhdGljIHN0ciwKICAgIHVzYWdlX2ZpbGU6ICYnc3RhdGljIHN0ciwKfQoKI1tjZmcoYW55KHRhcmdldF9vcyA9ICJsaW51eCIsIHRlc3QpKV0KZm4gY2dyb3VwX21lbW9yeV9sYXlvdXRzKGNncm91cDogJnN0ciwgbW91bnRpbmZvOiAmc3RyKSAtPiBWZWM8Q2dyb3VwTWVtb3J5TGF5b3V0PiB7CiAgICBsZXQgZ3JvdXBzID0gY2dyb3VwLmxpbmVzKCkuZmlsdGVyX21hcCh8bGluZXwgewogICAgICAgIGxldCBtdXQgZmllbGRzID0gbGluZS5zcGxpdG4oMywgJzonKTsKICAgICAgICBsZXQgX2hpZXJhcmNoeSA9IGZpZWxkcy5uZXh0KCk/OwogICAgICAgIGxldCBjb250cm9sbGVycyA9IGZpZWxkcy5uZXh0KCk/OwogICAgICAgIGxldCBwYXRoID0gZmllbGRzLm5leHQoKT87CiAgICAgICAgU29tZSgoY29udHJvbGxlcnMsIHN0ZDo6cGF0aDo6UGF0aEJ1Zjo6ZnJvbShwYXRoKSkpCiAgICB9KTsKICAgIGxldCBncm91cHMgPSBncm91cHMuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGxldCBtdXQgbGF5b3V0cyA9IFZlYzo6bmV3KCk7CiAgICBmb3IgbGluZSBpbiBtb3VudGluZm8ubGluZXMoKSB7CiAgICAgICAgbGV0IFNvbWUoKG1vdW50X2ZpZWxkcywgZnNfZmllbGRzKSkgPSBsaW5lLnNwbGl0X29uY2UoIiAtICIpIGVsc2UgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9OwogICAgICAgIGxldCBtb3VudF9maWVsZHMgPSBtb3VudF9maWVsZHMuc3BsaXRfd2hpdGVzcGFjZSgpLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICAgICAgbGV0IGZzX2ZpZWxkcyA9IGZzX2ZpZWxkcy5zcGxpdF93aGl0ZXNwYWNlKCkuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgICAgICBpZiBtb3VudF9maWVsZHMubGVuKCkgPCA1IHx8IGZzX2ZpZWxkcy5sZW4oKSA8IDMgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgbGV0IGZzX3R5cGUgPSBmc19maWVsZHNbMF07CiAgICAgICAgbGV0IGlzX3YyID0gZnNfdHlwZSA9PSAiY2dyb3VwMiI7CiAgICAgICAgbGV0IGlzX3YxX21lbW9yeSA9IGZzX3R5cGUgPT0gImNncm91cCIKICAgICAgICAgICAgJiYgZnNfZmllbGRzWzJdCiAgICAgICAgICAgICAgICAuc3BsaXQoJywnKQogICAgICAgICAgICAgICAgLmFueSh8Y29udHJvbGxlcnwgY29udHJvbGxlciA9PSAibWVtb3J5Iik7CiAgICAgICAgaWYgIWlzX3YyICYmICFpc192MV9tZW1vcnkgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgbGV0IGdyb3VwX3BhdGggPSBncm91cHMuaXRlcigpLmZpbmRfbWFwKHwoY29udHJvbGxlcnMsIHBhdGgpfCB7CiAgICAgICAgICAgIGlmIChpc192MiAmJiBjb250cm9sbGVycy5pc19lbXB0eSgpKQogICAgICAgICAgICAgICAgfHwgKGlzX3YxX21lbW9yeQogICAgICAgICAgICAgICAgICAgICYmIGNvbnRyb2xsZXJzCiAgICAgICAgICAgICAgICAgICAgICAgIC5zcGxpdCgnLCcpCiAgICAgICAgICAgICAgICAgICAgICAgIC5hbnkofGNvbnRyb2xsZXJ8IGNvbnRyb2xsZXIgPT0gIm1lbW9yeSIpKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBTb21lKHBhdGgpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBOb25lCiAgICAgICAgICAgIH0KICAgICAgICB9KTsKICAgICAgICBsZXQgU29tZShncm91cF9wYXRoKSA9IGdyb3VwX3BhdGggZWxzZSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH07CiAgICAgICAgbGV0IG1vdW50X3Jvb3QgPSBzdGQ6OnBhdGg6OlBhdGg6Om5ldyhtb3VudF9maWVsZHNbM10pOwogICAgICAgIGxldCBtb3VudF9wb2ludCA9IHN0ZDo6cGF0aDo6UGF0aEJ1Zjo6ZnJvbShtb3VudF9maWVsZHNbNF0pOwogICAgICAgIGxldCByZWxhdGl2ZSA9IGdyb3VwX3BhdGgKICAgICAgICAgICAgLnN0cmlwX3ByZWZpeChtb3VudF9yb290KQogICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofF98IGdyb3VwX3BhdGguc3RyaXBfcHJlZml4KCIvIikudW53cmFwX29yKGdyb3VwX3BhdGgpKTsKICAgICAgICBsYXlvdXRzLnB1c2goQ2dyb3VwTWVtb3J5TGF5b3V0IHsKICAgICAgICAgICAgbGVhZjogbW91bnRfcG9pbnQuam9pbihyZWxhdGl2ZSksCiAgICAgICAgICAgIG1vdW50X3BvaW50LAogICAgICAgICAgICBsaW1pdF9maWxlOiBpZiBpc192MiB7CiAgICAgICAgICAgICAgICAibWVtb3J5Lm1heCIKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICJtZW1vcnkubGltaXRfaW5fYnl0ZXMiCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHVzYWdlX2ZpbGU6IGlmIGlzX3YyIHsKICAgICAgICAgICAgICAgICJtZW1vcnkuY3VycmVudCIKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICJtZW1vcnkudXNhZ2VfaW5fYnl0ZXMiCiAgICAgICAgICAgIH0sCiAgICAgICAgfSk7CiAgICB9CiAgICBsYXlvdXRzCn0KCiNbY2ZnKHRhcmdldF9vcyA9ICJsaW51eCIpXQpmbiByZWFkX2Nncm91cF9tZW1vcnlfbGF5b3V0KGxheW91dDogJkNncm91cE1lbW9yeUxheW91dCkgLT4gT3B0aW9uPCh1NjQsIHU2NCk+IHsKICAgIGlmICFsYXlvdXQubGVhZi5zdGFydHNfd2l0aCgmbGF5b3V0Lm1vdW50X3BvaW50KSB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBsZXQgbXV0IGRpcmVjdG9yeSA9IFNvbWUobGF5b3V0LmxlYWYuYXNfcGF0aCgpKTsKICAgIGxldCBtdXQgZWZmZWN0aXZlX2xpbWl0OiBPcHRpb248dTY0PiA9IE5vbmU7CiAgICBsZXQgbXV0IGVmZmVjdGl2ZV9hdmFpbGFibGU6IE9wdGlvbjx1NjQ+ID0gTm9uZTsKICAgIHdoaWxlIGxldCBTb21lKHBhdGgpID0gZGlyZWN0b3J5IHsKICAgICAgICBpZiAhcGF0aC5zdGFydHNfd2l0aCgmbGF5b3V0Lm1vdW50X3BvaW50KSB7CiAgICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgICAgICBsZXQgbGltaXQgPSByZWFkX2Zpbml0ZV9jZ3JvdXBfdmFsdWUoJnBhdGguam9pbihsYXlvdXQubGltaXRfZmlsZSkpOwogICAgICAgIGxldCB1c2FnZSA9IHJlYWRfY2dyb3VwX3ZhbHVlKCZwYXRoLmpvaW4obGF5b3V0LnVzYWdlX2ZpbGUpKTsKICAgICAgICBpZiBsZXQgU29tZShsaW1pdCkgPSBsaW1pdCB7CiAgICAgICAgICAgIGVmZmVjdGl2ZV9saW1pdCA9IFNvbWUoZWZmZWN0aXZlX2xpbWl0Lm1hcF9vcihsaW1pdCwgfHZhbHVlfCB2YWx1ZS5taW4obGltaXQpKSk7CiAgICAgICAgICAgIGlmIGxldCBTb21lKHVzYWdlKSA9IHVzYWdlIHsKICAgICAgICAgICAgICAgIGxldCBhdmFpbGFibGUgPSBsaW1pdC5zYXR1cmF0aW5nX3N1Yih1c2FnZSk7CiAgICAgICAgICAgICAgICBlZmZlY3RpdmVfYXZhaWxhYmxlID0KICAgICAgICAgICAgICAgICAgICBTb21lKGVmZmVjdGl2ZV9hdmFpbGFibGUubWFwX29yKGF2YWlsYWJsZSwgfHZhbHVlfCB2YWx1ZS5taW4oYXZhaWxhYmxlKSkpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGlmIHBhdGggPT0gbGF5b3V0Lm1vdW50X3BvaW50IHsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgfQogICAgICAgIGRpcmVjdG9yeSA9IHBhdGgucGFyZW50KCk7CiAgICB9CiAgICBsZXQgbGltaXQgPSBlZmZlY3RpdmVfbGltaXQ/OwogICAgU29tZSgobGltaXQsIGVmZmVjdGl2ZV9hdmFpbGFibGUudW53cmFwX29yKGxpbWl0KSkpCn0KCiNbY2ZnKHRhcmdldF9vcyA9ICJsaW51eCIpXQpmbiByZWFkX2Nncm91cF92YWx1ZShwYXRoOiAmc3RkOjpwYXRoOjpQYXRoKSAtPiBPcHRpb248dTY0PiB7CiAgICBzdGQ6OmZzOjpyZWFkX3RvX3N0cmluZyhwYXRoKQogICAgICAgIC5vaygpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUudHJpbSgpLnBhcnNlOjo8dTY0PigpLm9rKCkpCn0KCiNbY2ZnKHRhcmdldF9vcyA9ICJsaW51eCIpXQpmbiByZWFkX2Zpbml0ZV9jZ3JvdXBfdmFsdWUocGF0aDogJnN0ZDo6cGF0aDo6UGF0aCkgLT4gT3B0aW9uPHU2ND4gewogICAgcmVhZF9jZ3JvdXBfdmFsdWUocGF0aCkuZmlsdGVyKHx2YWx1ZXwgKnZhbHVlIDwgKDFfdTY0IDw8IDYwKSkKfQoKI1tjZmcod2luZG93cyldCnB1YihjcmF0ZSkgZm4gaG9zdF9tZW1vcnlfYnl0ZXMoKSAtPiAoT3B0aW9uPHU2ND4sIE9wdGlvbjx1NjQ+KSB7CiAgICB1c2Ugd2luZG93c19zeXM6OldpbjMyOjpTeXN0ZW06OlN5c3RlbUluZm9ybWF0aW9uOjp7R2xvYmFsTWVtb3J5U3RhdHVzRXgsIE1FTU9SWVNUQVRVU0VYfTsKICAgIC8vIFNBRkVUWTogTUVNT1JZU1RBVFVTRVggaXMgYSBwbGFpbiBDIGRhdGEgc3RydWN0dXJlIGZvciB3aGljaCBhbgogICAgLy8gYWxsLXplcm8gYml0IHBhdHRlcm4gaXMgdmFsaWQ7IGR3TGVuZ3RoIGlzIGluaXRpYWxpemVkIGltbWVkaWF0ZWx5LgogICAgbGV0IG11dCBzdGF0dXMgPSBNRU1PUllTVEFUVVNFWCB7CiAgICAgICAgZHdMZW5ndGg6IHN0ZDo6bWVtOjpzaXplX29mOjo8TUVNT1JZU1RBVFVTRVg+KCkgYXMgdTMyLAogICAgICAgIC4udW5zYWZlIHsgc3RkOjptZW06Onplcm9lZCgpIH0KICAgIH07CiAgICAvLyBTQUZFVFk6IHN0YXR1cyBwb2ludHMgdG8gd3JpdGFibGUsIGNvcnJlY3RseSBzaXplZCBNRU1PUllTVEFUVVNFWAogICAgLy8gc3RvcmFnZSB3aG9zZSByZXF1aXJlZCBkd0xlbmd0aCBmaWVsZCBoYXMgYmVlbiBpbml0aWFsaXplZC4KICAgIGlmIHVuc2FmZSB7IEdsb2JhbE1lbW9yeVN0YXR1c0V4KCZtdXQgc3RhdHVzKSB9ID09IDAgewogICAgICAgIChOb25lLCBOb25lKQogICAgfSBlbHNlIHsKICAgICAgICAoU29tZShzdGF0dXMudWxsVG90YWxQaHlzKSwgU29tZShzdGF0dXMudWxsQXZhaWxQaHlzKSkKICAgIH0KfQoKI1tjZmcodGFyZ2V0X29zID0gIm1hY29zIildCiNbYWxsb3coZGVwcmVjYXRlZCldCnB1YihjcmF0ZSkgZm4gaG9zdF9tZW1vcnlfYnl0ZXMoKSAtPiAoT3B0aW9uPHU2ND4sIE9wdGlvbjx1NjQ+KSB7CiAgICBsZXQgKFNvbWUocGFnZV9zaXplKSwgU29tZSh0b3RhbF9wYWdlcykpID0gKAogICAgICAgIHBvc2l0aXZlX3N5c2NvbmYobGliYzo6X1NDX1BBR0VTSVpFKSwKICAgICAgICBwb3NpdGl2ZV9zeXNjb25mKGxpYmM6Ol9TQ19QSFlTX1BBR0VTKSwKICAgICkgZWxzZSB7CiAgICAgICAgcmV0dXJuIChOb25lLCBOb25lKTsKICAgIH07CiAgICBsZXQgdG90YWwgPSB0b3RhbF9wYWdlcy5zYXR1cmF0aW5nX211bChwYWdlX3NpemUpOwogICAgLy8gU0FGRVRZOiB2bV9zdGF0aXN0aWNzNjRfZGF0YV90IGlzIGEgQyBzdHJ1Y3R1cmUgY29uc2lzdGluZyBvZiBpbnRlZ2VyCiAgICAvLyBjb3VudGVyczsgemVybyBpcyBhIHZhbGlkIGluaXRpYWxpemVkIHZhbHVlIGZvciBldmVyeSBmaWVsZC4KICAgIGxldCBtdXQgc3RhdGlzdGljczogbGliYzo6dm1fc3RhdGlzdGljczY0X2RhdGFfdCA9IHVuc2FmZSB7IHN0ZDo6bWVtOjp6ZXJvZWQoKSB9OwogICAgbGV0IG11dCBjb3VudCA9IGxpYmM6OkhPU1RfVk1fSU5GTzY0X0NPVU5UOwogICAgLy8gU0FGRVRZOiBzdGF0aXN0aWNzIGFuZCBjb3VudCBhcmUgdmFsaWQgd3JpdGFibGUgb3V0LXBhcmFtZXRlcnMsIGFuZCB0aGUKICAgIC8vIGNhc3QgZXhwb3NlcyBleGFjdGx5IHRoZSBDIGludGVnZXIgc3RvcmFnZSBleHBlY3RlZCBieSBob3N0X3N0YXRpc3RpY3M2NC4KICAgIGxldCByZXN1bHQgPSB1bnNhZmUgewogICAgICAgIGxpYmM6Omhvc3Rfc3RhdGlzdGljczY0KAogICAgICAgICAgICBsaWJjOjptYWNoX2hvc3Rfc2VsZigpLAogICAgICAgICAgICBsaWJjOjpIT1NUX1ZNX0lORk82NCwKICAgICAgICAgICAgKCZyYXcgbXV0IHN0YXRpc3RpY3MpLmNhc3Q6OjxsaWJjOjppbnRlZ2VyX3Q+KCksCiAgICAgICAgICAgICZtdXQgY291bnQsCiAgICAgICAgKQogICAgfTsKICAgIGlmIHJlc3VsdCAhPSBsaWJjOjpLRVJOX1NVQ0NFU1MgewogICAgICAgIHJldHVybiAoU29tZSh0b3RhbCksIE5vbmUpOwogICAgfQogICAgbGV0IGZyZWUgPSB1NjQ6OmZyb20oc3RhdGlzdGljcy5mcmVlX2NvdW50KTsKICAgIGxldCBpbmFjdGl2ZSA9IHU2NDo6ZnJvbShzdGF0aXN0aWNzLmluYWN0aXZlX2NvdW50KTsKICAgIGxldCBzcGVjdWxhdGl2ZSA9IHU2NDo6ZnJvbShzdGF0aXN0aWNzLnNwZWN1bGF0aXZlX2NvdW50KTsKICAgIGxldCBhdmFpbGFibGVfcGFnZXMgPSBmcmVlLnNhdHVyYXRpbmdfYWRkKGluYWN0aXZlKS5zYXR1cmF0aW5nX2FkZChzcGVjdWxhdGl2ZSk7CiAgICAoCiAgICAgICAgU29tZSh0b3RhbCksCiAgICAgICAgU29tZShhdmFpbGFibGVfcGFnZXMuc2F0dXJhdGluZ19tdWwocGFnZV9zaXplKS5taW4odG90YWwpKSwKICAgICkKfQoKI1tjZmcoYWxsKG5vdCh0YXJnZXRfb3MgPSAibGludXgiKSwgbm90KHRhcmdldF9vcyA9ICJtYWNvcyIpLCBub3Qod2luZG93cykpKV0KcHViKGNyYXRlKSBmbiBob3N0X21lbW9yeV9ieXRlcygpIC0+IChPcHRpb248dTY0PiwgT3B0aW9uPHU2ND4pIHsKICAgIGxldCAoU29tZShwYWdlX3NpemUpLCBTb21lKHRvdGFsX3BhZ2VzKSkgPSAoCiAgICAgICAgcG9zaXRpdmVfc3lzY29uZihsaWJjOjpfU0NfUEFHRVNJWkUpLAogICAgICAgIHBvc2l0aXZlX3N5c2NvbmYobGliYzo6X1NDX1BIWVNfUEFHRVMpLAogICAgKSBlbHNlIHsKICAgICAgICByZXR1cm4gKE5vbmUsIE5vbmUpOwogICAgfTsKICAgIChTb21lKHRvdGFsX3BhZ2VzLnNhdHVyYXRpbmdfbXVsKHBhZ2Vfc2l6ZSkpLCBOb25lKQp9CgojW2NmZyhhbGwodW5peCwgbm90KHRhcmdldF9vcyA9ICJsaW51eCIpKSldCmZuIHBvc2l0aXZlX3N5c2NvbmYobmFtZTogbGliYzo6Y19pbnQpIC0+IE9wdGlvbjx1NjQ+IHsKICAgIC8vIFNBRkVUWTogc3lzY29uZiB0YWtlcyBhIGNvbnN0YW50IHNlbGVjdG9yIGFuZCBoYXMgbm8gcG9pbnRlciBhcmd1bWVudHMKICAgIC8vIG9yIG93bmVyc2hpcCByZXF1aXJlbWVudHMuCiAgICBsZXQgdmFsdWUgPSB1bnNhZmUgeyBsaWJjOjpzeXNjb25mKG5hbWUpIH07CiAgICB1NjQ6OnRyeV9mcm9tKHZhbHVlKS5vaygpLmZpbHRlcih8dmFsdWV8ICp2YWx1ZSA+IDApCn0KCiNbY2ZnKHVuaXgpXQpwdWIoY3JhdGUpIGZuIHByb2Nlc3NfZmlsZV9kZXNjcmlwdG9yX2xpbWl0KCkgLT4gT3B0aW9uPHU2ND4gewogICAgbGV0IG11dCBsaW1pdCA9IGxpYmM6OnJsaW1pdCB7CiAgICAgICAgcmxpbV9jdXI6IDAsCiAgICAgICAgcmxpbV9tYXg6IDAsCiAgICB9OwogICAgLy8gU0FGRVRZOiBsaW1pdCBpcyB2YWxpZCB3cml0YWJsZSBzdG9yYWdlIGZvciBnZXRybGltaXQncyBvdXRwdXQgYW5kIHRoZQogICAgLy8gcmVzb3VyY2Ugc2VsZWN0b3IgaXMgYSBsaWJjLWRlZmluZWQgY29uc3RhbnQuCiAgICBpZiB1bnNhZmUgeyBsaWJjOjpnZXRybGltaXQobGliYzo6UkxJTUlUX05PRklMRSwgJm11dCBsaW1pdCkgfSA9PSAwIHsKICAgICAgICAvLyBybGltX3QgaXMgdTY0IG9uIG1vc3Qgc3VwcG9ydGVkIFVuaXggdGFyZ2V0cyBidXQgY191bG9uZyBvbiBzb21lCiAgICAgICAgLy8gMzItYml0IGxpYmMgdmFyaWFudHMsIHNvIGtlZXAgdGhlIGNoZWNrZWQgY29udmVyc2lvbiBwb3J0YWJsZS4KICAgICAgICAjW2FsbG93KGNsaXBweTo6dXNlbGVzc19jb252ZXJzaW9uKV0KICAgICAgICB1NjQ6OnRyeV9mcm9tKGxpbWl0LnJsaW1fY3VyKS5vaygpCiAgICB9IGVsc2UgewogICAgICAgIE5vbmUKICAgIH0KfQoKI1tjZmcobm90KHVuaXgpKV0KcHViKGNyYXRlKSBmbiBwcm9jZXNzX2ZpbGVfZGVzY3JpcHRvcl9saW1pdCgpIC0+IE9wdGlvbjx1NjQ+IHsKICAgIE5vbmUKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CgogICAgI1t0ZXN0XQogICAgZm4gcmVzb2x2ZXNfbmVzdGVkX2Nncm91cF92Ml9tb3VudF9wYXRoKCkgewogICAgICAgIGxldCBsYXlvdXRzID0gY2dyb3VwX21lbW9yeV9sYXlvdXRzKAogICAgICAgICAgICAiMDo6L3VzZXIuc2xpY2UvZm4ta25vY2suc2VydmljZVxuIiwKICAgICAgICAgICAgIjI5IDIzIDA6MjYgLyAvc3lzL2ZzL2Nncm91cCBydyxub3N1aWQsbm9kZXYsbm9leGVjLHJlbGF0aW1lIC0gY2dyb3VwMiBjZ3JvdXAgcndcbiIsCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBsYXlvdXRzLAogICAgICAgICAgICB2ZWMhW0Nncm91cE1lbW9yeUxheW91dCB7CiAgICAgICAgICAgICAgICBtb3VudF9wb2ludDogIi9zeXMvZnMvY2dyb3VwIi5pbnRvKCksCiAgICAgICAgICAgICAgICBsZWFmOiAiL3N5cy9mcy9jZ3JvdXAvdXNlci5zbGljZS9mbi1rbm9jay5zZXJ2aWNlIi5pbnRvKCksCiAgICAgICAgICAgICAgICBsaW1pdF9maWxlOiAibWVtb3J5Lm1heCIsCiAgICAgICAgICAgICAgICB1c2FnZV9maWxlOiAibWVtb3J5LmN1cnJlbnQiLAogICAgICAgICAgICB9XQogICAgICAgICk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gbWFwc19uYW1lc3BhY2VkX2Nncm91cF9tb3VudF9yb290c19hbmRfdjFfbWVtb3J5X2NvbnRyb2xsZXIoKSB7CiAgICAgICAgbGV0IHYyID0gY2dyb3VwX21lbW9yeV9sYXlvdXRzKAogICAgICAgICAgICAiMDo6L2RvY2tlci9hYmMvd29ya2xvYWRcbiIsCiAgICAgICAgICAgICIyOSAyMyAwOjI2IC9kb2NrZXIvYWJjIC9zeXMvZnMvY2dyb3VwIHJ3IC0gY2dyb3VwMiBjZ3JvdXAgcndcbiIsCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKHYyWzBdLmxlYWYsIHN0ZDo6cGF0aDo6UGF0aDo6bmV3KCIvc3lzL2ZzL2Nncm91cC93b3JrbG9hZCIpKTsKCiAgICAgICAgbGV0IHYxID0gY2dyb3VwX21lbW9yeV9sYXlvdXRzKAogICAgICAgICAgICAiNTpjcHUsY3B1YWNjdDovZG9ja2VyL2FiY1xuNjptZW1vcnk6L2RvY2tlci9hYmNcbiIsCiAgICAgICAgICAgICIzMSAyMyAwOjI4IC8gL3N5cy9mcy9jZ3JvdXAvbWVtb3J5IHJ3IC0gY2dyb3VwIGNncm91cCBydyxtZW1vcnlcbiIsCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICB2MSwKICAgICAgICAgICAgdmVjIVtDZ3JvdXBNZW1vcnlMYXlvdXQgewogICAgICAgICAgICAgICAgbW91bnRfcG9pbnQ6ICIvc3lzL2ZzL2Nncm91cC9tZW1vcnkiLmludG8oKSwKICAgICAgICAgICAgICAgIGxlYWY6ICIvc3lzL2ZzL2Nncm91cC9tZW1vcnkvZG9ja2VyL2FiYyIuaW50bygpLAogICAgICAgICAgICAgICAgbGltaXRfZmlsZTogIm1lbW9yeS5saW1pdF9pbl9ieXRlcyIsCiAgICAgICAgICAgICAgICB1c2FnZV9maWxlOiAibWVtb3J5LnVzYWdlX2luX2J5dGVzIiwKICAgICAgICAgICAgfV0KICAgICAgICApOwogICAgfQp9Cg==
+#[cfg(target_os = "linux")]
+pub(crate) fn host_memory_bytes() -> (Option<u64>, Option<u64>) {
+    let Ok(content) = std::fs::read_to_string("/proc/meminfo") else {
+        return (None, None);
+    };
+    let read_kib = |name: &str| {
+        content
+            .lines()
+            .find(|line| line.starts_with(name))
+            .and_then(|line| line.split_whitespace().nth(1))
+            .and_then(|value| value.parse::<u64>().ok())
+            .map(|value| value.saturating_mul(1024))
+    };
+    (read_kib("MemTotal:"), read_kib("MemAvailable:"))
+}
+
+pub(crate) fn effective_memory_bytes() -> (Option<u64>, Option<u64>) {
+    let (host_total, host_available) = host_memory_bytes();
+    #[cfg(target_os = "linux")]
+    {
+        if let Some((limit, cgroup_available)) = linux_cgroup_memory_bytes() {
+            return (
+                Some(host_total.map_or(limit, |value| value.min(limit))),
+                Some(host_available.map_or(cgroup_available, |value| value.min(cgroup_available))),
+            );
+        }
+    }
+    (host_total, host_available)
+}
+
+#[cfg(target_os = "linux")]
+fn linux_cgroup_memory_bytes() -> Option<(u64, u64)> {
+    let cgroup = std::fs::read_to_string("/proc/self/cgroup").ok()?;
+    let mountinfo = std::fs::read_to_string("/proc/self/mountinfo").ok()?;
+    for layout in cgroup_memory_layouts(&cgroup, &mountinfo) {
+        if let Some(sample) = read_cgroup_memory_layout(&layout) {
+            return Some(sample);
+        }
+    }
+    None
+}
+
+#[cfg(any(target_os = "linux", test))]
+#[derive(Debug, PartialEq, Eq)]
+struct CgroupMemoryLayout {
+    mount_point: std::path::PathBuf,
+    leaf: std::path::PathBuf,
+    limit_file: &'static str,
+    usage_file: &'static str,
+}
+
+#[cfg(any(target_os = "linux", test))]
+fn cgroup_memory_layouts(cgroup: &str, mountinfo: &str) -> Vec<CgroupMemoryLayout> {
+    let groups = cgroup.lines().filter_map(|line| {
+        let mut fields = line.splitn(3, ':');
+        let _hierarchy = fields.next()?;
+        let controllers = fields.next()?;
+        let path = fields.next()?;
+        Some((controllers, std::path::PathBuf::from(path)))
+    });
+    let groups = groups.collect::<Vec<_>>();
+    let mut layouts = Vec::new();
+    for line in mountinfo.lines() {
+        let Some((mount_fields, fs_fields)) = line.split_once(" - ") else {
+            continue;
+        };
+        let mount_fields = mount_fields.split_whitespace().collect::<Vec<_>>();
+        let fs_fields = fs_fields.split_whitespace().collect::<Vec<_>>();
+        if mount_fields.len() < 5 || fs_fields.len() < 3 {
+            continue;
+        }
+        let fs_type = fs_fields[0];
+        let is_v2 = fs_type == "cgroup2";
+        let is_v1_memory = fs_type == "cgroup"
+            && fs_fields[2]
+                .split(',')
+                .any(|controller| controller == "memory");
+        if !is_v2 && !is_v1_memory {
+            continue;
+        }
+        let group_path = groups.iter().find_map(|(controllers, path)| {
+            if (is_v2 && controllers.is_empty())
+                || (is_v1_memory
+                    && controllers
+                        .split(',')
+                        .any(|controller| controller == "memory"))
+            {
+                Some(path)
+            } else {
+                None
+            }
+        });
+        let Some(group_path) = group_path else {
+            continue;
+        };
+        let mount_root = std::path::Path::new(mount_fields[3]);
+        let mount_point = std::path::PathBuf::from(mount_fields[4]);
+        let relative = group_path
+            .strip_prefix(mount_root)
+            .unwrap_or_else(|_| group_path.strip_prefix("/").unwrap_or(group_path));
+        layouts.push(CgroupMemoryLayout {
+            leaf: mount_point.join(relative),
+            mount_point,
+            limit_file: if is_v2 {
+                "memory.max"
+            } else {
+                "memory.limit_in_bytes"
+            },
+            usage_file: if is_v2 {
+                "memory.current"
+            } else {
+                "memory.usage_in_bytes"
+            },
+        });
+    }
+    layouts
+}
+
+#[cfg(target_os = "linux")]
+fn read_cgroup_memory_layout(layout: &CgroupMemoryLayout) -> Option<(u64, u64)> {
+    if !layout.leaf.starts_with(&layout.mount_point) {
+        return None;
+    }
+    let mut directory = Some(layout.leaf.as_path());
+    let mut effective_limit: Option<u64> = None;
+    let mut effective_available: Option<u64> = None;
+    while let Some(path) = directory {
+        if !path.starts_with(&layout.mount_point) {
+            break;
+        }
+        let limit = read_finite_cgroup_value(&path.join(layout.limit_file));
+        let usage = read_cgroup_value(&path.join(layout.usage_file));
+        if let Some(limit) = limit {
+            effective_limit = Some(effective_limit.map_or(limit, |value| value.min(limit)));
+            if let Some(usage) = usage {
+                let available = limit.saturating_sub(usage);
+                effective_available =
+                    Some(effective_available.map_or(available, |value| value.min(available)));
+            }
+        }
+        if path == layout.mount_point {
+            break;
+        }
+        directory = path.parent();
+    }
+    let limit = effective_limit?;
+    Some((limit, effective_available.unwrap_or(limit)))
+}
+
+#[cfg(target_os = "linux")]
+fn read_cgroup_value(path: &std::path::Path) -> Option<u64> {
+    std::fs::read_to_string(path)
+        .ok()
+        .and_then(|value| value.trim().parse::<u64>().ok())
+}
+
+#[cfg(target_os = "linux")]
+fn read_finite_cgroup_value(path: &std::path::Path) -> Option<u64> {
+    read_cgroup_value(path).filter(|value| *value < (1_u64 << 60))
+}
+
+#[cfg(windows)]
+pub(crate) fn host_memory_bytes() -> (Option<u64>, Option<u64>) {
+    use windows_sys::Win32::System::SystemInformation::{GlobalMemoryStatusEx, MEMORYSTATUSEX};
+    // SAFETY: MEMORYSTATUSEX is a plain C data structure for which an
+    // all-zero bit pattern is valid; dwLength is initialized immediately.
+    let mut status = MEMORYSTATUSEX {
+        dwLength: std::mem::size_of::<MEMORYSTATUSEX>() as u32,
+        ..unsafe { std::mem::zeroed() }
+    };
+    // SAFETY: status points to writable, correctly sized MEMORYSTATUSEX
+    // storage whose required dwLength field has been initialized.
+    if unsafe { GlobalMemoryStatusEx(&mut status) } == 0 {
+        (None, None)
+    } else {
+        (Some(status.ullTotalPhys), Some(status.ullAvailPhys))
+    }
+}
+
+#[cfg(target_os = "macos")]
+#[allow(deprecated)]
+pub(crate) fn host_memory_bytes() -> (Option<u64>, Option<u64>) {
+    let (Some(page_size), Some(total_pages)) = (
+        positive_sysconf(libc::_SC_PAGESIZE),
+        positive_sysconf(libc::_SC_PHYS_PAGES),
+    ) else {
+        return (None, None);
+    };
+    let total = total_pages.saturating_mul(page_size);
+    // SAFETY: vm_statistics64_data_t is a C structure consisting of integer
+    // counters; zero is a valid initialized value for every field.
+    let mut statistics: libc::vm_statistics64_data_t = unsafe { std::mem::zeroed() };
+    let mut count = libc::HOST_VM_INFO64_COUNT;
+    // SAFETY: statistics and count are valid writable out-parameters, and the
+    // cast exposes exactly the C integer storage expected by host_statistics64.
+    let result = unsafe {
+        libc::host_statistics64(
+            libc::mach_host_self(),
+            libc::HOST_VM_INFO64,
+            (&raw mut statistics).cast::<libc::integer_t>(),
+            &mut count,
+        )
+    };
+    if result != libc::KERN_SUCCESS {
+        return (Some(total), None);
+    }
+    let free = u64::from(statistics.free_count);
+    let inactive = u64::from(statistics.inactive_count);
+    let speculative = u64::from(statistics.speculative_count);
+    let available_pages = free.saturating_add(inactive).saturating_add(speculative);
+    (
+        Some(total),
+        Some(available_pages.saturating_mul(page_size).min(total)),
+    )
+}
+
+#[cfg(all(not(target_os = "linux"), not(target_os = "macos"), not(windows)))]
+pub(crate) fn host_memory_bytes() -> (Option<u64>, Option<u64>) {
+    let (Some(page_size), Some(total_pages)) = (
+        positive_sysconf(libc::_SC_PAGESIZE),
+        positive_sysconf(libc::_SC_PHYS_PAGES),
+    ) else {
+        return (None, None);
+    };
+    (Some(total_pages.saturating_mul(page_size)), None)
+}
+
+#[cfg(all(unix, not(target_os = "linux")))]
+fn positive_sysconf(name: libc::c_int) -> Option<u64> {
+    // SAFETY: sysconf takes a constant selector and has no pointer arguments
+    // or ownership requirements.
+    let value = unsafe { libc::sysconf(name) };
+    u64::try_from(value).ok().filter(|value| *value > 0)
+}
+
+#[cfg(unix)]
+pub(crate) fn process_file_descriptor_limit() -> Option<u64> {
+    let mut limit = libc::rlimit {
+        rlim_cur: 0,
+        rlim_max: 0,
+    };
+    // SAFETY: limit is valid writable storage for getrlimit's output and the
+    // resource selector is a libc-defined constant.
+    if unsafe { libc::getrlimit(libc::RLIMIT_NOFILE, &mut limit) } == 0 {
+        // rlim_t is u64 on most supported Unix targets but c_ulong on some
+        // 32-bit libc variants, so keep the checked conversion portable.
+        #[allow(clippy::useless_conversion)]
+        u64::try_from(limit.rlim_cur).ok()
+    } else {
+        None
+    }
+}
+
+#[cfg(not(unix))]
+pub(crate) fn process_file_descriptor_limit() -> Option<u64> {
+    None
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn resolves_nested_cgroup_v2_mount_path() {
+        let layouts = cgroup_memory_layouts(
+            "0::/user.slice/fn-knock.service\n",
+            "29 23 0:26 / /sys/fs/cgroup rw,nosuid,nodev,noexec,relatime - cgroup2 cgroup rw\n",
+        );
+        assert_eq!(
+            layouts,
+            vec![CgroupMemoryLayout {
+                mount_point: "/sys/fs/cgroup".into(),
+                leaf: "/sys/fs/cgroup/user.slice/fn-knock.service".into(),
+                limit_file: "memory.max",
+                usage_file: "memory.current",
+            }]
+        );
+    }
+
+    #[test]
+    fn maps_namespaced_cgroup_mount_roots_and_v1_memory_controller() {
+        let v2 = cgroup_memory_layouts(
+            "0::/docker/abc/workload\n",
+            "29 23 0:26 /docker/abc /sys/fs/cgroup rw - cgroup2 cgroup rw\n",
+        );
+        assert_eq!(v2[0].leaf, std::path::Path::new("/sys/fs/cgroup/workload"));
+
+        let v1 = cgroup_memory_layouts(
+            "5:cpu,cpuacct:/docker/abc\n6:memory:/docker/abc\n",
+            "31 23 0:28 / /sys/fs/cgroup/memory rw - cgroup cgroup rw,memory\n",
+        );
+        assert_eq!(
+            v1,
+            vec![CgroupMemoryLayout {
+                mount_point: "/sys/fs/cgroup/memory".into(),
+                leaf: "/sys/fs/cgroup/memory/docker/abc".into(),
+                limit_file: "memory.limit_in_bytes",
+                usage_file: "memory.usage_in_bytes",
+            }]
+        );
+    }
+}

@@ -1,1 +1,18 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgQWNjb3JkaW9uUm9vdEVtaXRzLCBBY2NvcmRpb25Sb290UHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgewogIEFjY29yZGlvblJvb3QsCiAgdXNlRm9yd2FyZFByb3BzRW1pdHMsCn0gZnJvbSAicmVrYS11aSIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8QWNjb3JkaW9uUm9vdFByb3BzPigpCmNvbnN0IGVtaXRzID0gZGVmaW5lRW1pdHM8QWNjb3JkaW9uUm9vdEVtaXRzPigpCgpjb25zdCBmb3J3YXJkZWQgPSB1c2VGb3J3YXJkUHJvcHNFbWl0cyhwcm9wcywgZW1pdHMpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxBY2NvcmRpb25Sb290IHYtc2xvdD0ic2xvdFByb3BzIiBkYXRhLXNsb3Q9ImFjY29yZGlvbiIgdi1iaW5kPSJmb3J3YXJkZWQiPgogICAgPHNsb3Qgdi1iaW5kPSJzbG90UHJvcHMiIC8+CiAgPC9BY2NvcmRpb25Sb290Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { AccordionRootEmits, AccordionRootProps } from "reka-ui"
+import {
+  AccordionRoot,
+  useForwardPropsEmits,
+} from "reka-ui"
+
+const props = defineProps<AccordionRootProps>()
+const emits = defineEmits<AccordionRootEmits>()
+
+const forwarded = useForwardPropsEmits(props, emits)
+</script>
+
+<template>
+  <AccordionRoot v-slot="slotProps" data-slot="accordion" v-bind="forwarded">
+    <slot v-bind="slotProps" />
+  </AccordionRoot>
+</template>

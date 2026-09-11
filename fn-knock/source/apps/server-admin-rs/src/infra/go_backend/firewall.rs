@@ -1,1 +1,135 @@
-dXNlIHJlcXdlc3Q6OlN0YXR1c0NvZGU7CnVzZSBzZXJkZV9qc29uOjpWYWx1ZTsKCnVzZSBzdXBlcjo6ewogICAgR29CYWNrZW5kQ2xpZW50LCBib29sX2ZpZWxkLCBncnBjX2Vycm9yLCBpbnRfdmVjX2FueV9maWVsZCwgcGFyZW50X2NoYWluc19mcm9tX2JvZHksCiAgICBwYXJzZV9vcHRpb25hbF9jb21waWxlZF9pcF9zZXQsIHJwY19zdGF0dXNfcmVzcG9uc2UsIHN0YXR1c192YWx1ZSwgc3RyaW5nX2ZpZWxkLAogICAgc3RyaW5nX3ZlY19hbnlfZmllbGQsIHN0cmluZ192ZWNfZmllbGQsCn07CnVzZSBjcmF0ZTo6Z3JwY19wcm90bzo6ewogICAgSXBSZXF1ZXN0LCBJcHRhYmxlc0luaXRSZXF1ZXN0LCBTc2hGaXJld2FsbENsZWFyUmVxdWVzdCwgU3NoRmlyZXdhbGxTeW5jUmVxdWVzdCwKICAgIFRjcFJlZGlyZWN0UmVxdWVzdCwgV2hpdGVsaXN0RmlyZXdhbGxTeW5jUmVxdWVzdCwKfTsKCiNbYWxsb3coZGVhZF9jb2RlKV0KaW1wbCBHb0JhY2tlbmRDbGllbnQgewogICAgcHViIGFzeW5jIGZuIGFsbG93X2lwKCZzZWxmLCBpcDogJnN0cikgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgICAgICBsZXQgbXV0IGNsaWVudCA9IHNlbGYuZmlyZXdhbGwuY2xvbmUoKTsKICAgICAgICBsZXQgcmVzdWx0ID0gbWF0Y2ggY2xpZW50CiAgICAgICAgICAgIC5hbGxvd19pcChzZWxmLnJlcXVlc3QoSXBSZXF1ZXN0IHsgaXA6IGlwLnRvX3N0cmluZygpIH0pKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICB7CiAgICAgICAgICAgIE9rKHJlc3BvbnNlKSA9PiBycGNfc3RhdHVzX3Jlc3BvbnNlKHJlc3BvbnNlLmludG9faW5uZXIoKSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gZ3JwY19lcnJvcihlcnJvciksCiAgICAgICAgfTsKICAgICAgICBzdGF0dXNfdmFsdWUoImFsbG93X2lwIiwgcmVzdWx0KQogICAgfQoKICAgIHB1YiBhc3luYyBmbiByZW1vdmVfaXAoJnNlbGYsIGlwOiAmc3RyKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgICAgIGxldCBtdXQgY2xpZW50ID0gc2VsZi5maXJld2FsbC5jbG9uZSgpOwogICAgICAgIGxldCByZXN1bHQgPSBtYXRjaCBjbGllbnQKICAgICAgICAgICAgLnJlbW92ZV9pcChzZWxmLnJlcXVlc3QoSXBSZXF1ZXN0IHsgaXA6IGlwLnRvX3N0cmluZygpIH0pKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICB7CiAgICAgICAgICAgIE9rKHJlc3BvbnNlKSA9PiBycGNfc3RhdHVzX3Jlc3BvbnNlKHJlc3BvbnNlLmludG9faW5uZXIoKSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gZ3JwY19lcnJvcihlcnJvciksCiAgICAgICAgfTsKICAgICAgICBzdGF0dXNfdmFsdWUoInJlbW92ZV9pcCIsIHJlc3VsdCkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gc3luY193aGl0ZWxpc3RfZmlyZXdhbGwoJnNlbGYsIHBheWxvYWQ6ICZWYWx1ZSkgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgICAgICBsZXQgbXV0IGNsaWVudCA9IHNlbGYuZmlyZXdhbGwuY2xvbmUoKTsKICAgICAgICBsZXQgcG9saWN5ID0gcGFyc2Vfb3B0aW9uYWxfY29tcGlsZWRfaXBfc2V0KHBheWxvYWQuZ2V0KCJwb2xpY3kiKSk/OwogICAgICAgIGxldCByZXN1bHQgPSBtYXRjaCBjbGllbnQKICAgICAgICAgICAgLnN5bmNfd2hpdGVsaXN0X2ZpcmV3YWxsKHNlbGYucmVxdWVzdChXaGl0ZWxpc3RGaXJld2FsbFN5bmNSZXF1ZXN0IHsKICAgICAgICAgICAgICAgIHBvbGljeV9pZDogc3RyaW5nX2ZpZWxkKHBheWxvYWQsICJwb2xpY3lfaWQiKSwKICAgICAgICAgICAgICAgIHBvbGljeSwKICAgICAgICAgICAgfSkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgT2socmVzcG9uc2UpID0+IHJwY19zdGF0dXNfcmVzcG9uc2UocmVzcG9uc2UuaW50b19pbm5lcigpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBncnBjX2Vycm9yKGVycm9yKSwKICAgICAgICB9OwogICAgICAgIHN0YXR1c192YWx1ZSgic3luY193aGl0ZWxpc3RfZmlyZXdhbGwiLCByZXN1bHQpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIGluaXRfaXB0YWJsZXMoJnNlbGYsIHBheWxvYWQ6ICZWYWx1ZSkgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgICAgICBsZXQgbXV0IGNsaWVudCA9IHNlbGYuZmlyZXdhbGwuY2xvbmUoKTsKICAgICAgICBsZXQgcmVzdWx0ID0gbWF0Y2ggY2xpZW50CiAgICAgICAgICAgIC5pbml0X2lwdGFibGVzKHNlbGYucmVxdWVzdChJcHRhYmxlc0luaXRSZXF1ZXN0IHsKICAgICAgICAgICAgICAgIGNoYWluX25hbWU6IHN0cmluZ19maWVsZChwYXlsb2FkLCAiY2hhaW5fbmFtZSIpLAogICAgICAgICAgICAgICAgcGFyZW50X2NoYWluczogcGFyZW50X2NoYWluc19mcm9tX2JvZHkocGF5bG9hZCksCiAgICAgICAgICAgICAgICBleGVtcHRfcG9ydHM6IHN0cmluZ192ZWNfYW55X2ZpZWxkKHBheWxvYWQsICJleGVtcHRfcG9ydHMiKSwKICAgICAgICAgICAgfSkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgT2socmVzcG9uc2UpID0+IHJwY19zdGF0dXNfcmVzcG9uc2UocmVzcG9uc2UuaW50b19pbm5lcigpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBncnBjX2Vycm9yKGVycm9yKSwKICAgICAgICB9OwogICAgICAgIHN0YXR1c192YWx1ZSgiaW5pdF9pcHRhYmxlcyIsIHJlc3VsdCkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gY2xlYW5faXB0YWJsZXMoJnNlbGYpIC0+IGFueWhvdzo6UmVzdWx0PFZhbHVlPiB7CiAgICAgICAgbGV0IG11dCBjbGllbnQgPSBzZWxmLmZpcmV3YWxsLmNsb25lKCk7CiAgICAgICAgbGV0IHJlc3VsdCA9IG1hdGNoIGNsaWVudC5jbGVhbl9pcHRhYmxlcyhzZWxmLnJlcXVlc3QoKCkpKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKHJlc3BvbnNlKSA9PiBycGNfc3RhdHVzX3Jlc3BvbnNlKHJlc3BvbnNlLmludG9faW5uZXIoKSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gZ3JwY19lcnJvcihlcnJvciksCiAgICAgICAgfTsKICAgICAgICBzdGF0dXNfdmFsdWUoImNsZWFuX2lwdGFibGVzIiwgcmVzdWx0KQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBzeW5jX3NzaF9maXJld2FsbCgmc2VsZiwgcGF5bG9hZDogJlZhbHVlKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgICAgIGxldCBtdXQgY2xpZW50ID0gc2VsZi5maXJld2FsbC5jbG9uZSgpOwogICAgICAgIGxldCBwb2xpY3kgPSBwYXJzZV9vcHRpb25hbF9jb21waWxlZF9pcF9zZXQocGF5bG9hZC5nZXQoInBvbGljeSIpKT87CiAgICAgICAgbGV0IHJlc3VsdCA9IG1hdGNoIGNsaWVudAogICAgICAgICAgICAuc3luY19zc2hfZmlyZXdhbGwoc2VsZi5yZXF1ZXN0KFNzaEZpcmV3YWxsU3luY1JlcXVlc3QgewogICAgICAgICAgICAgICAgY2hhaW5fbmFtZTogc3RyaW5nX2ZpZWxkKHBheWxvYWQsICJjaGFpbl9uYW1lIiksCiAgICAgICAgICAgICAgICBwYXJlbnRfY2hhaW5zOiBwYXJlbnRfY2hhaW5zX2Zyb21fYm9keShwYXlsb2FkKSwKICAgICAgICAgICAgICAgIHBvcnRzOiBpbnRfdmVjX2FueV9maWVsZChwYXlsb2FkLCAicG9ydHMiKSwKICAgICAgICAgICAgICAgIGFsbG93ZWRfY2lkcnM6IHN0cmluZ192ZWNfZmllbGQocGF5bG9hZCwgImFsbG93ZWRfY2lkcnMiKSwKICAgICAgICAgICAgICAgIGJsb2NrZWRfaXBzOiBzdHJpbmdfdmVjX2ZpZWxkKHBheWxvYWQsICJibG9ja2VkX2lwcyIpLAogICAgICAgICAgICAgICAgaW5jbHVkZV9sb2NhbF9jaWRyczogYm9vbF9maWVsZChwYXlsb2FkLCAiaW5jbHVkZV9sb2NhbF9jaWRycyIsIGZhbHNlKSwKICAgICAgICAgICAgICAgIHBvbGljeV9pZDogc3RyaW5nX2ZpZWxkKHBheWxvYWQsICJwb2xpY3lfaWQiKSwKICAgICAgICAgICAgICAgIHBvbGljeSwKICAgICAgICAgICAgfSkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgT2socmVzcG9uc2UpID0+IHJwY19zdGF0dXNfcmVzcG9uc2UocmVzcG9uc2UuaW50b19pbm5lcigpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBncnBjX2Vycm9yKGVycm9yKSwKICAgICAgICB9OwogICAgICAgIHN0YXR1c192YWx1ZSgic3luY19zc2hfZmlyZXdhbGwiLCByZXN1bHQpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIGNsZWFyX3NzaF9maXJld2FsbCgmc2VsZiwgcGF5bG9hZDogJlZhbHVlKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgICAgIGxldCBtdXQgY2xpZW50ID0gc2VsZi5maXJld2FsbC5jbG9uZSgpOwogICAgICAgIGxldCByZXN1bHQgPSBtYXRjaCBjbGllbnQKICAgICAgICAgICAgLmNsZWFyX3NzaF9maXJld2FsbChzZWxmLnJlcXVlc3QoU3NoRmlyZXdhbGxDbGVhclJlcXVlc3QgewogICAgICAgICAgICAgICAgY2hhaW5fbmFtZTogc3RyaW5nX2ZpZWxkKHBheWxvYWQsICJjaGFpbl9uYW1lIiksCiAgICAgICAgICAgICAgICBwYXJlbnRfY2hhaW5zOiBwYXJlbnRfY2hhaW5zX2Zyb21fYm9keShwYXlsb2FkKSwKICAgICAgICAgICAgfSkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgT2socmVzcG9uc2UpID0+IHJwY19zdGF0dXNfcmVzcG9uc2UocmVzcG9uc2UuaW50b19pbm5lcigpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBncnBjX2Vycm9yKGVycm9yKSwKICAgICAgICB9OwogICAgICAgIHN0YXR1c192YWx1ZSgiY2xlYXJfc3NoX2ZpcmV3YWxsIiwgcmVzdWx0KQogICAgfQoKICAgIHB1YiBhc3luYyBmbiBjbGVhcl90Y3BfcmVkaXJlY3QoCiAgICAgICAgJnNlbGYsCiAgICAgICAgbGlzdGVuX3BvcnQ6IGk2NCwKICAgICAgICB0YXJnZXRfcG9ydDogaTY0LAogICAgKSAtPiBhbnlob3c6OlJlc3VsdDwoU3RhdHVzQ29kZSwgVmFsdWUpPiB7CiAgICAgICAgbGV0IG11dCBjbGllbnQgPSBzZWxmLmZpcmV3YWxsLmNsb25lKCk7CiAgICAgICAgbWF0Y2ggY2xpZW50CiAgICAgICAgICAgIC5jbGVhcl90Y3BfcmVkaXJlY3Qoc2VsZi5yZXF1ZXN0KFRjcFJlZGlyZWN0UmVxdWVzdCB7CiAgICAgICAgICAgICAgICBsaXN0ZW5fcG9ydDogaTMyOjp0cnlfZnJvbShsaXN0ZW5fcG9ydCkudW53cmFwX29yKDApLAogICAgICAgICAgICAgICAgdGFyZ2V0X3BvcnQ6IGkzMjo6dHJ5X2Zyb20odGFyZ2V0X3BvcnQpLnVud3JhcF9vcigwKSwKICAgICAgICAgICAgfSkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgT2socmVzcG9uc2UpID0+IE9rKHJwY19zdGF0dXNfcmVzcG9uc2UocmVzcG9uc2UuaW50b19pbm5lcigpKSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gT2soZ3JwY19lcnJvcihlcnJvcikpLAogICAgICAgIH0KICAgIH0KfQo=
+use reqwest::StatusCode;
+use serde_json::Value;
+
+use super::{
+    GoBackendClient, bool_field, grpc_error, int_vec_any_field, parent_chains_from_body,
+    parse_optional_compiled_ip_set, rpc_status_response, status_value, string_field,
+    string_vec_any_field, string_vec_field,
+};
+use crate::grpc_proto::{
+    IpRequest, IptablesInitRequest, SshFirewallClearRequest, SshFirewallSyncRequest,
+    TcpRedirectRequest, WhitelistFirewallSyncRequest,
+};
+
+#[allow(dead_code)]
+impl GoBackendClient {
+    pub async fn allow_ip(&self, ip: &str) -> anyhow::Result<Value> {
+        let mut client = self.firewall.clone();
+        let result = match client
+            .allow_ip(self.request(IpRequest { ip: ip.to_string() }))
+            .await
+        {
+            Ok(response) => rpc_status_response(response.into_inner()),
+            Err(error) => grpc_error(error),
+        };
+        status_value("allow_ip", result)
+    }
+
+    pub async fn remove_ip(&self, ip: &str) -> anyhow::Result<Value> {
+        let mut client = self.firewall.clone();
+        let result = match client
+            .remove_ip(self.request(IpRequest { ip: ip.to_string() }))
+            .await
+        {
+            Ok(response) => rpc_status_response(response.into_inner()),
+            Err(error) => grpc_error(error),
+        };
+        status_value("remove_ip", result)
+    }
+
+    pub async fn sync_whitelist_firewall(&self, payload: &Value) -> anyhow::Result<Value> {
+        let mut client = self.firewall.clone();
+        let policy = parse_optional_compiled_ip_set(payload.get("policy"))?;
+        let result = match client
+            .sync_whitelist_firewall(self.request(WhitelistFirewallSyncRequest {
+                policy_id: string_field(payload, "policy_id"),
+                policy,
+            }))
+            .await
+        {
+            Ok(response) => rpc_status_response(response.into_inner()),
+            Err(error) => grpc_error(error),
+        };
+        status_value("sync_whitelist_firewall", result)
+    }
+
+    pub async fn init_iptables(&self, payload: &Value) -> anyhow::Result<Value> {
+        let mut client = self.firewall.clone();
+        let result = match client
+            .init_iptables(self.request(IptablesInitRequest {
+                chain_name: string_field(payload, "chain_name"),
+                parent_chains: parent_chains_from_body(payload),
+                exempt_ports: string_vec_any_field(payload, "exempt_ports"),
+            }))
+            .await
+        {
+            Ok(response) => rpc_status_response(response.into_inner()),
+            Err(error) => grpc_error(error),
+        };
+        status_value("init_iptables", result)
+    }
+
+    pub async fn clean_iptables(&self) -> anyhow::Result<Value> {
+        let mut client = self.firewall.clone();
+        let result = match client.clean_iptables(self.request(())).await {
+            Ok(response) => rpc_status_response(response.into_inner()),
+            Err(error) => grpc_error(error),
+        };
+        status_value("clean_iptables", result)
+    }
+
+    pub async fn sync_ssh_firewall(&self, payload: &Value) -> anyhow::Result<Value> {
+        let mut client = self.firewall.clone();
+        let policy = parse_optional_compiled_ip_set(payload.get("policy"))?;
+        let result = match client
+            .sync_ssh_firewall(self.request(SshFirewallSyncRequest {
+                chain_name: string_field(payload, "chain_name"),
+                parent_chains: parent_chains_from_body(payload),
+                ports: int_vec_any_field(payload, "ports"),
+                allowed_cidrs: string_vec_field(payload, "allowed_cidrs"),
+                blocked_ips: string_vec_field(payload, "blocked_ips"),
+                include_local_cidrs: bool_field(payload, "include_local_cidrs", false),
+                policy_id: string_field(payload, "policy_id"),
+                policy,
+            }))
+            .await
+        {
+            Ok(response) => rpc_status_response(response.into_inner()),
+            Err(error) => grpc_error(error),
+        };
+        status_value("sync_ssh_firewall", result)
+    }
+
+    pub async fn clear_ssh_firewall(&self, payload: &Value) -> anyhow::Result<Value> {
+        let mut client = self.firewall.clone();
+        let result = match client
+            .clear_ssh_firewall(self.request(SshFirewallClearRequest {
+                chain_name: string_field(payload, "chain_name"),
+                parent_chains: parent_chains_from_body(payload),
+            }))
+            .await
+        {
+            Ok(response) => rpc_status_response(response.into_inner()),
+            Err(error) => grpc_error(error),
+        };
+        status_value("clear_ssh_firewall", result)
+    }
+
+    pub async fn clear_tcp_redirect(
+        &self,
+        listen_port: i64,
+        target_port: i64,
+    ) -> anyhow::Result<(StatusCode, Value)> {
+        let mut client = self.firewall.clone();
+        match client
+            .clear_tcp_redirect(self.request(TcpRedirectRequest {
+                listen_port: i32::try_from(listen_port).unwrap_or(0),
+                target_port: i32::try_from(target_port).unwrap_or(0),
+            }))
+            .await
+        {
+            Ok(response) => Ok(rpc_status_response(response.into_inner())),
+            Err(error) => Ok(grpc_error(error)),
+        }
+    }
+}

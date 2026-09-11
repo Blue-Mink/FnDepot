@@ -1,1 +1,79 @@
-dXNlIGJhc2U2NDo6e0VuZ2luZSBhcyBfLCBlbmdpbmU6OmdlbmVyYWxfcHVycG9zZX07CnVzZSBobWFjOjp7SG1hYywgTWFjfTsKdXNlIHNoYTE6OlNoYTE7CnVzZSBzaGEyOjp7RGlnZXN0LCBTaGEyNTZ9OwoKdHlwZSBIbWFjU2hhMSA9IEhtYWM8U2hhMT47CnR5cGUgSG1hY1NoYTI1NiA9IEhtYWM8U2hhMjU2PjsKCnB1YihjcmF0ZSkgZm4gc2hhMjU2X2hleF9ieXRlcyhpbnB1dDogaW1wbCBBc1JlZjxbdThdPikgLT4gU3RyaW5nIHsKICAgIGhleDo6ZW5jb2RlKFNoYTI1Njo6ZGlnZXN0KGlucHV0LmFzX3JlZigpKSkKfQoKcHViKGNyYXRlKSBmbiBzaGEyNTZfaGV4X3N0cih2YWx1ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIHNoYTI1Nl9oZXhfYnl0ZXModmFsdWUuYXNfYnl0ZXMoKSkKfQoKcHViKGNyYXRlKSBmbiBzaGEyNTZfYmFzZTY0X3VybF9ub19wYWQoaW5wdXQ6IGltcGwgQXNSZWY8W3U4XT4pIC0+IFN0cmluZyB7CiAgICBnZW5lcmFsX3B1cnBvc2U6OlVSTF9TQUZFX05PX1BBRC5lbmNvZGUoU2hhMjU2OjpkaWdlc3QoaW5wdXQuYXNfcmVmKCkpKQp9CgpwdWIoY3JhdGUpIGZuIGhtYWNfc2hhMV9iYXNlNjQoa2V5OiAmW3U4XSwgcGF5bG9hZDogJlt1OF0pIC0+IFN0cmluZyB7CiAgICBsZXQgbXV0IG1hYyA9IEhtYWNTaGExOjpuZXdfZnJvbV9zbGljZShrZXkpLmV4cGVjdCgiSE1BQyBhY2NlcHRzIGtleXMgb2YgYW55IHNpemUiKTsKICAgIG1hYy51cGRhdGUocGF5bG9hZCk7CiAgICBnZW5lcmFsX3B1cnBvc2U6OlNUQU5EQVJELmVuY29kZShtYWMuZmluYWxpemUoKS5pbnRvX2J5dGVzKCkpCn0KCnB1YihjcmF0ZSkgZm4gaG1hY19zaGEyNTZfYnl0ZXMoa2V5OiAmW3U4XSwgcGF5bG9hZDogJlt1OF0pIC0+IFZlYzx1OD4gewogICAgbGV0IG11dCBtYWMgPSBIbWFjU2hhMjU2OjpuZXdfZnJvbV9zbGljZShrZXkpLmV4cGVjdCgiSE1BQyBhY2NlcHRzIGtleXMgb2YgYW55IHNpemUiKTsKICAgIG1hYy51cGRhdGUocGF5bG9hZCk7CiAgICBtYWMuZmluYWxpemUoKS5pbnRvX2J5dGVzKCkudG9fdmVjKCkKfQoKcHViKGNyYXRlKSBmbiBobWFjX3NoYTI1Nl9oZXgoa2V5OiAmW3U4XSwgcGF5bG9hZDogJlt1OF0pIC0+IFN0cmluZyB7CiAgICBoZXg6OmVuY29kZShobWFjX3NoYTI1Nl9ieXRlcyhrZXksIHBheWxvYWQpKQp9CgpwdWIoY3JhdGUpIGZuIGhtYWNfc2hhMjU2X2Jhc2U2NChrZXk6ICZbdThdLCBwYXlsb2FkOiAmW3U4XSkgLT4gU3RyaW5nIHsKICAgIGdlbmVyYWxfcHVycG9zZTo6U1RBTkRBUkQuZW5jb2RlKGhtYWNfc2hhMjU2X2J5dGVzKGtleSwgcGF5bG9hZCkpCn0KCnB1YihjcmF0ZSkgZm4gcmFuZG9tX2J5dGVzPGNvbnN0IE46IHVzaXplPigpIC0+IFt1ODsgTl0gewogICAgcmFuZDo6cmFuZG9tOjo8W3U4OyBOXT4oKQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKCiAgICAjW3Rlc3RdCiAgICBmbiBoYXNoZXNfc2hhMjU2X3VzaW5nX3N0YWJsZV9lbmNvZGluZ3MoKSB7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc2hhMjU2X2hleF9zdHIoImFiYyIpLAogICAgICAgICAgICAiYmE3ODE2YmY4ZjAxY2ZlYTQxNDE0MGRlNWRhZTIyMjNiMDAzNjFhMzk2MTc3YTljYjQxMGZmNjFmMjAwMTVhZCIKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHNoYTI1Nl9iYXNlNjRfdXJsX25vX3BhZCgiYWJjIiksCiAgICAgICAgICAgICJ1bmdXdjQ4QnotcEJRVURlWGE0aUk3QURZYU9XRjNxY3RCRF9ZZklBRmEwIgogICAgICAgICk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gaG1hY19oZWxwZXJzX2FjY2VwdF9lbXB0eV9rZXlzX2FuZF9tYXRjaF9rbm93bl92ZWN0b3JzKCkgewogICAgICAgIGFzc2VydCEoIWhtYWNfc2hhMjU2X2hleChiIiIsIGIicGF5bG9hZCIpLmlzX2VtcHR5KCkpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGhtYWNfc2hhMjU2X2hleChiImtleSIsIGIiVGhlIHF1aWNrIGJyb3duIGZveCBqdW1wcyBvdmVyIHRoZSBsYXp5IGRvZyIpLAogICAgICAgICAgICAiZjdiYzgzZjQzMDUzODQyNGIxMzI5OGU2YWE2ZmIxNDNlZjRkNTlhMTQ5NDYxNzU5OTc0NzlkYmMyZDFhM2NkOCIKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGhtYWNfc2hhMV9iYXNlNjQoYiJrZXkiLCBiIlRoZSBxdWljayBicm93biBmb3gganVtcHMgb3ZlciB0aGUgbGF6eSBkb2ciKSwKICAgICAgICAgICAgIjNueWJoYmkzaXFhOGlubzI5d3FRY0J5ZHROaz0iCiAgICAgICAgKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiByYW5kb21fYnl0ZXNfcmV0dXJuc19yZXF1ZXN0ZWRfc2l6ZSgpIHsKICAgICAgICBsZXQgdmFsdWUgPSByYW5kb21fYnl0ZXM6OjwzMj4oKTsKICAgICAgICBhc3NlcnRfZXEhKHZhbHVlLmxlbigpLCAzMik7CiAgICB9Cn0K
+use base64::{Engine as _, engine::general_purpose};
+use hmac::{Hmac, Mac};
+use sha1::Sha1;
+use sha2::{Digest, Sha256};
+
+type HmacSha1 = Hmac<Sha1>;
+type HmacSha256 = Hmac<Sha256>;
+
+pub(crate) fn sha256_hex_bytes(input: impl AsRef<[u8]>) -> String {
+    hex::encode(Sha256::digest(input.as_ref()))
+}
+
+pub(crate) fn sha256_hex_str(value: &str) -> String {
+    sha256_hex_bytes(value.as_bytes())
+}
+
+pub(crate) fn sha256_base64_url_no_pad(input: impl AsRef<[u8]>) -> String {
+    general_purpose::URL_SAFE_NO_PAD.encode(Sha256::digest(input.as_ref()))
+}
+
+pub(crate) fn hmac_sha1_base64(key: &[u8], payload: &[u8]) -> String {
+    let mut mac = HmacSha1::new_from_slice(key).expect("HMAC accepts keys of any size");
+    mac.update(payload);
+    general_purpose::STANDARD.encode(mac.finalize().into_bytes())
+}
+
+pub(crate) fn hmac_sha256_bytes(key: &[u8], payload: &[u8]) -> Vec<u8> {
+    let mut mac = HmacSha256::new_from_slice(key).expect("HMAC accepts keys of any size");
+    mac.update(payload);
+    mac.finalize().into_bytes().to_vec()
+}
+
+pub(crate) fn hmac_sha256_hex(key: &[u8], payload: &[u8]) -> String {
+    hex::encode(hmac_sha256_bytes(key, payload))
+}
+
+pub(crate) fn hmac_sha256_base64(key: &[u8], payload: &[u8]) -> String {
+    general_purpose::STANDARD.encode(hmac_sha256_bytes(key, payload))
+}
+
+pub(crate) fn random_bytes<const N: usize>() -> [u8; N] {
+    rand::random::<[u8; N]>()
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn hashes_sha256_using_stable_encodings() {
+        assert_eq!(
+            sha256_hex_str("abc"),
+            "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+        );
+        assert_eq!(
+            sha256_base64_url_no_pad("abc"),
+            "ungWv48Bz-pBQUDeXa4iI7ADYaOWF3qctBD_YfIAFa0"
+        );
+    }
+
+    #[test]
+    fn hmac_helpers_accept_empty_keys_and_match_known_vectors() {
+        assert!(!hmac_sha256_hex(b"", b"payload").is_empty());
+        assert_eq!(
+            hmac_sha256_hex(b"key", b"The quick brown fox jumps over the lazy dog"),
+            "f7bc83f430538424b13298e6aa6fb143ef4d59a14946175997479dbc2d1a3cd8"
+        );
+        assert_eq!(
+            hmac_sha1_base64(b"key", b"The quick brown fox jumps over the lazy dog"),
+            "3nybhbi3iqa8ino29wqQcBydtNk="
+        );
+    }
+
+    #[test]
+    fn random_bytes_returns_requested_size() {
+        let value = random_bytes::<32>();
+        assert_eq!(value.len(), 32);
+    }
+}

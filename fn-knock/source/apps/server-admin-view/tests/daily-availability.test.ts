@@ -1,1 +1,84 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IHJlYWRGaWxlU3luYyB9IGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgewogIGlzQXZhaWxhYmlsaXR5V2luZG93T3BlbiwKICBub3JtYWxpemVEYWlseUF2YWlsYWJpbGl0eSwKfSBmcm9tICIuLi9zcmMvbGliL2RhaWx5LWF2YWlsYWJpbGl0eSI7CgpkZXNjcmliZSgiZGFpbHkgYXZhaWxhYmlsaXR5IiwgKCkgPT4gewogIGl0KCJub3JtYWxpemVzIHZhbGlkIHdpbmRvd3MgYW5kIHNhZmVseSBjbGVhcnMgaW52YWxpZCBsZWdhY3kgdmFsdWVzIiwgKCkgPT4gewogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgbm9ybWFsaXplRGFpbHlBdmFpbGFiaWxpdHkoewogICAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgICAgc3RhcnRfdGltZTogIiAyMjowMCAiLAogICAgICAgIGVuZF90aW1lOiAiMDY6MDAiLAogICAgICB9KSwKICAgICAgeyBlbmFibGVkOiB0cnVlLCBzdGFydF90aW1lOiAiMjI6MDAiLCBlbmRfdGltZTogIjA2OjAwIiB9LAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgbm9ybWFsaXplRGFpbHlBdmFpbGFiaWxpdHkoewogICAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgICAgc3RhcnRfdGltZTogIjk6MDAiLAogICAgICAgIGVuZF90aW1lOiAiMTg6MDAiLAogICAgICB9KSwKICAgICAgbnVsbCwKICAgICk7CiAgfSk7CgogIGl0KCJldmFsdWF0ZXMgdGhlIHdpbmRvdyBpbiB0aGUgc2VydmVyIHRpbWV6b25lIiwgKCkgPT4gewogICAgY29uc3QgYXZhaWxhYmlsaXR5ID0gewogICAgICBlbmFibGVkOiB0cnVlLAogICAgICBzdGFydF90aW1lOiAiMDk6MDAiLAogICAgICBlbmRfdGltZTogIjE4OjAwIiwKICAgIH07CiAgICBjb25zdCBub3cgPSBuZXcgRGF0ZSgiMjAyNi0wMS0wMVQwMjowMDowMC4wMDBaIik7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGlzQXZhaWxhYmlsaXR5V2luZG93T3BlbihhdmFpbGFiaWxpdHksIG5vdywgIkFzaWEvU2hhbmdoYWkiKSwKICAgICAgdHJ1ZSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGlzQXZhaWxhYmlsaXR5V2luZG93T3BlbihhdmFpbGFiaWxpdHksIG5vdywgIkFtZXJpY2EvTmV3X1lvcmsiKSwKICAgICAgZmFsc2UsCiAgICApOwogIH0pOwoKICBpdCgia2VlcHMgc3RhcnQgaW5jbHVzaXZlIGFuZCBlbmQgZXhjbHVzaXZlIGluIHRoZSBzZXJ2ZXIgdGltZXpvbmUiLCAoKSA9PiB7CiAgICBjb25zdCBhdmFpbGFiaWxpdHkgPSB7CiAgICAgIGVuYWJsZWQ6IHRydWUgYXMgY29uc3QsCiAgICAgIHN0YXJ0X3RpbWU6ICIyMjowMCIsCiAgICAgIGVuZF90aW1lOiAiMDY6MDAiLAogICAgfTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgaXNBdmFpbGFiaWxpdHlXaW5kb3dPcGVuKAogICAgICAgIGF2YWlsYWJpbGl0eSwKICAgICAgICBuZXcgRGF0ZSgiMjAyNi0wMS0wMVQxNDowMDowMC4wMDBaIiksCiAgICAgICAgIkFzaWEvU2hhbmdoYWkiLAogICAgICApLAogICAgICB0cnVlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgaXNBdmFpbGFiaWxpdHlXaW5kb3dPcGVuKAogICAgICAgIGF2YWlsYWJpbGl0eSwKICAgICAgICBuZXcgRGF0ZSgiMjAyNi0wMS0wMVQyMjowMDowMC4wMDBaIiksCiAgICAgICAgIkFzaWEvU2hhbmdoYWkiLAogICAgICApLAogICAgICBmYWxzZSwKICAgICk7CiAgfSk7CgogIGl0KCJhcHBsaWVzIHRoZSBub3JtYWxpemVkIEFQSSByZXNwb25zZSBiZWZvcmUgZm9yY2luZyBhIGNvbmZpZyByZWZyZXNoIiwgKCkgPT4gewogICAgY29uc3Qgc291cmNlID0gcmVhZEZpbGVTeW5jKAogICAgICBuZXcgVVJMKAogICAgICAgICIuLi9zcmMvdmlld3Mvc3RyZWFtLW1hcHBpbmdzL3VzZVN0cmVhbU1hcHBpbmdBdmFpbGFiaWxpdHkudHMiLAogICAgICAgIGltcG9ydC5tZXRhLnVybCwKICAgICAgKSwKICAgICAgInV0ZjgiLAogICAgKTsKICAgIGFzc2VydC5tYXRjaChzb3VyY2UsIC9wcm90b2NvbF9tYXBwaW5nX2ZlYXR1cmU6XHMqdXBkYXRlZC91KTsKICAgIGFzc2VydC5tYXRjaChzb3VyY2UsIC9sb2FkQ29uZmlnXChceyBmb3JjZTogdHJ1ZSBcfVwpL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHNvdXJjZSwgL2lmIFwoIXN5c3RlbUNsb2NrU3RvcmVcLnN0YXR1c1wpL3UpOwogIH0pOwp9KTsK
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+import {
+  isAvailabilityWindowOpen,
+  normalizeDailyAvailability,
+} from "../src/lib/daily-availability";
+
+describe("daily availability", () => {
+  it("normalizes valid windows and safely clears invalid legacy values", () => {
+    assert.deepEqual(
+      normalizeDailyAvailability({
+        enabled: true,
+        start_time: " 22:00 ",
+        end_time: "06:00",
+      }),
+      { enabled: true, start_time: "22:00", end_time: "06:00" },
+    );
+    assert.equal(
+      normalizeDailyAvailability({
+        enabled: true,
+        start_time: "9:00",
+        end_time: "18:00",
+      }),
+      null,
+    );
+  });
+
+  it("evaluates the window in the server timezone", () => {
+    const availability = {
+      enabled: true,
+      start_time: "09:00",
+      end_time: "18:00",
+    };
+    const now = new Date("2026-01-01T02:00:00.000Z");
+    assert.equal(
+      isAvailabilityWindowOpen(availability, now, "Asia/Shanghai"),
+      true,
+    );
+    assert.equal(
+      isAvailabilityWindowOpen(availability, now, "America/New_York"),
+      false,
+    );
+  });
+
+  it("keeps start inclusive and end exclusive in the server timezone", () => {
+    const availability = {
+      enabled: true as const,
+      start_time: "22:00",
+      end_time: "06:00",
+    };
+    assert.equal(
+      isAvailabilityWindowOpen(
+        availability,
+        new Date("2026-01-01T14:00:00.000Z"),
+        "Asia/Shanghai",
+      ),
+      true,
+    );
+    assert.equal(
+      isAvailabilityWindowOpen(
+        availability,
+        new Date("2026-01-01T22:00:00.000Z"),
+        "Asia/Shanghai",
+      ),
+      false,
+    );
+  });
+
+  it("applies the normalized API response before forcing a config refresh", () => {
+    const source = readFileSync(
+      new URL(
+        "../src/views/stream-mappings/useStreamMappingAvailability.ts",
+        import.meta.url,
+      ),
+      "utf8",
+    );
+    assert.match(source, /protocol_mapping_feature:\s*updated/u);
+    assert.match(source, /loadConfig\(\{ force: true \}\)/u);
+    assert.match(source, /if \(!systemClockStore\.status\)/u);
+  });
+});

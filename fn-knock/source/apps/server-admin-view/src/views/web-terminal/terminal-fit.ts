@@ -1,1 +1,145 @@
-aW1wb3J0IHsgbmV4dFRpY2sgfSBmcm9tICJ2dWUiOwoKdHlwZSBUZXJtaW5hbEZpdERpbWVuc2lvbnMgPSB7CiAgY29sczogbnVtYmVyOwogIHJvd3M6IG51bWJlcjsKfTsKCnR5cGUgVGVybWluYWxGaXRBZGRvbiA9IHsKICBwcm9wb3NlRGltZW5zaW9uczogKCkgPT4gVGVybWluYWxGaXREaW1lbnNpb25zIHwgdW5kZWZpbmVkOwp9OwoKdHlwZSBUZXJtaW5hbEZpdEluc3RhbmNlID0gVGVybWluYWxGaXREaW1lbnNpb25zICYgewogIHJlc2l6ZTogKGNvbHM6IG51bWJlciwgcm93czogbnVtYmVyKSA9PiB2b2lkOwp9OwoKZXhwb3J0IGNvbnN0IGNyZWF0ZVRlcm1pbmFsRml0Q29udHJvbGxlciA9ICh7CiAgZ2V0Rml0QWRkb24sCiAgZ2V0TW91bnRFbGVtZW50LAogIGdldFRlcm1pbmFsLAogIHJ1blRlcm1pbmFsTXV0YXRpb24sCn06IHsKICBnZXRGaXRBZGRvbjogKCkgPT4gVGVybWluYWxGaXRBZGRvbiB8IG51bGw7CiAgZ2V0TW91bnRFbGVtZW50OiAoKSA9PiBIVE1MRWxlbWVudCB8IG51bGw7CiAgZ2V0VGVybWluYWw6ICgpID0+IFRlcm1pbmFsRml0SW5zdGFuY2UgfCBudWxsOwogIHJ1blRlcm1pbmFsTXV0YXRpb246IChtdXRhdGlvbjogKCkgPT4gdm9pZCkgPT4gdm9pZDsKfSkgPT4gewogIGxldCBmaXRGcmFtZTogbnVtYmVyIHwgbnVsbCA9IG51bGw7CiAgbGV0IGZpdFRpbWVyOiBudW1iZXIgfCBudWxsID0gbnVsbDsKICBsZXQgYXR0ZW1wdHNSZW1haW5pbmcgPSAwOwogIGxldCByZXNpemVPYnNlcnZlcjogUmVzaXplT2JzZXJ2ZXIgfCBudWxsID0gbnVsbDsKICBsZXQgb2JzZXJ2ZWRFbGVtZW50OiBIVE1MRWxlbWVudCB8IG51bGwgPSBudWxsOwoKICBjb25zdCBhcHBseSA9ICgpID0+IHsKICAgIGNvbnN0IHRlcm1pbmFsID0gZ2V0VGVybWluYWwoKTsKICAgIGNvbnN0IGZpdEFkZG9uID0gZ2V0Rml0QWRkb24oKTsKICAgIGlmICghdGVybWluYWwgfHwgIWZpdEFkZG9uKSByZXR1cm47CgogICAgY29uc3QgZGltZW5zaW9ucyA9IGZpdEFkZG9uLnByb3Bvc2VEaW1lbnNpb25zKCk7CiAgICBpZiAoIWRpbWVuc2lvbnMpIHJldHVybjsKICAgIGlmICgKICAgICAgZGltZW5zaW9ucy5jb2xzID09PSB0ZXJtaW5hbC5jb2xzICYmCiAgICAgIGRpbWVuc2lvbnMucm93cyA9PT0gdGVybWluYWwucm93cwogICAgKSB7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBydW5UZXJtaW5hbE11dGF0aW9uKCgpID0+IHsKICAgICAgZ2V0VGVybWluYWwoKT8ucmVzaXplKGRpbWVuc2lvbnMuY29scywgZGltZW5zaW9ucy5yb3dzKTsKICAgIH0pOwogIH07CgogIGNvbnN0IGhhc0NhbnZhc0hlaWdodEdhcCA9ICgpOiBib29sZWFuID0+IHsKICAgIGNvbnN0IG1vdW50RWxlbWVudCA9IGdldE1vdW50RWxlbWVudCgpOwogICAgaWYgKCFtb3VudEVsZW1lbnQpIHJldHVybiBmYWxzZTsKCiAgICBjb25zdCBjYW52YXMgPSBtb3VudEVsZW1lbnQucXVlcnlTZWxlY3RvcigiY2FudmFzIik7CiAgICBpZiAoIShjYW52YXMgaW5zdGFuY2VvZiBIVE1MQ2FudmFzRWxlbWVudCkpIHJldHVybiBmYWxzZTsKCiAgICBjb25zdCBtb3VudEhlaWdodCA9IG1vdW50RWxlbWVudC5jbGllbnRIZWlnaHQ7CiAgICBjb25zdCBjYW52YXNIZWlnaHQgPSBNYXRoLnJvdW5kKGNhbnZhcy5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKS5oZWlnaHQpOwogICAgaWYgKG1vdW50SGVpZ2h0IDw9IDAgfHwgY2FudmFzSGVpZ2h0IDw9IDApIHJldHVybiBmYWxzZTsKCiAgICByZXR1cm4gTWF0aC5hYnMobW91bnRIZWlnaHQgLSBjYW52YXNIZWlnaHQpID4gMjQ7CiAgfTsKCiAgY29uc3QgcnVuRml0QXR0ZW1wdCA9ICgpID0+IHsKICAgIGFwcGx5KCk7CgogICAgaWYgKAogICAgICBhdHRlbXB0c1JlbWFpbmluZyA8PSAwIHx8CiAgICAgICFoYXNDYW52YXNIZWlnaHRHYXAoKSB8fAogICAgICB0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIgogICAgKSB7CiAgICAgIGF0dGVtcHRzUmVtYWluaW5nID0gMDsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGF0dGVtcHRzUmVtYWluaW5nIC09IDE7CiAgICBmaXRUaW1lciA9IHdpbmRvdy5zZXRUaW1lb3V0KCgpID0+IHsKICAgICAgZml0VGltZXIgPSBudWxsOwogICAgICBydW5GaXRBdHRlbXB0KCk7CiAgICB9LCAxMjApOwogIH07CgogIGNvbnN0IHNjaGVkdWxlID0gKCkgPT4gewogICAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm47CgogICAgaWYgKGZpdEZyYW1lICE9PSBudWxsKSB7CiAgICAgIHdpbmRvdy5jYW5jZWxBbmltYXRpb25GcmFtZShmaXRGcmFtZSk7CiAgICB9CiAgICBpZiAoZml0VGltZXIgIT09IG51bGwpIHsKICAgICAgd2luZG93LmNsZWFyVGltZW91dChmaXRUaW1lcik7CiAgICAgIGZpdFRpbWVyID0gbnVsbDsKICAgIH0KICAgIGF0dGVtcHRzUmVtYWluaW5nID0gODsKCiAgICB2b2lkIG5leHRUaWNrKCgpID0+IHsKICAgICAgZml0RnJhbWUgPSB3aW5kb3cucmVxdWVzdEFuaW1hdGlvbkZyYW1lKCgpID0+IHsKICAgICAgICBmaXRGcmFtZSA9IG51bGw7CiAgICAgICAgcnVuRml0QXR0ZW1wdCgpOwogICAgICB9KTsKICAgIH0pOwogIH07CgogIGNvbnN0IG9ic2VydmVNb3VudFNpemUgPSAoKSA9PiB7CiAgICBjb25zdCBtb3VudEVsZW1lbnQgPSBnZXRNb3VudEVsZW1lbnQoKTsKICAgIGlmICh0eXBlb2YgUmVzaXplT2JzZXJ2ZXIgPT09ICJ1bmRlZmluZWQiIHx8ICFtb3VudEVsZW1lbnQpIHsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKHJlc2l6ZU9ic2VydmVyICYmIG9ic2VydmVkRWxlbWVudCA9PT0gbW91bnRFbGVtZW50KSB7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICByZXNpemVPYnNlcnZlcj8uZGlzY29ubmVjdCgpOwogICAgcmVzaXplT2JzZXJ2ZXIgPSBuZXcgUmVzaXplT2JzZXJ2ZXIoKCkgPT4gewogICAgICBzY2hlZHVsZSgpOwogICAgfSk7CiAgICByZXNpemVPYnNlcnZlci5vYnNlcnZlKG1vdW50RWxlbWVudCk7CiAgICBvYnNlcnZlZEVsZW1lbnQgPSBtb3VudEVsZW1lbnQ7CiAgfTsKCiAgY29uc3QgZGlzcG9zZSA9ICgpID0+IHsKICAgIGlmICh0eXBlb2Ygd2luZG93ICE9PSAidW5kZWZpbmVkIikgewogICAgICBpZiAoZml0RnJhbWUgIT09IG51bGwpIHsKICAgICAgICB3aW5kb3cuY2FuY2VsQW5pbWF0aW9uRnJhbWUoZml0RnJhbWUpOwogICAgICB9CiAgICAgIGlmIChmaXRUaW1lciAhPT0gbnVsbCkgewogICAgICAgIHdpbmRvdy5jbGVhclRpbWVvdXQoZml0VGltZXIpOwogICAgICB9CiAgICB9CiAgICBmaXRGcmFtZSA9IG51bGw7CiAgICBmaXRUaW1lciA9IG51bGw7CiAgICBhdHRlbXB0c1JlbWFpbmluZyA9IDA7CiAgICByZXNpemVPYnNlcnZlcj8uZGlzY29ubmVjdCgpOwogICAgcmVzaXplT2JzZXJ2ZXIgPSBudWxsOwogICAgb2JzZXJ2ZWRFbGVtZW50ID0gbnVsbDsKICB9OwoKICByZXR1cm4gewogICAgYXBwbHksCiAgICBkaXNwb3NlLAogICAgb2JzZXJ2ZU1vdW50U2l6ZSwKICAgIHNjaGVkdWxlLAogIH07Cn07Cg==
+import { nextTick } from "vue";
+
+type TerminalFitDimensions = {
+  cols: number;
+  rows: number;
+};
+
+type TerminalFitAddon = {
+  proposeDimensions: () => TerminalFitDimensions | undefined;
+};
+
+type TerminalFitInstance = TerminalFitDimensions & {
+  resize: (cols: number, rows: number) => void;
+};
+
+export const createTerminalFitController = ({
+  getFitAddon,
+  getMountElement,
+  getTerminal,
+  runTerminalMutation,
+}: {
+  getFitAddon: () => TerminalFitAddon | null;
+  getMountElement: () => HTMLElement | null;
+  getTerminal: () => TerminalFitInstance | null;
+  runTerminalMutation: (mutation: () => void) => void;
+}) => {
+  let fitFrame: number | null = null;
+  let fitTimer: number | null = null;
+  let attemptsRemaining = 0;
+  let resizeObserver: ResizeObserver | null = null;
+  let observedElement: HTMLElement | null = null;
+
+  const apply = () => {
+    const terminal = getTerminal();
+    const fitAddon = getFitAddon();
+    if (!terminal || !fitAddon) return;
+
+    const dimensions = fitAddon.proposeDimensions();
+    if (!dimensions) return;
+    if (
+      dimensions.cols === terminal.cols &&
+      dimensions.rows === terminal.rows
+    ) {
+      return;
+    }
+
+    runTerminalMutation(() => {
+      getTerminal()?.resize(dimensions.cols, dimensions.rows);
+    });
+  };
+
+  const hasCanvasHeightGap = (): boolean => {
+    const mountElement = getMountElement();
+    if (!mountElement) return false;
+
+    const canvas = mountElement.querySelector("canvas");
+    if (!(canvas instanceof HTMLCanvasElement)) return false;
+
+    const mountHeight = mountElement.clientHeight;
+    const canvasHeight = Math.round(canvas.getBoundingClientRect().height);
+    if (mountHeight <= 0 || canvasHeight <= 0) return false;
+
+    return Math.abs(mountHeight - canvasHeight) > 24;
+  };
+
+  const runFitAttempt = () => {
+    apply();
+
+    if (
+      attemptsRemaining <= 0 ||
+      !hasCanvasHeightGap() ||
+      typeof window === "undefined"
+    ) {
+      attemptsRemaining = 0;
+      return;
+    }
+
+    attemptsRemaining -= 1;
+    fitTimer = window.setTimeout(() => {
+      fitTimer = null;
+      runFitAttempt();
+    }, 120);
+  };
+
+  const schedule = () => {
+    if (typeof window === "undefined") return;
+
+    if (fitFrame !== null) {
+      window.cancelAnimationFrame(fitFrame);
+    }
+    if (fitTimer !== null) {
+      window.clearTimeout(fitTimer);
+      fitTimer = null;
+    }
+    attemptsRemaining = 8;
+
+    void nextTick(() => {
+      fitFrame = window.requestAnimationFrame(() => {
+        fitFrame = null;
+        runFitAttempt();
+      });
+    });
+  };
+
+  const observeMountSize = () => {
+    const mountElement = getMountElement();
+    if (typeof ResizeObserver === "undefined" || !mountElement) {
+      return;
+    }
+    if (resizeObserver && observedElement === mountElement) {
+      return;
+    }
+
+    resizeObserver?.disconnect();
+    resizeObserver = new ResizeObserver(() => {
+      schedule();
+    });
+    resizeObserver.observe(mountElement);
+    observedElement = mountElement;
+  };
+
+  const dispose = () => {
+    if (typeof window !== "undefined") {
+      if (fitFrame !== null) {
+        window.cancelAnimationFrame(fitFrame);
+      }
+      if (fitTimer !== null) {
+        window.clearTimeout(fitTimer);
+      }
+    }
+    fitFrame = null;
+    fitTimer = null;
+    attemptsRemaining = 0;
+    resizeObserver?.disconnect();
+    resizeObserver = null;
+    observedElement = null;
+  };
+
+  return {
+    apply,
+    dispose,
+    observeMountSize,
+    schedule,
+  };
+};

@@ -1,1 +1,149 @@
-Ly8hIEJhY2t1cCBkZWxpdmVyeSBwb2xpY3k7IHRyYW5zcG9ydCBhbmQgYXJjaGl2ZSBwcm9kdWN0aW9uIGxpdmUgZWxzZXdoZXJlLgp1c2Ugc3VwZXI6Oio7CnVzZSBjcmF0ZTo6aW5mcmE6OnsKICAgIGNyZWRlbnRpYWxzOjpDcmVkZW50aWFsU3RvcmUsCiAgICBtYWlsOjp7c2VsZiwgTWFpbEF0dGFjaG1lbnQsIE1haWxFcnJvciwgTWFpbE1lc3NhZ2UsIFNtdHBDb25maWd9LAp9Owp1c2UgbGV0dHJlOjptZXNzYWdlOjpNYWlsYm94Owp1c2Ugc2VyZGU6OntEZXNlcmlhbGl6ZSwgU2VyaWFsaXplfTsKCm1vZCBzZXR0aW5nczsKbW9kIHdvcmtlcjsKcHViKHN1cGVyKSB1c2Ugc2V0dGluZ3M6Oio7CnB1YihzdXBlcikgdXNlIHdvcmtlcjo6KjsKcHViKHN1cGVyKSBjb25zdCBFTUFJTF9LRVk6ICZzdHIgPSAiZm5fa25vY2s6Y29uZmlnOmJhY2t1cDphdXRvbWF0aWM6ZW1haWwiOwoKI1tkZXJpdmUoQ2xvbmUsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUsIHV0b2lwYTo6VG9TY2hlbWEsIFBhcnRpYWxFcSwgRXEpXQojW3NlcmRlKGRlZmF1bHQpXQpwdWIoY3JhdGUpIHN0cnVjdCBCYWNrdXBFbWFpbENvbmZpZyB7CiAgICBwdWIgZW5hYmxlZDogYm9vbCwKICAgIHB1YiBzbXRwOiBTbXRwQ29uZmlnLAogICAgcHViIGZyb21fYWRkcmVzczogU3RyaW5nLAogICAgcHViIGZyb21fbmFtZTogU3RyaW5nLAogICAgcHViIHRvX2FkZHJlc3NlczogVmVjPFN0cmluZz4sCiAgICBwdWIgYXR0YWNobWVudF9saW1pdF9taWI6IHU2NCwKfQppbXBsIERlZmF1bHQgZm9yIEJhY2t1cEVtYWlsQ29uZmlnIHsKICAgIGZuIGRlZmF1bHQoKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsKICAgICAgICAgICAgZW5hYmxlZDogZmFsc2UsCiAgICAgICAgICAgIHNtdHA6IFNtdHBDb25maWc6OmRlZmF1bHQoKSwKICAgICAgICAgICAgZnJvbV9hZGRyZXNzOiBTdHJpbmc6Om5ldygpLAogICAgICAgICAgICBmcm9tX25hbWU6ICJmbi1rbm9jayIuaW50bygpLAogICAgICAgICAgICB0b19hZGRyZXNzZXM6IHZlYyFbXSwKICAgICAgICAgICAgYXR0YWNobWVudF9saW1pdF9taWI6IDIwLAogICAgICAgIH0KICAgIH0KfQojW2Rlcml2ZShEZXNlcmlhbGl6ZSwgdXRvaXBhOjpUb1NjaGVtYSldCnB1YihjcmF0ZSkgc3RydWN0IEJhY2t1cEVtYWlsVXBkYXRlIHsKICAgICNbc2VyZGUoZmxhdHRlbildCiAgICBwdWIgY29uZmlnOiBCYWNrdXBFbWFpbENvbmZpZywKICAgICNbc2NoZW1hKHdyaXRlX29ubHkpXQogICAgcHViIHBhc3N3b3JkOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgY2xlYXJfcGFzc3dvcmQ6IGJvb2wsCn0KI1tkZXJpdmUoQ2xvbmUsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUsIERlZmF1bHQpXQojW3NlcmRlKGRlZmF1bHQpXQpwdWIoc3VwZXIpIHN0cnVjdCBFbWFpbFN0YXRlIHsKICAgIGNvbmZpZzogQmFja3VwRW1haWxDb25maWcsCiAgICByZXZpc2lvbjogU3RyaW5nLAogICAgcHViKHN1cGVyKSBzZWNyZXRfaWQ6IE9wdGlvbjxTdHJpbmc+LAogICAgam9iczogVmVjPERlbGl2ZXJ5Sm9iPiwKICAgIGxhc3RfYXR0ZW1wdF9hdDogT3B0aW9uPFN0cmluZz4sCiAgICBsYXN0X3N1Y2Nlc3NfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgbGFzdF9maWxlbmFtZTogT3B0aW9uPFN0cmluZz4sCiAgICBsYXN0X2Vycm9yOiBPcHRpb248U3RyaW5nPiwKfQojW2Rlcml2ZShDbG9uZSwgU2VyaWFsaXplLCBEZXNlcmlhbGl6ZSwgUGFydGlhbEVxLCBFcSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJzbmFrZV9jYXNlIildCmVudW0gSm9iU3RhdHVzIHsKICAgIFBlbmRpbmcsCiAgICBTZW5kaW5nLAogICAgU2VudCwKICAgIEZhaWxlZCwKICAgIENhbmNlbGxlZCwKfQojW2Rlcml2ZShDbG9uZSwgU2VyaWFsaXplLCBEZXNlcmlhbGl6ZSldCnN0cnVjdCBEZWxpdmVyeUpvYiB7CiAgICBpZDogU3RyaW5nLAogICAgcmV2aXNpb246IFN0cmluZywKICAgIGZpbGVuYW1lOiBTdHJpbmcsCiAgICBleHBvcnRlZF9hdDogU3RyaW5nLAogICAgcmVjaXBpZW50czogVmVjPFN0cmluZz4sCiAgICBjcmVhdGVkX21zOiBpNjQsCiAgICBuZXh0X21zOiBpNjQsCiAgICBhdHRlbXB0czogdTgsCiAgICBzdGF0dXM6IEpvYlN0YXR1cywKfQppbXBsIERlbGl2ZXJ5Sm9iIHsKICAgIGZuIGFjdGl2ZSgmc2VsZikgLT4gYm9vbCB7CiAgICAgICAgbWF0Y2hlcyEoc2VsZi5zdGF0dXMsIEpvYlN0YXR1czo6UGVuZGluZyB8IEpvYlN0YXR1czo6U2VuZGluZykKICAgIH0KfQpmbiBzZWNyZXRzKHN0YXRlOiAmQXBwU3RhdGUpIC0+IENyZWRlbnRpYWxTdG9yZSB7CiAgICBDcmVkZW50aWFsU3RvcmU6OndpdGhfZGlyZWN0b3J5KHN0YXRlLnNldHRpbmdzLmRhdGFfZGlyLmpvaW4oImJhY2t1cC1lbWFpbCIpLCAiYmFja3VwLWVtYWlsIikKfQpwdWIoc3VwZXIpIGFzeW5jIGZuIGxvYWQoc3RhdGU6ICZBcHBTdGF0ZSkgLT4gYW55aG93OjpSZXN1bHQ8RW1haWxTdGF0ZT4gewogICAgT2soc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfanNvbl92YWx1ZShFTUFJTF9LRVkpCiAgICAgICAgLmF3YWl0PwogICAgICAgIC5tYXAoc2VyZGVfanNvbjo6ZnJvbV92YWx1ZSkKICAgICAgICAudHJhbnNwb3NlKCk/CiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkpCn0KYXN5bmMgZm4gcGVyc2lzdChzdGF0ZTogJkFwcFN0YXRlLCBlbWFpbDogJkVtYWlsU3RhdGUpIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNldF9qc29uX3ZhbHVlKEVNQUlMX0tFWSwgJnNlcmRlX2pzb246OnRvX3ZhbHVlKGVtYWlsKT8pCiAgICAgICAgLmF3YWl0PzsKICAgIE9rKCgpKQp9CnB1YihzdXBlcikgZm4gZW5xdWV1ZShlbWFpbDogJm11dCBFbWFpbFN0YXRlLCBmaWxlbmFtZTogJnN0ciwgZXhwb3J0ZWRfYXQ6ICZzdHIpIHsKICAgIGlmICFlbWFpbC5jb25maWcuZW5hYmxlZCB7CiAgICAgICAgcmV0dXJuOwogICAgfQogICAgZW1haWwuam9icy5yZXRhaW4oRGVsaXZlcnlKb2I6OmFjdGl2ZSk7CiAgICBsZXQgbm93ID0gdGltZV91dGlsczo6bm93X21zKCk7CiAgICBlbWFpbC5qb2JzLnB1c2goRGVsaXZlcnlKb2IgewogICAgICAgIGlkOiBVdWlkOjpuZXdfdjQoKS50b19zdHJpbmcoKSwKICAgICAgICByZXZpc2lvbjogZW1haWwucmV2aXNpb24uY2xvbmUoKSwKICAgICAgICBmaWxlbmFtZTogZmlsZW5hbWUuaW50bygpLAogICAgICAgIGV4cG9ydGVkX2F0OiBleHBvcnRlZF9hdC5pbnRvKCksCiAgICAgICAgcmVjaXBpZW50czogZW1haWwuY29uZmlnLnRvX2FkZHJlc3Nlcy5jbG9uZSgpLAogICAgICAgIGNyZWF0ZWRfbXM6IG5vdywKICAgICAgICBuZXh0X21zOiBub3csCiAgICAgICAgYXR0ZW1wdHM6IDAsCiAgICAgICAgc3RhdHVzOiBKb2JTdGF0dXM6OlBlbmRpbmcsCiAgICB9KTsKfQpwdWIoc3VwZXIpIGFzeW5jIGZuIGRlY29yYXRlKHN0YXRlOiAmQXBwU3RhdGUsIG11dCBkZXRhaWxzOiBWYWx1ZSkgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgIGxldCBlbWFpbCA9IGxvYWQoc3RhdGUpLmF3YWl0PzsKICAgIGxldCBtdXQgY29uZmlnID0gc2VyZGVfanNvbjo6dG9fdmFsdWUoJmVtYWlsLmNvbmZpZyk/OwogICAgY29uZmlnWyJwYXNzd29yZF9jb25maWd1cmVkIl0gPSBqc29uIShlbWFpbC5zZWNyZXRfaWQuaXNfc29tZSgpKTsKICAgIGRldGFpbHNbImNvbmZpZyJdWyJlbWFpbCJdID0gY29uZmlnOwogICAgZGV0YWlsc1sic3RhdHVzIl1bImVtYWlsIl0gPSBqc29uISh7CiAgICAgICAgImxhc3RfYXR0ZW1wdF9hdCI6IGVtYWlsLmxhc3RfYXR0ZW1wdF9hdCwgImxhc3Rfc3VjY2Vzc19hdCI6IGVtYWlsLmxhc3Rfc3VjY2Vzc19hdCwKICAgICAgICAibGFzdF9maWxlbmFtZSI6IGVtYWlsLmxhc3RfZmlsZW5hbWUsICJsYXN0X2Vycm9yIjogZW1haWwubGFzdF9lcnJvciwKICAgICAgICAicGVuZGluZ19jb3VudCI6IGVtYWlsLmpvYnMuaXRlcigpLmZpbHRlcih8am9ifCBqb2IuYWN0aXZlKCkpLmNvdW50KCksCiAgICAgICAgIm5leHRfcmV0cnlfYXQiOiBlbWFpbC5qb2JzLml0ZXIoKS5maWx0ZXIofGpvYnwgam9iLmFjdGl2ZSgpKS5tYXAofGpvYnwgam9iLm5leHRfbXMpLm1pbigpLm1hcCh0aW1lX3V0aWxzOjppc29fZnJvbV9tcyksCiAgICB9KTsKICAgIE9rKGRldGFpbHMpCn0KcHViKHN1cGVyKSBhc3luYyBmbiBwaW5uZWRfZmlsZXMoc3RhdGU6ICZBcHBTdGF0ZSkgLT4gYW55aG93OjpSZXN1bHQ8VmVjPFN0cmluZz4+IHsKICAgIGxldCBub3cgPSB0aW1lX3V0aWxzOjpub3dfbXMoKTsKICAgIE9rKGxvYWQoc3RhdGUpCiAgICAgICAgLmF3YWl0PwogICAgICAgIC5qb2JzCiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLmZpbHRlcih8am9ifCBqb2IuYWN0aXZlKCkgJiYgbm93IC0gam9iLmNyZWF0ZWRfbXMgPCA4Nl80MDBfMDAwKQogICAgICAgIC5tYXAofGpvYnwgam9iLmZpbGVuYW1lKQogICAgICAgIC5jb2xsZWN0KCkpCn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHM7Cg==
+//! Backup delivery policy; transport and archive production live elsewhere.
+use super::*;
+use crate::infra::{
+    credentials::CredentialStore,
+    mail::{self, MailAttachment, MailError, MailMessage, SmtpConfig},
+};
+use lettre::message::Mailbox;
+use serde::{Deserialize, Serialize};
+
+mod settings;
+mod worker;
+pub(super) use settings::*;
+pub(super) use worker::*;
+pub(super) const EMAIL_KEY: &str = "fn_knock:config:backup:automatic:email";
+
+#[derive(Clone, Serialize, Deserialize, utoipa::ToSchema, PartialEq, Eq)]
+#[serde(default)]
+pub(crate) struct BackupEmailConfig {
+    pub enabled: bool,
+    pub smtp: SmtpConfig,
+    pub from_address: String,
+    pub from_name: String,
+    pub to_addresses: Vec<String>,
+    pub attachment_limit_mib: u64,
+}
+impl Default for BackupEmailConfig {
+    fn default() -> Self {
+        Self {
+            enabled: false,
+            smtp: SmtpConfig::default(),
+            from_address: String::new(),
+            from_name: "fn-knock".into(),
+            to_addresses: vec![],
+            attachment_limit_mib: 20,
+        }
+    }
+}
+#[derive(Deserialize, utoipa::ToSchema)]
+pub(crate) struct BackupEmailUpdate {
+    #[serde(flatten)]
+    pub config: BackupEmailConfig,
+    #[schema(write_only)]
+    pub password: Option<String>,
+    #[serde(default)]
+    pub clear_password: bool,
+}
+#[derive(Clone, Serialize, Deserialize, Default)]
+#[serde(default)]
+pub(super) struct EmailState {
+    config: BackupEmailConfig,
+    revision: String,
+    pub(super) secret_id: Option<String>,
+    jobs: Vec<DeliveryJob>,
+    last_attempt_at: Option<String>,
+    last_success_at: Option<String>,
+    last_filename: Option<String>,
+    last_error: Option<String>,
+}
+#[derive(Clone, Serialize, Deserialize, PartialEq, Eq)]
+#[serde(rename_all = "snake_case")]
+enum JobStatus {
+    Pending,
+    Sending,
+    Sent,
+    Failed,
+    Cancelled,
+}
+#[derive(Clone, Serialize, Deserialize)]
+struct DeliveryJob {
+    id: String,
+    revision: String,
+    filename: String,
+    exported_at: String,
+    recipients: Vec<String>,
+    created_ms: i64,
+    next_ms: i64,
+    attempts: u8,
+    status: JobStatus,
+}
+impl DeliveryJob {
+    fn active(&self) -> bool {
+        matches!(self.status, JobStatus::Pending | JobStatus::Sending)
+    }
+}
+fn secrets(state: &AppState) -> CredentialStore {
+    CredentialStore::with_directory(state.settings.data_dir.join("backup-email"), "backup-email")
+}
+pub(super) async fn load(state: &AppState) -> anyhow::Result<EmailState> {
+    Ok(state
+        .storage
+        .store
+        .get_json_value(EMAIL_KEY)
+        .await?
+        .map(serde_json::from_value)
+        .transpose()?
+        .unwrap_or_default())
+}
+async fn persist(state: &AppState, email: &EmailState) -> anyhow::Result<()> {
+    state
+        .storage
+        .store
+        .set_json_value(EMAIL_KEY, &serde_json::to_value(email)?)
+        .await?;
+    Ok(())
+}
+pub(super) fn enqueue(email: &mut EmailState, filename: &str, exported_at: &str) {
+    if !email.config.enabled {
+        return;
+    }
+    email.jobs.retain(DeliveryJob::active);
+    let now = time_utils::now_ms();
+    email.jobs.push(DeliveryJob {
+        id: Uuid::new_v4().to_string(),
+        revision: email.revision.clone(),
+        filename: filename.into(),
+        exported_at: exported_at.into(),
+        recipients: email.config.to_addresses.clone(),
+        created_ms: now,
+        next_ms: now,
+        attempts: 0,
+        status: JobStatus::Pending,
+    });
+}
+pub(super) async fn decorate(state: &AppState, mut details: Value) -> anyhow::Result<Value> {
+    let email = load(state).await?;
+    let mut config = serde_json::to_value(&email.config)?;
+    config["password_configured"] = json!(email.secret_id.is_some());
+    details["config"]["email"] = config;
+    details["status"]["email"] = json!({
+        "last_attempt_at": email.last_attempt_at, "last_success_at": email.last_success_at,
+        "last_filename": email.last_filename, "last_error": email.last_error,
+        "pending_count": email.jobs.iter().filter(|job| job.active()).count(),
+        "next_retry_at": email.jobs.iter().filter(|job| job.active()).map(|job| job.next_ms).min().map(time_utils::iso_from_ms),
+    });
+    Ok(details)
+}
+pub(super) async fn pinned_files(state: &AppState) -> anyhow::Result<Vec<String>> {
+    let now = time_utils::now_ms();
+    Ok(load(state)
+        .await?
+        .jobs
+        .into_iter()
+        .filter(|job| job.active() && now - job.created_ms < 86_400_000)
+        .map(|job| job.filename)
+        .collect())
+}
+
+#[cfg(test)]
+mod tests;

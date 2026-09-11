@@ -1,1 +1,432 @@
-dXNlIHNlcmRlOjp7RGVzZXJpYWxpemUsIFNlcmlhbGl6ZX07Cgp1c2UgY3JhdGU6OntzdGF0ZTo6QXBwU3RhdGUsIHRpbWVfdXRpbHN9OwoKY29uc3QgUkVMQVlfSU5ERVhfS0VZOiAmc3RyID0gImZuX2tub2NrOndvbDpyZWxheXM6aW5kZXgiOwpjb25zdCBSRUxBWV9QUkVGSVg6ICZzdHIgPSAiZm5fa25vY2s6d29sOnJlbGF5OiI7CmNvbnN0IFRBUkdFVF9JTkRFWF9LRVk6ICZzdHIgPSAiZm5fa25vY2s6d29sOnRhcmdldHM6aW5kZXgiOwpjb25zdCBUQVJHRVRfUFJFRklYOiAmc3RyID0gImZuX2tub2NrOndvbDp0YXJnZXQ6IjsKY29uc3QgVEFSR0VUX1NUQVRVU19QUkVGSVg6ICZzdHIgPSAiZm5fa25vY2s6d29sOnRhcmdldC1zdGF0dXM6IjsKY29uc3QgTE9DQUxfUkVMQVlfQ09ORklHX0tFWTogJnN0ciA9ICJmbl9rbm9jazp3b2w6bG9jYWwtcmVsYXkiOwoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTG9jYWxSZWxheUNvbmZpZyB7CiAgICBwdWIgZW5hYmxlZDogYm9vbCwKICAgIHB1YiByZWxheV9pZDogU3RyaW5nLAogICAgcHViIGtleV92ZXJzaW9uOiB1MzIsCiAgICBwdWIgbGlzdGVuX2FkZHJlc3M6IFN0cmluZywKICAgIHB1YiBwb3J0OiB1MTYsCiAgICBwdWIgYnJvYWRjYXN0X2Rlc3RpbmF0aW9uczogVmVjPFN0cmluZz4sCiAgICBwdWIgYWxsb3dlZF9zb3VyY2VzOiBWZWM8U3RyaW5nPiwKICAgIHB1YiB1cGRhdGVkX2F0OiBTdHJpbmcsCn0KCmltcGwgRGVmYXVsdCBmb3IgTG9jYWxSZWxheUNvbmZpZyB7CiAgICBmbiBkZWZhdWx0KCkgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7CiAgICAgICAgICAgIGVuYWJsZWQ6IGZhbHNlLAogICAgICAgICAgICByZWxheV9pZDogU3RyaW5nOjpuZXcoKSwKICAgICAgICAgICAga2V5X3ZlcnNpb246IDEsCiAgICAgICAgICAgIGxpc3Rlbl9hZGRyZXNzOiAiMC4wLjAuMCIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIHBvcnQ6IDQwMDA5LAogICAgICAgICAgICBicm9hZGNhc3RfZGVzdGluYXRpb25zOiB2ZWMhWyIyNTUuMjU1LjI1NS4yNTU6OSIudG9fc3RyaW5nKCldLAogICAgICAgICAgICBhbGxvd2VkX3NvdXJjZXM6IFZlYzo6bmV3KCksCiAgICAgICAgICAgIHVwZGF0ZWRfYXQ6IFN0cmluZzo6bmV3KCksCiAgICAgICAgfQogICAgfQp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplLCBTZXJpYWxpemUpXQpwdWIoc3VwZXIpIHN0cnVjdCBSZWxheVJlY29yZCB7CiAgICBwdWIgaWQ6IFN0cmluZywKICAgIHB1YiBuYW1lOiBTdHJpbmcsCiAgICBwdWIgYWRkcmVzczogU3RyaW5nLAogICAgcHViIHBvcnQ6IHUxNiwKICAgIHB1YiBlbmFibGVkOiBib29sLAogICAgcHViIGtleV92ZXJzaW9uOiB1MzIsCiAgICBwdWIgY3JlYXRlZF9hdDogU3RyaW5nLAogICAgcHViIHVwZGF0ZWRfYXQ6IFN0cmluZywKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplKV0KcHViKHN1cGVyKSBzdHJ1Y3QgVGFyZ2V0UmVjb3JkIHsKICAgIHB1YiBpZDogU3RyaW5nLAogICAgcHViIG5hbWU6IFN0cmluZywKICAgIHB1YiBtYWM6IFN0cmluZywKICAgIC8vLyBgTm9uZWAgbWVhbnMgdGhhdCB0aGlzIHNlcnZlci1hZG1pbi1ycyBpbnN0YW5jZSBicm9hZGNhc3RzIHRoZSBNYWdpYwogICAgLy8vIFBhY2tldCBkaXJlY3RseS4gQSBSZWxheSBpcyBvbmx5IHNlbGVjdGVkIGZvciBhIGRpZmZlcmVudCBuZXR3b3JrLgogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiByZWxheV9pZDogT3B0aW9uPFN0cmluZz4sCiAgICAvLy8gRGlyZWN0ZWQgSVB2NCBicm9hZGNhc3QgbGVhcm5lZCBkdXJpbmcgTEFOIGRpc2NvdmVyeS4gT2xkZXIvbWFudWFsCiAgICAvLy8gcmVjb3JkcyBtYXkgb21pdCBpdCBhbmQgZmFsbCBiYWNrIHRvIGV2ZXJ5IGxvY2FsIGludGVyZmFjZSBicm9hZGNhc3QuCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgcHViIGJyb2FkY2FzdF9hZGRyZXNzOiBPcHRpb248U3RyaW5nPiwKICAgIC8vLyBMYXN0IGNvbmZpZ3VyZWQgSVB2NCBhZGRyZXNzLiBSdW50aW1lIGNoZWNrcyBtYXkgb2JzZXJ2ZSBhIG5ld2VyIERIQ1AgYWRkcmVzcy4KICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgaXBfYWRkcmVzczogT3B0aW9uPFN0cmluZz4sCiAgICAvLy8gTm9uLXNlbnNpdGl2ZSB0aGlyZC1wYXJ0eSBpbnRlZ3JhdGlvbiBzZXR0aW5ncy4gQ3JlZGVudGlhbHMgYXJlIGtlcHQKICAgIC8vLyBpbiB0aGUgaW5zdGFsbGF0aW9uLWJvdW5kIGVuY3J5cHRlZCBXb0wgc2VjcmV0IHN0b3JlLgogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBpbnRlZ3JhdGlvbnM6IFRhcmdldEludGVncmF0aW9ucywKICAgIC8vLyBOb24tc2VjcmV0IFNTSCByZW1vdGUtc2h1dGRvd24gc2V0dGluZ3MuIEF1dGhlbnRpY2F0aW9uIG1hdGVyaWFsIGlzCiAgICAvLy8gaW5zdGFsbGF0aW9uLWJvdW5kIGluIHRoZSBlbmNyeXB0ZWQgV29MIHNlY3JldCBzdG9yZS4KICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgc3NoOiBUYXJnZXRTc2hDb25maWcsCiAgICBwdWIgZW5hYmxlZDogYm9vbCwKICAgIHB1YiBjcmVhdGVkX2F0OiBTdHJpbmcsCiAgICBwdWIgdXBkYXRlZF9hdDogU3RyaW5nLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplLCBTZXJpYWxpemUsIFBhcnRpYWxFcSwgRXEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IFRhcmdldFNzaENvbmZpZyB7CiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgcHViIGVuYWJsZWQ6IGJvb2wsCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgcHViIGhvc3Q6IFN0cmluZywKICAgICNbc2VyZGUoZGVmYXVsdCA9ICJkZWZhdWx0X3NzaF9wb3J0IildCiAgICBwdWIgcG9ydDogdTE2LAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiB1c2VybmFtZTogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0ID0gImRlZmF1bHRfc3NoX3BsYXRmb3JtIildCiAgICBwdWIgcGxhdGZvcm06IFN0cmluZywKICAgICNbc2VyZGUoZGVmYXVsdCA9ICJkZWZhdWx0X3NzaF9hdXRoX21ldGhvZCIpXQogICAgcHViIGF1dGhfbWV0aG9kOiBTdHJpbmcsCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgcHViIGhvc3Rfa2V5X2FsZ29yaXRobTogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBob3N0X2tleV9maW5nZXJwcmludDogU3RyaW5nLAp9CgppbXBsIERlZmF1bHQgZm9yIFRhcmdldFNzaENvbmZpZyB7CiAgICBmbiBkZWZhdWx0KCkgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7CiAgICAgICAgICAgIGVuYWJsZWQ6IGZhbHNlLAogICAgICAgICAgICBob3N0OiBTdHJpbmc6Om5ldygpLAogICAgICAgICAgICBwb3J0OiBkZWZhdWx0X3NzaF9wb3J0KCksCiAgICAgICAgICAgIHVzZXJuYW1lOiBTdHJpbmc6Om5ldygpLAogICAgICAgICAgICBwbGF0Zm9ybTogZGVmYXVsdF9zc2hfcGxhdGZvcm0oKSwKICAgICAgICAgICAgYXV0aF9tZXRob2Q6IGRlZmF1bHRfc3NoX2F1dGhfbWV0aG9kKCksCiAgICAgICAgICAgIGhvc3Rfa2V5X2FsZ29yaXRobTogU3RyaW5nOjpuZXcoKSwKICAgICAgICAgICAgaG9zdF9rZXlfZmluZ2VycHJpbnQ6IFN0cmluZzo6bmV3KCksCiAgICAgICAgfQogICAgfQp9CgpmbiBkZWZhdWx0X3NzaF9wb3J0KCkgLT4gdTE2IHsKICAgIDIyCn0KCmZuIGRlZmF1bHRfc3NoX3BsYXRmb3JtKCkgLT4gU3RyaW5nIHsKICAgICJsaW51eCIudG9fc3RyaW5nKCkKfQoKZm4gZGVmYXVsdF9zc2hfYXV0aF9tZXRob2QoKSAtPiBTdHJpbmcgewogICAgInByaXZhdGVLZXkiLnRvX3N0cmluZygpCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVmYXVsdCwgRGVzZXJpYWxpemUsIFNlcmlhbGl6ZSwgUGFydGlhbEVxLCBFcSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgVGFyZ2V0SW50ZWdyYXRpb25zIHsKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgYmxpbmtlcjogQmxpbmtlckludGVncmF0aW9uQ29uZmlnLAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBiZW1mYTogQmVtZmFJbnRlZ3JhdGlvbkNvbmZpZywKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplLCBQYXJ0aWFsRXEsIEVxKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBCbGlua2VySW50ZWdyYXRpb25Db25maWcgewogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBlbmFibGVkOiBib29sLAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBiaW5kX2NvbXBvbmVudDogYm9vbCwKICAgICNbc2VyZGUoZGVmYXVsdCA9ICJkZWZhdWx0X3NraXBfdGxzX3ZlcmlmeSIpXQogICAgcHViIHNraXBfdGxzX3ZlcmlmeTogYm9vbCwKfQoKaW1wbCBEZWZhdWx0IGZvciBCbGlua2VySW50ZWdyYXRpb25Db25maWcgewogICAgZm4gZGVmYXVsdCgpIC0+IFNlbGYgewogICAgICAgIFNlbGYgewogICAgICAgICAgICBlbmFibGVkOiBmYWxzZSwKICAgICAgICAgICAgYmluZF9jb21wb25lbnQ6IGZhbHNlLAogICAgICAgICAgICBza2lwX3Rsc192ZXJpZnk6IHRydWUsCiAgICAgICAgfQogICAgfQp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplLCBTZXJpYWxpemUsIFBhcnRpYWxFcSwgRXEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IEJlbWZhSW50ZWdyYXRpb25Db25maWcgewogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBlbmFibGVkOiBib29sLAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiB0b3BpYzogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0ID0gImRlZmF1bHRfc2tpcF90bHNfdmVyaWZ5IildCiAgICBwdWIgc2tpcF90bHNfdmVyaWZ5OiBib29sLAp9CgppbXBsIERlZmF1bHQgZm9yIEJlbWZhSW50ZWdyYXRpb25Db25maWcgewogICAgZm4gZGVmYXVsdCgpIC0+IFNlbGYgewogICAgICAgIFNlbGYgewogICAgICAgICAgICBlbmFibGVkOiBmYWxzZSwKICAgICAgICAgICAgdG9waWM6IFN0cmluZzo6bmV3KCksCiAgICAgICAgICAgIHNraXBfdGxzX3ZlcmlmeTogdHJ1ZSwKICAgICAgICB9CiAgICB9Cn0KCmZuIGRlZmF1bHRfc2tpcF90bHNfdmVyaWZ5KCkgLT4gYm9vbCB7CiAgICB0cnVlCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVzZXJpYWxpemUsIFNlcmlhbGl6ZSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgVGFyZ2V0U3RhdHVzUmVjb3JkIHsKICAgIHB1YiBzdGF0ZTogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBjaGVja2VkX2F0OiBPcHRpb248U3RyaW5nPiwKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgbGFzdF9vbmxpbmVfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBvYnNlcnZlZF9pcDogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgcHViIGxhc3RfZXJyb3I6IE9wdGlvbjxTdHJpbmc+LAp9CgppbXBsIERlZmF1bHQgZm9yIFRhcmdldFN0YXR1c1JlY29yZCB7CiAgICBmbiBkZWZhdWx0KCkgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7CiAgICAgICAgICAgIHN0YXRlOiAidW5rbm93biIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGNoZWNrZWRfYXQ6IE5vbmUsCiAgICAgICAgICAgIGxhc3Rfb25saW5lX2F0OiBOb25lLAogICAgICAgICAgICBvYnNlcnZlZF9pcDogTm9uZSwKICAgICAgICAgICAgbGFzdF9lcnJvcjogTm9uZSwKICAgICAgICB9CiAgICB9Cn0KCnB1YihzdXBlcikgYXN5bmMgZm4gbGlzdF9yZWxheXMoc3RhdGU6ICZBcHBTdGF0ZSkgLT4gYW55aG93OjpSZXN1bHQ8VmVjPFJlbGF5UmVjb3JkPj4gewogICAgbG9hZF9pbmRleGVkX3JlY29yZHMoc3RhdGUsIFJFTEFZX0lOREVYX0tFWSwgcmVsYXlfa2V5KS5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGxvYWRfcmVsYXkoc3RhdGU6ICZBcHBTdGF0ZSwgaWQ6ICZzdHIpIC0+IGFueWhvdzo6UmVzdWx0PE9wdGlvbjxSZWxheVJlY29yZD4+IHsKICAgIGxvYWRfcmVjb3JkKHN0YXRlLCAmcmVsYXlfa2V5KGlkKSkuYXdhaXQKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzYXZlX3JlbGF5KHN0YXRlOiAmQXBwU3RhdGUsIHJlbGF5OiAmUmVsYXlSZWNvcmQpIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBzYXZlX3JlY29yZCgKICAgICAgICBzdGF0ZSwKICAgICAgICAmcmVsYXlfa2V5KCZyZWxheS5pZCksCiAgICAgICAgUkVMQVlfSU5ERVhfS0VZLAogICAgICAgICZyZWxheS5pZCwKICAgICAgICByZWxheSwKICAgICkKICAgIC5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGRlbGV0ZV9yZWxheShzdGF0ZTogJkFwcFN0YXRlLCBpZDogJnN0cikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZGVsZXRlX3N0cmluZ19hbmRfenJlbSgmcmVsYXlfa2V5KGlkKSwgUkVMQVlfSU5ERVhfS0VZLCBpZCkKICAgICAgICAuYXdhaXQ/OwogICAgT2soKCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gbGlzdF90YXJnZXRzKHN0YXRlOiAmQXBwU3RhdGUpIC0+IGFueWhvdzo6UmVzdWx0PFZlYzxUYXJnZXRSZWNvcmQ+PiB7CiAgICBsb2FkX2luZGV4ZWRfcmVjb3JkcyhzdGF0ZSwgVEFSR0VUX0lOREVYX0tFWSwgdGFyZ2V0X2tleSkuYXdhaXQKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBsb2FkX3RhcmdldCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBpZDogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDxPcHRpb248VGFyZ2V0UmVjb3JkPj4gewogICAgbG9hZF9yZWNvcmQoc3RhdGUsICZ0YXJnZXRfa2V5KGlkKSkuYXdhaXQKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzYXZlX3RhcmdldChzdGF0ZTogJkFwcFN0YXRlLCB0YXJnZXQ6ICZUYXJnZXRSZWNvcmQpIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBzYXZlX3JlY29yZCgKICAgICAgICBzdGF0ZSwKICAgICAgICAmdGFyZ2V0X2tleSgmdGFyZ2V0LmlkKSwKICAgICAgICBUQVJHRVRfSU5ERVhfS0VZLAogICAgICAgICZ0YXJnZXQuaWQsCiAgICAgICAgdGFyZ2V0LAogICAgKQogICAgLmF3YWl0Cn0KCnB1YihzdXBlcikgYXN5bmMgZm4gZGVsZXRlX3RhcmdldChzdGF0ZTogJkFwcFN0YXRlLCBpZDogJnN0cikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZGVsZXRlX3N0cmluZ19hbmRfenJlbSgmdGFyZ2V0X2tleShpZCksIFRBUkdFVF9JTkRFWF9LRVksIGlkKQogICAgICAgIC5hd2FpdD87CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBsb2FkX3RhcmdldF9zdGF0dXMoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaWQ6ICZzdHIsCikgLT4gYW55aG93OjpSZXN1bHQ8VGFyZ2V0U3RhdHVzUmVjb3JkPiB7CiAgICBsb2FkX3JlY29yZChzdGF0ZSwgJnRhcmdldF9zdGF0dXNfa2V5KGlkKSkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUudW53cmFwX29yX2RlZmF1bHQoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzYXZlX3RhcmdldF9zdGF0dXMoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaWQ6ICZzdHIsCiAgICBzdGF0dXM6ICZUYXJnZXRTdGF0dXNSZWNvcmQsCikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2V0X2pzb25fdmFsdWUoJnRhcmdldF9zdGF0dXNfa2V5KGlkKSwgJnNlcmRlX2pzb246OnRvX3ZhbHVlKHN0YXR1cyk/KQogICAgICAgIC5hd2FpdD87CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBkZWxldGVfdGFyZ2V0X3N0YXR1cyhzdGF0ZTogJkFwcFN0YXRlLCBpZDogJnN0cikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZGVsZXRlX2tleSgmdGFyZ2V0X3N0YXR1c19rZXkoaWQpKQogICAgICAgIC5hd2FpdD87CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBsb2FkX2xvY2FsX3JlbGF5X2NvbmZpZyhzdGF0ZTogJkFwcFN0YXRlKSAtPiBhbnlob3c6OlJlc3VsdDxMb2NhbFJlbGF5Q29uZmlnPiB7CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmdldF9qc29uX3ZhbHVlKExPQ0FMX1JFTEFZX0NPTkZJR19LRVkpCiAgICAgICAgLmF3YWl0PwogICAgICAgIC5tYXAoc2VyZGVfanNvbjo6ZnJvbV92YWx1ZSkKICAgICAgICAudHJhbnNwb3NlKCkKICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUudW53cmFwX29yX2RlZmF1bHQoKSkKICAgICAgICAubWFwX2VycihJbnRvOjppbnRvKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHNhdmVfbG9jYWxfcmVsYXlfY29uZmlnKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGNvbmZpZzogJkxvY2FsUmVsYXlDb25maWcsCikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2V0X2pzb25fdmFsdWUoTE9DQUxfUkVMQVlfQ09ORklHX0tFWSwgJnNlcmRlX2pzb246OnRvX3ZhbHVlKGNvbmZpZyk/KQogICAgICAgIC5hd2FpdD87CiAgICBPaygoKSkKfQoKYXN5bmMgZm4gbG9hZF9pbmRleGVkX3JlY29yZHM8VCwgRj4oCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaW5kZXhfa2V5OiAmc3RyLAogICAga2V5OiBGLAopIC0+IGFueWhvdzo6UmVzdWx0PFZlYzxUPj4Kd2hlcmUKICAgIFQ6IGZvcjwnZGU+IERlc2VyaWFsaXplPCdkZT4sCiAgICBGOiBGbigmc3RyKSAtPiBTdHJpbmcsCnsKICAgIGxldCBpZHMgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLnpyZXZyYW5nZV9zdHJpbmdzKGluZGV4X2tleSkuYXdhaXQ/OwogICAgbGV0IGtleXMgPSBpZHMuaXRlcigpLm1hcCh8aWR8IGtleShpZCkpLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgdmFsdWVzID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5tZ2V0X3N0cmluZ192YWx1ZXMoJmtleXMpLmF3YWl0PzsKICAgIGxldCBtdXQgcmVjb3JkcyA9IFZlYzo6d2l0aF9jYXBhY2l0eSh2YWx1ZXMubGVuKCkpOwogICAgZm9yIHZhbHVlIGluIHZhbHVlcy5pbnRvX2l0ZXIoKS5mbGF0dGVuKCkgewogICAgICAgIG1hdGNoIHNlcmRlX2pzb246OmZyb21fc3RyKCZ2YWx1ZSkgewogICAgICAgICAgICBPayhyZWNvcmQpID0+IHJlY29yZHMucHVzaChyZWNvcmQpLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImlnbm9yZWQgaW52YWxpZCBXb0wgcmVjb3JkIiksCiAgICAgICAgfQogICAgfQogICAgT2socmVjb3JkcykKfQoKYXN5bmMgZm4gbG9hZF9yZWNvcmQ8VD4oc3RhdGU6ICZBcHBTdGF0ZSwga2V5OiAmc3RyKSAtPiBhbnlob3c6OlJlc3VsdDxPcHRpb248VD4+CndoZXJlCiAgICBUOiBmb3I8J2RlPiBEZXNlcmlhbGl6ZTwnZGU+LAp7CiAgICBsZXQgdmFsdWUgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9qc29uX3ZhbHVlKGtleSkuYXdhaXQ/OwogICAgdmFsdWUKICAgICAgICAubWFwKHNlcmRlX2pzb246OmZyb21fdmFsdWU6OjxUPikKICAgICAgICAudHJhbnNwb3NlKCkKICAgICAgICAubWFwX2VycihJbnRvOjppbnRvKQp9Cgphc3luYyBmbiBzYXZlX3JlY29yZDxUOiBTZXJpYWxpemU+KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGRhdGFfa2V5OiAmc3RyLAogICAgaW5kZXhfa2V5OiAmc3RyLAogICAgaWQ6ICZzdHIsCiAgICB2YWx1ZTogJlQsCikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIGxldCBzZXJpYWxpemVkID0gc2VyZGVfanNvbjo6dG9fc3RyaW5nKHZhbHVlKT87CiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNldF9zdHJpbmdfYW5kX3phZGQoZGF0YV9rZXksICZzZXJpYWxpemVkLCBpbmRleF9rZXksIGlkLCB0aW1lX3V0aWxzOjpub3dfbXMoKSkKICAgICAgICAuYXdhaXQ/OwogICAgT2soKCkpCn0KCmZuIHJlbGF5X2tleShpZDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntSRUxBWV9QUkVGSVh9e2lkfSIpCn0KCmZuIHRhcmdldF9rZXkoaWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7VEFSR0VUX1BSRUZJWH17aWR9IikKfQoKZm4gdGFyZ2V0X3N0YXR1c19rZXkoaWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7VEFSR0VUX1NUQVRVU19QUkVGSVh9e2lkfSIpCn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwoKICAgICNbdGVzdF0KICAgIGZuIGtleXNfa2VlcF9yZWNvcmRzX2luc2lkZV9iYWNrdXBfcHJlZml4KCkgewogICAgICAgIGFzc2VydF9lcSEocmVsYXlfa2V5KCJhYmMiKSwgImZuX2tub2NrOndvbDpyZWxheTphYmMiKTsKICAgICAgICBhc3NlcnRfZXEhKHRhcmdldF9rZXkoImFiYyIpLCAiZm5fa25vY2s6d29sOnRhcmdldDphYmMiKTsKICAgICAgICBhc3NlcnRfZXEhKHRhcmdldF9zdGF0dXNfa2V5KCJhYmMiKSwgImZuX2tub2NrOndvbDp0YXJnZXQtc3RhdHVzOmFiYyIpOwogICAgICAgIGFzc2VydF9lcSEoTE9DQUxfUkVMQVlfQ09ORklHX0tFWSwgImZuX2tub2NrOndvbDpsb2NhbC1yZWxheSIpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHRhcmdldF9zdGF0dXNfcGVyc2lzdGVuY2VfdXNlc19wdWJsaWNfZmllbGRfbmFtZXMoKSB7CiAgICAgICAgbGV0IHZhbHVlID0gc2VyZGVfanNvbjo6dG9fdmFsdWUoVGFyZ2V0U3RhdHVzUmVjb3JkIHsKICAgICAgICAgICAgc3RhdGU6ICJvbmxpbmUiLnRvX3N0cmluZygpLAogICAgICAgICAgICBjaGVja2VkX2F0OiBTb21lKCIyMDI2LTA4LTA4VDAwOjAwOjAwWiIudG9fc3RyaW5nKCkpLAogICAgICAgICAgICBsYXN0X29ubGluZV9hdDogU29tZSgiMjAyNi0wOC0wOFQwMDowMDowMFoiLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgb2JzZXJ2ZWRfaXA6IFNvbWUoIjE5Mi4wLjIuMTAiLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgbGFzdF9lcnJvcjogTm9uZSwKICAgICAgICB9KQogICAgICAgIC51bndyYXAoKTsKICAgICAgICBhc3NlcnQhKHZhbHVlLmdldCgiY2hlY2tlZEF0IikuaXNfc29tZSgpKTsKICAgICAgICBhc3NlcnQhKHZhbHVlLmdldCgibGFzdE9ubGluZUF0IikuaXNfc29tZSgpKTsKICAgICAgICBhc3NlcnQhKHZhbHVlLmdldCgib2JzZXJ2ZWRJcCIpLmlzX3NvbWUoKSk7CiAgICAgICAgYXNzZXJ0ISh2YWx1ZS5nZXQoImxhc3RFcnJvciIpLmlzX3NvbWUoKSk7CiAgICAgICAgYXNzZXJ0ISh2YWx1ZS5nZXQoImNoZWNrZWRfYXQiKS5pc19ub25lKCkpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGxlZ2FjeV90YXJnZXRfcmVjb3Jkc19kZWZhdWx0X2ludGVncmF0aW9uc190b19kaXNhYmxlZCgpIHsKICAgICAgICBsZXQgdGFyZ2V0OiBUYXJnZXRSZWNvcmQgPSBzZXJkZV9qc29uOjpmcm9tX3ZhbHVlKHNlcmRlX2pzb246Ompzb24hKHsKICAgICAgICAgICAgImlkIjogInRhcmdldCIsCiAgICAgICAgICAgICJuYW1lIjogIkRlc2t0b3AiLAogICAgICAgICAgICAibWFjIjogIjAyOjExOjIyOjMzOjQ0OjU1IiwKICAgICAgICAgICAgImVuYWJsZWQiOiB0cnVlLAogICAgICAgICAgICAiY3JlYXRlZF9hdCI6ICIyMDI2LTAxLTAxVDAwOjAwOjAwWiIsCiAgICAgICAgICAgICJ1cGRhdGVkX2F0IjogIjIwMjYtMDEtMDFUMDA6MDA6MDBaIgogICAgICAgIH0pKQogICAgICAgIC51bndyYXAoKTsKICAgICAgICBhc3NlcnRfZXEhKHRhcmdldC5pbnRlZ3JhdGlvbnMsIFRhcmdldEludGVncmF0aW9uczo6ZGVmYXVsdCgpKTsKICAgICAgICBhc3NlcnQhKCF0YXJnZXQuaW50ZWdyYXRpb25zLmJsaW5rZXIuZW5hYmxlZCk7CiAgICAgICAgYXNzZXJ0ISghdGFyZ2V0LmludGVncmF0aW9ucy5iZW1mYS5lbmFibGVkKTsKICAgICAgICBhc3NlcnQhKHRhcmdldC5pbnRlZ3JhdGlvbnMuYmxpbmtlci5za2lwX3Rsc192ZXJpZnkpOwogICAgICAgIGFzc2VydCEodGFyZ2V0LmludGVncmF0aW9ucy5iZW1mYS5za2lwX3Rsc192ZXJpZnkpOwogICAgICAgIGFzc2VydF9lcSEodGFyZ2V0LnNzaCwgVGFyZ2V0U3NoQ29uZmlnOjpkZWZhdWx0KCkpOwogICAgICAgIGFzc2VydCEoIXRhcmdldC5zc2guZW5hYmxlZCk7CiAgICB9Cn0K
+use serde::{Deserialize, Serialize};
+
+use crate::{state::AppState, time_utils};
+
+const RELAY_INDEX_KEY: &str = "fn_knock:wol:relays:index";
+const RELAY_PREFIX: &str = "fn_knock:wol:relay:";
+const TARGET_INDEX_KEY: &str = "fn_knock:wol:targets:index";
+const TARGET_PREFIX: &str = "fn_knock:wol:target:";
+const TARGET_STATUS_PREFIX: &str = "fn_knock:wol:target-status:";
+const LOCAL_RELAY_CONFIG_KEY: &str = "fn_knock:wol:local-relay";
+
+#[derive(Clone, Debug, Deserialize, Serialize)]
+pub(super) struct LocalRelayConfig {
+    pub enabled: bool,
+    pub relay_id: String,
+    pub key_version: u32,
+    pub listen_address: String,
+    pub port: u16,
+    pub broadcast_destinations: Vec<String>,
+    pub allowed_sources: Vec<String>,
+    pub updated_at: String,
+}
+
+impl Default for LocalRelayConfig {
+    fn default() -> Self {
+        Self {
+            enabled: false,
+            relay_id: String::new(),
+            key_version: 1,
+            listen_address: "0.0.0.0".to_string(),
+            port: 40009,
+            broadcast_destinations: vec!["255.255.255.255:9".to_string()],
+            allowed_sources: Vec::new(),
+            updated_at: String::new(),
+        }
+    }
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize)]
+pub(super) struct RelayRecord {
+    pub id: String,
+    pub name: String,
+    pub address: String,
+    pub port: u16,
+    pub enabled: bool,
+    pub key_version: u32,
+    pub created_at: String,
+    pub updated_at: String,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize)]
+pub(super) struct TargetRecord {
+    pub id: String,
+    pub name: String,
+    pub mac: String,
+    /// `None` means that this server-admin-rs instance broadcasts the Magic
+    /// Packet directly. A Relay is only selected for a different network.
+    #[serde(default)]
+    pub relay_id: Option<String>,
+    /// Directed IPv4 broadcast learned during LAN discovery. Older/manual
+    /// records may omit it and fall back to every local interface broadcast.
+    #[serde(default)]
+    pub broadcast_address: Option<String>,
+    /// Last configured IPv4 address. Runtime checks may observe a newer DHCP address.
+    #[serde(default)]
+    pub ip_address: Option<String>,
+    /// Non-sensitive third-party integration settings. Credentials are kept
+    /// in the installation-bound encrypted WoL secret store.
+    #[serde(default)]
+    pub integrations: TargetIntegrations,
+    /// Non-secret SSH remote-shutdown settings. Authentication material is
+    /// installation-bound in the encrypted WoL secret store.
+    #[serde(default)]
+    pub ssh: TargetSshConfig,
+    pub enabled: bool,
+    pub created_at: String,
+    pub updated_at: String,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct TargetSshConfig {
+    #[serde(default)]
+    pub enabled: bool,
+    #[serde(default)]
+    pub host: String,
+    #[serde(default = "default_ssh_port")]
+    pub port: u16,
+    #[serde(default)]
+    pub username: String,
+    #[serde(default = "default_ssh_platform")]
+    pub platform: String,
+    #[serde(default = "default_ssh_auth_method")]
+    pub auth_method: String,
+    #[serde(default)]
+    pub host_key_algorithm: String,
+    #[serde(default)]
+    pub host_key_fingerprint: String,
+}
+
+impl Default for TargetSshConfig {
+    fn default() -> Self {
+        Self {
+            enabled: false,
+            host: String::new(),
+            port: default_ssh_port(),
+            username: String::new(),
+            platform: default_ssh_platform(),
+            auth_method: default_ssh_auth_method(),
+            host_key_algorithm: String::new(),
+            host_key_fingerprint: String::new(),
+        }
+    }
+}
+
+fn default_ssh_port() -> u16 {
+    22
+}
+
+fn default_ssh_platform() -> String {
+    "linux".to_string()
+}
+
+fn default_ssh_auth_method() -> String {
+    "privateKey".to_string()
+}
+
+#[derive(Clone, Debug, Default, Deserialize, Serialize, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct TargetIntegrations {
+    #[serde(default)]
+    pub blinker: BlinkerIntegrationConfig,
+    #[serde(default)]
+    pub bemfa: BemfaIntegrationConfig,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct BlinkerIntegrationConfig {
+    #[serde(default)]
+    pub enabled: bool,
+    #[serde(default)]
+    pub bind_component: bool,
+    #[serde(default = "default_skip_tls_verify")]
+    pub skip_tls_verify: bool,
+}
+
+impl Default for BlinkerIntegrationConfig {
+    fn default() -> Self {
+        Self {
+            enabled: false,
+            bind_component: false,
+            skip_tls_verify: true,
+        }
+    }
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct BemfaIntegrationConfig {
+    #[serde(default)]
+    pub enabled: bool,
+    #[serde(default)]
+    pub topic: String,
+    #[serde(default = "default_skip_tls_verify")]
+    pub skip_tls_verify: bool,
+}
+
+impl Default for BemfaIntegrationConfig {
+    fn default() -> Self {
+        Self {
+            enabled: false,
+            topic: String::new(),
+            skip_tls_verify: true,
+        }
+    }
+}
+
+fn default_skip_tls_verify() -> bool {
+    true
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct TargetStatusRecord {
+    pub state: String,
+    #[serde(default)]
+    pub checked_at: Option<String>,
+    #[serde(default)]
+    pub last_online_at: Option<String>,
+    #[serde(default)]
+    pub observed_ip: Option<String>,
+    #[serde(default)]
+    pub last_error: Option<String>,
+}
+
+impl Default for TargetStatusRecord {
+    fn default() -> Self {
+        Self {
+            state: "unknown".to_string(),
+            checked_at: None,
+            last_online_at: None,
+            observed_ip: None,
+            last_error: None,
+        }
+    }
+}
+
+pub(super) async fn list_relays(state: &AppState) -> anyhow::Result<Vec<RelayRecord>> {
+    load_indexed_records(state, RELAY_INDEX_KEY, relay_key).await
+}
+
+pub(super) async fn load_relay(state: &AppState, id: &str) -> anyhow::Result<Option<RelayRecord>> {
+    load_record(state, &relay_key(id)).await
+}
+
+pub(super) async fn save_relay(state: &AppState, relay: &RelayRecord) -> anyhow::Result<()> {
+    save_record(
+        state,
+        &relay_key(&relay.id),
+        RELAY_INDEX_KEY,
+        &relay.id,
+        relay,
+    )
+    .await
+}
+
+pub(super) async fn delete_relay(state: &AppState, id: &str) -> anyhow::Result<()> {
+    state
+        .storage
+        .store
+        .delete_string_and_zrem(&relay_key(id), RELAY_INDEX_KEY, id)
+        .await?;
+    Ok(())
+}
+
+pub(super) async fn list_targets(state: &AppState) -> anyhow::Result<Vec<TargetRecord>> {
+    load_indexed_records(state, TARGET_INDEX_KEY, target_key).await
+}
+
+pub(super) async fn load_target(
+    state: &AppState,
+    id: &str,
+) -> anyhow::Result<Option<TargetRecord>> {
+    load_record(state, &target_key(id)).await
+}
+
+pub(super) async fn save_target(state: &AppState, target: &TargetRecord) -> anyhow::Result<()> {
+    save_record(
+        state,
+        &target_key(&target.id),
+        TARGET_INDEX_KEY,
+        &target.id,
+        target,
+    )
+    .await
+}
+
+pub(super) async fn delete_target(state: &AppState, id: &str) -> anyhow::Result<()> {
+    state
+        .storage
+        .store
+        .delete_string_and_zrem(&target_key(id), TARGET_INDEX_KEY, id)
+        .await?;
+    Ok(())
+}
+
+pub(super) async fn load_target_status(
+    state: &AppState,
+    id: &str,
+) -> anyhow::Result<TargetStatusRecord> {
+    load_record(state, &target_status_key(id))
+        .await
+        .map(|value| value.unwrap_or_default())
+}
+
+pub(super) async fn save_target_status(
+    state: &AppState,
+    id: &str,
+    status: &TargetStatusRecord,
+) -> anyhow::Result<()> {
+    state
+        .storage
+        .store
+        .set_json_value(&target_status_key(id), &serde_json::to_value(status)?)
+        .await?;
+    Ok(())
+}
+
+pub(super) async fn delete_target_status(state: &AppState, id: &str) -> anyhow::Result<()> {
+    state
+        .storage
+        .store
+        .delete_key(&target_status_key(id))
+        .await?;
+    Ok(())
+}
+
+pub(super) async fn load_local_relay_config(state: &AppState) -> anyhow::Result<LocalRelayConfig> {
+    state
+        .storage
+        .store
+        .get_json_value(LOCAL_RELAY_CONFIG_KEY)
+        .await?
+        .map(serde_json::from_value)
+        .transpose()
+        .map(|value| value.unwrap_or_default())
+        .map_err(Into::into)
+}
+
+pub(super) async fn save_local_relay_config(
+    state: &AppState,
+    config: &LocalRelayConfig,
+) -> anyhow::Result<()> {
+    state
+        .storage
+        .store
+        .set_json_value(LOCAL_RELAY_CONFIG_KEY, &serde_json::to_value(config)?)
+        .await?;
+    Ok(())
+}
+
+async fn load_indexed_records<T, F>(
+    state: &AppState,
+    index_key: &str,
+    key: F,
+) -> anyhow::Result<Vec<T>>
+where
+    T: for<'de> Deserialize<'de>,
+    F: Fn(&str) -> String,
+{
+    let ids = state.storage.store.zrevrange_strings(index_key).await?;
+    let keys = ids.iter().map(|id| key(id)).collect::<Vec<_>>();
+    let values = state.storage.store.mget_string_values(&keys).await?;
+    let mut records = Vec::with_capacity(values.len());
+    for value in values.into_iter().flatten() {
+        match serde_json::from_str(&value) {
+            Ok(record) => records.push(record),
+            Err(error) => tracing::warn!(%error, "ignored invalid WoL record"),
+        }
+    }
+    Ok(records)
+}
+
+async fn load_record<T>(state: &AppState, key: &str) -> anyhow::Result<Option<T>>
+where
+    T: for<'de> Deserialize<'de>,
+{
+    let value = state.storage.store.get_json_value(key).await?;
+    value
+        .map(serde_json::from_value::<T>)
+        .transpose()
+        .map_err(Into::into)
+}
+
+async fn save_record<T: Serialize>(
+    state: &AppState,
+    data_key: &str,
+    index_key: &str,
+    id: &str,
+    value: &T,
+) -> anyhow::Result<()> {
+    let serialized = serde_json::to_string(value)?;
+    state
+        .storage
+        .store
+        .set_string_and_zadd(data_key, &serialized, index_key, id, time_utils::now_ms())
+        .await?;
+    Ok(())
+}
+
+fn relay_key(id: &str) -> String {
+    format!("{RELAY_PREFIX}{id}")
+}
+
+fn target_key(id: &str) -> String {
+    format!("{TARGET_PREFIX}{id}")
+}
+
+fn target_status_key(id: &str) -> String {
+    format!("{TARGET_STATUS_PREFIX}{id}")
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn keys_keep_records_inside_backup_prefix() {
+        assert_eq!(relay_key("abc"), "fn_knock:wol:relay:abc");
+        assert_eq!(target_key("abc"), "fn_knock:wol:target:abc");
+        assert_eq!(target_status_key("abc"), "fn_knock:wol:target-status:abc");
+        assert_eq!(LOCAL_RELAY_CONFIG_KEY, "fn_knock:wol:local-relay");
+    }
+
+    #[test]
+    fn target_status_persistence_uses_public_field_names() {
+        let value = serde_json::to_value(TargetStatusRecord {
+            state: "online".to_string(),
+            checked_at: Some("2026-08-08T00:00:00Z".to_string()),
+            last_online_at: Some("2026-08-08T00:00:00Z".to_string()),
+            observed_ip: Some("192.0.2.10".to_string()),
+            last_error: None,
+        })
+        .unwrap();
+        assert!(value.get("checkedAt").is_some());
+        assert!(value.get("lastOnlineAt").is_some());
+        assert!(value.get("observedIp").is_some());
+        assert!(value.get("lastError").is_some());
+        assert!(value.get("checked_at").is_none());
+    }
+
+    #[test]
+    fn legacy_target_records_default_integrations_to_disabled() {
+        let target: TargetRecord = serde_json::from_value(serde_json::json!({
+            "id": "target",
+            "name": "Desktop",
+            "mac": "02:11:22:33:44:55",
+            "enabled": true,
+            "created_at": "2026-01-01T00:00:00Z",
+            "updated_at": "2026-01-01T00:00:00Z"
+        }))
+        .unwrap();
+        assert_eq!(target.integrations, TargetIntegrations::default());
+        assert!(!target.integrations.blinker.enabled);
+        assert!(!target.integrations.bemfa.enabled);
+        assert!(target.integrations.blinker.skip_tls_verify);
+        assert!(target.integrations.bemfa.skip_tls_verify);
+        assert_eq!(target.ssh, TargetSshConfig::default());
+        assert!(!target.ssh.enabled);
+    }
+}

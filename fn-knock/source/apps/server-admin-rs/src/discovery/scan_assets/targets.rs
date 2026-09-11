@@ -1,1 +1,472 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBjb25zdCBESVNDT1ZFUllfUkVTRVJWRURfUE9SVFM6IFt1MTY7IDddID0gWwogICAgN185OTUsCiAgICA4XzAwMCwKICAgIDhfMjAwLAogICAgY3JhdGU6OnR1bm5lbHM6Ok1BTkFHRURfQ0xPVURGTEFSRV9JTkdSRVNTX1BPUlQsCiAgICBjcmF0ZTo6dHVubmVsczo6TUFOQUdFRF9DTE9VREZMQVJFX0xJVEVfSU5HUkVTU19QT1JULAogICAgMzBfNjYxLAogICAgMzBfNjYyLApdOwoKcHViKHN1cGVyKSBmbiBidWlsZF9kaXNjb3Zlcl90YXJnZXRzX3BheWxvYWQoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaGVhZGVyczogJkhlYWRlck1hcCwKICAgIGNvbmZpZzogJlZhbHVlLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gVmFsdWUgewogICAgbGV0IGlzX2RvY2tlciA9IGRlcGxveW1lbnRfdGFyZ2V0KHN0YXRlKSA9PSAiZG9ja2VyIjsKICAgIGxldCBkb2NrZXJfY2FuZGlkYXRlcyA9IGlmIGlzX2RvY2tlciB7CiAgICAgICAgcmVzb2x2ZV9kb2NrZXJfZGlzY292ZXJfY2FuZGlkYXRlcyhoZWFkZXJzKQogICAgfSBlbHNlIHsKICAgICAgICBWZWM6Om5ldygpCiAgICB9OwogICAgbGV0IGludGVyZmFjZV9jYW5kaWRhdGVzID0gbmV0X3V0aWxzOjpsaXN0X3ByaXZhdGVfaXB2NF9jYW5kaWRhdGVzKCk7CiAgICBsZXQgYXV0b21hdGljX3RhcmdldHMgPSBidWlsZF9hdXRvbWF0aWNfZGlzY292ZXJfdGFyZ2V0cygKICAgICAgICBzdGF0ZSwKICAgICAgICBjb25maWcsCiAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAmZG9ja2VyX2NhbmRpZGF0ZXMsCiAgICAgICAgJmludGVyZmFjZV9jYW5kaWRhdGVzLAogICAgKTsKICAgIGxldCBzY2FuX2Rpc2NvdmVyeSA9IGNvbmZpZy5nZXQoInNjYW5fZGlzY292ZXJ5Iik7CiAgICBsZXQgY3VzdG9tX3RhcmdldHMgPSBidWlsZF9jdXN0b21fZGlzY292ZXJfdGFyZ2V0cygKICAgICAgICBzY2FuX2Rpc2NvdmVyeQogICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5nZXQoImN1c3RvbV9jaWRycyIpKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgICAgICAuY2xvbmVkKCkKICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgICAgIC5maWx0ZXJfbWFwKHx2YWx1ZXwgdmFsdWUuYXNfc3RyKCkubWFwKHN0cjo6dG9fc3RyaW5nKSksCiAgICAgICAgdHJhbnNsYXRvciwKICAgICk7CiAgICBsZXQgc2F2ZWRfc2VsZWN0ZWRfY2lkcnMgPSBub3JtYWxpemVfYWxsb3dlZF9zY2FuX2NpZHJzKAogICAgICAgIHNjYW5fZGlzY292ZXJ5CiAgICAgICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLmdldCgic2VsZWN0ZWRfY2lkcnMiKSkKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAgICAgLmNsb25lZCgpCiAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCiAgICAgICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgICAgICAuZmlsdGVyX21hcCh8dmFsdWV8IHZhbHVlLmFzX3N0cigpLm1hcChzdHI6OnRvX3N0cmluZykpLAogICAgKTsKICAgIGxldCBhdXRvbWF0aWNfY2lkcnMgPSBhdXRvbWF0aWNfdGFyZ2V0cwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyX21hcCh8aXRlbXwgaXRlbS5nZXQoImNpZHIiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS5tYXAoc3RyOjp0b19zdHJpbmcpKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgbGV0IGF1dG9tYXRpY19jaWRyX3NldCA9IGF1dG9tYXRpY19jaWRycy5pdGVyKCkuY2xvbmVkKCkuY29sbGVjdDo6PEJUcmVlU2V0PF8+PigpOwogICAgbGV0IHJlc29sdmVkX2hvc3RfY2FuZGlkYXRlcyA9IGlmIGlzX2RvY2tlciB7CiAgICAgICAgZG9ja2VyX2NhbmRpZGF0ZXMuY2xvbmUoKQogICAgfSBlbHNlIHsKICAgICAgICBidWlsZF9uYXRpdmVfZGlzY292ZXJfaG9zdF9jYW5kaWRhdGVzKCZpbnRlcmZhY2VfY2FuZGlkYXRlcykKICAgIH07CiAgICBsZXQgaG9zdF9jYW5kaWRhdGVzID0KICAgICAgICBidWlsZF9kaXNjb3Zlcl9ob3N0X2NhbmRpZGF0ZXNfcGF5bG9hZCgmcmVzb2x2ZWRfaG9zdF9jYW5kaWRhdGVzLCAmYXV0b21hdGljX2NpZHJfc2V0KTsKICAgIGxldCBzZWxlY3Rpb25fbW9kZSA9IGlmIHNhdmVkX3NlbGVjdGVkX2NpZHJzLmlzX2VtcHR5KCkgewogICAgICAgICJhdXRvbWF0aWMiCiAgICB9IGVsc2UgewogICAgICAgICJjdXN0b20iCiAgICB9OwogICAgbGV0IHNlbGVjdGVkX2NpZHJzID0gaWYgc2F2ZWRfc2VsZWN0ZWRfY2lkcnMuaXNfZW1wdHkoKSB7CiAgICAgICAgYXV0b21hdGljX2NpZHJzLmNsb25lKCkKICAgIH0gZWxzZSB7CiAgICAgICAgc2F2ZWRfc2VsZWN0ZWRfY2lkcnMKICAgIH07CiAgICBsZXQgZWZmZWN0aXZlX2NpZHJzID0gaWYgc2VsZWN0ZWRfY2lkcnMuaXNfZW1wdHkoKSB7CiAgICAgICAgYXV0b21hdGljX2NpZHJzCiAgICB9IGVsc2UgewogICAgICAgIHNlbGVjdGVkX2NpZHJzCiAgICB9OwogICAgbGV0IHNlbGVjdGVkX3RhcmdldHMgPSBidWlsZF9zYXZlZF9kaXNjb3Zlcl90YXJnZXRzKGVmZmVjdGl2ZV9jaWRycy5jbG9uZSgpLCB0cmFuc2xhdG9yKTsKICAgIGpzb24hKHsKICAgICAgICAiYXV0b21hdGljVGFyZ2V0cyI6IGF1dG9tYXRpY190YXJnZXRzLAogICAgICAgICJob3N0Q2FuZGlkYXRlcyI6IGhvc3RfY2FuZGlkYXRlcywKICAgICAgICAiY3VzdG9tVGFyZ2V0cyI6IGN1c3RvbV90YXJnZXRzLAogICAgICAgICJzZWxlY3RlZFRhcmdldHMiOiBzZWxlY3RlZF90YXJnZXRzLAogICAgICAgICJzZWxlY3Rpb25Nb2RlIjogc2VsZWN0aW9uX21vZGUsCiAgICAgICAgInNlbGVjdGVkQ2lkcnMiOiBlZmZlY3RpdmVfY2lkcnMsCiAgICAgICAgImVmZmVjdGl2ZUNpZHJzIjogZWZmZWN0aXZlX2NpZHJzLAogICAgICAgICJsaW1pdHMiOiB7CiAgICAgICAgICAgICJtYXhDaWRycyI6IE1BWF9TQ0FOX0NJRFJTLAogICAgICAgICAgICAibWF4SG9zdHMiOiBNQVhfU0NBTl9IT1NUUwogICAgICAgIH0KICAgIH0pCn0KCnB1YihzdXBlcikgZm4gYnVpbGRfYXV0b21hdGljX2Rpc2NvdmVyX3RhcmdldHMoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgY29uZmlnOiAmVmFsdWUsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIGRvY2tlcl9jYW5kaWRhdGVzOiAmW0Rpc2NvdmVySG9zdENhbmRpZGF0ZV0sCiAgICBpbnRlcmZhY2VfY2FuZGlkYXRlczogJltuZXRfdXRpbHM6OlByaXZhdGVJcHY0Q2FuZGlkYXRlXSwKKSAtPiBWZWM8VmFsdWU+IHsKICAgIGxldCBtdXQgdGFyZ2V0cyA9IFZlYzo6bmV3KCk7CiAgICBpZiBkZXBsb3ltZW50X3RhcmdldChzdGF0ZSkgPT0gImRvY2tlciIgewogICAgICAgIHRhcmdldHMuZXh0ZW5kKAogICAgICAgICAgICBkb2NrZXJfY2FuZGlkYXRlcwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLm1hcCh8Y2FuZGlkYXRlfCBidWlsZF9kb2NrZXJfZGlzY292ZXJfdGFyZ2V0KGNhbmRpZGF0ZSwgdHJhbnNsYXRvcikpLAogICAgICAgICk7CiAgICAgICAgdGFyZ2V0cy5leHRlbmQoYnVpbGRfbWFwcGluZ19kaXNjb3Zlcl90YXJnZXRzKGNvbmZpZywgdHJhbnNsYXRvcikpOwogICAgICAgIHRhcmdldHMuZXh0ZW5kKGJ1aWxkX2ludGVyZmFjZV9kaXNjb3Zlcl90YXJnZXRzKAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICBpbnRlcmZhY2VfY2FuZGlkYXRlcywKICAgICAgICApKTsKICAgIH0gZWxzZSB7CiAgICAgICAgbGV0IGNpZHIgPSAiMTI3LjAuMC4xLzMyIjsKICAgICAgICB0YXJnZXRzLnB1c2godG9fZGlzY292ZXJfdGFyZ2V0KAogICAgICAgICAgICBjaWRyLAogICAgICAgICAgICAmc2Nhbl9kaXNjb3ZlcnlfdGFyZ2V0X2xhYmVsKHRyYW5zbGF0b3IsICJsb29wYmFjayIsICZbKCJjaWRyIiwgY2lkci50b19zdHJpbmcoKSldKSwKICAgICAgICAgICAgImxvb3BiYWNrIiwKICAgICAgICAgICAgdHJ1ZSwKICAgICAgICApKTsKICAgICAgICB0YXJnZXRzLmV4dGVuZChidWlsZF9pbnRlcmZhY2VfZGlzY292ZXJfdGFyZ2V0cygKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgaW50ZXJmYWNlX2NhbmRpZGF0ZXMsCiAgICAgICAgKSk7CiAgICAgICAgdGFyZ2V0cy5leHRlbmQoYnVpbGRfbWFwcGluZ19kaXNjb3Zlcl90YXJnZXRzKGNvbmZpZywgdHJhbnNsYXRvcikpOwogICAgfQogICAgbGltaXRfYXV0b21hdGljX3RhcmdldHMoZGVkdXBlX3RhcmdldHModGFyZ2V0cykpCn0KCnB1YihzdXBlcikgZm4gcmVzb2x2ZV9kaXNjb3Zlcl9zZWxmX2hvc3RzKHN0YXRlOiAmQXBwU3RhdGUsIGhlYWRlcnM6ICZIZWFkZXJNYXApIC0+IFZlYzxTdHJpbmc+IHsKICAgIGxldCBtdXQgaG9zdHMgPSB2ZWMhW0xPT1BCQUNLX0RJU0NPVkVSWV9IT1NULnRvX3N0cmluZygpXTsKICAgIGhvc3RzLmV4dGVuZCgKICAgICAgICBuZXRfdXRpbHM6Omxpc3RfcHJpdmF0ZV9pcHY0X2NhbmRpZGF0ZXMoKQogICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgLm1hcCh8Y2FuZGlkYXRlfCBjYW5kaWRhdGUuYWRkcmVzcy50b19zdHJpbmcoKSksCiAgICApOwogICAgaWYgZGVwbG95bWVudF90YXJnZXQoc3RhdGUpID09ICJkb2NrZXIiIHsKICAgICAgICBob3N0cy5leHRlbmQoCiAgICAgICAgICAgIHJlc29sdmVfZG9ja2VyX2Rpc2NvdmVyX2NhbmRpZGF0ZXMoaGVhZGVycykKICAgICAgICAgICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgICAgICAgICAgLm1hcCh8Y2FuZGlkYXRlfCBjYW5kaWRhdGUuYWRkcmVzcyksCiAgICAgICAgKTsKICAgIH0KICAgIG5vcm1hbGl6ZV9kaXNjb3Zlcl9zZWxmX2hvc3RzKGhvc3RzKQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9kaXNjb3Zlcl9zZWxmX2hvc3RzKAogICAgaG9zdHM6IGltcGwgSW50b0l0ZXJhdG9yPEl0ZW0gPSBTdHJpbmc+LAopIC0+IFZlYzxTdHJpbmc+IHsKICAgIGxldCBtdXQgc2VlbiA9IEJUcmVlU2V0OjpuZXcoKTsKICAgIGxldCBtdXQgb3V0cHV0ID0gVmVjOjpuZXcoKTsKICAgIGZvciBob3N0IGluIGhvc3RzIHsKICAgICAgICBsZXQgaG9zdCA9IGhvc3QudHJpbSgpLnRvX3N0cmluZygpOwogICAgICAgIGlmIGhvc3QucGFyc2U6OjxJcHY0QWRkcj4oKS5pc19lcnIoKSB8fCAhaXNfYWxsb3dlZF9zY2FuX2lwdjQoJmhvc3QpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGlmIHNlZW4uaW5zZXJ0KGhvc3QuY2xvbmUoKSkgewogICAgICAgICAgICBvdXRwdXQucHVzaChob3N0KTsKICAgICAgICB9CiAgICB9CiAgICBvdXRwdXQKfQoKcHViKHN1cGVyKSBmbiBjb2xsZWN0X2V4Y2x1ZGVkX3BvcnRzKHN0YXRlOiAmQXBwU3RhdGUpIC0+IFZlYzx1MTY+IHsKICAgIGxldCBtdXQgcG9ydHMgPSBWZWM6Om5ldygpOwogICAgaWYgIXJ1bnRpbWVfcHJvZmlsZTo6YWRtaW5fcGFuZWxfcHJvdGVjdGVkX3J1bnRpbWUoc3RhdGUpCiAgICAgICAgJiYgbGV0IFNvbWUocG9ydCkgPSBleGNsdWRlZF9lbnZfcG9ydCgiQURNSU5fVklFV19QT1JUIiwgNzk5MSkKICAgIHsKICAgICAgICBwb3J0cy5wdXNoKHBvcnQpOwogICAgfQogICAgbGV0IGRlZmF1bHRfYmFja2VuZF9wb3J0ID0gaWYgZGVwbG95bWVudF90YXJnZXQoc3RhdGUpID09ICJvcGVud3J0IiB7CiAgICAgICAgMTdfOTk4CiAgICB9IGVsc2UgewogICAgICAgIDdfOTk4CiAgICB9OwogICAgZm9yIChuYW1lLCBmYWxsYmFjaykgaW4gWwogICAgICAgICgiQkFDS0VORF9QT1JUIiwgZGVmYXVsdF9iYWNrZW5kX3BvcnQpLAogICAgICAgICgiQVVUSF9QT1JUIiwgN185OTcpLAogICAgICAgICgiR09fQkFDS0VORF9QT1JUIiwgN185OTYpLAogICAgICAgICgiR09fUkVQUk9YWV9QT1JUIiwgN185OTkpLAogICAgXSB7CiAgICAgICAgaWYgbGV0IFNvbWUocG9ydCkgPSBleGNsdWRlZF9lbnZfcG9ydChuYW1lLCBmYWxsYmFjaykgewogICAgICAgICAgICBwb3J0cy5wdXNoKHBvcnQpOwogICAgICAgIH0KICAgIH0KICAgIHBvcnRzLmV4dGVuZChESVNDT1ZFUllfUkVTRVJWRURfUE9SVFMpOwogICAgcG9ydHMKICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAuY29sbGVjdDo6PEJUcmVlU2V0PF8+PigpCiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLmNvbGxlY3QoKQp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX2RvY2tlcl9kaXNjb3Zlcl90YXJnZXQoCiAgICBjYW5kaWRhdGU6ICZEaXNjb3Zlckhvc3RDYW5kaWRhdGUsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBPcHRpb248VmFsdWU+IHsKICAgIGxldCBjaWRyID0gY2FuZGlkYXRlLmNpZHIuY2xvbmUoKTsKICAgIHRvX2Rpc2NvdmVyX3RhcmdldCgKICAgICAgICAmY2lkciwKICAgICAgICAmc2Nhbl9kaXNjb3ZlcnlfdGFyZ2V0X2xhYmVsKHRyYW5zbGF0b3IsICJkb2NrZXIiLCAmWygiY2lkciIsIGNpZHIuY2xvbmUoKSldKSwKICAgICAgICAiZG9ja2VyIiwKICAgICAgICB0cnVlLAogICAgKQp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX25hdGl2ZV9kaXNjb3Zlcl9ob3N0X2NhbmRpZGF0ZXMoCiAgICBpbnRlcmZhY2VfY2FuZGlkYXRlczogJltuZXRfdXRpbHM6OlByaXZhdGVJcHY0Q2FuZGlkYXRlXSwKKSAtPiBWZWM8RGlzY292ZXJIb3N0Q2FuZGlkYXRlPiB7CiAgICBsZXQgbXV0IHNlZW4gPSBCVHJlZVNldDo6ZnJvbShbTE9PUEJBQ0tfRElTQ09WRVJZX0hPU1QudG9fc3RyaW5nKCldKTsKICAgIGxldCBtdXQgb3V0cHV0ID0gdmVjIVtEaXNjb3Zlckhvc3RDYW5kaWRhdGUgewogICAgICAgIGFkZHJlc3M6IExPT1BCQUNLX0RJU0NPVkVSWV9IT1NULnRvX3N0cmluZygpLAogICAgICAgIGNpZHI6IGZvcm1hdCEoIntMT09QQkFDS19ESVNDT1ZFUllfSE9TVH0vMzIiKSwKICAgICAgICBzb3VyY2U6ICJsb29wYmFjayIsCiAgICB9XTsKICAgIGZvciBjYW5kaWRhdGUgaW4gaW50ZXJmYWNlX2NhbmRpZGF0ZXMgewogICAgICAgIGxldCBhZGRyZXNzID0gY2FuZGlkYXRlLmFkZHJlc3MudG9fc3RyaW5nKCk7CiAgICAgICAgaWYgIXNlZW4uaW5zZXJ0KGFkZHJlc3MuY2xvbmUoKSkgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgbGV0IFNvbWUoY2lkcikgPSBidWlsZF9pbnRlcmZhY2VfaXB2NF9jaWRyKCZhZGRyZXNzLCBjYW5kaWRhdGUucHJlZml4KSBlbHNlIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfTsKICAgICAgICBvdXRwdXQucHVzaChEaXNjb3Zlckhvc3RDYW5kaWRhdGUgewogICAgICAgICAgICBhZGRyZXNzLAogICAgICAgICAgICBjaWRyLAogICAgICAgICAgICBzb3VyY2U6ICJpbnRlcmZhY2UiLAogICAgICAgIH0pOwogICAgfQogICAgb3V0cHV0Cn0KCnB1YihzdXBlcikgZm4gYnVpbGRfZGlzY292ZXJfaG9zdF9jYW5kaWRhdGVzX3BheWxvYWQoCiAgICBjYW5kaWRhdGVzOiAmW0Rpc2NvdmVySG9zdENhbmRpZGF0ZV0sCiAgICBhdXRvbWF0aWNfY2lkcnM6ICZCVHJlZVNldDxTdHJpbmc+LAopIC0+IFZlYzxWYWx1ZT4gewogICAgY2FuZGlkYXRlcwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZW51bWVyYXRlKCkKICAgICAgICAubWFwKHwoaW5kZXgsIGNhbmRpZGF0ZSl8IHsKICAgICAgICAgICAganNvbiEoewogICAgICAgICAgICAgICAgImFkZHJlc3MiOiBjYW5kaWRhdGUuYWRkcmVzcywKICAgICAgICAgICAgICAgICJjaWRyIjogY2FuZGlkYXRlLmNpZHIsCiAgICAgICAgICAgICAgICAic291cmNlIjogY2FuZGlkYXRlLnNvdXJjZSwKICAgICAgICAgICAgICAgICJyZWNvbW1lbmRlZCI6IGluZGV4ID09IDAsCiAgICAgICAgICAgICAgICAiaW5jbHVkZWRJbkF1dG9tYXRpY1NjYW4iOiBhdXRvbWF0aWNfY2lkcnMuY29udGFpbnMoJmNhbmRpZGF0ZS5jaWRyKSwKICAgICAgICAgICAgfSkKICAgICAgICB9KQogICAgICAgIC5jb2xsZWN0KCkKfQoKcHViKHN1cGVyKSBmbiBsaW1pdF9hdXRvbWF0aWNfdGFyZ2V0cyh0YXJnZXRzOiBWZWM8VmFsdWU+KSAtPiBWZWM8VmFsdWU+IHsKICAgIGxldCBtdXQgb3V0cHV0ID0gVmVjOjpuZXcoKTsKICAgIGxldCBtdXQgY2lkcnMgPSBWZWM6Om5ldygpOwogICAgZm9yIHRhcmdldCBpbiB0YXJnZXRzIHsKICAgICAgICBsZXQgU29tZShjaWRyKSA9IHRhcmdldC5nZXQoImNpZHIiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSBlbHNlIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfTsKICAgICAgICBpZiBvdXRwdXQubGVuKCkgPj0gTUFYX1NDQU5fQ0lEUlMgewogICAgICAgICAgICBicmVhazsKICAgICAgICB9CiAgICAgICAgbGV0IG11dCBjYW5kaWRhdGVfY2lkcnMgPSBjaWRycy5jbG9uZSgpOwogICAgICAgIGNhbmRpZGF0ZV9jaWRycy5wdXNoKGNpZHIudG9fc3RyaW5nKCkpOwogICAgICAgIGlmIGNvdW50X3NjYW5faG9zdHMoJmNhbmRpZGF0ZV9jaWRycykuaXNfZXJyKCkgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgY2lkcnMgPSBjYW5kaWRhdGVfY2lkcnM7CiAgICAgICAgb3V0cHV0LnB1c2godGFyZ2V0KTsKICAgIH0KICAgIG91dHB1dAp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX2ludGVyZmFjZV9kaXNjb3Zlcl90YXJnZXRzKAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICBpbnRlcmZhY2VfY2FuZGlkYXRlczogJltuZXRfdXRpbHM6OlByaXZhdGVJcHY0Q2FuZGlkYXRlXSwKKSAtPiBWZWM8T3B0aW9uPFZhbHVlPj4gewogICAgaW50ZXJmYWNlX2NhbmRpZGF0ZXMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZpbHRlcl9tYXAofGNhbmRpZGF0ZXwgewogICAgICAgICAgICBsZXQgYWRkcmVzcyA9IGNhbmRpZGF0ZS5hZGRyZXNzLnRvX3N0cmluZygpOwogICAgICAgICAgICBsZXQgY2lkciA9IGJ1aWxkX2ludGVyZmFjZV9pcHY0X2NpZHIoJmFkZHJlc3MsIGNhbmRpZGF0ZS5wcmVmaXgpPzsKICAgICAgICAgICAgU29tZSh0b19kaXNjb3Zlcl90YXJnZXQoCiAgICAgICAgICAgICAgICAmY2lkciwKICAgICAgICAgICAgICAgICZzY2FuX2Rpc2NvdmVyeV90YXJnZXRfbGFiZWwoCiAgICAgICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICAgICAiaW50ZXJmYWNlIiwKICAgICAgICAgICAgICAgICAgICAmWwogICAgICAgICAgICAgICAgICAgICAgICAoImNpZHIiLCBjaWRyLmNsb25lKCkpLAogICAgICAgICAgICAgICAgICAgICAgICAoIm5hbWUiLCBjYW5kaWRhdGUuaW50ZXJmYWNlLmNsb25lKCkpLAogICAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgImludGVyZmFjZSIsCiAgICAgICAgICAgICAgICB0cnVlLAogICAgICAgICAgICApKQogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3QoKQp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX21hcHBpbmdfZGlzY292ZXJfdGFyZ2V0cygKICAgIGNvbmZpZzogJlZhbHVlLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gVmVjPE9wdGlvbjxWYWx1ZT4+IHsKICAgIGxldCBtdXQgdGFyZ2V0cyA9IFZlYzo6bmV3KCk7CiAgICBmb3Iga2V5IGluIFsicHJveHlfbWFwcGluZ3MiLCAiaG9zdF9tYXBwaW5ncyJdIHsKICAgICAgICBmb3IgbWFwcGluZyBpbiBjb25maWcKICAgICAgICAgICAgLmdldChrZXkpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgICAgIC5jbG9uZWQoKQogICAgICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQogICAgICAgIHsKICAgICAgICAgICAgbGV0IFNvbWUodGFyZ2V0KSA9IG1hcHBpbmcuZ2V0KCJ0YXJnZXQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICB9OwogICAgICAgICAgICBsZXQgU29tZShpcCkgPSBleHRyYWN0X2lwdjRfZnJvbV90YXJnZXQodGFyZ2V0KSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICB9OwogICAgICAgICAgICBsZXQgY2lkciA9IGJ1aWxkX2lwdjRfY2lkcigmaXAsIGlmIGlwLnN0YXJ0c193aXRoKCIxMjcuIikgeyAzMiB9IGVsc2UgeyAyNCB9KTsKICAgICAgICAgICAgaWYgbGV0IFNvbWUoY2lkcikgPSBjaWRyIHsKICAgICAgICAgICAgICAgIHRhcmdldHMucHVzaCh0b19kaXNjb3Zlcl90YXJnZXQoCiAgICAgICAgICAgICAgICAgICAgJmNpZHIsCiAgICAgICAgICAgICAgICAgICAgJnNjYW5fZGlzY292ZXJ5X3RhcmdldF9sYWJlbCh0cmFuc2xhdG9yLCAibWFwcGluZyIsICZbKCJjaWRyIiwgY2lkci5jbG9uZSgpKV0pLAogICAgICAgICAgICAgICAgICAgICJtYXBwaW5nIiwKICAgICAgICAgICAgICAgICAgICB0cnVlLAogICAgICAgICAgICAgICAgKSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICB0YXJnZXRzCn0KCnB1YihzdXBlcikgZm4gYnVpbGRfY3VzdG9tX2Rpc2NvdmVyX3RhcmdldHMoCiAgICBjaWRyczogaW1wbCBJbnRvSXRlcmF0b3I8SXRlbSA9IFN0cmluZz4sCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBWZWM8VmFsdWU+IHsKICAgIG5vcm1hbGl6ZV9hbGxvd2VkX3NjYW5fY2lkcnMoY2lkcnMpCiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLmZpbHRlcl9tYXAofGNpZHJ8IHsKICAgICAgICAgICAgdG9fZGlzY292ZXJfdGFyZ2V0KAogICAgICAgICAgICAgICAgJmNpZHIsCiAgICAgICAgICAgICAgICAmc2Nhbl9kaXNjb3ZlcnlfdGFyZ2V0X2xhYmVsKHRyYW5zbGF0b3IsICJjdXN0b20iLCAmWygiY2lkciIsIGNpZHIuY2xvbmUoKSldKSwKICAgICAgICAgICAgICAgICJjdXN0b20iLAogICAgICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgICkKICAgICAgICB9KQogICAgICAgIC5jb2xsZWN0KCkKfQoKcHViKHN1cGVyKSBmbiBidWlsZF9zYXZlZF9kaXNjb3Zlcl90YXJnZXRzKAogICAgY2lkcnM6IGltcGwgSW50b0l0ZXJhdG9yPEl0ZW0gPSBTdHJpbmc+LAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gVmVjPFZhbHVlPiB7CiAgICBub3JtYWxpemVfYWxsb3dlZF9zY2FuX2NpZHJzKGNpZHJzKQogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5maWx0ZXJfbWFwKHxjaWRyfCB7CiAgICAgICAgICAgIHRvX2Rpc2NvdmVyX3RhcmdldCgKICAgICAgICAgICAgICAgICZjaWRyLAogICAgICAgICAgICAgICAgJnNjYW5fZGlzY292ZXJ5X3RhcmdldF9sYWJlbCh0cmFuc2xhdG9yLCAic2F2ZWQiLCAmWygiY2lkciIsIGNpZHIuY2xvbmUoKSldKSwKICAgICAgICAgICAgICAgICJzYXZlZCIsCiAgICAgICAgICAgICAgICBmYWxzZSwKICAgICAgICAgICAgKQogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3QoKQp9CgpwdWIoc3VwZXIpIGZuIHNjYW5fZGlzY292ZXJ5X3RhcmdldF9sYWJlbCgKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAga2V5OiAmc3RyLAogICAgcGFyYW1zOiAmWygmc3RyLCBTdHJpbmcpXSwKKSAtPiBTdHJpbmcgewogICAgdHJhbnNsYXRvci50X3BhcmFtcygmZm9ybWF0ISgic2VydmVyLnNjYW5EaXNjb3ZlcnkudGFyZ2V0TGFiZWxzLntrZXl9IiksIHBhcmFtcykKfQoKcHViKHN1cGVyKSBmbiBsb2NhbGl6ZV9zY2FuX2Rpc2NvdmVyeV9lcnJvcih0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwgbWVzc2FnZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGxldCBub3JtYWxpemVkID0gbWVzc2FnZS50cmltKCk7CiAgICBpZiBsZXQgU29tZShjaWRycykgPSBub3JtYWxpemVkLnN0cmlwX3ByZWZpeCgiT25seSBsb2NhbCBJUHY0IENJRFIgcmFuZ2VzIGFyZSBzdXBwb3J0ZWQ6ICIpIHsKICAgICAgICByZXR1cm4gdHJhbnNsYXRvci50X3BhcmFtcygKICAgICAgICAgICAgInNlcnZlci5zY2FuRGlzY292ZXJ5LmxvY2FsSXB2NENpZHJPbmx5IiwKICAgICAgICAgICAgJlsoImNpZHJzIiwgY2lkcnMudG9fc3RyaW5nKCkpXSwKICAgICAgICApOwogICAgfQogICAgaWYgbm9ybWFsaXplZCA9PSBmb3JtYXQhKCJBdCBtb3N0IHtNQVhfU0NBTl9DSURSU30gQ0lEUiByYW5nZXMgY2FuIGJlIHNlbGVjdGVkIikgewogICAgICAgIHJldHVybiB0cmFuc2xhdG9yLnRfcGFyYW1zKAogICAgICAgICAgICAic2VydmVyLnNjYW5EaXNjb3ZlcnkubWF4Q2lkcnNFeGNlZWRlZCIsCiAgICAgICAgICAgICZbKCJtYXgiLCBNQVhfU0NBTl9DSURSUy50b19zdHJpbmcoKSldLAogICAgICAgICk7CiAgICB9CiAgICBpZiBsZXQgU29tZShjdXJyZW50KSA9IG5vcm1hbGl6ZWQKICAgICAgICAuc3RyaXBfcHJlZml4KCZmb3JtYXQhKAogICAgICAgICAgICAiQXQgbW9zdCB7TUFYX1NDQU5fSE9TVFN9IGhvc3RzIGNhbiBiZSBzY2FubmVkLCBjdXJyZW50IHNlbGVjdGlvbiBoYXMgIgogICAgICAgICkpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUudHJpbSgpLnBhcnNlOjo8dTY0PigpLm9rKCkpCiAgICB7CiAgICAgICAgcmV0dXJuIHRyYW5zbGF0b3IudF9wYXJhbXMoCiAgICAgICAgICAgICJzZXJ2ZXIuc2NhbkRpc2NvdmVyeS5tYXhIb3N0c0V4Y2VlZGVkV2l0aEN1cnJlbnQiLAogICAgICAgICAgICAmWwogICAgICAgICAgICAgICAgKCJtYXgiLCBNQVhfU0NBTl9IT1NUUy50b19zdHJpbmcoKSksCiAgICAgICAgICAgICAgICAoImN1cnJlbnQiLCBjdXJyZW50LnRvX3N0cmluZygpKSwKICAgICAgICAgICAgXSwKICAgICAgICApOwogICAgfQogICAgaWYgbm9ybWFsaXplZCA9PSBmb3JtYXQhKCJBdCBtb3N0IHtNQVhfU0NBTl9IT1NUU30gaG9zdHMgY2FuIGJlIHNjYW5uZWQiKSB7CiAgICAgICAgcmV0dXJuIHRyYW5zbGF0b3IudF9wYXJhbXMoCiAgICAgICAgICAgICJzZXJ2ZXIuc2NhbkRpc2NvdmVyeS5tYXhIb3N0c0V4Y2VlZGVkIiwKICAgICAgICAgICAgJlsoIm1heCIsIE1BWF9TQ0FOX0hPU1RTLnRvX3N0cmluZygpKV0sCiAgICAgICAgKTsKICAgIH0KICAgIG5vcm1hbGl6ZWQudG9fc3RyaW5nKCkKfQoKcHViKHN1cGVyKSBmbiBleHBhbmRfc2Nhbl9jaWRycyhjaWRyczogJltTdHJpbmddKSAtPiBWZWM8U3RyaW5nPiB7CiAgICBsZXQgbXV0IGhvc3RzID0gVmVjOjpuZXcoKTsKICAgIGxldCBtdXQgc2VlbiA9IEJUcmVlU2V0OjpuZXcoKTsKICAgIGZvciBjaWRyIGluIGNpZHJzIHsKICAgICAgICBsZXQgU29tZShwYXJzZWQpID0gcGFyc2VfYWxsb3dlZF9zY2FuX2NpZHIoY2lkcikgZWxzZSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH07CiAgICAgICAgZm9yIHZhbHVlIGluIHBhcnNlZC5maXJzdF9ob3N0Li49cGFyc2VkLmxhc3RfaG9zdCB7CiAgICAgICAgICAgIGxldCBob3N0ID0gSXB2NEFkZHI6OmZyb20odmFsdWUpLnRvX3N0cmluZygpOwogICAgICAgICAgICBpZiBzZWVuLmluc2VydChob3N0LmNsb25lKCkpIHsKICAgICAgICAgICAgICAgIGhvc3RzLnB1c2goaG9zdCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgaG9zdHMubGVuKCkgYXMgdTY0ID49IE1BWF9TQ0FOX0hPU1RTIHsKICAgICAgICAgICAgICAgIHJldHVybiBob3N0czsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIGhvc3RzCn0KCnB1YihzdXBlcikgZm4gYnVpbGRfc2Nhbl9zY29wZShjaWRyczogJltTdHJpbmddKSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBpZiBjaWRycy5pc19lbXB0eSgpIHsKICAgICAgICBOb25lCiAgICB9IGVsc2UgaWYgY2lkcnMubGVuKCkgPT0gMSB7CiAgICAgICAgY2lkcnMuZmlyc3QoKS5jbG9uZWQoKQogICAgfSBlbHNlIHsKICAgICAgICBTb21lKGNpZHJzLmpvaW4oIiwgIikpCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gdG9fZGlzY292ZXJfdGFyZ2V0KAogICAgY2lkcjogJnN0ciwKICAgIGxhYmVsOiAmc3RyLAogICAgc291cmNlOiAmc3RyLAogICAgaXNfYXV0b21hdGljOiBib29sLAopIC0+IE9wdGlvbjxWYWx1ZT4gewogICAgbGV0IHBhcnNlZCA9IHBhcnNlX2FsbG93ZWRfc2Nhbl9jaWRyKGNpZHIpPzsKICAgIFNvbWUoanNvbiEoewogICAgICAgICJjaWRyIjogcGFyc2VkLmNpZHIsCiAgICAgICAgImxhYmVsIjogbGFiZWwsCiAgICAgICAgInNvdXJjZSI6IHNvdXJjZSwKICAgICAgICAiaG9zdENvdW50IjogcGFyc2VkLmhvc3RfY291bnQsCiAgICAgICAgImlzQXV0b21hdGljIjogaXNfYXV0b21hdGljCiAgICB9KSkKfQoKcHViKHN1cGVyKSBmbiBkZWR1cGVfdGFyZ2V0cyh0YXJnZXRzOiBWZWM8T3B0aW9uPFZhbHVlPj4pIC0+IFZlYzxWYWx1ZT4gewogICAgbGV0IG11dCBzZWVuID0gQlRyZWVTZXQ6Om5ldygpOwogICAgbGV0IG11dCBvdXRwdXQgPSBWZWM6Om5ldygpOwogICAgZm9yIHRhcmdldCBpbiB0YXJnZXRzLmludG9faXRlcigpLmZsYXR0ZW4oKSB7CiAgICAgICAgbGV0IGNpZHIgPSB0YXJnZXQKICAgICAgICAgICAgLmdldCgiY2lkciIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAudW53cmFwX29yKCIiKQogICAgICAgICAgICAudG9fc3RyaW5nKCk7CiAgICAgICAgaWYgIWNpZHIuaXNfZW1wdHkoKSAmJiBzZWVuLmluc2VydChjaWRyKSB7CiAgICAgICAgICAgIG91dHB1dC5wdXNoKHRhcmdldCk7CiAgICAgICAgfQogICAgfQogICAgb3V0cHV0Cn0K
+use super::*;
+
+pub(super) const DISCOVERY_RESERVED_PORTS: [u16; 7] = [
+    7_995,
+    8_000,
+    8_200,
+    crate::tunnels::MANAGED_CLOUDFLARE_INGRESS_PORT,
+    crate::tunnels::MANAGED_CLOUDFLARE_LITE_INGRESS_PORT,
+    30_661,
+    30_662,
+];
+
+pub(super) fn build_discover_targets_payload(
+    state: &AppState,
+    headers: &HeaderMap,
+    config: &Value,
+    translator: &Translator,
+) -> Value {
+    let is_docker = deployment_target(state) == "docker";
+    let docker_candidates = if is_docker {
+        resolve_docker_discover_candidates(headers)
+    } else {
+        Vec::new()
+    };
+    let interface_candidates = net_utils::list_private_ipv4_candidates();
+    let automatic_targets = build_automatic_discover_targets(
+        state,
+        config,
+        translator,
+        &docker_candidates,
+        &interface_candidates,
+    );
+    let scan_discovery = config.get("scan_discovery");
+    let custom_targets = build_custom_discover_targets(
+        scan_discovery
+            .and_then(|value| value.get("custom_cidrs"))
+            .and_then(Value::as_array)
+            .cloned()
+            .unwrap_or_default()
+            .into_iter()
+            .filter_map(|value| value.as_str().map(str::to_string)),
+        translator,
+    );
+    let saved_selected_cidrs = normalize_allowed_scan_cidrs(
+        scan_discovery
+            .and_then(|value| value.get("selected_cidrs"))
+            .and_then(Value::as_array)
+            .cloned()
+            .unwrap_or_default()
+            .into_iter()
+            .filter_map(|value| value.as_str().map(str::to_string)),
+    );
+    let automatic_cidrs = automatic_targets
+        .iter()
+        .filter_map(|item| item.get("cidr").and_then(Value::as_str).map(str::to_string))
+        .collect::<Vec<_>>();
+    let automatic_cidr_set = automatic_cidrs.iter().cloned().collect::<BTreeSet<_>>();
+    let resolved_host_candidates = if is_docker {
+        docker_candidates.clone()
+    } else {
+        build_native_discover_host_candidates(&interface_candidates)
+    };
+    let host_candidates =
+        build_discover_host_candidates_payload(&resolved_host_candidates, &automatic_cidr_set);
+    let selection_mode = if saved_selected_cidrs.is_empty() {
+        "automatic"
+    } else {
+        "custom"
+    };
+    let selected_cidrs = if saved_selected_cidrs.is_empty() {
+        automatic_cidrs.clone()
+    } else {
+        saved_selected_cidrs
+    };
+    let effective_cidrs = if selected_cidrs.is_empty() {
+        automatic_cidrs
+    } else {
+        selected_cidrs
+    };
+    let selected_targets = build_saved_discover_targets(effective_cidrs.clone(), translator);
+    json!({
+        "automaticTargets": automatic_targets,
+        "hostCandidates": host_candidates,
+        "customTargets": custom_targets,
+        "selectedTargets": selected_targets,
+        "selectionMode": selection_mode,
+        "selectedCidrs": effective_cidrs,
+        "effectiveCidrs": effective_cidrs,
+        "limits": {
+            "maxCidrs": MAX_SCAN_CIDRS,
+            "maxHosts": MAX_SCAN_HOSTS
+        }
+    })
+}
+
+pub(super) fn build_automatic_discover_targets(
+    state: &AppState,
+    config: &Value,
+    translator: &Translator,
+    docker_candidates: &[DiscoverHostCandidate],
+    interface_candidates: &[net_utils::PrivateIpv4Candidate],
+) -> Vec<Value> {
+    let mut targets = Vec::new();
+    if deployment_target(state) == "docker" {
+        targets.extend(
+            docker_candidates
+                .iter()
+                .map(|candidate| build_docker_discover_target(candidate, translator)),
+        );
+        targets.extend(build_mapping_discover_targets(config, translator));
+        targets.extend(build_interface_discover_targets(
+            translator,
+            interface_candidates,
+        ));
+    } else {
+        let cidr = "127.0.0.1/32";
+        targets.push(to_discover_target(
+            cidr,
+            &scan_discovery_target_label(translator, "loopback", &[("cidr", cidr.to_string())]),
+            "loopback",
+            true,
+        ));
+        targets.extend(build_interface_discover_targets(
+            translator,
+            interface_candidates,
+        ));
+        targets.extend(build_mapping_discover_targets(config, translator));
+    }
+    limit_automatic_targets(dedupe_targets(targets))
+}
+
+pub(super) fn resolve_discover_self_hosts(state: &AppState, headers: &HeaderMap) -> Vec<String> {
+    let mut hosts = vec![LOOPBACK_DISCOVERY_HOST.to_string()];
+    hosts.extend(
+        net_utils::list_private_ipv4_candidates()
+            .into_iter()
+            .map(|candidate| candidate.address.to_string()),
+    );
+    if deployment_target(state) == "docker" {
+        hosts.extend(
+            resolve_docker_discover_candidates(headers)
+                .into_iter()
+                .map(|candidate| candidate.address),
+        );
+    }
+    normalize_discover_self_hosts(hosts)
+}
+
+pub(super) fn normalize_discover_self_hosts(
+    hosts: impl IntoIterator<Item = String>,
+) -> Vec<String> {
+    let mut seen = BTreeSet::new();
+    let mut output = Vec::new();
+    for host in hosts {
+        let host = host.trim().to_string();
+        if host.parse::<Ipv4Addr>().is_err() || !is_allowed_scan_ipv4(&host) {
+            continue;
+        }
+        if seen.insert(host.clone()) {
+            output.push(host);
+        }
+    }
+    output
+}
+
+pub(super) fn collect_excluded_ports(state: &AppState) -> Vec<u16> {
+    let mut ports = Vec::new();
+    if !runtime_profile::admin_panel_protected_runtime(state)
+        && let Some(port) = excluded_env_port("ADMIN_VIEW_PORT", 7991)
+    {
+        ports.push(port);
+    }
+    let default_backend_port = if deployment_target(state) == "openwrt" {
+        17_998
+    } else {
+        7_998
+    };
+    for (name, fallback) in [
+        ("BACKEND_PORT", default_backend_port),
+        ("AUTH_PORT", 7_997),
+        ("GO_BACKEND_PORT", 7_996),
+        ("GO_REPROXY_PORT", 7_999),
+    ] {
+        if let Some(port) = excluded_env_port(name, fallback) {
+            ports.push(port);
+        }
+    }
+    ports.extend(DISCOVERY_RESERVED_PORTS);
+    ports
+        .into_iter()
+        .collect::<BTreeSet<_>>()
+        .into_iter()
+        .collect()
+}
+
+pub(super) fn build_docker_discover_target(
+    candidate: &DiscoverHostCandidate,
+    translator: &Translator,
+) -> Option<Value> {
+    let cidr = candidate.cidr.clone();
+    to_discover_target(
+        &cidr,
+        &scan_discovery_target_label(translator, "docker", &[("cidr", cidr.clone())]),
+        "docker",
+        true,
+    )
+}
+
+pub(super) fn build_native_discover_host_candidates(
+    interface_candidates: &[net_utils::PrivateIpv4Candidate],
+) -> Vec<DiscoverHostCandidate> {
+    let mut seen = BTreeSet::from([LOOPBACK_DISCOVERY_HOST.to_string()]);
+    let mut output = vec![DiscoverHostCandidate {
+        address: LOOPBACK_DISCOVERY_HOST.to_string(),
+        cidr: format!("{LOOPBACK_DISCOVERY_HOST}/32"),
+        source: "loopback",
+    }];
+    for candidate in interface_candidates {
+        let address = candidate.address.to_string();
+        if !seen.insert(address.clone()) {
+            continue;
+        }
+        let Some(cidr) = build_interface_ipv4_cidr(&address, candidate.prefix) else {
+            continue;
+        };
+        output.push(DiscoverHostCandidate {
+            address,
+            cidr,
+            source: "interface",
+        });
+    }
+    output
+}
+
+pub(super) fn build_discover_host_candidates_payload(
+    candidates: &[DiscoverHostCandidate],
+    automatic_cidrs: &BTreeSet<String>,
+) -> Vec<Value> {
+    candidates
+        .iter()
+        .enumerate()
+        .map(|(index, candidate)| {
+            json!({
+                "address": candidate.address,
+                "cidr": candidate.cidr,
+                "source": candidate.source,
+                "recommended": index == 0,
+                "includedInAutomaticScan": automatic_cidrs.contains(&candidate.cidr),
+            })
+        })
+        .collect()
+}
+
+pub(super) fn limit_automatic_targets(targets: Vec<Value>) -> Vec<Value> {
+    let mut output = Vec::new();
+    let mut cidrs = Vec::new();
+    for target in targets {
+        let Some(cidr) = target.get("cidr").and_then(Value::as_str) else {
+            continue;
+        };
+        if output.len() >= MAX_SCAN_CIDRS {
+            break;
+        }
+        let mut candidate_cidrs = cidrs.clone();
+        candidate_cidrs.push(cidr.to_string());
+        if count_scan_hosts(&candidate_cidrs).is_err() {
+            continue;
+        }
+        cidrs = candidate_cidrs;
+        output.push(target);
+    }
+    output
+}
+
+pub(super) fn build_interface_discover_targets(
+    translator: &Translator,
+    interface_candidates: &[net_utils::PrivateIpv4Candidate],
+) -> Vec<Option<Value>> {
+    interface_candidates
+        .iter()
+        .filter_map(|candidate| {
+            let address = candidate.address.to_string();
+            let cidr = build_interface_ipv4_cidr(&address, candidate.prefix)?;
+            Some(to_discover_target(
+                &cidr,
+                &scan_discovery_target_label(
+                    translator,
+                    "interface",
+                    &[
+                        ("cidr", cidr.clone()),
+                        ("name", candidate.interface.clone()),
+                    ],
+                ),
+                "interface",
+                true,
+            ))
+        })
+        .collect()
+}
+
+pub(super) fn build_mapping_discover_targets(
+    config: &Value,
+    translator: &Translator,
+) -> Vec<Option<Value>> {
+    let mut targets = Vec::new();
+    for key in ["proxy_mappings", "host_mappings"] {
+        for mapping in config
+            .get(key)
+            .and_then(Value::as_array)
+            .cloned()
+            .unwrap_or_default()
+        {
+            let Some(target) = mapping.get("target").and_then(Value::as_str) else {
+                continue;
+            };
+            let Some(ip) = extract_ipv4_from_target(target) else {
+                continue;
+            };
+            let cidr = build_ipv4_cidr(&ip, if ip.starts_with("127.") { 32 } else { 24 });
+            if let Some(cidr) = cidr {
+                targets.push(to_discover_target(
+                    &cidr,
+                    &scan_discovery_target_label(translator, "mapping", &[("cidr", cidr.clone())]),
+                    "mapping",
+                    true,
+                ));
+            }
+        }
+    }
+    targets
+}
+
+pub(super) fn build_custom_discover_targets(
+    cidrs: impl IntoIterator<Item = String>,
+    translator: &Translator,
+) -> Vec<Value> {
+    normalize_allowed_scan_cidrs(cidrs)
+        .into_iter()
+        .filter_map(|cidr| {
+            to_discover_target(
+                &cidr,
+                &scan_discovery_target_label(translator, "custom", &[("cidr", cidr.clone())]),
+                "custom",
+                false,
+            )
+        })
+        .collect()
+}
+
+pub(super) fn build_saved_discover_targets(
+    cidrs: impl IntoIterator<Item = String>,
+    translator: &Translator,
+) -> Vec<Value> {
+    normalize_allowed_scan_cidrs(cidrs)
+        .into_iter()
+        .filter_map(|cidr| {
+            to_discover_target(
+                &cidr,
+                &scan_discovery_target_label(translator, "saved", &[("cidr", cidr.clone())]),
+                "saved",
+                false,
+            )
+        })
+        .collect()
+}
+
+pub(super) fn scan_discovery_target_label(
+    translator: &Translator,
+    key: &str,
+    params: &[(&str, String)],
+) -> String {
+    translator.t_params(&format!("server.scanDiscovery.targetLabels.{key}"), params)
+}
+
+pub(super) fn localize_scan_discovery_error(translator: &Translator, message: &str) -> String {
+    let normalized = message.trim();
+    if let Some(cidrs) = normalized.strip_prefix("Only local IPv4 CIDR ranges are supported: ") {
+        return translator.t_params(
+            "server.scanDiscovery.localIpv4CidrOnly",
+            &[("cidrs", cidrs.to_string())],
+        );
+    }
+    if normalized == format!("At most {MAX_SCAN_CIDRS} CIDR ranges can be selected") {
+        return translator.t_params(
+            "server.scanDiscovery.maxCidrsExceeded",
+            &[("max", MAX_SCAN_CIDRS.to_string())],
+        );
+    }
+    if let Some(current) = normalized
+        .strip_prefix(&format!(
+            "At most {MAX_SCAN_HOSTS} hosts can be scanned, current selection has "
+        ))
+        .and_then(|value| value.trim().parse::<u64>().ok())
+    {
+        return translator.t_params(
+            "server.scanDiscovery.maxHostsExceededWithCurrent",
+            &[
+                ("max", MAX_SCAN_HOSTS.to_string()),
+                ("current", current.to_string()),
+            ],
+        );
+    }
+    if normalized == format!("At most {MAX_SCAN_HOSTS} hosts can be scanned") {
+        return translator.t_params(
+            "server.scanDiscovery.maxHostsExceeded",
+            &[("max", MAX_SCAN_HOSTS.to_string())],
+        );
+    }
+    normalized.to_string()
+}
+
+pub(super) fn expand_scan_cidrs(cidrs: &[String]) -> Vec<String> {
+    let mut hosts = Vec::new();
+    let mut seen = BTreeSet::new();
+    for cidr in cidrs {
+        let Some(parsed) = parse_allowed_scan_cidr(cidr) else {
+            continue;
+        };
+        for value in parsed.first_host..=parsed.last_host {
+            let host = Ipv4Addr::from(value).to_string();
+            if seen.insert(host.clone()) {
+                hosts.push(host);
+            }
+            if hosts.len() as u64 >= MAX_SCAN_HOSTS {
+                return hosts;
+            }
+        }
+    }
+    hosts
+}
+
+pub(super) fn build_scan_scope(cidrs: &[String]) -> Option<String> {
+    if cidrs.is_empty() {
+        None
+    } else if cidrs.len() == 1 {
+        cidrs.first().cloned()
+    } else {
+        Some(cidrs.join(", "))
+    }
+}
+
+pub(super) fn to_discover_target(
+    cidr: &str,
+    label: &str,
+    source: &str,
+    is_automatic: bool,
+) -> Option<Value> {
+    let parsed = parse_allowed_scan_cidr(cidr)?;
+    Some(json!({
+        "cidr": parsed.cidr,
+        "label": label,
+        "source": source,
+        "hostCount": parsed.host_count,
+        "isAutomatic": is_automatic
+    }))
+}
+
+pub(super) fn dedupe_targets(targets: Vec<Option<Value>>) -> Vec<Value> {
+    let mut seen = BTreeSet::new();
+    let mut output = Vec::new();
+    for target in targets.into_iter().flatten() {
+        let cidr = target
+            .get("cidr")
+            .and_then(Value::as_str)
+            .unwrap_or("")
+            .to_string();
+        if !cidr.is_empty() && seen.insert(cidr) {
+            output.push(target);
+        }
+    }
+    output
+}

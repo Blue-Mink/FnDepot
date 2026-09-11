@@ -1,1 +1,18 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBERE5TVGFyZ2V0QWRkcmVzc0Jhc2VGaWVsZHMgZnJvbSAiLi9ERE5TVGFyZ2V0QWRkcmVzc0Jhc2VGaWVsZHMudnVlIjsKaW1wb3J0IERETlNUYXJnZXRJbnRlcmZhY2VBZGRyZXNzRmllbGRzIGZyb20gIi4vREROU1RhcmdldEludGVyZmFjZUFkZHJlc3NGaWVsZHMudnVlIjsKaW1wb3J0IERETlNUYXJnZXRTdGF0aWNBZGRyZXNzRmllbGRzIGZyb20gIi4vREROU1RhcmdldFN0YXRpY0FkZHJlc3NGaWVsZHMudnVlIjsKaW1wb3J0IHR5cGUgeyBERE5TVGFyZ2V0QWRkcmVzc0ZpZWxkc1Byb3BzIH0gZnJvbSAiLi9kZG5zLXRhcmdldC1kaWFsb2ctY29udHJhY3QiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxERE5TVGFyZ2V0QWRkcmVzc0ZpZWxkc1Byb3BzPigpOwpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8eyAidXBkYXRlOm5ldHdvcmtJbnRlcmZhY2UiOiBbdmFsdWU6IHN0cmluZ10gfT4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERETlNUYXJnZXRTdGF0aWNBZGRyZXNzRmllbGRzIDptb2RlbD0icHJvcHMiIC8+CiAgPERETlNUYXJnZXRBZGRyZXNzQmFzZUZpZWxkcwogICAgOm1vZGVsPSJwcm9wcyIKICAgIEB1cGRhdGU6bmV0d29yay1pbnRlcmZhY2U9ImVtaXQoJ3VwZGF0ZTpuZXR3b3JrSW50ZXJmYWNlJywgJGV2ZW50KSIKICAvPgogIDxERE5TVGFyZ2V0SW50ZXJmYWNlQWRkcmVzc0ZpZWxkcyA6bW9kZWw9InByb3BzIiAvPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import DDNSTargetAddressBaseFields from "./DDNSTargetAddressBaseFields.vue";
+import DDNSTargetInterfaceAddressFields from "./DDNSTargetInterfaceAddressFields.vue";
+import DDNSTargetStaticAddressFields from "./DDNSTargetStaticAddressFields.vue";
+import type { DDNSTargetAddressFieldsProps } from "./ddns-target-dialog-contract";
+
+const props = defineProps<DDNSTargetAddressFieldsProps>();
+const emit = defineEmits<{ "update:networkInterface": [value: string] }>();
+</script>
+
+<template>
+  <DDNSTargetStaticAddressFields :model="props" />
+  <DDNSTargetAddressBaseFields
+    :model="props"
+    @update:network-interface="emit('update:networkInterface', $event)"
+  />
+  <DDNSTargetInterfaceAddressFields :model="props" />
+</template>

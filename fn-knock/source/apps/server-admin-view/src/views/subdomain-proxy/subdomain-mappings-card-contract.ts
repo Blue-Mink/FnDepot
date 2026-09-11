@@ -1,1 +1,133 @@
-aW1wb3J0IHR5cGUgeyBCdXR0b25WYXJpYW50cyB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgdHlwZSB7IEhvc3RNYXBwaW5nLCBIb3N0TWFwcGluZ0dyb3VwLCBIb3N0VHJhZmZpY1N0YXRzIH0gZnJvbSAiQC90eXBlcyI7CmltcG9ydCB0eXBlIHsgSG9zdE1hcHBpbmdHcm91cFNlY3Rpb24gfSBmcm9tICIuL2hvc3QtbWFwcGluZy1ncm91cHMiOwppbXBvcnQgdHlwZSB7IEhvc3RNYXBwaW5nQXZhaWxhYmlsaXR5U3RhdGUgfSBmcm9tICIuL21vZGVsIjsKaW1wb3J0IHR5cGUgeyBNYXBwaW5nU3RhdHVzVG9vbHRpcCB9IGZyb20gIi4vdXNlU3ViZG9tYWluVG91Y2hUb29sdGlwcyI7CgpleHBvcnQgaW50ZXJmYWNlIFN1YmRvbWFpbk1hcHBpbmdzQ2FyZFByb3BzIHsKICBhY3RpdmVEZWVwTW9uaXRvckhvc3RzOiBzdHJpbmdbXTsKICBhbGxSZWd1bGFyTWFwcGluZ3M6IEhvc3RNYXBwaW5nW107CiAgYXV0aFNlcnZpY2VNYXBwaW5nOiBIb3N0TWFwcGluZyB8IG51bGw7CiAgY2FuTWFuYWdlTmV3TWFwcGluZ3M6IGJvb2xlYW47CiAgY2FuVXNlRGVlcE1vbml0b3I6IGJvb2xlYW47CiAgZGlzY292ZXJCdXR0b25EaXZpZGVyQ2xhc3M6IHN0cmluZzsKICBkaXNjb3ZlckJ1dHRvblZhcmlhbnQ6IEJ1dHRvblZhcmlhbnRzWyJ2YXJpYW50Il07CiAgZG9jc0hyZWY6IHN0cmluZzsKICBkcmFnZ2FibGVNYXBwaW5nczogSG9zdE1hcHBpbmdbXTsKICBmaWx0ZXJlZE1hcHBpbmdzOiBIb3N0TWFwcGluZ1tdOwogIGZvcm1hdEhvc3Q6IChob3N0OiBzdHJpbmcpID0+IHN0cmluZzsKICBmb3JtYXRBdmFpbGFiaWxpdHlXaW5kb3c6IChtYXBwaW5nOiBIb3N0TWFwcGluZykgPT4gc3RyaW5nOwogIGdldEF2YWlsYWJpbGl0eVN0YXRlOiAobWFwcGluZzogSG9zdE1hcHBpbmcpID0+IEhvc3RNYXBwaW5nQXZhaWxhYmlsaXR5U3RhdGU7CiAgZ2V0SG9zdFRyYWZmaWNTYW1wbGU6IChob3N0OiBzdHJpbmcpID0+IEhvc3RUcmFmZmljU3RhdHMgfCBudWxsOwogIGdldE1hcHBpbmdUaXRsZUZvckRpc3BsYXk6IChtYXBwaW5nOiBIb3N0TWFwcGluZykgPT4gc3RyaW5nOwogIGdsb2JhbFZpc2liaWxpdHlFbmFibGVkOiBib29sZWFuOwogIGdsb2JhbFdhZkVuYWJsZWQ6IGJvb2xlYW47CiAgZ3JvdXBlZFZpZXc6IGJvb2xlYW47CiAgZ3JvdXBzOiBIb3N0TWFwcGluZ0dyb3VwW107CiAgaGFuZGxlTWFwcGluZ1N0YXR1c1Rvb2x0aXBPcGVuQ2hhbmdlOiAoCiAgICBob3N0OiBzdHJpbmcsCiAgICB0b29sdGlwOiBNYXBwaW5nU3RhdHVzVG9vbHRpcCwKICAgIG9wZW46IGJvb2xlYW4sCiAgKSA9PiB2b2lkOwogIGhhbmRsZU1hcHBpbmdTdGF0dXNUb29sdGlwVHJpZ2dlckNsaWNrOiAoCiAgICBob3N0OiBzdHJpbmcsCiAgICB0b29sdGlwOiBNYXBwaW5nU3RhdHVzVG9vbHRpcCwKICApID0+IHZvaWQ7CiAgaGFuZGxlUHJvdG9jb2xIZWFkZXJzV2FybmluZ09wZW5DaGFuZ2U6IChob3N0OiBzdHJpbmcsIG9wZW46IGJvb2xlYW4pID0+IHZvaWQ7CiAgaGFzUmVndWxhckhvc3RNYXBwaW5nczogYm9vbGVhbjsKICBpc0NsZWFyaW5nQWxsU3ViZG9tYWluQ29uZmlnOiBib29sZWFuOwogIGlzQ29uZmlnTG9hZGluZzogYm9vbGVhbjsKICBpc0Rpc2NvdmVyaW5nOiBib29sZWFuOwogIGlzRXhwb3J0aW5nQm9va21hcmtzOiBib29sZWFuOwogIGlzRmF2aWNvbkJyb2tlbjogKG1hcHBpbmc6IEhvc3RNYXBwaW5nKSA9PiBib29sZWFuOwogIGlzR2F0ZXdheVBvcnRhbEVuYWJsZWQ6IGJvb2xlYW47CiAgaXNEZWZhdWx0RG9tYWluQXZhaWxhYmxlOiBib29sZWFuOwogIGlzTWFwcGluZ1VuYXZhaWxhYmxlOiAobWFwcGluZzogSG9zdE1hcHBpbmcpID0+IGJvb2xlYW47CiAgaXNNYXBwaW5nU3RhdHVzVG9vbHRpcE9wZW46ICgKICAgIGhvc3Q6IHN0cmluZywKICAgIHRvb2x0aXA6IE1hcHBpbmdTdGF0dXNUb29sdGlwLAogICkgPT4gYm9vbGVhbjsKICBpc1Byb3RvY29sSGVhZGVyc1dhcm5pbmdPcGVuOiAoaG9zdDogc3RyaW5nKSA9PiBib29sZWFuOwogIGlzUmVmcmVzaGluZ1RpdGxlczogYm9vbGVhbjsKICBpc1Jvb3REb21haW5QZW5kaW5nU2F2ZTogYm9vbGVhbjsKICBpc1NhdmluZ01hcHBpbmdzOiBib29sZWFuOwogIGlzU3luY2luZzogYm9vbGVhbjsKICBpc0F1dGhTZXJ2aWNlVGFyZ2V0OiAodGFyZ2V0OiBzdHJpbmcpID0+IGJvb2xlYW47CiAgbWFya0Zhdmljb25Ccm9rZW46IChtYXBwaW5nOiBIb3N0TWFwcGluZykgPT4gdm9pZDsKICBvcGVuUHJvdG9jb2xIZWFkZXJzV2FybmluZzogKGhvc3Q6IHN0cmluZykgPT4gdm9pZDsKICByb290RG9tYWluVmFsaWRhdGlvbk1lc3NhZ2U6IHN0cmluZzsKICBzYXZlZFJvb3REb21haW46IHN0cmluZzsKICBzY2hlZHVsZUNsb3NlUHJvdG9jb2xIZWFkZXJzV2FybmluZzogKGhvc3Q6IHN0cmluZykgPT4gdm9pZDsKICBzZWFyY2hRdWVyeTogc3RyaW5nOwogIHNob3VsZFNob3dQcm90b2NvbEhlYWRlcnNXYXJuaW5nOiAobWFwcGluZzogSG9zdE1hcHBpbmcpID0+IGJvb2xlYW47CiAgdG9nZ2xlUHJvdG9jb2xIZWFkZXJzV2FybmluZzogKGhvc3Q6IHN0cmluZykgPT4gdm9pZDsKICB0cmFmZmljVGltZXN0YW1wOiBudW1iZXIgfCBudWxsIHwgdW5kZWZpbmVkOwogIHZpc2libGVNYXBwaW5nc0NvdW50OiBudW1iZXI7Cn0KCmV4cG9ydCB0eXBlIFN1YmRvbWFpbk1hcHBpbmdzQ2FyZEVtaXRzID0gewogICJhZGQtYXV0aC1zZXJ2aWNlIjogW107CiAgImJhdGNoLWRlbGV0ZSI6IFtob3N0czogc3RyaW5nW10sIG9uQ29tcGxldGU6ICgpID0+IHZvaWRdOwogICJiYXRjaC1kaXNhYmxlIjogW2hvc3RzOiBzdHJpbmdbXSwgb25Db21wbGV0ZTogKCkgPT4gdm9pZF07CiAgImJhdGNoLWVuYWJsZSI6IFtob3N0czogc3RyaW5nW10sIG9uQ29tcGxldGU6ICgpID0+IHZvaWRdOwogICJiYXRjaC1zY2hlZHVsZSI6IFtob3N0czogc3RyaW5nW10sIG9uQ29tcGxldGU6ICgpID0+IHZvaWRdOwogICJjbGVhci1kZWZhdWx0IjogW21hcHBpbmc6IEhvc3RNYXBwaW5nXTsKICAiY29weS1ob3N0IjogW21hcHBpbmc6IEhvc3RNYXBwaW5nXTsKICBkZWxldGU6IFtob3N0OiBzdHJpbmddOwogIGVkaXQ6IFttYXBwaW5nOiBIb3N0TWFwcGluZ107CiAgImV4cG9ydC1ib29rbWFya3MiOiBbXTsKICAib3Blbi1jbGVhci1hbGwtY29uZmlnIjogW107CiAgIm1vdmUtbWFwcGluZ3MiOiBbCiAgICBob3N0czogc3RyaW5nW10sCiAgICBncm91cElkOiBzdHJpbmcgfCBudWxsLAogICAgb25Db21wbGV0ZT86ICgpID0+IHZvaWQsCiAgXTsKICAib3Blbi1jcmVhdGUiOiBbZ3JvdXBJZD86IHN0cmluZyB8IG51bGxdOwogICJvcGVuLWRpc2NvdmVyIjogW107CiAgIm9wZW4tZGlzY292ZXItc2V0dGluZ3MiOiBbXTsKICAib3Blbi1hdmFpbGFiaWxpdHkiOiBbbWFwcGluZzogSG9zdE1hcHBpbmddOwogICJvcGVuLWdhdGV3YXktbG9jYXRpb25zIjogW2hvc3Q6IHN0cmluZ107CiAgIm9wZW4tYWR2YW5jZWQtYXV0aCI6IFtob3N0OiBzdHJpbmddOwogICJvcGVuLWRlZXAtbW9uaXRvciI6IFtob3N0OiBzdHJpbmddOwogICJvcGVuLXN0YWxlLWNsZWFudXAiOiBbXTsKICAib3Blbi10YXJnZXQtb3B0aW1pemF0aW9uIjogW107CiAgInJlZnJlc2gtYWxsLXRpdGxlcyI6IFtdOwogICJzYXZlLW9yZGVyIjogW107CiAgInNhdmUtZ3JvdXBlZC1vcmRlciI6IFtzZWN0aW9uczogSG9zdE1hcHBpbmdHcm91cFNlY3Rpb25bXV07CiAgInNhdmUtZ3JvdXBzIjogWwogICAgZ3JvdXBzOiBIb3N0TWFwcGluZ0dyb3VwW10sCiAgICBvbkNvbXBsZXRlOiAoc2F2ZWQ6IGJvb2xlYW4pID0+IHZvaWQsCiAgXTsKICAic2V0LWRlZmF1bHQiOiBbbWFwcGluZzogSG9zdE1hcHBpbmddOwogICJzeW5jLXJvdXRlcyI6IFtdOwogICJ0b2dnbGUtZW5hYmxlZCI6IFttYXBwaW5nOiBIb3N0TWFwcGluZ107CiAgInVwZGF0ZS1ncm91cGVkLXZpZXciOiBbdmFsdWU6IGJvb2xlYW5dOwogICJ1cGRhdGU6ZHJhZ2dhYmxlTWFwcGluZ3MiOiBbbWFwcGluZ3M6IEhvc3RNYXBwaW5nW11dOwogICJ1cGRhdGU6c2VhcmNoUXVlcnkiOiBbdmFsdWU6IHN0cmluZ107Cn07CgpleHBvcnQgaW50ZXJmYWNlIFN1YmRvbWFpbk1hcHBpbmdzVGFibGVBY3Rpb25zIHsKICBjbGVhckRlZmF1bHQ6IChtYXBwaW5nOiBIb3N0TWFwcGluZykgPT4gdm9pZDsKICBiYXRjaERlbGV0ZTogKGhvc3RzOiBzdHJpbmdbXSwgb25Db21wbGV0ZTogKCkgPT4gdm9pZCkgPT4gdm9pZDsKICBiYXRjaERpc2FibGU6IChob3N0czogc3RyaW5nW10sIG9uQ29tcGxldGU6ICgpID0+IHZvaWQpID0+IHZvaWQ7CiAgYmF0Y2hFbmFibGU6IChob3N0czogc3RyaW5nW10sIG9uQ29tcGxldGU6ICgpID0+IHZvaWQpID0+IHZvaWQ7CiAgYmF0Y2hTY2hlZHVsZTogKGhvc3RzOiBzdHJpbmdbXSwgb25Db21wbGV0ZTogKCkgPT4gdm9pZCkgPT4gdm9pZDsKICBjb3B5SG9zdDogKG1hcHBpbmc6IEhvc3RNYXBwaW5nKSA9PiB2b2lkOwogIGRlbGV0ZU1hcHBpbmc6IChob3N0OiBzdHJpbmcpID0+IHZvaWQ7CiAgZWRpdDogKG1hcHBpbmc6IEhvc3RNYXBwaW5nKSA9PiB2b2lkOwogIG1hbmFnZUdyb3VwczogKCkgPT4gdm9pZDsKICBtb3ZlTWFwcGluZ3M6ICgKICAgIGhvc3RzOiBzdHJpbmdbXSwKICAgIGdyb3VwSWQ6IHN0cmluZyB8IG51bGwsCiAgICBvbkNvbXBsZXRlPzogKCkgPT4gdm9pZCwKICApID0+IHZvaWQ7CiAgb3BlbkFkdmFuY2VkQXV0aDogKGhvc3Q6IHN0cmluZykgPT4gdm9pZDsKICBvcGVuQXZhaWxhYmlsaXR5OiAobWFwcGluZzogSG9zdE1hcHBpbmcpID0+IHZvaWQ7CiAgb3BlbkNyZWF0ZTogKGdyb3VwSWQ/OiBzdHJpbmcgfCBudWxsKSA9PiB2b2lkOwogIG9wZW5EZWVwTW9uaXRvcjogKGhvc3Q6IHN0cmluZykgPT4gdm9pZDsKICBvcGVuR2F0ZXdheUxvY2F0aW9uczogKGhvc3Q6IHN0cmluZykgPT4gdm9pZDsKICBzYXZlRmxhdE9yZGVyOiAobWFwcGluZ3M6IEhvc3RNYXBwaW5nW10pID0+IHZvaWQ7CiAgc2F2ZUdyb3VwZWRPcmRlcjogKHNlY3Rpb25zOiBIb3N0TWFwcGluZ0dyb3VwU2VjdGlvbltdKSA9PiB2b2lkOwogIHNldERlZmF1bHQ6IChtYXBwaW5nOiBIb3N0TWFwcGluZykgPT4gdm9pZDsKICB0b2dnbGVFbmFibGVkOiAobWFwcGluZzogSG9zdE1hcHBpbmcpID0+IHZvaWQ7Cn0K
+import type { ButtonVariants } from "@/components/ui/button";
+import type { HostMapping, HostMappingGroup, HostTrafficStats } from "@/types";
+import type { HostMappingGroupSection } from "./host-mapping-groups";
+import type { HostMappingAvailabilityState } from "./model";
+import type { MappingStatusTooltip } from "./useSubdomainTouchTooltips";
+
+export interface SubdomainMappingsCardProps {
+  activeDeepMonitorHosts: string[];
+  allRegularMappings: HostMapping[];
+  authServiceMapping: HostMapping | null;
+  canManageNewMappings: boolean;
+  canUseDeepMonitor: boolean;
+  discoverButtonDividerClass: string;
+  discoverButtonVariant: ButtonVariants["variant"];
+  docsHref: string;
+  draggableMappings: HostMapping[];
+  filteredMappings: HostMapping[];
+  formatHost: (host: string) => string;
+  formatAvailabilityWindow: (mapping: HostMapping) => string;
+  getAvailabilityState: (mapping: HostMapping) => HostMappingAvailabilityState;
+  getHostTrafficSample: (host: string) => HostTrafficStats | null;
+  getMappingTitleForDisplay: (mapping: HostMapping) => string;
+  globalVisibilityEnabled: boolean;
+  globalWafEnabled: boolean;
+  groupedView: boolean;
+  groups: HostMappingGroup[];
+  handleMappingStatusTooltipOpenChange: (
+    host: string,
+    tooltip: MappingStatusTooltip,
+    open: boolean,
+  ) => void;
+  handleMappingStatusTooltipTriggerClick: (
+    host: string,
+    tooltip: MappingStatusTooltip,
+  ) => void;
+  handleProtocolHeadersWarningOpenChange: (host: string, open: boolean) => void;
+  hasRegularHostMappings: boolean;
+  isClearingAllSubdomainConfig: boolean;
+  isConfigLoading: boolean;
+  isDiscovering: boolean;
+  isExportingBookmarks: boolean;
+  isFaviconBroken: (mapping: HostMapping) => boolean;
+  isGatewayPortalEnabled: boolean;
+  isDefaultDomainAvailable: boolean;
+  isMappingUnavailable: (mapping: HostMapping) => boolean;
+  isMappingStatusTooltipOpen: (
+    host: string,
+    tooltip: MappingStatusTooltip,
+  ) => boolean;
+  isProtocolHeadersWarningOpen: (host: string) => boolean;
+  isRefreshingTitles: boolean;
+  isRootDomainPendingSave: boolean;
+  isSavingMappings: boolean;
+  isSyncing: boolean;
+  isAuthServiceTarget: (target: string) => boolean;
+  markFaviconBroken: (mapping: HostMapping) => void;
+  openProtocolHeadersWarning: (host: string) => void;
+  rootDomainValidationMessage: string;
+  savedRootDomain: string;
+  scheduleCloseProtocolHeadersWarning: (host: string) => void;
+  searchQuery: string;
+  shouldShowProtocolHeadersWarning: (mapping: HostMapping) => boolean;
+  toggleProtocolHeadersWarning: (host: string) => void;
+  trafficTimestamp: number | null | undefined;
+  visibleMappingsCount: number;
+}
+
+export type SubdomainMappingsCardEmits = {
+  "add-auth-service": [];
+  "batch-delete": [hosts: string[], onComplete: () => void];
+  "batch-disable": [hosts: string[], onComplete: () => void];
+  "batch-enable": [hosts: string[], onComplete: () => void];
+  "batch-schedule": [hosts: string[], onComplete: () => void];
+  "clear-default": [mapping: HostMapping];
+  "copy-host": [mapping: HostMapping];
+  delete: [host: string];
+  edit: [mapping: HostMapping];
+  "export-bookmarks": [];
+  "open-clear-all-config": [];
+  "move-mappings": [
+    hosts: string[],
+    groupId: string | null,
+    onComplete?: () => void,
+  ];
+  "open-create": [groupId?: string | null];
+  "open-discover": [];
+  "open-discover-settings": [];
+  "open-availability": [mapping: HostMapping];
+  "open-gateway-locations": [host: string];
+  "open-advanced-auth": [host: string];
+  "open-deep-monitor": [host: string];
+  "open-stale-cleanup": [];
+  "open-target-optimization": [];
+  "refresh-all-titles": [];
+  "save-order": [];
+  "save-grouped-order": [sections: HostMappingGroupSection[]];
+  "save-groups": [
+    groups: HostMappingGroup[],
+    onComplete: (saved: boolean) => void,
+  ];
+  "set-default": [mapping: HostMapping];
+  "sync-routes": [];
+  "toggle-enabled": [mapping: HostMapping];
+  "update-grouped-view": [value: boolean];
+  "update:draggableMappings": [mappings: HostMapping[]];
+  "update:searchQuery": [value: string];
+};
+
+export interface SubdomainMappingsTableActions {
+  clearDefault: (mapping: HostMapping) => void;
+  batchDelete: (hosts: string[], onComplete: () => void) => void;
+  batchDisable: (hosts: string[], onComplete: () => void) => void;
+  batchEnable: (hosts: string[], onComplete: () => void) => void;
+  batchSchedule: (hosts: string[], onComplete: () => void) => void;
+  copyHost: (mapping: HostMapping) => void;
+  deleteMapping: (host: string) => void;
+  edit: (mapping: HostMapping) => void;
+  manageGroups: () => void;
+  moveMappings: (
+    hosts: string[],
+    groupId: string | null,
+    onComplete?: () => void,
+  ) => void;
+  openAdvancedAuth: (host: string) => void;
+  openAvailability: (mapping: HostMapping) => void;
+  openCreate: (groupId?: string | null) => void;
+  openDeepMonitor: (host: string) => void;
+  openGatewayLocations: (host: string) => void;
+  saveFlatOrder: (mappings: HostMapping[]) => void;
+  saveGroupedOrder: (sections: HostMappingGroupSection[]) => void;
+  setDefault: (mapping: HostMapping) => void;
+  toggleEnabled: (mapping: HostMapping) => void;
+}

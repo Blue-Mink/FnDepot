@@ -1,1 +1,39 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGJhY2t1cEVtYWlsRXJyb3JLZXkgfSBmcm9tICJAL2xpYi9iYWNrdXAtZW1haWwiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgdHlwZSB7IEJhY2t1cEVtYWlsU3RhdHVzIH0gZnJvbSAiQC90eXBlcyI7CmRlZmluZVByb3BzPHsgc3RhdHVzOiBCYWNrdXBFbWFpbFN0YXR1cyB9PigpOwpjb25zdCB7IHQsIGxvY2FsZSB9ID0gdXNlSTE4bigpOwpmdW5jdGlvbiBkYXRlKHZhbHVlOiBzdHJpbmcgfCBudWxsKSB7CiAgcmV0dXJuIHZhbHVlCiAgICA/IG5ldyBEYXRlKHZhbHVlKS50b0xvY2FsZVN0cmluZyhsb2NhbGUudmFsdWUpCiAgICA6IHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3Mubm90QXZhaWxhYmxlIik7Cn0KPC9zY3JpcHQ+Cjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJtdC00IHNwYWNlLXktMiB0ZXh0LXNtIiByb2xlPSJzdGF0dXMiIGFyaWEtbGl2ZT0icG9saXRlIj4KICAgIDxwPgogICAgICB7eyB0KCJhZG1pbi5tYWludGVuYW5jZVNldHRpbmdzLmVtYWlsTGFzdEF0dGVtcHQiKSB9fToKICAgICAge3sgZGF0ZShzdGF0dXMubGFzdF9hdHRlbXB0X2F0KSB9fQogICAgPC9wPgogICAgPHA+CiAgICAgIHt7IHQoImFkbWluLm1haW50ZW5hbmNlU2V0dGluZ3MuZW1haWxMYXN0U3VjY2VzcyIpIH19OgogICAgICB7eyBkYXRlKHN0YXR1cy5sYXN0X3N1Y2Nlc3NfYXQpIH19CiAgICA8L3A+CiAgICA8cCB2LWlmPSJzdGF0dXMubGFzdF9maWxlbmFtZSIgY2xhc3M9ImJyZWFrLWFsbCI+CiAgICAgIHt7IHN0YXR1cy5sYXN0X2ZpbGVuYW1lIH19CiAgICA8L3A+CiAgICA8cD4KICAgICAge3sgdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5lbWFpbFBlbmRpbmciKSB9fToKICAgICAge3sgc3RhdHVzLnBlbmRpbmdfY291bnQgfX0KICAgIDwvcD4KICAgIDxwIHYtaWY9InN0YXR1cy5uZXh0X3JldHJ5X2F0Ij4KICAgICAge3sgdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5lbWFpbE5leHRSZXRyeSIpIH19OgogICAgICB7eyBkYXRlKHN0YXR1cy5uZXh0X3JldHJ5X2F0KSB9fQogICAgPC9wPgogICAgPHAgdi1pZj0ic3RhdHVzLmxhc3RfZXJyb3IiIGNsYXNzPSJ0ZXh0LWRlc3RydWN0aXZlIj4KICAgICAge3sgdCgiYWRtaW4ubWFpbnRlbmFuY2VTZXR0aW5ncy5lbWFpbERlbGl2ZXJ5RmFpbGVkIikgfX06CiAgICAgIHt7IHQoYmFja3VwRW1haWxFcnJvcktleShzdGF0dXMubGFzdF9lcnJvcikpIH19CiAgICA8L3A+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { backupEmailErrorKey } from "@/lib/backup-email";
+import { useI18n } from "vue-i18n";
+import type { BackupEmailStatus } from "@/types";
+defineProps<{ status: BackupEmailStatus }>();
+const { t, locale } = useI18n();
+function date(value: string | null) {
+  return value
+    ? new Date(value).toLocaleString(locale.value)
+    : t("admin.maintenanceSettings.notAvailable");
+}
+</script>
+<template>
+  <div class="mt-4 space-y-2 text-sm" role="status" aria-live="polite">
+    <p>
+      {{ t("admin.maintenanceSettings.emailLastAttempt") }}:
+      {{ date(status.last_attempt_at) }}
+    </p>
+    <p>
+      {{ t("admin.maintenanceSettings.emailLastSuccess") }}:
+      {{ date(status.last_success_at) }}
+    </p>
+    <p v-if="status.last_filename" class="break-all">
+      {{ status.last_filename }}
+    </p>
+    <p>
+      {{ t("admin.maintenanceSettings.emailPending") }}:
+      {{ status.pending_count }}
+    </p>
+    <p v-if="status.next_retry_at">
+      {{ t("admin.maintenanceSettings.emailNextRetry") }}:
+      {{ date(status.next_retry_at) }}
+    </p>
+    <p v-if="status.last_error" class="text-destructive">
+      {{ t("admin.maintenanceSettings.emailDeliveryFailed") }}:
+      {{ t(backupEmailErrorKey(status.last_error)) }}
+    </p>
+  </div>
+</template>

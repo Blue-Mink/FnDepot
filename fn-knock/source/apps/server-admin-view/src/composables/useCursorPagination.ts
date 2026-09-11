@@ -1,1 +1,48 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwoKZXhwb3J0IGNvbnN0IHVzZUN1cnNvclBhZ2luYXRpb24gPSAoeyBsb2FkaW5nIH06IHsgbG9hZGluZzogUmVmPGJvb2xlYW4+IH0pID0+IHsKICBjb25zdCBjdXJyZW50Q3Vyc29yID0gcmVmKCIiKTsKICBjb25zdCBuZXh0Q3Vyc29yID0gcmVmKCIiKTsKICBjb25zdCBjdXJzb3JIaXN0b3J5ID0gcmVmPHN0cmluZ1tdPihbXSk7CiAgY29uc3QgY2FuTG9hZE5ld2VyID0gY29tcHV0ZWQoKCkgPT4gY3Vyc29ySGlzdG9yeS52YWx1ZS5sZW5ndGggPiAwKTsKICBjb25zdCBjYW5Mb2FkT2xkZXIgPSBjb21wdXRlZCgoKSA9PiBCb29sZWFuKG5leHRDdXJzb3IudmFsdWUpKTsKCiAgY29uc3QgcmVzZXQgPSAoKSA9PiB7CiAgICBjdXJyZW50Q3Vyc29yLnZhbHVlID0gIiI7CiAgICBuZXh0Q3Vyc29yLnZhbHVlID0gIiI7CiAgICBjdXJzb3JIaXN0b3J5LnZhbHVlID0gW107CiAgfTsKCiAgY29uc3QgbG9hZE9sZGVyID0gKCkgPT4gewogICAgaWYgKCFuZXh0Q3Vyc29yLnZhbHVlIHx8IGxvYWRpbmcudmFsdWUpIHJldHVybiBmYWxzZTsKICAgIGN1cnNvckhpc3RvcnkudmFsdWUgPSBbLi4uY3Vyc29ySGlzdG9yeS52YWx1ZSwgY3VycmVudEN1cnNvci52YWx1ZV07CiAgICBjdXJyZW50Q3Vyc29yLnZhbHVlID0gbmV4dEN1cnNvci52YWx1ZTsKICAgIHJldHVybiB0cnVlOwogIH07CgogIGNvbnN0IGxvYWROZXdlciA9ICgpID0+IHsKICAgIGlmIChjdXJzb3JIaXN0b3J5LnZhbHVlLmxlbmd0aCA9PT0gMCB8fCBsb2FkaW5nLnZhbHVlKSByZXR1cm4gZmFsc2U7CiAgICBjb25zdCBoaXN0b3J5ID0gWy4uLmN1cnNvckhpc3RvcnkudmFsdWVdOwogICAgY3VycmVudEN1cnNvci52YWx1ZSA9IGhpc3RvcnkucG9wKCkgPz8gIiI7CiAgICBjdXJzb3JIaXN0b3J5LnZhbHVlID0gaGlzdG9yeTsKICAgIHJldHVybiB0cnVlOwogIH07CgogIGNvbnN0IGxvYWRGaXJzdCA9ICgpID0+IHsKICAgIGlmIChjdXJzb3JIaXN0b3J5LnZhbHVlLmxlbmd0aCA9PT0gMCB8fCBsb2FkaW5nLnZhbHVlKSByZXR1cm4gZmFsc2U7CiAgICByZXNldCgpOwogICAgcmV0dXJuIHRydWU7CiAgfTsKCiAgcmV0dXJuIHsKICAgIGNhbkxvYWROZXdlciwKICAgIGNhbkxvYWRPbGRlciwKICAgIGN1cnJlbnRDdXJzb3IsCiAgICBjdXJzb3JIaXN0b3J5LAogICAgbG9hZEZpcnN0LAogICAgbG9hZE5ld2VyLAogICAgbG9hZE9sZGVyLAogICAgbmV4dEN1cnNvciwKICAgIHJlc2V0LAogIH07Cn07Cg==
+import { computed, ref, type Ref } from "vue";
+
+export const useCursorPagination = ({ loading }: { loading: Ref<boolean> }) => {
+  const currentCursor = ref("");
+  const nextCursor = ref("");
+  const cursorHistory = ref<string[]>([]);
+  const canLoadNewer = computed(() => cursorHistory.value.length > 0);
+  const canLoadOlder = computed(() => Boolean(nextCursor.value));
+
+  const reset = () => {
+    currentCursor.value = "";
+    nextCursor.value = "";
+    cursorHistory.value = [];
+  };
+
+  const loadOlder = () => {
+    if (!nextCursor.value || loading.value) return false;
+    cursorHistory.value = [...cursorHistory.value, currentCursor.value];
+    currentCursor.value = nextCursor.value;
+    return true;
+  };
+
+  const loadNewer = () => {
+    if (cursorHistory.value.length === 0 || loading.value) return false;
+    const history = [...cursorHistory.value];
+    currentCursor.value = history.pop() ?? "";
+    cursorHistory.value = history;
+    return true;
+  };
+
+  const loadFirst = () => {
+    if (cursorHistory.value.length === 0 || loading.value) return false;
+    reset();
+    return true;
+  };
+
+  return {
+    canLoadNewer,
+    canLoadOlder,
+    currentCursor,
+    cursorHistory,
+    loadFirst,
+    loadNewer,
+    loadOlder,
+    nextCursor,
+    reset,
+  };
+};

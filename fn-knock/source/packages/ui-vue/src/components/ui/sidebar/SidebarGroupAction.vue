@@ -1,1 +1,27 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUHJpbWl0aXZlUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyBQcmltaXRpdmUgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxQcmltaXRpdmVQcm9wcyAmIHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFByaW1pdGl2ZQogICAgZGF0YS1zbG90PSJzaWRlYmFyLWdyb3VwLWFjdGlvbiIKICAgIGRhdGEtc2lkZWJhcj0iZ3JvdXAtYWN0aW9uIgogICAgOmFzPSJhcyIKICAgIDphcy1jaGlsZD0iYXNDaGlsZCIKICAgIDpjbGFzcz0iY24oCiAgICAgICd0ZXh0LXNpZGViYXItZm9yZWdyb3VuZCByaW5nLXNpZGViYXItcmluZyBob3ZlcjpiZy1zaWRlYmFyLWFjY2VudCBob3Zlcjp0ZXh0LXNpZGViYXItYWNjZW50LWZvcmVncm91bmQgYWJzb2x1dGUgdG9wLTMuNSByaWdodC0zIGZsZXggYXNwZWN0LXNxdWFyZSB3LTUgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgcC0wIG91dGxpbmUtaGlkZGVuIHRyYW5zaXRpb24tdHJhbnNmb3JtIGZvY3VzLXZpc2libGU6cmluZy0yIFsmPnN2Z106c2l6ZS00IFsmPnN2Z106c2hyaW5rLTAnLAogICAgICAnYWZ0ZXI6YWJzb2x1dGUgYWZ0ZXI6LWluc2V0LTIgbWQ6YWZ0ZXI6aGlkZGVuJywKICAgICAgJ2dyb3VwLWRhdGEtW2NvbGxhcHNpYmxlPWljb25dOmhpZGRlbicsCiAgICAgIHByb3BzLmNsYXNzLAogICAgKSIKICA+CiAgICA8c2xvdCAvPgogIDwvUHJpbWl0aXZlPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { PrimitiveProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { Primitive } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<PrimitiveProps & {
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <Primitive
+    data-slot="sidebar-group-action"
+    data-sidebar="group-action"
+    :as="as"
+    :as-child="asChild"
+    :class="cn(
+      'text-sidebar-foreground ring-sidebar-ring hover:bg-sidebar-accent hover:text-sidebar-accent-foreground absolute top-3.5 right-3 flex aspect-square w-5 items-center justify-center rounded-md p-0 outline-hidden transition-transform focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0',
+      'after:absolute after:-inset-2 md:after:hidden',
+      'group-data-[collapsible=icon]:hidden',
+      props.class,
+    )"
+  >
+    <slot />
+  </Primitive>
+</template>

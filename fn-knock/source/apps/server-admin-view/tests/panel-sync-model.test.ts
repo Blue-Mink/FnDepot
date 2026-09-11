@@ -1,1 +1,107 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgdHlwZSB7IFBhbmVsQ29ubmVjdGlvbiB9IGZyb20gIi4uL3NyYy9saWIvYXBpL3BhbmVsLXN5bmMtYXBpIjsKaW1wb3J0IHsKICBjb21wb3NlUGFuZWxFbmRwb2ludFVybCwKICBjcmVhdGVQYW5lbFN5bmNGb3JtLAogIGlzUGFuZWxBdXRvU3luY1JlYWR5LAogIG5leHRQYW5lbENvbm5lY3Rpb25OYW1lLAogIHBhbmVsQXBpUGF0aHMsCiAgcGFuZWxDb25uZWN0aW9uVG9Gb3JtLAogIHBhbmVsRm9ybVRvVXBkYXRlLAogIHNwbGl0UGFuZWxFbmRwb2ludFVybCwKfSBmcm9tICIuLi9zcmMvdmlld3MvcGFuZWwtc3luYy9wYW5lbC1zeW5jLW1vZGVsIjsKCmNvbnN0IGNvbm5lY3Rpb24gPSB7CiAgaWQ6ICJjb25uZWN0aW9uLTEiLAogIG5hbWU6ICJOQVMiLAogIHByb3ZpZGVyOiAib25lX25hdiIsCiAgYmFzZV91cmw6ICJodHRwczovL25hdi5leGFtcGxlLnRlc3QiLAogIGFwaV9wYXRoOiBwYW5lbEFwaVBhdGhzLm9uZV9uYXYsCiAgYWxsb3dfaW52YWxpZF90bHM6IGZhbHNlLAogIGdyb3VwaW5nOiB7CiAgICBtb2RlOiAibWlycm9yIiwKICAgIG5hbWVzcGFjZTogImZuLWtub2NrIiwKICAgIHNpbmdsZV9ncm91cF9uYW1lOiAiIiwKICB9LAogIGF1dG9fc3luYzogeyBlbmFibGVkOiBmYWxzZSwgaW50ZXJ2YWxfbWludXRlczogNjAgfSwKICBjcmVkZW50aWFsX2NvbmZpZ3VyZWQ6IHRydWUsCiAgdmVyaWZpZWRfYXQ6ICIyMDI2LTA4LTE5VDAwOjAwOjAwWiIsCiAgdmVyaWZpZWRfdmVyc2lvbjogbnVsbCwKICBjcmVhdGVkX2F0OiAiMjAyNi0wOC0xOVQwMDowMDowMFoiLAogIHVwZGF0ZWRfYXQ6ICIyMDI2LTA4LTE5VDAwOjAwOjAwWiIsCiAgbGFzdF9ydW46IG51bGwsCiAgbmV4dF9zeW5jX2F0OiBudWxsLAp9IHNhdGlzZmllcyBQYW5lbENvbm5lY3Rpb247CgpkZXNjcmliZSgicGFuZWwgc3luY2hyb25pemF0aW9uIGVkaXRvciBtb2RlbCIsICgpID0+IHsKICBpdCgidXNlcyBhbiBhdXRvbWF0aWMgdW5pcXVlIG5hbWUgYW5kIGVuYWJsZXMgYXV0b21hdGlvbiBieSBkZWZhdWx0IiwgKCkgPT4gewogICAgY29uc3QgZm9ybSA9IGNyZWF0ZVBhbmVsU3luY0Zvcm0oWyJTdW4tUGFuZWwtMSIsICJTdW4tUGFuZWwtMyJdKTsKICAgIGFzc2VydC5lcXVhbChmb3JtLm5hbWUsICJTdW4tUGFuZWwtMiIpOwogICAgYXNzZXJ0LmVxdWFsKGZvcm0uZW5kcG9pbnRfdXJsLCAiIik7CiAgICBhc3NlcnQuZXF1YWwoZm9ybS5hdXRvX3N5bmMuZW5hYmxlZCwgdHJ1ZSk7CiAgICBhc3NlcnQuZXF1YWwoZm9ybS5hdXRvX3N5bmMuaW50ZXJ2YWxfbWludXRlcywgNjApOwogICAgYXNzZXJ0LmVxdWFsKGZvcm0uZ3JvdXBpbmcubmFtZXNwYWNlLCAiZm4ta25vY2siKTsKICAgIGFzc2VydC5lcXVhbChuZXh0UGFuZWxDb25uZWN0aW9uTmFtZSgib25lX25hdiIsIFsiT25lTmF2LTEiXSksICJPbmVOYXYtMiIpOwogIH0pOwoKICBpdCgiY29tYmluZXMgYW5kIHNwbGl0cyB0aGUgY29tcGxldGUgQVBJIGVuZHBvaW50IFVSTCIsICgpID0+IHsKICAgIGNvbnN0IGVuZHBvaW50ID0gY29tcG9zZVBhbmVsRW5kcG9pbnRVcmwoCiAgICAgICJodHRwczovL25hdi5leGFtcGxlLnRlc3QiLAogICAgICAiL2luZGV4LnBocD9jPWFwaSIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKGVuZHBvaW50LCAiaHR0cHM6Ly9uYXYuZXhhbXBsZS50ZXN0L2luZGV4LnBocD9jPWFwaSIpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChzcGxpdFBhbmVsRW5kcG9pbnRVcmwoZW5kcG9pbnQpLCB7CiAgICAgIGJhc2VfdXJsOiAiaHR0cHM6Ly9uYXYuZXhhbXBsZS50ZXN0IiwKICAgICAgYXBpX3BhdGg6ICIvaW5kZXgucGhwP2M9YXBpIiwKICAgIH0pOwogIH0pOwoKICBpdCgibmV2ZXIgY29waWVzIGEgc3RvcmVkIGNyZWRlbnRpYWwgYmFjayBpbnRvIGFuIGVkaXQgZm9ybSIsICgpID0+IHsKICAgIGNvbnN0IGZvcm0gPSBwYW5lbENvbm5lY3Rpb25Ub0Zvcm0oY29ubmVjdGlvbik7CiAgICBhc3NlcnQuZXF1YWwoZm9ybS5jcmVkZW50aWFsLCAiIik7CiAgICBhc3NlcnQuZXF1YWwoZm9ybS5jbGVhcl9jcmVkZW50aWFsLCBmYWxzZSk7CiAgICBhc3NlcnQuZXF1YWwocGFuZWxGb3JtVG9VcGRhdGUoZm9ybSwgY29ubmVjdGlvbikuY3JlZGVudGlhbCwgdW5kZWZpbmVkKTsKICB9KTsKCiAgaXQoInJlcXVpcmVzIGV4cGxpY2l0IGNyZWRlbnRpYWwgY2xlYXJpbmcgYW5kIGJsb2NrcyBhdXRvbWF0aW9uIHdoaWxlIGNsZWFyaW5nIiwgKCkgPT4gewogICAgY29uc3QgZm9ybSA9IHBhbmVsQ29ubmVjdGlvblRvRm9ybShjb25uZWN0aW9uKTsKICAgIGFzc2VydC5lcXVhbChpc1BhbmVsQXV0b1N5bmNSZWFkeShjb25uZWN0aW9uLCBmb3JtKSwgdHJ1ZSk7CiAgICBmb3JtLmNsZWFyX2NyZWRlbnRpYWwgPSB0cnVlOwogICAgY29uc3QgdXBkYXRlID0gcGFuZWxGb3JtVG9VcGRhdGUoZm9ybSwgY29ubmVjdGlvbik7CiAgICBhc3NlcnQuZXF1YWwodXBkYXRlLmNsZWFyX2NyZWRlbnRpYWwsIHRydWUpOwogICAgYXNzZXJ0LmVxdWFsKGlzUGFuZWxBdXRvU3luY1JlYWR5KGNvbm5lY3Rpb24sIGZvcm0pLCBmYWxzZSk7CiAgfSk7CgogIGl0KCJrZWVwcyB0aGUgcHJvdmlkZXIgaW1tdXRhYmxlIGJ5IG9taXR0aW5nIGl0IGZyb20gdXBkYXRlIHBheWxvYWRzIiwgKCkgPT4gewogICAgY29uc3QgdXBkYXRlID0gcGFuZWxGb3JtVG9VcGRhdGUoCiAgICAgIHBhbmVsQ29ubmVjdGlvblRvRm9ybShjb25uZWN0aW9uKSwKICAgICAgY29ubmVjdGlvbiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoInByb3ZpZGVyIiBpbiB1cGRhdGUsIGZhbHNlKTsKICB9KTsKCiAgaXQoInByZXNlcnZlcyBzdG9yZWQgZW5kcG9pbnQgZmllbGRzIHdoZW4gdGhlIGVmZmVjdGl2ZSBVUkwgaXMgdW5jaGFuZ2VkIiwgKCkgPT4gewogICAgY29uc3QgcHJveGllZCA9IHsKICAgICAgLi4uY29ubmVjdGlvbiwKICAgICAgYmFzZV91cmw6ICJodHRwczovL25hdi5leGFtcGxlLnRlc3QvcmV2ZXJzZS1wcm94eSIsCiAgICAgIGFwaV9wYXRoOiAiL2luZGV4LnBocD9jPWFwaSIsCiAgICB9OwogICAgY29uc3QgdXBkYXRlID0gcGFuZWxGb3JtVG9VcGRhdGUocGFuZWxDb25uZWN0aW9uVG9Gb3JtKHByb3hpZWQpLCBwcm94aWVkKTsKICAgIGFzc2VydC5lcXVhbCh1cGRhdGUuYmFzZV91cmwsIHByb3hpZWQuYmFzZV91cmwpOwogICAgYXNzZXJ0LmVxdWFsKHVwZGF0ZS5hcGlfcGF0aCwgcHJveGllZC5hcGlfcGF0aCk7CiAgfSk7CgogIGl0KCJyZXF1aXJlcyBhbm90aGVyIHRlc3QgYWZ0ZXIgZW5kcG9pbnQgb3IgY3JlZGVudGlhbCBjaGFuZ2VzIiwgKCkgPT4gewogICAgY29uc3QgZm9ybSA9IHBhbmVsQ29ubmVjdGlvblRvRm9ybShjb25uZWN0aW9uKTsKICAgIGZvcm0uZW5kcG9pbnRfdXJsID0gImh0dHBzOi8vb3RoZXIuZXhhbXBsZS50ZXN0L2luZGV4LnBocD9jPWFwaSI7CiAgICBhc3NlcnQuZXF1YWwoaXNQYW5lbEF1dG9TeW5jUmVhZHkoY29ubmVjdGlvbiwgZm9ybSksIGZhbHNlKTsKCiAgICBmb3JtLmVuZHBvaW50X3VybCA9IGNvbXBvc2VQYW5lbEVuZHBvaW50VXJsKAogICAgICBjb25uZWN0aW9uLmJhc2VfdXJsLAogICAgICBjb25uZWN0aW9uLmFwaV9wYXRoLAogICAgKTsKICAgIGZvcm0uY3JlZGVudGlhbCA9ICJyZXBsYWNlbWVudC10b2tlbiI7CiAgICBhc3NlcnQuZXF1YWwoaXNQYW5lbEF1dG9TeW5jUmVhZHkoY29ubmVjdGlvbiwgZm9ybSksIGZhbHNlKTsKICB9KTsKfSk7Cg==
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import type { PanelConnection } from "../src/lib/api/panel-sync-api";
+import {
+  composePanelEndpointUrl,
+  createPanelSyncForm,
+  isPanelAutoSyncReady,
+  nextPanelConnectionName,
+  panelApiPaths,
+  panelConnectionToForm,
+  panelFormToUpdate,
+  splitPanelEndpointUrl,
+} from "../src/views/panel-sync/panel-sync-model";
+
+const connection = {
+  id: "connection-1",
+  name: "NAS",
+  provider: "one_nav",
+  base_url: "https://nav.example.test",
+  api_path: panelApiPaths.one_nav,
+  allow_invalid_tls: false,
+  grouping: {
+    mode: "mirror",
+    namespace: "fn-knock",
+    single_group_name: "",
+  },
+  auto_sync: { enabled: false, interval_minutes: 60 },
+  credential_configured: true,
+  verified_at: "2026-08-19T00:00:00Z",
+  verified_version: null,
+  created_at: "2026-08-19T00:00:00Z",
+  updated_at: "2026-08-19T00:00:00Z",
+  last_run: null,
+  next_sync_at: null,
+} satisfies PanelConnection;
+
+describe("panel synchronization editor model", () => {
+  it("uses an automatic unique name and enables automation by default", () => {
+    const form = createPanelSyncForm(["Sun-Panel-1", "Sun-Panel-3"]);
+    assert.equal(form.name, "Sun-Panel-2");
+    assert.equal(form.endpoint_url, "");
+    assert.equal(form.auto_sync.enabled, true);
+    assert.equal(form.auto_sync.interval_minutes, 60);
+    assert.equal(form.grouping.namespace, "fn-knock");
+    assert.equal(nextPanelConnectionName("one_nav", ["OneNav-1"]), "OneNav-2");
+  });
+
+  it("combines and splits the complete API endpoint URL", () => {
+    const endpoint = composePanelEndpointUrl(
+      "https://nav.example.test",
+      "/index.php?c=api",
+    );
+    assert.equal(endpoint, "https://nav.example.test/index.php?c=api");
+    assert.deepEqual(splitPanelEndpointUrl(endpoint), {
+      base_url: "https://nav.example.test",
+      api_path: "/index.php?c=api",
+    });
+  });
+
+  it("never copies a stored credential back into an edit form", () => {
+    const form = panelConnectionToForm(connection);
+    assert.equal(form.credential, "");
+    assert.equal(form.clear_credential, false);
+    assert.equal(panelFormToUpdate(form, connection).credential, undefined);
+  });
+
+  it("requires explicit credential clearing and blocks automation while clearing", () => {
+    const form = panelConnectionToForm(connection);
+    assert.equal(isPanelAutoSyncReady(connection, form), true);
+    form.clear_credential = true;
+    const update = panelFormToUpdate(form, connection);
+    assert.equal(update.clear_credential, true);
+    assert.equal(isPanelAutoSyncReady(connection, form), false);
+  });
+
+  it("keeps the provider immutable by omitting it from update payloads", () => {
+    const update = panelFormToUpdate(
+      panelConnectionToForm(connection),
+      connection,
+    );
+    assert.equal("provider" in update, false);
+  });
+
+  it("preserves stored endpoint fields when the effective URL is unchanged", () => {
+    const proxied = {
+      ...connection,
+      base_url: "https://nav.example.test/reverse-proxy",
+      api_path: "/index.php?c=api",
+    };
+    const update = panelFormToUpdate(panelConnectionToForm(proxied), proxied);
+    assert.equal(update.base_url, proxied.base_url);
+    assert.equal(update.api_path, proxied.api_path);
+  });
+
+  it("requires another test after endpoint or credential changes", () => {
+    const form = panelConnectionToForm(connection);
+    form.endpoint_url = "https://other.example.test/index.php?c=api";
+    assert.equal(isPanelAutoSyncReady(connection, form), false);
+
+    form.endpoint_url = composePanelEndpointUrl(
+      connection.base_url,
+      connection.api_path,
+    );
+    form.credential = "replacement-token";
+    assert.equal(isPanelAutoSyncReady(connection, form), false);
+  });
+});

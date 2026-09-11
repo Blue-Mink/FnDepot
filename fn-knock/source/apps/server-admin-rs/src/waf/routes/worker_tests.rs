@@ -1,1 +1,547 @@
-dXNlIHN1cGVyOjoqOwp1c2UgY3JhdGU6OmdycGNfcHJvdG86OnsKICAgIHNlbGYgYXMgcGIsCiAgICB3YWZfc2VydmljZV9zZXJ2ZXI6OntXYWZTZXJ2aWNlLCBXYWZTZXJ2aWNlU2VydmVyfSwKfTsKdXNlIHN0ZDo6c3luYzo6ewogICAgQXJjLCBNdXRleCwKICAgIGF0b21pYzo6e0F0b21pY1VzaXplLCBPcmRlcmluZzo6U2VxQ3N0fSwKfTsKdXNlIHN0ZDo6dGltZTo6RHVyYXRpb247CnVzZSB0b25pYzo6e1JlcXVlc3QsIFJlc3BvbnNlLCBTdGF0dXN9OwoKI1tkZXJpdmUoRGVmYXVsdCldCnN0cnVjdCBHYXRld2F5IHsKICAgIHBlbmRpbmc6IE11dGV4PFZlYzxwYjo6V2FmRXZlbnQ+PiwKICAgIGxlYXNlZDogTXV0ZXg8VmVjPHBiOjpXYWZFdmVudD4+LAogICAgY2hhbmdlZDogdG9raW86OnN5bmM6Ok5vdGlmeSwKICAgIHN0b3A6IHRva2lvX3V0aWw6OnN5bmM6OkNhbmNlbGxhdGlvblRva2VuLAogICAgd2FpdHM6IEF0b21pY1VzaXplLAogICAgYWN0aXZlOiBBdG9taWNVc2l6ZSwKICAgIGRyYWluczogQXRvbWljVXNpemUsCiAgICBhY2tzOiBBdG9taWNVc2l6ZSwKICAgIHJlbGVhc2VzOiBBdG9taWNVc2l6ZSwKICAgIHdhaXRfZXJyb3I6IEF0b21pY1VzaXplLAogICAgYWNrX2ZhaWx1cmVzOiBBdG9taWNVc2l6ZSwKICAgIGRyYWluX3RpbWVzOiBNdXRleDxWZWM8dG9raW86OnRpbWU6Okluc3RhbnQ+PiwKfQoKc3RydWN0IEFjdGl2ZTwnYT4oJidhIEF0b21pY1VzaXplKTsKaW1wbCBEcm9wIGZvciBBY3RpdmU8J18+IHsKICAgIGZuIGRyb3AoJm11dCBzZWxmKSB7CiAgICAgICAgc2VsZi4wLmZldGNoX3N1YigxLCBTZXFDc3QpOwogICAgfQp9CgppbXBsIEdhdGV3YXkgewogICAgZm4gYWRkKCZzZWxmLCBjb3VudDogdXNpemUpIHsKICAgICAgICBsZXQgbXV0IHBlbmRpbmcgPSBzZWxmLnBlbmRpbmcubG9jaygpLnVud3JhcCgpOwogICAgICAgIGZvciBfIGluIDAuLmNvdW50IHsKICAgICAgICAgICAgcGVuZGluZy5wdXNoKHBiOjpXYWZFdmVudCB7CiAgICAgICAgICAgICAgICB0cmFjZV9pZDogdXVpZDo6VXVpZDo6bmV3X3Y0KCkudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICB0aW1lOiBjcmF0ZTo6dGltZV91dGlsczo6bm93X2lzbygpLAogICAgICAgICAgICAgICAgYWN0aW9uOiAibG9nIi5pbnRvKCksCiAgICAgICAgICAgICAgICBydWxlX2lkczogdmVjIVs5NDExMDBdLAogICAgICAgICAgICAgICAgLi5EZWZhdWx0OjpkZWZhdWx0KCkKICAgICAgICAgICAgfSk7CiAgICAgICAgfQogICAgICAgIHNlbGYuY2hhbmdlZC5ub3RpZnlfb25lKCk7CiAgICB9Cn0KCiNbdG9uaWM6OmFzeW5jX3RyYWl0XQppbXBsIFdhZlNlcnZpY2UgZm9yIEFyYzxHYXRld2F5PiB7CiAgICBhc3luYyBmbiBnZXRfd2FmX3N0YXR1cygmc2VsZiwgXzogUmVxdWVzdDwoKT4pIC0+IFJlc3VsdDxSZXNwb25zZTxwYjo6V2FmU3RhdHVzPiwgU3RhdHVzPiB7CiAgICAgICAgT2soUmVzcG9uc2U6Om5ldyhEZWZhdWx0OjpkZWZhdWx0KCkpKQogICAgfQogICAgYXN5bmMgZm4gc2V0X3dhZl9jb25maWcoCiAgICAgICAgJnNlbGYsCiAgICAgICAgXzogUmVxdWVzdDxwYjo6V2FmQ29uZmlnPiwKICAgICkgLT4gUmVzdWx0PFJlc3BvbnNlPHBiOjpXYWZTdGF0dXM+LCBTdGF0dXM+IHsKICAgICAgICBPayhSZXNwb25zZTo6bmV3KERlZmF1bHQ6OmRlZmF1bHQoKSkpCiAgICB9CiAgICBhc3luYyBmbiB2YWxpZGF0ZV93YWZfYnVuZGxlKAogICAgICAgICZzZWxmLAogICAgICAgIF86IFJlcXVlc3Q8cGI6OldhZkJ1bmRsZVJlcXVlc3Q+LAogICAgKSAtPiBSZXN1bHQ8UmVzcG9uc2U8cGI6OldhZlZhbGlkYXRpb25SZXN1bHQ+LCBTdGF0dXM+IHsKICAgICAgICBPayhSZXNwb25zZTo6bmV3KERlZmF1bHQ6OmRlZmF1bHQoKSkpCiAgICB9CiAgICBhc3luYyBmbiByZWxvYWRfd2FmX2J1bmRsZSgKICAgICAgICAmc2VsZiwKICAgICAgICBfOiBSZXF1ZXN0PHBiOjpXYWZCdW5kbGVSZXF1ZXN0PiwKICAgICkgLT4gUmVzdWx0PFJlc3BvbnNlPHBiOjpXYWZTdGF0dXM+LCBTdGF0dXM+IHsKICAgICAgICBPayhSZXNwb25zZTo6bmV3KERlZmF1bHQ6OmRlZmF1bHQoKSkpCiAgICB9CiAgICBhc3luYyBmbiB3YWl0X3dhZl9ldmVudHMoCiAgICAgICAgJnNlbGYsCiAgICAgICAgcmVxOiBSZXF1ZXN0PHBiOjpXYWZXYWl0UmVxdWVzdD4sCiAgICApIC0+IFJlc3VsdDxSZXNwb25zZTxwYjo6V2FmV2FpdFJlc3VsdD4sIFN0YXR1cz4gewogICAgICAgIGFzc2VydF9lcSEocmVxLm1ldGFkYXRhKCkuZ2V0KCJncnBjLXRpbWVvdXQiKS51bndyYXAoKSwgIjY1MDAwMDAwdSIpOwogICAgICAgIGFzc2VydF9lcSEocmVxLmdldF9yZWYoKS50aW1lb3V0X21zLCA2MF8wMDApOwogICAgICAgIHNlbGYud2FpdHMuZmV0Y2hfYWRkKDEsIFNlcUNzdCk7CiAgICAgICAgc2VsZi5hY3RpdmUuZmV0Y2hfYWRkKDEsIFNlcUNzdCk7CiAgICAgICAgbGV0IF9hY3RpdmUgPSBBY3RpdmUoJnNlbGYuYWN0aXZlKTsKICAgICAgICBtYXRjaCBzZWxmLndhaXRfZXJyb3IubG9hZChTZXFDc3QpIHsKICAgICAgICAgICAgMTIgPT4gcmV0dXJuIEVycihTdGF0dXM6OnVuaW1wbGVtZW50ZWQoIm9sZCBnYXRld2F5IikpLAogICAgICAgICAgICAxNCA9PiByZXR1cm4gRXJyKFN0YXR1czo6dW5hdmFpbGFibGUoInJlc3RhcnRpbmciKSksCiAgICAgICAgICAgIF8gPT4ge30KICAgICAgICB9CiAgICAgICAgbGV0IHRpbWVvdXQgPSB0b2tpbzo6dGltZTo6c2xlZXAoRHVyYXRpb246OmZyb21fc2Vjcyg2MCkpOwogICAgICAgIHRva2lvOjpwaW4hKHRpbWVvdXQpOwogICAgICAgIGxvb3AgewogICAgICAgICAgICBsZXQgbm90aWZpZWQgPSBzZWxmLmNoYW5nZWQubm90aWZpZWQoKTsKICAgICAgICAgICAgaWYgIXNlbGYucGVuZGluZy5sb2NrKCkudW53cmFwKCkuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gT2soUmVzcG9uc2U6Om5ldyhwYjo6V2FmV2FpdFJlc3VsdCB7IGF2YWlsYWJsZTogdHJ1ZSB9KSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgdG9raW86OnNlbGVjdCEgewogICAgICAgICAgICAgICAgXyA9IHNlbGYuc3RvcC5jYW5jZWxsZWQoKSA9PiByZXR1cm4gRXJyKFN0YXR1czo6dW5hdmFpbGFibGUoImdhdGV3YXkgc2h1dGRvd24iKSksCiAgICAgICAgICAgICAgICBfID0gJm11dCB0aW1lb3V0ID0+IHJldHVybiBPayhSZXNwb25zZTo6bmV3KHBiOjpXYWZXYWl0UmVzdWx0IHsgYXZhaWxhYmxlOiBmYWxzZSB9KSksCiAgICAgICAgICAgICAgICBfID0gbm90aWZpZWQgPT4ge30sCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICBhc3luYyBmbiBkcmFpbl93YWZfZXZlbnRzKAogICAgICAgICZzZWxmLAogICAgICAgIHJlcTogUmVxdWVzdDxwYjo6V2FmRHJhaW5SZXF1ZXN0PiwKICAgICkgLT4gUmVzdWx0PFJlc3BvbnNlPHBiOjpXYWZEcmFpblJlc3VsdD4sIFN0YXR1cz4gewogICAgICAgIGxldCBtdXQgcGVuZGluZyA9IHNlbGYucGVuZGluZy5sb2NrKCkudW53cmFwKCk7CiAgICAgICAgbGV0IG11dCBsZWFzZWQgPSBzZWxmLmxlYXNlZC5sb2NrKCkudW53cmFwKCk7CiAgICAgICAgbGV0IG11dCByZXN1bHQgPSBwYjo6V2FmRHJhaW5SZXN1bHQ6OmRlZmF1bHQoKTsKICAgICAgICBtYXRjaCBwYjo6V2FmRHJhaW5PcGVyYXRpb246OnRyeV9mcm9tKHJlcS5nZXRfcmVmKCkub3BlcmF0aW9uKS51bndyYXAoKSB7CiAgICAgICAgICAgIHBiOjpXYWZEcmFpbk9wZXJhdGlvbjo6TGVhc2UgPT4gewogICAgICAgICAgICAgICAgc2VsZi5kcmFpbnMuZmV0Y2hfYWRkKDEsIFNlcUNzdCk7CiAgICAgICAgICAgICAgICBzZWxmLmRyYWluX3RpbWVzCiAgICAgICAgICAgICAgICAgICAgLmxvY2soKQogICAgICAgICAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAgICAgICAgIC5wdXNoKHRva2lvOjp0aW1lOjpJbnN0YW50Ojpub3coKSk7CiAgICAgICAgICAgICAgICBsZXQgY291bnQgPSBwZW5kaW5nLmxlbigpLm1pbihyZXEuZ2V0X3JlZigpLmxpbWl0IGFzIHVzaXplKTsKICAgICAgICAgICAgICAgICpsZWFzZWQgPSBwZW5kaW5nLmRyYWluKC4uY291bnQpLmNvbGxlY3QoKTsKICAgICAgICAgICAgICAgIHJlc3VsdC5ldmVudHMgPSBsZWFzZWQuY2xvbmUoKTsKICAgICAgICAgICAgICAgIHJlc3VsdC5kcmFpbmVkID0gY291bnQgYXMgaTMyOwogICAgICAgICAgICAgICAgaWYgY291bnQgPiAwIHsKICAgICAgICAgICAgICAgICAgICByZXN1bHQubGVhc2VfaWQgPSAibGVhc2UiLmludG8oKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIC8vIERlbGliZXJhdGVseSBzdGFsZSBwcmUtQUNLIHZhbHVlOiB3b3JrZXIgbXVzdCB1c2UgQUNLIHJlbWFpbmluZy4KICAgICAgICAgICAgICAgIHJlc3VsdC5yZW1haW5pbmcgPSAwOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHBiOjpXYWZEcmFpbk9wZXJhdGlvbjo6QWNrbm93bGVkZ2UgPT4gewogICAgICAgICAgICAgICAgc2VsZi5hY2tzLmZldGNoX2FkZCgxLCBTZXFDc3QpOwogICAgICAgICAgICAgICAgaWYgc2VsZgogICAgICAgICAgICAgICAgICAgIC5hY2tfZmFpbHVyZXMKICAgICAgICAgICAgICAgICAgICAuZmV0Y2hfdXBkYXRlKFNlcUNzdCwgU2VxQ3N0LCB8bnwgbi5jaGVja2VkX3N1YigxKSkKICAgICAgICAgICAgICAgICAgICAuaXNfb2soKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIHBlbmRpbmcuZXh0ZW5kKGxlYXNlZC5kcmFpbiguLikpOwogICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoU3RhdHVzOjp1bmF2YWlsYWJsZSgiQUNLIGxvc3Q7IGxlYXNlIGV4cGlyZWQiKSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZXN1bHQuYWNrbm93bGVkZ2VkID0gbGVhc2VkLmxlbigpIGFzIGkzMjsKICAgICAgICAgICAgICAgIGxlYXNlZC5jbGVhcigpOwogICAgICAgICAgICAgICAgcmVzdWx0LnJlbWFpbmluZyA9IHBlbmRpbmcubGVuKCkgYXMgaTMyOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHBiOjpXYWZEcmFpbk9wZXJhdGlvbjo6UmVsZWFzZSA9PiB7CiAgICAgICAgICAgICAgICBzZWxmLnJlbGVhc2VzLmZldGNoX2FkZCgxLCBTZXFDc3QpOwogICAgICAgICAgICAgICAgcGVuZGluZy5leHRlbmQobGVhc2VkLmRyYWluKC4uKSk7CiAgICAgICAgICAgICAgICByZXN1bHQucmVtYWluaW5nID0gcGVuZGluZy5sZW4oKSBhcyBpMzI7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgXyA9PiB1bnJlYWNoYWJsZSEoKSwKICAgICAgICB9CiAgICAgICAgT2soUmVzcG9uc2U6Om5ldyhyZXN1bHQpKQogICAgfQp9CgpmbiBzZXJ2ZShsaXN0ZW5lcjogdG9raW86Om5ldDo6VGNwTGlzdGVuZXIsIHNlcnZpY2U6IEFyYzxHYXRld2F5PikgLT4gdG9raW86OnRhc2s6OkpvaW5IYW5kbGU8KCk+IHsKICAgIGxldCBzdG9wID0gc2VydmljZS5zdG9wLmNsb25lKCk7CiAgICB0b2tpbzo6c3Bhd24oYXN5bmMgbW92ZSB7CiAgICAgICAgdG9uaWM6OnRyYW5zcG9ydDo6U2VydmVyOjpidWlsZGVyKCkKICAgICAgICAgICAgLmFkZF9zZXJ2aWNlKFdhZlNlcnZpY2VTZXJ2ZXI6Om5ldyhzZXJ2aWNlKSkKICAgICAgICAgICAgLnNlcnZlX3dpdGhfaW5jb21pbmdfc2h1dGRvd24oCiAgICAgICAgICAgICAgICB0b2tpb19zdHJlYW06OndyYXBwZXJzOjpUY3BMaXN0ZW5lclN0cmVhbTo6bmV3KGxpc3RlbmVyKSwKICAgICAgICAgICAgICAgIHN0b3AuY2FuY2VsbGVkX293bmVkKCksCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKTsKICAgIH0pCn0KCmFzeW5jIGZuIGZpeHR1cmUoKSAtPiAoCiAgICB0ZW1wZmlsZTo6VGVtcERpciwKICAgIEFwcFN0YXRlLAogICAgQXJjPEdhdGV3YXk+LAogICAgdG9raW86OnRhc2s6OkpvaW5IYW5kbGU8KCk+LAopIHsKICAgIGxldCBnYXRld2F5ID0gQXJjOjpuZXcoR2F0ZXdheTo6ZGVmYXVsdCgpKTsKICAgIGxldCBsaXN0ZW5lciA9IHRva2lvOjpuZXQ6OlRjcExpc3RlbmVyOjpiaW5kKCIxMjcuMC4wLjE6MCIpLmF3YWl0LnVud3JhcCgpOwogICAgbGV0IGFkZHJlc3MgPSBsaXN0ZW5lci5sb2NhbF9hZGRyKCkudW53cmFwKCk7CiAgICBsZXQgc2VydmVyID0gc2VydmUobGlzdGVuZXIsIGdhdGV3YXkuY2xvbmUoKSk7CiAgICBsZXQgKGRpcmVjdG9yeSwgc3RhdGUpID0gd2FmX3Rlc3Rfc3RhdGUoJmFkZHJlc3MudG9fc3RyaW5nKCkpLmF3YWl0OwogICAgc2V0X3NldHRpbmdzKCZzdGF0ZSwgdHJ1ZSwgMikuYXdhaXQ7CiAgICAoZGlyZWN0b3J5LCBzdGF0ZSwgZ2F0ZXdheSwgc2VydmVyKQp9Cgphc3luYyBmbiBzZXRfc2V0dGluZ3Moc3RhdGU6ICZBcHBTdGF0ZSwgZW5hYmxlZDogYm9vbCwgaW50ZXJ2YWw6IHU2NCkgewogICAgc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5zZXRfY29uZmlnX3RvcF9sZXZlbF92YWx1ZSgKICAgICAgICAgICAgIndhZiIsCiAgICAgICAgICAgIGpzb24hKHsiZW5hYmxlZCI6IGVuYWJsZWQsICJkcmFpbl9pbnRlcnZhbF9zZWNvbmRzIjogaW50ZXJ2YWx9KSwKICAgICAgICApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwp9Cgphc3luYyBmbiB1bnRpbChtdXQgY29uZGl0aW9uOiBpbXBsIEZuTXV0KCkgLT4gYm9vbCkgewogICAgdG9raW86OnRpbWU6OnRpbWVvdXQoRHVyYXRpb246OmZyb21fc2VjcygxMCksIGFzeW5jIHsKICAgICAgICB3aGlsZSAhY29uZGl0aW9uKCkgewogICAgICAgICAgICB0b2tpbzo6dGltZTo6c2xlZXAoRHVyYXRpb246OmZyb21fbWlsbGlzKDUpKS5hd2FpdDsKICAgICAgICB9CiAgICB9KQogICAgLmF3YWl0CiAgICAudW53cmFwKCk7Cn0KCmZuIHdvcmtlcihzdGF0ZTogJkFwcFN0YXRlKSAtPiB0b2tpbzo6dGFzazo6Sm9pbkhhbmRsZTwoKT4gewogICAgbGV0IHN0YXRlID0gc3RhdGUuY2xvbmUoKTsKICAgIHRva2lvOjpzcGF3bihhc3luYyBtb3ZlIHsgc3VwZXI6OnN1cGVyOjpkcmFpbl93b3JrZXI6OnJ1bigmc3RhdGUpLmF3YWl0IH0pCn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIGxvbmdfd2FpdF9kb2VzX25vdF9ibG9ja19tYW51YWxfZHJhaW5fYW5kX2NhbmNlbHNfb25fZGlzYWJsZSgpIHsKICAgIGxldCAoX2Rpciwgc3RhdGUsIGdhdGV3YXksIHNlcnZlcikgPSBmaXh0dXJlKCkuYXdhaXQ7CiAgICBsZXQgdGFzayA9IHdvcmtlcigmc3RhdGUpOwogICAgdW50aWwofHwgZ2F0ZXdheS5hY3RpdmUubG9hZChTZXFDc3QpID09IDEpLmF3YWl0OwogICAgdG9raW86OnRpbWU6OnNsZWVwKER1cmF0aW9uOjpmcm9tX21pbGxpcygxNTApKS5hd2FpdDsgLy8gZXhjZWVkcyBvcmRpbmFyeSAxMDBtcyBSUEMgZGVhZGxpbmUKICAgIGFzc2VydF9lcSEoZ2F0ZXdheS53YWl0cy5sb2FkKFNlcUNzdCksIDEpOwogICAgdG9raW86OnRpbWU6OnRpbWVvdXQoRHVyYXRpb246OmZyb21fbWlsbGlzKDMwMCksIGRyYWluX3dhZl9ldmVudHNfbm93KCZzdGF0ZSkpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpCiAgICAgICAgLnVud3JhcCgpOwogICAgc2V0X3NldHRpbmdzKCZzdGF0ZSwgZmFsc2UsIDIpLmF3YWl0OwogICAgdW50aWwofHwgZ2F0ZXdheS5hY3RpdmUubG9hZChTZXFDc3QpID09IDApLmF3YWl0OwogICAgbGV0IHdhaXRzID0gZ2F0ZXdheS53YWl0cy5sb2FkKFNlcUNzdCk7CiAgICB0b2tpbzo6dGltZTo6c2xlZXAoRHVyYXRpb246OmZyb21fbWlsbGlzKDEwMCkpLmF3YWl0OwogICAgYXNzZXJ0X2VxIShnYXRld2F5LndhaXRzLmxvYWQoU2VxQ3N0KSwgd2FpdHMpOwogICAgc2V0X3NldHRpbmdzKCZzdGF0ZSwgdHJ1ZSwgMikuYXdhaXQ7CiAgICB1bnRpbCh8fCBnYXRld2F5LmFjdGl2ZS5sb2FkKFNlcUNzdCkgPT0gMSkuYXdhaXQ7CiAgICBzdGF0ZS5zaHV0ZG93bi5jYW5jZWwoKTsKICAgIHRva2lvOjp0aW1lOjp0aW1lb3V0KER1cmF0aW9uOjpmcm9tX21pbGxpcygzMDApLCB0YXNrKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKQogICAgICAgIC51bndyYXAoKTsKICAgIHVudGlsKHx8IGdhdGV3YXkuYWN0aXZlLmxvYWQoU2VxQ3N0KSA9PSAwKS5hd2FpdDsKICAgIHNlcnZlci5hYm9ydCgpOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBiYXRjaGVzX2NvYWxlc2NlX3dpdGhvdXRfY29uZmlnX3N0YXJ2YXRpb25fYW5kX2NsZWFyX2JhY2tsb2dfaW1tZWRpYXRlbHkoKSB7CiAgICBsZXQgKF9kaXIsIHN0YXRlLCBnYXRld2F5LCBzZXJ2ZXIpID0gZml4dHVyZSgpLmF3YWl0OwogICAgbGV0IHRhc2sgPSB3b3JrZXIoJnN0YXRlKTsKICAgIHVudGlsKHx8IGdhdGV3YXkuYWN0aXZlLmxvYWQoU2VxQ3N0KSA9PSAxKS5hd2FpdDsKICAgIGxldCBzdGFydGVkID0gdG9raW86OnRpbWU6Okluc3RhbnQ6Om5vdygpOwogICAgZ2F0ZXdheS5hZGQoMTAwMCk7CiAgICBmb3IgaSBpbiAwLi44IHsKICAgICAgICB0b2tpbzo6dGltZTo6c2xlZXAoRHVyYXRpb246OmZyb21fbWlsbGlzKDIwMCkpLmF3YWl0OwogICAgICAgIHN0YXRlCiAgICAgICAgICAgIC5zdG9yYWdlCiAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAuc2V0X2NvbmZpZ190b3BfbGV2ZWxfdmFsdWUoInVucmVsYXRlZF90ZXN0IiwganNvbiEoaSkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCk7CiAgICB9CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGdhdGV3YXkuZHJhaW5zLmxvYWQoU2VxQ3N0KSwKICAgICAgICAxLAogICAgICAgICJtdXN0IGFnZ3JlZ2F0ZSBiZWZvcmUgZmlyc3QgYmF0Y2giCiAgICApOwogICAgdW50aWwofHwgZ2F0ZXdheS5hY2tzLmxvYWQoU2VxQ3N0KSA9PSAyKS5hd2FpdDsKICAgIGxldCB0aW1lcyA9IGdhdGV3YXkuZHJhaW5fdGltZXMubG9jaygpLnVud3JhcCgpLmNsb25lKCk7CiAgICBhc3NlcnRfZXEhKHRpbWVzLmxlbigpLCAzKTsKICAgIGFzc2VydCEodGltZXNbMV0uZHVyYXRpb25fc2luY2Uoc3RhcnRlZCkgPj0gRHVyYXRpb246OmZyb21fbWlsbGlzKDE5MDApKTsKICAgIGFzc2VydCEodGltZXNbMV0uZHVyYXRpb25fc2luY2Uoc3RhcnRlZCkgPCBEdXJhdGlvbjo6ZnJvbV9taWxsaXMoMjgwMCkpOwogICAgYXNzZXJ0ISgKICAgICAgICB0aW1lc1syXS5kdXJhdGlvbl9zaW5jZSh0aW1lc1sxXSkgPCBEdXJhdGlvbjo6ZnJvbV9zZWNzKDEpLAogICAgICAgICJiYWNrbG9nIHdhaXRlZCBhbiBleHRyYSBiYXRjaCBpbnRlcnZhbCIKICAgICk7CiAgICBhc3NlcnQhKGdhdGV3YXkucGVuZGluZy5sb2NrKCkudW53cmFwKCkuaXNfZW1wdHkoKSk7CiAgICBzdGF0ZS5zaHV0ZG93bi5jYW5jZWwoKTsKICAgIHRhc2suYXdhaXQudW53cmFwKCk7CiAgICBzZXJ2ZXIuYWJvcnQoKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gbG9zdF9hY2tfcmV0cmllc19pZGVtcG90ZW50X3BlcnNpc3RlbmNlKCkgewogICAgbGV0IChfZGlyLCBzdGF0ZSwgZ2F0ZXdheSwgc2VydmVyKSA9IGZpeHR1cmUoKS5hd2FpdDsKICAgIGdhdGV3YXkuYWRkKDEpOwogICAgbGV0IGlkID0gZ2F0ZXdheS5wZW5kaW5nLmxvY2soKS51bndyYXAoKVswXS50cmFjZV9pZC5jbG9uZSgpOwogICAgZ2F0ZXdheS5hY2tfZmFpbHVyZXMuc3RvcmUoMSwgU2VxQ3N0KTsKICAgIGxldCB0YXNrID0gd29ya2VyKCZzdGF0ZSk7CiAgICB1bnRpbCh8fCBnYXRld2F5LmFja3MubG9hZChTZXFDc3QpID09IDIpLmF3YWl0OwogICAgYXNzZXJ0ISgKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLmdldF93YWZfbG9nX2V2ZW50KCZpZCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfc29tZSgpCiAgICApOwogICAgYXNzZXJ0X2VxIShnYXRld2F5LmRyYWlucy5sb2FkKFNlcUNzdCksIDIpOwogICAgbGV0IGRiID0KICAgICAgICB0b2tpb19ydXNxbGl0ZTo6cnVzcWxpdGU6OkNvbm5lY3Rpb246Om9wZW4oX2Rpci5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpKS51bndyYXAoKTsKICAgIGxldCBzdG9yZWQ6IGk2NCA9IGRiCiAgICAgICAgLnF1ZXJ5X3JvdygKICAgICAgICAgICAgIlNFTEVDVCBDT1VOVCgqKSBGUk9NIGt2X2tleXMgV0hFUkUga2V5IExJS0UgJ2ZuX2tub2NrOndhZjpsb2c6JSciLAogICAgICAgICAgICBbXSwKICAgICAgICAgICAgfHJvd3wgcm93LmdldCgwKSwKICAgICAgICApCiAgICAgICAgLnVud3JhcCgpOwogICAgYXNzZXJ0X2VxIShzdG9yZWQsIDEsICJyZWRlbGl2ZXJ5IGR1cGxpY2F0ZWQgdGhlIGR1cmFibGUgZXZlbnQiKTsKICAgIHN0YXRlLnNodXRkb3duLmNhbmNlbCgpOwogICAgdGFzay5hd2FpdC51bndyYXAoKTsKICAgIHNlcnZlci5hYm9ydCgpOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBwZXJzaXN0ZW5jZV9mYWlsdXJlX3JlbGVhc2VzX2xlYXNlX2FuZF9yZXRyaWVzX2FmdGVyX3JlY292ZXJ5KCkgewogICAgbGV0IChkaXIsIHN0YXRlLCBnYXRld2F5LCBzZXJ2ZXIpID0gZml4dHVyZSgpLmF3YWl0OwogICAgbGV0IGRiID0KICAgICAgICB0b2tpb19ydXNxbGl0ZTo6cnVzcWxpdGU6OkNvbm5lY3Rpb246Om9wZW4oZGlyLnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIikpLnVud3JhcCgpOwogICAgZGIuZXhlY3V0ZV9iYXRjaCgiQ1JFQVRFIFRSSUdHRVIgcmVqZWN0X3dhZiBCRUZPUkUgSU5TRVJUIE9OIGt2X2tleXMgV0hFTiBORVcua2V5IExJS0UgJ2ZuX2tub2NrOndhZjpsb2c6JScgQkVHSU4gU0VMRUNUIFJBSVNFKEZBSUwsICdpbmplY3RlZCBkaXNrIHdyaXRlIGZhaWx1cmUnKTsgRU5EOyIpLnVud3JhcCgpOwogICAgZ2F0ZXdheS5hZGQoMSk7CiAgICBsZXQgaWQgPSBnYXRld2F5LnBlbmRpbmcubG9jaygpLnVud3JhcCgpWzBdLnRyYWNlX2lkLmNsb25lKCk7CiAgICBsZXQgdGFzayA9IHdvcmtlcigmc3RhdGUpOwogICAgdW50aWwofHwgZ2F0ZXdheS5yZWxlYXNlcy5sb2FkKFNlcUNzdCkgPT0gMSkuYXdhaXQ7CiAgICBhc3NlcnRfZXEhKGdhdGV3YXkuYWNrcy5sb2FkKFNlcUNzdCksIDApOwogICAgYXNzZXJ0ISgKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLmdldF93YWZfbG9nX2V2ZW50KCZpZCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfbm9uZSgpCiAgICApOwogICAgZGIuZXhlY3V0ZV9iYXRjaCgiRFJPUCBUUklHR0VSIHJlamVjdF93YWY7IikudW53cmFwKCk7CiAgICB1bnRpbCh8fCBnYXRld2F5LmFja3MubG9hZChTZXFDc3QpID09IDEpLmF3YWl0OwogICAgYXNzZXJ0ISgKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgLmdldF93YWZfbG9nX2V2ZW50KCZpZCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuaXNfc29tZSgpCiAgICApOwogICAgc3RhdGUuc2h1dGRvd24uY2FuY2VsKCk7CiAgICB0YXNrLmF3YWl0LnVud3JhcCgpOwogICAgc2VydmVyLmFib3J0KCk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHNlcnZpY2VfZXJyb3JzX2JhY2tfb2ZmX2FuZF9kaXNhYmxlX2ludGVycnVwdHNfYmFja29mZigpIHsKICAgIGxldCAoX2Rpciwgc3RhdGUsIGdhdGV3YXksIHNlcnZlcikgPSBmaXh0dXJlKCkuYXdhaXQ7CiAgICBnYXRld2F5LndhaXRfZXJyb3Iuc3RvcmUoMTQsIFNlcUNzdCk7CiAgICBsZXQgdGFzayA9IHdvcmtlcigmc3RhdGUpOwogICAgdW50aWwofHwgZ2F0ZXdheS53YWl0cy5sb2FkKFNlcUNzdCkgPT0gMikuYXdhaXQ7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIGdhdGV3YXkuZHJhaW5zLmxvYWQoU2VxQ3N0KSwKICAgICAgICAxLAogICAgICAgICJzZXJ2aWNlIGVycm9yIG11c3Qgbm90IGVuYWJsZSBsZWdhY3kgcG9sbGluZyIKICAgICk7CiAgICBzZXRfc2V0dGluZ3MoJnN0YXRlLCBmYWxzZSwgMikuYXdhaXQ7CiAgICBsZXQgY2FsbHMgPSBnYXRld2F5LndhaXRzLmxvYWQoU2VxQ3N0KTsKICAgIHRva2lvOjp0aW1lOjpzbGVlcChEdXJhdGlvbjo6ZnJvbV9taWxsaXMoMTAwKSkuYXdhaXQ7CiAgICBhc3NlcnRfZXEhKGdhdGV3YXkud2FpdHMubG9hZChTZXFDc3QpLCBjYWxscyk7CiAgICBnYXRld2F5LndhaXRfZXJyb3Iuc3RvcmUoMCwgU2VxQ3N0KTsKICAgIHNldF9zZXR0aW5ncygmc3RhdGUsIHRydWUsIDIpLmF3YWl0OwogICAgdW50aWwofHwgZ2F0ZXdheS5hY3RpdmUubG9hZChTZXFDc3QpID09IDEpLmF3YWl0OwogICAgc3RhdGUuc2h1dGRvd24uY2FuY2VsKCk7CiAgICB0YXNrLmF3YWl0LnVud3JhcCgpOwogICAgc2VydmVyLmFib3J0KCk7Cn0KCiNbdG9raW86OnRlc3RdCmFzeW5jIGZuIHJlbGV2YW50X2NvbmZpZ19yZWNvbXB1dGVzX2JhdGNoX2RlYWRsaW5lKCkgewogICAgbGV0IChfZGlyLCBzdGF0ZSwgZ2F0ZXdheSwgc2VydmVyKSA9IGZpeHR1cmUoKS5hd2FpdDsKICAgIHNldF9zZXR0aW5ncygmc3RhdGUsIHRydWUsIDYwKS5hd2FpdDsKICAgIGxldCB0YXNrID0gd29ya2VyKCZzdGF0ZSk7CiAgICB1bnRpbCh8fCBnYXRld2F5LmFjdGl2ZS5sb2FkKFNlcUNzdCkgPT0gMSkuYXdhaXQ7CiAgICBnYXRld2F5LmFkZCgxKTsKICAgIHRva2lvOjp0aW1lOjpzbGVlcChEdXJhdGlvbjo6ZnJvbV9taWxsaXMoMzAwKSkuYXdhaXQ7CiAgICBzZXRfc2V0dGluZ3MoJnN0YXRlLCB0cnVlLCAxKS5hd2FpdDsKICAgIHVudGlsKHx8IGdhdGV3YXkuYWNrcy5sb2FkKFNlcUNzdCkgPT0gMSkuYXdhaXQ7CiAgICBzdGF0ZS5zaHV0ZG93bi5jYW5jZWwoKTsKICAgIHRhc2suYXdhaXQudW53cmFwKCk7CiAgICBzZXJ2ZXIuYWJvcnQoKTsKfQoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4gZ2F0ZXdheV9yZXN0YXJ0X3JlY29ubmVjdHNfYW5kX2NvbGxlY3RzX25ld19ldmVudHMoKSB7CiAgICBsZXQgKF9kaXIsIHN0YXRlLCBnYXRld2F5LCBzZXJ2ZXIpID0gZml4dHVyZSgpLmF3YWl0OwogICAgbGV0IHRhc2sgPSB3b3JrZXIoJnN0YXRlKTsKICAgIHVudGlsKHx8IGdhdGV3YXkuYWN0aXZlLmxvYWQoU2VxQ3N0KSA9PSAxKS5hd2FpdDsKICAgIGdhdGV3YXkuc3RvcC5jYW5jZWwoKTsKICAgIHRva2lvOjp0aW1lOjp0aW1lb3V0KER1cmF0aW9uOjpmcm9tX3NlY3MoMSksIHNlcnZlcikKICAgICAgICAuYXdhaXQKICAgICAgICAudW53cmFwKCkKICAgICAgICAudW53cmFwKCk7CiAgICB1bnRpbCh8fCBnYXRld2F5LmFjdGl2ZS5sb2FkKFNlcUNzdCkgPT0gMCkuYXdhaXQ7CiAgICBsZXQgcmVwbGFjZW1lbnQgPSBBcmM6Om5ldyhHYXRld2F5OjpkZWZhdWx0KCkpOwogICAgbGV0IGxpc3RlbmVyID0gdG9raW86Om5ldDo6VGNwTGlzdGVuZXI6OmJpbmQoJnN0YXRlLnNldHRpbmdzLmdvX2JhY2tlbmRfZ3JwY19hZGRyKQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgIGxldCBzZXJ2ZXIgPSBzZXJ2ZShsaXN0ZW5lciwgcmVwbGFjZW1lbnQuY2xvbmUoKSk7CiAgICByZXBsYWNlbWVudC5hZGQoMSk7CiAgICB1bnRpbCh8fCByZXBsYWNlbWVudC5hY2tzLmxvYWQoU2VxQ3N0KSA9PSAxKS5hd2FpdDsKICAgIHN0YXRlLnNodXRkb3duLmNhbmNlbCgpOwogICAgdGFzay5hd2FpdC51bndyYXAoKTsKICAgIHNlcnZlci5hYm9ydCgpOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBsZWdhY3lfZ2F0ZXdheV9pc19yZXByb2JlZF9hbmRfcmVjb3ZlcnNfbG9uZ19wb2xsaW5nKCkgewogICAgbGV0IChfZGlyLCBzdGF0ZSwgZ2F0ZXdheSwgc2VydmVyKSA9IGZpeHR1cmUoKS5hd2FpdDsKICAgIGdhdGV3YXkud2FpdF9lcnJvci5zdG9yZSgxMiwgU2VxQ3N0KTsKICAgIGxldCB0YXNrID0gd29ya2VyKCZzdGF0ZSk7CiAgICB1bnRpbCh8fCBnYXRld2F5LndhaXRzLmxvYWQoU2VxQ3N0KSA9PSAxKS5hd2FpdDsKICAgIHVudGlsKHx8IGdhdGV3YXkuZHJhaW5zLmxvYWQoU2VxQ3N0KSA+PSAyKS5hd2FpdDsKICAgIGdhdGV3YXkud2FpdF9lcnJvci5zdG9yZSgwLCBTZXFDc3QpOwogICAgLy8gUmVhbCB0cmFuc3BvcnQgdGVzdDogbGVnYWN5IHBvbGxpbmcgY29udGludWVzIHVudGlsIHRoZSA2MHMgcHJvYmUuCiAgICB0b2tpbzo6dGltZTo6dGltZW91dChEdXJhdGlvbjo6ZnJvbV9zZWNzKDY1KSwgYXN5bmMgewogICAgICAgIHdoaWxlIGdhdGV3YXkud2FpdHMubG9hZChTZXFDc3QpIDwgMiB7CiAgICAgICAgICAgIHRva2lvOjp0aW1lOjpzbGVlcChEdXJhdGlvbjo6ZnJvbV9taWxsaXMoNTApKS5hd2FpdDsKICAgICAgICB9CiAgICB9KQogICAgLmF3YWl0CiAgICAudW53cmFwKCk7CiAgICB1bnRpbCh8fCBnYXRld2F5LmFjdGl2ZS5sb2FkKFNlcUNzdCkgPT0gMSkuYXdhaXQ7CiAgICBsZXQgY2FsbHMgPSBnYXRld2F5LmRyYWlucy5sb2FkKFNlcUNzdCk7CiAgICB0b2tpbzo6dGltZTo6c2xlZXAoRHVyYXRpb246OmZyb21fbWlsbGlzKDIyMDApKS5hd2FpdDsKICAgIGFzc2VydF9lcSEoZ2F0ZXdheS5kcmFpbnMubG9hZChTZXFDc3QpLCBjYWxscyk7CiAgICBzdGF0ZS5zaHV0ZG93bi5jYW5jZWwoKTsKICAgIHRhc2suYXdhaXQudW53cmFwKCk7CiAgICBzZXJ2ZXIuYWJvcnQoKTsKfQoKI1t0ZXN0XQpmbiByZXRyeV9kZWxheXNfY2FwX2F0X3RoaXJ0eV9zZWNvbmRzKCkgewogICAgbGV0IG11dCBmYWlsdXJlcyA9IDA7CiAgICBsZXQgYWN0dWFsOiBWZWM8Xz4gPSAoMC4uOSkKICAgICAgICAubWFwKHxffCBzdXBlcjo6c3VwZXI6OmRyYWluX3dvcmtlcjo6cmV0cnlfZGVsYXkoJm11dCBmYWlsdXJlcykuYXNfc2VjcygpKQogICAgICAgIC5jb2xsZWN0KCk7CiAgICBhc3NlcnRfZXEhKGFjdHVhbCwgWzEsIDIsIDQsIDgsIDE2LCAzMCwgMzAsIDMwLCAzMF0pOwp9CgovLyBSdW4gYWdhaW5zdCBpbnRlcm5hbC93YWZ3YWl0Zml4dHVyZSBmcm9tIHRoZSBHbyByZXBvc2l0b3J5LiBTZXBhcmF0ZSB0ZXN0Ci8vIHByb2Nlc3NlcyBrZWVwIFJ1c3QgYW5kIEdvIENQVS9SU1MgbWVhc3VyZW1lbnRzIGF0dHJpYnV0YWJsZSB0byBlYWNoIG1vZGUuCiNbdG9raW86OnRlc3RdCiNbaWdub3JlID0gIm1hbnVhbCByZWFsLXRpbWUgV0FGIGludGVyb3BlcmFiaWxpdHkgQS9COyByZXF1aXJlcyBsb29wYmFjayBHbyBmaXh0dXJlIl0KYXN5bmMgZm4gd2FmX2xvbmdfcG9sbGluZ19hYigpIHsKICAgIGxldCBycGMgPSBzdGQ6OmVudjo6dmFyKCJGTl9LTk9DS19XQUZfRklYVFVSRV9SUEMiKS51bndyYXAoKTsKICAgIGxldCBjb250cm9sID0gc3RkOjplbnY6OnZhcigiRk5fS05PQ0tfV0FGX0ZJWFRVUkVfQ09OVFJPTCIpLnVud3JhcCgpOwogICAgbGV0IGxlZ2FjeSA9IHN0ZDo6ZW52Ojp2YXIoIkZOX0tOT0NLX1dBRl9BQl9NT0RFIikudW53cmFwKCkgPT0gIm9sZCI7CiAgICBsZXQgc2Vjb25kczogdTY0ID0gc3RkOjplbnY6OnZhcigiRk5fS05PQ0tfV0FGX0FCX0lETEVfU0VDT05EUyIpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHxffCAiNjAwIi5pbnRvKCkpCiAgICAgICAgLnBhcnNlKCkKICAgICAgICAudW53cmFwKCk7CiAgICBsZXQgKF9kaXIsIHN0YXRlKSA9IHdhZl90ZXN0X3N0YXRlKCZycGMpLmF3YWl0OwogICAgc2V0X3NldHRpbmdzKCZzdGF0ZSwgdHJ1ZSwgMikuYXdhaXQ7CiAgICBsZXQgd29ya2VyX3N0YXRlID0gc3RhdGUuY2xvbmUoKTsKICAgIGxldCB0YXNrID0gaWYgbGVnYWN5IHsKICAgICAgICB0b2tpbzo6c3Bhd24oYXN5bmMgbW92ZSB7CiAgICAgICAgICAgIGxldCBtdXQgdXBkYXRlcyA9IHdvcmtlcl9zdGF0ZS5zdG9yYWdlLnN0b3JlLnN1YnNjcmliZV9jb25maWdfc25hcHNob3QoKTsKICAgICAgICAgICAgZHJhaW5fd2FmX2V2ZW50c19ub3coJndvcmtlcl9zdGF0ZSkuYXdhaXQudW53cmFwKCk7CiAgICAgICAgICAgIHdoaWxlIHdhaXRfZm9yX3dhZl9kcmFpbigmd29ya2VyX3N0YXRlLCAmbXV0IHVwZGF0ZXMpLmF3YWl0IHsKICAgICAgICAgICAgICAgIGRyYWluX3dhZl9ldmVudHNfbm93KCZ3b3JrZXJfc3RhdGUpLmF3YWl0LnVud3JhcCgpOwogICAgICAgICAgICB9CiAgICAgICAgfSkKICAgIH0gZWxzZSB7CiAgICAgICAgd29ya2VyKCZzdGF0ZSkKICAgIH07CiAgICBsZXQgaHR0cCA9IHJlcXdlc3Q6OkNsaWVudDo6bmV3KCk7CiAgICB0b2tpbzo6dGltZTo6c2xlZXAoRHVyYXRpb246OmZyb21fc2VjcygzKSkuYXdhaXQ7CiAgICBsZXQgc3RhdHMgPSBhc3luYyB8fCAtPiBWYWx1ZSB7CiAgICAgICAgaHR0cC5nZXQoZm9ybWF0ISgie2NvbnRyb2x9L3N0YXRzIikpCiAgICAgICAgICAgIC5zZW5kKCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuanNvbigpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCkKICAgIH07CiAgICBsZXQgYmVmb3JlID0gc3RhdHMoKS5hd2FpdDsKICAgIHByaW50bG4hKAogICAgICAgICJXQUZfQUIge30iLAogICAgICAgIGpzb24hKHsicGhhc2UiOiJ3YXJtIiwgIm1vZGUiOiBpZiBsZWdhY3kgeyJvbGQifSBlbHNlIHsibmV3In0sICJwaWQiOnN0ZDo6cHJvY2Vzczo6aWQoKSwgImdvIjpiZWZvcmUsICJ0YXNrcyI6dG9raW86OnJ1bnRpbWU6OkhhbmRsZTo6Y3VycmVudCgpLm1ldHJpY3MoKS5udW1fYWxpdmVfdGFza3MoKX0pCiAgICApOwogICAgbGV0IHJlY29yZGVyID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5kaWFnbm9zdGljcygpOwogICAgbGV0IGdlbmVyYXRpb24gPSByZWNvcmRlci5zdGFydCgpOwogICAgbGV0IHN0YXJ0ZWQgPSB0b2tpbzo6dGltZTo6SW5zdGFudDo6bm93KCk7CiAgICB3aGlsZSBzdGFydGVkLmVsYXBzZWQoKSA8IER1cmF0aW9uOjpmcm9tX3NlY3Moc2Vjb25kcykgewogICAgICAgIHRva2lvOjp0aW1lOjpzbGVlcCgKICAgICAgICAgICAgRHVyYXRpb246OmZyb21fc2Vjcyg2MCkKICAgICAgICAgICAgICAgIC5taW4oRHVyYXRpb246OmZyb21fc2VjcyhzZWNvbmRzKS5zYXR1cmF0aW5nX3N1YihzdGFydGVkLmVsYXBzZWQoKSkpLAogICAgICAgICkKICAgICAgICAuYXdhaXQ7CiAgICAgICAgcHJpbnRsbiEoCiAgICAgICAgICAgICJXQUZfQUIge30iLAogICAgICAgICAgICBqc29uISh7InBoYXNlIjoiaWRsZV9zYW1wbGUiLCAiZWxhcHNlZF9tcyI6c3RhcnRlZC5lbGFwc2VkKCkuYXNfbWlsbGlzKCksICJnbyI6c3RhdHMoKS5hd2FpdCwgInRhc2tzIjp0b2tpbzo6cnVudGltZTo6SGFuZGxlOjpjdXJyZW50KCkubWV0cmljcygpLm51bV9hbGl2ZV90YXNrcygpfSkKICAgICAgICApOwogICAgfQogICAgcmVjb3JkZXIuc3RvcChnZW5lcmF0aW9uKTsKICAgIGxldCBpZGxlID0gcmVjb3JkZXIuc25hcHNob3QoKTsKICAgIGFzc2VydCEoCiAgICAgICAgIWlkbGUKICAgICAgICAgICAgLm9wZXJhdGlvbnMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAuYW55KHxvcHwgb3Aua2luZCA9PSAic3FsaXRlIiAmJiBvcC5sYWJlbC5jb250YWlucygiY29uZmlnIikpCiAgICApOwogICAgbGV0IGFmdGVyID0gc3RhdHMoKS5hd2FpdDsKICAgIGlmICFsZWdhY3kgewogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGFmdGVyWyJkcmFpbnMiXSwgYmVmb3JlWyJkcmFpbnMiXSwKICAgICAgICAgICAgImlkbGUgbG9uZyBwb2xsaW5nIHBlcmZvcm1lZCBlbXB0eSBkcmFpbnMiCiAgICAgICAgKTsKICAgIH0KICAgIHByaW50bG4hKAogICAgICAgICJXQUZfQUIge30iLAogICAgICAgIGpzb24hKHsicGhhc2UiOiJpZGxlX2RvbmUiLCAic2Vjb25kcyI6c2Vjb25kcywgImdvIjphZnRlciwgImRpYWdub3N0aWNzIjppZGxlfSkKICAgICk7CiAgICBmb3IgY291bnQgaW4gWzEsIDEsIDEsIDEwMDBdIHsKICAgICAgICBsZXQgYmVmb3JlID0gc3RhdHMoKS5hd2FpdDsKICAgICAgICBsZXQgc3RhcnRlZCA9IHRva2lvOjp0aW1lOjpJbnN0YW50Ojpub3coKTsKICAgICAgICBodHRwLnBvc3QoZm9ybWF0ISgie2NvbnRyb2x9L2V2ZW50cz9jb3VudD17Y291bnR9IikpCiAgICAgICAgICAgIC5zZW5kKCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuZXJyb3JfZm9yX3N0YXR1cygpCiAgICAgICAgICAgIC51bndyYXAoKTsKICAgICAgICB0b2tpbzo6dGltZTo6dGltZW91dChEdXJhdGlvbjo6ZnJvbV9zZWNzKDEwKSwgYXN5bmMgewogICAgICAgICAgICBsb29wIHsKICAgICAgICAgICAgICAgIGxldCBub3cgPSBzdGF0cygpLmF3YWl0OwogICAgICAgICAgICAgICAgaWYgbm93WyJwZW5kaW5nIl0gPT0gMCAmJiBub3dbImFja3MiXS5hc19pNjQoKS51bndyYXAoKSA+IGJlZm9yZVsiYWNrcyJdLmFzX2k2NCgpLnVud3JhcCgpIHsKICAgICAgICAgICAgICAgICAgICBwcmludGxuISgiV0FGX0FCIHt9IiwganNvbiEoeyJwaGFzZSI6ImV2ZW50cyIsICJjb3VudCI6Y291bnQsICJsYXRlbmN5X21zIjpzdGFydGVkLmVsYXBzZWQoKS5hc19taWxsaXMoKSwgImdvIjpub3d9KSk7CiAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB0b2tpbzo6dGltZTo6c2xlZXAoRHVyYXRpb246OmZyb21fbWlsbGlzKDIwKSkuYXdhaXQ7CiAgICAgICAgICAgIH0KICAgICAgICB9KS5hd2FpdC51bndyYXAoKTsKICAgICAgICB0b2tpbzo6dGltZTo6c2xlZXAoRHVyYXRpb246OmZyb21fc2VjcygzKSkuYXdhaXQ7CiAgICB9CiAgICBsZXQgZGIgPQogICAgICAgIHRva2lvX3J1c3FsaXRlOjpydXNxbGl0ZTo6Q29ubmVjdGlvbjo6b3BlbihfZGlyLnBhdGgoKS5qb2luKCJmbi1rbm9jay5zcWxpdGUzIikpLnVud3JhcCgpOwogICAgbGV0IHN0b3JlZDogaTY0ID0gZGIKICAgICAgICAucXVlcnlfcm93KAogICAgICAgICAgICAiU0VMRUNUIENPVU5UKCopIEZST00ga3Zfa2V5cyBXSEVSRSBrZXkgTElLRSAnZm5fa25vY2s6d2FmOmxvZzolJyIsCiAgICAgICAgICAgIFtdLAogICAgICAgICAgICB8cm93fCByb3cuZ2V0KDApLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKHN0b3JlZCwgMTAwMywgImFsbCBzeW50aGV0aWMgZXZlbnRzIG11c3QgYmUgZHVyYWJsZSIpOwogICAgc3RhdGUuc2h1dGRvd24uY2FuY2VsKCk7CiAgICB0YXNrLmF3YWl0LnVud3JhcCgpOwogICAgcHJpbnRsbiEoCiAgICAgICAgIldBRl9BQiB7fSIsCiAgICAgICAganNvbiEoeyJwaGFzZSI6InN0b3BwZWQiLCAiZ28iOnN0YXRzKCkuYXdhaXQsICJ0YXNrcyI6dG9raW86OnJ1bnRpbWU6OkhhbmRsZTo6Y3VycmVudCgpLm1ldHJpY3MoKS5udW1fYWxpdmVfdGFza3MoKX0pCiAgICApOwp9Cg==
+use super::*;
+use crate::grpc_proto::{
+    self as pb,
+    waf_service_server::{WafService, WafServiceServer},
+};
+use std::sync::{
+    Arc, Mutex,
+    atomic::{AtomicUsize, Ordering::SeqCst},
+};
+use std::time::Duration;
+use tonic::{Request, Response, Status};
+
+#[derive(Default)]
+struct Gateway {
+    pending: Mutex<Vec<pb::WafEvent>>,
+    leased: Mutex<Vec<pb::WafEvent>>,
+    changed: tokio::sync::Notify,
+    stop: tokio_util::sync::CancellationToken,
+    waits: AtomicUsize,
+    active: AtomicUsize,
+    drains: AtomicUsize,
+    acks: AtomicUsize,
+    releases: AtomicUsize,
+    wait_error: AtomicUsize,
+    ack_failures: AtomicUsize,
+    drain_times: Mutex<Vec<tokio::time::Instant>>,
+}
+
+struct Active<'a>(&'a AtomicUsize);
+impl Drop for Active<'_> {
+    fn drop(&mut self) {
+        self.0.fetch_sub(1, SeqCst);
+    }
+}
+
+impl Gateway {
+    fn add(&self, count: usize) {
+        let mut pending = self.pending.lock().unwrap();
+        for _ in 0..count {
+            pending.push(pb::WafEvent {
+                trace_id: uuid::Uuid::new_v4().to_string(),
+                time: crate::time_utils::now_iso(),
+                action: "log".into(),
+                rule_ids: vec![941100],
+                ..Default::default()
+            });
+        }
+        self.changed.notify_one();
+    }
+}
+
+#[tonic::async_trait]
+impl WafService for Arc<Gateway> {
+    async fn get_waf_status(&self, _: Request<()>) -> Result<Response<pb::WafStatus>, Status> {
+        Ok(Response::new(Default::default()))
+    }
+    async fn set_waf_config(
+        &self,
+        _: Request<pb::WafConfig>,
+    ) -> Result<Response<pb::WafStatus>, Status> {
+        Ok(Response::new(Default::default()))
+    }
+    async fn validate_waf_bundle(
+        &self,
+        _: Request<pb::WafBundleRequest>,
+    ) -> Result<Response<pb::WafValidationResult>, Status> {
+        Ok(Response::new(Default::default()))
+    }
+    async fn reload_waf_bundle(
+        &self,
+        _: Request<pb::WafBundleRequest>,
+    ) -> Result<Response<pb::WafStatus>, Status> {
+        Ok(Response::new(Default::default()))
+    }
+    async fn wait_waf_events(
+        &self,
+        req: Request<pb::WafWaitRequest>,
+    ) -> Result<Response<pb::WafWaitResult>, Status> {
+        assert_eq!(req.metadata().get("grpc-timeout").unwrap(), "65000000u");
+        assert_eq!(req.get_ref().timeout_ms, 60_000);
+        self.waits.fetch_add(1, SeqCst);
+        self.active.fetch_add(1, SeqCst);
+        let _active = Active(&self.active);
+        match self.wait_error.load(SeqCst) {
+            12 => return Err(Status::unimplemented("old gateway")),
+            14 => return Err(Status::unavailable("restarting")),
+            _ => {}
+        }
+        let timeout = tokio::time::sleep(Duration::from_secs(60));
+        tokio::pin!(timeout);
+        loop {
+            let notified = self.changed.notified();
+            if !self.pending.lock().unwrap().is_empty() {
+                return Ok(Response::new(pb::WafWaitResult { available: true }));
+            }
+            tokio::select! {
+                _ = self.stop.cancelled() => return Err(Status::unavailable("gateway shutdown")),
+                _ = &mut timeout => return Ok(Response::new(pb::WafWaitResult { available: false })),
+                _ = notified => {},
+            }
+        }
+    }
+    async fn drain_waf_events(
+        &self,
+        req: Request<pb::WafDrainRequest>,
+    ) -> Result<Response<pb::WafDrainResult>, Status> {
+        let mut pending = self.pending.lock().unwrap();
+        let mut leased = self.leased.lock().unwrap();
+        let mut result = pb::WafDrainResult::default();
+        match pb::WafDrainOperation::try_from(req.get_ref().operation).unwrap() {
+            pb::WafDrainOperation::Lease => {
+                self.drains.fetch_add(1, SeqCst);
+                self.drain_times
+                    .lock()
+                    .unwrap()
+                    .push(tokio::time::Instant::now());
+                let count = pending.len().min(req.get_ref().limit as usize);
+                *leased = pending.drain(..count).collect();
+                result.events = leased.clone();
+                result.drained = count as i32;
+                if count > 0 {
+                    result.lease_id = "lease".into();
+                }
+                // Deliberately stale pre-ACK value: worker must use ACK remaining.
+                result.remaining = 0;
+            }
+            pb::WafDrainOperation::Acknowledge => {
+                self.acks.fetch_add(1, SeqCst);
+                if self
+                    .ack_failures
+                    .fetch_update(SeqCst, SeqCst, |n| n.checked_sub(1))
+                    .is_ok()
+                {
+                    pending.extend(leased.drain(..));
+                    return Err(Status::unavailable("ACK lost; lease expired"));
+                }
+                result.acknowledged = leased.len() as i32;
+                leased.clear();
+                result.remaining = pending.len() as i32;
+            }
+            pb::WafDrainOperation::Release => {
+                self.releases.fetch_add(1, SeqCst);
+                pending.extend(leased.drain(..));
+                result.remaining = pending.len() as i32;
+            }
+            _ => unreachable!(),
+        }
+        Ok(Response::new(result))
+    }
+}
+
+fn serve(listener: tokio::net::TcpListener, service: Arc<Gateway>) -> tokio::task::JoinHandle<()> {
+    let stop = service.stop.clone();
+    tokio::spawn(async move {
+        tonic::transport::Server::builder()
+            .add_service(WafServiceServer::new(service))
+            .serve_with_incoming_shutdown(
+                tokio_stream::wrappers::TcpListenerStream::new(listener),
+                stop.cancelled_owned(),
+            )
+            .await
+            .unwrap();
+    })
+}
+
+async fn fixture() -> (
+    tempfile::TempDir,
+    AppState,
+    Arc<Gateway>,
+    tokio::task::JoinHandle<()>,
+) {
+    let gateway = Arc::new(Gateway::default());
+    let listener = tokio::net::TcpListener::bind("127.0.0.1:0").await.unwrap();
+    let address = listener.local_addr().unwrap();
+    let server = serve(listener, gateway.clone());
+    let (directory, state) = waf_test_state(&address.to_string()).await;
+    set_settings(&state, true, 2).await;
+    (directory, state, gateway, server)
+}
+
+async fn set_settings(state: &AppState, enabled: bool, interval: u64) {
+    state
+        .storage
+        .store
+        .set_config_top_level_value(
+            "waf",
+            json!({"enabled": enabled, "drain_interval_seconds": interval}),
+        )
+        .await
+        .unwrap();
+}
+
+async fn until(mut condition: impl FnMut() -> bool) {
+    tokio::time::timeout(Duration::from_secs(10), async {
+        while !condition() {
+            tokio::time::sleep(Duration::from_millis(5)).await;
+        }
+    })
+    .await
+    .unwrap();
+}
+
+fn worker(state: &AppState) -> tokio::task::JoinHandle<()> {
+    let state = state.clone();
+    tokio::spawn(async move { super::super::drain_worker::run(&state).await })
+}
+
+#[tokio::test]
+async fn long_wait_does_not_block_manual_drain_and_cancels_on_disable() {
+    let (_dir, state, gateway, server) = fixture().await;
+    let task = worker(&state);
+    until(|| gateway.active.load(SeqCst) == 1).await;
+    tokio::time::sleep(Duration::from_millis(150)).await; // exceeds ordinary 100ms RPC deadline
+    assert_eq!(gateway.waits.load(SeqCst), 1);
+    tokio::time::timeout(Duration::from_millis(300), drain_waf_events_now(&state))
+        .await
+        .unwrap()
+        .unwrap();
+    set_settings(&state, false, 2).await;
+    until(|| gateway.active.load(SeqCst) == 0).await;
+    let waits = gateway.waits.load(SeqCst);
+    tokio::time::sleep(Duration::from_millis(100)).await;
+    assert_eq!(gateway.waits.load(SeqCst), waits);
+    set_settings(&state, true, 2).await;
+    until(|| gateway.active.load(SeqCst) == 1).await;
+    state.shutdown.cancel();
+    tokio::time::timeout(Duration::from_millis(300), task)
+        .await
+        .unwrap()
+        .unwrap();
+    until(|| gateway.active.load(SeqCst) == 0).await;
+    server.abort();
+}
+
+#[tokio::test]
+async fn batches_coalesce_without_config_starvation_and_clear_backlog_immediately() {
+    let (_dir, state, gateway, server) = fixture().await;
+    let task = worker(&state);
+    until(|| gateway.active.load(SeqCst) == 1).await;
+    let started = tokio::time::Instant::now();
+    gateway.add(1000);
+    for i in 0..8 {
+        tokio::time::sleep(Duration::from_millis(200)).await;
+        state
+            .storage
+            .store
+            .set_config_top_level_value("unrelated_test", json!(i))
+            .await
+            .unwrap();
+    }
+    assert_eq!(
+        gateway.drains.load(SeqCst),
+        1,
+        "must aggregate before first batch"
+    );
+    until(|| gateway.acks.load(SeqCst) == 2).await;
+    let times = gateway.drain_times.lock().unwrap().clone();
+    assert_eq!(times.len(), 3);
+    assert!(times[1].duration_since(started) >= Duration::from_millis(1900));
+    assert!(times[1].duration_since(started) < Duration::from_millis(2800));
+    assert!(
+        times[2].duration_since(times[1]) < Duration::from_secs(1),
+        "backlog waited an extra batch interval"
+    );
+    assert!(gateway.pending.lock().unwrap().is_empty());
+    state.shutdown.cancel();
+    task.await.unwrap();
+    server.abort();
+}
+
+#[tokio::test]
+async fn lost_ack_retries_idempotent_persistence() {
+    let (_dir, state, gateway, server) = fixture().await;
+    gateway.add(1);
+    let id = gateway.pending.lock().unwrap()[0].trace_id.clone();
+    gateway.ack_failures.store(1, SeqCst);
+    let task = worker(&state);
+    until(|| gateway.acks.load(SeqCst) == 2).await;
+    assert!(
+        state
+            .storage
+            .store
+            .get_waf_log_event(&id)
+            .await
+            .unwrap()
+            .is_some()
+    );
+    assert_eq!(gateway.drains.load(SeqCst), 2);
+    let db =
+        tokio_rusqlite::rusqlite::Connection::open(_dir.path().join("fn-knock.sqlite3")).unwrap();
+    let stored: i64 = db
+        .query_row(
+            "SELECT COUNT(*) FROM kv_keys WHERE key LIKE 'fn_knock:waf:log:%'",
+            [],
+            |row| row.get(0),
+        )
+        .unwrap();
+    assert_eq!(stored, 1, "redelivery duplicated the durable event");
+    state.shutdown.cancel();
+    task.await.unwrap();
+    server.abort();
+}
+
+#[tokio::test]
+async fn persistence_failure_releases_lease_and_retries_after_recovery() {
+    let (dir, state, gateway, server) = fixture().await;
+    let db =
+        tokio_rusqlite::rusqlite::Connection::open(dir.path().join("fn-knock.sqlite3")).unwrap();
+    db.execute_batch("CREATE TRIGGER reject_waf BEFORE INSERT ON kv_keys WHEN NEW.key LIKE 'fn_knock:waf:log:%' BEGIN SELECT RAISE(FAIL, 'injected disk write failure'); END;").unwrap();
+    gateway.add(1);
+    let id = gateway.pending.lock().unwrap()[0].trace_id.clone();
+    let task = worker(&state);
+    until(|| gateway.releases.load(SeqCst) == 1).await;
+    assert_eq!(gateway.acks.load(SeqCst), 0);
+    assert!(
+        state
+            .storage
+            .store
+            .get_waf_log_event(&id)
+            .await
+            .unwrap()
+            .is_none()
+    );
+    db.execute_batch("DROP TRIGGER reject_waf;").unwrap();
+    until(|| gateway.acks.load(SeqCst) == 1).await;
+    assert!(
+        state
+            .storage
+            .store
+            .get_waf_log_event(&id)
+            .await
+            .unwrap()
+            .is_some()
+    );
+    state.shutdown.cancel();
+    task.await.unwrap();
+    server.abort();
+}
+
+#[tokio::test]
+async fn service_errors_back_off_and_disable_interrupts_backoff() {
+    let (_dir, state, gateway, server) = fixture().await;
+    gateway.wait_error.store(14, SeqCst);
+    let task = worker(&state);
+    until(|| gateway.waits.load(SeqCst) == 2).await;
+    assert_eq!(
+        gateway.drains.load(SeqCst),
+        1,
+        "service error must not enable legacy polling"
+    );
+    set_settings(&state, false, 2).await;
+    let calls = gateway.waits.load(SeqCst);
+    tokio::time::sleep(Duration::from_millis(100)).await;
+    assert_eq!(gateway.waits.load(SeqCst), calls);
+    gateway.wait_error.store(0, SeqCst);
+    set_settings(&state, true, 2).await;
+    until(|| gateway.active.load(SeqCst) == 1).await;
+    state.shutdown.cancel();
+    task.await.unwrap();
+    server.abort();
+}
+
+#[tokio::test]
+async fn relevant_config_recomputes_batch_deadline() {
+    let (_dir, state, gateway, server) = fixture().await;
+    set_settings(&state, true, 60).await;
+    let task = worker(&state);
+    until(|| gateway.active.load(SeqCst) == 1).await;
+    gateway.add(1);
+    tokio::time::sleep(Duration::from_millis(300)).await;
+    set_settings(&state, true, 1).await;
+    until(|| gateway.acks.load(SeqCst) == 1).await;
+    state.shutdown.cancel();
+    task.await.unwrap();
+    server.abort();
+}
+
+#[tokio::test]
+async fn gateway_restart_reconnects_and_collects_new_events() {
+    let (_dir, state, gateway, server) = fixture().await;
+    let task = worker(&state);
+    until(|| gateway.active.load(SeqCst) == 1).await;
+    gateway.stop.cancel();
+    tokio::time::timeout(Duration::from_secs(1), server)
+        .await
+        .unwrap()
+        .unwrap();
+    until(|| gateway.active.load(SeqCst) == 0).await;
+    let replacement = Arc::new(Gateway::default());
+    let listener = tokio::net::TcpListener::bind(&state.settings.go_backend_grpc_addr)
+        .await
+        .unwrap();
+    let server = serve(listener, replacement.clone());
+    replacement.add(1);
+    until(|| replacement.acks.load(SeqCst) == 1).await;
+    state.shutdown.cancel();
+    task.await.unwrap();
+    server.abort();
+}
+
+#[tokio::test]
+async fn legacy_gateway_is_reprobed_and_recovers_long_polling() {
+    let (_dir, state, gateway, server) = fixture().await;
+    gateway.wait_error.store(12, SeqCst);
+    let task = worker(&state);
+    until(|| gateway.waits.load(SeqCst) == 1).await;
+    until(|| gateway.drains.load(SeqCst) >= 2).await;
+    gateway.wait_error.store(0, SeqCst);
+    // Real transport test: legacy polling continues until the 60s probe.
+    tokio::time::timeout(Duration::from_secs(65), async {
+        while gateway.waits.load(SeqCst) < 2 {
+            tokio::time::sleep(Duration::from_millis(50)).await;
+        }
+    })
+    .await
+    .unwrap();
+    until(|| gateway.active.load(SeqCst) == 1).await;
+    let calls = gateway.drains.load(SeqCst);
+    tokio::time::sleep(Duration::from_millis(2200)).await;
+    assert_eq!(gateway.drains.load(SeqCst), calls);
+    state.shutdown.cancel();
+    task.await.unwrap();
+    server.abort();
+}
+
+#[test]
+fn retry_delays_cap_at_thirty_seconds() {
+    let mut failures = 0;
+    let actual: Vec<_> = (0..9)
+        .map(|_| super::super::drain_worker::retry_delay(&mut failures).as_secs())
+        .collect();
+    assert_eq!(actual, [1, 2, 4, 8, 16, 30, 30, 30, 30]);
+}
+
+// Run against internal/wafwaitfixture from the Go repository. Separate test
+// processes keep Rust and Go CPU/RSS measurements attributable to each mode.
+#[tokio::test]
+#[ignore = "manual real-time WAF interoperability A/B; requires loopback Go fixture"]
+async fn waf_long_polling_ab() {
+    let rpc = std::env::var("FN_KNOCK_WAF_FIXTURE_RPC").unwrap();
+    let control = std::env::var("FN_KNOCK_WAF_FIXTURE_CONTROL").unwrap();
+    let legacy = std::env::var("FN_KNOCK_WAF_AB_MODE").unwrap() == "old";
+    let seconds: u64 = std::env::var("FN_KNOCK_WAF_AB_IDLE_SECONDS")
+        .unwrap_or_else(|_| "600".into())
+        .parse()
+        .unwrap();
+    let (_dir, state) = waf_test_state(&rpc).await;
+    set_settings(&state, true, 2).await;
+    let worker_state = state.clone();
+    let task = if legacy {
+        tokio::spawn(async move {
+            let mut updates = worker_state.storage.store.subscribe_config_snapshot();
+            drain_waf_events_now(&worker_state).await.unwrap();
+            while wait_for_waf_drain(&worker_state, &mut updates).await {
+                drain_waf_events_now(&worker_state).await.unwrap();
+            }
+        })
+    } else {
+        worker(&state)
+    };
+    let http = reqwest::Client::new();
+    tokio::time::sleep(Duration::from_secs(3)).await;
+    let stats = async || -> Value {
+        http.get(format!("{control}/stats"))
+            .send()
+            .await
+            .unwrap()
+            .json()
+            .await
+            .unwrap()
+    };
+    let before = stats().await;
+    println!(
+        "WAF_AB {}",
+        json!({"phase":"warm", "mode": if legacy {"old"} else {"new"}, "pid":std::process::id(), "go":before, "tasks":tokio::runtime::Handle::current().metrics().num_alive_tasks()})
+    );
+    let recorder = state.storage.store.diagnostics();
+    let generation = recorder.start();
+    let started = tokio::time::Instant::now();
+    while started.elapsed() < Duration::from_secs(seconds) {
+        tokio::time::sleep(
+            Duration::from_secs(60)
+                .min(Duration::from_secs(seconds).saturating_sub(started.elapsed())),
+        )
+        .await;
+        println!(
+            "WAF_AB {}",
+            json!({"phase":"idle_sample", "elapsed_ms":started.elapsed().as_millis(), "go":stats().await, "tasks":tokio::runtime::Handle::current().metrics().num_alive_tasks()})
+        );
+    }
+    recorder.stop(generation);
+    let idle = recorder.snapshot();
+    assert!(
+        !idle
+            .operations
+            .iter()
+            .any(|op| op.kind == "sqlite" && op.label.contains("config"))
+    );
+    let after = stats().await;
+    if !legacy {
+        assert_eq!(
+            after["drains"], before["drains"],
+            "idle long polling performed empty drains"
+        );
+    }
+    println!(
+        "WAF_AB {}",
+        json!({"phase":"idle_done", "seconds":seconds, "go":after, "diagnostics":idle})
+    );
+    for count in [1, 1, 1, 1000] {
+        let before = stats().await;
+        let started = tokio::time::Instant::now();
+        http.post(format!("{control}/events?count={count}"))
+            .send()
+            .await
+            .unwrap()
+            .error_for_status()
+            .unwrap();
+        tokio::time::timeout(Duration::from_secs(10), async {
+            loop {
+                let now = stats().await;
+                if now["pending"] == 0 && now["acks"].as_i64().unwrap() > before["acks"].as_i64().unwrap() {
+                    println!("WAF_AB {}", json!({"phase":"events", "count":count, "latency_ms":started.elapsed().as_millis(), "go":now}));
+                    break;
+                }
+                tokio::time::sleep(Duration::from_millis(20)).await;
+            }
+        }).await.unwrap();
+        tokio::time::sleep(Duration::from_secs(3)).await;
+    }
+    let db =
+        tokio_rusqlite::rusqlite::Connection::open(_dir.path().join("fn-knock.sqlite3")).unwrap();
+    let stored: i64 = db
+        .query_row(
+            "SELECT COUNT(*) FROM kv_keys WHERE key LIKE 'fn_knock:waf:log:%'",
+            [],
+            |row| row.get(0),
+        )
+        .unwrap();
+    assert_eq!(stored, 1003, "all synthetic events must be durable");
+    state.shutdown.cancel();
+    task.await.unwrap();
+    println!(
+        "WAF_AB {}",
+        json!({"phase":"stopped", "go":stats().await, "tasks":tokio::runtime::Handle::current().metrics().num_alive_tasks()})
+    );
+}

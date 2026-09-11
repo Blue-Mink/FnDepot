@@ -1,1 +1,31 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRHJvcGRvd25NZW51U3ViVHJpZ2dlclByb3BzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHR5cGUgeyBIVE1MQXR0cmlidXRlcyB9IGZyb20gInZ1ZSIKaW1wb3J0IHsgcmVhY3RpdmVPbWl0IH0gZnJvbSAiQHZ1ZXVzZS9jb3JlIgppbXBvcnQgeyBDaGV2cm9uUmlnaHQgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiCmltcG9ydCB7CiAgRHJvcGRvd25NZW51U3ViVHJpZ2dlciwKICB1c2VGb3J3YXJkUHJvcHMsCn0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8RHJvcGRvd25NZW51U3ViVHJpZ2dlclByb3BzICYgeyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdLCBpbnNldD86IGJvb2xlYW4gfT4oKQoKY29uc3QgZGVsZWdhdGVkUHJvcHMgPSByZWFjdGl2ZU9taXQocHJvcHMsICJjbGFzcyIsICJpbnNldCIpCmNvbnN0IGZvcndhcmRlZFByb3BzID0gdXNlRm9yd2FyZFByb3BzKGRlbGVnYXRlZFByb3BzKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RHJvcGRvd25NZW51U3ViVHJpZ2dlcgogICAgZGF0YS1zbG90PSJkcm9wZG93bi1tZW51LXN1Yi10cmlnZ2VyIgogICAgdi1iaW5kPSJmb3J3YXJkZWRQcm9wcyIKICAgIDpkYXRhLWluc2V0PSJpbnNldCA/ICcnIDogdW5kZWZpbmVkIgogICAgOmNsYXNzPSJjbigKICAgICAgJ2ZvY3VzOmJnLWFjY2VudCBmb2N1czp0ZXh0LWFjY2VudC1mb3JlZ3JvdW5kIGRhdGEtW3N0YXRlPW9wZW5dOmJnLWFjY2VudCBkYXRhLVtzdGF0ZT1vcGVuXTp0ZXh0LWFjY2VudC1mb3JlZ3JvdW5kIHJlbGF0aXZlIGZsZXggY3Vyc29yLWRlZmF1bHQgaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtc20gcHgtMiBweS0xLjUgdGV4dC1zbSBvdXRsaW5lLWhpZGRlbiBzZWxlY3Qtbm9uZSBkYXRhLVtpbnNldF06cGwtOCBbJl9zdmddOnBvaW50ZXItZXZlbnRzLW5vbmUgWyZfc3ZnXTpzaHJpbmstMCBbJl9zdmc6bm90KFtjbGFzcyo9XCdzaXplLVwnXSldOnNpemUtNCBkYXRhLVt2YXJpYW50PWRlc3RydWN0aXZlXToqOltzdmddOiF0ZXh0LWRlc3RydWN0aXZlIFsmX3N2Zzpub3QoW2NsYXNzKj1cJ3RleHQtXCddKV06dGV4dC1tdXRlZC1mb3JlZ3JvdW5kJywKICAgICAgcHJvcHMuY2xhc3MsCiAgICApIgogID4KICAgIDxzbG90IC8+CiAgICA8Q2hldnJvblJpZ2h0IGNsYXNzPSJtbC1hdXRvIHNpemUtNCIgLz4KICA8L0Ryb3Bkb3duTWVudVN1YlRyaWdnZXI+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { DropdownMenuSubTriggerProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { ChevronRight } from "lucide-vue-next"
+import {
+  DropdownMenuSubTrigger,
+  useForwardProps,
+} from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<DropdownMenuSubTriggerProps & { class?: HTMLAttributes["class"], inset?: boolean }>()
+
+const delegatedProps = reactiveOmit(props, "class", "inset")
+const forwardedProps = useForwardProps(delegatedProps)
+</script>
+
+<template>
+  <DropdownMenuSubTrigger
+    data-slot="dropdown-menu-sub-trigger"
+    v-bind="forwardedProps"
+    :data-inset="inset ? '' : undefined"
+    :class="cn(
+      'focus:bg-accent focus:text-accent-foreground data-[state=open]:bg-accent data-[state=open]:text-accent-foreground relative flex cursor-default items-center gap-2 rounded-sm px-2 py-1.5 text-sm outline-hidden select-none data-[inset]:pl-8 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*=\'size-\'])]:size-4 data-[variant=destructive]:*:[svg]:!text-destructive [&_svg:not([class*=\'text-\'])]:text-muted-foreground',
+      props.class,
+    )"
+  >
+    <slot />
+    <ChevronRight class="ml-auto size-4" />
+  </DropdownMenuSubTrigger>
+</template>

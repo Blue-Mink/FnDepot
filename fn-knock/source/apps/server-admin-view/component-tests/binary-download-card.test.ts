@@ -1,1 +1,112 @@
-aW1wb3J0IHsgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBkZWZpbmVDb21wb25lbnQsIGggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyBjcmVhdGVJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBkZXNjcmliZSwgZXhwZWN0LCBpdCwgdmkgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgQmluYXJ5RG93bmxvYWRDYXJkIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9zeXN0ZW0vQmluYXJ5RG93bmxvYWRDYXJkLnZ1ZSI7Cgpjb25zdCBwYXNzdGhyb3VnaCA9IGRlZmluZUNvbXBvbmVudCh7CiAgc2V0dXAoXywgeyBhdHRycywgc2xvdHMgfSkgewogICAgcmV0dXJuICgpID0+IGgoImRpdiIsIGF0dHJzLCBzbG90cy5kZWZhdWx0Py4oKSk7CiAgfSwKfSk7Cgpjb25zdCByZXNvdXJjZUNhcmQgPSBkZWZpbmVDb21wb25lbnQoewogIHNldHVwKF8sIHsgYXR0cnMsIHNsb3RzIH0pIHsKICAgIHJldHVybiAoKSA9PgogICAgICBoKCJzZWN0aW9uIiwgYXR0cnMsIFtzbG90cy5kZWZhdWx0Py4oKSwgc2xvdHMuZm9vdGVyPy4oKV0uZmxhdCgpKTsKICB9LAp9KTsKCmNvbnN0IHBvcG92ZXIgPSBkZWZpbmVDb21wb25lbnQoewogIHNldHVwKF8sIHsgc2xvdHMgfSkgewogICAgcmV0dXJuICgpID0+IGgoImRpdiIsIHNsb3RzLmRlZmF1bHQ/Lih7IGNsb3NlOiB2aS5mbigpIH0pKTsKICB9LAp9KTsKCmNvbnN0IGJ1dHRvbiA9IGRlZmluZUNvbXBvbmVudCh7CiAgaW5oZXJpdEF0dHJzOiBmYWxzZSwKICBzZXR1cChfLCB7IGF0dHJzLCBzbG90cyB9KSB7CiAgICByZXR1cm4gKCkgPT4gaCgiYnV0dG9uIiwgYXR0cnMsIHNsb3RzLmRlZmF1bHQ/LigpKTsKICB9LAp9KTsKCmNvbnN0IG1vdW50Q2FyZCA9IChpbnN0YWxsYXRpb25TdGF0dXM6ICJtaXNzaW5nIiB8ICJvdXRkYXRlZCIgfCAiY3VycmVudCIpID0+CiAgbW91bnQoQmluYXJ5RG93bmxvYWRDYXJkLCB7CiAgICBwcm9wczogewogICAgICB0aXRsZTogIkNsb3VkZmxhcmVkIiwKICAgICAgZGVzY3JpcHRpb246ICJkZXNjcmlwdGlvbiIsCiAgICAgIGlzSW5pdGlhbGl6aW5nOiBmYWxzZSwKICAgICAgc3VwcG9ydGVkOiB0cnVlLAogICAgICBwbGF0Zm9ybTogImxpbnV4LWFtZDY0IiwKICAgICAgZG93bmxvYWRlZDogaW5zdGFsbGF0aW9uU3RhdHVzID09PSAiY3VycmVudCIsCiAgICAgIGluc3RhbGxhdGlvblN0YXR1cywKICAgICAgc3RhdHVzOiAiaWRsZSIsCiAgICAgIHBlcmNlbnQ6IDAsCiAgICAgIHJlYWR5TGFiZWw6ICJSZWFkeSIsCiAgICAgIHBlbmRpbmdMYWJlbDogIk1pc3NpbmciLAogICAgICBkb3dubG9hZEJ1dHRvblRleHQ6ICJEb3dubG9hZCIsCiAgICAgIG91dGRhdGVkTGFiZWw6ICJPdXRkYXRlZCIsCiAgICAgIG91dGRhdGVkVGl0bGU6ICJPbGQgQ2xvdWRmbGFyZWQiLAogICAgICBvdXRkYXRlZERlc2NyaXB0aW9uOiAiVXBkYXRlIHRvIDIwMjYuNy4zIiwKICAgICAgdXBkYXRlQnV0dG9uVGV4dDogIlVwZGF0ZSBub3ciLAogICAgICB1cGRhdGVDb25maXJtVGl0bGU6ICJVcGRhdGUgQ2xvdWRmbGFyZWQ/IiwKICAgICAgdXBkYXRlQ29uZmlybURlc2NyaXB0aW9uOiAiVGhlIHR1bm5lbCByZWNvbm5lY3RzIGJyaWVmbHkuIiwKICAgICAgcmVkb3dubG9hZENvbmZpcm1UaXRsZTogIkRvd25sb2FkIGFnYWluPyIsCiAgICAgIHJlZG93bmxvYWRDb25maXJtRGVzY3JpcHRpb246ICJPdmVyd3JpdGUgaXQuIiwKICAgICAgZGVsZXRlQ29uZmlybVRpdGxlOiAiRGVsZXRlIGl0PyIsCiAgICAgIGRlbGV0ZUNvbmZpcm1EZXNjcmlwdGlvbjogIkRvd25sb2FkIGl0IGFnYWluIGxhdGVyLiIsCiAgICB9LAogICAgZ2xvYmFsOiB7CiAgICAgIHBsdWdpbnM6IFtjcmVhdGVJMThuKHsgbGVnYWN5OiBmYWxzZSwgbG9jYWxlOiAiZW4iLCBtZXNzYWdlczoge30gfSldLAogICAgICBzdHViczogewogICAgICAgIEJ1dHRvbjogYnV0dG9uLAogICAgICAgIFBvcG92ZXI6IHBvcG92ZXIsCiAgICAgICAgUG9wb3ZlckNvbnRlbnQ6IHBhc3N0aHJvdWdoLAogICAgICAgIFBvcG92ZXJUcmlnZ2VyOiBwYXNzdGhyb3VnaCwKICAgICAgICBQcm9ncmVzczogdHJ1ZSwKICAgICAgICBSZXNvdXJjZVN0YXR1c0NhcmQ6IHJlc291cmNlQ2FyZCwKICAgICAgICBTa2VsZXRvbjogdHJ1ZSwKICAgICAgfSwKICAgIH0sCiAgfSk7CgpkZXNjcmliZSgiQmluYXJ5RG93bmxvYWRDYXJkIENsb3VkZmxhcmVkIHZlcnNpb24gc3RhdGVzIiwgKCkgPT4gewogIGl0KCJyZW5kZXJzIHRoZSByZWd1bGFyIGRvd25sb2FkIGFjdGlvbiBmb3IgYSBtaXNzaW5nIGluc3RhbGxhdGlvbiIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHdyYXBwZXIgPSBtb3VudENhcmQoIm1pc3NpbmciKTsKCiAgICBleHBlY3QoCiAgICAgIHdyYXBwZXIuZmluZCgnW2RhdGEtdGVzdGlkPSJiaW5hcnktb3V0ZGF0ZWQtd2FybmluZyJdJykuZXhpc3RzKCksCiAgICApLnRvQmUoZmFsc2UpOwogICAgY29uc3QgYWN0aW9uID0gd3JhcHBlcgogICAgICAuZmluZEFsbCgiYnV0dG9uIikKICAgICAgLmZpbmQoKGNhbmRpZGF0ZSkgPT4gY2FuZGlkYXRlLnRleHQoKSA9PT0gIkRvd25sb2FkIik7CiAgICBleHBlY3QoYWN0aW9uKS50b0JlRGVmaW5lZCgpOwogICAgYXdhaXQgYWN0aW9uPy50cmlnZ2VyKCJjbGljayIpOwogICAgZXhwZWN0KHdyYXBwZXIuZW1pdHRlZCgic3RhcnQiKSkudG9IYXZlTGVuZ3RoKDEpOwogIH0pOwoKICBpdCgic2hvd3MgYW4gb3V0ZGF0ZWQgd2FybmluZyBhbmQgY29uZmlybXMgdGhlIHVwZGF0ZSBhY3Rpb24iLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnRDYXJkKCJvdXRkYXRlZCIpOwoKICAgIGV4cGVjdCgKICAgICAgd3JhcHBlci5nZXQoJ1tkYXRhLXRlc3RpZD0iYmluYXJ5LW91dGRhdGVkLXdhcm5pbmciXScpLnRleHQoKSwKICAgICkudG9Db250YWluKCJVcGRhdGUgdG8gMjAyNi43LjMiKTsKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKCJUaGUgdHVubmVsIHJlY29ubmVjdHMgYnJpZWZseS4iKTsKICAgIGNvbnN0IHVwZGF0ZUFjdGlvbnMgPSB3cmFwcGVyCiAgICAgIC5maW5kQWxsKCJidXR0b24iKQogICAgICAuZmlsdGVyKChjYW5kaWRhdGUpID0+IGNhbmRpZGF0ZS50ZXh0KCkgPT09ICJVcGRhdGUgbm93Iik7CiAgICBleHBlY3QodXBkYXRlQWN0aW9ucy5sZW5ndGgpLnRvQmVHcmVhdGVyVGhhbk9yRXF1YWwoMik7CiAgICBhd2FpdCB1cGRhdGVBY3Rpb25zLmF0KC0xKT8udHJpZ2dlcigiY2xpY2siKTsKICAgIGV4cGVjdCh3cmFwcGVyLmVtaXR0ZWQoInVwZGF0ZSIpKS50b0hhdmVMZW5ndGgoMSk7CiAgfSk7CgogIGl0KCJrZWVwcyBjdXJyZW50IGluc3RhbGxhdGlvbnMgb24gdGhlIHJlYWR5IGFuZCBtYWludGVuYW5jZSBhY3Rpb25zIiwgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50Q2FyZCgiY3VycmVudCIpOwoKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkudG9Db250YWluKCJSZWFkeSIpOwogICAgZXhwZWN0KAogICAgICB3cmFwcGVyLmZpbmQoJ1tkYXRhLXRlc3RpZD0iYmluYXJ5LW91dGRhdGVkLXdhcm5pbmciXScpLmV4aXN0cygpLAogICAgKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdCh3cmFwcGVyLnRleHQoKSkubm90LnRvQ29udGFpbigiVXBkYXRlIG5vdyIpOwogIH0pOwp9KTsK
+import { mount } from "@vue/test-utils";
+import { defineComponent, h } from "vue";
+import { createI18n } from "vue-i18n";
+import { describe, expect, it, vi } from "vitest";
+import BinaryDownloadCard from "@admin-shared/components/system/BinaryDownloadCard.vue";
+
+const passthrough = defineComponent({
+  setup(_, { attrs, slots }) {
+    return () => h("div", attrs, slots.default?.());
+  },
+});
+
+const resourceCard = defineComponent({
+  setup(_, { attrs, slots }) {
+    return () =>
+      h("section", attrs, [slots.default?.(), slots.footer?.()].flat());
+  },
+});
+
+const popover = defineComponent({
+  setup(_, { slots }) {
+    return () => h("div", slots.default?.({ close: vi.fn() }));
+  },
+});
+
+const button = defineComponent({
+  inheritAttrs: false,
+  setup(_, { attrs, slots }) {
+    return () => h("button", attrs, slots.default?.());
+  },
+});
+
+const mountCard = (installationStatus: "missing" | "outdated" | "current") =>
+  mount(BinaryDownloadCard, {
+    props: {
+      title: "Cloudflared",
+      description: "description",
+      isInitializing: false,
+      supported: true,
+      platform: "linux-amd64",
+      downloaded: installationStatus === "current",
+      installationStatus,
+      status: "idle",
+      percent: 0,
+      readyLabel: "Ready",
+      pendingLabel: "Missing",
+      downloadButtonText: "Download",
+      outdatedLabel: "Outdated",
+      outdatedTitle: "Old Cloudflared",
+      outdatedDescription: "Update to 2026.7.3",
+      updateButtonText: "Update now",
+      updateConfirmTitle: "Update Cloudflared?",
+      updateConfirmDescription: "The tunnel reconnects briefly.",
+      redownloadConfirmTitle: "Download again?",
+      redownloadConfirmDescription: "Overwrite it.",
+      deleteConfirmTitle: "Delete it?",
+      deleteConfirmDescription: "Download it again later.",
+    },
+    global: {
+      plugins: [createI18n({ legacy: false, locale: "en", messages: {} })],
+      stubs: {
+        Button: button,
+        Popover: popover,
+        PopoverContent: passthrough,
+        PopoverTrigger: passthrough,
+        Progress: true,
+        ResourceStatusCard: resourceCard,
+        Skeleton: true,
+      },
+    },
+  });
+
+describe("BinaryDownloadCard Cloudflared version states", () => {
+  it("renders the regular download action for a missing installation", async () => {
+    const wrapper = mountCard("missing");
+
+    expect(
+      wrapper.find('[data-testid="binary-outdated-warning"]').exists(),
+    ).toBe(false);
+    const action = wrapper
+      .findAll("button")
+      .find((candidate) => candidate.text() === "Download");
+    expect(action).toBeDefined();
+    await action?.trigger("click");
+    expect(wrapper.emitted("start")).toHaveLength(1);
+  });
+
+  it("shows an outdated warning and confirms the update action", async () => {
+    const wrapper = mountCard("outdated");
+
+    expect(
+      wrapper.get('[data-testid="binary-outdated-warning"]').text(),
+    ).toContain("Update to 2026.7.3");
+    expect(wrapper.text()).toContain("The tunnel reconnects briefly.");
+    const updateActions = wrapper
+      .findAll("button")
+      .filter((candidate) => candidate.text() === "Update now");
+    expect(updateActions.length).toBeGreaterThanOrEqual(2);
+    await updateActions.at(-1)?.trigger("click");
+    expect(wrapper.emitted("update")).toHaveLength(1);
+  });
+
+  it("keeps current installations on the ready and maintenance actions", () => {
+    const wrapper = mountCard("current");
+
+    expect(wrapper.text()).toContain("Ready");
+    expect(
+      wrapper.find('[data-testid="binary-outdated-warning"]').exists(),
+    ).toBe(false);
+    expect(wrapper.text()).not.toContain("Update now");
+  });
+});

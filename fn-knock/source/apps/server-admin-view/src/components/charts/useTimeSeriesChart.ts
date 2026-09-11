@@ -1,1 +1,371 @@
-aW1wb3J0IHsKICBjb21wdXRlZCwKICBuZXh0VGljaywKICBvbkJlZm9yZVVubW91bnQsCiAgb25Nb3VudGVkLAogIHJlZiwKICBzaGFsbG93UmVmLAogIHdhdGNoLAp9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB1UGxvdCBmcm9tICJ1cGxvdCI7CmltcG9ydCB7CiAgYWxpZ25UaW1lU2VyaWVzRGF0YSwKICBidWlsZFRpbWVTZXJpZXNMZWdlbmRJdGVtcywKICBnZXRUaW1lU2VyaWVzWUF4aXNTaXplLAogIGhhc1JlbmRlcmFibGVUaW1lU2VyaWVzRGF0YSwKICB0eXBlIFRpbWVTZXJpZXNDaGFydFNlcmllcywKfSBmcm9tICIuL3RpbWVTZXJpZXNDaGFydE1vZGVsIjsKCmV4cG9ydCBpbnRlcmZhY2UgVGltZVNlcmllc0NoYXJ0UHJvcHMgewogIHNlcmllczogcmVhZG9ubHkgVGltZVNlcmllc0NoYXJ0U2VyaWVzW107CiAgdmFsdWVGb3JtYXR0ZXI/OiAodmFsdWU6IG51bWJlcikgPT4gc3RyaW5nOwogIHRpbWVGb3JtYXR0ZXI/OiAodmFsdWU6IG51bWJlcikgPT4gc3RyaW5nOwogIGVtcHR5VGV4dD86IHN0cmluZzsKICBtaW5IZWlnaHQ/OiBudW1iZXI7CiAgeU1pbj86IG51bWJlcjsKICBzaG93TGVnZW5kPzogYm9vbGVhbjsKfQoKdHlwZSBSZXNvbHZlZFRpbWVTZXJpZXNDaGFydFByb3BzID0gVGltZVNlcmllc0NoYXJ0UHJvcHMgJiB7CiAgZW1wdHlUZXh0OiBzdHJpbmc7CiAgbWluSGVpZ2h0OiBudW1iZXI7CiAgc2hvd0xlZ2VuZDogYm9vbGVhbjsKfTsKCnR5cGUgVG9vbHRpcEl0ZW0gPSB7CiAgbmFtZTogc3RyaW5nOwogIGNvbG9yOiBzdHJpbmc7CiAgdmFsdWU6IHN0cmluZzsKfTsKCmNvbnN0IERBWV9NUyA9IDI0ICogNjAgKiA2MCAqIDEwMDA7CmNvbnN0IExPTkdfUkFOR0VfTVMgPSBEQVlfTVMgKiAyOwpjb25zdCBYX0FYSVNfTEFCRUxfR0FQID0gODsKCmV4cG9ydCBmdW5jdGlvbiB1c2VUaW1lU2VyaWVzQ2hhcnQocHJvcHM6IFJlc29sdmVkVGltZVNlcmllc0NoYXJ0UHJvcHMpIHsKICBjb25zdCByb290ID0gcmVmPEhUTUxFbGVtZW50IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgcGxvdCA9IHNoYWxsb3dSZWY8dVBsb3QgfCBudWxsPihudWxsKTsKICBjb25zdCB0b29sdGlwID0gcmVmPHsKICAgIHZpc2libGU6IGJvb2xlYW47CiAgICBsZWZ0OiBudW1iZXI7CiAgICB0b3A6IG51bWJlcjsKICAgIHRpbWU6IHN0cmluZzsKICAgIGl0ZW1zOiBUb29sdGlwSXRlbVtdOwogIH0+KHsgdmlzaWJsZTogZmFsc2UsIGxlZnQ6IDAsIHRvcDogMCwgdGltZTogIiIsIGl0ZW1zOiBbXSB9KTsKICBjb25zdCB7IGxvY2FsZSB9ID0gdXNlSTE4bigpOwogIGxldCByZXNpemVPYnNlcnZlcjogUmVzaXplT2JzZXJ2ZXIgfCBudWxsID0gbnVsbDsKICBsZXQgdGhlbWVPYnNlcnZlcjogTXV0YXRpb25PYnNlcnZlciB8IG51bGwgPSBudWxsOwoKICBjb25zdCBhbGlnbmVkRGF0YSA9IGNvbXB1dGVkKCgpID0+IGFsaWduVGltZVNlcmllc0RhdGEocHJvcHMuc2VyaWVzKSk7CiAgY29uc3QgaGFzUmVuZGVyYWJsZURhdGEgPSBjb21wdXRlZCgoKSA9PgogICAgaGFzUmVuZGVyYWJsZVRpbWVTZXJpZXNEYXRhKGFsaWduZWREYXRhLnZhbHVlKSwKICApOwogIGNvbnN0IGxlZ2VuZEl0ZW1zID0gY29tcHV0ZWQoKCkgPT4KICAgIGJ1aWxkVGltZVNlcmllc0xlZ2VuZEl0ZW1zKHByb3BzLnNlcmllcyksCiAgKTsKICBjb25zdCBzaG91bGRTaG93TGVnZW5kID0gY29tcHV0ZWQoCiAgICAoKSA9PiBwcm9wcy5zaG93TGVnZW5kICYmIGxlZ2VuZEl0ZW1zLnZhbHVlLmxlbmd0aCA+IDEsCiAgKTsKCiAgY29uc3QgZm9ybWF0VmFsdWUgPSAodmFsdWU6IG51bWJlciB8IG51bGwgfCB1bmRlZmluZWQpID0+IHsKICAgIGlmICh2YWx1ZSA9PT0gbnVsbCB8fCB2YWx1ZSA9PT0gdW5kZWZpbmVkIHx8ICFOdW1iZXIuaXNGaW5pdGUodmFsdWUpKSB7CiAgICAgIHJldHVybiAiLSI7CiAgICB9CiAgICByZXR1cm4gKAogICAgICBwcm9wcy52YWx1ZUZvcm1hdHRlcj8uKHZhbHVlKSA/PwogICAgICBuZXcgSW50bC5OdW1iZXJGb3JtYXQoU3RyaW5nKGxvY2FsZS52YWx1ZSkpLmZvcm1hdCh2YWx1ZSkKICAgICk7CiAgfTsKCiAgY29uc3QgZm9ybWF0VGltZSA9ICh2YWx1ZTogbnVtYmVyLCBjb21wYWN0ID0gZmFsc2UpID0+IHsKICAgIGlmIChwcm9wcy50aW1lRm9ybWF0dGVyKSByZXR1cm4gcHJvcHMudGltZUZvcm1hdHRlcih2YWx1ZSk7CiAgICBjb25zdCBkYXRlID0gbmV3IERhdGUodmFsdWUpOwogICAgaWYgKCFOdW1iZXIuaXNGaW5pdGUoZGF0ZS5nZXRUaW1lKCkpKSByZXR1cm4gIiI7CiAgICByZXR1cm4gbmV3IEludGwuRGF0ZVRpbWVGb3JtYXQoU3RyaW5nKGxvY2FsZS52YWx1ZSksIHsKICAgICAgZGF5OiAiMi1kaWdpdCIsCiAgICAgIGhvdXI6ICIyLWRpZ2l0IiwKICAgICAgbWludXRlOiAiMi1kaWdpdCIsCiAgICAgIC4uLihjb21wYWN0ID8ge30gOiB7IHNlY29uZDogIjItZGlnaXQiIH0pLAogICAgfSkuZm9ybWF0KGRhdGUpOwogIH07CgogIGNvbnN0IGZvcm1hdERheSA9IChkYXRlOiBEYXRlKSA9PgogICAgbmV3IEludGwuRGF0ZVRpbWVGb3JtYXQoU3RyaW5nKGxvY2FsZS52YWx1ZSksIHsKICAgICAgZGF5OiAiMi1kaWdpdCIsCiAgICB9KS5mb3JtYXQoZGF0ZSk7CiAgY29uc3QgZm9ybWF0Q2xvY2sgPSAoZGF0ZTogRGF0ZSkgPT4KICAgIG5ldyBJbnRsLkRhdGVUaW1lRm9ybWF0KFN0cmluZyhsb2NhbGUudmFsdWUpLCB7CiAgICAgIGhvdXI6ICIyLWRpZ2l0IiwKICAgICAgbWludXRlOiAiMi1kaWdpdCIsCiAgICB9KS5mb3JtYXQoZGF0ZSk7CiAgY29uc3QgZ2V0RGF0ZUtleSA9ICh2YWx1ZTogbnVtYmVyKSA9PiB7CiAgICBjb25zdCBkYXRlID0gbmV3IERhdGUodmFsdWUpOwogICAgcmV0dXJuIGAke2RhdGUuZ2V0RnVsbFllYXIoKX0tJHtkYXRlLmdldE1vbnRoKCl9LSR7ZGF0ZS5nZXREYXRlKCl9YDsKICB9OwogIGNvbnN0IGVzdGltYXRlQXhpc0xhYmVsV2lkdGggPSAobGFiZWw6IHN0cmluZykgPT4KICAgIE1hdGgubWF4KAogICAgICAuLi5sYWJlbC5zcGxpdCgiXG4iKS5tYXAoKGxpbmUpID0+CiAgICAgICAgQXJyYXkuZnJvbShsaW5lKS5yZWR1Y2UoCiAgICAgICAgICAod2lkdGgsIGNoYXIpID0+IHdpZHRoICsgKGNoYXIuY2hhckNvZGVBdCgwKSA+IDI1NSA/IDEyIDogNyksCiAgICAgICAgICAwLAogICAgICAgICksCiAgICAgICksCiAgICApOwoKICBjb25zdCB0aGluWEF4aXNMYWJlbHMgPSAoCiAgICBjaGFydDogdVBsb3QsCiAgICBzcGxpdHM6IG51bWJlcltdLAogICAgbGFiZWxzOiBzdHJpbmdbXSwKICApID0+IHsKICAgIGNvbnN0IHZpc2libGVMYWJlbHMgPSBBcnJheS5mcm9tKHsgbGVuZ3RoOiBsYWJlbHMubGVuZ3RoIH0sICgpID0+ICIiKTsKICAgIGxldCBsYXN0UmlnaHQgPSBOdW1iZXIuTkVHQVRJVkVfSU5GSU5JVFk7CiAgICBsYWJlbHMuZm9yRWFjaCgobGFiZWwsIGluZGV4KSA9PiB7CiAgICAgIGlmICghbGFiZWwpIHJldHVybjsKICAgICAgY29uc3Qgc3BsaXQgPSBzcGxpdHNbaW5kZXhdOwogICAgICBpZiAoc3BsaXQgPT09IHVuZGVmaW5lZCkgcmV0dXJuOwogICAgICBjb25zdCB4ID0gY2hhcnQudmFsVG9Qb3Moc3BsaXQsICJ4Iik7CiAgICAgIGlmICghTnVtYmVyLmlzRmluaXRlKHgpKSByZXR1cm47CiAgICAgIGNvbnN0IGhhbGZXaWR0aCA9IGVzdGltYXRlQXhpc0xhYmVsV2lkdGgobGFiZWwpIC8gMjsKICAgICAgY29uc3QgbGVmdCA9IHggLSBoYWxmV2lkdGg7CiAgICAgIGNvbnN0IHJpZ2h0ID0geCArIGhhbGZXaWR0aDsKICAgICAgaWYgKGxlZnQgPj0gbGFzdFJpZ2h0ICsgWF9BWElTX0xBQkVMX0dBUCkgewogICAgICAgIHZpc2libGVMYWJlbHNbaW5kZXhdID0gbGFiZWw7CiAgICAgICAgbGFzdFJpZ2h0ID0gcmlnaHQ7CiAgICAgIH0KICAgIH0pOwogICAgcmV0dXJuIHZpc2libGVMYWJlbHM7CiAgfTsKCiAgY29uc3QgZm9ybWF0WEF4aXNWYWx1ZXMgPSAoY2hhcnQ6IHVQbG90LCBzcGxpdHM6IG51bWJlcltdKSA9PiB7CiAgICBjb25zdCB4U2NhbGUgPSBjaGFydC5zY2FsZXMueDsKICAgIGNvbnN0IGZpcnN0U3BsaXQgPSBzcGxpdHNbMF0gPz8gMDsKICAgIGNvbnN0IGxhc3RTcGxpdCA9IHNwbGl0c1tzcGxpdHMubGVuZ3RoIC0gMV0gPz8gZmlyc3RTcGxpdDsKICAgIGNvbnN0IHJhbmdlTXMgPQogICAgICB4U2NhbGUgJiYgdHlwZW9mIHhTY2FsZS5taW4gPT09ICJudW1iZXIiICYmIHR5cGVvZiB4U2NhbGUubWF4ID09PSAibnVtYmVyIgogICAgICAgID8geFNjYWxlLm1heCAtIHhTY2FsZS5taW4KICAgICAgICA6IGxhc3RTcGxpdCAtIGZpcnN0U3BsaXQ7CiAgICBpZiAoIU51bWJlci5pc0Zpbml0ZShyYW5nZU1zKSkgewogICAgICByZXR1cm4gc3BsaXRzLm1hcCgodmFsdWUpID0+IGZvcm1hdFRpbWUodmFsdWUsIHRydWUpKTsKICAgIH0KICAgIGlmIChwcm9wcy50aW1lRm9ybWF0dGVyKSB7CiAgICAgIHJldHVybiB0aGluWEF4aXNMYWJlbHMoCiAgICAgICAgY2hhcnQsCiAgICAgICAgc3BsaXRzLAogICAgICAgIHNwbGl0cy5tYXAoKHZhbHVlKSA9PiBwcm9wcy50aW1lRm9ybWF0dGVyPy4odmFsdWUpID8/ICIiKSwKICAgICAgKTsKICAgIH0KICAgIGlmIChyYW5nZU1zID49IExPTkdfUkFOR0VfTVMpIHsKICAgICAgbGV0IHByZXZpb3VzRGF0ZUtleSA9ICIiOwogICAgICBjb25zdCBsYWJlbHMgPSBzcGxpdHMubWFwKCh2YWx1ZSkgPT4gewogICAgICAgIGNvbnN0IGRhdGUgPSBuZXcgRGF0ZSh2YWx1ZSk7CiAgICAgICAgaWYgKCFOdW1iZXIuaXNGaW5pdGUoZGF0ZS5nZXRUaW1lKCkpKSByZXR1cm4gIiI7CiAgICAgICAgY29uc3QgZGF0ZUtleSA9IGdldERhdGVLZXkodmFsdWUpOwogICAgICAgIGlmIChkYXRlS2V5ID09PSBwcmV2aW91c0RhdGVLZXkpIHJldHVybiAiIjsKICAgICAgICBwcmV2aW91c0RhdGVLZXkgPSBkYXRlS2V5OwogICAgICAgIHJldHVybiBmb3JtYXREYXkoZGF0ZSk7CiAgICAgIH0pOwogICAgICByZXR1cm4gdGhpblhBeGlzTGFiZWxzKGNoYXJ0LCBzcGxpdHMsIGxhYmVscyk7CiAgICB9CiAgICByZXR1cm4gdGhpblhBeGlzTGFiZWxzKAogICAgICBjaGFydCwKICAgICAgc3BsaXRzLAogICAgICBzcGxpdHMubWFwKCh2YWx1ZSkgPT4gewogICAgICAgIGNvbnN0IGRhdGUgPSBuZXcgRGF0ZSh2YWx1ZSk7CiAgICAgICAgaWYgKCFOdW1iZXIuaXNGaW5pdGUoZGF0ZS5nZXRUaW1lKCkpKSByZXR1cm4gIiI7CiAgICAgICAgcmV0dXJuIHJhbmdlTXMgPj0gREFZX01TCiAgICAgICAgICA/IGAke2Zvcm1hdERheShkYXRlKX0gJHtmb3JtYXRDbG9jayhkYXRlKX1gCiAgICAgICAgICA6IGZvcm1hdENsb2NrKGRhdGUpOwogICAgICB9KSwKICAgICk7CiAgfTsKCiAgY29uc3QgZ2V0Q2hhcnRDb2xvcnMgPSAoKSA9PiB7CiAgICBjb25zdCBkYXJrID0KICAgICAgdHlwZW9mIGRvY3VtZW50ICE9PSAidW5kZWZpbmVkIiAmJgogICAgICBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuY2xhc3NMaXN0LmNvbnRhaW5zKCJkYXJrIik7CiAgICByZXR1cm4gewogICAgICBheGlzOiBkYXJrID8gIiNhM2EzYTMiIDogIiM3MzczNzMiLAogICAgICBncmlkOiBkYXJrID8gInJnYmEoMjQ1LDI0NSwyNDUsMC4xMikiIDogIiNmNWY1ZjUiLAogICAgfTsKICB9OwoKICBjb25zdCBnZXRDaGFydFNpemUgPSAoKSA9PiB7CiAgICBjb25zdCBlbCA9IHJvb3QudmFsdWU7CiAgICBpZiAoIWVsKSByZXR1cm4geyB3aWR0aDogMzIwLCBoZWlnaHQ6IHByb3BzLm1pbkhlaWdodCB9OwogICAgY29uc3QgcmVjdCA9IGVsLmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpOwogICAgcmV0dXJuIHsKICAgICAgd2lkdGg6IE1hdGgubWF4KDE2MCwgTWF0aC5mbG9vcihyZWN0LndpZHRoIHx8IGVsLmNsaWVudFdpZHRoIHx8IDMyMCkpLAogICAgICBoZWlnaHQ6IE1hdGgubWF4KAogICAgICAgIHByb3BzLm1pbkhlaWdodCwKICAgICAgICBNYXRoLmZsb29yKHJlY3QuaGVpZ2h0IHx8IGVsLmNsaWVudEhlaWdodCB8fCBwcm9wcy5taW5IZWlnaHQpLAogICAgICApLAogICAgfTsKICB9OwoKICBjb25zdCB1cGRhdGVUb29sdGlwID0gKGNoYXJ0OiB1UGxvdCkgPT4gewogICAgY29uc3QgaWR4ID0gY2hhcnQuY3Vyc29yLmlkeDsKICAgIGlmIChpZHggPT09IG51bGwgfHwgaWR4ID09PSB1bmRlZmluZWQgfHwgaWR4IDwgMCkgewogICAgICB0b29sdGlwLnZhbHVlLnZpc2libGUgPSBmYWxzZTsKICAgICAgcmV0dXJuOwogICAgfQogICAgY29uc3QgcmF3VGltZSA9IGNoYXJ0LmRhdGFbMF0/LltpZHhdOwogICAgaWYgKHJhd1RpbWUgPT09IG51bGwgfHwgcmF3VGltZSA9PT0gdW5kZWZpbmVkKSB7CiAgICAgIHRvb2x0aXAudmFsdWUudmlzaWJsZSA9IGZhbHNlOwogICAgICByZXR1cm47CiAgICB9CiAgICBjb25zdCBpdGVtcyA9IHByb3BzLnNlcmllcy5tYXAoKGl0ZW0sIHNlcmllc0luZGV4KSA9PiAoewogICAgICBuYW1lOiBpdGVtLm5hbWUsCiAgICAgIGNvbG9yOiBpdGVtLmNvbG9yLAogICAgICB2YWx1ZTogZm9ybWF0VmFsdWUoCiAgICAgICAgY2hhcnQuZGF0YVtzZXJpZXNJbmRleCArIDFdPy5baWR4XSBhcyBudW1iZXIgfCBudWxsIHwgdW5kZWZpbmVkLAogICAgICApLAogICAgfSkpOwogICAgY29uc3Qgc2l6ZSA9IGdldENoYXJ0U2l6ZSgpOwogICAgY29uc3QgbGVmdCA9IE1hdGgubWluKAogICAgICBNYXRoLm1heChOdW1iZXIoY2hhcnQuY3Vyc29yLmxlZnQgPz8gMCkgKyAxNCwgOCksCiAgICAgIE1hdGgubWF4KDgsIHNpemUud2lkdGggLSAxODApLAogICAgKTsKICAgIGNvbnN0IHRvcCA9IE1hdGgubWluKAogICAgICBNYXRoLm1heChOdW1iZXIoY2hhcnQuY3Vyc29yLnRvcCA/PyAwKSArIDE0LCA4KSwKICAgICAgTWF0aC5tYXgoOCwgc2l6ZS5oZWlnaHQgLSA5NiksCiAgICApOwogICAgdG9vbHRpcC52YWx1ZSA9IHsKICAgICAgdmlzaWJsZTogdHJ1ZSwKICAgICAgbGVmdCwKICAgICAgdG9wLAogICAgICB0aW1lOiBmb3JtYXRUaW1lKE51bWJlcihyYXdUaW1lKSksCiAgICAgIGl0ZW1zLAogICAgfTsKICB9OwoKICBjb25zdCBkZXN0cm95UGxvdCA9ICgpID0+IHsKICAgIHRvb2x0aXAudmFsdWUudmlzaWJsZSA9IGZhbHNlOwogICAgcGxvdC52YWx1ZT8uZGVzdHJveSgpOwogICAgcGxvdC52YWx1ZSA9IG51bGw7CiAgfTsKCiAgY29uc3QgY3JlYXRlT3B0aW9ucyA9ICgpOiB1UGxvdC5PcHRpb25zID0+IHsKICAgIGNvbnN0IHNpemUgPSBnZXRDaGFydFNpemUoKTsKICAgIGNvbnN0IGNvbG9ycyA9IGdldENoYXJ0Q29sb3JzKCk7CiAgICByZXR1cm4gewogICAgICB3aWR0aDogc2l6ZS53aWR0aCwKICAgICAgaGVpZ2h0OiBzaXplLmhlaWdodCwKICAgICAgbXM6IDEsCiAgICAgIHBhZGRpbmc6IFs4LCA4LCAwLCAwXSwKICAgICAgbGVnZW5kOiB7IHNob3c6IGZhbHNlIH0sCiAgICAgIGN1cnNvcjogewogICAgICAgIGRyYWc6IHsgeDogZmFsc2UsIHk6IGZhbHNlIH0sCiAgICAgICAgcG9pbnRzOiB7IHNpemU6IDYgfSwKICAgICAgICB4OiB0cnVlLAogICAgICAgIHk6IGZhbHNlLAogICAgICB9LAogICAgICBzY2FsZXM6IHsKICAgICAgICB4OiB7IHRpbWU6IHRydWUgfSwKICAgICAgICB5OiB7CiAgICAgICAgICByYW5nZTogKF9jaGFydCwgbWluLCBtYXgpID0+IHsKICAgICAgICAgICAgY29uc3QgZmxvb3IgPSBwcm9wcy55TWluID8/IDA7CiAgICAgICAgICAgIGlmICghTnVtYmVyLmlzRmluaXRlKG1pbikgfHwgIU51bWJlci5pc0Zpbml0ZShtYXgpKSB7CiAgICAgICAgICAgICAgcmV0dXJuIFtmbG9vciwgMV07CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKG1pbiA9PT0gbWF4KSByZXR1cm4gW2Zsb29yLCBNYXRoLm1heCgxLCBtYXggKiAxLjIgfHwgMSldOwogICAgICAgICAgICByZXR1cm4gW01hdGgubWluKGZsb29yLCBtaW4pLCBtYXggKiAxLjA4XTsKICAgICAgICAgIH0sCiAgICAgICAgfSwKICAgICAgfSwKICAgICAgYXhlczogWwogICAgICAgIHsKICAgICAgICAgIHN0cm9rZTogY29sb3JzLmF4aXMsCiAgICAgICAgICBncmlkOiB7IHN0cm9rZTogY29sb3JzLmdyaWQsIHdpZHRoOiAxIH0sCiAgICAgICAgICB0aWNrczogeyBzaG93OiBmYWxzZSB9LAogICAgICAgICAgdmFsdWVzOiBmb3JtYXRYQXhpc1ZhbHVlcywKICAgICAgICAgIHNpemU6IDM0LAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgc3Ryb2tlOiBjb2xvcnMuYXhpcywKICAgICAgICAgIGdyaWQ6IHsgc3Ryb2tlOiBjb2xvcnMuZ3JpZCwgd2lkdGg6IDEgfSwKICAgICAgICAgIHRpY2tzOiB7IHNob3c6IGZhbHNlIH0sCiAgICAgICAgICB2YWx1ZXM6IChfY2hhcnQsIHNwbGl0cykgPT4KICAgICAgICAgICAgc3BsaXRzLm1hcCgodmFsdWUpID0+IGZvcm1hdFZhbHVlKHZhbHVlKSksCiAgICAgICAgICBzaXplOiAoX2NoYXJ0LCB2YWx1ZXMpID0+CiAgICAgICAgICAgIGdldFRpbWVTZXJpZXNZQXhpc1NpemUodmFsdWVzLCBlc3RpbWF0ZUF4aXNMYWJlbFdpZHRoKSwKICAgICAgICB9LAogICAgICBdLAogICAgICBzZXJpZXM6IFsKICAgICAgICB7fSwKICAgICAgICAuLi5wcm9wcy5zZXJpZXMubWFwKChpdGVtKSA9PiAoewogICAgICAgICAgbGFiZWw6IGl0ZW0ubmFtZSwKICAgICAgICAgIHN0cm9rZTogaXRlbS5jb2xvciwKICAgICAgICAgIGZpbGw6IGl0ZW0uZmlsbCA/PyBgJHtpdGVtLmNvbG9yfTE0YCwKICAgICAgICAgIHdpZHRoOiBpdGVtLndpZHRoID8/IDIsCiAgICAgICAgICBzcGFuR2FwczogdHJ1ZSwKICAgICAgICAgIHBvaW50czogeyBzaG93OiBmYWxzZSB9LAogICAgICAgIH0pKSwKICAgICAgXSwKICAgICAgaG9va3M6IHsKICAgICAgICBzZXRDdXJzb3I6IFt1cGRhdGVUb29sdGlwXSwKICAgICAgICByZWFkeTogW3VwZGF0ZVRvb2x0aXBdLAogICAgICB9LAogICAgfTsKICB9OwoKICBjb25zdCByZW5kZXJQbG90ID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgbmV4dFRpY2soKTsKICAgIGNvbnN0IGVsID0gcm9vdC52YWx1ZTsKICAgIGlmICghZWwgfHwgIWhhc1JlbmRlcmFibGVEYXRhLnZhbHVlKSB7CiAgICAgIGRlc3Ryb3lQbG90KCk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGRlc3Ryb3lQbG90KCk7CiAgICBwbG90LnZhbHVlID0gbmV3IHVQbG90KGNyZWF0ZU9wdGlvbnMoKSwgYWxpZ25lZERhdGEudmFsdWUsIGVsKTsKICB9OwogIGNvbnN0IHJlc2l6ZVBsb3QgPSAoKSA9PiB7CiAgICBpZiAoIXBsb3QudmFsdWUgfHwgIXJvb3QudmFsdWUpIHJldHVybjsKICAgIHBsb3QudmFsdWUuc2V0U2l6ZShnZXRDaGFydFNpemUoKSk7CiAgfTsKCiAgd2F0Y2goCiAgICAoKSA9PgogICAgICBbCiAgICAgICAgcHJvcHMuc2VyaWVzLAogICAgICAgIGxvY2FsZS52YWx1ZSwKICAgICAgICBwcm9wcy52YWx1ZUZvcm1hdHRlciwKICAgICAgICBwcm9wcy50aW1lRm9ybWF0dGVyLAogICAgICAgIHByb3BzLnlNaW4sCiAgICAgICAgcHJvcHMuc2hvd0xlZ2VuZCwKICAgICAgXSBhcyBjb25zdCwKICAgICgpID0+IHZvaWQgcmVuZGVyUGxvdCgpLAogICAgeyBkZWVwOiB0cnVlIH0sCiAgKTsKCiAgb25Nb3VudGVkKCgpID0+IHsKICAgIHZvaWQgcmVuZGVyUGxvdCgpOwogICAgaWYgKHJvb3QudmFsdWUpIHsKICAgICAgcmVzaXplT2JzZXJ2ZXIgPSBuZXcgUmVzaXplT2JzZXJ2ZXIocmVzaXplUGxvdCk7CiAgICAgIHJlc2l6ZU9ic2VydmVyLm9ic2VydmUocm9vdC52YWx1ZSk7CiAgICB9CiAgICBpZiAodHlwZW9mIGRvY3VtZW50ICE9PSAidW5kZWZpbmVkIikgewogICAgICB0aGVtZU9ic2VydmVyID0gbmV3IE11dGF0aW9uT2JzZXJ2ZXIoKCkgPT4gdm9pZCByZW5kZXJQbG90KCkpOwogICAgICB0aGVtZU9ic2VydmVyLm9ic2VydmUoZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LCB7CiAgICAgICAgYXR0cmlidXRlczogdHJ1ZSwKICAgICAgICBhdHRyaWJ1dGVGaWx0ZXI6IFsiY2xhc3MiXSwKICAgICAgfSk7CiAgICB9CiAgfSk7CgogIG9uQmVmb3JlVW5tb3VudCgoKSA9PiB7CiAgICByZXNpemVPYnNlcnZlcj8uZGlzY29ubmVjdCgpOwogICAgcmVzaXplT2JzZXJ2ZXIgPSBudWxsOwogICAgdGhlbWVPYnNlcnZlcj8uZGlzY29ubmVjdCgpOwogICAgdGhlbWVPYnNlcnZlciA9IG51bGw7CiAgICBkZXN0cm95UGxvdCgpOwogIH0pOwoKICByZXR1cm4gewogICAgaGFzUmVuZGVyYWJsZURhdGEsCiAgICBsZWdlbmRJdGVtcywKICAgIHJvb3QsCiAgICBzaG91bGRTaG93TGVnZW5kLAogICAgdG9vbHRpcCwKICB9Owp9Cg==
+import {
+  computed,
+  nextTick,
+  onBeforeUnmount,
+  onMounted,
+  ref,
+  shallowRef,
+  watch,
+} from "vue";
+import { useI18n } from "vue-i18n";
+import uPlot from "uplot";
+import {
+  alignTimeSeriesData,
+  buildTimeSeriesLegendItems,
+  getTimeSeriesYAxisSize,
+  hasRenderableTimeSeriesData,
+  type TimeSeriesChartSeries,
+} from "./timeSeriesChartModel";
+
+export interface TimeSeriesChartProps {
+  series: readonly TimeSeriesChartSeries[];
+  valueFormatter?: (value: number) => string;
+  timeFormatter?: (value: number) => string;
+  emptyText?: string;
+  minHeight?: number;
+  yMin?: number;
+  showLegend?: boolean;
+}
+
+type ResolvedTimeSeriesChartProps = TimeSeriesChartProps & {
+  emptyText: string;
+  minHeight: number;
+  showLegend: boolean;
+};
+
+type TooltipItem = {
+  name: string;
+  color: string;
+  value: string;
+};
+
+const DAY_MS = 24 * 60 * 60 * 1000;
+const LONG_RANGE_MS = DAY_MS * 2;
+const X_AXIS_LABEL_GAP = 8;
+
+export function useTimeSeriesChart(props: ResolvedTimeSeriesChartProps) {
+  const root = ref<HTMLElement | null>(null);
+  const plot = shallowRef<uPlot | null>(null);
+  const tooltip = ref<{
+    visible: boolean;
+    left: number;
+    top: number;
+    time: string;
+    items: TooltipItem[];
+  }>({ visible: false, left: 0, top: 0, time: "", items: [] });
+  const { locale } = useI18n();
+  let resizeObserver: ResizeObserver | null = null;
+  let themeObserver: MutationObserver | null = null;
+
+  const alignedData = computed(() => alignTimeSeriesData(props.series));
+  const hasRenderableData = computed(() =>
+    hasRenderableTimeSeriesData(alignedData.value),
+  );
+  const legendItems = computed(() =>
+    buildTimeSeriesLegendItems(props.series),
+  );
+  const shouldShowLegend = computed(
+    () => props.showLegend && legendItems.value.length > 1,
+  );
+
+  const formatValue = (value: number | null | undefined) => {
+    if (value === null || value === undefined || !Number.isFinite(value)) {
+      return "-";
+    }
+    return (
+      props.valueFormatter?.(value) ??
+      new Intl.NumberFormat(String(locale.value)).format(value)
+    );
+  };
+
+  const formatTime = (value: number, compact = false) => {
+    if (props.timeFormatter) return props.timeFormatter(value);
+    const date = new Date(value);
+    if (!Number.isFinite(date.getTime())) return "";
+    return new Intl.DateTimeFormat(String(locale.value), {
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      ...(compact ? {} : { second: "2-digit" }),
+    }).format(date);
+  };
+
+  const formatDay = (date: Date) =>
+    new Intl.DateTimeFormat(String(locale.value), {
+      day: "2-digit",
+    }).format(date);
+  const formatClock = (date: Date) =>
+    new Intl.DateTimeFormat(String(locale.value), {
+      hour: "2-digit",
+      minute: "2-digit",
+    }).format(date);
+  const getDateKey = (value: number) => {
+    const date = new Date(value);
+    return `${date.getFullYear()}-${date.getMonth()}-${date.getDate()}`;
+  };
+  const estimateAxisLabelWidth = (label: string) =>
+    Math.max(
+      ...label.split("\n").map((line) =>
+        Array.from(line).reduce(
+          (width, char) => width + (char.charCodeAt(0) > 255 ? 12 : 7),
+          0,
+        ),
+      ),
+    );
+
+  const thinXAxisLabels = (
+    chart: uPlot,
+    splits: number[],
+    labels: string[],
+  ) => {
+    const visibleLabels = Array.from({ length: labels.length }, () => "");
+    let lastRight = Number.NEGATIVE_INFINITY;
+    labels.forEach((label, index) => {
+      if (!label) return;
+      const split = splits[index];
+      if (split === undefined) return;
+      const x = chart.valToPos(split, "x");
+      if (!Number.isFinite(x)) return;
+      const halfWidth = estimateAxisLabelWidth(label) / 2;
+      const left = x - halfWidth;
+      const right = x + halfWidth;
+      if (left >= lastRight + X_AXIS_LABEL_GAP) {
+        visibleLabels[index] = label;
+        lastRight = right;
+      }
+    });
+    return visibleLabels;
+  };
+
+  const formatXAxisValues = (chart: uPlot, splits: number[]) => {
+    const xScale = chart.scales.x;
+    const firstSplit = splits[0] ?? 0;
+    const lastSplit = splits[splits.length - 1] ?? firstSplit;
+    const rangeMs =
+      xScale && typeof xScale.min === "number" && typeof xScale.max === "number"
+        ? xScale.max - xScale.min
+        : lastSplit - firstSplit;
+    if (!Number.isFinite(rangeMs)) {
+      return splits.map((value) => formatTime(value, true));
+    }
+    if (props.timeFormatter) {
+      return thinXAxisLabels(
+        chart,
+        splits,
+        splits.map((value) => props.timeFormatter?.(value) ?? ""),
+      );
+    }
+    if (rangeMs >= LONG_RANGE_MS) {
+      let previousDateKey = "";
+      const labels = splits.map((value) => {
+        const date = new Date(value);
+        if (!Number.isFinite(date.getTime())) return "";
+        const dateKey = getDateKey(value);
+        if (dateKey === previousDateKey) return "";
+        previousDateKey = dateKey;
+        return formatDay(date);
+      });
+      return thinXAxisLabels(chart, splits, labels);
+    }
+    return thinXAxisLabels(
+      chart,
+      splits,
+      splits.map((value) => {
+        const date = new Date(value);
+        if (!Number.isFinite(date.getTime())) return "";
+        return rangeMs >= DAY_MS
+          ? `${formatDay(date)} ${formatClock(date)}`
+          : formatClock(date);
+      }),
+    );
+  };
+
+  const getChartColors = () => {
+    const dark =
+      typeof document !== "undefined" &&
+      document.documentElement.classList.contains("dark");
+    return {
+      axis: dark ? "#a3a3a3" : "#737373",
+      grid: dark ? "rgba(245,245,245,0.12)" : "#f5f5f5",
+    };
+  };
+
+  const getChartSize = () => {
+    const el = root.value;
+    if (!el) return { width: 320, height: props.minHeight };
+    const rect = el.getBoundingClientRect();
+    return {
+      width: Math.max(160, Math.floor(rect.width || el.clientWidth || 320)),
+      height: Math.max(
+        props.minHeight,
+        Math.floor(rect.height || el.clientHeight || props.minHeight),
+      ),
+    };
+  };
+
+  const updateTooltip = (chart: uPlot) => {
+    const idx = chart.cursor.idx;
+    if (idx === null || idx === undefined || idx < 0) {
+      tooltip.value.visible = false;
+      return;
+    }
+    const rawTime = chart.data[0]?.[idx];
+    if (rawTime === null || rawTime === undefined) {
+      tooltip.value.visible = false;
+      return;
+    }
+    const items = props.series.map((item, seriesIndex) => ({
+      name: item.name,
+      color: item.color,
+      value: formatValue(
+        chart.data[seriesIndex + 1]?.[idx] as number | null | undefined,
+      ),
+    }));
+    const size = getChartSize();
+    const left = Math.min(
+      Math.max(Number(chart.cursor.left ?? 0) + 14, 8),
+      Math.max(8, size.width - 180),
+    );
+    const top = Math.min(
+      Math.max(Number(chart.cursor.top ?? 0) + 14, 8),
+      Math.max(8, size.height - 96),
+    );
+    tooltip.value = {
+      visible: true,
+      left,
+      top,
+      time: formatTime(Number(rawTime)),
+      items,
+    };
+  };
+
+  const destroyPlot = () => {
+    tooltip.value.visible = false;
+    plot.value?.destroy();
+    plot.value = null;
+  };
+
+  const createOptions = (): uPlot.Options => {
+    const size = getChartSize();
+    const colors = getChartColors();
+    return {
+      width: size.width,
+      height: size.height,
+      ms: 1,
+      padding: [8, 8, 0, 0],
+      legend: { show: false },
+      cursor: {
+        drag: { x: false, y: false },
+        points: { size: 6 },
+        x: true,
+        y: false,
+      },
+      scales: {
+        x: { time: true },
+        y: {
+          range: (_chart, min, max) => {
+            const floor = props.yMin ?? 0;
+            if (!Number.isFinite(min) || !Number.isFinite(max)) {
+              return [floor, 1];
+            }
+            if (min === max) return [floor, Math.max(1, max * 1.2 || 1)];
+            return [Math.min(floor, min), max * 1.08];
+          },
+        },
+      },
+      axes: [
+        {
+          stroke: colors.axis,
+          grid: { stroke: colors.grid, width: 1 },
+          ticks: { show: false },
+          values: formatXAxisValues,
+          size: 34,
+        },
+        {
+          stroke: colors.axis,
+          grid: { stroke: colors.grid, width: 1 },
+          ticks: { show: false },
+          values: (_chart, splits) =>
+            splits.map((value) => formatValue(value)),
+          size: (_chart, values) =>
+            getTimeSeriesYAxisSize(values, estimateAxisLabelWidth),
+        },
+      ],
+      series: [
+        {},
+        ...props.series.map((item) => ({
+          label: item.name,
+          stroke: item.color,
+          fill: item.fill ?? `${item.color}14`,
+          width: item.width ?? 2,
+          spanGaps: true,
+          points: { show: false },
+        })),
+      ],
+      hooks: {
+        setCursor: [updateTooltip],
+        ready: [updateTooltip],
+      },
+    };
+  };
+
+  const renderPlot = async () => {
+    await nextTick();
+    const el = root.value;
+    if (!el || !hasRenderableData.value) {
+      destroyPlot();
+      return;
+    }
+    destroyPlot();
+    plot.value = new uPlot(createOptions(), alignedData.value, el);
+  };
+  const resizePlot = () => {
+    if (!plot.value || !root.value) return;
+    plot.value.setSize(getChartSize());
+  };
+
+  watch(
+    () =>
+      [
+        props.series,
+        locale.value,
+        props.valueFormatter,
+        props.timeFormatter,
+        props.yMin,
+        props.showLegend,
+      ] as const,
+    () => void renderPlot(),
+    { deep: true },
+  );
+
+  onMounted(() => {
+    void renderPlot();
+    if (root.value) {
+      resizeObserver = new ResizeObserver(resizePlot);
+      resizeObserver.observe(root.value);
+    }
+    if (typeof document !== "undefined") {
+      themeObserver = new MutationObserver(() => void renderPlot());
+      themeObserver.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ["class"],
+      });
+    }
+  });
+
+  onBeforeUnmount(() => {
+    resizeObserver?.disconnect();
+    resizeObserver = null;
+    themeObserver?.disconnect();
+    themeObserver = null;
+    destroyPlot();
+  });
+
+  return {
+    hasRenderableData,
+    legendItems,
+    root,
+    shouldShowLegend,
+    tooltip,
+  };
+}

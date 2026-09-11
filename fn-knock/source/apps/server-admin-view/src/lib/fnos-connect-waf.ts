@@ -1,1 +1,10 @@
-aW1wb3J0IHR5cGUgeyBSdW50aW1lQ2FwYWJpbGl0aWVzLCBSdW50aW1lUHJvZmlsZSB9IGZyb20gIi4uL3R5cGVzIjsKCi8vIFRoaXMgZGVsaWJlcmF0ZWx5IHJlcXVpcmVzIGJvdGggc2lnbmFscy4gQSBzdGFsZSBvciBtYW51YWxseSByZXN0b3JlZAovLyBjYXBhYmlsaXR5IG11c3Qgbm90IGV4cG9zZSBob3N0LWZpcmV3YWxsIGNvbnRyb2xzIG91dHNpZGUgdGhlIHN0YW5kYXJkIEZQSy4KZXhwb3J0IGNvbnN0IGNhblVzZUZub3NDb25uZWN0V2FmRm9yUnVudGltZSA9ICgKICBwcm9maWxlPzogUnVudGltZVByb2ZpbGUsCiAgY2FwYWJpbGl0aWVzPzogUnVudGltZUNhcGFiaWxpdGllcywKKTogYm9vbGVhbiA9PgogIHByb2ZpbGU/LmRlcGxveW1lbnRfdGFyZ2V0ID09PSAiZnBrIiAmJgogIGNhcGFiaWxpdGllcz8uZm5vc19jb25uZWN0X3dhZl9hdmFpbGFibGUgPT09IHRydWU7Cg==
+import type { RuntimeCapabilities, RuntimeProfile } from "../types";
+
+// This deliberately requires both signals. A stale or manually restored
+// capability must not expose host-firewall controls outside the standard FPK.
+export const canUseFnosConnectWafForRuntime = (
+  profile?: RuntimeProfile,
+  capabilities?: RuntimeCapabilities,
+): boolean =>
+  profile?.deployment_target === "fpk" &&
+  capabilities?.fnos_connect_waf_available === true;

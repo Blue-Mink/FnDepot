@@ -1,1 +1,26 @@
-aW1wb3J0IHR5cGUgeyBWYXJpYW50UHJvcHMgfSBmcm9tICJjbGFzcy12YXJpYW5jZS1hdXRob3JpdHkiCmltcG9ydCB7IGN2YSB9IGZyb20gImNsYXNzLXZhcmlhbmNlLWF1dGhvcml0eSIKCmV4cG9ydCB7IGRlZmF1bHQgYXMgQmFkZ2UgfSBmcm9tICIuL0JhZGdlLnZ1ZSIKCmV4cG9ydCBjb25zdCBiYWRnZVZhcmlhbnRzID0gY3ZhKAogICJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1mdWxsIGJvcmRlciBweC0yIHB5LTAuNSB0ZXh0LXhzIGZvbnQtbWVkaXVtIHctZml0IHdoaXRlc3BhY2Utbm93cmFwIHNocmluay0wIFsmPnN2Z106c2l6ZS0zIGdhcC0xIFsmPnN2Z106cG9pbnRlci1ldmVudHMtbm9uZSBmb2N1cy12aXNpYmxlOmJvcmRlci1yaW5nIGZvY3VzLXZpc2libGU6cmluZy1yaW5nLzUwIGZvY3VzLXZpc2libGU6cmluZy1bM3B4XSBhcmlhLWludmFsaWQ6cmluZy1kZXN0cnVjdGl2ZS8yMCBkYXJrOmFyaWEtaW52YWxpZDpyaW5nLWRlc3RydWN0aXZlLzQwIGFyaWEtaW52YWxpZDpib3JkZXItZGVzdHJ1Y3RpdmUgdHJhbnNpdGlvbi1bY29sb3IsYm94LXNoYWRvd10gb3ZlcmZsb3ctaGlkZGVuIiwKICB7CiAgICB2YXJpYW50czogewogICAgICB2YXJpYW50OiB7CiAgICAgICAgZGVmYXVsdDoKICAgICAgICAgICJib3JkZXItdHJhbnNwYXJlbnQgYmctcHJpbWFyeSB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCBbYSZdOmhvdmVyOmJnLXByaW1hcnkvOTAiLAogICAgICAgIHNlY29uZGFyeToKICAgICAgICAgICJib3JkZXItdHJhbnNwYXJlbnQgYmctc2Vjb25kYXJ5IHRleHQtc2Vjb25kYXJ5LWZvcmVncm91bmQgW2EmXTpob3ZlcjpiZy1zZWNvbmRhcnkvOTAiLAogICAgICAgIGRlc3RydWN0aXZlOgogICAgICAgICAiYm9yZGVyLXRyYW5zcGFyZW50IGJnLWRlc3RydWN0aXZlIHRleHQtd2hpdGUgW2EmXTpob3ZlcjpiZy1kZXN0cnVjdGl2ZS85MCBmb2N1cy12aXNpYmxlOnJpbmctZGVzdHJ1Y3RpdmUvMjAgZGFyazpmb2N1cy12aXNpYmxlOnJpbmctZGVzdHJ1Y3RpdmUvNDAgZGFyazpiZy1kZXN0cnVjdGl2ZS82MCIsCiAgICAgICAgb3V0bGluZToKICAgICAgICAgICJ0ZXh0LWZvcmVncm91bmQgW2EmXTpob3ZlcjpiZy1hY2NlbnQgW2EmXTpob3Zlcjp0ZXh0LWFjY2VudC1mb3JlZ3JvdW5kIiwKICAgICAgfSwKICAgIH0sCiAgICBkZWZhdWx0VmFyaWFudHM6IHsKICAgICAgdmFyaWFudDogImRlZmF1bHQiLAogICAgfSwKICB9LAopCmV4cG9ydCB0eXBlIEJhZGdlVmFyaWFudHMgPSBWYXJpYW50UHJvcHM8dHlwZW9mIGJhZGdlVmFyaWFudHM+Cg==
+import type { VariantProps } from "class-variance-authority"
+import { cva } from "class-variance-authority"
+
+export { default as Badge } from "./Badge.vue"
+
+export const badgeVariants = cva(
+  "inline-flex items-center justify-center rounded-full border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden",
+  {
+    variants: {
+      variant: {
+        default:
+          "border-transparent bg-primary text-primary-foreground [a&]:hover:bg-primary/90",
+        secondary:
+          "border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90",
+        destructive:
+         "border-transparent bg-destructive text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
+        outline:
+          "text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground",
+      },
+    },
+    defaultVariants: {
+      variant: "default",
+    },
+  },
+)
+export type BadgeVariants = VariantProps<typeof badgeVariants>

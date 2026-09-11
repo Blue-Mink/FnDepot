@@ -1,1 +1,26 @@
-Y29uc3QgcmVhZE5vbkVtcHR5U3RyaW5nID0gKHZhbHVlOiB1bmtub3duKTogc3RyaW5nIHwgbnVsbCA9PiB7CiAgaWYgKHR5cGVvZiB2YWx1ZSAhPT0gInN0cmluZyIpIHJldHVybiBudWxsOwogIGNvbnN0IG5vcm1hbGl6ZWQgPSB2YWx1ZS50cmltKCk7CiAgcmV0dXJuIG5vcm1hbGl6ZWQgfHwgbnVsbDsKfTsKCmV4cG9ydCBmdW5jdGlvbiBleHRyYWN0RXJyb3JNZXNzYWdlKAogIGVycm9yOiB1bmtub3duLAogIGZhbGxiYWNrID0gIk9wZXJhdGlvbiBmYWlsZWQiLAopOiBzdHJpbmcgewogIGlmICghZXJyb3IgfHwgdHlwZW9mIGVycm9yICE9PSAib2JqZWN0IikgcmV0dXJuIGZhbGxiYWNrOwoKICBjb25zdCByZXNwb25zZURhdGEgPSAoZXJyb3IgYXMgeyByZXNwb25zZT86IHsgZGF0YT86IHVua25vd24gfSB9KS5yZXNwb25zZQogICAgPy5kYXRhOwogIGNvbnN0IHJlc3BvbnNlTWVzc2FnZSA9CiAgICByZWFkTm9uRW1wdHlTdHJpbmcocmVzcG9uc2VEYXRhKSA/PwogICAgKHJlc3BvbnNlRGF0YSAmJiB0eXBlb2YgcmVzcG9uc2VEYXRhID09PSAib2JqZWN0IgogICAgICA/IHJlYWROb25FbXB0eVN0cmluZygocmVzcG9uc2VEYXRhIGFzIHsgbWVzc2FnZT86IHVua25vd24gfSkubWVzc2FnZSkKICAgICAgOiBudWxsKTsKCiAgcmV0dXJuICgKICAgIHJlc3BvbnNlTWVzc2FnZSA/PwogICAgcmVhZE5vbkVtcHR5U3RyaW5nKChlcnJvciBhcyB7IG1lc3NhZ2U/OiB1bmtub3duIH0pLm1lc3NhZ2UpID8/CiAgICBmYWxsYmFjawogICk7Cn0K
+const readNonEmptyString = (value: unknown): string | null => {
+  if (typeof value !== "string") return null;
+  const normalized = value.trim();
+  return normalized || null;
+};
+
+export function extractErrorMessage(
+  error: unknown,
+  fallback = "Operation failed",
+): string {
+  if (!error || typeof error !== "object") return fallback;
+
+  const responseData = (error as { response?: { data?: unknown } }).response
+    ?.data;
+  const responseMessage =
+    readNonEmptyString(responseData) ??
+    (responseData && typeof responseData === "object"
+      ? readNonEmptyString((responseData as { message?: unknown }).message)
+      : null);
+
+  return (
+    responseMessage ??
+    readNonEmptyString((error as { message?: unknown }).message) ??
+    fallback
+  );
+}

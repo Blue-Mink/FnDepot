@@ -1,1 +1,36 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUHJpbWl0aXZlUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgdHlwZSB7IFNpZGViYXJNZW51QnV0dG9uVmFyaWFudHMgfSBmcm9tICIuIgppbXBvcnQgeyBQcmltaXRpdmUgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgppbXBvcnQgeyBzaWRlYmFyTWVudUJ1dHRvblZhcmlhbnRzIH0gZnJvbSAiLiIKCmV4cG9ydCBpbnRlcmZhY2UgU2lkZWJhck1lbnVCdXR0b25Qcm9wcyBleHRlbmRzIFByaW1pdGl2ZVByb3BzIHsKICB2YXJpYW50PzogU2lkZWJhck1lbnVCdXR0b25WYXJpYW50c1sidmFyaWFudCJdCiAgc2l6ZT86IFNpZGViYXJNZW51QnV0dG9uVmFyaWFudHNbInNpemUiXQogIGlzQWN0aXZlPzogYm9vbGVhbgogIGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0KfQoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoZGVmaW5lUHJvcHM8U2lkZWJhck1lbnVCdXR0b25Qcm9wcz4oKSwgewogIGFzOiAiYnV0dG9uIiwKICB2YXJpYW50OiAiZGVmYXVsdCIsCiAgc2l6ZTogImRlZmF1bHQiLAp9KQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UHJpbWl0aXZlCiAgICBkYXRhLXNsb3Q9InNpZGViYXItbWVudS1idXR0b24iCiAgICBkYXRhLXNpZGViYXI9Im1lbnUtYnV0dG9uIgogICAgOmRhdGEtc2l6ZT0ic2l6ZSIKICAgIDpkYXRhLWFjdGl2ZT0iaXNBY3RpdmUiCiAgICA6Y2xhc3M9ImNuKHNpZGViYXJNZW51QnV0dG9uVmFyaWFudHMoeyB2YXJpYW50LCBzaXplIH0pLCBwcm9wcy5jbGFzcykiCiAgICA6YXM9ImFzIgogICAgOmFzLWNoaWxkPSJhc0NoaWxkIgogICAgdi1iaW5kPSIkYXR0cnMiCiAgPgogICAgPHNsb3QgLz4KICA8L1ByaW1pdGl2ZT4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { PrimitiveProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import type { SidebarMenuButtonVariants } from "."
+import { Primitive } from "reka-ui"
+import { cn } from "@/lib/utils"
+import { sidebarMenuButtonVariants } from "."
+
+export interface SidebarMenuButtonProps extends PrimitiveProps {
+  variant?: SidebarMenuButtonVariants["variant"]
+  size?: SidebarMenuButtonVariants["size"]
+  isActive?: boolean
+  class?: HTMLAttributes["class"]
+}
+
+const props = withDefaults(defineProps<SidebarMenuButtonProps>(), {
+  as: "button",
+  variant: "default",
+  size: "default",
+})
+</script>
+
+<template>
+  <Primitive
+    data-slot="sidebar-menu-button"
+    data-sidebar="menu-button"
+    :data-size="size"
+    :data-active="isActive"
+    :class="cn(sidebarMenuButtonVariants({ variant, size }), props.class)"
+    :as="as"
+    :as-child="asChild"
+    v-bind="$attrs"
+  >
+    <slot />
+  </Primitive>
+</template>

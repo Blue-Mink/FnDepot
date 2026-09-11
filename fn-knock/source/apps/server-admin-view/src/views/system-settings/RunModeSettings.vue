@@ -1,1 +1,443 @@
-PHRlbXBsYXRlPgogIDxDYXJkPgogICAgPENhcmRIZWFkZXI+CiAgICAgIDxDYXJkVGl0bGU+e3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnRpdGxlIikgfX08L0NhcmRUaXRsZT4KICAgICAgPENhcmREZXNjcmlwdGlvbj57ewogICAgICAgIHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5kZXNjcmlwdGlvbiIpCiAgICAgIH19PC9DYXJkRGVzY3JpcHRpb24+CiAgICA8L0NhcmRIZWFkZXI+CiAgICA8Q2FyZENvbnRlbnQgY2xhc3M9ImdyaWQgZ2FwLTYiPgogICAgICA8QWxlcnQKICAgICAgICBjbGFzcz0iaXRlbXMtc3RhcnQgcm91bmRlZC14bCBib3JkZXItYm9yZGVyLzcwIGJnLW11dGVkLzMwIHRleHQtZm9yZWdyb3VuZCIKICAgICAgPgogICAgICAgIDxJbmZvIGNsYXNzPSJtdC0wLjUgaC00IHctNCIgLz4KICAgICAgICA8QWxlcnRUaXRsZT57eyBhY2Nlc3NBbGVydFRpdGxlIH19PC9BbGVydFRpdGxlPgogICAgICAgIDxBbGVydERlc2NyaXB0aW9uPgogICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIHRleHQtc20gbGVhZGluZy02Ij4KICAgICAgICAgICAgPHA+e3sgYWNjZXNzQWxlcnREZXNjcmlwdGlvbiB9fTwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvQWxlcnREZXNjcmlwdGlvbj4KICAgICAgPC9BbGVydD4KCiAgICAgIDxBbGVydAogICAgICAgIHYtaWY9InNob3dIb3N0RmlyZXdhbGxVbmF2YWlsYWJsZUFsZXJ0IgogICAgICAgIGNsYXNzPSJpdGVtcy1zdGFydCByb3VuZGVkLXhsIGJvcmRlci1ib3JkZXIvNzAgYmctbXV0ZWQvMzAgdGV4dC1mb3JlZ3JvdW5kIgogICAgICA+CiAgICAgICAgPEluZm8gY2xhc3M9Im10LTAuNSBoLTQgdy00IiAvPgogICAgICAgIDxBbGVydFRpdGxlPnt7CiAgICAgICAgICB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MuaG9zdEZpcmV3YWxsVW5hdmFpbGFibGVUaXRsZSIpCiAgICAgICAgfX08L0FsZXJ0VGl0bGU+CiAgICAgICAgPEFsZXJ0RGVzY3JpcHRpb24+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIgdGV4dC1zbSBsZWFkaW5nLTYiPgogICAgICAgICAgICA8cD57eyBob3N0RmlyZXdhbGxVbmF2YWlsYWJsZURlc2NyaXB0aW9uIH19PC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9BbGVydERlc2NyaXB0aW9uPgogICAgICA8L0FsZXJ0PgoKICAgICAgPGRpdgogICAgICAgIHYtaWY9ImNhblVzZURpcmVjdE1vZGUiCiAgICAgICAgY2xhc3M9Imdyb3VwIHJvdW5kZWQtbGcgYm9yZGVyIHRyYW5zaXRpb24tYWxsIGhvdmVyOmJvcmRlci1wcmltYXJ5LzUwIgogICAgICAgIDpjbGFzcz0iCiAgICAgICAgICBtb2RlID09PSAwCiAgICAgICAgICAgID8gJ2JvcmRlci1wcmltYXJ5LzcwIGJnLXByaW1hcnkvNSByaW5nLTEgcmluZy1wcmltYXJ5LzIwIHNoYWRvdy1zbScKICAgICAgICAgICAgOiAnYm9yZGVyLWJvcmRlciBiZy1iYWNrZ3JvdW5kIGhvdmVyOmJvcmRlci1wcmltYXJ5LzQwIGhvdmVyOmJnLW11dGVkLzMwJwogICAgICAgICIKICAgICAgPgogICAgICAgIDxsYWJlbCBjbGFzcz0iZmxleCBjdXJzb3ItcG9pbnRlciBpdGVtcy1zdGFydCBzcGFjZS14LTQgcm91bmRlZC1sZyBwLTQiPgogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzcz0ibXQtMSBmbGV4IGgtNSB3LTUgc2hyaW5rLTAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtZnVsbCBib3JkZXIgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgIDpjbGFzcz0iCiAgICAgICAgICAgICAgbW9kZSA9PT0gMAogICAgICAgICAgICAgICAgPyAnYm9yZGVyLXByaW1hcnknCiAgICAgICAgICAgICAgICA6ICdib3JkZXItbXV0ZWQtZm9yZWdyb3VuZC80MCBncm91cC1ob3Zlcjpib3JkZXItcHJpbWFyeS82MCcKICAgICAgICAgICAgIgogICAgICAgICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIHYtc2hvdz0ibW9kZSA9PT0gMCIKICAgICAgICAgICAgICBjbGFzcz0iaC0yLjUgdy0yLjUgcm91bmRlZC1mdWxsIGJnLXByaW1hcnkiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICB2LW1vZGVsPSJtb2RlIgogICAgICAgICAgICB0eXBlPSJyYWRpbyIKICAgICAgICAgICAgbmFtZT0icnVuLW1vZGUiCiAgICAgICAgICAgIDp2YWx1ZT0iMCIKICAgICAgICAgICAgY2xhc3M9InNyLW9ubHkiCiAgICAgICAgICAvPgogICAgICAgICAgPHNwYW4gY2xhc3M9ImZsZXgtMSBzcGFjZS15LTIiPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCBsZWFkaW5nLW5vbmUiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLmRpcmVjdE1vZGVUaXRsZSIpIH19CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICBjbGFzcz0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctbXV0ZWQvNDAgcHgtMiBweS0wLjUgdGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLmRpcmVjdE1vZGVCYWRnZSIpIH19CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJibG9jayB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLmRpcmVjdE1vZGVEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L2xhYmVsPgogICAgICAgIDxkaXYgY2xhc3M9InB4LTQgcGItNCBwbC0xMiI+CiAgICAgICAgICA8RG9jc0xpbmtCdXR0b24gOmhyZWY9ImRvY3NVcmxzLnJ1bk1vZGVzLmRpcmVjdCIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2CiAgICAgICAgY2xhc3M9Imdyb3VwIHJvdW5kZWQtbGcgYm9yZGVyIHRyYW5zaXRpb24tYWxsIGhvdmVyOmJvcmRlci1wcmltYXJ5LzUwIgogICAgICAgIDpjbGFzcz0iCiAgICAgICAgICBtb2RlID09PSAxCiAgICAgICAgICAgID8gJ2JvcmRlci1wcmltYXJ5LzcwIGJnLXByaW1hcnkvNSByaW5nLTEgcmluZy1wcmltYXJ5LzIwIHNoYWRvdy1zbScKICAgICAgICAgICAgOiAnYm9yZGVyLWJvcmRlciBiZy1iYWNrZ3JvdW5kIGhvdmVyOmJvcmRlci1wcmltYXJ5LzQwIGhvdmVyOmJnLW11dGVkLzMwJwogICAgICAgICIKICAgICAgPgogICAgICAgIDxsYWJlbCBjbGFzcz0iZmxleCBjdXJzb3ItcG9pbnRlciBpdGVtcy1zdGFydCBzcGFjZS14LTQgcm91bmRlZC1sZyBwLTQiPgogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzcz0ibXQtMSBmbGV4IGgtNSB3LTUgc2hyaW5rLTAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtZnVsbCBib3JkZXIgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgIDpjbGFzcz0iCiAgICAgICAgICAgICAgbW9kZSA9PT0gMQogICAgICAgICAgICAgICAgPyAnYm9yZGVyLXByaW1hcnknCiAgICAgICAgICAgICAgICA6ICdib3JkZXItbXV0ZWQtZm9yZWdyb3VuZC80MCBncm91cC1ob3Zlcjpib3JkZXItcHJpbWFyeS82MCcKICAgICAgICAgICAgIgogICAgICAgICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIHYtc2hvdz0ibW9kZSA9PT0gMSIKICAgICAgICAgICAgICBjbGFzcz0iaC0yLjUgdy0yLjUgcm91bmRlZC1mdWxsIGJnLXByaW1hcnkiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICB2LW1vZGVsPSJtb2RlIgogICAgICAgICAgICB0eXBlPSJyYWRpbyIKICAgICAgICAgICAgbmFtZT0icnVuLW1vZGUiCiAgICAgICAgICAgIDp2YWx1ZT0iMSIKICAgICAgICAgICAgY2xhc3M9InNyLW9ubHkiCiAgICAgICAgICAgIEBjaGFuZ2U9InNlbGVjdFJldmVyc2VQcm94eU1vZGUiCiAgICAgICAgICAvPgogICAgICAgICAgPHNwYW4gY2xhc3M9ImZsZXgtMSBzcGFjZS15LTIiPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iYmxvY2sgdGV4dC1iYXNlIGZvbnQtc2VtaWJvbGQgbGVhZGluZy1ub25lIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MucmV2ZXJzZU1vZGVUaXRsZSIpIH19CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImJsb2NrIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MucmV2ZXJzZU1vZGVEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L2xhYmVsPgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiBweC00IHBiLTQgcGwtMTIiPgogICAgICAgICAgPERvY3NMaW5rQnV0dG9uIDpocmVmPSJkb2NzVXJscy5ydW5Nb2Rlcy5yZXZlcnNlIiAvPgogICAgICAgICAgPGRpdiB2LWlmPSJtb2RlID09PSAxIiBjbGFzcz0iZ3JpZCBnYXAtMyBzbTpncmlkLWNvbHMtMiI+CiAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIHB4LTMgcHktMyB0ZXh0LWxlZnQgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgOmNsYXNzPSIKICAgICAgICAgICAgICAgIHJldmVyc2VQcm94eVN1Ym1vZGUgPT09ICdzdWJkb21haW4nCiAgICAgICAgICAgICAgICAgID8gJ2JvcmRlci1wcmltYXJ5LzcwIGJnLXByaW1hcnkvNSBzaGFkb3ctc20nCiAgICAgICAgICAgICAgICAgIDogJ2JvcmRlci1ib3JkZXIgYmctYmFja2dyb3VuZCBob3Zlcjpib3JkZXItcHJpbWFyeS80MCBob3ZlcjpiZy1tdXRlZC8zMCcKICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgQGNsaWNrPSJyZXZlcnNlUHJveHlTdWJtb2RlID0gJ3N1YmRvbWFpbiciCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnN1YmRvbWFpbk1hcHBpbmciKSB9fQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8cCBjbGFzcz0ibXQtMSB0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnN1YmRvbWFpblN1Ym1vZGVEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgcHgtMyBweS0zIHRleHQtbGVmdCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgICA6Y2xhc3M9IgogICAgICAgICAgICAgICAgcmV2ZXJzZVByb3h5U3VibW9kZSA9PT0gJ3BhdGgnCiAgICAgICAgICAgICAgICAgID8gJ2JvcmRlci1wcmltYXJ5LzcwIGJnLXByaW1hcnkvNSBzaGFkb3ctc20nCiAgICAgICAgICAgICAgICAgIDogJ2JvcmRlci1ib3JkZXIgYmctYmFja2dyb3VuZCBob3Zlcjpib3JkZXItcHJpbWFyeS80MCBob3ZlcjpiZy1tdXRlZC8zMCcKICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgQGNsaWNrPSJyZXZlcnNlUHJveHlTdWJtb2RlID0gJ3BhdGgnIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHAKICAgICAgICAgICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LWZvcmVncm91bmQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPHNwYW4+e3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnBhdGhNYXBwaW5nIikgfX08L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICBjbGFzcz0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIHJvdW5kZWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctbXV0ZWQvNDAgcHgtMS41IHB5LTAuNSB0ZXh0LVsxMHB4XSBmb250LW1lZGl1bSBsZWFkaW5nLW5vbmUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MucGF0aFN1Ym1vZGVEZXByZWNhdGVkQmFkZ2UiKSB9fQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8cCBjbGFzcz0ibXQtMSB0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnBhdGhTdWJtb2RlRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2CiAgICAgICAgY2xhc3M9Imdyb3VwIHJvdW5kZWQtbGcgYm9yZGVyIHRyYW5zaXRpb24tYWxsIGhvdmVyOmJvcmRlci1wcmltYXJ5LzUwIgogICAgICAgIDpjbGFzcz0iCiAgICAgICAgICBtb2RlID09PSAzCiAgICAgICAgICAgID8gJ2JvcmRlci1wcmltYXJ5LzcwIGJnLXByaW1hcnkvNSByaW5nLTEgcmluZy1wcmltYXJ5LzIwIHNoYWRvdy1zbScKICAgICAgICAgICAgOiAnYm9yZGVyLWJvcmRlciBiZy1iYWNrZ3JvdW5kIGhvdmVyOmJvcmRlci1wcmltYXJ5LzQwIGhvdmVyOmJnLW11dGVkLzMwJwogICAgICAgICIKICAgICAgPgogICAgICAgIDxsYWJlbCBjbGFzcz0iZmxleCBjdXJzb3ItcG9pbnRlciBpdGVtcy1zdGFydCBzcGFjZS14LTQgcm91bmRlZC1sZyBwLTQiPgogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzcz0ibXQtMSBmbGV4IGgtNSB3LTUgc2hyaW5rLTAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtZnVsbCBib3JkZXIgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgIDpjbGFzcz0iCiAgICAgICAgICAgICAgbW9kZSA9PT0gMwogICAgICAgICAgICAgICAgPyAnYm9yZGVyLXByaW1hcnknCiAgICAgICAgICAgICAgICA6ICdib3JkZXItbXV0ZWQtZm9yZWdyb3VuZC80MCBncm91cC1ob3Zlcjpib3JkZXItcHJpbWFyeS82MCcKICAgICAgICAgICAgIgogICAgICAgICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIHYtc2hvdz0ibW9kZSA9PT0gMyIKICAgICAgICAgICAgICBjbGFzcz0iaC0yLjUgdy0yLjUgcm91bmRlZC1mdWxsIGJnLXByaW1hcnkiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICB2LW1vZGVsPSJtb2RlIgogICAgICAgICAgICB0eXBlPSJyYWRpbyIKICAgICAgICAgICAgbmFtZT0icnVuLW1vZGUiCiAgICAgICAgICAgIDp2YWx1ZT0iMyIKICAgICAgICAgICAgY2xhc3M9InNyLW9ubHkiCiAgICAgICAgICAvPgogICAgICAgICAgPHNwYW4gY2xhc3M9ImZsZXgtMSBzcGFjZS15LTIiPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCBsZWFkaW5nLW5vbmUiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnN1YmRvbWFpbk1vZGVUaXRsZSIpIH19CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICBjbGFzcz0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctbXV0ZWQvNDAgcHgtMiBweS0wLjUgdGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnN1YmRvbWFpbk1vZGVCYWRnZSIpIH19CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJibG9jayB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnN1YmRvbWFpbk1vZGVEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L2xhYmVsPgogICAgICAgIDxkaXYgY2xhc3M9InB4LTQgcGItNCBwbC0xMiI+CiAgICAgICAgICA8RG9jc0xpbmtCdXR0b24gOmhyZWY9ImRvY3NVcmxzLnJ1bk1vZGVzLnN1YmRvbWFpbiIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L0NhcmRDb250ZW50PgogICAgPENhcmRGb290ZXIKICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTQgYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBwdC02IHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICA+CiAgICAgIDxsYWJlbAogICAgICAgIHYtaWY9ImNhbk1hbmFnZUhvc3RGaXJld2FsbCIKICAgICAgICBjbGFzcz0iZmxleCBpdGVtcy1zdGFydCBnYXAtMyB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgPgogICAgICAgIDxDaGVja2JveAogICAgICAgICAgY2xhc3M9Im10LTAuNSIKICAgICAgICAgIDptb2RlbC12YWx1ZT0iYXV0b01hbmFnZUZpcmV3YWxsIgogICAgICAgICAgOmRpc2FibGVkPSJpc0J1c3kiCiAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJoYW5kbGVBdXRvTWFuYWdlRmlyZXdhbGxDaGFuZ2UiCiAgICAgICAgLz4KICAgICAgICA8c3BhbiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJibG9jayBmb250LW1lZGl1bSB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MuYXV0b0ZpcmV3YWxsVGl0bGUiKSB9fQogICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPHNwYW4gY2xhc3M9ImJsb2NrIHRleHQteHMgbGVhZGluZy01IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5hdXRvRmlyZXdhbGxEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9zcGFuPgogICAgICAgIDxMb2FkZXIyCiAgICAgICAgICB2LWlmPSJpc0F1dG9NYW5hZ2VGaXJld2FsbFBlbmRpbmciCiAgICAgICAgICBjbGFzcz0ibXQtMC41IGgtNCB3LTQgYW5pbWF0ZS1zcGluIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAvPgogICAgICA8L2xhYmVsPgogICAgICA8ZGl2CiAgICAgICAgdi1lbHNlLWlmPSIhaXNEb2NrZXJEZXBsb3ltZW50ICYmICFpc0Zwa0xpdGVEZXBsb3ltZW50IgogICAgICAgIGNsYXNzPSJ3LWZ1bGwgdGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHNtOm1heC13LXhsIgogICAgICA+CiAgICAgICAge3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLmhvc3RGaXJld2FsbERpc2FibGVkIikgfX0KICAgICAgPC9kaXY+CgogICAgICA8RmxvYXRpbmdBY3Rpb25Eb2NrCiAgICAgICAgOmFjdGl2ZT0iIWlzTW9kZVVuY2hhbmdlZCIKICAgICAgICBpbmxpbmUtY2xhc3M9ImZsZXggdy1mdWxsIGp1c3RpZnktZW5kIGdhcC0yIHNtOnctYXV0byIKICAgICAgPgogICAgICAgIDx0ZW1wbGF0ZSAjaW5saW5lPgogICAgICAgICAgPERyb3Bkb3duTWVudSB2LWlmPSJjYW5NYW5hZ2VIb3N0RmlyZXdhbGwiPgogICAgICAgICAgICA8RHJvcGRvd25NZW51VHJpZ2dlciBhcy1jaGlsZD4KICAgICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIGNsYXNzPSJ3LTI0IGdhcC0yIiA6ZGlzYWJsZWQ9ImlzQnVzeSI+CiAgICAgICAgICAgICAgICA8TG9hZGVyMgogICAgICAgICAgICAgICAgICB2LWlmPSJpc0ZpcmV3YWxsQWN0aW9uUGVuZGluZyIKICAgICAgICAgICAgICAgICAgY2xhc3M9ImgtNCB3LTQgYW5pbWF0ZS1zcGluIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDxzcGFuPnt7IHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5hY3Rpb25zIikgfX08L3NwYW4+CiAgICAgICAgICAgICAgICA8Q2hldnJvbkRvd24gY2xhc3M9ImgtNCB3LTQgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8L0Ryb3Bkb3duTWVudVRyaWdnZXI+CiAgICAgICAgICAgIDxEcm9wZG93bk1lbnVDb250ZW50IGFsaWduPSJlbmQiIGNsYXNzPSJ3LTU2Ij4KICAgICAgICAgICAgICA8RHJvcGRvd25NZW51SXRlbQogICAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc0J1c3kiCiAgICAgICAgICAgICAgICBAc2VsZWN0PSJyZXNldEZpcmV3YWxsQnlTZWxlY3RlZE1vZGUiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPFJlZnJlc2hDdyBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5yZXNldEZpcmV3YWxsQnlNb2RlIikgfX0KICAgICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgICAgICAgPERyb3Bkb3duTWVudUl0ZW0KICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNCdXN5IgogICAgICAgICAgICAgICAgQHNlbGVjdD0ib3BlbkZpcmV3YWxsQWRkaXRpb25hbFBvcnRzRGlhbG9nIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxTaGllbGRQbHVzIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLmFkZGl0aW9uYWxQb3J0cy5tZW51IikgfX0KICAgICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgICAgICAgPERyb3Bkb3duTWVudVNlcGFyYXRvciAvPgogICAgICAgICAgICAgIDxEcm9wZG93bk1lbnVJdGVtCiAgICAgICAgICAgICAgICB2YXJpYW50PSJkZXN0cnVjdGl2ZSIKICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNCdXN5IgogICAgICAgICAgICAgICAgQHNlbGVjdD0iY2xlYXJGaXJld2FsbFJ1bGVzIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxUcmFzaDIgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MuY2xlYXJGaXJld2FsbCIpIH19CiAgICAgICAgICAgICAgPC9Ecm9wZG93bk1lbnVJdGVtPgogICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUNvbnRlbnQ+CiAgICAgICAgICA8L0Ryb3Bkb3duTWVudT4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgY2xhc3M9InctMjQiCiAgICAgICAgICAgIEBjbGljaz0icmVzZXQiCiAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNCdXN5IgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MuZGlzY2FyZENoYW5nZXMiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uIEBjbGljaz0ic2F2ZSIgOmRpc2FibGVkPSJpc0J1c3kgfHwgaXNNb2RlVW5jaGFuZ2VkIj4KICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICB2LWlmPSJpc1NhdmluZyIKICAgICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLWJhY2tncm91bmQgYm9yZGVyLXQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPjwvc3Bhbj4KICAgICAgICAgICAge3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLnNhdmVDaGFuZ2VzIikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvdGVtcGxhdGU+CgogICAgICAgIDx0ZW1wbGF0ZSAjZmxvYXRpbmc+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgIGNsYXNzPSJ3LTI0IgogICAgICAgICAgICBAY2xpY2s9InJlc2V0IgogICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzQnVzeSIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLmRpc2NhcmRDaGFuZ2VzIikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPEJ1dHRvbiBAY2xpY2s9InNhdmUiIDpkaXNhYmxlZD0iaXNCdXN5IHx8IGlzTW9kZVVuY2hhbmdlZCI+CiAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgdi1pZj0iaXNTYXZpbmciCiAgICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiCiAgICAgICAgICAgID48L3NwYW4+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5zYXZlQ2hhbmdlcyIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L0Zsb2F0aW5nQWN0aW9uRG9jaz4KICAgIDwvQ2FyZEZvb3Rlcj4KICA8L0NhcmQ+CgogIDxSdW5Nb2RlQ29uZmlybWF0aW9uRGlhbG9nCiAgICA6b3Blbj0iaXNDb25maXJtRGlhbG9nT3BlbiIKICAgIHYtbW9kZWw6ZG9udC1zaG93LWFnYWluPSJkb250U2hvd0FnYWluQ2hlY2tlZCIKICAgIDpjb250ZW50PSJjb25maXJtRGlhbG9nQ29udGVudCIKICAgIDpzYXZpbmc9ImlzU2F2aW5nIgogICAgQGNsb3NlPSJjbG9zZUNvbmZpcm1hdGlvbiIKICAgIEBjb25maXJtPSJjb25maXJtU2F2ZSIKICAgIEB1cGRhdGU6b3Blbj0iaGFuZGxlQ29uZmlybURpYWxvZ09wZW5DaGFuZ2UiCiAgLz4KCiAgPEZpcmV3YWxsQWRkaXRpb25hbFBvcnRzRGlhbG9nCiAgICA6b3Blbj0iaXNGaXJld2FsbEFkZGl0aW9uYWxQb3J0c0RpYWxvZ09wZW4iCiAgICA6YXV0by1tYW5hZ2UtZmlyZXdhbGwtZW5hYmxlZD0iZmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNBdXRvTWFuYWdlRW5hYmxlZCIKICAgIDpkZXRhaWxzPSJmaXJld2FsbEFkZGl0aW9uYWxQb3J0c0RldGFpbHMiCiAgICA6aGFzLXVuc2F2ZWQtbW9kZS1jaGFuZ2VzPSJoYXNVbnNhdmVkRmlyZXdhbGxNb2RlQ2hhbmdlcyIKICAgIDpsb2FkLWZhaWxlZD0iZmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNMb2FkRmFpbGVkIgogICAgOmxvYWRpbmc9ImlzRmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNMb2FkaW5nIgogICAgOm1vZGUtbGFiZWw9ImZpcmV3YWxsQWRkaXRpb25hbFBvcnRzTW9kZUxhYmVsIgogICAgOnNhdmluZz0iaXNGaXJld2FsbEFkZGl0aW9uYWxQb3J0c1NhdmluZyIKICAgIEByZXRyeT0ibG9hZEZpcmV3YWxsQWRkaXRpb25hbFBvcnRzIgogICAgQHNhdmU9InNhdmVGaXJld2FsbEFkZGl0aW9uYWxQb3J0cyIKICAgIEB1cGRhdGU6b3Blbj0iaGFuZGxlRmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNEaWFsb2dPcGVuQ2hhbmdlIgogIC8+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KaW1wb3J0IHsKICBDaGV2cm9uRG93biwKICBJbmZvLAogIExvYWRlcjIsCiAgUmVmcmVzaEN3LAogIFNoaWVsZFBsdXMsCiAgVHJhc2gyLAp9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEFsZXJ0LCBBbGVydERlc2NyaXB0aW9uLCBBbGVydFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2FsZXJ0IjsKaW1wb3J0IHsKICBDYXJkLAogIENhcmRIZWFkZXIsCiAgQ2FyZFRpdGxlLAogIENhcmREZXNjcmlwdGlvbiwKICBDYXJkQ29udGVudCwKICBDYXJkRm9vdGVyLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENoZWNrYm94IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NoZWNrYm94IjsKaW1wb3J0IHsKICBEcm9wZG93bk1lbnUsCiAgRHJvcGRvd25NZW51Q29udGVudCwKICBEcm9wZG93bk1lbnVJdGVtLAogIERyb3Bkb3duTWVudVNlcGFyYXRvciwKICBEcm9wZG93bk1lbnVUcmlnZ2VyLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kcm9wZG93bi1tZW51IjsKaW1wb3J0IERvY3NMaW5rQnV0dG9uIGZyb20gIkAvY29tcG9uZW50cy9Eb2NzTGlua0J1dHRvbi52dWUiOwppbXBvcnQgRmxvYXRpbmdBY3Rpb25Eb2NrIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vRmxvYXRpbmdBY3Rpb25Eb2NrLnZ1ZSI7CmltcG9ydCB7IGRvY3NVcmxzIH0gZnJvbSAiLi4vLi4vbGliL2RvY3MiOwppbXBvcnQgRmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNEaWFsb2cgZnJvbSAiLi9GaXJld2FsbEFkZGl0aW9uYWxQb3J0c0RpYWxvZy52dWUiOwppbXBvcnQgUnVuTW9kZUNvbmZpcm1hdGlvbkRpYWxvZyBmcm9tICIuL1J1bk1vZGVDb25maXJtYXRpb25EaWFsb2cudnVlIjsKaW1wb3J0IHsgdXNlUnVuTW9kZVNldHRpbmdzQ29udHJvbGxlciB9IGZyb20gIi4vdXNlUnVuTW9kZVNldHRpbmdzQ29udHJvbGxlciI7Cgpjb25zdCB7CiAgYWNjZXNzQWxlcnREZXNjcmlwdGlvbiwKICBhY2Nlc3NBbGVydFRpdGxlLAogIGF1dG9NYW5hZ2VGaXJld2FsbCwKICBjYW5NYW5hZ2VIb3N0RmlyZXdhbGwsCiAgY2FuVXNlRGlyZWN0TW9kZSwKICBjbGVhckZpcmV3YWxsUnVsZXMsCiAgY2xvc2VDb25maXJtYXRpb24sCiAgY29uZmlybURpYWxvZ0NvbnRlbnQsCiAgY29uZmlybVNhdmUsCiAgZG9udFNob3dBZ2FpbkNoZWNrZWQsCiAgZmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNBdXRvTWFuYWdlRW5hYmxlZCwKICBmaXJld2FsbEFkZGl0aW9uYWxQb3J0c0RldGFpbHMsCiAgZmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNMb2FkRmFpbGVkLAogIGZpcmV3YWxsQWRkaXRpb25hbFBvcnRzTW9kZUxhYmVsLAogIGhhbmRsZUF1dG9NYW5hZ2VGaXJld2FsbENoYW5nZSwKICBoYW5kbGVDb25maXJtRGlhbG9nT3BlbkNoYW5nZSwKICBoYW5kbGVGaXJld2FsbEFkZGl0aW9uYWxQb3J0c0RpYWxvZ09wZW5DaGFuZ2UsCiAgaGFzVW5zYXZlZEZpcmV3YWxsTW9kZUNoYW5nZXMsCiAgaG9zdEZpcmV3YWxsVW5hdmFpbGFibGVEZXNjcmlwdGlvbiwKICBpc0F1dG9NYW5hZ2VGaXJld2FsbFBlbmRpbmcsCiAgaXNCdXN5LAogIGlzQ29uZmlybURpYWxvZ09wZW4sCiAgaXNEb2NrZXJEZXBsb3ltZW50LAogIGlzRnBrTGl0ZURlcGxveW1lbnQsCiAgaXNGaXJld2FsbEFjdGlvblBlbmRpbmcsCiAgaXNGaXJld2FsbEFkZGl0aW9uYWxQb3J0c0RpYWxvZ09wZW4sCiAgaXNGaXJld2FsbEFkZGl0aW9uYWxQb3J0c0xvYWRpbmcsCiAgaXNGaXJld2FsbEFkZGl0aW9uYWxQb3J0c1NhdmluZywKICBpc01vZGVVbmNoYW5nZWQsCiAgaXNTYXZpbmcsCiAgbW9kZSwKICBsb2FkRmlyZXdhbGxBZGRpdGlvbmFsUG9ydHMsCiAgb3BlbkZpcmV3YWxsQWRkaXRpb25hbFBvcnRzRGlhbG9nLAogIHJlc2V0LAogIHJlc2V0RmlyZXdhbGxCeVNlbGVjdGVkTW9kZSwKICByZXZlcnNlUHJveHlTdWJtb2RlLAogIHNhdmUsCiAgc2F2ZUZpcmV3YWxsQWRkaXRpb25hbFBvcnRzLAogIHNlbGVjdFJldmVyc2VQcm94eU1vZGUsCiAgc2hvd0hvc3RGaXJld2FsbFVuYXZhaWxhYmxlQWxlcnQsCiAgdCwKfSA9IHVzZVJ1bk1vZGVTZXR0aW5nc0NvbnRyb2xsZXIoKTsKPC9zY3JpcHQ+Cg==
+<template>
+  <Card>
+    <CardHeader>
+      <CardTitle>{{ t("admin.runModeSettings.title") }}</CardTitle>
+      <CardDescription>{{
+        t("admin.runModeSettings.description")
+      }}</CardDescription>
+    </CardHeader>
+    <CardContent class="grid gap-6">
+      <Alert
+        class="items-start rounded-xl border-border/70 bg-muted/30 text-foreground"
+      >
+        <Info class="mt-0.5 h-4 w-4" />
+        <AlertTitle>{{ accessAlertTitle }}</AlertTitle>
+        <AlertDescription>
+          <div class="space-y-2 text-sm leading-6">
+            <p>{{ accessAlertDescription }}</p>
+          </div>
+        </AlertDescription>
+      </Alert>
+
+      <Alert
+        v-if="showHostFirewallUnavailableAlert"
+        class="items-start rounded-xl border-border/70 bg-muted/30 text-foreground"
+      >
+        <Info class="mt-0.5 h-4 w-4" />
+        <AlertTitle>{{
+          t("admin.runModeSettings.hostFirewallUnavailableTitle")
+        }}</AlertTitle>
+        <AlertDescription>
+          <div class="space-y-2 text-sm leading-6">
+            <p>{{ hostFirewallUnavailableDescription }}</p>
+          </div>
+        </AlertDescription>
+      </Alert>
+
+      <div
+        v-if="canUseDirectMode"
+        class="group rounded-lg border transition-all hover:border-primary/50"
+        :class="
+          mode === 0
+            ? 'border-primary/70 bg-primary/5 ring-1 ring-primary/20 shadow-sm'
+            : 'border-border bg-background hover:border-primary/40 hover:bg-muted/30'
+        "
+      >
+        <label class="flex cursor-pointer items-start space-x-4 rounded-lg p-4">
+          <div
+            class="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border transition-colors"
+            :class="
+              mode === 0
+                ? 'border-primary'
+                : 'border-muted-foreground/40 group-hover:border-primary/60'
+            "
+            aria-hidden="true"
+          >
+            <div
+              v-show="mode === 0"
+              class="h-2.5 w-2.5 rounded-full bg-primary"
+            />
+          </div>
+          <input
+            v-model="mode"
+            type="radio"
+            name="run-mode"
+            :value="0"
+            class="sr-only"
+          />
+          <span class="flex-1 space-y-2">
+            <span class="flex items-center gap-2">
+              <span class="text-base font-semibold leading-none">
+                {{ t("admin.runModeSettings.directModeTitle") }}
+              </span>
+              <span
+                class="inline-flex items-center rounded-md border border-border bg-muted/40 px-2 py-0.5 text-xs font-medium text-muted-foreground"
+              >
+                {{ t("admin.runModeSettings.directModeBadge") }}
+              </span>
+            </span>
+            <span class="block text-sm text-muted-foreground">
+              {{ t("admin.runModeSettings.directModeDescription") }}
+            </span>
+          </span>
+        </label>
+        <div class="px-4 pb-4 pl-12">
+          <DocsLinkButton :href="docsUrls.runModes.direct" />
+        </div>
+      </div>
+
+      <div
+        class="group rounded-lg border transition-all hover:border-primary/50"
+        :class="
+          mode === 1
+            ? 'border-primary/70 bg-primary/5 ring-1 ring-primary/20 shadow-sm'
+            : 'border-border bg-background hover:border-primary/40 hover:bg-muted/30'
+        "
+      >
+        <label class="flex cursor-pointer items-start space-x-4 rounded-lg p-4">
+          <div
+            class="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border transition-colors"
+            :class="
+              mode === 1
+                ? 'border-primary'
+                : 'border-muted-foreground/40 group-hover:border-primary/60'
+            "
+            aria-hidden="true"
+          >
+            <div
+              v-show="mode === 1"
+              class="h-2.5 w-2.5 rounded-full bg-primary"
+            />
+          </div>
+          <input
+            v-model="mode"
+            type="radio"
+            name="run-mode"
+            :value="1"
+            class="sr-only"
+            @change="selectReverseProxyMode"
+          />
+          <span class="flex-1 space-y-2">
+            <span class="block text-base font-semibold leading-none">
+              {{ t("admin.runModeSettings.reverseModeTitle") }}
+            </span>
+            <span class="block text-sm text-muted-foreground">
+              {{ t("admin.runModeSettings.reverseModeDescription") }}
+            </span>
+          </span>
+        </label>
+        <div class="space-y-2 px-4 pb-4 pl-12">
+          <DocsLinkButton :href="docsUrls.runModes.reverse" />
+          <div v-if="mode === 1" class="grid gap-3 sm:grid-cols-2">
+            <button
+              type="button"
+              class="rounded-lg border px-3 py-3 text-left transition-colors"
+              :class="
+                reverseProxySubmode === 'subdomain'
+                  ? 'border-primary/70 bg-primary/5 shadow-sm'
+                  : 'border-border bg-background hover:border-primary/40 hover:bg-muted/30'
+              "
+              @click="reverseProxySubmode = 'subdomain'"
+            >
+              <p class="text-sm font-medium text-foreground">
+                {{ t("admin.runModeSettings.subdomainMapping") }}
+              </p>
+              <p class="mt-1 text-xs leading-5 text-muted-foreground">
+                {{ t("admin.runModeSettings.subdomainSubmodeDescription") }}
+              </p>
+            </button>
+            <button
+              type="button"
+              class="rounded-lg border px-3 py-3 text-left transition-colors"
+              :class="
+                reverseProxySubmode === 'path'
+                  ? 'border-primary/70 bg-primary/5 shadow-sm'
+                  : 'border-border bg-background hover:border-primary/40 hover:bg-muted/30'
+              "
+              @click="reverseProxySubmode = 'path'"
+            >
+              <p
+                class="flex flex-wrap items-center gap-2 text-sm font-medium text-foreground"
+              >
+                <span>{{ t("admin.runModeSettings.pathMapping") }}</span>
+                <span
+                  class="inline-flex items-center rounded border border-border bg-muted/40 px-1.5 py-0.5 text-[10px] font-medium leading-none text-muted-foreground"
+                >
+                  {{ t("admin.runModeSettings.pathSubmodeDeprecatedBadge") }}
+                </span>
+              </p>
+              <p class="mt-1 text-xs leading-5 text-muted-foreground">
+                {{ t("admin.runModeSettings.pathSubmodeDescription") }}
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="group rounded-lg border transition-all hover:border-primary/50"
+        :class="
+          mode === 3
+            ? 'border-primary/70 bg-primary/5 ring-1 ring-primary/20 shadow-sm'
+            : 'border-border bg-background hover:border-primary/40 hover:bg-muted/30'
+        "
+      >
+        <label class="flex cursor-pointer items-start space-x-4 rounded-lg p-4">
+          <div
+            class="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border transition-colors"
+            :class="
+              mode === 3
+                ? 'border-primary'
+                : 'border-muted-foreground/40 group-hover:border-primary/60'
+            "
+            aria-hidden="true"
+          >
+            <div
+              v-show="mode === 3"
+              class="h-2.5 w-2.5 rounded-full bg-primary"
+            />
+          </div>
+          <input
+            v-model="mode"
+            type="radio"
+            name="run-mode"
+            :value="3"
+            class="sr-only"
+          />
+          <span class="flex-1 space-y-2">
+            <span class="flex items-center gap-2">
+              <span class="text-base font-semibold leading-none">
+                {{ t("admin.runModeSettings.subdomainModeTitle") }}
+              </span>
+              <span
+                class="inline-flex items-center rounded-md border border-border bg-muted/40 px-2 py-0.5 text-xs font-medium text-muted-foreground"
+              >
+                {{ t("admin.runModeSettings.subdomainModeBadge") }}
+              </span>
+            </span>
+            <span class="block text-sm text-muted-foreground">
+              {{ t("admin.runModeSettings.subdomainModeDescription") }}
+            </span>
+          </span>
+        </label>
+        <div class="px-4 pb-4 pl-12">
+          <DocsLinkButton :href="docsUrls.runModes.subdomain" />
+        </div>
+      </div>
+    </CardContent>
+    <CardFooter
+      class="flex flex-col gap-4 border-t border-border pt-6 sm:flex-row sm:items-center sm:justify-between"
+    >
+      <label
+        v-if="canManageHostFirewall"
+        class="flex items-start gap-3 text-sm text-muted-foreground"
+      >
+        <Checkbox
+          class="mt-0.5"
+          :model-value="autoManageFirewall"
+          :disabled="isBusy"
+          @update:model-value="handleAutoManageFirewallChange"
+        />
+        <span class="space-y-1">
+          <span class="block font-medium text-foreground">
+            {{ t("admin.runModeSettings.autoFirewallTitle") }}
+          </span>
+          <span class="block text-xs leading-5 text-muted-foreground">
+            {{ t("admin.runModeSettings.autoFirewallDescription") }}
+          </span>
+        </span>
+        <Loader2
+          v-if="isAutoManageFirewallPending"
+          class="mt-0.5 h-4 w-4 animate-spin text-muted-foreground"
+        />
+      </label>
+      <div
+        v-else-if="!isDockerDeployment && !isFpkLiteDeployment"
+        class="w-full text-sm leading-6 text-muted-foreground sm:max-w-xl"
+      >
+        {{ t("admin.runModeSettings.hostFirewallDisabled") }}
+      </div>
+
+      <FloatingActionDock
+        :active="!isModeUnchanged"
+        inline-class="flex w-full justify-end gap-2 sm:w-auto"
+      >
+        <template #inline>
+          <DropdownMenu v-if="canManageHostFirewall">
+            <DropdownMenuTrigger as-child>
+              <Button variant="outline" class="w-24 gap-2" :disabled="isBusy">
+                <Loader2
+                  v-if="isFirewallActionPending"
+                  class="h-4 w-4 animate-spin"
+                />
+                <span>{{ t("admin.runModeSettings.actions") }}</span>
+                <ChevronDown class="h-4 w-4 text-muted-foreground" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end" class="w-56">
+              <DropdownMenuItem
+                :disabled="isBusy"
+                @select="resetFirewallBySelectedMode"
+              >
+                <RefreshCw class="h-4 w-4" />
+                {{ t("admin.runModeSettings.resetFirewallByMode") }}
+              </DropdownMenuItem>
+              <DropdownMenuItem
+                :disabled="isBusy"
+                @select="openFirewallAdditionalPortsDialog"
+              >
+                <ShieldPlus class="h-4 w-4" />
+                {{ t("admin.runModeSettings.additionalPorts.menu") }}
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem
+                variant="destructive"
+                :disabled="isBusy"
+                @select="clearFirewallRules"
+              >
+                <Trash2 class="h-4 w-4" />
+                {{ t("admin.runModeSettings.clearFirewall") }}
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+          <Button
+            variant="outline"
+            class="w-24"
+            @click="reset"
+            :disabled="isBusy"
+          >
+            {{ t("admin.runModeSettings.discardChanges") }}
+          </Button>
+          <Button @click="save" :disabled="isBusy || isModeUnchanged">
+            <span
+              v-if="isSaving"
+              class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+            ></span>
+            {{ t("admin.runModeSettings.saveChanges") }}
+          </Button>
+        </template>
+
+        <template #floating>
+          <Button
+            variant="outline"
+            class="w-24"
+            @click="reset"
+            :disabled="isBusy"
+          >
+            {{ t("admin.runModeSettings.discardChanges") }}
+          </Button>
+          <Button @click="save" :disabled="isBusy || isModeUnchanged">
+            <span
+              v-if="isSaving"
+              class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+            ></span>
+            {{ t("admin.runModeSettings.saveChanges") }}
+          </Button>
+        </template>
+      </FloatingActionDock>
+    </CardFooter>
+  </Card>
+
+  <RunModeConfirmationDialog
+    :open="isConfirmDialogOpen"
+    v-model:dont-show-again="dontShowAgainChecked"
+    :content="confirmDialogContent"
+    :saving="isSaving"
+    @close="closeConfirmation"
+    @confirm="confirmSave"
+    @update:open="handleConfirmDialogOpenChange"
+  />
+
+  <FirewallAdditionalPortsDialog
+    :open="isFirewallAdditionalPortsDialogOpen"
+    :auto-manage-firewall-enabled="firewallAdditionalPortsAutoManageEnabled"
+    :details="firewallAdditionalPortsDetails"
+    :has-unsaved-mode-changes="hasUnsavedFirewallModeChanges"
+    :load-failed="firewallAdditionalPortsLoadFailed"
+    :loading="isFirewallAdditionalPortsLoading"
+    :mode-label="firewallAdditionalPortsModeLabel"
+    :saving="isFirewallAdditionalPortsSaving"
+    @retry="loadFirewallAdditionalPorts"
+    @save="saveFirewallAdditionalPorts"
+    @update:open="handleFirewallAdditionalPortsDialogOpenChange"
+  />
+</template>
+
+<script setup lang="ts">
+import {
+  ChevronDown,
+  Info,
+  Loader2,
+  RefreshCw,
+  ShieldPlus,
+  Trash2,
+} from "lucide-vue-next";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+  CardContent,
+  CardFooter,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import DocsLinkButton from "@/components/DocsLinkButton.vue";
+import FloatingActionDock from "@admin-shared/components/common/FloatingActionDock.vue";
+import { docsUrls } from "../../lib/docs";
+import FirewallAdditionalPortsDialog from "./FirewallAdditionalPortsDialog.vue";
+import RunModeConfirmationDialog from "./RunModeConfirmationDialog.vue";
+import { useRunModeSettingsController } from "./useRunModeSettingsController";
+
+const {
+  accessAlertDescription,
+  accessAlertTitle,
+  autoManageFirewall,
+  canManageHostFirewall,
+  canUseDirectMode,
+  clearFirewallRules,
+  closeConfirmation,
+  confirmDialogContent,
+  confirmSave,
+  dontShowAgainChecked,
+  firewallAdditionalPortsAutoManageEnabled,
+  firewallAdditionalPortsDetails,
+  firewallAdditionalPortsLoadFailed,
+  firewallAdditionalPortsModeLabel,
+  handleAutoManageFirewallChange,
+  handleConfirmDialogOpenChange,
+  handleFirewallAdditionalPortsDialogOpenChange,
+  hasUnsavedFirewallModeChanges,
+  hostFirewallUnavailableDescription,
+  isAutoManageFirewallPending,
+  isBusy,
+  isConfirmDialogOpen,
+  isDockerDeployment,
+  isFpkLiteDeployment,
+  isFirewallActionPending,
+  isFirewallAdditionalPortsDialogOpen,
+  isFirewallAdditionalPortsLoading,
+  isFirewallAdditionalPortsSaving,
+  isModeUnchanged,
+  isSaving,
+  mode,
+  loadFirewallAdditionalPorts,
+  openFirewallAdditionalPortsDialog,
+  reset,
+  resetFirewallBySelectedMode,
+  reverseProxySubmode,
+  save,
+  saveFirewallAdditionalPorts,
+  selectReverseProxyMode,
+  showHostFirewallUnavailableAlert,
+  t,
+} = useRunModeSettingsController();
+</script>

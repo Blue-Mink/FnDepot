@@ -1,1 +1,48 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIHZpc2libGVNYXBwaW5nc0NvdW50OiBudW1iZXI7CiAgcm9vdERvbWFpblZhbGlkYXRpb25NZXNzYWdlOiBzdHJpbmc7CiAgc2F2ZWRSb290RG9tYWluOiBzdHJpbmc7CiAgcm9vdERvbWFpblBlbmRpbmdTYXZlOiBib29sZWFuOwogIHNlbGVjdGlvbk1vZGU6IGJvb2xlYW47Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3Qgcm9vdERvbWFpbk5vdGljZSA9IGNvbXB1dGVkKCgpID0+CiAgcHJvcHMucm9vdERvbWFpblZhbGlkYXRpb25NZXNzYWdlCiAgICA/IHByb3BzLnJvb3REb21haW5WYWxpZGF0aW9uTWVzc2FnZQogICAgOiAhcHJvcHMuc2F2ZWRSb290RG9tYWluCiAgICAgID8gdCgiYWRtaW4uc3ViZG9tYWluUHJveHkucm9vdERvbWFpblJlcXVpcmVkIikKICAgICAgOiBwcm9wcy5yb290RG9tYWluUGVuZGluZ1NhdmUKICAgICAgICA/IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnJvb3REb21haW5EaXJ0eSIpCiAgICAgICAgOiAiIiwKKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPHAKICAgIHYtaWY9InZpc2libGVNYXBwaW5nc0NvdW50ID4gMSAmJiAhc2VsZWN0aW9uTW9kZSIKICAgIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICA+CiAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5vcmRlckhpbnRQcmVmaXgiKSB9fQogICAgPGEKICAgICAgaHJlZj0iIy9zeXN0ZW0vZ2F0ZXdheS1wcm94eS1oZWFkZXJzIgogICAgICBjbGFzcz0idW5kZXJsaW5lIHVuZGVybGluZS1vZmZzZXQtMiBob3Zlcjp0ZXh0LWZvcmVncm91bmQiCiAgICA+CiAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmRpc2FibGVQcm94eUhlYWRlcnMiKSB9fSA8L2EKICAgID57eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5vcmRlckhpbnRNaWRkbGUiKSB9fQoKICAgIDxhCiAgICAgIGhyZWY9IiMvc3lzdGVtL2dhdGV3YXktaG9zdC1yZXNwb25zZSIKICAgICAgY2xhc3M9InVuZGVybGluZSB1bmRlcmxpbmUtb2Zmc2V0LTIgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIgogICAgPgogICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5kaXNhYmxlSG9zdEhlYWRlciIpIH19CiAgICA8L2E+CiAgPC9wPgogIDxwIHYtaWY9InJvb3REb21haW5Ob3RpY2UiIGNsYXNzPSJ0ZXh0LXhzIHRleHQtYW1iZXItNjAwIj4KICAgIHt7IHJvb3REb21haW5Ob3RpY2UgfX0KICA8L3A+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+
+const props = defineProps<{
+  visibleMappingsCount: number;
+  rootDomainValidationMessage: string;
+  savedRootDomain: string;
+  rootDomainPendingSave: boolean;
+  selectionMode: boolean;
+}>();
+
+const { t } = useI18n();
+const rootDomainNotice = computed(() =>
+  props.rootDomainValidationMessage
+    ? props.rootDomainValidationMessage
+    : !props.savedRootDomain
+      ? t("admin.subdomainProxy.rootDomainRequired")
+      : props.rootDomainPendingSave
+        ? t("admin.subdomainProxy.rootDomainDirty")
+        : "",
+);
+</script>
+
+<template>
+  <p
+    v-if="visibleMappingsCount > 1 && !selectionMode"
+    class="text-xs text-muted-foreground"
+  >
+    {{ t("admin.subdomainProxy.orderHintPrefix") }}
+    <a
+      href="#/system/gateway-proxy-headers"
+      class="underline underline-offset-2 hover:text-foreground"
+    >
+      {{ t("admin.subdomainProxy.disableProxyHeaders") }} </a
+    >{{ t("admin.subdomainProxy.orderHintMiddle") }}
+
+    <a
+      href="#/system/gateway-host-response"
+      class="underline underline-offset-2 hover:text-foreground"
+    >
+      {{ t("admin.subdomainProxy.disableHostHeader") }}
+    </a>
+  </p>
+  <p v-if="rootDomainNotice" class="text-xs text-amber-600">
+    {{ rootDomainNotice }}
+  </p>
+</template>

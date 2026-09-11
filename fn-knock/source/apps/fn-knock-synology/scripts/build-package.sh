@@ -1,1 +1,350 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4vLi4iICYmIHB3ZCkiCkFQUF9ESVI9IiR7Uk9PVF9ESVJ9L2FwcHMvZm4ta25vY2stc3lub2xvZ3kiCkRJU1RfRElSPSIke1JPT1RfRElSfS9kaXN0L3N5bm9sb2d5IgpMRUdBQ1lfRElTVF9ESVI9IiR7QVBQX0RJUn0vZGlzdCIKQVJUSUZBQ1RTX0RJUj0iJHtGTl9LTk9DS19BUlRJRkFDVFNfRElSOi0ke1JPT1RfRElSfS9kaXN0L2ZuLWtub2NrLWFydGlmYWN0c30iClJVTlRJTUVfRElSPSIke0ZOX0tOT0NLX1BSRVBBUkVEX1JVTlRJTUVfRElSOi0ke0FSVElGQUNUU19ESVJ9L3J1bnRpbWV9IgpNVVNMX1JVU1RfRElSPSIke0ZOX0tOT0NLX1BSRVBBUkVEX01VU0xfUlVTVF9CQUNLRU5EX0RJUjotJHtBUlRJRkFDVFNfRElSfS9tdXNsLXJ1c3QtYmFja2VuZHN9IgpQQUNLQUdFX05BTUU9ImZuLWtub2NrLXN5bm9sb2d5IgpQUk9EVUNUX1ZFUlNJT049IiQoanEgLWVyICcudmVyc2lvbicgIiR7Uk9PVF9ESVJ9L3ZlcnNpb24uanNvbiIpIgpSRUxFQVNFX0NIQU5ORUw9IiQoanEgLWVyICcucmVsZWFzZUNoYW5uZWwgLy8gInN0YWJsZSInICIke1JPT1RfRElSfS92ZXJzaW9uLmpzb24iKSIKQlVJTERfTlVNQkVSPSIke0ZOX0tOT0NLX1NZTk9MT0dZX0JVSUxEX05VTUJFUjotMDAxN30iClBBQ0tBR0VfVkVSU0lPTj0iJHtQUk9EVUNUX1ZFUlNJT059LSR7QlVJTERfTlVNQkVSfSIKUEFDS0FHRV9CRVRBPSJubyIKWyAiJHtSRUxFQVNFX0NIQU5ORUx9IiA9ICJzdGFibGUiIF0gfHwgUEFDS0FHRV9CRVRBPSJ5ZXMiClJFUFJPRFVDSUJMRV9NVElNRT0iMjAwMDAxMDEwMDAwIgpUQVJHRVRfQVJDSD0iJHtGTl9LTk9DS19TWU5PTE9HWV9BUkNIOi0kezE6LXg4Nl82NH19IgpSVU5USU1FX0FSQ0g9IiIKR09fQVJDSD0iIgpHT19BUk09IiIKRUxGX0RFU0NSSVBUSU9OPSIiCk9VVFBVVF9QQVRIPSIiCkJVSUxEX1dPUktfRElSPSIiCkdBVEVXQVlfQVJUSUZBQ1Q9IiIKUFJFQlVJTFRfR0FURVdBWT0iJHtGTl9LTk9DS19TWU5PTE9HWV9HQVRFV0FZX0JJTjotfSIKCmNhc2UgIiR7VEFSR0VUX0FSQ0h9IiBpbgogIHg4Nl82NCkKICAgIFJVTlRJTUVfQVJDSD0iYW1kNjQiCiAgICBHT19BUkNIPSJhbWQ2NCIKICAgIEVMRl9ERVNDUklQVElPTj0iTGludXggeDg2LTY0IgogICAgOzsKICBhcm12OCkKICAgIFJVTlRJTUVfQVJDSD0iYXJtNjQiCiAgICBHT19BUkNIPSJhcm02NCIKICAgIEVMRl9ERVNDUklQVElPTj0iTGludXggQUFyY2g2NCIKICAgIDs7CiAgYXJtdjcpCiAgICBSVU5USU1FX0FSQ0g9ImFybSIKICAgIEdPX0FSQ0g9ImFybSIKICAgIEdPX0FSTT0iNyIKICAgIEVMRl9ERVNDUklQVElPTj0iTGludXggQVJNdjciCiAgICA7OwogICopCiAgICBwcmludGYgJ1tmbi1rbm9jay1zeW5vbG9neV0gRVJST1I6IHVuc3VwcG9ydGVkIFN5bm9sb2d5IGFyY2hpdGVjdHVyZTogJXMgKGV4cGVjdGVkIHg4Nl82NCwgYXJtdjgsIG9yIGFybXY3KVxuJyBcCiAgICAgICIke1RBUkdFVF9BUkNIfSIgPiYyCiAgICBleGl0IDEKICAgIDs7CmVzYWMKCk9VVFBVVF9QQVRIPSIke0ZOX0tOT0NLX1NZTk9MT0dZX09VVFBVVDotJHtESVNUX0RJUn0vJHtQQUNLQUdFX05BTUV9LSR7VEFSR0VUX0FSQ0h9LSR7UEFDS0FHRV9WRVJTSU9OfS5zcGt9IgoKbG9nKCkgewogIHByaW50ZiAnW2ZuLWtub2NrLXN5bm9sb2d5XSAlc1xuJyAiJCoiCn0KCmZhaWwoKSB7CiAgcHJpbnRmICdbZm4ta25vY2stc3lub2xvZ3ldIEVSUk9SOiAlc1xuJyAiJCoiID4mMgogIGV4aXQgMQp9CgpyZXF1aXJlX2NtZCgpIHsKICBjb21tYW5kIC12ICIkMSIgPi9kZXYvbnVsbCAyPiYxIHx8IGZhaWwgIm1pc3NpbmcgcmVxdWlyZWQgY29tbWFuZDogJDEiCn0KCm5vcm1hbGl6ZV90cmVlX210aW1lKCkgewogIGxvY2FsIHRyZWU9IiQxIgogICMgdG91Y2ggLXQgaW50ZXJwcmV0cyBpdHMgYXJndW1lbnQgaW4gdGhlIHByb2Nlc3MgdGltZXpvbmUuIFBpbiBVVEMgYW5kIHN0YXkKICAjIHdlbGwgY2xlYXIgb2YgdGhlIFVuaXggZXBvY2ggYm91bmRhcnkgc28gRFNNIGV4dHJhY3Rpb24gY2Fubm90IHByb2R1Y2UgYQogICMgbmVnYXRpdmUgdGltZXN0YW1wIGluIHBvc2l0aXZlLW9mZnNldCB0aW1lem9uZXMuCiAgVFo9VVRDIGZpbmQgIiR7dHJlZX0iIC1kZXB0aCAtZXhlYyB0b3VjaCAtdCAiJHtSRVBST0RVQ0lCTEVfTVRJTUV9IiB7fSArCn0KCmNsZWFudXAoKSB7CiAgaWYgWyAtbiAiJHtCVUlMRF9XT1JLX0RJUn0iIF07IHRoZW4KICAgIHJtIC1yZiAiJHtCVUlMRF9XT1JLX0RJUn0iCiAgZmkKfQoKcHJlcGFyZV9hcnRpZmFjdHMoKSB7CiAgaWYgWyAiJHtGTl9LTk9DS19TWU5PTE9HWV9TS0lQX0FSVElGQUNUX1BSRVBBUkU6LTB9IiA9ICIxIiBdOyB0aGVuCiAgICBsb2cgInVzaW5nIGV4aXN0aW5nIHByZXBhcmVkIGFydGlmYWN0cyIKICAgIHJldHVybgogIGZpCgogIGxvZyAicHJlcGFyaW5nICR7VEFSR0VUX0FSQ0h9IHJ1bnRpbWUgYXJ0aWZhY3RzICgke1JVTlRJTUVfQVJDSH0pIgogIEZOX0tOT0NLX01VU0xfQVJDSEVTPSIke1JVTlRJTUVfQVJDSH0iIFwKICBGTl9LTk9DS19SVU5USU1FX0dBVEVXQVlfQVJDSEVTPSIke1JVTlRJTUVfQVJDSH0iIFwKICBGTl9LTk9DS19HT19SRUFVVEhfUFJPWFlfRk9SQ0VfQlVJTEQ9IiR7Rk5fS05PQ0tfR09fUkVBVVRIX1BST1hZX0ZPUkNFX0JVSUxEOi0xfSIgXAogICAgYmFzaCAiJHtST09UX0RJUn0vc2NyaXB0cy9mbi1rbm9jay1wcmVwYXJlLWFydGlmYWN0cy5zaCIgb3BlbndydAp9CgpidWlsZF9nYXRld2F5X2FydGlmYWN0KCkgewogIGxvY2FsIGdhdGV3YXlfZGlyPSIke0ZOX0tOT0NLX0dPX1JFQVVUSF9QUk9YWV9ESVI6LSR7Uk9PVF9ESVJ9Ly4uL0dvLVJlYXV0aC1Qcm94eX0iCiAgbG9jYWwgY29tbWl0PSIiCgogIGlmIFsgLW4gIiR7UFJFQlVJTFRfR0FURVdBWX0iIF07IHRoZW4KICAgIFsgLWYgIiR7UFJFQlVJTFRfR0FURVdBWX0iIF0gfHwgZmFpbCAibWlzc2luZyBwcmVidWlsdCBTeW5vbG9neSBnYXRld2F5OiAke1BSRUJVSUxUX0dBVEVXQVl9IgogICAgbG9nICJ1c2luZyBwcmVidWlsdCBTeW5vbG9neSBnYXRld2F5ICR7UFJFQlVJTFRfR0FURVdBWX0iCiAgICBta2RpciAtcCAiJChkaXJuYW1lICIke0dBVEVXQVlfQVJUSUZBQ1R9IikiCiAgICBjcCAiJHtQUkVCVUlMVF9HQVRFV0FZfSIgIiR7R0FURVdBWV9BUlRJRkFDVH0iCiAgICBjaG1vZCAreCAiJHtHQVRFV0FZX0FSVElGQUNUfSIKICAgIHJldHVybgogIGZpCgogIFsgLWQgIiR7Z2F0ZXdheV9kaXJ9IiBdIHx8IGZhaWwgIm1pc3NpbmcgR28tUmVhdXRoLVByb3h5IGNoZWNrb3V0OiAke2dhdGV3YXlfZGlyfSIKICBiYXNoICIke1JPT1RfRElSfS9zY3JpcHRzL3ZlcmlmeS1nby1jb250cm9sLWFwaS1jb250cmFjdC5zaCIgIiR7Z2F0ZXdheV9kaXJ9IgogIGNvbW1pdD0iJChnaXQgLUMgIiR7Z2F0ZXdheV9kaXJ9IiByZXYtcGFyc2UgSEVBRCAyPi9kZXYvbnVsbCkiIHx8IFwKICAgIGZhaWwgInVuYWJsZSB0byByZXNvbHZlIEdvIGdhdGV3YXkgY29tbWl0IGZyb20gJHtnYXRld2F5X2Rpcn0iCiAgW1sgIiR7Y29tbWl0fSIgPX4gXlswLTlhLWZdezQwfSQgXV0gfHwgXAogICAgZmFpbCAiR28gZ2F0ZXdheSBjb21taXQgbXVzdCBiZSBhIDQwLWNoYXJhY3RlciBsb3dlcmNhc2UgR2l0IGNvbW1pdDogJHtjb21taXQ6LTxlbXB0eT59IgoKICBsb2cgImJ1aWxkaW5nIFN5bm9sb2d5IGdhdGV3YXkgJHtQUk9EVUNUX1ZFUlNJT059ICgke2NvbW1pdH0pIgogIG1rZGlyIC1wICIkKGRpcm5hbWUgIiR7R0FURVdBWV9BUlRJRkFDVH0iKSIKICAoCiAgICBjZCAiJHtnYXRld2F5X2Rpcn0iCiAgICBleHBvcnQgQ0dPX0VOQUJMRUQ9MAogICAgZXhwb3J0IEdPT1M9bGludXgKICAgIGV4cG9ydCBHT0FSQ0g9IiR7R09fQVJDSH0iCiAgICBleHBvcnQgR09GTEFHUz0tbW9kPXJlYWRvbmx5CiAgICBpZiBbIC1uICIke0dPX0FSTX0iIF07IHRoZW4KICAgICAgZXhwb3J0IEdPQVJNPSIke0dPX0FSTX0iCiAgICBlbHNlCiAgICAgIHVuc2V0IEdPQVJNIHx8IHRydWUKICAgIGZpCiAgICBnbyBidWlsZCBcCiAgICAgIC1sZGZsYWdzPSItcyAtdyAtWCBnby1yZWF1dGgtcHJveHkvcGtnL3ZlcnNpb24uVmVyc2lvbj0ke1BST0RVQ1RfVkVSU0lPTn0gLVggZ28tcmVhdXRoLXByb3h5L3BrZy92ZXJzaW9uLkNvbW1pdD0ke2NvbW1pdH0iIFwKICAgICAgLXRyaW1wYXRoIFwKICAgICAgLW8gIiR7R0FURVdBWV9BUlRJRkFDVH0iIFwKICAgICAgLi9jbWQvc2VydmVyCiAgKQogIGNobW9kICt4ICIke0dBVEVXQVlfQVJUSUZBQ1R9Igp9Cgp2YWxpZGF0ZV9lbGZfYXJjaCgpIHsKICBsb2NhbCBwYXRoPSIkMSIKICBsb2NhbCBsYWJlbD0iJDIiCiAgbG9jYWwgZmlsZV9pbmZvCgogIGZpbGVfaW5mbz0iJChmaWxlIC1iICIke3BhdGh9IikiCiAgY2FzZSAiJHtUQVJHRVRfQVJDSH0iIGluCiAgICB4ODZfNjQpCiAgICAgIHByaW50ZiAnJXNcbicgIiR7ZmlsZV9pbmZvfSIgfCBncmVwIC1FcSAnRUxGIDY0LWJpdCBMU0IuKng4Ni02NCcgfHwgXAogICAgICAgIGZhaWwgIiR7bGFiZWx9IGlzIG5vdCAke0VMRl9ERVNDUklQVElPTn06ICR7ZmlsZV9pbmZvfSIKICAgICAgOzsKICAgIGFybXY4KQogICAgICBwcmludGYgJyVzXG4nICIke2ZpbGVfaW5mb30iIHwgZ3JlcCAtRXEgJ0VMRiA2NC1iaXQgTFNCLiooQVJNIGFhcmNoNjR8YWFyY2g2NCknIHx8IFwKICAgICAgICBmYWlsICIke2xhYmVsfSBpcyBub3QgJHtFTEZfREVTQ1JJUFRJT059OiAke2ZpbGVfaW5mb30iCiAgICAgIDs7CiAgICBhcm12NykKICAgICAgcHJpbnRmICclc1xuJyAiJHtmaWxlX2luZm99IiB8IGdyZXAgLUVxICdFTEYgMzItYml0IExTQi4qQVJNJyB8fCBcCiAgICAgICAgZmFpbCAiJHtsYWJlbH0gaXMgbm90ICR7RUxGX0RFU0NSSVBUSU9OfTogJHtmaWxlX2luZm99IgogICAgICA7OwogIGVzYWMKfQoKdmFsaWRhdGVfYXJ0aWZhY3RzKCkgewogIGxvY2FsIGJhY2tlbmQ9IiR7TVVTTF9SVVNUX0RJUn0vc2VydmVyLWFkbWluLXJzLWxpbnV4LSR7UlVOVElNRV9BUkNIfSIKCiAgWyAteCAiJHtHQVRFV0FZX0FSVElGQUNUfSIgXSB8fCBmYWlsICJtaXNzaW5nIGdhdGV3YXkgYXJ0aWZhY3Q6ICR7R0FURVdBWV9BUlRJRkFDVH0iCiAgWyAteCAiJHtiYWNrZW5kfSIgXSB8fCBmYWlsICJtaXNzaW5nIFJ1c3QgYmFja2VuZCBhcnRpZmFjdDogJHtiYWNrZW5kfSIKICBbIC1kICIke1JVTlRJTUVfRElSfS91aS93d3ciIF0gfHwgZmFpbCAibWlzc2luZyBhZG1pbiBVSSBhcnRpZmFjdHMiCiAgWyAtZCAiJHtSVU5USU1FX0RJUn0vc2VydmVyLWF1dGgtdmlldy9kaXN0IiBdIHx8IGZhaWwgIm1pc3NpbmcgYXV0aCBVSSBhcnRpZmFjdHMiCiAgWyAtZiAiJHtSVU5USU1FX0RJUn0vc2VydmVyL3NlcnZlci1hZG1pbi9yZXNvdXJjZXMvYWNtZXNoLnppcCIgXSB8fCBmYWlsICJtaXNzaW5nIEFDTUUgYnVuZGxlIgoKICB2YWxpZGF0ZV9lbGZfYXJjaCAiJHtHQVRFV0FZX0FSVElGQUNUfSIgImdhdGV3YXkiCiAgdmFsaWRhdGVfZWxmX2FyY2ggIiR7YmFja2VuZH0iICJiYWNrZW5kIgp9CgpjbGVhbl9vbGRfcGFja2FnZXMoKSB7CiAgbG9jYWwgb3V0cHV0X2RpcgoKICBvdXRwdXRfZGlyPSIkKGRpcm5hbWUgIiR7T1VUUFVUX1BBVEh9IikiCiAgbWtkaXIgLXAgIiR7b3V0cHV0X2Rpcn0iCiAgcm0gLWYgXAogICAgIiR7b3V0cHV0X2Rpcn0vJHtQQUNLQUdFX05BTUV9LSR7VEFSR0VUX0FSQ0h9LSIqLnNwayBcCiAgICAiJHtvdXRwdXRfZGlyfS8ke1BBQ0tBR0VfTkFNRX0tJHtUQVJHRVRfQVJDSH0tIiouc3BrLnNoYTI1NiBcCiAgICAiJHtvdXRwdXRfZGlyfS8ke1BBQ0tBR0VfTkFNRX0tJHtUQVJHRVRfQVJDSH0tIiouc3BrLnRtcCBcCiAgICAiJHtPVVRQVVRfUEFUSH0iIFwKICAgICIke09VVFBVVF9QQVRIfS5zaGEyNTYiIFwKICAgICIke09VVFBVVF9QQVRIfS50bXAiCgogIGlmIFsgIiR7TEVHQUNZX0RJU1RfRElSfSIgIT0gIiR7b3V0cHV0X2Rpcn0iIF07IHRoZW4KICAgIHJtIC1mIFwKICAgICAgIiR7TEVHQUNZX0RJU1RfRElSfS8ke1BBQ0tBR0VfTkFNRX0tJHtUQVJHRVRfQVJDSH0tIiouc3BrIFwKICAgICAgIiR7TEVHQUNZX0RJU1RfRElSfS8ke1BBQ0tBR0VfTkFNRX0tJHtUQVJHRVRfQVJDSH0tIiouc3BrLnNoYTI1NiBcCiAgICAgICIke0xFR0FDWV9ESVNUX0RJUn0vJHtQQUNLQUdFX05BTUV9LSR7VEFSR0VUX0FSQ0h9LSIqLnNway50bXAKICBmaQp9Cgp3cml0ZV9pbmZvKCkgewogIGxvY2FsIHBhdGg9IiQxIgogIGxvY2FsIGV4dHJhY3Rfc2l6ZT0iJDIiCgogIGNhdCA+ICIke3BhdGh9IiA8PEVPRgpwYWNrYWdlPSIke1BBQ0tBR0VfTkFNRX0iCnZlcnNpb249IiR7UEFDS0FHRV9WRVJTSU9OfSIKYmV0YT0iJHtQQUNLQUdFX0JFVEF9Igpvc19taW5fdmVyPSI3LjAtNDAwMDAiCmFyY2g9IiR7VEFSR0VUX0FSQ0h9IgptYWludGFpbmVyPSJmbi1rbm9jayIKbWFpbnRhaW5lcl91cmw9Imh0dHBzOi8vd3d3LmZua25vY2suY24vc3lub2xvZ3kiCmRpc3RyaWJ1dG9yPSJmbi1rbm9jayIKZGlzdHJpYnV0b3JfdXJsPSJodHRwczovL3d3dy5mbmtub2NrLmNuL3N5bm9sb2d5IgpzdXBwb3J0X3VybD0iaHR0cHM6Ly93d3cuZm5rbm9jay5jbi9zeW5vbG9neSIKaGVscHVybD0iaHR0cHM6Ly9kb2NzLmZua25vY2suY24vIgpkaXNwbGF5bmFtZT0i5pWy6ZeoIGtub2NrIgpkZXNjcmlwdGlvbj0iZm4ta25vY2sgaXMgYSBzZWxmLWhvc3RlZCBzZWN1cmUgYWNjZXNzIGdhdGV3YXkgZm9yIFN5bm9sb2d5IERTTS4gSXQgcHJvdmlkZXMgYXV0aGVudGljYXRlZCByZXZlcnNlIHByb3h5IGFjY2VzcywgemVyby10cnVzdCBwb2xpY2llcywgYWN0aXZlIHRocmVhdCBwcm90ZWN0aW9uLCBERE5TLCBjZXJ0aWZpY2F0ZSBtYW5hZ2VtZW50LCBhbmQgZW5kLXRvLWVuZCBvYnNlcnZhYmlsaXR5IGZvciBOQVMgc2VydmljZXMuIE9mZmljaWFsIHdlYnNpdGU6IGh0dHBzOi8vd3d3LmZua25vY2suY24vc3lub2xvZ3kiCmRlc2NyaXB0aW9uX2VudT0iZm4ta25vY2sgaXMgYSBzZWxmLWhvc3RlZCBzZWN1cmUgYWNjZXNzIGdhdGV3YXkgZm9yIFN5bm9sb2d5IERTTS4gSXQgcHJvdmlkZXMgYXV0aGVudGljYXRlZCByZXZlcnNlIHByb3h5IGFjY2VzcywgemVyby10cnVzdCBwb2xpY2llcywgYWN0aXZlIHRocmVhdCBwcm90ZWN0aW9uLCBERE5TLCBjZXJ0aWZpY2F0ZSBtYW5hZ2VtZW50LCBhbmQgZW5kLXRvLWVuZCBvYnNlcnZhYmlsaXR5IGZvciBOQVMgc2VydmljZXMuIE9mZmljaWFsIHdlYnNpdGU6IGh0dHBzOi8vd3d3LmZua25vY2suY24vc3lub2xvZ3kiCmRlc2NyaXB0aW9uX2Nocz0i5pWy6ZeoIGtub2NrIOaYr+mdouWQkSBTeW5vbG9neSBEU00g55qE6Ieq5omY566h5a6J5YWo6K6/6Zeu572R5YWz77yM5Li6IE5BUyDmnI3liqHmj5DkvpvpibTmnYPlj43lkJHku6PnkIbjgIHpm7bkv6Hku7vorr/pl67nrZbnlaXjgIHkuLvliqjlqIHog4HpmLLmiqTjgIFERE5T44CB6K+B5Lmm566h55CG5LiO5YWo6ZO+6Lev6KeC5rWL77yM5bm26YCa6L+HIERTTSDmoYzpnaLlronlhajnrqHnkIbjgILlrpjmlrnnvZHnq5nvvJpodHRwczovL3d3dy5mbmtub2NrLmNuL3N5bm9sb2d5IgpkZXNjcmlwdGlvbl9jaHQ9IuaVsumWgCBrbm9jayDmmK/pnaLlkJEgU3lub2xvZ3kgRFNNIOeahOiHquiol+euoeWuieWFqOWtmOWPlumWmOmBk++8jOeCuiBOQVMg5pyN5YuZ5o+Q5L6b6amX6K2J5Y+N5ZCR5Luj55CG44CB6Zu25L+h5Lu75a2Y5Y+W562W55Wl44CB5Li75YuV5aiB6ISF6Ziy6K2344CBREROU+OAgeaGkeitieeuoeeQhuiIh+WFqOmPiOi3r+ingOa4rO+8jOS4pumAj+mBjiBEU00g5qGM6Z2i5a6J5YWo566h55CG44CC5a6Y5pa557ay56uZ77yaaHR0cHM6Ly93d3cuZm5rbm9jay5jbi9zeW5vbG9neSIKdGhpcmRwYXJ0eT0ieWVzIgpkc211aWRpcj0idWkiCmRzbWFwcG5hbWU9ImZuLWtub2NrLXN5bm9sb2d5LkFwcGxpY2F0aW9uIgpkc21hcHBsYXVuY2huYW1lPSJmbi1rbm9jay1zeW5vbG9neS5BcHBsaWNhdGlvbiIKY3RsX3N0b3A9InllcyIKcHJlY2hlY2tzdGFydHN0b3A9InllcyIKc3RhcnRfZGVwX3NlcnZpY2VzPSJuZXR3b3JrLW9ubGluZS50YXJnZXQiCnNpbGVudF9pbnN0YWxsPSJ5ZXMiCnNpbGVudF91cGdyYWRlPSJ5ZXMiCnNpbGVudF91bmluc3RhbGw9InllcyIKZXh0cmFjdHNpemU9IiR7ZXh0cmFjdF9zaXplfSIKRU9GCn0KCmJ1aWxkX3BhY2thZ2UoKSB7CiAgbG9jYWwgd29ya19kaXIKICBsb2NhbCBwYXlsb2FkX2RpcgogIGxvY2FsIHNwa19yb290CiAgbG9jYWwgcGFja2FnZV90Z3oKICBsb2NhbCB0ZW1wX291dHB1dAogIGxvY2FsIGV4dHJhY3Rfc2l6ZQogIGxvY2FsIGNoZWNrc3VtCiAgbG9jYWwgc3BrX2xpc3RpbmcKICBsb2NhbCBwYXlsb2FkX2xpc3RpbmcKICBsb2NhbCAtYSBvd25lcl9hcmdzCiAgbG9jYWwgLWEgbGlmZWN5Y2xlX3NjcmlwdHMKICBsb2NhbCBzY3JpcHRfbmFtZQogIGxvY2FsIGljb25fc2l6ZQoKICB3b3JrX2Rpcj0iJHtCVUlMRF9XT1JLX0RJUn0vcGFja2FnZSIKICBwYXlsb2FkX2Rpcj0iJHt3b3JrX2Rpcn0vcGF5bG9hZCIKICBzcGtfcm9vdD0iJHt3b3JrX2Rpcn0vc3BrIgogIHBhY2thZ2VfdGd6PSIke3Nwa19yb290fS9wYWNrYWdlLnRneiIKICB0ZW1wX291dHB1dD0iJHtPVVRQVVRfUEFUSH0udG1wIgogIG1rZGlyIC1wIFwKICAgICIke3BheWxvYWRfZGlyfS9iaW4iIFwKICAgICIke3BheWxvYWRfZGlyfS9zZXJ2ZXIvc2VydmVyLWFkbWluL3Jlc291cmNlcyIgXAogICAgIiR7cGF5bG9hZF9kaXJ9L3NlcnZlci1hdXRoLXZpZXcvZGlzdCIgXAogICAgIiR7cGF5bG9hZF9kaXJ9L3VpL3d3dyIgXAogICAgIiR7cGF5bG9hZF9kaXJ9L3VpL2ltYWdlcyIgXAogICAgIiR7c3BrX3Jvb3R9L3NjcmlwdHMiIFwKICAgICIke3Nwa19yb290fS9jb25mIiBcCiAgICAiJChkaXJuYW1lICIke09VVFBVVF9QQVRIfSIpIgoKICByc3luYyAtYSAiJHtBUFBfRElSfS9wYWNrYWdlLyIgIiR7cGF5bG9hZF9kaXJ9LyIKICByc3luYyAtYSAtLWRlbGV0ZSAiJHtSVU5USU1FX0RJUn0vdWkvd3d3LyIgIiR7cGF5bG9hZF9kaXJ9L3VpL3d3dy8iCiAgcnN5bmMgLWEgLS1kZWxldGUgIiR7UlVOVElNRV9ESVJ9L3NlcnZlci1hdXRoLXZpZXcvZGlzdC8iICIke3BheWxvYWRfZGlyfS9zZXJ2ZXItYXV0aC12aWV3L2Rpc3QvIgogIGNwICIke1JVTlRJTUVfRElSfS9zZXJ2ZXIvc2VydmVyLWFkbWluL3Jlc291cmNlcy9hY21lc2guemlwIiBcCiAgICAiJHtwYXlsb2FkX2Rpcn0vc2VydmVyL3NlcnZlci1hZG1pbi9yZXNvdXJjZXMvYWNtZXNoLnppcCIKICBjcCAiJHtHQVRFV0FZX0FSVElGQUNUfSIgIiR7cGF5bG9hZF9kaXJ9L2Jpbi9nby1yZWF1dGgtcHJveHkiCiAgY3AgIiR7TVVTTF9SVVNUX0RJUn0vc2VydmVyLWFkbWluLXJzLWxpbnV4LSR7UlVOVElNRV9BUkNIfSIgIiR7cGF5bG9hZF9kaXJ9L2Jpbi9zZXJ2ZXItYWRtaW4tcnMiCgogIGNwICIke1JPT1RfRElSfS9hcHBzL2ZuLWtub2NrL0lDT05fNjQuUE5HIiAiJHtzcGtfcm9vdH0vUEFDS0FHRV9JQ09OLlBORyIKICBjcCAiJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay9JQ09OXzI1Ni5QTkciICIke3Nwa19yb290fS9QQUNLQUdFX0lDT05fMjU2LlBORyIKICBjcCAiJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay9JQ09OLlBORyIgIiR7cGF5bG9hZF9kaXJ9L3VpL2ltYWdlcy9pY29uLnBuZyIKICBmb3IgaWNvbl9zaXplIGluIDE2IDI0IDMyIDQ4IDY0IDcyOyBkbwogICAgY3AgIiR7Uk9PVF9ESVJ9L2FwcHMvZm4ta25vY2svSUNPTl82NC5QTkciICIke3BheWxvYWRfZGlyfS91aS9pbWFnZXMvaWNvbl8ke2ljb25fc2l6ZX0ucG5nIgogIGRvbmUKICBjcCAiJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay9JQ09OXzI1Ni5QTkciICIke3BheWxvYWRfZGlyfS91aS9pbWFnZXMvaWNvbl8yNTYucG5nIgoKICBsaWZlY3ljbGVfc2NyaXB0cz0oCiAgICBzdGFydC1zdG9wLXN0YXR1cwogICAgcHJlaW5zdAogICAgcG9zdGluc3QKICAgIHByZXVuaW5zdAogICAgcG9zdHVuaW5zdAogICAgcHJldXBncmFkZQogICAgcG9zdHVwZ3JhZGUKICApCiAgZm9yIHNjcmlwdF9uYW1lIGluICIke2xpZmVjeWNsZV9zY3JpcHRzW0BdfSI7IGRvCiAgICBjcCAiJHtBUFBfRElSfS9zY3JpcHRzLyR7c2NyaXB0X25hbWV9IiAiJHtzcGtfcm9vdH0vc2NyaXB0cy8ke3NjcmlwdF9uYW1lfSIKICBkb25lCiAgcnN5bmMgLWEgIiR7QVBQX0RJUn0vY29uZi8iICIke3Nwa19yb290fS9jb25mLyIKCiAgY2htb2QgNzU1IFwKICAgICIke3BheWxvYWRfZGlyfS9iaW4vZm4ta25vY2stZW50cnlwb2ludCIgXAogICAgIiR7cGF5bG9hZF9kaXJ9L2Jpbi9nby1yZWF1dGgtcHJveHkiIFwKICAgICIke3BheWxvYWRfZGlyfS9iaW4vc2VydmVyLWFkbWluLXJzIiBcCiAgICAiJHtwYXlsb2FkX2Rpcn0vdWkvaW5kZXguY2dpIiBcCiAgICAiJHtzcGtfcm9vdH0vc2NyaXB0cy8iKgogIGNobW9kIDY0NCAiJHtzcGtfcm9vdH0vY29uZi9wcml2aWxlZ2UiICIke3Nwa19yb290fS9jb25mL3Jlc291cmNlIgoKICBqcSAtZSAuICIke3BheWxvYWRfZGlyfS91aS9jb25maWciICIke3Nwa19yb290fS9jb25mL3ByaXZpbGVnZSIgIiR7c3BrX3Jvb3R9L2NvbmYvcmVzb3VyY2UiID4vZGV2L251bGwKICBub2RlIC0tY2hlY2sgIiR7cGF5bG9hZF9kaXJ9L3VpL2xhdW5jaC5qcyIKICBzaCAtbiAiJHtwYXlsb2FkX2Rpcn0vdWkvaW5kZXguY2dpIiAiJHtzcGtfcm9vdH0vc2NyaXB0cy8iKgogIGJhc2ggLW4gIiR7cGF5bG9hZF9kaXJ9L2Jpbi9mbi1rbm9jay1lbnRyeXBvaW50IgoKICBub3JtYWxpemVfdHJlZV9tdGltZSAiJHtwYXlsb2FkX2Rpcn0iCiAgaWYgdGFyIC0tdmVyc2lvbiAyPi9kZXYvbnVsbCB8IGdyZXAgLXFpIGJzZHRhcjsgdGhlbgogICAgb3duZXJfYXJncz0oLS11aWQgMCAtLWdpZCAwIC0tdW5hbWUgcm9vdCAtLWduYW1lIHJvb3QpCiAgZWxzZQogICAgb3duZXJfYXJncz0oLS1vd25lcj0wIC0tZ3JvdXA9MCAtLW51bWVyaWMtb3duZXIgLS1zb3J0PW5hbWUpCiAgZmkKICBDT1BZRklMRV9ESVNBQkxFPTEgdGFyICIke293bmVyX2FyZ3NbQF19IiAtY2YgLSAtQyAiJHtwYXlsb2FkX2Rpcn0iIC4gfCBnemlwIC1uIC05ID4gIiR7cGFja2FnZV90Z3p9IgogIGV4dHJhY3Rfc2l6ZT0iJChkdSAtc2sgIiR7cGF5bG9hZF9kaXJ9IiB8IGF3ayAne3ByaW50ICQxfScpIgogIHdyaXRlX2luZm8gIiR7c3BrX3Jvb3R9L0lORk8iICIke2V4dHJhY3Rfc2l6ZX0iCgogIG5vcm1hbGl6ZV90cmVlX210aW1lICIke3Nwa19yb290fSIKICBybSAtZiAiJHt0ZW1wX291dHB1dH0iCiAgQ09QWUZJTEVfRElTQUJMRT0xIHRhciAiJHtvd25lcl9hcmdzW0BdfSIgLWNmICIke3RlbXBfb3V0cHV0fSIgXAogICAgLUMgIiR7c3BrX3Jvb3R9IiBcCiAgICBJTkZPIFBBQ0tBR0VfSUNPTi5QTkcgUEFDS0FHRV9JQ09OXzI1Ni5QTkcgcGFja2FnZS50Z3ogc2NyaXB0cyBjb25mCiAgbXYgIiR7dGVtcF9vdXRwdXR9IiAiJHtPVVRQVVRfUEFUSH0iCgogIHNwa19saXN0aW5nPSIkKHRhciAtdGYgIiR7T1VUUFVUX1BBVEh9IikiIHx8IGZhaWwgImZhaWxlZCB0byBpbnNwZWN0IFNQSyBjb250ZW50cyIKICBwYXlsb2FkX2xpc3Rpbmc9IiQodGFyIC10emYgIiR7cGFja2FnZV90Z3p9IikiIHx8IGZhaWwgImZhaWxlZCB0byBpbnNwZWN0IFNQSyBwYXlsb2FkIGNvbnRlbnRzIgogIGdyZXAgLUZxeCAnSU5GTycgPDw8ICIke3Nwa19saXN0aW5nfSIgfHwgZmFpbCAiU1BLIGlzIG1pc3NpbmcgSU5GTyIKICBncmVwIC1GcXggJ3BhY2thZ2UudGd6JyA8PDwgIiR7c3BrX2xpc3Rpbmd9IiB8fCBmYWlsICJTUEsgaXMgbWlzc2luZyBwYWNrYWdlLnRneiIKICBncmVwIC1GcXggJy4vYmluL3NlcnZlci1hZG1pbi1ycycgPDw8ICIke3BheWxvYWRfbGlzdGluZ30iIHx8IGZhaWwgInBheWxvYWQgaXMgbWlzc2luZyBiYWNrZW5kIgogIGdyZXAgLUZxeCAnLi91aS9pbmRleC5jZ2knIDw8PCAiJHtwYXlsb2FkX2xpc3Rpbmd9IiB8fCBmYWlsICJwYXlsb2FkIGlzIG1pc3NpbmcgRFNNIENHSSIKICBncmVwIC1GcXggJy4vdWkvbGF1bmNoLmh0bWwnIDw8PCAiJHtwYXlsb2FkX2xpc3Rpbmd9IiB8fCBmYWlsICJwYXlsb2FkIGlzIG1pc3NpbmcgRFNNIGxhdW5jaGVyIgogIGdyZXAgLUZxeCAnLi91aS9sYXVuY2guanMnIDw8PCAiJHtwYXlsb2FkX2xpc3Rpbmd9IiB8fCBmYWlsICJwYXlsb2FkIGlzIG1pc3NpbmcgRFNNIGxhdW5jaGVyIHNjcmlwdCIKCiAgY2hlY2tzdW09IiQoc2hhc3VtIC1hIDI1NiAiJHtPVVRQVVRfUEFUSH0iIHwgYXdrICd7cHJpbnQgJDF9JykiCiAgcHJpbnRmICclcyAgJXNcbicgIiR7Y2hlY2tzdW19IiAiJChiYXNlbmFtZSAiJHtPVVRQVVRfUEFUSH0iKSIgPiAiJHtPVVRQVVRfUEFUSH0uc2hhMjU2IgogIGxvZyAiYnVpbHQgJHtPVVRQVVRfUEFUSH0iCiAgbG9nICJzaGEyNTYgJHtjaGVja3N1bX0iCn0KCnJlcXVpcmVfY21kIGpxCnJlcXVpcmVfY21kIG5vZGUKcmVxdWlyZV9jbWQgcnN5bmMKcmVxdWlyZV9jbWQgZmlsZQpyZXF1aXJlX2NtZCB0YXIKcmVxdWlyZV9jbWQgZ3ppcApyZXF1aXJlX2NtZCBzaGFzdW0KaWYgWyAteiAiJHtQUkVCVUlMVF9HQVRFV0FZfSIgXTsgdGhlbgogIHJlcXVpcmVfY21kIGdvCmZpCkJVSUxEX1dPUktfRElSPSIkKG1rdGVtcCAtZCAiJHtUTVBESVI6LS90bXB9L2ZuLWtub2NrLXN5bm9sb2d5LlhYWFhYWCIpIgpHQVRFV0FZX0FSVElGQUNUPSIke0JVSUxEX1dPUktfRElSfS9nYXRld2F5L2dvLXJlYXV0aC1wcm94eS1saW51eC0ke1JVTlRJTUVfQVJDSH0iCnRyYXAgY2xlYW51cCBFWElUCnByZXBhcmVfYXJ0aWZhY3RzCmJ1aWxkX2dhdGV3YXlfYXJ0aWZhY3QKdmFsaWRhdGVfYXJ0aWZhY3RzCmNsZWFuX29sZF9wYWNrYWdlcwpidWlsZF9wYWNrYWdlCg==
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
+APP_DIR="${ROOT_DIR}/apps/fn-knock-synology"
+DIST_DIR="${ROOT_DIR}/dist/synology"
+LEGACY_DIST_DIR="${APP_DIR}/dist"
+ARTIFACTS_DIR="${FN_KNOCK_ARTIFACTS_DIR:-${ROOT_DIR}/dist/fn-knock-artifacts}"
+RUNTIME_DIR="${FN_KNOCK_PREPARED_RUNTIME_DIR:-${ARTIFACTS_DIR}/runtime}"
+MUSL_RUST_DIR="${FN_KNOCK_PREPARED_MUSL_RUST_BACKEND_DIR:-${ARTIFACTS_DIR}/musl-rust-backends}"
+PACKAGE_NAME="fn-knock-synology"
+PRODUCT_VERSION="$(jq -er '.version' "${ROOT_DIR}/version.json")"
+RELEASE_CHANNEL="$(jq -er '.releaseChannel // "stable"' "${ROOT_DIR}/version.json")"
+BUILD_NUMBER="${FN_KNOCK_SYNOLOGY_BUILD_NUMBER:-0017}"
+PACKAGE_VERSION="${PRODUCT_VERSION}-${BUILD_NUMBER}"
+PACKAGE_BETA="no"
+[ "${RELEASE_CHANNEL}" = "stable" ] || PACKAGE_BETA="yes"
+REPRODUCIBLE_MTIME="200001010000"
+TARGET_ARCH="${FN_KNOCK_SYNOLOGY_ARCH:-${1:-x86_64}}"
+RUNTIME_ARCH=""
+GO_ARCH=""
+GO_ARM=""
+ELF_DESCRIPTION=""
+OUTPUT_PATH=""
+BUILD_WORK_DIR=""
+GATEWAY_ARTIFACT=""
+PREBUILT_GATEWAY="${FN_KNOCK_SYNOLOGY_GATEWAY_BIN:-}"
+
+case "${TARGET_ARCH}" in
+  x86_64)
+    RUNTIME_ARCH="amd64"
+    GO_ARCH="amd64"
+    ELF_DESCRIPTION="Linux x86-64"
+    ;;
+  armv8)
+    RUNTIME_ARCH="arm64"
+    GO_ARCH="arm64"
+    ELF_DESCRIPTION="Linux AArch64"
+    ;;
+  armv7)
+    RUNTIME_ARCH="arm"
+    GO_ARCH="arm"
+    GO_ARM="7"
+    ELF_DESCRIPTION="Linux ARMv7"
+    ;;
+  *)
+    printf '[fn-knock-synology] ERROR: unsupported Synology architecture: %s (expected x86_64, armv8, or armv7)\n' \
+      "${TARGET_ARCH}" >&2
+    exit 1
+    ;;
+esac
+
+OUTPUT_PATH="${FN_KNOCK_SYNOLOGY_OUTPUT:-${DIST_DIR}/${PACKAGE_NAME}-${TARGET_ARCH}-${PACKAGE_VERSION}.spk}"
+
+log() {
+  printf '[fn-knock-synology] %s\n' "$*"
+}
+
+fail() {
+  printf '[fn-knock-synology] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+require_cmd() {
+  command -v "$1" >/dev/null 2>&1 || fail "missing required command: $1"
+}
+
+normalize_tree_mtime() {
+  local tree="$1"
+  # touch -t interprets its argument in the process timezone. Pin UTC and stay
+  # well clear of the Unix epoch boundary so DSM extraction cannot produce a
+  # negative timestamp in positive-offset timezones.
+  TZ=UTC find "${tree}" -depth -exec touch -t "${REPRODUCIBLE_MTIME}" {} +
+}
+
+cleanup() {
+  if [ -n "${BUILD_WORK_DIR}" ]; then
+    rm -rf "${BUILD_WORK_DIR}"
+  fi
+}
+
+prepare_artifacts() {
+  if [ "${FN_KNOCK_SYNOLOGY_SKIP_ARTIFACT_PREPARE:-0}" = "1" ]; then
+    log "using existing prepared artifacts"
+    return
+  fi
+
+  log "preparing ${TARGET_ARCH} runtime artifacts (${RUNTIME_ARCH})"
+  FN_KNOCK_MUSL_ARCHES="${RUNTIME_ARCH}" \
+  FN_KNOCK_RUNTIME_GATEWAY_ARCHES="${RUNTIME_ARCH}" \
+  FN_KNOCK_GO_REAUTH_PROXY_FORCE_BUILD="${FN_KNOCK_GO_REAUTH_PROXY_FORCE_BUILD:-1}" \
+    bash "${ROOT_DIR}/scripts/fn-knock-prepare-artifacts.sh" openwrt
+}
+
+build_gateway_artifact() {
+  local gateway_dir="${FN_KNOCK_GO_REAUTH_PROXY_DIR:-${ROOT_DIR}/../Go-Reauth-Proxy}"
+  local commit=""
+
+  if [ -n "${PREBUILT_GATEWAY}" ]; then
+    [ -f "${PREBUILT_GATEWAY}" ] || fail "missing prebuilt Synology gateway: ${PREBUILT_GATEWAY}"
+    log "using prebuilt Synology gateway ${PREBUILT_GATEWAY}"
+    mkdir -p "$(dirname "${GATEWAY_ARTIFACT}")"
+    cp "${PREBUILT_GATEWAY}" "${GATEWAY_ARTIFACT}"
+    chmod +x "${GATEWAY_ARTIFACT}"
+    return
+  fi
+
+  [ -d "${gateway_dir}" ] || fail "missing Go-Reauth-Proxy checkout: ${gateway_dir}"
+  bash "${ROOT_DIR}/scripts/verify-go-control-api-contract.sh" "${gateway_dir}"
+  commit="$(git -C "${gateway_dir}" rev-parse HEAD 2>/dev/null)" || \
+    fail "unable to resolve Go gateway commit from ${gateway_dir}"
+  [[ "${commit}" =~ ^[0-9a-f]{40}$ ]] || \
+    fail "Go gateway commit must be a 40-character lowercase Git commit: ${commit:-<empty>}"
+
+  log "building Synology gateway ${PRODUCT_VERSION} (${commit})"
+  mkdir -p "$(dirname "${GATEWAY_ARTIFACT}")"
+  (
+    cd "${gateway_dir}"
+    export CGO_ENABLED=0
+    export GOOS=linux
+    export GOARCH="${GO_ARCH}"
+    export GOFLAGS=-mod=readonly
+    if [ -n "${GO_ARM}" ]; then
+      export GOARM="${GO_ARM}"
+    else
+      unset GOARM || true
+    fi
+    go build \
+      -ldflags="-s -w -X go-reauth-proxy/pkg/version.Version=${PRODUCT_VERSION} -X go-reauth-proxy/pkg/version.Commit=${commit}" \
+      -trimpath \
+      -o "${GATEWAY_ARTIFACT}" \
+      ./cmd/server
+  )
+  chmod +x "${GATEWAY_ARTIFACT}"
+}
+
+validate_elf_arch() {
+  local path="$1"
+  local label="$2"
+  local file_info
+
+  file_info="$(file -b "${path}")"
+  case "${TARGET_ARCH}" in
+    x86_64)
+      printf '%s\n' "${file_info}" | grep -Eq 'ELF 64-bit LSB.*x86-64' || \
+        fail "${label} is not ${ELF_DESCRIPTION}: ${file_info}"
+      ;;
+    armv8)
+      printf '%s\n' "${file_info}" | grep -Eq 'ELF 64-bit LSB.*(ARM aarch64|aarch64)' || \
+        fail "${label} is not ${ELF_DESCRIPTION}: ${file_info}"
+      ;;
+    armv7)
+      printf '%s\n' "${file_info}" | grep -Eq 'ELF 32-bit LSB.*ARM' || \
+        fail "${label} is not ${ELF_DESCRIPTION}: ${file_info}"
+      ;;
+  esac
+}
+
+validate_artifacts() {
+  local backend="${MUSL_RUST_DIR}/server-admin-rs-linux-${RUNTIME_ARCH}"
+
+  [ -x "${GATEWAY_ARTIFACT}" ] || fail "missing gateway artifact: ${GATEWAY_ARTIFACT}"
+  [ -x "${backend}" ] || fail "missing Rust backend artifact: ${backend}"
+  [ -d "${RUNTIME_DIR}/ui/www" ] || fail "missing admin UI artifacts"
+  [ -d "${RUNTIME_DIR}/server-auth-view/dist" ] || fail "missing auth UI artifacts"
+  [ -f "${RUNTIME_DIR}/server/server-admin/resources/acmesh.zip" ] || fail "missing ACME bundle"
+
+  validate_elf_arch "${GATEWAY_ARTIFACT}" "gateway"
+  validate_elf_arch "${backend}" "backend"
+}
+
+clean_old_packages() {
+  local output_dir
+
+  output_dir="$(dirname "${OUTPUT_PATH}")"
+  mkdir -p "${output_dir}"
+  rm -f \
+    "${output_dir}/${PACKAGE_NAME}-${TARGET_ARCH}-"*.spk \
+    "${output_dir}/${PACKAGE_NAME}-${TARGET_ARCH}-"*.spk.sha256 \
+    "${output_dir}/${PACKAGE_NAME}-${TARGET_ARCH}-"*.spk.tmp \
+    "${OUTPUT_PATH}" \
+    "${OUTPUT_PATH}.sha256" \
+    "${OUTPUT_PATH}.tmp"
+
+  if [ "${LEGACY_DIST_DIR}" != "${output_dir}" ]; then
+    rm -f \
+      "${LEGACY_DIST_DIR}/${PACKAGE_NAME}-${TARGET_ARCH}-"*.spk \
+      "${LEGACY_DIST_DIR}/${PACKAGE_NAME}-${TARGET_ARCH}-"*.spk.sha256 \
+      "${LEGACY_DIST_DIR}/${PACKAGE_NAME}-${TARGET_ARCH}-"*.spk.tmp
+  fi
+}
+
+write_info() {
+  local path="$1"
+  local extract_size="$2"
+
+  cat > "${path}" <<EOF
+package="${PACKAGE_NAME}"
+version="${PACKAGE_VERSION}"
+beta="${PACKAGE_BETA}"
+os_min_ver="7.0-40000"
+arch="${TARGET_ARCH}"
+maintainer="fn-knock"
+maintainer_url="https://www.fnknock.cn/synology"
+distributor="fn-knock"
+distributor_url="https://www.fnknock.cn/synology"
+support_url="https://www.fnknock.cn/synology"
+helpurl="https://docs.fnknock.cn/"
+displayname="敲门 knock"
+description="fn-knock is a self-hosted secure access gateway for Synology DSM. It provides authenticated reverse proxy access, zero-trust policies, active threat protection, DDNS, certificate management, and end-to-end observability for NAS services. Official website: https://www.fnknock.cn/synology"
+description_enu="fn-knock is a self-hosted secure access gateway for Synology DSM. It provides authenticated reverse proxy access, zero-trust policies, active threat protection, DDNS, certificate management, and end-to-end observability for NAS services. Official website: https://www.fnknock.cn/synology"
+description_chs="敲门 knock 是面向 Synology DSM 的自托管安全访问网关，为 NAS 服务提供鉴权反向代理、零信任访问策略、主动威胁防护、DDNS、证书管理与全链路观测，并通过 DSM 桌面安全管理。官方网站：https://www.fnknock.cn/synology"
+description_cht="敲門 knock 是面向 Synology DSM 的自託管安全存取閘道，為 NAS 服務提供驗證反向代理、零信任存取策略、主動威脅防護、DDNS、憑證管理與全鏈路觀測，並透過 DSM 桌面安全管理。官方網站：https://www.fnknock.cn/synology"
+thirdparty="yes"
+dsmuidir="ui"
+dsmappname="fn-knock-synology.Application"
+dsmapplaunchname="fn-knock-synology.Application"
+ctl_stop="yes"
+precheckstartstop="yes"
+start_dep_services="network-online.target"
+silent_install="yes"
+silent_upgrade="yes"
+silent_uninstall="yes"
+extractsize="${extract_size}"
+EOF
+}
+
+build_package() {
+  local work_dir
+  local payload_dir
+  local spk_root
+  local package_tgz
+  local temp_output
+  local extract_size
+  local checksum
+  local spk_listing
+  local payload_listing
+  local -a owner_args
+  local -a lifecycle_scripts
+  local script_name
+  local icon_size
+
+  work_dir="${BUILD_WORK_DIR}/package"
+  payload_dir="${work_dir}/payload"
+  spk_root="${work_dir}/spk"
+  package_tgz="${spk_root}/package.tgz"
+  temp_output="${OUTPUT_PATH}.tmp"
+  mkdir -p \
+    "${payload_dir}/bin" \
+    "${payload_dir}/server/server-admin/resources" \
+    "${payload_dir}/server-auth-view/dist" \
+    "${payload_dir}/ui/www" \
+    "${payload_dir}/ui/images" \
+    "${spk_root}/scripts" \
+    "${spk_root}/conf" \
+    "$(dirname "${OUTPUT_PATH}")"
+
+  rsync -a "${APP_DIR}/package/" "${payload_dir}/"
+  rsync -a --delete "${RUNTIME_DIR}/ui/www/" "${payload_dir}/ui/www/"
+  rsync -a --delete "${RUNTIME_DIR}/server-auth-view/dist/" "${payload_dir}/server-auth-view/dist/"
+  cp "${RUNTIME_DIR}/server/server-admin/resources/acmesh.zip" \
+    "${payload_dir}/server/server-admin/resources/acmesh.zip"
+  cp "${GATEWAY_ARTIFACT}" "${payload_dir}/bin/go-reauth-proxy"
+  cp "${MUSL_RUST_DIR}/server-admin-rs-linux-${RUNTIME_ARCH}" "${payload_dir}/bin/server-admin-rs"
+
+  cp "${ROOT_DIR}/apps/fn-knock/ICON_64.PNG" "${spk_root}/PACKAGE_ICON.PNG"
+  cp "${ROOT_DIR}/apps/fn-knock/ICON_256.PNG" "${spk_root}/PACKAGE_ICON_256.PNG"
+  cp "${ROOT_DIR}/apps/fn-knock/ICON.PNG" "${payload_dir}/ui/images/icon.png"
+  for icon_size in 16 24 32 48 64 72; do
+    cp "${ROOT_DIR}/apps/fn-knock/ICON_64.PNG" "${payload_dir}/ui/images/icon_${icon_size}.png"
+  done
+  cp "${ROOT_DIR}/apps/fn-knock/ICON_256.PNG" "${payload_dir}/ui/images/icon_256.png"
+
+  lifecycle_scripts=(
+    start-stop-status
+    preinst
+    postinst
+    preuninst
+    postuninst
+    preupgrade
+    postupgrade
+  )
+  for script_name in "${lifecycle_scripts[@]}"; do
+    cp "${APP_DIR}/scripts/${script_name}" "${spk_root}/scripts/${script_name}"
+  done
+  rsync -a "${APP_DIR}/conf/" "${spk_root}/conf/"
+
+  chmod 755 \
+    "${payload_dir}/bin/fn-knock-entrypoint" \
+    "${payload_dir}/bin/go-reauth-proxy" \
+    "${payload_dir}/bin/server-admin-rs" \
+    "${payload_dir}/ui/index.cgi" \
+    "${spk_root}/scripts/"*
+  chmod 644 "${spk_root}/conf/privilege" "${spk_root}/conf/resource"
+
+  jq -e . "${payload_dir}/ui/config" "${spk_root}/conf/privilege" "${spk_root}/conf/resource" >/dev/null
+  node --check "${payload_dir}/ui/launch.js"
+  sh -n "${payload_dir}/ui/index.cgi" "${spk_root}/scripts/"*
+  bash -n "${payload_dir}/bin/fn-knock-entrypoint"
+
+  normalize_tree_mtime "${payload_dir}"
+  if tar --version 2>/dev/null | grep -qi bsdtar; then
+    owner_args=(--uid 0 --gid 0 --uname root --gname root)
+  else
+    owner_args=(--owner=0 --group=0 --numeric-owner --sort=name)
+  fi
+  COPYFILE_DISABLE=1 tar "${owner_args[@]}" -cf - -C "${payload_dir}" . | gzip -n -9 > "${package_tgz}"
+  extract_size="$(du -sk "${payload_dir}" | awk '{print $1}')"
+  write_info "${spk_root}/INFO" "${extract_size}"
+
+  normalize_tree_mtime "${spk_root}"
+  rm -f "${temp_output}"
+  COPYFILE_DISABLE=1 tar "${owner_args[@]}" -cf "${temp_output}" \
+    -C "${spk_root}" \
+    INFO PACKAGE_ICON.PNG PACKAGE_ICON_256.PNG package.tgz scripts conf
+  mv "${temp_output}" "${OUTPUT_PATH}"
+
+  spk_listing="$(tar -tf "${OUTPUT_PATH}")" || fail "failed to inspect SPK contents"
+  payload_listing="$(tar -tzf "${package_tgz}")" || fail "failed to inspect SPK payload contents"
+  grep -Fqx 'INFO' <<< "${spk_listing}" || fail "SPK is missing INFO"
+  grep -Fqx 'package.tgz' <<< "${spk_listing}" || fail "SPK is missing package.tgz"
+  grep -Fqx './bin/server-admin-rs' <<< "${payload_listing}" || fail "payload is missing backend"
+  grep -Fqx './ui/index.cgi' <<< "${payload_listing}" || fail "payload is missing DSM CGI"
+  grep -Fqx './ui/launch.html' <<< "${payload_listing}" || fail "payload is missing DSM launcher"
+  grep -Fqx './ui/launch.js' <<< "${payload_listing}" || fail "payload is missing DSM launcher script"
+
+  checksum="$(shasum -a 256 "${OUTPUT_PATH}" | awk '{print $1}')"
+  printf '%s  %s\n' "${checksum}" "$(basename "${OUTPUT_PATH}")" > "${OUTPUT_PATH}.sha256"
+  log "built ${OUTPUT_PATH}"
+  log "sha256 ${checksum}"
+}
+
+require_cmd jq
+require_cmd node
+require_cmd rsync
+require_cmd file
+require_cmd tar
+require_cmd gzip
+require_cmd shasum
+if [ -z "${PREBUILT_GATEWAY}" ]; then
+  require_cmd go
+fi
+BUILD_WORK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/fn-knock-synology.XXXXXX")"
+GATEWAY_ARTIFACT="${BUILD_WORK_DIR}/gateway/go-reauth-proxy-linux-${RUNTIME_ARCH}"
+trap cleanup EXIT
+prepare_artifacts
+build_gateway_artifact
+validate_artifacts
+clean_old_packages
+build_package

@@ -1,1 +1,4 @@
-c2VydmljZXM6CiAgZm4ta25vY2s6CiAgICBlbnZpcm9ubWVudDoKICAgICAgRVhQT1NFX1JVTlRJTUVfSE1BQ19TRUNSRVQ6ICIxIgo=
+services:
+  fn-knock:
+    environment:
+      EXPOSE_RUNTIME_HMAC_SECRET: "1"

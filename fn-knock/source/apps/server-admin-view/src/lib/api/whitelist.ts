@@ -1,1 +1,89 @@
-aW1wb3J0IHR5cGUgewogIGNvbXBvbmVudHMgYXMgQXBpQ29udHJhY3RDb21wb25lbnRzLAogIG9wZXJhdGlvbnMgYXMgQXBpQ29udHJhY3RPcGVyYXRpb25zLAp9IGZyb20gIkBmbi1rbm9jay9hcGktY29udHJhY3QiOwoKaW1wb3J0IHsgYXBpQ2xpZW50IH0gZnJvbSAiLi9jbGllbnQiOwoKdHlwZSBXaGl0ZWxpc3RTY2hlbWFzID0gQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl07CgpleHBvcnQgdHlwZSBXaGl0ZUxpc3RSZWNvcmQgPSBXaGl0ZWxpc3RTY2hlbWFzWyJXaGl0ZWxpc3RSZWNvcmREYXRhIl07CmV4cG9ydCB0eXBlIFdoaXRlbGlzdFJlZ2lvbklucHV0ID0KICBXaGl0ZWxpc3RTY2hlbWFzWyJXaGl0ZWxpc3RSZWdpb25JbnB1dERhdGEiXTsKZXhwb3J0IHR5cGUgV2hpdGVsaXN0UmVnaW9uR3JvdXBSZWNvcmQgPQogIFdoaXRlbGlzdFNjaGVtYXNbIldoaXRlbGlzdFJlZ2lvbkdyb3VwRGF0YSJdOwpleHBvcnQgdHlwZSBXaGl0ZWxpc3RSZWdpb25BZGRSZXN1bHQgPQogIFdoaXRlbGlzdFNjaGVtYXNbIldoaXRlbGlzdFJlZ2lvbkFkZFJlc3VsdERhdGEiXTsKCnR5cGUgV2hpdGVsaXN0QWRkQm9keSA9IFdoaXRlbGlzdFNjaGVtYXNbIldoaXRlbGlzdEFkZEJvZHlEYXRhIl07CnR5cGUgV2hpdGVsaXN0UmVnaW9uQWRkQm9keSA9CiAgV2hpdGVsaXN0U2NoZW1hc1siV2hpdGVsaXN0UmVnaW9uQWRkQm9keURhdGEiXTsKdHlwZSBXaGl0ZWxpc3RDb21tZW50Qm9keSA9CiAgV2hpdGVsaXN0U2NoZW1hc1siV2hpdGVsaXN0Q29tbWVudEJvZHlEYXRhIl07Cgp0eXBlIFdoaXRlbGlzdFJlY29yZHNSZXNwb25zZSA9CiAgQXBpQ29udHJhY3RPcGVyYXRpb25zWyJnZXRfYXBpX2FkbWluX3doaXRlbGlzdCJdWyJyZXNwb25zZXMiXVsyMDBdWyJjb250ZW50Il1bImFwcGxpY2F0aW9uL2pzb24iXTsKdHlwZSBXaGl0ZWxpc3RBZGRSZXNwb25zZSA9CiAgQXBpQ29udHJhY3RPcGVyYXRpb25zWyJwb3N0X2FwaV9hZG1pbl93aGl0ZWxpc3QiXVsicmVzcG9uc2VzIl1bMjAwXVsiY29udGVudCJdWyJhcHBsaWNhdGlvbi9qc29uIl07CnR5cGUgV2hpdGVsaXN0UmVnaW9uc1Jlc3BvbnNlID0KICBBcGlDb250cmFjdE9wZXJhdGlvbnNbImdldF9hcGlfYWRtaW5fd2hpdGVsaXN0X3JlZ2lvbnMiXVsicmVzcG9uc2VzIl1bMjAwXVsiY29udGVudCJdWyJhcHBsaWNhdGlvbi9qc29uIl07CnR5cGUgV2hpdGVsaXN0UmVnaW9uQWRkUmVzcG9uc2UgPQogIEFwaUNvbnRyYWN0T3BlcmF0aW9uc1sicG9zdF9hcGlfYWRtaW5fd2hpdGVsaXN0X3JlZ2lvbnMiXVsicmVzcG9uc2VzIl1bMjAwXVsiY29udGVudCJdWyJhcHBsaWNhdGlvbi9qc29uIl07CnR5cGUgV2hpdGVsaXN0UmVnaW9uRGVsZXRlUmVzcG9uc2UgPQogIEFwaUNvbnRyYWN0T3BlcmF0aW9uc1siZGVsZXRlX2FwaV9hZG1pbl93aGl0ZWxpc3RfcmVnaW9uc19faWRfIl1bInJlc3BvbnNlcyJdWzIwMF1bImNvbnRlbnQiXVsiYXBwbGljYXRpb24vanNvbiJdOwp0eXBlIFdoaXRlbGlzdERlbGV0ZVJlc3BvbnNlID0KICBBcGlDb250cmFjdE9wZXJhdGlvbnNbImRlbGV0ZV9hcGlfYWRtaW5fd2hpdGVsaXN0X19pZF8iXVsicmVzcG9uc2VzIl1bMjAwXVsiY29udGVudCJdWyJhcHBsaWNhdGlvbi9qc29uIl07CnR5cGUgV2hpdGVsaXN0Q29tbWVudFJlc3BvbnNlID0KICBBcGlDb250cmFjdE9wZXJhdGlvbnNbInBhdGNoX2FwaV9hZG1pbl93aGl0ZWxpc3RfX2lkX19jb21tZW50Il1bInJlc3BvbnNlcyJdWzIwMF1bImNvbnRlbnQiXVsiYXBwbGljYXRpb24vanNvbiJdOwp0eXBlIFdoaXRlbGlzdFJlZnJlc2hSZXNwb25zZSA9CiAgQXBpQ29udHJhY3RPcGVyYXRpb25zWyJwb3N0X2FwaV9hZG1pbl93aGl0ZWxpc3RfX2lkX19yZWZyZXNoIl1bInJlc3BvbnNlcyJdWzIwMF1bImNvbnRlbnQiXVsiYXBwbGljYXRpb24vanNvbiJdOwoKZXhwb3J0IGNvbnN0IFdoaXRlbGlzdEFQSSA9IHsKICBhc3luYyBnZXRSZWNvcmRzKCk6IFByb21pc2U8V2hpdGVsaXN0UmVjb3Jkc1Jlc3BvbnNlPiB7CiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi93aGl0ZWxpc3QiKTsKICAgIHJldHVybiByZXNwb25zZS5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0UmVnaW9ucygpOiBQcm9taXNlPFdoaXRlbGlzdFJlZ2lvbnNSZXNwb25zZT4gewogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvd2hpdGVsaXN0L3JlZ2lvbnMiKTsKICAgIHJldHVybiByZXNwb25zZS5kYXRhOwogIH0sCiAgYXN5bmMgYWRkUmVjb3JkKHBheWxvYWQ6IFdoaXRlbGlzdEFkZEJvZHkpOiBQcm9taXNlPFdoaXRlbGlzdEFkZFJlc3BvbnNlPiB7CiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvd2hpdGVsaXN0IiwgcGF5bG9hZCk7CiAgICByZXR1cm4gcmVzcG9uc2UuZGF0YTsKICB9LAogIGFzeW5jIGFkZFJlZ2lvbnMoCiAgICBwYXlsb2FkOiBXaGl0ZWxpc3RSZWdpb25BZGRCb2R5LAogICk6IFByb21pc2U8V2hpdGVsaXN0UmVnaW9uQWRkUmVzcG9uc2U+IHsKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi93aGl0ZWxpc3QvcmVnaW9ucyIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlc3BvbnNlLmRhdGE7CiAgfSwKICBhc3luYyBkZWxldGVSZWdpb24oaWQ6IHN0cmluZyk6IFByb21pc2U8V2hpdGVsaXN0UmVnaW9uRGVsZXRlUmVzcG9uc2U+IHsKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYXBpQ2xpZW50LmRlbGV0ZSgKICAgICAgYC93aGl0ZWxpc3QvcmVnaW9ucy8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9YCwKICAgICk7CiAgICByZXR1cm4gcmVzcG9uc2UuZGF0YTsKICB9LAogIGFzeW5jIGRlbGV0ZVJlY29yZChpZDogc3RyaW5nKTogUHJvbWlzZTxXaGl0ZWxpc3REZWxldGVSZXNwb25zZT4gewogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhcGlDbGllbnQuZGVsZXRlKAogICAgICBgL3doaXRlbGlzdC8ke2VuY29kZVVSSUNvbXBvbmVudChpZCl9YCwKICAgICk7CiAgICByZXR1cm4gcmVzcG9uc2UuZGF0YTsKICB9LAogIGFzeW5jIHVwZGF0ZUNvbW1lbnQoCiAgICBpZDogc3RyaW5nLAogICAgY29tbWVudDogc3RyaW5nLAogICk6IFByb21pc2U8V2hpdGVsaXN0Q29tbWVudFJlc3BvbnNlPiB7CiAgICBjb25zdCBwYXlsb2FkID0geyBjb21tZW50IH0gc2F0aXNmaWVzIFdoaXRlbGlzdENvbW1lbnRCb2R5OwogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhcGlDbGllbnQucGF0Y2goCiAgICAgIGAvd2hpdGVsaXN0LyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX0vY29tbWVudGAsCiAgICAgIHBheWxvYWQsCiAgICApOwogICAgcmV0dXJuIHJlc3BvbnNlLmRhdGE7CiAgfSwKICBhc3luYyByZWZyZXNoUmVjb3JkKGlkOiBzdHJpbmcpOiBQcm9taXNlPFdoaXRlbGlzdFJlZnJlc2hSZXNwb25zZT4gewogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgKICAgICAgYC93aGl0ZWxpc3QvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfS9yZWZyZXNoYCwKICAgICk7CiAgICByZXR1cm4gcmVzcG9uc2UuZGF0YTsKICB9LAp9Owo=
+import type {
+  components as ApiContractComponents,
+  operations as ApiContractOperations,
+} from "@fn-knock/api-contract";
+
+import { apiClient } from "./client";
+
+type WhitelistSchemas = ApiContractComponents["schemas"];
+
+export type WhiteListRecord = WhitelistSchemas["WhitelistRecordData"];
+export type WhitelistRegionInput =
+  WhitelistSchemas["WhitelistRegionInputData"];
+export type WhitelistRegionGroupRecord =
+  WhitelistSchemas["WhitelistRegionGroupData"];
+export type WhitelistRegionAddResult =
+  WhitelistSchemas["WhitelistRegionAddResultData"];
+
+type WhitelistAddBody = WhitelistSchemas["WhitelistAddBodyData"];
+type WhitelistRegionAddBody =
+  WhitelistSchemas["WhitelistRegionAddBodyData"];
+type WhitelistCommentBody =
+  WhitelistSchemas["WhitelistCommentBodyData"];
+
+type WhitelistRecordsResponse =
+  ApiContractOperations["get_api_admin_whitelist"]["responses"][200]["content"]["application/json"];
+type WhitelistAddResponse =
+  ApiContractOperations["post_api_admin_whitelist"]["responses"][200]["content"]["application/json"];
+type WhitelistRegionsResponse =
+  ApiContractOperations["get_api_admin_whitelist_regions"]["responses"][200]["content"]["application/json"];
+type WhitelistRegionAddResponse =
+  ApiContractOperations["post_api_admin_whitelist_regions"]["responses"][200]["content"]["application/json"];
+type WhitelistRegionDeleteResponse =
+  ApiContractOperations["delete_api_admin_whitelist_regions__id_"]["responses"][200]["content"]["application/json"];
+type WhitelistDeleteResponse =
+  ApiContractOperations["delete_api_admin_whitelist__id_"]["responses"][200]["content"]["application/json"];
+type WhitelistCommentResponse =
+  ApiContractOperations["patch_api_admin_whitelist__id__comment"]["responses"][200]["content"]["application/json"];
+type WhitelistRefreshResponse =
+  ApiContractOperations["post_api_admin_whitelist__id__refresh"]["responses"][200]["content"]["application/json"];
+
+export const WhitelistAPI = {
+  async getRecords(): Promise<WhitelistRecordsResponse> {
+    const response = await apiClient.get("/whitelist");
+    return response.data;
+  },
+  async getRegions(): Promise<WhitelistRegionsResponse> {
+    const response = await apiClient.get("/whitelist/regions");
+    return response.data;
+  },
+  async addRecord(payload: WhitelistAddBody): Promise<WhitelistAddResponse> {
+    const response = await apiClient.post("/whitelist", payload);
+    return response.data;
+  },
+  async addRegions(
+    payload: WhitelistRegionAddBody,
+  ): Promise<WhitelistRegionAddResponse> {
+    const response = await apiClient.post("/whitelist/regions", payload);
+    return response.data;
+  },
+  async deleteRegion(id: string): Promise<WhitelistRegionDeleteResponse> {
+    const response = await apiClient.delete(
+      `/whitelist/regions/${encodeURIComponent(id)}`,
+    );
+    return response.data;
+  },
+  async deleteRecord(id: string): Promise<WhitelistDeleteResponse> {
+    const response = await apiClient.delete(
+      `/whitelist/${encodeURIComponent(id)}`,
+    );
+    return response.data;
+  },
+  async updateComment(
+    id: string,
+    comment: string,
+  ): Promise<WhitelistCommentResponse> {
+    const payload = { comment } satisfies WhitelistCommentBody;
+    const response = await apiClient.patch(
+      `/whitelist/${encodeURIComponent(id)}/comment`,
+      payload,
+    );
+    return response.data;
+  },
+  async refreshRecord(id: string): Promise<WhitelistRefreshResponse> {
+    const response = await apiClient.post(
+      `/whitelist/${encodeURIComponent(id)}/refresh`,
+    );
+    return response.data;
+  },
+};

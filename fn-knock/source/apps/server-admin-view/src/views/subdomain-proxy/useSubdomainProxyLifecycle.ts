@@ -1,1 +1,42 @@
-aW1wb3J0IHsgb25Nb3VudGVkLCBvblVubW91bnRlZCwgd2F0Y2gsIHR5cGUgV2F0Y2hTb3VyY2UgfSBmcm9tICJ2dWUiOwoKdHlwZSBTdWJkb21haW5Qcm94eUxpZmVjeWNsZU9wdGlvbnMgPSB7CiAgY2xlYXJQcm90b2NvbEhlYWRlcnNXYXJuaW5nQ2xvc2VUaW1lcjogKCkgPT4gdm9pZDsKICBmaWx0ZXJlZE1hcHBpbmdzOiBXYXRjaFNvdXJjZTx1bmtub3duPjsKICBpc0NvbmZpZ0xvYWRlZDogKCkgPT4gYm9vbGVhbjsKICBsb2FkQWNjZXNzRW50cnlQb3J0OiAoKSA9PiB1bmtub3duOwogIGxvYWRDb25maWc6ICgpID0+IFByb21pc2U8dW5rbm93bj47CiAgbG9hZEdsb2JhbFZpc2liaWxpdHlTdGF0dXM6ICgpID0+IHVua25vd247CiAgc3RhcnRBdmFpbGFiaWxpdHlDbG9jazogKCkgPT4gdm9pZDsKICBzdGFydFRyYWZmaWNSZWFsdGltZVBvbGxpbmc6ICgpID0+IHZvaWQ7CiAgc3RvcEF2YWlsYWJpbGl0eUNsb2NrOiAoKSA9PiB2b2lkOwogIHN0b3BEaXNjb3ZlclNjYW46ICgpID0+IHZvaWQ7CiAgc3RvcFRyYWZmaWNSZWFsdGltZVBvbGxpbmc6ICgpID0+IHZvaWQ7CiAgc3luY0RyYWdnYWJsZVZpc2libGVNYXBwaW5nczogKCkgPT4gdm9pZDsKfTsKCmV4cG9ydCBjb25zdCB1c2VTdWJkb21haW5Qcm94eUxpZmVjeWNsZSA9ICgKICBvcHRpb25zOiBTdWJkb21haW5Qcm94eUxpZmVjeWNsZU9wdGlvbnMsCikgPT4gewogIHdhdGNoKG9wdGlvbnMuZmlsdGVyZWRNYXBwaW5ncywgb3B0aW9ucy5zeW5jRHJhZ2dhYmxlVmlzaWJsZU1hcHBpbmdzLCB7CiAgICBpbW1lZGlhdGU6IHRydWUsCiAgfSk7CgogIGxldCBkaXNwb3NlZCA9IGZhbHNlOwogIG9uTW91bnRlZChhc3luYyAoKSA9PiB7CiAgICBvcHRpb25zLnN0YXJ0QXZhaWxhYmlsaXR5Q2xvY2soKTsKICAgIGlmICghb3B0aW9ucy5pc0NvbmZpZ0xvYWRlZCgpKSBhd2FpdCBvcHRpb25zLmxvYWRDb25maWcoKTsKICAgIGlmIChkaXNwb3NlZCkgcmV0dXJuOwogICAgdm9pZCBvcHRpb25zLmxvYWRHbG9iYWxWaXNpYmlsaXR5U3RhdHVzKCk7CiAgICB2b2lkIG9wdGlvbnMubG9hZEFjY2Vzc0VudHJ5UG9ydCgpOwogICAgb3B0aW9ucy5zdGFydFRyYWZmaWNSZWFsdGltZVBvbGxpbmcoKTsKICB9KTsKCiAgb25Vbm1vdW50ZWQoKCkgPT4gewogICAgZGlzcG9zZWQgPSB0cnVlOwogICAgb3B0aW9ucy5zdG9wQXZhaWxhYmlsaXR5Q2xvY2soKTsKICAgIG9wdGlvbnMuY2xlYXJQcm90b2NvbEhlYWRlcnNXYXJuaW5nQ2xvc2VUaW1lcigpOwogICAgb3B0aW9ucy5zdG9wVHJhZmZpY1JlYWx0aW1lUG9sbGluZygpOwogICAgb3B0aW9ucy5zdG9wRGlzY292ZXJTY2FuKCk7CiAgfSk7Cn07Cg==
+import { onMounted, onUnmounted, watch, type WatchSource } from "vue";
+
+type SubdomainProxyLifecycleOptions = {
+  clearProtocolHeadersWarningCloseTimer: () => void;
+  filteredMappings: WatchSource<unknown>;
+  isConfigLoaded: () => boolean;
+  loadAccessEntryPort: () => unknown;
+  loadConfig: () => Promise<unknown>;
+  loadGlobalVisibilityStatus: () => unknown;
+  startAvailabilityClock: () => void;
+  startTrafficRealtimePolling: () => void;
+  stopAvailabilityClock: () => void;
+  stopDiscoverScan: () => void;
+  stopTrafficRealtimePolling: () => void;
+  syncDraggableVisibleMappings: () => void;
+};
+
+export const useSubdomainProxyLifecycle = (
+  options: SubdomainProxyLifecycleOptions,
+) => {
+  watch(options.filteredMappings, options.syncDraggableVisibleMappings, {
+    immediate: true,
+  });
+
+  let disposed = false;
+  onMounted(async () => {
+    options.startAvailabilityClock();
+    if (!options.isConfigLoaded()) await options.loadConfig();
+    if (disposed) return;
+    void options.loadGlobalVisibilityStatus();
+    void options.loadAccessEntryPort();
+    options.startTrafficRealtimePolling();
+  });
+
+  onUnmounted(() => {
+    disposed = true;
+    options.stopAvailabilityClock();
+    options.clearProtocolHeadersWarningCloseTimer();
+    options.stopTrafficRealtimePolling();
+    options.stopDiscoverScan();
+  });
+};

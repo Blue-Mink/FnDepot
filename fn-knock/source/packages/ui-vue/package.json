@@ -1,1 +1,26 @@
-ewogICJuYW1lIjogIkBmbi1rbm9jay91aS12dWUiLAogICJwcml2YXRlIjogdHJ1ZSwKICAidmVyc2lvbiI6ICIwLjAuMCIsCiAgInR5cGUiOiAibW9kdWxlIiwKICAic2NyaXB0cyI6IHsKICAgICJsaW50IjogImVzbGludCAuIC0tbWF4LXdhcm5pbmdzPTAiCiAgfSwKICAiZGVwZW5kZW5jaWVzIjogewogICAgIkB0YW5zdGFjay92dWUtdGFibGUiOiAiXjguMjEuMyIsCiAgICAiQHZ1ZXVzZS9jb3JlIjogIl4xNC4yLjEiLAogICAgImNsYXNzLXZhcmlhbmNlLWF1dGhvcml0eSI6ICJeMC43LjEiLAogICAgImNsc3giOiAiXjIuMS4xIiwKICAgICJsdWNpZGUtdnVlLW5leHQiOiAiXjAuNTc1LjAiLAogICAgInJla2EtdWkiOiAiXjIuOS4wIiwKICAgICJ0YWlsd2luZC1tZXJnZSI6ICJeMy41LjAiLAogICAgInZ1ZSI6ICJeMy41LjI1IiwKICAgICJ2dWUtaTE4biI6ICJeMTAuMC44IiwKICAgICJ2dWUtaW5wdXQtb3RwIjogIl4wLjMuMiIsCiAgICAidnVlLXNvbm5lciI6ICJeMi4wLjkiCiAgfSwKICAiZGV2RGVwZW5kZW5jaWVzIjogewogICAgIkByZXBvL2VzbGludC1jb25maWciOiAiXjAuMC4wIiwKICAgICJlc2xpbnQiOiAiXjEwLjguMCIKICB9Cn0K
+{
+  "name": "@fn-knock/ui-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --max-warnings=0"
+  },
+  "dependencies": {
+    "@tanstack/vue-table": "^8.21.3",
+    "@vueuse/core": "^14.2.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.575.0",
+    "reka-ui": "^2.9.0",
+    "tailwind-merge": "^3.5.0",
+    "vue": "^3.5.25",
+    "vue-i18n": "^10.0.8",
+    "vue-input-otp": "^0.3.2",
+    "vue-sonner": "^2.0.9"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "^0.0.0",
+    "eslint": "^10.8.0"
+  }
+}

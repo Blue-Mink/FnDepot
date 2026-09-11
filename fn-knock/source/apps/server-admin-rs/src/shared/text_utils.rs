@@ -1,1 +1,33 @@
-cHViKGNyYXRlKSB0cmFpdCBFbXB0eVN0cmluZ0V4dCB7CiAgICBmbiBpZl9lbXB0eShzZWxmLCBmYWxsYmFjazogU3RyaW5nKSAtPiBTdHJpbmc7Cn0KCmltcGwgRW1wdHlTdHJpbmdFeHQgZm9yIFN0cmluZyB7CiAgICBmbiBpZl9lbXB0eShzZWxmLCBmYWxsYmFjazogU3RyaW5nKSAtPiBTdHJpbmcgewogICAgICAgIGlmIHNlbGYuaXNfZW1wdHkoKSB7IGZhbGxiYWNrIH0gZWxzZSB7IHNlbGYgfQogICAgfQp9CgpwdWIoY3JhdGUpIGZuIGRlZmF1bHRfc3RyaW5nKHZhbHVlOiBTdHJpbmcsIGZhbGxiYWNrOiAmc3RyKSAtPiBTdHJpbmcgewogICAgaWYgdmFsdWUudHJpbSgpLmlzX2VtcHR5KCkgewogICAgICAgIGZhbGxiYWNrLnRvX3N0cmluZygpCiAgICB9IGVsc2UgewogICAgICAgIHZhbHVlCiAgICB9Cn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwoKICAgICNbdGVzdF0KICAgIGZuIHN0cmluZ19mYWxsYmFja19oZWxwZXJzX3ByZXNlcnZlX2VtcHR5X3J1bGVzKCkgewogICAgICAgIGFzc2VydF9lcSEoIiIudG9fc3RyaW5nKCkuaWZfZW1wdHkoImZhbGxiYWNrIi50b19zdHJpbmcoKSksICJmYWxsYmFjayIpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgICJ2YWx1ZSIudG9fc3RyaW5nKCkuaWZfZW1wdHkoImZhbGxiYWNrIi50b19zdHJpbmcoKSksCiAgICAgICAgICAgICJ2YWx1ZSIKICAgICAgICApOwogICAgICAgIGFzc2VydF9lcSEoZGVmYXVsdF9zdHJpbmcoIiAgICIudG9fc3RyaW5nKCksICJmYWxsYmFjayIpLCAiZmFsbGJhY2siKTsKICAgICAgICBhc3NlcnRfZXEhKGRlZmF1bHRfc3RyaW5nKCIgdmFsdWUgIi50b19zdHJpbmcoKSwgImZhbGxiYWNrIiksICIgdmFsdWUgIik7CiAgICB9Cn0K
+pub(crate) trait EmptyStringExt {
+    fn if_empty(self, fallback: String) -> String;
+}
+
+impl EmptyStringExt for String {
+    fn if_empty(self, fallback: String) -> String {
+        if self.is_empty() { fallback } else { self }
+    }
+}
+
+pub(crate) fn default_string(value: String, fallback: &str) -> String {
+    if value.trim().is_empty() {
+        fallback.to_string()
+    } else {
+        value
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn string_fallback_helpers_preserve_empty_rules() {
+        assert_eq!("".to_string().if_empty("fallback".to_string()), "fallback");
+        assert_eq!(
+            "value".to_string().if_empty("fallback".to_string()),
+            "value"
+        );
+        assert_eq!(default_string("   ".to_string(), "fallback"), "fallback");
+        assert_eq!(default_string(" value ".to_string(), "fallback"), " value ");
+    }
+}

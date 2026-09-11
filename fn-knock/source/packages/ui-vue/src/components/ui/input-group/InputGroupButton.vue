@@ -1,1 +1,29 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB0eXBlIHsgSW5wdXRHcm91cEJ1dHRvblZhcmlhbnRzIH0gZnJvbSAiLiIKaW1wb3J0IHR5cGUgeyBCdXR0b25WYXJpYW50cyB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9idXR0b24nCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9idXR0b24nCmltcG9ydCB7IGlucHV0R3JvdXBCdXR0b25WYXJpYW50cyB9IGZyb20gIi4iCgppbnRlcmZhY2UgSW5wdXRHcm91cEJ1dHRvblByb3BzIHsKICB2YXJpYW50PzogQnV0dG9uVmFyaWFudHNbInZhcmlhbnQiXQogIHNpemU/OiBJbnB1dEdyb3VwQnV0dG9uVmFyaWFudHNbInNpemUiXQogIGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0KfQoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoZGVmaW5lUHJvcHM8SW5wdXRHcm91cEJ1dHRvblByb3BzPigpLCB7CiAgc2l6ZTogInhzIiwKICB2YXJpYW50OiAiZ2hvc3QiLAp9KQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8QnV0dG9uCiAgICA6ZGF0YS1zaXplPSJwcm9wcy5zaXplIgogICAgOnZhcmlhbnQ9InByb3BzLnZhcmlhbnQiCiAgICA6Y2xhc3M9ImNuKGlucHV0R3JvdXBCdXR0b25WYXJpYW50cyh7IHNpemU6IHByb3BzLnNpemUgfSksIHByb3BzLmNsYXNzKSIKICA+CiAgICA8c2xvdCAvPgogIDwvQnV0dG9uPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import type { InputGroupButtonVariants } from "."
+import type { ButtonVariants } from '@/components/ui/button'
+import { cn } from "@/lib/utils"
+import { Button } from '@/components/ui/button'
+import { inputGroupButtonVariants } from "."
+
+interface InputGroupButtonProps {
+  variant?: ButtonVariants["variant"]
+  size?: InputGroupButtonVariants["size"]
+  class?: HTMLAttributes["class"]
+}
+
+const props = withDefaults(defineProps<InputGroupButtonProps>(), {
+  size: "xs",
+  variant: "ghost",
+})
+</script>
+
+<template>
+  <Button
+    :data-size="props.size"
+    :variant="props.variant"
+    :class="cn(inputGroupButtonVariants({ size: props.size }), props.class)"
+  >
+    <slot />
+  </Button>
+</template>

@@ -1,1 +1,100 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIHNlcnZlcmNoYW5fZGVmaW5pdGlvbigpIC0+IFByb3ZpZGVyRGVmaW5pdGlvbiB7CiAgICBQcm92aWRlckRlZmluaXRpb24gewogICAgICAgIHByb3ZpZGVyX3R5cGU6ICJzZXJ2ZXJjaGFuIiwKICAgICAgICBsYWJlbDogIlNlcnZlckNoYW4iLAogICAgICAgIGRlc2NyaXB0aW9uOiAiU2VuZCBub3RpZmljYXRpb25zIHRocm91Z2ggU2VydmVyQ2hhbi4iLAogICAgICAgIGNvbm5lY3Rpb25fc2NoZW1hOiB2ZWMhWwogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKAogICAgICAgICAgICAgICAgInNlcnZlcl91cmwiLAogICAgICAgICAgICAgICAgIlNlcnZlciBVUkwiLAogICAgICAgICAgICAgICAgdHJ1ZSwKICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICAgICAgU29tZSgiaHR0cHM6Ly9zY3RhcGkuZnRxcS5jb20iKSwKICAgICAgICAgICAgKQogICAgICAgICAgICAucGxhY2Vob2xkZXIoImh0dHBzOi8vc2N0YXBpLmZ0cXEuY29tIiksCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoInNlbmRrZXkiLCAiU2VuZEtleSIsIHRydWUsIHRydWUsIE5vbmUpCiAgICAgICAgICAgICAgICAucGxhY2Vob2xkZXIoIlNDVHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHgiKSwKICAgICAgICAgICAgbnVtYmVyX3NjaGVtYSgidGltZW91dF9zZWNvbmRzIiwgIlRpbWVvdXQgc2Vjb25kcyIsIHRydWUsIFNvbWUoNSkpLmJvdW5kcygxLCAzMCksCiAgICAgICAgXSwKICAgICAgICB0YXJnZXRfc2NoZW1hOiB2ZWMhWwogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJjaGFubmVsIiwgIkNoYW5uZWwiLCBmYWxzZSwgZmFsc2UsIE5vbmUpLnBsYWNlaG9sZGVyKCI5fDY2IiksCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoIm9wZW5pZCIsICJPcGVuSUQgLyBVSUQiLCBmYWxzZSwgZmFsc2UsIE5vbmUpCiAgICAgICAgICAgICAgICAucGxhY2Vob2xkZXIoIm9wZW5pZDEsb3BlbmlkMiBvciB1aWQxfHVpZDIiKSwKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgic2hvcnQiLCAiU2hvcnQgdGV4dCIsIGZhbHNlLCBmYWxzZSwgTm9uZSkKICAgICAgICAgICAgICAgIC5wbGFjZWhvbGRlcigiTG9naW4gYW5vbWFseSwgcGxlYXNlIGNoZWNrIiksCiAgICAgICAgICAgIGJvb2xfc2NoZW1hKCJub2lwIiwgIkhpZGUgY2FsbGVyIElQIiwgZmFsc2UsIFNvbWUoZmFsc2UpKSwKICAgICAgICBdLAogICAgICAgIHNlbnNpdGl2ZV9maWVsZHM6IHZlYyFbInNlbmRrZXkiXSwKICAgICAgICBzdXBwb3J0c19tYXJrZG93bjogdHJ1ZSwKICAgICAgICBzdXBwb3J0c19hY3Rpb25zOiB0cnVlLAogICAgICAgIHN1cHBvcnRzX21lbnRpb25zOiBmYWxzZSwKICAgICAgICBzdXBwb3J0c19wcm92aWRlcl9kZWR1cGVfa2V5OiBmYWxzZSwKICAgIH0KfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGFzeW5jIGZuIHNlbmRfc2VydmVyY2hhbigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBwcm92aWRlcjogJlZhbHVlLAogICAgdGFyZ2V0OiAmVmFsdWUsCiAgICBtZXNzYWdlOiAmVmFsdWUsCiAgICB0aW1lb3V0X3NlY29uZHM6IGk2NCwKKSAtPiBQcm92aWRlclRlc3RSZXN1bHQgewogICAgbGV0IGNvbmZpZyA9IHByb3ZpZGVyX2NvbmZpZyhwcm92aWRlcik7CiAgICBsZXQgdGFyZ2V0X2NvbmZpZyA9IHRhcmdldF9jb25maWcodGFyZ2V0KTsKICAgIGxldCBzZW5ka2V5ID0gY29uZmlnX3RleHQoJmNvbmZpZywgInNlbmRrZXkiKTsKICAgIGlmIHNlbmRrZXkuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIG1pc3NpbmdfY29uZmlnX3Jlc3VsdCgmbm90aWZpY2F0aW9uX3Byb3ZpZGVyX2Vycm9yX2RlZmF1bHQoCiAgICAgICAgICAgICJzZXJ2ZXJjaGFuIiwKICAgICAgICAgICAgIm1pc3NpbmdTZW5kS2V5IiwKICAgICAgICAgICAgJltdLAogICAgICAgICkpOwogICAgfQogICAgbGV0IGJhc2VfdXJsID0gZGVmYXVsdF9zdHJpbmcoCiAgICAgICAgY29uZmlnX3RleHQoJmNvbmZpZywgInNlcnZlcl91cmwiKSwKICAgICAgICAiaHR0cHM6Ly9zY3RhcGkuZnRxcS5jb20iLAogICAgKTsKICAgIGxldCB1cmwgPSBmb3JtYXQhKCJ7fS97fS5zZW5kIiwgYmFzZV91cmwudHJpbV9lbmRfbWF0Y2hlcygnLycpLCBzZW5ka2V5KTsKICAgIGxldCB0aXRsZSA9IHRydW5jYXRlX3RleHQoJm1lc3NhZ2VfdGl0bGUobWVzc2FnZSksIDMyKTsKICAgIGxldCBkZXNwID0gdHJ1bmNhdGVfdXRmOF9ieXRlcygmYnVpbGRfbWFya2Rvd25fYm9keShtZXNzYWdlLCAiIiksIDMyICogMTAyNCk7CiAgICBsZXQgc2hvcnQgPSB0cnVuY2F0ZV90ZXh0KCZjb25maWdfdGV4dCgmdGFyZ2V0X2NvbmZpZywgInNob3J0IiksIDY0KTsKICAgIGxldCBjaGFubmVsID0gY29uZmlnX3RleHQoJnRhcmdldF9jb25maWcsICJjaGFubmVsIik7CiAgICBsZXQgb3BlbmlkID0gY29uZmlnX3RleHQoJnRhcmdldF9jb25maWcsICJvcGVuaWQiKTsKICAgIGxldCBub2lwID0gdGFyZ2V0X2NvbmZpZwogICAgICAgIC5nZXQoIm5vaXAiKQogICAgICAgIC5tYXAodmFsdWVfdG9fYm9vbCkKICAgICAgICAudW53cmFwX29yKGZhbHNlKTsKICAgIGxldCBtdXQgZm9ybSA9IHZlYyFbKAogICAgICAgICJ0aXRsZSIudG9fc3RyaW5nKCksCiAgICAgICAgZGVmYXVsdF9zdHJpbmcodGl0bGUuY2xvbmUoKSwgImZuLWtub2NrIiksCiAgICApXTsKICAgIHB1c2hfZm9ybV9pZigmbXV0IGZvcm0sICJkZXNwIiwgZGVzcC5jbG9uZSgpKTsKICAgIHB1c2hfZm9ybV9pZigmbXV0IGZvcm0sICJzaG9ydCIsIHNob3J0LmNsb25lKCkpOwogICAgcHVzaF9mb3JtX2lmKCZtdXQgZm9ybSwgImNoYW5uZWwiLCBjaGFubmVsLmNsb25lKCkpOwogICAgcHVzaF9mb3JtX2lmKCZtdXQgZm9ybSwgIm9wZW5pZCIsIG9wZW5pZC5jbG9uZSgpKTsKICAgIGlmIG5vaXAgewogICAgICAgIGZvcm0ucHVzaCgoIm5vaXAiLnRvX3N0cmluZygpLCAiMSIudG9fc3RyaW5nKCkpKTsKICAgIH0KICAgIGxldCByZXF1ZXN0X3N1bW1hcnkgPSBqc29uISh7CiAgICAgICAgIm1ldGhvZCI6ICJQT1NUIiwKICAgICAgICAiZW5kcG9pbnQiOiBiYXNlX3VybCwKICAgICAgICAiaGFzX2Rlc3AiOiAhZGVzcC5pc19lbXB0eSgpLAogICAgICAgICJoYXNfc2hvcnQiOiAhc2hvcnQuaXNfZW1wdHkoKSwKICAgICAgICAiY2hhbm5lbCI6IGVtcHR5X3RvX251bGwoJmNoYW5uZWwpLAogICAgICAgICJoYXNfb3BlbmlkIjogIW9wZW5pZC5pc19lbXB0eSgpLAogICAgICAgICJub2lwIjogbm9pcCwKICAgICAgICAidGl0bGVfcHJldmlldyI6IHRpdGxlCiAgICB9KTsKICAgIGxldCAoc3RhdHVzLCBvaywgdGV4dCwgcGFyc2VkKSA9IHBvc3RfZm9ybShzdGF0ZSwgJnVybCwgJmZvcm0sIHRpbWVvdXRfc2Vjb25kcykuYXdhaXQ7CiAgICBwcm92aWRlcl9yZXN1bHRfZnJvbV9hcGkoCiAgICAgICAgIlNlcnZlckNoYW4iLAogICAgICAgIHJlcXVlc3Rfc3VtbWFyeSwKICAgICAgICBzdGF0dXMsCiAgICAgICAgb2ssCiAgICAgICAgdGV4dCwKICAgICAgICBwYXJzZWQsCiAgICAgICAgfHZhbHVlfCBqc29uX2k2NF9hbnkodmFsdWUsICZbImNvZGUiLCAiZXJybm8iLCAiZXJyb3JfY29kZSJdKS51bndyYXBfb3IoMCkgPT0gMCwKICAgICAgICB8dmFsdWV8IGpzb25fdGV4dF9hbnkodmFsdWUsICZbIm1lc3NhZ2UiLCAibXNnIiwgImVycm9yIl0pLAogICAgKQp9Cg==
+use super::*;
+
+pub(in crate::notifications::routes) fn serverchan_definition() -> ProviderDefinition {
+    ProviderDefinition {
+        provider_type: "serverchan",
+        label: "ServerChan",
+        description: "Send notifications through ServerChan.",
+        connection_schema: vec![
+            string_schema(
+                "server_url",
+                "Server URL",
+                true,
+                false,
+                Some("https://sctapi.ftqq.com"),
+            )
+            .placeholder("https://sctapi.ftqq.com"),
+            string_schema("sendkey", "SendKey", true, true, None)
+                .placeholder("SCTxxxxxxxxxxxxxxxxxxxxxxxxxxxx"),
+            number_schema("timeout_seconds", "Timeout seconds", true, Some(5)).bounds(1, 30),
+        ],
+        target_schema: vec![
+            string_schema("channel", "Channel", false, false, None).placeholder("9|66"),
+            string_schema("openid", "OpenID / UID", false, false, None)
+                .placeholder("openid1,openid2 or uid1|uid2"),
+            string_schema("short", "Short text", false, false, None)
+                .placeholder("Login anomaly, please check"),
+            bool_schema("noip", "Hide caller IP", false, Some(false)),
+        ],
+        sensitive_fields: vec!["sendkey"],
+        supports_markdown: true,
+        supports_actions: true,
+        supports_mentions: false,
+        supports_provider_dedupe_key: false,
+    }
+}
+
+pub(in crate::notifications::routes) async fn send_serverchan(
+    state: &AppState,
+    provider: &Value,
+    target: &Value,
+    message: &Value,
+    timeout_seconds: i64,
+) -> ProviderTestResult {
+    let config = provider_config(provider);
+    let target_config = target_config(target);
+    let sendkey = config_text(&config, "sendkey");
+    if sendkey.is_empty() {
+        return missing_config_result(&notification_provider_error_default(
+            "serverchan",
+            "missingSendKey",
+            &[],
+        ));
+    }
+    let base_url = default_string(
+        config_text(&config, "server_url"),
+        "https://sctapi.ftqq.com",
+    );
+    let url = format!("{}/{}.send", base_url.trim_end_matches('/'), sendkey);
+    let title = truncate_text(&message_title(message), 32);
+    let desp = truncate_utf8_bytes(&build_markdown_body(message, ""), 32 * 1024);
+    let short = truncate_text(&config_text(&target_config, "short"), 64);
+    let channel = config_text(&target_config, "channel");
+    let openid = config_text(&target_config, "openid");
+    let noip = target_config
+        .get("noip")
+        .map(value_to_bool)
+        .unwrap_or(false);
+    let mut form = vec![(
+        "title".to_string(),
+        default_string(title.clone(), "fn-knock"),
+    )];
+    push_form_if(&mut form, "desp", desp.clone());
+    push_form_if(&mut form, "short", short.clone());
+    push_form_if(&mut form, "channel", channel.clone());
+    push_form_if(&mut form, "openid", openid.clone());
+    if noip {
+        form.push(("noip".to_string(), "1".to_string()));
+    }
+    let request_summary = json!({
+        "method": "POST",
+        "endpoint": base_url,
+        "has_desp": !desp.is_empty(),
+        "has_short": !short.is_empty(),
+        "channel": empty_to_null(&channel),
+        "has_openid": !openid.is_empty(),
+        "noip": noip,
+        "title_preview": title
+    });
+    let (status, ok, text, parsed) = post_form(state, &url, &form, timeout_seconds).await;
+    provider_result_from_api(
+        "ServerChan",
+        request_summary,
+        status,
+        ok,
+        text,
+        parsed,
+        |value| json_i64_any(value, &["code", "errno", "error_code"]).unwrap_or(0) == 0,
+        |value| json_text_any(value, &["message", "msg", "error"]),
+    )
+}

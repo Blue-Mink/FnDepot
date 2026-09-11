@@ -1,1 +1,492 @@
-dXNlIHN0ZDo6Zm10OwoKdXNlIHNlcmRlOjp7RGVzZXJpYWxpemUsIFNlcmlhbGl6ZX07CnVzZSB1dG9pcGE6OntJbnRvUGFyYW1zLCBUb1NjaGVtYX07CgojW2Rlcml2ZShDbG9uZSwgQ29weSwgRGVidWcsIERlc2VyaWFsaXplLCBTZXJpYWxpemUsIFRvU2NoZW1hLCBQYXJ0aWFsRXEsIEVxKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIgZW51bSBBdXRoTWV0aG9kIHsKICAgIFBhc3N3b3JkLAogICAgUHJpdmF0ZUtleSwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplLCBUb1NjaGVtYSwgUGFydGlhbEVxLCBFcSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViIHN0cnVjdCBUcnVzdGVkSG9zdEtleSB7CiAgICBwdWIgYWxnb3JpdGhtOiBTdHJpbmcsCiAgICBwdWIgZmluZ2VycHJpbnQ6IFN0cmluZywKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIgc3RydWN0IFRhcmdldFJlY29yZCB7CiAgICBwdWIgaWQ6IFN0cmluZywKICAgIHB1YiBuYW1lOiBTdHJpbmcsCiAgICBwdWIgaG9zdDogU3RyaW5nLAogICAgcHViIHBvcnQ6IHUxNiwKICAgIHB1YiB1c2VybmFtZTogU3RyaW5nLAogICAgcHViIGF1dGhfbWV0aG9kOiBBdXRoTWV0aG9kLAogICAgcHViIHRydXN0ZWRfaG9zdF9rZXk6IE9wdGlvbjxUcnVzdGVkSG9zdEtleT4sCiAgICBwdWIgcmV2aXNpb246IHU2NCwKICAgIHB1YiBsYXN0X3ZlcmlmaWVkX2F0OiBPcHRpb248U3RyaW5nPiwKICAgIHB1YiBjcmVhdGVkX2F0OiBTdHJpbmcsCiAgICBwdWIgdXBkYXRlZF9hdDogU3RyaW5nLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YiBzdHJ1Y3QgVGVybWluYWxUYXJnZXQgewogICAgcHViIGlkOiBTdHJpbmcsCiAgICBwdWIgbmFtZTogU3RyaW5nLAogICAgcHViIGhvc3Q6IFN0cmluZywKICAgIHB1YiBwb3J0OiB1MTYsCiAgICBwdWIgdXNlcm5hbWU6IFN0cmluZywKICAgIHB1YiBhdXRoX21ldGhvZDogQXV0aE1ldGhvZCwKICAgIHB1YiB0cnVzdGVkX2hvc3Rfa2V5OiBPcHRpb248VHJ1c3RlZEhvc3RLZXk+LAogICAgcHViIGNyZWRlbnRpYWxfY29uZmlndXJlZDogYm9vbCwKICAgIHB1YiBwYXNzcGhyYXNlX2NvbmZpZ3VyZWQ6IGJvb2wsCiAgICBwdWIgcmV2aXNpb246IHU2NCwKICAgIHB1YiBsYXN0X3ZlcmlmaWVkX2F0OiBPcHRpb248U3RyaW5nPiwKICAgIHB1YiBjcmVhdGVkX2F0OiBTdHJpbmcsCiAgICBwdWIgdXBkYXRlZF9hdDogU3RyaW5nLAp9CgojW2Rlcml2ZShDbG9uZSwgQ29weSwgRGVidWcsIERlc2VyaWFsaXplLCBUb1NjaGVtYSwgUGFydGlhbEVxLCBFcSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViIGVudW0gU2VjcmV0QWN0aW9uIHsKICAgIEtlZXAsCiAgICBSZXBsYWNlLAogICAgQ2xlYXIsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVzZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIgc3RydWN0IENyZWRlbnRpYWxNdXRhdGlvbiB7CiAgICBwdWIgYWN0aW9uOiBTZWNyZXRBY3Rpb24sCiAgICAjW3NjaGVtYSh3cml0ZV9vbmx5KV0KICAgIHB1YiBzZWNyZXQ6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViIHN0cnVjdCBQYXNzcGhyYXNlTXV0YXRpb24gewogICAgcHViIGFjdGlvbjogU2VjcmV0QWN0aW9uLAogICAgI1tzY2hlbWEod3JpdGVfb25seSldCiAgICBwdWIgc2VjcmV0OiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YiBzdHJ1Y3QgVGFyZ2V0Q3JlYXRlSW5wdXQgewogICAgcHViIG5hbWU6IFN0cmluZywKICAgIHB1YiBob3N0OiBTdHJpbmcsCiAgICBwdWIgcG9ydDogdTE2LAogICAgcHViIHVzZXJuYW1lOiBTdHJpbmcsCiAgICBwdWIgYXV0aF9tZXRob2Q6IEF1dGhNZXRob2QsCiAgICBwdWIgdHJ1c3RlZF9ob3N0X2tleTogT3B0aW9uPFRydXN0ZWRIb3N0S2V5PiwKICAgIHB1YiBjcmVkZW50aWFsOiBDcmVkZW50aWFsTXV0YXRpb24sCiAgICBwdWIgcGFzc3BocmFzZTogUGFzc3BocmFzZU11dGF0aW9uLAogICAgLy8vIE9uZS10aW1lIHByb29mIHJldHVybmVkIGJ5IGEgc3VjY2Vzc2Z1bCBjb25uZWN0aW9uIHRlc3QgZm9yIHRoaXMgZXhhY3QKICAgIC8vLyBkcmFmdCBhbmQgY3JlZGVudGlhbCBzZXQuCiAgICBwdWIgdmVyaWZpY2F0aW9uX3Rva2VuOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YiBzdHJ1Y3QgVGFyZ2V0VXBkYXRlSW5wdXQgewogICAgcHViIG5hbWU6IFN0cmluZywKICAgIHB1YiBob3N0OiBTdHJpbmcsCiAgICBwdWIgcG9ydDogdTE2LAogICAgcHViIHVzZXJuYW1lOiBTdHJpbmcsCiAgICBwdWIgYXV0aF9tZXRob2Q6IEF1dGhNZXRob2QsCiAgICBwdWIgdHJ1c3RlZF9ob3N0X2tleTogT3B0aW9uPFRydXN0ZWRIb3N0S2V5PiwKICAgIHB1YiByZXZpc2lvbjogdTY0LAogICAgcHViIGNyZWRlbnRpYWw6IENyZWRlbnRpYWxNdXRhdGlvbiwKICAgIHB1YiBwYXNzcGhyYXNlOiBQYXNzcGhyYXNlTXV0YXRpb24sCiAgICBwdWIgdmVyaWZpY2F0aW9uX3Rva2VuOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YiBzdHJ1Y3QgVGFyZ2V0RHJhZnQgewogICAgcHViIGhvc3Q6IFN0cmluZywKICAgIHB1YiBwb3J0OiB1MTYsCiAgICBwdWIgdXNlcm5hbWU6IFN0cmluZywKICAgIHB1YiBhdXRoX21ldGhvZDogQXV0aE1ldGhvZCwKICAgIHB1YiB0cnVzdGVkX2hvc3Rfa2V5OiBPcHRpb248VHJ1c3RlZEhvc3RLZXk+LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViIHN0cnVjdCBQcm9iZUhvc3RLZXlJbnB1dCB7CiAgICBwdWIgaG9zdDogU3RyaW5nLAogICAgcHViIHBvcnQ6IHUxNiwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIgc3RydWN0IEhvc3RLZXlQcm9iZVJlc3VsdCB7CiAgICBwdWIgaG9zdDogU3RyaW5nLAogICAgcHViIHBvcnQ6IHUxNiwKICAgIHB1YiBhbGdvcml0aG06IFN0cmluZywKICAgIHB1YiBmaW5nZXJwcmludDogU3RyaW5nLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViIHN0cnVjdCBUZXJtaW5hbFRlc3RDb25uZWN0aW9uSW5wdXQgewogICAgcHViIHRhcmdldF9pZDogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIgZHJhZnQ6IE9wdGlvbjxUYXJnZXREcmFmdD4sCiAgICBwdWIgY3JlZGVudGlhbDogQ3JlZGVudGlhbE11dGF0aW9uLAogICAgcHViIHBhc3NwaHJhc2U6IFBhc3NwaHJhc2VNdXRhdGlvbiwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIgc3RydWN0IENvbm5lY3Rpb25UZXN0UmVzdWx0IHsKICAgIHB1YiBzdWNjZXNzOiBib29sLAogICAgcHViIGxhdGVuY3lfbXM6IHU2NCwKICAgIHB1YiB2ZXJpZmljYXRpb25fdG9rZW46IFN0cmluZywKfQoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplLCBUb1NjaGVtYSwgUGFydGlhbEVxLCBFcSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViIGVudW0gU2Vzc2lvbkJhY2tlbmQgewogICAgU3NoLAogICAgTG9jYWwsCn0KCiNbZGVyaXZlKENsb25lLCBDb3B5LCBEZWJ1ZywgU2VyaWFsaXplLCBUb1NjaGVtYSwgUGFydGlhbEVxLCBFcSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViIGVudW0gTG9jYWxUZXJtaW5hbEJsb2NrZWRSZWFzb24gewogICAgVW5zdXBwb3J0ZWRQbGF0Zm9ybSwKICAgIFNoZWxsVW5hdmFpbGFibGUsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgU2VyaWFsaXplLCBUb1NjaGVtYSwgUGFydGlhbEVxLCBFcSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViIHN0cnVjdCBMb2NhbFRlcm1pbmFsU3RhdHVzIHsKICAgIHB1YiB0YXJnZXRfaWQ6IFN0cmluZywKICAgIHB1YiBzdXBwb3J0ZWQ6IGJvb2wsCiAgICBwdWIgZW5hYmxlZDogYm9vbCwKICAgIHB1YiByZWFkeTogYm9vbCwKICAgIHB1YiBleGVjdXRpb25faWRlbnRpdHk6IFN0cmluZywKICAgIHB1YiBwcml2aWxlZ2VkOiBib29sLAogICAgcHViIHNoZWxsOiBPcHRpb248U3RyaW5nPiwKICAgIHB1YiB3b3JraW5nX2RpcmVjdG9yeTogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIgYmxvY2tlZF9yZWFzb246IE9wdGlvbjxMb2NhbFRlcm1pbmFsQmxvY2tlZFJlYXNvbj4sCiAgICBwdWIgcmV2aXNpb246IHU2NCwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YiBzdHJ1Y3QgTG9jYWxUZXJtaW5hbFNldHRpbmdzSW5wdXQgewogICAgcHViIGVuYWJsZWQ6IGJvb2wsCiAgICBwdWIgcmV2aXNpb246IHU2NCwKICAgIHB1YiBhY2tub3dsZWRnZV9yaXNrOiBib29sLAp9CgojW2Rlcml2ZShDbG9uZSwgQ29weSwgRGVidWcsIERlc2VyaWFsaXplLCBTZXJpYWxpemUsIFRvU2NoZW1hLCBQYXJ0aWFsRXEsIEVxKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIgZW51bSBTZXNzaW9uUGhhc2UgewogICAgQ3JlYXRpbmcsCiAgICBPcGVuaW5nUHR5LAogICAgU3RhcnRpbmdTaGVsbCwKICAgIFJlc29sdmluZywKICAgIENvbm5lY3RpbmcsCiAgICBWZXJpZnlpbmdIb3N0S2V5LAogICAgQXV0aGVudGljYXRpbmcsCiAgICBPcGVuaW5nQ2hhbm5lbCwKICAgIFJlcXVlc3RpbmdQdHksCiAgICBSdW5uaW5nLAogICAgQ2xvc2luZywKICAgIENsb3NlZCwKICAgIEV4aXRlZCwKICAgIExvc3QsCiAgICBGYWlsZWQsCn0KCmltcGwgU2Vzc2lvblBoYXNlIHsKICAgIHB1YiBmbiBpc19hY3RpdmUoc2VsZikgLT4gYm9vbCB7CiAgICAgICAgIW1hdGNoZXMhKAogICAgICAgICAgICBzZWxmLAogICAgICAgICAgICBTZWxmOjpDbG9zZWQgfCBTZWxmOjpFeGl0ZWQgfCBTZWxmOjpMb3N0IHwgU2VsZjo6RmFpbGVkCiAgICAgICAgKQogICAgfQoKICAgIHB1YiBmbiBjYW5fdHJhbnNpdGlvbl90byhzZWxmLCBuZXh0OiBTZWxmKSAtPiBib29sIHsKICAgICAgICB1c2UgU2Vzc2lvblBoYXNlOjoqOwogICAgICAgIG1hdGNoZXMhKAogICAgICAgICAgICAoc2VsZiwgbmV4dCksCiAgICAgICAgICAgIChDcmVhdGluZywgT3BlbmluZ1B0eSkKICAgICAgICAgICAgICAgIHwgKE9wZW5pbmdQdHksIFN0YXJ0aW5nU2hlbGwpCiAgICAgICAgICAgICAgICB8IChTdGFydGluZ1NoZWxsLCBSdW5uaW5nKQogICAgICAgICAgICAgICAgfCAoQ3JlYXRpbmcsIFJlc29sdmluZykKICAgICAgICAgICAgICAgIHwgKFJlc29sdmluZywgQ29ubmVjdGluZykKICAgICAgICAgICAgICAgIHwgKENvbm5lY3RpbmcsIFZlcmlmeWluZ0hvc3RLZXkpCiAgICAgICAgICAgICAgICB8IChWZXJpZnlpbmdIb3N0S2V5LCBBdXRoZW50aWNhdGluZykKICAgICAgICAgICAgICAgIHwgKEF1dGhlbnRpY2F0aW5nLCBPcGVuaW5nQ2hhbm5lbCkKICAgICAgICAgICAgICAgIHwgKE9wZW5pbmdDaGFubmVsLCBSZXF1ZXN0aW5nUHR5KQogICAgICAgICAgICAgICAgfCAoUmVxdWVzdGluZ1B0eSwgUnVubmluZykKICAgICAgICAgICAgICAgIHwgKFJ1bm5pbmcsIENsb3NpbmcgfCBFeGl0ZWQgfCBMb3N0KQogICAgICAgICAgICAgICAgfCAoQ2xvc2luZywgQ2xvc2VkIHwgTG9zdCkKICAgICAgICAgICAgICAgIHwgKAogICAgICAgICAgICAgICAgICAgIENyZWF0aW5nCiAgICAgICAgICAgICAgICAgICAgICAgIHwgT3BlbmluZ1B0eQogICAgICAgICAgICAgICAgICAgICAgICB8IFN0YXJ0aW5nU2hlbGwKICAgICAgICAgICAgICAgICAgICAgICAgfCBSZXNvbHZpbmcKICAgICAgICAgICAgICAgICAgICAgICAgfCBDb25uZWN0aW5nCiAgICAgICAgICAgICAgICAgICAgICAgIHwgVmVyaWZ5aW5nSG9zdEtleQogICAgICAgICAgICAgICAgICAgICAgICB8IEF1dGhlbnRpY2F0aW5nCiAgICAgICAgICAgICAgICAgICAgICAgIHwgT3BlbmluZ0NoYW5uZWwKICAgICAgICAgICAgICAgICAgICAgICAgfCBSZXF1ZXN0aW5nUHR5LAogICAgICAgICAgICAgICAgICAgIEZhaWxlZCB8IENsb3NpbmcKICAgICAgICAgICAgICAgICkKICAgICAgICApCiAgICB9Cn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViIHN0cnVjdCBUZXJtaW5hbFNlc3Npb24gewogICAgcHViIGlkOiBTdHJpbmcsCiAgICBwdWIgdGFyZ2V0X2lkOiBTdHJpbmcsCiAgICBwdWIgYmFja2VuZDogU2Vzc2lvbkJhY2tlbmQsCiAgICBwdWIgdGl0bGU6IFN0cmluZywKICAgIHB1YiBwaGFzZTogU2Vzc2lvblBoYXNlLAogICAgcHViIGNvbHM6IHUzMiwKICAgIHB1YiByb3dzOiB1MzIsCiAgICBwdWIgY3JlYXRlZF9hdDogU3RyaW5nLAogICAgcHViIHVwZGF0ZWRfYXQ6IFN0cmluZywKICAgIHB1YiBlcnJvcl9jb2RlOiBPcHRpb248VGVybWluYWxFcnJvckNvZGU+LAogICAgcHViIGVycm9yX21lc3NhZ2U6IE9wdGlvbjxTdHJpbmc+LAogICAgcHViIGV4aXRfY29kZTogT3B0aW9uPHUzMj4sCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViIHN0cnVjdCBTZXNzaW9uTGlzdFJlc3VsdCB7CiAgICBwdWIgcnVudGltZV9pZDogU3RyaW5nLAogICAgcHViIHNlc3Npb25zOiBWZWM8VGVybWluYWxTZXNzaW9uPiwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YiBzdHJ1Y3QgQ3JlYXRlU2Vzc2lvbklucHV0IHsKICAgIHB1YiB0aXRsZTogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIgY29sczogT3B0aW9uPHUzMj4sCiAgICBwdWIgcm93czogT3B0aW9uPHUzMj4sCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVzZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIgc3RydWN0IFJlbmFtZVNlc3Npb25JbnB1dCB7CiAgICBwdWIgdGl0bGU6IFN0cmluZywKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZWZhdWx0LCBEZXNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YiBzdHJ1Y3QgQ3JlYXRlQXR0YWNobWVudElucHV0IHsKICAgIHB1YiBjb2xzOiBPcHRpb248dTMyPiwKICAgIHB1YiByb3dzOiBPcHRpb248dTMyPiwKfQoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBTZXJpYWxpemUsIFRvU2NoZW1hLCBQYXJ0aWFsRXEsIEVxKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIgZW51bSBBdHRhY2htZW50Um9sZSB7CiAgICBDb250cm9sbGVyLAogICAgVmlld2VyLAp9CgojW2Rlcml2ZShDbG9uZSwgQ29weSwgRGVidWcsIFNlcmlhbGl6ZSwgVG9TY2hlbWEsIFBhcnRpYWxFcSwgRXEpXQpwdWIgZW51bSBUZXJtaW5hbFRyYW5zcG9ydCB7CiAgICAjW3NlcmRlKHJlbmFtZSA9ICJodHRwLXBvbGxpbmciKV0KICAgIEh0dHBQb2xsaW5nLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YiBzdHJ1Y3QgVGVybWluYWxBdHRhY2htZW50IHsKICAgIHB1YiBpZDogU3RyaW5nLAogICAgcHViIHNlc3Npb25faWQ6IFN0cmluZywKICAgIHB1YiByb2xlOiBBdHRhY2htZW50Um9sZSwKICAgIHB1YiB0cmFuc3BvcnQ6IFRlcm1pbmFsVHJhbnNwb3J0LAogICAgcHViIGdlbmVyYXRpb246IHU2NCwKICAgIHB1YiBjdXJzb3I6IHU2NCwKICAgIHB1YiBleHBpcmVzX2F0OiBTdHJpbmcsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVzZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIgc3RydWN0IElucHV0UmVxdWVzdCB7CiAgICBwdWIgZGF0YV9iYXNlNjQ6IFN0cmluZywKICAgIHB1YiBzZXF1ZW5jZTogdTY0LAogICAgcHViIGdlbmVyYXRpb246IHU2NCwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YiBzdHJ1Y3QgUmVzaXplUmVxdWVzdCB7CiAgICBwdWIgY29sczogdTMyLAogICAgcHViIHJvd3M6IHUzMiwKICAgIHB1YiByZXZpc2lvbjogdTY0LAogICAgcHViIGdlbmVyYXRpb246IHU2NCwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZWZhdWx0LCBEZXNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YiBzdHJ1Y3QgQ2xhaW1Db250cm9sUmVxdWVzdCB7CiAgICBwdWIgZ2VuZXJhdGlvbjogT3B0aW9uPHU2ND4sCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVzZXJpYWxpemUsIEludG9QYXJhbXMpXQojW2ludG9fcGFyYW1zKHBhcmFtZXRlcl9pbiA9IFF1ZXJ5KV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIgc3RydWN0IEV2ZW50c1F1ZXJ5IHsKICAgIHB1YiBhZnRlcjogT3B0aW9uPHU2ND4sCiAgICBwdWIgdGltZW91dF9tczogT3B0aW9uPHU2ND4sCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVmYXVsdCwgRGVzZXJpYWxpemUsIEludG9QYXJhbXMpXQojW2ludG9fcGFyYW1zKHBhcmFtZXRlcl9pbiA9IFF1ZXJ5KV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIgc3RydWN0IEZvcmNlUXVlcnkgewogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBmb3JjZTogYm9vbCwKICAgIHB1YiBjb25maXJtYXRpb25fdG9rZW46IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplLCBJbnRvUGFyYW1zKV0KI1tpbnRvX3BhcmFtcyhwYXJhbWV0ZXJfaW4gPSBRdWVyeSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViIHN0cnVjdCBUYXJnZXREZWxldGVRdWVyeSB7CiAgICBwdWIgcmV2aXNpb246IHU2NCwKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgZm9yY2U6IGJvb2wsCiAgICBwdWIgY29uZmlybWF0aW9uX3Rva2VuOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBTZXJpYWxpemUsIFRvU2NoZW1hLCBQYXJ0aWFsRXEsIEVxKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIgZW51bSBUZXJtaW5hbEV2ZW50VHlwZSB7CiAgICBPdXRwdXQsCiAgICBTdGF0dXMsCiAgICBDb250cm9sLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YiBzdHJ1Y3QgVGVybWluYWxFdmVudCB7CiAgICAjW3NlcmRlKHJlbmFtZSA9ICJ0eXBlIildCiAgICBwdWIga2luZDogVGVybWluYWxFdmVudFR5cGUsCiAgICBwdWIgY3Vyc29yOiB1NjQsCiAgICAjW3NlcmRlKHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIildCiAgICBwdWIgZGF0YV9iYXNlNjQ6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzZXJkZShkZWZhdWx0LCBza2lwX3NlcmlhbGl6aW5nX2lmID0gInN0ZDo6b3BzOjpOb3Q6Om5vdCIpXQogICAgcHViIHJlc2V0OiBib29sLAogICAgI1tzZXJkZShza2lwX3NlcmlhbGl6aW5nX2lmID0gIk9wdGlvbjo6aXNfbm9uZSIpXQogICAgcHViIHBoYXNlOiBPcHRpb248U2Vzc2lvblBoYXNlPiwKICAgICNbc2VyZGUoc2tpcF9zZXJpYWxpemluZ19pZiA9ICJPcHRpb246OmlzX25vbmUiKV0KICAgIHB1YiBlcnJvcl9jb2RlOiBPcHRpb248VGVybWluYWxFcnJvckNvZGU+LAogICAgI1tzZXJkZShza2lwX3NlcmlhbGl6aW5nX2lmID0gIk9wdGlvbjo6aXNfbm9uZSIpXQogICAgcHViIGVycm9yX21lc3NhZ2U6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzZXJkZShza2lwX3NlcmlhbGl6aW5nX2lmID0gIk9wdGlvbjo6aXNfbm9uZSIpXQogICAgcHViIGV4aXRfY29kZTogT3B0aW9uPHUzMj4sCiAgICAjW3NlcmRlKHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIildCiAgICBwdWIgcm9sZTogT3B0aW9uPEF0dGFjaG1lbnRSb2xlPiwKICAgICNbc2VyZGUoc2tpcF9zZXJpYWxpemluZ19pZiA9ICJPcHRpb246OmlzX25vbmUiKV0KICAgIHB1YiBnZW5lcmF0aW9uOiBPcHRpb248dTY0PiwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIgc3RydWN0IEV2ZW50c1Jlc3VsdCB7CiAgICBwdWIgZXZlbnRzOiBWZWM8VGVybWluYWxFdmVudD4sCiAgICBwdWIgbmV4dF9jdXJzb3I6IHU2NCwKfQoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBTZXJpYWxpemUsIFRvU2NoZW1hLCBQYXJ0aWFsRXEsIEVxKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gInNuYWtlX2Nhc2UiKV0KcHViIGVudW0gVGVybWluYWxFcnJvckNvZGUgewogICAgRmVhdHVyZURpc2FibGVkLAogICAgUmVzb3VyY2VCdXN5LAogICAgSW52YWxpZFJlcXVlc3QsCiAgICBUYXJnZXROb3RGb3VuZCwKICAgIFNlc3Npb25Ob3RGb3VuZCwKICAgIEhvc3RLZXlSZXF1aXJlZCwKICAgIEhvc3RLZXlNaXNtYXRjaCwKICAgIEF1dGhlbnRpY2F0aW9uRmFpbGVkLAogICAgUHR5UmVqZWN0ZWQsCiAgICBTZXNzaW9uTGltaXRSZWFjaGVkLAogICAgU2Vzc2lvbkxvc3QsCiAgICBBdHRhY2htZW50RXhwaXJlZCwKICAgIENvbnRyb2xsZXJDb25mbGljdCwKICAgIFRhcmdldFJldmlzaW9uQ29uZmxpY3QsCiAgICBMb2NhbFRlcm1pbmFsVW5zdXBwb3J0ZWQsCiAgICBMb2NhbFRlcm1pbmFsRGlzYWJsZWQsCiAgICBMb2NhbFRlcm1pbmFsUmlza0Fja25vd2xlZGdlbWVudFJlcXVpcmVkLAogICAgTG9jYWxUZXJtaW5hbFJldmlzaW9uQ29uZmxpY3QsCiAgICBMb2NhbFNoZWxsVW5hdmFpbGFibGUsCiAgICBMb2NhbFB0eVN0YXJ0RmFpbGVkLAogICAgQ29ubmVjdFRpbWVvdXQsCiAgICBDb25mbGljdCwKICAgIFVwc3RyZWFtVW5hdmFpbGFibGUsCiAgICBJbnRlcm5hbEVycm9yLAp9CgppbXBsIGZtdDo6RGlzcGxheSBmb3IgVGVybWluYWxFcnJvckNvZGUgewogICAgZm4gZm10KCZzZWxmLCBmb3JtYXR0ZXI6ICZtdXQgZm10OjpGb3JtYXR0ZXI8J18+KSAtPiBmbXQ6OlJlc3VsdCB7CiAgICAgICAgbGV0IHZhbHVlID0gc2VyZGVfanNvbjo6dG9fdmFsdWUoc2VsZikKICAgICAgICAgICAgLm9rKCkKICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuYXNfc3RyKCkubWFwKHN0cjo6dG9fc3RyaW5nKSkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8ICJpbnRlcm5hbF9lcnJvciIudG9fc3RyaW5nKCkpOwogICAgICAgIGZvcm1hdHRlci53cml0ZV9zdHIoJnZhbHVlKQogICAgfQp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcpXQpwdWIgc3RydWN0IFRlcm1pbmFsRXJyb3IgewogICAgcHViIGNvZGU6IFRlcm1pbmFsRXJyb3JDb2RlLAogICAgcHViIG1lc3NhZ2U6IFN0cmluZywKICAgIHB1YiBhY3RpdmVfc2Vzc2lvbl9jb3VudDogT3B0aW9uPHVzaXplPiwKICAgIHB1YiBjb25maXJtYXRpb25fdG9rZW46IE9wdGlvbjxTdHJpbmc+LAp9CgppbXBsIFRlcm1pbmFsRXJyb3IgewogICAgcHViIGZuIG5ldyhjb2RlOiBUZXJtaW5hbEVycm9yQ29kZSwgbWVzc2FnZTogaW1wbCBJbnRvPFN0cmluZz4pIC0+IFNlbGYgewogICAgICAgIFNlbGYgewogICAgICAgICAgICBjb2RlLAogICAgICAgICAgICBtZXNzYWdlOiBtZXNzYWdlLmludG8oKSwKICAgICAgICAgICAgYWN0aXZlX3Nlc3Npb25fY291bnQ6IE5vbmUsCiAgICAgICAgICAgIGNvbmZpcm1hdGlvbl90b2tlbjogTm9uZSwKICAgICAgICB9CiAgICB9CgogICAgcHViIGZuIHdpdGhfYWN0aXZlX3Nlc3Npb25fY291bnQobXV0IHNlbGYsIGNvdW50OiB1c2l6ZSkgLT4gU2VsZiB7CiAgICAgICAgc2VsZi5hY3RpdmVfc2Vzc2lvbl9jb3VudCA9IFNvbWUoY291bnQpOwogICAgICAgIHNlbGYKICAgIH0KCiAgICBwdWIgZm4gd2l0aF9jb25maXJtYXRpb25fdG9rZW4obXV0IHNlbGYsIHRva2VuOiBTdHJpbmcpIC0+IFNlbGYgewogICAgICAgIHNlbGYuY29uZmlybWF0aW9uX3Rva2VuID0gU29tZSh0b2tlbik7CiAgICAgICAgc2VsZgogICAgfQoKICAgIHB1YiBmbiBpbnZhbGlkKG1lc3NhZ2U6IGltcGwgSW50bzxTdHJpbmc+KSAtPiBTZWxmIHsKICAgICAgICBTZWxmOjpuZXcoVGVybWluYWxFcnJvckNvZGU6OkludmFsaWRSZXF1ZXN0LCBtZXNzYWdlKQogICAgfQoKICAgIHB1YiBmbiBpbnRlcm5hbChtZXNzYWdlOiBpbXBsIEludG88U3RyaW5nPikgLT4gU2VsZiB7CiAgICAgICAgU2VsZjo6bmV3KFRlcm1pbmFsRXJyb3JDb2RlOjpJbnRlcm5hbEVycm9yLCBtZXNzYWdlKQogICAgfQp9CgppbXBsIGZtdDo6RGlzcGxheSBmb3IgVGVybWluYWxFcnJvciB7CiAgICBmbiBmbXQoJnNlbGYsIGZvcm1hdHRlcjogJm11dCBmbXQ6OkZvcm1hdHRlcjwnXz4pIC0+IGZtdDo6UmVzdWx0IHsKICAgICAgICB3cml0ZSEoZm9ybWF0dGVyLCAie306IHt9Iiwgc2VsZi5jb2RlLCBzZWxmLm1lc3NhZ2UpCiAgICB9Cn0KCmltcGwgc3RkOjplcnJvcjo6RXJyb3IgZm9yIFRlcm1pbmFsRXJyb3Ige30KCnB1YiB0eXBlIFRlcm1pbmFsUmVzdWx0PFQ+ID0gUmVzdWx0PFQsIFRlcm1pbmFsRXJyb3I+Owo=
+use std::fmt;
+
+use serde::{Deserialize, Serialize};
+use utoipa::{IntoParams, ToSchema};
+
+#[derive(Clone, Copy, Debug, Deserialize, Serialize, ToSchema, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub enum AuthMethod {
+    Password,
+    PrivateKey,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize, ToSchema, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub struct TrustedHostKey {
+    pub algorithm: String,
+    pub fingerprint: String,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct TargetRecord {
+    pub id: String,
+    pub name: String,
+    pub host: String,
+    pub port: u16,
+    pub username: String,
+    pub auth_method: AuthMethod,
+    pub trusted_host_key: Option<TrustedHostKey>,
+    pub revision: u64,
+    pub last_verified_at: Option<String>,
+    pub created_at: String,
+    pub updated_at: String,
+}
+
+#[derive(Clone, Debug, Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct TerminalTarget {
+    pub id: String,
+    pub name: String,
+    pub host: String,
+    pub port: u16,
+    pub username: String,
+    pub auth_method: AuthMethod,
+    pub trusted_host_key: Option<TrustedHostKey>,
+    pub credential_configured: bool,
+    pub passphrase_configured: bool,
+    pub revision: u64,
+    pub last_verified_at: Option<String>,
+    pub created_at: String,
+    pub updated_at: String,
+}
+
+#[derive(Clone, Copy, Debug, Deserialize, ToSchema, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub enum SecretAction {
+    Keep,
+    Replace,
+    Clear,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct CredentialMutation {
+    pub action: SecretAction,
+    #[schema(write_only)]
+    pub secret: Option<String>,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct PassphraseMutation {
+    pub action: SecretAction,
+    #[schema(write_only)]
+    pub secret: Option<String>,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct TargetCreateInput {
+    pub name: String,
+    pub host: String,
+    pub port: u16,
+    pub username: String,
+    pub auth_method: AuthMethod,
+    pub trusted_host_key: Option<TrustedHostKey>,
+    pub credential: CredentialMutation,
+    pub passphrase: PassphraseMutation,
+    /// One-time proof returned by a successful connection test for this exact
+    /// draft and credential set.
+    pub verification_token: Option<String>,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct TargetUpdateInput {
+    pub name: String,
+    pub host: String,
+    pub port: u16,
+    pub username: String,
+    pub auth_method: AuthMethod,
+    pub trusted_host_key: Option<TrustedHostKey>,
+    pub revision: u64,
+    pub credential: CredentialMutation,
+    pub passphrase: PassphraseMutation,
+    pub verification_token: Option<String>,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct TargetDraft {
+    pub host: String,
+    pub port: u16,
+    pub username: String,
+    pub auth_method: AuthMethod,
+    pub trusted_host_key: Option<TrustedHostKey>,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct ProbeHostKeyInput {
+    pub host: String,
+    pub port: u16,
+}
+
+#[derive(Clone, Debug, Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct HostKeyProbeResult {
+    pub host: String,
+    pub port: u16,
+    pub algorithm: String,
+    pub fingerprint: String,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct TerminalTestConnectionInput {
+    pub target_id: Option<String>,
+    pub draft: Option<TargetDraft>,
+    pub credential: CredentialMutation,
+    pub passphrase: PassphraseMutation,
+}
+
+#[derive(Clone, Debug, Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct ConnectionTestResult {
+    pub success: bool,
+    pub latency_ms: u64,
+    pub verification_token: String,
+}
+
+#[derive(Clone, Copy, Debug, Deserialize, Serialize, ToSchema, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub enum SessionBackend {
+    Ssh,
+    Local,
+}
+
+#[derive(Clone, Copy, Debug, Serialize, ToSchema, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub enum LocalTerminalBlockedReason {
+    UnsupportedPlatform,
+    ShellUnavailable,
+}
+
+#[derive(Clone, Debug, Serialize, ToSchema, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub struct LocalTerminalStatus {
+    pub target_id: String,
+    pub supported: bool,
+    pub enabled: bool,
+    pub ready: bool,
+    pub execution_identity: String,
+    pub privileged: bool,
+    pub shell: Option<String>,
+    pub working_directory: Option<String>,
+    pub blocked_reason: Option<LocalTerminalBlockedReason>,
+    pub revision: u64,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct LocalTerminalSettingsInput {
+    pub enabled: bool,
+    pub revision: u64,
+    pub acknowledge_risk: bool,
+}
+
+#[derive(Clone, Copy, Debug, Deserialize, Serialize, ToSchema, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub enum SessionPhase {
+    Creating,
+    OpeningPty,
+    StartingShell,
+    Resolving,
+    Connecting,
+    VerifyingHostKey,
+    Authenticating,
+    OpeningChannel,
+    RequestingPty,
+    Running,
+    Closing,
+    Closed,
+    Exited,
+    Lost,
+    Failed,
+}
+
+impl SessionPhase {
+    pub fn is_active(self) -> bool {
+        !matches!(
+            self,
+            Self::Closed | Self::Exited | Self::Lost | Self::Failed
+        )
+    }
+
+    pub fn can_transition_to(self, next: Self) -> bool {
+        use SessionPhase::*;
+        matches!(
+            (self, next),
+            (Creating, OpeningPty)
+                | (OpeningPty, StartingShell)
+                | (StartingShell, Running)
+                | (Creating, Resolving)
+                | (Resolving, Connecting)
+                | (Connecting, VerifyingHostKey)
+                | (VerifyingHostKey, Authenticating)
+                | (Authenticating, OpeningChannel)
+                | (OpeningChannel, RequestingPty)
+                | (RequestingPty, Running)
+                | (Running, Closing | Exited | Lost)
+                | (Closing, Closed | Lost)
+                | (
+                    Creating
+                        | OpeningPty
+                        | StartingShell
+                        | Resolving
+                        | Connecting
+                        | VerifyingHostKey
+                        | Authenticating
+                        | OpeningChannel
+                        | RequestingPty,
+                    Failed | Closing
+                )
+        )
+    }
+}
+
+#[derive(Clone, Debug, Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct TerminalSession {
+    pub id: String,
+    pub target_id: String,
+    pub backend: SessionBackend,
+    pub title: String,
+    pub phase: SessionPhase,
+    pub cols: u32,
+    pub rows: u32,
+    pub created_at: String,
+    pub updated_at: String,
+    pub error_code: Option<TerminalErrorCode>,
+    pub error_message: Option<String>,
+    pub exit_code: Option<u32>,
+}
+
+#[derive(Clone, Debug, Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct SessionListResult {
+    pub runtime_id: String,
+    pub sessions: Vec<TerminalSession>,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct CreateSessionInput {
+    pub title: Option<String>,
+    pub cols: Option<u32>,
+    pub rows: Option<u32>,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct RenameSessionInput {
+    pub title: String,
+}
+
+#[derive(Clone, Debug, Default, Deserialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct CreateAttachmentInput {
+    pub cols: Option<u32>,
+    pub rows: Option<u32>,
+}
+
+#[derive(Clone, Copy, Debug, Serialize, ToSchema, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub enum AttachmentRole {
+    Controller,
+    Viewer,
+}
+
+#[derive(Clone, Copy, Debug, Serialize, ToSchema, PartialEq, Eq)]
+pub enum TerminalTransport {
+    #[serde(rename = "http-polling")]
+    HttpPolling,
+}
+
+#[derive(Clone, Debug, Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct TerminalAttachment {
+    pub id: String,
+    pub session_id: String,
+    pub role: AttachmentRole,
+    pub transport: TerminalTransport,
+    pub generation: u64,
+    pub cursor: u64,
+    pub expires_at: String,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct InputRequest {
+    pub data_base64: String,
+    pub sequence: u64,
+    pub generation: u64,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct ResizeRequest {
+    pub cols: u32,
+    pub rows: u32,
+    pub revision: u64,
+    pub generation: u64,
+}
+
+#[derive(Clone, Debug, Default, Deserialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct ClaimControlRequest {
+    pub generation: Option<u64>,
+}
+
+#[derive(Clone, Debug, Deserialize, IntoParams)]
+#[into_params(parameter_in = Query)]
+#[serde(rename_all = "camelCase")]
+pub struct EventsQuery {
+    pub after: Option<u64>,
+    pub timeout_ms: Option<u64>,
+}
+
+#[derive(Clone, Debug, Default, Deserialize, IntoParams)]
+#[into_params(parameter_in = Query)]
+#[serde(rename_all = "camelCase")]
+pub struct ForceQuery {
+    #[serde(default)]
+    pub force: bool,
+    pub confirmation_token: Option<String>,
+}
+
+#[derive(Clone, Debug, Deserialize, IntoParams)]
+#[into_params(parameter_in = Query)]
+#[serde(rename_all = "camelCase")]
+pub struct TargetDeleteQuery {
+    pub revision: u64,
+    #[serde(default)]
+    pub force: bool,
+    pub confirmation_token: Option<String>,
+}
+
+#[derive(Clone, Copy, Debug, Serialize, ToSchema, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub enum TerminalEventType {
+    Output,
+    Status,
+    Control,
+}
+
+#[derive(Clone, Debug, Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct TerminalEvent {
+    #[serde(rename = "type")]
+    pub kind: TerminalEventType,
+    pub cursor: u64,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub data_base64: Option<String>,
+    #[serde(default, skip_serializing_if = "std::ops::Not::not")]
+    pub reset: bool,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub phase: Option<SessionPhase>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub error_code: Option<TerminalErrorCode>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub error_message: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub exit_code: Option<u32>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub role: Option<AttachmentRole>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub generation: Option<u64>,
+}
+
+#[derive(Clone, Debug, Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct EventsResult {
+    pub events: Vec<TerminalEvent>,
+    pub next_cursor: u64,
+}
+
+#[derive(Clone, Copy, Debug, Serialize, ToSchema, PartialEq, Eq)]
+#[serde(rename_all = "snake_case")]
+pub enum TerminalErrorCode {
+    FeatureDisabled,
+    ResourceBusy,
+    InvalidRequest,
+    TargetNotFound,
+    SessionNotFound,
+    HostKeyRequired,
+    HostKeyMismatch,
+    AuthenticationFailed,
+    PtyRejected,
+    SessionLimitReached,
+    SessionLost,
+    AttachmentExpired,
+    ControllerConflict,
+    TargetRevisionConflict,
+    LocalTerminalUnsupported,
+    LocalTerminalDisabled,
+    LocalTerminalRiskAcknowledgementRequired,
+    LocalTerminalRevisionConflict,
+    LocalShellUnavailable,
+    LocalPtyStartFailed,
+    ConnectTimeout,
+    Conflict,
+    UpstreamUnavailable,
+    InternalError,
+}
+
+impl fmt::Display for TerminalErrorCode {
+    fn fmt(&self, formatter: &mut fmt::Formatter<'_>) -> fmt::Result {
+        let value = serde_json::to_value(self)
+            .ok()
+            .and_then(|value| value.as_str().map(str::to_string))
+            .unwrap_or_else(|| "internal_error".to_string());
+        formatter.write_str(&value)
+    }
+}
+
+#[derive(Clone, Debug)]
+pub struct TerminalError {
+    pub code: TerminalErrorCode,
+    pub message: String,
+    pub active_session_count: Option<usize>,
+    pub confirmation_token: Option<String>,
+}
+
+impl TerminalError {
+    pub fn new(code: TerminalErrorCode, message: impl Into<String>) -> Self {
+        Self {
+            code,
+            message: message.into(),
+            active_session_count: None,
+            confirmation_token: None,
+        }
+    }
+
+    pub fn with_active_session_count(mut self, count: usize) -> Self {
+        self.active_session_count = Some(count);
+        self
+    }
+
+    pub fn with_confirmation_token(mut self, token: String) -> Self {
+        self.confirmation_token = Some(token);
+        self
+    }
+
+    pub fn invalid(message: impl Into<String>) -> Self {
+        Self::new(TerminalErrorCode::InvalidRequest, message)
+    }
+
+    pub fn internal(message: impl Into<String>) -> Self {
+        Self::new(TerminalErrorCode::InternalError, message)
+    }
+}
+
+impl fmt::Display for TerminalError {
+    fn fmt(&self, formatter: &mut fmt::Formatter<'_>) -> fmt::Result {
+        write!(formatter, "{}: {}", self.code, self.message)
+    }
+}
+
+impl std::error::Error for TerminalError {}
+
+pub type TerminalResult<T> = Result<T, TerminalError>;

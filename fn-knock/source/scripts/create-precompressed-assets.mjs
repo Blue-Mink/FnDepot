@@ -1,1 +1,45 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQoKaW1wb3J0IHsgYnJvdGxpQ29tcHJlc3NTeW5jLCBjb25zdGFudHMsIGd6aXBTeW5jIH0gZnJvbSAibm9kZTp6bGliIjsKaW1wb3J0IHsgcmVhZGRpclN5bmMsIHJlYWRGaWxlU3luYywgd3JpdGVGaWxlU3luYyB9IGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgcGF0aCBmcm9tICJub2RlOnBhdGgiOwoKY29uc3Qgcm9vdCA9IHBhdGgucmVzb2x2ZShwcm9jZXNzLmFyZ3ZbMl0gPz8gImRpc3QiKTsKY29uc3QgY29tcHJlc3NpYmxlRXh0ZW5zaW9ucyA9IG5ldyBTZXQoWwogICIuY3NzIiwKICAiLmh0bWwiLAogICIuanMiLAogICIuanNvbiIsCiAgIi5zdmciLAogICIudHh0IiwKICAiLndhc20iLApdKTsKCmZ1bmN0aW9uIGZpbGVzSW4oZGlyZWN0b3J5KSB7CiAgcmV0dXJuIHJlYWRkaXJTeW5jKGRpcmVjdG9yeSwgeyB3aXRoRmlsZVR5cGVzOiB0cnVlIH0pLmZsYXRNYXAoKGVudHJ5KSA9PiB7CiAgICBjb25zdCB0YXJnZXQgPSBwYXRoLmpvaW4oZGlyZWN0b3J5LCBlbnRyeS5uYW1lKTsKICAgIHJldHVybiBlbnRyeS5pc0RpcmVjdG9yeSgpID8gZmlsZXNJbih0YXJnZXQpIDogW3RhcmdldF07CiAgfSk7Cn0KCmxldCBnZW5lcmF0ZWQgPSAwOwpmb3IgKGNvbnN0IGZpbGUgb2YgZmlsZXNJbihyb290KSkgewogIGlmICghY29tcHJlc3NpYmxlRXh0ZW5zaW9ucy5oYXMocGF0aC5leHRuYW1lKGZpbGUpKSkgewogICAgY29udGludWU7CiAgfQogIGNvbnN0IHNvdXJjZSA9IHJlYWRGaWxlU3luYyhmaWxlKTsKICBjb25zdCBnemlwID0gZ3ppcFN5bmMoc291cmNlLCB7IGxldmVsOiA5IH0pOwogIGNvbnN0IGJyb3RsaSA9IGJyb3RsaUNvbXByZXNzU3luYyhzb3VyY2UsIHsKICAgIHBhcmFtczogewogICAgICBbY29uc3RhbnRzLkJST1RMSV9QQVJBTV9RVUFMSVRZXTogMTEsCiAgICAgIFtjb25zdGFudHMuQlJPVExJX1BBUkFNX01PREVdOiBjb25zdGFudHMuQlJPVExJX01PREVfVEVYVCwKICAgIH0sCiAgfSk7CiAgd3JpdGVGaWxlU3luYyhgJHtmaWxlfS5nemAsIGd6aXApOwogIHdyaXRlRmlsZVN5bmMoYCR7ZmlsZX0uYnJgLCBicm90bGkpOwogIGdlbmVyYXRlZCArPSAyOwp9Cgpjb25zb2xlLmxvZygKICBgW3ByZWNvbXByZXNzXSBnZW5lcmF0ZWQgJHtnZW5lcmF0ZWR9IGd6aXAvYnJvdGxpIGFzc2V0cyBpbiAke3Jvb3R9YCwKKTsK
+#!/usr/bin/env node
+
+import { brotliCompressSync, constants, gzipSync } from "node:zlib";
+import { readdirSync, readFileSync, writeFileSync } from "node:fs";
+import path from "node:path";
+
+const root = path.resolve(process.argv[2] ?? "dist");
+const compressibleExtensions = new Set([
+  ".css",
+  ".html",
+  ".js",
+  ".json",
+  ".svg",
+  ".txt",
+  ".wasm",
+]);
+
+function filesIn(directory) {
+  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const target = path.join(directory, entry.name);
+    return entry.isDirectory() ? filesIn(target) : [target];
+  });
+}
+
+let generated = 0;
+for (const file of filesIn(root)) {
+  if (!compressibleExtensions.has(path.extname(file))) {
+    continue;
+  }
+  const source = readFileSync(file);
+  const gzip = gzipSync(source, { level: 9 });
+  const brotli = brotliCompressSync(source, {
+    params: {
+      [constants.BROTLI_PARAM_QUALITY]: 11,
+      [constants.BROTLI_PARAM_MODE]: constants.BROTLI_MODE_TEXT,
+    },
+  });
+  writeFileSync(`${file}.gz`, gzip);
+  writeFileSync(`${file}.br`, brotli);
+  generated += 2;
+}
+
+console.log(
+  `[precompress] generated ${generated} gzip/brotli assets in ${root}`,
+);

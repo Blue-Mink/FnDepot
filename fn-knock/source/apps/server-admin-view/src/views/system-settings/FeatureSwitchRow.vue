@@ -1,1 +1,87 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCB1c2VJZCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsgU3dpdGNoIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N3aXRjaCI7Cgpjb25zdCBhMTF5SWQgPSB1c2VJZCgpOwoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoCiAgZGVmaW5lUHJvcHM8ewogICAgZGVzY3JpcHRpb246IHN0cmluZzsKICAgIGRpc2FibGVkPzogYm9vbGVhbjsKICAgIGRpc2FibGVkUmVhc29uPzogc3RyaW5nOwogICAgZXJyb3I/OiBzdHJpbmc7CiAgICBtb2RlbFZhbHVlOiBib29sZWFuOwogICAgdGl0bGU6IHN0cmluZzsKICAgIGF2YWlsYWJsZT86IGJvb2xlYW47CiAgfT4oKSwKICB7CiAgICBhdmFpbGFibGU6IHRydWUsCiAgICBkaXNhYmxlZDogZmFsc2UsCiAgICBkaXNhYmxlZFJlYXNvbjogIiIsCiAgICBlcnJvcjogIiIsCiAgfSwKKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgY2hhbmdlOiBbdmFsdWU6IGJvb2xlYW5dOwp9PigpOwoKY29uc3QgaXNJbnRlcmFjdGl2ZSA9IGNvbXB1dGVkKCgpID0+IHByb3BzLmF2YWlsYWJsZSAmJiAhcHJvcHMuZGlzYWJsZWQpOwpjb25zdCBkaXNwbGF5ZWRWYWx1ZSA9IGNvbXB1dGVkKCgpID0+CiAgcHJvcHMuYXZhaWxhYmxlID8gcHJvcHMubW9kZWxWYWx1ZSA6IGZhbHNlLAopOwpjb25zdCB0aXRsZUNsYXNzID0gY29tcHV0ZWQoKCkgPT4gewogIGlmICghaXNJbnRlcmFjdGl2ZS52YWx1ZSkgcmV0dXJuICJjdXJzb3Itbm90LWFsbG93ZWQgdGV4dC16aW5jLTUwMCI7CiAgaWYgKHByb3BzLmVycm9yKSByZXR1cm4gImN1cnNvci1wb2ludGVyIHRleHQtcmVkLTYwMCI7CiAgcmV0dXJuICJjdXJzb3ItcG9pbnRlciI7Cn0pOwpjb25zdCBkZXNjcmlwdGlvbkNsYXNzID0gY29tcHV0ZWQoKCkgPT4gewogIGlmICghcHJvcHMuYXZhaWxhYmxlKSByZXR1cm4gInRleHQtemluYy01MDAiOwogIGlmIChwcm9wcy5lcnJvcikgcmV0dXJuICJ0ZXh0LXJlZC02MDAiOwogIHJldHVybiAidGV4dC1tdXRlZC1mb3JlZ3JvdW5kIjsKfSk7Cgpjb25zdCByZXF1ZXN0Q2hhbmdlID0gKHZhbHVlID0gIXByb3BzLm1vZGVsVmFsdWUpID0+IHsKICBpZiAoIWlzSW50ZXJhY3RpdmUudmFsdWUpIHJldHVybjsKICBlbWl0KCJjaGFuZ2UiLCB2YWx1ZSk7Cn07Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBiZy1tdXRlZC8xMCBwLTYiPgogICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIHByLTYiPgogICAgICA8TGFiZWwKICAgICAgICA6Zm9yPSJgJHthMTF5SWR9LWZlYXR1cmVzd2l0Y2hyb3ctMWAiCiAgICAgICAgY2xhc3M9InRleHQtYmFzZSBmb250LW1lZGl1bSIKICAgICAgICA6Y2xhc3M9InRpdGxlQ2xhc3MiCiAgICAgID4KICAgICAgICB7eyB0aXRsZSB9fQogICAgICA8L0xhYmVsPgogICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIiA6Y2xhc3M9ImRlc2NyaXB0aW9uQ2xhc3MiPgogICAgICAgIHt7IGRlc2NyaXB0aW9uIH19CiAgICAgIDwvZGl2PgogICAgICA8ZGl2CiAgICAgICAgdi1pZj0iZXJyb3IgfHwgKCFhdmFpbGFibGUgJiYgZGlzYWJsZWRSZWFzb24pIgogICAgICAgIDppZD0iYCR7YTExeUlkfS1mZWF0dXJlc3dpdGNocm93LXN0YXR1c2AiCiAgICAgICAgY2xhc3M9InRleHQteHMgbGVhZGluZy01IgogICAgICAgIDpjbGFzcz0iZXJyb3IgPyAndGV4dC1yZWQtNjAwJyA6ICd0ZXh0LXppbmMtNTAwJyIKICAgICAgICA6cm9sZT0iZXJyb3IgPyAnYWxlcnQnIDogdW5kZWZpbmVkIgogICAgICA+CiAgICAgICAge3sgZXJyb3IgfHwgZGlzYWJsZWRSZWFzb24gfX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICAgIDxTd2l0Y2gKICAgICAgOmlkPSJgJHthMTF5SWR9LWZlYXR1cmVzd2l0Y2hyb3ctMWAiCiAgICAgIDptb2RlbC12YWx1ZT0iZGlzcGxheWVkVmFsdWUiCiAgICAgIDpkaXNhYmxlZD0iIWF2YWlsYWJsZSB8fCBkaXNhYmxlZCIKICAgICAgOmFyaWEtZGVzY3JpYmVkYnk9IgogICAgICAgIGVycm9yIHx8ICghYXZhaWxhYmxlICYmIGRpc2FibGVkUmVhc29uKQogICAgICAgICAgPyBgJHthMTF5SWR9LWZlYXR1cmVzd2l0Y2hyb3ctc3RhdHVzYAogICAgICAgICAgOiB1bmRlZmluZWQKICAgICAgIgogICAgICA6YXJpYS1pbnZhbGlkPSJCb29sZWFuKGVycm9yKSIKICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0icmVxdWVzdENoYW5nZSgkZXZlbnQgPT09IHRydWUpIgogICAgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed, useId } from "vue";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+
+const a11yId = useId();
+
+const props = withDefaults(
+  defineProps<{
+    description: string;
+    disabled?: boolean;
+    disabledReason?: string;
+    error?: string;
+    modelValue: boolean;
+    title: string;
+    available?: boolean;
+  }>(),
+  {
+    available: true,
+    disabled: false,
+    disabledReason: "",
+    error: "",
+  },
+);
+
+const emit = defineEmits<{
+  change: [value: boolean];
+}>();
+
+const isInteractive = computed(() => props.available && !props.disabled);
+const displayedValue = computed(() =>
+  props.available ? props.modelValue : false,
+);
+const titleClass = computed(() => {
+  if (!isInteractive.value) return "cursor-not-allowed text-zinc-500";
+  if (props.error) return "cursor-pointer text-red-600";
+  return "cursor-pointer";
+});
+const descriptionClass = computed(() => {
+  if (!props.available) return "text-zinc-500";
+  if (props.error) return "text-red-600";
+  return "text-muted-foreground";
+});
+
+const requestChange = (value = !props.modelValue) => {
+  if (!isInteractive.value) return;
+  emit("change", value);
+};
+</script>
+
+<template>
+  <div class="flex items-center justify-between bg-muted/10 p-6">
+    <div class="space-y-1 pr-6">
+      <Label
+        :for="`${a11yId}-featureswitchrow-1`"
+        class="text-base font-medium"
+        :class="titleClass"
+      >
+        {{ title }}
+      </Label>
+      <div class="text-sm" :class="descriptionClass">
+        {{ description }}
+      </div>
+      <div
+        v-if="error || (!available && disabledReason)"
+        :id="`${a11yId}-featureswitchrow-status`"
+        class="text-xs leading-5"
+        :class="error ? 'text-red-600' : 'text-zinc-500'"
+        :role="error ? 'alert' : undefined"
+      >
+        {{ error || disabledReason }}
+      </div>
+    </div>
+    <Switch
+      :id="`${a11yId}-featureswitchrow-1`"
+      :model-value="displayedValue"
+      :disabled="!available || disabled"
+      :aria-describedby="
+        error || (!available && disabledReason)
+          ? `${a11yId}-featureswitchrow-status`
+          : undefined
+      "
+      :aria-invalid="Boolean(error)"
+      @update:model-value="requestChange($event === true)"
+    />
+  </div>
+</template>

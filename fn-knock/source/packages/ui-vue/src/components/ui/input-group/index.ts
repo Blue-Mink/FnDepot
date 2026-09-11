@@ -1,1 +1,51 @@
-aW1wb3J0IHR5cGUgeyBWYXJpYW50UHJvcHMgfSBmcm9tICJjbGFzcy12YXJpYW5jZS1hdXRob3JpdHkiCmltcG9ydCB7IGN2YSB9IGZyb20gImNsYXNzLXZhcmlhbmNlLWF1dGhvcml0eSIKCmV4cG9ydCB7IGRlZmF1bHQgYXMgSW5wdXRHcm91cCB9IGZyb20gIi4vSW5wdXRHcm91cC52dWUiCmV4cG9ydCB7IGRlZmF1bHQgYXMgSW5wdXRHcm91cEFkZG9uIH0gZnJvbSAiLi9JbnB1dEdyb3VwQWRkb24udnVlIgpleHBvcnQgeyBkZWZhdWx0IGFzIElucHV0R3JvdXBCdXR0b24gfSBmcm9tICIuL0lucHV0R3JvdXBCdXR0b24udnVlIgpleHBvcnQgeyBkZWZhdWx0IGFzIElucHV0R3JvdXBJbnB1dCB9IGZyb20gIi4vSW5wdXRHcm91cElucHV0LnZ1ZSIKZXhwb3J0IHsgZGVmYXVsdCBhcyBJbnB1dEdyb3VwVGV4dCB9IGZyb20gIi4vSW5wdXRHcm91cFRleHQudnVlIgpleHBvcnQgeyBkZWZhdWx0IGFzIElucHV0R3JvdXBUZXh0YXJlYSB9IGZyb20gIi4vSW5wdXRHcm91cFRleHRhcmVhLnZ1ZSIKCmV4cG9ydCBjb25zdCBpbnB1dEdyb3VwQWRkb25WYXJpYW50cyA9IGN2YSgKICAidGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGZsZXggaC1hdXRvIGN1cnNvci10ZXh0IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMiBweS0xLjUgdGV4dC1zbSBmb250LW1lZGl1bSBzZWxlY3Qtbm9uZSBbJj5zdmc6bm90KFtjbGFzcyo9J3NpemUtJ10pXTpzaXplLTQgWyY+a2JkXTpyb3VuZGVkLVtjYWxjKHZhcigtLXJhZGl1cyktNXB4KV0gZ3JvdXAtZGF0YS1bZGlzYWJsZWQ9dHJ1ZV0vaW5wdXQtZ3JvdXA6b3BhY2l0eS01MCIsCiAgewogICAgdmFyaWFudHM6IHsKICAgICAgYWxpZ246IHsKICAgICAgICAiaW5saW5lLXN0YXJ0IjoKICAgICAgICAgICJvcmRlci1maXJzdCBwbC0zIGhhcy1bPmJ1dHRvbl06bWwtWy0wLjQ1cmVtXSBoYXMtWz5rYmRdOm1sLVstMC4zNXJlbV0iLAogICAgICAgICJpbmxpbmUtZW5kIjoKICAgICAgICAgICJvcmRlci1sYXN0IHByLTMgaGFzLVs+YnV0dG9uXTptci1bLTAuNDVyZW1dIGhhcy1bPmtiZF06bXItWy0wLjM1cmVtXSIsCiAgICAgICAgImJsb2NrLXN0YXJ0IjoKICAgICAgICAgICJvcmRlci1maXJzdCB3LWZ1bGwganVzdGlmeS1zdGFydCBweC0zIHB0LTMgWy5ib3JkZXItYl06cGItMyBncm91cC1oYXMtWz5pbnB1dF0vaW5wdXQtZ3JvdXA6cHQtMi41IiwKICAgICAgICAiYmxvY2stZW5kIjoKICAgICAgICAgICJvcmRlci1sYXN0IHctZnVsbCBqdXN0aWZ5LXN0YXJ0IHB4LTMgcGItMyBbLmJvcmRlci10XTpwdC0zIGdyb3VwLWhhcy1bPmlucHV0XS9pbnB1dC1ncm91cDpwYi0yLjUiLAogICAgICB9LAogICAgfSwKICAgIGRlZmF1bHRWYXJpYW50czogewogICAgICBhbGlnbjogImlubGluZS1zdGFydCIsCiAgICB9LAogIH0sCikKCmV4cG9ydCB0eXBlIElucHV0R3JvdXBWYXJpYW50cyA9IFZhcmlhbnRQcm9wczx0eXBlb2YgaW5wdXRHcm91cEFkZG9uVmFyaWFudHM+CgpleHBvcnQgY29uc3QgaW5wdXRHcm91cEJ1dHRvblZhcmlhbnRzID0gY3ZhKAogICJ0ZXh0LXNtIHNoYWRvdy1ub25lIGZsZXggZ2FwLTIgaXRlbXMtY2VudGVyIiwKICB7CiAgICB2YXJpYW50czogewogICAgICBzaXplOiB7CiAgICAgICAgInhzIjogImgtNiBnYXAtMSBweC0yIHJvdW5kZWQtW2NhbGModmFyKC0tcmFkaXVzKS01cHgpXSBbJj5zdmc6bm90KFtjbGFzcyo9J3NpemUtJ10pXTpzaXplLTMuNSBoYXMtWz5zdmddOnB4LTIiLAogICAgICAgICJzbSI6ICJoLTggcHgtMi41IGdhcC0xLjUgcm91bmRlZC1tZCBoYXMtWz5zdmddOnB4LTIuNSIsCiAgICAgICAgImljb24teHMiOiAic2l6ZS02IHJvdW5kZWQtW2NhbGModmFyKC0tcmFkaXVzKS01cHgpXSBwLTAgaGFzLVs+c3ZnXTpwLTAiLAogICAgICAgICJpY29uLXNtIjogInNpemUtOCBwLTAgaGFzLVs+c3ZnXTpwLTAiLAogICAgICB9LAogICAgfSwKICAgIGRlZmF1bHRWYXJpYW50czogewogICAgICBzaXplOiAieHMiLAogICAgfSwKICB9LAopCgpleHBvcnQgdHlwZSBJbnB1dEdyb3VwQnV0dG9uVmFyaWFudHMgPSBWYXJpYW50UHJvcHM8dHlwZW9mIGlucHV0R3JvdXBCdXR0b25WYXJpYW50cz4K
+import type { VariantProps } from "class-variance-authority"
+import { cva } from "class-variance-authority"
+
+export { default as InputGroup } from "./InputGroup.vue"
+export { default as InputGroupAddon } from "./InputGroupAddon.vue"
+export { default as InputGroupButton } from "./InputGroupButton.vue"
+export { default as InputGroupInput } from "./InputGroupInput.vue"
+export { default as InputGroupText } from "./InputGroupText.vue"
+export { default as InputGroupTextarea } from "./InputGroupTextarea.vue"
+
+export const inputGroupAddonVariants = cva(
+  "text-muted-foreground flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-sm font-medium select-none [&>svg:not([class*='size-'])]:size-4 [&>kbd]:rounded-[calc(var(--radius)-5px)] group-data-[disabled=true]/input-group:opacity-50",
+  {
+    variants: {
+      align: {
+        "inline-start":
+          "order-first pl-3 has-[>button]:ml-[-0.45rem] has-[>kbd]:ml-[-0.35rem]",
+        "inline-end":
+          "order-last pr-3 has-[>button]:mr-[-0.45rem] has-[>kbd]:mr-[-0.35rem]",
+        "block-start":
+          "order-first w-full justify-start px-3 pt-3 [.border-b]:pb-3 group-has-[>input]/input-group:pt-2.5",
+        "block-end":
+          "order-last w-full justify-start px-3 pb-3 [.border-t]:pt-3 group-has-[>input]/input-group:pb-2.5",
+      },
+    },
+    defaultVariants: {
+      align: "inline-start",
+    },
+  },
+)
+
+export type InputGroupVariants = VariantProps<typeof inputGroupAddonVariants>
+
+export const inputGroupButtonVariants = cva(
+  "text-sm shadow-none flex gap-2 items-center",
+  {
+    variants: {
+      size: {
+        "xs": "h-6 gap-1 px-2 rounded-[calc(var(--radius)-5px)] [&>svg:not([class*='size-'])]:size-3.5 has-[>svg]:px-2",
+        "sm": "h-8 px-2.5 gap-1.5 rounded-md has-[>svg]:px-2.5",
+        "icon-xs": "size-6 rounded-[calc(var(--radius)-5px)] p-0 has-[>svg]:p-0",
+        "icon-sm": "size-8 p-0 has-[>svg]:p-0",
+      },
+    },
+    defaultVariants: {
+      size: "xs",
+    },
+  },
+)
+
+export type InputGroupButtonVariants = VariantProps<typeof inputGroupButtonVariants>

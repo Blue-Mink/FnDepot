@@ -1,1 +1,332 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktNCI+CiAgICA8QnJlYWRjcnVtYj4KICAgICAgPEJyZWFkY3J1bWJMaXN0PgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iTGluayBocmVmPSIjL2F1dGgiPnt7CiAgICAgICAgICAgIHQoImFkbWluLm9pZGNQcm92aWRlcnMuYnJlYWRjcnVtYlRvdHAiKQogICAgICAgICAgfX08L0JyZWFkY3J1bWJMaW5rPgogICAgICAgIDwvQnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgPEJyZWFkY3J1bWJTZXBhcmF0b3IgLz4KICAgICAgICA8QnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgICA8QnJlYWRjcnVtYlBhZ2U+e3sKICAgICAgICAgICAgdCgiYWRtaW4ub2lkY1Byb3ZpZGVycy5icmVhZGNydW1iRXh0ZXJuYWxMb2dpbiIpCiAgICAgICAgICB9fTwvQnJlYWRjcnVtYlBhZ2U+CiAgICAgICAgPC9CcmVhZGNydW1iSXRlbT4KICAgICAgPC9CcmVhZGNydW1iTGlzdD4KICAgIDwvQnJlYWRjcnVtYj4KCiAgICA8Q2FyZD4KICAgICAgPENhcmRIZWFkZXIKICAgICAgICBjbGFzcz0iZ2FwLTQgc206ZmxleCBzbTpmbGV4LXJvdyBzbTppdGVtcy1zdGFydCBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEuNSI+CiAgICAgICAgICA8Q2FyZFRpdGxlPnt7IHQoImFkbWluLm9pZGNQcm92aWRlcnMudGl0bGUiKSB9fTwvQ2FyZFRpdGxlPgogICAgICAgICAgPENhcmREZXNjcmlwdGlvbj4KICAgICAgICAgICAge3sgdCgiYWRtaW4ub2lkY1Byb3ZpZGVycy5kZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICA8L0NhcmREZXNjcmlwdGlvbj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICBjbGFzcz0idy1mdWxsIHNtOnctYXV0byIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNMb2FkaW5nIgogICAgICAgICAgQGNsaWNrPSJvcGVuQ3JlYXRlRGlhbG9nIgogICAgICAgID4KICAgICAgICAgIDxQbHVzIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAge3sgdCgiYWRtaW4ub2lkY1Byb3ZpZGVycy5hZGRQcm92aWRlciIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvQ2FyZEhlYWRlcj4KICAgICAgPENhcmRDb250ZW50IGNsYXNzPSJzcGFjZS15LTQiPgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9ImlzTG9hZGluZyIKICAgICAgICAgIGNsYXNzPSJweS0xMCB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICA+CiAgICAgICAgICB7eyB0KCJhZG1pbi5vaWRjUHJvdmlkZXJzLmxvYWRpbmciKSB9fQogICAgICAgIDwvZGl2PgogICAgICAgIDxUYWJsZSB2LWVsc2UgY2xhc3M9InRhYmxlLWZpeGVkIiBjb250YWluZXItY2xhc3M9Im92ZXJmbG93LWhpZGRlbiI+CiAgICAgICAgICA8Y29sZ3JvdXA+CiAgICAgICAgICAgIDxjb2wgY2xhc3M9InctWzI0JV0gc206dy1bMTglXSIgLz4KICAgICAgICAgICAgPGNvbCBjbGFzcz0iaGlkZGVuIHNtOnRhYmxlLWNvbHVtbiBzbTp3LVsxMiVdIiAvPgogICAgICAgICAgICA8Y29sIGNsYXNzPSJoaWRkZW4gbWQ6dGFibGUtY29sdW1uIG1kOnctWzEwJV0iIC8+CiAgICAgICAgICAgIDxjb2wgLz4KICAgICAgICAgICAgPGNvbCBjbGFzcz0idy1bODZweF0gc206dy1bMTg0cHhdIDJ4bDp3LVszNTBweF0iIC8+CiAgICAgICAgICA8L2NvbGdyb3VwPgogICAgICAgICAgPFRhYmxlSGVhZGVyPgogICAgICAgICAgICA8VGFibGVSb3c+CiAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0id2hpdGVzcGFjZS1ub3JtYWwiPnt7CiAgICAgICAgICAgICAgICB0KCJhZG1pbi5vaWRjUHJvdmlkZXJzLmNvbHVtbnMubmFtZSIpCiAgICAgICAgICAgICAgfX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJoaWRkZW4gd2hpdGVzcGFjZS1ub3JtYWwgc206dGFibGUtY2VsbCI+e3sKICAgICAgICAgICAgICAgIHQoImFkbWluLm9pZGNQcm92aWRlcnMuY29sdW1ucy50eXBlIikKICAgICAgICAgICAgICB9fTwvVGFibGVIZWFkPgogICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9ImhpZGRlbiB3aGl0ZXNwYWNlLW5vcm1hbCBtZDp0YWJsZS1jZWxsIj57ewogICAgICAgICAgICAgICAgdCgiYWRtaW4ub2lkY1Byb3ZpZGVycy5jb2x1bW5zLnN0YXR1cyIpCiAgICAgICAgICAgICAgfX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJtaW4tdy0wIHdoaXRlc3BhY2Utbm93cmFwIj4KICAgICAgICAgICAgICAgIENhbGxiYWNrIFVSTAogICAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9InRleHQtcmlnaHQiPnt7CiAgICAgICAgICAgICAgICB0KCJhZG1pbi5vaWRjUHJvdmlkZXJzLmNvbHVtbnMuYWN0aW9ucyIpCiAgICAgICAgICAgICAgfX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgIDwvVGFibGVIZWFkZXI+CiAgICAgICAgICA8VGFibGVCb2R5PgogICAgICAgICAgICA8VGFibGVSb3cgdi1mb3I9InByb3ZpZGVyIGluIHByb3ZpZGVycyIgOmtleT0icHJvdmlkZXIuaWQiPgogICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9IndoaXRlc3BhY2Utbm9ybWFsIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgIHt7IHByb3ZpZGVyLm5hbWUgfX0KICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJoaWRkZW4gd2hpdGVzcGFjZS1ub3JtYWwgc206dGFibGUtY2VsbCI+CiAgICAgICAgICAgICAgICB7eyBwcm92aWRlckxhYmVsKHByb3ZpZGVyLnR5cGUpIH19CiAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0iaGlkZGVuIHdoaXRlc3BhY2Utbm9ybWFsIG1kOnRhYmxlLWNlbGwiPgogICAgICAgICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9Im91dGxpbmUiPnt7IHByb3ZpZGVyU3RhdHVzKHByb3ZpZGVyKSB9fTwvQmFkZ2U+CiAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0ibWluLXctMCBtYXgtdy1bNDh2d10gc206bWF4LXctbm9uZSI+CiAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgIHYtaWY9InByb3ZpZGVyLmNhbGxiYWNrX3VybCIKICAgICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgICBkYXRhLWFmZm9yZGFuY2U9ImNvcHkiCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJmbGV4IG1pbi13LTAgbWF4LXctZnVsbCBpdGVtcy1jZW50ZXIgcm91bmRlZC1tZCBib3JkZXIgYmctbXV0ZWQvMzAgcHgtMi41IHB5LTIgdGV4dC1sZWZ0IHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJvcmRlci1wcmltYXJ5LzQwIGhvdmVyOmJnLW11dGVkLzUwIGZvY3VzLXZpc2libGU6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0yIGZvY3VzLXZpc2libGU6cmluZy1yaW5nIGZvY3VzLXZpc2libGU6cmluZy1vZmZzZXQtMiIKICAgICAgICAgICAgICAgICAgOnRpdGxlPSIKICAgICAgICAgICAgICAgICAgICB0KCdhZG1pbi5vaWRjUHJvdmlkZXJzLmNvcHlDYWxsYmFja1VybCcsIHsKICAgICAgICAgICAgICAgICAgICAgIHByb3ZpZGVyOiBwcm92aWRlci5uYW1lLAogICAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgICAgICAgICAgICAgIHQoJ2FkbWluLm9pZGNQcm92aWRlcnMuY29weUNhbGxiYWNrVXJsJywgewogICAgICAgICAgICAgICAgICAgICAgcHJvdmlkZXI6IHByb3ZpZGVyLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICBAY2xpY2s9ImNvcHlDYWxsYmFja1VybChwcm92aWRlci5jYWxsYmFja191cmwpIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJibG9jayBtaW4tdy0wIGZsZXgtMSB0cnVuY2F0ZSBmb250LW1vbm8gdGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAge3sgcHJvdmlkZXIuY2FsbGJhY2tfdXJsIH19CiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgPHNwYW4gdi1lbHNlIGNsYXNzPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPi08L3NwYW4+CiAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0idGV4dC1yaWdodCI+CiAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgIGNsYXNzPSJpbmxpbmUtZmxleCBmbGV4LW5vd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1lbmQgZ2FwLTEuNSAyeGw6Z2FwLTIiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJnYXAtMS41IHB4LTIgMnhsOnB4LTIuNSIKICAgICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzTXV0YXRpbmciCiAgICAgICAgICAgICAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5vaWRjUHJvdmlkZXJzLmVkaXRQcm92aWRlcicpIgogICAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi5vaWRjUHJvdmlkZXJzLmVkaXRQcm92aWRlcicpIgogICAgICAgICAgICAgICAgICAgIEBjbGljaz0ib3BlbkVkaXREaWFsb2cocHJvdmlkZXIpIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPFBlbmNpbCBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iaGlkZGVuIDJ4bDppbmxpbmUiPnt7CiAgICAgICAgICAgICAgICAgICAgICB0KCJhZG1pbi5vaWRjUHJvdmlkZXJzLmVkaXQiKQogICAgICAgICAgICAgICAgICAgIH19PC9zcGFuPgogICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgPENvbmZpcm1EYW5nZXJQb3BvdmVyCiAgICAgICAgICAgICAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5vaWRjUHJvdmlkZXJzLmRlbGV0ZVByb3ZpZGVyJykiCiAgICAgICAgICAgICAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5vaWRjUHJvdmlkZXJzLmRlbGV0ZURlc2NyaXB0aW9uJykiCiAgICAgICAgICAgICAgICAgICAgOmxvYWRpbmc9ImlzTXV0YXRpbmciCiAgICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc011dGF0aW5nIgogICAgICAgICAgICAgICAgICAgIDpvbi1jb25maXJtPSIoKSA9PiBkZWxldGVQcm92aWRlcihwcm92aWRlci5pZCkiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8dGVtcGxhdGUgI3RyaWdnZXI+CiAgICAgICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9ImRlc3RydWN0aXZlIgogICAgICAgICAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3M9ImdhcC0xLjUgcHgtMiAyeGw6cHgtMi41IgogICAgICAgICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzTXV0YXRpbmciCiAgICAgICAgICAgICAgICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4ub2lkY1Byb3ZpZGVycy5kZWxldGVQcm92aWRlcicpIgogICAgICAgICAgICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4ub2lkY1Byb3ZpZGVycy5kZWxldGVQcm92aWRlcicpIgogICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICA8VHJhc2gyIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iaGlkZGVuIDJ4bDppbmxpbmUiPnt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgdCgiYWRtaW4ub2lkY1Byb3ZpZGVycy5kZWxldGUiKQogICAgICAgICAgICAgICAgICAgICAgICB9fTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgICAgICAgIDwvQ29uZmlybURhbmdlclBvcG92ZXI+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgPFRhYmxlRW1wdHkgdi1pZj0icHJvdmlkZXJzLmxlbmd0aCA9PT0gMCIgOmNvbHNwYW49IjUiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLm9pZGNQcm92aWRlcnMuZW1wdHkiKSB9fQogICAgICAgICAgICA8L1RhYmxlRW1wdHk+CiAgICAgICAgICA8L1RhYmxlQm9keT4KICAgICAgICA8L1RhYmxlPgogICAgICA8L0NhcmRDb250ZW50PgogICAgPC9DYXJkPgoKICAgIDxMREFQUHJvdmlkZXJTZXR0aW5nc0NhcmQgLz4KCiAgICA8RGlhbG9nIDpvcGVuPSJzaG93Q3JlYXRlRGlhbG9nIiBAdXBkYXRlOm9wZW49InNob3dDcmVhdGVEaWFsb2cgPSAkZXZlbnQiPgogICAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ibWF4LWgtWzg4dmhdIG92ZXJmbG93LXktYXV0byBzbTptYXgtdy1bNjQwcHhdIj4KICAgICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgICAgPERpYWxvZ1RpdGxlPnt7IHQoImFkbWluLm9pZGNQcm92aWRlcnMuY3JlYXRlVGl0bGUiKSB9fTwvRGlhbG9nVGl0bGU+CiAgICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICAgIHt7IHQoImFkbWluLm9pZGNQcm92aWRlcnMuY3JlYXRlRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICA8L0RpYWxvZ0hlYWRlcj4KICAgICAgICA8T0lEQ1Byb3ZpZGVyRm9ybUZpZWxkcwogICAgICAgICAgOmNhdGFsb2c9ImNhdGFsb2ciCiAgICAgICAgICA6Zm9ybT0iZm9ybSIKICAgICAgICAgIG1vZGU9ImNyZWF0ZSIKICAgICAgICAgIDpwcm92aWRlci1sYWJlbD0icHJvdmlkZXJMYWJlbCIKICAgICAgICAgIEB0eXBlLWNoYW5nZT0iaGFuZGxlQ3JlYXRlUHJvdmlkZXJUeXBlQ2hhbmdlIgogICAgICAgIC8+CiAgICAgICAgPERpYWxvZ0Zvb3RlciBjbGFzcz0iZ2FwLTIiPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nIgogICAgICAgICAgICBAY2xpY2s9InNob3dDcmVhdGVEaWFsb2cgPSBmYWxzZSIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4ub2lkY1Byb3ZpZGVycy5jYW5jZWwiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uIDpkaXNhYmxlZD0iaXNTYXZpbmciIEBjbGljaz0iaGFuZGxlQ3JlYXRlUHJvdmlkZXIiPgogICAgICAgICAgICA8TG9hZGVyQ2lyY2xlIHYtaWY9ImlzU2F2aW5nIiBjbGFzcz0iaC00IHctNCBhbmltYXRlLXNwaW4iIC8+CiAgICAgICAgICAgIDxQbHVzIHYtZWxzZSBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICBpc1NhdmluZwogICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5vaWRjUHJvdmlkZXJzLmFkZGluZyIpCiAgICAgICAgICAgICAgICA6IHQoImFkbWluLm9pZGNQcm92aWRlcnMuYWRkUHJvdmlkZXIiKQogICAgICAgICAgICB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICAgIDwvRGlhbG9nQ29udGVudD4KICAgIDwvRGlhbG9nPgoKICAgIDxEaWFsb2cKICAgICAgOm9wZW49InNob3dRcUJpbmRpbmdBbGVydCIKICAgICAgQHVwZGF0ZTpvcGVuPSJzaG93UXFCaW5kaW5nQWxlcnQgPSAkZXZlbnQiCiAgICA+CiAgICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJzbTptYXgtdy1bNTIwcHhdIj4KICAgICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgICAgPERpYWxvZ1RpdGxlPnt7CiAgICAgICAgICAgIHQoImFkbWluLm9pZGNQcm92aWRlcnMucXFCaW5kaW5nVGl0bGUiKQogICAgICAgICAgfX08L0RpYWxvZ1RpdGxlPgogICAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5vaWRjUHJvdmlkZXJzLnFxQmluZGluZ1N1bW1hcnkiKSB9fQogICAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICA8L0RpYWxvZ0hlYWRlcj4KICAgICAgICA8QWxlcnQgY2xhc3M9ImJvcmRlci1hbWJlci0yMDAgYmctYW1iZXItNTAgdGV4dC1hbWJlci05NTAiPgogICAgICAgICAgPENpcmNsZUFsZXJ0IGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgPEFsZXJ0VGl0bGU+e3sKICAgICAgICAgICAgdCgiYWRtaW4ub2lkY1Byb3ZpZGVycy5xcUJpbmRpbmdBbGVydFRpdGxlIikKICAgICAgICAgIH19PC9BbGVydFRpdGxlPgogICAgICAgICAgPEFsZXJ0RGVzY3JpcHRpb24gY2xhc3M9ImxlYWRpbmctNiB0ZXh0LWFtYmVyLTkwMCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLm9pZGNQcm92aWRlcnMucXFCaW5kaW5nSW5zdHJ1Y3Rpb25zIikgfX0KICAgICAgICAgIDwvQWxlcnREZXNjcmlwdGlvbj4KICAgICAgICA8L0FsZXJ0PgogICAgICAgIDxEaWFsb2dGb290ZXIgY2xhc3M9ImdhcC0yIj4KICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgQGNsaWNrPSJzaG93UXFCaW5kaW5nQWxlcnQgPSBmYWxzZSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLm9pZGNQcm92aWRlcnMucXFCaW5kaW5nTGF0ZXIiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uIEBjbGljaz0icmV0dXJuVG9Ub3RwTWFuYWdlbWVudCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLm9pZGNQcm92aWRlcnMucmV0dXJuVG9Ub3RwTWFuYWdlbWVudCIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgICAgPC9EaWFsb2dDb250ZW50PgogICAgPC9EaWFsb2c+CgogICAgPERpYWxvZyA6b3Blbj0ic2hvd0VkaXREaWFsb2ciIEB1cGRhdGU6b3Blbj0ic2hvd0VkaXREaWFsb2cgPSAkZXZlbnQiPgogICAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ibWF4LWgtWzg4dmhdIG92ZXJmbG93LXktYXV0byBzbTptYXgtdy1bNjQwcHhdIj4KICAgICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgICAgPERpYWxvZ1RpdGxlPnt7IHQoImFkbWluLm9pZGNQcm92aWRlcnMuZWRpdFRpdGxlIikgfX08L0RpYWxvZ1RpdGxlPgogICAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5vaWRjUHJvdmlkZXJzLmVkaXREZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgIDwvRGlhbG9nSGVhZGVyPgogICAgICAgIDxPSURDUHJvdmlkZXJGb3JtRmllbGRzCiAgICAgICAgICA6Y2F0YWxvZz0iY2F0YWxvZyIKICAgICAgICAgIDpmb3JtPSJlZGl0Rm9ybSIKICAgICAgICAgIG1vZGU9ImVkaXQiCiAgICAgICAgICA6cHJvdmlkZXItbGFiZWw9InByb3ZpZGVyTGFiZWwiCiAgICAgICAgLz4KICAgICAgICA8RGlhbG9nRm9vdGVyIGNsYXNzPSJnYXAtMiI+CiAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0ic2hvd0VkaXREaWFsb2cgPSBmYWxzZSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLm9pZGNQcm92aWRlcnMuY2FuY2VsIikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPEJ1dHRvbiA6ZGlzYWJsZWQ9ImlzTXV0YXRpbmciIEBjbGljaz0ic2F2ZVByb3ZpZGVyRWRpdCI+CiAgICAgICAgICAgIDxMb2FkZXJDaXJjbGUgdi1pZj0iaXNNdXRhdGluZyIgY2xhc3M9ImgtNCB3LTQgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5vaWRjUHJvdmlkZXJzLnNhdmVQcm92aWRlciIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgICAgPC9EaWFsb2dDb250ZW50PgogICAgPC9EaWFsb2c+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsKICBCcmVhZGNydW1iLAogIEJyZWFkY3J1bWJJdGVtLAogIEJyZWFkY3J1bWJMaW5rLAogIEJyZWFkY3J1bWJMaXN0LAogIEJyZWFkY3J1bWJQYWdlLAogIEJyZWFkY3J1bWJTZXBhcmF0b3IsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JyZWFkY3J1bWIiOwppbXBvcnQgewogIENhcmQsCiAgQ2FyZENvbnRlbnQsCiAgQ2FyZERlc2NyaXB0aW9uLAogIENhcmRIZWFkZXIsCiAgQ2FyZFRpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsKICBUYWJsZSwKICBUYWJsZUJvZHksCiAgVGFibGVDZWxsLAogIFRhYmxlRW1wdHksCiAgVGFibGVIZWFkLAogIFRhYmxlSGVhZGVyLAogIFRhYmxlUm93LAp9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJsZSI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBBbGVydCwgQWxlcnREZXNjcmlwdGlvbiwgQWxlcnRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9hbGVydCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIENpcmNsZUFsZXJ0LAogIExvYWRlckNpcmNsZSwKICBQZW5jaWwsCiAgUGx1cywKICBUcmFzaDIsCn0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IENvbmZpcm1EYW5nZXJQb3BvdmVyIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vQ29uZmlybURhbmdlclBvcG92ZXIudnVlIjsKaW1wb3J0IE9JRENQcm92aWRlckZvcm1GaWVsZHMgZnJvbSAiLi9vaWRjLXByb3ZpZGVyLXNldHRpbmdzL09JRENQcm92aWRlckZvcm1GaWVsZHMudnVlIjsKaW1wb3J0IExEQVBQcm92aWRlclNldHRpbmdzQ2FyZCBmcm9tICIuL29pZGMtcHJvdmlkZXItc2V0dGluZ3MvTERBUFByb3ZpZGVyU2V0dGluZ3NDYXJkLnZ1ZSI7CmltcG9ydCB7IHVzZU9JRENQcm92aWRlck1hbmFnZW1lbnQgfSBmcm9tICIuL29pZGMtcHJvdmlkZXItc2V0dGluZ3MvdXNlT0lEQ1Byb3ZpZGVyTWFuYWdlbWVudCI7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgewogIGNhdGFsb2csCiAgY29weUNhbGxiYWNrVXJsLAogIGRlbGV0ZVByb3ZpZGVyLAogIGVkaXRGb3JtLAogIGZvcm0sCiAgaGFuZGxlQ3JlYXRlUHJvdmlkZXIsCiAgaGFuZGxlQ3JlYXRlUHJvdmlkZXJUeXBlQ2hhbmdlLAogIGlzTG9hZGluZywKICBpc011dGF0aW5nLAogIGlzU2F2aW5nLAogIG9wZW5DcmVhdGVEaWFsb2csCiAgb3BlbkVkaXREaWFsb2csCiAgcHJvdmlkZXJMYWJlbCwKICBwcm92aWRlcnMsCiAgcHJvdmlkZXJTdGF0dXMsCiAgcmV0dXJuVG9Ub3RwTWFuYWdlbWVudCwKICBzYXZlUHJvdmlkZXJFZGl0LAogIHNob3dDcmVhdGVEaWFsb2csCiAgc2hvd0VkaXREaWFsb2csCiAgc2hvd1FxQmluZGluZ0FsZXJ0LAp9ID0gdXNlT0lEQ1Byb3ZpZGVyTWFuYWdlbWVudCgpOwo8L3NjcmlwdD4K
+<template>
+  <div class="space-y-4">
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/auth">{{
+            t("admin.oidcProviders.breadcrumbTotp")
+          }}</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbPage>{{
+            t("admin.oidcProviders.breadcrumbExternalLogin")
+          }}</BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+
+    <Card>
+      <CardHeader
+        class="gap-4 sm:flex sm:flex-row sm:items-start sm:justify-between"
+      >
+        <div class="space-y-1.5">
+          <CardTitle>{{ t("admin.oidcProviders.title") }}</CardTitle>
+          <CardDescription>
+            {{ t("admin.oidcProviders.description") }}
+          </CardDescription>
+        </div>
+        <Button
+          class="w-full sm:w-auto"
+          :disabled="isLoading"
+          @click="openCreateDialog"
+        >
+          <Plus class="h-4 w-4" />
+          {{ t("admin.oidcProviders.addProvider") }}
+        </Button>
+      </CardHeader>
+      <CardContent class="space-y-4">
+        <div
+          v-if="isLoading"
+          class="py-10 text-center text-sm text-muted-foreground"
+        >
+          {{ t("admin.oidcProviders.loading") }}
+        </div>
+        <Table v-else class="table-fixed" container-class="overflow-hidden">
+          <colgroup>
+            <col class="w-[24%] sm:w-[18%]" />
+            <col class="hidden sm:table-column sm:w-[12%]" />
+            <col class="hidden md:table-column md:w-[10%]" />
+            <col />
+            <col class="w-[86px] sm:w-[184px] 2xl:w-[350px]" />
+          </colgroup>
+          <TableHeader>
+            <TableRow>
+              <TableHead class="whitespace-normal">{{
+                t("admin.oidcProviders.columns.name")
+              }}</TableHead>
+              <TableHead class="hidden whitespace-normal sm:table-cell">{{
+                t("admin.oidcProviders.columns.type")
+              }}</TableHead>
+              <TableHead class="hidden whitespace-normal md:table-cell">{{
+                t("admin.oidcProviders.columns.status")
+              }}</TableHead>
+              <TableHead class="min-w-0 whitespace-nowrap">
+                Callback URL
+              </TableHead>
+              <TableHead class="text-right">{{
+                t("admin.oidcProviders.columns.actions")
+              }}</TableHead>
+            </TableRow>
+          </TableHeader>
+          <TableBody>
+            <TableRow v-for="provider in providers" :key="provider.id">
+              <TableCell class="whitespace-normal font-medium">
+                {{ provider.name }}
+              </TableCell>
+              <TableCell class="hidden whitespace-normal sm:table-cell">
+                {{ providerLabel(provider.type) }}
+              </TableCell>
+              <TableCell class="hidden whitespace-normal md:table-cell">
+                <Badge variant="outline">{{ providerStatus(provider) }}</Badge>
+              </TableCell>
+              <TableCell class="min-w-0 max-w-[48vw] sm:max-w-none">
+                <button
+                  v-if="provider.callback_url"
+                  type="button"
+                  data-affordance="copy"
+                  class="flex min-w-0 max-w-full items-center rounded-md border bg-muted/30 px-2.5 py-2 text-left transition-colors hover:border-primary/40 hover:bg-muted/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                  :title="
+                    t('admin.oidcProviders.copyCallbackUrl', {
+                      provider: provider.name,
+                    })
+                  "
+                  :aria-label="
+                    t('admin.oidcProviders.copyCallbackUrl', {
+                      provider: provider.name,
+                    })
+                  "
+                  @click="copyCallbackUrl(provider.callback_url)"
+                >
+                  <span
+                    class="block min-w-0 flex-1 truncate font-mono text-xs leading-5 text-muted-foreground"
+                  >
+                    {{ provider.callback_url }}
+                  </span>
+                </button>
+                <span v-else class="text-muted-foreground">-</span>
+              </TableCell>
+              <TableCell class="text-right">
+                <div
+                  class="inline-flex flex-nowrap items-center justify-end gap-1.5 2xl:gap-2"
+                >
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    class="gap-1.5 px-2 2xl:px-2.5"
+                    :disabled="isMutating"
+                    :title="t('admin.oidcProviders.editProvider')"
+                    :aria-label="t('admin.oidcProviders.editProvider')"
+                    @click="openEditDialog(provider)"
+                  >
+                    <Pencil class="h-4 w-4" />
+                    <span class="hidden 2xl:inline">{{
+                      t("admin.oidcProviders.edit")
+                    }}</span>
+                  </Button>
+                  <ConfirmDangerPopover
+                    :title="t('admin.oidcProviders.deleteProvider')"
+                    :description="t('admin.oidcProviders.deleteDescription')"
+                    :loading="isMutating"
+                    :disabled="isMutating"
+                    :on-confirm="() => deleteProvider(provider.id)"
+                  >
+                    <template #trigger>
+                      <Button
+                        variant="destructive"
+                        size="sm"
+                        class="gap-1.5 px-2 2xl:px-2.5"
+                        :disabled="isMutating"
+                        :title="t('admin.oidcProviders.deleteProvider')"
+                        :aria-label="t('admin.oidcProviders.deleteProvider')"
+                      >
+                        <Trash2 class="h-4 w-4" />
+                        <span class="hidden 2xl:inline">{{
+                          t("admin.oidcProviders.delete")
+                        }}</span>
+                      </Button>
+                    </template>
+                  </ConfirmDangerPopover>
+                </div>
+              </TableCell>
+            </TableRow>
+            <TableEmpty v-if="providers.length === 0" :colspan="5">
+              {{ t("admin.oidcProviders.empty") }}
+            </TableEmpty>
+          </TableBody>
+        </Table>
+      </CardContent>
+    </Card>
+
+    <LDAPProviderSettingsCard />
+
+    <Dialog :open="showCreateDialog" @update:open="showCreateDialog = $event">
+      <DialogContent class="max-h-[88vh] overflow-y-auto sm:max-w-[640px]">
+        <DialogHeader>
+          <DialogTitle>{{ t("admin.oidcProviders.createTitle") }}</DialogTitle>
+          <DialogDescription>
+            {{ t("admin.oidcProviders.createDescription") }}
+          </DialogDescription>
+        </DialogHeader>
+        <OIDCProviderFormFields
+          :catalog="catalog"
+          :form="form"
+          mode="create"
+          :provider-label="providerLabel"
+          @type-change="handleCreateProviderTypeChange"
+        />
+        <DialogFooter class="gap-2">
+          <Button
+            variant="outline"
+            :disabled="isSaving"
+            @click="showCreateDialog = false"
+          >
+            {{ t("admin.oidcProviders.cancel") }}
+          </Button>
+          <Button :disabled="isSaving" @click="handleCreateProvider">
+            <LoaderCircle v-if="isSaving" class="h-4 w-4 animate-spin" />
+            <Plus v-else class="h-4 w-4" />
+            {{
+              isSaving
+                ? t("admin.oidcProviders.adding")
+                : t("admin.oidcProviders.addProvider")
+            }}
+          </Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+
+    <Dialog
+      :open="showQqBindingAlert"
+      @update:open="showQqBindingAlert = $event"
+    >
+      <DialogContent class="sm:max-w-[520px]">
+        <DialogHeader>
+          <DialogTitle>{{
+            t("admin.oidcProviders.qqBindingTitle")
+          }}</DialogTitle>
+          <DialogDescription>
+            {{ t("admin.oidcProviders.qqBindingSummary") }}
+          </DialogDescription>
+        </DialogHeader>
+        <Alert class="border-amber-200 bg-amber-50 text-amber-950">
+          <CircleAlert class="h-4 w-4" />
+          <AlertTitle>{{
+            t("admin.oidcProviders.qqBindingAlertTitle")
+          }}</AlertTitle>
+          <AlertDescription class="leading-6 text-amber-900">
+            {{ t("admin.oidcProviders.qqBindingInstructions") }}
+          </AlertDescription>
+        </Alert>
+        <DialogFooter class="gap-2">
+          <Button variant="outline" @click="showQqBindingAlert = false">
+            {{ t("admin.oidcProviders.qqBindingLater") }}
+          </Button>
+          <Button @click="returnToTotpManagement">
+            {{ t("admin.oidcProviders.returnToTotpManagement") }}
+          </Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+
+    <Dialog :open="showEditDialog" @update:open="showEditDialog = $event">
+      <DialogContent class="max-h-[88vh] overflow-y-auto sm:max-w-[640px]">
+        <DialogHeader>
+          <DialogTitle>{{ t("admin.oidcProviders.editTitle") }}</DialogTitle>
+          <DialogDescription>
+            {{ t("admin.oidcProviders.editDescription") }}
+          </DialogDescription>
+        </DialogHeader>
+        <OIDCProviderFormFields
+          :catalog="catalog"
+          :form="editForm"
+          mode="edit"
+          :provider-label="providerLabel"
+        />
+        <DialogFooter class="gap-2">
+          <Button variant="outline" @click="showEditDialog = false">
+            {{ t("admin.oidcProviders.cancel") }}
+          </Button>
+          <Button :disabled="isMutating" @click="saveProviderEdit">
+            <LoaderCircle v-if="isMutating" class="h-4 w-4 animate-spin" />
+            {{ t("admin.oidcProviders.saveProvider") }}
+          </Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableEmpty,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Badge } from "@/components/ui/badge";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
+import {
+  CircleAlert,
+  LoaderCircle,
+  Pencil,
+  Plus,
+  Trash2,
+} from "lucide-vue-next";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import OIDCProviderFormFields from "./oidc-provider-settings/OIDCProviderFormFields.vue";
+import LDAPProviderSettingsCard from "./oidc-provider-settings/LDAPProviderSettingsCard.vue";
+import { useOIDCProviderManagement } from "./oidc-provider-settings/useOIDCProviderManagement";
+
+const { t } = useI18n();
+const {
+  catalog,
+  copyCallbackUrl,
+  deleteProvider,
+  editForm,
+  form,
+  handleCreateProvider,
+  handleCreateProviderTypeChange,
+  isLoading,
+  isMutating,
+  isSaving,
+  openCreateDialog,
+  openEditDialog,
+  providerLabel,
+  providers,
+  providerStatus,
+  returnToTotpManagement,
+  saveProviderEdit,
+  showCreateDialog,
+  showEditDialog,
+  showQqBindingAlert,
+} = useOIDCProviderManagement();
+</script>

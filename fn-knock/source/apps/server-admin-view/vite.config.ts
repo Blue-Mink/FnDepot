@@ -1,1 +1,191 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnLCB0eXBlIFBsdWdpbiB9IGZyb20gInZpdGUiOwppbXBvcnQgdnVlIGZyb20gIkB2aXRlanMvcGx1Z2luLXZ1ZSI7CmltcG9ydCB0YWlsd2luZGNzcyBmcm9tICJAdGFpbHdpbmRjc3Mvdml0ZSI7CmltcG9ydCBwYXRoIGZyb20gInBhdGgiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKCmNvbnN0IGlzRnBrTGl0ZUJ1aWxkID0gcHJvY2Vzcy5lbnYuRk5fS05PQ0tfRlJPTlRFTkRfVEFSR0VUID09PSAiZnBrLWxpdGUiOwpjb25zdCB7IHZlcnNpb246IGFwcFZlcnNpb24gfSA9IEpTT04ucGFyc2UoCiAgcmVhZEZpbGVTeW5jKHBhdGgucmVzb2x2ZShfX2Rpcm5hbWUsICIuLi8uLi92ZXJzaW9uLmpzb24iKSwgInV0ZjgiKSwKKSBhcyB7IHZlcnNpb246IHN0cmluZyB9Owpjb25zdCB2ZXJzaW9uZWRBc3NldHNEaXIgPSBgYXNzZXRzL3Yke2FwcFZlcnNpb259YDsKCmNvbnN0IGNyZWF0ZUNodW5rTWF0Y2hlciA9IChwYXR0ZXJuczogc3RyaW5nW10pID0+IChpZDogc3RyaW5nKSA9PgogIHBhdHRlcm5zLnNvbWUoKHBhdHRlcm4pID0+IGlkLmluY2x1ZGVzKHBhdHRlcm4pKTsKCmNvbnN0IGlzRnJhbWV3b3JrQ2h1bmsgPSBjcmVhdGVDaHVua01hdGNoZXIoWwogICJub2RlX21vZHVsZXMvdnVlLyIsCiAgIm5vZGVfbW9kdWxlcy9AdnVlLyIsCiAgIm5vZGVfbW9kdWxlcy92dWUtcm91dGVyLyIsCiAgIm5vZGVfbW9kdWxlcy9waW5pYS8iLAogICJub2RlX21vZHVsZXMvQHZ1ZXVzZS8iLApdKTsKCmNvbnN0IGlzSW50ZXJhY3Rpb25DaHVuayA9IGNyZWF0ZUNodW5rTWF0Y2hlcihbCiAgIm5vZGVfbW9kdWxlcy9yZWthLXVpL2Rpc3QvQ29sbGVjdGlvbi8iLAogICJub2RlX21vZHVsZXMvcmVrYS11aS9kaXN0L1ByaW1pdGl2ZS8iLAogICJub2RlX21vZHVsZXMvcmVrYS11aS9kaXN0L1JvdmluZ0ZvY3VzLyIsCiAgIm5vZGVfbW9kdWxlcy9yZWthLXVpL2Rpc3QvVGFicy8iLAogICJub2RlX21vZHVsZXMvcmVrYS11aS9kaXN0L3NoYXJlZC8iLApdKTsKCmNvbnN0IGlzRGFzaGJvYXJkQ29yZUNodW5rID0gY3JlYXRlQ2h1bmtNYXRjaGVyKFsKICAicGFja2FnZXMvdWktdnVlL3NyYy9jb21wb25lbnRzL3VpL2FsZXJ0LyIsCiAgInBhY2thZ2VzL3VpLXZ1ZS9zcmMvY29tcG9uZW50cy91aS9jYXJkLyIsCiAgInBhY2thZ2VzL3VpLXZ1ZS9zcmMvY29tcG9uZW50cy91aS9za2VsZXRvbi8iLAogICJwYWNrYWdlcy91aS12dWUvc3JjL2NvbXBvbmVudHMvdWkvdGFicy8iLAogICJwYWNrYWdlcy9hZG1pbi1zaGFyZWQvc3JjL2NvbXBvc2FibGVzL2NyZWF0ZVZpc2liaWxpdHlQb2xsZXIudHMiLAogICJwYWNrYWdlcy9hZG1pbi1zaGFyZWQvc3JjL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uLnRzIiwKICAicGFja2FnZXMvYWRtaW4tc2hhcmVkL3NyYy9jb21wb3NhYmxlcy91c2VEYXRlVGltZURpc3BsYXlTdGF0ZS50cyIsCiAgInBhY2thZ2VzL2FkbWluLXNoYXJlZC9zcmMvY29tcG9zYWJsZXMvdXNlRGVsYXllZExvYWRpbmcudHMiLAogICJwYWNrYWdlcy9hZG1pbi1zaGFyZWQvc3JjL3V0aWxzL2Zvcm1hdERhdGVUaW1lU2FmZS50cyIsCiAgImFwcHMvc2VydmVyLWFkbWluLXZpZXcvc3JjL2NvbXBvbmVudHMvTGl2ZVN0YXR1c0JhZGdlLnZ1ZSIsCiAgImFwcHMvc2VydmVyLWFkbWluLXZpZXcvc3JjL2NvbXBvc2FibGVzL3VzZVRhcmdldFBvbGxpbmcudHMiLAogICJhcHBzL3NlcnZlci1hZG1pbi12aWV3L3NyYy9saWIvYXBpL2Rhc2hib2FyZC50cyIsCiAgImFwcHMvc2VydmVyLWFkbWluLXZpZXcvc3JjL2xpYi9hcGkvcG9sbGluZy50cyIsCiAgImFwcHMvc2VydmVyLWFkbWluLXZpZXcvc3JjL2xpYi9wb2xsaW5nTGlmZWN5Y2xlLnRzIiwKXSk7Cgpjb25zdCBjcmVhdGVHaG9zdHR5RXh0ZXJuYWxXYXNtUGx1Z2luID0gKCk6IFBsdWdpbiA9PiAoewogIG5hbWU6ICJmbi1rbm9jazpnaG9zdHR5LWV4dGVybmFsLXdhc20iLAogIGVuZm9yY2U6ICJwcmUiLAogIHRyYW5zZm9ybShjb2RlLCBpZCkgewogICAgY29uc3Qgbm9ybWFsaXplZElkID0gaWQuc3BsaXQocGF0aC5zZXApLmpvaW4oIi8iKTsKICAgIGlmICgKICAgICAgIW5vcm1hbGl6ZWRJZC5lbmRzV2l0aCgiL25vZGVfbW9kdWxlcy9naG9zdHR5LXdlYi9kaXN0L2dob3N0dHktd2ViLmpzIikKICAgICkgewogICAgICByZXR1cm4gbnVsbDsKICAgIH0KCiAgICBjb25zdCBpbmxpbmVMb2FkUGF0dGVybiA9CiAgICAgIC8gezJ9c3RhdGljIGFzeW5jIGxvYWRcKEFcKSBce1xuIHs0fWlmIFwoQVwpXG4gezZ9cmV0dXJuIHFcLmxvYWRGcm9tUGF0aFwoQVwpO1xuIHs0fWNvbnN0IEIgPSBuZXcgVVJMXCgiZGF0YTphcHBsaWNhdGlvblwvd2FzbTtiYXNlNjQsW1xzXFNdKj9cbiB7Mn1zdGF0aWMgYXN5bmMgbG9hZEZyb21QYXRoXChBXCkgXHsvOwogICAgY29uc3QgZXh0ZXJuYWxMb2FkID0gYCAgc3RhdGljIGFzeW5jIGxvYWQoQSkgewogICAgaWYgKCFBKQogICAgICB0aHJvdyBuZXcgRXJyb3IoImdob3N0dHktd2ViIHJlcXVpcmVzIGFuIGV4cGxpY2l0IFdBU00gVVJMIGluIHRoaXMgYnVpbGQiKTsKICAgIHJldHVybiBxLmxvYWRGcm9tUGF0aChBKTsKICB9CiAgc3RhdGljIGFzeW5jIGxvYWRGcm9tUGF0aChBKSB7YDsKICAgIGNvbnN0IG5leHRDb2RlID0gY29kZS5yZXBsYWNlKGlubGluZUxvYWRQYXR0ZXJuLCBleHRlcm5hbExvYWQpOwoKICAgIGlmIChuZXh0Q29kZSA9PT0gY29kZSkgewogICAgICB0aHJvdyBuZXcgRXJyb3IoIkZhaWxlZCB0byBzdHJpcCBnaG9zdHR5LXdlYiBpbmxpbmUgV0FTTSBmYWxsYmFjayIpOwogICAgfQoKICAgIHJldHVybiB7CiAgICAgIGNvZGU6IG5leHRDb2RlLAogICAgICBtYXA6IG51bGwsCiAgICB9OwogIH0sCn0pOwoKY29uc3QgaXNDcml0aWNhbEh0bWxQcmVsb2FkID0gKGRlcGVuZGVuY3k6IHN0cmluZykgPT4gewogIGNvbnN0IG5hbWUgPSBwYXRoLmJhc2VuYW1lKGRlcGVuZGVuY3kpOwogIHJldHVybiAoCiAgICBuYW1lLnN0YXJ0c1dpdGgoIl9wbHVnaW4tdnVlX2V4cG9ydC1oZWxwZXItIikgfHwKICAgIG5hbWUuc3RhcnRzV2l0aCgicm9sbGRvd24tcnVudGltZS0iKSB8fAogICAgbmFtZS5zdGFydHNXaXRoKCJwcmVsb2FkLWhlbHBlci0iKSB8fAogICAgbmFtZS5zdGFydHNXaXRoKCJmcmFtZXdvcmstIikgfHwKICAgIG5hbWUuc3RhcnRzV2l0aCgiZGFzaGJvYXJkLWNvcmUtIikgfHwKICAgIG5hbWUuc3RhcnRzV2l0aCgiaW50ZXJhY3Rpb24tdmVuZG9yLSIpIHx8CiAgICBuYW1lLnN0YXJ0c1dpdGgoImNvbmZpZy0iKSB8fAogICAgbmFtZS5zdGFydHNXaXRoKCJkb2NrZXJBZG1pbkF1dGgtIikKICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKHsKICBiYXNlOiAiLi8iLAogIHB1YmxpY0RpcjogcGF0aC5yZXNvbHZlKF9fZGlybmFtZSwgIi4uLy4uL3BhY2thZ2VzL2ljb25zIiksCiAgcGx1Z2luczogWwogICAgY3JlYXRlR2hvc3R0eUV4dGVybmFsV2FzbVBsdWdpbigpLAogICAgdnVlKCksCiAgICB0YWlsd2luZGNzcyh7CiAgICAgIG9wdGltaXplOiBwcm9jZXNzLmVudi5OT0RFX0VOViAhPT0gImRldmVsb3BtZW50IiwKICAgIH0pLAogIF0sCiAgb3B0aW1pemVEZXBzOiB7CiAgICBleGNsdWRlOiBbInFyY29kZS52dWUiXSwKICB9LAogIGJ1aWxkOiB7CiAgICBtYW5pZmVzdDogdHJ1ZSwKICAgIHRhcmdldDogImNocm9tZTEwOSIsCiAgICBjc3NNaW5pZnk6ICJlc2J1aWxkIiwKICAgIC8vIGZuT1MgV2ViVmlld3MgY2FuIHJldGFpbiBhbiBpbW11dGFibGUgbW9kdWxlIHJlc3BvbnNlIGFjcm9zcyBhbiBGUEsKICAgIC8vIHJlcGxhY2VtZW50LiBOYW1lc3BhY2luZyBldmVyeSBnZW5lcmF0ZWQgYXNzZXQgYnkgdGhlIHBhY2thZ2UgdmVyc2lvbgogICAgLy8gZ3VhcmFudGVlcyB0aGF0IGFuIHVwZ3JhZGUgY2Fubm90IHJldXNlIGEgcmVwcmVzZW50YXRpb24gZnJvbSBhbiBvbGRlcgogICAgLy8gaW5zdGFsbGF0aW9uLCBldmVuIHdoZW4gYW4gaW5kaXZpZHVhbCBkZXBlbmRlbmN5IGNodW5rIGlzIHVuY2hhbmdlZC4KICAgIGFzc2V0c0RpcjogdmVyc2lvbmVkQXNzZXRzRGlyLAogICAgbW9kdWxlUHJlbG9hZDogewogICAgICByZXNvbHZlRGVwZW5kZW5jaWVzKF9maWxlbmFtZSwgZGVwZW5kZW5jaWVzLCBjb250ZXh0KSB7CiAgICAgICAgaWYgKGNvbnRleHQuaG9zdFR5cGUgIT09ICJodG1sIikgcmV0dXJuIGRlcGVuZGVuY2llczsKICAgICAgICByZXR1cm4gZGVwZW5kZW5jaWVzLmZpbHRlcihpc0NyaXRpY2FsSHRtbFByZWxvYWQpOwogICAgICB9LAogICAgfSwKICAgIHJvbGxkb3duT3B0aW9uczogewogICAgICBvdXRwdXQ6IHsKICAgICAgICBtYW51YWxDaHVua3MoaWQpIHsKICAgICAgICAgIGlmIChpc0ZyYW1ld29ya0NodW5rKGlkKSkgcmV0dXJuICJmcmFtZXdvcmsiOwogICAgICAgICAgLy8gQSBtb2R1bGUgcmVxdWVzdCBjcm9zc2VzIHRoZSBmbk9TIENHSSBib3VuZGFyeSBhbmQgc3RhcnRzIGEgbG9jYWwKICAgICAgICAgIC8vIGN1cmwgcHJvY2Vzcy4gS2VlcCBpbnRlcmFjdGlvbiBwcmltaXRpdmVzIHRvZ2V0aGVyIGluc3RlYWQgb2YKICAgICAgICAgIC8vIGVtaXR0aW5nIG1hbnkgc3ViLWtpbG9ieXRlIGNodW5rcyBmb3IgdGhlIGZpcnN0IGRhc2hib2FyZCByZW5kZXIuCiAgICAgICAgICBpZiAoaXNJbnRlcmFjdGlvbkNodW5rKGlkKSkgcmV0dXJuICJpbnRlcmFjdGlvbi12ZW5kb3IiOwogICAgICAgICAgaWYgKGlzRGFzaGJvYXJkQ29yZUNodW5rKGlkKSkgcmV0dXJuICJkYXNoYm9hcmQtY29yZSI7CiAgICAgICAgfSwKICAgICAgfSwKICAgIH0sCiAgfSwKICByZXNvbHZlOiB7CiAgICBhbGlhczogewogICAgICAiQHJ1bnRpbWUtZGVidWciOiBwYXRoLnJlc29sdmUoCiAgICAgICAgX19kaXJuYW1lLAogICAgICAgIGlzRnBrTGl0ZUJ1aWxkCiAgICAgICAgICA/ICIuL3NyYy9saWIvcnVudGltZS1vdmVycmlkZXMtZGlzYWJsZWQudHMiCiAgICAgICAgICA6ICIuL3NyYy9saWIvZG9ja2VyLWRlYnVnLnRzIiwKICAgICAgKSwKICAgICAgIkAvY29tcG9uZW50cy91aSI6IHBhdGgucmVzb2x2ZSgKICAgICAgICBfX2Rpcm5hbWUsCiAgICAgICAgIi4uLy4uL3BhY2thZ2VzL3VpLXZ1ZS9zcmMvY29tcG9uZW50cy91aSIsCiAgICAgICksCiAgICAgICJAL2xpYi91dGlscyI6IHBhdGgucmVzb2x2ZSgKICAgICAgICBfX2Rpcm5hbWUsCiAgICAgICAgIi4uLy4uL3BhY2thZ2VzL3VpLXZ1ZS9zcmMvbGliL3V0aWxzLnRzIiwKICAgICAgKSwKICAgICAgIkBmcm9udGVuZC1jb3JlIjogcGF0aC5yZXNvbHZlKAogICAgICAgIF9fZGlybmFtZSwKICAgICAgICAiLi4vLi4vcGFja2FnZXMvZnJvbnRlbmQtY29yZS9zcmMiLAogICAgICApLAogICAgICAiQGFkbWluLXNoYXJlZCI6IHBhdGgucmVzb2x2ZSgKICAgICAgICBfX2Rpcm5hbWUsCiAgICAgICAgIi4uLy4uL3BhY2thZ2VzL2FkbWluLXNoYXJlZC9zcmMiLAogICAgICApLAogICAgICAiQGZuLWtub2NrL2kxOG4vY29yZSI6IHBhdGgucmVzb2x2ZSgKICAgICAgICBfX2Rpcm5hbWUsCiAgICAgICAgIi4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL2NvcmUudHMiLAogICAgICApLAogICAgICAiQGZuLWtub2NrL2kxOG4vdnVlL2FkbWluIjogcGF0aC5yZXNvbHZlKAogICAgICAgIF9fZGlybmFtZSwKICAgICAgICAiLi4vLi4vcGFja2FnZXMvaTE4bi9zcmMvdnVlLWFkbWluLnRzIiwKICAgICAgKSwKICAgICAgIkBmbi1rbm9jay9pMThuL3Z1ZSI6IHBhdGgucmVzb2x2ZSgKICAgICAgICBfX2Rpcm5hbWUsCiAgICAgICAgIi4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL3Z1ZS50cyIsCiAgICAgICksCiAgICAgICJAZm4ta25vY2svaTE4biI6IHBhdGgucmVzb2x2ZSgKICAgICAgICBfX2Rpcm5hbWUsCiAgICAgICAgIi4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL2luZGV4LnRzIiwKICAgICAgKSwKICAgICAgIkAiOiBwYXRoLnJlc29sdmUoX19kaXJuYW1lLCAiLi9zcmMiKSwKICAgIH0sCiAgfSwKICBzZXJ2ZXI6IHsKICAgIHByb3h5OiB7CiAgICAgICIvX19mbi1rbm9jayI6IHsKICAgICAgICB0YXJnZXQ6ICJodHRwOi8vbG9jYWxob3N0Ojc5OTgiLAogICAgICAgIGNoYW5nZU9yaWdpbjogdHJ1ZSwKICAgICAgfSwKICAgICAgIi9hcGkiOiB7CiAgICAgICAgdGFyZ2V0OiAiaHR0cDovL2xvY2FsaG9zdDo3OTk4IiwKICAgICAgICBjaGFuZ2VPcmlnaW46IHRydWUsCiAgICAgIH0sCiAgICB9LAogIH0sCn0pOwo=
+import { defineConfig, type Plugin } from "vite";
+import vue from "@vitejs/plugin-vue";
+import tailwindcss from "@tailwindcss/vite";
+import path from "path";
+import { readFileSync } from "node:fs";
+
+const isFpkLiteBuild = process.env.FN_KNOCK_FRONTEND_TARGET === "fpk-lite";
+const { version: appVersion } = JSON.parse(
+  readFileSync(path.resolve(__dirname, "../../version.json"), "utf8"),
+) as { version: string };
+const versionedAssetsDir = `assets/v${appVersion}`;
+
+const createChunkMatcher = (patterns: string[]) => (id: string) =>
+  patterns.some((pattern) => id.includes(pattern));
+
+const isFrameworkChunk = createChunkMatcher([
+  "node_modules/vue/",
+  "node_modules/@vue/",
+  "node_modules/vue-router/",
+  "node_modules/pinia/",
+  "node_modules/@vueuse/",
+]);
+
+const isInteractionChunk = createChunkMatcher([
+  "node_modules/reka-ui/dist/Collection/",
+  "node_modules/reka-ui/dist/Primitive/",
+  "node_modules/reka-ui/dist/RovingFocus/",
+  "node_modules/reka-ui/dist/Tabs/",
+  "node_modules/reka-ui/dist/shared/",
+]);
+
+const isDashboardCoreChunk = createChunkMatcher([
+  "packages/ui-vue/src/components/ui/alert/",
+  "packages/ui-vue/src/components/ui/card/",
+  "packages/ui-vue/src/components/ui/skeleton/",
+  "packages/ui-vue/src/components/ui/tabs/",
+  "packages/admin-shared/src/composables/createVisibilityPoller.ts",
+  "packages/admin-shared/src/composables/useAsyncAction.ts",
+  "packages/admin-shared/src/composables/useDateTimeDisplayState.ts",
+  "packages/admin-shared/src/composables/useDelayedLoading.ts",
+  "packages/admin-shared/src/utils/formatDateTimeSafe.ts",
+  "apps/server-admin-view/src/components/LiveStatusBadge.vue",
+  "apps/server-admin-view/src/composables/useTargetPolling.ts",
+  "apps/server-admin-view/src/lib/api/dashboard.ts",
+  "apps/server-admin-view/src/lib/api/polling.ts",
+  "apps/server-admin-view/src/lib/pollingLifecycle.ts",
+]);
+
+const createGhosttyExternalWasmPlugin = (): Plugin => ({
+  name: "fn-knock:ghostty-external-wasm",
+  enforce: "pre",
+  transform(code, id) {
+    const normalizedId = id.split(path.sep).join("/");
+    if (
+      !normalizedId.endsWith("/node_modules/ghostty-web/dist/ghostty-web.js")
+    ) {
+      return null;
+    }
+
+    const inlineLoadPattern =
+      / {2}static async load\(A\) \{\n {4}if \(A\)\n {6}return q\.loadFromPath\(A\);\n {4}const B = new URL\("data:application\/wasm;base64,[\s\S]*?\n {2}static async loadFromPath\(A\) \{/;
+    const externalLoad = `  static async load(A) {
+    if (!A)
+      throw new Error("ghostty-web requires an explicit WASM URL in this build");
+    return q.loadFromPath(A);
+  }
+  static async loadFromPath(A) {`;
+    const nextCode = code.replace(inlineLoadPattern, externalLoad);
+
+    if (nextCode === code) {
+      throw new Error("Failed to strip ghostty-web inline WASM fallback");
+    }
+
+    return {
+      code: nextCode,
+      map: null,
+    };
+  },
+});
+
+const isCriticalHtmlPreload = (dependency: string) => {
+  const name = path.basename(dependency);
+  return (
+    name.startsWith("_plugin-vue_export-helper-") ||
+    name.startsWith("rolldown-runtime-") ||
+    name.startsWith("preload-helper-") ||
+    name.startsWith("framework-") ||
+    name.startsWith("dashboard-core-") ||
+    name.startsWith("interaction-vendor-") ||
+    name.startsWith("config-") ||
+    name.startsWith("dockerAdminAuth-")
+  );
+};
+
+export default defineConfig({
+  base: "./",
+  publicDir: path.resolve(__dirname, "../../packages/icons"),
+  plugins: [
+    createGhosttyExternalWasmPlugin(),
+    vue(),
+    tailwindcss({
+      optimize: process.env.NODE_ENV !== "development",
+    }),
+  ],
+  optimizeDeps: {
+    exclude: ["qrcode.vue"],
+  },
+  build: {
+    manifest: true,
+    target: "chrome109",
+    cssMinify: "esbuild",
+    // fnOS WebViews can retain an immutable module response across an FPK
+    // replacement. Namespacing every generated asset by the package version
+    // guarantees that an upgrade cannot reuse a representation from an older
+    // installation, even when an individual dependency chunk is unchanged.
+    assetsDir: versionedAssetsDir,
+    modulePreload: {
+      resolveDependencies(_filename, dependencies, context) {
+        if (context.hostType !== "html") return dependencies;
+        return dependencies.filter(isCriticalHtmlPreload);
+      },
+    },
+    rolldownOptions: {
+      output: {
+        manualChunks(id) {
+          if (isFrameworkChunk(id)) return "framework";
+          // A module request crosses the fnOS CGI boundary and starts a local
+          // curl process. Keep interaction primitives together instead of
+          // emitting many sub-kilobyte chunks for the first dashboard render.
+          if (isInteractionChunk(id)) return "interaction-vendor";
+          if (isDashboardCoreChunk(id)) return "dashboard-core";
+        },
+      },
+    },
+  },
+  resolve: {
+    alias: {
+      "@runtime-debug": path.resolve(
+        __dirname,
+        isFpkLiteBuild
+          ? "./src/lib/runtime-overrides-disabled.ts"
+          : "./src/lib/docker-debug.ts",
+      ),
+      "@/components/ui": path.resolve(
+        __dirname,
+        "../../packages/ui-vue/src/components/ui",
+      ),
+      "@/lib/utils": path.resolve(
+        __dirname,
+        "../../packages/ui-vue/src/lib/utils.ts",
+      ),
+      "@frontend-core": path.resolve(
+        __dirname,
+        "../../packages/frontend-core/src",
+      ),
+      "@admin-shared": path.resolve(
+        __dirname,
+        "../../packages/admin-shared/src",
+      ),
+      "@fn-knock/i18n/core": path.resolve(
+        __dirname,
+        "../../packages/i18n/src/core.ts",
+      ),
+      "@fn-knock/i18n/vue/admin": path.resolve(
+        __dirname,
+        "../../packages/i18n/src/vue-admin.ts",
+      ),
+      "@fn-knock/i18n/vue": path.resolve(
+        __dirname,
+        "../../packages/i18n/src/vue.ts",
+      ),
+      "@fn-knock/i18n": path.resolve(
+        __dirname,
+        "../../packages/i18n/src/index.ts",
+      ),
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
+  server: {
+    proxy: {
+      "/__fn-knock": {
+        target: "http://localhost:7998",
+        changeOrigin: true,
+      },
+      "/api": {
+        target: "http://localhost:7998",
+        changeOrigin: true,
+      },
+    },
+  },
+});

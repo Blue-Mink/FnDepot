@@ -1,1 +1,50 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKCmNvbnN0IGExMXlJZCA9IHVzZUlkKCk7CmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKAogIGRlZmluZVByb3BzPHsKICAgIGRlc2NyaXB0aW9uOiBzdHJpbmc7CiAgICBkaXNhYmxlZD86IGJvb2xlYW47CiAgICBtb2RlbFZhbHVlOiBib29sZWFuOwogICAgbXV0ZWQ/OiBib29sZWFuOwogICAgdGl0bGU6IHN0cmluZzsKICB9PigpLAogIHsKICAgIGRpc2FibGVkOiBmYWxzZSwKICAgIG11dGVkOiBmYWxzZSwKICB9LAopOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICBjaGFuZ2U6IFt2YWx1ZTogYm9vbGVhbl07Cn0+KCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxzZWN0aW9uCiAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtNCBwLTYgc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIHNtOmp1c3RpZnktYmV0d2VlbiIKICAgIDpjbGFzcz0ibXV0ZWQgPyAnYmctbXV0ZWQvMTAnIDogJyciCiAgPgogICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIHByLTYiPgogICAgICA8TGFiZWwKICAgICAgICA6Zm9yPSJgJHthMTF5SWR9LXN3aXRjaGAiCiAgICAgICAgY2xhc3M9ImN1cnNvci1wb2ludGVyIHRleHQtYmFzZSBmb250LW1lZGl1bSIKICAgICAgICBAY2xpY2s9ImVtaXQoJ2NoYW5nZScsICFwcm9wcy5tb2RlbFZhbHVlKSIKICAgICAgPgogICAgICAgIHt7IHRpdGxlIH19CiAgICAgIDwvTGFiZWw+CiAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyBkZXNjcmlwdGlvbiB9fQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICAgPFN3aXRjaAogICAgICA6aWQ9ImAke2ExMXlJZH0tc3dpdGNoYCIKICAgICAgOm1vZGVsLXZhbHVlPSJtb2RlbFZhbHVlIgogICAgICA6ZGlzYWJsZWQ9ImRpc2FibGVkIgogICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJlbWl0KCdjaGFuZ2UnLCAkZXZlbnQgPT09IHRydWUpIgogICAgLz4KICA8L3NlY3Rpb24+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useId } from "vue";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+
+const a11yId = useId();
+const props = withDefaults(
+  defineProps<{
+    description: string;
+    disabled?: boolean;
+    modelValue: boolean;
+    muted?: boolean;
+    title: string;
+  }>(),
+  {
+    disabled: false,
+    muted: false,
+  },
+);
+
+const emit = defineEmits<{
+  change: [value: boolean];
+}>();
+</script>
+
+<template>
+  <section
+    class="flex flex-col gap-4 p-6 sm:flex-row sm:items-center sm:justify-between"
+    :class="muted ? 'bg-muted/10' : ''"
+  >
+    <div class="space-y-1 pr-6">
+      <Label
+        :for="`${a11yId}-switch`"
+        class="cursor-pointer text-base font-medium"
+        @click="emit('change', !props.modelValue)"
+      >
+        {{ title }}
+      </Label>
+      <div class="text-sm text-muted-foreground">
+        {{ description }}
+      </div>
+    </div>
+    <Switch
+      :id="`${a11yId}-switch`"
+      :model-value="modelValue"
+      :disabled="disabled"
+      @update:model-value="emit('change', $event === true)"
+    />
+  </section>
+</template>

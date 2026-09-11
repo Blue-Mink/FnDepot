@@ -1,1 +1,577 @@
-dXNlIHN1cGVyOjoqOwp1c2UgYXh1bTo6ZXh0cmFjdDo6RnJvbVJlcXVlc3RQYXJ0czsKdXNlIHN0ZDo6c3luYzo6QXJjOwp1c2UgdXRvaXBhX2F4dW06OnsKICAgIHJvdXRlcjo6e09wZW5BcGlSb3V0ZXIsIFV0b2lwYU1ldGhvZFJvdXRlckV4dH0sCiAgICByb3V0ZXMsCn07CgojW2Rlcml2ZShDbG9uZSldCnB1YihzdXBlcikgc3RydWN0IEJhY2t1cEFkbWlzc2lvbiB7CiAgICBfZ3VhcmQ6IEFyYzx0b2tpbzo6c3luYzo6T3duZWRNdXRleEd1YXJkPCgpPj4sCn0KCmltcGwgQmFja3VwQWRtaXNzaW9uIHsKICAgIHB1YihzdXBlcikgZm4gdHJ5X2FjcXVpcmUoc3RhdGU6ICZBcHBTdGF0ZSkgLT4gUmVzdWx0PFNlbGYsIEJhY2t1cEltcG9ydEVycm9yPiB7CiAgICAgICAgc3RhdGUKICAgICAgICAgICAgLm1haW50ZW5hbmNlCiAgICAgICAgICAgIC5iYWNrdXBfcmVxdWVzdF9sb2NrCiAgICAgICAgICAgIC5jbG9uZSgpCiAgICAgICAgICAgIC50cnlfbG9ja19vd25lZCgpCiAgICAgICAgICAgIC5tYXAofGd1YXJkfCBTZWxmIHsKICAgICAgICAgICAgICAgIF9ndWFyZDogQXJjOjpuZXcoZ3VhcmQpLAogICAgICAgICAgICB9KQogICAgICAgICAgICAubWFwX2Vycih8X3wgewogICAgICAgICAgICAgICAgQmFja3VwSW1wb3J0RXJyb3I6Om5ldyhTdGF0dXNDb2RlOjpTRVJWSUNFX1VOQVZBSUxBQkxFLCAiQmFja3VwIG9wZXJhdGlvbiBpcyBidXN5IikKICAgICAgICAgICAgfSkKICAgIH0KfQoKaW1wbCBGcm9tUmVxdWVzdFBhcnRzPEFwcFN0YXRlPiBmb3IgQmFja3VwQWRtaXNzaW9uIHsKICAgIHR5cGUgUmVqZWN0aW9uID0gUmVzcG9uc2U7CgogICAgYXN5bmMgZm4gZnJvbV9yZXF1ZXN0X3BhcnRzKAogICAgICAgIF9wYXJ0czogJm11dCBheHVtOjpodHRwOjpyZXF1ZXN0OjpQYXJ0cywKICAgICAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgKSAtPiBSZXN1bHQ8U2VsZiwgU2VsZjo6UmVqZWN0aW9uPiB7CiAgICAgICAgbWF0Y2ggU2VsZjo6dHJ5X2FjcXVpcmUoc3RhdGUpIHsKICAgICAgICAgICAgT2soYWRtaXNzaW9uKSA9PiBPayhhZG1pc3Npb24pLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgICAgIC8vIFRoaXMgcmVqZWN0aW9uIHJ1bnMgYmVmb3JlIEpzb24gY29uc3VtZXMgYW55IHVwbG9hZCBieXRlcy4KICAgICAgICAgICAgICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZShzdGF0ZSkuYXdhaXQ7CiAgICAgICAgICAgICAgICBFcnIoYmFja3VwX29wZXJhdGlvbl9lcnJvcl9yZXNwb25zZShlcnJvciwgJnRyYW5zbGF0b3IpKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgpwdWIoc3VwZXIpIHN0cnVjdCBCYWNrdXBFeHBvcnRBZG1pc3Npb24ocHViKHN1cGVyKSBCYWNrdXBBZG1pc3Npb24pOwoKaW1wbCBCYWNrdXBFeHBvcnRBZG1pc3Npb24gewogICAgcHViKHN1cGVyKSBhc3luYyBmbiBhY3F1aXJlKHN0YXRlOiAmQXBwU3RhdGUpIC0+IFJlc3VsdDxTZWxmLCBCYWNrdXBJbXBvcnRFcnJvcj4gewogICAgICAgIFNlbGY6OmFjcXVpcmVfd2l0aF90aW1lb3V0KHN0YXRlLCBzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX3NlY3MoNSkpLmF3YWl0CiAgICB9CgogICAgcHViKHN1cGVyKSBhc3luYyBmbiBhY3F1aXJlX3dpdGhfdGltZW91dCgKICAgICAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgICAgIHdhaXRfdGltZW91dDogc3RkOjp0aW1lOjpEdXJhdGlvbiwKICAgICkgLT4gUmVzdWx0PFNlbGYsIEJhY2t1cEltcG9ydEVycm9yPiB7CiAgICAgICAgbGV0IHNodXR0aW5nX2Rvd24gPSB8fCB7CiAgICAgICAgICAgIEJhY2t1cEltcG9ydEVycm9yOjpuZXcoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpTRVJWSUNFX1VOQVZBSUxBQkxFLAogICAgICAgICAgICAgICAgIkJhY2t1cCBzZXJ2aWNlIGlzIHNodXR0aW5nIGRvd24iLAogICAgICAgICAgICApCiAgICAgICAgfTsKICAgICAgICBpZiBzdGF0ZS5zaHV0ZG93bi5pc19jYW5jZWxsZWQoKSB7CiAgICAgICAgICAgIHJldHVybiBFcnIoc2h1dHRpbmdfZG93bigpKTsKICAgICAgICB9CiAgICAgICAgaWYgbGV0IE9rKGFkbWlzc2lvbikgPSBCYWNrdXBBZG1pc3Npb246OnRyeV9hY3F1aXJlKHN0YXRlKSB7CiAgICAgICAgICAgIHJldHVybiBPayhTZWxmKGFkbWlzc2lvbikpOwogICAgICAgIH0KICAgICAgICBsZXQgYnVzeSA9CiAgICAgICAgICAgIHx8IEJhY2t1cEltcG9ydEVycm9yOjpuZXcoU3RhdHVzQ29kZTo6U0VSVklDRV9VTkFWQUlMQUJMRSwgIkJhY2t1cCBvcGVyYXRpb24gaXMgYnVzeSIpOwogICAgICAgIC8vIE9ubHkgR0VUIGRvd25sb2FkcyBtYXkgd2FpdC4gUmVzZXJ2ZSBhIHNtYWxsIHdhaXRpbmcgc2xvdCBiZWZvcmUKICAgICAgICAvLyBqb2luaW5nIHRoZSBleGlzdGluZyBGSUZPIG11dGV4OyBubyBzdG9yYWdlIG9yIGJhY2tncm91bmQgd29yayBoYXMKICAgICAgICAvLyBzdGFydGVkLiBDYW5jZWxsYXRpb24vdGltZW91dCBkcm9wcyBib3RoIHF1ZXVlIHBvc2l0aW9ucyBieSBSQUlJLgogICAgICAgIGxldCBfd2FpdGluZyA9IHN0YXRlCiAgICAgICAgICAgIC5tYWludGVuYW5jZQogICAgICAgICAgICAuYmFja3VwX2V4cG9ydF93YWl0ZXJzCiAgICAgICAgICAgIC5jbG9uZSgpCiAgICAgICAgICAgIC50cnlfYWNxdWlyZV9vd25lZCgpCiAgICAgICAgICAgIC5tYXBfZXJyKHxffCBidXN5KCkpPzsKICAgICAgICBsZXQgZ3VhcmQgPSB0b2tpbzo6c2VsZWN0ISB7CiAgICAgICAgICAgIGJpYXNlZDsKICAgICAgICAgICAgXyA9IHN0YXRlLnNodXRkb3duLmNhbmNlbGxlZCgpID0+IHJldHVybiBFcnIoc2h1dHRpbmdfZG93bigpKSwKICAgICAgICAgICAgcmVzdWx0ID0gdG9raW86OnRpbWU6OnRpbWVvdXQoCiAgICAgICAgICAgICAgICB3YWl0X3RpbWVvdXQsCiAgICAgICAgICAgICAgICBzdGF0ZS5tYWludGVuYW5jZS5iYWNrdXBfcmVxdWVzdF9sb2NrLmNsb25lKCkubG9ja19vd25lZCgpLAogICAgICAgICAgICApID0+IHJlc3VsdC5tYXBfZXJyKHxffCBidXN5KCkpPywKICAgICAgICB9OwogICAgICAgIE9rKFNlbGYoQmFja3VwQWRtaXNzaW9uIHsKICAgICAgICAgICAgX2d1YXJkOiBBcmM6Om5ldyhndWFyZCksCiAgICAgICAgfSkpCiAgICB9Cn0KCmltcGwgRnJvbVJlcXVlc3RQYXJ0czxBcHBTdGF0ZT4gZm9yIEJhY2t1cEV4cG9ydEFkbWlzc2lvbiB7CiAgICB0eXBlIFJlamVjdGlvbiA9IFJlc3BvbnNlOwoKICAgIGFzeW5jIGZuIGZyb21fcmVxdWVzdF9wYXJ0cygKICAgICAgICBfcGFydHM6ICZtdXQgYXh1bTo6aHR0cDo6cmVxdWVzdDo6UGFydHMsCiAgICAgICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgICkgLT4gUmVzdWx0PFNlbGYsIFNlbGY6OlJlamVjdGlvbj4gewogICAgICAgIG1hdGNoIFNlbGY6OmFjcXVpcmUoc3RhdGUpLmF3YWl0IHsKICAgICAgICAgICAgT2soYWRtaXNzaW9uKSA9PiBPayhhZG1pc3Npb24pLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZShzdGF0ZSkuYXdhaXQ7CiAgICAgICAgICAgICAgICBFcnIoYmFja3VwX29wZXJhdGlvbl9lcnJvcl9yZXNwb25zZShlcnJvciwgJnRyYW5zbGF0b3IpKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgpmbiBiYWNrdXBfb3BlcmF0aW9uX2Vycm9yX3Jlc3BvbnNlKGVycm9yOiBCYWNrdXBJbXBvcnRFcnJvciwgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IpIC0+IFJlc3BvbnNlIHsKICAgIGxldCBtdXQgcmVzcG9uc2UgPSByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgZXJyb3Iuc3RhdHVzLAogICAgICAgIGxvY2FsaXplX2JhY2t1cF9lcnJvcl9tZXNzYWdlKHRyYW5zbGF0b3IsICZlcnJvci5tZXNzYWdlKSwKICAgICk7CiAgICBpZiBlcnJvci5zdGF0dXMgPT0gU3RhdHVzQ29kZTo6U0VSVklDRV9VTkFWQUlMQUJMRSB7CiAgICAgICAgcmVzcG9uc2UuaGVhZGVyc19tdXQoKS5pbnNlcnQoCiAgICAgICAgICAgIGhlYWRlcjo6UkVUUllfQUZURVIsCiAgICAgICAgICAgIGF4dW06Omh0dHA6OkhlYWRlclZhbHVlOjpmcm9tX3N0YXRpYygiMSIpLAogICAgICAgICk7CiAgICB9CiAgICByZXNwb25zZQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHJ1bl9iYWNrdXBfb3BlcmF0aW9uPFQsIEY+KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGFkbWlzc2lvbjogQmFja3VwQWRtaXNzaW9uLAogICAgd29yazogRiwKKSAtPiBSZXN1bHQ8VCwgQmFja3VwSW1wb3J0RXJyb3I+CndoZXJlCiAgICBUOiBTZW5kICsgJ3N0YXRpYywKICAgIEY6IEZ1dHVyZTxPdXRwdXQgPSBSZXN1bHQ8VCwgQmFja3VwSW1wb3J0RXJyb3I+PiArIFNlbmQgKyAnc3RhdGljLAp7CiAgICBsZXQgKHJlc3VsdF90eCwgcmVzdWx0X3J4KSA9IHRva2lvOjpzeW5jOjpvbmVzaG90OjpjaGFubmVsKCk7CiAgICBsZXQgdGFzayA9IHN0YXRlLnNwYXduX2Fib3J0YWJsZV9iYWNrZ3JvdW5kKCJtYW51YWwtYmFja3VwLW9wZXJhdGlvbiIsIGFzeW5jIG1vdmUgewogICAgICAgIC8vIEFuIEhUVFAgZGlzY29ubmVjdCBtdXN0IG5vdCBpbnRlcnJ1cHQgYSByZXN0b3JlIGJldHdlZW4gc3RvcmFnZQogICAgICAgIC8vIHJlcGxhY2VtZW50IGFuZCBpdHMgbWlncmF0aW9uL3JvbGxiYWNrL3J1bnRpbWUgc3luY2hyb25pemF0aW9uLgogICAgICAgIGxldCBfYWRtaXNzaW9uID0gYWRtaXNzaW9uOwogICAgICAgIGxldCByZXN1bHQgPSB3b3JrLmF3YWl0OwogICAgICAgIGlmIGxldCBFcnIoZXJyb3IpID0gJnJlc3VsdCB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKGVycm9yID0gJWVycm9yLm1lc3NhZ2UsICJtYW51YWwgYmFja3VwIG9wZXJhdGlvbiBmYWlsZWQiKTsKICAgICAgICB9CiAgICAgICAgbGV0IF8gPSByZXN1bHRfdHguc2VuZChyZXN1bHQpOwogICAgfSk7CiAgICBpZiB0YXNrLmlzX25vbmUoKSB7CiAgICAgICAgcmV0dXJuIEVycihCYWNrdXBJbXBvcnRFcnJvcjo6bmV3KAogICAgICAgICAgICBTdGF0dXNDb2RlOjpTRVJWSUNFX1VOQVZBSUxBQkxFLAogICAgICAgICAgICAiQmFja3VwIHNlcnZpY2UgaXMgc2h1dHRpbmcgZG93biIsCiAgICAgICAgKSk7CiAgICB9CiAgICByZXN1bHRfcngKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8X3wgQmFja3VwSW1wb3J0RXJyb3I6OmludGVybmFsKCJCYWNrdXAgb3BlcmF0aW9uIGNvdWxkIG5vdCBjb21wbGV0ZSIpKT8KfQoKLy8vIEJhY2t1cCBlbmRwb2ludHMgdXNlIGFubm90YXRlZCBoYW5kbGVycyBzbyB0aGUgZXhlY3V0YWJsZSBBeHVtIHJvdXRlciBhbmQKLy8vIHRoZSBnZW5lcmF0ZWQgT3BlbkFQSSBjb250cmFjdCBjYW5ub3QgZGl2ZXJnZS4gVGhlIGltcG9ydCBib2R5IGxpbWl0IHN0YXlzCi8vLyBhdHRhY2hlZCB0byBpdHMgcnVudGltZSByb3V0ZSBiZWNhdXNlIGFyY2hpdmVzIG1heSBiZSBzdWJzdGFudGlhbGx5IGxhcmdlcgovLy8gdGhhbiBBeHVtJ3MgZGVmYXVsdCBKU09OIGxpbWl0LgpwdWIoY3JhdGUpIGZuIGJhY2t1cF9yb3V0ZXMoKSAtPiBPcGVuQXBpUm91dGVyPEFwcFN0YXRlPiB7CiAgICBPcGVuQXBpUm91dGVyOjpuZXcoKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShnZXRfYXV0b21hdGljX2JhY2t1cF9kZXRhaWxzKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEodGVzdF9iYWNrdXBfZW1haWwpKQogICAgICAgIC5yb3V0ZXMocm91dGVzISh1cGRhdGVfYXV0b21hdGljX2JhY2t1cF9jb25maWcpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShsaXN0X2F1dG9tYXRpY19iYWNrdXBfZmlsZXMpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShleHBvcnRfYmFja3VwKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEobGlzdF9iYWNrdXBfZmlsZXMpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShleHBvcnRfYmFja3VwX3RvX2RpcmVjdG9yeSkpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGltcG9ydF9iYWNrdXApLmxheWVyKERlZmF1bHRCb2R5TGltaXQ6Om1heChNQVhfQkFDS1VQX0lNUE9SVF9CT0RZX1NJWkUpKSkKICAgICAgICAucm91dGVzKHJvdXRlcyEoaW1wb3J0X2JhY2t1cF9mcm9tX2F1dG9tYXRpY19kaXJlY3RvcnkpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShpbXBvcnRfYmFja3VwX2Zyb21fZGlyZWN0b3J5KSkKfQoKLy8vIERlc3RydWN0aXZlIG1haW50ZW5hbmNlIGVuZHBvaW50cyBhcmUga2VwdCBzZXBhcmF0ZSBmcm9tIGJhY2t1cCByb3V0ZXMgc28KLy8vIHRoZWlyIGNvbmZpcm1hdGlvbiBjb250cmFjdCByZW1haW5zIHZpc2libGUgYW5kIHJldmlld2FibGUuCnB1YihjcmF0ZSkgZm4gbWFpbnRlbmFuY2VfZGF0YV9yb3V0ZXMoKSAtPiBPcGVuQXBpUm91dGVyPEFwcFN0YXRlPiB7CiAgICBPcGVuQXBpUm91dGVyOjpuZXcoKS5yb3V0ZXMocm91dGVzIShjbGVhcl9hbGxfZGF0YSkpCn0KCiNbdXRvaXBhOjpwYXRoKAogICAgZ2V0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL21haW50ZW5hbmNlL2JhY2t1cC9hdXRvbWF0aWMiLAogICAgdGFnID0gIm1haW50ZW5hbmNlIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJnZXRfYXBpX2FkbWluX21haW50ZW5hbmNlX2JhY2t1cF9hdXRvbWF0aWMiLAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkF1dG9tYXRpYyBiYWNrdXAgY29uZmlndXJhdGlvbiBhbmQgc3RhdHVzIikpCildCnB1YihzdXBlcikgYXN5bmMgZm4gZ2V0X2F1dG9tYXRpY19iYWNrdXBfZGV0YWlscyhTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPikgLT4gUmVzcG9uc2UgewogICAgbWF0Y2ggYXV0b21hdGljX2JhY2t1cF9kZXRhaWxzKCZzdGF0ZSkuYXdhaXQgewogICAgICAgIE9rKGRhdGEpID0+IHJlc3BvbnNlOjpvayhkYXRhKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBsb2FkIGF1dG9tYXRpYyBiYWNrdXAgc2V0dGluZ3MiKTsKICAgICAgICAgICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0KCZ0cmFuc2xhdG9yLCAiYXV0b21hdGljU2V0dGluZ3NSZWFkRmFpbGVkIiksCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCiNbdXRvaXBhOjpwYXRoKAogICAgcHV0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL21haW50ZW5hbmNlL2JhY2t1cC9hdXRvbWF0aWMiLAogICAgdGFnID0gIm1haW50ZW5hbmNlIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJwdXRfYXBpX2FkbWluX21haW50ZW5hbmNlX2JhY2t1cF9hdXRvbWF0aWMiLAogICAgcmVxdWVzdF9ib2R5ID0gVXBkYXRlQXV0b21hdGljQmFja3VwQm9keSwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJVcGRhdGVkIGF1dG9tYXRpYyBiYWNrdXAgY29uZmlndXJhdGlvbiIpKQopXQpwdWIoc3VwZXIpIGFzeW5jIGZuIHVwZGF0ZV9hdXRvbWF0aWNfYmFja3VwX2NvbmZpZygKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgYm9keTogUmVzdWx0PEpzb248VXBkYXRlQXV0b21hdGljQmFja3VwQm9keT4sIEpzb25SZWplY3Rpb24+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbGV0IEpzb24oYm9keSkgPSBtYXRjaCBib2R5IHsKICAgICAgICBPayhib2R5KSA9PiBib2R5LAogICAgICAgIEVycihfKSA9PiB7CiAgICAgICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwKICAgICAgICAgICAgICAgIG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0KCZ0cmFuc2xhdG9yLCAiYXV0b21hdGljU2V0dGluZ3NJbnZhbGlkUmVxdWVzdCIpLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH07CiAgICBtYXRjaCBzYXZlX2F1dG9tYXRpY19iYWNrdXBfY29uZmlnKCZzdGF0ZSwgYm9keSkuYXdhaXQgewogICAgICAgIE9rKGRhdGEpID0+IHJlc3BvbnNlOjpvayhkYXRhKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIGxldCBtZXNzYWdlID0gaWYgZXJyb3Iuc3RhdHVzID09IFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiB7CiAgICAgICAgICAgICAgICBtYWludGVuYW5jZV9iYWNrdXBfdGV4dCgmdHJhbnNsYXRvciwgImF1dG9tYXRpY1NldHRpbmdzU2F2ZUZhaWxlZCIpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBsb2NhbGl6ZV9iYWNrdXBfZXJyb3JfbWVzc2FnZSgmdHJhbnNsYXRvciwgJmVycm9yLm1lc3NhZ2UpCiAgICAgICAgICAgIH07CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcihlcnJvci5zdGF0dXMsIG1lc3NhZ2UpCiAgICAgICAgfQogICAgfQp9CgojW3V0b2lwYTo6cGF0aCgKICAgIGdldCwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9tYWludGVuYW5jZS9iYWNrdXAvYXV0b21hdGljL2ZpbGVzIiwKICAgIHRhZyA9ICJtYWludGVuYW5jZSIsCiAgICBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9tYWludGVuYW5jZV9iYWNrdXBfYXV0b21hdGljX2ZpbGVzIiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJBdXRvbWF0aWMgYmFja3VwIGFyY2hpdmVzIikpCildCnB1YihzdXBlcikgYXN5bmMgZm4gbGlzdF9hdXRvbWF0aWNfYmFja3VwX2ZpbGVzKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIG1hdGNoIGF1dG9tYXRpY19iYWNrdXBfZmlsZXNfcGF5bG9hZCgmc3RhdGUpLmF3YWl0IHsKICAgICAgICBPayhkYXRhKSA9PiByZXNwb25zZTo6b2soZGF0YSkuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gbGlzdCBhdXRvbWF0aWMgYmFja3VwIGZpbGVzIik7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIG1haW50ZW5hbmNlX2JhY2t1cF90ZXh0KCZ0cmFuc2xhdG9yLCAiYXV0b21hdGljRGlyZWN0b3J5UmVhZEZhaWxlZCIpLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9CgojW3V0b2lwYTo6cGF0aCgKICAgIGdldCwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9tYWludGVuYW5jZS9iYWNrdXAvZXhwb3J0IiwKICAgIHRhZyA9ICJtYWludGVuYW5jZSIsCiAgICBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9tYWludGVuYW5jZV9iYWNrdXBfZXhwb3J0IiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJCYWNrdXAgYXJjaGl2ZSBkb3dubG9hZCIpLCAoc3RhdHVzID0gNTAzLCBkZXNjcmlwdGlvbiA9ICLlpIfku73ku7vliqHmraPlnKjov5vooYzvvIzor7fmoLnmja4gUmV0cnktQWZ0ZXIg56iN5ZCO6YeN6K+VIiwgYm9keSA9IFZhbHVlKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiBleHBvcnRfYmFja3VwKAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBhZG1pc3Npb246IEJhY2t1cEV4cG9ydEFkbWlzc2lvbiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgQmFja3VwRXhwb3J0QWRtaXNzaW9uKGFkbWlzc2lvbikgPSBhZG1pc3Npb247CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGxldCB3b3JrX3N0YXRlID0gc3RhdGUuY2xvbmUoKTsKICAgIG1hdGNoIHJ1bl9iYWNrdXBfb3BlcmF0aW9uKCZzdGF0ZSwgYWRtaXNzaW9uLmNsb25lKCksIGFzeW5jIG1vdmUgewogICAgICAgIGV4cG9ydF9iYWNrdXBfYXJjaGl2ZSgmd29ya19zdGF0ZSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgQmFja3VwSW1wb3J0RXJyb3I6OmludGVybmFsKGVycm9yLnRvX3N0cmluZygpKSkKICAgIH0pCiAgICAuYXdhaXQKICAgIHsKICAgICAgICBPayhhcmNoaXZlKSA9PiBiaW5hcnlfYXJjaGl2ZV9yZXNwb25zZShhcmNoaXZlLCBhZG1pc3Npb24sICZ0cmFuc2xhdG9yKSwKICAgICAgICBFcnIoZXJyb3IpID0+IGJhY2t1cF9vcGVyYXRpb25fZXJyb3JfcmVzcG9uc2UoZXJyb3IsICZ0cmFuc2xhdG9yKSwKICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBnZXQsCiAgICBwYXRoID0gIi9hcGkvYWRtaW4vbWFpbnRlbmFuY2UvYmFja3VwL2ZpbGVzIiwKICAgIHRhZyA9ICJtYWludGVuYW5jZSIsCiAgICBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9tYWludGVuYW5jZV9iYWNrdXBfZmlsZXMiLAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIlNoYXJlZC1kaXJlY3RvcnkgYmFja3VwIGFyY2hpdmVzIikpCildCnB1YihzdXBlcikgYXN5bmMgZm4gbGlzdF9iYWNrdXBfZmlsZXMoU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4pIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbWF0Y2ggbGlzdF9iYWNrdXBfZGlyZWN0b3J5X2ZpbGVzKCkuYXdhaXQgewogICAgICAgIE9rKGRhdGEpID0+IHJlc3BvbnNlOjpvayhkYXRhKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBsaXN0IGJhY2t1cCBkaXJlY3RvcnkgZmlsZXMiKTsKICAgICAgICAgICAgcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgYWRtaW5fYmFja3VwX3RleHQoJnRyYW5zbGF0b3IsICJyZWFkRm5vc0RpcmVjdG9yeUZhaWxlZCIpLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9CgojW3V0b2lwYTo6cGF0aCgKICAgIHBvc3QsCiAgICBwYXRoID0gIi9hcGkvYWRtaW4vbWFpbnRlbmFuY2UvYmFja3VwL2V4cG9ydC9mbm9zIiwKICAgIHRhZyA9ICJtYWludGVuYW5jZSIsCiAgICBvcGVyYXRpb25faWQgPSAicG9zdF9hcGlfYWRtaW5fbWFpbnRlbmFuY2VfYmFja3VwX2V4cG9ydF9mbm9zIiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJFeHBvcnRlZCBiYWNrdXAgYXJjaGl2ZSB0byBzaGFyZWQgZGlyZWN0b3J5IiksIChzdGF0dXMgPSA1MDMsIGRlc2NyaXB0aW9uID0gIuWkh+S7veS7u+WKoeato+WcqOi/m+ihjO+8jOivt+agueaNriBSZXRyeS1BZnRlciDnqI3lkI7ph43or5UiLCBib2R5ID0gVmFsdWUpKQopXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGV4cG9ydF9iYWNrdXBfdG9fZGlyZWN0b3J5KAogICAgU3RhdGUoc3RhdGUpOiBTdGF0ZTxBcHBTdGF0ZT4sCiAgICBhZG1pc3Npb246IEJhY2t1cEFkbWlzc2lvbiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGxldCB3b3JrX3N0YXRlID0gc3RhdGUuY2xvbmUoKTsKICAgIG1hdGNoIHJ1bl9iYWNrdXBfb3BlcmF0aW9uKCZzdGF0ZSwgYWRtaXNzaW9uLCBhc3luYyBtb3ZlIHsKICAgICAgICBleHBvcnRfYmFja3VwX2FyY2hpdmVfdG9fZGlyZWN0b3J5KCZ3b3JrX3N0YXRlKS5hd2FpdAogICAgfSkKICAgIC5hd2FpdAogICAgewogICAgICAgIE9rKGRhdGEpID0+IEpzb24oanNvbiEoewogICAgICAgICAgICAic3VjY2VzcyI6IHRydWUsCiAgICAgICAgICAgICJkYXRhIjogZGF0YSwKICAgICAgICAgICAgIm1lc3NhZ2UiOiBhZG1pbl9iYWNrdXBfdGV4dCgmdHJhbnNsYXRvciwgImV4cG9ydEZub3NTdWNjZXNzIiksCiAgICAgICAgfSkpCiAgICAgICAgLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoZXJyb3IgPSAlZXJyb3IubWVzc2FnZSwgImZhaWxlZCB0byBleHBvcnQgYmFja3VwIGFyY2hpdmUgdG8gc2hhcmUgZGlyZWN0b3J5Iik7CiAgICAgICAgICAgIGJhY2t1cF9vcGVyYXRpb25fZXJyb3JfcmVzcG9uc2UoZXJyb3IsICZ0cmFuc2xhdG9yKQogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBwb3N0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL21haW50ZW5hbmNlL2JhY2t1cC9pbXBvcnQiLAogICAgdGFnID0gIm1haW50ZW5hbmNlIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJwb3N0X2FwaV9hZG1pbl9tYWludGVuYW5jZV9iYWNrdXBfaW1wb3J0IiwKICAgIHJlcXVlc3RfYm9keSA9IEltcG9ydEJhY2t1cEJvZHksCiAgICByZXNwb25zZXMoKHN0YXR1cyA9IDIwMCwgZGVzY3JpcHRpb24gPSAiQmFja3VwIGltcG9ydCByZXN1bHQiKSwgKHN0YXR1cyA9IDUwMywgZGVzY3JpcHRpb24gPSAi5aSH5Lu95Lu75Yqh5q2j5Zyo6L+b6KGM77yM6K+35qC55o2uIFJldHJ5LUFmdGVyIOeojeWQjumHjeivlSIsIGJvZHkgPSBWYWx1ZSkpCildCnB1YihzdXBlcikgYXN5bmMgZm4gaW1wb3J0X2JhY2t1cCgKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgYWRtaXNzaW9uOiBCYWNrdXBBZG1pc3Npb24sCiAgICBKc29uKGJvZHkpOiBKc29uPEltcG9ydEJhY2t1cEJvZHk+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCB0cmFuc2xhdG9yID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbGV0IHdvcmtfc3RhdGUgPSBzdGF0ZS5jbG9uZSgpOwogICAgbGV0IHdvcmtfdHJhbnNsYXRvciA9IHRyYW5zbGF0b3IuY2xvbmUoKTsKICAgIG1hdGNoIHJ1bl9iYWNrdXBfb3BlcmF0aW9uKCZzdGF0ZSwgYWRtaXNzaW9uLCBhc3luYyBtb3ZlIHsKICAgICAgICBpbXBvcnRfYmFja3VwX2FyY2hpdmUoJndvcmtfc3RhdGUsIGJvZHksICZ3b3JrX3RyYW5zbGF0b3IpLmF3YWl0CiAgICB9KQogICAgLmF3YWl0CiAgICB7CiAgICAgICAgT2soZGF0YSkgPT4gaW1wb3J0X3N1Y2Nlc3NfcmVzcG9uc2UoZGF0YSwgZmFsc2UsICZ0cmFuc2xhdG9yKSwKICAgICAgICBFcnIoZXJyb3IpID0+IGJhY2t1cF9vcGVyYXRpb25fZXJyb3JfcmVzcG9uc2UoZXJyb3IsICZ0cmFuc2xhdG9yKSwKICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBwb3N0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL21haW50ZW5hbmNlL2JhY2t1cC9pbXBvcnQvZm5vcyIsCiAgICB0YWcgPSAibWFpbnRlbmFuY2UiLAogICAgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX21haW50ZW5hbmNlX2JhY2t1cF9pbXBvcnRfZm5vcyIsCiAgICByZXF1ZXN0X2JvZHkgPSBJbXBvcnRCYWNrdXBGcm9tRGlyZWN0b3J5Qm9keSwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJTaGFyZWQtZGlyZWN0b3J5IGJhY2t1cCBpbXBvcnQgcmVzdWx0IiksIChzdGF0dXMgPSA1MDMsIGRlc2NyaXB0aW9uID0gIuWkh+S7veS7u+WKoeato+WcqOi/m+ihjO+8jOivt+agueaNriBSZXRyeS1BZnRlciDnqI3lkI7ph43or5UiLCBib2R5ID0gVmFsdWUpKQopXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGltcG9ydF9iYWNrdXBfZnJvbV9kaXJlY3RvcnkoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIGFkbWlzc2lvbjogQmFja3VwQWRtaXNzaW9uLAogICAgSnNvbihib2R5KTogSnNvbjxJbXBvcnRCYWNrdXBGcm9tRGlyZWN0b3J5Qm9keT4sCikgLT4gUmVzcG9uc2UgewogICAgbGV0IHRyYW5zbGF0b3IgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKCZzdGF0ZSkuYXdhaXQ7CiAgICBsZXQgd29ya19zdGF0ZSA9IHN0YXRlLmNsb25lKCk7CiAgICBsZXQgd29ya190cmFuc2xhdG9yID0gdHJhbnNsYXRvci5jbG9uZSgpOwogICAgbWF0Y2ggcnVuX2JhY2t1cF9vcGVyYXRpb24oJnN0YXRlLCBhZG1pc3Npb24sIGFzeW5jIG1vdmUgewogICAgICAgIGltcG9ydF9iYWNrdXBfYXJjaGl2ZV9mcm9tX2RpcmVjdG9yeSgmd29ya19zdGF0ZSwgJmJvZHkucGF0aCwgJndvcmtfdHJhbnNsYXRvcikuYXdhaXQKICAgIH0pCiAgICAuYXdhaXQKICAgIHsKICAgICAgICBPayhkYXRhKSA9PiBpbXBvcnRfc3VjY2Vzc19yZXNwb25zZShkYXRhLCB0cnVlLCAmdHJhbnNsYXRvciksCiAgICAgICAgRXJyKGVycm9yKSA9PiBiYWNrdXBfb3BlcmF0aW9uX2Vycm9yX3Jlc3BvbnNlKGVycm9yLCAmdHJhbnNsYXRvciksCiAgICB9Cn0KCiNbdXRvaXBhOjpwYXRoKAogICAgcG9zdCwKICAgIHBhdGggPSAiL2FwaS9hZG1pbi9tYWludGVuYW5jZS9iYWNrdXAvaW1wb3J0L2F1dG9tYXRpYyIsCiAgICB0YWcgPSAibWFpbnRlbmFuY2UiLAogICAgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX21haW50ZW5hbmNlX2JhY2t1cF9pbXBvcnRfYXV0b21hdGljIiwKICAgIHJlcXVlc3RfYm9keSA9IEltcG9ydEJhY2t1cEZyb21EaXJlY3RvcnlCb2R5LAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkF1dG9tYXRpYyBiYWNrdXAgaW1wb3J0IHJlc3VsdCIpLCAoc3RhdHVzID0gNTAzLCBkZXNjcmlwdGlvbiA9ICLlpIfku73ku7vliqHmraPlnKjov5vooYzvvIzor7fmoLnmja4gUmV0cnktQWZ0ZXIg56iN5ZCO6YeN6K+VIiwgYm9keSA9IFZhbHVlKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiBpbXBvcnRfYmFja3VwX2Zyb21fYXV0b21hdGljX2RpcmVjdG9yeSgKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgYWRtaXNzaW9uOiBCYWNrdXBBZG1pc3Npb24sCiAgICBKc29uKGJvZHkpOiBKc29uPEltcG9ydEJhY2t1cEZyb21EaXJlY3RvcnlCb2R5PiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGxldCB3b3JrX3N0YXRlID0gc3RhdGUuY2xvbmUoKTsKICAgIGxldCB3b3JrX3RyYW5zbGF0b3IgPSB0cmFuc2xhdG9yLmNsb25lKCk7CiAgICBtYXRjaCBydW5fYmFja3VwX29wZXJhdGlvbigmc3RhdGUsIGFkbWlzc2lvbiwgYXN5bmMgbW92ZSB7CiAgICAgICAgaW1wb3J0X2JhY2t1cF9hcmNoaXZlX2Zyb21fYXV0b21hdGljX2RpcmVjdG9yeSgmd29ya19zdGF0ZSwgJmJvZHkucGF0aCwgJndvcmtfdHJhbnNsYXRvcikKICAgICAgICAgICAgLmF3YWl0CiAgICB9KQogICAgLmF3YWl0CiAgICB7CiAgICAgICAgT2soZGF0YSkgPT4gaW1wb3J0X3N1Y2Nlc3NfcmVzcG9uc2UoZGF0YSwgZmFsc2UsICZ0cmFuc2xhdG9yKSwKICAgICAgICBFcnIoZXJyb3IpID0+IGJhY2t1cF9vcGVyYXRpb25fZXJyb3JfcmVzcG9uc2UoZXJyb3IsICZ0cmFuc2xhdG9yKSwKICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBwb3N0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL21haW50ZW5hbmNlL2RhdGEvY2xlYXIiLAogICAgdGFnID0gIm1haW50ZW5hbmNlIiwKICAgIG9wZXJhdGlvbl9pZCA9ICJwb3N0X2FwaV9hZG1pbl9tYWludGVuYW5jZV9kYXRhX2NsZWFyIiwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJDbGVhcmVkIG1haW50ZW5hbmNlIGRhdGEiKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiBjbGVhcl9hbGxfZGF0YSgKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgSnNvbihib2R5KTogSnNvbjxDbGVhckFsbERhdGFCb2R5PiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgZ29fYmFja2VuZCA9IHN0YXRlLmdhdGV3YXkuY2xpZW50LmNsb25lKCk7CiAgICBsZXQgbWVtb3J5X3N0YXRlID0gc3RhdGUuY2xvbmUoKTsKICAgIGNsZWFyX2FsbF9kYXRhX3dpdGhfZ2F0ZXdheV9yZXNldCgKICAgICAgICBzdGF0ZSwKICAgICAgICBib2R5LAogICAgICAgIG1vdmUgfHwgYXN5bmMgbW92ZSB7IGdvX2JhY2tlbmQucmVzZXRfYWxsX2RhdGEoKS5hd2FpdCB9LAogICAgICAgIG1vdmUgfHNldHRpbmdzfCB7CiAgICAgICAgICAgIGxldCBzdGF0ZSA9IG1lbW9yeV9zdGF0ZS5jbG9uZSgpOwogICAgICAgICAgICBhc3luYyBtb3ZlIHsKICAgICAgICAgICAgICAgIGdhdGV3YXlfc2V0dGluZ3M6OmFwcGx5X2dhdGV3YXlfbWVtb3J5X3NldHRpbmdzKCZzdGF0ZSwgc2V0dGluZ3MpCiAgICAgICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICAgICAgLm1hcCh8X3wgKCkpCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgKQogICAgLmF3YWl0Cn0KCnB1YihzdXBlcikgYXN5bmMgZm4gY2xlYXJfYWxsX2RhdGFfd2l0aF9nYXRld2F5X3Jlc2V0PEYsIEZ1dCwgTSwgTUZ1dD4oCiAgICBzdGF0ZTogQXBwU3RhdGUsCiAgICBib2R5OiBDbGVhckFsbERhdGFCb2R5LAogICAgcmVzZXRfZ2F0ZXdheTogRiwKICAgIG11dCBhcHBseV9nYXRld2F5X21lbW9yeTogTSwKKSAtPiBSZXNwb25zZQp3aGVyZQogICAgRjogRm5PbmNlKCkgLT4gRnV0LAogICAgRnV0OiBGdXR1cmU8T3V0cHV0ID0gYW55aG93OjpSZXN1bHQ8KCk+PiwKICAgIE06IEZuTXV0KGdhdGV3YXlfc2V0dGluZ3M6OkdhdGV3YXlNZW1vcnlTZXR0aW5ncykgLT4gTUZ1dCwKICAgIE1GdXQ6IEZ1dHVyZTxPdXRwdXQgPSBhbnlob3c6OlJlc3VsdDwoKT4+LAp7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGxldCBfYXV0b21hdGljX2JhY2t1cF9ndWFyZCA9IHN0YXRlLm1haW50ZW5hbmNlLmF1dG9tYXRpY19iYWNrdXBfbG9jay5sb2NrKCkuYXdhaXQ7CiAgICBpZiBib2R5LmNvbmZpcm1hdGlvbiAhPSBtYWludGVuYW5jZV9jbGVhcl90ZXh0KCZ0cmFuc2xhdG9yLCAiY29uZmlybVBocmFzZSIpIHsKICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwKICAgICAgICAgICAgbWFpbnRlbmFuY2VfY2xlYXJfdGV4dCgmdHJhbnNsYXRvciwgImNvbmZpcm1hdGlvbk1pc21hdGNoIiksCiAgICAgICAgKTsKICAgIH0KCiAgICBpZiBsZXQgRXJyKGVycm9yKSA9IGNsb3VkZmxhcmVkOjpjbGVhbnVwX2JlZm9yZV9kYXRhX2NsZWFyKCZzdGF0ZSkuYXdhaXQgewogICAgICAgIHRyYWNpbmc6OmVycm9yISglZXJyb3IsICJmYWlsZWQgdG8gY2xlYW4gQ2xvdWRmbGFyZSByZXNvdXJjZXMgYmVmb3JlIGNsZWFyaW5nIGxvY2FsIGRhdGEiKTsKICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpCQURfR0FURVdBWSwKICAgICAgICAgICAgZm9ybWF0ISgiRmFpbGVkIHRvIGNsZWFuIENsb3VkZmxhcmUgcmVzb3VyY2VzIGJlZm9yZSBjbGVhcmluZyBsb2NhbCBkYXRhOiB7ZXJyb3J9IiksCiAgICAgICAgKTsKICAgIH0KCiAgICBsZXQgX2dhdGV3YXlfbWVtb3J5X2d1YXJkID0gc3RhdGUuZ2F0ZXdheS5tZW1vcnlfdXBkYXRlX2xvY2subG9jaygpLmF3YWl0OwogICAgbGV0IHByZXZpb3VzX21lbW9yeV9zZXR0aW5ncyA9IG1hdGNoIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0IHsKICAgICAgICBPayhjb25maWcpID0+IGdhdGV3YXlfc2V0dGluZ3M6OmdhdGV3YXlfbWVtb3J5X3NldHRpbmdzKCZjb25maWcpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjplcnJvciEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgZ2F0ZXdheSBtZW1vcnkgc2V0dGluZ3MgYmVmb3JlIGNsZWFyaW5nIGRhdGEiKTsKICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIG1haW50ZW5hbmNlX2NsZWFyX3RleHQoJnRyYW5zbGF0b3IsICJjbGVhckZhaWxlZCIpLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH07CiAgICBpZiBsZXQgRXJyKGVycm9yKSA9IHJlc2V0X2dhdGV3YXkoKS5hd2FpdCB7CiAgICAgICAgdHJhY2luZzo6ZXJyb3IhKCVlcnJvciwgImZhaWxlZCB0byBjbGVhciBHbyBnYXRld2F5IGRhdGEiKTsKICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgIG1haW50ZW5hbmNlX2NsZWFyX3RleHQoJnRyYW5zbGF0b3IsICJjbGVhckZhaWxlZCIpLAogICAgICAgICk7CiAgICB9CgogICAgbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5jbGVhcl9hbGxfa2V5cygpLmF3YWl0IHsKICAgICAgICBPayhjbGVhcmVkX2tleXMpID0+IHsKICAgICAgICAgICAgc3RhdGUudGVybWluYWwuc2h1dGRvd25fYWxsKCkuYXdhaXQ7CiAgICAgICAgICAgIGxldCBkZWZhdWx0X21lbW9yeV9zZXR0aW5ncyA9IGdhdGV3YXlfc2V0dGluZ3M6OkdhdGV3YXlNZW1vcnlTZXR0aW5ncyB7CiAgICAgICAgICAgICAgICBnY19wZXJjZW50OiBnYXRld2F5X3NldHRpbmdzOjpERUZBVUxUX0dBVEVXQVlfR0NfUEVSQ0VOVCwKICAgICAgICAgICAgICAgIG1lbW9yeV9saW1pdF9taWI6IE5vbmUsCiAgICAgICAgICAgIH07CiAgICAgICAgICAgIGlmIGxldCBFcnIoZXJyb3IpID0gYXBwbHlfZ2F0ZXdheV9tZW1vcnkoZGVmYXVsdF9tZW1vcnlfc2V0dGluZ3MpLmF3YWl0IHsKICAgICAgICAgICAgICAgIHRyYWNpbmc6OmVycm9yISglZXJyb3IsICJmYWlsZWQgdG8gYXBwbHkgZGVmYXVsdCBnYXRld2F5IG1lbW9yeSBzZXR0aW5ncyBhZnRlciBjbGVhcmluZyBkYXRhIik7CiAgICAgICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgICAgICBtYWludGVuYW5jZV9jbGVhcl90ZXh0KCZ0cmFuc2xhdG9yLCAiY2xlYXJGYWlsZWQiKSwKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPSB3b2w6OmNsZWFyX3NlY3JldHNfYWZ0ZXJfYmFja3VwX3Jlc3RvcmUoJnN0YXRlKS5hd2FpdCB7CiAgICAgICAgICAgICAgICB0cmFjaW5nOjplcnJvciEoJWVycm9yLCAiZmFpbGVkIHRvIGNsZWFyIFdvTCByZWxheSBjcmVkZW50aWFscyBhZnRlciBjbGVhcmluZyBkYXRhIik7CiAgICAgICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgICAgICBtYWludGVuYW5jZV9jbGVhcl90ZXh0KCZ0cmFuc2xhdG9yLCAiY2xlYXJGYWlsZWQiKSwKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPSB0ZXJtaW5hbDo6Y2xlYXJfYWxsX2NyZWRlbnRpYWxzKCZzdGF0ZSkgewogICAgICAgICAgICAgICAgdHJhY2luZzo6ZXJyb3IhKCVlcnJvciwgImZhaWxlZCB0byBjbGVhciB0ZXJtaW5hbCBjcmVkZW50aWFscyBhZnRlciBjbGVhcmluZyBkYXRhIik7CiAgICAgICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgICAgICBtYWludGVuYW5jZV9jbGVhcl90ZXh0KCZ0cmFuc2xhdG9yLCAiY2xlYXJGYWlsZWQiKSwKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgbGV0IEVycihlcnJvcikgPSBiYWNrdXBfZW1haWw6OmNsZWFyX2NyZWRlbnRpYWxzKCZzdGF0ZSkgewogICAgICAgICAgICAgICAgdHJhY2luZzo6ZXJyb3IhKCVlcnJvciwgImZhaWxlZCB0byBjbGVhciBiYWNrdXAgZW1haWwgY3JlZGVudGlhbHMgYWZ0ZXIgY2xlYXJpbmcgZGF0YSIpOwogICAgICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICAgICAgbWFpbnRlbmFuY2VfY2xlYXJfdGV4dCgmdHJhbnNsYXRvciwgImNsZWFyRmFpbGVkIiksCiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIGxldCBFcnIoZXJyb3IpID0gcGFuZWxfc3luYzo6Y2xlYXJfYWxsX2NyZWRlbnRpYWxzKCZzdGF0ZSkgewogICAgICAgICAgICAgICAgdHJhY2luZzo6ZXJyb3IhKCVlcnJvciwgImZhaWxlZCB0byBjbGVhciBwYW5lbCBzeW5jIGNyZWRlbnRpYWxzIGFmdGVyIGNsZWFyaW5nIGRhdGEiKTsKICAgICAgICAgICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgICAgIG1haW50ZW5hbmNlX2NsZWFyX3RleHQoJnRyYW5zbGF0b3IsICJjbGVhckZhaWxlZCIpLAogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBzdGF0ZS5tYWludGVuYW5jZS5hdXRvbWF0aWNfYmFja3VwX25vdGlmeS5ub3RpZnlfb25lKCk7CiAgICAgICAgICAgIHJlc3BvbnNlOjpvayhqc29uISh7CiAgICAgICAgICAgICAgICAiY2xlYXJlZF9rZXlzIjogY2xlYXJlZF9rZXlzLAogICAgICAgICAgICAgICAgImdhdGV3YXlfcmVzZXQiOiB0cnVlLAogICAgICAgICAgICB9KSkKICAgICAgICAgICAgLmludG9fcmVzcG9uc2UoKQogICAgICAgIH0KICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6ZXJyb3IhKCVlcnJvciwgImZhaWxlZCB0byBjbGVhciBhbGwgc3RvcmVkIGRhdGEiKTsKICAgICAgICAgICAgaWYgbGV0IEVycihyb2xsYmFja19lcnJvcikgPSBhcHBseV9nYXRld2F5X21lbW9yeShwcmV2aW91c19tZW1vcnlfc2V0dGluZ3MpLmF3YWl0IHsKICAgICAgICAgICAgICAgIHRyYWNpbmc6OmVycm9yISgKICAgICAgICAgICAgICAgICAgICAlcm9sbGJhY2tfZXJyb3IsCiAgICAgICAgICAgICAgICAgICAgImZhaWxlZCB0byByb2xsIGJhY2sgZ2F0ZXdheSBtZW1vcnkgc2V0dGluZ3MgYWZ0ZXIgc3RvcmFnZSBjbGVhciBmYWlsdXJlIgogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgfQogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICBtYWludGVuYW5jZV9jbGVhcl90ZXh0KCZ0cmFuc2xhdG9yLCAiY2xlYXJGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBwb3N0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL21haW50ZW5hbmNlL2JhY2t1cC9hdXRvbWF0aWMvZW1haWwvdGVzdCIsCiAgICB0YWcgPSAibWFpbnRlbmFuY2UiLAogICAgcmVxdWVzdF9ib2R5ID0gYmFja3VwX2VtYWlsOjpCYWNrdXBFbWFpbFVwZGF0ZSwKICAgIHJlc3BvbnNlcygoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJUZXN0IGVtYWlsIHNlbnQiKSkKKV0KcHViKHN1cGVyKSBhc3luYyBmbiB0ZXN0X2JhY2t1cF9lbWFpbCgKICAgIFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LAogICAgYm9keTogUmVzdWx0PEpzb248YmFja3VwX2VtYWlsOjpCYWNrdXBFbWFpbFVwZGF0ZT4sIEpzb25SZWplY3Rpb24+LAopIC0+IFJlc3BvbnNlIHsKICAgIGxldCBib2R5ID0gbWF0Y2ggYm9keSB7CiAgICAgICAgT2soSnNvbihib2R5KSkgPT4gYm9keSwKICAgICAgICBFcnIoXykgPT4gcmV0dXJuIHJlc3BvbnNlOjplcnJvcihTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwgIkludmFsaWQgZW1haWwgY29uZmlndXJhdGlvbiIpLAogICAgfTsKICAgIG1hdGNoIGJhY2t1cF9lbWFpbDo6dGVzdF9lbWFpbCgmc3RhdGUsIGJvZHkpLmF3YWl0IHsKICAgICAgICBPayh2YWx1ZSkgPT4gcmVzcG9uc2U6Om9rKHZhbHVlKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgRXJyKGVycm9yKSA9PiByZXNwb25zZTo6ZXJyb3IoZXJyb3Iuc3RhdHVzLCBlcnJvci5tZXNzYWdlKSwKICAgIH0KfQo=
+use super::*;
+use axum::extract::FromRequestParts;
+use std::sync::Arc;
+use utoipa_axum::{
+    router::{OpenApiRouter, UtoipaMethodRouterExt},
+    routes,
+};
+
+#[derive(Clone)]
+pub(super) struct BackupAdmission {
+    _guard: Arc<tokio::sync::OwnedMutexGuard<()>>,
+}
+
+impl BackupAdmission {
+    pub(super) fn try_acquire(state: &AppState) -> Result<Self, BackupImportError> {
+        state
+            .maintenance
+            .backup_request_lock
+            .clone()
+            .try_lock_owned()
+            .map(|guard| Self {
+                _guard: Arc::new(guard),
+            })
+            .map_err(|_| {
+                BackupImportError::new(StatusCode::SERVICE_UNAVAILABLE, "Backup operation is busy")
+            })
+    }
+}
+
+impl FromRequestParts<AppState> for BackupAdmission {
+    type Rejection = Response;
+
+    async fn from_request_parts(
+        _parts: &mut axum::http::request::Parts,
+        state: &AppState,
+    ) -> Result<Self, Self::Rejection> {
+        match Self::try_acquire(state) {
+            Ok(admission) => Ok(admission),
+            Err(error) => {
+                // This rejection runs before Json consumes any upload bytes.
+                let translator = Translator::from_state(state).await;
+                Err(backup_operation_error_response(error, &translator))
+            }
+        }
+    }
+}
+
+pub(super) struct BackupExportAdmission(pub(super) BackupAdmission);
+
+impl BackupExportAdmission {
+    pub(super) async fn acquire(state: &AppState) -> Result<Self, BackupImportError> {
+        Self::acquire_with_timeout(state, std::time::Duration::from_secs(5)).await
+    }
+
+    pub(super) async fn acquire_with_timeout(
+        state: &AppState,
+        wait_timeout: std::time::Duration,
+    ) -> Result<Self, BackupImportError> {
+        let shutting_down = || {
+            BackupImportError::new(
+                StatusCode::SERVICE_UNAVAILABLE,
+                "Backup service is shutting down",
+            )
+        };
+        if state.shutdown.is_cancelled() {
+            return Err(shutting_down());
+        }
+        if let Ok(admission) = BackupAdmission::try_acquire(state) {
+            return Ok(Self(admission));
+        }
+        let busy =
+            || BackupImportError::new(StatusCode::SERVICE_UNAVAILABLE, "Backup operation is busy");
+        // Only GET downloads may wait. Reserve a small waiting slot before
+        // joining the existing FIFO mutex; no storage or background work has
+        // started. Cancellation/timeout drops both queue positions by RAII.
+        let _waiting = state
+            .maintenance
+            .backup_export_waiters
+            .clone()
+            .try_acquire_owned()
+            .map_err(|_| busy())?;
+        let guard = tokio::select! {
+            biased;
+            _ = state.shutdown.cancelled() => return Err(shutting_down()),
+            result = tokio::time::timeout(
+                wait_timeout,
+                state.maintenance.backup_request_lock.clone().lock_owned(),
+            ) => result.map_err(|_| busy())?,
+        };
+        Ok(Self(BackupAdmission {
+            _guard: Arc::new(guard),
+        }))
+    }
+}
+
+impl FromRequestParts<AppState> for BackupExportAdmission {
+    type Rejection = Response;
+
+    async fn from_request_parts(
+        _parts: &mut axum::http::request::Parts,
+        state: &AppState,
+    ) -> Result<Self, Self::Rejection> {
+        match Self::acquire(state).await {
+            Ok(admission) => Ok(admission),
+            Err(error) => {
+                let translator = Translator::from_state(state).await;
+                Err(backup_operation_error_response(error, &translator))
+            }
+        }
+    }
+}
+
+fn backup_operation_error_response(error: BackupImportError, translator: &Translator) -> Response {
+    let mut response = response::error(
+        error.status,
+        localize_backup_error_message(translator, &error.message),
+    );
+    if error.status == StatusCode::SERVICE_UNAVAILABLE {
+        response.headers_mut().insert(
+            header::RETRY_AFTER,
+            axum::http::HeaderValue::from_static("1"),
+        );
+    }
+    response
+}
+
+pub(super) async fn run_backup_operation<T, F>(
+    state: &AppState,
+    admission: BackupAdmission,
+    work: F,
+) -> Result<T, BackupImportError>
+where
+    T: Send + 'static,
+    F: Future<Output = Result<T, BackupImportError>> + Send + 'static,
+{
+    let (result_tx, result_rx) = tokio::sync::oneshot::channel();
+    let task = state.spawn_abortable_background("manual-backup-operation", async move {
+        // An HTTP disconnect must not interrupt a restore between storage
+        // replacement and its migration/rollback/runtime synchronization.
+        let _admission = admission;
+        let result = work.await;
+        if let Err(error) = &result {
+            tracing::warn!(error = %error.message, "manual backup operation failed");
+        }
+        let _ = result_tx.send(result);
+    });
+    if task.is_none() {
+        return Err(BackupImportError::new(
+            StatusCode::SERVICE_UNAVAILABLE,
+            "Backup service is shutting down",
+        ));
+    }
+    result_rx
+        .await
+        .map_err(|_| BackupImportError::internal("Backup operation could not complete"))?
+}
+
+/// Backup endpoints use annotated handlers so the executable Axum router and
+/// the generated OpenAPI contract cannot diverge. The import body limit stays
+/// attached to its runtime route because archives may be substantially larger
+/// than Axum's default JSON limit.
+pub(crate) fn backup_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(get_automatic_backup_details))
+        .routes(routes!(test_backup_email))
+        .routes(routes!(update_automatic_backup_config))
+        .routes(routes!(list_automatic_backup_files))
+        .routes(routes!(export_backup))
+        .routes(routes!(list_backup_files))
+        .routes(routes!(export_backup_to_directory))
+        .routes(routes!(import_backup).layer(DefaultBodyLimit::max(MAX_BACKUP_IMPORT_BODY_SIZE)))
+        .routes(routes!(import_backup_from_automatic_directory))
+        .routes(routes!(import_backup_from_directory))
+}
+
+/// Destructive maintenance endpoints are kept separate from backup routes so
+/// their confirmation contract remains visible and reviewable.
+pub(crate) fn maintenance_data_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new().routes(routes!(clear_all_data))
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/maintenance/backup/automatic",
+    tag = "maintenance",
+    operation_id = "get_api_admin_maintenance_backup_automatic",
+    responses((status = 200, description = "Automatic backup configuration and status"))
+)]
+pub(super) async fn get_automatic_backup_details(State(state): State<AppState>) -> Response {
+    match automatic_backup_details(&state).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to load automatic backup settings");
+            let translator = Translator::from_state(&state).await;
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                maintenance_backup_text(&translator, "automaticSettingsReadFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    put,
+    path = "/api/admin/maintenance/backup/automatic",
+    tag = "maintenance",
+    operation_id = "put_api_admin_maintenance_backup_automatic",
+    request_body = UpdateAutomaticBackupBody,
+    responses((status = 200, description = "Updated automatic backup configuration"))
+)]
+pub(super) async fn update_automatic_backup_config(
+    State(state): State<AppState>,
+    body: Result<Json<UpdateAutomaticBackupBody>, JsonRejection>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let Json(body) = match body {
+        Ok(body) => body,
+        Err(_) => {
+            return response::error(
+                StatusCode::BAD_REQUEST,
+                maintenance_backup_text(&translator, "automaticSettingsInvalidRequest"),
+            );
+        }
+    };
+    match save_automatic_backup_config(&state, body).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(error) => {
+            let message = if error.status == StatusCode::INTERNAL_SERVER_ERROR {
+                maintenance_backup_text(&translator, "automaticSettingsSaveFailed")
+            } else {
+                localize_backup_error_message(&translator, &error.message)
+            };
+            response::error(error.status, message)
+        }
+    }
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/maintenance/backup/automatic/files",
+    tag = "maintenance",
+    operation_id = "get_api_admin_maintenance_backup_automatic_files",
+    responses((status = 200, description = "Automatic backup archives"))
+)]
+pub(super) async fn list_automatic_backup_files(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match automatic_backup_files_payload(&state).await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to list automatic backup files");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                maintenance_backup_text(&translator, "automaticDirectoryReadFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/maintenance/backup/export",
+    tag = "maintenance",
+    operation_id = "get_api_admin_maintenance_backup_export",
+    responses((status = 200, description = "Backup archive download"), (status = 503, description = "备份任务正在进行，请根据 Retry-After 稍后重试", body = Value))
+)]
+pub(super) async fn export_backup(
+    State(state): State<AppState>,
+    admission: BackupExportAdmission,
+) -> Response {
+    let BackupExportAdmission(admission) = admission;
+    let translator = Translator::from_state(&state).await;
+    let work_state = state.clone();
+    match run_backup_operation(&state, admission.clone(), async move {
+        export_backup_archive(&work_state)
+            .await
+            .map_err(|error| BackupImportError::internal(error.to_string()))
+    })
+    .await
+    {
+        Ok(archive) => binary_archive_response(archive, admission, &translator),
+        Err(error) => backup_operation_error_response(error, &translator),
+    }
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/maintenance/backup/files",
+    tag = "maintenance",
+    operation_id = "get_api_admin_maintenance_backup_files",
+    responses((status = 200, description = "Shared-directory backup archives"))
+)]
+pub(super) async fn list_backup_files(State(state): State<AppState>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    match list_backup_directory_files().await {
+        Ok(data) => response::ok(data).into_response(),
+        Err(error) => {
+            tracing::warn!(%error, "failed to list backup directory files");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                admin_backup_text(&translator, "readFnosDirectoryFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/maintenance/backup/export/fnos",
+    tag = "maintenance",
+    operation_id = "post_api_admin_maintenance_backup_export_fnos",
+    responses((status = 200, description = "Exported backup archive to shared directory"), (status = 503, description = "备份任务正在进行，请根据 Retry-After 稍后重试", body = Value))
+)]
+pub(super) async fn export_backup_to_directory(
+    State(state): State<AppState>,
+    admission: BackupAdmission,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let work_state = state.clone();
+    match run_backup_operation(&state, admission, async move {
+        export_backup_archive_to_directory(&work_state).await
+    })
+    .await
+    {
+        Ok(data) => Json(json!({
+            "success": true,
+            "data": data,
+            "message": admin_backup_text(&translator, "exportFnosSuccess"),
+        }))
+        .into_response(),
+        Err(error) => {
+            tracing::warn!(error = %error.message, "failed to export backup archive to share directory");
+            backup_operation_error_response(error, &translator)
+        }
+    }
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/maintenance/backup/import",
+    tag = "maintenance",
+    operation_id = "post_api_admin_maintenance_backup_import",
+    request_body = ImportBackupBody,
+    responses((status = 200, description = "Backup import result"), (status = 503, description = "备份任务正在进行，请根据 Retry-After 稍后重试", body = Value))
+)]
+pub(super) async fn import_backup(
+    State(state): State<AppState>,
+    admission: BackupAdmission,
+    Json(body): Json<ImportBackupBody>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let work_state = state.clone();
+    let work_translator = translator.clone();
+    match run_backup_operation(&state, admission, async move {
+        import_backup_archive(&work_state, body, &work_translator).await
+    })
+    .await
+    {
+        Ok(data) => import_success_response(data, false, &translator),
+        Err(error) => backup_operation_error_response(error, &translator),
+    }
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/maintenance/backup/import/fnos",
+    tag = "maintenance",
+    operation_id = "post_api_admin_maintenance_backup_import_fnos",
+    request_body = ImportBackupFromDirectoryBody,
+    responses((status = 200, description = "Shared-directory backup import result"), (status = 503, description = "备份任务正在进行，请根据 Retry-After 稍后重试", body = Value))
+)]
+pub(super) async fn import_backup_from_directory(
+    State(state): State<AppState>,
+    admission: BackupAdmission,
+    Json(body): Json<ImportBackupFromDirectoryBody>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let work_state = state.clone();
+    let work_translator = translator.clone();
+    match run_backup_operation(&state, admission, async move {
+        import_backup_archive_from_directory(&work_state, &body.path, &work_translator).await
+    })
+    .await
+    {
+        Ok(data) => import_success_response(data, true, &translator),
+        Err(error) => backup_operation_error_response(error, &translator),
+    }
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/maintenance/backup/import/automatic",
+    tag = "maintenance",
+    operation_id = "post_api_admin_maintenance_backup_import_automatic",
+    request_body = ImportBackupFromDirectoryBody,
+    responses((status = 200, description = "Automatic backup import result"), (status = 503, description = "备份任务正在进行，请根据 Retry-After 稍后重试", body = Value))
+)]
+pub(super) async fn import_backup_from_automatic_directory(
+    State(state): State<AppState>,
+    admission: BackupAdmission,
+    Json(body): Json<ImportBackupFromDirectoryBody>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let work_state = state.clone();
+    let work_translator = translator.clone();
+    match run_backup_operation(&state, admission, async move {
+        import_backup_archive_from_automatic_directory(&work_state, &body.path, &work_translator)
+            .await
+    })
+    .await
+    {
+        Ok(data) => import_success_response(data, false, &translator),
+        Err(error) => backup_operation_error_response(error, &translator),
+    }
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/maintenance/data/clear",
+    tag = "maintenance",
+    operation_id = "post_api_admin_maintenance_data_clear",
+    responses((status = 200, description = "Cleared maintenance data"))
+)]
+pub(super) async fn clear_all_data(
+    State(state): State<AppState>,
+    Json(body): Json<ClearAllDataBody>,
+) -> Response {
+    let go_backend = state.gateway.client.clone();
+    let memory_state = state.clone();
+    clear_all_data_with_gateway_reset(
+        state,
+        body,
+        move || async move { go_backend.reset_all_data().await },
+        move |settings| {
+            let state = memory_state.clone();
+            async move {
+                gateway_settings::apply_gateway_memory_settings(&state, settings)
+                    .await
+                    .map(|_| ())
+            }
+        },
+    )
+    .await
+}
+
+pub(super) async fn clear_all_data_with_gateway_reset<F, Fut, M, MFut>(
+    state: AppState,
+    body: ClearAllDataBody,
+    reset_gateway: F,
+    mut apply_gateway_memory: M,
+) -> Response
+where
+    F: FnOnce() -> Fut,
+    Fut: Future<Output = anyhow::Result<()>>,
+    M: FnMut(gateway_settings::GatewayMemorySettings) -> MFut,
+    MFut: Future<Output = anyhow::Result<()>>,
+{
+    let translator = Translator::from_state(&state).await;
+    let _automatic_backup_guard = state.maintenance.automatic_backup_lock.lock().await;
+    if body.confirmation != maintenance_clear_text(&translator, "confirmPhrase") {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            maintenance_clear_text(&translator, "confirmationMismatch"),
+        );
+    }
+
+    if let Err(error) = cloudflared::cleanup_before_data_clear(&state).await {
+        tracing::error!(%error, "failed to clean Cloudflare resources before clearing local data");
+        return response::error(
+            StatusCode::BAD_GATEWAY,
+            format!("Failed to clean Cloudflare resources before clearing local data: {error}"),
+        );
+    }
+
+    let _gateway_memory_guard = state.gateway.memory_update_lock.lock().await;
+    let previous_memory_settings = match state.storage.store.get_config().await {
+        Ok(config) => gateway_settings::gateway_memory_settings(&config),
+        Err(error) => {
+            tracing::error!(%error, "failed to load gateway memory settings before clearing data");
+            return response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                maintenance_clear_text(&translator, "clearFailed"),
+            );
+        }
+    };
+    if let Err(error) = reset_gateway().await {
+        tracing::error!(%error, "failed to clear Go gateway data");
+        return response::error(
+            StatusCode::INTERNAL_SERVER_ERROR,
+            maintenance_clear_text(&translator, "clearFailed"),
+        );
+    }
+
+    match state.storage.store.clear_all_keys().await {
+        Ok(cleared_keys) => {
+            state.terminal.shutdown_all().await;
+            let default_memory_settings = gateway_settings::GatewayMemorySettings {
+                gc_percent: gateway_settings::DEFAULT_GATEWAY_GC_PERCENT,
+                memory_limit_mib: None,
+            };
+            if let Err(error) = apply_gateway_memory(default_memory_settings).await {
+                tracing::error!(%error, "failed to apply default gateway memory settings after clearing data");
+                return response::error(
+                    StatusCode::INTERNAL_SERVER_ERROR,
+                    maintenance_clear_text(&translator, "clearFailed"),
+                );
+            }
+            if let Err(error) = wol::clear_secrets_after_backup_restore(&state).await {
+                tracing::error!(%error, "failed to clear WoL relay credentials after clearing data");
+                return response::error(
+                    StatusCode::INTERNAL_SERVER_ERROR,
+                    maintenance_clear_text(&translator, "clearFailed"),
+                );
+            }
+            if let Err(error) = terminal::clear_all_credentials(&state) {
+                tracing::error!(%error, "failed to clear terminal credentials after clearing data");
+                return response::error(
+                    StatusCode::INTERNAL_SERVER_ERROR,
+                    maintenance_clear_text(&translator, "clearFailed"),
+                );
+            }
+            if let Err(error) = backup_email::clear_credentials(&state) {
+                tracing::error!(%error, "failed to clear backup email credentials after clearing data");
+                return response::error(
+                    StatusCode::INTERNAL_SERVER_ERROR,
+                    maintenance_clear_text(&translator, "clearFailed"),
+                );
+            }
+            if let Err(error) = panel_sync::clear_all_credentials(&state) {
+                tracing::error!(%error, "failed to clear panel sync credentials after clearing data");
+                return response::error(
+                    StatusCode::INTERNAL_SERVER_ERROR,
+                    maintenance_clear_text(&translator, "clearFailed"),
+                );
+            }
+            state.maintenance.automatic_backup_notify.notify_one();
+            response::ok(json!({
+                "cleared_keys": cleared_keys,
+                "gateway_reset": true,
+            }))
+            .into_response()
+        }
+        Err(error) => {
+            tracing::error!(%error, "failed to clear all stored data");
+            if let Err(rollback_error) = apply_gateway_memory(previous_memory_settings).await {
+                tracing::error!(
+                    %rollback_error,
+                    "failed to roll back gateway memory settings after storage clear failure"
+                );
+            }
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                maintenance_clear_text(&translator, "clearFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/maintenance/backup/automatic/email/test",
+    tag = "maintenance",
+    request_body = backup_email::BackupEmailUpdate,
+    responses((status = 200, description = "Test email sent"))
+)]
+pub(super) async fn test_backup_email(
+    State(state): State<AppState>,
+    body: Result<Json<backup_email::BackupEmailUpdate>, JsonRejection>,
+) -> Response {
+    let body = match body {
+        Ok(Json(body)) => body,
+        Err(_) => return response::error(StatusCode::BAD_REQUEST, "Invalid email configuration"),
+    };
+    match backup_email::test_email(&state, body).await {
+        Ok(value) => response::ok(value).into_response(),
+        Err(error) => response::error(error.status, error.message),
+    }
+}

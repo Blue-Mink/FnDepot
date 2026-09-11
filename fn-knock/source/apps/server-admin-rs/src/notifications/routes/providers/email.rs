@@ -1,1 +1,230 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIGVtYWlsX2RlZmluaXRpb24oKSAtPiBQcm92aWRlckRlZmluaXRpb24gewogICAgUHJvdmlkZXJEZWZpbml0aW9uIHsKICAgICAgICBwcm92aWRlcl90eXBlOiAiZW1haWwiLAogICAgICAgIGxhYmVsOiAiRW1haWwiLAogICAgICAgIGRlc2NyaXB0aW9uOiAiU2VuZCBub3RpZmljYXRpb25zIHRocm91Z2ggU01UUC4iLAogICAgICAgIGNvbm5lY3Rpb25fc2NoZW1hOiB2ZWMhWwogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJzbXRwX2hvc3QiLCAiU01UUCBob3N0IiwgdHJ1ZSwgZmFsc2UsIE5vbmUpCiAgICAgICAgICAgICAgICAucGxhY2Vob2xkZXIoInNtdHAuZXhhbXBsZS5jb20iKSwKICAgICAgICAgICAgbnVtYmVyX3NjaGVtYSgic210cF9wb3J0IiwgIlNNVFAgcG9ydCIsIHRydWUsIFNvbWUoNDY1KSkuYm91bmRzKDEsIDY1NTM1KSwKICAgICAgICAgICAgc2VsZWN0X3NjaGVtYSgKICAgICAgICAgICAgICAgICJzbXRwX3NlY3VyaXR5IiwKICAgICAgICAgICAgICAgICJTTVRQIHNlY3VyaXR5IiwKICAgICAgICAgICAgICAgIHRydWUsCiAgICAgICAgICAgICAgICBTb21lKCJzc2xfdGxzIiksCiAgICAgICAgICAgICAgICAmWyJzc2xfdGxzIiwgInN0YXJ0dGxzIiwgIm5vbmUiXSwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgc2VsZWN0X3NjaGVtYSgKICAgICAgICAgICAgICAgICJzbXRwX2F1dGhfbW9kZSIsCiAgICAgICAgICAgICAgICAiU01UUCBhdXRoIG1vZGUiLAogICAgICAgICAgICAgICAgdHJ1ZSwKICAgICAgICAgICAgICAgIFNvbWUoImF1dG8iKSwKICAgICAgICAgICAgICAgICZbImF1dG8iLCAicGxhaW4iLCAibG9naW4iLCAibm9uZSJdLAogICAgICAgICAgICApLAogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJzbXRwX3VzZXJuYW1lIiwgIlNNVFAgdXNlcm5hbWUiLCBmYWxzZSwgZmFsc2UsIE5vbmUpCiAgICAgICAgICAgICAgICAucGxhY2Vob2xkZXIoIm5vLXJlcGx5QGV4YW1wbGUuY29tIiksCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoInNtdHBfcGFzc3dvcmQiLCAiU01UUCBwYXNzd29yZCIsIGZhbHNlLCB0cnVlLCBOb25lKQogICAgICAgICAgICAgICAgLnBsYWNlaG9sZGVyKCJwYXNzd29yZCIpLAogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJmcm9tX2FkZHJlc3MiLCAiRnJvbSBhZGRyZXNzIiwgdHJ1ZSwgZmFsc2UsIE5vbmUpCiAgICAgICAgICAgICAgICAucGxhY2Vob2xkZXIoIm5vLXJlcGx5QGV4YW1wbGUuY29tIiksCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoImZyb21fbmFtZSIsICJGcm9tIG5hbWUiLCBmYWxzZSwgZmFsc2UsIE5vbmUpLnBsYWNlaG9sZGVyKCJmbi1rbm9jayIpLAogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJ0b19hZGRyZXNzZXMiLCAiVG8gYWRkcmVzc2VzIiwgdHJ1ZSwgZmFsc2UsIE5vbmUpCiAgICAgICAgICAgICAgICAucGxhY2Vob2xkZXIoIm9wc0BleGFtcGxlLmNvbSwgYWRtaW5AZXhhbXBsZS5jb20iKSwKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgiY2NfYWRkcmVzc2VzIiwgIkNDIGFkZHJlc3NlcyIsIGZhbHNlLCBmYWxzZSwgTm9uZSkKICAgICAgICAgICAgICAgIC5wbGFjZWhvbGRlcigiYXVkaXRAZXhhbXBsZS5jb20iKSwKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgiYmNjX2FkZHJlc3NlcyIsICJCQ0MgYWRkcmVzc2VzIiwgZmFsc2UsIGZhbHNlLCBOb25lKQogICAgICAgICAgICAgICAgLnBsYWNlaG9sZGVyKCJhcmNoaXZlQGV4YW1wbGUuY29tIiksCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoInJlcGx5X3RvIiwgIlJlcGx5LVRvIiwgZmFsc2UsIGZhbHNlLCBOb25lKQogICAgICAgICAgICAgICAgLnBsYWNlaG9sZGVyKCJzdXBwb3J0QGV4YW1wbGUuY29tIiksCiAgICAgICAgICAgIGJvb2xfc2NoZW1hKCJhbGxvd19pbnZhbGlkX3RscyIsICJBbGxvdyBpbnZhbGlkIFRMUyIsIGZhbHNlLCBTb21lKGZhbHNlKSksCiAgICAgICAgICAgIG51bWJlcl9zY2hlbWEoInRpbWVvdXRfc2Vjb25kcyIsICJUaW1lb3V0IHNlY29uZHMiLCB0cnVlLCBTb21lKDEwKSkuYm91bmRzKDEsIDMwKSwKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgiaW1hcF9ob3N0IiwgIklNQVAgaG9zdCIsIGZhbHNlLCBmYWxzZSwgTm9uZSkKICAgICAgICAgICAgICAgIC5wbGFjZWhvbGRlcigiaW1hcC5leGFtcGxlLmNvbSIpLAogICAgICAgICAgICBudW1iZXJfc2NoZW1hKCJpbWFwX3BvcnQiLCAiSU1BUCBwb3J0IiwgZmFsc2UsIFNvbWUoOTkzKSkuYm91bmRzKDEsIDY1NTM1KSwKICAgICAgICAgICAgc2VsZWN0X3NjaGVtYSgKICAgICAgICAgICAgICAgICJpbWFwX3NlY3VyaXR5IiwKICAgICAgICAgICAgICAgICJJTUFQIHNlY3VyaXR5IiwKICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICAgICAgU29tZSgic3NsX3RscyIpLAogICAgICAgICAgICAgICAgJlsic3NsX3RscyIsICJzdGFydHRscyIsICJub25lIl0sCiAgICAgICAgICAgICksCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoImltYXBfdXNlcm5hbWUiLCAiSU1BUCB1c2VybmFtZSIsIGZhbHNlLCBmYWxzZSwgTm9uZSkKICAgICAgICAgICAgICAgIC5wbGFjZWhvbGRlcigibm8tcmVwbHlAZXhhbXBsZS5jb20iKSwKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgiaW1hcF9wYXNzd29yZCIsICJJTUFQIHBhc3N3b3JkIiwgZmFsc2UsIHRydWUsIE5vbmUpCiAgICAgICAgICAgICAgICAucGxhY2Vob2xkZXIoInBhc3N3b3JkIiksCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoImltYXBfbWFpbGJveCIsICJJTUFQIG1haWxib3giLCBmYWxzZSwgZmFsc2UsIFNvbWUoIklOQk9YIikpCiAgICAgICAgICAgICAgICAucGxhY2Vob2xkZXIoIklOQk9YIiksCiAgICAgICAgXSwKICAgICAgICB0YXJnZXRfc2NoZW1hOiB2ZWMhWwogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJ0b19hZGRyZXNzZXMiLCAiVG8gYWRkcmVzc2VzIiwgZmFsc2UsIGZhbHNlLCBOb25lKQogICAgICAgICAgICAgICAgLnBsYWNlaG9sZGVyKCJ0ZWFtQGV4YW1wbGUuY29tIiksCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoImNjX2FkZHJlc3NlcyIsICJDQyBhZGRyZXNzZXMiLCBmYWxzZSwgZmFsc2UsIE5vbmUpCiAgICAgICAgICAgICAgICAucGxhY2Vob2xkZXIoImF1ZGl0QGV4YW1wbGUuY29tIiksCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoImJjY19hZGRyZXNzZXMiLCAiQkNDIGFkZHJlc3NlcyIsIGZhbHNlLCBmYWxzZSwgTm9uZSkKICAgICAgICAgICAgICAgIC5wbGFjZWhvbGRlcigiYXJjaGl2ZUBleGFtcGxlLmNvbSIpLAogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJyZXBseV90byIsICJSZXBseS1UbyIsIGZhbHNlLCBmYWxzZSwgTm9uZSkKICAgICAgICAgICAgICAgIC5wbGFjZWhvbGRlcigic3VwcG9ydEBleGFtcGxlLmNvbSIpLAogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJzdWJqZWN0X3ByZWZpeCIsICJTdWJqZWN0IHByZWZpeCIsIGZhbHNlLCBmYWxzZSwgTm9uZSksCiAgICAgICAgXSwKICAgICAgICBzZW5zaXRpdmVfZmllbGRzOiB2ZWMhWyJzbXRwX3Bhc3N3b3JkIiwgImltYXBfcGFzc3dvcmQiXSwKICAgICAgICBzdXBwb3J0c19tYXJrZG93bjogZmFsc2UsCiAgICAgICAgc3VwcG9ydHNfYWN0aW9uczogdHJ1ZSwKICAgICAgICBzdXBwb3J0c19tZW50aW9uczogZmFsc2UsCiAgICAgICAgc3VwcG9ydHNfcHJvdmlkZXJfZGVkdXBlX2tleTogZmFsc2UsCiAgICB9Cn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBhc3luYyBmbiBzZW5kX2VtYWlsX25vdGlmaWNhdGlvbigKICAgIHByb3ZpZGVyOiAmVmFsdWUsCiAgICB0YXJnZXQ6ICZWYWx1ZSwKICAgIG1lc3NhZ2U6ICZWYWx1ZSwKICAgIHRpbWVvdXRfc2Vjb25kczogaTY0LAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gUHJvdmlkZXJUZXN0UmVzdWx0IHsKICAgIGxldCBzYW5pdGl6ZWRfbWVzc2FnZSA9IHNhbml0aXplX25vdGlmaWNhdGlvbl9tZXNzYWdlKG1lc3NhZ2UpOwogICAgbGV0IG1lc3NhZ2UgPSAmc2FuaXRpemVkX21lc3NhZ2U7CiAgICBsZXQgY29uZmlnID0gcHJvdmlkZXJfY29uZmlnKHByb3ZpZGVyKTsKICAgIGxldCB0YXJnZXRfY29uZmlnID0gdGFyZ2V0X2NvbmZpZyh0YXJnZXQpOwogICAgbGV0IHNtdHBfaG9zdCA9IGNvbmZpZ190ZXh0KCZjb25maWcsICJzbXRwX2hvc3QiKTsKICAgIGxldCBmcm9tX2FkZHJlc3MgPSBjb25maWdfdGV4dCgmY29uZmlnLCAiZnJvbV9hZGRyZXNzIik7CiAgICBpZiBzbXRwX2hvc3QuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIG1pc3NpbmdfY29uZmlnX3Jlc3VsdCgmbm90aWZpY2F0aW9uX3Byb3ZpZGVyX2Vycm9yX2RlZmF1bHQoCiAgICAgICAgICAgICJlbWFpbCIsCiAgICAgICAgICAgICJtaXNzaW5nU210cEhvc3QiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSk7CiAgICB9CiAgICBpZiBmcm9tX2FkZHJlc3MuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIG1pc3NpbmdfY29uZmlnX3Jlc3VsdCgmbm90aWZpY2F0aW9uX3Byb3ZpZGVyX2Vycm9yX2RlZmF1bHQoCiAgICAgICAgICAgICJlbWFpbCIsCiAgICAgICAgICAgICJpbnZhbGlkRnJvbUFkZHJlc3MiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSk7CiAgICB9CiAgICBsZXQgc210cF9zZWN1cml0eSA9IGRlZmF1bHRfc3RyaW5nKGNvbmZpZ190ZXh0KCZjb25maWcsICJzbXRwX3NlY3VyaXR5IiksICJzc2xfdGxzIik7CiAgICBsZXQgc210cF9wb3J0ID0gY29uZmlnCiAgICAgICAgLmdldCgic210cF9wb3J0IikKICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWVfdG9faTY0KHZhbHVlLCBkZWZhdWx0X3NtdHBfcG9ydCgmc210cF9zZWN1cml0eSkpKQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCBkZWZhdWx0X3NtdHBfcG9ydCgmc210cF9zZWN1cml0eSkpCiAgICAgICAgLmNsYW1wKDEsIDY1NTM1KSBhcyB1MTY7CiAgICBsZXQgYXV0aF9tb2RlID0gZGVmYXVsdF9zdHJpbmcoY29uZmlnX3RleHQoJmNvbmZpZywgInNtdHBfYXV0aF9tb2RlIiksICJhdXRvIik7CiAgICBsZXQgc210cF91c2VybmFtZSA9IGNvbmZpZ190ZXh0KCZjb25maWcsICJzbXRwX3VzZXJuYW1lIik7CiAgICBsZXQgc210cF9wYXNzd29yZCA9IGNvbmZpZ190ZXh0KCZjb25maWcsICJzbXRwX3Bhc3N3b3JkIik7CiAgICBsZXQgZnJvbV9uYW1lID0gY29uZmlnX3RleHQoJmNvbmZpZywgImZyb21fbmFtZSIpOwogICAgbGV0IHN1YmplY3RfcHJlZml4ID0gY29uZmlnX3RleHQoJnRhcmdldF9jb25maWcsICJzdWJqZWN0X3ByZWZpeCIpOwogICAgbGV0IHN1YmplY3QgPSBbc3ViamVjdF9wcmVmaXgsIG1lc3NhZ2VfdGl0bGUobWVzc2FnZSldCiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS50cmltKCkuaXNfZW1wdHkoKSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKQogICAgICAgIC5qb2luKCIgIik7CiAgICBsZXQgdG9fYWRkcmVzc2VzID0KICAgICAgICBjb25maWdfdGV4dCgmdGFyZ2V0X2NvbmZpZywgInRvX2FkZHJlc3NlcyIpLmlmX2VtcHR5KGNvbmZpZ190ZXh0KCZjb25maWcsICJ0b19hZGRyZXNzZXMiKSk7CiAgICBsZXQgY2NfYWRkcmVzc2VzID0KICAgICAgICBjb25maWdfdGV4dCgmdGFyZ2V0X2NvbmZpZywgImNjX2FkZHJlc3NlcyIpLmlmX2VtcHR5KGNvbmZpZ190ZXh0KCZjb25maWcsICJjY19hZGRyZXNzZXMiKSk7CiAgICBsZXQgYmNjX2FkZHJlc3NlcyA9IGNvbmZpZ190ZXh0KCZ0YXJnZXRfY29uZmlnLCAiYmNjX2FkZHJlc3NlcyIpCiAgICAgICAgLmlmX2VtcHR5KGNvbmZpZ190ZXh0KCZjb25maWcsICJiY2NfYWRkcmVzc2VzIikpOwogICAgbGV0IHJlcGx5X3RvID0KICAgICAgICBjb25maWdfdGV4dCgmdGFyZ2V0X2NvbmZpZywgInJlcGx5X3RvIikuaWZfZW1wdHkoY29uZmlnX3RleHQoJmNvbmZpZywgInJlcGx5X3RvIikpOwogICAgbGV0IHRvID0gbWF0Y2ggcGFyc2VfbWFpbGJveGVzKCZ0b19hZGRyZXNzZXMsICJ0b19hZGRyZXNzZXMiLCB0cmFuc2xhdG9yKSB7CiAgICAgICAgT2sodmFsdWUpIGlmICF2YWx1ZS5pc19lbXB0eSgpID0+IHZhbHVlLAogICAgICAgIE9rKF8pID0+IHsKICAgICAgICAgICAgcmV0dXJuIG1pc3NpbmdfY29uZmlnX3Jlc3VsdCgmbm90aWZpY2F0aW9uX3Byb3ZpZGVyX2Vycm9yX2RlZmF1bHQoCiAgICAgICAgICAgICAgICAiZW1haWwiLAogICAgICAgICAgICAgICAgInJlY2lwaWVudFJlcXVpcmVkIiwKICAgICAgICAgICAgICAgICZbXSwKICAgICAgICAgICAgKSk7CiAgICAgICAgfQogICAgICAgIEVycihtZXNzYWdlKSA9PiByZXR1cm4gbWlzc2luZ19jb25maWdfcmVzdWx0KCZtZXNzYWdlKSwKICAgIH07CiAgICBsZXQgY2MgPSBtYXRjaCBwYXJzZV9tYWlsYm94ZXMoJmNjX2FkZHJlc3NlcywgImNjX2FkZHJlc3NlcyIsIHRyYW5zbGF0b3IpIHsKICAgICAgICBPayh2YWx1ZSkgPT4gdmFsdWUsCiAgICAgICAgRXJyKG1lc3NhZ2UpID0+IHJldHVybiBtaXNzaW5nX2NvbmZpZ19yZXN1bHQoJm1lc3NhZ2UpLAogICAgfTsKICAgIGxldCBiY2MgPSBtYXRjaCBwYXJzZV9tYWlsYm94ZXMoJmJjY19hZGRyZXNzZXMsICJiY2NfYWRkcmVzc2VzIiwgdHJhbnNsYXRvcikgewogICAgICAgIE9rKHZhbHVlKSA9PiB2YWx1ZSwKICAgICAgICBFcnIobWVzc2FnZSkgPT4gcmV0dXJuIG1pc3NpbmdfY29uZmlnX3Jlc3VsdCgmbWVzc2FnZSksCiAgICB9OwogICAgbGV0IHJlcGx5X3RvID0gbWF0Y2ggcGFyc2VfbWFpbGJveGVzKCZyZXBseV90bywgInJlcGx5X3RvIiwgdHJhbnNsYXRvcikgewogICAgICAgIE9rKHZhbHVlKSA9PiB2YWx1ZSwKICAgICAgICBFcnIobWVzc2FnZSkgPT4gcmV0dXJuIG1pc3NpbmdfY29uZmlnX3Jlc3VsdCgmbWVzc2FnZSksCiAgICB9OwogICAgbGV0IGZyb20gPSBtYXRjaCBidWlsZF9mcm9tX21haWxib3goJmZyb21fYWRkcmVzcywgJmZyb21fbmFtZSwgdHJhbnNsYXRvcikgewogICAgICAgIE9rKHZhbHVlKSA9PiB2YWx1ZSwKICAgICAgICBFcnIobWVzc2FnZSkgPT4gcmV0dXJuIG1pc3NpbmdfY29uZmlnX3Jlc3VsdCgmbWVzc2FnZSksCiAgICB9OwoKICAgIGxldCBmYWxsYmFja19zdWJqZWN0ID0gbm90aWZpY2F0aW9uX2VtYWlsX21lc3NhZ2VfdGV4dCh0cmFuc2xhdG9yLCAiZmFsbGJhY2tUaXRsZSIsICZbXSk7CiAgICBsZXQgbXV0IGJ1aWxkZXIgPSBNZXNzYWdlOjpidWlsZGVyKCkKICAgICAgICAuZnJvbShmcm9tKQogICAgICAgIC5zdWJqZWN0KGRlZmF1bHRfc3RyaW5nKHN1YmplY3QuY2xvbmUoKSwgJmZhbGxiYWNrX3N1YmplY3QpKTsKICAgIGZvciBpdGVtIGluICZ0byB7CiAgICAgICAgYnVpbGRlciA9IGJ1aWxkZXIudG8oaXRlbS5jbG9uZSgpKTsKICAgIH0KICAgIGZvciBpdGVtIGluICZjYyB7CiAgICAgICAgYnVpbGRlciA9IGJ1aWxkZXIuY2MoaXRlbS5jbG9uZSgpKTsKICAgIH0KICAgIGZvciBpdGVtIGluICZiY2MgewogICAgICAgIGJ1aWxkZXIgPSBidWlsZGVyLmJjYyhpdGVtLmNsb25lKCkpOwogICAgfQogICAgZm9yIGl0ZW0gaW4gJnJlcGx5X3RvIHsKICAgICAgICBidWlsZGVyID0gYnVpbGRlci5yZXBseV90byhpdGVtLmNsb25lKCkpOwogICAgfQogICAgbGV0IGVtYWlsID0gbWF0Y2ggYnVpbGRlci5ib2R5KGJ1aWxkX2VtYWlsX3BsYWluX3RleHRfYm9keShtZXNzYWdlLCB0cmFuc2xhdG9yKSkgewogICAgICAgIE9rKHZhbHVlKSA9PiB2YWx1ZSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgcmV0dXJuIFByb3ZpZGVyVGVzdFJlc3VsdCB7CiAgICAgICAgICAgICAgICBzdWNjZXNzOiBmYWxzZSwKICAgICAgICAgICAgICAgIHJldHJ5YWJsZTogZmFsc2UsCiAgICAgICAgICAgICAgICBtZXNzYWdlOiBlcnJvci50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgIHJlcXVlc3Rfc3VtbWFyeTogTm9uZSwKICAgICAgICAgICAgICAgIHJlc3BvbnNlX3N1bW1hcnk6IE5vbmUsCiAgICAgICAgICAgIH07CiAgICAgICAgfQogICAgfTsKCiAgICBsZXQgc210cCA9IGNyYXRlOjppbmZyYTo6bWFpbDo6U210cENvbmZpZyB7CiAgICAgICAgaG9zdDogc210cF9ob3N0LmNsb25lKCksCiAgICAgICAgcG9ydDogc210cF9wb3J0LAogICAgICAgIHNlY3VyaXR5OiBzbXRwX3NlY3VyaXR5LmNsb25lKCksCiAgICAgICAgYXV0aF9tb2RlOiBpZiBhdXRoX21vZGUgPT0gIm5vbmUiIHsKICAgICAgICAgICAgIm5vbmUiLmludG8oKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICJhdXRvIi5pbnRvKCkKICAgICAgICB9LAogICAgICAgIHVzZXJuYW1lOiBzbXRwX3VzZXJuYW1lLmNsb25lKCksCiAgICAgICAgdGltZW91dF9zZWNvbmRzOiB0aW1lb3V0X3NlY29uZHMubWF4KDEpIGFzIHU2NCwKICAgIH07CiAgICBsZXQgcmVxdWVzdF9zdW1tYXJ5ID0ganNvbiEoewogICAgICAgICJtZXRob2QiOiAiU01UUCIsCiAgICAgICAgImhvc3QiOiBzbXRwX2hvc3QsCiAgICAgICAgInBvcnQiOiBzbXRwX3BvcnQsCiAgICAgICAgInNlY3VyaXR5Ijogc210cF9zZWN1cml0eSwKICAgICAgICAiYXV0aF9tb2RlIjogYXV0aF9tb2RlLAogICAgICAgICJ0b19jb3VudCI6IHRvLmxlbigpLAogICAgICAgICJjY19jb3VudCI6IGNjLmxlbigpLAogICAgICAgICJiY2NfY291bnQiOiBiY2MubGVuKCksCiAgICAgICAgInN1YmplY3RfcHJldmlldyI6IHRydW5jYXRlX3RleHQoJnN1YmplY3QsIDE2MCkKICAgIH0pOwogICAgbWF0Y2ggY3JhdGU6OmluZnJhOjptYWlsOjpzZW5kKCZzbXRwLCAmc210cF9wYXNzd29yZCwgZW1haWwpLmF3YWl0IHsKICAgICAgICBPayhyZXNwb25zZSkgPT4gUHJvdmlkZXJUZXN0UmVzdWx0IHsKICAgICAgICAgICAgc3VjY2VzczogdHJ1ZSwKICAgICAgICAgICAgcmV0cnlhYmxlOiBmYWxzZSwKICAgICAgICAgICAgbWVzc2FnZTogbm90aWZpY2F0aW9uX3NlcnZpY2VfZGVmYXVsdF90ZXh0KCJ0ZXN0U2VuZFN1Y2Nlc3MiLCAmW10pLAogICAgICAgICAgICByZXF1ZXN0X3N1bW1hcnk6IFNvbWUocmVxdWVzdF9zdW1tYXJ5KSwKICAgICAgICAgICAgcmVzcG9uc2Vfc3VtbWFyeTogU29tZShqc29uISh7CiAgICAgICAgICAgICAgICAib2siOiB0cnVlLAogICAgICAgICAgICAgICAgImNvZGUiOiByZXNwb25zZS5jb2RlKCkudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICAibWVzc2FnZSI6IHJlc3BvbnNlLm1lc3NhZ2UoKS5jb2xsZWN0Ojo8VmVjPF8+PigpLmpvaW4oIlxuIikKICAgICAgICAgICAgfSkpLAogICAgICAgIH0sCiAgICAgICAgRXJyKGVycm9yKSA9PiBQcm92aWRlclRlc3RSZXN1bHQgewogICAgICAgICAgICBzdWNjZXNzOiBmYWxzZSwKICAgICAgICAgICAgcmV0cnlhYmxlOiB0cnVlLAogICAgICAgICAgICBtZXNzYWdlOiBlcnJvci50b19zdHJpbmcoKSwKICAgICAgICAgICAgcmVxdWVzdF9zdW1tYXJ5OiBTb21lKHJlcXVlc3Rfc3VtbWFyeSksCiAgICAgICAgICAgIHJlc3BvbnNlX3N1bW1hcnk6IFNvbWUoanNvbiEoeyAib2siOiBmYWxzZSwgImVycm9yIjogZXJyb3IudG9fc3RyaW5nKCkgfSkpLAogICAgICAgIH0sCiAgICB9Cn0K
+use super::*;
+
+pub(in crate::notifications::routes) fn email_definition() -> ProviderDefinition {
+    ProviderDefinition {
+        provider_type: "email",
+        label: "Email",
+        description: "Send notifications through SMTP.",
+        connection_schema: vec![
+            string_schema("smtp_host", "SMTP host", true, false, None)
+                .placeholder("smtp.example.com"),
+            number_schema("smtp_port", "SMTP port", true, Some(465)).bounds(1, 65535),
+            select_schema(
+                "smtp_security",
+                "SMTP security",
+                true,
+                Some("ssl_tls"),
+                &["ssl_tls", "starttls", "none"],
+            ),
+            select_schema(
+                "smtp_auth_mode",
+                "SMTP auth mode",
+                true,
+                Some("auto"),
+                &["auto", "plain", "login", "none"],
+            ),
+            string_schema("smtp_username", "SMTP username", false, false, None)
+                .placeholder("no-reply@example.com"),
+            string_schema("smtp_password", "SMTP password", false, true, None)
+                .placeholder("password"),
+            string_schema("from_address", "From address", true, false, None)
+                .placeholder("no-reply@example.com"),
+            string_schema("from_name", "From name", false, false, None).placeholder("fn-knock"),
+            string_schema("to_addresses", "To addresses", true, false, None)
+                .placeholder("ops@example.com, admin@example.com"),
+            string_schema("cc_addresses", "CC addresses", false, false, None)
+                .placeholder("audit@example.com"),
+            string_schema("bcc_addresses", "BCC addresses", false, false, None)
+                .placeholder("archive@example.com"),
+            string_schema("reply_to", "Reply-To", false, false, None)
+                .placeholder("support@example.com"),
+            bool_schema("allow_invalid_tls", "Allow invalid TLS", false, Some(false)),
+            number_schema("timeout_seconds", "Timeout seconds", true, Some(10)).bounds(1, 30),
+            string_schema("imap_host", "IMAP host", false, false, None)
+                .placeholder("imap.example.com"),
+            number_schema("imap_port", "IMAP port", false, Some(993)).bounds(1, 65535),
+            select_schema(
+                "imap_security",
+                "IMAP security",
+                false,
+                Some("ssl_tls"),
+                &["ssl_tls", "starttls", "none"],
+            ),
+            string_schema("imap_username", "IMAP username", false, false, None)
+                .placeholder("no-reply@example.com"),
+            string_schema("imap_password", "IMAP password", false, true, None)
+                .placeholder("password"),
+            string_schema("imap_mailbox", "IMAP mailbox", false, false, Some("INBOX"))
+                .placeholder("INBOX"),
+        ],
+        target_schema: vec![
+            string_schema("to_addresses", "To addresses", false, false, None)
+                .placeholder("team@example.com"),
+            string_schema("cc_addresses", "CC addresses", false, false, None)
+                .placeholder("audit@example.com"),
+            string_schema("bcc_addresses", "BCC addresses", false, false, None)
+                .placeholder("archive@example.com"),
+            string_schema("reply_to", "Reply-To", false, false, None)
+                .placeholder("support@example.com"),
+            string_schema("subject_prefix", "Subject prefix", false, false, None),
+        ],
+        sensitive_fields: vec!["smtp_password", "imap_password"],
+        supports_markdown: false,
+        supports_actions: true,
+        supports_mentions: false,
+        supports_provider_dedupe_key: false,
+    }
+}
+
+pub(in crate::notifications::routes) async fn send_email_notification(
+    provider: &Value,
+    target: &Value,
+    message: &Value,
+    timeout_seconds: i64,
+    translator: &Translator,
+) -> ProviderTestResult {
+    let sanitized_message = sanitize_notification_message(message);
+    let message = &sanitized_message;
+    let config = provider_config(provider);
+    let target_config = target_config(target);
+    let smtp_host = config_text(&config, "smtp_host");
+    let from_address = config_text(&config, "from_address");
+    if smtp_host.is_empty() {
+        return missing_config_result(&notification_provider_error_default(
+            "email",
+            "missingSmtpHost",
+            &[],
+        ));
+    }
+    if from_address.is_empty() {
+        return missing_config_result(&notification_provider_error_default(
+            "email",
+            "invalidFromAddress",
+            &[],
+        ));
+    }
+    let smtp_security = default_string(config_text(&config, "smtp_security"), "ssl_tls");
+    let smtp_port = config
+        .get("smtp_port")
+        .map(|value| value_to_i64(value, default_smtp_port(&smtp_security)))
+        .unwrap_or_else(|| default_smtp_port(&smtp_security))
+        .clamp(1, 65535) as u16;
+    let auth_mode = default_string(config_text(&config, "smtp_auth_mode"), "auto");
+    let smtp_username = config_text(&config, "smtp_username");
+    let smtp_password = config_text(&config, "smtp_password");
+    let from_name = config_text(&config, "from_name");
+    let subject_prefix = config_text(&target_config, "subject_prefix");
+    let subject = [subject_prefix, message_title(message)]
+        .into_iter()
+        .filter(|value| !value.trim().is_empty())
+        .collect::<Vec<_>>()
+        .join(" ");
+    let to_addresses =
+        config_text(&target_config, "to_addresses").if_empty(config_text(&config, "to_addresses"));
+    let cc_addresses =
+        config_text(&target_config, "cc_addresses").if_empty(config_text(&config, "cc_addresses"));
+    let bcc_addresses = config_text(&target_config, "bcc_addresses")
+        .if_empty(config_text(&config, "bcc_addresses"));
+    let reply_to =
+        config_text(&target_config, "reply_to").if_empty(config_text(&config, "reply_to"));
+    let to = match parse_mailboxes(&to_addresses, "to_addresses", translator) {
+        Ok(value) if !value.is_empty() => value,
+        Ok(_) => {
+            return missing_config_result(&notification_provider_error_default(
+                "email",
+                "recipientRequired",
+                &[],
+            ));
+        }
+        Err(message) => return missing_config_result(&message),
+    };
+    let cc = match parse_mailboxes(&cc_addresses, "cc_addresses", translator) {
+        Ok(value) => value,
+        Err(message) => return missing_config_result(&message),
+    };
+    let bcc = match parse_mailboxes(&bcc_addresses, "bcc_addresses", translator) {
+        Ok(value) => value,
+        Err(message) => return missing_config_result(&message),
+    };
+    let reply_to = match parse_mailboxes(&reply_to, "reply_to", translator) {
+        Ok(value) => value,
+        Err(message) => return missing_config_result(&message),
+    };
+    let from = match build_from_mailbox(&from_address, &from_name, translator) {
+        Ok(value) => value,
+        Err(message) => return missing_config_result(&message),
+    };
+
+    let fallback_subject = notification_email_message_text(translator, "fallbackTitle", &[]);
+    let mut builder = Message::builder()
+        .from(from)
+        .subject(default_string(subject.clone(), &fallback_subject));
+    for item in &to {
+        builder = builder.to(item.clone());
+    }
+    for item in &cc {
+        builder = builder.cc(item.clone());
+    }
+    for item in &bcc {
+        builder = builder.bcc(item.clone());
+    }
+    for item in &reply_to {
+        builder = builder.reply_to(item.clone());
+    }
+    let email = match builder.body(build_email_plain_text_body(message, translator)) {
+        Ok(value) => value,
+        Err(error) => {
+            return ProviderTestResult {
+                success: false,
+                retryable: false,
+                message: error.to_string(),
+                request_summary: None,
+                response_summary: None,
+            };
+        }
+    };
+
+    let smtp = crate::infra::mail::SmtpConfig {
+        host: smtp_host.clone(),
+        port: smtp_port,
+        security: smtp_security.clone(),
+        auth_mode: if auth_mode == "none" {
+            "none".into()
+        } else {
+            "auto".into()
+        },
+        username: smtp_username.clone(),
+        timeout_seconds: timeout_seconds.max(1) as u64,
+    };
+    let request_summary = json!({
+        "method": "SMTP",
+        "host": smtp_host,
+        "port": smtp_port,
+        "security": smtp_security,
+        "auth_mode": auth_mode,
+        "to_count": to.len(),
+        "cc_count": cc.len(),
+        "bcc_count": bcc.len(),
+        "subject_preview": truncate_text(&subject, 160)
+    });
+    match crate::infra::mail::send(&smtp, &smtp_password, email).await {
+        Ok(response) => ProviderTestResult {
+            success: true,
+            retryable: false,
+            message: notification_service_default_text("testSendSuccess", &[]),
+            request_summary: Some(request_summary),
+            response_summary: Some(json!({
+                "ok": true,
+                "code": response.code().to_string(),
+                "message": response.message().collect::<Vec<_>>().join("\n")
+            })),
+        },
+        Err(error) => ProviderTestResult {
+            success: false,
+            retryable: true,
+            message: error.to_string(),
+            request_summary: Some(request_summary),
+            response_summary: Some(json!({ "ok": false, "error": error.to_string() })),
+        },
+    }
+}

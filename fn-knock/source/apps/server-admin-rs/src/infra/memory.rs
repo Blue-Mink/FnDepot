@@ -1,1 +1,31 @@
-dXNlIHN0ZDo6dGltZTo6RHVyYXRpb247CgpwdWIoY3JhdGUpIGZuIHRyaW1fYWxsb2NhdGVkX21lbW9yeSgpIC0+IGJvb2wgewogICAgI1tjZmcoYWxsKHRhcmdldF9vcyA9ICJsaW51eCIsIHRhcmdldF9lbnYgPSAiZ251IikpXQogICAgewogICAgICAgIC8vIGdsaWJjIGNhbiBrZWVwIGZyZWVkIHN0YXJ0dXAgYXJlbmFzIHJlc2lkZW50LiBUcmltbWluZyBhZnRlciBidXJzdHkgd29yawogICAgICAgIC8vIGxvd2VycyBSU1Mgb24gTkFTIHRhcmdldHMgd2l0aG91dCBjaGFuZ2luZyBhcHBsaWNhdGlvbiBzdGF0ZS4KICAgICAgICAvLyBTQUZFVFk6IG1hbGxvY190cmltIG9ubHkgYXNrcyBnbGliYyB0byByZWxlYXNlIGZyZWUgaGVhcCBwYWdlczsgaXQgZG9lcwogICAgICAgIC8vIG5vdCBkZXJlZmVyZW5jZSBSdXN0IHBvaW50ZXJzIG9yIGludmFsaWRhdGUgbGl2ZSBhbGxvY2F0aW9ucy4KICAgICAgICB1bnNhZmUgewogICAgICAgICAgICBsaWJjOjptYWxsb2NfdHJpbSgwKTsKICAgICAgICB9CiAgICAgICAgdHJ1ZQogICAgfQoKICAgICNbY2ZnKG5vdChhbGwodGFyZ2V0X29zID0gImxpbnV4IiwgdGFyZ2V0X2VudiA9ICJnbnUiKSkpXQogICAgewogICAgICAgIGZhbHNlCiAgICB9Cn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gdHJpbV9hbGxvY2F0ZWRfbWVtb3J5X2FmdGVyKGRlbGF5OiBEdXJhdGlvbikgewogICAgdG9raW86OnRpbWU6OnNsZWVwKGRlbGF5KS5hd2FpdDsKICAgIGxldCBzdGFydGVkID0gc3RkOjp0aW1lOjpJbnN0YW50Ojpub3coKTsKICAgIGlmIHRyaW1fYWxsb2NhdGVkX21lbW9yeSgpIHsKICAgICAgICB0cmFjaW5nOjppbmZvISgKICAgICAgICAgICAgZWxhcHNlZF9tcyA9IHN0YXJ0ZWQuZWxhcHNlZCgpLmFzX21pbGxpcygpLAogICAgICAgICAgICAidHJpbW1lZCBhbGxvY2F0b3IgbWVtb3J5IGFmdGVyIHN0YXJ0dXAgc3luY2hyb25pemF0aW9uIgogICAgICAgICk7CiAgICB9Cn0K
+use std::time::Duration;
+
+pub(crate) fn trim_allocated_memory() -> bool {
+    #[cfg(all(target_os = "linux", target_env = "gnu"))]
+    {
+        // glibc can keep freed startup arenas resident. Trimming after bursty work
+        // lowers RSS on NAS targets without changing application state.
+        // SAFETY: malloc_trim only asks glibc to release free heap pages; it does
+        // not dereference Rust pointers or invalidate live allocations.
+        unsafe {
+            libc::malloc_trim(0);
+        }
+        true
+    }
+
+    #[cfg(not(all(target_os = "linux", target_env = "gnu")))]
+    {
+        false
+    }
+}
+
+pub(crate) async fn trim_allocated_memory_after(delay: Duration) {
+    tokio::time::sleep(delay).await;
+    let started = std::time::Instant::now();
+    if trim_allocated_memory() {
+        tracing::info!(
+            elapsed_ms = started.elapsed().as_millis(),
+            "trimmed allocator memory after startup synchronization"
+        );
+    }
+}

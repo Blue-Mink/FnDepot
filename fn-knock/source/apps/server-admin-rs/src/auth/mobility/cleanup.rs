@@ -1,1 +1,618 @@
-dXNlIHN1cGVyOjoqOwoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBEZWZhdWx0LCBFcSwgUGFydGlhbEVxKV0KcHViIHN0cnVjdCBMb2dpblNlc3Npb25SZXZvY2F0aW9uT3V0Y29tZSB7CiAgICBwdWIgY29tcGxldGU6IGJvb2wsCn0KCnB1YiBhc3luYyBmbiByZXZva2VfbG9naW5fc2Vzc2lvbigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBzZXNzaW9uX2lkOiAmc3RyLAogICAgY29uZmlnOiBPcHRpb248JlZhbHVlPiwKICAgIGZhbGxiYWNrX2lwOiAmc3RyLAogICAgbG9nb3V0X3NvdXJjZTogJidzdGF0aWMgc3RyLAopIC0+IExvZ2luU2Vzc2lvblJldm9jYXRpb25PdXRjb21lIHsKICAgIGxldCBtdXQgY29tcGxldGUgPSB0cnVlOwogICAgbGV0IHNlc3Npb24gPSBtYXRjaCBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9zZXNzaW9uKHNlc3Npb25faWQpLmF3YWl0IHsKICAgICAgICBPayhzZXNzaW9uKSA9PiBzZXNzaW9uLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICVzZXNzaW9uX2lkLCAlbG9nb3V0X3NvdXJjZSwgImZhaWxlZCB0byBsb2FkIGF1dGggc2Vzc2lvbiBkdXJpbmcgcmV2b2NhdGlvbiIpOwogICAgICAgICAgICBjb21wbGV0ZSA9IGZhbHNlOwogICAgICAgICAgICBOb25lCiAgICAgICAgfQogICAgfTsKCiAgICBsZXQgbG9hZGVkX2NvbmZpZzsKICAgIGxldCBjb25maWcgPSBpZiBsZXQgU29tZShjb25maWcpID0gY29uZmlnIHsKICAgICAgICBTb21lKGNvbmZpZykKICAgIH0gZWxzZSBpZiBzZXNzaW9uLmlzX3NvbWUoKSB7CiAgICAgICAgbG9hZGVkX2NvbmZpZyA9IG1hdGNoIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0IHsKICAgICAgICAgICAgT2soY29uZmlnKSA9PiBTb21lKGNvbmZpZyksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAlc2Vzc2lvbl9pZCwgJWxvZ291dF9zb3VyY2UsICJmYWlsZWQgdG8gbG9hZCBjb25maWcgZHVyaW5nIHNlc3Npb24gcmV2b2NhdGlvbiIpOwogICAgICAgICAgICAgICAgY29tcGxldGUgPSBmYWxzZTsKICAgICAgICAgICAgICAgIE5vbmUKICAgICAgICAgICAgfQogICAgICAgIH07CiAgICAgICAgbG9hZGVkX2NvbmZpZy5hc19yZWYoKQogICAgfSBlbHNlIHsKICAgICAgICBOb25lCiAgICB9OwoKICAgIGlmIGxldCBTb21lKHNlc3Npb24pID0gc2Vzc2lvbi5hc19yZWYoKQogICAgICAgICYmIGxldCBFcnIoZXJyb3IpID0gc3lzdGVtX2V2ZW50czo6cHVibGlzaF9hdXRoX2xvZ291dF9ldmVudCgKICAgICAgICAgICAgc3RhdGUsCiAgICAgICAgICAgIGpzb24hKHsKICAgICAgICAgICAgICAgICJzZXNzaW9uX2lkIjogc2Vzc2lvbl9pZCwKICAgICAgICAgICAgICAgICJhdXRoX21ldGhvZCI6IHNlc3Npb24ubWV0aG9kLmNsb25lKCksCiAgICAgICAgICAgICAgICAiY3JlZGVudGlhbF9pZCI6IHNlc3Npb24uY3JlZGVudGlhbF9pZC5jbG9uZSgpLAogICAgICAgICAgICAgICAgImNyZWRlbnRpYWxfbmFtZSI6IHNlc3Npb24uY3JlZGVudGlhbF9uYW1lLmNsb25lKCksCiAgICAgICAgICAgICAgICAibGlua2VkX3RvdHBfbmFtZSI6IHNlc3Npb24ubGlua2VkX3RvdHBfbmFtZS5jbG9uZSgpLAogICAgICAgICAgICAgICAgInNlc3Npb25fY29tbWVudCI6IHNlc3Npb24uY29tbWVudC5jbG9uZSgpLAogICAgICAgICAgICAgICAgImlwIjogc2Vzc2lvbi5pcC5jbG9uZSgpLAogICAgICAgICAgICAgICAgImlwX2xvY2F0aW9uIjogc2Vzc2lvbi5pcF9sb2NhdGlvbi5jbG9uZSgpLAogICAgICAgICAgICAgICAgInVzZXJfYWdlbnQiOiBzZXNzaW9uLnVzZXJfYWdlbnQuY2xvbmUoKSwKICAgICAgICAgICAgICAgICJsb2dpbl90aW1lIjogc2Vzc2lvbi5sb2dpbl90aW1lLmNsb25lKCksCiAgICAgICAgICAgICAgICAibG9nb3V0X3NvdXJjZSI6IGxvZ291dF9zb3VyY2UsCiAgICAgICAgICAgIH0pLAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgIHsKICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICVzZXNzaW9uX2lkLCAlbG9nb3V0X3NvdXJjZSwgImZhaWxlZCB0byBwdWJsaXNoIGF1dGggbG9nb3V0IGV2ZW50Iik7CiAgICB9CgogICAgaWYgbGV0IEVycihlcnJvcikgPSBkZXN0cm95X3Nlc3Npb24oc3RhdGUsIHNlc3Npb25faWQpLmF3YWl0IHsKICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICVzZXNzaW9uX2lkLCAlbG9nb3V0X3NvdXJjZSwgImZhaWxlZCB0byBkZXN0cm95IGF1dGggc2Vzc2lvbiBzdGF0ZSIpOwogICAgICAgIGNvbXBsZXRlID0gZmFsc2U7CiAgICB9CiAgICBpZiBsZXQgRXJyKGVycm9yKSA9CiAgICAgICAgcmV2b2tlX2N1c3RvbV9wb3N0X2xvZ2luX2lwX2dyYW50KHN0YXRlLCBzZXNzaW9uLmFzX3JlZigpLCBjb25maWcsIGZhbGxiYWNrX2lwKS5hd2FpdAogICAgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgJXNlc3Npb25faWQsICVsb2dvdXRfc291cmNlLCAiZmFpbGVkIHRvIHJldm9rZSBjdXN0b20gcG9zdC1sb2dpbiBJUCBncmFudCIpOwogICAgICAgIGNvbXBsZXRlID0gZmFsc2U7CiAgICB9CiAgICBpZiBsZXQgRXJyKGVycm9yKSA9IHdoaXRlbGlzdDo6c3luY19yZXZlcnNlX3Byb3h5X3RydXN0ZWRfaXBzX3JlcXVpcmVkKHN0YXRlKS5hd2FpdCB7CiAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAlc2Vzc2lvbl9pZCwgJWxvZ291dF9zb3VyY2UsICJmYWlsZWQgdG8gY29uZmlybSBnYXRld2F5IHRydXN0IHJldm9jYXRpb24iKTsKICAgICAgICBjb21wbGV0ZSA9IGZhbHNlOwogICAgfQoKICAgIExvZ2luU2Vzc2lvblJldm9jYXRpb25PdXRjb21lIHsgY29tcGxldGUgfQp9CgpwdWIgYXN5bmMgZm4gcmV2b2tlX2N1c3RvbV9wb3N0X2xvZ2luX2lwX2dyYW50KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHNlc3Npb246IE9wdGlvbjwmTG9naW5TZXNzaW9uPiwKICAgIGNvbmZpZzogT3B0aW9uPCZWYWx1ZT4sCiAgICBmYWxsYmFja19pcDogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDxib29sPiB7CiAgICBpZiAhc2hvdWxkX3Jldm9rZV9jdXN0b21fcG9zdF9sb2dpbl9pcF9ncmFudChzZXNzaW9uLCBjb25maWcpIHsKICAgICAgICByZXR1cm4gT2soZmFsc2UpOwogICAgfQogICAgaWYgbGV0IFNvbWUocmVjb3JkX2lkKSA9IHNlc3Npb24KICAgICAgICAuYW5kX3RoZW4ofHNlc3Npb258IHNlc3Npb24ucG9zdF9sb2dpbl9pcF9ncmFudF9yZWNvcmRfaWQuYXNfZGVyZWYoKSkKICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICB7CiAgICAgICAgcmV0dXJuIHdoaXRlbGlzdDo6cmVtb3ZlX3doaXRlbGlzdF9yZWNvcmRfYnlfaWQoc3RhdGUsIHJlY29yZF9pZCkuYXdhaXQ7CiAgICB9CiAgICBsZXQgaXAgPSBzZXNzaW9uCiAgICAgICAgLm1hcCh8c2Vzc2lvbnwgc2Vzc2lvbi5pcC5hc19zdHIoKSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLnRyaW0oKS5pc19lbXB0eSgpKQogICAgICAgIC51bndyYXBfb3IoZmFsbGJhY2tfaXApOwogICAgd2hpdGVsaXN0OjpyZW1vdmVfd2hpdGVsaXN0X3JlY29yZHNfYnlfaXAoc3RhdGUsIGlwLCBTb21lKCJhdXRvIikpLmF3YWl0Cn0KCnB1YiBmbiBzaG91bGRfcmV2b2tlX2N1c3RvbV9wb3N0X2xvZ2luX2lwX2dyYW50KAogICAgc2Vzc2lvbjogT3B0aW9uPCZMb2dpblNlc3Npb24+LAogICAgY29uZmlnOiBPcHRpb248JlZhbHVlPiwKKSAtPiBib29sIHsKICAgIGxldCBTb21lKHNlc3Npb24pID0gc2Vzc2lvbiBlbHNlIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9OwogICAgaWYgc2Vzc2lvbi5ncmFudF90eXBlLmFzX2RlcmVmKCkgPT0gU29tZSgibG9naW5faXBfZ3JhbnQiKQogICAgICAgICYmIHNlc3Npb24ucG9zdF9sb2dpbl9pcF9ncmFudF9tb2RlLmFzX2RlcmVmKCkgPT0gU29tZSgiY3VzdG9tIikKICAgIHsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KICAgIHNlc3Npb24KICAgICAgICAuY29tbWVudAogICAgICAgIC5hc19kZXJlZigpCiAgICAgICAgLmlzX3NvbWVfYW5kKGlzX2F1dG9faXBfZ3JhbnRfY29tbWVudCkKICAgICAgICAmJiBjb25maWcuYW5kX3RoZW4ofGNvbmZpZ3wgewogICAgICAgICAgICBjb25maWcKICAgICAgICAgICAgICAgIC5wb2ludGVyKCIvYXV0aF9jcmVkZW50aWFsX3NldHRpbmdzL3Bvc3RfbG9naW5faXBfZ3JhbnRfbW9kZSIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICB9KSA9PSBTb21lKCJjdXN0b20iKQp9CgpwdWIgYXN5bmMgZm4gZGVzdHJveV9zZXNzaW9uc19mb3JfdG90cF9jcmVkZW50aWFsKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHRvdHBfaWQ6ICZzdHIsCikgLT4gYW55aG93OjpSZXN1bHQ8dXNpemU+IHsKICAgIGRlc3Ryb3lfc2Vzc2lvbnNfbWF0Y2hpbmcoc3RhdGUsIHxzZXNzaW9ufCBzZXNzaW9uLnRvdHBfaWQgPT0gdG90cF9pZCkuYXdhaXQKfQoKcHViIGFzeW5jIGZuIGRlc3Ryb3lfc2Vzc2lvbnNfZm9yX2F1dGhfY3JlZGVudGlhbCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBjcmVkZW50aWFsX2lkOiAmc3RyLAopIC0+IGFueWhvdzo6UmVzdWx0PHVzaXplPiB7CiAgICBkZXN0cm95X3Nlc3Npb25zX21hdGNoaW5nKHN0YXRlLCB8c2Vzc2lvbnwgc2Vzc2lvbi5jcmVkZW50aWFsX2lkID09IGNyZWRlbnRpYWxfaWQpLmF3YWl0Cn0KCnB1YiBhc3luYyBmbiBkZXN0cm95X3Nlc3Npb25zX2Zvcl9hdXRoX21ldGhvZCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBhdXRoX21ldGhvZDogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDx1c2l6ZT4gewogICAgZGVzdHJveV9zZXNzaW9uc19tYXRjaGluZyhzdGF0ZSwgfHNlc3Npb258IHsKICAgICAgICBzZXNzaW9uLm1ldGhvZC5lcV9pZ25vcmVfYXNjaWlfY2FzZShhdXRoX21ldGhvZCkKICAgIH0pCiAgICAuYXdhaXQKfQoKYXN5bmMgZm4gZGVzdHJveV9zZXNzaW9uc19tYXRjaGluZygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBtYXRjaGVzOiBpbXBsIEZuKCZMb2dpblNlc3Npb24pIC0+IGJvb2wsCikgLT4gYW55aG93OjpSZXN1bHQ8dXNpemU+IHsKICAgIGxldCBzZXNzaW9ucyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUubGlzdF9sb2dpbl9zZXNzaW9ucygpLmF3YWl0PzsKICAgIGxldCBtdXQgZGVzdHJveWVkID0gMHVzaXplOwogICAgZm9yIChzZXNzaW9uX2lkLCBzZXNzaW9uKSBpbiBzZXNzaW9ucyB7CiAgICAgICAgaWYgIW1hdGNoZXMoJnNlc3Npb24pIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGlmIGxldCBFcnIoZXJyb3IpID0gZGVzdHJveV9zZXNzaW9uX3N0YXRlKHN0YXRlLCAmc2Vzc2lvbl9pZCkuYXdhaXQgewogICAgICAgICAgICAvLyBBIGZhaWxlZCBtdXRhdGlvbiBjYW4gc3RpbGwgaGF2ZSBkZWxldGVkIGF1dGhvcml0YXRpdmUgc2Vzc2lvbgogICAgICAgICAgICAvLyBzdGF0ZSBiZWZvcmUgYSBsYXRlciBzdG9yYWdlIHN0ZXAgZmFpbGVkLiBQdWJsaXNoIHRoYXQgcGFydGlhbAogICAgICAgICAgICAvLyByZXZvY2F0aW9uIGJlZm9yZSByZXR1cm5pbmcgdGhlIG9yaWdpbmFsIGVycm9yLgogICAgICAgICAgICB3aGl0ZWxpc3Q6OnN5bmNfcmV2ZXJzZV9wcm94eV90cnVzdGVkX2lwcyhzdGF0ZSkuYXdhaXQ7CiAgICAgICAgICAgIHJldHVybiBFcnIoZXJyb3IpOwogICAgICAgIH0KICAgICAgICBkZXN0cm95ZWQgKz0gMTsKICAgIH0KICAgIGlmIGRlc3Ryb3llZCA+IDAgewogICAgICAgIHdoaXRlbGlzdDo6c3luY19yZXZlcnNlX3Byb3h5X3RydXN0ZWRfaXBzX3JlcXVpcmVkKHN0YXRlKS5hd2FpdD87CiAgICB9CiAgICBPayhkZXN0cm95ZWQpCn0KCnB1YiBhc3luYyBmbiBkZXN0cm95X3Nlc3Npb24oc3RhdGU6ICZBcHBTdGF0ZSwgc2Vzc2lvbl9pZDogJnN0cikgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIGxldCByZXN1bHQgPSBkZXN0cm95X3Nlc3Npb25fc3RhdGUoc3RhdGUsIHNlc3Npb25faWQpLmF3YWl0OwogICAgd2hpdGVsaXN0OjpzeW5jX3JldmVyc2VfcHJveHlfdHJ1c3RlZF9pcHMoc3RhdGUpLmF3YWl0OwogICAgcmVzdWx0Cn0KCmFzeW5jIGZuIGRlc3Ryb3lfc2Vzc2lvbl9zdGF0ZShzdGF0ZTogJkFwcFN0YXRlLCBzZXNzaW9uX2lkOiAmc3RyKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgbGV0IGxlYXNlID0gbG9vcCB7CiAgICAgICAgaWYgbGV0IFNvbWUobGVhc2UpID0gYWNxdWlyZV9hdXRoX21vYmlsaXR5X3Nlc3Npb25fbXV0YXRpb25fbGVhc2Uoc3RhdGUsIHNlc3Npb25faWQpLmF3YWl0PwogICAgICAgIHsKICAgICAgICAgICAgYnJlYWsgbGVhc2U7CiAgICAgICAgfQogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVzZXNzaW9uX2lkLCAic3RpbGwgd2FpdGluZyBmb3IgYXV0aCBtb2JpbGl0eSBtdXRhdGlvbiBsb2NrIGR1cmluZyByZXZvY2F0aW9uIik7CiAgICB9OwogICAgbGV0IHJlc3VsdCA9IGFzeW5jIHsKICAgICAgICAvLyBUaGUgbXV0YXRpb24gbGVhc2UgZXhjbHVkZXMgbW9iaWxpdHkgd3JpdGVycy4gUmVtb3ZlIGV4dGVybmFsIGdyYW50cwogICAgICAgIC8vIGZpcnN0LCB0aGVuIGF0b21pY2FsbHkgcmVtb3ZlIHRoZSBhdXRob3JpdGF0aXZlIHNlc3Npb24gdG9nZXRoZXIgd2l0aAogICAgICAgIC8vIGV2ZXJ5IG1vYmlsaXR5IGluZGV4IG93bmVkIGJ5IGl0LiBBIGZhaWxlZCBzdG9yYWdlIHRyYW5zYWN0aW9uIGxlYXZlcwogICAgICAgIC8vIHRoZSBjb21wbGV0ZSBpbnRlcm5hbCBhZ2dyZWdhdGUgZGlzY292ZXJhYmxlIGZvciBhIHJldHJ5LgogICAgICAgIGxldCB3aGl0ZWxpc3RfaWRzID0gc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5saXN0X2F1dGhfbW9iaWxpdHlfc2Vzc2lvbl93aGl0ZWxpc3RfaWRzKHNlc3Npb25faWQpCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgd2hpdGVsaXN0OjpyZW1vdmVfd2hpdGVsaXN0X3JlY29yZHNfd2l0aG91dF9ydW50aW1lX3N5bmMoc3RhdGUsICZ3aGl0ZWxpc3RfaWRzKS5hd2FpdD87CiAgICAgICAgc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5kZXN0cm95X2F1dGhfbW9iaWxpdHlfc2Vzc2lvbihzZXNzaW9uX2lkKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIE9rKCgpKQogICAgfQogICAgLmF3YWl0OwogICAgaWYgbGV0IEVycihlcnJvcikgPSBsZWFzZS5yZWxlYXNlKCkuYXdhaXQgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgJXNlc3Npb25faWQsICJmYWlsZWQgdG8gcmVsZWFzZSBhdXRoIG1vYmlsaXR5IHNlc3Npb24gbXV0YXRpb24gbG9jayBhZnRlciByZXZvY2F0aW9uIik7CiAgICB9CiAgICByZXN1bHQKfQoKcHViIGFzeW5jIGZuIGNsZWFyX2F1dG9faXBfZ3JhbnRzX2Zvcl90b3RwX2NyZWRlbnRpYWwoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgdG90cF9pZDogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDxib29sPiB7CiAgICBjbGVhcl9hdXRvX2lwX2dyYW50c19mb3JfbWF0Y2hpbmdfc2Vzc2lvbnMoc3RhdGUsIHxzZXNzaW9ufCBzZXNzaW9uLnRvdHBfaWQgPT0gdG90cF9pZCkuYXdhaXQKfQoKcHViIGFzeW5jIGZuIGNsZWFyX2F1dG9faXBfZ3JhbnRzX2Zvcl9hdXRoX2NyZWRlbnRpYWwoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgY3JlZGVudGlhbF9pZDogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDxib29sPiB7CiAgICBjbGVhcl9hdXRvX2lwX2dyYW50c19mb3JfbWF0Y2hpbmdfc2Vzc2lvbnMoc3RhdGUsIHxzZXNzaW9ufCB7CiAgICAgICAgc2Vzc2lvbi5jcmVkZW50aWFsX2lkID09IGNyZWRlbnRpYWxfaWQKICAgIH0pCiAgICAuYXdhaXQKfQoKcHViIGFzeW5jIGZuIHJlY29uY2lsZV9zdHJlYW1fYWNjZXNzX2dyYW50c19mb3JfdG90cF9jcmVkZW50aWFsKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHRvdHBfaWQ6ICZzdHIsCiAgICBjcmVkZW50aWFsX2FjY2VzczogJlZhbHVlLAopIC0+IGFueWhvdzo6UmVzdWx0PGJvb2w+IHsKICAgIHJlY29uY2lsZV9zdHJlYW1fYWNjZXNzX2dyYW50c19mb3JfbWF0Y2hpbmdfc2Vzc2lvbnMoCiAgICAgICAgc3RhdGUsCiAgICAgICAgfHNlc3Npb258IHNlc3Npb24udG90cF9pZCA9PSB0b3RwX2lkLAogICAgICAgIHxffCBTb21lKGNyZWRlbnRpYWxfYWNjZXNzLmNsb25lKCkpLAogICAgICAgIE5vbmUsCiAgICApCiAgICAuYXdhaXQKfQoKcHViIGFzeW5jIGZuIHJlY29uY2lsZV9zdHJlYW1fYWNjZXNzX2dyYW50c19mb3JfYXV0aF9jcmVkZW50aWFsKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGNyZWRlbnRpYWxfaWQ6ICZzdHIsCiAgICBjcmVkZW50aWFsX2FjY2VzczogJlZhbHVlLAopIC0+IGFueWhvdzo6UmVzdWx0PGJvb2w+IHsKICAgIHJlY29uY2lsZV9zdHJlYW1fYWNjZXNzX2dyYW50c19mb3JfbWF0Y2hpbmdfc2Vzc2lvbnMoCiAgICAgICAgc3RhdGUsCiAgICAgICAgfHNlc3Npb258IHNlc3Npb24uY3JlZGVudGlhbF9pZCA9PSBjcmVkZW50aWFsX2lkLAogICAgICAgIHxffCBTb21lKGNyZWRlbnRpYWxfYWNjZXNzLmNsb25lKCkpLAogICAgICAgIE5vbmUsCiAgICApCiAgICAuYXdhaXQKfQoKcHViIGFzeW5jIGZuIHJlY29uY2lsZV9hbGxfc3RyZWFtX2FjY2Vzc19ncmFudHMoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgc2V0dGluZ3NfdmFsdWU6ICZWYWx1ZSwKKSAtPiBhbnlob3c6OlJlc3VsdDxib29sPiB7CiAgICBsZXQgdG90cHMgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF90b3RwcygpLmF3YWl0PzsKICAgIGxldCBhY2NvdW50cyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2F1dGhfYWNjb3VudHMoKS5hd2FpdD87CiAgICByZWNvbmNpbGVfc3RyZWFtX2FjY2Vzc19ncmFudHNfZm9yX21hdGNoaW5nX3Nlc3Npb25zKAogICAgICAgIHN0YXRlLAogICAgICAgIHxffCB0cnVlLAogICAgICAgIHxzZXNzaW9ufCB7CiAgICAgICAgICAgIGlmIGNyYXRlOjphdXRoOjptb2RlOjpBdXRoTWV0aG9kOjpQYXNzd29yZC5tYXRjaGVzX3Nlc3Npb25fc3RyKCZzZXNzaW9uLm1ldGhvZCkgewogICAgICAgICAgICAgICAgYWNjb3VudHMKICAgICAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAgICAgLmZpbmQofGFjY291bnR8IGFjY291bnQuaWQgPT0gc2Vzc2lvbi5jcmVkZW50aWFsX2lkKQogICAgICAgICAgICAgICAgICAgIC5tYXAofGFjY291bnR8IGFjY291bnQuc3ViZG9tYWluX2FjY2Vzcy5jbG9uZSgpKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgdG90cHMKICAgICAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAgICAgLmZpbmQofGNyZWRlbnRpYWx8IGNyZWRlbnRpYWwuaWQgPT0gc2Vzc2lvbi50b3RwX2lkKQogICAgICAgICAgICAgICAgICAgIC5tYXAofGNyZWRlbnRpYWx8IGNyZWRlbnRpYWwuc3ViZG9tYWluX2FjY2Vzcy5jbG9uZSgpKQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICBTb21lKHNldHRpbmdzX3ZhbHVlKSwKICAgICkKICAgIC5hd2FpdAp9Cgphc3luYyBmbiByZWNvbmNpbGVfc3RyZWFtX2FjY2Vzc19ncmFudHNfZm9yX21hdGNoaW5nX3Nlc3Npb25zPE0sIEE+KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIG1hdGNoZXNfc2Vzc2lvbjogTSwKICAgIGNyZWRlbnRpYWxfYWNjZXNzX2Zvcl9zZXNzaW9uOiBBLAogICAgc2V0dGluZ3NfdmFsdWU6IE9wdGlvbjwmVmFsdWU+LAopIC0+IGFueWhvdzo6UmVzdWx0PGJvb2w+CndoZXJlCiAgICBNOiBGbigmTG9naW5TZXNzaW9uKSAtPiBib29sLAogICAgQTogRm4oJkxvZ2luU2Vzc2lvbikgLT4gT3B0aW9uPFZhbHVlPiwKewogICAgbGV0IHNldHRpbmdzID0gbWF0Y2ggc2V0dGluZ3NfdmFsdWUgewogICAgICAgIFNvbWUodmFsdWUpID0+IEF1dGhDcmVkZW50aWFsU2V0dGluZ3M6OmZyb21fcmF3KHZhbHVlKSwKICAgICAgICBOb25lID0+IHsKICAgICAgICAgICAgbGV0IGNvbmZpZyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0PzsKICAgICAgICAgICAgQXV0aENyZWRlbnRpYWxTZXR0aW5nczo6ZnJvbV9jb25maWcoJmNvbmZpZykKICAgICAgICB9CiAgICB9OwogICAgbGV0IHNlc3Npb25zID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5saXN0X2xvZ2luX3Nlc3Npb25zKCkuYXdhaXQ/OwogICAgbGV0IG11dCBjaGFuZ2VkID0gZmFsc2U7CiAgICBmb3IgKHNlc3Npb25faWQsIHNlc3Npb24pIGluIHNlc3Npb25zIHsKICAgICAgICBpZiAhbWF0Y2hlc19zZXNzaW9uKCZzZXNzaW9uKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBsZXQgbmV4dF9leHBpcmVzX2F0ID0gY3JlZGVudGlhbF9hY2Nlc3NfZm9yX3Nlc3Npb24oJnNlc3Npb24pLmFuZF90aGVuKHxhY2Nlc3N8IHsKICAgICAgICAgICAgc2Vzc2lvbgogICAgICAgICAgICAgICAgLmV4cGlyZXNfYXQKICAgICAgICAgICAgICAgIC5hc19kZXJlZigpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofGV4cGlyZXNfYXR8IHN0cmVhbV9hY2Nlc3NfZXhwaXJlc19hdCgmc2V0dGluZ3MsIGV4cGlyZXNfYXQsICZhY2Nlc3MpKQogICAgICAgIH0pOwogICAgICAgIGlmIHNlc3Npb24uc3RyZWFtX2FjY2Vzc19leHBpcmVzX2F0ID09IG5leHRfZXhwaXJlc19hdCB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBsZXQgbXV0IHVwZGF0ZXMgPSBNYXA6Om5ldygpOwogICAgICAgIHVwZGF0ZXMuaW5zZXJ0KAogICAgICAgICAgICAic3RyZWFtQWNjZXNzRXhwaXJlc0F0Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgbmV4dF9leHBpcmVzX2F0Lm1hcChWYWx1ZTo6U3RyaW5nKS51bndyYXBfb3IoVmFsdWU6Ok51bGwpLAogICAgICAgICk7CiAgICAgICAgaWYgc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC51cGRhdGVfc2Vzc2lvbl92YWx1ZSgmc2Vzc2lvbl9pZCwgdXBkYXRlcykKICAgICAgICAgICAgLmF3YWl0PwogICAgICAgICAgICAuaXNfc29tZSgpCiAgICAgICAgewogICAgICAgICAgICBjaGFuZ2VkID0gdHJ1ZTsKICAgICAgICB9CiAgICB9CiAgICBPayhjaGFuZ2VkKQp9Cgphc3luYyBmbiBjbGVhcl9hdXRvX2lwX2dyYW50c19mb3JfbWF0Y2hpbmdfc2Vzc2lvbnM8Rj4oCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgbWF0Y2hlc19zZXNzaW9uOiBGLAopIC0+IGFueWhvdzo6UmVzdWx0PGJvb2w+CndoZXJlCiAgICBGOiBGbigmTG9naW5TZXNzaW9uKSAtPiBib29sLAp7CiAgICBsZXQgc2Vzc2lvbnMgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmxpc3RfbG9naW5fc2Vzc2lvbnMoKS5hd2FpdD87CiAgICBsZXQgbXV0IGNoYW5nZWQgPSBmYWxzZTsKICAgIGZvciAoc2Vzc2lvbl9pZCwgc2Vzc2lvbikgaW4gc2Vzc2lvbnMgewogICAgICAgIGlmICFtYXRjaGVzX3Nlc3Npb24oJnNlc3Npb24pIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQoKICAgICAgICBsZXQgbXV0IHdoaXRlbGlzdF9yZWNvcmRfaWRzID0gbGlzdF9zZXNzaW9uX3doaXRlbGlzdF9yZWNvcmRfaWRzKHN0YXRlLCAmc2Vzc2lvbl9pZCkKICAgICAgICAgICAgLmF3YWl0PwogICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgLmNvbGxlY3Q6OjxCVHJlZVNldDxfPj4oKTsKICAgICAgICBpZiBsZXQgU29tZShyZWNvcmRfaWQpID0gc2Vzc2lvbgogICAgICAgICAgICAucG9zdF9sb2dpbl9pcF9ncmFudF9yZWNvcmRfaWQKICAgICAgICAgICAgLmFzX2RlcmVmKCkKICAgICAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICB7CiAgICAgICAgICAgIHdoaXRlbGlzdF9yZWNvcmRfaWRzLmluc2VydChyZWNvcmRfaWQudG9fc3RyaW5nKCkpOwogICAgICAgIH0KCiAgICAgICAgZm9yIHJlY29yZF9pZCBpbiB3aGl0ZWxpc3RfcmVjb3JkX2lkcyB7CiAgICAgICAgICAgIGNoYW5nZWQgPSB3aGl0ZWxpc3Q6OnJlbW92ZV93aGl0ZWxpc3RfcmVjb3JkX2J5X2lkKHN0YXRlLCAmcmVjb3JkX2lkKS5hd2FpdD8gfHwgY2hhbmdlZDsKICAgICAgICB9CgogICAgICAgIGlmIHNlc3Npb24uZ3JhbnRfdHlwZS5hc19kZXJlZigpID09IFNvbWUoImxvZ2luX2lwX2dyYW50IikKICAgICAgICAgICAgfHwgc2Vzc2lvbi5wb3N0X2xvZ2luX2lwX2dyYW50X21vZGUuaXNfc29tZSgpCiAgICAgICAgICAgIHx8IHNlc3Npb24ucG9zdF9sb2dpbl9pcF9ncmFudF9yZWNvcmRfaWQuaXNfc29tZSgpCiAgICAgICAgewogICAgICAgICAgICBsZXQgbXV0IHVwZGF0ZXMgPSBNYXA6Om5ldygpOwogICAgICAgICAgICB1cGRhdGVzLmluc2VydCgKICAgICAgICAgICAgICAgICJncmFudFR5cGUiLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgVmFsdWU6OlN0cmluZygiYnJvd3Nlcl9zZXNzaW9uIi50b19zdHJpbmcoKSksCiAgICAgICAgICAgICk7CiAgICAgICAgICAgIHVwZGF0ZXMuaW5zZXJ0KCJwb3N0TG9naW5JcEdyYW50TW9kZSIudG9fc3RyaW5nKCksIFZhbHVlOjpOdWxsKTsKICAgICAgICAgICAgdXBkYXRlcy5pbnNlcnQoInBvc3RMb2dpbklwR3JhbnRSZWNvcmRJZCIudG9fc3RyaW5nKCksIFZhbHVlOjpOdWxsKTsKICAgICAgICAgICAgc3RhdGUKICAgICAgICAgICAgICAgIC5zdG9yYWdlCiAgICAgICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgICAgIC51cGRhdGVfc2Vzc2lvbl92YWx1ZSgmc2Vzc2lvbl9pZCwgdXBkYXRlcykKICAgICAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgICAgIGNoYW5nZWQgPSB0cnVlOwogICAgICAgIH0KICAgIH0KICAgIGlmIGNoYW5nZWQgewogICAgICAgIHdoaXRlbGlzdDo6c3luY19yZXZlcnNlX3Byb3h5X3RydXN0ZWRfaXBzKHN0YXRlKS5hd2FpdDsKICAgIH0KICAgIE9rKGNoYW5nZWQpCn0KCnB1YiBhc3luYyBmbiBsaXN0X3Nlc3Npb25fd2hpdGVsaXN0X3JlY29yZF9pZHMoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgc2Vzc2lvbl9pZDogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDxWZWM8U3RyaW5nPj4gewogICAgT2soc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5saXN0X2F1dGhfbW9iaWxpdHlfc2Vzc2lvbl93aGl0ZWxpc3RfaWRzKHNlc3Npb25faWQpCiAgICAgICAgLmF3YWl0PykKfQoKcHViIGFzeW5jIGZuIHJlY29uY2lsZV9zZXNzaW9uX2lwX21vYmlsaXR5X3BvbGljeSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBwcmV2aW91c19zZXR0aW5nczogJlZhbHVlLAogICAgbmV4dF9zZXR0aW5nczogJlZhbHVlLAogICAgc2NoZWR1bGVfc3luYzogYm9vbCwKKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgbGV0IHByZXZpb3VzID0gQXV0aENyZWRlbnRpYWxTZXR0aW5nczo6ZnJvbV9yYXcocHJldmlvdXNfc2V0dGluZ3MpOwogICAgbGV0IG5leHQgPSBBdXRoQ3JlZGVudGlhbFNldHRpbmdzOjpmcm9tX3JhdyhuZXh0X3NldHRpbmdzKTsKICAgIGxldCBzZXNzaW9ucyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUubGlzdF9sb2dpbl9zZXNzaW9ucygpLmF3YWl0PzsKICAgIGlmICFuZXh0LnNlc3Npb25faXBfbW9iaWxpdHlfZW5hYmxlZCB7CiAgICAgICAgZm9yIChzZXNzaW9uX2lkLCBzZXNzaW9uKSBpbiBzZXNzaW9ucyB7CiAgICAgICAgICAgIGNsZWFudXBfc2Vzc2lvbl9hY3RpdmVfaXBfc3RhdGUoc3RhdGUsICZzZXNzaW9uX2lkLCAmc2Vzc2lvbiwgdHJ1ZSkuYXdhaXQ/OwogICAgICAgIH0KICAgICAgICBpZiBzY2hlZHVsZV9zeW5jIHsKICAgICAgICAgICAgd2hpdGVsaXN0OjpzeW5jX3JldmVyc2VfcHJveHlfdHJ1c3RlZF9pcHMoc3RhdGUpLmF3YWl0OwogICAgICAgIH0KICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQoKICAgIGxldCBzaG91bGRfc2VlZF9jdXJyZW50X2lwID0KICAgICAgICAhcHJldmlvdXMuc2Vzc2lvbl9pcF9tb2JpbGl0eV9lbmFibGVkICYmIG5leHQuc2Vzc2lvbl9pcF9tb2JpbGl0eV9lbmFibGVkOwogICAgbGV0IG5vdyA9IG5vd19zZWNvbmRzKCk7CiAgICBmb3IgKHNlc3Npb25faWQsIHNlc3Npb24pIGluIHNlc3Npb25zIHsKICAgICAgICBsZXQgY3VycmVudF9pcCA9IG5vcm1hbGl6ZWRfb3JfdHJpbW1lZF9pcCgmc2Vzc2lvbi5pcCk7CiAgICAgICAgaWYgc2hvdWxkX3NlZWRfY3VycmVudF9pcCAmJiAhY3VycmVudF9pcC5pc19lbXB0eSgpIHsKICAgICAgICAgICAgcmVjb3JkX3Nlc3Npb25fYWN0aXZlX2lwKFJlY29yZFNlc3Npb25BY3RpdmVJcEFyZ3MgewogICAgICAgICAgICAgICAgc3RhdGUsCiAgICAgICAgICAgICAgICBzZXNzaW9uX2lkOiAmc2Vzc2lvbl9pZCwKICAgICAgICAgICAgICAgIHNlc3Npb246IFNvbWUoJnNlc3Npb24pLAogICAgICAgICAgICAgICAgY2xpZW50X2lwOiAmY3VycmVudF9pcCwKICAgICAgICAgICAgICAgIHNvdXJjZTogInNlc3Npb24tcmVmcmVzaCIsCiAgICAgICAgICAgICAgICBpcF9sb2NhdGlvbjogc2Vzc2lvbi5pcF9sb2NhdGlvbi5hc19kZXJlZigpLAogICAgICAgICAgICAgICAgd2hpdGVsaXN0X3JlY29yZF9pZDogc2Vzc2lvbi5wb3N0X2xvZ2luX2lwX2dyYW50X3JlY29yZF9pZC5hc19kZXJlZigpLAogICAgICAgICAgICAgICAgc2V0dGluZ3M6IFNvbWUoJm5leHQpLAogICAgICAgICAgICAgICAgc3luY19yZWFzb246ICJzZXNzaW9uLWlwLW1vYmlsaXR5LXJlY29uY2lsZSIsCiAgICAgICAgICAgICAgICBzY2hlZHVsZV9zeW5jLAogICAgICAgICAgICB9KQogICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgIH0KICAgICAgICBwcnVuZV9zZXNzaW9uX2FjdGl2ZV9pcHMoCiAgICAgICAgICAgIHN0YXRlLAogICAgICAgICAgICAmc2Vzc2lvbl9pZCwKICAgICAgICAgICAgJnNlc3Npb24sCiAgICAgICAgICAgICZuZXh0LAogICAgICAgICAgICBub3csCiAgICAgICAgICAgIFBydW5lT3B0aW9ucyB7CiAgICAgICAgICAgICAgICBrZWVwX2lwOiBOb25lLAogICAgICAgICAgICAgICAgc2NoZWR1bGVfc3luYywKICAgICAgICAgICAgfSwKICAgICAgICApCiAgICAgICAgLmF3YWl0PzsKICAgIH0KICAgIGlmIHNjaGVkdWxlX3N5bmMgewogICAgICAgIHdoaXRlbGlzdDo6c3luY19yZXZlcnNlX3Byb3h5X3RydXN0ZWRfaXBzKHN0YXRlKS5hd2FpdDsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGNsZWFudXBfc2Vzc2lvbl9hY3RpdmVfaXBfc3RhdGUoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgc2Vzc2lvbl9pZDogJnN0ciwKICAgIF9zZXNzaW9uOiAmTG9naW5TZXNzaW9uLAogICAgcHJlc2VydmVfbGVnYWN5X3NpbmdsZV9zbG90OiBib29sLAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgU29tZShsZWFzZSkgPSBhY3F1aXJlX2F1dGhfbW9iaWxpdHlfc2Vzc2lvbl9tdXRhdGlvbl9sZWFzZShzdGF0ZSwgc2Vzc2lvbl9pZCkuYXdhaXQ/IGVsc2UgewogICAgICAgIGFueWhvdzo6YmFpbCEoIlRpbWVkIG91dCB3YWl0aW5nIGZvciBhdXRoIG1vYmlsaXR5IHNlc3Npb24gbXV0YXRpb24gbG9jayIpOwogICAgfTsKICAgIGxldCByZXN1bHQgPSBhc3luYyB7CiAgICAgICAgbGV0IFNvbWUobGl2ZV9zZXNzaW9uKSA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X3Nlc3Npb24oc2Vzc2lvbl9pZCkuYXdhaXQ/IGVsc2UgewogICAgICAgICAgICByZXR1cm4gT2soKCkpOwogICAgICAgIH07CiAgICAgICAgY2xlYW51cF9zZXNzaW9uX2FjdGl2ZV9pcF9zdGF0ZV9sb2NrZWQoCiAgICAgICAgICAgIHN0YXRlLAogICAgICAgICAgICBzZXNzaW9uX2lkLAogICAgICAgICAgICAmbGl2ZV9zZXNzaW9uLAogICAgICAgICAgICBwcmVzZXJ2ZV9sZWdhY3lfc2luZ2xlX3Nsb3QsCiAgICAgICAgKQogICAgICAgIC5hd2FpdAogICAgfQogICAgLmF3YWl0OwogICAgaWYgbGV0IEVycihlcnJvcikgPSBsZWFzZS5yZWxlYXNlKCkuYXdhaXQgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgJXNlc3Npb25faWQsICJmYWlsZWQgdG8gcmVsZWFzZSBhdXRoIG1vYmlsaXR5IHNlc3Npb24gbXV0YXRpb24gbG9jayBhZnRlciBwb2xpY3kgY2xlYW51cCIpOwogICAgfQogICAgcmVzdWx0Cn0KCmFzeW5jIGZuIGNsZWFudXBfc2Vzc2lvbl9hY3RpdmVfaXBfc3RhdGVfbG9ja2VkKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHNlc3Npb25faWQ6ICZzdHIsCiAgICBzZXNzaW9uOiAmTG9naW5TZXNzaW9uLAogICAgcHJlc2VydmVfbGVnYWN5X3NpbmdsZV9zbG90OiBib29sLAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgZGV0YWlscyA9IHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAubGlzdF9hdXRoX21vYmlsaXR5X2FjdGl2ZV9pcF9kZXRhaWxzKHNlc3Npb25faWQpCiAgICAgICAgLmF3YWl0PwogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5maWx0ZXJfbWFwKHBhcnNlX2FjdGl2ZV9pcF9kZXRhaWwpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgbXV0IHByZXNlcnZlX3JlY29yZF9pZCA9IE5vbmU6OjxTdHJpbmc+OwoKICAgIGlmIHByZXNlcnZlX2xlZ2FjeV9zaW5nbGVfc2xvdCAmJiBpc19mb2xsb3dfc2Vzc2lvbl9hdXRvX2dyYW50KHNlc3Npb24pIHsKICAgICAgICBsZXQgY3VycmVudF9pcCA9IG5vcm1hbGl6ZWRfb3JfdHJpbW1lZF9pcCgmc2Vzc2lvbi5pcCk7CiAgICAgICAgaWYgIWN1cnJlbnRfaXAuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIGxldCBjdXJyZW50X2RldGFpbCA9IGRldGFpbHMuaXRlcigpLmZpbmQofGRldGFpbHwgZGV0YWlsLmlwID09IGN1cnJlbnRfaXApOwogICAgICAgICAgICBsZXQgZXhpc3RpbmdfcmVjb3JkX2lkID0gc2Vzc2lvbgogICAgICAgICAgICAgICAgLnBvc3RfbG9naW5faXBfZ3JhbnRfcmVjb3JkX2lkCiAgICAgICAgICAgICAgICAuYXNfZGVyZWYoKQogICAgICAgICAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgICAgICAgICAubWFwKFRvU3RyaW5nOjp0b19zdHJpbmcpCiAgICAgICAgICAgICAgICAub3JfZWxzZSh8fCBjdXJyZW50X2RldGFpbC5hbmRfdGhlbih8ZGV0YWlsfCBkZXRhaWwud2hpdGVsaXN0X3JlY29yZF9pZC5jbG9uZSgpKSk7CiAgICAgICAgICAgIGxldCBjb25maWcgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9jb25maWcoKS5hd2FpdD87CiAgICAgICAgICAgIGxldCBhdXRvX2NvbW1lbnQgPSBub3JtYWxpemVfYXV0b19pcF9ncmFudF9jb21tZW50KHNlc3Npb24uY29tbWVudC5hc19kZXJlZigpLCAmY29uZmlnKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IGF1dG9faXBfZ3JhbnRfY29tbWVudCgmY29uZmlnKSk7CiAgICAgICAgICAgIGxldCByZWNvcmQgPSB3aGl0ZWxpc3Q6OmVuc3VyZV9zZXNzaW9uX2F1dG9fd2hpdGVsaXN0KAogICAgICAgICAgICAgICAgc3RhdGUsCiAgICAgICAgICAgICAgICAmZm9ybWF0ISgiYXV0aC1tb2JpbGl0eTpsZWdhY3k6e3Nlc3Npb25faWR9IiksCiAgICAgICAgICAgICAgICAmY3VycmVudF9pcCwKICAgICAgICAgICAgICAgIHBhcnNlX2lzb191bml4KHNlc3Npb24uZXhwaXJlc19hdC5hc19kZXJlZigpKSwKICAgICAgICAgICAgICAgIFNvbWUoYXV0b19jb21tZW50KSwKICAgICAgICAgICAgICAgIGV4aXN0aW5nX3JlY29yZF9pZC5hc19kZXJlZigpLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgICAgIHByZXNlcnZlX3JlY29yZF9pZCA9IFNvbWUocmVjb3JkLmlkLmNsb25lKCkpOwogICAgICAgICAgICBpZiAhZW5zdXJlX2xlZ2FjeV9wcm94eV9iaW5kaW5nKHN0YXRlLCBzZXNzaW9uX2lkLCBzZXNzaW9uLCAmY3VycmVudF9pcCwgJnJlY29yZC5pZCkKICAgICAgICAgICAgICAgIC5hd2FpdD8KICAgICAgICAgICAgewogICAgICAgICAgICAgICAgd2hpdGVsaXN0OjpyZW1vdmVfd2hpdGVsaXN0X3JlY29yZF9ieV9pZChzdGF0ZSwgJnJlY29yZC5pZCkuYXdhaXQ/OwogICAgICAgICAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiBzZXNzaW9uLnBvc3RfbG9naW5faXBfZ3JhbnRfcmVjb3JkX2lkLmFzX2RlcmVmKCkgIT0gU29tZShyZWNvcmQuaWQuYXNfc3RyKCkpIHsKICAgICAgICAgICAgICAgIGxldCBtdXQgdXBkYXRlcyA9IE1hcDo6bmV3KCk7CiAgICAgICAgICAgICAgICB1cGRhdGVzLmluc2VydCgKICAgICAgICAgICAgICAgICAgICAicG9zdExvZ2luSXBHcmFudFJlY29yZElkIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICAgICBWYWx1ZTo6U3RyaW5nKHJlY29yZC5pZC5jbG9uZSgpKSwKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICBzdGF0ZQogICAgICAgICAgICAgICAgICAgIC5zdG9yYWdlCiAgICAgICAgICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgICAgICAgICAgLnVwZGF0ZV9zZXNzaW9uX3ZhbHVlKHNlc3Npb25faWQsIHVwZGF0ZXMpCiAgICAgICAgICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmNsZWFyX2F1dGhfbW9iaWxpdHlfYWN0aXZlX2lwX3Nlc3Npb24oc2Vzc2lvbl9pZCkKICAgICAgICAuYXdhaXQ/OwogICAgZm9yIGRldGFpbCBpbiBkZXRhaWxzIHsKICAgICAgICBsZXQgU29tZShyZWNvcmRfaWQpID0gZGV0YWlsLndoaXRlbGlzdF9yZWNvcmRfaWQgZWxzZSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH07CiAgICAgICAgaWYgcHJlc2VydmVfcmVjb3JkX2lkLmFzX2RlcmVmKCkgPT0gU29tZShyZWNvcmRfaWQuYXNfc3RyKCkpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIHdoaXRlbGlzdDo6cmVtb3ZlX3doaXRlbGlzdF9yZWNvcmRfYnlfaWQoc3RhdGUsICZyZWNvcmRfaWQpLmF3YWl0PzsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGVuc3VyZV9sZWdhY3lfcHJveHlfYmluZGluZygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBzZXNzaW9uX2lkOiAmc3RyLAogICAgc2Vzc2lvbjogJkxvZ2luU2Vzc2lvbiwKICAgIGN1cnJlbnRfaXA6ICZzdHIsCiAgICB3aGl0ZWxpc3RfcmVjb3JkX2lkOiAmc3RyLAopIC0+IGFueWhvdzo6UmVzdWx0PGJvb2w+IHsKICAgIGxldCBleHBpcmVfYXQgPSBwYXJzZV9pc29fdW5peChzZXNzaW9uLmV4cGlyZXNfYXQuYXNfZGVyZWYoKSk7CiAgICBsZXQgU29tZSh0dGxfc2Vjb25kcykgPSByZXNvbHZlX3Byb3h5X3Nlc3Npb25fdHRsKGV4cGlyZV9hdCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKGZhbHNlKTsKICAgIH07CiAgICBsZXQgZXhpc3RpbmcgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmdldF9hdXRoX21vYmlsaXR5X2JpbmRpbmcoInByb3h5LXNlc3Npb24iLCBzZXNzaW9uX2lkKQogICAgICAgIC5hd2FpdD87CiAgICBsZXQgbmV4dF9iaW5kaW5nID0gYnVpbGRfb3JfdXBkYXRlX21vYmlsaXR5X2JpbmRpbmcoCiAgICAgICAgZXhpc3RpbmcsCiAgICAgICAgInByb3h5LXNlc3Npb24iLAogICAgICAgIHNlc3Npb25faWQsCiAgICAgICAgY3VycmVudF9pcCwKICAgICAgICBleHBpcmVfYXQsCiAgICAgICAgU29tZShzZXNzaW9uX2lkKSwKICAgICAgICBTb21lKHdoaXRlbGlzdF9yZWNvcmRfaWQudG9fc3RyaW5nKCkpLAogICAgKTsKICAgIGlmICFzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNhdmVfYXV0aF9tb2JpbGl0eV9vd25lZF9iaW5kaW5nKAogICAgICAgICAgICAicHJveHktc2Vzc2lvbiIsCiAgICAgICAgICAgIHNlc3Npb25faWQsCiAgICAgICAgICAgICZuZXh0X2JpbmRpbmcsCiAgICAgICAgICAgIHNlc3Npb25faWQsCiAgICAgICAgICAgIHR0bF9zZWNvbmRzLAogICAgICAgICAgICBTb21lKHR0bF9zZWNvbmRzKSwKICAgICAgICApCiAgICAgICAgLmF3YWl0PwogICAgewogICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICB9CiAgICBpZiAhc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5zZXRfYXV0aF9tb2JpbGl0eV93aGl0ZWxpc3Rfb3duZXIod2hpdGVsaXN0X3JlY29yZF9pZCwgc2Vzc2lvbl9pZCwgdHRsX3NlY29uZHMpCiAgICAgICAgLmF3YWl0PwogICAgewogICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICB9CiAgICBPayh0cnVlKQp9Cg==
+use super::*;
+
+#[derive(Clone, Copy, Debug, Default, Eq, PartialEq)]
+pub struct LoginSessionRevocationOutcome {
+    pub complete: bool,
+}
+
+pub async fn revoke_login_session(
+    state: &AppState,
+    session_id: &str,
+    config: Option<&Value>,
+    fallback_ip: &str,
+    logout_source: &'static str,
+) -> LoginSessionRevocationOutcome {
+    let mut complete = true;
+    let session = match state.storage.store.get_session(session_id).await {
+        Ok(session) => session,
+        Err(error) => {
+            tracing::warn!(%error, %session_id, %logout_source, "failed to load auth session during revocation");
+            complete = false;
+            None
+        }
+    };
+
+    let loaded_config;
+    let config = if let Some(config) = config {
+        Some(config)
+    } else if session.is_some() {
+        loaded_config = match state.storage.store.get_config().await {
+            Ok(config) => Some(config),
+            Err(error) => {
+                tracing::warn!(%error, %session_id, %logout_source, "failed to load config during session revocation");
+                complete = false;
+                None
+            }
+        };
+        loaded_config.as_ref()
+    } else {
+        None
+    };
+
+    if let Some(session) = session.as_ref()
+        && let Err(error) = system_events::publish_auth_logout_event(
+            state,
+            json!({
+                "session_id": session_id,
+                "auth_method": session.method.clone(),
+                "credential_id": session.credential_id.clone(),
+                "credential_name": session.credential_name.clone(),
+                "linked_totp_name": session.linked_totp_name.clone(),
+                "session_comment": session.comment.clone(),
+                "ip": session.ip.clone(),
+                "ip_location": session.ip_location.clone(),
+                "user_agent": session.user_agent.clone(),
+                "login_time": session.login_time.clone(),
+                "logout_source": logout_source,
+            }),
+        )
+        .await
+    {
+        tracing::warn!(%error, %session_id, %logout_source, "failed to publish auth logout event");
+    }
+
+    if let Err(error) = destroy_session(state, session_id).await {
+        tracing::warn!(%error, %session_id, %logout_source, "failed to destroy auth session state");
+        complete = false;
+    }
+    if let Err(error) =
+        revoke_custom_post_login_ip_grant(state, session.as_ref(), config, fallback_ip).await
+    {
+        tracing::warn!(%error, %session_id, %logout_source, "failed to revoke custom post-login IP grant");
+        complete = false;
+    }
+    if let Err(error) = whitelist::sync_reverse_proxy_trusted_ips_required(state).await {
+        tracing::warn!(%error, %session_id, %logout_source, "failed to confirm gateway trust revocation");
+        complete = false;
+    }
+
+    LoginSessionRevocationOutcome { complete }
+}
+
+pub async fn revoke_custom_post_login_ip_grant(
+    state: &AppState,
+    session: Option<&LoginSession>,
+    config: Option<&Value>,
+    fallback_ip: &str,
+) -> anyhow::Result<bool> {
+    if !should_revoke_custom_post_login_ip_grant(session, config) {
+        return Ok(false);
+    }
+    if let Some(record_id) = session
+        .and_then(|session| session.post_login_ip_grant_record_id.as_deref())
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+    {
+        return whitelist::remove_whitelist_record_by_id(state, record_id).await;
+    }
+    let ip = session
+        .map(|session| session.ip.as_str())
+        .filter(|value| !value.trim().is_empty())
+        .unwrap_or(fallback_ip);
+    whitelist::remove_whitelist_records_by_ip(state, ip, Some("auto")).await
+}
+
+pub fn should_revoke_custom_post_login_ip_grant(
+    session: Option<&LoginSession>,
+    config: Option<&Value>,
+) -> bool {
+    let Some(session) = session else {
+        return false;
+    };
+    if session.grant_type.as_deref() == Some("login_ip_grant")
+        && session.post_login_ip_grant_mode.as_deref() == Some("custom")
+    {
+        return true;
+    }
+    session
+        .comment
+        .as_deref()
+        .is_some_and(is_auto_ip_grant_comment)
+        && config.and_then(|config| {
+            config
+                .pointer("/auth_credential_settings/post_login_ip_grant_mode")
+                .and_then(Value::as_str)
+        }) == Some("custom")
+}
+
+pub async fn destroy_sessions_for_totp_credential(
+    state: &AppState,
+    totp_id: &str,
+) -> anyhow::Result<usize> {
+    destroy_sessions_matching(state, |session| session.totp_id == totp_id).await
+}
+
+pub async fn destroy_sessions_for_auth_credential(
+    state: &AppState,
+    credential_id: &str,
+) -> anyhow::Result<usize> {
+    destroy_sessions_matching(state, |session| session.credential_id == credential_id).await
+}
+
+pub async fn destroy_sessions_for_auth_method(
+    state: &AppState,
+    auth_method: &str,
+) -> anyhow::Result<usize> {
+    destroy_sessions_matching(state, |session| {
+        session.method.eq_ignore_ascii_case(auth_method)
+    })
+    .await
+}
+
+async fn destroy_sessions_matching(
+    state: &AppState,
+    matches: impl Fn(&LoginSession) -> bool,
+) -> anyhow::Result<usize> {
+    let sessions = state.storage.store.list_login_sessions().await?;
+    let mut destroyed = 0usize;
+    for (session_id, session) in sessions {
+        if !matches(&session) {
+            continue;
+        }
+        if let Err(error) = destroy_session_state(state, &session_id).await {
+            // A failed mutation can still have deleted authoritative session
+            // state before a later storage step failed. Publish that partial
+            // revocation before returning the original error.
+            whitelist::sync_reverse_proxy_trusted_ips(state).await;
+            return Err(error);
+        }
+        destroyed += 1;
+    }
+    if destroyed > 0 {
+        whitelist::sync_reverse_proxy_trusted_ips_required(state).await?;
+    }
+    Ok(destroyed)
+}
+
+pub async fn destroy_session(state: &AppState, session_id: &str) -> anyhow::Result<()> {
+    let result = destroy_session_state(state, session_id).await;
+    whitelist::sync_reverse_proxy_trusted_ips(state).await;
+    result
+}
+
+async fn destroy_session_state(state: &AppState, session_id: &str) -> anyhow::Result<()> {
+    let lease = loop {
+        if let Some(lease) = acquire_auth_mobility_session_mutation_lease(state, session_id).await?
+        {
+            break lease;
+        }
+        tracing::warn!(%session_id, "still waiting for auth mobility mutation lock during revocation");
+    };
+    let result = async {
+        // The mutation lease excludes mobility writers. Remove external grants
+        // first, then atomically remove the authoritative session together with
+        // every mobility index owned by it. A failed storage transaction leaves
+        // the complete internal aggregate discoverable for a retry.
+        let whitelist_ids = state
+            .storage
+            .store
+            .list_auth_mobility_session_whitelist_ids(session_id)
+            .await?;
+        whitelist::remove_whitelist_records_without_runtime_sync(state, &whitelist_ids).await?;
+        state
+            .storage
+            .store
+            .destroy_auth_mobility_session(session_id)
+            .await?;
+        Ok(())
+    }
+    .await;
+    if let Err(error) = lease.release().await {
+        tracing::warn!(%error, %session_id, "failed to release auth mobility session mutation lock after revocation");
+    }
+    result
+}
+
+pub async fn clear_auto_ip_grants_for_totp_credential(
+    state: &AppState,
+    totp_id: &str,
+) -> anyhow::Result<bool> {
+    clear_auto_ip_grants_for_matching_sessions(state, |session| session.totp_id == totp_id).await
+}
+
+pub async fn clear_auto_ip_grants_for_auth_credential(
+    state: &AppState,
+    credential_id: &str,
+) -> anyhow::Result<bool> {
+    clear_auto_ip_grants_for_matching_sessions(state, |session| {
+        session.credential_id == credential_id
+    })
+    .await
+}
+
+pub async fn reconcile_stream_access_grants_for_totp_credential(
+    state: &AppState,
+    totp_id: &str,
+    credential_access: &Value,
+) -> anyhow::Result<bool> {
+    reconcile_stream_access_grants_for_matching_sessions(
+        state,
+        |session| session.totp_id == totp_id,
+        |_| Some(credential_access.clone()),
+        None,
+    )
+    .await
+}
+
+pub async fn reconcile_stream_access_grants_for_auth_credential(
+    state: &AppState,
+    credential_id: &str,
+    credential_access: &Value,
+) -> anyhow::Result<bool> {
+    reconcile_stream_access_grants_for_matching_sessions(
+        state,
+        |session| session.credential_id == credential_id,
+        |_| Some(credential_access.clone()),
+        None,
+    )
+    .await
+}
+
+pub async fn reconcile_all_stream_access_grants(
+    state: &AppState,
+    settings_value: &Value,
+) -> anyhow::Result<bool> {
+    let totps = state.storage.store.get_totps().await?;
+    let accounts = state.storage.store.get_auth_accounts().await?;
+    reconcile_stream_access_grants_for_matching_sessions(
+        state,
+        |_| true,
+        |session| {
+            if crate::auth::mode::AuthMethod::Password.matches_session_str(&session.method) {
+                accounts
+                    .iter()
+                    .find(|account| account.id == session.credential_id)
+                    .map(|account| account.subdomain_access.clone())
+            } else {
+                totps
+                    .iter()
+                    .find(|credential| credential.id == session.totp_id)
+                    .map(|credential| credential.subdomain_access.clone())
+            }
+        },
+        Some(settings_value),
+    )
+    .await
+}
+
+async fn reconcile_stream_access_grants_for_matching_sessions<M, A>(
+    state: &AppState,
+    matches_session: M,
+    credential_access_for_session: A,
+    settings_value: Option<&Value>,
+) -> anyhow::Result<bool>
+where
+    M: Fn(&LoginSession) -> bool,
+    A: Fn(&LoginSession) -> Option<Value>,
+{
+    let settings = match settings_value {
+        Some(value) => AuthCredentialSettings::from_raw(value),
+        None => {
+            let config = state.storage.store.get_config().await?;
+            AuthCredentialSettings::from_config(&config)
+        }
+    };
+    let sessions = state.storage.store.list_login_sessions().await?;
+    let mut changed = false;
+    for (session_id, session) in sessions {
+        if !matches_session(&session) {
+            continue;
+        }
+        let next_expires_at = credential_access_for_session(&session).and_then(|access| {
+            session
+                .expires_at
+                .as_deref()
+                .and_then(|expires_at| stream_access_expires_at(&settings, expires_at, &access))
+        });
+        if session.stream_access_expires_at == next_expires_at {
+            continue;
+        }
+        let mut updates = Map::new();
+        updates.insert(
+            "streamAccessExpiresAt".to_string(),
+            next_expires_at.map(Value::String).unwrap_or(Value::Null),
+        );
+        if state
+            .storage
+            .store
+            .update_session_value(&session_id, updates)
+            .await?
+            .is_some()
+        {
+            changed = true;
+        }
+    }
+    Ok(changed)
+}
+
+async fn clear_auto_ip_grants_for_matching_sessions<F>(
+    state: &AppState,
+    matches_session: F,
+) -> anyhow::Result<bool>
+where
+    F: Fn(&LoginSession) -> bool,
+{
+    let sessions = state.storage.store.list_login_sessions().await?;
+    let mut changed = false;
+    for (session_id, session) in sessions {
+        if !matches_session(&session) {
+            continue;
+        }
+
+        let mut whitelist_record_ids = list_session_whitelist_record_ids(state, &session_id)
+            .await?
+            .into_iter()
+            .collect::<BTreeSet<_>>();
+        if let Some(record_id) = session
+            .post_login_ip_grant_record_id
+            .as_deref()
+            .map(str::trim)
+            .filter(|value| !value.is_empty())
+        {
+            whitelist_record_ids.insert(record_id.to_string());
+        }
+
+        for record_id in whitelist_record_ids {
+            changed = whitelist::remove_whitelist_record_by_id(state, &record_id).await? || changed;
+        }
+
+        if session.grant_type.as_deref() == Some("login_ip_grant")
+            || session.post_login_ip_grant_mode.is_some()
+            || session.post_login_ip_grant_record_id.is_some()
+        {
+            let mut updates = Map::new();
+            updates.insert(
+                "grantType".to_string(),
+                Value::String("browser_session".to_string()),
+            );
+            updates.insert("postLoginIpGrantMode".to_string(), Value::Null);
+            updates.insert("postLoginIpGrantRecordId".to_string(), Value::Null);
+            state
+                .storage
+                .store
+                .update_session_value(&session_id, updates)
+                .await?;
+            changed = true;
+        }
+    }
+    if changed {
+        whitelist::sync_reverse_proxy_trusted_ips(state).await;
+    }
+    Ok(changed)
+}
+
+pub async fn list_session_whitelist_record_ids(
+    state: &AppState,
+    session_id: &str,
+) -> anyhow::Result<Vec<String>> {
+    Ok(state
+        .storage
+        .store
+        .list_auth_mobility_session_whitelist_ids(session_id)
+        .await?)
+}
+
+pub async fn reconcile_session_ip_mobility_policy(
+    state: &AppState,
+    previous_settings: &Value,
+    next_settings: &Value,
+    schedule_sync: bool,
+) -> anyhow::Result<()> {
+    let previous = AuthCredentialSettings::from_raw(previous_settings);
+    let next = AuthCredentialSettings::from_raw(next_settings);
+    let sessions = state.storage.store.list_login_sessions().await?;
+    if !next.session_ip_mobility_enabled {
+        for (session_id, session) in sessions {
+            cleanup_session_active_ip_state(state, &session_id, &session, true).await?;
+        }
+        if schedule_sync {
+            whitelist::sync_reverse_proxy_trusted_ips(state).await;
+        }
+        return Ok(());
+    }
+
+    let should_seed_current_ip =
+        !previous.session_ip_mobility_enabled && next.session_ip_mobility_enabled;
+    let now = now_seconds();
+    for (session_id, session) in sessions {
+        let current_ip = normalized_or_trimmed_ip(&session.ip);
+        if should_seed_current_ip && !current_ip.is_empty() {
+            record_session_active_ip(RecordSessionActiveIpArgs {
+                state,
+                session_id: &session_id,
+                session: Some(&session),
+                client_ip: &current_ip,
+                source: "session-refresh",
+                ip_location: session.ip_location.as_deref(),
+                whitelist_record_id: session.post_login_ip_grant_record_id.as_deref(),
+                settings: Some(&next),
+                sync_reason: "session-ip-mobility-reconcile",
+                schedule_sync,
+            })
+            .await?;
+        }
+        prune_session_active_ips(
+            state,
+            &session_id,
+            &session,
+            &next,
+            now,
+            PruneOptions {
+                keep_ip: None,
+                schedule_sync,
+            },
+        )
+        .await?;
+    }
+    if schedule_sync {
+        whitelist::sync_reverse_proxy_trusted_ips(state).await;
+    }
+    Ok(())
+}
+
+pub(super) async fn cleanup_session_active_ip_state(
+    state: &AppState,
+    session_id: &str,
+    _session: &LoginSession,
+    preserve_legacy_single_slot: bool,
+) -> anyhow::Result<()> {
+    let Some(lease) = acquire_auth_mobility_session_mutation_lease(state, session_id).await? else {
+        anyhow::bail!("Timed out waiting for auth mobility session mutation lock");
+    };
+    let result = async {
+        let Some(live_session) = state.storage.store.get_session(session_id).await? else {
+            return Ok(());
+        };
+        cleanup_session_active_ip_state_locked(
+            state,
+            session_id,
+            &live_session,
+            preserve_legacy_single_slot,
+        )
+        .await
+    }
+    .await;
+    if let Err(error) = lease.release().await {
+        tracing::warn!(%error, %session_id, "failed to release auth mobility session mutation lock after policy cleanup");
+    }
+    result
+}
+
+async fn cleanup_session_active_ip_state_locked(
+    state: &AppState,
+    session_id: &str,
+    session: &LoginSession,
+    preserve_legacy_single_slot: bool,
+) -> anyhow::Result<()> {
+    let details = state
+        .storage
+        .store
+        .list_auth_mobility_active_ip_details(session_id)
+        .await?
+        .into_iter()
+        .filter_map(parse_active_ip_detail)
+        .collect::<Vec<_>>();
+    let mut preserve_record_id = None::<String>;
+
+    if preserve_legacy_single_slot && is_follow_session_auto_grant(session) {
+        let current_ip = normalized_or_trimmed_ip(&session.ip);
+        if !current_ip.is_empty() {
+            let current_detail = details.iter().find(|detail| detail.ip == current_ip);
+            let existing_record_id = session
+                .post_login_ip_grant_record_id
+                .as_deref()
+                .map(str::trim)
+                .filter(|value| !value.is_empty())
+                .map(ToString::to_string)
+                .or_else(|| current_detail.and_then(|detail| detail.whitelist_record_id.clone()));
+            let config = state.storage.store.get_config().await?;
+            let auto_comment = normalize_auto_ip_grant_comment(session.comment.as_deref(), &config)
+                .unwrap_or_else(|| auto_ip_grant_comment(&config));
+            let record = whitelist::ensure_session_auto_whitelist(
+                state,
+                &format!("auth-mobility:legacy:{session_id}"),
+                &current_ip,
+                parse_iso_unix(session.expires_at.as_deref()),
+                Some(auto_comment),
+                existing_record_id.as_deref(),
+            )
+            .await?;
+            preserve_record_id = Some(record.id.clone());
+            if !ensure_legacy_proxy_binding(state, session_id, session, &current_ip, &record.id)
+                .await?
+            {
+                whitelist::remove_whitelist_record_by_id(state, &record.id).await?;
+                return Ok(());
+            }
+            if session.post_login_ip_grant_record_id.as_deref() != Some(record.id.as_str()) {
+                let mut updates = Map::new();
+                updates.insert(
+                    "postLoginIpGrantRecordId".to_string(),
+                    Value::String(record.id.clone()),
+                );
+                state
+                    .storage
+                    .store
+                    .update_session_value(session_id, updates)
+                    .await?;
+            }
+        }
+    }
+
+    state
+        .storage
+        .store
+        .clear_auth_mobility_active_ip_session(session_id)
+        .await?;
+    for detail in details {
+        let Some(record_id) = detail.whitelist_record_id else {
+            continue;
+        };
+        if preserve_record_id.as_deref() == Some(record_id.as_str()) {
+            continue;
+        }
+        whitelist::remove_whitelist_record_by_id(state, &record_id).await?;
+    }
+    Ok(())
+}
+
+pub(super) async fn ensure_legacy_proxy_binding(
+    state: &AppState,
+    session_id: &str,
+    session: &LoginSession,
+    current_ip: &str,
+    whitelist_record_id: &str,
+) -> anyhow::Result<bool> {
+    let expire_at = parse_iso_unix(session.expires_at.as_deref());
+    let Some(ttl_seconds) = resolve_proxy_session_ttl(expire_at) else {
+        return Ok(false);
+    };
+    let existing = state
+        .storage
+        .store
+        .get_auth_mobility_binding("proxy-session", session_id)
+        .await?;
+    let next_binding = build_or_update_mobility_binding(
+        existing,
+        "proxy-session",
+        session_id,
+        current_ip,
+        expire_at,
+        Some(session_id),
+        Some(whitelist_record_id.to_string()),
+    );
+    if !state
+        .storage
+        .store
+        .save_auth_mobility_owned_binding(
+            "proxy-session",
+            session_id,
+            &next_binding,
+            session_id,
+            ttl_seconds,
+            Some(ttl_seconds),
+        )
+        .await?
+    {
+        return Ok(false);
+    }
+    if !state
+        .storage
+        .store
+        .set_auth_mobility_whitelist_owner(whitelist_record_id, session_id, ttl_seconds)
+        .await?
+    {
+        return Ok(false);
+    }
+    Ok(true)
+}

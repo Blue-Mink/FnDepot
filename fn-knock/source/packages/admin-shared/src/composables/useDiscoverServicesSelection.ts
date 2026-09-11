@@ -1,1 +1,67 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiB9IGZyb20gJ3Z1ZSc7Cgp0eXBlIFVzZURpc2NvdmVyU2VydmljZXNTZWxlY3Rpb25PcHRpb25zPFRTZXJ2aWNlPiA9IHsKICBnZXRQYXRoOiAoc2VydmljZTogVFNlcnZpY2UpID0+IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQ7Cn07CgpleHBvcnQgY29uc3QgdXNlRGlzY292ZXJTZXJ2aWNlc1NlbGVjdGlvbiA9IDwKICBUU2VydmljZSwKICBURGF0YSBleHRlbmRzIHsgc2VydmljZXM6IFRTZXJ2aWNlW10gfSwKPigKICBvcHRpb25zOiBVc2VEaXNjb3ZlclNlcnZpY2VzU2VsZWN0aW9uT3B0aW9uczxUU2VydmljZT4sCikgPT4gewogIGNvbnN0IG9wZW4gPSByZWYoZmFsc2UpOwogIGNvbnN0IGRpc2NvdmVyZWREYXRhID0gcmVmPFREYXRhIHwgbnVsbD4obnVsbCk7CiAgY29uc3Qgc2VsZWN0ZWRTZXJ2aWNlcyA9IHJlZjxUU2VydmljZVtdPihbXSk7CgogIGNvbnN0IGlzQWxsU2VsZWN0ZWQgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoIWRpc2NvdmVyZWREYXRhLnZhbHVlIHx8IGRpc2NvdmVyZWREYXRhLnZhbHVlLnNlcnZpY2VzLmxlbmd0aCA9PT0gMCkgcmV0dXJuIGZhbHNlOwogICAgcmV0dXJuIHNlbGVjdGVkU2VydmljZXMudmFsdWUubGVuZ3RoID09PSBkaXNjb3ZlcmVkRGF0YS52YWx1ZS5zZXJ2aWNlcy5sZW5ndGg7CiAgfSk7CgogIGNvbnN0IGlzU2VsZWN0aW9uVmFsaWQgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoc2VsZWN0ZWRTZXJ2aWNlcy52YWx1ZS5sZW5ndGggPT09IDApIHJldHVybiBmYWxzZTsKICAgIHJldHVybiBzZWxlY3RlZFNlcnZpY2VzLnZhbHVlLmV2ZXJ5KChzZXJ2aWNlKSA9PiB7CiAgICAgIGNvbnN0IHBhdGggPSBvcHRpb25zLmdldFBhdGgoc2VydmljZSBhcyBUU2VydmljZSk7CiAgICAgIHJldHVybiBCb29sZWFuKHBhdGggJiYgcGF0aC50cmltKCkgIT09ICcnKTsKICAgIH0pOwogIH0pOwoKICBjb25zdCBzZXRBbGxTZWxlY3RlZCA9IChjaGVja2VkOiBib29sZWFuKSA9PiB7CiAgICBpZiAoY2hlY2tlZCAmJiBkaXNjb3ZlcmVkRGF0YS52YWx1ZSkgewogICAgICBzZWxlY3RlZFNlcnZpY2VzLnZhbHVlID0gWy4uLmRpc2NvdmVyZWREYXRhLnZhbHVlLnNlcnZpY2VzXTsKICAgICAgcmV0dXJuOwogICAgfQogICAgc2VsZWN0ZWRTZXJ2aWNlcy52YWx1ZSA9IFtdOwogIH07CgogIGNvbnN0IHJlc2V0U2VsZWN0aW9uID0gKCkgPT4gewogICAgc2VsZWN0ZWRTZXJ2aWNlcy52YWx1ZSA9IFtdOwogIH07CgogIGNvbnN0IHNldERpc2NvdmVyZWREYXRhID0gKGRhdGE6IFREYXRhIHwgbnVsbCkgPT4gewogICAgZGlzY292ZXJlZERhdGEudmFsdWUgPSBkYXRhOwogIH07CgogIGNvbnN0IG9wZW5EaWFsb2cgPSAoKSA9PiB7CiAgICBvcGVuLnZhbHVlID0gdHJ1ZTsKICB9OwoKICBjb25zdCBjbG9zZURpYWxvZyA9IChyZXNldCA9IGZhbHNlKSA9PiB7CiAgICBvcGVuLnZhbHVlID0gZmFsc2U7CiAgICBpZiAocmVzZXQpIHJlc2V0U2VsZWN0aW9uKCk7CiAgfTsKCiAgcmV0dXJuIHsKICAgIG9wZW4sCiAgICBkaXNjb3ZlcmVkRGF0YSwKICAgIHNlbGVjdGVkU2VydmljZXMsCiAgICBpc0FsbFNlbGVjdGVkLAogICAgaXNTZWxlY3Rpb25WYWxpZCwKICAgIHNldEFsbFNlbGVjdGVkLAogICAgcmVzZXRTZWxlY3Rpb24sCiAgICBzZXREaXNjb3ZlcmVkRGF0YSwKICAgIG9wZW5EaWFsb2csCiAgICBjbG9zZURpYWxvZywKICB9Owp9Owo=
+import { computed, ref } from 'vue';
+
+type UseDiscoverServicesSelectionOptions<TService> = {
+  getPath: (service: TService) => string | null | undefined;
+};
+
+export const useDiscoverServicesSelection = <
+  TService,
+  TData extends { services: TService[] },
+>(
+  options: UseDiscoverServicesSelectionOptions<TService>,
+) => {
+  const open = ref(false);
+  const discoveredData = ref<TData | null>(null);
+  const selectedServices = ref<TService[]>([]);
+
+  const isAllSelected = computed(() => {
+    if (!discoveredData.value || discoveredData.value.services.length === 0) return false;
+    return selectedServices.value.length === discoveredData.value.services.length;
+  });
+
+  const isSelectionValid = computed(() => {
+    if (selectedServices.value.length === 0) return false;
+    return selectedServices.value.every((service) => {
+      const path = options.getPath(service as TService);
+      return Boolean(path && path.trim() !== '');
+    });
+  });
+
+  const setAllSelected = (checked: boolean) => {
+    if (checked && discoveredData.value) {
+      selectedServices.value = [...discoveredData.value.services];
+      return;
+    }
+    selectedServices.value = [];
+  };
+
+  const resetSelection = () => {
+    selectedServices.value = [];
+  };
+
+  const setDiscoveredData = (data: TData | null) => {
+    discoveredData.value = data;
+  };
+
+  const openDialog = () => {
+    open.value = true;
+  };
+
+  const closeDialog = (reset = false) => {
+    open.value = false;
+    if (reset) resetSelection();
+  };
+
+  return {
+    open,
+    discoveredData,
+    selectedServices,
+    isAllSelected,
+    isSelectionValid,
+    setAllSelected,
+    resetSelection,
+    setDiscoveredData,
+    openDialog,
+    closeDialog,
+  };
+};

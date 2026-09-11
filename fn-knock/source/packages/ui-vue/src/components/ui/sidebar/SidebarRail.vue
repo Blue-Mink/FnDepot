@@ -1,1 +1,33 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCmltcG9ydCB7IHVzZVNpZGViYXIgfSBmcm9tICIuL3V0aWxzIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXQp9PigpCgpjb25zdCB7IHRvZ2dsZVNpZGViYXIgfSA9IHVzZVNpZGViYXIoKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8YnV0dG9uCiAgICBkYXRhLXNpZGViYXI9InJhaWwiCiAgICBkYXRhLXNsb3Q9InNpZGViYXItcmFpbCIKICAgIGFyaWEtbGFiZWw9IlRvZ2dsZSBTaWRlYmFyIgogICAgOnRhYmluZGV4PSItMSIKICAgIHRpdGxlPSJUb2dnbGUgU2lkZWJhciIKICAgIDpjbGFzcz0iY24oCiAgICAgICdob3ZlcjphZnRlcjpiZy1zaWRlYmFyLWJvcmRlciBhYnNvbHV0ZSBpbnNldC15LTAgei0yMCBoaWRkZW4gdy00IC10cmFuc2xhdGUteC0xLzIgdHJhbnNpdGlvbi1hbGwgZWFzZS1saW5lYXIgZ3JvdXAtZGF0YS1bc2lkZT1sZWZ0XTotcmlnaHQtNCBncm91cC1kYXRhLVtzaWRlPXJpZ2h0XTpsZWZ0LTAgYWZ0ZXI6YWJzb2x1dGUgYWZ0ZXI6aW5zZXQteS0wIGFmdGVyOmxlZnQtMS8yIGFmdGVyOnctWzJweF0gc206ZmxleCcsCiAgICAgICdpbi1kYXRhLVtzaWRlPWxlZnRdOmN1cnNvci13LXJlc2l6ZSBpbi1kYXRhLVtzaWRlPXJpZ2h0XTpjdXJzb3ItZS1yZXNpemUnLAogICAgICAnW1tkYXRhLXNpZGU9bGVmdF1bZGF0YS1zdGF0ZT1jb2xsYXBzZWRdXyZdOmN1cnNvci1lLXJlc2l6ZSBbW2RhdGEtc2lkZT1yaWdodF1bZGF0YS1zdGF0ZT1jb2xsYXBzZWRdXyZdOmN1cnNvci13LXJlc2l6ZScsCiAgICAgICdob3Zlcjpncm91cC1kYXRhLVtjb2xsYXBzaWJsZT1vZmZjYW52YXNdOmJnLXNpZGViYXIgZ3JvdXAtZGF0YS1bY29sbGFwc2libGU9b2ZmY2FudmFzXTp0cmFuc2xhdGUteC0wIGdyb3VwLWRhdGEtW2NvbGxhcHNpYmxlPW9mZmNhbnZhc106YWZ0ZXI6bGVmdC1mdWxsJywKICAgICAgJ1tbZGF0YS1zaWRlPWxlZnRdW2RhdGEtY29sbGFwc2libGU9b2ZmY2FudmFzXV8mXTotcmlnaHQtMicsCiAgICAgICdbW2RhdGEtc2lkZT1yaWdodF1bZGF0YS1jb2xsYXBzaWJsZT1vZmZjYW52YXNdXyZdOi1sZWZ0LTInLAogICAgICBwcm9wcy5jbGFzcywKICAgICkiCiAgICBAY2xpY2s9InRvZ2dsZVNpZGViYXIiCiAgPgogICAgPHNsb3QgLz4KICA8L2J1dHRvbj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+import { useSidebar } from "./utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+
+const { toggleSidebar } = useSidebar()
+</script>
+
+<template>
+  <button
+    data-sidebar="rail"
+    data-slot="sidebar-rail"
+    aria-label="Toggle Sidebar"
+    :tabindex="-1"
+    title="Toggle Sidebar"
+    :class="cn(
+      'hover:after:bg-sidebar-border absolute inset-y-0 z-20 hidden w-4 -translate-x-1/2 transition-all ease-linear group-data-[side=left]:-right-4 group-data-[side=right]:left-0 after:absolute after:inset-y-0 after:left-1/2 after:w-[2px] sm:flex',
+      'in-data-[side=left]:cursor-w-resize in-data-[side=right]:cursor-e-resize',
+      '[[data-side=left][data-state=collapsed]_&]:cursor-e-resize [[data-side=right][data-state=collapsed]_&]:cursor-w-resize',
+      'hover:group-data-[collapsible=offcanvas]:bg-sidebar group-data-[collapsible=offcanvas]:translate-x-0 group-data-[collapsible=offcanvas]:after:left-full',
+      '[[data-side=left][data-collapsible=offcanvas]_&]:-right-2',
+      '[[data-side=right][data-collapsible=offcanvas]_&]:-left-2',
+      props.class,
+    )"
+    @click="toggleSidebar"
+  >
+    <slot />
+  </button>
+</template>

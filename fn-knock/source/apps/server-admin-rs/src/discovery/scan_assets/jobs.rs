@@ -1,1 +1,314 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBkaXNjb3Zlcl9qb2JzKCkgLT4gJidzdGF0aWMgTXV0ZXg8SGFzaE1hcDxTdHJpbmcsIERpc2NvdmVySm9iSGFuZGxlPj4gewogICAgRElTQ09WRVJfSk9CUy5nZXRfb3JfaW5pdCh8fCBNdXRleDo6bmV3KEhhc2hNYXA6Om5ldygpKSkKfQoKZm4gZGlzY292ZXJfam9ic19ndWFyZCgpIC0+IE11dGV4R3VhcmQ8J3N0YXRpYywgSGFzaE1hcDxTdHJpbmcsIERpc2NvdmVySm9iSGFuZGxlPj4gewogICAgZGlzY292ZXJfam9icygpCiAgICAgICAgLmxvY2soKQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8ZXJyb3J8IGVycm9yLmludG9faW5uZXIoKSkKfQoKcHViKHN1cGVyKSBmbiBkaXNjb3Zlcl9qb2JfZ3VhcmQoam9iOiAmRGlzY292ZXJKb2JIYW5kbGUpIC0+IE11dGV4R3VhcmQ8J18sIERpc2NvdmVySm9iPiB7CiAgICBqb2IubG9jaygpLnVud3JhcF9vcl9lbHNlKHxlcnJvcnwgZXJyb3IuaW50b19pbm5lcigpKQp9CgpwdWIoc3VwZXIpIGZuIGNyZWF0ZV9kaXNjb3Zlcl9qb2IoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgc2Nhbl9jaWRyczogVmVjPFN0cmluZz4sCiAgICBzZWxmX3NjYW5faG9zdHM6IFZlYzxTdHJpbmc+LAogICAgZXhjbHVkZV9wb3J0czogVmVjPHUxNj4sCiAgICBydW50aW1lX3NldHRpbmdzOiBTY2FuUnVudGltZVNldHRpbmdzLAogICAgdHJhbnNsYXRvcjogVHJhbnNsYXRvciwKKSAtPiBEaXNjb3ZlckpvYkhhbmRsZSB7CiAgICBjbGVhbnVwX2Rpc2NvdmVyX2pvYnMoKTsKICAgIGxldCBub3cgPSBub3dfbWlsbGlzKCk7CiAgICBsZXQgaWQgPSB1dWlkOjpVdWlkOjpuZXdfdjQoKS50b19zdHJpbmcoKTsKICAgIGxldCBjYW5jZWwgPSBBcmM6Om5ldyhBdG9taWNCb29sOjpuZXcoZmFsc2UpKTsKICAgIGxldCBqb2IgPSBBcmM6Om5ldyhNdXRleDo6bmV3KERpc2NvdmVySm9iIHsKICAgICAgICBpZDogaWQuY2xvbmUoKSwKICAgICAgICBjYW5jZWw6IGNhbmNlbC5jbG9uZSgpLAogICAgICAgIGNyZWF0ZWRfYXQ6IG5vdywKICAgICAgICB1cGRhdGVkX2F0OiBub3csCiAgICAgICAgc3RhdGU6ICJxdWV1ZWQiLnRvX3N0cmluZygpLAogICAgICAgIG1ldGE6IE5vbmUsCiAgICAgICAgcHJvZ3Jlc3M6IE5vbmUsCiAgICAgICAgc2VydmljZV9ldmVudHM6IFZlYzo6bmV3KCksCiAgICAgICAgc2VydmljZV9tYXA6IFZlYzo6bmV3KCksCiAgICAgICAgcmVzdWx0OiBOb25lLAogICAgICAgIGVycm9yOiBOb25lLAogICAgfSkpOwogICAgZGlzY292ZXJfam9ic19ndWFyZCgpLmluc2VydChpZCwgam9iLmNsb25lKCkpOwogICAgZW5mb3JjZV9kaXNjb3Zlcl9qb2JfbGltaXRzKCk7CgogICAgbGV0IGpvYl9mb3JfdGFzayA9IGpvYi5jbG9uZSgpOwogICAgc3RhdGUuc3Bhd25fYmFja2dyb3VuZCgic2VydmljZS1kaXNjb3Zlcnktam9iIiwgYXN5bmMgbW92ZSB7CiAgICAgICAgcnVuX2Rpc2NvdmVyX2pvYigKICAgICAgICAgICAgam9iX2Zvcl90YXNrLAogICAgICAgICAgICBzY2FuX2NpZHJzLAogICAgICAgICAgICBzZWxmX3NjYW5faG9zdHMsCiAgICAgICAgICAgIGV4Y2x1ZGVfcG9ydHMsCiAgICAgICAgICAgIHJ1bnRpbWVfc2V0dGluZ3MsCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgKQogICAgICAgIC5hd2FpdDsKICAgIH0pOwogICAgam9iCn0KCnB1YihzdXBlcikgZm4gZ2V0X2Rpc2NvdmVyX2pvYl9oYW5kbGUoam9iX2lkOiAmc3RyKSAtPiBPcHRpb248RGlzY292ZXJKb2JIYW5kbGU+IHsKICAgIGRpc2NvdmVyX2pvYnNfZ3VhcmQoKS5nZXQoam9iX2lkKS5jbG9uZWQoKQp9CgpwdWIoc3VwZXIpIGZuIGlzX3Rlcm1pbmFsX2Rpc2NvdmVyX3N0YXRlKHN0YXRlOiAmc3RyKSAtPiBib29sIHsKICAgIG1hdGNoZXMhKHN0YXRlLCAiY29tcGxldGVkIiB8ICJjYW5jZWxsZWQiIHwgImZhaWxlZCIpCn0KCnB1YihzdXBlcikgZm4gY2FuY2VsX2Rpc2NvdmVyX2pvYihqb2I6ICZEaXNjb3ZlckpvYkhhbmRsZSkgewogICAgbGV0IG11dCBsb2NrZWQgPSBkaXNjb3Zlcl9qb2JfZ3VhcmQoam9iKTsKICAgIGlmIGlzX3Rlcm1pbmFsX2Rpc2NvdmVyX3N0YXRlKCZsb2NrZWQuc3RhdGUpIHsKICAgICAgICByZXR1cm47CiAgICB9CiAgICBsb2NrZWQuY2FuY2VsLnN0b3JlKHRydWUsIE9yZGVyaW5nOjpTZXFDc3QpOwogICAgbG9ja2VkLnN0YXRlID0gImNhbmNlbGxlZCIudG9fc3RyaW5nKCk7CiAgICBsb2NrZWQuc2VydmljZV9ldmVudHMuY2xlYXIoKTsKICAgIGxvY2tlZC5zZXJ2aWNlX21hcC5jbGVhcigpOwogICAgbG9ja2VkLnVwZGF0ZWRfYXQgPSBub3dfbWlsbGlzKCk7Cn0KCnB1YihzdXBlcikgZm4gY2xlYW51cF9kaXNjb3Zlcl9qb2JzKCkgewogICAgbGV0IG5vdyA9IG5vd19taWxsaXMoKTsKICAgIGxldCBqb2JzID0gZGlzY292ZXJfam9icygpOwogICAgbGV0IGhhbmRsZXMgPSBqb2JzCiAgICAgICAgLmxvY2soKQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8ZXJyb3J8IGVycm9yLmludG9faW5uZXIoKSkKICAgICAgICAuaXRlcigpCiAgICAgICAgLm1hcCh8KGlkLCBqb2IpfCAoaWQuY2xvbmUoKSwgam9iLmNsb25lKCkpKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgbGV0IG11dCBkZWxldGVfaWRzID0gVmVjOjpuZXcoKTsKICAgIGZvciAoaWQsIGpvYikgaW4gaGFuZGxlcyB7CiAgICAgICAgbGV0IG11dCBsb2NrZWQgPSBkaXNjb3Zlcl9qb2JfZ3VhcmQoJmpvYik7CiAgICAgICAgaWYgaXNfdGVybWluYWxfZGlzY292ZXJfc3RhdGUoJmxvY2tlZC5zdGF0ZSkgewogICAgICAgICAgICBpZiBub3cgLSBsb2NrZWQudXBkYXRlZF9hdCA+IERJU0NPVkVSX0pPQl9ET05FX1RUTF9NUyB7CiAgICAgICAgICAgICAgICBkZWxldGVfaWRzLnB1c2goaWQpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBpZiBkaXNjb3Zlcl9qb2JfaW5hY3RpdmVfZXhwaXJlZCgmbG9ja2VkLCBub3cpIHsKICAgICAgICAgICAgbG9ja2VkLmNhbmNlbC5zdG9yZSh0cnVlLCBPcmRlcmluZzo6U2VxQ3N0KTsKICAgICAgICAgICAgbG9ja2VkLnN0YXRlID0gImNhbmNlbGxlZCIudG9fc3RyaW5nKCk7CiAgICAgICAgICAgIGxvY2tlZC5zZXJ2aWNlX2V2ZW50cy5jbGVhcigpOwogICAgICAgICAgICBsb2NrZWQuc2VydmljZV9tYXAuY2xlYXIoKTsKICAgICAgICAgICAgbG9ja2VkLnVwZGF0ZWRfYXQgPSBub3c7CiAgICAgICAgfQogICAgfQogICAgaWYgIWRlbGV0ZV9pZHMuaXNfZW1wdHkoKSB7CiAgICAgICAgbGV0IG11dCBsb2NrZWQgPSBqb2JzLmxvY2soKS51bndyYXBfb3JfZWxzZSh8ZXJyb3J8IGVycm9yLmludG9faW5uZXIoKSk7CiAgICAgICAgZm9yIGlkIGluIGRlbGV0ZV9pZHMgewogICAgICAgICAgICBsb2NrZWQucmVtb3ZlKCZpZCk7CiAgICAgICAgfQogICAgfQogICAgZW5mb3JjZV9kaXNjb3Zlcl9qb2JfbGltaXRzKCk7Cn0KCnB1YihzdXBlcikgZm4gZGlzY292ZXJfam9iX2luYWN0aXZlX2V4cGlyZWQoam9iOiAmRGlzY292ZXJKb2IsIG5vdzogaTY0KSAtPiBib29sIHsKICAgIG5vdy5zYXR1cmF0aW5nX3N1Yihqb2IudXBkYXRlZF9hdCkgPiBESVNDT1ZFUl9KT0JfQUNUSVZFX1RUTF9NUwp9CgpwdWIoc3VwZXIpIGZuIGVuZm9yY2VfZGlzY292ZXJfam9iX2xpbWl0cygpIHsKICAgIGxldCBqb2JzID0gZGlzY292ZXJfam9icygpOwogICAgbGV0IGhhbmRsZXMgPSBqb2JzCiAgICAgICAgLmxvY2soKQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8ZXJyb3J8IGVycm9yLmludG9faW5uZXIoKSkKICAgICAgICAuaXRlcigpCiAgICAgICAgLm1hcCh8KGlkLCBqb2IpfCAoaWQuY2xvbmUoKSwgam9iLmNsb25lKCkpKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgbGV0IG11dCBhY3RpdmUgPSBWZWM6Om5ldygpOwogICAgZm9yIChfaWQsIGpvYikgaW4gJmhhbmRsZXMgewogICAgICAgIGxldCBsb2NrZWQgPSBkaXNjb3Zlcl9qb2JfZ3VhcmQoam9iKTsKICAgICAgICBpZiAhaXNfdGVybWluYWxfZGlzY292ZXJfc3RhdGUoJmxvY2tlZC5zdGF0ZSkgewogICAgICAgICAgICBhY3RpdmUucHVzaCgobG9ja2VkLmNyZWF0ZWRfYXQsIGpvYi5jbG9uZSgpKSk7CiAgICAgICAgfQogICAgfQogICAgYWN0aXZlLnNvcnRfYnlfa2V5KHwoY3JlYXRlZF9hdCwgXyl8ICpjcmVhdGVkX2F0KTsKICAgIGZvciAoXywgam9iKSBpbiBhY3RpdmUKICAgICAgICAuaXRlcigpCiAgICAgICAgLnRha2UoYWN0aXZlLmxlbigpLnNhdHVyYXRpbmdfc3ViKERJU0NPVkVSX0pPQl9NQVhfQUNUSVZFKSkKICAgIHsKICAgICAgICBjYW5jZWxfZGlzY292ZXJfam9iKGpvYik7CiAgICB9CgogICAgbGV0IG11dCBpZHNfYnlfYWdlID0gVmVjOjpuZXcoKTsKICAgIGZvciAoaWQsIGpvYikgaW4gaGFuZGxlcyB7CiAgICAgICAgbGV0IGxvY2tlZCA9IGRpc2NvdmVyX2pvYl9ndWFyZCgmam9iKTsKICAgICAgICBpZHNfYnlfYWdlLnB1c2goKAogICAgICAgICAgICBsb2NrZWQuY3JlYXRlZF9hdCwKICAgICAgICAgICAgaWQsCiAgICAgICAgICAgIGlzX3Rlcm1pbmFsX2Rpc2NvdmVyX3N0YXRlKCZsb2NrZWQuc3RhdGUpLAogICAgICAgICkpOwogICAgfQogICAgaWRzX2J5X2FnZS5zb3J0X2J5X2tleSh8KGNyZWF0ZWRfYXQsIF8sIF8pfCAqY3JlYXRlZF9hdCk7CiAgICBsZXQgb3ZlcmZsb3cgPSBpZHNfYnlfYWdlLmxlbigpLnNhdHVyYXRpbmdfc3ViKERJU0NPVkVSX0pPQl9NQVhfUkVUQUlORUQpOwogICAgaWYgb3ZlcmZsb3cgPT0gMCB7CiAgICAgICAgcmV0dXJuOwogICAgfQogICAgbGV0IG11dCBsb2NrZWRfam9icyA9IGpvYnMubG9jaygpLnVud3JhcF9vcl9lbHNlKHxlcnJvcnwgZXJyb3IuaW50b19pbm5lcigpKTsKICAgIGZvciAoXywgaWQsIHRlcm1pbmFsKSBpbiBpZHNfYnlfYWdlLmludG9faXRlcigpLnRha2Uob3ZlcmZsb3cpIHsKICAgICAgICBpZiB0ZXJtaW5hbCB7CiAgICAgICAgICAgIGxvY2tlZF9qb2JzLnJlbW92ZSgmaWQpOwogICAgICAgIH0gZWxzZSBpZiBsZXQgU29tZShqb2IpID0gbG9ja2VkX2pvYnMuZ2V0KCZpZCkgewogICAgICAgICAgICBjYW5jZWxfZGlzY292ZXJfam9iKGpvYik7CiAgICAgICAgfQogICAgfQp9CgpwdWIoc3VwZXIpIGZuIHNlcmlhbGl6ZV9kaXNjb3Zlcl9qb2Ioam9iOiAmRGlzY292ZXJKb2JIYW5kbGUsIGN1cnNvcjogT3B0aW9uPCZzdHI+KSAtPiBWYWx1ZSB7CiAgICBsZXQgbG9ja2VkID0gZGlzY292ZXJfam9iX2d1YXJkKGpvYik7CiAgICBsZXQgc2VydmljZV9jdXJzb3IgPSBub3JtYWxpemVfc2VydmljZV9jdXJzb3IoY3Vyc29yLCBsb2NrZWQuc2VydmljZV9ldmVudHMubGVuKCkpOwogICAganNvbiEoewogICAgICAgICJqb2JJZCI6IGxvY2tlZC5pZCwKICAgICAgICAic3RhdGUiOiBsb2NrZWQuc3RhdGUsCiAgICAgICAgImNyZWF0ZWRBdCI6IGxvY2tlZC5jcmVhdGVkX2F0LAogICAgICAgICJ1cGRhdGVkQXQiOiBsb2NrZWQudXBkYXRlZF9hdCwKICAgICAgICAibWV0YSI6IGxvY2tlZC5tZXRhLAogICAgICAgICJwcm9ncmVzcyI6IGxvY2tlZC5wcm9ncmVzcywKICAgICAgICAic2VydmljZXMiOiBsb2NrZWQuc2VydmljZV9ldmVudHNbc2VydmljZV9jdXJzb3IuLl0udG9fdmVjKCksCiAgICAgICAgIm5leHRDdXJzb3IiOiBsb2NrZWQuc2VydmljZV9ldmVudHMubGVuKCksCiAgICAgICAgInJlc3VsdCI6IGxvY2tlZC5yZXN1bHQsCiAgICAgICAgImVycm9yIjogbG9ja2VkLmVycm9yLAogICAgfSkKfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfc2VydmljZV9jdXJzb3IodmFsdWU6IE9wdGlvbjwmc3RyPiwgbWF4OiB1c2l6ZSkgLT4gdXNpemUgewogICAgcGFyc2VfanNfcGFyc2VfaW50X3JhZGl4XzEwKHZhbHVlLnVud3JhcF9vcigiMCIpKQogICAgICAgIC5maWx0ZXIofGN1cnNvcnwgKmN1cnNvciA+PSAwKQogICAgICAgIC5tYXAofGN1cnNvcnwgKGN1cnNvciBhcyB1c2l6ZSkubWluKG1heCkpCiAgICAgICAgLnVud3JhcF9vcigwKQp9CgpwdWIoc3VwZXIpIGZuIGRpc2NvdmVyeV9wb3J0X3JhbmdlKCkgLT4gRGlzY292ZXJ5UG9ydFJhbmdlIHsKICAgIERpc2NvdmVyeVBvcnRSYW5nZSB7CiAgICAgICAgc3RhcnQ6IERJU0NPVkVSWV9QT1JUX1JBTkdFX1NUQVJULAogICAgICAgIGVuZDogRElTQ09WRVJZX1BPUlRfUkFOR0VfRU5ELAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGNvdW50X3BvcnRzX2luX3JhbmdlKHJhbmdlOiBEaXNjb3ZlcnlQb3J0UmFuZ2UsIHNraXBfcG9ydHM6ICZbdTE2XSkgLT4gdXNpemUgewogICAgbGV0IHNraXBwZWQgPSBza2lwX3BvcnRzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5jb3BpZWQoKQogICAgICAgIC5maWx0ZXIofHBvcnR8ICpwb3J0ID49IHJhbmdlLnN0YXJ0ICYmICpwb3J0IDw9IHJhbmdlLmVuZCkKICAgICAgICAuY29sbGVjdDo6PEJUcmVlU2V0PF8+PigpCiAgICAgICAgLmxlbigpOwogICAgdXNpemU6OmZyb20ocmFuZ2UuZW5kIC0gcmFuZ2Uuc3RhcnQgKyAxKS5zYXR1cmF0aW5nX3N1Yihza2lwcGVkKQp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX3BvcnRfbGlzdChyYW5nZTogRGlzY292ZXJ5UG9ydFJhbmdlLCBza2lwX3BvcnRzOiAmW3UxNl0pIC0+IFZlYzx1MTY+IHsKICAgIGxldCBza2lwID0gc2tpcF9wb3J0cy5pdGVyKCkuY29waWVkKCkuY29sbGVjdDo6PEJUcmVlU2V0PF8+PigpOwogICAgKHJhbmdlLnN0YXJ0Li49cmFuZ2UuZW5kKQogICAgICAgIC5maWx0ZXIofHBvcnR8ICFza2lwLmNvbnRhaW5zKHBvcnQpKQogICAgICAgIC5jb2xsZWN0KCkKfQoKcHViKHN1cGVyKSBmbiBtZXJnZV9kaXNjb3Zlcnlfc2tpcF9wb3J0cyhiYXNlOiAmW3UxNl0sIGV4dHJhOiAmW3UxNl0pIC0+IFZlYzx1MTY+IHsKICAgIGJhc2UuaXRlcigpCiAgICAgICAgLmNoYWluKGV4dHJhKQogICAgICAgIC5jb3BpZWQoKQogICAgICAgIC5maWx0ZXIofHBvcnR8ICpwb3J0ID4gMCkKICAgICAgICAuY29sbGVjdDo6PEJUcmVlU2V0PF8+PigpCiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLmNvbGxlY3QoKQp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX2Rpc2NvdmVyeV9wb3J0X21vZGVfbGFiZWwoKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgie0RJU0NPVkVSWV9QT1JUX1JBTkdFX1NUQVJUfS17RElTQ09WRVJZX1BPUlRfUkFOR0VfRU5EfSIpCn0KCnB1YihzdXBlcikgZm4gY291bnRfZGlzY292ZXJ5X3NjYW5fcG9ydHNfZm9yX2dyb3VwcygKICAgIGdyb3VwczogJltEaXNjb3ZlcnlIb3N0R3JvdXBdLAogICAgZXhjbHVkZV9wb3J0czogJlt1MTZdLAopIC0+IHVzaXplIHsKICAgIGdyb3VwcwogICAgICAgIC5pdGVyKCkKICAgICAgICAubWFwKHxncm91cHwgewogICAgICAgICAgICBsZXQgc2tpcF9wb3J0cyA9IG1lcmdlX2Rpc2NvdmVyeV9za2lwX3BvcnRzKGV4Y2x1ZGVfcG9ydHMsICZncm91cC5za2lwX3BvcnRzKTsKICAgICAgICAgICAgY291bnRfcG9ydHNfaW5fcmFuZ2UoZGlzY292ZXJ5X3BvcnRfcmFuZ2UoKSwgJnNraXBfcG9ydHMpICogZ3JvdXAuaG9zdHMubGVuKCkKICAgICAgICB9KQogICAgICAgIC5zdW0oKQp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX2Rpc2NvdmVyeV9ob3N0X2dyb3VwcygKICAgIHNjYW5fY2lkcnM6ICZbU3RyaW5nXSwKICAgIHNjYW5faG9zdHM6IE9wdGlvbjwmW1N0cmluZ10+LAogICAgc2VsZl9zY2FuX2hvc3RzOiAmW1N0cmluZ10sCikgLT4gVmVjPERpc2NvdmVyeUhvc3RHcm91cD4gewogICAgbGV0IGFsbG93ZWRfaG9zdHMgPSBzY2FuX2hvc3RzLm1hcCh8aG9zdHN8IGhvc3RzLml0ZXIoKS5jbG9uZWQoKS5jb2xsZWN0Ojo8QlRyZWVTZXQ8Xz4+KCkpOwogICAgbGV0IHNlbGZfc2Nhbl9ob3N0cyA9IGJ1aWxkX3NlbGZfc2Nhbl9ob3N0X3NldChzZWxmX3NjYW5faG9zdHMpOwogICAgbGV0IG11dCBzZWVuX2hvc3RzID0gQlRyZWVTZXQ6Om5ldygpOwogICAgbGV0IG11dCBncm91cHMgPSBWZWM6Om5ldygpOwoKICAgIGZvciBjaWRyIGluIG5vcm1hbGl6ZV9hbGxvd2VkX3NjYW5fY2lkcnMoc2Nhbl9jaWRycy5pdGVyKCkuY2xvbmVkKCkpIHsKICAgICAgICBsZXQgaG9zdHMgPSBleHBhbmRfc2Nhbl9jaWRycyhzdGQ6OnNsaWNlOjpmcm9tX3JlZigmY2lkcikpCiAgICAgICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgICAgICAuZmlsdGVyKHxob3N0fCB7CiAgICAgICAgICAgICAgICBpZiBhbGxvd2VkX2hvc3RzCiAgICAgICAgICAgICAgICAgICAgLmFzX3JlZigpCiAgICAgICAgICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHxhbGxvd2VkX2hvc3RzfCAhYWxsb3dlZF9ob3N0cy5jb250YWlucyhob3N0KSkKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBzZWVuX2hvc3RzLmluc2VydChob3N0LmNsb25lKCkpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgICAgIGlmIGhvc3RzLmlzX2VtcHR5KCkgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CgogICAgICAgIHB1c2hfZGlzY292ZXJ5X2hvc3RfZ3JvdXBzKCZtdXQgZ3JvdXBzLCBob3N0cywgJnNlbGZfc2Nhbl9ob3N0cyk7CiAgICB9CgogICAgZ3JvdXBzCn0KCnB1YihzdXBlcikgZm4gYnVpbGRfc2VsZl9zY2FuX2hvc3Rfc2V0KHNlbGZfc2Nhbl9ob3N0czogJltTdHJpbmddKSAtPiBCVHJlZVNldDxTdHJpbmc+IHsKICAgIHN0ZDo6aXRlcjo6b25jZShMT09QQkFDS19ESVNDT1ZFUllfSE9TVC50b19zdHJpbmcoKSkKICAgICAgICAuY2hhaW4oc2VsZl9zY2FuX2hvc3RzLml0ZXIoKS5tYXAofGhvc3R8IGhvc3QudHJpbSgpLnRvX3N0cmluZygpKSkKICAgICAgICAuZmlsdGVyKHxob3N0fCAhaG9zdC5pc19lbXB0eSgpKQogICAgICAgIC5jb2xsZWN0KCkKfQoKcHViKHN1cGVyKSBmbiBwdXNoX2Rpc2NvdmVyeV9ob3N0X2dyb3VwcygKICAgIGdyb3VwczogJm11dCBWZWM8RGlzY292ZXJ5SG9zdEdyb3VwPiwKICAgIGhvc3RzOiBWZWM8U3RyaW5nPiwKICAgIHNlbGZfc2Nhbl9ob3N0czogJkJUcmVlU2V0PFN0cmluZz4sCikgewogICAgaWYgaG9zdHMuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuOwogICAgfQogICAgbGV0IG11dCByZWd1bGFyX2hvc3RzID0gVmVjOjpuZXcoKTsKICAgIGxldCBtdXQgbG9jYWxfc2VsZl9ob3N0cyA9IFZlYzo6bmV3KCk7CiAgICBmb3IgaG9zdCBpbiBob3N0cyB7CiAgICAgICAgaWYgc2VsZl9zY2FuX2hvc3RzLmNvbnRhaW5zKCZob3N0KSB7CiAgICAgICAgICAgIGxvY2FsX3NlbGZfaG9zdHMucHVzaChob3N0KTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByZWd1bGFyX2hvc3RzLnB1c2goaG9zdCk7CiAgICAgICAgfQogICAgfQogICAgaWYgIXJlZ3VsYXJfaG9zdHMuaXNfZW1wdHkoKSB7CiAgICAgICAgZ3JvdXBzLnB1c2goYnVpbGRfZGlzY292ZXJ5X2hvc3RfZ3JvdXAocmVndWxhcl9ob3N0cywgVmVjOjpuZXcoKSkpOwogICAgfQogICAgaWYgIWxvY2FsX3NlbGZfaG9zdHMuaXNfZW1wdHkoKSB7CiAgICAgICAgZ3JvdXBzLnB1c2goYnVpbGRfZGlzY292ZXJ5X2hvc3RfZ3JvdXAoCiAgICAgICAgICAgIGxvY2FsX3NlbGZfaG9zdHMsCiAgICAgICAgICAgIExPQ0FMX1NFTEZfRElTQ09WRVJZX1NLSVBfUE9SVFMudG9fdmVjKCksCiAgICAgICAgKSk7CiAgICB9Cn0KCnB1YihzdXBlcikgZm4gYnVpbGRfZGlzY292ZXJ5X2hvc3RfZ3JvdXAoCiAgICBob3N0czogVmVjPFN0cmluZz4sCiAgICBza2lwX3BvcnRzOiBWZWM8dTE2PiwKKSAtPiBEaXNjb3ZlcnlIb3N0R3JvdXAgewogICAgRGlzY292ZXJ5SG9zdEdyb3VwIHsgaG9zdHMsIHNraXBfcG9ydHMgfQp9Cg==
+use super::*;
+
+pub(super) fn discover_jobs() -> &'static Mutex<HashMap<String, DiscoverJobHandle>> {
+    DISCOVER_JOBS.get_or_init(|| Mutex::new(HashMap::new()))
+}
+
+fn discover_jobs_guard() -> MutexGuard<'static, HashMap<String, DiscoverJobHandle>> {
+    discover_jobs()
+        .lock()
+        .unwrap_or_else(|error| error.into_inner())
+}
+
+pub(super) fn discover_job_guard(job: &DiscoverJobHandle) -> MutexGuard<'_, DiscoverJob> {
+    job.lock().unwrap_or_else(|error| error.into_inner())
+}
+
+pub(super) fn create_discover_job(
+    state: &AppState,
+    scan_cidrs: Vec<String>,
+    self_scan_hosts: Vec<String>,
+    exclude_ports: Vec<u16>,
+    runtime_settings: ScanRuntimeSettings,
+    translator: Translator,
+) -> DiscoverJobHandle {
+    cleanup_discover_jobs();
+    let now = now_millis();
+    let id = uuid::Uuid::new_v4().to_string();
+    let cancel = Arc::new(AtomicBool::new(false));
+    let job = Arc::new(Mutex::new(DiscoverJob {
+        id: id.clone(),
+        cancel: cancel.clone(),
+        created_at: now,
+        updated_at: now,
+        state: "queued".to_string(),
+        meta: None,
+        progress: None,
+        service_events: Vec::new(),
+        service_map: Vec::new(),
+        result: None,
+        error: None,
+    }));
+    discover_jobs_guard().insert(id, job.clone());
+    enforce_discover_job_limits();
+
+    let job_for_task = job.clone();
+    state.spawn_background("service-discovery-job", async move {
+        run_discover_job(
+            job_for_task,
+            scan_cidrs,
+            self_scan_hosts,
+            exclude_ports,
+            runtime_settings,
+            translator,
+        )
+        .await;
+    });
+    job
+}
+
+pub(super) fn get_discover_job_handle(job_id: &str) -> Option<DiscoverJobHandle> {
+    discover_jobs_guard().get(job_id).cloned()
+}
+
+pub(super) fn is_terminal_discover_state(state: &str) -> bool {
+    matches!(state, "completed" | "cancelled" | "failed")
+}
+
+pub(super) fn cancel_discover_job(job: &DiscoverJobHandle) {
+    let mut locked = discover_job_guard(job);
+    if is_terminal_discover_state(&locked.state) {
+        return;
+    }
+    locked.cancel.store(true, Ordering::SeqCst);
+    locked.state = "cancelled".to_string();
+    locked.service_events.clear();
+    locked.service_map.clear();
+    locked.updated_at = now_millis();
+}
+
+pub(super) fn cleanup_discover_jobs() {
+    let now = now_millis();
+    let jobs = discover_jobs();
+    let handles = jobs
+        .lock()
+        .unwrap_or_else(|error| error.into_inner())
+        .iter()
+        .map(|(id, job)| (id.clone(), job.clone()))
+        .collect::<Vec<_>>();
+    let mut delete_ids = Vec::new();
+    for (id, job) in handles {
+        let mut locked = discover_job_guard(&job);
+        if is_terminal_discover_state(&locked.state) {
+            if now - locked.updated_at > DISCOVER_JOB_DONE_TTL_MS {
+                delete_ids.push(id);
+            }
+            continue;
+        }
+        if discover_job_inactive_expired(&locked, now) {
+            locked.cancel.store(true, Ordering::SeqCst);
+            locked.state = "cancelled".to_string();
+            locked.service_events.clear();
+            locked.service_map.clear();
+            locked.updated_at = now;
+        }
+    }
+    if !delete_ids.is_empty() {
+        let mut locked = jobs.lock().unwrap_or_else(|error| error.into_inner());
+        for id in delete_ids {
+            locked.remove(&id);
+        }
+    }
+    enforce_discover_job_limits();
+}
+
+pub(super) fn discover_job_inactive_expired(job: &DiscoverJob, now: i64) -> bool {
+    now.saturating_sub(job.updated_at) > DISCOVER_JOB_ACTIVE_TTL_MS
+}
+
+pub(super) fn enforce_discover_job_limits() {
+    let jobs = discover_jobs();
+    let handles = jobs
+        .lock()
+        .unwrap_or_else(|error| error.into_inner())
+        .iter()
+        .map(|(id, job)| (id.clone(), job.clone()))
+        .collect::<Vec<_>>();
+    let mut active = Vec::new();
+    for (_id, job) in &handles {
+        let locked = discover_job_guard(job);
+        if !is_terminal_discover_state(&locked.state) {
+            active.push((locked.created_at, job.clone()));
+        }
+    }
+    active.sort_by_key(|(created_at, _)| *created_at);
+    for (_, job) in active
+        .iter()
+        .take(active.len().saturating_sub(DISCOVER_JOB_MAX_ACTIVE))
+    {
+        cancel_discover_job(job);
+    }
+
+    let mut ids_by_age = Vec::new();
+    for (id, job) in handles {
+        let locked = discover_job_guard(&job);
+        ids_by_age.push((
+            locked.created_at,
+            id,
+            is_terminal_discover_state(&locked.state),
+        ));
+    }
+    ids_by_age.sort_by_key(|(created_at, _, _)| *created_at);
+    let overflow = ids_by_age.len().saturating_sub(DISCOVER_JOB_MAX_RETAINED);
+    if overflow == 0 {
+        return;
+    }
+    let mut locked_jobs = jobs.lock().unwrap_or_else(|error| error.into_inner());
+    for (_, id, terminal) in ids_by_age.into_iter().take(overflow) {
+        if terminal {
+            locked_jobs.remove(&id);
+        } else if let Some(job) = locked_jobs.get(&id) {
+            cancel_discover_job(job);
+        }
+    }
+}
+
+pub(super) fn serialize_discover_job(job: &DiscoverJobHandle, cursor: Option<&str>) -> Value {
+    let locked = discover_job_guard(job);
+    let service_cursor = normalize_service_cursor(cursor, locked.service_events.len());
+    json!({
+        "jobId": locked.id,
+        "state": locked.state,
+        "createdAt": locked.created_at,
+        "updatedAt": locked.updated_at,
+        "meta": locked.meta,
+        "progress": locked.progress,
+        "services": locked.service_events[service_cursor..].to_vec(),
+        "nextCursor": locked.service_events.len(),
+        "result": locked.result,
+        "error": locked.error,
+    })
+}
+
+pub(super) fn normalize_service_cursor(value: Option<&str>, max: usize) -> usize {
+    parse_js_parse_int_radix_10(value.unwrap_or("0"))
+        .filter(|cursor| *cursor >= 0)
+        .map(|cursor| (cursor as usize).min(max))
+        .unwrap_or(0)
+}
+
+pub(super) fn discovery_port_range() -> DiscoveryPortRange {
+    DiscoveryPortRange {
+        start: DISCOVERY_PORT_RANGE_START,
+        end: DISCOVERY_PORT_RANGE_END,
+    }
+}
+
+pub(super) fn count_ports_in_range(range: DiscoveryPortRange, skip_ports: &[u16]) -> usize {
+    let skipped = skip_ports
+        .iter()
+        .copied()
+        .filter(|port| *port >= range.start && *port <= range.end)
+        .collect::<BTreeSet<_>>()
+        .len();
+    usize::from(range.end - range.start + 1).saturating_sub(skipped)
+}
+
+pub(super) fn build_port_list(range: DiscoveryPortRange, skip_ports: &[u16]) -> Vec<u16> {
+    let skip = skip_ports.iter().copied().collect::<BTreeSet<_>>();
+    (range.start..=range.end)
+        .filter(|port| !skip.contains(port))
+        .collect()
+}
+
+pub(super) fn merge_discovery_skip_ports(base: &[u16], extra: &[u16]) -> Vec<u16> {
+    base.iter()
+        .chain(extra)
+        .copied()
+        .filter(|port| *port > 0)
+        .collect::<BTreeSet<_>>()
+        .into_iter()
+        .collect()
+}
+
+pub(super) fn build_discovery_port_mode_label() -> String {
+    format!("{DISCOVERY_PORT_RANGE_START}-{DISCOVERY_PORT_RANGE_END}")
+}
+
+pub(super) fn count_discovery_scan_ports_for_groups(
+    groups: &[DiscoveryHostGroup],
+    exclude_ports: &[u16],
+) -> usize {
+    groups
+        .iter()
+        .map(|group| {
+            let skip_ports = merge_discovery_skip_ports(exclude_ports, &group.skip_ports);
+            count_ports_in_range(discovery_port_range(), &skip_ports) * group.hosts.len()
+        })
+        .sum()
+}
+
+pub(super) fn build_discovery_host_groups(
+    scan_cidrs: &[String],
+    scan_hosts: Option<&[String]>,
+    self_scan_hosts: &[String],
+) -> Vec<DiscoveryHostGroup> {
+    let allowed_hosts = scan_hosts.map(|hosts| hosts.iter().cloned().collect::<BTreeSet<_>>());
+    let self_scan_hosts = build_self_scan_host_set(self_scan_hosts);
+    let mut seen_hosts = BTreeSet::new();
+    let mut groups = Vec::new();
+
+    for cidr in normalize_allowed_scan_cidrs(scan_cidrs.iter().cloned()) {
+        let hosts = expand_scan_cidrs(std::slice::from_ref(&cidr))
+            .into_iter()
+            .filter(|host| {
+                if allowed_hosts
+                    .as_ref()
+                    .is_some_and(|allowed_hosts| !allowed_hosts.contains(host))
+                {
+                    return false;
+                }
+                seen_hosts.insert(host.clone())
+            })
+            .collect::<Vec<_>>();
+        if hosts.is_empty() {
+            continue;
+        }
+
+        push_discovery_host_groups(&mut groups, hosts, &self_scan_hosts);
+    }
+
+    groups
+}
+
+pub(super) fn build_self_scan_host_set(self_scan_hosts: &[String]) -> BTreeSet<String> {
+    std::iter::once(LOOPBACK_DISCOVERY_HOST.to_string())
+        .chain(self_scan_hosts.iter().map(|host| host.trim().to_string()))
+        .filter(|host| !host.is_empty())
+        .collect()
+}
+
+pub(super) fn push_discovery_host_groups(
+    groups: &mut Vec<DiscoveryHostGroup>,
+    hosts: Vec<String>,
+    self_scan_hosts: &BTreeSet<String>,
+) {
+    if hosts.is_empty() {
+        return;
+    }
+    let mut regular_hosts = Vec::new();
+    let mut local_self_hosts = Vec::new();
+    for host in hosts {
+        if self_scan_hosts.contains(&host) {
+            local_self_hosts.push(host);
+        } else {
+            regular_hosts.push(host);
+        }
+    }
+    if !regular_hosts.is_empty() {
+        groups.push(build_discovery_host_group(regular_hosts, Vec::new()));
+    }
+    if !local_self_hosts.is_empty() {
+        groups.push(build_discovery_host_group(
+            local_self_hosts,
+            LOCAL_SELF_DISCOVERY_SKIP_PORTS.to_vec(),
+        ));
+    }
+}
+
+pub(super) fn build_discovery_host_group(
+    hosts: Vec<String>,
+    skip_ports: Vec<u16>,
+) -> DiscoveryHostGroup {
+    DiscoveryHostGroup { hosts, skip_ports }
+}

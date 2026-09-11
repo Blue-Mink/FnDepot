@@ -1,1 +1,269 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgb25Vbm1vdW50ZWQsIHJlYWN0aXZlLCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsKICBvbkJlZm9yZVJvdXRlTGVhdmUsCiAgb25CZWZvcmVSb3V0ZVVwZGF0ZSwKICB1c2VSb3V0ZSwKICB1c2VSb3V0ZXIsCn0gZnJvbSAidnVlLXJvdXRlciI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IGV4dHJhY3RFcnJvck1lc3NhZ2UgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdXNlQ29uZmlybWF0aW9uRGlhbG9nIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VDb25maXJtYXRpb25EaWFsb2ciOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyBDb25maWdBUEksIHR5cGUgU3RyZWFtQnlwYXNzUG9saWN5IH0gZnJvbSAiQC9saWIvYXBpL2NvbmZpZyI7CmltcG9ydCB7IHVzZUNvbmZpZ1N0b3JlIH0gZnJvbSAiLi4vLi4vc3RvcmUvY29uZmlnIjsKaW1wb3J0IHR5cGUgeyBTdHJlYW1NYXBwaW5nIH0gZnJvbSAiLi4vLi4vdHlwZXMiOwppbXBvcnQgewogIGNsb25lU3RyZWFtQnlwYXNzUG9saWN5LAogIGNyZWF0ZUJsYW5rU3RyZWFtQnlwYXNzR3JvdXAsCiAgZ2V0U3RyZWFtQnlwYXNzVmFsaWRhdGlvbklzc3VlLAogIGlzQnJvYWRTdHJlYW1CeXBhc3NQb2xpY3ksCiAgc25hcHNob3RTdHJlYW1CeXBhc3NQb2xpY3ksCiAgdG9TdHJlYW1CeXBhc3NQb2xpY3lQYXlsb2FkLAogIHR5cGUgU3RyZWFtQnlwYXNzUG9saWN5Rm9ybSwKfSBmcm9tICIuL3N0cmVhbS1ieXBhc3MtcG9saWN5LWZvcm0iOwoKY29uc3QgZW1wdHlQb2xpY3kgPSAoKTogU3RyZWFtQnlwYXNzUG9saWN5ID0+ICh7CiAgYnJvYWRfcnVsZV9jb25maXJtZWQ6IGZhbHNlLAogIGVuYWJsZWQ6IGZhbHNlLAogIGdyb3VwczogW10sCiAgcG9saWN5X3ZlcnNpb246ICIiLAp9KTsKCmV4cG9ydCBjb25zdCB1c2VTdHJlYW1CeXBhc3NQb2xpY3lQYWdlID0gKCkgPT4gewogIGNvbnN0IHJvdXRlID0gdXNlUm91dGUoKTsKICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTsKICBjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKICBjb25zdCBjb25maWdTdG9yZSA9IHVzZUNvbmZpZ1N0b3JlKCk7CiAgY29uc3QgY29uZmlybWF0aW9uID0gdXNlQ29uZmlybWF0aW9uRGlhbG9nKCk7CiAgY29uc3QgcHJvdG9jb2wgPSBjb21wdXRlZCgoKSA9PgogICAgU3RyaW5nKHJvdXRlLnBhcmFtcy5wcm90b2NvbCA/PyAiIikKICAgICAgLnRyaW0oKQogICAgICAudG9Mb3dlckNhc2UoKSwKICApOwogIGNvbnN0IGxpc3RlblBvcnQgPSBjb21wdXRlZCgoKSA9PiBOdW1iZXIocm91dGUucGFyYW1zLnBvcnQpKTsKICBjb25zdCBsb2FkaW5nID0gcmVmKHRydWUpOwogIGNvbnN0IHNhdmluZyA9IHJlZihmYWxzZSk7CiAgY29uc3QgbWlzc2luZyA9IHJlZihmYWxzZSk7CiAgY29uc3QgbG9hZEVycm9yID0gcmVmKCIiKTsKICBjb25zdCBtYXBwaW5nID0gcmVmPFN0cmVhbU1hcHBpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBzYXZlZFNuYXBzaG90ID0gcmVmKCIiKTsKICBjb25zdCBjb25maXJtZWRCcm9hZFNuYXBzaG90ID0gcmVmKCIiKTsKICBjb25zdCB2YWx1ZURyYWZ0cyA9IHJlYWN0aXZlPFJlY29yZDxzdHJpbmcsIHN0cmluZz4+KHt9KTsKICBjb25zdCBmb3JtID0gcmVhY3RpdmU8U3RyZWFtQnlwYXNzUG9saWN5Rm9ybT4oCiAgICBjbG9uZVN0cmVhbUJ5cGFzc1BvbGljeShlbXB0eVBvbGljeSgpKSwKICApOwogIGxldCBsb2FkU2VxdWVuY2UgPSAwOwogIGNvbnN0IHNuYXBzaG90ID0gKCkgPT4gc25hcHNob3RTdHJlYW1CeXBhc3NQb2xpY3koZm9ybSk7CiAgY29uc3QgaXNEaXJ0eSA9IGNvbXB1dGVkKCgpID0+IHNuYXBzaG90KCkgIT09IHNhdmVkU25hcHNob3QudmFsdWUpOwogIGNvbnN0IGlzQnJvYWRSdWxlID0gY29tcHV0ZWQoKCkgPT4gaXNCcm9hZFN0cmVhbUJ5cGFzc1BvbGljeShmb3JtKSk7CiAgY29uc3QgYXV0aEVuYWJsZWQgPSBjb21wdXRlZCgoKSA9PiBtYXBwaW5nLnZhbHVlPy51c2VfYXV0aCA9PT0gdHJ1ZSk7CiAgY29uc3QgbWFwcGluZ0xhYmVsID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3QgY3VycmVudCA9IG1hcHBpbmcudmFsdWU7CiAgICByZXR1cm4gY3VycmVudAogICAgICA/IGAke2N1cnJlbnQucHJvdG9jb2wudG9VcHBlckNhc2UoKX0gOiR7Y3VycmVudC5saXN0ZW5fcG9ydH0g4oaSICR7Y3VycmVudC50YXJnZXR9YAogICAgICA6IGAke3Byb3RvY29sLnZhbHVlLnRvVXBwZXJDYXNlKCl9IDoke2xpc3RlblBvcnQudmFsdWV9YDsKICB9KTsKCiAgY29uc3QgYXBwbHlQb2xpY3kgPSAocG9saWN5OiBTdHJlYW1CeXBhc3NQb2xpY3kpID0+IHsKICAgIE9iamVjdC5rZXlzKHZhbHVlRHJhZnRzKS5mb3JFYWNoKChrZXkpID0+IGRlbGV0ZSB2YWx1ZURyYWZ0c1trZXldKTsKICAgIGNvbnN0IG5leHQgPSBjbG9uZVN0cmVhbUJ5cGFzc1BvbGljeShwb2xpY3kpOwogICAgZm9ybS5lbmFibGVkID0gbmV4dC5lbmFibGVkOwogICAgZm9ybS5wb2xpY3lfdmVyc2lvbiA9IG5leHQucG9saWN5X3ZlcnNpb247CiAgICBmb3JtLmJyb2FkX3J1bGVfY29uZmlybWVkID0gZmFsc2U7CiAgICBmb3JtLmdyb3Vwcy5zcGxpY2UoMCwgZm9ybS5ncm91cHMubGVuZ3RoLCAuLi5uZXh0Lmdyb3Vwcyk7CiAgICBzYXZlZFNuYXBzaG90LnZhbHVlID0gc25hcHNob3QoKTsKICAgIGNvbmZpcm1lZEJyb2FkU25hcHNob3QudmFsdWUgPSAiIjsKICB9OwoKICBjb25zdCBmaW5kTWFwcGluZyA9ICgKICAgIHJlcXVlc3RlZFByb3RvY29sID0gcHJvdG9jb2wudmFsdWUsCiAgICByZXF1ZXN0ZWRQb3J0ID0gbGlzdGVuUG9ydC52YWx1ZSwKICApID0+CiAgICBjb25maWdTdG9yZS5jb25maWc/LnN0cmVhbV9tYXBwaW5ncz8uZmluZCgKICAgICAgKGNhbmRpZGF0ZSkgPT4KICAgICAgICBjYW5kaWRhdGUucHJvdG9jb2wgPT09IHJlcXVlc3RlZFByb3RvY29sICYmCiAgICAgICAgY2FuZGlkYXRlLmxpc3Rlbl9wb3J0ID09PSByZXF1ZXN0ZWRQb3J0LAogICAgKSA/PyBudWxsOwoKICBjb25zdCBsb2FkID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgcmVxdWVzdCA9ICsrbG9hZFNlcXVlbmNlOwogICAgY29uc3QgcmVxdWVzdGVkUHJvdG9jb2wgPSBwcm90b2NvbC52YWx1ZTsKICAgIGNvbnN0IHJlcXVlc3RlZFBvcnQgPSBsaXN0ZW5Qb3J0LnZhbHVlOwogICAgbG9hZGluZy52YWx1ZSA9IHRydWU7CiAgICBsb2FkRXJyb3IudmFsdWUgPSAiIjsKICAgIG1pc3NpbmcudmFsdWUgPSBmYWxzZTsKICAgIG1hcHBpbmcudmFsdWUgPSBudWxsOwogICAgdHJ5IHsKICAgICAgaWYgKAogICAgICAgICFbInRjcCIsICJ1ZHAiXS5pbmNsdWRlcyhyZXF1ZXN0ZWRQcm90b2NvbCkgfHwKICAgICAgICAhTnVtYmVyLmlzSW50ZWdlcihyZXF1ZXN0ZWRQb3J0KSB8fAogICAgICAgIHJlcXVlc3RlZFBvcnQgPCAxIHx8CiAgICAgICAgcmVxdWVzdGVkUG9ydCA+IDY1XzUzNQogICAgICApIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IodCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MucG9saWN5Tm90Rm91bmQiKSk7CiAgICAgIH0KICAgICAgLy8gTGF5b3V0IHJlbW92ZXMgdGhlIGFjdGl2ZSBSb3V0ZXJWaWV3IHdoaWxlIHRoZSBzaGFyZWQgY29uZmlnIHN0b3JlIGlzCiAgICAgIC8vIGxvYWRpbmcuIEZvcmNpbmcgYSByZWxvYWQgZnJvbSB0aGlzIHBhZ2UncyBtb3VudCBwYXRoIHdvdWxkIHRoZXJlZm9yZQogICAgICAvLyB1bm1vdW50IHRoZSBwYWdlLCB0aGVuIG1vdW50IGl0IGFnYWluIGFzIHNvb24gYXMgdGhlIHJlcXVlc3QgY29tcGxldGVzLAogICAgICAvLyBjcmVhdGluZyBhbiBlbmRsZXNzIGNvbmZpZy1yZXF1ZXN0IGxvb3AuIExheW91dCBoYXMgbm9ybWFsbHkgbG9hZGVkIHRoZQogICAgICAvLyBjb25maWcgYmVmb3JlIHJlbmRlcmluZyB0aGlzIHJvdXRlOyBvbmx5IGZpbGwgaXQgaW4gd2hlbiBpdCBpcyBhYnNlbnQuCiAgICAgIGlmICghY29uZmlnU3RvcmUuY29uZmlnKSB7CiAgICAgICAgYXdhaXQgY29uZmlnU3RvcmUubG9hZENvbmZpZygpOwogICAgICB9CiAgICAgIGlmIChyZXF1ZXN0ICE9PSBsb2FkU2VxdWVuY2UpIHJldHVybjsKICAgICAgY29uc3QgcmVxdWVzdGVkTWFwcGluZyA9IGZpbmRNYXBwaW5nKHJlcXVlc3RlZFByb3RvY29sLCByZXF1ZXN0ZWRQb3J0KTsKICAgICAgaWYgKCFyZXF1ZXN0ZWRNYXBwaW5nKSB7CiAgICAgICAgbWlzc2luZy52YWx1ZSA9IHRydWU7CiAgICAgICAgbG9hZEVycm9yLnZhbHVlID0gdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MucG9saWN5Tm90Rm91bmQiKTsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgICAgY29uc3QgcG9saWN5ID0gYXdhaXQgQ29uZmlnQVBJLmdldFN0cmVhbUJ5cGFzc1BvbGljeShyZXF1ZXN0ZWRNYXBwaW5nKTsKICAgICAgaWYgKHJlcXVlc3QgIT09IGxvYWRTZXF1ZW5jZSkgcmV0dXJuOwogICAgICBtYXBwaW5nLnZhbHVlID0gcmVxdWVzdGVkTWFwcGluZzsKICAgICAgYXBwbHlQb2xpY3kocG9saWN5KTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGlmIChyZXF1ZXN0ICE9PSBsb2FkU2VxdWVuY2UpIHJldHVybjsKICAgICAgbWlzc2luZy52YWx1ZSA9IHRydWU7CiAgICAgIGxvYWRFcnJvci52YWx1ZSA9IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgZXJyb3IsCiAgICAgICAgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MucG9saWN5TG9hZEZhaWxlZCIpLAogICAgICApOwogICAgfSBmaW5hbGx5IHsKICAgICAgaWYgKHJlcXVlc3QgPT09IGxvYWRTZXF1ZW5jZSkgbG9hZGluZy52YWx1ZSA9IGZhbHNlOwogICAgfQogIH07CgogIGNvbnN0IGNhbmNlbCA9ICgpID0+CiAgICB2b2lkIHJvdXRlci5wdXNoKHsgcGF0aDogIi9tYXBwaW5ncyIsIHF1ZXJ5OiB7IHRhYjogInByb3RvY29sIiB9IH0pOwoKICBjb25zdCBzZXRFbmFibGVkID0gKGVuYWJsZWQ6IGJvb2xlYW4pID0+IHsKICAgIGlmIChlbmFibGVkICYmICFhdXRoRW5hYmxlZC52YWx1ZSkgcmV0dXJuOwogICAgZm9ybS5lbmFibGVkID0gZW5hYmxlZDsKICAgIGlmIChlbmFibGVkICYmIGZvcm0uZ3JvdXBzLmxlbmd0aCA9PT0gMCkgewogICAgICBmb3JtLmdyb3Vwcy5wdXNoKGNyZWF0ZUJsYW5rU3RyZWFtQnlwYXNzR3JvdXAoKSk7CiAgICB9CiAgfTsKCiAgY29uc3Qgc2hvd1ZhbGlkYXRpb25FcnJvciA9ICgKICAgIGlzc3VlOiBOb25OdWxsYWJsZTxSZXR1cm5UeXBlPHR5cGVvZiBnZXRTdHJlYW1CeXBhc3NWYWxpZGF0aW9uSXNzdWU+PiwKICApID0+IHsKICAgIGlmICgKICAgICAgaXNzdWUua2luZCA9PT0gImludmFsaWQtc291cmNlLWFkZHJlc3MiIHx8CiAgICAgIGlzc3VlLmtpbmQgPT09ICJpbnZhbGlkLXNvdXJjZS1jaWRyIgogICAgKSB7CiAgICAgIHRvYXN0LmVycm9yKAogICAgICAgIHQoCiAgICAgICAgICBpc3N1ZS5raW5kID09PSAiaW52YWxpZC1zb3VyY2UtYWRkcmVzcyIKICAgICAgICAgICAgPyAiYWRtaW4uYWR2YW5jZWRBdXRoLmludmFsaWRTb3VyY2VJcExpbmUiCiAgICAgICAgICAgIDogImFkbWluLmFkdmFuY2VkQXV0aC5pbnZhbGlkU291cmNlQ2lkckxpbmUiLAogICAgICAgICAgeyBsaW5lOiBpc3N1ZS5saW5lIH0sCiAgICAgICAgKSwKICAgICAgKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgY29uc3Qga2V5ID0gewogICAgICAiZW1wdHktZ3JvdXAiOiAiYWRtaW4uc3RyZWFtTWFwcGluZ3MucG9saWN5RW1wdHlHcm91cCIsCiAgICAgICJpbnZhbGlkLWNvbmRpdGlvbiI6ICJhZG1pbi5zdHJlYW1NYXBwaW5ncy5wb2xpY3lJbnZhbGlkQ29uZGl0aW9uIiwKICAgICAgIm1pc3NpbmctcnVsZXMiOiAiYWRtaW4uc3RyZWFtTWFwcGluZ3MucG9saWN5TWlzc2luZ1J1bGVzIiwKICAgIH1baXNzdWUua2luZF07CiAgICB0b2FzdC5lcnJvcih0KGtleSkpOwogIH07CgogIGNvbnN0IHNhdmUgPSBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBjdXJyZW50ID0gbWFwcGluZy52YWx1ZTsKICAgIGlmICghY3VycmVudCB8fCBzYXZpbmcudmFsdWUgfHwgIWlzRGlydHkudmFsdWUpIHJldHVybjsKICAgIGNvbnN0IGlzc3VlID0gZ2V0U3RyZWFtQnlwYXNzVmFsaWRhdGlvbklzc3VlKGZvcm0pOwogICAgaWYgKGlzc3VlKSB7CiAgICAgIHNob3dWYWxpZGF0aW9uRXJyb3IoaXNzdWUpOwogICAgICByZXR1cm47CiAgICB9CiAgICBjb25zdCBwZW5kaW5nU25hcHNob3QgPSBzbmFwc2hvdCgpOwogICAgaWYgKAogICAgICBmb3JtLmVuYWJsZWQgJiYKICAgICAgaXNCcm9hZFJ1bGUudmFsdWUgJiYKICAgICAgY29uZmlybWVkQnJvYWRTbmFwc2hvdC52YWx1ZSAhPT0gcGVuZGluZ1NuYXBzaG90CiAgICApIHsKICAgICAgY29uc3QgY29uZmlybWVkID0gYXdhaXQgY29uZmlybWF0aW9uLnJlcXVlc3RDb25maXJtYXRpb24oewogICAgICAgIGNvbmZpcm1UZXh0OiB0KCJjb21tb24uc2F2ZSIpLAogICAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5wb2xpY3lCcm9hZFJ1bGVDb25maXJtIiksCiAgICAgICAgdGl0bGU6IHQoImNvbW1vbi5jb25maXJtIiksCiAgICAgIH0pOwogICAgICBpZiAoIWNvbmZpcm1lZCkgcmV0dXJuOwogICAgICBjb25maXJtZWRCcm9hZFNuYXBzaG90LnZhbHVlID0gcGVuZGluZ1NuYXBzaG90OwogICAgfQogICAgY29uc3QgYnJvYWRDb25maXJtZWQgPQogICAgICBmb3JtLmVuYWJsZWQgJiYKICAgICAgaXNCcm9hZFJ1bGUudmFsdWUgJiYKICAgICAgY29uZmlybWVkQnJvYWRTbmFwc2hvdC52YWx1ZSA9PT0gcGVuZGluZ1NuYXBzaG90OwogICAgc2F2aW5nLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHNhdmVkID0gYXdhaXQgQ29uZmlnQVBJLnVwZGF0ZVN0cmVhbUJ5cGFzc1BvbGljeSgKICAgICAgICBjdXJyZW50LAogICAgICAgIHRvU3RyZWFtQnlwYXNzUG9saWN5UGF5bG9hZChmb3JtLCBicm9hZENvbmZpcm1lZCksCiAgICAgICk7CiAgICAgIGFwcGx5UG9saWN5KHNhdmVkKTsKICAgICAgYXdhaXQgY29uZmlnU3RvcmUucmVmcmVzaFN0cmVhbU1hcHBpbmdzT25seSgpOwogICAgICBtYXBwaW5nLnZhbHVlID0gZmluZE1hcHBpbmcoKTsKICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5wb2xpY3lTYXZlZCIpKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnBvbGljeVNhdmVGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCB0KCJjb21tb24udHJ5TGF0ZXIiKSksCiAgICAgIH0pOwogICAgfSBmaW5hbGx5IHsKICAgICAgc2F2aW5nLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfTsKCiAgY29uc3QgY29uZmlybURpc2NhcmQgPSAoKSA9PiB7CiAgICBpZiAoc2F2aW5nLnZhbHVlKSByZXR1cm4gZmFsc2U7CiAgICBpZiAoIWlzRGlydHkudmFsdWUpIHJldHVybiB0cnVlOwogICAgcmV0dXJuIGNvbmZpcm1hdGlvbi5yZXF1ZXN0Q29uZmlybWF0aW9uKHsKICAgICAgY29uZmlybVZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIsCiAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5wb2xpY3lEaXNjYXJkQ29uZmlybSIpLAogICAgICB0aXRsZTogdCgiY29tbW9uLmNvbmZpcm0iKSwKICAgIH0pOwogIH07CiAgb25CZWZvcmVSb3V0ZUxlYXZlKGNvbmZpcm1EaXNjYXJkKTsKICBvbkJlZm9yZVJvdXRlVXBkYXRlKGNvbmZpcm1EaXNjYXJkKTsKICBjb25zdCBoYW5kbGVCZWZvcmVVbmxvYWQgPSAoZXZlbnQ6IEJlZm9yZVVubG9hZEV2ZW50KSA9PiB7CiAgICBpZiAoIWlzRGlydHkudmFsdWUpIHJldHVybjsKICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KCk7CiAgICBldmVudC5yZXR1cm5WYWx1ZSA9ICIiOwogIH07CiAgb25Nb3VudGVkKCgpID0+IHsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJiZWZvcmV1bmxvYWQiLCBoYW5kbGVCZWZvcmVVbmxvYWQpOwogIH0pOwogIHdhdGNoKFtwcm90b2NvbCwgbGlzdGVuUG9ydF0sICgpID0+IHZvaWQgbG9hZCgpLCB7IGltbWVkaWF0ZTogdHJ1ZSB9KTsKICBvblVubW91bnRlZCgoKSA9PiB7CiAgICBsb2FkU2VxdWVuY2UgKz0gMTsKICAgIHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCJiZWZvcmV1bmxvYWQiLCBoYW5kbGVCZWZvcmVVbmxvYWQpOwogIH0pOwoKICByZXR1cm4gcmVhY3RpdmUoewogICAgYXV0aEVuYWJsZWQsCiAgICBjYW5jZWwsCiAgICBjb25maXJtYXRpb25EaWFsb2dPcGVuOiBjb25maXJtYXRpb24uY29uZmlybWF0aW9uRGlhbG9nT3BlbiwKICAgIGNvbmZpcm1hdGlvbkRpYWxvZ09wdGlvbnM6IGNvbmZpcm1hdGlvbi5jb25maXJtYXRpb25EaWFsb2dPcHRpb25zLAogICAgY29uZmlybVBlbmRpbmdBY3Rpb246IGNvbmZpcm1hdGlvbi5jb25maXJtUGVuZGluZ0FjdGlvbiwKICAgIGZvcm0sCiAgICBoYW5kbGVDb25maXJtYXRpb25EaWFsb2dPcGVuQ2hhbmdlOgogICAgICBjb25maXJtYXRpb24uaGFuZGxlQ29uZmlybWF0aW9uRGlhbG9nT3BlbkNoYW5nZSwKICAgIGlzQnJvYWRSdWxlLAogICAgaXNEaXJ0eSwKICAgIGxpc3RlblBvcnQsCiAgICBsb2FkRXJyb3IsCiAgICBsb2FkaW5nLAogICAgbWFwcGluZywKICAgIG1hcHBpbmdMYWJlbCwKICAgIG1pc3NpbmcsCiAgICBwcm90b2NvbCwKICAgIHNhdmUsCiAgICBzYXZpbmcsCiAgICBzZXRFbmFibGVkLAogICAgdmFsdWVEcmFmdHMsCiAgfSk7Cn07CgpleHBvcnQgdHlwZSBTdHJlYW1CeXBhc3NQb2xpY3lQYWdlTW9kZWwgPSBSZXR1cm5UeXBlPAogIHR5cGVvZiB1c2VTdHJlYW1CeXBhc3NQb2xpY3lQYWdlCj47Cg==
+import { computed, onMounted, onUnmounted, reactive, ref, watch } from "vue";
+import {
+  onBeforeRouteLeave,
+  onBeforeRouteUpdate,
+  useRoute,
+  useRouter,
+} from "vue-router";
+import { useI18n } from "vue-i18n";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { useConfirmationDialog } from "@admin-shared/composables/useConfirmationDialog";
+import { toast } from "@admin-shared/utils/toast";
+import { ConfigAPI, type StreamBypassPolicy } from "@/lib/api/config";
+import { useConfigStore } from "../../store/config";
+import type { StreamMapping } from "../../types";
+import {
+  cloneStreamBypassPolicy,
+  createBlankStreamBypassGroup,
+  getStreamBypassValidationIssue,
+  isBroadStreamBypassPolicy,
+  snapshotStreamBypassPolicy,
+  toStreamBypassPolicyPayload,
+  type StreamBypassPolicyForm,
+} from "./stream-bypass-policy-form";
+
+const emptyPolicy = (): StreamBypassPolicy => ({
+  broad_rule_confirmed: false,
+  enabled: false,
+  groups: [],
+  policy_version: "",
+});
+
+export const useStreamBypassPolicyPage = () => {
+  const route = useRoute();
+  const router = useRouter();
+  const { t } = useI18n();
+  const configStore = useConfigStore();
+  const confirmation = useConfirmationDialog();
+  const protocol = computed(() =>
+    String(route.params.protocol ?? "")
+      .trim()
+      .toLowerCase(),
+  );
+  const listenPort = computed(() => Number(route.params.port));
+  const loading = ref(true);
+  const saving = ref(false);
+  const missing = ref(false);
+  const loadError = ref("");
+  const mapping = ref<StreamMapping | null>(null);
+  const savedSnapshot = ref("");
+  const confirmedBroadSnapshot = ref("");
+  const valueDrafts = reactive<Record<string, string>>({});
+  const form = reactive<StreamBypassPolicyForm>(
+    cloneStreamBypassPolicy(emptyPolicy()),
+  );
+  let loadSequence = 0;
+  const snapshot = () => snapshotStreamBypassPolicy(form);
+  const isDirty = computed(() => snapshot() !== savedSnapshot.value);
+  const isBroadRule = computed(() => isBroadStreamBypassPolicy(form));
+  const authEnabled = computed(() => mapping.value?.use_auth === true);
+  const mappingLabel = computed(() => {
+    const current = mapping.value;
+    return current
+      ? `${current.protocol.toUpperCase()} :${current.listen_port} → ${current.target}`
+      : `${protocol.value.toUpperCase()} :${listenPort.value}`;
+  });
+
+  const applyPolicy = (policy: StreamBypassPolicy) => {
+    Object.keys(valueDrafts).forEach((key) => delete valueDrafts[key]);
+    const next = cloneStreamBypassPolicy(policy);
+    form.enabled = next.enabled;
+    form.policy_version = next.policy_version;
+    form.broad_rule_confirmed = false;
+    form.groups.splice(0, form.groups.length, ...next.groups);
+    savedSnapshot.value = snapshot();
+    confirmedBroadSnapshot.value = "";
+  };
+
+  const findMapping = (
+    requestedProtocol = protocol.value,
+    requestedPort = listenPort.value,
+  ) =>
+    configStore.config?.stream_mappings?.find(
+      (candidate) =>
+        candidate.protocol === requestedProtocol &&
+        candidate.listen_port === requestedPort,
+    ) ?? null;
+
+  const load = async () => {
+    const request = ++loadSequence;
+    const requestedProtocol = protocol.value;
+    const requestedPort = listenPort.value;
+    loading.value = true;
+    loadError.value = "";
+    missing.value = false;
+    mapping.value = null;
+    try {
+      if (
+        !["tcp", "udp"].includes(requestedProtocol) ||
+        !Number.isInteger(requestedPort) ||
+        requestedPort < 1 ||
+        requestedPort > 65_535
+      ) {
+        throw new Error(t("admin.streamMappings.policyNotFound"));
+      }
+      // Layout removes the active RouterView while the shared config store is
+      // loading. Forcing a reload from this page's mount path would therefore
+      // unmount the page, then mount it again as soon as the request completes,
+      // creating an endless config-request loop. Layout has normally loaded the
+      // config before rendering this route; only fill it in when it is absent.
+      if (!configStore.config) {
+        await configStore.loadConfig();
+      }
+      if (request !== loadSequence) return;
+      const requestedMapping = findMapping(requestedProtocol, requestedPort);
+      if (!requestedMapping) {
+        missing.value = true;
+        loadError.value = t("admin.streamMappings.policyNotFound");
+        return;
+      }
+      const policy = await ConfigAPI.getStreamBypassPolicy(requestedMapping);
+      if (request !== loadSequence) return;
+      mapping.value = requestedMapping;
+      applyPolicy(policy);
+    } catch (error) {
+      if (request !== loadSequence) return;
+      missing.value = true;
+      loadError.value = extractErrorMessage(
+        error,
+        t("admin.streamMappings.policyLoadFailed"),
+      );
+    } finally {
+      if (request === loadSequence) loading.value = false;
+    }
+  };
+
+  const cancel = () =>
+    void router.push({ path: "/mappings", query: { tab: "protocol" } });
+
+  const setEnabled = (enabled: boolean) => {
+    if (enabled && !authEnabled.value) return;
+    form.enabled = enabled;
+    if (enabled && form.groups.length === 0) {
+      form.groups.push(createBlankStreamBypassGroup());
+    }
+  };
+
+  const showValidationError = (
+    issue: NonNullable<ReturnType<typeof getStreamBypassValidationIssue>>,
+  ) => {
+    if (
+      issue.kind === "invalid-source-address" ||
+      issue.kind === "invalid-source-cidr"
+    ) {
+      toast.error(
+        t(
+          issue.kind === "invalid-source-address"
+            ? "admin.advancedAuth.invalidSourceIpLine"
+            : "admin.advancedAuth.invalidSourceCidrLine",
+          { line: issue.line },
+        ),
+      );
+      return;
+    }
+    const key = {
+      "empty-group": "admin.streamMappings.policyEmptyGroup",
+      "invalid-condition": "admin.streamMappings.policyInvalidCondition",
+      "missing-rules": "admin.streamMappings.policyMissingRules",
+    }[issue.kind];
+    toast.error(t(key));
+  };
+
+  const save = async () => {
+    const current = mapping.value;
+    if (!current || saving.value || !isDirty.value) return;
+    const issue = getStreamBypassValidationIssue(form);
+    if (issue) {
+      showValidationError(issue);
+      return;
+    }
+    const pendingSnapshot = snapshot();
+    if (
+      form.enabled &&
+      isBroadRule.value &&
+      confirmedBroadSnapshot.value !== pendingSnapshot
+    ) {
+      const confirmed = await confirmation.requestConfirmation({
+        confirmText: t("common.save"),
+        description: t("admin.streamMappings.policyBroadRuleConfirm"),
+        title: t("common.confirm"),
+      });
+      if (!confirmed) return;
+      confirmedBroadSnapshot.value = pendingSnapshot;
+    }
+    const broadConfirmed =
+      form.enabled &&
+      isBroadRule.value &&
+      confirmedBroadSnapshot.value === pendingSnapshot;
+    saving.value = true;
+    try {
+      const saved = await ConfigAPI.updateStreamBypassPolicy(
+        current,
+        toStreamBypassPolicyPayload(form, broadConfirmed),
+      );
+      applyPolicy(saved);
+      await configStore.refreshStreamMappingsOnly();
+      mapping.value = findMapping();
+      toast.success(t("admin.streamMappings.policySaved"));
+    } catch (error) {
+      toast.error(t("admin.streamMappings.policySaveFailed"), {
+        description: extractErrorMessage(error, t("common.tryLater")),
+      });
+    } finally {
+      saving.value = false;
+    }
+  };
+
+  const confirmDiscard = () => {
+    if (saving.value) return false;
+    if (!isDirty.value) return true;
+    return confirmation.requestConfirmation({
+      confirmVariant: "destructive",
+      description: t("admin.streamMappings.policyDiscardConfirm"),
+      title: t("common.confirm"),
+    });
+  };
+  onBeforeRouteLeave(confirmDiscard);
+  onBeforeRouteUpdate(confirmDiscard);
+  const handleBeforeUnload = (event: BeforeUnloadEvent) => {
+    if (!isDirty.value) return;
+    event.preventDefault();
+    event.returnValue = "";
+  };
+  onMounted(() => {
+    window.addEventListener("beforeunload", handleBeforeUnload);
+  });
+  watch([protocol, listenPort], () => void load(), { immediate: true });
+  onUnmounted(() => {
+    loadSequence += 1;
+    window.removeEventListener("beforeunload", handleBeforeUnload);
+  });
+
+  return reactive({
+    authEnabled,
+    cancel,
+    confirmationDialogOpen: confirmation.confirmationDialogOpen,
+    confirmationDialogOptions: confirmation.confirmationDialogOptions,
+    confirmPendingAction: confirmation.confirmPendingAction,
+    form,
+    handleConfirmationDialogOpenChange:
+      confirmation.handleConfirmationDialogOpenChange,
+    isBroadRule,
+    isDirty,
+    listenPort,
+    loadError,
+    loading,
+    mapping,
+    mappingLabel,
+    missing,
+    protocol,
+    save,
+    saving,
+    setEnabled,
+    valueDrafts,
+  });
+};
+
+export type StreamBypassPolicyPageModel = ReturnType<
+  typeof useStreamBypassPolicyPage
+>;

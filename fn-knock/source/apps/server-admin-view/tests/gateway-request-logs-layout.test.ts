@@ -1,1 +1,34 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHRlc3QgZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7CmNvbnN0IHRhYmxlQ29vcmRpbmF0b3JTb3VyY2UgPSByZWFkU291cmNlKAogICIuLi9zcmMvdmlld3MvZ2F0ZXdheS1yZXF1ZXN0LWxvZ3MvR2F0ZXdheVJlcXVlc3RMb2dzVGFibGUudnVlIiwKKTsKY29uc3QgdGFibGVTb3VyY2UgPQogIHRhYmxlQ29vcmRpbmF0b3JTb3VyY2UgKwogIHJlYWRTb3VyY2UoCiAgICAiLi4vc3JjL3ZpZXdzL2dhdGV3YXktcmVxdWVzdC1sb2dzL0dhdGV3YXlSZXF1ZXN0TG9nRGVza3RvcFJvdy52dWUiLAogICk7Cgp0ZXN0KCJyZXF1ZXN0IGxvZyByb3V0ZSBjb2x1bW4gY2Fubm90IGV4cGFuZCBiZXlvbmQgaXRzIGZpeGVkIG1heGltdW0iLCAoKSA9PiB7CiAgY29uc3Qgd2lkdGhDbGFzcyA9ICJ3LVsyMjBweF0gbWluLXctWzE2MHB4XSBtYXgtdy1bMjIwcHhdIjsKICBhc3NlcnQuZXF1YWwodGFibGVTb3VyY2Uuc3BsaXQod2lkdGhDbGFzcykubGVuZ3RoIC0gMSwgMik7CiAgYXNzZXJ0Lm1hdGNoKHRhYmxlU291cmNlLCAvY2xhc3M9InctZnVsbCBtYXgtdy1cWzIwNHB4XF0gb3ZlcmZsb3ctaGlkZGVuIi8pOwogIGFzc2VydC5tYXRjaCgKICAgIHRhYmxlU291cmNlLAogICAgL2NsYXNzPSJ0cnVuY2F0ZSB0ZXh0LXNtIHRleHQtZm9yZWdyb3VuZCJccys6dGl0bGU9InJvdXRlVHlwZUxhYmVsXChlbnRyeVwucm91dGVfdHlwZVwpIi8sCiAgKTsKICBhc3NlcnQubWF0Y2goCiAgICB0YWJsZVNvdXJjZSwKICAgIC9jbGFzcz0idHJ1bmNhdGUgdGV4dC1cWzExcHhcXSB0ZXh0LW11dGVkLWZvcmVncm91bmQiXHMrOnRpdGxlPSJlbnRyeVwucm91dGVfa2V5IFx8XHwgJy0nIi8sCiAgKTsKfSk7Cgp0ZXN0KCJyZXF1ZXN0IGxvZyB0YWJsZSBrZWVwcyBtb2JpbGUgYW5kIGRlc2t0b3Agcm93IHZpZXdzIGlzb2xhdGVkIiwgKCkgPT4gewogIGFzc2VydC5tYXRjaCh0YWJsZUNvb3JkaW5hdG9yU291cmNlLCAvR2F0ZXdheVJlcXVlc3RMb2dNb2JpbGVSb3cvdSk7CiAgYXNzZXJ0Lm1hdGNoKHRhYmxlQ29vcmRpbmF0b3JTb3VyY2UsIC9HYXRld2F5UmVxdWVzdExvZ0Rlc2t0b3BSb3cvdSk7CiAgYXNzZXJ0LmRvZXNOb3RNYXRjaCh0YWJsZUNvb3JkaW5hdG9yU291cmNlLCAvSHVtYW5GcmllbmRseVRpbWUvdSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import test from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+const tableCoordinatorSource = readSource(
+  "../src/views/gateway-request-logs/GatewayRequestLogsTable.vue",
+);
+const tableSource =
+  tableCoordinatorSource +
+  readSource(
+    "../src/views/gateway-request-logs/GatewayRequestLogDesktopRow.vue",
+  );
+
+test("request log route column cannot expand beyond its fixed maximum", () => {
+  const widthClass = "w-[220px] min-w-[160px] max-w-[220px]";
+  assert.equal(tableSource.split(widthClass).length - 1, 2);
+  assert.match(tableSource, /class="w-full max-w-\[204px\] overflow-hidden"/);
+  assert.match(
+    tableSource,
+    /class="truncate text-sm text-foreground"\s+:title="routeTypeLabel\(entry\.route_type\)"/,
+  );
+  assert.match(
+    tableSource,
+    /class="truncate text-\[11px\] text-muted-foreground"\s+:title="entry\.route_key \|\| '-'"/,
+  );
+});
+
+test("request log table keeps mobile and desktop row views isolated", () => {
+  assert.match(tableCoordinatorSource, /GatewayRequestLogMobileRow/u);
+  assert.match(tableCoordinatorSource, /GatewayRequestLogDesktopRow/u);
+  assert.doesNotMatch(tableCoordinatorSource, /HumanFriendlyTime/u);
+});

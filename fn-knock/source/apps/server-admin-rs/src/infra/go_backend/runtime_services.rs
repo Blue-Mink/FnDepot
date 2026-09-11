@@ -1,1 +1,179 @@
-dXNlIHJlcXdlc3Q6OlN0YXR1c0NvZGU7CnVzZSBzZXJkZV9qc29uOjpWYWx1ZTsKCnVzZSBzdXBlcjo6ewogICAgR29CYWNrZW5kQ2xpZW50LCBhY3RpdmVfaXBzX3RvX2pzb24sIGdycGNfZXJyb3IsIG9rLCBwYXJzZV9zc2xfY29uZmlnLCBwYXJzZV93YWZfY29uZmlnLAogICAgcnBjX3N0YXR1c19yZXNwb25zZSwgc3NsX2luZm9fdG9fanNvbiwgc3RhdHVzX3ZhbHVlLCBzdHJlYW1fYWN0aXZlX2lwc190b19qc29uLAogICAgdHJhZmZpY190b19qc29uLCB3YWZfZHJhaW5fdG9fanNvbiwgd2FmX3N0YXR1c190b19qc29uLAp9Owp1c2UgY3JhdGU6OmdycGNfcHJvdG86OnsKICAgIEhvc3RSZXF1ZXN0LCBTdHJlYW1SZXF1ZXN0LCBXYWZCdW5kbGVSZXF1ZXN0LCBXYWZEcmFpbk9wZXJhdGlvbiwgV2FmRHJhaW5SZXF1ZXN0LAp9OwoKI1thbGxvdyhkZWFkX2NvZGUpXQppbXBsIEdvQmFja2VuZENsaWVudCB7CiAgICBwdWIgYXN5bmMgZm4gZ2V0X3RyYWZmaWNfc3RhdHMoJnNlbGYpIC0+IGFueWhvdzo6UmVzdWx0PChTdGF0dXNDb2RlLCBWYWx1ZSk+IHsKICAgICAgICBsZXQgbXV0IGNsaWVudCA9IHNlbGYudHJhZmZpYy5jbG9uZSgpOwogICAgICAgIG1hdGNoIGNsaWVudC5nZXRfdHJhZmZpY19zdGF0cyhzZWxmLnJlcXVlc3QoKCkpKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKHJlc3BvbnNlKSA9PiBPayhvayh0cmFmZmljX3RvX2pzb24ocmVzcG9uc2UuaW50b19pbm5lcigpKSkpLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IE9rKGdycGNfZXJyb3IoZXJyb3IpKSwKICAgICAgICB9CiAgICB9CgogICAgcHViIGFzeW5jIGZuIGdldF9ob3N0X2FjdGl2ZV9pcHMoJnNlbGYsIGhvc3Q6IFN0cmluZykgLT4gYW55aG93OjpSZXN1bHQ8KFN0YXR1c0NvZGUsIFZhbHVlKT4gewogICAgICAgIGxldCBtdXQgY2xpZW50ID0gc2VsZi50cmFmZmljLmNsb25lKCk7CiAgICAgICAgbWF0Y2ggY2xpZW50CiAgICAgICAgICAgIC5nZXRfaG9zdF9hY3RpdmVfaXBzKHNlbGYucmVxdWVzdChIb3N0UmVxdWVzdCB7IGhvc3QgfSkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgT2socmVzcG9uc2UpID0+IE9rKG9rKGFjdGl2ZV9pcHNfdG9fanNvbihyZXNwb25zZS5pbnRvX2lubmVyKCkpKSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gT2soZ3JwY19lcnJvcihlcnJvcikpLAogICAgICAgIH0KICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gZ2V0X3N0cmVhbV9hY3RpdmVfaXBzKAogICAgICAgICZzZWxmLAogICAgICAgIHByb3RvY29sOiBTdHJpbmcsCiAgICAgICAgbGlzdGVuX3BvcnQ6IGkzMiwKICAgICkgLT4gYW55aG93OjpSZXN1bHQ8KFN0YXR1c0NvZGUsIFZhbHVlKT4gewogICAgICAgIGxldCBtdXQgY2xpZW50ID0gc2VsZi50cmFmZmljLmNsb25lKCk7CiAgICAgICAgbWF0Y2ggY2xpZW50CiAgICAgICAgICAgIC5nZXRfc3RyZWFtX2FjdGl2ZV9pcHMoc2VsZi5yZXF1ZXN0KFN0cmVhbVJlcXVlc3QgewogICAgICAgICAgICAgICAgcHJvdG9jb2wsCiAgICAgICAgICAgICAgICBsaXN0ZW5fcG9ydCwKICAgICAgICAgICAgfSkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgT2socmVzcG9uc2UpID0+IE9rKG9rKHN0cmVhbV9hY3RpdmVfaXBzX3RvX2pzb24ocmVzcG9uc2UuaW50b19pbm5lcigpKSkpLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IE9rKGdycGNfZXJyb3IoZXJyb3IpKSwKICAgICAgICB9CiAgICB9CgogICAgcHViIGFzeW5jIGZuIGdldF93YWZfc3RhdHVzKCZzZWxmKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgICAgIGxldCBtdXQgY2xpZW50ID0gc2VsZi53YWYuY2xvbmUoKTsKICAgICAgICBsZXQgcmVzdWx0ID0gbWF0Y2ggY2xpZW50LmdldF93YWZfc3RhdHVzKHNlbGYucmVxdWVzdCgoKSkpLmF3YWl0IHsKICAgICAgICAgICAgT2socmVzcG9uc2UpID0+IG9rKHdhZl9zdGF0dXNfdG9fanNvbihyZXNwb25zZS5pbnRvX2lubmVyKCkpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBncnBjX2Vycm9yKGVycm9yKSwKICAgICAgICB9OwogICAgICAgIHN0YXR1c192YWx1ZSgiZ2V0X3dhZl9zdGF0dXMiLCByZXN1bHQpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIHNldF93YWZfY29uZmlnKCZzZWxmLCBjb25maWc6ICZWYWx1ZSkgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgICAgICBsZXQgbXV0IGNsaWVudCA9IHNlbGYud2FmLmNsb25lKCk7CiAgICAgICAgbGV0IHJlc3VsdCA9IG1hdGNoIGNsaWVudAogICAgICAgICAgICAuc2V0X3dhZl9jb25maWcoc2VsZi5yZXF1ZXN0KHBhcnNlX3dhZl9jb25maWcoY29uZmlnKSkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgT2socmVzcG9uc2UpID0+IG9rKHdhZl9zdGF0dXNfdG9fanNvbihyZXNwb25zZS5pbnRvX2lubmVyKCkpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBncnBjX2Vycm9yKGVycm9yKSwKICAgICAgICB9OwogICAgICAgIHN0YXR1c192YWx1ZSgic2V0X3dhZl9jb25maWciLCByZXN1bHQpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIHJlbG9hZF93YWZfcnVsZXMoJnNlbGYsIGNvbmZpZzogJlZhbHVlKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgICAgIGxldCBtdXQgY2xpZW50ID0gc2VsZi53YWYuY2xvbmUoKTsKICAgICAgICBsZXQgcmVzdWx0ID0gbWF0Y2ggY2xpZW50CiAgICAgICAgICAgIC5yZWxvYWRfd2FmX2J1bmRsZShzZWxmLnJlcXVlc3QoV2FmQnVuZGxlUmVxdWVzdCB7CiAgICAgICAgICAgICAgICBidW5kbGVfaWQ6IFN0cmluZzo6bmV3KCksCiAgICAgICAgICAgICAgICBidW5kbGVfcGF0aDogU3RyaW5nOjpuZXcoKSwKICAgICAgICAgICAgICAgIGhhc19jb25maWc6IHRydWUsCiAgICAgICAgICAgICAgICBjb25maWc6IFNvbWUocGFyc2Vfd2FmX2NvbmZpZyhjb25maWcpKSwKICAgICAgICAgICAgfSkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgT2socmVzcG9uc2UpID0+IG9rKHdhZl9zdGF0dXNfdG9fanNvbihyZXNwb25zZS5pbnRvX2lubmVyKCkpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBncnBjX2Vycm9yKGVycm9yKSwKICAgICAgICB9OwogICAgICAgIHN0YXR1c192YWx1ZSgicmVsb2FkX3dhZl9ydWxlcyIsIHJlc3VsdCkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gbGVhc2Vfd2FmX2V2ZW50cygmc2VsZiwgbGltaXQ6IGk2NCkgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgICAgICBzZWxmLndhZl9ldmVudF9sZWFzZV9yZXF1ZXN0KAogICAgICAgICAgICAibGVhc2Vfd2FmX2V2ZW50cyIsCiAgICAgICAgICAgIFdhZkRyYWluUmVxdWVzdCB7CiAgICAgICAgICAgICAgICBsaW1pdDogaTMyOjp0cnlfZnJvbShsaW1pdCkudW53cmFwX29yKGkzMjo6TUFYKSwKICAgICAgICAgICAgICAgIG9wZXJhdGlvbjogV2FmRHJhaW5PcGVyYXRpb246OkxlYXNlIGFzIGkzMiwKICAgICAgICAgICAgICAgIGxlYXNlX2lkOiBTdHJpbmc6Om5ldygpLAogICAgICAgICAgICB9LAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgIH0KCiAgICAvLy8gUHJlc2VydmUgZ1JQQyBzdGF0dXMgc28gb25seSBVTklNUExFTUVOVEVEIHNlbGVjdHMgbGVnYWN5IHBvbGxpbmcuCiAgICBwdWIoY3JhdGUpIGFzeW5jIGZuIHdhaXRfd2FmX2V2ZW50cygmc2VsZikgLT4gUmVzdWx0PGJvb2wsIHRvbmljOjpTdGF0dXM+IHsKICAgICAgICBsZXQgbXV0IHJlcXVlc3QgPSBzZWxmLnJlcXVlc3QoY3JhdGU6OmdycGNfcHJvdG86OldhZldhaXRSZXF1ZXN0IHsgdGltZW91dF9tczogNjBfMDAwIH0pOwogICAgICAgIHJlcXVlc3Quc2V0X3RpbWVvdXQoc3RkOjp0aW1lOjpEdXJhdGlvbjo6ZnJvbV9zZWNzKDY1KSk7CiAgICAgICAgc2VsZi53YWZfd2FpdAogICAgICAgICAgICAuY2xvbmUoKQogICAgICAgICAgICAud2FpdF93YWZfZXZlbnRzKHJlcXVlc3QpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwKHxyZXNwb25zZXwgcmVzcG9uc2UuaW50b19pbm5lcigpLmF2YWlsYWJsZSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gYWNrbm93bGVkZ2Vfd2FmX2V2ZW50X2xlYXNlKCZzZWxmLCBsZWFzZV9pZDogJnN0cikgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgICAgICBzZWxmLndhZl9ldmVudF9sZWFzZV9yZXF1ZXN0KAogICAgICAgICAgICAiYWNrbm93bGVkZ2Vfd2FmX2V2ZW50X2xlYXNlIiwKICAgICAgICAgICAgV2FmRHJhaW5SZXF1ZXN0IHsKICAgICAgICAgICAgICAgIGxpbWl0OiAwLAogICAgICAgICAgICAgICAgb3BlcmF0aW9uOiBXYWZEcmFpbk9wZXJhdGlvbjo6QWNrbm93bGVkZ2UgYXMgaTMyLAogICAgICAgICAgICAgICAgbGVhc2VfaWQ6IGxlYXNlX2lkLnRvX3N0cmluZygpLAogICAgICAgICAgICB9LAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gcmVsZWFzZV93YWZfZXZlbnRfbGVhc2UoJnNlbGYsIGxlYXNlX2lkOiAmc3RyKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgICAgIHNlbGYud2FmX2V2ZW50X2xlYXNlX3JlcXVlc3QoCiAgICAgICAgICAgICJyZWxlYXNlX3dhZl9ldmVudF9sZWFzZSIsCiAgICAgICAgICAgIFdhZkRyYWluUmVxdWVzdCB7CiAgICAgICAgICAgICAgICBsaW1pdDogMCwKICAgICAgICAgICAgICAgIG9wZXJhdGlvbjogV2FmRHJhaW5PcGVyYXRpb246OlJlbGVhc2UgYXMgaTMyLAogICAgICAgICAgICAgICAgbGVhc2VfaWQ6IGxlYXNlX2lkLnRvX3N0cmluZygpLAogICAgICAgICAgICB9LAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgIH0KCiAgICBhc3luYyBmbiB3YWZfZXZlbnRfbGVhc2VfcmVxdWVzdCgKICAgICAgICAmc2VsZiwKICAgICAgICBvcGVyYXRpb246ICZzdHIsCiAgICAgICAgcmVxdWVzdDogV2FmRHJhaW5SZXF1ZXN0LAogICAgKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgICAgIGxldCBtdXQgY2xpZW50ID0gc2VsZi53YWYuY2xvbmUoKTsKICAgICAgICBsZXQgcmVzdWx0ID0gbWF0Y2ggY2xpZW50LmRyYWluX3dhZl9ldmVudHMoc2VsZi5yZXF1ZXN0KHJlcXVlc3QpKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKHJlc3BvbnNlKSA9PiBvayh3YWZfZHJhaW5fdG9fanNvbihyZXNwb25zZS5pbnRvX2lubmVyKCkpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBncnBjX2Vycm9yKGVycm9yKSwKICAgICAgICB9OwogICAgICAgIHN0YXR1c192YWx1ZShvcGVyYXRpb24sIHJlc3VsdCkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gZ2V0X3NzbF9pbmZvKCZzZWxmKSAtPiBhbnlob3c6OlJlc3VsdDwoU3RhdHVzQ29kZSwgVmFsdWUpPiB7CiAgICAgICAgbGV0IG11dCBjbGllbnQgPSBzZWxmLnNzbC5jbG9uZSgpOwogICAgICAgIG1hdGNoIGNsaWVudC5nZXRfc3NsX2luZm8oc2VsZi5yZXF1ZXN0KCgpKSkuYXdhaXQgewogICAgICAgICAgICBPayhyZXNwb25zZSkgPT4gT2sob2soc3NsX2luZm9fdG9fanNvbihyZXNwb25zZS5pbnRvX2lubmVyKCkpKSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gT2soZ3JwY19lcnJvcihlcnJvcikpLAogICAgICAgIH0KICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gc2V0X3NzbF9kZXBsb3ltZW50KAogICAgICAgICZzZWxmLAogICAgICAgIGRlcGxveW1lbnQ6ICZWYWx1ZSwKICAgICkgLT4gYW55aG93OjpSZXN1bHQ8KFN0YXR1c0NvZGUsIFZhbHVlKT4gewogICAgICAgIGxldCBtdXQgY2xpZW50ID0gc2VsZi5zc2wuY2xvbmUoKTsKICAgICAgICBtYXRjaCBjbGllbnQKICAgICAgICAgICAgLnNldF9zc2xfZGVwbG95bWVudChzZWxmLnJlcXVlc3QocGFyc2Vfc3NsX2NvbmZpZyhkZXBsb3ltZW50KSkpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgT2socmVzcG9uc2UpID0+IE9rKHJwY19zdGF0dXNfcmVzcG9uc2UocmVzcG9uc2UuaW50b19pbm5lcigpKSksCiAgICAgICAgICAgIEVycihlcnJvcikgPT4gT2soZ3JwY19lcnJvcihlcnJvcikpLAogICAgICAgIH0KICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gY2xlYXJfc3NsKCZzZWxmKSAtPiBhbnlob3c6OlJlc3VsdDwoU3RhdHVzQ29kZSwgVmFsdWUpPiB7CiAgICAgICAgbGV0IG11dCBjbGllbnQgPSBzZWxmLnNzbC5jbG9uZSgpOwogICAgICAgIG1hdGNoIGNsaWVudC5jbGVhcl9zc2woc2VsZi5yZXF1ZXN0KCgpKSkuYXdhaXQgewogICAgICAgICAgICBPayhyZXNwb25zZSkgPT4gT2socnBjX3N0YXR1c19yZXNwb25zZShyZXNwb25zZS5pbnRvX2lubmVyKCkpKSwKICAgICAgICAgICAgRXJyKGVycm9yKSA9PiBPayhncnBjX2Vycm9yKGVycm9yKSksCiAgICAgICAgfQogICAgfQp9Cg==
+use reqwest::StatusCode;
+use serde_json::Value;
+
+use super::{
+    GoBackendClient, active_ips_to_json, grpc_error, ok, parse_ssl_config, parse_waf_config,
+    rpc_status_response, ssl_info_to_json, status_value, stream_active_ips_to_json,
+    traffic_to_json, waf_drain_to_json, waf_status_to_json,
+};
+use crate::grpc_proto::{
+    HostRequest, StreamRequest, WafBundleRequest, WafDrainOperation, WafDrainRequest,
+};
+
+#[allow(dead_code)]
+impl GoBackendClient {
+    pub async fn get_traffic_stats(&self) -> anyhow::Result<(StatusCode, Value)> {
+        let mut client = self.traffic.clone();
+        match client.get_traffic_stats(self.request(())).await {
+            Ok(response) => Ok(ok(traffic_to_json(response.into_inner()))),
+            Err(error) => Ok(grpc_error(error)),
+        }
+    }
+
+    pub async fn get_host_active_ips(&self, host: String) -> anyhow::Result<(StatusCode, Value)> {
+        let mut client = self.traffic.clone();
+        match client
+            .get_host_active_ips(self.request(HostRequest { host }))
+            .await
+        {
+            Ok(response) => Ok(ok(active_ips_to_json(response.into_inner()))),
+            Err(error) => Ok(grpc_error(error)),
+        }
+    }
+
+    pub async fn get_stream_active_ips(
+        &self,
+        protocol: String,
+        listen_port: i32,
+    ) -> anyhow::Result<(StatusCode, Value)> {
+        let mut client = self.traffic.clone();
+        match client
+            .get_stream_active_ips(self.request(StreamRequest {
+                protocol,
+                listen_port,
+            }))
+            .await
+        {
+            Ok(response) => Ok(ok(stream_active_ips_to_json(response.into_inner()))),
+            Err(error) => Ok(grpc_error(error)),
+        }
+    }
+
+    pub async fn get_waf_status(&self) -> anyhow::Result<Value> {
+        let mut client = self.waf.clone();
+        let result = match client.get_waf_status(self.request(())).await {
+            Ok(response) => ok(waf_status_to_json(response.into_inner())),
+            Err(error) => grpc_error(error),
+        };
+        status_value("get_waf_status", result)
+    }
+
+    pub async fn set_waf_config(&self, config: &Value) -> anyhow::Result<Value> {
+        let mut client = self.waf.clone();
+        let result = match client
+            .set_waf_config(self.request(parse_waf_config(config)))
+            .await
+        {
+            Ok(response) => ok(waf_status_to_json(response.into_inner())),
+            Err(error) => grpc_error(error),
+        };
+        status_value("set_waf_config", result)
+    }
+
+    pub async fn reload_waf_rules(&self, config: &Value) -> anyhow::Result<Value> {
+        let mut client = self.waf.clone();
+        let result = match client
+            .reload_waf_bundle(self.request(WafBundleRequest {
+                bundle_id: String::new(),
+                bundle_path: String::new(),
+                has_config: true,
+                config: Some(parse_waf_config(config)),
+            }))
+            .await
+        {
+            Ok(response) => ok(waf_status_to_json(response.into_inner())),
+            Err(error) => grpc_error(error),
+        };
+        status_value("reload_waf_rules", result)
+    }
+
+    pub async fn lease_waf_events(&self, limit: i64) -> anyhow::Result<Value> {
+        self.waf_event_lease_request(
+            "lease_waf_events",
+            WafDrainRequest {
+                limit: i32::try_from(limit).unwrap_or(i32::MAX),
+                operation: WafDrainOperation::Lease as i32,
+                lease_id: String::new(),
+            },
+        )
+        .await
+    }
+
+    /// Preserve gRPC status so only UNIMPLEMENTED selects legacy polling.
+    pub(crate) async fn wait_waf_events(&self) -> Result<bool, tonic::Status> {
+        let mut request = self.request(crate::grpc_proto::WafWaitRequest { timeout_ms: 60_000 });
+        request.set_timeout(std::time::Duration::from_secs(65));
+        self.waf_wait
+            .clone()
+            .wait_waf_events(request)
+            .await
+            .map(|response| response.into_inner().available)
+    }
+
+    pub async fn acknowledge_waf_event_lease(&self, lease_id: &str) -> anyhow::Result<Value> {
+        self.waf_event_lease_request(
+            "acknowledge_waf_event_lease",
+            WafDrainRequest {
+                limit: 0,
+                operation: WafDrainOperation::Acknowledge as i32,
+                lease_id: lease_id.to_string(),
+            },
+        )
+        .await
+    }
+
+    pub async fn release_waf_event_lease(&self, lease_id: &str) -> anyhow::Result<Value> {
+        self.waf_event_lease_request(
+            "release_waf_event_lease",
+            WafDrainRequest {
+                limit: 0,
+                operation: WafDrainOperation::Release as i32,
+                lease_id: lease_id.to_string(),
+            },
+        )
+        .await
+    }
+
+    async fn waf_event_lease_request(
+        &self,
+        operation: &str,
+        request: WafDrainRequest,
+    ) -> anyhow::Result<Value> {
+        let mut client = self.waf.clone();
+        let result = match client.drain_waf_events(self.request(request)).await {
+            Ok(response) => ok(waf_drain_to_json(response.into_inner())),
+            Err(error) => grpc_error(error),
+        };
+        status_value(operation, result)
+    }
+
+    pub async fn get_ssl_info(&self) -> anyhow::Result<(StatusCode, Value)> {
+        let mut client = self.ssl.clone();
+        match client.get_ssl_info(self.request(())).await {
+            Ok(response) => Ok(ok(ssl_info_to_json(response.into_inner()))),
+            Err(error) => Ok(grpc_error(error)),
+        }
+    }
+
+    pub async fn set_ssl_deployment(
+        &self,
+        deployment: &Value,
+    ) -> anyhow::Result<(StatusCode, Value)> {
+        let mut client = self.ssl.clone();
+        match client
+            .set_ssl_deployment(self.request(parse_ssl_config(deployment)))
+            .await
+        {
+            Ok(response) => Ok(rpc_status_response(response.into_inner())),
+            Err(error) => Ok(grpc_error(error)),
+        }
+    }
+
+    pub async fn clear_ssl(&self) -> anyhow::Result<(StatusCode, Value)> {
+        let mut client = self.ssl.clone();
+        match client.clear_ssl(self.request(())).await {
+            Ok(response) => Ok(rpc_status_response(response.into_inner())),
+            Err(error) => Ok(grpc_error(error)),
+        }
+    }
+}

@@ -1,1 +1,159 @@
-dXNlIGF4dW06OnsKICAgIEpzb24sCiAgICBleHRyYWN0Ojp7UXVlcnksIFN0YXRlfSwKICAgIGh0dHA6OlN0YXR1c0NvZGUsCiAgICByZXNwb25zZTo6e0ludG9SZXNwb25zZSwgUmVzcG9uc2V9LAp9Owp1c2Ugc2VyZGU6OkRlc2VyaWFsaXplOwp1c2Ugc2VyZGVfanNvbjo6anNvbjsKdXNlIHV0b2lwYV9heHVtOjp7cm91dGVyOjpPcGVuQXBpUm91dGVyLCByb3V0ZXN9OwoKdXNlIGNyYXRlOjp7aHR0cF91dGlsczo6bm9ybWFsaXplX2lwLCBpMThuOjpUcmFuc2xhdG9yLCByZXNwb25zZSwgc3RhdGU6OkFwcFN0YXRlfTsKCmZuIGJhY2tvZmZfcm91dGVfdGV4dCh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwga2V5OiAmc3RyKSAtPiBTdHJpbmcgewogICAgdHJhbnNsYXRvci50KCZmb3JtYXQhKCJzZXJ2ZXIuYmFja29mZlJvdXRlcy57a2V5fSIpKQp9CgojW2Rlcml2ZShEZXNlcmlhbGl6ZSldCnN0cnVjdCBCYWNrb2ZmU3RhdHVzUXVlcnkgewogICAgaXA6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShEZXNlcmlhbGl6ZSldCnN0cnVjdCBCYWNrb2ZmUmVzZXRCb2R5IHsKICAgIGlwOiBTdHJpbmcsCn0KCnB1YiBmbiBiYWNrb2ZmX3JvdXRlcygpIC0+IE9wZW5BcGlSb3V0ZXI8QXBwU3RhdGU+IHsKICAgIE9wZW5BcGlSb3V0ZXI6Om5ldygpCiAgICAgICAgLnJvdXRlcyhyb3V0ZXMhKGxpc3QpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShzdGF0dXMpKQogICAgICAgIC5yb3V0ZXMocm91dGVzIShyZXNldCkpCn0KCiNbdXRvaXBhOjpwYXRoKAogICAgZ2V0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL2JhY2tvZmYvbGlzdCIsCiAgICB0YWcgPSAiYmFja29mZiIsCiAgICBvcGVyYXRpb25faWQgPSAiZ2V0X2FwaV9hZG1pbl9iYWNrb2ZmX2xpc3QiLAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkFjdGl2ZSBsb2dpbiBiYWNrb2ZmIHJlY29yZHMiKSkKKV0KYXN5bmMgZm4gbGlzdChTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPikgLT4gUmVzcG9uc2UgewogICAgbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5saXN0X2Jsb2NrZWRfbG9naW5fYmFja29mZnMoKS5hd2FpdCB7CiAgICAgICAgT2soaXRlbXMpID0+IHJlc3BvbnNlOjpvayhpdGVtcykuaW50b19yZXNwb25zZSgpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxpc3QgbG9naW4gYmFja29mZiByZWNvcmRzIik7CiAgICAgICAgICAgIHJlc3BvbnNlOjplcnJvcigKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgICAgIGJhY2tvZmZfcm91dGVfdGV4dCgmdHJhbnNsYXRvciwgImxpc3RGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBnZXQsCiAgICBwYXRoID0gIi9hcGkvYWRtaW4vYmFja29mZi9zdGF0dXMiLAogICAgdGFnID0gImJhY2tvZmYiLAogICAgb3BlcmF0aW9uX2lkID0gImdldF9hcGlfYWRtaW5fYmFja29mZl9zdGF0dXMiLAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkxvZ2luIGJhY2tvZmYgc3RhdHVzIGZvciBhbiBJUCIpKQopXQphc3luYyBmbiBzdGF0dXMoCiAgICBTdGF0ZShzdGF0ZSk6IFN0YXRlPEFwcFN0YXRlPiwKICAgIFF1ZXJ5KHF1ZXJ5KTogUXVlcnk8QmFja29mZlN0YXR1c1F1ZXJ5PiwKKSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGxldCBTb21lKGlwKSA9IGJhY2tvZmZfc3RhdHVzX3F1ZXJ5X2lwKHF1ZXJ5LmlwLmFzX2RlcmVmKCkpIGVsc2UgewogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgIFN0YXR1c0NvZGU6OkJBRF9SRVFVRVNULAogICAgICAgICAgICBiYWNrb2ZmX3JvdXRlX3RleHQoJnRyYW5zbGF0b3IsICJpcFJlcXVpcmVkIiksCiAgICAgICAgKTsKICAgIH07CiAgICBtYXRjaCBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9sb2dpbl9iYWNrb2ZmX3N0YXR1cygmaXApLmF3YWl0IHsKICAgICAgICBPayhzdGF0dXMpID0+IHJlc3BvbnNlOjpvayhzdGF0dXMpLmludG9fcmVzcG9uc2UoKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAlaXAsICJmYWlsZWQgdG8gaW5zcGVjdCBsb2dpbiBiYWNrb2ZmIHN0YXR1cyIpOwogICAgICAgICAgICByZXNwb25zZTo6ZXJyb3IoCiAgICAgICAgICAgICAgICBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCiAgICAgICAgICAgICAgICBiYWNrb2ZmX3JvdXRlX3RleHQoJnRyYW5zbGF0b3IsICJzdGF0dXNGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKI1t1dG9pcGE6OnBhdGgoCiAgICBwb3N0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL2JhY2tvZmYvcmVzZXQiLAogICAgdGFnID0gImJhY2tvZmYiLAogICAgb3BlcmF0aW9uX2lkID0gInBvc3RfYXBpX2FkbWluX2JhY2tvZmZfcmVzZXQiLAogICAgcmVzcG9uc2VzKChzdGF0dXMgPSAyMDAsIGRlc2NyaXB0aW9uID0gIkxvZ2luIGJhY2tvZmYgcmVzZXQgcmVzdWx0IikpCildCmFzeW5jIGZuIHJlc2V0KFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LCBKc29uKGJvZHkpOiBKc29uPEJhY2tvZmZSZXNldEJvZHk+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoJnN0YXRlKS5hd2FpdDsKICAgIGxldCBpcCA9IG5vcm1hbGl6ZV9hdXRoX2ZhaWx1cmVfdHJhY2tpbmdfaXAoJmJvZHkuaXApOwogICAgbWF0Y2ggc3RhdGUuc3RvcmFnZS5zdG9yZS5yZXNldF9sb2dpbl9iYWNrb2ZmKCZpcCkuYXdhaXQgewogICAgICAgIE9rKCgpKSA9PiByZXNwb25zZTo6b2soanNvbiEoe30pKS5pbnRvX3Jlc3BvbnNlKCksCiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgJWlwLCAiZmFpbGVkIHRvIHJlc2V0IGxvZ2luIGJhY2tvZmYiKTsKICAgICAgICAgICAgcmVzcG9uc2U6OmVycm9yKAogICAgICAgICAgICAgICAgU3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgYmFja29mZl9yb3V0ZV90ZXh0KCZ0cmFuc2xhdG9yLCAicmVzZXRGYWlsZWQiKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKZm4gYmFja29mZl9zdGF0dXNfcXVlcnlfaXAodmFsdWU6IE9wdGlvbjwmc3RyPikgLT4gT3B0aW9uPFN0cmluZz4gewogICAgbGV0IHZhbHVlID0gdmFsdWU/OwogICAgaWYgdmFsdWUuaXNfZW1wdHkoKSB7CiAgICAgICAgTm9uZQogICAgfSBlbHNlIHsKICAgICAgICBTb21lKHZhbHVlLnRvX3N0cmluZygpKQogICAgfQp9CgpwdWIgZm4gbm9ybWFsaXplX2F1dGhfZmFpbHVyZV90cmFja2luZ19pcCh2YWx1ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGxldCBub3JtYWxpemVkID0gbm9ybWFsaXplX2lwKHZhbHVlKTsKICAgIGlmICFub3JtYWxpemVkLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBub3JtYWxpemVkOwogICAgfQogICAgbGV0IHJhdyA9IHZhbHVlLnRyaW0oKTsKICAgIGlmIHJhdy5pc19lbXB0eSgpIHsKICAgICAgICAidW5rbm93biIudG9fc3RyaW5nKCkKICAgIH0gZWxzZSB7CiAgICAgICAgcmF3LnRvX3N0cmluZygpCiAgICB9Cn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwoKICAgICNbdGVzdF0KICAgIGZuIG5vcm1hbGl6ZXNfYXV0aF9mYWlsdXJlX3RyYWNraW5nX2lwX2xpa2Vfbm9kZSgpIHsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBub3JtYWxpemVfYXV0aF9mYWlsdXJlX3RyYWNraW5nX2lwKCI6OmZmZmY6MTkyLjE2OC4xLjIiKSwKICAgICAgICAgICAgIjE5Mi4xNjguMS4yIgogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxIShub3JtYWxpemVfYXV0aF9mYWlsdXJlX3RyYWNraW5nX2lwKCJiYWQgdmFsdWUiKSwgImJhZCB2YWx1ZSIpOwogICAgICAgIGFzc2VydF9lcSEobm9ybWFsaXplX2F1dGhfZmFpbHVyZV90cmFja2luZ19pcCgiIiksICJ1bmtub3duIik7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gc3RhdHVzX3F1ZXJ5X2lwX21hdGNoZXNfbm9kZV9yb3V0ZV90cnV0aGluZXNzKCkgewogICAgICAgIGFzc2VydF9lcSEoYmFja29mZl9zdGF0dXNfcXVlcnlfaXAoTm9uZSksIE5vbmUpOwogICAgICAgIGFzc2VydF9lcSEoYmFja29mZl9zdGF0dXNfcXVlcnlfaXAoU29tZSgiIikpLCBOb25lKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBiYWNrb2ZmX3N0YXR1c19xdWVyeV9pcChTb21lKCI6OmZmZmY6MTkyLjE2OC4xLjIiKSksCiAgICAgICAgICAgIFNvbWUoIjo6ZmZmZjoxOTIuMTY4LjEuMiIudG9fc3RyaW5nKCkpCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKGJhY2tvZmZfc3RhdHVzX3F1ZXJ5X2lwKFNvbWUoIiAiKSksIFNvbWUoIiAiLnRvX3N0cmluZygpKSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gbG9jYWxpemVzX2JhY2tvZmZfcm91dGVfdGV4dCgpIHsKICAgICAgICBsZXQgemggPSBUcmFuc2xhdG9yOjpuZXcoInpoLUNOIik7CiAgICAgICAgYXNzZXJ0X2VxIShiYWNrb2ZmX3JvdXRlX3RleHQoJnpoLCAicmVzZXRGYWlsZWQiKSwgIumHjee9rueZu+W9lemAgOmBv+Wksei0pSIpOwogICAgfQp9Cg==
+use axum::{
+    Json,
+    extract::{Query, State},
+    http::StatusCode,
+    response::{IntoResponse, Response},
+};
+use serde::Deserialize;
+use serde_json::json;
+use utoipa_axum::{router::OpenApiRouter, routes};
+
+use crate::{http_utils::normalize_ip, i18n::Translator, response, state::AppState};
+
+fn backoff_route_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.backoffRoutes.{key}"))
+}
+
+#[derive(Deserialize)]
+struct BackoffStatusQuery {
+    ip: Option<String>,
+}
+
+#[derive(Deserialize)]
+struct BackoffResetBody {
+    ip: String,
+}
+
+pub fn backoff_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new()
+        .routes(routes!(list))
+        .routes(routes!(status))
+        .routes(routes!(reset))
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/backoff/list",
+    tag = "backoff",
+    operation_id = "get_api_admin_backoff_list",
+    responses((status = 200, description = "Active login backoff records"))
+)]
+async fn list(State(state): State<AppState>) -> Response {
+    match state.storage.store.list_blocked_login_backoffs().await {
+        Ok(items) => response::ok(items).into_response(),
+        Err(error) => {
+            let translator = Translator::from_state(&state).await;
+            tracing::warn!(%error, "failed to list login backoff records");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                backoff_route_text(&translator, "listFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/backoff/status",
+    tag = "backoff",
+    operation_id = "get_api_admin_backoff_status",
+    responses((status = 200, description = "Login backoff status for an IP"))
+)]
+async fn status(
+    State(state): State<AppState>,
+    Query(query): Query<BackoffStatusQuery>,
+) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let Some(ip) = backoff_status_query_ip(query.ip.as_deref()) else {
+        return response::error(
+            StatusCode::BAD_REQUEST,
+            backoff_route_text(&translator, "ipRequired"),
+        );
+    };
+    match state.storage.store.get_login_backoff_status(&ip).await {
+        Ok(status) => response::ok(status).into_response(),
+        Err(error) => {
+            tracing::warn!(%error, %ip, "failed to inspect login backoff status");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                backoff_route_text(&translator, "statusFailed"),
+            )
+        }
+    }
+}
+
+#[utoipa::path(
+    post,
+    path = "/api/admin/backoff/reset",
+    tag = "backoff",
+    operation_id = "post_api_admin_backoff_reset",
+    responses((status = 200, description = "Login backoff reset result"))
+)]
+async fn reset(State(state): State<AppState>, Json(body): Json<BackoffResetBody>) -> Response {
+    let translator = Translator::from_state(&state).await;
+    let ip = normalize_auth_failure_tracking_ip(&body.ip);
+    match state.storage.store.reset_login_backoff(&ip).await {
+        Ok(()) => response::ok(json!({})).into_response(),
+        Err(error) => {
+            tracing::warn!(%error, %ip, "failed to reset login backoff");
+            response::error(
+                StatusCode::INTERNAL_SERVER_ERROR,
+                backoff_route_text(&translator, "resetFailed"),
+            )
+        }
+    }
+}
+
+fn backoff_status_query_ip(value: Option<&str>) -> Option<String> {
+    let value = value?;
+    if value.is_empty() {
+        None
+    } else {
+        Some(value.to_string())
+    }
+}
+
+pub fn normalize_auth_failure_tracking_ip(value: &str) -> String {
+    let normalized = normalize_ip(value);
+    if !normalized.is_empty() {
+        return normalized;
+    }
+    let raw = value.trim();
+    if raw.is_empty() {
+        "unknown".to_string()
+    } else {
+        raw.to_string()
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn normalizes_auth_failure_tracking_ip_like_node() {
+        assert_eq!(
+            normalize_auth_failure_tracking_ip("::ffff:192.168.1.2"),
+            "192.168.1.2"
+        );
+        assert_eq!(normalize_auth_failure_tracking_ip("bad value"), "bad value");
+        assert_eq!(normalize_auth_failure_tracking_ip(""), "unknown");
+    }
+
+    #[test]
+    fn status_query_ip_matches_node_route_truthiness() {
+        assert_eq!(backoff_status_query_ip(None), None);
+        assert_eq!(backoff_status_query_ip(Some("")), None);
+        assert_eq!(
+            backoff_status_query_ip(Some("::ffff:192.168.1.2")),
+            Some("::ffff:192.168.1.2".to_string())
+        );
+        assert_eq!(backoff_status_query_ip(Some(" ")), Some(" ".to_string()));
+    }
+
+    #[test]
+    fn localizes_backoff_route_text() {
+        let zh = Translator::new("zh-CN");
+        assert_eq!(backoff_route_text(&zh, "resetFailed"), "重置登录退避失败");
+    }
+}

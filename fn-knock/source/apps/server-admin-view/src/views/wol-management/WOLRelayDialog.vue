@@ -1,1 +1,126 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IFN3aXRjaCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9zd2l0Y2giOwppbXBvcnQgeyB0eXBlIFdPTFJlbGF5SW5wdXQgfSBmcm9tICJAL2xpYi9hcGkvd29sIjsKCmRlZmluZVByb3BzPHsKICBvcGVuOiBib29sZWFuOwogIG1vZGU6ICJjcmVhdGUiIHwgImVkaXQiOwogIG1vZGVsOiBXT0xSZWxheUlucHV0OwogIHNhdmluZzogYm9vbGVhbjsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgY29uZmlybTogW107CiAgInVwZGF0ZTpvcGVuIjogW3ZhbHVlOiBib29sZWFuXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBpZCA9IHVzZUlkKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iZW1pdCgndXBkYXRlOm9wZW4nLCAkZXZlbnQpIj4KICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJzbTptYXgtdy1sZyI+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPgogICAgICAgICAge3sKICAgICAgICAgICAgbW9kZSA9PT0gImNyZWF0ZSIKICAgICAgICAgICAgICA/IHQoImFkbWluLndvbC5yZWxheURpYWxvZy5jcmVhdGVUaXRsZSIpCiAgICAgICAgICAgICAgOiB0KCJhZG1pbi53b2wucmVsYXlEaWFsb2cuZWRpdFRpdGxlIikKICAgICAgICAgIH19CiAgICAgICAgPC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICB7eyB0KCJhZG1pbi53b2wucmVsYXlEaWFsb2cuZGVzY3JpcHRpb24iKSB9fQogICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgogICAgICA8Zm9ybQogICAgICAgIGNsYXNzPSJzcGFjZS15LTQiCiAgICAgICAgYXV0b2NvbXBsZXRlPSJvZmYiCiAgICAgICAgQHN1Ym1pdC5wcmV2ZW50PSJlbWl0KCdjb25maXJtJykiCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgPExhYmVsIDpmb3I9ImAke2lkfS1uYW1lYCI+e3sgdCgiYWRtaW4ud29sLm5hbWUiKSB9fTwvTGFiZWw+CiAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgOmlkPSJgJHtpZH0tbmFtZWAiCiAgICAgICAgICAgIHYtbW9kZWw9Im1vZGVsLm5hbWUiCiAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4ud29sLnJlbGF5RGlhbG9nLm5hbWVQbGFjZWhvbGRlcicpIgogICAgICAgICAgICBtYXhsZW5ndGg9IjY0IgogICAgICAgICAgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgPExhYmVsIDpmb3I9ImAke2lkfS1hZGRyZXNzYCI+e3sKICAgICAgICAgICAgdCgiYWRtaW4ud29sLnJlbGF5RGlhbG9nLnJlbW90ZUFkZHJlc3MiKQogICAgICAgICAgfX08L0xhYmVsPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIDppZD0iYCR7aWR9LWFkZHJlc3NgIgogICAgICAgICAgICB2LW1vZGVsPSJtb2RlbC5hZGRyZXNzIgogICAgICAgICAgICBpbnB1dG1vZGU9ImRlY2ltYWwiCiAgICAgICAgICAgIHNwZWxsY2hlY2s9ImZhbHNlIgogICAgICAgICAgICBhdXRvY29tcGxldGU9Im9mZiIKICAgICAgICAgICAgOnBsYWNlaG9sZGVyPSJ0KCdhZG1pbi53b2wucmVsYXlEaWFsb2cuYWRkcmVzc1BsYWNlaG9sZGVyJykiCiAgICAgICAgICAvPgogICAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4ud29sLnJlbGF5RGlhbG9nLmFkZHJlc3NIaW50IikgfX0KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRldGFpbHMgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIHB4LTMgcHktMiI+CiAgICAgICAgICA8c3VtbWFyeSBjbGFzcz0iY3Vyc29yLXBvaW50ZXIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi53b2wuYWR2YW5jZWRTZXR0aW5ncyIpIH19CiAgICAgICAgICA8L3N1bW1hcnk+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJtdC00IHNwYWNlLXktNCBib3JkZXItdCBwdC00Ij4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICAgICAgICA8TGFiZWwgOmZvcj0iYCR7aWR9LXBvcnRgIj57eyB0KCJhZG1pbi53b2wucG9ydCIpIH19PC9MYWJlbD4KICAgICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICAgIDppZD0iYCR7aWR9LXBvcnRgIgogICAgICAgICAgICAgICAgdi1tb2RlbC5udW1iZXI9Im1vZGVsLnBvcnQiCiAgICAgICAgICAgICAgICB0eXBlPSJudW1iZXIiCiAgICAgICAgICAgICAgICBtaW49IjEiCiAgICAgICAgICAgICAgICBtYXg9IjY1NTM1IgogICAgICAgICAgICAgICAgaW5wdXRtb2RlPSJudW1lcmljIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiByb3VuZGVkLWxnIGJnLW11dGVkLzMwIHB4LTMgcHktMyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICA8TGFiZWwgOmZvcj0iYCR7aWR9LWVuYWJsZWRgIj57ewogICAgICAgICAgICAgICAgICB0KCJhZG1pbi53b2wuZW5hYmxlZCIpCiAgICAgICAgICAgICAgICB9fTwvTGFiZWw+CiAgICAgICAgICAgICAgICA8cCBjbGFzcz0ibXQtMC41IHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4ud29sLnJlbGF5RGlhbG9nLmVuYWJsZWRIaW50IikgfX0KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8U3dpdGNoIDppZD0iYCR7aWR9LWVuYWJsZWRgIiB2LW1vZGVsPSJtb2RlbC5lbmFibGVkIiAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGV0YWlscz4KICAgICAgICA8RGlhbG9nRm9vdGVyPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgIEBjbGljaz0iZW1pdCgndXBkYXRlOm9wZW4nLCBmYWxzZSkiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImNvbW1vbi5jYW5jZWwiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uIHR5cGU9InN1Ym1pdCIgOmRpc2FibGVkPSJzYXZpbmciPgogICAgICAgICAgICB7eyBzYXZpbmcgPyB0KCJhZG1pbi53b2wuc2F2aW5nIikgOiB0KCJjb21tb24uc2F2ZSIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgICAgPC9mb3JtPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import { type WOLRelayInput } from "@/lib/api/wol";
+
+defineProps<{
+  open: boolean;
+  mode: "create" | "edit";
+  model: WOLRelayInput;
+  saving: boolean;
+}>();
+
+const emit = defineEmits<{
+  confirm: [];
+  "update:open": [value: boolean];
+}>();
+
+const { t } = useI18n();
+const id = useId();
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="sm:max-w-lg">
+      <DialogHeader>
+        <DialogTitle>
+          {{
+            mode === "create"
+              ? t("admin.wol.relayDialog.createTitle")
+              : t("admin.wol.relayDialog.editTitle")
+          }}
+        </DialogTitle>
+        <DialogDescription>
+          {{ t("admin.wol.relayDialog.description") }}
+        </DialogDescription>
+      </DialogHeader>
+      <form
+        class="space-y-4"
+        autocomplete="off"
+        @submit.prevent="emit('confirm')"
+      >
+        <div class="space-y-2">
+          <Label :for="`${id}-name`">{{ t("admin.wol.name") }}</Label>
+          <Input
+            :id="`${id}-name`"
+            v-model="model.name"
+            :placeholder="t('admin.wol.relayDialog.namePlaceholder')"
+            maxlength="64"
+          />
+        </div>
+        <div class="space-y-2">
+          <Label :for="`${id}-address`">{{
+            t("admin.wol.relayDialog.remoteAddress")
+          }}</Label>
+          <Input
+            :id="`${id}-address`"
+            v-model="model.address"
+            inputmode="decimal"
+            spellcheck="false"
+            autocomplete="off"
+            :placeholder="t('admin.wol.relayDialog.addressPlaceholder')"
+          />
+          <p class="text-xs text-muted-foreground">
+            {{ t("admin.wol.relayDialog.addressHint") }}
+          </p>
+        </div>
+
+        <details class="rounded-lg border px-3 py-2">
+          <summary class="cursor-pointer text-sm text-muted-foreground">
+            {{ t("admin.wol.advancedSettings") }}
+          </summary>
+          <div class="mt-4 space-y-4 border-t pt-4">
+            <div class="space-y-2">
+              <Label :for="`${id}-port`">{{ t("admin.wol.port") }}</Label>
+              <Input
+                :id="`${id}-port`"
+                v-model.number="model.port"
+                type="number"
+                min="1"
+                max="65535"
+                inputmode="numeric"
+              />
+            </div>
+            <div
+              class="flex items-center justify-between rounded-lg bg-muted/30 px-3 py-3"
+            >
+              <div>
+                <Label :for="`${id}-enabled`">{{
+                  t("admin.wol.enabled")
+                }}</Label>
+                <p class="mt-0.5 text-xs text-muted-foreground">
+                  {{ t("admin.wol.relayDialog.enabledHint") }}
+                </p>
+              </div>
+              <Switch :id="`${id}-enabled`" v-model="model.enabled" />
+            </div>
+          </div>
+        </details>
+        <DialogFooter>
+          <Button
+            type="button"
+            variant="outline"
+            @click="emit('update:open', false)"
+          >
+            {{ t("common.cancel") }}
+          </Button>
+          <Button type="submit" :disabled="saving">
+            {{ saving ? t("admin.wol.saving") : t("common.save") }}
+          </Button>
+        </DialogFooter>
+      </form>
+    </DialogContent>
+  </Dialog>
+</template>

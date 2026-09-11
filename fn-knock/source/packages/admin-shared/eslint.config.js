@@ -1,1 +1,8 @@
-aW1wb3J0IHsgdnVlQ29uZmlnIH0gZnJvbSAiQHJlcG8vZXNsaW50LWNvbmZpZy92dWUiOwoKZXhwb3J0IGRlZmF1bHQgWwogIC4uLnZ1ZUNvbmZpZywKICB7CiAgICBpZ25vcmVzOiBbInNyYy9hc3NldHMvKioiXSwKICB9LApdOwo=
+import { vueConfig } from "@repo/eslint-config/vue";
+
+export default [
+  ...vueConfig,
+  {
+    ignores: ["src/assets/**"],
+  },
+];

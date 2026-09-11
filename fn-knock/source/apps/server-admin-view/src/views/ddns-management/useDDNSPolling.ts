@@ -1,1 +1,147 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgd2F0Y2gsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgZm9ybWF0RGF0ZVRpbWVTYWZlIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9mb3JtYXREYXRlVGltZVNhZmUiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7CiAgREVGQVVMVF9MT0dfV0lORE9XX1NJWkUsCiAgbWVyZ2VQb2xsaW5nTG9nV2luZG93LAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvbG9nLXdpbmRvdyI7CmltcG9ydCB7IHR5cGUgREROU1N0YXR1c1BheWxvYWQgfSBmcm9tICJAL2xpYi9hcGkvZGRucyI7CmltcG9ydCB7IERETlNBUEkgfSBmcm9tICJAL2xpYi9hcGkvZGRucyI7CmltcG9ydCB7IHVzZVRhcmdldFBvbGxpbmcgfSBmcm9tICJAL2NvbXBvc2FibGVzL3VzZVRhcmdldFBvbGxpbmciOwppbXBvcnQgdHlwZSB7IExvZ0VudHJ5IH0gZnJvbSAiLi9tb2RlbCI7CgpleHBvcnQgY29uc3QgdXNlREROU1BvbGxpbmcgPSAoewogIGFwcGx5U3RhdHVzLAogIGVuYWJsZWQsCiAgaXNQcmltYXJ5Q29uZmlnRGlydHksCn06IHsKICBhcHBseVN0YXR1czogKAogICAgc3RhdHVzOiBERE5TU3RhdHVzUGF5bG9hZCwKICAgIG9wdGlvbnM/OiB7IHN5bmNFbmFibGVkPzogYm9vbGVhbjsgc3luY1Byb3ZpZGVyPzogYm9vbGVhbiB9LAogICkgPT4gdm9pZDsKICBlbmFibGVkOiBSZWY8Ym9vbGVhbj47CiAgaXNQcmltYXJ5Q29uZmlnRGlydHk6IFJlYWRvbmx5PFJlZjxib29sZWFuPj47Cn0pID0+IHsKICBjb25zdCB7IGxvY2FsZSwgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IGxvZ3MgPSByZWY8TG9nRW50cnlbXT4oW10pOwogIGxldCBlbmFibGVkSW5pdGlhbGl6ZWQgPSBmYWxzZTsKCiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzQ2xlYXJpbmdMb2dzLCBydW46IHJ1bkNsZWFyTG9ncyB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKCkgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5kZG5zLmNsZWFyTG9nc0ZhaWxlZCIpKTsKICAgIH0sCiAgfSk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzVG9nZ2xpbmdFbmFibGVkLCBydW46IHJ1blRvZ2dsZUVuYWJsZWQgfSA9CiAgICB1c2VBc3luY0FjdGlvbih7CiAgICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmRkbnMudG9nZ2xlRmFpbGVkIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCB0KCJhZG1pbi5kZG5zLnRvZ2dsZUZhaWxlZCIpKSwKICAgICAgICB9KTsKICAgICAgfSwKICAgIH0pOwoKICBjb25zdCBwb2xsaW5nID0gdXNlVGFyZ2V0UG9sbGluZyh7CiAgICB0YXJnZXQ6ICJkZG5zIiwKICAgIGludGVydmFsTXM6IDIwMDAsCiAgICBvbkRhdGE6IChwYXlsb2FkKSA9PiB7CiAgICAgIGxvZ3MudmFsdWUgPSBtZXJnZVBvbGxpbmdMb2dXaW5kb3coCiAgICAgICAgbG9ncy52YWx1ZSwKICAgICAgICBwYXlsb2FkLmxvZ3MgYXMgTG9nRW50cnlbXSwKICAgICAgICB7CiAgICAgICAgICByZXNldDogcGF5bG9hZC5yZXNldCwKICAgICAgICAgIG1heDogREVGQVVMVF9MT0dfV0lORE9XX1NJWkUsCiAgICAgICAgfSwKICAgICAgKTsKCiAgICAgIGNvbnN0IHN0YXR1cyA9IHBheWxvYWQuc3RhdHVzOwogICAgICBhcHBseVN0YXR1cyhzdGF0dXMsIHsKICAgICAgICBzeW5jRW5hYmxlZDogZmFsc2UsCiAgICAgICAgc3luY1Byb3ZpZGVyOiAhaXNQcmltYXJ5Q29uZmlnRGlydHkudmFsdWUsCiAgICAgIH0pOwogICAgICBpZiAoZW5hYmxlZEluaXRpYWxpemVkICYmIHN0YXR1cy5lbmFibGVkICE9PSBlbmFibGVkLnZhbHVlKSB7CiAgICAgICAgZW5hYmxlZEluaXRpYWxpemVkID0gZmFsc2U7CiAgICAgICAgZW5hYmxlZC52YWx1ZSA9IHN0YXR1cy5lbmFibGVkOwogICAgICAgIGVuYWJsZWRJbml0aWFsaXplZCA9IHRydWU7CiAgICAgIH0KICAgIH0sCiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgY29uc29sZS5lcnJvcigKICAgICAgICAiZGRucyBwb2xsOiIsCiAgICAgICAgZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiYWRtaW4uZGRucy5wb2xsU3RhdHVzRmFpbGVkIikpLAogICAgICApOwogICAgfSwKICB9KTsKCiAgd2F0Y2goZW5hYmxlZCwgYXN5bmMgKHZhbHVlKSA9PiB7CiAgICBpZiAoIWVuYWJsZWRJbml0aWFsaXplZCkgcmV0dXJuOwogICAgYXdhaXQgcnVuVG9nZ2xlRW5hYmxlZCgoKSA9PiBERE5TQVBJLnRvZ2dsZSh2YWx1ZSksIHsKICAgICAgb25TdWNjZXNzOiAoKSA9PiB7CiAgICAgICAgdG9hc3Quc3VjY2VzcygKICAgICAgICAgIHZhbHVlID8gdCgiYWRtaW4uZGRucy5lbmFibGVkIikgOiB0KCJhZG1pbi5kZG5zLmRpc2FibGVkIiksCiAgICAgICAgKTsKICAgICAgfSwKICAgICAgb25FcnJvcjogKCkgPT4gewogICAgICAgIGVuYWJsZWRJbml0aWFsaXplZCA9IGZhbHNlOwogICAgICAgIGVuYWJsZWQudmFsdWUgPSAhdmFsdWU7CiAgICAgICAgZW5hYmxlZEluaXRpYWxpemVkID0gdHJ1ZTsKICAgICAgfSwKICAgIH0pOwogIH0pOwoKICBjb25zdCByZWZyZXNoID0gKCkgPT4gewogICAgcG9sbGluZy5yZXNldEN1cnNvcigpOwogICAgdm9pZCBwb2xsaW5nLnJlZnJlc2goKTsKICB9OwoKICBjb25zdCBzdGFydCA9ICgpID0+IHsKICAgIGVuYWJsZWRJbml0aWFsaXplZCA9IHRydWU7CiAgICBwb2xsaW5nLnN0YXJ0KCk7CiAgfTsKCiAgY29uc3Qgc3RvcCA9ICgpID0+IHsKICAgIGVuYWJsZWRJbml0aWFsaXplZCA9IGZhbHNlOwogICAgcG9sbGluZy5zdG9wKCk7CiAgfTsKCiAgY29uc3Qgb25DbGVhckxvZ3MgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBydW5DbGVhckxvZ3MoKCkgPT4gREROU0FQSS5jbGVhckxvZ3MoKSwgewogICAgICBvblN1Y2Nlc3M6ICgpID0+IHsKICAgICAgICBsb2dzLnZhbHVlID0gW107CiAgICAgICAgcmVmcmVzaCgpOwogICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uZGRucy5sb2dzQ2xlYXJlZCIpKTsKICAgICAgfSwKICAgIH0pOwogIH07CgogIGNvbnN0IGxvZ0xpbmVzID0gY29tcHV0ZWQoKCkgPT4KICAgIGxvZ3MudmFsdWUubWFwKChlbnRyeSkgPT4gewogICAgICBjb25zdCB0YWcgPQogICAgICAgIGVudHJ5LmxldmVsID09PSAiZXJyb3IiCiAgICAgICAgICA/IHQoImFkbWluLmRkbnMubG9nTGV2ZWxFcnJvciIpCiAgICAgICAgICA6IGVudHJ5LmxldmVsID09PSAid2FybiIKICAgICAgICAgICAgPyB0KCJhZG1pbi5kZG5zLmxvZ0xldmVsV2FybiIpCiAgICAgICAgICAgIDogdCgiYWRtaW4uZGRucy5sb2dMZXZlbEluZm8iKTsKICAgICAgY29uc3QgdGltZSA9IGZvcm1hdERhdGVUaW1lU2FmZShlbnRyeS50aW1lLCB7CiAgICAgICAgbG9jYWxlOiBTdHJpbmcobG9jYWxlLnZhbHVlKSwKICAgICAgICBlbXB0eVRleHQ6IHQoImFkbWluLmRkbnMubmV2ZXIiKSwKICAgICAgfSk7CiAgICAgIHJldHVybiBgJHt0YWd9ICR7dGltZX0gICR7ZW50cnkubWVzc2FnZX1gOwogICAgfSksCiAgKTsKCiAgcmV0dXJuIHsKICAgIGlzQ2xlYXJpbmdMb2dzLAogICAgaXNUb2dnbGluZ0VuYWJsZWQsCiAgICBsb2dMaW5lcywKICAgIGxvZ3MsCiAgICBvbkNsZWFyTG9ncywKICAgIHJlZnJlc2gsCiAgICBzdGFydCwKICAgIHN0b3AsCiAgfTsKfTsK
+import { computed, ref, watch, type Ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { toast } from "@admin-shared/utils/toast";
+import { formatDateTimeSafe } from "@admin-shared/utils/formatDateTimeSafe";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import {
+  DEFAULT_LOG_WINDOW_SIZE,
+  mergePollingLogWindow,
+} from "@admin-shared/utils/log-window";
+import { type DDNSStatusPayload } from "@/lib/api/ddns";
+import { DDNSAPI } from "@/lib/api/ddns";
+import { useTargetPolling } from "@/composables/useTargetPolling";
+import type { LogEntry } from "./model";
+
+export const useDDNSPolling = ({
+  applyStatus,
+  enabled,
+  isPrimaryConfigDirty,
+}: {
+  applyStatus: (
+    status: DDNSStatusPayload,
+    options?: { syncEnabled?: boolean; syncProvider?: boolean },
+  ) => void;
+  enabled: Ref<boolean>;
+  isPrimaryConfigDirty: Readonly<Ref<boolean>>;
+}) => {
+  const { locale, t } = useI18n();
+  const logs = ref<LogEntry[]>([]);
+  let enabledInitialized = false;
+
+  const { isPending: isClearingLogs, run: runClearLogs } = useAsyncAction({
+    onError: () => {
+      toast.error(t("admin.ddns.clearLogsFailed"));
+    },
+  });
+  const { isPending: isTogglingEnabled, run: runToggleEnabled } =
+    useAsyncAction({
+      onError: (error) => {
+        toast.error(t("admin.ddns.toggleFailed"), {
+          description: extractErrorMessage(error, t("admin.ddns.toggleFailed")),
+        });
+      },
+    });
+
+  const polling = useTargetPolling({
+    target: "ddns",
+    intervalMs: 2000,
+    onData: (payload) => {
+      logs.value = mergePollingLogWindow(
+        logs.value,
+        payload.logs as LogEntry[],
+        {
+          reset: payload.reset,
+          max: DEFAULT_LOG_WINDOW_SIZE,
+        },
+      );
+
+      const status = payload.status;
+      applyStatus(status, {
+        syncEnabled: false,
+        syncProvider: !isPrimaryConfigDirty.value,
+      });
+      if (enabledInitialized && status.enabled !== enabled.value) {
+        enabledInitialized = false;
+        enabled.value = status.enabled;
+        enabledInitialized = true;
+      }
+    },
+    onError: (error) => {
+      console.error(
+        "ddns poll:",
+        extractErrorMessage(error, t("admin.ddns.pollStatusFailed")),
+      );
+    },
+  });
+
+  watch(enabled, async (value) => {
+    if (!enabledInitialized) return;
+    await runToggleEnabled(() => DDNSAPI.toggle(value), {
+      onSuccess: () => {
+        toast.success(
+          value ? t("admin.ddns.enabled") : t("admin.ddns.disabled"),
+        );
+      },
+      onError: () => {
+        enabledInitialized = false;
+        enabled.value = !value;
+        enabledInitialized = true;
+      },
+    });
+  });
+
+  const refresh = () => {
+    polling.resetCursor();
+    void polling.refresh();
+  };
+
+  const start = () => {
+    enabledInitialized = true;
+    polling.start();
+  };
+
+  const stop = () => {
+    enabledInitialized = false;
+    polling.stop();
+  };
+
+  const onClearLogs = async () => {
+    await runClearLogs(() => DDNSAPI.clearLogs(), {
+      onSuccess: () => {
+        logs.value = [];
+        refresh();
+        toast.success(t("admin.ddns.logsCleared"));
+      },
+    });
+  };
+
+  const logLines = computed(() =>
+    logs.value.map((entry) => {
+      const tag =
+        entry.level === "error"
+          ? t("admin.ddns.logLevelError")
+          : entry.level === "warn"
+            ? t("admin.ddns.logLevelWarn")
+            : t("admin.ddns.logLevelInfo");
+      const time = formatDateTimeSafe(entry.time, {
+        locale: String(locale.value),
+        emptyText: t("admin.ddns.never"),
+      });
+      return `${tag} ${time}  ${entry.message}`;
+    }),
+  );
+
+  return {
+    isClearingLogs,
+    isTogglingEnabled,
+    logLines,
+    logs,
+    onClearLogs,
+    refresh,
+    start,
+    stop,
+  };
+};

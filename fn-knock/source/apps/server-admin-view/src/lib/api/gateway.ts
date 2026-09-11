@@ -1,1 +1,283 @@
-aW1wb3J0IHR5cGUgewogIGNvbXBvbmVudHMgYXMgQXBpQ29udHJhY3RDb21wb25lbnRzLAogIG9wZXJhdGlvbnMgYXMgQXBpQ29udHJhY3RPcGVyYXRpb25zLAp9IGZyb20gIkBmbi1rbm9jay9hcGktY29udHJhY3QiOwppbXBvcnQgdHlwZSB7CiAgQ2lkckNpdGllc1BheWxvYWQsCiAgQ2lkckNhcGFiaWxpdGllc1BheWxvYWQsCiAgQ2lkckxvb2t1cFBheWxvYWQsCiAgQ2lkck9wZXJhdG9yLAogIENpZHJQcm92aW5jZXNQYXlsb2FkLAogIENpZHJTZWxlY3RvclBheWxvYWQsCiAgR2F0ZXdheUxvZ0RhdGVzUGF5bG9hZCwKICBHYXRld2F5TG9nQW5hbHl0aWNzUGF5bG9hZCwKICBHYXRld2F5TG9nRGVsZXRlUGF5bG9hZCwKICBHYXRld2F5TG9nRW50cmllc1BheWxvYWQsCiAgR2F0ZXdheUxvZ2dpbmdDb25maWcsCiAgSXBMb2NhdGlvbkJhdGNoUGF5bG9hZCwKICBJcExvY2F0aW9uU25hcHNob3QsCiAgV0FGRGV0YWlscywKICBXQUZEcmFpblJlc3VsdCwKICBXQUZMb2dEZWxldGVQYXlsb2FkLAogIFdBRkxvZ0VudHJpZXNQYXlsb2FkLAogIFdBRlJ1bGVGaWxlQ29udGVudCwKICBXQUZTdGF0dXMsCn0gZnJvbSAiLi4vLi4vdHlwZXMiOwppbXBvcnQgeyBhcGlDbGllbnQgfSBmcm9tICIuL2NsaWVudCI7Cgp0eXBlIEdhdGV3YXlMb2dnaW5nQ29uZmlnVXBkYXRlID0KICBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiR2F0ZXdheUxvZ2dpbmdDb25maWdVcGRhdGVEYXRhIl07CnR5cGUgR2F0ZXdheUxvZ0RpcmVjdG9yeSA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIkdhdGV3YXlMb2dEaXJlY3RvcnlEYXRhIl07CnR5cGUgR2F0ZXdheUxvZ0VudHJpZXNRdWVyeSA9IE5vbk51bGxhYmxlPAogIEFwaUNvbnRyYWN0T3BlcmF0aW9uc1siZ2V0X2FwaV9hZG1pbl9nYXRld2F5X2xvZ3NfZW50cmllcyJdWyJwYXJhbWV0ZXJzIl1bInF1ZXJ5Il0KPjsKdHlwZSBHYXRld2F5TG9nQW5hbHl0aWNzUXVlcnkgPSBOb25OdWxsYWJsZTwKICBBcGlDb250cmFjdE9wZXJhdGlvbnNbImdldF9hcGlfYWRtaW5fZ2F0ZXdheV9sb2dzX2FuYWx5dGljcyJdWyJwYXJhbWV0ZXJzIl1bInF1ZXJ5Il0KPjsKdHlwZSBHYXRld2F5TG9nQW5hbHl0aWNzUmVmcmVzaCA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIkdhdGV3YXlMb2dBbmFseXRpY3NSZWZyZXNoRGF0YSJdOwp0eXBlIEdhdGV3YXlMb2dEZWxldGVSZXF1ZXN0ID0KICBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiR2F0ZXdheUxvZ0RlbGV0ZUJvZHlEYXRhIl07CnR5cGUgSXBMb2NhdGlvbkJhdGNoQm9keSA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIklwTG9jYXRpb25CYXRjaEJvZHlEYXRhIl07CnR5cGUgQ2lkckNpdGllc1F1ZXJ5ID0gTm9uTnVsbGFibGU8CiAgQXBpQ29udHJhY3RPcGVyYXRpb25zWyJnZXRfYXBpX2FkbWluX2NpZHJfY2l0aWVzIl1bInBhcmFtZXRlcnMiXVsicXVlcnkiXQo+Owp0eXBlIENpZHJTZWxlY3RvclF1ZXJ5ID0gTm9uTnVsbGFibGU8CiAgQXBpQ29udHJhY3RPcGVyYXRpb25zWyJnZXRfYXBpX2FkbWluX2NpZHJfc2VsZWN0b3IiXVsicGFyYW1ldGVycyJdWyJxdWVyeSJdCj47CnR5cGUgQ2lkckxvb2t1cFF1ZXJ5ID0gTm9uTnVsbGFibGU8CiAgQXBpQ29udHJhY3RPcGVyYXRpb25zWyJnZXRfYXBpX2FkbWluX2NpZHJfY2lkcnMiXVsicGFyYW1ldGVycyJdWyJxdWVyeSJdCj47CnR5cGUgV2FmQ29uZmlnVXBkYXRlID0gQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIldhZkNvbmZpZ1VwZGF0ZURhdGEiXTsKdHlwZSBXYWZSdWxlVG9nZ2xlQm9keSA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIldhZlJ1bGVUb2dnbGVCb2R5RGF0YSJdOwp0eXBlIFdhZlVwbG9hZEJvZHkgPSBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiV2FmVXBsb2FkQm9keURhdGEiXTsKdHlwZSBXYWZMb2dRdWVyeSA9IE5vbk51bGxhYmxlPAogIEFwaUNvbnRyYWN0T3BlcmF0aW9uc1siZ2V0X2FwaV9hZG1pbl93YWZfbG9ncyJdWyJwYXJhbWV0ZXJzIl1bInF1ZXJ5Il0KPjsKdHlwZSBXYWZMb2dEZWxldGVCb2R5ID0KICBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiV2FmTG9nRGVsZXRlQm9keURhdGEiXTsKCmV4cG9ydCB7IENvbmZpZ0FQSSB9IGZyb20gIi4vY29uZmlnIjsKZXhwb3J0IHsgRGFzaGJvYXJkQVBJIH0gZnJvbSAiLi9kYXNoYm9hcmQiOwpleHBvcnQgdHlwZSB7CiAgQ2lkckNpdGllc1BheWxvYWQsCiAgQ2lkckxvb2t1cFBheWxvYWQsCiAgQ2lkclByb3ZpbmNlc1BheWxvYWQsCiAgQ2lkclNlbGVjdG9yUGF5bG9hZCwKICBHYXRld2F5SG9zdFJlc3BvbnNlRGV0YWlscywKICBHYXRld2F5TG9nRGF0ZXNQYXlsb2FkLAogIEdhdGV3YXlMb2dBbmFseXRpY3NQYXlsb2FkLAogIEdhdGV3YXlMb2dEZWxldGVQYXlsb2FkLAogIEdhdGV3YXlMb2dFbnRyaWVzUGF5bG9hZCwKICBHYXRld2F5TG9nZ2luZ0NvbmZpZywKICBHYXRld2F5UG9ydGFsQ29uZmlnLAogIEdhdGV3YXlQcm94eUhlYWRlcnNEZXRhaWxzLAogIEdhdGV3YXlWaXNpYmlsaXR5RGV0YWlscywKICBJcExvY2F0aW9uQmF0Y2hQYXlsb2FkLAogIElwTG9jYXRpb25TbmFwc2hvdCwKICBQcm90b2NvbE1hcHBpbmdGZWF0dXJlQ29uZmlnLAogIFNtYXJ0Q29ubmVjdENvbmZpZywKICBTbWFydENvbm5lY3REZXRhaWxzLAogIFRocmVhdE92ZXJ2aWV3LAogIFdBRkNvbmZpZywKICBXQUZEZXRhaWxzLAogIFdBRkRyYWluUmVzdWx0LAogIFdBRkxvZ0RlbGV0ZVBheWxvYWQsCiAgV0FGTG9nRW50cmllc1BheWxvYWQsCiAgV0FGUnVsZUZpbGVDb250ZW50LAogIFdBRlN0YXR1cywKfSBmcm9tICIuLi8uLi90eXBlcyI7CmV4cG9ydCAqIGZyb20gIi4vc2NhbiI7CgpleHBvcnQgY29uc3QgR2F0ZXdheUxvZ3NBUEkgPSB7CiAgYXN5bmMgZ2V0Q29uZmlnKCk6IFByb21pc2U8R2F0ZXdheUxvZ2dpbmdDb25maWc+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9nYXRld2F5LWxvZ3MvY29uZmlnIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHVwZGF0ZUNvbmZpZygKICAgIHBheWxvYWQ6IEdhdGV3YXlMb2dnaW5nQ29uZmlnVXBkYXRlLAogICk6IFByb21pc2U8R2F0ZXdheUxvZ2dpbmdDb25maWc+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvZ2F0ZXdheS1sb2dzL2NvbmZpZyIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXREaXJlY3RvcnkoKTogUHJvbWlzZTxHYXRld2F5TG9nRGlyZWN0b3J5PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvZ2F0ZXdheS1sb2dzL2RpcmVjdG9yeSIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXREYXRlcygpOiBQcm9taXNlPEdhdGV3YXlMb2dEYXRlc1BheWxvYWQ+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9nYXRld2F5LWxvZ3MvZGF0ZXMiKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0RW50cmllcygKICAgIHBhcmFtczogR2F0ZXdheUxvZ0VudHJpZXNRdWVyeSwKICApOiBQcm9taXNlPEdhdGV3YXlMb2dFbnRyaWVzUGF5bG9hZD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2dhdGV3YXktbG9ncy9lbnRyaWVzIiwgewogICAgICBwYXJhbXMsCiAgICB9KTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0QW5hbHl0aWNzKAogICAgcGFyYW1zOiBHYXRld2F5TG9nQW5hbHl0aWNzUXVlcnksCiAgKTogUHJvbWlzZTxHYXRld2F5TG9nQW5hbHl0aWNzUGF5bG9hZD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2dhdGV3YXktbG9ncy9hbmFseXRpY3MiLCB7IHBhcmFtcyB9KTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgcmVmcmVzaEFuYWx5dGljc0dlbygKICAgIHBhcmFtczogR2F0ZXdheUxvZ0FuYWx5dGljc1F1ZXJ5LAogICk6IFByb21pc2U8R2F0ZXdheUxvZ0FuYWx5dGljc1JlZnJlc2g+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvZ2F0ZXdheS1sb2dzL2FuYWx5dGljcyIsIHVuZGVmaW5lZCwgewogICAgICBwYXJhbXMsCiAgICB9KTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZGVsZXRlRGF0ZShkYXRlOiBzdHJpbmcpOiBQcm9taXNlPEdhdGV3YXlMb2dEZWxldGVQYXlsb2FkPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZGVsZXRlKCIvZ2F0ZXdheS1sb2dzL2VudHJpZXMiLCB7CiAgICAgIGRhdGE6IHsgZGF0ZSB9IHNhdGlzZmllcyBHYXRld2F5TG9nRGVsZXRlUmVxdWVzdCwKICAgIH0pOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKfTsKCmV4cG9ydCBjb25zdCBXQUZBUEkgPSB7CiAgYXN5bmMgZ2V0RGV0YWlscygpOiBQcm9taXNlPFdBRkRldGFpbHM+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi93YWYvZGV0YWlscyIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRTdGF0dXMoKTogUHJvbWlzZTxXQUZTdGF0dXM+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi93YWYvc3RhdHVzIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHVwZGF0ZUNvbmZpZyhwYXlsb2FkOiBXYWZDb25maWdVcGRhdGUpOiBQcm9taXNlPFdBRkRldGFpbHM+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvd2FmL2NvbmZpZyIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyByZWZyZXNoTWFuaWZlc3QoKTogUHJvbWlzZTxXQUZEZXRhaWxzPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL3dhZi9tYW5pZmVzdC9yZWZyZXNoIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHN5bmNTeXN0ZW1SdWxlcygpOiBQcm9taXNlPFdBRkRldGFpbHM+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvd2FmL3N5c3RlbS9zeW5jIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHNldFJ1bGVzRW5hYmxlZChwYXlsb2FkOiBXYWZSdWxlVG9nZ2xlQm9keSk6IFByb21pc2U8V0FGRGV0YWlscz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi93YWYvcnVsZXMvZW5hYmxlZCIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBlbmFibGVSZWNvbW1lbmRlZFN5c3RlbVJ1bGVzKCk6IFByb21pc2U8V0FGRGV0YWlscz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi93YWYvcnVsZXMvcmVjb21tZW5kZWQiKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0UnVsZUZpbGUoCiAgICBzb3VyY2U6ICJzeXN0ZW0iIHwgImN1c3RvbSIsCiAgICBmaWxlbmFtZTogc3RyaW5nLAogICk6IFByb21pc2U8V0FGUnVsZUZpbGVDb250ZW50PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KAogICAgICBgL3dhZi9ydWxlcy8ke3NvdXJjZX0vJHtlbmNvZGVVUklDb21wb25lbnQoZmlsZW5hbWUpfWAsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyB1cGxvYWRDdXN0b21SdWxlcyhwYXlsb2FkOiBXYWZVcGxvYWRCb2R5KTogUHJvbWlzZTxXQUZEZXRhaWxzPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL3dhZi9jdXN0b20vdXBsb2FkIiwgcGF5bG9hZCk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGRlbGV0ZUN1c3RvbVJ1bGUoZmlsZW5hbWU6IHN0cmluZyk6IFByb21pc2U8V0FGRGV0YWlscz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmRlbGV0ZSgKICAgICAgYC93YWYvY3VzdG9tLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGZpbGVuYW1lKX1gLAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZHJhaW5FdmVudHMoc2lnbmFsPzogQWJvcnRTaWduYWwpOiBQcm9taXNlPFdBRkRyYWluUmVzdWx0PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL3dhZi9ldmVudHMvZHJhaW4iLCB1bmRlZmluZWQsIHsKICAgICAgc2lnbmFsLAogICAgfSk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGdldExvZ3MoCiAgICBwYXJhbXM6IFdhZkxvZ1F1ZXJ5LAogICAgc2lnbmFsPzogQWJvcnRTaWduYWwsCiAgKTogUHJvbWlzZTxXQUZMb2dFbnRyaWVzUGF5bG9hZD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL3dhZi9sb2dzIiwgeyBwYXJhbXMsIHNpZ25hbCB9KTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0TG9nKAogICAgdHJhY2VJZDogc3RyaW5nLAogICk6IFByb21pc2U8V0FGTG9nRW50cmllc1BheWxvYWRbIml0ZW1zIl1bbnVtYmVyXT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldChgL3dhZi9sb2dzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KHRyYWNlSWQpfWApOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBkZWxldGVMb2dzKGRhdGU6IHN0cmluZyk6IFByb21pc2U8V0FGTG9nRGVsZXRlUGF5bG9hZD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmRlbGV0ZSgiL3dhZi9sb2dzIiwgewogICAgICBkYXRhOiB7IGRhdGUgfSBzYXRpc2ZpZXMgV2FmTG9nRGVsZXRlQm9keSwKICAgIH0pOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKfTsKCmNvbnN0IElQX0xPQ0FUSU9OX0JBVENIX0xJTUlUID0gMjA7CgpleHBvcnQgY29uc3QgSXBMb2NhdGlvbkFQSSA9IHsKICBhc3luYyBsb29rdXBCYXRjaChpcHM6IHN0cmluZ1tdKTogUHJvbWlzZTxJcExvY2F0aW9uU25hcHNob3RbXT4gewogICAgaWYgKGlwcy5sZW5ndGggPT09IDApIHJldHVybiBbXTsKCiAgICBjb25zdCB0YXNrczogUHJvbWlzZTxJcExvY2F0aW9uU25hcHNob3RbXT5bXSA9IFtdOwogICAgZm9yIChsZXQgaW5kZXggPSAwOyBpbmRleCA8IGlwcy5sZW5ndGg7IGluZGV4ICs9IElQX0xPQ0FUSU9OX0JBVENIX0xJTUlUKSB7CiAgICAgIGNvbnN0IGJhdGNoID0gaXBzLnNsaWNlKGluZGV4LCBpbmRleCArIElQX0xPQ0FUSU9OX0JBVENIX0xJTUlUKTsKICAgICAgY29uc3QgYm9keSA9IHsgaXBzOiBiYXRjaCB9IHNhdGlzZmllcyBJcExvY2F0aW9uQmF0Y2hCb2R5OwogICAgICB0YXNrcy5wdXNoKAogICAgICAgIGFwaUNsaWVudAogICAgICAgICAgLnBvc3QoIi9pcC1sb2NhdGlvbi9iYXRjaCIsIGJvZHkpCiAgICAgICAgICAudGhlbigKICAgICAgICAgICAgKHJlcykgPT4KICAgICAgICAgICAgICAoKHJlcy5kYXRhLmRhdGEgYXMgSXBMb2NhdGlvbkJhdGNoUGF5bG9hZCkuaXRlbXMgfHwKICAgICAgICAgICAgICAgIFtdKSBhcyBJcExvY2F0aW9uU25hcHNob3RbXSwKICAgICAgICAgICksCiAgICAgICk7CiAgICB9CgogICAgY29uc3QgZ3JvdXBzID0gYXdhaXQgUHJvbWlzZS5hbGwodGFza3MpOwogICAgcmV0dXJuIGdyb3Vwcy5mbGF0KCk7CiAgfSwKfTsKCmV4cG9ydCBjb25zdCBDaWRyQVBJID0gewogIGFzeW5jIGdldENhcGFiaWxpdGllcygpOiBQcm9taXNlPENpZHJDYXBhYmlsaXRpZXNQYXlsb2FkPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvY2lkci9jYXBhYmlsaXRpZXMiKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0UHJvdmluY2VzKCk6IFByb21pc2U8Q2lkclByb3ZpbmNlc1BheWxvYWQ+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9jaWRyL3Byb3ZpbmNlcyIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRDaXRpZXMocHJvdmluY2U6IHN0cmluZyk6IFByb21pc2U8Q2lkckNpdGllc1BheWxvYWQ+IHsKICAgIGNvbnN0IHBhcmFtcyA9IHsgcHJvdmluY2UgfSBzYXRpc2ZpZXMgQ2lkckNpdGllc1F1ZXJ5OwogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2NpZHIvY2l0aWVzIiwgewogICAgICBwYXJhbXMsCiAgICB9KTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0U2VsZWN0b3IocHJvdmluY2U/OiBzdHJpbmcpOiBQcm9taXNlPENpZHJTZWxlY3RvclBheWxvYWQ+IHsKICAgIGNvbnN0IHBhcmFtcyA9IHByb3ZpbmNlCiAgICAgID8gKHsgcHJvdmluY2UgfSBzYXRpc2ZpZXMgQ2lkclNlbGVjdG9yUXVlcnkpCiAgICAgIDogdW5kZWZpbmVkOwogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2NpZHIvc2VsZWN0b3IiLCB7CiAgICAgIHBhcmFtcywKICAgIH0pOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRDaWRycyhwYXlsb2FkOiB7CiAgICBwcm92aW5jZTogc3RyaW5nOwogICAgY2l0eT86IHN0cmluZyB8IG51bGw7CiAgICBvcGVyYXRvcj86IENpZHJPcGVyYXRvciB8IG51bGw7CiAgfSk6IFByb21pc2U8Q2lkckxvb2t1cFBheWxvYWQ+IHsKICAgIGNvbnN0IHBhcmFtcyA9IHsKICAgICAgcHJvdmluY2U6IHBheWxvYWQucHJvdmluY2UsCiAgICAgIC4uLihwYXlsb2FkLmNpdHkgPyB7IGNpdHk6IHBheWxvYWQuY2l0eSB9IDoge30pLAogICAgICAuLi4ocGF5bG9hZC5vcGVyYXRvciA/IHsgb3BlcmF0b3I6IHBheWxvYWQub3BlcmF0b3IgfSA6IHt9KSwKICAgIH0gc2F0aXNmaWVzIENpZHJMb29rdXBRdWVyeTsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9jaWRyL2NpZHJzIiwgeyBwYXJhbXMgfSk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAp9Owo=
+import type {
+  components as ApiContractComponents,
+  operations as ApiContractOperations,
+} from "@fn-knock/api-contract";
+import type {
+  CidrCitiesPayload,
+  CidrCapabilitiesPayload,
+  CidrLookupPayload,
+  CidrOperator,
+  CidrProvincesPayload,
+  CidrSelectorPayload,
+  GatewayLogDatesPayload,
+  GatewayLogAnalyticsPayload,
+  GatewayLogDeletePayload,
+  GatewayLogEntriesPayload,
+  GatewayLoggingConfig,
+  IpLocationBatchPayload,
+  IpLocationSnapshot,
+  WAFDetails,
+  WAFDrainResult,
+  WAFLogDeletePayload,
+  WAFLogEntriesPayload,
+  WAFRuleFileContent,
+  WAFStatus,
+} from "../../types";
+import { apiClient } from "./client";
+
+type GatewayLoggingConfigUpdate =
+  ApiContractComponents["schemas"]["GatewayLoggingConfigUpdateData"];
+type GatewayLogDirectory =
+  ApiContractComponents["schemas"]["GatewayLogDirectoryData"];
+type GatewayLogEntriesQuery = NonNullable<
+  ApiContractOperations["get_api_admin_gateway_logs_entries"]["parameters"]["query"]
+>;
+type GatewayLogAnalyticsQuery = NonNullable<
+  ApiContractOperations["get_api_admin_gateway_logs_analytics"]["parameters"]["query"]
+>;
+type GatewayLogAnalyticsRefresh =
+  ApiContractComponents["schemas"]["GatewayLogAnalyticsRefreshData"];
+type GatewayLogDeleteRequest =
+  ApiContractComponents["schemas"]["GatewayLogDeleteBodyData"];
+type IpLocationBatchBody =
+  ApiContractComponents["schemas"]["IpLocationBatchBodyData"];
+type CidrCitiesQuery = NonNullable<
+  ApiContractOperations["get_api_admin_cidr_cities"]["parameters"]["query"]
+>;
+type CidrSelectorQuery = NonNullable<
+  ApiContractOperations["get_api_admin_cidr_selector"]["parameters"]["query"]
+>;
+type CidrLookupQuery = NonNullable<
+  ApiContractOperations["get_api_admin_cidr_cidrs"]["parameters"]["query"]
+>;
+type WafConfigUpdate = ApiContractComponents["schemas"]["WafConfigUpdateData"];
+type WafRuleToggleBody =
+  ApiContractComponents["schemas"]["WafRuleToggleBodyData"];
+type WafUploadBody = ApiContractComponents["schemas"]["WafUploadBodyData"];
+type WafLogQuery = NonNullable<
+  ApiContractOperations["get_api_admin_waf_logs"]["parameters"]["query"]
+>;
+type WafLogDeleteBody =
+  ApiContractComponents["schemas"]["WafLogDeleteBodyData"];
+
+export { ConfigAPI } from "./config";
+export { DashboardAPI } from "./dashboard";
+export type {
+  CidrCitiesPayload,
+  CidrLookupPayload,
+  CidrProvincesPayload,
+  CidrSelectorPayload,
+  GatewayHostResponseDetails,
+  GatewayLogDatesPayload,
+  GatewayLogAnalyticsPayload,
+  GatewayLogDeletePayload,
+  GatewayLogEntriesPayload,
+  GatewayLoggingConfig,
+  GatewayPortalConfig,
+  GatewayProxyHeadersDetails,
+  GatewayVisibilityDetails,
+  IpLocationBatchPayload,
+  IpLocationSnapshot,
+  ProtocolMappingFeatureConfig,
+  SmartConnectConfig,
+  SmartConnectDetails,
+  ThreatOverview,
+  WAFConfig,
+  WAFDetails,
+  WAFDrainResult,
+  WAFLogDeletePayload,
+  WAFLogEntriesPayload,
+  WAFRuleFileContent,
+  WAFStatus,
+} from "../../types";
+export * from "./scan";
+
+export const GatewayLogsAPI = {
+  async getConfig(): Promise<GatewayLoggingConfig> {
+    const res = await apiClient.get("/gateway-logs/config");
+    return res.data.data;
+  },
+  async updateConfig(
+    payload: GatewayLoggingConfigUpdate,
+  ): Promise<GatewayLoggingConfig> {
+    const res = await apiClient.post("/gateway-logs/config", payload);
+    return res.data.data;
+  },
+  async getDirectory(): Promise<GatewayLogDirectory> {
+    const res = await apiClient.get("/gateway-logs/directory");
+    return res.data.data;
+  },
+  async getDates(): Promise<GatewayLogDatesPayload> {
+    const res = await apiClient.get("/gateway-logs/dates");
+    return res.data.data;
+  },
+  async getEntries(
+    params: GatewayLogEntriesQuery,
+  ): Promise<GatewayLogEntriesPayload> {
+    const res = await apiClient.get("/gateway-logs/entries", {
+      params,
+    });
+    return res.data.data;
+  },
+  async getAnalytics(
+    params: GatewayLogAnalyticsQuery,
+  ): Promise<GatewayLogAnalyticsPayload> {
+    const res = await apiClient.get("/gateway-logs/analytics", { params });
+    return res.data.data;
+  },
+  async refreshAnalyticsGeo(
+    params: GatewayLogAnalyticsQuery,
+  ): Promise<GatewayLogAnalyticsRefresh> {
+    const res = await apiClient.post("/gateway-logs/analytics", undefined, {
+      params,
+    });
+    return res.data.data;
+  },
+  async deleteDate(date: string): Promise<GatewayLogDeletePayload> {
+    const res = await apiClient.delete("/gateway-logs/entries", {
+      data: { date } satisfies GatewayLogDeleteRequest,
+    });
+    return res.data.data;
+  },
+};
+
+export const WAFAPI = {
+  async getDetails(): Promise<WAFDetails> {
+    const res = await apiClient.get("/waf/details");
+    return res.data.data;
+  },
+  async getStatus(): Promise<WAFStatus> {
+    const res = await apiClient.get("/waf/status");
+    return res.data.data;
+  },
+  async updateConfig(payload: WafConfigUpdate): Promise<WAFDetails> {
+    const res = await apiClient.post("/waf/config", payload);
+    return res.data.data;
+  },
+  async refreshManifest(): Promise<WAFDetails> {
+    const res = await apiClient.post("/waf/manifest/refresh");
+    return res.data.data;
+  },
+  async syncSystemRules(): Promise<WAFDetails> {
+    const res = await apiClient.post("/waf/system/sync");
+    return res.data.data;
+  },
+  async setRulesEnabled(payload: WafRuleToggleBody): Promise<WAFDetails> {
+    const res = await apiClient.post("/waf/rules/enabled", payload);
+    return res.data.data;
+  },
+  async enableRecommendedSystemRules(): Promise<WAFDetails> {
+    const res = await apiClient.post("/waf/rules/recommended");
+    return res.data.data;
+  },
+  async getRuleFile(
+    source: "system" | "custom",
+    filename: string,
+  ): Promise<WAFRuleFileContent> {
+    const res = await apiClient.get(
+      `/waf/rules/${source}/${encodeURIComponent(filename)}`,
+    );
+    return res.data.data;
+  },
+  async uploadCustomRules(payload: WafUploadBody): Promise<WAFDetails> {
+    const res = await apiClient.post("/waf/custom/upload", payload);
+    return res.data.data;
+  },
+  async deleteCustomRule(filename: string): Promise<WAFDetails> {
+    const res = await apiClient.delete(
+      `/waf/custom/${encodeURIComponent(filename)}`,
+    );
+    return res.data.data;
+  },
+  async drainEvents(signal?: AbortSignal): Promise<WAFDrainResult> {
+    const res = await apiClient.post("/waf/events/drain", undefined, {
+      signal,
+    });
+    return res.data.data;
+  },
+  async getLogs(
+    params: WafLogQuery,
+    signal?: AbortSignal,
+  ): Promise<WAFLogEntriesPayload> {
+    const res = await apiClient.get("/waf/logs", { params, signal });
+    return res.data.data;
+  },
+  async getLog(
+    traceId: string,
+  ): Promise<WAFLogEntriesPayload["items"][number]> {
+    const res = await apiClient.get(`/waf/logs/${encodeURIComponent(traceId)}`);
+    return res.data.data;
+  },
+  async deleteLogs(date: string): Promise<WAFLogDeletePayload> {
+    const res = await apiClient.delete("/waf/logs", {
+      data: { date } satisfies WafLogDeleteBody,
+    });
+    return res.data.data;
+  },
+};
+
+const IP_LOCATION_BATCH_LIMIT = 20;
+
+export const IpLocationAPI = {
+  async lookupBatch(ips: string[]): Promise<IpLocationSnapshot[]> {
+    if (ips.length === 0) return [];
+
+    const tasks: Promise<IpLocationSnapshot[]>[] = [];
+    for (let index = 0; index < ips.length; index += IP_LOCATION_BATCH_LIMIT) {
+      const batch = ips.slice(index, index + IP_LOCATION_BATCH_LIMIT);
+      const body = { ips: batch } satisfies IpLocationBatchBody;
+      tasks.push(
+        apiClient
+          .post("/ip-location/batch", body)
+          .then(
+            (res) =>
+              ((res.data.data as IpLocationBatchPayload).items ||
+                []) as IpLocationSnapshot[],
+          ),
+      );
+    }
+
+    const groups = await Promise.all(tasks);
+    return groups.flat();
+  },
+};
+
+export const CidrAPI = {
+  async getCapabilities(): Promise<CidrCapabilitiesPayload> {
+    const res = await apiClient.get("/cidr/capabilities");
+    return res.data.data;
+  },
+  async getProvinces(): Promise<CidrProvincesPayload> {
+    const res = await apiClient.get("/cidr/provinces");
+    return res.data.data;
+  },
+  async getCities(province: string): Promise<CidrCitiesPayload> {
+    const params = { province } satisfies CidrCitiesQuery;
+    const res = await apiClient.get("/cidr/cities", {
+      params,
+    });
+    return res.data.data;
+  },
+  async getSelector(province?: string): Promise<CidrSelectorPayload> {
+    const params = province
+      ? ({ province } satisfies CidrSelectorQuery)
+      : undefined;
+    const res = await apiClient.get("/cidr/selector", {
+      params,
+    });
+    return res.data.data;
+  },
+  async getCidrs(payload: {
+    province: string;
+    city?: string | null;
+    operator?: CidrOperator | null;
+  }): Promise<CidrLookupPayload> {
+    const params = {
+      province: payload.province,
+      ...(payload.city ? { city: payload.city } : {}),
+      ...(payload.operator ? { operator: payload.operator } : {}),
+    } satisfies CidrLookupQuery;
+    const res = await apiClient.get("/cidr/cidrs", { params });
+    return res.data.data;
+  },
+};

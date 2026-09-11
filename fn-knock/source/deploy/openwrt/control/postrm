@@ -1,1 +1,10 @@
-IyEvYmluL3NoCnNldCAtZQoKWyAtbiAiJElQS0dfSU5TVFJPT1QiIF0gJiYgZXhpdCAwCgpybSAtcmYgL3RtcC9mbi1rbm9jay11cGRhdGVzIDI+L2Rldi9udWxsIHx8IHRydWUKcm0gLWYgL3RtcC9sdWNpLWluZGV4Y2FjaGUgL3RtcC9sdWNpLW1vZHVsZWNhY2hlLyogMj4vZGV2L251bGwgfHwgdHJ1ZQpbIC14IC9ldGMvaW5pdC5kL3JwY2QgXSAmJiAvZXRjL2luaXQuZC9ycGNkIHJlc3RhcnQgPi9kZXYvbnVsbCAyPiYxIHx8IHRydWUKCmV4aXQgMAo=
+#!/bin/sh
+set -e
+
+[ -n "$IPKG_INSTROOT" ] && exit 0
+
+rm -rf /tmp/fn-knock-updates 2>/dev/null || true
+rm -f /tmp/luci-indexcache /tmp/luci-modulecache/* 2>/dev/null || true
+[ -x /etc/init.d/rpcd ] && /etc/init.d/rpcd restart >/dev/null 2>&1 || true
+
+exit 0

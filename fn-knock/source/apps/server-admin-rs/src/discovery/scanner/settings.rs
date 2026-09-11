@@ -1,1 +1,368 @@
-dXNlIHN1cGVyOjoqOwoKY29uc3QgUkVHSU9OX1BPTElDWV9GSUVMRDogJnN0ciA9ICJjaWRyRXhlbXB0aW9uUmVnaW9uUG9saWN5IjsKY29uc3QgRUZGRUNUSVZFX1BPTElDWV9GSUVMRDogJnN0ciA9ICJjaWRyRXhlbXB0aW9uUG9saWN5IjsKCnB1YihjcmF0ZSkgYXN5bmMgZm4gbWlncmF0ZV9zY2FubmVyX2NpZHJfaXBzZXRfb25fYm9vdCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCikgLT4gUmVzdWx0PCgpLCBTY2FubmVyRXJyb3I+IHsKICAgIGxldCBfZ3VhcmQgPSBzdGF0ZS5zZWN1cml0eS5zY2FubmVyX3NldHRpbmdzX3VwZGF0ZV9sb2NrLmxvY2soKS5hd2FpdDsKICAgIGxldCBTb21lKHJhdykgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLnNjYW5uZXJfc2V0dGluZ3NfcmF3KCkuYXdhaXQ/IGVsc2UgewogICAgICAgIHN0YXRlCiAgICAgICAgICAgIC5zZWN1cml0eQogICAgICAgICAgICAuaXBzZXRzCiAgICAgICAgICAgIC5wdWJsaXNoKFNDQU5ORVJfRVhFTVBUX0lQU0VUX0tFWSwgTm9uZSk7CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH07CiAgICBsZXQgKHN0b3JlZCwgcG9saWN5KSA9IGNvbXBhY3Rfc2Nhbm5lcl9zZXR0aW5ncygmcmF3KT87CiAgICBpZiBzdG9yZWQgIT0gcmF3IHsKICAgICAgICBzdGF0ZS5zdG9yYWdlLnN0b3JlLnNhdmVfc2Nhbm5lcl9zZXR0aW5ncygmc3RvcmVkKS5hd2FpdD87CiAgICB9CiAgICBzdGF0ZQogICAgICAgIC5zZWN1cml0eQogICAgICAgIC5pcHNldHMKICAgICAgICAucHVibGlzaChTQ0FOTkVSX0VYRU1QVF9JUFNFVF9LRVksIG5vbl9lbXB0eV9wb2xpY3kocG9saWN5KSk7CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBsb2FkX3NjYW5uZXJfc2V0dGluZ3MoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAopIC0+IFJlc3VsdDxTY2FubmVyU2V0dGluZ3MsIFNjYW5uZXJFcnJvcj4gewogICAgbGV0IHJhdyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuc2Nhbm5lcl9zZXR0aW5nc19yYXcoKS5hd2FpdD87CiAgICBlbnN1cmVfZWZmZWN0aXZlX3BvbGljeV9sb2FkZWQoc3RhdGUsIHJhdy5hc19yZWYoKSk/OwogICAgT2soc2Nhbm5lcl9zZXR0aW5nc19mcm9tX3JhdygKICAgICAgICByYXcuYXNfcmVmKCksCiAgICAgICAgc2Nhbm5lcl9lbnZfZGVmYXVsdHMoKSwKICAgICkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gbG9hZF9zY2FubmVyX3ByZWZsaWdodF9pbnB1dHMoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAopIC0+IFJlc3VsdDwoU2Nhbm5lclNldHRpbmdzLCBIYXNoU2V0PFN0cmluZz4pLCBTY2FubmVyRXJyb3I+IHsKICAgIGxldCByYXcgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLnNjYW5uZXJfc2V0dGluZ3NfcmF3KCkuYXdhaXQ/OwogICAgZW5zdXJlX2VmZmVjdGl2ZV9wb2xpY3lfbG9hZGVkKHN0YXRlLCByYXcuYXNfcmVmKCkpPzsKICAgIE9rKCgKICAgICAgICBzY2FubmVyX3NldHRpbmdzX2Zyb21fcmF3KHJhdy5hc19yZWYoKSwgc2Nhbm5lcl9lbnZfZGVmYXVsdHMoKSksCiAgICAgICAgc2Nhbm5lcl9wYXRoX3doaXRlbGlzdF9mcm9tX3JhdyhyYXcuYXNfcmVmKCkpPwogICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgLmNvbGxlY3QoKSwKICAgICkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc2F2ZV9zY2FubmVyX3NldHRpbmdzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGJvZHk6IFVwZGF0ZVNjYW5uZXJTZXR0aW5nc0JvZHksCikgLT4gUmVzdWx0PFNjYW5uZXJTZXR0aW5ncywgU2Nhbm5lckVycm9yPiB7CiAgICBsZXQgX2d1YXJkID0gc3RhdGUuc2VjdXJpdHkuc2Nhbm5lcl9zZXR0aW5nc191cGRhdGVfbG9jay5sb2NrKCkuYXdhaXQ7CiAgICBsZXQgcHJldmlvdXNfcmF3ID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5zY2FubmVyX3NldHRpbmdzX3JhdygpLmF3YWl0PzsKICAgIGxldCBwcmV2aW91cyA9IHNjYW5uZXJfc2V0dGluZ3NfZnJvbV9yYXcocHJldmlvdXNfcmF3LmFzX3JlZigpLCBzY2FubmVyX2Vudl9kZWZhdWx0cygpKTsKICAgIGxldCBtYW51YWxfY2lkcnMgPSBtYXRjaCBib2R5LmNpZHJfZXhlbXB0aW9ucy5hc19yZWYoKSB7CiAgICAgICAgU29tZShjaWRycykgPT4gdmFsaWRhdGVfc2Nhbm5lcl9jaWRyX2V4ZW1wdGlvbnMoY2lkcnMuY2xvbmUoKSk/LAogICAgICAgIE5vbmUgPT4gcHJldmlvdXMuY2lkcl9leGVtcHRpb25zLmNsb25lKCksCiAgICB9OwogICAgbGV0IHJlcXVlc3RlZF9yZWdpb25zID0gYm9keQogICAgICAgIC5jaWRyX2V4ZW1wdGlvbl9yZWdpb25zCiAgICAgICAgLmFzX3JlZigpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLm1hcChkZWR1cGVfc2Nhbm5lcl9jaWRyX2V4ZW1wdGlvbl9yZWdpb25faW5wdXRzKQogICAgICAgIC50cmFuc3Bvc2UoKT87CiAgICBsZXQgcHJldmlvdXNfcmVnaW9uX2lucHV0cyA9IHByZXZpb3VzCiAgICAgICAgLmNpZHJfZXhlbXB0aW9uX3JlZ2lvbnMKICAgICAgICAuaXRlcigpCiAgICAgICAgLm1hcCh8aXRlbXwgewogICAgICAgICAgICBDaWRyUmVnaW9uUXVlcnk6Om5ldygKICAgICAgICAgICAgICAgIGl0ZW0ucHJvdmluY2UuY2xvbmUoKSwKICAgICAgICAgICAgICAgIGl0ZW0ucXVlcnlfY2l0eS5jbG9uZSgpLAogICAgICAgICAgICAgICAgaXRlbS5vcGVyYXRvciwKICAgICAgICAgICAgKQogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgcmV1c2VfcmVnaW9uX3Jlc29sdXRpb24gPSByZXF1ZXN0ZWRfcmVnaW9ucwogICAgICAgIC5hc19yZWYoKQogICAgICAgIC5pc19ub25lX29yKHxyZWdpb25zfCBzY2FubmVyX2NpZHJfcmVnaW9uX2tleXNfZXF1YWwocmVnaW9ucywgJnByZXZpb3VzX3JlZ2lvbl9pbnB1dHMpKTsKCiAgICBsZXQgKHJlZ2lvbnMsIHJlZ2lvbl9wb2xpY3kpID0gaWYgcmV1c2VfcmVnaW9uX3Jlc29sdXRpb24gewogICAgICAgICgKICAgICAgICAgICAgcHJldmlvdXMuY2lkcl9leGVtcHRpb25fcmVnaW9ucy5jbG9uZSgpLAogICAgICAgICAgICByZWdpb25fcG9saWN5X2Zyb21fcmF3KHByZXZpb3VzX3Jhdy5hc19yZWYoKSk/LAogICAgICAgICkKICAgIH0gZWxzZSB7CiAgICAgICAgbGV0IHJlc29sdmVkID0KICAgICAgICAgICAgY3JhdGU6OmNpZHI6Omxvb2t1cF9yZWdpb25zKHN0YXRlLCByZXF1ZXN0ZWRfcmVnaW9ucy5hc19kZXJlZigpLnVud3JhcF9vcigmW10pKS5hd2FpdD87CiAgICAgICAgbGV0IHJlZ2lvbnMgPSByZXNvbHZlZAogICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgIC5tYXAofGl0ZW18IGl0ZW0uc2VsZWN0aW9uLmNsb25lKCkpCiAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgICAgIGxldCBwb2xpY3kgPSBjcmF0ZTo6Y2lkcjo6dW5pb25faXBfc2V0cyhyZXNvbHZlZC5pdGVyKCkubWFwKHxpdGVtfCAmaXRlbS5wb2xpY3kpKTsKICAgICAgICAocmVnaW9ucywgcG9saWN5KQogICAgfTsKCiAgICBsZXQgbWFudWFsX3BvbGljeSA9IGNyYXRlOjpjaWRyOjpjb21waWxlX2lwX3NldCgmbWFudWFsX2NpZHJzKS5tYXBfZXJyKFNjYW5uZXJFcnJvcjo6Q2lkcik/OwogICAgbGV0IGVmZmVjdGl2ZV9wb2xpY3kgPSBjcmF0ZTo6Y2lkcjo6dW5pb25faXBfc2V0cyhbJnJlZ2lvbl9wb2xpY3ksICZtYW51YWxfcG9saWN5XSk7CiAgICBsZXQgc3RvcmVkID0gY29tcGFjdF9zY2FubmVyX3NldHRpbmdzX3ZhbHVlKAogICAgICAgIHByZXZpb3VzX3Jhdy5hc19yZWYoKSwKICAgICAgICAmYm9keSwKICAgICAgICBtYW51YWxfY2lkcnMsCiAgICAgICAgcmVnaW9ucywKICAgICAgICAmcmVnaW9uX3BvbGljeSwKICAgICAgICAmZWZmZWN0aXZlX3BvbGljeSwKICAgICk7CiAgICBzdGF0ZS5zdG9yYWdlLnN0b3JlLnNhdmVfc2Nhbm5lcl9zZXR0aW5ncygmc3RvcmVkKS5hd2FpdD87CiAgICBzdGF0ZQogICAgICAgIC5zZWN1cml0eQogICAgICAgIC5pcHNldHMKICAgICAgICAucHVibGlzaChTQ0FOTkVSX0VYRU1QVF9JUFNFVF9LRVksIG5vbl9lbXB0eV9wb2xpY3koZWZmZWN0aXZlX3BvbGljeSkpOwogICAgT2soc2Nhbm5lcl9zZXR0aW5nc19mcm9tX3JhdygKICAgICAgICBTb21lKCZzdG9yZWQpLAogICAgICAgIHNjYW5uZXJfZW52X2RlZmF1bHRzKCksCiAgICApKQp9CgpwdWIoc3VwZXIpIGZuIGNvbXBhY3Rfc2Nhbm5lcl9zZXR0aW5ncygKICAgIHJhdzogJlZhbHVlLAopIC0+IFJlc3VsdDwoVmFsdWUsIGNyYXRlOjpjaWRyOjpDb21waWxlZElwU2V0KSwgU2Nhbm5lckVycm9yPiB7CiAgICBsZXQgc2V0dGluZ3MgPSBzY2FubmVyX3NldHRpbmdzX2Zyb21fcmF3KFNvbWUocmF3KSwgc2Nhbm5lcl9lbnZfZGVmYXVsdHMoKSk7CiAgICBsZXQgcmVnaW9uX3BvbGljeSA9IHJlZ2lvbl9wb2xpY3lfZnJvbV9yYXcoU29tZShyYXcpKT87CiAgICBsZXQgZWZmZWN0aXZlX3BvbGljeSA9IGVmZmVjdGl2ZV9wb2xpY3lfZnJvbV9yYXcoU29tZShyYXcpLCAmcmVnaW9uX3BvbGljeSwgJnNldHRpbmdzKT87CiAgICBsZXQgbXV0IHN0b3JlZCA9IHJhdy5jbG9uZSgpOwogICAgbGV0IG9iamVjdCA9IHN0b3JlZAogICAgICAgIC5hc19vYmplY3RfbXV0KCkKICAgICAgICAub2tfb3JfZWxzZSh8fCBTY2FubmVyRXJyb3I6OkNpZHIoInNjYW5uZXIgc2V0dGluZ3MgbXVzdCBiZSBhIEpTT04gb2JqZWN0Ii50b19zdHJpbmcoKSkpPzsKICAgIG9iamVjdC5yZW1vdmUoImNpZHJFeGVtcHRpb25SZWdpb25DaWRycyIpOwogICAgb2JqZWN0LnJlbW92ZSgiY2lkckV4ZW1wdGlvbkNpZHJzIik7CiAgICB3cml0ZV9wb2xpY3kob2JqZWN0LCBSRUdJT05fUE9MSUNZX0ZJRUxELCAmcmVnaW9uX3BvbGljeSk7CiAgICB3cml0ZV9kaXN0aW5jdF9lZmZlY3RpdmVfcG9saWN5KG9iamVjdCwgJnJlZ2lvbl9wb2xpY3ksICZlZmZlY3RpdmVfcG9saWN5KTsKICAgIG9iamVjdC5pbnNlcnQoCiAgICAgICAgImNpZHJFeGVtcHRpb25Qb2xpY3lJZCIudG9fc3RyaW5nKCksCiAgICAgICAgVmFsdWU6OlN0cmluZyhlZmZlY3RpdmVfcG9saWN5LmlkLmNsb25lKCkpLAogICAgKTsKICAgIG9iamVjdC5pbnNlcnQoCiAgICAgICAgImNpZHJFeGVtcHRpb25Tb3VyY2VDaWRyQ291bnQiLnRvX3N0cmluZygpLAogICAgICAgIGpzb24hKGVmZmVjdGl2ZV9wb2xpY3kuc291cmNlX2NpZHJfY291bnQpLAogICAgKTsKICAgIG9iamVjdC5pbnNlcnQoCiAgICAgICAgImNpZHJFeGVtcHRpb25SYW5nZUNvdW50Ii50b19zdHJpbmcoKSwKICAgICAgICBqc29uIShlZmZlY3RpdmVfcG9saWN5LnJhbmdlX2NvdW50KCkpLAogICAgKTsKICAgIE9rKChzdG9yZWQsIGVmZmVjdGl2ZV9wb2xpY3kpKQp9CgpmbiBjb21wYWN0X3NjYW5uZXJfc2V0dGluZ3NfdmFsdWUoCiAgICBwcmV2aW91czogT3B0aW9uPCZWYWx1ZT4sCiAgICBib2R5OiAmVXBkYXRlU2Nhbm5lclNldHRpbmdzQm9keSwKICAgIG1hbnVhbF9jaWRyczogVmVjPFN0cmluZz4sCiAgICByZWdpb25zOiBWZWM8U2Nhbm5lckNpZHJFeGVtcHRpb25TZWxlY3Rpb24+LAogICAgcmVnaW9uX3BvbGljeTogJmNyYXRlOjpjaWRyOjpDb21waWxlZElwU2V0LAogICAgZWZmZWN0aXZlX3BvbGljeTogJmNyYXRlOjpjaWRyOjpDb21waWxlZElwU2V0LAopIC0+IFZhbHVlIHsKICAgIGxldCBtdXQgc3RvcmVkID0gcHJldmlvdXMKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX29iamVjdCkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIHN0b3JlZC5pbnNlcnQoImVuYWJsZWQiLnRvX3N0cmluZygpLCBWYWx1ZTo6Qm9vbChib2R5LmVuYWJsZWQpKTsKICAgIHN0b3JlZC5pbnNlcnQoCiAgICAgICAgIndpbmRvd01pbnV0ZXMiLnRvX3N0cmluZygpLAogICAgICAgIGpzb24hKGZsb29yX3RvX2k2NChib2R5LndpbmRvd19taW51dGVzKS5tYXgoMSkpLAogICAgKTsKICAgIHN0b3JlZC5pbnNlcnQoCiAgICAgICAgInRocmVzaG9sZCIudG9fc3RyaW5nKCksCiAgICAgICAganNvbiEoZmxvb3JfdG9faTY0KGJvZHkudGhyZXNob2xkKS5tYXgoMSkpLAogICAgKTsKICAgIHN0b3JlZC5pbnNlcnQoCiAgICAgICAgImJsYWNrbGlzdFR0bFNlY29uZHMiLnRvX3N0cmluZygpLAogICAgICAgIGpzb24hKGZsb29yX3RvX2k2NChib2R5LmJsYWNrbGlzdF90dGxfc2Vjb25kcykubWF4KDYwKSksCiAgICApOwogICAgc3RvcmVkLmluc2VydCgKICAgICAgICAiY29tbW9uTG9jYXRpb25FeGVtcHRFbmFibGVkIi50b19zdHJpbmcoKSwKICAgICAgICBWYWx1ZTo6Qm9vbChib2R5LmNvbW1vbl9sb2NhdGlvbl9leGVtcHRfZW5hYmxlZCA9PSBTb21lKHRydWUpKSwKICAgICk7CiAgICBzdG9yZWQuaW5zZXJ0KCJjaWRyRXhlbXB0aW9ucyIudG9fc3RyaW5nKCksIGpzb24hKG1hbnVhbF9jaWRycykpOwogICAgc3RvcmVkLmluc2VydCgiY2lkckV4ZW1wdGlvblJlZ2lvbnMiLnRvX3N0cmluZygpLCBqc29uIShyZWdpb25zKSk7CiAgICBzdG9yZWQucmVtb3ZlKCJjaWRyRXhlbXB0aW9uUmVnaW9uQ2lkcnMiKTsKICAgIHN0b3JlZC5yZW1vdmUoImNpZHJFeGVtcHRpb25DaWRycyIpOwogICAgd3JpdGVfcG9saWN5KCZtdXQgc3RvcmVkLCBSRUdJT05fUE9MSUNZX0ZJRUxELCByZWdpb25fcG9saWN5KTsKICAgIHdyaXRlX2Rpc3RpbmN0X2VmZmVjdGl2ZV9wb2xpY3koJm11dCBzdG9yZWQsIHJlZ2lvbl9wb2xpY3ksIGVmZmVjdGl2ZV9wb2xpY3kpOwogICAgc3RvcmVkLmluc2VydCgKICAgICAgICAiY2lkckV4ZW1wdGlvblBvbGljeUlkIi50b19zdHJpbmcoKSwKICAgICAgICBWYWx1ZTo6U3RyaW5nKGVmZmVjdGl2ZV9wb2xpY3kuaWQuY2xvbmUoKSksCiAgICApOwogICAgc3RvcmVkLmluc2VydCgKICAgICAgICAiY2lkckV4ZW1wdGlvblNvdXJjZUNpZHJDb3VudCIudG9fc3RyaW5nKCksCiAgICAgICAganNvbiEoZWZmZWN0aXZlX3BvbGljeS5zb3VyY2VfY2lkcl9jb3VudCksCiAgICApOwogICAgc3RvcmVkLmluc2VydCgKICAgICAgICAiY2lkckV4ZW1wdGlvblJhbmdlQ291bnQiLnRvX3N0cmluZygpLAogICAgICAgIGpzb24hKGVmZmVjdGl2ZV9wb2xpY3kucmFuZ2VfY291bnQoKSksCiAgICApOwogICAgVmFsdWU6Ok9iamVjdChzdG9yZWQpCn0KCmZuIHdyaXRlX3BvbGljeShvYmplY3Q6ICZtdXQgTWFwPFN0cmluZywgVmFsdWU+LCBmaWVsZDogJnN0ciwgcG9saWN5OiAmY3JhdGU6OmNpZHI6OkNvbXBpbGVkSXBTZXQpIHsKICAgIGlmIHBvbGljeS5yYW5nZV9jb3VudCgpID09IDAgewogICAgICAgIG9iamVjdC5yZW1vdmUoZmllbGQpOwogICAgfSBlbHNlIHsKICAgICAgICBvYmplY3QuaW5zZXJ0KGZpZWxkLnRvX3N0cmluZygpLCBwb2xpY3kudG9fdHJhbnNwb3J0X3ZhbHVlKCkpOwogICAgfQp9CgpmbiB3cml0ZV9kaXN0aW5jdF9lZmZlY3RpdmVfcG9saWN5KAogICAgb2JqZWN0OiAmbXV0IE1hcDxTdHJpbmcsIFZhbHVlPiwKICAgIHJlZ2lvbl9wb2xpY3k6ICZjcmF0ZTo6Y2lkcjo6Q29tcGlsZWRJcFNldCwKICAgIGVmZmVjdGl2ZV9wb2xpY3k6ICZjcmF0ZTo6Y2lkcjo6Q29tcGlsZWRJcFNldCwKKSB7CiAgICBpZiBlZmZlY3RpdmVfcG9saWN5LmlkID09IHJlZ2lvbl9wb2xpY3kuaWQgewogICAgICAgIG9iamVjdC5yZW1vdmUoRUZGRUNUSVZFX1BPTElDWV9GSUVMRCk7CiAgICB9IGVsc2UgewogICAgICAgIHdyaXRlX3BvbGljeShvYmplY3QsIEVGRkVDVElWRV9QT0xJQ1lfRklFTEQsIGVmZmVjdGl2ZV9wb2xpY3kpOwogICAgfQp9CgpmbiByZWdpb25fcG9saWN5X2Zyb21fcmF3KHJhdzogT3B0aW9uPCZWYWx1ZT4pIC0+IFJlc3VsdDxjcmF0ZTo6Y2lkcjo6Q29tcGlsZWRJcFNldCwgU2Nhbm5lckVycm9yPiB7CiAgICBpZiBsZXQgU29tZShwb2xpY3kpID0gZGVjb2RlX2VtYmVkZGVkX3BvbGljeShyYXcsIFJFR0lPTl9QT0xJQ1lfRklFTEQpPyB7CiAgICAgICAgcmV0dXJuIE9rKHBvbGljeS5pbnRvX2N1cnJlbnRfZm9ybWF0KCkpOwogICAgfQogICAgbGV0IGNpZHJzID0gbm9ybWFsaXplX3NjYW5uZXJfY2lkcl9leGVtcHRpb25zKAogICAgICAgIHJhdy5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLmdldCgiY2lkckV4ZW1wdGlvblJlZ2lvbkNpZHJzIikpLAogICAgKTsKICAgIGNyYXRlOjpjaWRyOjpjb21waWxlX2lwX3NldChjaWRycykubWFwX2VycihTY2FubmVyRXJyb3I6OkNpZHIpCn0KCmZuIGVmZmVjdGl2ZV9wb2xpY3lfZnJvbV9yYXcoCiAgICByYXc6IE9wdGlvbjwmVmFsdWU+LAogICAgcmVnaW9uX3BvbGljeTogJmNyYXRlOjpjaWRyOjpDb21waWxlZElwU2V0LAogICAgc2V0dGluZ3M6ICZTY2FubmVyU2V0dGluZ3MsCikgLT4gUmVzdWx0PGNyYXRlOjpjaWRyOjpDb21waWxlZElwU2V0LCBTY2FubmVyRXJyb3I+IHsKICAgIGlmIGxldCBTb21lKHBvbGljeSkgPSBkZWNvZGVfZW1iZWRkZWRfcG9saWN5KHJhdywgRUZGRUNUSVZFX1BPTElDWV9GSUVMRCk/IHsKICAgICAgICByZXR1cm4gT2socG9saWN5LmludG9fY3VycmVudF9mb3JtYXQoKSk7CiAgICB9CiAgICBsZXQgbGVnYWN5X2VmZmVjdGl2ZSA9CiAgICAgICAgbm9ybWFsaXplX3NjYW5uZXJfY2lkcl9leGVtcHRpb25zKHJhdy5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLmdldCgiY2lkckV4ZW1wdGlvbkNpZHJzIikpKTsKICAgIGlmICFsZWdhY3lfZWZmZWN0aXZlLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBjcmF0ZTo6Y2lkcjo6Y29tcGlsZV9pcF9zZXQobGVnYWN5X2VmZmVjdGl2ZSkubWFwX2VycihTY2FubmVyRXJyb3I6OkNpZHIpOwogICAgfQogICAgbGV0IG1hbnVhbF9wb2xpY3kgPQogICAgICAgIGNyYXRlOjpjaWRyOjpjb21waWxlX2lwX3NldCgmc2V0dGluZ3MuY2lkcl9leGVtcHRpb25zKS5tYXBfZXJyKFNjYW5uZXJFcnJvcjo6Q2lkcik/OwogICAgT2soY3JhdGU6OmNpZHI6OnVuaW9uX2lwX3NldHMoW3JlZ2lvbl9wb2xpY3ksICZtYW51YWxfcG9saWN5XSkpCn0KCmZuIGRlY29kZV9lbWJlZGRlZF9wb2xpY3koCiAgICByYXc6IE9wdGlvbjwmVmFsdWU+LAogICAgZmllbGQ6ICZzdHIsCikgLT4gUmVzdWx0PE9wdGlvbjxjcmF0ZTo6Y2lkcjo6Q29tcGlsZWRJcFNldD4sIFNjYW5uZXJFcnJvcj4gewogICAgcmF3LmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuZ2V0KGZpZWxkKSkKICAgICAgICAubWFwKGNyYXRlOjpjaWRyOjpDb21waWxlZElwU2V0Ojpmcm9tX3RyYW5zcG9ydF92YWx1ZSkKICAgICAgICAudHJhbnNwb3NlKCkKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IFNjYW5uZXJFcnJvcjo6Q2lkcihmb3JtYXQhKCJpbnZhbGlkIHNjYW5uZXIge2ZpZWxkfToge2Vycm9yfSIpKSkKfQoKZm4gZW5zdXJlX2VmZmVjdGl2ZV9wb2xpY3lfbG9hZGVkKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHJhdzogT3B0aW9uPCZWYWx1ZT4sCikgLT4gUmVzdWx0PCgpLCBTY2FubmVyRXJyb3I+IHsKICAgIGxldCBzZXR0aW5ncyA9IHNjYW5uZXJfc2V0dGluZ3NfZnJvbV9yYXcocmF3LCBzY2FubmVyX2Vudl9kZWZhdWx0cygpKTsKICAgIGlmIGxldCBTb21lKGV4cGVjdGVkX2lkKSA9IHNldHRpbmdzLmNpZHJfZXhlbXB0aW9uX3BvbGljeV9pZC5hc19kZXJlZigpCiAgICAgICAgJiYgc3RhdGUKICAgICAgICAgICAgLnNlY3VyaXR5CiAgICAgICAgICAgIC5pcHNldHMKICAgICAgICAgICAgLmdldChTQ0FOTkVSX0VYRU1QVF9JUFNFVF9LRVkpCiAgICAgICAgICAgIC5pc19zb21lX2FuZCh8cG9saWN5fCBwb2xpY3kuaWQgPT0gZXhwZWN0ZWRfaWQpCiAgICB7CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH0KICAgIGxldCByZWdpb25fcG9saWN5ID0gcmVnaW9uX3BvbGljeV9mcm9tX3JhdyhyYXcpPzsKICAgIGxldCBlZmZlY3RpdmVfcG9saWN5ID0gZWZmZWN0aXZlX3BvbGljeV9mcm9tX3JhdyhyYXcsICZyZWdpb25fcG9saWN5LCAmc2V0dGluZ3MpPzsKICAgIHN0YXRlCiAgICAgICAgLnNlY3VyaXR5CiAgICAgICAgLmlwc2V0cwogICAgICAgIC5wdWJsaXNoKFNDQU5ORVJfRVhFTVBUX0lQU0VUX0tFWSwgbm9uX2VtcHR5X3BvbGljeShlZmZlY3RpdmVfcG9saWN5KSk7CiAgICBPaygoKSkKfQoKZm4gbm9uX2VtcHR5X3BvbGljeShwb2xpY3k6IGNyYXRlOjpjaWRyOjpDb21waWxlZElwU2V0KSAtPiBPcHRpb248Y3JhdGU6OmNpZHI6OkNvbXBpbGVkSXBTZXQ+IHsKICAgIChwb2xpY3kucmFuZ2VfY291bnQoKSA+IDApLnRoZW5fc29tZShwb2xpY3kpCn0KCnB1YihzdXBlcikgZm4gc2Nhbm5lcl9zZXR0aW5nc19mcm9tX3JhdygKICAgIHJhdzogT3B0aW9uPCZWYWx1ZT4sCiAgICBkZWZhdWx0czogU2Nhbm5lckVudkRlZmF1bHRzLAopIC0+IFNjYW5uZXJTZXR0aW5ncyB7CiAgICBsZXQgbXV0IGVuYWJsZWQgPSBkZWZhdWx0cy5lbmFibGVkOwogICAgbGV0IG11dCB3aW5kb3dfbWludXRlcyA9IGRlZmF1bHRzLndpbmRvd19taW51dGVzOwogICAgbGV0IG11dCB0aHJlc2hvbGQgPSBkZWZhdWx0cy50aHJlc2hvbGQ7CiAgICBsZXQgbXV0IGJsYWNrbGlzdF90dGxfc2Vjb25kcyA9IGRlZmF1bHRzLmJsYWNrbGlzdF90dGxfc2Vjb25kczsKICAgIGxldCBtdXQgY29tbW9uX2xvY2F0aW9uX2V4ZW1wdF9lbmFibGVkID0gZmFsc2U7CiAgICBsZXQgbXV0IGNpZHJfZXhlbXB0aW9ucyA9IFZlYzo6bmV3KCk7CiAgICBsZXQgbXV0IGNpZHJfZXhlbXB0aW9uX3JlZ2lvbnMgPSBWZWM6Om5ldygpOwogICAgbGV0IG11dCBjaWRyX2V4ZW1wdGlvbl9wb2xpY3lfaWQgPSBOb25lOwogICAgbGV0IG11dCBjaWRyX2V4ZW1wdGlvbl9zb3VyY2VfY2lkcl9jb3VudCA9IDB1c2l6ZTsKICAgIGxldCBtdXQgY2lkcl9leGVtcHRpb25fcmFuZ2VfY291bnQgPSAwdXNpemU7CgogICAgaWYgbGV0IFNvbWUocmF3KSA9IHJhdyB7CiAgICAgICAgaWYgbGV0IFNvbWUodmFsdWUpID0gcmF3LmdldCgiZW5hYmxlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSB7CiAgICAgICAgICAgIGVuYWJsZWQgPSB2YWx1ZTsKICAgICAgICB9CiAgICAgICAgaWYgbGV0IFNvbWUodmFsdWUpID0gcG9zaXRpdmVfaTY0KHJhdy5nZXQoIndpbmRvd01pbnV0ZXMiKSkgewogICAgICAgICAgICB3aW5kb3dfbWludXRlcyA9IHZhbHVlOwogICAgICAgIH0KICAgICAgICBpZiBsZXQgU29tZSh2YWx1ZSkgPSBwb3NpdGl2ZV9pNjQocmF3LmdldCgidGhyZXNob2xkIikpIHsKICAgICAgICAgICAgdGhyZXNob2xkID0gdmFsdWU7CiAgICAgICAgfQogICAgICAgIGlmIGxldCBTb21lKHZhbHVlKSA9IHBvc2l0aXZlX2k2NChyYXcuZ2V0KCJibGFja2xpc3RUdGxTZWNvbmRzIikpIHsKICAgICAgICAgICAgYmxhY2tsaXN0X3R0bF9zZWNvbmRzID0gdmFsdWU7CiAgICAgICAgfQogICAgICAgIGlmIGxldCBTb21lKHZhbHVlKSA9IHJhdwogICAgICAgICAgICAuZ2V0KCJjb21tb25Mb2NhdGlvbkV4ZW1wdEVuYWJsZWQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgewogICAgICAgICAgICBjb21tb25fbG9jYXRpb25fZXhlbXB0X2VuYWJsZWQgPSB2YWx1ZTsKICAgICAgICB9CiAgICAgICAgY2lkcl9leGVtcHRpb25zID0gbm9ybWFsaXplX3NjYW5uZXJfY2lkcl9leGVtcHRpb25zKHJhdy5nZXQoImNpZHJFeGVtcHRpb25zIikpOwogICAgICAgIGNpZHJfZXhlbXB0aW9uX3JlZ2lvbnMgPQogICAgICAgICAgICBub3JtYWxpemVfc2Nhbm5lcl9jaWRyX2V4ZW1wdGlvbl9yZWdpb25zKHJhdy5nZXQoImNpZHJFeGVtcHRpb25SZWdpb25zIikpOwogICAgICAgIGNpZHJfZXhlbXB0aW9uX3BvbGljeV9pZCA9IHJhdwogICAgICAgICAgICAuZ2V0KCJjaWRyRXhlbXB0aW9uUG9saWN5SWQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICAgICAgLm1hcChUb1N0cmluZzo6dG9fc3RyaW5nKTsKICAgICAgICBjaWRyX2V4ZW1wdGlvbl9zb3VyY2VfY2lkcl9jb3VudCA9IHJhdwogICAgICAgICAgICAuZ2V0KCJjaWRyRXhlbXB0aW9uU291cmNlQ2lkckNvdW50IikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc191NjQpCiAgICAgICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHVzaXplOjp0cnlfZnJvbSh2YWx1ZSkub2soKSkKICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICAgICAgY2lkcl9leGVtcHRpb25fcmFuZ2VfY291bnQgPSByYXcKICAgICAgICAgICAgLmdldCgiY2lkckV4ZW1wdGlvblJhbmdlQ291bnQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3U2NCkKICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdXNpemU6OnRyeV9mcm9tKHZhbHVlKS5vaygpKQogICAgICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIH0KCiAgICBTY2FubmVyU2V0dGluZ3MgewogICAgICAgIGVuYWJsZWQsCiAgICAgICAgd2luZG93X21pbnV0ZXMsCiAgICAgICAgdGhyZXNob2xkLAogICAgICAgIHdpbmRvd19zZWNvbmRzOiBTQ0FOTkVSX0JBU0VfV0lORE9XX1NFQ09ORFMubWF4KHdpbmRvd19taW51dGVzICogNjApLAogICAgICAgIGJsYWNrbGlzdF90dGxfc2Vjb25kcywKICAgICAgICBjb21tb25fbG9jYXRpb25fZXhlbXB0X2VuYWJsZWQsCiAgICAgICAgY2lkcl9leGVtcHRpb25zLAogICAgICAgIGNpZHJfZXhlbXB0aW9uX3JlZ2lvbnMsCiAgICAgICAgY2lkcl9leGVtcHRpb25fcmVnaW9uX2NpZHJzOiBWZWM6Om5ldygpLAogICAgICAgIGNpZHJfZXhlbXB0aW9uX2NpZHJzOiBWZWM6Om5ldygpLAogICAgICAgIGNpZHJfZXhlbXB0aW9uX3BvbGljeV9pZCwKICAgICAgICBjaWRyX2V4ZW1wdGlvbl9zb3VyY2VfY2lkcl9jb3VudCwKICAgICAgICBjaWRyX2V4ZW1wdGlvbl9yYW5nZV9jb3VudCwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBzY2FubmVyX2Vudl9kZWZhdWx0cygpIC0+IFNjYW5uZXJFbnZEZWZhdWx0cyB7CiAgICBsZXQgZW5hYmxlZF9yYXcgPSBlbnY6OnZhcigiU0NBTk5FUl9FTkFCTEVEIikKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQogICAgICAgIC50cmltKCkKICAgICAgICAudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBTY2FubmVyRW52RGVmYXVsdHMgewogICAgICAgIGVuYWJsZWQ6IGVuYWJsZWRfcmF3ID09ICJ0cnVlIiB8fCBlbmFibGVkX3JhdyA9PSAiMSIsCiAgICAgICAgd2luZG93X21pbnV0ZXM6IGVudl9pNjQoIlNDQU5ORVJfV0lORE9XX01JTlVURVMiLCA1KSwKICAgICAgICB0aHJlc2hvbGQ6IGVudl9pNjQoIlNDQU5ORVJfVEhSRVNIT0xEIiwgNSksCiAgICAgICAgYmxhY2tsaXN0X3R0bF9zZWNvbmRzOiBlbnZfaTY0KCJTQ0FOTkVSX0JMQUNLTElTVF9UVExfREFZUyIsIDkwKSAqIDI0ICogMzYwMCwKICAgIH0KfQo=
+use super::*;
+
+const REGION_POLICY_FIELD: &str = "cidrExemptionRegionPolicy";
+const EFFECTIVE_POLICY_FIELD: &str = "cidrExemptionPolicy";
+
+pub(crate) async fn migrate_scanner_cidr_ipset_on_boot(
+    state: &AppState,
+) -> Result<(), ScannerError> {
+    let _guard = state.security.scanner_settings_update_lock.lock().await;
+    let Some(raw) = state.storage.store.scanner_settings_raw().await? else {
+        state
+            .security
+            .ipsets
+            .publish(SCANNER_EXEMPT_IPSET_KEY, None);
+        return Ok(());
+    };
+    let (stored, policy) = compact_scanner_settings(&raw)?;
+    if stored != raw {
+        state.storage.store.save_scanner_settings(&stored).await?;
+    }
+    state
+        .security
+        .ipsets
+        .publish(SCANNER_EXEMPT_IPSET_KEY, non_empty_policy(policy));
+    Ok(())
+}
+
+pub(super) async fn load_scanner_settings(
+    state: &AppState,
+) -> Result<ScannerSettings, ScannerError> {
+    let raw = state.storage.store.scanner_settings_raw().await?;
+    ensure_effective_policy_loaded(state, raw.as_ref())?;
+    Ok(scanner_settings_from_raw(
+        raw.as_ref(),
+        scanner_env_defaults(),
+    ))
+}
+
+pub(super) async fn load_scanner_preflight_inputs(
+    state: &AppState,
+) -> Result<(ScannerSettings, HashSet<String>), ScannerError> {
+    let raw = state.storage.store.scanner_settings_raw().await?;
+    ensure_effective_policy_loaded(state, raw.as_ref())?;
+    Ok((
+        scanner_settings_from_raw(raw.as_ref(), scanner_env_defaults()),
+        scanner_path_whitelist_from_raw(raw.as_ref())?
+            .into_iter()
+            .collect(),
+    ))
+}
+
+pub(super) async fn save_scanner_settings(
+    state: &AppState,
+    body: UpdateScannerSettingsBody,
+) -> Result<ScannerSettings, ScannerError> {
+    let _guard = state.security.scanner_settings_update_lock.lock().await;
+    let previous_raw = state.storage.store.scanner_settings_raw().await?;
+    let previous = scanner_settings_from_raw(previous_raw.as_ref(), scanner_env_defaults());
+    let manual_cidrs = match body.cidr_exemptions.as_ref() {
+        Some(cidrs) => validate_scanner_cidr_exemptions(cidrs.clone())?,
+        None => previous.cidr_exemptions.clone(),
+    };
+    let requested_regions = body
+        .cidr_exemption_regions
+        .as_ref()
+        .cloned()
+        .map(dedupe_scanner_cidr_exemption_region_inputs)
+        .transpose()?;
+    let previous_region_inputs = previous
+        .cidr_exemption_regions
+        .iter()
+        .map(|item| {
+            CidrRegionQuery::new(
+                item.province.clone(),
+                item.query_city.clone(),
+                item.operator,
+            )
+        })
+        .collect::<Vec<_>>();
+    let reuse_region_resolution = requested_regions
+        .as_ref()
+        .is_none_or(|regions| scanner_cidr_region_keys_equal(regions, &previous_region_inputs));
+
+    let (regions, region_policy) = if reuse_region_resolution {
+        (
+            previous.cidr_exemption_regions.clone(),
+            region_policy_from_raw(previous_raw.as_ref())?,
+        )
+    } else {
+        let resolved =
+            crate::cidr::lookup_regions(state, requested_regions.as_deref().unwrap_or(&[])).await?;
+        let regions = resolved
+            .iter()
+            .map(|item| item.selection.clone())
+            .collect::<Vec<_>>();
+        let policy = crate::cidr::union_ip_sets(resolved.iter().map(|item| &item.policy));
+        (regions, policy)
+    };
+
+    let manual_policy = crate::cidr::compile_ip_set(&manual_cidrs).map_err(ScannerError::Cidr)?;
+    let effective_policy = crate::cidr::union_ip_sets([&region_policy, &manual_policy]);
+    let stored = compact_scanner_settings_value(
+        previous_raw.as_ref(),
+        &body,
+        manual_cidrs,
+        regions,
+        &region_policy,
+        &effective_policy,
+    );
+    state.storage.store.save_scanner_settings(&stored).await?;
+    state
+        .security
+        .ipsets
+        .publish(SCANNER_EXEMPT_IPSET_KEY, non_empty_policy(effective_policy));
+    Ok(scanner_settings_from_raw(
+        Some(&stored),
+        scanner_env_defaults(),
+    ))
+}
+
+pub(super) fn compact_scanner_settings(
+    raw: &Value,
+) -> Result<(Value, crate::cidr::CompiledIpSet), ScannerError> {
+    let settings = scanner_settings_from_raw(Some(raw), scanner_env_defaults());
+    let region_policy = region_policy_from_raw(Some(raw))?;
+    let effective_policy = effective_policy_from_raw(Some(raw), &region_policy, &settings)?;
+    let mut stored = raw.clone();
+    let object = stored
+        .as_object_mut()
+        .ok_or_else(|| ScannerError::Cidr("scanner settings must be a JSON object".to_string()))?;
+    object.remove("cidrExemptionRegionCidrs");
+    object.remove("cidrExemptionCidrs");
+    write_policy(object, REGION_POLICY_FIELD, &region_policy);
+    write_distinct_effective_policy(object, &region_policy, &effective_policy);
+    object.insert(
+        "cidrExemptionPolicyId".to_string(),
+        Value::String(effective_policy.id.clone()),
+    );
+    object.insert(
+        "cidrExemptionSourceCidrCount".to_string(),
+        json!(effective_policy.source_cidr_count),
+    );
+    object.insert(
+        "cidrExemptionRangeCount".to_string(),
+        json!(effective_policy.range_count()),
+    );
+    Ok((stored, effective_policy))
+}
+
+fn compact_scanner_settings_value(
+    previous: Option<&Value>,
+    body: &UpdateScannerSettingsBody,
+    manual_cidrs: Vec<String>,
+    regions: Vec<ScannerCidrExemptionSelection>,
+    region_policy: &crate::cidr::CompiledIpSet,
+    effective_policy: &crate::cidr::CompiledIpSet,
+) -> Value {
+    let mut stored = previous
+        .and_then(Value::as_object)
+        .cloned()
+        .unwrap_or_default();
+    stored.insert("enabled".to_string(), Value::Bool(body.enabled));
+    stored.insert(
+        "windowMinutes".to_string(),
+        json!(floor_to_i64(body.window_minutes).max(1)),
+    );
+    stored.insert(
+        "threshold".to_string(),
+        json!(floor_to_i64(body.threshold).max(1)),
+    );
+    stored.insert(
+        "blacklistTtlSeconds".to_string(),
+        json!(floor_to_i64(body.blacklist_ttl_seconds).max(60)),
+    );
+    stored.insert(
+        "commonLocationExemptEnabled".to_string(),
+        Value::Bool(body.common_location_exempt_enabled == Some(true)),
+    );
+    stored.insert("cidrExemptions".to_string(), json!(manual_cidrs));
+    stored.insert("cidrExemptionRegions".to_string(), json!(regions));
+    stored.remove("cidrExemptionRegionCidrs");
+    stored.remove("cidrExemptionCidrs");
+    write_policy(&mut stored, REGION_POLICY_FIELD, region_policy);
+    write_distinct_effective_policy(&mut stored, region_policy, effective_policy);
+    stored.insert(
+        "cidrExemptionPolicyId".to_string(),
+        Value::String(effective_policy.id.clone()),
+    );
+    stored.insert(
+        "cidrExemptionSourceCidrCount".to_string(),
+        json!(effective_policy.source_cidr_count),
+    );
+    stored.insert(
+        "cidrExemptionRangeCount".to_string(),
+        json!(effective_policy.range_count()),
+    );
+    Value::Object(stored)
+}
+
+fn write_policy(object: &mut Map<String, Value>, field: &str, policy: &crate::cidr::CompiledIpSet) {
+    if policy.range_count() == 0 {
+        object.remove(field);
+    } else {
+        object.insert(field.to_string(), policy.to_transport_value());
+    }
+}
+
+fn write_distinct_effective_policy(
+    object: &mut Map<String, Value>,
+    region_policy: &crate::cidr::CompiledIpSet,
+    effective_policy: &crate::cidr::CompiledIpSet,
+) {
+    if effective_policy.id == region_policy.id {
+        object.remove(EFFECTIVE_POLICY_FIELD);
+    } else {
+        write_policy(object, EFFECTIVE_POLICY_FIELD, effective_policy);
+    }
+}
+
+fn region_policy_from_raw(raw: Option<&Value>) -> Result<crate::cidr::CompiledIpSet, ScannerError> {
+    if let Some(policy) = decode_embedded_policy(raw, REGION_POLICY_FIELD)? {
+        return Ok(policy.into_current_format());
+    }
+    let cidrs = normalize_scanner_cidr_exemptions(
+        raw.and_then(|value| value.get("cidrExemptionRegionCidrs")),
+    );
+    crate::cidr::compile_ip_set(cidrs).map_err(ScannerError::Cidr)
+}
+
+fn effective_policy_from_raw(
+    raw: Option<&Value>,
+    region_policy: &crate::cidr::CompiledIpSet,
+    settings: &ScannerSettings,
+) -> Result<crate::cidr::CompiledIpSet, ScannerError> {
+    if let Some(policy) = decode_embedded_policy(raw, EFFECTIVE_POLICY_FIELD)? {
+        return Ok(policy.into_current_format());
+    }
+    let legacy_effective =
+        normalize_scanner_cidr_exemptions(raw.and_then(|value| value.get("cidrExemptionCidrs")));
+    if !legacy_effective.is_empty() {
+        return crate::cidr::compile_ip_set(legacy_effective).map_err(ScannerError::Cidr);
+    }
+    let manual_policy =
+        crate::cidr::compile_ip_set(&settings.cidr_exemptions).map_err(ScannerError::Cidr)?;
+    Ok(crate::cidr::union_ip_sets([region_policy, &manual_policy]))
+}
+
+fn decode_embedded_policy(
+    raw: Option<&Value>,
+    field: &str,
+) -> Result<Option<crate::cidr::CompiledIpSet>, ScannerError> {
+    raw.and_then(|value| value.get(field))
+        .map(crate::cidr::CompiledIpSet::from_transport_value)
+        .transpose()
+        .map_err(|error| ScannerError::Cidr(format!("invalid scanner {field}: {error}")))
+}
+
+fn ensure_effective_policy_loaded(
+    state: &AppState,
+    raw: Option<&Value>,
+) -> Result<(), ScannerError> {
+    let settings = scanner_settings_from_raw(raw, scanner_env_defaults());
+    if let Some(expected_id) = settings.cidr_exemption_policy_id.as_deref()
+        && state
+            .security
+            .ipsets
+            .get(SCANNER_EXEMPT_IPSET_KEY)
+            .is_some_and(|policy| policy.id == expected_id)
+    {
+        return Ok(());
+    }
+    let region_policy = region_policy_from_raw(raw)?;
+    let effective_policy = effective_policy_from_raw(raw, &region_policy, &settings)?;
+    state
+        .security
+        .ipsets
+        .publish(SCANNER_EXEMPT_IPSET_KEY, non_empty_policy(effective_policy));
+    Ok(())
+}
+
+fn non_empty_policy(policy: crate::cidr::CompiledIpSet) -> Option<crate::cidr::CompiledIpSet> {
+    (policy.range_count() > 0).then_some(policy)
+}
+
+pub(super) fn scanner_settings_from_raw(
+    raw: Option<&Value>,
+    defaults: ScannerEnvDefaults,
+) -> ScannerSettings {
+    let mut enabled = defaults.enabled;
+    let mut window_minutes = defaults.window_minutes;
+    let mut threshold = defaults.threshold;
+    let mut blacklist_ttl_seconds = defaults.blacklist_ttl_seconds;
+    let mut common_location_exempt_enabled = false;
+    let mut cidr_exemptions = Vec::new();
+    let mut cidr_exemption_regions = Vec::new();
+    let mut cidr_exemption_policy_id = None;
+    let mut cidr_exemption_source_cidr_count = 0usize;
+    let mut cidr_exemption_range_count = 0usize;
+
+    if let Some(raw) = raw {
+        if let Some(value) = raw.get("enabled").and_then(Value::as_bool) {
+            enabled = value;
+        }
+        if let Some(value) = positive_i64(raw.get("windowMinutes")) {
+            window_minutes = value;
+        }
+        if let Some(value) = positive_i64(raw.get("threshold")) {
+            threshold = value;
+        }
+        if let Some(value) = positive_i64(raw.get("blacklistTtlSeconds")) {
+            blacklist_ttl_seconds = value;
+        }
+        if let Some(value) = raw
+            .get("commonLocationExemptEnabled")
+            .and_then(Value::as_bool)
+        {
+            common_location_exempt_enabled = value;
+        }
+        cidr_exemptions = normalize_scanner_cidr_exemptions(raw.get("cidrExemptions"));
+        cidr_exemption_regions =
+            normalize_scanner_cidr_exemption_regions(raw.get("cidrExemptionRegions"));
+        cidr_exemption_policy_id = raw
+            .get("cidrExemptionPolicyId")
+            .and_then(Value::as_str)
+            .map(str::trim)
+            .filter(|value| !value.is_empty())
+            .map(ToString::to_string);
+        cidr_exemption_source_cidr_count = raw
+            .get("cidrExemptionSourceCidrCount")
+            .and_then(Value::as_u64)
+            .and_then(|value| usize::try_from(value).ok())
+            .unwrap_or_default();
+        cidr_exemption_range_count = raw
+            .get("cidrExemptionRangeCount")
+            .and_then(Value::as_u64)
+            .and_then(|value| usize::try_from(value).ok())
+            .unwrap_or_default();
+    }
+
+    ScannerSettings {
+        enabled,
+        window_minutes,
+        threshold,
+        window_seconds: SCANNER_BASE_WINDOW_SECONDS.max(window_minutes * 60),
+        blacklist_ttl_seconds,
+        common_location_exempt_enabled,
+        cidr_exemptions,
+        cidr_exemption_regions,
+        cidr_exemption_region_cidrs: Vec::new(),
+        cidr_exemption_cidrs: Vec::new(),
+        cidr_exemption_policy_id,
+        cidr_exemption_source_cidr_count,
+        cidr_exemption_range_count,
+    }
+}
+
+pub(super) fn scanner_env_defaults() -> ScannerEnvDefaults {
+    let enabled_raw = env::var("SCANNER_ENABLED")
+        .unwrap_or_default()
+        .trim()
+        .to_ascii_lowercase();
+    ScannerEnvDefaults {
+        enabled: enabled_raw == "true" || enabled_raw == "1",
+        window_minutes: env_i64("SCANNER_WINDOW_MINUTES", 5),
+        threshold: env_i64("SCANNER_THRESHOLD", 5),
+        blacklist_ttl_seconds: env_i64("SCANNER_BLACKLIST_TTL_DAYS", 90) * 24 * 3600,
+    }
+}

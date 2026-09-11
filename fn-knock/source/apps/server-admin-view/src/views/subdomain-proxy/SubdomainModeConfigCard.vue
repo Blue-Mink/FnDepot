@@ -1,1 +1,359 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IFN3aXRjaCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9zd2l0Y2giOwppbXBvcnQgQ29uZmlybURhbmdlclBvcG92ZXIgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtRGFuZ2VyUG9wb3Zlci52dWUiOwppbXBvcnQgQ29uZmlnQ29sbGFwc2libGVDYXJkIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9Db25maWdDb2xsYXBzaWJsZUNhcmQudnVlIjsKaW1wb3J0IHR5cGUgeyBIb3N0TWFwcGluZyB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgdHlwZSB7IEVkZ2VDbGllbnRJcFByb3ZpZGVyIH0gZnJvbSAiLi9tb2RlbCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBhY3RpdmVFZGdlQ2xpZW50SXBQcm92aWRlcjogRWRnZUNsaWVudElwUHJvdmlkZXIgfCBudWxsOwogIGF1dGhTZXJ2aWNlTWFwcGluZzogSG9zdE1hcHBpbmcgfCBudWxsOwogIGF1dGhTZXJ2aWNlUHVibGljUG9ydDogbnVtYmVyOwogIGNvbmZpZ3VyZWQ6IGJvb2xlYW47CiAgZWRnZUNsaWVudElwRW5hYmxlZDogYm9vbGVhbjsKICBlZGdlQ2xpZW50SXBQcm92aWRlck9wdGlvbnM6IEFycmF5PHsKICAgIHZhbHVlOiBFZGdlQ2xpZW50SXBQcm92aWRlcjsKICAgIGxhYmVsOiBzdHJpbmc7CiAgICBkZXNjcmlwdGlvbjogc3RyaW5nOwogICAgaGVhZGVySGludDogc3RyaW5nOwogIH0+OwogIGZvcm1hdEF1dGhTZXJ2aWNlSG9zdDogKGhvc3Q6IHN0cmluZykgPT4gc3RyaW5nOwogIGlzRWRnZUNsaWVudElwTW9kZUVkaXRhYmxlOiBib29sZWFuOwogIGlzTW9kZURpcnR5OiBib29sZWFuOwogIGlzTW9kZVZhbGlkOiBib29sZWFuOwogIGlzU2F2aW5nTWFwcGluZ3M6IGJvb2xlYW47CiAgaXNTYXZpbmdNb2RlOiBib29sZWFuOwogIG9taXRQdWJsaWNQb3J0Q29uZmlndXJhdGlvbjogYm9vbGVhbjsKICByZWFkeTogYm9vbGVhbjsKICByZW1vdmVBdXRoU2VydmljZTogKCkgPT4gUHJvbWlzZTx1bmtub3duPjsKICByZXNldE1vZGVGb3JtOiAoKSA9PiB2b2lkOwogIHJvb3REb21haW46IHN0cmluZzsKICByb290RG9tYWluVmFsaWRhdGlvbk1lc3NhZ2U6IHN0cmluZzsKICBzYXZlTW9kZTogKCkgPT4gUHJvbWlzZTx1bmtub3duPjsKICBzYXZlZEVkZ2VDbGllbnRJcFByb3ZpZGVyTGFiZWw6IHN0cmluZzsKICBzYXZlZFJvb3REb21haW46IHN0cmluZzsKICBzZWxlY3RFZGdlQ2xpZW50SXBQcm92aWRlcjogKHByb3ZpZGVyOiBFZGdlQ2xpZW50SXBQcm92aWRlcikgPT4gdm9pZDsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgInVwZGF0ZTphdXRoU2VydmljZVB1YmxpY1BvcnQiOiBbdmFsdWU6IG51bWJlcl07CiAgInVwZGF0ZTplZGdlQ2xpZW50SXBFbmFibGVkIjogW3ZhbHVlOiBib29sZWFuXTsKICAidXBkYXRlOnJvb3REb21haW4iOiBbdmFsdWU6IHN0cmluZ107Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IGF1dGhTZXJ2aWNlUHVibGljUG9ydE1vZGVsID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcHJvcHMuYXV0aFNlcnZpY2VQdWJsaWNQb3J0LAogIHNldDogKHZhbHVlOiBudW1iZXIgfCBzdHJpbmcpID0+IHsKICAgIGVtaXQoInVwZGF0ZTphdXRoU2VydmljZVB1YmxpY1BvcnQiLCBOdW1iZXIodmFsdWUpIHx8IDApOwogIH0sCn0pOwoKY29uc3QgZWRnZUNsaWVudElwRW5hYmxlZE1vZGVsID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcHJvcHMuZWRnZUNsaWVudElwRW5hYmxlZCwKICBzZXQ6ICh2YWx1ZTogYm9vbGVhbikgPT4gZW1pdCgidXBkYXRlOmVkZ2VDbGllbnRJcEVuYWJsZWQiLCB2YWx1ZSksCn0pOwoKY29uc3Qgcm9vdERvbWFpbk1vZGVsID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcHJvcHMucm9vdERvbWFpbiwKICBzZXQ6ICh2YWx1ZTogc3RyaW5nKSA9PiBlbWl0KCJ1cGRhdGU6cm9vdERvbWFpbiIsIHZhbHVlKSwKfSk7Cgpjb25zdCBjb25maXJtUmVtb3ZlQXV0aFNlcnZpY2UgPSBhc3luYyAoKSA9PiB7CiAgYXdhaXQgcHJvcHMucmVtb3ZlQXV0aFNlcnZpY2UoKTsKfTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPENvbmZpZ0NvbGxhcHNpYmxlQ2FyZAogICAgOnRpdGxlPSJ0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5jb25maWdUaXRsZScpIgogICAgOmNvbmZpZ3VyZWQ9ImNvbmZpZ3VyZWQiCiAgICA6cmVhZHk9InJlYWR5IgogICAgOmVkaXQtbGFiZWw9InQoJ2FkbWluLnN1YmRvbWFpblByb3h5LmVkaXRDb25maWcnKSIKICAgIHN1bW1hcnktY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRydW5jYXRlIG1heC13LWZ1bGwiCiAgICBleHBhbmRlZC1jb250ZW50LWNsYXNzPSJwLTAgc206cC0wIgogICAgYWN0aW9ucy1jbGFzcz0iYm9yZGVyLXQgYmctbXV0ZWQvMzAgcHgtNCBweS00IHNtOnB4LTYgZmxleCBmbGV4LWNvbC1yZXZlcnNlIGl0ZW1zLXN0cmV0Y2ggZ2FwLTIgcm91bmRlZC1iLWxnIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWVuZCIKICA+CiAgICA8dGVtcGxhdGUgI3N1bW1hcnk+CiAgICAgIDx0ZW1wbGF0ZSB2LWlmPSJzYXZlZFJvb3REb21haW4iPgogICAgICAgIHt7CiAgICAgICAgICB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5yb290RG9tYWluU3VtbWFyeSIsIHsKICAgICAgICAgICAgZG9tYWluOiBzYXZlZFJvb3REb21haW4sCiAgICAgICAgICB9KQogICAgICAgIH19CiAgICAgICAgPHNwYW4gdi1pZj0iYXV0aFNlcnZpY2VNYXBwaW5nIj4KICAgICAgICAgIMK3CiAgICAgICAgICB7ewogICAgICAgICAgICB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5hdXRoU2VydmljZVN1bW1hcnkiLCB7CiAgICAgICAgICAgICAgaG9zdDogYXV0aFNlcnZpY2VNYXBwaW5nLmhvc3QsCiAgICAgICAgICAgIH0pCiAgICAgICAgICB9fQogICAgICAgIDwvc3Bhbj4KICAgICAgICA8c3BhbiB2LWVsc2U+CiAgICAgICAgICDCtyB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5hdXRoU2VydmljZU1pc3NpbmdTdW1tYXJ5IikgfX0KICAgICAgICA8L3NwYW4+CiAgICAgICAgPHNwYW4gdi1pZj0ic2F2ZWRFZGdlQ2xpZW50SXBQcm92aWRlckxhYmVsIj4KICAgICAgICAgIMK3IHt7IHNhdmVkRWRnZUNsaWVudElwUHJvdmlkZXJMYWJlbCB9fQogICAgICAgIDwvc3Bhbj4KICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPHRlbXBsYXRlIHYtZWxzZT4KICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5ub3RDb25maWd1cmVkU3VtbWFyeSIpIH19CiAgICAgIDwvdGVtcGxhdGU+CiAgICA8L3RlbXBsYXRlPgoKICAgIDx0ZW1wbGF0ZSAjZGVmYXVsdD4KICAgICAgPGRpdiBjbGFzcz0iZGl2aWRlLXkgZGl2aWRlLWJvcmRlciI+CiAgICAgICAgPGRpdiBjbGFzcz0icC00IHNtOnAtNiI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEiPgogICAgICAgICAgICA8aDMgY2xhc3M9InRleHQtYmFzZSBmb250LXNlbWlib2xkIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5jb25maWdUaXRsZSIpIH19CiAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc2VjdGlvbkRlc2NyaXB0aW9uIikgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTQgcC00IHNtOnAtNiI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJtYXgtdy14cyBzcGFjZS15LTIiPgogICAgICAgICAgICA8TGFiZWwgZm9yPSJyb290LWRvbWFpbiI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuZG9tYWluTGFiZWwiKSB9fQogICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICBpZD0icm9vdC1kb21haW4iCiAgICAgICAgICAgICAgdi1tb2RlbD0icm9vdERvbWFpbk1vZGVsIgogICAgICAgICAgICAgIDphcmlhLWRlc2NyaWJlZGJ5PSIKICAgICAgICAgICAgICAgIHJvb3REb21haW5WYWxpZGF0aW9uTWVzc2FnZQogICAgICAgICAgICAgICAgICA/ICdyb290LWRvbWFpbi12YWxpZGF0aW9uJwogICAgICAgICAgICAgICAgICA6ICdyb290LWRvbWFpbi1oaW50JwogICAgICAgICAgICAgICIKICAgICAgICAgICAgICA6YXJpYS1pbnZhbGlkPSJCb29sZWFuKHJvb3REb21haW5WYWxpZGF0aW9uTWVzc2FnZSkiCiAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9ImV4YW1wbGUuY29tIgogICAgICAgICAgICAvPgogICAgICAgICAgICA8cAogICAgICAgICAgICAgIHYtaWY9InJvb3REb21haW5WYWxpZGF0aW9uTWVzc2FnZSIKICAgICAgICAgICAgICBpZD0icm9vdC1kb21haW4tdmFsaWRhdGlvbiIKICAgICAgICAgICAgICBjbGFzcz0idGV4dC14cyB0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgcm9vdERvbWFpblZhbGlkYXRpb25NZXNzYWdlIH19CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAKICAgICAgICAgICAgICB2LWVsc2UKICAgICAgICAgICAgICBpZD0icm9vdC1kb21haW4taGludCIKICAgICAgICAgICAgICBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5kb21haW5IaW50IikgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgcHgtNCBweS0zIj4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmN1cnJlbnRBdXRoU2VydmljZSIpIH19CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20iPgogICAgICAgICAgICAgICAgICA8dGVtcGxhdGUgdi1pZj0iYXV0aFNlcnZpY2VNYXBwaW5nIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJicmVhay1hbGwgZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgICAgICAge3sgZm9ybWF0QXV0aFNlcnZpY2VIb3N0KGF1dGhTZXJ2aWNlTWFwcGluZy5ob3N0KSB9fQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Im10LTEgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgICAgICAgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuYXV0aFJlZGlyZWN0SGludCIsIHsKICAgICAgICAgICAgICAgICAgICAgICAgICB1cmw6IGBodHRwczovLyR7Zm9ybWF0QXV0aFNlcnZpY2VIb3N0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYXV0aFNlcnZpY2VNYXBwaW5nLmhvc3QsCiAgICAgICAgICAgICAgICAgICAgICAgICAgKX1gLAogICAgICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgICAgICAgICAgPHAgdi1lbHNlIGNsYXNzPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5Lm5vQXV0aFNlcnZpY2UiKSB9fQogICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LWNvbCBpdGVtcy1lbmQgZ2FwLTIiPgogICAgICAgICAgICAgICAgPEJhZGdlIDp2YXJpYW50PSJhdXRoU2VydmljZU1hcHBpbmcgPyAnc2Vjb25kYXJ5JyA6ICdvdXRsaW5lJyI+CiAgICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgICAgYXV0aFNlcnZpY2VNYXBwaW5nCiAgICAgICAgICAgICAgICAgICAgICA/IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmNvbmZpZ3VyZWQiKQogICAgICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5ub3RDb25maWd1cmVkIikKICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgIDwvQmFkZ2U+CgogICAgICAgICAgICAgICAgPENvbmZpcm1EYW5nZXJQb3BvdmVyCiAgICAgICAgICAgICAgICAgIHYtaWY9ImF1dGhTZXJ2aWNlTWFwcGluZyIKICAgICAgICAgICAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5kZWxldGVBdXRoVGl0bGUnKSIKICAgICAgICAgICAgICAgICAgOmRlc2NyaXB0aW9uPSIKICAgICAgICAgICAgICAgICAgICB0KCdhZG1pbi5zdWJkb21haW5Qcm94eS5kZWxldGVBdXRoRGVzY3JpcHRpb24nLCB7CiAgICAgICAgICAgICAgICAgICAgICBob3N0OiBhdXRoU2VydmljZU1hcHBpbmcuaG9zdCwKICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICAgIDpjb25maXJtLXRleHQ9InQoJ2FkbWluLnN1YmRvbWFpblByb3h5LmRlbGV0ZUF1dGhBY3Rpb24nKSIKICAgICAgICAgICAgICAgICAgOmxvYWRpbmc9ImlzU2F2aW5nTWFwcGluZ3MiCiAgICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmdNYXBwaW5ncyIKICAgICAgICAgICAgICAgICAgOm9uLWNvbmZpcm09ImNvbmZpcm1SZW1vdmVBdXRoU2VydmljZSIKICAgICAgICAgICAgICAgICAgY29udGVudC1jbGFzcz0idy03MiB0ZXh0LWxlZnQiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDx0ZW1wbGF0ZSAjdHJpZ2dlcj4KICAgICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50PSJkZXN0cnVjdGl2ZS1vdXRsaW5lIgogICAgICAgICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nTWFwcGluZ3MiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuZGVsZXRlQXV0aEFjdGlvbiIpIH19CiAgICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgICAgICA8L0NvbmZpcm1EYW5nZXJQb3BvdmVyPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICB2LWlmPSIhb21pdFB1YmxpY1BvcnRDb25maWd1cmF0aW9uICYmICFlZGdlQ2xpZW50SXBFbmFibGVkTW9kZWwiCiAgICAgICAgICAgICAgY2xhc3M9Im10LTQgZ3JpZCBnYXAtMyBib3JkZXItdCBwdC00IHNtOmdyaWQtY29scy1bbWlubWF4KDAsMWZyKV8xMnJlbV0gc206aXRlbXMtZW5kIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICAgICAgICAgIDxMYWJlbCBmb3I9ImF1dGgtc2VydmljZS1wdWJsaWMtcG9ydCI+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmF1dGhTZXJ2aWNlUG9ydCIpIH19CiAgICAgICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICAgICAgPHAKICAgICAgICAgICAgICAgICAgaWQ9ImF1dGgtc2VydmljZS1wdWJsaWMtcG9ydC1oaW50IgogICAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5hdXRoU2VydmljZVBvcnRIaW50IikgfX0KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgIDxwCiAgICAgICAgICAgICAgICAgIGlkPSJhdXRoLXNlcnZpY2UtcHVibGljLXBvcnQtd2FybmluZyIKICAgICAgICAgICAgICAgICAgY2xhc3M9InRleHQteHMgZm9udC1tZWRpdW0gbGVhZGluZy01IHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmF1dGhTZXJ2aWNlUG9ydFdhcm5pbmciKSB9fQogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgICAgaWQ9ImF1dGgtc2VydmljZS1wdWJsaWMtcG9ydCIKICAgICAgICAgICAgICAgIHYtbW9kZWwubnVtYmVyPSJhdXRoU2VydmljZVB1YmxpY1BvcnRNb2RlbCIKICAgICAgICAgICAgICAgIHR5cGU9Im51bWJlciIKICAgICAgICAgICAgICAgIG1pbj0iMSIKICAgICAgICAgICAgICAgIG1heD0iNjU1MzUiCiAgICAgICAgICAgICAgICBpbnB1dG1vZGU9Im51bWVyaWMiCiAgICAgICAgICAgICAgICBhcmlhLWRlc2NyaWJlZGJ5PSJhdXRoLXNlcnZpY2UtcHVibGljLXBvcnQtaGludCBhdXRoLXNlcnZpY2UtcHVibGljLXBvcnQtd2FybmluZyIKICAgICAgICAgICAgICAgIGNsYXNzPSJzbTptYXgtdy00OCIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXYKICAgICAgICAgICAgdi1pZj0iaXNFZGdlQ2xpZW50SXBNb2RlRWRpdGFibGUiCiAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBweC00IHB5LTQiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTQiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC00Ij4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgICAgICAgICAgIDxMYWJlbCBmb3I9ImVkZ2UtY2xpZW50LWlwLWVuYWJsZWQiPgogICAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmVkZ2VDbGllbnRJcFRpdGxlIikgfX0KICAgICAgICAgICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5lZGdlQ2xpZW50SXBEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICAgICAgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuZWRnZUNsaWVudElwUHJvdmlkZXJEZXNjcmlwdGlvbiIpCiAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8U3dpdGNoCiAgICAgICAgICAgICAgICAgIGlkPSJlZGdlLWNsaWVudC1pcC1lbmFibGVkIgogICAgICAgICAgICAgICAgICB2LW1vZGVsPSJlZGdlQ2xpZW50SXBFbmFibGVkTW9kZWwiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICA8ZGl2IHYtaWY9ImVkZ2VDbGllbnRJcEVuYWJsZWRNb2RlbCI+CiAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLXN0YXJ0IHNtOmp1c3RpZnktYmV0d2VlbiBzbTpnYXAtNCIKICAgICAgICAgICAgICAgID48L2Rpdj4KCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJtdC00IGdyaWQgZ3JpZC1jb2xzLTEgZ2FwLTMgbWQ6Z3JpZC1jb2xzLTIiPgogICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgdi1mb3I9Im9wdGlvbiBpbiBlZGdlQ2xpZW50SXBQcm92aWRlck9wdGlvbnMiCiAgICAgICAgICAgICAgICAgICAgOmtleT0ib3B0aW9uLnZhbHVlIgogICAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgICA6Y2xhc3M9IlsKICAgICAgICAgICAgICAgICAgICAgICdyb3VuZGVkLXhsIGJvcmRlciBwLTQgdGV4dC1sZWZ0IHRyYW5zaXRpb24tY29sb3JzJywKICAgICAgICAgICAgICAgICAgICAgIGFjdGl2ZUVkZ2VDbGllbnRJcFByb3ZpZGVyID09PSBvcHRpb24udmFsdWUKICAgICAgICAgICAgICAgICAgICAgICAgPyAnYm9yZGVyLXByaW1hcnkgYmctcHJpbWFyeS81IHNoYWRvdy1zbScKICAgICAgICAgICAgICAgICAgICAgICAgOiAnYm9yZGVyLWJvcmRlciBiZy1iYWNrZ3JvdW5kIGhvdmVyOmJvcmRlci1wcmltYXJ5LzQwIGhvdmVyOmJnLW11dGVkLzQwJywKICAgICAgICAgICAgICAgICAgICBdIgogICAgICAgICAgICAgICAgICAgIEBjbGljaz0ic2VsZWN0RWRnZUNsaWVudElwUHJvdmlkZXIob3B0aW9uLnZhbHVlKSIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLXN0YXJ0IHNtOmp1c3RpZnktYmV0d2VlbiIKICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIG1pbi13LTAgZ2FwLTEiPgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgICAgICAgICAgICB7eyBvcHRpb24ubGFiZWwgfX0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgICAgICAgICB7eyBvcHRpb24uZGVzY3JpcHRpb24gfX0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAge3sgb3B0aW9uLmhlYWRlckhpbnQgfX0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICAgIDpjbGFzcz0iWwogICAgICAgICAgICAgICAgICAgICAgICAgICdzZWxmLXN0YXJ0IHNocmluay0wIHdoaXRlc3BhY2Utbm93cmFwIHJvdW5kZWQtZnVsbCBib3JkZXIgcHgtMiBweS0wLjUgdGV4dC1bMTFweF0gZm9udC1tZWRpdW0nLAogICAgICAgICAgICAgICAgICAgICAgICAgIGFjdGl2ZUVkZ2VDbGllbnRJcFByb3ZpZGVyID09PSBvcHRpb24udmFsdWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgID8gJ2JvcmRlci1wcmltYXJ5LzIwIGJnLXByaW1hcnkvMTAgdGV4dC1wcmltYXJ5JwogICAgICAgICAgICAgICAgICAgICAgICAgICAgOiAnYm9yZGVyLWJvcmRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQnLAogICAgICAgICAgICAgICAgICAgICAgICBdIgogICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICAgICAgICAgIGFjdGl2ZUVkZ2VDbGllbnRJcFByb3ZpZGVyID09PSBvcHRpb24udmFsdWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgID8gdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuY3VycmVudCIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA6IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnN3aXRjaCIpCiAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC90ZW1wbGF0ZT4KCiAgICA8dGVtcGxhdGUgI2FjdGlvbnM9InsgY29sbGFwc2UgfSI+CiAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgQGNsaWNrPSJjb2xsYXBzZSI+CiAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuY29sbGFwc2UiKSB9fQogICAgICA8L0J1dHRvbj4KICAgICAgPEJ1dHRvbgogICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZ01vZGUgfHwgIWlzTW9kZURpcnR5IgogICAgICAgIEBjbGljaz0icmVzZXRNb2RlRm9ybSIKICAgICAgPgogICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmRpc2NhcmRDaGFuZ2VzIikgfX0KICAgICAgPC9CdXR0b24+CiAgICAgIDxCdXR0b24KICAgICAgICA6ZGlzYWJsZWQ9ImlzU2F2aW5nTW9kZSB8fCAhaXNNb2RlVmFsaWQgfHwgIWlzTW9kZURpcnR5IgogICAgICAgIEBjbGljaz0ic2F2ZU1vZGUiCiAgICAgID4KICAgICAgICA8c3BhbgogICAgICAgICAgdi1pZj0iaXNTYXZpbmdNb2RlIgogICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiCiAgICAgICAgPjwvc3Bhbj4KICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zYXZlQ29uZmlnIikgfX0KICAgICAgPC9CdXR0b24+CiAgICA8L3RlbXBsYXRlPgogIDwvQ29uZmlnQ29sbGFwc2libGVDYXJkPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import ConfigCollapsibleCard from "@admin-shared/components/ConfigCollapsibleCard.vue";
+import type { HostMapping } from "@/types";
+import type { EdgeClientIpProvider } from "./model";
+
+const props = defineProps<{
+  activeEdgeClientIpProvider: EdgeClientIpProvider | null;
+  authServiceMapping: HostMapping | null;
+  authServicePublicPort: number;
+  configured: boolean;
+  edgeClientIpEnabled: boolean;
+  edgeClientIpProviderOptions: Array<{
+    value: EdgeClientIpProvider;
+    label: string;
+    description: string;
+    headerHint: string;
+  }>;
+  formatAuthServiceHost: (host: string) => string;
+  isEdgeClientIpModeEditable: boolean;
+  isModeDirty: boolean;
+  isModeValid: boolean;
+  isSavingMappings: boolean;
+  isSavingMode: boolean;
+  omitPublicPortConfiguration: boolean;
+  ready: boolean;
+  removeAuthService: () => Promise<unknown>;
+  resetModeForm: () => void;
+  rootDomain: string;
+  rootDomainValidationMessage: string;
+  saveMode: () => Promise<unknown>;
+  savedEdgeClientIpProviderLabel: string;
+  savedRootDomain: string;
+  selectEdgeClientIpProvider: (provider: EdgeClientIpProvider) => void;
+}>();
+
+const emit = defineEmits<{
+  "update:authServicePublicPort": [value: number];
+  "update:edgeClientIpEnabled": [value: boolean];
+  "update:rootDomain": [value: string];
+}>();
+
+const { t } = useI18n();
+
+const authServicePublicPortModel = computed({
+  get: () => props.authServicePublicPort,
+  set: (value: number | string) => {
+    emit("update:authServicePublicPort", Number(value) || 0);
+  },
+});
+
+const edgeClientIpEnabledModel = computed({
+  get: () => props.edgeClientIpEnabled,
+  set: (value: boolean) => emit("update:edgeClientIpEnabled", value),
+});
+
+const rootDomainModel = computed({
+  get: () => props.rootDomain,
+  set: (value: string) => emit("update:rootDomain", value),
+});
+
+const confirmRemoveAuthService = async () => {
+  await props.removeAuthService();
+};
+</script>
+
+<template>
+  <ConfigCollapsibleCard
+    :title="t('admin.subdomainProxy.configTitle')"
+    :configured="configured"
+    :ready="ready"
+    :edit-label="t('admin.subdomainProxy.editConfig')"
+    summary-class="text-xs text-muted-foreground truncate max-w-full"
+    expanded-content-class="p-0 sm:p-0"
+    actions-class="border-t bg-muted/30 px-4 py-4 sm:px-6 flex flex-col-reverse items-stretch gap-2 rounded-b-lg sm:flex-row sm:items-center sm:justify-end"
+  >
+    <template #summary>
+      <template v-if="savedRootDomain">
+        {{
+          t("admin.subdomainProxy.rootDomainSummary", {
+            domain: savedRootDomain,
+          })
+        }}
+        <span v-if="authServiceMapping">
+          ·
+          {{
+            t("admin.subdomainProxy.authServiceSummary", {
+              host: authServiceMapping.host,
+            })
+          }}
+        </span>
+        <span v-else>
+          · {{ t("admin.subdomainProxy.authServiceMissingSummary") }}
+        </span>
+        <span v-if="savedEdgeClientIpProviderLabel">
+          · {{ savedEdgeClientIpProviderLabel }}
+        </span>
+      </template>
+      <template v-else>
+        {{ t("admin.subdomainProxy.notConfiguredSummary") }}
+      </template>
+    </template>
+
+    <template #default>
+      <div class="divide-y divide-border">
+        <div class="p-4 sm:p-6">
+          <div class="space-y-1">
+            <h3 class="text-base font-semibold">
+              {{ t("admin.subdomainProxy.configTitle") }}
+            </h3>
+            <p class="text-sm text-muted-foreground">
+              {{ t("admin.subdomainProxy.sectionDescription") }}
+            </p>
+          </div>
+        </div>
+
+        <div class="grid gap-4 p-4 sm:p-6">
+          <div class="max-w-xs space-y-2">
+            <Label for="root-domain">
+              {{ t("admin.subdomainProxy.domainLabel") }}
+            </Label>
+            <Input
+              id="root-domain"
+              v-model="rootDomainModel"
+              :aria-describedby="
+                rootDomainValidationMessage
+                  ? 'root-domain-validation'
+                  : 'root-domain-hint'
+              "
+              :aria-invalid="Boolean(rootDomainValidationMessage)"
+              placeholder="example.com"
+            />
+            <p
+              v-if="rootDomainValidationMessage"
+              id="root-domain-validation"
+              class="text-xs text-destructive"
+            >
+              {{ rootDomainValidationMessage }}
+            </p>
+            <p
+              v-else
+              id="root-domain-hint"
+              class="text-xs text-muted-foreground"
+            >
+              {{ t("admin.subdomainProxy.domainHint") }}
+            </p>
+          </div>
+
+          <div class="rounded-lg border px-4 py-3">
+            <div
+              class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"
+            >
+              <div class="space-y-1">
+                <div class="text-sm font-medium">
+                  {{ t("admin.subdomainProxy.currentAuthService") }}
+                </div>
+                <div class="text-sm">
+                  <template v-if="authServiceMapping">
+                    <div class="break-all font-medium">
+                      {{ formatAuthServiceHost(authServiceMapping.host) }}
+                    </div>
+                    <div class="mt-1 text-xs text-muted-foreground">
+                      {{
+                        t("admin.subdomainProxy.authRedirectHint", {
+                          url: `https://${formatAuthServiceHost(
+                            authServiceMapping.host,
+                          )}`,
+                        })
+                      }}
+                    </div>
+                  </template>
+                  <p v-else class="text-muted-foreground">
+                    {{ t("admin.subdomainProxy.noAuthService") }}
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex flex-col items-end gap-2">
+                <Badge :variant="authServiceMapping ? 'secondary' : 'outline'">
+                  {{
+                    authServiceMapping
+                      ? t("admin.subdomainProxy.configured")
+                      : t("admin.subdomainProxy.notConfigured")
+                  }}
+                </Badge>
+
+                <ConfirmDangerPopover
+                  v-if="authServiceMapping"
+                  :title="t('admin.subdomainProxy.deleteAuthTitle')"
+                  :description="
+                    t('admin.subdomainProxy.deleteAuthDescription', {
+                      host: authServiceMapping.host,
+                    })
+                  "
+                  :confirm-text="t('admin.subdomainProxy.deleteAuthAction')"
+                  :loading="isSavingMappings"
+                  :disabled="isSavingMappings"
+                  :on-confirm="confirmRemoveAuthService"
+                  content-class="w-72 text-left"
+                >
+                  <template #trigger>
+                    <Button
+                      variant="destructive-outline"
+                      size="sm"
+                      :disabled="isSavingMappings"
+                    >
+                      {{ t("admin.subdomainProxy.deleteAuthAction") }}
+                    </Button>
+                  </template>
+                </ConfirmDangerPopover>
+              </div>
+            </div>
+
+            <div
+              v-if="!omitPublicPortConfiguration && !edgeClientIpEnabledModel"
+              class="mt-4 grid gap-3 border-t pt-4 sm:grid-cols-[minmax(0,1fr)_12rem] sm:items-end"
+            >
+              <div class="space-y-1">
+                <Label for="auth-service-public-port">
+                  {{ t("admin.subdomainProxy.authServicePort") }}
+                </Label>
+                <p
+                  id="auth-service-public-port-hint"
+                  class="text-xs leading-5 text-muted-foreground"
+                >
+                  {{ t("admin.subdomainProxy.authServicePortHint") }}
+                </p>
+                <p
+                  id="auth-service-public-port-warning"
+                  class="text-xs font-medium leading-5 text-destructive"
+                >
+                  {{ t("admin.subdomainProxy.authServicePortWarning") }}
+                </p>
+              </div>
+              <Input
+                id="auth-service-public-port"
+                v-model.number="authServicePublicPortModel"
+                type="number"
+                min="1"
+                max="65535"
+                inputmode="numeric"
+                aria-describedby="auth-service-public-port-hint auth-service-public-port-warning"
+                class="sm:max-w-48"
+              />
+            </div>
+          </div>
+
+          <div
+            v-if="isEdgeClientIpModeEditable"
+            class="rounded-lg border px-4 py-4"
+          >
+            <div class="flex flex-col gap-4">
+              <div class="flex items-start justify-between gap-4">
+                <div class="space-y-1">
+                  <Label for="edge-client-ip-enabled">
+                    {{ t("admin.subdomainProxy.edgeClientIpTitle") }}
+                  </Label>
+                  <p class="text-xs text-muted-foreground">
+                    {{ t("admin.subdomainProxy.edgeClientIpDescription") }}
+                  </p>
+                  <p class="text-xs text-muted-foreground">
+                    {{
+                      t("admin.subdomainProxy.edgeClientIpProviderDescription")
+                    }}
+                  </p>
+                </div>
+                <Switch
+                  id="edge-client-ip-enabled"
+                  v-model="edgeClientIpEnabledModel"
+                />
+              </div>
+
+              <div v-if="edgeClientIpEnabledModel">
+                <div
+                  class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between sm:gap-4"
+                ></div>
+
+                <div class="mt-4 grid grid-cols-1 gap-3 md:grid-cols-2">
+                  <button
+                    v-for="option in edgeClientIpProviderOptions"
+                    :key="option.value"
+                    type="button"
+                    :class="[
+                      'rounded-xl border p-4 text-left transition-colors',
+                      activeEdgeClientIpProvider === option.value
+                        ? 'border-primary bg-primary/5 shadow-sm'
+                        : 'border-border bg-background hover:border-primary/40 hover:bg-muted/40',
+                    ]"
+                    @click="selectEdgeClientIpProvider(option.value)"
+                  >
+                    <div
+                      class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+                    >
+                      <div class="grid min-w-0 gap-1">
+                        <div class="text-sm font-medium">
+                          {{ option.label }}
+                        </div>
+                        <div class="text-xs text-muted-foreground">
+                          {{ option.description }}
+                        </div>
+                        <div class="text-[11px] text-muted-foreground">
+                          {{ option.headerHint }}
+                        </div>
+                      </div>
+                      <span
+                        :class="[
+                          'self-start shrink-0 whitespace-nowrap rounded-full border px-2 py-0.5 text-[11px] font-medium',
+                          activeEdgeClientIpProvider === option.value
+                            ? 'border-primary/20 bg-primary/10 text-primary'
+                            : 'border-border text-muted-foreground',
+                        ]"
+                      >
+                        {{
+                          activeEdgeClientIpProvider === option.value
+                            ? t("admin.subdomainProxy.current")
+                            : t("admin.subdomainProxy.switch")
+                        }}
+                      </span>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <template #actions="{ collapse }">
+      <Button variant="outline" @click="collapse">
+        {{ t("admin.subdomainProxy.collapse") }}
+      </Button>
+      <Button
+        variant="outline"
+        :disabled="isSavingMode || !isModeDirty"
+        @click="resetModeForm"
+      >
+        {{ t("admin.subdomainProxy.discardChanges") }}
+      </Button>
+      <Button
+        :disabled="isSavingMode || !isModeValid || !isModeDirty"
+        @click="saveMode"
+      >
+        <span
+          v-if="isSavingMode"
+          class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+        ></span>
+        {{ t("admin.subdomainProxy.saveConfig") }}
+      </Button>
+    </template>
+  </ConfigCollapsibleCard>
+</template>

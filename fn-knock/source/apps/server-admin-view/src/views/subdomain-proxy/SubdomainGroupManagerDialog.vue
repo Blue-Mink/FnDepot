@@ -1,1 +1,213 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgR3JpcFZlcnRpY2FsLCBQbHVzLCBUcmFzaDIgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBWdWVEcmFnZ2FibGUgfSBmcm9tICJ2dWUtZHJhZ2dhYmxlLXBsdXMiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB0eXBlIHsgSG9zdE1hcHBpbmcsIEhvc3RNYXBwaW5nR3JvdXAgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsKICBjcmVhdGVIb3N0TWFwcGluZ0dyb3VwSWQsCiAgaXNIb3N0TWFwcGluZ0dyb3VwTmFtZUxlbmd0aFZhbGlkLAogIG5vcm1hbGl6ZUhvc3RNYXBwaW5nR3JvdXBOYW1lS2V5LAp9IGZyb20gIi4vaG9zdC1tYXBwaW5nLWdyb3VwcyI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBncm91cHM6IEhvc3RNYXBwaW5nR3JvdXBbXTsKICBtYXBwaW5nczogSG9zdE1hcHBpbmdbXTsKICBvcGVuOiBib29sZWFuOwogIHNhdmluZzogYm9vbGVhbjsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgc2F2ZTogW2dyb3VwczogSG9zdE1hcHBpbmdHcm91cFtdXTsKICAidXBkYXRlOm9wZW4iOiBbb3BlbjogYm9vbGVhbl07Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgZHJhZnQgPSByZWY8SG9zdE1hcHBpbmdHcm91cFtdPihbXSk7CmNvbnN0IHBlbmRpbmdEZWxldGVJZCA9IHJlZjxzdHJpbmcgfCBudWxsPihudWxsKTsKCndhdGNoKAogICgpID0+IFtwcm9wcy5vcGVuLCBwcm9wcy5ncm91cHNdIGFzIGNvbnN0LAogIChbb3BlbiwgZ3JvdXBzXSkgPT4gewogICAgaWYgKCFvcGVuKSByZXR1cm47CiAgICBkcmFmdC52YWx1ZSA9IGdyb3Vwcy5tYXAoKGdyb3VwKSA9PiAoeyAuLi5ncm91cCB9KSk7CiAgICBwZW5kaW5nRGVsZXRlSWQudmFsdWUgPSBudWxsOwogIH0sCiAgeyBpbW1lZGlhdGU6IHRydWUsIGRlZXA6IHRydWUgfSwKKTsKCmNvbnN0IG5vcm1hbGl6ZWROYW1lcyA9IGNvbXB1dGVkKCgpID0+CiAgZHJhZnQudmFsdWUubWFwKChncm91cCkgPT4gbm9ybWFsaXplSG9zdE1hcHBpbmdHcm91cE5hbWVLZXkoZ3JvdXAubmFtZSkpLAopOwpjb25zdCBpc1ZhbGlkID0gY29tcHV0ZWQoKCkgPT4gewogIGlmIChkcmFmdC52YWx1ZS5sZW5ndGggPiAzMikgcmV0dXJuIGZhbHNlOwogIHJldHVybiBkcmFmdC52YWx1ZS5ldmVyeSgoZ3JvdXAsIGluZGV4KSA9PiB7CiAgICByZXR1cm4gKAogICAgICBpc0hvc3RNYXBwaW5nR3JvdXBOYW1lTGVuZ3RoVmFsaWQoZ3JvdXAubmFtZSkgJiYKICAgICAgbm9ybWFsaXplZE5hbWVzLnZhbHVlLmluZGV4T2YoCiAgICAgICAgbm9ybWFsaXplSG9zdE1hcHBpbmdHcm91cE5hbWVLZXkoZ3JvdXAubmFtZSksCiAgICAgICkgPT09IGluZGV4CiAgICApOwogIH0pOwp9KTsKCmNvbnN0IG1hcHBpbmdDb3VudCA9IChncm91cElkOiBzdHJpbmcpID0+CiAgcHJvcHMubWFwcGluZ3MuZmlsdGVyKChtYXBwaW5nKSA9PiBtYXBwaW5nLmdyb3VwX2lkID09PSBncm91cElkKS5sZW5ndGg7Cgpjb25zdCBhZGRHcm91cCA9ICgpID0+IHsKICBpZiAoZHJhZnQudmFsdWUubGVuZ3RoID49IDMyKSByZXR1cm47CiAgZHJhZnQudmFsdWUucHVzaCh7CiAgICBpZDogY3JlYXRlSG9zdE1hcHBpbmdHcm91cElkKCksCiAgICBuYW1lOiB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5uZXdHcm91cERlZmF1bHQiLCB7CiAgICAgIG51bWJlcjogZHJhZnQudmFsdWUubGVuZ3RoICsgMSwKICAgIH0pLAogIH0pOwp9OwoKY29uc3QgcmVxdWVzdERlbGV0ZSA9IChncm91cDogSG9zdE1hcHBpbmdHcm91cCkgPT4gewogIGlmIChtYXBwaW5nQ291bnQoZ3JvdXAuaWQpID4gMCAmJiBwZW5kaW5nRGVsZXRlSWQudmFsdWUgIT09IGdyb3VwLmlkKSB7CiAgICBwZW5kaW5nRGVsZXRlSWQudmFsdWUgPSBncm91cC5pZDsKICAgIHJldHVybjsKICB9CiAgZHJhZnQudmFsdWUgPSBkcmFmdC52YWx1ZS5maWx0ZXIoKGl0ZW0pID0+IGl0ZW0uaWQgIT09IGdyb3VwLmlkKTsKICBwZW5kaW5nRGVsZXRlSWQudmFsdWUgPSBudWxsOwp9OwoKY29uc3Qgc2F2ZSA9ICgpID0+IHsKICBpZiAoIWlzVmFsaWQudmFsdWUpIHJldHVybjsKICBlbWl0KAogICAgInNhdmUiLAogICAgZHJhZnQudmFsdWUubWFwKChncm91cCkgPT4gKHsgLi4uZ3JvdXAsIG5hbWU6IGdyb3VwLm5hbWUudHJpbSgpIH0pKSwKICApOwp9Owo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nIDpvcGVuPSJvcGVuIiBAdXBkYXRlOm9wZW49ImVtaXQoJ3VwZGF0ZTpvcGVuJywgJGV2ZW50KSI+CiAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ic206bWF4LXctWzU2MHB4XSI+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPnt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5Lm1hbmFnZUdyb3VwcyIpIH19PC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5tYW5hZ2VHcm91cHNEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgPC9EaWFsb2dIZWFkZXI+CgogICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTMgcHktMiI+CiAgICAgICAgPFZ1ZURyYWdnYWJsZQogICAgICAgICAgdi1tb2RlbD0iZHJhZnQiCiAgICAgICAgICBoYW5kbGU9Ii5ncm91cC1kcmFnLWhhbmRsZSIKICAgICAgICAgIDphbmltYXRpb249IjE4MCIKICAgICAgICAgIDpkaXNhYmxlZD0ic2F2aW5nIgogICAgICAgICAgY2xhc3M9Im1heC1oLVs1MHZoXSBzcGFjZS15LTIgb3ZlcmZsb3cteS1hdXRvIHByLTEiCiAgICAgICAgPgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWZvcj0iZ3JvdXAgaW4gZHJhZnQiCiAgICAgICAgICAgIDprZXk9Imdyb3VwLmlkIgogICAgICAgICAgICBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgYmctYmFja2dyb3VuZCBwLTMiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICBjbGFzcz0iZ3JvdXAtZHJhZy1oYW5kbGUgaW5saW5lLWZsZXggaC05IHctOCBzaHJpbmstMCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1tZCB0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6YmctbXV0ZWQiCiAgICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uc3ViZG9tYWluUHJveHkuZHJhZ0dyb3VwQXJpYScpIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxHcmlwVmVydGljYWwgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgICB2LW1vZGVsPSJncm91cC5uYW1lIgogICAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLnN1YmRvbWFpblByb3h5Lmdyb3VwTmFtZScpIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InNocmluay0wIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgIHQoImFkbWluLnN1YmRvbWFpblByb3h5Lmdyb3VwTWFwcGluZ3NDb3VudCIsIHsKICAgICAgICAgICAgICAgICAgICBjb3VudDogbWFwcGluZ0NvdW50KGdyb3VwLmlkKSwKICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0ic2F2aW5nIgogICAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLnN1YmRvbWFpblByb3h5LmRlbGV0ZUdyb3VwJykiCiAgICAgICAgICAgICAgICBAY2xpY2s9InJlcXVlc3REZWxldGUoZ3JvdXApIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxUcmFzaDIgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgdi1pZj0icGVuZGluZ0RlbGV0ZUlkID09PSBncm91cC5pZCIKICAgICAgICAgICAgICBjbGFzcz0ibXQtMyBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMgcm91bmRlZC1tZCBiZy1kZXN0cnVjdGl2ZS8xMCBweC0zIHB5LTIgdGV4dC14cyB0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgICAgIHJvbGU9ImFsZXJ0IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHNwYW4+e3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuZGVsZXRlR3JvdXBDb25maXJtIikgfX08L3NwYW4+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBzaHJpbmstMCBnYXAtMiI+CiAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgICAgIEBjbGljaz0icGVuZGluZ0RlbGV0ZUlkID0gbnVsbCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuY2FuY2VsIikgfX0KICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgICAgICB2YXJpYW50PSJkZXN0cnVjdGl2ZSIKICAgICAgICAgICAgICAgICAgQGNsaWNrPSJyZXF1ZXN0RGVsZXRlKGdyb3VwKSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuY29uZmlybURlbGV0ZUdyb3VwIikgfX0KICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvVnVlRHJhZ2dhYmxlPgoKICAgICAgICA8ZGl2CiAgICAgICAgICB2LWlmPSJkcmFmdC5sZW5ndGggPT09IDAiCiAgICAgICAgICBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWRhc2hlZCBweC00IHB5LTggdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkubm9Hcm91cHMiKSB9fQogICAgICAgIDwvZGl2PgoKICAgICAgICA8cCB2LWlmPSIhaXNWYWxpZCIgY2xhc3M9InRleHQteHMgdGV4dC1kZXN0cnVjdGl2ZSI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5ncm91cFZhbGlkYXRpb24iKSB9fQogICAgICAgIDwvcD4KCiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIDpkaXNhYmxlZD0ic2F2aW5nIHx8IGRyYWZ0Lmxlbmd0aCA+PSAzMiIKICAgICAgICAgIEBjbGljaz0iYWRkR3JvdXAiCiAgICAgICAgPgogICAgICAgICAgPFBsdXMgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LmNyZWF0ZUdyb3VwIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CgogICAgICA8RGlhbG9nRm9vdGVyPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9InNhdmluZyIKICAgICAgICAgIEBjbGljaz0iZW1pdCgndXBkYXRlOm9wZW4nLCBmYWxzZSkiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuY2FuY2VsIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uIHR5cGU9ImJ1dHRvbiIgOmRpc2FibGVkPSJzYXZpbmcgfHwgIWlzVmFsaWQiIEBjbGljaz0ic2F2ZSI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zYXZlR3JvdXBzIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { GripVertical, Plus, Trash2 } from "lucide-vue-next";
+import { VueDraggable } from "vue-draggable-plus";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import type { HostMapping, HostMappingGroup } from "@/types";
+import {
+  createHostMappingGroupId,
+  isHostMappingGroupNameLengthValid,
+  normalizeHostMappingGroupNameKey,
+} from "./host-mapping-groups";
+
+const props = defineProps<{
+  groups: HostMappingGroup[];
+  mappings: HostMapping[];
+  open: boolean;
+  saving: boolean;
+}>();
+
+const emit = defineEmits<{
+  save: [groups: HostMappingGroup[]];
+  "update:open": [open: boolean];
+}>();
+
+const { t } = useI18n();
+const draft = ref<HostMappingGroup[]>([]);
+const pendingDeleteId = ref<string | null>(null);
+
+watch(
+  () => [props.open, props.groups] as const,
+  ([open, groups]) => {
+    if (!open) return;
+    draft.value = groups.map((group) => ({ ...group }));
+    pendingDeleteId.value = null;
+  },
+  { immediate: true, deep: true },
+);
+
+const normalizedNames = computed(() =>
+  draft.value.map((group) => normalizeHostMappingGroupNameKey(group.name)),
+);
+const isValid = computed(() => {
+  if (draft.value.length > 32) return false;
+  return draft.value.every((group, index) => {
+    return (
+      isHostMappingGroupNameLengthValid(group.name) &&
+      normalizedNames.value.indexOf(
+        normalizeHostMappingGroupNameKey(group.name),
+      ) === index
+    );
+  });
+});
+
+const mappingCount = (groupId: string) =>
+  props.mappings.filter((mapping) => mapping.group_id === groupId).length;
+
+const addGroup = () => {
+  if (draft.value.length >= 32) return;
+  draft.value.push({
+    id: createHostMappingGroupId(),
+    name: t("admin.subdomainProxy.newGroupDefault", {
+      number: draft.value.length + 1,
+    }),
+  });
+};
+
+const requestDelete = (group: HostMappingGroup) => {
+  if (mappingCount(group.id) > 0 && pendingDeleteId.value !== group.id) {
+    pendingDeleteId.value = group.id;
+    return;
+  }
+  draft.value = draft.value.filter((item) => item.id !== group.id);
+  pendingDeleteId.value = null;
+};
+
+const save = () => {
+  if (!isValid.value) return;
+  emit(
+    "save",
+    draft.value.map((group) => ({ ...group, name: group.name.trim() })),
+  );
+};
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="sm:max-w-[560px]">
+      <DialogHeader>
+        <DialogTitle>{{ t("admin.subdomainProxy.manageGroups") }}</DialogTitle>
+        <DialogDescription>
+          {{ t("admin.subdomainProxy.manageGroupsDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+
+      <div class="space-y-3 py-2">
+        <VueDraggable
+          v-model="draft"
+          handle=".group-drag-handle"
+          :animation="180"
+          :disabled="saving"
+          class="max-h-[50vh] space-y-2 overflow-y-auto pr-1"
+        >
+          <div
+            v-for="group in draft"
+            :key="group.id"
+            class="rounded-md border bg-background p-3"
+          >
+            <div class="flex items-center gap-2">
+              <button
+                type="button"
+                class="group-drag-handle inline-flex h-9 w-8 shrink-0 items-center justify-center rounded-md text-muted-foreground hover:bg-muted"
+                :aria-label="t('admin.subdomainProxy.dragGroupAria')"
+              >
+                <GripVertical class="h-4 w-4" />
+              </button>
+              <Input
+                v-model="group.name"
+                :aria-label="t('admin.subdomainProxy.groupName')"
+              />
+              <span class="shrink-0 text-xs text-muted-foreground">
+                {{
+                  t("admin.subdomainProxy.groupMappingsCount", {
+                    count: mappingCount(group.id),
+                  })
+                }}
+              </span>
+              <Button
+                type="button"
+                variant="ghost"
+                size="icon"
+                :disabled="saving"
+                :aria-label="t('admin.subdomainProxy.deleteGroup')"
+                @click="requestDelete(group)"
+              >
+                <Trash2 class="h-4 w-4" />
+              </Button>
+            </div>
+            <div
+              v-if="pendingDeleteId === group.id"
+              class="mt-3 flex items-center justify-between gap-3 rounded-md bg-destructive/10 px-3 py-2 text-xs text-destructive"
+              role="alert"
+            >
+              <span>{{ t("admin.subdomainProxy.deleteGroupConfirm") }}</span>
+              <div class="flex shrink-0 gap-2">
+                <Button
+                  type="button"
+                  size="sm"
+                  variant="outline"
+                  @click="pendingDeleteId = null"
+                >
+                  {{ t("admin.subdomainProxy.cancel") }}
+                </Button>
+                <Button
+                  type="button"
+                  size="sm"
+                  variant="destructive"
+                  @click="requestDelete(group)"
+                >
+                  {{ t("admin.subdomainProxy.confirmDeleteGroup") }}
+                </Button>
+              </div>
+            </div>
+          </div>
+        </VueDraggable>
+
+        <div
+          v-if="draft.length === 0"
+          class="rounded-md border border-dashed px-4 py-8 text-center text-sm text-muted-foreground"
+        >
+          {{ t("admin.subdomainProxy.noGroups") }}
+        </div>
+
+        <p v-if="!isValid" class="text-xs text-destructive">
+          {{ t("admin.subdomainProxy.groupValidation") }}
+        </p>
+
+        <Button
+          type="button"
+          variant="outline"
+          :disabled="saving || draft.length >= 32"
+          @click="addGroup"
+        >
+          <Plus class="mr-2 h-4 w-4" />
+          {{ t("admin.subdomainProxy.createGroup") }}
+        </Button>
+      </div>
+
+      <DialogFooter>
+        <Button
+          type="button"
+          variant="outline"
+          :disabled="saving"
+          @click="emit('update:open', false)"
+        >
+          {{ t("admin.subdomainProxy.cancel") }}
+        </Button>
+        <Button type="button" :disabled="saving || !isValid" @click="save">
+          {{ t("admin.subdomainProxy.saveGroups") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

@@ -1,1 +1,231 @@
-bmFtZTogbWFjT1MgU3VwcGxlbWVudGFsIFJlbGVhc2UKCm9uOgogIHdvcmtmbG93X2Rpc3BhdGNoOgogICAgaW5wdXRzOgogICAgICBwdWJsaXNoOgogICAgICAgIGRlc2NyaXB0aW9uOiBQdWJsaXNoIGJvdGggbWFjT1MgYXJjaGl0ZWN0dXJlcyB0byB0aGUgY3VycmVudCBzdGFibGUgcmVsZWFzZQogICAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICAgICAgdHlwZTogYm9vbGVhbgogICAgICAgIGRlZmF1bHQ6IGZhbHNlCgpwZXJtaXNzaW9uczoKICBjb250ZW50czogcmVhZAoKY29uY3VycmVuY3k6CiAgZ3JvdXA6IGZuLWtub2NrLXN0YWJsZS1yZWxlYXNlCiAgY2FuY2VsLWluLXByb2dyZXNzOiBmYWxzZQoKam9iczoKICBidWlsZDoKICAgIHBlcm1pc3Npb25zOgogICAgICBjb250ZW50czogcmVhZAogICAgdXNlczogLi8uZ2l0aHViL3dvcmtmbG93cy9tYWNvcy55bWwKCiAgcGxhbi1hbmQtcHVibGlzaDoKICAgIG5lZWRzOiBidWlsZAogICAgcnVucy1vbjogdWJ1bnR1LTI0LjA0CiAgICB0aW1lb3V0LW1pbnV0ZXM6IDYwCiAgICBwZXJtaXNzaW9uczoKICAgICAgYXR0ZXN0YXRpb25zOiB3cml0ZQogICAgICBjb250ZW50czogd3JpdGUKICAgICAgaWQtdG9rZW46IHdyaXRlCiAgICBlbnY6CiAgICAgIEZOX0tOT0NLX1ZFUlNJT046ICR7eyBuZWVkcy5idWlsZC5vdXRwdXRzLnZlcnNpb24gfX0KICAgICAgRk5fS05PQ0tfTUFDT1NfUkVMRUFTRV9BU1NFVFNfRElSOiAke3sgZ2l0aHViLndvcmtzcGFjZSB9fS9kaXN0L21hY29zLXJlbGVhc2UtYXNzZXRzCiAgICAgIEZOX0tOT0NLX01BQ09TX0lOU1RBTExfU0NSSVBUOiAke3sgZ2l0aHViLndvcmtzcGFjZSB9fS9kZXBsb3kvbWFjb3MvaW5zdGFsbC5zaAogICAgICBGTl9LTk9DS19DT1NfT1VUUFVUX0RJUjogJHt7IGdpdGh1Yi53b3Jrc3BhY2UgfX0vZGlzdC9tYWNvcy1jb3MtcHVibGlzaAogICAgICBDT1NfUFVCTElDQkFTSUNVUkw6IGh0dHBzOi8vY2RuLmZua25vY2suY24KCiAgICBzdGVwczoKICAgICAgLSBuYW1lOiBDaGVja291dCBmcm96ZW4gZm4ta25vY2sgc291cmNlCiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEBkZTBmYWMyZTQ1MDBkYWJlMDAwOWU2NzIxNGZmNWY1NDQ3Y2U4M2RkICMgdjYuMC4yCiAgICAgICAgd2l0aDoKICAgICAgICAgIHJlZjogJHt7IG5lZWRzLmJ1aWxkLm91dHB1dHMuc291cmNlX3NoYSB9fQogICAgICAgICAgcGVyc2lzdC1jcmVkZW50aWFsczogZmFsc2UKCiAgICAgIC0gbmFtZTogU2V0IHVwIE5vZGUuanMKICAgICAgICB1c2VzOiBhY3Rpb25zL3NldHVwLW5vZGVAMjQ5OTcwNzI5Y2IwZWYzNTg5NjQ0ZTI4OTY2NDVlNWRjNWJhOWMzOCAjIHY2LjUuMAogICAgICAgIHdpdGg6CiAgICAgICAgICBub2RlLXZlcnNpb246ICIyMi4yMi4zIgogICAgICAgICAgY2FjaGU6IG5wbQoKICAgICAgLSBuYW1lOiBJbnN0YWxsIHJlbGVhc2UgZGVwZW5kZW5jaWVzCiAgICAgICAgc2hlbGw6IGJhc2gKICAgICAgICBydW46IG5wbSBjaSAtLWlnbm9yZS1zY3JpcHRzCgogICAgICAtIG5hbWU6IERvd25sb2FkIGJvdGggbmF0aXZlIG1hY09TIHBhY2thZ2VzCiAgICAgICAgdXNlczogYWN0aW9ucy9kb3dubG9hZC1hcnRpZmFjdEAzZTVmNDViMmNmYjkxNzIwNTRiNDA4N2E0MGU4ZTBiNWE1NDYxZTdjICMgdjguMC4xCiAgICAgICAgd2l0aDoKICAgICAgICAgIHBhdHRlcm46IGZuLWtub2NrLW1hY29zLSR7eyBuZWVkcy5idWlsZC5vdXRwdXRzLnZlcnNpb24gfX0tKgogICAgICAgICAgcGF0aDogZGlzdC9tYWNvcy1yZWxlYXNlLWFzc2V0cwogICAgICAgICAgbWVyZ2UtbXVsdGlwbGU6IHRydWUKCiAgICAgIC0gbmFtZTogVmFsaWRhdGUgbWFjT1Mgc3VwcGxlbWVudGFsIHB1Ymxpc2ggcGxhbgogICAgICAgIHNoZWxsOiBiYXNoCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBleHBlY3RlZF9hbWQ2ND0iZm4ta25vY2stbWFjb3MtJHtGTl9LTk9DS19WRVJTSU9OfS1hbWQ2NC50YXIuZ3oiCiAgICAgICAgICBleHBlY3RlZF9hcm02ND0iZm4ta25vY2stbWFjb3MtJHtGTl9LTk9DS19WRVJTSU9OfS1hcm02NC50YXIuZ3oiCiAgICAgICAgICB0ZXN0IC1zICIke0ZOX0tOT0NLX01BQ09TX1JFTEVBU0VfQVNTRVRTX0RJUn0vJHtleHBlY3RlZF9hbWQ2NH0iCiAgICAgICAgICB0ZXN0IC1zICIke0ZOX0tOT0NLX01BQ09TX1JFTEVBU0VfQVNTRVRTX0RJUn0vJHtleHBlY3RlZF9hcm02NH0iCiAgICAgICAgICB0ZXN0ICIkKGZpbmQgIiR7Rk5fS05PQ0tfTUFDT1NfUkVMRUFTRV9BU1NFVFNfRElSfSIgLW1heGRlcHRoIDEgLXR5cGUgZiB8IHdjIC1sIHwgdHIgLWQgJyAnKSIgPSAiMiIKICAgICAgICAgIG5vZGUgLi9zY3JpcHRzL2ZuLWtub2NrLWNvcy1wdWJsaXNoLm1qcyBwbGFuLW1hY29zCgogICAgICAtIG5hbWU6IFVwbG9hZCBtYWNPUyBzdXBwbGVtZW50YWwgcHVibGlzaCBwbGFuCiAgICAgICAgdXNlczogYWN0aW9ucy91cGxvYWQtYXJ0aWZhY3RAMDQzZmI0NmQxYTkzYzc3YWFlNjU2ZTdjMWM2NGE4NzVkMWZjNmEwYSAjIHY3LjAuMQogICAgICAgIHdpdGg6CiAgICAgICAgICBuYW1lOiBmbi1rbm9jay1tYWNvcy0ke3sgbmVlZHMuYnVpbGQub3V0cHV0cy52ZXJzaW9uIH19LXB1Ymxpc2gtcGxhbgogICAgICAgICAgcGF0aDogZGlzdC9tYWNvcy1jb3MtcHVibGlzaAogICAgICAgICAgaWYtbm8tZmlsZXMtZm91bmQ6IGVycm9yCiAgICAgICAgICByZXRlbnRpb24tZGF5czogNwoKICAgICAgLSBuYW1lOiBQcmVmbGlnaHQgY3VycmVudCBDT1MgcmVsZWFzZSB3aXRob3V0IG11dGF0aW9uCiAgICAgICAgaWY6IGlucHV0cy5wdWJsaXNoCiAgICAgICAgc2hlbGw6IGJhc2gKICAgICAgICBlbnY6CiAgICAgICAgICBDT1NfQUNDOiAke3sgdmFycy5DT1NfQUNDIHx8IHNlY3JldHMuQ09TX0FDQyB9fQogICAgICAgICAgQ09TX0JVQ0tFVDogJHt7IHZhcnMuQ09TX0JVQ0tFVCB8fCBzZWNyZXRzLkNPU19CVUNLRVQgfX0KICAgICAgICAgIENPU19SRUdJT046ICR7eyB2YXJzLkNPU19SRUdJT04gfHwgc2VjcmV0cy5DT1NfUkVHSU9OIH19CiAgICAgICAgICBDT1NfU0VDUkVUSUQ6ICR7eyBzZWNyZXRzLkNPU19TRUNSRVRJRCB9fQogICAgICAgICAgQ09TX1NFQ1JFVEtFWTogJHt7IHNlY3JldHMuQ09TX1NFQ1JFVEtFWSB9fQogICAgICAgIHJ1bjogbm9kZSAuL3NjcmlwdHMvZm4ta25vY2stY29zLXB1Ymxpc2gubWpzIGNoZWNrLW1hY29zCgogICAgICAtIG5hbWU6IEF0dGVzdCBuYXRpdmUgbWFjT1MgcGFja2FnZXMKICAgICAgICBpZjogaW5wdXRzLnB1Ymxpc2gKICAgICAgICB1c2VzOiBhY3Rpb25zL2F0dGVzdC1idWlsZC1wcm92ZW5hbmNlQDBmNjdjM2Y0ODU2YjJlMzI2MWMzMTk3NmQ2NzI1NzgwZTVlNGMzNzMgIyB2NC4xLjEKICAgICAgICB3aXRoOgogICAgICAgICAgc3ViamVjdC1wYXRoOiBkaXN0L21hY29zLXJlbGVhc2UtYXNzZXRzLyoudGFyLmd6CgogICAgICAtIG5hbWU6IEFkZCBtYWNPUyBwYWNrYWdlcyB0byB0aGUgZXhpc3RpbmcgR2l0SHViIFJlbGVhc2UKICAgICAgICBpZjogaW5wdXRzLnB1Ymxpc2gKICAgICAgICBzaGVsbDogYmFzaAogICAgICAgIGVudjoKICAgICAgICAgIEdIX1RPS0VOOiAke3sgZ2l0aHViLnRva2VuIH19CiAgICAgICAgcnVuOiB8CiAgICAgICAgICBzZXQgLWV1byBwaXBlZmFpbAogICAgICAgICAgdGFnPSJ2JHtGTl9LTk9DS19WRVJTSU9OfSIKICAgICAgICAgIHJlbGVhc2VfanNvbj0iJChnaCByZWxlYXNlIHZpZXcgIiR7dGFnfSIgLS1yZXBvICIke0dJVEhVQl9SRVBPU0lUT1JZfSIgLS1qc29uIGlzRHJhZnQsaXNQcmVyZWxlYXNlLHRhZ05hbWUpIgogICAgICAgICAganEgLWUgLS1hcmcgdGFnICIke3RhZ30iIFwKICAgICAgICAgICAgJy50YWdOYW1lID09ICR0YWcgYW5kIC5pc0RyYWZ0ID09IGZhbHNlIGFuZCAuaXNQcmVyZWxlYXNlID09IGZhbHNlJyBcCiAgICAgICAgICAgIDw8PCIke3JlbGVhc2VfanNvbn0iID4vZGV2L251bGwKCiAgICAgICAgICB3b3JrX2Rpcj0iJHtSVU5ORVJfVEVNUH0vZm4ta25vY2stbWFjb3MtcmVsZWFzZSIKICAgICAgICAgIHJlbW90ZV9kaXI9IiR7d29ya19kaXJ9L3JlbW90ZSIKICAgICAgICAgIG1rZGlyIC1wICIke3JlbW90ZV9kaXJ9IgogICAgICAgICAgZ2ggcmVsZWFzZSB2aWV3ICIke3RhZ30iIC0tcmVwbyAiJHtHSVRIVUJfUkVQT1NJVE9SWX0iIFwKICAgICAgICAgICAgLS1qc29uIGFzc2V0cyAtLWpxICcuYXNzZXRzW10ubmFtZScgfCBzb3J0ID4gIiR7d29ya19kaXJ9L2Fzc2V0cy1iZWZvcmUudHh0IgogICAgICAgICAgZ3JlcCAtRnhxICJTSEEyNTZTVU1TIiAiJHt3b3JrX2Rpcn0vYXNzZXRzLWJlZm9yZS50eHQiCiAgICAgICAgICBnaCByZWxlYXNlIGRvd25sb2FkICIke3RhZ30iIC0tcmVwbyAiJHtHSVRIVUJfUkVQT1NJVE9SWX0iIFwKICAgICAgICAgICAgLS1wYXR0ZXJuICJTSEEyNTZTVU1TIiAtLWRpciAiJHtyZW1vdGVfZGlyfSIKICAgICAgICAgIGNwICIke3JlbW90ZV9kaXJ9L1NIQTI1NlNVTVMiICIke3dvcmtfZGlyfS9TSEEyNTZTVU1TIgoKICAgICAgICAgIHVwbG9hZGVkX2Fzc2V0c19maWxlPSIke3dvcmtfZGlyfS91cGxvYWRlZC1hc3NldHMudHh0IgogICAgICAgICAgOiA+ICIke3VwbG9hZGVkX2Fzc2V0c19maWxlfSIKICAgICAgICAgIGdpdGh1Yl9tdXRhdGVkPWZhbHNlCiAgICAgICAgICByb2xsYmFja19naXRodWIoKSB7CiAgICAgICAgICAgIGV4aXRfY29kZT0kPwogICAgICAgICAgICBpZiBbICIke2V4aXRfY29kZX0iIC1uZSAwIF0gJiYgWyAiJHtnaXRodWJfbXV0YXRlZH0iID0gdHJ1ZSBdOyB0aGVuCiAgICAgICAgICAgICAgc2V0ICtlCiAgICAgICAgICAgICAgZ2ggcmVsZWFzZSB1cGxvYWQgIiR7dGFnfSIgIiR7cmVtb3RlX2Rpcn0vU0hBMjU2U1VNUyIgXAogICAgICAgICAgICAgICAgLS1yZXBvICIke0dJVEhVQl9SRVBPU0lUT1JZfSIgLS1jbG9iYmVyCiAgICAgICAgICAgICAgd2hpbGUgSUZTPSByZWFkIC1yIHVwbG9hZGVkX25hbWU7IGRvCiAgICAgICAgICAgICAgICBbIC1uICIke3VwbG9hZGVkX25hbWV9IiBdIHx8IGNvbnRpbnVlCiAgICAgICAgICAgICAgICBnaCByZWxlYXNlIGRlbGV0ZS1hc3NldCAiJHt0YWd9IiAiJHt1cGxvYWRlZF9uYW1lfSIgXAogICAgICAgICAgICAgICAgICAtLXJlcG8gIiR7R0lUSFVCX1JFUE9TSVRPUll9IiAtLXllcwogICAgICAgICAgICAgIGRvbmUgPCAiJHt1cGxvYWRlZF9hc3NldHNfZmlsZX0iCiAgICAgICAgICAgICAgc2V0IC1lCiAgICAgICAgICAgIGZpCiAgICAgICAgICAgIGV4aXQgIiR7ZXhpdF9jb2RlfSIKICAgICAgICAgIH0KICAgICAgICAgIHRyYXAgcm9sbGJhY2tfZ2l0aHViIEVYSVQKCiAgICAgICAgICB1cGxvYWRfYXJncz0oKQogICAgICAgICAgZm9yIGFyY2ggaW4gYW1kNjQgYXJtNjQ7IGRvCiAgICAgICAgICAgIG5hbWU9ImZuLWtub2NrLW1hY29zLSR7Rk5fS05PQ0tfVkVSU0lPTn0tJHthcmNofS50YXIuZ3oiCiAgICAgICAgICAgIGxvY2FsX2ZpbGU9IiR7Rk5fS05PQ0tfTUFDT1NfUkVMRUFTRV9BU1NFVFNfRElSfS8ke25hbWV9IgogICAgICAgICAgICBpZiBncmVwIC1GeHEgIiR7bmFtZX0iICIke3dvcmtfZGlyfS9hc3NldHMtYmVmb3JlLnR4dCI7IHRoZW4KICAgICAgICAgICAgICBhcmNoX2Rpcj0iJHtyZW1vdGVfZGlyfS8ke2FyY2h9IgogICAgICAgICAgICAgIG1rZGlyIC1wICIke2FyY2hfZGlyfSIKICAgICAgICAgICAgICBnaCByZWxlYXNlIGRvd25sb2FkICIke3RhZ30iIC0tcmVwbyAiJHtHSVRIVUJfUkVQT1NJVE9SWX0iIFwKICAgICAgICAgICAgICAgIC0tcGF0dGVybiAiJHtuYW1lfSIgLS1kaXIgIiR7YXJjaF9kaXJ9IgogICAgICAgICAgICAgIHRlc3QgIiQoc2hhMjU2c3VtICIke2xvY2FsX2ZpbGV9IiB8IGF3ayAne3ByaW50ICQxfScpIiA9IFwKICAgICAgICAgICAgICAgICIkKHNoYTI1NnN1bSAiJHthcmNoX2Rpcn0vJHtuYW1lfSIgfCBhd2sgJ3twcmludCAkMX0nKSIKICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgIHVwbG9hZF9hcmdzKz0oIiR7bG9jYWxfZmlsZX0iKQogICAgICAgICAgICAgIHByaW50ZiAnJXNcbicgIiR7bmFtZX0iID4+ICIke3VwbG9hZGVkX2Fzc2V0c19maWxlfSIKICAgICAgICAgICAgZmkKICAgICAgICAgICAgYXdrIC12IHRhcmdldD0iJHtuYW1lfSIgJwogICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGNhbmRpZGF0ZSA9ICQyCiAgICAgICAgICAgICAgICBzdWIoL15cKi8sICIiLCBjYW5kaWRhdGUpCiAgICAgICAgICAgICAgICBpZiAoY2FuZGlkYXRlICE9IHRhcmdldCkgcHJpbnQKICAgICAgICAgICAgICB9CiAgICAgICAgICAgICcgIiR7d29ya19kaXJ9L1NIQTI1NlNVTVMiID4gIiR7d29ya19kaXJ9L1NIQTI1NlNVTVMubmV4dCIKICAgICAgICAgICAgbXYgIiR7d29ya19kaXJ9L1NIQTI1NlNVTVMubmV4dCIgIiR7d29ya19kaXJ9L1NIQTI1NlNVTVMiCiAgICAgICAgICAgIChjZCAiJHtGTl9LTk9DS19NQUNPU19SRUxFQVNFX0FTU0VUU19ESVJ9IiAmJiBzaGEyNTZzdW0gIiR7bmFtZX0iKSBcCiAgICAgICAgICAgICAgPj4gIiR7d29ya19kaXJ9L1NIQTI1NlNVTVMiCiAgICAgICAgICBkb25lCiAgICAgICAgICBMQ19BTEw9QyBzb3J0IC1rMiwyIC1vICIke3dvcmtfZGlyfS9TSEEyNTZTVU1TIiAiJHt3b3JrX2Rpcn0vU0hBMjU2U1VNUyIKCiAgICAgICAgICBpZiBbICIkeyN1cGxvYWRfYXJnc1tAXX0iIC1ndCAwIF07IHRoZW4KICAgICAgICAgICAgZ2l0aHViX211dGF0ZWQ9dHJ1ZQogICAgICAgICAgICBnaCByZWxlYXNlIHVwbG9hZCAiJHt0YWd9IiAiJHt1cGxvYWRfYXJnc1tAXX0iIFwKICAgICAgICAgICAgICAtLXJlcG8gIiR7R0lUSFVCX1JFUE9TSVRPUll9IgogICAgICAgICAgZmkKICAgICAgICAgIGdpdGh1Yl9tdXRhdGVkPXRydWUKICAgICAgICAgIGdoIHJlbGVhc2UgdXBsb2FkICIke3RhZ30iICIke3dvcmtfZGlyfS9TSEEyNTZTVU1TIiBcCiAgICAgICAgICAgIC0tcmVwbyAiJHtHSVRIVUJfUkVQT1NJVE9SWX0iIC0tY2xvYmJlcgoKICAgICAgICAgIHZlcmlmeV9kaXI9IiR7d29ya19kaXJ9L3ZlcmlmeSIKICAgICAgICAgIG1rZGlyIC1wICIke3ZlcmlmeV9kaXJ9IgogICAgICAgICAgZ2ggcmVsZWFzZSBkb3dubG9hZCAiJHt0YWd9IiAtLXJlcG8gIiR7R0lUSFVCX1JFUE9TSVRPUll9IiBcCiAgICAgICAgICAgIC0tcGF0dGVybiAiZm4ta25vY2stbWFjb3MtJHtGTl9LTk9DS19WRVJTSU9OfS0qLnRhci5neiIgXAogICAgICAgICAgICAtLXBhdHRlcm4gIlNIQTI1NlNVTVMiIC0tZGlyICIke3ZlcmlmeV9kaXJ9IgogICAgICAgICAgZ3JlcCAtRSAiICBmbi1rbm9jay1tYWNvcy0ke0ZOX0tOT0NLX1ZFUlNJT059LShhbWQ2NHxhcm02NClcXC50YXJcXC5neiQiIFwKICAgICAgICAgICAgIiR7dmVyaWZ5X2Rpcn0vU0hBMjU2U1VNUyIgPiAiJHt2ZXJpZnlfZGlyfS9NQUNPU19TSEEyNTZTVU1TIgogICAgICAgICAgdGVzdCAiJCh3YyAtbCA8ICIke3ZlcmlmeV9kaXJ9L01BQ09TX1NIQTI1NlNVTVMiIHwgdHIgLWQgJyAnKSIgPSAiMiIKICAgICAgICAgIChjZCAiJHt2ZXJpZnlfZGlyfSIgJiYgc2hhMjU2c3VtIC0tY2hlY2sgTUFDT1NfU0hBMjU2U1VNUykKICAgICAgICAgIHRvdWNoICIke3dvcmtfZGlyfS9tdXRhdGlvbi1jb21wbGV0ZSIKICAgICAgICAgIHRyYXAgLSBFWElUCgogICAgICAtIG5hbWU6IFB1Ymxpc2ggbWFjT1MgQ09TIG9iamVjdHMgYW5kIGNvbW1pdCBsYXRlc3QuanNvbiBsYXN0CiAgICAgICAgaWY6IGlucHV0cy5wdWJsaXNoCiAgICAgICAgc2hlbGw6IGJhc2gKICAgICAgICBlbnY6CiAgICAgICAgICBDT1NfQUNDOiAke3sgdmFycy5DT1NfQUNDIHx8IHNlY3JldHMuQ09TX0FDQyB9fQogICAgICAgICAgQ09TX0JVQ0tFVDogJHt7IHZhcnMuQ09TX0JVQ0tFVCB8fCBzZWNyZXRzLkNPU19CVUNLRVQgfX0KICAgICAgICAgIENPU19SRUdJT046ICR7eyB2YXJzLkNPU19SRUdJT04gfHwgc2VjcmV0cy5DT1NfUkVHSU9OIH19CiAgICAgICAgICBDT1NfU0VDUkVUSUQ6ICR7eyBzZWNyZXRzLkNPU19TRUNSRVRJRCB9fQogICAgICAgICAgQ09TX1NFQ1JFVEtFWTogJHt7IHNlY3JldHMuQ09TX1NFQ1JFVEtFWSB9fQogICAgICAgICAgRk5fS05PQ0tfTEFURVNUX1VSTDogaHR0cHM6Ly9jb3IuZm5rbm9jay5jbi9sYXRlc3QuanNvbgogICAgICAgIHJ1bjogbm9kZSAuL3NjcmlwdHMvZm4ta25vY2stY29zLXB1Ymxpc2gubWpzIHB1Ymxpc2gtbWFjb3MKCiAgICAgIC0gbmFtZTogUm9sbCBiYWNrIEdpdEh1YiBSZWxlYXNlIGlmIENPUyBwdWJsaWNhdGlvbiBmYWlsZWQKICAgICAgICBpZjogJHt7IGZhaWx1cmUoKSAmJiBpbnB1dHMucHVibGlzaCB9fQogICAgICAgIHNoZWxsOiBiYXNoCiAgICAgICAgZW52OgogICAgICAgICAgR0hfVE9LRU46ICR7eyBnaXRodWIudG9rZW4gfX0KICAgICAgICBydW46IHwKICAgICAgICAgIHNldCAtZXVvIHBpcGVmYWlsCiAgICAgICAgICB0YWc9InYke0ZOX0tOT0NLX1ZFUlNJT059IgogICAgICAgICAgd29ya19kaXI9IiR7UlVOTkVSX1RFTVB9L2ZuLWtub2NrLW1hY29zLXJlbGVhc2UiCiAgICAgICAgICBpZiBbICEgLWYgIiR7d29ya19kaXJ9L211dGF0aW9uLWNvbXBsZXRlIiBdOyB0aGVuCiAgICAgICAgICAgIGV4aXQgMAogICAgICAgICAgZmkKICAgICAgICAgIGdoIHJlbGVhc2UgdXBsb2FkICIke3RhZ30iICIke3dvcmtfZGlyfS9yZW1vdGUvU0hBMjU2U1VNUyIgXAogICAgICAgICAgICAtLXJlcG8gIiR7R0lUSFVCX1JFUE9TSVRPUll9IiAtLWNsb2JiZXIKICAgICAgICAgIHdoaWxlIElGUz0gcmVhZCAtciB1cGxvYWRlZF9uYW1lOyBkbwogICAgICAgICAgICBbIC1uICIke3VwbG9hZGVkX25hbWV9IiBdIHx8IGNvbnRpbnVlCiAgICAgICAgICAgIGdoIHJlbGVhc2UgZGVsZXRlLWFzc2V0ICIke3RhZ30iICIke3VwbG9hZGVkX25hbWV9IiBcCiAgICAgICAgICAgICAgLS1yZXBvICIke0dJVEhVQl9SRVBPU0lUT1JZfSIgLS15ZXMKICAgICAgICAgIGRvbmUgPCAiJHt3b3JrX2Rpcn0vdXBsb2FkZWQtYXNzZXRzLnR4dCIKCiAgICAgIC0gbmFtZTogU3VtbWFyaXplIGRyeSBydW4KICAgICAgICBpZjogJHt7ICFpbnB1dHMucHVibGlzaCB9fQogICAgICAgIHNoZWxsOiBiYXNoCiAgICAgICAgcnVuOiB8CiAgICAgICAgICB7CiAgICAgICAgICAgIHByaW50ZiAnIyMjIG1hY09TIHN1cHBsZW1lbnRhbCByZWxlYXNlIGRyeSBydW5cblxuJwogICAgICAgICAgICBwcmludGYgJ0J1aWx0IGFuZCB2YWxpZGF0ZWQgSW50ZWwgYW5kIEFwcGxlIFNpbGljb24gcGFja2FnZXMgZm9yIGAlc2AuXG4nICIke0ZOX0tOT0NLX1ZFUlNJT059IgogICAgICAgICAgICBwcmludGYgJ05vIEdpdEh1YiBSZWxlYXNlLCBDT1MsIENETiwgb3IgbGF0ZXN0Lmpzb24gc3RhdGUgd2FzIGNoYW5nZWQuXG4nCiAgICAgICAgICB9ID4+ICIke0dJVEhVQl9TVEVQX1NVTU1BUll9Igo=
+name: macOS Supplemental Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish both macOS architectures to the current stable release
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: fn-knock-stable-release
+  cancel-in-progress: false
+
+jobs:
+  build:
+    permissions:
+      contents: read
+    uses: ./.github/workflows/macos.yml
+
+  plan-and-publish:
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    permissions:
+      attestations: write
+      contents: write
+      id-token: write
+    env:
+      FN_KNOCK_VERSION: ${{ needs.build.outputs.version }}
+      FN_KNOCK_MACOS_RELEASE_ASSETS_DIR: ${{ github.workspace }}/dist/macos-release-assets
+      FN_KNOCK_MACOS_INSTALL_SCRIPT: ${{ github.workspace }}/deploy/macos/install.sh
+      FN_KNOCK_COS_OUTPUT_DIR: ${{ github.workspace }}/dist/macos-cos-publish
+      COS_PUBLICBASICURL: https://cdn.fnknock.cn
+
+    steps:
+      - name: Checkout frozen fn-knock source
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: ${{ needs.build.outputs.source_sha }}
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: "22.22.3"
+          cache: npm
+
+      - name: Install release dependencies
+        shell: bash
+        run: npm ci --ignore-scripts
+
+      - name: Download both native macOS packages
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          pattern: fn-knock-macos-${{ needs.build.outputs.version }}-*
+          path: dist/macos-release-assets
+          merge-multiple: true
+
+      - name: Validate macOS supplemental publish plan
+        shell: bash
+        run: |
+          expected_amd64="fn-knock-macos-${FN_KNOCK_VERSION}-amd64.tar.gz"
+          expected_arm64="fn-knock-macos-${FN_KNOCK_VERSION}-arm64.tar.gz"
+          test -s "${FN_KNOCK_MACOS_RELEASE_ASSETS_DIR}/${expected_amd64}"
+          test -s "${FN_KNOCK_MACOS_RELEASE_ASSETS_DIR}/${expected_arm64}"
+          test "$(find "${FN_KNOCK_MACOS_RELEASE_ASSETS_DIR}" -maxdepth 1 -type f | wc -l | tr -d ' ')" = "2"
+          node ./scripts/fn-knock-cos-publish.mjs plan-macos
+
+      - name: Upload macOS supplemental publish plan
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: fn-knock-macos-${{ needs.build.outputs.version }}-publish-plan
+          path: dist/macos-cos-publish
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Preflight current COS release without mutation
+        if: inputs.publish
+        shell: bash
+        env:
+          COS_ACC: ${{ vars.COS_ACC || secrets.COS_ACC }}
+          COS_BUCKET: ${{ vars.COS_BUCKET || secrets.COS_BUCKET }}
+          COS_REGION: ${{ vars.COS_REGION || secrets.COS_REGION }}
+          COS_SECRETID: ${{ secrets.COS_SECRETID }}
+          COS_SECRETKEY: ${{ secrets.COS_SECRETKEY }}
+        run: node ./scripts/fn-knock-cos-publish.mjs check-macos
+
+      - name: Attest native macOS packages
+        if: inputs.publish
+        uses: actions/attest-build-provenance@0f67c3f4856b2e3261c31976d6725780e5e4c373 # v4.1.1
+        with:
+          subject-path: dist/macos-release-assets/*.tar.gz
+
+      - name: Add macOS packages to the existing GitHub Release
+        if: inputs.publish
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag="v${FN_KNOCK_VERSION}"
+          release_json="$(gh release view "${tag}" --repo "${GITHUB_REPOSITORY}" --json isDraft,isPrerelease,tagName)"
+          jq -e --arg tag "${tag}" \
+            '.tagName == $tag and .isDraft == false and .isPrerelease == false' \
+            <<<"${release_json}" >/dev/null
+
+          work_dir="${RUNNER_TEMP}/fn-knock-macos-release"
+          remote_dir="${work_dir}/remote"
+          mkdir -p "${remote_dir}"
+          gh release view "${tag}" --repo "${GITHUB_REPOSITORY}" \
+            --json assets --jq '.assets[].name' | sort > "${work_dir}/assets-before.txt"
+          grep -Fxq "SHA256SUMS" "${work_dir}/assets-before.txt"
+          gh release download "${tag}" --repo "${GITHUB_REPOSITORY}" \
+            --pattern "SHA256SUMS" --dir "${remote_dir}"
+          cp "${remote_dir}/SHA256SUMS" "${work_dir}/SHA256SUMS"
+
+          uploaded_assets_file="${work_dir}/uploaded-assets.txt"
+          : > "${uploaded_assets_file}"
+          github_mutated=false
+          rollback_github() {
+            exit_code=$?
+            if [ "${exit_code}" -ne 0 ] && [ "${github_mutated}" = true ]; then
+              set +e
+              gh release upload "${tag}" "${remote_dir}/SHA256SUMS" \
+                --repo "${GITHUB_REPOSITORY}" --clobber
+              while IFS= read -r uploaded_name; do
+                [ -n "${uploaded_name}" ] || continue
+                gh release delete-asset "${tag}" "${uploaded_name}" \
+                  --repo "${GITHUB_REPOSITORY}" --yes
+              done < "${uploaded_assets_file}"
+              set -e
+            fi
+            exit "${exit_code}"
+          }
+          trap rollback_github EXIT
+
+          upload_args=()
+          for arch in amd64 arm64; do
+            name="fn-knock-macos-${FN_KNOCK_VERSION}-${arch}.tar.gz"
+            local_file="${FN_KNOCK_MACOS_RELEASE_ASSETS_DIR}/${name}"
+            if grep -Fxq "${name}" "${work_dir}/assets-before.txt"; then
+              arch_dir="${remote_dir}/${arch}"
+              mkdir -p "${arch_dir}"
+              gh release download "${tag}" --repo "${GITHUB_REPOSITORY}" \
+                --pattern "${name}" --dir "${arch_dir}"
+              test "$(sha256sum "${local_file}" | awk '{print $1}')" = \
+                "$(sha256sum "${arch_dir}/${name}" | awk '{print $1}')"
+            else
+              upload_args+=("${local_file}")
+              printf '%s\n' "${name}" >> "${uploaded_assets_file}"
+            fi
+            awk -v target="${name}" '
+              {
+                candidate = $2
+                sub(/^\*/, "", candidate)
+                if (candidate != target) print
+              }
+            ' "${work_dir}/SHA256SUMS" > "${work_dir}/SHA256SUMS.next"
+            mv "${work_dir}/SHA256SUMS.next" "${work_dir}/SHA256SUMS"
+            (cd "${FN_KNOCK_MACOS_RELEASE_ASSETS_DIR}" && sha256sum "${name}") \
+              >> "${work_dir}/SHA256SUMS"
+          done
+          LC_ALL=C sort -k2,2 -o "${work_dir}/SHA256SUMS" "${work_dir}/SHA256SUMS"
+
+          if [ "${#upload_args[@]}" -gt 0 ]; then
+            github_mutated=true
+            gh release upload "${tag}" "${upload_args[@]}" \
+              --repo "${GITHUB_REPOSITORY}"
+          fi
+          github_mutated=true
+          gh release upload "${tag}" "${work_dir}/SHA256SUMS" \
+            --repo "${GITHUB_REPOSITORY}" --clobber
+
+          verify_dir="${work_dir}/verify"
+          mkdir -p "${verify_dir}"
+          gh release download "${tag}" --repo "${GITHUB_REPOSITORY}" \
+            --pattern "fn-knock-macos-${FN_KNOCK_VERSION}-*.tar.gz" \
+            --pattern "SHA256SUMS" --dir "${verify_dir}"
+          grep -E "  fn-knock-macos-${FN_KNOCK_VERSION}-(amd64|arm64)\\.tar\\.gz$" \
+            "${verify_dir}/SHA256SUMS" > "${verify_dir}/MACOS_SHA256SUMS"
+          test "$(wc -l < "${verify_dir}/MACOS_SHA256SUMS" | tr -d ' ')" = "2"
+          (cd "${verify_dir}" && sha256sum --check MACOS_SHA256SUMS)
+          touch "${work_dir}/mutation-complete"
+          trap - EXIT
+
+      - name: Publish macOS COS objects and commit latest.json last
+        if: inputs.publish
+        shell: bash
+        env:
+          COS_ACC: ${{ vars.COS_ACC || secrets.COS_ACC }}
+          COS_BUCKET: ${{ vars.COS_BUCKET || secrets.COS_BUCKET }}
+          COS_REGION: ${{ vars.COS_REGION || secrets.COS_REGION }}
+          COS_SECRETID: ${{ secrets.COS_SECRETID }}
+          COS_SECRETKEY: ${{ secrets.COS_SECRETKEY }}
+          FN_KNOCK_LATEST_URL: https://cor.fnknock.cn/latest.json
+        run: node ./scripts/fn-knock-cos-publish.mjs publish-macos
+
+      - name: Roll back GitHub Release if COS publication failed
+        if: ${{ failure() && inputs.publish }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag="v${FN_KNOCK_VERSION}"
+          work_dir="${RUNNER_TEMP}/fn-knock-macos-release"
+          if [ ! -f "${work_dir}/mutation-complete" ]; then
+            exit 0
+          fi
+          gh release upload "${tag}" "${work_dir}/remote/SHA256SUMS" \
+            --repo "${GITHUB_REPOSITORY}" --clobber
+          while IFS= read -r uploaded_name; do
+            [ -n "${uploaded_name}" ] || continue
+            gh release delete-asset "${tag}" "${uploaded_name}" \
+              --repo "${GITHUB_REPOSITORY}" --yes
+          done < "${work_dir}/uploaded-assets.txt"
+
+      - name: Summarize dry run
+        if: ${{ !inputs.publish }}
+        shell: bash
+        run: |
+          {
+            printf '### macOS supplemental release dry run\n\n'
+            printf 'Built and validated Intel and Apple Silicon packages for `%s`.\n' "${FN_KNOCK_VERSION}"
+            printf 'No GitHub Release, COS, CDN, or latest.json state was changed.\n'
+          } >> "${GITHUB_STEP_SUMMARY}"

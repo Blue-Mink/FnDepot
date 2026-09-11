@@ -1,1 +1,24 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgU2VwYXJhdG9yUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyByZWFjdGl2ZU9taXQgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCmltcG9ydCB7IFNlcGFyYXRvciB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9zZXBhcmF0b3InCgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cyhkZWZpbmVQcm9wczxTZXBhcmF0b3JQcm9wcyAmIHsgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXSB9PigpLCB7CiAgb3JpZW50YXRpb246ICJ2ZXJ0aWNhbCIsCn0pCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8U2VwYXJhdG9yCiAgICBkYXRhLXNsb3Q9ImJ1dHRvbi1ncm91cC1zZXBhcmF0b3IiCiAgICB2LWJpbmQ9ImRlbGVnYXRlZFByb3BzIgogICAgOm9yaWVudGF0aW9uPSJwcm9wcy5vcmllbnRhdGlvbiIKICAgIDpjbGFzcz0iY24oCiAgICAgICdiZy1pbnB1dCByZWxhdGl2ZSAhbS0wIHNlbGYtc3RyZXRjaCBkYXRhLVtvcmllbnRhdGlvbj12ZXJ0aWNhbF06aC1hdXRvJywKICAgICAgcHJvcHMuY2xhc3MsCiAgICApIgogIC8+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { SeparatorProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { cn } from "@/lib/utils"
+import { Separator } from '@/components/ui/separator'
+
+const props = withDefaults(defineProps<SeparatorProps & { class?: HTMLAttributes["class"] }>(), {
+  orientation: "vertical",
+})
+const delegatedProps = reactiveOmit(props, "class")
+</script>
+
+<template>
+  <Separator
+    data-slot="button-group-separator"
+    v-bind="delegatedProps"
+    :orientation="props.orientation"
+    :class="cn(
+      'bg-input relative !m-0 self-stretch data-[orientation=vertical]:h-auto',
+      props.class,
+    )"
+  />
+</template>

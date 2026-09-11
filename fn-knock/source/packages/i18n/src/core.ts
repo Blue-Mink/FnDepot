@@ -1,1 +1,156 @@
-ZXhwb3J0IHsgTE9DQUxFX0RJU1BMQVlfTkFNRVMsIExPQ0FMRV9PUFRJT05TIH0gZnJvbSAiLi9sb2NhbGUtb3B0aW9ucyI7CgpleHBvcnQgY29uc3QgU1VQUE9SVEVEX0xPQ0FMRVMgPSBbCiAgInpoLUNOIiwKICAiemgtSGFudCIsCiAgImVuIiwKICAia28tS1IiLAogICJqYS1KUCIsCl0gYXMgY29uc3Q7CmV4cG9ydCB0eXBlIExvY2FsZUNvZGUgPSAodHlwZW9mIFNVUFBPUlRFRF9MT0NBTEVTKVtudW1iZXJdOwoKZXhwb3J0IGludGVyZmFjZSBMb2NhbGVDb25maWcgewogIGRlZmF1bHRfbG9jYWxlOiBMb2NhbGVDb2RlOwp9CgpleHBvcnQgY29uc3QgREVGQVVMVF9MT0NBTEU6IExvY2FsZUNvZGUgPSAiemgtQ04iOwpleHBvcnQgY29uc3QgTE9DQUxFX0NPT0tJRV9OQU1FID0gImZuX2tub2NrX2xvY2FsZSI7CmV4cG9ydCBjb25zdCBMT0NBTEVfU1RPUkFHRV9LRVkgPSAiZm4ta25vY2s6bG9jYWxlIjsKZXhwb3J0IGNvbnN0IExPQ0FMRV9IRUFERVJfTkFNRSA9ICJYLUZuLUtub2NrLUxvY2FsZSI7Cgpjb25zdCBzdXBwb3J0ZWRMb2NhbGVTZXQgPSBuZXcgU2V0PHN0cmluZz4oU1VQUE9SVEVEX0xPQ0FMRVMpOwoKY29uc3QgbG9jYWxlQWxpYXNlczogUmVjb3JkPHN0cmluZywgTG9jYWxlQ29kZT4gPSB7CiAgemg6ICJ6aC1DTiIsCiAgInpoLWNuIjogInpoLUNOIiwKICAiemgtaGFucyI6ICJ6aC1DTiIsCiAgInpoLWhhbnMtY24iOiAiemgtQ04iLAogICJ6aC1zZyI6ICJ6aC1DTiIsCiAgInpoLW15IjogInpoLUNOIiwKICAiemgtdHciOiAiemgtSGFudCIsCiAgInpoLWhrIjogInpoLUhhbnQiLAogICJ6aC1tbyI6ICJ6aC1IYW50IiwKICAiemgtaGFudCI6ICJ6aC1IYW50IiwKICAiemgtaGFudC10dyI6ICJ6aC1IYW50IiwKICBlbjogImVuIiwKICAiZW4tdXMiOiAiZW4iLAogICJlbi1nYiI6ICJlbiIsCiAga286ICJrby1LUiIsCiAgImtvLWtyIjogImtvLUtSIiwKICBqYTogImphLUpQIiwKICAiamEtanAiOiAiamEtSlAiLAp9OwoKZXhwb3J0IGNvbnN0IG5vcm1hbGl6ZUxvY2FsZSA9ICgKICB2YWx1ZTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCwKKTogTG9jYWxlQ29kZSB8IG51bGwgPT4gewogIGNvbnN0IHJhdyA9IFN0cmluZyh2YWx1ZSA/PyAiIikudHJpbSgpOwogIGlmICghcmF3KSByZXR1cm4gbnVsbDsKICBpZiAoc3VwcG9ydGVkTG9jYWxlU2V0LmhhcyhyYXcpKSByZXR1cm4gcmF3IGFzIExvY2FsZUNvZGU7CgogIGNvbnN0IGxvd2VyID0gcmF3LnJlcGxhY2UoL18vZywgIi0iKS50b0xvd2VyQ2FzZSgpOwogIGlmIChsb2NhbGVBbGlhc2VzW2xvd2VyXSkgcmV0dXJuIGxvY2FsZUFsaWFzZXNbbG93ZXJdOwogIGlmIChsb3dlci5zdGFydHNXaXRoKCJlbi0iKSkgcmV0dXJuICJlbiI7CiAgaWYgKGxvd2VyLnN0YXJ0c1dpdGgoImtvLSIpKSByZXR1cm4gImtvLUtSIjsKICBpZiAobG93ZXIuc3RhcnRzV2l0aCgiamEtIikpIHJldHVybiAiamEtSlAiOwogIGlmIChsb3dlci5zdGFydHNXaXRoKCJ6aC1oYW50IikpIHJldHVybiAiemgtSGFudCI7CiAgaWYgKGxvd2VyLnN0YXJ0c1dpdGgoInpoLSIpKSByZXR1cm4gInpoLUNOIjsKICByZXR1cm4gbnVsbDsKfTsKCmV4cG9ydCBjb25zdCBub3JtYWxpemVMb2NhbGVDb25maWcgPSAoCiAgdmFsdWU6IFBhcnRpYWw8TG9jYWxlQ29uZmlnPiB8IG51bGwgfCB1bmRlZmluZWQsCik6IExvY2FsZUNvbmZpZyA9PiAoewogIGRlZmF1bHRfbG9jYWxlOiBub3JtYWxpemVMb2NhbGUodmFsdWU/LmRlZmF1bHRfbG9jYWxlKSA/PyBERUZBVUxUX0xPQ0FMRSwKfSk7CgpleHBvcnQgY29uc3QgcGFyc2VBY2NlcHRMYW5ndWFnZSA9ICgKICBoZWFkZXI6IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQsCik6IExvY2FsZUNvZGUgfCBudWxsID0+IHsKICBjb25zdCByYXcgPSBTdHJpbmcoaGVhZGVyID8/ICIiKS50cmltKCk7CiAgaWYgKCFyYXcpIHJldHVybiBudWxsOwoKICBjb25zdCBjYW5kaWRhdGVzID0gcmF3CiAgICAuc3BsaXQoIiwiKQogICAgLm1hcCgocGFydCkgPT4gewogICAgICBjb25zdCBbcmF3VGFnLCAuLi5wYXJhbXNdID0gcGFydC50cmltKCkuc3BsaXQoIjsiKTsKICAgICAgY29uc3QgdGFnID0gcmF3VGFnID8/ICIiOwogICAgICBjb25zdCBxUGFyYW0gPSBwYXJhbXMuZmluZCgocGFyYW0pID0+IHBhcmFtLnRyaW0oKS5zdGFydHNXaXRoKCJxPSIpKTsKICAgICAgY29uc3QgcSA9IHFQYXJhbSA/IE51bWJlcihxUGFyYW0udHJpbSgpLnNsaWNlKDIpKSA6IDE7CiAgICAgIHJldHVybiB7CiAgICAgICAgdGFnOiB0YWcudHJpbSgpLAogICAgICAgIHE6IE51bWJlci5pc0Zpbml0ZShxKSA/IHEgOiAxLAogICAgICB9OwogICAgfSkKICAgIC5maWx0ZXIoKGNhbmRpZGF0ZSkgPT4gY2FuZGlkYXRlLnRhZyAmJiBjYW5kaWRhdGUucSA+IDApCiAgICAuc29ydCgobGVmdCwgcmlnaHQpID0+IHJpZ2h0LnEgLSBsZWZ0LnEpOwoKICBmb3IgKGNvbnN0IGNhbmRpZGF0ZSBvZiBjYW5kaWRhdGVzKSB7CiAgICBjb25zdCBub3JtYWxpemVkID0gbm9ybWFsaXplTG9jYWxlKGNhbmRpZGF0ZS50YWcpOwogICAgaWYgKG5vcm1hbGl6ZWQpIHJldHVybiBub3JtYWxpemVkOwogIH0KCiAgcmV0dXJuIG51bGw7Cn07Cgpjb25zdCBnZXRDb29raWVWYWx1ZSA9IChjb29raWVIZWFkZXI6IHN0cmluZywgbmFtZTogc3RyaW5nKTogc3RyaW5nIHwgbnVsbCA9PiB7CiAgY29uc3QgcHJlZml4ID0gYCR7bmFtZX09YDsKICBmb3IgKGNvbnN0IHBhcnQgb2YgY29va2llSGVhZGVyLnNwbGl0KCI7IikpIHsKICAgIGNvbnN0IGl0ZW0gPSBwYXJ0LnRyaW0oKTsKICAgIGlmICghaXRlbS5zdGFydHNXaXRoKHByZWZpeCkpIGNvbnRpbnVlOwogICAgdHJ5IHsKICAgICAgcmV0dXJuIGRlY29kZVVSSUNvbXBvbmVudChpdGVtLnNsaWNlKHByZWZpeC5sZW5ndGgpKTsKICAgIH0gY2F0Y2ggewogICAgICByZXR1cm4gaXRlbS5zbGljZShwcmVmaXgubGVuZ3RoKTsKICAgIH0KICB9CiAgcmV0dXJuIG51bGw7Cn07CgpleHBvcnQgY29uc3QgZ2V0TG9jYWxlRnJvbUNvb2tpZUhlYWRlciA9ICgKICBjb29raWVIZWFkZXI6IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQsCik6IExvY2FsZUNvZGUgfCBudWxsID0+CiAgY29va2llSGVhZGVyCiAgICA/IG5vcm1hbGl6ZUxvY2FsZShnZXRDb29raWVWYWx1ZShjb29raWVIZWFkZXIsIExPQ0FMRV9DT09LSUVfTkFNRSkpCiAgICA6IG51bGw7CgpleHBvcnQgaW50ZXJmYWNlIExvY2FsZVJlc29sdXRpb25JbnB1dCB7CiAgZXhwbGljaXRMb2NhbGU/OiBzdHJpbmcgfCBudWxsOwogIGNvb2tpZUhlYWRlcj86IHN0cmluZyB8IG51bGw7CiAgc3RvcmFnZUxvY2FsZT86IHN0cmluZyB8IG51bGw7CiAgZGVmYXVsdExvY2FsZT86IHN0cmluZyB8IG51bGw7CiAgYWNjZXB0TGFuZ3VhZ2U/OiBzdHJpbmcgfCBudWxsOwp9CgpleHBvcnQgY29uc3QgcmVzb2x2ZUxvY2FsZSA9IChpbnB1dDogTG9jYWxlUmVzb2x1dGlvbklucHV0ID0ge30pOiBMb2NhbGVDb2RlID0+CiAgbm9ybWFsaXplTG9jYWxlKGlucHV0LmV4cGxpY2l0TG9jYWxlKSA/PwogIGdldExvY2FsZUZyb21Db29raWVIZWFkZXIoaW5wdXQuY29va2llSGVhZGVyKSA/PwogIG5vcm1hbGl6ZUxvY2FsZShpbnB1dC5zdG9yYWdlTG9jYWxlKSA/PwogIG5vcm1hbGl6ZUxvY2FsZShpbnB1dC5kZWZhdWx0TG9jYWxlKSA/PwogIHBhcnNlQWNjZXB0TGFuZ3VhZ2UoaW5wdXQuYWNjZXB0TGFuZ3VhZ2UpID8/CiAgREVGQVVMVF9MT0NBTEU7CgpleHBvcnQgdHlwZSBNZXNzYWdlUGFyYW1zID0gUmVjb3JkPAogIHN0cmluZywKICBzdHJpbmcgfCBudW1iZXIgfCBib29sZWFuIHwgbnVsbCB8IHVuZGVmaW5lZAo+OwoKZXhwb3J0IGNvbnN0IHJlYWRNZXNzYWdlUGF0aCA9IChzb3VyY2U6IHVua25vd24sIGtleTogc3RyaW5nKTogdW5rbm93biA9PiB7CiAgbGV0IGN1cnJlbnQgPSBzb3VyY2U7CiAgZm9yIChjb25zdCBwYXJ0IG9mIGtleS5zcGxpdCgiLiIpKSB7CiAgICBpZiAoY3VycmVudCA9PSBudWxsIHx8IHR5cGVvZiBjdXJyZW50ICE9PSAib2JqZWN0IiB8fCAhKHBhcnQgaW4gY3VycmVudCkpIHsKICAgICAgcmV0dXJuIHVuZGVmaW5lZDsKICAgIH0KICAgIGN1cnJlbnQgPSAoY3VycmVudCBhcyBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPilbcGFydF07CiAgfQogIHJldHVybiBjdXJyZW50Owp9OwoKZXhwb3J0IGNvbnN0IGludGVycG9sYXRlTWVzc2FnZSA9ICgKICBtZXNzYWdlOiBzdHJpbmcsCiAgcGFyYW1zPzogTWVzc2FnZVBhcmFtcywKKTogc3RyaW5nID0+CiAgbWVzc2FnZS5yZXBsYWNlKC9ceyhbQS1aYS16MC05X10rKVx9L2csIChtYXRjaCwgbmFtZSkgPT4gewogICAgY29uc3QgdmFsdWUgPSBwYXJhbXM/LltuYW1lXTsKICAgIHJldHVybiB2YWx1ZSA9PSBudWxsID8gbWF0Y2ggOiBTdHJpbmcodmFsdWUpOwogIH0pOwo=
+export { LOCALE_DISPLAY_NAMES, LOCALE_OPTIONS } from "./locale-options";
+
+export const SUPPORTED_LOCALES = [
+  "zh-CN",
+  "zh-Hant",
+  "en",
+  "ko-KR",
+  "ja-JP",
+] as const;
+export type LocaleCode = (typeof SUPPORTED_LOCALES)[number];
+
+export interface LocaleConfig {
+  default_locale: LocaleCode;
+}
+
+export const DEFAULT_LOCALE: LocaleCode = "zh-CN";
+export const LOCALE_COOKIE_NAME = "fn_knock_locale";
+export const LOCALE_STORAGE_KEY = "fn-knock:locale";
+export const LOCALE_HEADER_NAME = "X-Fn-Knock-Locale";
+
+const supportedLocaleSet = new Set<string>(SUPPORTED_LOCALES);
+
+const localeAliases: Record<string, LocaleCode> = {
+  zh: "zh-CN",
+  "zh-cn": "zh-CN",
+  "zh-hans": "zh-CN",
+  "zh-hans-cn": "zh-CN",
+  "zh-sg": "zh-CN",
+  "zh-my": "zh-CN",
+  "zh-tw": "zh-Hant",
+  "zh-hk": "zh-Hant",
+  "zh-mo": "zh-Hant",
+  "zh-hant": "zh-Hant",
+  "zh-hant-tw": "zh-Hant",
+  en: "en",
+  "en-us": "en",
+  "en-gb": "en",
+  ko: "ko-KR",
+  "ko-kr": "ko-KR",
+  ja: "ja-JP",
+  "ja-jp": "ja-JP",
+};
+
+export const normalizeLocale = (
+  value: string | null | undefined,
+): LocaleCode | null => {
+  const raw = String(value ?? "").trim();
+  if (!raw) return null;
+  if (supportedLocaleSet.has(raw)) return raw as LocaleCode;
+
+  const lower = raw.replace(/_/g, "-").toLowerCase();
+  if (localeAliases[lower]) return localeAliases[lower];
+  if (lower.startsWith("en-")) return "en";
+  if (lower.startsWith("ko-")) return "ko-KR";
+  if (lower.startsWith("ja-")) return "ja-JP";
+  if (lower.startsWith("zh-hant")) return "zh-Hant";
+  if (lower.startsWith("zh-")) return "zh-CN";
+  return null;
+};
+
+export const normalizeLocaleConfig = (
+  value: Partial<LocaleConfig> | null | undefined,
+): LocaleConfig => ({
+  default_locale: normalizeLocale(value?.default_locale) ?? DEFAULT_LOCALE,
+});
+
+export const parseAcceptLanguage = (
+  header: string | null | undefined,
+): LocaleCode | null => {
+  const raw = String(header ?? "").trim();
+  if (!raw) return null;
+
+  const candidates = raw
+    .split(",")
+    .map((part) => {
+      const [rawTag, ...params] = part.trim().split(";");
+      const tag = rawTag ?? "";
+      const qParam = params.find((param) => param.trim().startsWith("q="));
+      const q = qParam ? Number(qParam.trim().slice(2)) : 1;
+      return {
+        tag: tag.trim(),
+        q: Number.isFinite(q) ? q : 1,
+      };
+    })
+    .filter((candidate) => candidate.tag && candidate.q > 0)
+    .sort((left, right) => right.q - left.q);
+
+  for (const candidate of candidates) {
+    const normalized = normalizeLocale(candidate.tag);
+    if (normalized) return normalized;
+  }
+
+  return null;
+};
+
+const getCookieValue = (cookieHeader: string, name: string): string | null => {
+  const prefix = `${name}=`;
+  for (const part of cookieHeader.split(";")) {
+    const item = part.trim();
+    if (!item.startsWith(prefix)) continue;
+    try {
+      return decodeURIComponent(item.slice(prefix.length));
+    } catch {
+      return item.slice(prefix.length);
+    }
+  }
+  return null;
+};
+
+export const getLocaleFromCookieHeader = (
+  cookieHeader: string | null | undefined,
+): LocaleCode | null =>
+  cookieHeader
+    ? normalizeLocale(getCookieValue(cookieHeader, LOCALE_COOKIE_NAME))
+    : null;
+
+export interface LocaleResolutionInput {
+  explicitLocale?: string | null;
+  cookieHeader?: string | null;
+  storageLocale?: string | null;
+  defaultLocale?: string | null;
+  acceptLanguage?: string | null;
+}
+
+export const resolveLocale = (input: LocaleResolutionInput = {}): LocaleCode =>
+  normalizeLocale(input.explicitLocale) ??
+  getLocaleFromCookieHeader(input.cookieHeader) ??
+  normalizeLocale(input.storageLocale) ??
+  normalizeLocale(input.defaultLocale) ??
+  parseAcceptLanguage(input.acceptLanguage) ??
+  DEFAULT_LOCALE;
+
+export type MessageParams = Record<
+  string,
+  string | number | boolean | null | undefined
+>;
+
+export const readMessagePath = (source: unknown, key: string): unknown => {
+  let current = source;
+  for (const part of key.split(".")) {
+    if (current == null || typeof current !== "object" || !(part in current)) {
+      return undefined;
+    }
+    current = (current as Record<string, unknown>)[part];
+  }
+  return current;
+};
+
+export const interpolateMessage = (
+  message: string,
+  params?: MessageParams,
+): string =>
+  message.replace(/\{([A-Za-z0-9_]+)\}/g, (match, name) => {
+    const value = params?.[name];
+    return value == null ? match : String(value);
+  });

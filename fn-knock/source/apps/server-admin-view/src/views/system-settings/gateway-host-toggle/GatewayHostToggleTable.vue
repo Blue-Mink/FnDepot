@@ -1,1 +1,163 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEFsZXJ0LCBBbGVydERlc2NyaXB0aW9uLCBBbGVydFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2FsZXJ0IjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgU3dpdGNoIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N3aXRjaCI7CmltcG9ydCB7CiAgVGFibGUsCiAgVGFibGVCb2R5LAogIFRhYmxlQ2VsbCwKICBUYWJsZUhlYWQsCiAgVGFibGVIZWFkZXIsCiAgVGFibGVSb3csCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RhYmxlIjsKaW1wb3J0IEZsb2F0aW5nQWN0aW9uRG9jayBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0Zsb2F0aW5nQWN0aW9uRG9jay52dWUiOwppbXBvcnQgdHlwZSB7IEdhdGV3YXlIb3N0VG9nZ2xlU2V0dGluZ3NNb2RlbCB9IGZyb20gIi4vdXNlR2F0ZXdheUhvc3RUb2dnbGVTZXR0aW5ncyI7CgpkZWZpbmVQcm9wczx7CiAgbW9kZWw6IEdhdGV3YXlIb3N0VG9nZ2xlU2V0dGluZ3NNb2RlbDsKICB0b2dnbGVDb2x1bW5MYWJlbEtleTogc3RyaW5nOwp9PigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8QWxlcnQgdi1pZj0iIW1vZGVsLmlzQXZhaWxhYmxlIiBjbGFzcz0iYm9yZGVyLXppbmMtMjAwIGJnLXppbmMtNTAiPgogICAgPEFsZXJ0VGl0bGU+e3sgbW9kZWwubWVzc2FnZSgidW5hdmFpbGFibGUiKSB9fTwvQWxlcnRUaXRsZT4KICAgIDxBbGVydERlc2NyaXB0aW9uIGNsYXNzPSJ0ZXh0LXNtIGxlYWRpbmctNiB0ZXh0LXppbmMtNzAwIj4KICAgICAge3sgbW9kZWwuZGV0YWlscz8uYXZhaWxhYmlsaXR5LnJlYXNvbiB9fQogICAgPC9BbGVydERlc2NyaXB0aW9uPgogIDwvQWxlcnQ+CgogIDxkaXYgY2xhc3M9Im92ZXJmbG93LWhpZGRlbiByb3VuZGVkLXhsIGJvcmRlciBib3JkZXItYm9yZGVyLzYwIj4KICAgIDxzZWN0aW9uIGNsYXNzPSJzcGFjZS15LTQgcC01Ij4KICAgICAgPGRpdgogICAgICAgIHYtaWY9Im1vZGVsLmZvcm1JdGVtcy5sZW5ndGggPT09IDAiCiAgICAgICAgY2xhc3M9InJvdW5kZWQteGwgYmctbXV0ZWQvMjAgcHgtNCBweS00IHRleHQtc20gbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgPgogICAgICAgIHt7IG1vZGVsLm1lc3NhZ2UoImVtcHR5TWFwcGluZyIpIH19CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IHYtZWxzZSBjbGFzcz0icm91bmRlZC14bCBiZy1tdXRlZC8xMCI+CiAgICAgICAgPFRhYmxlPgogICAgICAgICAgPFRhYmxlSGVhZGVyPgogICAgICAgICAgICA8VGFibGVSb3cgY2xhc3M9ImhvdmVyOmJnLXRyYW5zcGFyZW50Ij4KICAgICAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJweC00IHB5LTMiPgogICAgICAgICAgICAgICAge3sgbW9kZWwubWVzc2FnZSgic3ViZG9tYWluIikgfX0KICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJ3LTMyIHB4LTQgcHktMyB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgICB7eyBtb2RlbC5tZXNzYWdlKHRvZ2dsZUNvbHVtbkxhYmVsS2V5KSB9fQogICAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgPC9UYWJsZUhlYWRlcj4KICAgICAgICAgIDxUYWJsZUJvZHk+CiAgICAgICAgICAgIDxUYWJsZVJvdwogICAgICAgICAgICAgIHYtZm9yPSJpdGVtIGluIG1vZGVsLmZvcm1JdGVtcyIKICAgICAgICAgICAgICA6a2V5PSJpdGVtLmhvc3QiCiAgICAgICAgICAgICAgY2xhc3M9ImhvdmVyOmJnLW11dGVkLzIwIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0icHgtNCBweS00IGFsaWduLXRvcCI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIHNwYWNlLXktMS41Ij4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJicmVhay1hbGwgZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgICAgICAge3sgbW9kZWwuZm9ybWF0SG9zdFdpdGhBY2Nlc3NFbnRyeVBvcnQoaXRlbS5ob3N0KSB9fQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxCYWRnZQogICAgICAgICAgICAgICAgICAgICAgdi1pZj0iaXRlbS50aXRsZSIKICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9InNlY29uZGFyeSIKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJtYXgtdy1mdWxsIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIHt7IGl0ZW0udGl0bGUgfX0KICAgICAgICAgICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iYnJlYWstYWxsIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgICB7eyBpdGVtLnRhcmdldCB9fQogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InB4LTQgcHktNCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktY2VudGVyIj4KICAgICAgICAgICAgICAgICAgPFN3aXRjaAogICAgICAgICAgICAgICAgICAgIDptb2RlbC12YWx1ZT0ibW9kZWwuZ2V0VG9nZ2xlVmFsdWUoaXRlbSkiCiAgICAgICAgICAgICAgICAgICAgOmFyaWEtbGFiZWw9Iml0ZW0uaG9zdCIKICAgICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9Im1vZGVsLmlzU2F2aW5nIHx8ICFtb2RlbC5pc0F2YWlsYWJsZSIKICAgICAgICAgICAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSIKICAgICAgICAgICAgICAgICAgICAgIG1vZGVsLnVwZGF0ZUhvc3RUb2dnbGUoaXRlbS5ob3N0LCAkZXZlbnQgPT09IHRydWUpCiAgICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICA8L1RhYmxlQm9keT4KICAgICAgICA8L1RhYmxlPgogICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KCiAgICA8RmxvYXRpbmdBY3Rpb25Eb2NrCiAgICAgIDphY3RpdmU9Im1vZGVsLmlzRGlydHkiCiAgICAgIGlubGluZS1jbGFzcz0ic3BhY2UteS00IGJvcmRlci10IGJvcmRlci1ib3JkZXIvNjAgcC01IgogICAgPgogICAgICA8dGVtcGxhdGUgI2lubGluZT4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtMyBzbTpmbGV4LXJvdyBzbTppdGVtcy1jZW50ZXIgc206anVzdGlmeS1iZXR3ZWVuIgogICAgICAgID4KICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIGxlYWRpbmctNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyBtb2RlbC5zYXZlQmxvY2tlZFJlYXNvbiB8fCBtb2RlbC5tZXNzYWdlKCJzYXZlSGludCIpIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1lbmQgZ2FwLTMiPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9IiFtb2RlbC5pc0RpcnR5IHx8IG1vZGVsLmlzU2F2aW5nIgogICAgICAgICAgICAgIEBjbGljaz0ibW9kZWwucmVzZXRGb3JtIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgbW9kZWwubWVzc2FnZSgicmVzZXQiKSB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iCiAgICAgICAgICAgICAgICAhbW9kZWwuaXNEaXJ0eSB8fAogICAgICAgICAgICAgICAgbW9kZWwuaXNTYXZpbmcgfHwKICAgICAgICAgICAgICAgIEJvb2xlYW4obW9kZWwuc2F2ZUJsb2NrZWRSZWFzb24pCiAgICAgICAgICAgICAgIgogICAgICAgICAgICAgIEBjbGljaz0ibW9kZWwuc2F2ZVNldHRpbmdzIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgIHYtaWY9Im1vZGVsLmlzU2F2aW5nIgogICAgICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgbW9kZWwuaXNTYXZpbmcKICAgICAgICAgICAgICAgICAgPyBtb2RlbC5tZXNzYWdlKCJzYXZpbmciKQogICAgICAgICAgICAgICAgICA6IG1vZGVsLm1lc3NhZ2UoInNhdmVBbmRTeW5jIikKICAgICAgICAgICAgICB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L3RlbXBsYXRlPgogICAgICA8dGVtcGxhdGUgI2Zsb2F0aW5nPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9IiFtb2RlbC5pc0RpcnR5IHx8IG1vZGVsLmlzU2F2aW5nIgogICAgICAgICAgQGNsaWNrPSJtb2RlbC5yZXNldEZvcm0iCiAgICAgICAgPgogICAgICAgICAge3sgbW9kZWwubWVzc2FnZSgicmVzZXQiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIDpkaXNhYmxlZD0iCiAgICAgICAgICAgICFtb2RlbC5pc0RpcnR5IHx8CiAgICAgICAgICAgIG1vZGVsLmlzU2F2aW5nIHx8CiAgICAgICAgICAgIEJvb2xlYW4obW9kZWwuc2F2ZUJsb2NrZWRSZWFzb24pCiAgICAgICAgICAiCiAgICAgICAgICBAY2xpY2s9Im1vZGVsLnNhdmVTZXR0aW5ncyIKICAgICAgICA+CiAgICAgICAgICA8c3BhbgogICAgICAgICAgICB2LWlmPSJtb2RlbC5pc1NhdmluZyIKICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiCiAgICAgICAgICAvPgogICAgICAgICAge3sKICAgICAgICAgICAgbW9kZWwuaXNTYXZpbmcKICAgICAgICAgICAgICA/IG1vZGVsLm1lc3NhZ2UoInNhdmluZyIpCiAgICAgICAgICAgICAgOiBtb2RlbC5tZXNzYWdlKCJzYXZlQW5kU3luYyIpCiAgICAgICAgICB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L3RlbXBsYXRlPgogICAgPC9GbG9hdGluZ0FjdGlvbkRvY2s+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Switch } from "@/components/ui/switch";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import FloatingActionDock from "@admin-shared/components/common/FloatingActionDock.vue";
+import type { GatewayHostToggleSettingsModel } from "./useGatewayHostToggleSettings";
+
+defineProps<{
+  model: GatewayHostToggleSettingsModel;
+  toggleColumnLabelKey: string;
+}>();
+</script>
+
+<template>
+  <Alert v-if="!model.isAvailable" class="border-zinc-200 bg-zinc-50">
+    <AlertTitle>{{ model.message("unavailable") }}</AlertTitle>
+    <AlertDescription class="text-sm leading-6 text-zinc-700">
+      {{ model.details?.availability.reason }}
+    </AlertDescription>
+  </Alert>
+
+  <div class="overflow-hidden rounded-xl border border-border/60">
+    <section class="space-y-4 p-5">
+      <div
+        v-if="model.formItems.length === 0"
+        class="rounded-xl bg-muted/20 px-4 py-4 text-sm leading-6 text-muted-foreground"
+      >
+        {{ model.message("emptyMapping") }}
+      </div>
+      <div v-else class="rounded-xl bg-muted/10">
+        <Table>
+          <TableHeader>
+            <TableRow class="hover:bg-transparent">
+              <TableHead class="px-4 py-3">
+                {{ model.message("subdomain") }}
+              </TableHead>
+              <TableHead class="w-32 px-4 py-3 text-center">
+                {{ model.message(toggleColumnLabelKey) }}
+              </TableHead>
+            </TableRow>
+          </TableHeader>
+          <TableBody>
+            <TableRow
+              v-for="item in model.formItems"
+              :key="item.host"
+              class="hover:bg-muted/20"
+            >
+              <TableCell class="px-4 py-4 align-top">
+                <div class="min-w-0 space-y-1.5">
+                  <div class="flex flex-wrap items-center gap-2">
+                    <div class="break-all font-medium">
+                      {{ model.formatHostWithAccessEntryPort(item.host) }}
+                    </div>
+                    <Badge
+                      v-if="item.title"
+                      variant="secondary"
+                      class="max-w-full"
+                    >
+                      {{ item.title }}
+                    </Badge>
+                  </div>
+                  <div class="break-all text-xs text-muted-foreground">
+                    {{ item.target }}
+                  </div>
+                </div>
+              </TableCell>
+              <TableCell class="px-4 py-4 text-center">
+                <div class="flex justify-center">
+                  <Switch
+                    :model-value="model.getToggleValue(item)"
+                    :aria-label="item.host"
+                    :disabled="model.isSaving || !model.isAvailable"
+                    @update:model-value="
+                      model.updateHostToggle(item.host, $event === true)
+                    "
+                  />
+                </div>
+              </TableCell>
+            </TableRow>
+          </TableBody>
+        </Table>
+      </div>
+    </section>
+
+    <FloatingActionDock
+      :active="model.isDirty"
+      inline-class="space-y-4 border-t border-border/60 p-5"
+    >
+      <template #inline>
+        <div
+          class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"
+        >
+          <p class="text-sm leading-6 text-muted-foreground">
+            {{ model.saveBlockedReason || model.message("saveHint") }}
+          </p>
+          <div class="flex flex-wrap items-center justify-end gap-3">
+            <Button
+              variant="outline"
+              :disabled="!model.isDirty || model.isSaving"
+              @click="model.resetForm"
+            >
+              {{ model.message("reset") }}
+            </Button>
+            <Button
+              :disabled="
+                !model.isDirty ||
+                model.isSaving ||
+                Boolean(model.saveBlockedReason)
+              "
+              @click="model.saveSettings"
+            >
+              <span
+                v-if="model.isSaving"
+                class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+              />
+              {{
+                model.isSaving
+                  ? model.message("saving")
+                  : model.message("saveAndSync")
+              }}
+            </Button>
+          </div>
+        </div>
+      </template>
+      <template #floating>
+        <Button
+          variant="outline"
+          :disabled="!model.isDirty || model.isSaving"
+          @click="model.resetForm"
+        >
+          {{ model.message("reset") }}
+        </Button>
+        <Button
+          :disabled="
+            !model.isDirty ||
+            model.isSaving ||
+            Boolean(model.saveBlockedReason)
+          "
+          @click="model.saveSettings"
+        >
+          <span
+            v-if="model.isSaving"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          />
+          {{
+            model.isSaving
+              ? model.message("saving")
+              : model.message("saveAndSync")
+          }}
+        </Button>
+      </template>
+    </FloatingActionDock>
+  </div>
+</template>

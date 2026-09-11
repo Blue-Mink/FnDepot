@@ -1,1 +1,349 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgpjb25zdCBjb250cmFjdCA9IEpTT04ucGFyc2UoCiAgcmVhZFNvdXJjZSgiLi4vLi4vLi4vcGFja2FnZXMvYXBpLWNvbnRyYWN0L29wZW5hcGkuanNvbiIpLAopIGFzIHsKICBjb21wb25lbnRzOiB7CiAgICBzY2hlbWFzOiBSZWNvcmQ8CiAgICAgIHN0cmluZywKICAgICAgewogICAgICAgIHByb3BlcnRpZXM/OiBSZWNvcmQ8CiAgICAgICAgICBzdHJpbmcsCiAgICAgICAgICB7CiAgICAgICAgICAgIGVudW0/OiBBcnJheTxzdHJpbmcgfCBudW1iZXI+OwogICAgICAgICAgICBmb3JtYXQ/OiBzdHJpbmc7CiAgICAgICAgICAgIG1pbmltdW0/OiBudW1iZXI7CiAgICAgICAgICAgIG1heGltdW0/OiBudW1iZXI7CiAgICAgICAgICAgIG11bHRpcGxlT2Y/OiBudW1iZXI7CiAgICAgICAgICAgIHR5cGU/OiBzdHJpbmcgfCBzdHJpbmdbXTsKICAgICAgICAgIH0KICAgICAgICA+OwogICAgICAgIHJlcXVpcmVkPzogc3RyaW5nW107CiAgICAgIH0KICAgID47CiAgfTsKICBwYXRoczogUmVjb3JkPAogICAgc3RyaW5nLAogICAgUmVjb3JkPAogICAgICBzdHJpbmcsCiAgICAgIHsKICAgICAgICAieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiPzogc3RyaW5nOwogICAgICAgIHJlcXVlc3RCb2R5PzogewogICAgICAgICAgY29udGVudD86IFJlY29yZDxzdHJpbmcsIHsgc2NoZW1hPzogeyAkcmVmPzogc3RyaW5nIH0gfT47CiAgICAgICAgfTsKICAgICAgfQogICAgPgogID47Cn07CgpkZXNjcmliZSgiZm91bmRhdGlvbiBzZXR0aW5ncyBBUEkgY29udHJhY3QiLCAoKSA9PiB7CiAgaXQoInJlbW92ZXMgdGhlIGxlZ2FjeSB0ZXJtaW5hbCBmZWF0dXJlIHNldHRpbmdzIGNvbnRyYWN0IiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9jb25maWcvdGVybWluYWxfZmVhdHVyZSJdLAogICAgICB1bmRlZmluZWQsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5UZXJtaW5hbEZlYXR1cmVEYXRhLCB1bmRlZmluZWQpOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuVGVybWluYWxGZWF0dXJlVXBkYXRlRGF0YSwKICAgICAgdW5kZWZpbmVkLAogICAgKTsKICB9KTsKCiAgaXQoImtlZXBzIHRoZSBGUEsgY29uc29sZSBhcHBsaWNhdGlvbiBsaXN0IGluIHRoZSBkYXNoYm9hcmQgZGlzcGxheSBjb250cmFjdCIsICgpID0+IHsKICAgIGFzc2VydC5vaygKICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLkRhc2hib2FyZERpc3BsYXlEYXRhLnJlcXVpcmVkPy5pbmNsdWRlcygKICAgICAgICAic2hvd19jb25zb2xlX2FwcF9saXN0IiwKICAgICAgKSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5EYXNoYm9hcmREaXNwbGF5RGF0YS5wcm9wZXJ0aWVzCiAgICAgICAgPy5zaG93X2NvbnNvbGVfYXBwX2xpc3Q/LnR5cGUsCiAgICAgICJib29sZWFuIiwKICAgICk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuRGFzaGJvYXJkRGlzcGxheVVwZGF0ZURhdGEucHJvcGVydGllcwogICAgICAgID8uc2hvd19jb25zb2xlX2FwcF9saXN0Py50eXBlLAogICAgICBbImJvb2xlYW4iLCAibnVsbCJdLAogICAgKTsKICAgIGFzc2VydC5vaygKICAgICAgIWNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5EYXNoYm9hcmREaXNwbGF5VXBkYXRlRGF0YS5yZXF1aXJlZD8uaW5jbHVkZXMoCiAgICAgICAgInNob3dfY29uc29sZV9hcHBfbGlzdCIsCiAgICAgICksCiAgICApOwogIH0pOwoKICBpdCgiZG9lcyBub3QgcHVibGlzaCB0aGUgcmVtb3ZlZCB3ZWxjb21lIGd1aWRlIGNvbnRyYWN0IiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL2NvbmZpZy93ZWxjb21lX2d1aWRlIl0sIHVuZGVmaW5lZCk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL2NvbmZpZy93ZWxjb21lX2d1aWRlL2NvbXBsZXRlIl0sCiAgICAgIHVuZGVmaW5lZCwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLldlbGNvbWVHdWlkZURhdGEsIHVuZGVmaW5lZCk7CiAgfSk7CgogIGl0KCJrZWVwcyBwcm94eSBwcm90b2NvbCBhbmQgcnVuIG1vZGUgcHJvbXB0IHNldHRpbmdzIGJvdW5kIHRvIHR5cGVkIHJvdXRlcnMiLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IFttZXRob2QsIHBhdGhdIG9mIFsKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9jb25maWcvcHJveHlfcHJvdG9jb2xfZm9yY2UiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vY29uZmlnL3Byb3h5X3Byb3RvY29sX2ZvcmNlIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vY29uZmlnL3J1bl9tb2RlX3Byb21wdF9wcmVmZXJlbmNlcyJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9jb25maWcvcnVuX21vZGVfcHJvbXB0X3ByZWZlcmVuY2VzIl0sCiAgICBdIGFzIGNvbnN0KSB7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICBjb250cmFjdC5wYXRoc1twYXRoXT8uW21ldGhvZF0/LlsieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiXSwKICAgICAgICAidXRvaXBhIiwKICAgICAgICBgJHttZXRob2QudG9VcHBlckNhc2UoKX0gJHtwYXRofWAsCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJrZWVwcyBDQVBUQ0hBLCBydW50aW1lIG1vZGUsIGFuZCBXYWtlLW9uLUxBTiBzZXR0aW5ncyBib3VuZCB0byB0eXBlZCByb3V0ZXJzIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBbbWV0aG9kLCBwYXRoXSBvZiBbCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2NhcHRjaGEiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2NhcHRjaGEiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vY29uZmlnL3J1bl90eXBlIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vY29uZmlnL3dvbF9mZWF0dXJlIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2NvbmZpZy93b2xfZmVhdHVyZSJdLAogICAgXSBhcyBjb25zdCkgewogICAgICBhc3NlcnQuZXF1YWwoCiAgICAgICAgY29udHJhY3QucGF0aHNbcGF0aF0/LlttZXRob2RdPy5bIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIl0sCiAgICAgICAgInV0b2lwYSIsCiAgICAgICAgYCR7bWV0aG9kLnRvVXBwZXJDYXNlKCl9ICR7cGF0aH1gLAogICAgICApOwogICAgfQogIH0pOwoKICBpdCgia2VlcHMgYXV0b21hdGljIGZpcmV3YWxsIG1hbmFnZW1lbnQgYm91bmQgdG8gaXRzIHR5cGVkIHJvdXRlciIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29udHJhY3QucGF0aHNbIi9hcGkvYWRtaW4vY29uZmlnL2F1dG9fbWFuYWdlX2ZpcmV3YWxsIl0/LnBvc3Q/LlsKICAgICAgICAieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiCiAgICAgIF0sCiAgICAgICJ1dG9pcGEiLAogICAgKTsKICB9KTsKCiAgaXQoImtlZXBzIHByb3RvY29sIG1hcHBpbmcgc3RhcnR1cCBpc3N1ZXMgc2VydmVyLW93bmVkIGFuZCByZXBhaXJhYmxlIiwgKCkgPT4gewogICAgY29uc3QgZmVhdHVyZSA9IGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5Qcm90b2NvbE1hcHBpbmdGZWF0dXJlRGF0YTsKICAgIGNvbnN0IHVwZGF0ZSA9IGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5Qcm90b2NvbE1hcHBpbmdGZWF0dXJlVXBkYXRlRGF0YTsKICAgIGNvbnN0IGlzc3VlID0gY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLlByb3RvY29sTWFwcGluZ1J1bnRpbWVJc3N1ZURhdGE7CgogICAgYXNzZXJ0Lm9rKGZlYXR1cmUucHJvcGVydGllcz8ucnVudGltZV9pc3N1ZSk7CiAgICBhc3NlcnQuZXF1YWwodXBkYXRlLnByb3BlcnRpZXM/LnJ1bnRpbWVfaXNzdWUsIHVuZGVmaW5lZCk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKGlzc3VlLnByb3BlcnRpZXM/LmNvZGU/LmVudW0sIFsKICAgICAgImxvY2FsX3BvcnRfbG9vcCIsCiAgICAgICJsaXN0ZW5fcG9ydF9pbl91c2UiLAogICAgICAicnVudGltZV9zeW5jX2ZhaWxlZCIsCiAgICBdKTsKICAgIGFzc2VydC5lcXVhbChpc3N1ZS5wcm9wZXJ0aWVzPy5saXN0ZW5fcG9ydD8ubWluaW11bSwgMSk7CiAgICBhc3NlcnQuZXF1YWwoaXNzdWUucHJvcGVydGllcz8ubGlzdGVuX3BvcnQ/Lm1heGltdW0sIDY1XzUzNSk7CiAgfSk7CgogIGl0KCJrZWVwcyBhdXRoZW50aWNhdGlvbiBtb2RlIG9wZXJhdGlvbnMgYm91bmQgdG8gdGhlaXIgdHlwZWQgcm91dGVyIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBbbWV0aG9kLCBwYXRoXSBvZiBbCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vYXV0aC9tb2RlIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2F1dGgvbW9kZS9wcmV2aWV3Il0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2F1dGgvbW9kZS9zd2l0Y2giXSwKICAgIF0gYXMgY29uc3QpIHsKICAgICAgYXNzZXJ0LmVxdWFsKAogICAgICAgIGNvbnRyYWN0LnBhdGhzW3BhdGhdPy5bbWV0aG9kXT8uWyJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSJdLAogICAgICAgICJ1dG9pcGEiLAogICAgICAgIGAke21ldGhvZC50b1VwcGVyQ2FzZSgpfSAke3BhdGh9YCwKICAgICAgKTsKICAgIH0KICB9KTsKCiAgaXQoImtlZXBzIGF1dGhlbnRpY2F0aW9uIGFjY291bnQgbGlmZWN5Y2xlIGJvdW5kIHRvIGl0cyB0eXBlZCByb3V0ZXIiLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IFttZXRob2QsIHBhdGhdIG9mIFsKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9hdXRoL2FjY291bnRzIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2F1dGgvYWNjb3VudHMiXSwKICAgICAgWyJwYXRjaCIsICIvYXBpL2FkbWluL2F1dGgvYWNjb3VudHMve2lkfSJdLAogICAgICBbImRlbGV0ZSIsICIvYXBpL2FkbWluL2F1dGgvYWNjb3VudHMve2lkfSJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9hdXRoL2FjY291bnRzL3tpZH0vcGFzc3dvcmQiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vYXV0aC9hY2NvdW50cy97aWR9L3NldHVwIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2F1dGgvYWNjb3VudHMve2lkfS90b3RwL3NldHVwIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2F1dGgvYWNjb3VudHMve2lkfS90b3RwL2JpbmQiXSwKICAgICAgWyJwYXRjaCIsICIvYXBpL2FkbWluL2F1dGgvYWNjb3VudHMve2lkfS9hY2Nlc3Mtc2NvcGVzIl0sCiAgICAgIFsicGF0Y2giLCAiL2FwaS9hZG1pbi9hdXRoL2FjY291bnRzL3tpZH0vc3ViZG9tYWluLWFjY2VzcyJdLAogICAgXSBhcyBjb25zdCkgewogICAgICBhc3NlcnQuZXF1YWwoCiAgICAgICAgY29udHJhY3QucGF0aHNbcGF0aF0/LlttZXRob2RdPy5bIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIl0sCiAgICAgICAgInV0b2lwYSIsCiAgICAgICAgYCR7bWV0aG9kLnRvVXBwZXJDYXNlKCl9ICR7cGF0aH1gLAogICAgICApOwogICAgfQogIH0pOwoKICBpdCgia2VlcHMgc2Vzc2lvbiBsaWZlY3ljbGUgYW5kIG1vYmlsaXR5IHJvdXRlcyBib3VuZCB0byBpdHMgdHlwZWQgcm91dGVyIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBbbWV0aG9kLCBwYXRoXSBvZiBbCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vc2Vzc2lvbnMiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9zZXNzaW9ucy97aWR9Il0sCiAgICAgIFsiZGVsZXRlIiwgIi9hcGkvYWRtaW4vc2Vzc2lvbnMve2lkfSJdLAogICAgICBbInBhdGNoIiwgIi9hcGkvYWRtaW4vc2Vzc2lvbnMve2lkfS9jb21tZW50Il0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vc2Vzc2lvbnMve2lkfS9tb2JpbGl0eSJdLAogICAgXSBhcyBjb25zdCkgewogICAgICBhc3NlcnQuZXF1YWwoCiAgICAgICAgY29udHJhY3QucGF0aHNbcGF0aF0/LlttZXRob2RdPy5bIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIl0sCiAgICAgICAgInV0b2lwYSIsCiAgICAgICAgYCR7bWV0aG9kLnRvVXBwZXJDYXNlKCl9ICR7cGF0aH1gLAogICAgICApOwogICAgfQoKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5TZXNzaW9uUmVjb3JkRGF0YS5wcm9wZXJ0aWVzPy5saW5rZWRUb3RwTmFtZQogICAgICAgID8udHlwZSwKICAgICAgWyJzdHJpbmciLCAibnVsbCJdLAogICAgKTsKICB9KTsKCiAgaXQoImtlZXBzIGJhY2t1cCBleHBvcnQsIGltcG9ydCwgYW5kIGF1dG9tYXRpYyBiYWNrdXAgcm91dGVzIGJvdW5kIHRvIHR5cGVkIHJvdXRlcnMiLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IFttZXRob2QsIHBhdGhdIG9mIFsKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9tYWludGVuYW5jZS9iYWNrdXAvYXV0b21hdGljIl0sCiAgICAgIFsicHV0IiwgIi9hcGkvYWRtaW4vbWFpbnRlbmFuY2UvYmFja3VwL2F1dG9tYXRpYyJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL21haW50ZW5hbmNlL2JhY2t1cC9hdXRvbWF0aWMvZmlsZXMiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9tYWludGVuYW5jZS9iYWNrdXAvZXhwb3J0Il0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vbWFpbnRlbmFuY2UvYmFja3VwL2ZpbGVzIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL21haW50ZW5hbmNlL2JhY2t1cC9leHBvcnQvZm5vcyJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9tYWludGVuYW5jZS9iYWNrdXAvaW1wb3J0Il0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL21haW50ZW5hbmNlL2JhY2t1cC9pbXBvcnQvYXV0b21hdGljIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL21haW50ZW5hbmNlL2JhY2t1cC9pbXBvcnQvZm5vcyJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9tYWludGVuYW5jZS9kYXRhL2NsZWFyIl0sCiAgICBdIGFzIGNvbnN0KSB7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICBjb250cmFjdC5wYXRoc1twYXRoXT8uW21ldGhvZF0/LlsieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiXSwKICAgICAgICAidXRvaXBhIiwKICAgICAgICBgJHttZXRob2QudG9VcHBlckNhc2UoKX0gJHtwYXRofWAsCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJrZWVwcyBIb3N0IG1hcHBpbmcgcm91dGVzIGJvdW5kIHRvIHRoZSBleGVjdXRhYmxlIHR5cGVkIHJvdXRlciIsICgpID0+IHsKICAgIGZvciAoY29uc3QgW21ldGhvZCwgcGF0aF0gb2YgWwogICAgICBbImdldCIsICIvYXBpL2FkbWluL2NvbmZpZy9ob3N0X21hcHBpbmdzIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2NvbmZpZy9ob3N0X21hcHBpbmdzIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2hvc3RfbWFwcGluZ19jYXRhbG9nIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2NvbmZpZy9ob3N0X21hcHBpbmdfY2F0YWxvZyJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9jb25maWcvaG9zdF9tYXBwaW5ncy9iYXNpY19hdXRoX3Byb2JlIl0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2hvc3RfbWFwcGluZ3MvYm9va21hcmtzL2V4cG9ydCJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9jb25maWcvaG9zdF9tYXBwaW5ncy9tZXRhZGF0YSJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9jb25maWcvaG9zdF9tYXBwaW5ncy9yZWZyZXNoX3RpdGxlcyJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL2NvbmZpZy9ob3N0X21hcHBpbmdzL3tob3N0fS9hZHZhbmNlZF9hdXRoIl0sCiAgICAgIFsicHV0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2hvc3RfbWFwcGluZ3Mve2hvc3R9L2FkdmFuY2VkX2F1dGgiXSwKICAgIF0gYXMgY29uc3QpIHsKICAgICAgYXNzZXJ0LmVxdWFsKAogICAgICAgIGNvbnRyYWN0LnBhdGhzW3BhdGhdPy5bbWV0aG9kXT8uWyJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSJdLAogICAgICAgICJ1dG9pcGEiLAogICAgICAgIGAke21ldGhvZC50b1VwcGVyQ2FzZSgpfSAke3BhdGh9YCwKICAgICAgKTsKICAgIH0KICB9KTsKCiAgaXQoImtlZXBzIGF1dGhlbnRpY2F0aW9uIGNyZWRlbnRpYWwgc2V0dGluZ3MgYm91bmQgdG8gdGhlaXIgdHlwZWQgcm91dGVyIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBtZXRob2Qgb2YgWyJnZXQiLCAicG9zdCJdIGFzIGNvbnN0KSB7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9jb25maWcvYXV0aF9jcmVkZW50aWFsX3NldHRpbmdzIl0/LlsKICAgICAgICAgIG1ldGhvZAogICAgICAgIF0/LlsieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiXSwKICAgICAgICAidXRvaXBhIiwKICAgICAgICBtZXRob2QudG9VcHBlckNhc2UoKSwKICAgICAgKTsKICAgIH0KICB9KTsKCiAgaXQoImtlZXBzIGFkbWluIHBhbmVsIHNlc3Npb24gb3BlcmF0aW9ucyBib3VuZCB0byB0aGVpciB0eXBlZCByb3V0ZXIiLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IFttZXRob2QsIHBhdGhdIG9mIFsKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9wYW5lbC9ib290c3RyYXAiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vcGFuZWwvcGFzc3dvcmQiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vcGFuZWwvcGFzc3dvcmQvY2hhbmdlIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3BhbmVsL2xvZ2luIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3BhbmVsL2xvZ291dCJdLAogICAgXSBhcyBjb25zdCkgewogICAgICBhc3NlcnQuZXF1YWwoCiAgICAgICAgY29udHJhY3QucGF0aHNbcGF0aF0/LlttZXRob2RdPy5bIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIl0sCiAgICAgICAgInV0b2lwYSIsCiAgICAgICAgYCR7bWV0aG9kLnRvVXBwZXJDYXNlKCl9ICR7cGF0aH1gLAogICAgICApOwogICAgfQogIH0pOwoKICBpdCgia2VlcHMgVE9UUCBsaWZlY3ljbGUgYW5kIGNyZWRlbnRpYWwgbXV0YXRpb25zIGJvdW5kIHRvIHR5cGVkIHJvdXRlcnMiLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IFttZXRob2QsIHBhdGhdIG9mIFsKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi90b3RwL3N0YXR1cyJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi90b3RwL3NldHVwIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3RvdHAvYmluZCJdLAogICAgICBbImRlbGV0ZSIsICIvYXBpL2FkbWluL3RvdHAve2lkfSJdLAogICAgICBbInBhdGNoIiwgIi9hcGkvYWRtaW4vdG90cC97aWR9L2FjY2Vzcy1zY29wZXMiXSwKICAgICAgWyJwYXRjaCIsICIvYXBpL2FkbWluL3RvdHAve2lkfS9zdWJkb21haW4tYWNjZXNzIl0sCiAgICAgIFsicGF0Y2giLCAiL2FwaS9hZG1pbi90b3RwL3tpZH0vY29tbWVudCJdLAogICAgICBbImRlbGV0ZSIsICIvYXBpL2FkbWluL3Bhc3NrZXlzL3tpZH0iXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi90b3RwL2NyZWRlbnRpYWxzL2V4cG9ydCJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi90b3RwL2NyZWRlbnRpYWxzL2ltcG9ydCJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL3RvdHAve3RvdHBfaWR9L3Bhc3NrZXlzIl0sCiAgICBdIGFzIGNvbnN0KSB7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICBjb250cmFjdC5wYXRoc1twYXRoXT8uW21ldGhvZF0/LlsieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiXSwKICAgICAgICAidXRvaXBhIiwKICAgICAgICBgJHttZXRob2QudG9VcHBlckNhc2UoKX0gJHtwYXRofWAsCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJzZXBhcmF0ZXMgcGFydGlhbCBjYXB0Y2hhIGlucHV0IGZyb20gdGhlIGNvbXBsZXRlIHNlbnNpdGl2ZSBvdXRwdXQiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL2NvbmZpZy9jYXB0Y2hhIl0ucG9zdC5yZXF1ZXN0Qm9keT8uY29udGVudD8uWwogICAgICAgICJhcHBsaWNhdGlvbi9qc29uIgogICAgICBdPy5zY2hlbWE/LiRyZWYsCiAgICAgICIjL2NvbXBvbmVudHMvc2NoZW1hcy9DYXB0Y2hhU2V0dGluZ3NVcGRhdGVEYXRhIiwKICAgICk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuQ2FwdGNoYVNldHRpbmdzVXBkYXRlRGF0YS5yZXF1aXJlZCA/PyBbXSwKICAgICAgW10sCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuQ2FwdGNoYVBvd0RhdGEucHJvcGVydGllcz8uYmFzZV9tYXhfbnVtYmVyCiAgICAgICAgPy5taW5pbXVtLAogICAgICAxMF8wMDAsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuQ2FwdGNoYVBvd0RhdGEucHJvcGVydGllcz8uYmFzZV9tYXhfbnVtYmVyCiAgICAgICAgPy5tYXhpbXVtLAogICAgICAxXzAwMF8wMDAsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuQ2FwdGNoYVBvd0RhdGEucHJvcGVydGllcz8uYmFzZV9tYXhfbnVtYmVyCiAgICAgICAgPy5tdWx0aXBsZU9mLAogICAgICAxMF8wMDAsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuQ2FwdGNoYVR1cm5zdGlsZURhdGEucHJvcGVydGllcz8uc2VjcmV0X2tleQogICAgICAgID8uZm9ybWF0LAogICAgICAicGFzc3dvcmQiLAogICAgKTsKICB9KTsKCiAgaXQoInByZXNlcnZlcyBydW50aW1lIG1vZGVzIiwgKCkgPT4gewogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLlJ1blR5cGVVcGRhdGVEYXRhLnByb3BlcnRpZXM/LnJ1bl90eXBlPy5lbnVtLAogICAgICBbMCwgMSwgM10sCiAgICApOwogIH0pOwoKICBpdCgiZGVyaXZlcyBmcm9udGVuZCBtb2RlbHMgYW5kIHJlcXVlc3RzIGZyb20gdGhlIGdlbmVyYXRlZCBjb250cmFjdCIsICgpID0+IHsKICAgIGNvbnN0IHR5cGVzID0gcmVhZFNvdXJjZSgiLi4vc3JjL3R5cGVzL2NvcmUudHMiKTsKICAgIGNvbnN0IGNvbmZpZ0FwaSA9CiAgICAgIHJlYWRTb3VyY2UoIi4uL3NyYy9saWIvYXBpL2NvbmZpZy50cyIpICsKICAgICAgcmVhZFNvdXJjZSgiLi4vc3JjL2xpYi9hcGkvY29uZmlnLWNvcmUtYXBpLnRzIik7CgogICAgYXNzZXJ0Lm1hdGNoKHR5cGVzLCAvXFsiUnVuVHlwZVVwZGF0ZURhdGEiXF1cWyJydW5fdHlwZSJcXS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2godHlwZXMsIC9cWyJUZXJtaW5hbEZlYXR1cmVEYXRhIlxdL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaCh0eXBlcywgL1dlbGNvbWVHdWlkZURhdGF8V2VsY29tZUd1aWRlU3RhdHVzL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaCh0eXBlcywgL2V4cG9ydCBpbnRlcmZhY2UgVGVybWluYWxGZWF0dXJlQ29uZmlnL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNvbmZpZ0FwaSwgL1xbIkNhcHRjaGFTZXR0aW5nc1VwZGF0ZURhdGEiXF0vdSk7CiAgICBhc3NlcnQubWF0Y2goY29uZmlnQXBpLCAvXFsiQXV0b01hbmFnZUZpcmV3YWxsVXBkYXRlRGF0YSJcXS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goY29uZmlnQXBpLCAvXFsiVGVybWluYWxGZWF0dXJlVXBkYXRlRGF0YSJcXS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goY29uZmlnQXBpLCAvd2VsY29tZV9ndWlkZXxXZWxjb21lR3VpZGUvdSk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  components: {
+    schemas: Record<
+      string,
+      {
+        properties?: Record<
+          string,
+          {
+            enum?: Array<string | number>;
+            format?: string;
+            minimum?: number;
+            maximum?: number;
+            multipleOf?: number;
+            type?: string | string[];
+          }
+        >;
+        required?: string[];
+      }
+    >;
+  };
+  paths: Record<
+    string,
+    Record<
+      string,
+      {
+        "x-fn-knock-contract-source"?: string;
+        requestBody?: {
+          content?: Record<string, { schema?: { $ref?: string } }>;
+        };
+      }
+    >
+  >;
+};
+
+describe("foundation settings API contract", () => {
+  it("removes the legacy terminal feature settings contract", () => {
+    assert.equal(
+      contract.paths["/api/admin/config/terminal_feature"],
+      undefined,
+    );
+    assert.equal(contract.components.schemas.TerminalFeatureData, undefined);
+    assert.equal(
+      contract.components.schemas.TerminalFeatureUpdateData,
+      undefined,
+    );
+  });
+
+  it("keeps the FPK console application list in the dashboard display contract", () => {
+    assert.ok(
+      contract.components.schemas.DashboardDisplayData.required?.includes(
+        "show_console_app_list",
+      ),
+    );
+    assert.equal(
+      contract.components.schemas.DashboardDisplayData.properties
+        ?.show_console_app_list?.type,
+      "boolean",
+    );
+    assert.deepEqual(
+      contract.components.schemas.DashboardDisplayUpdateData.properties
+        ?.show_console_app_list?.type,
+      ["boolean", "null"],
+    );
+    assert.ok(
+      !contract.components.schemas.DashboardDisplayUpdateData.required?.includes(
+        "show_console_app_list",
+      ),
+    );
+  });
+
+  it("does not publish the removed welcome guide contract", () => {
+    assert.equal(contract.paths["/api/admin/config/welcome_guide"], undefined);
+    assert.equal(
+      contract.paths["/api/admin/config/welcome_guide/complete"],
+      undefined,
+    );
+    assert.equal(contract.components.schemas.WelcomeGuideData, undefined);
+  });
+
+  it("keeps proxy protocol and run mode prompt settings bound to typed routers", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/config/proxy_protocol_force"],
+      ["post", "/api/admin/config/proxy_protocol_force"],
+      ["get", "/api/admin/config/run_mode_prompt_preferences"],
+      ["post", "/api/admin/config/run_mode_prompt_preferences"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("keeps CAPTCHA, runtime mode, and Wake-on-LAN settings bound to typed routers", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/config/captcha"],
+      ["post", "/api/admin/config/captcha"],
+      ["post", "/api/admin/config/run_type"],
+      ["get", "/api/admin/config/wol_feature"],
+      ["post", "/api/admin/config/wol_feature"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("keeps automatic firewall management bound to its typed router", () => {
+    assert.equal(
+      contract.paths["/api/admin/config/auto_manage_firewall"]?.post?.[
+        "x-fn-knock-contract-source"
+      ],
+      "utoipa",
+    );
+  });
+
+  it("keeps protocol mapping startup issues server-owned and repairable", () => {
+    const feature = contract.components.schemas.ProtocolMappingFeatureData;
+    const update = contract.components.schemas.ProtocolMappingFeatureUpdateData;
+    const issue = contract.components.schemas.ProtocolMappingRuntimeIssueData;
+
+    assert.ok(feature.properties?.runtime_issue);
+    assert.equal(update.properties?.runtime_issue, undefined);
+    assert.deepEqual(issue.properties?.code?.enum, [
+      "local_port_loop",
+      "listen_port_in_use",
+      "runtime_sync_failed",
+    ]);
+    assert.equal(issue.properties?.listen_port?.minimum, 1);
+    assert.equal(issue.properties?.listen_port?.maximum, 65_535);
+  });
+
+  it("keeps authentication mode operations bound to their typed router", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/auth/mode"],
+      ["post", "/api/admin/auth/mode/preview"],
+      ["post", "/api/admin/auth/mode/switch"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("keeps authentication account lifecycle bound to its typed router", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/auth/accounts"],
+      ["post", "/api/admin/auth/accounts"],
+      ["patch", "/api/admin/auth/accounts/{id}"],
+      ["delete", "/api/admin/auth/accounts/{id}"],
+      ["post", "/api/admin/auth/accounts/{id}/password"],
+      ["post", "/api/admin/auth/accounts/{id}/setup"],
+      ["post", "/api/admin/auth/accounts/{id}/totp/setup"],
+      ["post", "/api/admin/auth/accounts/{id}/totp/bind"],
+      ["patch", "/api/admin/auth/accounts/{id}/access-scopes"],
+      ["patch", "/api/admin/auth/accounts/{id}/subdomain-access"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("keeps session lifecycle and mobility routes bound to its typed router", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/sessions"],
+      ["get", "/api/admin/sessions/{id}"],
+      ["delete", "/api/admin/sessions/{id}"],
+      ["patch", "/api/admin/sessions/{id}/comment"],
+      ["get", "/api/admin/sessions/{id}/mobility"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+
+    assert.deepEqual(
+      contract.components.schemas.SessionRecordData.properties?.linkedTotpName
+        ?.type,
+      ["string", "null"],
+    );
+  });
+
+  it("keeps backup export, import, and automatic backup routes bound to typed routers", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/maintenance/backup/automatic"],
+      ["put", "/api/admin/maintenance/backup/automatic"],
+      ["get", "/api/admin/maintenance/backup/automatic/files"],
+      ["get", "/api/admin/maintenance/backup/export"],
+      ["get", "/api/admin/maintenance/backup/files"],
+      ["post", "/api/admin/maintenance/backup/export/fnos"],
+      ["post", "/api/admin/maintenance/backup/import"],
+      ["post", "/api/admin/maintenance/backup/import/automatic"],
+      ["post", "/api/admin/maintenance/backup/import/fnos"],
+      ["post", "/api/admin/maintenance/data/clear"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("keeps Host mapping routes bound to the executable typed router", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/config/host_mappings"],
+      ["post", "/api/admin/config/host_mappings"],
+      ["get", "/api/admin/config/host_mapping_catalog"],
+      ["post", "/api/admin/config/host_mapping_catalog"],
+      ["post", "/api/admin/config/host_mappings/basic_auth_probe"],
+      ["get", "/api/admin/config/host_mappings/bookmarks/export"],
+      ["post", "/api/admin/config/host_mappings/metadata"],
+      ["post", "/api/admin/config/host_mappings/refresh_titles"],
+      ["get", "/api/admin/config/host_mappings/{host}/advanced_auth"],
+      ["put", "/api/admin/config/host_mappings/{host}/advanced_auth"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("keeps authentication credential settings bound to their typed router", () => {
+    for (const method of ["get", "post"] as const) {
+      assert.equal(
+        contract.paths["/api/admin/config/auth_credential_settings"]?.[
+          method
+        ]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        method.toUpperCase(),
+      );
+    }
+  });
+
+  it("keeps admin panel session operations bound to their typed router", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/panel/bootstrap"],
+      ["post", "/api/admin/panel/password"],
+      ["post", "/api/admin/panel/password/change"],
+      ["post", "/api/admin/panel/login"],
+      ["post", "/api/admin/panel/logout"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("keeps TOTP lifecycle and credential mutations bound to typed routers", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/totp/status"],
+      ["post", "/api/admin/totp/setup"],
+      ["post", "/api/admin/totp/bind"],
+      ["delete", "/api/admin/totp/{id}"],
+      ["patch", "/api/admin/totp/{id}/access-scopes"],
+      ["patch", "/api/admin/totp/{id}/subdomain-access"],
+      ["patch", "/api/admin/totp/{id}/comment"],
+      ["delete", "/api/admin/passkeys/{id}"],
+      ["get", "/api/admin/totp/credentials/export"],
+      ["post", "/api/admin/totp/credentials/import"],
+      ["get", "/api/admin/totp/{totp_id}/passkeys"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("separates partial captcha input from the complete sensitive output", () => {
+    assert.equal(
+      contract.paths["/api/admin/config/captcha"].post.requestBody?.content?.[
+        "application/json"
+      ]?.schema?.$ref,
+      "#/components/schemas/CaptchaSettingsUpdateData",
+    );
+    assert.deepEqual(
+      contract.components.schemas.CaptchaSettingsUpdateData.required ?? [],
+      [],
+    );
+    assert.equal(
+      contract.components.schemas.CaptchaPowData.properties?.base_max_number
+        ?.minimum,
+      10_000,
+    );
+    assert.equal(
+      contract.components.schemas.CaptchaPowData.properties?.base_max_number
+        ?.maximum,
+      1_000_000,
+    );
+    assert.equal(
+      contract.components.schemas.CaptchaPowData.properties?.base_max_number
+        ?.multipleOf,
+      10_000,
+    );
+    assert.equal(
+      contract.components.schemas.CaptchaTurnstileData.properties?.secret_key
+        ?.format,
+      "password",
+    );
+  });
+
+  it("preserves runtime modes", () => {
+    assert.deepEqual(
+      contract.components.schemas.RunTypeUpdateData.properties?.run_type?.enum,
+      [0, 1, 3],
+    );
+  });
+
+  it("derives frontend models and requests from the generated contract", () => {
+    const types = readSource("../src/types/core.ts");
+    const configApi =
+      readSource("../src/lib/api/config.ts") +
+      readSource("../src/lib/api/config-core-api.ts");
+
+    assert.match(types, /\["RunTypeUpdateData"\]\["run_type"\]/u);
+    assert.doesNotMatch(types, /\["TerminalFeatureData"\]/u);
+    assert.doesNotMatch(types, /WelcomeGuideData|WelcomeGuideStatus/u);
+    assert.doesNotMatch(types, /export interface TerminalFeatureConfig/u);
+    assert.match(configApi, /\["CaptchaSettingsUpdateData"\]/u);
+    assert.match(configApi, /\["AutoManageFirewallUpdateData"\]/u);
+    assert.doesNotMatch(configApi, /\["TerminalFeatureUpdateData"\]/u);
+    assert.doesNotMatch(configApi, /welcome_guide|WelcomeGuide/u);
+  });
+});

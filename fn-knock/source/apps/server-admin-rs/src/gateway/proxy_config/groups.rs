@@ -1,1 +1,144 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBjb25zdCBNQVhfSE9TVF9NQVBQSU5HX0dST1VQUzogdXNpemUgPSAzMjsKcHViKHN1cGVyKSBjb25zdCBNQVhfSE9TVF9NQVBQSU5HX0dST1VQX05BTUVfQ0hBUlM6IHVzaXplID0gNDA7CgpwdWIoc3VwZXIpIGZuIGhvc3RfbWFwcGluZ19ncm91cHNfZnJvbV9jb25maWcoY29uZmlnOiAmVmFsdWUpIC0+IFZlYzxWYWx1ZT4gewogICAgY29uZmlnCiAgICAgICAgLmdldCgiaG9zdF9tYXBwaW5nX2dyb3VwcyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKQp9CgpwdWIoc3VwZXIpIGZuIGhvc3RfbWFwcGluZ19ncm91cGVkX3ZpZXdfZnJvbV9jb25maWcoY29uZmlnOiAmVmFsdWUpIC0+IGJvb2wgewogICAgY29uZmlnCiAgICAgICAgLmdldCgiaG9zdF9tYXBwaW5nX2dyb3VwZWRfdmlldyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgIC51bndyYXBfb3IoZmFsc2UpCn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX2hvc3RfbWFwcGluZ19ncm91cHMoZ3JvdXBzOiBWZWM8VmFsdWU+KSAtPiBSZXN1bHQ8VmVjPFZhbHVlPiwgU3RyaW5nPiB7CiAgICBpZiBncm91cHMubGVuKCkgPiBNQVhfSE9TVF9NQVBQSU5HX0dST1VQUyB7CiAgICAgICAgcmV0dXJuIEVycihmb3JtYXQhKAogICAgICAgICAgICAiQXQgbW9zdCB7TUFYX0hPU1RfTUFQUElOR19HUk9VUFN9IGhvc3QgbWFwcGluZyBncm91cHMgYXJlIGFsbG93ZWQiCiAgICAgICAgKSk7CiAgICB9CgogICAgbGV0IG11dCBub3JtYWxpemVkID0gVmVjOjp3aXRoX2NhcGFjaXR5KGdyb3Vwcy5sZW4oKSk7CiAgICBsZXQgbXV0IHNlZW5faWRzID0gSGFzaFNldDo6d2l0aF9jYXBhY2l0eShncm91cHMubGVuKCkpOwogICAgbGV0IG11dCBzZWVuX25hbWVzID0gSGFzaFNldDo6d2l0aF9jYXBhY2l0eShncm91cHMubGVuKCkpOwoKICAgIGZvciBncm91cCBpbiBncm91cHMgewogICAgICAgIGxldCBTb21lKG9iamVjdCkgPSBncm91cC5hc19vYmplY3QoKSBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuIEVycigiSG9zdCBtYXBwaW5nIGdyb3VwIG11c3QgYmUgYW4gb2JqZWN0Ii50b19zdHJpbmcoKSk7CiAgICAgICAgfTsKICAgICAgICBsZXQgcmF3X2lkID0gb2JqZWN0LmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpOwogICAgICAgIGxldCBwYXJzZWRfaWQgPSB1dWlkOjpVdWlkOjpwYXJzZV9zdHIocmF3X2lkLnRyaW0oKSkKICAgICAgICAgICAgLm1hcF9lcnIofF98ICJIb3N0IG1hcHBpbmcgZ3JvdXAgaWQgbXVzdCBiZSBhIFVVSUQiLnRvX3N0cmluZygpKT87CiAgICAgICAgbGV0IGlkID0gcGFyc2VkX2lkLmh5cGhlbmF0ZWQoKS50b19zdHJpbmcoKTsKICAgICAgICBpZiAhc2Vlbl9pZHMuaW5zZXJ0KGlkLmNsb25lKCkpIHsKICAgICAgICAgICAgcmV0dXJuIEVycihmb3JtYXQhKCJEdXBsaWNhdGUgaG9zdCBtYXBwaW5nIGdyb3VwIGlkIHtpZH0iKSk7CiAgICAgICAgfQoKICAgICAgICBsZXQgbmFtZSA9IG9iamVjdAogICAgICAgICAgICAuZ2V0KCJuYW1lIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgIC51bndyYXBfb3IoIiIpCiAgICAgICAgICAgIC50cmltKCk7CiAgICAgICAgbGV0IG5hbWVfY2hhcnMgPSBuYW1lLmNoYXJzKCkuY291bnQoKTsKICAgICAgICBpZiBuYW1lX2NoYXJzID09IDAgfHwgbmFtZV9jaGFycyA+IE1BWF9IT1NUX01BUFBJTkdfR1JPVVBfTkFNRV9DSEFSUyB7CiAgICAgICAgICAgIHJldHVybiBFcnIoZm9ybWF0ISgKICAgICAgICAgICAgICAgICJIb3N0IG1hcHBpbmcgZ3JvdXAgbmFtZSBtdXN0IGNvbnRhaW4gMSB0byB7TUFYX0hPU1RfTUFQUElOR19HUk9VUF9OQU1FX0NIQVJTfSBjaGFyYWN0ZXJzIgogICAgICAgICAgICApKTsKICAgICAgICB9CiAgICAgICAgbGV0IG5vcm1hbGl6ZWRfbmFtZSA9IG5hbWUudG9fbG93ZXJjYXNlKCk7CiAgICAgICAgaWYgIXNlZW5fbmFtZXMuaW5zZXJ0KG5vcm1hbGl6ZWRfbmFtZSkgewogICAgICAgICAgICByZXR1cm4gRXJyKGZvcm1hdCEoIkR1cGxpY2F0ZSBob3N0IG1hcHBpbmcgZ3JvdXAgbmFtZSB7bmFtZX0iKSk7CiAgICAgICAgfQoKICAgICAgICBub3JtYWxpemVkLnB1c2goanNvbiEoewogICAgICAgICAgICAiaWQiOiBpZCwKICAgICAgICAgICAgIm5hbWUiOiBuYW1lLAogICAgICAgIH0pKTsKICAgIH0KCiAgICBPayhub3JtYWxpemVkKQp9CgpwdWIoc3VwZXIpIGZuIGhvc3RfbWFwcGluZ19ncm91cF9uYW1lcyhncm91cHM6ICZbVmFsdWVdKSAtPiBIYXNoTWFwPFN0cmluZywgU3RyaW5nPiB7CiAgICBncm91cHMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZpbHRlcl9tYXAofGdyb3VwfCB7CiAgICAgICAgICAgIGxldCBpZCA9IGdyb3VwLmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKT8udHJpbSgpOwogICAgICAgICAgICBsZXQgbmFtZSA9IGdyb3VwLmdldCgibmFtZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpPy50cmltKCk7CiAgICAgICAgICAgICghaWQuaXNfZW1wdHkoKSAmJiAhbmFtZS5pc19lbXB0eSgpKS50aGVuKHx8IChpZC50b19zdHJpbmcoKSwgbmFtZS50b19zdHJpbmcoKSkpCiAgICAgICAgfSkKICAgICAgICAuY29sbGVjdCgpCn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX2hvc3RfbWFwcGluZ19ncm91cF9pZCgKICAgIHJlcXVlc3RlZDogT3B0aW9uPCZWYWx1ZT4sCiAgICBwcmV2aW91czogT3B0aW9uPCZWYWx1ZT4sCiAgICB2YWxpZF9ncm91cF9pZHM6ICZIYXNoU2V0PFN0cmluZz4sCiAgICBpc19hdXRoOiBib29sLAopIC0+IFJlc3VsdDxWYWx1ZSwgU3RyaW5nPiB7CiAgICBpZiBpc19hdXRoIHsKICAgICAgICByZXR1cm4gT2soVmFsdWU6Ok51bGwpOwogICAgfQoKICAgIGxldCBzb3VyY2UgPSByZXF1ZXN0ZWQub3IocHJldmlvdXMpOwogICAgbGV0IFNvbWUoc291cmNlKSA9IHNvdXJjZSBlbHNlIHsKICAgICAgICByZXR1cm4gT2soVmFsdWU6Ok51bGwpOwogICAgfTsKICAgIGlmIHNvdXJjZS5pc19udWxsKCkgewogICAgICAgIHJldHVybiBPayhWYWx1ZTo6TnVsbCk7CiAgICB9CiAgICBsZXQgU29tZShncm91cF9pZCkgPSBzb3VyY2UuYXNfc3RyKCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIEVycigiZ3JvdXAgaWQgbXVzdCBiZSBhIFVVSUQgb3IgbnVsbCIudG9fc3RyaW5nKCkpOwogICAgfTsKICAgIGxldCBncm91cF9pZCA9IGdyb3VwX2lkLnRyaW0oKTsKICAgIGlmIGdyb3VwX2lkLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBPayhWYWx1ZTo6TnVsbCk7CiAgICB9CiAgICBsZXQgcGFyc2VkID0gdXVpZDo6VXVpZDo6cGFyc2Vfc3RyKGdyb3VwX2lkKQogICAgICAgIC5tYXBfZXJyKHxffCAiZ3JvdXAgaWQgbXVzdCBiZSBhIFVVSUQgb3IgbnVsbCIudG9fc3RyaW5nKCkpPzsKICAgIGxldCBjYW5vbmljYWwgPSBwYXJzZWQuaHlwaGVuYXRlZCgpLnRvX3N0cmluZygpOwogICAgaWYgIXZhbGlkX2dyb3VwX2lkcy5jb250YWlucygmY2Fub25pY2FsKSB7CiAgICAgICAgcmV0dXJuIEVycihmb3JtYXQhKCJyZWZlcmVuY2VzIHVua25vd24gZ3JvdXAge2Nhbm9uaWNhbH0iKSk7CiAgICB9CiAgICBPayhWYWx1ZTo6U3RyaW5nKGNhbm9uaWNhbCkpCn0KCnB1YihzdXBlcikgZm4gb3JkZXJlZF9ob3N0X21hcHBpbmdzX2Zvcl9ncm91cHMobWFwcGluZ3M6ICZbVmFsdWVdLCBncm91cHM6ICZbVmFsdWVdKSAtPiBWZWM8VmFsdWU+IHsKICAgIGlmIGdyb3Vwcy5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gbWFwcGluZ3MudG9fdmVjKCk7CiAgICB9CgogICAgbGV0IG11dCBncm91cGVkID0gVmVjOjp3aXRoX2NhcGFjaXR5KG1hcHBpbmdzLmxlbigpKTsKICAgIGxldCBtdXQgY29uc3VtZWRfaG9zdHMgPSBIYXNoU2V0Ojp3aXRoX2NhcGFjaXR5KG1hcHBpbmdzLmxlbigpKTsKICAgIGZvciBncm91cCBpbiBncm91cHMgewogICAgICAgIGxldCBTb21lKGdyb3VwX2lkKSA9IGdyb3VwLmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSBlbHNlIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfTsKICAgICAgICBmb3IgbWFwcGluZyBpbiBtYXBwaW5ncyB7CiAgICAgICAgICAgIGlmIG1hcHBpbmcuZ2V0KCJncm91cF9pZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpICE9IFNvbWUoZ3JvdXBfaWQpIHsKICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIGxldCBTb21lKGhvc3QpID0gbWFwcGluZy5nZXQoImhvc3QiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSB7CiAgICAgICAgICAgICAgICBjb25zdW1lZF9ob3N0cy5pbnNlcnQoaG9zdC50b19zdHJpbmcoKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZ3JvdXBlZC5wdXNoKG1hcHBpbmcuY2xvbmUoKSk7CiAgICAgICAgfQogICAgfQogICAgZm9yIG1hcHBpbmcgaW4gbWFwcGluZ3MgewogICAgICAgIGxldCBhbHJlYWR5X2NvbnN1bWVkID0gbWFwcGluZwogICAgICAgICAgICAuZ2V0KCJob3N0IikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgIC5pc19zb21lX2FuZCh8aG9zdHwgY29uc3VtZWRfaG9zdHMuY29udGFpbnMoaG9zdCkpOwogICAgICAgIGlmICFhbHJlYWR5X2NvbnN1bWVkIHsKICAgICAgICAgICAgZ3JvdXBlZC5wdXNoKG1hcHBpbmcuY2xvbmUoKSk7CiAgICAgICAgfQogICAgfQogICAgZ3JvdXBlZAp9Cg==
+use super::*;
+
+pub(super) const MAX_HOST_MAPPING_GROUPS: usize = 32;
+pub(super) const MAX_HOST_MAPPING_GROUP_NAME_CHARS: usize = 40;
+
+pub(super) fn host_mapping_groups_from_config(config: &Value) -> Vec<Value> {
+    config
+        .get("host_mapping_groups")
+        .and_then(Value::as_array)
+        .cloned()
+        .unwrap_or_default()
+}
+
+pub(super) fn host_mapping_grouped_view_from_config(config: &Value) -> bool {
+    config
+        .get("host_mapping_grouped_view")
+        .and_then(Value::as_bool)
+        .unwrap_or(false)
+}
+
+pub(super) fn normalize_host_mapping_groups(groups: Vec<Value>) -> Result<Vec<Value>, String> {
+    if groups.len() > MAX_HOST_MAPPING_GROUPS {
+        return Err(format!(
+            "At most {MAX_HOST_MAPPING_GROUPS} host mapping groups are allowed"
+        ));
+    }
+
+    let mut normalized = Vec::with_capacity(groups.len());
+    let mut seen_ids = HashSet::with_capacity(groups.len());
+    let mut seen_names = HashSet::with_capacity(groups.len());
+
+    for group in groups {
+        let Some(object) = group.as_object() else {
+            return Err("Host mapping group must be an object".to_string());
+        };
+        let raw_id = object.get("id").and_then(Value::as_str).unwrap_or("");
+        let parsed_id = uuid::Uuid::parse_str(raw_id.trim())
+            .map_err(|_| "Host mapping group id must be a UUID".to_string())?;
+        let id = parsed_id.hyphenated().to_string();
+        if !seen_ids.insert(id.clone()) {
+            return Err(format!("Duplicate host mapping group id {id}"));
+        }
+
+        let name = object
+            .get("name")
+            .and_then(Value::as_str)
+            .unwrap_or("")
+            .trim();
+        let name_chars = name.chars().count();
+        if name_chars == 0 || name_chars > MAX_HOST_MAPPING_GROUP_NAME_CHARS {
+            return Err(format!(
+                "Host mapping group name must contain 1 to {MAX_HOST_MAPPING_GROUP_NAME_CHARS} characters"
+            ));
+        }
+        let normalized_name = name.to_lowercase();
+        if !seen_names.insert(normalized_name) {
+            return Err(format!("Duplicate host mapping group name {name}"));
+        }
+
+        normalized.push(json!({
+            "id": id,
+            "name": name,
+        }));
+    }
+
+    Ok(normalized)
+}
+
+pub(super) fn host_mapping_group_names(groups: &[Value]) -> HashMap<String, String> {
+    groups
+        .iter()
+        .filter_map(|group| {
+            let id = group.get("id").and_then(Value::as_str)?.trim();
+            let name = group.get("name").and_then(Value::as_str)?.trim();
+            (!id.is_empty() && !name.is_empty()).then(|| (id.to_string(), name.to_string()))
+        })
+        .collect()
+}
+
+pub(super) fn normalize_host_mapping_group_id(
+    requested: Option<&Value>,
+    previous: Option<&Value>,
+    valid_group_ids: &HashSet<String>,
+    is_auth: bool,
+) -> Result<Value, String> {
+    if is_auth {
+        return Ok(Value::Null);
+    }
+
+    let source = requested.or(previous);
+    let Some(source) = source else {
+        return Ok(Value::Null);
+    };
+    if source.is_null() {
+        return Ok(Value::Null);
+    }
+    let Some(group_id) = source.as_str() else {
+        return Err("group id must be a UUID or null".to_string());
+    };
+    let group_id = group_id.trim();
+    if group_id.is_empty() {
+        return Ok(Value::Null);
+    }
+    let parsed = uuid::Uuid::parse_str(group_id)
+        .map_err(|_| "group id must be a UUID or null".to_string())?;
+    let canonical = parsed.hyphenated().to_string();
+    if !valid_group_ids.contains(&canonical) {
+        return Err(format!("references unknown group {canonical}"));
+    }
+    Ok(Value::String(canonical))
+}
+
+pub(super) fn ordered_host_mappings_for_groups(mappings: &[Value], groups: &[Value]) -> Vec<Value> {
+    if groups.is_empty() {
+        return mappings.to_vec();
+    }
+
+    let mut grouped = Vec::with_capacity(mappings.len());
+    let mut consumed_hosts = HashSet::with_capacity(mappings.len());
+    for group in groups {
+        let Some(group_id) = group.get("id").and_then(Value::as_str) else {
+            continue;
+        };
+        for mapping in mappings {
+            if mapping.get("group_id").and_then(Value::as_str) != Some(group_id) {
+                continue;
+            }
+            if let Some(host) = mapping.get("host").and_then(Value::as_str) {
+                consumed_hosts.insert(host.to_string());
+            }
+            grouped.push(mapping.clone());
+        }
+    }
+    for mapping in mappings {
+        let already_consumed = mapping
+            .get("host")
+            .and_then(Value::as_str)
+            .is_some_and(|host| consumed_hosts.contains(host));
+        if !already_consumed {
+            grouped.push(mapping.clone());
+        }
+    }
+    grouped
+}

@@ -1,1 +1,43 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgppbXBvcnQgeyBleHRyYWN0RXJyb3JNZXNzYWdlIH0gZnJvbSAiLi4vc3JjL2Vycm9ycy9leHRyYWN0RXJyb3JNZXNzYWdlIjsKCmRlc2NyaWJlKCJleHRyYWN0RXJyb3JNZXNzYWdlIiwgKCkgPT4gewogIGl0KCJwcmVmZXJzIGFuZCBub3JtYWxpemVzIGFuIEFQSSByZXNwb25zZSBtZXNzYWdlIiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKAogICAgICBleHRyYWN0RXJyb3JNZXNzYWdlKHsKICAgICAgICBtZXNzYWdlOiAicmVxdWVzdCBmYWlsZWQiLAogICAgICAgIHJlc3BvbnNlOiB7IGRhdGE6IHsgbWVzc2FnZTogIiAgdmFsaWRhdGlvbiBmYWlsZWQgICIgfSB9LAogICAgICB9KSwKICAgICAgInZhbGlkYXRpb24gZmFpbGVkIiwKICAgICk7CiAgfSk7CgogIGl0KCJzdXBwb3J0cyBwbGFpbi10ZXh0IEFQSSByZXNwb25zZSBib2RpZXMiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGV4dHJhY3RFcnJvck1lc3NhZ2UoeyByZXNwb25zZTogeyBkYXRhOiAiICBzZXJ2aWNlIHVuYXZhaWxhYmxlICAiIH0gfSksCiAgICAgICJzZXJ2aWNlIHVuYXZhaWxhYmxlIiwKICAgICk7CiAgfSk7CgogIGl0KCJmYWxscyBiYWNrIHRvIHRoZSBkaXJlY3QgZXJyb3IgbWVzc2FnZSB3aGVuIHRoZSByZXNwb25zZSBpcyBlbXB0eSIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgZXh0cmFjdEVycm9yTWVzc2FnZSh7CiAgICAgICAgbWVzc2FnZTogIiAgbmV0d29yayBlcnJvciAgIiwKICAgICAgICByZXNwb25zZTogeyBkYXRhOiB7IG1lc3NhZ2U6ICIgICAiIH0gfSwKICAgICAgfSksCiAgICAgICJuZXR3b3JrIGVycm9yIiwKICAgICk7CiAgfSk7CgogIGl0KCJ1c2VzIHRoZSBzdXBwbGllZCBvciBkZWZhdWx0IGZhbGxiYWNrIGZvciB1bmtub3duIGVycm9ycyIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbChleHRyYWN0RXJyb3JNZXNzYWdlKG51bGwsICJUcnkgYWdhaW4iKSwgIlRyeSBhZ2FpbiIpOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBleHRyYWN0RXJyb3JNZXNzYWdlKHsgcmVzcG9uc2U6IHsgZGF0YToge30gfSB9KSwKICAgICAgIk9wZXJhdGlvbiBmYWlsZWQiLAogICAgKTsKICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import { extractErrorMessage } from "../src/errors/extractErrorMessage";
+
+describe("extractErrorMessage", () => {
+  it("prefers and normalizes an API response message", () => {
+    assert.equal(
+      extractErrorMessage({
+        message: "request failed",
+        response: { data: { message: "  validation failed  " } },
+      }),
+      "validation failed",
+    );
+  });
+
+  it("supports plain-text API response bodies", () => {
+    assert.equal(
+      extractErrorMessage({ response: { data: "  service unavailable  " } }),
+      "service unavailable",
+    );
+  });
+
+  it("falls back to the direct error message when the response is empty", () => {
+    assert.equal(
+      extractErrorMessage({
+        message: "  network error  ",
+        response: { data: { message: "   " } },
+      }),
+      "network error",
+    );
+  });
+
+  it("uses the supplied or default fallback for unknown errors", () => {
+    assert.equal(extractErrorMessage(null, "Try again"), "Try again");
+    assert.equal(
+      extractErrorMessage({ response: { data: {} } }),
+      "Operation failed",
+    );
+  });
+});

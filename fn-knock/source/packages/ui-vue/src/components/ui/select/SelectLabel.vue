@@ -1,1 +1,17 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgU2VsZWN0TGFiZWxQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IFNlbGVjdExhYmVsIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8U2VsZWN0TGFiZWxQcm9wcyAmIHsgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXSB9PigpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxTZWxlY3RMYWJlbAogICAgZGF0YS1zbG90PSJzZWxlY3QtbGFiZWwiCiAgICA6Y2xhc3M9ImNuKCd0ZXh0LW11dGVkLWZvcmVncm91bmQgcHgtMiBweS0xLjUgdGV4dC14cycsIHByb3BzLmNsYXNzKSIKICA+CiAgICA8c2xvdCAvPgogIDwvU2VsZWN0TGFiZWw+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { SelectLabelProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { SelectLabel } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<SelectLabelProps & { class?: HTMLAttributes["class"] }>()
+</script>
+
+<template>
+  <SelectLabel
+    data-slot="select-label"
+    :class="cn('text-muted-foreground px-2 py-1.5 text-xs', props.class)"
+  >
+    <slot />
+  </SelectLabel>
+</template>

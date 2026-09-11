@@ -1,1 +1,230 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgc2hhbGxvd1JlZiwgdHlwZSBDb21wdXRlZFJlZiwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgdHlwZSB7IEhvc3RNYXBwaW5nLCBIb3N0TWFwcGluZ0F2YWlsYWJpbGl0eSB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgeyBnZXRBdmFpbGFiaWxpdHlXaW5kb3dWYWxpZGF0aW9uRXJyb3IgfSBmcm9tICIuL21vZGVsIjsKCnR5cGUgQmF0Y2hNdXRhdGlvbiA9ICJlbmFibGUiIHwgImRpc2FibGUiIHwgImRlbGV0ZSI7CnR5cGUgQXN5bmNBY3Rpb25SdW4gPSA8VD4oYWN0aW9uOiAoKSA9PiBQcm9taXNlPFQ+KSA9PiBQcm9taXNlPFQgfCB1bmRlZmluZWQ+Owp0eXBlIFRyYW5zbGF0ZSA9IChrZXk6IHN0cmluZywgcGFyYW1zPzogUmVjb3JkPHN0cmluZywgbnVtYmVyPikgPT4gc3RyaW5nOwoKY29uc3QgREVGQVVMVF9TVEFSVF9USU1FID0gIjA5OjAwIjsKY29uc3QgREVGQVVMVF9FTkRfVElNRSA9ICIxODowMCI7CgpleHBvcnQgY29uc3QgdXNlU3ViZG9tYWluQmF0Y2hBY3Rpb25zID0gKHsKICBhbGxNYXBwaW5ncywKICBpc0F1dGhTZXJ2aWNlVGFyZ2V0LAogIGlzU2F2aW5nTWFwcGluZ3MsCiAgcnVuU2F2ZU1hcHBpbmdzLAogIHNhdmVIb3N0TWFwcGluZ3MsCiAgdHJhbnNsYXRlLAp9OiB7CiAgYWxsTWFwcGluZ3M6IENvbXB1dGVkUmVmPEhvc3RNYXBwaW5nW10+OwogIGlzQXV0aFNlcnZpY2VUYXJnZXQ6ICh0YXJnZXQ6IHN0cmluZykgPT4gYm9vbGVhbjsKICBpc1NhdmluZ01hcHBpbmdzOiBSZWY8Ym9vbGVhbj47CiAgcnVuU2F2ZU1hcHBpbmdzOiBBc3luY0FjdGlvblJ1bjsKICBzYXZlSG9zdE1hcHBpbmdzOiAobWFwcGluZ3M6IEhvc3RNYXBwaW5nW10pID0+IFByb21pc2U8dW5rbm93bj47CiAgdHJhbnNsYXRlOiBUcmFuc2xhdGU7Cn0pID0+IHsKICBjb25zdCBiYXRjaE11dGF0aW9uID0gcmVmPEJhdGNoTXV0YXRpb24gfCBudWxsPihudWxsKTsKICBjb25zdCBiYXRjaEhvc3RzID0gcmVmPHN0cmluZ1tdPihbXSk7CiAgY29uc3QgYmF0Y2hBdmFpbGFiaWxpdHlPcGVuID0gcmVmKGZhbHNlKTsKICBjb25zdCBhdmFpbGFiaWxpdHlGb3JtRW5hYmxlZCA9IHJlZih0cnVlKTsKICBjb25zdCBhdmFpbGFiaWxpdHlGb3JtU3RhcnRUaW1lID0gcmVmKERFRkFVTFRfU1RBUlRfVElNRSk7CiAgY29uc3QgYXZhaWxhYmlsaXR5Rm9ybUVuZFRpbWUgPSByZWYoREVGQVVMVF9FTkRfVElNRSk7CiAgY29uc3Qgb25Db21wbGV0ZSA9IHNoYWxsb3dSZWY8KCgpID0+IHZvaWQpIHwgbnVsbD4obnVsbCk7CgogIGNvbnN0IHNlbGVjdGVkTWFwcGluZ3MgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBob3N0cyA9IG5ldyBTZXQoYmF0Y2hIb3N0cy52YWx1ZSk7CiAgICByZXR1cm4gYWxsTWFwcGluZ3MudmFsdWUuZmlsdGVyKAogICAgICAobWFwcGluZykgPT4KICAgICAgICBob3N0cy5oYXMobWFwcGluZy5ob3N0KSAmJiAhaXNBdXRoU2VydmljZVRhcmdldChtYXBwaW5nLnRhcmdldCksCiAgICApOwogIH0pOwogIGNvbnN0IHNlbGVjdGVkQ291bnQgPSBjb21wdXRlZCgoKSA9PiBzZWxlY3RlZE1hcHBpbmdzLnZhbHVlLmxlbmd0aCk7CiAgY29uc3QgaXNCYXRjaE11dGF0aW9uT3BlbiA9IGNvbXB1dGVkKAogICAgKCkgPT4gYmF0Y2hNdXRhdGlvbi52YWx1ZSAhPT0gbnVsbCAmJiBzZWxlY3RlZENvdW50LnZhbHVlID4gMCwKICApOwogIGNvbnN0IGJhdGNoTXV0YXRpb25UaXRsZSA9IGNvbXB1dGVkKCgpID0+IHsKICAgIHN3aXRjaCAoYmF0Y2hNdXRhdGlvbi52YWx1ZSkgewogICAgICBjYXNlICJlbmFibGUiOgogICAgICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LmJhdGNoRW5hYmxlVGl0bGUiLCB7CiAgICAgICAgICBjb3VudDogc2VsZWN0ZWRDb3VudC52YWx1ZSwKICAgICAgICB9KTsKICAgICAgY2FzZSAiZGlzYWJsZSI6CiAgICAgICAgcmV0dXJuIHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuYmF0Y2hEaXNhYmxlVGl0bGUiLCB7CiAgICAgICAgICBjb3VudDogc2VsZWN0ZWRDb3VudC52YWx1ZSwKICAgICAgICB9KTsKICAgICAgZGVmYXVsdDoKICAgICAgICByZXR1cm4gdHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5iYXRjaERlbGV0ZVRpdGxlIiwgewogICAgICAgICAgY291bnQ6IHNlbGVjdGVkQ291bnQudmFsdWUsCiAgICAgICAgfSk7CiAgICB9CiAgfSk7CiAgY29uc3QgYmF0Y2hNdXRhdGlvbkRlc2NyaXB0aW9uID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3Qga2V5ID0KICAgICAgYmF0Y2hNdXRhdGlvbi52YWx1ZSA9PT0gImVuYWJsZSIKICAgICAgICA/ICJhZG1pbi5zdWJkb21haW5Qcm94eS5iYXRjaEVuYWJsZURlc2NyaXB0aW9uIgogICAgICAgIDogYmF0Y2hNdXRhdGlvbi52YWx1ZSA9PT0gImRpc2FibGUiCiAgICAgICAgICA/ICJhZG1pbi5zdWJkb21haW5Qcm94eS5iYXRjaERpc2FibGVEZXNjcmlwdGlvbiIKICAgICAgICAgIDogImFkbWluLnN1YmRvbWFpblByb3h5LmJhdGNoRGVsZXRlRGVzY3JpcHRpb24iOwogICAgcmV0dXJuIHRyYW5zbGF0ZShrZXksIHsgY291bnQ6IHNlbGVjdGVkQ291bnQudmFsdWUgfSk7CiAgfSk7CiAgY29uc3QgYmF0Y2hNdXRhdGlvbkNvbmZpcm1MYWJlbCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IGtleSA9CiAgICAgIGJhdGNoTXV0YXRpb24udmFsdWUgPT09ICJlbmFibGUiCiAgICAgICAgPyAiYWRtaW4uc3ViZG9tYWluUHJveHkuY29uZmlybUJhdGNoRW5hYmxlIgogICAgICAgIDogYmF0Y2hNdXRhdGlvbi52YWx1ZSA9PT0gImRpc2FibGUiCiAgICAgICAgICA/ICJhZG1pbi5zdWJkb21haW5Qcm94eS5jb25maXJtQmF0Y2hEaXNhYmxlIgogICAgICAgICAgOiAiYWRtaW4uc3ViZG9tYWluUHJveHkuY29uZmlybUJhdGNoRGVsZXRlIjsKICAgIHJldHVybiB0cmFuc2xhdGUoa2V5LCB7IGNvdW50OiBzZWxlY3RlZENvdW50LnZhbHVlIH0pOwogIH0pOwogIGNvbnN0IGJhdGNoTXV0YXRpb25Db25maXJtVmFyaWFudCA9IGNvbXB1dGVkPCJkZWZhdWx0IiB8ICJkZXN0cnVjdGl2ZSI+KAogICAgKCkgPT4gKGJhdGNoTXV0YXRpb24udmFsdWUgPT09ICJlbmFibGUiID8gImRlZmF1bHQiIDogImRlc3RydWN0aXZlIiksCiAgKTsKICBjb25zdCBhdmFpbGFiaWxpdHlWYWxpZGF0aW9uTWVzc2FnZSA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGlmICghYXZhaWxhYmlsaXR5Rm9ybUVuYWJsZWQudmFsdWUpIHJldHVybiAiIjsKICAgIGNvbnN0IGVycm9yID0gZ2V0QXZhaWxhYmlsaXR5V2luZG93VmFsaWRhdGlvbkVycm9yKAogICAgICBhdmFpbGFiaWxpdHlGb3JtU3RhcnRUaW1lLnZhbHVlLnRyaW0oKSwKICAgICAgYXZhaWxhYmlsaXR5Rm9ybUVuZFRpbWUudmFsdWUudHJpbSgpLAogICAgKTsKICAgIGlmIChlcnJvciA9PT0gImludmFsaWRfdGltZSIpIHsKICAgICAgcmV0dXJuIHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuYXZhaWxhYmlsaXR5SW52YWxpZFRpbWUiKTsKICAgIH0KICAgIGlmIChlcnJvciA9PT0gInNhbWVfdGltZSIpIHsKICAgICAgcmV0dXJuIHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuYXZhaWxhYmlsaXR5U2FtZVRpbWVJbnZhbGlkIik7CiAgICB9CiAgICByZXR1cm4gIiI7CiAgfSk7CgogIGNvbnN0IHNldFRhcmdldHMgPSAoaG9zdHM6IHN0cmluZ1tdLCBjb21wbGV0ZTogKCkgPT4gdm9pZCkgPT4gewogICAgYmF0Y2hIb3N0cy52YWx1ZSA9IFsuLi5uZXcgU2V0KGhvc3RzKV07CiAgICBvbkNvbXBsZXRlLnZhbHVlID0gY29tcGxldGU7CiAgfTsKICBjb25zdCBjbG9zZUJhdGNoTXV0YXRpb24gPSAoKSA9PiB7CiAgICBiYXRjaE11dGF0aW9uLnZhbHVlID0gbnVsbDsKICAgIGJhdGNoSG9zdHMudmFsdWUgPSBbXTsKICAgIG9uQ29tcGxldGUudmFsdWUgPSBudWxsOwogIH07CiAgY29uc3QgY2xvc2VCYXRjaEF2YWlsYWJpbGl0eSA9ICgpID0+IHsKICAgIGJhdGNoQXZhaWxhYmlsaXR5T3Blbi52YWx1ZSA9IGZhbHNlOwogICAgYmF0Y2hIb3N0cy52YWx1ZSA9IFtdOwogICAgb25Db21wbGV0ZS52YWx1ZSA9IG51bGw7CiAgICBhdmFpbGFiaWxpdHlGb3JtRW5hYmxlZC52YWx1ZSA9IHRydWU7CiAgICBhdmFpbGFiaWxpdHlGb3JtU3RhcnRUaW1lLnZhbHVlID0gREVGQVVMVF9TVEFSVF9USU1FOwogICAgYXZhaWxhYmlsaXR5Rm9ybUVuZFRpbWUudmFsdWUgPSBERUZBVUxUX0VORF9USU1FOwogIH07CiAgY29uc3Qgb3BlbkJhdGNoTXV0YXRpb24gPSAoCiAgICBob3N0czogc3RyaW5nW10sCiAgICBtdXRhdGlvbjogQmF0Y2hNdXRhdGlvbiwKICAgIGNvbXBsZXRlOiAoKSA9PiB2b2lkLAogICkgPT4gewogICAgaWYgKGlzU2F2aW5nTWFwcGluZ3MudmFsdWUgfHwgaG9zdHMubGVuZ3RoID09PSAwKSByZXR1cm47CiAgICBzZXRUYXJnZXRzKGhvc3RzLCBjb21wbGV0ZSk7CiAgICBpZiAoc2VsZWN0ZWRDb3VudC52YWx1ZSA9PT0gMCkgewogICAgICBjbG9zZUJhdGNoTXV0YXRpb24oKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgYmF0Y2hNdXRhdGlvbi52YWx1ZSA9IG11dGF0aW9uOwogIH07CiAgY29uc3Qgb3BlbkJhdGNoQXZhaWxhYmlsaXR5ID0gKGhvc3RzOiBzdHJpbmdbXSwgY29tcGxldGU6ICgpID0+IHZvaWQpID0+IHsKICAgIGlmIChpc1NhdmluZ01hcHBpbmdzLnZhbHVlIHx8IGhvc3RzLmxlbmd0aCA9PT0gMCkgcmV0dXJuOwogICAgc2V0VGFyZ2V0cyhob3N0cywgY29tcGxldGUpOwogICAgaWYgKHNlbGVjdGVkQ291bnQudmFsdWUgPT09IDApIHsKICAgICAgY2xvc2VCYXRjaEF2YWlsYWJpbGl0eSgpOwogICAgICByZXR1cm47CiAgICB9CiAgICBhdmFpbGFiaWxpdHlGb3JtRW5hYmxlZC52YWx1ZSA9IHRydWU7CiAgICBhdmFpbGFiaWxpdHlGb3JtU3RhcnRUaW1lLnZhbHVlID0gREVGQVVMVF9TVEFSVF9USU1FOwogICAgYXZhaWxhYmlsaXR5Rm9ybUVuZFRpbWUudmFsdWUgPSBERUZBVUxUX0VORF9USU1FOwogICAgYmF0Y2hBdmFpbGFiaWxpdHlPcGVuLnZhbHVlID0gdHJ1ZTsKICB9OwogIGNvbnN0IGZpbmlzaFN1Y2Nlc3NmdWxBY3Rpb24gPSAoKSA9PiB7CiAgICBvbkNvbXBsZXRlLnZhbHVlPy4oKTsKICAgIGNsb3NlQmF0Y2hNdXRhdGlvbigpOwogICAgY2xvc2VCYXRjaEF2YWlsYWJpbGl0eSgpOwogIH07CiAgY29uc3QgY29uZmlybUJhdGNoTXV0YXRpb24gPSBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBtdXRhdGlvbiA9IGJhdGNoTXV0YXRpb24udmFsdWU7CiAgICBjb25zdCBob3N0cyA9IG5ldyBTZXQoc2VsZWN0ZWRNYXBwaW5ncy52YWx1ZS5tYXAoKG1hcHBpbmcpID0+IG1hcHBpbmcuaG9zdCkpOwogICAgaWYgKCFtdXRhdGlvbiB8fCBob3N0cy5zaXplID09PSAwIHx8IGlzU2F2aW5nTWFwcGluZ3MudmFsdWUpIHJldHVybjsKCiAgICBjb25zdCBzYXZlZCA9IGF3YWl0IHJ1blNhdmVNYXBwaW5ncyhhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IG5leHRNYXBwaW5ncyA9CiAgICAgICAgbXV0YXRpb24gPT09ICJkZWxldGUiCiAgICAgICAgICA/IGFsbE1hcHBpbmdzLnZhbHVlLmZpbHRlcigobWFwcGluZykgPT4gIWhvc3RzLmhhcyhtYXBwaW5nLmhvc3QpKQogICAgICAgICAgOiBhbGxNYXBwaW5ncy52YWx1ZS5tYXAoKG1hcHBpbmcpID0+CiAgICAgICAgICAgICAgaG9zdHMuaGFzKG1hcHBpbmcuaG9zdCkKICAgICAgICAgICAgICAgID8geyAuLi5tYXBwaW5nLCBkaXNhYmxlZDogbXV0YXRpb24gPT09ICJkaXNhYmxlIiB9CiAgICAgICAgICAgICAgICA6IG1hcHBpbmcsCiAgICAgICAgICAgICk7CiAgICAgIGF3YWl0IHNhdmVIb3N0TWFwcGluZ3MobmV4dE1hcHBpbmdzKTsKICAgICAgdG9hc3Quc3VjY2VzcygKICAgICAgICB0cmFuc2xhdGUoCiAgICAgICAgICBtdXRhdGlvbiA9PT0gImRlbGV0ZSIKICAgICAgICAgICAgPyAiYWRtaW4uc3ViZG9tYWluUHJveHkuYmF0Y2hNYXBwaW5nc0RlbGV0ZWQiCiAgICAgICAgICAgIDogbXV0YXRpb24gPT09ICJkaXNhYmxlIgogICAgICAgICAgICAgID8gImFkbWluLnN1YmRvbWFpblByb3h5LmJhdGNoTWFwcGluZ3NEaXNhYmxlZCIKICAgICAgICAgICAgICA6ICJhZG1pbi5zdWJkb21haW5Qcm94eS5iYXRjaE1hcHBpbmdzRW5hYmxlZCIsCiAgICAgICAgICB7IGNvdW50OiBob3N0cy5zaXplIH0sCiAgICAgICAgKSwKICAgICAgKTsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9KTsKICAgIGlmIChzYXZlZCkgZmluaXNoU3VjY2Vzc2Z1bEFjdGlvbigpOwogIH07CiAgY29uc3Qgc2F2ZUJhdGNoQXZhaWxhYmlsaXR5ID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgaG9zdHMgPSBuZXcgU2V0KHNlbGVjdGVkTWFwcGluZ3MudmFsdWUubWFwKChtYXBwaW5nKSA9PiBtYXBwaW5nLmhvc3QpKTsKICAgIGlmICgKICAgICAgaG9zdHMuc2l6ZSA9PT0gMCB8fAogICAgICBpc1NhdmluZ01hcHBpbmdzLnZhbHVlIHx8CiAgICAgIGF2YWlsYWJpbGl0eVZhbGlkYXRpb25NZXNzYWdlLnZhbHVlCiAgICApIHsKICAgICAgcmV0dXJuOwogICAgfQogICAgY29uc3QgYXZhaWxhYmlsaXR5OiBIb3N0TWFwcGluZ0F2YWlsYWJpbGl0eSB8IG51bGwgPQogICAgICBhdmFpbGFiaWxpdHlGb3JtRW5hYmxlZC52YWx1ZQogICAgICAgID8gewogICAgICAgICAgICBlbmFibGVkOiB0cnVlLAogICAgICAgICAgICBzdGFydF90aW1lOiBhdmFpbGFiaWxpdHlGb3JtU3RhcnRUaW1lLnZhbHVlLnRyaW0oKSwKICAgICAgICAgICAgZW5kX3RpbWU6IGF2YWlsYWJpbGl0eUZvcm1FbmRUaW1lLnZhbHVlLnRyaW0oKSwKICAgICAgICAgIH0KICAgICAgICA6IG51bGw7CiAgICBjb25zdCBzYXZlZCA9IGF3YWl0IHJ1blNhdmVNYXBwaW5ncyhhc3luYyAoKSA9PiB7CiAgICAgIGF3YWl0IHNhdmVIb3N0TWFwcGluZ3MoCiAgICAgICAgYWxsTWFwcGluZ3MudmFsdWUubWFwKChtYXBwaW5nKSA9PgogICAgICAgICAgaG9zdHMuaGFzKG1hcHBpbmcuaG9zdCkgPyB7IC4uLm1hcHBpbmcsIGF2YWlsYWJpbGl0eSB9IDogbWFwcGluZywKICAgICAgICApLAogICAgICApOwogICAgICB0b2FzdC5zdWNjZXNzKAogICAgICAgIHRyYW5zbGF0ZSgKICAgICAgICAgIGF2YWlsYWJpbGl0eQogICAgICAgICAgICA/ICJhZG1pbi5zdWJkb21haW5Qcm94eS5iYXRjaEF2YWlsYWJpbGl0eVNhdmVkIgogICAgICAgICAgICA6ICJhZG1pbi5zdWJkb21haW5Qcm94eS5iYXRjaEF2YWlsYWJpbGl0eUNsZWFyZWQiLAogICAgICAgICAgeyBjb3VudDogaG9zdHMuc2l6ZSB9LAogICAgICAgICksCiAgICAgICk7CiAgICAgIHJldHVybiB0cnVlOwogICAgfSk7CiAgICBpZiAoc2F2ZWQpIGZpbmlzaFN1Y2Nlc3NmdWxBY3Rpb24oKTsKICB9OwoKICByZXR1cm4gewogICAgYmF0Y2hBdmFpbGFiaWxpdHlGb3JtRW5hYmxlZDogYXZhaWxhYmlsaXR5Rm9ybUVuYWJsZWQsCiAgICBiYXRjaEF2YWlsYWJpbGl0eUZvcm1FbmRUaW1lOiBhdmFpbGFiaWxpdHlGb3JtRW5kVGltZSwKICAgIGJhdGNoQXZhaWxhYmlsaXR5Rm9ybVN0YXJ0VGltZTogYXZhaWxhYmlsaXR5Rm9ybVN0YXJ0VGltZSwKICAgIGJhdGNoQXZhaWxhYmlsaXR5VmFsaWRhdGlvbk1lc3NhZ2U6IGF2YWlsYWJpbGl0eVZhbGlkYXRpb25NZXNzYWdlLAogICAgYmF0Y2hBdmFpbGFiaWxpdHlPcGVuLAogICAgYmF0Y2hNdXRhdGlvbkNvbmZpcm1MYWJlbCwKICAgIGJhdGNoTXV0YXRpb25Db25maXJtVmFyaWFudCwKICAgIGJhdGNoTXV0YXRpb25EZXNjcmlwdGlvbiwKICAgIGJhdGNoTXV0YXRpb25UaXRsZSwKICAgIGNsb3NlQmF0Y2hBdmFpbGFiaWxpdHksCiAgICBjbG9zZUJhdGNoTXV0YXRpb24sCiAgICBjb25maXJtQmF0Y2hNdXRhdGlvbiwKICAgIGlzQmF0Y2hNdXRhdGlvbk9wZW4sCiAgICBvcGVuQmF0Y2hBdmFpbGFiaWxpdHksCiAgICBvcGVuQmF0Y2hNdXRhdGlvbiwKICAgIHNhdmVCYXRjaEF2YWlsYWJpbGl0eSwKICAgIGJhdGNoU2VsZWN0ZWRDb3VudDogc2VsZWN0ZWRDb3VudCwKICB9Owp9Owo=
+import { computed, ref, shallowRef, type ComputedRef, type Ref } from "vue";
+import { toast } from "@admin-shared/utils/toast";
+import type { HostMapping, HostMappingAvailability } from "@/types";
+import { getAvailabilityWindowValidationError } from "./model";
+
+type BatchMutation = "enable" | "disable" | "delete";
+type AsyncActionRun = <T>(action: () => Promise<T>) => Promise<T | undefined>;
+type Translate = (key: string, params?: Record<string, number>) => string;
+
+const DEFAULT_START_TIME = "09:00";
+const DEFAULT_END_TIME = "18:00";
+
+export const useSubdomainBatchActions = ({
+  allMappings,
+  isAuthServiceTarget,
+  isSavingMappings,
+  runSaveMappings,
+  saveHostMappings,
+  translate,
+}: {
+  allMappings: ComputedRef<HostMapping[]>;
+  isAuthServiceTarget: (target: string) => boolean;
+  isSavingMappings: Ref<boolean>;
+  runSaveMappings: AsyncActionRun;
+  saveHostMappings: (mappings: HostMapping[]) => Promise<unknown>;
+  translate: Translate;
+}) => {
+  const batchMutation = ref<BatchMutation | null>(null);
+  const batchHosts = ref<string[]>([]);
+  const batchAvailabilityOpen = ref(false);
+  const availabilityFormEnabled = ref(true);
+  const availabilityFormStartTime = ref(DEFAULT_START_TIME);
+  const availabilityFormEndTime = ref(DEFAULT_END_TIME);
+  const onComplete = shallowRef<(() => void) | null>(null);
+
+  const selectedMappings = computed(() => {
+    const hosts = new Set(batchHosts.value);
+    return allMappings.value.filter(
+      (mapping) =>
+        hosts.has(mapping.host) && !isAuthServiceTarget(mapping.target),
+    );
+  });
+  const selectedCount = computed(() => selectedMappings.value.length);
+  const isBatchMutationOpen = computed(
+    () => batchMutation.value !== null && selectedCount.value > 0,
+  );
+  const batchMutationTitle = computed(() => {
+    switch (batchMutation.value) {
+      case "enable":
+        return translate("admin.subdomainProxy.batchEnableTitle", {
+          count: selectedCount.value,
+        });
+      case "disable":
+        return translate("admin.subdomainProxy.batchDisableTitle", {
+          count: selectedCount.value,
+        });
+      default:
+        return translate("admin.subdomainProxy.batchDeleteTitle", {
+          count: selectedCount.value,
+        });
+    }
+  });
+  const batchMutationDescription = computed(() => {
+    const key =
+      batchMutation.value === "enable"
+        ? "admin.subdomainProxy.batchEnableDescription"
+        : batchMutation.value === "disable"
+          ? "admin.subdomainProxy.batchDisableDescription"
+          : "admin.subdomainProxy.batchDeleteDescription";
+    return translate(key, { count: selectedCount.value });
+  });
+  const batchMutationConfirmLabel = computed(() => {
+    const key =
+      batchMutation.value === "enable"
+        ? "admin.subdomainProxy.confirmBatchEnable"
+        : batchMutation.value === "disable"
+          ? "admin.subdomainProxy.confirmBatchDisable"
+          : "admin.subdomainProxy.confirmBatchDelete";
+    return translate(key, { count: selectedCount.value });
+  });
+  const batchMutationConfirmVariant = computed<"default" | "destructive">(
+    () => (batchMutation.value === "enable" ? "default" : "destructive"),
+  );
+  const availabilityValidationMessage = computed(() => {
+    if (!availabilityFormEnabled.value) return "";
+    const error = getAvailabilityWindowValidationError(
+      availabilityFormStartTime.value.trim(),
+      availabilityFormEndTime.value.trim(),
+    );
+    if (error === "invalid_time") {
+      return translate("admin.subdomainProxy.availabilityInvalidTime");
+    }
+    if (error === "same_time") {
+      return translate("admin.subdomainProxy.availabilitySameTimeInvalid");
+    }
+    return "";
+  });
+
+  const setTargets = (hosts: string[], complete: () => void) => {
+    batchHosts.value = [...new Set(hosts)];
+    onComplete.value = complete;
+  };
+  const closeBatchMutation = () => {
+    batchMutation.value = null;
+    batchHosts.value = [];
+    onComplete.value = null;
+  };
+  const closeBatchAvailability = () => {
+    batchAvailabilityOpen.value = false;
+    batchHosts.value = [];
+    onComplete.value = null;
+    availabilityFormEnabled.value = true;
+    availabilityFormStartTime.value = DEFAULT_START_TIME;
+    availabilityFormEndTime.value = DEFAULT_END_TIME;
+  };
+  const openBatchMutation = (
+    hosts: string[],
+    mutation: BatchMutation,
+    complete: () => void,
+  ) => {
+    if (isSavingMappings.value || hosts.length === 0) return;
+    setTargets(hosts, complete);
+    if (selectedCount.value === 0) {
+      closeBatchMutation();
+      return;
+    }
+    batchMutation.value = mutation;
+  };
+  const openBatchAvailability = (hosts: string[], complete: () => void) => {
+    if (isSavingMappings.value || hosts.length === 0) return;
+    setTargets(hosts, complete);
+    if (selectedCount.value === 0) {
+      closeBatchAvailability();
+      return;
+    }
+    availabilityFormEnabled.value = true;
+    availabilityFormStartTime.value = DEFAULT_START_TIME;
+    availabilityFormEndTime.value = DEFAULT_END_TIME;
+    batchAvailabilityOpen.value = true;
+  };
+  const finishSuccessfulAction = () => {
+    onComplete.value?.();
+    closeBatchMutation();
+    closeBatchAvailability();
+  };
+  const confirmBatchMutation = async () => {
+    const mutation = batchMutation.value;
+    const hosts = new Set(selectedMappings.value.map((mapping) => mapping.host));
+    if (!mutation || hosts.size === 0 || isSavingMappings.value) return;
+
+    const saved = await runSaveMappings(async () => {
+      const nextMappings =
+        mutation === "delete"
+          ? allMappings.value.filter((mapping) => !hosts.has(mapping.host))
+          : allMappings.value.map((mapping) =>
+              hosts.has(mapping.host)
+                ? { ...mapping, disabled: mutation === "disable" }
+                : mapping,
+            );
+      await saveHostMappings(nextMappings);
+      toast.success(
+        translate(
+          mutation === "delete"
+            ? "admin.subdomainProxy.batchMappingsDeleted"
+            : mutation === "disable"
+              ? "admin.subdomainProxy.batchMappingsDisabled"
+              : "admin.subdomainProxy.batchMappingsEnabled",
+          { count: hosts.size },
+        ),
+      );
+      return true;
+    });
+    if (saved) finishSuccessfulAction();
+  };
+  const saveBatchAvailability = async () => {
+    const hosts = new Set(selectedMappings.value.map((mapping) => mapping.host));
+    if (
+      hosts.size === 0 ||
+      isSavingMappings.value ||
+      availabilityValidationMessage.value
+    ) {
+      return;
+    }
+    const availability: HostMappingAvailability | null =
+      availabilityFormEnabled.value
+        ? {
+            enabled: true,
+            start_time: availabilityFormStartTime.value.trim(),
+            end_time: availabilityFormEndTime.value.trim(),
+          }
+        : null;
+    const saved = await runSaveMappings(async () => {
+      await saveHostMappings(
+        allMappings.value.map((mapping) =>
+          hosts.has(mapping.host) ? { ...mapping, availability } : mapping,
+        ),
+      );
+      toast.success(
+        translate(
+          availability
+            ? "admin.subdomainProxy.batchAvailabilitySaved"
+            : "admin.subdomainProxy.batchAvailabilityCleared",
+          { count: hosts.size },
+        ),
+      );
+      return true;
+    });
+    if (saved) finishSuccessfulAction();
+  };
+
+  return {
+    batchAvailabilityFormEnabled: availabilityFormEnabled,
+    batchAvailabilityFormEndTime: availabilityFormEndTime,
+    batchAvailabilityFormStartTime: availabilityFormStartTime,
+    batchAvailabilityValidationMessage: availabilityValidationMessage,
+    batchAvailabilityOpen,
+    batchMutationConfirmLabel,
+    batchMutationConfirmVariant,
+    batchMutationDescription,
+    batchMutationTitle,
+    closeBatchAvailability,
+    closeBatchMutation,
+    confirmBatchMutation,
+    isBatchMutationOpen,
+    openBatchAvailability,
+    openBatchMutation,
+    saveBatchAvailability,
+    batchSelectedCount: selectedCount,
+  };
+};

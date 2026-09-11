@@ -1,1 +1,403 @@
-PHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iZW1pdCgndXBkYXRlOm9wZW4nLCAkZXZlbnQpIj4KICAgIDxEaWFsb2dDb250ZW50CiAgICAgIGNsYXNzPSJmbGV4IG1heC1oLVs4NXZoXSBmbGV4LWNvbCBvdmVyZmxvdy1oaWRkZW4gcC0wIHRleHQtbGVmdCBzbTptYXgtdy1bNjgwcHhdIgogICAgPgogICAgICA8RGlhbG9nSGVhZGVyIGNsYXNzPSJzaHJpbmstMCBib3JkZXItYiBweC00IHB5LTMgcHItMTAgdGV4dC1sZWZ0Ij4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCI+CiAgICAgICAgICAgIDxEaWFsb2dUaXRsZSBjbGFzcz0idHJ1bmNhdGUgdGV4dC1iYXNlIiA6dGl0bGU9ImRpc3BsYXlUaXRsZSI+CiAgICAgICAgICAgICAge3sgZGlzcGxheVRpdGxlIH19CiAgICAgICAgICAgIDwvRGlhbG9nVGl0bGU+CiAgICAgICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbiBjbGFzcz0ic3BhY2UteS0xIHRleHQtbGVmdCI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImJsb2NrIGJyZWFrLWFsbCBmb250LW1lZGl1bSI+e3sgaG9zdCB9fTwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iYmxvY2sgdGV4dC14cyI+CiAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICB0KCJhZG1pbi5ob3N0VHJhZmZpYy5hY3RpdmVJcERpYWxvZy5kZXNjcmlwdGlvbiIsIHsKICAgICAgICAgICAgICAgICAgICByYW5nZTogYWN0aXZlV2luZG93VGV4dCwKICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IHNocmluay0wIGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1lbmQgZ2FwLTIiPgogICAgICAgICAgICA8Q29uZmlybURhbmdlclBvcG92ZXIKICAgICAgICAgICAgICB2LWlmPSJzZWxlY3RlZFVuYmxvY2tlZElwcy5sZW5ndGggPiAwIgogICAgICAgICAgICAgIDp0aXRsZT0iCiAgICAgICAgICAgICAgICB0KCdhZG1pbi5ob3N0VHJhZmZpYy5hY3RpdmVJcERpYWxvZy5ibGFja2xpc3RTZWxlY3RlZFRpdGxlJywgewogICAgICAgICAgICAgICAgICBjb3VudDogc2VsZWN0ZWRVbmJsb2NrZWRJcHMubGVuZ3RoLAogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgOmRlc2NyaXB0aW9uPSIKICAgICAgICAgICAgICAgIHQoJ2FkbWluLmhvc3RUcmFmZmljLmFjdGl2ZUlwRGlhbG9nLmJsYWNrbGlzdERlc2NyaXB0aW9uJykKICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgOmxvYWRpbmc9ImlzQmxvY2tpbmdJcHMiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgICAgIHNlbGVjdGVkVW5ibG9ja2VkSXBzLmxlbmd0aCA9PT0gMCB8fCBpc011dGF0aW5nQmxhY2tsaXN0SXBzCiAgICAgICAgICAgICAgIgogICAgICAgICAgICAgIDpvbi1jb25maXJtPSIoKSA9PiBibG9ja0lwcyhzZWxlY3RlZFVuYmxvY2tlZElwcykiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8dGVtcGxhdGUgI3RyaWdnZXI+CiAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgICAgICBjbGFzcz0iaC04IGJvcmRlci1kZXN0cnVjdGl2ZS8zMCBweC0yLjUgdGV4dC14cyB0ZXh0LWRlc3RydWN0aXZlIGhvdmVyOmJnLWRlc3RydWN0aXZlLzEwIGhvdmVyOnRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iCiAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWRVbmJsb2NrZWRJcHMubGVuZ3RoID09PSAwIHx8IGlzTXV0YXRpbmdCbGFja2xpc3RJcHMKICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8QmFuIGNsYXNzPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgICB0KCJhZG1pbi5ob3N0VHJhZmZpYy5hY3RpdmVJcERpYWxvZy5ibGFja2xpc3RTZWxlY3RlZCIsIHsKICAgICAgICAgICAgICAgICAgICAgIGNvdW50OiBzZWxlY3RlZFVuYmxvY2tlZElwcy5sZW5ndGgsCiAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgIDwvQ29uZmlybURhbmdlclBvcG92ZXI+CiAgICAgICAgICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICAgICAgICAgIHYtaWY9InNlbGVjdGVkQmxvY2tlZElwcy5sZW5ndGggPiAwIgogICAgICAgICAgICAgIDp0aXRsZT0iCiAgICAgICAgICAgICAgICB0KCdhZG1pbi5ob3N0VHJhZmZpYy5hY3RpdmVJcERpYWxvZy51bmJsYWNrbGlzdFNlbGVjdGVkVGl0bGUnLCB7CiAgICAgICAgICAgICAgICAgIGNvdW50OiBzZWxlY3RlZEJsb2NrZWRJcHMubGVuZ3RoLAogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgOmRlc2NyaXB0aW9uPSIKICAgICAgICAgICAgICAgIHQoJ2FkbWluLmhvc3RUcmFmZmljLmFjdGl2ZUlwRGlhbG9nLnVuYmxhY2tsaXN0RGVzY3JpcHRpb24nKQogICAgICAgICAgICAgICIKICAgICAgICAgICAgICA6bG9hZGluZz0iaXNSZWxlYXNpbmdJcHMiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgICAgIHNlbGVjdGVkQmxvY2tlZElwcy5sZW5ndGggPT09IDAgfHwgaXNNdXRhdGluZ0JsYWNrbGlzdElwcwogICAgICAgICAgICAgICIKICAgICAgICAgICAgICA6b24tY29uZmlybT0iKCkgPT4gcmVsZWFzZUlwcyhzZWxlY3RlZEJsb2NrZWRJcHMpIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgICAgY2xhc3M9ImgtOCBweC0yLjUgdGV4dC14cyIKICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZEJsb2NrZWRJcHMubGVuZ3RoID09PSAwIHx8IGlzTXV0YXRpbmdCbGFja2xpc3RJcHMKICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8VW5sb2NrIGNsYXNzPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgICB0KCJhZG1pbi5ob3N0VHJhZmZpYy5hY3RpdmVJcERpYWxvZy51bmJsYWNrbGlzdFNlbGVjdGVkIiwgewogICAgICAgICAgICAgICAgICAgICAgY291bnQ6IHNlbGVjdGVkQmxvY2tlZElwcy5sZW5ndGgsCiAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgIDwvQ29uZmlybURhbmdlclBvcG92ZXI+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgIGNsYXNzPSJoLTggcHgtMi41IHRleHQteHMiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJsb2FkaW5nIgogICAgICAgICAgICAgIEBjbGljaz0iZW1pdCgncmVmcmVzaCcpIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFJlZnJlc2hDdwogICAgICAgICAgICAgICAgY2xhc3M9ImgtMy41IHctMy41IgogICAgICAgICAgICAgICAgOmNsYXNzPSJ7ICdhbmltYXRlLXNwaW4nOiBsb2FkaW5nIH0iCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5ob3N0VHJhZmZpYy5hY3RpdmVJcERpYWxvZy5yZWZyZXNoIikgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9EaWFsb2dIZWFkZXI+CgogICAgICA8ZGl2IGNsYXNzPSJtaW4taC0wIGZsZXgtMSBvdmVyZmxvdy15LWF1dG8gcC00Ij4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0ibWItMyBmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgID4KICAgICAgICAgIDxzcGFuPnt7CiAgICAgICAgICAgIHQoImFkbWluLmhvc3RUcmFmZmljLmFjdGl2ZUlwRGlhbG9nLnRvdGFsIiwgewogICAgICAgICAgICAgIGNvdW50OiBpdGVtcy5sZW5ndGgsCiAgICAgICAgICAgIH0pCiAgICAgICAgICB9fTwvc3Bhbj4KICAgICAgICAgIDxzcGFuIHYtaWY9InVwZGF0ZWRBdCIgY2xhc3M9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmhvc3RUcmFmZmljLmFjdGl2ZUlwRGlhbG9nLnVwZGF0ZWRBdCIpIH19CiAgICAgICAgICAgIDxIdW1hbkZyaWVuZGx5VGltZSA6dmFsdWU9InVwZGF0ZWRBdCIgOmxvY2FsZT0ibG9jYWxlIiAvPgogICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2CiAgICAgICAgICB2LWlmPSJsb2FkaW5nICYmIGl0ZW1zLmxlbmd0aCA9PT0gMCIKICAgICAgICAgIGNsYXNzPSJzcGFjZS15LTIgcm91bmRlZC1tZCBib3JkZXIgcC0zIgogICAgICAgID4KICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC04IHctZnVsbCByb3VuZGVkLW1kIiAvPgogICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTggdy1mdWxsIHJvdW5kZWQtbWQiIC8+CiAgICAgICAgICA8U2tlbGV0b24gY2xhc3M9ImgtOCB3LTIvMyByb3VuZGVkLW1kIiAvPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2CiAgICAgICAgICB2LWVsc2UtaWY9ImVycm9yIgogICAgICAgICAgY2xhc3M9InJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1kZXN0cnVjdGl2ZS8yMCBiZy1kZXN0cnVjdGl2ZS81IHB4LTMgcHktNiB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICByb2xlPSJhbGVydCIKICAgICAgICA+CiAgICAgICAgICB7eyBlcnJvciB9fQogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2CiAgICAgICAgICB2LWVsc2UtaWY9Iml0ZW1zLmxlbmd0aCA9PT0gMCIKICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLW1kIGJvcmRlciBweC0zIHB5LTggdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uaG9zdFRyYWZmaWMuYWN0aXZlSXBEaWFsb2cuZW1wdHkiKSB9fQogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IHYtZWxzZSBjbGFzcz0ib3ZlcmZsb3cteC1hdXRvIHJvdW5kZWQtbWQgYm9yZGVyIj4KICAgICAgICAgIDxUYWJsZSBjbGFzcz0ibWluLXctWzY0MHB4XSI+CiAgICAgICAgICAgIDxUYWJsZUhlYWRlcj4KICAgICAgICAgICAgICA8VGFibGVSb3cgY2xhc3M9ImJnLW11dGVkLzMwIj4KICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9InctWzQ0cHhdIHRleHQteHMiPgogICAgICAgICAgICAgICAgICA8Q2hlY2tib3gKICAgICAgICAgICAgICAgICAgICB2LW1vZGVsPSJpc0FsbFNlbGVjdGVkIgogICAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24uc2VsZWN0QWxsJykiCiAgICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJ2aXNpYmxlSXBzLmxlbmd0aCA9PT0gMCIKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bMTkwcHhdIHRleHQteHMiPklQPC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJ0ZXh0LXhzIj57ewogICAgICAgICAgICAgICAgICB0KCJhZG1pbi5ob3N0VHJhZmZpYy5hY3RpdmVJcERpYWxvZy5sb2NhdGlvbiIpCiAgICAgICAgICAgICAgICB9fTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bMTIwcHhdIHRleHQteHMiPnt7CiAgICAgICAgICAgICAgICAgIHQoImFkbWluLmhvc3RUcmFmZmljLmFjdGl2ZUlwRGlhbG9nLmxhc3RBY3RpdmUiKQogICAgICAgICAgICAgICAgfX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9InctWzg4cHhdIHRleHQtcmlnaHQgdGV4dC14cyI+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmhvc3RUcmFmZmljLmFjdGl2ZUlwRGlhbG9nLmNvbm5lY3Rpb25zIikgfX0KICAgICAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bNzJweF0gdGV4dC1yaWdodCB0ZXh0LXhzIj4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvbnMudGFibGUuYWN0aW9ucyIpIH19CiAgICAgICAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgICA8L1RhYmxlSGVhZGVyPgogICAgICAgICAgICA8VGFibGVCb2R5PgogICAgICAgICAgICAgIDxUYWJsZVJvdyB2LWZvcj0iaXRlbSBpbiBpdGVtcyIgOmtleT0iaXRlbS5pcCIgY2xhc3M9ImFsaWduLXRvcCI+CiAgICAgICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJweS0yLjUiPgogICAgICAgICAgICAgICAgICA8Q2hlY2tib3gKICAgICAgICAgICAgICAgICAgICA6bW9kZWwtdmFsdWU9InNlbGVjdGVkSXBzLmhhcyhpdGVtLmlwKSIKICAgICAgICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnY29tbW9uLnNlbGVjdEl0ZW0nLCB7IGl0ZW06IGl0ZW0uaXAgfSkiCiAgICAgICAgICAgICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0idG9nZ2xlU2VsZWN0KGl0ZW0uaXApIgogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJweS0yLjUiPgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmb250LW1vbm8gdGV4dC14cyBsZWFkaW5nLTUiPgogICAgICAgICAgICAgICAgICAgIHt7IGl0ZW0uaXAgfX0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InB5LTIuNSI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgbGVhZGluZy01IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAge3sgaXRlbS5sb2NhdGlvblRleHQgfX0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9IndoaXRlc3BhY2Utbm93cmFwIHB5LTIuNSB0ZXh0LXhzIj4KICAgICAgICAgICAgICAgICAgPEh1bWFuRnJpZW5kbHlUaW1lCiAgICAgICAgICAgICAgICAgICAgOnZhbHVlPSJpdGVtLmxhc3Rfc2Vlbl9hdCIKICAgICAgICAgICAgICAgICAgICA6bG9jYWxlPSJsb2NhbGUiCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InB5LTIuNSB0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICBjbGFzcz0iaW5saW5lLWZsZXggbWluLXctOCBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgYm9yZGVyIHB4LTIgcHktMC41IHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAge3sgaXRlbS5hY3RpdmVfY29ubnMgfX0KICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJweS0yLjUgdGV4dC1yaWdodCI+CiAgICAgICAgICAgICAgICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICAgICAgICAgICAgICAgIDp0aXRsZT0iCiAgICAgICAgICAgICAgICAgICAgICBpc0dlbmVyYWxCbGFja2xpc3RlZChpdGVtLmlwKQogICAgICAgICAgICAgICAgICAgICAgICA/IHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAnYWRtaW4uaG9zdFRyYWZmaWMuYWN0aXZlSXBEaWFsb2cudW5ibGFja2xpc3RPbmVUaXRsZScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICA6IHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAnYWRtaW4uaG9zdFRyYWZmaWMuYWN0aXZlSXBEaWFsb2cuYmxhY2tsaXN0T25lVGl0bGUnLAogICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICAgICAgOmRlc2NyaXB0aW9uPSIKICAgICAgICAgICAgICAgICAgICAgIGlzR2VuZXJhbEJsYWNrbGlzdGVkKGl0ZW0uaXApCiAgICAgICAgICAgICAgICAgICAgICAgID8gdCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICdhZG1pbi5ob3N0VHJhZmZpYy5hY3RpdmVJcERpYWxvZy51bmJsYWNrbGlzdE9uZURlc2NyaXB0aW9uJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXA6IGl0ZW0uaXAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgOiB0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2FkbWluLmhvc3RUcmFmZmljLmFjdGl2ZUlwRGlhbG9nLmJsYWNrbGlzdE9uZURlc2NyaXB0aW9uJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXA6IGl0ZW0uaXAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICAgICAgOmxvYWRpbmc9ImlzTXV0YXRpbmdCbGFja2xpc3RJcHMiCiAgICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc011dGF0aW5nQmxhY2tsaXN0SXBzIgogICAgICAgICAgICAgICAgICAgIDpvbi1jb25maXJtPSIKICAgICAgICAgICAgICAgICAgICAgICgpID0+CiAgICAgICAgICAgICAgICAgICAgICAgIGlzR2VuZXJhbEJsYWNrbGlzdGVkKGl0ZW0uaXApCiAgICAgICAgICAgICAgICAgICAgICAgICAgPyByZWxlYXNlSXBzKFtpdGVtLmlwXSkKICAgICAgICAgICAgICAgICAgICAgICAgICA6IGJsb2NrSXBzKFtpdGVtLmlwXSkKICAgICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8dGVtcGxhdGUgI3RyaWdnZXI+CiAgICAgICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgICAgICAgICAgICBzaXplPSJpY29uIgogICAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0iaC04IHctOCIKICAgICAgICAgICAgICAgICAgICAgICAgOmNsYXNzPSIKICAgICAgICAgICAgICAgICAgICAgICAgICBpc0dlbmVyYWxCbGFja2xpc3RlZChpdGVtLmlwKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPyAndGV4dC1mb3JlZ3JvdW5kIGhvdmVyOnRleHQtZm9yZWdyb3VuZCcKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogJ3RleHQtZGVzdHJ1Y3RpdmUgaG92ZXI6dGV4dC1kZXN0cnVjdGl2ZScKICAgICAgICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzTXV0YXRpbmdCbGFja2xpc3RJcHMiCiAgICAgICAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSIKICAgICAgICAgICAgICAgICAgICAgICAgICBpc0dlbmVyYWxCbGFja2xpc3RlZChpdGVtLmlwKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPyB0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdhZG1pbi5ob3N0VHJhZmZpYy5hY3RpdmVJcERpYWxvZy51bmJsYWNrbGlzdE9uZScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogdCgnYWRtaW4uaG9zdFRyYWZmaWMuYWN0aXZlSXBEaWFsb2cuYmxhY2tsaXN0T25lJykKICAgICAgICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICA8VW5sb2NrCiAgICAgICAgICAgICAgICAgICAgICAgICAgdi1pZj0iaXNHZW5lcmFsQmxhY2tsaXN0ZWQoaXRlbS5pcCkiCiAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3M9ImgtNCB3LTQiCiAgICAgICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgICAgIDxCYW4gdi1lbHNlIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgICAgICAgICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICAgIDwvVGFibGVCb2R5PgogICAgICAgICAgPC9UYWJsZT4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KaW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBCYW4sIFJlZnJlc2hDdywgVW5sb2NrIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgdXNlTG9nSXBTZWxlY3Rpb24gfSBmcm9tICJAL2NvbXBvc2FibGVzL3VzZUxvZ0lwU2VsZWN0aW9uIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENoZWNrYm94IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NoZWNrYm94IjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IFNrZWxldG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NrZWxldG9uIjsKaW1wb3J0IHsKICBUYWJsZSwKICBUYWJsZUJvZHksCiAgVGFibGVDZWxsLAogIFRhYmxlSGVhZCwKICBUYWJsZUhlYWRlciwKICBUYWJsZVJvdywKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFibGUiOwppbXBvcnQgQ29uZmlybURhbmdlclBvcG92ZXIgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtRGFuZ2VyUG9wb3Zlci52dWUiOwppbXBvcnQgSHVtYW5GcmllbmRseVRpbWUgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9IdW1hbkZyaWVuZGx5VGltZS52dWUiOwppbXBvcnQgdHlwZSB7IEhvc3RBY3RpdmVJcERpc3BsYXlJdGVtIH0gZnJvbSAiLi4vLi4vY29tcG9zYWJsZXMvdXNlSG9zdEFjdGl2ZUlwcyI7Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cygKICBkZWZpbmVQcm9wczx7CiAgICBvcGVuOiBib29sZWFuOwogICAgdGl0bGU/OiBzdHJpbmcgfCBudWxsOwogICAgaG9zdDogc3RyaW5nOwogICAgaXRlbXM6IEhvc3RBY3RpdmVJcERpc3BsYXlJdGVtW107CiAgICBsb2FkaW5nPzogYm9vbGVhbjsKICAgIGVycm9yPzogc3RyaW5nOwogICAgdXBkYXRlZEF0PzogbnVtYmVyIHwgbnVsbDsKICAgIHdpbmRvd1NlY29uZHM/OiBudW1iZXI7CiAgfT4oKSwKICB7CiAgICB0aXRsZTogIiIsCiAgICBsb2FkaW5nOiBmYWxzZSwKICAgIGVycm9yOiAiIiwKICAgIHVwZGF0ZWRBdDogbnVsbCwKICAgIHdpbmRvd1NlY29uZHM6IDEyMCwKICB9LAopOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICAidXBkYXRlOm9wZW4iOiBbdmFsdWU6IGJvb2xlYW5dOwogIHJlZnJlc2g6IFtdOwp9PigpOwoKY29uc3QgeyB0LCBsb2NhbGUgfSA9IHVzZUkxOG4oKTsKY29uc3Qgc2VsZWN0ZWRJcHMgPSByZWY8U2V0PHN0cmluZz4+KG5ldyBTZXQoKSk7CmNvbnN0IGRpc3BsYXlUaXRsZSA9IGNvbXB1dGVkKAogICgpID0+IHByb3BzLnRpdGxlPy50cmltKCkgfHwgdCgiYWRtaW4uaG9zdFRyYWZmaWMuYWN0aXZlSXBEaWFsb2cudGl0bGUiKSwKKTsKCmNvbnN0IHZpc2libGVJcHMgPSBjb21wdXRlZCgoKSA9PgogIEFycmF5LmZyb20obmV3IFNldChwcm9wcy5pdGVtcy5tYXAoKGl0ZW0pID0+IGl0ZW0uaXApLmZpbHRlcihCb29sZWFuKSkpLAopOwpjb25zdCBkaXNwbGF5ZWRJcEVudHJpZXMgPSBjb21wdXRlZCgoKSA9PgogIHZpc2libGVJcHMudmFsdWUubWFwKChpcCkgPT4gKHsKICAgIGFjdGlvbklwOiBpcCwKICAgIHNlbGVjdGlvbktleTogaXAsCiAgfSkpLAopOwpjb25zdCB7CiAgYmxvY2tJcHMsCiAgaXNBbGxEaXNwbGF5ZWRSb3dzU2VsZWN0ZWQ6IGlzQWxsU2VsZWN0ZWQsCiAgaXNCbG9ja2luZ0lwcywKICBpc0dlbmVyYWxCbGFja2xpc3RlZCwKICBpc011dGF0aW5nQmxhY2tsaXN0SXBzLAogIGlzUmVsZWFzaW5nSXBzLAogIHJlbGVhc2VJcHMsCiAgc2VsZWN0ZWRCbG9ja2VkSXBzLAogIHNlbGVjdGVkVW5ibG9ja2VkSXBzLAogIHRvZ2dsZUVudHJ5U2VsZWN0aW9uOiB0b2dnbGVTZWxlY3QsCn0gPSB1c2VMb2dJcFNlbGVjdGlvbih7CiAgZGlzcGxheWVkRW50cmllczogZGlzcGxheWVkSXBFbnRyaWVzLAogIG1lc3NhZ2VLZXlzOiB7CiAgICBibGFja2xpc3RGYWlsZWQ6ICJhZG1pbi5ob3N0VHJhZmZpYy5hY3RpdmVJcERpYWxvZy5ibGFja2xpc3RGYWlsZWQiLAogICAgYmxhY2tsaXN0U3VjY2VzczogImFkbWluLmhvc3RUcmFmZmljLmFjdGl2ZUlwRGlhbG9nLmJsYWNrbGlzdFN1Y2Nlc3MiLAogICAgYmxhY2tsaXN0U3VjY2Vzc0RldGFpbDoKICAgICAgImFkbWluLmhvc3RUcmFmZmljLmFjdGl2ZUlwRGlhbG9nLmJsYWNrbGlzdFN1Y2Nlc3NEZXRhaWwiLAogICAgdW5ibGFja2xpc3RGYWlsZWQ6ICJhZG1pbi5ob3N0VHJhZmZpYy5hY3RpdmVJcERpYWxvZy51bmJsYWNrbGlzdEZhaWxlZCIsCiAgICB1bmJsYWNrbGlzdFN1Y2Nlc3M6ICJhZG1pbi5ob3N0VHJhZmZpYy5hY3RpdmVJcERpYWxvZy51bmJsYWNrbGlzdFN1Y2Nlc3MiLAogICAgdW5ibGFja2xpc3RTdWNjZXNzRGV0YWlsOgogICAgICAiYWRtaW4uaG9zdFRyYWZmaWMuYWN0aXZlSXBEaWFsb2cudW5ibGFja2xpc3RTdWNjZXNzRGV0YWlsIiwKICB9LAogIG9uTXV0YXRlZDogKCkgPT4gZW1pdCgicmVmcmVzaCIpLAogIHBydW5lSW52aXNpYmxlU2VsZWN0aW9uOiB0cnVlLAogIHNlbGVjdGVkRW50cnlLZXlzOiBzZWxlY3RlZElwcywKICBzb3VyY2U6ICJhY3RpdmVfaXAiLAogIHRyYW5zbGF0ZTogdCwKfSk7Cgpjb25zdCBhY3RpdmVXaW5kb3dUZXh0ID0gY29tcHV0ZWQoKCkgPT4gewogIGNvbnN0IHNlY29uZHMgPSBNYXRoLm1heCgxLCBOdW1iZXIocHJvcHMud2luZG93U2Vjb25kcyB8fCAxMjApKTsKICBpZiAoc2Vjb25kcyA8IDYwKSB7CiAgICByZXR1cm4gdCgiYWRtaW4uaG9zdFRyYWZmaWMucmFuZ2VTZWNvbmRzIiwgeyBjb3VudDogc2Vjb25kcyB9KTsKICB9CiAgaWYgKHNlY29uZHMgPCAzNjAwKSB7CiAgICByZXR1cm4gdCgiYWRtaW4uaG9zdFRyYWZmaWMucmFuZ2VNaW51dGVzIiwgewogICAgICBjb3VudDogTWF0aC5yb3VuZChzZWNvbmRzIC8gNjApLAogICAgfSk7CiAgfQogIGlmIChzZWNvbmRzIDwgODY0MDApIHsKICAgIHJldHVybiB0KCJhZG1pbi5ob3N0VHJhZmZpYy5yYW5nZUhvdXJzIiwgewogICAgICBjb3VudDogTWF0aC5yb3VuZChzZWNvbmRzIC8gMzYwMCksCiAgICB9KTsKICB9CiAgcmV0dXJuIHQoImFkbWluLmhvc3RUcmFmZmljLnJhbmdlRGF5cyIsIHsKICAgIGNvdW50OiBNYXRoLnJvdW5kKHNlY29uZHMgLyA4NjQwMCksCiAgfSk7Cn0pOwoKd2F0Y2goCiAgKCkgPT4gcHJvcHMub3BlbiwKICAob3BlbikgPT4gewogICAgaWYgKCFvcGVuKSB7CiAgICAgIHNlbGVjdGVkSXBzLnZhbHVlID0gbmV3IFNldCgpOwogICAgfQogIH0sCik7Cjwvc2NyaXB0Pgo=
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent
+      class="flex max-h-[85vh] flex-col overflow-hidden p-0 text-left sm:max-w-[680px]"
+    >
+      <DialogHeader class="shrink-0 border-b px-4 py-3 pr-10 text-left">
+        <div class="flex items-center justify-between gap-3">
+          <div class="min-w-0">
+            <DialogTitle class="truncate text-base" :title="displayTitle">
+              {{ displayTitle }}
+            </DialogTitle>
+            <DialogDescription class="space-y-1 text-left">
+              <span class="block break-all font-medium">{{ host }}</span>
+              <span class="block text-xs">
+                {{
+                  t("admin.hostTraffic.activeIpDialog.description", {
+                    range: activeWindowText,
+                  })
+                }}
+              </span>
+            </DialogDescription>
+          </div>
+          <div class="flex shrink-0 flex-wrap items-center justify-end gap-2">
+            <ConfirmDangerPopover
+              v-if="selectedUnblockedIps.length > 0"
+              :title="
+                t('admin.hostTraffic.activeIpDialog.blacklistSelectedTitle', {
+                  count: selectedUnblockedIps.length,
+                })
+              "
+              :description="
+                t('admin.hostTraffic.activeIpDialog.blacklistDescription')
+              "
+              :loading="isBlockingIps"
+              :disabled="
+                selectedUnblockedIps.length === 0 || isMutatingBlacklistIps
+              "
+              :on-confirm="() => blockIps(selectedUnblockedIps)"
+            >
+              <template #trigger>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  class="h-8 border-destructive/30 px-2.5 text-xs text-destructive hover:bg-destructive/10 hover:text-destructive"
+                  :disabled="
+                    selectedUnblockedIps.length === 0 || isMutatingBlacklistIps
+                  "
+                >
+                  <Ban class="h-3.5 w-3.5" />
+                  {{
+                    t("admin.hostTraffic.activeIpDialog.blacklistSelected", {
+                      count: selectedUnblockedIps.length,
+                    })
+                  }}
+                </Button>
+              </template>
+            </ConfirmDangerPopover>
+            <ConfirmDangerPopover
+              v-if="selectedBlockedIps.length > 0"
+              :title="
+                t('admin.hostTraffic.activeIpDialog.unblacklistSelectedTitle', {
+                  count: selectedBlockedIps.length,
+                })
+              "
+              :description="
+                t('admin.hostTraffic.activeIpDialog.unblacklistDescription')
+              "
+              :loading="isReleasingIps"
+              :disabled="
+                selectedBlockedIps.length === 0 || isMutatingBlacklistIps
+              "
+              :on-confirm="() => releaseIps(selectedBlockedIps)"
+            >
+              <template #trigger>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  class="h-8 px-2.5 text-xs"
+                  :disabled="
+                    selectedBlockedIps.length === 0 || isMutatingBlacklistIps
+                  "
+                >
+                  <Unlock class="h-3.5 w-3.5" />
+                  {{
+                    t("admin.hostTraffic.activeIpDialog.unblacklistSelected", {
+                      count: selectedBlockedIps.length,
+                    })
+                  }}
+                </Button>
+              </template>
+            </ConfirmDangerPopover>
+            <Button
+              variant="outline"
+              size="sm"
+              class="h-8 px-2.5 text-xs"
+              :disabled="loading"
+              @click="emit('refresh')"
+            >
+              <RefreshCw
+                class="h-3.5 w-3.5"
+                :class="{ 'animate-spin': loading }"
+              />
+              {{ t("admin.hostTraffic.activeIpDialog.refresh") }}
+            </Button>
+          </div>
+        </div>
+      </DialogHeader>
+
+      <div class="min-h-0 flex-1 overflow-y-auto p-4">
+        <div
+          class="mb-3 flex flex-wrap items-center justify-between gap-2 text-xs text-muted-foreground"
+        >
+          <span>{{
+            t("admin.hostTraffic.activeIpDialog.total", {
+              count: items.length,
+            })
+          }}</span>
+          <span v-if="updatedAt" class="inline-flex items-center gap-1">
+            {{ t("admin.hostTraffic.activeIpDialog.updatedAt") }}
+            <HumanFriendlyTime :value="updatedAt" :locale="locale" />
+          </span>
+        </div>
+
+        <div
+          v-if="loading && items.length === 0"
+          class="space-y-2 rounded-md border p-3"
+        >
+          <Skeleton class="h-8 w-full rounded-md" />
+          <Skeleton class="h-8 w-full rounded-md" />
+          <Skeleton class="h-8 w-2/3 rounded-md" />
+        </div>
+
+        <div
+          v-else-if="error"
+          class="rounded-md border border-destructive/20 bg-destructive/5 px-3 py-6 text-center text-sm text-destructive"
+          role="alert"
+        >
+          {{ error }}
+        </div>
+
+        <div
+          v-else-if="items.length === 0"
+          class="rounded-md border px-3 py-8 text-center text-sm text-muted-foreground"
+        >
+          {{ t("admin.hostTraffic.activeIpDialog.empty") }}
+        </div>
+
+        <div v-else class="overflow-x-auto rounded-md border">
+          <Table class="min-w-[640px]">
+            <TableHeader>
+              <TableRow class="bg-muted/30">
+                <TableHead class="w-[44px] text-xs">
+                  <Checkbox
+                    v-model="isAllSelected"
+                    :aria-label="t('common.selectAll')"
+                    :disabled="visibleIps.length === 0"
+                  />
+                </TableHead>
+                <TableHead class="w-[190px] text-xs">IP</TableHead>
+                <TableHead class="text-xs">{{
+                  t("admin.hostTraffic.activeIpDialog.location")
+                }}</TableHead>
+                <TableHead class="w-[120px] text-xs">{{
+                  t("admin.hostTraffic.activeIpDialog.lastActive")
+                }}</TableHead>
+                <TableHead class="w-[88px] text-right text-xs">
+                  {{ t("admin.hostTraffic.activeIpDialog.connections") }}
+                </TableHead>
+                <TableHead class="w-[72px] text-right text-xs">
+                  {{ t("admin.sessions.table.actions") }}
+                </TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              <TableRow v-for="item in items" :key="item.ip" class="align-top">
+                <TableCell class="py-2.5">
+                  <Checkbox
+                    :model-value="selectedIps.has(item.ip)"
+                    :aria-label="t('common.selectItem', { item: item.ip })"
+                    @update:model-value="toggleSelect(item.ip)"
+                  />
+                </TableCell>
+                <TableCell class="py-2.5">
+                  <div class="font-mono text-xs leading-5">
+                    {{ item.ip }}
+                  </div>
+                </TableCell>
+                <TableCell class="py-2.5">
+                  <div class="text-xs leading-5 text-muted-foreground">
+                    {{ item.locationText }}
+                  </div>
+                </TableCell>
+                <TableCell class="whitespace-nowrap py-2.5 text-xs">
+                  <HumanFriendlyTime
+                    :value="item.last_seen_at"
+                    :locale="locale"
+                  />
+                </TableCell>
+                <TableCell class="py-2.5 text-right">
+                  <span
+                    class="inline-flex min-w-8 justify-center rounded-full border px-2 py-0.5 text-xs text-muted-foreground"
+                  >
+                    {{ item.active_conns }}
+                  </span>
+                </TableCell>
+                <TableCell class="py-2.5 text-right">
+                  <ConfirmDangerPopover
+                    :title="
+                      isGeneralBlacklisted(item.ip)
+                        ? t(
+                            'admin.hostTraffic.activeIpDialog.unblacklistOneTitle',
+                          )
+                        : t(
+                            'admin.hostTraffic.activeIpDialog.blacklistOneTitle',
+                          )
+                    "
+                    :description="
+                      isGeneralBlacklisted(item.ip)
+                        ? t(
+                            'admin.hostTraffic.activeIpDialog.unblacklistOneDescription',
+                            {
+                              ip: item.ip,
+                            },
+                          )
+                        : t(
+                            'admin.hostTraffic.activeIpDialog.blacklistOneDescription',
+                            {
+                              ip: item.ip,
+                            },
+                          )
+                    "
+                    :loading="isMutatingBlacklistIps"
+                    :disabled="isMutatingBlacklistIps"
+                    :on-confirm="
+                      () =>
+                        isGeneralBlacklisted(item.ip)
+                          ? releaseIps([item.ip])
+                          : blockIps([item.ip])
+                    "
+                  >
+                    <template #trigger>
+                      <Button
+                        variant="ghost"
+                        size="icon"
+                        class="h-8 w-8"
+                        :class="
+                          isGeneralBlacklisted(item.ip)
+                            ? 'text-foreground hover:text-foreground'
+                            : 'text-destructive hover:text-destructive'
+                        "
+                        :disabled="isMutatingBlacklistIps"
+                        :aria-label="
+                          isGeneralBlacklisted(item.ip)
+                            ? t(
+                                'admin.hostTraffic.activeIpDialog.unblacklistOne',
+                              )
+                            : t('admin.hostTraffic.activeIpDialog.blacklistOne')
+                        "
+                      >
+                        <Unlock
+                          v-if="isGeneralBlacklisted(item.ip)"
+                          class="h-4 w-4"
+                        />
+                        <Ban v-else class="h-4 w-4" />
+                      </Button>
+                    </template>
+                  </ConfirmDangerPopover>
+                </TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </div>
+      </div>
+    </DialogContent>
+  </Dialog>
+</template>
+
+<script setup lang="ts">
+import { computed, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { Ban, RefreshCw, Unlock } from "lucide-vue-next";
+import { useLogIpSelection } from "@/composables/useLogIpSelection";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Skeleton } from "@/components/ui/skeleton";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import type { HostActiveIpDisplayItem } from "../../composables/useHostActiveIps";
+
+const props = withDefaults(
+  defineProps<{
+    open: boolean;
+    title?: string | null;
+    host: string;
+    items: HostActiveIpDisplayItem[];
+    loading?: boolean;
+    error?: string;
+    updatedAt?: number | null;
+    windowSeconds?: number;
+  }>(),
+  {
+    title: "",
+    loading: false,
+    error: "",
+    updatedAt: null,
+    windowSeconds: 120,
+  },
+);
+
+const emit = defineEmits<{
+  "update:open": [value: boolean];
+  refresh: [];
+}>();
+
+const { t, locale } = useI18n();
+const selectedIps = ref<Set<string>>(new Set());
+const displayTitle = computed(
+  () => props.title?.trim() || t("admin.hostTraffic.activeIpDialog.title"),
+);
+
+const visibleIps = computed(() =>
+  Array.from(new Set(props.items.map((item) => item.ip).filter(Boolean))),
+);
+const displayedIpEntries = computed(() =>
+  visibleIps.value.map((ip) => ({
+    actionIp: ip,
+    selectionKey: ip,
+  })),
+);
+const {
+  blockIps,
+  isAllDisplayedRowsSelected: isAllSelected,
+  isBlockingIps,
+  isGeneralBlacklisted,
+  isMutatingBlacklistIps,
+  isReleasingIps,
+  releaseIps,
+  selectedBlockedIps,
+  selectedUnblockedIps,
+  toggleEntrySelection: toggleSelect,
+} = useLogIpSelection({
+  displayedEntries: displayedIpEntries,
+  messageKeys: {
+    blacklistFailed: "admin.hostTraffic.activeIpDialog.blacklistFailed",
+    blacklistSuccess: "admin.hostTraffic.activeIpDialog.blacklistSuccess",
+    blacklistSuccessDetail:
+      "admin.hostTraffic.activeIpDialog.blacklistSuccessDetail",
+    unblacklistFailed: "admin.hostTraffic.activeIpDialog.unblacklistFailed",
+    unblacklistSuccess: "admin.hostTraffic.activeIpDialog.unblacklistSuccess",
+    unblacklistSuccessDetail:
+      "admin.hostTraffic.activeIpDialog.unblacklistSuccessDetail",
+  },
+  onMutated: () => emit("refresh"),
+  pruneInvisibleSelection: true,
+  selectedEntryKeys: selectedIps,
+  source: "active_ip",
+  translate: t,
+});
+
+const activeWindowText = computed(() => {
+  const seconds = Math.max(1, Number(props.windowSeconds || 120));
+  if (seconds < 60) {
+    return t("admin.hostTraffic.rangeSeconds", { count: seconds });
+  }
+  if (seconds < 3600) {
+    return t("admin.hostTraffic.rangeMinutes", {
+      count: Math.round(seconds / 60),
+    });
+  }
+  if (seconds < 86400) {
+    return t("admin.hostTraffic.rangeHours", {
+      count: Math.round(seconds / 3600),
+    });
+  }
+  return t("admin.hostTraffic.rangeDays", {
+    count: Math.round(seconds / 86400),
+  });
+});
+
+watch(
+  () => props.open,
+  (open) => {
+    if (!open) {
+      selectedIps.value = new Set();
+    }
+  },
+);
+</script>

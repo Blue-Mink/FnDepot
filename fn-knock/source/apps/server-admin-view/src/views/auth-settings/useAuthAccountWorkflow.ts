@@ -1,1 +1,306 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IENvbmZpZ0FQSSB9IGZyb20gIkAvbGliL2FwaS9jb25maWciOwppbXBvcnQgdHlwZSB7IEF1dGhBY2NvdW50LCBUT1RQU3ViZG9tYWluQWNjZXNzIH0gZnJvbSAiQC90eXBlcyI7CgpleHBvcnQgY29uc3QgdXNlQXV0aEFjY291bnRXb3JrZmxvdyA9ICh7CiAgYXV0aEFjY291bnRzLAogIG5vcm1hbGl6ZVN1YmRvbWFpbkFjY2VzcywKICByZWZyZXNoQXV0aE1vZGVQcmV2aWV3LAogIHNob3dBdXRoTW9kZVN3aXRjaERpYWxvZywKfTogewogIGF1dGhBY2NvdW50czogUmVmPEF1dGhBY2NvdW50W10+OwogIG5vcm1hbGl6ZVN1YmRvbWFpbkFjY2VzczogKHZhbHVlOiB1bmtub3duKSA9PiBUT1RQU3ViZG9tYWluQWNjZXNzOwogIHJlZnJlc2hBdXRoTW9kZVByZXZpZXc6ICgpID0+IFByb21pc2U8dm9pZD47CiAgc2hvd0F1dGhNb2RlU3dpdGNoRGlhbG9nOiBSZWY8Ym9vbGVhbj47Cn0pID0+IHsKICBjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKICBjb25zdCBzaG93QXV0aEFjY291bnREaWFsb2cgPSByZWYoZmFsc2UpOwogIGNvbnN0IHNob3dBY2NvdW50UGFzc3dvcmREaWFsb2cgPSByZWYoZmFsc2UpOwogIGNvbnN0IGVkaXRpbmdBdXRoQWNjb3VudCA9IHJlZjxBdXRoQWNjb3VudCB8IG51bGw+KG51bGwpOwogIGNvbnN0IGF1dGhBY2NvdW50VXNlcm5hbWVJbnB1dCA9IHJlZigiIik7CiAgY29uc3QgaXNDcmVhdGluZ0F1dGhBY2NvdW50ID0gcmVmKGZhbHNlKTsKICBjb25zdCBlZGl0aW5nUGFzc3dvcmRBY2NvdW50ID0gcmVmPEF1dGhBY2NvdW50IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgYWNjb3VudFBhc3N3b3JkVXNlcm5hbWVJbnB1dCA9IHJlZigiIik7CiAgY29uc3QgYWNjb3VudFBhc3N3b3JkSW5wdXQgPSByZWYoIiIpOwogIGNvbnN0IGlzQWNjb3VudFBhc3N3b3JkVmlzaWJsZSA9IHJlZihmYWxzZSk7CiAgY29uc3QgcmVvcGVuQXV0aE1vZGVTd2l0Y2hBZnRlclBhc3N3b3JkU2F2ZSA9IHJlZihmYWxzZSk7CgogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1NhdmluZ0FjY291bnRQYXNzd29yZCwgcnVuOiBydW5TYXZlQWNjb3VudFBhc3N3b3JkIH0gPQogICAgdXNlQXN5bmNBY3Rpb24oewogICAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgICB0b2FzdC5lcnJvcigKICAgICAgICAgIGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICAgIGVycm9yLAogICAgICAgICAgICB0KCJhZG1pbi5hdXRoU2V0dGluZ3MuYWNjb3VudFBhc3N3b3JkU2F2ZUZhaWxlZCIpLAogICAgICAgICAgKSwKICAgICAgICApOwogICAgICB9LAogICAgfSk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzU2F2aW5nQXV0aEFjY291bnQsIHJ1bjogcnVuU2F2ZUF1dGhBY2NvdW50IH0gPQogICAgdXNlQXN5bmNBY3Rpb24oewogICAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgICB0b2FzdC5lcnJvcigKICAgICAgICAgIGV4dHJhY3RFcnJvck1lc3NhZ2UoZXJyb3IsIHQoImFkbWluLmF1dGhTZXR0aW5ncy5hY2NvdW50U2F2ZUZhaWxlZCIpKSwKICAgICAgICApOwogICAgICB9LAogICAgfSk7CgogIGNvbnN0IGlzQWNjb3VudFBhc3N3b3JkU2V0dXBNb2RlID0gY29tcHV0ZWQoCiAgICAoKSA9PgogICAgICBpc0NyZWF0aW5nQXV0aEFjY291bnQudmFsdWUgfHwKICAgICAgZWRpdGluZ1Bhc3N3b3JkQWNjb3VudC52YWx1ZT8ucGFzc3dvcmRDb25maWd1cmVkID09PSBmYWxzZSwKICApOwoKICBjb25zdCBhY2NvdW50UGFzc3dvcmREaWFsb2dUaXRsZSA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGlmIChpc0NyZWF0aW5nQXV0aEFjY291bnQudmFsdWUpIHsKICAgICAgcmV0dXJuIHQoImFkbWluLmF1dGhTZXR0aW5ncy5jcmVhdGVBY2NvdW50Iik7CiAgICB9CiAgICBpZiAoaXNBY2NvdW50UGFzc3dvcmRTZXR1cE1vZGUudmFsdWUpIHsKICAgICAgcmV0dXJuIHQoImFkbWluLmF1dGhTZXR0aW5ncy5zZXR1cEFjY291bnRQYXNzd29yZCIpOwogICAgfQogICAgcmV0dXJuIGVkaXRpbmdQYXNzd29yZEFjY291bnQudmFsdWU/LnBhc3N3b3JkQ29uZmlndXJlZAogICAgICA/IHQoImFkbWluLmF1dGhTZXR0aW5ncy5jaGFuZ2VQYXNzd29yZCIpCiAgICAgIDogdCgiYWRtaW4uYXV0aFNldHRpbmdzLnNldFBhc3N3b3JkIik7CiAgfSk7CgogIGNvbnN0IGFjY291bnRQYXNzd29yZERpYWxvZ0Rlc2NyaXB0aW9uID0gY29tcHV0ZWQoKCkgPT4gewogICAgaWYgKGlzQ3JlYXRpbmdBdXRoQWNjb3VudC52YWx1ZSkgewogICAgICByZXR1cm4gdCgiYWRtaW4uYXV0aFNldHRpbmdzLmNyZWF0ZUFjY291bnREZXNjcmlwdGlvbiIpOwogICAgfQogICAgaWYgKGlzQWNjb3VudFBhc3N3b3JkU2V0dXBNb2RlLnZhbHVlKSB7CiAgICAgIHJldHVybiB0KCJhZG1pbi5hdXRoU2V0dGluZ3Muc2V0dXBBY2NvdW50UGFzc3dvcmREZXNjcmlwdGlvbiIpOwogICAgfQogICAgcmV0dXJuIHQoImFkbWluLmF1dGhTZXR0aW5ncy5hY2NvdW50UGFzc3dvcmREZXNjcmlwdGlvbiIsIHsKICAgICAgdXNlcm5hbWU6IGVkaXRpbmdQYXNzd29yZEFjY291bnQudmFsdWU/LnVzZXJuYW1lIHx8ICIiLAogICAgfSk7CiAgfSk7CgogIGNvbnN0IG5vcm1hbGl6ZUF1dGhBY2NvdW50ID0gKGFjY291bnQ6IEF1dGhBY2NvdW50KTogQXV0aEFjY291bnQgPT4gKHsKICAgIC4uLmFjY291bnQsCiAgICBkaXNwbGF5TmFtZTogYWNjb3VudC51c2VybmFtZSwKICAgIGFjY2Vzc19zY29wZXM6IGFjY291bnQuYWNjZXNzX3Njb3BlcyB8fCBbXSwKICAgIHN1YmRvbWFpbl9hY2Nlc3M6IG5vcm1hbGl6ZVN1YmRvbWFpbkFjY2VzcyhhY2NvdW50LnN1YmRvbWFpbl9hY2Nlc3MpLAogICAgcGFzc3dvcmRDb25maWd1cmVkOiBhY2NvdW50LnBhc3N3b3JkQ29uZmlndXJlZCA9PT0gdHJ1ZSwKICAgIHRvdHBDb25maWd1cmVkOiBhY2NvdW50LnRvdHBDb25maWd1cmVkID09PSB0cnVlLAogIH0pOwoKICBjb25zdCByZXBsYWNlQXV0aEFjY291bnQgPSAoYWNjb3VudDogQXV0aEFjY291bnQpID0+IHsKICAgIGNvbnN0IG5vcm1hbGl6ZWQgPSBub3JtYWxpemVBdXRoQWNjb3VudChhY2NvdW50KTsKICAgIGNvbnN0IGluZGV4ID0gYXV0aEFjY291bnRzLnZhbHVlLmZpbmRJbmRleCgKICAgICAgKGl0ZW0pID0+IGl0ZW0uaWQgPT09IGFjY291bnQuaWQsCiAgICApOwogICAgaWYgKGluZGV4ID49IDApIHsKICAgICAgYXV0aEFjY291bnRzLnZhbHVlLnNwbGljZShpbmRleCwgMSwgbm9ybWFsaXplZCk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGF1dGhBY2NvdW50cy52YWx1ZS5wdXNoKG5vcm1hbGl6ZWQpOwogIH07CgogIGNvbnN0IHZhbGlkYXRlQWNjb3VudFVzZXJuYW1lID0gKHZhbHVlOiBzdHJpbmcsIGFjY291bnQ6IEF1dGhBY2NvdW50KSA9PiB7CiAgICBjb25zdCB1c2VybmFtZSA9IHZhbHVlLnRyaW0oKTsKICAgIGlmICghdXNlcm5hbWUpIHsKICAgICAgcmV0dXJuIHQoImFkbWluLmF1dGhTZXR0aW5ncy5hY2NvdW50VXNlcm5hbWVSZXF1aXJlZCIpOwogICAgfQogICAgY29uc3QgaXNEdXBsaWNhdGUgPSBhdXRoQWNjb3VudHMudmFsdWUuc29tZSgKICAgICAgKGl0ZW0pID0+IGl0ZW0uaWQgIT09IGFjY291bnQuaWQgJiYgaXRlbS51c2VybmFtZSA9PT0gdXNlcm5hbWUsCiAgICApOwogICAgaWYgKGlzRHVwbGljYXRlKSB7CiAgICAgIHJldHVybiB0KCJhZG1pbi5hdXRoU2V0dGluZ3MuYWNjb3VudFVzZXJuYW1lRHVwbGljYXRlIik7CiAgICB9CiAgfTsKCiAgY29uc3QgdXNlcm5hbWVTZWN1cml0eVdhcm5pbmcgPSAodmFsdWU6IHN0cmluZykgPT4gewogICAgY29uc3QgdXNlcm5hbWUgPSB2YWx1ZS50cmltKCk7CiAgICByZXR1cm4gdXNlcm5hbWUgJiYgdXNlcm5hbWUubGVuZ3RoIDwgMwogICAgICA/IHQoImFkbWluLmF1dGhTZXR0aW5ncy5zaG9ydFVzZXJuYW1lV2FybmluZyIpCiAgICAgIDogIiI7CiAgfTsKCiAgY29uc3QgcGFzc3dvcmRTZWN1cml0eVdhcm5pbmcgPSAocGFzc3dvcmQ6IHN0cmluZykgPT4gewogICAgaWYgKCFwYXNzd29yZCkgcmV0dXJuICIiOwogICAgY29uc3QgaGFzTGV0dGVycyA9IC9bQS1aYS16XS8udGVzdChwYXNzd29yZCk7CiAgICBjb25zdCBoYXNOdW1iZXJzID0gL1xkLy50ZXN0KHBhc3N3b3JkKTsKICAgIHJldHVybiBwYXNzd29yZC5sZW5ndGggPCA2IHx8CiAgICAgIC9ccy8udGVzdChwYXNzd29yZCkgfHwKICAgICAgIWhhc0xldHRlcnMgfHwKICAgICAgIWhhc051bWJlcnMKICAgICAgPyB0KCJhZG1pbi5hdXRoU2V0dGluZ3Mud2Vha1Bhc3N3b3JkV2FybmluZyIpCiAgICAgIDogIiI7CiAgfTsKCiAgY29uc3Qgb3BlbkF1dGhBY2NvdW50RGlhbG9nID0gKGFjY291bnQ6IEF1dGhBY2NvdW50KSA9PiB7CiAgICBlZGl0aW5nQXV0aEFjY291bnQudmFsdWUgPSBhY2NvdW50OwogICAgYXV0aEFjY291bnRVc2VybmFtZUlucHV0LnZhbHVlID0gYWNjb3VudC51c2VybmFtZTsKICAgIHNob3dBdXRoQWNjb3VudERpYWxvZy52YWx1ZSA9IHRydWU7CiAgfTsKCiAgY29uc3QgY2xvc2VBdXRoQWNjb3VudERpYWxvZyA9ICgpID0+IHsKICAgIHNob3dBdXRoQWNjb3VudERpYWxvZy52YWx1ZSA9IGZhbHNlOwogICAgZWRpdGluZ0F1dGhBY2NvdW50LnZhbHVlID0gbnVsbDsKICAgIGF1dGhBY2NvdW50VXNlcm5hbWVJbnB1dC52YWx1ZSA9ICIiOwogIH07CgogIGNvbnN0IG9wZW5DcmVhdGVBdXRoQWNjb3VudERpYWxvZyA9ICgpID0+IHsKICAgIGlzQ3JlYXRpbmdBdXRoQWNjb3VudC52YWx1ZSA9IHRydWU7CiAgICBlZGl0aW5nUGFzc3dvcmRBY2NvdW50LnZhbHVlID0gbnVsbDsKICAgIHJlb3BlbkF1dGhNb2RlU3dpdGNoQWZ0ZXJQYXNzd29yZFNhdmUudmFsdWUgPSBmYWxzZTsKICAgIGFjY291bnRQYXNzd29yZFVzZXJuYW1lSW5wdXQudmFsdWUgPSAiIjsKICAgIGFjY291bnRQYXNzd29yZElucHV0LnZhbHVlID0gIiI7CiAgICBpc0FjY291bnRQYXNzd29yZFZpc2libGUudmFsdWUgPSBmYWxzZTsKICAgIHNob3dBY2NvdW50UGFzc3dvcmREaWFsb2cudmFsdWUgPSB0cnVlOwogIH07CgogIGNvbnN0IGhhbmRsZVNhdmVBdXRoQWNjb3VudCA9IGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGFjY291bnQgPSBlZGl0aW5nQXV0aEFjY291bnQudmFsdWU7CiAgICBpZiAoIWFjY291bnQpIHJldHVybjsKICAgIGNvbnN0IHVzZXJuYW1lID0gYXV0aEFjY291bnRVc2VybmFtZUlucHV0LnZhbHVlLnRyaW0oKTsKICAgIGNvbnN0IHZhbGlkYXRpb25NZXNzYWdlID0gdmFsaWRhdGVBY2NvdW50VXNlcm5hbWUodXNlcm5hbWUsIGFjY291bnQpOwogICAgaWYgKHZhbGlkYXRpb25NZXNzYWdlKSB7CiAgICAgIHRvYXN0LmVycm9yKHZhbGlkYXRpb25NZXNzYWdlKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgYXdhaXQgcnVuU2F2ZUF1dGhBY2NvdW50KGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgdXBkYXRlZCA9IGF3YWl0IENvbmZpZ0FQSS51cGRhdGVBdXRoQWNjb3VudChhY2NvdW50LmlkLCB7CiAgICAgICAgdXNlcm5hbWUsCiAgICAgIH0pOwogICAgICByZXBsYWNlQXV0aEFjY291bnQodXBkYXRlZCk7CiAgICAgIGNsb3NlQXV0aEFjY291bnREaWFsb2coKTsKICAgICAgaWYgKHNob3dBdXRoTW9kZVN3aXRjaERpYWxvZy52YWx1ZSkgewogICAgICAgIGF3YWl0IHJlZnJlc2hBdXRoTW9kZVByZXZpZXcoKTsKICAgICAgfQogICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmF1dGhTZXR0aW5ncy5hY2NvdW50U2F2ZWQiKSk7CiAgICB9KTsKICB9OwoKICBjb25zdCBzYXZlQWNjb3VudFVzZXJuYW1lID0gYXN5bmMgKGFjY291bnQ6IEF1dGhBY2NvdW50LCB2YWx1ZTogc3RyaW5nKSA9PiB7CiAgICBjb25zdCB1c2VybmFtZSA9IHZhbHVlLnRyaW0oKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHVwZGF0ZWQgPSBhd2FpdCBDb25maWdBUEkudXBkYXRlQXV0aEFjY291bnQoYWNjb3VudC5pZCwgewogICAgICAgIHVzZXJuYW1lLAogICAgICB9KTsKICAgICAgcmVwbGFjZUF1dGhBY2NvdW50KHVwZGF0ZWQpOwogICAgICBpZiAoc2hvd0F1dGhNb2RlU3dpdGNoRGlhbG9nLnZhbHVlKSB7CiAgICAgICAgYXdhaXQgcmVmcmVzaEF1dGhNb2RlUHJldmlldygpOwogICAgICB9CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uYXV0aFNldHRpbmdzLmFjY291bnRTYXZlZCIpKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRocm93IG5ldyBFcnJvcigKICAgICAgICBleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCB0KCJhZG1pbi5hdXRoU2V0dGluZ3MuYWNjb3VudFNhdmVGYWlsZWQiKSksCiAgICAgICAgeyBjYXVzZTogZXJyb3IgfSwKICAgICAgKTsKICAgIH0KICB9OwoKICBjb25zdCBvcGVuQWNjb3VudFBhc3N3b3JkRGlhbG9nID0gKAogICAgYWNjb3VudDogQXV0aEFjY291bnQsCiAgICByZW9wZW5Td2l0Y2hBZnRlclNhdmUgPSBmYWxzZSwKICApID0+IHsKICAgIGlzQ3JlYXRpbmdBdXRoQWNjb3VudC52YWx1ZSA9IGZhbHNlOwogICAgZWRpdGluZ1Bhc3N3b3JkQWNjb3VudC52YWx1ZSA9IGFjY291bnQ7CiAgICByZW9wZW5BdXRoTW9kZVN3aXRjaEFmdGVyUGFzc3dvcmRTYXZlLnZhbHVlID0gcmVvcGVuU3dpdGNoQWZ0ZXJTYXZlOwogICAgYWNjb3VudFBhc3N3b3JkVXNlcm5hbWVJbnB1dC52YWx1ZSA9IGFjY291bnQudXNlcm5hbWU7CiAgICBhY2NvdW50UGFzc3dvcmRJbnB1dC52YWx1ZSA9ICIiOwogICAgaXNBY2NvdW50UGFzc3dvcmRWaXNpYmxlLnZhbHVlID0gZmFsc2U7CiAgICBzaG93QWNjb3VudFBhc3N3b3JkRGlhbG9nLnZhbHVlID0gdHJ1ZTsKICB9OwoKICBjb25zdCBvcGVuQWNjb3VudFBhc3N3b3JkRGlhbG9nRnJvbVN3aXRjaCA9IChhY2NvdW50OiBBdXRoQWNjb3VudCkgPT4gewogICAgc2hvd0F1dGhNb2RlU3dpdGNoRGlhbG9nLnZhbHVlID0gZmFsc2U7CiAgICBvcGVuQWNjb3VudFBhc3N3b3JkRGlhbG9nKGFjY291bnQsIHRydWUpOwogIH07CgogIGNvbnN0IGNsb3NlQWNjb3VudFBhc3N3b3JkRGlhbG9nID0gKCkgPT4gewogICAgc2hvd0FjY291bnRQYXNzd29yZERpYWxvZy52YWx1ZSA9IGZhbHNlOwogICAgaXNDcmVhdGluZ0F1dGhBY2NvdW50LnZhbHVlID0gZmFsc2U7CiAgICBlZGl0aW5nUGFzc3dvcmRBY2NvdW50LnZhbHVlID0gbnVsbDsKICAgIHJlb3BlbkF1dGhNb2RlU3dpdGNoQWZ0ZXJQYXNzd29yZFNhdmUudmFsdWUgPSBmYWxzZTsKICAgIGFjY291bnRQYXNzd29yZFVzZXJuYW1lSW5wdXQudmFsdWUgPSAiIjsKICAgIGFjY291bnRQYXNzd29yZElucHV0LnZhbHVlID0gIiI7CiAgICBpc0FjY291bnRQYXNzd29yZFZpc2libGUudmFsdWUgPSBmYWxzZTsKICB9OwoKICBjb25zdCBoYW5kbGVTYXZlQWNjb3VudFBhc3N3b3JkID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgYWNjb3VudCA9IGVkaXRpbmdQYXNzd29yZEFjY291bnQudmFsdWU7CiAgICBpZiAoIWlzQ3JlYXRpbmdBdXRoQWNjb3VudC52YWx1ZSAmJiAhYWNjb3VudCkgcmV0dXJuOwogICAgY29uc3QgcGFzc3dvcmQgPSBhY2NvdW50UGFzc3dvcmRJbnB1dC52YWx1ZTsKICAgIGNvbnN0IHVzZXJuYW1lID0gYWNjb3VudFBhc3N3b3JkVXNlcm5hbWVJbnB1dC52YWx1ZS50cmltKCk7CiAgICBpZiAoaXNBY2NvdW50UGFzc3dvcmRTZXR1cE1vZGUudmFsdWUgJiYgIXVzZXJuYW1lKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmF1dGhTZXR0aW5ncy5hY2NvdW50VXNlcm5hbWVSZXF1aXJlZCIpKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKCFwYXNzd29yZCkgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5hdXRoU2V0dGluZ3MuYWNjb3VudFBhc3N3b3JkUmVxdWlyZWQiKSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBhd2FpdCBydW5TYXZlQWNjb3VudFBhc3N3b3JkKGFzeW5jICgpID0+IHsKICAgICAgbGV0IHVwZGF0ZWQ6IEF1dGhBY2NvdW50IHwgbnVsbCA9IG51bGw7CiAgICAgIGNvbnN0IHdhc0NyZWF0aW5nID0gaXNDcmVhdGluZ0F1dGhBY2NvdW50LnZhbHVlOwogICAgICBpZiAoaXNDcmVhdGluZ0F1dGhBY2NvdW50LnZhbHVlKSB7CiAgICAgICAgdXBkYXRlZCA9IGF3YWl0IENvbmZpZ0FQSS5jcmVhdGVBdXRoQWNjb3VudCh7IHVzZXJuYW1lLCBwYXNzd29yZCB9KTsKICAgICAgfSBlbHNlIGlmIChpc0FjY291bnRQYXNzd29yZFNldHVwTW9kZS52YWx1ZSAmJiBhY2NvdW50KSB7CiAgICAgICAgdXBkYXRlZCA9IGF3YWl0IENvbmZpZ0FQSS5zZXR1cEF1dGhBY2NvdW50KGFjY291bnQuaWQsIHsKICAgICAgICAgIHVzZXJuYW1lLAogICAgICAgICAgcGFzc3dvcmQsCiAgICAgICAgfSk7CiAgICAgIH0gZWxzZSBpZiAoYWNjb3VudCkgewogICAgICAgIHVwZGF0ZWQgPSBhd2FpdCBDb25maWdBUEkuc2V0QXV0aEFjY291bnRQYXNzd29yZChhY2NvdW50LmlkLCBwYXNzd29yZCk7CiAgICAgIH0KICAgICAgaWYgKCF1cGRhdGVkKSByZXR1cm47CgogICAgICBjb25zdCBzaG91bGRSZW9wZW5Td2l0Y2ggPSByZW9wZW5BdXRoTW9kZVN3aXRjaEFmdGVyUGFzc3dvcmRTYXZlLnZhbHVlOwogICAgICByZXBsYWNlQXV0aEFjY291bnQodXBkYXRlZCk7CiAgICAgIGNsb3NlQWNjb3VudFBhc3N3b3JkRGlhbG9nKCk7CiAgICAgIGlmIChzaG91bGRSZW9wZW5Td2l0Y2gpIHsKICAgICAgICBzaG93QXV0aE1vZGVTd2l0Y2hEaWFsb2cudmFsdWUgPSB0cnVlOwogICAgICAgIGF3YWl0IHJlZnJlc2hBdXRoTW9kZVByZXZpZXcoKTsKICAgICAgfSBlbHNlIGlmIChzaG93QXV0aE1vZGVTd2l0Y2hEaWFsb2cudmFsdWUpIHsKICAgICAgICBhd2FpdCByZWZyZXNoQXV0aE1vZGVQcmV2aWV3KCk7CiAgICAgIH0KICAgICAgdG9hc3Quc3VjY2VzcygKICAgICAgICB0KAogICAgICAgICAgd2FzQ3JlYXRpbmcKICAgICAgICAgICAgPyAiYWRtaW4uYXV0aFNldHRpbmdzLmFjY291bnRDcmVhdGVkIgogICAgICAgICAgICA6ICJhZG1pbi5hdXRoU2V0dGluZ3MuYWNjb3VudFBhc3N3b3JkU2F2ZWQiLAogICAgICAgICksCiAgICAgICk7CiAgICB9KTsKICB9OwoKICByZXR1cm4gewogICAgYWNjb3VudFBhc3N3b3JkRGlhbG9nRGVzY3JpcHRpb24sCiAgICBhY2NvdW50UGFzc3dvcmREaWFsb2dUaXRsZSwKICAgIGFjY291bnRQYXNzd29yZElucHV0LAogICAgYWNjb3VudFBhc3N3b3JkVXNlcm5hbWVJbnB1dCwKICAgIGF1dGhBY2NvdW50VXNlcm5hbWVJbnB1dCwKICAgIGNsb3NlQWNjb3VudFBhc3N3b3JkRGlhbG9nLAogICAgY2xvc2VBdXRoQWNjb3VudERpYWxvZywKICAgIGVkaXRpbmdBdXRoQWNjb3VudCwKICAgIGVkaXRpbmdQYXNzd29yZEFjY291bnQsCiAgICBoYW5kbGVTYXZlQWNjb3VudFBhc3N3b3JkLAogICAgaGFuZGxlU2F2ZUF1dGhBY2NvdW50LAogICAgaXNBY2NvdW50UGFzc3dvcmRTZXR1cE1vZGUsCiAgICBpc0FjY291bnRQYXNzd29yZFZpc2libGUsCiAgICBpc0NyZWF0aW5nQXV0aEFjY291bnQsCiAgICBpc1NhdmluZ0FjY291bnRQYXNzd29yZCwKICAgIGlzU2F2aW5nQXV0aEFjY291bnQsCiAgICBub3JtYWxpemVBdXRoQWNjb3VudCwKICAgIG9wZW5BY2NvdW50UGFzc3dvcmREaWFsb2csCiAgICBvcGVuQWNjb3VudFBhc3N3b3JkRGlhbG9nRnJvbVN3aXRjaCwKICAgIG9wZW5BdXRoQWNjb3VudERpYWxvZywKICAgIG9wZW5DcmVhdGVBdXRoQWNjb3VudERpYWxvZywKICAgIHBhc3N3b3JkU2VjdXJpdHlXYXJuaW5nLAogICAgcmVwbGFjZUF1dGhBY2NvdW50LAogICAgc2F2ZUFjY291bnRVc2VybmFtZSwKICAgIHNob3dBY2NvdW50UGFzc3dvcmREaWFsb2csCiAgICBzaG93QXV0aEFjY291bnREaWFsb2csCiAgICB1c2VybmFtZVNlY3VyaXR5V2FybmluZywKICAgIHZhbGlkYXRlQWNjb3VudFVzZXJuYW1lLAogIH07Cn07Cg==
+import { computed, ref, type Ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { ConfigAPI } from "@/lib/api/config";
+import type { AuthAccount, TOTPSubdomainAccess } from "@/types";
+
+export const useAuthAccountWorkflow = ({
+  authAccounts,
+  normalizeSubdomainAccess,
+  refreshAuthModePreview,
+  showAuthModeSwitchDialog,
+}: {
+  authAccounts: Ref<AuthAccount[]>;
+  normalizeSubdomainAccess: (value: unknown) => TOTPSubdomainAccess;
+  refreshAuthModePreview: () => Promise<void>;
+  showAuthModeSwitchDialog: Ref<boolean>;
+}) => {
+  const { t } = useI18n();
+  const showAuthAccountDialog = ref(false);
+  const showAccountPasswordDialog = ref(false);
+  const editingAuthAccount = ref<AuthAccount | null>(null);
+  const authAccountUsernameInput = ref("");
+  const isCreatingAuthAccount = ref(false);
+  const editingPasswordAccount = ref<AuthAccount | null>(null);
+  const accountPasswordUsernameInput = ref("");
+  const accountPasswordInput = ref("");
+  const isAccountPasswordVisible = ref(false);
+  const reopenAuthModeSwitchAfterPasswordSave = ref(false);
+
+  const { isPending: isSavingAccountPassword, run: runSaveAccountPassword } =
+    useAsyncAction({
+      onError: (error) => {
+        toast.error(
+          extractErrorMessage(
+            error,
+            t("admin.authSettings.accountPasswordSaveFailed"),
+          ),
+        );
+      },
+    });
+  const { isPending: isSavingAuthAccount, run: runSaveAuthAccount } =
+    useAsyncAction({
+      onError: (error) => {
+        toast.error(
+          extractErrorMessage(error, t("admin.authSettings.accountSaveFailed")),
+        );
+      },
+    });
+
+  const isAccountPasswordSetupMode = computed(
+    () =>
+      isCreatingAuthAccount.value ||
+      editingPasswordAccount.value?.passwordConfigured === false,
+  );
+
+  const accountPasswordDialogTitle = computed(() => {
+    if (isCreatingAuthAccount.value) {
+      return t("admin.authSettings.createAccount");
+    }
+    if (isAccountPasswordSetupMode.value) {
+      return t("admin.authSettings.setupAccountPassword");
+    }
+    return editingPasswordAccount.value?.passwordConfigured
+      ? t("admin.authSettings.changePassword")
+      : t("admin.authSettings.setPassword");
+  });
+
+  const accountPasswordDialogDescription = computed(() => {
+    if (isCreatingAuthAccount.value) {
+      return t("admin.authSettings.createAccountDescription");
+    }
+    if (isAccountPasswordSetupMode.value) {
+      return t("admin.authSettings.setupAccountPasswordDescription");
+    }
+    return t("admin.authSettings.accountPasswordDescription", {
+      username: editingPasswordAccount.value?.username || "",
+    });
+  });
+
+  const normalizeAuthAccount = (account: AuthAccount): AuthAccount => ({
+    ...account,
+    displayName: account.username,
+    access_scopes: account.access_scopes || [],
+    subdomain_access: normalizeSubdomainAccess(account.subdomain_access),
+    passwordConfigured: account.passwordConfigured === true,
+    totpConfigured: account.totpConfigured === true,
+  });
+
+  const replaceAuthAccount = (account: AuthAccount) => {
+    const normalized = normalizeAuthAccount(account);
+    const index = authAccounts.value.findIndex(
+      (item) => item.id === account.id,
+    );
+    if (index >= 0) {
+      authAccounts.value.splice(index, 1, normalized);
+      return;
+    }
+    authAccounts.value.push(normalized);
+  };
+
+  const validateAccountUsername = (value: string, account: AuthAccount) => {
+    const username = value.trim();
+    if (!username) {
+      return t("admin.authSettings.accountUsernameRequired");
+    }
+    const isDuplicate = authAccounts.value.some(
+      (item) => item.id !== account.id && item.username === username,
+    );
+    if (isDuplicate) {
+      return t("admin.authSettings.accountUsernameDuplicate");
+    }
+  };
+
+  const usernameSecurityWarning = (value: string) => {
+    const username = value.trim();
+    return username && username.length < 3
+      ? t("admin.authSettings.shortUsernameWarning")
+      : "";
+  };
+
+  const passwordSecurityWarning = (password: string) => {
+    if (!password) return "";
+    const hasLetters = /[A-Za-z]/.test(password);
+    const hasNumbers = /\d/.test(password);
+    return password.length < 6 ||
+      /\s/.test(password) ||
+      !hasLetters ||
+      !hasNumbers
+      ? t("admin.authSettings.weakPasswordWarning")
+      : "";
+  };
+
+  const openAuthAccountDialog = (account: AuthAccount) => {
+    editingAuthAccount.value = account;
+    authAccountUsernameInput.value = account.username;
+    showAuthAccountDialog.value = true;
+  };
+
+  const closeAuthAccountDialog = () => {
+    showAuthAccountDialog.value = false;
+    editingAuthAccount.value = null;
+    authAccountUsernameInput.value = "";
+  };
+
+  const openCreateAuthAccountDialog = () => {
+    isCreatingAuthAccount.value = true;
+    editingPasswordAccount.value = null;
+    reopenAuthModeSwitchAfterPasswordSave.value = false;
+    accountPasswordUsernameInput.value = "";
+    accountPasswordInput.value = "";
+    isAccountPasswordVisible.value = false;
+    showAccountPasswordDialog.value = true;
+  };
+
+  const handleSaveAuthAccount = async () => {
+    const account = editingAuthAccount.value;
+    if (!account) return;
+    const username = authAccountUsernameInput.value.trim();
+    const validationMessage = validateAccountUsername(username, account);
+    if (validationMessage) {
+      toast.error(validationMessage);
+      return;
+    }
+    await runSaveAuthAccount(async () => {
+      const updated = await ConfigAPI.updateAuthAccount(account.id, {
+        username,
+      });
+      replaceAuthAccount(updated);
+      closeAuthAccountDialog();
+      if (showAuthModeSwitchDialog.value) {
+        await refreshAuthModePreview();
+      }
+      toast.success(t("admin.authSettings.accountSaved"));
+    });
+  };
+
+  const saveAccountUsername = async (account: AuthAccount, value: string) => {
+    const username = value.trim();
+    try {
+      const updated = await ConfigAPI.updateAuthAccount(account.id, {
+        username,
+      });
+      replaceAuthAccount(updated);
+      if (showAuthModeSwitchDialog.value) {
+        await refreshAuthModePreview();
+      }
+      toast.success(t("admin.authSettings.accountSaved"));
+    } catch (error) {
+      throw new Error(
+        extractErrorMessage(error, t("admin.authSettings.accountSaveFailed")),
+        { cause: error },
+      );
+    }
+  };
+
+  const openAccountPasswordDialog = (
+    account: AuthAccount,
+    reopenSwitchAfterSave = false,
+  ) => {
+    isCreatingAuthAccount.value = false;
+    editingPasswordAccount.value = account;
+    reopenAuthModeSwitchAfterPasswordSave.value = reopenSwitchAfterSave;
+    accountPasswordUsernameInput.value = account.username;
+    accountPasswordInput.value = "";
+    isAccountPasswordVisible.value = false;
+    showAccountPasswordDialog.value = true;
+  };
+
+  const openAccountPasswordDialogFromSwitch = (account: AuthAccount) => {
+    showAuthModeSwitchDialog.value = false;
+    openAccountPasswordDialog(account, true);
+  };
+
+  const closeAccountPasswordDialog = () => {
+    showAccountPasswordDialog.value = false;
+    isCreatingAuthAccount.value = false;
+    editingPasswordAccount.value = null;
+    reopenAuthModeSwitchAfterPasswordSave.value = false;
+    accountPasswordUsernameInput.value = "";
+    accountPasswordInput.value = "";
+    isAccountPasswordVisible.value = false;
+  };
+
+  const handleSaveAccountPassword = async () => {
+    const account = editingPasswordAccount.value;
+    if (!isCreatingAuthAccount.value && !account) return;
+    const password = accountPasswordInput.value;
+    const username = accountPasswordUsernameInput.value.trim();
+    if (isAccountPasswordSetupMode.value && !username) {
+      toast.error(t("admin.authSettings.accountUsernameRequired"));
+      return;
+    }
+    if (!password) {
+      toast.error(t("admin.authSettings.accountPasswordRequired"));
+      return;
+    }
+
+    await runSaveAccountPassword(async () => {
+      let updated: AuthAccount | null = null;
+      const wasCreating = isCreatingAuthAccount.value;
+      if (isCreatingAuthAccount.value) {
+        updated = await ConfigAPI.createAuthAccount({ username, password });
+      } else if (isAccountPasswordSetupMode.value && account) {
+        updated = await ConfigAPI.setupAuthAccount(account.id, {
+          username,
+          password,
+        });
+      } else if (account) {
+        updated = await ConfigAPI.setAuthAccountPassword(account.id, password);
+      }
+      if (!updated) return;
+
+      const shouldReopenSwitch = reopenAuthModeSwitchAfterPasswordSave.value;
+      replaceAuthAccount(updated);
+      closeAccountPasswordDialog();
+      if (shouldReopenSwitch) {
+        showAuthModeSwitchDialog.value = true;
+        await refreshAuthModePreview();
+      } else if (showAuthModeSwitchDialog.value) {
+        await refreshAuthModePreview();
+      }
+      toast.success(
+        t(
+          wasCreating
+            ? "admin.authSettings.accountCreated"
+            : "admin.authSettings.accountPasswordSaved",
+        ),
+      );
+    });
+  };
+
+  return {
+    accountPasswordDialogDescription,
+    accountPasswordDialogTitle,
+    accountPasswordInput,
+    accountPasswordUsernameInput,
+    authAccountUsernameInput,
+    closeAccountPasswordDialog,
+    closeAuthAccountDialog,
+    editingAuthAccount,
+    editingPasswordAccount,
+    handleSaveAccountPassword,
+    handleSaveAuthAccount,
+    isAccountPasswordSetupMode,
+    isAccountPasswordVisible,
+    isCreatingAuthAccount,
+    isSavingAccountPassword,
+    isSavingAuthAccount,
+    normalizeAuthAccount,
+    openAccountPasswordDialog,
+    openAccountPasswordDialogFromSwitch,
+    openAuthAccountDialog,
+    openCreateAuthAccountDialog,
+    passwordSecurityWarning,
+    replaceAuthAccount,
+    saveAccountUsername,
+    showAccountPasswordDialog,
+    showAuthAccountDialog,
+    usernameSecurityWarning,
+    validateAccountUsername,
+  };
+};

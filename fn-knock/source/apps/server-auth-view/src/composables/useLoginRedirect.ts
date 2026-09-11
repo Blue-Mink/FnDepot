@@ -1,1 +1,125 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gInZ1ZS1yb3V0ZXIiOwppbXBvcnQgdHlwZSB7IEF1dGhHcmFudFR5cGUgfSBmcm9tICJAZnJvbnRlbmQtY29yZS9hdXRoL3R5cGVzIjsKaW1wb3J0IHsKICBndWFyZEF1dGhBdXRvUmVkaXJlY3QsCiAgcmVzZXRBdXRoQXV0b1JlZGlyZWN0R3VhcmQsCiAgdHlwZSBBdXRoUmVkaXJlY3RCbG9ja1JlYXNvbiwKICB0eXBlIFJlZGlyZWN0R3VhcmRTdG9yYWdlLAp9IGZyb20gIkAvbGliL2F1dGgtcmVkaXJlY3QtZ3VhcmQiOwppbXBvcnQgeyBtYXJrUGVuZGluZ0xvZ291dERlbGF5IH0gZnJvbSAiQC9saWIvcG9zdC1sb2dpbiI7CgpleHBvcnQgY29uc3QgdXNlTG9naW5SZWRpcmVjdCA9ICh7CiAgdHJhbnNsYXRlLAp9OiB7CiAgdHJhbnNsYXRlOiAoa2V5OiBzdHJpbmcpID0+IHN0cmluZzsKfSkgPT4gewogIGNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpOwogIGNvbnN0IHF1ZXJ5UGFyYW1zID0KICAgIHR5cGVvZiB3aW5kb3cgIT09ICJ1bmRlZmluZWQiCiAgICAgID8gbmV3IFVSTFNlYXJjaFBhcmFtcyh3aW5kb3cubG9jYXRpb24uc2VhcmNoKQogICAgICA6IG51bGw7CiAgY29uc3QgcmVkaXJlY3RVcmkgPSBxdWVyeVBhcmFtcz8uZ2V0KCJyZWRpcmVjdF91cmkiKSA/PyBudWxsOwogIGNvbnN0IHN1cHByZXNzQXV0b1JlZGlyZWN0ID0gcXVlcnlQYXJhbXM/LmdldCgibG9nZ2VkX291dCIpID09PSAiMSI7CiAgY29uc3QgYm9vdHN0cmFwR3JhbnRUeXBlID0gcmVmPEF1dGhHcmFudFR5cGUgfCB1bmRlZmluZWQ+KCk7CiAgY29uc3QgcmVkaXJlY3RHdWFyZEJsb2NrUmVhc29uID0gcmVmPEF1dGhSZWRpcmVjdEJsb2NrUmVhc29uIHwgbnVsbD4obnVsbCk7CgogIGNvbnN0IGxvZ291dE5vdGljZSA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGlmICghc3VwcHJlc3NBdXRvUmVkaXJlY3QpIHJldHVybiAiIjsKICAgIHN3aXRjaCAoYm9vdHN0cmFwR3JhbnRUeXBlLnZhbHVlKSB7CiAgICAgIGNhc2UgImxvZ2luX2lwX2dyYW50IjoKICAgICAgICByZXR1cm4gdHJhbnNsYXRlKCJhdXRoLmxvZ2dlZE91dExvZ2luSXBHcmFudCIpOwogICAgICBjYXNlICJtYW51YWxfd2hpdGVsaXN0IjoKICAgICAgICByZXR1cm4gdHJhbnNsYXRlKCJhdXRoLmxvZ2dlZE91dE1hbnVhbFdoaXRlbGlzdCIpOwogICAgICBjYXNlICJsb2NhbF9leGVtcHQiOgogICAgICAgIHJldHVybiB0cmFuc2xhdGUoImF1dGgubG9nZ2VkT3V0TG9jYWxFeGVtcHQiKTsKICAgICAgZGVmYXVsdDoKICAgICAgICByZXR1cm4gdHJhbnNsYXRlKCJhdXRoLmxvZ2dlZE91dERlZmF1bHQiKTsKICAgIH0KICB9KTsKCiAgY29uc3QgcmVkaXJlY3RHdWFyZE5vdGljZSA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGlmICghcmVkaXJlY3RHdWFyZEJsb2NrUmVhc29uLnZhbHVlKSByZXR1cm4gIiI7CiAgICByZXR1cm4gcmVkaXJlY3RHdWFyZEJsb2NrUmVhc29uLnZhbHVlID09PSAicmVwZWF0X3JlZGlyZWN0IgogICAgICA/IHRyYW5zbGF0ZSgiYXV0aC5yZWRpcmVjdExvb3BCbG9ja2VkIikKICAgICAgOiB0cmFuc2xhdGUoImF1dGgucmVkaXJlY3RUYXJnZXRCbG9ja2VkIik7CiAgfSk7CgogIGNvbnN0IGdldFJlZGlyZWN0R3VhcmRTdG9yYWdlID0gKCk6IFJlZGlyZWN0R3VhcmRTdG9yYWdlIHwgbnVsbCA9PiB7CiAgICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHJldHVybiBudWxsOwogICAgdHJ5IHsKICAgICAgcmV0dXJuIHdpbmRvdy5zZXNzaW9uU3RvcmFnZTsKICAgIH0gY2F0Y2ggewogICAgICByZXR1cm4gbnVsbDsKICAgIH0KICB9OwoKICBjb25zdCByZXNldFJlZGlyZWN0R3VhcmQgPSAoKSA9PiB7CiAgICByZXNldEF1dGhBdXRvUmVkaXJlY3RHdWFyZChnZXRSZWRpcmVjdEd1YXJkU3RvcmFnZSgpKTsKICAgIHJlZGlyZWN0R3VhcmRCbG9ja1JlYXNvbi52YWx1ZSA9IG51bGw7CiAgfTsKCiAgY29uc3QgbmF2aWdhdGVBZnRlckJvb3RzdHJhcCA9IGFzeW5jICh7CiAgICBhdXRoZW50aWNhdGVkLAogICAgcmVkaXJlY3RUbywKICB9OiB7CiAgICBhdXRoZW50aWNhdGVkOiBib29sZWFuOwogICAgcmVkaXJlY3RUbz86IHN0cmluZyB8IG51bGw7CiAgfSkgPT4gewogICAgaWYgKHN1cHByZXNzQXV0b1JlZGlyZWN0KSByZXR1cm4gZmFsc2U7CgogICAgaWYgKHJlZGlyZWN0VG8pIHsKICAgICAgY29uc3QgZGVjaXNpb24gPSBndWFyZEF1dGhBdXRvUmVkaXJlY3QoewogICAgICAgIHJlZGlyZWN0VG8sCiAgICAgICAgY3VycmVudFVybDogd2luZG93LmxvY2F0aW9uLmhyZWYsCiAgICAgICAgc3RvcmFnZTogZ2V0UmVkaXJlY3RHdWFyZFN0b3JhZ2UoKSwKICAgICAgfSk7CiAgICAgIGlmICghZGVjaXNpb24uYWxsb3dlZCkgewogICAgICAgIHJlZGlyZWN0R3VhcmRCbG9ja1JlYXNvbi52YWx1ZSA9IGRlY2lzaW9uLnJlYXNvbjsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgfQogICAgICB3aW5kb3cubG9jYXRpb24ucmVwbGFjZShkZWNpc2lvbi5yZWRpcmVjdFVybCk7CiAgICAgIHJldHVybiB0cnVlOwogICAgfQoKICAgIGlmIChhdXRoZW50aWNhdGVkKSB7CiAgICAgIGF3YWl0IHJvdXRlci5yZXBsYWNlKCIvIik7CiAgICAgIHJldHVybiB0cnVlOwogICAgfQogICAgcmV0dXJuIGZhbHNlOwogIH07CgogIGNvbnN0IGNvbXBsZXRlTG9naW4gPSAocnVuVHlwZTogMCB8IDEgfCAzLCByZWRpcmVjdFRvPzogc3RyaW5nIHwgbnVsbCkgPT4gewogICAgcmVzZXRSZWRpcmVjdEd1YXJkKCk7CiAgICBtYXJrUGVuZGluZ0xvZ291dERlbGF5KCk7CiAgICBpZiAocmVkaXJlY3RUbykgewogICAgICBjb25zdCBkZWNpc2lvbiA9IGd1YXJkQXV0aEF1dG9SZWRpcmVjdCh7CiAgICAgICAgcmVkaXJlY3RUbywKICAgICAgICBjdXJyZW50VXJsOiB3aW5kb3cubG9jYXRpb24uaHJlZiwKICAgICAgICBzdG9yYWdlOiBnZXRSZWRpcmVjdEd1YXJkU3RvcmFnZSgpLAogICAgICB9KTsKICAgICAgaWYgKCFkZWNpc2lvbi5hbGxvd2VkKSB7CiAgICAgICAgcmVkaXJlY3RHdWFyZEJsb2NrUmVhc29uLnZhbHVlID0gZGVjaXNpb24ucmVhc29uOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICB3aW5kb3cubG9jYXRpb24ucmVwbGFjZShkZWNpc2lvbi5yZWRpcmVjdFVybCk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGlmIChydW5UeXBlID09PSAwKSB7CiAgICAgIHZvaWQgcm91dGVyLnJlcGxhY2UoIi8iKTsKICAgIH0gZWxzZSB7CiAgICAgIHdpbmRvdy5sb2NhdGlvbi5yZXBsYWNlKCIvIik7CiAgICB9CiAgfTsKCiAgcmV0dXJuIHsKICAgIGJvb3RzdHJhcEdyYW50VHlwZSwKICAgIGNvbXBsZXRlTG9naW4sCiAgICBsb2dvdXROb3RpY2UsCiAgICBuYXZpZ2F0ZUFmdGVyQm9vdHN0cmFwLAogICAgcmVkaXJlY3RHdWFyZE5vdGljZSwKICAgIHJlZGlyZWN0VXJpLAogICAgcmVzZXRSZWRpcmVjdEd1YXJkLAogICAgc3VwcHJlc3NBdXRvUmVkaXJlY3QsCiAgfTsKfTsK
+import { computed, ref } from "vue";
+import { useRouter } from "vue-router";
+import type { AuthGrantType } from "@frontend-core/auth/types";
+import {
+  guardAuthAutoRedirect,
+  resetAuthAutoRedirectGuard,
+  type AuthRedirectBlockReason,
+  type RedirectGuardStorage,
+} from "@/lib/auth-redirect-guard";
+import { markPendingLogoutDelay } from "@/lib/post-login";
+
+export const useLoginRedirect = ({
+  translate,
+}: {
+  translate: (key: string) => string;
+}) => {
+  const router = useRouter();
+  const queryParams =
+    typeof window !== "undefined"
+      ? new URLSearchParams(window.location.search)
+      : null;
+  const redirectUri = queryParams?.get("redirect_uri") ?? null;
+  const suppressAutoRedirect = queryParams?.get("logged_out") === "1";
+  const bootstrapGrantType = ref<AuthGrantType | undefined>();
+  const redirectGuardBlockReason = ref<AuthRedirectBlockReason | null>(null);
+
+  const logoutNotice = computed(() => {
+    if (!suppressAutoRedirect) return "";
+    switch (bootstrapGrantType.value) {
+      case "login_ip_grant":
+        return translate("auth.loggedOutLoginIpGrant");
+      case "manual_whitelist":
+        return translate("auth.loggedOutManualWhitelist");
+      case "local_exempt":
+        return translate("auth.loggedOutLocalExempt");
+      default:
+        return translate("auth.loggedOutDefault");
+    }
+  });
+
+  const redirectGuardNotice = computed(() => {
+    if (!redirectGuardBlockReason.value) return "";
+    return redirectGuardBlockReason.value === "repeat_redirect"
+      ? translate("auth.redirectLoopBlocked")
+      : translate("auth.redirectTargetBlocked");
+  });
+
+  const getRedirectGuardStorage = (): RedirectGuardStorage | null => {
+    if (typeof window === "undefined") return null;
+    try {
+      return window.sessionStorage;
+    } catch {
+      return null;
+    }
+  };
+
+  const resetRedirectGuard = () => {
+    resetAuthAutoRedirectGuard(getRedirectGuardStorage());
+    redirectGuardBlockReason.value = null;
+  };
+
+  const navigateAfterBootstrap = async ({
+    authenticated,
+    redirectTo,
+  }: {
+    authenticated: boolean;
+    redirectTo?: string | null;
+  }) => {
+    if (suppressAutoRedirect) return false;
+
+    if (redirectTo) {
+      const decision = guardAuthAutoRedirect({
+        redirectTo,
+        currentUrl: window.location.href,
+        storage: getRedirectGuardStorage(),
+      });
+      if (!decision.allowed) {
+        redirectGuardBlockReason.value = decision.reason;
+        return true;
+      }
+      window.location.replace(decision.redirectUrl);
+      return true;
+    }
+
+    if (authenticated) {
+      await router.replace("/");
+      return true;
+    }
+    return false;
+  };
+
+  const completeLogin = (runType: 0 | 1 | 3, redirectTo?: string | null) => {
+    resetRedirectGuard();
+    markPendingLogoutDelay();
+    if (redirectTo) {
+      const decision = guardAuthAutoRedirect({
+        redirectTo,
+        currentUrl: window.location.href,
+        storage: getRedirectGuardStorage(),
+      });
+      if (!decision.allowed) {
+        redirectGuardBlockReason.value = decision.reason;
+        return;
+      }
+      window.location.replace(decision.redirectUrl);
+      return;
+    }
+    if (runType === 0) {
+      void router.replace("/");
+    } else {
+      window.location.replace("/");
+    }
+  };
+
+  return {
+    bootstrapGrantType,
+    completeLogin,
+    logoutNotice,
+    navigateAfterBootstrap,
+    redirectGuardNotice,
+    redirectUri,
+    resetRedirectGuard,
+    suppressAutoRedirect,
+  };
+};

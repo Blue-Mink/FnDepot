@@ -1,1 +1,100 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgdGVzdCBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgeyBjcmVhdGVWaXNpYmlsaXR5UG9sbGVyIH0gZnJvbSAiLi4vc3JjL2NvbXBvc2FibGVzL3VzZVZpc2liaWxpdHlQb2xsaW5nIjsKCnRlc3QoInZpc2liaWxpdHkgcG9sbGVyIGRvZXMgbm90IG92ZXJsYXAgcmVmcmVzaCByZXF1ZXN0cyIsIGFzeW5jICgpID0+IHsKICBsZXQgY2FsbHMgPSAwOwogIGxldCBmaW5pc2ghOiAoKSA9PiB2b2lkOwogIGNvbnN0IHBvbGxlciA9IGNyZWF0ZVZpc2liaWxpdHlQb2xsZXIoewogICAgaW50ZXJ2YWxNczogNjBfMDAwLAogICAgaW1tZWRpYXRlOiBmYWxzZSwKICAgIHRhc2s6IGFzeW5jICgpID0+IHsKICAgICAgY2FsbHMgKz0gMTsKICAgICAgYXdhaXQgbmV3IFByb21pc2U8dm9pZD4oKHJlc29sdmUpID0+IHsKICAgICAgICBmaW5pc2ggPSByZXNvbHZlOwogICAgICB9KTsKICAgIH0sCiAgfSk7CiAgcG9sbGVyLnN0YXJ0KCk7CiAgY29uc3QgZmlyc3QgPSBwb2xsZXIucmVmcmVzaCgpOwogIGNvbnN0IHNlY29uZCA9IHBvbGxlci5yZWZyZXNoKCk7CiAgYXdhaXQgUHJvbWlzZS5yZXNvbHZlKCk7CiAgYXNzZXJ0LmVxdWFsKGNhbGxzLCAxKTsKICBmaW5pc2goKTsKICBhd2FpdCBQcm9taXNlLmFsbChbZmlyc3QsIHNlY29uZF0pOwogIHBvbGxlci5zdG9wKCk7Cn0pOwoKdGVzdCgidmlzaWJpbGl0eSBwb2xsZXIgYWJvcnRzIGFuIGluLWZsaWdodCB0YXNrIHdoZW4gc3RvcHBlZCIsIGFzeW5jICgpID0+IHsKICBsZXQgb2JzZXJ2ZWRTaWduYWw6IEFib3J0U2lnbmFsIHwgbnVsbCA9IG51bGw7CiAgY29uc3QgcG9sbGVyID0gY3JlYXRlVmlzaWJpbGl0eVBvbGxlcih7CiAgICBpbnRlcnZhbE1zOiA2MF8wMDAsCiAgICBpbW1lZGlhdGU6IGZhbHNlLAogICAgdGFzazogKHNpZ25hbCkgPT4gewogICAgICBvYnNlcnZlZFNpZ25hbCA9IHNpZ25hbDsKICAgICAgcmV0dXJuIG5ldyBQcm9taXNlPHZvaWQ+KChyZXNvbHZlKSA9PiB7CiAgICAgICAgc2lnbmFsLmFkZEV2ZW50TGlzdGVuZXIoImFib3J0IiwgKCkgPT4gcmVzb2x2ZSgpLCB7IG9uY2U6IHRydWUgfSk7CiAgICAgIH0pOwogICAgfSwKICB9KTsKICBwb2xsZXIuc3RhcnQoKTsKICBjb25zdCBwZW5kaW5nID0gcG9sbGVyLnJlZnJlc2goKTsKICBhd2FpdCBQcm9taXNlLnJlc29sdmUoKTsKICBwb2xsZXIuc3RvcCgpOwogIGF3YWl0IHBlbmRpbmc7CiAgYXNzZXJ0LmVxdWFsKG9ic2VydmVkU2lnbmFsPy5hYm9ydGVkLCB0cnVlKTsKfSk7Cgp0ZXN0KCJ2aXNpYmlsaXR5IHBvbGxlciBhYm9ydHMgb2Jzb2xldGUgd29yayBiZWZvcmUgcmVzY2hlZHVsaW5nIiwgYXN5bmMgKCkgPT4gewogIGNvbnN0IHNpZ25hbHM6IEFib3J0U2lnbmFsW10gPSBbXTsKICBjb25zdCBwb2xsZXIgPSBjcmVhdGVWaXNpYmlsaXR5UG9sbGVyKHsKICAgIGludGVydmFsTXM6IDYwXzAwMCwKICAgIGltbWVkaWF0ZTogZmFsc2UsCiAgICB0YXNrOiAoc2lnbmFsKSA9PiB7CiAgICAgIHNpZ25hbHMucHVzaChzaWduYWwpOwogICAgICBpZiAoc2lnbmFscy5sZW5ndGggPiAxKSByZXR1cm4gUHJvbWlzZS5yZXNvbHZlKCk7CiAgICAgIHJldHVybiBuZXcgUHJvbWlzZTx2b2lkPigocmVzb2x2ZSkgPT4gewogICAgICAgIHNpZ25hbC5hZGRFdmVudExpc3RlbmVyKCJhYm9ydCIsICgpID0+IHJlc29sdmUoKSwgeyBvbmNlOiB0cnVlIH0pOwogICAgICB9KTsKICAgIH0sCiAgfSk7CiAgcG9sbGVyLnN0YXJ0KCk7CiAgY29uc3QgcGVuZGluZyA9IHBvbGxlci5yZWZyZXNoKCk7CiAgYXdhaXQgUHJvbWlzZS5yZXNvbHZlKCk7CiAgcG9sbGVyLnN5bmMoKTsKICBhd2FpdCBwZW5kaW5nOwogIGF3YWl0IG5ldyBQcm9taXNlKChyZXNvbHZlKSA9PiBzZXRUaW1lb3V0KHJlc29sdmUsIDUpKTsKICBhc3NlcnQuZXF1YWwoc2lnbmFsc1swXT8uYWJvcnRlZCwgdHJ1ZSk7CiAgYXNzZXJ0LmVxdWFsKHNpZ25hbHMubGVuZ3RoLCAyKTsKICBwb2xsZXIuc3RvcCgpOwp9KTsKCnRlc3QoInZpc2liaWxpdHkgcG9sbGVyIGRpc2NhcmRzIHF1ZXVlZCByZWZyZXNoZXMgd2hlbiBhIGN5Y2xlIGlzIHBhdXNlZCIsIGFzeW5jICgpID0+IHsKICBsZXQgZW5hYmxlZCA9IHRydWU7CiAgbGV0IGNhbGxzID0gMDsKICBjb25zdCBwb2xsZXIgPSBjcmVhdGVWaXNpYmlsaXR5UG9sbGVyKHsKICAgIGludGVydmFsTXM6IDYwXzAwMCwKICAgIGltbWVkaWF0ZTogZmFsc2UsCiAgICBlbmFibGVkOiAoKSA9PiBlbmFibGVkLAogICAgdGFzazogKHNpZ25hbCkgPT4gewogICAgICBjYWxscyArPSAxOwogICAgICBpZiAoY2FsbHMgPiAxKSByZXR1cm4gUHJvbWlzZS5yZXNvbHZlKCk7CiAgICAgIHJldHVybiBuZXcgUHJvbWlzZTx2b2lkPigocmVzb2x2ZSkgPT4gewogICAgICAgIHNpZ25hbC5hZGRFdmVudExpc3RlbmVyKCJhYm9ydCIsICgpID0+IHJlc29sdmUoKSwgeyBvbmNlOiB0cnVlIH0pOwogICAgICB9KTsKICAgIH0sCiAgfSk7CiAgcG9sbGVyLnN0YXJ0KCk7CiAgY29uc3QgcGVuZGluZyA9IHBvbGxlci5yZWZyZXNoKCk7CiAgYXdhaXQgUHJvbWlzZS5yZXNvbHZlKCk7CiAgdm9pZCBwb2xsZXIucmVmcmVzaCgpOwogIGVuYWJsZWQgPSBmYWxzZTsKICBwb2xsZXIuc3luYygpOwogIGF3YWl0IHBlbmRpbmc7CgogIGVuYWJsZWQgPSB0cnVlOwogIHBvbGxlci5zeW5jKCk7CiAgYXdhaXQgbmV3IFByb21pc2UoKHJlc29sdmUpID0+IHNldFRpbWVvdXQocmVzb2x2ZSwgMTApKTsKICBhc3NlcnQuZXF1YWwoY2FsbHMsIDIpOwogIHBvbGxlci5zdG9wKCk7Cn0pOwo=
+import assert from "node:assert/strict";
+import test from "node:test";
+import { createVisibilityPoller } from "../src/composables/useVisibilityPolling";
+
+test("visibility poller does not overlap refresh requests", async () => {
+  let calls = 0;
+  let finish!: () => void;
+  const poller = createVisibilityPoller({
+    intervalMs: 60_000,
+    immediate: false,
+    task: async () => {
+      calls += 1;
+      await new Promise<void>((resolve) => {
+        finish = resolve;
+      });
+    },
+  });
+  poller.start();
+  const first = poller.refresh();
+  const second = poller.refresh();
+  await Promise.resolve();
+  assert.equal(calls, 1);
+  finish();
+  await Promise.all([first, second]);
+  poller.stop();
+});
+
+test("visibility poller aborts an in-flight task when stopped", async () => {
+  let observedSignal: AbortSignal | null = null;
+  const poller = createVisibilityPoller({
+    intervalMs: 60_000,
+    immediate: false,
+    task: (signal) => {
+      observedSignal = signal;
+      return new Promise<void>((resolve) => {
+        signal.addEventListener("abort", () => resolve(), { once: true });
+      });
+    },
+  });
+  poller.start();
+  const pending = poller.refresh();
+  await Promise.resolve();
+  poller.stop();
+  await pending;
+  assert.equal(observedSignal?.aborted, true);
+});
+
+test("visibility poller aborts obsolete work before rescheduling", async () => {
+  const signals: AbortSignal[] = [];
+  const poller = createVisibilityPoller({
+    intervalMs: 60_000,
+    immediate: false,
+    task: (signal) => {
+      signals.push(signal);
+      if (signals.length > 1) return Promise.resolve();
+      return new Promise<void>((resolve) => {
+        signal.addEventListener("abort", () => resolve(), { once: true });
+      });
+    },
+  });
+  poller.start();
+  const pending = poller.refresh();
+  await Promise.resolve();
+  poller.sync();
+  await pending;
+  await new Promise((resolve) => setTimeout(resolve, 5));
+  assert.equal(signals[0]?.aborted, true);
+  assert.equal(signals.length, 2);
+  poller.stop();
+});
+
+test("visibility poller discards queued refreshes when a cycle is paused", async () => {
+  let enabled = true;
+  let calls = 0;
+  const poller = createVisibilityPoller({
+    intervalMs: 60_000,
+    immediate: false,
+    enabled: () => enabled,
+    task: (signal) => {
+      calls += 1;
+      if (calls > 1) return Promise.resolve();
+      return new Promise<void>((resolve) => {
+        signal.addEventListener("abort", () => resolve(), { once: true });
+      });
+    },
+  });
+  poller.start();
+  const pending = poller.refresh();
+  await Promise.resolve();
+  void poller.refresh();
+  enabled = false;
+  poller.sync();
+  await pending;
+
+  enabled = true;
+  poller.sync();
+  await new Promise((resolve) => setTimeout(resolve, 10));
+  assert.equal(calls, 2);
+  poller.stop();
+});

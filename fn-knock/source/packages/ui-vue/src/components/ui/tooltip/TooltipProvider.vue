@@ -1,1 +1,14 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgVG9vbHRpcFByb3ZpZGVyUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBUb29sdGlwUHJvdmlkZXIgfSBmcm9tICJyZWthLXVpIgoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoZGVmaW5lUHJvcHM8VG9vbHRpcFByb3ZpZGVyUHJvcHM+KCksIHsKICBkZWxheUR1cmF0aW9uOiAwLAp9KQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8VG9vbHRpcFByb3ZpZGVyIHYtYmluZD0icHJvcHMiPgogICAgPHNsb3QgLz4KICA8L1Rvb2x0aXBQcm92aWRlcj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { TooltipProviderProps } from "reka-ui"
+import { TooltipProvider } from "reka-ui"
+
+const props = withDefaults(defineProps<TooltipProviderProps>(), {
+  delayDuration: 0,
+})
+</script>
+
+<template>
+  <TooltipProvider v-bind="props">
+    <slot />
+  </TooltipProvider>
+</template>

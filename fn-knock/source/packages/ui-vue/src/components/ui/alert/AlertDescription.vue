@@ -1,1 +1,17 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgZGF0YS1zbG90PSJhbGVydC1kZXNjcmlwdGlvbiIKICAgIDpjbGFzcz0iY24oJ3RleHQtbXV0ZWQtZm9yZWdyb3VuZCBjb2wtc3RhcnQtMiBncmlkIGp1c3RpZnktaXRlbXMtc3RhcnQgZ2FwLTEgdGV4dC1zbSBbJl9wXTpsZWFkaW5nLXJlbGF4ZWQnLCBwcm9wcy5jbGFzcykiCiAgPgogICAgPHNsb3QgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <div
+    data-slot="alert-description"
+    :class="cn('text-muted-foreground col-start-2 grid justify-items-start gap-1 text-sm [&_p]:leading-relaxed', props.class)"
+  >
+    <slot />
+  </div>
+</template>

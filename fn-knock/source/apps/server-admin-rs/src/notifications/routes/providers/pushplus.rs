@@ -1,1 +1,137 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIHB1c2hwbHVzX2RlZmluaXRpb24oKSAtPiBQcm92aWRlckRlZmluaXRpb24gewogICAgUHJvdmlkZXJEZWZpbml0aW9uIHsKICAgICAgICBwcm92aWRlcl90eXBlOiAicHVzaHBsdXMiLAogICAgICAgIGxhYmVsOiAiUHVzaFBsdXMiLAogICAgICAgIGRlc2NyaXB0aW9uOiAiU2VuZCBub3RpZmljYXRpb25zIHRocm91Z2ggUHVzaFBsdXMuIiwKICAgICAgICBjb25uZWN0aW9uX3NjaGVtYTogdmVjIVsKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgKICAgICAgICAgICAgICAgICJzZXJ2ZXJfdXJsIiwKICAgICAgICAgICAgICAgICJTZXJ2ZXIgVVJMIiwKICAgICAgICAgICAgICAgIHRydWUsCiAgICAgICAgICAgICAgICBmYWxzZSwKICAgICAgICAgICAgICAgIFNvbWUoImh0dHBzOi8vd3d3LnB1c2hwbHVzLnBsdXMiKSwKICAgICAgICAgICAgKQogICAgICAgICAgICAucGxhY2Vob2xkZXIoImh0dHBzOi8vd3d3LnB1c2hwbHVzLnBsdXMiKSwKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgidG9rZW4iLCAiVG9rZW4iLCB0cnVlLCB0cnVlLCBOb25lKQogICAgICAgICAgICAgICAgLnBsYWNlaG9sZGVyKCJ4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eCIpLAogICAgICAgICAgICBudW1iZXJfc2NoZW1hKCJ0aW1lb3V0X3NlY29uZHMiLCAiVGltZW91dCBzZWNvbmRzIiwgdHJ1ZSwgU29tZSg1KSkuYm91bmRzKDEsIDMwKSwKICAgICAgICBdLAogICAgICAgIHRhcmdldF9zY2hlbWE6IHZlYyFbCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoInRvcGljIiwgIlRvcGljIiwgZmFsc2UsIGZhbHNlLCBOb25lKS5wbGFjZWhvbGRlcigiYWxhcm0tdG9waWMiKSwKICAgICAgICAgICAgc2VsZWN0X3NjaGVtYSgKICAgICAgICAgICAgICAgICJ0ZW1wbGF0ZSIsCiAgICAgICAgICAgICAgICAiVGVtcGxhdGUiLAogICAgICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgICAgICBTb21lKCJtYXJrZG93biIpLAogICAgICAgICAgICAgICAgJlsibWFya2Rvd24iLCAiaHRtbCIsICJ0eHQiLCAianNvbiJdLAogICAgICAgICAgICApLAogICAgICAgICAgICBzZWxlY3Rfc2NoZW1hKAogICAgICAgICAgICAgICAgImNoYW5uZWwiLAogICAgICAgICAgICAgICAgIkNoYW5uZWwiLAogICAgICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgICAgICBTb21lKCJ3ZWNoYXQiKSwKICAgICAgICAgICAgICAgICZbCiAgICAgICAgICAgICAgICAgICAgIndlY2hhdCIsCiAgICAgICAgICAgICAgICAgICAgIndlYmhvb2siLAogICAgICAgICAgICAgICAgICAgICJjcCIsCiAgICAgICAgICAgICAgICAgICAgIm1haWwiLAogICAgICAgICAgICAgICAgICAgICJzbXMiLAogICAgICAgICAgICAgICAgICAgICJ2b2ljZSIsCiAgICAgICAgICAgICAgICAgICAgImV4dGVuc2lvbiIsCiAgICAgICAgICAgICAgICAgICAgImFwcCIsCiAgICAgICAgICAgICAgICAgICAgImNsYXdib3QiLAogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgc3RyaW5nX3NjaGVtYSgib3B0aW9uIiwgIk9wdGlvbiIsIGZhbHNlLCBmYWxzZSwgTm9uZSkucGxhY2Vob2xkZXIoIm15LWNoYW5uZWwtY29kZSIpLAogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJ0byIsICJSZWNpcGllbnQiLCBmYWxzZSwgZmFsc2UsIE5vbmUpCiAgICAgICAgICAgICAgICAucGxhY2Vob2xkZXIoImZyaWVuZF90b2tlbiBvciB1c2VyMSx1c2VyMiIpLAogICAgICAgICAgICBzdHJpbmdfc2NoZW1hKCJjYWxsYmFja191cmwiLCAiQ2FsbGJhY2sgVVJMIiwgZmFsc2UsIGZhbHNlLCBOb25lKQogICAgICAgICAgICAgICAgLnBsYWNlaG9sZGVyKCJodHRwczovL2V4YW1wbGUuY29tL2hvb2tzL3B1c2hwbHVzIiksCiAgICAgICAgICAgIHN0cmluZ19zY2hlbWEoInByZSIsICJQcmUiLCBmYWxzZSwgZmFsc2UsIE5vbmUpLnBsYWNlaG9sZGVyKCJhcHBlbmRNc2ciKSwKICAgICAgICBdLAogICAgICAgIHNlbnNpdGl2ZV9maWVsZHM6IHZlYyFbInRva2VuIl0sCiAgICAgICAgc3VwcG9ydHNfbWFya2Rvd246IHRydWUsCiAgICAgICAgc3VwcG9ydHNfYWN0aW9uczogdHJ1ZSwKICAgICAgICBzdXBwb3J0c19tZW50aW9uczogZmFsc2UsCiAgICAgICAgc3VwcG9ydHNfcHJvdmlkZXJfZGVkdXBlX2tleTogZmFsc2UsCiAgICB9Cn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBhc3luYyBmbiBzZW5kX3B1c2hwbHVzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHByb3ZpZGVyOiAmVmFsdWUsCiAgICB0YXJnZXQ6ICZWYWx1ZSwKICAgIG1lc3NhZ2U6ICZWYWx1ZSwKICAgIHRpbWVvdXRfc2Vjb25kczogaTY0LAopIC0+IFByb3ZpZGVyVGVzdFJlc3VsdCB7CiAgICBsZXQgY29uZmlnID0gcHJvdmlkZXJfY29uZmlnKHByb3ZpZGVyKTsKICAgIGxldCB0YXJnZXRfY29uZmlnID0gdGFyZ2V0X2NvbmZpZyh0YXJnZXQpOwogICAgbGV0IHRva2VuID0gY29uZmlnX3RleHQoJmNvbmZpZywgInRva2VuIik7CiAgICBpZiB0b2tlbi5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gbWlzc2luZ19jb25maWdfcmVzdWx0KCZub3RpZmljYXRpb25fcHJvdmlkZXJfZXJyb3JfZGVmYXVsdCgKICAgICAgICAgICAgInB1c2hwbHVzIiwKICAgICAgICAgICAgIm1pc3NpbmdUb2tlbiIsCiAgICAgICAgICAgICZbXSwKICAgICAgICApKTsKICAgIH0KICAgIGxldCB1cmwgPSByZXNvbHZlX3B1c2hwbHVzX3VybCgmZGVmYXVsdF9zdHJpbmcoCiAgICAgICAgY29uZmlnX3RleHQoJmNvbmZpZywgInNlcnZlcl91cmwiKSwKICAgICAgICAiaHR0cHM6Ly93d3cucHVzaHBsdXMucGx1cyIsCiAgICApKTsKICAgIGxldCB0ZW1wbGF0ZSA9IG1hdGNoIGNvbmZpZ190ZXh0KCZ0YXJnZXRfY29uZmlnLCAidGVtcGxhdGUiKS5hc19zdHIoKSB7CiAgICAgICAgImh0bWwiID0+ICJodG1sIiwKICAgICAgICAidHh0IiA9PiAidHh0IiwKICAgICAgICAianNvbiIgPT4gImpzb24iLAogICAgICAgIF8gPT4gIm1hcmtkb3duIiwKICAgIH07CiAgICBsZXQgY2hhbm5lbCA9IGRlZmF1bHRfc3RyaW5nKGNvbmZpZ190ZXh0KCZ0YXJnZXRfY29uZmlnLCAiY2hhbm5lbCIpLCAid2VjaGF0Iik7CiAgICBsZXQgdG9waWMgPSBjb25maWdfdGV4dCgmdGFyZ2V0X2NvbmZpZywgInRvcGljIik7CiAgICBsZXQgb3B0aW9uID0gY29uZmlnX3RleHQoJnRhcmdldF9jb25maWcsICJvcHRpb24iKTsKICAgIGxldCB0byA9IGNvbmZpZ190ZXh0KCZ0YXJnZXRfY29uZmlnLCAidG8iKTsKICAgIGxldCBjYWxsYmFja191cmwgPSBjb25maWdfdGV4dCgmdGFyZ2V0X2NvbmZpZywgImNhbGxiYWNrX3VybCIpOwogICAgbGV0IHByZSA9IGNvbmZpZ190ZXh0KCZ0YXJnZXRfY29uZmlnLCAicHJlIik7CiAgICBsZXQgdGl0bGUgPSB0cnVuY2F0ZV90ZXh0KCZtZXNzYWdlX3RpdGxlKG1lc3NhZ2UpLCAxMjgpOwogICAgbGV0IGNvbnRlbnQgPSBtYXRjaCB0ZW1wbGF0ZSB7CiAgICAgICAgImh0bWwiID0+IGJ1aWxkX3B1c2hwbHVzX2h0bWxfY29udGVudChtZXNzYWdlKSwKICAgICAgICAidHh0IiA9PiBidWlsZF9wdXNocGx1c190ZXh0X2NvbnRlbnQobWVzc2FnZSksCiAgICAgICAgImpzb24iID0+IGJ1aWxkX3B1c2hwbHVzX2pzb25fY29udGVudChtZXNzYWdlKSwKICAgICAgICBfID0+IGJ1aWxkX3B1c2hwbHVzX21hcmtkb3duX2NvbnRlbnQobWVzc2FnZSksCiAgICB9OwogICAgbGV0IG11dCBib2R5ID0ganNvbiEoewogICAgICAgICJ0b2tlbiI6IHRva2VuLAogICAgICAgICJ0aXRsZSI6IHRpdGxlLAogICAgICAgICJjb250ZW50IjogZGVmYXVsdF9zdHJpbmcoY29udGVudCwgImZuLWtub2NrIiksCiAgICAgICAgInRlbXBsYXRlIjogdGVtcGxhdGUsCiAgICAgICAgImNoYW5uZWwiOiBjaGFubmVsCiAgICB9KTsKICAgIGluc2VydF9ub25fZW1wdHkoJm11dCBib2R5LCAidG9waWMiLCB0b3BpYy5jbG9uZSgpKTsKICAgIGluc2VydF9ub25fZW1wdHkoJm11dCBib2R5LCAib3B0aW9uIiwgb3B0aW9uLmNsb25lKCkpOwogICAgaW5zZXJ0X25vbl9lbXB0eSgmbXV0IGJvZHksICJ0byIsIHRvLmNsb25lKCkpOwogICAgaW5zZXJ0X25vbl9lbXB0eSgmbXV0IGJvZHksICJjYWxsYmFja1VybCIsIGNhbGxiYWNrX3VybC5jbG9uZSgpKTsKICAgIGluc2VydF9ub25fZW1wdHkoJm11dCBib2R5LCAicHJlIiwgcHJlLmNsb25lKCkpOwogICAgbGV0IHJlcXVlc3Rfc3VtbWFyeSA9IGpzb24hKHsKICAgICAgICAibWV0aG9kIjogIlBPU1QiLAogICAgICAgICJlbmRwb2ludCI6IHVybCwKICAgICAgICAiY2hhbm5lbCI6IGNoYW5uZWwsCiAgICAgICAgInRlbXBsYXRlIjogdGVtcGxhdGUsCiAgICAgICAgImhhc190b3BpYyI6ICF0b3BpYy5pc19lbXB0eSgpLAogICAgICAgICJoYXNfb3B0aW9uIjogIW9wdGlvbi5pc19lbXB0eSgpLAogICAgICAgICJoYXNfdG8iOiAhdG8uaXNfZW1wdHkoKSwKICAgICAgICAiaGFzX2NhbGxiYWNrX3VybCI6ICFjYWxsYmFja191cmwuaXNfZW1wdHkoKSwKICAgICAgICAiaGFzX3ByZSI6ICFwcmUuaXNfZW1wdHkoKSwKICAgICAgICAidGl0bGVfcHJldmlldyI6IHRpdGxlCiAgICB9KTsKICAgIGxldCAoc3RhdHVzLCBvaywgdGV4dCwgcGFyc2VkKSA9IHBvc3RfanNvbihzdGF0ZSwgJnVybCwgJmJvZHksIHRpbWVvdXRfc2Vjb25kcykuYXdhaXQ7CiAgICBwcm92aWRlcl9yZXN1bHRfZnJvbV9hcGkoCiAgICAgICAgIlB1c2hQbHVzIiwKICAgICAgICByZXF1ZXN0X3N1bW1hcnksCiAgICAgICAgc3RhdHVzLAogICAgICAgIG9rLAogICAgICAgIHRleHQsCiAgICAgICAgcGFyc2VkLAogICAgICAgIHx2YWx1ZXwganNvbl9pNjQodmFsdWUsICJjb2RlIikgPT0gU29tZSgyMDApLAogICAgICAgIHx2YWx1ZXwganNvbl90ZXh0X2FueSh2YWx1ZSwgJlsibXNnIiwgIm1lc3NhZ2UiLCAiZXJyb3IiXSksCiAgICApCn0K
+use super::*;
+
+pub(in crate::notifications::routes) fn pushplus_definition() -> ProviderDefinition {
+    ProviderDefinition {
+        provider_type: "pushplus",
+        label: "PushPlus",
+        description: "Send notifications through PushPlus.",
+        connection_schema: vec![
+            string_schema(
+                "server_url",
+                "Server URL",
+                true,
+                false,
+                Some("https://www.pushplus.plus"),
+            )
+            .placeholder("https://www.pushplus.plus"),
+            string_schema("token", "Token", true, true, None)
+                .placeholder("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"),
+            number_schema("timeout_seconds", "Timeout seconds", true, Some(5)).bounds(1, 30),
+        ],
+        target_schema: vec![
+            string_schema("topic", "Topic", false, false, None).placeholder("alarm-topic"),
+            select_schema(
+                "template",
+                "Template",
+                false,
+                Some("markdown"),
+                &["markdown", "html", "txt", "json"],
+            ),
+            select_schema(
+                "channel",
+                "Channel",
+                false,
+                Some("wechat"),
+                &[
+                    "wechat",
+                    "webhook",
+                    "cp",
+                    "mail",
+                    "sms",
+                    "voice",
+                    "extension",
+                    "app",
+                    "clawbot",
+                ],
+            ),
+            string_schema("option", "Option", false, false, None).placeholder("my-channel-code"),
+            string_schema("to", "Recipient", false, false, None)
+                .placeholder("friend_token or user1,user2"),
+            string_schema("callback_url", "Callback URL", false, false, None)
+                .placeholder("https://example.com/hooks/pushplus"),
+            string_schema("pre", "Pre", false, false, None).placeholder("appendMsg"),
+        ],
+        sensitive_fields: vec!["token"],
+        supports_markdown: true,
+        supports_actions: true,
+        supports_mentions: false,
+        supports_provider_dedupe_key: false,
+    }
+}
+
+pub(in crate::notifications::routes) async fn send_pushplus(
+    state: &AppState,
+    provider: &Value,
+    target: &Value,
+    message: &Value,
+    timeout_seconds: i64,
+) -> ProviderTestResult {
+    let config = provider_config(provider);
+    let target_config = target_config(target);
+    let token = config_text(&config, "token");
+    if token.is_empty() {
+        return missing_config_result(&notification_provider_error_default(
+            "pushplus",
+            "missingToken",
+            &[],
+        ));
+    }
+    let url = resolve_pushplus_url(&default_string(
+        config_text(&config, "server_url"),
+        "https://www.pushplus.plus",
+    ));
+    let template = match config_text(&target_config, "template").as_str() {
+        "html" => "html",
+        "txt" => "txt",
+        "json" => "json",
+        _ => "markdown",
+    };
+    let channel = default_string(config_text(&target_config, "channel"), "wechat");
+    let topic = config_text(&target_config, "topic");
+    let option = config_text(&target_config, "option");
+    let to = config_text(&target_config, "to");
+    let callback_url = config_text(&target_config, "callback_url");
+    let pre = config_text(&target_config, "pre");
+    let title = truncate_text(&message_title(message), 128);
+    let content = match template {
+        "html" => build_pushplus_html_content(message),
+        "txt" => build_pushplus_text_content(message),
+        "json" => build_pushplus_json_content(message),
+        _ => build_pushplus_markdown_content(message),
+    };
+    let mut body = json!({
+        "token": token,
+        "title": title,
+        "content": default_string(content, "fn-knock"),
+        "template": template,
+        "channel": channel
+    });
+    insert_non_empty(&mut body, "topic", topic.clone());
+    insert_non_empty(&mut body, "option", option.clone());
+    insert_non_empty(&mut body, "to", to.clone());
+    insert_non_empty(&mut body, "callbackUrl", callback_url.clone());
+    insert_non_empty(&mut body, "pre", pre.clone());
+    let request_summary = json!({
+        "method": "POST",
+        "endpoint": url,
+        "channel": channel,
+        "template": template,
+        "has_topic": !topic.is_empty(),
+        "has_option": !option.is_empty(),
+        "has_to": !to.is_empty(),
+        "has_callback_url": !callback_url.is_empty(),
+        "has_pre": !pre.is_empty(),
+        "title_preview": title
+    });
+    let (status, ok, text, parsed) = post_json(state, &url, &body, timeout_seconds).await;
+    provider_result_from_api(
+        "PushPlus",
+        request_summary,
+        status,
+        ok,
+        text,
+        parsed,
+        |value| json_i64(value, "code") == Some(200),
+        |value| json_text_any(value, &["msg", "message", "error"]),
+    )
+}

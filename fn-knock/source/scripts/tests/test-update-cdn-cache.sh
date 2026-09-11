@@ -1,1 +1,55 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaApzZXQgLWV1byBwaXBlZmFpbAoKUk9PVF9ESVI9IiQoY2QgIiQoZGlybmFtZSAiJHtCQVNIX1NPVVJDRVswXX0iKS8uLi8uLiIgJiYgcHdkKSIKCmZhaWwoKSB7CiAgcHJpbnRmICdbdGVzdC11cGRhdGUtY2RuLWNhY2hlXSBFUlJPUjogJXNcbicgIiQqIiA+JjIKICBleGl0IDEKfQoKYXNzZXJ0X2Fic2VudCgpIHsKICBsb2NhbCBmaWxlPSIkMSIgcGF0dGVybj0iJDIiIGRlc2NyaXB0aW9uPSIkMyIKICBpZiBncmVwIC1GcSAtLSAiJHtwYXR0ZXJufSIgIiR7Uk9PVF9ESVJ9LyR7ZmlsZX0iOyB0aGVuCiAgICBmYWlsICIke2Rlc2NyaXB0aW9ufTogJHtmaWxlfSBjb250YWlucyAnJHtwYXR0ZXJufSciCiAgZmkKfQoKYXNzZXJ0X3ByZXNlbnQoKSB7CiAgbG9jYWwgZmlsZT0iJDEiIHBhdHRlcm49IiQyIiBkZXNjcmlwdGlvbj0iJDMiCiAgZ3JlcCAtRnEgLS0gIiR7cGF0dGVybn0iICIke1JPT1RfRElSfS8ke2ZpbGV9IiB8fCBcCiAgICBmYWlsICIke2Rlc2NyaXB0aW9ufTogJHtmaWxlfSBpcyBtaXNzaW5nICcke3BhdHRlcm59JyIKfQoKREVTS1RPUF9VUERBVEU9ImFwcHMvZm4ta25vY2stZGVza3RvcC9uYXRpdmUvc3JjL3VwZGF0ZS5ycyIKU0VSVkVSX1VQREFURT0iYXBwcy9zZXJ2ZXItYWRtaW4tcnMvc3JjL3N5c3RlbS91cGRhdGUucnMiCldBRl9SVUxFUz0iYXBwcy9zZXJ2ZXItYWRtaW4tcnMvc3JjL3dhZi9yb3V0ZXMvcnVsZXMucnMiCkxJTlVYX0lOU1RBTEw9ImRlcGxveS9saW51eC9pbnN0YWxsLnNoIgpMSU5VWF9NQU5BR0VSPSJkZXBsb3kvbGludXgva25vY2siCgphc3NlcnRfcHJlc2VudCAiJHtERVNLVE9QX1VQREFURX0iICcuZ2V0KEVORFBPSU5UKScgImRlc2t0b3AgdXBkYXRlIGNoZWNrcyBtdXN0IHVzZSB0aGUgc3RhYmxlIG1hbmlmZXN0IFVSTCIKYXNzZXJ0X2Fic2VudCAiJHtERVNLVE9QX1VQREFURX0iICd7RU5EUE9JTlR9P3Q9JyAiZGVza3RvcCB1cGRhdGUgY2hlY2tzIG11c3Qgbm90IGNhY2hlLWJ1c3QiCmFzc2VydF9hYnNlbnQgIiR7REVTS1RPUF9VUERBVEV9IiAncmVxd2VzdDo6aGVhZGVyOjpDQUNIRV9DT05UUk9MJyAiZGVza3RvcCB1cGRhdGUgcmVxdWVzdHMgbXVzdCBhbGxvdyBDRE4gY2FjaGluZyIKCmFzc2VydF9wcmVzZW50ICIke1NFUlZFUl9VUERBVEV9IiAnLmdldChPVEFfTEFURVNUX1VSTCknICJzZXJ2ZXIgdXBkYXRlIGNoZWNrcyBtdXN0IHVzZSB0aGUgc3RhYmxlIG1hbmlmZXN0IFVSTCIKYXNzZXJ0X2Fic2VudCAiJHtTRVJWRVJfVVBEQVRFfSIgJ3JlcXdlc3Q6OmhlYWRlcjo6Q0FDSEVfQ09OVFJPTCcgInNlcnZlciB1cGRhdGUgcmVxdWVzdHMgYW5kIGRvd25sb2FkcyBtdXN0IGFsbG93IENETiBjYWNoaW5nIgphc3NlcnRfYWJzZW50ICIke1NFUlZFUl9VUERBVEV9IiAncmVxd2VzdDo6aGVhZGVyOjpQUkFHTUEnICJzZXJ2ZXIgdXBkYXRlIHJlcXVlc3RzIGFuZCBkb3dubG9hZHMgbXVzdCBhbGxvdyBDRE4gY2FjaGluZyIKYXNzZXJ0X2Fic2VudCAiJHtTRVJWRVJfVVBEQVRFfSIgJ2FwcGVuZF9wYWlyKCJ0IicgInNlcnZlciB1cGRhdGUgY2hlY2tzIG11c3Qgbm90IGNhY2hlLWJ1c3QiCgphc3NlcnRfcHJlc2VudCAiJHtMSU5VWF9NQU5BR0VSfSIgJ2Rvd25sb2FkX2ZpbGUgIiR7YmFzZX0vbGludXgvbGF0ZXN0LyR7YXJjaH0uZW52IicgIkxpbnV4IHVwZ3JhZGVzIG11c3QgdXNlIHRoZSBzdGFibGUgbWFuaWZlc3QgVVJMIgphc3NlcnRfYWJzZW50ICIke0xJTlVYX01BTkFHRVJ9IiAnY2FjaGVfYnVzdF91cmwnICJMaW51eCB1cGdyYWRlcyBtdXN0IG5vdCBjYWNoZS1idXN0Igphc3NlcnRfYWJzZW50ICIke0xJTlVYX01BTkFHRVJ9IiAnQ2FjaGUtQ29udHJvbDogbm8tY2FjaGUnICJMaW51eCB1cGdyYWRlIGRvd25sb2FkcyBtdXN0IGFsbG93IENETiBjYWNoaW5nIgphc3NlcnRfYWJzZW50ICIke0xJTlVYX01BTkFHRVJ9IiAnUHJhZ21hOiBuby1jYWNoZScgIkxpbnV4IHVwZ3JhZGUgZG93bmxvYWRzIG11c3QgYWxsb3cgQ0ROIGNhY2hpbmciCgphc3NlcnRfcHJlc2VudCAiJHtMSU5VWF9JTlNUQUxMfSIgJyIke0JBU0VfVVJMJS99L2xpbnV4L2xhdGVzdC8ke0FSQ0h9LmVudiInICJMaW51eCBpbnN0YWxscyBtdXN0IHVzZSB0aGUgc3RhYmxlIG1hbmlmZXN0IFVSTCIKYXNzZXJ0X2Fic2VudCAiJHtMSU5VWF9JTlNUQUxMfSIgJ2NhY2hlX2J1c3RfdXJsJyAiTGludXggaW5zdGFsbHMgbXVzdCBub3QgY2FjaGUtYnVzdCIKYXNzZXJ0X2Fic2VudCAiJHtMSU5VWF9JTlNUQUxMfSIgJ0NhY2hlLUNvbnRyb2w6IG5vLWNhY2hlJyAiTGludXggaW5zdGFsbCBkb3dubG9hZHMgbXVzdCBhbGxvdyBDRE4gY2FjaGluZyIKYXNzZXJ0X2Fic2VudCAiJHtMSU5VWF9JTlNUQUxMfSIgJ1ByYWdtYTogbm8tY2FjaGUnICJMaW51eCBpbnN0YWxsIGRvd25sb2FkcyBtdXN0IGFsbG93IENETiBjYWNoaW5nIgoKYXNzZXJ0X3ByZXNlbnQgIiR7V0FGX1JVTEVTfSIgJy5nZXQocmVzb2x2ZV93YWZfdXJsJyAiV0FGIGRvd25sb2FkcyBtdXN0IHVzZSBzdGFibGUgcmVzb2x2ZWQgVVJMcyIKYXNzZXJ0X2Fic2VudCAiJHtXQUZfUlVMRVN9IiAnY2FjaGVfYnVzdGVkX3VybCcgIldBRiBkb3dubG9hZHMgbXVzdCBub3QgY2FjaGUtYnVzdCIKYXNzZXJ0X2Fic2VudCAiJHtXQUZfUlVMRVN9IiAncXVlcnlfcGFpcnNfbXV0JyAiV0FGIGRvd25sb2FkcyBtdXN0IG5vdCBhZGQgcXVlcnkgcGFyYW1ldGVycyIKYXNzZXJ0X2Fic2VudCAiJHtXQUZfUlVMRVN9IiAnLmhlYWRlcigiY2FjaGUtY29udHJvbCInICJXQUYgZG93bmxvYWRzIG11c3QgYWxsb3cgQ0ROIGNhY2hpbmciCmFzc2VydF9hYnNlbnQgIiR7V0FGX1JVTEVTfSIgJy5oZWFkZXIoInByYWdtYSInICJXQUYgZG93bmxvYWRzIG11c3QgYWxsb3cgQ0ROIGNhY2hpbmciCgpwcmludGYgJ1t0ZXN0LXVwZGF0ZS1jZG4tY2FjaGVdIGFsbCBDRE4gY2FjaGUgcmVxdWVzdCBjb250cmFjdHMgcGFzc2VkXG4nCg==
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+
+fail() {
+  printf '[test-update-cdn-cache] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+assert_absent() {
+  local file="$1" pattern="$2" description="$3"
+  if grep -Fq -- "${pattern}" "${ROOT_DIR}/${file}"; then
+    fail "${description}: ${file} contains '${pattern}'"
+  fi
+}
+
+assert_present() {
+  local file="$1" pattern="$2" description="$3"
+  grep -Fq -- "${pattern}" "${ROOT_DIR}/${file}" || \
+    fail "${description}: ${file} is missing '${pattern}'"
+}
+
+DESKTOP_UPDATE="apps/fn-knock-desktop/native/src/update.rs"
+SERVER_UPDATE="apps/server-admin-rs/src/system/update.rs"
+WAF_RULES="apps/server-admin-rs/src/waf/routes/rules.rs"
+LINUX_INSTALL="deploy/linux/install.sh"
+LINUX_MANAGER="deploy/linux/knock"
+
+assert_present "${DESKTOP_UPDATE}" '.get(ENDPOINT)' "desktop update checks must use the stable manifest URL"
+assert_absent "${DESKTOP_UPDATE}" '{ENDPOINT}?t=' "desktop update checks must not cache-bust"
+assert_absent "${DESKTOP_UPDATE}" 'reqwest::header::CACHE_CONTROL' "desktop update requests must allow CDN caching"
+
+assert_present "${SERVER_UPDATE}" '.get(OTA_LATEST_URL)' "server update checks must use the stable manifest URL"
+assert_absent "${SERVER_UPDATE}" 'reqwest::header::CACHE_CONTROL' "server update requests and downloads must allow CDN caching"
+assert_absent "${SERVER_UPDATE}" 'reqwest::header::PRAGMA' "server update requests and downloads must allow CDN caching"
+assert_absent "${SERVER_UPDATE}" 'append_pair("t"' "server update checks must not cache-bust"
+
+assert_present "${LINUX_MANAGER}" 'download_file "${base}/linux/latest/${arch}.env"' "Linux upgrades must use the stable manifest URL"
+assert_absent "${LINUX_MANAGER}" 'cache_bust_url' "Linux upgrades must not cache-bust"
+assert_absent "${LINUX_MANAGER}" 'Cache-Control: no-cache' "Linux upgrade downloads must allow CDN caching"
+assert_absent "${LINUX_MANAGER}" 'Pragma: no-cache' "Linux upgrade downloads must allow CDN caching"
+
+assert_present "${LINUX_INSTALL}" '"${BASE_URL%/}/linux/latest/${ARCH}.env"' "Linux installs must use the stable manifest URL"
+assert_absent "${LINUX_INSTALL}" 'cache_bust_url' "Linux installs must not cache-bust"
+assert_absent "${LINUX_INSTALL}" 'Cache-Control: no-cache' "Linux install downloads must allow CDN caching"
+assert_absent "${LINUX_INSTALL}" 'Pragma: no-cache' "Linux install downloads must allow CDN caching"
+
+assert_present "${WAF_RULES}" '.get(resolve_waf_url' "WAF downloads must use stable resolved URLs"
+assert_absent "${WAF_RULES}" 'cache_busted_url' "WAF downloads must not cache-bust"
+assert_absent "${WAF_RULES}" 'query_pairs_mut' "WAF downloads must not add query parameters"
+assert_absent "${WAF_RULES}" '.header("cache-control"' "WAF downloads must allow CDN caching"
+assert_absent "${WAF_RULES}" '.header("pragma"' "WAF downloads must allow CDN caching"
+
+printf '[test-update-cdn-cache] all CDN cache request contracts passed\n'

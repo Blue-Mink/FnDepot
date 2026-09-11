@@ -1,1 +1,457 @@
-dXNlIHN0ZDo6ewogICAgaW86OlJlYWQsCiAgICBwYXRoOjp7UGF0aCwgUGF0aEJ1Zn0sCn07Cgp1c2Ugc2VyZGVfanNvbjo6VmFsdWU7CnVzZSBzaGEyOjp7RGlnZXN0LCBTaGEyNTZ9OwoKdXNlIGNyYXRlOjpmc191dGlsczo6cmVwbGFjZV9maWxlOwoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBQYXJ0aWFsRXEsIEVxKV0KcHViKGNyYXRlKSBzdHJ1Y3QgQ2xvdWRmbGFyZWRBc3NldFNwZWMgewogICAgcHViIHBsYXRmb3JtOiAmJ3N0YXRpYyBzdHIsCiAgICBwdWIgZmlsZV9uYW1lOiAmJ3N0YXRpYyBzdHIsCiAgICBwdWIgdmVyc2lvbjogJidzdGF0aWMgc3RyLAogICAgcHViIHNoYTI1NjogJidzdGF0aWMgc3RyLAp9CgojW2Rlcml2ZShDbG9uZSwgQ29weSwgRGVidWcsIFBhcnRpYWxFcSwgRXEpXQpwdWIoY3JhdGUpIGVudW0gQ2xvdWRmbGFyZWRJbnN0YWxsYXRpb25TdGF0dXMgewogICAgTWlzc2luZywKICAgIE91dGRhdGVkLAogICAgQ3VycmVudCwKfQoKaW1wbCBDbG91ZGZsYXJlZEluc3RhbGxhdGlvblN0YXR1cyB7CiAgICBwdWIoY3JhdGUpIGNvbnN0IGZuIGFzX3N0cihzZWxmKSAtPiAmJ3N0YXRpYyBzdHIgewogICAgICAgIG1hdGNoIHNlbGYgewogICAgICAgICAgICBTZWxmOjpNaXNzaW5nID0+ICJtaXNzaW5nIiwKICAgICAgICAgICAgU2VsZjo6T3V0ZGF0ZWQgPT4gIm91dGRhdGVkIiwKICAgICAgICAgICAgU2VsZjo6Q3VycmVudCA9PiAiY3VycmVudCIsCiAgICAgICAgfQogICAgfQp9CgpwdWIoY3JhdGUpIGNvbnN0IENMT1VERkxBUkVEX1ZFUlNJT046ICZzdHIgPSAiMjAyNi43LjMiOwpwdWIoY3JhdGUpIGNvbnN0IENMT1VERkxBUkVEX0lOU1RBTExfTUVUQURBVEFfRklMRTogJnN0ciA9ICJpbnN0YWxsLmpzb24iOwoKcHViKGNyYXRlKSBmbiBkZXRlY3RfY2xvdWRmbGFyZWRfcGxhdGZvcm0oKSAtPiAmJ3N0YXRpYyBzdHIgewogICAgY2xvdWRmbGFyZWRfcGxhdGZvcm1fZm9yX3RhcmdldCgKICAgICAgICBzdGQ6OmVudjo6Y29uc3RzOjpPUywKICAgICAgICBzdGQ6OmVudjo6Y29uc3RzOjpBUkNILAogICAgICAgIGNmZyEoYWxsKAogICAgICAgICAgICB0YXJnZXRfb3MgPSAibGludXgiLAogICAgICAgICAgICB0YXJnZXRfYXJjaCA9ICJhcm0iLAogICAgICAgICAgICB0YXJnZXRfYWJpID0gImVhYmloZiIKICAgICAgICApKSwKICAgICkKfQoKI1tjZmcodGVzdCldCnB1YihjcmF0ZSkgZm4gY2xvdWRmbGFyZWRfcGxhdGZvcm0ob3M6ICZzdHIsIGFyY2g6ICZzdHIpIC0+ICYnc3RhdGljIHN0ciB7CiAgICBjbG91ZGZsYXJlZF9wbGF0Zm9ybV9mb3JfdGFyZ2V0KG9zLCBhcmNoLCBmYWxzZSkKfQoKcHViKGNyYXRlKSBmbiBjbG91ZGZsYXJlZF9wbGF0Zm9ybV9mb3JfdGFyZ2V0KAogICAgb3M6ICZzdHIsCiAgICBhcmNoOiAmc3RyLAogICAgYXJtX2hhcmRfZmxvYXQ6IGJvb2wsCikgLT4gJidzdGF0aWMgc3RyIHsKICAgIG1hdGNoIChvcywgYXJjaCkgewogICAgICAgICgibWFjb3MiLCAieDg2XzY0IikgPT4gImRhcndpbi1hbWQ2NCIsCiAgICAgICAgKCJtYWNvcyIsICJhYXJjaDY0IikgPT4gImRhcndpbi1hcm02NCIsCiAgICAgICAgKCJsaW51eCIsICJ4ODZfNjQiIHwgImFtZDY0IikgPT4gImxpbnV4LWFtZDY0IiwKICAgICAgICAoImxpbnV4IiwgIng4NiIgfCAiaTM4NiIgfCAiaTY4NiIpID0+ICJsaW51eC0zODYiLAogICAgICAgICgibGludXgiLCAiYWFyY2g2NCIgfCAiYXJtNjQiKSA9PiAibGludXgtYXJtNjQiLAogICAgICAgICgibGludXgiLCAiYXJtdjciKSA9PiAibGludXgtYXJtaGYiLAogICAgICAgICgibGludXgiLCAiYXJtIikgaWYgYXJtX2hhcmRfZmxvYXQgPT4gImxpbnV4LWFybWhmIiwKICAgICAgICAoImxpbnV4IiwgImFybSIpID0+ICJsaW51eC1hcm0iLAogICAgICAgICgid2luZG93cyIsICJ4ODZfNjQiIHwgImFtZDY0IikgPT4gIndpbmRvd3MtYW1kNjQiLAogICAgICAgICgid2luZG93cyIsICJ4ODYiIHwgImkzODYiIHwgImk2ODYiKSA9PiAid2luZG93cy0zODYiLAogICAgICAgIF8gPT4gInVuc3VwcG9ydGVkIiwKICAgIH0KfQoKcHViKGNyYXRlKSBmbiBjbG91ZGZsYXJlZF9hc3NldF9uYW1lKHBsYXRmb3JtOiAmc3RyKSAtPiBPcHRpb248JidzdGF0aWMgc3RyPiB7CiAgICBjbG91ZGZsYXJlZF9hc3NldF9zcGVjKHBsYXRmb3JtKS5tYXAofGFzc2V0fCBhc3NldC5maWxlX25hbWUpCn0KCnB1YihjcmF0ZSkgZm4gY2xvdWRmbGFyZWRfYXNzZXRfc3BlYyhwbGF0Zm9ybTogJnN0cikgLT4gT3B0aW9uPENsb3VkZmxhcmVkQXNzZXRTcGVjPiB7CiAgICBsZXQgKGZpbGVfbmFtZSwgc2hhMjU2KSA9IG1hdGNoIHBsYXRmb3JtIHsKICAgICAgICAiZGFyd2luLWFtZDY0IiA9PiAoCiAgICAgICAgICAgICJjbG91ZGZsYXJlZC1kYXJ3aW4tYW1kNjQiLAogICAgICAgICAgICAiZTg4ZmU1ODc0ZDQyYTk0ZjQ5YTdlYTU5Y2FiYzM3MjJkMjk2MmQwNDQ5MjMyYjBmM2IxYTQyNmE3MTJlMjc1YyIsCiAgICAgICAgKSwKICAgICAgICAiZGFyd2luLWFybTY0IiA9PiAoCiAgICAgICAgICAgICJjbG91ZGZsYXJlZC1kYXJ3aW4tYXJtNjQiLAogICAgICAgICAgICAiZjM1YzUwMDg5Y2QyNWY3N2E0Y2I1YTIxNTIwMzZiYzI2ZGIxNWFhMzFmYmUxMWY3OTk1ZDJlNDJhNGVkNjI1NyIsCiAgICAgICAgKSwKICAgICAgICAibGludXgtMzg2IiA9PiAoCiAgICAgICAgICAgICJjbG91ZGZsYXJlZC1saW51eC0zODYiLAogICAgICAgICAgICAiNmM5ODJlNzdlNjQ0NjQ0ZjViY2U3Njc4MWRkMmI2OWRkYzBiZmE1ZTFkZDFmNTVmMDAzNzg1MGFjMDk0Njc3MSIsCiAgICAgICAgKSwKICAgICAgICAibGludXgtYW1kNjQiID0+ICgKICAgICAgICAgICAgImNsb3VkZmxhcmVkLWxpbnV4LWFtZDY0IiwKICAgICAgICAgICAgIjlkNzFjNjc3ZGIwMDEzNGMxYmQ0MTQ0Yjc3ODM0ODZiNjU0YWQyODFiMWVhNjJiNDk3MjA5OGQxOWY3NzBmMTciLAogICAgICAgICksCiAgICAgICAgImxpbnV4LWFybSIgPT4gKAogICAgICAgICAgICAiY2xvdWRmbGFyZWQtbGludXgtYXJtIiwKICAgICAgICAgICAgIjZkYWRkOTc5Yjg4MzM3NjBlOWY2ZDg0MGE2MjM5YThjMDhjOGJjZjczYjQyMzFlYzUzN2Y0ODM4NzNmMzdjNzMiLAogICAgICAgICksCiAgICAgICAgImxpbnV4LWFybWhmIiA9PiAoCiAgICAgICAgICAgICJjbG91ZGZsYXJlZC1saW51eC1hcm1oZiIsCiAgICAgICAgICAgICIyYWFkYmU2NDE2ZTVjNTJjYjdlYmJhOTkxMTlmNDEzYTEyNGYzNTg1MTZjMTdkNGVjYWFjYjg5YTM2M2U4YTM1IiwKICAgICAgICApLAogICAgICAgICJsaW51eC1hcm02NCIgPT4gKAogICAgICAgICAgICAiY2xvdWRmbGFyZWQtbGludXgtYXJtNjQiLAogICAgICAgICAgICAiNjUyNTllNjUyYTdiZWEwOGJmNWRmNjAzMjMzYWIyMmI4YmYzMTE2YWY4ZGY5ZjkyMDYyMDlhZjZhMWI5NTVjMCIsCiAgICAgICAgKSwKICAgICAgICAid2luZG93cy0zODYiID0+ICgKICAgICAgICAgICAgImNsb3VkZmxhcmVkLXdpbmRvd3MtMzg2LmV4ZSIsCiAgICAgICAgICAgICJkMDI2ZTM5ZDliZTIxYzcwZWE2NTI1MjhmZGEyODAxZTE2NGQ1ZTI1Njg4YjdiMGZiM2I2NTA4MGNiZDk2NTAzIiwKICAgICAgICApLAogICAgICAgICJ3aW5kb3dzLWFtZDY0IiA9PiAoCiAgICAgICAgICAgICJjbG91ZGZsYXJlZC13aW5kb3dzLWFtZDY0LmV4ZSIsCiAgICAgICAgICAgICI4NjM1ZGE0MzNiNmRmODE5NDc0NmU4OGVkOWQyNTg5NTY2YzIwZTM4YmZjMmE4MGU0MzFhMzQ4YjdjNzY1ODQxIiwKICAgICAgICApLAogICAgICAgIF8gPT4gcmV0dXJuIE5vbmUsCiAgICB9OwogICAgU29tZShDbG91ZGZsYXJlZEFzc2V0U3BlYyB7CiAgICAgICAgcGxhdGZvcm06IG1hdGNoIHBsYXRmb3JtIHsKICAgICAgICAgICAgImRhcndpbi1hbWQ2NCIgPT4gImRhcndpbi1hbWQ2NCIsCiAgICAgICAgICAgICJkYXJ3aW4tYXJtNjQiID0+ICJkYXJ3aW4tYXJtNjQiLAogICAgICAgICAgICAibGludXgtMzg2IiA9PiAibGludXgtMzg2IiwKICAgICAgICAgICAgImxpbnV4LWFtZDY0IiA9PiAibGludXgtYW1kNjQiLAogICAgICAgICAgICAibGludXgtYXJtIiA9PiAibGludXgtYXJtIiwKICAgICAgICAgICAgImxpbnV4LWFybWhmIiA9PiAibGludXgtYXJtaGYiLAogICAgICAgICAgICAibGludXgtYXJtNjQiID0+ICJsaW51eC1hcm02NCIsCiAgICAgICAgICAgICJ3aW5kb3dzLTM4NiIgPT4gIndpbmRvd3MtMzg2IiwKICAgICAgICAgICAgIndpbmRvd3MtYW1kNjQiID0+ICJ3aW5kb3dzLWFtZDY0IiwKICAgICAgICAgICAgXyA9PiB1bnJlYWNoYWJsZSEoKSwKICAgICAgICB9LAogICAgICAgIGZpbGVfbmFtZSwKICAgICAgICB2ZXJzaW9uOiBDTE9VREZMQVJFRF9WRVJTSU9OLAogICAgICAgIHNoYTI1NiwKICAgIH0pCn0KCnB1YihjcmF0ZSkgZm4gY2xvdWRmbGFyZWRfYmluYXJ5X3BhdGgoZGF0YV9kaXI6ICZQYXRoLCBwbGF0Zm9ybTogJnN0cikgLT4gT3B0aW9uPFBhdGhCdWY+IHsKICAgIGNsb3VkZmxhcmVkX2Fzc2V0X25hbWUocGxhdGZvcm0pPzsKICAgIGxldCBiaW5hcnlfbmFtZSA9IGlmIHBsYXRmb3JtLnN0YXJ0c193aXRoKCJ3aW5kb3dzLSIpIHsKICAgICAgICAiY2xvdWRmbGFyZWQuZXhlIgogICAgfSBlbHNlIHsKICAgICAgICAiY2xvdWRmbGFyZWQiCiAgICB9OwogICAgU29tZShkYXRhX2Rpci5qb2luKCJjbG91ZGZsYXJlZCIpLmpvaW4oYmluYXJ5X25hbWUpKQp9CgpwdWIoY3JhdGUpIGZuIGNsb3VkZmxhcmVkX2luc3RhbGxfbWV0YWRhdGFfcGF0aChkYXRhX2RpcjogJlBhdGgpIC0+IFBhdGhCdWYgewogICAgZGF0YV9kaXIKICAgICAgICAuam9pbigiY2xvdWRmbGFyZWQiKQogICAgICAgIC5qb2luKENMT1VERkxBUkVEX0lOU1RBTExfTUVUQURBVEFfRklMRSkKfQoKcHViKGNyYXRlKSBmbiBjbG91ZGZsYXJlZF9pbnN0YWxsX2lzX2N1cnJlbnQoZGF0YV9kaXI6ICZQYXRoLCBwbGF0Zm9ybTogJnN0cikgLT4gYm9vbCB7CiAgICBsZXQgU29tZShhc3NldCkgPSBjbG91ZGZsYXJlZF9hc3NldF9zcGVjKHBsYXRmb3JtKSBlbHNlIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9OwogICAgbGV0IFNvbWUoYmluYXJ5KSA9IGNsb3VkZmxhcmVkX2JpbmFyeV9wYXRoKGRhdGFfZGlyLCBwbGF0Zm9ybSkgZWxzZSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfTsKICAgIGNsb3VkZmxhcmVkX2luc3RhbGxfaXNfY3VycmVudF9mb3JfYXNzZXQoZGF0YV9kaXIsICZiaW5hcnksIGFzc2V0KQp9CgpwdWIoY3JhdGUpIGZuIGNsb3VkZmxhcmVkX2luc3RhbGxhdGlvbl9zdGF0dXMoCiAgICBkYXRhX2RpcjogJlBhdGgsCiAgICBwbGF0Zm9ybTogJnN0ciwKKSAtPiBDbG91ZGZsYXJlZEluc3RhbGxhdGlvblN0YXR1cyB7CiAgICBsZXQgU29tZShiaW5hcnkpID0gY2xvdWRmbGFyZWRfYmluYXJ5X3BhdGgoZGF0YV9kaXIsIHBsYXRmb3JtKSBlbHNlIHsKICAgICAgICByZXR1cm4gQ2xvdWRmbGFyZWRJbnN0YWxsYXRpb25TdGF0dXM6Ok1pc3Npbmc7CiAgICB9OwogICAgbGV0IGJpbmFyeV9leGlzdHMgPSBiaW5hcnkuaXNfZmlsZSgpOwogICAgY2xhc3NpZnlfY2xvdWRmbGFyZWRfaW5zdGFsbGF0aW9uX3N0YXR1cygKICAgICAgICBiaW5hcnlfZXhpc3RzLAogICAgICAgIGJpbmFyeV9leGlzdHMgJiYgY2xvdWRmbGFyZWRfaW5zdGFsbF9pc19jdXJyZW50KGRhdGFfZGlyLCBwbGF0Zm9ybSksCiAgICApCn0KCmZuIGNsYXNzaWZ5X2Nsb3VkZmxhcmVkX2luc3RhbGxhdGlvbl9zdGF0dXMoCiAgICBiaW5hcnlfZXhpc3RzOiBib29sLAogICAgaXNfY3VycmVudDogYm9vbCwKKSAtPiBDbG91ZGZsYXJlZEluc3RhbGxhdGlvblN0YXR1cyB7CiAgICBtYXRjaCAoYmluYXJ5X2V4aXN0cywgaXNfY3VycmVudCkgewogICAgICAgIChmYWxzZSwgXykgPT4gQ2xvdWRmbGFyZWRJbnN0YWxsYXRpb25TdGF0dXM6Ok1pc3NpbmcsCiAgICAgICAgKHRydWUsIHRydWUpID0+IENsb3VkZmxhcmVkSW5zdGFsbGF0aW9uU3RhdHVzOjpDdXJyZW50LAogICAgICAgICh0cnVlLCBmYWxzZSkgPT4gQ2xvdWRmbGFyZWRJbnN0YWxsYXRpb25TdGF0dXM6Ok91dGRhdGVkLAogICAgfQp9CgpmbiBjbG91ZGZsYXJlZF9pbnN0YWxsX2lzX2N1cnJlbnRfZm9yX2Fzc2V0KAogICAgZGF0YV9kaXI6ICZQYXRoLAogICAgYmluYXJ5OiAmUGF0aCwKICAgIGFzc2V0OiBDbG91ZGZsYXJlZEFzc2V0U3BlYywKKSAtPiBib29sIHsKICAgIGlmICFiaW5hcnkuaXNfZmlsZSgpIHx8ICFmaWxlX2NoZWNrc3VtX21hdGNoZXMoYmluYXJ5LCBhc3NldC5zaGEyNTYpIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CiAgICBsZXQgbWV0YWRhdGFfcGF0aCA9IGNsb3VkZmxhcmVkX2luc3RhbGxfbWV0YWRhdGFfcGF0aChkYXRhX2Rpcik7CiAgICBtYXRjaCBzdGQ6OmZzOjpyZWFkX3RvX3N0cmluZygmbWV0YWRhdGFfcGF0aCkgewogICAgICAgIE9rKHJhdykgPT4gewogICAgICAgICAgICByZXR1cm4gc2VyZGVfanNvbjo6ZnJvbV9zdHI6OjxWYWx1ZT4oJnJhdykKICAgICAgICAgICAgICAgIC5vaygpCiAgICAgICAgICAgICAgICAuaXNfc29tZV9hbmQofG1ldGFkYXRhfCB7CiAgICAgICAgICAgICAgICAgICAgbWV0YWRhdGEuZ2V0KCJ2ZXJzaW9uIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZShhc3NldC52ZXJzaW9uKQogICAgICAgICAgICAgICAgICAgICAgICAmJiBtZXRhZGF0YS5nZXQoInBsYXRmb3JtIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZShhc3NldC5wbGF0Zm9ybSkKICAgICAgICAgICAgICAgICAgICAgICAgJiYgbWV0YWRhdGEuZ2V0KCJhc3NldCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoYXNzZXQuZmlsZV9uYW1lKQogICAgICAgICAgICAgICAgICAgICAgICAmJiBtZXRhZGF0YS5nZXQoInNoYTI1NiIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoYXNzZXQuc2hhMjU2KQogICAgICAgICAgICAgICAgfSk7CiAgICAgICAgfQogICAgICAgIEVycihlcnJvcikgaWYgZXJyb3Iua2luZCgpID09IHN0ZDo6aW86OkVycm9yS2luZDo6Tm90Rm91bmQgPT4ge30KICAgICAgICBFcnIoXykgPT4gcmV0dXJuIGZhbHNlLAogICAgfQogICAgbGV0IG1ldGFkYXRhID0gc2VyZGVfanNvbjo6anNvbiEoewogICAgICAgICJ2ZXJzaW9uIjogYXNzZXQudmVyc2lvbiwKICAgICAgICAicGxhdGZvcm0iOiBhc3NldC5wbGF0Zm9ybSwKICAgICAgICAiYXNzZXQiOiBhc3NldC5maWxlX25hbWUsCiAgICAgICAgInNoYTI1NiI6IGFzc2V0LnNoYTI1NiwKICAgIH0pOwogICAgcmVwYWlyX2Nsb3VkZmxhcmVkX2luc3RhbGxfbWV0YWRhdGEoCiAgICAgICAgZGF0YV9kaXIsCiAgICAgICAgJnNlcmRlX2pzb246OnRvX3ZlY19wcmV0dHkoJm1ldGFkYXRhKS51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgKTsKCiAgICAvLyBBIGNoZWNrc3VtLXZlcmlmaWVkIGJpbmFyeSB3aXRob3V0IG1ldGFkYXRhIGlzIHRoZSBvbmUgcmVwYWlyYWJsZSBsZWdhY3kKICAgIC8vIHN0YXRlLiBJZiB0aGUgcmVwYWlyIGNhbm5vdCBiZSBwZXJzaXN0ZWQgeWV0LCBkbyBub3QgbWlzY2xhc3NpZnkgdGhlCiAgICAvLyBrbm93biBiaW5hcnkgYXMgb3V0ZGF0ZWQ7IGEgbGF0ZXIgc3RhdHVzIGNoZWNrIHdpbGwgcmV0cnkgdGhlIHJlcGFpci4KICAgIHRydWUKfQoKZm4gcmVwYWlyX2Nsb3VkZmxhcmVkX2luc3RhbGxfbWV0YWRhdGEoZGF0YV9kaXI6ICZQYXRoLCBjb250ZW50OiAmW3U4XSkgewogICAgbGV0IG1ldGFkYXRhID0gY2xvdWRmbGFyZWRfaW5zdGFsbF9tZXRhZGF0YV9wYXRoKGRhdGFfZGlyKTsKICAgIGxldCBTb21lKGRpcmVjdG9yeSkgPSBtZXRhZGF0YS5wYXJlbnQoKSBlbHNlIHsKICAgICAgICByZXR1cm47CiAgICB9OwogICAgbGV0IHRlbXBvcmFyeSA9IGRpcmVjdG9yeS5qb2luKGZvcm1hdCEoCiAgICAgICAgImluc3RhbGwucmVwYWlyLnt9LnRtcCIsCiAgICAgICAgdXVpZDo6VXVpZDo6bmV3X3Y0KCkuc2ltcGxlKCkKICAgICkpOwogICAgaWYgc3RkOjpmczo6d3JpdGUoJnRlbXBvcmFyeSwgY29udGVudCkuaXNfb2soKSB7CiAgICAgICAgbGV0IF8gPSByZXBsYWNlX2ZpbGUoJnRlbXBvcmFyeSwgJm1ldGFkYXRhKTsKICAgIH0KICAgIGxldCBfID0gc3RkOjpmczo6cmVtb3ZlX2ZpbGUodGVtcG9yYXJ5KTsKfQoKZm4gZmlsZV9jaGVja3N1bV9tYXRjaGVzKHBhdGg6ICZQYXRoLCBleHBlY3RlZF9zaGEyNTY6ICZzdHIpIC0+IGJvb2wgewogICAgbGV0IE9rKG11dCBmaWxlKSA9IHN0ZDo6ZnM6OkZpbGU6Om9wZW4ocGF0aCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfTsKICAgIGxldCBtdXQgaGFzaGVyID0gU2hhMjU2OjpuZXcoKTsKICAgIGxldCBtdXQgYnVmZmVyID0gWzB1ODsgNjQgKiAxMDI0XTsKICAgIGxvb3AgewogICAgICAgIGxldCBPayhyZWFkKSA9IGZpbGUucmVhZCgmbXV0IGJ1ZmZlcikgZWxzZSB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9OwogICAgICAgIGlmIHJlYWQgPT0gMCB7CiAgICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgICAgICBoYXNoZXIudXBkYXRlKCZidWZmZXJbLi5yZWFkXSk7CiAgICB9CiAgICBoZXg6OmVuY29kZShoYXNoZXIuZmluYWxpemUoKSkgPT0gZXhwZWN0ZWRfc2hhMjU2Cn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwoKICAgICNbdGVzdF0KICAgIGZuIG1hcHNfZXZlcnlfdXBzdHJlYW1fc3RhbmRhbG9uZV9iaW5hcnlfcGxhdGZvcm0oKSB7CiAgICAgICAgbGV0IGNhc2VzID0gWwogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAibWFjb3MiLAogICAgICAgICAgICAgICAgIng4Nl82NCIsCiAgICAgICAgICAgICAgICAiZGFyd2luLWFtZDY0IiwKICAgICAgICAgICAgICAgICJjbG91ZGZsYXJlZC1kYXJ3aW4tYW1kNjQiLAogICAgICAgICAgICApLAogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAibWFjb3MiLAogICAgICAgICAgICAgICAgImFhcmNoNjQiLAogICAgICAgICAgICAgICAgImRhcndpbi1hcm02NCIsCiAgICAgICAgICAgICAgICAiY2xvdWRmbGFyZWQtZGFyd2luLWFybTY0IiwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgKCJsaW51eCIsICJ4ODYiLCAibGludXgtMzg2IiwgImNsb3VkZmxhcmVkLWxpbnV4LTM4NiIpLAogICAgICAgICAgICAoImxpbnV4IiwgIng4Nl82NCIsICJsaW51eC1hbWQ2NCIsICJjbG91ZGZsYXJlZC1saW51eC1hbWQ2NCIpLAogICAgICAgICAgICAoImxpbnV4IiwgImFybSIsICJsaW51eC1hcm0iLCAiY2xvdWRmbGFyZWQtbGludXgtYXJtIiksCiAgICAgICAgICAgICgibGludXgiLCAiYXJtdjciLCAibGludXgtYXJtaGYiLCAiY2xvdWRmbGFyZWQtbGludXgtYXJtaGYiKSwKICAgICAgICAgICAgKCJsaW51eCIsICJhYXJjaDY0IiwgImxpbnV4LWFybTY0IiwgImNsb3VkZmxhcmVkLWxpbnV4LWFybTY0IiksCiAgICAgICAgICAgICgKICAgICAgICAgICAgICAgICJ3aW5kb3dzIiwKICAgICAgICAgICAgICAgICJ4ODYiLAogICAgICAgICAgICAgICAgIndpbmRvd3MtMzg2IiwKICAgICAgICAgICAgICAgICJjbG91ZGZsYXJlZC13aW5kb3dzLTM4Ni5leGUiLAogICAgICAgICAgICApLAogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAid2luZG93cyIsCiAgICAgICAgICAgICAgICAieDg2XzY0IiwKICAgICAgICAgICAgICAgICJ3aW5kb3dzLWFtZDY0IiwKICAgICAgICAgICAgICAgICJjbG91ZGZsYXJlZC13aW5kb3dzLWFtZDY0LmV4ZSIsCiAgICAgICAgICAgICksCiAgICAgICAgXTsKCiAgICAgICAgZm9yIChvcywgYXJjaCwgcGxhdGZvcm0sIGFzc2V0KSBpbiBjYXNlcyB7CiAgICAgICAgICAgIGFzc2VydF9lcSEoY2xvdWRmbGFyZWRfcGxhdGZvcm0ob3MsIGFyY2gpLCBwbGF0Zm9ybSk7CiAgICAgICAgICAgIGFzc2VydF9lcSEoY2xvdWRmbGFyZWRfYXNzZXRfbmFtZShwbGF0Zm9ybSksIFNvbWUoYXNzZXQpKTsKICAgICAgICB9CiAgICAgICAgYXNzZXJ0X2VxIShjbG91ZGZsYXJlZF9wbGF0Zm9ybSgid2luZG93cyIsICJhYXJjaDY0IiksICJ1bnN1cHBvcnRlZCIpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGNsb3VkZmxhcmVkX3BsYXRmb3JtX2Zvcl90YXJnZXQoImxpbnV4IiwgImFybSIsIHRydWUpLAogICAgICAgICAgICAibGludXgtYXJtaGYiCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBjbG91ZGZsYXJlZF9wbGF0Zm9ybV9mb3JfdGFyZ2V0KCJsaW51eCIsICJhcm0iLCBmYWxzZSksCiAgICAgICAgICAgICJsaW51eC1hcm0iCiAgICAgICAgKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBwaW5zX2V2ZXJ5X2Fzc2V0X3RvX3RoZV9jdXJyZW50X3JlbGVhc2VfY2hlY2tzdW0oKSB7CiAgICAgICAgZm9yIHBsYXRmb3JtIGluIFsKICAgICAgICAgICAgImRhcndpbi1hbWQ2NCIsCiAgICAgICAgICAgICJkYXJ3aW4tYXJtNjQiLAogICAgICAgICAgICAibGludXgtMzg2IiwKICAgICAgICAgICAgImxpbnV4LWFtZDY0IiwKICAgICAgICAgICAgImxpbnV4LWFybSIsCiAgICAgICAgICAgICJsaW51eC1hcm1oZiIsCiAgICAgICAgICAgICJsaW51eC1hcm02NCIsCiAgICAgICAgICAgICJ3aW5kb3dzLTM4NiIsCiAgICAgICAgICAgICJ3aW5kb3dzLWFtZDY0IiwKICAgICAgICBdIHsKICAgICAgICAgICAgbGV0IGFzc2V0ID0gY2xvdWRmbGFyZWRfYXNzZXRfc3BlYyhwbGF0Zm9ybSkudW53cmFwKCk7CiAgICAgICAgICAgIGFzc2VydF9lcSEoYXNzZXQucGxhdGZvcm0sIHBsYXRmb3JtKTsKICAgICAgICAgICAgYXNzZXJ0X2VxIShhc3NldC52ZXJzaW9uLCBDTE9VREZMQVJFRF9WRVJTSU9OKTsKICAgICAgICAgICAgYXNzZXJ0X2VxIShhc3NldC5zaGEyNTYubGVuKCksIDY0KTsKICAgICAgICAgICAgYXNzZXJ0IShhc3NldC5zaGEyNTYuYnl0ZXMoKS5hbGwofGJ5dGV8IGJ5dGUuaXNfYXNjaWlfaGV4ZGlnaXQoKSkpOwogICAgICAgIH0KICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiB1c2VzX3RoZV9uYXRpdmVfd2luZG93c19leGVjdXRhYmxlX3N1ZmZpeCgpIHsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBjbG91ZGZsYXJlZF9iaW5hcnlfcGF0aChQYXRoOjpuZXcoIkM6L2ZuLWtub2NrL2RhdGEiKSwgIndpbmRvd3MtYW1kNjQiKS51bndyYXAoKSwKICAgICAgICAgICAgUGF0aDo6bmV3KCJDOi9mbi1rbm9jay9kYXRhL2Nsb3VkZmxhcmVkL2Nsb3VkZmxhcmVkLmV4ZSIpCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBjbG91ZGZsYXJlZF9iaW5hcnlfcGF0aChQYXRoOjpuZXcoIi92YXIvbGliL2ZuLWtub2NrIiksICJsaW51eC1hbWQ2NCIpLnVud3JhcCgpLAogICAgICAgICAgICBQYXRoOjpuZXcoIi92YXIvbGliL2ZuLWtub2NrL2Nsb3VkZmxhcmVkL2Nsb3VkZmxhcmVkIikKICAgICAgICApOwogICAgICAgIGFzc2VydCEoY2xvdWRmbGFyZWRfYmluYXJ5X3BhdGgoUGF0aDo6bmV3KCIvdG1wIiksICJ1bnN1cHBvcnRlZCIpLmlzX25vbmUoKSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gY2xhc3NpZmllc19taXNzaW5nX291dGRhdGVkX2FuZF9jdXJyZW50X2luc3RhbGxhdGlvbnMoKSB7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgY2xhc3NpZnlfY2xvdWRmbGFyZWRfaW5zdGFsbGF0aW9uX3N0YXR1cyhmYWxzZSwgZmFsc2UpLAogICAgICAgICAgICBDbG91ZGZsYXJlZEluc3RhbGxhdGlvblN0YXR1czo6TWlzc2luZwogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgY2xhc3NpZnlfY2xvdWRmbGFyZWRfaW5zdGFsbGF0aW9uX3N0YXR1cyh0cnVlLCBmYWxzZSksCiAgICAgICAgICAgIENsb3VkZmxhcmVkSW5zdGFsbGF0aW9uU3RhdHVzOjpPdXRkYXRlZAogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgY2xhc3NpZnlfY2xvdWRmbGFyZWRfaW5zdGFsbGF0aW9uX3N0YXR1cyh0cnVlLCB0cnVlKSwKICAgICAgICAgICAgQ2xvdWRmbGFyZWRJbnN0YWxsYXRpb25TdGF0dXM6OkN1cnJlbnQKICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHJlcGFpcnNfbWlzc2luZ19tZXRhZGF0YV9mb3JfYV9jaGVja3N1bV92ZXJpZmllZF9iaW5hcnkoKSB7CiAgICAgICAgbGV0IGRpcmVjdG9yeSA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkudW53cmFwKCk7CiAgICAgICAgbGV0IGRhdGFfZGlyID0gZGlyZWN0b3J5LnBhdGgoKTsKICAgICAgICBsZXQgYXNzZXQgPSBDbG91ZGZsYXJlZEFzc2V0U3BlYyB7CiAgICAgICAgICAgIHBsYXRmb3JtOiAidGVzdC1wbGF0Zm9ybSIsCiAgICAgICAgICAgIGZpbGVfbmFtZTogImNsb3VkZmxhcmVkLXRlc3QiLAogICAgICAgICAgICB2ZXJzaW9uOiAiMjA5OS4xLjAiLAogICAgICAgICAgICBzaGEyNTY6ICI5N2IwNTYwMjgwZWQ2MGE1YTFlYWExYmM0NTQ5MjU0M2M4YTk4NmFkNWEyNWI0NjhjNDI3ZWI4M2MzZTg4MTkxIiwKICAgICAgICB9OwogICAgICAgIGxldCBiaW5hcnkgPSBkYXRhX2Rpci5qb2luKCJjbG91ZGZsYXJlZCIpLmpvaW4oImNsb3VkZmxhcmVkIik7CiAgICAgICAgc3RkOjpmczo6Y3JlYXRlX2Rpcl9hbGwoYmluYXJ5LnBhcmVudCgpLnVud3JhcCgpKS51bndyYXAoKTsKICAgICAgICBzdGQ6OmZzOjp3cml0ZSgmYmluYXJ5LCBiImN1cnJlbnQiKS51bndyYXAoKTsKCiAgICAgICAgYXNzZXJ0IShjbG91ZGZsYXJlZF9pbnN0YWxsX2lzX2N1cnJlbnRfZm9yX2Fzc2V0KAogICAgICAgICAgICBkYXRhX2RpciwgJmJpbmFyeSwgYXNzZXQKICAgICAgICApKTsKICAgICAgICBsZXQgbWV0YWRhdGE6IFZhbHVlID0gc2VyZGVfanNvbjo6ZnJvbV9zbGljZSgKICAgICAgICAgICAgJnN0ZDo6ZnM6OnJlYWQoY2xvdWRmbGFyZWRfaW5zdGFsbF9tZXRhZGF0YV9wYXRoKGRhdGFfZGlyKSkudW53cmFwKCksCiAgICAgICAgKQogICAgICAgIC51bndyYXAoKTsKICAgICAgICBhc3NlcnRfZXEhKG1ldGFkYXRhWyJ2ZXJzaW9uIl0sIGFzc2V0LnZlcnNpb24pOwogICAgICAgIGFzc2VydF9lcSEobWV0YWRhdGFbInNoYTI1NiJdLCBhc3NldC5zaGEyNTYpOwogICAgICAgIGFzc2VydCEoCiAgICAgICAgICAgIHN0ZDo6ZnM6OnJlYWRfZGlyKGJpbmFyeS5wYXJlbnQoKS51bndyYXAoKSkKICAgICAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAgICAgLmZsYXR0ZW4oKQogICAgICAgICAgICAgICAgLmFsbCh8ZW50cnl8ICFlbnRyeQogICAgICAgICAgICAgICAgICAgIC5maWxlX25hbWUoKQogICAgICAgICAgICAgICAgICAgIC50b19zdHJpbmdfbG9zc3koKQogICAgICAgICAgICAgICAgICAgIC5zdGFydHNfd2l0aCgiaW5zdGFsbC5yZXBhaXIuIikpCiAgICAgICAgKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiByZWplY3RzX2FfZGFtYWdlZF9iaW5hcnlfZXZlbl93aGVuX21ldGFkYXRhX21hdGNoZXMoKSB7CiAgICAgICAgbGV0IGRpcmVjdG9yeSA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkudW53cmFwKCk7CiAgICAgICAgbGV0IGRhdGFfZGlyID0gZGlyZWN0b3J5LnBhdGgoKTsKICAgICAgICBsZXQgYXNzZXQgPSBDbG91ZGZsYXJlZEFzc2V0U3BlYyB7CiAgICAgICAgICAgIHBsYXRmb3JtOiAidGVzdC1wbGF0Zm9ybSIsCiAgICAgICAgICAgIGZpbGVfbmFtZTogImNsb3VkZmxhcmVkLXRlc3QiLAogICAgICAgICAgICB2ZXJzaW9uOiAiMjA5OS4xLjAiLAogICAgICAgICAgICBzaGEyNTY6ICI5N2IwNTYwMjgwZWQ2MGE1YTFlYWExYmM0NTQ5MjU0M2M4YTk4NmFkNWEyNWI0NjhjNDI3ZWI4M2MzZTg4MTkxIiwKICAgICAgICB9OwogICAgICAgIGxldCBiaW5hcnkgPSBkYXRhX2Rpci5qb2luKCJjbG91ZGZsYXJlZCIpLmpvaW4oImNsb3VkZmxhcmVkIik7CiAgICAgICAgc3RkOjpmczo6Y3JlYXRlX2Rpcl9hbGwoYmluYXJ5LnBhcmVudCgpLnVud3JhcCgpKS51bndyYXAoKTsKICAgICAgICBzdGQ6OmZzOjp3cml0ZSgmYmluYXJ5LCBiImN1cnJlbnQiKS51bndyYXAoKTsKICAgICAgICBhc3NlcnQhKGNsb3VkZmxhcmVkX2luc3RhbGxfaXNfY3VycmVudF9mb3JfYXNzZXQoCiAgICAgICAgICAgIGRhdGFfZGlyLCAmYmluYXJ5LCBhc3NldAogICAgICAgICkpOwoKICAgICAgICBzdGQ6OmZzOjp3cml0ZSgmYmluYXJ5LCBiImRhbWFnZWQiKS51bndyYXAoKTsKICAgICAgICBhc3NlcnQhKCFjbG91ZGZsYXJlZF9pbnN0YWxsX2lzX2N1cnJlbnRfZm9yX2Fzc2V0KAogICAgICAgICAgICBkYXRhX2RpciwgJmJpbmFyeSwgYXNzZXQKICAgICAgICApKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiByZWplY3RzX2V4aXN0aW5nX21ldGFkYXRhX3RoYXRfZG9lc19ub3RfbWF0Y2hfdGhlX3Bpbm5lZF9hc3NldCgpIHsKICAgICAgICBsZXQgZGlyZWN0b3J5ID0gdGVtcGZpbGU6OnRlbXBkaXIoKS51bndyYXAoKTsKICAgICAgICBsZXQgZGF0YV9kaXIgPSBkaXJlY3RvcnkucGF0aCgpOwogICAgICAgIGxldCBhc3NldCA9IENsb3VkZmxhcmVkQXNzZXRTcGVjIHsKICAgICAgICAgICAgcGxhdGZvcm06ICJ0ZXN0LXBsYXRmb3JtIiwKICAgICAgICAgICAgZmlsZV9uYW1lOiAiY2xvdWRmbGFyZWQtdGVzdCIsCiAgICAgICAgICAgIHZlcnNpb246ICIyMDk5LjEuMCIsCiAgICAgICAgICAgIHNoYTI1NjogIjk3YjA1NjAyODBlZDYwYTVhMWVhYTFiYzQ1NDkyNTQzYzhhOTg2YWQ1YTI1YjQ2OGM0MjdlYjgzYzNlODgxOTEiLAogICAgICAgIH07CiAgICAgICAgbGV0IGJpbmFyeSA9IGRhdGFfZGlyLmpvaW4oImNsb3VkZmxhcmVkIikuam9pbigiY2xvdWRmbGFyZWQiKTsKICAgICAgICBzdGQ6OmZzOjpjcmVhdGVfZGlyX2FsbChiaW5hcnkucGFyZW50KCkudW53cmFwKCkpLnVud3JhcCgpOwogICAgICAgIHN0ZDo6ZnM6OndyaXRlKCZiaW5hcnksIGIiY3VycmVudCIpLnVud3JhcCgpOwogICAgICAgIHN0ZDo6ZnM6OndyaXRlKAogICAgICAgICAgICBjbG91ZGZsYXJlZF9pbnN0YWxsX21ldGFkYXRhX3BhdGgoZGF0YV9kaXIpLAogICAgICAgICAgICBzZXJkZV9qc29uOjp0b192ZWMoJnNlcmRlX2pzb246Ompzb24hKHsKICAgICAgICAgICAgICAgICJ2ZXJzaW9uIjogIjIwOTguMTIuMCIsCiAgICAgICAgICAgICAgICAicGxhdGZvcm0iOiBhc3NldC5wbGF0Zm9ybSwKICAgICAgICAgICAgICAgICJhc3NldCI6IGFzc2V0LmZpbGVfbmFtZSwKICAgICAgICAgICAgICAgICJzaGEyNTYiOiBhc3NldC5zaGEyNTYsCiAgICAgICAgICAgIH0pKQogICAgICAgICAgICAudW53cmFwKCksCiAgICAgICAgKQogICAgICAgIC51bndyYXAoKTsKCiAgICAgICAgYXNzZXJ0ISghY2xvdWRmbGFyZWRfaW5zdGFsbF9pc19jdXJyZW50X2Zvcl9hc3NldCgKICAgICAgICAgICAgZGF0YV9kaXIsICZiaW5hcnksIGFzc2V0CiAgICAgICAgKSk7CiAgICAgICAgbGV0IG1ldGFkYXRhOiBWYWx1ZSA9IHNlcmRlX2pzb246OmZyb21fc2xpY2UoCiAgICAgICAgICAgICZzdGQ6OmZzOjpyZWFkKGNsb3VkZmxhcmVkX2luc3RhbGxfbWV0YWRhdGFfcGF0aChkYXRhX2RpcikpLnVud3JhcCgpLAogICAgICAgICkKICAgICAgICAudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0X2VxIShtZXRhZGF0YVsidmVyc2lvbiJdLCAiMjA5OC4xMi4wIik7CiAgICB9Cn0K
+use std::{
+    io::Read,
+    path::{Path, PathBuf},
+};
+
+use serde_json::Value;
+use sha2::{Digest, Sha256};
+
+use crate::fs_utils::replace_file;
+
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+pub(crate) struct CloudflaredAssetSpec {
+    pub platform: &'static str,
+    pub file_name: &'static str,
+    pub version: &'static str,
+    pub sha256: &'static str,
+}
+
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+pub(crate) enum CloudflaredInstallationStatus {
+    Missing,
+    Outdated,
+    Current,
+}
+
+impl CloudflaredInstallationStatus {
+    pub(crate) const fn as_str(self) -> &'static str {
+        match self {
+            Self::Missing => "missing",
+            Self::Outdated => "outdated",
+            Self::Current => "current",
+        }
+    }
+}
+
+pub(crate) const CLOUDFLARED_VERSION: &str = "2026.7.3";
+pub(crate) const CLOUDFLARED_INSTALL_METADATA_FILE: &str = "install.json";
+
+pub(crate) fn detect_cloudflared_platform() -> &'static str {
+    cloudflared_platform_for_target(
+        std::env::consts::OS,
+        std::env::consts::ARCH,
+        cfg!(all(
+            target_os = "linux",
+            target_arch = "arm",
+            target_abi = "eabihf"
+        )),
+    )
+}
+
+#[cfg(test)]
+pub(crate) fn cloudflared_platform(os: &str, arch: &str) -> &'static str {
+    cloudflared_platform_for_target(os, arch, false)
+}
+
+pub(crate) fn cloudflared_platform_for_target(
+    os: &str,
+    arch: &str,
+    arm_hard_float: bool,
+) -> &'static str {
+    match (os, arch) {
+        ("macos", "x86_64") => "darwin-amd64",
+        ("macos", "aarch64") => "darwin-arm64",
+        ("linux", "x86_64" | "amd64") => "linux-amd64",
+        ("linux", "x86" | "i386" | "i686") => "linux-386",
+        ("linux", "aarch64" | "arm64") => "linux-arm64",
+        ("linux", "armv7") => "linux-armhf",
+        ("linux", "arm") if arm_hard_float => "linux-armhf",
+        ("linux", "arm") => "linux-arm",
+        ("windows", "x86_64" | "amd64") => "windows-amd64",
+        ("windows", "x86" | "i386" | "i686") => "windows-386",
+        _ => "unsupported",
+    }
+}
+
+pub(crate) fn cloudflared_asset_name(platform: &str) -> Option<&'static str> {
+    cloudflared_asset_spec(platform).map(|asset| asset.file_name)
+}
+
+pub(crate) fn cloudflared_asset_spec(platform: &str) -> Option<CloudflaredAssetSpec> {
+    let (file_name, sha256) = match platform {
+        "darwin-amd64" => (
+            "cloudflared-darwin-amd64",
+            "e88fe5874d42a94f49a7ea59cabc3722d2962d0449232b0f3b1a426a712e275c",
+        ),
+        "darwin-arm64" => (
+            "cloudflared-darwin-arm64",
+            "f35c50089cd25f77a4cb5a2152036bc26db15aa31fbe11f7995d2e42a4ed6257",
+        ),
+        "linux-386" => (
+            "cloudflared-linux-386",
+            "6c982e77e644644f5bce76781dd2b69ddc0bfa5e1dd1f55f0037850ac0946771",
+        ),
+        "linux-amd64" => (
+            "cloudflared-linux-amd64",
+            "9d71c677db00134c1bd4144b7783486b654ad281b1ea62b4972098d19f770f17",
+        ),
+        "linux-arm" => (
+            "cloudflared-linux-arm",
+            "6dadd979b8833760e9f6d840a6239a8c08c8bcf73b4231ec537f483873f37c73",
+        ),
+        "linux-armhf" => (
+            "cloudflared-linux-armhf",
+            "2aadbe6416e5c52cb7ebba99119f413a124f358516c17d4ecaacb89a363e8a35",
+        ),
+        "linux-arm64" => (
+            "cloudflared-linux-arm64",
+            "65259e652a7bea08bf5df603233ab22b8bf3116af8df9f9206209af6a1b955c0",
+        ),
+        "windows-386" => (
+            "cloudflared-windows-386.exe",
+            "d026e39d9be21c70ea652528fda2801e164d5e25688b7b0fb3b65080cbd96503",
+        ),
+        "windows-amd64" => (
+            "cloudflared-windows-amd64.exe",
+            "8635da433b6df8194746e88ed9d2589566c20e38bfc2a80e431a348b7c765841",
+        ),
+        _ => return None,
+    };
+    Some(CloudflaredAssetSpec {
+        platform: match platform {
+            "darwin-amd64" => "darwin-amd64",
+            "darwin-arm64" => "darwin-arm64",
+            "linux-386" => "linux-386",
+            "linux-amd64" => "linux-amd64",
+            "linux-arm" => "linux-arm",
+            "linux-armhf" => "linux-armhf",
+            "linux-arm64" => "linux-arm64",
+            "windows-386" => "windows-386",
+            "windows-amd64" => "windows-amd64",
+            _ => unreachable!(),
+        },
+        file_name,
+        version: CLOUDFLARED_VERSION,
+        sha256,
+    })
+}
+
+pub(crate) fn cloudflared_binary_path(data_dir: &Path, platform: &str) -> Option<PathBuf> {
+    cloudflared_asset_name(platform)?;
+    let binary_name = if platform.starts_with("windows-") {
+        "cloudflared.exe"
+    } else {
+        "cloudflared"
+    };
+    Some(data_dir.join("cloudflared").join(binary_name))
+}
+
+pub(crate) fn cloudflared_install_metadata_path(data_dir: &Path) -> PathBuf {
+    data_dir
+        .join("cloudflared")
+        .join(CLOUDFLARED_INSTALL_METADATA_FILE)
+}
+
+pub(crate) fn cloudflared_install_is_current(data_dir: &Path, platform: &str) -> bool {
+    let Some(asset) = cloudflared_asset_spec(platform) else {
+        return false;
+    };
+    let Some(binary) = cloudflared_binary_path(data_dir, platform) else {
+        return false;
+    };
+    cloudflared_install_is_current_for_asset(data_dir, &binary, asset)
+}
+
+pub(crate) fn cloudflared_installation_status(
+    data_dir: &Path,
+    platform: &str,
+) -> CloudflaredInstallationStatus {
+    let Some(binary) = cloudflared_binary_path(data_dir, platform) else {
+        return CloudflaredInstallationStatus::Missing;
+    };
+    let binary_exists = binary.is_file();
+    classify_cloudflared_installation_status(
+        binary_exists,
+        binary_exists && cloudflared_install_is_current(data_dir, platform),
+    )
+}
+
+fn classify_cloudflared_installation_status(
+    binary_exists: bool,
+    is_current: bool,
+) -> CloudflaredInstallationStatus {
+    match (binary_exists, is_current) {
+        (false, _) => CloudflaredInstallationStatus::Missing,
+        (true, true) => CloudflaredInstallationStatus::Current,
+        (true, false) => CloudflaredInstallationStatus::Outdated,
+    }
+}
+
+fn cloudflared_install_is_current_for_asset(
+    data_dir: &Path,
+    binary: &Path,
+    asset: CloudflaredAssetSpec,
+) -> bool {
+    if !binary.is_file() || !file_checksum_matches(binary, asset.sha256) {
+        return false;
+    }
+    let metadata_path = cloudflared_install_metadata_path(data_dir);
+    match std::fs::read_to_string(&metadata_path) {
+        Ok(raw) => {
+            return serde_json::from_str::<Value>(&raw)
+                .ok()
+                .is_some_and(|metadata| {
+                    metadata.get("version").and_then(Value::as_str) == Some(asset.version)
+                        && metadata.get("platform").and_then(Value::as_str) == Some(asset.platform)
+                        && metadata.get("asset").and_then(Value::as_str) == Some(asset.file_name)
+                        && metadata.get("sha256").and_then(Value::as_str) == Some(asset.sha256)
+                });
+        }
+        Err(error) if error.kind() == std::io::ErrorKind::NotFound => {}
+        Err(_) => return false,
+    }
+    let metadata = serde_json::json!({
+        "version": asset.version,
+        "platform": asset.platform,
+        "asset": asset.file_name,
+        "sha256": asset.sha256,
+    });
+    repair_cloudflared_install_metadata(
+        data_dir,
+        &serde_json::to_vec_pretty(&metadata).unwrap_or_default(),
+    );
+
+    // A checksum-verified binary without metadata is the one repairable legacy
+    // state. If the repair cannot be persisted yet, do not misclassify the
+    // known binary as outdated; a later status check will retry the repair.
+    true
+}
+
+fn repair_cloudflared_install_metadata(data_dir: &Path, content: &[u8]) {
+    let metadata = cloudflared_install_metadata_path(data_dir);
+    let Some(directory) = metadata.parent() else {
+        return;
+    };
+    let temporary = directory.join(format!(
+        "install.repair.{}.tmp",
+        uuid::Uuid::new_v4().simple()
+    ));
+    if std::fs::write(&temporary, content).is_ok() {
+        let _ = replace_file(&temporary, &metadata);
+    }
+    let _ = std::fs::remove_file(temporary);
+}
+
+fn file_checksum_matches(path: &Path, expected_sha256: &str) -> bool {
+    let Ok(mut file) = std::fs::File::open(path) else {
+        return false;
+    };
+    let mut hasher = Sha256::new();
+    let mut buffer = [0u8; 64 * 1024];
+    loop {
+        let Ok(read) = file.read(&mut buffer) else {
+            return false;
+        };
+        if read == 0 {
+            break;
+        }
+        hasher.update(&buffer[..read]);
+    }
+    hex::encode(hasher.finalize()) == expected_sha256
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn maps_every_upstream_standalone_binary_platform() {
+        let cases = [
+            (
+                "macos",
+                "x86_64",
+                "darwin-amd64",
+                "cloudflared-darwin-amd64",
+            ),
+            (
+                "macos",
+                "aarch64",
+                "darwin-arm64",
+                "cloudflared-darwin-arm64",
+            ),
+            ("linux", "x86", "linux-386", "cloudflared-linux-386"),
+            ("linux", "x86_64", "linux-amd64", "cloudflared-linux-amd64"),
+            ("linux", "arm", "linux-arm", "cloudflared-linux-arm"),
+            ("linux", "armv7", "linux-armhf", "cloudflared-linux-armhf"),
+            ("linux", "aarch64", "linux-arm64", "cloudflared-linux-arm64"),
+            (
+                "windows",
+                "x86",
+                "windows-386",
+                "cloudflared-windows-386.exe",
+            ),
+            (
+                "windows",
+                "x86_64",
+                "windows-amd64",
+                "cloudflared-windows-amd64.exe",
+            ),
+        ];
+
+        for (os, arch, platform, asset) in cases {
+            assert_eq!(cloudflared_platform(os, arch), platform);
+            assert_eq!(cloudflared_asset_name(platform), Some(asset));
+        }
+        assert_eq!(cloudflared_platform("windows", "aarch64"), "unsupported");
+        assert_eq!(
+            cloudflared_platform_for_target("linux", "arm", true),
+            "linux-armhf"
+        );
+        assert_eq!(
+            cloudflared_platform_for_target("linux", "arm", false),
+            "linux-arm"
+        );
+    }
+
+    #[test]
+    fn pins_every_asset_to_the_current_release_checksum() {
+        for platform in [
+            "darwin-amd64",
+            "darwin-arm64",
+            "linux-386",
+            "linux-amd64",
+            "linux-arm",
+            "linux-armhf",
+            "linux-arm64",
+            "windows-386",
+            "windows-amd64",
+        ] {
+            let asset = cloudflared_asset_spec(platform).unwrap();
+            assert_eq!(asset.platform, platform);
+            assert_eq!(asset.version, CLOUDFLARED_VERSION);
+            assert_eq!(asset.sha256.len(), 64);
+            assert!(asset.sha256.bytes().all(|byte| byte.is_ascii_hexdigit()));
+        }
+    }
+
+    #[test]
+    fn uses_the_native_windows_executable_suffix() {
+        assert_eq!(
+            cloudflared_binary_path(Path::new("C:/fn-knock/data"), "windows-amd64").unwrap(),
+            Path::new("C:/fn-knock/data/cloudflared/cloudflared.exe")
+        );
+        assert_eq!(
+            cloudflared_binary_path(Path::new("/var/lib/fn-knock"), "linux-amd64").unwrap(),
+            Path::new("/var/lib/fn-knock/cloudflared/cloudflared")
+        );
+        assert!(cloudflared_binary_path(Path::new("/tmp"), "unsupported").is_none());
+    }
+
+    #[test]
+    fn classifies_missing_outdated_and_current_installations() {
+        assert_eq!(
+            classify_cloudflared_installation_status(false, false),
+            CloudflaredInstallationStatus::Missing
+        );
+        assert_eq!(
+            classify_cloudflared_installation_status(true, false),
+            CloudflaredInstallationStatus::Outdated
+        );
+        assert_eq!(
+            classify_cloudflared_installation_status(true, true),
+            CloudflaredInstallationStatus::Current
+        );
+    }
+
+    #[test]
+    fn repairs_missing_metadata_for_a_checksum_verified_binary() {
+        let directory = tempfile::tempdir().unwrap();
+        let data_dir = directory.path();
+        let asset = CloudflaredAssetSpec {
+            platform: "test-platform",
+            file_name: "cloudflared-test",
+            version: "2099.1.0",
+            sha256: "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191",
+        };
+        let binary = data_dir.join("cloudflared").join("cloudflared");
+        std::fs::create_dir_all(binary.parent().unwrap()).unwrap();
+        std::fs::write(&binary, b"current").unwrap();
+
+        assert!(cloudflared_install_is_current_for_asset(
+            data_dir, &binary, asset
+        ));
+        let metadata: Value = serde_json::from_slice(
+            &std::fs::read(cloudflared_install_metadata_path(data_dir)).unwrap(),
+        )
+        .unwrap();
+        assert_eq!(metadata["version"], asset.version);
+        assert_eq!(metadata["sha256"], asset.sha256);
+        assert!(
+            std::fs::read_dir(binary.parent().unwrap())
+                .unwrap()
+                .flatten()
+                .all(|entry| !entry
+                    .file_name()
+                    .to_string_lossy()
+                    .starts_with("install.repair."))
+        );
+    }
+
+    #[test]
+    fn rejects_a_damaged_binary_even_when_metadata_matches() {
+        let directory = tempfile::tempdir().unwrap();
+        let data_dir = directory.path();
+        let asset = CloudflaredAssetSpec {
+            platform: "test-platform",
+            file_name: "cloudflared-test",
+            version: "2099.1.0",
+            sha256: "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191",
+        };
+        let binary = data_dir.join("cloudflared").join("cloudflared");
+        std::fs::create_dir_all(binary.parent().unwrap()).unwrap();
+        std::fs::write(&binary, b"current").unwrap();
+        assert!(cloudflared_install_is_current_for_asset(
+            data_dir, &binary, asset
+        ));
+
+        std::fs::write(&binary, b"damaged").unwrap();
+        assert!(!cloudflared_install_is_current_for_asset(
+            data_dir, &binary, asset
+        ));
+    }
+
+    #[test]
+    fn rejects_existing_metadata_that_does_not_match_the_pinned_asset() {
+        let directory = tempfile::tempdir().unwrap();
+        let data_dir = directory.path();
+        let asset = CloudflaredAssetSpec {
+            platform: "test-platform",
+            file_name: "cloudflared-test",
+            version: "2099.1.0",
+            sha256: "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191",
+        };
+        let binary = data_dir.join("cloudflared").join("cloudflared");
+        std::fs::create_dir_all(binary.parent().unwrap()).unwrap();
+        std::fs::write(&binary, b"current").unwrap();
+        std::fs::write(
+            cloudflared_install_metadata_path(data_dir),
+            serde_json::to_vec(&serde_json::json!({
+                "version": "2098.12.0",
+                "platform": asset.platform,
+                "asset": asset.file_name,
+                "sha256": asset.sha256,
+            }))
+            .unwrap(),
+        )
+        .unwrap();
+
+        assert!(!cloudflared_install_is_current_for_asset(
+            data_dir, &binary, asset
+        ));
+        let metadata: Value = serde_json::from_slice(
+            &std::fs::read(cloudflared_install_metadata_path(data_dir)).unwrap(),
+        )
+        .unwrap();
+        assert_eq!(metadata["version"], "2098.12.0");
+    }
+}

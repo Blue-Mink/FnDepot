@@ -1,1 +1,149 @@
-dXNlIHNlcmRlOjpTZXJpYWxpemU7CnVzZSB1dG9pcGE6OlRvU2NoZW1hOwoKdXNlIHN1cGVyOjp7R2F0ZXdheVZpc2liaWxpdHlTZWxlY3Rpb25EYXRhLCBHYXRld2F5VmlzaWJpbGl0eVNlbGVjdGlvbklucHV0RGF0YX07CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgU3NoU2VjdXJpdHlDb25maWdEYXRhIHsKICAgIGVuYWJsZWQ6IGJvb2wsCiAgICB3aW5kb3dfbWludXRlczogaTY0LAogICAgZmFpbGVkX2xvZ2luX3RocmVzaG9sZDogaTY0LAogICAgYmxvY2tfZHVyYXRpb25fdmFsdWU6IGk2NCwKICAgIGJsb2NrX2R1cmF0aW9uX3VuaXQ6IFN0cmluZywKICAgIGFsbG93ZWRfcmVnaW9uczogVmVjPEdhdGV3YXlWaXNpYmlsaXR5U2VsZWN0aW9uRGF0YT4sCiAgICBjdXN0b21fY2lkcnM6IFZlYzxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIGNvbmZpZ3VyZWRfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIHVwZGF0ZWRfYXQ6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgU3NoU2VjdXJpdHlDb25maWdVcGRhdGVEYXRhIHsKICAgIGVuYWJsZWQ6IE9wdGlvbjxib29sPiwKICAgICNbc2NoZW1hKG1pbmltdW0gPSAxLCBtYXhpbXVtID0gMTQ0MCldCiAgICB3aW5kb3dfbWludXRlczogT3B0aW9uPGk2ND4sCiAgICAjW3NjaGVtYShtaW5pbXVtID0gMSwgbWF4aW11bSA9IDEwMDApXQogICAgZmFpbGVkX2xvZ2luX3RocmVzaG9sZDogT3B0aW9uPGk2ND4sCiAgICAjW3NjaGVtYShtaW5pbXVtID0gMSwgbWF4aW11bSA9IDM2NSldCiAgICBibG9ja19kdXJhdGlvbl92YWx1ZTogT3B0aW9uPGk2ND4sCiAgICBibG9ja19kdXJhdGlvbl91bml0OiBPcHRpb248U3RyaW5nPiwKICAgIGFsbG93ZWRfcmVnaW9uczogT3B0aW9uPFZlYzxHYXRld2F5VmlzaWJpbGl0eVNlbGVjdGlvbklucHV0RGF0YT4+LAogICAgY3VzdG9tX2NpZHJzOiBPcHRpb248VmVjPFN0cmluZz4+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgU3NoU2VjdXJpdHlTdW1tYXJ5RGF0YSB7CiAgICBjb25maWd1cmVkOiBib29sLAogICAgZW5hYmxlZDogYm9vbCwKICAgIGFsbG93ZWRfY2lkcl9jb3VudDogdTY0LAogICAgYWxsb3dlZF9yYW5nZV9jb3VudDogdTY0LAogICAgYWN0aXZlX2Jsb2NrX2NvdW50OiB1c2l6ZSwKICAgIHNzaF9wb3J0czogVmVjPGk2ND4sCiAgICBsb2dfc291cmNlOiBTdHJpbmcsCiAgICBhdmFpbGFibGU6IGJvb2wsCiAgICB1bmF2YWlsYWJsZV9yZWFzb246IFN0cmluZywKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICB1cGRhdGVkX2F0OiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFNzaFNlY3VyaXR5RGV0YWlsc0RhdGEgewogICAgY29uZmlnOiBTc2hTZWN1cml0eUNvbmZpZ0RhdGEsCiAgICBzdW1tYXJ5OiBTc2hTZWN1cml0eVN1bW1hcnlEYXRhLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBTc2hMb2dpbkxvZ0VudHJ5RGF0YSB7CiAgICBpZDogU3RyaW5nLAogICAgI1tzZXJkZShyZW5hbWUgPSAiaGFwcGVuZWRfYXQiKV0KICAgIGhhcHBlbmVkX2F0OiBTdHJpbmcsCiAgICBvdXRjb21lOiBTdHJpbmcsCiAgICB1c2VybmFtZTogU3RyaW5nLAogICAgI1tzZXJkZShyZW5hbWUgPSAiaW52YWxpZF91c2VyIildCiAgICBpbnZhbGlkX3VzZXI6IGJvb2wsCiAgICBpcDogU3RyaW5nLAogICAgaXBfbG9jYXRpb246IE9wdGlvbjxTdHJpbmc+LAogICAgcG9ydDogT3B0aW9uPGk2ND4sCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJyZWxhdGVkX3BvcnRzIildCiAgICByZWxhdGVkX3BvcnRzOiBPcHRpb248VmVjPGk2ND4+LAogICAgI1tzZXJkZShyZW5hbWUgPSAicmVwZWF0X2NvdW50IildCiAgICByZXBlYXRfY291bnQ6IE9wdGlvbjxpNjQ+LAogICAgI1tzZXJkZShyZW5hbWUgPSAiYXV0aF9tZXRob2QiKV0KICAgIGF1dGhfbWV0aG9kOiBPcHRpb248U3RyaW5nPiwKICAgIHNlcnZpY2U6IFN0cmluZywKICAgIHNvdXJjZTogU3RyaW5nLAogICAgcmF3OiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBTc2hMb2dpbkxvZ0xpc3REYXRhIHsKICAgIGl0ZW1zOiBWZWM8U3NoTG9naW5Mb2dFbnRyeURhdGE+LAogICAgdG90YWw6IHVzaXplLAogICAgcGFnZTogaTY0LAogICAgbGltaXQ6IGk2NCwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgU3NoU2VjdXJpdHlCbG9ja0RhdGEgewogICAgaXA6IFN0cmluZywKICAgIGlwX2xvY2F0aW9uOiBPcHRpb248U3RyaW5nPiwKICAgIHBvcnRzOiBPcHRpb248VmVjPGk2ND4+LAogICAgI1tzZXJkZShyZW5hbWUgPSAiYmxvY2tlZF9hdCIpXQogICAgYmxvY2tlZF9hdDogU3RyaW5nLAogICAgI1tzZXJkZShyZW5hbWUgPSAiZXhwaXJlc19hdCIpXQogICAgZXhwaXJlc19hdDogU3RyaW5nLAogICAgcmVhc29uOiBTdHJpbmcsCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJmYWlsZWRfY291bnQiKV0KICAgIGZhaWxlZF9jb3VudDogaTY0LAogICAgI1tzZXJkZShyZW5hbWUgPSAid2luZG93X21pbnV0ZXMiKV0KICAgIHdpbmRvd19taW51dGVzOiBpNjQsCiAgICB0aHJlc2hvbGQ6IGk2NCwKICAgICNbc2VyZGUocmVuYW1lID0gInNhbXBsZV91c2VyIildCiAgICBzYW1wbGVfdXNlcjogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJzYW1wbGVfYXV0aF9tZXRob2QiKV0KICAgIHNhbXBsZV9hdXRoX21ldGhvZDogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJzYW1wbGVfbG9nX3RpbWUiKV0KICAgIHNhbXBsZV9sb2dfdGltZTogT3B0aW9uPFN0cmluZz4sCiAgICBhcHBsaWVkOiBib29sLAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgICNbc2VyZGUocmVuYW1lID0gInJlbW92ZWRfYXQiKV0KICAgIHJlbW92ZWRfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgICNbc2VyZGUocmVuYW1lID0gInJlbW92ZV9yZWFzb24iKV0KICAgIHJlbW92ZV9yZWFzb246IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgU3NoU2VjdXJpdHlCbG9ja0xpc3REYXRhIHsKICAgIGl0ZW1zOiBWZWM8U3NoU2VjdXJpdHlCbG9ja0RhdGE+LAogICAgdG90YWw6IHVzaXplLAogICAgcGFnZTogaTY0LAogICAgbGltaXQ6IGk2NCwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFNzaEZpcmV3YWxsU3luY0RhdGEgewogICAgY2xlYXJlZDogdXNpemUsCiAgICBzeW5jZWQ6IHVzaXplLAogICAgYWN0aXZlX2Jsb2NrczogdXNpemUsCiAgICBhbGxvd2VkX2NpZHJzOiB1c2l6ZSwKICAgIHBvcnRzOiBWZWM8aTY0PiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFNzaEZpcmV3YWxsQ2xlYXJEYXRhIHsKICAgIGNsZWFyZWRfYmxvY2tzOiB1c2l6ZSwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFNzaEJsb2Nrc0RlbGV0ZUJvZHlEYXRhIHsKICAgIGlwczogVmVjPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBTc2hCbG9ja3NEZWxldGVEYXRhIHsKICAgIHJlbW92ZWQ6IHVzaXplLAp9Cg==
+use serde::Serialize;
+use utoipa::ToSchema;
+
+use super::{GatewayVisibilitySelectionData, GatewayVisibilitySelectionInputData};
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SshSecurityConfigData {
+    enabled: bool,
+    window_minutes: i64,
+    failed_login_threshold: i64,
+    block_duration_value: i64,
+    block_duration_unit: String,
+    allowed_regions: Vec<GatewayVisibilitySelectionData>,
+    custom_cidrs: Vec<String>,
+    #[schema(required = true)]
+    configured_at: Option<String>,
+    #[schema(required = true)]
+    updated_at: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SshSecurityConfigUpdateData {
+    enabled: Option<bool>,
+    #[schema(minimum = 1, maximum = 1440)]
+    window_minutes: Option<i64>,
+    #[schema(minimum = 1, maximum = 1000)]
+    failed_login_threshold: Option<i64>,
+    #[schema(minimum = 1, maximum = 365)]
+    block_duration_value: Option<i64>,
+    block_duration_unit: Option<String>,
+    allowed_regions: Option<Vec<GatewayVisibilitySelectionInputData>>,
+    custom_cidrs: Option<Vec<String>>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SshSecuritySummaryData {
+    configured: bool,
+    enabled: bool,
+    allowed_cidr_count: u64,
+    allowed_range_count: u64,
+    active_block_count: usize,
+    ssh_ports: Vec<i64>,
+    log_source: String,
+    available: bool,
+    unavailable_reason: String,
+    #[schema(required = true)]
+    updated_at: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SshSecurityDetailsData {
+    config: SshSecurityConfigData,
+    summary: SshSecuritySummaryData,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct SshLoginLogEntryData {
+    id: String,
+    #[serde(rename = "happened_at")]
+    happened_at: String,
+    outcome: String,
+    username: String,
+    #[serde(rename = "invalid_user")]
+    invalid_user: bool,
+    ip: String,
+    ip_location: Option<String>,
+    port: Option<i64>,
+    #[serde(rename = "related_ports")]
+    related_ports: Option<Vec<i64>>,
+    #[serde(rename = "repeat_count")]
+    repeat_count: Option<i64>,
+    #[serde(rename = "auth_method")]
+    auth_method: Option<String>,
+    service: String,
+    source: String,
+    raw: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SshLoginLogListData {
+    items: Vec<SshLoginLogEntryData>,
+    total: usize,
+    page: i64,
+    limit: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct SshSecurityBlockData {
+    ip: String,
+    ip_location: Option<String>,
+    ports: Option<Vec<i64>>,
+    #[serde(rename = "blocked_at")]
+    blocked_at: String,
+    #[serde(rename = "expires_at")]
+    expires_at: String,
+    reason: String,
+    #[serde(rename = "failed_count")]
+    failed_count: i64,
+    #[serde(rename = "window_minutes")]
+    window_minutes: i64,
+    threshold: i64,
+    #[serde(rename = "sample_user")]
+    sample_user: Option<String>,
+    #[serde(rename = "sample_auth_method")]
+    sample_auth_method: Option<String>,
+    #[serde(rename = "sample_log_time")]
+    sample_log_time: Option<String>,
+    applied: bool,
+    #[schema(required = true)]
+    #[serde(rename = "removed_at")]
+    removed_at: Option<String>,
+    #[schema(required = true)]
+    #[serde(rename = "remove_reason")]
+    remove_reason: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SshSecurityBlockListData {
+    items: Vec<SshSecurityBlockData>,
+    total: usize,
+    page: i64,
+    limit: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SshFirewallSyncData {
+    cleared: usize,
+    synced: usize,
+    active_blocks: usize,
+    allowed_cidrs: usize,
+    ports: Vec<i64>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SshFirewallClearData {
+    cleared_blocks: usize,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SshBlocksDeleteBodyData {
+    ips: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SshBlocksDeleteData {
+    removed: usize,
+}

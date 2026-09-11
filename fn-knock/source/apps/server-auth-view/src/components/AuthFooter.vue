@@ -1,1 +1,74 @@
-PHRlbXBsYXRlPgogIDxmb290ZXIKICAgIGNsYXNzPSJmbGV4IGp1c3RpZnktY2VudGVyIHB4LTQgcHQtNiBwYi0yIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kLzYwIgogID4KICAgIDxkaXYgY2xhc3M9InctZnVsbCBtYXgtdy1zbSBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgIDxkaXYKICAgICAgICB2LWlmPSJwcm9wcy5jbGllbnRJcCIKICAgICAgICBjbGFzcz0idy1mdWxsIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGdhcC0xIHRleHQtY2VudGVyIHNtOmZsZXgtcm93IHNtOmZsZXgtd3JhcCBzbTpqdXN0aWZ5LWNlbnRlciBzbTpnYXAteC0xLjUgc206Z2FwLXktMSIKICAgICAgPgogICAgICAgIDxzcGFuIGNsYXNzPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBtaW4tdy0wIHNtOnNocmluay0wIj4KICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIGNsYXNzPSJicmVhay1hbGwgdGV4dC1jZW50ZXIgc206YnJlYWstbm9ybWFsIHNtOndoaXRlc3BhY2Utbm93cmFwIgogICAgICAgICAgICA+e3sgcHJvcHMuY2xpZW50SXAgfX08L3NwYW4KICAgICAgICAgID4KICAgICAgICA8L3NwYW4+CiAgICAgICAgPHNwYW4KICAgICAgICAgIHYtaWY9InByb3BzLmlwTG9jYXRpb24iCiAgICAgICAgICBjbGFzcz0iYnJlYWstd29yZHMgc206YnJlYWstbm9ybWFsIHNtOndoaXRlc3BhY2Utbm93cmFwIHNtOnNocmluay0wIgogICAgICAgID4KICAgICAgICAgIHt7IHByb3BzLmlwTG9jYXRpb24gfX0KICAgICAgICA8L3NwYW4+CiAgICAgICAgPHNwYW4KICAgICAgICAgIHYtZWxzZS1pZj0iCiAgICAgICAgICAgIHByb3BzLmlwTG9jYXRpb25TdGF0dXMgPT09ICdxdWV1ZWQnIHx8CiAgICAgICAgICAgIHByb3BzLmlwTG9jYXRpb25TdGF0dXMgPT09ICdwcm9jZXNzaW5nJwogICAgICAgICAgIgogICAgICAgICAgY2xhc3M9ImJyZWFrLXdvcmRzIHNtOmJyZWFrLW5vcm1hbCBzbTp3aGl0ZXNwYWNlLW5vd3JhcCBzbTpzaHJpbmstMCIKICAgICAgICA+CiAgICAgICAgICB7eyB0KCJhdXRoLmxvY2F0aW9uUmVzb2x2aW5nIikgfX0KICAgICAgICA8L3NwYW4+CiAgICAgICAgPHNwYW4KICAgICAgICAgIHYtZWxzZS1pZj0icHJvcHMuaXBMb2NhdGlvblN0YXR1cyA9PT0gJ2ZhaWxlZCciCiAgICAgICAgICBjbGFzcz0iYnJlYWstd29yZHMgc206YnJlYWstbm9ybWFsIHNtOndoaXRlc3BhY2Utbm93cmFwIHNtOnNocmluay0wIgogICAgICAgID4KICAgICAgICAgIHt7IHQoImF1dGgubG9jYXRpb25VbmF2YWlsYWJsZSIpIH19CiAgICAgICAgPC9zcGFuPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIj4KICAgICAgICA8YQogICAgICAgICAgOmhyZWY9IkFQUF9HSVRIVUJfVVJMIgogICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiCiAgICAgICAgICByZWw9Im5vb3BlbmVyIG5vcmVmZXJyZXIiCiAgICAgICAgICBjbGFzcz0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgcm91bmRlZC1mdWxsIHB4LTIuNSBweS0xIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOnRleHQtZm9yZWdyb3VuZCBob3ZlcjpiZy1iYWNrZ3JvdW5kLzcwIgogICAgICAgICAgOnRpdGxlPSJ0KCdhdXRoLm9wZW5HaXRodWInKSIKICAgICAgICA+CiAgICAgICAgICA8R2l0aHViIGNsYXNzPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgIDxzcGFuPmZuLWtub2NrLXR1cmJvcmVwbzwvc3Bhbj4KICAgICAgICA8L2E+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9mb290ZXI+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgR2l0aHViIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHR5cGUgeyBBdXRoQ2xpZW50TG9jYXRpb25TdGF0dXMgfSBmcm9tICJAZnJvbnRlbmQtY29yZS9hdXRoL3R5cGVzIjsKCmNvbnN0IEFQUF9HSVRIVUJfVVJMID0gImh0dHBzOi8vZ2l0aHViLmNvbS9rY2ktbG5rL2ZuLWtub2NrLXR1cmJvcmVwbyI7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cygKICBkZWZpbmVQcm9wczx7CiAgICBjbGllbnRJcD86IHN0cmluZzsKICAgIGlwTG9jYXRpb24/OiBzdHJpbmc7CiAgICBpcExvY2F0aW9uU3RhdHVzPzogQXV0aENsaWVudExvY2F0aW9uU3RhdHVzOwogIH0+KCksCiAgewogICAgY2xpZW50SXA6ICIiLAogICAgaXBMb2NhdGlvbjogIiIsCiAgICBpcExvY2F0aW9uU3RhdHVzOiAiaWRsZSIsCiAgfSwKKTsKPC9zY3JpcHQ+Cg==
+<template>
+  <footer
+    class="flex justify-center px-4 pt-6 pb-2 text-xs text-muted-foreground/60"
+  >
+    <div class="w-full max-w-sm flex flex-col items-center gap-2">
+      <div
+        v-if="props.clientIp"
+        class="w-full flex flex-col items-center gap-1 text-center sm:flex-row sm:flex-wrap sm:justify-center sm:gap-x-1.5 sm:gap-y-1"
+      >
+        <span class="inline-flex items-center gap-1.5 min-w-0 sm:shrink-0">
+          <span
+            class="break-all text-center sm:break-normal sm:whitespace-nowrap"
+            >{{ props.clientIp }}</span
+          >
+        </span>
+        <span
+          v-if="props.ipLocation"
+          class="break-words sm:break-normal sm:whitespace-nowrap sm:shrink-0"
+        >
+          {{ props.ipLocation }}
+        </span>
+        <span
+          v-else-if="
+            props.ipLocationStatus === 'queued' ||
+            props.ipLocationStatus === 'processing'
+          "
+          class="break-words sm:break-normal sm:whitespace-nowrap sm:shrink-0"
+        >
+          {{ t("auth.locationResolving") }}
+        </span>
+        <span
+          v-else-if="props.ipLocationStatus === 'failed'"
+          class="break-words sm:break-normal sm:whitespace-nowrap sm:shrink-0"
+        >
+          {{ t("auth.locationUnavailable") }}
+        </span>
+      </div>
+
+      <div class="flex items-center justify-center gap-2">
+        <a
+          :href="APP_GITHUB_URL"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 transition-colors hover:text-foreground hover:bg-background/70"
+          :title="t('auth.openGithub')"
+        >
+          <Github class="h-3.5 w-3.5" />
+          <span>fn-knock-turborepo</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+</template>
+
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Github } from "lucide-vue-next";
+import type { AuthClientLocationStatus } from "@frontend-core/auth/types";
+
+const APP_GITHUB_URL = "https://github.com/kci-lnk/fn-knock-turborepo";
+const { t } = useI18n();
+const props = withDefaults(
+  defineProps<{
+    clientIp?: string;
+    ipLocation?: string;
+    ipLocationStatus?: AuthClientLocationStatus;
+  }>(),
+  {
+    clientIp: "",
+    ipLocation: "",
+    ipLocationStatus: "idle",
+  },
+);
+</script>

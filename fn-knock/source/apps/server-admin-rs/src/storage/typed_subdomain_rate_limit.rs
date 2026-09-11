@@ -1,1 +1,386 @@
-dXNlIHN0ZDo6Y29sbGVjdGlvbnM6OntCVHJlZU1hcCwgQlRyZWVTZXR9OwoKdXNlIHRva2lvX3J1c3FsaXRlOjpydXNxbGl0ZTo6e09wdGlvbmFsRXh0ZW5zaW9uLCBUcmFuc2FjdGlvbiwgVHJhbnNhY3Rpb25CZWhhdmlvciwgcGFyYW1zfTsKCnVzZSBzdXBlcjo6e1N0b3JhZ2VSZXN1bHQsIHJlZGlzX2NvbXBhdDo6Q29ubmVjdGlvbk1hbmFnZXIsIHN0b3JhZ2VfZXJyb3J9OwoKcHViKGNyYXRlKSBjb25zdCBSQVRFX0xJTUlUX1BSRUZJWDogJnN0ciA9ICJmbl9rbm9jazphdXRoOnN1YmRvbWFpbl9ydWxlX3JhdGU6IjsKCmNvbnN0IFNDSEVNQV9WRVJTSU9OOiBpNjQgPSAxOwpjb25zdCBTQ0hFTUFfTkFNRTogJnN0ciA9ICJ0eXBlZF9zdWJkb21haW5fcnVsZV9yYXRlX2xpbWl0cyI7CmNvbnN0IFNDSEVNQV9TUUw6ICZzdHIgPSByIyIKQ1JFQVRFIFRBQkxFIHN1YmRvbWFpbl9ydWxlX3JhdGVfbGltaXRfY291bnRlcnMgKAogIHNjb3BlIFRFWFQgTk9UIE5VTEwgQ0hFQ0sgKHNjb3BlIElOICgnaG9zdCcsICdjbGllbnQnKSksCiAgc3ViamVjdF9oYXNoIFRFWFQgTk9UIE5VTEwgQ0hFQ0sgKGxlbmd0aChzdWJqZWN0X2hhc2gpID0gNjQpLAogIGNvdW50ZXJfdmFsdWUgSU5URUdFUiBOT1QgTlVMTCBDSEVDSyAoY291bnRlcl92YWx1ZSA+IDApLAogIGV4cGlyZXNfYXRfbXMgSU5URUdFUiBOT1QgTlVMTCBDSEVDSyAoZXhwaXJlc19hdF9tcyA+PSAwKSwKICB1cGRhdGVkX2F0X21zIElOVEVHRVIgTk9UIE5VTEwsCiAgUFJJTUFSWSBLRVkoc2NvcGUsIHN1YmplY3RfaGFzaCkKKTsKQ1JFQVRFIElOREVYIGlkeF9zdWJkb21haW5fcnVsZV9yYXRlX2xpbWl0X2V4cGlyeQogIE9OIHN1YmRvbWFpbl9ydWxlX3JhdGVfbGltaXRfY291bnRlcnMoZXhwaXJlc19hdF9tcyk7CiIjOwpjb25zdCBNSUdSQVRJT05TX1NRTDogJnN0ciA9IHIjIgpDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyB0eXBlZF9zdWJkb21haW5fcnVsZV9yYXRlX2xpbWl0X3NjaGVtYV9taWdyYXRpb25zICgKICB2ZXJzaW9uIElOVEVHRVIgUFJJTUFSWSBLRVksCiAgbmFtZSBURVhUIE5PVCBOVUxMLAogIGNoZWNrc3VtIFRFWFQgTk9UIE5VTEwsCiAgYXBwbGllZF9hdF9tcyBJTlRFR0VSIE5PVCBOVUxMCik7CiIjOwoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBQYXJ0aWFsRXEsIEVxKV0KcHViKGNyYXRlKSBzdHJ1Y3QgVHlwZWRTdWJkb21haW5SYXRlTGltaXRDb3VudGVyIHsKICAgIHB1YihjcmF0ZSkgc2NvcGU6IFN0cmluZywKICAgIHB1YihjcmF0ZSkgc3ViamVjdF9oYXNoOiBTdHJpbmcsCiAgICBwdWIoY3JhdGUpIGNvdW50ZXJfdmFsdWU6IGk2NCwKICAgIHB1YihjcmF0ZSkgZXhwaXJlc19hdF9tczogaTY0LAp9CgojW2Rlcml2ZShDbG9uZSldCnB1YihjcmF0ZSkgc3RydWN0IFR5cGVkU3ViZG9tYWluUmF0ZUxpbWl0UmVwb3NpdG9yeSB7CiAgICBtYW5hZ2VyOiBDb25uZWN0aW9uTWFuYWdlciwKfQoKaW1wbCBUeXBlZFN1YmRvbWFpblJhdGVMaW1pdFJlcG9zaXRvcnkgewogICAgcHViKGNyYXRlKSBmbiBuZXcobWFuYWdlcjogQ29ubmVjdGlvbk1hbmFnZXIpIC0+IFNlbGYgewogICAgICAgIFNlbGYgeyBtYW5hZ2VyIH0KICAgIH0KCiAgICBwdWIoY3JhdGUpIGFzeW5jIGZuIGluaXRpYWxpemUoJnNlbGYpIC0+IFN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBzZWxmLm1hbmFnZXIKICAgICAgICAgICAgLmNhbGwofGNvbm58IHsKICAgICAgICAgICAgICAgIGxldCB0eCA9IGNvbm4udHJhbnNhY3Rpb25fd2l0aF9iZWhhdmlvcihUcmFuc2FjdGlvbkJlaGF2aW9yOjpJbW1lZGlhdGUpPzsKICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGVfYmF0Y2goTUlHUkFUSU9OU19TUUwpPzsKICAgICAgICAgICAgICAgIGxldCBjaGVja3N1bSA9IGNyYXRlOjpjcnlwdG9fdXRpbHM6OnNoYTI1Nl9oZXhfYnl0ZXMoU0NIRU1BX1NRTCk7CiAgICAgICAgICAgICAgICBsZXQgYXBwbGllZCA9IHR4CiAgICAgICAgICAgICAgICAgICAgLnF1ZXJ5X3JvdygKICAgICAgICAgICAgICAgICAgICAgICAgIlNFTEVDVCBuYW1lLCBjaGVja3N1bSBGUk9NIHR5cGVkX3N1YmRvbWFpbl9ydWxlX3JhdGVfbGltaXRfc2NoZW1hX21pZ3JhdGlvbnMgV0hFUkUgdmVyc2lvbiA9ID8xIiwKICAgICAgICAgICAgICAgICAgICAgICAgW1NDSEVNQV9WRVJTSU9OXSwKICAgICAgICAgICAgICAgICAgICAgICAgfHJvd3wgT2soKHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDApPywgcm93LmdldDo6PF8sIFN0cmluZz4oMSk/KSksCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIC5vcHRpb25hbCgpPzsKICAgICAgICAgICAgICAgIG1hdGNoIGFwcGxpZWQgewogICAgICAgICAgICAgICAgICAgIFNvbWUoKG5hbWUsIHN0b3JlZCkpIGlmIG5hbWUgPT0gU0NIRU1BX05BTUUgJiYgc3RvcmVkID09IGNoZWNrc3VtID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGV4aXN0cyA9IHR4LnF1ZXJ5X3JvdygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgRVhJU1RTKFNFTEVDVCAxIEZST00gc3FsaXRlX21hc3RlciBXSEVSRSB0eXBlID0gJ3RhYmxlJyBBTkQgbmFtZSA9ICdzdWJkb21haW5fcnVsZV9yYXRlX2xpbWl0X2NvdW50ZXJzJykiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgW10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB8cm93fCByb3cuZ2V0Ojo8XywgYm9vbD4oMCksCiAgICAgICAgICAgICAgICAgICAgICAgICk/OwogICAgICAgICAgICAgICAgICAgICAgICBpZiAhZXhpc3RzIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAidHlwZWQgc3ViZG9tYWluIHJhdGUtbGltaXQgbWlncmF0aW9uIGlzIHJlY29yZGVkIGJ1dCBpdHMgdGFibGUgaXMgbWlzc2luZyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBTb21lKChuYW1lLCBfKSkgaWYgbmFtZSAhPSBTQ0hFTUFfTkFNRSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0eXBlZCBzdWJkb21haW4gcmF0ZS1saW1pdCBtaWdyYXRpb24gbmFtZSBtaXNtYXRjaCIsCiAgICAgICAgICAgICAgICAgICAgICAgICkpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBTb21lKF8pID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihzdG9yYWdlX2Vycm9yKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgInR5cGVkIHN1YmRvbWFpbiByYXRlLWxpbWl0IG1pZ3JhdGlvbiBjaGVja3N1bSBtaXNtYXRjaCIsCiAgICAgICAgICAgICAgICAgICAgICAgICkpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBOb25lID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgdHguZXhlY3V0ZV9iYXRjaChTQ0hFTUFfU1FMKT87CiAgICAgICAgICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiSU5TRVJUIElOVE8gdHlwZWRfc3ViZG9tYWluX3J1bGVfcmF0ZV9saW1pdF9zY2hlbWFfbWlncmF0aW9ucyh2ZXJzaW9uLCBuYW1lLCBjaGVja3N1bSwgYXBwbGllZF9hdF9tcykgVkFMVUVTICg/MSwgPzIsID8zLCA/NCkiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1zIVsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTQ0hFTUFfVkVSU0lPTiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTQ0hFTUFfTkFNRSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGVja3N1bSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB0eC5jb21taXQoKT87CiAgICAgICAgICAgICAgICBPaygoKSkKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmF3YWl0CiAgICB9CgogICAgcHViKGNyYXRlKSBhc3luYyBmbiByZWJ1aWxkX2Zyb21fbGVnYWN5KCZzZWxmKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5jYWxsKHxjb25ufCB7CiAgICAgICAgICAgICAgICBsZXQgdHggPSBjb25uLnRyYW5zYWN0aW9uX3dpdGhfYmVoYXZpb3IoVHJhbnNhY3Rpb25CZWhhdmlvcjo6SW1tZWRpYXRlKT87CiAgICAgICAgICAgICAgICBTZWxmOjpyZWJ1aWxkX2Zyb21fbGVnYWN5X3R4KCZ0eCk/OwogICAgICAgICAgICAgICAgdHguY29tbWl0KCk/OwogICAgICAgICAgICAgICAgT2soKCkpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gcmVidWlsZF9mcm9tX2xlZ2FjeV90eCh0eDogJlRyYW5zYWN0aW9uPCdfPikgLT4gU3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGxldCBsZWdhY3kgPSBsZWdhY3lfY291bnRlcnNfdHgodHgpPzsKICAgICAgICBsZXQgbXV0IHN0YWxlID0gdHlwZWRfY291bnRlcl9pZHNfdHgodHgpPzsKICAgICAgICBmb3IgY291bnRlciBpbiBsZWdhY3kudmFsdWVzKCkgewogICAgICAgICAgICBzdGFsZS5yZW1vdmUoJihjb3VudGVyLnNjb3BlLmNsb25lKCksIGNvdW50ZXIuc3ViamVjdF9oYXNoLmNsb25lKCkpKTsKICAgICAgICAgICAgdXBzZXJ0X3R4KHR4LCBjb3VudGVyKT87CiAgICAgICAgfQogICAgICAgIGZvciAoc2NvcGUsIHN1YmplY3RfaGFzaCkgaW4gc3RhbGUgewogICAgICAgICAgICBkZWxldGVfdHlwZWRfdHgodHgsICZzY29wZSwgJnN1YmplY3RfaGFzaCk/OwogICAgICAgIH0KICAgICAgICBPaygoKSkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIHJlY29uY2lsZV9sZWdhY3lfa2V5c190eCgKICAgICAgICB0eDogJlRyYW5zYWN0aW9uPCdfPiwKICAgICAgICBrZXlzOiAmW1N0cmluZ10sCiAgICApIC0+IFN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBmb3Iga2V5IGluIGtleXMgewogICAgICAgICAgICBpZiAha2V5LnN0YXJ0c193aXRoKFJBVEVfTElNSVRfUFJFRklYKSB7CiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgfQogICAgICAgICAgICBsZXQgKHNjb3BlLCBzdWJqZWN0X2hhc2gpID0gcGFyc2Vfa2V5KGtleSkub2tfb3JfZWxzZSh8fCB7CiAgICAgICAgICAgICAgICBzdG9yYWdlX2Vycm9yKCJpbnZhbGlkIHN1YmRvbWFpbiBydWxlIHJhdGUtbGltaXQgY29tcGF0aWJpbGl0eSBrZXkiKQogICAgICAgICAgICB9KT87CiAgICAgICAgICAgIG1hdGNoIGxpdmVfbGVnYWN5X2NvdW50ZXJfdHgodHgsIGtleSk/IHsKICAgICAgICAgICAgICAgIFNvbWUoY291bnRlcikgPT4gdXBzZXJ0X3R4KHR4LCAmY291bnRlcik/LAogICAgICAgICAgICAgICAgTm9uZSA9PiBkZWxldGVfdHlwZWRfdHgodHgsIHNjb3BlLCBzdWJqZWN0X2hhc2gpPywKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBPaygoKSkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGFzeW5jIGZuIHZlcmlmeV9hbmRfcmVwYWlyKCZzZWxmLCBrZXk6ICZzdHIpIC0+IFN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgICAgIGxldCBrZXkgPSBrZXkudG9fc3RyaW5nKCk7CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5jYWxsKG1vdmUgfGNvbm58IHsKICAgICAgICAgICAgICAgIGxldCB0eCA9IGNvbm4udHJhbnNhY3Rpb25fd2l0aF9iZWhhdmlvcihUcmFuc2FjdGlvbkJlaGF2aW9yOjpJbW1lZGlhdGUpPzsKICAgICAgICAgICAgICAgIGxldCBwYXJzZWQgPSBwYXJzZV9rZXkoJmtleSkKICAgICAgICAgICAgICAgICAgICAubWFwKHwoc2NvcGUsIHN1YmplY3RfaGFzaCl8IChzY29wZS50b19zdHJpbmcoKSwgc3ViamVjdF9oYXNoLnRvX3N0cmluZygpKSk7CiAgICAgICAgICAgICAgICBsZXQgcmF3ID0gbGl2ZV9sZWdhY3lfcmF3X3R4KCZ0eCwgJmtleSk/OwogICAgICAgICAgICAgICAgbGV0IGxlZ2FjeSA9IGxpdmVfbGVnYWN5X2NvdW50ZXJfdHgoJnR4LCAma2V5KT87CiAgICAgICAgICAgICAgICBsZXQgaW52YWxpZCA9IHJhdy5pc19zb21lKCkgJiYgbGVnYWN5LmlzX25vbmUoKTsKICAgICAgICAgICAgICAgIGxldCB0eXBlZCA9IG1hdGNoICZwYXJzZWQgewogICAgICAgICAgICAgICAgICAgIFNvbWUoKHNjb3BlLCBzdWJqZWN0X2hhc2gpKSA9PiB0eXBlZF9jb3VudGVyX3R4KCZ0eCwgc2NvcGUsIHN1YmplY3RfaGFzaCk/LAogICAgICAgICAgICAgICAgICAgIE5vbmUgPT4gTm9uZSwKICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICBsZXQgbWF0Y2hlZCA9ICFpbnZhbGlkICYmIHBhcnNlZC5pc19zb21lKCkgJiYgdHlwZWQgPT0gbGVnYWN5OwogICAgICAgICAgICAgICAgaWYgIW1hdGNoZWQgewogICAgICAgICAgICAgICAgICAgIG1hdGNoIGxlZ2FjeSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFNvbWUoY291bnRlcikgPT4gdXBzZXJ0X3R4KCZ0eCwgJmNvdW50ZXIpPywKICAgICAgICAgICAgICAgICAgICAgICAgTm9uZSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiBsZXQgU29tZSgoc2NvcGUsIHN1YmplY3RfaGFzaCkpID0gcGFyc2VkIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZWxldGVfdHlwZWRfdHgoJnR4LCAmc2NvcGUsICZzdWJqZWN0X2hhc2gpPzsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHR4LmNvbW1pdCgpPzsKICAgICAgICAgICAgICAgIE9rKG1hdGNoZWQpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgICNbY2ZnKHRlc3QpXQogICAgcHViKGNyYXRlKSBhc3luYyBmbiBsb2FkKAogICAgICAgICZzZWxmLAogICAgICAgIGtleTogJnN0ciwKICAgICkgLT4gU3RvcmFnZVJlc3VsdDxPcHRpb248VHlwZWRTdWJkb21haW5SYXRlTGltaXRDb3VudGVyPj4gewogICAgICAgIGxldCBTb21lKChzY29wZSwgc3ViamVjdF9oYXNoKSkgPSBwYXJzZV9rZXkoa2V5KSBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgICAgIH07CiAgICAgICAgbGV0IHNjb3BlID0gc2NvcGUudG9fc3RyaW5nKCk7CiAgICAgICAgbGV0IHN1YmplY3RfaGFzaCA9IHN1YmplY3RfaGFzaC50b19zdHJpbmcoKTsKICAgICAgICBzZWxmLm1hbmFnZXIKICAgICAgICAgICAgLmNhbGwobW92ZSB8Y29ubnwgdHlwZWRfY291bnRlcl9jb25uKGNvbm4sICZzY29wZSwgJnN1YmplY3RfaGFzaCkpCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgICNbY2ZnKHRlc3QpXQogICAgcHViKGNyYXRlKSBhc3luYyBmbiBjb3VudCgmc2VsZikgLT4gU3RvcmFnZVJlc3VsdDxpNjQ+IHsKICAgICAgICBzZWxmLm1hbmFnZXIKICAgICAgICAgICAgLmNhbGwofGNvbm58IHsKICAgICAgICAgICAgICAgIGNvbm4ucXVlcnlfcm93KAogICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgQ09VTlQoKikgRlJPTSBzdWJkb21haW5fcnVsZV9yYXRlX2xpbWl0X2NvdW50ZXJzIiwKICAgICAgICAgICAgICAgICAgICBbXSwKICAgICAgICAgICAgICAgICAgICB8cm93fCByb3cuZ2V0Ojo8XywgaTY0PigwKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIC5tYXBfZXJyKEludG86OmludG8pCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQp9CgpmbiBwYXJzZV9rZXkoa2V5OiAmc3RyKSAtPiBPcHRpb248KCZzdHIsICZzdHIpPiB7CiAgICBsZXQgc3VmZml4ID0ga2V5LnN0cmlwX3ByZWZpeChSQVRFX0xJTUlUX1BSRUZJWCk/OwogICAgbGV0IChzY29wZSwgc3ViamVjdF9oYXNoKSA9IHN1ZmZpeC5zcGxpdF9vbmNlKCc6Jyk/OwogICAgaWYgIW1hdGNoZXMhKHNjb3BlLCAiaG9zdCIgfCAiY2xpZW50IikKICAgICAgICB8fCBzdWJqZWN0X2hhc2gubGVuKCkgIT0gNjQKICAgICAgICB8fCAhc3ViamVjdF9oYXNoLmJ5dGVzKCkuYWxsKHxieXRlfCBieXRlLmlzX2FzY2lpX2hleGRpZ2l0KCkpCiAgICB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBTb21lKChzY29wZSwgc3ViamVjdF9oYXNoKSkKfQoKZm4gbGl2ZV9sZWdhY3lfcmF3X3R4KHR4OiAmVHJhbnNhY3Rpb248J18+LCBrZXk6ICZzdHIpIC0+IFN0b3JhZ2VSZXN1bHQ8T3B0aW9uPChTdHJpbmcsIGk2NCk+PiB7CiAgICBsZXQgbm93ID0gY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpOwogICAgdHgucXVlcnlfcm93KAogICAgICAgICJTRUxFQ1Qgc3RyaW5ncy52YWx1ZSwga2V5cy5leHBpcmVzX2F0X21zCiAgICAgICAgIEZST00ga3Zfa2V5cyBBUyBrZXlzCiAgICAgICAgIEpPSU4ga3Zfc3RyaW5ncyBBUyBzdHJpbmdzIE9OIHN0cmluZ3Mua2V5ID0ga2V5cy5rZXkKICAgICAgICAgV0hFUkUga2V5cy5rZXkgPSA/MQogICAgICAgICAgIEFORCBrZXlzLmtpbmQgPSAnc3RyaW5nJwogICAgICAgICAgIEFORCBrZXlzLmV4cGlyZXNfYXRfbXMgSVMgTk9UIE5VTEwKICAgICAgICAgICBBTkQga2V5cy5leHBpcmVzX2F0X21zID4gPzIiLAogICAgICAgIHBhcmFtcyFba2V5LCBub3ddLAogICAgICAgIHxyb3d8IE9rKChyb3cuZ2V0Ojo8XywgU3RyaW5nPigwKT8sIHJvdy5nZXQ6OjxfLCBpNjQ+KDEpPykpLAogICAgKQogICAgLm9wdGlvbmFsKCkKICAgIC5tYXBfZXJyKEludG86OmludG8pCn0KCmZuIGxpdmVfbGVnYWN5X2NvdW50ZXJfdHgoCiAgICB0eDogJlRyYW5zYWN0aW9uPCdfPiwKICAgIGtleTogJnN0ciwKKSAtPiBTdG9yYWdlUmVzdWx0PE9wdGlvbjxUeXBlZFN1YmRvbWFpblJhdGVMaW1pdENvdW50ZXI+PiB7CiAgICBsZXQgU29tZSgoc2NvcGUsIHN1YmplY3RfaGFzaCkpID0gcGFyc2Vfa2V5KGtleSkgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfTsKICAgIGxldCBTb21lKChyYXcsIGV4cGlyZXNfYXRfbXMpKSA9IGxpdmVfbGVnYWN5X3Jhd190eCh0eCwga2V5KT8gZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfTsKICAgIGxldCBPayhjb3VudGVyX3ZhbHVlKSA9IHJhdy5wYXJzZTo6PGk2ND4oKSBlbHNlIHsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9OwogICAgaWYgY291bnRlcl92YWx1ZSA8PSAwIHsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9CiAgICBPayhTb21lKFR5cGVkU3ViZG9tYWluUmF0ZUxpbWl0Q291bnRlciB7CiAgICAgICAgc2NvcGU6IHNjb3BlLnRvX3N0cmluZygpLAogICAgICAgIHN1YmplY3RfaGFzaDogc3ViamVjdF9oYXNoLnRvX3N0cmluZygpLAogICAgICAgIGNvdW50ZXJfdmFsdWUsCiAgICAgICAgZXhwaXJlc19hdF9tcywKICAgIH0pKQp9CgpmbiBsZWdhY3lfY291bnRlcnNfdHgoCiAgICB0eDogJlRyYW5zYWN0aW9uPCdfPiwKKSAtPiBTdG9yYWdlUmVzdWx0PEJUcmVlTWFwPChTdHJpbmcsIFN0cmluZyksIFR5cGVkU3ViZG9tYWluUmF0ZUxpbWl0Q291bnRlcj4+IHsKICAgIGxldCBub3cgPSBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCk7CiAgICBsZXQgbXV0IHN0YXRlbWVudCA9IHR4LnByZXBhcmUoCiAgICAgICAgIlNFTEVDVCBrZXlzLmtleQogICAgICAgICBGUk9NIGt2X2tleXMgQVMga2V5cwogICAgICAgICBKT0lOIGt2X3N0cmluZ3MgQVMgc3RyaW5ncyBPTiBzdHJpbmdzLmtleSA9IGtleXMua2V5CiAgICAgICAgIFdIRVJFIHN1YnN0cihrZXlzLmtleSwgMSwgPzEpID0gPzIKICAgICAgICAgICBBTkQga2V5cy5raW5kID0gJ3N0cmluZycKICAgICAgICAgICBBTkQga2V5cy5leHBpcmVzX2F0X21zIElTIE5PVCBOVUxMCiAgICAgICAgICAgQU5EIGtleXMuZXhwaXJlc19hdF9tcyA+ID8zCiAgICAgICAgIE9SREVSIEJZIGtleXMua2V5IiwKICAgICk/OwogICAgbGV0IHJvd3MgPSBzdGF0ZW1lbnQucXVlcnlfbWFwKAogICAgICAgIHBhcmFtcyFbUkFURV9MSU1JVF9QUkVGSVgubGVuKCkgYXMgaTY0LCBSQVRFX0xJTUlUX1BSRUZJWCwgbm93XSwKICAgICAgICB8cm93fCByb3cuZ2V0Ojo8XywgU3RyaW5nPigwKSwKICAgICk/OwogICAgbGV0IG11dCBjb3VudGVycyA9IEJUcmVlTWFwOjpuZXcoKTsKICAgIGZvciBrZXkgaW4gcm93cyB7CiAgICAgICAgaWYgbGV0IFNvbWUoY291bnRlcikgPSBsaXZlX2xlZ2FjeV9jb3VudGVyX3R4KHR4LCAma2V5Pyk/IHsKICAgICAgICAgICAgY291bnRlcnMuaW5zZXJ0KAogICAgICAgICAgICAgICAgKGNvdW50ZXIuc2NvcGUuY2xvbmUoKSwgY291bnRlci5zdWJqZWN0X2hhc2guY2xvbmUoKSksCiAgICAgICAgICAgICAgICBjb3VudGVyLAogICAgICAgICAgICApOwogICAgICAgIH0KICAgIH0KICAgIE9rKGNvdW50ZXJzKQp9CgpmbiB0eXBlZF9jb3VudGVyX3R4KAogICAgdHg6ICZUcmFuc2FjdGlvbjwnXz4sCiAgICBzY29wZTogJnN0ciwKICAgIHN1YmplY3RfaGFzaDogJnN0ciwKKSAtPiBTdG9yYWdlUmVzdWx0PE9wdGlvbjxUeXBlZFN1YmRvbWFpblJhdGVMaW1pdENvdW50ZXI+PiB7CiAgICB0eC5xdWVyeV9yb3coCiAgICAgICAgIlNFTEVDVCBjb3VudGVyX3ZhbHVlLCBleHBpcmVzX2F0X21zCiAgICAgICAgIEZST00gc3ViZG9tYWluX3J1bGVfcmF0ZV9saW1pdF9jb3VudGVycwogICAgICAgICBXSEVSRSBzY29wZSA9ID8xIEFORCBzdWJqZWN0X2hhc2ggPSA/MiIsCiAgICAgICAgcGFyYW1zIVtzY29wZSwgc3ViamVjdF9oYXNoXSwKICAgICAgICB8cm93fCB7CiAgICAgICAgICAgIE9rKFR5cGVkU3ViZG9tYWluUmF0ZUxpbWl0Q291bnRlciB7CiAgICAgICAgICAgICAgICBzY29wZTogc2NvcGUudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICBzdWJqZWN0X2hhc2g6IHN1YmplY3RfaGFzaC50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgIGNvdW50ZXJfdmFsdWU6IHJvdy5nZXQoMCk/LAogICAgICAgICAgICAgICAgZXhwaXJlc19hdF9tczogcm93LmdldCgxKT8sCiAgICAgICAgICAgIH0pCiAgICAgICAgfSwKICAgICkKICAgIC5vcHRpb25hbCgpCiAgICAubWFwX2VycihJbnRvOjppbnRvKQp9CgojW2NmZyh0ZXN0KV0KZm4gdHlwZWRfY291bnRlcl9jb25uKAogICAgY29ubjogJnRva2lvX3J1c3FsaXRlOjpydXNxbGl0ZTo6Q29ubmVjdGlvbiwKICAgIHNjb3BlOiAmc3RyLAogICAgc3ViamVjdF9oYXNoOiAmc3RyLAopIC0+IFN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFR5cGVkU3ViZG9tYWluUmF0ZUxpbWl0Q291bnRlcj4+IHsKICAgIGNvbm4ucXVlcnlfcm93KAogICAgICAgICJTRUxFQ1QgY291bnRlcl92YWx1ZSwgZXhwaXJlc19hdF9tcwogICAgICAgICBGUk9NIHN1YmRvbWFpbl9ydWxlX3JhdGVfbGltaXRfY291bnRlcnMKICAgICAgICAgV0hFUkUgc2NvcGUgPSA/MSBBTkQgc3ViamVjdF9oYXNoID0gPzIiLAogICAgICAgIHBhcmFtcyFbc2NvcGUsIHN1YmplY3RfaGFzaF0sCiAgICAgICAgfHJvd3wgewogICAgICAgICAgICBPayhUeXBlZFN1YmRvbWFpblJhdGVMaW1pdENvdW50ZXIgewogICAgICAgICAgICAgICAgc2NvcGU6IHNjb3BlLnRvX3N0cmluZygpLAogICAgICAgICAgICAgICAgc3ViamVjdF9oYXNoOiBzdWJqZWN0X2hhc2gudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICBjb3VudGVyX3ZhbHVlOiByb3cuZ2V0KDApPywKICAgICAgICAgICAgICAgIGV4cGlyZXNfYXRfbXM6IHJvdy5nZXQoMSk/LAogICAgICAgICAgICB9KQogICAgICAgIH0sCiAgICApCiAgICAub3B0aW9uYWwoKQogICAgLm1hcF9lcnIoSW50bzo6aW50bykKfQoKZm4gdHlwZWRfY291bnRlcl9pZHNfdHgodHg6ICZUcmFuc2FjdGlvbjwnXz4pIC0+IFN0b3JhZ2VSZXN1bHQ8QlRyZWVTZXQ8KFN0cmluZywgU3RyaW5nKT4+IHsKICAgIGxldCBtdXQgc3RhdGVtZW50ID0gdHgucHJlcGFyZSgKICAgICAgICAiU0VMRUNUIHNjb3BlLCBzdWJqZWN0X2hhc2ggRlJPTSBzdWJkb21haW5fcnVsZV9yYXRlX2xpbWl0X2NvdW50ZXJzIE9SREVSIEJZIHNjb3BlLCBzdWJqZWN0X2hhc2giLAogICAgKT87CiAgICBzdGF0ZW1lbnQKICAgICAgICAucXVlcnlfbWFwKFtdLCB8cm93fCB7CiAgICAgICAgICAgIE9rKChyb3cuZ2V0Ojo8XywgU3RyaW5nPigwKT8sIHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDEpPykpCiAgICAgICAgfSk/CiAgICAgICAgLmNvbGxlY3Q6OjxSZXN1bHQ8QlRyZWVTZXQ8Xz4sIF8+PigpCiAgICAgICAgLm1hcF9lcnIoSW50bzo6aW50bykKfQoKZm4gdXBzZXJ0X3R4KHR4OiAmVHJhbnNhY3Rpb248J18+LCBjb3VudGVyOiAmVHlwZWRTdWJkb21haW5SYXRlTGltaXRDb3VudGVyKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICBsZXQga2V5ID0gZm9ybWF0ISgKICAgICAgICAie1JBVEVfTElNSVRfUFJFRklYfXt9Ont9IiwKICAgICAgICBjb3VudGVyLnNjb3BlLCBjb3VudGVyLnN1YmplY3RfaGFzaAogICAgKTsKICAgIGlmIHBhcnNlX2tleSgma2V5KS5pc19ub25lKCkgfHwgY291bnRlci5jb3VudGVyX3ZhbHVlIDw9IDAgewogICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigiaW52YWxpZCB0eXBlZCBzdWJkb21haW4gcmF0ZS1saW1pdCBjb3VudGVyIikpOwogICAgfQogICAgdHguZXhlY3V0ZSgKICAgICAgICAiSU5TRVJUIElOVE8gc3ViZG9tYWluX3J1bGVfcmF0ZV9saW1pdF9jb3VudGVycygKICAgICAgICAgICBzY29wZSwgc3ViamVjdF9oYXNoLCBjb3VudGVyX3ZhbHVlLCBleHBpcmVzX2F0X21zLCB1cGRhdGVkX2F0X21zCiAgICAgICAgICkgVkFMVUVTICg/MSwgPzIsID8zLCA/NCwgPzUpCiAgICAgICAgIE9OIENPTkZMSUNUKHNjb3BlLCBzdWJqZWN0X2hhc2gpIERPIFVQREFURSBTRVQKICAgICAgICAgICBjb3VudGVyX3ZhbHVlID0gZXhjbHVkZWQuY291bnRlcl92YWx1ZSwKICAgICAgICAgICBleHBpcmVzX2F0X21zID0gZXhjbHVkZWQuZXhwaXJlc19hdF9tcywKICAgICAgICAgICB1cGRhdGVkX2F0X21zID0gZXhjbHVkZWQudXBkYXRlZF9hdF9tcwogICAgICAgICBXSEVSRSBzdWJkb21haW5fcnVsZV9yYXRlX2xpbWl0X2NvdW50ZXJzLmNvdW50ZXJfdmFsdWUgPD4gZXhjbHVkZWQuY291bnRlcl92YWx1ZQogICAgICAgICAgICBPUiBzdWJkb21haW5fcnVsZV9yYXRlX2xpbWl0X2NvdW50ZXJzLmV4cGlyZXNfYXRfbXMgPD4gZXhjbHVkZWQuZXhwaXJlc19hdF9tcyIsCiAgICAgICAgcGFyYW1zIVsKICAgICAgICAgICAgY291bnRlci5zY29wZSwKICAgICAgICAgICAgY291bnRlci5zdWJqZWN0X2hhc2gsCiAgICAgICAgICAgIGNvdW50ZXIuY291bnRlcl92YWx1ZSwKICAgICAgICAgICAgY291bnRlci5leHBpcmVzX2F0X21zLAogICAgICAgICAgICBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCksCiAgICAgICAgXSwKICAgICk/OwogICAgT2soKCkpCn0KCmZuIGRlbGV0ZV90eXBlZF90eCh0eDogJlRyYW5zYWN0aW9uPCdfPiwgc2NvcGU6ICZzdHIsIHN1YmplY3RfaGFzaDogJnN0cikgLT4gU3RvcmFnZVJlc3VsdDwoKT4gewogICAgdHguZXhlY3V0ZSgKICAgICAgICAiREVMRVRFIEZST00gc3ViZG9tYWluX3J1bGVfcmF0ZV9saW1pdF9jb3VudGVycyBXSEVSRSBzY29wZSA9ID8xIEFORCBzdWJqZWN0X2hhc2ggPSA/MiIsCiAgICAgICAgcGFyYW1zIVtzY29wZSwgc3ViamVjdF9oYXNoXSwKICAgICk/OwogICAgT2soKCkpCn0K
+use std::collections::{BTreeMap, BTreeSet};
+
+use tokio_rusqlite::rusqlite::{OptionalExtension, Transaction, TransactionBehavior, params};
+
+use super::{StorageResult, redis_compat::ConnectionManager, storage_error};
+
+pub(crate) const RATE_LIMIT_PREFIX: &str = "fn_knock:auth:subdomain_rule_rate:";
+
+const SCHEMA_VERSION: i64 = 1;
+const SCHEMA_NAME: &str = "typed_subdomain_rule_rate_limits";
+const SCHEMA_SQL: &str = r#"
+CREATE TABLE subdomain_rule_rate_limit_counters (
+  scope TEXT NOT NULL CHECK (scope IN ('host', 'client')),
+  subject_hash TEXT NOT NULL CHECK (length(subject_hash) = 64),
+  counter_value INTEGER NOT NULL CHECK (counter_value > 0),
+  expires_at_ms INTEGER NOT NULL CHECK (expires_at_ms >= 0),
+  updated_at_ms INTEGER NOT NULL,
+  PRIMARY KEY(scope, subject_hash)
+);
+CREATE INDEX idx_subdomain_rule_rate_limit_expiry
+  ON subdomain_rule_rate_limit_counters(expires_at_ms);
+"#;
+const MIGRATIONS_SQL: &str = r#"
+CREATE TABLE IF NOT EXISTS typed_subdomain_rule_rate_limit_schema_migrations (
+  version INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  checksum TEXT NOT NULL,
+  applied_at_ms INTEGER NOT NULL
+);
+"#;
+
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub(crate) struct TypedSubdomainRateLimitCounter {
+    pub(crate) scope: String,
+    pub(crate) subject_hash: String,
+    pub(crate) counter_value: i64,
+    pub(crate) expires_at_ms: i64,
+}
+
+#[derive(Clone)]
+pub(crate) struct TypedSubdomainRateLimitRepository {
+    manager: ConnectionManager,
+}
+
+impl TypedSubdomainRateLimitRepository {
+    pub(crate) fn new(manager: ConnectionManager) -> Self {
+        Self { manager }
+    }
+
+    pub(crate) async fn initialize(&self) -> StorageResult<()> {
+        self.manager
+            .call(|conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                tx.execute_batch(MIGRATIONS_SQL)?;
+                let checksum = crate::crypto_utils::sha256_hex_bytes(SCHEMA_SQL);
+                let applied = tx
+                    .query_row(
+                        "SELECT name, checksum FROM typed_subdomain_rule_rate_limit_schema_migrations WHERE version = ?1",
+                        [SCHEMA_VERSION],
+                        |row| Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?)),
+                    )
+                    .optional()?;
+                match applied {
+                    Some((name, stored)) if name == SCHEMA_NAME && stored == checksum => {
+                        let exists = tx.query_row(
+                            "SELECT EXISTS(SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'subdomain_rule_rate_limit_counters')",
+                            [],
+                            |row| row.get::<_, bool>(0),
+                        )?;
+                        if !exists {
+                            return Err(storage_error(
+                                "typed subdomain rate-limit migration is recorded but its table is missing",
+                            ));
+                        }
+                    }
+                    Some((name, _)) if name != SCHEMA_NAME => {
+                        return Err(storage_error(
+                            "typed subdomain rate-limit migration name mismatch",
+                        ));
+                    }
+                    Some(_) => {
+                        return Err(storage_error(
+                            "typed subdomain rate-limit migration checksum mismatch",
+                        ));
+                    }
+                    None => {
+                        tx.execute_batch(SCHEMA_SQL)?;
+                        tx.execute(
+                            "INSERT INTO typed_subdomain_rule_rate_limit_schema_migrations(version, name, checksum, applied_at_ms) VALUES (?1, ?2, ?3, ?4)",
+                            params![
+                                SCHEMA_VERSION,
+                                SCHEMA_NAME,
+                                checksum,
+                                crate::time_utils::now_ms(),
+                            ],
+                        )?;
+                    }
+                }
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub(crate) async fn rebuild_from_legacy(&self) -> StorageResult<()> {
+        self.manager
+            .call(|conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                Self::rebuild_from_legacy_tx(&tx)?;
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub(crate) fn rebuild_from_legacy_tx(tx: &Transaction<'_>) -> StorageResult<()> {
+        let legacy = legacy_counters_tx(tx)?;
+        let mut stale = typed_counter_ids_tx(tx)?;
+        for counter in legacy.values() {
+            stale.remove(&(counter.scope.clone(), counter.subject_hash.clone()));
+            upsert_tx(tx, counter)?;
+        }
+        for (scope, subject_hash) in stale {
+            delete_typed_tx(tx, &scope, &subject_hash)?;
+        }
+        Ok(())
+    }
+
+    pub(crate) fn reconcile_legacy_keys_tx(
+        tx: &Transaction<'_>,
+        keys: &[String],
+    ) -> StorageResult<()> {
+        for key in keys {
+            if !key.starts_with(RATE_LIMIT_PREFIX) {
+                continue;
+            }
+            let (scope, subject_hash) = parse_key(key).ok_or_else(|| {
+                storage_error("invalid subdomain rule rate-limit compatibility key")
+            })?;
+            match live_legacy_counter_tx(tx, key)? {
+                Some(counter) => upsert_tx(tx, &counter)?,
+                None => delete_typed_tx(tx, scope, subject_hash)?,
+            }
+        }
+        Ok(())
+    }
+
+    pub(crate) async fn verify_and_repair(&self, key: &str) -> StorageResult<bool> {
+        let key = key.to_string();
+        self.manager
+            .call(move |conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                let parsed = parse_key(&key)
+                    .map(|(scope, subject_hash)| (scope.to_string(), subject_hash.to_string()));
+                let raw = live_legacy_raw_tx(&tx, &key)?;
+                let legacy = live_legacy_counter_tx(&tx, &key)?;
+                let invalid = raw.is_some() && legacy.is_none();
+                let typed = match &parsed {
+                    Some((scope, subject_hash)) => typed_counter_tx(&tx, scope, subject_hash)?,
+                    None => None,
+                };
+                let matched = !invalid && parsed.is_some() && typed == legacy;
+                if !matched {
+                    match legacy {
+                        Some(counter) => upsert_tx(&tx, &counter)?,
+                        None => {
+                            if let Some((scope, subject_hash)) = parsed {
+                                delete_typed_tx(&tx, &scope, &subject_hash)?;
+                            }
+                        }
+                    }
+                }
+                tx.commit()?;
+                Ok(matched)
+            })
+            .await
+    }
+
+    #[cfg(test)]
+    pub(crate) async fn load(
+        &self,
+        key: &str,
+    ) -> StorageResult<Option<TypedSubdomainRateLimitCounter>> {
+        let Some((scope, subject_hash)) = parse_key(key) else {
+            return Ok(None);
+        };
+        let scope = scope.to_string();
+        let subject_hash = subject_hash.to_string();
+        self.manager
+            .call(move |conn| typed_counter_conn(conn, &scope, &subject_hash))
+            .await
+    }
+
+    #[cfg(test)]
+    pub(crate) async fn count(&self) -> StorageResult<i64> {
+        self.manager
+            .call(|conn| {
+                conn.query_row(
+                    "SELECT COUNT(*) FROM subdomain_rule_rate_limit_counters",
+                    [],
+                    |row| row.get::<_, i64>(0),
+                )
+                .map_err(Into::into)
+            })
+            .await
+    }
+}
+
+fn parse_key(key: &str) -> Option<(&str, &str)> {
+    let suffix = key.strip_prefix(RATE_LIMIT_PREFIX)?;
+    let (scope, subject_hash) = suffix.split_once(':')?;
+    if !matches!(scope, "host" | "client")
+        || subject_hash.len() != 64
+        || !subject_hash.bytes().all(|byte| byte.is_ascii_hexdigit())
+    {
+        return None;
+    }
+    Some((scope, subject_hash))
+}
+
+fn live_legacy_raw_tx(tx: &Transaction<'_>, key: &str) -> StorageResult<Option<(String, i64)>> {
+    let now = crate::time_utils::now_ms();
+    tx.query_row(
+        "SELECT strings.value, keys.expires_at_ms
+         FROM kv_keys AS keys
+         JOIN kv_strings AS strings ON strings.key = keys.key
+         WHERE keys.key = ?1
+           AND keys.kind = 'string'
+           AND keys.expires_at_ms IS NOT NULL
+           AND keys.expires_at_ms > ?2",
+        params![key, now],
+        |row| Ok((row.get::<_, String>(0)?, row.get::<_, i64>(1)?)),
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+fn live_legacy_counter_tx(
+    tx: &Transaction<'_>,
+    key: &str,
+) -> StorageResult<Option<TypedSubdomainRateLimitCounter>> {
+    let Some((scope, subject_hash)) = parse_key(key) else {
+        return Ok(None);
+    };
+    let Some((raw, expires_at_ms)) = live_legacy_raw_tx(tx, key)? else {
+        return Ok(None);
+    };
+    let Ok(counter_value) = raw.parse::<i64>() else {
+        return Ok(None);
+    };
+    if counter_value <= 0 {
+        return Ok(None);
+    }
+    Ok(Some(TypedSubdomainRateLimitCounter {
+        scope: scope.to_string(),
+        subject_hash: subject_hash.to_string(),
+        counter_value,
+        expires_at_ms,
+    }))
+}
+
+fn legacy_counters_tx(
+    tx: &Transaction<'_>,
+) -> StorageResult<BTreeMap<(String, String), TypedSubdomainRateLimitCounter>> {
+    let now = crate::time_utils::now_ms();
+    let mut statement = tx.prepare(
+        "SELECT keys.key
+         FROM kv_keys AS keys
+         JOIN kv_strings AS strings ON strings.key = keys.key
+         WHERE substr(keys.key, 1, ?1) = ?2
+           AND keys.kind = 'string'
+           AND keys.expires_at_ms IS NOT NULL
+           AND keys.expires_at_ms > ?3
+         ORDER BY keys.key",
+    )?;
+    let rows = statement.query_map(
+        params![RATE_LIMIT_PREFIX.len() as i64, RATE_LIMIT_PREFIX, now],
+        |row| row.get::<_, String>(0),
+    )?;
+    let mut counters = BTreeMap::new();
+    for key in rows {
+        if let Some(counter) = live_legacy_counter_tx(tx, &key?)? {
+            counters.insert(
+                (counter.scope.clone(), counter.subject_hash.clone()),
+                counter,
+            );
+        }
+    }
+    Ok(counters)
+}
+
+fn typed_counter_tx(
+    tx: &Transaction<'_>,
+    scope: &str,
+    subject_hash: &str,
+) -> StorageResult<Option<TypedSubdomainRateLimitCounter>> {
+    tx.query_row(
+        "SELECT counter_value, expires_at_ms
+         FROM subdomain_rule_rate_limit_counters
+         WHERE scope = ?1 AND subject_hash = ?2",
+        params![scope, subject_hash],
+        |row| {
+            Ok(TypedSubdomainRateLimitCounter {
+                scope: scope.to_string(),
+                subject_hash: subject_hash.to_string(),
+                counter_value: row.get(0)?,
+                expires_at_ms: row.get(1)?,
+            })
+        },
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+#[cfg(test)]
+fn typed_counter_conn(
+    conn: &tokio_rusqlite::rusqlite::Connection,
+    scope: &str,
+    subject_hash: &str,
+) -> StorageResult<Option<TypedSubdomainRateLimitCounter>> {
+    conn.query_row(
+        "SELECT counter_value, expires_at_ms
+         FROM subdomain_rule_rate_limit_counters
+         WHERE scope = ?1 AND subject_hash = ?2",
+        params![scope, subject_hash],
+        |row| {
+            Ok(TypedSubdomainRateLimitCounter {
+                scope: scope.to_string(),
+                subject_hash: subject_hash.to_string(),
+                counter_value: row.get(0)?,
+                expires_at_ms: row.get(1)?,
+            })
+        },
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+fn typed_counter_ids_tx(tx: &Transaction<'_>) -> StorageResult<BTreeSet<(String, String)>> {
+    let mut statement = tx.prepare(
+        "SELECT scope, subject_hash FROM subdomain_rule_rate_limit_counters ORDER BY scope, subject_hash",
+    )?;
+    statement
+        .query_map([], |row| {
+            Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?))
+        })?
+        .collect::<Result<BTreeSet<_>, _>>()
+        .map_err(Into::into)
+}
+
+fn upsert_tx(tx: &Transaction<'_>, counter: &TypedSubdomainRateLimitCounter) -> StorageResult<()> {
+    let key = format!(
+        "{RATE_LIMIT_PREFIX}{}:{}",
+        counter.scope, counter.subject_hash
+    );
+    if parse_key(&key).is_none() || counter.counter_value <= 0 {
+        return Err(storage_error("invalid typed subdomain rate-limit counter"));
+    }
+    tx.execute(
+        "INSERT INTO subdomain_rule_rate_limit_counters(
+           scope, subject_hash, counter_value, expires_at_ms, updated_at_ms
+         ) VALUES (?1, ?2, ?3, ?4, ?5)
+         ON CONFLICT(scope, subject_hash) DO UPDATE SET
+           counter_value = excluded.counter_value,
+           expires_at_ms = excluded.expires_at_ms,
+           updated_at_ms = excluded.updated_at_ms
+         WHERE subdomain_rule_rate_limit_counters.counter_value <> excluded.counter_value
+            OR subdomain_rule_rate_limit_counters.expires_at_ms <> excluded.expires_at_ms",
+        params![
+            counter.scope,
+            counter.subject_hash,
+            counter.counter_value,
+            counter.expires_at_ms,
+            crate::time_utils::now_ms(),
+        ],
+    )?;
+    Ok(())
+}
+
+fn delete_typed_tx(tx: &Transaction<'_>, scope: &str, subject_hash: &str) -> StorageResult<()> {
+    tx.execute(
+        "DELETE FROM subdomain_rule_rate_limit_counters WHERE scope = ?1 AND subject_hash = ?2",
+        params![scope, subject_hash],
+    )?;
+    Ok(())
+}

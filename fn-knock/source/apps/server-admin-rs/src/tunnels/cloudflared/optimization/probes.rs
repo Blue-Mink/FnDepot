@@ -1,1 +1,281 @@
-dXNlIHN0ZDo6ewogICAgY21wOjpPcmRlcmluZywKICAgIGNvbGxlY3Rpb25zOjpIYXNoU2V0LAogICAgbmV0Ojp7SXBBZGRyLCBJcHY0QWRkciwgU29ja2V0QWRkcn0sCiAgICB0aW1lOjp7RHVyYXRpb24sIEluc3RhbnR9LAp9OwoKdXNlIGlwbmV0OjpJcHY0TmV0OwoKdXNlIGNyYXRlOjpjcnlwdG9fdXRpbHM7Cgp1c2Ugc3VwZXI6Oio7CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGxvYWRfY2xvdWRmbGFyZV9wcmVmaXhlcyhzdGF0ZTogJkFwcFN0YXRlKSAtPiBWZWM8SXB2NE5ldD4gewogICAgbGV0IHJlbW90ZSA9IHN0YXRlCiAgICAgICAgLmZhbGxiYWNrX2NsaWVudAogICAgICAgIC5nZXQoImh0dHBzOi8vd3d3LmNsb3VkZmxhcmUuY29tL2lwcy12NCIpCiAgICAgICAgLnRpbWVvdXQoRHVyYXRpb246OmZyb21fc2VjcygxMCkpCiAgICAgICAgLnNlbmQoKQogICAgICAgIC5hd2FpdAogICAgICAgIC5vaygpCiAgICAgICAgLmFuZF90aGVuKHxyZXNwb25zZXwgcmVzcG9uc2UuZXJyb3JfZm9yX3N0YXR1cygpLm9rKCkpOwogICAgbGV0IHRleHQgPSBtYXRjaCByZW1vdGUgewogICAgICAgIFNvbWUocmVzcG9uc2UpID0+IHJlc3BvbnNlLnRleHQoKS5hd2FpdC5vaygpLAogICAgICAgIE5vbmUgPT4gTm9uZSwKICAgIH07CiAgICBsZXQgcGFyc2VkID0gcGFyc2VfcHJlZml4ZXModGV4dC5hc19kZXJlZigpLnVud3JhcF9vcigiIikpOwogICAgaWYgcGFyc2VkLmlzX2VtcHR5KCkgewogICAgICAgIGJ1bmRsZWRfY2xvdWRmbGFyZV9wcmVmaXhlcygpCiAgICB9IGVsc2UgewogICAgICAgIHBhcnNlZAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGJ1bmRsZWRfY2xvdWRmbGFyZV9wcmVmaXhlcygpIC0+IFZlYzxJcHY0TmV0PiB7CiAgICBwYXJzZV9wcmVmaXhlcygmQ0xPVURGTEFSRV9JUFY0X0ZBTExCQUNLLmpvaW4oIlxuIikpCn0KCnB1YihzdXBlcikgZm4gcGFyc2VfcHJlZml4ZXModmFsdWU6ICZzdHIpIC0+IFZlYzxJcHY0TmV0PiB7CiAgICBsZXQgbXV0IHNlZW4gPSBIYXNoU2V0OjpuZXcoKTsKICAgIHZhbHVlCiAgICAgICAgLmxpbmVzKCkKICAgICAgICAuZmlsdGVyX21hcCh8bGluZXwgbGluZS50cmltKCkucGFyc2U6OjxJcHY0TmV0PigpLm9rKCkpCiAgICAgICAgLmZpbHRlcih8bmV0d29ya3wgc2Vlbi5pbnNlcnQoKm5ldHdvcmspKQogICAgICAgIC5jb2xsZWN0KCkKfQoKcHViKHN1cGVyKSBmbiBzYW1wbGVfY2FuZGlkYXRlX2lwcyhwcmVmaXhlczogJltJcHY0TmV0XSkgLT4gVmVjPElwdjRBZGRyPiB7CiAgICBsZXQgbXV0IG91dHB1dCA9IFZlYzo6bmV3KCk7CiAgICBsZXQgbXV0IHNlZW4gPSBIYXNoU2V0OjpuZXcoKTsKICAgIGZvciBwcmVmaXggaW4gcHJlZml4ZXMgewogICAgICAgIGxldCBob3N0X2JpdHMgPSAzMnUzMi5zYXR1cmF0aW5nX3N1YihwcmVmaXgucHJlZml4X2xlbigpIGFzIHUzMik7CiAgICAgICAgbGV0IGFkZHJlc3NfY291bnQgPSAxdTY0IDw8IGhvc3RfYml0cy5taW4oMzIpOwogICAgICAgIGlmIGFkZHJlc3NfY291bnQgPD0gMiB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBsZXQgYmFzZSA9IHUzMjo6ZnJvbShwcmVmaXgubmV0d29yaygpKSBhcyB1NjQ7CiAgICAgICAgbGV0IHVzYWJsZSA9IGFkZHJlc3NfY291bnQgLSAyOwogICAgICAgIGZvciBpbmRleCBpbiAwLi5DQU5ESURBVEVTX1BFUl9QUkVGSVggewogICAgICAgICAgICBsZXQgc2VlZCA9IGNyeXB0b191dGlsczo6c2hhMjU2X2hleF9zdHIoJmZvcm1hdCEoIntwcmVmaXh9OntpbmRleH06Zm4ta25vY2siKSk7CiAgICAgICAgICAgIGxldCBzYW1wbGUgPSB1NjQ6OmZyb21fc3RyX3JhZGl4KHNlZWQuZ2V0KC4uMTYpLnVud3JhcF9vcigiMCIpLCAxNikudW53cmFwX29yKDApOwogICAgICAgICAgICBsZXQgb2Zmc2V0ID0gMSArIHNhbXBsZSAlIHVzYWJsZTsKICAgICAgICAgICAgbGV0IGlwID0gSXB2NEFkZHI6OmZyb20oKGJhc2UgKyBvZmZzZXQpIGFzIHUzMik7CiAgICAgICAgICAgIGlmIHByZWZpeC5jb250YWlucygmaXApICYmIHNlZW4uaW5zZXJ0KGlwKSB7CiAgICAgICAgICAgICAgICBvdXRwdXQucHVzaChpcCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgb3V0cHV0LmxlbigpID49IE1BWF9DQU5ESURBVEVTIHsKICAgICAgICAgICAgICAgIHJldHVybiBvdXRwdXQ7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICBvdXRwdXQKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBwcm9iZV9sYXRlbmN5KGlwOiBJcHY0QWRkcikgLT4gT3B0aW9uPChmNjQsIGY2NCwgZjY0KT4gewogICAgbGV0IG1ldHJpY3MgPSBwcm9iZV9sYXRlbmN5X21ldHJpY3MoaXApLmF3YWl0PzsKICAgIFNvbWUoKAogICAgICAgIG1ldHJpY3MubWVkaWFuX2xhdGVuY3lfbXMsCiAgICAgICAgbWV0cmljcy5qaXR0ZXJfbXMsCiAgICAgICAgbWV0cmljcy5sb3NzX3JhdGlvLAogICAgKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBwcm9iZV9sYXRlbmN5X21ldHJpY3MoaXA6IElwdjRBZGRyKSAtPiBPcHRpb248TGF0ZW5jeVByb2JlTWV0cmljcz4gewogICAgbGV0IGNsaWVudCA9IHNwZWVkdGVzdF9jbGllbnQoU1BFRURURVNUX0hPU1QsIGlwLCBEdXJhdGlvbjo6ZnJvbV9zZWNzKDQpKS5vaygpPzsKICAgIGxldCBtdXQgc2FtcGxlcyA9IFZlYzo6bmV3KCk7CiAgICBsZXQgbXV0IGNmX3JheSA9IE5vbmU7CiAgICBmb3IgXyBpbiAwLi5MQVRFTkNZX1BST0JFUyB7CiAgICAgICAgbGV0IHN0YXJ0ZWQgPSBJbnN0YW50Ojpub3coKTsKICAgICAgICBsZXQgcmVzcG9uc2UgPSBjbGllbnQKICAgICAgICAgICAgLmdldChmb3JtYXQhKCJodHRwczovL3tTUEVFRFRFU1RfSE9TVH17U1BFRURURVNUX1BBVEh9P2J5dGVzPTAiKSkKICAgICAgICAgICAgLmhlYWRlcihyZXF3ZXN0OjpoZWFkZXI6OkNBQ0hFX0NPTlRST0wsICJuby1zdG9yZSIpCiAgICAgICAgICAgIC5zZW5kKCkKICAgICAgICAgICAgLmF3YWl0OwogICAgICAgIGlmIGxldCBPayhyZXNwb25zZSkgPSByZXNwb25zZQogICAgICAgICAgICAmJiByZXNwb25zZS5zdGF0dXMoKS5pc19zdWNjZXNzKCkKICAgICAgICAgICAgJiYgbGV0IFNvbWUocmVzcG9uc2VfY2ZfcmF5KSA9IHJlc3BvbnNlLmhlYWRlcnMoKS5nZXQoImNmLXJheSIpLmFuZF90aGVuKGJvdW5kZWRfY2ZfcmF5KQogICAgICAgIHsKICAgICAgICAgICAgaWYgY2ZfcmF5LmlzX25vbmUoKSB7CiAgICAgICAgICAgICAgICBjZl9yYXkgPSBTb21lKHJlc3BvbnNlX2NmX3JheSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgc2FtcGxlcy5wdXNoKHN0YXJ0ZWQuZWxhcHNlZCgpLmFzX3NlY3NfZjY0KCkgKiAxMDAwLjApOwogICAgICAgIH0KICAgIH0KICAgIGxldCBsb3NzID0gMS4wIC0gc2FtcGxlcy5sZW4oKSBhcyBmNjQgLyBMQVRFTkNZX1BST0JFUyBhcyBmNjQ7CiAgICBpZiBzYW1wbGVzLmxlbigpIDwgMiB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBzYW1wbGVzLnNvcnRfYnkofGxlZnQsIHJpZ2h0fCBsZWZ0LnBhcnRpYWxfY21wKHJpZ2h0KS51bndyYXBfb3IoT3JkZXJpbmc6OkVxdWFsKSk7CiAgICBsZXQgbGF0ZW5jeSA9IG1lZGlhbigmc2FtcGxlcyk/OwogICAgbGV0IGppdHRlciA9CiAgICAgICAgc2FtcGxlcy5sYXN0KCkuY29waWVkKCkudW53cmFwX29yKGxhdGVuY3kpIC0gc2FtcGxlcy5maXJzdCgpLmNvcGllZCgpLnVud3JhcF9vcihsYXRlbmN5KTsKICAgIGxldCBjb2xvID0gY2ZfcmF5LmFzX2RlcmVmKCkuYW5kX3RoZW4oY2ZfcmF5X2NvbG8pOwogICAgU29tZShMYXRlbmN5UHJvYmVNZXRyaWNzIHsKICAgICAgICBtZWRpYW5fbGF0ZW5jeV9tczogbGF0ZW5jeSwKICAgICAgICBqaXR0ZXJfbXM6IGppdHRlciwKICAgICAgICBsb3NzX3JhdGlvOiBsb3NzLAogICAgICAgIGNvbG8sCiAgICAgICAgY2ZfcmF5LAogICAgfSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBwcm9iZV9kb3dubG9hZChpcDogSXB2NEFkZHIsIGJ5dGVzOiB1c2l6ZSkgLT4gT3B0aW9uPGY2ND4gewogICAgbGV0IGNsaWVudCA9IHNwZWVkdGVzdF9jbGllbnQoU1BFRURURVNUX0hPU1QsIGlwLCBEdXJhdGlvbjo6ZnJvbV9zZWNzKDEyKSkub2soKT87CiAgICBsZXQgc3RhcnRlZCA9IEluc3RhbnQ6Om5vdygpOwogICAgbGV0IG11dCByZXNwb25zZSA9IGNsaWVudAogICAgICAgIC5nZXQoZm9ybWF0ISgKICAgICAgICAgICAgImh0dHBzOi8ve1NQRUVEVEVTVF9IT1NUfXtTUEVFRFRFU1RfUEFUSH0/Ynl0ZXM9e2J5dGVzfSIKICAgICAgICApKQogICAgICAgIC5oZWFkZXIocmVxd2VzdDo6aGVhZGVyOjpDQUNIRV9DT05UUk9MLCAibm8tc3RvcmUiKQogICAgICAgIC5zZW5kKCkKICAgICAgICAuYXdhaXQKICAgICAgICAub2soKT8KICAgICAgICAuZXJyb3JfZm9yX3N0YXR1cygpCiAgICAgICAgLm9rKCk/OwogICAgbGV0IG11dCByZWNlaXZlZCA9IDB1c2l6ZTsKICAgIHdoaWxlIHJlY2VpdmVkIDwgYnl0ZXMgewogICAgICAgIGxldCBjaHVuayA9IHJlc3BvbnNlLmNodW5rKCkuYXdhaXQub2soKT8/OwogICAgICAgIHJlY2VpdmVkID0gcmVjZWl2ZWQuc2F0dXJhdGluZ19hZGQoY2h1bmsubGVuKCkubWluKGJ5dGVzIC0gcmVjZWl2ZWQpKTsKICAgIH0KICAgIGlmIHJlY2VpdmVkIDwgYnl0ZXMgLyAyIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIGxldCBzZWNvbmRzID0gc3RhcnRlZC5lbGFwc2VkKCkuYXNfc2Vjc19mNjQoKS5tYXgoMC4wMDEpOwogICAgU29tZShyZWNlaXZlZCBhcyBmNjQgKiA4LjAgLyBzZWNvbmRzIC8gMV8wMDBfMDAwLjApCn0KCnB1YihzdXBlcikgZm4gc3BlZWR0ZXN0X2NsaWVudCgKICAgIGhvc3RuYW1lOiAmc3RyLAogICAgaXA6IElwdjRBZGRyLAogICAgdGltZW91dDogRHVyYXRpb24sCikgLT4gUmVzdWx0PHJlcXdlc3Q6OkNsaWVudCwgcmVxd2VzdDo6RXJyb3I+IHsKICAgIHJlcXdlc3Q6OkNsaWVudDo6YnVpbGRlcigpCiAgICAgICAgLy8gQ2FuZGlkYXRlIG1lYXN1cmVtZW50cyBtdXN0IHJlYWNoIHRoZSBzdXBwbGllZCBJUCBkaXJlY3RseS4gQQogICAgICAgIC8vIHByb2Nlc3MtbGV2ZWwgSFRUUFMgcHJveHkgd291bGQgb3RoZXJ3aXNlIGhhbmRsZSBDT05ORUNUIGJ5IGhvc3RuYW1lCiAgICAgICAgLy8gYW5kIHNpbGVudGx5IGJ5cGFzcyB0aGlzIGV4cGxpY2l0IHJlc29sdmVyIG92ZXJyaWRlLgogICAgICAgIC5ub19wcm94eSgpCiAgICAgICAgLmNvbm5lY3RfdGltZW91dChEdXJhdGlvbjo6ZnJvbV9zZWNzKDIpKQogICAgICAgIC50aW1lb3V0KHRpbWVvdXQpCiAgICAgICAgLmh0dHBzX29ubHkodHJ1ZSkKICAgICAgICAucmVzb2x2ZShob3N0bmFtZSwgU29ja2V0QWRkcjo6bmV3KElwQWRkcjo6VjQoaXApLCA0NDMpKQogICAgICAgIC5idWlsZCgpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gcHJvYmVfY3VzdG9tX2hvc3RuYW1lKGhvc3RuYW1lOiAmc3RyLCBpcDogSXB2NEFkZHIpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBwcm9iZV9jdXN0b21faG9zdG5hbWVfZGV0YWlscyhob3N0bmFtZSwgaXApCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcCh8X3wgKCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gcHJvYmVfY3VzdG9tX2hvc3RuYW1lX2RldGFpbHMoCiAgICBob3N0bmFtZTogJnN0ciwKICAgIGlwOiBJcHY0QWRkciwKKSAtPiBSZXN1bHQ8QnVzaW5lc3NQcm9iZVJlc3VsdCwgU3RyaW5nPiB7CiAgICBsZXQgY2xpZW50ID0gcmVxd2VzdDo6Q2xpZW50OjpidWlsZGVyKCkKICAgICAgICAubm9fcHJveHkoKQogICAgICAgIC5jb25uZWN0X3RpbWVvdXQoRHVyYXRpb246OmZyb21fc2VjcygzKSkKICAgICAgICAudGltZW91dChEdXJhdGlvbjo6ZnJvbV9zZWNzKDgpKQogICAgICAgIC5odHRwc19vbmx5KHRydWUpCiAgICAgICAgLnJlZGlyZWN0KHJlcXdlc3Q6OnJlZGlyZWN0OjpQb2xpY3k6Om5vbmUoKSkKICAgICAgICAucmVzb2x2ZShob3N0bmFtZSwgU29ja2V0QWRkcjo6bmV3KElwQWRkcjo6VjQoaXApLCA0NDMpKQogICAgICAgIC5idWlsZCgpCiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgbGV0IHJlc3BvbnNlID0gY2xpZW50CiAgICAgICAgLmdldChmb3JtYXQhKCJodHRwczovL3tob3N0bmFtZX0vIikpCiAgICAgICAgLmhlYWRlcihyZXF3ZXN0OjpoZWFkZXI6OkNBQ0hFX0NPTlRST0wsICJuby1zdG9yZSIpCiAgICAgICAgLnNlbmQoKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZm9ybWF0ISgiUHJlZmVycmVkIGVkZ2UgVExTIHByb2JlIGZhaWxlZDoge2Vycm9yfSIpKT87CiAgICBsZXQgc3RhdHVzID0gcmVzcG9uc2Uuc3RhdHVzKCk7CiAgICBsZXQgY2ZfcmF5ID0gcmVzcG9uc2UuaGVhZGVycygpLmdldCgiY2YtcmF5IikuYW5kX3RoZW4oYm91bmRlZF9jZl9yYXkpOwogICAgbGV0IG11dCByZXNwb25zZSA9IHJlc3BvbnNlOwogICAgbGV0IG11dCBib2R5ID0gVmVjOjpuZXcoKTsKICAgIHdoaWxlIGJvZHkubGVuKCkgPCAzMiAqIDEwMjQgewogICAgICAgIGxldCBjaHVuayA9IG1hdGNoIHJlc3BvbnNlLmNodW5rKCkuYXdhaXQgewogICAgICAgICAgICBPayhTb21lKGNodW5rKSkgPT4gY2h1bmssCiAgICAgICAgICAgIE9rKE5vbmUpID0+IGJyZWFrLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IHJldHVybiBFcnIoZm9ybWF0ISgiUHJlZmVycmVkIGVkZ2UgcmVzcG9uc2UgZmFpbGVkOiB7ZXJyb3J9IikpLAogICAgICAgIH07CiAgICAgICAgbGV0IHJlbWFpbmluZyA9IDMyICogMTAyNCAtIGJvZHkubGVuKCk7CiAgICAgICAgYm9keS5leHRlbmRfZnJvbV9zbGljZSgmY2h1bmtbLi5jaHVuay5sZW4oKS5taW4ocmVtYWluaW5nKV0pOwogICAgfQogICAgbGV0IGJvZHkgPSBTdHJpbmc6OmZyb21fdXRmOF9sb3NzeSgmYm9keSkudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBpZiBsZXQgU29tZShlcnJvcikgPSBjbG91ZGZsYXJlX3JvdXRlX3JlamVjdGlvbl9tZXNzYWdlKHN0YXR1cy5hc191MTYoKSwgJmJvZHkpIHsKICAgICAgICByZXR1cm4gRXJyKGVycm9yKTsKICAgIH0KICAgIGlmIGNmX3JheS5pc19ub25lKCkgewogICAgICAgIHJldHVybiBFcnIoZm9ybWF0ISgKICAgICAgICAgICAgIlByZWZlcnJlZCBlZGdlIHJldHVybmVkIEhUVFAge3N0YXR1c30gd2l0aG91dCBhIENsb3VkZmxhcmUgUmF5IElEIgogICAgICAgICkpOwogICAgfQogICAgT2soQnVzaW5lc3NQcm9iZVJlc3VsdCB7CiAgICAgICAgc3RhdHVzOiBzdGF0dXMuYXNfdTE2KCksCiAgICAgICAgY29sbzogY2ZfcmF5LmFzX2RlcmVmKCkuYW5kX3RoZW4oY2ZfcmF5X2NvbG8pLAogICAgICAgIGNmX3JheSwKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gY2xvdWRmbGFyZV9yb3V0ZV9yZWplY3Rpb25fbWVzc2FnZShzdGF0dXM6IHUxNiwgYm9keTogJnN0cikgLT4gT3B0aW9uPFN0cmluZz4gewogICAgaWYgYm9keS5jb250YWlucygiZXJyb3IgMTAwMCIpCiAgICAgICAgfHwgYm9keS5jb250YWlucygiZXJyb3IgY29kZTogMTAwMCIpCiAgICAgICAgfHwgYm9keS5jb250YWlucygiZXJyb3IgY29kZSAxMDAwIikKICAgICAgICB8fCBib2R5LmNvbnRhaW5zKCJkbnMgcG9pbnRzIHRvIHByb2hpYml0ZWQgaXAiKQogICAgewogICAgICAgIHJldHVybiBTb21lKCJDbG91ZGZsYXJlIEVycm9yIDEwMDA6IEROUyBwb2ludHMgdG8gYSBwcm9oaWJpdGVkIENsb3VkZmxhcmUgSVAiLnRvX3N0cmluZygpKTsKICAgIH0KICAgIGlmIGJvZHkuY29udGFpbnMoImVycm9yIDEwMTYiKQogICAgICAgIHx8IGJvZHkuY29udGFpbnMoImVycm9yIGNvZGU6IDEwMTYiKQogICAgICAgIHx8IGJvZHkuY29udGFpbnMoImVycm9yIGNvZGUgMTAxNiIpCiAgICB7CiAgICAgICAgcmV0dXJuIFNvbWUoIkNsb3VkZmxhcmUgRXJyb3IgMTAxNjogb3JpZ2luIEROUyByZXNvbHV0aW9uIGZhaWxlZCIudG9fc3RyaW5nKCkpOwogICAgfQogICAgaWYgbWF0Y2hlcyEoc3RhdHVzLCA1MjAuLj01MjcgfCA1MzApIHsKICAgICAgICByZXR1cm4gU29tZShmb3JtYXQhKCJDbG91ZGZsYXJlIGVkZ2UgcmV0dXJuZWQgSFRUUCB7c3RhdHVzfSIpKTsKICAgIH0KICAgIGlmIGJvZHkuY29udGFpbnMoImNsb3VkZmxhcmUiKSAmJiBib2R5LmNvbnRhaW5zKCJlcnJvciBjb2RlIikgewogICAgICAgIHJldHVybiBTb21lKGZvcm1hdCEoCiAgICAgICAgICAgICJDbG91ZGZsYXJlIHJldHVybmVkIGFuIGVkZ2UgZXJyb3IgcGFnZSAoSFRUUCB7c3RhdHVzfSkiCiAgICAgICAgKSk7CiAgICB9CiAgICBOb25lCn0KCnB1YihzdXBlcikgZm4gY2ZfcmF5X2NvbG8odmFsdWU6ICZzdHIpIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIGxldCBjb2xvID0gdmFsdWUucnNwbGl0X29uY2UoJy0nKT8uMS50cmltKCkudG9fYXNjaWlfdXBwZXJjYXNlKCk7CiAgICAoY29sby5sZW4oKSA9PSAzICYmIGNvbG8uYnl0ZXMoKS5hbGwofGJ5dGV8IGJ5dGUuaXNfYXNjaWlfYWxwaGFudW1lcmljKCkpKS50aGVuX3NvbWUoY29sbykKfQoKcHViKHN1cGVyKSBmbiBib3VuZGVkX2NmX3JheSh2YWx1ZTogJnJlcXdlc3Q6OmhlYWRlcjo6SGVhZGVyVmFsdWUpIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIGxldCB2YWx1ZSA9IHZhbHVlLnRvX3N0cigpLm9rKCk/LnRyaW0oKTsKICAgICghdmFsdWUuaXNfZW1wdHkoKSAmJiB2YWx1ZS5sZW4oKSA8PSAxMjgpLnRoZW4ofHwgdmFsdWUudG9fc3RyaW5nKCkpCn0KCnB1YihzdXBlcikgZm4gc2NvcmVfY2FuZGlkYXRlKGxhdGVuY3k6IGY2NCwgaml0dGVyOiBmNjQsIGxvc3M6IGY2NCwgZG93bmxvYWRfbWJwczogZjY0KSAtPiBmNjQgewogICAgbGF0ZW5jeSArIDIuMCAqIGppdHRlciArIDE1MDAuMCAqIGxvc3MgKyA4MDAuMCAvIGRvd25sb2FkX21icHMubWF4KDEuMCkKfQoKcHViKHN1cGVyKSBmbiBzY29yZV9pc18xNV9wZXJjZW50X2JldHRlcihjYW5kaWRhdGU6IGY2NCwgY3VycmVudDogZjY0KSAtPiBib29sIHsKICAgIGNhbmRpZGF0ZS5pc19maW5pdGUoKQogICAgICAgICYmIGN1cnJlbnQuaXNfZmluaXRlKCkKICAgICAgICAmJiBjYW5kaWRhdGUgPj0gMC4wCiAgICAgICAgJiYgY3VycmVudCA+IDAuMAogICAgICAgICYmIGNhbmRpZGF0ZSA8PSBjdXJyZW50ICogMC44NQp9CgpwdWIoc3VwZXIpIGZuIHNjYW5faXNfZnJlc2goY29tcGxldGVkX2F0X21zOiBpNjQsIG5vd19tczogaTY0KSAtPiBib29sIHsKICAgIGNvbXBsZXRlZF9hdF9tcyA+IDAKICAgICAgICAmJiBub3dfbXMgPj0gY29tcGxldGVkX2F0X21zCiAgICAgICAgJiYgbm93X21zLnNhdHVyYXRpbmdfc3ViKGNvbXBsZXRlZF9hdF9tcykgPD0gU0NBTl9BUFBMWV9UVExfTVMKfQoKcHViKHN1cGVyKSBmbiBtZWRpYW4odmFsdWVzOiAmW2Y2NF0pIC0+IE9wdGlvbjxmNjQ+IHsKICAgIGlmIHZhbHVlcy5pc19lbXB0eSgpIHsKICAgICAgICBOb25lCiAgICB9IGVsc2UgaWYgdmFsdWVzLmxlbigpICUgMiA9PSAxIHsKICAgICAgICB2YWx1ZXMuZ2V0KHZhbHVlcy5sZW4oKSAvIDIpLmNvcGllZCgpCiAgICB9IGVsc2UgewogICAgICAgIGxldCByaWdodCA9IHZhbHVlcy5sZW4oKSAvIDI7CiAgICAgICAgU29tZSgodmFsdWVzW3JpZ2h0IC0gMV0gKyB2YWx1ZXNbcmlnaHRdKSAvIDIuMCkKICAgIH0KfQo=
+use std::{
+    cmp::Ordering,
+    collections::HashSet,
+    net::{IpAddr, Ipv4Addr, SocketAddr},
+    time::{Duration, Instant},
+};
+
+use ipnet::Ipv4Net;
+
+use crate::crypto_utils;
+
+use super::*;
+
+pub(super) async fn load_cloudflare_prefixes(state: &AppState) -> Vec<Ipv4Net> {
+    let remote = state
+        .fallback_client
+        .get("https://www.cloudflare.com/ips-v4")
+        .timeout(Duration::from_secs(10))
+        .send()
+        .await
+        .ok()
+        .and_then(|response| response.error_for_status().ok());
+    let text = match remote {
+        Some(response) => response.text().await.ok(),
+        None => None,
+    };
+    let parsed = parse_prefixes(text.as_deref().unwrap_or(""));
+    if parsed.is_empty() {
+        bundled_cloudflare_prefixes()
+    } else {
+        parsed
+    }
+}
+
+pub(super) fn bundled_cloudflare_prefixes() -> Vec<Ipv4Net> {
+    parse_prefixes(&CLOUDFLARE_IPV4_FALLBACK.join("\n"))
+}
+
+pub(super) fn parse_prefixes(value: &str) -> Vec<Ipv4Net> {
+    let mut seen = HashSet::new();
+    value
+        .lines()
+        .filter_map(|line| line.trim().parse::<Ipv4Net>().ok())
+        .filter(|network| seen.insert(*network))
+        .collect()
+}
+
+pub(super) fn sample_candidate_ips(prefixes: &[Ipv4Net]) -> Vec<Ipv4Addr> {
+    let mut output = Vec::new();
+    let mut seen = HashSet::new();
+    for prefix in prefixes {
+        let host_bits = 32u32.saturating_sub(prefix.prefix_len() as u32);
+        let address_count = 1u64 << host_bits.min(32);
+        if address_count <= 2 {
+            continue;
+        }
+        let base = u32::from(prefix.network()) as u64;
+        let usable = address_count - 2;
+        for index in 0..CANDIDATES_PER_PREFIX {
+            let seed = crypto_utils::sha256_hex_str(&format!("{prefix}:{index}:fn-knock"));
+            let sample = u64::from_str_radix(seed.get(..16).unwrap_or("0"), 16).unwrap_or(0);
+            let offset = 1 + sample % usable;
+            let ip = Ipv4Addr::from((base + offset) as u32);
+            if prefix.contains(&ip) && seen.insert(ip) {
+                output.push(ip);
+            }
+            if output.len() >= MAX_CANDIDATES {
+                return output;
+            }
+        }
+    }
+    output
+}
+
+pub(super) async fn probe_latency(ip: Ipv4Addr) -> Option<(f64, f64, f64)> {
+    let metrics = probe_latency_metrics(ip).await?;
+    Some((
+        metrics.median_latency_ms,
+        metrics.jitter_ms,
+        metrics.loss_ratio,
+    ))
+}
+
+pub(super) async fn probe_latency_metrics(ip: Ipv4Addr) -> Option<LatencyProbeMetrics> {
+    let client = speedtest_client(SPEEDTEST_HOST, ip, Duration::from_secs(4)).ok()?;
+    let mut samples = Vec::new();
+    let mut cf_ray = None;
+    for _ in 0..LATENCY_PROBES {
+        let started = Instant::now();
+        let response = client
+            .get(format!("https://{SPEEDTEST_HOST}{SPEEDTEST_PATH}?bytes=0"))
+            .header(reqwest::header::CACHE_CONTROL, "no-store")
+            .send()
+            .await;
+        if let Ok(response) = response
+            && response.status().is_success()
+            && let Some(response_cf_ray) = response.headers().get("cf-ray").and_then(bounded_cf_ray)
+        {
+            if cf_ray.is_none() {
+                cf_ray = Some(response_cf_ray);
+            }
+            samples.push(started.elapsed().as_secs_f64() * 1000.0);
+        }
+    }
+    let loss = 1.0 - samples.len() as f64 / LATENCY_PROBES as f64;
+    if samples.len() < 2 {
+        return None;
+    }
+    samples.sort_by(|left, right| left.partial_cmp(right).unwrap_or(Ordering::Equal));
+    let latency = median(&samples)?;
+    let jitter =
+        samples.last().copied().unwrap_or(latency) - samples.first().copied().unwrap_or(latency);
+    let colo = cf_ray.as_deref().and_then(cf_ray_colo);
+    Some(LatencyProbeMetrics {
+        median_latency_ms: latency,
+        jitter_ms: jitter,
+        loss_ratio: loss,
+        colo,
+        cf_ray,
+    })
+}
+
+pub(super) async fn probe_download(ip: Ipv4Addr, bytes: usize) -> Option<f64> {
+    let client = speedtest_client(SPEEDTEST_HOST, ip, Duration::from_secs(12)).ok()?;
+    let started = Instant::now();
+    let mut response = client
+        .get(format!(
+            "https://{SPEEDTEST_HOST}{SPEEDTEST_PATH}?bytes={bytes}"
+        ))
+        .header(reqwest::header::CACHE_CONTROL, "no-store")
+        .send()
+        .await
+        .ok()?
+        .error_for_status()
+        .ok()?;
+    let mut received = 0usize;
+    while received < bytes {
+        let chunk = response.chunk().await.ok()??;
+        received = received.saturating_add(chunk.len().min(bytes - received));
+    }
+    if received < bytes / 2 {
+        return None;
+    }
+    let seconds = started.elapsed().as_secs_f64().max(0.001);
+    Some(received as f64 * 8.0 / seconds / 1_000_000.0)
+}
+
+pub(super) fn speedtest_client(
+    hostname: &str,
+    ip: Ipv4Addr,
+    timeout: Duration,
+) -> Result<reqwest::Client, reqwest::Error> {
+    reqwest::Client::builder()
+        // Candidate measurements must reach the supplied IP directly. A
+        // process-level HTTPS proxy would otherwise handle CONNECT by hostname
+        // and silently bypass this explicit resolver override.
+        .no_proxy()
+        .connect_timeout(Duration::from_secs(2))
+        .timeout(timeout)
+        .https_only(true)
+        .resolve(hostname, SocketAddr::new(IpAddr::V4(ip), 443))
+        .build()
+}
+
+pub(super) async fn probe_custom_hostname(hostname: &str, ip: Ipv4Addr) -> Result<(), String> {
+    probe_custom_hostname_details(hostname, ip)
+        .await
+        .map(|_| ())
+}
+
+pub(super) async fn probe_custom_hostname_details(
+    hostname: &str,
+    ip: Ipv4Addr,
+) -> Result<BusinessProbeResult, String> {
+    let client = reqwest::Client::builder()
+        .no_proxy()
+        .connect_timeout(Duration::from_secs(3))
+        .timeout(Duration::from_secs(8))
+        .https_only(true)
+        .redirect(reqwest::redirect::Policy::none())
+        .resolve(hostname, SocketAddr::new(IpAddr::V4(ip), 443))
+        .build()
+        .map_err(|error| error.to_string())?;
+    let response = client
+        .get(format!("https://{hostname}/"))
+        .header(reqwest::header::CACHE_CONTROL, "no-store")
+        .send()
+        .await
+        .map_err(|error| format!("Preferred edge TLS probe failed: {error}"))?;
+    let status = response.status();
+    let cf_ray = response.headers().get("cf-ray").and_then(bounded_cf_ray);
+    let mut response = response;
+    let mut body = Vec::new();
+    while body.len() < 32 * 1024 {
+        let chunk = match response.chunk().await {
+            Ok(Some(chunk)) => chunk,
+            Ok(None) => break,
+            Err(error) => return Err(format!("Preferred edge response failed: {error}")),
+        };
+        let remaining = 32 * 1024 - body.len();
+        body.extend_from_slice(&chunk[..chunk.len().min(remaining)]);
+    }
+    let body = String::from_utf8_lossy(&body).to_ascii_lowercase();
+    if let Some(error) = cloudflare_route_rejection_message(status.as_u16(), &body) {
+        return Err(error);
+    }
+    if cf_ray.is_none() {
+        return Err(format!(
+            "Preferred edge returned HTTP {status} without a Cloudflare Ray ID"
+        ));
+    }
+    Ok(BusinessProbeResult {
+        status: status.as_u16(),
+        colo: cf_ray.as_deref().and_then(cf_ray_colo),
+        cf_ray,
+    })
+}
+
+pub(super) fn cloudflare_route_rejection_message(status: u16, body: &str) -> Option<String> {
+    if body.contains("error 1000")
+        || body.contains("error code: 1000")
+        || body.contains("error code 1000")
+        || body.contains("dns points to prohibited ip")
+    {
+        return Some("Cloudflare Error 1000: DNS points to a prohibited Cloudflare IP".to_string());
+    }
+    if body.contains("error 1016")
+        || body.contains("error code: 1016")
+        || body.contains("error code 1016")
+    {
+        return Some("Cloudflare Error 1016: origin DNS resolution failed".to_string());
+    }
+    if matches!(status, 520..=527 | 530) {
+        return Some(format!("Cloudflare edge returned HTTP {status}"));
+    }
+    if body.contains("cloudflare") && body.contains("error code") {
+        return Some(format!(
+            "Cloudflare returned an edge error page (HTTP {status})"
+        ));
+    }
+    None
+}
+
+pub(super) fn cf_ray_colo(value: &str) -> Option<String> {
+    let colo = value.rsplit_once('-')?.1.trim().to_ascii_uppercase();
+    (colo.len() == 3 && colo.bytes().all(|byte| byte.is_ascii_alphanumeric())).then_some(colo)
+}
+
+pub(super) fn bounded_cf_ray(value: &reqwest::header::HeaderValue) -> Option<String> {
+    let value = value.to_str().ok()?.trim();
+    (!value.is_empty() && value.len() <= 128).then(|| value.to_string())
+}
+
+pub(super) fn score_candidate(latency: f64, jitter: f64, loss: f64, download_mbps: f64) -> f64 {
+    latency + 2.0 * jitter + 1500.0 * loss + 800.0 / download_mbps.max(1.0)
+}
+
+pub(super) fn score_is_15_percent_better(candidate: f64, current: f64) -> bool {
+    candidate.is_finite()
+        && current.is_finite()
+        && candidate >= 0.0
+        && current > 0.0
+        && candidate <= current * 0.85
+}
+
+pub(super) fn scan_is_fresh(completed_at_ms: i64, now_ms: i64) -> bool {
+    completed_at_ms > 0
+        && now_ms >= completed_at_ms
+        && now_ms.saturating_sub(completed_at_ms) <= SCAN_APPLY_TTL_MS
+}
+
+pub(super) fn median(values: &[f64]) -> Option<f64> {
+    if values.is_empty() {
+        None
+    } else if values.len() % 2 == 1 {
+        values.get(values.len() / 2).copied()
+    } else {
+        let right = values.len() / 2;
+        Some((values[right - 1] + values[right]) / 2.0)
+    }
+}

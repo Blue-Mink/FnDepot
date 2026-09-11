@@ -1,1 +1,120 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBkZWZpbmVBc3luY0NvbXBvbmVudCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHVzZVJvdXRlLCB1c2VSb3V0ZXIgfSBmcm9tICJ2dWUtcm91dGVyIjsKaW1wb3J0IHsgVGFicywgVGFic0NvbnRlbnQsIFRhYnNMaXN0LCBUYWJzVHJpZ2dlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJzIjsKaW1wb3J0IERvY3NMaW5rQnV0dG9uIGZyb20gIkAvY29tcG9uZW50cy9Eb2NzTGlua0J1dHRvbi52dWUiOwppbXBvcnQgeyB1c2VDb25maWdTdG9yZSB9IGZyb20gIi4uL3N0b3JlL2NvbmZpZyI7CmltcG9ydCB7IHVzZVN5bmNlZFF1ZXJ5VGFiIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VTeW5jZWRRdWVyeVRhYiI7CmltcG9ydCB7IGRvY3NVcmxzIH0gZnJvbSAiLi4vbGliL2RvY3MiOwoKY29uc3QgU2Vzc2lvbnNUYWIgPSBkZWZpbmVBc3luY0NvbXBvbmVudCgKICAoKSA9PiBpbXBvcnQoIi4vc2Vzc2lvbi1tYW5hZ2VtZW50L1Nlc3Npb25zVGFiLnZ1ZSIpLAopOwpjb25zdCBJcFdoaXRlbGlzdFRhYiA9IGRlZmluZUFzeW5jQ29tcG9uZW50KCgpID0+IGltcG9ydCgiLi9JUFdoaXRlbGlzdC52dWUiKSk7CmNvbnN0IExvZ2luQmFja29mZlRhYiA9IGRlZmluZUFzeW5jQ29tcG9uZW50KAogICgpID0+IGltcG9ydCgiLi9zZXNzaW9uLW1hbmFnZW1lbnQvTG9naW5CYWNrb2ZmVGFiLnZ1ZSIpLAopOwpjb25zdCBJcEJsYWNrbGlzdFRhYiA9IGRlZmluZUFzeW5jQ29tcG9uZW50KAogICgpID0+IGltcG9ydCgiLi9zZXNzaW9uLW1hbmFnZW1lbnQvSXBCbGFja2xpc3RUYWIudnVlIiksCik7CmNvbnN0IEdlbmVyYWxCbGFja2xpc3RUYWIgPSBkZWZpbmVBc3luY0NvbXBvbmVudCgKICAoKSA9PiBpbXBvcnQoIi4vc2Vzc2lvbi1tYW5hZ2VtZW50L0dlbmVyYWxCbGFja2xpc3RUYWIudnVlIiksCik7Cgpjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTsKY29uc3Qgcm91dGUgPSB1c2VSb3V0ZSgpOwpjb25zdCBjb25maWdTdG9yZSA9IHVzZUNvbmZpZ1N0b3JlKCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwoKY29uc3Qgc2hvd1Nlc3Npb25zVGFiID0gY29tcHV0ZWQoCiAgKCkgPT4KICAgIGNvbmZpZ1N0b3JlLmNvbmZpZz8ucnVuX3R5cGUgPT09IDEgfHwgY29uZmlnU3RvcmUuY29uZmlnPy5ydW5fdHlwZSA9PT0gMywKKTsKY29uc3QgZGVmYXVsdFRhYiA9IGNvbXB1dGVkKCgpID0+CiAgc2hvd1Nlc3Npb25zVGFiLnZhbHVlID8gInNlc3Npb25zIiA6ICJpcC13aGl0ZWxpc3QiLAopOwpjb25zdCBhbGxvd2VkVGFicyA9IGNvbXB1dGVkKCgpID0+CiAgc2hvd1Nlc3Npb25zVGFiLnZhbHVlCiAgICA/IFsKICAgICAgICAic2Vzc2lvbnMiLAogICAgICAgICJpcC13aGl0ZWxpc3QiLAogICAgICAgICJsb2dpbi1iYWNrb2ZmIiwKICAgICAgICAiaXAtYmxhY2tsaXN0IiwKICAgICAgICAiZ2VuZXJhbC1ibGFja2xpc3QiLAogICAgICBdCiAgICA6IFsiaXAtd2hpdGVsaXN0IiwgImxvZ2luLWJhY2tvZmYiLCAiaXAtYmxhY2tsaXN0IiwgImdlbmVyYWwtYmxhY2tsaXN0Il0sCik7CmNvbnN0IHsgY3VycmVudFRhYiwgbmF2aWdhdGVUbyB9ID0gdXNlU3luY2VkUXVlcnlUYWIoewogIHJvdXRlLAogIHJvdXRlciwKICBkZWZhdWx0VGFiLAogIGFsbG93ZWRUYWJzLAp9KTsKCmNvbnN0IGN1cnJlbnREb2NzSHJlZiA9IGNvbXB1dGVkKCgpID0+CiAgY3VycmVudFRhYi52YWx1ZSA9PT0gInNlc3Npb25zIgogICAgPyBkb2NzVXJscy5ndWlkZXMuc2Vzc2lvbk1hbmFnZW1lbnQKICAgIDogY3VycmVudFRhYi52YWx1ZSA9PT0gImlwLXdoaXRlbGlzdCIKICAgICAgPyBkb2NzVXJscy5ndWlkZXMud2hpdGVsaXN0CiAgICAgIDogZG9jc1VybHMuZ3VpZGVzLnNlY3VyaXR5LAopOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICBjbGFzcz0iZHluYW1pYy13aGl0ZS1wYWdlLWNhcmQgZHluYW1pYy13aGl0ZS1zZXR0aW5ncy1zdXJmYWNlIGgtZnVsbCBmbGV4IGZsZXgtY29sIGdhcC00IgogID4KICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICA8aDIgY2xhc3M9InRleHQtbGcgZm9udC1zZW1pYm9sZCB0cmFja2luZy10aWdodCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zZXNzaW9ucy5wYWdlLnRpdGxlIikgfX0KICAgICAgICA8L2gyPgogICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zZXNzaW9ucy5wYWdlLmRlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgICA8RG9jc0xpbmtCdXR0b24gOmhyZWY9ImN1cnJlbnREb2NzSHJlZiIgLz4KICAgIDwvZGl2PgogICAgPFRhYnMKICAgICAgOm1vZGVsLXZhbHVlPSJjdXJyZW50VGFiIgogICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJuYXZpZ2F0ZVRvIgogICAgICBjbGFzcz0idy1mdWxsIgogICAgPgogICAgICA8ZGl2IGNsYXNzPSJvdmVyZmxvdy14LWF1dG8gW3Njcm9sbGJhci13aWR0aDpub25lXSBbLW1zLW92ZXJmbG93LXN0eWxlOm5vbmVdIFsmOjotd2Via2l0LXNjcm9sbGJhcl06aGlkZGVuIHBiLTEiPgogICAgICAgIDxUYWJzTGlzdD4KICAgICAgICAgIDxUYWJzVHJpZ2dlciB2LWlmPSJzaG93U2Vzc2lvbnNUYWIiIHZhbHVlPSJzZXNzaW9ucyI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLnBhZ2Uuc2Vzc2lvbnNUYWIiKSB9fQogICAgICAgICAgPC9UYWJzVHJpZ2dlcj4KICAgICAgICAgIDxUYWJzVHJpZ2dlciB2YWx1ZT0iaXAtd2hpdGVsaXN0Ij4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvbnMucGFnZS5pcFdoaXRlbGlzdFRhYiIpIH19CiAgICAgICAgICA8L1RhYnNUcmlnZ2VyPgogICAgICAgICAgPFRhYnNUcmlnZ2VyIHZhbHVlPSJsb2dpbi1iYWNrb2ZmIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvbnMucGFnZS5sb2dpbkJhY2tvZmZUYWIiKSB9fQogICAgICAgICAgPC9UYWJzVHJpZ2dlcj4KICAgICAgICAgIDxUYWJzVHJpZ2dlciB2YWx1ZT0iaXAtYmxhY2tsaXN0Ij4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvbnMucGFnZS5pcEJsYWNrbGlzdFRhYiIpIH19CiAgICAgICAgICA8L1RhYnNUcmlnZ2VyPgogICAgICAgICAgPFRhYnNUcmlnZ2VyIHZhbHVlPSJnZW5lcmFsLWJsYWNrbGlzdCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLnBhZ2UuZ2VuZXJhbEJsYWNrbGlzdFRhYiIpIH19CiAgICAgICAgICA8L1RhYnNUcmlnZ2VyPgogICAgICAgIDwvVGFic0xpc3Q+CiAgICAgIDwvZGl2PgogICAgICA8VGFic0NvbnRlbnQgdi1pZj0ic2hvd1Nlc3Npb25zVGFiIiB2YWx1ZT0ic2Vzc2lvbnMiIGNsYXNzPSJwdC0yIj4KICAgICAgICA8U2Vzc2lvbnNUYWIgLz4KICAgICAgPC9UYWJzQ29udGVudD4KICAgICAgPFRhYnNDb250ZW50IHZhbHVlPSJpcC13aGl0ZWxpc3QiIGNsYXNzPSJwdC0yIj4KICAgICAgICA8SXBXaGl0ZWxpc3RUYWIgLz4KICAgICAgPC9UYWJzQ29udGVudD4KICAgICAgPFRhYnNDb250ZW50IHZhbHVlPSJsb2dpbi1iYWNrb2ZmIiBjbGFzcz0icHQtMiI+CiAgICAgICAgPExvZ2luQmFja29mZlRhYiAvPgogICAgICA8L1RhYnNDb250ZW50PgogICAgICA8VGFic0NvbnRlbnQgdmFsdWU9ImlwLWJsYWNrbGlzdCIgY2xhc3M9InB0LTIiPgogICAgICAgIDxJcEJsYWNrbGlzdFRhYiAvPgogICAgICA8L1RhYnNDb250ZW50PgogICAgICA8VGFic0NvbnRlbnQgdmFsdWU9ImdlbmVyYWwtYmxhY2tsaXN0IiBjbGFzcz0icHQtMiI+CiAgICAgICAgPEdlbmVyYWxCbGFja2xpc3RUYWIgLz4KICAgICAgPC9UYWJzQ29udGVudD4KICAgIDwvVGFicz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed, defineAsyncComponent } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRoute, useRouter } from "vue-router";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import DocsLinkButton from "@/components/DocsLinkButton.vue";
+import { useConfigStore } from "../store/config";
+import { useSyncedQueryTab } from "@admin-shared/composables/useSyncedQueryTab";
+import { docsUrls } from "../lib/docs";
+
+const SessionsTab = defineAsyncComponent(
+  () => import("./session-management/SessionsTab.vue"),
+);
+const IpWhitelistTab = defineAsyncComponent(() => import("./IPWhitelist.vue"));
+const LoginBackoffTab = defineAsyncComponent(
+  () => import("./session-management/LoginBackoffTab.vue"),
+);
+const IpBlacklistTab = defineAsyncComponent(
+  () => import("./session-management/IpBlacklistTab.vue"),
+);
+const GeneralBlacklistTab = defineAsyncComponent(
+  () => import("./session-management/GeneralBlacklistTab.vue"),
+);
+
+const router = useRouter();
+const route = useRoute();
+const configStore = useConfigStore();
+const { t } = useI18n();
+
+const showSessionsTab = computed(
+  () =>
+    configStore.config?.run_type === 1 || configStore.config?.run_type === 3,
+);
+const defaultTab = computed(() =>
+  showSessionsTab.value ? "sessions" : "ip-whitelist",
+);
+const allowedTabs = computed(() =>
+  showSessionsTab.value
+    ? [
+        "sessions",
+        "ip-whitelist",
+        "login-backoff",
+        "ip-blacklist",
+        "general-blacklist",
+      ]
+    : ["ip-whitelist", "login-backoff", "ip-blacklist", "general-blacklist"],
+);
+const { currentTab, navigateTo } = useSyncedQueryTab({
+  route,
+  router,
+  defaultTab,
+  allowedTabs,
+});
+
+const currentDocsHref = computed(() =>
+  currentTab.value === "sessions"
+    ? docsUrls.guides.sessionManagement
+    : currentTab.value === "ip-whitelist"
+      ? docsUrls.guides.whitelist
+      : docsUrls.guides.security,
+);
+</script>
+
+<template>
+  <div
+    class="dynamic-white-page-card dynamic-white-settings-surface h-full flex flex-col gap-4"
+  >
+    <div class="flex items-start justify-between gap-3">
+      <div class="space-y-1">
+        <h2 class="text-lg font-semibold tracking-tight">
+          {{ t("admin.sessions.page.title") }}
+        </h2>
+        <p class="text-sm text-muted-foreground">
+          {{ t("admin.sessions.page.description") }}
+        </p>
+      </div>
+      <DocsLinkButton :href="currentDocsHref" />
+    </div>
+    <Tabs
+      :model-value="currentTab"
+      @update:model-value="navigateTo"
+      class="w-full"
+    >
+      <div class="overflow-x-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden pb-1">
+        <TabsList>
+          <TabsTrigger v-if="showSessionsTab" value="sessions">
+            {{ t("admin.sessions.page.sessionsTab") }}
+          </TabsTrigger>
+          <TabsTrigger value="ip-whitelist">
+            {{ t("admin.sessions.page.ipWhitelistTab") }}
+          </TabsTrigger>
+          <TabsTrigger value="login-backoff">
+            {{ t("admin.sessions.page.loginBackoffTab") }}
+          </TabsTrigger>
+          <TabsTrigger value="ip-blacklist">
+            {{ t("admin.sessions.page.ipBlacklistTab") }}
+          </TabsTrigger>
+          <TabsTrigger value="general-blacklist">
+            {{ t("admin.sessions.page.generalBlacklistTab") }}
+          </TabsTrigger>
+        </TabsList>
+      </div>
+      <TabsContent v-if="showSessionsTab" value="sessions" class="pt-2">
+        <SessionsTab />
+      </TabsContent>
+      <TabsContent value="ip-whitelist" class="pt-2">
+        <IpWhitelistTab />
+      </TabsContent>
+      <TabsContent value="login-backoff" class="pt-2">
+        <LoginBackoffTab />
+      </TabsContent>
+      <TabsContent value="ip-blacklist" class="pt-2">
+        <IpBlacklistTab />
+      </TabsContent>
+      <TabsContent value="general-blacklist" class="pt-2">
+        <GeneralBlacklistTab />
+      </TabsContent>
+    </Tabs>
+  </div>
+</template>

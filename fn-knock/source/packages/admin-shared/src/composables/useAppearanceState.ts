@@ -1,1 +1,44 @@
-aW1wb3J0IHsgcmVhZG9ubHksIHJlZiB9IGZyb20gInZ1ZSI7CgppbXBvcnQgewogIERFRkFVTFRfVEhFTUVfQ09MT1JfUFJFU0VUX0tFWSwKICBub3JtYWxpemVBcHBlYXJhbmNlQ29uZmlnLAogIG5vcm1hbGl6ZVRoZW1lQ29sb3JQcmVzZXRLZXksCiAgdHlwZSBBcHBlYXJhbmNlQ29uZmlnLAogIHR5cGUgVGhlbWVDb2xvclByZXNldEtleSwKfSBmcm9tICJAZnJvbnRlbmQtY29yZS9hcHBlYXJhbmNlIjsKCmNvbnN0IGFjdGl2ZVRoZW1lQ29sb3JQcmVzZXQgPSByZWY8VGhlbWVDb2xvclByZXNldEtleT4oCiAgREVGQVVMVF9USEVNRV9DT0xPUl9QUkVTRVRfS0VZLAopOwoKZXhwb3J0IGNvbnN0IHVzZUFwcGVhcmFuY2VTdGF0ZSA9ICgpID0+ICh7CiAgYWN0aXZlVGhlbWVDb2xvclByZXNldDogcmVhZG9ubHkoYWN0aXZlVGhlbWVDb2xvclByZXNldCksCn0pOwoKZXhwb3J0IGNvbnN0IGFwcGx5VGhlbWVDb2xvclByZXNldCA9ICh2YWx1ZTogdW5rbm93bikgPT4gewogIGNvbnN0IHByZXNldCA9IG5vcm1hbGl6ZVRoZW1lQ29sb3JQcmVzZXRLZXkodmFsdWUpOwogIGFjdGl2ZVRoZW1lQ29sb3JQcmVzZXQudmFsdWUgPSBwcmVzZXQ7CgogIGlmICh0eXBlb2YgZG9jdW1lbnQgPT09ICJ1bmRlZmluZWQiKSByZXR1cm4gcHJlc2V0OwoKICBjb25zdCByb290ID0gZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50OwoKICBpZiAocHJlc2V0ID09PSBERUZBVUxUX1RIRU1FX0NPTE9SX1BSRVNFVF9LRVkpIHsKICAgIGRlbGV0ZSByb290LmRhdGFzZXQudGhlbWVDb2xvcjsKICAgIHJldHVybiBwcmVzZXQ7CiAgfQoKICByb290LmRhdGFzZXQudGhlbWVDb2xvciA9IHByZXNldDsKICByZXR1cm4gcHJlc2V0Owp9OwoKZXhwb3J0IGNvbnN0IGFwcGx5QXBwZWFyYW5jZUNvbmZpZyA9ICgKICB2YWx1ZT86IFBhcnRpYWw8QXBwZWFyYW5jZUNvbmZpZz4gfCBudWxsLAopID0+IHsKICBjb25zdCBhcHBlYXJhbmNlID0gbm9ybWFsaXplQXBwZWFyYW5jZUNvbmZpZyh2YWx1ZSk7CiAgYXBwbHlUaGVtZUNvbG9yUHJlc2V0KGFwcGVhcmFuY2UudGhlbWVfY29sb3JfcHJlc2V0KTsKICByZXR1cm4gYXBwZWFyYW5jZTsKfTsKCmV4cG9ydCB0eXBlIHsgQXBwZWFyYW5jZUNvbmZpZywgVGhlbWVDb2xvclByZXNldEtleSB9Owo=
+import { readonly, ref } from "vue";
+
+import {
+  DEFAULT_THEME_COLOR_PRESET_KEY,
+  normalizeAppearanceConfig,
+  normalizeThemeColorPresetKey,
+  type AppearanceConfig,
+  type ThemeColorPresetKey,
+} from "@frontend-core/appearance";
+
+const activeThemeColorPreset = ref<ThemeColorPresetKey>(
+  DEFAULT_THEME_COLOR_PRESET_KEY,
+);
+
+export const useAppearanceState = () => ({
+  activeThemeColorPreset: readonly(activeThemeColorPreset),
+});
+
+export const applyThemeColorPreset = (value: unknown) => {
+  const preset = normalizeThemeColorPresetKey(value);
+  activeThemeColorPreset.value = preset;
+
+  if (typeof document === "undefined") return preset;
+
+  const root = document.documentElement;
+
+  if (preset === DEFAULT_THEME_COLOR_PRESET_KEY) {
+    delete root.dataset.themeColor;
+    return preset;
+  }
+
+  root.dataset.themeColor = preset;
+  return preset;
+};
+
+export const applyAppearanceConfig = (
+  value?: Partial<AppearanceConfig> | null,
+) => {
+  const appearance = normalizeAppearanceConfig(value);
+  applyThemeColorPreset(appearance.theme_color_preset);
+  return appearance;
+};
+
+export type { AppearanceConfig, ThemeColorPresetKey };

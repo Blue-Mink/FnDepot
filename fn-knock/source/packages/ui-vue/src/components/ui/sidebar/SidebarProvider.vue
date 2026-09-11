@@ -1,1 +1,82 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMsIFJlZiB9IGZyb20gInZ1ZSIKaW1wb3J0IHsgZGVmYXVsdERvY3VtZW50LCB1c2VFdmVudExpc3RlbmVyLCB1c2VNZWRpYVF1ZXJ5LCB1c2VWTW9kZWwgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7IFRvb2x0aXBQcm92aWRlciB9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IGNvbXB1dGVkLCByZWYgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCmltcG9ydCB7IHByb3ZpZGVTaWRlYmFyQ29udGV4dCwgU0lERUJBUl9DT09LSUVfTUFYX0FHRSwgU0lERUJBUl9DT09LSUVfTkFNRSwgU0lERUJBUl9LRVlCT0FSRF9TSE9SVENVVCwgU0lERUJBUl9XSURUSCwgU0lERUJBUl9XSURUSF9JQ09OIH0gZnJvbSAiLi91dGlscyIKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKGRlZmluZVByb3BzPHsKICBkZWZhdWx0T3Blbj86IGJvb2xlYW4KICBvcGVuPzogYm9vbGVhbgogIGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0KfT4oKSwgewogIGRlZmF1bHRPcGVuOiAhZGVmYXVsdERvY3VtZW50Py5jb29raWUuaW5jbHVkZXMoYCR7U0lERUJBUl9DT09LSUVfTkFNRX09ZmFsc2VgKSwKICBvcGVuOiB1bmRlZmluZWQsCn0pCgpjb25zdCBlbWl0cyA9IGRlZmluZUVtaXRzPHsKICAidXBkYXRlOm9wZW4iOiBbb3BlbjogYm9vbGVhbl0KfT4oKQoKY29uc3QgaXNNb2JpbGUgPSB1c2VNZWRpYVF1ZXJ5KCIobWF4LXdpZHRoOiA3NjhweCkiKQpjb25zdCBvcGVuTW9iaWxlID0gcmVmKGZhbHNlKQoKY29uc3Qgb3BlbiA9IHVzZVZNb2RlbChwcm9wcywgIm9wZW4iLCBlbWl0cywgewogIGRlZmF1bHRWYWx1ZTogcHJvcHMuZGVmYXVsdE9wZW4gPz8gZmFsc2UsCiAgcGFzc2l2ZTogKHByb3BzLm9wZW4gPT09IHVuZGVmaW5lZCkgYXMgZmFsc2UsCn0pIGFzIFJlZjxib29sZWFuPgoKZnVuY3Rpb24gc2V0T3Blbih2YWx1ZTogYm9vbGVhbikgewogIG9wZW4udmFsdWUgPSB2YWx1ZSAvLyBlbWl0cygndXBkYXRlOm9wZW4nLCB2YWx1ZSkKCiAgLy8gVGhpcyBzZXRzIHRoZSBjb29raWUgdG8ga2VlcCB0aGUgc2lkZWJhciBzdGF0ZS4KICBkb2N1bWVudC5jb29raWUgPSBgJHtTSURFQkFSX0NPT0tJRV9OQU1FfT0ke29wZW4udmFsdWV9OyBwYXRoPS87IG1heC1hZ2U9JHtTSURFQkFSX0NPT0tJRV9NQVhfQUdFfWAKfQoKZnVuY3Rpb24gc2V0T3Blbk1vYmlsZSh2YWx1ZTogYm9vbGVhbikgewogIG9wZW5Nb2JpbGUudmFsdWUgPSB2YWx1ZQp9CgovLyBIZWxwZXIgdG8gdG9nZ2xlIHRoZSBzaWRlYmFyLgpmdW5jdGlvbiB0b2dnbGVTaWRlYmFyKCkgewogIHJldHVybiBpc01vYmlsZS52YWx1ZSA/IHNldE9wZW5Nb2JpbGUoIW9wZW5Nb2JpbGUudmFsdWUpIDogc2V0T3Blbighb3Blbi52YWx1ZSkKfQoKdXNlRXZlbnRMaXN0ZW5lcigia2V5ZG93biIsIChldmVudDogS2V5Ym9hcmRFdmVudCkgPT4gewogIGlmIChldmVudC5rZXkgPT09IFNJREVCQVJfS0VZQk9BUkRfU0hPUlRDVVQgJiYgKGV2ZW50Lm1ldGFLZXkgfHwgZXZlbnQuY3RybEtleSkpIHsKICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KCkKICAgIHRvZ2dsZVNpZGViYXIoKQogIH0KfSkKCi8vIFdlIGFkZCBhIHN0YXRlIHNvIHRoYXQgd2UgY2FuIGRvIGRhdGEtc3RhdGU9ImV4cGFuZGVkIiBvciAiY29sbGFwc2VkIi4KLy8gVGhpcyBtYWtlcyBpdCBlYXNpZXIgdG8gc3R5bGUgdGhlIHNpZGViYXIgd2l0aCBUYWlsd2luZCBjbGFzc2VzLgpjb25zdCBzdGF0ZSA9IGNvbXB1dGVkKCgpID0+IG9wZW4udmFsdWUgPyAiZXhwYW5kZWQiIDogImNvbGxhcHNlZCIpCgpwcm92aWRlU2lkZWJhckNvbnRleHQoewogIHN0YXRlLAogIG9wZW4sCiAgc2V0T3BlbiwKICBpc01vYmlsZSwKICBvcGVuTW9iaWxlLAogIHNldE9wZW5Nb2JpbGUsCiAgdG9nZ2xlU2lkZWJhciwKfSkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFRvb2x0aXBQcm92aWRlciA6ZGVsYXktZHVyYXRpb249IjAiPgogICAgPGRpdgogICAgICBkYXRhLXNsb3Q9InNpZGViYXItd3JhcHBlciIKICAgICAgOnN0eWxlPSJ7CiAgICAgICAgJy0tc2lkZWJhci13aWR0aCc6IFNJREVCQVJfV0lEVEgsCiAgICAgICAgJy0tc2lkZWJhci13aWR0aC1pY29uJzogU0lERUJBUl9XSURUSF9JQ09OLAogICAgICB9IgogICAgICA6Y2xhc3M9ImNuKCdncm91cC9zaWRlYmFyLXdyYXBwZXIgaGFzLWRhdGEtW3ZhcmlhbnQ9aW5zZXRdOmJnLXNpZGViYXIgZmxleCBtaW4taC1zdmggdy1mdWxsJywgcHJvcHMuY2xhc3MpIgogICAgICB2LWJpbmQ9IiRhdHRycyIKICAgID4KICAgICAgPHNsb3QgLz4KICAgIDwvZGl2PgogIDwvVG9vbHRpcFByb3ZpZGVyPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { HTMLAttributes, Ref } from "vue"
+import { defaultDocument, useEventListener, useMediaQuery, useVModel } from "@vueuse/core"
+import { TooltipProvider } from "reka-ui"
+import { computed, ref } from "vue"
+import { cn } from "@/lib/utils"
+import { provideSidebarContext, SIDEBAR_COOKIE_MAX_AGE, SIDEBAR_COOKIE_NAME, SIDEBAR_KEYBOARD_SHORTCUT, SIDEBAR_WIDTH, SIDEBAR_WIDTH_ICON } from "./utils"
+
+const props = withDefaults(defineProps<{
+  defaultOpen?: boolean
+  open?: boolean
+  class?: HTMLAttributes["class"]
+}>(), {
+  defaultOpen: !defaultDocument?.cookie.includes(`${SIDEBAR_COOKIE_NAME}=false`),
+  open: undefined,
+})
+
+const emits = defineEmits<{
+  "update:open": [open: boolean]
+}>()
+
+const isMobile = useMediaQuery("(max-width: 768px)")
+const openMobile = ref(false)
+
+const open = useVModel(props, "open", emits, {
+  defaultValue: props.defaultOpen ?? false,
+  passive: (props.open === undefined) as false,
+}) as Ref<boolean>
+
+function setOpen(value: boolean) {
+  open.value = value // emits('update:open', value)
+
+  // This sets the cookie to keep the sidebar state.
+  document.cookie = `${SIDEBAR_COOKIE_NAME}=${open.value}; path=/; max-age=${SIDEBAR_COOKIE_MAX_AGE}`
+}
+
+function setOpenMobile(value: boolean) {
+  openMobile.value = value
+}
+
+// Helper to toggle the sidebar.
+function toggleSidebar() {
+  return isMobile.value ? setOpenMobile(!openMobile.value) : setOpen(!open.value)
+}
+
+useEventListener("keydown", (event: KeyboardEvent) => {
+  if (event.key === SIDEBAR_KEYBOARD_SHORTCUT && (event.metaKey || event.ctrlKey)) {
+    event.preventDefault()
+    toggleSidebar()
+  }
+})
+
+// We add a state so that we can do data-state="expanded" or "collapsed".
+// This makes it easier to style the sidebar with Tailwind classes.
+const state = computed(() => open.value ? "expanded" : "collapsed")
+
+provideSidebarContext({
+  state,
+  open,
+  setOpen,
+  isMobile,
+  openMobile,
+  setOpenMobile,
+  toggleSidebar,
+})
+</script>
+
+<template>
+  <TooltipProvider :delay-duration="0">
+    <div
+      data-slot="sidebar-wrapper"
+      :style="{
+        '--sidebar-width': SIDEBAR_WIDTH,
+        '--sidebar-width-icon': SIDEBAR_WIDTH_ICON,
+      }"
+      :class="cn('group/sidebar-wrapper has-data-[variant=inset]:bg-sidebar flex min-h-svh w-full', props.class)"
+      v-bind="$attrs"
+    >
+      <slot />
+    </div>
+  </TooltipProvider>
+</template>

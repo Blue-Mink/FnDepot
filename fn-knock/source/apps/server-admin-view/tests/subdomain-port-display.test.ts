@@ -1,1 +1,193 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHRlc3QgZnJvbSAibm9kZTp0ZXN0IjsKaW1wb3J0IHsgY29tcHV0ZWQsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB0eXBlIHsgQXBwQ29uZmlnLCBTdWJkb21haW5Nb2RlQ29uZmlnIH0gZnJvbSAiLi4vc3JjL3R5cGVzIjsKaW1wb3J0IHsgY3JlYXRlRGVmYXVsdE1vZGVGb3JtIH0gZnJvbSAiLi4vc3JjL3ZpZXdzL3N1YmRvbWFpbi1wcm94eS9tb2RlbCI7CmltcG9ydCB7IHVzZVN1YmRvbWFpblBvcnREaXNwbGF5IH0gZnJvbSAiLi4vc3JjL3ZpZXdzL3N1YmRvbWFpbi1wcm94eS91c2VTdWJkb21haW5Qb3J0RGlzcGxheSI7Cgpjb25zdCBjcmVhdGVDb25maWcgPSAoCiAgc3ViZG9tYWluTW9kZTogU3ViZG9tYWluTW9kZUNvbmZpZywKICBvdmVycmlkZXM6IFBhcnRpYWw8QXBwQ29uZmlnPiA9IHt9LAopOiBBcHBDb25maWcgPT4KICAoewogICAgcnVuX3R5cGU6IDMsCiAgICByZXZlcnNlX3Byb3h5X3N1Ym1vZGU6ICJwYXRoIiwKICAgIGRlZmF1bHRfdHVubmVsOiAiZnJwIiwKICAgIHN1YmRvbWFpbl9tb2RlOiBzdWJkb21haW5Nb2RlLAogICAgLi4ub3ZlcnJpZGVzLAogIH0pIGFzIEFwcENvbmZpZzsKCmNvbnN0IGNyZWF0ZUhvc3RGb3JtYXR0ZXJzID0gKAogIHN1YmRvbWFpbk1vZGU6IFN1YmRvbWFpbk1vZGVDb25maWcsCiAgb3ZlcnJpZGVzOiBQYXJ0aWFsPEFwcENvbmZpZz4gPSB7fSwKICBhY2Nlc3NFbnRyeVBvcnQgPSAiNzk5OSIsCikgPT4gewogIGNvbnN0IGNvbmZpZyA9IGNyZWF0ZUNvbmZpZyhzdWJkb21haW5Nb2RlLCBvdmVycmlkZXMpOwogIHJldHVybiB1c2VTdWJkb21haW5Qb3J0RGlzcGxheSh7CiAgICBhY2Nlc3NFbnRyeVBvcnQ6IHJlZihhY2Nlc3NFbnRyeVBvcnQpLAogICAgY3VycmVudE1vZGVDb25maWc6IGNvbXB1dGVkKCgpID0+IGNvbmZpZy5zdWJkb21haW5fbW9kZSksCiAgICBnZXRDb25maWc6ICgpID0+IGNvbmZpZywKICAgIG1vZGVGb3JtOiB7IC4uLnN1YmRvbWFpbk1vZGUgfSwKICB9KTsKfTsKCnRlc3QoImVkZ2UgaW5ncmVzcyBvbWl0cyBhIHN0YWxlIGNvbmZpZ3VyZWQgZ2F0ZXdheSBwb3J0IGZyb20gbWFwcGluZyBob3N0cyIsICgpID0+IHsKICBjb25zdCBzdWJkb21haW5Nb2RlID0gewogICAgLi4uY3JlYXRlRGVmYXVsdE1vZGVGb3JtKCksCiAgICBlZGdlX2NsaWVudF9pcF9lbmFibGVkOiB0cnVlLAogICAgdGVuY2VudF9lZGdlb25lX2VuYWJsZWQ6IHRydWUsCiAgICBwdWJsaWNfaHR0cHNfcG9ydDogNzk5OSwKICB9OwoKICBjb25zdCB7IGZvcm1hdEhvc3RXaXRoQWNjZXNzRW50cnlQb3J0IH0gPSBjcmVhdGVIb3N0Rm9ybWF0dGVycyhzdWJkb21haW5Nb2RlKTsKCiAgYXNzZXJ0LmVxdWFsKAogICAgZm9ybWF0SG9zdFdpdGhBY2Nlc3NFbnRyeVBvcnQoImFwcC5leGFtcGxlLmNvbSIpLAogICAgImFwcC5leGFtcGxlLmNvbSIsCiAgKTsKfSk7Cgp0ZXN0KCJlZGdlIGluZ3Jlc3Mgb21pdHMgYSBzdGFsZSBjb25maWd1cmVkIGdhdGV3YXkgcG9ydCBmcm9tIHRoZSBjdXJyZW50IGF1dGggc2VydmljZSIsICgpID0+IHsKICBjb25zdCBzdWJkb21haW5Nb2RlID0gewogICAgLi4uY3JlYXRlRGVmYXVsdE1vZGVGb3JtKCksCiAgICBlZGdlX2NsaWVudF9pcF9lbmFibGVkOiB0cnVlLAogICAgdGVuY2VudF9lZGdlb25lX2VuYWJsZWQ6IHRydWUsCiAgICBwdWJsaWNfaHR0cHNfcG9ydDogNzk5OSwKICB9OwogIGNvbnN0IHsgZm9ybWF0QXV0aFNlcnZpY2VIb3N0V2l0aFB1YmxpY1BvcnQgfSA9CiAgICBjcmVhdGVIb3N0Rm9ybWF0dGVycyhzdWJkb21haW5Nb2RlKTsKCiAgYXNzZXJ0LmVxdWFsKAogICAgZm9ybWF0QXV0aFNlcnZpY2VIb3N0V2l0aFB1YmxpY1BvcnQoImF1dGguZXhhbXBsZS5jb20iKSwKICAgICJhdXRoLmV4YW1wbGUuY29tIiwKICApOwp9KTsKCnRlc3QoIm5vbi1lZGdlIGluZ3Jlc3Mga2VlcHMgYW4gZXhwbGljaXRseSBjb25maWd1cmVkIHB1YmxpYyBwb3J0IiwgKCkgPT4gewogIGNvbnN0IHN1YmRvbWFpbk1vZGUgPSB7CiAgICAuLi5jcmVhdGVEZWZhdWx0TW9kZUZvcm0oKSwKICAgIHB1YmxpY19odHRwc19wb3J0OiA4NDQzLAogIH07CiAgY29uc3QgeyBmb3JtYXRBdXRoU2VydmljZUhvc3RXaXRoUHVibGljUG9ydCwgZm9ybWF0SG9zdFdpdGhBY2Nlc3NFbnRyeVBvcnQgfSA9CiAgICBjcmVhdGVIb3N0Rm9ybWF0dGVycyhzdWJkb21haW5Nb2RlKTsKCiAgYXNzZXJ0LmVxdWFsKAogICAgZm9ybWF0SG9zdFdpdGhBY2Nlc3NFbnRyeVBvcnQoImFwcC5leGFtcGxlLmNvbSIpLAogICAgImFwcC5leGFtcGxlLmNvbTo4NDQzIiwKICApOwogIGFzc2VydC5lcXVhbCgKICAgIGZvcm1hdEF1dGhTZXJ2aWNlSG9zdFdpdGhQdWJsaWNQb3J0KCJhdXRoLmV4YW1wbGUuY29tIiksCiAgICAiYXV0aC5leGFtcGxlLmNvbTo4NDQzIiwKICApOwp9KTsKCnRlc3QoImNsb3VkZmxhcmVkIG9taXRzIGEgc3RhbGUgZXhwbGljaXRseSBjb25maWd1cmVkIHB1YmxpYyBwb3J0IiwgKCkgPT4gewogIGNvbnN0IHN1YmRvbWFpbk1vZGUgPSB7CiAgICAuLi5jcmVhdGVEZWZhdWx0TW9kZUZvcm0oKSwKICAgIHB1YmxpY19hdXRoX2Jhc2VfdXJsOiAiaHR0cHM6Ly9hdXRoLmV4YW1wbGUuY29tOjk0NDMiLAogICAgcHVibGljX2h0dHBzX3BvcnQ6IDg0NDMsCiAgfTsKICBjb25zdCB7CiAgICBmb3JtYXRBdXRoU2VydmljZUhvc3RXaXRoUHVibGljUG9ydCwKICAgIGZvcm1hdEhvc3RXaXRoQWNjZXNzRW50cnlQb3J0LAogICAgb21pdFB1YmxpY1BvcnRDb25maWd1cmF0aW9uLAogIH0gPSBjcmVhdGVIb3N0Rm9ybWF0dGVycyhzdWJkb21haW5Nb2RlLCB7CiAgICBydW5fdHlwZTogMSwKICAgIHJldmVyc2VfcHJveHlfc3VibW9kZTogInN1YmRvbWFpbiIsCiAgICBkZWZhdWx0X3R1bm5lbDogImNsb3VkZmxhcmVkIiwKICB9KTsKCiAgYXNzZXJ0LmVxdWFsKG9taXRQdWJsaWNQb3J0Q29uZmlndXJhdGlvbi52YWx1ZSwgdHJ1ZSk7CiAgYXNzZXJ0LmVxdWFsKAogICAgZm9ybWF0SG9zdFdpdGhBY2Nlc3NFbnRyeVBvcnQoImFwcC5leGFtcGxlLmNvbSIpLAogICAgImFwcC5leGFtcGxlLmNvbSIsCiAgKTsKICBhc3NlcnQuZXF1YWwoCiAgICBmb3JtYXRBdXRoU2VydmljZUhvc3RXaXRoUHVibGljUG9ydCgiYXV0aC5leGFtcGxlLmNvbSIpLAogICAgImF1dGguZXhhbXBsZS5jb20iLAogICk7Cn0pOwoKdGVzdCgiRlJQIHJldmVyc2Ugc3ViZG9tYWluIG1vZGUgdXNlcyB0aGUgYWNjZXNzIGVudHJ5IGluc3RlYWQgb2YgcHVibGljX2h0dHBzX3BvcnQiLCAoKSA9PiB7CiAgY29uc3Qgc3ViZG9tYWluTW9kZSA9IHsKICAgIC4uLmNyZWF0ZURlZmF1bHRNb2RlRm9ybSgpLAogICAgcHVibGljX2h0dHBzX3BvcnQ6IDc5OTksCiAgfTsKICBjb25zdCB7CiAgICBhdXRoU2VydmljZVB1YmxpY1BvcnQsCiAgICBmb3JtYXRBdXRoU2VydmljZUhvc3RXaXRoUHVibGljUG9ydCwKICAgIGZvcm1hdEhvc3RXaXRoQWNjZXNzRW50cnlQb3J0LAogICAgb21pdFB1YmxpY1BvcnRDb25maWd1cmF0aW9uLAogIH0gPSBjcmVhdGVIb3N0Rm9ybWF0dGVycygKICAgIHN1YmRvbWFpbk1vZGUsCiAgICB7CiAgICAgIHJ1bl90eXBlOiAxLAogICAgICByZXZlcnNlX3Byb3h5X3N1Ym1vZGU6ICJzdWJkb21haW4iLAogICAgICBkZWZhdWx0X3R1bm5lbDogImZycCIsCiAgICB9LAogICAgIjE1MTAxIiwKICApOwoKICBhc3NlcnQuZXF1YWwob21pdFB1YmxpY1BvcnRDb25maWd1cmF0aW9uLnZhbHVlLCB0cnVlKTsKICBhc3NlcnQuZXF1YWwoYXV0aFNlcnZpY2VQdWJsaWNQb3J0LnZhbHVlLCAxNTEwMSk7CiAgYXNzZXJ0LmVxdWFsKAogICAgZm9ybWF0SG9zdFdpdGhBY2Nlc3NFbnRyeVBvcnQoImFwcC5leGFtcGxlLmNvbSIpLAogICAgImFwcC5leGFtcGxlLmNvbToxNTEwMSIsCiAgKTsKICBhc3NlcnQuZXF1YWwoCiAgICBmb3JtYXRBdXRoU2VydmljZUhvc3RXaXRoUHVibGljUG9ydCgiYXV0aC5leGFtcGxlLmNvbSIpLAogICAgImF1dGguZXhhbXBsZS5jb206MTUxMDEiLAogICk7Cn0pOwoKdGVzdCgiZWRnZSBwcm92aWRlciBzdGF0ZSBpcyBoaWRkZW4gd2hlbiB0aGUgY3VycmVudCBydW4gbW9kZSBjYW5ub3QgdXNlIGl0IiwgKCkgPT4gewogIGNvbnN0IHN1YmRvbWFpbk1vZGUgPSB7CiAgICAuLi5jcmVhdGVEZWZhdWx0TW9kZUZvcm0oKSwKICAgIGVkZ2VfY2xpZW50X2lwX2VuYWJsZWQ6IHRydWUsCiAgICB0ZW5jZW50X2VkZ2VvbmVfZW5hYmxlZDogdHJ1ZSwKICB9OwogIGNvbnN0IHsgYWN0aXZlRWRnZUNsaWVudElwUHJvdmlkZXIsIHNhdmVkRWRnZUNsaWVudElwUHJvdmlkZXIgfSA9CiAgICBjcmVhdGVIb3N0Rm9ybWF0dGVycyhzdWJkb21haW5Nb2RlLCB7CiAgICAgIHJ1bl90eXBlOiAxLAogICAgICByZXZlcnNlX3Byb3h5X3N1Ym1vZGU6ICJzdWJkb21haW4iLAogICAgICBkZWZhdWx0X3R1bm5lbDogImNsb3VkZmxhcmVkIiwKICAgIH0pOwoKICBhc3NlcnQuZXF1YWwoYWN0aXZlRWRnZUNsaWVudElwUHJvdmlkZXIudmFsdWUsIG51bGwpOwogIGFzc2VydC5lcXVhbChzYXZlZEVkZ2VDbGllbnRJcFByb3ZpZGVyLnZhbHVlLCBudWxsKTsKfSk7Cgp0ZXN0KCJlZGdlIG5ldHdvcmsgY29udHJvbHMgYXJlIG5vdCByZW5kZXJlZCB3aGVuIHRoZSBtb2RlIGlzIHVuYXZhaWxhYmxlIiwgKCkgPT4gewogIGNvbnN0IGNvbXBvbmVudCA9IHJlYWRGaWxlU3luYygKICAgIG5ldyBVUkwoCiAgICAgICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L1N1YmRvbWFpbk1vZGVDb25maWdDYXJkLnZ1ZSIsCiAgICAgIGltcG9ydC5tZXRhLnVybCwKICAgICksCiAgICAidXRmOCIsCiAgKTsKCiAgYXNzZXJ0Lm1hdGNoKAogICAgY29tcG9uZW50LAogICAgL3YtaWY9ImlzRWRnZUNsaWVudElwTW9kZUVkaXRhYmxlIlxzK2NsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBweC00IHB5LTQiL3UsCiAgKTsKfSk7Cgp0ZXN0KCJwdWJsaWMgYXV0aCBwb3J0IGRlc2NyaXB0aW9uIGRpc3BsYXlzIGEgY29uY2lzZSBkZXN0cnVjdGl2ZSB3YXJuaW5nIiwgKCkgPT4gewogIGNvbnN0IGNvbXBvbmVudCA9IHJlYWRGaWxlU3luYygKICAgIG5ldyBVUkwoCiAgICAgICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L1N1YmRvbWFpbk1vZGVDb25maWdDYXJkLnZ1ZSIsCiAgICAgIGltcG9ydC5tZXRhLnVybCwKICAgICksCiAgICAidXRmOCIsCiAgKTsKCiAgYXNzZXJ0Lm1hdGNoKAogICAgY29tcG9uZW50LAogICAgL2F1dGhTZXJ2aWNlUG9ydEhpbnRbXHNcU10qaWQ9ImF1dGgtc2VydmljZS1wdWJsaWMtcG9ydC13YXJuaW5nIlxzK2NsYXNzPSJ0ZXh0LXhzIGZvbnQtbWVkaXVtIGxlYWRpbmctNSB0ZXh0LWRlc3RydWN0aXZlIltcc1xTXSo8XC9kaXY+XHMrPElucHV0L3UsCiAgKTsKICBhc3NlcnQubWF0Y2goCiAgICBjb21wb25lbnQsCiAgICAvdFwoImFkbWluXC5zdWJkb21haW5Qcm94eVwuYXV0aFNlcnZpY2VQb3J0V2FybmluZyJcKS91LAogICk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import test from "node:test";
+import { computed, ref } from "vue";
+import type { AppConfig, SubdomainModeConfig } from "../src/types";
+import { createDefaultModeForm } from "../src/views/subdomain-proxy/model";
+import { useSubdomainPortDisplay } from "../src/views/subdomain-proxy/useSubdomainPortDisplay";
+
+const createConfig = (
+  subdomainMode: SubdomainModeConfig,
+  overrides: Partial<AppConfig> = {},
+): AppConfig =>
+  ({
+    run_type: 3,
+    reverse_proxy_submode: "path",
+    default_tunnel: "frp",
+    subdomain_mode: subdomainMode,
+    ...overrides,
+  }) as AppConfig;
+
+const createHostFormatters = (
+  subdomainMode: SubdomainModeConfig,
+  overrides: Partial<AppConfig> = {},
+  accessEntryPort = "7999",
+) => {
+  const config = createConfig(subdomainMode, overrides);
+  return useSubdomainPortDisplay({
+    accessEntryPort: ref(accessEntryPort),
+    currentModeConfig: computed(() => config.subdomain_mode),
+    getConfig: () => config,
+    modeForm: { ...subdomainMode },
+  });
+};
+
+test("edge ingress omits a stale configured gateway port from mapping hosts", () => {
+  const subdomainMode = {
+    ...createDefaultModeForm(),
+    edge_client_ip_enabled: true,
+    tencent_edgeone_enabled: true,
+    public_https_port: 7999,
+  };
+
+  const { formatHostWithAccessEntryPort } = createHostFormatters(subdomainMode);
+
+  assert.equal(
+    formatHostWithAccessEntryPort("app.example.com"),
+    "app.example.com",
+  );
+});
+
+test("edge ingress omits a stale configured gateway port from the current auth service", () => {
+  const subdomainMode = {
+    ...createDefaultModeForm(),
+    edge_client_ip_enabled: true,
+    tencent_edgeone_enabled: true,
+    public_https_port: 7999,
+  };
+  const { formatAuthServiceHostWithPublicPort } =
+    createHostFormatters(subdomainMode);
+
+  assert.equal(
+    formatAuthServiceHostWithPublicPort("auth.example.com"),
+    "auth.example.com",
+  );
+});
+
+test("non-edge ingress keeps an explicitly configured public port", () => {
+  const subdomainMode = {
+    ...createDefaultModeForm(),
+    public_https_port: 8443,
+  };
+  const { formatAuthServiceHostWithPublicPort, formatHostWithAccessEntryPort } =
+    createHostFormatters(subdomainMode);
+
+  assert.equal(
+    formatHostWithAccessEntryPort("app.example.com"),
+    "app.example.com:8443",
+  );
+  assert.equal(
+    formatAuthServiceHostWithPublicPort("auth.example.com"),
+    "auth.example.com:8443",
+  );
+});
+
+test("cloudflared omits a stale explicitly configured public port", () => {
+  const subdomainMode = {
+    ...createDefaultModeForm(),
+    public_auth_base_url: "https://auth.example.com:9443",
+    public_https_port: 8443,
+  };
+  const {
+    formatAuthServiceHostWithPublicPort,
+    formatHostWithAccessEntryPort,
+    omitPublicPortConfiguration,
+  } = createHostFormatters(subdomainMode, {
+    run_type: 1,
+    reverse_proxy_submode: "subdomain",
+    default_tunnel: "cloudflared",
+  });
+
+  assert.equal(omitPublicPortConfiguration.value, true);
+  assert.equal(
+    formatHostWithAccessEntryPort("app.example.com"),
+    "app.example.com",
+  );
+  assert.equal(
+    formatAuthServiceHostWithPublicPort("auth.example.com"),
+    "auth.example.com",
+  );
+});
+
+test("FRP reverse subdomain mode uses the access entry instead of public_https_port", () => {
+  const subdomainMode = {
+    ...createDefaultModeForm(),
+    public_https_port: 7999,
+  };
+  const {
+    authServicePublicPort,
+    formatAuthServiceHostWithPublicPort,
+    formatHostWithAccessEntryPort,
+    omitPublicPortConfiguration,
+  } = createHostFormatters(
+    subdomainMode,
+    {
+      run_type: 1,
+      reverse_proxy_submode: "subdomain",
+      default_tunnel: "frp",
+    },
+    "15101",
+  );
+
+  assert.equal(omitPublicPortConfiguration.value, true);
+  assert.equal(authServicePublicPort.value, 15101);
+  assert.equal(
+    formatHostWithAccessEntryPort("app.example.com"),
+    "app.example.com:15101",
+  );
+  assert.equal(
+    formatAuthServiceHostWithPublicPort("auth.example.com"),
+    "auth.example.com:15101",
+  );
+});
+
+test("edge provider state is hidden when the current run mode cannot use it", () => {
+  const subdomainMode = {
+    ...createDefaultModeForm(),
+    edge_client_ip_enabled: true,
+    tencent_edgeone_enabled: true,
+  };
+  const { activeEdgeClientIpProvider, savedEdgeClientIpProvider } =
+    createHostFormatters(subdomainMode, {
+      run_type: 1,
+      reverse_proxy_submode: "subdomain",
+      default_tunnel: "cloudflared",
+    });
+
+  assert.equal(activeEdgeClientIpProvider.value, null);
+  assert.equal(savedEdgeClientIpProvider.value, null);
+});
+
+test("edge network controls are not rendered when the mode is unavailable", () => {
+  const component = readFileSync(
+    new URL(
+      "../src/views/subdomain-proxy/SubdomainModeConfigCard.vue",
+      import.meta.url,
+    ),
+    "utf8",
+  );
+
+  assert.match(
+    component,
+    /v-if="isEdgeClientIpModeEditable"\s+class="rounded-lg border px-4 py-4"/u,
+  );
+});
+
+test("public auth port description displays a concise destructive warning", () => {
+  const component = readFileSync(
+    new URL(
+      "../src/views/subdomain-proxy/SubdomainModeConfigCard.vue",
+      import.meta.url,
+    ),
+    "utf8",
+  );
+
+  assert.match(
+    component,
+    /authServicePortHint[\s\S]*id="auth-service-public-port-warning"\s+class="text-xs font-medium leading-5 text-destructive"[\s\S]*<\/div>\s+<Input/u,
+  );
+  assert.match(
+    component,
+    /t\("admin\.subdomainProxy\.authServicePortWarning"\)/u,
+  );
+});

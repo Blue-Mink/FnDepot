@@ -1,1 +1,29 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgU2VwYXJhdG9yUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyByZWFjdGl2ZU9taXQgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7IFNlcGFyYXRvciB9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cyhkZWZpbmVQcm9wczwKICBTZXBhcmF0b3JQcm9wcyAmIHsgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXSB9Cj4oKSwgewogIG9yaWVudGF0aW9uOiAiaG9yaXpvbnRhbCIsCiAgZGVjb3JhdGl2ZTogdHJ1ZSwKfSkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8U2VwYXJhdG9yCiAgICBkYXRhLXNsb3Q9InNlcGFyYXRvciIKICAgIHYtYmluZD0iZGVsZWdhdGVkUHJvcHMiCiAgICA6Y2xhc3M9IgogICAgICBjbigKICAgICAgICAnYmctYm9yZGVyIHNocmluay0wIGRhdGEtW29yaWVudGF0aW9uPWhvcml6b250YWxdOmgtcHggZGF0YS1bb3JpZW50YXRpb249aG9yaXpvbnRhbF06dy1mdWxsIGRhdGEtW29yaWVudGF0aW9uPXZlcnRpY2FsXTpoLWZ1bGwgZGF0YS1bb3JpZW50YXRpb249dmVydGljYWxdOnctcHgnLAogICAgICAgIHByb3BzLmNsYXNzLAogICAgICApCiAgICAiCiAgLz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { SeparatorProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { Separator } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = withDefaults(defineProps<
+  SeparatorProps & { class?: HTMLAttributes["class"] }
+>(), {
+  orientation: "horizontal",
+  decorative: true,
+})
+
+const delegatedProps = reactiveOmit(props, "class")
+</script>
+
+<template>
+  <Separator
+    data-slot="separator"
+    v-bind="delegatedProps"
+    :class="
+      cn(
+        'bg-border shrink-0 data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-px',
+        props.class,
+      )
+    "
+  />
+</template>

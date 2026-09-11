@@ -1,1 +1,157 @@
-dXNlIHNlcmRlOjpTZXJpYWxpemU7CnVzZSB1dG9pcGE6OlRvU2NoZW1hOwoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IERlZXBNb25pdG9yU3RhcnRCb2R5RGF0YSB7CiAgICBob3N0OiBTdHJpbmcsCiAgICAjW3NjaGVtYShudWxsYWJsZSA9IGZhbHNlKV0KICAgIGR1cmF0aW9uX3NlY29uZHM6IE9wdGlvbjxpMzI+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGVlcE1vbml0b3JFeHRlbmRCb2R5RGF0YSB7CiAgICBkdXJhdGlvbl9zZWNvbmRzOiBpMzIsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZWVwTW9uaXRvclNlc3Npb25EYXRhIHsKICAgIGlkOiBTdHJpbmcsCiAgICBob3N0OiBTdHJpbmcsCiAgICBzdGF0ZTogU3RyaW5nLAogICAgc3RhcnRlZF9hdDogU3RyaW5nLAogICAgZGVhZGxpbmVfYXQ6IFN0cmluZywKICAgIHN0b3BwZWRfYXQ6IFN0cmluZywKICAgIHN0b3BfcmVhc29uOiBTdHJpbmcsCiAgICBieXRlc19zdG9yZWQ6IHU2NCwKICAgIGV2ZW50X2NvdW50OiB1NjQsCiAgICBkcm9wcGVkX2V2ZW50czogdTY0LAogICAgcXVvdGFfYnl0ZXM6IHU2NCwKICAgIHBheWxvYWRfbGltaXRfYnl0ZXM6IHU2NCwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IERlZXBNb25pdG9yU2Vzc2lvbkxpc3REYXRhIHsKICAgIGl0ZW1zOiBWZWM8RGVlcE1vbml0b3JTZXNzaW9uRGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZWVwTW9uaXRvckV2ZW50U3VtbWFyeURhdGEgewogICAgaWQ6IFN0cmluZywKICAgIHNlc3Npb25faWQ6IFN0cmluZywKICAgIHNlcXVlbmNlOiB1NjQsCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJ0eXBlIildCiAgICBldmVudF90eXBlOiBTdHJpbmcsCiAgICB0aW1lOiBTdHJpbmcsCiAgICBleGNoYW5nZV9pZDogU3RyaW5nLAogICAgY29ubmVjdGlvbl9pZDogU3RyaW5nLAogICAgaG9zdDogU3RyaW5nLAogICAgbWV0aG9kOiBTdHJpbmcsCiAgICBwYXRoOiBTdHJpbmcsCiAgICBzdGF0dXM6IGkzMiwKICAgIGNsaWVudF9pcDogU3RyaW5nLAogICAgaWRlbnRpdHk6IFN0cmluZywKICAgIGRpcmVjdGlvbjogU3RyaW5nLAogICAgcGF5bG9hZF9ieXRlczogdTY0LAogICAgdHJ1bmNhdGVkOiBib29sLAogICAgbm90aWNlOiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZWVwTW9uaXRvckV2ZW50TGlzdERhdGEgewogICAgaXRlbXM6IFZlYzxEZWVwTW9uaXRvckV2ZW50U3VtbWFyeURhdGE+LAogICAgbmV4dF9jdXJzb3I6IFN0cmluZywKICAgIGhhc19tb3JlOiBib29sLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGVlcE1vbml0b3JQYXlsb2FkUmVmRGF0YSB7CiAgICBwYXJ0OiBTdHJpbmcsCiAgICBvYnNlcnZlZF9ieXRlczogdTY0LAogICAgY2FwdHVyZWRfYnl0ZXM6IHU2NCwKICAgIHRydW5jYXRlZDogYm9vbCwKICAgIHNoYTI1NjogU3RyaW5nLAogICAgY29udGVudF90eXBlOiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZWVwTW9uaXRvckhlYWRlckRhdGEgewogICAgbmFtZTogU3RyaW5nLAogICAgdmFsdWVzOiBWZWM8U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IERlZXBNb25pdG9yVGltaW5nRGF0YSB7CiAgICB0b3RhbF9tczogaTY0LAogICAgZG5zX21zOiBpNjQsCiAgICBjb25uZWN0X21zOiBpNjQsCiAgICB0bHNfbXM6IGk2NCwKICAgIHJlcXVlc3Rfd3JpdGVfbXM6IGk2NCwKICAgIHR0ZmJfbXM6IGk2NCwKICAgIHVwc3RyZWFtX3JlYWRfbXM6IGk2NCwKICAgIGF1dGhfbXM6IGk2NCwKICAgIHdhZl9tczogaTY0LAogICAgcm91dGVfbXM6IGk2NCwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IERlZXBNb25pdG9yV2ViU29ja2V0RnJhbWVEYXRhIHsKICAgIGRpcmVjdGlvbjogU3RyaW5nLAogICAgZmluOiBib29sLAogICAgcnN2MTogYm9vbCwKICAgIHJzdjI6IGJvb2wsCiAgICByc3YzOiBib29sLAogICAgb3Bjb2RlOiB1MzIsCiAgICBtYXNrZWQ6IGJvb2wsCiAgICBtYXNrX2tleTogU3RyaW5nLAogICAgcGF5bG9hZF9sZW5ndGg6IHU2NCwKICAgIGNsb3NlX2NvZGU6IGkzMiwKICAgIGNsb3NlX3JlYXNvbjogU3RyaW5nLAogICAgY29tcHJlc3NlZDogYm9vbCwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IERlZXBNb25pdG9yRXZlbnREYXRhIHsKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBzdW1tYXJ5OiBPcHRpb248RGVlcE1vbml0b3JFdmVudFN1bW1hcnlEYXRhPiwKICAgIHNjaGVtZTogU3RyaW5nLAogICAgcHJvdG9jb2w6IFN0cmluZywKICAgIHJlcXVlc3RfdXJpOiBTdHJpbmcsCiAgICB1cHN0cmVhbTogU3RyaW5nLAogICAgdXNlcl9hZ2VudDogU3RyaW5nLAogICAgcmVmZXJlcjogU3RyaW5nLAogICAgcmVtb3RlX2FkZHI6IFN0cmluZywKICAgIGF1dGhfY3JlZGVudGlhbF9pZDogU3RyaW5nLAogICAgYXV0aF9jcmVkZW50aWFsX25hbWU6IFN0cmluZywKICAgIGF1dGhfY3JlZGVudGlhbF9tZXRob2Q6IFN0cmluZywKICAgIGF1dGhfbGlua2VkX3RvdHBfaWQ6IFN0cmluZywKICAgIGF1dGhfbGlua2VkX3RvdHBfbmFtZTogU3RyaW5nLAogICAgYXV0aF9kZWNpc2lvbjogU3RyaW5nLAogICAgcm91dGVfdHlwZTogU3RyaW5nLAogICAgYXV0aF9ydWxlX2dyb3VwX2lkOiBTdHJpbmcsCiAgICBhdXRoX2dyYW50X3N0YXRlOiBTdHJpbmcsCiAgICByb3V0ZV9rZXk6IFN0cmluZywKICAgIHRsc192ZXJzaW9uOiBTdHJpbmcsCiAgICB0bHNfY2lwaGVyOiBTdHJpbmcsCiAgICB0bHNfc2VydmVyX25hbWU6IFN0cmluZywKICAgIHRsc19hbHBuOiBTdHJpbmcsCiAgICBjbGllbnRfcmVxdWVzdF9oZWFkZXJzOiBWZWM8RGVlcE1vbml0b3JIZWFkZXJEYXRhPiwKICAgIHVwc3RyZWFtX3JlcXVlc3RfaGVhZGVyczogVmVjPERlZXBNb25pdG9ySGVhZGVyRGF0YT4sCiAgICB1cHN0cmVhbV9yZXNwb25zZV9oZWFkZXJzOiBWZWM8RGVlcE1vbml0b3JIZWFkZXJEYXRhPiwKICAgIGNsaWVudF9yZXNwb25zZV9oZWFkZXJzOiBWZWM8RGVlcE1vbml0b3JIZWFkZXJEYXRhPiwKICAgIHBheWxvYWRzOiBWZWM8RGVlcE1vbml0b3JQYXlsb2FkUmVmRGF0YT4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgdGltaW5nOiBPcHRpb248RGVlcE1vbml0b3JUaW1pbmdEYXRhPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICB3ZWJzb2NrZXRfZnJhbWU6IE9wdGlvbjxEZWVwTW9uaXRvcldlYlNvY2tldEZyYW1lRGF0YT4sCiAgICB3ZWJzb2NrZXRfc3VicHJvdG9jb2w6IFN0cmluZywKICAgIHdlYnNvY2tldF9leHRlbnNpb25zOiBTdHJpbmcsCiAgICBlcnJvcjogU3RyaW5nLAogICAgd2FmX3RyYWNlX2lkOiBTdHJpbmcsCiAgICB3YWZfbW9kZTogU3RyaW5nLAogICAgd2FmX3J1bGVfaWRzOiBWZWM8aTMyPiwKICAgIHdhZl9hY3Rpb246IFN0cmluZywKICAgIHdhZl9idW5kbGU6IFN0cmluZywKICAgIHdhZl9ibG9ja2VkOiBib29sLAogICAgZ2VuZXJhbF9ibGFja2xpc3RfYmxvY2tlZDogYm9vbCwKICAgIGNsaWVudF9pcF9zb3VyY2U6IFN0cmluZywKfQo=
+use serde::Serialize;
+use utoipa::ToSchema;
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DeepMonitorStartBodyData {
+    host: String,
+    #[schema(nullable = false)]
+    duration_seconds: Option<i32>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DeepMonitorExtendBodyData {
+    duration_seconds: i32,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DeepMonitorSessionData {
+    id: String,
+    host: String,
+    state: String,
+    started_at: String,
+    deadline_at: String,
+    stopped_at: String,
+    stop_reason: String,
+    bytes_stored: u64,
+    event_count: u64,
+    dropped_events: u64,
+    quota_bytes: u64,
+    payload_limit_bytes: u64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DeepMonitorSessionListData {
+    items: Vec<DeepMonitorSessionData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DeepMonitorEventSummaryData {
+    id: String,
+    session_id: String,
+    sequence: u64,
+    #[serde(rename = "type")]
+    event_type: String,
+    time: String,
+    exchange_id: String,
+    connection_id: String,
+    host: String,
+    method: String,
+    path: String,
+    status: i32,
+    client_ip: String,
+    identity: String,
+    direction: String,
+    payload_bytes: u64,
+    truncated: bool,
+    notice: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DeepMonitorEventListData {
+    items: Vec<DeepMonitorEventSummaryData>,
+    next_cursor: String,
+    has_more: bool,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DeepMonitorPayloadRefData {
+    part: String,
+    observed_bytes: u64,
+    captured_bytes: u64,
+    truncated: bool,
+    sha256: String,
+    content_type: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DeepMonitorHeaderData {
+    name: String,
+    values: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DeepMonitorTimingData {
+    total_ms: i64,
+    dns_ms: i64,
+    connect_ms: i64,
+    tls_ms: i64,
+    request_write_ms: i64,
+    ttfb_ms: i64,
+    upstream_read_ms: i64,
+    auth_ms: i64,
+    waf_ms: i64,
+    route_ms: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DeepMonitorWebSocketFrameData {
+    direction: String,
+    fin: bool,
+    rsv1: bool,
+    rsv2: bool,
+    rsv3: bool,
+    opcode: u32,
+    masked: bool,
+    mask_key: String,
+    payload_length: u64,
+    close_code: i32,
+    close_reason: String,
+    compressed: bool,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DeepMonitorEventData {
+    #[schema(required = true)]
+    summary: Option<DeepMonitorEventSummaryData>,
+    scheme: String,
+    protocol: String,
+    request_uri: String,
+    upstream: String,
+    user_agent: String,
+    referer: String,
+    remote_addr: String,
+    auth_credential_id: String,
+    auth_credential_name: String,
+    auth_credential_method: String,
+    auth_linked_totp_id: String,
+    auth_linked_totp_name: String,
+    auth_decision: String,
+    route_type: String,
+    auth_rule_group_id: String,
+    auth_grant_state: String,
+    route_key: String,
+    tls_version: String,
+    tls_cipher: String,
+    tls_server_name: String,
+    tls_alpn: String,
+    client_request_headers: Vec<DeepMonitorHeaderData>,
+    upstream_request_headers: Vec<DeepMonitorHeaderData>,
+    upstream_response_headers: Vec<DeepMonitorHeaderData>,
+    client_response_headers: Vec<DeepMonitorHeaderData>,
+    payloads: Vec<DeepMonitorPayloadRefData>,
+    #[schema(required = true)]
+    timing: Option<DeepMonitorTimingData>,
+    #[schema(required = true)]
+    websocket_frame: Option<DeepMonitorWebSocketFrameData>,
+    websocket_subprotocol: String,
+    websocket_extensions: String,
+    error: String,
+    waf_trace_id: String,
+    waf_mode: String,
+    waf_rule_ids: Vec<i32>,
+    waf_action: String,
+    waf_bundle: String,
+    waf_blocked: bool,
+    general_blacklist_blocked: bool,
+    client_ip_source: String,
+}

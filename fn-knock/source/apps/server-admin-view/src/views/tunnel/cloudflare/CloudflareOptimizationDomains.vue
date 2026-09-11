@@ -1,1 +1,140 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCBDb25maXJtYXRpb25EaWFsb2cgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtYXRpb25EaWFsb2cudnVlIjsKaW1wb3J0IHsgdXNlQ29uZmlybWF0aW9uRGlhbG9nIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VDb25maXJtYXRpb25EaWFsb2ciOwppbXBvcnQgdHlwZSB7IENsb3VkZmxhcmVPcHRpbWl6YXRpb25Eb21haW4gfSBmcm9tICJAL2xpYi9hcGkvdHVubmVsIjsKaW1wb3J0IHsKICBvcHRpbWl6YXRpb25Eb21haW5NZXNzYWdlTGFiZWwsCiAgb3B0aW1pemF0aW9uRG9tYWluU3RhdHVzTGFiZWwsCn0gZnJvbSAiLi9jbG91ZGZsYXJlT3B0aW1pemF0aW9uUHJlc2VudGF0aW9uIjsKaW1wb3J0IHR5cGUgeyBDbG91ZGZsYXJlVHVubmVsQ29udHJvbGxlciB9IGZyb20gIi4vdXNlQ2xvdWRmbGFyZVR1bm5lbENvbnRyb2xsZXIiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7IGNvbnRyb2xsZXI6IENsb3VkZmxhcmVUdW5uZWxDb250cm9sbGVyIH0+KCk7CmNvbnN0IHsKICBvcHRpbWl6YXRpb24sCiAgcHJlcGFyZU9wdGltaXphdGlvbkNvbmZsaWN0UmVzb2x1dGlvbiwKICBzZXRPcHRpbWl6YXRpb25Eb21haW5Nb2RlLAogIHQsCiAgdXBkYXRpbmdPcHRpbWl6YXRpb25Eb21haW5Ib3N0bmFtZSwKfSA9IHByb3BzLmNvbnRyb2xsZXI7CmNvbnN0IHsKICBjb25maXJtYXRpb25EaWFsb2dPcGVuLAogIGNvbmZpcm1hdGlvbkRpYWxvZ09wdGlvbnMsCiAgY29uZmlybVBlbmRpbmdBY3Rpb24sCiAgaGFuZGxlQ29uZmlybWF0aW9uRGlhbG9nT3BlbkNoYW5nZSwKICByZXF1ZXN0Q29uZmlybWF0aW9uLAp9ID0gdXNlQ29uZmlybWF0aW9uRGlhbG9nKCk7Cgpjb25zdCBkb21haW5TdGF0dXNMYWJlbCA9IChzdGF0dXM6IHN0cmluZykgPT4KICBvcHRpbWl6YXRpb25Eb21haW5TdGF0dXNMYWJlbChzdGF0dXMsIHQpOwpjb25zdCBkb21haW5NZXNzYWdlTGFiZWwgPSAoZG9tYWluOiBDbG91ZGZsYXJlT3B0aW1pemF0aW9uRG9tYWluKSA9PgogIG9wdGltaXphdGlvbkRvbWFpbk1lc3NhZ2VMYWJlbChkb21haW4sIHQpOwpjb25zdCBwcmVzZXJ2ZUV4aXN0aW5nRG5zID0gYXN5bmMgKGRvbWFpbjogQ2xvdWRmbGFyZU9wdGltaXphdGlvbkRvbWFpbikgPT4gewogIGNvbnN0IGNvbmZpcm1lZCA9IGF3YWl0IHJlcXVlc3RDb25maXJtYXRpb24oewogICAgdGl0bGU6IHQoCiAgICAgICJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5kb21haW5BY3Rpb25zLmtlZXBFeHRlcm5hbFRpdGxlIiwKICAgICksCiAgICBkZXNjcmlwdGlvbjogdCgKICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLmRvbWFpbkFjdGlvbnMua2VlcEV4dGVybmFsRGVzY3JpcHRpb24iLAogICAgICB7IGhvc3RuYW1lOiBkb21haW4uaG9zdG5hbWUgfSwKICAgICksCiAgICBjb25maXJtVGV4dDogdCgKICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLmRvbWFpbkFjdGlvbnMua2VlcEV4dGVybmFsQ29uZmlybSIsCiAgICApLAogIH0pOwogIGlmIChjb25maXJtZWQpIHsKICAgIGF3YWl0IHNldE9wdGltaXphdGlvbkRvbWFpbk1vZGUoZG9tYWluLmhvc3RuYW1lLCAiZXh0ZXJuYWwiKTsKICB9Cn07CmNvbnN0IHJldHJ5RG9tYWluT3B0aW1pemF0aW9uID0gKGRvbWFpbjogQ2xvdWRmbGFyZU9wdGltaXphdGlvbkRvbWFpbikgPT4KICBzZXRPcHRpbWl6YXRpb25Eb21haW5Nb2RlKGRvbWFpbi5ob3N0bmFtZSwgIm9wdGltaXplIik7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkZXRhaWxzCiAgICB2LWlmPSJvcHRpbWl6YXRpb24/LmRvbWFpbnMubGVuZ3RoIgogICAgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIGJnLW11dGVkLzIwIgogID4KICAgIDxzdW1tYXJ5IGNsYXNzPSJjdXJzb3ItcG9pbnRlciBsaXN0LW5vbmUgcHgtNCBweS0zIHRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICB7eyB0KCJhZG1pbi5jbG91ZGZsYXJlVHVubmVsLm9wdGltaXphdGlvbi5kb21haW5TdGF0dXMiKSB9fQogICAgPC9zdW1tYXJ5PgogICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMiBib3JkZXItdCBwLTQgc206Z3JpZC1jb2xzLTIiPgogICAgICA8ZGl2CiAgICAgICAgdi1mb3I9ImRvbWFpbiBpbiBvcHRpbWl6YXRpb24uZG9tYWlucyIKICAgICAgICA6a2V5PSJkb21haW4uaG9zdG5hbWUiCiAgICAgICAgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC0zIHJvdW5kZWQtbWQgYm9yZGVyIHB4LTMgcHktMiIKICAgICAgPgogICAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAiPgogICAgICAgICAgPGRpdiBjbGFzcz0idHJ1bmNhdGUgZm9udC1tb25vIHRleHQtc20iPnt7IGRvbWFpbi5ob3N0bmFtZSB9fTwvZGl2PgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSJkb21haW4uY2xlYW51cFBlbmRpbmciCiAgICAgICAgICAgIGNsYXNzPSJtdC0xIHRleHQteHMgdGV4dC1hbWJlci03MDAgZGFyazp0ZXh0LWFtYmVyLTMwMCIKICAgICAgICAgID4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICB0KAogICAgICAgICAgICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLmRvbWFpbkFjdGlvbnMuZXh0ZXJuYWxDbGVhbnVwUGVuZGluZyIsCiAgICAgICAgICAgICAgKQogICAgICAgICAgICB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IHYtZWxzZS1pZj0iZG9tYWluLm1lc3NhZ2UiIGNsYXNzPSJtdC0xIHRleHQteHMgdGV4dC1kZXN0cnVjdGl2ZSI+CiAgICAgICAgICAgIHt7IGRvbWFpbk1lc3NhZ2VMYWJlbChkb21haW4pIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IHNocmluay0wIGZsZXgtY29sIGl0ZW1zLWVuZCBnYXAtMiI+CiAgICAgICAgICA8QmFkZ2UgOnZhcmlhbnQ9ImRvbWFpbi5vcHRpbWl6ZWQgPyAnZGVmYXVsdCcgOiAnc2Vjb25kYXJ5JyI+CiAgICAgICAgICAgIHt7IGRvbWFpblN0YXR1c0xhYmVsKGRvbWFpbi5zdGF0dXMpIH19CiAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSJkb21haW4uYWN0aW9uUmVxdWlyZWQiCiAgICAgICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBqdXN0aWZ5LWVuZCBnYXAtMS41IgogICAgICAgICAgPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9IkJvb2xlYW4odXBkYXRpbmdPcHRpbWl6YXRpb25Eb21haW5Ib3N0bmFtZSkiCiAgICAgICAgICAgICAgQGNsaWNrPSJwcmVzZXJ2ZUV4aXN0aW5nRG5zKGRvbWFpbikiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgdCgKICAgICAgICAgICAgICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLmRvbWFpbkFjdGlvbnMua2VlcEV4dGVybmFsIiwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iQm9vbGVhbih1cGRhdGluZ09wdGltaXphdGlvbkRvbWFpbkhvc3RuYW1lKSIKICAgICAgICAgICAgICBAY2xpY2s9InByZXBhcmVPcHRpbWl6YXRpb25Db25mbGljdFJlc29sdXRpb24iCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgdCgKICAgICAgICAgICAgICAgICAgImFkbWluLmNsb3VkZmxhcmVUdW5uZWwub3B0aW1pemF0aW9uLmRvbWFpbkFjdGlvbnMucmVzb2x2ZUNvbmZsaWN0IiwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB2LWVsc2UtaWY9ImRvbWFpbi5tYW5hZ2VtZW50TW9kZSA9PT0gJ2V4dGVybmFsJyIKICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgIDpkaXNhYmxlZD0iQm9vbGVhbih1cGRhdGluZ09wdGltaXphdGlvbkRvbWFpbkhvc3RuYW1lKSIKICAgICAgICAgICAgQGNsaWNrPSJyZXRyeURvbWFpbk9wdGltaXphdGlvbihkb21haW4pIgogICAgICAgICAgPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIHQoCiAgICAgICAgICAgICAgICAiYWRtaW4uY2xvdWRmbGFyZVR1bm5lbC5vcHRpbWl6YXRpb24uZG9tYWluQWN0aW9ucy5lbmFibGVPcHRpbWl6YXRpb24iLAogICAgICAgICAgICAgICkKICAgICAgICAgICAgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvZGV0YWlscz4KCiAgPENvbmZpcm1hdGlvbkRpYWxvZwogICAgOm9wZW49ImNvbmZpcm1hdGlvbkRpYWxvZ09wZW4iCiAgICB2LWJpbmQ9ImNvbmZpcm1hdGlvbkRpYWxvZ09wdGlvbnMiCiAgICBAdXBkYXRlOm9wZW49ImhhbmRsZUNvbmZpcm1hdGlvbkRpYWxvZ09wZW5DaGFuZ2UiCiAgICBAY29uZmlybT0iY29uZmlybVBlbmRpbmdBY3Rpb24iCiAgLz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import ConfirmationDialog from "@admin-shared/components/common/ConfirmationDialog.vue";
+import { useConfirmationDialog } from "@admin-shared/composables/useConfirmationDialog";
+import type { CloudflareOptimizationDomain } from "@/lib/api/tunnel";
+import {
+  optimizationDomainMessageLabel,
+  optimizationDomainStatusLabel,
+} from "./cloudflareOptimizationPresentation";
+import type { CloudflareTunnelController } from "./useCloudflareTunnelController";
+
+const props = defineProps<{ controller: CloudflareTunnelController }>();
+const {
+  optimization,
+  prepareOptimizationConflictResolution,
+  setOptimizationDomainMode,
+  t,
+  updatingOptimizationDomainHostname,
+} = props.controller;
+const {
+  confirmationDialogOpen,
+  confirmationDialogOptions,
+  confirmPendingAction,
+  handleConfirmationDialogOpenChange,
+  requestConfirmation,
+} = useConfirmationDialog();
+
+const domainStatusLabel = (status: string) =>
+  optimizationDomainStatusLabel(status, t);
+const domainMessageLabel = (domain: CloudflareOptimizationDomain) =>
+  optimizationDomainMessageLabel(domain, t);
+const preserveExistingDns = async (domain: CloudflareOptimizationDomain) => {
+  const confirmed = await requestConfirmation({
+    title: t(
+      "admin.cloudflareTunnel.optimization.domainActions.keepExternalTitle",
+    ),
+    description: t(
+      "admin.cloudflareTunnel.optimization.domainActions.keepExternalDescription",
+      { hostname: domain.hostname },
+    ),
+    confirmText: t(
+      "admin.cloudflareTunnel.optimization.domainActions.keepExternalConfirm",
+    ),
+  });
+  if (confirmed) {
+    await setOptimizationDomainMode(domain.hostname, "external");
+  }
+};
+const retryDomainOptimization = (domain: CloudflareOptimizationDomain) =>
+  setOptimizationDomainMode(domain.hostname, "optimize");
+</script>
+
+<template>
+  <details
+    v-if="optimization?.domains.length"
+    class="rounded-lg border bg-muted/20"
+  >
+    <summary class="cursor-pointer list-none px-4 py-3 text-sm font-medium">
+      {{ t("admin.cloudflareTunnel.optimization.domainStatus") }}
+    </summary>
+    <div class="grid gap-2 border-t p-4 sm:grid-cols-2">
+      <div
+        v-for="domain in optimization.domains"
+        :key="domain.hostname"
+        class="flex items-start justify-between gap-3 rounded-md border px-3 py-2"
+      >
+        <div class="min-w-0">
+          <div class="truncate font-mono text-sm">{{ domain.hostname }}</div>
+          <div
+            v-if="domain.cleanupPending"
+            class="mt-1 text-xs text-amber-700 dark:text-amber-300"
+          >
+            {{
+              t(
+                "admin.cloudflareTunnel.optimization.domainActions.externalCleanupPending",
+              )
+            }}
+          </div>
+          <div v-else-if="domain.message" class="mt-1 text-xs text-destructive">
+            {{ domainMessageLabel(domain) }}
+          </div>
+        </div>
+        <div class="flex shrink-0 flex-col items-end gap-2">
+          <Badge :variant="domain.optimized ? 'default' : 'secondary'">
+            {{ domainStatusLabel(domain.status) }}
+          </Badge>
+          <div
+            v-if="domain.actionRequired"
+            class="flex flex-wrap justify-end gap-1.5"
+          >
+            <Button
+              size="sm"
+              variant="outline"
+              :disabled="Boolean(updatingOptimizationDomainHostname)"
+              @click="preserveExistingDns(domain)"
+            >
+              {{
+                t(
+                  "admin.cloudflareTunnel.optimization.domainActions.keepExternal",
+                )
+              }}
+            </Button>
+            <Button
+              size="sm"
+              :disabled="Boolean(updatingOptimizationDomainHostname)"
+              @click="prepareOptimizationConflictResolution"
+            >
+              {{
+                t(
+                  "admin.cloudflareTunnel.optimization.domainActions.resolveConflict",
+                )
+              }}
+            </Button>
+          </div>
+          <Button
+            v-else-if="domain.managementMode === 'external'"
+            size="sm"
+            variant="outline"
+            :disabled="Boolean(updatingOptimizationDomainHostname)"
+            @click="retryDomainOptimization(domain)"
+          >
+            {{
+              t(
+                "admin.cloudflareTunnel.optimization.domainActions.enableOptimization",
+              )
+            }}
+          </Button>
+        </div>
+      </div>
+    </div>
+  </details>
+
+  <ConfirmationDialog
+    :open="confirmationDialogOpen"
+    v-bind="confirmationDialogOptions"
+    @update:open="handleConfirmationDialogOpenChange"
+    @confirm="confirmPendingAction"
+  />
+</template>

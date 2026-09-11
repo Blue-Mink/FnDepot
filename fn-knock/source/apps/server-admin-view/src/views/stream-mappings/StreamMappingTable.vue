@@ -1,1 +1,219 @@
-PHRlbXBsYXRlPgogIDxkaXYKICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0yIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgPgogICAgPFNlYXJjaElucHV0CiAgICAgIHYtbW9kZWw9InNlYXJjaFF1ZXJ5IgogICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLnN0cmVhbU1hcHBpbmdzLnNlYXJjaFBsYWNlaG9sZGVyJykiCiAgICAgIGNsYXNzPSJtYXgtdy14cyIKICAgIC8+CiAgPC9kaXY+CiAgPGRpdiBjbGFzcz0ib3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbWQgYm9yZGVyIj4KICAgIDxUYWJsZSBjbGFzcz0ibWluLXctWzcwcmVtXSB0YWJsZS1maXhlZCI+CiAgICAgIDxjb2xncm91cD4KICAgICAgICA8Y29sIGNsYXNzPSJ3LVs4JV0iIC8+CiAgICAgICAgPGNvbCBjbGFzcz0idy1bMTAlXSIgLz4KICAgICAgICA8Y29sIGNsYXNzPSJ3LVsxNCVdIiAvPgogICAgICAgIDxjb2wgY2xhc3M9InctWzE2JV0iIC8+CiAgICAgICAgPGNvbCBjbGFzcz0idy1bMTglXSIgLz4KICAgICAgICA8Y29sIGNsYXNzPSJ3LVsxMCVdIiAvPgogICAgICAgIDxjb2wgY2xhc3M9InctWzEyJV0iIC8+CiAgICAgICAgPGNvbCBjbGFzcz0idy1bMTIlXSIgLz4KICAgICAgPC9jb2xncm91cD4KICAgICAgPFRhYmxlSGVhZGVyPgogICAgICAgIDxUYWJsZVJvdz4KICAgICAgICAgIDxUYWJsZUhlYWQ+e3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MucHJvdG9jb2wiKSB9fTwvVGFibGVIZWFkPgogICAgICAgICAgPFRhYmxlSGVhZD57eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5saXN0ZW5Qb3J0IikgfX08L1RhYmxlSGVhZD4KICAgICAgICAgIDxUYWJsZUhlYWQ+e3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuY29tbWVudCIpIH19PC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkPnt7IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnRhcmdldCIpIH19PC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkPnt7IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnNlcnZpY2VQcm9maWxlIikgfX08L1RhYmxlSGVhZD4KICAgICAgICAgIDxUYWJsZUhlYWQ+e3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MudHJhZmZpYyIpIH19PC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkPnt7IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLmF1dGhTdGF0dXMiKSB9fTwvVGFibGVIZWFkPgogICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idGV4dC1yaWdodCI+e3sKICAgICAgICAgICAgdCgiYWRtaW4uc2Vzc2lvbnMudGFibGUuYWN0aW9ucyIpCiAgICAgICAgICB9fTwvVGFibGVIZWFkPgogICAgICAgIDwvVGFibGVSb3c+CiAgICAgIDwvVGFibGVIZWFkZXI+CiAgICAgIDxUYWJsZUJvZHk+CiAgICAgICAgPFRhYmxlUm93IHYtaWY9ImZpbHRlcmVkTWFwcGluZ3MubGVuZ3RoID09PSAwIj4KICAgICAgICAgIDxUYWJsZUNlbGwgY29sc3Bhbj0iOCIgY2xhc3M9InB5LTggdGV4dC1jZW50ZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuZW1wdHkiKSB9fQogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICA8VGFibGVSb3cKICAgICAgICAgIHYtZm9yPSJtYXBwaW5nIGluIGZpbHRlcmVkTWFwcGluZ3MiCiAgICAgICAgICA6a2V5PSJnZXRNYXBwaW5nS2V5KG1hcHBpbmcpIgogICAgICAgICAgY2xhc3M9Imdyb3VwIgogICAgICAgID4KICAgICAgICAgIDxUYWJsZUNlbGw+CiAgICAgICAgICAgIDxCYWRnZQogICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgY2xhc3M9ImZvbnQtbW9ubyB1cHBlcmNhc2UgdHJhY2tpbmctWzAuMTZlbV0iCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyBtYXBwaW5nLnByb3RvY29sIH19CiAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9ImZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIGNsYXNzPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1mdWxsIGJvcmRlciBweC0zIHB5LTEgdGV4dC1zbSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxzcGFuPnt7IG1hcHBpbmcubGlzdGVuX3BvcnQgfX08L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJtaW4tdy0wIj4KICAgICAgICAgICAgPElubGluZUNvbW1lbnRFZGl0b3IKICAgICAgICAgICAgICA6dGV4dD0ibWFwcGluZy5jb21tZW50IgogICAgICAgICAgICAgIDpzYXZlPSIodmFsdWUpID0+IG9uU2F2ZUNvbW1lbnQobWFwcGluZywgdmFsdWUpIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJtaW4tdy0wIGZvbnQtbW9ubyB0ZXh0LXNtIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImJsb2NrIHRydW5jYXRlIiA6dGl0bGU9Im1hcHBpbmcudGFyZ2V0Ij4KICAgICAgICAgICAgICB7eyBtYXBwaW5nLnRhcmdldCB9fQogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9IndoaXRlc3BhY2Utbm9ybWFsIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtMS41IHRleHQteHMiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgICAgIDxCYWRnZSA6dmFyaWFudD0ibWFwcGluZy5kaXNhYmxlZCA/ICdzZWNvbmRhcnknIDogJ291dGxpbmUnIj4KICAgICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgICBtYXBwaW5nLnNlcnZpY2VfcHJvZmlsZT8uc2VydmljZV9pZCB8fAogICAgICAgICAgICAgICAgICAgIHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnNlcnZpY2VVbmtub3duIikKICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICAgICAgICA8QmFkZ2UgdmFyaWFudD0ic2Vjb25kYXJ5Ij57ewogICAgICAgICAgICAgICAgICBtYXBwaW5nLnByb2JlX3N0YXR1cyB8fCAibGVnYWN5IgogICAgICAgICAgICAgICAgfX08L0JhZGdlPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICB2LWlmPSJtYXBwaW5nLnNlcnZpY2VfcHJvZmlsZT8uZGV2aWNlX3JvbGUiCiAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IG1hcHBpbmcuc2VydmljZV9wcm9maWxlLmRldmljZV9yb2xlIH19IMK3CiAgICAgICAgICAgICAgICB7eyBtYXBwaW5nLnNlcnZpY2VfcHJvZmlsZS5yb2xlX2NvbmZpZGVuY2UgfHwgInVua25vd24iIH19CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgbWFwcGluZy52YWxpZGF0aW9uX21vZGUgPT09ICJzdHJpY3QiCiAgICAgICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy52YWxpZGF0aW9uU3RyaWN0IikKICAgICAgICAgICAgICAgICAgICA6IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnZhbGlkYXRpb25PZmYiKQogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJ3LVs3cmVtXSBtaW4tdy1bN3JlbV0gbWF4LXctWzdyZW1dIj4KICAgICAgICAgICAgPFN0cmVhbVRyYWZmaWNBY3Rpdml0eQogICAgICAgICAgICAgIDpzdHJlYW0ta2V5PSJzdHJlYW1UcmFmZmljS2V5KG1hcHBpbmcpIgogICAgICAgICAgICAgIDp0aXRsZT0iZm9ybWF0TWFwcGluZ0xhYmVsKG1hcHBpbmcpIgogICAgICAgICAgICAgIDpzYW1wbGU9ImdldFN0cmVhbVRyYWZmaWNTYW1wbGUobWFwcGluZykiCiAgICAgICAgICAgICAgOnRpbWVzdGFtcD0idHJhZmZpY1RpbWVzdGFtcCA/PyBudWxsIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJ3aGl0ZXNwYWNlLW5vcm1hbCI+CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPEJhZGdlIHYtaWY9Im1hcHBpbmcudXNlX2F1dGgiIHZhcmlhbnQ9ImRlZmF1bHQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MuYXV0aFJlcXVpcmVkIikgfX0KICAgICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgICAgIDxCYWRnZSB2LWVsc2UgdmFyaWFudD0ic2Vjb25kYXJ5Ij57ewogICAgICAgICAgICAgICAgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MucHVibGljQWNjZXNzIikKICAgICAgICAgICAgICB9fTwvQmFkZ2U+CiAgICAgICAgICAgICAgPEJhZGdlCiAgICAgICAgICAgICAgICB2LWlmPSJtYXBwaW5nLmJ5cGFzc19wb2xpY3k/LmVuYWJsZWQiCiAgICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgICAgY2xhc3M9ImJvcmRlci1lbWVyYWxkLTMwMCB0ZXh0LWVtZXJhbGQtNzAwIGRhcms6dGV4dC1lbWVyYWxkLTMwMCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5wb2xpY3lBY3RpdmUiKSB9fQogICAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICAgICAgPEJhZGdlCiAgICAgICAgICAgICAgICB2LWVsc2UtaWY9Im1hcHBpbmcuYnlwYXNzX3BvbGljeT8uZ3JvdXBzLmxlbmd0aCIKICAgICAgICAgICAgICAgIHZhcmlhbnQ9InNlY29uZGFyeSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5wb2xpY3lEcmFmdCIpIH19CiAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InRleHQtcmlnaHQiPgogICAgICAgICAgICA8U3RyZWFtTWFwcGluZ1Jvd0FjdGlvbnMKICAgICAgICAgICAgICA6bWFwcGluZz0ibWFwcGluZyIKICAgICAgICAgICAgICA6cHJvYmluZy1tYXBwaW5nLWtleT0icHJvYmluZ01hcHBpbmdLZXkiCiAgICAgICAgICAgICAgOnJlbW92aW5nLW1hcHBpbmcta2V5PSJyZW1vdmluZ01hcHBpbmdLZXkiCiAgICAgICAgICAgICAgOm9uLXJlbW92ZT0ib25SZW1vdmUiCiAgICAgICAgICAgICAgQGVkaXQ9ImVtaXQoJ2VkaXQnLCAkZXZlbnQpIgogICAgICAgICAgICAgIEBwcm9iZT0iZW1pdCgncHJvYmUnLCAkZXZlbnQpIgogICAgICAgICAgICAgIEBwb2xpY3k9ImVtaXQoJ3BvbGljeScsICRldmVudCkiCiAgICAgICAgICAgICAgQHNlcnZpY2U9ImVtaXQoJ3NlcnZpY2UnLCAkZXZlbnQpIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgPC9UYWJsZUJvZHk+CiAgICA8L1RhYmxlPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgSW5saW5lQ29tbWVudEVkaXRvciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvSW5saW5lQ29tbWVudEVkaXRvci52dWUiOwppbXBvcnQgU2VhcmNoSW5wdXQgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL1NlYXJjaElucHV0LnZ1ZSI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsKICBUYWJsZSwKICBUYWJsZUJvZHksCiAgVGFibGVDZWxsLAogIFRhYmxlSGVhZCwKICBUYWJsZUhlYWRlciwKICBUYWJsZVJvdywKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFibGUiOwppbXBvcnQgdHlwZSB7IFN0cmVhbU1hcHBpbmcsIFN0cmVhbVRyYWZmaWNTdGF0cyB9IGZyb20gIi4uLy4uL3R5cGVzIjsKaW1wb3J0IFN0cmVhbVRyYWZmaWNBY3Rpdml0eSBmcm9tICJAL2NvbXBvbmVudHMvU3RyZWFtVHJhZmZpY0FjdGl2aXR5LnZ1ZSI7CmltcG9ydCBTdHJlYW1NYXBwaW5nUm93QWN0aW9ucyBmcm9tICIuL1N0cmVhbU1hcHBpbmdSb3dBY3Rpb25zLnZ1ZSI7CmltcG9ydCB7CiAgZm9ybWF0TWFwcGluZ0xhYmVsLAogIGZvcm1hdFByb3RvY29sTGFiZWwsCiAgZ2V0TWFwcGluZ0tleSwKICBzdHJlYW1UcmFmZmljS2V5LAp9IGZyb20gIi4vc3RyZWFtTWFwcGluZ01vZGVsIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIG1hcHBpbmdzOiBTdHJlYW1NYXBwaW5nW107CiAgcmVtb3ZpbmdNYXBwaW5nS2V5OiBzdHJpbmcgfCBudWxsOwogIHByb2JpbmdNYXBwaW5nS2V5OiBzdHJpbmcgfCBudWxsOwogIHRyYWZmaWNUaW1lc3RhbXA6IG51bWJlciB8IG51bGw7CiAgZ2V0U3RyZWFtVHJhZmZpY1NhbXBsZTogKG1hcHBpbmc6IFN0cmVhbU1hcHBpbmcpID0+IFN0cmVhbVRyYWZmaWNTdGF0cyB8IG51bGw7CiAgb25SZW1vdmU6IChtYXBwaW5nOiBTdHJlYW1NYXBwaW5nKSA9PiBQcm9taXNlPGJvb2xlYW4+OwogIG9uU2F2ZUNvbW1lbnQ6IChtYXBwaW5nOiBTdHJlYW1NYXBwaW5nLCBjb21tZW50OiBzdHJpbmcpID0+IFByb21pc2U8dm9pZD47Cn0+KCk7CmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgZWRpdDogW21hcHBpbmc6IFN0cmVhbU1hcHBpbmddOwogIHByb2JlOiBbbWFwcGluZzogU3RyZWFtTWFwcGluZ107CiAgcG9saWN5OiBbbWFwcGluZzogU3RyZWFtTWFwcGluZ107CiAgc2VydmljZTogW21hcHBpbmc6IFN0cmVhbU1hcHBpbmddOwp9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3Qgc2VhcmNoUXVlcnkgPSByZWYoIiIpOwpjb25zdCBmaWx0ZXJlZE1hcHBpbmdzID0gY29tcHV0ZWQoKCkgPT4gewogIGNvbnN0IHF1ZXJ5ID0gc2VhcmNoUXVlcnkudmFsdWUudHJpbSgpLnRvTG93ZXJDYXNlKCk7CiAgaWYgKCFxdWVyeSkgcmV0dXJuIHByb3BzLm1hcHBpbmdzOwoKICByZXR1cm4gcHJvcHMubWFwcGluZ3MuZmlsdGVyKChtYXBwaW5nKSA9PiB7CiAgICBjb25zdCBhdXRoU3RhdHVzID0gbWFwcGluZy51c2VfYXV0aAogICAgICA/IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLmF1dGhSZXF1aXJlZCIpCiAgICAgIDogdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MucHVibGljQWNjZXNzIik7CiAgICByZXR1cm4gKAogICAgICBtYXBwaW5nLnByb3RvY29sLmluY2x1ZGVzKHF1ZXJ5KSB8fAogICAgICBmb3JtYXRQcm90b2NvbExhYmVsKG1hcHBpbmcucHJvdG9jb2wpLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMocXVlcnkpIHx8CiAgICAgIFN0cmluZyhtYXBwaW5nLmxpc3Rlbl9wb3J0KS5pbmNsdWRlcyhxdWVyeSkgfHwKICAgICAgKG1hcHBpbmcuY29tbWVudCA/PyAiIikudG9Mb3dlckNhc2UoKS5pbmNsdWRlcyhxdWVyeSkgfHwKICAgICAgbWFwcGluZy50YXJnZXQudG9Mb3dlckNhc2UoKS5pbmNsdWRlcyhxdWVyeSkgfHwKICAgICAgKG1hcHBpbmcuc2VydmljZV9wcm9maWxlPy5zZXJ2aWNlX2lkID8/ICIiKQogICAgICAgIC50b0xvd2VyQ2FzZSgpCiAgICAgICAgLmluY2x1ZGVzKHF1ZXJ5KSB8fAogICAgICAobWFwcGluZy5zZXJ2aWNlX3Byb2ZpbGU/LmRldmljZV9yb2xlID8/ICIiKQogICAgICAgIC50b0xvd2VyQ2FzZSgpCiAgICAgICAgLmluY2x1ZGVzKHF1ZXJ5KSB8fAogICAgICBhdXRoU3RhdHVzLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMocXVlcnkpCiAgICApOwogIH0pOwp9KTsKPC9zY3JpcHQ+Cg==
+<template>
+  <div
+    class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between"
+  >
+    <SearchInput
+      v-model="searchQuery"
+      :placeholder="t('admin.streamMappings.searchPlaceholder')"
+      class="max-w-xs"
+    />
+  </div>
+  <div class="overflow-hidden rounded-md border">
+    <Table class="min-w-[70rem] table-fixed">
+      <colgroup>
+        <col class="w-[8%]" />
+        <col class="w-[10%]" />
+        <col class="w-[14%]" />
+        <col class="w-[16%]" />
+        <col class="w-[18%]" />
+        <col class="w-[10%]" />
+        <col class="w-[12%]" />
+        <col class="w-[12%]" />
+      </colgroup>
+      <TableHeader>
+        <TableRow>
+          <TableHead>{{ t("admin.streamMappings.protocol") }}</TableHead>
+          <TableHead>{{ t("admin.streamMappings.listenPort") }}</TableHead>
+          <TableHead>{{ t("admin.streamMappings.comment") }}</TableHead>
+          <TableHead>{{ t("admin.streamMappings.target") }}</TableHead>
+          <TableHead>{{ t("admin.streamMappings.serviceProfile") }}</TableHead>
+          <TableHead>{{ t("admin.streamMappings.traffic") }}</TableHead>
+          <TableHead>{{ t("admin.streamMappings.authStatus") }}</TableHead>
+          <TableHead class="text-right">{{
+            t("admin.sessions.table.actions")
+          }}</TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        <TableRow v-if="filteredMappings.length === 0">
+          <TableCell colspan="8" class="py-8 text-center text-muted-foreground">
+            {{ t("admin.streamMappings.empty") }}
+          </TableCell>
+        </TableRow>
+        <TableRow
+          v-for="mapping in filteredMappings"
+          :key="getMappingKey(mapping)"
+          class="group"
+        >
+          <TableCell>
+            <Badge
+              variant="outline"
+              class="font-mono uppercase tracking-[0.16em]"
+            >
+              {{ mapping.protocol }}
+            </Badge>
+          </TableCell>
+          <TableCell class="font-medium">
+            <div
+              class="inline-flex items-center gap-2 rounded-full border px-3 py-1 text-sm"
+            >
+              <span>{{ mapping.listen_port }}</span>
+            </div>
+          </TableCell>
+          <TableCell class="min-w-0">
+            <InlineCommentEditor
+              :text="mapping.comment"
+              :save="(value) => onSaveComment(mapping, value)"
+            />
+          </TableCell>
+          <TableCell class="min-w-0 font-mono text-sm">
+            <span class="block truncate" :title="mapping.target">
+              {{ mapping.target }}
+            </span>
+          </TableCell>
+          <TableCell class="whitespace-normal">
+            <div class="flex flex-col gap-1.5 text-xs">
+              <div class="flex flex-wrap items-center gap-1.5">
+                <Badge :variant="mapping.disabled ? 'secondary' : 'outline'">
+                  {{
+                    mapping.service_profile?.service_id ||
+                    t("admin.streamMappings.serviceUnknown")
+                  }}
+                </Badge>
+                <Badge variant="secondary">{{
+                  mapping.probe_status || "legacy"
+                }}</Badge>
+              </div>
+              <span
+                v-if="mapping.service_profile?.device_role"
+                class="text-muted-foreground"
+              >
+                {{ mapping.service_profile.device_role }} ·
+                {{ mapping.service_profile.role_confidence || "unknown" }}
+              </span>
+              <span class="text-muted-foreground">
+                {{
+                  mapping.validation_mode === "strict"
+                    ? t("admin.streamMappings.validationStrict")
+                    : t("admin.streamMappings.validationOff")
+                }}
+              </span>
+            </div>
+          </TableCell>
+          <TableCell class="w-[7rem] min-w-[7rem] max-w-[7rem]">
+            <StreamTrafficActivity
+              :stream-key="streamTrafficKey(mapping)"
+              :title="formatMappingLabel(mapping)"
+              :sample="getStreamTrafficSample(mapping)"
+              :timestamp="trafficTimestamp ?? null"
+            />
+          </TableCell>
+          <TableCell class="whitespace-normal">
+            <div
+              class="flex flex-wrap items-center gap-2 text-xs text-muted-foreground"
+            >
+              <Badge v-if="mapping.use_auth" variant="default">
+                {{ t("admin.streamMappings.authRequired") }}
+              </Badge>
+              <Badge v-else variant="secondary">{{
+                t("admin.streamMappings.publicAccess")
+              }}</Badge>
+              <Badge
+                v-if="mapping.bypass_policy?.enabled"
+                variant="outline"
+                class="border-emerald-300 text-emerald-700 dark:text-emerald-300"
+              >
+                {{ t("admin.streamMappings.policyActive") }}
+              </Badge>
+              <Badge
+                v-else-if="mapping.bypass_policy?.groups.length"
+                variant="secondary"
+              >
+                {{ t("admin.streamMappings.policyDraft") }}
+              </Badge>
+            </div>
+          </TableCell>
+          <TableCell class="text-right">
+            <StreamMappingRowActions
+              :mapping="mapping"
+              :probing-mapping-key="probingMappingKey"
+              :removing-mapping-key="removingMappingKey"
+              :on-remove="onRemove"
+              @edit="emit('edit', $event)"
+              @probe="emit('probe', $event)"
+              @policy="emit('policy', $event)"
+              @service="emit('service', $event)"
+            />
+          </TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import InlineCommentEditor from "@admin-shared/components/InlineCommentEditor.vue";
+import SearchInput from "@admin-shared/components/SearchInput.vue";
+import { Badge } from "@/components/ui/badge";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import type { StreamMapping, StreamTrafficStats } from "../../types";
+import StreamTrafficActivity from "@/components/StreamTrafficActivity.vue";
+import StreamMappingRowActions from "./StreamMappingRowActions.vue";
+import {
+  formatMappingLabel,
+  formatProtocolLabel,
+  getMappingKey,
+  streamTrafficKey,
+} from "./streamMappingModel";
+
+const props = defineProps<{
+  mappings: StreamMapping[];
+  removingMappingKey: string | null;
+  probingMappingKey: string | null;
+  trafficTimestamp: number | null;
+  getStreamTrafficSample: (mapping: StreamMapping) => StreamTrafficStats | null;
+  onRemove: (mapping: StreamMapping) => Promise<boolean>;
+  onSaveComment: (mapping: StreamMapping, comment: string) => Promise<void>;
+}>();
+const emit = defineEmits<{
+  edit: [mapping: StreamMapping];
+  probe: [mapping: StreamMapping];
+  policy: [mapping: StreamMapping];
+  service: [mapping: StreamMapping];
+}>();
+const { t } = useI18n();
+const searchQuery = ref("");
+const filteredMappings = computed(() => {
+  const query = searchQuery.value.trim().toLowerCase();
+  if (!query) return props.mappings;
+
+  return props.mappings.filter((mapping) => {
+    const authStatus = mapping.use_auth
+      ? t("admin.streamMappings.authRequired")
+      : t("admin.streamMappings.publicAccess");
+    return (
+      mapping.protocol.includes(query) ||
+      formatProtocolLabel(mapping.protocol).toLowerCase().includes(query) ||
+      String(mapping.listen_port).includes(query) ||
+      (mapping.comment ?? "").toLowerCase().includes(query) ||
+      mapping.target.toLowerCase().includes(query) ||
+      (mapping.service_profile?.service_id ?? "")
+        .toLowerCase()
+        .includes(query) ||
+      (mapping.service_profile?.device_role ?? "")
+        .toLowerCase()
+        .includes(query) ||
+      authStatus.toLowerCase().includes(query)
+    );
+  });
+});
+</script>

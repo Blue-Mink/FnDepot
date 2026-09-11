@@ -1,1 +1,228 @@
-IyEvYmluL3NoCnNldCAtZXUKCkRFRkFVTFRfQkFTRV9VUkw9Imh0dHBzOi8vY2RuLmZua25vY2suY24iCkJBU0VfVVJMPSIke0ZOX0tOT0NLX0JBU0VfVVJMOi0ke0RFRkFVTFRfQkFTRV9VUkx9fSIKQ09NTUFORF9GSUxFPSIke0ZOX0tOT0NLX0NPTU1BTkRfRklMRTotL3Vzci9sb2NhbC9iaW4va25vY2t9IgpBUFBfUk9PVD0iJHtGTl9LTk9DS19BUFBfUk9PVDotL29wdC9mbi1rbm9ja30iCldPUktfRElSPSIiCgppZiBbIC10IDEgXSAmJiBbICIke05PX0NPTE9SOi19IiAhPSAiMSIgXTsgdGhlbgogIEVTQz0iJChwcmludGYgJ1wwMzMnKSIKICBDX1JFU0VUPSIke0VTQ31bMG0iIENfVElUTEU9IiR7RVNDfVsxOzM4OzU7NDVtIiBDX0FDQ0VOVD0iJHtFU0N9WzE7Mzg7NTsyMTNtIiBDX09LPSIke0VTQ31bMTszODs1OzgybSIgQ19FUlI9IiR7RVNDfVsxOzM4OzU7MjAzbSIgQ19ESU09IiR7RVNDfVszODs1OzI0NW0iCmVsc2UKICBDX1JFU0VUPScnIENfVElUTEU9JycgQ19BQ0NFTlQ9JycgQ19PSz0nJyBDX0VSUj0nJyBDX0RJTT0nJwpmaQpsb2coKSB7IHByaW50ZiAnJXPjgJBmbi1rbm9jayDlronoo4XlmajjgJElcyAlc1xuJyAiJHtDX1RJVExFfSIgIiR7Q19SRVNFVH0iICIkKiI7IH0Kc3VjY2VzcygpIHsgcHJpbnRmICclc+KckyAlcyVzXG4nICIke0NfT0t9IiAiJCoiICIke0NfUkVTRVR9IjsgfQpmYWlsKCkgeyBwcmludGYgJyVz4pyXICVzJXNcbicgIiR7Q19FUlJ9IiAiJCoiICIke0NfUkVTRVR9IiA+JjI7IGV4aXQgMTsgfQoKc2hvd19iYW5uZXIoKSB7CiAgY2F0IDw8RU9GCiR7Q19USVRMRX0KIOKWiOKWiOKWiOKWiOKWiOKWiOKWiOKVl+KWiOKWiOKWiOKVlyAgIOKWiOKWiOKVlyAgICAgIOKWiOKWiOKVlyAg4paI4paI4pWX4paI4paI4paI4pWXICAg4paI4paI4pWXIOKWiOKWiOKWiOKWiOKWiOKWiOKVlyAg4paI4paI4paI4paI4paI4paI4pWX4paI4paI4pWXICDilojilojilZcKIOKWiOKWiOKVlOKVkOKVkOKVkOKVkOKVneKWiOKWiOKWiOKWiOKVlyAg4paI4paI4pWRICAgICAg4paI4paI4pWRIOKWiOKWiOKVlOKVneKWiOKWiOKWiOKWiOKVlyAg4paI4paI4pWR4paI4paI4pWU4pWQ4pWQ4pWQ4paI4paI4pWX4paI4paI4pWU4pWQ4pWQ4pWQ4pWQ4pWd4paI4paI4pWRIOKWiOKWiOKVlOKVnQog4paI4paI4paI4paI4paI4pWXICDilojilojilZTilojilojilZcg4paI4paI4pWR4paI4paI4paI4paI4paI4pWX4paI4paI4paI4paI4paI4pWU4pWdIOKWiOKWiOKVlOKWiOKWiOKVlyDilojilojilZHilojilojilZEgICDilojilojilZHilojilojilZEgICAgIOKWiOKWiOKWiOKWiOKWiOKVlOKVnQog4paI4paI4pWU4pWQ4pWQ4pWdICDilojilojilZHilZrilojilojilZfilojilojilZHilZrilZDilZDilZDilZDilZ3ilojilojilZTilZDilojilojilZcg4paI4paI4pWR4pWa4paI4paI4pWX4paI4paI4pWR4paI4paI4pWRICAg4paI4paI4pWR4paI4paI4pWRICAgICDilojilojilZTilZDilojilojilZcKIOKWiOKWiOKVkSAgICAg4paI4paI4pWRIOKVmuKWiOKWiOKWiOKWiOKVkSAgICAgIOKWiOKWiOKVkSAg4paI4paI4pWX4paI4paI4pWRIOKVmuKWiOKWiOKWiOKWiOKVkeKVmuKWiOKWiOKWiOKWiOKWiOKWiOKVlOKVneKVmuKWiOKWiOKWiOKWiOKWiOKWiOKVl+KWiOKWiOKVkSAg4paI4paI4pWXCiDilZrilZDilZ0gICAgIOKVmuKVkOKVnSAg4pWa4pWQ4pWQ4pWQ4pWdICAgICAg4pWa4pWQ4pWdICDilZrilZDilZ3ilZrilZDilZ0gIOKVmuKVkOKVkOKVkOKVnSDilZrilZDilZDilZDilZDilZDilZ0gIOKVmuKVkOKVkOKVkOKVkOKVkOKVneKVmuKVkOKVnSAg4pWa4pWQ4pWdJHtDX1JFU0VUfQoke0NfRElNfSAgICAgICAgICAgICAgICAgICAgICAgICBMaW51eCDkuIDplK7lronoo4Xlmagke0NfUkVTRVR9CkVPRgp9CgpjbGVhbnVwKCkgewogIFsgLXogIiR7V09SS19ESVJ9IiBdIHx8IHJtIC1yZiAiJHtXT1JLX0RJUn0iCn0KdHJhcCBjbGVhbnVwIEVYSVQKCnNob3dfYmFubmVyClsgIiQoaWQgLXUpIiAtZXEgMCBdIHx8IGZhaWwgIumcgOimgSByb290IOadg+mZkO+8jOivt+S9v+eUqO+8mnN1ZG8gc2giClsgIiQodW5hbWUgLXMpIiA9ICJMaW51eCIgXSB8fCBmYWlsICLku4XmlK/mjIEgTGludXgg57O757ufIgoKbm9ybWFsaXplX2FyY2goKSB7CiAgY2FzZSAiJCh1bmFtZSAtbSkiIGluCiAgICB4ODZfNjR8YW1kNjQpIHByaW50ZiAnJXNcbicgYW1kNjQgOzsKICAgIGFhcmNoNjR8YXJtNjQpIHByaW50ZiAnJXNcbicgYXJtNjQgOzsKICAgIGFybXY3bHxhcm12OGx8YXJtaGZ8YXJtKSBwcmludGYgJyVzXG4nIGFybSA7OwogICAgKikgcmV0dXJuIDEgOzsKICBlc2FjCn0KCmluc3RhbGxfZGVwZW5kZW5jaWVzKCkgewogIG1pc3Npbmc9MAogIGZvciBjb21tYW5kX25hbWUgaW4gYmFzaCBjdXJsIG9wZW5zc2wgdW56aXAgdGFyIGd6aXAgc3MgaW5zdGFsbDsgZG8KICAgIGNvbW1hbmQgLXYgIiR7Y29tbWFuZF9uYW1lfSIgPi9kZXYvbnVsbCAyPiYxIHx8IG1pc3Npbmc9MQogIGRvbmUKICBbICIke21pc3Npbmd9IiA9ICIxIiBdIHx8IHJldHVybiAwCgogIGxvZyAi5q2j5Zyo5a6J6KOF5omA6ZyA57O757uf5L6d6LWW4oCmIgogIGlmIGNvbW1hbmQgLXYgYXB0LWdldCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgIERFQklBTl9GUk9OVEVORD1ub25pbnRlcmFjdGl2ZSBhcHQtZ2V0IHVwZGF0ZSAteQogICAgREVCSUFOX0ZST05URU5EPW5vbmludGVyYWN0aXZlIGFwdC1nZXQgaW5zdGFsbCAteSBjYS1jZXJ0aWZpY2F0ZXMgY3VybCBvcGVuc3NsIHVuemlwIHRhciBnemlwIGlwcm91dGUyCiAgZWxpZiBjb21tYW5kIC12IGRuZiA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgIGRuZiBpbnN0YWxsIC15IGNhLWNlcnRpZmljYXRlcyBjdXJsIG9wZW5zc2wgdW56aXAgdGFyIGd6aXAgaXByb3V0ZQogIGVsaWYgY29tbWFuZCAtdiB5dW0gPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICB5dW0gaW5zdGFsbCAteSBjYS1jZXJ0aWZpY2F0ZXMgY3VybCBvcGVuc3NsIHVuemlwIHRhciBnemlwIGlwcm91dGUKICBlbGlmIGNvbW1hbmQgLXYgYXBrID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgYXBrIGFkZCAtLW5vLWNhY2hlIGJhc2ggY2EtY2VydGlmaWNhdGVzIGN1cmwgb3BlbnNzbCB1bnppcCB0YXIgZ3ppcCBpcHJvdXRlMiBjb3JldXRpbHMgcHJvY3BzCiAgZWxzZQogICAgZmFpbCAi57y65bCR6L+Q6KGM5L6d6LWW77yM5LiU5pyq5om+5Yiw5Y+X5pSv5oyB55qE6L2v5Lu25YyF566h55CG5ZmoIgogIGZpCn0KCmRldGVjdF9zZXJ2aWNlX21hbmFnZXIoKSB7CiAgaWYgY29tbWFuZCAtdiBzeXN0ZW1jdGwgPi9kZXYvbnVsbCAyPiYxICYmIFsgLWQgL3J1bi9zeXN0ZW1kL3N5c3RlbSBdOyB0aGVuCiAgICBTRVJWSUNFX01BTkFHRVI9c3lzdGVtZAogIGVsaWYgY29tbWFuZCAtdiByYy1zZXJ2aWNlID4vZGV2L251bGwgMj4mMSAmJiBjb21tYW5kIC12IHJjLXVwZGF0ZSA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgIFsgLWQgL3J1bi9vcGVucmMgXSB8fCBmYWlsICLmo4DmtYvliLAgT3BlblJD77yM5L2G5b2T5YmN5pyq6L+Q6KGMIE9wZW5SQyIKICAgIFNFUlZJQ0VfTUFOQUdFUj1vcGVucmMKICBlbHNlCiAgICBmYWlsICLku4XmlK/mjIHmraPlnKjov5DooYznmoQgc3lzdGVtZCDmiJYgT3BlblJDIgogIGZpCiAgZXhwb3J0IEZOX0tOT0NLX1NFUlZJQ0VfTUFOQUdFUj0iJHtTRVJWSUNFX01BTkFHRVJ9IgogIGxvZyAi5qOA5rWL5Yiw5pyN5Yqh566h55CG5Zmo77yaJHtTRVJWSUNFX01BTkFHRVJ9Igp9CgppbnN0YWxsZWRfdmVyc2lvbigpIHsKICByZWxlYXNlX2ZpbGU9IiR7QVBQX1JPT1R9L2N1cnJlbnQvcmVsZWFzZS5qc29uIgogIGlmIFsgLWYgIiR7cmVsZWFzZV9maWxlfSIgXTsgdGhlbgogICAgc2VkIC1uRSAncy9eW1s6c3BhY2U6XV0qInZlcnNpb24iW1s6c3BhY2U6XV0qOltbOnNwYWNlOl1dKiIoW14iXSspIi4qL1wxL3AnICIke3JlbGVhc2VfZmlsZX0iIHwgaGVhZCAtbjEKICBmaQp9CgpjaG9vc2VfYWN0aW9uKCkgewogIGFuc3dlcj0nJyB2ZXJzaW9uPScnCiAgaWYgWyAteCAiJHtDT01NQU5EX0ZJTEV9IiBdICYmIFsgLWYgIiR7QVBQX1JPT1R9L2N1cnJlbnQvcmVsZWFzZS5qc29uIiBdOyB0aGVuCiAgICB2ZXJzaW9uPSIkKGluc3RhbGxlZF92ZXJzaW9uKSIKICAgIGxvZyAi5qOA5rWL5Yiw5bey5a6J6KOF55qEIGZuLWtub2NrJHt2ZXJzaW9uOivvvIjniYjmnKwgJHt2ZXJzaW9ufe+8iX0iCiAgICBwcmludGYgJ1xuJXPilIHilIHilIEg6K+36YCJ5oup5pON5L2cIOKUgeKUgeKUgSVzXG4nICIke0NfQUNDRU5UfSIgIiR7Q19SRVNFVH0iID4mMgogICAgcHJpbnRmICcgICVzWzFdJXMg5LiL6L295bm25a6J6KOF5pyA5paw54mI5pysXG4nICIke0NfT0t9IiAiJHtDX1JFU0VUfSIgPiYyCiAgICBwcmludGYgJyAgJXNbMl0lcyDmiZPlvIAgZm4ta25vY2sg566h55CG6I+c5Y2VXG4nICIke0NfQUNDRU5UfSIgIiR7Q19SRVNFVH0iID4mMgogICAgcHJpbnRmICcgICVzWzNdJXMg5p+l55yL5pyN5Yqh54q25oCBXG4nICIke0NfQUNDRU5UfSIgIiR7Q19SRVNFVH0iID4mMgogICAgcHJpbnRmICcgICVzWzRdJXMg5Y246L29IGZuLWtub2Nr77yI6ZyA6L6T5YWlIFkg56Gu6K6k77yJXG4nICIke0NfRVJSfSIgIiR7Q19SRVNFVH0iID4mMgogICAgcHJpbnRmICcgICVzWzBdJXMg6YCA5Ye6XG4nICIke0NfRElNfSIgIiR7Q19SRVNFVH0iID4mMgogICAgcHJpbnRmICfor7fpgInmi6kgWzFdOiAnID4mMgogICAgcmVhZCAtciBhbnN3ZXIgPC9kZXYvdHR5IHx8IGZhaWwgIumcgOimgeWPr+S6pOS6kueahOe7iOerryIKICAgIGNhc2UgIiR7YW5zd2VyOi0xfSIgaW4KICAgICAgMSkgcmV0dXJuIDAgOzsKICAgICAgMikgZXhlYyAiJHtDT01NQU5EX0ZJTEV9IiA7OwogICAgICAzKSBleGVjICIke0NPTU1BTkRfRklMRX0iIHN0YXR1cyA7OwogICAgICA0KSBleGVjICIke0NPTU1BTkRfRklMRX0iIHVuaW5zdGFsbCA7OwogICAgICAwKSBleGl0IDAgOzsKICAgICAgKikgZmFpbCAi5peg5pWI6YCJ5oupIiA7OwogICAgZXNhYwogIGZpCgogIHByaW50ZiAnXG4lc+acquajgOa1i+WIsOW3suWuieijheeahCBmbi1rbm9jayVzXG4nICIke0NfQUNDRU5UfSIgIiR7Q19SRVNFVH0iID4mMgogIHByaW50ZiAnICAlc1sxXSVzIOWuieijhSBmbi1rbm9ja1xuJyAiJHtDX09LfSIgIiR7Q19SRVNFVH0iID4mMgogIHByaW50ZiAnICAlc1swXSVzIOmAgOWHulxuJyAiJHtDX0RJTX0iICIke0NfUkVTRVR9IiA+JjIKICBwcmludGYgJ+ivt+mAieaLqSBbMV06ICcgPiYyCiAgcmVhZCAtciBhbnN3ZXIgPC9kZXYvdHR5IHx8IGZhaWwgIumcgOimgeWPr+S6pOS6kueahOe7iOerryIKICBjYXNlICIke2Fuc3dlcjotMX0iIGluCiAgICAxKSA7OwogICAgMCkgZXhpdCAwIDs7CiAgICAqKSBmYWlsICLml6DmlYjpgInmi6kiIDs7CiAgZXNhYwp9CgptYW5pZmVzdF92YWx1ZSgpIHsKICBmaWxlPSIkMSIga2V5PSIkMiIKICBhd2sgLXYgd2FudGVkPSIke2tleX0iICcKICAgIGluZGV4KCQwLCB3YW50ZWQgIj0iKSA9PSAxIHsgY291bnQrKzsgdmFsdWUgPSBzdWJzdHIoJDAsIGxlbmd0aCh3YW50ZWQpICsgMikgfQogICAgRU5EIHsgaWYgKGNvdW50ICE9IDEpIGV4aXQgMTsgcHJpbnQgdmFsdWUgfQogICcgIiR7ZmlsZX0iCn0KCmNvbmZpZ3VyZWRfcG9ydCgpIHsKICBrZXk9IiQxIiBmYWxsYmFjaz0iJDIiIGNvbmZpZ19maWxlPSIke0ZOX0tOT0NLX0VOVl9GSUxFOi0vZXRjL2ZuLWtub2NrL2ZuLWtub2NrLmVudn0iIHZhbHVlPSIiCiAgaWYgWyAtZiAiJHtjb25maWdfZmlsZX0iIF07IHRoZW4KICAgIHZhbHVlPSIkKGF3ayAtdiB3YW50ZWQ9IiR7a2V5fSIgJwogICAgICBpbmRleCgkMCwgd2FudGVkICI9IikgPT0gMSB7IHByaW50IHN1YnN0cigkMCwgbGVuZ3RoKHdhbnRlZCkgKyAyKTsgZXhpdCB9CiAgICAnICIke2NvbmZpZ19maWxlfSIpIgogIGZpCiAgcHJpbnRmICclc1xuJyAiJHt2YWx1ZTotJHtmYWxsYmFja319Igp9CgpmaWxlX3NoYTI1NigpIHsKICBpZiBjb21tYW5kIC12IHNoYTI1NnN1bSA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgIHNoYTI1NnN1bSAiJDEiIHwgYXdrICd7cHJpbnQgJDF9JwogIGVsc2UKICAgIG9wZW5zc2wgZGdzdCAtc2hhMjU2ICIkMSIgfCBhd2sgJ3twcmludCAkTkZ9JwogIGZpCn0KCnRhcl9saXN0X2FyY2hpdmUoKSB7CiAgYXJjaGl2ZV9wYXRoPSIkMSIgbGlzdF9wYXRoPSIkMiIKICBpZiB0YXIgLS1oZWxwIDI+JjEgfCBncmVwIC0tICctLXdhcm5pbmcnID4vZGV2L251bGw7IHRoZW4KICAgIHRhciAtLXdhcm5pbmc9bm8tdW5rbm93bi1rZXl3b3JkIC0td2FybmluZz1uby10aW1lc3RhbXAgLXR6ZiAiJHthcmNoaXZlX3BhdGh9IiA+ICIke2xpc3RfcGF0aH0iCiAgZWxzZQogICAgdGFyIC10emYgIiR7YXJjaGl2ZV9wYXRofSIgPiAiJHtsaXN0X3BhdGh9IgogIGZpCn0KCnRhcl9leHRyYWN0X2FyY2hpdmUoKSB7CiAgYXJjaGl2ZV9wYXRoPSIkMSIgZGVzdGluYXRpb249IiQyIgogIGlmIHRhciAtLWhlbHAgMj4mMSB8IGdyZXAgLS0gJy0td2FybmluZycgPi9kZXYvbnVsbDsgdGhlbgogICAgdGFyIC0td2FybmluZz1uby11bmtub3duLWtleXdvcmQgLS13YXJuaW5nPW5vLXRpbWVzdGFtcCAteHpmICIke2FyY2hpdmVfcGF0aH0iIC1DICIke2Rlc3RpbmF0aW9ufSIKICBlbHNlCiAgICB0YXIgLXh6ZiAiJHthcmNoaXZlX3BhdGh9IiAtQyAiJHtkZXN0aW5hdGlvbn0iCiAgZmkKfQoKaW5zdGFsbF9kZXBlbmRlbmNpZXMKZGV0ZWN0X3NlcnZpY2VfbWFuYWdlcgpjaG9vc2VfYWN0aW9uCkFSQ0g9IiQobm9ybWFsaXplX2FyY2gpIiB8fCBmYWlsICLkuI3mlK/mjIHnmoTns7vnu5/mnrbmnoTvvJokKHVuYW1lIC1tKSIKV09SS19ESVI9IiQobWt0ZW1wIC1kIC90bXAvZm4ta25vY2staW5zdGFsbGVyLlhYWFhYWCkiCk1BTklGRVNUX0ZJTEU9IiR7V09SS19ESVJ9L2xhdGVzdC5lbnYiCkFSQ0hJVkVfRklMRT0iJHtXT1JLX0RJUn0vcmVsZWFzZS50YXIuZ3oiCgpsb2cgIuajgOa1i+WIsOezu+e7n+aetuaehO+8miR7QVJDSH0iCmN1cmwgLS1mYWlsIC0tc2lsZW50IC0tc2hvdy1lcnJvciAtLWxvY2F0aW9uIC0tcmV0cnkgMyAtLWNvbm5lY3QtdGltZW91dCAxNSBcCiAgLW8gIiR7TUFOSUZFU1RfRklMRX0iICIke0JBU0VfVVJMJS99L2xpbnV4L2xhdGVzdC8ke0FSQ0h9LmVudiIKClZFUlNJT049IiQobWFuaWZlc3RfdmFsdWUgIiR7TUFOSUZFU1RfRklMRX0iIFZFUlNJT04pIiB8fCBmYWlsICLlj5HluIPmuIXljZXkuK3nmoQgVkVSU0lPTiDml6DmlYgiClVSTD0iJChtYW5pZmVzdF92YWx1ZSAiJHtNQU5JRkVTVF9GSUxFfSIgVVJMKSIgfHwgZmFpbCAi5Y+R5biD5riF5Y2V5Lit55qEIFVSTCDml6DmlYgiClNIQTI1Nj0iJChtYW5pZmVzdF92YWx1ZSAiJHtNQU5JRkVTVF9GSUxFfSIgU0hBMjU2KSIgfHwgZmFpbCAi5Y+R5biD5riF5Y2V5Lit55qEIFNIQTI1NiDml6DmlYgiClNJWkU9IiQobWFuaWZlc3RfdmFsdWUgIiR7TUFOSUZFU1RfRklMRX0iIFNJWkUpIiB8fCBmYWlsICLlj5HluIPmuIXljZXkuK3nmoQgU0laRSDml6DmlYgiCgpwcmludGYgJyVzJyAiJHtWRVJTSU9OfSIgfCBncmVwIC1FcSAnXlswLTldWzAtOUEtWmEtei5fKy1dKiQnIHx8IGZhaWwgIuWPkeW4g+eJiOacrOWPt+aXoOaViCIKcHJpbnRmICclcycgIiR7U0hBMjU2fSIgfCBncmVwIC1FcSAnXlswLTlhLWZBLUZdezY0fSQnIHx8IGZhaWwgIuWPkeW4g+agoemqjOWSjOaXoOaViCIKcHJpbnRmICclcycgIiR7U0laRX0iIHwgZ3JlcCAtRXEgJ15bMS05XVswLTldKiQnIHx8IGZhaWwgIuWPkeW4g+WMheWkp+Wwj+aXoOaViCIKY2FzZSAiJHtVUkx9IiBpbgogIGh0dHBzOi8vKikgOzsKICBodHRwOi8vKikgWyAiJHtGTl9LTk9DS19BTExPV19JTlNFQ1VSRV9IVFRQOi0wfSIgPSAiMSIgXSB8fCBmYWlsICLlj5HluIPlnLDlnYDlv4Xpobvkvb/nlKggSFRUUFMiIDs7CiAgKikgZmFpbCAi5Y+R5biD5Zyw5Z2A5b+F6aG75Li657ud5a+5IFVSTCIgOzsKZXNhYwoKbG9nICLmraPlnKjkuIvovb0gZm4ta25vY2sgJHtWRVJTSU9OfeKApiIKY3VybCAtLWZhaWwgLS1zaWxlbnQgLS1zaG93LWVycm9yIC0tbG9jYXRpb24gLS1yZXRyeSAzIC0tY29ubmVjdC10aW1lb3V0IDE1IFwKICAtbyAiJHtBUkNISVZFX0ZJTEV9IiAiJHtVUkx9IgoKQUNUVUFMX1NJWkU9IiQod2MgLWMgPCAiJHtBUkNISVZFX0ZJTEV9IiB8IHRyIC1kICdbOnNwYWNlOl0nKSIKWyAiJHtBQ1RVQUxfU0laRX0iID0gIiR7U0laRX0iIF0gfHwgZmFpbCAi5LiL6L295paH5Lu25aSn5bCP5LiN5Yy56YWNIgpBQ1RVQUxfU0hBMjU2PSIkKGZpbGVfc2hhMjU2ICIke0FSQ0hJVkVfRklMRX0iKSIKWyAiJHtBQ1RVQUxfU0hBMjU2fSIgPSAiJHtTSEEyNTZ9IiBdIHx8IGZhaWwgIuS4i+i9veaWh+S7tuagoemqjOWSjOS4jeWMuemFjSIKdGFyX2xpc3RfYXJjaGl2ZSAiJHtBUkNISVZFX0ZJTEV9IiAiJHtXT1JLX0RJUn0vYXJjaGl2ZS5saXN0IgpncmVwIC1xeCAnZm4ta25vY2svcmVsZWFzZS5qc29uJyAiJHtXT1JLX0RJUn0vYXJjaGl2ZS5saXN0IiB8fCBmYWlsICLlj5HluIPljIXnm67lvZXnu5PmnoTml6DmlYgiCnRhcl9leHRyYWN0X2FyY2hpdmUgIiR7QVJDSElWRV9GSUxFfSIgIiR7V09SS19ESVJ9IgpbIC14ICIke1dPUktfRElSfS9mbi1rbm9jay9iaW4va25vY2siIF0gfHwgZmFpbCAi5Y+R5biD5YyF5LiN5YyF5ZCr566h55CG5ZG95LukIgoKbG9nICLmraPlnKjlronoo4XliY3mo4DmtYvmiYDpnIDnq6/lj6PigKYiCiIke1dPUktfRElSfS9mbi1rbm9jay9iaW4va25vY2siIF9wcmVwYXJlLWluc3RhbGwKIiR7V09SS19ESVJ9L2ZuLWtub2NrL2Jpbi9rbm9jayIgX2luc3RhbGwtZXh0cmFjdGVkICIke1dPUktfRElSfS9mbi1rbm9jayIgIiR7VkVSU0lPTn0iCgpzdWNjZXNzICJmbi1rbm9jayAke1ZFUlNJT059IOWuieijheWujOaIkO+8gSIKQURNSU5fUE9SVD0iJChjb25maWd1cmVkX3BvcnQgQURNSU5fVklFV19QT1JUIDc5OTEpIgpQUk9YWV9QT1JUPSIkKGNvbmZpZ3VyZWRfcG9ydCBHT19SRVBST1hZX1BPUlQgNzk5OSkiCnByaW50ZiAnXG4lc+KUgeKUgeKUgSDkuIvkuIDmraUg4pSB4pSB4pSBJXNcbicgIiR7Q19BQ0NFTlR9IiAiJHtDX1JFU0VUfSIKcHJpbnRmICclc+WxgOWfn+e9kemFjee9ru+8miVz6K+35Zyo5bGA5Z+f572R5rWP6KeI5Zmo5omT5byAICVzaHR0cDovLzzmnI3liqHlmajlsYDln5/nvZEgSVA+OiVzLyVzXG4nIFwKICAiJHtDX09LfSIgIiR7Q19SRVNFVH0iICIke0NfVElUTEV9IiAiJHtBRE1JTl9QT1JUfSIgIiR7Q19SRVNFVH0iCnByaW50ZiAnJXPlhaznvZHnrqHnkIbvvJolc+S4jeimgeebtOaOpeaatOmcsuaIluerr+WPo+i9rOWPkSAlcyVzJXPvvJvlv4XpobvpgJrov4cgSFRUUFMg5Y+N5ZCR5Luj55CG6K6/6Zeu77yM5bm26K6+572u6K6/6Zeu5o6n5Yi244CCXG4nIFwKICAiJHtDX0VSUn0iICIke0NfUkVTRVR9IiAiJHtDX1RJVExFfSIgIiR7QURNSU5fUE9SVH0iICIke0NfUkVTRVR9IgpwcmludGYgJyVz5Y+N5ZCR5Luj55CG77yaJXPov5DooYwgJXNzdWRvIGtub2NrIG5naW54JXMg5p+l55yLIE5naW54IOmFjee9ruaooeadv+OAglxuJyBcCiAgIiR7Q19BQ0NFTlR9IiAiJHtDX1JFU0VUfSIgIiR7Q19USVRMRX0iICIke0NfUkVTRVR9IgpwcmludGYgJyVz566h55CG6I+c5Y2V77yaJXPpmo/ml7bov5DooYwgJXNzdWRvIGtub2NrJXMg5omT5byA5pyN5Yqh566h55CG44CB56uv5Y+j6YWN572u44CB5pu05paw5ZKM5pel5b+X44CCXG4nIFwKICAiJHtDX0FDQ0VOVH0iICIke0NfUkVTRVR9IiAiJHtDX1RJVExFfSIgIiR7Q19SRVNFVH0iCnByaW50ZiAnJXPnvZHlhbPlhaXlj6PvvJolc0dvIOS7o+eQhum7mOiupOerr+WPo+S4uiAlcyVzJXPvvJvku4XlvIDmlL7pg6jnvbLlrp7pmYXpnIDopoHnmoTnq6/lj6PjgIJcbicgXAogICIke0NfRElNfSIgIiR7Q19SRVNFVH0iICIke0NfVElUTEV9IiAiJHtQUk9YWV9QT1JUfSIgIiR7Q19SRVNFVH0iCg==
+#!/bin/sh
+set -eu
+
+DEFAULT_BASE_URL="https://cdn.fnknock.cn"
+BASE_URL="${FN_KNOCK_BASE_URL:-${DEFAULT_BASE_URL}}"
+COMMAND_FILE="${FN_KNOCK_COMMAND_FILE:-/usr/local/bin/knock}"
+APP_ROOT="${FN_KNOCK_APP_ROOT:-/opt/fn-knock}"
+WORK_DIR=""
+
+if [ -t 1 ] && [ "${NO_COLOR:-}" != "1" ]; then
+  ESC="$(printf '\033')"
+  C_RESET="${ESC}[0m" C_TITLE="${ESC}[1;38;5;45m" C_ACCENT="${ESC}[1;38;5;213m" C_OK="${ESC}[1;38;5;82m" C_ERR="${ESC}[1;38;5;203m" C_DIM="${ESC}[38;5;245m"
+else
+  C_RESET='' C_TITLE='' C_ACCENT='' C_OK='' C_ERR='' C_DIM=''
+fi
+log() { printf '%s【fn-knock 安装器】%s %s\n' "${C_TITLE}" "${C_RESET}" "$*"; }
+success() { printf '%s✓ %s%s\n' "${C_OK}" "$*" "${C_RESET}"; }
+fail() { printf '%s✗ %s%s\n' "${C_ERR}" "$*" "${C_RESET}" >&2; exit 1; }
+
+show_banner() {
+  cat <<EOF
+${C_TITLE}
+ ███████╗███╗   ██╗      ██╗  ██╗███╗   ██╗ ██████╗  ██████╗██╗  ██╗
+ ██╔════╝████╗  ██║      ██║ ██╔╝████╗  ██║██╔═══██╗██╔════╝██║ ██╔╝
+ █████╗  ██╔██╗ ██║█████╗█████╔╝ ██╔██╗ ██║██║   ██║██║     █████╔╝
+ ██╔══╝  ██║╚██╗██║╚════╝██╔═██╗ ██║╚██╗██║██║   ██║██║     ██╔═██╗
+ ██║     ██║ ╚████║      ██║  ██╗██║ ╚████║╚██████╔╝╚██████╗██║  ██╗
+ ╚═╝     ╚═╝  ╚═══╝      ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝${C_RESET}
+${C_DIM}                         Linux 一键安装器${C_RESET}
+EOF
+}
+
+cleanup() {
+  [ -z "${WORK_DIR}" ] || rm -rf "${WORK_DIR}"
+}
+trap cleanup EXIT
+
+show_banner
+[ "$(id -u)" -eq 0 ] || fail "需要 root 权限，请使用：sudo sh"
+[ "$(uname -s)" = "Linux" ] || fail "仅支持 Linux 系统"
+
+normalize_arch() {
+  case "$(uname -m)" in
+    x86_64|amd64) printf '%s\n' amd64 ;;
+    aarch64|arm64) printf '%s\n' arm64 ;;
+    armv7l|armv8l|armhf|arm) printf '%s\n' arm ;;
+    *) return 1 ;;
+  esac
+}
+
+install_dependencies() {
+  missing=0
+  for command_name in bash curl openssl unzip tar gzip ss install; do
+    command -v "${command_name}" >/dev/null 2>&1 || missing=1
+  done
+  [ "${missing}" = "1" ] || return 0
+
+  log "正在安装所需系统依赖…"
+  if command -v apt-get >/dev/null 2>&1; then
+    DEBIAN_FRONTEND=noninteractive apt-get update -y
+    DEBIAN_FRONTEND=noninteractive apt-get install -y ca-certificates curl openssl unzip tar gzip iproute2
+  elif command -v dnf >/dev/null 2>&1; then
+    dnf install -y ca-certificates curl openssl unzip tar gzip iproute
+  elif command -v yum >/dev/null 2>&1; then
+    yum install -y ca-certificates curl openssl unzip tar gzip iproute
+  elif command -v apk >/dev/null 2>&1; then
+    apk add --no-cache bash ca-certificates curl openssl unzip tar gzip iproute2 coreutils procps
+  else
+    fail "缺少运行依赖，且未找到受支持的软件包管理器"
+  fi
+}
+
+detect_service_manager() {
+  if command -v systemctl >/dev/null 2>&1 && [ -d /run/systemd/system ]; then
+    SERVICE_MANAGER=systemd
+  elif command -v rc-service >/dev/null 2>&1 && command -v rc-update >/dev/null 2>&1; then
+    [ -d /run/openrc ] || fail "检测到 OpenRC，但当前未运行 OpenRC"
+    SERVICE_MANAGER=openrc
+  else
+    fail "仅支持正在运行的 systemd 或 OpenRC"
+  fi
+  export FN_KNOCK_SERVICE_MANAGER="${SERVICE_MANAGER}"
+  log "检测到服务管理器：${SERVICE_MANAGER}"
+}
+
+installed_version() {
+  release_file="${APP_ROOT}/current/release.json"
+  if [ -f "${release_file}" ]; then
+    sed -nE 's/^[[:space:]]*"version"[[:space:]]*:[[:space:]]*"([^"]+)".*/\1/p' "${release_file}" | head -n1
+  fi
+}
+
+choose_action() {
+  answer='' version=''
+  if [ -x "${COMMAND_FILE}" ] && [ -f "${APP_ROOT}/current/release.json" ]; then
+    version="$(installed_version)"
+    log "检测到已安装的 fn-knock${version:+（版本 ${version}）}"
+    printf '\n%s━━━ 请选择操作 ━━━%s\n' "${C_ACCENT}" "${C_RESET}" >&2
+    printf '  %s[1]%s 下载并安装最新版本\n' "${C_OK}" "${C_RESET}" >&2
+    printf '  %s[2]%s 打开 fn-knock 管理菜单\n' "${C_ACCENT}" "${C_RESET}" >&2
+    printf '  %s[3]%s 查看服务状态\n' "${C_ACCENT}" "${C_RESET}" >&2
+    printf '  %s[4]%s 卸载 fn-knock（需输入 Y 确认）\n' "${C_ERR}" "${C_RESET}" >&2
+    printf '  %s[0]%s 退出\n' "${C_DIM}" "${C_RESET}" >&2
+    printf '请选择 [1]: ' >&2
+    read -r answer </dev/tty || fail "需要可交互的终端"
+    case "${answer:-1}" in
+      1) return 0 ;;
+      2) exec "${COMMAND_FILE}" ;;
+      3) exec "${COMMAND_FILE}" status ;;
+      4) exec "${COMMAND_FILE}" uninstall ;;
+      0) exit 0 ;;
+      *) fail "无效选择" ;;
+    esac
+  fi
+
+  printf '\n%s未检测到已安装的 fn-knock%s\n' "${C_ACCENT}" "${C_RESET}" >&2
+  printf '  %s[1]%s 安装 fn-knock\n' "${C_OK}" "${C_RESET}" >&2
+  printf '  %s[0]%s 退出\n' "${C_DIM}" "${C_RESET}" >&2
+  printf '请选择 [1]: ' >&2
+  read -r answer </dev/tty || fail "需要可交互的终端"
+  case "${answer:-1}" in
+    1) ;;
+    0) exit 0 ;;
+    *) fail "无效选择" ;;
+  esac
+}
+
+manifest_value() {
+  file="$1" key="$2"
+  awk -v wanted="${key}" '
+    index($0, wanted "=") == 1 { count++; value = substr($0, length(wanted) + 2) }
+    END { if (count != 1) exit 1; print value }
+  ' "${file}"
+}
+
+configured_port() {
+  key="$1" fallback="$2" config_file="${FN_KNOCK_ENV_FILE:-/etc/fn-knock/fn-knock.env}" value=""
+  if [ -f "${config_file}" ]; then
+    value="$(awk -v wanted="${key}" '
+      index($0, wanted "=") == 1 { print substr($0, length(wanted) + 2); exit }
+    ' "${config_file}")"
+  fi
+  printf '%s\n' "${value:-${fallback}}"
+}
+
+file_sha256() {
+  if command -v sha256sum >/dev/null 2>&1; then
+    sha256sum "$1" | awk '{print $1}'
+  else
+    openssl dgst -sha256 "$1" | awk '{print $NF}'
+  fi
+}
+
+tar_list_archive() {
+  archive_path="$1" list_path="$2"
+  if tar --help 2>&1 | grep -- '--warning' >/dev/null; then
+    tar --warning=no-unknown-keyword --warning=no-timestamp -tzf "${archive_path}" > "${list_path}"
+  else
+    tar -tzf "${archive_path}" > "${list_path}"
+  fi
+}
+
+tar_extract_archive() {
+  archive_path="$1" destination="$2"
+  if tar --help 2>&1 | grep -- '--warning' >/dev/null; then
+    tar --warning=no-unknown-keyword --warning=no-timestamp -xzf "${archive_path}" -C "${destination}"
+  else
+    tar -xzf "${archive_path}" -C "${destination}"
+  fi
+}
+
+install_dependencies
+detect_service_manager
+choose_action
+ARCH="$(normalize_arch)" || fail "不支持的系统架构：$(uname -m)"
+WORK_DIR="$(mktemp -d /tmp/fn-knock-installer.XXXXXX)"
+MANIFEST_FILE="${WORK_DIR}/latest.env"
+ARCHIVE_FILE="${WORK_DIR}/release.tar.gz"
+
+log "检测到系统架构：${ARCH}"
+curl --fail --silent --show-error --location --retry 3 --connect-timeout 15 \
+  -o "${MANIFEST_FILE}" "${BASE_URL%/}/linux/latest/${ARCH}.env"
+
+VERSION="$(manifest_value "${MANIFEST_FILE}" VERSION)" || fail "发布清单中的 VERSION 无效"
+URL="$(manifest_value "${MANIFEST_FILE}" URL)" || fail "发布清单中的 URL 无效"
+SHA256="$(manifest_value "${MANIFEST_FILE}" SHA256)" || fail "发布清单中的 SHA256 无效"
+SIZE="$(manifest_value "${MANIFEST_FILE}" SIZE)" || fail "发布清单中的 SIZE 无效"
+
+printf '%s' "${VERSION}" | grep -Eq '^[0-9][0-9A-Za-z._+-]*$' || fail "发布版本号无效"
+printf '%s' "${SHA256}" | grep -Eq '^[0-9a-fA-F]{64}$' || fail "发布校验和无效"
+printf '%s' "${SIZE}" | grep -Eq '^[1-9][0-9]*$' || fail "发布包大小无效"
+case "${URL}" in
+  https://*) ;;
+  http://*) [ "${FN_KNOCK_ALLOW_INSECURE_HTTP:-0}" = "1" ] || fail "发布地址必须使用 HTTPS" ;;
+  *) fail "发布地址必须为绝对 URL" ;;
+esac
+
+log "正在下载 fn-knock ${VERSION}…"
+curl --fail --silent --show-error --location --retry 3 --connect-timeout 15 \
+  -o "${ARCHIVE_FILE}" "${URL}"
+
+ACTUAL_SIZE="$(wc -c < "${ARCHIVE_FILE}" | tr -d '[:space:]')"
+[ "${ACTUAL_SIZE}" = "${SIZE}" ] || fail "下载文件大小不匹配"
+ACTUAL_SHA256="$(file_sha256 "${ARCHIVE_FILE}")"
+[ "${ACTUAL_SHA256}" = "${SHA256}" ] || fail "下载文件校验和不匹配"
+tar_list_archive "${ARCHIVE_FILE}" "${WORK_DIR}/archive.list"
+grep -qx 'fn-knock/release.json' "${WORK_DIR}/archive.list" || fail "发布包目录结构无效"
+tar_extract_archive "${ARCHIVE_FILE}" "${WORK_DIR}"
+[ -x "${WORK_DIR}/fn-knock/bin/knock" ] || fail "发布包不包含管理命令"
+
+log "正在安装前检测所需端口…"
+"${WORK_DIR}/fn-knock/bin/knock" _prepare-install
+"${WORK_DIR}/fn-knock/bin/knock" _install-extracted "${WORK_DIR}/fn-knock" "${VERSION}"
+
+success "fn-knock ${VERSION} 安装完成！"
+ADMIN_PORT="$(configured_port ADMIN_VIEW_PORT 7991)"
+PROXY_PORT="$(configured_port GO_REPROXY_PORT 7999)"
+printf '\n%s━━━ 下一步 ━━━%s\n' "${C_ACCENT}" "${C_RESET}"
+printf '%s局域网配置：%s请在局域网浏览器打开 %shttp://<服务器局域网 IP>:%s/%s\n' \
+  "${C_OK}" "${C_RESET}" "${C_TITLE}" "${ADMIN_PORT}" "${C_RESET}"
+printf '%s公网管理：%s不要直接暴露或端口转发 %s%s%s；必须通过 HTTPS 反向代理访问，并设置访问控制。\n' \
+  "${C_ERR}" "${C_RESET}" "${C_TITLE}" "${ADMIN_PORT}" "${C_RESET}"
+printf '%s反向代理：%s运行 %ssudo knock nginx%s 查看 Nginx 配置模板。\n' \
+  "${C_ACCENT}" "${C_RESET}" "${C_TITLE}" "${C_RESET}"
+printf '%s管理菜单：%s随时运行 %ssudo knock%s 打开服务管理、端口配置、更新和日志。\n' \
+  "${C_ACCENT}" "${C_RESET}" "${C_TITLE}" "${C_RESET}"
+printf '%s网关入口：%sGo 代理默认端口为 %s%s%s；仅开放部署实际需要的端口。\n' \
+  "${C_DIM}" "${C_RESET}" "${C_TITLE}" "${PROXY_PORT}" "${C_RESET}"

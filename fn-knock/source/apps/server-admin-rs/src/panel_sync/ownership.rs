@@ -1,1 +1,271 @@
-dXNlIHN0ZDo6Y29sbGVjdGlvbnM6Okhhc2hTZXQ7Cgp1c2Ugc2hhMjo6e0RpZ2VzdCwgU2hhMjU2fTsKdXNlIHRpbWU6OntEdXJhdGlvbiwgT2Zmc2V0RGF0ZVRpbWUsIGZvcm1hdF9kZXNjcmlwdGlvbjo6d2VsbF9rbm93bjo6UmZjMzMzOX07Cgp1c2Ugc3VwZXI6Om1vZGVsOjoqOwoKcHViIGZuIGRldGVybWluaXN0aWNfbmFtZShjb25uZWN0aW9uX2lkOiAmc3RyLCBzb3VyY2VfaWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBsZXQgZGlnZXN0ID0gU2hhMjU2OjpkaWdlc3QoZm9ybWF0ISgie2Nvbm5lY3Rpb25faWR9Ontzb3VyY2VfaWR9IikuYXNfYnl0ZXMoKSk7CiAgICBmb3JtYXQhKCJmbi1rbm9jay17fSIsICZoZXg6OmVuY29kZShkaWdlc3QpWy4uMjRdKQp9CgpwdWIgZm4gZmluZ2VycHJpbnQ8VDogc2VyZGU6OlNlcmlhbGl6ZT4odmFsdWU6ICZUKSAtPiBTdHJpbmcgewogICAgaGV4OjplbmNvZGUoU2hhMjU2OjpkaWdlc3QoCiAgICAgICAgc2VyZGVfanNvbjo6dG9fdmVjKHZhbHVlKS51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgKSkKfQoKcHViIGZuIGJ1aWxkX3BsYW4oCiAgICBjb25uZWN0aW9uOiAmUGFuZWxDb25uZWN0aW9uLAogICAgcHJvamVjdGlvbjogUGFuZWxMaW5rUHJvamVjdGlvbiwKICAgIG11dCBtYW5hZ2VkOiBNYW5hZ2VkU3RhdGUsCiAgICByZW1vdGU6IFJlbW90ZVNuYXBzaG90LAogICAgY2FwYWJpbGl0aWVzOiAmQWRhcHRlckNhcGFiaWxpdGllcywKKSAtPiBBZGFwdGVyUGxhbiB7CiAgICBmb3IgKHNvdXJjZV9pZCwgb2JqZWN0KSBpbiAmcmVtb3RlLnJlY292ZXJlZC5ncm91cHMgewogICAgICAgIG1hbmFnZWQKICAgICAgICAgICAgLmdyb3VwcwogICAgICAgICAgICAuZW50cnkoc291cmNlX2lkLmNsb25lKCkpCiAgICAgICAgICAgIC5vcl9pbnNlcnRfd2l0aCh8fCBvYmplY3QuY2xvbmUoKSk7CiAgICB9CiAgICBmb3IgKHNvdXJjZV9pZCwgb2JqZWN0KSBpbiAmcmVtb3RlLnJlY292ZXJlZC5saW5rcyB7CiAgICAgICAgbWFuYWdlZAogICAgICAgICAgICAubGlua3MKICAgICAgICAgICAgLmVudHJ5KHNvdXJjZV9pZC5jbG9uZSgpKQogICAgICAgICAgICAub3JfaW5zZXJ0X3dpdGgofHwgb2JqZWN0LmNsb25lKCkpOwogICAgfQogICAgbGV0IG11dCBhY3Rpb25zID0gcmVtb3RlLmNvbmZsaWN0cy5jbG9uZSgpOwogICAgbGV0IHByb2plY3RlZF9ncm91cHMgPSBwcm9qZWN0aW9uCiAgICAgICAgLmdyb3VwcwogICAgICAgIC5pdGVyKCkKICAgICAgICAubWFwKHxncm91cHwgZ3JvdXAuc291cmNlX2lkLmFzX3N0cigpKQogICAgICAgIC5jb2xsZWN0Ojo8SGFzaFNldDxfPj4oKTsKICAgIGxldCBwcm9qZWN0ZWRfbGlua3MgPSBwcm9qZWN0aW9uCiAgICAgICAgLmxpbmtzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5tYXAofGxpbmt8IGxpbmsuc3luY19pZC5hc19zdHIoKSkKICAgICAgICAuY29sbGVjdDo6PEhhc2hTZXQ8Xz4+KCk7CiAgICBmb3IgZ3JvdXAgaW4gJnByb2plY3Rpb24uZ3JvdXBzIHsKICAgICAgICBsZXQgZXhwZWN0ZWQgPSBmaW5nZXJwcmludChncm91cCk7CiAgICAgICAgbWF0Y2ggbWFuYWdlZC5ncm91cHMuZ2V0KCZncm91cC5zb3VyY2VfaWQpIHsKICAgICAgICAgICAgTm9uZSA9PiBhY3Rpb25zLnB1c2goYWN0aW9uKAogICAgICAgICAgICAgICAgUGxhbkFjdGlvbktpbmQ6OkNyZWF0ZSwKICAgICAgICAgICAgICAgICJncm91cCIsCiAgICAgICAgICAgICAgICAmZ3JvdXAuc291cmNlX2lkLAogICAgICAgICAgICAgICAgTm9uZSwKICAgICAgICAgICAgICAgICZncm91cC5uYW1lLAogICAgICAgICAgICAgICAgIuWIm+W7uuS4k+WxnuWIhuexuyIsCiAgICAgICAgICAgICkpLAogICAgICAgICAgICBTb21lKG93bmVkKQogICAgICAgICAgICAgICAgaWYgIXJlbW90ZQogICAgICAgICAgICAgICAgICAgIC5ncm91cHMKICAgICAgICAgICAgICAgICAgICAuZ2V0KCZncm91cC5zb3VyY2VfaWQpCiAgICAgICAgICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHxpdGVtfCBpdGVtLmV4aXN0cykgPT4KICAgICAgICAgICAgewogICAgICAgICAgICAgICAgYWN0aW9ucy5wdXNoKGFjdGlvbigKICAgICAgICAgICAgICAgICAgICBQbGFuQWN0aW9uS2luZDo6Q3JlYXRlLAogICAgICAgICAgICAgICAgICAgICJncm91cCIsCiAgICAgICAgICAgICAgICAgICAgJmdyb3VwLnNvdXJjZV9pZCwKICAgICAgICAgICAgICAgICAgICBTb21lKCZvd25lZC5yZW1vdGVfaWQpLAogICAgICAgICAgICAgICAgICAgICZncm91cC5uYW1lLAogICAgICAgICAgICAgICAgICAgICLov5znq6/liIbnsbvlt7LooqvliKDpmaTvvIzlsIbph43mlrDliJvlu7oiLAogICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgfQogICAgICAgICAgICBTb21lKG93bmVkKQogICAgICAgICAgICAgICAgaWYgb3duZWQuZmluZ2VycHJpbnQgIT0gZXhwZWN0ZWQKICAgICAgICAgICAgICAgICAgICB8fCByZW1vdGUuZ3JvdXBzLmdldCgmZ3JvdXAuc291cmNlX2lkKS5pc19zb21lX2FuZCh8aXRlbXwgewogICAgICAgICAgICAgICAgICAgICAgICBpdGVtLmZpbmdlcnByaW50ICE9IGV4cGVjdGVkIHx8IGl0ZW0ucmVtb3RlX2lkICE9IG93bmVkLnJlbW90ZV9pZAogICAgICAgICAgICAgICAgICAgIH0pID0+CiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGxldCAoa2luZCwgZGV0YWlsKSA9IGlmIGNhcGFiaWxpdGllcy5jYW5fdXBkYXRlX2dyb3VwcyB7CiAgICAgICAgICAgICAgICAgICAgKFBsYW5BY3Rpb25LaW5kOjpVcGRhdGUsICLmgaLlpI0gZm4ta25vY2sg5YiG57G75a6a5LmJIikKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgKAogICAgICAgICAgICAgICAgICAgICAgICBQbGFuQWN0aW9uS2luZDo6UmVzaWR1YWwsCiAgICAgICAgICAgICAgICAgICAgICAgICLpnaLmnb/lrpjmlrkgQVBJIOS4jeaUr+aMgeWIhuexu+aUueWQje+8jOWwhuS/neeVmei/nOerr+WIhuexu+agh+mimCIsCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfTsKICAgICAgICAgICAgICAgIGFjdGlvbnMucHVzaChhY3Rpb24oCiAgICAgICAgICAgICAgICAgICAga2luZCwKICAgICAgICAgICAgICAgICAgICAiZ3JvdXAiLAogICAgICAgICAgICAgICAgICAgICZncm91cC5zb3VyY2VfaWQsCiAgICAgICAgICAgICAgICAgICAgU29tZSgmb3duZWQucmVtb3RlX2lkKSwKICAgICAgICAgICAgICAgICAgICAmZ3JvdXAubmFtZSwKICAgICAgICAgICAgICAgICAgICBkZXRhaWwsCiAgICAgICAgICAgICAgICApKQogICAgICAgICAgICB9CiAgICAgICAgICAgIFNvbWUob3duZWQpID0+IGFjdGlvbnMucHVzaChhY3Rpb24oCiAgICAgICAgICAgICAgICBQbGFuQWN0aW9uS2luZDo6VW5jaGFuZ2VkLAogICAgICAgICAgICAgICAgImdyb3VwIiwKICAgICAgICAgICAgICAgICZncm91cC5zb3VyY2VfaWQsCiAgICAgICAgICAgICAgICBTb21lKCZvd25lZC5yZW1vdGVfaWQpLAogICAgICAgICAgICAgICAgJmdyb3VwLm5hbWUsCiAgICAgICAgICAgICAgICAi5peg6ZyA5Y+Y5pu0IiwKICAgICAgICAgICAgKSksCiAgICAgICAgfQogICAgfQogICAgZm9yIGxpbmsgaW4gJnByb2plY3Rpb24ubGlua3MgewogICAgICAgIGxldCBleHBlY3RlZCA9IGZpbmdlcnByaW50KGxpbmspOwogICAgICAgIG1hdGNoIG1hbmFnZWQubGlua3MuZ2V0KCZsaW5rLnN5bmNfaWQpIHsKICAgICAgICAgICAgTm9uZSA9PiBhY3Rpb25zLnB1c2goYWN0aW9uKAogICAgICAgICAgICAgICAgUGxhbkFjdGlvbktpbmQ6OkNyZWF0ZSwKICAgICAgICAgICAgICAgICJsaW5rIiwKICAgICAgICAgICAgICAgICZsaW5rLnN5bmNfaWQsCiAgICAgICAgICAgICAgICBOb25lLAogICAgICAgICAgICAgICAgJmxpbmsudGl0bGUsCiAgICAgICAgICAgICAgICAi5Yib5bu66ZO+5o6lIiwKICAgICAgICAgICAgKSksCiAgICAgICAgICAgIFNvbWUob3duZWQpCiAgICAgICAgICAgICAgICBpZiAhcmVtb3RlCiAgICAgICAgICAgICAgICAgICAgLmxpbmtzCiAgICAgICAgICAgICAgICAgICAgLmdldCgmbGluay5zeW5jX2lkKQogICAgICAgICAgICAgICAgICAgIC5pc19zb21lX2FuZCh8aXRlbXwgaXRlbS5leGlzdHMpID0+CiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGFjdGlvbnMucHVzaChhY3Rpb24oCiAgICAgICAgICAgICAgICAgICAgUGxhbkFjdGlvbktpbmQ6OkNyZWF0ZSwKICAgICAgICAgICAgICAgICAgICAibGluayIsCiAgICAgICAgICAgICAgICAgICAgJmxpbmsuc3luY19pZCwKICAgICAgICAgICAgICAgICAgICBTb21lKCZvd25lZC5yZW1vdGVfaWQpLAogICAgICAgICAgICAgICAgICAgICZsaW5rLnRpdGxlLAogICAgICAgICAgICAgICAgICAgICLov5znq6/pk77mjqXlt7LooqvliKDpmaTvvIzlsIbph43mlrDliJvlu7oiLAogICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgfQogICAgICAgICAgICBTb21lKG93bmVkKQogICAgICAgICAgICAgICAgaWYgb3duZWQuZmluZ2VycHJpbnQgIT0gZXhwZWN0ZWQKICAgICAgICAgICAgICAgICAgICB8fCByZW1vdGUubGlua3MuZ2V0KCZsaW5rLnN5bmNfaWQpLmlzX3NvbWVfYW5kKHxpdGVtfCB7CiAgICAgICAgICAgICAgICAgICAgICAgIGl0ZW0uZmluZ2VycHJpbnQgIT0gZXhwZWN0ZWQgfHwgaXRlbS5yZW1vdGVfaWQgIT0gb3duZWQucmVtb3RlX2lkCiAgICAgICAgICAgICAgICAgICAgfSkgPT4KICAgICAgICAgICAgewogICAgICAgICAgICAgICAgYWN0aW9ucy5wdXNoKGFjdGlvbigKICAgICAgICAgICAgICAgICAgICBQbGFuQWN0aW9uS2luZDo6VXBkYXRlLAogICAgICAgICAgICAgICAgICAgICJsaW5rIiwKICAgICAgICAgICAgICAgICAgICAmbGluay5zeW5jX2lkLAogICAgICAgICAgICAgICAgICAgIFNvbWUoJm93bmVkLnJlbW90ZV9pZCksCiAgICAgICAgICAgICAgICAgICAgJmxpbmsudGl0bGUsCiAgICAgICAgICAgICAgICAgICAgIuimhueblumdouadv+S+p+S/ruaUuSIsCiAgICAgICAgICAgICAgICApKQogICAgICAgICAgICB9CiAgICAgICAgICAgIFNvbWUob3duZWQpID0+IGFjdGlvbnMucHVzaChhY3Rpb24oCiAgICAgICAgICAgICAgICBQbGFuQWN0aW9uS2luZDo6VW5jaGFuZ2VkLAogICAgICAgICAgICAgICAgImxpbmsiLAogICAgICAgICAgICAgICAgJmxpbmsuc3luY19pZCwKICAgICAgICAgICAgICAgIFNvbWUoJm93bmVkLnJlbW90ZV9pZCksCiAgICAgICAgICAgICAgICAmbGluay50aXRsZSwKICAgICAgICAgICAgICAgICLml6DpnIDlj5jmm7QiLAogICAgICAgICAgICApKSwKICAgICAgICB9CiAgICB9CiAgICBmb3IgKHNvdXJjZV9pZCwgb3duZWQpIGluICZtYW5hZ2VkLmxpbmtzIHsKICAgICAgICBpZiAhcHJvamVjdGVkX2xpbmtzLmNvbnRhaW5zKHNvdXJjZV9pZC5hc19zdHIoKSkgewogICAgICAgICAgICBsZXQgcmVtb3RlX2V4aXN0cyA9IHJlbW90ZS5saW5rcy5nZXQoc291cmNlX2lkKS5pc19ub25lX29yKHxpdGVtfCBpdGVtLmV4aXN0cyk7CiAgICAgICAgICAgIGxldCBraW5kID0gaWYgY2FwYWJpbGl0aWVzLmNhbl9kZWxldGUgJiYgcmVtb3RlX2V4aXN0cyB7CiAgICAgICAgICAgICAgICBQbGFuQWN0aW9uS2luZDo6RGVsZXRlCiAgICAgICAgICAgIH0gZWxzZSBpZiBjYXBhYmlsaXRpZXMuY2FuX2RlbGV0ZSB7CiAgICAgICAgICAgICAgICBQbGFuQWN0aW9uS2luZDo6VW5jaGFuZ2VkCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBQbGFuQWN0aW9uS2luZDo6UmVzaWR1YWwKICAgICAgICAgICAgfTsKICAgICAgICAgICAgYWN0aW9ucy5wdXNoKGFjdGlvbigKICAgICAgICAgICAgICAgIGtpbmQsCiAgICAgICAgICAgICAgICAibGluayIsCiAgICAgICAgICAgICAgICBzb3VyY2VfaWQsCiAgICAgICAgICAgICAgICBTb21lKCZvd25lZC5yZW1vdGVfaWQpLAogICAgICAgICAgICAgICAgJm93bmVkLnRpdGxlLAogICAgICAgICAgICAgICAgaWYgY2FwYWJpbGl0aWVzLmNhbl9kZWxldGUgJiYgcmVtb3RlX2V4aXN0cyB7CiAgICAgICAgICAgICAgICAgICAgIuWIoOmZpOWkseaViOeahOiHquaciemTvuaOpSIKICAgICAgICAgICAgICAgIH0gZWxzZSBpZiBjYXBhYmlsaXRpZXMuY2FuX2RlbGV0ZSB7CiAgICAgICAgICAgICAgICAgICAgIui/nOerr+mTvuaOpeW3suS4jeWtmOWcqO+8jOS7hea4hemZpOacrOWcsOaJgOacieadg+eZu+iusCIKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgIumdouadv+ayoeacieeos+WumuWIoOmZpOaOpeWPo++8jOWwhuS/neeVmei/nOerr+aui+eVmSIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgIH0KICAgIGZvciAoc291cmNlX2lkLCBvd25lZCkgaW4gJm1hbmFnZWQuZ3JvdXBzIHsKICAgICAgICBpZiAhcHJvamVjdGVkX2dyb3Vwcy5jb250YWlucyhzb3VyY2VfaWQuYXNfc3RyKCkpIHsKICAgICAgICAgICAgbGV0IHJlbW90ZV9leGlzdHMgPSByZW1vdGUuZ3JvdXBzLmdldChzb3VyY2VfaWQpLmlzX25vbmVfb3IofGl0ZW18IGl0ZW0uZXhpc3RzKTsKICAgICAgICAgICAgbGV0IGtpbmQgPSBpZiBjYXBhYmlsaXRpZXMuY2FuX2RlbGV0ZSAmJiByZW1vdGVfZXhpc3RzIHsKICAgICAgICAgICAgICAgIFBsYW5BY3Rpb25LaW5kOjpEZWxldGUKICAgICAgICAgICAgfSBlbHNlIGlmIGNhcGFiaWxpdGllcy5jYW5fZGVsZXRlIHsKICAgICAgICAgICAgICAgIFBsYW5BY3Rpb25LaW5kOjpVbmNoYW5nZWQKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIFBsYW5BY3Rpb25LaW5kOjpSZXNpZHVhbAogICAgICAgICAgICB9OwogICAgICAgICAgICBhY3Rpb25zLnB1c2goYWN0aW9uKAogICAgICAgICAgICAgICAga2luZCwKICAgICAgICAgICAgICAgICJncm91cCIsCiAgICAgICAgICAgICAgICBzb3VyY2VfaWQsCiAgICAgICAgICAgICAgICBTb21lKCZvd25lZC5yZW1vdGVfaWQpLAogICAgICAgICAgICAgICAgJm93bmVkLnRpdGxlLAogICAgICAgICAgICAgICAgaWYgY2FwYWJpbGl0aWVzLmNhbl9kZWxldGUgJiYgcmVtb3RlX2V4aXN0cyB7CiAgICAgICAgICAgICAgICAgICAgIuWIoOmZpOepuueahOiHquacieWIhuexuyIKICAgICAgICAgICAgICAgIH0gZWxzZSBpZiBjYXBhYmlsaXRpZXMuY2FuX2RlbGV0ZSB7CiAgICAgICAgICAgICAgICAgICAgIui/nOerr+WIhuexu+W3suS4jeWtmOWcqO+8jOS7hea4hemZpOacrOWcsOaJgOacieadg+eZu+iusCIKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgIumdouadv+ayoeacieeos+WumuWIoOmZpOaOpeWPo++8jOWwhuS/neeVmei/nOerr+aui+eVmSIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgIH0KICAgIGxldCBtdXQgY291bnRzID0gUGxhbkNvdW50czo6ZGVmYXVsdCgpOwogICAgZm9yIGFjdGlvbiBpbiAmYWN0aW9ucyB7CiAgICAgICAgbWF0Y2ggYWN0aW9uLmtpbmQgewogICAgICAgICAgICBQbGFuQWN0aW9uS2luZDo6Q3JlYXRlID0+IGNvdW50cy5jcmVhdGUgKz0gMSwKICAgICAgICAgICAgUGxhbkFjdGlvbktpbmQ6OlVwZGF0ZSA9PiBjb3VudHMudXBkYXRlICs9IDEsCiAgICAgICAgICAgIFBsYW5BY3Rpb25LaW5kOjpEZWxldGUgPT4gY291bnRzLmRlbGV0ZSArPSAxLAogICAgICAgICAgICBQbGFuQWN0aW9uS2luZDo6VW5jaGFuZ2VkID0+IGNvdW50cy51bmNoYW5nZWQgKz0gMSwKICAgICAgICAgICAgUGxhbkFjdGlvbktpbmQ6OlJlc2lkdWFsID0+IGNvdW50cy5yZXNpZHVhbCArPSAxLAogICAgICAgICAgICBQbGFuQWN0aW9uS2luZDo6Q29uZmxpY3QgPT4gY291bnRzLmNvbmZsaWN0ICs9IDEsCiAgICAgICAgfQogICAgfQogICAgbGV0IG11dCB3YXJuaW5ncyA9IHByb2plY3Rpb24ud2FybmluZ3MuY2xvbmUoKTsKICAgIHdhcm5pbmdzLmV4dGVuZChyZW1vdGUud2FybmluZ3MpOwogICAgaWYgY291bnRzLnJlc2lkdWFsID4gMCB7CiAgICAgICAgd2FybmluZ3MKICAgICAgICAgICAgLnB1c2goIlN1bi1QYW5lbCDkuI3mj5DkvpvnqLPlrprliKDpmaTlkozliIbnsbvmlLnlkI3mjqXlj6PvvIznm7jlhbPlr7nosaHku4XmiqXlkYrkuLrov5znq6/mrovnlZkiLnRvX3N0cmluZygpKTsKICAgIH0KICAgIGxldCBzb3VyY2VfcmV2aXNpb24gPSBwcm9qZWN0aW9uLnJldmlzaW9uLmNsb25lKCk7CiAgICBsZXQgaGFzaF9pbnB1dCA9IHNlcmRlX2pzb246Ompzb24hKHsKICAgICAgICAiY29ubmVjdGlvbl9pZCI6IGNvbm5lY3Rpb24uaWQsCiAgICAgICAgInNvdXJjZV9yZXZpc2lvbiI6IHNvdXJjZV9yZXZpc2lvbiwKICAgICAgICAiYWN0aW9ucyI6IGFjdGlvbnMsCiAgICB9KTsKICAgIGxldCBwbGFuX2hhc2ggPSBmaW5nZXJwcmludCgmaGFzaF9pbnB1dCk7CiAgICBsZXQgZXhwaXJlc19hdCA9IChPZmZzZXREYXRlVGltZTo6bm93X3V0YygpICsgRHVyYXRpb246Om1pbnV0ZXMoMTApKQogICAgICAgIC5mb3JtYXQoJlJmYzMzMzkpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgY2FuX2FwcGx5ID0gY291bnRzLmNvbmZsaWN0ID09IDA7CiAgICBBZGFwdGVyUGxhbiB7CiAgICAgICAgcHJldmlldzogU3luY1ByZXZpZXcgewogICAgICAgICAgICBjb25uZWN0aW9uX2lkOiBjb25uZWN0aW9uLmlkLmNsb25lKCksCiAgICAgICAgICAgIHNvdXJjZV9yZXZpc2lvbiwKICAgICAgICAgICAgcGxhbl9oYXNoLAogICAgICAgICAgICBjb3VudHMsCiAgICAgICAgICAgIGFjdGlvbnMsCiAgICAgICAgICAgIHdhcm5pbmdzLAogICAgICAgICAgICBjYW5fYXBwbHksCiAgICAgICAgICAgIGV4cGlyZXNfYXQsCiAgICAgICAgfSwKICAgICAgICBwcm9qZWN0aW9uLAogICAgICAgIG1hbmFnZWQsCiAgICB9Cn0KCmZuIGFjdGlvbigKICAgIGtpbmQ6IFBsYW5BY3Rpb25LaW5kLAogICAgb2JqZWN0X3R5cGU6ICZzdHIsCiAgICBzb3VyY2VfaWQ6ICZzdHIsCiAgICByZW1vdGVfaWQ6IE9wdGlvbjwmc3RyPiwKICAgIHRpdGxlOiAmc3RyLAogICAgZGV0YWlsOiAmc3RyLAopIC0+IFBsYW5BY3Rpb24gewogICAgUGxhbkFjdGlvbiB7CiAgICAgICAga2luZCwKICAgICAgICBvYmplY3RfdHlwZTogb2JqZWN0X3R5cGUudG9fc3RyaW5nKCksCiAgICAgICAgc291cmNlX2lkOiBTb21lKHNvdXJjZV9pZC50b19zdHJpbmcoKSksCiAgICAgICAgcmVtb3RlX2lkOiByZW1vdGVfaWQubWFwKHN0cjo6dG9fc3RyaW5nKSwKICAgICAgICB0aXRsZTogdGl0bGUudG9fc3RyaW5nKCksCiAgICAgICAgZGV0YWlsOiBkZXRhaWwudG9fc3RyaW5nKCksCiAgICB9Cn0K
+use std::collections::HashSet;
+
+use sha2::{Digest, Sha256};
+use time::{Duration, OffsetDateTime, format_description::well_known::Rfc3339};
+
+use super::model::*;
+
+pub fn deterministic_name(connection_id: &str, source_id: &str) -> String {
+    let digest = Sha256::digest(format!("{connection_id}:{source_id}").as_bytes());
+    format!("fn-knock-{}", &hex::encode(digest)[..24])
+}
+
+pub fn fingerprint<T: serde::Serialize>(value: &T) -> String {
+    hex::encode(Sha256::digest(
+        serde_json::to_vec(value).unwrap_or_default(),
+    ))
+}
+
+pub fn build_plan(
+    connection: &PanelConnection,
+    projection: PanelLinkProjection,
+    mut managed: ManagedState,
+    remote: RemoteSnapshot,
+    capabilities: &AdapterCapabilities,
+) -> AdapterPlan {
+    for (source_id, object) in &remote.recovered.groups {
+        managed
+            .groups
+            .entry(source_id.clone())
+            .or_insert_with(|| object.clone());
+    }
+    for (source_id, object) in &remote.recovered.links {
+        managed
+            .links
+            .entry(source_id.clone())
+            .or_insert_with(|| object.clone());
+    }
+    let mut actions = remote.conflicts.clone();
+    let projected_groups = projection
+        .groups
+        .iter()
+        .map(|group| group.source_id.as_str())
+        .collect::<HashSet<_>>();
+    let projected_links = projection
+        .links
+        .iter()
+        .map(|link| link.sync_id.as_str())
+        .collect::<HashSet<_>>();
+    for group in &projection.groups {
+        let expected = fingerprint(group);
+        match managed.groups.get(&group.source_id) {
+            None => actions.push(action(
+                PlanActionKind::Create,
+                "group",
+                &group.source_id,
+                None,
+                &group.name,
+                "创建专属分类",
+            )),
+            Some(owned)
+                if !remote
+                    .groups
+                    .get(&group.source_id)
+                    .is_some_and(|item| item.exists) =>
+            {
+                actions.push(action(
+                    PlanActionKind::Create,
+                    "group",
+                    &group.source_id,
+                    Some(&owned.remote_id),
+                    &group.name,
+                    "远端分类已被删除，将重新创建",
+                ))
+            }
+            Some(owned)
+                if owned.fingerprint != expected
+                    || remote.groups.get(&group.source_id).is_some_and(|item| {
+                        item.fingerprint != expected || item.remote_id != owned.remote_id
+                    }) =>
+            {
+                let (kind, detail) = if capabilities.can_update_groups {
+                    (PlanActionKind::Update, "恢复 fn-knock 分类定义")
+                } else {
+                    (
+                        PlanActionKind::Residual,
+                        "面板官方 API 不支持分类改名，将保留远端分类标题",
+                    )
+                };
+                actions.push(action(
+                    kind,
+                    "group",
+                    &group.source_id,
+                    Some(&owned.remote_id),
+                    &group.name,
+                    detail,
+                ))
+            }
+            Some(owned) => actions.push(action(
+                PlanActionKind::Unchanged,
+                "group",
+                &group.source_id,
+                Some(&owned.remote_id),
+                &group.name,
+                "无需变更",
+            )),
+        }
+    }
+    for link in &projection.links {
+        let expected = fingerprint(link);
+        match managed.links.get(&link.sync_id) {
+            None => actions.push(action(
+                PlanActionKind::Create,
+                "link",
+                &link.sync_id,
+                None,
+                &link.title,
+                "创建链接",
+            )),
+            Some(owned)
+                if !remote
+                    .links
+                    .get(&link.sync_id)
+                    .is_some_and(|item| item.exists) =>
+            {
+                actions.push(action(
+                    PlanActionKind::Create,
+                    "link",
+                    &link.sync_id,
+                    Some(&owned.remote_id),
+                    &link.title,
+                    "远端链接已被删除，将重新创建",
+                ))
+            }
+            Some(owned)
+                if owned.fingerprint != expected
+                    || remote.links.get(&link.sync_id).is_some_and(|item| {
+                        item.fingerprint != expected || item.remote_id != owned.remote_id
+                    }) =>
+            {
+                actions.push(action(
+                    PlanActionKind::Update,
+                    "link",
+                    &link.sync_id,
+                    Some(&owned.remote_id),
+                    &link.title,
+                    "覆盖面板侧修改",
+                ))
+            }
+            Some(owned) => actions.push(action(
+                PlanActionKind::Unchanged,
+                "link",
+                &link.sync_id,
+                Some(&owned.remote_id),
+                &link.title,
+                "无需变更",
+            )),
+        }
+    }
+    for (source_id, owned) in &managed.links {
+        if !projected_links.contains(source_id.as_str()) {
+            let remote_exists = remote.links.get(source_id).is_none_or(|item| item.exists);
+            let kind = if capabilities.can_delete && remote_exists {
+                PlanActionKind::Delete
+            } else if capabilities.can_delete {
+                PlanActionKind::Unchanged
+            } else {
+                PlanActionKind::Residual
+            };
+            actions.push(action(
+                kind,
+                "link",
+                source_id,
+                Some(&owned.remote_id),
+                &owned.title,
+                if capabilities.can_delete && remote_exists {
+                    "删除失效的自有链接"
+                } else if capabilities.can_delete {
+                    "远端链接已不存在，仅清除本地所有权登记"
+                } else {
+                    "面板没有稳定删除接口，将保留远端残留"
+                },
+            ));
+        }
+    }
+    for (source_id, owned) in &managed.groups {
+        if !projected_groups.contains(source_id.as_str()) {
+            let remote_exists = remote.groups.get(source_id).is_none_or(|item| item.exists);
+            let kind = if capabilities.can_delete && remote_exists {
+                PlanActionKind::Delete
+            } else if capabilities.can_delete {
+                PlanActionKind::Unchanged
+            } else {
+                PlanActionKind::Residual
+            };
+            actions.push(action(
+                kind,
+                "group",
+                source_id,
+                Some(&owned.remote_id),
+                &owned.title,
+                if capabilities.can_delete && remote_exists {
+                    "删除空的自有分类"
+                } else if capabilities.can_delete {
+                    "远端分类已不存在，仅清除本地所有权登记"
+                } else {
+                    "面板没有稳定删除接口，将保留远端残留"
+                },
+            ));
+        }
+    }
+    let mut counts = PlanCounts::default();
+    for action in &actions {
+        match action.kind {
+            PlanActionKind::Create => counts.create += 1,
+            PlanActionKind::Update => counts.update += 1,
+            PlanActionKind::Delete => counts.delete += 1,
+            PlanActionKind::Unchanged => counts.unchanged += 1,
+            PlanActionKind::Residual => counts.residual += 1,
+            PlanActionKind::Conflict => counts.conflict += 1,
+        }
+    }
+    let mut warnings = projection.warnings.clone();
+    warnings.extend(remote.warnings);
+    if counts.residual > 0 {
+        warnings
+            .push("Sun-Panel 不提供稳定删除和分类改名接口，相关对象仅报告为远端残留".to_string());
+    }
+    let source_revision = projection.revision.clone();
+    let hash_input = serde_json::json!({
+        "connection_id": connection.id,
+        "source_revision": source_revision,
+        "actions": actions,
+    });
+    let plan_hash = fingerprint(&hash_input);
+    let expires_at = (OffsetDateTime::now_utc() + Duration::minutes(10))
+        .format(&Rfc3339)
+        .unwrap_or_default();
+    let can_apply = counts.conflict == 0;
+    AdapterPlan {
+        preview: SyncPreview {
+            connection_id: connection.id.clone(),
+            source_revision,
+            plan_hash,
+            counts,
+            actions,
+            warnings,
+            can_apply,
+            expires_at,
+        },
+        projection,
+        managed,
+    }
+}
+
+fn action(
+    kind: PlanActionKind,
+    object_type: &str,
+    source_id: &str,
+    remote_id: Option<&str>,
+    title: &str,
+    detail: &str,
+) -> PlanAction {
+    PlanAction {
+        kind,
+        object_type: object_type.to_string(),
+        source_id: Some(source_id.to_string()),
+        remote_id: remote_id.map(str::to_string),
+        title: title.to_string(),
+        detail: detail.to_string(),
+    }
+}

@@ -1,1 +1,265 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBuZXh0VGljaywgcmVmLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IENoZXZyb25MZWZ0LCBDaGV2cm9uUmlnaHQsIENvcHkgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgUXJjb2RlVnVlIGZyb20gInFyY29kZS52dWUiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsKICBJbnB1dE9UUCwKICBJbnB1dE9UUEdyb3VwLAogIElucHV0T1RQU2xvdCwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQtb3RwIjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwoKdHlwZSBTZXR1cERhdGEgPSB7IHNlY3JldDogc3RyaW5nOyB1cmk6IHN0cmluZyB9OwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgYmluZEVycm9yTWVzc2FnZTogc3RyaW5nOwogIGJpbmRWaWV3OiAicXIiIHwgIm1hbnVhbCI7CiAgY29tbWVudDogc3RyaW5nOwogIGRlc2NyaXB0aW9uOiBzdHJpbmc7CiAgZW50ZXJGcm9tQ2xhc3M6IHN0cmluZzsKICBpc0JpbmRpbmc6IGJvb2xlYW47CiAgbGVhdmVUb0NsYXNzOiBzdHJpbmc7CiAgb3BlbjogYm9vbGVhbjsKICBzZWNyZXREaXNwbGF5OiBzdHJpbmc7CiAgc2V0dXBEYXRhOiBTZXR1cERhdGEgfCBudWxsOwogIHN0ZXA6ICJCSU5EIiB8ICJOQU1FIjsKICB0aXRsZTogc3RyaW5nOwogIHZlcmlmeVRva2VuOiBzdHJpbmc7Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICJ1cGRhdGU6Y29tbWVudCI6IFt2YWx1ZTogc3RyaW5nXTsKICAidXBkYXRlOm9wZW4iOiBbdmFsdWU6IGJvb2xlYW5dOwogICJ1cGRhdGU6dmVyaWZ5VG9rZW4iOiBbdmFsdWU6IHN0cmluZ107CiAgYmluZDogW107CiAgY2FuY2VsOiBbXTsKICBjb3B5U2VjcmV0OiBbXTsKICBvcGVuTWFudWFsOiBbXTsKICByZXR1cm5Ub1FyOiBbXTsKICBzYXZlTmFtZTogW107Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3Qgb3RwSW5wdXRBcmVhUmVmID0gcmVmPEhUTUxFbGVtZW50IHwgbnVsbD4obnVsbCk7Cgpjb25zdCB2ZXJpZmljYXRpb25Ub2tlbiA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IHByb3BzLnZlcmlmeVRva2VuLAogIHNldDogKHZhbHVlOiBzdHJpbmcpID0+IGVtaXQoInVwZGF0ZTp2ZXJpZnlUb2tlbiIsIHZhbHVlKSwKfSk7CmNvbnN0IHNldHVwQ29tbWVudCA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IHByb3BzLmNvbW1lbnQsCiAgc2V0OiAodmFsdWU6IHN0cmluZykgPT4gZW1pdCgidXBkYXRlOmNvbW1lbnQiLCB2YWx1ZSksCn0pOwoKZnVuY3Rpb24gaGFuZGxlT3BlbkNoYW5nZShvcGVuOiBib29sZWFuKSB7CiAgZW1pdCgidXBkYXRlOm9wZW4iLCBvcGVuKTsKICBpZiAoIW9wZW4pIGVtaXQoImNhbmNlbCIpOwp9Cgp3YXRjaCgKICAoKSA9PiBbcHJvcHMub3BlbiwgcHJvcHMuc3RlcCwgcHJvcHMuc2V0dXBEYXRhXSBhcyBjb25zdCwKICBhc3luYyAoW2lzT3Blbiwgc3RlcCwgc2V0dXBdKSA9PiB7CiAgICBpZiAoIWlzT3BlbiB8fCBzdGVwICE9PSAiQklORCIgfHwgIXNldHVwKSByZXR1cm47CiAgICBhd2FpdCBuZXh0VGljaygpOwogICAgb3RwSW5wdXRBcmVhUmVmLnZhbHVlPy5zY3JvbGxJbnRvVmlldyh7CiAgICAgIGJsb2NrOiAiY2VudGVyIiwKICAgICAgaW5saW5lOiAibmVhcmVzdCIsCiAgICAgIGJlaGF2aW9yOiAiYXV0byIsCiAgICB9KTsKICB9LAopOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nIDpvcGVuPSJvcGVuIiBAdXBkYXRlOm9wZW49ImhhbmRsZU9wZW5DaGFuZ2UiPgogICAgPERpYWxvZ0NvbnRlbnQKICAgICAgY2xhc3M9Im1heC13LW1kICF0b3AtWzV2aF0gIXRyYW5zbGF0ZS15LTAgbWF4LWgtWzg1dmhdIG92ZXJmbG93LXktYXV0byBvdmVyc2Nyb2xsLWNvbnRhaW4gbWF4LXNtOiFpbnNldC14LTAgbWF4LXNtOiF0b3AtYXV0byBtYXgtc206IWJvdHRvbS0wIG1heC1zbTohdHJhbnNsYXRlLXgtMCBtYXgtc206IXRyYW5zbGF0ZS15LTAgbWF4LXNtOiFtYXgtdy1ub25lIG1heC1zbTptYXgtaC1bMTAwZHZoXSBtYXgtc206cm91bmRlZC1iLW5vbmUgbWF4LXNtOmJvcmRlci1iLTAgbWF4LXNtOmdyb3VwLWRhdGEtW3NvZnQta2V5Ym9hcmQtdmlzaWJsZT1mYWxzZV0vZGlhbG9nOnBiLVtjYWxjKGVudihzYWZlLWFyZWEtaW5zZXQtYm90dG9tKSsxcmVtKV0iCiAgICA+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPnt7IHRpdGxlIH19PC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+e3sgZGVzY3JpcHRpb24gfX08L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICA8L0RpYWxvZ0hlYWRlcj4KICAgICAgPGRpdiB2LWlmPSJzZXR1cERhdGEgJiYgc3RlcCA9PT0gJ0JJTkQnIiBjbGFzcz0idy1mdWxsIHB5LTQgbWF4LXNtOnB5LTIiPgogICAgICAgIDxUcmFuc2l0aW9uCiAgICAgICAgICBtb2RlPSJvdXQtaW4iCiAgICAgICAgICBlbnRlci1hY3RpdmUtY2xhc3M9InRyYW5zaXRpb24gZHVyYXRpb24tMTUwIGVhc2Utb3V0IgogICAgICAgICAgbGVhdmUtYWN0aXZlLWNsYXNzPSJ0cmFuc2l0aW9uIGR1cmF0aW9uLTEwMCBlYXNlLWluIgogICAgICAgICAgOmVudGVyLWZyb20tY2xhc3M9ImVudGVyRnJvbUNsYXNzIgogICAgICAgICAgZW50ZXItdG8tY2xhc3M9InRyYW5zbGF0ZS14LTAgb3BhY2l0eS0xMDAiCiAgICAgICAgICBsZWF2ZS1mcm9tLWNsYXNzPSJ0cmFuc2xhdGUteC0wIG9wYWNpdHktMTAwIgogICAgICAgICAgOmxlYXZlLXRvLWNsYXNzPSJsZWF2ZVRvQ2xhc3MiCiAgICAgICAgPgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSJiaW5kVmlldyA9PT0gJ3FyJyIKICAgICAgICAgICAga2V5PSJzZXR1cC1xciIKICAgICAgICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGdhcC00IgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJyb3VuZGVkLXhsIGJvcmRlciBiZy13aGl0ZSBwLTQiPgogICAgICAgICAgICAgIDxRcmNvZGVWdWUgOnZhbHVlPSJzZXR1cERhdGEudXJpIiA6c2l6ZT0iMjAwIiBsZXZlbD0iTSIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgdmFyaWFudD0ibGluayIKICAgICAgICAgICAgICBkYXRhLWFmZm9yZGFuY2U9ImRldGFpbHMiCiAgICAgICAgICAgICAgY2xhc3M9ImgtYXV0byBnYXAtMSBweC0wIHRleHQtc20iCiAgICAgICAgICAgICAgQGNsaWNrPSJlbWl0KCdvcGVuTWFudWFsJykiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3MubWFudWFsU2V0dXBFbnRyeSIpIH19CiAgICAgICAgICAgICAgPENoZXZyb25SaWdodCBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IHYtZWxzZSBrZXk9InNldHVwLW1hbnVhbCIgY2xhc3M9InctZnVsbCBzcGFjZS15LTQiPgogICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgIGNsYXNzPSItbXgtMiBpbmxpbmUtZmxleCB3LVtjYWxjKDEwMCUrMXJlbSldIGl0ZW1zLWNlbnRlciBnYXAtMyByb3VuZGVkLW1kIHB4LTIgcHktMS41IHRleHQtbGVmdCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy1hY2NlbnQgaG92ZXI6dGV4dC1hY2NlbnQtZm9yZWdyb3VuZCBmb2N1cy12aXNpYmxlOm91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMiBmb2N1cy12aXNpYmxlOnJpbmctcmluZyIKICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uYXV0aFNldHRpbmdzLmJhY2tUb1FSQ29kZVNldHVwQXJpYScpIgogICAgICAgICAgICAgIEBjbGljaz0iZW1pdCgncmV0dXJuVG9RcicpIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPENoZXZyb25MZWZ0IGNsYXNzPSJoLTQgdy00IHNocmluay0wIiAvPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLm1hbnVhbFNldHVwVGl0bGUiKSB9fQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMyByb3VuZGVkLW1kIGJvcmRlciBiZy1tdXRlZC8zMCBwLTMiPgogICAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLm1hbnVhbFNldHVwRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBjbGFzcz0iZmxleCBpdGVtcy1zdGFydCBnYXAtMiByb3VuZGVkLW1kIGJvcmRlciBiZy1iYWNrZ3JvdW5kIHB4LTIuNSBweS0yIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAgZmxleC0xIHNwYWNlLXktMSI+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uYXV0aFNldHRpbmdzLm1hbnVhbFNldHVwU2VjcmV0TGFiZWwiKSB9fQogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxwCiAgICAgICAgICAgICAgICAgICAgY2xhc3M9ImJyZWFrLWFsbCBmb250LW1vbm8gdGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAge3sgc2VjcmV0RGlzcGxheSB9fQogICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICAgIHNpemU9Imljb24tc20iCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJzaXplLTggc2hyaW5rLTAiCiAgICAgICAgICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4uYXV0aFNldHRpbmdzLmNvcHlTZXR1cFNlY3JldCcpIgogICAgICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4uYXV0aFNldHRpbmdzLmNvcHlTZXR1cFNlY3JldCcpIgogICAgICAgICAgICAgICAgICBAY2xpY2s9ImVtaXQoJ2NvcHlTZWNyZXQnKSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPENvcHkgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L1RyYW5zaXRpb24+CgogICAgICAgIDxkaXYgY2xhc3M9Im10LTYgdy1mdWxsIHNwYWNlLXktNCBtYXgtc206bXQtNCI+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIHJlZj0ib3RwSW5wdXRBcmVhUmVmIgogICAgICAgICAgICBjbGFzcz0ic3BhY2UteS0yIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIHNjcm9sbC1tdC0yNCIKICAgICAgICAgID4KICAgICAgICAgICAgPExhYmVsCiAgICAgICAgICAgICAgZm9yPSJ0b3RwLXNldHVwLXZlcmlmaWNhdGlvbiIKICAgICAgICAgICAgICBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgc2VsZi1jZW50ZXIiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5hdXRoU2V0dGluZ3Mub3RwTGFiZWwiKSB9fQogICAgICAgICAgICA8L0xhYmVsPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ3LWZ1bGwgZmxleCBqdXN0aWZ5LWNlbnRlciBweS0yIj4KICAgICAgICAgICAgICA8SW5wdXRPVFAKICAgICAgICAgICAgICAgIGlkPSJ0b3RwLXNldHVwLXZlcmlmaWNhdGlvbiIKICAgICAgICAgICAgICAgIDphcmlhLWRlc2NyaWJlZGJ5PSIKICAgICAgICAgICAgICAgICAgYmluZEVycm9yTWVzc2FnZSA/ICd0b3RwLXNldHVwLXZlcmlmaWNhdGlvbi1lcnJvcicgOiB1bmRlZmluZWQKICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgIDphcmlhLWludmFsaWQ9IkJvb2xlYW4oYmluZEVycm9yTWVzc2FnZSkiCiAgICAgICAgICAgICAgICB2LW1vZGVsPSJ2ZXJpZmljYXRpb25Ub2tlbiIKICAgICAgICAgICAgICAgIGlucHV0bW9kZT0ibnVtZXJpYyIKICAgICAgICAgICAgICAgIDptYXhsZW5ndGg9IjYiCiAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzQmluZGluZyIKICAgICAgICAgICAgICAgIGF1dG9jb21wbGV0ZT0ib25lLXRpbWUtY29kZSIKICAgICAgICAgICAgICAgIGRhdGEtZm9ybS10eXBlPSJvdGhlciIKICAgICAgICAgICAgICAgIGRhdGEtMXAtaWdub3JlPSJ0cnVlIgogICAgICAgICAgICAgICAgZGF0YS1scGlnbm9yZT0idHJ1ZSIKICAgICAgICAgICAgICAgIGRhdGEtYndpZ25vcmU9InRydWUiCiAgICAgICAgICAgICAgICBAY29tcGxldGU9ImVtaXQoJ2JpbmQnKSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8SW5wdXRPVFBHcm91cD4KICAgICAgICAgICAgICAgICAgPElucHV0T1RQU2xvdCB2LWZvcj0iaSBpbiA2IiA6a2V5PSJpIC0gMSIgOmluZGV4PSJpIC0gMSIgLz4KICAgICAgICAgICAgICAgIDwvSW5wdXRPVFBHcm91cD4KICAgICAgICAgICAgICA8L0lucHV0T1RQPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPHAKICAgICAgICAgICAgICB2LWlmPSJpc0JpbmRpbmciCiAgICAgICAgICAgICAgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgIHJvbGU9InN0YXR1cyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy52ZXJpZnlpbmciKSB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxwCiAgICAgICAgICAgICAgdi1pZj0iYmluZEVycm9yTWVzc2FnZSIKICAgICAgICAgICAgICBpZD0idG90cC1zZXR1cC12ZXJpZmljYXRpb24tZXJyb3IiCiAgICAgICAgICAgICAgY2xhc3M9InRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgICAgICByb2xlPSJhbGVydCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IGJpbmRFcnJvck1lc3NhZ2UgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IHYtZWxzZS1pZj0ic3RlcCA9PT0gJ05BTUUnIiBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtNCBweS00Ij4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgPExhYmVsIGZvcj0idG90cC1zZXR1cC1uYW1lIj57ewogICAgICAgICAgICB0KCJhZG1pbi5hdXRoU2V0dGluZ3MubmFtZVN1Y2Nlc3NMYWJlbCIpCiAgICAgICAgICB9fTwvTGFiZWw+CiAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgaWQ9InRvdHAtc2V0dXAtbmFtZSIKICAgICAgICAgICAgdi1tb2RlbD0ic2V0dXBDb21tZW50IgogICAgICAgICAgICA6cGxhY2Vob2xkZXI9InQoJ2FkbWluLmF1dGhTZXR0aW5ncy5uYW1lUGxhY2Vob2xkZXInKSIKICAgICAgICAgICAgOmFyaWEtZGVzY3JpYmVkYnk9IgogICAgICAgICAgICAgIGJpbmRFcnJvck1lc3NhZ2UKICAgICAgICAgICAgICAgID8gJ3RvdHAtc2V0dXAtbmFtZS1lcnJvcicKICAgICAgICAgICAgICAgIDogJ3RvdHAtc2V0dXAtbmFtZS1oZWxwJwogICAgICAgICAgICAiCiAgICAgICAgICAgIDphcmlhLWludmFsaWQ9IkJvb2xlYW4oYmluZEVycm9yTWVzc2FnZSkiCiAgICAgICAgICAgIEBrZXl1cC5lbnRlcj0iZW1pdCgnc2F2ZU5hbWUnKSIKICAgICAgICAgIC8+CiAgICAgICAgICA8cCBpZD0idG90cC1zZXR1cC1uYW1lLWhlbHAiIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5uYW1lSGVscCIpIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPHAKICAgICAgICAgIHYtaWY9ImJpbmRFcnJvck1lc3NhZ2UiCiAgICAgICAgICBpZD0idG90cC1zZXR1cC1uYW1lLWVycm9yIgogICAgICAgICAgY2xhc3M9InRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgIHJvbGU9ImFsZXJ0IgogICAgICAgID4KICAgICAgICAgIHt7IGJpbmRFcnJvck1lc3NhZ2UgfX0KICAgICAgICA8L3A+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBqdXN0aWZ5LWVuZCBnYXAtMiBtdC00Ij4KICAgICAgICAgIDxCdXR0b24gOmRpc2FibGVkPSJpc0JpbmRpbmciIEBjbGljaz0iZW1pdCgnc2F2ZU5hbWUnKSI+CiAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgdi1pZj0iaXNCaW5kaW5nIgogICAgICAgICAgICAgIGNsYXNzPSJtci0yIGgtNCB3LTQgYW5pbWF0ZS1zcGluIHJvdW5kZWQtZnVsbCBib3JkZXItMiBib3JkZXItYmFja2dyb3VuZCBib3JkZXItdC1mb3JlZ3JvdW5kIgogICAgICAgICAgICA+PC9zcGFuPgogICAgICAgICAgICB7eyB0KCJjb21tb24uc2F2ZSIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgdi1lbHNlIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBweS0xMiI+CiAgICAgICAgPHNwYW4KICAgICAgICAgIGNsYXNzPSJhbmltYXRlLXNwaW4gaC01IHctNSBib3JkZXItMiBib3JkZXItcHJpbWFyeSBib3JkZXItdC10cmFuc3BhcmVudCByb3VuZGVkLWZ1bGwgbXItMiIKICAgICAgICA+PC9zcGFuCiAgICAgICAgPnt7IHQoImFkbWluLmF1dGhTZXR0aW5ncy5nZW5lcmF0aW5nIikgfX0KICAgICAgPC9kaXY+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, nextTick, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { ChevronLeft, ChevronRight, Copy } from "lucide-vue-next";
+import QrcodeVue from "qrcode.vue";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import {
+  InputOTP,
+  InputOTPGroup,
+  InputOTPSlot,
+} from "@/components/ui/input-otp";
+import { Label } from "@/components/ui/label";
+
+type SetupData = { secret: string; uri: string };
+
+const props = defineProps<{
+  bindErrorMessage: string;
+  bindView: "qr" | "manual";
+  comment: string;
+  description: string;
+  enterFromClass: string;
+  isBinding: boolean;
+  leaveToClass: string;
+  open: boolean;
+  secretDisplay: string;
+  setupData: SetupData | null;
+  step: "BIND" | "NAME";
+  title: string;
+  verifyToken: string;
+}>();
+
+const emit = defineEmits<{
+  "update:comment": [value: string];
+  "update:open": [value: boolean];
+  "update:verifyToken": [value: string];
+  bind: [];
+  cancel: [];
+  copySecret: [];
+  openManual: [];
+  returnToQr: [];
+  saveName: [];
+}>();
+
+const { t } = useI18n();
+const otpInputAreaRef = ref<HTMLElement | null>(null);
+
+const verificationToken = computed({
+  get: () => props.verifyToken,
+  set: (value: string) => emit("update:verifyToken", value),
+});
+const setupComment = computed({
+  get: () => props.comment,
+  set: (value: string) => emit("update:comment", value),
+});
+
+function handleOpenChange(open: boolean) {
+  emit("update:open", open);
+  if (!open) emit("cancel");
+}
+
+watch(
+  () => [props.open, props.step, props.setupData] as const,
+  async ([isOpen, step, setup]) => {
+    if (!isOpen || step !== "BIND" || !setup) return;
+    await nextTick();
+    otpInputAreaRef.value?.scrollIntoView({
+      block: "center",
+      inline: "nearest",
+      behavior: "auto",
+    });
+  },
+);
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="handleOpenChange">
+    <DialogContent
+      class="max-w-md !top-[5vh] !translate-y-0 max-h-[85vh] overflow-y-auto overscroll-contain max-sm:!inset-x-0 max-sm:!top-auto max-sm:!bottom-0 max-sm:!translate-x-0 max-sm:!translate-y-0 max-sm:!max-w-none max-sm:max-h-[100dvh] max-sm:rounded-b-none max-sm:border-b-0 max-sm:group-data-[soft-keyboard-visible=false]/dialog:pb-[calc(env(safe-area-inset-bottom)+1rem)]"
+    >
+      <DialogHeader>
+        <DialogTitle>{{ title }}</DialogTitle>
+        <DialogDescription>{{ description }}</DialogDescription>
+      </DialogHeader>
+      <div v-if="setupData && step === 'BIND'" class="w-full py-4 max-sm:py-2">
+        <Transition
+          mode="out-in"
+          enter-active-class="transition duration-150 ease-out"
+          leave-active-class="transition duration-100 ease-in"
+          :enter-from-class="enterFromClass"
+          enter-to-class="translate-x-0 opacity-100"
+          leave-from-class="translate-x-0 opacity-100"
+          :leave-to-class="leaveToClass"
+        >
+          <div
+            v-if="bindView === 'qr'"
+            key="setup-qr"
+            class="flex flex-col items-center gap-4"
+          >
+            <div class="rounded-xl border bg-white p-4">
+              <QrcodeVue :value="setupData.uri" :size="200" level="M" />
+            </div>
+            <Button
+              type="button"
+              variant="link"
+              data-affordance="details"
+              class="h-auto gap-1 px-0 text-sm"
+              @click="emit('openManual')"
+            >
+              {{ t("admin.authSettings.manualSetupEntry") }}
+              <ChevronRight class="h-4 w-4" />
+            </Button>
+          </div>
+
+          <div v-else key="setup-manual" class="w-full space-y-4">
+            <button
+              type="button"
+              class="-mx-2 inline-flex w-[calc(100%+1rem)] items-center gap-3 rounded-md px-2 py-1.5 text-left transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              :aria-label="t('admin.authSettings.backToQRCodeSetupAria')"
+              @click="emit('returnToQr')"
+            >
+              <ChevronLeft class="h-4 w-4 shrink-0" />
+              <span class="text-sm font-semibold">
+                {{ t("admin.authSettings.manualSetupTitle") }}
+              </span>
+            </button>
+            <div class="space-y-3 rounded-md border bg-muted/30 p-3">
+              <p class="text-xs leading-5 text-muted-foreground">
+                {{ t("admin.authSettings.manualSetupDescription") }}
+              </p>
+              <div
+                class="flex items-start gap-2 rounded-md border bg-background px-2.5 py-2"
+              >
+                <div class="min-w-0 flex-1 space-y-1">
+                  <span class="text-xs text-muted-foreground">
+                    {{ t("admin.authSettings.manualSetupSecretLabel") }}
+                  </span>
+                  <p
+                    class="break-all font-mono text-xs leading-5 text-muted-foreground"
+                  >
+                    {{ secretDisplay }}
+                  </p>
+                </div>
+                <Button
+                  variant="ghost"
+                  size="icon-sm"
+                  class="size-8 shrink-0"
+                  :title="t('admin.authSettings.copySetupSecret')"
+                  :aria-label="t('admin.authSettings.copySetupSecret')"
+                  @click="emit('copySecret')"
+                >
+                  <Copy class="h-4 w-4" />
+                </Button>
+              </div>
+            </div>
+          </div>
+        </Transition>
+
+        <div class="mt-6 w-full space-y-4 max-sm:mt-4">
+          <div
+            ref="otpInputAreaRef"
+            class="space-y-2 flex flex-col items-center scroll-mt-24"
+          >
+            <Label
+              for="totp-setup-verification"
+              class="text-sm text-muted-foreground self-center"
+            >
+              {{ t("admin.authSettings.otpLabel") }}
+            </Label>
+            <div class="w-full flex justify-center py-2">
+              <InputOTP
+                id="totp-setup-verification"
+                :aria-describedby="
+                  bindErrorMessage ? 'totp-setup-verification-error' : undefined
+                "
+                :aria-invalid="Boolean(bindErrorMessage)"
+                v-model="verificationToken"
+                inputmode="numeric"
+                :maxlength="6"
+                :disabled="isBinding"
+                autocomplete="one-time-code"
+                data-form-type="other"
+                data-1p-ignore="true"
+                data-lpignore="true"
+                data-bwignore="true"
+                @complete="emit('bind')"
+              >
+                <InputOTPGroup>
+                  <InputOTPSlot v-for="i in 6" :key="i - 1" :index="i - 1" />
+                </InputOTPGroup>
+              </InputOTP>
+            </div>
+            <p
+              v-if="isBinding"
+              class="text-sm text-muted-foreground"
+              role="status"
+            >
+              {{ t("admin.authSettings.verifying") }}
+            </p>
+            <p
+              v-if="bindErrorMessage"
+              id="totp-setup-verification-error"
+              class="text-sm text-destructive"
+              role="alert"
+            >
+              {{ bindErrorMessage }}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div v-else-if="step === 'NAME'" class="flex flex-col gap-4 py-4">
+        <div class="space-y-2">
+          <Label for="totp-setup-name">{{
+            t("admin.authSettings.nameSuccessLabel")
+          }}</Label>
+          <Input
+            id="totp-setup-name"
+            v-model="setupComment"
+            :placeholder="t('admin.authSettings.namePlaceholder')"
+            :aria-describedby="
+              bindErrorMessage
+                ? 'totp-setup-name-error'
+                : 'totp-setup-name-help'
+            "
+            :aria-invalid="Boolean(bindErrorMessage)"
+            @keyup.enter="emit('saveName')"
+          />
+          <p id="totp-setup-name-help" class="text-xs text-muted-foreground">
+            {{ t("admin.authSettings.nameHelp") }}
+          </p>
+        </div>
+        <p
+          v-if="bindErrorMessage"
+          id="totp-setup-name-error"
+          class="text-sm text-destructive"
+          role="alert"
+        >
+          {{ bindErrorMessage }}
+        </p>
+        <div class="flex justify-end gap-2 mt-4">
+          <Button :disabled="isBinding" @click="emit('saveName')">
+            <span
+              v-if="isBinding"
+              class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+            ></span>
+            {{ t("common.save") }}
+          </Button>
+        </div>
+      </div>
+      <div v-else class="flex items-center justify-center py-12">
+        <span
+          class="animate-spin h-5 w-5 border-2 border-primary border-t-transparent rounded-full mr-2"
+        ></span
+        >{{ t("admin.authSettings.generating") }}
+      </div>
+    </DialogContent>
+  </Dialog>
+</template>

@@ -1,1 +1,85 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBleGVjdXRlX3BpcGVsaW5lX2NvbW1hbmRzX3R4KAogICAgdHg6ICZydXNxbGl0ZTo6VHJhbnNhY3Rpb248J18+LAogICAgY29tbWFuZHM6IFZlYzxDb21tYW5kU3BlYz4sCikgLT4gUmVkaXNSZXN1bHQ8VmVjPENtZE91dHB1dD4+IHsKICAgIGxldCBzeW5jX21vYmlsaXR5ID0gY29tbWFuZHMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZvbGQoVHlwZWRNb2JpbGl0eVN5bmNTY29wZTo6Tm9uZSwgfHNjb3BlLCBjb21tYW5kfCB7CiAgICAgICAgICAgIHNjb3BlLm1lcmdlKGNvbW1hbmRfdHlwZWRfbW9iaWxpdHlfc2NvcGUoY29tbWFuZCkpCiAgICAgICAgfSk7CiAgICBsZXQgbXV0IG91dHB1dHMgPSBWZWM6Om5ldygpOwogICAgZm9yIGNvbW1hbmQgaW4gY29tbWFuZHMgewogICAgICAgIGxldCBpZ25vcmUgPSBjb21tYW5kLmlnbm9yZTsKICAgICAgICBsZXQgb3V0cHV0ID0gZXhlY3V0ZV9jb21tYW5kX3R4KHR4LCBjb21tYW5kKT87CiAgICAgICAgaWYgIWlnbm9yZSB7CiAgICAgICAgICAgIG91dHB1dHMucHVzaChvdXRwdXQpOwogICAgICAgIH0KICAgIH0KICAgIHN5bmNfdHlwZWRfbW9iaWxpdHlfdHgodHgsIHN5bmNfbW9iaWxpdHkpPzsKICAgIE9rKG91dHB1dHMpCn0KCi8vLyBDb21wYXJlcyBvbmUgY29tcGF0aWJpbGl0eSBoYXNoIGZpZWxkIGluc2lkZSBhIGNhbGxlci1vd25lZCB0cmFuc2FjdGlvbi4KLy8vCi8vLyBUaGUgdHJhbnNhY3Rpb24gbXVzdCB1c2UgYElNTUVESUFURWAgYmVoYXZpb3Igd2hlbiB0aGUgcmVzdWx0IGd1YXJkcyBhCi8vLyBzdWJzZXF1ZW50IHdyaXRlLiBUaGF0IHByZXZlbnRzIGFub3RoZXIgY29ubmVjdGlvbiBmcm9tIGNoYW5naW5nIHRoZQovLy8gY29tcGF0aWJpbGl0eSBrZXlzcGFjZSBiZXR3ZWVuIHRoaXMgY29tcGFyaXNvbiBhbmQgdGhlIGNhbGxlcidzIGNvbW1pdC4KcHViKGNyYXRlKSBmbiBoYXNoX2ZpZWxkX21hdGNoZXNfaW5fdHJhbnNhY3Rpb248Rj4oCiAgICB0eDogJnJ1c3FsaXRlOjpUcmFuc2FjdGlvbjwnXz4sCiAgICBrZXk6ICZzdHIsCiAgICBmaWVsZDogJnN0ciwKICAgIG1hdGNoZXM6IEYsCikgLT4gUmVkaXNSZXN1bHQ8Ym9vbD4Kd2hlcmUKICAgIEY6IEZuT25jZShPcHRpb248JnN0cj4pIC0+IGJvb2wsCnsKICAgIHB1cmdlX2V4cGlyZWRfdHgodHgsIGtleSk/OwogICAgbGV0IGN1cnJlbnQgPSB0eAogICAgICAgIC5xdWVyeV9yb3coCiAgICAgICAgICAgICJTRUxFQ1QgdmFsdWUgRlJPTSBrdl9oYXNoIFdIRVJFIGtleSA9ID8xIEFORCBmaWVsZCA9ID8yIiwKICAgICAgICAgICAgcGFyYW1zIVtrZXksIGZpZWxkXSwKICAgICAgICAgICAgfHJvd3wgcm93LmdldDo6PF8sIFN0cmluZz4oMCksCiAgICAgICAgKQogICAgICAgIC5vcHRpb25hbCgpPzsKICAgIE9rKG1hdGNoZXMoY3VycmVudC5hc19kZXJlZigpKSkKfQoKLy8vIFJlYWRzIGEgY29tcGxldGUgY29tcGF0aWJpbGl0eSBoYXNoIGluc2lkZSBhIGNhbGxlci1vd25lZCB0cmFuc2FjdGlvbi4KLy8vIEV4cGlyZWQga2V5cyBhcmUgcmVtb3ZlZCBiZWZvcmUgdGhlIHNuYXBzaG90IGlzIHJldHVybmVkLCBtYXRjaGluZyB0aGUKLy8vIHB1YmxpYyBjb21wYXRpYmlsaXR5IEFQSS4KcHViKGNyYXRlKSBmbiBoYXNoX2VudHJpZXNfaW5fdHJhbnNhY3Rpb24oCiAgICB0eDogJnJ1c3FsaXRlOjpUcmFuc2FjdGlvbjwnXz4sCiAgICBrZXk6ICZzdHIsCikgLT4gUmVkaXNSZXN1bHQ8VmVjPChTdHJpbmcsIFN0cmluZyk+PiB7CiAgICBwdXJnZV9leHBpcmVkX3R4KHR4LCBrZXkpPzsKICAgIGlmIGtleV9raW5kX3R4KHR4LCBrZXkpPyAhPSBTb21lKCJoYXNoIi50b19zdHJpbmcoKSkgewogICAgICAgIHJldHVybiBPayhWZWM6Om5ldygpKTsKICAgIH0KICAgIGxldCBtdXQgc3RhdGVtZW50ID0KICAgICAgICB0eC5wcmVwYXJlKCJTRUxFQ1QgZmllbGQsIHZhbHVlIEZST00ga3ZfaGFzaCBXSEVSRSBrZXkgPSA/MSBPUkRFUiBCWSBmaWVsZCIpPzsKICAgIGxldCByb3dzID0gc3RhdGVtZW50LnF1ZXJ5X21hcChba2V5XSwgfHJvd3wgewogICAgICAgIE9rKChyb3cuZ2V0Ojo8XywgU3RyaW5nPigwKT8sIHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDEpPykpCiAgICB9KT87CiAgICByb3dzLmNvbGxlY3Q6OjxSZXN1bHQ8VmVjPF8+LCBfPj4oKS5tYXBfZXJyKEludG86OmludG8pCn0KCi8vLyBFeGVjdXRlcyBvbmUgUmVkaXMtY29tcGF0aWJsZSBjb21tYW5kIGluc2lkZSBhIGNhbGxlci1vd25lZCBTUUxpdGUKLy8vIHRyYW5zYWN0aW9uLiBEb21haW4gcmVwb3NpdG9yaWVzIHVzZSB0aGlzIHRvIGR1YWwtd3JpdGUgdHlwZWQgdGFibGVzIGFuZAovLy8gdGhlIDIueCBjb21wYXRpYmlsaXR5IGtleXNwYWNlIGF0b21pY2FsbHkuCnB1YihjcmF0ZSkgZm4gZXhlY3V0ZV9jb21tYW5kX2luX3RyYW5zYWN0aW9uKAogICAgdHg6ICZydXNxbGl0ZTo6VHJhbnNhY3Rpb248J18+LAogICAgbmFtZTogJnN0ciwKICAgIGFyZ3M6IFZlYzxTdHJpbmc+LAopIC0+IFJlZGlzUmVzdWx0PENtZE91dHB1dD4gewogICAgbGV0IGNvbW1hbmQgPSBDb21tYW5kU3BlYyB7CiAgICAgICAgbmFtZTogbmFtZS50b19hc2NpaV91cHBlcmNhc2UoKSwKICAgICAgICBhcmdzLAogICAgICAgIGlnbm9yZTogZmFsc2UsCiAgICB9OwogICAgbGV0IHN5bmNfbW9iaWxpdHkgPSBjb21tYW5kX3R5cGVkX21vYmlsaXR5X3Njb3BlKCZjb21tYW5kKTsKICAgIGxldCBvdXRwdXQgPSBleGVjdXRlX2NvbW1hbmRfdHgodHgsIGNvbW1hbmQpPzsKICAgIHN5bmNfdHlwZWRfbW9iaWxpdHlfdHgodHgsIHN5bmNfbW9iaWxpdHkpPzsKICAgIE9rKG91dHB1dCkKfQo=
+use super::*;
+
+pub(super) fn execute_pipeline_commands_tx(
+    tx: &rusqlite::Transaction<'_>,
+    commands: Vec<CommandSpec>,
+) -> RedisResult<Vec<CmdOutput>> {
+    let sync_mobility = commands
+        .iter()
+        .fold(TypedMobilitySyncScope::None, |scope, command| {
+            scope.merge(command_typed_mobility_scope(command))
+        });
+    let mut outputs = Vec::new();
+    for command in commands {
+        let ignore = command.ignore;
+        let output = execute_command_tx(tx, command)?;
+        if !ignore {
+            outputs.push(output);
+        }
+    }
+    sync_typed_mobility_tx(tx, sync_mobility)?;
+    Ok(outputs)
+}
+
+/// Compares one compatibility hash field inside a caller-owned transaction.
+///
+/// The transaction must use `IMMEDIATE` behavior when the result guards a
+/// subsequent write. That prevents another connection from changing the
+/// compatibility keyspace between this comparison and the caller's commit.
+pub(crate) fn hash_field_matches_in_transaction<F>(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+    field: &str,
+    matches: F,
+) -> RedisResult<bool>
+where
+    F: FnOnce(Option<&str>) -> bool,
+{
+    purge_expired_tx(tx, key)?;
+    let current = tx
+        .query_row(
+            "SELECT value FROM kv_hash WHERE key = ?1 AND field = ?2",
+            params![key, field],
+            |row| row.get::<_, String>(0),
+        )
+        .optional()?;
+    Ok(matches(current.as_deref()))
+}
+
+/// Reads a complete compatibility hash inside a caller-owned transaction.
+/// Expired keys are removed before the snapshot is returned, matching the
+/// public compatibility API.
+pub(crate) fn hash_entries_in_transaction(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+) -> RedisResult<Vec<(String, String)>> {
+    purge_expired_tx(tx, key)?;
+    if key_kind_tx(tx, key)? != Some("hash".to_string()) {
+        return Ok(Vec::new());
+    }
+    let mut statement =
+        tx.prepare("SELECT field, value FROM kv_hash WHERE key = ?1 ORDER BY field")?;
+    let rows = statement.query_map([key], |row| {
+        Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?))
+    })?;
+    rows.collect::<Result<Vec<_>, _>>().map_err(Into::into)
+}
+
+/// Executes one Redis-compatible command inside a caller-owned SQLite
+/// transaction. Domain repositories use this to dual-write typed tables and
+/// the 2.x compatibility keyspace atomically.
+pub(crate) fn execute_command_in_transaction(
+    tx: &rusqlite::Transaction<'_>,
+    name: &str,
+    args: Vec<String>,
+) -> RedisResult<CmdOutput> {
+    let command = CommandSpec {
+        name: name.to_ascii_uppercase(),
+        args,
+        ignore: false,
+    };
+    let sync_mobility = command_typed_mobility_scope(&command);
+    let output = execute_command_tx(tx, command)?;
+    sync_typed_mobility_tx(tx, sync_mobility)?;
+    Ok(output)
+}

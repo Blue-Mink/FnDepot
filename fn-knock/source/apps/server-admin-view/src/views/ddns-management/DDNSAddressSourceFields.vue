@@ -1,1 +1,16 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBERE5TQWRkcmVzc1NvdXJjZUJhc2VGaWVsZHMgZnJvbSAiLi9ERE5TQWRkcmVzc1NvdXJjZUJhc2VGaWVsZHMudnVlIjsKaW1wb3J0IERETlNJbnRlcmZhY2VBZGRyZXNzRmllbGRzIGZyb20gIi4vREROU0ludGVyZmFjZUFkZHJlc3NGaWVsZHMudnVlIjsKaW1wb3J0IERETlNTdGF0aWNBZGRyZXNzRmllbGRzIGZyb20gIi4vREROU1N0YXRpY0FkZHJlc3NGaWVsZHMudnVlIjsKaW1wb3J0IHR5cGUgeyBERE5TQWRkcmVzc1NvdXJjZUZpZWxkc1Byb3BzIH0gZnJvbSAiLi9kZG5zLWFkZHJlc3Mtc291cmNlLWZpZWxkcy1jb250cmFjdCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPERETlNBZGRyZXNzU291cmNlRmllbGRzUHJvcHM+KCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDx0ZW1wbGF0ZSB2LWlmPSJwcm9wcy5zZWxlY3RlZFByb3ZpZGVyIj4KICAgIDxERE5TQWRkcmVzc1NvdXJjZUJhc2VGaWVsZHMgOm1vZGVsPSJwcm9wcyIgLz4KICAgIDxERE5TU3RhdGljQWRkcmVzc0ZpZWxkcyA6bW9kZWw9InByb3BzIiAvPgogICAgPERETlNJbnRlcmZhY2VBZGRyZXNzRmllbGRzIDptb2RlbD0icHJvcHMiIC8+CiAgPC90ZW1wbGF0ZT4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import DDNSAddressSourceBaseFields from "./DDNSAddressSourceBaseFields.vue";
+import DDNSInterfaceAddressFields from "./DDNSInterfaceAddressFields.vue";
+import DDNSStaticAddressFields from "./DDNSStaticAddressFields.vue";
+import type { DDNSAddressSourceFieldsProps } from "./ddns-address-source-fields-contract";
+
+const props = defineProps<DDNSAddressSourceFieldsProps>();
+</script>
+
+<template>
+  <template v-if="props.selectedProvider">
+    <DDNSAddressSourceBaseFields :model="props" />
+    <DDNSStaticAddressFields :model="props" />
+    <DDNSInterfaceAddressFields :model="props" />
+  </template>
+</template>

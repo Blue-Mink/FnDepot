@@ -1,1 +1,50 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CgppbXBvcnQgeyB0b0hvc3RNYXBwaW5nVXBkYXRlUGF5bG9hZCB9IGZyb20gIi4uL3NyYy9saWIvYXBpL2hvc3QtbWFwcGluZy1wYXlsb2FkIjsKaW1wb3J0IHsgY3JlYXRlRGVmYXVsdE1hcHBpbmcgfSBmcm9tICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L21vZGVsIjsKaW1wb3J0IHR5cGUgeyBIb3N0TWFwcGluZyB9IGZyb20gIi4uL3NyYy90eXBlcyI7CgpkZXNjcmliZSgic3ViZG9tYWluIEJhc2ljIEF1dGggcGF5bG9hZCIsICgpID0+IHsKICBpdCgidHJlYXRzIGEgbWlzc2luZyBsZWdhY3kgQmFzaWMgQXV0aCBvYmplY3QgYXMgZGlzYWJsZWQiLCAoKSA9PiB7CiAgICBjb25zdCBsZWdhY3lNYXBwaW5nID0gY3JlYXRlRGVmYXVsdE1hcHBpbmcoKTsKICAgIGRlbGV0ZSAobGVnYWN5TWFwcGluZyBhcyBQYXJ0aWFsPEhvc3RNYXBwaW5nPikuYmFzaWNfYXV0aDsKCiAgICBhc3NlcnQuZGVlcEVxdWFsKHRvSG9zdE1hcHBpbmdVcGRhdGVQYXlsb2FkKGxlZ2FjeU1hcHBpbmcpLmJhc2ljX2F1dGgsIHsKICAgICAgZW5hYmxlZDogZmFsc2UsCiAgICAgIHVzZXJuYW1lOiAiIiwKICAgICAgcGFzc3dvcmQ6ICIiLAogICAgfSk7CiAgfSk7CgogIGl0KCJub3JtYWxpemVzIGluY29tcGxldGUgZW5hYmxlZCBCYXNpYyBBdXRoIGNyZWRlbnRpYWxzIiwgKCkgPT4gewogICAgY29uc3QgbGVnYWN5TWFwcGluZyA9IGNyZWF0ZURlZmF1bHRNYXBwaW5nKCk7CiAgICBsZWdhY3lNYXBwaW5nLmJhc2ljX2F1dGggPSB7CiAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgIHVzZXJuYW1lOiAiICBhZG1pbiAgIiwKICAgIH0gYXMgSG9zdE1hcHBpbmdbImJhc2ljX2F1dGgiXTsKCiAgICBhc3NlcnQuZGVlcEVxdWFsKHRvSG9zdE1hcHBpbmdVcGRhdGVQYXlsb2FkKGxlZ2FjeU1hcHBpbmcpLmJhc2ljX2F1dGgsIHsKICAgICAgZW5hYmxlZDogZmFsc2UsCiAgICAgIHVzZXJuYW1lOiAiIiwKICAgICAgcGFzc3dvcmQ6ICIiLAogICAgfSk7CiAgfSk7CgogIGl0KCJwcmVzZXJ2ZXMgdmFsaWQgQmFzaWMgQXV0aCBjcmVkZW50aWFscyIsICgpID0+IHsKICAgIGNvbnN0IG1hcHBpbmcgPSBjcmVhdGVEZWZhdWx0TWFwcGluZygpOwogICAgbWFwcGluZy5iYXNpY19hdXRoID0gewogICAgICBlbmFibGVkOiB0cnVlLAogICAgICB1c2VybmFtZTogIiAgYWRtaW4gICIsCiAgICAgIHBhc3N3b3JkOiAic2VjcmV0IiwKICAgIH07CgogICAgYXNzZXJ0LmRlZXBFcXVhbCh0b0hvc3RNYXBwaW5nVXBkYXRlUGF5bG9hZChtYXBwaW5nKS5iYXNpY19hdXRoLCB7CiAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgIHVzZXJuYW1lOiAiYWRtaW4iLAogICAgICBwYXNzd29yZDogInNlY3JldCIsCiAgICB9KTsKICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
+
+import { toHostMappingUpdatePayload } from "../src/lib/api/host-mapping-payload";
+import { createDefaultMapping } from "../src/views/subdomain-proxy/model";
+import type { HostMapping } from "../src/types";
+
+describe("subdomain Basic Auth payload", () => {
+  it("treats a missing legacy Basic Auth object as disabled", () => {
+    const legacyMapping = createDefaultMapping();
+    delete (legacyMapping as Partial<HostMapping>).basic_auth;
+
+    assert.deepEqual(toHostMappingUpdatePayload(legacyMapping).basic_auth, {
+      enabled: false,
+      username: "",
+      password: "",
+    });
+  });
+
+  it("normalizes incomplete enabled Basic Auth credentials", () => {
+    const legacyMapping = createDefaultMapping();
+    legacyMapping.basic_auth = {
+      enabled: true,
+      username: "  admin  ",
+    } as HostMapping["basic_auth"];
+
+    assert.deepEqual(toHostMappingUpdatePayload(legacyMapping).basic_auth, {
+      enabled: false,
+      username: "",
+      password: "",
+    });
+  });
+
+  it("preserves valid Basic Auth credentials", () => {
+    const mapping = createDefaultMapping();
+    mapping.basic_auth = {
+      enabled: true,
+      username: "  admin  ",
+      password: "secret",
+    };
+
+    assert.deepEqual(toHostMappingUpdatePayload(mapping).basic_auth, {
+      enabled: true,
+      username: "admin",
+      password: "secret",
+    });
+  });
+});

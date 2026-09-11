@@ -1,1 +1,149 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdHlwZSBERE5TTmV0d29ya0ludGVyZmFjZVBheWxvYWQgfSBmcm9tICJAL2xpYi9hcGkvZGRucyI7CmltcG9ydCB7CiAgSVBfU09VUkNFX0tFWSwKICBORVRXT1JLX0lOVEVSRkFDRV9LRVksCiAgVVBEQVRFX1NDT1BFX0tFWSwKICBhbGxvd3NQcml2YXRlQWRkcmVzc2VzLAogIGJ1aWxkTmV0d29ya0ludGVyZmFjZUFkZHJlc3NPcHRpb25zLAogIGZpbmRQcm92aWRlckRlZiwKICBub3JtYWxpemVJcFNvdXJjZSwKICBub3JtYWxpemVOZXR3b3JrSW50ZXJmYWNlLAogIG5vcm1hbGl6ZVVwZGF0ZVNjb3BlLAogIHJlc29sdmVOZXR3b3JrSW50ZXJmYWNlT3B0aW9ucywKICB0eXBlIFByb3ZpZGVyLAogIHR5cGUgVGFyZ2V0RGlhbG9nU3RhdGUsCn0gZnJvbSAiLi9tb2RlbCI7Cgp0eXBlIFRhcmdldERpYWxvZ01vZGUgPSAiY3JlYXRlIiB8ICJlZGl0IjsKdHlwZSBUcmFuc2xhdGUgPSAoa2V5OiBzdHJpbmcsIHBhcmFtcz86IFJlY29yZDxzdHJpbmcsIHVua25vd24+KSA9PiBzdHJpbmc7CnR5cGUgQWRkcmVzc09wdGlvbkxhYmVsRm9ybWF0dGVyID0gKAogIGl0ZW06IHsgYWRkcmVzczogc3RyaW5nOyBmYW1pbHk6ICJpcHY0IiB8ICJpcHY2IiB9LAogIGluZGV4OiBudW1iZXIsCikgPT4gc3RyaW5nOwoKZXhwb3J0IGNvbnN0IHVzZURETlNUYXJnZXREaWFsb2dTdGF0ZSA9ICh7CiAgZm9ybWF0QWRkcmVzc09wdGlvbkxhYmVsLAogIG1vZGUsCiAgbmV0d29ya0ludGVyZmFjZXMsCiAgcHJvdmlkZXJzLAogIHN0YXRlLAogIHRyYW5zbGF0ZSwKfTogewogIGZvcm1hdEFkZHJlc3NPcHRpb25MYWJlbDogQWRkcmVzc09wdGlvbkxhYmVsRm9ybWF0dGVyOwogIG1vZGU6IFJlZjxUYXJnZXREaWFsb2dNb2RlPjsKICBuZXR3b3JrSW50ZXJmYWNlczogUmVmPERETlNOZXR3b3JrSW50ZXJmYWNlUGF5bG9hZFtdPjsKICBwcm92aWRlcnM6IFJlZjxQcm92aWRlcltdPjsKICBzdGF0ZTogUmVmPFRhcmdldERpYWxvZ1N0YXRlPjsKICB0cmFuc2xhdGU6IFRyYW5zbGF0ZTsKfSkgPT4gewogIGNvbnN0IHRhcmdldERpYWxvZ1RpdGxlID0gY29tcHV0ZWQoKCkgPT4KICAgIG1vZGUudmFsdWUgPT09ICJjcmVhdGUiCiAgICAgID8gdHJhbnNsYXRlKCJhZG1pbi5kZG5zLnRhcmdldENyZWF0ZVRpdGxlIikKICAgICAgOiB0cmFuc2xhdGUoImFkbWluLmRkbnMudGFyZ2V0RWRpdFRpdGxlIiksCiAgKTsKCiAgY29uc3QgdGFyZ2V0RGlhbG9nRGVzY3JpcHRpb24gPSBjb21wdXRlZCgoKSA9PgogICAgbW9kZS52YWx1ZSA9PT0gImNyZWF0ZSIKICAgICAgPyB0cmFuc2xhdGUoImFkbWluLmRkbnMudGFyZ2V0Q3JlYXRlRGVzY3JpcHRpb24iKQogICAgICA6IHRyYW5zbGF0ZSgiYWRtaW4uZGRucy50YXJnZXRFZGl0RGVzY3JpcHRpb24iKSwKICApOwoKICBjb25zdCB0YXJnZXREaWFsb2dQcm92aWRlckRlZiA9IGNvbXB1dGVkKCgpID0+CiAgICBmaW5kUHJvdmlkZXJEZWYocHJvdmlkZXJzLnZhbHVlLCBzdGF0ZS52YWx1ZS5wcm92aWRlciksCiAgKTsKCiAgY29uc3QgdGFyZ2V0RGlhbG9nUmVzb2x2ZWROZXR3b3JrSW50ZXJmYWNlcyA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IHNlbGVjdGVkID0gbm9ybWFsaXplTmV0d29ya0ludGVyZmFjZSgKICAgICAgc3RhdGUudmFsdWUuY29uZmlnW05FVFdPUktfSU5URVJGQUNFX0tFWV0sCiAgICApOwogICAgcmV0dXJuIHJlc29sdmVOZXR3b3JrSW50ZXJmYWNlT3B0aW9ucyhuZXR3b3JrSW50ZXJmYWNlcy52YWx1ZSwgc2VsZWN0ZWQsIHsKICAgICAgbGFiZWw6IHRyYW5zbGF0ZSgiYWRtaW4uZGRucy51bmF2YWlsYWJsZUludGVyZmFjZUxhYmVsIiwgewogICAgICAgIG5hbWU6IHNlbGVjdGVkLAogICAgICB9KSwKICAgICAgc3VtbWFyeTogdHJhbnNsYXRlKCJhZG1pbi5kZG5zLnVuYXZhaWxhYmxlSW50ZXJmYWNlU3VtbWFyeSIpLAogICAgfSk7CiAgfSk7CgogIGNvbnN0IHRhcmdldERpYWxvZ05ldHdvcmtJbnRlcmZhY2VMYWJlbCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IHNlbGVjdGVkID0gbm9ybWFsaXplTmV0d29ya0ludGVyZmFjZSgKICAgICAgc3RhdGUudmFsdWUuY29uZmlnW05FVFdPUktfSU5URVJGQUNFX0tFWV0sCiAgICApOwogICAgaWYgKCFzZWxlY3RlZCkgewogICAgICByZXR1cm4gdHJhbnNsYXRlKCJhZG1pbi5kZG5zLmF1dG9TZWxlY3QiKTsKICAgIH0KICAgIHJldHVybiAoCiAgICAgIHRhcmdldERpYWxvZ1Jlc29sdmVkTmV0d29ya0ludGVyZmFjZXMudmFsdWUuZmluZCgKICAgICAgICAoaXRlbSkgPT4gaXRlbS5uYW1lID09PSBzZWxlY3RlZCwKICAgICAgKT8ubGFiZWwgfHwgc2VsZWN0ZWQKICAgICk7CiAgfSk7CgogIGNvbnN0IHRhcmdldERpYWxvZ05ldHdvcmtJbnRlcmZhY2VPcHRpb24gPSBjb21wdXRlZCgoKSA9PiB7CiAgICBjb25zdCBzZWxlY3RlZCA9IG5vcm1hbGl6ZU5ldHdvcmtJbnRlcmZhY2UoCiAgICAgIHN0YXRlLnZhbHVlLmNvbmZpZ1tORVRXT1JLX0lOVEVSRkFDRV9LRVldLAogICAgKTsKICAgIGlmICghc2VsZWN0ZWQpIHsKICAgICAgcmV0dXJuIG51bGw7CiAgICB9CiAgICByZXR1cm4gKAogICAgICB0YXJnZXREaWFsb2dSZXNvbHZlZE5ldHdvcmtJbnRlcmZhY2VzLnZhbHVlLmZpbmQoCiAgICAgICAgKGl0ZW0pID0+IGl0ZW0ubmFtZSA9PT0gc2VsZWN0ZWQsCiAgICAgICkgfHwgbnVsbAogICAgKTsKICB9KTsKCiAgY29uc3QgdGFyZ2V0RGlhbG9nU2hvdWxkU2hvd0ludGVyZmFjZUJsb2NrID0gY29tcHV0ZWQoCiAgICAoKSA9PgogICAgICAhIXN0YXRlLnZhbHVlLnByb3ZpZGVyICYmCiAgICAgIG5vcm1hbGl6ZUlwU291cmNlKHN0YXRlLnZhbHVlLmNvbmZpZ1tJUF9TT1VSQ0VfS0VZXSkgPT09ICJpbnRlcmZhY2UiLAogICk7CgogIGNvbnN0IHRhcmdldERpYWxvZ1Nob3VsZFNob3dTdGF0aWNCbG9jayA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgISFzdGF0ZS52YWx1ZS5wcm92aWRlciAmJgogICAgICBub3JtYWxpemVJcFNvdXJjZShzdGF0ZS52YWx1ZS5jb25maWdbSVBfU09VUkNFX0tFWV0pID09PSAic3RhdGljIiwKICApOwoKICBjb25zdCB0YXJnZXREaWFsb2dTaG91bGRTaG93RG9tYWluQmxvY2sgPSBjb21wdXRlZCgKICAgICgpID0+CiAgICAgICEhc3RhdGUudmFsdWUucHJvdmlkZXIgJiYKICAgICAgbm9ybWFsaXplSXBTb3VyY2Uoc3RhdGUudmFsdWUuY29uZmlnW0lQX1NPVVJDRV9LRVldKSA9PT0gImRvbWFpbiIsCiAgKTsKCiAgY29uc3QgdGFyZ2V0RGlhbG9nVXBkYXRlU2NvcGUgPSBjb21wdXRlZCgoKSA9PgogICAgbm9ybWFsaXplVXBkYXRlU2NvcGUoc3RhdGUudmFsdWUuY29uZmlnW1VQREFURV9TQ09QRV9LRVldKSwKICApOwoKICBjb25zdCB0YXJnZXREaWFsb2dJUHY0T3B0aW9ucyA9IGNvbXB1dGVkKCgpID0+CiAgICBidWlsZE5ldHdvcmtJbnRlcmZhY2VBZGRyZXNzT3B0aW9ucygKICAgICAgdGFyZ2V0RGlhbG9nTmV0d29ya0ludGVyZmFjZU9wdGlvbi52YWx1ZSwKICAgICAgImlwdjQiLAogICAgICBmb3JtYXRBZGRyZXNzT3B0aW9uTGFiZWwsCiAgICAgIGFsbG93c1ByaXZhdGVBZGRyZXNzZXMoc3RhdGUudmFsdWUuY29uZmlnKSwKICAgICksCiAgKTsKCiAgY29uc3QgdGFyZ2V0RGlhbG9nSVB2Nk9wdGlvbnMgPSBjb21wdXRlZCgoKSA9PgogICAgYnVpbGROZXR3b3JrSW50ZXJmYWNlQWRkcmVzc09wdGlvbnMoCiAgICAgIHRhcmdldERpYWxvZ05ldHdvcmtJbnRlcmZhY2VPcHRpb24udmFsdWUsCiAgICAgICJpcHY2IiwKICAgICAgZm9ybWF0QWRkcmVzc09wdGlvbkxhYmVsLAogICAgICBhbGxvd3NQcml2YXRlQWRkcmVzc2VzKHN0YXRlLnZhbHVlLmNvbmZpZyksCiAgICApLAogICk7CgogIHJldHVybiB7CiAgICB0YXJnZXREaWFsb2dEZXNjcmlwdGlvbiwKICAgIHRhcmdldERpYWxvZ0lQdjRPcHRpb25zLAogICAgdGFyZ2V0RGlhbG9nSVB2Nk9wdGlvbnMsCiAgICB0YXJnZXREaWFsb2dOZXR3b3JrSW50ZXJmYWNlTGFiZWwsCiAgICB0YXJnZXREaWFsb2dQcm92aWRlckRlZiwKICAgIHRhcmdldERpYWxvZ1Jlc29sdmVkTmV0d29ya0ludGVyZmFjZXMsCiAgICB0YXJnZXREaWFsb2dTaG91bGRTaG93RG9tYWluQmxvY2ssCiAgICB0YXJnZXREaWFsb2dTaG91bGRTaG93SW50ZXJmYWNlQmxvY2ssCiAgICB0YXJnZXREaWFsb2dTaG91bGRTaG93U3RhdGljQmxvY2ssCiAgICB0YXJnZXREaWFsb2dUaXRsZSwKICAgIHRhcmdldERpYWxvZ1VwZGF0ZVNjb3BlLAogIH07Cn07Cg==
+import { computed, type Ref } from "vue";
+import { type DDNSNetworkInterfacePayload } from "@/lib/api/ddns";
+import {
+  IP_SOURCE_KEY,
+  NETWORK_INTERFACE_KEY,
+  UPDATE_SCOPE_KEY,
+  allowsPrivateAddresses,
+  buildNetworkInterfaceAddressOptions,
+  findProviderDef,
+  normalizeIpSource,
+  normalizeNetworkInterface,
+  normalizeUpdateScope,
+  resolveNetworkInterfaceOptions,
+  type Provider,
+  type TargetDialogState,
+} from "./model";
+
+type TargetDialogMode = "create" | "edit";
+type Translate = (key: string, params?: Record<string, unknown>) => string;
+type AddressOptionLabelFormatter = (
+  item: { address: string; family: "ipv4" | "ipv6" },
+  index: number,
+) => string;
+
+export const useDDNSTargetDialogState = ({
+  formatAddressOptionLabel,
+  mode,
+  networkInterfaces,
+  providers,
+  state,
+  translate,
+}: {
+  formatAddressOptionLabel: AddressOptionLabelFormatter;
+  mode: Ref<TargetDialogMode>;
+  networkInterfaces: Ref<DDNSNetworkInterfacePayload[]>;
+  providers: Ref<Provider[]>;
+  state: Ref<TargetDialogState>;
+  translate: Translate;
+}) => {
+  const targetDialogTitle = computed(() =>
+    mode.value === "create"
+      ? translate("admin.ddns.targetCreateTitle")
+      : translate("admin.ddns.targetEditTitle"),
+  );
+
+  const targetDialogDescription = computed(() =>
+    mode.value === "create"
+      ? translate("admin.ddns.targetCreateDescription")
+      : translate("admin.ddns.targetEditDescription"),
+  );
+
+  const targetDialogProviderDef = computed(() =>
+    findProviderDef(providers.value, state.value.provider),
+  );
+
+  const targetDialogResolvedNetworkInterfaces = computed(() => {
+    const selected = normalizeNetworkInterface(
+      state.value.config[NETWORK_INTERFACE_KEY],
+    );
+    return resolveNetworkInterfaceOptions(networkInterfaces.value, selected, {
+      label: translate("admin.ddns.unavailableInterfaceLabel", {
+        name: selected,
+      }),
+      summary: translate("admin.ddns.unavailableInterfaceSummary"),
+    });
+  });
+
+  const targetDialogNetworkInterfaceLabel = computed(() => {
+    const selected = normalizeNetworkInterface(
+      state.value.config[NETWORK_INTERFACE_KEY],
+    );
+    if (!selected) {
+      return translate("admin.ddns.autoSelect");
+    }
+    return (
+      targetDialogResolvedNetworkInterfaces.value.find(
+        (item) => item.name === selected,
+      )?.label || selected
+    );
+  });
+
+  const targetDialogNetworkInterfaceOption = computed(() => {
+    const selected = normalizeNetworkInterface(
+      state.value.config[NETWORK_INTERFACE_KEY],
+    );
+    if (!selected) {
+      return null;
+    }
+    return (
+      targetDialogResolvedNetworkInterfaces.value.find(
+        (item) => item.name === selected,
+      ) || null
+    );
+  });
+
+  const targetDialogShouldShowInterfaceBlock = computed(
+    () =>
+      !!state.value.provider &&
+      normalizeIpSource(state.value.config[IP_SOURCE_KEY]) === "interface",
+  );
+
+  const targetDialogShouldShowStaticBlock = computed(
+    () =>
+      !!state.value.provider &&
+      normalizeIpSource(state.value.config[IP_SOURCE_KEY]) === "static",
+  );
+
+  const targetDialogShouldShowDomainBlock = computed(
+    () =>
+      !!state.value.provider &&
+      normalizeIpSource(state.value.config[IP_SOURCE_KEY]) === "domain",
+  );
+
+  const targetDialogUpdateScope = computed(() =>
+    normalizeUpdateScope(state.value.config[UPDATE_SCOPE_KEY]),
+  );
+
+  const targetDialogIPv4Options = computed(() =>
+    buildNetworkInterfaceAddressOptions(
+      targetDialogNetworkInterfaceOption.value,
+      "ipv4",
+      formatAddressOptionLabel,
+      allowsPrivateAddresses(state.value.config),
+    ),
+  );
+
+  const targetDialogIPv6Options = computed(() =>
+    buildNetworkInterfaceAddressOptions(
+      targetDialogNetworkInterfaceOption.value,
+      "ipv6",
+      formatAddressOptionLabel,
+      allowsPrivateAddresses(state.value.config),
+    ),
+  );
+
+  return {
+    targetDialogDescription,
+    targetDialogIPv4Options,
+    targetDialogIPv6Options,
+    targetDialogNetworkInterfaceLabel,
+    targetDialogProviderDef,
+    targetDialogResolvedNetworkInterfaces,
+    targetDialogShouldShowDomainBlock,
+    targetDialogShouldShowInterfaceBlock,
+    targetDialogShouldShowStaticBlock,
+    targetDialogTitle,
+    targetDialogUpdateScope,
+  };
+};

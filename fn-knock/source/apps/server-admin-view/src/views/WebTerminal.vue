@@ -1,1 +1,7 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBXZWJUZXJtaW5hbEFjY2Vzc0dhdGUgZnJvbSAiLi93ZWItdGVybWluYWwvV2ViVGVybWluYWxBY2Nlc3NHYXRlLnZ1ZSI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxXZWJUZXJtaW5hbEFjY2Vzc0dhdGUgLz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import WebTerminalAccessGate from "./web-terminal/WebTerminalAccessGate.vue";
+</script>
+
+<template>
+  <WebTerminalAccessGate />
+</template>

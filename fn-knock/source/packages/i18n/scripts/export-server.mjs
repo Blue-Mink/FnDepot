@@ -1,1 +1,52 @@
-aW1wb3J0IHsgcmVhZEZpbGUsIHdyaXRlRmlsZSB9IGZyb20gIm5vZGU6ZnMvcHJvbWlzZXMiOwppbXBvcnQgeyBkaXJuYW1lLCByZXNvbHZlIH0gZnJvbSAibm9kZTpwYXRoIjsKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCB9IGZyb20gIm5vZGU6dXJsIjsKCmltcG9ydCB7IG1lc3NhZ2VzIH0gZnJvbSAiLi4vc3JjL2xvY2FsZXMudHMiOwoKY29uc3Qgc2NyaXB0RGlyZWN0b3J5ID0gZGlybmFtZShmaWxlVVJMVG9QYXRoKGltcG9ydC5tZXRhLnVybCkpOwpjb25zdCByZXBvc2l0b3J5Um9vdCA9IHJlc29sdmUoc2NyaXB0RGlyZWN0b3J5LCAiLi4vLi4vLi4iKTsKY29uc3Qgb3V0cHV0UGF0aCA9IHJlc29sdmUoCiAgcmVwb3NpdG9yeVJvb3QsCiAgImFwcHMvc2VydmVyLWFkbWluLXJzL3NyYy9pbmZyYS9zZXJ2ZXJfaTE4bi5qc29uIiwKKTsKCmNvbnN0IHNvdXJjZU1lc3NhZ2VzID0gT2JqZWN0LmZyb21FbnRyaWVzKAogIE9iamVjdC5lbnRyaWVzKG1lc3NhZ2VzKS5tYXAoKFtsb2NhbGUsIGNhdGFsb2ddKSA9PiBbbG9jYWxlLCBjYXRhbG9nLnNlcnZlcl0pLAopOwoKY29uc3QgaXNSZWNvcmQgPSAodmFsdWUpID0+CiAgdmFsdWUgIT09IG51bGwgJiYgdHlwZW9mIHZhbHVlID09PSAib2JqZWN0IiAmJiAhQXJyYXkuaXNBcnJheSh2YWx1ZSk7Cgpjb25zdCBwcmVzZXJ2ZUV4aXN0aW5nS2V5T3JkZXIgPSAoZXhpc3RpbmcsIHNvdXJjZSkgPT4gewogIGlmICghaXNSZWNvcmQoZXhpc3RpbmcpIHx8ICFpc1JlY29yZChzb3VyY2UpKSB7CiAgICByZXR1cm4gc291cmNlOwogIH0KCiAgY29uc3QgcmVzdWx0ID0ge307CiAgZm9yIChjb25zdCBrZXkgb2YgT2JqZWN0LmtleXMoZXhpc3RpbmcpKSB7CiAgICBpZiAoT2JqZWN0Lmhhc093bihzb3VyY2UsIGtleSkpIHsKICAgICAgcmVzdWx0W2tleV0gPSBwcmVzZXJ2ZUV4aXN0aW5nS2V5T3JkZXIoZXhpc3Rpbmdba2V5XSwgc291cmNlW2tleV0pOwogICAgfQogIH0KICBmb3IgKGNvbnN0IGtleSBvZiBPYmplY3Qua2V5cyhzb3VyY2UpKSB7CiAgICBpZiAoIU9iamVjdC5oYXNPd24ocmVzdWx0LCBrZXkpKSB7CiAgICAgIHJlc3VsdFtrZXldID0gc291cmNlW2tleV07CiAgICB9CiAgfQogIHJldHVybiByZXN1bHQ7Cn07Cgpjb25zdCBleGlzdGluZ01lc3NhZ2VzID0gSlNPTi5wYXJzZShhd2FpdCByZWFkRmlsZShvdXRwdXRQYXRoLCAidXRmOCIpKTsKY29uc3Qgc2VydmVyTWVzc2FnZXMgPSBwcmVzZXJ2ZUV4aXN0aW5nS2V5T3JkZXIoCiAgZXhpc3RpbmdNZXNzYWdlcywKICBzb3VyY2VNZXNzYWdlcywKKTsKCmF3YWl0IHdyaXRlRmlsZSgKICBvdXRwdXRQYXRoLAogIGAke0pTT04uc3RyaW5naWZ5KHNlcnZlck1lc3NhZ2VzLCBudWxsLCAyKX1cbmAsCiAgInV0ZjgiLAopOwoKY29uc29sZS5sb2coYFtpMThuXSBleHBvcnRlZCBzZXJ2ZXIgY2F0YWxvZ3MgdG8gJHtvdXRwdXRQYXRofWApOwo=
+import { readFile, writeFile } from "node:fs/promises";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
+
+import { messages } from "../src/locales.ts";
+
+const scriptDirectory = dirname(fileURLToPath(import.meta.url));
+const repositoryRoot = resolve(scriptDirectory, "../../..");
+const outputPath = resolve(
+  repositoryRoot,
+  "apps/server-admin-rs/src/infra/server_i18n.json",
+);
+
+const sourceMessages = Object.fromEntries(
+  Object.entries(messages).map(([locale, catalog]) => [locale, catalog.server]),
+);
+
+const isRecord = (value) =>
+  value !== null && typeof value === "object" && !Array.isArray(value);
+
+const preserveExistingKeyOrder = (existing, source) => {
+  if (!isRecord(existing) || !isRecord(source)) {
+    return source;
+  }
+
+  const result = {};
+  for (const key of Object.keys(existing)) {
+    if (Object.hasOwn(source, key)) {
+      result[key] = preserveExistingKeyOrder(existing[key], source[key]);
+    }
+  }
+  for (const key of Object.keys(source)) {
+    if (!Object.hasOwn(result, key)) {
+      result[key] = source[key];
+    }
+  }
+  return result;
+};
+
+const existingMessages = JSON.parse(await readFile(outputPath, "utf8"));
+const serverMessages = preserveExistingKeyOrder(
+  existingMessages,
+  sourceMessages,
+);
+
+await writeFile(
+  outputPath,
+  `${JSON.stringify(serverMessages, null, 2)}\n`,
+  "utf8",
+);
+
+console.log(`[i18n] exported server catalogs to ${outputPath}`);

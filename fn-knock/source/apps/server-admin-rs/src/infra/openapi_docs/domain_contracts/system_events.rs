@@ -1,1 +1,113 @@
-dXNlIHN0ZDo6Y29sbGVjdGlvbnM6Okhhc2hNYXA7Cgp1c2Ugc2VyZGU6OlNlcmlhbGl6ZTsKdXNlIHNlcmRlX2pzb246OlZhbHVlOwp1c2UgdXRvaXBhOjpUb1NjaGVtYTsKCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBTeXN0ZW1FdmVudFN1YmplY3REYXRhIHsKICAgIGtpbmQ6IFN0cmluZywKICAgIGlkOiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBTeXN0ZW1FdmVudERhdGEgewogICAgaWQ6IFN0cmluZywKICAgIHRyYWNlX2lkOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2VyZGUocmVuYW1lID0gInR5cGUiKV0KICAgIGV2ZW50X3R5cGU6IFN0cmluZywKICAgIHNvdXJjZTogU3RyaW5nLAogICAgbGV2ZWw6IFN0cmluZywKICAgIGhhcHBlbmVkX2F0OiBTdHJpbmcsCiAgICBkZWR1cGVfa2V5OiBPcHRpb248U3RyaW5nPiwKICAgIHN1YmplY3Q6IE9wdGlvbjxTeXN0ZW1FdmVudFN1YmplY3REYXRhPiwKICAgIHRhZ3M6IE9wdGlvbjxWZWM8U3RyaW5nPj4sCiAgICBwYXlsb2FkOiBIYXNoTWFwPFN0cmluZywgVmFsdWU+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgU3lzdGVtRXZlbnRMaXN0RGF0YSB7CiAgICBldmVudHM6IFZlYzxTeXN0ZW1FdmVudERhdGE+LAogICAgdG90YWw6IGk2NCwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFN5c3RlbUV2ZW50RGVsZXRlQm9keURhdGEgewogICAgaWRzOiBWZWM8U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFN5c3RlbUV2ZW50Q2xlYXJEYXRhIHsKICAgIGRlbGV0ZWRfY291bnQ6IGk2NCwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFN5c3RlbUV2ZW50UHVibGlzaEJvZHlEYXRhIHsKICAgIHRyYWNlX2lkOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2VyZGUocmVuYW1lID0gInR5cGUiKV0KICAgIGV2ZW50X3R5cGU6IFN0cmluZywKICAgIHNvdXJjZTogU3RyaW5nLAogICAgbGV2ZWw6IE9wdGlvbjxTdHJpbmc+LAogICAgaGFwcGVuZWRfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgZGVkdXBlX2tleTogT3B0aW9uPFN0cmluZz4sCiAgICBkZWR1cGVfdHRsX3NlY29uZHM6IE9wdGlvbjxmNjQ+LAogICAgc3ViamVjdDogT3B0aW9uPFN5c3RlbUV2ZW50U3ViamVjdERhdGE+LAogICAgdGFnczogT3B0aW9uPFZlYzxTdHJpbmc+PiwKICAgIHBheWxvYWQ6IEhhc2hNYXA8U3RyaW5nLCBWYWx1ZT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBTeXN0ZW1FdmVudFB1Ymxpc2hSZXN1bHREYXRhIHsKICAgIHN1Y2Nlc3M6IGJvb2wsCiAgICBza2lwcGVkOiBib29sLAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIGRhdGE6IE9wdGlvbjxTeXN0ZW1FdmVudERhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gInNuYWtlX2Nhc2UiKV0KcHViKHN1cGVyKSBlbnVtIFRyYWNlU291cmNlU3RhdHVzRGF0YSB7CiAgICBGb3VuZCwKICAgIE5vdEZvdW5kLAogICAgVW5hdmFpbGFibGUsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBUcmFjZVNvdXJjZVN0YXR1c2VzRGF0YSB7CiAgICBnYXRld2F5X2xvZ3M6IFRyYWNlU291cmNlU3RhdHVzRGF0YSwKICAgIHdhZl9sb2dzOiBUcmFjZVNvdXJjZVN0YXR1c0RhdGEsCiAgICBzeXN0ZW1fZXZlbnRzOiBUcmFjZVNvdXJjZVN0YXR1c0RhdGEsCiAgICBub3RpZmljYXRpb25zOiBUcmFjZVNvdXJjZVN0YXR1c0RhdGEsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBUcmFjZUxvb2t1cERhdGEgewogICAgdHJhY2VfaWQ6IFN0cmluZywKICAgIGZvdW5kOiBib29sLAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIHJlcXVlc3Q6IE9wdGlvbjxWYWx1ZT4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgd2FmX2V2ZW50OiBPcHRpb248VmFsdWU+LAogICAgc3lzdGVtX2V2ZW50czogVmVjPFN5c3RlbUV2ZW50RGF0YT4sCiAgICBub3RpZmljYXRpb25fdHJpZ2dlcnM6IFZlYzxWYWx1ZT4sCiAgICBub3RpZmljYXRpb25fZGVsaXZlcmllczogVmVjPFZhbHVlPiwKICAgIHNvdXJjZXM6IFRyYWNlU291cmNlU3RhdHVzZXNEYXRhLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBMb2dpbkJhY2tvZmZEYXRhIHsKICAgIGlwOiBTdHJpbmcsCiAgICBhdHRlbXB0czogaTY0LAogICAgYmxvY2tlZDogYm9vbCwKICAgIHJldHJ5X2FmdGVyOiBPcHRpb248aTY0PiwKICAgIGJsb2NrZWRfdW50aWw6IE9wdGlvbjxpNjQ+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTG9naW5CYWNrb2ZmUmVzZXRCb2R5RGF0YSB7CiAgICBpcDogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgTG9naW5CYWNrb2ZmUmVzZXREYXRhIHt9Cg==
+use std::collections::HashMap;
+
+use serde::Serialize;
+use serde_json::Value;
+use utoipa::ToSchema;
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SystemEventSubjectData {
+    kind: String,
+    id: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SystemEventData {
+    id: String,
+    trace_id: Option<String>,
+    #[serde(rename = "type")]
+    event_type: String,
+    source: String,
+    level: String,
+    happened_at: String,
+    dedupe_key: Option<String>,
+    subject: Option<SystemEventSubjectData>,
+    tags: Option<Vec<String>>,
+    payload: HashMap<String, Value>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SystemEventListData {
+    events: Vec<SystemEventData>,
+    total: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SystemEventDeleteBodyData {
+    ids: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SystemEventClearData {
+    deleted_count: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SystemEventPublishBodyData {
+    trace_id: Option<String>,
+    #[serde(rename = "type")]
+    event_type: String,
+    source: String,
+    level: Option<String>,
+    happened_at: Option<String>,
+    dedupe_key: Option<String>,
+    dedupe_ttl_seconds: Option<f64>,
+    subject: Option<SystemEventSubjectData>,
+    tags: Option<Vec<String>>,
+    payload: HashMap<String, Value>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SystemEventPublishResultData {
+    success: bool,
+    skipped: bool,
+    #[schema(required = true)]
+    data: Option<SystemEventData>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "snake_case")]
+pub(super) enum TraceSourceStatusData {
+    Found,
+    NotFound,
+    Unavailable,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct TraceSourceStatusesData {
+    gateway_logs: TraceSourceStatusData,
+    waf_logs: TraceSourceStatusData,
+    system_events: TraceSourceStatusData,
+    notifications: TraceSourceStatusData,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct TraceLookupData {
+    trace_id: String,
+    found: bool,
+    #[schema(required = true)]
+    request: Option<Value>,
+    #[schema(required = true)]
+    waf_event: Option<Value>,
+    system_events: Vec<SystemEventData>,
+    notification_triggers: Vec<Value>,
+    notification_deliveries: Vec<Value>,
+    sources: TraceSourceStatusesData,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct LoginBackoffData {
+    ip: String,
+    attempts: i64,
+    blocked: bool,
+    retry_after: Option<i64>,
+    blocked_until: Option<i64>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct LoginBackoffResetBodyData {
+    ip: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct LoginBackoffResetData {}

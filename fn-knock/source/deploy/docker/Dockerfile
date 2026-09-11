@@ -1,1 +1,46 @@
-IyBzeW50YXg9ZG9ja2VyL2RvY2tlcmZpbGU6MS43CgpGUk9NIC0tcGxhdGZvcm09JEJVSUxEUExBVEZPUk0gYWxwaW5lOjMuMjMgQVMgcnVudGltZS1iaW5hcmllcwoKQVJHIFRBUkdFVEFSQ0gKQVJHIFRBUkdFVFZBUklBTlQKClJVTiAtLW1vdW50PXR5cGU9YmluZCxzb3VyY2U9ZGVwbG95L2RvY2tlci9ydXN0LWJhY2tlbmRzLHRhcmdldD0vaW5wdXQvcnVzdC1iYWNrZW5kcyxyZWFkb25seSBcCiAgLS1tb3VudD10eXBlPWJpbmQsc291cmNlPWFwcHMvZm4ta25vY2svYXBwL3NlcnZlcix0YXJnZXQ9L2lucHV0L3NlcnZlcixyZWFkb25seSBcCiAgY2FzZSAiJHtUQVJHRVRBUkNIfSR7VEFSR0VUVkFSSUFOVH0iIGluIFwKICAgIGFtZDY0KikgZ2F0ZXdheV9hcmNoPSJhbWQ2NCIgOzsgXAogICAgYXJtNjQqKSBnYXRld2F5X2FyY2g9ImFybTY0IiA7OyBcCiAgICBhcm12N3xhcm0qKSBnYXRld2F5X2FyY2g9ImFybSIgOzsgXAogICAgKikgZWNobyAidW5zdXBwb3J0ZWQgRG9ja2VyIHRhcmdldCBhcmNoaXRlY3R1cmU6ICR7VEFSR0VUQVJDSH0ke1RBUkdFVFZBUklBTlR9IiA+JjI7IGV4aXQgMSA7OyBcCiAgZXNhYyBcCiAgJiYgbWtkaXIgLXAgL3J1bnRpbWUgXAogICYmIGNwICIvaW5wdXQvcnVzdC1iYWNrZW5kcy9zZXJ2ZXItYWRtaW4tcnMtbGludXgtJHtnYXRld2F5X2FyY2h9IiAvcnVudGltZS9zZXJ2ZXItYWRtaW4tcnMgXAogICYmIGNwICIvaW5wdXQvc2VydmVyL2dvLXJlYXV0aC1wcm94eS1saW51eC0ke2dhdGV3YXlfYXJjaH0iIC9ydW50aW1lL2dvLXJlYXV0aC1wcm94eSBcCiAgJiYgY2htb2QgK3ggL3J1bnRpbWUvc2VydmVyLWFkbWluLXJzIC9ydW50aW1lL2dvLXJlYXV0aC1wcm94eQoKRlJPTSAtLXBsYXRmb3JtPSRUQVJHRVRQTEFURk9STSBhbHBpbmU6My4yMyBBUyBydW50aW1lCgpFTlYgVFo9QXNpYS9TaGFuZ2hhaSBcCiAgRk5fS05PQ0tfQkFDS0VORF9JTVBMPXJ1c3QgXAogIEZOX0tOT0NLX1JVTlRJTUVfVEFSR0VUPWRvY2tlciBcCiAgRk5fS05PQ0tfREFUQV9ESVI9L3Zhci9saWIvZm4ta25vY2sgXAogIEZOX0tOT0NLX0dBVEVXQVlfQ09ORklHX0RJUj0vdXNyL2xvY2FsL2V0Yy9mbi1rbm9jawoKV09SS0RJUiAvb3B0L2ZuLWtub2NrCgpSVU4gYXBrIGFkZCAtLW5vLWNhY2hlIGJhc2ggY2EtY2VydGlmaWNhdGVzIGN1cmwgb3BlbnNzbCB0emRhdGEgdW56aXAgXAogICYmIGxuIC1zbmYgIi91c3Ivc2hhcmUvem9uZWluZm8vJHtUWn0iIC9ldGMvbG9jYWx0aW1lIFwKICAmJiBlY2hvICIke1RafSIgPiAvZXRjL3RpbWV6b25lCkNPUFkgYXBwcy9mbi1rbm9jay9hcHAvdWkvd3d3LyAvb3B0L2ZuLWtub2NrL3VpL3d3dy8KQ09QWSBhcHBzL2ZuLWtub2NrL2FwcC9zZXJ2ZXItYXV0aC12aWV3L2Rpc3QvIC9vcHQvZm4ta25vY2svc2VydmVyLWF1dGgtdmlldy9kaXN0LwpDT1BZIGFwcHMvc2VydmVyLWFkbWluLXJzL3Jlc291cmNlcy9hY21lc2guemlwIC9vcHQvZm4ta25vY2svc2VydmVyL3NlcnZlci1hZG1pbi9yZXNvdXJjZXMvYWNtZXNoLnppcApDT1BZIC0tZnJvbT1ydW50aW1lLWJpbmFyaWVzIC0tY2htb2Q9NzU1IC9ydW50aW1lL3NlcnZlci1hZG1pbi1ycyAvb3B0L2ZuLWtub2NrL2Jpbi9zZXJ2ZXItYWRtaW4tcnMKQ09QWSAtLWZyb209cnVudGltZS1iaW5hcmllcyAtLWNobW9kPTc1NSAvcnVudGltZS9nby1yZWF1dGgtcHJveHkgL29wdC9mbi1rbm9jay9iaW4vZ28tcmVhdXRoLXByb3h5CkNPUFkgLS1jaG1vZD03NTUgZGVwbG95L2RvY2tlci9lbnRyeXBvaW50LnNoIC91c3IvbG9jYWwvYmluL2ZuLWtub2NrLWVudHJ5cG9pbnQKQ09QWSAtLWNobW9kPTc1NSBkZXBsb3kvZG9ja2VyL3Jlc2V0LXBhbmVsLXBhc3N3b3JkLnNoIC91c3IvbG9jYWwvYmluL2ZuLWtub2NrLXJlc2V0LXBhbmVsLXBhc3N3b3JkCgpFWFBPU0UgNzk5MSA3OTk5CgpWT0xVTUUgWyIvdmFyL2xpYi9mbi1rbm9jayIsICIvdXNyL2xvY2FsL2V0Yy9mbi1rbm9jayJdCgpFTlRSWVBPSU5UIFsiL3Vzci9sb2NhbC9iaW4vZm4ta25vY2stZW50cnlwb2ludCJdCg==
+# syntax=docker/dockerfile:1.7
+
+FROM --platform=$BUILDPLATFORM alpine:3.23 AS runtime-binaries
+
+ARG TARGETARCH
+ARG TARGETVARIANT
+
+RUN --mount=type=bind,source=deploy/docker/rust-backends,target=/input/rust-backends,readonly \
+  --mount=type=bind,source=apps/fn-knock/app/server,target=/input/server,readonly \
+  case "${TARGETARCH}${TARGETVARIANT}" in \
+    amd64*) gateway_arch="amd64" ;; \
+    arm64*) gateway_arch="arm64" ;; \
+    armv7|arm*) gateway_arch="arm" ;; \
+    *) echo "unsupported Docker target architecture: ${TARGETARCH}${TARGETVARIANT}" >&2; exit 1 ;; \
+  esac \
+  && mkdir -p /runtime \
+  && cp "/input/rust-backends/server-admin-rs-linux-${gateway_arch}" /runtime/server-admin-rs \
+  && cp "/input/server/go-reauth-proxy-linux-${gateway_arch}" /runtime/go-reauth-proxy \
+  && chmod +x /runtime/server-admin-rs /runtime/go-reauth-proxy
+
+FROM --platform=$TARGETPLATFORM alpine:3.23 AS runtime
+
+ENV TZ=Asia/Shanghai \
+  FN_KNOCK_BACKEND_IMPL=rust \
+  FN_KNOCK_RUNTIME_TARGET=docker \
+  FN_KNOCK_DATA_DIR=/var/lib/fn-knock \
+  FN_KNOCK_GATEWAY_CONFIG_DIR=/usr/local/etc/fn-knock
+
+WORKDIR /opt/fn-knock
+
+RUN apk add --no-cache bash ca-certificates curl openssl tzdata unzip \
+  && ln -snf "/usr/share/zoneinfo/${TZ}" /etc/localtime \
+  && echo "${TZ}" > /etc/timezone
+COPY apps/fn-knock/app/ui/www/ /opt/fn-knock/ui/www/
+COPY apps/fn-knock/app/server-auth-view/dist/ /opt/fn-knock/server-auth-view/dist/
+COPY apps/server-admin-rs/resources/acmesh.zip /opt/fn-knock/server/server-admin/resources/acmesh.zip
+COPY --from=runtime-binaries --chmod=755 /runtime/server-admin-rs /opt/fn-knock/bin/server-admin-rs
+COPY --from=runtime-binaries --chmod=755 /runtime/go-reauth-proxy /opt/fn-knock/bin/go-reauth-proxy
+COPY --chmod=755 deploy/docker/entrypoint.sh /usr/local/bin/fn-knock-entrypoint
+COPY --chmod=755 deploy/docker/reset-panel-password.sh /usr/local/bin/fn-knock-reset-panel-password
+
+EXPOSE 7991 7999
+
+VOLUME ["/var/lib/fn-knock", "/usr/local/etc/fn-knock"]
+
+ENTRYPOINT ["/usr/local/bin/fn-knock-entrypoint"]

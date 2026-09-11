@@ -1,1 +1,66 @@
-aW1wb3J0IHsgcmVmLCB0eXBlIFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IGV4dHJhY3RFcnJvck1lc3NhZ2UgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgV09MQVBJLCB0eXBlIFdPTFRhcmdldElucHV0IH0gZnJvbSAiQC9saWIvYXBpL3dvbCI7CmltcG9ydCB0eXBlIHsgV29sVHJhbnNsYXRlIH0gZnJvbSAiLi93b2wtbWFuYWdlbWVudC10eXBlcyI7CgpleHBvcnQgY29uc3QgdXNlV29sVGFyZ2V0U3NoID0gKHsKICBlZGl0aW5nVGFyZ2V0SWQsCiAgdCwKICB0YXJnZXRGb3JtLAp9OiB7CiAgZWRpdGluZ1RhcmdldElkOiBSZWY8c3RyaW5nPjsKICB0OiBXb2xUcmFuc2xhdGU7CiAgdGFyZ2V0Rm9ybTogV09MVGFyZ2V0SW5wdXQ7Cn0pID0+IHsKICBjb25zdCB0ZXN0aW5nU3NoID0gcmVmKGZhbHNlKTsKCiAgY29uc3QgdGVzdFNzaCA9IGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHNzaCA9IHRhcmdldEZvcm0uc3NoOwogICAgaWYgKCFzc2ggfHwgIWVkaXRpbmdUYXJnZXRJZC52YWx1ZSkgcmV0dXJuOwogICAgY29uc3QgdGFyZ2V0SWQgPSBlZGl0aW5nVGFyZ2V0SWQudmFsdWU7CiAgICBjb25zdCB0ZXN0ZWREcmFmdCA9IHsgLi4uc3NoIH07CiAgICB0ZXN0aW5nU3NoLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IFdPTEFQSS50ZXN0U3NoKHRhcmdldElkLCB0ZXN0ZWREcmFmdCk7CiAgICAgIGNvbnN0IGN1cnJlbnQgPSB0YXJnZXRGb3JtLnNzaDsKICAgICAgY29uc3QgdGVzdGVkRmllbGRzID0gWwogICAgICAgICJlbmFibGVkIiwKICAgICAgICAiaG9zdCIsCiAgICAgICAgInBvcnQiLAogICAgICAgICJ1c2VybmFtZSIsCiAgICAgICAgInBsYXRmb3JtIiwKICAgICAgICAiYXV0aE1ldGhvZCIsCiAgICAgICAgInBhc3N3b3JkIiwKICAgICAgICAicHJpdmF0ZUtleSIsCiAgICAgICAgInByaXZhdGVLZXlQYXNzcGhyYXNlIiwKICAgICAgICAiY2xlYXJDcmVkZW50aWFsIiwKICAgICAgXSBhcyBjb25zdDsKICAgICAgaWYgKAogICAgICAgIGVkaXRpbmdUYXJnZXRJZC52YWx1ZSAhPT0gdGFyZ2V0SWQgfHwKICAgICAgICAhY3VycmVudCB8fAogICAgICAgIHRlc3RlZEZpZWxkcy5zb21lKChmaWVsZCkgPT4gY3VycmVudFtmaWVsZF0gIT09IHRlc3RlZERyYWZ0W2ZpZWxkXSkKICAgICAgKSB7CiAgICAgICAgcmV0dXJuOwogICAgICB9CiAgICAgIGN1cnJlbnQuaG9zdEtleUFsZ29yaXRobSA9IHJlc3VsdC5ob3N0S2V5QWxnb3JpdGhtOwogICAgICBjdXJyZW50Lmhvc3RLZXlGaW5nZXJwcmludCA9IHJlc3VsdC5ob3N0S2V5RmluZ2VycHJpbnQ7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4ud29sLnNzaC50ZXN0U3VjY2VzcyIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IHQoImFkbWluLndvbC5zc2gudGVzdFN1Y2Nlc3NEZXNjcmlwdGlvbiIsIHsKICAgICAgICAgIGxhdGVuY3k6IHJlc3VsdC5sYXRlbmN5TXMsCiAgICAgICAgfSksCiAgICAgIH0pOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ud29sLnNzaC50ZXN0RmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiYWRtaW4ud29sLnNzaC50ZXN0RmFpbGVkIikpLAogICAgICB9KTsKICAgIH0gZmluYWxseSB7CiAgICAgIHRlc3RpbmdTc2gudmFsdWUgPSBmYWxzZTsKICAgIH0KICB9OwoKICByZXR1cm4gewogICAgdGVzdFNzaCwKICAgIHRlc3RpbmdTc2gsCiAgfTsKfTsK
+import { ref, type Ref } from "vue";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import { WOLAPI, type WOLTargetInput } from "@/lib/api/wol";
+import type { WolTranslate } from "./wol-management-types";
+
+export const useWolTargetSsh = ({
+  editingTargetId,
+  t,
+  targetForm,
+}: {
+  editingTargetId: Ref<string>;
+  t: WolTranslate;
+  targetForm: WOLTargetInput;
+}) => {
+  const testingSsh = ref(false);
+
+  const testSsh = async () => {
+    const ssh = targetForm.ssh;
+    if (!ssh || !editingTargetId.value) return;
+    const targetId = editingTargetId.value;
+    const testedDraft = { ...ssh };
+    testingSsh.value = true;
+    try {
+      const result = await WOLAPI.testSsh(targetId, testedDraft);
+      const current = targetForm.ssh;
+      const testedFields = [
+        "enabled",
+        "host",
+        "port",
+        "username",
+        "platform",
+        "authMethod",
+        "password",
+        "privateKey",
+        "privateKeyPassphrase",
+        "clearCredential",
+      ] as const;
+      if (
+        editingTargetId.value !== targetId ||
+        !current ||
+        testedFields.some((field) => current[field] !== testedDraft[field])
+      ) {
+        return;
+      }
+      current.hostKeyAlgorithm = result.hostKeyAlgorithm;
+      current.hostKeyFingerprint = result.hostKeyFingerprint;
+      toast.success(t("admin.wol.ssh.testSuccess"), {
+        description: t("admin.wol.ssh.testSuccessDescription", {
+          latency: result.latencyMs,
+        }),
+      });
+    } catch (error) {
+      toast.error(t("admin.wol.ssh.testFailed"), {
+        description: extractErrorMessage(error, t("admin.wol.ssh.testFailed")),
+      });
+    } finally {
+      testingSsh.value = false;
+    }
+  };
+
+  return {
+    testSsh,
+    testingSsh,
+  };
+};

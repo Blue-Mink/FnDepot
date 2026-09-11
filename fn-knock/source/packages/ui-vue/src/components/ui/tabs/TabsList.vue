@@ -1,1 +1,24 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgVGFic0xpc3RQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgVGFic0xpc3QgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxUYWJzTGlzdFByb3BzICYgeyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdIH0+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8VGFic0xpc3QKICAgIGRhdGEtc2xvdD0idGFicy1saXN0IgogICAgdi1iaW5kPSJkZWxlZ2F0ZWRQcm9wcyIKICAgIDpjbGFzcz0iY24oCiAgICAgICdiZy1tdXRlZCB0ZXh0LW11dGVkLWZvcmVncm91bmQgaW5saW5lLWZsZXggaC05IHctZml0IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWxnIHAtWzNweF0gW3Njcm9sbGJhci13aWR0aDpub25lXSBbLW1zLW92ZXJmbG93LXN0eWxlOm5vbmVdIFsmOjotd2Via2l0LXNjcm9sbGJhcl06aGlkZGVuJywKICAgICAgcHJvcHMuY2xhc3MsCiAgICApIgogID4KICAgIDxzbG90IC8+CiAgPC9UYWJzTGlzdD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { TabsListProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { TabsList } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<TabsListProps & { class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+</script>
+
+<template>
+  <TabsList
+    data-slot="tabs-list"
+    v-bind="delegatedProps"
+    :class="cn(
+      'bg-muted text-muted-foreground inline-flex h-9 w-fit items-center justify-center rounded-lg p-[3px] [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden',
+      props.class,
+    )"
+  >
+    <slot />
+  </TabsList>
+</template>

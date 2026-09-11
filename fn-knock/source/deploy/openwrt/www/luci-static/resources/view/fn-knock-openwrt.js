@@ -1,1 +1,261 @@
-J3VzZSBzdHJpY3QnOwoncmVxdWlyZSB2aWV3JzsKJ3JlcXVpcmUgdWNpJzsKJ3JlcXVpcmUgZm9ybSc7CidyZXF1aXJlIGZzJzsKJ3JlcXVpcmUgdWknOwoncmVxdWlyZSBkb20nOwoncmVxdWlyZSBycGMnOwoKZnVuY3Rpb24gZm9ybWF0SG9zdChob3N0bmFtZSkgewoJaWYgKCFob3N0bmFtZSkKCQlyZXR1cm4gd2luZG93LmxvY2F0aW9uLmhvc3RuYW1lOwoKCXJldHVybiBob3N0bmFtZS5pbmRleE9mKCc6JykgIT09IC0xID8gJ1snICsgaG9zdG5hbWUgKyAnXScgOiBob3N0bmFtZTsKfQoKZnVuY3Rpb24gYnVpbGRBZG1pblVybChwb3J0KSB7CglyZXR1cm4gJ2h0dHA6Ly8nICsgZm9ybWF0SG9zdCh3aW5kb3cubG9jYXRpb24uaG9zdG5hbWUpICsgJzonICsgcG9ydCArICcvJzsKfQoKZnVuY3Rpb24gb3B0aW9uVmFsdWUobmFtZSwgZmFsbGJhY2spIHsKCXJldHVybiB1Y2kuZ2V0KCdmbi1rbm9jaycsICdtYWluJywgbmFtZSkgfHwgZmFsbGJhY2s7Cn0KCnZhciBPRkZJQ0lBTF9TSVRFX1VSTCA9ICdodHRwczovL3d3dy5mbmtub2NrLmNuLyc7CnZhciBET0NVTUVOVEFUSU9OX1VSTCA9ICdodHRwczovL2RvY3MuZm5rbm9jay5jbi8nOwoKdmFyIGdldFBlbmRpbmdDaGFuZ2VzID0gcnBjLmRlY2xhcmUoewoJb2JqZWN0OiAndWNpJywKCW1ldGhvZDogJ2NoYW5nZXMnLAoJcmVqZWN0OiB0cnVlCn0pOwoKdmFyIEZJUkVXQUxMX0hFTFBFUiA9ICcvdXNyL2xpYmV4ZWMvZm4ta25vY2stZmlyZXdhbGwnOwp2YXIgZmlyZXdhbGxFcnJvcnMgPSB7Cgl1bmF2YWlsYWJsZTogJ+W9k+WJjeezu+e7n+e8uuWwkeaJgOmcgOeahCBPcGVuV3J0IOmYsueBq+WimeacjeWKoeaIluW3peWFt+OAgicsCglzZXNzaW9uX2ZhaWxlZDogJ+aXoOazleW7uueri+eLrOeri+eahOmYsueBq+WimemFjee9ruS8muivneOAgicsCgljb25maWdfdW5hdmFpbGFibGU6ICfml6Dms5Xor7vlj5blt7Lmj5DkuqTnmoTmnI3liqHmiJbpmLLngavlopnphY3nva7jgIInLAoJcGVuZGluZ19maXJld2FsbDogJ+WtmOWcqOacquaPkOS6pOeahOmYsueBq+WimeS/ruaUue+8jOivt+WFiOWcqOmYsueBq+WimemhtemdouaIliBDTEkg5Lit5bqU55So5oiW5pKk6ZSA77yM5YaN54K55Ye75pS+6KGM44CCJywKCWludmFsaWRfcG9ydDogJ+e9keWFs+err+WPo+aXoOaViO+8jOivt+WFiOS/neWtmOW5tuW6lOeUqOacieaViOerr+WPo+OAgicsCglwb3J0X2NoYW5nZWQ6ICflt7Lmj5DkuqTnmoTnvZHlhbPnq6/lj6Plt7Llj5jljJbvvIzor7fliLfmlrDpobXpnaLlkI7ph43or5XjgIInLAoJaW52YWxpZF96b25lOiAn5omA6YCJ6Ziy54Gr5aKZ5Yy65Z+f5LiN5a2Y5Zyo77yM6K+35Yi35paw6aG16Z2i6YeN5paw6YCJ5oup44CCJywKCWNvbmZsaWN0OiAn5ZCM5ZCN6KeE5YiZ5LiN5bGe5LqO5pWy6ZeoIEtub2Nr77yM5oiW5YyF5ZCr6aKd5aSW6ZmQ5Yi277yM6K+35YWI5Zyo6Ziy54Gr5aKZ6aG16Z2i5qOA5p+l44CCJywKCWJ1c3k6ICflj6bkuIDkuKrmlL7ooYzmk43kvZzmraPlnKjmiafooYzvvIzor7fnqI3lkI7ph43or5XvvJvoi6XmjIHnu63lh7rnjrDvvIzor7fmo4Dmn6UgL3Zhci9ydW4vZm4ta25vY2stZmlyZXdhbGwubG9jay5kIOaui+eVmemUgeOAgicsCgl3cml0ZV9mYWlsZWQ6ICfpmLLngavlopnop4TliJnlhpnlhaXlpLHotKXvvIzmnKrmj5DkuqTphY3nva7jgIInLAoJY29tbWl0X2ZhaWxlZDogJ+mYsueBq+WimemFjee9ruaPkOS6pOWksei0pe+8jOivt+ajgOafpeWQjumHjeivleOAgicsCglyZWxvYWRfZmFpbGVkOiAn6KeE5YiZ5bey5L+d5a2Y77yM5L2G6Ziy54Gr5aKZ6YeN6L295aSx6LSl77yM6K+35qOA5p+l6Ziy54Gr5aKZ6YWN572u5ZCO5YaN5qyh54K55Ye76YeN6K+V44CCJwp9OwoKZnVuY3Rpb24gcmVhZEZpcmV3YWxsUmVzdWx0KHJlc3VsdCkgewoJdmFyIHZhbHVlOwoJdHJ5IHsgdmFsdWUgPSBKU09OLnBhcnNlKHJlc3VsdC5zdGRvdXQgfHwgJ3t9Jyk7IH0KCWNhdGNoIChlKSB7IHRocm93IG5ldyBFcnJvcign5peg5rOV6Kej5p6Q6Ziy54Gr5aKZ5pON5L2c57uT5p6c44CCJyk7IH0KCWlmIChyZXN1bHQuY29kZSAhPT0gMCB8fCAhdmFsdWUuc3RhdGUpCgkJdGhyb3cgbmV3IEVycm9yKGZpcmV3YWxsRXJyb3JzW3ZhbHVlLnN0YXRlXSB8fCAn6Ziy54Gr5aKZ5pON5L2c5aSx6LSl77yM6K+35qOA5p+l57O757uf5pel5b+X44CCJyk7CglyZXR1cm4gdmFsdWU7Cn0KCnZhciBzZXJ2aWNlUG9ydExhYmVscyA9IHsKCWFkbWluX3ZpZXdfcG9ydDogJ+euoeeQhuWQjuWPsOerr+WPoycsCgliYWNrZW5kX3BvcnQ6ICflhoXpg6jlkI7nq68gQVBJIOerr+WPoycsCglhdXRoX3BvcnQ6ICforqTor4HmnI3liqHnq6/lj6MnLAoJZ29fYmFja2VuZF9wb3J0OiAn572R5YWz5YaF6YOoIGdSUEMg56uv5Y+jJywKCWdvX3JlcHJveHlfcG9ydDogJ+e9keWFs+S7o+eQhuerr+WPoycKfTsKCmZ1bmN0aW9uIGJ1aWxkRXh0ZXJuYWxMaW5rcygpIHsKCXJldHVybiBbCgkJJzxhIGNsYXNzPSJjYmktYnV0dG9uIGNiaS1idXR0b24tYWN0aW9uIiBocmVmPSIlaCIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9yZWZlcnJlciBub29wZW5lciI+5a6Y572RPC9hPicuZm9ybWF0KE9GRklDSUFMX1NJVEVfVVJMKSwKCQknPGEgY2xhc3M9ImNiaS1idXR0b24gY2JpLWJ1dHRvbi1uZXV0cmFsIiBocmVmPSIlaCIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9yZWZlcnJlciBub29wZW5lciI+5paH5qGj56uZ54K5PC9hPicuZm9ybWF0KERPQ1VNRU5UQVRJT05fVVJMKQoJXS5qb2luKCcgJyk7Cn0KCmZ1bmN0aW9uIHZhbGlkYXRlU2VydmljZVBvcnQoc2VjdGlvbklkLCB2YWx1ZSkgewoJdmFyIHBvcnRzID0ge307Cgl2YXIgbmFtZXMgPSBPYmplY3Qua2V5cyhzZXJ2aWNlUG9ydExhYmVscyk7Cgl2YXIgbmFtZSwgb3B0aW9uLCBwb3J0LCBvd25lcjsKCglmb3IgKHZhciBpID0gMDsgaSA8IG5hbWVzLmxlbmd0aDsgaSsrKSB7CgkJbmFtZSA9IG5hbWVzW2ldOwoJCW9wdGlvbiA9IHRoaXMuc2VjdGlvbi5nZXRPcHRpb24obmFtZSk7CgkJcG9ydCA9IG5hbWUgPT09IHRoaXMub3B0aW9uID8gdmFsdWUgOiBvcHRpb24gPyBvcHRpb24uZm9ybXZhbHVlKHNlY3Rpb25JZCkgOiBvcHRpb25WYWx1ZShuYW1lLCAnJyk7CgoJCWlmICghcG9ydCkKCQkJY29udGludWU7CgoJCW93bmVyID0gcG9ydHNbcG9ydF07CgkJaWYgKG93bmVyKQoJCQlyZXR1cm4gJ+err+WPoyAlcyDlt7LooqsgJXMg5L2/55So44CCJy5mb3JtYXQocG9ydCwgc2VydmljZVBvcnRMYWJlbHNbb3duZXJdKTsKCgkJcG9ydHNbcG9ydF0gPSBuYW1lOwoJfQoKCXJldHVybiB0cnVlOwp9CgpmdW5jdGlvbiBhZGRQb3J0T3B0aW9uKHNlY3Rpb24sIG5hbWUsIHRpdGxlLCBwbGFjZWhvbGRlciwgZGVzY3JpcHRpb24pIHsKCXZhciBvcHRpb24gPSBzZWN0aW9uLm9wdGlvbihmb3JtLlZhbHVlLCBuYW1lLCB0aXRsZSwgZGVzY3JpcHRpb24pOwoJb3B0aW9uLmRhdGF0eXBlID0gJ3BvcnQnOwoJb3B0aW9uLnBsYWNlaG9sZGVyID0gcGxhY2Vob2xkZXI7CglvcHRpb24ucm1lbXB0eSA9IGZhbHNlOwoJb3B0aW9uLnZhbGlkYXRlID0gdmFsaWRhdGVTZXJ2aWNlUG9ydDsKCXJldHVybiBvcHRpb247Cn0KCmZ1bmN0aW9uIHNhdmVBbmRBcHBseShtb2RlKSB7Cgl2YXIgdGFza3MgPSBbXTsKCglkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnbWFpbmNvbnRlbnQnKS5xdWVyeVNlbGVjdG9yQWxsKCcuY2JpLW1hcCcpLmZvckVhY2goZnVuY3Rpb24obWFwKSB7CgkJdGFza3MucHVzaChkb20uY2FsbENsYXNzTWV0aG9kKG1hcCwgJ3NhdmUnKSk7Cgl9KTsKCglyZXR1cm4gUHJvbWlzZS5hbGwodGFza3MpLnRoZW4oZnVuY3Rpb24oKSB7CgkJdWkuY2hhbmdlcy5hcHBseShtb2RlID09ICcwJyk7Cgl9KS50aGVuKGZ1bmN0aW9uKCkgewoJCXVpLmFkZE5vdGlmaWNhdGlvbihudWxsLCBFKCdwJywge30sIFsgJ+aVsumXqCBLbm9jayDphY3nva7lt7Lmj5DkuqTvvIzmnI3liqHkvJrlnKjphY3nva7lhpnlhaXlkI7oh6rliqjph43ovb3jgIInIF0pLCAnaW5mbycpOwoJfSkuY2F0Y2goZnVuY3Rpb24oZXJyKSB7CgkJdWkuYWRkTm90aWZpY2F0aW9uKG51bGwsIEUoJ3AnLCB7fSwgWyAn5bqU55So5pWy6ZeoIEtub2NrIOmFjee9ruWksei0pe+8miVzJy5mb3JtYXQoZXJyLm1lc3NhZ2UgfHwgZXJyKSBdKSwgJ2RhbmdlcicpOwoJCXRocm93IGVycjsKCX0pOwp9CgpyZXR1cm4gdmlldy5leHRlbmQoewoJaGFuZGxlU2F2ZTogbnVsbCwKCgloYW5kbGVTYXZlQXBwbHk6IGZ1bmN0aW9uKGV2LCBtb2RlKSB7CgkJcmV0dXJuIHNhdmVBbmRBcHBseShtb2RlKTsKCX0sCgoJbG9hZDogZnVuY3Rpb24oKSB7CgkJcmV0dXJuIFByb21pc2UuYWxsKFsKCQkJTC5yZXNvbHZlRGVmYXVsdCh1Y2kubG9hZCgnZm4ta25vY2snKSwgbnVsbCksCgkJCUwucmVzb2x2ZURlZmF1bHQoZnMuZXhlYygnL2V0Yy9pbml0LmQvZm4ta25vY2snLCBbICdzdGF0dXMnIF0pLCBudWxsKSwKCQkJZnMuZXhlYyhGSVJFV0FMTF9IRUxQRVIsIFsgJ3N0YXR1cycgXSkudGhlbihyZWFkRmlyZXdhbGxSZXN1bHQpLmNhdGNoKGZ1bmN0aW9uKGVycikgewoJCQkJcmV0dXJuIHsgZXJyb3I6IGVyci5tZXNzYWdlIHx8IFN0cmluZyhlcnIpLCB6b25lczogW10gfTsKCQkJfSkKCQldKTsKCX0sCgoJcmVuZGVyOiBmdW5jdGlvbihkYXRhKSB7CgkJdmFyIHN0YXR1cyA9IGRhdGEgJiYgZGF0YVsxXSA/IGRhdGFbMV0gOiBudWxsOwoJCXZhciBydW5uaW5nID0gc3RhdHVzICYmIHN0YXR1cy5jb2RlID09PSAwOwoJCXZhciBwb3J0ID0gb3B0aW9uVmFsdWUoJ2FkbWluX3ZpZXdfcG9ydCcsICc3OTkxJyk7CgkJdmFyIHRhcmdldFVybCA9IGJ1aWxkQWRtaW5VcmwocG9ydCk7CgkJdmFyIG0sIHMsIG87CgkJdmFyIGZpcmV3YWxsID0gZGF0YSAmJiBkYXRhWzJdOwoKCQltID0gbmV3IGZvcm0uTWFwKCdmbi1rbm9jaycsICfmlbLpl6ggS25vY2snLCAn6YWN572uIE9wZW5XcnQg5LiK55qE5pWy6ZeoIEtub2NrIOacjeWKoeerr+WPo++8jOW5tuaJk+W8gOeuoeeQhuWQjuWPsOOAgicpOwoKCQlzID0gbS5zZWN0aW9uKGZvcm0uTmFtZWRTZWN0aW9uLCAnbWFpbicsICdmbl9rbm9jaycsICfmnI3liqEnKTsKCQlzLmFkZHJlbW92ZSA9IGZhbHNlOwoKCQlvID0gcy5vcHRpb24oZm9ybS5EdW1teVZhbHVlLCAnX3N0YXR1cycsICfmnI3liqHnirbmgIEnKTsKCQlvLmNmZ3ZhbHVlID0gZnVuY3Rpb24oKSB7CgkJCXJldHVybiBydW5uaW5nID8gJ+i/kOihjOS4rScgOiAn5bey5YGc5q2iJzsKCQl9OwoKCQlvID0gcy5vcHRpb24oZm9ybS5EdW1teVZhbHVlLCAnX2FkbWluX3VybCcsICfnrqHnkIblkI7lj7DlnLDlnYAnKTsKCQlvLmNmZ3ZhbHVlID0gZnVuY3Rpb24oKSB7CgkJCXJldHVybiB0YXJnZXRVcmw7CgkJfTsKCQlvLnJhd2h0bWwgPSB0cnVlOwoJCW8udGV4dHZhbHVlID0gZnVuY3Rpb24oKSB7CgkJCXJldHVybiAnPGEgaHJlZj0iJWgiIHRhcmdldD0iX3NlbGYiIHJlbD0ibm9yZWZlcnJlciI+JWg8L2E+Jy5mb3JtYXQodGFyZ2V0VXJsLCB0YXJnZXRVcmwpOwoJCX07CgoJCW8gPSBzLm9wdGlvbihmb3JtLkJ1dHRvbiwgJ19vcGVuX2FkbWluJywgJ+euoeeQhuWQjuWPsCcpOwoJCW8uaW5wdXR0aXRsZSA9ICfmiZPlvIDnrqHnkIblkI7lj7AnOwoJCW8uaW5wdXRzdHlsZSA9ICdhY3Rpb24nOwoJCW8ub25jbGljayA9IGZ1bmN0aW9uKCkgewoJCQl3aW5kb3cubG9jYXRpb24uaHJlZiA9IGJ1aWxkQWRtaW5Vcmwob3B0aW9uVmFsdWUoJ2FkbWluX3ZpZXdfcG9ydCcsICc3OTkxJykpOwoJCQlyZXR1cm4gZmFsc2U7CgkJfTsKCgkJbyA9IHMub3B0aW9uKGZvcm0uRHVtbXlWYWx1ZSwgJ19saW5rcycsICfnm7jlhbPpk77mjqUnKTsKCQlvLnJhd2h0bWwgPSB0cnVlOwoJCW8uY2ZndmFsdWUgPSBidWlsZEV4dGVybmFsTGlua3M7CgkJby50ZXh0dmFsdWUgPSBidWlsZEV4dGVybmFsTGlua3M7CgoJCXZhciB6b25lcyA9IGZpcmV3YWxsICYmIEFycmF5LmlzQXJyYXkoZmlyZXdhbGwuem9uZXMpID8gZmlyZXdhbGwuem9uZXMgOiBbXTsKCQl2YXIgZGVmYXVsdFpvbmUgPSB6b25lcy5pbmRleE9mKGZpcmV3YWxsICYmIGZpcmV3YWxsLnNvdXJjZV96b25lKSAhPT0gLTEKCQkJPyBmaXJld2FsbC5zb3VyY2Vfem9uZSA6IHpvbmVzLmluZGV4T2YoJ3dhbicpICE9PSAtMSA/ICd3YW4nIDogJyc7CgkJdmFyIHpvbmVPcHRpb24gPSBzLm9wdGlvbihmb3JtLkxpc3RWYWx1ZSwgJ19maXJld2FsbF96b25lJywgJ+mYsueBq+Wimeadpea6kOWMuuWfnycpOwoJCXpvbmVPcHRpb24udmFsdWUoJycsICfor7fpgInmi6nmnaXmupDljLrln58nKTsKCQl6b25lcy5mb3JFYWNoKGZ1bmN0aW9uKHpvbmUpIHsgem9uZU9wdGlvbi52YWx1ZSh6b25lLCB6b25lKTsgfSk7CgkJem9uZU9wdGlvbi5jZmd2YWx1ZSA9IGZ1bmN0aW9uKCkgeyByZXR1cm4gZGVmYXVsdFpvbmU7IH07CgkJLy8gVGhpcyBpcyBhbiBhY3Rpb24gcGFyYW1ldGVyLCBuZXZlciBhIHNhdmVkIGZuLWtub2NrIG9wdGlvbi4KCQl6b25lT3B0aW9uLndyaXRlID0gZnVuY3Rpb24oKSB7fTsKCQl6b25lT3B0aW9uLnJlbW92ZSA9IGZ1bmN0aW9uKCkge307CgkJem9uZU9wdGlvbi5ybWVtcHR5ID0gdHJ1ZTsKCgkJbyA9IHMub3B0aW9uKGZvcm0uRHVtbXlWYWx1ZSwgJ19maXJld2FsbF9pbmZvJywgJ+e9keWFs+mYsueBq+WimScpOwoJCW8uY2ZndmFsdWUgPSBmdW5jdGlvbigpIHsKCQkJaWYgKCFmaXJld2FsbCkgcmV0dXJuICfml6Dms5Xor7vlj5bpmLLngavlopnphY3nva7vvIzlvZPliY3ns7vnu5/lj6/og73nvLrlsJHmiYDpnIDmnI3liqHmiJblt6XlhbfjgIInOwoJCQlpZiAoZmlyZXdhbGwuZXJyb3IpIHJldHVybiAn5peg5rOV6K+75Y+W6Ziy54Gr5aKZ6YWN572u77yaJyArIGZpcmV3YWxsLmVycm9yOwoJCQl2YXIgdGV4dCA9ICfmiYvliqjmlL7ooYwgVENQICcgKyBmaXJld2FsbC5wb3J0ICsgJ++8iElQdjQvSVB2Nu+8ie+8jOinhOWImemHjeWQr+WQjuS/neeVmeOAguS/ruaUueerr+WPo+WQjumcgOWGjeasoeeCueWHu++8m+aSpOmUgOivt+WIsOmYsueBq+WimemhtemdouWIoOmZpOinhOWImeOAgic7CgkJCWlmIChmaXJld2FsbC5zdGF0ZSA9PT0gJ2NvbmZsaWN0JykgcmV0dXJuIHRleHQgKyAnICcgKyBmaXJld2FsbEVycm9ycy5jb25mbGljdDsKCQkJaWYgKGZpcmV3YWxsLnN0YXRlID09PSAnY29uZmlndXJlZCcpCgkJCQl0ZXh0ICs9ICcg5bey5L+d5a2Y6KeE5YiZ77yaJyArIGZpcmV3YWxsLnNvdXJjZV96b25lICsgJyAvIFRDUCAnICsgZmlyZXdhbGwuY29uZmlndXJlZF9wb3J0ICsgJ++8iOS4jeS7o+ihqOWunuaXtui/numAmueKtuaAge+8ieOAgic7CgkJCXJldHVybiB0ZXh0OwoJCX07CgoJCW8gPSBzLm9wdGlvbihmb3JtLkJ1dHRvbiwgJ19vcGVuX2ZpcmV3YWxsJywgJ+aJi+WKqOaUvuihjCcpOwoJCW8uaW5wdXR0aXRsZSA9ICfmlL7ooYzpmLLngavlopknOwoJCW8uaW5wdXRzdHlsZSA9ICdhY3Rpb24nOwoJCW8ucmVhZG9ubHkgPSAhZmlyZXdhbGwgfHwgIXpvbmVzLmxlbmd0aCB8fCBmaXJld2FsbC5zdGF0ZSA9PT0gJ2NvbmZsaWN0JyB8fCBtLnJlYWRvbmx5OwoJCW8ub25jbGljayA9IGZ1bmN0aW9uKGV2LCBzZWN0aW9uSWQpIHsKCQkJdmFyIGJ1dHRvbiA9IGV2LmN1cnJlbnRUYXJnZXQ7CgkJCXZhciB6b25lID0gem9uZU9wdGlvbi5mb3JtdmFsdWUoc2VjdGlvbklkKTsKCQkJYnV0dG9uLmRpc2FibGVkID0gdHJ1ZTsKCQkJcmV0dXJuIFByb21pc2UucmVzb2x2ZSgpLnRoZW4oZnVuY3Rpb24oKSB7CgkJCQlpZiAoIXpvbmUpIHRocm93IG5ldyBFcnJvcign6K+35YWI6YCJ5oup6Ziy54Gr5aKZ5p2l5rqQ5Yy65Z+f44CCJyk7CgkJCQl2YXIgY3VycmVudFBvcnQgPSBzLmdldE9wdGlvbignZ29fcmVwcm94eV9wb3J0JykuZm9ybXZhbHVlKHNlY3Rpb25JZCk7CgkJCQlpZiAoIS9eWzAtOV0rJC8udGVzdChTdHJpbmcoY3VycmVudFBvcnQpKSB8fCBOdW1iZXIoY3VycmVudFBvcnQpICE9PSBOdW1iZXIoZmlyZXdhbGwucG9ydCkpCgkJCQkJdGhyb3cgbmV3IEVycm9yKCfor7flhYjkv53lrZjlubblupTnlKjnvZHlhbPnq6/lj6PvvIznhLblkI7liLfmlrDpobXpnaLlho3mlL7ooYzjgIInKTsKCQkJCXJldHVybiBnZXRQZW5kaW5nQ2hhbmdlcygpOwoJCQl9KS50aGVuKGZ1bmN0aW9uKHJlc3BvbnNlKSB7CgkJCQl2YXIgY2hhbmdlcyA9IHJlc3BvbnNlICYmIHJlc3BvbnNlLmNoYW5nZXM7CgkJCQlpZiAoIWNoYW5nZXMgfHwgdHlwZW9mIGNoYW5nZXMgIT09ICdvYmplY3QnIHx8IEFycmF5LmlzQXJyYXkoY2hhbmdlcykpCgkJCQkJdGhyb3cgbmV3IEVycm9yKCfml6Dms5Xnoa7orqTlvoXlupTnlKjphY3nva7vvIzor7fliLfmlrDpobXpnaLlkI7ph43or5XjgIInKTsKCQkJCWlmIChjaGFuZ2VzWydmbi1rbm9jayddICYmIGNoYW5nZXNbJ2ZuLWtub2NrJ10ubGVuZ3RoKQoJCQkJCXRocm93IG5ldyBFcnJvcign5pWy6ZeoIEtub2NrIOmFjee9ruWwmuacquW6lOeUqO+8jOivt+WFiOS/neWtmOW5tuW6lOeUqO+8jOWGjeWIt+aWsOmhtemdouaUvuihjOOAgicpOwoJCQkJaWYgKGNoYW5nZXMuZmlyZXdhbGwgJiYgY2hhbmdlcy5maXJld2FsbC5sZW5ndGgpCgkJCQkJdGhyb3cgbmV3IEVycm9yKGZpcmV3YWxsRXJyb3JzLnBlbmRpbmdfZmlyZXdhbGwpOwoJCQkJcmV0dXJuIGZzLmV4ZWMoRklSRVdBTExfSEVMUEVSLCBbICdhbGxvdycsIHpvbmUsIGZpcmV3YWxsLnBvcnQgXSk7CgkJCX0pLnRoZW4ocmVhZEZpcmV3YWxsUmVzdWx0KS50aGVuKGZ1bmN0aW9uKHJlc3VsdCkgewoJCQkJdWkuYWRkTm90aWZpY2F0aW9uKG51bGwsIEUoJ3AnLCB7fSwgWwoJCQkJCSflt7Lkv53lrZjlubbph43ovb3pmLLngavlopnvvJonICsgcmVzdWx0LnNvdXJjZV96b25lICsgJyDihpIg5pys5py6IFRDUCAnICsgcmVzdWx0LnBvcnQgKyAn77yISVB2NC9JUHY277yJ44CCJwoJCQkJXSksICdpbmZvJyk7CgkJCX0pLmNhdGNoKGZ1bmN0aW9uKGVycikgewoJCQkJdWkuYWRkTm90aWZpY2F0aW9uKG51bGwsIEUoJ3AnLCB7fSwgWyBlcnIubWVzc2FnZSB8fCBTdHJpbmcoZXJyKSBdKSwgJ2RhbmdlcicpOwoJCQl9KS50aGVuKGZ1bmN0aW9uKCkgeyBidXR0b24uZGlzYWJsZWQgPSBmYWxzZTsgfSk7CgkJfTsKCgkJbyA9IHMub3B0aW9uKGZvcm0uRmxhZywgJ2VuYWJsZWQnLCAn5ZCv55So5pyN5YqhJyk7CgkJby5kZWZhdWx0ID0gby5lbmFibGVkOwoJCW8ucm1lbXB0eSA9IGZhbHNlOwoKCQlhZGRQb3J0T3B0aW9uKHMsICdhZG1pbl92aWV3X3BvcnQnLCAn566h55CG5ZCO5Y+w56uv5Y+jJywgJzc5OTEnLCAn5LuOIEx1Q0kg5omT5byA5pWy6ZeoIEtub2NrIOeuoeeQhuWQjuWPsOaXtuS9v+eUqOeahOWFrOe9kSBXZWIg56uv5Y+j44CCJyk7CgkJYWRkUG9ydE9wdGlvbihzLCAnZ29fcmVwcm94eV9wb3J0JywgJ+e9keWFs+S7o+eQhuerr+WPoycsICc3OTk5JywgJ0dvIOe9keWFs+WvueWkluaPkOS+m+acjeWKoeeahOS7o+eQhuerr+WPo+OAgicpOwoKCQlhZGRQb3J0T3B0aW9uKHMsICdiYWNrZW5kX3BvcnQnLCAn5YaF6YOo5ZCO56uvIEFQSSDnq6/lj6MnLCAnMTc5OTgnLCAn57uR5a6a5YiwIDEyNy4wLjAuMSDnmoTlhoXpg6ggUnVzdCDlkI7nq68gQVBJIOerr+WPo+OAgicpOwoJCWFkZFBvcnRPcHRpb24ocywgJ2F1dGhfcG9ydCcsICforqTor4HmnI3liqHnq6/lj6MnLCAnNzk5NycsICfnu5HlrprliLAgMTI3LjAuMC4xIOeahOWGhemDqOiupOivgeacjeWKoeerr+WPo+OAgicpOwoJCWFkZFBvcnRPcHRpb24ocywgJ2dvX2JhY2tlbmRfcG9ydCcsICfnvZHlhbPlhoXpg6ggZ1JQQyDnq6/lj6MnLCAnNzk5NicsICfnu5HlrprliLAgMTI3LjAuMC4xIOeahOWGhemDqCBHbyBnUlBDIOerr+WPo+OAgicpOwoKCQlvID0gcy5vcHRpb24oZm9ybS5WYWx1ZSwgJ2FkbWluX3ZpZXdfaG9zdCcsICfnrqHnkIblkI7lj7Dnm5HlkKzlnLDlnYAnKTsKCQlvLnBsYWNlaG9sZGVyID0gJzAuMC4wLjAnOwoJCW8uZGF0YXR5cGUgPSAnaXBhZGRyJzsKCQlvLnJtZW1wdHkgPSBmYWxzZTsKCgkJbyA9IHMub3B0aW9uKGZvcm0uVmFsdWUsICdkYXRhX2RpcicsICfmlbDmja7nm67lvZUnKTsKCQlvLnBsYWNlaG9sZGVyID0gJy9ldGMvZm4ta25vY2svZGF0YSc7CgkJby5ybWVtcHR5ID0gZmFsc2U7CgoJCW8gPSBzLm9wdGlvbihmb3JtLlZhbHVlLCAnZ2F0ZXdheV9jb25maWdfZGlyJywgJ+e9keWFs+mFjee9ruebruW9lScpOwoJCW8ucGxhY2Vob2xkZXIgPSAnL2V0Yy9mbi1rbm9jay9nYXRld2F5JzsKCQlvLnJtZW1wdHkgPSBmYWxzZTsKCgkJcmV0dXJuIG0ucmVuZGVyKCk7Cgl9Cn0pOwo=
+'use strict';
+'require view';
+'require uci';
+'require form';
+'require fs';
+'require ui';
+'require dom';
+'require rpc';
+
+function formatHost(hostname) {
+	if (!hostname)
+		return window.location.hostname;
+
+	return hostname.indexOf(':') !== -1 ? '[' + hostname + ']' : hostname;
+}
+
+function buildAdminUrl(port) {
+	return 'http://' + formatHost(window.location.hostname) + ':' + port + '/';
+}
+
+function optionValue(name, fallback) {
+	return uci.get('fn-knock', 'main', name) || fallback;
+}
+
+var OFFICIAL_SITE_URL = 'https://www.fnknock.cn/';
+var DOCUMENTATION_URL = 'https://docs.fnknock.cn/';
+
+var getPendingChanges = rpc.declare({
+	object: 'uci',
+	method: 'changes',
+	reject: true
+});
+
+var FIREWALL_HELPER = '/usr/libexec/fn-knock-firewall';
+var firewallErrors = {
+	unavailable: '当前系统缺少所需的 OpenWrt 防火墙服务或工具。',
+	session_failed: '无法建立独立的防火墙配置会话。',
+	config_unavailable: '无法读取已提交的服务或防火墙配置。',
+	pending_firewall: '存在未提交的防火墙修改，请先在防火墙页面或 CLI 中应用或撤销，再点击放行。',
+	invalid_port: '网关端口无效，请先保存并应用有效端口。',
+	port_changed: '已提交的网关端口已变化，请刷新页面后重试。',
+	invalid_zone: '所选防火墙区域不存在，请刷新页面重新选择。',
+	conflict: '同名规则不属于敲门 Knock，或包含额外限制，请先在防火墙页面检查。',
+	busy: '另一个放行操作正在执行，请稍后重试；若持续出现，请检查 /var/run/fn-knock-firewall.lock.d 残留锁。',
+	write_failed: '防火墙规则写入失败，未提交配置。',
+	commit_failed: '防火墙配置提交失败，请检查后重试。',
+	reload_failed: '规则已保存，但防火墙重载失败，请检查防火墙配置后再次点击重试。'
+};
+
+function readFirewallResult(result) {
+	var value;
+	try { value = JSON.parse(result.stdout || '{}'); }
+	catch (e) { throw new Error('无法解析防火墙操作结果。'); }
+	if (result.code !== 0 || !value.state)
+		throw new Error(firewallErrors[value.state] || '防火墙操作失败，请检查系统日志。');
+	return value;
+}
+
+var servicePortLabels = {
+	admin_view_port: '管理后台端口',
+	backend_port: '内部后端 API 端口',
+	auth_port: '认证服务端口',
+	go_backend_port: '网关内部 gRPC 端口',
+	go_reproxy_port: '网关代理端口'
+};
+
+function buildExternalLinks() {
+	return [
+		'<a class="cbi-button cbi-button-action" href="%h" target="_blank" rel="noreferrer noopener">官网</a>'.format(OFFICIAL_SITE_URL),
+		'<a class="cbi-button cbi-button-neutral" href="%h" target="_blank" rel="noreferrer noopener">文档站点</a>'.format(DOCUMENTATION_URL)
+	].join(' ');
+}
+
+function validateServicePort(sectionId, value) {
+	var ports = {};
+	var names = Object.keys(servicePortLabels);
+	var name, option, port, owner;
+
+	for (var i = 0; i < names.length; i++) {
+		name = names[i];
+		option = this.section.getOption(name);
+		port = name === this.option ? value : option ? option.formvalue(sectionId) : optionValue(name, '');
+
+		if (!port)
+			continue;
+
+		owner = ports[port];
+		if (owner)
+			return '端口 %s 已被 %s 使用。'.format(port, servicePortLabels[owner]);
+
+		ports[port] = name;
+	}
+
+	return true;
+}
+
+function addPortOption(section, name, title, placeholder, description) {
+	var option = section.option(form.Value, name, title, description);
+	option.datatype = 'port';
+	option.placeholder = placeholder;
+	option.rmempty = false;
+	option.validate = validateServicePort;
+	return option;
+}
+
+function saveAndApply(mode) {
+	var tasks = [];
+
+	document.getElementById('maincontent').querySelectorAll('.cbi-map').forEach(function(map) {
+		tasks.push(dom.callClassMethod(map, 'save'));
+	});
+
+	return Promise.all(tasks).then(function() {
+		ui.changes.apply(mode == '0');
+	}).then(function() {
+		ui.addNotification(null, E('p', {}, [ '敲门 Knock 配置已提交，服务会在配置写入后自动重载。' ]), 'info');
+	}).catch(function(err) {
+		ui.addNotification(null, E('p', {}, [ '应用敲门 Knock 配置失败：%s'.format(err.message || err) ]), 'danger');
+		throw err;
+	});
+}
+
+return view.extend({
+	handleSave: null,
+
+	handleSaveApply: function(ev, mode) {
+		return saveAndApply(mode);
+	},
+
+	load: function() {
+		return Promise.all([
+			L.resolveDefault(uci.load('fn-knock'), null),
+			L.resolveDefault(fs.exec('/etc/init.d/fn-knock', [ 'status' ]), null),
+			fs.exec(FIREWALL_HELPER, [ 'status' ]).then(readFirewallResult).catch(function(err) {
+				return { error: err.message || String(err), zones: [] };
+			})
+		]);
+	},
+
+	render: function(data) {
+		var status = data && data[1] ? data[1] : null;
+		var running = status && status.code === 0;
+		var port = optionValue('admin_view_port', '7991');
+		var targetUrl = buildAdminUrl(port);
+		var m, s, o;
+		var firewall = data && data[2];
+
+		m = new form.Map('fn-knock', '敲门 Knock', '配置 OpenWrt 上的敲门 Knock 服务端口，并打开管理后台。');
+
+		s = m.section(form.NamedSection, 'main', 'fn_knock', '服务');
+		s.addremove = false;
+
+		o = s.option(form.DummyValue, '_status', '服务状态');
+		o.cfgvalue = function() {
+			return running ? '运行中' : '已停止';
+		};
+
+		o = s.option(form.DummyValue, '_admin_url', '管理后台地址');
+		o.cfgvalue = function() {
+			return targetUrl;
+		};
+		o.rawhtml = true;
+		o.textvalue = function() {
+			return '<a href="%h" target="_self" rel="noreferrer">%h</a>'.format(targetUrl, targetUrl);
+		};
+
+		o = s.option(form.Button, '_open_admin', '管理后台');
+		o.inputtitle = '打开管理后台';
+		o.inputstyle = 'action';
+		o.onclick = function() {
+			window.location.href = buildAdminUrl(optionValue('admin_view_port', '7991'));
+			return false;
+		};
+
+		o = s.option(form.DummyValue, '_links', '相关链接');
+		o.rawhtml = true;
+		o.cfgvalue = buildExternalLinks;
+		o.textvalue = buildExternalLinks;
+
+		var zones = firewall && Array.isArray(firewall.zones) ? firewall.zones : [];
+		var defaultZone = zones.indexOf(firewall && firewall.source_zone) !== -1
+			? firewall.source_zone : zones.indexOf('wan') !== -1 ? 'wan' : '';
+		var zoneOption = s.option(form.ListValue, '_firewall_zone', '防火墙来源区域');
+		zoneOption.value('', '请选择来源区域');
+		zones.forEach(function(zone) { zoneOption.value(zone, zone); });
+		zoneOption.cfgvalue = function() { return defaultZone; };
+		// This is an action parameter, never a saved fn-knock option.
+		zoneOption.write = function() {};
+		zoneOption.remove = function() {};
+		zoneOption.rmempty = true;
+
+		o = s.option(form.DummyValue, '_firewall_info', '网关防火墙');
+		o.cfgvalue = function() {
+			if (!firewall) return '无法读取防火墙配置，当前系统可能缺少所需服务或工具。';
+			if (firewall.error) return '无法读取防火墙配置：' + firewall.error;
+			var text = '手动放行 TCP ' + firewall.port + '（IPv4/IPv6），规则重启后保留。修改端口后需再次点击；撤销请到防火墙页面删除规则。';
+			if (firewall.state === 'conflict') return text + ' ' + firewallErrors.conflict;
+			if (firewall.state === 'configured')
+				text += ' 已保存规则：' + firewall.source_zone + ' / TCP ' + firewall.configured_port + '（不代表实时连通状态）。';
+			return text;
+		};
+
+		o = s.option(form.Button, '_open_firewall', '手动放行');
+		o.inputtitle = '放行防火墙';
+		o.inputstyle = 'action';
+		o.readonly = !firewall || !zones.length || firewall.state === 'conflict' || m.readonly;
+		o.onclick = function(ev, sectionId) {
+			var button = ev.currentTarget;
+			var zone = zoneOption.formvalue(sectionId);
+			button.disabled = true;
+			return Promise.resolve().then(function() {
+				if (!zone) throw new Error('请先选择防火墙来源区域。');
+				var currentPort = s.getOption('go_reproxy_port').formvalue(sectionId);
+				if (!/^[0-9]+$/.test(String(currentPort)) || Number(currentPort) !== Number(firewall.port))
+					throw new Error('请先保存并应用网关端口，然后刷新页面再放行。');
+				return getPendingChanges();
+			}).then(function(response) {
+				var changes = response && response.changes;
+				if (!changes || typeof changes !== 'object' || Array.isArray(changes))
+					throw new Error('无法确认待应用配置，请刷新页面后重试。');
+				if (changes['fn-knock'] && changes['fn-knock'].length)
+					throw new Error('敲门 Knock 配置尚未应用，请先保存并应用，再刷新页面放行。');
+				if (changes.firewall && changes.firewall.length)
+					throw new Error(firewallErrors.pending_firewall);
+				return fs.exec(FIREWALL_HELPER, [ 'allow', zone, firewall.port ]);
+			}).then(readFirewallResult).then(function(result) {
+				ui.addNotification(null, E('p', {}, [
+					'已保存并重载防火墙：' + result.source_zone + ' → 本机 TCP ' + result.port + '（IPv4/IPv6）。'
+				]), 'info');
+			}).catch(function(err) {
+				ui.addNotification(null, E('p', {}, [ err.message || String(err) ]), 'danger');
+			}).then(function() { button.disabled = false; });
+		};
+
+		o = s.option(form.Flag, 'enabled', '启用服务');
+		o.default = o.enabled;
+		o.rmempty = false;
+
+		addPortOption(s, 'admin_view_port', '管理后台端口', '7991', '从 LuCI 打开敲门 Knock 管理后台时使用的公网 Web 端口。');
+		addPortOption(s, 'go_reproxy_port', '网关代理端口', '7999', 'Go 网关对外提供服务的代理端口。');
+
+		addPortOption(s, 'backend_port', '内部后端 API 端口', '17998', '绑定到 127.0.0.1 的内部 Rust 后端 API 端口。');
+		addPortOption(s, 'auth_port', '认证服务端口', '7997', '绑定到 127.0.0.1 的内部认证服务端口。');
+		addPortOption(s, 'go_backend_port', '网关内部 gRPC 端口', '7996', '绑定到 127.0.0.1 的内部 Go gRPC 端口。');
+
+		o = s.option(form.Value, 'admin_view_host', '管理后台监听地址');
+		o.placeholder = '0.0.0.0';
+		o.datatype = 'ipaddr';
+		o.rmempty = false;
+
+		o = s.option(form.Value, 'data_dir', '数据目录');
+		o.placeholder = '/etc/fn-knock/data';
+		o.rmempty = false;
+
+		o = s.option(form.Value, 'gateway_config_dir', '网关配置目录');
+		o.placeholder = '/etc/fn-knock/gateway';
+		o.rmempty = false;
+
+		return m.render();
+	}
+});

@@ -1,1 +1,35 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgZGF0YS1zbG90PSJpbnB1dC1ncm91cCIKICAgIHJvbGU9Imdyb3VwIgogICAgOmNsYXNzPSJjbigKICAgICAgJ2dyb3VwL2lucHV0LWdyb3VwIGJvcmRlci1pbnB1dCBkYXJrOmJnLWlucHV0LzMwIHJlbGF0aXZlIGZsZXggdy1mdWxsIGl0ZW1zLWNlbnRlciByb3VuZGVkLW1kIGJvcmRlciBzaGFkb3cteHMgdHJhbnNpdGlvbi1bY29sb3IsYm94LXNoYWRvd10gb3V0bGluZS1ub25lJywKICAgICAgJ2gtOSBtaW4tdy0wIGhhcy1bPnRleHRhcmVhXTpoLWF1dG8nLAoKICAgICAgLy8gVmFyaWFudHMgYmFzZWQgb24gYWxpZ25tZW50LgogICAgICAnaGFzLVs+W2RhdGEtYWxpZ249aW5saW5lLXN0YXJ0XV06WyY+aW5wdXRdOnBsLTInLAogICAgICAnaGFzLVs+W2RhdGEtYWxpZ249aW5saW5lLWVuZF1dOlsmPmlucHV0XTpwci0yJywKICAgICAgJ2hhcy1bPltkYXRhLWFsaWduPWJsb2NrLXN0YXJ0XV06aC1hdXRvIGhhcy1bPltkYXRhLWFsaWduPWJsb2NrLXN0YXJ0XV06ZmxleC1jb2wgaGFzLVs+W2RhdGEtYWxpZ249YmxvY2stc3RhcnRdXTpbJj5pbnB1dF06cGItMycsCiAgICAgICdoYXMtWz5bZGF0YS1hbGlnbj1ibG9jay1lbmRdXTpoLWF1dG8gaGFzLVs+W2RhdGEtYWxpZ249YmxvY2stZW5kXV06ZmxleC1jb2wgaGFzLVs+W2RhdGEtYWxpZ249YmxvY2stZW5kXV06WyY+aW5wdXRdOnB0LTMnLAoKICAgICAgLy8gRm9jdXMgc3RhdGUuCiAgICAgICdoYXMtW1tkYXRhLXNsb3Q9aW5wdXQtZ3JvdXAtY29udHJvbF06Zm9jdXMtdmlzaWJsZV06Ym9yZGVyLXJpbmcgaGFzLVtbZGF0YS1zbG90PWlucHV0LWdyb3VwLWNvbnRyb2xdOmZvY3VzLXZpc2libGVdOnJpbmctcmluZy81MCBoYXMtW1tkYXRhLXNsb3Q9aW5wdXQtZ3JvdXAtY29udHJvbF06Zm9jdXMtdmlzaWJsZV06cmluZy1bM3B4XScsCgogICAgICAvLyBFcnJvciBzdGF0ZS4KICAgICAgJ2hhcy1bW2RhdGEtc2xvdF1bYXJpYS1pbnZhbGlkPXRydWVdXTpyaW5nLWRlc3RydWN0aXZlLzIwIGhhcy1bW2RhdGEtc2xvdF1bYXJpYS1pbnZhbGlkPXRydWVdXTpib3JkZXItZGVzdHJ1Y3RpdmUgZGFyazpoYXMtW1tkYXRhLXNsb3RdW2FyaWEtaW52YWxpZD10cnVlXV06cmluZy1kZXN0cnVjdGl2ZS80MCcsCgogICAgICBwcm9wcy5jbGFzcywKICAgICkiCiAgPgogICAgPHNsb3QgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <div
+    data-slot="input-group"
+    role="group"
+    :class="cn(
+      'group/input-group border-input dark:bg-input/30 relative flex w-full items-center rounded-md border shadow-xs transition-[color,box-shadow] outline-none',
+      'h-9 min-w-0 has-[>textarea]:h-auto',
+
+      // Variants based on alignment.
+      'has-[>[data-align=inline-start]]:[&>input]:pl-2',
+      'has-[>[data-align=inline-end]]:[&>input]:pr-2',
+      'has-[>[data-align=block-start]]:h-auto has-[>[data-align=block-start]]:flex-col has-[>[data-align=block-start]]:[&>input]:pb-3',
+      'has-[>[data-align=block-end]]:h-auto has-[>[data-align=block-end]]:flex-col has-[>[data-align=block-end]]:[&>input]:pt-3',
+
+      // Focus state.
+      'has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot=input-group-control]:focus-visible]:ring-[3px]',
+
+      // Error state.
+      'has-[[data-slot][aria-invalid=true]]:ring-destructive/20 has-[[data-slot][aria-invalid=true]]:border-destructive dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40',
+
+      props.class,
+    )"
+  >
+    <slot />
+  </div>
+</template>

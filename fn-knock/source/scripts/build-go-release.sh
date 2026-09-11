@@ -1,1 +1,133 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4iICYmIHB3ZCkiCnNvdXJjZSAiJHtST09UX0RJUn0vc2NyaXB0cy92ZXJzaW9uLnNoIgoKR09fUkVQT1NJVE9SWT0iJHsxOi0ke0ZOX0tOT0NLX0dPX1JFQVVUSF9QUk9YWV9ESVI6LSR7Uk9PVF9ESVJ9Ly4uL0dvLVJlYXV0aC1Qcm94eX19IgpPVVRQVVRfRElSPSIkezI6LSR7Rk5fS05PQ0tfR09fUkVMRUFTRV9PVVRQVVRfRElSOi0ke1JPT1RfRElSfS9kaXN0L2ZuLWtub2NrLWdvLXJlbGVhc2V9fSIKVkVSU0lPTj0iJHtGTl9LTk9DS19WRVJTSU9OOi0kKGZuX2tub2NrX2FwcF92ZXJzaW9uICIke1JPT1RfRElSfSIpfSIKQ09NTUlUPSIiClJFQURFTEZfQklOPSIiCgpsb2coKSB7CiAgcHJpbnRmICdbZm4ta25vY2stZ28tcmVsZWFzZV0gJXNcbicgIiQqIgp9CgpmYWlsKCkgewogIHByaW50ZiAnW2ZuLWtub2NrLWdvLXJlbGVhc2VdIEVSUk9SOiAlc1xuJyAiJCoiID4mMgogIGV4aXQgMQp9Cgp2YWxpZGF0ZV9iaW5hcnkoKSB7CiAgbG9jYWwgcGF0aD0iJDEiCiAgbG9jYWwgdGFyZ2V0PSIkMiIKICBsb2NhbCBpbmZvCgogIFsgLXMgIiR7cGF0aH0iIF0gfHwgZmFpbCAibWlzc2luZyBidWlsZCBvdXRwdXQ6ICR7cGF0aH0iCiAgaW5mbz0iJChmaWxlIC1iICIke3BhdGh9IikiCiAgY2FzZSAiJHt0YXJnZXR9IiBpbgogICAgbGludXgtYW1kNjQpCiAgICAgIHByaW50ZiAnJXNcbicgIiR7aW5mb30iIHwgZ3JlcCAtRXEgJ0VMRiA2NC1iaXQgTFNCLip4ODYtNjQuKihzdGF0aWN8R28gQnVpbGRJRCknIHx8IGZhaWwgIiR7dGFyZ2V0fTogJHtpbmZvfSIKICAgICAgOzsKICAgIGxpbnV4LWFybTY0KQogICAgICBwcmludGYgJyVzXG4nICIke2luZm99IiB8IGdyZXAgLUVxICdFTEYgNjQtYml0IExTQi4qKEFSTSBhYXJjaDY0fGFhcmNoNjQpLiooc3RhdGljfEdvIEJ1aWxkSUQpJyB8fCBmYWlsICIke3RhcmdldH06ICR7aW5mb30iCiAgICAgIDs7CiAgICBsaW51eC1hcm0pCiAgICAgIHByaW50ZiAnJXNcbicgIiR7aW5mb30iIHwgZ3JlcCAtRXEgJ0VMRiAzMi1iaXQgTFNCLipBUk0uKihzdGF0aWN8R28gQnVpbGRJRCknIHx8IGZhaWwgIiR7dGFyZ2V0fTogJHtpbmZvfSIKICAgICAgOzsKICAgIHdpbmRvd3MtYW1kNjQpCiAgICAgIHByaW50ZiAnJXNcbicgIiR7aW5mb30iIHwgZ3JlcCAtRXEgJ1BFMzJcKyBleGVjdXRhYmxlLip4ODYtNjQnIHx8IGZhaWwgIiR7dGFyZ2V0fTogJHtpbmZvfSIKICAgICAgOzsKICAgICopCiAgICAgIGZhaWwgInVua25vd24gdmFsaWRhdGlvbiB0YXJnZXQ6ICR7dGFyZ2V0fSIKICAgICAgOzsKICBlc2FjCgogIGlmIFsgIiR7dGFyZ2V0fSIgIT0gIndpbmRvd3MtYW1kNjQiIF0gJiYgWyAtbiAiJHtSRUFERUxGX0JJTn0iIF07IHRoZW4KICAgIGxvY2FsIGVsZl9oZWFkZXIKICAgIGxvY2FsIGR5bmFtaWNfc2VjdGlvbgogICAgZWxmX2hlYWRlcj0iJCgiJHtSRUFERUxGX0JJTn0iIC1oICIke3BhdGh9IikiCiAgICBjYXNlICIke3RhcmdldH0iIGluCiAgICAgIGxpbnV4LWFtZDY0KQogICAgICAgIHByaW50ZiAnJXNcbicgIiR7ZWxmX2hlYWRlcn0iIHwgZ3JlcCAtRXEgJ01hY2hpbmU6W1s6c3BhY2U6XV0qKEFkdmFuY2VkIE1pY3JvIERldmljZXMgWDg2LTY0fEFNRCB4ODYtNjQpJyB8fCBcCiAgICAgICAgICBmYWlsICIke3RhcmdldH06IHJlYWRlbGYgcmVwb3J0ZWQgYW4gdW5leHBlY3RlZCBtYWNoaW5lIgogICAgICAgIDs7CiAgICAgIGxpbnV4LWFybTY0KQogICAgICAgIHByaW50ZiAnJXNcbicgIiR7ZWxmX2hlYWRlcn0iIHwgZ3JlcCAtRXEgJ01hY2hpbmU6W1s6c3BhY2U6XV0qQUFyY2g2NCcgfHwgXAogICAgICAgICAgZmFpbCAiJHt0YXJnZXR9OiByZWFkZWxmIHJlcG9ydGVkIGFuIHVuZXhwZWN0ZWQgbWFjaGluZSIKICAgICAgICA7OwogICAgICBsaW51eC1hcm0pCiAgICAgICAgcHJpbnRmICclc1xuJyAiJHtlbGZfaGVhZGVyfSIgfCBncmVwIC1FcSAnTWFjaGluZTpbWzpzcGFjZTpdXSpBUk0nIHx8IFwKICAgICAgICAgIGZhaWwgIiR7dGFyZ2V0fTogcmVhZGVsZiByZXBvcnRlZCBhbiB1bmV4cGVjdGVkIG1hY2hpbmUiCiAgICAgICAgOzsKICAgIGVzYWMKICAgIGR5bmFtaWNfc2VjdGlvbj0iJCgiJHtSRUFERUxGX0JJTn0iIC1kICIke3BhdGh9IiAyPiYxIHx8IHRydWUpIgogICAgaWYgcHJpbnRmICclc1xuJyAiJHtkeW5hbWljX3NlY3Rpb259IiB8IGdyZXAgLXEgJyhORUVERUQpJzsgdGhlbgogICAgICBmYWlsICIke3RhcmdldH06IENHTy1kaXNhYmxlZCBHbyBvdXRwdXQgaGFzIGR5bmFtaWMgZGVwZW5kZW5jaWVzIgogICAgZmkKICBlbGlmIFsgIiR7dGFyZ2V0fSIgIT0gIndpbmRvd3MtYW1kNjQiIF0gJiYgWyAiJHtDSTotfSIgPSAidHJ1ZSIgXTsgdGhlbgogICAgZmFpbCAicmVhZGVsZiBpcyByZXF1aXJlZCBmb3IgQ0kgRUxGIHZhbGlkYXRpb24iCiAgZmkKfQoKYnVpbGRfdGFyZ2V0KCkgewogIGxvY2FsIGdvb3M9IiQxIgogIGxvY2FsIGdvYXJjaD0iJDIiCiAgbG9jYWwgZ29hcm09IiQzIgogIGxvY2FsIG91dHB1dF9uYW1lPSIkNCIKICBsb2NhbCB0YXJnZXRfbGFiZWw9IiQ1IgogIGxvY2FsIG91dHB1dD0iJHtPVVRQVVRfRElSfS8ke291dHB1dF9uYW1lfSIKCiAgbG9nICJidWlsZGluZyAke3RhcmdldF9sYWJlbH0iCiAgKAogICAgY2QgIiR7R09fUkVQT1NJVE9SWX0iCiAgICBleHBvcnQgQ0dPX0VOQUJMRUQ9MAogICAgZXhwb3J0IEdPT1M9IiR7Z29vc30iCiAgICBleHBvcnQgR09BUkNIPSIke2dvYXJjaH0iCiAgICBleHBvcnQgR09GTEFHUz0iLW1vZD1yZWFkb25seSIKICAgIGlmIFsgLW4gIiR7Z29hcm19IiBdOyB0aGVuCiAgICAgIGV4cG9ydCBHT0FSTT0iJHtnb2FybX0iCiAgICBlbHNlCiAgICAgIHVuc2V0IEdPQVJNIHx8IHRydWUKICAgIGZpCiAgICBnbyBidWlsZCBcCiAgICAgIC10cmltcGF0aCBcCiAgICAgIC1sZGZsYWdzICItcyAtdyAtWCBnby1yZWF1dGgtcHJveHkvcGtnL3ZlcnNpb24uVmVyc2lvbj0ke1ZFUlNJT059IC1YIGdvLXJlYXV0aC1wcm94eS9wa2cvdmVyc2lvbi5Db21taXQ9JHtDT01NSVR9IiBcCiAgICAgIC1vICIke291dHB1dH0iIFwKICAgICAgLi9jbWQvc2VydmVyCiAgKQogIHByaW50ZiAnJXNcbicgIiR7VkVSU0lPTn0iID4gIiR7b3V0cHV0fS52ZXJzaW9uIgogIHZhbGlkYXRlX2JpbmFyeSAiJHtvdXRwdXR9IiAiJHt0YXJnZXRfbGFiZWx9Igp9CgpbIC1kICIke0dPX1JFUE9TSVRPUll9Ly5naXQiIF0gfHwgZmFpbCAiR28gcmVwb3NpdG9yeSBpcyBtaXNzaW5nOiAke0dPX1JFUE9TSVRPUll9Igpjb21tYW5kIC12IGdvID4vZGV2L251bGwgMj4mMSB8fCBmYWlsICJtaXNzaW5nIHJlcXVpcmVkIGNvbW1hbmQ6IGdvIgpjb21tYW5kIC12IGZpbGUgPi9kZXYvbnVsbCAyPiYxIHx8IGZhaWwgIm1pc3NpbmcgcmVxdWlyZWQgY29tbWFuZDogZmlsZSIKaWYgY29tbWFuZCAtdiByZWFkZWxmID4vZGV2L251bGwgMj4mMTsgdGhlbgogIFJFQURFTEZfQklOPSIkKGNvbW1hbmQgLXYgcmVhZGVsZikiCmVsaWYgY29tbWFuZCAtdiBncmVhZGVsZiA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBSRUFERUxGX0JJTj0iJChjb21tYW5kIC12IGdyZWFkZWxmKSIKZmkKCkFDVFVBTF9DT01NSVQ9IiQoZ2l0IC1DICIke0dPX1JFUE9TSVRPUll9IiByZXYtcGFyc2UgSEVBRCkiCkNPTU1JVD0iJHtBQ1RVQUxfQ09NTUlUfSIKcHJpbnRmICclc1xuJyAiJHtDT01NSVR9IiB8IGdyZXAgLUVxICdeWzAtOWEtZkEtRl17NDB9JCcgfHwgZmFpbCAiaW52YWxpZCBHbyBjb21taXQ6ICR7Q09NTUlUfSIKYmFzaCAiJHtST09UX0RJUn0vc2NyaXB0cy92ZXJpZnktZ28tY29udHJvbC1hcGktY29udHJhY3Quc2giICIke0dPX1JFUE9TSVRPUll9IgoKbWtkaXIgLXAgIiR7T1VUUFVUX0RJUn0iCmlmIFsgIiR7Rk5fS05PQ0tfR09fU0tJUF9URVNUUzotMH0iICE9ICIxIiBdOyB0aGVuCiAgbG9nICJydW5uaW5nIEdvIHRlc3RzIgogICgKICAgIGNkICIke0dPX1JFUE9TSVRPUll9IgogICAgR09GTEFHUz0iLW1vZD1yZWFkb25seSIgZ28gdGVzdCAuLy4uLgogICkKZmkKCmJ1aWxkX3RhcmdldCBsaW51eCBhbWQ2NCAiIiBnby1yZWF1dGgtcHJveHktbGludXgtYW1kNjQgbGludXgtYW1kNjQKYnVpbGRfdGFyZ2V0IGxpbnV4IGFybTY0ICIiIGdvLXJlYXV0aC1wcm94eS1saW51eC1hcm02NCBsaW51eC1hcm02NApidWlsZF90YXJnZXQgbGludXggYXJtIDcgZ28tcmVhdXRoLXByb3h5LWxpbnV4LWFybSBsaW51eC1hcm0KYnVpbGRfdGFyZ2V0IHdpbmRvd3MgYW1kNjQgIiIgZ28tcmVhdXRoLXByb3h5LXdpbmRvd3MtYW1kNjQuZXhlIHdpbmRvd3MtYW1kNjQKCnByaW50ZiAnJXNcbicgIiR7Q09NTUlUfSIgPiAiJHtPVVRQVVRfRElSfS9nYXRld2F5LWNvbW1pdC50eHQiCmxvZyAicmVsZWFzZSBiaW5hcmllcyBhcmUgcmVhZHkgaW4gJHtPVVRQVVRfRElSfSIK
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+source "${ROOT_DIR}/scripts/version.sh"
+
+GO_REPOSITORY="${1:-${FN_KNOCK_GO_REAUTH_PROXY_DIR:-${ROOT_DIR}/../Go-Reauth-Proxy}}"
+OUTPUT_DIR="${2:-${FN_KNOCK_GO_RELEASE_OUTPUT_DIR:-${ROOT_DIR}/dist/fn-knock-go-release}}"
+VERSION="${FN_KNOCK_VERSION:-$(fn_knock_app_version "${ROOT_DIR}")}"
+COMMIT=""
+READELF_BIN=""
+
+log() {
+  printf '[fn-knock-go-release] %s\n' "$*"
+}
+
+fail() {
+  printf '[fn-knock-go-release] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+validate_binary() {
+  local path="$1"
+  local target="$2"
+  local info
+
+  [ -s "${path}" ] || fail "missing build output: ${path}"
+  info="$(file -b "${path}")"
+  case "${target}" in
+    linux-amd64)
+      printf '%s\n' "${info}" | grep -Eq 'ELF 64-bit LSB.*x86-64.*(static|Go BuildID)' || fail "${target}: ${info}"
+      ;;
+    linux-arm64)
+      printf '%s\n' "${info}" | grep -Eq 'ELF 64-bit LSB.*(ARM aarch64|aarch64).*(static|Go BuildID)' || fail "${target}: ${info}"
+      ;;
+    linux-arm)
+      printf '%s\n' "${info}" | grep -Eq 'ELF 32-bit LSB.*ARM.*(static|Go BuildID)' || fail "${target}: ${info}"
+      ;;
+    windows-amd64)
+      printf '%s\n' "${info}" | grep -Eq 'PE32\+ executable.*x86-64' || fail "${target}: ${info}"
+      ;;
+    *)
+      fail "unknown validation target: ${target}"
+      ;;
+  esac
+
+  if [ "${target}" != "windows-amd64" ] && [ -n "${READELF_BIN}" ]; then
+    local elf_header
+    local dynamic_section
+    elf_header="$("${READELF_BIN}" -h "${path}")"
+    case "${target}" in
+      linux-amd64)
+        printf '%s\n' "${elf_header}" | grep -Eq 'Machine:[[:space:]]*(Advanced Micro Devices X86-64|AMD x86-64)' || \
+          fail "${target}: readelf reported an unexpected machine"
+        ;;
+      linux-arm64)
+        printf '%s\n' "${elf_header}" | grep -Eq 'Machine:[[:space:]]*AArch64' || \
+          fail "${target}: readelf reported an unexpected machine"
+        ;;
+      linux-arm)
+        printf '%s\n' "${elf_header}" | grep -Eq 'Machine:[[:space:]]*ARM' || \
+          fail "${target}: readelf reported an unexpected machine"
+        ;;
+    esac
+    dynamic_section="$("${READELF_BIN}" -d "${path}" 2>&1 || true)"
+    if printf '%s\n' "${dynamic_section}" | grep -q '(NEEDED)'; then
+      fail "${target}: CGO-disabled Go output has dynamic dependencies"
+    fi
+  elif [ "${target}" != "windows-amd64" ] && [ "${CI:-}" = "true" ]; then
+    fail "readelf is required for CI ELF validation"
+  fi
+}
+
+build_target() {
+  local goos="$1"
+  local goarch="$2"
+  local goarm="$3"
+  local output_name="$4"
+  local target_label="$5"
+  local output="${OUTPUT_DIR}/${output_name}"
+
+  log "building ${target_label}"
+  (
+    cd "${GO_REPOSITORY}"
+    export CGO_ENABLED=0
+    export GOOS="${goos}"
+    export GOARCH="${goarch}"
+    export GOFLAGS="-mod=readonly"
+    if [ -n "${goarm}" ]; then
+      export GOARM="${goarm}"
+    else
+      unset GOARM || true
+    fi
+    go build \
+      -trimpath \
+      -ldflags "-s -w -X go-reauth-proxy/pkg/version.Version=${VERSION} -X go-reauth-proxy/pkg/version.Commit=${COMMIT}" \
+      -o "${output}" \
+      ./cmd/server
+  )
+  printf '%s\n' "${VERSION}" > "${output}.version"
+  validate_binary "${output}" "${target_label}"
+}
+
+[ -d "${GO_REPOSITORY}/.git" ] || fail "Go repository is missing: ${GO_REPOSITORY}"
+command -v go >/dev/null 2>&1 || fail "missing required command: go"
+command -v file >/dev/null 2>&1 || fail "missing required command: file"
+if command -v readelf >/dev/null 2>&1; then
+  READELF_BIN="$(command -v readelf)"
+elif command -v greadelf >/dev/null 2>&1; then
+  READELF_BIN="$(command -v greadelf)"
+fi
+
+ACTUAL_COMMIT="$(git -C "${GO_REPOSITORY}" rev-parse HEAD)"
+COMMIT="${ACTUAL_COMMIT}"
+printf '%s\n' "${COMMIT}" | grep -Eq '^[0-9a-fA-F]{40}$' || fail "invalid Go commit: ${COMMIT}"
+bash "${ROOT_DIR}/scripts/verify-go-control-api-contract.sh" "${GO_REPOSITORY}"
+
+mkdir -p "${OUTPUT_DIR}"
+if [ "${FN_KNOCK_GO_SKIP_TESTS:-0}" != "1" ]; then
+  log "running Go tests"
+  (
+    cd "${GO_REPOSITORY}"
+    GOFLAGS="-mod=readonly" go test ./...
+  )
+fi
+
+build_target linux amd64 "" go-reauth-proxy-linux-amd64 linux-amd64
+build_target linux arm64 "" go-reauth-proxy-linux-arm64 linux-arm64
+build_target linux arm 7 go-reauth-proxy-linux-arm linux-arm
+build_target windows amd64 "" go-reauth-proxy-windows-amd64.exe windows-amd64
+
+printf '%s\n' "${COMMIT}" > "${OUTPUT_DIR}/gateway-commit.txt"
+log "release binaries are ready in ${OUTPUT_DIR}"

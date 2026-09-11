@@ -1,1 +1,103 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgpjb25zdCBjb250cmFjdCA9IEpTT04ucGFyc2UoCiAgcmVhZFNvdXJjZSgiLi4vLi4vLi4vcGFja2FnZXMvYXBpLWNvbnRyYWN0L29wZW5hcGkuanNvbiIpLAopIGFzIHsKICBjb21wb25lbnRzOiB7CiAgICBzY2hlbWFzOiBSZWNvcmQ8CiAgICAgIHN0cmluZywKICAgICAgewogICAgICAgIHByb3BlcnRpZXM/OiBSZWNvcmQ8c3RyaW5nLCB7IGVudW0/OiBzdHJpbmdbXTsgcGF0dGVybj86IHN0cmluZyB9PjsKICAgICAgICByZXF1aXJlZD86IHN0cmluZ1tdOwogICAgICB9CiAgICA+OwogIH07CiAgcGF0aHM6IFJlY29yZDwKICAgIHN0cmluZywKICAgIFJlY29yZDxzdHJpbmcsIHsgIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIj86IHN0cmluZyB9PgogID47Cn07CgpkZXNjcmliZSgiZm5PUyBjZXJ0aWZpY2F0ZSBzeW5jaHJvbml6YXRpb24gQVBJIGNvbnRyYWN0IiwgKCkgPT4gewogIGl0KCJrZWVwcyBkZXRhaWxzLCBjb25maWd1cmF0aW9uLCBhbmQgbWFudWFsIHN5bmMgb3BlcmF0aW9ucyBvbiB0aGVpciBhY3R1YWwgdHlwZWQgcm91dGVzIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBbbWV0aG9kLCBwYXRoXSBvZiBbCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2Zub3NfY2VydGlmaWNhdGVfc3luYy9kZXRhaWxzIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL2NvbmZpZy9mbm9zX2NlcnRpZmljYXRlX3N5bmMiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2Zub3NfY2VydGlmaWNhdGVfc3luYy9zeW5jIl0sCiAgICBdIGFzIGNvbnN0KSB7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICBjb250cmFjdC5wYXRoc1twYXRoXT8uW21ldGhvZF0/LlsieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiXSwKICAgICAgICAidXRvaXBhIiwKICAgICAgICBgJHttZXRob2QudG9VcHBlckNhc2UoKX0gJHtwYXRofWAsCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJwcmVzZXJ2ZXMgbnVsbGFibGUgcnVudGltZSBhbmQgY2VydGlmaWNhdGUgY29tcGFyaXNvbiBmaWVsZHMiLCAoKSA9PiB7CiAgICBjb25zdCBydW50aW1lUmVxdWlyZWQgPQogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuRm5vc0NlcnRpZmljYXRlU3luY1J1bnRpbWVEYXRhLnJlcXVpcmVkID8/IFtdOwogICAgZm9yIChjb25zdCBmaWVsZCBvZiBbCiAgICAgICJsYXN0X3N5bmNfYXQiLAogICAgICAibGFzdF9yZXN1bHQiLAogICAgICAibGFzdF9lcnJvciIsCiAgICAgICJmYWlsZWRfdGFyZ2V0X2lkcyIsCiAgICBdKSB7CiAgICAgIGFzc2VydC5vayhydW50aW1lUmVxdWlyZWQuaW5jbHVkZXMoZmllbGQpLCBmaWVsZCk7CiAgICB9CgogICAgY29uc3QgaXRlbVJlcXVpcmVkID0KICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLkZub3NDZXJ0aWZpY2F0ZVN5bmNJdGVtRGF0YS5yZXF1aXJlZCA/PyBbXTsKICAgIGZvciAoY29uc3QgZmllbGQgb2YgWwogICAgICAidmFsaWRfZnJvbSIsCiAgICAgICJ2YWxpZF90byIsCiAgICAgICJmaW5nZXJwcmludCIsCiAgICAgICJyZWFzb24iLAogICAgICAibG9jYWwiLAogICAgXSkgewogICAgICBhc3NlcnQub2soaXRlbVJlcXVpcmVkLmluY2x1ZGVzKGZpZWxkKSwgZmllbGQpOwogICAgfQogIH0pOwoKICBpdCgiZG9jdW1lbnRzIGV2ZXJ5IGNvbXBhcmlzb24gc3RhdHVzIGFuZCBrZWVwcyB0YXJnZXQgc2VsZWN0aW9uIG9wdGlvbmFsIiwgKCkgPT4gewogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLkZub3NDZXJ0aWZpY2F0ZVN5bmNJdGVtRGF0YS5wcm9wZXJ0aWVzPy5zdGF0dXMKICAgICAgICA/LmVudW0sCiAgICAgIFsKICAgICAgICAidW5tYXRjaGVkIiwKICAgICAgICAidXBfdG9fZGF0ZSIsCiAgICAgICAgInN5bmNhYmxlIiwKICAgICAgICAic291cmNlX2ludmFsaWQiLAogICAgICAgICJ0YXJnZXRfaW52YWxpZCIsCiAgICAgICAgInByb3RlY3RlZCIsCiAgICAgICAgInN5bmNfZmFpbGVkIiwKICAgICAgXSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5Gbm9zQ2VydGlmaWNhdGVTeW5jQm9keURhdGEucmVxdWlyZWQ/LmluY2x1ZGVzKAogICAgICAgICJ0YXJnZXRfaWRzIiwKICAgICAgKSA/PyBmYWxzZSwKICAgICAgZmFsc2UsCiAgICApOwogIH0pOwoKICBpdCgiZGVyaXZlcyBmcm9udGVuZCBtb2RlbHMgYW5kIHdyaXRlIHBheWxvYWRzIGZyb20gT3BlbkFQSSIsICgpID0+IHsKICAgIGNvbnN0IHR5cGVzID0gcmVhZFNvdXJjZSgiLi4vc3JjL3R5cGVzL2NvcmUudHMiKTsKICAgIGNvbnN0IHN5c3RlbUFwaSA9IHJlYWRTb3VyY2UoIi4uL3NyYy9saWIvYXBpL3N5c3RlbS50cyIpOwoKICAgIGZvciAoY29uc3Qgc2NoZW1hIG9mIFsKICAgICAgIkZub3NDZXJ0aWZpY2F0ZVN5bmNJdGVtRGF0YSIsCiAgICAgICJGbm9zQ2VydGlmaWNhdGVTeW5jRGV0YWlsc0RhdGEiLAogICAgICAiRm5vc0NlcnRpZmljYXRlU3luY1N1bW1hcnlEYXRhIiwKICAgICAgIkZub3NDZXJ0aWZpY2F0ZVN5bmNSZXNwb25zZURhdGEiLAogICAgXSkgewogICAgICBhc3NlcnQubWF0Y2godHlwZXMsIG5ldyBSZWdFeHAoYFxcWyIke3NjaGVtYX0iXFxdYCwgInUiKSwgc2NoZW1hKTsKICAgIH0KICAgIGFzc2VydC5tYXRjaChzeXN0ZW1BcGksIC9zYXRpc2ZpZXMgRm5vc0NlcnRpZmljYXRlU3luY1VwZGF0ZS91KTsKICAgIGFzc2VydC5tYXRjaChzeXN0ZW1BcGksIC9zYXRpc2ZpZXMgRm5vc0NlcnRpZmljYXRlU3luY0JvZHkvdSk7CiAgfSk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  components: {
+    schemas: Record<
+      string,
+      {
+        properties?: Record<string, { enum?: string[]; pattern?: string }>;
+        required?: string[];
+      }
+    >;
+  };
+  paths: Record<
+    string,
+    Record<string, { "x-fn-knock-contract-source"?: string }>
+  >;
+};
+
+describe("fnOS certificate synchronization API contract", () => {
+  it("keeps details, configuration, and manual sync operations on their actual typed routes", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/config/fnos_certificate_sync/details"],
+      ["post", "/api/admin/config/fnos_certificate_sync"],
+      ["post", "/api/admin/config/fnos_certificate_sync/sync"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("preserves nullable runtime and certificate comparison fields", () => {
+    const runtimeRequired =
+      contract.components.schemas.FnosCertificateSyncRuntimeData.required ?? [];
+    for (const field of [
+      "last_sync_at",
+      "last_result",
+      "last_error",
+      "failed_target_ids",
+    ]) {
+      assert.ok(runtimeRequired.includes(field), field);
+    }
+
+    const itemRequired =
+      contract.components.schemas.FnosCertificateSyncItemData.required ?? [];
+    for (const field of [
+      "valid_from",
+      "valid_to",
+      "fingerprint",
+      "reason",
+      "local",
+    ]) {
+      assert.ok(itemRequired.includes(field), field);
+    }
+  });
+
+  it("documents every comparison status and keeps target selection optional", () => {
+    assert.deepEqual(
+      contract.components.schemas.FnosCertificateSyncItemData.properties?.status
+        ?.enum,
+      [
+        "unmatched",
+        "up_to_date",
+        "syncable",
+        "source_invalid",
+        "target_invalid",
+        "protected",
+        "sync_failed",
+      ],
+    );
+    assert.equal(
+      contract.components.schemas.FnosCertificateSyncBodyData.required?.includes(
+        "target_ids",
+      ) ?? false,
+      false,
+    );
+  });
+
+  it("derives frontend models and write payloads from OpenAPI", () => {
+    const types = readSource("../src/types/core.ts");
+    const systemApi = readSource("../src/lib/api/system.ts");
+
+    for (const schema of [
+      "FnosCertificateSyncItemData",
+      "FnosCertificateSyncDetailsData",
+      "FnosCertificateSyncSummaryData",
+      "FnosCertificateSyncResponseData",
+    ]) {
+      assert.match(types, new RegExp(`\\["${schema}"\\]`, "u"), schema);
+    }
+    assert.match(systemApi, /satisfies FnosCertificateSyncUpdate/u);
+    assert.match(systemApi, /satisfies FnosCertificateSyncBody/u);
+  });
+});

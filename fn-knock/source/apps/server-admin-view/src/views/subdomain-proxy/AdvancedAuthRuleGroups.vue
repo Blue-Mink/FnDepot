@@ -1,1 +1,88 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgUGx1cyB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgdHlwZSB7IEFkdmFuY2VkQXV0aENvbmZpZyB9IGZyb20gIi4uLy4uL3R5cGVzIjsKaW1wb3J0IEFkdmFuY2VkQXV0aFJ1bGVHcm91cENhcmQgZnJvbSAiLi9BZHZhbmNlZEF1dGhSdWxlR3JvdXBDYXJkLnZ1ZSI7CmltcG9ydCB7CiAgY3JlYXRlQWR2YW5jZWRBdXRoUnVsZUVkaXRvciwKICBNQVhfQURWQU5DRURfQVVUSF9HUk9VUFMsCn0gZnJvbSAiLi9hZHZhbmNlZC1hdXRoLWZvcm0iOwoKY29uc3QgeyBmb3JtLCBzYXZpbmcsIHZhbHVlRHJhZnRzIH0gPSBkZWZpbmVQcm9wczx7CiAgZm9ybTogQWR2YW5jZWRBdXRoQ29uZmlnOwogIHNhdmluZzogYm9vbGVhbjsKICB2YWx1ZURyYWZ0czogUmVjb3JkPHN0cmluZywgc3RyaW5nPjsKfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IGVkaXRvciA9IGNyZWF0ZUFkdmFuY2VkQXV0aFJ1bGVFZGl0b3IoZm9ybSwgdmFsdWVEcmFmdHMpOwpjb25zdCByZWdpb25UZXh0ID0gY29tcHV0ZWQoKCkgPT4gKHsKICBhZGQ6IHQoImFkbWluLmFkdmFuY2VkQXV0aC5hZGRSZWdpb24iKSwKICBhZGRSZWdpb246IHQoImFkbWluLmFkdmFuY2VkQXV0aC5hZGRSZWdpb24iKSwKICBjYW5jZWw6IHQoImNvbW1vbi5jYW5jZWwiKSwKICBkaWFsb2dEZXNjcmlwdGlvbjogdCgiYWRtaW4uYWR2YW5jZWRBdXRoLnJlZ2lvbkRpYWxvZ0Rlc2NyaXB0aW9uIiksCiAgbG9hZEZhaWxlZDogdCgiYWRtaW4uYWR2YW5jZWRBdXRoLnJlZ2lvbkxvYWRGYWlsZWQiKSwKICBsb2FkRmFpbGVkRGVzY3JpcHRpb246IHQoImFkbWluLmFkdmFuY2VkQXV0aC5yZWdpb25Mb2FkRmFpbGVkRGVzY3JpcHRpb24iKSwKICBsb2FkaW5nOiB0KCJjb21tb24ubG9hZGluZ0NvbmZpZyIpLAogIG5vUmVnaW9uczogdCgiYWRtaW4uYWR2YW5jZWRBdXRoLm5vUmVnaW9ucyIpLAogIHByb3ZpbmNlOiB0KCJhZG1pbi5hZHZhbmNlZEF1dGgucHJvdmluY2UiKSwKICByZXRyeTogdCgiYWRtaW4uYWR2YW5jZWRBdXRoLnJldHJ5IiksCiAgc2VsZWN0ZWRDb3VudDogKGNvdW50OiBudW1iZXIpID0+CiAgICB0KCJhZG1pbi5hZHZhbmNlZEF1dGguc2VsZWN0ZWRSZWdpb25zIiwgeyBjb3VudCB9KSwKICBzY29wZTogdCgiYWRtaW4uYWR2YW5jZWRBdXRoLnNjb3BlIiksCiAgc2VsZWN0Q2l0eTogdCgiYWRtaW4uYWR2YW5jZWRBdXRoLnNlbGVjdENpdHkiKSwKICBzZWxlY3RQcm92aW5jZTogdCgiYWRtaW4uYWR2YW5jZWRBdXRoLnNlbGVjdFByb3ZpbmNlIiksCiAgc2VsZWN0UHJvdmluY2VGaXJzdDogdCgiYWRtaW4uYWR2YW5jZWRBdXRoLnNlbGVjdFByb3ZpbmNlRmlyc3QiKSwKICB1bmF2YWlsYWJsZTogdCgiYWRtaW4uYWR2YW5jZWRBdXRoLnVuYXZhaWxhYmxlIiksCn0pKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPHNlY3Rpb24gY2xhc3M9InNwYWNlLXktNCI+CiAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgPGRpdj4KICAgICAgICA8aDIgY2xhc3M9InRleHQtYmFzZSBmb250LW1lZGl1bSI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5hZHZhbmNlZEF1dGgucnVsZUdyb3VwcyIpIH19CiAgICAgICAgPC9oMj4KICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sgdCgiYWRtaW4uYWR2YW5jZWRBdXRoLnJ1bGVHcm91cHNEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KICAgICAgPEJ1dHRvbgogICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgY2xhc3M9InctZnVsbCBtaW4tWzQ4MHB4XTp3LWF1dG8iCiAgICAgICAgOmRpc2FibGVkPSJmb3JtLmdyb3Vwcy5sZW5ndGggPj0gTUFYX0FEVkFOQ0VEX0FVVEhfR1JPVVBTIHx8IHNhdmluZyIKICAgICAgICBAY2xpY2s9ImVkaXRvci5hZGRHcm91cCIKICAgICAgPgogICAgICAgIDxQbHVzIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAge3sgdCgiYWRtaW4uYWR2YW5jZWRBdXRoLmFkZE9yR3JvdXAiKSB9fQogICAgICA8L0J1dHRvbj4KICAgIDwvZGl2PgoKICAgIDxkaXYKICAgICAgdi1pZj0iZm9ybS5ncm91cHMubGVuZ3RoID09PSAwIgogICAgICBjbGFzcz0icm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWRhc2hlZCBwLTggdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICA+CiAgICAgIHt7IHQoImFkbWluLmFkdmFuY2VkQXV0aC5ub0dyb3VwcyIpIH19CiAgICA8L2Rpdj4KICAgIDxkaXYKICAgICAgdi1lbHNlCiAgICAgIGNsYXNzPSJyZWxhdGl2ZSBzcGFjZS15LTQgc206c3BhY2UteS01IHNtOnBsLTEwIHNtOmJlZm9yZTphYnNvbHV0ZSBzbTpiZWZvcmU6aW5zZXQteS03IHNtOmJlZm9yZTpsZWZ0LTQgc206YmVmb3JlOnctcHggc206YmVmb3JlOmJnLWJvcmRlciIKICAgID4KICAgICAgPGRpdgogICAgICAgIHYtZm9yPSIoZ3JvdXAsIGdyb3VwSW5kZXgpIGluIGZvcm0uZ3JvdXBzIgogICAgICAgIDprZXk9Imdyb3VwLmlkIgogICAgICAgIGNsYXNzPSJyZWxhdGl2ZSBzbTpiZWZvcmU6YWJzb2x1dGUgc206YmVmb3JlOnRvcC03IHNtOmJlZm9yZTotbGVmdC02IHNtOmJlZm9yZTpoLXB4IHNtOmJlZm9yZTp3LTYgc206YmVmb3JlOmJnLWJvcmRlciIKICAgICAgPgogICAgICAgIDxBZHZhbmNlZEF1dGhSdWxlR3JvdXBDYXJkCiAgICAgICAgICA6ZWRpdG9yPSJlZGl0b3IiCiAgICAgICAgICA6Z3JvdXA9Imdyb3VwIgogICAgICAgICAgOmdyb3VwLWluZGV4PSJncm91cEluZGV4IgogICAgICAgICAgOnJlZ2lvbi10ZXh0PSJyZWdpb25UZXh0IgogICAgICAgICAgOnNhdmluZz0ic2F2aW5nIgogICAgICAgIC8+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9zZWN0aW9uPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Plus } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import type { AdvancedAuthConfig } from "../../types";
+import AdvancedAuthRuleGroupCard from "./AdvancedAuthRuleGroupCard.vue";
+import {
+  createAdvancedAuthRuleEditor,
+  MAX_ADVANCED_AUTH_GROUPS,
+} from "./advanced-auth-form";
+
+const { form, saving, valueDrafts } = defineProps<{
+  form: AdvancedAuthConfig;
+  saving: boolean;
+  valueDrafts: Record<string, string>;
+}>();
+const { t } = useI18n();
+const editor = createAdvancedAuthRuleEditor(form, valueDrafts);
+const regionText = computed(() => ({
+  add: t("admin.advancedAuth.addRegion"),
+  addRegion: t("admin.advancedAuth.addRegion"),
+  cancel: t("common.cancel"),
+  dialogDescription: t("admin.advancedAuth.regionDialogDescription"),
+  loadFailed: t("admin.advancedAuth.regionLoadFailed"),
+  loadFailedDescription: t("admin.advancedAuth.regionLoadFailedDescription"),
+  loading: t("common.loadingConfig"),
+  noRegions: t("admin.advancedAuth.noRegions"),
+  province: t("admin.advancedAuth.province"),
+  retry: t("admin.advancedAuth.retry"),
+  selectedCount: (count: number) =>
+    t("admin.advancedAuth.selectedRegions", { count }),
+  scope: t("admin.advancedAuth.scope"),
+  selectCity: t("admin.advancedAuth.selectCity"),
+  selectProvince: t("admin.advancedAuth.selectProvince"),
+  selectProvinceFirst: t("admin.advancedAuth.selectProvinceFirst"),
+  unavailable: t("admin.advancedAuth.unavailable"),
+}));
+</script>
+
+<template>
+  <section class="space-y-4">
+    <div class="flex flex-wrap items-center justify-between gap-3">
+      <div>
+        <h2 class="text-base font-medium">
+          {{ t("admin.advancedAuth.ruleGroups") }}
+        </h2>
+        <p class="text-sm text-muted-foreground">
+          {{ t("admin.advancedAuth.ruleGroupsDescription") }}
+        </p>
+      </div>
+      <Button
+        variant="outline"
+        class="w-full min-[480px]:w-auto"
+        :disabled="form.groups.length >= MAX_ADVANCED_AUTH_GROUPS || saving"
+        @click="editor.addGroup"
+      >
+        <Plus class="mr-2 h-4 w-4" />
+        {{ t("admin.advancedAuth.addOrGroup") }}
+      </Button>
+    </div>
+
+    <div
+      v-if="form.groups.length === 0"
+      class="rounded-xl border border-dashed p-8 text-center text-sm text-muted-foreground"
+    >
+      {{ t("admin.advancedAuth.noGroups") }}
+    </div>
+    <div
+      v-else
+      class="relative space-y-4 sm:space-y-5 sm:pl-10 sm:before:absolute sm:before:inset-y-7 sm:before:left-4 sm:before:w-px sm:before:bg-border"
+    >
+      <div
+        v-for="(group, groupIndex) in form.groups"
+        :key="group.id"
+        class="relative sm:before:absolute sm:before:top-7 sm:before:-left-6 sm:before:h-px sm:before:w-6 sm:before:bg-border"
+      >
+        <AdvancedAuthRuleGroupCard
+          :editor="editor"
+          :group="group"
+          :group-index="groupIndex"
+          :region-text="regionText"
+          :saving="saving"
+        />
+      </div>
+    </div>
+  </section>
+</template>

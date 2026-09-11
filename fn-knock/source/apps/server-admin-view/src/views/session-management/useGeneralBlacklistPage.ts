@@ -1,1 +1,224 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgcmVmLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7CiAgR2VuZXJhbEJsYWNrbGlzdEFQSSwKICB0eXBlIEdlbmVyYWxCbGFja2xpc3RSZWNvcmQsCiAgdHlwZSBHZW5lcmFsQmxhY2tsaXN0U291cmNlLAp9IGZyb20gIkAvbGliL2FwaS9zZWN1cml0eSI7CmltcG9ydCB7IHVzZUlwTG9jYXRpb25CYXRjaCB9IGZyb20gIi4uLy4uL2NvbXBvc2FibGVzL3VzZUlwTG9jYXRpb25CYXRjaCI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdXNlRGVsYXllZExvYWRpbmcgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZURlbGF5ZWRMb2FkaW5nIjsKaW1wb3J0IHsgdXNlUGFnZWRTZWxlY3Rpb25MaXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VQYWdlZFNlbGVjdGlvbkxpc3QiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwoKZXhwb3J0IGZ1bmN0aW9uIHVzZUdlbmVyYWxCbGFja2xpc3RQYWdlKCkgewogIGNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IGFkZERpYWxvZ09wZW4gPSByZWYoZmFsc2UpOwogIGNvbnN0IGFkZElwc1RleHQgPSByZWYoIiIpOwogIGNvbnN0IGFkZENvbW1lbnQgPSByZWYoIiIpOwoKICBjb25zdCB7CiAgICBpdGVtczogcmVjb3JkcywKICAgIHRvdGFsOiB0b3RhbFJlY29yZHMsCiAgICBsb2FkaW5nLAogICAgc2VhcmNoUXVlcnksCiAgICBjdXJyZW50UGFnZSwKICAgIGxpbWl0LAogICAgcGFyc2VkTGltaXQsCiAgICBzZWxlY3RlZEtleXM6IHNlbGVjdGVkSXBzLAogICAgaXNBbGxTZWxlY3RlZCwKICAgIGZldGNoTGlzdDogZmV0Y2hCbGFja2xpc3QsCiAgICBoYW5kbGVTZWFyY2gsCiAgICBoYW5kbGVQYWdlQ2hhbmdlLAogICAgaGFuZGxlTGltaXRDaGFuZ2UsCiAgICB0b2dnbGVTZWxlY3QsCiAgICBjbGVhclNlbGVjdGlvbiwKICB9ID0gdXNlUGFnZWRTZWxlY3Rpb25MaXN0PEdlbmVyYWxCbGFja2xpc3RSZWNvcmQsIHN0cmluZz4oewogICAgZmV0Y2hQYWdlOiBhc3luYyAoeyBwYWdlLCBsaW1pdDogcGFnZUxpbWl0LCBxdWVyeSB9KSA9PiB7CiAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBHZW5lcmFsQmxhY2tsaXN0QVBJLmdldExpc3QocGFnZSwgcGFnZUxpbWl0LCBxdWVyeSk7CiAgICAgIHJldHVybiB7CiAgICAgICAgaXRlbXM6IGRhdGEuaXRlbXMgfHwgW10sCiAgICAgICAgdG90YWw6IGRhdGEudG90YWwgfHwgMCwKICAgICAgfTsKICAgIH0sCiAgICBnZXRLZXk6IChyZWNvcmQpID0+IHJlY29yZC5pcCwKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5zZXNzaW9ucy5nZW5lcmFsQmxhY2tsaXN0LmxvYWRGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5zZXNzaW9ucy5nZW5lcmFsQmxhY2tsaXN0LmxvYWRGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IHsgdHJhY2tJcHMsIGdldFNuYXBzaG90IH0gPSB1c2VJcExvY2F0aW9uQmF0Y2goKTsKICBjb25zdCB7IGlzUGVuZGluZzogaXNBZGRpbmcsIHJ1bjogcnVuQWRkQWN0aW9uIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uc2Vzc2lvbnMuZ2VuZXJhbEJsYWNrbGlzdC5hZGRGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5zZXNzaW9ucy5nZW5lcmFsQmxhY2tsaXN0LmFkZEZhaWxlZCIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSwKICB9KTsKICBjb25zdCB7IGlzUGVuZGluZzogaXNEZWxldGluZywgcnVuOiBydW5EZWxldGVBY3Rpb24gfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5zZXNzaW9ucy5nZW5lcmFsQmxhY2tsaXN0LmRlbGV0ZUZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLnNlc3Npb25zLmdlbmVyYWxCbGFja2xpc3QuZGVsZXRlRmFpbGVkIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwogIGNvbnN0IHNob3dUYWJsZVNrZWxldG9uID0gdXNlRGVsYXllZExvYWRpbmcoCiAgICAoKSA9PiBsb2FkaW5nLnZhbHVlICYmIHJlY29yZHMudmFsdWUubGVuZ3RoID09PSAwLAogICk7CiAgY29uc3QgcGFyc2VkQWRkSXBzID0gY29tcHV0ZWQoKCkgPT4KICAgIEFycmF5LmZyb20oCiAgICAgIG5ldyBTZXQoCiAgICAgICAgYWRkSXBzVGV4dC52YWx1ZQogICAgICAgICAgLnNwbGl0KC9bXHMsO10rLykKICAgICAgICAgIC5tYXAoKGl0ZW0pID0+IGl0ZW0udHJpbSgpKQogICAgICAgICAgLmZpbHRlcihCb29sZWFuKSwKICAgICAgKSwKICAgICksCiAgKTsKCiAgY29uc3QgZ2V0U291cmNlTGFiZWwgPSAoc291cmNlPzogc3RyaW5nKSA9PiB7CiAgICBzd2l0Y2ggKHNvdXJjZSkgewogICAgICBjYXNlICJyZXF1ZXN0X2xvZyI6CiAgICAgICAgcmV0dXJuIHQoImFkbWluLnNlc3Npb25zLmdlbmVyYWxCbGFja2xpc3Quc291cmNlcy5yZXF1ZXN0TG9nIik7CiAgICAgIGNhc2UgImFjdGl2ZV9pcCI6CiAgICAgICAgcmV0dXJuIHQoImFkbWluLnNlc3Npb25zLmdlbmVyYWxCbGFja2xpc3Quc291cmNlcy5hY3RpdmVJcCIpOwogICAgICBjYXNlICJ3YWZfbG9nIjoKICAgICAgICByZXR1cm4gdCgiYWRtaW4uc2Vzc2lvbnMuZ2VuZXJhbEJsYWNrbGlzdC5zb3VyY2VzLndhZkxvZyIpOwogICAgICBkZWZhdWx0OgogICAgICAgIHJldHVybiB0KCJhZG1pbi5zZXNzaW9ucy5nZW5lcmFsQmxhY2tsaXN0LnNvdXJjZXMubWFudWFsIik7CiAgICB9CiAgfTsKCiAgY29uc3QgZ2V0U291cmNlVmFyaWFudCA9ICgKICAgIHNvdXJjZT86IHN0cmluZywKICApOiAiZGVmYXVsdCIgfCAic2Vjb25kYXJ5IiB8ICJvdXRsaW5lIiB8ICJkZXN0cnVjdGl2ZSIgPT4gewogICAgaWYgKHNvdXJjZSA9PT0gInJlcXVlc3RfbG9nIikgcmV0dXJuICJzZWNvbmRhcnkiOwogICAgaWYgKHNvdXJjZSA9PT0gImFjdGl2ZV9pcCIpIHJldHVybiAib3V0bGluZSI7CiAgICBpZiAoc291cmNlID09PSAid2FmX2xvZyIpIHJldHVybiAiZGVzdHJ1Y3RpdmUiOwogICAgcmV0dXJuICJkZWZhdWx0IjsKICB9OwoKICBjb25zdCBnZXRMb2NhdGlvblRleHQgPSAoaXA6IHN0cmluZykgPT4gewogICAgY29uc3Qgc25hcHNob3QgPSBnZXRTbmFwc2hvdChpcCk7CiAgICBpZiAoc25hcHNob3Q/LmxvY2F0aW9uKSByZXR1cm4gc25hcHNob3QubG9jYXRpb247CiAgICBpZiAoc25hcHNob3Q/LnN0YXR1cyA9PT0gInF1ZXVlZCIgfHwgc25hcHNob3Q/LnN0YXR1cyA9PT0gInByb2Nlc3NpbmciKSB7CiAgICAgIHJldHVybiB0KCJhZG1pbi5ob3N0QWN0aXZlSXBzLnJlc29sdmluZyIpOwogICAgfQogICAgaWYgKHNuYXBzaG90Py5zdGF0dXMgPT09ICJza2lwcGVkIikgewogICAgICByZXR1cm4gdCgiYWRtaW4uaG9zdEFjdGl2ZUlwcy5wcml2YXRlQWRkcmVzcyIpOwogICAgfQogICAgcmV0dXJuIHQoImFkbWluLmhvc3RBY3RpdmVJcHMudW5hdmFpbGFibGUiKTsKICB9OwoKICBjb25zdCBhZGRCbGFja2xpc3QgPSBhc3luYyAoCiAgICBpcHM6IHN0cmluZ1tdLAogICAgc291cmNlOiBHZW5lcmFsQmxhY2tsaXN0U291cmNlLAogICAgY29tbWVudD86IHN0cmluZywKICApID0+IHsKICAgIGlmIChpcHMubGVuZ3RoID09PSAwKSByZXR1cm47CiAgICBhd2FpdCBydW5BZGRBY3Rpb24oKCkgPT4gR2VuZXJhbEJsYWNrbGlzdEFQSS5hZGQoaXBzLCBzb3VyY2UsIGNvbW1lbnQpLCB7CiAgICAgIG9uU3VjY2VzczogYXN5bmMgKHJlc3VsdCkgPT4gewogICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uc2Vzc2lvbnMuZ2VuZXJhbEJsYWNrbGlzdC5hZGRTdWNjZXNzIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5zZXNzaW9ucy5nZW5lcmFsQmxhY2tsaXN0LmFkZFN1Y2Nlc3NEZXRhaWwiLCB7CiAgICAgICAgICAgIGFkZGVkOiByZXN1bHQ/LmFkZGVkID8/IDAsCiAgICAgICAgICAgIHVwZGF0ZWQ6IHJlc3VsdD8udXBkYXRlZCA/PyAwLAogICAgICAgICAgfSksCiAgICAgICAgfSk7CiAgICAgICAgYWRkRGlhbG9nT3Blbi52YWx1ZSA9IGZhbHNlOwogICAgICAgIGFkZElwc1RleHQudmFsdWUgPSAiIjsKICAgICAgICBhZGRDb21tZW50LnZhbHVlID0gIiI7CiAgICAgICAgYXdhaXQgZmV0Y2hCbGFja2xpc3QoKTsKICAgICAgfSwKICAgIH0pOwogIH07CgogIGNvbnN0IGFkZE1hbnVhbEJsYWNrbGlzdCA9IGFzeW5jICgpID0+IHsKICAgIGF3YWl0IGFkZEJsYWNrbGlzdChwYXJzZWRBZGRJcHMudmFsdWUsICJtYW51YWwiLCBhZGRDb21tZW50LnZhbHVlLnRyaW0oKSk7CiAgfTsKCiAgY29uc3QgZGVsZXRlQmxhY2tsaXN0ID0gYXN5bmMgKGlwczogc3RyaW5nW10pID0+IHsKICAgIGlmIChpcHMubGVuZ3RoID09PSAwKSByZXR1cm47CiAgICBhd2FpdCBydW5EZWxldGVBY3Rpb24oKCkgPT4gR2VuZXJhbEJsYWNrbGlzdEFQSS5kZWxldGUoaXBzKSwgewogICAgICBvblN1Y2Nlc3M6IGFzeW5jIChyZXN1bHQpID0+IHsKICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLnNlc3Npb25zLmdlbmVyYWxCbGFja2xpc3QuZGVsZXRlU3VjY2VzcyIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogdCgKICAgICAgICAgICAgImFkbWluLnNlc3Npb25zLmdlbmVyYWxCbGFja2xpc3QuZGVsZXRlU3VjY2Vzc0RldGFpbCIsCiAgICAgICAgICAgIHsgcmVtb3ZlZDogcmVzdWx0Py5yZW1vdmVkID8/IDAgfSwKICAgICAgICAgICksCiAgICAgICAgfSk7CiAgICAgICAgY2xlYXJTZWxlY3Rpb24oKTsKICAgICAgICBhd2FpdCBmZXRjaEJsYWNrbGlzdCgpOwogICAgICB9LAogICAgfSk7CiAgfTsKCiAgY29uc3QgZGVsZXRlT25lID0gYXN5bmMgKGlwOiBzdHJpbmcpID0+IHsKICAgIGF3YWl0IHJ1bkRlbGV0ZUFjdGlvbigoKSA9PiBHZW5lcmFsQmxhY2tsaXN0QVBJLmRlbGV0ZUJ5SXAoaXApLCB7CiAgICAgIG9uU3VjY2VzczogYXN5bmMgKCkgPT4gewogICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uc2Vzc2lvbnMuZ2VuZXJhbEJsYWNrbGlzdC5kZWxldGVTdWNjZXNzIikpOwogICAgICAgIHNlbGVjdGVkSXBzLnZhbHVlLmRlbGV0ZShpcCk7CiAgICAgICAgc2VsZWN0ZWRJcHMudmFsdWUgPSBuZXcgU2V0KHNlbGVjdGVkSXBzLnZhbHVlKTsKICAgICAgICBhd2FpdCBmZXRjaEJsYWNrbGlzdCgpOwogICAgICB9LAogICAgfSk7CiAgfTsKCiAgd2F0Y2goCiAgICByZWNvcmRzLAogICAgKGl0ZW1zKSA9PiB7CiAgICAgIHRyYWNrSXBzKGl0ZW1zLm1hcCgocmVjb3JkKSA9PiByZWNvcmQuaXApKTsKICAgIH0sCiAgICB7IGltbWVkaWF0ZTogdHJ1ZSB9LAogICk7CiAgb25Nb3VudGVkKCgpID0+IHsKICAgIHZvaWQgZmV0Y2hCbGFja2xpc3QoKTsKICB9KTsKCiAgcmV0dXJuIHsKICAgIGFkZENvbW1lbnQsCiAgICBhZGREaWFsb2dPcGVuLAogICAgYWRkSXBzVGV4dCwKICAgIGFkZE1hbnVhbEJsYWNrbGlzdCwKICAgIGN1cnJlbnRQYWdlLAogICAgZGVsZXRlQmxhY2tsaXN0LAogICAgZGVsZXRlT25lLAogICAgZmV0Y2hCbGFja2xpc3QsCiAgICBnZXRMb2NhdGlvblRleHQsCiAgICBnZXRTb3VyY2VMYWJlbCwKICAgIGdldFNvdXJjZVZhcmlhbnQsCiAgICBoYW5kbGVMaW1pdENoYW5nZSwKICAgIGhhbmRsZVBhZ2VDaGFuZ2UsCiAgICBoYW5kbGVTZWFyY2gsCiAgICBpc0FkZGluZywKICAgIGlzQWxsU2VsZWN0ZWQsCiAgICBpc0RlbGV0aW5nLAogICAgbGltaXQsCiAgICBsb2FkaW5nLAogICAgcGFyc2VkQWRkSXBzLAogICAgcGFyc2VkTGltaXQsCiAgICByZWNvcmRzLAogICAgc2VhcmNoUXVlcnksCiAgICBzZWxlY3RlZElwcywKICAgIHNob3dUYWJsZVNrZWxldG9uLAogICAgdG9nZ2xlU2VsZWN0LAogICAgdG90YWxSZWNvcmRzLAogIH07Cn0KCmV4cG9ydCB0eXBlIEdlbmVyYWxCbGFja2xpc3RQYWdlQ29udHJvbGxlciA9IFJldHVyblR5cGU8CiAgdHlwZW9mIHVzZUdlbmVyYWxCbGFja2xpc3RQYWdlCj47Cg==
+import { computed, onMounted, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  GeneralBlacklistAPI,
+  type GeneralBlacklistRecord,
+  type GeneralBlacklistSource,
+} from "@/lib/api/security";
+import { useIpLocationBatch } from "../../composables/useIpLocationBatch";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import { usePagedSelectionList } from "@admin-shared/composables/usePagedSelectionList";
+import { toast } from "@admin-shared/utils/toast";
+
+export function useGeneralBlacklistPage() {
+  const { t } = useI18n();
+  const addDialogOpen = ref(false);
+  const addIpsText = ref("");
+  const addComment = ref("");
+
+  const {
+    items: records,
+    total: totalRecords,
+    loading,
+    searchQuery,
+    currentPage,
+    limit,
+    parsedLimit,
+    selectedKeys: selectedIps,
+    isAllSelected,
+    fetchList: fetchBlacklist,
+    handleSearch,
+    handlePageChange,
+    handleLimitChange,
+    toggleSelect,
+    clearSelection,
+  } = usePagedSelectionList<GeneralBlacklistRecord, string>({
+    fetchPage: async ({ page, limit: pageLimit, query }) => {
+      const data = await GeneralBlacklistAPI.getList(page, pageLimit, query);
+      return {
+        items: data.items || [],
+        total: data.total || 0,
+      };
+    },
+    getKey: (record) => record.ip,
+    onError: (error) => {
+      toast.error(t("admin.sessions.generalBlacklist.loadFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.sessions.generalBlacklist.loadFailed"),
+        ),
+      });
+    },
+  });
+
+  const { trackIps, getSnapshot } = useIpLocationBatch();
+  const { isPending: isAdding, run: runAddAction } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.sessions.generalBlacklist.addFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.sessions.generalBlacklist.addFailed"),
+        ),
+      });
+    },
+  });
+  const { isPending: isDeleting, run: runDeleteAction } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.sessions.generalBlacklist.deleteFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.sessions.generalBlacklist.deleteFailed"),
+        ),
+      });
+    },
+  });
+  const showTableSkeleton = useDelayedLoading(
+    () => loading.value && records.value.length === 0,
+  );
+  const parsedAddIps = computed(() =>
+    Array.from(
+      new Set(
+        addIpsText.value
+          .split(/[\s,;]+/)
+          .map((item) => item.trim())
+          .filter(Boolean),
+      ),
+    ),
+  );
+
+  const getSourceLabel = (source?: string) => {
+    switch (source) {
+      case "request_log":
+        return t("admin.sessions.generalBlacklist.sources.requestLog");
+      case "active_ip":
+        return t("admin.sessions.generalBlacklist.sources.activeIp");
+      case "waf_log":
+        return t("admin.sessions.generalBlacklist.sources.wafLog");
+      default:
+        return t("admin.sessions.generalBlacklist.sources.manual");
+    }
+  };
+
+  const getSourceVariant = (
+    source?: string,
+  ): "default" | "secondary" | "outline" | "destructive" => {
+    if (source === "request_log") return "secondary";
+    if (source === "active_ip") return "outline";
+    if (source === "waf_log") return "destructive";
+    return "default";
+  };
+
+  const getLocationText = (ip: string) => {
+    const snapshot = getSnapshot(ip);
+    if (snapshot?.location) return snapshot.location;
+    if (snapshot?.status === "queued" || snapshot?.status === "processing") {
+      return t("admin.hostActiveIps.resolving");
+    }
+    if (snapshot?.status === "skipped") {
+      return t("admin.hostActiveIps.privateAddress");
+    }
+    return t("admin.hostActiveIps.unavailable");
+  };
+
+  const addBlacklist = async (
+    ips: string[],
+    source: GeneralBlacklistSource,
+    comment?: string,
+  ) => {
+    if (ips.length === 0) return;
+    await runAddAction(() => GeneralBlacklistAPI.add(ips, source, comment), {
+      onSuccess: async (result) => {
+        toast.success(t("admin.sessions.generalBlacklist.addSuccess"), {
+          description: t("admin.sessions.generalBlacklist.addSuccessDetail", {
+            added: result?.added ?? 0,
+            updated: result?.updated ?? 0,
+          }),
+        });
+        addDialogOpen.value = false;
+        addIpsText.value = "";
+        addComment.value = "";
+        await fetchBlacklist();
+      },
+    });
+  };
+
+  const addManualBlacklist = async () => {
+    await addBlacklist(parsedAddIps.value, "manual", addComment.value.trim());
+  };
+
+  const deleteBlacklist = async (ips: string[]) => {
+    if (ips.length === 0) return;
+    await runDeleteAction(() => GeneralBlacklistAPI.delete(ips), {
+      onSuccess: async (result) => {
+        toast.success(t("admin.sessions.generalBlacklist.deleteSuccess"), {
+          description: t(
+            "admin.sessions.generalBlacklist.deleteSuccessDetail",
+            { removed: result?.removed ?? 0 },
+          ),
+        });
+        clearSelection();
+        await fetchBlacklist();
+      },
+    });
+  };
+
+  const deleteOne = async (ip: string) => {
+    await runDeleteAction(() => GeneralBlacklistAPI.deleteByIp(ip), {
+      onSuccess: async () => {
+        toast.success(t("admin.sessions.generalBlacklist.deleteSuccess"));
+        selectedIps.value.delete(ip);
+        selectedIps.value = new Set(selectedIps.value);
+        await fetchBlacklist();
+      },
+    });
+  };
+
+  watch(
+    records,
+    (items) => {
+      trackIps(items.map((record) => record.ip));
+    },
+    { immediate: true },
+  );
+  onMounted(() => {
+    void fetchBlacklist();
+  });
+
+  return {
+    addComment,
+    addDialogOpen,
+    addIpsText,
+    addManualBlacklist,
+    currentPage,
+    deleteBlacklist,
+    deleteOne,
+    fetchBlacklist,
+    getLocationText,
+    getSourceLabel,
+    getSourceVariant,
+    handleLimitChange,
+    handlePageChange,
+    handleSearch,
+    isAdding,
+    isAllSelected,
+    isDeleting,
+    limit,
+    loading,
+    parsedAddIps,
+    parsedLimit,
+    records,
+    searchQuery,
+    selectedIps,
+    showTableSkeleton,
+    toggleSelect,
+    totalRecords,
+  };
+}
+
+export type GeneralBlacklistPageController = ReturnType<
+  typeof useGeneralBlacklistPage
+>;

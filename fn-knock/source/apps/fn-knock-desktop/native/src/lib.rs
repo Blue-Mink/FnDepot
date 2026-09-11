@@ -1,1 +1,13 @@
-I1tjZmdfYXR0cihub3Qod2luZG93cyksIGFsbG93KGRlYWRfY29kZSkpXQptb2QgaTE4bjsKbW9kIG5hdGl2ZTsKI1tjZmdfYXR0cihub3Qod2luZG93cyksIGFsbG93KGRlYWRfY29kZSkpXQptb2QgcGxhdGZvcm07CiNbY2ZnX2F0dHIobm90KHdpbmRvd3MpLCBhbGxvdyhkZWFkX2NvZGUpKV0KbW9kIHJ1bnRpbWU7CiNbY2ZnX2F0dHIobm90KHdpbmRvd3MpLCBhbGxvdyhkZWFkX2NvZGUpKV0KbW9kIHVwZGF0ZTsKCnB1YiBmbiBydW4oKSB7CiAgICBuYXRpdmU6OnJ1bigpOwp9Cg==
+#[cfg_attr(not(windows), allow(dead_code))]
+mod i18n;
+mod native;
+#[cfg_attr(not(windows), allow(dead_code))]
+mod platform;
+#[cfg_attr(not(windows), allow(dead_code))]
+mod runtime;
+#[cfg_attr(not(windows), allow(dead_code))]
+mod update;
+
+pub fn run() {
+    native::run();
+}

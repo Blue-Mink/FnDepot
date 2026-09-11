@@ -1,1 +1,26 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IHJlYWRGaWxlIH0gZnJvbSAibm9kZTpmcy9wcm9taXNlcyI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgpkZXNjcmliZSgiRk5PUyBuZXR3b3JrIHR1bmluZyB2aXNpYmlsaXR5IiwgKCkgPT4gewogIGl0KCJrZWVwcyBCQlIgdmlzaWJsZSBhbmQgZGlzYWJsZXMgaXQgd2l0aCBhIHJlYXNvbiB3aGVuIHN1cHBvcnQgaXMgdW5hdmFpbGFibGUiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBzb3VyY2UgPSBhd2FpdCByZWFkRmlsZSgKICAgICAgbmV3IFVSTCgiLi4vc3JjL3ZpZXdzL3N5c3RlbS1zZXR0aW5ncy9Gbm9zU2V0dGluZ3MudnVlIiwgaW1wb3J0Lm1ldGEudXJsKSwKICAgICAgInV0ZjgiLAogICAgKTsKCiAgICBhc3NlcnQubWF0Y2goc291cmNlLCAvdi1pZj0iY2FuVXNlRm5vc05ldHdvcmtUdW5pbmciL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaCgKICAgICAgc291cmNlLAogICAgICAvdi1pZj0iY2FuVXNlRm5vc05ldHdvcmtUdW5pbmcgJiYgaXNCYnJTdXBwb3J0ZWQiL3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBzb3VyY2UsCiAgICAgIC8haXNOZXR3b3JrVHVuaW5nQXZhaWxhYmxlIFx8XHxccyohaXNCYnJTdXBwb3J0ZWQgXHxcfFxzKmlzTmV0d29ya1R1bmluZ1NhdmluZy91LAogICAgKTsKICAgIGFzc2VydC5tYXRjaChzb3VyY2UsIC9uZXR3b3JrVHVuaW5nU3RhdHVzXC5iYnJcLnN1cHBvcnRlZC91KTsKICAgIGFzc2VydC5tYXRjaChzb3VyY2UsIC9iYnJTdXBwb3J0RGVzY3JpcHRpb24vdSk7CiAgfSk7Cn0pOwo=
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+import { describe, it } from "node:test";
+
+describe("FNOS network tuning visibility", () => {
+  it("keeps BBR visible and disables it with a reason when support is unavailable", async () => {
+    const source = await readFile(
+      new URL("../src/views/system-settings/FnosSettings.vue", import.meta.url),
+      "utf8",
+    );
+
+    assert.match(source, /v-if="canUseFnosNetworkTuning"/u);
+    assert.doesNotMatch(
+      source,
+      /v-if="canUseFnosNetworkTuning && isBbrSupported"/u,
+    );
+    assert.match(
+      source,
+      /!isNetworkTuningAvailable \|\|\s*!isBbrSupported \|\|\s*isNetworkTuningSaving/u,
+    );
+    assert.match(source, /networkTuningStatus\.bbr\.supported/u);
+    assert.match(source, /bbrSupportDescription/u);
+  });
+});

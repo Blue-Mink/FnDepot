@@ -1,1 +1,24 @@
-aW1wb3J0IHR5cGUgeyBWYXJpYW50UHJvcHMgfSBmcm9tICJjbGFzcy12YXJpYW5jZS1hdXRob3JpdHkiCmltcG9ydCB7IGN2YSB9IGZyb20gImNsYXNzLXZhcmlhbmNlLWF1dGhvcml0eSIKCmV4cG9ydCB7IGRlZmF1bHQgYXMgQWxlcnQgfSBmcm9tICIuL0FsZXJ0LnZ1ZSIKZXhwb3J0IHsgZGVmYXVsdCBhcyBBbGVydERlc2NyaXB0aW9uIH0gZnJvbSAiLi9BbGVydERlc2NyaXB0aW9uLnZ1ZSIKZXhwb3J0IHsgZGVmYXVsdCBhcyBBbGVydFRpdGxlIH0gZnJvbSAiLi9BbGVydFRpdGxlLnZ1ZSIKCmV4cG9ydCBjb25zdCBhbGVydFZhcmlhbnRzID0gY3ZhKAogICJyZWxhdGl2ZSB3LWZ1bGwgcm91bmRlZC1sZyBib3JkZXIgcHgtNCBweS0zIHRleHQtc20gZ3JpZCBoYXMtWz5zdmddOmdyaWQtY29scy1bY2FsYyh2YXIoLS1zcGFjaW5nKSo0KV8xZnJdIGdyaWQtY29scy1bMF8xZnJdIGhhcy1bPnN2Z106Z2FwLXgtMyBnYXAteS0wLjUgaXRlbXMtc3RhcnQgWyY+c3ZnXTpzaXplLTQgWyY+c3ZnXTp0cmFuc2xhdGUteS0wLjUgWyY+c3ZnXTp0ZXh0LWN1cnJlbnQiLAogIHsKICAgIHZhcmlhbnRzOiB7CiAgICAgIHZhcmlhbnQ6IHsKICAgICAgICBkZWZhdWx0OiAiYmctY2FyZCB0ZXh0LWNhcmQtZm9yZWdyb3VuZCIsCiAgICAgICAgZGVzdHJ1Y3RpdmU6CiAgICAgICAgICAidGV4dC1kZXN0cnVjdGl2ZSBiZy1jYXJkIFsmPnN2Z106dGV4dC1jdXJyZW50ICo6ZGF0YS1bc2xvdD1hbGVydC1kZXNjcmlwdGlvbl06dGV4dC1kZXN0cnVjdGl2ZS85MCIsCiAgICAgIH0sCiAgICB9LAogICAgZGVmYXVsdFZhcmlhbnRzOiB7CiAgICAgIHZhcmlhbnQ6ICJkZWZhdWx0IiwKICAgIH0sCiAgfSwKKQoKZXhwb3J0IHR5cGUgQWxlcnRWYXJpYW50cyA9IFZhcmlhbnRQcm9wczx0eXBlb2YgYWxlcnRWYXJpYW50cz4K
+import type { VariantProps } from "class-variance-authority"
+import { cva } from "class-variance-authority"
+
+export { default as Alert } from "./Alert.vue"
+export { default as AlertDescription } from "./AlertDescription.vue"
+export { default as AlertTitle } from "./AlertTitle.vue"
+
+export const alertVariants = cva(
+  "relative w-full rounded-lg border px-4 py-3 text-sm grid has-[>svg]:grid-cols-[calc(var(--spacing)*4)_1fr] grid-cols-[0_1fr] has-[>svg]:gap-x-3 gap-y-0.5 items-start [&>svg]:size-4 [&>svg]:translate-y-0.5 [&>svg]:text-current",
+  {
+    variants: {
+      variant: {
+        default: "bg-card text-card-foreground",
+        destructive:
+          "text-destructive bg-card [&>svg]:text-current *:data-[slot=alert-description]:text-destructive/90",
+      },
+    },
+    defaultVariants: {
+      variant: "default",
+    },
+  },
+)
+
+export type AlertVariants = VariantProps<typeof alertVariants>

@@ -1,1 +1,97 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCldPUktGTE9XPSIke1JPT1RfRElSfS8uZ2l0aHViL3dvcmtmbG93cy9yZWxlYXNlLnltbCIKCmZhaWwoKSB7CiAgcHJpbnRmICdbdGVzdC1jb3MtcmVsZWFzZS13b3JrZmxvd10gRVJST1I6ICVzXG4nICIkKiIgPiYyCiAgZXhpdCAxCn0KCmxpbmVfb2YoKSB7CiAgbG9jYWwgcGF0dGVybj0iJDEiCiAgbG9jYWwgbGluZQogIGxpbmU9IiQoZ3JlcCAtbkYgLS0gIiR7cGF0dGVybn0iICIke1dPUktGTE9XfSIgfCBoZWFkIC1uMSB8IGN1dCAtZDogLWYxKSIKICBbIC1uICIke2xpbmV9IiBdIHx8IGZhaWwgIndvcmtmbG93IGlzIG1pc3Npbmc6ICR7cGF0dGVybn0iCiAgcHJpbnRmICclc1xuJyAiJHtsaW5lfSIKfQoKc3RhZ2VfbGluZT0iJChsaW5lX29mICctIG5hbWU6IFN0YWdlIGRyYWZ0IEdpdEh1YiBSZWxlYXNlJykiCmRvY2tlcl9saW5lPSIkKGxpbmVfb2YgJy0gbmFtZTogUHVibGlzaCBhbmQgdmVyaWZ5IERvY2tlciBsYXRlc3QnKSIKcGxhbl9saW5lPSIkKGxpbmVfb2YgJy0gbmFtZTogVmFsaWRhdGUgVGVuY2VudCBDT1MgcHVibGlzaCBwbGFuJykiCmNvc19saW5lPSIkKGxpbmVfb2YgJy0gbmFtZTogUHVibGlzaCB0byBUZW5jZW50IENPUyBhbmQgcmVmcmVzaCBsYXRlc3QgQ0ROIGNhY2hlJykiCnB1YmxpY19saW5lPSIkKGxpbmVfb2YgJy0gbmFtZTogUHVibGlzaCBpbW11dGFibGUgR2l0SHViIFJlbGVhc2UnKSIKClsgIiR7cGxhbl9saW5lfSIgLWx0ICIke3N0YWdlX2xpbmV9IiBdIHx8IGZhaWwgIkNPUyBwbGFuIG11c3QgYmUgdmFsaWRhdGVkIGJlZm9yZSBzdGFnaW5nIHRoZSBkcmFmdCIKWyAiJHtzdGFnZV9saW5lfSIgLWx0ICIke2RvY2tlcl9saW5lfSIgXSB8fCBmYWlsICJkcmFmdCBSZWxlYXNlIG11c3QgYmUgc3RhZ2VkIGJlZm9yZSBEb2NrZXIgbGF0ZXN0IgpbICIke2RvY2tlcl9saW5lfSIgLWx0ICIke2Nvc19saW5lfSIgXSB8fCBmYWlsICJEb2NrZXIgbGF0ZXN0IG11c3QgY29tcGxldGUgYmVmb3JlIENPUyBwdWJsaWNhdGlvbiIKWyAiJHtjb3NfbGluZX0iIC1sdCAiJHtwdWJsaWNfbGluZX0iIF0gfHwgZmFpbCAiR2l0SHViIFJlbGVhc2UgbXVzdCBiZSBwdWJsaXNoZWQgYWZ0ZXIgQ09TIGFuZCBDRE4iCgpbICIkKGdyZXAgLUZjICdnaCByZWxlYXNlIGVkaXQgIiR7VEFHfSIgLS1kcmFmdD1mYWxzZSAtLWxhdGVzdCcgIiR7V09SS0ZMT1d9IikiID0gIjEiIF0gfHwKICBmYWlsICJ3b3JrZmxvdyBtdXN0IGhhdmUgZXhhY3RseSBvbmUgcHVibGljIEdpdEh1YiBSZWxlYXNlIGNvbW1pdCBwb2ludCIKZ3JlcCAtRnEgIm5lZWRzLnByZWZsaWdodC5vdXRwdXRzLnByZXJlbGVhc2UgIT0gJ3RydWUnIiAiJHtXT1JLRkxPV30iIHx8CiAgZmFpbCAiYmV0YSByZWxlYXNlcyBtdXN0IG5vdCBtdXRhdGUgc3RhYmxlIGxhdGVzdCBjaGFubmVscyIKZ3JlcCAtRnEgJ3JlbGVhc2VfYXJncys9KC0tcHJlcmVsZWFzZSknICIke1dPUktGTE9XfSIgfHwKICBmYWlsICJiZXRhIEdpdEh1YiBSZWxlYXNlcyBtdXN0IGJlIG1hcmtlZCBhcyBwcmVyZWxlYXNlcyIKZ3JlcCAtRnEgJ2doIHJlbGVhc2UgZWRpdCAiJHtUQUd9IiAtLWRyYWZ0PWZhbHNlIC0tcHJlcmVsZWFzZScgIiR7V09SS0ZMT1d9IiB8fAogIGZhaWwgImJldGEgR2l0SHViIFJlbGVhc2VzIG11c3QgcmVtYWluIHByZXJlbGVhc2VzIHdoZW4gcHVibGlzaGVkIgpncmVwIC1GcSAidGltZW91dC1taW51dGVzOiA2MCIgIiR7V09SS0ZMT1d9IiB8fCBmYWlsICJwdWJsaXNoIHRpbWVvdXQgd2FzIG5vdCBpbmNyZWFzZWQiCmdyZXAgLUZxICJncm91cDogZm4ta25vY2stc3RhYmxlLXJlbGVhc2UiICIke1dPUktGTE9XfSIgfHwKICBmYWlsICJzdGFibGUgcmVsZWFzZSBtdXRhdGlvbnMgbXVzdCB1c2Ugb25lIGdsb2JhbCBjb25jdXJyZW5jeSBncm91cCIKZ3JlcCAtRnEgIm5vZGUgLi9zY3JpcHRzL2ZuLWtub2NrLWNvcy1wdWJsaXNoLm1qcyBwbGFuIiAiJHtXT1JLRkxPV30iIHx8CiAgZmFpbCAid29ya2Zsb3cgZG9lcyBub3QgcHJvZHVjZSBhIENPUyBkcnktcnVuIHBsYW4iCmdyZXAgLUZxICJub2RlIC4vc2NyaXB0cy9mbi1rbm9jay1jb3MtcHVibGlzaC5tanMgcHVibGlzaCIgIiR7V09SS0ZMT1d9IiB8fAogIGZhaWwgIndvcmtmbG93IGRvZXMgbm90IHB1Ymxpc2ggdGhlIENPUyBwbGFuIgpncmVwIC1GcSAiRk5fS05PQ0tfTEFURVNUX1VSTDogaHR0cHM6Ly9jb3IuZm5rbm9jay5jbi9sYXRlc3QuanNvbiIgIiR7V09SS0ZMT1d9IiB8fAogIGZhaWwgIndvcmtmbG93IGRvZXMgbm90IHBpbiB0aGUgcHVibGljIGxhdGVzdCBVUkwiCmdyZXAgLUZxICdDT1NfQlVDS0VUOiAke3sgdmFycy5DT1NfQlVDS0VUIHx8IHNlY3JldHMuQ09TX0JVQ0tFVCB9fScgIiR7V09SS0ZMT1d9IiB8fAogIGZhaWwgIkNPUyBidWNrZXQgZG9lcyBub3Qgc3VwcG9ydCBWYXJpYWJsZXMgd2l0aCBhIFNlY3JldHMgZmFsbGJhY2siCmdyZXAgLUZxICdDT1NfQUNDOiAke3sgdmFycy5DT1NfQUNDIHx8IHNlY3JldHMuQ09TX0FDQyB9fScgIiR7V09SS0ZMT1d9IiB8fAogIGZhaWwgIkNPUyBhY2NlbGVyYXRpb24gZW5kcG9pbnQgZG9lcyBub3Qgc3VwcG9ydCBWYXJpYWJsZXMgd2l0aCBhIFNlY3JldHMgZmFsbGJhY2siCmdyZXAgLUZxICdDT1NfU0VDUkVUSUQ6ICR7eyBzZWNyZXRzLkNPU19TRUNSRVRJRCB9fScgIiR7V09SS0ZMT1d9IiB8fAogIGZhaWwgIkNPUyBTZWNyZXRJZCBpcyBub3Qgc291cmNlZCBmcm9tIEdpdEh1YiBTZWNyZXRzIgoKam9iX25lZWRzKCkgewogIGxvY2FsIGpvYj0iJDEiCiAgYXdrIC12IGpvYj0iJHtqb2J9IiAnCiAgICAkMCA9PSAiICAiIGpvYiAiOiIgeyBpbl9qb2IgPSAxOyBuZXh0IH0KICAgIGluX2pvYiAmJiAvXiAgW2EtekEtWjAtOV8tXSs6JC8geyBleGl0IH0KICAgIGluX2pvYiAmJiAvXiAgICBuZWVkczovIHsKICAgICAgc3ViKC9eICAgIG5lZWRzOltbOnNwYWNlOl1dKi8sICIiKQogICAgICBpZiAoJDAgPT0gIiIpIHsKICAgICAgICBnZXRsaW5lCiAgICAgICAgc3ViKC9eW1s6c3BhY2U6XV0qLywgIiIpCiAgICAgIH0KICAgICAgcHJpbnQKICAgICAgZXhpdAogICAgfQogICcgIiR7V09SS0ZMT1d9Igp9Cgpmb3IgYnVpbGRfam9iIGluIGJ1aWxkLWNvbW1vbiBidWlsZC1ydXN0LWdudSBidWlsZC1ydXN0LW11c2wgd2luZG93cy11bnNpZ25lZDsgZG8KICBbICIkKGpvYl9uZWVkcyAiJHtidWlsZF9qb2J9IikiID0gInByZWZsaWdodCIgXSB8fAogICAgZmFpbCAiJHtidWlsZF9qb2J9IG11c3Qgc3RhcnQgYWZ0ZXIgcHJlZmxpZ2h0IHdpdGhvdXQgd2FpdGluZyBmb3IgcXVhbGl0eSIKZG9uZQpbICIkKGpvYl9uZWVkcyBxdWFsaXR5KSIgPSAicHJlZmxpZ2h0IiBdIHx8CiAgZmFpbCAicXVhbGl0eSBtdXN0IHN0YXJ0IGFmdGVyIHByZWZsaWdodCIKWyAiJChqb2JfbmVlZHMgbWFjb3MpIiA9ICJbcHJlZmxpZ2h0LCBidWlsZC1jb21tb25dIiBdIHx8CiAgZmFpbCAibWFjT1MgcGFja2FnZXMgbXVzdCB1c2UgdGhlIGZyb3plbiBzb3VyY2UgYW5kIHNoYXJlZCBydW50aW1lIgpbICIkKGpvYl9uZWVkcyBwdWJsaXNoKSIgPSAiW3ByZWZsaWdodCwgcXVhbGl0eSwgYXNzZW1ibGUsIHdpbmRvd3MtdW5zaWduZWQsIG1hY29zLCBkb2NrZXItbWFuaWZlc3RdIiBdIHx8CiAgZmFpbCAicHVibGlzaCBtdXN0IHdhaXQgZm9yIHF1YWxpdHkgYW5kIGV2ZXJ5IHJlbGVhc2UgYXJ0aWZhY3QiCmdyZXAgLUZxICJuZWVkcy5xdWFsaXR5LnJlc3VsdCA9PSAnc3VjY2VzcyciICIke1dPUktGTE9XfSIgfHwKICBmYWlsICJwdWJsaXNoIG11c3QgcmV0YWluIHF1YWxpdHkgYXMgYSByZWxlYXNlIGdhdGUiCmdyZXAgLUZxIC0tICctU2tpcENoZWNrcycgIiR7V09SS0ZMT1d9IiB8fAogIGZhaWwgIldpbmRvd3MgcmVsZWFzZSBwYWNrYWdpbmcgbXVzdCBub3QgcmVwZWF0IGNoZWNrcyBvd25lZCBieSBxdWFsaXR5L1dpbmRvd3MgQ0kiCmdyZXAgLUZxICdzaGFyZWQta2V5OiB3aW5kb3dzLXg4Nl82NCcgIiR7V09SS0ZMT1d9IiB8fAogIGZhaWwgIldpbmRvd3MgcmVsZWFzZSBwYWNrYWdpbmcgbXVzdCByZXN0b3JlIGl0cyBSdXN0IGRlcGVuZGVuY3kgY2FjaGUiCmdyZXAgLUZxICJuZWVkcy5tYWNvcy5yZXN1bHQgPT0gJ3N1Y2Nlc3MnIiAiJHtXT1JLRkxPV30iIHx8CiAgZmFpbCAibWFjT1MgcGFja2FnZXMgbXVzdCBiZSBhIHJlbGVhc2UgZ2F0ZSIKZ3JlcCAtRnEgJ0ZOX0tOT0NLX01BQ09TX0lOU1RBTExfU0NSSVBUOiAke3sgZ2l0aHViLndvcmtzcGFjZSB9fS9kZXBsb3kvbWFjb3MvaW5zdGFsbC5zaCcgIiR7V09SS0ZMT1d9IiB8fAogIGZhaWwgIkNPUyBwdWJsaWNhdGlvbiBtdXN0IGluY2x1ZGUgdGhlIG1hY09TIGluc3RhbGxlciIKCmNvc19ibG9jaz0iJChzZWQgLW4gIiR7Y29zX2xpbmV9LCR7cHVibGljX2xpbmV9cCIgIiR7V09SS0ZMT1d9IikiCnByaW50ZiAnJXNcbicgIiR7Y29zX2Jsb2NrfSIgfCBncmVwIC1GcSAiaWY6IGdpdGh1Yi5ldmVudF9uYW1lID09ICdwdXNoJyIgfHwKICBmYWlsICJDT1MgcHVibGljYXRpb24gbXVzdCBvbmx5IHJ1biBmb3IgdGFnIHB1c2ggcmVsZWFzZXMiCgpwcmludGYgJ1t0ZXN0LWNvcy1yZWxlYXNlLXdvcmtmbG93XSBDT1MgdHJhbnNhY3Rpb24gb3JkZXJpbmcgcGFzc2VkXG4nCg==
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+WORKFLOW="${ROOT_DIR}/.github/workflows/release.yml"
+
+fail() {
+  printf '[test-cos-release-workflow] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+line_of() {
+  local pattern="$1"
+  local line
+  line="$(grep -nF -- "${pattern}" "${WORKFLOW}" | head -n1 | cut -d: -f1)"
+  [ -n "${line}" ] || fail "workflow is missing: ${pattern}"
+  printf '%s\n' "${line}"
+}
+
+stage_line="$(line_of '- name: Stage draft GitHub Release')"
+docker_line="$(line_of '- name: Publish and verify Docker latest')"
+plan_line="$(line_of '- name: Validate Tencent COS publish plan')"
+cos_line="$(line_of '- name: Publish to Tencent COS and refresh latest CDN cache')"
+public_line="$(line_of '- name: Publish immutable GitHub Release')"
+
+[ "${plan_line}" -lt "${stage_line}" ] || fail "COS plan must be validated before staging the draft"
+[ "${stage_line}" -lt "${docker_line}" ] || fail "draft Release must be staged before Docker latest"
+[ "${docker_line}" -lt "${cos_line}" ] || fail "Docker latest must complete before COS publication"
+[ "${cos_line}" -lt "${public_line}" ] || fail "GitHub Release must be published after COS and CDN"
+
+[ "$(grep -Fc 'gh release edit "${TAG}" --draft=false --latest' "${WORKFLOW}")" = "1" ] ||
+  fail "workflow must have exactly one public GitHub Release commit point"
+grep -Fq "needs.preflight.outputs.prerelease != 'true'" "${WORKFLOW}" ||
+  fail "beta releases must not mutate stable latest channels"
+grep -Fq 'release_args+=(--prerelease)' "${WORKFLOW}" ||
+  fail "beta GitHub Releases must be marked as prereleases"
+grep -Fq 'gh release edit "${TAG}" --draft=false --prerelease' "${WORKFLOW}" ||
+  fail "beta GitHub Releases must remain prereleases when published"
+grep -Fq "timeout-minutes: 60" "${WORKFLOW}" || fail "publish timeout was not increased"
+grep -Fq "group: fn-knock-stable-release" "${WORKFLOW}" ||
+  fail "stable release mutations must use one global concurrency group"
+grep -Fq "node ./scripts/fn-knock-cos-publish.mjs plan" "${WORKFLOW}" ||
+  fail "workflow does not produce a COS dry-run plan"
+grep -Fq "node ./scripts/fn-knock-cos-publish.mjs publish" "${WORKFLOW}" ||
+  fail "workflow does not publish the COS plan"
+grep -Fq "FN_KNOCK_LATEST_URL: https://cor.fnknock.cn/latest.json" "${WORKFLOW}" ||
+  fail "workflow does not pin the public latest URL"
+grep -Fq 'COS_BUCKET: ${{ vars.COS_BUCKET || secrets.COS_BUCKET }}' "${WORKFLOW}" ||
+  fail "COS bucket does not support Variables with a Secrets fallback"
+grep -Fq 'COS_ACC: ${{ vars.COS_ACC || secrets.COS_ACC }}' "${WORKFLOW}" ||
+  fail "COS acceleration endpoint does not support Variables with a Secrets fallback"
+grep -Fq 'COS_SECRETID: ${{ secrets.COS_SECRETID }}' "${WORKFLOW}" ||
+  fail "COS SecretId is not sourced from GitHub Secrets"
+
+job_needs() {
+  local job="$1"
+  awk -v job="${job}" '
+    $0 == "  " job ":" { in_job = 1; next }
+    in_job && /^  [a-zA-Z0-9_-]+:$/ { exit }
+    in_job && /^    needs:/ {
+      sub(/^    needs:[[:space:]]*/, "")
+      if ($0 == "") {
+        getline
+        sub(/^[[:space:]]*/, "")
+      }
+      print
+      exit
+    }
+  ' "${WORKFLOW}"
+}
+
+for build_job in build-common build-rust-gnu build-rust-musl windows-unsigned; do
+  [ "$(job_needs "${build_job}")" = "preflight" ] ||
+    fail "${build_job} must start after preflight without waiting for quality"
+done
+[ "$(job_needs quality)" = "preflight" ] ||
+  fail "quality must start after preflight"
+[ "$(job_needs macos)" = "[preflight, build-common]" ] ||
+  fail "macOS packages must use the frozen source and shared runtime"
+[ "$(job_needs publish)" = "[preflight, quality, assemble, windows-unsigned, macos, docker-manifest]" ] ||
+  fail "publish must wait for quality and every release artifact"
+grep -Fq "needs.quality.result == 'success'" "${WORKFLOW}" ||
+  fail "publish must retain quality as a release gate"
+grep -Fq -- '-SkipChecks' "${WORKFLOW}" ||
+  fail "Windows release packaging must not repeat checks owned by quality/Windows CI"
+grep -Fq 'shared-key: windows-x86_64' "${WORKFLOW}" ||
+  fail "Windows release packaging must restore its Rust dependency cache"
+grep -Fq "needs.macos.result == 'success'" "${WORKFLOW}" ||
+  fail "macOS packages must be a release gate"
+grep -Fq 'FN_KNOCK_MACOS_INSTALL_SCRIPT: ${{ github.workspace }}/deploy/macos/install.sh' "${WORKFLOW}" ||
+  fail "COS publication must include the macOS installer"
+
+cos_block="$(sed -n "${cos_line},${public_line}p" "${WORKFLOW}")"
+printf '%s\n' "${cos_block}" | grep -Fq "if: github.event_name == 'push'" ||
+  fail "COS publication must only run for tag push releases"
+
+printf '[test-cos-release-workflow] COS transaction ordering passed\n'

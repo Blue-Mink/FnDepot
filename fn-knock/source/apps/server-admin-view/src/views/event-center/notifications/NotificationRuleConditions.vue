@@ -1,1 +1,102 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7CiAgU2VsZWN0LAogIFNlbGVjdENvbnRlbnQsCiAgU2VsZWN0SXRlbSwKICBTZWxlY3RUcmlnZ2VyLAogIFNlbGVjdFZhbHVlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9zZWxlY3QiOwppbXBvcnQgeyBOT1RJRklDQVRJT05fR1JPVVBfQllfT1BUSU9OUyB9IGZyb20gIi4uL2NvbnN0YW50cyI7CmltcG9ydCB0eXBlIHsgTm90aWZpY2F0aW9uUnVsZUVkaXRvckNvbnRyb2xsZXIgfSBmcm9tICIuL25vdGlmaWNhdGlvbi1ydWxlLWVkaXRvci1jb250cmFjdCI7CmltcG9ydCB7CiAgREVGQVVMVF9SVUxFX0NPT0xET1dOX1NFQ09ORFMsCiAgREVGQVVMVF9SVUxFX1dJTkRPV19TRUNPTkRTLAp9IGZyb20gIi4vcnVsZS1mb3JtIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8eyBjb250cm9sbGVyOiBOb3RpZmljYXRpb25SdWxlRWRpdG9yQ29udHJvbGxlciB9PigpOwpjb25zdCB7IGZvcm1hdEdyb3VwQnlMYWJlbCwgZ3JvdXBCeUhpbnQsIHJ1bGVGb3JtIH0gPSBwcm9wcy5jb250cm9sbGVyOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgYTExeUlkID0gdXNlSWQoKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPHNlY3Rpb24gY2xhc3M9InNwYWNlLXktMyBib3JkZXItYiBib3JkZXItYm9yZGVyLzYwIHBiLTYiPgogICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSBmb250LXNlbWlib2xkIj4KICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLnRyaWdnZXJDb25kaXRpb25zIikgfX0KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLnRyaWdnZXJDb25kaXRpb25zRGVzY3JpcHRpb24iKSB9fQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtNCBtZDpncmlkLWNvbHMtMiB4bDpncmlkLWNvbHMtNCI+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgPExhYmVsIDpmb3I9ImAke2ExMXlJZH0td2luZG93YCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLndpbmRvd1NlY29uZHMiKSB9fQogICAgICAgIDwvTGFiZWw+CiAgICAgICAgPElucHV0CiAgICAgICAgICA6aWQ9ImAke2ExMXlJZH0td2luZG93YCIKICAgICAgICAgIHYtbW9kZWw9InJ1bGVGb3JtLndpbmRvd19zZWNvbmRzIgogICAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgICAgbWluPSIxIgogICAgICAgICAgOnBsYWNlaG9sZGVyPSJERUZBVUxUX1JVTEVfV0lORE9XX1NFQ09ORFMiCiAgICAgICAgLz4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgPExhYmVsIDpmb3I9ImAke2ExMXlJZH0tdGhyZXNob2xkYCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLnRocmVzaG9sZENvdW50IikgfX0KICAgICAgICA8L0xhYmVsPgogICAgICAgIDxJbnB1dAogICAgICAgICAgOmlkPSJgJHthMTF5SWR9LXRocmVzaG9sZGAiCiAgICAgICAgICB2LW1vZGVsPSJydWxlRm9ybS50aHJlc2hvbGRfY291bnQiCiAgICAgICAgICB0eXBlPSJudW1iZXIiCiAgICAgICAgICBtaW49IjEiCiAgICAgICAgICBwbGFjZWhvbGRlcj0iMSIKICAgICAgICAvPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIj4KICAgICAgICA8TGFiZWwgOmZvcj0iYCR7YTExeUlkfS1ncm91cC1ieWAiPgogICAgICAgICAge3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ydWxlcy5ncm91cEJ5IikgfX0KICAgICAgICA8L0xhYmVsPgogICAgICAgIDxTZWxlY3Qgdi1tb2RlbD0icnVsZUZvcm0uZ3JvdXBfYnkiPgogICAgICAgICAgPFNlbGVjdFRyaWdnZXIgOmlkPSJgJHthMTF5SWR9LWdyb3VwLWJ5YCI+CiAgICAgICAgICAgIDxTZWxlY3RWYWx1ZQogICAgICAgICAgICAgIDpwbGFjZWhvbGRlcj0idCgnYWRtaW4ubm90aWZpY2F0aW9ucy5ydWxlcy5zZWxlY3RHcm91cEJ5JykiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICAgICAgPFNlbGVjdEl0ZW0gdmFsdWU9ImF1dG8iPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucnVsZXMuYXV0b0dyb3VwQnkiKSB9fQogICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgIDxTZWxlY3RJdGVtCiAgICAgICAgICAgICAgdi1mb3I9Im9wdGlvbiBpbiBOT1RJRklDQVRJT05fR1JPVVBfQllfT1BUSU9OUyIKICAgICAgICAgICAgICA6a2V5PSJvcHRpb24udmFsdWUiCiAgICAgICAgICAgICAgOnZhbHVlPSJvcHRpb24udmFsdWUiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyBmb3JtYXRHcm91cEJ5TGFiZWwob3B0aW9uLnZhbHVlKSB9fQogICAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgICAgPC9TZWxlY3Q+CiAgICAgICAgPGRpdiB2LWlmPSJncm91cEJ5SGludCIgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7IGdyb3VwQnlIaW50IH19CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgIDxMYWJlbCA6Zm9yPSJgJHthMTF5SWR9LWNvb2xkb3duYCI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLmNvb2xkb3duU2Vjb25kcyIpIH19CiAgICAgICAgPC9MYWJlbD4KICAgICAgICA8SW5wdXQKICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1jb29sZG93bmAiCiAgICAgICAgICB2LW1vZGVsPSJydWxlRm9ybS5jb29sZG93bl9zZWNvbmRzIgogICAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgICAgbWluPSIwIgogICAgICAgICAgOnBsYWNlaG9sZGVyPSJERUZBVUxUX1JVTEVfQ09PTERPV05fU0VDT05EUyIKICAgICAgICAvPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvc2VjdGlvbj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { NOTIFICATION_GROUP_BY_OPTIONS } from "../constants";
+import type { NotificationRuleEditorController } from "./notification-rule-editor-contract";
+import {
+  DEFAULT_RULE_COOLDOWN_SECONDS,
+  DEFAULT_RULE_WINDOW_SECONDS,
+} from "./rule-form";
+
+const props = defineProps<{ controller: NotificationRuleEditorController }>();
+const { formatGroupByLabel, groupByHint, ruleForm } = props.controller;
+const { t } = useI18n();
+const a11yId = useId();
+</script>
+
+<template>
+  <section class="space-y-3 border-b border-border/60 pb-6">
+    <div class="space-y-1">
+      <div class="text-sm font-semibold">
+        {{ t("admin.notifications.rules.triggerConditions") }}
+      </div>
+      <div class="text-xs text-muted-foreground">
+        {{ t("admin.notifications.rules.triggerConditionsDescription") }}
+      </div>
+    </div>
+    <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+      <div class="space-y-2">
+        <Label :for="`${a11yId}-window`">
+          {{ t("admin.notifications.rules.windowSeconds") }}
+        </Label>
+        <Input
+          :id="`${a11yId}-window`"
+          v-model="ruleForm.window_seconds"
+          type="number"
+          min="1"
+          :placeholder="DEFAULT_RULE_WINDOW_SECONDS"
+        />
+      </div>
+      <div class="space-y-2">
+        <Label :for="`${a11yId}-threshold`">
+          {{ t("admin.notifications.rules.thresholdCount") }}
+        </Label>
+        <Input
+          :id="`${a11yId}-threshold`"
+          v-model="ruleForm.threshold_count"
+          type="number"
+          min="1"
+          placeholder="1"
+        />
+      </div>
+      <div class="space-y-2">
+        <Label :for="`${a11yId}-group-by`">
+          {{ t("admin.notifications.rules.groupBy") }}
+        </Label>
+        <Select v-model="ruleForm.group_by">
+          <SelectTrigger :id="`${a11yId}-group-by`">
+            <SelectValue
+              :placeholder="t('admin.notifications.rules.selectGroupBy')"
+            />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="auto">
+              {{ t("admin.notifications.rules.autoGroupBy") }}
+            </SelectItem>
+            <SelectItem
+              v-for="option in NOTIFICATION_GROUP_BY_OPTIONS"
+              :key="option.value"
+              :value="option.value"
+            >
+              {{ formatGroupByLabel(option.value) }}
+            </SelectItem>
+          </SelectContent>
+        </Select>
+        <div v-if="groupByHint" class="text-xs text-muted-foreground">
+          {{ groupByHint }}
+        </div>
+      </div>
+      <div class="space-y-2">
+        <Label :for="`${a11yId}-cooldown`">
+          {{ t("admin.notifications.rules.cooldownSeconds") }}
+        </Label>
+        <Input
+          :id="`${a11yId}-cooldown`"
+          v-model="ruleForm.cooldown_seconds"
+          type="number"
+          min="0"
+          :placeholder="DEFAULT_RULE_COOLDOWN_SECONDS"
+        />
+      </div>
+    </div>
+  </section>
+</template>

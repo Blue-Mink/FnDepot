@@ -1,1 +1,25 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IENoZXZyb25SaWdodCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CgpkZWZpbmVFbWl0czx7IG9wZW46IFtdIH0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8YnV0dG9uCiAgICB0eXBlPSJidXR0b24iCiAgICBjbGFzcz0iZmxleCB3LWZ1bGwgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBiZy1tdXRlZC81IHAtNiB0ZXh0LWxlZnQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvMTUiCiAgICBAY2xpY2s9IiRlbWl0KCdvcGVuJykiCiAgPgogICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTEgcHItNiI+CiAgICAgIDxkaXYgY2xhc3M9InRleHQtYmFzZSBmb250LW1lZGl1bSI+CiAgICAgICAge3sgdCgiYWRtaW4uc2Nhbm5lclBhdGhXaGl0ZWxpc3QuZW50cnlUaXRsZSIpIH19CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uc2Nhbm5lclBhdGhXaGl0ZWxpc3QuZW50cnlEZXNjcmlwdGlvbiIpIH19CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8Q2hldnJvblJpZ2h0IGNsYXNzPSJoLTUgdy01IHNocmluay0wIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICA8L2J1dHRvbj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { ChevronRight } from "lucide-vue-next";
+
+defineEmits<{ open: [] }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <button
+    type="button"
+    class="flex w-full items-center justify-between bg-muted/5 p-6 text-left transition-colors hover:bg-muted/15"
+    @click="$emit('open')"
+  >
+    <div class="min-w-0 space-y-1 pr-6">
+      <div class="text-base font-medium">
+        {{ t("admin.scannerPathWhitelist.entryTitle") }}
+      </div>
+      <div class="text-sm text-muted-foreground">
+        {{ t("admin.scannerPathWhitelist.entryDescription") }}
+      </div>
+    </div>
+    <ChevronRight class="h-5 w-5 shrink-0 text-muted-foreground" />
+  </button>
+</template>

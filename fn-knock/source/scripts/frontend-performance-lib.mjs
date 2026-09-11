@@ -1,1 +1,45 @@
-aW1wb3J0IHsgcGVyY2VudGlsZSB9IGZyb20gIi4vcnVudGltZS1wZXJmb3JtYW5jZS1saWIubWpzIjsKCmV4cG9ydCBjb25zdCBzdW1tYXJpemVGcm9udGVuZFJ1bnMgPSAocnVucykgPT4gewogIGNvbnN0IHNjZW5hcmlvcyA9IHt9OwogIGZvciAoY29uc3QgcnVuIG9mIHJ1bnMpIHsKICAgIGNvbnN0IHZhbHVlcyA9IChzY2VuYXJpb3NbcnVuLnNjZW5hcmlvXSA/Pz0gewogICAgICByb3V0ZVJlYWR5OiBbXSwKICAgICAgbG9uZ1Rhc2tzOiBbXSwKICAgIH0pOwogICAgdmFsdWVzLnJvdXRlUmVhZHkucHVzaChydW4ucm91dGVfcmVhZHlfbXMpOwogICAgdmFsdWVzLmxvbmdUYXNrcy5wdXNoKHJ1bi5sb25nX3Rhc2tfdG90YWxfbXMpOwogIH0KICByZXR1cm4gT2JqZWN0LmZyb21FbnRyaWVzKAogICAgT2JqZWN0LmVudHJpZXMoc2NlbmFyaW9zKS5tYXAoKFtuYW1lLCB2YWx1ZXNdKSA9PiBbCiAgICAgIG5hbWUsCiAgICAgIHsKICAgICAgICBzYW1wbGVfY291bnQ6IHZhbHVlcy5yb3V0ZVJlYWR5Lmxlbmd0aCwKICAgICAgICByb3V0ZV9yZWFkeV9wNzVfbXM6IHBlcmNlbnRpbGUodmFsdWVzLnJvdXRlUmVhZHksIDAuNzUpLAogICAgICAgIGxvbmdfdGFza190b3RhbF9wNzVfbXM6IHBlcmNlbnRpbGUodmFsdWVzLmxvbmdUYXNrcywgMC43NSksCiAgICAgIH0sCiAgICBdKSwKICApOwp9OwoKZXhwb3J0IGNvbnN0IGNvbXBhcmVGcm9udGVuZFN1bW1hcmllcyA9IChiYXNlLCBjdXJyZW50LCB0b2xlcmFuY2UgPSAwLjEpID0+IHsKICBjb25zdCBmYWlsdXJlcyA9IFtdOwogIGZvciAoY29uc3QgW3NjZW5hcmlvLCBiYXNlTWV0cmljc10gb2YgT2JqZWN0LmVudHJpZXMoYmFzZSkpIHsKICAgIGNvbnN0IGN1cnJlbnRNZXRyaWNzID0gY3VycmVudFtzY2VuYXJpb107CiAgICBpZiAoIWN1cnJlbnRNZXRyaWNzKSB7CiAgICAgIGZhaWx1cmVzLnB1c2goYCR7c2NlbmFyaW99IGlzIG1pc3NpbmcgZnJvbSBjdXJyZW50IG1lYXN1cmVtZW50c2ApOwogICAgICBjb250aW51ZTsKICAgIH0KICAgIGZvciAoY29uc3QgZmllbGQgb2YgWyJyb3V0ZV9yZWFkeV9wNzVfbXMiLCAibG9uZ190YXNrX3RvdGFsX3A3NV9tcyJdKSB7CiAgICAgIGNvbnN0IGJlZm9yZSA9IGJhc2VNZXRyaWNzW2ZpZWxkXTsKICAgICAgY29uc3QgYWZ0ZXIgPSBjdXJyZW50TWV0cmljc1tmaWVsZF07CiAgICAgIGNvbnN0IGxpbWl0ID0gYmVmb3JlID09PSAwID8gMCA6IGJlZm9yZSAqICgxICsgdG9sZXJhbmNlKTsKICAgICAgaWYgKGFmdGVyID4gbGltaXQpIHsKICAgICAgICBmYWlsdXJlcy5wdXNoKAogICAgICAgICAgYCR7c2NlbmFyaW99LiR7ZmllbGR9IHJlZ3Jlc3NlZCAke2JlZm9yZSA9PT0gMCA/ICJmcm9tIHplcm8iIDogYCR7KChhZnRlciAvIGJlZm9yZSAtIDEpICogMTAwKS50b0ZpeGVkKDEpfSVgfSAoJHtiZWZvcmV9IC0+ICR7YWZ0ZXJ9OyBsaW1pdCAkeyh0b2xlcmFuY2UgKiAxMDApLnRvRml4ZWQoMSl9JSlgLAogICAgICAgICk7CiAgICAgIH0KICAgIH0KICB9CiAgcmV0dXJuIGZhaWx1cmVzOwp9Owo=
+import { percentile } from "./runtime-performance-lib.mjs";
+
+export const summarizeFrontendRuns = (runs) => {
+  const scenarios = {};
+  for (const run of runs) {
+    const values = (scenarios[run.scenario] ??= {
+      routeReady: [],
+      longTasks: [],
+    });
+    values.routeReady.push(run.route_ready_ms);
+    values.longTasks.push(run.long_task_total_ms);
+  }
+  return Object.fromEntries(
+    Object.entries(scenarios).map(([name, values]) => [
+      name,
+      {
+        sample_count: values.routeReady.length,
+        route_ready_p75_ms: percentile(values.routeReady, 0.75),
+        long_task_total_p75_ms: percentile(values.longTasks, 0.75),
+      },
+    ]),
+  );
+};
+
+export const compareFrontendSummaries = (base, current, tolerance = 0.1) => {
+  const failures = [];
+  for (const [scenario, baseMetrics] of Object.entries(base)) {
+    const currentMetrics = current[scenario];
+    if (!currentMetrics) {
+      failures.push(`${scenario} is missing from current measurements`);
+      continue;
+    }
+    for (const field of ["route_ready_p75_ms", "long_task_total_p75_ms"]) {
+      const before = baseMetrics[field];
+      const after = currentMetrics[field];
+      const limit = before === 0 ? 0 : before * (1 + tolerance);
+      if (after > limit) {
+        failures.push(
+          `${scenario}.${field} regressed ${before === 0 ? "from zero" : `${((after / before - 1) * 100).toFixed(1)}%`} (${before} -> ${after}; limit ${(tolerance * 100).toFixed(1)}%)`,
+        );
+      }
+    }
+  }
+  return failures;
+};

@@ -1,1 +1,206 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUlkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQWxlcnRUcmlhbmdsZSwgTG9hZGVyMiwgU2VuZCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEFsZXJ0LCBBbGVydERlc2NyaXB0aW9uLCBBbGVydFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2FsZXJ0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nRm9vdGVyLAogIERpYWxvZ0hlYWRlciwKICBEaWFsb2dUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7CiAgU2VsZWN0LAogIFNlbGVjdENvbnRlbnQsCiAgU2VsZWN0SXRlbSwKICBTZWxlY3RUcmlnZ2VyLAogIFNlbGVjdFZhbHVlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9zZWxlY3QiOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IHR5cGUgeyBOb3RpZmljYXRpb25Qcm92aWRlckRlZmluaXRpb24gfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IFNjaGVtYUZpZWxkc0VkaXRvciBmcm9tICIuL1NjaGVtYUZpZWxkc0VkaXRvci52dWUiOwppbXBvcnQgdHlwZSB7IEVkaXRhYmxlUHJvdmlkZXJGb3JtLCBQcm92aWRlckRpYWxvZ01vZGUgfSBmcm9tICIuL2Zvcm0tdXRpbHMiOwoKY29uc3QgYTExeUlkID0gdXNlSWQoKTsKCmRlZmluZVByb3BzPHsKICBjYXRhbG9nOiBOb3RpZmljYXRpb25Qcm92aWRlckRlZmluaXRpb25bXTsKICBjb25uZWN0aW9uQ29uZmlnSW52YWxpZDogYm9vbGVhbjsKICBjb25maWd1cmVkU2Vuc2l0aXZlRmllbGRzOiBzdHJpbmdbXTsKICBmb3JtOiBFZGl0YWJsZVByb3ZpZGVyRm9ybTsKICBnZW5lcmF0ZWRQcm92aWRlck5hbWU6IHN0cmluZzsKICBtb2RlOiBQcm92aWRlckRpYWxvZ01vZGU7CiAgb3BlbjogYm9vbGVhbjsKICBzYXZpbmc6IGJvb2xlYW47CiAgc2VsZWN0ZWREZWZpbml0aW9uOiBOb3RpZmljYXRpb25Qcm92aWRlckRlZmluaXRpb24gfCBudWxsOwogIHNob3dMZWdhY3lXZWJob29rSGVhZGVyTWlncmF0aW9uOiBib29sZWFuOwogIHNob3dXeFB1c2hlckFsZXJ0OiBib29sZWFuOwogIHRlc3RpbmdEcmFmdDogYm9vbGVhbjsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgc2F2ZTogW107CiAgdGVzdDogW107CiAgInByZXZpZXctd2ViaG9vay1ib2R5IjogW107CiAgInR5cGUtY2hhbmdlIjogW3ZhbHVlOiB1bmtub3duXTsKICAidXBkYXRlOm9wZW4iOiBbdmFsdWU6IGJvb2xlYW5dOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iZW1pdCgndXBkYXRlOm9wZW4nLCAkZXZlbnQpIj4KICAgIDxEaWFsb2dDb250ZW50CiAgICAgIGNsYXNzPSJtYXgtaC1bODV2aF0gbWluLXctMCBvdmVyZmxvdy14LWhpZGRlbiBvdmVyZmxvdy15LWF1dG8gc206bWF4LXctWzk2MHB4XSIKICAgID4KICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICA8RGlhbG9nVGl0bGU+CiAgICAgICAgICB7ewogICAgICAgICAgICBtb2RlID09PSAiY3JlYXRlIgogICAgICAgICAgICAgID8gdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMuY3JlYXRlRGlhbG9nVGl0bGUiKQogICAgICAgICAgICAgIDogdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMuZWRpdERpYWxvZ1RpdGxlIikKICAgICAgICAgIH19CiAgICAgICAgPC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy5kaWFsb2dEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgPC9EaWFsb2dIZWFkZXI+CgogICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIHNwYWNlLXktNSBweS0yIj4KICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC00IG1kOmdyaWQtY29scy0yIj4KICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICAgIDxMYWJlbCA6Zm9yPSJgJHthMTF5SWR9LXByb3ZpZGVyZWRpdG9yZGlhbG9nLTFgIj57ewogICAgICAgICAgICAgIHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLm5hbWUiKQogICAgICAgICAgICB9fTwvTGFiZWw+CiAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgIDppZD0iYCR7YTExeUlkfS1wcm92aWRlcmVkaXRvcmRpYWxvZy0xYCIKICAgICAgICAgICAgICB2LW1vZGVsPSJmb3JtLm5hbWUiCiAgICAgICAgICAgICAgOnBsYWNlaG9sZGVyPSJnZW5lcmF0ZWRQcm92aWRlck5hbWUiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJzYXZpbmciCiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgbW9kZSA9PT0gImNyZWF0ZSIKICAgICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy5jcmVhdGVOYW1lSGVscCIsIHsKICAgICAgICAgICAgICAgICAgICAgIG5hbWU6IGdlbmVyYXRlZFByb3ZpZGVyTmFtZSwKICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICA6IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLmVkaXROYW1lSGVscCIpCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgICAgICA8TGFiZWwgOmZvcj0iYCR7YTExeUlkfS1wcm92aWRlcmVkaXRvcmRpYWxvZy0yYCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMucHJvdmlkZXJUeXBlIikgfX0KICAgICAgICAgICAgPC9MYWJlbD4KICAgICAgICAgICAgPFNlbGVjdAogICAgICAgICAgICAgIDptb2RlbC12YWx1ZT0iZm9ybS50eXBlIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0ibW9kZSA9PT0gJ2VkaXQnIgogICAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9ImVtaXQoJ3R5cGUtY2hhbmdlJywgJGV2ZW50KSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyIDppZD0iYCR7YTExeUlkfS1wcm92aWRlcmVkaXRvcmRpYWxvZy0yYCI+CiAgICAgICAgICAgICAgICA8U2VsZWN0VmFsdWUKICAgICAgICAgICAgICAgICAgOnBsYWNlaG9sZGVyPSIKICAgICAgICAgICAgICAgICAgICB0KCdhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy5zZWxlY3RQcm92aWRlclR5cGUnKQogICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvU2VsZWN0VHJpZ2dlcj4KICAgICAgICAgICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICAgICAgICAgIDxTZWxlY3RJdGVtCiAgICAgICAgICAgICAgICAgIHYtZm9yPSJpdGVtIGluIGNhdGFsb2ciCiAgICAgICAgICAgICAgICAgIDprZXk9Iml0ZW0udHlwZSIKICAgICAgICAgICAgICAgICAgOnZhbHVlPSJpdGVtLnR5cGUiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IGl0ZW0ubGFiZWwgfX0KICAgICAgICAgICAgICAgIDwvU2VsZWN0SXRlbT4KICAgICAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgIDwvU2VsZWN0PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxBbGVydAogICAgICAgICAgdi1pZj0ic2hvd1d4UHVzaGVyQWxlcnQiCiAgICAgICAgICBjbGFzcz0iYm9yZGVyLWFtYmVyLTIwMCBiZy1hbWJlci01MC84MCB0ZXh0LWFtYmVyLTk1MCIKICAgICAgICA+CiAgICAgICAgICA8QWxlcnRUcmlhbmdsZSBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgIDxBbGVydFRpdGxlPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy53eHB1c2hlckFsZXJ0VGl0bGUiKSB9fQogICAgICAgICAgPC9BbGVydFRpdGxlPgogICAgICAgICAgPEFsZXJ0RGVzY3JpcHRpb24gY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgICAgIDxwPnt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLnd4cHVzaGVyQWxlcnRCb2R5MSIpIH19PC9wPgogICAgICAgICAgICA8cD57eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy53eHB1c2hlckFsZXJ0Qm9keTIiKSB9fTwvcD4KICAgICAgICAgIDwvQWxlcnREZXNjcmlwdGlvbj4KICAgICAgICA8L0FsZXJ0PgoKICAgICAgICA8QWxlcnQKICAgICAgICAgIHYtaWY9InNob3dMZWdhY3lXZWJob29rSGVhZGVyTWlncmF0aW9uIgogICAgICAgICAgY2xhc3M9ImJvcmRlci1hbWJlci0yMDAgYmctYW1iZXItNTAvODAgdGV4dC1hbWJlci05NTAiCiAgICAgICAgPgogICAgICAgICAgPEFsZXJ0VHJpYW5nbGUgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICA8QWxlcnRUaXRsZT4KICAgICAgICAgICAge3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5oZWFkZXJzLm1pZ3JhdGlvblRpdGxlIikgfX0KICAgICAgICAgIDwvQWxlcnRUaXRsZT4KICAgICAgICAgIDxBbGVydERlc2NyaXB0aW9uPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLmhlYWRlcnMubWlncmF0aW9uRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgPC9BbGVydERlc2NyaXB0aW9uPgogICAgICAgIDwvQWxlcnQ+CgogICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiByb3VuZGVkLW1kIGJvcmRlciBwLTMiPgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLmVuYWJsZWRTdGF0dXMiKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8U3dpdGNoCiAgICAgICAgICAgIHYtbW9kZWw9ImZvcm0uZW5hYmxlZCIKICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLmVuYWJsZWRTdGF0dXMnKSIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgdi1pZj0ic2VsZWN0ZWREZWZpbml0aW9uIiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTMiPgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLmNvbm5lY3Rpb25Db25maWciKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8U2NoZW1hRmllbGRzRWRpdG9yCiAgICAgICAgICAgIDpmaWVsZHM9InNlbGVjdGVkRGVmaW5pdGlvbi5jb25uZWN0aW9uX3NjaGVtYSIKICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJmb3JtLmNvbm5lY3Rpb25fY29uZmlnIgogICAgICAgICAgICA6Y29uZmlndXJlZC1zZW5zaXRpdmUtZmllbGRzPSJjb25maWd1cmVkU2Vuc2l0aXZlRmllbGRzIgogICAgICAgICAgICA6cmV2ZWFsLXNlbnNpdGl2ZS12YWx1ZXM9Im1vZGUgPT09ICdlZGl0JyIKICAgICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZm9ybS5jb25uZWN0aW9uX2NvbmZpZyA9ICRldmVudCIKICAgICAgICAgICAgQHdlYmhvb2stYm9keS1wcmV2aWV3PSJlbWl0KCdwcmV2aWV3LXdlYmhvb2stYm9keScpIgogICAgICAgICAgLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8RGlhbG9nRm9vdGVyPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9InNhdmluZyB8fCB0ZXN0aW5nRHJhZnQiCiAgICAgICAgICBAY2xpY2s9ImVtaXQoJ3VwZGF0ZTpvcGVuJywgZmFsc2UpIgogICAgICAgID4KICAgICAgICAgIHt7IHQoImNvbW1vbi5jYW5jZWwiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9InNlY29uZGFyeSIKICAgICAgICAgIDpkaXNhYmxlZD0ic2F2aW5nIHx8IHRlc3RpbmdEcmFmdCB8fCBjb25uZWN0aW9uQ29uZmlnSW52YWxpZCIKICAgICAgICAgIEBjbGljaz0iZW1pdCgndGVzdCcpIgogICAgICAgID4KICAgICAgICAgIDxMb2FkZXIyIHYtaWY9InRlc3RpbmdEcmFmdCIgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4iIC8+CiAgICAgICAgICA8U2VuZCB2LWVsc2UgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLnRlc3RQcm92aWRlciIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgOmRpc2FibGVkPSJzYXZpbmcgfHwgdGVzdGluZ0RyYWZ0IHx8IGNvbm5lY3Rpb25Db25maWdJbnZhbGlkIgogICAgICAgICAgQGNsaWNrPSJlbWl0KCdzYXZlJykiCiAgICAgICAgPgogICAgICAgICAgPExvYWRlcjIgdi1pZj0ic2F2aW5nIiBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgIHt7IHQoImNvbW1vbi5zYXZlIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useId } from "vue";
+import { useI18n } from "vue-i18n";
+import { AlertTriangle, Loader2, Send } from "lucide-vue-next";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Switch } from "@/components/ui/switch";
+import type { NotificationProviderDefinition } from "@/types";
+import SchemaFieldsEditor from "./SchemaFieldsEditor.vue";
+import type { EditableProviderForm, ProviderDialogMode } from "./form-utils";
+
+const a11yId = useId();
+
+defineProps<{
+  catalog: NotificationProviderDefinition[];
+  connectionConfigInvalid: boolean;
+  configuredSensitiveFields: string[];
+  form: EditableProviderForm;
+  generatedProviderName: string;
+  mode: ProviderDialogMode;
+  open: boolean;
+  saving: boolean;
+  selectedDefinition: NotificationProviderDefinition | null;
+  showLegacyWebhookHeaderMigration: boolean;
+  showWxPusherAlert: boolean;
+  testingDraft: boolean;
+}>();
+
+const emit = defineEmits<{
+  save: [];
+  test: [];
+  "preview-webhook-body": [];
+  "type-change": [value: unknown];
+  "update:open": [value: boolean];
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent
+      class="max-h-[85vh] min-w-0 overflow-x-hidden overflow-y-auto sm:max-w-[960px]"
+    >
+      <DialogHeader>
+        <DialogTitle>
+          {{
+            mode === "create"
+              ? t("admin.notifications.providers.createDialogTitle")
+              : t("admin.notifications.providers.editDialogTitle")
+          }}
+        </DialogTitle>
+        <DialogDescription>
+          {{ t("admin.notifications.providers.dialogDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+
+      <div class="min-w-0 space-y-5 py-2">
+        <div class="grid gap-4 md:grid-cols-2">
+          <div class="space-y-2">
+            <Label :for="`${a11yId}-providereditordialog-1`">{{
+              t("admin.notifications.providers.name")
+            }}</Label>
+            <Input
+              :id="`${a11yId}-providereditordialog-1`"
+              v-model="form.name"
+              :placeholder="generatedProviderName"
+              :disabled="saving"
+            />
+            <div class="text-xs text-muted-foreground">
+              {{
+                mode === "create"
+                  ? t("admin.notifications.providers.createNameHelp", {
+                      name: generatedProviderName,
+                    })
+                  : t("admin.notifications.providers.editNameHelp")
+              }}
+            </div>
+          </div>
+
+          <div class="space-y-2">
+            <Label :for="`${a11yId}-providereditordialog-2`">
+              {{ t("admin.notifications.providers.providerType") }}
+            </Label>
+            <Select
+              :model-value="form.type"
+              :disabled="mode === 'edit'"
+              @update:model-value="emit('type-change', $event)"
+            >
+              <SelectTrigger :id="`${a11yId}-providereditordialog-2`">
+                <SelectValue
+                  :placeholder="
+                    t('admin.notifications.providers.selectProviderType')
+                  "
+                />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem
+                  v-for="item in catalog"
+                  :key="item.type"
+                  :value="item.type"
+                >
+                  {{ item.label }}
+                </SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+        </div>
+
+        <Alert
+          v-if="showWxPusherAlert"
+          class="border-amber-200 bg-amber-50/80 text-amber-950"
+        >
+          <AlertTriangle class="h-4 w-4" />
+          <AlertTitle>
+            {{ t("admin.notifications.providers.wxpusherAlertTitle") }}
+          </AlertTitle>
+          <AlertDescription class="space-y-2">
+            <p>{{ t("admin.notifications.providers.wxpusherAlertBody1") }}</p>
+            <p>{{ t("admin.notifications.providers.wxpusherAlertBody2") }}</p>
+          </AlertDescription>
+        </Alert>
+
+        <Alert
+          v-if="showLegacyWebhookHeaderMigration"
+          class="border-amber-200 bg-amber-50/80 text-amber-950"
+        >
+          <AlertTriangle class="h-4 w-4" />
+          <AlertTitle>
+            {{ t("admin.notifications.headers.migrationTitle") }}
+          </AlertTitle>
+          <AlertDescription>
+            {{ t("admin.notifications.headers.migrationDescription") }}
+          </AlertDescription>
+        </Alert>
+
+        <div class="flex items-center justify-between rounded-md border p-3">
+          <div class="text-sm font-medium">
+            {{ t("admin.notifications.providers.enabledStatus") }}
+          </div>
+          <Switch
+            v-model="form.enabled"
+            :aria-label="t('admin.notifications.providers.enabledStatus')"
+          />
+        </div>
+
+        <div v-if="selectedDefinition" class="min-w-0 space-y-3">
+          <div class="text-sm font-medium">
+            {{ t("admin.notifications.providers.connectionConfig") }}
+          </div>
+          <SchemaFieldsEditor
+            :fields="selectedDefinition.connection_schema"
+            :model-value="form.connection_config"
+            :configured-sensitive-fields="configuredSensitiveFields"
+            :reveal-sensitive-values="mode === 'edit'"
+            @update:model-value="form.connection_config = $event"
+            @webhook-body-preview="emit('preview-webhook-body')"
+          />
+        </div>
+      </div>
+
+      <DialogFooter>
+        <Button
+          variant="outline"
+          :disabled="saving || testingDraft"
+          @click="emit('update:open', false)"
+        >
+          {{ t("common.cancel") }}
+        </Button>
+        <Button
+          variant="secondary"
+          :disabled="saving || testingDraft || connectionConfigInvalid"
+          @click="emit('test')"
+        >
+          <Loader2 v-if="testingDraft" class="mr-2 h-4 w-4 animate-spin" />
+          <Send v-else class="mr-2 h-4 w-4" />
+          {{ t("admin.notifications.providers.testProvider") }}
+        </Button>
+        <Button
+          :disabled="saving || testingDraft || connectionConfigInvalid"
+          @click="emit('save')"
+        >
+          <Loader2 v-if="saving" class="mr-2 h-4 w-4 animate-spin" />
+          {{ t("common.save") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

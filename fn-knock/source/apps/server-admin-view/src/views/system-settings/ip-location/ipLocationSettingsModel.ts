@@ -1,1 +1,50 @@
-aW1wb3J0IHsgdHlwZSBJcExvY2F0aW9uQXBpQ29uZmlnIH0gZnJvbSAiQC9saWIvYXBpL2NvbmZpZyI7CgpleHBvcnQgY29uc3QgT0ZGSUNJQUxfSVBfTE9PS1VQX1VSTCA9ICJodHRwczovL2lwYWRkcmVzcy5mbmtub2NrLmNuL2FwaS92MSI7CmV4cG9ydCBjb25zdCBPRkZJQ0lBTF9DSURSX1VSTCA9ICJodHRwczovL2NpZHIuZm5rbm9jay5jbi9hcGkvdjEiOwpleHBvcnQgY29uc3QgREVGQVVMVF9DVVNUT01fSVBfTE9PS1VQX1VSTCA9ICJodHRwOi8vMTI3LjAuMC4xOjMwNjYxIjsKZXhwb3J0IGNvbnN0IERFRkFVTFRfQ1VTVE9NX0NJRFJfVVJMID0gImh0dHA6Ly8xMjcuMC4wLjE6MzA2NjIiOwoKZXhwb3J0IGNvbnN0IG5vcm1hbGl6ZUlwTG9jYXRpb25CYXNlVXJsID0gKHZhbHVlOiBzdHJpbmcpID0+CiAgdmFsdWUudHJpbSgpLnJlcGxhY2UoL1wvKyQvLCAiIik7CgpleHBvcnQgY29uc3QgaXNIdHRwVXJsID0gKHZhbHVlOiBzdHJpbmcpID0+IHsKICB0cnkgewogICAgY29uc3QgdXJsID0gbmV3IFVSTCh2YWx1ZSk7CiAgICByZXR1cm4gdXJsLnByb3RvY29sID09PSAiaHR0cDoiIHx8IHVybC5wcm90b2NvbCA9PT0gImh0dHBzOiI7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQp9OwoKZXhwb3J0IGNvbnN0IGJ1aWxkSXBMb2NhdGlvblNldHRpbmdzUGF5bG9hZCA9ICh7CiAgY2lkck1vZGUsCiAgY2lkclVybCwKICBpcExvb2t1cE1vZGUsCiAgaXBMb29rdXBVcmwsCn06IHsKICBjaWRyTW9kZTogSXBMb2NhdGlvbkFwaUNvbmZpZ1siY2lkcl9tb2RlIl07CiAgY2lkclVybDogc3RyaW5nOwogIGlwTG9va3VwTW9kZTogSXBMb2NhdGlvbkFwaUNvbmZpZ1siaXBfbG9va3VwX21vZGUiXTsKICBpcExvb2t1cFVybDogc3RyaW5nOwp9KTogSXBMb2NhdGlvbkFwaUNvbmZpZyA9PiAoewogIGlwX2xvb2t1cF9tb2RlOiBpcExvb2t1cE1vZGUsCiAgaXBfbG9va3VwX3VybDoKICAgIGlwTG9va3VwTW9kZSA9PT0gImN1c3RvbSIKICAgICAgPyBub3JtYWxpemVJcExvY2F0aW9uQmFzZVVybChpcExvb2t1cFVybCkKICAgICAgOiBPRkZJQ0lBTF9JUF9MT09LVVBfVVJMLAogIGNpZHJfbW9kZTogY2lkck1vZGUsCiAgY2lkcl91cmw6CiAgICBjaWRyTW9kZSA9PT0gImN1c3RvbSIKICAgICAgPyBub3JtYWxpemVJcExvY2F0aW9uQmFzZVVybChjaWRyVXJsKQogICAgICA6IE9GRklDSUFMX0NJRFJfVVJMLAp9KTsKCmV4cG9ydCBjb25zdCBub3JtYWxpemVJcExvY2F0aW9uU2V0dGluZ3MgPSAoCiAgc2V0dGluZ3M6IElwTG9jYXRpb25BcGlDb25maWcsCik6IElwTG9jYXRpb25BcGlDb25maWcgPT4gKHsKICBpcF9sb29rdXBfbW9kZTogc2V0dGluZ3MuaXBfbG9va3VwX21vZGUsCiAgaXBfbG9va3VwX3VybDogbm9ybWFsaXplSXBMb2NhdGlvbkJhc2VVcmwoc2V0dGluZ3MuaXBfbG9va3VwX3VybCksCiAgY2lkcl9tb2RlOiBzZXR0aW5ncy5jaWRyX21vZGUsCiAgY2lkcl91cmw6IG5vcm1hbGl6ZUlwTG9jYXRpb25CYXNlVXJsKHNldHRpbmdzLmNpZHJfdXJsKSwKfSk7Cg==
+import { type IpLocationApiConfig } from "@/lib/api/config";
+
+export const OFFICIAL_IP_LOOKUP_URL = "https://ipaddress.fnknock.cn/api/v1";
+export const OFFICIAL_CIDR_URL = "https://cidr.fnknock.cn/api/v1";
+export const DEFAULT_CUSTOM_IP_LOOKUP_URL = "http://127.0.0.1:30661";
+export const DEFAULT_CUSTOM_CIDR_URL = "http://127.0.0.1:30662";
+
+export const normalizeIpLocationBaseUrl = (value: string) =>
+  value.trim().replace(/\/+$/, "");
+
+export const isHttpUrl = (value: string) => {
+  try {
+    const url = new URL(value);
+    return url.protocol === "http:" || url.protocol === "https:";
+  } catch {
+    return false;
+  }
+};
+
+export const buildIpLocationSettingsPayload = ({
+  cidrMode,
+  cidrUrl,
+  ipLookupMode,
+  ipLookupUrl,
+}: {
+  cidrMode: IpLocationApiConfig["cidr_mode"];
+  cidrUrl: string;
+  ipLookupMode: IpLocationApiConfig["ip_lookup_mode"];
+  ipLookupUrl: string;
+}): IpLocationApiConfig => ({
+  ip_lookup_mode: ipLookupMode,
+  ip_lookup_url:
+    ipLookupMode === "custom"
+      ? normalizeIpLocationBaseUrl(ipLookupUrl)
+      : OFFICIAL_IP_LOOKUP_URL,
+  cidr_mode: cidrMode,
+  cidr_url:
+    cidrMode === "custom"
+      ? normalizeIpLocationBaseUrl(cidrUrl)
+      : OFFICIAL_CIDR_URL,
+});
+
+export const normalizeIpLocationSettings = (
+  settings: IpLocationApiConfig,
+): IpLocationApiConfig => ({
+  ip_lookup_mode: settings.ip_lookup_mode,
+  ip_lookup_url: normalizeIpLocationBaseUrl(settings.ip_lookup_url),
+  cidr_mode: settings.cidr_mode,
+  cidr_url: normalizeIpLocationBaseUrl(settings.cidr_url),
+});

@@ -1,1 +1,27 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBzeXN0ZW1fZXZlbnRfcGFnZSgKICAgIGV2ZW50czogaW1wbCBJbnRvSXRlcmF0b3I8SXRlbSA9IFZhbHVlPiwKICAgIHBhZ2U6IGk2NCwKICAgIGxpbWl0OiBpNjQsCiAgICBzZWFyY2g6ICZzdHIsCiAgICBldmVudF90eXBlOiBPcHRpb248JnN0cj4sCiAgICBsZXZlbDogT3B0aW9uPCZzdHI+LAogICAgc291cmNlOiBPcHRpb248JnN0cj4sCikgLT4gVmFsdWUgewogICAgbGV0IHNhZmVfcGFnZSA9IHBhZ2UubWF4KDEpOwogICAgbGV0IHNhZmVfbGltaXQgPSBsaW1pdC5jbGFtcCgxLCAxMDApOwogICAgbGV0IHBhZ2Vfc3RhcnQgPSAoc2FmZV9wYWdlIC0gMSkgKiBzYWZlX2xpbWl0OwogICAgbGV0IG11dCB0b3RhbCA9IDBfaTY0OwogICAgbGV0IG11dCBwYWdlX2V2ZW50cyA9IFZlYzo6bmV3KCk7CiAgICBmb3IgZXZlbnQgaW4gZXZlbnRzIHsKICAgICAgICBpZiAhc3lzdGVtX2V2ZW50X21hdGNoZXNfZmlsdGVycygmZXZlbnQsIHNlYXJjaCwgZXZlbnRfdHlwZSwgbGV2ZWwsIHNvdXJjZSkgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgaWYgdG90YWwgPj0gcGFnZV9zdGFydCAmJiBwYWdlX2V2ZW50cy5sZW4oKSA8IHNhZmVfbGltaXQgYXMgdXNpemUgewogICAgICAgICAgICBwYWdlX2V2ZW50cy5wdXNoKGV2ZW50KTsKICAgICAgICB9CiAgICAgICAgdG90YWwgKz0gMTsKICAgIH0KICAgIGpzb24hKHsgImV2ZW50cyI6IHBhZ2VfZXZlbnRzLCAidG90YWwiOiB0b3RhbCB9KQp9Cg==
+use super::*;
+
+pub(super) fn system_event_page(
+    events: impl IntoIterator<Item = Value>,
+    page: i64,
+    limit: i64,
+    search: &str,
+    event_type: Option<&str>,
+    level: Option<&str>,
+    source: Option<&str>,
+) -> Value {
+    let safe_page = page.max(1);
+    let safe_limit = limit.clamp(1, 100);
+    let page_start = (safe_page - 1) * safe_limit;
+    let mut total = 0_i64;
+    let mut page_events = Vec::new();
+    for event in events {
+        if !system_event_matches_filters(&event, search, event_type, level, source) {
+            continue;
+        }
+        if total >= page_start && page_events.len() < safe_limit as usize {
+            page_events.push(event);
+        }
+        total += 1;
+    }
+    json!({ "events": page_events, "total": total })
+}

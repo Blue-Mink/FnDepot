@@ -1,1 +1,25 @@
-ZXhwb3J0IGNvbnN0IHByaXZpbGVnZWROYXZpZ2F0aW9uVmlzaWJpbGl0eSA9ICh7CiAgY2FuVXNlU3NoU2VjdXJpdHksCiAgc3NoU2VjdXJpdHlFbmFibGVkLAp9OiB7CiAgY2FuVXNlU3NoU2VjdXJpdHk6IGJvb2xlYW47CiAgc3NoU2VjdXJpdHlFbmFibGVkOiBib29sZWFuOwp9KSA9PiAoewogIHNzaFNlY3VyaXR5OiBjYW5Vc2VTc2hTZWN1cml0eSAmJiBzc2hTZWN1cml0eUVuYWJsZWQsCn0pOwoKZXhwb3J0IGNvbnN0IHNtYXJ0Q29ubmVjdEZlYXR1cmVFbnRyeVZpc2libGUgPSAoewogIGlzRnBrTGl0ZURlcGxveW1lbnQsCiAgaXNEb2NrZXJEZXBsb3ltZW50LAogIGlzT3BlbldydERlcGxveW1lbnQsCiAgaXNTeW5vbG9neURlcGxveW1lbnQsCn06IHsKICBpc0Zwa0xpdGVEZXBsb3ltZW50OiBib29sZWFuOwogIGlzRG9ja2VyRGVwbG95bWVudDogYm9vbGVhbjsKICBpc09wZW5XcnREZXBsb3ltZW50OiBib29sZWFuOwogIGlzU3lub2xvZ3lEZXBsb3ltZW50OiBib29sZWFuOwp9KSA9PgogICFpc0Zwa0xpdGVEZXBsb3ltZW50ICYmCiAgIWlzRG9ja2VyRGVwbG95bWVudCAmJgogICFpc09wZW5XcnREZXBsb3ltZW50ICYmCiAgIWlzU3lub2xvZ3lEZXBsb3ltZW50Owo=
+export const privilegedNavigationVisibility = ({
+  canUseSshSecurity,
+  sshSecurityEnabled,
+}: {
+  canUseSshSecurity: boolean;
+  sshSecurityEnabled: boolean;
+}) => ({
+  sshSecurity: canUseSshSecurity && sshSecurityEnabled,
+});
+
+export const smartConnectFeatureEntryVisible = ({
+  isFpkLiteDeployment,
+  isDockerDeployment,
+  isOpenWrtDeployment,
+  isSynologyDeployment,
+}: {
+  isFpkLiteDeployment: boolean;
+  isDockerDeployment: boolean;
+  isOpenWrtDeployment: boolean;
+  isSynologyDeployment: boolean;
+}) =>
+  !isFpkLiteDeployment &&
+  !isDockerDeployment &&
+  !isOpenWrtDeployment &&
+  !isSynologyDeployment;

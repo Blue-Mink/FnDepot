@@ -1,1 +1,394 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiwgY29tcHV0ZWQsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAidnVlLXJvdXRlciI7CmltcG9ydCBJbmxpbmVDb21tZW50RWRpdG9yIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9JbmxpbmVDb21tZW50RWRpdG9yLnZ1ZSI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIFRhYmxlLAogIFRhYmxlQm9keSwKICBUYWJsZUNlbGwsCiAgVGFibGVIZWFkLAogIFRhYmxlSGVhZGVyLAogIFRhYmxlUm93LAp9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJsZSI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB0eXBlIHsgU2Vzc2lvblJlY29yZCB9IGZyb20gIi4uLy4uL3R5cGVzIjsKaW1wb3J0IHsgU2Vzc2lvbkFQSSB9IGZyb20gIkAvbGliL2FwaS9zZXNzaW9ucyI7CmltcG9ydCB7IEV5ZSwgR2l0QnJhbmNoLCBUcmFzaDIgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgUmVmcmVzaEJ1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvUmVmcmVzaEJ1dHRvbi52dWUiOwppbXBvcnQgewogIFRvb2x0aXAsCiAgVG9vbHRpcENvbnRlbnQsCiAgVG9vbHRpcFByb3ZpZGVyLAogIFRvb2x0aXBUcmlnZ2VyLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS90b29sdGlwIjsKaW1wb3J0IHsgdXNlQ29uZmlnU3RvcmUgfSBmcm9tICIuLi8uLi9zdG9yZS9jb25maWciOwppbXBvcnQgQ29uZmlybURhbmdlclBvcG92ZXIgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtRGFuZ2VyUG9wb3Zlci52dWUiOwppbXBvcnQgRGV0YWlsRGlhbG9nIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vRGV0YWlsRGlhbG9nLnZ1ZSI7CmltcG9ydCBEZXRhaWxGaWVsZHNHcmlkIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vRGV0YWlsRmllbGRzR3JpZC52dWUiOwppbXBvcnQgSHVtYW5GcmllbmRseVRpbWUgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9IdW1hbkZyaWVuZGx5VGltZS52dWUiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IGJ1aWxkRGV0YWlsRmllbGRzIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9idWlsZERldGFpbEZpZWxkcyI7CmltcG9ydCB7IGZvcm1hdERhdGVUaW1lU2FmZSB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvZm9ybWF0RGF0ZVRpbWVTYWZlIjsKaW1wb3J0IEZub3NBdHRhY2htZW50SW5kaWNhdG9yIGZyb20gIi4vRm5vc0F0dGFjaG1lbnRJbmRpY2F0b3IudnVlIjsKaW1wb3J0IFNlc3Npb25DcmVkZW50aWFsTmFtZSBmcm9tICIuL1Nlc3Npb25DcmVkZW50aWFsTmFtZS52dWUiOwppbXBvcnQgewogIGZvcm1hdFNlc3Npb25DcmVkZW50aWFsTG9naW5EZXRhaWwsCiAgZ2V0U2Vzc2lvbkNyZWRlbnRpYWxEaXNwbGF5TmFtZSwKfSBmcm9tICIuL3Nlc3Npb25DcmVkZW50aWFsUHJlc2VudGF0aW9uIjsKaW1wb3J0IHRyaW1NZWRpYUxvZ29VcmwgZnJvbSAiQC9hc3NldHMvdHJpbS1tZWRpYS1sb2dvLnBuZyI7Cgpjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTsKY29uc3QgeyB0LCBsb2NhbGUgfSA9IHVzZUkxOG4oKTsKY29uc3QgdHJhbnNsYXRlID0gKGtleTogc3RyaW5nLCBwYXJhbXM/OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+KSA9PgogIHBhcmFtcyA/IHQoa2V5LCBwYXJhbXMpIDogdChrZXkpOwpjb25zdCBzZXNzaW9ucyA9IHJlZjxTZXNzaW9uUmVjb3JkW10+KFtdKTsKY29uc3Qgc2hvd0RldGFpbCA9IHJlZihmYWxzZSk7CmNvbnN0IGRldGFpbFNlc3Npb24gPSByZWY8U2Vzc2lvblJlY29yZCB8IG51bGw+KG51bGwpOwoKY29uc3QgeyBpc1BlbmRpbmc6IGlzTG9hZGluZywgcnVuOiBydW5Mb2FkU2Vzc2lvbnMgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnNlc3Npb25zLmxvYWRGYWlsZWQiKSwgewogICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiYWRtaW4uc2Vzc2lvbnMubG9hZEZhaWxlZCIpKSwKICAgIH0pOwogIH0sCn0pOwoKY29uc3QgeyBpc1BlbmRpbmc6IGlzS2lja2luZywgcnVuOiBydW5LaWNrU2Vzc2lvbiB9ID0gdXNlQXN5bmNBY3Rpb24oewogIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uc2Vzc2lvbnMua2lja0ZhaWxlZCIpLCB7CiAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgIGVycm9yLAogICAgICAgIHQoImFkbWluLnNlc3Npb25zLm9wZXJhdGlvbkZhaWxlZCIpLAogICAgICApLAogICAgfSk7CiAgfSwKfSk7Cgpjb25zdCB7IHJ1bjogcnVuVXBkYXRlQ29tbWVudCB9ID0gdXNlQXN5bmNBY3Rpb24oewogIHJldGhyb3c6IHRydWUsCn0pOwoKY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwoKY29uc3QgZGV0YWlsRmllbGREZWZpbml0aW9ucyA9IFsKICB7IGtleTogImlkIiwgbGFiZWxLZXk6ICJhZG1pbi5zZXNzaW9ucy50YWJsZS5zZXNzaW9uSWQiIH0sCiAgeyBrZXk6ICJtZXRob2QiLCBsYWJlbEtleTogImFkbWluLnNlc3Npb25zLnRhYmxlLmxvZ2luTWV0aG9kIiB9LAogIHsga2V5OiAiY3JlZGVudGlhbE5hbWUiLCBsYWJlbEtleTogImFkbWluLnNlc3Npb25zLnRhYmxlLmNyZWRlbnRpYWxOYW1lIiB9LAogIHsga2V5OiAiY29tbWVudCIsIGxhYmVsS2V5OiAiYWRtaW4uc2Vzc2lvbnMudGFibGUuY29tbWVudCIgfSwKICB7IGtleTogImlwIiwgbGFiZWxLZXk6ICJhZG1pbi5zZXNzaW9ucy50YWJsZS5jdXJyZW50SXAiIH0sCiAgeyBrZXk6ICJpcExvY2F0aW9uIiwgbGFiZWxLZXk6ICJhZG1pbi5zZXNzaW9ucy50YWJsZS5pcExvY2F0aW9uIiB9LAogIHsga2V5OiAidXNlckFnZW50IiwgbGFiZWxLZXk6ICJVc2VyLUFnZW50IiB9LAogIHsga2V5OiAibG9naW5UaW1lIiwgbGFiZWxLZXk6ICJhZG1pbi5zZXNzaW9ucy50YWJsZS5sb2dpblRpbWUiIH0sCiAgeyBrZXk6ICJleHBpcmVzQXQiLCBsYWJlbEtleTogImFkbWluLnNlc3Npb25zLnRhYmxlLmV4cGlyZXNBdCIgfSwKXSBhcyBjb25zdDsKCmNvbnN0IGxvY2FsaXplZERldGFpbEZpZWxkRGVmaW5pdGlvbnMgPSBjb21wdXRlZCgoKSA9PgogIGRldGFpbEZpZWxkRGVmaW5pdGlvbnMubWFwKChmaWVsZCkgPT4gKHsKICAgIGtleTogZmllbGQua2V5LAogICAgbGFiZWw6IGZpZWxkLmxhYmVsS2V5ID09PSAiVXNlci1BZ2VudCIgPyBmaWVsZC5sYWJlbEtleSA6IHQoZmllbGQubGFiZWxLZXkpLAogIH0pKSwKKTsKCmNvbnN0IGhhc1Nlc3Npb25zID0gY29tcHV0ZWQoKCkgPT4gc2Vzc2lvbnMudmFsdWUubGVuZ3RoID4gMCk7Cgpjb25zdCBkZXRhaWxJdGVtcyA9IGNvbXB1dGVkKCgpID0+IHsKICByZXR1cm4gYnVpbGREZXRhaWxGaWVsZHMoCiAgICBkZXRhaWxTZXNzaW9uLnZhbHVlLAogICAgbG9jYWxpemVkRGV0YWlsRmllbGREZWZpbml0aW9ucy52YWx1ZSwKICAgIHsKICAgICAgZm9ybWF0OiAoa2V5LCB2YWx1ZSkgPT4gewogICAgICAgIGlmIChrZXkgPT09ICJtZXRob2QiICYmIGRldGFpbFNlc3Npb24udmFsdWUpIHsKICAgICAgICAgIHJldHVybiBmb3JtYXRTZXNzaW9uQ3JlZGVudGlhbExvZ2luRGV0YWlsKAogICAgICAgICAgICBkZXRhaWxTZXNzaW9uLnZhbHVlLAogICAgICAgICAgICB0cmFuc2xhdGUsCiAgICAgICAgICApOwogICAgICAgIH0KICAgICAgICBpZiAoa2V5ID09PSAiY3JlZGVudGlhbE5hbWUiICYmIGRldGFpbFNlc3Npb24udmFsdWUpIHsKICAgICAgICAgIHJldHVybiBnZXRTZXNzaW9uQ3JlZGVudGlhbERpc3BsYXlOYW1lKGRldGFpbFNlc3Npb24udmFsdWUpOwogICAgICAgIH0KICAgICAgICBpZiAoa2V5ID09PSAibG9naW5UaW1lIiB8fCBrZXkgPT09ICJleHBpcmVzQXQiKSB7CiAgICAgICAgICByZXR1cm4gZm9ybWF0RGF0ZVRpbWVTYWZlKAogICAgICAgICAgICB2YWx1ZSBhcyBzdHJpbmcgfCBudW1iZXIgfCBEYXRlIHwgbnVsbCB8IHVuZGVmaW5lZCwKICAgICAgICAgICAgeyBsb2NhbGU6IGxvY2FsZS52YWx1ZSB9LAogICAgICAgICAgKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHZhbHVlOwogICAgICB9LAogICAgfSwKICApOwp9KTsKCmNvbnN0IG1pZGRsZUVsbGlwc2lzID0gKHRleHQ6IHN0cmluZywgbWF4ID0gMTYpID0+IHsKICBpZiAoIXRleHQpIHJldHVybiAiIjsKICBpZiAodGV4dC5sZW5ndGggPD0gbWF4KSByZXR1cm4gdGV4dDsKICBjb25zdCBoZWFkID0gTWF0aC5jZWlsKChtYXggLSAxKSAvIDIpOwogIGNvbnN0IHRhaWwgPSBNYXRoLmZsb29yKChtYXggLSAxKSAvIDIpOwogIHJldHVybiBgJHt0ZXh0LnNsaWNlKDAsIGhlYWQpfeKApuKApiR7dGV4dC5zbGljZSh0ZXh0Lmxlbmd0aCAtIHRhaWwpfWA7Cn07Cgphc3luYyBmdW5jdGlvbiBmZXRjaFNlc3Npb25zKCkgewogIGF3YWl0IHJ1bkxvYWRTZXNzaW9ucyhhc3luYyAoKSA9PiB7CiAgICBjb25zdCBuZXh0U2Vzc2lvbnMgPSBhd2FpdCBTZXNzaW9uQVBJLmxpc3QoKTsKICAgIHNlc3Npb25zLnZhbHVlID0gQXJyYXkuaXNBcnJheShuZXh0U2Vzc2lvbnMpID8gbmV4dFNlc3Npb25zIDogW107CiAgfSk7Cn0KCmZ1bmN0aW9uIG9wZW5EZXRhaWwoc2Vzc2lvbjogU2Vzc2lvblJlY29yZCkgewogIGRldGFpbFNlc3Npb24udmFsdWUgPSBzZXNzaW9uOwogIHNob3dEZXRhaWwudmFsdWUgPSB0cnVlOwp9CgpmdW5jdGlvbiBvcGVuTW9iaWxpdHkoc2Vzc2lvbjogU2Vzc2lvblJlY29yZCkgewogIHJvdXRlci5wdXNoKGAvc2Vzc2lvbnMvbW9iaWxpdHkvJHtlbmNvZGVVUklDb21wb25lbnQoc2Vzc2lvbi5pZCl9YCk7Cn0KCmFzeW5jIGZ1bmN0aW9uIGtpY2tTZXNzaW9uKHNlc3Npb25JZDogc3RyaW5nKSB7CiAgYXdhaXQgcnVuS2lja1Nlc3Npb24oKCkgPT4gU2Vzc2lvbkFQSS5raWNrKHNlc3Npb25JZCksIHsKICAgIG9uU3VjY2VzczogYXN5bmMgKCkgPT4gewogICAgICBzZXNzaW9ucy52YWx1ZSA9IHNlc3Npb25zLnZhbHVlLmZpbHRlcigKICAgICAgICAoc2Vzc2lvbikgPT4gc2Vzc2lvbi5pZCAhPT0gc2Vzc2lvbklkLAogICAgICApOwogICAgICBpZiAoZGV0YWlsU2Vzc2lvbi52YWx1ZT8uaWQgPT09IHNlc3Npb25JZCkgewogICAgICAgIGRldGFpbFNlc3Npb24udmFsdWUgPSBudWxsOwogICAgICAgIHNob3dEZXRhaWwudmFsdWUgPSBmYWxzZTsKICAgICAgfQogICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLnNlc3Npb25zLmtpY2tlZCIpKTsKICAgICAgYXdhaXQgZmV0Y2hTZXNzaW9ucygpOwogICAgfSwKICB9KTsKfQoKYXN5bmMgZnVuY3Rpb24gdXBkYXRlQ29tbWVudChzZXNzaW9uSWQ6IHN0cmluZywgY29tbWVudDogc3RyaW5nKSB7CiAgY29uc3QgdGFyZ2V0ID0gc2Vzc2lvbnMudmFsdWUuZmluZCgoc2Vzc2lvbikgPT4gc2Vzc2lvbi5pZCA9PT0gc2Vzc2lvbklkKTsKICBpZiAodGFyZ2V0ICYmICh0YXJnZXQuY29tbWVudCA/PyAiIikgPT09IGNvbW1lbnQpIHsKICAgIHJldHVybjsKICB9CgogIGF3YWl0IHJ1blVwZGF0ZUNvbW1lbnQoKCkgPT4gU2Vzc2lvbkFQSS51cGRhdGVDb21tZW50KHNlc3Npb25JZCwgY29tbWVudCksIHsKICAgIG9uU3VjY2VzczogKHVwZGF0ZWQpID0+IHsKICAgICAgaWYgKHRhcmdldCkgewogICAgICAgIE9iamVjdC5hc3NpZ24odGFyZ2V0LCB1cGRhdGVkKTsKICAgICAgfQogICAgICBpZiAoZGV0YWlsU2Vzc2lvbi52YWx1ZT8uaWQgPT09IHNlc3Npb25JZCkgewogICAgICAgIGRldGFpbFNlc3Npb24udmFsdWUgPSB7CiAgICAgICAgICAuLi5kZXRhaWxTZXNzaW9uLnZhbHVlLAogICAgICAgICAgLi4udXBkYXRlZCwKICAgICAgICB9OwogICAgICB9CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uc2Vzc2lvbnMuY29tbWVudFVwZGF0ZWQiKSk7CiAgICB9LAogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRocm93IG5ldyBFcnJvcigKICAgICAgICBleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCB0KCJhZG1pbi5zZXNzaW9ucy51cGRhdGVDb21tZW50RmFpbGVkIikpLAogICAgICApOwogICAgfSwKICB9KTsKfQoKd2F0Y2goCiAgKCkgPT4gY29uZmlnU3RvcmUuY29uZmlnPy5ydW5fdHlwZSwKICAocnVuVHlwZSkgPT4gewogICAgaWYgKHJ1blR5cGUgPT09IDEgfHwgcnVuVHlwZSA9PT0gMykgewogICAgICB2b2lkIGZldGNoU2Vzc2lvbnMoKTsKICAgIH0KICB9LAogIHsgaW1tZWRpYXRlOiB0cnVlIH0sCik7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktMyI+CiAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4iPgogICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvbnMuYWN0aXZlQ291bnQiLCB7IGNvdW50OiBzZXNzaW9ucy5sZW5ndGggfSkgfX0KICAgICAgPC9kaXY+CiAgICAgIDxSZWZyZXNoQnV0dG9uCiAgICAgICAgOmxvYWRpbmc9ImlzTG9hZGluZyIKICAgICAgICA6ZGlzYWJsZWQ9ImlzTG9hZGluZyIKICAgICAgICBAY2xpY2s9ImZldGNoU2Vzc2lvbnMiCiAgICAgIC8+CiAgICA8L2Rpdj4KCiAgICA8ZGl2IGNsYXNzPSJvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1tZCBib3JkZXIiPgogICAgICA8VG9vbHRpcFByb3ZpZGVyPgogICAgICAgIDxUYWJsZT4KICAgICAgICAgIDxUYWJsZUhlYWRlcj4KICAgICAgICAgICAgPFRhYmxlUm93PgogICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9InctWzE1MHB4XSI+e3sKICAgICAgICAgICAgICAgIHQoImFkbWluLnNlc3Npb25zLnRhYmxlLnNlc3Npb25JZCIpCiAgICAgICAgICAgICAgfX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICA8VGFibGVIZWFkPnt7IHQoImFkbWluLnNlc3Npb25zLnRhYmxlLmNyZWRlbnRpYWwiKSB9fTwvVGFibGVIZWFkPgogICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3sgdCgiYWRtaW4uc2Vzc2lvbnMudGFibGUuY29tbWVudCIpIH19PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgPFRhYmxlSGVhZD57eyB0KCJhZG1pbi5zZXNzaW9ucy50YWJsZS5jdXJyZW50SXAiKSB9fTwvVGFibGVIZWFkPgogICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3sgdCgiYWRtaW4uc2Vzc2lvbnMudGFibGUubG9naW5UaW1lIikgfX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICA8VGFibGVIZWFkPnt7IHQoImFkbWluLnNlc3Npb25zLnRhYmxlLmV4cGlyZXNBdCIpIH19PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bMjEwcHhdIHRleHQtcmlnaHQiPnt7CiAgICAgICAgICAgICAgICB0KCJhZG1pbi5zZXNzaW9ucy50YWJsZS5hY3Rpb25zIikKICAgICAgICAgICAgICB9fTwvVGFibGVIZWFkPgogICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgPC9UYWJsZUhlYWRlcj4KCiAgICAgICAgICA8VGFibGVCb2R5IHYtaWY9Imhhc1Nlc3Npb25zIj4KICAgICAgICAgICAgPFRhYmxlUm93IHYtZm9yPSJzZXNzaW9uIGluIHNlc3Npb25zIiA6a2V5PSJzZXNzaW9uLmlkIj4KICAgICAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICAgICAgPFRvb2x0aXA+CiAgICAgICAgICAgICAgICAgIDxUb29sdGlwVHJpZ2dlciBhcy1jaGlsZD4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJjdXJzb3ItaGVscCBmb250LW1vbm8gdGV4dC14cyI+CiAgICAgICAgICAgICAgICAgICAgICB7eyBtaWRkbGVFbGxpcHNpcyhzZXNzaW9uLmlkLCAxNikgfX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPC9Ub29sdGlwVHJpZ2dlcj4KICAgICAgICAgICAgICAgICAgPFRvb2x0aXBDb250ZW50PgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzPSJicmVhay1hbGwgZm9udC1tb25vIHRleHQteHMiPnt7IHNlc3Npb24uaWQgfX08L3A+CiAgICAgICAgICAgICAgICAgIDwvVG9vbHRpcENvbnRlbnQ+CiAgICAgICAgICAgICAgICA8L1Rvb2x0aXA+CiAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CgogICAgICAgICAgICAgIDxUYWJsZUNlbGw+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20iPgogICAgICAgICAgICAgICAgICAgIDxTZXNzaW9uQ3JlZGVudGlhbE5hbWUgOnNlc3Npb249InNlc3Npb24iIC8+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8Rm5vc0F0dGFjaG1lbnRJbmRpY2F0b3IKICAgICAgICAgICAgICAgICAgICB2LWlmPSJzZXNzaW9uLmZub3NBdHRhY2htZW50cz8ubGVuZ3RoIgogICAgICAgICAgICAgICAgICAgIDphdHRhY2htZW50cz0ic2Vzc2lvbi5mbm9zQXR0YWNobWVudHMiCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgIDxGbm9zQXR0YWNobWVudEluZGljYXRvcgogICAgICAgICAgICAgICAgICAgIHYtaWY9InNlc3Npb24udHJpbU1lZGlhQXR0YWNobWVudHM/Lmxlbmd0aCIKICAgICAgICAgICAgICAgICAgICA6YXR0YWNobWVudHM9InNlc3Npb24udHJpbU1lZGlhQXR0YWNobWVudHMiCiAgICAgICAgICAgICAgICAgICAgOmljb24tdXJsPSJ0cmltTWVkaWFMb2dvVXJsIgogICAgICAgICAgICAgICAgICAgIDppY29uLWFsdD0idCgnYWRtaW4uc2Vzc2lvbnMuYXR0YWNobWVudHMudHJpbU1lZGlhSWNvbkFsdCcpIgogICAgICAgICAgICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4uc2Vzc2lvbnMuYXR0YWNobWVudHMudHJpbU1lZGlhVGl0bGUnKSIKICAgICAgICAgICAgICAgICAgICA6dHJpZ2dlci1sYWJlbD0iCiAgICAgICAgICAgICAgICAgICAgICB0KCdhZG1pbi5zZXNzaW9ucy5hdHRhY2htZW50cy50cmltTWVkaWFUcmlnZ2VyTGFiZWwnKQogICAgICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgICAgICA6aXRlbS1sYWJlbD0iCiAgICAgICAgICAgICAgICAgICAgICB0KCdhZG1pbi5zZXNzaW9ucy5hdHRhY2htZW50cy50cmltTWVkaWFJdGVtTGFiZWwnKQogICAgICAgICAgICAgICAgICAgICIKICAgICAgICAgICAgICAgICAgICA6Zm9vdGVyLXRleHQ9IgogICAgICAgICAgICAgICAgICAgICAgdCgnYWRtaW4uc2Vzc2lvbnMuYXR0YWNobWVudHMudHJpbU1lZGlhRm9vdGVyJykKICAgICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KCiAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0ibWluLXctWzE4MHB4XSI+CiAgICAgICAgICAgICAgICA8SW5saW5lQ29tbWVudEVkaXRvcgogICAgICAgICAgICAgICAgICA6dGV4dD0ic2Vzc2lvbi5jb21tZW50IgogICAgICAgICAgICAgICAgICA6c2F2ZT0iKHZhbHVlKSA9PiB1cGRhdGVDb21tZW50KHNlc3Npb24uaWQsIHZhbHVlKSIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CgogICAgICAgICAgICAgIDxUYWJsZUNlbGw+CiAgICAgICAgICAgICAgICA8VG9vbHRpcD4KICAgICAgICAgICAgICAgICAgPFRvb2x0aXBUcmlnZ2VyIGFzLWNoaWxkPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImN1cnNvci1oZWxwIGZvbnQtbW9ubyB0ZXh0LXNtIj4KICAgICAgICAgICAgICAgICAgICAgIHt7IG1pZGRsZUVsbGlwc2lzKHNlc3Npb24uaXAsIDI0KSB9fQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8L1Rvb2x0aXBUcmlnZ2VyPgogICAgICAgICAgICAgICAgICA8VG9vbHRpcENvbnRlbnQ+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3M9ImJyZWFrLWFsbCBmb250LW1vbm8gdGV4dC14cyI+e3sgc2Vzc2lvbi5pcCB9fTwvcD4KICAgICAgICAgICAgICAgICAgPC9Ub29sdGlwQ29udGVudD4KICAgICAgICAgICAgICAgIDwvVG9vbHRpcD4KICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgdi1pZj0ic2Vzc2lvbi5pcExvY2F0aW9uIgogICAgICAgICAgICAgICAgICBjbGFzcz0ibGluZS1jbGFtcC0xIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7eyBzZXNzaW9uLmlwTG9jYXRpb24gfX0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvVGFibGVDZWxsPgoKICAgICAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSI+CiAgICAgICAgICAgICAgICAgIDxIdW1hbkZyaWVuZGx5VGltZQogICAgICAgICAgICAgICAgICAgIDp2YWx1ZT0ic2Vzc2lvbi5sb2dpblRpbWUiCiAgICAgICAgICAgICAgICAgICAgOmxvY2FsZT0ibG9jYWxlIgogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CgogICAgICAgICAgICAgIDxUYWJsZUNlbGw+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIj4KICAgICAgICAgICAgICAgICAgPEh1bWFuRnJpZW5kbHlUaW1lCiAgICAgICAgICAgICAgICAgICAgOnZhbHVlPSJzZXNzaW9uLmV4cGlyZXNBdCIKICAgICAgICAgICAgICAgICAgICA6bG9jYWxlPSJsb2NhbGUiCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KCiAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0idGV4dC1yaWdodCI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktZW5kIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICAgICAgY2xhc3M9ImdhcC0xLjUiCiAgICAgICAgICAgICAgICAgICAgQGNsaWNrPSJvcGVuTW9iaWxpdHkoc2Vzc2lvbikiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8R2l0QnJhbmNoIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLm1vYmlsaXR5IikgfX0KICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJnYXAtMS41IgogICAgICAgICAgICAgICAgICAgIEBjbGljaz0ib3BlbkRldGFpbChzZXNzaW9uKSIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxFeWUgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvbnMuZGV0YWlsIikgfX0KICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICAgICAgICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4uc2Vzc2lvbnMuY29uZmlybUtpY2tUaXRsZScpIgogICAgICAgICAgICAgICAgICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4uc2Vzc2lvbnMuY29uZmlybUtpY2tEZXNjcmlwdGlvbicpIgogICAgICAgICAgICAgICAgICAgIDpjb25maXJtLXRleHQ9InQoJ2FkbWluLnNlc3Npb25zLmNvbmZpcm1LaWNrJykiCiAgICAgICAgICAgICAgICAgICAgOmxvYWRpbmc9ImlzS2lja2luZyIKICAgICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzS2lja2luZyIKICAgICAgICAgICAgICAgICAgICA6b24tY29uZmlybT0iKCkgPT4ga2lja1Nlc3Npb24oc2Vzc2lvbi5pZCkiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8dGVtcGxhdGUgI3RyaWdnZXI+CiAgICAgICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9ImRlc3RydWN0aXZlIgogICAgICAgICAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJpc0tpY2tpbmciCiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJnYXAtMS41IgogICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICA8VHJhc2gyIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zZXNzaW9ucy5raWNrIikgfX0KICAgICAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgICAgICAgIDwvQ29uZmlybURhbmdlclBvcG92ZXI+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgIDwvVGFibGVCb2R5PgoKICAgICAgICAgIDxUYWJsZUJvZHkgdi1lbHNlPgogICAgICAgICAgICA8VGFibGVSb3c+CiAgICAgICAgICAgICAgPFRhYmxlQ2VsbAogICAgICAgICAgICAgICAgY29sc3Bhbj0iOCIKICAgICAgICAgICAgICAgIGNsYXNzPSJweS02IHRleHQtY2VudGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zZXNzaW9ucy5lbXB0eSIpIH19CiAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICA8L1RhYmxlQm9keT4KICAgICAgICA8L1RhYmxlPgogICAgICA8L1Rvb2x0aXBQcm92aWRlcj4KICAgIDwvZGl2PgoKICAgIDxEZXRhaWxEaWFsb2cKICAgICAgOm9wZW49InNob3dEZXRhaWwiCiAgICAgIDp0aXRsZT0idCgnYWRtaW4uc2Vzc2lvbnMuZGV0YWlsVGl0bGUnKSIKICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5zZXNzaW9ucy5kZXRhaWxEZXNjcmlwdGlvbicpIgogICAgICBtYXgtd2lkdGgtY2xhc3M9InNtOm1heC13LVs1MDBweF0iCiAgICAgIEB1cGRhdGU6b3Blbj0ic2hvd0RldGFpbCA9ICRldmVudCIKICAgID4KICAgICAgPGRpdiB2LWlmPSJkZXRhaWxTZXNzaW9uIj4KICAgICAgICA8RGV0YWlsRmllbGRzR3JpZCA6aXRlbXM9ImRldGFpbEl0ZW1zIiBsYXlvdXQ9ImNvbXBhY3QiIC8+CiAgICAgIDwvZGl2PgogICAgPC9EZXRhaWxEaWFsb2c+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { ref, computed, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRouter } from "vue-router";
+import InlineCommentEditor from "@admin-shared/components/InlineCommentEditor.vue";
+import { Button } from "@/components/ui/button";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import { toast } from "@admin-shared/utils/toast";
+import type { SessionRecord } from "../../types";
+import { SessionAPI } from "@/lib/api/sessions";
+import { Eye, GitBranch, Trash2 } from "lucide-vue-next";
+import RefreshButton from "@/components/RefreshButton.vue";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import { useConfigStore } from "../../store/config";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import DetailDialog from "@admin-shared/components/common/DetailDialog.vue";
+import DetailFieldsGrid from "@admin-shared/components/common/DetailFieldsGrid.vue";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { buildDetailFields } from "@admin-shared/utils/buildDetailFields";
+import { formatDateTimeSafe } from "@admin-shared/utils/formatDateTimeSafe";
+import FnosAttachmentIndicator from "./FnosAttachmentIndicator.vue";
+import SessionCredentialName from "./SessionCredentialName.vue";
+import {
+  formatSessionCredentialLoginDetail,
+  getSessionCredentialDisplayName,
+} from "./sessionCredentialPresentation";
+import trimMediaLogoUrl from "@/assets/trim-media-logo.png";
+
+const router = useRouter();
+const { t, locale } = useI18n();
+const translate = (key: string, params?: Record<string, string>) =>
+  params ? t(key, params) : t(key);
+const sessions = ref<SessionRecord[]>([]);
+const showDetail = ref(false);
+const detailSession = ref<SessionRecord | null>(null);
+
+const { isPending: isLoading, run: runLoadSessions } = useAsyncAction({
+  onError: (error) => {
+    toast.error(t("admin.sessions.loadFailed"), {
+      description: extractErrorMessage(error, t("admin.sessions.loadFailed")),
+    });
+  },
+});
+
+const { isPending: isKicking, run: runKickSession } = useAsyncAction({
+  onError: (error) => {
+    toast.error(t("admin.sessions.kickFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.sessions.operationFailed"),
+      ),
+    });
+  },
+});
+
+const { run: runUpdateComment } = useAsyncAction({
+  rethrow: true,
+});
+
+const configStore = useConfigStore();
+
+const detailFieldDefinitions = [
+  { key: "id", labelKey: "admin.sessions.table.sessionId" },
+  { key: "method", labelKey: "admin.sessions.table.loginMethod" },
+  { key: "credentialName", labelKey: "admin.sessions.table.credentialName" },
+  { key: "comment", labelKey: "admin.sessions.table.comment" },
+  { key: "ip", labelKey: "admin.sessions.table.currentIp" },
+  { key: "ipLocation", labelKey: "admin.sessions.table.ipLocation" },
+  { key: "userAgent", labelKey: "User-Agent" },
+  { key: "loginTime", labelKey: "admin.sessions.table.loginTime" },
+  { key: "expiresAt", labelKey: "admin.sessions.table.expiresAt" },
+] as const;
+
+const localizedDetailFieldDefinitions = computed(() =>
+  detailFieldDefinitions.map((field) => ({
+    key: field.key,
+    label: field.labelKey === "User-Agent" ? field.labelKey : t(field.labelKey),
+  })),
+);
+
+const hasSessions = computed(() => sessions.value.length > 0);
+
+const detailItems = computed(() => {
+  return buildDetailFields(
+    detailSession.value,
+    localizedDetailFieldDefinitions.value,
+    {
+      format: (key, value) => {
+        if (key === "method" && detailSession.value) {
+          return formatSessionCredentialLoginDetail(
+            detailSession.value,
+            translate,
+          );
+        }
+        if (key === "credentialName" && detailSession.value) {
+          return getSessionCredentialDisplayName(detailSession.value);
+        }
+        if (key === "loginTime" || key === "expiresAt") {
+          return formatDateTimeSafe(
+            value as string | number | Date | null | undefined,
+            { locale: locale.value },
+          );
+        }
+        return value;
+      },
+    },
+  );
+});
+
+const middleEllipsis = (text: string, max = 16) => {
+  if (!text) return "";
+  if (text.length <= max) return text;
+  const head = Math.ceil((max - 1) / 2);
+  const tail = Math.floor((max - 1) / 2);
+  return `${text.slice(0, head)}……${text.slice(text.length - tail)}`;
+};
+
+async function fetchSessions() {
+  await runLoadSessions(async () => {
+    const nextSessions = await SessionAPI.list();
+    sessions.value = Array.isArray(nextSessions) ? nextSessions : [];
+  });
+}
+
+function openDetail(session: SessionRecord) {
+  detailSession.value = session;
+  showDetail.value = true;
+}
+
+function openMobility(session: SessionRecord) {
+  router.push(`/sessions/mobility/${encodeURIComponent(session.id)}`);
+}
+
+async function kickSession(sessionId: string) {
+  await runKickSession(() => SessionAPI.kick(sessionId), {
+    onSuccess: async () => {
+      sessions.value = sessions.value.filter(
+        (session) => session.id !== sessionId,
+      );
+      if (detailSession.value?.id === sessionId) {
+        detailSession.value = null;
+        showDetail.value = false;
+      }
+      toast.success(t("admin.sessions.kicked"));
+      await fetchSessions();
+    },
+  });
+}
+
+async function updateComment(sessionId: string, comment: string) {
+  const target = sessions.value.find((session) => session.id === sessionId);
+  if (target && (target.comment ?? "") === comment) {
+    return;
+  }
+
+  await runUpdateComment(() => SessionAPI.updateComment(sessionId, comment), {
+    onSuccess: (updated) => {
+      if (target) {
+        Object.assign(target, updated);
+      }
+      if (detailSession.value?.id === sessionId) {
+        detailSession.value = {
+          ...detailSession.value,
+          ...updated,
+        };
+      }
+      toast.success(t("admin.sessions.commentUpdated"));
+    },
+    onError: (error) => {
+      throw new Error(
+        extractErrorMessage(error, t("admin.sessions.updateCommentFailed")),
+      );
+    },
+  });
+}
+
+watch(
+  () => configStore.config?.run_type,
+  (runType) => {
+    if (runType === 1 || runType === 3) {
+      void fetchSessions();
+    }
+  },
+  { immediate: true },
+);
+</script>
+
+<template>
+  <div class="space-y-3">
+    <div class="flex items-center justify-between">
+      <div class="text-sm text-muted-foreground">
+        {{ t("admin.sessions.activeCount", { count: sessions.length }) }}
+      </div>
+      <RefreshButton
+        :loading="isLoading"
+        :disabled="isLoading"
+        @click="fetchSessions"
+      />
+    </div>
+
+    <div class="overflow-hidden rounded-md border">
+      <TooltipProvider>
+        <Table>
+          <TableHeader>
+            <TableRow>
+              <TableHead class="w-[150px]">{{
+                t("admin.sessions.table.sessionId")
+              }}</TableHead>
+              <TableHead>{{ t("admin.sessions.table.credential") }}</TableHead>
+              <TableHead>{{ t("admin.sessions.table.comment") }}</TableHead>
+              <TableHead>{{ t("admin.sessions.table.currentIp") }}</TableHead>
+              <TableHead>{{ t("admin.sessions.table.loginTime") }}</TableHead>
+              <TableHead>{{ t("admin.sessions.table.expiresAt") }}</TableHead>
+              <TableHead class="w-[210px] text-right">{{
+                t("admin.sessions.table.actions")
+              }}</TableHead>
+            </TableRow>
+          </TableHeader>
+
+          <TableBody v-if="hasSessions">
+            <TableRow v-for="session in sessions" :key="session.id">
+              <TableCell>
+                <Tooltip>
+                  <TooltipTrigger as-child>
+                    <div class="cursor-help font-mono text-xs">
+                      {{ middleEllipsis(session.id, 16) }}
+                    </div>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p class="break-all font-mono text-xs">{{ session.id }}</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TableCell>
+
+              <TableCell>
+                <div class="flex items-center gap-2">
+                  <div class="text-sm">
+                    <SessionCredentialName :session="session" />
+                  </div>
+                  <FnosAttachmentIndicator
+                    v-if="session.fnosAttachments?.length"
+                    :attachments="session.fnosAttachments"
+                  />
+                  <FnosAttachmentIndicator
+                    v-if="session.trimMediaAttachments?.length"
+                    :attachments="session.trimMediaAttachments"
+                    :icon-url="trimMediaLogoUrl"
+                    :icon-alt="t('admin.sessions.attachments.trimMediaIconAlt')"
+                    :title="t('admin.sessions.attachments.trimMediaTitle')"
+                    :trigger-label="
+                      t('admin.sessions.attachments.trimMediaTriggerLabel')
+                    "
+                    :item-label="
+                      t('admin.sessions.attachments.trimMediaItemLabel')
+                    "
+                    :footer-text="
+                      t('admin.sessions.attachments.trimMediaFooter')
+                    "
+                  />
+                </div>
+              </TableCell>
+
+              <TableCell class="min-w-[180px]">
+                <InlineCommentEditor
+                  :text="session.comment"
+                  :save="(value) => updateComment(session.id, value)"
+                />
+              </TableCell>
+
+              <TableCell>
+                <Tooltip>
+                  <TooltipTrigger as-child>
+                    <div class="cursor-help font-mono text-sm">
+                      {{ middleEllipsis(session.ip, 24) }}
+                    </div>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p class="break-all font-mono text-xs">{{ session.ip }}</p>
+                  </TooltipContent>
+                </Tooltip>
+                <div
+                  v-if="session.ipLocation"
+                  class="line-clamp-1 text-xs text-muted-foreground"
+                >
+                  {{ session.ipLocation }}
+                </div>
+              </TableCell>
+
+              <TableCell>
+                <div class="text-sm">
+                  <HumanFriendlyTime
+                    :value="session.loginTime"
+                    :locale="locale"
+                  />
+                </div>
+              </TableCell>
+
+              <TableCell>
+                <div class="text-sm">
+                  <HumanFriendlyTime
+                    :value="session.expiresAt"
+                    :locale="locale"
+                  />
+                </div>
+              </TableCell>
+
+              <TableCell class="text-right">
+                <div class="flex justify-end gap-2">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    class="gap-1.5"
+                    @click="openMobility(session)"
+                  >
+                    <GitBranch class="h-4 w-4" />
+                    {{ t("admin.sessions.mobility") }}
+                  </Button>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    class="gap-1.5"
+                    @click="openDetail(session)"
+                  >
+                    <Eye class="h-4 w-4" />
+                    {{ t("admin.sessions.detail") }}
+                  </Button>
+                  <ConfirmDangerPopover
+                    :title="t('admin.sessions.confirmKickTitle')"
+                    :description="t('admin.sessions.confirmKickDescription')"
+                    :confirm-text="t('admin.sessions.confirmKick')"
+                    :loading="isKicking"
+                    :disabled="isKicking"
+                    :on-confirm="() => kickSession(session.id)"
+                  >
+                    <template #trigger>
+                      <Button
+                        variant="destructive"
+                        size="sm"
+                        :disabled="isKicking"
+                        class="gap-1.5"
+                      >
+                        <Trash2 class="h-4 w-4" />
+                        {{ t("admin.sessions.kick") }}
+                      </Button>
+                    </template>
+                  </ConfirmDangerPopover>
+                </div>
+              </TableCell>
+            </TableRow>
+          </TableBody>
+
+          <TableBody v-else>
+            <TableRow>
+              <TableCell
+                colspan="8"
+                class="py-6 text-center text-muted-foreground"
+              >
+                {{ t("admin.sessions.empty") }}
+              </TableCell>
+            </TableRow>
+          </TableBody>
+        </Table>
+      </TooltipProvider>
+    </div>
+
+    <DetailDialog
+      :open="showDetail"
+      :title="t('admin.sessions.detailTitle')"
+      :description="t('admin.sessions.detailDescription')"
+      max-width-class="sm:max-w-[500px]"
+      @update:open="showDetail = $event"
+    >
+      <div v-if="detailSession">
+        <DetailFieldsGrid :items="detailItems" layout="compact" />
+      </div>
+    </DetailDialog>
+  </div>
+</template>

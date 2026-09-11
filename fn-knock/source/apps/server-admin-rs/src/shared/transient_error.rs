@@ -1,1 +1,64 @@
-cHViKGNyYXRlKSBmbiBpc190cmFuc2llbnRfcnVudGltZV9lcnJvcihlcnJvcjogJnN0cikgLT4gYm9vbCB7CiAgICBsZXQgZXJyb3IgPSBlcnJvci50b19hc2NpaV9sb3dlcmNhc2UoKTsKICAgIFsKICAgICAgICAidGltZW91dCBleHBpcmVkIiwKICAgICAgICAidGltZWQgb3V0IiwKICAgICAgICAiZGVhZGxpbmUgZXhjZWVkZWQiLAogICAgICAgICJkZWFkbGluZWV4Y2VlZGVkIiwKICAgICAgICAicmV0dXJuZWQgNTAwIGludGVybmFsIHNlcnZlciBlcnJvciIsCiAgICAgICAgInJldHVybmVkIDUwMiBiYWQgZ2F0ZXdheSIsCiAgICAgICAgInJldHVybmVkIDUwMyBzZXJ2aWNlIHVuYXZhaWxhYmxlIiwKICAgICAgICAicmV0dXJuZWQgNTA0IGdhdGV3YXkgdGltZW91dCIsCiAgICAgICAgInN0YXR1czogdW5hdmFpbGFibGUiLAogICAgICAgICJ0cmFuc3BvcnQgZXJyb3IiLAogICAgICAgICJjb25uZWN0aW9uIHJlZnVzZWQiLAogICAgICAgICJjb25uZWN0aW9uIHJlc2V0IiwKICAgICAgICAiZGF0YWJhc2UgaXMgbG9ja2VkIiwKICAgICAgICAiZGF0YWJhc2UgaXMgYnVzeSIsCiAgICAgICAgImRpc2sgaS9vIGVycm9yIiwKICAgICAgICAidGVtcG9yYXJpbHkgdW5hdmFpbGFibGUiLAogICAgXQogICAgLml0ZXIoKQogICAgLmFueSh8bWFya2VyfCBlcnJvci5jb250YWlucyhtYXJrZXIpKQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKCiAgICAjW3Rlc3RdCiAgICBmbiB0cmFuc2llbnRfZXJyb3JfY2xhc3NpZmljYXRpb25faXNfY29uc2VydmF0aXZlKCkgewogICAgICAgIGZvciBlcnJvciBpbiBbCiAgICAgICAgICAgICJUaW1lb3V0IGV4cGlyZWQiLAogICAgICAgICAgICAicmVxdWVzdCB0aW1lZCBvdXQiLAogICAgICAgICAgICAiZGVhZGxpbmUgZXhjZWVkZWQiLAogICAgICAgICAgICAicmV0dXJuZWQgNTAwIEludGVybmFsIFNlcnZlciBFcnJvciIsCiAgICAgICAgICAgICJyZXR1cm5lZCA1MDIgQmFkIEdhdGV3YXkiLAogICAgICAgICAgICAicmV0dXJuZWQgNTAzIFNlcnZpY2UgVW5hdmFpbGFibGUiLAogICAgICAgICAgICAicmV0dXJuZWQgNTA0IEdhdGV3YXkgVGltZW91dCIsCiAgICAgICAgICAgICJzdGF0dXM6IFVuYXZhaWxhYmxlIiwKICAgICAgICAgICAgInRyYW5zcG9ydCBlcnJvciIsCiAgICAgICAgICAgICJjb25uZWN0aW9uIHJlZnVzZWQiLAogICAgICAgICAgICAiY29ubmVjdGlvbiByZXNldCBieSBwZWVyIiwKICAgICAgICAgICAgImRhdGFiYXNlIGlzIGxvY2tlZCIsCiAgICAgICAgICAgICJkYXRhYmFzZSBpcyBidXN5IiwKICAgICAgICAgICAgImRpc2sgSS9PIGVycm9yIiwKICAgICAgICAgICAgInRlbXBvcmFyaWx5IHVuYXZhaWxhYmxlIiwKICAgICAgICBdIHsKICAgICAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgICAgIGlzX3RyYW5zaWVudF9ydW50aW1lX2Vycm9yKGVycm9yKSwKICAgICAgICAgICAgICAgICJleHBlY3RlZCB0cmFuc2llbnQ6IHtlcnJvcn0iCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIGZvciBlcnJvciBpbiBbCiAgICAgICAgICAgICJyZXR1cm5lZCA0MDAgQmFkIFJlcXVlc3QiLAogICAgICAgICAgICAicmV0dXJuZWQgNDAxIFVuYXV0aG9yaXplZCIsCiAgICAgICAgICAgICJpbnZhbGlkIGhvc3QgcnVsZSIsCiAgICAgICAgXSB7CiAgICAgICAgICAgIGFzc2VydCEoCiAgICAgICAgICAgICAgICAhaXNfdHJhbnNpZW50X3J1bnRpbWVfZXJyb3IoZXJyb3IpLAogICAgICAgICAgICAgICAgImV4cGVjdGVkIHBlcm1hbmVudDoge2Vycm9yfSIKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICB9Cn0K
+pub(crate) fn is_transient_runtime_error(error: &str) -> bool {
+    let error = error.to_ascii_lowercase();
+    [
+        "timeout expired",
+        "timed out",
+        "deadline exceeded",
+        "deadlineexceeded",
+        "returned 500 internal server error",
+        "returned 502 bad gateway",
+        "returned 503 service unavailable",
+        "returned 504 gateway timeout",
+        "status: unavailable",
+        "transport error",
+        "connection refused",
+        "connection reset",
+        "database is locked",
+        "database is busy",
+        "disk i/o error",
+        "temporarily unavailable",
+    ]
+    .iter()
+    .any(|marker| error.contains(marker))
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn transient_error_classification_is_conservative() {
+        for error in [
+            "Timeout expired",
+            "request timed out",
+            "deadline exceeded",
+            "returned 500 Internal Server Error",
+            "returned 502 Bad Gateway",
+            "returned 503 Service Unavailable",
+            "returned 504 Gateway Timeout",
+            "status: Unavailable",
+            "transport error",
+            "connection refused",
+            "connection reset by peer",
+            "database is locked",
+            "database is busy",
+            "disk I/O error",
+            "temporarily unavailable",
+        ] {
+            assert!(
+                is_transient_runtime_error(error),
+                "expected transient: {error}"
+            );
+        }
+        for error in [
+            "returned 400 Bad Request",
+            "returned 401 Unauthorized",
+            "invalid host rule",
+        ] {
+            assert!(
+                !is_transient_runtime_error(error),
+                "expected permanent: {error}"
+            );
+        }
+    }
+}

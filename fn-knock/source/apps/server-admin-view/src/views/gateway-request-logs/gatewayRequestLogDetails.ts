@@ -1,1 +1,227 @@
-aW1wb3J0IHR5cGUgeyBHYXRld2F5TG9nRW50cnkgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsgYnVpbGREZXRhaWxGaWVsZHMgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL2J1aWxkRGV0YWlsRmllbGRzIjsKaW1wb3J0IHsgZm9ybWF0RGF0ZVRpbWVTYWZlIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9mb3JtYXREYXRlVGltZVNhZmUiOwppbXBvcnQgdHlwZSB7IEdhdGV3YXlMb2dUcmFuc2xhdG9yIH0gZnJvbSAiLi9nYXRld2F5LXJlcXVlc3QtbG9nLXR5cGVzIjsKaW1wb3J0IHsKICBhY2Nlc3NNb2RlTGFiZWwsCiAgYXV0aERlY2lzaW9uTGFiZWwsCiAgYXV0aEdyYW50U3RhdGVMYWJlbCwKICBjcmVkZW50aWFsTWV0aG9kTGFiZWwsCiAgZm9ybWF0Qm9vbGVhbiwKICBmb3JtYXREdXJhdGlvbiwKICBmb3JtYXRSdWxlSWRzLAogIHJvdXRlVHlwZUxhYmVsLAogIHdhZkFjdGlvbkxhYmVsLAogIHdhZk1vZGVMYWJlbCwKfSBmcm9tICIuL2dhdGV3YXlSZXF1ZXN0TG9nUHJlc2VudGF0aW9uIjsKCmNvbnN0IGRldGFpbEZpZWxkcyA9IFsKICB7IGtleTogInRpbWUiLCBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMudGltZSIgfSwKICB7IGtleTogIm1ldGhvZCIsIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy5tZXRob2QiIH0sCiAgeyBrZXk6ICJzY2hlbWUiLCBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMuc2NoZW1lIiB9LAogIHsga2V5OiAiaG9zdCIsIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy5ob3N0IiB9LAogIHsga2V5OiAicGF0aCIsIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy5wYXRoIiB9LAogIHsga2V5OiAicXVlcnkiLCBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMucXVlcnkiIH0sCiAgewogICAga2V5OiAicmVxdWVzdF91cmkiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsRmllbGRzLnJlcXVlc3RVcmkiLAogIH0sCiAgewogICAga2V5OiAicHJvdG9jb2wiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsRmllbGRzLnByb3RvY29sIiwKICB9LAogIHsga2V5OiAic3RhdHVzIiwgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsRmllbGRzLnN0YXR1cyIgfSwKICB7CiAgICBrZXk6ICJkdXJhdGlvbl9tcyIsCiAgICBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMuZHVyYXRpb24iLAogIH0sCiAgewogICAga2V5OiAiY2xpZW50X2lwIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy5jbGllbnRJcCIsCiAgfSwKICB7CiAgICBrZXk6ICJpcExvY2F0aW9uIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy5pcExvY2F0aW9uIiwKICB9LAogIHsKICAgIGtleTogInJlbW90ZV9pcCIsCiAgICBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMucmVtb3RlSXAiLAogIH0sCiAgewogICAga2V5OiAicmVtb3RlX2FkZHIiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsRmllbGRzLnJlbW90ZUFkZHIiLAogIH0sCiAgewogICAga2V5OiAidXNlcl9hZ2VudCIsCiAgICBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMudXNlckFnZW50IiwKICB9LAogIHsKICAgIGtleTogInJlZmVyZXIiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsRmllbGRzLnJlZmVyZXIiLAogIH0sCiAgewogICAga2V5OiAibG9nZ2VkX2luIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy5sb2dnZWRJbiIsCiAgfSwKICB7CiAgICBrZXk6ICJhdXRoX3JlcXVpcmVkIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy5hdXRoUmVxdWlyZWQiLAogIH0sCiAgewogICAga2V5OiAiYXV0aF9kZWNpc2lvbiIsCiAgICBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMuYXV0aERlY2lzaW9uIiwKICB9LAogIHsKICAgIGtleTogImF1dGhfcnVsZV9ncm91cF9pZCIsCiAgICBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMuYXV0aFJ1bGVHcm91cElkIiwKICB9LAogIHsKICAgIGtleTogImF1dGhfZ3JhbnRfc3RhdGUiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsRmllbGRzLmF1dGhHcmFudFN0YXRlIiwKICB9LAogIHsKICAgIGtleTogImF1dGhfY3JlZGVudGlhbF9tZXRob2QiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsRmllbGRzLmF1dGhDcmVkZW50aWFsTWV0aG9kIiwKICB9LAogIHsKICAgIGtleTogImF1dGhfY3JlZGVudGlhbF9uYW1lIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy5hdXRoQ3JlZGVudGlhbE5hbWUiLAogIH0sCiAgewogICAga2V5OiAiYXV0aF9jcmVkZW50aWFsX2lkIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy5hdXRoQ3JlZGVudGlhbElkIiwKICB9LAogIHsKICAgIGtleTogImF1dGhfbGlua2VkX3RvdHBfbmFtZSIsCiAgICBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMuYXV0aExpbmtlZFRvdHBOYW1lIiwKICB9LAogIHsKICAgIGtleTogImF1dGhfbGlua2VkX3RvdHBfaWQiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsRmllbGRzLmF1dGhMaW5rZWRUb3RwSWQiLAogIH0sCiAgewogICAga2V5OiAiYWNjZXNzX21vZGUiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsRmllbGRzLmFjY2Vzc01vZGUiLAogIH0sCiAgewogICAga2V5OiAicm91dGVfdHlwZSIsCiAgICBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMucm91dGVUeXBlIiwKICB9LAogIHsKICAgIGtleTogInJvdXRlX2tleSIsCiAgICBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMucm91dGVLZXkiLAogIH0sCiAgewogICAga2V5OiAidXBzdHJlYW0iLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsRmllbGRzLnVwc3RyZWFtIiwKICB9LAogIHsKICAgIGtleTogInVwc3RyZWFtX2Vycm9yX2NsYXNzIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy51cHN0cmVhbUVycm9yQ2xhc3MiLAogIH0sCiAgeyBrZXk6ICJtYXRjaGVkIiwgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsRmllbGRzLm1hdGNoZWQiIH0sCiAgewogICAga2V5OiAiYnl0ZXNfaW4iLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsRmllbGRzLmJ5dGVzSW4iLAogIH0sCiAgewogICAga2V5OiAiYnl0ZXNfb3V0IiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy5ieXRlc091dCIsCiAgfSwKICB7IGtleTogInRscyIsIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy50bHMiIH0sCiAgewogICAga2V5OiAid2Vic29ja2V0IiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy53ZWJzb2NrZXQiLAogIH0sCiAgewogICAga2V5OiAiZW9fY29ubmVjdGluZ19pcCIsCiAgICBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMuZW9Db25uZWN0aW5nSXAiLAogIH0sCiAgewogICAga2V5OiAiYWxpX3JlYWxfY2xpZW50X2lwIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy5hbGlSZWFsQ2xpZW50SXAiLAogIH0sCiAgewogICAga2V5OiAieF9mb3J3YXJkZWRfZm9yIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy54Rm9yd2FyZGVkRm9yIiwKICB9LAogIHsKICAgIGtleTogInhfcmVhbF9pcCIsCiAgICBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMueFJlYWxJcCIsCiAgfSwKICB7CiAgICBrZXk6ICJ3YWZfYmxvY2tlZCIsCiAgICBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMud2FmQmxvY2tlZCIsCiAgfSwKICB7CiAgICBrZXk6ICJnZW5lcmFsX2JsYWNrbGlzdF9ibG9ja2VkIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy5nZW5lcmFsQmxhY2tsaXN0QmxvY2tlZCIsCiAgfSwKICB7CiAgICBrZXk6ICJ3YWZfdHJhY2VfaWQiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsRmllbGRzLndhZlRyYWNlSWQiLAogIH0sCiAgewogICAga2V5OiAid2FmX21vZGUiLAogICAgbGFiZWxLZXk6ICJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZGV0YWlsRmllbGRzLndhZk1vZGUiLAogIH0sCiAgewogICAga2V5OiAid2FmX2FjdGlvbiIsCiAgICBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMud2FmQWN0aW9uIiwKICB9LAogIHsKICAgIGtleTogIndhZl9ydWxlX2lkcyIsCiAgICBsYWJlbEtleTogImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5kZXRhaWxGaWVsZHMud2FmUnVsZUlkcyIsCiAgfSwKICB7CiAgICBrZXk6ICJ3YWZfYnVuZGxlIiwKICAgIGxhYmVsS2V5OiAiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmRldGFpbEZpZWxkcy53YWZCdW5kbGUiLAogIH0sCl0gYXMgY29uc3Q7Cgpjb25zdCBsb2NhbGl6ZURldGFpbEZpZWxkcyA9ICh0OiBHYXRld2F5TG9nVHJhbnNsYXRvcikgPT4KICBkZXRhaWxGaWVsZHMubWFwKChmaWVsZCkgPT4gKHsKICAgIGtleTogZmllbGQua2V5LAogICAgbGFiZWw6IHQoZmllbGQubGFiZWxLZXkpLAogIH0pKTsKCmV4cG9ydCBjb25zdCBidWlsZEdhdGV3YXlMb2dEZXRhaWxJdGVtcyA9ICgKICBlbnRyeTogR2F0ZXdheUxvZ0VudHJ5IHwgbnVsbCB8IHVuZGVmaW5lZCwKICB0OiBHYXRld2F5TG9nVHJhbnNsYXRvciwKICBsb2NhbGU6IHN0cmluZywKKSA9PgogIGJ1aWxkRGV0YWlsRmllbGRzKGVudHJ5LCBsb2NhbGl6ZURldGFpbEZpZWxkcyh0KSwgewogICAgZm9ybWF0OiAoa2V5LCB2YWx1ZSkgPT4gewogICAgICBpZiAoa2V5ID09PSAidGltZSIpIHJldHVybiBmb3JtYXREYXRlVGltZVNhZmUodmFsdWUsIHsgbG9jYWxlIH0pOwogICAgICBpZiAoa2V5ID09PSAiZHVyYXRpb25fbXMiKSByZXR1cm4gZm9ybWF0RHVyYXRpb24odmFsdWUpOwogICAgICBpZiAoCiAgICAgICAga2V5ID09PSAibG9nZ2VkX2luIiB8fAogICAgICAgIGtleSA9PT0gImF1dGhfcmVxdWlyZWQiIHx8CiAgICAgICAga2V5ID09PSAibWF0Y2hlZCIgfHwKICAgICAgICBrZXkgPT09ICJ0bHMiIHx8CiAgICAgICAga2V5ID09PSAid2Vic29ja2V0IiB8fAogICAgICAgIGtleSA9PT0gIndhZl9ibG9ja2VkIiB8fAogICAgICAgIGtleSA9PT0gImdlbmVyYWxfYmxhY2tsaXN0X2Jsb2NrZWQiCiAgICAgICkgewogICAgICAgIHJldHVybiBmb3JtYXRCb29sZWFuKEJvb2xlYW4odmFsdWUpLCB0KTsKICAgICAgfQogICAgICBpZiAoa2V5ID09PSAicm91dGVfdHlwZSIpIHJldHVybiByb3V0ZVR5cGVMYWJlbChTdHJpbmcodmFsdWUgfHwgIiIpLCB0KTsKICAgICAgaWYgKGtleSA9PT0gImF1dGhfZGVjaXNpb24iKQogICAgICAgIHJldHVybiBhdXRoRGVjaXNpb25MYWJlbChTdHJpbmcodmFsdWUgfHwgIiIpLCB0KTsKICAgICAgaWYgKGtleSA9PT0gImF1dGhfZ3JhbnRfc3RhdGUiKQogICAgICAgIHJldHVybiBhdXRoR3JhbnRTdGF0ZUxhYmVsKFN0cmluZyh2YWx1ZSB8fCAiIiksIHQpOwogICAgICBpZiAoa2V5ID09PSAiYXV0aF9jcmVkZW50aWFsX21ldGhvZCIpCiAgICAgICAgcmV0dXJuIGNyZWRlbnRpYWxNZXRob2RMYWJlbChTdHJpbmcodmFsdWUgfHwgIiIpLCB0KSB8fCAiLSI7CiAgICAgIGlmIChrZXkgPT09ICJhY2Nlc3NfbW9kZSIpIHJldHVybiBhY2Nlc3NNb2RlTGFiZWwoU3RyaW5nKHZhbHVlIHx8ICIiKSwgdCk7CiAgICAgIGlmIChrZXkgPT09ICJ3YWZfYWN0aW9uIikgcmV0dXJuIHdhZkFjdGlvbkxhYmVsKFN0cmluZyh2YWx1ZSB8fCAiIiksIHQpOwogICAgICBpZiAoa2V5ID09PSAid2FmX21vZGUiKSByZXR1cm4gd2FmTW9kZUxhYmVsKFN0cmluZyh2YWx1ZSB8fCAiIiksIHQpOwogICAgICBpZiAoa2V5ID09PSAid2FmX3J1bGVfaWRzIikgcmV0dXJuIGZvcm1hdFJ1bGVJZHModmFsdWUgYXMgbnVtYmVyW10pOwogICAgICBpZiAodmFsdWUgPT09IHVuZGVmaW5lZCB8fCB2YWx1ZSA9PT0gbnVsbCB8fCB2YWx1ZSA9PT0gIiIpIHJldHVybiAiLSI7CiAgICAgIHJldHVybiB2YWx1ZTsKICAgIH0sCiAgfSk7CgpleHBvcnQgY29uc3QgYnVpbGRHYXRld2F5TG9nRGV0YWlsQ29weVRleHQgPSAoCiAgZGV0YWlsSXRlbXM6IFJldHVyblR5cGU8dHlwZW9mIGJ1aWxkR2F0ZXdheUxvZ0RldGFpbEl0ZW1zPiwKKSA9PgogIGRldGFpbEl0ZW1zLm1hcCgoaXRlbSkgPT4gYCR7aXRlbS5sYWJlbH06ICR7U3RyaW5nKGl0ZW0udmFsdWUpfWApLmpvaW4oIlxuIik7Cg==
+import type { GatewayLogEntry } from "@/types";
+import { buildDetailFields } from "@admin-shared/utils/buildDetailFields";
+import { formatDateTimeSafe } from "@admin-shared/utils/formatDateTimeSafe";
+import type { GatewayLogTranslator } from "./gateway-request-log-types";
+import {
+  accessModeLabel,
+  authDecisionLabel,
+  authGrantStateLabel,
+  credentialMethodLabel,
+  formatBoolean,
+  formatDuration,
+  formatRuleIds,
+  routeTypeLabel,
+  wafActionLabel,
+  wafModeLabel,
+} from "./gatewayRequestLogPresentation";
+
+const detailFields = [
+  { key: "time", labelKey: "admin.gatewayRequestLogs.detailFields.time" },
+  { key: "method", labelKey: "admin.gatewayRequestLogs.detailFields.method" },
+  { key: "scheme", labelKey: "admin.gatewayRequestLogs.detailFields.scheme" },
+  { key: "host", labelKey: "admin.gatewayRequestLogs.detailFields.host" },
+  { key: "path", labelKey: "admin.gatewayRequestLogs.detailFields.path" },
+  { key: "query", labelKey: "admin.gatewayRequestLogs.detailFields.query" },
+  {
+    key: "request_uri",
+    labelKey: "admin.gatewayRequestLogs.detailFields.requestUri",
+  },
+  {
+    key: "protocol",
+    labelKey: "admin.gatewayRequestLogs.detailFields.protocol",
+  },
+  { key: "status", labelKey: "admin.gatewayRequestLogs.detailFields.status" },
+  {
+    key: "duration_ms",
+    labelKey: "admin.gatewayRequestLogs.detailFields.duration",
+  },
+  {
+    key: "client_ip",
+    labelKey: "admin.gatewayRequestLogs.detailFields.clientIp",
+  },
+  {
+    key: "ipLocation",
+    labelKey: "admin.gatewayRequestLogs.detailFields.ipLocation",
+  },
+  {
+    key: "remote_ip",
+    labelKey: "admin.gatewayRequestLogs.detailFields.remoteIp",
+  },
+  {
+    key: "remote_addr",
+    labelKey: "admin.gatewayRequestLogs.detailFields.remoteAddr",
+  },
+  {
+    key: "user_agent",
+    labelKey: "admin.gatewayRequestLogs.detailFields.userAgent",
+  },
+  {
+    key: "referer",
+    labelKey: "admin.gatewayRequestLogs.detailFields.referer",
+  },
+  {
+    key: "logged_in",
+    labelKey: "admin.gatewayRequestLogs.detailFields.loggedIn",
+  },
+  {
+    key: "auth_required",
+    labelKey: "admin.gatewayRequestLogs.detailFields.authRequired",
+  },
+  {
+    key: "auth_decision",
+    labelKey: "admin.gatewayRequestLogs.detailFields.authDecision",
+  },
+  {
+    key: "auth_rule_group_id",
+    labelKey: "admin.gatewayRequestLogs.detailFields.authRuleGroupId",
+  },
+  {
+    key: "auth_grant_state",
+    labelKey: "admin.gatewayRequestLogs.detailFields.authGrantState",
+  },
+  {
+    key: "auth_credential_method",
+    labelKey: "admin.gatewayRequestLogs.detailFields.authCredentialMethod",
+  },
+  {
+    key: "auth_credential_name",
+    labelKey: "admin.gatewayRequestLogs.detailFields.authCredentialName",
+  },
+  {
+    key: "auth_credential_id",
+    labelKey: "admin.gatewayRequestLogs.detailFields.authCredentialId",
+  },
+  {
+    key: "auth_linked_totp_name",
+    labelKey: "admin.gatewayRequestLogs.detailFields.authLinkedTotpName",
+  },
+  {
+    key: "auth_linked_totp_id",
+    labelKey: "admin.gatewayRequestLogs.detailFields.authLinkedTotpId",
+  },
+  {
+    key: "access_mode",
+    labelKey: "admin.gatewayRequestLogs.detailFields.accessMode",
+  },
+  {
+    key: "route_type",
+    labelKey: "admin.gatewayRequestLogs.detailFields.routeType",
+  },
+  {
+    key: "route_key",
+    labelKey: "admin.gatewayRequestLogs.detailFields.routeKey",
+  },
+  {
+    key: "upstream",
+    labelKey: "admin.gatewayRequestLogs.detailFields.upstream",
+  },
+  {
+    key: "upstream_error_class",
+    labelKey: "admin.gatewayRequestLogs.detailFields.upstreamErrorClass",
+  },
+  { key: "matched", labelKey: "admin.gatewayRequestLogs.detailFields.matched" },
+  {
+    key: "bytes_in",
+    labelKey: "admin.gatewayRequestLogs.detailFields.bytesIn",
+  },
+  {
+    key: "bytes_out",
+    labelKey: "admin.gatewayRequestLogs.detailFields.bytesOut",
+  },
+  { key: "tls", labelKey: "admin.gatewayRequestLogs.detailFields.tls" },
+  {
+    key: "websocket",
+    labelKey: "admin.gatewayRequestLogs.detailFields.websocket",
+  },
+  {
+    key: "eo_connecting_ip",
+    labelKey: "admin.gatewayRequestLogs.detailFields.eoConnectingIp",
+  },
+  {
+    key: "ali_real_client_ip",
+    labelKey: "admin.gatewayRequestLogs.detailFields.aliRealClientIp",
+  },
+  {
+    key: "x_forwarded_for",
+    labelKey: "admin.gatewayRequestLogs.detailFields.xForwardedFor",
+  },
+  {
+    key: "x_real_ip",
+    labelKey: "admin.gatewayRequestLogs.detailFields.xRealIp",
+  },
+  {
+    key: "waf_blocked",
+    labelKey: "admin.gatewayRequestLogs.detailFields.wafBlocked",
+  },
+  {
+    key: "general_blacklist_blocked",
+    labelKey: "admin.gatewayRequestLogs.detailFields.generalBlacklistBlocked",
+  },
+  {
+    key: "waf_trace_id",
+    labelKey: "admin.gatewayRequestLogs.detailFields.wafTraceId",
+  },
+  {
+    key: "waf_mode",
+    labelKey: "admin.gatewayRequestLogs.detailFields.wafMode",
+  },
+  {
+    key: "waf_action",
+    labelKey: "admin.gatewayRequestLogs.detailFields.wafAction",
+  },
+  {
+    key: "waf_rule_ids",
+    labelKey: "admin.gatewayRequestLogs.detailFields.wafRuleIds",
+  },
+  {
+    key: "waf_bundle",
+    labelKey: "admin.gatewayRequestLogs.detailFields.wafBundle",
+  },
+] as const;
+
+const localizeDetailFields = (t: GatewayLogTranslator) =>
+  detailFields.map((field) => ({
+    key: field.key,
+    label: t(field.labelKey),
+  }));
+
+export const buildGatewayLogDetailItems = (
+  entry: GatewayLogEntry | null | undefined,
+  t: GatewayLogTranslator,
+  locale: string,
+) =>
+  buildDetailFields(entry, localizeDetailFields(t), {
+    format: (key, value) => {
+      if (key === "time") return formatDateTimeSafe(value, { locale });
+      if (key === "duration_ms") return formatDuration(value);
+      if (
+        key === "logged_in" ||
+        key === "auth_required" ||
+        key === "matched" ||
+        key === "tls" ||
+        key === "websocket" ||
+        key === "waf_blocked" ||
+        key === "general_blacklist_blocked"
+      ) {
+        return formatBoolean(Boolean(value), t);
+      }
+      if (key === "route_type") return routeTypeLabel(String(value || ""), t);
+      if (key === "auth_decision")
+        return authDecisionLabel(String(value || ""), t);
+      if (key === "auth_grant_state")
+        return authGrantStateLabel(String(value || ""), t);
+      if (key === "auth_credential_method")
+        return credentialMethodLabel(String(value || ""), t) || "-";
+      if (key === "access_mode") return accessModeLabel(String(value || ""), t);
+      if (key === "waf_action") return wafActionLabel(String(value || ""), t);
+      if (key === "waf_mode") return wafModeLabel(String(value || ""), t);
+      if (key === "waf_rule_ids") return formatRuleIds(value as number[]);
+      if (value === undefined || value === null || value === "") return "-";
+      return value;
+    },
+  });
+
+export const buildGatewayLogDetailCopyText = (
+  detailItems: ReturnType<typeof buildGatewayLogDetailItems>,
+) =>
+  detailItems.map((item) => `${item.label}: ${String(item.value)}`).join("\n");

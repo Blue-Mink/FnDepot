@@ -1,1 +1,28 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB0eXBlIHsgT1RQSW5wdXRFbWl0cywgT1RQSW5wdXRQcm9wcyB9IGZyb20gInZ1ZS1pbnB1dC1vdHAiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgdXNlRm9yd2FyZFByb3BzRW1pdHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBPVFBJbnB1dCB9IGZyb20gInZ1ZS1pbnB1dC1vdHAiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPE9UUElucHV0UHJvcHMgJiB7IGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0gfT4oKQoKY29uc3QgZW1pdHMgPSBkZWZpbmVFbWl0czxPVFBJbnB1dEVtaXRzPigpCgpjb25zdCBkZWxlZ2F0ZWRQcm9wcyA9IHJlYWN0aXZlT21pdChwcm9wcywgImNsYXNzIikKCmNvbnN0IGZvcndhcmRlZCA9IHVzZUZvcndhcmRQcm9wc0VtaXRzKGRlbGVnYXRlZFByb3BzLCBlbWl0cykKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPE9UUElucHV0CiAgICB2LXNsb3Q9InNsb3RQcm9wcyIKICAgIHYtYmluZD0iZm9yd2FyZGVkIgogICAgOmNvbnRhaW5lci1jbGFzcz0iY24oJ2ZsZXggaXRlbXMtY2VudGVyIGdhcC0yIGhhcy1kaXNhYmxlZDpvcGFjaXR5LTUwJywgcHJvcHMuY2xhc3MpIgogICAgZGF0YS1zbG90PSJpbnB1dC1vdHAiCiAgICBjbGFzcz0iZGlzYWJsZWQ6Y3Vyc29yLW5vdC1hbGxvd2VkIgogID4KICAgIDxzbG90IHYtYmluZD0ic2xvdFByb3BzIiAvPgogIDwvT1RQSW5wdXQ+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import type { OTPInputEmits, OTPInputProps } from "vue-input-otp"
+import { reactiveOmit } from "@vueuse/core"
+import { useForwardPropsEmits } from "reka-ui"
+import { OTPInput } from "vue-input-otp"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<OTPInputProps & { class?: HTMLAttributes["class"] }>()
+
+const emits = defineEmits<OTPInputEmits>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwarded = useForwardPropsEmits(delegatedProps, emits)
+</script>
+
+<template>
+  <OTPInput
+    v-slot="slotProps"
+    v-bind="forwarded"
+    :container-class="cn('flex items-center gap-2 has-disabled:opacity-50', props.class)"
+    data-slot="input-otp"
+    class="disabled:cursor-not-allowed"
+  >
+    <slot v-bind="slotProps" />
+  </OTPInput>
+</template>

@@ -1,1 +1,32 @@
-ZXhwb3J0IGNvbnN0IERPQ0tFUl9BRE1JTl9BVVRIX1JFU1BPTlNFX0hFQURFUiA9CiAgIngtZm4ta25vY2stYWRtaW4tYXV0aCI7Cgpjb25zdCByZWFkSGVhZGVyID0gKGhlYWRlcnM6IHVua25vd24sIG5hbWU6IHN0cmluZyk6IHN0cmluZyA9PiB7CiAgaWYgKCFoZWFkZXJzIHx8IHR5cGVvZiBoZWFkZXJzICE9PSAib2JqZWN0IikgcmV0dXJuICIiOwoKICBjb25zdCBnZXR0ZXIgPSAoaGVhZGVycyBhcyB7IGdldD86IHVua25vd24gfSkuZ2V0OwogIGlmICh0eXBlb2YgZ2V0dGVyID09PSAiZnVuY3Rpb24iKSB7CiAgICBjb25zdCB2YWx1ZSA9IGdldHRlci5jYWxsKGhlYWRlcnMsIG5hbWUpOwogICAgcmV0dXJuIHR5cGVvZiB2YWx1ZSA9PT0gInN0cmluZyIgPyB2YWx1ZS50cmltKCkgOiAiIjsKICB9CgogIGZvciAoY29uc3QgW2tleSwgdmFsdWVdIG9mIE9iamVjdC5lbnRyaWVzKGhlYWRlcnMpKSB7CiAgICBpZiAoa2V5LnRvTG93ZXJDYXNlKCkgIT09IG5hbWUpIGNvbnRpbnVlOwogICAgaWYgKEFycmF5LmlzQXJyYXkodmFsdWUpKSByZXR1cm4gU3RyaW5nKHZhbHVlWzBdID8/ICIiKS50cmltKCk7CiAgICByZXR1cm4gdHlwZW9mIHZhbHVlID09PSAic3RyaW5nIiA/IHZhbHVlLnRyaW0oKSA6ICIiOwogIH0KICByZXR1cm4gIiI7Cn07CgpleHBvcnQgY29uc3QgaXNEb2NrZXJBZG1pbkF1dGhSZXF1aXJlZFJlc3BvbnNlID0gKGVycm9yOiB1bmtub3duKTogYm9vbGVhbiA9PiB7CiAgaWYgKCFlcnJvciB8fCB0eXBlb2YgZXJyb3IgIT09ICJvYmplY3QiKSByZXR1cm4gZmFsc2U7CiAgY29uc3QgcmVzcG9uc2UgPSAoZXJyb3IgYXMgeyByZXNwb25zZT86IHVua25vd24gfSkucmVzcG9uc2U7CiAgaWYgKCFyZXNwb25zZSB8fCB0eXBlb2YgcmVzcG9uc2UgIT09ICJvYmplY3QiKSByZXR1cm4gZmFsc2U7CgogIGNvbnN0IHR5cGVkUmVzcG9uc2UgPSByZXNwb25zZSBhcyB7IHN0YXR1cz86IHVua25vd247IGhlYWRlcnM/OiB1bmtub3duIH07CiAgcmV0dXJuICgKICAgIHR5cGVkUmVzcG9uc2Uuc3RhdHVzID09PSA0MDEgJiYKICAgIHJlYWRIZWFkZXIodHlwZWRSZXNwb25zZS5oZWFkZXJzLCBET0NLRVJfQURNSU5fQVVUSF9SRVNQT05TRV9IRUFERVIpID09PQogICAgICAicmVxdWlyZWQiCiAgKTsKfTsK
+export const DOCKER_ADMIN_AUTH_RESPONSE_HEADER =
+  "x-fn-knock-admin-auth";
+
+const readHeader = (headers: unknown, name: string): string => {
+  if (!headers || typeof headers !== "object") return "";
+
+  const getter = (headers as { get?: unknown }).get;
+  if (typeof getter === "function") {
+    const value = getter.call(headers, name);
+    return typeof value === "string" ? value.trim() : "";
+  }
+
+  for (const [key, value] of Object.entries(headers)) {
+    if (key.toLowerCase() !== name) continue;
+    if (Array.isArray(value)) return String(value[0] ?? "").trim();
+    return typeof value === "string" ? value.trim() : "";
+  }
+  return "";
+};
+
+export const isDockerAdminAuthRequiredResponse = (error: unknown): boolean => {
+  if (!error || typeof error !== "object") return false;
+  const response = (error as { response?: unknown }).response;
+  if (!response || typeof response !== "object") return false;
+
+  const typedResponse = response as { status?: unknown; headers?: unknown };
+  return (
+    typedResponse.status === 401 &&
+    readHeader(typedResponse.headers, DOCKER_ADMIN_AUTH_RESPONSE_HEADER) ===
+      "required"
+  );
+};

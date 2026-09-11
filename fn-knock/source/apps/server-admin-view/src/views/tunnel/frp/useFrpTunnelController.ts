@@ -1,1 +1,452 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgb25Vbm1vdW50ZWQsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gInZ1ZS1yb3V0ZXIiOwppbXBvcnQgeyBDb25maWdBUEkgfSBmcm9tICJAL2xpYi9hcGkvY29uZmlnIjsKaW1wb3J0IHsKICBGcnBjQVBJLAogIHR5cGUgRnJwY0luc3RhbmNlU3RhdHVzLAogIHR5cGUgRnJwY0luc3RhbmNlU3VtbWFyeSwKICB0eXBlIEZycGNJbnN0YW5jZXNPdmVydmlldywKfSBmcm9tICJAL2xpYi9hcGkvdHVubmVsIjsKaW1wb3J0IHsgU3lzdGVtQVBJIH0gZnJvbSAiQC9saWIvYXBpL3N5c3RlbSI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsKICBERUZBVUxUX0xPR19XSU5ET1dfU0laRSwKICBtZXJnZVBvbGxpbmdMb2dXaW5kb3csCn0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9sb2ctd2luZG93IjsKaW1wb3J0IHsgdXNlVGFyZ2V0UG9sbGluZyB9IGZyb20gIkAvY29tcG9zYWJsZXMvdXNlVGFyZ2V0UG9sbGluZyI7CmltcG9ydCB7IHVzZUNvbmZpZ1N0b3JlIH0gZnJvbSAiQC9zdG9yZS9jb25maWciOwppbXBvcnQgewogIHJlcGxhY2VGcnBjT3ZlcnZpZXdJdGVtLAogIHN1bW1hcml6ZUZycGNDb250ZW50LAp9IGZyb20gIi4vZnJwY0luc3RhbmNlTW9kZWwiOwoKdHlwZSBGcnBjRWRpdG9yRXhwb3NlID0gewogIGdldENvbnRlbnQ6ICgpID0+IHN0cmluZzsKICByZXNldEZyb21SYXc6IChyYXc6IHN0cmluZykgPT4gdm9pZDsKfTsKCmNvbnN0IFNUQVJUX0VSUk9SX1dBVENIX01TID0gMzBfMDAwOwpjb25zdCBDT05ORUNUSU9OX1JFRlVTRURfUkVHRVggPSAvXGJjb25uZWN0aW9uIHJlZnVzZWRcYi9pOwoKZXhwb3J0IGNvbnN0IHVzZUZycFR1bm5lbENvbnRyb2xsZXIgPSAoKSA9PiB7CiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7CiAgY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwogIGNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwogIGxldCBpc0Rpc3Bvc2VkID0gZmFsc2U7CiAgY29uc3Qgb3ZlcnZpZXcgPSByZWY8RnJwY0luc3RhbmNlc092ZXJ2aWV3IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgcHJpbWFyeUNvbmZpZyA9IHJlZigiIik7CiAgY29uc3QgcHJpbWFyeUxvZ3MgPSByZWY8c3RyaW5nW10+KFtdKTsKICBjb25zdCBzaG93SW5pdERpYWxvZyA9IHJlZihmYWxzZSk7CiAgY29uc3QgZnJwSW5zdGFsbGF0aW9uU3RhdHVzID0gcmVmPCJtaXNzaW5nIiB8ICJvdXRkYXRlZCIgfCAiY3VycmVudCI+KAogICAgIm1pc3NpbmciLAogICk7CiAgY29uc3QgZnJwVGFyZ2V0VmVyc2lvbiA9IHJlZigiIik7CiAgY29uc3QgY29uZmlnTG9hZGVkID0gcmVmKGZhbHNlKTsKICBjb25zdCBwcmltYXJ5RWRpdG9yUmVmID0gcmVmPEZycGNFZGl0b3JFeHBvc2UgfCBudWxsPihudWxsKTsKICBjb25zdCBzZXRQcmltYXJ5RWRpdG9yUmVmID0gKGVkaXRvcjogdW5rbm93bikgPT4gewogICAgcHJpbWFyeUVkaXRvclJlZi52YWx1ZSA9IGVkaXRvciBhcyBGcnBjRWRpdG9yRXhwb3NlIHwgbnVsbDsKICB9OwogIGNvbnN0IHN0YXJ0aW5nSW5zdGFuY2VJZCA9IHJlZjxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBzdG9wcGluZ0luc3RhbmNlSWQgPSByZWY8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgZGVsZXRpbmdJbnN0YW5jZUlkID0gcmVmPHN0cmluZyB8IG51bGw+KG51bGwpOwogIGNvbnN0IHN0YXJ0RXJyb3JUcmFjZSA9IHJlZjx7CiAgICBwaWQ6IG51bWJlcjsKICAgIG1hcmtlclNlZW46IGJvb2xlYW47CiAgICBleHBpcmVBdDogbnVtYmVyOwogIH0gfCBudWxsPihudWxsKTsKCiAgY29uc3QgZGVmYXVsdHMgPSBjb21wdXRlZCgKICAgICgpID0+IG92ZXJ2aWV3LnZhbHVlPy5kZWZhdWx0cyA/PyB7IGxvY2FsX3BvcnQ6ICI3OTk5IiB9LAogICk7CiAgY29uc3QgcHJpbWFyeUluc3RhbmNlID0gY29tcHV0ZWQoCiAgICAoKSA9PgogICAgICBvdmVydmlldy52YWx1ZT8uaXRlbXMuZmluZCgKICAgICAgICAoaXRlbSkgPT4gaXRlbS5pZCA9PT0gb3ZlcnZpZXcudmFsdWU/LnByaW1hcnlJbnN0YW5jZUlkLAogICAgICApID8/IG51bGwsCiAgKTsKICBjb25zdCBleHRyYUluc3RhbmNlcyA9IGNvbXB1dGVkKAogICAgKCkgPT4gb3ZlcnZpZXcudmFsdWU/Lml0ZW1zLmZpbHRlcigoaXRlbSkgPT4gIWl0ZW0uaXNQcmltYXJ5KSA/PyBbXSwKICApOwogIGNvbnN0IGlzSW5pdCA9IGNvbXB1dGVkKCgpID0+IG92ZXJ2aWV3LnZhbHVlPy5pbml0aWFsaXplZCA/PyBmYWxzZSk7CiAgY29uc3QgcnVubmluZyA9IGNvbXB1dGVkKCgpID0+IHByaW1hcnlJbnN0YW5jZS52YWx1ZT8ucnVubmluZyA/PyBmYWxzZSk7CiAgY29uc3QgcGlkID0gY29tcHV0ZWQoKCkgPT4gcHJpbWFyeUluc3RhbmNlLnZhbHVlPy5waWQgPz8gbnVsbCk7CiAgY29uc3QgY2FuU3RhcnQgPSBjb21wdXRlZCgKICAgICgpID0+CiAgICAgIGlzSW5pdC52YWx1ZSAmJgogICAgICAhcHJpbWFyeUluc3RhbmNlLnZhbHVlPy5kZXNpcmVkUnVubmluZyAmJgogICAgICAhcHJpbWFyeUluc3RhbmNlLnZhbHVlPy5ydW5uaW5nLAogICk7CiAgY29uc3QgY2FuU3RvcCA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgKHByaW1hcnlJbnN0YW5jZS52YWx1ZT8uZGVzaXJlZFJ1bm5pbmcgPz8gZmFsc2UpIHx8CiAgICAgIChwcmltYXJ5SW5zdGFuY2UudmFsdWU/LnJ1bm5pbmcgPz8gZmFsc2UpLAogICk7CiAgY29uc3QgcHJpbWFyeVN1bW1hcnkgPSBjb21wdXRlZCgKICAgICgpID0+CiAgICAgIHByaW1hcnlJbnN0YW5jZS52YWx1ZT8uc3VtbWFyeSA/PwogICAgICBzdW1tYXJpemVGcnBjQ29udGVudChwcmltYXJ5Q29uZmlnLnZhbHVlLCBkZWZhdWx0cy52YWx1ZS5sb2NhbF9wb3J0KSwKICApOwoKICBjb25zdCB7IGlzUGVuZGluZzogaXNTYXZpbmcsIHJ1bjogcnVuU2F2ZUNvbmZpZyB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmZycFR1bm5lbC5zYXZlRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4uZnJwVHVubmVsLnNhdmVGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzU3RhcnRpbmcsIHJ1bjogcnVuU3RhcnRGcnBjIH0gPSB1c2VBc3luY0FjdGlvbigpOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1N0b3BwaW5nLCBydW46IHJ1blN0b3BGcnBjIH0gPSB1c2VBc3luY0FjdGlvbigpOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc0NsZWFyaW5nTG9ncywgcnVuOiBydW5DbGVhckxvZ3MgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5mcnBUdW5uZWwuY2xlYXJMb2dzRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4uZnJwVHVubmVsLmNsZWFyTG9nc0ZhaWxlZCIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSwKICB9KTsKICBjb25zdCB7IHJ1bjogcnVuTG9hZFN0YXR1cyB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmZycFR1bm5lbC5sb2FkU3RhdHVzRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4uZnJwVHVubmVsLmxvYWRTdGF0dXNGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CiAgY29uc3QgeyBydW46IHJ1bkxvYWRDb25maWcgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5mcnBUdW5uZWwubG9hZENvbmZpZ0ZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLmZycFR1bm5lbC5sb2FkQ29uZmlnRmFpbGVkIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwoKICBjb25zdCBmb3JtYXRTdW1tYXJ5ID0gKHN1bW1hcnk6IEZycGNJbnN0YW5jZVN1bW1hcnkpID0+IHsKICAgIGNvbnN0IHNlcnZlciA9IHN1bW1hcnkuc2VydmVyQWRkcgogICAgICA/IGAke3N1bW1hcnkuc2VydmVyQWRkcn06JHtzdW1tYXJ5LnNlcnZlclBvcnQgfHwgIjcwMDAifWAKICAgICAgOiB0KCJhZG1pbi5mcnBUdW5uZWwubm90Q29uZmlndXJlZCIpOwogICAgcmV0dXJuIHQoImFkbWluLmZycFR1bm5lbC5zdW1tYXJ5IiwgewogICAgICBzZXJ2ZXIsCiAgICAgIGxvY2FsOiBzdW1tYXJ5LmxvY2FsUG9ydCB8fCBkZWZhdWx0cy52YWx1ZS5sb2NhbF9wb3J0LAogICAgICByZW1vdGU6IHN1bW1hcnkucmVtb3RlUG9ydCB8fCAiMCIsCiAgICB9KTsKICB9OwoKICBjb25zdCBnZXRJbnN0YW5jZURpc3BsYXlOYW1lID0gKAogICAgaW5zdGFuY2U6IEZycGNJbnN0YW5jZVN0YXR1cyB8IG51bGwgfCB1bmRlZmluZWQsCiAgKSA9PiB7CiAgICBpZiAoIWluc3RhbmNlKSByZXR1cm4gdCgiYWRtaW4uZnJwVHVubmVsLmluc3RhbmNlIik7CiAgICBjb25zdCBuYW1lID0gaW5zdGFuY2UubmFtZS50cmltKCk7CiAgICBpZiAobmFtZSkgcmV0dXJuIG5hbWU7CiAgICBpZiAoaW5zdGFuY2Uuc3VtbWFyeS5zZXJ2ZXJBZGRyKSB7CiAgICAgIHJldHVybiBgJHtpbnN0YW5jZS5zdW1tYXJ5LnNlcnZlckFkZHJ9OiR7aW5zdGFuY2Uuc3VtbWFyeS5zZXJ2ZXJQb3J0IHx8ICI3MDAwIn1gOwogICAgfQogICAgcmV0dXJuIGluc3RhbmNlLmlzUHJpbWFyeQogICAgICA/IHQoImFkbWluLmZycFR1bm5lbC5wcmltYXJ5RnJwIikKICAgICAgOiB0KCJhZG1pbi5mcnBUdW5uZWwuaW5zdGFuY2UiKTsKICB9OwoKICBjb25zdCB1cGRhdGVPdmVydmlld0l0ZW0gPSAoaXRlbTogRnJwY0luc3RhbmNlU3RhdHVzKSA9PiB7CiAgICBpZiAob3ZlcnZpZXcudmFsdWUpIHsKICAgICAgb3ZlcnZpZXcudmFsdWUgPSByZXBsYWNlRnJwY092ZXJ2aWV3SXRlbShvdmVydmlldy52YWx1ZSwgaXRlbSk7CiAgICB9CiAgfTsKCiAgY29uc3QgZ290b0luc3RhbmNlQ3JlYXRlID0gKCkgPT4gewogICAgdm9pZCByb3V0ZXIucHVzaCh7IHBhdGg6ICIvdHVubmVsL2ZycC9pbnN0YW5jZXMvbmV3IiB9KTsKICB9OwoKICBjb25zdCBnb3RvSW5zdGFuY2VEZXRhaWwgPSAoCiAgICBpbnN0YW5jZTogRnJwY0luc3RhbmNlU3RhdHVzLAogICAgc2VjdGlvbj86ICJjb25maWciIHwgImxvZ3MiLAogICkgPT4gewogICAgdm9pZCByb3V0ZXIucHVzaCh7CiAgICAgIHBhdGg6IGAvdHVubmVsL2ZycC9pbnN0YW5jZXMvJHtlbmNvZGVVUklDb21wb25lbnQoaW5zdGFuY2UuaWQpfWAsCiAgICAgIHF1ZXJ5OiBzZWN0aW9uID8geyBzZWN0aW9uIH0gOiB1bmRlZmluZWQsCiAgICB9KTsKICB9OwoKICBjb25zdCBsb2FkU3RhdHVzID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuTG9hZFN0YXR1cyhhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBGcnBjQVBJLmdldEluc3RhbmNlcygpOwogICAgICBvdmVydmlldy52YWx1ZSA9IGRhdGE7CiAgICAgIGlmIChkYXRhLmluaXRpYWxpemVkKSB7CiAgICAgICAgZnJwSW5zdGFsbGF0aW9uU3RhdHVzLnZhbHVlID0gImN1cnJlbnQiOwogICAgICAgIGZycFRhcmdldFZlcnNpb24udmFsdWUgPSAiIjsKICAgICAgICBzaG93SW5pdERpYWxvZy52YWx1ZSA9IGZhbHNlOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBjb25zdCBzeXMgPSBhd2FpdCBTeXN0ZW1BUEkuZ2V0RnJwU3RhdHVzKCk7CiAgICAgIGZycEluc3RhbGxhdGlvblN0YXR1cy52YWx1ZSA9CiAgICAgICAgc3lzPy5kYXRhPy5pbnN0YWxsYXRpb25fc3RhdHVzID8/CiAgICAgICAgKHN5cz8uZGF0YT8uZG93bmxvYWRlZCA/ICJjdXJyZW50IiA6ICJtaXNzaW5nIik7CiAgICAgIGZycFRhcmdldFZlcnNpb24udmFsdWUgPSBzeXM/LmRhdGE/LnRhcmdldF92ZXJzaW9uID8/ICIiOwogICAgICBzaG93SW5pdERpYWxvZy52YWx1ZSA9CiAgICAgICAgZnJwSW5zdGFsbGF0aW9uU3RhdHVzLnZhbHVlID09PSAibWlzc2luZyIgJiYgZGF0YS5ydW5uaW5nQ291bnQgPT09IDA7CiAgICB9KTsKICB9OwoKICBjb25zdCBsb2FkQ29uZmlnID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuTG9hZENvbmZpZygKICAgICAgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IHJhdyA9IGF3YWl0IEZycGNBUEkuZ2V0Q29uZmlnKCk7CiAgICAgICAgcHJpbWFyeUNvbmZpZy52YWx1ZSA9IHJhdzsKICAgICAgICBwcmltYXJ5RWRpdG9yUmVmLnZhbHVlPy5yZXNldEZyb21SYXcocmF3KTsKICAgICAgfSwKICAgICAgeyBvbkZpbmFsbHk6ICgpID0+IChjb25maWdMb2FkZWQudmFsdWUgPSB0cnVlKSB9LAogICAgKTsKICB9OwoKICBjb25zdCBtYXJrU3RhcnRlZCA9IChwaWQ6IG51bWJlcikgPT4gewogICAgc3RhcnRFcnJvclRyYWNlLnZhbHVlID0gewogICAgICBwaWQsCiAgICAgIG1hcmtlclNlZW46IGZhbHNlLAogICAgICBleHBpcmVBdDogRGF0ZS5ub3coKSArIFNUQVJUX0VSUk9SX1dBVENIX01TLAogICAgfTsKICB9OwoKICBjb25zdCBzYXZlQ29uZmlnID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuU2F2ZUNvbmZpZyhhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IGNvbnRlbnQgPQogICAgICAgIHByaW1hcnlFZGl0b3JSZWYudmFsdWU/LmdldENvbnRlbnQoKSA/PyBwcmltYXJ5Q29uZmlnLnZhbHVlOwogICAgICBjb25zdCBzaG91bGRSZXN0YXJ0ID0gcHJpbWFyeUluc3RhbmNlLnZhbHVlPy5kZXNpcmVkUnVubmluZyA/PyBmYWxzZTsKICAgICAgYXdhaXQgRnJwY0FQSS5zYXZlQ29uZmlnKGNvbnRlbnQpOwogICAgICBwcmltYXJ5Q29uZmlnLnZhbHVlID0gY29udGVudDsKICAgICAgaWYgKHNob3VsZFJlc3RhcnQpIHsKICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmZycFR1bm5lbC5yZXN0YXJ0U3VjY2VzcyIpKTsKICAgICAgfSBlbHNlIHsKICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmZycFR1bm5lbC5zYXZlU3VjY2VzcyIpKTsKICAgICAgfQogICAgICBhd2FpdCBsb2FkU3RhdHVzKCk7CiAgICB9KTsKICB9OwoKICBjb25zdCBzZWxlY3RGcnBBc0RlZmF1bHRUdW5uZWwgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBDb25maWdBUEkudXBkYXRlRGVmYXVsdFR1bm5lbCgiZnJwIik7CiAgICBpZiAoY29uZmlnU3RvcmUuY29uZmlnKSBjb25maWdTdG9yZS5jb25maWcuZGVmYXVsdF90dW5uZWwgPSAiZnJwIjsKICB9OwoKICBjb25zdCBzdGFydEZycGMgPSBhc3luYyAob3B0aW9ucz86IHsgc2lsZW50PzogYm9vbGVhbiB9KSA9PiB7CiAgICBhd2FpdCBydW5TdGFydEZycGMoKCkgPT4gRnJwY0FQSS5zdGFydCgpLCB7CiAgICAgIG9uU3VjY2VzczogYXN5bmMgKHJlc3VsdCkgPT4gewogICAgICAgIG1hcmtTdGFydGVkKHJlc3VsdC5waWQpOwogICAgICAgIGF3YWl0IHNlbGVjdEZycEFzRGVmYXVsdFR1bm5lbCgpOwogICAgICAgIGF3YWl0IGxvYWRTdGF0dXMoKTsKICAgICAgICBpZiAoIW9wdGlvbnM/LnNpbGVudCkgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5mcnBUdW5uZWwuc3RhcnRTdWNjZXNzIikpOwogICAgICB9LAogICAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgICBpZiAob3B0aW9ucz8uc2lsZW50KSByZXR1cm47CiAgICAgICAgY29uc3QgbWVzc2FnZSA9IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLmZycFR1bm5lbC5zdGFydEZhaWxlZCIpLAogICAgICAgICk7CiAgICAgICAgaWYgKENPTk5FQ1RJT05fUkVGVVNFRF9SRUdFWC50ZXN0KG1lc3NhZ2UpKSB7CiAgICAgICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5mcnBUdW5uZWwuc3RhcnRGYWlsZWQiKSwgewogICAgICAgICAgICBkZXNjcmlwdGlvbjogdCgiYWRtaW4uZnJwVHVubmVsLmNvbm5lY3Rpb25SZWZ1c2VkIiksCiAgICAgICAgICB9KTsKICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZnJwVHVubmVsLnN0YXJ0RmFpbGVkIiksIHsgZGVzY3JpcHRpb246IG1lc3NhZ2UgfSk7CiAgICAgIH0sCiAgICB9KTsKICB9OwoKICBjb25zdCBzdG9wRnJwYyA9IGFzeW5jIChvcHRpb25zPzogeyBzaWxlbnQ/OiBib29sZWFuIH0pID0+IHsKICAgIGF3YWl0IHJ1blN0b3BGcnBjKCgpID0+IEZycGNBUEkuc3RvcCgpLCB7CiAgICAgIG9uU3VjY2VzczogYXN5bmMgKCkgPT4gewogICAgICAgIGF3YWl0IGxvYWRTdGF0dXMoKTsKICAgICAgICBpZiAoIW9wdGlvbnM/LnNpbGVudCkgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5mcnBUdW5uZWwuc3RvcFN1Y2Nlc3MiKSk7CiAgICAgIH0sCiAgICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICAgIGlmIChvcHRpb25zPy5zaWxlbnQpIHJldHVybjsKICAgICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5mcnBUdW5uZWwuc3RvcEZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgICAgZXJyb3IsCiAgICAgICAgICAgIHQoImFkbWluLmZycFR1bm5lbC5zdG9wRmFpbGVkIiksCiAgICAgICAgICApLAogICAgICAgIH0pOwogICAgICB9LAogICAgfSk7CiAgfTsKCiAgY29uc3QgZnJwY1BvbGxpbmcgPSB1c2VUYXJnZXRQb2xsaW5nKHsKICAgIHRhcmdldDogImZycGMiLAogICAgaW50ZXJ2YWxNczogMjAwMCwKICAgIG9uRGF0YTogKHBheWxvYWQpID0+IHsKICAgICAgcHJpbWFyeUxvZ3MudmFsdWUgPSBtZXJnZVBvbGxpbmdMb2dXaW5kb3coCiAgICAgICAgcHJpbWFyeUxvZ3MudmFsdWUsCiAgICAgICAgcGF5bG9hZC5sb2dzLAogICAgICAgIHsgcmVzZXQ6IHBheWxvYWQucmVzZXQsIG1heDogREVGQVVMVF9MT0dfV0lORE9XX1NJWkUgfSwKICAgICAgKTsKICAgICAgaWYgKHBheWxvYWQuc3RhdHVzLmluc3RhbmNlcykgewogICAgICAgIG92ZXJ2aWV3LnZhbHVlID0gcGF5bG9hZC5zdGF0dXMuaW5zdGFuY2VzOwogICAgICB9IGVsc2UgewogICAgICAgIHVwZGF0ZU92ZXJ2aWV3SXRlbShwYXlsb2FkLnN0YXR1cyk7CiAgICAgIH0KICAgICAgaGFuZGxlU3RhcnRGYWlsdXJlTG9ncyhwYXlsb2FkLmxvZ3MpOwogICAgfSwKICB9KTsKCiAgY29uc3Qgb25DbGVhckxvZ3NDbGljayA9IGFzeW5jICgpID0+IHsKICAgIGF3YWl0IHJ1bkNsZWFyTG9ncygoKSA9PiBGcnBjQVBJLmNsZWFyTG9ncygpLCB7CiAgICAgIG9uU3VjY2VzczogKCkgPT4gewogICAgICAgIHByaW1hcnlMb2dzLnZhbHVlID0gW107CiAgICAgICAgZnJwY1BvbGxpbmcucmVzZXRDdXJzb3IoKTsKICAgICAgICB2b2lkIGZycGNQb2xsaW5nLnJlZnJlc2goKTsKICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmZycFR1bm5lbC5sb2dzQ2xlYXJlZCIpKTsKICAgICAgfSwKICAgIH0pOwogIH07CgogIGNvbnN0IHN0YXJ0SW5zdGFuY2UgPSBhc3luYyAoaW5zdGFuY2U6IEZycGNJbnN0YW5jZVN0YXR1cykgPT4gewogICAgaWYgKHN0YXJ0aW5nSW5zdGFuY2VJZC52YWx1ZSkgcmV0dXJuOwogICAgc3RhcnRpbmdJbnN0YW5jZUlkLnZhbHVlID0gaW5zdGFuY2UuaWQ7CiAgICB0cnkgewogICAgICBhd2FpdCBGcnBjQVBJLnN0YXJ0SW5zdGFuY2UoaW5zdGFuY2UuaWQpOwogICAgICBhd2FpdCBzZWxlY3RGcnBBc0RlZmF1bHRUdW5uZWwoKTsKICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5mcnBUdW5uZWwuc3RhcnRTdWNjZXNzIikpOwogICAgICBhd2FpdCBsb2FkU3RhdHVzKCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5mcnBUdW5uZWwuc3RhcnRGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5mcnBUdW5uZWwuc3RhcnRGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0gZmluYWxseSB7CiAgICAgIHN0YXJ0aW5nSW5zdGFuY2VJZC52YWx1ZSA9IG51bGw7CiAgICB9CiAgfTsKCiAgY29uc3Qgc3RvcEluc3RhbmNlID0gYXN5bmMgKGluc3RhbmNlOiBGcnBjSW5zdGFuY2VTdGF0dXMpID0+IHsKICAgIGlmIChzdG9wcGluZ0luc3RhbmNlSWQudmFsdWUpIHJldHVybjsKICAgIHN0b3BwaW5nSW5zdGFuY2VJZC52YWx1ZSA9IGluc3RhbmNlLmlkOwogICAgdHJ5IHsKICAgICAgYXdhaXQgRnJwY0FQSS5zdG9wSW5zdGFuY2UoaW5zdGFuY2UuaWQpOwogICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmZycFR1bm5lbC5zdG9wU3VjY2VzcyIpKTsKICAgICAgYXdhaXQgbG9hZFN0YXR1cygpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZnJwVHVubmVsLnN0b3BGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5mcnBUdW5uZWwuc3RvcEZhaWxlZCIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSBmaW5hbGx5IHsKICAgICAgc3RvcHBpbmdJbnN0YW5jZUlkLnZhbHVlID0gbnVsbDsKICAgIH0KICB9OwoKICBjb25zdCBkZWxldGVJbnN0YW5jZSA9IGFzeW5jIChpbnN0YW5jZTogRnJwY0luc3RhbmNlU3RhdHVzKSA9PiB7CiAgICBpZiAoZGVsZXRpbmdJbnN0YW5jZUlkLnZhbHVlKSByZXR1cm47CiAgICBkZWxldGluZ0luc3RhbmNlSWQudmFsdWUgPSBpbnN0YW5jZS5pZDsKICAgIHRyeSB7CiAgICAgIGF3YWl0IEZycGNBUEkuZGVsZXRlSW5zdGFuY2UoaW5zdGFuY2UuaWQpOwogICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmZycFR1bm5lbC5pbnN0YW5jZURlbGV0ZWQiKSk7CiAgICAgIGF3YWl0IGxvYWRTdGF0dXMoKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmZycFR1bm5lbC5kZWxldGVGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5mcnBUdW5uZWwuZGVsZXRlRmFpbGVkIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBkZWxldGluZ0luc3RhbmNlSWQudmFsdWUgPSBudWxsOwogICAgfQogIH07CgogIGNvbnN0IGdvdG9GcnBSZXNvdXJjZXMgPSAoKSA9PiB7CiAgICBzaG93SW5pdERpYWxvZy52YWx1ZSA9IGZhbHNlOwogICAgdm9pZCByb3V0ZXIucHVzaCh7IHBhdGg6ICIvc3lzdGVtIiwgcXVlcnk6IHsgdGFiOiAiZnJwIiB9IH0pOwogIH07CgogIGZ1bmN0aW9uIGhhbmRsZVN0YXJ0RmFpbHVyZUxvZ3MobGluZXM6IHN0cmluZ1tdKSB7CiAgICBjb25zdCB0cmFjZSA9IHN0YXJ0RXJyb3JUcmFjZS52YWx1ZTsKICAgIGlmICghdHJhY2UpIHJldHVybjsKICAgIGlmIChEYXRlLm5vdygpID4gdHJhY2UuZXhwaXJlQXQpIHsKICAgICAgc3RhcnRFcnJvclRyYWNlLnZhbHVlID0gbnVsbDsKICAgICAgcmV0dXJuOwogICAgfQogICAgZm9yIChjb25zdCBsaW5lIG9mIGxpbmVzKSB7CiAgICAgIGNvbnN0IHRleHQgPSBsaW5lLnRyaW0oKTsKICAgICAgaWYgKCF0ZXh0KSBjb250aW51ZTsKICAgICAgaWYgKCF0cmFjZS5tYXJrZXJTZWVuICYmIHRleHQuaW5jbHVkZXMoYGZycGMgc3RhcnRlZCBwaWQ9JHt0cmFjZS5waWR9YCkpIHsKICAgICAgICB0cmFjZS5tYXJrZXJTZWVuID0gdHJ1ZTsKICAgICAgICBjb250aW51ZTsKICAgICAgfQogICAgICBpZiAoIXRyYWNlLm1hcmtlclNlZW4pIGNvbnRpbnVlOwogICAgICBpZiAoIUNPTk5FQ1RJT05fUkVGVVNFRF9SRUdFWC50ZXN0KHRleHQpKSBjb250aW51ZTsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZnJwVHVubmVsLnN0YXJ0RmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogdCgiYWRtaW4uZnJwVHVubmVsLmNvbm5lY3Rpb25SZWZ1c2VkIiksCiAgICAgIH0pOwogICAgICBzdGFydEVycm9yVHJhY2UudmFsdWUgPSBudWxsOwogICAgICByZXR1cm47CiAgICB9CiAgfQoKICBvbk1vdW50ZWQoYXN5bmMgKCkgPT4gewogICAgYXdhaXQgbG9hZFN0YXR1cygpOwogICAgYXdhaXQgbG9hZENvbmZpZygpOwogICAgaWYgKGlzRGlzcG9zZWQpIHJldHVybjsKCiAgICBmcnBjUG9sbGluZy5zdGFydCgpOwogIH0pOwogIG9uVW5tb3VudGVkKCgpID0+IHsKICAgIGlzRGlzcG9zZWQgPSB0cnVlOwogICAgZnJwY1BvbGxpbmcuc3RvcCgpOwogIH0pOwoKICByZXR1cm4gewogICAgY2FuU3RhcnQsCiAgICBjYW5TdG9wLAogICAgY29uZmlnTG9hZGVkLAogICAgZGVmYXVsdHMsCiAgICBkZWxldGVJbnN0YW5jZSwKICAgIGRlbGV0aW5nSW5zdGFuY2VJZCwKICAgIGV4dHJhSW5zdGFuY2VzLAogICAgZm9ybWF0U3VtbWFyeSwKICAgIGZycEluc3RhbGxhdGlvblN0YXR1cywKICAgIGZycFRhcmdldFZlcnNpb24sCiAgICBnZXRJbnN0YW5jZURpc3BsYXlOYW1lLAogICAgZ290b0ZycFJlc291cmNlcywKICAgIGdvdG9JbnN0YW5jZUNyZWF0ZSwKICAgIGdvdG9JbnN0YW5jZURldGFpbCwKICAgIGlzQ2xlYXJpbmdMb2dzLAogICAgaXNTYXZpbmcsCiAgICBpc1N0YXJ0aW5nLAogICAgaXNTdG9wcGluZywKICAgIG9uQ2xlYXJMb2dzQ2xpY2ssCiAgICBvdmVydmlldywKICAgIHBpZCwKICAgIHByaW1hcnlDb25maWcsCiAgICBwcmltYXJ5SW5zdGFuY2UsCiAgICBwcmltYXJ5TG9ncywKICAgIHByaW1hcnlTdW1tYXJ5LAogICAgcnVubmluZywKICAgIHNhdmVDb25maWcsCiAgICBzZXRQcmltYXJ5RWRpdG9yUmVmLAogICAgc2hvd0luaXREaWFsb2csCiAgICBzdGFydEZycGMsCiAgICBzdGFydEluc3RhbmNlLAogICAgc3RhcnRpbmdJbnN0YW5jZUlkLAogICAgc3RvcEZycGMsCiAgICBzdG9wSW5zdGFuY2UsCiAgICBzdG9wcGluZ0luc3RhbmNlSWQsCiAgICB0LAogIH07Cn07Cg==
+import { computed, onMounted, onUnmounted, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRouter } from "vue-router";
+import { ConfigAPI } from "@/lib/api/config";
+import {
+  FrpcAPI,
+  type FrpcInstanceStatus,
+  type FrpcInstanceSummary,
+  type FrpcInstancesOverview,
+} from "@/lib/api/tunnel";
+import { SystemAPI } from "@/lib/api/system";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import {
+  DEFAULT_LOG_WINDOW_SIZE,
+  mergePollingLogWindow,
+} from "@admin-shared/utils/log-window";
+import { useTargetPolling } from "@/composables/useTargetPolling";
+import { useConfigStore } from "@/store/config";
+import {
+  replaceFrpcOverviewItem,
+  summarizeFrpcContent,
+} from "./frpcInstanceModel";
+
+type FrpcEditorExpose = {
+  getContent: () => string;
+  resetFromRaw: (raw: string) => void;
+};
+
+const START_ERROR_WATCH_MS = 30_000;
+const CONNECTION_REFUSED_REGEX = /\bconnection refused\b/i;
+
+export const useFrpTunnelController = () => {
+  const router = useRouter();
+  const configStore = useConfigStore();
+  const { t } = useI18n();
+  let isDisposed = false;
+  const overview = ref<FrpcInstancesOverview | null>(null);
+  const primaryConfig = ref("");
+  const primaryLogs = ref<string[]>([]);
+  const showInitDialog = ref(false);
+  const frpInstallationStatus = ref<"missing" | "outdated" | "current">(
+    "missing",
+  );
+  const frpTargetVersion = ref("");
+  const configLoaded = ref(false);
+  const primaryEditorRef = ref<FrpcEditorExpose | null>(null);
+  const setPrimaryEditorRef = (editor: unknown) => {
+    primaryEditorRef.value = editor as FrpcEditorExpose | null;
+  };
+  const startingInstanceId = ref<string | null>(null);
+  const stoppingInstanceId = ref<string | null>(null);
+  const deletingInstanceId = ref<string | null>(null);
+  const startErrorTrace = ref<{
+    pid: number;
+    markerSeen: boolean;
+    expireAt: number;
+  } | null>(null);
+
+  const defaults = computed(
+    () => overview.value?.defaults ?? { local_port: "7999" },
+  );
+  const primaryInstance = computed(
+    () =>
+      overview.value?.items.find(
+        (item) => item.id === overview.value?.primaryInstanceId,
+      ) ?? null,
+  );
+  const extraInstances = computed(
+    () => overview.value?.items.filter((item) => !item.isPrimary) ?? [],
+  );
+  const isInit = computed(() => overview.value?.initialized ?? false);
+  const running = computed(() => primaryInstance.value?.running ?? false);
+  const pid = computed(() => primaryInstance.value?.pid ?? null);
+  const canStart = computed(
+    () =>
+      isInit.value &&
+      !primaryInstance.value?.desiredRunning &&
+      !primaryInstance.value?.running,
+  );
+  const canStop = computed(
+    () =>
+      (primaryInstance.value?.desiredRunning ?? false) ||
+      (primaryInstance.value?.running ?? false),
+  );
+  const primarySummary = computed(
+    () =>
+      primaryInstance.value?.summary ??
+      summarizeFrpcContent(primaryConfig.value, defaults.value.local_port),
+  );
+
+  const { isPending: isSaving, run: runSaveConfig } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.frpTunnel.saveFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.frpTunnel.saveFailed"),
+        ),
+      });
+    },
+  });
+  const { isPending: isStarting, run: runStartFrpc } = useAsyncAction();
+  const { isPending: isStopping, run: runStopFrpc } = useAsyncAction();
+  const { isPending: isClearingLogs, run: runClearLogs } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.frpTunnel.clearLogsFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.frpTunnel.clearLogsFailed"),
+        ),
+      });
+    },
+  });
+  const { run: runLoadStatus } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.frpTunnel.loadStatusFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.frpTunnel.loadStatusFailed"),
+        ),
+      });
+    },
+  });
+  const { run: runLoadConfig } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.frpTunnel.loadConfigFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.frpTunnel.loadConfigFailed"),
+        ),
+      });
+    },
+  });
+
+  const formatSummary = (summary: FrpcInstanceSummary) => {
+    const server = summary.serverAddr
+      ? `${summary.serverAddr}:${summary.serverPort || "7000"}`
+      : t("admin.frpTunnel.notConfigured");
+    return t("admin.frpTunnel.summary", {
+      server,
+      local: summary.localPort || defaults.value.local_port,
+      remote: summary.remotePort || "0",
+    });
+  };
+
+  const getInstanceDisplayName = (
+    instance: FrpcInstanceStatus | null | undefined,
+  ) => {
+    if (!instance) return t("admin.frpTunnel.instance");
+    const name = instance.name.trim();
+    if (name) return name;
+    if (instance.summary.serverAddr) {
+      return `${instance.summary.serverAddr}:${instance.summary.serverPort || "7000"}`;
+    }
+    return instance.isPrimary
+      ? t("admin.frpTunnel.primaryFrp")
+      : t("admin.frpTunnel.instance");
+  };
+
+  const updateOverviewItem = (item: FrpcInstanceStatus) => {
+    if (overview.value) {
+      overview.value = replaceFrpcOverviewItem(overview.value, item);
+    }
+  };
+
+  const gotoInstanceCreate = () => {
+    void router.push({ path: "/tunnel/frp/instances/new" });
+  };
+
+  const gotoInstanceDetail = (
+    instance: FrpcInstanceStatus,
+    section?: "config" | "logs",
+  ) => {
+    void router.push({
+      path: `/tunnel/frp/instances/${encodeURIComponent(instance.id)}`,
+      query: section ? { section } : undefined,
+    });
+  };
+
+  const loadStatus = async () => {
+    await runLoadStatus(async () => {
+      const data = await FrpcAPI.getInstances();
+      overview.value = data;
+      if (data.initialized) {
+        frpInstallationStatus.value = "current";
+        frpTargetVersion.value = "";
+        showInitDialog.value = false;
+        return;
+      }
+      const sys = await SystemAPI.getFrpStatus();
+      frpInstallationStatus.value =
+        sys?.data?.installation_status ??
+        (sys?.data?.downloaded ? "current" : "missing");
+      frpTargetVersion.value = sys?.data?.target_version ?? "";
+      showInitDialog.value =
+        frpInstallationStatus.value === "missing" && data.runningCount === 0;
+    });
+  };
+
+  const loadConfig = async () => {
+    await runLoadConfig(
+      async () => {
+        const raw = await FrpcAPI.getConfig();
+        primaryConfig.value = raw;
+        primaryEditorRef.value?.resetFromRaw(raw);
+      },
+      { onFinally: () => (configLoaded.value = true) },
+    );
+  };
+
+  const markStarted = (pid: number) => {
+    startErrorTrace.value = {
+      pid,
+      markerSeen: false,
+      expireAt: Date.now() + START_ERROR_WATCH_MS,
+    };
+  };
+
+  const saveConfig = async () => {
+    await runSaveConfig(async () => {
+      const content =
+        primaryEditorRef.value?.getContent() ?? primaryConfig.value;
+      const shouldRestart = primaryInstance.value?.desiredRunning ?? false;
+      await FrpcAPI.saveConfig(content);
+      primaryConfig.value = content;
+      if (shouldRestart) {
+        toast.success(t("admin.frpTunnel.restartSuccess"));
+      } else {
+        toast.success(t("admin.frpTunnel.saveSuccess"));
+      }
+      await loadStatus();
+    });
+  };
+
+  const selectFrpAsDefaultTunnel = async () => {
+    await ConfigAPI.updateDefaultTunnel("frp");
+    if (configStore.config) configStore.config.default_tunnel = "frp";
+  };
+
+  const startFrpc = async (options?: { silent?: boolean }) => {
+    await runStartFrpc(() => FrpcAPI.start(), {
+      onSuccess: async (result) => {
+        markStarted(result.pid);
+        await selectFrpAsDefaultTunnel();
+        await loadStatus();
+        if (!options?.silent) toast.success(t("admin.frpTunnel.startSuccess"));
+      },
+      onError: (error) => {
+        if (options?.silent) return;
+        const message = extractErrorMessage(
+          error,
+          t("admin.frpTunnel.startFailed"),
+        );
+        if (CONNECTION_REFUSED_REGEX.test(message)) {
+          toast.error(t("admin.frpTunnel.startFailed"), {
+            description: t("admin.frpTunnel.connectionRefused"),
+          });
+          return;
+        }
+        toast.error(t("admin.frpTunnel.startFailed"), { description: message });
+      },
+    });
+  };
+
+  const stopFrpc = async (options?: { silent?: boolean }) => {
+    await runStopFrpc(() => FrpcAPI.stop(), {
+      onSuccess: async () => {
+        await loadStatus();
+        if (!options?.silent) toast.success(t("admin.frpTunnel.stopSuccess"));
+      },
+      onError: (error) => {
+        if (options?.silent) return;
+        toast.error(t("admin.frpTunnel.stopFailed"), {
+          description: extractErrorMessage(
+            error,
+            t("admin.frpTunnel.stopFailed"),
+          ),
+        });
+      },
+    });
+  };
+
+  const frpcPolling = useTargetPolling({
+    target: "frpc",
+    intervalMs: 2000,
+    onData: (payload) => {
+      primaryLogs.value = mergePollingLogWindow(
+        primaryLogs.value,
+        payload.logs,
+        { reset: payload.reset, max: DEFAULT_LOG_WINDOW_SIZE },
+      );
+      if (payload.status.instances) {
+        overview.value = payload.status.instances;
+      } else {
+        updateOverviewItem(payload.status);
+      }
+      handleStartFailureLogs(payload.logs);
+    },
+  });
+
+  const onClearLogsClick = async () => {
+    await runClearLogs(() => FrpcAPI.clearLogs(), {
+      onSuccess: () => {
+        primaryLogs.value = [];
+        frpcPolling.resetCursor();
+        void frpcPolling.refresh();
+        toast.success(t("admin.frpTunnel.logsCleared"));
+      },
+    });
+  };
+
+  const startInstance = async (instance: FrpcInstanceStatus) => {
+    if (startingInstanceId.value) return;
+    startingInstanceId.value = instance.id;
+    try {
+      await FrpcAPI.startInstance(instance.id);
+      await selectFrpAsDefaultTunnel();
+      toast.success(t("admin.frpTunnel.startSuccess"));
+      await loadStatus();
+    } catch (error) {
+      toast.error(t("admin.frpTunnel.startFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.frpTunnel.startFailed"),
+        ),
+      });
+    } finally {
+      startingInstanceId.value = null;
+    }
+  };
+
+  const stopInstance = async (instance: FrpcInstanceStatus) => {
+    if (stoppingInstanceId.value) return;
+    stoppingInstanceId.value = instance.id;
+    try {
+      await FrpcAPI.stopInstance(instance.id);
+      toast.success(t("admin.frpTunnel.stopSuccess"));
+      await loadStatus();
+    } catch (error) {
+      toast.error(t("admin.frpTunnel.stopFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.frpTunnel.stopFailed"),
+        ),
+      });
+    } finally {
+      stoppingInstanceId.value = null;
+    }
+  };
+
+  const deleteInstance = async (instance: FrpcInstanceStatus) => {
+    if (deletingInstanceId.value) return;
+    deletingInstanceId.value = instance.id;
+    try {
+      await FrpcAPI.deleteInstance(instance.id);
+      toast.success(t("admin.frpTunnel.instanceDeleted"));
+      await loadStatus();
+    } catch (error) {
+      toast.error(t("admin.frpTunnel.deleteFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.frpTunnel.deleteFailed"),
+        ),
+      });
+    } finally {
+      deletingInstanceId.value = null;
+    }
+  };
+
+  const gotoFrpResources = () => {
+    showInitDialog.value = false;
+    void router.push({ path: "/system", query: { tab: "frp" } });
+  };
+
+  function handleStartFailureLogs(lines: string[]) {
+    const trace = startErrorTrace.value;
+    if (!trace) return;
+    if (Date.now() > trace.expireAt) {
+      startErrorTrace.value = null;
+      return;
+    }
+    for (const line of lines) {
+      const text = line.trim();
+      if (!text) continue;
+      if (!trace.markerSeen && text.includes(`frpc started pid=${trace.pid}`)) {
+        trace.markerSeen = true;
+        continue;
+      }
+      if (!trace.markerSeen) continue;
+      if (!CONNECTION_REFUSED_REGEX.test(text)) continue;
+      toast.error(t("admin.frpTunnel.startFailed"), {
+        description: t("admin.frpTunnel.connectionRefused"),
+      });
+      startErrorTrace.value = null;
+      return;
+    }
+  }
+
+  onMounted(async () => {
+    await loadStatus();
+    await loadConfig();
+    if (isDisposed) return;
+
+    frpcPolling.start();
+  });
+  onUnmounted(() => {
+    isDisposed = true;
+    frpcPolling.stop();
+  });
+
+  return {
+    canStart,
+    canStop,
+    configLoaded,
+    defaults,
+    deleteInstance,
+    deletingInstanceId,
+    extraInstances,
+    formatSummary,
+    frpInstallationStatus,
+    frpTargetVersion,
+    getInstanceDisplayName,
+    gotoFrpResources,
+    gotoInstanceCreate,
+    gotoInstanceDetail,
+    isClearingLogs,
+    isSaving,
+    isStarting,
+    isStopping,
+    onClearLogsClick,
+    overview,
+    pid,
+    primaryConfig,
+    primaryInstance,
+    primaryLogs,
+    primarySummary,
+    running,
+    saveConfig,
+    setPrimaryEditorRef,
+    showInitDialog,
+    startFrpc,
+    startInstance,
+    startingInstanceId,
+    stopFrpc,
+    stopInstance,
+    stoppingInstanceId,
+    t,
+  };
+};

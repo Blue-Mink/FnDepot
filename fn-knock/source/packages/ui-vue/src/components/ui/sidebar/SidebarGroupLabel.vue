@@ -1,1 +1,25 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUHJpbWl0aXZlUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyBQcmltaXRpdmUgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxQcmltaXRpdmVQcm9wcyAmIHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFByaW1pdGl2ZQogICAgZGF0YS1zbG90PSJzaWRlYmFyLWdyb3VwLWxhYmVsIgogICAgZGF0YS1zaWRlYmFyPSJncm91cC1sYWJlbCIKICAgIDphcz0iYXMiCiAgICA6YXMtY2hpbGQ9ImFzQ2hpbGQiCiAgICA6Y2xhc3M9ImNuKAogICAgICAndGV4dC1zaWRlYmFyLWZvcmVncm91bmQvNzAgcmluZy1zaWRlYmFyLXJpbmcgZmxleCBoLTggc2hyaW5rLTAgaXRlbXMtY2VudGVyIHJvdW5kZWQtbWQgcHgtMiB0ZXh0LXhzIGZvbnQtbWVkaXVtIG91dGxpbmUtaGlkZGVuIHRyYW5zaXRpb24tW21hcmdpbixvcGFjaXR5XSBkdXJhdGlvbi0yMDAgZWFzZS1saW5lYXIgZm9jdXMtdmlzaWJsZTpyaW5nLTIgWyY+c3ZnXTpzaXplLTQgWyY+c3ZnXTpzaHJpbmstMCcsCiAgICAgICdncm91cC1kYXRhLVtjb2xsYXBzaWJsZT1pY29uXTotbXQtOCBncm91cC1kYXRhLVtjb2xsYXBzaWJsZT1pY29uXTpvcGFjaXR5LTAnLAogICAgICBwcm9wcy5jbGFzcykiCiAgPgogICAgPHNsb3QgLz4KICA8L1ByaW1pdGl2ZT4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { PrimitiveProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { Primitive } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<PrimitiveProps & {
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <Primitive
+    data-slot="sidebar-group-label"
+    data-sidebar="group-label"
+    :as="as"
+    :as-child="asChild"
+    :class="cn(
+      'text-sidebar-foreground/70 ring-sidebar-ring flex h-8 shrink-0 items-center rounded-md px-2 text-xs font-medium outline-hidden transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0',
+      'group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0',
+      props.class)"
+  >
+    <slot />
+  </Primitive>
+</template>

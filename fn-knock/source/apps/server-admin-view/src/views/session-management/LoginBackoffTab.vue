@@ -1,1 +1,157 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvbk1vdW50ZWQsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgUmVmcmVzaEJ1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvUmVmcmVzaEJ1dHRvbi52dWUiOwppbXBvcnQgewogIFRhYmxlLAogIFRhYmxlQm9keSwKICBUYWJsZUNlbGwsCiAgVGFibGVIZWFkLAogIFRhYmxlSGVhZGVyLAogIFRhYmxlUm93LAp9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJsZSI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL3RvYXN0IjsKaW1wb3J0IHsgQmFja29mZkFQSSwgdHlwZSBCYWNrb2ZmSXRlbSB9IGZyb20gIkAvbGliL2FwaS9jb25maWciOwppbXBvcnQgQ29uZmlybURhbmdlclBvcG92ZXIgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtRGFuZ2VyUG9wb3Zlci52dWUiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgaXRlbXMgPSByZWY8QmFja29mZkl0ZW1bXT4oW10pOwoKY29uc3QgeyBpc1BlbmRpbmc6IGlzTG9hZGluZywgcnVuOiBydW5Mb2FkQmFja29mZiB9ID0gdXNlQXN5bmNBY3Rpb24oewogIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgaXRlbXMudmFsdWUgPSBbXTsKICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnNlc3Npb25zLmxvZ2luQmFja29mZi5sb2FkRmFpbGVkIiksIHsKICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgZXJyb3IsCiAgICAgICAgdCgiYWRtaW4uc2Vzc2lvbnMubG9naW5CYWNrb2ZmLmxvYWRGYWlsZWQiKSwKICAgICAgKSwKICAgIH0pOwogIH0sCn0pOwoKY29uc3QgeyBpc1BlbmRpbmc6IGlzUmVzZXR0aW5nLCBydW46IHJ1blJlc2V0SXAgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnNlc3Npb25zLmxvZ2luQmFja29mZi5yZXNldEZhaWxlZCIpLCB7CiAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgIGVycm9yLAogICAgICAgIHQoImFkbWluLnNlc3Npb25zLmxvZ2luQmFja29mZi5yZXNldEZhaWxlZCIpLAogICAgICApLAogICAgfSk7CiAgfSwKfSk7Cgpjb25zdCBoYXNJdGVtcyA9IGNvbXB1dGVkKCgpID0+IGl0ZW1zLnZhbHVlLmxlbmd0aCA+IDApOwoKY29uc3QgbG9hZCA9IGFzeW5jICgpID0+IHsKICBhd2FpdCBydW5Mb2FkQmFja29mZihhc3luYyAoKSA9PiB7CiAgICBpdGVtcy52YWx1ZSA9IGF3YWl0IEJhY2tvZmZBUEkubGlzdCgpOwogIH0pOwp9OwoKY29uc3QgcmVzZXRJcCA9IGFzeW5jIChpcDogc3RyaW5nKSA9PiB7CiAgYXdhaXQgcnVuUmVzZXRJcCgoKSA9PiBCYWNrb2ZmQVBJLnJlc2V0KGlwKSwgewogICAgb25TdWNjZXNzOiBhc3luYyAoKSA9PiB7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uc2Vzc2lvbnMubG9naW5CYWNrb2ZmLnJlc2V0U3VjY2VzcyIsIHsgaXAgfSkpOwogICAgICBhd2FpdCBsb2FkKCk7CiAgICB9LAogIH0pOwp9OwoKb25Nb3VudGVkKGxvYWQpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJzcGFjZS15LTMiPgogICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLmxvZ2luQmFja29mZi5zdW1tYXJ5IiwgeyBjb3VudDogaXRlbXMubGVuZ3RoIH0pIH19CiAgICAgIDwvZGl2PgogICAgICA8UmVmcmVzaEJ1dHRvbiA6bG9hZGluZz0iaXNMb2FkaW5nIiA6ZGlzYWJsZWQ9ImlzTG9hZGluZyIgQGNsaWNrPSJsb2FkIiAvPgogICAgPC9kaXY+CgogICAgPGRpdiBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgPFRhYmxlPgogICAgICAgIDxUYWJsZUhlYWRlcj4KICAgICAgICAgIDxUYWJsZVJvdz4KICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bMjIwcHhdIj5JUDwvVGFibGVIZWFkPgogICAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJ3LVsxNDBweF0iPnt7CiAgICAgICAgICAgICAgdCgiYWRtaW4uc2Vzc2lvbnMubG9naW5CYWNrb2ZmLmF0dGVtcHRzSW5Ib3VyIikKICAgICAgICAgICAgfX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgPFRhYmxlSGVhZD57eyB0KCJhZG1pbi5zZXNzaW9ucy5sb2dpbkJhY2tvZmYuc3RhdHVzIikgfX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgPFRhYmxlSGVhZD57ewogICAgICAgICAgICAgIHQoImFkbWluLnNlc3Npb25zLmxvZ2luQmFja29mZi5yZW1haW5pbmdUaW1lIikKICAgICAgICAgICAgfX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idGV4dC1yaWdodCB3LVsxNjBweF0iPnt7CiAgICAgICAgICAgICAgdCgiYWRtaW4uc2Vzc2lvbnMudGFibGUuYWN0aW9ucyIpCiAgICAgICAgICAgIH19PC9UYWJsZUhlYWQ+CiAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgIDwvVGFibGVIZWFkZXI+CiAgICAgICAgPFRhYmxlQm9keSB2LWlmPSJoYXNJdGVtcyI+CiAgICAgICAgICA8VGFibGVSb3cgdi1mb3I9Iml0ZW0gaW4gaXRlbXMiIDprZXk9Iml0ZW0uaXAiPgogICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJmb250LW1vbm8gdGV4dC1zbSI+e3sgaXRlbS5pcCB9fTwvVGFibGVDZWxsPgogICAgICAgICAgICA8VGFibGVDZWxsPnt7IGl0ZW0uYXR0ZW1wdHMgfX08L1RhYmxlQ2VsbD4KICAgICAgICAgICAgPFRhYmxlQ2VsbD4KICAgICAgICAgICAgICA8QmFkZ2UgOnZhcmlhbnQ9Iml0ZW0uYmxvY2tlZCA/ICdkZXN0cnVjdGl2ZScgOiAnc2Vjb25kYXJ5JyI+CiAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICBpdGVtLmJsb2NrZWQKICAgICAgICAgICAgICAgICAgICA/IHQoImFkbWluLnNlc3Npb25zLmxvZ2luQmFja29mZi5ibG9ja2VkIikKICAgICAgICAgICAgICAgICAgICA6IHQoImFkbWluLnNlc3Npb25zLmxvZ2luQmFja29mZi5ub3RCbG9ja2VkIikKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgIDxUYWJsZUNlbGw+CiAgICAgICAgICAgICAgPHNwYW4gdi1pZj0iaXRlbS5yZXRyeUFmdGVyIj57ewogICAgICAgICAgICAgICAgdCgiYWRtaW4uc2Vzc2lvbnMubG9naW5CYWNrb2ZmLnNlY29uZHMiLCB7CiAgICAgICAgICAgICAgICAgIHNlY29uZHM6IGl0ZW0ucmV0cnlBZnRlciwKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgfX08L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gdi1lbHNlPi08L3NwYW4+CiAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJ0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktZW5kIj4KICAgICAgICAgICAgICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICAgICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLnNlc3Npb25zLmxvZ2luQmFja29mZi5jb25maXJtVGl0bGUnKSIKICAgICAgICAgICAgICAgICAgOmRlc2NyaXB0aW9uPSIKICAgICAgICAgICAgICAgICAgICB0KCdhZG1pbi5zZXNzaW9ucy5sb2dpbkJhY2tvZmYuY29uZmlybURlc2NyaXB0aW9uJywgewogICAgICAgICAgICAgICAgICAgICAgaXA6IGl0ZW0uaXAsCiAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICA6Y29uZmlybS10ZXh0PSJ0KCdhZG1pbi5zZXNzaW9ucy5sb2dpbkJhY2tvZmYuY29uZmlybVRleHQnKSIKICAgICAgICAgICAgICAgICAgOmxvYWRpbmc9ImlzUmVzZXR0aW5nIgogICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzUmVzZXR0aW5nIgogICAgICAgICAgICAgICAgICA6b24tY29uZmlybT0iKCkgPT4gcmVzZXRJcChpdGVtLmlwKSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9ImRlc3RydWN0aXZlIgogICAgICAgICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzUmVzZXR0aW5nIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLmxvZ2luQmFja29mZi5yZXNldCIpIH19CiAgICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgICAgICA8L0NvbmZpcm1EYW5nZXJQb3BvdmVyPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgPC9UYWJsZUJvZHk+CiAgICAgICAgPFRhYmxlQm9keSB2LWVsc2U+CiAgICAgICAgICA8VGFibGVSb3c+CiAgICAgICAgICAgIDxUYWJsZUNlbGwKICAgICAgICAgICAgICBjb2xzcGFuPSI1IgogICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LWNlbnRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQgcHktNiIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLmxvZ2luQmFja29mZi5lbXB0eSIpIH19CiAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICA8L1RhYmxlQm9keT4KICAgICAgPC9UYWJsZT4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, onMounted, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import RefreshButton from "@/components/RefreshButton.vue";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import { Badge } from "@/components/ui/badge";
+import { toast } from "@admin-shared/utils/toast";
+import { BackoffAPI, type BackoffItem } from "@/lib/api/config";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+
+const { t } = useI18n();
+const items = ref<BackoffItem[]>([]);
+
+const { isPending: isLoading, run: runLoadBackoff } = useAsyncAction({
+  onError: (error) => {
+    items.value = [];
+    toast.error(t("admin.sessions.loginBackoff.loadFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.sessions.loginBackoff.loadFailed"),
+      ),
+    });
+  },
+});
+
+const { isPending: isResetting, run: runResetIp } = useAsyncAction({
+  onError: (error) => {
+    toast.error(t("admin.sessions.loginBackoff.resetFailed"), {
+      description: extractErrorMessage(
+        error,
+        t("admin.sessions.loginBackoff.resetFailed"),
+      ),
+    });
+  },
+});
+
+const hasItems = computed(() => items.value.length > 0);
+
+const load = async () => {
+  await runLoadBackoff(async () => {
+    items.value = await BackoffAPI.list();
+  });
+};
+
+const resetIp = async (ip: string) => {
+  await runResetIp(() => BackoffAPI.reset(ip), {
+    onSuccess: async () => {
+      toast.success(t("admin.sessions.loginBackoff.resetSuccess", { ip }));
+      await load();
+    },
+  });
+};
+
+onMounted(load);
+</script>
+
+<template>
+  <div class="space-y-3">
+    <div class="flex items-center justify-between">
+      <div class="text-sm text-muted-foreground">
+        {{ t("admin.sessions.loginBackoff.summary", { count: items.length }) }}
+      </div>
+      <RefreshButton :loading="isLoading" :disabled="isLoading" @click="load" />
+    </div>
+
+    <div class="rounded-md border overflow-hidden">
+      <Table>
+        <TableHeader>
+          <TableRow>
+            <TableHead class="w-[220px]">IP</TableHead>
+            <TableHead class="w-[140px]">{{
+              t("admin.sessions.loginBackoff.attemptsInHour")
+            }}</TableHead>
+            <TableHead>{{ t("admin.sessions.loginBackoff.status") }}</TableHead>
+            <TableHead>{{
+              t("admin.sessions.loginBackoff.remainingTime")
+            }}</TableHead>
+            <TableHead class="text-right w-[160px]">{{
+              t("admin.sessions.table.actions")
+            }}</TableHead>
+          </TableRow>
+        </TableHeader>
+        <TableBody v-if="hasItems">
+          <TableRow v-for="item in items" :key="item.ip">
+            <TableCell class="font-mono text-sm">{{ item.ip }}</TableCell>
+            <TableCell>{{ item.attempts }}</TableCell>
+            <TableCell>
+              <Badge :variant="item.blocked ? 'destructive' : 'secondary'">
+                {{
+                  item.blocked
+                    ? t("admin.sessions.loginBackoff.blocked")
+                    : t("admin.sessions.loginBackoff.notBlocked")
+                }}
+              </Badge>
+            </TableCell>
+            <TableCell>
+              <span v-if="item.retryAfter">{{
+                t("admin.sessions.loginBackoff.seconds", {
+                  seconds: item.retryAfter,
+                })
+              }}</span>
+              <span v-else>-</span>
+            </TableCell>
+            <TableCell class="text-right">
+              <div class="flex justify-end">
+                <ConfirmDangerPopover
+                  :title="t('admin.sessions.loginBackoff.confirmTitle')"
+                  :description="
+                    t('admin.sessions.loginBackoff.confirmDescription', {
+                      ip: item.ip,
+                    })
+                  "
+                  :confirm-text="t('admin.sessions.loginBackoff.confirmText')"
+                  :loading="isResetting"
+                  :disabled="isResetting"
+                  :on-confirm="() => resetIp(item.ip)"
+                >
+                  <template #trigger>
+                    <Button
+                      variant="destructive"
+                      size="sm"
+                      :disabled="isResetting"
+                    >
+                      {{ t("admin.sessions.loginBackoff.reset") }}
+                    </Button>
+                  </template>
+                </ConfirmDangerPopover>
+              </div>
+            </TableCell>
+          </TableRow>
+        </TableBody>
+        <TableBody v-else>
+          <TableRow>
+            <TableCell
+              colspan="5"
+              class="text-center text-muted-foreground py-6"
+            >
+              {{ t("admin.sessions.loginBackoff.empty") }}
+            </TableCell>
+          </TableRow>
+        </TableBody>
+      </Table>
+    </div>
+  </div>
+</template>

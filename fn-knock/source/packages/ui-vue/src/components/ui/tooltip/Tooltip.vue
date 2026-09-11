@@ -1,1 +1,19 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgVG9vbHRpcFJvb3RFbWl0cywgVG9vbHRpcFJvb3RQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IFRvb2x0aXBSb290LCB1c2VGb3J3YXJkUHJvcHNFbWl0cyB9IGZyb20gInJla2EtdWkiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPFRvb2x0aXBSb290UHJvcHM+KCkKY29uc3QgZW1pdHMgPSBkZWZpbmVFbWl0czxUb29sdGlwUm9vdEVtaXRzPigpCgpjb25zdCBmb3J3YXJkZWQgPSB1c2VGb3J3YXJkUHJvcHNFbWl0cyhwcm9wcywgZW1pdHMpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxUb29sdGlwUm9vdAogICAgdi1zbG90PSJzbG90UHJvcHMiCiAgICBkYXRhLXNsb3Q9InRvb2x0aXAiCiAgICB2LWJpbmQ9ImZvcndhcmRlZCIKICA+CiAgICA8c2xvdCB2LWJpbmQ9InNsb3RQcm9wcyIgLz4KICA8L1Rvb2x0aXBSb290Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { TooltipRootEmits, TooltipRootProps } from "reka-ui"
+import { TooltipRoot, useForwardPropsEmits } from "reka-ui"
+
+const props = defineProps<TooltipRootProps>()
+const emits = defineEmits<TooltipRootEmits>()
+
+const forwarded = useForwardPropsEmits(props, emits)
+</script>
+
+<template>
+  <TooltipRoot
+    v-slot="slotProps"
+    data-slot="tooltip"
+    v-bind="forwarded"
+  >
+    <slot v-bind="slotProps" />
+  </TooltipRoot>
+</template>

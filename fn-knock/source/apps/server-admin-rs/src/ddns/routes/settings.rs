@@ -1,1 +1,575 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBwYXJzZV9zZXR0aW5ncyhyYXc6IE9wdGlvbjwmc3RyPikgLT4gVmFsdWUgewogICAgbGV0IHBhcnNlZCA9IHJhdy5hbmRfdGhlbih8dmFsdWV8IHNlcmRlX2pzb246OmZyb21fc3RyOjo8VmFsdWU+KHZhbHVlKS5vaygpKTsKICAgIGxldCBpc19yZWNvcmQgPSBwYXJzZWQuYXNfcmVmKCkuaXNfc29tZV9hbmQoVmFsdWU6OmlzX29iamVjdCk7CiAgICBsZXQgZGVmYXVsdF9zb3VyY2VzID0gZGVmYXVsdF9wdWJsaWNfY2hlY2tfc291cmNlcygpOwogICAgbGV0IHB1YmxpY19zb3VyY2VzID0gcGFyc2VkCiAgICAgICAgLmFzX3JlZigpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuZ2V0KCJwdWJsaWNDaGVja1NvdXJjZXMiKSkKICAgICAgICAubWFwKG5vcm1hbGl6ZV9wdWJsaWNfY2hlY2tfc291cmNlcykKICAgICAgICAudW53cmFwX29yX2Vsc2UoZGVmYXVsdF9wdWJsaWNfY2hlY2tfc291cmNlcyk7CiAgICBqc29uISh7CiAgICAgICAgInVwZGF0ZUludGVydmFsTWludXRlcyI6IGlmIGlzX3JlY29yZCB7CiAgICAgICAgICAgIHBhcnNlZAogICAgICAgICAgICAgICAgLmFzX3JlZigpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5nZXQoInVwZGF0ZUludGVydmFsTWludXRlcyIpKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKG5vcm1hbGl6ZV91cGRhdGVfaW50ZXJ2YWxfbWludXRlcykKICAgICAgICAgICAgICAgIC51bndyYXBfb3IoMTApCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZGVmYXVsdF91cGRhdGVfaW50ZXJ2YWxfbWludXRlcygpCiAgICAgICAgfSwKICAgICAgICAicHVibGljQ2hlY2tTb3VyY2VzIjogcHVibGljX3NvdXJjZXMsCiAgICAgICAgImRlZmF1bHRQdWJsaWNDaGVja1NvdXJjZXMiOiBkZWZhdWx0X3NvdXJjZXMsCiAgICAgICAgImh0dHBUcmFuc3BvcnQiOiBub3JtYWxpemVfaHR0cF90cmFuc3BvcnQocGFyc2VkLmFzX3JlZigpLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuZ2V0KCJodHRwVHJhbnNwb3J0IikpKSwKICAgICAgICAicHVibGljRG5zUHJvdmlkZXIiOiBub3JtYWxpemVfcHVibGljX2Ruc19wcm92aWRlcigKICAgICAgICAgICAgcGFyc2VkCiAgICAgICAgICAgICAgICAuYXNfcmVmKCkKICAgICAgICAgICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLmdldCgicHVibGljRG5zUHJvdmlkZXIiKSkKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSwKICAgICAgICApCiAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9wdWJsaWNfY2hlY2tfc291cmNlcyh2YWx1ZTogJlZhbHVlKSAtPiBWYWx1ZSB7CiAgICBsZXQgZmFsbGJhY2sgPSBkZWZhdWx0X3B1YmxpY19jaGVja19zb3VyY2VzKCk7CiAgICBqc29uISh7CiAgICAgICAgImlwdjQiOiBub3JtYWxpemVfcHVibGljX2NoZWNrX3NvdXJjZV9saXN0KAogICAgICAgICAgICB2YWx1ZS5nZXQoImlwdjQiKSwKICAgICAgICAgICAgZmFsbGJhY2suZ2V0KCJpcHY0IikuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KS5jbG9uZWQoKS51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICksCiAgICAgICAgImlwdjYiOiBub3JtYWxpemVfcHVibGljX2NoZWNrX3NvdXJjZV9saXN0KAogICAgICAgICAgICB2YWx1ZS5nZXQoImlwdjYiKSwKICAgICAgICAgICAgZmFsbGJhY2suZ2V0KCJpcHY2IikuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KS5jbG9uZWQoKS51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICkKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX3B1YmxpY19jaGVja19zb3VyY2VzX3N0cmljdCgKICAgIHZhbHVlOiAmVmFsdWUsCiAgICBmYWxsYmFjazogJlZhbHVlLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gUmVzdWx0PFZhbHVlLCBTdHJpbmc+IHsKICAgIGlmICF2YWx1ZS5pc19vYmplY3QoKSB7CiAgICAgICAgcmV0dXJuIEVycihkZG5zX3RleHQoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJwdWJsaWNDaGVja1NvdXJjZUludmFsaWRVcmwiLAogICAgICAgICAgICAmWwogICAgICAgICAgICAgICAgKCJmYW1pbHkiLCAiSVB2NC9JUHY2Ii50b19zdHJpbmcoKSksCiAgICAgICAgICAgICAgICAoInNvdXJjZSIsIHB1YmxpY19jaGVja19zb3VyY2VfdmFsdWVfc3RyaW5nKHZhbHVlKSksCiAgICAgICAgICAgIF0sCiAgICAgICAgKSk7CiAgICB9CiAgICBPayhqc29uISh7CiAgICAgICAgImlwdjQiOiBub3JtYWxpemVfcHVibGljX2NoZWNrX3NvdXJjZV9saXN0X3N0cmljdCgKICAgICAgICAgICAgdmFsdWUuZ2V0KCJpcHY0IiksCiAgICAgICAgICAgICJpcHY0IiwKICAgICAgICAgICAgZmFsbGJhY2sKICAgICAgICAgICAgICAgIC5nZXQoImlwdjQiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAgICAgICAgIC5jbG9uZWQoKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCksCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgKT8sCiAgICAgICAgImlwdjYiOiBub3JtYWxpemVfcHVibGljX2NoZWNrX3NvdXJjZV9saXN0X3N0cmljdCgKICAgICAgICAgICAgdmFsdWUuZ2V0KCJpcHY2IiksCiAgICAgICAgICAgICJpcHY2IiwKICAgICAgICAgICAgZmFsbGJhY2sKICAgICAgICAgICAgICAgIC5nZXQoImlwdjYiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAgICAgICAgIC5jbG9uZWQoKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCksCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgKT8KICAgIH0pKQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9wdWJsaWNfY2hlY2tfc291cmNlX2xpc3QoCiAgICB2YWx1ZTogT3B0aW9uPCZWYWx1ZT4sCiAgICBmYWxsYmFjazogVmVjPFZhbHVlPiwKKSAtPiBWZWM8VmFsdWU+IHsKICAgIGxldCBTb21lKGl0ZW1zKSA9IHZhbHVlLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkgZWxzZSB7CiAgICAgICAgcmV0dXJuIGZhbGxiYWNrOwogICAgfTsKICAgIGxldCBtdXQgc2VlbiA9IEJUcmVlU2V0OjpuZXcoKTsKICAgIGxldCBtdXQgbm9ybWFsaXplZCA9IFZlYzo6bmV3KCk7CiAgICBmb3IgaXRlbSBpbiBpdGVtcy5pdGVyKCkuZmlsdGVyX21hcChWYWx1ZTo6YXNfc3RyKSB7CiAgICAgICAgbGV0IHNvdXJjZSA9IGl0ZW0udHJpbSgpOwogICAgICAgIGlmIHNvdXJjZS5pc19lbXB0eSgpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBjYW5kaWRhdGUgPSBpZiBoYXNfZXhwbGljaXRfc2NoZW1lKHNvdXJjZSkgewogICAgICAgICAgICBzb3VyY2UudG9fc3RyaW5nKCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBmb3JtYXQhKCJodHRwczovL3tzb3VyY2V9IikKICAgICAgICB9OwogICAgICAgIGlmICFjYW5kaWRhdGUuc3RhcnRzX3dpdGgoImh0dHA6Ly8iKSAmJiAhY2FuZGlkYXRlLnN0YXJ0c193aXRoKCJodHRwczovLyIpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGlmIHNlZW4uaW5zZXJ0KGNhbmRpZGF0ZS5jbG9uZSgpKSB7CiAgICAgICAgICAgIG5vcm1hbGl6ZWQucHVzaChWYWx1ZTo6U3RyaW5nKGNhbmRpZGF0ZSkpOwogICAgICAgIH0KICAgIH0KICAgIGlmIG5vcm1hbGl6ZWQuaXNfZW1wdHkoKSB7CiAgICAgICAgZmFsbGJhY2sKICAgIH0gZWxzZSB7CiAgICAgICAgbm9ybWFsaXplZAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9wdWJsaWNfY2hlY2tfc291cmNlX2xpc3Rfc3RyaWN0KAogICAgdmFsdWU6IE9wdGlvbjwmVmFsdWU+LAogICAgZmFtaWx5OiAmc3RyLAogICAgZmFsbGJhY2s6IFZlYzxWYWx1ZT4sCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBSZXN1bHQ8VmVjPFZhbHVlPiwgU3RyaW5nPiB7CiAgICBsZXQgU29tZSh2YWx1ZSkgPSB2YWx1ZSBlbHNlIHsKICAgICAgICByZXR1cm4gT2soZmFsbGJhY2spOwogICAgfTsKICAgIGxldCBTb21lKGl0ZW1zKSA9IHZhbHVlLmFzX2FycmF5KCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIEVycihkZG5zX3RleHQoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJwdWJsaWNDaGVja1NvdXJjZUludmFsaWRVcmwiLAogICAgICAgICAgICAmWwogICAgICAgICAgICAgICAgKCJmYW1pbHkiLCBwdWJsaWNfY2hlY2tfZmFtaWx5X2xhYmVsKGZhbWlseSkudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAgICAgKCJzb3VyY2UiLCBwdWJsaWNfY2hlY2tfc291cmNlX3ZhbHVlX3N0cmluZyh2YWx1ZSkpLAogICAgICAgICAgICBdLAogICAgICAgICkpOwogICAgfTsKICAgIGxldCBtdXQgc2VlbiA9IEJUcmVlU2V0OjpuZXcoKTsKICAgIGxldCBtdXQgbm9ybWFsaXplZCA9IFZlYzo6bmV3KCk7CiAgICBmb3IgaXRlbSBpbiBpdGVtcyB7CiAgICAgICAgbGV0IHNvdXJjZSA9IG5vcm1hbGl6ZV9wdWJsaWNfY2hlY2tfc291cmNlX3N0cmljdChpdGVtLCBmYW1pbHksIHRyYW5zbGF0b3IpPzsKICAgICAgICBpZiBzZWVuLmluc2VydChzb3VyY2UuY2xvbmUoKSkgewogICAgICAgICAgICBub3JtYWxpemVkLnB1c2goVmFsdWU6OlN0cmluZyhzb3VyY2UpKTsKICAgICAgICB9CiAgICB9CiAgICBPayhub3JtYWxpemVkKQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9wdWJsaWNfY2hlY2tfc291cmNlX3N0cmljdCgKICAgIHZhbHVlOiAmVmFsdWUsCiAgICBmYW1pbHk6ICZzdHIsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBSZXN1bHQ8U3RyaW5nLCBTdHJpbmc+IHsKICAgIGxldCBzb3VyY2UgPSBwdWJsaWNfY2hlY2tfc291cmNlX3ZhbHVlX3N0cmluZyh2YWx1ZSk7CiAgICBsZXQgZmFtaWx5X2xhYmVsID0gcHVibGljX2NoZWNrX2ZhbWlseV9sYWJlbChmYW1pbHkpOwogICAgaWYgc291cmNlLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBFcnIoZGRuc190ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAicHVibGljQ2hlY2tTb3VyY2VFbXB0eSIsCiAgICAgICAgICAgICZbKCJmYW1pbHkiLCBmYW1pbHlfbGFiZWwudG9fc3RyaW5nKCkpXSwKICAgICAgICApKTsKICAgIH0KCiAgICBsZXQgY2FuZGlkYXRlID0gYnVpbGRfcHVibGljX2NoZWNrX2NhbmRpZGF0ZV91cmwoJnNvdXJjZSwgZmFtaWx5X2xhYmVsLCB0cmFuc2xhdG9yKT87CiAgICBsZXQgcGFyc2VkID0gVXJsOjpwYXJzZSgmY2FuZGlkYXRlKS5tYXBfZXJyKHxffCB7CiAgICAgICAgZGRuc190ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAicHVibGljQ2hlY2tTb3VyY2VJbnZhbGlkVXJsIiwKICAgICAgICAgICAgJlsKICAgICAgICAgICAgICAgICgiZmFtaWx5IiwgZmFtaWx5X2xhYmVsLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgICAgICgic291cmNlIiwgc291cmNlLmNsb25lKCkpLAogICAgICAgICAgICBdLAogICAgICAgICkKICAgIH0pPzsKICAgIGlmIHBhcnNlZC5zY2hlbWUoKSAhPSAiaHR0cCIgJiYgcGFyc2VkLnNjaGVtZSgpICE9ICJodHRwcyIgewogICAgICAgIHJldHVybiBFcnIoZGRuc190ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAicHVibGljQ2hlY2tTb3VyY2VVbnN1cHBvcnRlZFByb3RvY29sIiwKICAgICAgICAgICAgJlsoImZhbWlseSIsIGZhbWlseV9sYWJlbC50b19zdHJpbmcoKSksICgic291cmNlIiwgc291cmNlKV0sCiAgICAgICAgKSk7CiAgICB9CiAgICBpZiBwYXJzZWQuaG9zdF9zdHIoKS51bndyYXBfb3IoIiIpLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBFcnIoZGRuc190ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAicHVibGljQ2hlY2tTb3VyY2VJbnZhbGlkVXJsIiwKICAgICAgICAgICAgJlsoImZhbWlseSIsIGZhbWlseV9sYWJlbC50b19zdHJpbmcoKSksICgic291cmNlIiwgc291cmNlKV0sCiAgICAgICAgKSk7CiAgICB9CiAgICBPayhjYW5kaWRhdGUpCn0KCnB1YihzdXBlcikgZm4gYnVpbGRfcHVibGljX2NoZWNrX2NhbmRpZGF0ZV91cmwoCiAgICBzb3VyY2U6ICZzdHIsCiAgICBmYW1pbHlfbGFiZWw6ICZzdHIsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBSZXN1bHQ8U3RyaW5nLCBTdHJpbmc+IHsKICAgIGxldCBTb21lKHNjaGVtZSkgPSBleHBsaWNpdF91cmxfc2NoZW1lKHNvdXJjZSkgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKGZvcm1hdCEoImh0dHBzOi8ve3NvdXJjZX0iKSk7CiAgICB9OwogICAgaWYgc2NoZW1lICE9ICJodHRwIiAmJiBzY2hlbWUgIT0gImh0dHBzIiB7CiAgICAgICAgcmV0dXJuIEVycihkZG5zX3RleHQoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJwdWJsaWNDaGVja1NvdXJjZVVuc3VwcG9ydGVkUHJvdG9jb2wiLAogICAgICAgICAgICAmWwogICAgICAgICAgICAgICAgKCJmYW1pbHkiLCBmYW1pbHlfbGFiZWwudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAgICAgKCJzb3VyY2UiLCBzb3VyY2UudG9fc3RyaW5nKCkpLAogICAgICAgICAgICBdLAogICAgICAgICkpOwogICAgfQogICAgbGV0IGxvd2VyID0gc291cmNlLnRvX2FzY2lpX2xvd2VyY2FzZSgpOwogICAgaWYgIWxvd2VyLnN0YXJ0c193aXRoKCJodHRwOi8vIikgJiYgIWxvd2VyLnN0YXJ0c193aXRoKCJodHRwczovLyIpIHsKICAgICAgICByZXR1cm4gRXJyKGRkbnNfdGV4dCgKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgInB1YmxpY0NoZWNrU291cmNlSW52YWxpZFVybCIsCiAgICAgICAgICAgICZbCiAgICAgICAgICAgICAgICAoImZhbWlseSIsIGZhbWlseV9sYWJlbC50b19zdHJpbmcoKSksCiAgICAgICAgICAgICAgICAoInNvdXJjZSIsIHNvdXJjZS50b19zdHJpbmcoKSksCiAgICAgICAgICAgIF0sCiAgICAgICAgKSk7CiAgICB9CiAgICBPayhzb3VyY2UudG9fc3RyaW5nKCkpCn0KCnB1YihzdXBlcikgZm4gZXhwbGljaXRfdXJsX3NjaGVtZShzb3VyY2U6ICZzdHIpIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIGxldCAoc2NoZW1lLCBfKSA9IHNvdXJjZS5zcGxpdF9vbmNlKCc6Jyk/OwogICAgbGV0IG11dCBjaGFycyA9IHNjaGVtZS5jaGFycygpOwogICAgbGV0IGZpcnN0ID0gY2hhcnMubmV4dCgpPzsKICAgIGlmICFmaXJzdC5pc19hc2NpaV9hbHBoYWJldGljKCkgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgaWYgY2hhcnMuYWxsKHxjaHwgY2guaXNfYXNjaWlfYWxwaGFudW1lcmljKCkgfHwgbWF0Y2hlcyEoY2gsICcrJyB8ICcuJyB8ICctJykpIHsKICAgICAgICBTb21lKHNjaGVtZS50b19hc2NpaV9sb3dlcmNhc2UoKSkKICAgIH0gZWxzZSB7CiAgICAgICAgTm9uZQogICAgfQp9CgpwdWIoc3VwZXIpIGZuIHB1YmxpY19jaGVja19mYW1pbHlfbGFiZWwoZmFtaWx5OiAmc3RyKSAtPiAmJ3N0YXRpYyBzdHIgewogICAgaWYgZmFtaWx5ID09ICJpcHY0IiB7ICJJUHY0IiB9IGVsc2UgeyAiSVB2NiIgfQp9CgpwdWIoc3VwZXIpIGZuIHB1YmxpY19jaGVja19zb3VyY2VfdmFsdWVfc3RyaW5nKHZhbHVlOiAmVmFsdWUpIC0+IFN0cmluZyB7CiAgICBtYXRjaCB2YWx1ZSB7CiAgICAgICAgVmFsdWU6Ok51bGwgPT4gU3RyaW5nOjpuZXcoKSwKICAgICAgICBWYWx1ZTo6U3RyaW5nKHZhbHVlKSA9PiB2YWx1ZS50cmltKCkudG9fc3RyaW5nKCksCiAgICAgICAgXyA9PiB2YWx1ZS50b19zdHJpbmcoKSwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBkZWZhdWx0X3B1YmxpY19jaGVja19zb3VyY2VzKCkgLT4gVmFsdWUgewogICAganNvbiEoewogICAgICAgICJpcHY0IjogREVGQVVMVF9QVUJMSUNfQ0hFQ0tfSVBWNCwKICAgICAgICAiaXB2NiI6IERFRkFVTFRfUFVCTElDX0NIRUNLX0lQVjYKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX3VwZGF0ZV9pbnRlcnZhbF9taW51dGVzKHZhbHVlOiAmVmFsdWUpIC0+IE9wdGlvbjxpNjQ+IHsKICAgIGxldCBwYXJzZWQgPSBtYXRjaCB2YWx1ZSB7CiAgICAgICAgVmFsdWU6Ok51bWJlcih2YWx1ZSkgPT4gdmFsdWUuYXNfZjY0KCk/LAogICAgICAgIFZhbHVlOjpTdHJpbmcodmFsdWUpID0+IGpzX251bWJlcl9mcm9tX3N0cmluZ19saWtlX25vZGUodmFsdWUpPywKICAgICAgICBfID0+IHJldHVybiBOb25lLAogICAgfTsKICAgIGlmICFwYXJzZWQuaXNfZmluaXRlKCkgfHwgcGFyc2VkLmZyYWN0KCkgIT0gMC4wIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIGxldCBwYXJzZWQgPSBwYXJzZWQgYXMgaTY0OwogICAgKE1JTl9ERE5TX1VQREFURV9JTlRFUlZBTF9NSU5VVEVTLi49TUFYX0RETlNfVVBEQVRFX0lOVEVSVkFMX01JTlVURVMpCiAgICAgICAgLmNvbnRhaW5zKCZwYXJzZWQpCiAgICAgICAgLnRoZW5fc29tZShwYXJzZWQpCn0KCmZuIGpzX251bWJlcl9mcm9tX3N0cmluZ19saWtlX25vZGUodmFsdWU6ICZzdHIpIC0+IE9wdGlvbjxmNjQ+IHsKICAgIGxldCB0cmltbWVkID0gdmFsdWUudHJpbSgpOwogICAgaWYgdHJpbW1lZC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gU29tZSgwLjApOwogICAgfQoKICAgIGxldCByYWRpeF92YWx1ZSA9IGlmIGxldCBTb21lKHJlc3QpID0gdHJpbW1lZAogICAgICAgIC5zdHJpcF9wcmVmaXgoIjB4IikKICAgICAgICAub3JfZWxzZSh8fCB0cmltbWVkLnN0cmlwX3ByZWZpeCgiMFgiKSkKICAgIHsKICAgICAgICBTb21lKHUxMjg6OmZyb21fc3RyX3JhZGl4KHJlc3QsIDE2KS5vaygpPyBhcyBmNjQpCiAgICB9IGVsc2UgaWYgbGV0IFNvbWUocmVzdCkgPSB0cmltbWVkCiAgICAgICAgLnN0cmlwX3ByZWZpeCgiMGIiKQogICAgICAgIC5vcl9lbHNlKHx8IHRyaW1tZWQuc3RyaXBfcHJlZml4KCIwQiIpKQogICAgewogICAgICAgIFNvbWUodTEyODo6ZnJvbV9zdHJfcmFkaXgocmVzdCwgMikub2soKT8gYXMgZjY0KQogICAgfSBlbHNlIGlmIGxldCBTb21lKHJlc3QpID0gdHJpbW1lZAogICAgICAgIC5zdHJpcF9wcmVmaXgoIjBvIikKICAgICAgICAub3JfZWxzZSh8fCB0cmltbWVkLnN0cmlwX3ByZWZpeCgiME8iKSkKICAgIHsKICAgICAgICBTb21lKHUxMjg6OmZyb21fc3RyX3JhZGl4KHJlc3QsIDgpLm9rKCk/IGFzIGY2NCkKICAgIH0gZWxzZSB7CiAgICAgICAgTm9uZQogICAgfTsKICAgIGlmIGxldCBTb21lKHZhbHVlKSA9IHJhZGl4X3ZhbHVlIHsKICAgICAgICByZXR1cm4gU29tZSh2YWx1ZSk7CiAgICB9CgogICAgdHJpbW1lZC5wYXJzZTo6PGY2ND4oKS5vaygpCn0KCnB1YihzdXBlcikgZm4gZGVmYXVsdF91cGRhdGVfaW50ZXJ2YWxfbWludXRlcygpIC0+IGk2NCB7CiAgICBwYXJzZV9sZWdhY3lfZGRuc19jcm9uX2ludGVydmFsX21pbnV0ZXMoZW52Ojp2YXIoIkRETlNfQ1JPTiIpLm9rKCkuYXNfZGVyZWYoKSkudW53cmFwX29yKDEwKQp9CgpwdWIoc3VwZXIpIGZuIHBhcnNlX2xlZ2FjeV9kZG5zX2Nyb25faW50ZXJ2YWxfbWludXRlcyhwYXR0ZXJuOiBPcHRpb248JnN0cj4pIC0+IE9wdGlvbjxpNjQ+IHsKICAgIGxldCBwYXJ0cyA9IHBhdHRlcm4/CiAgICAgICAgLnNwbGl0X3doaXRlc3BhY2UoKQogICAgICAgIC5maWx0ZXIofHBhcnR8ICFwYXJ0LmlzX2VtcHR5KCkpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBpZiBwYXJ0cy5sZW4oKSAhPSA1ICYmIHBhcnRzLmxlbigpICE9IDYgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgaWYgcGFydHMubGVuKCkgPT0gNiAmJiBwYXJ0c1swXSAhPSAiMCIgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgbGV0IG1pbnV0ZV9wYXJ0ID0gaWYgcGFydHMubGVuKCkgPT0gNiB7IHBhcnRzWzFdIH0gZWxzZSB7IHBhcnRzWzBdIH07CiAgICBsZXQgb3RoZXJfcGFydHMgPSBpZiBwYXJ0cy5sZW4oKSA9PSA2IHsKICAgICAgICAmcGFydHNbMi4uXQogICAgfSBlbHNlIHsKICAgICAgICAmcGFydHNbMS4uXQogICAgfTsKICAgIGlmICFvdGhlcl9wYXJ0cy5pdGVyKCkuYWxsKHxwYXJ0fCAqcGFydCA9PSAiKiIpIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIGxldCBpbnRlcnZhbCA9IG1pbnV0ZV9wYXJ0LnN0cmlwX3ByZWZpeCgiKi8iKT87CiAgICBpZiBpbnRlcnZhbC5pc19lbXB0eSgpIHx8ICFpbnRlcnZhbC5jaGFycygpLmFsbCh8Y2h8IGNoLmlzX2FzY2lpX2RpZ2l0KCkpIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIGxldCBtaW51dGVzID0gaW50ZXJ2YWwucGFyc2U6OjxpNjQ+KCkub2soKT87CiAgICAoTUlOX0RETlNfVVBEQVRFX0lOVEVSVkFMX01JTlVURVMuLj1NQVhfREROU19VUERBVEVfSU5URVJWQUxfTUlOVVRFUykKICAgICAgICAuY29udGFpbnMoJm1pbnV0ZXMpCiAgICAgICAgLnRoZW5fc29tZShtaW51dGVzKQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9odHRwX3RyYW5zcG9ydCh2YWx1ZTogT3B0aW9uPCZWYWx1ZT4pIC0+ICYnc3RhdGljIHN0ciB7CiAgICBtYXRjaCB2YWx1ZS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSB7CiAgICAgICAgU29tZSgibm9kZSIgfCAiZmV0Y2giKSA9PiAibm9kZSIsCiAgICAgICAgU29tZSgiY3VybCIpID0+ICJjdXJsIiwKICAgICAgICBfID0+ICJub2RlIiwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBtZXJnZV9odHRwX3RyYW5zcG9ydF91cGRhdGUoaW5wdXQ6IE9wdGlvbjwmc3RyPiwgY3VycmVudDogJlZhbHVlKSAtPiAmJ3N0YXRpYyBzdHIgewogICAgbWF0Y2ggaW5wdXQgewogICAgICAgIFNvbWUoIm5vZGUiIHwgImZldGNoIikgPT4gIm5vZGUiLAogICAgICAgIFNvbWUoImN1cmwiKSA9PiAiY3VybCIsCiAgICAgICAgTm9uZSA9PiBub3JtYWxpemVfaHR0cF90cmFuc3BvcnQoY3VycmVudC5nZXQoImh0dHBUcmFuc3BvcnQiKSksCiAgICAgICAgU29tZShfKSA9PiAibm9kZSIsCiAgICB9Cn0KCnB1YihzdXBlcikgY29uc3QgREVGQVVMVF9QVUJMSUNfRE5TX1BST1ZJREVSOiAmc3RyID0gImFsaWRucyI7CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9wdWJsaWNfZG5zX3Byb3ZpZGVyKHZhbHVlOiBPcHRpb248JnN0cj4pIC0+ICYnc3RhdGljIHN0ciB7CiAgICBtYXRjaCB2YWx1ZSB7CiAgICAgICAgU29tZSgibm9uZSIpID0+ICJub25lIiwKICAgICAgICBTb21lKCJ0ZW5jZW50IikgPT4gInRlbmNlbnQiLAogICAgICAgIFNvbWUoImNsb3VkZmxhcmUiKSA9PiAiY2xvdWRmbGFyZSIsCiAgICAgICAgU29tZSgiZ29vZ2xlIikgPT4gImdvb2dsZSIsCiAgICAgICAgU29tZSgiYWxpZG5zIikgfCBOb25lID0+IERFRkFVTFRfUFVCTElDX0ROU19QUk9WSURFUiwKICAgICAgICBTb21lKF8pID0+IERFRkFVTFRfUFVCTElDX0ROU19QUk9WSURFUiwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBtZXJnZV9wdWJsaWNfZG5zX3Byb3ZpZGVyX3VwZGF0ZSgKICAgIGlucHV0OiBPcHRpb248JnN0cj4sCiAgICBjdXJyZW50OiAmVmFsdWUsCikgLT4gJidzdGF0aWMgc3RyIHsKICAgIG1hdGNoIGlucHV0IHsKICAgICAgICBTb21lKHZhbHVlKSA9PiBub3JtYWxpemVfcHVibGljX2Ruc19wcm92aWRlcihTb21lKHZhbHVlKSksCiAgICAgICAgTm9uZSA9PiB7CiAgICAgICAgICAgIG5vcm1hbGl6ZV9wdWJsaWNfZG5zX3Byb3ZpZGVyKGN1cnJlbnQuZ2V0KCJwdWJsaWNEbnNQcm92aWRlciIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpKQogICAgICAgIH0KICAgIH0KfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfdXBkYXRlX3Njb3BlKHZhbHVlOiBPcHRpb248JnN0cj4pIC0+ICYnc3RhdGljIHN0ciB7CiAgICBtYXRjaCB2YWx1ZSB7CiAgICAgICAgU29tZSgiaXB2Nl9vbmx5IikgPT4gImlwdjZfb25seSIsCiAgICAgICAgU29tZSgiaXB2NF9vbmx5IikgPT4gImlwdjRfb25seSIsCiAgICAgICAgXyA9PiAiZHVhbF9zdGFjayIsCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX2lwX3NvdXJjZSh2YWx1ZTogT3B0aW9uPCZzdHI+KSAtPiAmJ3N0YXRpYyBzdHIgewogICAgbWF0Y2ggdmFsdWUgewogICAgICAgIFNvbWUoImludGVyZmFjZSIpID0+ICJpbnRlcmZhY2UiLAogICAgICAgIFNvbWUoInN0YXRpYyIpID0+ICJzdGF0aWMiLAogICAgICAgIFNvbWUoImRvbWFpbiIpID0+ICJkb21haW4iLAogICAgICAgIF8gPT4gInB1YmxpYyIsCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX25ldHdvcmtfaW50ZXJmYWNlKHZhbHVlOiBPcHRpb248JnN0cj4pIC0+IFN0cmluZyB7CiAgICB2YWx1ZS51bndyYXBfb3IoIiIpLnRyaW0oKS50b19zdHJpbmcoKQp9CgpwdWIoc3VwZXIpIGZuIHBhcnNlX2xhc3RfaXAoZGF0YTogJkhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+KSAtPiBWYWx1ZSB7CiAgICBqc29uISh7CiAgICAgICAgImlwdjQiOiBub25fZW1wdHlfc3RyaW5nKGRhdGEuZ2V0KCJpcHY0IikpLAogICAgICAgICJpcHY2Ijogbm9uX2VtcHR5X3N0cmluZyhkYXRhLmdldCgiaXB2NiIpKSwKICAgICAgICAidXBkYXRlZF9hdCI6IG5vbl9lbXB0eV9zdHJpbmcoZGF0YS5nZXQoInVwZGF0ZWRfYXQiKSkKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gcGFyc2VfbGFzdF9jaGVjayhkYXRhOiAmSGFzaE1hcDxTdHJpbmcsIFN0cmluZz4pIC0+IFZhbHVlIHsKICAgIGpzb24hKHsKICAgICAgICAiY2hlY2tlZF9hdCI6IG5vbl9lbXB0eV9zdHJpbmcoZGF0YS5nZXQoImNoZWNrZWRfYXQiKSksCiAgICAgICAgIm91dGNvbWUiOiBub3JtYWxpemVfbGFzdF9jaGVja19vdXRjb21lKGRhdGEuZ2V0KCJvdXRjb21lIikubWFwKFN0cmluZzo6YXNfc3RyKSksCiAgICAgICAgIm1lc3NhZ2UiOiBub25fZW1wdHlfc3RyaW5nKGRhdGEuZ2V0KCJtZXNzYWdlIikpCiAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIGVtcHR5X2xhc3RfaXAoKSAtPiBWYWx1ZSB7CiAgICBqc29uISh7ICJpcHY0IjogbnVsbCwgImlwdjYiOiBudWxsLCAidXBkYXRlZF9hdCI6IG51bGwgfSkKfQoKcHViKHN1cGVyKSBmbiBlbXB0eV9sYXN0X2NoZWNrKCkgLT4gVmFsdWUgewogICAganNvbiEoeyAiY2hlY2tlZF9hdCI6IG51bGwsICJvdXRjb21lIjogbnVsbCwgIm1lc3NhZ2UiOiBudWxsIH0pCn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX2xhc3RfY2hlY2tfb3V0Y29tZSh2YWx1ZTogT3B0aW9uPCZzdHI+KSAtPiBPcHRpb248JidzdGF0aWMgc3RyPiB7CiAgICBtYXRjaCB2YWx1ZSB7CiAgICAgICAgU29tZSgidXBkYXRlZCIpID0+IFNvbWUoInVwZGF0ZWQiKSwKICAgICAgICBTb21lKCJub29wIikgPT4gU29tZSgibm9vcCIpLAogICAgICAgIFNvbWUoInNraXBwZWQiKSA9PiBTb21lKCJza2lwcGVkIiksCiAgICAgICAgU29tZSgiZXJyb3IiKSA9PiBTb21lKCJlcnJvciIpLAogICAgICAgIF8gPT4gTm9uZSwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBub25fZW1wdHlfc3RyaW5nKHZhbHVlOiBPcHRpb248JlN0cmluZz4pIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIHZhbHVlCiAgICAgICAgLm1hcCh8dmFsdWV8IHZhbHVlLnRyaW0oKS50b19zdHJpbmcoKSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCn0KCnB1YihzdXBlcikgZm4gZG9tYWluX3N1bW1hcnkoCiAgICBwcm92aWRlcjogT3B0aW9uPCZzdHI+LAogICAgY29uZmlnOiAmSGFzaE1hcDxTdHJpbmcsIFN0cmluZz4sCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBTdHJpbmcgewogICAgaWYgbGV0IFNvbWUodmFsdWUpID0gZG9tYWluX3N1bW1hcnlfY2FuZGlkYXRlKGNvbmZpZykgewogICAgICAgIHJldHVybiB2YWx1ZTsKICAgIH0KICAgIGlmIHByb3ZpZGVyLmFuZF90aGVuKG5vcm1hbGl6ZV9wcm92aWRlcl9uYW1lKS5pc19zb21lKCkgewogICAgICAgIFN0cmluZzo6bmV3KCkKICAgIH0gZWxzZSB7CiAgICAgICAgZGRuc190ZXh0KHRyYW5zbGF0b3IsICJub1Byb3ZpZGVyU2VsZWN0ZWQiLCAmW10pCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gZG9tYWluX3N1bW1hcnlfY2FuZGlkYXRlKGNvbmZpZzogJkhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+KSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBmb3Iga2V5IGluIFsKICAgICAgICAiZG9tYWluIiwKICAgICAgICAiaG9zdG5hbWUiLAogICAgICAgICJkb21haW5zIiwKICAgICAgICAiem9uZSIsCiAgICAgICAgInJvb3RfZG9tYWluIiwKICAgICAgICAic2l0ZV9uYW1lIiwKICAgICAgICAic2l0ZV9pZCIsCiAgICBdIHsKICAgICAgICBpZiBsZXQgU29tZSh2YWx1ZSkgPSBjb25maWcKICAgICAgICAgICAgLmdldChrZXkpCiAgICAgICAgICAgIC5tYXAofHZhbHVlfCB2YWx1ZS50cmltKCkudG9fc3RyaW5nKCkpCiAgICAgICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybiBTb21lKHZhbHVlKTsKICAgICAgICB9CiAgICB9CiAgICBOb25lCn0KCnB1YihzdXBlcikgZm4gcHJvdmlkZXJfbGFiZWwocHJvdmlkZXI6IE9wdGlvbjwmc3RyPiwgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IpIC0+IFN0cmluZyB7CiAgICBsZXQgU29tZShwcm92aWRlcikgPSBwcm92aWRlci5hbmRfdGhlbihub3JtYWxpemVfcHJvdmlkZXJfbmFtZSkgZWxzZSB7CiAgICAgICAgcmV0dXJuIGRkbnNfdGV4dCh0cmFuc2xhdG9yLCAibm90Q29uZmlndXJlZCIsICZbXSk7CiAgICB9OwogICAgbGV0IGZhbGxiYWNrID0gcHJvdmlkZXJfbGFiZWxfZmFsbGJhY2soJnByb3ZpZGVyKTsKICAgIGRkbnNfY2F0YWxvZ190ZXh0KAogICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgJmZvcm1hdCEoInByb3ZpZGVycy57fS5sYWJlbCIsIGRkbnNfcHJvdmlkZXJfaTE4bl9rZXkoJnByb3ZpZGVyKSksCiAgICAgICAgJmZhbGxiYWNrLAogICAgICAgICZbXSwKICAgICkKfQoKcHViKHN1cGVyKSBmbiBwcm92aWRlcl9sYWJlbF9mYWxsYmFjayhwcm92aWRlcjogJnN0cikgLT4gU3RyaW5nIHsKICAgIG1hdGNoIHByb3ZpZGVyIHsKICAgICAgICAiYWxpZG5zIiA9PiAi6Zi/6YeM5LqRIEROUyIudG9fc3RyaW5nKCksCiAgICAgICAgImJhaWR1Y2xvdWQiID0+ICLnmb7luqbmmbrog73kupEiLnRvX3N0cmluZygpLAogICAgICAgICJjbG91ZGZsYXJlIiA9PiAiQ2xvdWRmbGFyZSIudG9fc3RyaW5nKCksCiAgICAgICAgImRuc2hlIiA9PiAiRE5TSEUiLnRvX3N0cmluZygpLAogICAgICAgICJkbnNwb2QiID0+ICJETlNQb2QiLnRvX3N0cmluZygpLAogICAgICAgICJkdWNrZG5zIiA9PiAiRHVja0ROUyIudG9fc3RyaW5nKCksCiAgICAgICAgImR5bnUiID0+ICJEeW51Ii50b19zdHJpbmcoKSwKICAgICAgICAiZHludjYiID0+ICJkeW52NiIudG9fc3RyaW5nKCksCiAgICAgICAgImVkZ2VvbmVfY25hbWUiID0+ICJFZGdlT25lIENOQU1FIi50b19zdHJpbmcoKSwKICAgICAgICAiZWRnZW9uZSIgPT4gIlRlbmNlbnQgRWRnZU9uZSIudG9fc3RyaW5nKCksCiAgICAgICAgImVzYSIgPT4gIumYv+mHjOS6kSBFU0EiLnRvX3N0cmluZygpLAogICAgICAgICJnb2RhZGR5IiA9PiAiR29EYWRkeSIudG9fc3RyaW5nKCksCiAgICAgICAgImh1YXdlaWNsb3VkIiA9PiAi5Y2O5Li65LqRIEROUyIudG9fc3RyaW5nKCksCiAgICAgICAgIm5vaXAiID0+ICJOTy1JUCIudG9fc3RyaW5nKCksCiAgICAgICAgInBvcmtidW4iID0+ICJQb3JrYnVuIi50b19zdHJpbmcoKSwKICAgICAgICAidGVuY2VudGNsb3VkIiA9PiAi6IW+6K6v5LqRIEROU1BvZCIudG9fc3RyaW5nKCksCiAgICAgICAgXyA9PiBwcm92aWRlci50b19zdHJpbmcoKSwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfcHJvdmlkZXJfbmFtZSh2YWx1ZTogJnN0cikgLT4gT3B0aW9uPFN0cmluZz4gewogICAgbGV0IG5vcm1hbGl6ZWQgPSB2YWx1ZS50cmltKCk7CiAgICBpZiBwcm92aWRlcl9uYW1lcygpLmNvbnRhaW5zKG5vcm1hbGl6ZWQpIHsKICAgICAgICBTb21lKG5vcm1hbGl6ZWQudG9fc3RyaW5nKCkpCiAgICB9IGVsc2UgewogICAgICAgIE5vbmUKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBwcm92aWRlcl9uYW1lcygpIC0+IEJUcmVlU2V0PCYnc3RhdGljIHN0cj4gewogICAgWwogICAgICAgICJhbGlkbnMiLAogICAgICAgICJiYWlkdWNsb3VkIiwKICAgICAgICAiY2xvdWRmbGFyZSIsCiAgICAgICAgImRuc2hlIiwKICAgICAgICAiZG5zcG9kIiwKICAgICAgICAiZHVja2RucyIsCiAgICAgICAgImR5bnUiLAogICAgICAgICJkeW52NiIsCiAgICAgICAgImVkZ2VvbmVfY25hbWUiLAogICAgICAgICJlZGdlb25lIiwKICAgICAgICAiZXNhIiwKICAgICAgICAiZ29kYWRkeSIsCiAgICAgICAgImh1YXdlaWNsb3VkIiwKICAgICAgICAibm9pcCIsCiAgICAgICAgInBvcmtidW4iLAogICAgICAgICJ0ZW5jZW50Y2xvdWQiLAogICAgXQogICAgLmludG9faXRlcigpCiAgICAuY29sbGVjdCgpCn0KCnB1YihzdXBlcikgZm4gaGFzX2V4cGxpY2l0X3NjaGVtZSh2YWx1ZTogJnN0cikgLT4gYm9vbCB7CiAgICB2YWx1ZS5maW5kKCc6JykuaXNfc29tZV9hbmQofGluZGV4fCB7CiAgICAgICAgdmFsdWVbLi5pbmRleF0KICAgICAgICAgICAgLmNoYXJzKCkKICAgICAgICAgICAgLm5leHQoKQogICAgICAgICAgICAuaXNfc29tZV9hbmQofGNofCBjaC5pc19hc2NpaV9hbHBoYWJldGljKCkpCiAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIHRhcmdldF9tZXRhX2tleShpZDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntERE5TX1RBUkdFVF9QUkVGSVh9e2lkfTptZXRhIikKfQoKcHViKHN1cGVyKSBmbiB0YXJnZXRfY29uZmlnX2tleShpZDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntERE5TX1RBUkdFVF9QUkVGSVh9e2lkfTpjb25maWciKQp9CgpwdWIoc3VwZXIpIGZuIHRhcmdldF9sYXN0X2lwX2tleShpZDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIntERE5TX1RBUkdFVF9QUkVGSVh9e2lkfTpsYXN0X2lwIikKfQoKcHViKHN1cGVyKSBmbiB0YXJnZXRfc2VsZWN0aW9uX2FuY2hvcl9rZXkoaWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7REROU19UQVJHRVRfUFJFRklYfXtpZH06c2VsZWN0aW9uX2FuY2hvciIpCn0KCnB1YihzdXBlcikgZm4gdGFyZ2V0X2ludGVyZmFjZV9yZWNvdmVyeV9rZXkoaWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7REROU19UQVJHRVRfUFJFRklYfXtpZH06aW50ZXJmYWNlX3JlY292ZXJ5IikKfQoKcHViKHN1cGVyKSBmbiB0YXJnZXRfbGFzdF9jaGVja19rZXkoaWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7REROU19UQVJHRVRfUFJFRklYfXtpZH06bGFzdF9jaGVjayIpCn0K
+use super::*;
+
+pub(super) fn parse_settings(raw: Option<&str>) -> Value {
+    let parsed = raw.and_then(|value| serde_json::from_str::<Value>(value).ok());
+    let is_record = parsed.as_ref().is_some_and(Value::is_object);
+    let default_sources = default_public_check_sources();
+    let public_sources = parsed
+        .as_ref()
+        .and_then(|value| value.get("publicCheckSources"))
+        .map(normalize_public_check_sources)
+        .unwrap_or_else(default_public_check_sources);
+    json!({
+        "updateIntervalMinutes": if is_record {
+            parsed
+                .as_ref()
+                .and_then(|value| value.get("updateIntervalMinutes"))
+                .and_then(normalize_update_interval_minutes)
+                .unwrap_or(10)
+        } else {
+            default_update_interval_minutes()
+        },
+        "publicCheckSources": public_sources,
+        "defaultPublicCheckSources": default_sources,
+        "httpTransport": normalize_http_transport(parsed.as_ref().and_then(|value| value.get("httpTransport"))),
+        "publicDnsProvider": normalize_public_dns_provider(
+            parsed
+                .as_ref()
+                .and_then(|value| value.get("publicDnsProvider"))
+                .and_then(Value::as_str),
+        )
+    })
+}
+
+pub(super) fn normalize_public_check_sources(value: &Value) -> Value {
+    let fallback = default_public_check_sources();
+    json!({
+        "ipv4": normalize_public_check_source_list(
+            value.get("ipv4"),
+            fallback.get("ipv4").and_then(Value::as_array).cloned().unwrap_or_default(),
+        ),
+        "ipv6": normalize_public_check_source_list(
+            value.get("ipv6"),
+            fallback.get("ipv6").and_then(Value::as_array).cloned().unwrap_or_default(),
+        )
+    })
+}
+
+pub(super) fn normalize_public_check_sources_strict(
+    value: &Value,
+    fallback: &Value,
+    translator: &Translator,
+) -> Result<Value, String> {
+    if !value.is_object() {
+        return Err(ddns_text(
+            translator,
+            "publicCheckSourceInvalidUrl",
+            &[
+                ("family", "IPv4/IPv6".to_string()),
+                ("source", public_check_source_value_string(value)),
+            ],
+        ));
+    }
+    Ok(json!({
+        "ipv4": normalize_public_check_source_list_strict(
+            value.get("ipv4"),
+            "ipv4",
+            fallback
+                .get("ipv4")
+                .and_then(Value::as_array)
+                .cloned()
+                .unwrap_or_default(),
+            translator,
+        )?,
+        "ipv6": normalize_public_check_source_list_strict(
+            value.get("ipv6"),
+            "ipv6",
+            fallback
+                .get("ipv6")
+                .and_then(Value::as_array)
+                .cloned()
+                .unwrap_or_default(),
+            translator,
+        )?
+    }))
+}
+
+pub(super) fn normalize_public_check_source_list(
+    value: Option<&Value>,
+    fallback: Vec<Value>,
+) -> Vec<Value> {
+    let Some(items) = value.and_then(Value::as_array) else {
+        return fallback;
+    };
+    let mut seen = BTreeSet::new();
+    let mut normalized = Vec::new();
+    for item in items.iter().filter_map(Value::as_str) {
+        let source = item.trim();
+        if source.is_empty() {
+            continue;
+        }
+        let candidate = if has_explicit_scheme(source) {
+            source.to_string()
+        } else {
+            format!("https://{source}")
+        };
+        if !candidate.starts_with("http://") && !candidate.starts_with("https://") {
+            continue;
+        }
+        if seen.insert(candidate.clone()) {
+            normalized.push(Value::String(candidate));
+        }
+    }
+    if normalized.is_empty() {
+        fallback
+    } else {
+        normalized
+    }
+}
+
+pub(super) fn normalize_public_check_source_list_strict(
+    value: Option<&Value>,
+    family: &str,
+    fallback: Vec<Value>,
+    translator: &Translator,
+) -> Result<Vec<Value>, String> {
+    let Some(value) = value else {
+        return Ok(fallback);
+    };
+    let Some(items) = value.as_array() else {
+        return Err(ddns_text(
+            translator,
+            "publicCheckSourceInvalidUrl",
+            &[
+                ("family", public_check_family_label(family).to_string()),
+                ("source", public_check_source_value_string(value)),
+            ],
+        ));
+    };
+    let mut seen = BTreeSet::new();
+    let mut normalized = Vec::new();
+    for item in items {
+        let source = normalize_public_check_source_strict(item, family, translator)?;
+        if seen.insert(source.clone()) {
+            normalized.push(Value::String(source));
+        }
+    }
+    Ok(normalized)
+}
+
+pub(super) fn normalize_public_check_source_strict(
+    value: &Value,
+    family: &str,
+    translator: &Translator,
+) -> Result<String, String> {
+    let source = public_check_source_value_string(value);
+    let family_label = public_check_family_label(family);
+    if source.is_empty() {
+        return Err(ddns_text(
+            translator,
+            "publicCheckSourceEmpty",
+            &[("family", family_label.to_string())],
+        ));
+    }
+
+    let candidate = build_public_check_candidate_url(&source, family_label, translator)?;
+    let parsed = Url::parse(&candidate).map_err(|_| {
+        ddns_text(
+            translator,
+            "publicCheckSourceInvalidUrl",
+            &[
+                ("family", family_label.to_string()),
+                ("source", source.clone()),
+            ],
+        )
+    })?;
+    if parsed.scheme() != "http" && parsed.scheme() != "https" {
+        return Err(ddns_text(
+            translator,
+            "publicCheckSourceUnsupportedProtocol",
+            &[("family", family_label.to_string()), ("source", source)],
+        ));
+    }
+    if parsed.host_str().unwrap_or("").is_empty() {
+        return Err(ddns_text(
+            translator,
+            "publicCheckSourceInvalidUrl",
+            &[("family", family_label.to_string()), ("source", source)],
+        ));
+    }
+    Ok(candidate)
+}
+
+pub(super) fn build_public_check_candidate_url(
+    source: &str,
+    family_label: &str,
+    translator: &Translator,
+) -> Result<String, String> {
+    let Some(scheme) = explicit_url_scheme(source) else {
+        return Ok(format!("https://{source}"));
+    };
+    if scheme != "http" && scheme != "https" {
+        return Err(ddns_text(
+            translator,
+            "publicCheckSourceUnsupportedProtocol",
+            &[
+                ("family", family_label.to_string()),
+                ("source", source.to_string()),
+            ],
+        ));
+    }
+    let lower = source.to_ascii_lowercase();
+    if !lower.starts_with("http://") && !lower.starts_with("https://") {
+        return Err(ddns_text(
+            translator,
+            "publicCheckSourceInvalidUrl",
+            &[
+                ("family", family_label.to_string()),
+                ("source", source.to_string()),
+            ],
+        ));
+    }
+    Ok(source.to_string())
+}
+
+pub(super) fn explicit_url_scheme(source: &str) -> Option<String> {
+    let (scheme, _) = source.split_once(':')?;
+    let mut chars = scheme.chars();
+    let first = chars.next()?;
+    if !first.is_ascii_alphabetic() {
+        return None;
+    }
+    if chars.all(|ch| ch.is_ascii_alphanumeric() || matches!(ch, '+' | '.' | '-')) {
+        Some(scheme.to_ascii_lowercase())
+    } else {
+        None
+    }
+}
+
+pub(super) fn public_check_family_label(family: &str) -> &'static str {
+    if family == "ipv4" { "IPv4" } else { "IPv6" }
+}
+
+pub(super) fn public_check_source_value_string(value: &Value) -> String {
+    match value {
+        Value::Null => String::new(),
+        Value::String(value) => value.trim().to_string(),
+        _ => value.to_string(),
+    }
+}
+
+pub(super) fn default_public_check_sources() -> Value {
+    json!({
+        "ipv4": DEFAULT_PUBLIC_CHECK_IPV4,
+        "ipv6": DEFAULT_PUBLIC_CHECK_IPV6
+    })
+}
+
+pub(super) fn normalize_update_interval_minutes(value: &Value) -> Option<i64> {
+    let parsed = match value {
+        Value::Number(value) => value.as_f64()?,
+        Value::String(value) => js_number_from_string_like_node(value)?,
+        _ => return None,
+    };
+    if !parsed.is_finite() || parsed.fract() != 0.0 {
+        return None;
+    }
+    let parsed = parsed as i64;
+    (MIN_DDNS_UPDATE_INTERVAL_MINUTES..=MAX_DDNS_UPDATE_INTERVAL_MINUTES)
+        .contains(&parsed)
+        .then_some(parsed)
+}
+
+fn js_number_from_string_like_node(value: &str) -> Option<f64> {
+    let trimmed = value.trim();
+    if trimmed.is_empty() {
+        return Some(0.0);
+    }
+
+    let radix_value = if let Some(rest) = trimmed
+        .strip_prefix("0x")
+        .or_else(|| trimmed.strip_prefix("0X"))
+    {
+        Some(u128::from_str_radix(rest, 16).ok()? as f64)
+    } else if let Some(rest) = trimmed
+        .strip_prefix("0b")
+        .or_else(|| trimmed.strip_prefix("0B"))
+    {
+        Some(u128::from_str_radix(rest, 2).ok()? as f64)
+    } else if let Some(rest) = trimmed
+        .strip_prefix("0o")
+        .or_else(|| trimmed.strip_prefix("0O"))
+    {
+        Some(u128::from_str_radix(rest, 8).ok()? as f64)
+    } else {
+        None
+    };
+    if let Some(value) = radix_value {
+        return Some(value);
+    }
+
+    trimmed.parse::<f64>().ok()
+}
+
+pub(super) fn default_update_interval_minutes() -> i64 {
+    parse_legacy_ddns_cron_interval_minutes(env::var("DDNS_CRON").ok().as_deref()).unwrap_or(10)
+}
+
+pub(super) fn parse_legacy_ddns_cron_interval_minutes(pattern: Option<&str>) -> Option<i64> {
+    let parts = pattern?
+        .split_whitespace()
+        .filter(|part| !part.is_empty())
+        .collect::<Vec<_>>();
+    if parts.len() != 5 && parts.len() != 6 {
+        return None;
+    }
+    if parts.len() == 6 && parts[0] != "0" {
+        return None;
+    }
+    let minute_part = if parts.len() == 6 { parts[1] } else { parts[0] };
+    let other_parts = if parts.len() == 6 {
+        &parts[2..]
+    } else {
+        &parts[1..]
+    };
+    if !other_parts.iter().all(|part| *part == "*") {
+        return None;
+    }
+    let interval = minute_part.strip_prefix("*/")?;
+    if interval.is_empty() || !interval.chars().all(|ch| ch.is_ascii_digit()) {
+        return None;
+    }
+    let minutes = interval.parse::<i64>().ok()?;
+    (MIN_DDNS_UPDATE_INTERVAL_MINUTES..=MAX_DDNS_UPDATE_INTERVAL_MINUTES)
+        .contains(&minutes)
+        .then_some(minutes)
+}
+
+pub(super) fn normalize_http_transport(value: Option<&Value>) -> &'static str {
+    match value.and_then(Value::as_str) {
+        Some("node" | "fetch") => "node",
+        Some("curl") => "curl",
+        _ => "node",
+    }
+}
+
+pub(super) fn merge_http_transport_update(input: Option<&str>, current: &Value) -> &'static str {
+    match input {
+        Some("node" | "fetch") => "node",
+        Some("curl") => "curl",
+        None => normalize_http_transport(current.get("httpTransport")),
+        Some(_) => "node",
+    }
+}
+
+pub(super) const DEFAULT_PUBLIC_DNS_PROVIDER: &str = "alidns";
+
+pub(super) fn normalize_public_dns_provider(value: Option<&str>) -> &'static str {
+    match value {
+        Some("none") => "none",
+        Some("tencent") => "tencent",
+        Some("cloudflare") => "cloudflare",
+        Some("google") => "google",
+        Some("alidns") | None => DEFAULT_PUBLIC_DNS_PROVIDER,
+        Some(_) => DEFAULT_PUBLIC_DNS_PROVIDER,
+    }
+}
+
+pub(super) fn merge_public_dns_provider_update(
+    input: Option<&str>,
+    current: &Value,
+) -> &'static str {
+    match input {
+        Some(value) => normalize_public_dns_provider(Some(value)),
+        None => {
+            normalize_public_dns_provider(current.get("publicDnsProvider").and_then(Value::as_str))
+        }
+    }
+}
+
+pub(super) fn normalize_update_scope(value: Option<&str>) -> &'static str {
+    match value {
+        Some("ipv6_only") => "ipv6_only",
+        Some("ipv4_only") => "ipv4_only",
+        _ => "dual_stack",
+    }
+}
+
+pub(super) fn normalize_ip_source(value: Option<&str>) -> &'static str {
+    match value {
+        Some("interface") => "interface",
+        Some("static") => "static",
+        Some("domain") => "domain",
+        _ => "public",
+    }
+}
+
+pub(super) fn normalize_network_interface(value: Option<&str>) -> String {
+    value.unwrap_or("").trim().to_string()
+}
+
+pub(super) fn parse_last_ip(data: &HashMap<String, String>) -> Value {
+    json!({
+        "ipv4": non_empty_string(data.get("ipv4")),
+        "ipv6": non_empty_string(data.get("ipv6")),
+        "updated_at": non_empty_string(data.get("updated_at"))
+    })
+}
+
+pub(super) fn parse_last_check(data: &HashMap<String, String>) -> Value {
+    json!({
+        "checked_at": non_empty_string(data.get("checked_at")),
+        "outcome": normalize_last_check_outcome(data.get("outcome").map(String::as_str)),
+        "message": non_empty_string(data.get("message"))
+    })
+}
+
+pub(super) fn empty_last_ip() -> Value {
+    json!({ "ipv4": null, "ipv6": null, "updated_at": null })
+}
+
+pub(super) fn empty_last_check() -> Value {
+    json!({ "checked_at": null, "outcome": null, "message": null })
+}
+
+pub(super) fn normalize_last_check_outcome(value: Option<&str>) -> Option<&'static str> {
+    match value {
+        Some("updated") => Some("updated"),
+        Some("noop") => Some("noop"),
+        Some("skipped") => Some("skipped"),
+        Some("error") => Some("error"),
+        _ => None,
+    }
+}
+
+pub(super) fn non_empty_string(value: Option<&String>) -> Option<String> {
+    value
+        .map(|value| value.trim().to_string())
+        .filter(|value| !value.is_empty())
+}
+
+pub(super) fn domain_summary(
+    provider: Option<&str>,
+    config: &HashMap<String, String>,
+    translator: &Translator,
+) -> String {
+    if let Some(value) = domain_summary_candidate(config) {
+        return value;
+    }
+    if provider.and_then(normalize_provider_name).is_some() {
+        String::new()
+    } else {
+        ddns_text(translator, "noProviderSelected", &[])
+    }
+}
+
+pub(super) fn domain_summary_candidate(config: &HashMap<String, String>) -> Option<String> {
+    for key in [
+        "domain",
+        "hostname",
+        "domains",
+        "zone",
+        "root_domain",
+        "site_name",
+        "site_id",
+    ] {
+        if let Some(value) = config
+            .get(key)
+            .map(|value| value.trim().to_string())
+            .filter(|value| !value.is_empty())
+        {
+            return Some(value);
+        }
+    }
+    None
+}
+
+pub(super) fn provider_label(provider: Option<&str>, translator: &Translator) -> String {
+    let Some(provider) = provider.and_then(normalize_provider_name) else {
+        return ddns_text(translator, "notConfigured", &[]);
+    };
+    let fallback = provider_label_fallback(&provider);
+    ddns_catalog_text(
+        translator,
+        &format!("providers.{}.label", ddns_provider_i18n_key(&provider)),
+        &fallback,
+        &[],
+    )
+}
+
+pub(super) fn provider_label_fallback(provider: &str) -> String {
+    match provider {
+        "alidns" => "阿里云 DNS".to_string(),
+        "baiducloud" => "百度智能云".to_string(),
+        "cloudflare" => "Cloudflare".to_string(),
+        "dnshe" => "DNSHE".to_string(),
+        "dnspod" => "DNSPod".to_string(),
+        "duckdns" => "DuckDNS".to_string(),
+        "dynu" => "Dynu".to_string(),
+        "dynv6" => "dynv6".to_string(),
+        "edgeone_cname" => "EdgeOne CNAME".to_string(),
+        "edgeone" => "Tencent EdgeOne".to_string(),
+        "esa" => "阿里云 ESA".to_string(),
+        "godaddy" => "GoDaddy".to_string(),
+        "huaweicloud" => "华为云 DNS".to_string(),
+        "noip" => "NO-IP".to_string(),
+        "porkbun" => "Porkbun".to_string(),
+        "tencentcloud" => "腾讯云 DNSPod".to_string(),
+        _ => provider.to_string(),
+    }
+}
+
+pub(super) fn normalize_provider_name(value: &str) -> Option<String> {
+    let normalized = value.trim();
+    if provider_names().contains(normalized) {
+        Some(normalized.to_string())
+    } else {
+        None
+    }
+}
+
+pub(super) fn provider_names() -> BTreeSet<&'static str> {
+    [
+        "alidns",
+        "baiducloud",
+        "cloudflare",
+        "dnshe",
+        "dnspod",
+        "duckdns",
+        "dynu",
+        "dynv6",
+        "edgeone_cname",
+        "edgeone",
+        "esa",
+        "godaddy",
+        "huaweicloud",
+        "noip",
+        "porkbun",
+        "tencentcloud",
+    ]
+    .into_iter()
+    .collect()
+}
+
+pub(super) fn has_explicit_scheme(value: &str) -> bool {
+    value.find(':').is_some_and(|index| {
+        value[..index]
+            .chars()
+            .next()
+            .is_some_and(|ch| ch.is_ascii_alphabetic())
+    })
+}
+
+pub(super) fn target_meta_key(id: &str) -> String {
+    format!("{DDNS_TARGET_PREFIX}{id}:meta")
+}
+
+pub(super) fn target_config_key(id: &str) -> String {
+    format!("{DDNS_TARGET_PREFIX}{id}:config")
+}
+
+pub(super) fn target_last_ip_key(id: &str) -> String {
+    format!("{DDNS_TARGET_PREFIX}{id}:last_ip")
+}
+
+pub(super) fn target_selection_anchor_key(id: &str) -> String {
+    format!("{DDNS_TARGET_PREFIX}{id}:selection_anchor")
+}
+
+pub(super) fn target_interface_recovery_key(id: &str) -> String {
+    format!("{DDNS_TARGET_PREFIX}{id}:interface_recovery")
+}
+
+pub(super) fn target_last_check_key(id: &str) -> String {
+    format!("{DDNS_TARGET_PREFIX}{id}:last_check")
+}

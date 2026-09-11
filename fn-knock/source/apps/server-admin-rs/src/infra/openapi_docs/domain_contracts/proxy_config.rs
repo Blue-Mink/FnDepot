@@ -1,1 +1,423 @@
-dXNlIHNlcmRlOjpTZXJpYWxpemU7CnVzZSB1dG9pcGE6OlRvU2NoZW1hOwoKdXNlIHN1cGVyOjp7R2F0ZXdheVZpc2liaWxpdHlTZWxlY3Rpb25EYXRhLCBHYXRld2F5VmlzaWJpbGl0eVNlbGVjdGlvbklucHV0RGF0YX07CnVzZSBzdGQ6OmNvbGxlY3Rpb25zOjpIYXNoTWFwOwoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFByb3h5TWFwcGluZ0RhdGEgewogICAgcGF0aDogT3B0aW9uPFN0cmluZz4sCiAgICB0YXJnZXQ6IFN0cmluZywKICAgIHJld3JpdGVfaHRtbDogT3B0aW9uPGJvb2w+LAogICAgdXNlX2F1dGg6IE9wdGlvbjxib29sPiwKICAgIHVzZV9yb290X21vZGU6IE9wdGlvbjxib29sPiwKICAgIHN0cmlwX3BhdGg6IE9wdGlvbjxib29sPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFByb3h5TWFwcGluZ3NVcGRhdGVEYXRhIHsKICAgIG1hcHBpbmdzOiBWZWM8UHJveHlNYXBwaW5nRGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBTdHJlYW1TZXJ2aWNlUHJvZmlsZURhdGEgewogICAgc2VydmljZV9pZDogU3RyaW5nLAogICAgc2VydmljZV9mYW1pbHk6IFN0cmluZywKICAgIGRldmljZV9yb2xlOiBTdHJpbmcsCiAgICBzZXJ2aWNlX2NvbmZpZGVuY2U6IFN0cmluZywKICAgIHJvbGVfY29uZmlkZW5jZTogU3RyaW5nLAogICAgc291cmNlOiBTdHJpbmcsCiAgICBvYnNlcnZlZF9hdDogU3RyaW5nLAogICAgY2xhc3NpZmllcl92ZXJzaW9uOiBTdHJpbmcsCiAgICB0YXJnZXRfZmluZ2VycHJpbnQ6IFN0cmluZywKICAgIGV2aWRlbmNlX2NvZGVzOiBWZWM8U3RyaW5nPiwKICAgIHN0cmljdF9jYXBhYmxlOiBib29sLAogICAgbWV0YWRhdGE6IEhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgU3RyZWFtQnlwYXNzUmVnaW9uU2VsZWN0aW9uRGF0YSB7CiAgICBwcm92aW5jZTogU3RyaW5nLAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIGNpdHk6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIHF1ZXJ5X2NpdHk6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIG9wZXJhdG9yOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFN0cmVhbUJ5cGFzc0NvbmRpdGlvbkRhdGEgewogICAgaWQ6IFN0cmluZywKICAgIHRhcmdldDogU3RyaW5nLAogICAgb3BlcmF0b3I6IFN0cmluZywKICAgIHBvbGljeV9pZDogU3RyaW5nLAogICAgdmFsdWVzOiBWZWM8U3RyaW5nPiwKICAgIHNlbGVjdGlvbnM6IFZlYzxTdHJlYW1CeXBhc3NSZWdpb25TZWxlY3Rpb25EYXRhPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFN0cmVhbUJ5cGFzc0dyb3VwRGF0YSB7CiAgICBpZDogU3RyaW5nLAogICAgY29uZGl0aW9uczogVmVjPFN0cmVhbUJ5cGFzc0NvbmRpdGlvbkRhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgU3RyZWFtQnlwYXNzUG9saWN5RGF0YSB7CiAgICBlbmFibGVkOiBib29sLAogICAgcG9saWN5X3ZlcnNpb246IFN0cmluZywKICAgIGdyb3VwczogVmVjPFN0cmVhbUJ5cGFzc0dyb3VwRGF0YT4sCiAgICBicm9hZF9ydWxlX2NvbmZpcm1lZDogYm9vbCwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFN0cmVhbU1hcHBpbmdEYXRhIHsKICAgIHByb3RvY29sOiBTdHJpbmcsCiAgICBsaXN0ZW5fcG9ydDogaTY0LAogICAgdGFyZ2V0OiBTdHJpbmcsCiAgICB1c2VfYXV0aDogYm9vbCwKICAgICNbc2NoZW1hKG51bGxhYmxlID0gZmFsc2UpXQogICAgY29tbWVudDogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShudWxsYWJsZSA9IGZhbHNlKV0KICAgIGRpc2FibGVkOiBPcHRpb248Ym9vbD4sCiAgICAjW3NjaGVtYShudWxsYWJsZSA9IGZhbHNlKV0KICAgIHZhbGlkYXRpb25fbW9kZTogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShudWxsYWJsZSA9IGZhbHNlKV0KICAgIHNlcnZpY2VfcHJvZmlsZTogT3B0aW9uPFN0cmVhbVNlcnZpY2VQcm9maWxlRGF0YT4sCiAgICAjW3NjaGVtYShudWxsYWJsZSA9IGZhbHNlKV0KICAgIGJ5cGFzc19wb2xpY3k6IE9wdGlvbjxTdHJlYW1CeXBhc3NQb2xpY3lEYXRhPiwKICAgICNbc2NoZW1hKG51bGxhYmxlID0gZmFsc2UpXQogICAgcHJvYmVfc3RhdHVzOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFN0cmVhbU1hcHBpbmdJbnB1dERhdGEgewogICAgI1tzY2hlbWEobnVsbGFibGUgPSBmYWxzZSldCiAgICBwcm90b2NvbDogT3B0aW9uPFN0cmluZz4sCiAgICBsaXN0ZW5fcG9ydDogaTY0LAogICAgdGFyZ2V0OiBTdHJpbmcsCiAgICAjW3NjaGVtYShudWxsYWJsZSA9IGZhbHNlKV0KICAgIHVzZV9hdXRoOiBPcHRpb248Ym9vbD4sCiAgICAjW3NjaGVtYShudWxsYWJsZSA9IGZhbHNlKV0KICAgIGNvbW1lbnQ6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgU3RyZWFtTWFwcGluZ3NVcGRhdGVEYXRhIHsKICAgIG1hcHBpbmdzOiBWZWM8U3RyZWFtTWFwcGluZ0lucHV0RGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBTdWJkb21haW5Nb2RlRGF0YSB7CiAgICByb290X2RvbWFpbjogU3RyaW5nLAogICAgYXV0aF9ob3N0OiBTdHJpbmcsCiAgICBhdXRoX3RhcmdldDogU3RyaW5nLAogICAgY29va2llX2RvbWFpbjogU3RyaW5nLAogICAgZWRnZV9jbGllbnRfaXBfZW5hYmxlZDogYm9vbCwKICAgIGFsaXl1bl9lc2FfZW5hYmxlZDogYm9vbCwKICAgIHRlbmNlbnRfZWRnZW9uZV9lbmFibGVkOiBib29sLAogICAgcHVibGljX2F1dGhfYmFzZV91cmw6IFN0cmluZywKICAgIHB1YmxpY19odHRwX3BvcnQ6IGk2NCwKICAgIHB1YmxpY19odHRwc19wb3J0OiBpNjQsCiAgICBhdXRoX2NhY2hlX3R0bF9zZWNvbmRzOiBpNjQsCiAgICBhdXRoX2NhY2hlX3VuYXV0aG9yaXplZF90dGxfc2Vjb25kczogaTY0LAogICAgZGVmYXVsdF9hY2Nlc3NfbW9kZTogU3RyaW5nLAogICAgYXV0b19hZGRfd2hpdGVsaXN0X29uX2xvZ2luOiBib29sLAogICAgcGFzc2tleV9ycF9tb2RlOiBTdHJpbmcsCiAgICBwYXNza2V5X3JwX2lkOiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBTdWJkb21haW5Nb2RlVXBkYXRlRGF0YSB7CiAgICByb290X2RvbWFpbjogT3B0aW9uPFN0cmluZz4sCiAgICBhdXRoX2hvc3Q6IE9wdGlvbjxTdHJpbmc+LAogICAgYXV0aF90YXJnZXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgY29va2llX2RvbWFpbjogT3B0aW9uPFN0cmluZz4sCiAgICBlZGdlX2NsaWVudF9pcF9lbmFibGVkOiBPcHRpb248Ym9vbD4sCiAgICBhbGl5dW5fZXNhX2VuYWJsZWQ6IE9wdGlvbjxib29sPiwKICAgIHRlbmNlbnRfZWRnZW9uZV9lbmFibGVkOiBPcHRpb248Ym9vbD4sCiAgICBwdWJsaWNfYXV0aF9iYXNlX3VybDogT3B0aW9uPFN0cmluZz4sCiAgICBwdWJsaWNfaHR0cF9wb3J0OiBPcHRpb248aTY0PiwKICAgIHB1YmxpY19odHRwc19wb3J0OiBPcHRpb248aTY0PiwKICAgIGF1dGhfY2FjaGVfdHRsX3NlY29uZHM6IE9wdGlvbjxpNjQ+LAogICAgYXV0aF9jYWNoZV91bmF1dGhvcml6ZWRfdHRsX3NlY29uZHM6IE9wdGlvbjxpNjQ+LAogICAgZGVmYXVsdF9hY2Nlc3NfbW9kZTogT3B0aW9uPFN0cmluZz4sCiAgICBhdXRvX2FkZF93aGl0ZWxpc3Rfb25fbG9naW46IE9wdGlvbjxib29sPiwKICAgIHBhc3NrZXlfcnBfbW9kZTogT3B0aW9uPFN0cmluZz4sCiAgICBwYXNza2V5X3JwX2lkOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFN1YmRvbWFpblNzbEF1dG9TZWxlY3Rpb25EYXRhIHsKICAgIGFwcGxpZWQ6IGJvb2wsCiAgICBjZXJ0aWZpY2F0ZV9pZDogU3RyaW5nLAogICAgbGFiZWw6IFN0cmluZywKICAgIG1lc3NhZ2U6IFN0cmluZywKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFN1YmRvbWFpbk1vZGVSZXNwb25zZURhdGEgewogICAgcm9vdF9kb21haW46IFN0cmluZywKICAgIGF1dGhfaG9zdDogU3RyaW5nLAogICAgYXV0aF90YXJnZXQ6IFN0cmluZywKICAgIGNvb2tpZV9kb21haW46IFN0cmluZywKICAgIGVkZ2VfY2xpZW50X2lwX2VuYWJsZWQ6IGJvb2wsCiAgICBhbGl5dW5fZXNhX2VuYWJsZWQ6IGJvb2wsCiAgICB0ZW5jZW50X2VkZ2VvbmVfZW5hYmxlZDogYm9vbCwKICAgIHB1YmxpY19hdXRoX2Jhc2VfdXJsOiBTdHJpbmcsCiAgICBwdWJsaWNfaHR0cF9wb3J0OiBpNjQsCiAgICBwdWJsaWNfaHR0cHNfcG9ydDogaTY0LAogICAgYXV0aF9jYWNoZV90dGxfc2Vjb25kczogaTY0LAogICAgYXV0aF9jYWNoZV91bmF1dGhvcml6ZWRfdHRsX3NlY29uZHM6IGk2NCwKICAgIGRlZmF1bHRfYWNjZXNzX21vZGU6IFN0cmluZywKICAgIGF1dG9fYWRkX3doaXRlbGlzdF9vbl9sb2dpbjogYm9vbCwKICAgIHBhc3NrZXlfcnBfbW9kZTogU3RyaW5nLAogICAgcGFzc2tleV9ycF9pZDogU3RyaW5nLAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIHNzbF9hdXRvX3NlbGVjdGlvbjogT3B0aW9uPFN1YmRvbWFpblNzbEF1dG9TZWxlY3Rpb25EYXRhPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEhvc3RNYXBwaW5nQmFzaWNBdXRoSW5wdXREYXRhIHsKICAgIGVuYWJsZWQ6IGJvb2wsCiAgICB1c2VybmFtZTogU3RyaW5nLAogICAgcGFzc3dvcmQ6IFN0cmluZywKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEhvc3RNYXBwaW5nQmFzaWNBdXRoUHJvYmVCb2R5RGF0YSB7CiAgICB0YXJnZXQ6IFN0cmluZywKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgSG9zdE1hcHBpbmdCYXNpY0F1dGhQcm9iZURhdGEgewogICAgcmVxdWlyZXNfYmFzaWNfYXV0aDogYm9vbCwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBodHRwX3N0YXR1czogT3B0aW9uPHUxNj4sCiAgICAjW3NjaGVtYShudWxsYWJsZSA9IGZhbHNlKV0KICAgIGVycm9yOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJsb3dlcmNhc2UiKV0KcHViKHN1cGVyKSBlbnVtIFN0YXRpY1BhdGhUYXJnZXRUeXBlRGF0YSB7CiAgICBGaWxlLAogICAgRGlyZWN0b3J5LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImxvd2VyY2FzZSIpXQpwdWIoc3VwZXIpIGVudW0gU3RhdGljUGF0aEFjdHVhbFR5cGVEYXRhIHsKICAgIEZpbGUsCiAgICBEaXJlY3RvcnksCiAgICBPdGhlciwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFN0YXRpY1BhdGhQcm9iZUJvZHlEYXRhIHsKICAgIGZvcl9sb2dfc3RvcmFnZTogT3B0aW9uPGJvb2w+LAogICAgdGFyZ2V0X3R5cGU6IFN0YXRpY1BhdGhUYXJnZXRUeXBlRGF0YSwKICAgIHBhdGg6IFN0cmluZywKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IFN0YXRpY1BhdGhQcm9iZVJlc3VsdERhdGEgewogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIHRhcmdldF90eXBlOiBPcHRpb248U3RhdGljUGF0aFRhcmdldFR5cGVEYXRhPiwKICAgIG5vcm1hbGl6ZWRfcGF0aDogU3RyaW5nLAogICAgZXhpc3RzOiBib29sLAogICAgcmVhZGFibGU6IGJvb2wsCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgYWN0dWFsX3R5cGU6IE9wdGlvbjxTdGF0aWNQYXRoQWN0dWFsVHlwZURhdGE+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIGVycm9yX2NvZGU6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImxvd2VyY2FzZSIpXQpwdWIoc3VwZXIpIGVudW0gU3RhdGljUGF0aEJyb3dzZVBsYXRmb3JtRGF0YSB7CiAgICBQb3NpeCwKICAgIFdpbmRvd3MsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAic25ha2VfY2FzZSIpXQpwdWIoc3VwZXIpIGVudW0gU3RhdGljUGF0aEJyb3dzZUVycm9yQ29kZURhdGEgewogICAgSW52YWxpZFBhdGgsCiAgICBJbnZhbGlkQ3Vyc29yLAogICAgUHJvdGVjdGVkUGF0aCwKICAgIE5vdEZvdW5kLAogICAgUGVybWlzc2lvbkRlbmllZCwKICAgIE5vdERpcmVjdG9yeSwKICAgIERpcmVjdG9yeVRvb0xhcmdlLAogICAgVW5zdXBwb3J0ZWRUeXBlLAogICAgVW5hdmFpbGFibGUsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKGRlbnlfdW5rbm93bl9maWVsZHMpXQpwdWIoc3VwZXIpIHN0cnVjdCBTdGF0aWNQYXRoQnJvd3NlQm9keURhdGEgewogICAgZm9yX2xvZ19zdG9yYWdlOiBPcHRpb248Ym9vbD4sCiAgICB0YXJnZXRfdHlwZTogU3RhdGljUGF0aFRhcmdldFR5cGVEYXRhLAogICAgI1tzY2hlbWEobWF4X2xlbmd0aCA9IDQwOTYpXQogICAgcGF0aDogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShtYXhfbGVuZ3RoID0gNTEyKV0KICAgIGN1cnNvcjogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBTdGF0aWNQYXRoQnJlYWRjcnVtYkRhdGEgewogICAgI1tzY2hlbWEobWF4X2xlbmd0aCA9IDI1NSldCiAgICBuYW1lOiBTdHJpbmcsCiAgICAjW3NjaGVtYShtYXhfbGVuZ3RoID0gNDA5NildCiAgICBwYXRoOiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBTdGF0aWNQYXRoQnJvd3NlRW50cnlEYXRhIHsKICAgICNbc2NoZW1hKG1heF9sZW5ndGggPSAyNTUpXQogICAgbmFtZTogU3RyaW5nLAogICAgI1tzY2hlbWEobWF4X2xlbmd0aCA9IDQwOTYpXQogICAgcGF0aDogU3RyaW5nLAogICAgZW50cnlfdHlwZTogU3RhdGljUGF0aFRhcmdldFR5cGVEYXRhLAogICAgbmF2aWdhYmxlOiBib29sLAogICAgc2VsZWN0YWJsZTogYm9vbCwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBzaXplX2J5dGVzOiBPcHRpb248dTY0PiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSwgZm9ybWF0ID0gRGF0ZVRpbWUpXQogICAgbW9kaWZpZWRfYXQ6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgU3RhdGljUGF0aEJyb3dzZVJlc3VsdERhdGEgewogICAgdGFyZ2V0X3R5cGU6IFN0YXRpY1BhdGhUYXJnZXRUeXBlRGF0YSwKICAgIHBsYXRmb3JtOiBTdGF0aWNQYXRoQnJvd3NlUGxhdGZvcm1EYXRhLAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlLCBtYXhfbGVuZ3RoID0gNDA5NildCiAgICBjdXJyZW50X3BhdGg6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlLCBtYXhfbGVuZ3RoID0gNDA5NildCiAgICBwYXJlbnRfcGF0aDogT3B0aW9uPFN0cmluZz4sCiAgICBjdXJyZW50X3NlbGVjdGFibGU6IGJvb2wsCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUsIG1heF9sZW5ndGggPSA0MDk2KV0KICAgIHNlbGVjdGVkX3BhdGg6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEobWF4X2l0ZW1zID0gMjU2KV0KICAgIGJyZWFkY3J1bWJzOiBWZWM8U3RhdGljUGF0aEJyZWFkY3J1bWJEYXRhPiwKICAgICNbc2NoZW1hKG1heF9pdGVtcyA9IDEwMCldCiAgICBlbnRyaWVzOiBWZWM8U3RhdGljUGF0aEJyb3dzZUVudHJ5RGF0YT4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUsIG1heF9sZW5ndGggPSA1MTIpXQogICAgcHJldmlvdXNfY3Vyc29yOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSwgbWF4X2xlbmd0aCA9IDUxMildCiAgICBuZXh0X2N1cnNvcjogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgZXJyb3JfY29kZTogT3B0aW9uPFN0YXRpY1BhdGhCcm93c2VFcnJvckNvZGVEYXRhPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEhvc3RNYXBwaW5nTWV0YWRhdGFCb2R5RGF0YSB7CiAgICB0YXJnZXQ6IFN0cmluZywKICAgIGJhc2ljX2F1dGg6IE9wdGlvbjxIb3N0TWFwcGluZ0Jhc2ljQXV0aElucHV0RGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IEhvc3RNYXBwaW5nTWV0YWRhdGFEYXRhIHsKICAgIHRpdGxlOiBTdHJpbmcsCiAgICBmYXZpY29uOiBTdHJpbmcsCiAgICBmaW5hbF91cmw6IFN0cmluZywKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEhvc3RNYXBwaW5nUmVmcmVzaFN1bW1hcnlEYXRhIHsKICAgIHVwZGF0ZWQ6IGk2NCwKICAgIGZhaWxlZDogaTY0LAogICAgc2tpcHBlZDogaTY0LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgQWR2YW5jZWRBdXRoQ29uZGl0aW9uRGF0YSB7CiAgICBpZDogU3RyaW5nLAogICAgdGFyZ2V0OiBTdHJpbmcsCiAgICBvcGVyYXRvcjogU3RyaW5nLAogICAgbmFtZTogU3RyaW5nLAogICAgdmFsdWVzOiBWZWM8U3RyaW5nPiwKICAgICNbc2NoZW1hKG51bGxhYmxlID0gZmFsc2UpXQogICAgc2VsZWN0aW9uczogT3B0aW9uPFZlYzxHYXRld2F5VmlzaWJpbGl0eVNlbGVjdGlvbkRhdGE+PiwKICAgICNbc2NoZW1hKG51bGxhYmxlID0gZmFsc2UpXQogICAgY2lkcnM6IE9wdGlvbjxWZWM8U3RyaW5nPj4sCiAgICAjW3NjaGVtYShudWxsYWJsZSA9IGZhbHNlKV0KICAgIHBvbGljeV9pZDogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShudWxsYWJsZSA9IGZhbHNlKV0KICAgIHNvdXJjZV9jaWRyX2NvdW50OiBPcHRpb248dXNpemU+LAogICAgI1tzY2hlbWEobnVsbGFibGUgPSBmYWxzZSldCiAgICByYW5nZV9jb3VudDogT3B0aW9uPHVzaXplPiwKICAgICNbc2NoZW1hKG51bGxhYmxlID0gZmFsc2UpXQogICAgcmVzb2x2ZWRfYXQ6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEobnVsbGFibGUgPSBmYWxzZSldCiAgICBjaWRyX3NvdXJjZTogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShudWxsYWJsZSA9IGZhbHNlKV0KICAgIGNpZHJfc291cmNlX2ZpbmdlcnByaW50OiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEFkdmFuY2VkQXV0aENvbmRpdGlvbklucHV0RGF0YSB7CiAgICBpZDogU3RyaW5nLAogICAgdGFyZ2V0OiBTdHJpbmcsCiAgICBvcGVyYXRvcjogU3RyaW5nLAogICAgI1tzY2hlbWEobnVsbGFibGUgPSBmYWxzZSldCiAgICBuYW1lOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2NoZW1hKG51bGxhYmxlID0gZmFsc2UpXQogICAgdmFsdWVzOiBPcHRpb248VmVjPFN0cmluZz4+LAogICAgI1tzY2hlbWEobnVsbGFibGUgPSBmYWxzZSldCiAgICBzZWxlY3Rpb25zOiBPcHRpb248VmVjPEdhdGV3YXlWaXNpYmlsaXR5U2VsZWN0aW9uSW5wdXREYXRhPj4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBBZHZhbmNlZEF1dGhSdWxlR3JvdXBEYXRhIHsKICAgIGlkOiBTdHJpbmcsCiAgICBjb25kaXRpb25zOiBWZWM8QWR2YW5jZWRBdXRoQ29uZGl0aW9uRGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBBZHZhbmNlZEF1dGhSdWxlR3JvdXBJbnB1dERhdGEgewogICAgaWQ6IFN0cmluZywKICAgIGNvbmRpdGlvbnM6IFZlYzxBZHZhbmNlZEF1dGhDb25kaXRpb25JbnB1dERhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgQWR2YW5jZWRBdXRoQ29uZmlnRGF0YSB7CiAgICBlbmFibGVkOiBib29sLAogICAgaWRsZV90dGxfc2Vjb25kczogaTY0LAogICAgbWF4X2xpZmV0aW1lX3NlY29uZHM6IGk2NCwKICAgICNbc2NoZW1hKG51bGxhYmxlID0gZmFsc2UpXQogICAgcG9saWN5X3ZlcnNpb246IE9wdGlvbjxTdHJpbmc+LAogICAgZ3JvdXBzOiBWZWM8QWR2YW5jZWRBdXRoUnVsZUdyb3VwRGF0YT4sCiAgICAjW3NjaGVtYShudWxsYWJsZSA9IGZhbHNlKV0KICAgIGNvbXBpbGVkX2F0OiBPcHRpb248U3RyaW5nPiwKICAgICNbc2NoZW1hKG51bGxhYmxlID0gZmFsc2UpXQogICAgY2lkcl9zb3VyY2U6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEobnVsbGFibGUgPSBmYWxzZSldCiAgICBjaWRyX3NvdXJjZV9maW5nZXJwcmludDogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBBZHZhbmNlZEF1dGhDb25maWdJbnB1dERhdGEgewogICAgZW5hYmxlZDogT3B0aW9uPGJvb2w+LAogICAgaWRsZV90dGxfc2Vjb25kczogT3B0aW9uPGk2ND4sCiAgICBtYXhfbGlmZXRpbWVfc2Vjb25kczogT3B0aW9uPGk2ND4sCiAgICBncm91cHM6IE9wdGlvbjxWZWM8QWR2YW5jZWRBdXRoUnVsZUdyb3VwSW5wdXREYXRhPj4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBBZHZhbmNlZEF1dGhVcGRhdGVCb2R5RGF0YSB7CiAgICByZXZpc2lvbjogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShudWxsYWJsZSA9IGZhbHNlKV0KICAgIGFkdmFuY2VkX2F1dGg6IE9wdGlvbjxBZHZhbmNlZEF1dGhDb25maWdJbnB1dERhdGE+LAogICAgYWNrbm93bGVkZ2VfYnJvYWRfcnVsZXM6IE9wdGlvbjxib29sPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IEFkdmFuY2VkQXV0aERldGFpbHNEYXRhIHsKICAgIGhvc3Q6IFN0cmluZywKICAgIHJldmlzaW9uOiBTdHJpbmcsCiAgICBhZHZhbmNlZF9hdXRoOiBBZHZhbmNlZEF1dGhDb25maWdEYXRhLAp9Cg==
+use serde::Serialize;
+use utoipa::ToSchema;
+
+use super::{GatewayVisibilitySelectionData, GatewayVisibilitySelectionInputData};
+use std::collections::HashMap;
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct ProxyMappingData {
+    path: Option<String>,
+    target: String,
+    rewrite_html: Option<bool>,
+    use_auth: Option<bool>,
+    use_root_mode: Option<bool>,
+    strip_path: Option<bool>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct ProxyMappingsUpdateData {
+    mappings: Vec<ProxyMappingData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct StreamServiceProfileData {
+    service_id: String,
+    service_family: String,
+    device_role: String,
+    service_confidence: String,
+    role_confidence: String,
+    source: String,
+    observed_at: String,
+    classifier_version: String,
+    target_fingerprint: String,
+    evidence_codes: Vec<String>,
+    strict_capable: bool,
+    metadata: HashMap<String, String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct StreamBypassRegionSelectionData {
+    province: String,
+    #[schema(required = true)]
+    city: Option<String>,
+    #[schema(required = true)]
+    query_city: Option<String>,
+    #[schema(required = true)]
+    operator: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct StreamBypassConditionData {
+    id: String,
+    target: String,
+    operator: String,
+    policy_id: String,
+    values: Vec<String>,
+    selections: Vec<StreamBypassRegionSelectionData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct StreamBypassGroupData {
+    id: String,
+    conditions: Vec<StreamBypassConditionData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct StreamBypassPolicyData {
+    enabled: bool,
+    policy_version: String,
+    groups: Vec<StreamBypassGroupData>,
+    broad_rule_confirmed: bool,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct StreamMappingData {
+    protocol: String,
+    listen_port: i64,
+    target: String,
+    use_auth: bool,
+    #[schema(nullable = false)]
+    comment: Option<String>,
+    #[schema(nullable = false)]
+    disabled: Option<bool>,
+    #[schema(nullable = false)]
+    validation_mode: Option<String>,
+    #[schema(nullable = false)]
+    service_profile: Option<StreamServiceProfileData>,
+    #[schema(nullable = false)]
+    bypass_policy: Option<StreamBypassPolicyData>,
+    #[schema(nullable = false)]
+    probe_status: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct StreamMappingInputData {
+    #[schema(nullable = false)]
+    protocol: Option<String>,
+    listen_port: i64,
+    target: String,
+    #[schema(nullable = false)]
+    use_auth: Option<bool>,
+    #[schema(nullable = false)]
+    comment: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct StreamMappingsUpdateData {
+    mappings: Vec<StreamMappingInputData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SubdomainModeData {
+    root_domain: String,
+    auth_host: String,
+    auth_target: String,
+    cookie_domain: String,
+    edge_client_ip_enabled: bool,
+    aliyun_esa_enabled: bool,
+    tencent_edgeone_enabled: bool,
+    public_auth_base_url: String,
+    public_http_port: i64,
+    public_https_port: i64,
+    auth_cache_ttl_seconds: i64,
+    auth_cache_unauthorized_ttl_seconds: i64,
+    default_access_mode: String,
+    auto_add_whitelist_on_login: bool,
+    passkey_rp_mode: String,
+    passkey_rp_id: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SubdomainModeUpdateData {
+    root_domain: Option<String>,
+    auth_host: Option<String>,
+    auth_target: Option<String>,
+    cookie_domain: Option<String>,
+    edge_client_ip_enabled: Option<bool>,
+    aliyun_esa_enabled: Option<bool>,
+    tencent_edgeone_enabled: Option<bool>,
+    public_auth_base_url: Option<String>,
+    public_http_port: Option<i64>,
+    public_https_port: Option<i64>,
+    auth_cache_ttl_seconds: Option<i64>,
+    auth_cache_unauthorized_ttl_seconds: Option<i64>,
+    default_access_mode: Option<String>,
+    auto_add_whitelist_on_login: Option<bool>,
+    passkey_rp_mode: Option<String>,
+    passkey_rp_id: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SubdomainSslAutoSelectionData {
+    applied: bool,
+    certificate_id: String,
+    label: String,
+    message: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct SubdomainModeResponseData {
+    root_domain: String,
+    auth_host: String,
+    auth_target: String,
+    cookie_domain: String,
+    edge_client_ip_enabled: bool,
+    aliyun_esa_enabled: bool,
+    tencent_edgeone_enabled: bool,
+    public_auth_base_url: String,
+    public_http_port: i64,
+    public_https_port: i64,
+    auth_cache_ttl_seconds: i64,
+    auth_cache_unauthorized_ttl_seconds: i64,
+    default_access_mode: String,
+    auto_add_whitelist_on_login: bool,
+    passkey_rp_mode: String,
+    passkey_rp_id: String,
+    #[schema(required = true)]
+    ssl_auto_selection: Option<SubdomainSslAutoSelectionData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct HostMappingBasicAuthInputData {
+    enabled: bool,
+    username: String,
+    password: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct HostMappingBasicAuthProbeBodyData {
+    target: String,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct HostMappingBasicAuthProbeData {
+    requires_basic_auth: bool,
+    #[schema(required = true)]
+    http_status: Option<u16>,
+    #[schema(nullable = false)]
+    error: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "lowercase")]
+pub(super) enum StaticPathTargetTypeData {
+    File,
+    Directory,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "lowercase")]
+pub(super) enum StaticPathActualTypeData {
+    File,
+    Directory,
+    Other,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct StaticPathProbeBodyData {
+    for_log_storage: Option<bool>,
+    target_type: StaticPathTargetTypeData,
+    path: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct StaticPathProbeResultData {
+    #[schema(required = true)]
+    target_type: Option<StaticPathTargetTypeData>,
+    normalized_path: String,
+    exists: bool,
+    readable: bool,
+    #[schema(required = true)]
+    actual_type: Option<StaticPathActualTypeData>,
+    #[schema(required = true)]
+    error_code: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "lowercase")]
+pub(super) enum StaticPathBrowsePlatformData {
+    Posix,
+    Windows,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "snake_case")]
+pub(super) enum StaticPathBrowseErrorCodeData {
+    InvalidPath,
+    InvalidCursor,
+    ProtectedPath,
+    NotFound,
+    PermissionDenied,
+    NotDirectory,
+    DirectoryTooLarge,
+    UnsupportedType,
+    Unavailable,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(deny_unknown_fields)]
+pub(super) struct StaticPathBrowseBodyData {
+    for_log_storage: Option<bool>,
+    target_type: StaticPathTargetTypeData,
+    #[schema(max_length = 4096)]
+    path: Option<String>,
+    #[schema(max_length = 512)]
+    cursor: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct StaticPathBreadcrumbData {
+    #[schema(max_length = 255)]
+    name: String,
+    #[schema(max_length = 4096)]
+    path: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct StaticPathBrowseEntryData {
+    #[schema(max_length = 255)]
+    name: String,
+    #[schema(max_length = 4096)]
+    path: String,
+    entry_type: StaticPathTargetTypeData,
+    navigable: bool,
+    selectable: bool,
+    #[schema(required = true)]
+    size_bytes: Option<u64>,
+    #[schema(required = true, format = DateTime)]
+    modified_at: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct StaticPathBrowseResultData {
+    target_type: StaticPathTargetTypeData,
+    platform: StaticPathBrowsePlatformData,
+    #[schema(required = true, max_length = 4096)]
+    current_path: Option<String>,
+    #[schema(required = true, max_length = 4096)]
+    parent_path: Option<String>,
+    current_selectable: bool,
+    #[schema(required = true, max_length = 4096)]
+    selected_path: Option<String>,
+    #[schema(max_items = 256)]
+    breadcrumbs: Vec<StaticPathBreadcrumbData>,
+    #[schema(max_items = 100)]
+    entries: Vec<StaticPathBrowseEntryData>,
+    #[schema(required = true, max_length = 512)]
+    previous_cursor: Option<String>,
+    #[schema(required = true, max_length = 512)]
+    next_cursor: Option<String>,
+    #[schema(required = true)]
+    error_code: Option<StaticPathBrowseErrorCodeData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct HostMappingMetadataBodyData {
+    target: String,
+    basic_auth: Option<HostMappingBasicAuthInputData>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct HostMappingMetadataData {
+    title: String,
+    favicon: String,
+    final_url: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct HostMappingRefreshSummaryData {
+    updated: i64,
+    failed: i64,
+    skipped: i64,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct AdvancedAuthConditionData {
+    id: String,
+    target: String,
+    operator: String,
+    name: String,
+    values: Vec<String>,
+    #[schema(nullable = false)]
+    selections: Option<Vec<GatewayVisibilitySelectionData>>,
+    #[schema(nullable = false)]
+    cidrs: Option<Vec<String>>,
+    #[schema(nullable = false)]
+    policy_id: Option<String>,
+    #[schema(nullable = false)]
+    source_cidr_count: Option<usize>,
+    #[schema(nullable = false)]
+    range_count: Option<usize>,
+    #[schema(nullable = false)]
+    resolved_at: Option<String>,
+    #[schema(nullable = false)]
+    cidr_source: Option<String>,
+    #[schema(nullable = false)]
+    cidr_source_fingerprint: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct AdvancedAuthConditionInputData {
+    id: String,
+    target: String,
+    operator: String,
+    #[schema(nullable = false)]
+    name: Option<String>,
+    #[schema(nullable = false)]
+    values: Option<Vec<String>>,
+    #[schema(nullable = false)]
+    selections: Option<Vec<GatewayVisibilitySelectionInputData>>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct AdvancedAuthRuleGroupData {
+    id: String,
+    conditions: Vec<AdvancedAuthConditionData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct AdvancedAuthRuleGroupInputData {
+    id: String,
+    conditions: Vec<AdvancedAuthConditionInputData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct AdvancedAuthConfigData {
+    enabled: bool,
+    idle_ttl_seconds: i64,
+    max_lifetime_seconds: i64,
+    #[schema(nullable = false)]
+    policy_version: Option<String>,
+    groups: Vec<AdvancedAuthRuleGroupData>,
+    #[schema(nullable = false)]
+    compiled_at: Option<String>,
+    #[schema(nullable = false)]
+    cidr_source: Option<String>,
+    #[schema(nullable = false)]
+    cidr_source_fingerprint: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct AdvancedAuthConfigInputData {
+    enabled: Option<bool>,
+    idle_ttl_seconds: Option<i64>,
+    max_lifetime_seconds: Option<i64>,
+    groups: Option<Vec<AdvancedAuthRuleGroupInputData>>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct AdvancedAuthUpdateBodyData {
+    revision: Option<String>,
+    #[schema(nullable = false)]
+    advanced_auth: Option<AdvancedAuthConfigInputData>,
+    acknowledge_broad_rules: Option<bool>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct AdvancedAuthDetailsData {
+    host: String,
+    revision: String,
+    advanced_auth: AdvancedAuthConfigData,
+}

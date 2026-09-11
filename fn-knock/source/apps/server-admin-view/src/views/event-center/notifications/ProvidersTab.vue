@@ -1,1 +1,216 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHRvUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgTG9hZGVyMiwgUGVuY2lsLCBQbHVzLCBTZW5kLCBUcmFzaDIgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIFRhYmxlLAogIFRhYmxlQm9keSwKICBUYWJsZUNlbGwsCiAgVGFibGVIZWFkLAogIFRhYmxlSGVhZGVyLAogIFRhYmxlUm93LAp9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJsZSI7CmltcG9ydCBSZWZyZXNoQnV0dG9uIGZyb20gIkAvY29tcG9uZW50cy9SZWZyZXNoQnV0dG9uLnZ1ZSI7CmltcG9ydCBIdW1hbkZyaWVuZGx5VGltZSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0h1bWFuRnJpZW5kbHlUaW1lLnZ1ZSI7CmltcG9ydCBDb25maXJtRGFuZ2VyUG9wb3ZlciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0NvbmZpcm1EYW5nZXJQb3BvdmVyLnZ1ZSI7CmltcG9ydCBQcm92aWRlckVkaXRvckRpYWxvZyBmcm9tICIuL1Byb3ZpZGVyRWRpdG9yRGlhbG9nLnZ1ZSI7CmltcG9ydCB7IHVzZU5vdGlmaWNhdGlvblByb3ZpZGVycyB9IGZyb20gIi4vdXNlTm90aWZpY2F0aW9uUHJvdmlkZXJzIjsKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKAogIGRlZmluZVByb3BzPHsKICAgIGFjdGl2ZT86IGJvb2xlYW47CiAgfT4oKSwKICB7IGFjdGl2ZTogZmFsc2UgfSwKKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCB7CiAgY2F0YWxvZywKICBjb25uZWN0aW9uQ29uZmlnSW52YWxpZCwKICBjb25maWd1cmVkU2Vuc2l0aXZlRmllbGRzLAogIGRlbGV0ZVByb3ZpZGVyLAogIGRlbGV0aW5nSWQsCiAgZGlhbG9nTW9kZSwKICBkaWFsb2dPcGVuLAogIGVkaXRpbmdJZCwKICBnZW5lcmF0ZWRQcm92aWRlck5hbWUsCiAgaGFuZGxlVHlwZUNoYW5nZSwKICBsb2FkRGF0YSwKICBsb2FkaW5nLAogIG9wZW5DcmVhdGVEaWFsb2csCiAgb3BlbkVkaXREaWFsb2csCiAgcHJvdmlkZXJGb3JtLAogIHByZXZpZXdXZWJob29rQm9keSwKICBwcm92aWRlcnMsCiAgcmVzb2x2ZVByb3ZpZGVyVHlwZUxhYmVsLAogIHNhdmVQcm92aWRlciwKICBzYXZpbmcsCiAgc2VsZWN0ZWREZWZpbml0aW9uLAogIHNob3dMZWdhY3lXZWJob29rSGVhZGVyTWlncmF0aW9uLAogIHNob3dXeFB1c2hlckFsZXJ0LAogIHRlc3RQcm92aWRlciwKICB0ZXN0UHJvdmlkZXJEcmFmdCwKICB0ZXN0aW5nRHJhZnQsCiAgdGVzdGluZ0lkLAp9ID0gdXNlTm90aWZpY2F0aW9uUHJvdmlkZXJzKHRvUmVmKHByb3BzLCAiYWN0aXZlIikpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJzcGFjZS15LTQgcC00IHNtOnAtNiI+CiAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMuaW50cm8iKSB9fQogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0ibWwtYXV0byBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgPFJlZnJlc2hCdXR0b24KICAgICAgICAgIDpsb2FkaW5nPSJsb2FkaW5nIgogICAgICAgICAgOmRpc2FibGVkPSJsb2FkaW5nIgogICAgICAgICAgQGNsaWNrPSJsb2FkRGF0YSIKICAgICAgICAvPgogICAgICAgIDxCdXR0b24gQGNsaWNrPSJvcGVuQ3JlYXRlRGlhbG9nIj4KICAgICAgICAgIDxQbHVzIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy5hZGRQcm92aWRlciIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CgogICAgPGRpdiBjbGFzcz0ib3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbWQgYm9yZGVyIGJnLWJhY2tncm91bmQiPgogICAgICA8VGFibGU+CiAgICAgICAgPFRhYmxlSGVhZGVyPgogICAgICAgICAgPFRhYmxlUm93PgogICAgICAgICAgICA8VGFibGVIZWFkPnt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLm5hbWUiKSB9fTwvVGFibGVIZWFkPgogICAgICAgICAgICA8VGFibGVIZWFkPnt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLnR5cGUiKSB9fTwvVGFibGVIZWFkPgogICAgICAgICAgICA8VGFibGVIZWFkPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLnN0YXR1cyIpIH19CiAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICA8VGFibGVIZWFkPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLnVwZGF0ZWRBdCIpIH19CiAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJ3LVsxODBweF0gdGV4dC1yaWdodCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMuYWN0aW9ucyIpIH19CiAgICAgICAgICAgIDwvVGFibGVIZWFkPgogICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICA8L1RhYmxlSGVhZGVyPgogICAgICAgIDxUYWJsZUJvZHk+CiAgICAgICAgICA8VGFibGVSb3cgdi1pZj0ibG9hZGluZyAmJiBwcm92aWRlcnMubGVuZ3RoID09PSAwIj4KICAgICAgICAgICAgPFRhYmxlQ2VsbCBjb2xzcGFuPSI2IiBjbGFzcz0icHktMTAgdGV4dC1jZW50ZXIiPgogICAgICAgICAgICAgIDxMb2FkZXIyCiAgICAgICAgICAgICAgICBjbGFzcz0ibXgtYXV0byBoLTUgdy01IGFuaW1hdGUtc3BpbiB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgPFRhYmxlUm93IHYtZWxzZS1pZj0icHJvdmlkZXJzLmxlbmd0aCA9PT0gMCI+CiAgICAgICAgICAgIDxUYWJsZUNlbGwKICAgICAgICAgICAgICBjb2xzcGFuPSI2IgogICAgICAgICAgICAgIGNsYXNzPSJweS0xMCB0ZXh0LWNlbnRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy5lbXB0eSIpIH19CiAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgIDxUYWJsZVJvdyB2LWZvcj0icHJvdmlkZXIgaW4gcHJvdmlkZXJzIiA6a2V5PSJwcm92aWRlci5pZCI+CiAgICAgICAgICAgIDxUYWJsZUNlbGw+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZvbnQtbWVkaXVtIj57eyBwcm92aWRlci5uYW1lIH19PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgIHYtaWY9InByb3ZpZGVyLmxhc3RfZXJyb3IiCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJsaW5lLWNsYW1wLTIgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLmxhc3RFcnJvclByZWZpeCIpCiAgICAgICAgICAgICAgICAgIH19e3sgcHJvdmlkZXIubGFzdF9lcnJvciB9fQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICA8VGFibGVDZWxsPnt7IHJlc29sdmVQcm92aWRlclR5cGVMYWJlbChwcm92aWRlci50eXBlKSB9fTwvVGFibGVDZWxsPgogICAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICAgIDxCYWRnZQogICAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICAgIDpjbGFzcz0iCiAgICAgICAgICAgICAgICAgIHByb3ZpZGVyLmVuYWJsZWQKICAgICAgICAgICAgICAgICAgICA/ICdib3JkZXItZW1lcmFsZC01MDAvMjUgYmctZW1lcmFsZC01MDAvMTAgdGV4dC1lbWVyYWxkLTcwMCcKICAgICAgICAgICAgICAgICAgICA6ICdib3JkZXItbXV0ZWQtZm9yZWdyb3VuZC8yMCBiZy1tdXRlZCB0ZXh0LW11dGVkLWZvcmVncm91bmQnCiAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgcHJvdmlkZXIuZW5hYmxlZAogICAgICAgICAgICAgICAgICAgID8gdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMuZW5hYmxlZCIpCiAgICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnByb3ZpZGVycy5kaXNhYmxlZCIpCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgPEh1bWFuRnJpZW5kbHlUaW1lIDp2YWx1ZT0icHJvdmlkZXIudXBkYXRlZF9hdCIgLz4KICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InRleHQtcmlnaHQiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgICAgICBzaXplPSJpY29uIgogICAgICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnY29tbW9uLnRlc3QnKSIKICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJ0ZXN0aW5nSWQgPT09IHByb3ZpZGVyLmlkIgogICAgICAgICAgICAgICAgICBAY2xpY2s9InRlc3RQcm92aWRlcihwcm92aWRlcikiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxTZW5kIGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgICAgICBzaXplPSJpY29uIgogICAgICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnY29tbW9uLmVkaXQnKSIKICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJlZGl0aW5nSWQgPT09IHByb3ZpZGVyLmlkIgogICAgICAgICAgICAgICAgICBAY2xpY2s9Im9wZW5FZGl0RGlhbG9nKHByb3ZpZGVyKSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPExvYWRlcjIKICAgICAgICAgICAgICAgICAgICB2LWlmPSJlZGl0aW5nSWQgPT09IHByb3ZpZGVyLmlkIgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJoLTQgdy00IGFuaW1hdGUtc3BpbiIKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgPFBlbmNpbCB2LWVsc2UgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICAgICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLm5vdGlmaWNhdGlvbnMucHJvdmlkZXJzLmRlbGV0ZVRpdGxlJykiCiAgICAgICAgICAgICAgICAgIDpkZXNjcmlwdGlvbj0iCiAgICAgICAgICAgICAgICAgICAgdCgnYWRtaW4ubm90aWZpY2F0aW9ucy5wcm92aWRlcnMuZGVsZXRlRGVzY3JpcHRpb24nKQogICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICAgIDpsb2FkaW5nPSJkZWxldGluZ0lkID09PSBwcm92aWRlci5pZCIKICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJkZWxldGluZ0lkID09PSBwcm92aWRlci5pZCIKICAgICAgICAgICAgICAgICAgOm9uLWNvbmZpcm09IigpID0+IGRlbGV0ZVByb3ZpZGVyKHByb3ZpZGVyKSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24uY29uZmlybURlbGV0ZScpIgogICAgICAgICAgICAgICAgICAgICAgY2xhc3M9InRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImRlbGV0aW5nSWQgPT09IHByb3ZpZGVyLmlkIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIDxUcmFzaDIgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgICAgICA8L0NvbmZpcm1EYW5nZXJQb3BvdmVyPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgPC9UYWJsZUJvZHk+CiAgICAgIDwvVGFibGU+CiAgICA8L2Rpdj4KICA8L2Rpdj4KCiAgPFByb3ZpZGVyRWRpdG9yRGlhbG9nCiAgICB2LW1vZGVsOm9wZW49ImRpYWxvZ09wZW4iCiAgICA6Y2F0YWxvZz0iY2F0YWxvZyIKICAgIDpjb25uZWN0aW9uLWNvbmZpZy1pbnZhbGlkPSJjb25uZWN0aW9uQ29uZmlnSW52YWxpZCIKICAgIDpjb25maWd1cmVkLXNlbnNpdGl2ZS1maWVsZHM9ImNvbmZpZ3VyZWRTZW5zaXRpdmVGaWVsZHMiCiAgICA6Zm9ybT0icHJvdmlkZXJGb3JtIgogICAgOmdlbmVyYXRlZC1wcm92aWRlci1uYW1lPSJnZW5lcmF0ZWRQcm92aWRlck5hbWUiCiAgICA6bW9kZT0iZGlhbG9nTW9kZSIKICAgIDpzYXZpbmc9InNhdmluZyIKICAgIDpzZWxlY3RlZC1kZWZpbml0aW9uPSJzZWxlY3RlZERlZmluaXRpb24iCiAgICA6c2hvdy1sZWdhY3ktd2ViaG9vay1oZWFkZXItbWlncmF0aW9uPSJzaG93TGVnYWN5V2ViaG9va0hlYWRlck1pZ3JhdGlvbiIKICAgIDpzaG93LXd4LXB1c2hlci1hbGVydD0ic2hvd1d4UHVzaGVyQWxlcnQiCiAgICA6dGVzdGluZy1kcmFmdD0idGVzdGluZ0RyYWZ0IgogICAgQHNhdmU9InNhdmVQcm92aWRlciIKICAgIEB0ZXN0PSJ0ZXN0UHJvdmlkZXJEcmFmdCIKICAgIEBwcmV2aWV3LXdlYmhvb2stYm9keT0icHJldmlld1dlYmhvb2tCb2R5IgogICAgQHR5cGUtY2hhbmdlPSJoYW5kbGVUeXBlQ2hhbmdlIgogIC8+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { toRef } from "vue";
+import { useI18n } from "vue-i18n";
+import { Loader2, Pencil, Plus, Send, Trash2 } from "lucide-vue-next";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import RefreshButton from "@/components/RefreshButton.vue";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import ProviderEditorDialog from "./ProviderEditorDialog.vue";
+import { useNotificationProviders } from "./useNotificationProviders";
+
+const props = withDefaults(
+  defineProps<{
+    active?: boolean;
+  }>(),
+  { active: false },
+);
+
+const { t } = useI18n();
+const {
+  catalog,
+  connectionConfigInvalid,
+  configuredSensitiveFields,
+  deleteProvider,
+  deletingId,
+  dialogMode,
+  dialogOpen,
+  editingId,
+  generatedProviderName,
+  handleTypeChange,
+  loadData,
+  loading,
+  openCreateDialog,
+  openEditDialog,
+  providerForm,
+  previewWebhookBody,
+  providers,
+  resolveProviderTypeLabel,
+  saveProvider,
+  saving,
+  selectedDefinition,
+  showLegacyWebhookHeaderMigration,
+  showWxPusherAlert,
+  testProvider,
+  testProviderDraft,
+  testingDraft,
+  testingId,
+} = useNotificationProviders(toRef(props, "active"));
+</script>
+
+<template>
+  <div class="space-y-4 p-4 sm:p-6">
+    <div class="flex flex-wrap items-center gap-2">
+      <div class="text-sm text-muted-foreground">
+        {{ t("admin.notifications.providers.intro") }}
+      </div>
+      <div class="ml-auto flex items-center gap-2">
+        <RefreshButton
+          :loading="loading"
+          :disabled="loading"
+          @click="loadData"
+        />
+        <Button @click="openCreateDialog">
+          <Plus class="mr-2 h-4 w-4" />
+          {{ t("admin.notifications.providers.addProvider") }}
+        </Button>
+      </div>
+    </div>
+
+    <div class="overflow-hidden rounded-md border bg-background">
+      <Table>
+        <TableHeader>
+          <TableRow>
+            <TableHead>{{ t("admin.notifications.providers.name") }}</TableHead>
+            <TableHead>{{ t("admin.notifications.providers.type") }}</TableHead>
+            <TableHead>
+              {{ t("admin.notifications.providers.status") }}
+            </TableHead>
+            <TableHead>
+              {{ t("admin.notifications.providers.updatedAt") }}
+            </TableHead>
+            <TableHead class="w-[180px] text-right">
+              {{ t("admin.notifications.providers.actions") }}
+            </TableHead>
+          </TableRow>
+        </TableHeader>
+        <TableBody>
+          <TableRow v-if="loading && providers.length === 0">
+            <TableCell colspan="6" class="py-10 text-center">
+              <Loader2
+                class="mx-auto h-5 w-5 animate-spin text-muted-foreground"
+              />
+            </TableCell>
+          </TableRow>
+          <TableRow v-else-if="providers.length === 0">
+            <TableCell
+              colspan="6"
+              class="py-10 text-center text-muted-foreground"
+            >
+              {{ t("admin.notifications.providers.empty") }}
+            </TableCell>
+          </TableRow>
+          <TableRow v-for="provider in providers" :key="provider.id">
+            <TableCell>
+              <div class="space-y-1">
+                <div class="font-medium">{{ provider.name }}</div>
+                <div
+                  v-if="provider.last_error"
+                  class="line-clamp-2 text-xs text-muted-foreground"
+                >
+                  {{ t("admin.notifications.providers.lastErrorPrefix")
+                  }}{{ provider.last_error }}
+                </div>
+              </div>
+            </TableCell>
+            <TableCell>{{ resolveProviderTypeLabel(provider.type) }}</TableCell>
+            <TableCell>
+              <Badge
+                variant="outline"
+                :class="
+                  provider.enabled
+                    ? 'border-emerald-500/25 bg-emerald-500/10 text-emerald-700'
+                    : 'border-muted-foreground/20 bg-muted text-muted-foreground'
+                "
+              >
+                {{
+                  provider.enabled
+                    ? t("admin.notifications.providers.enabled")
+                    : t("admin.notifications.providers.disabled")
+                }}
+              </Badge>
+            </TableCell>
+            <TableCell class="text-sm text-muted-foreground">
+              <HumanFriendlyTime :value="provider.updated_at" />
+            </TableCell>
+            <TableCell class="text-right">
+              <div class="inline-flex items-center gap-1">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  :aria-label="t('common.test')"
+                  :disabled="testingId === provider.id"
+                  @click="testProvider(provider)"
+                >
+                  <Send class="h-4 w-4" />
+                </Button>
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  :aria-label="t('common.edit')"
+                  :disabled="editingId === provider.id"
+                  @click="openEditDialog(provider)"
+                >
+                  <Loader2
+                    v-if="editingId === provider.id"
+                    class="h-4 w-4 animate-spin"
+                  />
+                  <Pencil v-else class="h-4 w-4" />
+                </Button>
+                <ConfirmDangerPopover
+                  :title="t('admin.notifications.providers.deleteTitle')"
+                  :description="
+                    t('admin.notifications.providers.deleteDescription')
+                  "
+                  :loading="deletingId === provider.id"
+                  :disabled="deletingId === provider.id"
+                  :on-confirm="() => deleteProvider(provider)"
+                >
+                  <template #trigger>
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      :aria-label="t('common.confirmDelete')"
+                      class="text-destructive"
+                      :disabled="deletingId === provider.id"
+                    >
+                      <Trash2 class="h-4 w-4" />
+                    </Button>
+                  </template>
+                </ConfirmDangerPopover>
+              </div>
+            </TableCell>
+          </TableRow>
+        </TableBody>
+      </Table>
+    </div>
+  </div>
+
+  <ProviderEditorDialog
+    v-model:open="dialogOpen"
+    :catalog="catalog"
+    :connection-config-invalid="connectionConfigInvalid"
+    :configured-sensitive-fields="configuredSensitiveFields"
+    :form="providerForm"
+    :generated-provider-name="generatedProviderName"
+    :mode="dialogMode"
+    :saving="saving"
+    :selected-definition="selectedDefinition"
+    :show-legacy-webhook-header-migration="showLegacyWebhookHeaderMigration"
+    :show-wx-pusher-alert="showWxPusherAlert"
+    :testing-draft="testingDraft"
+    @save="saveProvider"
+    @test="testProviderDraft"
+    @preview-webhook-body="previewWebhookBody"
+    @type-change="handleTypeChange"
+  />
+</template>

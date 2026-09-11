@@ -1,1 +1,298 @@
-W0NtZGxldEJpbmRpbmcoKV0KcGFyYW0oCiAgW1ZhbGlkYXRlU2V0KCJQcmVwYXJlIiwgIlRlc3QiLCAiQnVpbGQiKV0KICBbc3RyaW5nXSRNb2RlID0gIkJ1aWxkIiwKICBbc3RyaW5nXSRHb1JlcG9zaXRvcnkgPSAiIiwKICBbc3dpdGNoXSRTa2lwRGVza3RvcEJ1bmRsZSwKICBbc3dpdGNoXSRCdW5kbGVJbnN0YWxsZXIsCiAgW3N3aXRjaF0kU2tpcENoZWNrcywKICBbc3dpdGNoXSRSZXF1aXJlQ2xlYW5UcmVlLAogIFtzdHJpbmddJE91dHB1dERpcmVjdG9yeSA9ICIiCikKCiRFcnJvckFjdGlvblByZWZlcmVuY2UgPSAiU3RvcCIKU2V0LVN0cmljdE1vZGUgLVZlcnNpb24gTGF0ZXN0Ci4gKEpvaW4tUGF0aCAkUFNTY3JpcHRSb290ICJmbi1rbm9jay1jb250cm9sLWFwaS5wczEiKQoKJFJvb3QgPSAoUmVzb2x2ZS1QYXRoIChKb2luLVBhdGggJFBTU2NyaXB0Um9vdCAiLi4iKSkuUGF0aAppZiAoLW5vdCAkR29SZXBvc2l0b3J5KSB7CiAgJEdvUmVwb3NpdG9yeSA9IEpvaW4tUGF0aCAoU3BsaXQtUGF0aCAkUm9vdCAtUGFyZW50KSAiR28tUmVhdXRoLVByb3h5Igp9CiRHb1JlcG9zaXRvcnkgPSAoUmVzb2x2ZS1QYXRoICRHb1JlcG9zaXRvcnkpLlBhdGgKJEdvQ29tbWl0ID0gKGdpdCAtQyAkR29SZXBvc2l0b3J5IHJldi1wYXJzZSBIRUFEKS5UcmltKCkKaWYgKCRHb0NvbW1pdCAtbm90bWF0Y2ggJ15bMC05YS1mXXs0MH0kJykgewogIHRocm93ICJJbnZhbGlkIEdvIHNvdXJjZSBjaGVja291dCBjb21taXQ6ICRHb0NvbW1pdCIKfQokVmVyc2lvbkRvY3VtZW50ID0gR2V0LUNvbnRlbnQgLVJhdyAoSm9pbi1QYXRoICRSb290ICJ2ZXJzaW9uLmpzb24iKSB8IENvbnZlcnRGcm9tLUpzb24KJFZlcnNpb24gPSBbc3RyaW5nXSRWZXJzaW9uRG9jdW1lbnQudmVyc2lvbgokQ29udHJvbEFwaVZlcnNpb24gPSBHZXQtRm5Lbm9ja0NvbnRyb2xBcGlWZXJzaW9uIC1Sb290ICRSb290CiRDb21taXQgPSAoZ2l0IC1DICRSb290IHJldi1wYXJzZSBIRUFEKS5UcmltKCkKJFRhcmdldCA9ICJ4ODZfNjQtcGMtd2luZG93cy1tc3ZjIgokRGVza3RvcFJvb3QgPSBKb2luLVBhdGggJFJvb3QgImFwcHNcZm4ta25vY2stZGVza3RvcCIKJERlc2t0b3BOYXRpdmUgPSBKb2luLVBhdGggJERlc2t0b3BSb290ICJuYXRpdmUiCiRCdW5kbGVSb290ID0gSm9pbi1QYXRoICREZXNrdG9wUm9vdCAiYnVuZGxlXHdpbmRvd3MiCiRSdW50aW1lUm9vdCA9IEpvaW4tUGF0aCAkQnVuZGxlUm9vdCAicnVudGltZSIKJFJ1c3RBY21lc2hFeGVjdXRhYmxlID0gSm9pbi1QYXRoICRSb290ICJhcHBzXHNlcnZlci1hZG1pbi1yc1xyZXNvdXJjZXNccnVzdC1hY21lc2guZXhlIgpBc3NlcnQtRm5Lbm9ja0dvQ29udHJvbEFwaUNvbnRyYWN0IC1Sb290ICRSb290IC1Hb1JlcG9zaXRvcnkgJEdvUmVwb3NpdG9yeQoKaWYgKCRTa2lwRGVza3RvcEJ1bmRsZSAtYW5kICRCdW5kbGVJbnN0YWxsZXIpIHsKICB0aHJvdyAiU2tpcERlc2t0b3BCdW5kbGUgYW5kIEJ1bmRsZUluc3RhbGxlciBjYW5ub3QgYmUgdXNlZCB0b2dldGhlciIKfQppZiAoJEJ1bmRsZUluc3RhbGxlciAtYW5kICRNb2RlIC1uZSAiQnVpbGQiKSB7CiAgdGhyb3cgIkJ1bmRsZUluc3RhbGxlciBpcyBvbmx5IHZhbGlkIGluIEJ1aWxkIG1vZGUiCn0KaWYgKCRTa2lwQ2hlY2tzIC1hbmQgJE1vZGUgLW5lICJCdWlsZCIpIHsKICB0aHJvdyAiU2tpcENoZWNrcyBpcyBvbmx5IHZhbGlkIGluIEJ1aWxkIG1vZGUiCn0KCmZ1bmN0aW9uIEFzc2VydC1DbGVhblJlbGVhc2VUcmVlcyhbc3RyaW5nXSRQaGFzZSkgewogIGlmIChnaXQgLUMgJFJvb3Qgc3RhdHVzIC0tcG9yY2VsYWluKSB7CiAgICB0aHJvdyAiV2luZG93cyByZWxlYXNlIGJ1aWxkcyByZXF1aXJlIGEgY2xlYW4gZm4ta25vY2sgc291cmNlIHRyZWUgKCRQaGFzZSkiCiAgfQogIGlmIChnaXQgLUMgJEdvUmVwb3NpdG9yeSBzdGF0dXMgLS1wb3JjZWxhaW4pIHsKICAgIHRocm93ICJXaW5kb3dzIHJlbGVhc2UgYnVpbGRzIHJlcXVpcmUgYSBjbGVhbiBHbyBnYXRld2F5IHNvdXJjZSB0cmVlICgkUGhhc2UpIgogIH0KfQoKaWYgKCRNb2RlIC1lcSAiQnVpbGQiIC1hbmQgJFJlcXVpcmVDbGVhblRyZWUpIHsKICBBc3NlcnQtQ2xlYW5SZWxlYXNlVHJlZXMgImJlZm9yZSB2ZXJzaW9uIHN5bmNocm9uaXphdGlvbiIKfQoKZnVuY3Rpb24gQXNzZXJ0LUxhc3RFeGl0Q29kZShbc3RyaW5nXSRPcGVyYXRpb24pIHsKICBpZiAoJExBU1RFWElUQ09ERSAtbmUgMCkgewogICAgdGhyb3cgIiRPcGVyYXRpb24gZmFpbGVkIHdpdGggZXhpdCBjb2RlICRMQVNURVhJVENPREUiCiAgfQp9CgpmdW5jdGlvbiBTZXQtSnNvblZlcnNpb24oW3N0cmluZ10kUGF0aCkgewogICRkb2N1bWVudCA9IEdldC1Db250ZW50IC1SYXcgJFBhdGggfCBDb252ZXJ0RnJvbS1Kc29uCiAgaWYgKFtzdHJpbmddJGRvY3VtZW50LnZlcnNpb24gLWVxICRWZXJzaW9uKSB7CiAgICByZXR1cm4KICB9CiAgJGRvY3VtZW50LnZlcnNpb24gPSAkVmVyc2lvbgogICRqc29uID0gJGRvY3VtZW50IHwgQ29udmVydFRvLUpzb24gLURlcHRoIDMwCiAgW1N5c3RlbS5JTy5GaWxlXTo6V3JpdGVBbGxUZXh0KCRQYXRoLCAiJGpzb25gbiIsIFtTeXN0ZW0uVGV4dC5VVEY4RW5jb2RpbmddOjpuZXcoJGZhbHNlKSkKfQoKZnVuY3Rpb24gU2V0LUNhcmdvVmVyc2lvbihbc3RyaW5nXSRQYXRoKSB7CiAgJGNvbnRlbnQgPSBHZXQtQ29udGVudCAtUmF3ICRQYXRoCiAgJHBhdHRlcm4gPSBbcmVnZXhdOjpuZXcoJyg/bXMpKFxbcGFja2FnZVxdLio/XnZlcnNpb25ccyo9XHMqKSIoW14iXSspIicpCiAgJG1hdGNoID0gJHBhdHRlcm4uTWF0Y2goJGNvbnRlbnQpCiAgaWYgKC1ub3QgJG1hdGNoLlN1Y2Nlc3MpIHsKICAgIHRocm93ICJVbmFibGUgdG8gbG9jYXRlIHRoZSBDYXJnbyBwYWNrYWdlIHZlcnNpb24gaW4gJFBhdGgiCiAgfQogIGlmICgkbWF0Y2guR3JvdXBzWzJdLlZhbHVlIC1lcSAkVmVyc2lvbikgewogICAgcmV0dXJuCiAgfQogICRyZXBsYWNlbWVudCA9ICckezF9IicgKyAkVmVyc2lvbiArICciJwogICR1cGRhdGVkID0gJHBhdHRlcm4uUmVwbGFjZSgkY29udGVudCwgJHJlcGxhY2VtZW50LCAxKQogIFtTeXN0ZW0uSU8uRmlsZV06OldyaXRlQWxsVGV4dCgkUGF0aCwgJHVwZGF0ZWQsIFtTeXN0ZW0uVGV4dC5VVEY4RW5jb2RpbmddOjpuZXcoJGZhbHNlKSkKfQoKZnVuY3Rpb24gU3luYy1WZXJzaW9ucyB7CiAgU2V0LUpzb25WZXJzaW9uIChKb2luLVBhdGggJERlc2t0b3BSb290ICJwYWNrYWdlLmpzb24iKQogIFNldC1DYXJnb1ZlcnNpb24gKEpvaW4tUGF0aCAkRGVza3RvcE5hdGl2ZSAiQ2FyZ28udG9tbCIpCiAgU2V0LUNhcmdvVmVyc2lvbiAoSm9pbi1QYXRoICRSb290ICJhcHBzXHNlcnZlci1hZG1pbi1yc1xDYXJnby50b21sIikKfQoKZnVuY3Rpb24gSW52b2tlLUZyb250ZW5kQnVpbGRzIHsKICBucG0gcnVuIGJ1aWxkIC0td29ya3NwYWNlIHNlcnZlci1hZG1pbi12aWV3CiAgQXNzZXJ0LUxhc3RFeGl0Q29kZSAic2VydmVyLWFkbWluLXZpZXcgYnVpbGQiCiAgbnBtIHJ1biBidWlsZCAtLXdvcmtzcGFjZSBzZXJ2ZXItYXV0aC12aWV3CiAgQXNzZXJ0LUxhc3RFeGl0Q29kZSAic2VydmVyLWF1dGgtdmlldyBidWlsZCIKICBucG0gcnVuIGJ1aWxkIC0td29ya3NwYWNlIGZuLWtub2NrLWRlc2t0b3AKICBBc3NlcnQtTGFzdEV4aXRDb2RlICJmbi1rbm9jay1kZXNrdG9wIGJ1aWxkIgp9CgpmdW5jdGlvbiBJbnZva2UtR29DaGVja3NBbmRCdWlsZCB7CiAgUHVzaC1Mb2NhdGlvbiAkR29SZXBvc2l0b3J5CiAgdHJ5IHsKICAgICRlbnY6R09PUyA9ICJ3aW5kb3dzIgogICAgJGVudjpHT0FSQ0ggPSAiYW1kNjQiCiAgICAkZW52OkNHT19FTkFCTEVEID0gIjAiCiAgICBpZiAoLW5vdCAkU2tpcENoZWNrcykgewogICAgICBnbyB0ZXN0IC1tb2Q9cmVhZG9ubHkgLi8uLi4KICAgICAgQXNzZXJ0LUxhc3RFeGl0Q29kZSAiR28gV2luZG93cyB0ZXN0cyIKICAgIH0KICAgIE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLUZvcmNlIChKb2luLVBhdGggJEdvUmVwb3NpdG9yeSAiYnVpbGQiKSB8IE91dC1OdWxsCiAgICAkb3V0cHV0ID0gSm9pbi1QYXRoICRHb1JlcG9zaXRvcnkgImJ1aWxkXGdvLXJlYXV0aC1wcm94eS13aW5kb3dzLWFtZDY0LmV4ZSIKICAgIGdvIGJ1aWxkIC1tb2Q9cmVhZG9ubHkgLXRyaW1wYXRoIC1sZGZsYWdzICItcyAtdyAtWCBnby1yZWF1dGgtcHJveHkvcGtnL3ZlcnNpb24uVmVyc2lvbj0kVmVyc2lvbiAtWCBnby1yZWF1dGgtcHJveHkvcGtnL3ZlcnNpb24uQ29tbWl0PSRHb0NvbW1pdCIgLW8gJG91dHB1dCAuL2NtZC9zZXJ2ZXIKICAgIEFzc2VydC1MYXN0RXhpdENvZGUgIkdvIFdpbmRvd3MgYnVpbGQiCiAgfSBmaW5hbGx5IHsKICAgIFBvcC1Mb2NhdGlvbgogIH0KfQoKZnVuY3Rpb24gSW52b2tlLVJ1c3RDaGVja3NBbmRCdWlsZCB7CiAgJG1hbmlmZXN0ID0gSm9pbi1QYXRoICRSb290ICJhcHBzXHNlcnZlci1hZG1pbi1yc1xDYXJnby50b21sIgogICRlbnY6Rk5fS05PQ0tfREVQTE9ZTUVOVF9UQVJHRVQgPSAid2luZG93cyIKICAkZW52OkZOX0tOT0NLX0NPTU1JVCA9ICRDb21taXQKICAkZW52OkZOX0tOT0NLX0dBVEVXQVlfQ09NTUlUID0gJEdvQ29tbWl0CiAgaWYgKC1ub3QgJFNraXBDaGVja3MpIHsKICAgIGNhcmdvIHRlc3QgLS1sb2NrZWQgLS1tYW5pZmVzdC1wYXRoICRtYW5pZmVzdAogICAgQXNzZXJ0LUxhc3RFeGl0Q29kZSAiUnVzdCB1bml0IHRlc3RzIgogICAgY2FyZ28gY2hlY2sgLS1sb2NrZWQgLS1tYW5pZmVzdC1wYXRoICRtYW5pZmVzdCAtLXRhcmdldCAkVGFyZ2V0CiAgICBBc3NlcnQtTGFzdEV4aXRDb2RlICJSdXN0IFdpbmRvd3MgY2hlY2siCiAgfQogIGNhcmdvIGJ1aWxkIC0tbG9ja2VkIC0tcmVsZWFzZSAtLW1hbmlmZXN0LXBhdGggJG1hbmlmZXN0IC0tdGFyZ2V0ICRUYXJnZXQKICBBc3NlcnQtTGFzdEV4aXRDb2RlICJSdXN0IFdpbmRvd3MgcmVsZWFzZSBidWlsZCIKfQoKZnVuY3Rpb24gQ29weS1EaXJlY3RvcnlDb250ZW50cyhbc3RyaW5nXSRTb3VyY2UsIFtzdHJpbmddJERlc3RpbmF0aW9uKSB7CiAgTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtRm9yY2UgJERlc3RpbmF0aW9uIHwgT3V0LU51bGwKICBHZXQtQ2hpbGRJdGVtIC1Gb3JjZSAkRGVzdGluYXRpb24gfCBSZW1vdmUtSXRlbSAtUmVjdXJzZSAtRm9yY2UKICBDb3B5LUl0ZW0gLVBhdGggKEpvaW4tUGF0aCAkU291cmNlICIqIikgLURlc3RpbmF0aW9uICREZXN0aW5hdGlvbiAtUmVjdXJzZSAtRm9yY2UKfQoKZnVuY3Rpb24gU3RhZ2UtV2luZG93c0J1bmRsZSB7CiAgaWYgKFRlc3QtUGF0aCAkQnVuZGxlUm9vdCkgewogICAgUmVtb3ZlLUl0ZW0gLVJlY3Vyc2UgLUZvcmNlICRCdW5kbGVSb290CiAgfQogIE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLUZvcmNlICRSdW50aW1lUm9vdCB8IE91dC1OdWxsCgogIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRSdXN0QWNtZXNoRXhlY3V0YWJsZSAtUGF0aFR5cGUgTGVhZikpIHsKICAgIHRocm93ICJCdW5kbGVkIHJ1c3QtYWNtZXNoLmV4ZSBpcyBtaXNzaW5nOiAkUnVzdEFjbWVzaEV4ZWN1dGFibGUiCiAgfQoKICBDb3B5LUl0ZW0gKEpvaW4tUGF0aCAkR29SZXBvc2l0b3J5ICJidWlsZFxnby1yZWF1dGgtcHJveHktd2luZG93cy1hbWQ2NC5leGUiKSAoSm9pbi1QYXRoICRCdW5kbGVSb290ICJmbi1rbm9jay1nYXRld2F5LmV4ZSIpCiAgQ29weS1JdGVtIChKb2luLVBhdGggJFJvb3QgImFwcHNcc2VydmVyLWFkbWluLXJzXHRhcmdldFwkVGFyZ2V0XHJlbGVhc2VcZm4ta25vY2stc2VydmljZS5leGUiKSAoSm9pbi1QYXRoICRCdW5kbGVSb290ICJmbi1rbm9jay1zZXJ2aWNlLmV4ZSIpCiAgQ29weS1JdGVtICRSdXN0QWNtZXNoRXhlY3V0YWJsZSAoSm9pbi1QYXRoICRCdW5kbGVSb290ICJydXN0LWFjbWVzaC5leGUiKQoKICBDb3B5LURpcmVjdG9yeUNvbnRlbnRzIChKb2luLVBhdGggJFJvb3QgImFwcHNcc2VydmVyLWFkbWluLXZpZXdcZGlzdCIpIChKb2luLVBhdGggJFJ1bnRpbWVSb290ICJ1aVx3d3ciKQogIENvcHktRGlyZWN0b3J5Q29udGVudHMgKEpvaW4tUGF0aCAkUm9vdCAiYXBwc1xzZXJ2ZXItYXV0aC12aWV3XGRpc3QiKSAoSm9pbi1QYXRoICRSdW50aW1lUm9vdCAic2VydmVyLWF1dGgtdmlld1xkaXN0IikKCiAgJGlkZW50aXR5ID0gQHsKICAgIHZlcnNpb24gPSAkVmVyc2lvbgogICAgY29tbWl0ID0gJENvbW1pdAogICAgZ2F0ZXdheV9jb21taXQgPSAkR29Db21taXQKICAgIGNvbnRyb2xfYXBpX3ZlcnNpb24gPSAkQ29udHJvbEFwaVZlcnNpb24KICAgIHRhcmdldCA9ICJ3aW5kb3dzLXg4Nl82NCIKICAgIGZpbGVzID0gQCgKICAgICAgImZuLWtub2NrLmV4ZSIsCiAgICAgICJmbi1rbm9jay1zZXJ2aWNlLmV4ZSIsCiAgICAgICJmbi1rbm9jay1nYXRld2F5LmV4ZSIsCiAgICAgICJydXN0LWFjbWVzaC5leGUiLAogICAgICAidWkvd3d3IiwKICAgICAgInNlcnZlci1hdXRoLXZpZXcvZGlzdCIKICAgICkKICB9IHwgQ29udmVydFRvLUpzb24gLURlcHRoIDEwCiAgW1N5c3RlbS5JTy5GaWxlXTo6V3JpdGVBbGxUZXh0KAogICAgKEpvaW4tUGF0aCAkUnVudGltZVJvb3QgImJ1bmRsZS5qc29uIiksCiAgICAiJGlkZW50aXR5YG4iLAogICAgW1N5c3RlbS5UZXh0LlVURjhFbmNvZGluZ106Om5ldygkZmFsc2UpCiAgKQp9CgpmdW5jdGlvbiBSZXNvbHZlLU1ha2VOc2lzIHsKICBpZiAoJGVudjpGTl9LTk9DS19NQUtFTlNJUykgewogICAgJGNhbmRpZGF0ZSA9ICRlbnY6Rk5fS05PQ0tfTUFLRU5TSVMKICAgIGlmIChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRjYW5kaWRhdGUgLVBhdGhUeXBlIExlYWYpIHsKICAgICAgcmV0dXJuIChSZXNvbHZlLVBhdGggLUxpdGVyYWxQYXRoICRjYW5kaWRhdGUpLlBhdGgKICAgIH0KICAgIHRocm93ICJGTl9LTk9DS19NQUtFTlNJUyBkb2VzIG5vdCBwb2ludCB0byBtYWtlbnNpcy5leGU6ICRjYW5kaWRhdGUiCiAgfQogICRjb21tYW5kID0gR2V0LUNvbW1hbmQgbWFrZW5zaXMuZXhlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgaWYgKCRjb21tYW5kKSB7CiAgICByZXR1cm4gJGNvbW1hbmQuU291cmNlCiAgfQogIGZvcmVhY2ggKCRjYW5kaWRhdGUgaW4gQCgKICAgIChKb2luLVBhdGggJHtlbnY6UHJvZ3JhbUZpbGVzKHg4Nil9ICJOU0lTXG1ha2Vuc2lzLmV4ZSIpLAogICAgKEpvaW4tUGF0aCAkZW52OlByb2dyYW1GaWxlcyAiTlNJU1xtYWtlbnNpcy5leGUiKQogICkpIHsKICAgIGlmICgkY2FuZGlkYXRlIC1hbmQgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGNhbmRpZGF0ZSAtUGF0aFR5cGUgTGVhZikpIHsKICAgICAgcmV0dXJuIChSZXNvbHZlLVBhdGggLUxpdGVyYWxQYXRoICRjYW5kaWRhdGUpLlBhdGgKICAgIH0KICB9CiAgdGhyb3cgIk5TSVMgMyBpcyByZXF1aXJlZC4gSW5zdGFsbCBOU0lTIG9yIHNldCBGTl9LTk9DS19NQUtFTlNJUyB0byBtYWtlbnNpcy5leGUuIgp9CgpmdW5jdGlvbiBOZXctTmF0aXZlTnNpc0luc3RhbGxlciB7CiAgJG1ha2VOc2lzID0gUmVzb2x2ZS1NYWtlTnNpcwogICRyZWxlYXNlUm9vdCA9IEpvaW4tUGF0aCAkRGVza3RvcE5hdGl2ZSAidGFyZ2V0XCRUYXJnZXRccmVsZWFzZSIKICAkaW5zdGFsbGVyUm9vdCA9IEpvaW4tUGF0aCAkcmVsZWFzZVJvb3QgImluc3RhbGxlciIKICBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1Gb3JjZSAkaW5zdGFsbGVyUm9vdCB8IE91dC1OdWxsCiAgJHNldHVwUGF0aCA9IEpvaW4tUGF0aCAkaW5zdGFsbGVyUm9vdCAiS25vY2sg5pWy6ZeoXyR7VmVyc2lvbn1feDY0LXNldHVwLmV4ZSIKICBSZW1vdmUtSXRlbSAtTGl0ZXJhbFBhdGggJHNldHVwUGF0aCAtRm9yY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAkcGFydHMgPSBAKCRWZXJzaW9uLlNwbGl0KCcuJykpCiAgaWYgKCRwYXJ0cy5Db3VudCAtZ3QgNCAtb3IgQCgkcGFydHMgfCBXaGVyZS1PYmplY3QgeyAkXyAtbm90bWF0Y2ggJ15cZCskJyB9KS5Db3VudCAtZ3QgMCkgewogICAgdGhyb3cgIlZlcnNpb24gY2Fubm90IGJlIHJlcHJlc2VudGVkIGFzIGEgV2luZG93cyBmaWxlIHZlcnNpb246ICRWZXJzaW9uIgogIH0KICB3aGlsZSAoJHBhcnRzLkNvdW50IC1sdCA0KSB7ICRwYXJ0cyArPSAiMCIgfQogICRudW1lcmljVmVyc2lvbiA9ICRwYXJ0cyAtam9pbiAiLiIKICAkc2NyaXB0ID0gSm9pbi1QYXRoICREZXNrdG9wTmF0aXZlICJpbnN0YWxsZXJcaW5zdGFsbGVyLm5zaSIKICAkZGVza3RvcEV4ZSA9IEpvaW4tUGF0aCAkcmVsZWFzZVJvb3QgImZuLWtub2NrLmV4ZSIKICAkaWNvbiA9IEpvaW4tUGF0aCAkRGVza3RvcE5hdGl2ZSAiYXNzZXRzXGljb24uaWNvIgogICRuc2lzT3V0cHV0ID0gQCgmICRtYWtlTnNpcyAiL0lOUFVUQ0hBUlNFVCIgIlVURjgiICIvRFZFUlNJT049JFZlcnNpb24iICIvRE5VTUVSSUNfVkVSU0lPTj0kbnVtZXJpY1ZlcnNpb24iICIvRE9VVFBVVF9GSUxFPSRzZXR1cFBhdGgiICIvRERFU0tUT1BfRVhFPSRkZXNrdG9wRXhlIiAiL0RCVU5ETEVfUk9PVD0kQnVuZGxlUm9vdCIgIi9EUlVOVElNRV9ST09UPSRSdW50aW1lUm9vdCIgIi9ESUNPTl9GSUxFPSRpY29uIiAkc2NyaXB0IDI+JjEpCiAgJG5zaXNPdXRwdXQgfCBGb3JFYWNoLU9iamVjdCB7IFdyaXRlLUhvc3QgJF8gfQogIEFzc2VydC1MYXN0RXhpdENvZGUgIm5hdGl2ZSBOU0lTIGJ1bmRsZSIKICBpZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkc2V0dXBQYXRoIC1QYXRoVHlwZSBMZWFmKSkgewogICAgdGhyb3cgIk5TSVMgZGlkIG5vdCBwcm9kdWNlIHRoZSBleHBlY3RlZCBzZXR1cDogJHNldHVwUGF0aCIKICB9CiAgcmV0dXJuIChSZXNvbHZlLVBhdGggLUxpdGVyYWxQYXRoICRzZXR1cFBhdGgpLlBhdGgKfQoKZnVuY3Rpb24gUHVibGlzaC1VbnNpZ25lZEluc3RhbGxlcihbc3RyaW5nXSRTZXR1cFBhdGgpIHsKICBpZiAoLW5vdCAkT3V0cHV0RGlyZWN0b3J5KSB7CiAgICAkc2NyaXB0Ok91dHB1dERpcmVjdG9yeSA9IEpvaW4tUGF0aCAkUm9vdCAiZGlzdFx3aW5kb3dzIgogIH0gZWxzZWlmICgtbm90IFtTeXN0ZW0uSU8uUGF0aF06OklzUGF0aFJvb3RlZCgkT3V0cHV0RGlyZWN0b3J5KSkgewogICAgJHNjcmlwdDpPdXRwdXREaXJlY3RvcnkgPSBKb2luLVBhdGggJFJvb3QgJE91dHB1dERpcmVjdG9yeQogIH0KICBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1Gb3JjZSAkT3V0cHV0RGlyZWN0b3J5IHwgT3V0LU51bGwKICAkYXJ0aWZhY3RQYXRoID0gSm9pbi1QYXRoICRPdXRwdXREaXJlY3RvcnkgImZuLWtub2NrLSRWZXJzaW9uLXdpbmRvd3MteDg2XzY0LXVuc2lnbmVkLXNldHVwLmV4ZSIKICBDb3B5LUl0ZW0gLUxpdGVyYWxQYXRoICRTZXR1cFBhdGggLURlc3RpbmF0aW9uICRhcnRpZmFjdFBhdGggLUZvcmNlCiAgcmV0dXJuIChSZXNvbHZlLVBhdGggLUxpdGVyYWxQYXRoICRhcnRpZmFjdFBhdGgpLlBhdGgKfQoKU3luYy1WZXJzaW9ucwoKaWYgKCRNb2RlIC1lcSAiQnVpbGQiIC1hbmQgJFJlcXVpcmVDbGVhblRyZWUpIHsKICBBc3NlcnQtQ2xlYW5SZWxlYXNlVHJlZXMgImFmdGVyIHZlcnNpb24gc3luY2hyb25pemF0aW9uOyBjb21taXQgc3luY2hyb25pemVkIHZlcnNpb24gbWV0YWRhdGEgYmVmb3JlIHJlbGVhc2UiCn0KCmlmICgkTW9kZSAtZXEgIlByZXBhcmUiKSB7CiAgSW52b2tlLUZyb250ZW5kQnVpbGRzCiAgSW52b2tlLUdvQ2hlY2tzQW5kQnVpbGQKICBJbnZva2UtUnVzdENoZWNrc0FuZEJ1aWxkCiAgU3RhZ2UtV2luZG93c0J1bmRsZQogIFdyaXRlLUhvc3QgIlByZXBhcmVkICRCdW5kbGVSb290IgogIGV4aXQgMAp9CgppZiAoJE1vZGUgLWVxICJUZXN0IikgewogIG5wbSBydW4gY2hlY2stdHlwZXMgLS13b3Jrc3BhY2Ugc2VydmVyLWFkbWluLXZpZXcKICBBc3NlcnQtTGFzdEV4aXRDb2RlICJzZXJ2ZXItYWRtaW4tdmlldyB0eXBlIGNoZWNrIgogIG5wbSBydW4gY2hlY2stdHlwZXMgLS13b3Jrc3BhY2Ugc2VydmVyLWF1dGgtdmlldwogIEFzc2VydC1MYXN0RXhpdENvZGUgInNlcnZlci1hdXRoLXZpZXcgdHlwZSBjaGVjayIKICBucG0gcnVuIGNoZWNrLXR5cGVzIC0td29ya3NwYWNlIGZuLWtub2NrLWRlc2t0b3AKICBBc3NlcnQtTGFzdEV4aXRDb2RlICJmbi1rbm9jay1kZXNrdG9wIHR5cGUgY2hlY2siCiAgSW52b2tlLUdvQ2hlY2tzQW5kQnVpbGQKICBJbnZva2UtUnVzdENoZWNrc0FuZEJ1aWxkCiAgZXhpdCAwCn0KCmlmICgtbm90ICRJc1dpbmRvd3MgLW9yICRlbnY6UFJPQ0VTU09SX0FSQ0hJVEVDVFVSRSAtbm90bWF0Y2ggIkFNRDY0IikgewogIHRocm93ICJSZWxlYXNlIHBhY2thZ2luZyBtdXN0IHJ1biBvbiBhIG5hdGl2ZSBXaW5kb3dzIHg4Nl82NCBydW5uZXIiCn0KCkludm9rZS1Gcm9udGVuZEJ1aWxkcwpJbnZva2UtR29DaGVja3NBbmRCdWlsZApJbnZva2UtUnVzdENoZWNrc0FuZEJ1aWxkClN0YWdlLVdpbmRvd3NCdW5kbGUKCmlmICgtbm90ICRTa2lwRGVza3RvcEJ1bmRsZSkgewogIGNhcmdvIGJ1aWxkIC0tbG9ja2VkIC0tcmVsZWFzZSAtLW1hbmlmZXN0LXBhdGggKEpvaW4tUGF0aCAkRGVza3RvcE5hdGl2ZSAiQ2FyZ28udG9tbCIpIC0tdGFyZ2V0ICRUYXJnZXQKICBBc3NlcnQtTGFzdEV4aXRDb2RlICJuYXRpdmUgV2luMzIgY29udHJvbGxlciByZWxlYXNlIGJ1aWxkIgoKICBpZiAoJEJ1bmRsZUluc3RhbGxlcikgewogICAgJHNldHVwID0gTmV3LU5hdGl2ZU5zaXNJbnN0YWxsZXIKICAgICRwdWJsaXNoZWRTZXR1cCA9IFB1Ymxpc2gtVW5zaWduZWRJbnN0YWxsZXIgJHNldHVwCiAgICBXcml0ZS1Ib3N0ICJVbnNpZ25lZCBOU0lTIGluc3RhbGxlcjogJHB1Ymxpc2hlZFNldHVwIgogIH0KfQoKaWYgKCRCdW5kbGVJbnN0YWxsZXIpIHsKICBXcml0ZS1Ib3N0ICJUaGUgbG9jYWwgaW5zdGFsbGVyIGlzIHVuc2lnbmVkIGFuZCBpbnRlbmRlZCBmb3IgZGV2ZWxvcG1lbnQvdGVzdGluZyBvbmx5LiIKfSBlbHNlIHsKICBXcml0ZS1Ib3N0ICJXaW5kb3dzIGJpbmFyaWVzIGFuZCBydW50aW1lIGFyZSByZWFkeSBmb3IgQXV0aGVudGljb2RlIHNpZ25pbmcuIgogIFdyaXRlLUhvc3QgIkFmdGVyIHNpZ25pbmcgYWxsIHRocmVlIEVYRXMsIHJ1biB0aGUgbmF0aXZlIE5TSVMgcGFja2FnaW5nIHN0ZXAgdG8gY3JlYXRlIHRoZSBpbnN0YWxsZXIuIgp9Cg==
+[CmdletBinding()]
+param(
+  [ValidateSet("Prepare", "Test", "Build")]
+  [string]$Mode = "Build",
+  [string]$GoRepository = "",
+  [switch]$SkipDesktopBundle,
+  [switch]$BundleInstaller,
+  [switch]$SkipChecks,
+  [switch]$RequireCleanTree,
+  [string]$OutputDirectory = ""
+)
+
+$ErrorActionPreference = "Stop"
+Set-StrictMode -Version Latest
+. (Join-Path $PSScriptRoot "fn-knock-control-api.ps1")
+
+$Root = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
+if (-not $GoRepository) {
+  $GoRepository = Join-Path (Split-Path $Root -Parent) "Go-Reauth-Proxy"
+}
+$GoRepository = (Resolve-Path $GoRepository).Path
+$GoCommit = (git -C $GoRepository rev-parse HEAD).Trim()
+if ($GoCommit -notmatch '^[0-9a-f]{40}$') {
+  throw "Invalid Go source checkout commit: $GoCommit"
+}
+$VersionDocument = Get-Content -Raw (Join-Path $Root "version.json") | ConvertFrom-Json
+$Version = [string]$VersionDocument.version
+$ControlApiVersion = Get-FnKnockControlApiVersion -Root $Root
+$Commit = (git -C $Root rev-parse HEAD).Trim()
+$Target = "x86_64-pc-windows-msvc"
+$DesktopRoot = Join-Path $Root "apps\fn-knock-desktop"
+$DesktopNative = Join-Path $DesktopRoot "native"
+$BundleRoot = Join-Path $DesktopRoot "bundle\windows"
+$RuntimeRoot = Join-Path $BundleRoot "runtime"
+$RustAcmeshExecutable = Join-Path $Root "apps\server-admin-rs\resources\rust-acmesh.exe"
+Assert-FnKnockGoControlApiContract -Root $Root -GoRepository $GoRepository
+
+if ($SkipDesktopBundle -and $BundleInstaller) {
+  throw "SkipDesktopBundle and BundleInstaller cannot be used together"
+}
+if ($BundleInstaller -and $Mode -ne "Build") {
+  throw "BundleInstaller is only valid in Build mode"
+}
+if ($SkipChecks -and $Mode -ne "Build") {
+  throw "SkipChecks is only valid in Build mode"
+}
+
+function Assert-CleanReleaseTrees([string]$Phase) {
+  if (git -C $Root status --porcelain) {
+    throw "Windows release builds require a clean fn-knock source tree ($Phase)"
+  }
+  if (git -C $GoRepository status --porcelain) {
+    throw "Windows release builds require a clean Go gateway source tree ($Phase)"
+  }
+}
+
+if ($Mode -eq "Build" -and $RequireCleanTree) {
+  Assert-CleanReleaseTrees "before version synchronization"
+}
+
+function Assert-LastExitCode([string]$Operation) {
+  if ($LASTEXITCODE -ne 0) {
+    throw "$Operation failed with exit code $LASTEXITCODE"
+  }
+}
+
+function Set-JsonVersion([string]$Path) {
+  $document = Get-Content -Raw $Path | ConvertFrom-Json
+  if ([string]$document.version -eq $Version) {
+    return
+  }
+  $document.version = $Version
+  $json = $document | ConvertTo-Json -Depth 30
+  [System.IO.File]::WriteAllText($Path, "$json`n", [System.Text.UTF8Encoding]::new($false))
+}
+
+function Set-CargoVersion([string]$Path) {
+  $content = Get-Content -Raw $Path
+  $pattern = [regex]::new('(?ms)(\[package\].*?^version\s*=\s*)"([^"]+)"')
+  $match = $pattern.Match($content)
+  if (-not $match.Success) {
+    throw "Unable to locate the Cargo package version in $Path"
+  }
+  if ($match.Groups[2].Value -eq $Version) {
+    return
+  }
+  $replacement = '${1}"' + $Version + '"'
+  $updated = $pattern.Replace($content, $replacement, 1)
+  [System.IO.File]::WriteAllText($Path, $updated, [System.Text.UTF8Encoding]::new($false))
+}
+
+function Sync-Versions {
+  Set-JsonVersion (Join-Path $DesktopRoot "package.json")
+  Set-CargoVersion (Join-Path $DesktopNative "Cargo.toml")
+  Set-CargoVersion (Join-Path $Root "apps\server-admin-rs\Cargo.toml")
+}
+
+function Invoke-FrontendBuilds {
+  npm run build --workspace server-admin-view
+  Assert-LastExitCode "server-admin-view build"
+  npm run build --workspace server-auth-view
+  Assert-LastExitCode "server-auth-view build"
+  npm run build --workspace fn-knock-desktop
+  Assert-LastExitCode "fn-knock-desktop build"
+}
+
+function Invoke-GoChecksAndBuild {
+  Push-Location $GoRepository
+  try {
+    $env:GOOS = "windows"
+    $env:GOARCH = "amd64"
+    $env:CGO_ENABLED = "0"
+    if (-not $SkipChecks) {
+      go test -mod=readonly ./...
+      Assert-LastExitCode "Go Windows tests"
+    }
+    New-Item -ItemType Directory -Force (Join-Path $GoRepository "build") | Out-Null
+    $output = Join-Path $GoRepository "build\go-reauth-proxy-windows-amd64.exe"
+    go build -mod=readonly -trimpath -ldflags "-s -w -X go-reauth-proxy/pkg/version.Version=$Version -X go-reauth-proxy/pkg/version.Commit=$GoCommit" -o $output ./cmd/server
+    Assert-LastExitCode "Go Windows build"
+  } finally {
+    Pop-Location
+  }
+}
+
+function Invoke-RustChecksAndBuild {
+  $manifest = Join-Path $Root "apps\server-admin-rs\Cargo.toml"
+  $env:FN_KNOCK_DEPLOYMENT_TARGET = "windows"
+  $env:FN_KNOCK_COMMIT = $Commit
+  $env:FN_KNOCK_GATEWAY_COMMIT = $GoCommit
+  if (-not $SkipChecks) {
+    cargo test --locked --manifest-path $manifest
+    Assert-LastExitCode "Rust unit tests"
+    cargo check --locked --manifest-path $manifest --target $Target
+    Assert-LastExitCode "Rust Windows check"
+  }
+  cargo build --locked --release --manifest-path $manifest --target $Target
+  Assert-LastExitCode "Rust Windows release build"
+}
+
+function Copy-DirectoryContents([string]$Source, [string]$Destination) {
+  New-Item -ItemType Directory -Force $Destination | Out-Null
+  Get-ChildItem -Force $Destination | Remove-Item -Recurse -Force
+  Copy-Item -Path (Join-Path $Source "*") -Destination $Destination -Recurse -Force
+}
+
+function Stage-WindowsBundle {
+  if (Test-Path $BundleRoot) {
+    Remove-Item -Recurse -Force $BundleRoot
+  }
+  New-Item -ItemType Directory -Force $RuntimeRoot | Out-Null
+
+  if (-not (Test-Path -LiteralPath $RustAcmeshExecutable -PathType Leaf)) {
+    throw "Bundled rust-acmesh.exe is missing: $RustAcmeshExecutable"
+  }
+
+  Copy-Item (Join-Path $GoRepository "build\go-reauth-proxy-windows-amd64.exe") (Join-Path $BundleRoot "fn-knock-gateway.exe")
+  Copy-Item (Join-Path $Root "apps\server-admin-rs\target\$Target\release\fn-knock-service.exe") (Join-Path $BundleRoot "fn-knock-service.exe")
+  Copy-Item $RustAcmeshExecutable (Join-Path $BundleRoot "rust-acmesh.exe")
+
+  Copy-DirectoryContents (Join-Path $Root "apps\server-admin-view\dist") (Join-Path $RuntimeRoot "ui\www")
+  Copy-DirectoryContents (Join-Path $Root "apps\server-auth-view\dist") (Join-Path $RuntimeRoot "server-auth-view\dist")
+
+  $identity = @{
+    version = $Version
+    commit = $Commit
+    gateway_commit = $GoCommit
+    control_api_version = $ControlApiVersion
+    target = "windows-x86_64"
+    files = @(
+      "fn-knock.exe",
+      "fn-knock-service.exe",
+      "fn-knock-gateway.exe",
+      "rust-acmesh.exe",
+      "ui/www",
+      "server-auth-view/dist"
+    )
+  } | ConvertTo-Json -Depth 10
+  [System.IO.File]::WriteAllText(
+    (Join-Path $RuntimeRoot "bundle.json"),
+    "$identity`n",
+    [System.Text.UTF8Encoding]::new($false)
+  )
+}
+
+function Resolve-MakeNsis {
+  if ($env:FN_KNOCK_MAKENSIS) {
+    $candidate = $env:FN_KNOCK_MAKENSIS
+    if (Test-Path -LiteralPath $candidate -PathType Leaf) {
+      return (Resolve-Path -LiteralPath $candidate).Path
+    }
+    throw "FN_KNOCK_MAKENSIS does not point to makensis.exe: $candidate"
+  }
+  $command = Get-Command makensis.exe -ErrorAction SilentlyContinue
+  if ($command) {
+    return $command.Source
+  }
+  foreach ($candidate in @(
+    (Join-Path ${env:ProgramFiles(x86)} "NSIS\makensis.exe"),
+    (Join-Path $env:ProgramFiles "NSIS\makensis.exe")
+  )) {
+    if ($candidate -and (Test-Path -LiteralPath $candidate -PathType Leaf)) {
+      return (Resolve-Path -LiteralPath $candidate).Path
+    }
+  }
+  throw "NSIS 3 is required. Install NSIS or set FN_KNOCK_MAKENSIS to makensis.exe."
+}
+
+function New-NativeNsisInstaller {
+  $makeNsis = Resolve-MakeNsis
+  $releaseRoot = Join-Path $DesktopNative "target\$Target\release"
+  $installerRoot = Join-Path $releaseRoot "installer"
+  New-Item -ItemType Directory -Force $installerRoot | Out-Null
+  $setupPath = Join-Path $installerRoot "Knock 敲门_${Version}_x64-setup.exe"
+  Remove-Item -LiteralPath $setupPath -Force -ErrorAction SilentlyContinue
+  $parts = @($Version.Split('.'))
+  if ($parts.Count -gt 4 -or @($parts | Where-Object { $_ -notmatch '^\d+$' }).Count -gt 0) {
+    throw "Version cannot be represented as a Windows file version: $Version"
+  }
+  while ($parts.Count -lt 4) { $parts += "0" }
+  $numericVersion = $parts -join "."
+  $script = Join-Path $DesktopNative "installer\installer.nsi"
+  $desktopExe = Join-Path $releaseRoot "fn-knock.exe"
+  $icon = Join-Path $DesktopNative "assets\icon.ico"
+  $nsisOutput = @(& $makeNsis "/INPUTCHARSET" "UTF8" "/DVERSION=$Version" "/DNUMERIC_VERSION=$numericVersion" "/DOUTPUT_FILE=$setupPath" "/DDESKTOP_EXE=$desktopExe" "/DBUNDLE_ROOT=$BundleRoot" "/DRUNTIME_ROOT=$RuntimeRoot" "/DICON_FILE=$icon" $script 2>&1)
+  $nsisOutput | ForEach-Object { Write-Host $_ }
+  Assert-LastExitCode "native NSIS bundle"
+  if (-not (Test-Path -LiteralPath $setupPath -PathType Leaf)) {
+    throw "NSIS did not produce the expected setup: $setupPath"
+  }
+  return (Resolve-Path -LiteralPath $setupPath).Path
+}
+
+function Publish-UnsignedInstaller([string]$SetupPath) {
+  if (-not $OutputDirectory) {
+    $script:OutputDirectory = Join-Path $Root "dist\windows"
+  } elseif (-not [System.IO.Path]::IsPathRooted($OutputDirectory)) {
+    $script:OutputDirectory = Join-Path $Root $OutputDirectory
+  }
+  New-Item -ItemType Directory -Force $OutputDirectory | Out-Null
+  $artifactPath = Join-Path $OutputDirectory "fn-knock-$Version-windows-x86_64-unsigned-setup.exe"
+  Copy-Item -LiteralPath $SetupPath -Destination $artifactPath -Force
+  return (Resolve-Path -LiteralPath $artifactPath).Path
+}
+
+Sync-Versions
+
+if ($Mode -eq "Build" -and $RequireCleanTree) {
+  Assert-CleanReleaseTrees "after version synchronization; commit synchronized version metadata before release"
+}
+
+if ($Mode -eq "Prepare") {
+  Invoke-FrontendBuilds
+  Invoke-GoChecksAndBuild
+  Invoke-RustChecksAndBuild
+  Stage-WindowsBundle
+  Write-Host "Prepared $BundleRoot"
+  exit 0
+}
+
+if ($Mode -eq "Test") {
+  npm run check-types --workspace server-admin-view
+  Assert-LastExitCode "server-admin-view type check"
+  npm run check-types --workspace server-auth-view
+  Assert-LastExitCode "server-auth-view type check"
+  npm run check-types --workspace fn-knock-desktop
+  Assert-LastExitCode "fn-knock-desktop type check"
+  Invoke-GoChecksAndBuild
+  Invoke-RustChecksAndBuild
+  exit 0
+}
+
+if (-not $IsWindows -or $env:PROCESSOR_ARCHITECTURE -notmatch "AMD64") {
+  throw "Release packaging must run on a native Windows x86_64 runner"
+}
+
+Invoke-FrontendBuilds
+Invoke-GoChecksAndBuild
+Invoke-RustChecksAndBuild
+Stage-WindowsBundle
+
+if (-not $SkipDesktopBundle) {
+  cargo build --locked --release --manifest-path (Join-Path $DesktopNative "Cargo.toml") --target $Target
+  Assert-LastExitCode "native Win32 controller release build"
+
+  if ($BundleInstaller) {
+    $setup = New-NativeNsisInstaller
+    $publishedSetup = Publish-UnsignedInstaller $setup
+    Write-Host "Unsigned NSIS installer: $publishedSetup"
+  }
+}
+
+if ($BundleInstaller) {
+  Write-Host "The local installer is unsigned and intended for development/testing only."
+} else {
+  Write-Host "Windows binaries and runtime are ready for Authenticode signing."
+  Write-Host "After signing all three EXEs, run the native NSIS packaging step to create the installer."
+}

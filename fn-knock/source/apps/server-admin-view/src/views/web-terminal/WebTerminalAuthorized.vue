@@ -1,1 +1,14 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBXZWJUZXJtaW5hbERpYWxvZ3MgZnJvbSAiLi9XZWJUZXJtaW5hbERpYWxvZ3MudnVlIjsKaW1wb3J0IFdlYlRlcm1pbmFsV29ya3NwYWNlIGZyb20gIi4vV2ViVGVybWluYWxXb3Jrc3BhY2UudnVlIjsKaW1wb3J0IHsgdXNlV2ViVGVybWluYWxQYWdlIH0gZnJvbSAiLi91c2VXZWJUZXJtaW5hbFBhZ2UiOwoKY29uc3QgY29udHJvbGxlciA9IHVzZVdlYlRlcm1pbmFsUGFnZSgpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJmbGV4IGgtZnVsbCBtaW4tdy0wIGZsZXgtY29sIGdhcC0zIHNtOmdhcC00Ij4KICAgIDxXZWJUZXJtaW5hbFdvcmtzcGFjZSA6Y29udHJvbGxlcj0iY29udHJvbGxlciIgLz4KICAgIDxXZWJUZXJtaW5hbERpYWxvZ3MgOmNvbnRyb2xsZXI9ImNvbnRyb2xsZXIiIC8+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import WebTerminalDialogs from "./WebTerminalDialogs.vue";
+import WebTerminalWorkspace from "./WebTerminalWorkspace.vue";
+import { useWebTerminalPage } from "./useWebTerminalPage";
+
+const controller = useWebTerminalPage();
+</script>
+
+<template>
+  <div class="flex h-full min-w-0 flex-col gap-3 sm:gap-4">
+    <WebTerminalWorkspace :controller="controller" />
+    <WebTerminalDialogs :controller="controller" />
+  </div>
+</template>

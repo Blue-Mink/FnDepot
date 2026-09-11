@@ -1,1 +1,52 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBzdHJpbmdfYXJyYXkodmFsdWU6IE9wdGlvbjwmVmFsdWU+KSAtPiBWZWM8VmFsdWU+IHsKICAgIHZhbHVlCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAubWFwKHxpdGVtc3wgewogICAgICAgICAgICBpdGVtcwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLmZpbHRlcl9tYXAoVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgICAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgICAgICAgICAgLm1hcCh8dmFsdWV8IFZhbHVlOjpTdHJpbmcodmFsdWUudG9fc3RyaW5nKCkpKQogICAgICAgICAgICAgICAgLmNvbGxlY3QoKQogICAgICAgIH0pCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKfQoKcHViKHN1cGVyKSB1c2UgY3JhdGU6OnByb3h5X3V0aWxzOjp7CiAgICBpc19hbnlfc3ViZG9tYWluX3JvdXRpbmdfbW9kZSwgaXNfcmV2ZXJzZV9wcm94eV9zdWJkb21haW5fbW9kZSwKfTsKCnB1YihzdXBlcikgZm4gY29uZmlnX2FycmF5X2xlbihjb25maWc6ICZWYWx1ZSwga2V5OiAmc3RyKSAtPiB1c2l6ZSB7CiAgICBjb25maWcKICAgICAgICAuZ2V0KGtleSkKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5tYXAoVmVjOjpsZW4pCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKfQoKcHViKHN1cGVyKSBmbiBwcm94eV9wcm90b2NvbF9mb3JjZV9wYXlsb2FkKHZhbHVlOiAmVmFsdWUsIGZhbGxiYWNrOiBib29sKSAtPiBWYWx1ZSB7CiAgICBsZXQgZm9yY2UgPSB2YWx1ZQogICAgICAgIC5wb2ludGVyKCIvZGF0YS9wcm94eV9wcm90b2NvbF9mb3JjZSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgIC5vcl9lbHNlKHx8IHZhbHVlLmdldCgicHJveHlfcHJvdG9jb2xfZm9yY2UiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkpCiAgICAgICAgLnVud3JhcF9vcihmYWxsYmFjayk7CiAgICBqc29uISh7ICJwcm94eV9wcm90b2NvbF9mb3JjZSI6IGZvcmNlIH0pCn0KCnB1YihzdXBlcikgZm4gZ29fcmVzcG9uc2VfbWVzc2FnZSh2YWx1ZTogJlZhbHVlLCBmYWxsYmFjazogJnN0cikgLT4gU3RyaW5nIHsKICAgIGNyYXRlOjpnb19iYWNrZW5kOjpyZXNwb25zZV9tZXNzYWdlKHZhbHVlLCBmYWxsYmFjaykKfQoKcHViKHN1cGVyKSB1c2UgY3JhdGU6OnJ1bnRpbWVfcHJvZmlsZTo6aG9zdF9ydW50aW1lX2F2YWlsYWJsZTsKCnB1YihzdXBlcikgZm4gZW5zdXJlX2dvX3N1Y2Nlc3ModmFsdWU6IFZhbHVlKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgY3JhdGU6OmdvX2JhY2tlbmQ6OmVuc3VyZV9yZXNwb25zZV9zdWNjZXNzKCZ2YWx1ZSwgR09fQkFDS0VORF9VTlNVQ0NFU1NGVUxfUkVTUE9OU0UpCiAgICAgICAgLm1hcF9lcnIoYW55aG93OjpFcnJvcjo6bXNnKQp9CgpwdWIoc3VwZXIpIHVzZSBjcmF0ZTo6cnVudGltZV9wcm9maWxlOjpob3N0X2ZpcmV3YWxsX2F2YWlsYWJsZTsKCnB1YihzdXBlcikgdXNlIGNyYXRlOjpydW50aW1lX3Byb2ZpbGU6OmRlcGxveW1lbnRfdGFyZ2V0Owo=
+use super::*;
+
+pub(super) fn string_array(value: Option<&Value>) -> Vec<Value> {
+    value
+        .and_then(Value::as_array)
+        .map(|items| {
+            items
+                .iter()
+                .filter_map(Value::as_str)
+                .map(str::trim)
+                .filter(|value| !value.is_empty())
+                .map(|value| Value::String(value.to_string()))
+                .collect()
+        })
+        .unwrap_or_default()
+}
+
+pub(super) use crate::proxy_utils::{
+    is_any_subdomain_routing_mode, is_reverse_proxy_subdomain_mode,
+};
+
+pub(super) fn config_array_len(config: &Value, key: &str) -> usize {
+    config
+        .get(key)
+        .and_then(Value::as_array)
+        .map(Vec::len)
+        .unwrap_or_default()
+}
+
+pub(super) fn proxy_protocol_force_payload(value: &Value, fallback: bool) -> Value {
+    let force = value
+        .pointer("/data/proxy_protocol_force")
+        .and_then(Value::as_bool)
+        .or_else(|| value.get("proxy_protocol_force").and_then(Value::as_bool))
+        .unwrap_or(fallback);
+    json!({ "proxy_protocol_force": force })
+}
+
+pub(super) fn go_response_message(value: &Value, fallback: &str) -> String {
+    crate::go_backend::response_message(value, fallback)
+}
+
+pub(super) use crate::runtime_profile::host_runtime_available;
+
+pub(super) fn ensure_go_success(value: Value) -> anyhow::Result<()> {
+    crate::go_backend::ensure_response_success(&value, GO_BACKEND_UNSUCCESSFUL_RESPONSE)
+        .map_err(anyhow::Error::msg)
+}
+
+pub(super) use crate::runtime_profile::host_firewall_available;
+
+pub(super) use crate::runtime_profile::deployment_target;

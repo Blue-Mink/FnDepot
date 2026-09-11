@@ -1,1 +1,337 @@
-dXNlIHNlcmRlOjpTZXJpYWxpemU7CnVzZSBzdGQ6OmNvbGxlY3Rpb25zOjpIYXNoTWFwOwp1c2UgdXRvaXBhOjpUb1NjaGVtYTsKCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IERkbnNQdWJsaWNDaGVja1NvdXJjZXNEYXRhIHsKICAgIGlwdjQ6IFZlYzxTdHJpbmc+LAogICAgaXB2NjogVmVjPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IERkbnNTZXR0aW5nc0RhdGEgewogICAgdXBkYXRlX2ludGVydmFsX21pbnV0ZXM6IGk2NCwKICAgIHB1YmxpY19jaGVja19zb3VyY2VzOiBEZG5zUHVibGljQ2hlY2tTb3VyY2VzRGF0YSwKICAgIGRlZmF1bHRfcHVibGljX2NoZWNrX3NvdXJjZXM6IERkbnNQdWJsaWNDaGVja1NvdXJjZXNEYXRhLAogICAgaHR0cF90cmFuc3BvcnQ6IFN0cmluZywKICAgIHB1YmxpY19kbnNfcHJvdmlkZXI6IFN0cmluZywKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGRuc1NldHRpbmdzVXBkYXRlRGF0YSB7CiAgICB1cGRhdGVfaW50ZXJ2YWxfbWludXRlczogT3B0aW9uPGk2ND4sCiAgICBwdWJsaWNfY2hlY2tfc291cmNlczogT3B0aW9uPERkbnNQdWJsaWNDaGVja1NvdXJjZXNEYXRhPiwKICAgIGh0dHBfdHJhbnNwb3J0OiBPcHRpb248U3RyaW5nPiwKICAgIHB1YmxpY19kbnNfcHJvdmlkZXI6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGRuc1RvZ2dsZUJvZHlEYXRhIHsKICAgIGVuYWJsZWQ6IGJvb2wsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IERkbnNQdWJsaWNDaGVja1Rlc3RCb2R5RGF0YSB7CiAgICBwdWJsaWNfY2hlY2tfc291cmNlczogRGRuc1B1YmxpY0NoZWNrU291cmNlc0RhdGEsCiAgICBodHRwX3RyYW5zcG9ydDogT3B0aW9uPFN0cmluZz4sCiAgICBwdWJsaWNfZG5zX3Byb3ZpZGVyOiBPcHRpb248U3RyaW5nPiwKICAgIG5ldHdvcmtfaW50ZXJmYWNlOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGRuc1B1YmxpY0NoZWNrVGVzdFJlc3VsdERhdGEgewogICAgZmFtaWx5OiBTdHJpbmcsCiAgICB1cmw6IFN0cmluZywKICAgIHN1Y2Nlc3M6IGJvb2wsCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgc3RhdHVzOiBPcHRpb248dTE2PiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBpcDogT3B0aW9uPFN0cmluZz4sCiAgICByZXNwb25zZV9wcmV2aWV3OiBPcHRpb248U3RyaW5nPiwKICAgIGVycm9yOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IERkbnNQdWJsaWNDaGVja1Rlc3RSZXN1bHRzRGF0YSB7CiAgICByZXN1bHRzOiBWZWM8RGRuc1B1YmxpY0NoZWNrVGVzdFJlc3VsdERhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZG5zUHJvdmlkZXJEb21haW5UYXJnZXRzRGF0YSB7CiAgICBtb2RlOiBTdHJpbmcsCiAgICByb290X2ZpZWxkOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGRuc1Byb3ZpZGVyQ2FwYWJpbGl0aWVzRGF0YSB7CiAgICBhZGRyZXNzX21vZGU6IE9wdGlvbjxTdHJpbmc+LAogICAgaXBfc291cmNlczogT3B0aW9uPFZlYzxTdHJpbmc+PiwKICAgIGRvbWFpbl90YXJnZXRzOiBPcHRpb248RGRuc1Byb3ZpZGVyRG9tYWluVGFyZ2V0c0RhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGRuc1Byb3ZpZGVyRmllbGRPcHRpb25EYXRhIHsKICAgIGxhYmVsOiBTdHJpbmcsCiAgICB2YWx1ZTogU3RyaW5nLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGRuc1Byb3ZpZGVyRmllbGREYXRhIHsKICAgIGtleTogU3RyaW5nLAogICAgbGFiZWw6IFN0cmluZywKICAgICNbc2VyZGUocmVuYW1lID0gInR5cGUiKV0KICAgIGZpZWxkX3R5cGU6IFN0cmluZywKICAgIHBsYWNlaG9sZGVyOiBPcHRpb248U3RyaW5nPiwKICAgIHJlcXVpcmVkOiBPcHRpb248Ym9vbD4sCiAgICBvcHRpb25zOiBPcHRpb248VmVjPERkbnNQcm92aWRlckZpZWxkT3B0aW9uRGF0YT4+LAogICAgZGVzY3JpcHRpb246IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGRuc1Byb3ZpZGVyRGF0YSB7CiAgICBuYW1lOiBTdHJpbmcsCiAgICBsYWJlbDogU3RyaW5nLAogICAgZmllbGRzOiBWZWM8RGRuc1Byb3ZpZGVyRmllbGREYXRhPiwKICAgIGNhcGFiaWxpdGllczogT3B0aW9uPERkbnNQcm92aWRlckNhcGFiaWxpdGllc0RhdGE+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZG5zTmV0d29ya0ludGVyZmFjZUFkZHJlc3NEYXRhIHsKICAgIGZhbWlseTogU3RyaW5nLAogICAgYWRkcmVzczogU3RyaW5nLAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIGNpZHI6IE9wdGlvbjxTdHJpbmc+LAogICAgcHJlZml4X2xlbmd0aDogT3B0aW9uPHU4PiwKICAgIGludGVybmFsOiBib29sLAogICAgc291cmNlOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICB0ZW1wb3Jhcnk6IE9wdGlvbjxib29sPiwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBkZXByZWNhdGVkOiBPcHRpb248Ym9vbD4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgdGVudGF0aXZlOiBPcHRpb248Ym9vbD4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgZGFkX2ZhaWxlZDogT3B0aW9uPGJvb2w+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZG5zTmV0d29ya0ludGVyZmFjZURhdGEgewogICAgbmFtZTogU3RyaW5nLAogICAgbGFiZWw6IFN0cmluZywKICAgIHN1bW1hcnk6IFN0cmluZywKICAgIGhhc19pcHY0OiBib29sLAogICAgaGFzX2lwdjY6IGJvb2wsCiAgICBhZGRyZXNzZXM6IFZlYzxEZG5zTmV0d29ya0ludGVyZmFjZUFkZHJlc3NEYXRhPiwKICAgIHNlbGVjdGFibGVfYWRkcmVzc2VzOiBWZWM8RGRuc05ldHdvcmtJbnRlcmZhY2VBZGRyZXNzRGF0YT4sCiAgICBwcml2YXRlX2FkZHJlc3NlczogVmVjPERkbnNOZXR3b3JrSW50ZXJmYWNlQWRkcmVzc0RhdGE+LAogICAgc291cmNlOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGRuc0ludGVyZmFjZVNlbGVjdG9yRGF0YSB7CiAgICB2ZXJzaW9uOiB1OCwKICAgIG1vZGU6IFN0cmluZywKICAgIHByZWZlcnJlZF9hZGRyZXNzOiBPcHRpb248U3RyaW5nPiwKICAgIGluY2x1ZGVfY2lkcnM6IE9wdGlvbjxWZWM8U3RyaW5nPj4sCiAgICBleGNsdWRlX2NpZHJzOiBPcHRpb248VmVjPFN0cmluZz4+LAogICAgaXB2Nl9pbnRlcmZhY2VfaWQ6IE9wdGlvbjxTdHJpbmc+LAogICAgYWxsb3dfdGVtcG9yYXJ5OiBib29sLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZG5zSW50ZXJmYWNlU2VsZWN0b3JQcmV2aWV3Qm9keURhdGEgewogICAgbmV0d29ya19pbnRlcmZhY2U6IFN0cmluZywKICAgIGZhbWlseTogU3RyaW5nLAogICAgc2VsZWN0b3I6IERkbnNJbnRlcmZhY2VTZWxlY3RvckRhdGEsCiAgICBjdXJyZW50X2FkZHJlc3M6IE9wdGlvbjxTdHJpbmc+LAogICAgYWxsb3dfcHJpdmF0ZV9hZGRyZXNzZXM6IE9wdGlvbjxib29sPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IERkbnNSZWplY3RlZEFkZHJlc3NEYXRhIHsKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBhZGRyZXNzOiBPcHRpb248U3RyaW5nPiwKICAgIHJlYXNvbnM6IFZlYzxTdHJpbmc+LAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZG5zSW50ZXJmYWNlU2VsZWN0b3JQcmV2aWV3RGF0YSB7CiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgc2VsZWN0ZWRfYWRkcmVzczogT3B0aW9uPFN0cmluZz4sCiAgICBtYXRjaGVkX2FkZHJlc3NlczogVmVjPERkbnNOZXR3b3JrSW50ZXJmYWNlQWRkcmVzc0RhdGE+LAogICAgcmVqZWN0ZWRfYWRkcmVzc2VzOiBWZWM8RGRuc1JlamVjdGVkQWRkcmVzc0RhdGE+LAogICAgcmVhc29uOiBTdHJpbmcsCiAgICB3YXJuaW5nczogVmVjPFN0cmluZz4sCiAgICBzZWxlY3RvcjogRGRuc0ludGVyZmFjZVNlbGVjdG9yRGF0YSwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IERkbnNQcm92aWRlckJvZHlEYXRhIHsKICAgIHByb3ZpZGVyOiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZG5zQ29uZmlnRGF0YShwdWIoc3VwZXIpIEhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+KTsKCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZG5zQ29uZmlnQm9keURhdGEgewogICAgY29uZmlnOiBIYXNoTWFwPFN0cmluZywgU3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihzdXBlcikgc3RydWN0IERkbnNUYXJnZXRCb2R5RGF0YSB7CiAgICBuYW1lOiBPcHRpb248U3RyaW5nPiwKICAgIHByb3ZpZGVyOiBTdHJpbmcsCiAgICBlbmFibGVkOiBPcHRpb248Ym9vbD4sCiAgICBjb25maWc6IE9wdGlvbjxIYXNoTWFwPFN0cmluZywgU3RyaW5nPj4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZG5zVGFyZ2V0RW5hYmxlZEJvZHlEYXRhIHsKICAgIGVuYWJsZWQ6IGJvb2wsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZG5zTGFzdElwRGF0YSB7CiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgaXB2NDogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgaXB2NjogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgdXBkYXRlZF9hdDogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZG5zTGFzdENoZWNrRGF0YSB7CiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgY2hlY2tlZF9hdDogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgb3V0Y29tZTogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgbWVzc2FnZTogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAiY2FtZWxDYXNlIildCnB1YihzdXBlcikgc3RydWN0IERkbnNUYXJnZXRTdW1tYXJ5RGF0YSB7CiAgICBpZDogU3RyaW5nLAogICAgbmFtZTogU3RyaW5nLAogICAgaXNfcHJpbWFyeTogYm9vbCwKICAgIGVuYWJsZWQ6IGJvb2wsCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgcHJvdmlkZXI6IE9wdGlvbjxTdHJpbmc+LAogICAgdXBkYXRlX3Njb3BlOiBTdHJpbmcsCiAgICBwcm92aWRlcl9sYWJlbDogU3RyaW5nLAogICAgZG9tYWluX3N1bW1hcnk6IFN0cmluZywKICAgIGNyZWF0ZWRfYXQ6IFN0cmluZywKICAgIHVwZGF0ZWRfYXQ6IFN0cmluZywKICAgIHNvcnRfb3JkZXI6IGk2NCwKICAgICNbc2VyZGUocmVuYW1lID0gImxhc3RJUCIpXQogICAgbGFzdF9pcDogRGRuc0xhc3RJcERhdGEsCiAgICBzZWxlY3Rpb25fYW5jaG9yOiBEZG5zTGFzdElwRGF0YSwKICAgIGxhc3RfY2hlY2s6IERkbnNMYXN0Q2hlY2tEYXRhLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gImNhbWVsQ2FzZSIpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZG5zVGFyZ2V0RGV0YWlsRGF0YSB7CiAgICBpZDogU3RyaW5nLAogICAgbmFtZTogU3RyaW5nLAogICAgaXNfcHJpbWFyeTogYm9vbCwKICAgIGVuYWJsZWQ6IGJvb2wsCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgcHJvdmlkZXI6IE9wdGlvbjxTdHJpbmc+LAogICAgdXBkYXRlX3Njb3BlOiBTdHJpbmcsCiAgICBwcm92aWRlcl9sYWJlbDogU3RyaW5nLAogICAgZG9tYWluX3N1bW1hcnk6IFN0cmluZywKICAgIGNyZWF0ZWRfYXQ6IFN0cmluZywKICAgIHVwZGF0ZWRfYXQ6IFN0cmluZywKICAgIHNvcnRfb3JkZXI6IGk2NCwKICAgICNbc2VyZGUocmVuYW1lID0gImxhc3RJUCIpXQogICAgbGFzdF9pcDogRGRuc0xhc3RJcERhdGEsCiAgICBzZWxlY3Rpb25fYW5jaG9yOiBEZG5zTGFzdElwRGF0YSwKICAgIGxhc3RfY2hlY2s6IERkbnNMYXN0Q2hlY2tEYXRhLAogICAgcmF3X25hbWU6IE9wdGlvbjxTdHJpbmc+LAogICAgY29uZmlnOiBIYXNoTWFwPFN0cmluZywgU3RyaW5nPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGRuc1RhcmdldExpc3REYXRhIHsKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBwcmltYXJ5X3RhcmdldF9pZDogT3B0aW9uPFN0cmluZz4sCiAgICB0b3RhbDogdXNpemUsCiAgICBleHRyYV9jb3VudDogdXNpemUsCiAgICBlbmFibGVkX2V4dHJhX2NvdW50OiB1c2l6ZSwKICAgIGl0ZW1zOiBWZWM8RGRuc1RhcmdldFN1bW1hcnlEYXRhPiwKfQoKI1tkZXJpdmUoU2VyaWFsaXplLCBUb1NjaGVtYSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJjYW1lbENhc2UiKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGRuc1N0YXR1c0RhdGEgewogICAgZW5hYmxlZDogYm9vbCwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBwcm92aWRlcjogT3B0aW9uPFN0cmluZz4sCiAgICB1cGRhdGVfaW50ZXJ2YWxfbWludXRlczogaTY0LAogICAgcHVibGljX2NoZWNrX3NvdXJjZXM6IERkbnNQdWJsaWNDaGVja1NvdXJjZXNEYXRhLAogICAgZGVmYXVsdF9wdWJsaWNfY2hlY2tfc291cmNlczogRGRuc1B1YmxpY0NoZWNrU291cmNlc0RhdGEsCiAgICBodHRwX3RyYW5zcG9ydDogU3RyaW5nLAogICAgcHVibGljX2Ruc19wcm92aWRlcjogU3RyaW5nLAogICAgdXBkYXRlX3Njb3BlOiBTdHJpbmcsCiAgICBpcF9zb3VyY2U6IFN0cmluZywKICAgIG5ldHdvcmtfaW50ZXJmYWNlOiBTdHJpbmcsCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJsYXN0SVAiKV0KICAgIGxhc3RfaXA6IERkbnNMYXN0SXBEYXRhLAogICAgc2VsZWN0aW9uX2FuY2hvcjogRGRuc0xhc3RJcERhdGEsCiAgICBsYXN0X2NoZWNrOiBEZG5zTGFzdENoZWNrRGF0YSwKICAgICNbc2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSldCiAgICBwcmltYXJ5X3RhcmdldF9pZDogT3B0aW9uPFN0cmluZz4sCiAgICBleHRyYV90YXJnZXRfY291bnQ6IHVzaXplLAogICAgZW5hYmxlZF9leHRyYV90YXJnZXRfY291bnQ6IHVzaXplLAogICAgdGFyZ2V0czogVmVjPERkbnNUYXJnZXRTdW1tYXJ5RGF0YT4sCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZG5zTG9nRW50cnlEYXRhIHsKICAgIHRpbWU6IFN0cmluZywKICAgIGxldmVsOiBTdHJpbmcsCiAgICBtZXNzYWdlOiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZG5zVGVzdFJlc3VsdERhdGEgewogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIGlwdjQ6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIGlwdjY6IE9wdGlvbjxTdHJpbmc+LAogICAgc291cmNlOiBTdHJpbmcsCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJzb3VyY2VMYWJlbCIpXQogICAgc291cmNlX2xhYmVsOiBTdHJpbmcsCn0KCiNbZGVyaXZlKFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIoc3VwZXIpIHN0cnVjdCBEZG5zVGVzdFJlc3BvbnNlRGF0YSB7CiAgICBzdWNjZXNzOiBib29sLAogICAgbWVzc2FnZTogU3RyaW5nLAogICAgZGF0YTogRGRuc1Rlc3RSZXN1bHREYXRhLAp9CgojW2Rlcml2ZShTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGRuc1BvbGxEYXRhIHsKICAgIGN1cnNvcjogaTY0LAogICAgcmVzZXQ6IGJvb2wsCiAgICBsb2dzOiBWZWM8RGRuc0xvZ0VudHJ5RGF0YT4sCiAgICBzdGF0dXM6IERkbnNTdGF0dXNEYXRhLAp9Cg==
+use serde::Serialize;
+use std::collections::HashMap;
+use utoipa::ToSchema;
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsPublicCheckSourcesData {
+    ipv4: Vec<String>,
+    ipv6: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsSettingsData {
+    update_interval_minutes: i64,
+    public_check_sources: DdnsPublicCheckSourcesData,
+    default_public_check_sources: DdnsPublicCheckSourcesData,
+    http_transport: String,
+    public_dns_provider: String,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsSettingsUpdateData {
+    update_interval_minutes: Option<i64>,
+    public_check_sources: Option<DdnsPublicCheckSourcesData>,
+    http_transport: Option<String>,
+    public_dns_provider: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsToggleBodyData {
+    enabled: bool,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsPublicCheckTestBodyData {
+    public_check_sources: DdnsPublicCheckSourcesData,
+    http_transport: Option<String>,
+    public_dns_provider: Option<String>,
+    network_interface: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsPublicCheckTestResultData {
+    family: String,
+    url: String,
+    success: bool,
+    #[schema(required = true)]
+    status: Option<u16>,
+    #[schema(required = true)]
+    ip: Option<String>,
+    response_preview: Option<String>,
+    error: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsPublicCheckTestResultsData {
+    results: Vec<DdnsPublicCheckTestResultData>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsProviderDomainTargetsData {
+    mode: String,
+    root_field: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsProviderCapabilitiesData {
+    address_mode: Option<String>,
+    ip_sources: Option<Vec<String>>,
+    domain_targets: Option<DdnsProviderDomainTargetsData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsProviderFieldOptionData {
+    label: String,
+    value: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsProviderFieldData {
+    key: String,
+    label: String,
+    #[serde(rename = "type")]
+    field_type: String,
+    placeholder: Option<String>,
+    required: Option<bool>,
+    options: Option<Vec<DdnsProviderFieldOptionData>>,
+    description: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsProviderData {
+    name: String,
+    label: String,
+    fields: Vec<DdnsProviderFieldData>,
+    capabilities: Option<DdnsProviderCapabilitiesData>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsNetworkInterfaceAddressData {
+    family: String,
+    address: String,
+    #[schema(required = true)]
+    cidr: Option<String>,
+    prefix_length: Option<u8>,
+    internal: bool,
+    source: Option<String>,
+    #[schema(required = true)]
+    temporary: Option<bool>,
+    #[schema(required = true)]
+    deprecated: Option<bool>,
+    #[schema(required = true)]
+    tentative: Option<bool>,
+    #[schema(required = true)]
+    dad_failed: Option<bool>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsNetworkInterfaceData {
+    name: String,
+    label: String,
+    summary: String,
+    has_ipv4: bool,
+    has_ipv6: bool,
+    addresses: Vec<DdnsNetworkInterfaceAddressData>,
+    selectable_addresses: Vec<DdnsNetworkInterfaceAddressData>,
+    private_addresses: Vec<DdnsNetworkInterfaceAddressData>,
+    source: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsInterfaceSelectorData {
+    version: u8,
+    mode: String,
+    preferred_address: Option<String>,
+    include_cidrs: Option<Vec<String>>,
+    exclude_cidrs: Option<Vec<String>>,
+    ipv6_interface_id: Option<String>,
+    allow_temporary: bool,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsInterfaceSelectorPreviewBodyData {
+    network_interface: String,
+    family: String,
+    selector: DdnsInterfaceSelectorData,
+    current_address: Option<String>,
+    allow_private_addresses: Option<bool>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsRejectedAddressData {
+    #[schema(required = true)]
+    address: Option<String>,
+    reasons: Vec<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsInterfaceSelectorPreviewData {
+    #[schema(required = true)]
+    selected_address: Option<String>,
+    matched_addresses: Vec<DdnsNetworkInterfaceAddressData>,
+    rejected_addresses: Vec<DdnsRejectedAddressData>,
+    reason: String,
+    warnings: Vec<String>,
+    selector: DdnsInterfaceSelectorData,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsProviderBodyData {
+    provider: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsConfigData(pub(super) HashMap<String, String>);
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsConfigBodyData {
+    config: HashMap<String, String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsTargetBodyData {
+    name: Option<String>,
+    provider: String,
+    enabled: Option<bool>,
+    config: Option<HashMap<String, String>>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsTargetEnabledBodyData {
+    enabled: bool,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsLastIpData {
+    #[schema(required = true)]
+    ipv4: Option<String>,
+    #[schema(required = true)]
+    ipv6: Option<String>,
+    #[schema(required = true)]
+    updated_at: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsLastCheckData {
+    #[schema(required = true)]
+    checked_at: Option<String>,
+    #[schema(required = true)]
+    outcome: Option<String>,
+    #[schema(required = true)]
+    message: Option<String>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsTargetSummaryData {
+    id: String,
+    name: String,
+    is_primary: bool,
+    enabled: bool,
+    #[schema(required = true)]
+    provider: Option<String>,
+    update_scope: String,
+    provider_label: String,
+    domain_summary: String,
+    created_at: String,
+    updated_at: String,
+    sort_order: i64,
+    #[serde(rename = "lastIP")]
+    last_ip: DdnsLastIpData,
+    selection_anchor: DdnsLastIpData,
+    last_check: DdnsLastCheckData,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsTargetDetailData {
+    id: String,
+    name: String,
+    is_primary: bool,
+    enabled: bool,
+    #[schema(required = true)]
+    provider: Option<String>,
+    update_scope: String,
+    provider_label: String,
+    domain_summary: String,
+    created_at: String,
+    updated_at: String,
+    sort_order: i64,
+    #[serde(rename = "lastIP")]
+    last_ip: DdnsLastIpData,
+    selection_anchor: DdnsLastIpData,
+    last_check: DdnsLastCheckData,
+    raw_name: Option<String>,
+    config: HashMap<String, String>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsTargetListData {
+    #[schema(required = true)]
+    primary_target_id: Option<String>,
+    total: usize,
+    extra_count: usize,
+    enabled_extra_count: usize,
+    items: Vec<DdnsTargetSummaryData>,
+}
+
+#[derive(Serialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub(super) struct DdnsStatusData {
+    enabled: bool,
+    #[schema(required = true)]
+    provider: Option<String>,
+    update_interval_minutes: i64,
+    public_check_sources: DdnsPublicCheckSourcesData,
+    default_public_check_sources: DdnsPublicCheckSourcesData,
+    http_transport: String,
+    public_dns_provider: String,
+    update_scope: String,
+    ip_source: String,
+    network_interface: String,
+    #[serde(rename = "lastIP")]
+    last_ip: DdnsLastIpData,
+    selection_anchor: DdnsLastIpData,
+    last_check: DdnsLastCheckData,
+    #[schema(required = true)]
+    primary_target_id: Option<String>,
+    extra_target_count: usize,
+    enabled_extra_target_count: usize,
+    targets: Vec<DdnsTargetSummaryData>,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsLogEntryData {
+    time: String,
+    level: String,
+    message: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsTestResultData {
+    #[schema(required = true)]
+    ipv4: Option<String>,
+    #[schema(required = true)]
+    ipv6: Option<String>,
+    source: String,
+    #[serde(rename = "sourceLabel")]
+    source_label: String,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsTestResponseData {
+    success: bool,
+    message: String,
+    data: DdnsTestResultData,
+}
+
+#[derive(Serialize, ToSchema)]
+pub(super) struct DdnsPollData {
+    cursor: i64,
+    reset: bool,
+    logs: Vec<DdnsLogEntryData>,
+    status: DdnsStatusData,
+}

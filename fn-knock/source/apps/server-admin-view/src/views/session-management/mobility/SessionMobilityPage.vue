@@ -1,1 +1,375 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktNiI+CiAgICA8QnJlYWRjcnVtYj4KICAgICAgPEJyZWFkY3J1bWJMaXN0PgogICAgICAgIDxCcmVhZGNydW1iSXRlbT4KICAgICAgICAgIDxCcmVhZGNydW1iTGluayBocmVmPSIjL3Nlc3Npb25zP3RhYj1zZXNzaW9ucyI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLm5hdi5zZXNzaW9ucyIpIH19CiAgICAgICAgICA8L0JyZWFkY3J1bWJMaW5rPgogICAgICAgIDwvQnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgPEJyZWFkY3J1bWJTZXBhcmF0b3IgLz4KICAgICAgICA8QnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgICA8QnJlYWRjcnVtYlBhZ2U+e3sKICAgICAgICAgICAgdCgiYWRtaW4uc2Vzc2lvbnMubW9iaWxpdHlQYWdlLnRpdGxlIikKICAgICAgICAgIH19PC9CcmVhZGNydW1iUGFnZT4KICAgICAgICA8L0JyZWFkY3J1bWJJdGVtPgogICAgICA8L0JyZWFkY3J1bWJMaXN0PgogICAgPC9CcmVhZGNydW1iPgoKICAgIDxDYXJkIGNsYXNzPSJib3JkZXItYm9yZGVyLzUwIGJnLWJhY2tncm91bmQgc2hhZG93LW5vbmUiPgogICAgICA8Q2FyZEhlYWRlciBjbGFzcz0iZ2FwLTAiPgogICAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAgc3BhY2UteS0zIj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBtaW4tdy0wIGZsZXgtMSBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICA8Q2FyZFRpdGxlCiAgICAgICAgICAgICAgICBjbGFzcz0iYnJlYWstd29yZHMgdGV4dC14bCBmb250LXNlbWlib2xkIHRyYWNraW5nLVswLjAyZW1dIHNtOnRleHQtWzEuNjVyZW1dIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLm1vYmlsaXR5UGFnZS50aXRsZSIpIH19CiAgICAgICAgICAgICAgPC9DYXJkVGl0bGU+CiAgICAgICAgICAgICAgPEJhZGdlCiAgICAgICAgICAgICAgICB2LWlmPSJzZXNzaW9uIgogICAgICAgICAgICAgICAgdmFyaWFudD0ic2Vjb25kYXJ5IgogICAgICAgICAgICAgICAgY2xhc3M9InJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLWJvcmRlci80MCBiZy1tdXRlZC8zMCBweC0yLjUgcHktMC41IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzaGFkb3ctbm9uZSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7eyBzZXNzaW9uLm1ldGhvZCB9fQogICAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgICAgICBjbGFzcz0ibXQtMC41IGgtOSB3LTkgc2hyaW5rLTAgcm91bmRlZC1mdWxsIGJvcmRlci1ib3JkZXIvNDAgYmctYmFja2dyb3VuZCB0ZXh0LW11dGVkLWZvcmVncm91bmQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvMzAgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJzb3J0VG9nZ2xlTGFiZWwiCiAgICAgICAgICAgICAgOnRpdGxlPSJzb3J0VG9nZ2xlTGFiZWwiCiAgICAgICAgICAgICAgQGNsaWNrPSJ0b2dnbGVTb3J0T3JkZXIiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8QXJyb3dVcERvd24KICAgICAgICAgICAgICAgIGNsYXNzPSJoLTQgdy00IHRyYW5zaXRpb24tdHJhbnNmb3JtIGR1cmF0aW9uLTIwMCIKICAgICAgICAgICAgICAgIDpjbGFzcz0ic29ydE9yZGVyID09PSAnZGVzYycgPyAncm90YXRlLTE4MCcgOiAnJyIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJzci1vbmx5Ij57eyBzb3J0VG9nZ2xlTGFiZWwgfX08L3NwYW4+CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPENhcmREZXNjcmlwdGlvbgogICAgICAgICAgICBjbGFzcz0ibWF4LXctMnhsIGJyZWFrLWFsbCB0ZXh0LXNtIGxlYWRpbmctNyB0ZXh0LW11dGVkLWZvcmVncm91bmQvOTAiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IGhlYWRlckRlc2NyaXB0aW9uIH19CiAgICAgICAgICA8L0NhcmREZXNjcmlwdGlvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9DYXJkSGVhZGVyPgoKICAgICAgPENhcmRDb250ZW50IGNsYXNzPSJzcGFjZS15LTcgcHQtMCBweC01Ij4KICAgICAgICA8ZGl2CiAgICAgICAgICB2LWlmPSJpc0xvYWRpbmciCiAgICAgICAgICBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcHktMTYgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICByb2xlPSJzdGF0dXMiCiAgICAgICAgPgogICAgICAgICAgPHNwYW4KICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1wcmltYXJ5IGJvcmRlci10LXRyYW5zcGFyZW50IgogICAgICAgICAgPjwvc3Bhbj4KICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLm1vYmlsaXR5UGFnZS5sb2FkaW5nIikgfX0KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdgogICAgICAgICAgdi1lbHNlLWlmPSJsb2FkRXJyb3IiCiAgICAgICAgICBjbGFzcz0icm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWRlc3RydWN0aXZlLzMwIGJnLWRlc3RydWN0aXZlLzUgcHgtNCBweS01IgogICAgICAgICAgcm9sZT0iYWxlcnQiCiAgICAgICAgPgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LWRlc3RydWN0aXZlIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvbnMubW9iaWxpdHlQYWdlLmxvYWRGYWlsZWQiKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJtdC0xIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57eyBsb2FkRXJyb3IgfX08L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPHRlbXBsYXRlIHYtZWxzZS1pZj0ic2Vzc2lvbiI+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzPSJncmlkIGdhcC0zIHNtOmdyaWQtY29scy0yIHhsOmdyaWQtY29scy1bbWlubWF4KDAsMS4yZnIpX3JlcGVhdCgzLG1pbm1heCgwLDFmcikpXSIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWJvcmRlci8zNSBiZy1tdXRlZC9bMC4xNF0gcHgtNSBweS00IHNtOmNvbC1zcGFuLTIgeGw6Y29sLXNwYW4tMSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LVsxMXB4XSBmb250LW1lZGl1bSB1cHBlcmNhc2UgdHJhY2tpbmctWzAuMThlbV0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kLzkwIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLm1vYmlsaXR5UGFnZS5jdXJyZW50U2Vzc2lvbiIpIH19CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMyBicmVhay13b3JkcyB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICA8U2Vzc2lvbkNyZWRlbnRpYWxOYW1lIDpzZXNzaW9uPSJzZXNzaW9uIiAvPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9Im10LTMgYnJlYWstYWxsIGZvbnQtbW9ubyB0ZXh0LXNtIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICB7eyBzZXNzaW9uLmlwIH19CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgY2xhc3M9Im10LTEgYnJlYWstd29yZHMgdGV4dC14cyBsZWFkaW5nLTYgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgIHNlc3Npb24uaXBMb2NhdGlvbiB8fAogICAgICAgICAgICAgICAgICB0KCJhZG1pbi5zZXNzaW9ucy5tb2JpbGl0eVBhZ2Uubm9Mb2NhdGlvbiIpCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICBjbGFzcz0icm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1ib3JkZXIvMzUgYmctbXV0ZWQvWzAuMTRdIHB4LTUgcHktNCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LVsxMXB4XSBmb250LW1lZGl1bSB1cHBlcmNhc2UgdHJhY2tpbmctWzAuMThlbV0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kLzkwIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLm1vYmlsaXR5UGFnZS5yZWNvdmVyeUNvdW50IikgfX0KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJtdC0zIHRleHQteGwgZm9udC1zZW1pYm9sZCB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgbW9iaWxpdHlTdW1tYXJ5Py5kcmlmdENvdW50ID8/IDAgfX0KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBjbGFzcz0ibXQtMSBicmVhay13b3JkcyB0ZXh0LXhzIGxlYWRpbmctNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgZHJpZnRDb3VudERlc2NyaXB0aW9uIH19CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWJvcmRlci8zNSBiZy1tdXRlZC9bMC4xNF0gcHgtNSBweS00IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgY2xhc3M9InRleHQtWzExcHhdIGZvbnQtbWVkaXVtIHVwcGVyY2FzZSB0cmFja2luZy1bMC4xOGVtXSB0ZXh0LW11dGVkLWZvcmVncm91bmQvOTAiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvbnMubW9iaWxpdHlQYWdlLnRpbWVsaW5lU3BhbiIpIH19CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgY2xhc3M9Im10LTMgYnJlYWstd29yZHMgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7eyB0aW1lbGluZVNwYW5MYWJlbCB9fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGNsYXNzPSJtdC0xIGJyZWFrLXdvcmRzIHRleHQteHMgbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7eyB0aW1lbGluZVNwYW5EZXNjcmlwdGlvbiB9fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICBjbGFzcz0icm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1ib3JkZXIvMzUgYmctbXV0ZWQvWzAuMTRdIHB4LTUgcHktNCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LVsxMXB4XSBmb250LW1lZGl1bSB1cHBlcmNhc2UgdHJhY2tpbmctWzAuMThlbV0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kLzkwIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLm1vYmlsaXR5UGFnZS5sYXRlc3RDaGFuZ2UiKSB9fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGNsYXNzPSJtdC0zIGJyZWFrLXdvcmRzIHRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LWZvcmVncm91bmQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPEh1bWFuRnJpZW5kbHlUaW1lCiAgICAgICAgICAgICAgICAgIHYtaWY9Imxhc3RFdmVudFRpbWVWYWx1ZSIKICAgICAgICAgICAgICAgICAgOnZhbHVlPSJsYXN0RXZlbnRUaW1lVmFsdWUiCiAgICAgICAgICAgICAgICAgIDpsb2NhbGU9ImxvY2FsZSIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8dGVtcGxhdGUgdi1lbHNlPnt7IGxhc3RFdmVudFRpbWVMYWJlbCB9fTwvdGVtcGxhdGU+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgY2xhc3M9Im10LTEgYnJlYWstd29yZHMgdGV4dC14cyBsZWFkaW5nLTYgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7IGxhc3RFdmVudFNvdXJjZUxhYmVsIH19CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSJ0aW1lbGluZUVudHJpZXMubGVuZ3RoID4gMCIKICAgICAgICAgICAgY2xhc3M9InJlbGF0aXZlIGJvcmRlci10IGJvcmRlci1ib3JkZXIvMzUgcHQtNiBzbTpwdC04IgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgY2xhc3M9ImFic29sdXRlIGJvdHRvbS00IGxlZnQtNiB0b3AtOCB3LXB4IGJnLWJvcmRlci83MCBzbTpsZWZ0LTggc206dG9wLTEwIgogICAgICAgICAgICAvPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTAiPgogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIHYtZm9yPSJlbnRyeSBpbiB0aW1lbGluZUVudHJpZXMiCiAgICAgICAgICAgICAgICA6a2V5PSJlbnRyeS5pZCIKICAgICAgICAgICAgICAgIGNsYXNzPSJyZWxhdGl2ZSBib3JkZXItYiBib3JkZXItYm9yZGVyLzQwIHB5LTUgcGwtMTEgZmlyc3Q6cHQtMCBsYXN0OmJvcmRlci1iLTAgbGFzdDpwYi0wIHNtOnB5LTYgc206cGwtMTQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICBjbGFzcz0icG9pbnRlci1ldmVudHMtbm9uZSBhYnNvbHV0ZSBsZWZ0LTYgdG9wLTUgLXRyYW5zbGF0ZS14LTEvMiBzbTpsZWZ0LTgiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxMaXZlU3RhdHVzQmFkZ2UKICAgICAgICAgICAgICAgICAgICB2LWlmPSJlbnRyeS5pZCA9PT0gbGF0ZXN0RW50cnlJZCIKICAgICAgICAgICAgICAgICAgICBhY3RpdmUKICAgICAgICAgICAgICAgICAgICA6cHVsc2U9ImZhbHNlIgogICAgICAgICAgICAgICAgICAgIDphY3RpdmUtbGFiZWw9IgogICAgICAgICAgICAgICAgICAgICAgdCgnYWRtaW4uc2Vzc2lvbnMubW9iaWxpdHlQYWdlLmxhdGVzdFN0YXR1cycpCiAgICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJibG9jayIKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgIHYtZWxzZQogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJoLTMgdy0zIHJvdW5kZWQtZnVsbCBib3JkZXItMiBib3JkZXItYmFja2dyb3VuZCBiZy1mb3JlZ3JvdW5kLzkwIgogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTQiPgogICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTIgc206ZmxleC1yb3cgc206aXRlbXMtc3RhcnQgc206anVzdGlmeS1iZXR3ZWVuIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTEiPgogICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgPEJhZGdlCiAgICAgICAgICAgICAgICAgICAgICAgICAgOnZhcmlhbnQ9IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZW50cnkuZXZlbnQua2luZCA9PT0gJ2xvZ2luJwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/ICdzZWNvbmRhcnknCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogJ291dGxpbmUnCiAgICAgICAgICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLWZ1bGwgYm9yZGVyLWJvcmRlci80MCBiZy1iYWNrZ3JvdW5kLzgwIHB4LTIuNSBweS0wLjUgdGV4dC1bMTJweF0gZm9udC1tZWRpdW0gc2hhZG93LW5vbmUiCiAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZW50cnkuZXZlbnQua2luZCA9PT0gImxvZ2luIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/IHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiYWRtaW4uc2Vzc2lvbnMubW9iaWxpdHlQYWdlLmxvZ2luRXN0YWJsaXNoZWQiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5zZXNzaW9ucy5tb2JpbGl0eVBhZ2UuaXBSZWNvdmVyZWQiKQogICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3M9ImJyZWFrLXdvcmRzIHRleHQtc20gZm9udC1tZWRpdW0gbGVhZGluZy02IHRleHQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgICAgICAgICA+e3sgZW50cnkudGl0bGUgfX08L3NwYW4KICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJicmVhay13b3JkcyB0ZXh0LXhzIGxlYWRpbmctNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIHt7IGVudHJ5LnN1YnRpdGxlIH19CiAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC1sZWZ0IHRleHQteHMgbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTpzaHJpbmstMCBzbTpwbC02IHNtOnRleHQtcmlnaHQiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPEh1bWFuRnJpZW5kbHlUaW1lCiAgICAgICAgICAgICAgICAgICAgICAgICAgOnZhbHVlPSJlbnRyeS5ldmVudC5oYXBwZW5lZEF0IgogICAgICAgICAgICAgICAgICAgICAgICAgIDpsb2NhbGU9ImxvY2FsZSIKICAgICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgPGRpdiB2LWlmPSJlbnRyeS5nYXBMYWJlbCIgY2xhc3M9Im10LTEiPgogICAgICAgICAgICAgICAgICAgICAgICB7eyBlbnRyeS5nYXBMYWJlbCB9fQogICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgIHYtaWY9ImVudHJ5LmV2ZW50LmtpbmQgPT09ICdsb2dpbiciCiAgICAgICAgICAgICAgICAgICAgY2xhc3M9Im10LTEgZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC14LTIgZ2FwLXktMSB0ZXh0LXNtIHRleHQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJicmVhay1hbGwgZm9udC1tb25vIj57ewogICAgICAgICAgICAgICAgICAgICAgZW50cnkuZXZlbnQudG9JcAogICAgICAgICAgICAgICAgICAgIH19PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQvNzAiPsK3PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJicmVhay13b3JkcyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt7CiAgICAgICAgICAgICAgICAgICAgICBlbnRyeS5ldmVudC50b0lwTG9jYXRpb24gfHwKICAgICAgICAgICAgICAgICAgICAgIHQoImFkbWluLnNlc3Npb25zLm1vYmlsaXR5UGFnZS5ub0xvY2F0aW9uIikKICAgICAgICAgICAgICAgICAgICB9fTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgdi1lbHNlCiAgICAgICAgICAgICAgICAgICAgY2xhc3M9Im10LTEgZ3JpZCBnYXAtMyB0ZXh0LXNtIHNtOmdyaWQtY29scy1bbWlubWF4KDAsMWZyKV9hdXRvX21pbm1heCgwLDFmcildIHNtOml0ZW1zLWNlbnRlciIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAiPgogICAgICAgICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC1bMTFweF0gdXBwZXJjYXNlIHRyYWNraW5nLVswLjE2ZW1dIHRleHQtbXV0ZWQtZm9yZWdyb3VuZC84NSIKICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvbnMubW9iaWxpdHlQYWdlLmJlZm9yZURyaWZ0IikgfX0KICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMiBicmVhay1hbGwgZm9udC1tb25vIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgICAgIHt7IGVudHJ5LmV2ZW50LmZyb21JcCB9fQogICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzPSJtdC0xIGJyZWFrLXdvcmRzIHRleHQteHMgbGVhZGluZy02IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgICAgICAgICBlbnRyeS5ldmVudC5mcm9tSXBMb2NhdGlvbiB8fAogICAgICAgICAgICAgICAgICAgICAgICAgIHQoImFkbWluLnNlc3Npb25zLm1vYmlsaXR5UGFnZS5ub0xvY2F0aW9uIikKICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXgganVzdGlmeS1jZW50ZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kLzcwIj4KICAgICAgICAgICAgICAgICAgICAgIDxBcnJvd1JpZ2h0IGNsYXNzPSJoLTQgdy00IHJvdGF0ZS05MCBzbTpyb3RhdGUtMCIgLz4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIj4KICAgICAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3M9InRleHQtWzExcHhdIHVwcGVyY2FzZSB0cmFja2luZy1bMC4xNmVtXSB0ZXh0LW11dGVkLWZvcmVncm91bmQvODUiCiAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLm1vYmlsaXR5UGFnZS5hZnRlckRyaWZ0IikgfX0KICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMiBicmVhay1hbGwgZm9udC1tb25vIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgICAgIHt7IGVudHJ5LmV2ZW50LnRvSXAgfX0KICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgICAgICBjbGFzcz0ibXQtMSBicmVhay13b3JkcyB0ZXh0LXhzIGxlYWRpbmctNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgZW50cnkuZXZlbnQudG9JcExvY2F0aW9uIHx8CiAgICAgICAgICAgICAgICAgICAgICAgICAgdCgiYWRtaW4uc2Vzc2lvbnMubW9iaWxpdHlQYWdlLm5vTG9jYXRpb24iKQogICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWVsc2UKICAgICAgICAgICAgY2xhc3M9ImJvcmRlci10IGJvcmRlci1ib3JkZXIvMzUgcHgtNCBweS0xMiB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Vzc2lvbnMubW9iaWxpdHlQYWdlLmVtcHR5IikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICA8L0NhcmQ+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KaW1wb3J0IHsgQXJyb3dSaWdodCwgQXJyb3dVcERvd24gfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgewogIEJyZWFkY3J1bWIsCiAgQnJlYWRjcnVtYkl0ZW0sCiAgQnJlYWRjcnVtYkxpbmssCiAgQnJlYWRjcnVtYkxpc3QsCiAgQnJlYWRjcnVtYlBhZ2UsCiAgQnJlYWRjcnVtYlNlcGFyYXRvciwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnJlYWRjcnVtYiI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgQ2FyZCwKICBDYXJkQ29udGVudCwKICBDYXJkRGVzY3JpcHRpb24sCiAgQ2FyZEhlYWRlciwKICBDYXJkVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgTGl2ZVN0YXR1c0JhZGdlIGZyb20gIkAvY29tcG9uZW50cy9MaXZlU3RhdHVzQmFkZ2UudnVlIjsKaW1wb3J0IEh1bWFuRnJpZW5kbHlUaW1lIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vSHVtYW5GcmllbmRseVRpbWUudnVlIjsKaW1wb3J0IFNlc3Npb25DcmVkZW50aWFsTmFtZSBmcm9tICIuLi9TZXNzaW9uQ3JlZGVudGlhbE5hbWUudnVlIjsKaW1wb3J0IHsgdXNlU2Vzc2lvbk1vYmlsaXR5UGFnZSB9IGZyb20gIi4vdXNlU2Vzc2lvbk1vYmlsaXR5UGFnZSI7Cgpjb25zdCB7CiAgZHJpZnRDb3VudERlc2NyaXB0aW9uLAogIGhlYWRlckRlc2NyaXB0aW9uLAogIGlzTG9hZGluZywKICBsYXN0RXZlbnRTb3VyY2VMYWJlbCwKICBsYXN0RXZlbnRUaW1lTGFiZWwsCiAgbGFzdEV2ZW50VGltZVZhbHVlLAogIGxhdGVzdEVudHJ5SWQsCiAgbG9hZEVycm9yLAogIGxvY2FsZSwKICBtb2JpbGl0eVN1bW1hcnksCiAgc2Vzc2lvbiwKICBzb3J0T3JkZXIsCiAgc29ydFRvZ2dsZUxhYmVsLAogIHQsCiAgdGltZWxpbmVFbnRyaWVzLAogIHRpbWVsaW5lU3BhbkRlc2NyaXB0aW9uLAogIHRpbWVsaW5lU3BhbkxhYmVsLAogIHRvZ2dsZVNvcnRPcmRlciwKfSA9IHVzZVNlc3Npb25Nb2JpbGl0eVBhZ2UoKTsKPC9zY3JpcHQ+Cg==
+<template>
+  <div class="space-y-6">
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/sessions?tab=sessions">
+            {{ t("admin.nav.sessions") }}
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbPage>{{
+            t("admin.sessions.mobilityPage.title")
+          }}</BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+
+    <Card class="border-border/50 bg-background shadow-none">
+      <CardHeader class="gap-0">
+        <div class="min-w-0 space-y-3">
+          <div class="flex items-start justify-between gap-3">
+            <div class="flex min-w-0 flex-1 flex-wrap items-center gap-2">
+              <CardTitle
+                class="break-words text-xl font-semibold tracking-[0.02em] sm:text-[1.65rem]"
+              >
+                {{ t("admin.sessions.mobilityPage.title") }}
+              </CardTitle>
+              <Badge
+                v-if="session"
+                variant="secondary"
+                class="rounded-full border border-border/40 bg-muted/30 px-2.5 py-0.5 text-muted-foreground shadow-none"
+              >
+                {{ session.method }}
+              </Badge>
+            </div>
+
+            <Button
+              variant="outline"
+              size="icon"
+              class="mt-0.5 h-9 w-9 shrink-0 rounded-full border-border/40 bg-background text-muted-foreground transition-colors hover:bg-muted/30 hover:text-foreground"
+              :aria-label="sortToggleLabel"
+              :title="sortToggleLabel"
+              @click="toggleSortOrder"
+            >
+              <ArrowUpDown
+                class="h-4 w-4 transition-transform duration-200"
+                :class="sortOrder === 'desc' ? 'rotate-180' : ''"
+              />
+              <span class="sr-only">{{ sortToggleLabel }}</span>
+            </Button>
+          </div>
+
+          <CardDescription
+            class="max-w-2xl break-all text-sm leading-7 text-muted-foreground/90"
+          >
+            {{ headerDescription }}
+          </CardDescription>
+        </div>
+      </CardHeader>
+
+      <CardContent class="space-y-7 pt-0 px-5">
+        <div
+          v-if="isLoading"
+          class="flex items-center justify-center py-16 text-sm text-muted-foreground"
+          role="status"
+        >
+          <span
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-primary border-t-transparent"
+          ></span>
+          {{ t("admin.sessions.mobilityPage.loading") }}
+        </div>
+
+        <div
+          v-else-if="loadError"
+          class="rounded-xl border border-destructive/30 bg-destructive/5 px-4 py-5"
+          role="alert"
+        >
+          <div class="text-sm font-medium text-destructive">
+            {{ t("admin.sessions.mobilityPage.loadFailed") }}
+          </div>
+          <div class="mt-1 text-sm text-muted-foreground">{{ loadError }}</div>
+        </div>
+
+        <template v-else-if="session">
+          <div
+            class="grid gap-3 sm:grid-cols-2 xl:grid-cols-[minmax(0,1.2fr)_repeat(3,minmax(0,1fr))]"
+          >
+            <div
+              class="rounded-2xl border border-border/35 bg-muted/[0.14] px-5 py-4 sm:col-span-2 xl:col-span-1"
+            >
+              <div
+                class="text-[11px] font-medium uppercase tracking-[0.18em] text-muted-foreground/90"
+              >
+                {{ t("admin.sessions.mobilityPage.currentSession") }}
+              </div>
+              <div class="mt-3 break-words text-sm font-medium text-foreground">
+                <SessionCredentialName :session="session" />
+              </div>
+              <div class="mt-3 break-all font-mono text-sm text-foreground">
+                {{ session.ip }}
+              </div>
+              <div
+                class="mt-1 break-words text-xs leading-6 text-muted-foreground"
+              >
+                {{
+                  session.ipLocation ||
+                  t("admin.sessions.mobilityPage.noLocation")
+                }}
+              </div>
+            </div>
+
+            <div
+              class="rounded-2xl border border-border/35 bg-muted/[0.14] px-5 py-4"
+            >
+              <div
+                class="text-[11px] font-medium uppercase tracking-[0.18em] text-muted-foreground/90"
+              >
+                {{ t("admin.sessions.mobilityPage.recoveryCount") }}
+              </div>
+              <div class="mt-3 text-xl font-semibold text-foreground">
+                {{ mobilitySummary?.driftCount ?? 0 }}
+              </div>
+              <div
+                class="mt-1 break-words text-xs leading-6 text-muted-foreground"
+              >
+                {{ driftCountDescription }}
+              </div>
+            </div>
+
+            <div
+              class="rounded-2xl border border-border/35 bg-muted/[0.14] px-5 py-4"
+            >
+              <div
+                class="text-[11px] font-medium uppercase tracking-[0.18em] text-muted-foreground/90"
+              >
+                {{ t("admin.sessions.mobilityPage.timelineSpan") }}
+              </div>
+              <div
+                class="mt-3 break-words text-sm font-semibold text-foreground"
+              >
+                {{ timelineSpanLabel }}
+              </div>
+              <div
+                class="mt-1 break-words text-xs leading-6 text-muted-foreground"
+              >
+                {{ timelineSpanDescription }}
+              </div>
+            </div>
+
+            <div
+              class="rounded-2xl border border-border/35 bg-muted/[0.14] px-5 py-4"
+            >
+              <div
+                class="text-[11px] font-medium uppercase tracking-[0.18em] text-muted-foreground/90"
+              >
+                {{ t("admin.sessions.mobilityPage.latestChange") }}
+              </div>
+              <div
+                class="mt-3 break-words text-sm font-semibold text-foreground"
+              >
+                <HumanFriendlyTime
+                  v-if="lastEventTimeValue"
+                  :value="lastEventTimeValue"
+                  :locale="locale"
+                />
+                <template v-else>{{ lastEventTimeLabel }}</template>
+              </div>
+              <div
+                class="mt-1 break-words text-xs leading-6 text-muted-foreground"
+              >
+                {{ lastEventSourceLabel }}
+              </div>
+            </div>
+          </div>
+
+          <div
+            v-if="timelineEntries.length > 0"
+            class="relative border-t border-border/35 pt-6 sm:pt-8"
+          >
+            <div
+              class="absolute bottom-4 left-6 top-8 w-px bg-border/70 sm:left-8 sm:top-10"
+            />
+            <div class="space-y-0">
+              <div
+                v-for="entry in timelineEntries"
+                :key="entry.id"
+                class="relative border-b border-border/40 py-5 pl-11 first:pt-0 last:border-b-0 last:pb-0 sm:py-6 sm:pl-14"
+              >
+                <div
+                  class="pointer-events-none absolute left-6 top-5 -translate-x-1/2 sm:left-8"
+                >
+                  <LiveStatusBadge
+                    v-if="entry.id === latestEntryId"
+                    active
+                    :pulse="false"
+                    :active-label="
+                      t('admin.sessions.mobilityPage.latestStatus')
+                    "
+                    size="sm"
+                    class="block"
+                  />
+                  <div
+                    v-else
+                    class="h-3 w-3 rounded-full border-2 border-background bg-foreground/90"
+                  />
+                </div>
+                <div class="space-y-4">
+                  <div
+                    class="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between"
+                  >
+                    <div class="min-w-0 space-y-1">
+                      <div class="flex flex-wrap items-center gap-2">
+                        <Badge
+                          :variant="
+                            entry.event.kind === 'login'
+                              ? 'secondary'
+                              : 'outline'
+                          "
+                          class="rounded-full border-border/40 bg-background/80 px-2.5 py-0.5 text-[12px] font-medium shadow-none"
+                        >
+                          {{
+                            entry.event.kind === "login"
+                              ? t(
+                                  "admin.sessions.mobilityPage.loginEstablished",
+                                )
+                              : t("admin.sessions.mobilityPage.ipRecovered")
+                          }}
+                        </Badge>
+                        <span
+                          class="break-words text-sm font-medium leading-6 text-foreground"
+                          >{{ entry.title }}</span
+                        >
+                      </div>
+                      <div
+                        class="break-words text-xs leading-6 text-muted-foreground"
+                      >
+                        {{ entry.subtitle }}
+                      </div>
+                    </div>
+                    <div
+                      class="text-left text-xs leading-6 text-muted-foreground sm:shrink-0 sm:pl-6 sm:text-right"
+                    >
+                      <div>
+                        <HumanFriendlyTime
+                          :value="entry.event.happenedAt"
+                          :locale="locale"
+                        />
+                      </div>
+                      <div v-if="entry.gapLabel" class="mt-1">
+                        {{ entry.gapLabel }}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    v-if="entry.event.kind === 'login'"
+                    class="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-foreground"
+                  >
+                    <span class="break-all font-mono">{{
+                      entry.event.toIp
+                    }}</span>
+                    <span class="text-muted-foreground/70">·</span>
+                    <span class="break-words text-muted-foreground">{{
+                      entry.event.toIpLocation ||
+                      t("admin.sessions.mobilityPage.noLocation")
+                    }}</span>
+                  </div>
+
+                  <div
+                    v-else
+                    class="mt-1 grid gap-3 text-sm sm:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] sm:items-center"
+                  >
+                    <div class="min-w-0">
+                      <div
+                        class="text-[11px] uppercase tracking-[0.16em] text-muted-foreground/85"
+                      >
+                        {{ t("admin.sessions.mobilityPage.beforeDrift") }}
+                      </div>
+                      <div class="mt-2 break-all font-mono text-foreground">
+                        {{ entry.event.fromIp }}
+                      </div>
+                      <div
+                        class="mt-1 break-words text-xs leading-6 text-muted-foreground"
+                      >
+                        {{
+                          entry.event.fromIpLocation ||
+                          t("admin.sessions.mobilityPage.noLocation")
+                        }}
+                      </div>
+                    </div>
+                    <div class="flex justify-center text-muted-foreground/70">
+                      <ArrowRight class="h-4 w-4 rotate-90 sm:rotate-0" />
+                    </div>
+                    <div class="min-w-0">
+                      <div
+                        class="text-[11px] uppercase tracking-[0.16em] text-muted-foreground/85"
+                      >
+                        {{ t("admin.sessions.mobilityPage.afterDrift") }}
+                      </div>
+                      <div class="mt-2 break-all font-mono text-foreground">
+                        {{ entry.event.toIp }}
+                      </div>
+                      <div
+                        class="mt-1 break-words text-xs leading-6 text-muted-foreground"
+                      >
+                        {{
+                          entry.event.toIpLocation ||
+                          t("admin.sessions.mobilityPage.noLocation")
+                        }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            v-else
+            class="border-t border-border/35 px-4 py-12 text-center text-sm text-muted-foreground"
+          >
+            {{ t("admin.sessions.mobilityPage.empty") }}
+          </div>
+        </template>
+      </CardContent>
+    </Card>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { ArrowRight, ArrowUpDown } from "lucide-vue-next";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import LiveStatusBadge from "@/components/LiveStatusBadge.vue";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import SessionCredentialName from "../SessionCredentialName.vue";
+import { useSessionMobilityPage } from "./useSessionMobilityPage";
+
+const {
+  driftCountDescription,
+  headerDescription,
+  isLoading,
+  lastEventSourceLabel,
+  lastEventTimeLabel,
+  lastEventTimeValue,
+  latestEntryId,
+  loadError,
+  locale,
+  mobilitySummary,
+  session,
+  sortOrder,
+  sortToggleLabel,
+  t,
+  timelineEntries,
+  timelineSpanDescription,
+  timelineSpanLabel,
+  toggleSortOrder,
+} = useSessionMobilityPage();
+</script>

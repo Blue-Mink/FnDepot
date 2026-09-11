@@ -1,1 +1,26 @@
-dXNlIGNyYXRlOjppMThuOjpUcmFuc2xhdG9yOwoKcHViKHN1cGVyKSBmbiBkbnNtYXNxX3RleHQodHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsIGtleTogJnN0cikgLT4gU3RyaW5nIHsKICAgIHRyYW5zbGF0b3IudCgmZm9ybWF0ISgic2VydmVyLmRuc21hc3Eue2tleX0iKSkKfQoKcHViKHN1cGVyKSBmbiBkbnNtYXNxX3RleHRfcGFyYW1zKAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICBrZXk6ICZzdHIsCiAgICBwYXJhbXM6ICZbKCZzdHIsIFN0cmluZyldLAopIC0+IFN0cmluZyB7CiAgICB0cmFuc2xhdG9yLnRfcGFyYW1zKCZmb3JtYXQhKCJzZXJ2ZXIuZG5zbWFzcS57a2V5fSIpLCBwYXJhbXMpCn0KCnB1YihzdXBlcikgZm4gdHVubmVsX21hbmFnZXJfdGV4dCh0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwgbWFuYWdlcjogJnN0ciwga2V5OiAmc3RyKSAtPiBTdHJpbmcgewogICAgdHJhbnNsYXRvci50KCZmb3JtYXQhKCJzZXJ2ZXIudHVubmVsTWFuYWdlcnMue21hbmFnZXJ9LntrZXl9IikpCn0KCnB1YihzdXBlcikgZm4gdHVubmVsX21hbmFnZXJfdGV4dF9wYXJhbXMoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIG1hbmFnZXI6ICZzdHIsCiAgICBrZXk6ICZzdHIsCiAgICBwYXJhbXM6ICZbKCZzdHIsIFN0cmluZyldLAopIC0+IFN0cmluZyB7CiAgICB0cmFuc2xhdG9yLnRfcGFyYW1zKCZmb3JtYXQhKCJzZXJ2ZXIudHVubmVsTWFuYWdlcnMue21hbmFnZXJ9LntrZXl9IiksIHBhcmFtcykKfQo=
+use crate::i18n::Translator;
+
+pub(super) fn dnsmasq_text(translator: &Translator, key: &str) -> String {
+    translator.t(&format!("server.dnsmasq.{key}"))
+}
+
+pub(super) fn dnsmasq_text_params(
+    translator: &Translator,
+    key: &str,
+    params: &[(&str, String)],
+) -> String {
+    translator.t_params(&format!("server.dnsmasq.{key}"), params)
+}
+
+pub(super) fn tunnel_manager_text(translator: &Translator, manager: &str, key: &str) -> String {
+    translator.t(&format!("server.tunnelManagers.{manager}.{key}"))
+}
+
+pub(super) fn tunnel_manager_text_params(
+    translator: &Translator,
+    manager: &str,
+    key: &str,
+    params: &[(&str, String)],
+) -> String {
+    translator.t_params(&format!("server.tunnelManagers.{manager}.{key}"), params)
+}

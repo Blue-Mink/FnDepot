@@ -1,1 +1,76 @@
-W0NtZGxldEJpbmRpbmcoKV0KcGFyYW0oCiAgW3N0cmluZ10kT3V0cHV0UGF0aCA9ICIiCikKCiRFcnJvckFjdGlvblByZWZlcmVuY2UgPSAiU3RvcCIKU2V0LVN0cmljdE1vZGUgLVZlcnNpb24gTGF0ZXN0CgokUm9vdCA9IChSZXNvbHZlLVBhdGggKEpvaW4tUGF0aCAkUFNTY3JpcHRSb290ICIuLiIpKS5QYXRoCiRWZXJzaW9uID0gW3N0cmluZ10oR2V0LUNvbnRlbnQgLVJhdyAoSm9pbi1QYXRoICRSb290ICJ2ZXJzaW9uLmpzb24iKSB8IENvbnZlcnRGcm9tLUpzb24pLnZlcnNpb24KJFRhcmdldCA9ICJ4ODZfNjQtcGMtd2luZG93cy1tc3ZjIgokRGVza3RvcE5hdGl2ZSA9IEpvaW4tUGF0aCAkUm9vdCAiYXBwc1xmbi1rbm9jay1kZXNrdG9wXG5hdGl2ZSIKJEJ1bmRsZVJvb3QgPSBKb2luLVBhdGggJFJvb3QgImFwcHNcZm4ta25vY2stZGVza3RvcFxidW5kbGVcd2luZG93cyIKJFJ1bnRpbWVSb290ID0gSm9pbi1QYXRoICRCdW5kbGVSb290ICJydW50aW1lIgokUmVsZWFzZVJvb3QgPSBKb2luLVBhdGggJERlc2t0b3BOYXRpdmUgInRhcmdldFwkVGFyZ2V0XHJlbGVhc2UiCgpmdW5jdGlvbiBSZXNvbHZlLU1ha2VOc2lzIHsKICBpZiAoJGVudjpGTl9LTk9DS19NQUtFTlNJUykgewogICAgaWYgKFRlc3QtUGF0aCAtTGl0ZXJhbFBhdGggJGVudjpGTl9LTk9DS19NQUtFTlNJUyAtUGF0aFR5cGUgTGVhZikgewogICAgICByZXR1cm4gKFJlc29sdmUtUGF0aCAtTGl0ZXJhbFBhdGggJGVudjpGTl9LTk9DS19NQUtFTlNJUykuUGF0aAogICAgfQogICAgdGhyb3cgIkZOX0tOT0NLX01BS0VOU0lTIGRvZXMgbm90IHBvaW50IHRvIG1ha2Vuc2lzLmV4ZTogJGVudjpGTl9LTk9DS19NQUtFTlNJUyIKICB9CiAgJGNvbW1hbmQgPSBHZXQtQ29tbWFuZCBtYWtlbnNpcy5leGUgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICBpZiAoJGNvbW1hbmQpIHsgcmV0dXJuICRjb21tYW5kLlNvdXJjZSB9CiAgZm9yZWFjaCAoJGNhbmRpZGF0ZSBpbiBAKAogICAgKEpvaW4tUGF0aCAke2VudjpQcm9ncmFtRmlsZXMoeDg2KX0gIk5TSVNcbWFrZW5zaXMuZXhlIiksCiAgICAoSm9pbi1QYXRoICRlbnY6UHJvZ3JhbUZpbGVzICJOU0lTXG1ha2Vuc2lzLmV4ZSIpCiAgKSkgewogICAgaWYgKCRjYW5kaWRhdGUgLWFuZCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkY2FuZGlkYXRlIC1QYXRoVHlwZSBMZWFmKSkgewogICAgICByZXR1cm4gKFJlc29sdmUtUGF0aCAtTGl0ZXJhbFBhdGggJGNhbmRpZGF0ZSkuUGF0aAogICAgfQogIH0KICB0aHJvdyAiTlNJUyAzIGlzIHJlcXVpcmVkLiBJbnN0YWxsIE5TSVMgb3Igc2V0IEZOX0tOT0NLX01BS0VOU0lTIHRvIG1ha2Vuc2lzLmV4ZS4iCn0KCmZvcmVhY2ggKCRyZXF1aXJlZCBpbiBAKAogIChKb2luLVBhdGggJFJlbGVhc2VSb290ICJmbi1rbm9jay5leGUiKSwKICAoSm9pbi1QYXRoICRCdW5kbGVSb290ICJmbi1rbm9jay1zZXJ2aWNlLmV4ZSIpLAogIChKb2luLVBhdGggJEJ1bmRsZVJvb3QgImZuLWtub2NrLWdhdGV3YXkuZXhlIiksCiAgKEpvaW4tUGF0aCAkQnVuZGxlUm9vdCAicnVzdC1hY21lc2guZXhlIiksCiAgKEpvaW4tUGF0aCAkUnVudGltZVJvb3QgImJ1bmRsZS5qc29uIikKKSkgewogIGlmICgtbm90IChUZXN0LVBhdGggLUxpdGVyYWxQYXRoICRyZXF1aXJlZCAtUGF0aFR5cGUgTGVhZikpIHsKICAgIHRocm93ICJNaXNzaW5nIHNpZ25lZCBXaW5kb3dzIHBhY2thZ2UgaW5wdXQ6ICRyZXF1aXJlZCIKICB9Cn0KCmlmICgtbm90ICRPdXRwdXRQYXRoKSB7CiAgJE91dHB1dFBhdGggPSBKb2luLVBhdGggJFJlbGVhc2VSb290ICJpbnN0YWxsZXJcS25vY2sg5pWy6ZeoXyR7VmVyc2lvbn1feDY0LXNldHVwLmV4ZSIKfSBlbHNlaWYgKC1ub3QgW1N5c3RlbS5JTy5QYXRoXTo6SXNQYXRoUm9vdGVkKCRPdXRwdXRQYXRoKSkgewogICRPdXRwdXRQYXRoID0gSm9pbi1QYXRoICRSb290ICRPdXRwdXRQYXRoCn0KJE91dHB1dFBhdGggPSBbU3lzdGVtLklPLlBhdGhdOjpHZXRGdWxsUGF0aCgkT3V0cHV0UGF0aCkKTmV3LUl0ZW0gLUl0ZW1UeXBlIERpcmVjdG9yeSAtRm9yY2UgKFNwbGl0LVBhdGggJE91dHB1dFBhdGggLVBhcmVudCkgfCBPdXQtTnVsbApSZW1vdmUtSXRlbSAtTGl0ZXJhbFBhdGggJE91dHB1dFBhdGggLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCgokcGFydHMgPSBAKCRWZXJzaW9uLlNwbGl0KCcuJykpCmlmICgkcGFydHMuQ291bnQgLWd0IDQgLW9yIEAoJHBhcnRzIHwgV2hlcmUtT2JqZWN0IHsgJF8gLW5vdG1hdGNoICdeXGQrJCcgfSkuQ291bnQgLWd0IDApIHsKICB0aHJvdyAiVmVyc2lvbiBjYW5ub3QgYmUgcmVwcmVzZW50ZWQgYXMgYSBXaW5kb3dzIGZpbGUgdmVyc2lvbjogJFZlcnNpb24iCn0Kd2hpbGUgKCRwYXJ0cy5Db3VudCAtbHQgNCkgeyAkcGFydHMgKz0gIjAiIH0KJE51bWVyaWNWZXJzaW9uID0gJHBhcnRzIC1qb2luICIuIgoKJG1ha2VOc2lzID0gUmVzb2x2ZS1NYWtlTnNpcwokaW5zdGFsbGVyU2NyaXB0ID0gSm9pbi1QYXRoICREZXNrdG9wTmF0aXZlICJpbnN0YWxsZXJcaW5zdGFsbGVyLm5zaSIKJGRlc2t0b3BFeGUgPSBKb2luLVBhdGggJFJlbGVhc2VSb290ICJmbi1rbm9jay5leGUiCiRpY29uID0gSm9pbi1QYXRoICREZXNrdG9wTmF0aXZlICJhc3NldHNcaWNvbi5pY28iCiYgJG1ha2VOc2lzICIvSU5QVVRDSEFSU0VUIiAiVVRGOCIgIi9EVkVSU0lPTj0kVmVyc2lvbiIgIi9ETlVNRVJJQ19WRVJTSU9OPSROdW1lcmljVmVyc2lvbiIgIi9ET1VUUFVUX0ZJTEU9JE91dHB1dFBhdGgiICIvRERFU0tUT1BfRVhFPSRkZXNrdG9wRXhlIiAiL0RCVU5ETEVfUk9PVD0kQnVuZGxlUm9vdCIgIi9EUlVOVElNRV9ST09UPSRSdW50aW1lUm9vdCIgIi9ESUNPTl9GSUxFPSRpY29uIiAkaW5zdGFsbGVyU2NyaXB0CmlmICgkTEFTVEVYSVRDT0RFIC1uZSAwKSB7CiAgdGhyb3cgIm5hdGl2ZSBOU0lTIGJ1bmRsZSBmYWlsZWQgd2l0aCBleGl0IGNvZGUgJExBU1RFWElUQ09ERSIKfQppZiAoLW5vdCAoVGVzdC1QYXRoIC1MaXRlcmFsUGF0aCAkT3V0cHV0UGF0aCAtUGF0aFR5cGUgTGVhZikpIHsKICB0aHJvdyAiTlNJUyBkaWQgbm90IHByb2R1Y2UgdGhlIGV4cGVjdGVkIHNldHVwOiAkT3V0cHV0UGF0aCIKfQooUmVzb2x2ZS1QYXRoIC1MaXRlcmFsUGF0aCAkT3V0cHV0UGF0aCkuUGF0aAo=
+[CmdletBinding()]
+param(
+  [string]$OutputPath = ""
+)
+
+$ErrorActionPreference = "Stop"
+Set-StrictMode -Version Latest
+
+$Root = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
+$Version = [string](Get-Content -Raw (Join-Path $Root "version.json") | ConvertFrom-Json).version
+$Target = "x86_64-pc-windows-msvc"
+$DesktopNative = Join-Path $Root "apps\fn-knock-desktop\native"
+$BundleRoot = Join-Path $Root "apps\fn-knock-desktop\bundle\windows"
+$RuntimeRoot = Join-Path $BundleRoot "runtime"
+$ReleaseRoot = Join-Path $DesktopNative "target\$Target\release"
+
+function Resolve-MakeNsis {
+  if ($env:FN_KNOCK_MAKENSIS) {
+    if (Test-Path -LiteralPath $env:FN_KNOCK_MAKENSIS -PathType Leaf) {
+      return (Resolve-Path -LiteralPath $env:FN_KNOCK_MAKENSIS).Path
+    }
+    throw "FN_KNOCK_MAKENSIS does not point to makensis.exe: $env:FN_KNOCK_MAKENSIS"
+  }
+  $command = Get-Command makensis.exe -ErrorAction SilentlyContinue
+  if ($command) { return $command.Source }
+  foreach ($candidate in @(
+    (Join-Path ${env:ProgramFiles(x86)} "NSIS\makensis.exe"),
+    (Join-Path $env:ProgramFiles "NSIS\makensis.exe")
+  )) {
+    if ($candidate -and (Test-Path -LiteralPath $candidate -PathType Leaf)) {
+      return (Resolve-Path -LiteralPath $candidate).Path
+    }
+  }
+  throw "NSIS 3 is required. Install NSIS or set FN_KNOCK_MAKENSIS to makensis.exe."
+}
+
+foreach ($required in @(
+  (Join-Path $ReleaseRoot "fn-knock.exe"),
+  (Join-Path $BundleRoot "fn-knock-service.exe"),
+  (Join-Path $BundleRoot "fn-knock-gateway.exe"),
+  (Join-Path $BundleRoot "rust-acmesh.exe"),
+  (Join-Path $RuntimeRoot "bundle.json")
+)) {
+  if (-not (Test-Path -LiteralPath $required -PathType Leaf)) {
+    throw "Missing signed Windows package input: $required"
+  }
+}
+
+if (-not $OutputPath) {
+  $OutputPath = Join-Path $ReleaseRoot "installer\Knock 敲门_${Version}_x64-setup.exe"
+} elseif (-not [System.IO.Path]::IsPathRooted($OutputPath)) {
+  $OutputPath = Join-Path $Root $OutputPath
+}
+$OutputPath = [System.IO.Path]::GetFullPath($OutputPath)
+New-Item -ItemType Directory -Force (Split-Path $OutputPath -Parent) | Out-Null
+Remove-Item -LiteralPath $OutputPath -Force -ErrorAction SilentlyContinue
+
+$parts = @($Version.Split('.'))
+if ($parts.Count -gt 4 -or @($parts | Where-Object { $_ -notmatch '^\d+$' }).Count -gt 0) {
+  throw "Version cannot be represented as a Windows file version: $Version"
+}
+while ($parts.Count -lt 4) { $parts += "0" }
+$NumericVersion = $parts -join "."
+
+$makeNsis = Resolve-MakeNsis
+$installerScript = Join-Path $DesktopNative "installer\installer.nsi"
+$desktopExe = Join-Path $ReleaseRoot "fn-knock.exe"
+$icon = Join-Path $DesktopNative "assets\icon.ico"
+& $makeNsis "/INPUTCHARSET" "UTF8" "/DVERSION=$Version" "/DNUMERIC_VERSION=$NumericVersion" "/DOUTPUT_FILE=$OutputPath" "/DDESKTOP_EXE=$desktopExe" "/DBUNDLE_ROOT=$BundleRoot" "/DRUNTIME_ROOT=$RuntimeRoot" "/DICON_FILE=$icon" $installerScript
+if ($LASTEXITCODE -ne 0) {
+  throw "native NSIS bundle failed with exit code $LASTEXITCODE"
+}
+if (-not (Test-Path -LiteralPath $OutputPath -PathType Leaf)) {
+  throw "NSIS did not produce the expected setup: $OutputPath"
+}
+(Resolve-Path -LiteralPath $OutputPath).Path

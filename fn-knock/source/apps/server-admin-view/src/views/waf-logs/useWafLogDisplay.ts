@@ -1,1 +1,275 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHR5cGUgQ29tcHV0ZWRSZWYsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgYnVpbGREZXRhaWxGaWVsZHMgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL2J1aWxkRGV0YWlsRmllbGRzIjsKaW1wb3J0IHsgZm9ybWF0RGF0ZVRpbWVTYWZlIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9mb3JtYXREYXRlVGltZVNhZmUiOwppbXBvcnQgdHlwZSB7IFdBRkV2ZW50LCBXQUZJbnRlcnJ1cHRpb25JbmZvLCBXQUZSdWxlTWF0Y2ggfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsgcm91dGVUeXBlTGFiZWwgYXMgcmVzb2x2ZVJvdXRlVHlwZUxhYmVsIH0gZnJvbSAiQC9saWIvcm91dGVUeXBlIjsKCmNvbnN0IFdBRl9SVUxFX1BBVEhfUFJFRklYID0gIi91c3IvbG9jYWwvYXBwcy9AYXBwZGF0YS9mbi1rbm9jay93YWYiOwoKdHlwZSBUcmFuc2xhdGVQYXJhbXMgPSBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPjsKCmNvbnN0IHJ1bGVGaWxlQmFzZW5hbWUgPSAodmFsdWU/OiBzdHJpbmcgfCBudWxsKSA9PiB7CiAgY29uc3Qgbm9ybWFsaXplZCA9IFN0cmluZyh2YWx1ZSB8fCAiIikKICAgIC50cmltKCkKICAgIC5yZXBsYWNlKC9cXC9nLCAiLyIpOwogIHJldHVybiBub3JtYWxpemVkLnNwbGl0KCIvIikucG9wKCkgfHwgIiI7Cn07Cgpjb25zdCBpc0NSU0Jsb2NraW5nRXZhbHVhdGlvblJ1bGUgPSAocnVsZTogV0FGUnVsZU1hdGNoKSA9PiB7CiAgY29uc3QgZmlsZW5hbWUgPSBydWxlRmlsZUJhc2VuYW1lKHJ1bGUuZmlsZSkudG9Mb3dlckNhc2UoKTsKICByZXR1cm4gKAogICAgZmlsZW5hbWUgPT09ICJyZXF1ZXN0LTk0OS1ibG9ja2luZy1ldmFsdWF0aW9uLmNvbmYiIHx8CiAgICBmaWxlbmFtZSA9PT0gInJlc3BvbnNlLTk1OS1ibG9ja2luZy1ldmFsdWF0aW9uLmNvbmYiIHx8CiAgICBydWxlLnRhZ3M/LnNvbWUoKHRhZykgPT4gdGFnLnRvTG93ZXJDYXNlKCkgPT09ICJhbm9tYWx5LWV2YWx1YXRpb24iKQogICk7Cn07Cgpjb25zdCBoYXNSdWxlRGVzY3JpcHRpb24gPSAocnVsZTogV0FGUnVsZU1hdGNoKSA9PgogIEJvb2xlYW4ocnVsZS5tZXNzYWdlPy50cmltKCkgfHwgcnVsZS5kYXRhPy50cmltKCkpOwoKY29uc3QgZGV0YWlsRmllbGRzID0gWwogIHsga2V5OiAidGltZSIsIGxhYmVsS2V5OiAiYWRtaW4ud2FmTG9ncy5kZXRhaWxGaWVsZHMudGltZSIgfSwKICB7IGtleTogInRyYWNlX2lkIiwgbGFiZWxLZXk6ICJhZG1pbi50cmFjZS5sYWJlbCIgfSwKICB7CiAgICBrZXk6ICJ0cmFuc2FjdGlvbl9pZCIsCiAgICBsYWJlbEtleTogImFkbWluLndhZkxvZ3MuZGV0YWlsRmllbGRzLnRyYW5zYWN0aW9uSWQiLAogIH0sCiAgeyBrZXk6ICJhY3Rpb24iLCBsYWJlbEtleTogImFkbWluLndhZkxvZ3MuZGV0YWlsRmllbGRzLmFjdGlvbiIgfSwKICB7IGtleTogIm1vZGUiLCBsYWJlbEtleTogImFkbWluLndhZkxvZ3MuZGV0YWlsRmllbGRzLm1vZGUiIH0sCiAgeyBrZXk6ICJzdGF0dXMiLCBsYWJlbEtleTogImFkbWluLndhZkxvZ3MuZGV0YWlsRmllbGRzLnN0YXR1cyIgfSwKICB7IGtleTogImNsaWVudF9pcCIsIGxhYmVsS2V5OiAiYWRtaW4ud2FmTG9ncy5kZXRhaWxGaWVsZHMuY2xpZW50SXAiIH0sCiAgeyBrZXk6ICJpcExvY2F0aW9uIiwgbGFiZWxLZXk6ICJhZG1pbi53YWZMb2dzLmRldGFpbEZpZWxkcy5pcExvY2F0aW9uIiB9LAogIHsga2V5OiAicmVtb3RlX2FkZHIiLCBsYWJlbEtleTogImFkbWluLndhZkxvZ3MuZGV0YWlsRmllbGRzLnJlbW90ZUFkZHIiIH0sCiAgeyBrZXk6ICJtZXRob2QiLCBsYWJlbEtleTogImFkbWluLndhZkxvZ3MuZGV0YWlsRmllbGRzLm1ldGhvZCIgfSwKICB7IGtleTogInNjaGVtZSIsIGxhYmVsS2V5OiAiYWRtaW4ud2FmTG9ncy5kZXRhaWxGaWVsZHMuc2NoZW1lIiB9LAogIHsga2V5OiAiaG9zdCIsIGxhYmVsOiAiSG9zdCIgfSwKICB7IGtleTogInBhdGgiLCBsYWJlbEtleTogImFkbWluLndhZkxvZ3MuZGV0YWlsRmllbGRzLnBhdGgiIH0sCiAgeyBrZXk6ICJxdWVyeSIsIGxhYmVsOiAiUXVlcnkiIH0sCiAgeyBrZXk6ICJyZXF1ZXN0X3VyaSIsIGxhYmVsS2V5OiAiYWRtaW4ud2FmTG9ncy5kZXRhaWxGaWVsZHMucmVxdWVzdFVyaSIgfSwKICB7IGtleTogInVzZXJfYWdlbnQiLCBsYWJlbDogIlVzZXItQWdlbnQiIH0sCiAgeyBrZXk6ICJyZWZlcmVyIiwgbGFiZWw6ICJSZWZlcmVyIiB9LAogIHsga2V5OiAicm91dGVfdHlwZSIsIGxhYmVsS2V5OiAiYWRtaW4ud2FmTG9ncy5kZXRhaWxGaWVsZHMucm91dGVUeXBlIiB9LAogIHsga2V5OiAicm91dGVfa2V5IiwgbGFiZWxLZXk6ICJhZG1pbi53YWZMb2dzLmRldGFpbEZpZWxkcy5yb3V0ZUtleSIgfSwKICB7IGtleTogInVwc3RyZWFtIiwgbGFiZWxLZXk6ICJhZG1pbi53YWZMb2dzLmRldGFpbEZpZWxkcy51cHN0cmVhbSIgfSwKICB7IGtleTogImJ1bmRsZV9pZCIsIGxhYmVsS2V5OiAiYWRtaW4ud2FmTG9ncy5kZXRhaWxGaWVsZHMuYnVuZGxlSWQiIH0sCiAgeyBrZXk6ICJidW5kbGVfaGFzaCIsIGxhYmVsOiAiQnVuZGxlIEhhc2giIH0sCiAgeyBrZXk6ICJydWxlX2lkcyIsIGxhYmVsS2V5OiAiYWRtaW4ud2FmTG9ncy5kZXRhaWxGaWVsZHMucnVsZUlkcyIgfSwKICB7IGtleTogInJ1bGVzIiwgbGFiZWxLZXk6ICJhZG1pbi53YWZMb2dzLmRldGFpbEZpZWxkcy5ydWxlcyIgfSwKICB7IGtleTogImludGVycnVwdGlvbiIsIGxhYmVsS2V5OiAiYWRtaW4ud2FmTG9ncy5kZXRhaWxGaWVsZHMuaW50ZXJydXB0aW9uIiB9LAogIHsga2V5OiAiZXJyb3IiLCBsYWJlbEtleTogImFkbWluLndhZkxvZ3MuZGV0YWlsRmllbGRzLmVycm9yIiB9LApdIGFzIGNvbnN0OwoKZXhwb3J0IGNvbnN0IHVzZVdhZkxvZ0Rpc3BsYXkgPSAoewogIGFjdGl2ZUV2ZW50LAogIGFjdGl2ZUV2ZW50V2l0aElwTG9jYXRpb24sCiAgbG9jYWxlLAogIHRyYW5zbGF0ZSwKfTogewogIGFjdGl2ZUV2ZW50OiBSZWY8V0FGRXZlbnQgfCBudWxsPjsKICBhY3RpdmVFdmVudFdpdGhJcExvY2F0aW9uOiBDb21wdXRlZFJlZjwKICAgIChXQUZFdmVudCAmIHsgaXBMb2NhdGlvbjogc3RyaW5nIH0pIHwgbnVsbAogID47CiAgbG9jYWxlOiBSZWY8c3RyaW5nPjsKICB0cmFuc2xhdGU6IChrZXk6IHN0cmluZywgcGFyYW1zPzogVHJhbnNsYXRlUGFyYW1zKSA9PiBzdHJpbmc7Cn0pID0+IHsKICBjb25zdCBhY3Rpb25MYWJlbCA9ICh2YWx1ZT86IHN0cmluZykgPT4gewogICAgc3dpdGNoICh2YWx1ZSkgewogICAgICBjYXNlICJibG9jayI6CiAgICAgIGNhc2UgImRlbnkiOgogICAgICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLndhZkxvZ3MuYWN0aW9ucy5ibG9jayIpOwogICAgICBjYXNlICJsb2ciOgogICAgICBjYXNlICJkZXRlY3QiOgogICAgICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLndhZkxvZ3MuYWN0aW9ucy5yZWNvcmQiKTsKICAgICAgY2FzZSAicGFzcyI6CiAgICAgICAgcmV0dXJuIHRyYW5zbGF0ZSgiYWRtaW4ud2FmTG9ncy5hY3Rpb25zLnBhc3MiKTsKICAgICAgZGVmYXVsdDoKICAgICAgICByZXR1cm4gdmFsdWUgfHwgIi0iOwogICAgfQogIH07CgogIGNvbnN0IGFjdGlvblZhcmlhbnQgPSAodmFsdWU/OiBzdHJpbmcpID0+IHsKICAgIGlmICh2YWx1ZSA9PT0gImJsb2NrIiB8fCB2YWx1ZSA9PT0gImRlbnkiKSByZXR1cm4gImRlc3RydWN0aXZlIjsKICAgIGlmICh2YWx1ZSA9PT0gImxvZyIgfHwgdmFsdWUgPT09ICJkZXRlY3QiKSByZXR1cm4gInNlY29uZGFyeSI7CiAgICByZXR1cm4gIm91dGxpbmUiOwogIH07CgogIGNvbnN0IG1vZGVMYWJlbCA9ICh2YWx1ZT86IHN0cmluZykgPT4gewogICAgc3dpdGNoICh2YWx1ZSkgewogICAgICBjYXNlICJkZXRlY3Rpb24iOgogICAgICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLndhZkxvZ3MubW9kZXMuZGV0ZWN0aW9uIik7CiAgICAgIGNhc2UgImJsb2NraW5nIjoKICAgICAgICByZXR1cm4gdHJhbnNsYXRlKCJhZG1pbi53YWZMb2dzLm1vZGVzLmJsb2NraW5nIik7CiAgICAgIGNhc2UgIm9mZiI6CiAgICAgICAgcmV0dXJuIHRyYW5zbGF0ZSgiYWRtaW4ud2FmTG9ncy5tb2Rlcy5vZmYiKTsKICAgICAgZGVmYXVsdDoKICAgICAgICByZXR1cm4gdmFsdWUgfHwgIi0iOwogICAgfQogIH07CgogIGNvbnN0IHJvdXRlVHlwZUxhYmVsID0gKHZhbHVlPzogc3RyaW5nIHwgbnVsbCkgPT4KICAgIHJlc29sdmVSb3V0ZVR5cGVMYWJlbCh2YWx1ZSA/PyB1bmRlZmluZWQsIHRyYW5zbGF0ZSk7CgogIGNvbnN0IGZvcm1hdERhdGUgPSAodmFsdWU/OiBzdHJpbmcpID0+CiAgICBmb3JtYXREYXRlVGltZVNhZmUodmFsdWUsIHsgbG9jYWxlOiBsb2NhbGUudmFsdWUgfSk7CgogIGNvbnN0IGZvcm1hdFJ1bGVJZHMgPSAodmFsdWU/OiBudW1iZXJbXSB8IG51bGwpID0+CiAgICB2YWx1ZSAmJiB2YWx1ZS5sZW5ndGggPiAwID8gdmFsdWUubWFwKChpZCkgPT4gYCMke2lkfWApLmpvaW4oIiwgIikgOiAiLSI7CgogIGNvbnN0IGdldFByaW1hcnlSdWxlID0gKGV2ZW50OiBXQUZFdmVudCk6IFdBRlJ1bGVNYXRjaCB8IHVuZGVmaW5lZCA9PiB7CiAgICBjb25zdCBydWxlcyA9IGV2ZW50LnJ1bGVzIHx8IFtdOwogICAgY29uc3QgaW50ZXJydXB0ZWRSdWxlSWQgPSBldmVudC5pbnRlcnJ1cHRpb24/LnJ1bGVfaWQ7CiAgICBjb25zdCBjb250cmlidXRpbmdSdWxlcyA9IHJ1bGVzLmZpbHRlcigKICAgICAgKHJ1bGUpID0+ICFpc0NSU0Jsb2NraW5nRXZhbHVhdGlvblJ1bGUocnVsZSksCiAgICApOwogICAgaWYgKGludGVycnVwdGVkUnVsZUlkKSB7CiAgICAgIGNvbnN0IGludGVycnVwdGVkUnVsZSA9IHJ1bGVzLmZpbmQoCiAgICAgICAgKHJ1bGUpID0+IHJ1bGUuaWQgPT09IGludGVycnVwdGVkUnVsZUlkLAogICAgICApOwogICAgICBpZiAoaW50ZXJydXB0ZWRSdWxlICYmICFpc0NSU0Jsb2NraW5nRXZhbHVhdGlvblJ1bGUoaW50ZXJydXB0ZWRSdWxlKSkgewogICAgICAgIHJldHVybiBpbnRlcnJ1cHRlZFJ1bGU7CiAgICAgIH0KICAgIH0KICAgIHJldHVybiAoCiAgICAgIGNvbnRyaWJ1dGluZ1J1bGVzLmZpbmQoaGFzUnVsZURlc2NyaXB0aW9uKSB8fAogICAgICBjb250cmlidXRpbmdSdWxlcy5maW5kKChydWxlKSA9PiBydWxlLmRpc3J1cHRpdmUpIHx8CiAgICAgIGNvbnRyaWJ1dGluZ1J1bGVzWzBdIHx8CiAgICAgIHJ1bGVzLmZpbmQoaGFzUnVsZURlc2NyaXB0aW9uKSB8fAogICAgICBydWxlcy5maW5kKChydWxlKSA9PiBydWxlLmRpc3J1cHRpdmUpIHx8CiAgICAgIHJ1bGVzWzBdCiAgICApOwogIH07CgogIGNvbnN0IGZvcm1hdFByaW1hcnlSdWxlSWQgPSAoZXZlbnQ6IFdBRkV2ZW50KSA9PiB7CiAgICBjb25zdCBwcmltYXJ5UnVsZSA9IGdldFByaW1hcnlSdWxlKGV2ZW50KTsKICAgIGlmICghcHJpbWFyeVJ1bGUpIHJldHVybiBmb3JtYXRSdWxlSWRzKGV2ZW50LnJ1bGVfaWRzKTsKICAgIGNvbnN0IHJ1bGVJZHMgPSBuZXcgU2V0KFsKICAgICAgLi4uKGV2ZW50LnJ1bGVfaWRzIHx8IFtdKSwKICAgICAgLi4uKGV2ZW50LnJ1bGVzIHx8IFtdKS5tYXAoKHJ1bGUpID0+IHJ1bGUuaWQpLAogICAgXSk7CiAgICBjb25zdCBvdGhlckNvdW50ID0gTWF0aC5tYXgoMCwgcnVsZUlkcy5zaXplIC0gMSk7CiAgICByZXR1cm4gb3RoZXJDb3VudCA+IDAKICAgICAgPyB0cmFuc2xhdGUoImFkbWluLndhZkxvZ3MubW9yZVJ1bGVzIiwgewogICAgICAgICAgaWQ6IHByaW1hcnlSdWxlLmlkLAogICAgICAgICAgY291bnQ6IG90aGVyQ291bnQsCiAgICAgICAgfSkKICAgICAgOiBgIyR7cHJpbWFyeVJ1bGUuaWR9YDsKICB9OwoKICBjb25zdCBmb3JtYXRSdWxlU3VtbWFyeSA9IChldmVudDogV0FGRXZlbnQpID0+IHsKICAgIGNvbnN0IGZpcnN0UnVsZSA9IGdldFByaW1hcnlSdWxlKGV2ZW50KTsKICAgIGlmICghZmlyc3RSdWxlKSByZXR1cm4gIiI7CiAgICByZXR1cm4gZmlyc3RSdWxlLm1lc3NhZ2UgfHwgZmlyc3RSdWxlLmRhdGEgfHwgIiI7CiAgfTsKCiAgY29uc3QgZm9ybWF0UnVsZUZpbGVQYXRoID0gKHZhbHVlPzogc3RyaW5nIHwgbnVsbCkgPT4gewogICAgY29uc3Qgbm9ybWFsaXplZCA9IFN0cmluZyh2YWx1ZSB8fCAiIikKICAgICAgLnRyaW0oKQogICAgICAucmVwbGFjZSgvXFwvZywgIi8iKTsKICAgIGlmICghbm9ybWFsaXplZCkgcmV0dXJuICIiOwoKICAgIGNvbnN0IGxvd2VyUGF0aCA9IG5vcm1hbGl6ZWQudG9Mb3dlckNhc2UoKTsKICAgIGNvbnN0IGxvd2VyUHJlZml4ID0gV0FGX1JVTEVfUEFUSF9QUkVGSVgudG9Mb3dlckNhc2UoKTsKICAgIGlmIChsb3dlclBhdGggPT09IGxvd2VyUHJlZml4KSByZXR1cm4gIiI7CiAgICBpZiAobG93ZXJQYXRoLnN0YXJ0c1dpdGgoYCR7bG93ZXJQcmVmaXh9L2ApKSB7CiAgICAgIHJldHVybiBub3JtYWxpemVkLnNsaWNlKFdBRl9SVUxFX1BBVEhfUFJFRklYLmxlbmd0aCArIDEpOwogICAgfQoKICAgIHJldHVybiBub3JtYWxpemVkOwogIH07CgogIGNvbnN0IGZvcm1hdFJ1bGVGaWxlTG9jYXRpb24gPSAocnVsZTogV0FGUnVsZU1hdGNoKSA9PiB7CiAgICBjb25zdCBmaWxlID0gZm9ybWF0UnVsZUZpbGVQYXRoKHJ1bGUuZmlsZSk7CiAgICBpZiAoIWZpbGUpIHJldHVybiAiIjsKICAgIHJldHVybiBydWxlLmxpbmUgPyBgJHtmaWxlfToke3J1bGUubGluZX1gIDogZmlsZTsKICB9OwoKICBjb25zdCBmb3JtYXRSdWxlTG9jYXRpb25TdW1tYXJ5ID0gKGV2ZW50OiBXQUZFdmVudCkgPT4gewogICAgY29uc3QgZmlyc3RSdWxlID0gZ2V0UHJpbWFyeVJ1bGUoZXZlbnQpOwogICAgaWYgKCFmaXJzdFJ1bGU/LmZpbGUpIHJldHVybiAiIjsKICAgIHJldHVybiBmb3JtYXRSdWxlRmlsZUxvY2F0aW9uKGZpcnN0UnVsZSk7CiAgfTsKCiAgY29uc3QgZm9ybWF0UnVsZXMgPSAoCiAgICB2YWx1ZTogV0FGUnVsZU1hdGNoW10gfCB1bmRlZmluZWQsCiAgICBldmVudD86IFdBRkV2ZW50IHwgbnVsbCwKICApID0+IHsKICAgIGlmICghdmFsdWUgfHwgdmFsdWUubGVuZ3RoID09PSAwKSByZXR1cm4gIi0iOwogICAgY29uc3QgcHJpbWFyeVJ1bGVJZCA9IGV2ZW50ID8gZ2V0UHJpbWFyeVJ1bGUoZXZlbnQpPy5pZCA6IHVuZGVmaW5lZDsKICAgIHJldHVybiBbLi4udmFsdWVdCiAgICAgIC5zb3J0KChsZWZ0LCByaWdodCkgPT4gewogICAgICAgIGlmIChwcmltYXJ5UnVsZUlkKSB7CiAgICAgICAgICBpZiAobGVmdC5pZCA9PT0gcHJpbWFyeVJ1bGVJZCkgcmV0dXJuIC0xOwogICAgICAgICAgaWYgKHJpZ2h0LmlkID09PSBwcmltYXJ5UnVsZUlkKSByZXR1cm4gMTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIDA7CiAgICAgIH0pCiAgICAgIC5tYXAoKHJ1bGUpID0+IHsKICAgICAgICBjb25zdCBwYXJ0cyA9IFtgIyR7cnVsZS5pZH1gXTsKICAgICAgICBpZiAocnVsZS5waGFzZSkgcGFydHMucHVzaChgcGhhc2UgJHtydWxlLnBoYXNlfWApOwogICAgICAgIGlmIChydWxlLnNldmVyaXR5KSBwYXJ0cy5wdXNoKHJ1bGUuc2V2ZXJpdHkpOwogICAgICAgIGNvbnN0IGxvY2F0aW9uID0gZm9ybWF0UnVsZUZpbGVMb2NhdGlvbihydWxlKTsKICAgICAgICBpZiAobG9jYXRpb24pIHBhcnRzLnB1c2gobG9jYXRpb24pOwogICAgICAgIGlmIChydWxlLm1lc3NhZ2UpIHBhcnRzLnB1c2gocnVsZS5tZXNzYWdlKTsKICAgICAgICByZXR1cm4gcGFydHMuam9pbigiIMK3ICIpOwogICAgICB9KQogICAgICAuam9pbigiXG4iKTsKICB9OwoKICBjb25zdCBmb3JtYXRJbnRlcnJ1cHRpb24gPSAodmFsdWU6IFdBRkludGVycnVwdGlvbkluZm8gfCB1bmRlZmluZWQpID0+IHsKICAgIGlmICghdmFsdWUpIHJldHVybiAiLSI7CiAgICByZXR1cm4gWwogICAgICB2YWx1ZS5ydWxlX2lkID8gYHJ1bGUgJHt2YWx1ZS5ydWxlX2lkfWAgOiAiIiwKICAgICAgdmFsdWUuYWN0aW9uIHx8ICIiLAogICAgICB2YWx1ZS5zdGF0dXMgPyBgSFRUUCAke3ZhbHVlLnN0YXR1c31gIDogIiIsCiAgICBdCiAgICAgIC5maWx0ZXIoQm9vbGVhbikKICAgICAgLmpvaW4oIiDCtyAiKTsKICB9OwoKICBjb25zdCBsb2NhbGl6ZWREZXRhaWxGaWVsZHMgPSBjb21wdXRlZCgoKSA9PgogICAgZGV0YWlsRmllbGRzLm1hcCgoZmllbGQpID0+ICh7CiAgICAgIGtleTogZmllbGQua2V5LAogICAgICBsYWJlbDogImxhYmVsIiBpbiBmaWVsZCA/IGZpZWxkLmxhYmVsIDogdHJhbnNsYXRlKGZpZWxkLmxhYmVsS2V5KSwKICAgIH0pKSwKICApOwoKICBjb25zdCBkZXRhaWxJdGVtcyA9IGNvbXB1dGVkKCgpID0+CiAgICBidWlsZERldGFpbEZpZWxkcygKICAgICAgYWN0aXZlRXZlbnRXaXRoSXBMb2NhdGlvbi52YWx1ZSwKICAgICAgbG9jYWxpemVkRGV0YWlsRmllbGRzLnZhbHVlLAogICAgICB7CiAgICAgICAgZm9ybWF0OiAoa2V5LCB2YWx1ZSkgPT4gewogICAgICAgICAgaWYgKGtleSA9PT0gInRpbWUiKSByZXR1cm4gZm9ybWF0RGF0ZSh2YWx1ZSBhcyBzdHJpbmcpOwogICAgICAgICAgaWYgKGtleSA9PT0gImFjdGlvbiIpIHJldHVybiBhY3Rpb25MYWJlbChTdHJpbmcodmFsdWUgfHwgIiIpKTsKICAgICAgICAgIGlmIChrZXkgPT09ICJtb2RlIikgcmV0dXJuIG1vZGVMYWJlbChTdHJpbmcodmFsdWUgfHwgIiIpKTsKICAgICAgICAgIGlmIChrZXkgPT09ICJyb3V0ZV90eXBlIikgcmV0dXJuIHJvdXRlVHlwZUxhYmVsKFN0cmluZyh2YWx1ZSB8fCAiIikpOwogICAgICAgICAgaWYgKGtleSA9PT0gInJ1bGVfaWRzIikgcmV0dXJuIGZvcm1hdFJ1bGVJZHModmFsdWUgYXMgbnVtYmVyW10pOwogICAgICAgICAgaWYgKGtleSA9PT0gInJ1bGVzIikKICAgICAgICAgICAgcmV0dXJuIGZvcm1hdFJ1bGVzKHZhbHVlIGFzIFdBRlJ1bGVNYXRjaFtdLCBhY3RpdmVFdmVudC52YWx1ZSk7CiAgICAgICAgICBpZiAoa2V5ID09PSAiaW50ZXJydXB0aW9uIikKICAgICAgICAgICAgcmV0dXJuIGZvcm1hdEludGVycnVwdGlvbih2YWx1ZSBhcyBXQUZJbnRlcnJ1cHRpb25JbmZvKTsKICAgICAgICAgIGlmICh2YWx1ZSA9PT0gdW5kZWZpbmVkIHx8IHZhbHVlID09PSBudWxsIHx8IHZhbHVlID09PSAiIikgcmV0dXJuICItIjsKICAgICAgICAgIHJldHVybiB2YWx1ZTsKICAgICAgICB9LAogICAgICB9LAogICAgKSwKICApOwoKICBjb25zdCBkZXRhaWxDb3B5VGV4dCA9IGNvbXB1dGVkKCgpID0+CiAgICBkZXRhaWxJdGVtcy52YWx1ZQogICAgICAubWFwKChpdGVtKSA9PiBgJHtpdGVtLmxhYmVsfTogJHtTdHJpbmcoaXRlbS52YWx1ZSl9YCkKICAgICAgLmpvaW4oIlxuIiksCiAgKTsKCiAgcmV0dXJuIHsKICAgIGFjdGlvbkxhYmVsLAogICAgYWN0aW9uVmFyaWFudCwKICAgIGRldGFpbENvcHlUZXh0LAogICAgZGV0YWlsSXRlbXMsCiAgICBmb3JtYXRQcmltYXJ5UnVsZUlkLAogICAgZm9ybWF0UnVsZUxvY2F0aW9uU3VtbWFyeSwKICAgIGZvcm1hdFJ1bGVTdW1tYXJ5LAogICAgbW9kZUxhYmVsLAogICAgcm91dGVUeXBlTGFiZWwsCiAgfTsKfTsK
+import { computed, type ComputedRef, type Ref } from "vue";
+import { buildDetailFields } from "@admin-shared/utils/buildDetailFields";
+import { formatDateTimeSafe } from "@admin-shared/utils/formatDateTimeSafe";
+import type { WAFEvent, WAFInterruptionInfo, WAFRuleMatch } from "@/types";
+import { routeTypeLabel as resolveRouteTypeLabel } from "@/lib/routeType";
+
+const WAF_RULE_PATH_PREFIX = "/usr/local/apps/@appdata/fn-knock/waf";
+
+type TranslateParams = Record<string, unknown>;
+
+const ruleFileBasename = (value?: string | null) => {
+  const normalized = String(value || "")
+    .trim()
+    .replace(/\\/g, "/");
+  return normalized.split("/").pop() || "";
+};
+
+const isCRSBlockingEvaluationRule = (rule: WAFRuleMatch) => {
+  const filename = ruleFileBasename(rule.file).toLowerCase();
+  return (
+    filename === "request-949-blocking-evaluation.conf" ||
+    filename === "response-959-blocking-evaluation.conf" ||
+    rule.tags?.some((tag) => tag.toLowerCase() === "anomaly-evaluation")
+  );
+};
+
+const hasRuleDescription = (rule: WAFRuleMatch) =>
+  Boolean(rule.message?.trim() || rule.data?.trim());
+
+const detailFields = [
+  { key: "time", labelKey: "admin.wafLogs.detailFields.time" },
+  { key: "trace_id", labelKey: "admin.trace.label" },
+  {
+    key: "transaction_id",
+    labelKey: "admin.wafLogs.detailFields.transactionId",
+  },
+  { key: "action", labelKey: "admin.wafLogs.detailFields.action" },
+  { key: "mode", labelKey: "admin.wafLogs.detailFields.mode" },
+  { key: "status", labelKey: "admin.wafLogs.detailFields.status" },
+  { key: "client_ip", labelKey: "admin.wafLogs.detailFields.clientIp" },
+  { key: "ipLocation", labelKey: "admin.wafLogs.detailFields.ipLocation" },
+  { key: "remote_addr", labelKey: "admin.wafLogs.detailFields.remoteAddr" },
+  { key: "method", labelKey: "admin.wafLogs.detailFields.method" },
+  { key: "scheme", labelKey: "admin.wafLogs.detailFields.scheme" },
+  { key: "host", label: "Host" },
+  { key: "path", labelKey: "admin.wafLogs.detailFields.path" },
+  { key: "query", label: "Query" },
+  { key: "request_uri", labelKey: "admin.wafLogs.detailFields.requestUri" },
+  { key: "user_agent", label: "User-Agent" },
+  { key: "referer", label: "Referer" },
+  { key: "route_type", labelKey: "admin.wafLogs.detailFields.routeType" },
+  { key: "route_key", labelKey: "admin.wafLogs.detailFields.routeKey" },
+  { key: "upstream", labelKey: "admin.wafLogs.detailFields.upstream" },
+  { key: "bundle_id", labelKey: "admin.wafLogs.detailFields.bundleId" },
+  { key: "bundle_hash", label: "Bundle Hash" },
+  { key: "rule_ids", labelKey: "admin.wafLogs.detailFields.ruleIds" },
+  { key: "rules", labelKey: "admin.wafLogs.detailFields.rules" },
+  { key: "interruption", labelKey: "admin.wafLogs.detailFields.interruption" },
+  { key: "error", labelKey: "admin.wafLogs.detailFields.error" },
+] as const;
+
+export const useWafLogDisplay = ({
+  activeEvent,
+  activeEventWithIpLocation,
+  locale,
+  translate,
+}: {
+  activeEvent: Ref<WAFEvent | null>;
+  activeEventWithIpLocation: ComputedRef<
+    (WAFEvent & { ipLocation: string }) | null
+  >;
+  locale: Ref<string>;
+  translate: (key: string, params?: TranslateParams) => string;
+}) => {
+  const actionLabel = (value?: string) => {
+    switch (value) {
+      case "block":
+      case "deny":
+        return translate("admin.wafLogs.actions.block");
+      case "log":
+      case "detect":
+        return translate("admin.wafLogs.actions.record");
+      case "pass":
+        return translate("admin.wafLogs.actions.pass");
+      default:
+        return value || "-";
+    }
+  };
+
+  const actionVariant = (value?: string) => {
+    if (value === "block" || value === "deny") return "destructive";
+    if (value === "log" || value === "detect") return "secondary";
+    return "outline";
+  };
+
+  const modeLabel = (value?: string) => {
+    switch (value) {
+      case "detection":
+        return translate("admin.wafLogs.modes.detection");
+      case "blocking":
+        return translate("admin.wafLogs.modes.blocking");
+      case "off":
+        return translate("admin.wafLogs.modes.off");
+      default:
+        return value || "-";
+    }
+  };
+
+  const routeTypeLabel = (value?: string | null) =>
+    resolveRouteTypeLabel(value ?? undefined, translate);
+
+  const formatDate = (value?: string) =>
+    formatDateTimeSafe(value, { locale: locale.value });
+
+  const formatRuleIds = (value?: number[] | null) =>
+    value && value.length > 0 ? value.map((id) => `#${id}`).join(", ") : "-";
+
+  const getPrimaryRule = (event: WAFEvent): WAFRuleMatch | undefined => {
+    const rules = event.rules || [];
+    const interruptedRuleId = event.interruption?.rule_id;
+    const contributingRules = rules.filter(
+      (rule) => !isCRSBlockingEvaluationRule(rule),
+    );
+    if (interruptedRuleId) {
+      const interruptedRule = rules.find(
+        (rule) => rule.id === interruptedRuleId,
+      );
+      if (interruptedRule && !isCRSBlockingEvaluationRule(interruptedRule)) {
+        return interruptedRule;
+      }
+    }
+    return (
+      contributingRules.find(hasRuleDescription) ||
+      contributingRules.find((rule) => rule.disruptive) ||
+      contributingRules[0] ||
+      rules.find(hasRuleDescription) ||
+      rules.find((rule) => rule.disruptive) ||
+      rules[0]
+    );
+  };
+
+  const formatPrimaryRuleId = (event: WAFEvent) => {
+    const primaryRule = getPrimaryRule(event);
+    if (!primaryRule) return formatRuleIds(event.rule_ids);
+    const ruleIds = new Set([
+      ...(event.rule_ids || []),
+      ...(event.rules || []).map((rule) => rule.id),
+    ]);
+    const otherCount = Math.max(0, ruleIds.size - 1);
+    return otherCount > 0
+      ? translate("admin.wafLogs.moreRules", {
+          id: primaryRule.id,
+          count: otherCount,
+        })
+      : `#${primaryRule.id}`;
+  };
+
+  const formatRuleSummary = (event: WAFEvent) => {
+    const firstRule = getPrimaryRule(event);
+    if (!firstRule) return "";
+    return firstRule.message || firstRule.data || "";
+  };
+
+  const formatRuleFilePath = (value?: string | null) => {
+    const normalized = String(value || "")
+      .trim()
+      .replace(/\\/g, "/");
+    if (!normalized) return "";
+
+    const lowerPath = normalized.toLowerCase();
+    const lowerPrefix = WAF_RULE_PATH_PREFIX.toLowerCase();
+    if (lowerPath === lowerPrefix) return "";
+    if (lowerPath.startsWith(`${lowerPrefix}/`)) {
+      return normalized.slice(WAF_RULE_PATH_PREFIX.length + 1);
+    }
+
+    return normalized;
+  };
+
+  const formatRuleFileLocation = (rule: WAFRuleMatch) => {
+    const file = formatRuleFilePath(rule.file);
+    if (!file) return "";
+    return rule.line ? `${file}:${rule.line}` : file;
+  };
+
+  const formatRuleLocationSummary = (event: WAFEvent) => {
+    const firstRule = getPrimaryRule(event);
+    if (!firstRule?.file) return "";
+    return formatRuleFileLocation(firstRule);
+  };
+
+  const formatRules = (
+    value: WAFRuleMatch[] | undefined,
+    event?: WAFEvent | null,
+  ) => {
+    if (!value || value.length === 0) return "-";
+    const primaryRuleId = event ? getPrimaryRule(event)?.id : undefined;
+    return [...value]
+      .sort((left, right) => {
+        if (primaryRuleId) {
+          if (left.id === primaryRuleId) return -1;
+          if (right.id === primaryRuleId) return 1;
+        }
+        return 0;
+      })
+      .map((rule) => {
+        const parts = [`#${rule.id}`];
+        if (rule.phase) parts.push(`phase ${rule.phase}`);
+        if (rule.severity) parts.push(rule.severity);
+        const location = formatRuleFileLocation(rule);
+        if (location) parts.push(location);
+        if (rule.message) parts.push(rule.message);
+        return parts.join(" · ");
+      })
+      .join("\n");
+  };
+
+  const formatInterruption = (value: WAFInterruptionInfo | undefined) => {
+    if (!value) return "-";
+    return [
+      value.rule_id ? `rule ${value.rule_id}` : "",
+      value.action || "",
+      value.status ? `HTTP ${value.status}` : "",
+    ]
+      .filter(Boolean)
+      .join(" · ");
+  };
+
+  const localizedDetailFields = computed(() =>
+    detailFields.map((field) => ({
+      key: field.key,
+      label: "label" in field ? field.label : translate(field.labelKey),
+    })),
+  );
+
+  const detailItems = computed(() =>
+    buildDetailFields(
+      activeEventWithIpLocation.value,
+      localizedDetailFields.value,
+      {
+        format: (key, value) => {
+          if (key === "time") return formatDate(value as string);
+          if (key === "action") return actionLabel(String(value || ""));
+          if (key === "mode") return modeLabel(String(value || ""));
+          if (key === "route_type") return routeTypeLabel(String(value || ""));
+          if (key === "rule_ids") return formatRuleIds(value as number[]);
+          if (key === "rules")
+            return formatRules(value as WAFRuleMatch[], activeEvent.value);
+          if (key === "interruption")
+            return formatInterruption(value as WAFInterruptionInfo);
+          if (value === undefined || value === null || value === "") return "-";
+          return value;
+        },
+      },
+    ),
+  );
+
+  const detailCopyText = computed(() =>
+    detailItems.value
+      .map((item) => `${item.label}: ${String(item.value)}`)
+      .join("\n"),
+  );
+
+  return {
+    actionLabel,
+    actionVariant,
+    detailCopyText,
+    detailItems,
+    formatPrimaryRuleId,
+    formatRuleLocationSummary,
+    formatRuleSummary,
+    modeLabel,
+    routeTypeLabel,
+  };
+};

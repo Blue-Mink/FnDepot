@@ -1,1 +1,21 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRGlhbG9nVGl0bGVQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgRGlhbG9nVGl0bGUgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxEaWFsb2dUaXRsZVByb3BzICYgeyBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdIH0+KCkKCmNvbnN0IGRlbGVnYXRlZFByb3BzID0gcmVhY3RpdmVPbWl0KHByb3BzLCAiY2xhc3MiKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nVGl0bGUKICAgIGRhdGEtc2xvdD0ic2hlZXQtdGl0bGUiCiAgICA6Y2xhc3M9ImNuKCd0ZXh0LWZvcmVncm91bmQgZm9udC1zZW1pYm9sZCcsIHByb3BzLmNsYXNzKSIKICAgIHYtYmluZD0iZGVsZWdhdGVkUHJvcHMiCiAgPgogICAgPHNsb3QgLz4KICA8L0RpYWxvZ1RpdGxlPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { DialogTitleProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { DialogTitle } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<DialogTitleProps & { class?: HTMLAttributes["class"] }>()
+
+const delegatedProps = reactiveOmit(props, "class")
+</script>
+
+<template>
+  <DialogTitle
+    data-slot="sheet-title"
+    :class="cn('text-foreground font-semibold', props.class)"
+    v-bind="delegatedProps"
+  >
+    <slot />
+  </DialogTitle>
+</template>

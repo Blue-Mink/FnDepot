@@ -1,1 +1,26 @@
-IyBPbmUgc3Vic3RyaW5nIHBlciBsaW5lLiBNYXRjaGluZyBpMThuOnNjYW4gZmluZGluZ3MgYXJlIGlnbm9yZWQuCiMgS2VlcCB0aGlzIGZvciBwbGFubmVkIG5vbi1ydW50aW1lIHN1cmZhY2VzIG9yIGNvbnNjaW91c2x5IGRlZmVycmVkIG1pZ3JhdGlvbnMuCi4vUkVBRE1FLm1kOgouL2RlcGxveS9kb2NrZXIvUkVBRE1FLm1kOgpyb3V0ZURvYygiCndpdGhSb3V0ZURvYygiCmRlc2NyaXB0aW9uOiAiCumYv+mHjOS6kSBETlMK6IW+6K6v5LqRIEROUwrohb7orq/kupEgRWRnZU9uZQpjb3VudHJ5ID09PSAi5Lit5Zu9IgpbIuWPsOa5viIsICLpppnmuK8iLCAi5r6z6ZeoIl0KQ0lEUl9DSVRZX09OTFlfUFJPVklOQ0VTCktOT1dOX0NPVU5UUllfQ0hJTkEKW0FwcERpck1hbmFnZXJdCi8vIAoqIOacrOWcsOW9k+WJjeeJiOacrOWPtwoqIOi/lOWbnuS4jeWQqyBTU0wgY2VydC9rZXkg5Y6f5paH55qE6YWN572uCiog6Kej5p6QIFguNTA5IOivgeS5pgoqIOiOt+WPliBTU0wg54q25oCB5ZKM6K+B5Lmm57uT5p6E5YyW5L+h5oGvCiog6aqM6K+BIFNTTCDor4Hkuablkoznp4HpkqXmmK/lkKblkIjms5UKKiDmuIXpmaQgU1NMIOmFjee9rgo8dGl0bGU+CnNpdGVfdGl0bGUgPT09CiLnmbvlvZXlkI7oh6rliqjmjojmnYMiCiLnmbvlhaXlvozoh6rli5XmjojmrIoiCg==
+# One substring per line. Matching i18n:scan findings are ignored.
+# Keep this for planned non-runtime surfaces or consciously deferred migrations.
+./README.md:
+./deploy/docker/README.md:
+routeDoc("
+withRouteDoc("
+description: "
+阿里云 DNS
+腾讯云 DNS
+腾讯云 EdgeOne
+country === "中国"
+["台湾", "香港", "澳门"]
+CIDR_CITY_ONLY_PROVINCES
+KNOWN_COUNTRY_CHINA
+[AppDirManager]
+// 
+* 本地当前版本号
+* 返回不含 SSL cert/key 原文的配置
+* 解析 X.509 证书
+* 获取 SSL 状态和证书结构化信息
+* 验证 SSL 证书和私钥是否合法
+* 清除 SSL 配置
+<title>
+site_title ===
+"登录后自动授权"
+"登入後自動授權"

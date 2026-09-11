@@ -1,1 +1,61 @@
-aW1wb3J0IHsgcmVmIH0gZnJvbSAidnVlIjsKCmV4cG9ydCBjb25zdCB1c2VEZWxheWVkSG9zdFBvcG92ZXIgPSAoY2xvc2VEZWxheU1zID0gMTIwKSA9PiB7CiAgY29uc3Qgb3Blbkhvc3QgPSByZWY8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgbGV0IGNsb3NlVGltZXI6IG51bWJlciB8IG51bGwgPSBudWxsOwoKICBjb25zdCBjbGVhckNsb3NlVGltZXIgPSAoKSA9PiB7CiAgICBpZiAoY2xvc2VUaW1lciA9PT0gbnVsbCkgcmV0dXJuOwogICAgd2luZG93LmNsZWFyVGltZW91dChjbG9zZVRpbWVyKTsKICAgIGNsb3NlVGltZXIgPSBudWxsOwogIH07CgogIGNvbnN0IGlzT3BlbiA9IChob3N0OiBzdHJpbmcpOiBib29sZWFuID0+IG9wZW5Ib3N0LnZhbHVlID09PSBob3N0OwoKICBjb25zdCBvcGVuID0gKGhvc3Q6IHN0cmluZykgPT4gewogICAgY2xlYXJDbG9zZVRpbWVyKCk7CiAgICBvcGVuSG9zdC52YWx1ZSA9IGhvc3Q7CiAgfTsKCiAgY29uc3Qgc2NoZWR1bGVDbG9zZSA9IChob3N0OiBzdHJpbmcpID0+IHsKICAgIGlmIChvcGVuSG9zdC52YWx1ZSAhPT0gaG9zdCkgewogICAgICByZXR1cm47CiAgICB9CgogICAgY2xlYXJDbG9zZVRpbWVyKCk7CiAgICBjbG9zZVRpbWVyID0gd2luZG93LnNldFRpbWVvdXQoKCkgPT4gewogICAgICBpZiAob3Blbkhvc3QudmFsdWUgPT09IGhvc3QpIHsKICAgICAgICBvcGVuSG9zdC52YWx1ZSA9IG51bGw7CiAgICAgIH0KICAgICAgY2xvc2VUaW1lciA9IG51bGw7CiAgICB9LCBjbG9zZURlbGF5TXMpOwogIH07CgogIGNvbnN0IHRvZ2dsZSA9IChob3N0OiBzdHJpbmcpID0+IHsKICAgIGNsZWFyQ2xvc2VUaW1lcigpOwogICAgb3Blbkhvc3QudmFsdWUgPSBvcGVuSG9zdC52YWx1ZSA9PT0gaG9zdCA/IG51bGwgOiBob3N0OwogIH07CgogIGNvbnN0IGhhbmRsZU9wZW5DaGFuZ2UgPSAoaG9zdDogc3RyaW5nLCBuZXh0T3BlbjogYm9vbGVhbikgPT4gewogICAgY2xlYXJDbG9zZVRpbWVyKCk7CgogICAgaWYgKG5leHRPcGVuKSB7CiAgICAgIG9wZW5Ib3N0LnZhbHVlID0gaG9zdDsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGlmIChvcGVuSG9zdC52YWx1ZSA9PT0gaG9zdCkgewogICAgICBvcGVuSG9zdC52YWx1ZSA9IG51bGw7CiAgICB9CiAgfTsKCiAgcmV0dXJuIHsKICAgIGNsZWFyQ2xvc2VUaW1lciwKICAgIGhhbmRsZU9wZW5DaGFuZ2UsCiAgICBpc09wZW4sCiAgICBvcGVuLAogICAgb3Blbkhvc3QsCiAgICBzY2hlZHVsZUNsb3NlLAogICAgdG9nZ2xlLAogIH07Cn07Cg==
+import { ref } from "vue";
+
+export const useDelayedHostPopover = (closeDelayMs = 120) => {
+  const openHost = ref<string | null>(null);
+  let closeTimer: number | null = null;
+
+  const clearCloseTimer = () => {
+    if (closeTimer === null) return;
+    window.clearTimeout(closeTimer);
+    closeTimer = null;
+  };
+
+  const isOpen = (host: string): boolean => openHost.value === host;
+
+  const open = (host: string) => {
+    clearCloseTimer();
+    openHost.value = host;
+  };
+
+  const scheduleClose = (host: string) => {
+    if (openHost.value !== host) {
+      return;
+    }
+
+    clearCloseTimer();
+    closeTimer = window.setTimeout(() => {
+      if (openHost.value === host) {
+        openHost.value = null;
+      }
+      closeTimer = null;
+    }, closeDelayMs);
+  };
+
+  const toggle = (host: string) => {
+    clearCloseTimer();
+    openHost.value = openHost.value === host ? null : host;
+  };
+
+  const handleOpenChange = (host: string, nextOpen: boolean) => {
+    clearCloseTimer();
+
+    if (nextOpen) {
+      openHost.value = host;
+      return;
+    }
+
+    if (openHost.value === host) {
+      openHost.value = null;
+    }
+  };
+
+  return {
+    clearCloseTimer,
+    handleOpenChange,
+    isOpen,
+    open,
+    openHost,
+    scheduleClose,
+    toggle,
+  };
+};

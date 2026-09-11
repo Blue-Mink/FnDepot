@@ -1,1 +1,37 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKCiMgQ29tcGlsZSB0aGUgcHJvZHVjdGlvbiBsaWJyYXJ5L2JpbmFyeSB0YXJnZXRzIHdpdGggQ2xpcHB5J3MgbWFjcm8tc3BlY2lmaWMKIyBsaW50cy4gUnVzdCBldmFsdWF0ZXMgI1tjZmcodGVzdCldIGl0c2VsZiwgc28gdGVzdC1vbmx5IHBhbmljIHNpdGVzIGFyZQojIGV4Y2x1ZGVkIHdpdGhvdXQgdHJ5aW5nIHRvIGFwcHJveGltYXRlIFJ1c3Qgc2NvcGVzIGluIHNoZWxsLgoKUk9PVF9ESVI9IiQoY2QgIiQoZGlybmFtZSAiJHtCQVNIX1NPVVJDRVswXX0iKS8uLiIgJiYgcHdkKSIKTUFOSUZFU1RfUEFUSD0iJHtGTl9LTk9DS19SVVNUX1BBTklDX0dVQVJEX01BTklGRVNUOi0ke1JPT1RfRElSfS9hcHBzL3NlcnZlci1hZG1pbi1ycy9DYXJnby50b21sfSIKQ0FSR09fQklOPSIke0NBUkdPOi1jYXJnb30iCgpmYWlsKCkgewogIHByaW50ZiAnW3J1c3Q6cGFuaWMtZ3VhcmRdIEVSUk9SOiAlc1xuJyAiJCoiID4mMgogIGV4aXQgMQp9CgpbIC1mICIke01BTklGRVNUX1BBVEh9IiBdIHx8IGZhaWwgIkNhcmdvIG1hbmlmZXN0IG5vdCBmb3VuZDogJHtNQU5JRkVTVF9QQVRIfSIKY29tbWFuZCAtdiAiJHtDQVJHT19CSU59IiA+L2Rldi9udWxsIDI+JjEgfHwgZmFpbCAiY2FyZ28gbm90IGZvdW5kOiAke0NBUkdPX0JJTn0iCiIke0NBUkdPX0JJTn0iIGNsaXBweSAtLXZlcnNpb24gPi9kZXYvbnVsbCAyPiYxIHx8IGZhaWwgIkNsaXBweSBpcyByZXF1aXJlZDsgaW5zdGFsbCBpdCB3aXRoOiBydXN0dXAgY29tcG9uZW50IGFkZCBjbGlwcHkiCgptYW5pZmVzdF9kaXI9IiQoY2QgIiQoZGlybmFtZSAiJHtNQU5JRkVTVF9QQVRIfSIpIiAmJiBwd2QpIgpjYXJnb19hcmdzPSgKICBjbGlwcHkKICAtLW1hbmlmZXN0LXBhdGggIiR7TUFOSUZFU1RfUEFUSH0iCiAgLS1saWIKICAtLWJpbnMKKQppZiBbIC1mICIke21hbmlmZXN0X2Rpcn0vQ2FyZ28ubG9jayIgXTsgdGhlbgogIGNhcmdvX2FyZ3MrPSgtLWxvY2tlZCkKZmkKCnByaW50ZiAnW3J1c3Q6cGFuaWMtZ3VhcmRdIGNoZWNraW5nIHByb2R1Y3Rpb24gUnVzdCB0YXJnZXRzIHdpdGggQ2xpcHB5XG4nCiIke0NBUkdPX0JJTn0iICIke2NhcmdvX2FyZ3NbQF19IiAtLSBcCiAgLUQgY2xpcHB5OjpwYW5pYyBcCiAgLUQgY2xpcHB5Ojp0b2RvIFwKICAtRCBjbGlwcHk6OnVuaW1wbGVtZW50ZWQKcHJpbnRmICdbcnVzdDpwYW5pYy1ndWFyZF0gb2s6IHByb2R1Y3Rpb24gdGFyZ2V0cyBjb250YWluIG5vIHBhbmljIS90b2RvIS91bmltcGxlbWVudGVkIVxuJwo=
+#!/bin/bash
+set -euo pipefail
+
+# Compile the production library/binary targets with Clippy's macro-specific
+# lints. Rust evaluates #[cfg(test)] itself, so test-only panic sites are
+# excluded without trying to approximate Rust scopes in shell.
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+MANIFEST_PATH="${FN_KNOCK_RUST_PANIC_GUARD_MANIFEST:-${ROOT_DIR}/apps/server-admin-rs/Cargo.toml}"
+CARGO_BIN="${CARGO:-cargo}"
+
+fail() {
+  printf '[rust:panic-guard] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+[ -f "${MANIFEST_PATH}" ] || fail "Cargo manifest not found: ${MANIFEST_PATH}"
+command -v "${CARGO_BIN}" >/dev/null 2>&1 || fail "cargo not found: ${CARGO_BIN}"
+"${CARGO_BIN}" clippy --version >/dev/null 2>&1 || fail "Clippy is required; install it with: rustup component add clippy"
+
+manifest_dir="$(cd "$(dirname "${MANIFEST_PATH}")" && pwd)"
+cargo_args=(
+  clippy
+  --manifest-path "${MANIFEST_PATH}"
+  --lib
+  --bins
+)
+if [ -f "${manifest_dir}/Cargo.lock" ]; then
+  cargo_args+=(--locked)
+fi
+
+printf '[rust:panic-guard] checking production Rust targets with Clippy\n'
+"${CARGO_BIN}" "${cargo_args[@]}" -- \
+  -D clippy::panic \
+  -D clippy::todo \
+  -D clippy::unimplemented
+printf '[rust:panic-guard] ok: production targets contain no panic!/todo!/unimplemented!\n'

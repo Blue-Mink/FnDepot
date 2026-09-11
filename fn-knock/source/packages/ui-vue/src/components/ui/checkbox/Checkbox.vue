@@ -1,1 +1,36 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgQ2hlY2tib3hSb290RW1pdHMsIENoZWNrYm94Um9vdFByb3BzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHR5cGUgeyBIVE1MQXR0cmlidXRlcyB9IGZyb20gInZ1ZSIKaW1wb3J0IHsgcmVhY3RpdmVPbWl0IH0gZnJvbSAiQHZ1ZXVzZS9jb3JlIgppbXBvcnQgeyBDaGVjaywgTWludXMgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiCmltcG9ydCB7IENoZWNrYm94SW5kaWNhdG9yLCBDaGVja2JveFJvb3QsIHVzZUZvcndhcmRQcm9wc0VtaXRzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8Q2hlY2tib3hSb290UHJvcHMgJiB7IGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0gfT4oKQpjb25zdCBlbWl0cyA9IGRlZmluZUVtaXRzPENoZWNrYm94Um9vdEVtaXRzPigpCgpjb25zdCBkZWxlZ2F0ZWRQcm9wcyA9IHJlYWN0aXZlT21pdChwcm9wcywgImNsYXNzIikKCmNvbnN0IGZvcndhcmRlZCA9IHVzZUZvcndhcmRQcm9wc0VtaXRzKGRlbGVnYXRlZFByb3BzLCBlbWl0cykKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPENoZWNrYm94Um9vdAogICAgdi1zbG90PSJzbG90UHJvcHMiCiAgICBkYXRhLXNsb3Q9ImNoZWNrYm94IgogICAgdi1iaW5kPSJmb3J3YXJkZWQiCiAgICA6Y2xhc3M9IgogICAgICBjbigncGVlciBib3JkZXItaW5wdXQgZGF0YS1bc3RhdGU9Y2hlY2tlZF06YmctcHJpbWFyeSBkYXRhLVtzdGF0ZT1jaGVja2VkXTp0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCBkYXRhLVtzdGF0ZT1jaGVja2VkXTpib3JkZXItcHJpbWFyeSBmb2N1cy12aXNpYmxlOmJvcmRlci1yaW5nIGZvY3VzLXZpc2libGU6cmluZy1yaW5nLzUwIGFyaWEtaW52YWxpZDpyaW5nLWRlc3RydWN0aXZlLzIwIGRhcms6YXJpYS1pbnZhbGlkOnJpbmctZGVzdHJ1Y3RpdmUvNDAgYXJpYS1pbnZhbGlkOmJvcmRlci1kZXN0cnVjdGl2ZSBzaXplLTQgc2hyaW5rLTAgcm91bmRlZC1bNHB4XSBib3JkZXIgc2hhZG93LXhzIHRyYW5zaXRpb24tc2hhZG93IG91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctWzNweF0gZGlzYWJsZWQ6Y3Vyc29yLW5vdC1hbGxvd2VkIGRpc2FibGVkOm9wYWNpdHktNTAnLAogICAgICAgICBwcm9wcy5jbGFzcykiCiAgPgogICAgPENoZWNrYm94SW5kaWNhdG9yCiAgICAgIGRhdGEtc2xvdD0iY2hlY2tib3gtaW5kaWNhdG9yIgogICAgICBjbGFzcz0iZ3JpZCBwbGFjZS1jb250ZW50LWNlbnRlciB0ZXh0LWN1cnJlbnQgdHJhbnNpdGlvbi1ub25lIgogICAgPgogICAgICA8c2xvdCB2LWJpbmQ9InNsb3RQcm9wcyI+CiAgICAgICAgPE1pbnVzIHYtaWY9InNsb3RQcm9wcy5zdGF0ZSA9PT0gJ2luZGV0ZXJtaW5hdGUnIiBjbGFzcz0ic2l6ZS0zLjUiIC8+CiAgICAgICAgPENoZWNrIHYtZWxzZSBjbGFzcz0ic2l6ZS0zLjUiIC8+CiAgICAgIDwvc2xvdD4KICAgIDwvQ2hlY2tib3hJbmRpY2F0b3I+CiAgPC9DaGVja2JveFJvb3Q+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { CheckboxRootEmits, CheckboxRootProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { Check, Minus } from "lucide-vue-next"
+import { CheckboxIndicator, CheckboxRoot, useForwardPropsEmits } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<CheckboxRootProps & { class?: HTMLAttributes["class"] }>()
+const emits = defineEmits<CheckboxRootEmits>()
+
+const delegatedProps = reactiveOmit(props, "class")
+
+const forwarded = useForwardPropsEmits(delegatedProps, emits)
+</script>
+
+<template>
+  <CheckboxRoot
+    v-slot="slotProps"
+    data-slot="checkbox"
+    v-bind="forwarded"
+    :class="
+      cn('peer border-input data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-[4px] border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50',
+         props.class)"
+  >
+    <CheckboxIndicator
+      data-slot="checkbox-indicator"
+      class="grid place-content-center text-current transition-none"
+    >
+      <slot v-bind="slotProps">
+        <Minus v-if="slotProps.state === 'indeterminate'" class="size-3.5" />
+        <Check v-else class="size-3.5" />
+      </slot>
+    </CheckboxIndicator>
+  </CheckboxRoot>
+</template>

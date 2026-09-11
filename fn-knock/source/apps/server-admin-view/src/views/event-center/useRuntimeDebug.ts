@@ -1,1 +1,150 @@
-aW1wb3J0IHsKICBjb21wdXRlZCwKICBvbk1vdW50ZWQsCiAgb25Vbm1vdW50ZWQsCiAgcmVmLAogIHRvVmFsdWUsCiAgd2F0Y2gsCiAgdHlwZSBNYXliZVJlZk9yR2V0dGVyLAp9IGZyb20gInZ1ZSI7CmltcG9ydCB7IFJ1bnRpbWVIZWFsdGhBUEkgfSBmcm9tICJAL2xpYi9hcGkvcnVudGltZS1oZWFsdGgiOwppbXBvcnQgdHlwZSB7CiAgUnVudGltZURlYnVnUmVwb3J0LAogIFJ1bnRpbWVEZWJ1Z1Jlc3BvbnNlLAp9IGZyb20gIkAvdHlwZXMvcnVudGltZS1kZWJ1ZyI7Cgpjb25zdCBQT0xMX0lOVEVSVkFMX01TID0gMl8wMDA7CnR5cGUgRGVidWdBY3Rpb24gPSAic3RhcnQiIHwgInN0b3AiIHwgIm1lbW9yeSI7CgpleHBvcnQgY29uc3QgdXNlUnVudGltZURlYnVnID0gKG9wdGlvbnM6IHsKICBlbmFibGVkOiBNYXliZVJlZk9yR2V0dGVyPGJvb2xlYW4+Owp9KSA9PiB7CiAgY29uc3QgcmVwb3J0ID0gcmVmPFJ1bnRpbWVEZWJ1Z1JlcG9ydCB8IG51bGw+KG51bGwpOwogIGNvbnN0IGxvYWRpbmcgPSByZWYoZmFsc2UpOwogIGNvbnN0IGFjdGlvbiA9IHJlZjxEZWJ1Z0FjdGlvbiB8IG51bGw+KG51bGwpOwogIGNvbnN0IGVycm9yID0gcmVmKGZhbHNlKTsKICBjb25zdCB1bmF2YWlsYWJsZSA9IHJlZihmYWxzZSk7CiAgbGV0IG1vdW50ZWQgPSBmYWxzZTsKICBsZXQgdGltZXI6IFJldHVyblR5cGU8dHlwZW9mIHNldFRpbWVvdXQ+IHwgbnVsbCA9IG51bGw7CiAgbGV0IGNvbnRyb2xsZXI6IEFib3J0Q29udHJvbGxlciB8IG51bGwgPSBudWxsOwogIGxldCBnZW5lcmF0aW9uID0gMDsKICBsZXQgbGFzdFJlYWRBdCA9IC1JbmZpbml0eTsKCiAgY29uc3QgZW5hYmxlZCA9ICgpID0+IG1vdW50ZWQgJiYgdG9WYWx1ZShvcHRpb25zLmVuYWJsZWQpICYmICFkb2N1bWVudC5oaWRkZW47CiAgY29uc3QgY2xlYXJUaW1lciA9ICgpID0+IHsKICAgIGlmICh0aW1lciAhPT0gbnVsbCkgY2xlYXJUaW1lb3V0KHRpbWVyKTsKICAgIHRpbWVyID0gbnVsbDsKICB9OwogIGNvbnN0IGNhbmNlbFJlcXVlc3QgPSAoKSA9PiB7CiAgICArK2dlbmVyYXRpb247CiAgICBjb250cm9sbGVyPy5hYm9ydCgpOwogICAgY29udHJvbGxlciA9IG51bGw7CiAgICBsb2FkaW5nLnZhbHVlID0gZmFsc2U7CiAgICBhY3Rpb24udmFsdWUgPSBudWxsOwogIH07CiAgY29uc3Qgc2NoZWR1bGUgPSAoKSA9PiB7CiAgICBjbGVhclRpbWVyKCk7CiAgICBpZiAoIWVuYWJsZWQoKSB8fCB1bmF2YWlsYWJsZS52YWx1ZSkgcmV0dXJuOwogICAgdGltZXIgPSBzZXRUaW1lb3V0KCgpID0+IHZvaWQgcmVmcmVzaCgpLCBQT0xMX0lOVEVSVkFMX01TKTsKICB9OwogIGNvbnN0IHJlcXVlc3QgPSBhc3luYyAoCiAgICBmZXRjaGVyOiAoc2lnbmFsOiBBYm9ydFNpZ25hbCkgPT4gUHJvbWlzZTxSdW50aW1lRGVidWdSZXNwb25zZT4sCiAgICBtdXRhdGlvbjogRGVidWdBY3Rpb24gfCBudWxsID0gbnVsbCwKICApID0+IHsKICAgIGlmICghZW5hYmxlZCgpKSByZXR1cm47CiAgICBjbGVhclRpbWVyKCk7CiAgICBjYW5jZWxSZXF1ZXN0KCk7CiAgICBjb25zdCByZXF1ZXN0SWQgPSBnZW5lcmF0aW9uOwogICAgY29uc3QgcGVuZGluZ0NvbnRyb2xsZXIgPSBuZXcgQWJvcnRDb250cm9sbGVyKCk7CiAgICBjb250cm9sbGVyID0gcGVuZGluZ0NvbnRyb2xsZXI7CiAgICBsb2FkaW5nLnZhbHVlID0gdHJ1ZTsKICAgIGFjdGlvbi52YWx1ZSA9IG11dGF0aW9uOwogICAgZXJyb3IudmFsdWUgPSBmYWxzZTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGZldGNoZXIocGVuZGluZ0NvbnRyb2xsZXIuc2lnbmFsKTsKICAgICAgaWYgKAogICAgICAgIHJlcXVlc3RJZCAhPT0gZ2VuZXJhdGlvbiB8fAogICAgICAgIHBlbmRpbmdDb250cm9sbGVyLnNpZ25hbC5hYm9ydGVkIHx8CiAgICAgICAgIWVuYWJsZWQoKQogICAgICApCiAgICAgICAgcmV0dXJuOwogICAgICByZXBvcnQudmFsdWUgPSByZXN1bHQuZGF0YTsKICAgICAgdW5hdmFpbGFibGUudmFsdWUgPSBmYWxzZTsKICAgIH0gY2F0Y2ggKGNhdXNlKSB7CiAgICAgIGlmIChyZXF1ZXN0SWQgIT09IGdlbmVyYXRpb24gfHwgcGVuZGluZ0NvbnRyb2xsZXIuc2lnbmFsLmFib3J0ZWQpIHJldHVybjsKICAgICAgY29uc3Qgc3RhdHVzID0gKGNhdXNlIGFzIHsgcmVzcG9uc2U/OiB7IHN0YXR1cz86IG51bWJlciB9IH0pPy5yZXNwb25zZQogICAgICAgID8uc3RhdHVzOwogICAgICB1bmF2YWlsYWJsZS52YWx1ZSA9IHN0YXR1cyA9PT0gNDA0IHx8IHN0YXR1cyA9PT0gNTAxOwogICAgICBlcnJvci52YWx1ZSA9IHRydWU7CiAgICB9IGZpbmFsbHkgewogICAgICBpZiAocmVxdWVzdElkID09PSBnZW5lcmF0aW9uKSB7CiAgICAgICAgbG9hZGluZy52YWx1ZSA9IGZhbHNlOwogICAgICAgIGFjdGlvbi52YWx1ZSA9IG51bGw7CiAgICAgICAgY29udHJvbGxlciA9IG51bGw7CiAgICAgICAgc2NoZWR1bGUoKTsKICAgICAgfQogICAgfQogIH07CiAgY29uc3QgcmVmcmVzaCA9IGFzeW5jICgpID0+IHsKICAgIGlmICghZW5hYmxlZCgpIHx8IGxvYWRpbmcudmFsdWUpIHJldHVybjsKICAgIGNvbnN0IGRlbGF5ID0gUE9MTF9JTlRFUlZBTF9NUyAtIChEYXRlLm5vdygpIC0gbGFzdFJlYWRBdCk7CiAgICBpZiAoZGVsYXkgPiAwKSB7CiAgICAgIGNsZWFyVGltZXIoKTsKICAgICAgdGltZXIgPSBzZXRUaW1lb3V0KCgpID0+IHZvaWQgcmVmcmVzaCgpLCBkZWxheSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGxhc3RSZWFkQXQgPSBEYXRlLm5vdygpOwogICAgYXdhaXQgcmVxdWVzdChSdW50aW1lSGVhbHRoQVBJLmdldERlYnVnKTsKICB9OwogIGNvbnN0IHBlcmZvcm0gPSBhc3luYyAobmV4dEFjdGlvbjogRGVidWdBY3Rpb24pID0+IHsKICAgIGlmIChhY3Rpb24udmFsdWUgfHwgIXJlcG9ydC52YWx1ZSB8fCB1bmF2YWlsYWJsZS52YWx1ZSkgcmV0dXJuOwogICAgY29uc3QgZmV0Y2hlciA9CiAgICAgIG5leHRBY3Rpb24gPT09ICJzdGFydCIKICAgICAgICA/IFJ1bnRpbWVIZWFsdGhBUEkuc3RhcnREZWJ1Z0NhcHR1cmUKICAgICAgICA6IG5leHRBY3Rpb24gPT09ICJzdG9wIgogICAgICAgICAgPyBSdW50aW1lSGVhbHRoQVBJLnN0b3BEZWJ1Z0NhcHR1cmUKICAgICAgICAgIDogUnVudGltZUhlYWx0aEFQSS5yZWZyZXNoRGVidWdNZW1vcnk7CiAgICBhd2FpdCByZXF1ZXN0KGZldGNoZXIsIG5leHRBY3Rpb24pOwogIH07CiAgY29uc3Qgc3luYyA9ICgpID0+IHsKICAgIGNsZWFyVGltZXIoKTsKICAgIGNhbmNlbFJlcXVlc3QoKTsKICAgIGlmIChlbmFibGVkKCkpIHZvaWQgcmVmcmVzaCgpOwogIH07CiAgd2F0Y2goKCkgPT4gdG9WYWx1ZShvcHRpb25zLmVuYWJsZWQpLCBzeW5jKTsKICBvbk1vdW50ZWQoKCkgPT4gewogICAgbW91bnRlZCA9IHRydWU7CiAgICBkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCJ2aXNpYmlsaXR5Y2hhbmdlIiwgc3luYyk7CiAgICBzeW5jKCk7CiAgfSk7CiAgb25Vbm1vdW50ZWQoKCkgPT4gewogICAgbW91bnRlZCA9IGZhbHNlOwogICAgZG9jdW1lbnQucmVtb3ZlRXZlbnRMaXN0ZW5lcigidmlzaWJpbGl0eWNoYW5nZSIsIHN5bmMpOwogICAgY2xlYXJUaW1lcigpOwogICAgY2FuY2VsUmVxdWVzdCgpOwogIH0pOwoKICBjb25zdCBydW5uaW5nID0gY29tcHV0ZWQoKCkgPT4gcmVwb3J0LnZhbHVlPy5jYXB0dXJlLnN0YXR1cyA9PT0gInJ1bm5pbmciKTsKICBjb25zdCByZW1haW5pbmdTZWNvbmRzID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3QgY2FwdHVyZSA9IHJlcG9ydC52YWx1ZT8uY2FwdHVyZTsKICAgIHJldHVybiBjYXB0dXJlCiAgICAgID8gTWF0aC5tYXgoCiAgICAgICAgICAwLAogICAgICAgICAgTWF0aC5jZWlsKGNhcHR1cmUuZHVyYXRpb25fc2Vjb25kcyAtIGNhcHR1cmUuZWxhcHNlZF9tcyAvIDEwMDApLAogICAgICAgICkKICAgICAgOiAwOwogIH0pOwogIHJldHVybiB7CiAgICByZXBvcnQsCiAgICBsb2FkaW5nLAogICAgYWN0aW9uLAogICAgZXJyb3IsCiAgICB1bmF2YWlsYWJsZSwKICAgIHJ1bm5pbmcsCiAgICByZW1haW5pbmdTZWNvbmRzLAogICAgcmVmcmVzaCwKICAgIHN0YXJ0OiAoKSA9PiBwZXJmb3JtKCJzdGFydCIpLAogICAgc3RvcDogKCkgPT4gcGVyZm9ybSgic3RvcCIpLAogICAgcmVmcmVzaE1lbW9yeTogKCkgPT4gcGVyZm9ybSgibWVtb3J5IiksCiAgfTsKfTsK
+import {
+  computed,
+  onMounted,
+  onUnmounted,
+  ref,
+  toValue,
+  watch,
+  type MaybeRefOrGetter,
+} from "vue";
+import { RuntimeHealthAPI } from "@/lib/api/runtime-health";
+import type {
+  RuntimeDebugReport,
+  RuntimeDebugResponse,
+} from "@/types/runtime-debug";
+
+const POLL_INTERVAL_MS = 2_000;
+type DebugAction = "start" | "stop" | "memory";
+
+export const useRuntimeDebug = (options: {
+  enabled: MaybeRefOrGetter<boolean>;
+}) => {
+  const report = ref<RuntimeDebugReport | null>(null);
+  const loading = ref(false);
+  const action = ref<DebugAction | null>(null);
+  const error = ref(false);
+  const unavailable = ref(false);
+  let mounted = false;
+  let timer: ReturnType<typeof setTimeout> | null = null;
+  let controller: AbortController | null = null;
+  let generation = 0;
+  let lastReadAt = -Infinity;
+
+  const enabled = () => mounted && toValue(options.enabled) && !document.hidden;
+  const clearTimer = () => {
+    if (timer !== null) clearTimeout(timer);
+    timer = null;
+  };
+  const cancelRequest = () => {
+    ++generation;
+    controller?.abort();
+    controller = null;
+    loading.value = false;
+    action.value = null;
+  };
+  const schedule = () => {
+    clearTimer();
+    if (!enabled() || unavailable.value) return;
+    timer = setTimeout(() => void refresh(), POLL_INTERVAL_MS);
+  };
+  const request = async (
+    fetcher: (signal: AbortSignal) => Promise<RuntimeDebugResponse>,
+    mutation: DebugAction | null = null,
+  ) => {
+    if (!enabled()) return;
+    clearTimer();
+    cancelRequest();
+    const requestId = generation;
+    const pendingController = new AbortController();
+    controller = pendingController;
+    loading.value = true;
+    action.value = mutation;
+    error.value = false;
+    try {
+      const result = await fetcher(pendingController.signal);
+      if (
+        requestId !== generation ||
+        pendingController.signal.aborted ||
+        !enabled()
+      )
+        return;
+      report.value = result.data;
+      unavailable.value = false;
+    } catch (cause) {
+      if (requestId !== generation || pendingController.signal.aborted) return;
+      const status = (cause as { response?: { status?: number } })?.response
+        ?.status;
+      unavailable.value = status === 404 || status === 501;
+      error.value = true;
+    } finally {
+      if (requestId === generation) {
+        loading.value = false;
+        action.value = null;
+        controller = null;
+        schedule();
+      }
+    }
+  };
+  const refresh = async () => {
+    if (!enabled() || loading.value) return;
+    const delay = POLL_INTERVAL_MS - (Date.now() - lastReadAt);
+    if (delay > 0) {
+      clearTimer();
+      timer = setTimeout(() => void refresh(), delay);
+      return;
+    }
+    lastReadAt = Date.now();
+    await request(RuntimeHealthAPI.getDebug);
+  };
+  const perform = async (nextAction: DebugAction) => {
+    if (action.value || !report.value || unavailable.value) return;
+    const fetcher =
+      nextAction === "start"
+        ? RuntimeHealthAPI.startDebugCapture
+        : nextAction === "stop"
+          ? RuntimeHealthAPI.stopDebugCapture
+          : RuntimeHealthAPI.refreshDebugMemory;
+    await request(fetcher, nextAction);
+  };
+  const sync = () => {
+    clearTimer();
+    cancelRequest();
+    if (enabled()) void refresh();
+  };
+  watch(() => toValue(options.enabled), sync);
+  onMounted(() => {
+    mounted = true;
+    document.addEventListener("visibilitychange", sync);
+    sync();
+  });
+  onUnmounted(() => {
+    mounted = false;
+    document.removeEventListener("visibilitychange", sync);
+    clearTimer();
+    cancelRequest();
+  });
+
+  const running = computed(() => report.value?.capture.status === "running");
+  const remainingSeconds = computed(() => {
+    const capture = report.value?.capture;
+    return capture
+      ? Math.max(
+          0,
+          Math.ceil(capture.duration_seconds - capture.elapsed_ms / 1000),
+        )
+      : 0;
+  });
+  return {
+    report,
+    loading,
+    action,
+    error,
+    unavailable,
+    running,
+    remainingSeconds,
+    refresh,
+    start: () => perform("start"),
+    stop: () => perform("stop"),
+    refreshMemory: () => perform("memory"),
+  };
+};

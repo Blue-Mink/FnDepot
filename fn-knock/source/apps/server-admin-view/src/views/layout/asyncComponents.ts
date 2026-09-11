@@ -1,1 +1,22 @@
-aW1wb3J0IHsgZGVmaW5lQXN5bmNDb21wb25lbnQgfSBmcm9tICJ2dWUiOwoKY29uc3QgYXN5bmNTaGVldENvbXBvbmVudCA9ICgKICBuYW1lOiAiU2hlZXQiIHwgIlNoZWV0Q29udGVudCIgfCAiU2hlZXRIZWFkZXIiIHwgIlNoZWV0VGl0bGUiLAopID0+CiAgZGVmaW5lQXN5bmNDb21wb25lbnQoCiAgICBhc3luYyAoKSA9PiAoYXdhaXQgaW1wb3J0KCJAL2NvbXBvbmVudHMvdWkvc2hlZXQiKSlbbmFtZV0sCiAgKTsKCmV4cG9ydCBjb25zdCBDb25maXJtRGFuZ2VyUG9wb3ZlciA9IGRlZmluZUFzeW5jQ29tcG9uZW50KAogICgpID0+IGltcG9ydCgiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtRGFuZ2VyUG9wb3Zlci52dWUiKSwKKTsKZXhwb3J0IGNvbnN0IENvbnNvbGVBcHBsaWNhdGlvbkJhciA9IGRlZmluZUFzeW5jQ29tcG9uZW50KAogICgpID0+IGltcG9ydCgiLi9Db25zb2xlQXBwbGljYXRpb25CYXIudnVlIiksCik7CmV4cG9ydCBjb25zdCBMYXlvdXRMb2NhbGVEaWFsb2cgPSBkZWZpbmVBc3luY0NvbXBvbmVudCgKICAoKSA9PiBpbXBvcnQoIi4vTGF5b3V0TG9jYWxlRGlhbG9nLnZ1ZSIpLAopOwpleHBvcnQgY29uc3QgU2hlZXQgPSBhc3luY1NoZWV0Q29tcG9uZW50KCJTaGVldCIpOwpleHBvcnQgY29uc3QgU2hlZXRDb250ZW50ID0gYXN5bmNTaGVldENvbXBvbmVudCgiU2hlZXRDb250ZW50Iik7CmV4cG9ydCBjb25zdCBTaGVldEhlYWRlciA9IGFzeW5jU2hlZXRDb21wb25lbnQoIlNoZWV0SGVhZGVyIik7CmV4cG9ydCBjb25zdCBTaGVldFRpdGxlID0gYXN5bmNTaGVldENvbXBvbmVudCgiU2hlZXRUaXRsZSIpOwo=
+import { defineAsyncComponent } from "vue";
+
+const asyncSheetComponent = (
+  name: "Sheet" | "SheetContent" | "SheetHeader" | "SheetTitle",
+) =>
+  defineAsyncComponent(
+    async () => (await import("@/components/ui/sheet"))[name],
+  );
+
+export const ConfirmDangerPopover = defineAsyncComponent(
+  () => import("@admin-shared/components/common/ConfirmDangerPopover.vue"),
+);
+export const ConsoleApplicationBar = defineAsyncComponent(
+  () => import("./ConsoleApplicationBar.vue"),
+);
+export const LayoutLocaleDialog = defineAsyncComponent(
+  () => import("./LayoutLocaleDialog.vue"),
+);
+export const Sheet = asyncSheetComponent("Sheet");
+export const SheetContent = asyncSheetComponent("SheetContent");
+export const SheetHeader = asyncSheetComponent("SheetHeader");
+export const SheetTitle = asyncSheetComponent("SheetTitle");

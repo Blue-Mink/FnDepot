@@ -1,1 +1,520 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7IGhvc3RNYXBwaW5nVXNlc0F1dGggfSBmcm9tICJAL2xpYi9ob3N0LW1hcHBpbmctYXV0aCI7CmltcG9ydCB7IENvbmZpZ0FQSSB9IGZyb20gIkAvbGliL2FwaS9jb25maWciOwppbXBvcnQgdHlwZSB7CiAgQXV0aEFjY291bnQsCiAgSG9zdE1hcHBpbmcsCiAgU3RyZWFtTWFwcGluZywKICBUT1RQQ3JlZGVudGlhbCwKICBUT1RQU3ViZG9tYWluQWNjZXNzLAogIFRPVFBTdWJkb21haW5BY2Nlc3NNb2RlLAogIFRPVFBTdHJlYW1BY2Nlc3MsCn0gZnJvbSAiLi4vLi4vdHlwZXMiOwoKY29uc3QgQlVJTFRJTl9TRUxFQ1RfUEFHRV9BQ0NFU1NfSE9TVCA9ICJfX2J1aWx0aW5fc2VsZWN0X18iOwpjb25zdCBCVUlMVElOX1NFTEVDVF9QQUdFX1BBVEggPSAiL19fc2VsZWN0X18iOwpjb25zdCBCVUlMVElOX1dPTF9QQUdFX0FDQ0VTU19IT1NUID0gIl9fYnVpbHRpbl93b2xfXyI7CmNvbnN0IEJVSUxUSU5fV09MX1BBR0VfUEFUSCA9ICIvX193b2xfXyI7CmNvbnN0IERFRkFVTFRfU1VCRE9NQUlOX0FDQ0VTUzogVE9UUFN1YmRvbWFpbkFjY2VzcyA9IHsKICBtb2RlOiAiYWxsIiwKICBob3N0czogW10sCiAgc3RyZWFtczogW10sCn07CmNvbnN0IEhPU1RfQUNDRVNTX0tFWV9QUkVGSVggPSAiaG9zdDoiOwpjb25zdCBTVFJFQU1fQUNDRVNTX0tFWV9QUkVGSVggPSAic3RyZWFtOiI7Cgp0eXBlIFRyYW5zbGF0ZSA9IChrZXk6IHN0cmluZywgcGFyYW1zPzogUmVjb3JkPHN0cmluZywgdW5rbm93bj4pID0+IHN0cmluZzsKCnR5cGUgU3ViZG9tYWluQWNjZXNzT3B0aW9uID0gewogIGtleTogc3RyaW5nOwogIGtpbmQ6ICJob3N0IiB8ICJzdHJlYW0iOwogIGxhYmVsOiBzdHJpbmc7CiAgZGVzY3JpcHRpb246IHN0cmluZzsKICBzdGFsZT86IGJvb2xlYW47CiAgYnVpbHRpbj86IGJvb2xlYW47Cn07Cgp0eXBlIEF1dGhQZXJtaXNzaW9uUmVjb3JkID0gUGljazwKICBUT1RQQ3JlZGVudGlhbCwKICAiaWQiIHwgImFjY2Vzc19zY29wZXMiIHwgInN1YmRvbWFpbl9hY2Nlc3MiCj47CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplQXV0aFN1YmRvbWFpbkhvc3QgPSAodmFsdWU6IHVua25vd24pID0+IHsKICBjb25zdCByYXcgPSBTdHJpbmcodmFsdWUgPz8gIiIpCiAgICAudHJpbSgpCiAgICAudG9Mb3dlckNhc2UoKTsKICBpZiAoIXJhdykgcmV0dXJuICIiOwogIGlmICgKICAgIHJhdyA9PT0gQlVJTFRJTl9TRUxFQ1RfUEFHRV9BQ0NFU1NfSE9TVCB8fAogICAgcmF3ID09PSBCVUlMVElOX1NFTEVDVF9QQUdFX1BBVEgKICApIHsKICAgIHJldHVybiBCVUlMVElOX1NFTEVDVF9QQUdFX0FDQ0VTU19IT1NUOwogIH0KICBpZiAocmF3ID09PSBCVUlMVElOX1dPTF9QQUdFX0FDQ0VTU19IT1NUIHx8IHJhdyA9PT0gQlVJTFRJTl9XT0xfUEFHRV9QQVRIKSB7CiAgICByZXR1cm4gQlVJTFRJTl9XT0xfUEFHRV9BQ0NFU1NfSE9TVDsKICB9CgogIGxldCBob3N0OiBzdHJpbmc7CiAgdHJ5IHsKICAgIGNvbnN0IHBhcnNlZCA9IG5ldyBVUkwocmF3LmluY2x1ZGVzKCI6Ly8iKSA/IHJhdyA6IGBodHRwczovLyR7cmF3fWApOwogICAgaG9zdCA9IHBhcnNlZC5ob3N0bmFtZTsKICB9IGNhdGNoIHsKICAgIGNvbnN0IGhvc3RDYW5kaWRhdGUgPQogICAgICByYXcKICAgICAgICAucmVwbGFjZSgvXlthLXpdW2EtejAtOSsuLV0qOlwvXC8vaSwgIiIpCiAgICAgICAgLnJlcGxhY2UoL15bXkAvXHNdK0AvLCAiIikKICAgICAgICAuc3BsaXQoL1svPyNdLywgMSlbMF0gPz8gIiI7CiAgICBob3N0ID0gaG9zdENhbmRpZGF0ZS5yZXBsYWNlKC86XGQrJC8sICIiKTsKICB9CgogIGhvc3QgPSBob3N0LnRyaW0oKS50b0xvd2VyQ2FzZSgpLnJlcGxhY2UoL1wuKyQvLCAiIik7CiAgaWYgKCFob3N0IHx8IGhvc3QuaW5jbHVkZXMoIioiKSB8fCAvXHMvLnRlc3QoaG9zdCkpIHJldHVybiAiIjsKICByZXR1cm4gaG9zdDsKfTsKCmNvbnN0IGNvbXBhcmVTdWJkb21haW5BY2Nlc3NIb3N0cyA9IChsZWZ0OiBzdHJpbmcsIHJpZ2h0OiBzdHJpbmcpID0+IHsKICBpZiAobGVmdCA9PT0gQlVJTFRJTl9TRUxFQ1RfUEFHRV9BQ0NFU1NfSE9TVCkgcmV0dXJuIC0xOwogIGlmIChyaWdodCA9PT0gQlVJTFRJTl9TRUxFQ1RfUEFHRV9BQ0NFU1NfSE9TVCkgcmV0dXJuIDE7CiAgaWYgKGxlZnQgPT09IEJVSUxUSU5fV09MX1BBR0VfQUNDRVNTX0hPU1QpIHJldHVybiAtMTsKICBpZiAocmlnaHQgPT09IEJVSUxUSU5fV09MX1BBR0VfQUNDRVNTX0hPU1QpIHJldHVybiAxOwogIHJldHVybiBsZWZ0LmxvY2FsZUNvbXBhcmUocmlnaHQpOwp9OwoKZXhwb3J0IGNvbnN0IG5vcm1hbGl6ZUF1dGhTdWJkb21haW5BY2Nlc3MgPSAoCiAgdmFsdWU6IHVua25vd24sCik6IFRPVFBTdWJkb21haW5BY2Nlc3MgPT4gewogIGlmICgKICAgIHR5cGVvZiB2YWx1ZSAhPT0gIm9iamVjdCIgfHwKICAgIHZhbHVlID09PSBudWxsIHx8CiAgICAodmFsdWUgYXMgeyBtb2RlPzogdW5rbm93biB9KS5tb2RlICE9PSAiY3VzdG9tIgogICkgewogICAgcmV0dXJuIHsgLi4uREVGQVVMVF9TVUJET01BSU5fQUNDRVNTIH07CiAgfQoKICBjb25zdCBob3N0c1ZhbHVlID0gKHZhbHVlIGFzIHsgaG9zdHM/OiB1bmtub3duIH0pLmhvc3RzOwogIGNvbnN0IGhvc3RzID0gQXJyYXkuaXNBcnJheShob3N0c1ZhbHVlKQogICAgPyBbCiAgICAgICAgLi4ubmV3IFNldChob3N0c1ZhbHVlLm1hcChub3JtYWxpemVBdXRoU3ViZG9tYWluSG9zdCkuZmlsdGVyKEJvb2xlYW4pKSwKICAgICAgXS5zb3J0KGNvbXBhcmVTdWJkb21haW5BY2Nlc3NIb3N0cykKICAgIDogW107CiAgY29uc3Qgc3RyZWFtc1ZhbHVlID0gKHZhbHVlIGFzIHsgc3RyZWFtcz86IHVua25vd24gfSkuc3RyZWFtczsKICBjb25zdCBzdHJlYW1zID0gQXJyYXkuaXNBcnJheShzdHJlYW1zVmFsdWUpCiAgICA/IFsKICAgICAgICAuLi5uZXcgTWFwKAogICAgICAgICAgc3RyZWFtc1ZhbHVlCiAgICAgICAgICAgIC5tYXAobm9ybWFsaXplQXV0aFN0cmVhbUFjY2VzcykKICAgICAgICAgICAgLmZpbHRlcigoc3RyZWFtKTogc3RyZWFtIGlzIFRPVFBTdHJlYW1BY2Nlc3MgPT4gc3RyZWFtICE9PSBudWxsKQogICAgICAgICAgICAubWFwKChzdHJlYW0pID0+IFtjcmVhdGVBdXRoU3RyZWFtQWNjZXNzS2V5KHN0cmVhbSksIHN0cmVhbV0pLAogICAgICAgICkudmFsdWVzKCksCiAgICAgIF0uc29ydChjb21wYXJlQXV0aFN0cmVhbUFjY2VzcykKICAgIDogW107CiAgcmV0dXJuIHsgbW9kZTogImN1c3RvbSIsIGhvc3RzLCBzdHJlYW1zIH07Cn07CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplQXV0aFN0cmVhbUFjY2VzcyA9ICgKICB2YWx1ZTogdW5rbm93biwKKTogVE9UUFN0cmVhbUFjY2VzcyB8IG51bGwgPT4gewogIGlmICh0eXBlb2YgdmFsdWUgIT09ICJvYmplY3QiIHx8IHZhbHVlID09PSBudWxsKSByZXR1cm4gbnVsbDsKICBjb25zdCByYXdQcm90b2NvbCA9IFN0cmluZygodmFsdWUgYXMgeyBwcm90b2NvbD86IHVua25vd24gfSkucHJvdG9jb2wgPz8gIiIpCiAgICAudHJpbSgpCiAgICAudG9Mb3dlckNhc2UoKTsKICBjb25zdCBwcm90b2NvbCA9CiAgICByYXdQcm90b2NvbCA9PT0gInVkcCIgPyAidWRwIiA6IHJhd1Byb3RvY29sID09PSAidGNwIiA/ICJ0Y3AiIDogbnVsbDsKICBjb25zdCBsaXN0ZW5Qb3J0ID0gTnVtYmVyKCh2YWx1ZSBhcyB7IGxpc3Rlbl9wb3J0PzogdW5rbm93biB9KS5saXN0ZW5fcG9ydCk7CiAgaWYgKAogICAgcHJvdG9jb2wgPT09IG51bGwgfHwKICAgICFOdW1iZXIuaXNJbnRlZ2VyKGxpc3RlblBvcnQpIHx8CiAgICBsaXN0ZW5Qb3J0IDwgMSB8fAogICAgbGlzdGVuUG9ydCA+IDY1NTM1CiAgKSB7CiAgICByZXR1cm4gbnVsbDsKICB9CiAgcmV0dXJuIHsgcHJvdG9jb2wsIGxpc3Rlbl9wb3J0OiBsaXN0ZW5Qb3J0IH07Cn07CgpleHBvcnQgY29uc3QgY3JlYXRlQXV0aFN0cmVhbUFjY2Vzc0tleSA9IChzdHJlYW06IFRPVFBTdHJlYW1BY2Nlc3MpID0+CiAgYCR7U1RSRUFNX0FDQ0VTU19LRVlfUFJFRklYfSR7c3RyZWFtLnByb3RvY29sfToke3N0cmVhbS5saXN0ZW5fcG9ydH1gOwoKY29uc3QgY3JlYXRlQXV0aEhvc3RBY2Nlc3NLZXkgPSAoaG9zdDogc3RyaW5nKSA9PgogIGAke0hPU1RfQUNDRVNTX0tFWV9QUkVGSVh9JHtob3N0fWA7Cgpjb25zdCBjb21wYXJlQXV0aFN0cmVhbUFjY2VzcyA9ICgKICBsZWZ0OiBUT1RQU3RyZWFtQWNjZXNzLAogIHJpZ2h0OiBUT1RQU3RyZWFtQWNjZXNzLAopID0+CiAgbGVmdC5saXN0ZW5fcG9ydCA9PT0gcmlnaHQubGlzdGVuX3BvcnQKICAgID8gbGVmdC5wcm90b2NvbC5sb2NhbGVDb21wYXJlKHJpZ2h0LnByb3RvY29sKQogICAgOiBsZWZ0Lmxpc3Rlbl9wb3J0IC0gcmlnaHQubGlzdGVuX3BvcnQ7Cgpjb25zdCBwYXJzZUF1dGhTdHJlYW1BY2Nlc3NLZXkgPSAoa2V5OiBzdHJpbmcpOiBUT1RQU3RyZWFtQWNjZXNzIHwgbnVsbCA9PiB7CiAgaWYgKCFrZXkuc3RhcnRzV2l0aChTVFJFQU1fQUNDRVNTX0tFWV9QUkVGSVgpKSByZXR1cm4gbnVsbDsKICBjb25zdCBbcHJvdG9jb2wsIHJhd1BvcnQsIGV4dHJhXSA9IGtleQogICAgLnNsaWNlKFNUUkVBTV9BQ0NFU1NfS0VZX1BSRUZJWC5sZW5ndGgpCiAgICAuc3BsaXQoIjoiKTsKICBpZiAoZXh0cmEgIT09IHVuZGVmaW5lZCkgcmV0dXJuIG51bGw7CiAgcmV0dXJuIG5vcm1hbGl6ZUF1dGhTdHJlYW1BY2Nlc3MoewogICAgcHJvdG9jb2wsCiAgICBsaXN0ZW5fcG9ydDogTnVtYmVyKHJhd1BvcnQpLAogIH0pOwp9OwoKaW50ZXJmYWNlIFVzZUF1dGhTdWJkb21haW5BY2Nlc3NPcHRpb25zIHsKICBjcmVkZW50aWFsczogUmVmPFRPVFBDcmVkZW50aWFsW10+OwogIGhvc3RNYXBwaW5nczogUmVmPEhvc3RNYXBwaW5nW10+OwogIHN0cmVhbU1hcHBpbmdzOiBSZWY8U3RyZWFtTWFwcGluZ1tdPjsKICB3b2xGZWF0dXJlRW5hYmxlZDogUmVmPGJvb2xlYW4+OwogIHJlcGxhY2VBdXRoQWNjb3VudDogKGFjY291bnQ6IEF1dGhBY2NvdW50KSA9PiB2b2lkOwogIHRyYW5zbGF0ZTogVHJhbnNsYXRlOwp9CgpleHBvcnQgZnVuY3Rpb24gdXNlQXV0aFN1YmRvbWFpbkFjY2Vzcyh7CiAgY3JlZGVudGlhbHMsCiAgaG9zdE1hcHBpbmdzLAogIHN0cmVhbU1hcHBpbmdzLAogIHdvbEZlYXR1cmVFbmFibGVkLAogIHJlcGxhY2VBdXRoQWNjb3VudCwKICB0cmFuc2xhdGUsCn06IFVzZUF1dGhTdWJkb21haW5BY2Nlc3NPcHRpb25zKSB7CiAgY29uc3Qgc2hvd1N1YmRvbWFpbkFjY2Vzc0RpYWxvZyA9IHJlZihmYWxzZSk7CiAgY29uc3QgZWRpdGluZ1N1YmRvbWFpbkFjY2Vzc1RvdHAgPSByZWY8VE9UUENyZWRlbnRpYWwgfCBudWxsPihudWxsKTsKICBjb25zdCBlZGl0aW5nU3ViZG9tYWluQWNjZXNzQWNjb3VudCA9IHJlZjxBdXRoQWNjb3VudCB8IG51bGw+KG51bGwpOwogIGNvbnN0IHN1YmRvbWFpbkFjY2Vzc01vZGUgPSByZWY8VE9UUFN1YmRvbWFpbkFjY2Vzc01vZGU+KCJhbGwiKTsKICBjb25zdCBzZWxlY3RlZEFjY2Vzc0tleXMgPSByZWY8U2V0PHN0cmluZz4+KG5ldyBTZXQoKSk7CiAgY29uc3Qgc3ViZG9tYWluQWNjZXNzU2VhcmNoID0gcmVmKCIiKTsKICBjb25zdCB1cGRhdGluZ1N1YmRvbWFpbkFjY2Vzc0lkcyA9IHJlZjxTZXQ8c3RyaW5nPj4obmV3IFNldCgpKTsKCiAgY29uc3Qgbm9ybWFsaXplQ3JlZGVudGlhbCA9IChjcmVkZW50aWFsOiBUT1RQQ3JlZGVudGlhbCk6IFRPVFBDcmVkZW50aWFsID0+ICh7CiAgICAuLi5jcmVkZW50aWFsLAogICAgYWNjZXNzX3Njb3BlczogY3JlZGVudGlhbC5hY2Nlc3Nfc2NvcGVzIHx8IFtdLAogICAgc3ViZG9tYWluX2FjY2Vzczogbm9ybWFsaXplQXV0aFN1YmRvbWFpbkFjY2VzcyhjcmVkZW50aWFsLnN1YmRvbWFpbl9hY2Nlc3MpLAogIH0pOwoKICBjb25zdCBmb3JtYXRTdWJkb21haW5BY2Nlc3NIb3N0TGFiZWwgPSAoaG9zdDogc3RyaW5nKSA9PgogICAgaG9zdCA9PT0gQlVJTFRJTl9TRUxFQ1RfUEFHRV9BQ0NFU1NfSE9TVAogICAgICA/IHRyYW5zbGF0ZSgiYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb25CdWlsdGluU2VsZWN0TGFiZWwiKQogICAgICA6IGhvc3QgPT09IEJVSUxUSU5fV09MX1BBR0VfQUNDRVNTX0hPU1QKICAgICAgICA/IHRyYW5zbGF0ZSgiYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb25CdWlsdGluV29sTGFiZWwiKQogICAgICAgIDogaG9zdDsKCiAgY29uc3Qgc2VsZWN0ZWRBY2Nlc3NDb3VudCA9IGNvbXB1dGVkKCgpID0+IHNlbGVjdGVkQWNjZXNzS2V5cy52YWx1ZS5zaXplKTsKCiAgY29uc3Qgc3ViZG9tYWluQWNjZXNzT3B0aW9ucyA9IGNvbXB1dGVkPFN1YmRvbWFpbkFjY2Vzc09wdGlvbltdPigoKSA9PiB7CiAgICBjb25zdCBieUhvc3QgPSBuZXcgTWFwPHN0cmluZywgU3ViZG9tYWluQWNjZXNzT3B0aW9uPigpOwogICAgYnlIb3N0LnNldChjcmVhdGVBdXRoSG9zdEFjY2Vzc0tleShCVUlMVElOX1NFTEVDVF9QQUdFX0FDQ0VTU19IT1NUKSwgewogICAgICBrZXk6IGNyZWF0ZUF1dGhIb3N0QWNjZXNzS2V5KEJVSUxUSU5fU0VMRUNUX1BBR0VfQUNDRVNTX0hPU1QpLAogICAgICBraW5kOiAiaG9zdCIsCiAgICAgIGxhYmVsOiB0cmFuc2xhdGUoImFkbWluLmF1dGhTZXR0aW5ncy5wZXJtaXNzaW9uQnVpbHRpblNlbGVjdExhYmVsIiksCiAgICAgIGRlc2NyaXB0aW9uOiBCVUlMVElOX1NFTEVDVF9QQUdFX1BBVEgsCiAgICAgIGJ1aWx0aW46IHRydWUsCiAgICB9KTsKICAgIGlmICh3b2xGZWF0dXJlRW5hYmxlZC52YWx1ZSkgewogICAgICBieUhvc3Quc2V0KGNyZWF0ZUF1dGhIb3N0QWNjZXNzS2V5KEJVSUxUSU5fV09MX1BBR0VfQUNDRVNTX0hPU1QpLCB7CiAgICAgICAga2V5OiBjcmVhdGVBdXRoSG9zdEFjY2Vzc0tleShCVUlMVElOX1dPTF9QQUdFX0FDQ0VTU19IT1NUKSwKICAgICAgICBraW5kOiAiaG9zdCIsCiAgICAgICAgbGFiZWw6IHRyYW5zbGF0ZSgiYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb25CdWlsdGluV29sTGFiZWwiKSwKICAgICAgICBkZXNjcmlwdGlvbjogQlVJTFRJTl9XT0xfUEFHRV9QQVRILAogICAgICAgIGJ1aWx0aW46IHRydWUsCiAgICAgIH0pOwogICAgfQoKICAgIGZvciAoY29uc3QgbWFwcGluZyBvZiBob3N0TWFwcGluZ3MudmFsdWUpIHsKICAgICAgaWYgKCFob3N0TWFwcGluZ1VzZXNBdXRoKG1hcHBpbmcpKSB7CiAgICAgICAgY29udGludWU7CiAgICAgIH0KICAgICAgY29uc3QgaG9zdCA9IG5vcm1hbGl6ZUF1dGhTdWJkb21haW5Ib3N0KG1hcHBpbmcuaG9zdCk7CiAgICAgIGNvbnN0IGtleSA9IGNyZWF0ZUF1dGhIb3N0QWNjZXNzS2V5KGhvc3QpOwogICAgICBpZiAoIWhvc3QgfHwgYnlIb3N0LmhhcyhrZXkpKSBjb250aW51ZTsKICAgICAgY29uc3QgbGFiZWwgPQogICAgICAgIG1hcHBpbmcudGl0bGVfb3ZlcnJpZGUudHJpbSgpIHx8IG1hcHBpbmcudGl0bGUudHJpbSgpIHx8IG1hcHBpbmcuaG9zdDsKICAgICAgYnlIb3N0LnNldChrZXksIHsKICAgICAgICBrZXksCiAgICAgICAga2luZDogImhvc3QiLAogICAgICAgIGxhYmVsLAogICAgICAgIGRlc2NyaXB0aW9uOiBob3N0LAogICAgICAgIHN0YWxlOiBmYWxzZSwKICAgICAgfSk7CiAgICB9CgogICAgZm9yIChjb25zdCBtYXBwaW5nIG9mIHN0cmVhbU1hcHBpbmdzLnZhbHVlKSB7CiAgICAgIGlmIChtYXBwaW5nLnVzZV9hdXRoICE9PSB0cnVlKSBjb250aW51ZTsKICAgICAgY29uc3Qgc3RyZWFtID0gbm9ybWFsaXplQXV0aFN0cmVhbUFjY2VzcyhtYXBwaW5nKTsKICAgICAgaWYgKCFzdHJlYW0pIGNvbnRpbnVlOwogICAgICBjb25zdCBrZXkgPSBjcmVhdGVBdXRoU3RyZWFtQWNjZXNzS2V5KHN0cmVhbSk7CiAgICAgIGJ5SG9zdC5zZXQoa2V5LCB7CiAgICAgICAga2V5LAogICAgICAgIGtpbmQ6ICJzdHJlYW0iLAogICAgICAgIGxhYmVsOiBgJHtzdHJlYW0ucHJvdG9jb2wudG9VcHBlckNhc2UoKX0vJHtzdHJlYW0ubGlzdGVuX3BvcnR9YCwKICAgICAgICBkZXNjcmlwdGlvbjogbWFwcGluZy5zZXJ2aWNlX3Byb2ZpbGU/LnNlcnZpY2VfaWQKICAgICAgICAgID8gYCR7bWFwcGluZy50YXJnZXR9IMK3ICR7bWFwcGluZy5zZXJ2aWNlX3Byb2ZpbGUuc2VydmljZV9pZH0kewogICAgICAgICAgICAgIG1hcHBpbmcuc2VydmljZV9wcm9maWxlLmRldmljZV9yb2xlCiAgICAgICAgICAgICAgICA/IGAgwrcgJHttYXBwaW5nLnNlcnZpY2VfcHJvZmlsZS5kZXZpY2Vfcm9sZX1gCiAgICAgICAgICAgICAgICA6ICIiCiAgICAgICAgICAgIH1gCiAgICAgICAgICA6IG1hcHBpbmcudGFyZ2V0LAogICAgICAgIHN0YWxlOiBmYWxzZSwKICAgICAgfSk7CiAgICB9CgogICAgZm9yIChjb25zdCBrZXkgb2Ygc2VsZWN0ZWRBY2Nlc3NLZXlzLnZhbHVlKSB7CiAgICAgIGlmIChieUhvc3QuaGFzKGtleSkpIGNvbnRpbnVlOwogICAgICBjb25zdCBzdHJlYW0gPSBwYXJzZUF1dGhTdHJlYW1BY2Nlc3NLZXkoa2V5KTsKICAgICAgY29uc3QgaG9zdCA9IGtleS5zdGFydHNXaXRoKEhPU1RfQUNDRVNTX0tFWV9QUkVGSVgpCiAgICAgICAgPyBrZXkuc2xpY2UoSE9TVF9BQ0NFU1NfS0VZX1BSRUZJWC5sZW5ndGgpCiAgICAgICAgOiAiIjsKICAgICAgaWYgKCFzdHJlYW0gJiYgIWhvc3QpIGNvbnRpbnVlOwogICAgICBieUhvc3Quc2V0KGtleSwgewogICAgICAgIGtleSwKICAgICAgICBraW5kOiBzdHJlYW0gPyAic3RyZWFtIiA6ICJob3N0IiwKICAgICAgICBsYWJlbDogc3RyZWFtCiAgICAgICAgICA/IGAke3N0cmVhbS5wcm90b2NvbC50b1VwcGVyQ2FzZSgpfS8ke3N0cmVhbS5saXN0ZW5fcG9ydH1gCiAgICAgICAgICA6IGZvcm1hdFN1YmRvbWFpbkFjY2Vzc0hvc3RMYWJlbChob3N0KSwKICAgICAgICBkZXNjcmlwdGlvbjogc3RyZWFtCiAgICAgICAgICA/IHRyYW5zbGF0ZSgiYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb25NaXNzaW5nU3RyZWFtIikKICAgICAgICAgIDogaG9zdCwKICAgICAgICBzdGFsZTogdHJ1ZSwKICAgICAgfSk7CiAgICB9CgogICAgY29uc3Qgb3B0aW9ucyA9IFsuLi5ieUhvc3QudmFsdWVzKCldOwogICAgcmV0dXJuIFsKICAgICAgLi4ub3B0aW9ucy5maWx0ZXIoKG9wdGlvbikgPT4gb3B0aW9uLmJ1aWx0aW4pLAogICAgICAuLi5vcHRpb25zCiAgICAgICAgLmZpbHRlcigob3B0aW9uKSA9PiAhb3B0aW9uLmJ1aWx0aW4pCiAgICAgICAgLnNvcnQoKGxlZnQsIHJpZ2h0KSA9PiB7CiAgICAgICAgICBpZiAobGVmdC5raW5kICE9PSByaWdodC5raW5kKSByZXR1cm4gbGVmdC5raW5kID09PSAiaG9zdCIgPyAtMSA6IDE7CiAgICAgICAgICByZXR1cm4gbGVmdC5rZXkubG9jYWxlQ29tcGFyZShyaWdodC5rZXkpOwogICAgICAgIH0pLAogICAgXTsKICB9KTsKCiAgY29uc3QgZmlsdGVyZWRTdWJkb21haW5BY2Nlc3NPcHRpb25zID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3Qga2V5d29yZCA9IHN1YmRvbWFpbkFjY2Vzc1NlYXJjaC52YWx1ZS50cmltKCkudG9Mb3dlckNhc2UoKTsKICAgIGlmICgha2V5d29yZCkgcmV0dXJuIHN1YmRvbWFpbkFjY2Vzc09wdGlvbnMudmFsdWU7CiAgICByZXR1cm4gc3ViZG9tYWluQWNjZXNzT3B0aW9ucy52YWx1ZS5maWx0ZXIoCiAgICAgIChvcHRpb24pID0+CiAgICAgICAgb3B0aW9uLmtleS5pbmNsdWRlcyhrZXl3b3JkKSB8fAogICAgICAgIG9wdGlvbi5kZXNjcmlwdGlvbi50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKGtleXdvcmQpIHx8CiAgICAgICAgb3B0aW9uLmxhYmVsLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMoa2V5d29yZCksCiAgICApOwogIH0pOwoKICBjb25zdCB7IGlzUGVuZGluZzogaXNTYXZpbmdTdWJkb21haW5BY2Nlc3MsIHJ1bjogcnVuU2F2ZVN1YmRvbWFpbkFjY2VzcyB9ID0KICAgIHVzZUFzeW5jQWN0aW9uKHsKICAgICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgICAgdG9hc3QuZXJyb3IoCiAgICAgICAgICBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgICBlcnJvciwKICAgICAgICAgICAgdHJhbnNsYXRlKCJhZG1pbi5hdXRoU2V0dGluZ3MucGVybWlzc2lvblVwZGF0ZUZhaWxlZCIpLAogICAgICAgICAgKSwKICAgICAgICApOwogICAgICB9LAogICAgfSk7CgogIGZ1bmN0aW9uIGdldFN1YmRvbWFpbkFjY2VzcygKICAgIHJlY29yZDogUGljazxUT1RQQ3JlZGVudGlhbCB8IEF1dGhBY2NvdW50LCAic3ViZG9tYWluX2FjY2VzcyI+LAogICkgewogICAgcmV0dXJuIG5vcm1hbGl6ZUF1dGhTdWJkb21haW5BY2Nlc3MocmVjb3JkLnN1YmRvbWFpbl9hY2Nlc3MpOwogIH0KCiAgZnVuY3Rpb24gb3BlblN1YmRvbWFpbkFjY2Vzc0RpYWxvZyh0b3RwOiBUT1RQQ3JlZGVudGlhbCkgewogICAgY29uc3QgYWNjZXNzID0gZ2V0U3ViZG9tYWluQWNjZXNzKHRvdHApOwogICAgZWRpdGluZ1N1YmRvbWFpbkFjY2Vzc1RvdHAudmFsdWUgPSB0b3RwOwogICAgZWRpdGluZ1N1YmRvbWFpbkFjY2Vzc0FjY291bnQudmFsdWUgPSBudWxsOwogICAgc3ViZG9tYWluQWNjZXNzTW9kZS52YWx1ZSA9IGFjY2Vzcy5tb2RlOwogICAgc2VsZWN0ZWRBY2Nlc3NLZXlzLnZhbHVlID0gbmV3IFNldChbCiAgICAgIC4uLmFjY2Vzcy5ob3N0cy5tYXAoY3JlYXRlQXV0aEhvc3RBY2Nlc3NLZXkpLAogICAgICAuLi5hY2Nlc3Muc3RyZWFtcy5tYXAoY3JlYXRlQXV0aFN0cmVhbUFjY2Vzc0tleSksCiAgICBdKTsKICAgIHN1YmRvbWFpbkFjY2Vzc1NlYXJjaC52YWx1ZSA9ICIiOwogICAgc2hvd1N1YmRvbWFpbkFjY2Vzc0RpYWxvZy52YWx1ZSA9IHRydWU7CiAgfQoKICBmdW5jdGlvbiBvcGVuQWNjb3VudFN1YmRvbWFpbkFjY2Vzc0RpYWxvZyhhY2NvdW50OiBBdXRoQWNjb3VudCkgewogICAgY29uc3QgYWNjZXNzID0gZ2V0U3ViZG9tYWluQWNjZXNzKGFjY291bnQpOwogICAgZWRpdGluZ1N1YmRvbWFpbkFjY2Vzc1RvdHAudmFsdWUgPSBudWxsOwogICAgZWRpdGluZ1N1YmRvbWFpbkFjY2Vzc0FjY291bnQudmFsdWUgPSBhY2NvdW50OwogICAgc3ViZG9tYWluQWNjZXNzTW9kZS52YWx1ZSA9IGFjY2Vzcy5tb2RlOwogICAgc2VsZWN0ZWRBY2Nlc3NLZXlzLnZhbHVlID0gbmV3IFNldChbCiAgICAgIC4uLmFjY2Vzcy5ob3N0cy5tYXAoY3JlYXRlQXV0aEhvc3RBY2Nlc3NLZXkpLAogICAgICAuLi5hY2Nlc3Muc3RyZWFtcy5tYXAoY3JlYXRlQXV0aFN0cmVhbUFjY2Vzc0tleSksCiAgICBdKTsKICAgIHN1YmRvbWFpbkFjY2Vzc1NlYXJjaC52YWx1ZSA9ICIiOwogICAgc2hvd1N1YmRvbWFpbkFjY2Vzc0RpYWxvZy52YWx1ZSA9IHRydWU7CiAgfQoKICBmdW5jdGlvbiBjbG9zZVN1YmRvbWFpbkFjY2Vzc0RpYWxvZygpIHsKICAgIHNob3dTdWJkb21haW5BY2Nlc3NEaWFsb2cudmFsdWUgPSBmYWxzZTsKICAgIGVkaXRpbmdTdWJkb21haW5BY2Nlc3NUb3RwLnZhbHVlID0gbnVsbDsKICAgIGVkaXRpbmdTdWJkb21haW5BY2Nlc3NBY2NvdW50LnZhbHVlID0gbnVsbDsKICAgIHN1YmRvbWFpbkFjY2Vzc01vZGUudmFsdWUgPSAiYWxsIjsKICAgIHNlbGVjdGVkQWNjZXNzS2V5cy52YWx1ZSA9IG5ldyBTZXQoKTsKICAgIHN1YmRvbWFpbkFjY2Vzc1NlYXJjaC52YWx1ZSA9ICIiOwogIH0KCiAgZnVuY3Rpb24gdG9nZ2xlQWNjZXNzT3B0aW9uKGtleTogc3RyaW5nLCBjaGVja2VkOiBib29sZWFuKSB7CiAgICBpZiAoCiAgICAgICFrZXkuc3RhcnRzV2l0aChIT1NUX0FDQ0VTU19LRVlfUFJFRklYKSAmJgogICAgICAha2V5LnN0YXJ0c1dpdGgoU1RSRUFNX0FDQ0VTU19LRVlfUFJFRklYKQogICAgKSB7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGNvbnN0IG5leHQgPSBuZXcgU2V0KHNlbGVjdGVkQWNjZXNzS2V5cy52YWx1ZSk7CiAgICBpZiAoY2hlY2tlZCkgewogICAgICBuZXh0LmFkZChrZXkpOwogICAgfSBlbHNlIHsKICAgICAgbmV4dC5kZWxldGUoa2V5KTsKICAgIH0KICAgIHNlbGVjdGVkQWNjZXNzS2V5cy52YWx1ZSA9IG5leHQ7CiAgfQoKICBmdW5jdGlvbiBzZWxlY3RBY2Nlc3NPcHRpb25zKGtleXM6IEl0ZXJhYmxlPHN0cmluZz4pIHsKICAgIGNvbnN0IG5leHQgPSBuZXcgU2V0KHNlbGVjdGVkQWNjZXNzS2V5cy52YWx1ZSk7CiAgICBmb3IgKGNvbnN0IGtleSBvZiBrZXlzKSB7CiAgICAgIG5leHQuYWRkKGtleSk7CiAgICB9CiAgICBzZWxlY3RlZEFjY2Vzc0tleXMudmFsdWUgPSBuZXh0OwogIH0KCiAgZnVuY3Rpb24gY2xlYXJTZWxlY3RlZEFjY2Vzc09wdGlvbnMoKSB7CiAgICBzZWxlY3RlZEFjY2Vzc0tleXMudmFsdWUgPSBuZXcgU2V0KCk7CiAgfQoKICBmdW5jdGlvbiBpc1N1YmRvbWFpbkFjY2Vzc1VwZGF0aW5nKGlkOiBzdHJpbmcpIHsKICAgIHJldHVybiB1cGRhdGluZ1N1YmRvbWFpbkFjY2Vzc0lkcy52YWx1ZS5oYXMoaWQpOwogIH0KCiAgZnVuY3Rpb24gc2V0U3ViZG9tYWluQWNjZXNzVXBkYXRpbmcoaWQ6IHN0cmluZywgcGVuZGluZzogYm9vbGVhbikgewogICAgY29uc3QgbmV4dCA9IG5ldyBTZXQodXBkYXRpbmdTdWJkb21haW5BY2Nlc3NJZHMudmFsdWUpOwogICAgaWYgKHBlbmRpbmcpIHsKICAgICAgbmV4dC5hZGQoaWQpOwogICAgfSBlbHNlIHsKICAgICAgbmV4dC5kZWxldGUoaWQpOwogICAgfQogICAgdXBkYXRpbmdTdWJkb21haW5BY2Nlc3NJZHMudmFsdWUgPSBuZXh0OwogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlU2F2ZVN1YmRvbWFpbkFjY2VzcygpIHsKICAgIGNvbnN0IHRhcmdldCA9CiAgICAgIGVkaXRpbmdTdWJkb21haW5BY2Nlc3NBY2NvdW50LnZhbHVlIHx8IGVkaXRpbmdTdWJkb21haW5BY2Nlc3NUb3RwLnZhbHVlOwogICAgaWYgKCF0YXJnZXQpIHJldHVybjsKCiAgICBjb25zdCBzdWJkb21haW5BY2Nlc3M6IFRPVFBTdWJkb21haW5BY2Nlc3MgPQogICAgICBzdWJkb21haW5BY2Nlc3NNb2RlLnZhbHVlID09PSAiY3VzdG9tIgogICAgICAgID8gewogICAgICAgICAgICBtb2RlOiAiY3VzdG9tIiwKICAgICAgICAgICAgaG9zdHM6IFsuLi5zZWxlY3RlZEFjY2Vzc0tleXMudmFsdWVdCiAgICAgICAgICAgICAgLmZpbHRlcigoa2V5KSA9PiBrZXkuc3RhcnRzV2l0aChIT1NUX0FDQ0VTU19LRVlfUFJFRklYKSkKICAgICAgICAgICAgICAubWFwKChrZXkpID0+CiAgICAgICAgICAgICAgICBub3JtYWxpemVBdXRoU3ViZG9tYWluSG9zdCgKICAgICAgICAgICAgICAgICAga2V5LnNsaWNlKEhPU1RfQUNDRVNTX0tFWV9QUkVGSVgubGVuZ3RoKSwKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgKQogICAgICAgICAgICAgIC5maWx0ZXIoQm9vbGVhbikKICAgICAgICAgICAgICAuc29ydChjb21wYXJlU3ViZG9tYWluQWNjZXNzSG9zdHMpLAogICAgICAgICAgICBzdHJlYW1zOiBbLi4uc2VsZWN0ZWRBY2Nlc3NLZXlzLnZhbHVlXQogICAgICAgICAgICAgIC5tYXAocGFyc2VBdXRoU3RyZWFtQWNjZXNzS2V5KQogICAgICAgICAgICAgIC5maWx0ZXIoKHN0cmVhbSk6IHN0cmVhbSBpcyBUT1RQU3RyZWFtQWNjZXNzID0+IHN0cmVhbSAhPT0gbnVsbCkKICAgICAgICAgICAgICAuc29ydChjb21wYXJlQXV0aFN0cmVhbUFjY2VzcyksCiAgICAgICAgICB9CiAgICAgICAgOiB7IG1vZGU6ICJhbGwiLCBob3N0czogW10sIHN0cmVhbXM6IFtdIH07CgogICAgc2V0U3ViZG9tYWluQWNjZXNzVXBkYXRpbmcodGFyZ2V0LmlkLCB0cnVlKTsKICAgIHRyeSB7CiAgICAgIGF3YWl0IHJ1blNhdmVTdWJkb21haW5BY2Nlc3MoYXN5bmMgKCkgPT4gewogICAgICAgIGlmIChlZGl0aW5nU3ViZG9tYWluQWNjZXNzQWNjb3VudC52YWx1ZSkgewogICAgICAgICAgY29uc3QgdXBkYXRlZCA9IGF3YWl0IENvbmZpZ0FQSS51cGRhdGVBdXRoQWNjb3VudFN1YmRvbWFpbkFjY2VzcygKICAgICAgICAgICAgdGFyZ2V0LmlkLAogICAgICAgICAgICBzdWJkb21haW5BY2Nlc3MsCiAgICAgICAgICApOwogICAgICAgICAgcmVwbGFjZUF1dGhBY2NvdW50KHVwZGF0ZWQpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICBjb25zdCB1cGRhdGVkID0gbm9ybWFsaXplQ3JlZGVudGlhbCgKICAgICAgICAgICAgYXdhaXQgQ29uZmlnQVBJLnVwZGF0ZVRPVFBTdWJkb21haW5BY2Nlc3MoCiAgICAgICAgICAgICAgdGFyZ2V0LmlkLAogICAgICAgICAgICAgIHN1YmRvbWFpbkFjY2VzcywKICAgICAgICAgICAgKSwKICAgICAgICAgICk7CiAgICAgICAgICBjb25zdCBleGlzdGluZyA9IGNyZWRlbnRpYWxzLnZhbHVlLmZpbmQoCiAgICAgICAgICAgIChpdGVtKSA9PiBpdGVtLmlkID09PSB0YXJnZXQuaWQsCiAgICAgICAgICApOwogICAgICAgICAgaWYgKGV4aXN0aW5nKSB7CiAgICAgICAgICAgIE9iamVjdC5hc3NpZ24oZXhpc3RpbmcsIHVwZGF0ZWQpOwogICAgICAgICAgfQogICAgICAgIH0KICAgICAgICB0b2FzdC5zdWNjZXNzKHRyYW5zbGF0ZSgiYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb25VcGRhdGVkIikpOwogICAgICAgIGNsb3NlU3ViZG9tYWluQWNjZXNzRGlhbG9nKCk7CiAgICAgIH0pOwogICAgfSBmaW5hbGx5IHsKICAgICAgc2V0U3ViZG9tYWluQWNjZXNzVXBkYXRpbmcodGFyZ2V0LmlkLCBmYWxzZSk7CiAgICB9CiAgfQoKICBjb25zdCBnZXRTdWJkb21haW5BY2Nlc3NTdW1tYXJ5ID0gKHJlY29yZDogQXV0aFBlcm1pc3Npb25SZWNvcmQpID0+IHsKICAgIGNvbnN0IGFjY2VzcyA9IGdldFN1YmRvbWFpbkFjY2VzcyhyZWNvcmQpOwogICAgaWYgKGFjY2Vzcy5tb2RlICE9PSAiY3VzdG9tIikgewogICAgICByZXR1cm4gdHJhbnNsYXRlKCJhZG1pbi5hdXRoU2V0dGluZ3MucGVybWlzc2lvbkFsbCIpOwogICAgfQogICAgaWYgKGFjY2Vzcy5ob3N0cy5sZW5ndGggKyBhY2Nlc3Muc3RyZWFtcy5sZW5ndGggPT09IDApIHsKICAgICAgcmV0dXJuIHRyYW5zbGF0ZSgiYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb25DdXN0b21FbXB0eSIpOwogICAgfQogICAgcmV0dXJuIHRyYW5zbGF0ZSgiYWRtaW4uYXV0aFNldHRpbmdzLnBlcm1pc3Npb25DdXN0b21TdW1tYXJ5IiwgewogICAgICBjb3VudDogYWNjZXNzLmhvc3RzLmxlbmd0aCArIGFjY2Vzcy5zdHJlYW1zLmxlbmd0aCwKICAgIH0pOwogIH07CgogIGNvbnN0IGdldFN1YmRvbWFpbkFjY2Vzc1ByZXZpZXcgPSAocmVjb3JkOiBBdXRoUGVybWlzc2lvblJlY29yZCkgPT4gewogICAgY29uc3QgYWNjZXNzID0gZ2V0U3ViZG9tYWluQWNjZXNzKHJlY29yZCk7CiAgICBpZiAoYWNjZXNzLm1vZGUgIT09ICJjdXN0b20iKSByZXR1cm4gIiI7CiAgICBjb25zdCBsYWJlbHMgPSBbCiAgICAgIC4uLmFjY2Vzcy5ob3N0cy5tYXAoZm9ybWF0U3ViZG9tYWluQWNjZXNzSG9zdExhYmVsKSwKICAgICAgLi4uYWNjZXNzLnN0cmVhbXMubWFwKAogICAgICAgIChzdHJlYW0pID0+IGAke3N0cmVhbS5wcm90b2NvbC50b1VwcGVyQ2FzZSgpfS8ke3N0cmVhbS5saXN0ZW5fcG9ydH1gLAogICAgICApLAogICAgXTsKICAgIGlmIChsYWJlbHMubGVuZ3RoID09PSAwKSB7CiAgICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLmF1dGhTZXR0aW5ncy5wZXJtaXNzaW9uTm9BbGxvd2VkSG9zdHMiKTsKICAgIH0KICAgIGNvbnN0IHByZXZpZXdIb3N0cyA9IGxhYmVscy5zbGljZSgwLCAyKS5qb2luKCIsICIpOwogICAgaWYgKGxhYmVscy5sZW5ndGggPD0gMikgcmV0dXJuIHByZXZpZXdIb3N0czsKICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLmF1dGhTZXR0aW5ncy5wZXJtaXNzaW9uUHJldmlld01vcmUiLCB7CiAgICAgIGhvc3RzOiBwcmV2aWV3SG9zdHMsCiAgICAgIGNvdW50OiBsYWJlbHMubGVuZ3RoLAogICAgfSk7CiAgfTsKCiAgY29uc3Qgc2VsZWN0QWxsRmlsdGVyZWRBY2Nlc3NPcHRpb25zID0gKCkgPT4gewogICAgc2VsZWN0QWNjZXNzT3B0aW9ucygKICAgICAgZmlsdGVyZWRTdWJkb21haW5BY2Nlc3NPcHRpb25zLnZhbHVlLm1hcCgob3B0aW9uKSA9PiBvcHRpb24ua2V5KSwKICAgICk7CiAgfTsKCiAgcmV0dXJuIHsKICAgIGNsZWFyU2VsZWN0ZWRBY2Nlc3NPcHRpb25zLAogICAgY2xvc2VTdWJkb21haW5BY2Nlc3NEaWFsb2csCiAgICBlZGl0aW5nU3ViZG9tYWluQWNjZXNzQWNjb3VudCwKICAgIGVkaXRpbmdTdWJkb21haW5BY2Nlc3NUb3RwLAogICAgZmlsdGVyZWRTdWJkb21haW5BY2Nlc3NPcHRpb25zLAogICAgZ2V0U3ViZG9tYWluQWNjZXNzLAogICAgZ2V0U3ViZG9tYWluQWNjZXNzUHJldmlldywKICAgIGdldFN1YmRvbWFpbkFjY2Vzc1N1bW1hcnksCiAgICBoYW5kbGVTYXZlU3ViZG9tYWluQWNjZXNzLAogICAgaXNTYXZpbmdTdWJkb21haW5BY2Nlc3MsCiAgICBpc1N1YmRvbWFpbkFjY2Vzc1VwZGF0aW5nLAogICAgbm9ybWFsaXplQ3JlZGVudGlhbCwKICAgIG9wZW5BY2NvdW50U3ViZG9tYWluQWNjZXNzRGlhbG9nLAogICAgb3BlblN1YmRvbWFpbkFjY2Vzc0RpYWxvZywKICAgIHNlbGVjdGVkQWNjZXNzQ291bnQsCiAgICBzZWxlY3RlZEFjY2Vzc0tleXMsCiAgICBzZWxlY3RBbGxGaWx0ZXJlZEFjY2Vzc09wdGlvbnMsCiAgICBzaG93U3ViZG9tYWluQWNjZXNzRGlhbG9nLAogICAgc3ViZG9tYWluQWNjZXNzTW9kZSwKICAgIHN1YmRvbWFpbkFjY2Vzc09wdGlvbnMsCiAgICBzdWJkb21haW5BY2Nlc3NTZWFyY2gsCiAgICB0b2dnbGVBY2Nlc3NPcHRpb24sCiAgfTsKfQo=
+import { computed, ref, type Ref } from "vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import { hostMappingUsesAuth } from "@/lib/host-mapping-auth";
+import { ConfigAPI } from "@/lib/api/config";
+import type {
+  AuthAccount,
+  HostMapping,
+  StreamMapping,
+  TOTPCredential,
+  TOTPSubdomainAccess,
+  TOTPSubdomainAccessMode,
+  TOTPStreamAccess,
+} from "../../types";
+
+const BUILTIN_SELECT_PAGE_ACCESS_HOST = "__builtin_select__";
+const BUILTIN_SELECT_PAGE_PATH = "/__select__";
+const BUILTIN_WOL_PAGE_ACCESS_HOST = "__builtin_wol__";
+const BUILTIN_WOL_PAGE_PATH = "/__wol__";
+const DEFAULT_SUBDOMAIN_ACCESS: TOTPSubdomainAccess = {
+  mode: "all",
+  hosts: [],
+  streams: [],
+};
+const HOST_ACCESS_KEY_PREFIX = "host:";
+const STREAM_ACCESS_KEY_PREFIX = "stream:";
+
+type Translate = (key: string, params?: Record<string, unknown>) => string;
+
+type SubdomainAccessOption = {
+  key: string;
+  kind: "host" | "stream";
+  label: string;
+  description: string;
+  stale?: boolean;
+  builtin?: boolean;
+};
+
+type AuthPermissionRecord = Pick<
+  TOTPCredential,
+  "id" | "access_scopes" | "subdomain_access"
+>;
+
+export const normalizeAuthSubdomainHost = (value: unknown) => {
+  const raw = String(value ?? "")
+    .trim()
+    .toLowerCase();
+  if (!raw) return "";
+  if (
+    raw === BUILTIN_SELECT_PAGE_ACCESS_HOST ||
+    raw === BUILTIN_SELECT_PAGE_PATH
+  ) {
+    return BUILTIN_SELECT_PAGE_ACCESS_HOST;
+  }
+  if (raw === BUILTIN_WOL_PAGE_ACCESS_HOST || raw === BUILTIN_WOL_PAGE_PATH) {
+    return BUILTIN_WOL_PAGE_ACCESS_HOST;
+  }
+
+  let host: string;
+  try {
+    const parsed = new URL(raw.includes("://") ? raw : `https://${raw}`);
+    host = parsed.hostname;
+  } catch {
+    const hostCandidate =
+      raw
+        .replace(/^[a-z][a-z0-9+.-]*:\/\//i, "")
+        .replace(/^[^@/\s]+@/, "")
+        .split(/[/?#]/, 1)[0] ?? "";
+    host = hostCandidate.replace(/:\d+$/, "");
+  }
+
+  host = host.trim().toLowerCase().replace(/\.+$/, "");
+  if (!host || host.includes("*") || /\s/.test(host)) return "";
+  return host;
+};
+
+const compareSubdomainAccessHosts = (left: string, right: string) => {
+  if (left === BUILTIN_SELECT_PAGE_ACCESS_HOST) return -1;
+  if (right === BUILTIN_SELECT_PAGE_ACCESS_HOST) return 1;
+  if (left === BUILTIN_WOL_PAGE_ACCESS_HOST) return -1;
+  if (right === BUILTIN_WOL_PAGE_ACCESS_HOST) return 1;
+  return left.localeCompare(right);
+};
+
+export const normalizeAuthSubdomainAccess = (
+  value: unknown,
+): TOTPSubdomainAccess => {
+  if (
+    typeof value !== "object" ||
+    value === null ||
+    (value as { mode?: unknown }).mode !== "custom"
+  ) {
+    return { ...DEFAULT_SUBDOMAIN_ACCESS };
+  }
+
+  const hostsValue = (value as { hosts?: unknown }).hosts;
+  const hosts = Array.isArray(hostsValue)
+    ? [
+        ...new Set(hostsValue.map(normalizeAuthSubdomainHost).filter(Boolean)),
+      ].sort(compareSubdomainAccessHosts)
+    : [];
+  const streamsValue = (value as { streams?: unknown }).streams;
+  const streams = Array.isArray(streamsValue)
+    ? [
+        ...new Map(
+          streamsValue
+            .map(normalizeAuthStreamAccess)
+            .filter((stream): stream is TOTPStreamAccess => stream !== null)
+            .map((stream) => [createAuthStreamAccessKey(stream), stream]),
+        ).values(),
+      ].sort(compareAuthStreamAccess)
+    : [];
+  return { mode: "custom", hosts, streams };
+};
+
+export const normalizeAuthStreamAccess = (
+  value: unknown,
+): TOTPStreamAccess | null => {
+  if (typeof value !== "object" || value === null) return null;
+  const rawProtocol = String((value as { protocol?: unknown }).protocol ?? "")
+    .trim()
+    .toLowerCase();
+  const protocol =
+    rawProtocol === "udp" ? "udp" : rawProtocol === "tcp" ? "tcp" : null;
+  const listenPort = Number((value as { listen_port?: unknown }).listen_port);
+  if (
+    protocol === null ||
+    !Number.isInteger(listenPort) ||
+    listenPort < 1 ||
+    listenPort > 65535
+  ) {
+    return null;
+  }
+  return { protocol, listen_port: listenPort };
+};
+
+export const createAuthStreamAccessKey = (stream: TOTPStreamAccess) =>
+  `${STREAM_ACCESS_KEY_PREFIX}${stream.protocol}:${stream.listen_port}`;
+
+const createAuthHostAccessKey = (host: string) =>
+  `${HOST_ACCESS_KEY_PREFIX}${host}`;
+
+const compareAuthStreamAccess = (
+  left: TOTPStreamAccess,
+  right: TOTPStreamAccess,
+) =>
+  left.listen_port === right.listen_port
+    ? left.protocol.localeCompare(right.protocol)
+    : left.listen_port - right.listen_port;
+
+const parseAuthStreamAccessKey = (key: string): TOTPStreamAccess | null => {
+  if (!key.startsWith(STREAM_ACCESS_KEY_PREFIX)) return null;
+  const [protocol, rawPort, extra] = key
+    .slice(STREAM_ACCESS_KEY_PREFIX.length)
+    .split(":");
+  if (extra !== undefined) return null;
+  return normalizeAuthStreamAccess({
+    protocol,
+    listen_port: Number(rawPort),
+  });
+};
+
+interface UseAuthSubdomainAccessOptions {
+  credentials: Ref<TOTPCredential[]>;
+  hostMappings: Ref<HostMapping[]>;
+  streamMappings: Ref<StreamMapping[]>;
+  wolFeatureEnabled: Ref<boolean>;
+  replaceAuthAccount: (account: AuthAccount) => void;
+  translate: Translate;
+}
+
+export function useAuthSubdomainAccess({
+  credentials,
+  hostMappings,
+  streamMappings,
+  wolFeatureEnabled,
+  replaceAuthAccount,
+  translate,
+}: UseAuthSubdomainAccessOptions) {
+  const showSubdomainAccessDialog = ref(false);
+  const editingSubdomainAccessTotp = ref<TOTPCredential | null>(null);
+  const editingSubdomainAccessAccount = ref<AuthAccount | null>(null);
+  const subdomainAccessMode = ref<TOTPSubdomainAccessMode>("all");
+  const selectedAccessKeys = ref<Set<string>>(new Set());
+  const subdomainAccessSearch = ref("");
+  const updatingSubdomainAccessIds = ref<Set<string>>(new Set());
+
+  const normalizeCredential = (credential: TOTPCredential): TOTPCredential => ({
+    ...credential,
+    access_scopes: credential.access_scopes || [],
+    subdomain_access: normalizeAuthSubdomainAccess(credential.subdomain_access),
+  });
+
+  const formatSubdomainAccessHostLabel = (host: string) =>
+    host === BUILTIN_SELECT_PAGE_ACCESS_HOST
+      ? translate("admin.authSettings.permissionBuiltinSelectLabel")
+      : host === BUILTIN_WOL_PAGE_ACCESS_HOST
+        ? translate("admin.authSettings.permissionBuiltinWolLabel")
+        : host;
+
+  const selectedAccessCount = computed(() => selectedAccessKeys.value.size);
+
+  const subdomainAccessOptions = computed<SubdomainAccessOption[]>(() => {
+    const byHost = new Map<string, SubdomainAccessOption>();
+    byHost.set(createAuthHostAccessKey(BUILTIN_SELECT_PAGE_ACCESS_HOST), {
+      key: createAuthHostAccessKey(BUILTIN_SELECT_PAGE_ACCESS_HOST),
+      kind: "host",
+      label: translate("admin.authSettings.permissionBuiltinSelectLabel"),
+      description: BUILTIN_SELECT_PAGE_PATH,
+      builtin: true,
+    });
+    if (wolFeatureEnabled.value) {
+      byHost.set(createAuthHostAccessKey(BUILTIN_WOL_PAGE_ACCESS_HOST), {
+        key: createAuthHostAccessKey(BUILTIN_WOL_PAGE_ACCESS_HOST),
+        kind: "host",
+        label: translate("admin.authSettings.permissionBuiltinWolLabel"),
+        description: BUILTIN_WOL_PAGE_PATH,
+        builtin: true,
+      });
+    }
+
+    for (const mapping of hostMappings.value) {
+      if (!hostMappingUsesAuth(mapping)) {
+        continue;
+      }
+      const host = normalizeAuthSubdomainHost(mapping.host);
+      const key = createAuthHostAccessKey(host);
+      if (!host || byHost.has(key)) continue;
+      const label =
+        mapping.title_override.trim() || mapping.title.trim() || mapping.host;
+      byHost.set(key, {
+        key,
+        kind: "host",
+        label,
+        description: host,
+        stale: false,
+      });
+    }
+
+    for (const mapping of streamMappings.value) {
+      if (mapping.use_auth !== true) continue;
+      const stream = normalizeAuthStreamAccess(mapping);
+      if (!stream) continue;
+      const key = createAuthStreamAccessKey(stream);
+      byHost.set(key, {
+        key,
+        kind: "stream",
+        label: `${stream.protocol.toUpperCase()}/${stream.listen_port}`,
+        description: mapping.service_profile?.service_id
+          ? `${mapping.target} · ${mapping.service_profile.service_id}${
+              mapping.service_profile.device_role
+                ? ` · ${mapping.service_profile.device_role}`
+                : ""
+            }`
+          : mapping.target,
+        stale: false,
+      });
+    }
+
+    for (const key of selectedAccessKeys.value) {
+      if (byHost.has(key)) continue;
+      const stream = parseAuthStreamAccessKey(key);
+      const host = key.startsWith(HOST_ACCESS_KEY_PREFIX)
+        ? key.slice(HOST_ACCESS_KEY_PREFIX.length)
+        : "";
+      if (!stream && !host) continue;
+      byHost.set(key, {
+        key,
+        kind: stream ? "stream" : "host",
+        label: stream
+          ? `${stream.protocol.toUpperCase()}/${stream.listen_port}`
+          : formatSubdomainAccessHostLabel(host),
+        description: stream
+          ? translate("admin.authSettings.permissionMissingStream")
+          : host,
+        stale: true,
+      });
+    }
+
+    const options = [...byHost.values()];
+    return [
+      ...options.filter((option) => option.builtin),
+      ...options
+        .filter((option) => !option.builtin)
+        .sort((left, right) => {
+          if (left.kind !== right.kind) return left.kind === "host" ? -1 : 1;
+          return left.key.localeCompare(right.key);
+        }),
+    ];
+  });
+
+  const filteredSubdomainAccessOptions = computed(() => {
+    const keyword = subdomainAccessSearch.value.trim().toLowerCase();
+    if (!keyword) return subdomainAccessOptions.value;
+    return subdomainAccessOptions.value.filter(
+      (option) =>
+        option.key.includes(keyword) ||
+        option.description.toLowerCase().includes(keyword) ||
+        option.label.toLowerCase().includes(keyword),
+    );
+  });
+
+  const { isPending: isSavingSubdomainAccess, run: runSaveSubdomainAccess } =
+    useAsyncAction({
+      onError: (error) => {
+        toast.error(
+          extractErrorMessage(
+            error,
+            translate("admin.authSettings.permissionUpdateFailed"),
+          ),
+        );
+      },
+    });
+
+  function getSubdomainAccess(
+    record: Pick<TOTPCredential | AuthAccount, "subdomain_access">,
+  ) {
+    return normalizeAuthSubdomainAccess(record.subdomain_access);
+  }
+
+  function openSubdomainAccessDialog(totp: TOTPCredential) {
+    const access = getSubdomainAccess(totp);
+    editingSubdomainAccessTotp.value = totp;
+    editingSubdomainAccessAccount.value = null;
+    subdomainAccessMode.value = access.mode;
+    selectedAccessKeys.value = new Set([
+      ...access.hosts.map(createAuthHostAccessKey),
+      ...access.streams.map(createAuthStreamAccessKey),
+    ]);
+    subdomainAccessSearch.value = "";
+    showSubdomainAccessDialog.value = true;
+  }
+
+  function openAccountSubdomainAccessDialog(account: AuthAccount) {
+    const access = getSubdomainAccess(account);
+    editingSubdomainAccessTotp.value = null;
+    editingSubdomainAccessAccount.value = account;
+    subdomainAccessMode.value = access.mode;
+    selectedAccessKeys.value = new Set([
+      ...access.hosts.map(createAuthHostAccessKey),
+      ...access.streams.map(createAuthStreamAccessKey),
+    ]);
+    subdomainAccessSearch.value = "";
+    showSubdomainAccessDialog.value = true;
+  }
+
+  function closeSubdomainAccessDialog() {
+    showSubdomainAccessDialog.value = false;
+    editingSubdomainAccessTotp.value = null;
+    editingSubdomainAccessAccount.value = null;
+    subdomainAccessMode.value = "all";
+    selectedAccessKeys.value = new Set();
+    subdomainAccessSearch.value = "";
+  }
+
+  function toggleAccessOption(key: string, checked: boolean) {
+    if (
+      !key.startsWith(HOST_ACCESS_KEY_PREFIX) &&
+      !key.startsWith(STREAM_ACCESS_KEY_PREFIX)
+    ) {
+      return;
+    }
+    const next = new Set(selectedAccessKeys.value);
+    if (checked) {
+      next.add(key);
+    } else {
+      next.delete(key);
+    }
+    selectedAccessKeys.value = next;
+  }
+
+  function selectAccessOptions(keys: Iterable<string>) {
+    const next = new Set(selectedAccessKeys.value);
+    for (const key of keys) {
+      next.add(key);
+    }
+    selectedAccessKeys.value = next;
+  }
+
+  function clearSelectedAccessOptions() {
+    selectedAccessKeys.value = new Set();
+  }
+
+  function isSubdomainAccessUpdating(id: string) {
+    return updatingSubdomainAccessIds.value.has(id);
+  }
+
+  function setSubdomainAccessUpdating(id: string, pending: boolean) {
+    const next = new Set(updatingSubdomainAccessIds.value);
+    if (pending) {
+      next.add(id);
+    } else {
+      next.delete(id);
+    }
+    updatingSubdomainAccessIds.value = next;
+  }
+
+  async function handleSaveSubdomainAccess() {
+    const target =
+      editingSubdomainAccessAccount.value || editingSubdomainAccessTotp.value;
+    if (!target) return;
+
+    const subdomainAccess: TOTPSubdomainAccess =
+      subdomainAccessMode.value === "custom"
+        ? {
+            mode: "custom",
+            hosts: [...selectedAccessKeys.value]
+              .filter((key) => key.startsWith(HOST_ACCESS_KEY_PREFIX))
+              .map((key) =>
+                normalizeAuthSubdomainHost(
+                  key.slice(HOST_ACCESS_KEY_PREFIX.length),
+                ),
+              )
+              .filter(Boolean)
+              .sort(compareSubdomainAccessHosts),
+            streams: [...selectedAccessKeys.value]
+              .map(parseAuthStreamAccessKey)
+              .filter((stream): stream is TOTPStreamAccess => stream !== null)
+              .sort(compareAuthStreamAccess),
+          }
+        : { mode: "all", hosts: [], streams: [] };
+
+    setSubdomainAccessUpdating(target.id, true);
+    try {
+      await runSaveSubdomainAccess(async () => {
+        if (editingSubdomainAccessAccount.value) {
+          const updated = await ConfigAPI.updateAuthAccountSubdomainAccess(
+            target.id,
+            subdomainAccess,
+          );
+          replaceAuthAccount(updated);
+        } else {
+          const updated = normalizeCredential(
+            await ConfigAPI.updateTOTPSubdomainAccess(
+              target.id,
+              subdomainAccess,
+            ),
+          );
+          const existing = credentials.value.find(
+            (item) => item.id === target.id,
+          );
+          if (existing) {
+            Object.assign(existing, updated);
+          }
+        }
+        toast.success(translate("admin.authSettings.permissionUpdated"));
+        closeSubdomainAccessDialog();
+      });
+    } finally {
+      setSubdomainAccessUpdating(target.id, false);
+    }
+  }
+
+  const getSubdomainAccessSummary = (record: AuthPermissionRecord) => {
+    const access = getSubdomainAccess(record);
+    if (access.mode !== "custom") {
+      return translate("admin.authSettings.permissionAll");
+    }
+    if (access.hosts.length + access.streams.length === 0) {
+      return translate("admin.authSettings.permissionCustomEmpty");
+    }
+    return translate("admin.authSettings.permissionCustomSummary", {
+      count: access.hosts.length + access.streams.length,
+    });
+  };
+
+  const getSubdomainAccessPreview = (record: AuthPermissionRecord) => {
+    const access = getSubdomainAccess(record);
+    if (access.mode !== "custom") return "";
+    const labels = [
+      ...access.hosts.map(formatSubdomainAccessHostLabel),
+      ...access.streams.map(
+        (stream) => `${stream.protocol.toUpperCase()}/${stream.listen_port}`,
+      ),
+    ];
+    if (labels.length === 0) {
+      return translate("admin.authSettings.permissionNoAllowedHosts");
+    }
+    const previewHosts = labels.slice(0, 2).join(", ");
+    if (labels.length <= 2) return previewHosts;
+    return translate("admin.authSettings.permissionPreviewMore", {
+      hosts: previewHosts,
+      count: labels.length,
+    });
+  };
+
+  const selectAllFilteredAccessOptions = () => {
+    selectAccessOptions(
+      filteredSubdomainAccessOptions.value.map((option) => option.key),
+    );
+  };
+
+  return {
+    clearSelectedAccessOptions,
+    closeSubdomainAccessDialog,
+    editingSubdomainAccessAccount,
+    editingSubdomainAccessTotp,
+    filteredSubdomainAccessOptions,
+    getSubdomainAccess,
+    getSubdomainAccessPreview,
+    getSubdomainAccessSummary,
+    handleSaveSubdomainAccess,
+    isSavingSubdomainAccess,
+    isSubdomainAccessUpdating,
+    normalizeCredential,
+    openAccountSubdomainAccessDialog,
+    openSubdomainAccessDialog,
+    selectedAccessCount,
+    selectedAccessKeys,
+    selectAllFilteredAccessOptions,
+    showSubdomainAccessDialog,
+    subdomainAccessMode,
+    subdomainAccessOptions,
+    subdomainAccessSearch,
+    toggleAccessOption,
+  };
+}

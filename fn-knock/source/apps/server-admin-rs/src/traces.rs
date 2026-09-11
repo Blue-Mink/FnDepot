@@ -1,1 +1,202 @@
-dXNlIHN0ZDo6Y29sbGVjdGlvbnM6OntCVHJlZU1hcCwgSGFzaFNldH07Cgp1c2UgYXh1bTo6ewogICAgZXh0cmFjdDo6e1BhdGgsIFN0YXRlfSwKICAgIGh0dHA6OlN0YXR1c0NvZGUsCiAgICByZXNwb25zZTo6e0ludG9SZXNwb25zZSwgUmVzcG9uc2V9LAp9Owp1c2Ugc2VyZGVfanNvbjo6e1ZhbHVlLCBqc29ufTsKdXNlIHV0b2lwYV9heHVtOjp7cm91dGVyOjpPcGVuQXBpUm91dGVyLCByb3V0ZXN9OwoKdXNlIGNyYXRlOjp7cmVzcG9uc2UsIHN0YXRlOjpBcHBTdGF0ZX07CgpwdWIoY3JhdGUpIGZuIHRyYWNlX3JvdXRlcygpIC0+IE9wZW5BcGlSb3V0ZXI8QXBwU3RhdGU+IHsKICAgIE9wZW5BcGlSb3V0ZXI6Om5ldygpLnJvdXRlcyhyb3V0ZXMhKGdldF90cmFjZSkpCn0KCiNbdXRvaXBhOjpwYXRoKAogICAgZ2V0LAogICAgcGF0aCA9ICIvYXBpL2FkbWluL3RyYWNlcy97dHJhY2VfaWR9IiwKICAgIHRhZyA9ICJ0cmFjZXMiLAogICAgb3BlcmF0aW9uX2lkID0gImdldF9hcGlfYWRtaW5fdHJhY2VzX3RyYWNlX2lkIiwKICAgIHBhcmFtcygoInRyYWNlX2lkIiA9IFN0cmluZywgUGF0aCwgZGVzY3JpcHRpb24gPSAiQ2Fub25pY2FsIG9yIGxlZ2FjeSBmbi1rbm9jayBUcmFjZSBJRCIpKSwKICAgIHJlc3BvbnNlcygKICAgICAgICAoc3RhdHVzID0gMjAwLCBkZXNjcmlwdGlvbiA9ICJBZ2dyZWdhdGVkIHRyYWNlIGRldGFpbHMiKSwKICAgICAgICAoc3RhdHVzID0gNDAwLCBkZXNjcmlwdGlvbiA9ICJJbnZhbGlkIFRyYWNlIElEIikKICAgICkKKV0KYXN5bmMgZm4gZ2V0X3RyYWNlKFN0YXRlKHN0YXRlKTogU3RhdGU8QXBwU3RhdGU+LCBQYXRoKHRyYWNlX2lkKTogUGF0aDxTdHJpbmc+KSAtPiBSZXNwb25zZSB7CiAgICBsZXQgdHJhY2VfaWQgPSB0cmFjZV9pZC50cmltKCk7CiAgICBpZiAhY3JhdGU6OnRyYWNlX2lkOjppc192YWxpZF90cmFjZV9pZCh0cmFjZV9pZCkgewogICAgICAgIHJldHVybiByZXNwb25zZTo6ZXJyb3IoU3RhdHVzQ29kZTo6QkFEX1JFUVVFU1QsICJpbnZhbGlkIHRyYWNlX2lkIik7CiAgICB9CgogICAgbGV0IGdhdGV3YXkgPSBzdGF0ZS5nYXRld2F5LmNsaWVudC5maW5kX2xvZ19lbnRyeV9ieV90cmFjZV9pZCh0cmFjZV9pZCk7CiAgICBsZXQgd2FmID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfd2FmX2xvZ19ldmVudCh0cmFjZV9pZCk7CiAgICBsZXQgZXZlbnRzID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5maW5kX3N5c3RlbV9ldmVudHNfYnlfdHJhY2UodHJhY2VfaWQpOwogICAgbGV0IHRyaWdnZXJzID0gbm90aWZpY2F0aW9uX2hpc3RvcnlfZm9yX3RyYWNlKCZzdGF0ZSwgInRyaWdnZXIiLCB0cmFjZV9pZCwgJltdKTsKICAgIGxldCBkZWxpdmVyaWVzID0gbm90aWZpY2F0aW9uX2hpc3RvcnlfZm9yX3RyYWNlKCZzdGF0ZSwgImRlbGl2ZXJ5IiwgdHJhY2VfaWQsICZbXSk7CiAgICBsZXQgKGdhdGV3YXksIHdhZiwgZXZlbnRzLCBkaXJlY3RfdHJpZ2dlcnMsIGRpcmVjdF9kZWxpdmVyaWVzKSA9CiAgICAgICAgdG9raW86OmpvaW4hKGdhdGV3YXksIHdhZiwgZXZlbnRzLCB0cmlnZ2VycywgZGVsaXZlcmllcyk7CgogICAgbGV0IChyZXF1ZXN0LCBnYXRld2F5X3N0YXR1cykgPSBtYXRjaCBnYXRld2F5IHsKICAgICAgICBPayh2YWx1ZSkgPT4gewogICAgICAgICAgICBsZXQgZGF0YSA9IHZhbHVlLmdldCgiZGF0YSIpLmNsb25lZCgpLnVud3JhcF9vcihWYWx1ZTo6TnVsbCk7CiAgICAgICAgICAgIGxldCBmb3VuZCA9IGRhdGEuZ2V0KCJmb3VuZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKS51bndyYXBfb3IoZmFsc2UpOwogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICBmb3VuZAogICAgICAgICAgICAgICAgICAgIC50aGVuKHx8IGRhdGEuZ2V0KCJlbnRyeSIpLmNsb25lZCgpKQogICAgICAgICAgICAgICAgICAgIC5mbGF0dGVuKCkKICAgICAgICAgICAgICAgICAgICAuZmlsdGVyKHxlbnRyeXwgIWVudHJ5LmlzX251bGwoKSksCiAgICAgICAgICAgICAgICBzb3VyY2Vfc3RhdHVzKGZvdW5kLCBmYWxzZSksCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgJXRyYWNlX2lkLCAiZmFpbGVkIHRvIHF1ZXJ5IGdhdGV3YXkgdHJhY2UiKTsKICAgICAgICAgICAgKE5vbmUsIHNvdXJjZV9zdGF0dXMoZmFsc2UsIHRydWUpKQogICAgICAgIH0KICAgIH07CiAgICBsZXQgKHdhZl9ldmVudCwgd2FmX3N0YXR1cykgPSBtYXRjaCB3YWYgewogICAgICAgIE9rKGV2ZW50KSA9PiB7CiAgICAgICAgICAgIGxldCBmb3VuZCA9IGV2ZW50LmlzX3NvbWUoKTsKICAgICAgICAgICAgKGV2ZW50LCBzb3VyY2Vfc3RhdHVzKGZvdW5kLCBmYWxzZSkpCiAgICAgICAgfQogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICV0cmFjZV9pZCwgImZhaWxlZCB0byBxdWVyeSBXQUYgdHJhY2UiKTsKICAgICAgICAgICAgKE5vbmUsIHNvdXJjZV9zdGF0dXMoZmFsc2UsIHRydWUpKQogICAgICAgIH0KICAgIH07CiAgICBsZXQgKG11dCBzeXN0ZW1fZXZlbnRzLCBldmVudHNfc3RhdHVzKSA9IG1hdGNoIGV2ZW50cyB7CiAgICAgICAgT2sobXV0IGV2ZW50cykgPT4gewogICAgICAgICAgICBsZXQgZm91bmQgPSAhZXZlbnRzLmlzX2VtcHR5KCk7CiAgICAgICAgICAgIGNyYXRlOjpldmVudHM6Omh5ZHJhdGVfc3lzdGVtX2V2ZW50X2lwX2xvY2F0aW9ucygmc3RhdGUsICZtdXQgZXZlbnRzKS5hd2FpdDsKICAgICAgICAgICAgKGV2ZW50cywgc291cmNlX3N0YXR1cyhmb3VuZCwgZmFsc2UpKQogICAgICAgIH0KICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAldHJhY2VfaWQsICJmYWlsZWQgdG8gcXVlcnkgc3lzdGVtLWV2ZW50IHRyYWNlIik7CiAgICAgICAgICAgIChWZWM6Om5ldygpLCBzb3VyY2Vfc3RhdHVzKGZhbHNlLCB0cnVlKSkKICAgICAgICB9CiAgICB9OwogICAgc3lzdGVtX2V2ZW50cy5zb3J0X2J5KHxsZWZ0LCByaWdodHwgewogICAgICAgIGxlZnQuZ2V0KCJoYXBwZW5lZF9hdCIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAuY21wKCZyaWdodC5nZXQoImhhcHBlbmVkX2F0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpCiAgICB9KTsKICAgIGxldCBldmVudF9pZHMgPSBzeXN0ZW1fZXZlbnRzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXJfbWFwKHxldmVudHwgZXZlbnQuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpKQogICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CgogICAgbGV0IChub3RpZmljYXRpb25fdHJpZ2dlcnMsIHRyaWdnZXJfdW5hdmFpbGFibGUpID0KICAgICAgICBtZXJnZV9sZWdhY3lfbm90aWZpY2F0aW9uX2hpc3RvcnkoJnN0YXRlLCAidHJpZ2dlciIsIHRyYWNlX2lkLCBkaXJlY3RfdHJpZ2dlcnMsICZldmVudF9pZHMpCiAgICAgICAgICAgIC5hd2FpdDsKICAgIGxldCAobm90aWZpY2F0aW9uX2RlbGl2ZXJpZXMsIGRlbGl2ZXJ5X3VuYXZhaWxhYmxlKSA9IG1lcmdlX2xlZ2FjeV9ub3RpZmljYXRpb25faGlzdG9yeSgKICAgICAgICAmc3RhdGUsCiAgICAgICAgImRlbGl2ZXJ5IiwKICAgICAgICB0cmFjZV9pZCwKICAgICAgICBkaXJlY3RfZGVsaXZlcmllcywKICAgICAgICAmZXZlbnRfaWRzLAogICAgKQogICAgLmF3YWl0OwogICAgbGV0IG5vdGlmaWNhdGlvbnNfZm91bmQgPQogICAgICAgICFub3RpZmljYXRpb25fdHJpZ2dlcnMuaXNfZW1wdHkoKSB8fCAhbm90aWZpY2F0aW9uX2RlbGl2ZXJpZXMuaXNfZW1wdHkoKTsKICAgIGxldCBub3RpZmljYXRpb25zX3N0YXR1cyA9IHNvdXJjZV9zdGF0dXMoCiAgICAgICAgbm90aWZpY2F0aW9uc19mb3VuZCwKICAgICAgICB0cmlnZ2VyX3VuYXZhaWxhYmxlIHx8IGRlbGl2ZXJ5X3VuYXZhaWxhYmxlLAogICAgKTsKICAgIGxldCBmb3VuZCA9IHJlcXVlc3QuaXNfc29tZSgpCiAgICAgICAgfHwgd2FmX2V2ZW50LmlzX3NvbWUoKQogICAgICAgIHx8ICFzeXN0ZW1fZXZlbnRzLmlzX2VtcHR5KCkKICAgICAgICB8fCBub3RpZmljYXRpb25zX2ZvdW5kOwoKICAgIHJlc3BvbnNlOjpvayhqc29uISh7CiAgICAgICAgInRyYWNlX2lkIjogdHJhY2VfaWQsCiAgICAgICAgImZvdW5kIjogZm91bmQsCiAgICAgICAgInJlcXVlc3QiOiByZXF1ZXN0LAogICAgICAgICJ3YWZfZXZlbnQiOiB3YWZfZXZlbnQsCiAgICAgICAgInN5c3RlbV9ldmVudHMiOiBzeXN0ZW1fZXZlbnRzLAogICAgICAgICJub3RpZmljYXRpb25fdHJpZ2dlcnMiOiBub3RpZmljYXRpb25fdHJpZ2dlcnMsCiAgICAgICAgIm5vdGlmaWNhdGlvbl9kZWxpdmVyaWVzIjogbm90aWZpY2F0aW9uX2RlbGl2ZXJpZXMsCiAgICAgICAgInNvdXJjZXMiOiB7CiAgICAgICAgICAgICJnYXRld2F5X2xvZ3MiOiBnYXRld2F5X3N0YXR1cywKICAgICAgICAgICAgIndhZl9sb2dzIjogd2FmX3N0YXR1cywKICAgICAgICAgICAgInN5c3RlbV9ldmVudHMiOiBldmVudHNfc3RhdHVzLAogICAgICAgICAgICAibm90aWZpY2F0aW9ucyI6IG5vdGlmaWNhdGlvbnNfc3RhdHVzLAogICAgICAgIH0KICAgIH0pKQogICAgLmludG9fcmVzcG9uc2UoKQp9CgpmbiBzb3VyY2Vfc3RhdHVzKGZvdW5kOiBib29sLCB1bmF2YWlsYWJsZTogYm9vbCkgLT4gJidzdGF0aWMgc3RyIHsKICAgIGlmIHVuYXZhaWxhYmxlIHsKICAgICAgICAidW5hdmFpbGFibGUiCiAgICB9IGVsc2UgaWYgZm91bmQgewogICAgICAgICJmb3VuZCIKICAgIH0gZWxzZSB7CiAgICAgICAgIm5vdF9mb3VuZCIKICAgIH0KfQoKYXN5bmMgZm4gbm90aWZpY2F0aW9uX2hpc3RvcnlfZm9yX3RyYWNlKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGtpbmQ6ICZzdHIsCiAgICB0cmFjZV9pZDogJnN0ciwKICAgIGV2ZW50X2lkczogJltTdHJpbmddLAopIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PFZlYzxWYWx1ZT4+IHsKICAgIGxldCBtdXQgcmVjb3JkcyA9IHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAubG9hZF9ub3RpZmljYXRpb25faGlzdG9yeV9ieV90cmFjZShraW5kLCB0cmFjZV9pZCkKICAgICAgICAuYXdhaXQ/OwogICAgaWYgIWV2ZW50X2lkcy5pc19lbXB0eSgpIHsKICAgICAgICBsZXQgZXZlbnRfaWRzID0gZXZlbnRfaWRzLml0ZXIoKS5tYXAoU3RyaW5nOjphc19zdHIpLmNvbGxlY3Q6OjxIYXNoU2V0PF8+PigpOwogICAgICAgIHJlY29yZHMuZXh0ZW5kKAogICAgICAgICAgICBzdGF0ZQogICAgICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAgICAgLmxvYWRfbm90aWZpY2F0aW9uX2hpc3Rvcnkoa2luZCkKICAgICAgICAgICAgICAgIC5hd2FpdD8KICAgICAgICAgICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgICAgICAgICAgLmZpbHRlcih8cmVjb3JkfCB7CiAgICAgICAgICAgICAgICAgICAgcmVjb3JkCiAgICAgICAgICAgICAgICAgICAgICAgIC5nZXQoImV2ZW50X2lkIikKICAgICAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5pc19zb21lX2FuZCh8ZXZlbnRfaWR8IGV2ZW50X2lkcy5jb250YWlucyhldmVudF9pZCkpCiAgICAgICAgICAgICAgICB9KSwKICAgICAgICApOwogICAgfQogICAgbGV0IG11dCB1bmlxdWUgPSBCVHJlZU1hcDo6bmV3KCk7CiAgICBmb3IgcmVjb3JkIGluIHJlY29yZHMgewogICAgICAgIGlmIGxldCBTb21lKGlkKSA9IHJlY29yZC5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgewogICAgICAgICAgICB1bmlxdWUuaW5zZXJ0KGlkLnRvX3N0cmluZygpLCByZWNvcmQpOwogICAgICAgIH0KICAgIH0KICAgIE9rKHVuaXF1ZS5pbnRvX3ZhbHVlcygpLmNvbGxlY3QoKSkKfQoKYXN5bmMgZm4gbWVyZ2VfbGVnYWN5X25vdGlmaWNhdGlvbl9oaXN0b3J5KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGtpbmQ6ICZzdHIsCiAgICB0cmFjZV9pZDogJnN0ciwKICAgIGRpcmVjdDogY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8VmVjPFZhbHVlPj4sCiAgICBldmVudF9pZHM6ICZbU3RyaW5nXSwKKSAtPiAoVmVjPFZhbHVlPiwgYm9vbCkgewogICAgbGV0IGRpcmVjdCA9IG1hdGNoIGRpcmVjdCB7CiAgICAgICAgT2socmVjb3JkcykgPT4gcmVjb3JkcywKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAldHJhY2VfaWQsIGtpbmQsICJmYWlsZWQgdG8gcXVlcnkgbm90aWZpY2F0aW9uIHRyYWNlIik7CiAgICAgICAgICAgIHJldHVybiAoVmVjOjpuZXcoKSwgdHJ1ZSk7CiAgICAgICAgfQogICAgfTsKICAgIGlmIGV2ZW50X2lkcy5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gKGRpcmVjdCwgZmFsc2UpOwogICAgfQogICAgbWF0Y2ggbm90aWZpY2F0aW9uX2hpc3RvcnlfZm9yX3RyYWNlKHN0YXRlLCBraW5kLCB0cmFjZV9pZCwgZXZlbnRfaWRzKS5hd2FpdCB7CiAgICAgICAgT2socmVjb3JkcykgPT4gKHJlY29yZHMsIGZhbHNlKSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAldHJhY2VfaWQsIGtpbmQsICJmYWlsZWQgdG8gam9pbiBsZWdhY3kgbm90aWZpY2F0aW9uIHRyYWNlIik7CiAgICAgICAgICAgIChkaXJlY3QsIHRydWUpCiAgICAgICAgfQogICAgfQp9Cg==
+use std::collections::{BTreeMap, HashSet};
+
+use axum::{
+    extract::{Path, State},
+    http::StatusCode,
+    response::{IntoResponse, Response},
+};
+use serde_json::{Value, json};
+use utoipa_axum::{router::OpenApiRouter, routes};
+
+use crate::{response, state::AppState};
+
+pub(crate) fn trace_routes() -> OpenApiRouter<AppState> {
+    OpenApiRouter::new().routes(routes!(get_trace))
+}
+
+#[utoipa::path(
+    get,
+    path = "/api/admin/traces/{trace_id}",
+    tag = "traces",
+    operation_id = "get_api_admin_traces_trace_id",
+    params(("trace_id" = String, Path, description = "Canonical or legacy fn-knock Trace ID")),
+    responses(
+        (status = 200, description = "Aggregated trace details"),
+        (status = 400, description = "Invalid Trace ID")
+    )
+)]
+async fn get_trace(State(state): State<AppState>, Path(trace_id): Path<String>) -> Response {
+    let trace_id = trace_id.trim();
+    if !crate::trace_id::is_valid_trace_id(trace_id) {
+        return response::error(StatusCode::BAD_REQUEST, "invalid trace_id");
+    }
+
+    let gateway = state.gateway.client.find_log_entry_by_trace_id(trace_id);
+    let waf = state.storage.store.get_waf_log_event(trace_id);
+    let events = state.storage.store.find_system_events_by_trace(trace_id);
+    let triggers = notification_history_for_trace(&state, "trigger", trace_id, &[]);
+    let deliveries = notification_history_for_trace(&state, "delivery", trace_id, &[]);
+    let (gateway, waf, events, direct_triggers, direct_deliveries) =
+        tokio::join!(gateway, waf, events, triggers, deliveries);
+
+    let (request, gateway_status) = match gateway {
+        Ok(value) => {
+            let data = value.get("data").cloned().unwrap_or(Value::Null);
+            let found = data.get("found").and_then(Value::as_bool).unwrap_or(false);
+            (
+                found
+                    .then(|| data.get("entry").cloned())
+                    .flatten()
+                    .filter(|entry| !entry.is_null()),
+                source_status(found, false),
+            )
+        }
+        Err(error) => {
+            tracing::warn!(%error, %trace_id, "failed to query gateway trace");
+            (None, source_status(false, true))
+        }
+    };
+    let (waf_event, waf_status) = match waf {
+        Ok(event) => {
+            let found = event.is_some();
+            (event, source_status(found, false))
+        }
+        Err(error) => {
+            tracing::warn!(%error, %trace_id, "failed to query WAF trace");
+            (None, source_status(false, true))
+        }
+    };
+    let (mut system_events, events_status) = match events {
+        Ok(mut events) => {
+            let found = !events.is_empty();
+            crate::events::hydrate_system_event_ip_locations(&state, &mut events).await;
+            (events, source_status(found, false))
+        }
+        Err(error) => {
+            tracing::warn!(%error, %trace_id, "failed to query system-event trace");
+            (Vec::new(), source_status(false, true))
+        }
+    };
+    system_events.sort_by(|left, right| {
+        left.get("happened_at")
+            .and_then(Value::as_str)
+            .cmp(&right.get("happened_at").and_then(Value::as_str))
+    });
+    let event_ids = system_events
+        .iter()
+        .filter_map(|event| event.get("id").and_then(Value::as_str))
+        .map(str::to_string)
+        .collect::<Vec<_>>();
+
+    let (notification_triggers, trigger_unavailable) =
+        merge_legacy_notification_history(&state, "trigger", trace_id, direct_triggers, &event_ids)
+            .await;
+    let (notification_deliveries, delivery_unavailable) = merge_legacy_notification_history(
+        &state,
+        "delivery",
+        trace_id,
+        direct_deliveries,
+        &event_ids,
+    )
+    .await;
+    let notifications_found =
+        !notification_triggers.is_empty() || !notification_deliveries.is_empty();
+    let notifications_status = source_status(
+        notifications_found,
+        trigger_unavailable || delivery_unavailable,
+    );
+    let found = request.is_some()
+        || waf_event.is_some()
+        || !system_events.is_empty()
+        || notifications_found;
+
+    response::ok(json!({
+        "trace_id": trace_id,
+        "found": found,
+        "request": request,
+        "waf_event": waf_event,
+        "system_events": system_events,
+        "notification_triggers": notification_triggers,
+        "notification_deliveries": notification_deliveries,
+        "sources": {
+            "gateway_logs": gateway_status,
+            "waf_logs": waf_status,
+            "system_events": events_status,
+            "notifications": notifications_status,
+        }
+    }))
+    .into_response()
+}
+
+fn source_status(found: bool, unavailable: bool) -> &'static str {
+    if unavailable {
+        "unavailable"
+    } else if found {
+        "found"
+    } else {
+        "not_found"
+    }
+}
+
+async fn notification_history_for_trace(
+    state: &AppState,
+    kind: &str,
+    trace_id: &str,
+    event_ids: &[String],
+) -> crate::storage::StorageResult<Vec<Value>> {
+    let mut records = state
+        .storage
+        .store
+        .load_notification_history_by_trace(kind, trace_id)
+        .await?;
+    if !event_ids.is_empty() {
+        let event_ids = event_ids.iter().map(String::as_str).collect::<HashSet<_>>();
+        records.extend(
+            state
+                .storage
+                .store
+                .load_notification_history(kind)
+                .await?
+                .into_iter()
+                .filter(|record| {
+                    record
+                        .get("event_id")
+                        .and_then(Value::as_str)
+                        .is_some_and(|event_id| event_ids.contains(event_id))
+                }),
+        );
+    }
+    let mut unique = BTreeMap::new();
+    for record in records {
+        if let Some(id) = record.get("id").and_then(Value::as_str) {
+            unique.insert(id.to_string(), record);
+        }
+    }
+    Ok(unique.into_values().collect())
+}
+
+async fn merge_legacy_notification_history(
+    state: &AppState,
+    kind: &str,
+    trace_id: &str,
+    direct: crate::storage::StorageResult<Vec<Value>>,
+    event_ids: &[String],
+) -> (Vec<Value>, bool) {
+    let direct = match direct {
+        Ok(records) => records,
+        Err(error) => {
+            tracing::warn!(%error, %trace_id, kind, "failed to query notification trace");
+            return (Vec::new(), true);
+        }
+    };
+    if event_ids.is_empty() {
+        return (direct, false);
+    }
+    match notification_history_for_trace(state, kind, trace_id, event_ids).await {
+        Ok(records) => (records, false),
+        Err(error) => {
+            tracing::warn!(%error, %trace_id, kind, "failed to join legacy notification trace");
+            (direct, true)
+        }
+    }
+}

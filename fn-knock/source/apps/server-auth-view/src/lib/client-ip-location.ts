@@ -1,1 +1,68 @@
-aW1wb3J0IHsgb25CZWZvcmVVbm1vdW50LCByZWYgfSBmcm9tICd2dWUnOwppbXBvcnQgdHlwZSB7IEF1dGhDbGllbnRJbmZvLCBBdXRoQ2xpZW50TG9jYXRpb25TdGF0dXMgfSBmcm9tICdAZnJvbnRlbmQtY29yZS9hdXRoL3R5cGVzJzsKaW1wb3J0IHsgQXV0aEFQSSB9IGZyb20gJy4vYXBpJzsKCmNvbnN0IFBPTExfSU5URVJWQUxfTVMgPSAyMDAwOwoKZXhwb3J0IGNvbnN0IHVzZUNsaWVudElwTG9jYXRpb24gPSAoKSA9PiB7CiAgY29uc3QgY2xpZW50SXAgPSByZWYoJycpOwogIGNvbnN0IGlwTG9jYXRpb24gPSByZWYoJycpOwogIGNvbnN0IGlwTG9jYXRpb25TdGF0dXMgPSByZWY8QXV0aENsaWVudExvY2F0aW9uU3RhdHVzPignaWRsZScpOwoKICBsZXQgcG9sbFRpbWVyOiBSZXR1cm5UeXBlPHR5cGVvZiB3aW5kb3cuc2V0VGltZW91dD4gfCBudWxsID0gbnVsbDsKCiAgY29uc3QgY2xlYXJQb2xsVGltZXIgPSAoKSA9PiB7CiAgICBpZiAocG9sbFRpbWVyKSB7CiAgICAgIHdpbmRvdy5jbGVhclRpbWVvdXQocG9sbFRpbWVyKTsKICAgICAgcG9sbFRpbWVyID0gbnVsbDsKICAgIH0KICB9OwoKICBjb25zdCBzY2hlZHVsZU5leHRQb2xsID0gKCkgPT4gewogICAgY2xlYXJQb2xsVGltZXIoKTsKICAgIHBvbGxUaW1lciA9IHdpbmRvdy5zZXRUaW1lb3V0KCgpID0+IHsKICAgICAgdm9pZCByZWZyZXNoTG9jYXRpb24oKTsKICAgIH0sIFBPTExfSU5URVJWQUxfTVMpOwogIH07CgogIGNvbnN0IHJlZnJlc2hMb2NhdGlvbiA9IGFzeW5jICgpID0+IHsKICAgIGlmICghY2xpZW50SXAudmFsdWUpIHJldHVybjsKCiAgICB0cnkgewogICAgICBjb25zdCBsb2NhdGlvbiA9IGF3YWl0IEF1dGhBUEkuZ2V0Q2xpZW50TG9jYXRpb24oKTsKICAgICAgY2xpZW50SXAudmFsdWUgPSBsb2NhdGlvbi5pcCB8fCBjbGllbnRJcC52YWx1ZTsKICAgICAgaXBMb2NhdGlvbi52YWx1ZSA9IGxvY2F0aW9uLmxvY2F0aW9uIHx8ICcnOwogICAgICBpcExvY2F0aW9uU3RhdHVzLnZhbHVlID0gbG9jYXRpb24uc3RhdHVzOwoKICAgICAgaWYgKGxvY2F0aW9uLnN0YXR1cyA9PT0gJ3F1ZXVlZCcgfHwgbG9jYXRpb24uc3RhdHVzID09PSAncHJvY2Vzc2luZycpIHsKICAgICAgICBzY2hlZHVsZU5leHRQb2xsKCk7CiAgICAgICAgcmV0dXJuOwogICAgICB9CiAgICB9IGNhdGNoIHsKICAgICAgaXBMb2NhdGlvblN0YXR1cy52YWx1ZSA9ICdmYWlsZWQnOwogICAgfQoKICAgIGNsZWFyUG9sbFRpbWVyKCk7CiAgfTsKCiAgY29uc3Qgc3RhcnRMb2NhdGlvblBvbGxpbmcgPSAoY2xpZW50OiBBdXRoQ2xpZW50SW5mbykgPT4gewogICAgY2xpZW50SXAudmFsdWUgPSBjbGllbnQuaXA7CiAgICBpcExvY2F0aW9uLnZhbHVlID0gJyc7CiAgICBpcExvY2F0aW9uU3RhdHVzLnZhbHVlID0gJ2lkbGUnOwogICAgY2xlYXJQb2xsVGltZXIoKTsKICAgIHZvaWQgcmVmcmVzaExvY2F0aW9uKCk7CiAgfTsKCiAgb25CZWZvcmVVbm1vdW50KCgpID0+IHsKICAgIGNsZWFyUG9sbFRpbWVyKCk7CiAgfSk7CgogIHJldHVybiB7CiAgICBjbGllbnRJcCwKICAgIGlwTG9jYXRpb24sCiAgICBpcExvY2F0aW9uU3RhdHVzLAogICAgcmVmcmVzaExvY2F0aW9uLAogICAgc3RhcnRMb2NhdGlvblBvbGxpbmcsCiAgICBzdG9wTG9jYXRpb25Qb2xsaW5nOiBjbGVhclBvbGxUaW1lciwKICB9Owp9Owo=
+import { onBeforeUnmount, ref } from 'vue';
+import type { AuthClientInfo, AuthClientLocationStatus } from '@frontend-core/auth/types';
+import { AuthAPI } from './api';
+
+const POLL_INTERVAL_MS = 2000;
+
+export const useClientIpLocation = () => {
+  const clientIp = ref('');
+  const ipLocation = ref('');
+  const ipLocationStatus = ref<AuthClientLocationStatus>('idle');
+
+  let pollTimer: ReturnType<typeof window.setTimeout> | null = null;
+
+  const clearPollTimer = () => {
+    if (pollTimer) {
+      window.clearTimeout(pollTimer);
+      pollTimer = null;
+    }
+  };
+
+  const scheduleNextPoll = () => {
+    clearPollTimer();
+    pollTimer = window.setTimeout(() => {
+      void refreshLocation();
+    }, POLL_INTERVAL_MS);
+  };
+
+  const refreshLocation = async () => {
+    if (!clientIp.value) return;
+
+    try {
+      const location = await AuthAPI.getClientLocation();
+      clientIp.value = location.ip || clientIp.value;
+      ipLocation.value = location.location || '';
+      ipLocationStatus.value = location.status;
+
+      if (location.status === 'queued' || location.status === 'processing') {
+        scheduleNextPoll();
+        return;
+      }
+    } catch {
+      ipLocationStatus.value = 'failed';
+    }
+
+    clearPollTimer();
+  };
+
+  const startLocationPolling = (client: AuthClientInfo) => {
+    clientIp.value = client.ip;
+    ipLocation.value = '';
+    ipLocationStatus.value = 'idle';
+    clearPollTimer();
+    void refreshLocation();
+  };
+
+  onBeforeUnmount(() => {
+    clearPollTimer();
+  });
+
+  return {
+    clientIp,
+    ipLocation,
+    ipLocationStatus,
+    refreshLocation,
+    startLocationPolling,
+    stopLocationPolling: clearPollTimer,
+  };
+};

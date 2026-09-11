@@ -1,1 +1,337 @@
-aW1wb3J0IHR5cGUgewogIGNvbXBvbmVudHMgYXMgQXBpQ29udHJhY3RDb21wb25lbnRzLAogIG9wZXJhdGlvbnMgYXMgQXBpQ29udHJhY3RPcGVyYXRpb25zLAp9IGZyb20gIkBmbi1rbm9jay9hcGktY29udHJhY3QiOwppbXBvcnQgdHlwZSB7CiAgQXV0b21hdGljQmFja3VwRGV0YWlscywKICBBdXRvbWF0aWNCYWNrdXBGaWxlc1BheWxvYWQsCiAgQmFja3VwRGlyZWN0b3J5RmlsZXNQYXlsb2FkLAogIEZuS25vY2tCYWNrdXBFeHBvcnRUb0RpcmVjdG9yeVJlc3VsdCwKICBGbktub2NrQmFja3VwSW1wb3J0QXJjaGl2ZVJlcXVlc3QsCiAgRm5Lbm9ja0JhY2t1cEltcG9ydFJlc3VsdCwKfSBmcm9tICIuLi8uLi90eXBlcyI7CmltcG9ydCB7IGFwaUNsaWVudCB9IGZyb20gIi4vY2xpZW50IjsKaW1wb3J0IHsgY29uZmlnQXV0aEFwaSB9IGZyb20gIi4vY29uZmlnLWF1dGgtYXBpIjsKaW1wb3J0IHsgY29uZmlnQ29yZUFwaSB9IGZyb20gIi4vY29uZmlnLWNvcmUtYXBpIjsKaW1wb3J0IHsgY29uZmlnSG9zdE1hcHBpbmdTdGF0aWNBcGkgfSBmcm9tICIuL2NvbmZpZy1ob3N0LW1hcHBpbmctc3RhdGljLWFwaSI7CmltcG9ydCB7IGNvbmZpZ1Byb3h5QXBpIH0gZnJvbSAiLi9jb25maWctcHJveHktYXBpIjsKaW1wb3J0IHsgY29uZmlnU3NsTGFuQXBpIH0gZnJvbSAiLi9jb25maWctc3NsLWxhbi1hcGkiOwppbXBvcnQgewogIGNvbmZpZ1N0cmVhbUFwaSwKICBTVFJFQU1fTUFQUElOR19MRUdBQ1lfUkVQQUlSX1JFUVVJUkVEX0NPREUsCn0gZnJvbSAiLi9jb25maWctc3RyZWFtLWFwaSI7Cgp0eXBlIENhcHRjaGFTZXR0aW5ncyA9IEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJDYXB0Y2hhU2V0dGluZ3NEYXRhIl07CnR5cGUgQ2FwdGNoYVNldHRpbmdzVXBkYXRlID0KICBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiQ2FwdGNoYVNldHRpbmdzVXBkYXRlRGF0YSJdOwp0eXBlIE1haW50ZW5hbmNlQ2xlYXJCb2R5ID0KICBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiTWFpbnRlbmFuY2VDbGVhckJvZHlEYXRhIl07CnR5cGUgTWFpbnRlbmFuY2VDbGVhclJlc3VsdCA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIk1haW50ZW5hbmNlQ2xlYXJEYXRhIl07CgpleHBvcnQgY29uc3QgQ29uZmlnQVBJID0gewogIC4uLmNvbmZpZ0NvcmVBcGksCiAgLi4uY29uZmlnSG9zdE1hcHBpbmdTdGF0aWNBcGksCiAgLi4uY29uZmlnUHJveHlBcGksCiAgLi4uY29uZmlnU3NsTGFuQXBpLAogIC4uLmNvbmZpZ1N0cmVhbUFwaSwKICAuLi5jb25maWdBdXRoQXBpLAp9OwoKZXhwb3J0IHsgU1RSRUFNX01BUFBJTkdfTEVHQUNZX1JFUEFJUl9SRVFVSVJFRF9DT0RFIH07CmV4cG9ydCB0eXBlIHsKICBBZHZhbmNlZEF1dGhEZXRhaWxzLAogIEhvc3RNYXBwaW5nQmFzaWNBdXRoUHJvYmVSZXN1bHQsCn0gZnJvbSAiLi9jb25maWctcHJveHktYXBpIjsKZXhwb3J0IHR5cGUgewogIFN0cmVhbUJ5cGFzc1BvbGljeSwKICBTdHJlYW1Qcm9iZVJlc3VsdCwKICBTdHJlYW1TZXJ2aWNlQ2F0YWxvZywKICBTdHJlYW1TZXJ2aWNlRGVzY3JpcHRvciwKICBTdHJlYW1TZXJ2aWNlUHJvZmlsZSwKfSBmcm9tICIuL2NvbmZpZy1zdHJlYW0tYXBpIjsKZXhwb3J0IHR5cGUgewogIFN0YXRpY1BhdGhCcm93c2VFbnRyeSwKICBTdGF0aWNQYXRoQnJvd3NlUmVzdWx0LAogIFN0YXRpY1BhdGhQcm9iZUVycm9yQ29kZSwKICBTdGF0aWNQYXRoUHJvYmVSZXN1bHQsCiAgU3RhdGljUGF0aFByb2JlVGFyZ2V0VHlwZSwKfSBmcm9tICIuL2NvbmZpZy1ob3N0LW1hcHBpbmctc3RhdGljLWFwaSI7CmV4cG9ydCB0eXBlIHsKICBSZXZpc2lvbmVkQ29uZmlnLAogIFJldmlzaW9uZWRIb3N0TWFwcGluZ0NhdGFsb2csCiAgUmV2aXNpb25lZEhvc3RNYXBwaW5ncywKfSBmcm9tICIuL2NvbmZpZy1yZXZpc2lvbnMiOwoKZXhwb3J0IHR5cGUgewogIEFwcENvbmZpZywKICBBcHBlYXJhbmNlQ29uZmlnLAogIEF1dGhBY2NvdW50LAogIEF1dGhDcmVkZW50aWFsU2V0dGluZ3MsCiAgQXV0aExvZ2luTW9kZSwKICBBdXRoTG9naW5Nb2RlUHJldmlldywKICBBdXRoTG9naW5Nb2RlU3RhdHVzLAogIEF1dG9IdHRwc0NvbmZpZywKICBBdXRvSHR0cHNEZXRhaWxzLAogIEJhY2t1cERpcmVjdG9yeUZpbGVzUGF5bG9hZCwKICBEYXNoYm9hcmREaXNwbGF5Q29uZmlnLAogIERuc21hc3FJbnN0YWxsU3RhdGUsCiAgRG5zbWFzcVN0YXR1cywKICBEb2NrZXJBZG1pbkJvb3RzdHJhcFN0YXRlLAogIEZuS25vY2tCYWNrdXBFeHBvcnRUb0RpcmVjdG9yeVJlc3VsdCwKICBGbktub2NrQmFja3VwSW1wb3J0QXJjaGl2ZVJlcXVlc3QsCiAgRm5Lbm9ja0JhY2t1cEltcG9ydFJlc3VsdCwKICBGbm9zTmV0d29ya1R1bmluZ1N0YXR1cywKICBGbm9zTmV0d29ya1R1bmluZ1VwZGF0ZVBheWxvYWQsCiAgRm5vc0Nvbm5lY3RXYWZEZXRhaWxzLAogIEZub3NQb3J0SWNvbkhpamFja0NvbmZpZywKICBGbm9zU2hhcmVCeXBhc3NDb25maWcsCiAgR2F0ZXdheUhvc3RSZXNwb25zZURldGFpbHMsCiAgR2F0ZXdheUxvZ2dpbmdDb25maWcsCiAgR2F0ZXdheVBvcnRhbENvbmZpZywKICBHYXRld2F5UHJveHlIZWFkZXJzRGV0YWlscywKICBHYXRld2F5UHJveHlQcm90b2NvbENvbmZpZywKICBHYXRld2F5U2V0dGluZ3MsCiAgR2F0ZXdheVZpc2liaWxpdHlEZXRhaWxzLAogIEhvc3RNYXBwaW5nLAogIEhvc3RNYXBwaW5nQmFzaWNBdXRoLAogIEhvc3RNYXBwaW5nR3JvdXAsCiAgSG9zdE1hcHBpbmdSZWZyZXNoU3VtbWFyeSwKICBMb2NhbGVDb25maWcsCiAgTGRhcEJpbmRpbmcsCiAgTGRhcFByb3ZpZGVyQ2F0YWxvZ0l0ZW0sCiAgTGRhcFByb3ZpZGVyVmlldywKICBPSURDQmluZGluZywKICBPSURDUHJvdmlkZXJDYXRhbG9nSXRlbSwKICBPSURDUHJvdmlkZXJWaWV3LAogIFBhc3NrZXlDcmVkZW50aWFsLAogIFByb3RvY29sTWFwcGluZ0ZlYXR1cmVDb25maWcsCiAgUHJveHlNYXBwaW5nLAogIFByb3h5UHJvdG9jb2xGb3JjZSwKICBSZXZlcnNlUHJveHlTdWJtb2RlLAogIFJ1bnRpbWVDYXBhYmlsaXRpZXMsCiAgUnVudGltZVByb2ZpbGUsCiAgU2hhcmVkRGF0YUZpbGVFbnRyeSwKICBTbWFydENvbm5lY3RDb25maWcsCiAgU21hcnRDb25uZWN0RGV0YWlscywKICBTU0xDb25maWcsCiAgU1NMU2hhcmVkRmlsZXNQYXlsb2FkLAogIFNTTFN0YXR1cywKICBTdHJlYW1NYXBwaW5nLAogIFN1YmRvbWFpbk1vZGVDb25maWcsCiAgVE9UUENyZWRlbnRpYWwsCiAgVE9UUENyZWRlbnRpYWxJbXBvcnRTdW1tYXJ5LAogIFRPVFBTdWJkb21haW5BY2Nlc3MsCiAgVE9UUEFjY2Vzc1Njb3BlLAogIFVybE1ldGFkYXRhUHJldmlldywKfSBmcm9tICIuLi8uLi90eXBlcyI7CgpleHBvcnQgY29uc3QgTWFpbnRlbmFuY2VBUEkgPSB7CiAgYXN5bmMgZ2V0QXV0b21hdGljQmFja3VwRGV0YWlscygpOiBQcm9taXNlPEF1dG9tYXRpY0JhY2t1cERldGFpbHM+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9tYWludGVuYW5jZS9iYWNrdXAvYXV0b21hdGljIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHVwZGF0ZUF1dG9tYXRpY0JhY2t1cENvbmZpZygKICAgIHBheWxvYWQ6IEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJVcGRhdGVBdXRvbWF0aWNCYWNrdXBCb2R5Il0sCiAgKTogUHJvbWlzZTxBdXRvbWF0aWNCYWNrdXBEZXRhaWxzPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucHV0KCIvbWFpbnRlbmFuY2UvYmFja3VwL2F1dG9tYXRpYyIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyB0ZXN0QmFja3VwRW1haWwoCiAgICBwYXlsb2FkOiBpbXBvcnQoIi4uL2JhY2t1cC1lbWFpbCIpLkJhY2t1cEVtYWlsRm9ybSwKICApOiBQcm9taXNlPHZvaWQ+IHsKICAgIGNvbnN0IHsgYmFja3VwRW1haWxQYXlsb2FkIH0gPSBhd2FpdCBpbXBvcnQoIi4uL2JhY2t1cC1lbWFpbCIpOwogICAgYXdhaXQgYXBpQ2xpZW50LnBvc3QoCiAgICAgICIvbWFpbnRlbmFuY2UvYmFja3VwL2F1dG9tYXRpYy9lbWFpbC90ZXN0IiwKICAgICAgYmFja3VwRW1haWxQYXlsb2FkKHBheWxvYWQpLAogICAgKTsKICB9LAogIGFzeW5jIGdldEF1dG9tYXRpY0JhY2t1cEZpbGVzKCk6IFByb21pc2U8QXV0b21hdGljQmFja3VwRmlsZXNQYXlsb2FkPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvbWFpbnRlbmFuY2UvYmFja3VwL2F1dG9tYXRpYy9maWxlcyIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBkb3dubG9hZEJhY2t1cCgpOiBQcm9taXNlPEJsb2I+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9tYWludGVuYW5jZS9iYWNrdXAvZXhwb3J0IiwgewogICAgICByZXNwb25zZVR5cGU6ICJibG9iIiwKICAgIH0pOwogICAgcmV0dXJuIHJlcy5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0QmFja3VwRGlyZWN0b3J5RmlsZXMoKTogUHJvbWlzZTxCYWNrdXBEaXJlY3RvcnlGaWxlc1BheWxvYWQ+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9tYWludGVuYW5jZS9iYWNrdXAvZmlsZXMiKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgZXhwb3J0QmFja3VwVG9Gbm9zKCk6IFByb21pc2U8Rm5Lbm9ja0JhY2t1cEV4cG9ydFRvRGlyZWN0b3J5UmVzdWx0PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL21haW50ZW5hbmNlL2JhY2t1cC9leHBvcnQvZm5vcyIpOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBpbXBvcnRCYWNrdXAoCiAgICBwYXlsb2FkOiBGbktub2NrQmFja3VwSW1wb3J0QXJjaGl2ZVJlcXVlc3QsCiAgKTogUHJvbWlzZTxGbktub2NrQmFja3VwSW1wb3J0UmVzdWx0PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL21haW50ZW5hbmNlL2JhY2t1cC9pbXBvcnQiLCBwYXlsb2FkKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgaW1wb3J0QmFja3VwRnJvbUZub3MocGF0aDogc3RyaW5nKTogUHJvbWlzZTxGbktub2NrQmFja3VwSW1wb3J0UmVzdWx0PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL21haW50ZW5hbmNlL2JhY2t1cC9pbXBvcnQvZm5vcyIsIHsKICAgICAgcGF0aCwKICAgIH0pOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBpbXBvcnRCYWNrdXBGcm9tQXV0b21hdGljKAogICAgcGF0aDogc3RyaW5nLAogICk6IFByb21pc2U8Rm5Lbm9ja0JhY2t1cEltcG9ydFJlc3VsdD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9tYWludGVuYW5jZS9iYWNrdXAvaW1wb3J0L2F1dG9tYXRpYyIsIHsKICAgICAgcGF0aCwKICAgIH0pOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBjbGVhckFsbERhdGEoY29uZmlybWF0aW9uOiBzdHJpbmcpOiBQcm9taXNlPE1haW50ZW5hbmNlQ2xlYXJSZXN1bHQ+IHsKICAgIGNvbnN0IGJvZHkgPSB7CiAgICAgIGNvbmZpcm1hdGlvbiwKICAgIH0gc2F0aXNmaWVzIE1haW50ZW5hbmNlQ2xlYXJCb2R5OwogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9tYWludGVuYW5jZS9kYXRhL2NsZWFyIiwgYm9keSk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAp9OwoKZXhwb3J0IHsKICBTeXN0ZW1BUEksCiAgdHlwZSBBY2Nlc3NFbnRyeUluZm8sCiAgdHlwZSBSdW5Nb2RlUHJvbXB0UHJlZmVyZW5jZXMsCiAgdHlwZSBTeXN0ZW1DbG9ja0lzc3VlLAogIHR5cGUgU3lzdGVtQ2xvY2tJc3N1ZUNvZGUsCiAgdHlwZSBTeXN0ZW1DbG9ja1N0YXR1cywKfSBmcm9tICIuL3N5c3RlbSI7CgpleHBvcnQgdHlwZSBVcGRhdGVTdGF0dXNQYXlsb2FkID0KICBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiVXBkYXRlU3RhdHVzRGF0YSJdOwpleHBvcnQgdHlwZSBVcGRhdGVEb3dubG9hZFN0YXR1cyA9IFVwZGF0ZVN0YXR1c1BheWxvYWRbImRvd25sb2FkIl1bInN0YXR1cyJdOwpleHBvcnQgdHlwZSBVcGRhdGVMYXRlc3RQYXlsb2FkID0KICBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiVXBkYXRlTGF0ZXN0RGF0YSJdOwpleHBvcnQgdHlwZSBVcGRhdGVDb25maXJtUGF5bG9hZCA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIlVwZGF0ZUNvbmZpcm1EYXRhIl07Cgp0eXBlIFVwZGF0ZVN0YXR1c1Jlc3BvbnNlID0KICBBcGlDb250cmFjdE9wZXJhdGlvbnNbImdldF9hcGlfYWRtaW5fdXBkYXRlX3N0YXR1cyJdWyJyZXNwb25zZXMiXVsyMDBdWyJjb250ZW50Il1bImFwcGxpY2F0aW9uL2pzb24iXTsKdHlwZSBVcGRhdGVDaGVja1Jlc3BvbnNlID0KICBBcGlDb250cmFjdE9wZXJhdGlvbnNbInBvc3RfYXBpX2FkbWluX3VwZGF0ZV9jaGVjayJdWyJyZXNwb25zZXMiXVsyMDBdWyJjb250ZW50Il1bImFwcGxpY2F0aW9uL2pzb24iXTsKdHlwZSBVcGRhdGVDaGVja0FuZERvd25sb2FkUmVzcG9uc2UgPQogIEFwaUNvbnRyYWN0T3BlcmF0aW9uc1sicG9zdF9hcGlfYWRtaW5fdXBkYXRlX2NoZWNrX2FuZF9kb3dubG9hZCJdWyJyZXNwb25zZXMiXVsyMDBdWyJjb250ZW50Il1bImFwcGxpY2F0aW9uL2pzb24iXTsKdHlwZSBVcGRhdGVEb3dubG9hZFJlc3BvbnNlID0KICBBcGlDb250cmFjdE9wZXJhdGlvbnNbInBvc3RfYXBpX2FkbWluX3VwZGF0ZV9kb3dubG9hZCJdWyJyZXNwb25zZXMiXVsyMDBdWyJjb250ZW50Il1bImFwcGxpY2F0aW9uL2pzb24iXTsKdHlwZSBVcGRhdGVJbnN0YWxsUmVzcG9uc2UgPQogIEFwaUNvbnRyYWN0T3BlcmF0aW9uc1sicG9zdF9hcGlfYWRtaW5fdXBkYXRlX2luc3RhbGwiXVsicmVzcG9uc2VzIl1bMjAwXVsiY29udGVudCJdWyJhcHBsaWNhdGlvbi9qc29uIl07CnR5cGUgVXBkYXRlQ29uZmlybVJlc3BvbnNlID0KICBBcGlDb250cmFjdE9wZXJhdGlvbnNbImdldF9hcGlfYWRtaW5fdXBkYXRlX2NvbmZpcm0iXVsicmVzcG9uc2VzIl1bMjAwXVsiY29udGVudCJdWyJhcHBsaWNhdGlvbi9qc29uIl07CgpleHBvcnQgY29uc3QgQ2FwdGNoYUFQSSA9IHsKICBhc3luYyBnZXRTZXR0aW5ncygpOiBQcm9taXNlPENhcHRjaGFTZXR0aW5ncz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2NvbmZpZy9jYXB0Y2hhIik7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHVwZGF0ZVNldHRpbmdzKAogICAgcGF5bG9hZDogQ2FwdGNoYVNldHRpbmdzVXBkYXRlLAogICk6IFByb21pc2U8Q2FwdGNoYVNldHRpbmdzPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL2NvbmZpZy9jYXB0Y2hhIiwgcGF5bG9hZCk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAp9OwoKZXhwb3J0IHR5cGUgSXBMb2NhdGlvbkFwaUNvbmZpZyA9CiAgQXBpQ29udHJhY3RDb21wb25lbnRzWyJzY2hlbWFzIl1bIklwTG9jYXRpb25BcGlDb25maWdEYXRhIl07CmV4cG9ydCB0eXBlIElwTG9jYXRpb25BcGlNb2RlID0gSXBMb2NhdGlvbkFwaUNvbmZpZ1siaXBfbG9va3VwX21vZGUiXTsKdHlwZSBJcExvY2F0aW9uVGVzdFVybEJvZHkgPQogIEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdWyJJcExvY2F0aW9uVGVzdFVybEJvZHlEYXRhIl07CnR5cGUgSXBMb2NhdGlvblRlc3RSZXNwb25zZSA9CiAgQXBpQ29udHJhY3RPcGVyYXRpb25zWyJwb3N0X2FwaV9hZG1pbl9jb25maWdfaXBfbG9jYXRpb25fYXBpX3Rlc3RfaXBfbG9va3VwIl1bInJlc3BvbnNlcyJdWzIwMF1bImNvbnRlbnQiXVsiYXBwbGljYXRpb24vanNvbiJdOwp0eXBlIENpZHJUZXN0UmVzcG9uc2UgPQogIEFwaUNvbnRyYWN0T3BlcmF0aW9uc1sicG9zdF9hcGlfYWRtaW5fY29uZmlnX2lwX2xvY2F0aW9uX2FwaV90ZXN0X2NpZHIiXVsicmVzcG9uc2VzIl1bMjAwXVsiY29udGVudCJdWyJhcHBsaWNhdGlvbi9qc29uIl07CgpleHBvcnQgY29uc3QgSXBMb2NhdGlvblNldHRpbmdzQVBJID0gewogIGFzeW5jIGdldFNldHRpbmdzKCk6IFByb21pc2U8SXBMb2NhdGlvbkFwaUNvbmZpZz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2NvbmZpZy9pcF9sb2NhdGlvbl9hcGkiKTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCiAgYXN5bmMgdXBkYXRlU2V0dGluZ3MoCiAgICBwYXlsb2FkOiBJcExvY2F0aW9uQXBpQ29uZmlnLAogICk6IFByb21pc2U8SXBMb2NhdGlvbkFwaUNvbmZpZz4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9jb25maWcvaXBfbG9jYXRpb25fYXBpIiwgcGF5bG9hZCk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIHRlc3RJcExvb2t1cCh1cmw6IHN0cmluZyk6IFByb21pc2U8SXBMb2NhdGlvblRlc3RSZXNwb25zZT4gewogICAgY29uc3QgYm9keSA9IHsgdXJsIH0gc2F0aXNmaWVzIElwTG9jYXRpb25UZXN0VXJsQm9keTsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KAogICAgICAiL2NvbmZpZy9pcF9sb2NhdGlvbl9hcGkvdGVzdC1pcC1sb29rdXAiLAogICAgICBib2R5LAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YTsKICB9LAogIGFzeW5jIHRlc3RDaWRyKHVybDogc3RyaW5nKTogUHJvbWlzZTxDaWRyVGVzdFJlc3BvbnNlPiB7CiAgICBjb25zdCBib2R5ID0geyB1cmwgfSBzYXRpc2ZpZXMgSXBMb2NhdGlvblRlc3RVcmxCb2R5OwogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9jb25maWcvaXBfbG9jYXRpb25fYXBpL3Rlc3QtY2lkciIsIGJvZHkpOwogICAgcmV0dXJuIHJlcy5kYXRhOwogIH0sCn07CgpleHBvcnQgY29uc3QgVXBkYXRlQVBJID0gewogIGFzeW5jIGdldFN0YXR1cyhjYWNoZUJ1c3QgPSBmYWxzZSk6IFByb21pc2U8VXBkYXRlU3RhdHVzUGF5bG9hZD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL3VwZGF0ZS9zdGF0dXMiLCB7CiAgICAgIHBhcmFtczogY2FjaGVCdXN0ID8geyBfZm5fa25vY2tfdXBkYXRlX3Byb2JlOiBEYXRlLm5vdygpIH0gOiB1bmRlZmluZWQsCiAgICB9KTsKICAgIGNvbnN0IHBheWxvYWQgPSByZXMuZGF0YSBhcyBVcGRhdGVTdGF0dXNSZXNwb25zZTsKICAgIHJldHVybiBwYXlsb2FkLmRhdGE7CiAgfSwKICBhc3luYyBjaGVja05vdygpOiBQcm9taXNlPFVwZGF0ZVN0YXR1c1BheWxvYWQ+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KCIvdXBkYXRlL2NoZWNrIik7CiAgICBjb25zdCBwYXlsb2FkID0gcmVzLmRhdGEgYXMgVXBkYXRlQ2hlY2tSZXNwb25zZTsKICAgIHJldHVybiBwYXlsb2FkLmRhdGE7CiAgfSwKICBhc3luYyBjaGVja0FuZERvd25sb2FkKCk6IFByb21pc2U8VXBkYXRlQ2hlY2tBbmREb3dubG9hZFJlc3BvbnNlPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL3VwZGF0ZS9jaGVjay1hbmQtZG93bmxvYWQiKTsKICAgIHJldHVybiByZXMuZGF0YTsKICB9LAogIGFzeW5jIHN0YXJ0RG93bmxvYWQoKTogUHJvbWlzZTxVcGRhdGVEb3dubG9hZFJlc3BvbnNlPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL3VwZGF0ZS9kb3dubG9hZCIpOwogICAgcmV0dXJuIHJlcy5kYXRhOwogIH0sCiAgYXN5bmMgc3RhcnRJbnN0YWxsKCk6IFByb21pc2U8VXBkYXRlSW5zdGFsbFJlc3BvbnNlPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQucG9zdCgiL3VwZGF0ZS9pbnN0YWxsIik7CiAgICByZXR1cm4gcmVzLmRhdGE7CiAgfSwKICBhc3luYyBjb25zdW1lQ29uZmlybSgpOiBQcm9taXNlPFVwZGF0ZUNvbmZpcm1QYXlsb2FkIHwgbnVsbD4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL3VwZGF0ZS9jb25maXJtIik7CiAgICBjb25zdCBwYXlsb2FkID0gcmVzLmRhdGEgYXMgVXBkYXRlQ29uZmlybVJlc3BvbnNlOwogICAgcmV0dXJuIHBheWxvYWQuZGF0YTsKICB9LAp9OwoKZXhwb3J0IHR5cGUgQmFja29mZkl0ZW0gPSBBcGlDb250cmFjdENvbXBvbmVudHNbInNjaGVtYXMiXVsiTG9naW5CYWNrb2ZmRGF0YSJdOwoKdHlwZSBCYWNrb2ZmTGlzdFJlc3BvbnNlID0KICBBcGlDb250cmFjdE9wZXJhdGlvbnNbImdldF9hcGlfYWRtaW5fYmFja29mZl9saXN0Il1bInJlc3BvbnNlcyJdWzIwMF1bImNvbnRlbnQiXVsiYXBwbGljYXRpb24vanNvbiJdOwp0eXBlIEJhY2tvZmZTdGF0dXNPcGVyYXRpb24gPQogIEFwaUNvbnRyYWN0T3BlcmF0aW9uc1siZ2V0X2FwaV9hZG1pbl9iYWNrb2ZmX3N0YXR1cyJdOwp0eXBlIEJhY2tvZmZTdGF0dXNRdWVyeSA9IEJhY2tvZmZTdGF0dXNPcGVyYXRpb25bInBhcmFtZXRlcnMiXVsicXVlcnkiXTsKdHlwZSBCYWNrb2ZmU3RhdHVzUmVzcG9uc2UgPQogIEJhY2tvZmZTdGF0dXNPcGVyYXRpb25bInJlc3BvbnNlcyJdWzIwMF1bImNvbnRlbnQiXVsiYXBwbGljYXRpb24vanNvbiJdOwp0eXBlIEJhY2tvZmZSZXNldE9wZXJhdGlvbiA9CiAgQXBpQ29udHJhY3RPcGVyYXRpb25zWyJwb3N0X2FwaV9hZG1pbl9iYWNrb2ZmX3Jlc2V0Il07CnR5cGUgQmFja29mZlJlc2V0Qm9keSA9CiAgQmFja29mZlJlc2V0T3BlcmF0aW9uWyJyZXF1ZXN0Qm9keSJdWyJjb250ZW50Il1bImFwcGxpY2F0aW9uL2pzb24iXTsKCmV4cG9ydCBjb25zdCBCYWNrb2ZmQVBJID0gewogIGFzeW5jIGxpc3QoKTogUHJvbWlzZTxCYWNrb2ZmSXRlbVtdPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvYmFja29mZi9saXN0Iik7CiAgICBjb25zdCBwYXlsb2FkID0gcmVzLmRhdGEgYXMgQmFja29mZkxpc3RSZXNwb25zZTsKICAgIHJldHVybiBwYXlsb2FkLmRhdGE7CiAgfSwKICBhc3luYyBzdGF0dXMoaXA6IHN0cmluZyk6IFByb21pc2U8QmFja29mZkl0ZW0+IHsKICAgIGNvbnN0IHBhcmFtcyA9IHsgaXAgfSBzYXRpc2ZpZXMgQmFja29mZlN0YXR1c1F1ZXJ5OwogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2JhY2tvZmYvc3RhdHVzIiwgeyBwYXJhbXMgfSk7CiAgICBjb25zdCBwYXlsb2FkID0gcmVzLmRhdGEgYXMgQmFja29mZlN0YXR1c1Jlc3BvbnNlOwogICAgcmV0dXJuIHBheWxvYWQuZGF0YTsKICB9LAogIGFzeW5jIHJlc2V0KGlwOiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGNvbnN0IGJvZHkgPSB7IGlwIH0gc2F0aXNmaWVzIEJhY2tvZmZSZXNldEJvZHk7CiAgICBhd2FpdCBhcGlDbGllbnQucG9zdCgiL2JhY2tvZmYvcmVzZXQiLCBib2R5KTsKICB9LAp9Owo=
+import type {
+  components as ApiContractComponents,
+  operations as ApiContractOperations,
+} from "@fn-knock/api-contract";
+import type {
+  AutomaticBackupDetails,
+  AutomaticBackupFilesPayload,
+  BackupDirectoryFilesPayload,
+  FnKnockBackupExportToDirectoryResult,
+  FnKnockBackupImportArchiveRequest,
+  FnKnockBackupImportResult,
+} from "../../types";
+import { apiClient } from "./client";
+import { configAuthApi } from "./config-auth-api";
+import { configCoreApi } from "./config-core-api";
+import { configHostMappingStaticApi } from "./config-host-mapping-static-api";
+import { configProxyApi } from "./config-proxy-api";
+import { configSslLanApi } from "./config-ssl-lan-api";
+import {
+  configStreamApi,
+  STREAM_MAPPING_LEGACY_REPAIR_REQUIRED_CODE,
+} from "./config-stream-api";
+
+type CaptchaSettings = ApiContractComponents["schemas"]["CaptchaSettingsData"];
+type CaptchaSettingsUpdate =
+  ApiContractComponents["schemas"]["CaptchaSettingsUpdateData"];
+type MaintenanceClearBody =
+  ApiContractComponents["schemas"]["MaintenanceClearBodyData"];
+type MaintenanceClearResult =
+  ApiContractComponents["schemas"]["MaintenanceClearData"];
+
+export const ConfigAPI = {
+  ...configCoreApi,
+  ...configHostMappingStaticApi,
+  ...configProxyApi,
+  ...configSslLanApi,
+  ...configStreamApi,
+  ...configAuthApi,
+};
+
+export { STREAM_MAPPING_LEGACY_REPAIR_REQUIRED_CODE };
+export type {
+  AdvancedAuthDetails,
+  HostMappingBasicAuthProbeResult,
+} from "./config-proxy-api";
+export type {
+  StreamBypassPolicy,
+  StreamProbeResult,
+  StreamServiceCatalog,
+  StreamServiceDescriptor,
+  StreamServiceProfile,
+} from "./config-stream-api";
+export type {
+  StaticPathBrowseEntry,
+  StaticPathBrowseResult,
+  StaticPathProbeErrorCode,
+  StaticPathProbeResult,
+  StaticPathProbeTargetType,
+} from "./config-host-mapping-static-api";
+export type {
+  RevisionedConfig,
+  RevisionedHostMappingCatalog,
+  RevisionedHostMappings,
+} from "./config-revisions";
+
+export type {
+  AppConfig,
+  AppearanceConfig,
+  AuthAccount,
+  AuthCredentialSettings,
+  AuthLoginMode,
+  AuthLoginModePreview,
+  AuthLoginModeStatus,
+  AutoHttpsConfig,
+  AutoHttpsDetails,
+  BackupDirectoryFilesPayload,
+  DashboardDisplayConfig,
+  DnsmasqInstallState,
+  DnsmasqStatus,
+  DockerAdminBootstrapState,
+  FnKnockBackupExportToDirectoryResult,
+  FnKnockBackupImportArchiveRequest,
+  FnKnockBackupImportResult,
+  FnosNetworkTuningStatus,
+  FnosNetworkTuningUpdatePayload,
+  FnosConnectWafDetails,
+  FnosPortIconHijackConfig,
+  FnosShareBypassConfig,
+  GatewayHostResponseDetails,
+  GatewayLoggingConfig,
+  GatewayPortalConfig,
+  GatewayProxyHeadersDetails,
+  GatewayProxyProtocolConfig,
+  GatewaySettings,
+  GatewayVisibilityDetails,
+  HostMapping,
+  HostMappingBasicAuth,
+  HostMappingGroup,
+  HostMappingRefreshSummary,
+  LocaleConfig,
+  LdapBinding,
+  LdapProviderCatalogItem,
+  LdapProviderView,
+  OIDCBinding,
+  OIDCProviderCatalogItem,
+  OIDCProviderView,
+  PasskeyCredential,
+  ProtocolMappingFeatureConfig,
+  ProxyMapping,
+  ProxyProtocolForce,
+  ReverseProxySubmode,
+  RuntimeCapabilities,
+  RuntimeProfile,
+  SharedDataFileEntry,
+  SmartConnectConfig,
+  SmartConnectDetails,
+  SSLConfig,
+  SSLSharedFilesPayload,
+  SSLStatus,
+  StreamMapping,
+  SubdomainModeConfig,
+  TOTPCredential,
+  TOTPCredentialImportSummary,
+  TOTPSubdomainAccess,
+  TOTPAccessScope,
+  UrlMetadataPreview,
+} from "../../types";
+
+export const MaintenanceAPI = {
+  async getAutomaticBackupDetails(): Promise<AutomaticBackupDetails> {
+    const res = await apiClient.get("/maintenance/backup/automatic");
+    return res.data.data;
+  },
+  async updateAutomaticBackupConfig(
+    payload: ApiContractComponents["schemas"]["UpdateAutomaticBackupBody"],
+  ): Promise<AutomaticBackupDetails> {
+    const res = await apiClient.put("/maintenance/backup/automatic", payload);
+    return res.data.data;
+  },
+  async testBackupEmail(
+    payload: import("../backup-email").BackupEmailForm,
+  ): Promise<void> {
+    const { backupEmailPayload } = await import("../backup-email");
+    await apiClient.post(
+      "/maintenance/backup/automatic/email/test",
+      backupEmailPayload(payload),
+    );
+  },
+  async getAutomaticBackupFiles(): Promise<AutomaticBackupFilesPayload> {
+    const res = await apiClient.get("/maintenance/backup/automatic/files");
+    return res.data.data;
+  },
+  async downloadBackup(): Promise<Blob> {
+    const res = await apiClient.get("/maintenance/backup/export", {
+      responseType: "blob",
+    });
+    return res.data;
+  },
+  async getBackupDirectoryFiles(): Promise<BackupDirectoryFilesPayload> {
+    const res = await apiClient.get("/maintenance/backup/files");
+    return res.data.data;
+  },
+  async exportBackupToFnos(): Promise<FnKnockBackupExportToDirectoryResult> {
+    const res = await apiClient.post("/maintenance/backup/export/fnos");
+    return res.data.data;
+  },
+  async importBackup(
+    payload: FnKnockBackupImportArchiveRequest,
+  ): Promise<FnKnockBackupImportResult> {
+    const res = await apiClient.post("/maintenance/backup/import", payload);
+    return res.data.data;
+  },
+  async importBackupFromFnos(path: string): Promise<FnKnockBackupImportResult> {
+    const res = await apiClient.post("/maintenance/backup/import/fnos", {
+      path,
+    });
+    return res.data.data;
+  },
+  async importBackupFromAutomatic(
+    path: string,
+  ): Promise<FnKnockBackupImportResult> {
+    const res = await apiClient.post("/maintenance/backup/import/automatic", {
+      path,
+    });
+    return res.data.data;
+  },
+  async clearAllData(confirmation: string): Promise<MaintenanceClearResult> {
+    const body = {
+      confirmation,
+    } satisfies MaintenanceClearBody;
+    const res = await apiClient.post("/maintenance/data/clear", body);
+    return res.data.data;
+  },
+};
+
+export {
+  SystemAPI,
+  type AccessEntryInfo,
+  type RunModePromptPreferences,
+  type SystemClockIssue,
+  type SystemClockIssueCode,
+  type SystemClockStatus,
+} from "./system";
+
+export type UpdateStatusPayload =
+  ApiContractComponents["schemas"]["UpdateStatusData"];
+export type UpdateDownloadStatus = UpdateStatusPayload["download"]["status"];
+export type UpdateLatestPayload =
+  ApiContractComponents["schemas"]["UpdateLatestData"];
+export type UpdateConfirmPayload =
+  ApiContractComponents["schemas"]["UpdateConfirmData"];
+
+type UpdateStatusResponse =
+  ApiContractOperations["get_api_admin_update_status"]["responses"][200]["content"]["application/json"];
+type UpdateCheckResponse =
+  ApiContractOperations["post_api_admin_update_check"]["responses"][200]["content"]["application/json"];
+type UpdateCheckAndDownloadResponse =
+  ApiContractOperations["post_api_admin_update_check_and_download"]["responses"][200]["content"]["application/json"];
+type UpdateDownloadResponse =
+  ApiContractOperations["post_api_admin_update_download"]["responses"][200]["content"]["application/json"];
+type UpdateInstallResponse =
+  ApiContractOperations["post_api_admin_update_install"]["responses"][200]["content"]["application/json"];
+type UpdateConfirmResponse =
+  ApiContractOperations["get_api_admin_update_confirm"]["responses"][200]["content"]["application/json"];
+
+export const CaptchaAPI = {
+  async getSettings(): Promise<CaptchaSettings> {
+    const res = await apiClient.get("/config/captcha");
+    return res.data.data;
+  },
+  async updateSettings(
+    payload: CaptchaSettingsUpdate,
+  ): Promise<CaptchaSettings> {
+    const res = await apiClient.post("/config/captcha", payload);
+    return res.data.data;
+  },
+};
+
+export type IpLocationApiConfig =
+  ApiContractComponents["schemas"]["IpLocationApiConfigData"];
+export type IpLocationApiMode = IpLocationApiConfig["ip_lookup_mode"];
+type IpLocationTestUrlBody =
+  ApiContractComponents["schemas"]["IpLocationTestUrlBodyData"];
+type IpLocationTestResponse =
+  ApiContractOperations["post_api_admin_config_ip_location_api_test_ip_lookup"]["responses"][200]["content"]["application/json"];
+type CidrTestResponse =
+  ApiContractOperations["post_api_admin_config_ip_location_api_test_cidr"]["responses"][200]["content"]["application/json"];
+
+export const IpLocationSettingsAPI = {
+  async getSettings(): Promise<IpLocationApiConfig> {
+    const res = await apiClient.get("/config/ip_location_api");
+    return res.data.data;
+  },
+  async updateSettings(
+    payload: IpLocationApiConfig,
+  ): Promise<IpLocationApiConfig> {
+    const res = await apiClient.post("/config/ip_location_api", payload);
+    return res.data.data;
+  },
+  async testIpLookup(url: string): Promise<IpLocationTestResponse> {
+    const body = { url } satisfies IpLocationTestUrlBody;
+    const res = await apiClient.post(
+      "/config/ip_location_api/test-ip-lookup",
+      body,
+    );
+    return res.data;
+  },
+  async testCidr(url: string): Promise<CidrTestResponse> {
+    const body = { url } satisfies IpLocationTestUrlBody;
+    const res = await apiClient.post("/config/ip_location_api/test-cidr", body);
+    return res.data;
+  },
+};
+
+export const UpdateAPI = {
+  async getStatus(cacheBust = false): Promise<UpdateStatusPayload> {
+    const res = await apiClient.get("/update/status", {
+      params: cacheBust ? { _fn_knock_update_probe: Date.now() } : undefined,
+    });
+    const payload = res.data as UpdateStatusResponse;
+    return payload.data;
+  },
+  async checkNow(): Promise<UpdateStatusPayload> {
+    const res = await apiClient.post("/update/check");
+    const payload = res.data as UpdateCheckResponse;
+    return payload.data;
+  },
+  async checkAndDownload(): Promise<UpdateCheckAndDownloadResponse> {
+    const res = await apiClient.post("/update/check-and-download");
+    return res.data;
+  },
+  async startDownload(): Promise<UpdateDownloadResponse> {
+    const res = await apiClient.post("/update/download");
+    return res.data;
+  },
+  async startInstall(): Promise<UpdateInstallResponse> {
+    const res = await apiClient.post("/update/install");
+    return res.data;
+  },
+  async consumeConfirm(): Promise<UpdateConfirmPayload | null> {
+    const res = await apiClient.get("/update/confirm");
+    const payload = res.data as UpdateConfirmResponse;
+    return payload.data;
+  },
+};
+
+export type BackoffItem = ApiContractComponents["schemas"]["LoginBackoffData"];
+
+type BackoffListResponse =
+  ApiContractOperations["get_api_admin_backoff_list"]["responses"][200]["content"]["application/json"];
+type BackoffStatusOperation =
+  ApiContractOperations["get_api_admin_backoff_status"];
+type BackoffStatusQuery = BackoffStatusOperation["parameters"]["query"];
+type BackoffStatusResponse =
+  BackoffStatusOperation["responses"][200]["content"]["application/json"];
+type BackoffResetOperation =
+  ApiContractOperations["post_api_admin_backoff_reset"];
+type BackoffResetBody =
+  BackoffResetOperation["requestBody"]["content"]["application/json"];
+
+export const BackoffAPI = {
+  async list(): Promise<BackoffItem[]> {
+    const res = await apiClient.get("/backoff/list");
+    const payload = res.data as BackoffListResponse;
+    return payload.data;
+  },
+  async status(ip: string): Promise<BackoffItem> {
+    const params = { ip } satisfies BackoffStatusQuery;
+    const res = await apiClient.get("/backoff/status", { params });
+    const payload = res.data as BackoffStatusResponse;
+    return payload.data;
+  },
+  async reset(ip: string): Promise<void> {
+    const body = { ip } satisfies BackoffResetBody;
+    await apiClient.post("/backoff/reset", body);
+  },
+};

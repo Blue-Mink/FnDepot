@@ -1,1 +1,26 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUHJpbWl0aXZlUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgdHlwZSB7IEJhZGdlVmFyaWFudHMgfSBmcm9tICIuIgppbXBvcnQgeyByZWFjdGl2ZU9taXQgfSBmcm9tICJAdnVldXNlL2NvcmUiCmltcG9ydCB7IFByaW1pdGl2ZSB9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCmltcG9ydCB7IGJhZGdlVmFyaWFudHMgfSBmcm9tICIuIgoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczxQcmltaXRpdmVQcm9wcyAmIHsKICB2YXJpYW50PzogQmFkZ2VWYXJpYW50c1sidmFyaWFudCJdCiAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXQp9PigpCgpjb25zdCBkZWxlZ2F0ZWRQcm9wcyA9IHJlYWN0aXZlT21pdChwcm9wcywgImNsYXNzIikKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFByaW1pdGl2ZQogICAgZGF0YS1zbG90PSJiYWRnZSIKICAgIDpjbGFzcz0iY24oYmFkZ2VWYXJpYW50cyh7IHZhcmlhbnQgfSksIHByb3BzLmNsYXNzKSIKICAgIHYtYmluZD0iZGVsZWdhdGVkUHJvcHMiCiAgPgogICAgPHNsb3QgLz4KICA8L1ByaW1pdGl2ZT4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { PrimitiveProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import type { BadgeVariants } from "."
+import { reactiveOmit } from "@vueuse/core"
+import { Primitive } from "reka-ui"
+import { cn } from "@/lib/utils"
+import { badgeVariants } from "."
+
+const props = defineProps<PrimitiveProps & {
+  variant?: BadgeVariants["variant"]
+  class?: HTMLAttributes["class"]
+}>()
+
+const delegatedProps = reactiveOmit(props, "class")
+</script>
+
+<template>
+  <Primitive
+    data-slot="badge"
+    :class="cn(badgeVariants({ variant }), props.class)"
+    v-bind="delegatedProps"
+  >
+    <slot />
+  </Primitive>
+</template>

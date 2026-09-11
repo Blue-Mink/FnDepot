@@ -1,1 +1,193 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGNvbnN0IE1BWF9OT1RJRklDQVRJT05fUFJPVklERVJfUkVTUE9OU0VfQllURVM6IHVzaXplID0KICAgIDI1NiAqIDEwMjQ7CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgYXN5bmMgZm4gcG9zdF9qc29uKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHVybDogJnN0ciwKICAgIGJvZHk6ICZWYWx1ZSwKICAgIHRpbWVvdXRfc2Vjb25kczogaTY0LAopIC0+ICh1MTYsIGJvb2wsIFN0cmluZywgT3B0aW9uPFZhbHVlPikgewogICAgbGV0IHJlcXVlc3QgPSBzdGF0ZQogICAgICAgIC5mYWxsYmFja19jbGllbnQKICAgICAgICAucG9zdCh1cmwpCiAgICAgICAgLmhlYWRlcigiY29udGVudC10eXBlIiwgImFwcGxpY2F0aW9uL2pzb247IGNoYXJzZXQ9dXRmLTgiKTsKICAgIHNlbmRfcHJlcGFyZWRfanNvbihyZXF1ZXN0LCBib2R5LCB0aW1lb3V0X3NlY29uZHMpLmF3YWl0Cn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBhc3luYyBmbiBzZW5kX3ByZXBhcmVkX2pzb24oCiAgICByZXF1ZXN0OiByZXF3ZXN0OjpSZXF1ZXN0QnVpbGRlciwKICAgIGJvZHk6ICZWYWx1ZSwKICAgIHRpbWVvdXRfc2Vjb25kczogaTY0LAopIC0+ICh1MTYsIGJvb2wsIFN0cmluZywgT3B0aW9uPFZhbHVlPikgewogICAgbWF0Y2ggdGltZTo6dGltZW91dCgKICAgICAgICBEdXJhdGlvbjo6ZnJvbV9zZWNzKHRpbWVvdXRfc2Vjb25kcy5tYXgoMSkgYXMgdTY0KSwKICAgICAgICByZXF1ZXN0Lmpzb24oYm9keSkuc2VuZCgpLAogICAgKQogICAgLmF3YWl0CiAgICB7CiAgICAgICAgT2soT2socmVzcG9uc2UpKSA9PiByZWFkX3Byb3ZpZGVyX3Jlc3BvbnNlKHJlc3BvbnNlKS5hd2FpdCwKICAgICAgICBPayhFcnIoZXJyb3IpKSA9PiAoNTk5LCBmYWxzZSwgZXJyb3IudG9fc3RyaW5nKCksIE5vbmUpLAogICAgICAgIEVycihfKSA9PiAoCiAgICAgICAgICAgIDU5OSwKICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgIG5vdGlmaWNhdGlvbl9zZXJ2aWNlX2RlZmF1bHRfdGV4dCgidGVzdFNlbmRGYWlsZWQiLCAmW10pLAogICAgICAgICAgICBOb25lLAogICAgICAgICksCiAgICB9Cn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBhc3luYyBmbiBwb3N0X2Zvcm0oCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgdXJsOiAmc3RyLAogICAgZm9ybTogJlsoU3RyaW5nLCBTdHJpbmcpXSwKICAgIHRpbWVvdXRfc2Vjb25kczogaTY0LAopIC0+ICh1MTYsIGJvb2wsIFN0cmluZywgT3B0aW9uPFZhbHVlPikgewogICAgbGV0IGJvZHkgPSB7CiAgICAgICAgbGV0IG11dCBzZXJpYWxpemVyID0gdXJsOjpmb3JtX3VybGVuY29kZWQ6OlNlcmlhbGl6ZXI6Om5ldyhTdHJpbmc6Om5ldygpKTsKICAgICAgICBmb3IgKGtleSwgdmFsdWUpIGluIGZvcm0gewogICAgICAgICAgICBzZXJpYWxpemVyLmFwcGVuZF9wYWlyKGtleSwgdmFsdWUpOwogICAgICAgIH0KICAgICAgICBzZXJpYWxpemVyLmZpbmlzaCgpCiAgICB9OwogICAgbGV0IHJlcXVlc3QgPSBzdGF0ZQogICAgICAgIC5mYWxsYmFja19jbGllbnQKICAgICAgICAucG9zdCh1cmwpCiAgICAgICAgLmhlYWRlcigKICAgICAgICAgICAgImNvbnRlbnQtdHlwZSIsCiAgICAgICAgICAgICJhcHBsaWNhdGlvbi94LXd3dy1mb3JtLXVybGVuY29kZWQ7IGNoYXJzZXQ9dXRmLTgiLAogICAgICAgICkKICAgICAgICAuYm9keShib2R5KTsKICAgIG1hdGNoIHRpbWU6OnRpbWVvdXQoCiAgICAgICAgRHVyYXRpb246OmZyb21fc2Vjcyh0aW1lb3V0X3NlY29uZHMubWF4KDEpIGFzIHU2NCksCiAgICAgICAgcmVxdWVzdC5zZW5kKCksCiAgICApCiAgICAuYXdhaXQKICAgIHsKICAgICAgICBPayhPayhyZXNwb25zZSkpID0+IHJlYWRfcHJvdmlkZXJfcmVzcG9uc2UocmVzcG9uc2UpLmF3YWl0LAogICAgICAgIE9rKEVycihlcnJvcikpID0+ICg1OTksIGZhbHNlLCBlcnJvci50b19zdHJpbmcoKSwgTm9uZSksCiAgICAgICAgRXJyKF8pID0+ICgKICAgICAgICAgICAgNTk5LAogICAgICAgICAgICBmYWxzZSwKICAgICAgICAgICAgbm90aWZpY2F0aW9uX3NlcnZpY2VfZGVmYXVsdF90ZXh0KCJ0ZXN0U2VuZEZhaWxlZCIsICZbXSksCiAgICAgICAgICAgIE5vbmUsCiAgICAgICAgKSwKICAgIH0KfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGFzeW5jIGZuIHBvc3RfdGV4dCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICB1cmw6ICZzdHIsCiAgICBib2R5OiAmc3RyLAogICAgdGltZW91dF9zZWNvbmRzOiBpNjQsCikgLT4gKHUxNiwgYm9vbCwgU3RyaW5nLCBPcHRpb248VmFsdWU+KSB7CiAgICBsZXQgcmVxdWVzdCA9IHN0YXRlLmZhbGxiYWNrX2NsaWVudC5wb3N0KHVybCk7CiAgICBzZW5kX3ByZXBhcmVkX3RleHQocmVxdWVzdCwgYm9keSwgdGltZW91dF9zZWNvbmRzKS5hd2FpdAp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgYXN5bmMgZm4gc2VuZF9wcmVwYXJlZF90ZXh0KAogICAgcmVxdWVzdDogcmVxd2VzdDo6UmVxdWVzdEJ1aWxkZXIsCiAgICBib2R5OiAmc3RyLAogICAgdGltZW91dF9zZWNvbmRzOiBpNjQsCikgLT4gKHUxNiwgYm9vbCwgU3RyaW5nLCBPcHRpb248VmFsdWU+KSB7CiAgICBsZXQgcmVxdWVzdCA9IHJlcXVlc3QKICAgICAgICAuaGVhZGVyKCJjb250ZW50LXR5cGUiLCAidGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOCIpCiAgICAgICAgLmJvZHkoYm9keS50b19zdHJpbmcoKSk7CiAgICBtYXRjaCB0aW1lOjp0aW1lb3V0KAogICAgICAgIER1cmF0aW9uOjpmcm9tX3NlY3ModGltZW91dF9zZWNvbmRzLm1heCgxKSBhcyB1NjQpLAogICAgICAgIHJlcXVlc3Quc2VuZCgpLAogICAgKQogICAgLmF3YWl0CiAgICB7CiAgICAgICAgT2soT2socmVzcG9uc2UpKSA9PiByZWFkX3Byb3ZpZGVyX3Jlc3BvbnNlKHJlc3BvbnNlKS5hd2FpdCwKICAgICAgICBPayhFcnIoZXJyb3IpKSA9PiAoNTk5LCBmYWxzZSwgZXJyb3IudG9fc3RyaW5nKCksIE5vbmUpLAogICAgICAgIEVycihfKSA9PiAoCiAgICAgICAgICAgIDU5OSwKICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgIG5vdGlmaWNhdGlvbl9zZXJ2aWNlX2RlZmF1bHRfdGV4dCgidGVzdFNlbmRGYWlsZWQiLCAmW10pLAogICAgICAgICAgICBOb25lLAogICAgICAgICksCiAgICB9Cn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBhc3luYyBmbiByZWFkX3Byb3ZpZGVyX3Jlc3BvbnNlKAogICAgcmVzcG9uc2U6IHJlcXdlc3Q6OlJlc3BvbnNlLAopIC0+ICh1MTYsIGJvb2wsIFN0cmluZywgT3B0aW9uPFZhbHVlPikgewogICAgbGV0IHN0YXR1cyA9IHJlc3BvbnNlLnN0YXR1cygpOwogICAgbGV0IG9rID0gc3RhdHVzLmlzX3N1Y2Nlc3MoKTsKICAgIGxldCB0ZXh0ID0gbWF0Y2ggY3JhdGU6Omh0dHBfYm9keTo6cmVhZF9yZXNwb25zZV90ZXh0X2xpbWl0ZWQoCiAgICAgICAgcmVzcG9uc2UsCiAgICAgICAgTUFYX05PVElGSUNBVElPTl9QUk9WSURFUl9SRVNQT05TRV9CWVRFUywKICAgICkKICAgIC5hd2FpdAogICAgewogICAgICAgIE9rKHRleHQpID0+IHRleHQsCiAgICAgICAgRXJyKGVycm9yKSA9PiByZXR1cm4gKDU5OSwgZmFsc2UsIGVycm9yLnRvX3N0cmluZygpLCBOb25lKSwKICAgIH07CiAgICBsZXQgcGFyc2VkID0gc2VyZGVfanNvbjo6ZnJvbV9zdHI6OjxWYWx1ZT4oJnRleHQpLm9rKCk7CiAgICAoc3RhdHVzLmFzX3UxNigpLCBvaywgdGV4dCwgcGFyc2VkKQp9CgojW2FsbG93KGNsaXBweTo6dG9vX21hbnlfYXJndW1lbnRzKV0KcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIHByb3ZpZGVyX3Jlc3VsdF9mcm9tX2FwaTxTLCBNPigKICAgIHByb3ZpZGVyX2xhYmVsOiAmc3RyLAogICAgcmVxdWVzdF9zdW1tYXJ5OiBWYWx1ZSwKICAgIHN0YXR1czogdTE2LAogICAgb2s6IGJvb2wsCiAgICB0ZXh0OiBTdHJpbmcsCiAgICBwYXJzZWQ6IE9wdGlvbjxWYWx1ZT4sCiAgICBzdWNjZXNzX2NoZWNrOiBTLAogICAgbWVzc2FnZV9nZXR0ZXI6IE0sCikgLT4gUHJvdmlkZXJUZXN0UmVzdWx0CndoZXJlCiAgICBTOiBGbigmVmFsdWUpIC0+IGJvb2wsCiAgICBNOiBGbigmVmFsdWUpIC0+IE9wdGlvbjxTdHJpbmc+LAp7CiAgICBsZXQgcGFyc2VkX3ZhbHVlID0gcGFyc2VkLmFzX3JlZigpLnVud3JhcF9vcigmVmFsdWU6Ok51bGwpOwogICAgbGV0IHN1Y2Nlc3MgPSBvayAmJiBzdWNjZXNzX2NoZWNrKHBhcnNlZF92YWx1ZSk7CiAgICBsZXQgYXBpX21lc3NhZ2UgPSBtZXNzYWdlX2dldHRlcihwYXJzZWRfdmFsdWUpOwogICAgbGV0IHJldHJ5YWJsZSA9CiAgICAgICAgIXN1Y2Nlc3MgJiYgcHJvdmlkZXJfYXBpX2ZhaWx1cmVfcmV0cnlhYmxlKHByb3ZpZGVyX2xhYmVsLCBzdGF0dXMsIHBhcnNlZF92YWx1ZSk7CiAgICBsZXQgaGFzX3Jlc3BvbnNlX3N1bW1hcnkgPSAhKHN0YXR1cyA9PSA1OTkgJiYgcGFyc2VkLmlzX25vbmUoKSk7CiAgICBQcm92aWRlclRlc3RSZXN1bHQgewogICAgICAgIHN1Y2Nlc3MsCiAgICAgICAgcmV0cnlhYmxlLAogICAgICAgIG1lc3NhZ2U6IGlmIHN1Y2Nlc3MgewogICAgICAgICAgICBub3RpZmljYXRpb25fc2VydmljZV9kZWZhdWx0X3RleHQoInRlc3RTZW5kU3VjY2VzcyIsICZbXSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBhcGlfbWVzc2FnZS51bndyYXBfb3JfZWxzZSh8fCB7CiAgICAgICAgICAgICAgICBpZiBzdGF0dXMgPT0gNTk5ICYmICF0ZXh0LmlzX2VtcHR5KCkgewogICAgICAgICAgICAgICAgICAgIHRleHQuY2xvbmUoKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBmb3JtYXQhKCJ7cHJvdmlkZXJfbGFiZWx9IHJlcXVlc3QgcmV0dXJuZWQgc3RhdHVzIHtzdGF0dXN9IikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSkKICAgICAgICB9LAogICAgICAgIHJlcXVlc3Rfc3VtbWFyeTogU29tZShyZXF1ZXN0X3N1bW1hcnkpLAogICAgICAgIHJlc3BvbnNlX3N1bW1hcnk6IGhhc19yZXNwb25zZV9zdW1tYXJ5LnRoZW4ofHwgewogICAgICAgICAgICBqc29uISh7CiAgICAgICAgICAgICAgICAic3RhdHVzIjogc3RhdHVzLAogICAgICAgICAgICAgICAgIm9rIjogb2ssCiAgICAgICAgICAgICAgICAiYm9keV9wcmV2aWV3IjogdHJ1bmNhdGVfdGV4dCgmdGV4dCwgNTAwKSwKICAgICAgICAgICAgICAgICJqc29uIjogcGFyc2VkLnVud3JhcF9vcihWYWx1ZTo6TnVsbCkKICAgICAgICAgICAgfSkKICAgICAgICB9KSwKICAgIH0KfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIHByb3ZpZGVyX2FwaV9mYWlsdXJlX3JldHJ5YWJsZSgKICAgIHByb3ZpZGVyX2xhYmVsOiAmc3RyLAogICAgc3RhdHVzOiB1MTYsCiAgICBwYXJzZWQ6ICZWYWx1ZSwKKSAtPiBib29sIHsKICAgIHN0YXR1cyA+PSA1MDAKICAgICAgICB8fCBzdGF0dXMgPT0gNDI5CiAgICAgICAgfHwgbWF0Y2ggcHJvdmlkZXJfbGFiZWwgewogICAgICAgICAgICAiRmVpc2h1IiA9PiBqc29uX2k2NChwYXJzZWQsICJjb2RlIikgPT0gU29tZSgxMTIzMiksCiAgICAgICAgICAgICJQdXNoUGx1cyIgPT4gbWF0Y2hlcyEoanNvbl9pNjQocGFyc2VkLCAiY29kZSIpLCBTb21lKDUwMCB8IDk5OSkpLAogICAgICAgICAgICAiVGVsZWdyYW0iID0+IGpzb25faTY0KHBhcnNlZCwgImVycm9yX2NvZGUiKSA9PSBTb21lKDQyOSksCiAgICAgICAgICAgICJIYXJtb255T1NNZW9XIiA9PiBqc29uX2k2NChwYXJzZWQsICJzdGF0dXMiKSA9PSBTb21lKDUwMCksCiAgICAgICAgICAgIF8gPT4gZmFsc2UsCiAgICAgICAgfQp9Cg==
+use super::*;
+
+pub(in crate::notifications::routes) const MAX_NOTIFICATION_PROVIDER_RESPONSE_BYTES: usize =
+    256 * 1024;
+
+pub(in crate::notifications::routes) async fn post_json(
+    state: &AppState,
+    url: &str,
+    body: &Value,
+    timeout_seconds: i64,
+) -> (u16, bool, String, Option<Value>) {
+    let request = state
+        .fallback_client
+        .post(url)
+        .header("content-type", "application/json; charset=utf-8");
+    send_prepared_json(request, body, timeout_seconds).await
+}
+
+pub(in crate::notifications::routes) async fn send_prepared_json(
+    request: reqwest::RequestBuilder,
+    body: &Value,
+    timeout_seconds: i64,
+) -> (u16, bool, String, Option<Value>) {
+    match time::timeout(
+        Duration::from_secs(timeout_seconds.max(1) as u64),
+        request.json(body).send(),
+    )
+    .await
+    {
+        Ok(Ok(response)) => read_provider_response(response).await,
+        Ok(Err(error)) => (599, false, error.to_string(), None),
+        Err(_) => (
+            599,
+            false,
+            notification_service_default_text("testSendFailed", &[]),
+            None,
+        ),
+    }
+}
+
+pub(in crate::notifications::routes) async fn post_form(
+    state: &AppState,
+    url: &str,
+    form: &[(String, String)],
+    timeout_seconds: i64,
+) -> (u16, bool, String, Option<Value>) {
+    let body = {
+        let mut serializer = url::form_urlencoded::Serializer::new(String::new());
+        for (key, value) in form {
+            serializer.append_pair(key, value);
+        }
+        serializer.finish()
+    };
+    let request = state
+        .fallback_client
+        .post(url)
+        .header(
+            "content-type",
+            "application/x-www-form-urlencoded; charset=utf-8",
+        )
+        .body(body);
+    match time::timeout(
+        Duration::from_secs(timeout_seconds.max(1) as u64),
+        request.send(),
+    )
+    .await
+    {
+        Ok(Ok(response)) => read_provider_response(response).await,
+        Ok(Err(error)) => (599, false, error.to_string(), None),
+        Err(_) => (
+            599,
+            false,
+            notification_service_default_text("testSendFailed", &[]),
+            None,
+        ),
+    }
+}
+
+pub(in crate::notifications::routes) async fn post_text(
+    state: &AppState,
+    url: &str,
+    body: &str,
+    timeout_seconds: i64,
+) -> (u16, bool, String, Option<Value>) {
+    let request = state.fallback_client.post(url);
+    send_prepared_text(request, body, timeout_seconds).await
+}
+
+pub(in crate::notifications::routes) async fn send_prepared_text(
+    request: reqwest::RequestBuilder,
+    body: &str,
+    timeout_seconds: i64,
+) -> (u16, bool, String, Option<Value>) {
+    let request = request
+        .header("content-type", "text/plain; charset=utf-8")
+        .body(body.to_string());
+    match time::timeout(
+        Duration::from_secs(timeout_seconds.max(1) as u64),
+        request.send(),
+    )
+    .await
+    {
+        Ok(Ok(response)) => read_provider_response(response).await,
+        Ok(Err(error)) => (599, false, error.to_string(), None),
+        Err(_) => (
+            599,
+            false,
+            notification_service_default_text("testSendFailed", &[]),
+            None,
+        ),
+    }
+}
+
+pub(in crate::notifications::routes) async fn read_provider_response(
+    response: reqwest::Response,
+) -> (u16, bool, String, Option<Value>) {
+    let status = response.status();
+    let ok = status.is_success();
+    let text = match crate::http_body::read_response_text_limited(
+        response,
+        MAX_NOTIFICATION_PROVIDER_RESPONSE_BYTES,
+    )
+    .await
+    {
+        Ok(text) => text,
+        Err(error) => return (599, false, error.to_string(), None),
+    };
+    let parsed = serde_json::from_str::<Value>(&text).ok();
+    (status.as_u16(), ok, text, parsed)
+}
+
+#[allow(clippy::too_many_arguments)]
+pub(in crate::notifications::routes) fn provider_result_from_api<S, M>(
+    provider_label: &str,
+    request_summary: Value,
+    status: u16,
+    ok: bool,
+    text: String,
+    parsed: Option<Value>,
+    success_check: S,
+    message_getter: M,
+) -> ProviderTestResult
+where
+    S: Fn(&Value) -> bool,
+    M: Fn(&Value) -> Option<String>,
+{
+    let parsed_value = parsed.as_ref().unwrap_or(&Value::Null);
+    let success = ok && success_check(parsed_value);
+    let api_message = message_getter(parsed_value);
+    let retryable =
+        !success && provider_api_failure_retryable(provider_label, status, parsed_value);
+    let has_response_summary = !(status == 599 && parsed.is_none());
+    ProviderTestResult {
+        success,
+        retryable,
+        message: if success {
+            notification_service_default_text("testSendSuccess", &[])
+        } else {
+            api_message.unwrap_or_else(|| {
+                if status == 599 && !text.is_empty() {
+                    text.clone()
+                } else {
+                    format!("{provider_label} request returned status {status}")
+                }
+            })
+        },
+        request_summary: Some(request_summary),
+        response_summary: has_response_summary.then(|| {
+            json!({
+                "status": status,
+                "ok": ok,
+                "body_preview": truncate_text(&text, 500),
+                "json": parsed.unwrap_or(Value::Null)
+            })
+        }),
+    }
+}
+
+pub(in crate::notifications::routes) fn provider_api_failure_retryable(
+    provider_label: &str,
+    status: u16,
+    parsed: &Value,
+) -> bool {
+    status >= 500
+        || status == 429
+        || match provider_label {
+            "Feishu" => json_i64(parsed, "code") == Some(11232),
+            "PushPlus" => matches!(json_i64(parsed, "code"), Some(500 | 999)),
+            "Telegram" => json_i64(parsed, "error_code") == Some(429),
+            "HarmonyOSMeoW" => json_i64(parsed, "status") == Some(500),
+            _ => false,
+        }
+}

@@ -1,1 +1,257 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQoKaW1wb3J0IHsgZXhpc3RzU3luYywgcmVhZEZpbGVTeW5jLCByZWFkZGlyU3luYywgc3RhdFN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHBhdGggZnJvbSAibm9kZTpwYXRoIjsKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCB9IGZyb20gIm5vZGU6dXJsIjsKCmNvbnN0IHJvb3QgPSBwYXRoLnJlc29sdmUocGF0aC5kaXJuYW1lKGZpbGVVUkxUb1BhdGgoaW1wb3J0Lm1ldGEudXJsKSksICIuLiIpOwpjb25zdCB7IHZlcnNpb246IGFwcFZlcnNpb24gfSA9IEpTT04ucGFyc2UoCiAgcmVhZEZpbGVTeW5jKHBhdGguam9pbihyb290LCAidmVyc2lvbi5qc29uIiksICJ1dGY4IiksCik7CmNvbnN0IGNvbXByZXNzaWJsZUV4dGVuc2lvbnMgPSBuZXcgU2V0KFsKICAiLmNzcyIsCiAgIi5odG1sIiwKICAiLmpzIiwKICAiLmpzb24iLAogICIuc3ZnIiwKICAiLnR4dCIsCiAgIi53YXNtIiwKXSk7CmNvbnN0IE1BWF9JTklUSUFMX1NDUklQVF9CUk9UTEkgPSAxMDAgKiAxMDI0Owpjb25zdCBNQVhfQURNSU5fRU5UUllfSU1QT1JUUyA9IDE2Owpjb25zdCBNQVhfQURNSU5fSFRNTF9NT0RVTEVfUFJFTE9BRFMgPSA4Owpjb25zdCBNQVhfQVVUSF9FTlRSWV9JTVBPUlRTID0gMDsKY29uc3QgTUFYX0FVVEhfSFRNTF9NT0RVTEVfUFJFTE9BRFMgPSAwOwoKY29uc3QgYXBwcyA9IFsKICB7CiAgICBuYW1lOiAiYWRtaW4iLAogICAgZGlyZWN0b3J5OiAiYXBwcy9zZXJ2ZXItYWRtaW4tdmlldy9kaXN0IiwKICAgIHNjZW5hcmlvczogWwogICAgICB7CiAgICAgICAgbmFtZTogIkRhc2hib2FyZCt6aC1DTiIsCiAgICAgICAgbGltaXQ6IDI2MCAqIDEwMjQsCiAgICAgICAgZmlsZUxpbWl0OiAzMiwKICAgICAgICBzb3VyY2VzOiBbCiAgICAgICAgICAiL3NyYy92aWV3cy9EYXNoYm9hcmQudnVlIiwKICAgICAgICAgICIvbWVzc2FnZXMvc2NvcGVzL2FkbWluL3poLUNOLnRzIiwKICAgICAgICBdLAogICAgICB9LAogICAgXSwKICB9LAogIHsKICAgIG5hbWU6ICJhdXRoIiwKICAgIGRpcmVjdG9yeTogImFwcHMvc2VydmVyLWF1dGgtdmlldy9kaXN0IiwKICAgIHNjZW5hcmlvczogWwogICAgICB7CiAgICAgICAgbmFtZTogIkhvbWUremgtQ04iLAogICAgICAgIGxpbWl0OiAxMjUgKiAxMDI0LAogICAgICAgIGZpbGVMaW1pdDogOCwKICAgICAgICBzb3VyY2VzOiBbIi9zcmMvdmlld3MvSG9tZS52dWUiLCAiL21lc3NhZ2VzL3Njb3Blcy9hdXRoL3poLUNOLnRzIl0sCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBuYW1lOiAiTG9naW5CYXNlK3poLUNOIiwKICAgICAgICBsaW1pdDogMTU1ICogMTAyNCwKICAgICAgICBmaWxlTGltaXQ6IDksCiAgICAgICAgc291cmNlczogWyIvc3JjL3ZpZXdzL0xvZ2luLnZ1ZSIsICIvbWVzc2FnZXMvc2NvcGVzL2F1dGgvemgtQ04udHMiXSwKICAgICAgfSwKICAgICAgewogICAgICAgIG5hbWU6ICJMb2dpbitBTFRDSEEremgtQ04iLAogICAgICAgIGxpbWl0OiAxODAgKiAxMDI0LAogICAgICAgIGZpbGVMaW1pdDogMTAsCiAgICAgICAgc291cmNlczogWwogICAgICAgICAgIi9zcmMvdmlld3MvTG9naW4udnVlIiwKICAgICAgICAgICIvbWVzc2FnZXMvc2NvcGVzL2F1dGgvemgtQ04udHMiLAogICAgICAgICAgIi9ub2RlX21vZHVsZXMvYWx0Y2hhLyIsCiAgICAgICAgXSwKICAgICAgfSwKICAgICAgewogICAgICAgIG5hbWU6ICJMb2dpbitQb1cremgtQ04iLAogICAgICAgIGxpbWl0OiAxNzUgKiAxMDI0LAogICAgICAgIGZpbGVMaW1pdDogMTAsCiAgICAgICAgc291cmNlczogWyIvc3JjL3ZpZXdzL0xvZ2luLnZ1ZSIsICIvbWVzc2FnZXMvc2NvcGVzL2F1dGgvemgtQ04udHMiXSwKICAgICAgICBmaWxlczogWy9wb3dcLndvcmtlclteL10qXC5qcyQvdV0sCiAgICAgIH0sCiAgICBdLAogIH0sCl07Cgpjb25zdCBmYWlsID0gKG1lc3NhZ2UpID0+IHsKICB0aHJvdyBuZXcgRXJyb3IoYFtmcm9udGVuZC1idWRnZXRdICR7bWVzc2FnZX1gKTsKfTsKCmNvbnN0IHdhbGtGaWxlcyA9IChkaXJlY3RvcnksIHJlbGF0aXZlID0gIiIpID0+CiAgcmVhZGRpclN5bmMocGF0aC5qb2luKGRpcmVjdG9yeSwgcmVsYXRpdmUpLCB7IHdpdGhGaWxlVHlwZXM6IHRydWUgfSkuZmxhdE1hcCgKICAgIChlbnRyeSkgPT4gewogICAgICBjb25zdCBuZXh0ID0gcGF0aC5qb2luKHJlbGF0aXZlLCBlbnRyeS5uYW1lKTsKICAgICAgcmV0dXJuIGVudHJ5LmlzRGlyZWN0b3J5KCkgPyB3YWxrRmlsZXMoZGlyZWN0b3J5LCBuZXh0KSA6IFtuZXh0XTsKICAgIH0sCiAgKTsKCmNvbnN0IG5vcm1hbGl6ZWRTb3VyY2UgPSAocmVjb3JkKSA9PgogIGAvJHtTdHJpbmcocmVjb3JkLnNyYyA/PyAiIikKICAgIC5yZXBsYWNlQWxsKCJcXCIsICIvIikKICAgIC5yZXBsYWNlKC9eXC8rLywgIiIpfWA7CgpsZXQgZmFpbGVkID0gZmFsc2U7CmZvciAoY29uc3QgYXBwIG9mIGFwcHMpIHsKICBjb25zdCBkaXJlY3RvcnkgPSBwYXRoLmpvaW4ocm9vdCwgYXBwLmRpcmVjdG9yeSk7CiAgY29uc3QgbWFuaWZlc3RQYXRoID0gcGF0aC5qb2luKGRpcmVjdG9yeSwgIi52aXRlL21hbmlmZXN0Lmpzb24iKTsKICBpZiAoIWV4aXN0c1N5bmMobWFuaWZlc3RQYXRoKSkgewogICAgZmFpbCgKICAgICAgYG1pc3NpbmcgJHtwYXRoLnJlbGF0aXZlKHJvb3QsIG1hbmlmZXN0UGF0aCl9OyBlbmFibGUgVml0ZSBtYW5pZmVzdCBvdXRwdXRgLAogICAgKTsKICB9CiAgY29uc3QgbWFuaWZlc3QgPSBKU09OLnBhcnNlKHJlYWRGaWxlU3luYyhtYW5pZmVzdFBhdGgsICJ1dGY4IikpOwogIGNvbnN0IGVudHJpZXMgPSBPYmplY3QuZW50cmllcyhtYW5pZmVzdCk7CiAgY29uc3QgZW50cnlLZXkgPSBlbnRyaWVzLmZpbmQoKFssIHJlY29yZF0pID0+IHJlY29yZC5pc0VudHJ5KT8uWzBdOwogIGlmICghZW50cnlLZXkpIGZhaWwoYCR7YXBwLm5hbWV9IG1hbmlmZXN0IGhhcyBubyBlbnRyeSBjaHVua2ApOwogIGlmIChhcHAubmFtZSA9PT0gImFkbWluIikgewogICAgY29uc3QgZW50cnlGaWxlID0gU3RyaW5nKG1hbmlmZXN0W2VudHJ5S2V5XS5maWxlID8/ICIiKTsKICAgIGlmICghZW50cnlGaWxlLnN0YXJ0c1dpdGgoYGFzc2V0cy92JHthcHBWZXJzaW9ufS9gKSkgewogICAgICBjb25zb2xlLmVycm9yKAogICAgICAgIGBbZnJvbnRlbmQtYnVkZ2V0XSBhZG1pbiBlbnRyeSBpcyBvdXRzaWRlIHRoZSB2ZXJzaW9uZWQgYXNzZXQgbmFtZXNwYWNlOiAke2VudHJ5RmlsZX1gLAogICAgICApOwogICAgICBmYWlsZWQgPSB0cnVlOwogICAgfQogICAgY29uc3QgZW50cnlJbXBvcnRzID0gbWFuaWZlc3RbZW50cnlLZXldLmltcG9ydHM/Lmxlbmd0aCA/PyAwOwogICAgaWYgKGVudHJ5SW1wb3J0cyA+IE1BWF9BRE1JTl9FTlRSWV9JTVBPUlRTKSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoCiAgICAgICAgYFtmcm9udGVuZC1idWRnZXRdIGFkbWluIGVudHJ5IGhhcyAke2VudHJ5SW1wb3J0c30gZGlyZWN0IGltcG9ydHMgKGxpbWl0ICR7TUFYX0FETUlOX0VOVFJZX0lNUE9SVFN9KWAsCiAgICAgICk7CiAgICAgIGZhaWxlZCA9IHRydWU7CiAgICB9CgogICAgY29uc3QgaHRtbCA9IHJlYWRGaWxlU3luYyhwYXRoLmpvaW4oZGlyZWN0b3J5LCAiaW5kZXguaHRtbCIpLCAidXRmOCIpOwogICAgY29uc3QgbW9kdWxlUHJlbG9hZHMgPSBodG1sLm1hdGNoKC9yZWw9WyInXW1vZHVsZXByZWxvYWRbIiddL2d1KT8ubGVuZ3RoID8/IDA7CiAgICBpZiAobW9kdWxlUHJlbG9hZHMgPiBNQVhfQURNSU5fSFRNTF9NT0RVTEVfUFJFTE9BRFMpIHsKICAgICAgY29uc29sZS5lcnJvcigKICAgICAgICBgW2Zyb250ZW5kLWJ1ZGdldF0gYWRtaW4gSFRNTCBoYXMgJHttb2R1bGVQcmVsb2Fkc30gbW9kdWxlIHByZWxvYWRzIChsaW1pdCAke01BWF9BRE1JTl9IVE1MX01PRFVMRV9QUkVMT0FEU30pYCwKICAgICAgKTsKICAgICAgZmFpbGVkID0gdHJ1ZTsKICAgIH0KICB9CiAgaWYgKGFwcC5uYW1lID09PSAiYXV0aCIpIHsKICAgIGNvbnN0IGVudHJ5SW1wb3J0cyA9IG1hbmlmZXN0W2VudHJ5S2V5XS5pbXBvcnRzPy5sZW5ndGggPz8gMDsKICAgIGlmIChlbnRyeUltcG9ydHMgPiBNQVhfQVVUSF9FTlRSWV9JTVBPUlRTKSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoCiAgICAgICAgYFtmcm9udGVuZC1idWRnZXRdIGF1dGggZW50cnkgaGFzICR7ZW50cnlJbXBvcnRzfSBkaXJlY3QgaW1wb3J0cyAobGltaXQgJHtNQVhfQVVUSF9FTlRSWV9JTVBPUlRTfSlgLAogICAgICApOwogICAgICBmYWlsZWQgPSB0cnVlOwogICAgfQoKICAgIGNvbnN0IGh0bWwgPSByZWFkRmlsZVN5bmMocGF0aC5qb2luKGRpcmVjdG9yeSwgImluZGV4Lmh0bWwiKSwgInV0ZjgiKTsKICAgIGNvbnN0IG1vZHVsZVByZWxvYWRzID0gaHRtbC5tYXRjaCgvcmVsPVsiJ11tb2R1bGVwcmVsb2FkWyInXS9ndSk/Lmxlbmd0aCA/PyAwOwogICAgaWYgKG1vZHVsZVByZWxvYWRzID4gTUFYX0FVVEhfSFRNTF9NT0RVTEVfUFJFTE9BRFMpIHsKICAgICAgY29uc29sZS5lcnJvcigKICAgICAgICBgW2Zyb250ZW5kLWJ1ZGdldF0gYXV0aCBIVE1MIGhhcyAke21vZHVsZVByZWxvYWRzfSBtb2R1bGUgcHJlbG9hZHMgKGxpbWl0ICR7TUFYX0FVVEhfSFRNTF9NT0RVTEVfUFJFTE9BRFN9KWAsCiAgICAgICk7CiAgICAgIGZhaWxlZCA9IHRydWU7CiAgICB9CiAgfQogIGNvbnN0IGFsbEZpbGVzID0gd2Fsa0ZpbGVzKGRpcmVjdG9yeSkubWFwKCh2YWx1ZSkgPT4KICAgIHZhbHVlLnJlcGxhY2VBbGwoIlxcIiwgIi8iKSwKICApOwoKICBjb25zdCBhZGRSZWNvcmQgPSAoa2V5LCBmaWxlcywgdmlzaXRlZCkgPT4gewogICAgaWYgKHZpc2l0ZWQuaGFzKGtleSkpIHJldHVybjsKICAgIGNvbnN0IHJlY29yZCA9IG1hbmlmZXN0W2tleV07CiAgICBpZiAoIXJlY29yZCkgZmFpbChgJHthcHAubmFtZX0gbWFuaWZlc3QgaW1wb3J0IGlzIG1pc3Npbmc6ICR7a2V5fWApOwogICAgdmlzaXRlZC5hZGQoa2V5KTsKICAgIGlmIChyZWNvcmQuZmlsZSkgZmlsZXMuYWRkKHJlY29yZC5maWxlKTsKICAgIGZvciAoY29uc3QgY3NzIG9mIHJlY29yZC5jc3MgPz8gW10pIGZpbGVzLmFkZChjc3MpOwogICAgZm9yIChjb25zdCBhc3NldCBvZiByZWNvcmQuYXNzZXRzID8/IFtdKSBmaWxlcy5hZGQoYXNzZXQpOwogICAgZm9yIChjb25zdCBpbXBvcnRlZCBvZiByZWNvcmQuaW1wb3J0cyA/PyBbXSkKICAgICAgYWRkUmVjb3JkKGltcG9ydGVkLCBmaWxlcywgdmlzaXRlZCk7CiAgfTsKCiAgZm9yIChjb25zdCByZWxhdGl2ZVBhdGggb2YgYWxsRmlsZXMpIHsKICAgIGlmIChyZWxhdGl2ZVBhdGguZW5kc1dpdGgoIi5iciIpIHx8IHJlbGF0aXZlUGF0aC5lbmRzV2l0aCgiLmd6IikpIGNvbnRpbnVlOwogICAgaWYgKCFjb21wcmVzc2libGVFeHRlbnNpb25zLmhhcyhwYXRoLmV4dG5hbWUocmVsYXRpdmVQYXRoKSkpIGNvbnRpbnVlOwogICAgaWYgKAogICAgICAhZXhpc3RzU3luYyhwYXRoLmpvaW4oZGlyZWN0b3J5LCBgJHtyZWxhdGl2ZVBhdGh9LmJyYCkpIHx8CiAgICAgICFleGlzdHNTeW5jKHBhdGguam9pbihkaXJlY3RvcnksIGAke3JlbGF0aXZlUGF0aH0uZ3pgKSkKICAgICkgewogICAgICBjb25zb2xlLmVycm9yKAogICAgICAgIGBbZnJvbnRlbmQtYnVkZ2V0XSAke2FwcC5uYW1lfSBidWlsZCBsYWNrcyBnemlwL2Jyb3RsaSBzaWRlY2FyczogJHtyZWxhdGl2ZVBhdGh9YCwKICAgICAgKTsKICAgICAgZmFpbGVkID0gdHJ1ZTsKICAgIH0KICB9CgogIGZvciAoY29uc3Qgc2NlbmFyaW8gb2YgYXBwLnNjZW5hcmlvcykgewogICAgY29uc3QgZmlsZXMgPSBuZXcgU2V0KFsiaW5kZXguaHRtbCJdKTsKICAgIGNvbnN0IHZpc2l0ZWQgPSBuZXcgU2V0KCk7CiAgICBhZGRSZWNvcmQoZW50cnlLZXksIGZpbGVzLCB2aXNpdGVkKTsKICAgIGZvciAoY29uc3Qgc291cmNlIG9mIHNjZW5hcmlvLnNvdXJjZXMpIHsKICAgICAgY29uc3QgbWF0Y2hlcyA9IGVudHJpZXMuZmlsdGVyKChbLCByZWNvcmRdKSA9PgogICAgICAgIG5vcm1hbGl6ZWRTb3VyY2UocmVjb3JkKS5pbmNsdWRlcyhzb3VyY2UpLAogICAgICApOwogICAgICBpZiAobWF0Y2hlcy5sZW5ndGggPT09IDApIHsKICAgICAgICBmYWlsKAogICAgICAgICAgYCR7YXBwLm5hbWV9LyR7c2NlbmFyaW8ubmFtZX0gc291cmNlIG5vdCBmb3VuZCBpbiBtYW5pZmVzdDogJHtzb3VyY2V9YCwKICAgICAgICApOwogICAgICB9CiAgICAgIGZvciAoY29uc3QgW2tleV0gb2YgbWF0Y2hlcykgYWRkUmVjb3JkKGtleSwgZmlsZXMsIHZpc2l0ZWQpOwogICAgfQogICAgZm9yIChjb25zdCBleHByZXNzaW9uIG9mIHNjZW5hcmlvLmZpbGVzID8/IFtdKSB7CiAgICAgIGNvbnN0IG1hdGNoZXMgPSBhbGxGaWxlcy5maWx0ZXIoKGZpbGUpID0+IGV4cHJlc3Npb24udGVzdChmaWxlKSk7CiAgICAgIGlmIChtYXRjaGVzLmxlbmd0aCA9PT0gMCkgewogICAgICAgIGZhaWwoYCR7YXBwLm5hbWV9LyR7c2NlbmFyaW8ubmFtZX0gYXNzZXQgbm90IGZvdW5kOiAke2V4cHJlc3Npb259YCk7CiAgICAgIH0KICAgICAgZm9yIChjb25zdCBmaWxlIG9mIG1hdGNoZXMpIGZpbGVzLmFkZChmaWxlKTsKICAgIH0KCiAgICBsZXQgcmF3Qnl0ZXMgPSAwOwogICAgbGV0IGd6aXBCeXRlcyA9IDA7CiAgICBsZXQgYnJvdGxpQnl0ZXMgPSAwOwogICAgZm9yIChjb25zdCByZWxhdGl2ZVBhdGggb2YgZmlsZXMpIHsKICAgICAgY29uc3QgYWJzb2x1dGVQYXRoID0gcGF0aC5qb2luKGRpcmVjdG9yeSwgcmVsYXRpdmVQYXRoKTsKICAgICAgaWYgKCFleGlzdHNTeW5jKGFic29sdXRlUGF0aCkpIHsKICAgICAgICBmYWlsKGAke2FwcC5uYW1lfS8ke3NjZW5hcmlvLm5hbWV9IGFzc2V0IGlzIG1pc3Npbmc6ICR7cmVsYXRpdmVQYXRofWApOwogICAgICB9CiAgICAgIGNvbnN0IHJhd1NpemUgPSBzdGF0U3luYyhhYnNvbHV0ZVBhdGgpLnNpemU7CiAgICAgIHJhd0J5dGVzICs9IHJhd1NpemU7CiAgICAgIGNvbnN0IHJlcXVpcmVzU2lkZWNhcnMgPSBjb21wcmVzc2libGVFeHRlbnNpb25zLmhhcygKICAgICAgICBwYXRoLmV4dG5hbWUocmVsYXRpdmVQYXRoKSwKICAgICAgKTsKICAgICAgY29uc3QgZ3ppcFBhdGggPSBgJHthYnNvbHV0ZVBhdGh9Lmd6YDsKICAgICAgY29uc3QgYnJvdGxpUGF0aCA9IGAke2Fic29sdXRlUGF0aH0uYnJgOwogICAgICBpZiAoCiAgICAgICAgcmVxdWlyZXNTaWRlY2FycyAmJgogICAgICAgICghZXhpc3RzU3luYyhnemlwUGF0aCkgfHwgIWV4aXN0c1N5bmMoYnJvdGxpUGF0aCkpCiAgICAgICkgewogICAgICAgIGZhaWwoCiAgICAgICAgICBgJHthcHAubmFtZX0vJHtzY2VuYXJpby5uYW1lfSBsYWNrcyBnemlwL2Jyb3RsaSBzaWRlY2FyczogJHtyZWxhdGl2ZVBhdGh9YCwKICAgICAgICApOwogICAgICB9CiAgICAgIGNvbnN0IGd6aXBTaXplID0gZXhpc3RzU3luYyhnemlwUGF0aCkgPyBzdGF0U3luYyhnemlwUGF0aCkuc2l6ZSA6IHJhd1NpemU7CiAgICAgIGNvbnN0IGJyb3RsaVNpemUgPSBleGlzdHNTeW5jKGJyb3RsaVBhdGgpCiAgICAgICAgPyBzdGF0U3luYyhicm90bGlQYXRoKS5zaXplCiAgICAgICAgOiByYXdTaXplOwogICAgICBnemlwQnl0ZXMgKz0gZ3ppcFNpemU7CiAgICAgIGJyb3RsaUJ5dGVzICs9IGJyb3RsaVNpemU7CiAgICAgIGlmICgKICAgICAgICByZWxhdGl2ZVBhdGguZW5kc1dpdGgoIi5qcyIpICYmCiAgICAgICAgYnJvdGxpU2l6ZSA+IE1BWF9JTklUSUFMX1NDUklQVF9CUk9UTEkKICAgICAgKSB7CiAgICAgICAgY29uc29sZS5lcnJvcigKICAgICAgICAgIGBbZnJvbnRlbmQtYnVkZ2V0XSAke2FwcC5uYW1lfS8ke3NjZW5hcmlvLm5hbWV9OiAke3JlbGF0aXZlUGF0aH0gaXMgJHsoYnJvdGxpU2l6ZSAvIDEwMjQpLnRvRml4ZWQoMSl9IEtpQiBCcm90bGkgKGxpbWl0IDEwMCBLaUIpYCwKICAgICAgICApOwogICAgICAgIGZhaWxlZCA9IHRydWU7CiAgICAgIH0KICAgIH0KICAgIGNvbnNvbGUubG9nKAogICAgICBgW2Zyb250ZW5kLWJ1ZGdldF0gJHthcHAubmFtZX0vJHtzY2VuYXJpby5uYW1lfTogJHsocmF3Qnl0ZXMgLyAxMDI0KS50b0ZpeGVkKDEpfSBLaUIgcmF3LCAkeyhnemlwQnl0ZXMgLyAxMDI0KS50b0ZpeGVkKDEpfSBLaUIgZ3ppcCwgJHsoYnJvdGxpQnl0ZXMgLyAxMDI0KS50b0ZpeGVkKDEpfSBLaUIgYnIgLyAkeyhzY2VuYXJpby5saW1pdCAvIDEwMjQpLnRvRml4ZWQoMCl9IEtpQiAoJHtmaWxlcy5zaXplfSBmaWxlcylgLAogICAgKTsKICAgIGlmIChicm90bGlCeXRlcyA+IHNjZW5hcmlvLmxpbWl0KSBmYWlsZWQgPSB0cnVlOwogICAgaWYgKHNjZW5hcmlvLmZpbGVMaW1pdCAmJiBmaWxlcy5zaXplID4gc2NlbmFyaW8uZmlsZUxpbWl0KSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoCiAgICAgICAgYFtmcm9udGVuZC1idWRnZXRdICR7YXBwLm5hbWV9LyR7c2NlbmFyaW8ubmFtZX06ICR7ZmlsZXMuc2l6ZX0gZmlsZXMgKGxpbWl0ICR7c2NlbmFyaW8uZmlsZUxpbWl0fSlgLAogICAgICApOwogICAgICBmYWlsZWQgPSB0cnVlOwogICAgfQogIH0KfQoKaWYgKGZhaWxlZCkgZmFpbCgib25lIG9yIG1vcmUgcm91dGUtbGV2ZWwgZnJvbnRlbmQgYnVkZ2V0cyB3ZXJlIGV4Y2VlZGVkIik7Cg==
+#!/usr/bin/env node
+
+import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const { version: appVersion } = JSON.parse(
+  readFileSync(path.join(root, "version.json"), "utf8"),
+);
+const compressibleExtensions = new Set([
+  ".css",
+  ".html",
+  ".js",
+  ".json",
+  ".svg",
+  ".txt",
+  ".wasm",
+]);
+const MAX_INITIAL_SCRIPT_BROTLI = 100 * 1024;
+const MAX_ADMIN_ENTRY_IMPORTS = 16;
+const MAX_ADMIN_HTML_MODULE_PRELOADS = 8;
+const MAX_AUTH_ENTRY_IMPORTS = 0;
+const MAX_AUTH_HTML_MODULE_PRELOADS = 0;
+
+const apps = [
+  {
+    name: "admin",
+    directory: "apps/server-admin-view/dist",
+    scenarios: [
+      {
+        name: "Dashboard+zh-CN",
+        limit: 260 * 1024,
+        fileLimit: 32,
+        sources: [
+          "/src/views/Dashboard.vue",
+          "/messages/scopes/admin/zh-CN.ts",
+        ],
+      },
+    ],
+  },
+  {
+    name: "auth",
+    directory: "apps/server-auth-view/dist",
+    scenarios: [
+      {
+        name: "Home+zh-CN",
+        limit: 125 * 1024,
+        fileLimit: 8,
+        sources: ["/src/views/Home.vue", "/messages/scopes/auth/zh-CN.ts"],
+      },
+      {
+        name: "LoginBase+zh-CN",
+        limit: 155 * 1024,
+        fileLimit: 9,
+        sources: ["/src/views/Login.vue", "/messages/scopes/auth/zh-CN.ts"],
+      },
+      {
+        name: "Login+ALTCHA+zh-CN",
+        limit: 180 * 1024,
+        fileLimit: 10,
+        sources: [
+          "/src/views/Login.vue",
+          "/messages/scopes/auth/zh-CN.ts",
+          "/node_modules/altcha/",
+        ],
+      },
+      {
+        name: "Login+PoW+zh-CN",
+        limit: 175 * 1024,
+        fileLimit: 10,
+        sources: ["/src/views/Login.vue", "/messages/scopes/auth/zh-CN.ts"],
+        files: [/pow\.worker[^/]*\.js$/u],
+      },
+    ],
+  },
+];
+
+const fail = (message) => {
+  throw new Error(`[frontend-budget] ${message}`);
+};
+
+const walkFiles = (directory, relative = "") =>
+  readdirSync(path.join(directory, relative), { withFileTypes: true }).flatMap(
+    (entry) => {
+      const next = path.join(relative, entry.name);
+      return entry.isDirectory() ? walkFiles(directory, next) : [next];
+    },
+  );
+
+const normalizedSource = (record) =>
+  `/${String(record.src ?? "")
+    .replaceAll("\\", "/")
+    .replace(/^\/+/, "")}`;
+
+let failed = false;
+for (const app of apps) {
+  const directory = path.join(root, app.directory);
+  const manifestPath = path.join(directory, ".vite/manifest.json");
+  if (!existsSync(manifestPath)) {
+    fail(
+      `missing ${path.relative(root, manifestPath)}; enable Vite manifest output`,
+    );
+  }
+  const manifest = JSON.parse(readFileSync(manifestPath, "utf8"));
+  const entries = Object.entries(manifest);
+  const entryKey = entries.find(([, record]) => record.isEntry)?.[0];
+  if (!entryKey) fail(`${app.name} manifest has no entry chunk`);
+  if (app.name === "admin") {
+    const entryFile = String(manifest[entryKey].file ?? "");
+    if (!entryFile.startsWith(`assets/v${appVersion}/`)) {
+      console.error(
+        `[frontend-budget] admin entry is outside the versioned asset namespace: ${entryFile}`,
+      );
+      failed = true;
+    }
+    const entryImports = manifest[entryKey].imports?.length ?? 0;
+    if (entryImports > MAX_ADMIN_ENTRY_IMPORTS) {
+      console.error(
+        `[frontend-budget] admin entry has ${entryImports} direct imports (limit ${MAX_ADMIN_ENTRY_IMPORTS})`,
+      );
+      failed = true;
+    }
+
+    const html = readFileSync(path.join(directory, "index.html"), "utf8");
+    const modulePreloads = html.match(/rel=["']modulepreload["']/gu)?.length ?? 0;
+    if (modulePreloads > MAX_ADMIN_HTML_MODULE_PRELOADS) {
+      console.error(
+        `[frontend-budget] admin HTML has ${modulePreloads} module preloads (limit ${MAX_ADMIN_HTML_MODULE_PRELOADS})`,
+      );
+      failed = true;
+    }
+  }
+  if (app.name === "auth") {
+    const entryImports = manifest[entryKey].imports?.length ?? 0;
+    if (entryImports > MAX_AUTH_ENTRY_IMPORTS) {
+      console.error(
+        `[frontend-budget] auth entry has ${entryImports} direct imports (limit ${MAX_AUTH_ENTRY_IMPORTS})`,
+      );
+      failed = true;
+    }
+
+    const html = readFileSync(path.join(directory, "index.html"), "utf8");
+    const modulePreloads = html.match(/rel=["']modulepreload["']/gu)?.length ?? 0;
+    if (modulePreloads > MAX_AUTH_HTML_MODULE_PRELOADS) {
+      console.error(
+        `[frontend-budget] auth HTML has ${modulePreloads} module preloads (limit ${MAX_AUTH_HTML_MODULE_PRELOADS})`,
+      );
+      failed = true;
+    }
+  }
+  const allFiles = walkFiles(directory).map((value) =>
+    value.replaceAll("\\", "/"),
+  );
+
+  const addRecord = (key, files, visited) => {
+    if (visited.has(key)) return;
+    const record = manifest[key];
+    if (!record) fail(`${app.name} manifest import is missing: ${key}`);
+    visited.add(key);
+    if (record.file) files.add(record.file);
+    for (const css of record.css ?? []) files.add(css);
+    for (const asset of record.assets ?? []) files.add(asset);
+    for (const imported of record.imports ?? [])
+      addRecord(imported, files, visited);
+  };
+
+  for (const relativePath of allFiles) {
+    if (relativePath.endsWith(".br") || relativePath.endsWith(".gz")) continue;
+    if (!compressibleExtensions.has(path.extname(relativePath))) continue;
+    if (
+      !existsSync(path.join(directory, `${relativePath}.br`)) ||
+      !existsSync(path.join(directory, `${relativePath}.gz`))
+    ) {
+      console.error(
+        `[frontend-budget] ${app.name} build lacks gzip/brotli sidecars: ${relativePath}`,
+      );
+      failed = true;
+    }
+  }
+
+  for (const scenario of app.scenarios) {
+    const files = new Set(["index.html"]);
+    const visited = new Set();
+    addRecord(entryKey, files, visited);
+    for (const source of scenario.sources) {
+      const matches = entries.filter(([, record]) =>
+        normalizedSource(record).includes(source),
+      );
+      if (matches.length === 0) {
+        fail(
+          `${app.name}/${scenario.name} source not found in manifest: ${source}`,
+        );
+      }
+      for (const [key] of matches) addRecord(key, files, visited);
+    }
+    for (const expression of scenario.files ?? []) {
+      const matches = allFiles.filter((file) => expression.test(file));
+      if (matches.length === 0) {
+        fail(`${app.name}/${scenario.name} asset not found: ${expression}`);
+      }
+      for (const file of matches) files.add(file);
+    }
+
+    let rawBytes = 0;
+    let gzipBytes = 0;
+    let brotliBytes = 0;
+    for (const relativePath of files) {
+      const absolutePath = path.join(directory, relativePath);
+      if (!existsSync(absolutePath)) {
+        fail(`${app.name}/${scenario.name} asset is missing: ${relativePath}`);
+      }
+      const rawSize = statSync(absolutePath).size;
+      rawBytes += rawSize;
+      const requiresSidecars = compressibleExtensions.has(
+        path.extname(relativePath),
+      );
+      const gzipPath = `${absolutePath}.gz`;
+      const brotliPath = `${absolutePath}.br`;
+      if (
+        requiresSidecars &&
+        (!existsSync(gzipPath) || !existsSync(brotliPath))
+      ) {
+        fail(
+          `${app.name}/${scenario.name} lacks gzip/brotli sidecars: ${relativePath}`,
+        );
+      }
+      const gzipSize = existsSync(gzipPath) ? statSync(gzipPath).size : rawSize;
+      const brotliSize = existsSync(brotliPath)
+        ? statSync(brotliPath).size
+        : rawSize;
+      gzipBytes += gzipSize;
+      brotliBytes += brotliSize;
+      if (
+        relativePath.endsWith(".js") &&
+        brotliSize > MAX_INITIAL_SCRIPT_BROTLI
+      ) {
+        console.error(
+          `[frontend-budget] ${app.name}/${scenario.name}: ${relativePath} is ${(brotliSize / 1024).toFixed(1)} KiB Brotli (limit 100 KiB)`,
+        );
+        failed = true;
+      }
+    }
+    console.log(
+      `[frontend-budget] ${app.name}/${scenario.name}: ${(rawBytes / 1024).toFixed(1)} KiB raw, ${(gzipBytes / 1024).toFixed(1)} KiB gzip, ${(brotliBytes / 1024).toFixed(1)} KiB br / ${(scenario.limit / 1024).toFixed(0)} KiB (${files.size} files)`,
+    );
+    if (brotliBytes > scenario.limit) failed = true;
+    if (scenario.fileLimit && files.size > scenario.fileLimit) {
+      console.error(
+        `[frontend-budget] ${app.name}/${scenario.name}: ${files.size} files (limit ${scenario.fileLimit})`,
+      );
+      failed = true;
+    }
+  }
+}
+
+if (failed) fail("one or more route-level frontend budgets were exceeded");

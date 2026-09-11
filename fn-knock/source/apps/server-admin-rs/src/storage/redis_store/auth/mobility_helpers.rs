@@ -1,1 +1,92 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgZm4gbGltaXRfbW9iaWxpdHlfdGltZWxpbmVfZXZlbnRzKAogICAgZXZlbnRzOiAmbXV0IFZlYzxWYWx1ZT4sCiAgICBtYXhfZXZlbnRzOiB1c2l6ZSwKKSB7CiAgICBpZiBldmVudHMubGVuKCkgPD0gbWF4X2V2ZW50cyB7CiAgICAgICAgcmV0dXJuOwogICAgfQogICAgbGV0IGZpcnN0X2lzX2xvZ2luID0gZXZlbnRzCiAgICAgICAgLmZpcnN0KCkKICAgICAgICAuYW5kX3RoZW4ofGV2ZW50fCBldmVudC5nZXQoImtpbmQiKSkKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICA9PSBTb21lKCJsb2dpbiIpOwogICAgaWYgZmlyc3RfaXNfbG9naW4gewogICAgICAgIGxldCBmaXJzdCA9IGV2ZW50cy5maXJzdCgpLmNsb25lZCgpOwogICAgICAgIGxldCB0YWlsX2NvdW50ID0gbWF4X2V2ZW50cy5zYXR1cmF0aW5nX3N1YigxKTsKICAgICAgICBsZXQgdGFpbCA9IGV2ZW50cwogICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgIC5za2lwKGV2ZW50cy5sZW4oKS5zYXR1cmF0aW5nX3N1Yih0YWlsX2NvdW50KSkKICAgICAgICAgICAgLmNsb25lZCgpCiAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgICAgIGV2ZW50cy5jbGVhcigpOwogICAgICAgIGlmIGxldCBTb21lKGZpcnN0KSA9IGZpcnN0IHsKICAgICAgICAgICAgZXZlbnRzLnB1c2goZmlyc3QpOwogICAgICAgIH0KICAgICAgICBldmVudHMuZXh0ZW5kKHRhaWwpOwogICAgfSBlbHNlIHsKICAgICAgICBsZXQgdGFpbCA9IGV2ZW50cwogICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgIC5za2lwKGV2ZW50cy5sZW4oKS5zYXR1cmF0aW5nX3N1YihtYXhfZXZlbnRzKSkKICAgICAgICAgICAgLmNsb25lZCgpCiAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgICAgICpldmVudHMgPSB0YWlsOwogICAgfQp9CgpwdWIoaW4gY3JhdGU6OnN0b3JhZ2U6OnJlZGlzX3N0b3JlKSBmbiBidWlsZF9tb2JpbGl0eV9zdW1tYXJ5KGV2ZW50czogJltWYWx1ZV0pIC0+IFZhbHVlIHsKICAgIGxldCBkcmlmdF9ldmVudHMgPSBldmVudHMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZpbHRlcih8ZXZlbnR8IGV2ZW50LmdldCgia2luZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoImRyaWZ0IikpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgbGFzdF9kcmlmdCA9IGRyaWZ0X2V2ZW50cy5sYXN0KCkuY29waWVkKCk7CiAgICBqc29uISh7CiAgICAgICAgImhhc0hpc3RvcnkiOiAhZXZlbnRzLmlzX2VtcHR5KCksCiAgICAgICAgImRyaWZ0Q291bnQiOiBkcmlmdF9ldmVudHMubGVuKCksCiAgICAgICAgImxhc3REcmlmdEF0IjogbGFzdF9kcmlmdAogICAgICAgICAgICAuYW5kX3RoZW4ofGV2ZW50fCBldmVudC5nZXQoImhhcHBlbmVkQXQiKSkKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLAogICAgICAgICJsYXN0RHJpZnRTb3VyY2UiOiBsYXN0X2RyaWZ0CiAgICAgICAgICAgIC5hbmRfdGhlbih8ZXZlbnR8IGV2ZW50LmdldCgic291cmNlIikpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgfSkKfQoKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgZm4gbmV4dF9tb2JpbGl0eV9zdW1tYXJ5X2Zyb21fZXZlbnQoCiAgICBldmVudHM6ICZbVmFsdWVdLAogICAgc3RvcmVkX3N1bW1hcnk6IE9wdGlvbjxWYWx1ZT4sCiAgICBldmVudDogJlZhbHVlLAogICAgc2VlZF9sb2dpbl9ldmVudDogT3B0aW9uPCZWYWx1ZT4sCikgLT4gVmFsdWUgewogICAgbGV0IGJhc2VsaW5lID0gc3RvcmVkX3N1bW1hcnkudW53cmFwX29yX2Vsc2UofHwgewogICAgICAgIGlmIGV2ZW50cy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgbGV0IHNlZWRlZCA9IHNlZWRfbG9naW5fZXZlbnQuY2xvbmVkKCkuaW50b19pdGVyKCkuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgICAgICAgICAgYnVpbGRfbW9iaWxpdHlfc3VtbWFyeSgmc2VlZGVkKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGJ1aWxkX21vYmlsaXR5X3N1bW1hcnkoZXZlbnRzKQogICAgICAgIH0KICAgIH0pOwoKICAgIGlmIGV2ZW50LmdldCgia2luZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpICE9IFNvbWUoImRyaWZ0IikgewogICAgICAgIHJldHVybiBiYXNlbGluZTsKICAgIH0KCiAgICBsZXQgZHJpZnRfY291bnQgPSBiYXNlbGluZQogICAgICAgIC5nZXQoImRyaWZ0Q291bnQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCiAgICAgICAgKyAxOwogICAganNvbiEoewogICAgICAgICJoYXNIaXN0b3J5IjogdHJ1ZSwKICAgICAgICAiZHJpZnRDb3VudCI6IGRyaWZ0X2NvdW50LAogICAgICAgICJsYXN0RHJpZnRBdCI6IGV2ZW50CiAgICAgICAgICAgIC5nZXQoImhhcHBlbmVkQXQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLnVud3JhcF9vcigiIiksCiAgICAgICAgImxhc3REcmlmdFNvdXJjZSI6IGV2ZW50CiAgICAgICAgICAgIC5nZXQoInNvdXJjZSIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAudW53cmFwX29yKCJzZXNzaW9uLXJlZnJlc2giKQogICAgfSkKfQo=
+use super::*;
+
+pub(in crate::storage::redis_store) fn limit_mobility_timeline_events(
+    events: &mut Vec<Value>,
+    max_events: usize,
+) {
+    if events.len() <= max_events {
+        return;
+    }
+    let first_is_login = events
+        .first()
+        .and_then(|event| event.get("kind"))
+        .and_then(Value::as_str)
+        == Some("login");
+    if first_is_login {
+        let first = events.first().cloned();
+        let tail_count = max_events.saturating_sub(1);
+        let tail = events
+            .iter()
+            .skip(events.len().saturating_sub(tail_count))
+            .cloned()
+            .collect::<Vec<_>>();
+        events.clear();
+        if let Some(first) = first {
+            events.push(first);
+        }
+        events.extend(tail);
+    } else {
+        let tail = events
+            .iter()
+            .skip(events.len().saturating_sub(max_events))
+            .cloned()
+            .collect::<Vec<_>>();
+        *events = tail;
+    }
+}
+
+pub(in crate::storage::redis_store) fn build_mobility_summary(events: &[Value]) -> Value {
+    let drift_events = events
+        .iter()
+        .filter(|event| event.get("kind").and_then(Value::as_str) == Some("drift"))
+        .collect::<Vec<_>>();
+    let last_drift = drift_events.last().copied();
+    json!({
+        "hasHistory": !events.is_empty(),
+        "driftCount": drift_events.len(),
+        "lastDriftAt": last_drift
+            .and_then(|event| event.get("happenedAt"))
+            .and_then(Value::as_str),
+        "lastDriftSource": last_drift
+            .and_then(|event| event.get("source"))
+            .and_then(Value::as_str)
+    })
+}
+
+pub(in crate::storage::redis_store) fn next_mobility_summary_from_event(
+    events: &[Value],
+    stored_summary: Option<Value>,
+    event: &Value,
+    seed_login_event: Option<&Value>,
+) -> Value {
+    let baseline = stored_summary.unwrap_or_else(|| {
+        if events.is_empty() {
+            let seeded = seed_login_event.cloned().into_iter().collect::<Vec<_>>();
+            build_mobility_summary(&seeded)
+        } else {
+            build_mobility_summary(events)
+        }
+    });
+
+    if event.get("kind").and_then(Value::as_str) != Some("drift") {
+        return baseline;
+    }
+
+    let drift_count = baseline
+        .get("driftCount")
+        .and_then(Value::as_i64)
+        .unwrap_or_default()
+        + 1;
+    json!({
+        "hasHistory": true,
+        "driftCount": drift_count,
+        "lastDriftAt": event
+            .get("happenedAt")
+            .and_then(Value::as_str)
+            .unwrap_or(""),
+        "lastDriftSource": event
+            .get("source")
+            .and_then(Value::as_str)
+            .unwrap_or("session-refresh")
+    })
+}

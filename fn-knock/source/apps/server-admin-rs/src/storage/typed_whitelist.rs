@@ -1,1 +1,230 @@
-dXNlIHNlcmRlX2pzb246OlZhbHVlOwp1c2UgdG9raW9fcnVzcWxpdGU6OnJ1c3FsaXRlOjp7T3B0aW9uYWxFeHRlbnNpb24sIFRyYW5zYWN0aW9uLCBUcmFuc2FjdGlvbkJlaGF2aW9yLCBwYXJhbXN9OwoKdXNlIHN1cGVyOjp7U3RvcmFnZVJlc3VsdCwgcmVkaXNfY29tcGF0OjpDb25uZWN0aW9uTWFuYWdlciwgc3RvcmFnZV9lcnJvcn07Cgpjb25zdCBTQ0hFTUFfVkVSU0lPTjogaTY0ID0gMTsKY29uc3QgU0NIRU1BX05BTUU6ICZzdHIgPSAidHlwZWRfd2hpdGVsaXN0X2RvY3VtZW50cyI7CmNvbnN0IFNDSEVNQV9TUUw6ICZzdHIgPSByIyIKQ1JFQVRFIFRBQkxFIHdoaXRlbGlzdF9kb2N1bWVudHMgKAogIGtpbmQgVEVYVCBOT1QgTlVMTCBDSEVDSyAoa2luZCBJTiAoJ3JlY29yZCcsICdyZWdpb24nKSksCiAgaWQgVEVYVCBOT1QgTlVMTCwKICBkb2N1bWVudF9qc29uIFRFWFQgTk9UIE5VTEwsCiAgc29ydF9zY29yZSBJTlRFR0VSIE5PVCBOVUxMLAogIGV4cGlyZXNfYXQgSU5URUdFUiwKICBzdGF0dXMgVEVYVCBOT1QgTlVMTCwKICB1cGRhdGVkX2F0X21zIElOVEVHRVIgTk9UIE5VTEwsCiAgUFJJTUFSWSBLRVkgKGtpbmQsIGlkKQopOwpDUkVBVEUgSU5ERVggaWR4X3doaXRlbGlzdF9kb2N1bWVudHNfa2luZF9zY29yZQogIE9OIHdoaXRlbGlzdF9kb2N1bWVudHMoa2luZCwgc29ydF9zY29yZSBERVNDLCBpZCBERVNDKTsKQ1JFQVRFIElOREVYIGlkeF93aGl0ZWxpc3RfZG9jdW1lbnRzX2tpbmRfZXhwaXJ5CiAgT04gd2hpdGVsaXN0X2RvY3VtZW50cyhraW5kLCBleHBpcmVzX2F0KQogIFdIRVJFIGV4cGlyZXNfYXQgSVMgTk9UIE5VTEw7CiIjOwpjb25zdCBNSUdSQVRJT05TX1NRTDogJnN0ciA9IHIjIgpDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyB0eXBlZF93aGl0ZWxpc3Rfc2NoZW1hX21pZ3JhdGlvbnMgKAogIHZlcnNpb24gSU5URUdFUiBQUklNQVJZIEtFWSwKICBuYW1lIFRFWFQgTk9UIE5VTEwsCiAgY2hlY2tzdW0gVEVYVCBOT1QgTlVMTCwKICBhcHBsaWVkX2F0X21zIElOVEVHRVIgTk9UIE5VTEwKKTsKIiM7CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFBhcnRpYWxFcSwgRXEpXQpwdWIoY3JhdGUpIHN0cnVjdCBUeXBlZFdoaXRlbGlzdERvY3VtZW50IHsKICAgIHB1YihjcmF0ZSkga2luZDogJidzdGF0aWMgc3RyLAogICAgcHViKGNyYXRlKSBpZDogU3RyaW5nLAogICAgcHViKGNyYXRlKSBkb2N1bWVudF9qc29uOiBTdHJpbmcsCiAgICBwdWIoY3JhdGUpIHNvcnRfc2NvcmU6IGk2NCwKICAgIHB1YihjcmF0ZSkgZXhwaXJlc19hdDogT3B0aW9uPGk2ND4sCiAgICBwdWIoY3JhdGUpIHN0YXR1czogU3RyaW5nLAp9CgojW2Rlcml2ZShDbG9uZSldCnB1YihjcmF0ZSkgc3RydWN0IFR5cGVkV2hpdGVsaXN0UmVwb3NpdG9yeSB7CiAgICBtYW5hZ2VyOiBDb25uZWN0aW9uTWFuYWdlciwKfQoKaW1wbCBUeXBlZFdoaXRlbGlzdFJlcG9zaXRvcnkgewogICAgcHViKGNyYXRlKSBmbiBuZXcobWFuYWdlcjogQ29ubmVjdGlvbk1hbmFnZXIpIC0+IFNlbGYgewogICAgICAgIFNlbGYgeyBtYW5hZ2VyIH0KICAgIH0KCiAgICBwdWIoY3JhdGUpIGFzeW5jIGZuIGluaXRpYWxpemUoJnNlbGYpIC0+IFN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBzZWxmLm1hbmFnZXIKICAgICAgICAgICAgLmNhbGwofGNvbm58IHsKICAgICAgICAgICAgICAgIGxldCB0eCA9IGNvbm4udHJhbnNhY3Rpb25fd2l0aF9iZWhhdmlvcihUcmFuc2FjdGlvbkJlaGF2aW9yOjpJbW1lZGlhdGUpPzsKICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGVfYmF0Y2goTUlHUkFUSU9OU19TUUwpPzsKICAgICAgICAgICAgICAgIGxldCBjaGVja3N1bSA9IGNyYXRlOjpjcnlwdG9fdXRpbHM6OnNoYTI1Nl9oZXhfYnl0ZXMoU0NIRU1BX1NRTCk7CiAgICAgICAgICAgICAgICBsZXQgYXBwbGllZCA9IHR4CiAgICAgICAgICAgICAgICAgICAgLnF1ZXJ5X3JvdygKICAgICAgICAgICAgICAgICAgICAgICAgIlNFTEVDVCBuYW1lLCBjaGVja3N1bSBGUk9NIHR5cGVkX3doaXRlbGlzdF9zY2hlbWFfbWlncmF0aW9ucyBXSEVSRSB2ZXJzaW9uID0gPzEiLAogICAgICAgICAgICAgICAgICAgICAgICBbU0NIRU1BX1ZFUlNJT05dLAogICAgICAgICAgICAgICAgICAgICAgICB8cm93fCBPaygocm93LmdldDo6PF8sIFN0cmluZz4oMCk/LCByb3cuZ2V0Ojo8XywgU3RyaW5nPigxKT8pKSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgLm9wdGlvbmFsKCk/OwogICAgICAgICAgICAgICAgbWF0Y2ggYXBwbGllZCB7CiAgICAgICAgICAgICAgICAgICAgU29tZSgobmFtZSwgc3RvcmVkKSkgaWYgbmFtZSA9PSBTQ0hFTUFfTkFNRSAmJiBzdG9yZWQgPT0gY2hlY2tzdW0gPT4gewogICAgICAgICAgICAgICAgICAgICAgICBsZXQgZXhpc3RzID0gdHgucXVlcnlfcm93KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIlNFTEVDVCBFWElTVFMoU0VMRUNUIDEgRlJPTSBzcWxpdGVfbWFzdGVyIFdIRVJFIHR5cGUgPSAndGFibGUnIEFORCBuYW1lID0gJ3doaXRlbGlzdF9kb2N1bWVudHMnKSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHxyb3d8IHJvdy5nZXQ6OjxfLCBib29sPigwKSwKICAgICAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICAgICAgICAgIGlmICFleGlzdHMgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihzdG9yYWdlX2Vycm9yKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0eXBlZCB3aGl0ZWxpc3QgbWlncmF0aW9uIGlzIHJlY29yZGVkIGJ1dCBpdHMgdGFibGUgaXMgbWlzc2luZyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBTb21lKChuYW1lLCBfKSkgaWYgbmFtZSAhPSBTQ0hFTUFfTkFNRSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigidHlwZWQgd2hpdGVsaXN0IG1pZ3JhdGlvbiBuYW1lIG1pc21hdGNoIikpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBTb21lKF8pID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihzdG9yYWdlX2Vycm9yKCJ0eXBlZCB3aGl0ZWxpc3QgbWlncmF0aW9uIGNoZWNrc3VtIG1pc21hdGNoIikpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBOb25lID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgdHguZXhlY3V0ZV9iYXRjaChTQ0hFTUFfU1FMKT87CiAgICAgICAgICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiSU5TRVJUIElOVE8gdHlwZWRfd2hpdGVsaXN0X3NjaGVtYV9taWdyYXRpb25zKHZlcnNpb24sIG5hbWUsIGNoZWNrc3VtLCBhcHBsaWVkX2F0X21zKSBWQUxVRVMgKD8xLCA/MiwgPzMsID80KSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXJhbXMhWwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNDSEVNQV9WRVJTSU9OLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNDSEVNQV9OQU1FLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNoZWNrc3VtLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfbXMoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdHguY29tbWl0KCk/OwogICAgICAgICAgICAgICAgT2soKCkpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gdXBzZXJ0X3R4KAogICAgICAgIHR4OiAmVHJhbnNhY3Rpb248J18+LAogICAgICAgIGRvY3VtZW50OiAmVHlwZWRXaGl0ZWxpc3REb2N1bWVudCwKICAgICkgLT4gU3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGxldCBwYXJzZWQ6IFZhbHVlID0gc2VyZGVfanNvbjo6ZnJvbV9zdHIoJmRvY3VtZW50LmRvY3VtZW50X2pzb24pPzsKICAgICAgICBpZiAhcGFyc2VkLmlzX29iamVjdCgpCiAgICAgICAgICAgIHx8IGRvY3VtZW50LmlkLnRyaW0oKS5pc19lbXB0eSgpCiAgICAgICAgICAgIHx8ICFtYXRjaGVzIShkb2N1bWVudC5raW5kLCAicmVjb3JkIiB8ICJyZWdpb24iKQogICAgICAgICAgICB8fCBkb2N1bWVudC5zdGF0dXMudHJpbSgpLmlzX2VtcHR5KCkKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigiaW52YWxpZCB0eXBlZCB3aGl0ZWxpc3QgZG9jdW1lbnQiKSk7CiAgICAgICAgfQogICAgICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgICAgICJJTlNFUlQgSU5UTyB3aGl0ZWxpc3RfZG9jdW1lbnRzKAogICAgICAgICAgICAgICBraW5kLCBpZCwgZG9jdW1lbnRfanNvbiwgc29ydF9zY29yZSwgZXhwaXJlc19hdCwgc3RhdHVzLCB1cGRhdGVkX2F0X21zCiAgICAgICAgICAgICApIFZBTFVFUyAoPzEsID8yLCA/MywgPzQsID81LCA/NiwgPzcpCiAgICAgICAgICAgICBPTiBDT05GTElDVChraW5kLCBpZCkgRE8gVVBEQVRFIFNFVAogICAgICAgICAgICAgICBkb2N1bWVudF9qc29uID0gZXhjbHVkZWQuZG9jdW1lbnRfanNvbiwKICAgICAgICAgICAgICAgc29ydF9zY29yZSA9IGV4Y2x1ZGVkLnNvcnRfc2NvcmUsCiAgICAgICAgICAgICAgIGV4cGlyZXNfYXQgPSBleGNsdWRlZC5leHBpcmVzX2F0LAogICAgICAgICAgICAgICBzdGF0dXMgPSBleGNsdWRlZC5zdGF0dXMsCiAgICAgICAgICAgICAgIHVwZGF0ZWRfYXRfbXMgPSBleGNsdWRlZC51cGRhdGVkX2F0X21zIiwKICAgICAgICAgICAgcGFyYW1zIVsKICAgICAgICAgICAgICAgIGRvY3VtZW50LmtpbmQsCiAgICAgICAgICAgICAgICBkb2N1bWVudC5pZCwKICAgICAgICAgICAgICAgIGRvY3VtZW50LmRvY3VtZW50X2pzb24sCiAgICAgICAgICAgICAgICBkb2N1bWVudC5zb3J0X3Njb3JlLAogICAgICAgICAgICAgICAgZG9jdW1lbnQuZXhwaXJlc19hdCwKICAgICAgICAgICAgICAgIGRvY3VtZW50LnN0YXR1cywKICAgICAgICAgICAgICAgIGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfbXMoKSwKICAgICAgICAgICAgXSwKICAgICAgICApPzsKICAgICAgICBPaygoKSkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIGRlbGV0ZV90eCh0eDogJlRyYW5zYWN0aW9uPCdfPiwga2luZDogJnN0ciwgaWQ6ICZzdHIpIC0+IFN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICB0eC5leGVjdXRlKAogICAgICAgICAgICAiREVMRVRFIEZST00gd2hpdGVsaXN0X2RvY3VtZW50cyBXSEVSRSBraW5kID0gPzEgQU5EIGlkID0gPzIiLAogICAgICAgICAgICBwYXJhbXMhW2tpbmQsIGlkXSwKICAgICAgICApPzsKICAgICAgICBPaygoKSkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIGRlbGV0ZV9raW5kX3R4KHR4OiAmVHJhbnNhY3Rpb248J18+LCBraW5kOiAmc3RyKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgdHguZXhlY3V0ZSgiREVMRVRFIEZST00gd2hpdGVsaXN0X2RvY3VtZW50cyBXSEVSRSBraW5kID0gPzEiLCBba2luZF0pPzsKICAgICAgICBPaygoKSkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIHJlcGxhY2VfYWxsX3R4KAogICAgICAgIHR4OiAmVHJhbnNhY3Rpb248J18+LAogICAgICAgIGRvY3VtZW50czogJltUeXBlZFdoaXRlbGlzdERvY3VtZW50XSwKICAgICkgLT4gU3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIHR4LmV4ZWN1dGUoIkRFTEVURSBGUk9NIHdoaXRlbGlzdF9kb2N1bWVudHMiLCBbXSk/OwogICAgICAgIGZvciBkb2N1bWVudCBpbiBkb2N1bWVudHMgewogICAgICAgICAgICBTZWxmOjp1cHNlcnRfdHgodHgsIGRvY3VtZW50KT87CiAgICAgICAgfQogICAgICAgIE9rKCgpKQogICAgfQoKICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gbG9hZF9vbmUoCiAgICAgICAgJnNlbGYsCiAgICAgICAga2luZDogJnN0ciwKICAgICAgICBpZDogJnN0ciwKICAgICkgLT4gU3RvcmFnZVJlc3VsdDxPcHRpb248VHlwZWRXaGl0ZWxpc3REb2N1bWVudD4+IHsKICAgICAgICBsZXQga2luZCA9IGtpbmQudG9fc3RyaW5nKCk7CiAgICAgICAgbGV0IGlkID0gaWQudG9fc3RyaW5nKCk7CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5jYWxsKG1vdmUgfGNvbm58IHsKICAgICAgICAgICAgICAgIGNvbm4ucXVlcnlfcm93KAogICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgZG9jdW1lbnRfanNvbiwgc29ydF9zY29yZSwgZXhwaXJlc19hdCwgc3RhdHVzCiAgICAgICAgICAgICAgICAgICAgIEZST00gd2hpdGVsaXN0X2RvY3VtZW50cyBXSEVSRSBraW5kID0gPzEgQU5EIGlkID0gPzIiLAogICAgICAgICAgICAgICAgICAgIHBhcmFtcyFba2luZCwgaWRdLAogICAgICAgICAgICAgICAgICAgIHxyb3d8IHsKICAgICAgICAgICAgICAgICAgICAgICAgT2soVHlwZWRXaGl0ZWxpc3REb2N1bWVudCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBraW5kOiBpZiBraW5kID09ICJyZWNvcmQiIHsgInJlY29yZCIgfSBlbHNlIHsgInJlZ2lvbiIgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlkOiBpZC5jbG9uZSgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZG9jdW1lbnRfanNvbjogcm93LmdldCgwKT8sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzb3J0X3Njb3JlOiByb3cuZ2V0KDEpPywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4cGlyZXNfYXQ6IHJvdy5nZXQoMik/LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzOiByb3cuZ2V0KDMpPywKICAgICAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgLm9wdGlvbmFsKCkKICAgICAgICAgICAgICAgIC5tYXBfZXJyKEludG86OmludG8pCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gbG9hZF9raW5kKCZzZWxmLCBraW5kOiAmc3RyKSAtPiBTdG9yYWdlUmVzdWx0PFZlYzxUeXBlZFdoaXRlbGlzdERvY3VtZW50Pj4gewogICAgICAgIGxldCBraW5kID0ga2luZC50b19zdHJpbmcoKTsKICAgICAgICBzZWxmLm1hbmFnZXIKICAgICAgICAgICAgLmNhbGwobW92ZSB8Y29ubnwgewogICAgICAgICAgICAgICAgbGV0IG11dCBzdGF0ZW1lbnQgPSBjb25uLnByZXBhcmUoCiAgICAgICAgICAgICAgICAgICAgIlNFTEVDVCBpZCwgZG9jdW1lbnRfanNvbiwgc29ydF9zY29yZSwgZXhwaXJlc19hdCwgc3RhdHVzCiAgICAgICAgICAgICAgICAgICAgIEZST00gd2hpdGVsaXN0X2RvY3VtZW50cwogICAgICAgICAgICAgICAgICAgICBXSEVSRSBraW5kID0gPzEKICAgICAgICAgICAgICAgICAgICAgT1JERVIgQlkgc29ydF9zY29yZSBERVNDLCBpZCBERVNDIiwKICAgICAgICAgICAgICAgICk/OwogICAgICAgICAgICAgICAgbGV0IHJvd3MgPSBzdGF0ZW1lbnQucXVlcnlfbWFwKFtraW5kLmFzX3N0cigpXSwgfHJvd3wgewogICAgICAgICAgICAgICAgICAgIE9rKFR5cGVkV2hpdGVsaXN0RG9jdW1lbnQgewogICAgICAgICAgICAgICAgICAgICAgICBraW5kOiBpZiBraW5kID09ICJyZWNvcmQiIHsgInJlY29yZCIgfSBlbHNlIHsgInJlZ2lvbiIgfSwKICAgICAgICAgICAgICAgICAgICAgICAgaWQ6IHJvdy5nZXQoMCk/LAogICAgICAgICAgICAgICAgICAgICAgICBkb2N1bWVudF9qc29uOiByb3cuZ2V0KDEpPywKICAgICAgICAgICAgICAgICAgICAgICAgc29ydF9zY29yZTogcm93LmdldCgyKT8sCiAgICAgICAgICAgICAgICAgICAgICAgIGV4cGlyZXNfYXQ6IHJvdy5nZXQoMyk/LAogICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXM6IHJvdy5nZXQoNCk/LAogICAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICB9KT87CiAgICAgICAgICAgICAgICByb3dzLmNvbGxlY3Q6OjxSZXN1bHQ8VmVjPF8+LCBfPj4oKS5tYXBfZXJyKEludG86OmludG8pCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgICNbY2ZnKHRlc3QpXQogICAgcHViKGNyYXRlKSBhc3luYyBmbiBjb3VudCgmc2VsZikgLT4gU3RvcmFnZVJlc3VsdDxpNjQ+IHsKICAgICAgICBzZWxmLm1hbmFnZXIKICAgICAgICAgICAgLmNhbGwofGNvbm58IHsKICAgICAgICAgICAgICAgIGNvbm4ucXVlcnlfcm93KCJTRUxFQ1QgQ09VTlQoKikgRlJPTSB3aGl0ZWxpc3RfZG9jdW1lbnRzIiwgW10sIHxyb3d8IHsKICAgICAgICAgICAgICAgICAgICByb3cuZ2V0Ojo8XywgaTY0PigwKQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC5tYXBfZXJyKEludG86OmludG8pCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQp9Cg==
+use serde_json::Value;
+use tokio_rusqlite::rusqlite::{OptionalExtension, Transaction, TransactionBehavior, params};
+
+use super::{StorageResult, redis_compat::ConnectionManager, storage_error};
+
+const SCHEMA_VERSION: i64 = 1;
+const SCHEMA_NAME: &str = "typed_whitelist_documents";
+const SCHEMA_SQL: &str = r#"
+CREATE TABLE whitelist_documents (
+  kind TEXT NOT NULL CHECK (kind IN ('record', 'region')),
+  id TEXT NOT NULL,
+  document_json TEXT NOT NULL,
+  sort_score INTEGER NOT NULL,
+  expires_at INTEGER,
+  status TEXT NOT NULL,
+  updated_at_ms INTEGER NOT NULL,
+  PRIMARY KEY (kind, id)
+);
+CREATE INDEX idx_whitelist_documents_kind_score
+  ON whitelist_documents(kind, sort_score DESC, id DESC);
+CREATE INDEX idx_whitelist_documents_kind_expiry
+  ON whitelist_documents(kind, expires_at)
+  WHERE expires_at IS NOT NULL;
+"#;
+const MIGRATIONS_SQL: &str = r#"
+CREATE TABLE IF NOT EXISTS typed_whitelist_schema_migrations (
+  version INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  checksum TEXT NOT NULL,
+  applied_at_ms INTEGER NOT NULL
+);
+"#;
+
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub(crate) struct TypedWhitelistDocument {
+    pub(crate) kind: &'static str,
+    pub(crate) id: String,
+    pub(crate) document_json: String,
+    pub(crate) sort_score: i64,
+    pub(crate) expires_at: Option<i64>,
+    pub(crate) status: String,
+}
+
+#[derive(Clone)]
+pub(crate) struct TypedWhitelistRepository {
+    manager: ConnectionManager,
+}
+
+impl TypedWhitelistRepository {
+    pub(crate) fn new(manager: ConnectionManager) -> Self {
+        Self { manager }
+    }
+
+    pub(crate) async fn initialize(&self) -> StorageResult<()> {
+        self.manager
+            .call(|conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                tx.execute_batch(MIGRATIONS_SQL)?;
+                let checksum = crate::crypto_utils::sha256_hex_bytes(SCHEMA_SQL);
+                let applied = tx
+                    .query_row(
+                        "SELECT name, checksum FROM typed_whitelist_schema_migrations WHERE version = ?1",
+                        [SCHEMA_VERSION],
+                        |row| Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?)),
+                    )
+                    .optional()?;
+                match applied {
+                    Some((name, stored)) if name == SCHEMA_NAME && stored == checksum => {
+                        let exists = tx.query_row(
+                            "SELECT EXISTS(SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'whitelist_documents')",
+                            [],
+                            |row| row.get::<_, bool>(0),
+                        )?;
+                        if !exists {
+                            return Err(storage_error(
+                                "typed whitelist migration is recorded but its table is missing",
+                            ));
+                        }
+                    }
+                    Some((name, _)) if name != SCHEMA_NAME => {
+                        return Err(storage_error("typed whitelist migration name mismatch"));
+                    }
+                    Some(_) => {
+                        return Err(storage_error("typed whitelist migration checksum mismatch"));
+                    }
+                    None => {
+                        tx.execute_batch(SCHEMA_SQL)?;
+                        tx.execute(
+                            "INSERT INTO typed_whitelist_schema_migrations(version, name, checksum, applied_at_ms) VALUES (?1, ?2, ?3, ?4)",
+                            params![
+                                SCHEMA_VERSION,
+                                SCHEMA_NAME,
+                                checksum,
+                                crate::time_utils::now_ms()
+                            ],
+                        )?;
+                    }
+                }
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub(crate) fn upsert_tx(
+        tx: &Transaction<'_>,
+        document: &TypedWhitelistDocument,
+    ) -> StorageResult<()> {
+        let parsed: Value = serde_json::from_str(&document.document_json)?;
+        if !parsed.is_object()
+            || document.id.trim().is_empty()
+            || !matches!(document.kind, "record" | "region")
+            || document.status.trim().is_empty()
+        {
+            return Err(storage_error("invalid typed whitelist document"));
+        }
+        tx.execute(
+            "INSERT INTO whitelist_documents(
+               kind, id, document_json, sort_score, expires_at, status, updated_at_ms
+             ) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7)
+             ON CONFLICT(kind, id) DO UPDATE SET
+               document_json = excluded.document_json,
+               sort_score = excluded.sort_score,
+               expires_at = excluded.expires_at,
+               status = excluded.status,
+               updated_at_ms = excluded.updated_at_ms",
+            params![
+                document.kind,
+                document.id,
+                document.document_json,
+                document.sort_score,
+                document.expires_at,
+                document.status,
+                crate::time_utils::now_ms(),
+            ],
+        )?;
+        Ok(())
+    }
+
+    pub(crate) fn delete_tx(tx: &Transaction<'_>, kind: &str, id: &str) -> StorageResult<()> {
+        tx.execute(
+            "DELETE FROM whitelist_documents WHERE kind = ?1 AND id = ?2",
+            params![kind, id],
+        )?;
+        Ok(())
+    }
+
+    pub(crate) fn delete_kind_tx(tx: &Transaction<'_>, kind: &str) -> StorageResult<()> {
+        tx.execute("DELETE FROM whitelist_documents WHERE kind = ?1", [kind])?;
+        Ok(())
+    }
+
+    pub(crate) fn replace_all_tx(
+        tx: &Transaction<'_>,
+        documents: &[TypedWhitelistDocument],
+    ) -> StorageResult<()> {
+        tx.execute("DELETE FROM whitelist_documents", [])?;
+        for document in documents {
+            Self::upsert_tx(tx, document)?;
+        }
+        Ok(())
+    }
+
+    pub(crate) async fn load_one(
+        &self,
+        kind: &str,
+        id: &str,
+    ) -> StorageResult<Option<TypedWhitelistDocument>> {
+        let kind = kind.to_string();
+        let id = id.to_string();
+        self.manager
+            .call(move |conn| {
+                conn.query_row(
+                    "SELECT document_json, sort_score, expires_at, status
+                     FROM whitelist_documents WHERE kind = ?1 AND id = ?2",
+                    params![kind, id],
+                    |row| {
+                        Ok(TypedWhitelistDocument {
+                            kind: if kind == "record" { "record" } else { "region" },
+                            id: id.clone(),
+                            document_json: row.get(0)?,
+                            sort_score: row.get(1)?,
+                            expires_at: row.get(2)?,
+                            status: row.get(3)?,
+                        })
+                    },
+                )
+                .optional()
+                .map_err(Into::into)
+            })
+            .await
+    }
+
+    pub(crate) async fn load_kind(&self, kind: &str) -> StorageResult<Vec<TypedWhitelistDocument>> {
+        let kind = kind.to_string();
+        self.manager
+            .call(move |conn| {
+                let mut statement = conn.prepare(
+                    "SELECT id, document_json, sort_score, expires_at, status
+                     FROM whitelist_documents
+                     WHERE kind = ?1
+                     ORDER BY sort_score DESC, id DESC",
+                )?;
+                let rows = statement.query_map([kind.as_str()], |row| {
+                    Ok(TypedWhitelistDocument {
+                        kind: if kind == "record" { "record" } else { "region" },
+                        id: row.get(0)?,
+                        document_json: row.get(1)?,
+                        sort_score: row.get(2)?,
+                        expires_at: row.get(3)?,
+                        status: row.get(4)?,
+                    })
+                })?;
+                rows.collect::<Result<Vec<_>, _>>().map_err(Into::into)
+            })
+            .await
+    }
+
+    #[cfg(test)]
+    pub(crate) async fn count(&self) -> StorageResult<i64> {
+        self.manager
+            .call(|conn| {
+                conn.query_row("SELECT COUNT(*) FROM whitelist_documents", [], |row| {
+                    row.get::<_, i64>(0)
+                })
+                .map_err(Into::into)
+            })
+            .await
+    }
+}

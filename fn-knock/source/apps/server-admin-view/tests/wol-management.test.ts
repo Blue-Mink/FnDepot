@@ -1,1 +1,385 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBleGlzdHNTeW5jLCByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgpjb25zdCBjb250cmFjdFNjaGVtYXMgPSAoCiAgSlNPTi5wYXJzZShyZWFkU291cmNlKCIuLi8uLi8uLi9wYWNrYWdlcy9hcGktY29udHJhY3Qvb3BlbmFwaS5qc29uIikpIGFzIHsKICAgIGNvbXBvbmVudHM6IHsKICAgICAgc2NoZW1hczogUmVjb3JkPAogICAgICAgIHN0cmluZywKICAgICAgICB7CiAgICAgICAgICBwcm9wZXJ0aWVzPzogUmVjb3JkPHN0cmluZywgeyB0eXBlPzogdW5rbm93bjsgd3JpdGVPbmx5PzogYm9vbGVhbiB9PjsKICAgICAgICB9CiAgICAgID47CiAgICB9OwogIH0KKS5jb21wb25lbnRzLnNjaGVtYXM7CgpkZXNjcmliZSgiV2FrZS1vbi1MQU4gbWFuYWdlbWVudCIsICgpID0+IHsKICBpdCgiZ2F0ZXMgbmF2aWdhdGlvbiwgcm91dGUgYWNjZXNzLCBwb3J0YWwgc2V0dGluZ3MsIGFuZCBwZXJtaXNzaW9ucyBvbiB0aGUgZmVhdHVyZSBzd2l0Y2giLCAoKSA9PiB7CiAgICBjb25zdCBmZWF0dXJlcyA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvc3lzdGVtLXNldHRpbmdzL3VzZUZlYXR1cmVzU2V0dGluZ3MudHMiLAogICAgKTsKICAgIGNvbnN0IG5hdmlnYXRpb24gPSByZWFkU291cmNlKCIuLi9zcmMvdmlld3MvbGF5b3V0L3VzZUxheW91dE5hdmlnYXRpb24udHMiKTsKICAgIGNvbnN0IHJ1bnRpbWVBY2Nlc3MgPSByZWFkU291cmNlKCIuLi9zcmMvcm91dGVyL3J1bnRpbWUtYWNjZXNzLnRzIik7CiAgICBjb25zdCByb3V0ZXIgPSByZWFkU291cmNlKCIuLi9zcmMvcm91dGVyL2luZGV4LnRzIik7CiAgICBjb25zdCBnYXRld2F5UG9ydGFsUGFuZWwgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3N5c3RlbS1zZXR0aW5ncy9nYXRld2F5LXBvcnRhbC9HYXRld2F5UG9ydGFsU2V0dGluZ3NQYW5lbC52dWUiLAogICAgKTsKICAgIGNvbnN0IGdhdGV3YXlQb3J0YWxDb250cm9sbGVyID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy9zeXN0ZW0tc2V0dGluZ3MvZ2F0ZXdheS1wb3J0YWwvdXNlR2F0ZXdheVBvcnRhbFNldHRpbmdzLnRzIiwKICAgICk7CiAgICBjb25zdCBwZXJtaXNzaW9ucyA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3MvYXV0aC1zZXR0aW5ncy91c2VBdXRoU3ViZG9tYWluQWNjZXNzLnRzIiwKICAgICk7CgogICAgYXNzZXJ0Lm1hdGNoKGZlYXR1cmVzLCAvdXBkYXRlV09MRmVhdHVyZVwoXHsgZW5hYmxlZDogbmV4dFZhbHVlIFx9XCkvdSk7CiAgICBhc3NlcnQubWF0Y2gobmF2aWdhdGlvbiwgL3dvbF9mZWF0dXJlXD9cLmVuYWJsZWQgPT09IHRydWUvdSk7CiAgICBhc3NlcnQubWF0Y2gobmF2aWdhdGlvbiwgL2ljb246IE1vbml0b3JVcC91KTsKICAgIGFzc2VydC5tYXRjaChydW50aW1lQWNjZXNzLCAvcXVlcnk6IFx7IHRhYjogImZlYXR1cmVzIiBcfS91KTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgcm91dGVyLAogICAgICAvaWYgXCh0b1wucGF0aCAhPT0gIlwvd29sIlwpIFx7XHMqcmV0dXJuICJcL3Nlc3Npb25zXD90YWI9aXAtd2hpdGVsaXN0Ii91LAogICAgKTsKICAgIGFzc2VydC5tYXRjaChnYXRld2F5UG9ydGFsUGFuZWwsIC92LWlmPSJtb2RlbFwud29sRmVhdHVyZUVuYWJsZWQiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBnYXRld2F5UG9ydGFsQ29udHJvbGxlciwKICAgICAgL2NvbmZpZ1N0b3JlXC5jb25maWdcP1wud29sX2ZlYXR1cmVcP1wuZW5hYmxlZCA9PT0gdHJ1ZS91LAogICAgKTsKICAgIGFzc2VydC5tYXRjaChwZXJtaXNzaW9ucywgL19fYnVpbHRpbl93b2xfXy91KTsKICAgIGFzc2VydC5tYXRjaChwZXJtaXNzaW9ucywgL2lmIFwod29sRmVhdHVyZUVuYWJsZWRcLnZhbHVlXCkvdSk7CiAgfSk7CgogIGl0KCJ1c2VzIHRoZSBleGlzdGluZyBzZXJ2ZXItYWRtaW4tcnMgcHJvY2VzcyBhcyB0aGUgUmVsYXkgcnVudGltZSIsICgpID0+IHsKICAgIGNvbnN0IGFwcCA9IHJlYWRTb3VyY2UoIi4uLy4uL3NlcnZlci1hZG1pbi1ycy9zcmMvYXBwLnJzIik7CiAgICBjb25zdCByZWxheSA9IHJlYWRTb3VyY2UoIi4uLy4uL3NlcnZlci1hZG1pbi1ycy9zcmMvd29sL3JlbGF5LnJzIik7CiAgICBjb25zdCBib290c3RyYXAgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3dvbC1tYW5hZ2VtZW50L1dPTEJvb3RzdHJhcERpYWxvZy52dWUiLAogICAgKTsKCiAgICBhc3NlcnQubWF0Y2goYXBwLCAvc3RhcnRfd29sX3Rhc2tzXChzdGF0ZVwuY2xvbmVcKFwpXCkvdSk7CiAgICBhc3NlcnQubWF0Y2gocmVsYXksIC9zdGF0ZVwuc2h1dGRvd25cLmNhbmNlbGxlZFwoXCkvdSk7CiAgICBhc3NlcnQubWF0Y2gocmVsYXksIC9zdGF0ZVwud29sXC5yZWxheV9yZWxvYWRcLm5vdGlmaWVkXChcKS91KTsKICAgIGFzc2VydC5tYXRjaChyZWxheSwgL3N0YXRlXC53b2xcLnJ1bnRpbWVfcmVsb2FkXC5zdWJzY3JpYmVcKFwpL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHJlbGF5LCAvcnVudGltZV9yZWxvYWRcLmNoYW5nZWRcKFwpL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChib290c3RyYXAsIC9mbi1rbm9jay13b2wtcmVsYXl8cHNrX2ZpbGV8c3lzdGVtZC91KTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgZXhpc3RzU3luYyhuZXcgVVJMKCIuLi8uLi93b2wtcmVsYXktcnMvQ2FyZ28udG9tbCIsIGltcG9ydC5tZXRhLnVybCkpLAogICAgICBmYWxzZSwKICAgICk7CiAgfSk7CgogIGl0KCJwYWlycyB3aXRoIG9uZSBjb2RlIGFuZCBoaWRlcyBSZWxheSBjcmVkZW50aWFscyBmcm9tIHRoZSBiYXNpYyBVSSIsICgpID0+IHsKICAgIGNvbnN0IGFwaSA9IHJlYWRTb3VyY2UoIi4uL3NyYy9saWIvYXBpL3dvbC50cyIpOwogICAgY29uc3QgcGFnZSA9IHJlYWRTb3VyY2UoIi4uL3NyYy92aWV3cy9XT0xNYW5hZ2VtZW50LnZ1ZSIpOwogICAgY29uc3QgbW9kZWwgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3dvbC1tYW5hZ2VtZW50L3dvbC1tYW5hZ2VtZW50LW1vZGVsLnRzIiwKICAgICk7CiAgICBjb25zdCBsb2NhbFJlbGF5ID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy93b2wtbWFuYWdlbWVudC9XT0xMb2NhbFJlbGF5U2V0dGluZ3MudnVlIiwKICAgICk7CiAgICBjb25zdCBib290c3RyYXAgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3dvbC1tYW5hZ2VtZW50L1dPTEJvb3RzdHJhcERpYWxvZy52dWUiLAogICAgKTsKCiAgICBhc3NlcnQubWF0Y2goYXBpLCAvZ2V0XCgiXC93b2xcL2xvY2FsLXJlbGF5IlwpL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL3B1dFwoIlwvd29sXC9sb2NhbC1yZWxheSIsIHBheWxvYWRcKS91KTsKICAgIGFzc2VydC5tYXRjaChhcGksIC9wb3N0XCgiXC93b2xcL2xvY2FsLXJlbGF5XC9wYWlyIi91KTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgYXBpLAogICAgICAvV09MTG9jYWxSZWxheUNvbmZpZyA9IFdvbFNjaGVtYXNcWyJXb2xMb2NhbFJlbGF5Q29uZmlnRGF0YSJcXS91LAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29udHJhY3RTY2hlbWFzLldvbExvY2FsUmVsYXlDb25maWdEYXRhLnByb3BlcnRpZXM/LnBza0NvbmZpZ3VyZWQudHlwZSwKICAgICAgImJvb2xlYW4iLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29udHJhY3RTY2hlbWFzLldvbExvY2FsUmVsYXlDb25maWdEYXRhLnByb3BlcnRpZXM/LnBzaywKICAgICAgdW5kZWZpbmVkLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29udHJhY3RTY2hlbWFzLldvbExvY2FsUmVsYXlJbnB1dERhdGEucHJvcGVydGllcz8ucHNrLndyaXRlT25seSwKICAgICAgdHJ1ZSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGNvbnRyYWN0U2NoZW1hcy5Xb2xMb2NhbFJlbGF5UGFpckJvZHlEYXRhLnByb3BlcnRpZXM/LnBhaXJpbmdDb2RlCiAgICAgICAgLndyaXRlT25seSwKICAgICAgdHJ1ZSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2gobG9jYWxSZWxheSwgL3BhaXJpbmdDb2RlL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChsb2NhbFJlbGF5LCAvbW9kZWxcLnBza3xyZWxheUlkfGtleVZlcnNpb24vdSk7CiAgICBhc3NlcnQubWF0Y2goYm9vdHN0cmFwLCAvY3JlZGVudGlhbFwuYm9vdHN0cmFwXC5wYWlyaW5nQ29kZS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goYm9vdHN0cmFwLCAvY3JlZGVudGlhbFwuYm9vdHN0cmFwXC5wc2svdSk7CiAgICBhc3NlcnQubWF0Y2gobW9kZWwsIC9wc2s6ICIiL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChwYWdlICsgbG9jYWxSZWxheSwgL2xvY2FsU3RvcmFnZXxzZXNzaW9uU3RvcmFnZS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2gocGFnZSwgL3ZhbHVlPSJsb2NhbC1yZWxheSIvdSk7CiAgfSk7CgogIGl0KCJrZWVwcyB3YWtlL3Byb2JlIGZlZWRiYWNrIHNjb3BlZCBhbmQgdHJlYXRzIGFja25vd2xlZGdlbWVudCB0aW1lb3V0IGFzIHVua25vd24iLCAoKSA9PiB7CiAgICBjb25zdCB0YXJnZXRzID0gcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL3dvbC1tYW5hZ2VtZW50L1dvbFRhcmdldHNUYWIudnVlIik7CiAgICBjb25zdCB0YXJnZXRNYW5hZ2VtZW50ID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy93b2wtbWFuYWdlbWVudC91c2VXb2xUYXJnZXRNYW5hZ2VtZW50LnRzIiwKICAgICk7CiAgICBjb25zdCByZWxheU1hbmFnZW1lbnQgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3dvbC1tYW5hZ2VtZW50L3VzZVdvbFJlbGF5TWFuYWdlbWVudC50cyIsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICB0YXJnZXRNYW5hZ2VtZW50LAogICAgICAvd2FraW5nVGFyZ2V0SWRzID0gcmVmXChuZXcgU2V0PHN0cmluZz5cKFwpXCkvdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIHJlbGF5TWFuYWdlbWVudCwKICAgICAgL3Byb2JpbmdSZWxheUlkcyA9IHJlZlwobmV3IFNldDxzdHJpbmc+XChcKVwpL3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHRhcmdldE1hbmFnZW1lbnQsIC9zdGF0dXMgPT09IDUwNC91KTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgdGFyZ2V0TWFuYWdlbWVudCwKICAgICAgL3RvYXN0XC53YXJuaW5nXCh0XCgiYWRtaW5cLndvbFwud2FrZVVua25vd24iXCkvdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2godGFyZ2V0cywgLyF0YXJnZXRcLnJlbGF5XD9cLmVuYWJsZWQvdSk7CiAgfSk7CgogIGl0KCJrZWVwcyB3YWtlIGFuZCBzaHV0ZG93biBtdXR1YWxseSBleGNsdXNpdmUgYnkgb25saW5lIHN0YXRlIiwgKCkgPT4gewogICAgY29uc3QgdGFyZ2V0cyA9IHJlYWRTb3VyY2UoIi4uL3NyYy92aWV3cy93b2wtbWFuYWdlbWVudC9Xb2xUYXJnZXRzVGFiLnZ1ZSIpOwogICAgY29uc3QgZGlhbG9nID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy93b2wtbWFuYWdlbWVudC9XT0xUYXJnZXREaWFsb2cudnVlIiwKICAgICk7CiAgICBjb25zdCBtb2RlbCA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd29sLW1hbmFnZW1lbnQvd29sLW1hbmFnZW1lbnQtbW9kZWwudHMiLAogICAgKTsKCiAgICBhc3NlcnQubWF0Y2godGFyZ2V0cywgL3RhcmdldFwuc3RhdHVzXC5zdGF0ZSA9PT0gJ29ubGluZScvdSk7CiAgICBhc3NlcnQubWF0Y2godGFyZ2V0cywgL3YtZWxzZS1pZj0idGFyZ2V0XC5zdGF0dXNcLnN0YXRlICE9PSAnb25saW5lJyIvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKHRhcmdldHMsIC9jb25maWd1cmVTaHV0ZG93bi91KTsKICAgIGFzc2VydC5tYXRjaCh0YXJnZXRzLCAvPFBvd2VyIHYtZWxzZS91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2csIC92LWlmPSJzc2hcLmVuYWJsZWQiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZywgL3ByaXZhdGVLZXlDb3B5Q29tbWFuZC91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2csIC9hZG1pblwud29sXC5zc2hcLnRlc3RSZXF1aXJlZC91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goZGlhbG9nLCAvcHJvYmUtc3NoLWhvc3Qta2V5fHRydXN0LXNzaC1ob3N0LWtleS91KTsKICAgIGFzc2VydC5tYXRjaChtb2RlbCwgL3RhcmdldFwuc3NoXC5ob3N0S2V5RmluZ2VycHJpbnQvdSk7CiAgICBhc3NlcnQubWF0Y2gobW9kZWwsIC90YXJnZXRcLnNzaFwuY3JlZGVudGlhbENvbmZpZ3VyZWQvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKG1vZGVsLCAvdGFyZ2V0XC5zdGF0dXNcLnN0YXRlL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHRhcmdldHMsIC93YWtpbmdUYXJnZXRJZHNcLmhhc1wodGFyZ2V0XC5pZFwpL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHRhcmdldHMsIC9zaHV0dGluZ0Rvd25UYXJnZXRJZHNcLmhhc1wodGFyZ2V0XC5pZFwpL3UpOwogIH0pOwoKICBpdCgicHJpb3JpdGl6ZXMgdGFyZ2V0IG5hbWVzIG92ZXIgdGVjaG5pY2FsIHdha2UgZGV0YWlscyIsICgpID0+IHsKICAgIGNvbnN0IHRhcmdldHMgPSByZWFkU291cmNlKCIuLi9zcmMvdmlld3Mvd29sLW1hbmFnZW1lbnQvV29sVGFyZ2V0c1RhYi52dWUiKTsKICAgIGNvbnN0IGRldGFpbHMgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3dvbC1tYW5hZ2VtZW50L1dvbFRhcmdldFRlY2huaWNhbERldGFpbHMudnVlIiwKICAgICk7CiAgICBjb25zdCBkaWFsb2dzID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy93b2wtbWFuYWdlbWVudC9Xb2xNYW5hZ2VtZW50RGlhbG9ncy52dWUiLAogICAgKTsKICAgIGNvbnN0IHBvcnRhbFNldHRpbmdzID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy93b2wtbWFuYWdlbWVudC9XT0xQb3J0YWxTZXR0aW5nc0RpYWxvZy52dWUiLAogICAgKTsKICAgIGNvbnN0IHRlbXBsYXRlID0gdGFyZ2V0cy5zbGljZSh0YXJnZXRzLmluZGV4T2YoIjx0ZW1wbGF0ZT4iKSk7CiAgICBjb25zdCBwcmltYXJ5SW5kZXggPSB0ZW1wbGF0ZS5pbmRleE9mKCdkYXRhLXRlc3RpZD0id29sLXRhcmdldC1wcmltYXJ5IicpOwogICAgY29uc3QgdGVjaG5pY2FsSW5kZXggPSB0ZW1wbGF0ZS5pbmRleE9mKAogICAgICAnZGF0YS10ZXN0aWQ9IndvbC10YXJnZXQtdGVjaG5pY2FsIicsCiAgICApOwoKICAgIGFzc2VydC5ub3RFcXVhbChwcmltYXJ5SW5kZXgsIC0xKTsKICAgIGFzc2VydC5ub3RFcXVhbCh0ZWNobmljYWxJbmRleCwgLTEpOwogICAgYXNzZXJ0KHByaW1hcnlJbmRleCA8IHRlY2huaWNhbEluZGV4KTsKICAgIGFzc2VydCh0ZW1wbGF0ZS5pbmRleE9mKCJ0YXJnZXQubmFtZSIsIHByaW1hcnlJbmRleCkgPCB0ZWNobmljYWxJbmRleCk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIHRlbXBsYXRlLnNsaWNlKHByaW1hcnlJbmRleCwgdGVjaG5pY2FsSW5kZXgpLAogICAgICAvdGV4dC1sZ1teIl0qdGFyZ2V0XC5uYW1lfHRleHQtbGdbXHNcU10qdGFyZ2V0XC5uYW1lL3UsCiAgICApOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaCh0ZW1wbGF0ZSwgL3RhcmdldFwubm90ZS91KTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgdGVtcGxhdGUsCiAgICAgIC90YXJnZXRcLnN0YXR1c1wuc3RhdGUgPT09ICdvbmxpbmUnW1xzXFNdKmJnLWVtZXJhbGQtNTAwL3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHRlbXBsYXRlLCAvPE1vbml0b3JVcCB2LWVsc2UvdSk7CiAgICBhc3NlcnQubWF0Y2goZGV0YWlscywgL3RhcmdldFwuc3RhdHVzXC5vYnNlcnZlZElwIFx8XHwgdGFyZ2V0XC5pcEFkZHJlc3MvdSk7CiAgICBhc3NlcnQubWF0Y2goZGlhbG9ncywgL1dPTFBvcnRhbFNldHRpbmdzRGlhbG9nL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHBvcnRhbFNldHRpbmdzLCAvYWRtaW5cLndvbFwucG9ydGFsXC5zaG93U2hvcnRjdXQvdSk7CiAgfSk7CgogIGl0KCJrZWVwcyBtb2JpbGUgdGFyZ2V0IGRldGFpbHMgdW5zaGFkZWQgYW5kIGdpdmVzIHBvd2VyIGFjdGlvbnMgcHJpb3JpdHkiLCAoKSA9PiB7CiAgICBjb25zdCB0YXJnZXRzID0gcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL3dvbC1tYW5hZ2VtZW50L1dvbFRhcmdldHNUYWIudnVlIik7CiAgICBjb25zdCBkZXRhaWxzID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy93b2wtbWFuYWdlbWVudC9Xb2xUYXJnZXRUZWNobmljYWxEZXRhaWxzLnZ1ZSIsCiAgICApOwoKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goZGV0YWlscywgL2JnLW11dGVkXC80MC91KTsKICAgIGFzc2VydC5tYXRjaChkZXRhaWxzLCAvZ3JpZCBnYXAtNCBzbTpncmlkLWNvbHMtMiBzbTpnYXAtNi91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goZGV0YWlscywgL2JvcmRlci0oPzp4fHl8dHxifGx8cikvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKHRhcmdldHMsIC9nYXAtMiBib3JkZXItdCBwdC0zL3UpOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICB0YXJnZXRzLAogICAgICAvb3JkZXItMiBncmlkIGdyaWQtY29scy1cW21pbm1heFwoMCwxZnJcKV8yXC43NXJlbVxdL3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHRhcmdldHMsIC9vcmRlci0xIGgtMTEgdy1mdWxsIHNtOm9yZGVyLTIgc206aC04IHNtOnctYXV0by91KTsKICB9KTsKCiAgaXQoInN0cmVhbXMgTEFOIGRpc2NvdmVyeSwgZ2VuZXJhdGVzIGVkaXRhYmxlIG5hbWVzLCBhbmQgaGlkZXMgcmVkdW5kYW50IHdha2UgcGF0aHMiLCAoKSA9PiB7CiAgICBjb25zdCBhcGkgPSByZWFkU291cmNlKCIuLi9zcmMvbGliL2FwaS93b2wudHMiKTsKICAgIGNvbnN0IHRhcmdldHMgPSByZWFkU291cmNlKCIuLi9zcmMvdmlld3Mvd29sLW1hbmFnZW1lbnQvV29sVGFyZ2V0c1RhYi52dWUiKTsKICAgIGNvbnN0IGRpc2NvdmVyeSA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd29sLW1hbmFnZW1lbnQvdXNlV29sRGlzY292ZXJ5LnRzIiwKICAgICk7CiAgICBjb25zdCB0YXJnZXRNYW5hZ2VtZW50ID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy93b2wtbWFuYWdlbWVudC91c2VXb2xUYXJnZXRNYW5hZ2VtZW50LnRzIiwKICAgICk7CiAgICBjb25zdCB0YXJnZXROYW1lID0gcmVhZFNvdXJjZSgiLi4vc3JjL2xpYi93b2xUYXJnZXROYW1lLnRzIik7CiAgICBjb25zdCB0YXJnZXREaWFsb2cgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3dvbC1tYW5hZ2VtZW50L1dPTFRhcmdldERpYWxvZy52dWUiLAogICAgKTsKICAgIGNvbnN0IGRpc2NvdmVyeURpYWxvZyA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd29sLW1hbmFnZW1lbnQvV09MRGlzY292ZXJ5RGlhbG9nLnZ1ZSIsCiAgICApOwogICAgY29uc3QgZGV0YWlscyA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd29sLW1hbmFnZW1lbnQvV29sVGFyZ2V0VGVjaG5pY2FsRGV0YWlscy52dWUiLAogICAgKTsKCiAgICBhc3NlcnQubWF0Y2goYXBpLCAvcG9zdFwoXHMqIlwvd29sXC9kaXNjb3Zlclwvam9icyIvdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvcGFyYW1zOiBceyBjdXJzb3IgXH0vdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvdHlwZTogImRldmljZSIvdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvdGFyZ2V0Q2lkcnMvdSk7CiAgICBhc3NlcnQubWF0Y2goZGlzY292ZXJ5LCAvcmVsYXlJZDogbnVsbC91KTsKICAgIGFzc2VydC5tYXRjaChkaXNjb3ZlcnksIC9icm9hZGNhc3RBZGRyZXNzOiBkZXZpY2VcLmJyb2FkY2FzdEFkZHJlc3MvdSk7CiAgICBhc3NlcnQubWF0Y2goZGlzY292ZXJ5LCAvbmFtZTogZGV2aWNlXC5uYW1lL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHRhcmdldE1hbmFnZW1lbnQsIC9jcmVhdGVSYW5kb21UYXJnZXROYW1lL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHRhcmdldE5hbWUsIC9jcnlwdG9cLmdldFJhbmRvbVZhbHVlcy91KTsKICAgIGFzc2VydC5tYXRjaCh0YXJnZXROYW1lLCAvVWludDhBcnJheVwoNVwpL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChhcGksIC9cYm5vdGU6L3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaCh0YXJnZXRzLCAvdGFyZ2V0XC5ub3RlfGRldmljZVwubm90ZS91KTsKICAgIGFzc2VydC5tYXRjaCh0YXJnZXRzLCAvRHJvcGRvd25NZW51VHJpZ2dlci91KTsKICAgIGFzc2VydC5tYXRjaCh0YXJnZXRzLCAvd29sLWRldmljZS1hY3Rpb25zLW1lbnUtdHJpZ2dlci91KTsKICAgIGFzc2VydC5tYXRjaCh0YXJnZXRzLCAvPERyb3Bkb3duTWVudUl0ZW0gQHNlbGVjdD0ib3BlbkNyZWF0ZVRhcmdldCI+L3UpOwogICAgYXNzZXJ0Lm1hdGNoKHRhcmdldERpYWxvZywgL2xvY2FsRGVsaXZlcnlWYWx1ZS91KTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgdGFyZ2V0RGlhbG9nLAogICAgICAvPGRpdiB2LWlmPSJyZWxheXNcLmxlbmd0aCIgY2xhc3M9InNwYWNlLXktMiI+W1xzXFNdKmFkbWluXC53b2xcLmRlbGl2ZXJ5UGF0aC91LAogICAgKTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2godGFyZ2V0RGlhbG9nLCAvbW9kZWxcLm5vdGV8YWRtaW5cLndvbFwubm90ZS91KTsKICAgIGFzc2VydC5tYXRjaChkZXRhaWxzLCAvdi1pZj0iaGFzUmVsYXlzIltcc1xTXSphZG1pblwud29sXC5kZWxpdmVyeVBhdGgvdSk7CiAgICBhc3NlcnQubWF0Y2goZGlzY292ZXJ5RGlhbG9nLCAvc2VsZWN0ZWREZXZpY2VzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGRpc2NvdmVyeURpYWxvZywgL2V4aXN0aW5nXC5oYXNcKGRldmljZVwubWFjXCkvdSk7CiAgICBhc3NlcnQubWF0Y2goZGlzY292ZXJ5RGlhbG9nLCAvY3VzdG9tQ2lkcnMvdSk7CiAgICBhc3NlcnQubWF0Y2goZGlzY292ZXJ5RGlhbG9nLCAvdi1pZj0ic2hvd1NldHRpbmdzIi91KTsKICAgIGFzc2VydC5tYXRjaChkaXNjb3ZlcnlEaWFsb2csIC88U2V0dGluZ3MyL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGRpc2NvdmVyeURpYWxvZywgL3Byb2dyZXNzUGVyY2VudC91KTsKICAgIGFzc2VydC5tYXRjaChkaXNjb3ZlcnlEaWFsb2csIC9uYW1lc1xbZGV2aWNlXC5tYWNcXS91KTsKICAgIGFzc2VydC5tYXRjaChkaXNjb3ZlcnlEaWFsb2csIC9jcmVhdGVSYW5kb21UYXJnZXROYW1lL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChkaXNjb3ZlcnlEaWFsb2csIC9ub3Rlc1xbfG5vdGVQbGFjZWhvbGRlci91KTsKICAgIGFzc2VydC5tYXRjaChkaXNjb3ZlcnlEaWFsb2csIC9zZWxlY3RBbGxTdGF0ZS91KTsKICAgIGFzc2VydC5tYXRjaChkaXNjb3ZlcnlEaWFsb2csIC90b2dnbGVBbGwvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKGRpc2NvdmVyeURpYWxvZywgL25leHRTZWxlY3RlZFwuYWRkL3UpOwogIH0pOwoKICBpdCgidXNlcyBvbmUgcHJvdmlkZXIgc2VsZWN0IGFuZCBzaG93cyB3cml0ZS1vbmx5IHNldHRpbmdzIG9ubHkgd2hpbGUgZWRpdGluZyIsICgpID0+IHsKICAgIGNvbnN0IGFwaSA9IHJlYWRTb3VyY2UoIi4uL3NyYy9saWIvYXBpL3dvbC50cyIpOwogICAgY29uc3QgdGFyZ2V0TWFuYWdlbWVudCA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvd29sLW1hbmFnZW1lbnQvdXNlV29sVGFyZ2V0TWFuYWdlbWVudC50cyIsCiAgICApOwogICAgY29uc3QgbW9kZWwgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3dvbC1tYW5hZ2VtZW50L3dvbC1tYW5hZ2VtZW50LW1vZGVsLnRzIiwKICAgICk7CiAgICBjb25zdCBkaWFsb2cgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3dvbC1tYW5hZ2VtZW50L1dPTFRhcmdldERpYWxvZy52dWUiLAogICAgKTsKCiAgICBhc3NlcnQubWF0Y2goYXBpLCAvV29sVGFyZ2V0SW50ZWdyYXRpb25zRGF0YS91KTsKICAgIGFzc2VydC5tYXRjaChhcGksIC9kZXZpY2VLZXlcPzogc3RyaW5nL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL3ByaXZhdGVLZXlcPzogc3RyaW5nL3UpOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdFNjaGVtYXMuV29sQmxpbmtlckludGVncmF0aW9uRGF0YS5wcm9wZXJ0aWVzPy5jcmVkZW50aWFsQ29uZmlndXJlZAogICAgICAgIC50eXBlLAogICAgICAiYm9vbGVhbiIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdFNjaGVtYXMuV29sQmVtZmFJbnRlZ3JhdGlvbkRhdGEucHJvcGVydGllcz8uY3JlZGVudGlhbENvbmZpZ3VyZWQKICAgICAgICAudHlwZSwKICAgICAgImJvb2xlYW4iLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29udHJhY3RTY2hlbWFzLldvbEJsaW5rZXJJbnRlZ3JhdGlvbkRhdGEucHJvcGVydGllcz8uZGV2aWNlS2V5LAogICAgICB1bmRlZmluZWQsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdFNjaGVtYXMuV29sQmVtZmFJbnRlZ3JhdGlvbkRhdGEucHJvcGVydGllcz8ucHJpdmF0ZUtleSwKICAgICAgdW5kZWZpbmVkLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29udHJhY3RTY2hlbWFzLldvbEJsaW5rZXJJbnRlZ3JhdGlvbklucHV0RGF0YS5wcm9wZXJ0aWVzPy5kZXZpY2VLZXkKICAgICAgICAud3JpdGVPbmx5LAogICAgICB0cnVlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29udHJhY3RTY2hlbWFzLldvbEJlbWZhSW50ZWdyYXRpb25JbnB1dERhdGEucHJvcGVydGllcz8ucHJpdmF0ZUtleQogICAgICAgIC53cml0ZU9ubHksCiAgICAgIHRydWUsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZywgL3YtaWY9Im1vZGUgPT09ICdlZGl0JyAmJiBpbnRlZ3JhdGlvbnMiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZywgL3R5cGU9InBhc3N3b3JkIi91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2csIC9jcmVkZW50aWFsQ29uZmlndXJlZC91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2csIC9iaW5kQ29tcG9uZW50L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZywgL3J1bnRpbWVcLmxhc3RFcnJvci91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2csIC9tYXgtaC1cWzkwdmhcXS91KTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgZGlhbG9nLAogICAgICAvdHlwZSBJbnRlZ3JhdGlvblByb3ZpZGVyID0gIm5vbmUiIFx8ICJibGlua2VyIiBcfCAiYmVtZmEiL3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZywgLzxTZWxlY3Qgdi1tb2RlbD0iaW50ZWdyYXRpb25Qcm92aWRlciI+L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZywgLzxTZWxlY3RJdGVtIHZhbHVlPSJub25lIj4vdSk7CiAgICBhc3NlcnQubWF0Y2goZGlhbG9nLCAvPFNlbGVjdEl0ZW0gdmFsdWU9ImJsaW5rZXIiPi91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2csIC88U2VsZWN0SXRlbSB2YWx1ZT0iYmVtZmEiPi91KTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgZGlhbG9nLAogICAgICAvaWYgXChpbnRlZ3JhdGlvbnNcLnZhbHVlXD9cLmJsaW5rZXJcLmVuYWJsZWRcKSByZXR1cm4gImJsaW5rZXIiL3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKGRpYWxvZywgL3JldHVybiAibm9uZSIvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKGRpYWxvZywgL3JvbGU9InJhZGlvZ3JvdXAifHJvbGU9InJhZGlvIi91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goZGlhbG9nLCAvc2VsZWN0SW50ZWdyYXRpb25Qcm92aWRlcnxiZy1ncmFkaWVudC10by1ici91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2csIC9zbTpncmlkLWNvbHMtMi91KTsKICAgIGFzc2VydC5tYXRjaChkaWFsb2csIC9tYXhsZW5ndGg9IjUxMiIvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKAogICAgICBkaWFsb2cuc2xpY2UoZGlhbG9nLmluZGV4T2YoIjx0ZW1wbGF0ZT4iKSksCiAgICAgIC9za2lwVGxzVmVyaWZ5fHRsc1dhcm5pbmd8Ymxpbmtlci10bHN8YmVtZmEtdGxzL3UsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKChtb2RlbC5tYXRjaCgvc2tpcFRsc1ZlcmlmeTogdHJ1ZS9ndSkgPz8gW10pLmxlbmd0aCwgMik7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIHRhcmdldE1hbmFnZW1lbnQsCiAgICAgIC9pbnRlZ3JhdGlvbnM6IF9pbnRlZ3JhdGlvbnMsW1xzXFNdKnNzaDogX3NzaCxbXHNcU10qXC5cLlwuY3JlYXRlUGF5bG9hZC91LAogICAgKTsKICAgIGFzc2VydC5tYXRjaChhcGksIC9hc3luYyBnZXRUYXJnZXRcKGlkOiBzdHJpbmcsIHNpZ25hbFw/OiBBYm9ydFNpZ25hbFwpL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHRhcmdldE1hbmFnZW1lbnQsIC9yZWZyZXNoRWRpdGluZ1RhcmdldFJ1bnRpbWUvdSk7CiAgICBhc3NlcnQubWF0Y2godGFyZ2V0TWFuYWdlbWVudCwgL2NyZWF0ZVZpc2liaWxpdHlQb2xsZXIvdSk7CiAgICBhc3NlcnQubWF0Y2godGFyZ2V0TWFuYWdlbWVudCwgL3RhcmdldFJ1bnRpbWVQb2xsZXJcLnN5bmNcKFwpL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHRhcmdldE1hbmFnZW1lbnQsIC9zdG9wUG9sbGluZzogc3RvcC91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2godGFyZ2V0TWFuYWdlbWVudCwgL3NldEludGVydmFsL3UpOwogIH0pOwoKICBpdCgia2VlcHMgdGhlIHBhZ2UgYXMgYSBjb21wb3NpdGlvbiByb290IGluc3RlYWQgb2YgYW4gQVBJIGNvbnRyb2xsZXIiLCAoKSA9PiB7CiAgICBjb25zdCBwYWdlID0gcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL1dPTE1hbmFnZW1lbnQudnVlIik7CiAgICBjb25zdCBjb250cm9sbGVyID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy92aWV3cy93b2wtbWFuYWdlbWVudC91c2VXb2xNYW5hZ2VtZW50UGFnZS50cyIsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKHBhZ2UsIC91c2VXb2xNYW5hZ2VtZW50UGFnZS91KTsKICAgIGFzc2VydC5tYXRjaChwYWdlLCAvV29sVGFyZ2V0c1RhYi91KTsKICAgIGFzc2VydC5tYXRjaChwYWdlLCAvV29sUmVsYXlzVGFiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHBhZ2UsIC9Xb2xNYW5hZ2VtZW50RGlhbG9ncy91KTsKICAgIGZvciAoY29uc3QgY29tcG9zYWJsZSBvZiBbCiAgICAgICJ1c2VXb2xEaXNjb3ZlcnkiLAogICAgICAidXNlV29sTG9jYWxSZWxheSIsCiAgICAgICJ1c2VXb2xQb3J0YWxTZXR0aW5ncyIsCiAgICAgICJ1c2VXb2xSZWxheU1hbmFnZW1lbnQiLAogICAgICAidXNlV29sUmVzb3VyY2VzIiwKICAgICAgInVzZVdvbFRhcmdldE1hbmFnZW1lbnQiLAogICAgXSkgewogICAgICBhc3NlcnQubWF0Y2goY29udHJvbGxlciwgbmV3IFJlZ0V4cChgZnJvbSAiXFwuLyR7Y29tcG9zYWJsZX0iYCkpOwogICAgfQogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaCgKICAgICAgcGFnZSArIGNvbnRyb2xsZXIsCiAgICAgIC9XT0xBUEl8Q29uZmlnQVBJfGNyZWF0ZVZpc2liaWxpdHlQb2xsZXJ8QWJvcnRDb250cm9sbGVyL3UsCiAgICApOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { existsSync, readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+const contractSchemas = (
+  JSON.parse(readSource("../../../packages/api-contract/openapi.json")) as {
+    components: {
+      schemas: Record<
+        string,
+        {
+          properties?: Record<string, { type?: unknown; writeOnly?: boolean }>;
+        }
+      >;
+    };
+  }
+).components.schemas;
+
+describe("Wake-on-LAN management", () => {
+  it("gates navigation, route access, portal settings, and permissions on the feature switch", () => {
+    const features = readSource(
+      "../src/views/system-settings/useFeaturesSettings.ts",
+    );
+    const navigation = readSource("../src/views/layout/useLayoutNavigation.ts");
+    const runtimeAccess = readSource("../src/router/runtime-access.ts");
+    const router = readSource("../src/router/index.ts");
+    const gatewayPortalPanel = readSource(
+      "../src/views/system-settings/gateway-portal/GatewayPortalSettingsPanel.vue",
+    );
+    const gatewayPortalController = readSource(
+      "../src/views/system-settings/gateway-portal/useGatewayPortalSettings.ts",
+    );
+    const permissions = readSource(
+      "../src/views/auth-settings/useAuthSubdomainAccess.ts",
+    );
+
+    assert.match(features, /updateWOLFeature\(\{ enabled: nextValue \}\)/u);
+    assert.match(navigation, /wol_feature\?\.enabled === true/u);
+    assert.match(navigation, /icon: MonitorUp/u);
+    assert.match(runtimeAccess, /query: \{ tab: "features" \}/u);
+    assert.match(
+      router,
+      /if \(to\.path !== "\/wol"\) \{\s*return "\/sessions\?tab=ip-whitelist"/u,
+    );
+    assert.match(gatewayPortalPanel, /v-if="model\.wolFeatureEnabled"/u);
+    assert.match(
+      gatewayPortalController,
+      /configStore\.config\?\.wol_feature\?\.enabled === true/u,
+    );
+    assert.match(permissions, /__builtin_wol__/u);
+    assert.match(permissions, /if \(wolFeatureEnabled\.value\)/u);
+  });
+
+  it("uses the existing server-admin-rs process as the Relay runtime", () => {
+    const app = readSource("../../server-admin-rs/src/app.rs");
+    const relay = readSource("../../server-admin-rs/src/wol/relay.rs");
+    const bootstrap = readSource(
+      "../src/views/wol-management/WOLBootstrapDialog.vue",
+    );
+
+    assert.match(app, /start_wol_tasks\(state\.clone\(\)\)/u);
+    assert.match(relay, /state\.shutdown\.cancelled\(\)/u);
+    assert.match(relay, /state\.wol\.relay_reload\.notified\(\)/u);
+    assert.match(relay, /state\.wol\.runtime_reload\.subscribe\(\)/u);
+    assert.match(relay, /runtime_reload\.changed\(\)/u);
+    assert.doesNotMatch(bootstrap, /fn-knock-wol-relay|psk_file|systemd/u);
+    assert.equal(
+      existsSync(new URL("../../wol-relay-rs/Cargo.toml", import.meta.url)),
+      false,
+    );
+  });
+
+  it("pairs with one code and hides Relay credentials from the basic UI", () => {
+    const api = readSource("../src/lib/api/wol.ts");
+    const page = readSource("../src/views/WOLManagement.vue");
+    const model = readSource(
+      "../src/views/wol-management/wol-management-model.ts",
+    );
+    const localRelay = readSource(
+      "../src/views/wol-management/WOLLocalRelaySettings.vue",
+    );
+    const bootstrap = readSource(
+      "../src/views/wol-management/WOLBootstrapDialog.vue",
+    );
+
+    assert.match(api, /get\("\/wol\/local-relay"\)/u);
+    assert.match(api, /put\("\/wol\/local-relay", payload\)/u);
+    assert.match(api, /post\("\/wol\/local-relay\/pair"/u);
+    assert.match(
+      api,
+      /WOLLocalRelayConfig = WolSchemas\["WolLocalRelayConfigData"\]/u,
+    );
+    assert.equal(
+      contractSchemas.WolLocalRelayConfigData.properties?.pskConfigured.type,
+      "boolean",
+    );
+    assert.equal(
+      contractSchemas.WolLocalRelayConfigData.properties?.psk,
+      undefined,
+    );
+    assert.equal(
+      contractSchemas.WolLocalRelayInputData.properties?.psk.writeOnly,
+      true,
+    );
+    assert.equal(
+      contractSchemas.WolLocalRelayPairBodyData.properties?.pairingCode
+        .writeOnly,
+      true,
+    );
+    assert.match(localRelay, /pairingCode/u);
+    assert.doesNotMatch(localRelay, /model\.psk|relayId|keyVersion/u);
+    assert.match(bootstrap, /credential\.bootstrap\.pairingCode/u);
+    assert.doesNotMatch(bootstrap, /credential\.bootstrap\.psk/u);
+    assert.match(model, /psk: ""/u);
+    assert.doesNotMatch(page + localRelay, /localStorage|sessionStorage/u);
+    assert.doesNotMatch(page, /value="local-relay"/u);
+  });
+
+  it("keeps wake/probe feedback scoped and treats acknowledgement timeout as unknown", () => {
+    const targets = readSource("../src/views/wol-management/WolTargetsTab.vue");
+    const targetManagement = readSource(
+      "../src/views/wol-management/useWolTargetManagement.ts",
+    );
+    const relayManagement = readSource(
+      "../src/views/wol-management/useWolRelayManagement.ts",
+    );
+    assert.match(
+      targetManagement,
+      /wakingTargetIds = ref\(new Set<string>\(\)\)/u,
+    );
+    assert.match(
+      relayManagement,
+      /probingRelayIds = ref\(new Set<string>\(\)\)/u,
+    );
+    assert.match(targetManagement, /status === 504/u);
+    assert.match(
+      targetManagement,
+      /toast\.warning\(t\("admin\.wol\.wakeUnknown"\)/u,
+    );
+    assert.match(targets, /!target\.relay\?\.enabled/u);
+  });
+
+  it("keeps wake and shutdown mutually exclusive by online state", () => {
+    const targets = readSource("../src/views/wol-management/WolTargetsTab.vue");
+    const dialog = readSource(
+      "../src/views/wol-management/WOLTargetDialog.vue",
+    );
+    const model = readSource(
+      "../src/views/wol-management/wol-management-model.ts",
+    );
+
+    assert.match(targets, /target\.status\.state === 'online'/u);
+    assert.match(targets, /v-else-if="target\.status\.state !== 'online'"/u);
+    assert.doesNotMatch(targets, /configureShutdown/u);
+    assert.match(targets, /<Power v-else/u);
+    assert.match(dialog, /v-if="ssh\.enabled"/u);
+    assert.match(dialog, /privateKeyCopyCommand/u);
+    assert.match(dialog, /admin\.wol\.ssh\.testRequired/u);
+    assert.doesNotMatch(dialog, /probe-ssh-host-key|trust-ssh-host-key/u);
+    assert.match(model, /target\.ssh\.hostKeyFingerprint/u);
+    assert.match(model, /target\.ssh\.credentialConfigured/u);
+    assert.doesNotMatch(model, /target\.status\.state/u);
+    assert.match(targets, /wakingTargetIds\.has\(target\.id\)/u);
+    assert.match(targets, /shuttingDownTargetIds\.has\(target\.id\)/u);
+  });
+
+  it("prioritizes target names over technical wake details", () => {
+    const targets = readSource("../src/views/wol-management/WolTargetsTab.vue");
+    const details = readSource(
+      "../src/views/wol-management/WolTargetTechnicalDetails.vue",
+    );
+    const dialogs = readSource(
+      "../src/views/wol-management/WolManagementDialogs.vue",
+    );
+    const portalSettings = readSource(
+      "../src/views/wol-management/WOLPortalSettingsDialog.vue",
+    );
+    const template = targets.slice(targets.indexOf("<template>"));
+    const primaryIndex = template.indexOf('data-testid="wol-target-primary"');
+    const technicalIndex = template.indexOf(
+      'data-testid="wol-target-technical"',
+    );
+
+    assert.notEqual(primaryIndex, -1);
+    assert.notEqual(technicalIndex, -1);
+    assert(primaryIndex < technicalIndex);
+    assert(template.indexOf("target.name", primaryIndex) < technicalIndex);
+    assert.match(
+      template.slice(primaryIndex, technicalIndex),
+      /text-lg[^"]*target\.name|text-lg[\s\S]*target\.name/u,
+    );
+    assert.doesNotMatch(template, /target\.note/u);
+    assert.match(
+      template,
+      /target\.status\.state === 'online'[\s\S]*bg-emerald-500/u,
+    );
+    assert.match(template, /<MonitorUp v-else/u);
+    assert.match(details, /target\.status\.observedIp \|\| target\.ipAddress/u);
+    assert.match(dialogs, /WOLPortalSettingsDialog/u);
+    assert.match(portalSettings, /admin\.wol\.portal\.showShortcut/u);
+  });
+
+  it("keeps mobile target details unshaded and gives power actions priority", () => {
+    const targets = readSource("../src/views/wol-management/WolTargetsTab.vue");
+    const details = readSource(
+      "../src/views/wol-management/WolTargetTechnicalDetails.vue",
+    );
+
+    assert.doesNotMatch(details, /bg-muted\/40/u);
+    assert.match(details, /grid gap-4 sm:grid-cols-2 sm:gap-6/u);
+    assert.doesNotMatch(details, /border-(?:x|y|t|b|l|r)/u);
+    assert.doesNotMatch(targets, /gap-2 border-t pt-3/u);
+    assert.match(
+      targets,
+      /order-2 grid grid-cols-\[minmax\(0,1fr\)_2\.75rem\]/u,
+    );
+    assert.match(targets, /order-1 h-11 w-full sm:order-2 sm:h-8 sm:w-auto/u);
+  });
+
+  it("streams LAN discovery, generates editable names, and hides redundant wake paths", () => {
+    const api = readSource("../src/lib/api/wol.ts");
+    const targets = readSource("../src/views/wol-management/WolTargetsTab.vue");
+    const discovery = readSource(
+      "../src/views/wol-management/useWolDiscovery.ts",
+    );
+    const targetManagement = readSource(
+      "../src/views/wol-management/useWolTargetManagement.ts",
+    );
+    const targetName = readSource("../src/lib/wolTargetName.ts");
+    const targetDialog = readSource(
+      "../src/views/wol-management/WOLTargetDialog.vue",
+    );
+    const discoveryDialog = readSource(
+      "../src/views/wol-management/WOLDiscoveryDialog.vue",
+    );
+    const details = readSource(
+      "../src/views/wol-management/WolTargetTechnicalDetails.vue",
+    );
+
+    assert.match(api, /post\(\s*"\/wol\/discover\/jobs"/u);
+    assert.match(api, /params: \{ cursor \}/u);
+    assert.match(api, /type: "device"/u);
+    assert.match(api, /targetCidrs/u);
+    assert.match(discovery, /relayId: null/u);
+    assert.match(discovery, /broadcastAddress: device\.broadcastAddress/u);
+    assert.match(discovery, /name: device\.name/u);
+    assert.match(targetManagement, /createRandomTargetName/u);
+    assert.match(targetName, /crypto\.getRandomValues/u);
+    assert.match(targetName, /Uint8Array\(5\)/u);
+    assert.doesNotMatch(api, /\bnote:/u);
+    assert.doesNotMatch(targets, /target\.note|device\.note/u);
+    assert.match(targets, /DropdownMenuTrigger/u);
+    assert.match(targets, /wol-device-actions-menu-trigger/u);
+    assert.match(targets, /<DropdownMenuItem @select="openCreateTarget">/u);
+    assert.match(targetDialog, /localDeliveryValue/u);
+    assert.match(
+      targetDialog,
+      /<div v-if="relays\.length" class="space-y-2">[\s\S]*admin\.wol\.deliveryPath/u,
+    );
+    assert.doesNotMatch(targetDialog, /model\.note|admin\.wol\.note/u);
+    assert.match(details, /v-if="hasRelays"[\s\S]*admin\.wol\.deliveryPath/u);
+    assert.match(discoveryDialog, /selectedDevices/u);
+    assert.match(discoveryDialog, /existing\.has\(device\.mac\)/u);
+    assert.match(discoveryDialog, /customCidrs/u);
+    assert.match(discoveryDialog, /v-if="showSettings"/u);
+    assert.match(discoveryDialog, /<Settings2/u);
+    assert.match(discoveryDialog, /progressPercent/u);
+    assert.match(discoveryDialog, /names\[device\.mac\]/u);
+    assert.match(discoveryDialog, /createRandomTargetName/u);
+    assert.doesNotMatch(discoveryDialog, /notes\[|notePlaceholder/u);
+    assert.match(discoveryDialog, /selectAllState/u);
+    assert.match(discoveryDialog, /toggleAll/u);
+    assert.doesNotMatch(discoveryDialog, /nextSelected\.add/u);
+  });
+
+  it("uses one provider select and shows write-only settings only while editing", () => {
+    const api = readSource("../src/lib/api/wol.ts");
+    const targetManagement = readSource(
+      "../src/views/wol-management/useWolTargetManagement.ts",
+    );
+    const model = readSource(
+      "../src/views/wol-management/wol-management-model.ts",
+    );
+    const dialog = readSource(
+      "../src/views/wol-management/WOLTargetDialog.vue",
+    );
+
+    assert.match(api, /WolTargetIntegrationsData/u);
+    assert.match(api, /deviceKey\?: string/u);
+    assert.match(api, /privateKey\?: string/u);
+    assert.equal(
+      contractSchemas.WolBlinkerIntegrationData.properties?.credentialConfigured
+        .type,
+      "boolean",
+    );
+    assert.equal(
+      contractSchemas.WolBemfaIntegrationData.properties?.credentialConfigured
+        .type,
+      "boolean",
+    );
+    assert.equal(
+      contractSchemas.WolBlinkerIntegrationData.properties?.deviceKey,
+      undefined,
+    );
+    assert.equal(
+      contractSchemas.WolBemfaIntegrationData.properties?.privateKey,
+      undefined,
+    );
+    assert.equal(
+      contractSchemas.WolBlinkerIntegrationInputData.properties?.deviceKey
+        .writeOnly,
+      true,
+    );
+    assert.equal(
+      contractSchemas.WolBemfaIntegrationInputData.properties?.privateKey
+        .writeOnly,
+      true,
+    );
+    assert.match(dialog, /v-if="mode === 'edit' && integrations"/u);
+    assert.match(dialog, /type="password"/u);
+    assert.match(dialog, /credentialConfigured/u);
+    assert.match(dialog, /bindComponent/u);
+    assert.match(dialog, /runtime\.lastError/u);
+    assert.match(dialog, /max-h-\[90vh\]/u);
+    assert.match(
+      dialog,
+      /type IntegrationProvider = "none" \| "blinker" \| "bemfa"/u,
+    );
+    assert.match(dialog, /<Select v-model="integrationProvider">/u);
+    assert.match(dialog, /<SelectItem value="none">/u);
+    assert.match(dialog, /<SelectItem value="blinker">/u);
+    assert.match(dialog, /<SelectItem value="bemfa">/u);
+    assert.match(
+      dialog,
+      /if \(integrations\.value\?\.blinker\.enabled\) return "blinker"/u,
+    );
+    assert.match(dialog, /return "none"/u);
+    assert.doesNotMatch(dialog, /role="radiogroup"|role="radio"/u);
+    assert.doesNotMatch(dialog, /selectIntegrationProvider|bg-gradient-to-br/u);
+    assert.match(dialog, /sm:grid-cols-2/u);
+    assert.match(dialog, /maxlength="512"/u);
+    assert.doesNotMatch(
+      dialog.slice(dialog.indexOf("<template>")),
+      /skipTlsVerify|tlsWarning|blinker-tls|bemfa-tls/u,
+    );
+    assert.equal((model.match(/skipTlsVerify: true/gu) ?? []).length, 2);
+    assert.match(
+      targetManagement,
+      /integrations: _integrations,[\s\S]*ssh: _ssh,[\s\S]*\.\.\.createPayload/u,
+    );
+    assert.match(api, /async getTarget\(id: string, signal\?: AbortSignal\)/u);
+    assert.match(targetManagement, /refreshEditingTargetRuntime/u);
+    assert.match(targetManagement, /createVisibilityPoller/u);
+    assert.match(targetManagement, /targetRuntimePoller\.sync\(\)/u);
+    assert.match(targetManagement, /stopPolling: stop/u);
+    assert.doesNotMatch(targetManagement, /setInterval/u);
+  });
+
+  it("keeps the page as a composition root instead of an API controller", () => {
+    const page = readSource("../src/views/WOLManagement.vue");
+    const controller = readSource(
+      "../src/views/wol-management/useWolManagementPage.ts",
+    );
+    assert.match(page, /useWolManagementPage/u);
+    assert.match(page, /WolTargetsTab/u);
+    assert.match(page, /WolRelaysTab/u);
+    assert.match(page, /WolManagementDialogs/u);
+    for (const composable of [
+      "useWolDiscovery",
+      "useWolLocalRelay",
+      "useWolPortalSettings",
+      "useWolRelayManagement",
+      "useWolResources",
+      "useWolTargetManagement",
+    ]) {
+      assert.match(controller, new RegExp(`from "\\./${composable}"`));
+    }
+    assert.doesNotMatch(
+      page + controller,
+      /WOLAPI|ConfigAPI|createVisibilityPoller|AbortController/u,
+    );
+  });
+});

@@ -1,1 +1,76 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiwgd2F0Y2gsIHR5cGUgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBFeWUsIEV5ZU9mZiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CgpkZWZpbmVPcHRpb25zKHsKICBpbmhlcml0QXR0cnM6IGZhbHNlLAp9KTsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIGlkOiBzdHJpbmc7CiAgbW9kZWxWYWx1ZTogc3RyaW5nOwogIGRpc2FibGVkPzogYm9vbGVhbjsKICBpbnB1dENsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl07Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICJ1cGRhdGU6bW9kZWxWYWx1ZSI6IFt2YWx1ZTogc3RyaW5nXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBpc1Bhc3N3b3JkVmlzaWJsZSA9IHJlZihmYWxzZSk7Cgpjb25zdCB1cGRhdGVQYXNzd29yZCA9ICh2YWx1ZTogc3RyaW5nIHwgbnVtYmVyKSA9PiB7CiAgZW1pdCgidXBkYXRlOm1vZGVsVmFsdWUiLCBTdHJpbmcodmFsdWUpKTsKfTsKCndhdGNoKAogICgpID0+IHByb3BzLm1vZGVsVmFsdWUsCiAgKHZhbHVlKSA9PiB7CiAgICBpZiAoIXZhbHVlKSB7CiAgICAgIGlzUGFzc3dvcmRWaXNpYmxlLnZhbHVlID0gZmFsc2U7CiAgICB9CiAgfSwKKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0icmVsYXRpdmUiPgogICAgPElucHV0CiAgICAgIHYtYmluZD0iJGF0dHJzIgogICAgICA6aWQ9ImlkIgogICAgICA6bW9kZWwtdmFsdWU9Im1vZGVsVmFsdWUiCiAgICAgIDp0eXBlPSJpc1Bhc3N3b3JkVmlzaWJsZSA/ICd0ZXh0JyA6ICdwYXNzd29yZCciCiAgICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQiCiAgICAgIDpjbGFzcz0iWydwci0xMCcsIGlucHV0Q2xhc3NdIgogICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJ1cGRhdGVQYXNzd29yZCIKICAgIC8+CiAgICA8QnV0dG9uCiAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgIHNpemU9Imljb24tc20iCiAgICAgIGNsYXNzPSJhYnNvbHV0ZSByaWdodC0xIHRvcC0xLzIgLXRyYW5zbGF0ZS15LTEvMiB0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIgogICAgICA6ZGlzYWJsZWQ9ImRpc2FibGVkIgogICAgICA6dGl0bGU9IgogICAgICAgIGlzUGFzc3dvcmRWaXNpYmxlCiAgICAgICAgICA/IHQoJ2FkbWluLmRvY2tlckFkbWluLmhpZGVQYXNzd29yZCcpCiAgICAgICAgICA6IHQoJ2FkbWluLmRvY2tlckFkbWluLnNob3dQYXNzd29yZCcpCiAgICAgICIKICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgIGlzUGFzc3dvcmRWaXNpYmxlCiAgICAgICAgICA/IHQoJ2FkbWluLmRvY2tlckFkbWluLmhpZGVQYXNzd29yZCcpCiAgICAgICAgICA6IHQoJ2FkbWluLmRvY2tlckFkbWluLnNob3dQYXNzd29yZCcpCiAgICAgICIKICAgICAgQGNsaWNrPSJpc1Bhc3N3b3JkVmlzaWJsZSA9ICFpc1Bhc3N3b3JkVmlzaWJsZSIKICAgID4KICAgICAgPGNvbXBvbmVudAogICAgICAgIDppcz0iaXNQYXNzd29yZFZpc2libGUgPyBFeWVPZmYgOiBFeWUiCiAgICAgICAgY2xhc3M9ImgtNCB3LTQiCiAgICAgICAgYXJpYS1oaWRkZW49InRydWUiCiAgICAgIC8+CiAgICA8L0J1dHRvbj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { ref, watch, type HTMLAttributes } from "vue";
+import { useI18n } from "vue-i18n";
+import { Eye, EyeOff } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+
+defineOptions({
+  inheritAttrs: false,
+});
+
+const props = defineProps<{
+  id: string;
+  modelValue: string;
+  disabled?: boolean;
+  inputClass?: HTMLAttributes["class"];
+}>();
+
+const emit = defineEmits<{
+  "update:modelValue": [value: string];
+}>();
+
+const { t } = useI18n();
+const isPasswordVisible = ref(false);
+
+const updatePassword = (value: string | number) => {
+  emit("update:modelValue", String(value));
+};
+
+watch(
+  () => props.modelValue,
+  (value) => {
+    if (!value) {
+      isPasswordVisible.value = false;
+    }
+  },
+);
+</script>
+
+<template>
+  <div class="relative">
+    <Input
+      v-bind="$attrs"
+      :id="id"
+      :model-value="modelValue"
+      :type="isPasswordVisible ? 'text' : 'password'"
+      :disabled="disabled"
+      :class="['pr-10', inputClass]"
+      @update:model-value="updatePassword"
+    />
+    <Button
+      type="button"
+      variant="ghost"
+      size="icon-sm"
+      class="absolute right-1 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+      :disabled="disabled"
+      :title="
+        isPasswordVisible
+          ? t('admin.dockerAdmin.hidePassword')
+          : t('admin.dockerAdmin.showPassword')
+      "
+      :aria-label="
+        isPasswordVisible
+          ? t('admin.dockerAdmin.hidePassword')
+          : t('admin.dockerAdmin.showPassword')
+      "
+      @click="isPasswordVisible = !isPasswordVisible"
+    >
+      <component
+        :is="isPasswordVisible ? EyeOff : Eye"
+        class="h-4 w-4"
+        aria-hidden="true"
+      />
+    </Button>
+  </div>
+</template>

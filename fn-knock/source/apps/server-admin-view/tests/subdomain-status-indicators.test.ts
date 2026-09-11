@@ -1,1 +1,161 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IHJlZiB9IGZyb20gInZ1ZSI7CgppbXBvcnQgdHlwZSB7IEhvc3RNYXBwaW5nIH0gZnJvbSAiLi4vc3JjL3R5cGVzIjsKaW1wb3J0IHsKICBjcmVhdGVEZWZhdWx0TWFwcGluZywKICBnZXRNYXBwaW5nU2VjdXJpdHlJbmRpY2F0b3JTdGF0ZSwKfSBmcm9tICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L21vZGVsIjsKaW1wb3J0IHsgdXNlU3ViZG9tYWluVG91Y2hUb29sdGlwcyB9IGZyb20gIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvdXNlU3ViZG9tYWluVG91Y2hUb29sdGlwcyI7Cgpjb25zdCBnZXRTdGF0ZSA9ICgKICBtYXBwaW5nOiBIb3N0TWFwcGluZywKICBvdmVycmlkZXM6IFBhcnRpYWw8ewogICAgZ2xvYmFsVmlzaWJpbGl0eUVuYWJsZWQ6IGJvb2xlYW47CiAgICBnbG9iYWxXYWZFbmFibGVkOiBib29sZWFuOwogICAgaXNBdXRoU2VydmljZTogYm9vbGVhbjsKICB9PiA9IHt9LAopID0+CiAgZ2V0TWFwcGluZ1NlY3VyaXR5SW5kaWNhdG9yU3RhdGUoewogICAgZ2xvYmFsVmlzaWJpbGl0eUVuYWJsZWQ6IHRydWUsCiAgICBnbG9iYWxXYWZFbmFibGVkOiB0cnVlLAogICAgaXNBdXRoU2VydmljZTogZmFsc2UsCiAgICBtYXBwaW5nLAogICAgLi4ub3ZlcnJpZGVzLAogIH0pOwoKZGVzY3JpYmUoInN1YmRvbWFpbiBtYXBwaW5nIHNlY3VyaXR5IGluZGljYXRvcnMiLCAoKSA9PiB7CiAgaXQoInNob3dzIFdBRiBvbmx5IHdoZW4gaXQgaXMgZ2xvYmFsbHkgYWN0aXZlIGFuZCBub3QgZXhwbGljaXRseSBkaXNhYmxlZCIsICgpID0+IHsKICAgIGNvbnN0IG1hcHBpbmcgPSBjcmVhdGVEZWZhdWx0TWFwcGluZygpOwoKICAgIGFzc2VydC5lcXVhbChnZXRTdGF0ZShtYXBwaW5nKS53YWYsIHRydWUpOwogICAgYXNzZXJ0LmVxdWFsKGdldFN0YXRlKG1hcHBpbmcsIHsgZ2xvYmFsV2FmRW5hYmxlZDogZmFsc2UgfSkud2FmLCBmYWxzZSk7CgogICAgbWFwcGluZy53YWZfZW5hYmxlZCA9IGZhbHNlOwogICAgYXNzZXJ0LmVxdWFsKGdldFN0YXRlKG1hcHBpbmcpLndhZiwgZmFsc2UpOwoKICAgIGNvbnN0IGxlZ2FjeU1hcHBpbmcgPSBjcmVhdGVEZWZhdWx0TWFwcGluZygpOwogICAgZGVsZXRlIChsZWdhY3lNYXBwaW5nIGFzIFBhcnRpYWw8SG9zdE1hcHBpbmc+KS53YWZfZW5hYmxlZDsKICAgIGFzc2VydC5lcXVhbChnZXRTdGF0ZShsZWdhY3lNYXBwaW5nKS53YWYsIHRydWUpOwogIH0pOwoKICBpdCgiZGlzdGluZ3Vpc2hlcyBpbmhlcml0ZWQsIGN1c3RvbSwgZGlzYWJsZWQgYW5kIGdsb2JhbGx5IGluYWN0aXZlIHZpc2liaWxpdHkiLCAoKSA9PiB7CiAgICBjb25zdCBtYXBwaW5nID0gY3JlYXRlRGVmYXVsdE1hcHBpbmcoKTsKCiAgICBhc3NlcnQuZXF1YWwoZ2V0U3RhdGUobWFwcGluZykudmlzaWJpbGl0eSwgImluaGVyaXQiKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgZ2V0U3RhdGUobWFwcGluZywgeyBnbG9iYWxWaXNpYmlsaXR5RW5hYmxlZDogZmFsc2UgfSkudmlzaWJpbGl0eSwKICAgICAgbnVsbCwKICAgICk7CgogICAgbWFwcGluZy52aXNpYmlsaXR5ID0gewogICAgICBtb2RlOiAiY3VzdG9tIiwKICAgICAgc2VsZWN0aW9uczogWwogICAgICAgIHsKICAgICAgICAgIHByb3ZpbmNlOiAi5LiK5rW35biCIiwKICAgICAgICAgIGNpdHk6IG51bGwsCiAgICAgICAgICBsYWJlbDogIuS4iua1t+W4giIsCiAgICAgICAgICB2YWx1ZTogIuS4iua1t+W4giIsCiAgICAgICAgICBxdWVyeV9jaXR5OiBudWxsLAogICAgICAgICAgaXNfcHJvdmluY2Vfd2lkZTogdHJ1ZSwKICAgICAgICAgIGlzX211bmljaXBhbGl0eTogdHJ1ZSwKICAgICAgICB9LAogICAgICBdLAogICAgICBjdXN0b21fY2lkcnM6IFsiMjAzLjAuMTEzLjAvMjQiLCAiMjAwMTpkYjg6Oi8zMiJdLAogICAgICBjaWRyczogWyIyMDMuMC4xMTMuMC8yNCIsICIyMDAxOmRiODo6LzMyIl0sCiAgICB9OwogICAgYXNzZXJ0LmRlZXBFcXVhbChnZXRTdGF0ZShtYXBwaW5nKSwgewogICAgICBjdXN0b21DaWRyQ291bnQ6IDIsCiAgICAgIHJlZ2lvbkNvdW50OiAxLAogICAgICB2aXNpYmlsaXR5OiAiY3VzdG9tIiwKICAgICAgd2FmOiB0cnVlLAogICAgfSk7CgogICAgbWFwcGluZy52aXNpYmlsaXR5Lm1vZGUgPSAiZGlzYWJsZWQiOwogICAgYXNzZXJ0LmVxdWFsKGdldFN0YXRlKG1hcHBpbmcpLnZpc2liaWxpdHksIG51bGwpOwogIH0pOwoKICBpdCgiZXhjbHVkZXMgYXV0aGVudGljYXRpb24gc2VydmljZXMgYW5kIGRpc2FibGVkIG1hcHBpbmdzIiwgKCkgPT4gewogICAgY29uc3QgbWFwcGluZyA9IGNyZWF0ZURlZmF1bHRNYXBwaW5nKCk7CgogICAgYXNzZXJ0LmRlZXBFcXVhbChnZXRTdGF0ZShtYXBwaW5nLCB7IGlzQXV0aFNlcnZpY2U6IHRydWUgfSksIHsKICAgICAgY3VzdG9tQ2lkckNvdW50OiAwLAogICAgICByZWdpb25Db3VudDogMCwKICAgICAgdmlzaWJpbGl0eTogbnVsbCwKICAgICAgd2FmOiBmYWxzZSwKICAgIH0pOwoKICAgIG1hcHBpbmcuZGlzYWJsZWQgPSB0cnVlOwogICAgYXNzZXJ0LmRlZXBFcXVhbChnZXRTdGF0ZShtYXBwaW5nKSwgewogICAgICBjdXN0b21DaWRyQ291bnQ6IDAsCiAgICAgIHJlZ2lvbkNvdW50OiAwLAogICAgICB2aXNpYmlsaXR5OiBudWxsLAogICAgICB3YWY6IGZhbHNlLAogICAgfSk7CiAgfSk7CgogIGl0KCJvcGVucyBldmVyeSBzdGF0dXMgdG9vbHRpcCBieSB0b3VjaCBhbmQga2VlcHMgb25seSBvbmUgb3BlbiIsICgpID0+IHsKICAgIGNvbnN0IGlzVG91Y2hJbnRlcmFjdGlvbiA9IHJlZih0cnVlKTsKICAgIGNvbnN0IHRvb2x0aXBzID0gdXNlU3ViZG9tYWluVG91Y2hUb29sdGlwcyh7CiAgICAgIGlzVG91Y2hJbnRlcmFjdGlvbiwKICAgICAgc2hvdWxkU2hvd1BvcnRhbERpc2FibGVkVG9vbHRpcDogcmVmKGZhbHNlKSwKICAgIH0pOwoKICAgIHRvb2x0aXBzLmhhbmRsZU1hcHBpbmdTdGF0dXNUb29sdGlwVHJpZ2dlckNsaWNrKCJhcHAuZXhhbXBsZS5jb20iLCAid2FmIik7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHRvb2x0aXBzLmlzTWFwcGluZ1N0YXR1c1Rvb2x0aXBPcGVuKCJhcHAuZXhhbXBsZS5jb20iLCAid2FmIiksCiAgICAgIHRydWUsCiAgICApOwoKICAgIHRvb2x0aXBzLmhhbmRsZU1hcHBpbmdTdGF0dXNUb29sdGlwVHJpZ2dlckNsaWNrKAogICAgICAiYXBwLmV4YW1wbGUuY29tIiwKICAgICAgImF1dGhlbnRpY2F0aW9uIiwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHRvb2x0aXBzLmlzTWFwcGluZ1N0YXR1c1Rvb2x0aXBPcGVuKCJhcHAuZXhhbXBsZS5jb20iLCAid2FmIiksCiAgICAgIGZhbHNlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgdG9vbHRpcHMuaXNNYXBwaW5nU3RhdHVzVG9vbHRpcE9wZW4oImFwcC5leGFtcGxlLmNvbSIsICJhdXRoZW50aWNhdGlvbiIpLAogICAgICB0cnVlLAogICAgKTsKCiAgICB0b29sdGlwcy5oYW5kbGVNYXBwaW5nU3RhdHVzVG9vbHRpcFRyaWdnZXJDbGljaygKICAgICAgImFwcC5leGFtcGxlLmNvbSIsCiAgICAgICJhdXRoZW50aWNhdGlvbiIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICB0b29sdGlwcy5pc01hcHBpbmdTdGF0dXNUb29sdGlwT3BlbigiYXBwLmV4YW1wbGUuY29tIiwgImF1dGhlbnRpY2F0aW9uIiksCiAgICAgIGZhbHNlLAogICAgKTsKICB9KTsKCiAgaXQoImRvZXMgbm90IHR1cm4gZGVza3RvcCBjbGlja3MgaW50byBzdGlja3kgc3RhdHVzIHRvb2x0aXBzIiwgKCkgPT4gewogICAgY29uc3QgdG9vbHRpcHMgPSB1c2VTdWJkb21haW5Ub3VjaFRvb2x0aXBzKHsKICAgICAgaXNUb3VjaEludGVyYWN0aW9uOiByZWYoZmFsc2UpLAogICAgICBzaG91bGRTaG93UG9ydGFsRGlzYWJsZWRUb29sdGlwOiByZWYoZmFsc2UpLAogICAgfSk7CgogICAgdG9vbHRpcHMuaGFuZGxlTWFwcGluZ1N0YXR1c1Rvb2x0aXBUcmlnZ2VyQ2xpY2soCiAgICAgICJhcHAuZXhhbXBsZS5jb20iLAogICAgICAidG9vbGJhciIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICB0b29sdGlwcy5pc01hcHBpbmdTdGF0dXNUb29sdGlwT3BlbigiYXBwLmV4YW1wbGUuY29tIiwgInRvb2xiYXIiKSwKICAgICAgZmFsc2UsCiAgICApOwoKICAgIHRvb2x0aXBzLmhhbmRsZU1hcHBpbmdTdGF0dXNUb29sdGlwT3BlbkNoYW5nZSgKICAgICAgImFwcC5leGFtcGxlLmNvbSIsCiAgICAgICJ0b29sYmFyIiwKICAgICAgdHJ1ZSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHRvb2x0aXBzLmlzTWFwcGluZ1N0YXR1c1Rvb2x0aXBPcGVuKCJhcHAuZXhhbXBsZS5jb20iLCAidG9vbGJhciIpLAogICAgICB0cnVlLAogICAgKTsKICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
+import { ref } from "vue";
+
+import type { HostMapping } from "../src/types";
+import {
+  createDefaultMapping,
+  getMappingSecurityIndicatorState,
+} from "../src/views/subdomain-proxy/model";
+import { useSubdomainTouchTooltips } from "../src/views/subdomain-proxy/useSubdomainTouchTooltips";
+
+const getState = (
+  mapping: HostMapping,
+  overrides: Partial<{
+    globalVisibilityEnabled: boolean;
+    globalWafEnabled: boolean;
+    isAuthService: boolean;
+  }> = {},
+) =>
+  getMappingSecurityIndicatorState({
+    globalVisibilityEnabled: true,
+    globalWafEnabled: true,
+    isAuthService: false,
+    mapping,
+    ...overrides,
+  });
+
+describe("subdomain mapping security indicators", () => {
+  it("shows WAF only when it is globally active and not explicitly disabled", () => {
+    const mapping = createDefaultMapping();
+
+    assert.equal(getState(mapping).waf, true);
+    assert.equal(getState(mapping, { globalWafEnabled: false }).waf, false);
+
+    mapping.waf_enabled = false;
+    assert.equal(getState(mapping).waf, false);
+
+    const legacyMapping = createDefaultMapping();
+    delete (legacyMapping as Partial<HostMapping>).waf_enabled;
+    assert.equal(getState(legacyMapping).waf, true);
+  });
+
+  it("distinguishes inherited, custom, disabled and globally inactive visibility", () => {
+    const mapping = createDefaultMapping();
+
+    assert.equal(getState(mapping).visibility, "inherit");
+    assert.equal(
+      getState(mapping, { globalVisibilityEnabled: false }).visibility,
+      null,
+    );
+
+    mapping.visibility = {
+      mode: "custom",
+      selections: [
+        {
+          province: "上海市",
+          city: null,
+          label: "上海市",
+          value: "上海市",
+          query_city: null,
+          is_province_wide: true,
+          is_municipality: true,
+        },
+      ],
+      custom_cidrs: ["203.0.113.0/24", "2001:db8::/32"],
+      cidrs: ["203.0.113.0/24", "2001:db8::/32"],
+    };
+    assert.deepEqual(getState(mapping), {
+      customCidrCount: 2,
+      regionCount: 1,
+      visibility: "custom",
+      waf: true,
+    });
+
+    mapping.visibility.mode = "disabled";
+    assert.equal(getState(mapping).visibility, null);
+  });
+
+  it("excludes authentication services and disabled mappings", () => {
+    const mapping = createDefaultMapping();
+
+    assert.deepEqual(getState(mapping, { isAuthService: true }), {
+      customCidrCount: 0,
+      regionCount: 0,
+      visibility: null,
+      waf: false,
+    });
+
+    mapping.disabled = true;
+    assert.deepEqual(getState(mapping), {
+      customCidrCount: 0,
+      regionCount: 0,
+      visibility: null,
+      waf: false,
+    });
+  });
+
+  it("opens every status tooltip by touch and keeps only one open", () => {
+    const isTouchInteraction = ref(true);
+    const tooltips = useSubdomainTouchTooltips({
+      isTouchInteraction,
+      shouldShowPortalDisabledTooltip: ref(false),
+    });
+
+    tooltips.handleMappingStatusTooltipTriggerClick("app.example.com", "waf");
+    assert.equal(
+      tooltips.isMappingStatusTooltipOpen("app.example.com", "waf"),
+      true,
+    );
+
+    tooltips.handleMappingStatusTooltipTriggerClick(
+      "app.example.com",
+      "authentication",
+    );
+    assert.equal(
+      tooltips.isMappingStatusTooltipOpen("app.example.com", "waf"),
+      false,
+    );
+    assert.equal(
+      tooltips.isMappingStatusTooltipOpen("app.example.com", "authentication"),
+      true,
+    );
+
+    tooltips.handleMappingStatusTooltipTriggerClick(
+      "app.example.com",
+      "authentication",
+    );
+    assert.equal(
+      tooltips.isMappingStatusTooltipOpen("app.example.com", "authentication"),
+      false,
+    );
+  });
+
+  it("does not turn desktop clicks into sticky status tooltips", () => {
+    const tooltips = useSubdomainTouchTooltips({
+      isTouchInteraction: ref(false),
+      shouldShowPortalDisabledTooltip: ref(false),
+    });
+
+    tooltips.handleMappingStatusTooltipTriggerClick(
+      "app.example.com",
+      "toolbar",
+    );
+    assert.equal(
+      tooltips.isMappingStatusTooltipOpen("app.example.com", "toolbar"),
+      false,
+    );
+
+    tooltips.handleMappingStatusTooltipOpenChange(
+      "app.example.com",
+      "toolbar",
+      true,
+    );
+    assert.equal(
+      tooltips.isMappingStatusTooltipOpen("app.example.com", "toolbar"),
+      true,
+    );
+  });
+});

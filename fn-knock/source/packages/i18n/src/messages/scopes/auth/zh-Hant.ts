@@ -1,1 +1,11 @@
-aW1wb3J0IHsgemhIYW50QXV0aCB9IGZyb20gIi4uLy4uL2F1dGgvemgtSGFudCI7CmltcG9ydCB7IHpoSGFudENvbW1vbiB9IGZyb20gIi4uLy4uL2NvbW1vbi96aC1IYW50IjsKaW1wb3J0IHsgemhIYW50TG9jYWxlIH0gZnJvbSAiLi4vLi4vbG9jYWxlL3poLUhhbnQiOwppbXBvcnQgeyB6aEhhbnRTaGFyZWQgfSBmcm9tICIuLi8uLi9zaGFyZWQvemgtSGFudCI7CgpleHBvcnQgZGVmYXVsdCB7CiAgY29tbW9uOiB6aEhhbnRDb21tb24sCiAgbG9jYWxlOiB6aEhhbnRMb2NhbGUsCiAgc2hhcmVkOiB6aEhhbnRTaGFyZWQsCiAgYXV0aDogemhIYW50QXV0aCwKfTsK
+import { zhHantAuth } from "../../auth/zh-Hant";
+import { zhHantCommon } from "../../common/zh-Hant";
+import { zhHantLocale } from "../../locale/zh-Hant";
+import { zhHantShared } from "../../shared/zh-Hant";
+
+export default {
+  common: zhHantCommon,
+  locale: zhHantLocale,
+  shared: zhHantShared,
+  auth: zhHantAuth,
+};

@@ -1,1 +1,133 @@
-aW1wb3J0IGpzIGZyb20gIkBlc2xpbnQvanMiOwppbXBvcnQgZXNsaW50Q29uZmlnUHJldHRpZXIgZnJvbSAiZXNsaW50LWNvbmZpZy1wcmV0dGllciI7CmltcG9ydCB2dWVQbHVnaW4gZnJvbSAiZXNsaW50LXBsdWdpbi12dWUiOwppbXBvcnQgdnVlQWNjZXNzaWJpbGl0eVBsdWdpbiBmcm9tICJlc2xpbnQtcGx1Z2luLXZ1ZWpzLWFjY2Vzc2liaWxpdHkiOwppbXBvcnQgZ2xvYmFscyBmcm9tICJnbG9iYWxzIjsKaW1wb3J0IHRzZXNsaW50IGZyb20gInR5cGVzY3JpcHQtZXNsaW50IjsKaW1wb3J0IHsgdnVlQTExeVByb2plY3RQbHVnaW4gfSBmcm9tICIuL3Z1ZS1hMTF5LXByb2plY3QuanMiOwoKLyoqCiAqIEVTTGludCdzIGZsYXQgY29uZmlndXJhdGlvbiBmb3IgdGhlIFZ1ZSBhcHBsaWNhdGlvbnMgaW4gdGhpcyByZXBvc2l0b3J5LgogKgogKiBUeXBlU2NyaXB0IGlzIHBhcnNlZCBpbnNpZGUgYm90aCBzdGFuZGFsb25lIG1vZHVsZXMgYW5kIFZ1ZSBTRkMgc2NyaXB0CiAqIGJsb2Nrcy4gVGhlIHJlY29tbWVuZGVkIGNvcnJlY3RuZXNzIHJ1bGVzIHN0YXkgZW5hYmxlZCB3aGlsZSBmb3JtYXR0aW5nIGlzCiAqIGRlbGVnYXRlZCB0byBQcmV0dGllci4KICoKICogQHR5cGUge2ltcG9ydCgiZXNsaW50IikuTGludGVyLkNvbmZpZ1tdfQogKi8KZXhwb3J0IGNvbnN0IHZ1ZUNvbmZpZyA9IFsKICB7CiAgICBpZ25vcmVzOiBbImRpc3QvKioiLCAibm9kZV9tb2R1bGVzLyoqIl0sCiAgfSwKICBqcy5jb25maWdzLnJlY29tbWVuZGVkLAogIC4uLnRzZXNsaW50LmNvbmZpZ3MucmVjb21tZW5kZWQsCiAgLi4udnVlUGx1Z2luLmNvbmZpZ3NbImZsYXQvZXNzZW50aWFsIl0sCiAgLi4udnVlQWNjZXNzaWJpbGl0eVBsdWdpbi5jb25maWdzWyJmbGF0L3JlY29tbWVuZGVkIl0sCiAgewogICAgZmlsZXM6IFsiKiovKi57anMsbWpzLGNqcyx0cyx2dWV9Il0sCiAgICBsYW5ndWFnZU9wdGlvbnM6IHsKICAgICAgZ2xvYmFsczogewogICAgICAgIC4uLmdsb2JhbHMuYnJvd3NlciwKICAgICAgICAuLi5nbG9iYWxzLm5vZGUsCiAgICAgIH0sCiAgICB9LAogICAgcGx1Z2luczogewogICAgICAicHJvamVjdC1hMTF5IjogdnVlQTExeVByb2plY3RQbHVnaW4sCiAgICB9LAogICAgcnVsZXM6IHsKICAgICAgIkB0eXBlc2NyaXB0LWVzbGludC9uby1leHBsaWNpdC1hbnkiOiAib2ZmIiwKICAgICAgIkB0eXBlc2NyaXB0LWVzbGludC9uby11bnVzZWQtdmFycyI6IFsKICAgICAgICAiZXJyb3IiLAogICAgICAgIHsKICAgICAgICAgIGFyZ3NJZ25vcmVQYXR0ZXJuOiAiXl8iLAogICAgICAgICAgY2F1Z2h0RXJyb3JzSWdub3JlUGF0dGVybjogIl5fIiwKICAgICAgICAgIGlnbm9yZVJlc3RTaWJsaW5nczogdHJ1ZSwKICAgICAgICAgIHZhcnNJZ25vcmVQYXR0ZXJuOiAiXl8iLAogICAgICAgIH0sCiAgICAgIF0sCiAgICAgICJuby1yZXN0cmljdGVkLWdsb2JhbHMiOiBbCiAgICAgICAgImVycm9yIiwKICAgICAgICB7CiAgICAgICAgICBuYW1lOiAiY29uZmlybSIsCiAgICAgICAgICBtZXNzYWdlOgogICAgICAgICAgICAiVXNlIHRoZSBwcm9qZWN0IGNvbmZpcm1hdGlvbiBkaWFsb2cuIEJyb3dzZXItbWFuZGF0ZWQgbGVhdmUgcHJvbXB0cyBzaG91bGQgdXNlIGJlZm9yZXVubG9hZC4iLAogICAgICAgIH0sCiAgICAgIF0sCiAgICAgICJuby1yZXN0cmljdGVkLXByb3BlcnRpZXMiOiBbCiAgICAgICAgImVycm9yIiwKICAgICAgICB7CiAgICAgICAgICBvYmplY3Q6ICJ3aW5kb3ciLAogICAgICAgICAgcHJvcGVydHk6ICJjb25maXJtIiwKICAgICAgICAgIG1lc3NhZ2U6CiAgICAgICAgICAgICJVc2UgdGhlIHByb2plY3QgY29uZmlybWF0aW9uIGRpYWxvZy4gQnJvd3Nlci1tYW5kYXRlZCBsZWF2ZSBwcm9tcHRzIHNob3VsZCB1c2UgYmVmb3JldW5sb2FkLiIsCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBvYmplY3Q6ICJnbG9iYWxUaGlzIiwKICAgICAgICAgIHByb3BlcnR5OiAiY29uZmlybSIsCiAgICAgICAgICBtZXNzYWdlOgogICAgICAgICAgICAiVXNlIHRoZSBwcm9qZWN0IGNvbmZpcm1hdGlvbiBkaWFsb2cuIEJyb3dzZXItbWFuZGF0ZWQgbGVhdmUgcHJvbXB0cyBzaG91bGQgdXNlIGJlZm9yZXVubG9hZC4iLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgb2JqZWN0OiAic2VsZiIsCiAgICAgICAgICBwcm9wZXJ0eTogImNvbmZpcm0iLAogICAgICAgICAgbWVzc2FnZToKICAgICAgICAgICAgIlVzZSB0aGUgcHJvamVjdCBjb25maXJtYXRpb24gZGlhbG9nLiBCcm93c2VyLW1hbmRhdGVkIGxlYXZlIHByb21wdHMgc2hvdWxkIHVzZSBiZWZvcmV1bmxvYWQuIiwKICAgICAgICB9LAogICAgICBdLAogICAgICAidnVlanMtYWNjZXNzaWJpbGl0eS9uby1hcmlhLWhpZGRlbi1vbi1mb2N1c2FibGUiOiAiZXJyb3IiLAogICAgICAidnVlanMtYWNjZXNzaWJpbGl0eS9uby1yb2xlLXByZXNlbnRhdGlvbi1vbi1mb2N1c2FibGUiOiAiZXJyb3IiLAogICAgICAvLyBUaGUgdXBzdHJlYW0gcnVsZSBsb3dlcmNhc2VzIFZ1ZSBjb21wb25lbnQgbmFtZXMgYW5kIG1pc3Rha2VzIG91cgogICAgICAvLyBub24tcmVuZGVyaW5nIDxTZWxlY3Q+IHJvb3QgZm9yIGEgbmF0aXZlIDxzZWxlY3Q+LiBUaGUgcHJvamVjdCBydWxlCiAgICAgIC8vIGNoZWNrcyB0aGUgYWN0dWFsIGZvY3VzYWJsZSBwcmltaXRpdmVzLCBpbmNsdWRpbmcgPFNlbGVjdFRyaWdnZXI+LgogICAgICAidnVlanMtYWNjZXNzaWJpbGl0eS9mb3JtLWNvbnRyb2wtaGFzLWxhYmVsIjogIm9mZiIsCiAgICAgICJwcm9qZWN0LWExMXkvZm9ybS1jb250cm9sLWhhcy1hY2Nlc3NpYmxlLW5hbWUiOiAiZXJyb3IiLAogICAgICAicHJvamVjdC1hMTF5L2ludGVyYWN0aXZlLWhhcy1hY2Nlc3NpYmxlLW5hbWUiOiAiZXJyb3IiLAogICAgICAicHJvamVjdC1hMTF5L25vLXN0YXRpYy1mb3JtLWZpZWxkLWlkLWluLWxvb3AiOiAiZXJyb3IiLAogICAgICAidnVlanMtYWNjZXNzaWJpbGl0eS9sYWJlbC1oYXMtZm9yIjogWwogICAgICAgICJlcnJvciIsCiAgICAgICAgewogICAgICAgICAgLy8gV0NBRyBwZXJtaXRzIGVpdGhlciBhbiBleHBsaWNpdCBgZm9yYC9gaWRgIGFzc29jaWF0aW9uIG9yIGEKICAgICAgICAgIC8vIGNvbnRyb2wgbmVzdGVkIGluc2lkZSB0aGUgbGFiZWwuCiAgICAgICAgICByZXF1aXJlZDogeyBzb21lOiBbIm5lc3RpbmciLCAiaWQiXSB9LAogICAgICAgICAgY29udHJvbENvbXBvbmVudHM6IFsKICAgICAgICAgICAgIkNoZWNrYm94IiwKICAgICAgICAgICAgIkNvbWJvYm94SW5wdXQiLAogICAgICAgICAgICAiSW5wdXQiLAogICAgICAgICAgICAiSW5wdXRHcm91cElucHV0IiwKICAgICAgICAgICAgIklucHV0R3JvdXBUZXh0YXJlYSIsCiAgICAgICAgICAgICJJbnB1dE9UUCIsCiAgICAgICAgICAgICJSYWRpb0dyb3VwSXRlbSIsCiAgICAgICAgICAgICJTZWxlY3RUcmlnZ2VyIiwKICAgICAgICAgICAgIlNsaWRlciIsCiAgICAgICAgICAgICJTd2l0Y2giLAogICAgICAgICAgICAiVGFnc0lucHV0SW5wdXQiLAogICAgICAgICAgICAiVGV4dGFyZWEiLAogICAgICAgICAgXSwKICAgICAgICB9LAogICAgICBdLAogICAgICAidnVlL211bHRpLXdvcmQtY29tcG9uZW50LW5hbWVzIjogIm9mZiIsCiAgICAgIC8vIEVkaXRvcnMgcmVjZWl2ZSBhIHJlYWN0aXZlIGZvcm0gb2JqZWN0IGFuZCB1cGRhdGUgaXRzIG5lc3RlZCBmaWVsZHMuCiAgICAgIC8vIFJlcGxhY2luZyB0aGUgcHJvcCBpdHNlbGYgcmVtYWlucyBmb3JiaWRkZW4uCiAgICAgICJ2dWUvbm8tbXV0YXRpbmctcHJvcHMiOiBbImVycm9yIiwgeyBzaGFsbG93T25seTogdHJ1ZSB9XSwKICAgIH0sCiAgfSwKICB7CiAgICBmaWxlczogWyIqKi8qLnt0cyx2dWV9Il0sCiAgICBydWxlczogewogICAgICAvLyBUeXBlU2NyaXB0IHJlc29sdmVzIHR5cGUtc3BhY2UgbmFtZXMgKGZvciBleGFtcGxlIFJlcXVlc3RJbml0KTsKICAgICAgLy8gRVNMaW50J3MgSmF2YVNjcmlwdC1vbmx5IG5vLXVuZGVmIHJ1bGUgY2Fubm90IGRpc3Rpbmd1aXNoIHRoZW0uCiAgICAgICJuby11bmRlZiI6ICJvZmYiLAogICAgfSwKICB9LAogIHsKICAgIGZpbGVzOiBbIioqLyoudnVlIl0sCiAgICBsYW5ndWFnZU9wdGlvbnM6IHsKICAgICAgcGFyc2VyT3B0aW9uczogewogICAgICAgIGV4dHJhRmlsZUV4dGVuc2lvbnM6IFsiLnZ1ZSJdLAogICAgICAgIHBhcnNlcjogdHNlc2xpbnQucGFyc2VyLAogICAgICAgIHNvdXJjZVR5cGU6ICJtb2R1bGUiLAogICAgICB9LAogICAgfSwKICB9LAogIGVzbGludENvbmZpZ1ByZXR0aWVyLApdOwo=
+import js from "@eslint/js";
+import eslintConfigPrettier from "eslint-config-prettier";
+import vuePlugin from "eslint-plugin-vue";
+import vueAccessibilityPlugin from "eslint-plugin-vuejs-accessibility";
+import globals from "globals";
+import tseslint from "typescript-eslint";
+import { vueA11yProjectPlugin } from "./vue-a11y-project.js";
+
+/**
+ * ESLint's flat configuration for the Vue applications in this repository.
+ *
+ * TypeScript is parsed inside both standalone modules and Vue SFC script
+ * blocks. The recommended correctness rules stay enabled while formatting is
+ * delegated to Prettier.
+ *
+ * @type {import("eslint").Linter.Config[]}
+ */
+export const vueConfig = [
+  {
+    ignores: ["dist/**", "node_modules/**"],
+  },
+  js.configs.recommended,
+  ...tseslint.configs.recommended,
+  ...vuePlugin.configs["flat/essential"],
+  ...vueAccessibilityPlugin.configs["flat/recommended"],
+  {
+    files: ["**/*.{js,mjs,cjs,ts,vue}"],
+    languageOptions: {
+      globals: {
+        ...globals.browser,
+        ...globals.node,
+      },
+    },
+    plugins: {
+      "project-a11y": vueA11yProjectPlugin,
+    },
+    rules: {
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          argsIgnorePattern: "^_",
+          caughtErrorsIgnorePattern: "^_",
+          ignoreRestSiblings: true,
+          varsIgnorePattern: "^_",
+        },
+      ],
+      "no-restricted-globals": [
+        "error",
+        {
+          name: "confirm",
+          message:
+            "Use the project confirmation dialog. Browser-mandated leave prompts should use beforeunload.",
+        },
+      ],
+      "no-restricted-properties": [
+        "error",
+        {
+          object: "window",
+          property: "confirm",
+          message:
+            "Use the project confirmation dialog. Browser-mandated leave prompts should use beforeunload.",
+        },
+        {
+          object: "globalThis",
+          property: "confirm",
+          message:
+            "Use the project confirmation dialog. Browser-mandated leave prompts should use beforeunload.",
+        },
+        {
+          object: "self",
+          property: "confirm",
+          message:
+            "Use the project confirmation dialog. Browser-mandated leave prompts should use beforeunload.",
+        },
+      ],
+      "vuejs-accessibility/no-aria-hidden-on-focusable": "error",
+      "vuejs-accessibility/no-role-presentation-on-focusable": "error",
+      // The upstream rule lowercases Vue component names and mistakes our
+      // non-rendering <Select> root for a native <select>. The project rule
+      // checks the actual focusable primitives, including <SelectTrigger>.
+      "vuejs-accessibility/form-control-has-label": "off",
+      "project-a11y/form-control-has-accessible-name": "error",
+      "project-a11y/interactive-has-accessible-name": "error",
+      "project-a11y/no-static-form-field-id-in-loop": "error",
+      "vuejs-accessibility/label-has-for": [
+        "error",
+        {
+          // WCAG permits either an explicit `for`/`id` association or a
+          // control nested inside the label.
+          required: { some: ["nesting", "id"] },
+          controlComponents: [
+            "Checkbox",
+            "ComboboxInput",
+            "Input",
+            "InputGroupInput",
+            "InputGroupTextarea",
+            "InputOTP",
+            "RadioGroupItem",
+            "SelectTrigger",
+            "Slider",
+            "Switch",
+            "TagsInputInput",
+            "Textarea",
+          ],
+        },
+      ],
+      "vue/multi-word-component-names": "off",
+      // Editors receive a reactive form object and update its nested fields.
+      // Replacing the prop itself remains forbidden.
+      "vue/no-mutating-props": ["error", { shallowOnly: true }],
+    },
+  },
+  {
+    files: ["**/*.{ts,vue}"],
+    rules: {
+      // TypeScript resolves type-space names (for example RequestInit);
+      // ESLint's JavaScript-only no-undef rule cannot distinguish them.
+      "no-undef": "off",
+    },
+  },
+  {
+    files: ["**/*.vue"],
+    languageOptions: {
+      parserOptions: {
+        extraFileExtensions: [".vue"],
+        parser: tseslint.parser,
+        sourceType: "module",
+      },
+    },
+  },
+  eslintConfigPrettier,
+];

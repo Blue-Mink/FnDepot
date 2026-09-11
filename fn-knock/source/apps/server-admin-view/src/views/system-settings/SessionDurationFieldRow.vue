@@ -1,1 +1,114 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgewogIFNlbGVjdCwKICBTZWxlY3RDb250ZW50LAogIFNlbGVjdEl0ZW0sCiAgU2VsZWN0VHJpZ2dlciwKICBTZWxlY3RWYWx1ZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKCnR5cGUgRHVyYXRpb25GaWVsZCA9IHsKICB1bml0OiBzdHJpbmc7CiAgdmFsdWU6IG51bWJlcjsKfTsKCnR5cGUgRHVyYXRpb25Vbml0T3B0aW9uID0gewogIGxhYmVsS2V5OiBzdHJpbmc7CiAgdmFsdWU6IHN0cmluZzsKfTsKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKAogIGRlZmluZVByb3BzPHsKICAgIGRlc2NyaXB0aW9uOiBzdHJpbmc7CiAgICBkaXNhYmxlZD86IGJvb2xlYW47CiAgICBmcmFtZWQ/OiBib29sZWFuOwogICAgbW9kZWxWYWx1ZTogRHVyYXRpb25GaWVsZDsKICAgIHN1bW1hcnk/OiBzdHJpbmc7CiAgICB0aXRsZTogc3RyaW5nOwogICAgdW5pdHM6IER1cmF0aW9uVW5pdE9wdGlvbltdOwogIH0+KCksCiAgewogICAgZGlzYWJsZWQ6IGZhbHNlLAogICAgZnJhbWVkOiBmYWxzZSwKICAgIHN1bW1hcnk6ICIiLAogIH0sCik7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICJ1cGRhdGU6bW9kZWxWYWx1ZSI6IFt2YWx1ZTogRHVyYXRpb25GaWVsZF07Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IHZhbHVlTW9kZWwgPSBjb21wdXRlZCh7CiAgZ2V0OiAoKSA9PiBwcm9wcy5tb2RlbFZhbHVlLnZhbHVlLAogIHNldDogKHZhbHVlOiBzdHJpbmcgfCBudW1iZXIpID0+IHsKICAgIGVtaXQoInVwZGF0ZTptb2RlbFZhbHVlIiwgewogICAgICAuLi5wcm9wcy5tb2RlbFZhbHVlLAogICAgICB2YWx1ZTogTnVtYmVyKHZhbHVlKSwKICAgIH0pOwogIH0sCn0pOwoKY29uc3QgdW5pdE1vZGVsID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcHJvcHMubW9kZWxWYWx1ZS51bml0LAogIHNldDogKHVuaXQ6IHN0cmluZykgPT4gewogICAgZW1pdCgidXBkYXRlOm1vZGVsVmFsdWUiLCB7CiAgICAgIC4uLnByb3BzLm1vZGVsVmFsdWUsCiAgICAgIHVuaXQsCiAgICB9KTsKICB9LAp9KTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgOmNsYXNzPSJbCiAgICAgICdncmlkIGdhcC0zIHNtOmdyaWQtY29scy1bbWlubWF4KDAsMWZyKV9hdXRvXSBzbTppdGVtcy1jZW50ZXIgc206Z2FwLTQnLAogICAgICBmcmFtZWQgPyAncm91bmRlZC14bCBib3JkZXIgYmctbXV0ZWQvMTUgcC00JyA6ICdwLTYnLAogICAgXSIKICA+CiAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEgcHItNiI+CiAgICAgIDxkaXYgY2xhc3M9InRleHQtYmFzZSBmb250LW1lZGl1bSI+CiAgICAgICAge3sgdGl0bGUgfX0KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyBkZXNjcmlwdGlvbiB9fQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iZmxleCBzaHJpbmstMCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICA8SW5wdXQKICAgICAgICB2LW1vZGVsLm51bWJlcj0idmFsdWVNb2RlbCIKICAgICAgICA6YXJpYS1sYWJlbD0idGl0bGUiCiAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgIG1pbj0iMSIKICAgICAgICBzdGVwPSIxIgogICAgICAgIGNsYXNzPSJ3LTI0IHRleHQtY2VudGVyIgogICAgICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQiCiAgICAgIC8+CiAgICAgIDxTZWxlY3Qgdi1tb2RlbD0idW5pdE1vZGVsIiA6ZGlzYWJsZWQ9ImRpc2FibGVkIj4KICAgICAgICA8U2VsZWN0VHJpZ2dlciA6YXJpYS1sYWJlbD0idGl0bGUiIGNsYXNzPSJ3LVsxMTBweF0iPgogICAgICAgICAgPFNlbGVjdFZhbHVlIC8+CiAgICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgPFNlbGVjdEl0ZW0KICAgICAgICAgICAgdi1mb3I9InVuaXQgaW4gdW5pdHMiCiAgICAgICAgICAgIDprZXk9InVuaXQudmFsdWUiCiAgICAgICAgICAgIDp2YWx1ZT0idW5pdC52YWx1ZSIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCh1bml0LmxhYmVsS2V5KSB9fQogICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgPC9TZWxlY3Q+CiAgICA8L2Rpdj4KICAgIDxkaXYKICAgICAgdi1pZj0ic3VtbWFyeSIKICAgICAgY2xhc3M9Ii1tdC0xIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHNtOmNvbC1zcGFuLTIiCiAgICA+CiAgICAgIHt7IHN1bW1hcnkgfX0KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Input } from "@/components/ui/input";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+
+type DurationField = {
+  unit: string;
+  value: number;
+};
+
+type DurationUnitOption = {
+  labelKey: string;
+  value: string;
+};
+
+const props = withDefaults(
+  defineProps<{
+    description: string;
+    disabled?: boolean;
+    framed?: boolean;
+    modelValue: DurationField;
+    summary?: string;
+    title: string;
+    units: DurationUnitOption[];
+  }>(),
+  {
+    disabled: false,
+    framed: false,
+    summary: "",
+  },
+);
+
+const emit = defineEmits<{
+  "update:modelValue": [value: DurationField];
+}>();
+
+const { t } = useI18n();
+
+const valueModel = computed({
+  get: () => props.modelValue.value,
+  set: (value: string | number) => {
+    emit("update:modelValue", {
+      ...props.modelValue,
+      value: Number(value),
+    });
+  },
+});
+
+const unitModel = computed({
+  get: () => props.modelValue.unit,
+  set: (unit: string) => {
+    emit("update:modelValue", {
+      ...props.modelValue,
+      unit,
+    });
+  },
+});
+</script>
+
+<template>
+  <div
+    :class="[
+      'grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-4',
+      framed ? 'rounded-xl border bg-muted/15 p-4' : 'p-6',
+    ]"
+  >
+    <div class="space-y-1 pr-6">
+      <div class="text-base font-medium">
+        {{ title }}
+      </div>
+      <div class="text-sm text-muted-foreground">
+        {{ description }}
+      </div>
+    </div>
+    <div class="flex shrink-0 items-center gap-2">
+      <Input
+        v-model.number="valueModel"
+        :aria-label="title"
+        type="number"
+        min="1"
+        step="1"
+        class="w-24 text-center"
+        :disabled="disabled"
+      />
+      <Select v-model="unitModel" :disabled="disabled">
+        <SelectTrigger :aria-label="title" class="w-[110px]">
+          <SelectValue />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem
+            v-for="unit in units"
+            :key="unit.value"
+            :value="unit.value"
+          >
+            {{ t(unit.labelKey) }}
+          </SelectItem>
+        </SelectContent>
+      </Select>
+    </div>
+    <div
+      v-if="summary"
+      class="-mt-1 text-xs text-muted-foreground sm:col-span-2"
+    >
+      {{ summary }}
+    </div>
+  </div>
+</template>

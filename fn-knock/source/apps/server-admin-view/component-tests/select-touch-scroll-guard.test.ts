@@ -1,1 +1,173 @@
-aW1wb3J0IHsgZGVmaW5lQ29tcG9uZW50LCBoLCBuZXh0VGljaywgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBkZXNjcmliZSwgZXhwZWN0LCBpdCB9IGZyb20gInZpdGVzdCI7CgppbXBvcnQgewogIFNlbGVjdCwKICBTZWxlY3RUcmlnZ2VyLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9zZWxlY3QiOwoKY29uc3QgU2VsZWN0SGFybmVzcyA9IGRlZmluZUNvbXBvbmVudCh7CiAgc2V0dXAoKSB7CiAgICBjb25zdCBvcGVuID0gcmVmKGZhbHNlKTsKICAgIHJldHVybiAoKSA9PgogICAgICBoKCJkaXYiLCBbCiAgICAgICAgaCgKICAgICAgICAgIFNlbGVjdCwKICAgICAgICAgIHsKICAgICAgICAgICAgb3Blbjogb3Blbi52YWx1ZSwKICAgICAgICAgICAgIm9uVXBkYXRlOm9wZW4iOiAodmFsdWU6IGJvb2xlYW4pID0+IHsKICAgICAgICAgICAgICBvcGVuLnZhbHVlID0gdmFsdWU7CiAgICAgICAgICAgIH0sCiAgICAgICAgICB9LAogICAgICAgICAgewogICAgICAgICAgICBkZWZhdWx0OiAoKSA9PgogICAgICAgICAgICAgIGgoCiAgICAgICAgICAgICAgICBTZWxlY3RUcmlnZ2VyLAogICAgICAgICAgICAgICAgeyAiZGF0YS10ZXN0aWQiOiAidHJpZ2dlciIgfSwKICAgICAgICAgICAgICAgICgpID0+ICJSZXNwb25zZSB0eXBlIiwKICAgICAgICAgICAgICApLAogICAgICAgICAgfSwKICAgICAgICApLAogICAgICAgIGgoIm91dHB1dCIsIHsgImRhdGEtdGVzdGlkIjogIm9wZW4tc3RhdGUiIH0sIFN0cmluZyhvcGVuLnZhbHVlKSksCiAgICAgIF0pOwogIH0sCn0pOwoKY29uc3QgZGlzcGF0Y2hQb2ludGVyID0gKAogIGVsZW1lbnQ6IEVsZW1lbnQsCiAgdHlwZTogInBvaW50ZXJkb3duIiB8ICJwb2ludGVybW92ZSIgfCAicG9pbnRlcnVwIiB8ICJwb2ludGVyY2FuY2VsIiwKICBpbml0OiBQb2ludGVyRXZlbnRJbml0LAopID0+IHsKICBjb25zdCBwb2ludGVySWQgPSBpbml0LnBvaW50ZXJJZCA/PyAxOwogIGVsZW1lbnQuZGlzcGF0Y2hFdmVudCgKICAgIG5ldyBQb2ludGVyRXZlbnQodHlwZSwgewogICAgICBidWJibGVzOiB0cnVlLAogICAgICBjYW5jZWxhYmxlOiB0cnVlLAogICAgICBwb2ludGVySWQsCiAgICAgIC4uLmluaXQsCiAgICB9KSwKICApOwogIC8vIGhhcHB5LWRvbSBkb2VzIG5vdCBhbHdheXMgcGVyZm9ybSB0aGUgYnJvd3NlcidzIGF1dG9tYXRpYyBpbXBsaWNpdAogIC8vIHBvaW50ZXItY2FwdHVyZSByZWxlYXNlIHdoZW4gYSBjYXB0dXJlIGxpc3RlbmVyIHN0b3BzIHBvaW50ZXJ1cC4KICBpZiAoCiAgICAodHlwZSA9PT0gInBvaW50ZXJ1cCIgfHwgdHlwZSA9PT0gInBvaW50ZXJjYW5jZWwiKSAmJgogICAgZWxlbWVudCBpbnN0YW5jZW9mIEhUTUxFbGVtZW50ICYmCiAgICBlbGVtZW50Lmhhc1BvaW50ZXJDYXB0dXJlPy4ocG9pbnRlcklkKQogICkgewogICAgZWxlbWVudC5yZWxlYXNlUG9pbnRlckNhcHR1cmUocG9pbnRlcklkKTsKICB9Cn07Cgpjb25zdCB0b3VjaExpa2VNb3VzZSA9IHsKICBwb2ludGVyVHlwZTogIm1vdXNlIiwKICB3aWR0aDogMTYsCiAgaGVpZ2h0OiAxNiwKfTsKCmRlc2NyaWJlKCJTZWxlY3RUcmlnZ2VyIHRvdWNoIHNjcm9sbCBndWFyZCIsICgpID0+IHsKICBpdCgia2VlcHMgYW4gaW50ZW50aW9uYWwgdG91Y2ggdGFwIGFibGUgdG8gb3BlbiB0aGUgc2VsZWN0IiwgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgd3JhcHBlciA9IG1vdW50KFNlbGVjdEhhcm5lc3MsIHsgYXR0YWNoVG86IGRvY3VtZW50LmJvZHkgfSk7CiAgICBjb25zdCB0cmlnZ2VyID0gd3JhcHBlci5nZXQoJ1tkYXRhLXRlc3RpZD0idHJpZ2dlciJdJyk7CgogICAgZGlzcGF0Y2hQb2ludGVyKHRyaWdnZXIuZWxlbWVudCwgInBvaW50ZXJkb3duIiwgewogICAgICBwb2ludGVySWQ6IDEyLAogICAgICBwb2ludGVyVHlwZTogInRvdWNoIiwKICAgICAgY2xpZW50WDogNDAsCiAgICAgIGNsaWVudFk6IDEwMCwKICAgIH0pOwogICAgZGlzcGF0Y2hQb2ludGVyKHRyaWdnZXIuZWxlbWVudCwgInBvaW50ZXJtb3ZlIiwgewogICAgICBwb2ludGVySWQ6IDEyLAogICAgICBwb2ludGVyVHlwZTogInRvdWNoIiwKICAgICAgY2xpZW50WDogNDMsCiAgICAgIGNsaWVudFk6IDEwNCwKICAgIH0pOwogICAgZGlzcGF0Y2hQb2ludGVyKHRyaWdnZXIuZWxlbWVudCwgInBvaW50ZXJ1cCIsIHsKICAgICAgcG9pbnRlcklkOiAxMiwKICAgICAgcG9pbnRlclR5cGU6ICJ0b3VjaCIsCiAgICAgIGNsaWVudFg6IDQzLAogICAgICBjbGllbnRZOiAxMDQsCiAgICB9KTsKICAgIGF3YWl0IG5leHRUaWNrKCk7CgogICAgZXhwZWN0KHdyYXBwZXIuZ2V0KCdbZGF0YS10ZXN0aWQ9Im9wZW4tc3RhdGUiXScpLnRleHQoKSkudG9CZSgidHJ1ZSIpOwogICAgd3JhcHBlci51bm1vdW50KCk7CiAgfSk7CgogIGl0KCJkb2VzIG5vdCBvcGVuIGFmdGVyIGEgdG91Y2ggZ2VzdHVyZSBtb3ZlcyBiZXlvbmQgdGhlIHNjcm9sbCB0aHJlc2hvbGQiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoU2VsZWN0SGFybmVzcywgeyBhdHRhY2hUbzogZG9jdW1lbnQuYm9keSB9KTsKICAgIGNvbnN0IHRyaWdnZXIgPSB3cmFwcGVyLmdldCgnW2RhdGEtdGVzdGlkPSJ0cmlnZ2VyIl0nKTsKCiAgICBkaXNwYXRjaFBvaW50ZXIodHJpZ2dlci5lbGVtZW50LCAicG9pbnRlcmRvd24iLCB7CiAgICAgIHBvaW50ZXJJZDogMTEsCiAgICAgIHBvaW50ZXJUeXBlOiAidG91Y2giLAogICAgICBjbGllbnRYOiA0MCwKICAgICAgY2xpZW50WTogMTAwLAogICAgfSk7CiAgICBkaXNwYXRjaFBvaW50ZXIodHJpZ2dlci5lbGVtZW50LCAicG9pbnRlcm1vdmUiLCB7CiAgICAgIHBvaW50ZXJJZDogMTEsCiAgICAgIHBvaW50ZXJUeXBlOiAidG91Y2giLAogICAgICBjbGllbnRYOiA0MCwKICAgICAgY2xpZW50WTogMTI0LAogICAgfSk7CiAgICBkaXNwYXRjaFBvaW50ZXIodHJpZ2dlci5lbGVtZW50LCAicG9pbnRlcnVwIiwgewogICAgICBwb2ludGVySWQ6IDExLAogICAgICBwb2ludGVyVHlwZTogInRvdWNoIiwKICAgICAgY2xpZW50WDogNDAsCiAgICAgIGNsaWVudFk6IDEyNCwKICAgIH0pOwogICAgYXdhaXQgbmV4dFRpY2soKTsKCiAgICBleHBlY3Qod3JhcHBlci5nZXQoJ1tkYXRhLXRlc3RpZD0ib3Blbi1zdGF0ZSJdJykudGV4dCgpKS50b0JlKCJmYWxzZSIpOwogICAgd3JhcHBlci51bm1vdW50KCk7CiAgfSk7CgogIGl0KCJyZXBsYXlzIGEgdG91Y2gtbGlrZSBtb3VzZSB0YXAgYXMgYW4gaW50ZW50aW9uYWwgdG91Y2ggYWN0aXZhdGlvbiIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHdyYXBwZXIgPSBtb3VudChTZWxlY3RIYXJuZXNzLCB7IGF0dGFjaFRvOiBkb2N1bWVudC5ib2R5IH0pOwogICAgY29uc3QgdHJpZ2dlciA9IHdyYXBwZXIuZ2V0KCdbZGF0YS10ZXN0aWQ9InRyaWdnZXIiXScpOwoKICAgIGRpc3BhdGNoUG9pbnRlcih0cmlnZ2VyLmVsZW1lbnQsICJwb2ludGVyZG93biIsIHsKICAgICAgLi4udG91Y2hMaWtlTW91c2UsCiAgICAgIHBvaW50ZXJJZDogMTQsCiAgICAgIGNsaWVudFg6IDQwLAogICAgICBjbGllbnRZOiAxMDAsCiAgICB9KTsKICAgIGRpc3BhdGNoUG9pbnRlcih0cmlnZ2VyLmVsZW1lbnQsICJwb2ludGVydXAiLCB7CiAgICAgIC4uLnRvdWNoTGlrZU1vdXNlLAogICAgICBwb2ludGVySWQ6IDE0LAogICAgICBjbGllbnRYOiA0MiwKICAgICAgY2xpZW50WTogMTAzLAogICAgfSk7CiAgICBhd2FpdCBuZXh0VGljaygpOwoKICAgIGV4cGVjdCh3cmFwcGVyLmdldCgnW2RhdGEtdGVzdGlkPSJvcGVuLXN0YXRlIl0nKS50ZXh0KCkpLnRvQmUoInRydWUiKTsKICAgIHdyYXBwZXIudW5tb3VudCgpOwogIH0pOwoKICBpdCgiYWxzbyBzdXBwcmVzc2VzIHNjcm9sbGluZyB3aGVuIGEgbW9iaWxlIFdlYlZpZXcgcmVwb3J0cyB0b3VjaCBhcyBtb3VzZSIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHdyYXBwZXIgPSBtb3VudChTZWxlY3RIYXJuZXNzLCB7IGF0dGFjaFRvOiBkb2N1bWVudC5ib2R5IH0pOwogICAgY29uc3QgdHJpZ2dlciA9IHdyYXBwZXIuZ2V0KCdbZGF0YS10ZXN0aWQ9InRyaWdnZXIiXScpOwoKICAgIGRpc3BhdGNoUG9pbnRlcih0cmlnZ2VyLmVsZW1lbnQsICJwb2ludGVyZG93biIsIHsKICAgICAgLi4udG91Y2hMaWtlTW91c2UsCiAgICAgIHBvaW50ZXJJZDogMTMsCiAgICAgIGNsaWVudFg6IDQwLAogICAgICBjbGllbnRZOiAxMDAsCiAgICB9KTsKICAgIGF3YWl0IG5leHRUaWNrKCk7CiAgICBleHBlY3Qod3JhcHBlci5nZXQoJ1tkYXRhLXRlc3RpZD0ib3Blbi1zdGF0ZSJdJykudGV4dCgpKS50b0JlKCJmYWxzZSIpOwoKICAgIC8vIFNvbWUgZW1iZWRkZWQgYnJvd3NlcnMgY29hbGVzY2UgdGhlIG1vdmUgYW5kIGV4cG9zZSBvbmx5IGZpbmFsIHBvaW50ZXJ1cAogICAgLy8gY29vcmRpbmF0ZXMsIHNvIHRoZSByZWxlYXNlIHBvc2l0aW9uIG11c3QgYWxzbyBiZSBndWFyZGVkLgogICAgZGlzcGF0Y2hQb2ludGVyKHRyaWdnZXIuZWxlbWVudCwgInBvaW50ZXJ1cCIsIHsKICAgICAgLi4udG91Y2hMaWtlTW91c2UsCiAgICAgIHBvaW50ZXJJZDogMTMsCiAgICAgIGNsaWVudFg6IDQwLAogICAgICBjbGllbnRZOiAxMjgsCiAgICB9KTsKICAgIGF3YWl0IG5leHRUaWNrKCk7CgogICAgZXhwZWN0KHdyYXBwZXIuZ2V0KCdbZGF0YS10ZXN0aWQ9Im9wZW4tc3RhdGUiXScpLnRleHQoKSkudG9CZSgiZmFsc2UiKTsKICAgIHdyYXBwZXIudW5tb3VudCgpOwogIH0pOwp9KTsK
+import { defineComponent, h, nextTick, ref } from "vue";
+import { mount } from "@vue/test-utils";
+import { describe, expect, it } from "vitest";
+
+import {
+  Select,
+  SelectTrigger,
+} from "@/components/ui/select";
+
+const SelectHarness = defineComponent({
+  setup() {
+    const open = ref(false);
+    return () =>
+      h("div", [
+        h(
+          Select,
+          {
+            open: open.value,
+            "onUpdate:open": (value: boolean) => {
+              open.value = value;
+            },
+          },
+          {
+            default: () =>
+              h(
+                SelectTrigger,
+                { "data-testid": "trigger" },
+                () => "Response type",
+              ),
+          },
+        ),
+        h("output", { "data-testid": "open-state" }, String(open.value)),
+      ]);
+  },
+});
+
+const dispatchPointer = (
+  element: Element,
+  type: "pointerdown" | "pointermove" | "pointerup" | "pointercancel",
+  init: PointerEventInit,
+) => {
+  const pointerId = init.pointerId ?? 1;
+  element.dispatchEvent(
+    new PointerEvent(type, {
+      bubbles: true,
+      cancelable: true,
+      pointerId,
+      ...init,
+    }),
+  );
+  // happy-dom does not always perform the browser's automatic implicit
+  // pointer-capture release when a capture listener stops pointerup.
+  if (
+    (type === "pointerup" || type === "pointercancel") &&
+    element instanceof HTMLElement &&
+    element.hasPointerCapture?.(pointerId)
+  ) {
+    element.releasePointerCapture(pointerId);
+  }
+};
+
+const touchLikeMouse = {
+  pointerType: "mouse",
+  width: 16,
+  height: 16,
+};
+
+describe("SelectTrigger touch scroll guard", () => {
+  it("keeps an intentional touch tap able to open the select", async () => {
+    const wrapper = mount(SelectHarness, { attachTo: document.body });
+    const trigger = wrapper.get('[data-testid="trigger"]');
+
+    dispatchPointer(trigger.element, "pointerdown", {
+      pointerId: 12,
+      pointerType: "touch",
+      clientX: 40,
+      clientY: 100,
+    });
+    dispatchPointer(trigger.element, "pointermove", {
+      pointerId: 12,
+      pointerType: "touch",
+      clientX: 43,
+      clientY: 104,
+    });
+    dispatchPointer(trigger.element, "pointerup", {
+      pointerId: 12,
+      pointerType: "touch",
+      clientX: 43,
+      clientY: 104,
+    });
+    await nextTick();
+
+    expect(wrapper.get('[data-testid="open-state"]').text()).toBe("true");
+    wrapper.unmount();
+  });
+
+  it("does not open after a touch gesture moves beyond the scroll threshold", async () => {
+    const wrapper = mount(SelectHarness, { attachTo: document.body });
+    const trigger = wrapper.get('[data-testid="trigger"]');
+
+    dispatchPointer(trigger.element, "pointerdown", {
+      pointerId: 11,
+      pointerType: "touch",
+      clientX: 40,
+      clientY: 100,
+    });
+    dispatchPointer(trigger.element, "pointermove", {
+      pointerId: 11,
+      pointerType: "touch",
+      clientX: 40,
+      clientY: 124,
+    });
+    dispatchPointer(trigger.element, "pointerup", {
+      pointerId: 11,
+      pointerType: "touch",
+      clientX: 40,
+      clientY: 124,
+    });
+    await nextTick();
+
+    expect(wrapper.get('[data-testid="open-state"]').text()).toBe("false");
+    wrapper.unmount();
+  });
+
+  it("replays a touch-like mouse tap as an intentional touch activation", async () => {
+    const wrapper = mount(SelectHarness, { attachTo: document.body });
+    const trigger = wrapper.get('[data-testid="trigger"]');
+
+    dispatchPointer(trigger.element, "pointerdown", {
+      ...touchLikeMouse,
+      pointerId: 14,
+      clientX: 40,
+      clientY: 100,
+    });
+    dispatchPointer(trigger.element, "pointerup", {
+      ...touchLikeMouse,
+      pointerId: 14,
+      clientX: 42,
+      clientY: 103,
+    });
+    await nextTick();
+
+    expect(wrapper.get('[data-testid="open-state"]').text()).toBe("true");
+    wrapper.unmount();
+  });
+
+  it("also suppresses scrolling when a mobile WebView reports touch as mouse", async () => {
+    const wrapper = mount(SelectHarness, { attachTo: document.body });
+    const trigger = wrapper.get('[data-testid="trigger"]');
+
+    dispatchPointer(trigger.element, "pointerdown", {
+      ...touchLikeMouse,
+      pointerId: 13,
+      clientX: 40,
+      clientY: 100,
+    });
+    await nextTick();
+    expect(wrapper.get('[data-testid="open-state"]').text()).toBe("false");
+
+    // Some embedded browsers coalesce the move and expose only final pointerup
+    // coordinates, so the release position must also be guarded.
+    dispatchPointer(trigger.element, "pointerup", {
+      ...touchLikeMouse,
+      pointerId: 13,
+      clientX: 40,
+      clientY: 128,
+    });
+    await nextTick();
+
+    expect(wrapper.get('[data-testid="open-state"]').text()).toBe("false");
+    wrapper.unmount();
+  });
+});

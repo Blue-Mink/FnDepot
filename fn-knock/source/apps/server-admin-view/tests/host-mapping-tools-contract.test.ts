@@ -1,1 +1,198 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgp0eXBlIFByb3BlcnR5U2NoZW1hID0gewogIG1heGltdW0/OiBudW1iZXI7CiAgbWluaW11bT86IG51bWJlcjsKICBtYXhJdGVtcz86IG51bWJlcjsKICB3cml0ZU9ubHk/OiBib29sZWFuOwp9OwoKdHlwZSBPcGVyYXRpb24gPSB7CiAgIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIj86IHN0cmluZzsKICByZXNwb25zZXM/OiBSZWNvcmQ8CiAgICBzdHJpbmcsCiAgICB7IGNvbnRlbnQ/OiBSZWNvcmQ8c3RyaW5nLCBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPj4gfQogID47Cn07Cgpjb25zdCBjb250cmFjdCA9IEpTT04ucGFyc2UoCiAgcmVhZFNvdXJjZSgiLi4vLi4vLi4vcGFja2FnZXMvYXBpLWNvbnRyYWN0L29wZW5hcGkuanNvbiIpLAopIGFzIHsKICBjb21wb25lbnRzOiB7CiAgICBzY2hlbWFzOiBSZWNvcmQ8CiAgICAgIHN0cmluZywKICAgICAgewogICAgICAgIHByb3BlcnRpZXM/OiBSZWNvcmQ8c3RyaW5nLCBQcm9wZXJ0eVNjaGVtYT47CiAgICAgICAgcmVxdWlyZWQ/OiBzdHJpbmdbXTsKICAgICAgfQogICAgPjsKICB9OwogIHBhdGhzOiBSZWNvcmQ8c3RyaW5nLCBSZWNvcmQ8c3RyaW5nLCBPcGVyYXRpb24+PjsKfTsKCmRlc2NyaWJlKCJob3N0IG1hcHBpbmcgdXRpbGl0eSBBUEkgY29udHJhY3QiLCAoKSA9PiB7CiAgaXQoImtlZXBzIG1ldGFkYXRhLCBib29rbWFya3MsIHByb2JlcywgcmVmcmVzaCwgYW5kIGFkdmFuY2VkIGF1dGggdHlwZWQiLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IFttZXRob2QsIHBhdGhdIG9mIFsKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2hvc3RfbWFwcGluZ3MvYmFzaWNfYXV0aF9wcm9iZSJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi9jb25maWcvaG9zdF9tYXBwaW5ncy9zdGF0aWNfcGF0aF9wcm9iZSJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL2NvbmZpZy9ob3N0X21hcHBpbmdzL2Jvb2ttYXJrcy9leHBvcnQiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2hvc3RfbWFwcGluZ3MvbWV0YWRhdGEiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vY29uZmlnL2hvc3RfbWFwcGluZ3MvcmVmcmVzaF90aXRsZXMiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9jb25maWcvaG9zdF9tYXBwaW5ncy97aG9zdH0vYWR2YW5jZWRfYXV0aCJdLAogICAgICBbInB1dCIsICIvYXBpL2FkbWluL2NvbmZpZy9ob3N0X21hcHBpbmdzL3tob3N0fS9hZHZhbmNlZF9hdXRoIl0sCiAgICBdIGFzIGNvbnN0KSB7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICBjb250cmFjdC5wYXRoc1twYXRoXT8uW21ldGhvZF0/LlsieC1mbi1rbm9jay1jb250cmFjdC1zb3VyY2UiXSwKICAgICAgICAidXRvaXBhIiwKICAgICAgICBgJHttZXRob2QudG9VcHBlckNhc2UoKX0gJHtwYXRofWAsCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJkb2N1bWVudHMgc3RhdGljIHNlcnZpbmcgYW5kIGl0cyBub24tYXV0aG9yaXRhdGl2ZSBwYXRoIHByb2JlIiwgKCkgPT4gewogICAgY29uc3Qgc3RhdGljU2VydmUgPSBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuU3RhdGljU2VydmVDb25maWdEYXRhOwogICAgY29uc3QgcHJvYmVCb2R5ID0gY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLlN0YXRpY1BhdGhQcm9iZUJvZHlEYXRhOwogICAgY29uc3QgcHJvYmVSZXN1bHQgPSBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuU3RhdGljUGF0aFByb2JlUmVzdWx0RGF0YTsKICAgIGFzc2VydC5lcXVhbChzdGF0aWNTZXJ2ZS5wcm9wZXJ0aWVzPy5pbmRleF9maWxlcz8ubWF4SXRlbXMsIDE2KTsKICAgIGFzc2VydC5kZWVwRXF1YWwocHJvYmVCb2R5LnJlcXVpcmVkLCBbInRhcmdldF90eXBlIiwgInBhdGgiXSk7CiAgICBmb3IgKGNvbnN0IGZpZWxkIG9mIFsKICAgICAgInRhcmdldF90eXBlIiwKICAgICAgIm5vcm1hbGl6ZWRfcGF0aCIsCiAgICAgICJleGlzdHMiLAogICAgICAicmVhZGFibGUiLAogICAgICAiYWN0dWFsX3R5cGUiLAogICAgICAiZXJyb3JfY29kZSIsCiAgICBdKSB7CiAgICAgIGFzc2VydC5vayhwcm9iZVJlc3VsdC5yZXF1aXJlZD8uaW5jbHVkZXMoZmllbGQpLCBmaWVsZCk7CiAgICB9CiAgfSk7CgogIGl0KCJzaG93cyBnYXRld2F5LWxvY2FsIExpbnV4LCBXaW5kb3dzLCBhbmQgcmVhZC1vbmx5IERvY2tlciBwYXRoIGV4YW1wbGVzIiwgKCkgPT4gewogICAgY29uc3QgZmllbGQgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3N1YmRvbWFpbi1wcm94eS9TdWJkb21haW5NYXBwaW5nU3RhdGljVGFyZ2V0RmllbGQudnVlIiwKICAgICk7CiAgICBhc3NlcnQubWF0Y2goZmllbGQsIC9zdGF0aWNTZXJ2ZVwucGF0aEhpbnQvdSk7CiAgICBhc3NlcnQubWF0Y2goZmllbGQsIC92LWlmPSJjb25maWdTdG9yZVwuaXNEb2NrZXJEZXBsb3ltZW50Ii91KTsKICAgIGFzc2VydC5tYXRjaChmaWVsZCwgL3N0YXRpY1NlcnZlXC5wYXRoRG9ja2VySGludC91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2goCiAgICAgIGZpZWxkLAogICAgICAvcHJvYmVIb3N0TWFwcGluZ1N0YXRpY1BhdGh8c3RhdGljU2VydmVcLnByb2JlL3UsCiAgICApOwoKICAgIGZvciAoY29uc3QgbG9jYWxlIG9mIFsiZW4iLCAiamEtSlAiLCAia28tS1IiLCAiemgtQ04iLCAiemgtSGFudCJdKSB7CiAgICAgIGNvbnN0IHNvdXJjZSA9IHJlYWRTb3VyY2UoCiAgICAgICAgYC4uLy4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL21lc3NhZ2VzL2FkbWluLyR7bG9jYWxlfS50c2AsCiAgICAgICk7CiAgICAgIGFzc2VydC5vayhzb3VyY2UuaW5jbHVkZXMoIi9zcnYvc2l0ZSIpLCBgJHtsb2NhbGV9IExpbnV4IGV4YW1wbGVgKTsKICAgICAgYXNzZXJ0Lm9rKAogICAgICAgIHNvdXJjZS5pbmNsdWRlcygiQzpcXFxcU2l0ZXNcXFxcZG9jcyIpLAogICAgICAgIGAke2xvY2FsZX0gV2luZG93cyBleGFtcGxlYCwKICAgICAgKTsKICAgICAgYXNzZXJ0Lm9rKAogICAgICAgIHNvdXJjZS5pbmNsdWRlcygiL2hvc3QvZG9jczovc3J2L2RvY3M6cm8iKSwKICAgICAgICBgJHtsb2NhbGV9IHJlYWQtb25seSBEb2NrZXIgZXhhbXBsZWAsCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJrZWVwcyBCYXNpYyBBdXRoIHNlY3JldHMgd3JpdGUtb25seSBhbmQgbW9kZWxzIG51bGxhYmxlIHByb2JlIHN0YXR1cyIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLkhvc3RNYXBwaW5nQmFzaWNBdXRoSW5wdXREYXRhLnByb3BlcnRpZXMKICAgICAgICA/LnBhc3N3b3JkPy53cml0ZU9ubHksCiAgICAgIHRydWUsCiAgICApOwogICAgY29uc3QgcHJvYmUgPSBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuSG9zdE1hcHBpbmdCYXNpY0F1dGhQcm9iZURhdGE7CiAgICBhc3NlcnQub2socHJvYmUucmVxdWlyZWQ/LmluY2x1ZGVzKCJodHRwU3RhdHVzIikpOwogICAgYXNzZXJ0LmVxdWFsKHByb2JlLnJlcXVpcmVkPy5pbmNsdWRlcygiZXJyb3IiKSA/PyBmYWxzZSwgZmFsc2UpOwogICAgYXNzZXJ0LmVxdWFsKHByb2JlLnByb3BlcnRpZXM/Lmh0dHBTdGF0dXM/Lm1pbmltdW0sIDEwMCk7CiAgICBhc3NlcnQuZXF1YWwocHJvYmUucHJvcGVydGllcz8uaHR0cFN0YXR1cz8ubWF4aW11bSwgNTk5KTsKICB9KTsKCiAgaXQoImRvY3VtZW50cyBib29rbWFyayBIVE1MIGFuZCBhZHZhbmNlZCBhdXRoZW50aWNhdGlvbiBsaW1pdHMiLCAoKSA9PiB7CiAgICBjb25zdCBib29rbWFya0NvbnRlbnQgPQogICAgICBjb250cmFjdC5wYXRoc1siL2FwaS9hZG1pbi9jb25maWcvaG9zdF9tYXBwaW5ncy9ib29rbWFya3MvZXhwb3J0Il0/LmdldAogICAgICAgID8ucmVzcG9uc2VzPy5bIjIwMCJdPy5jb250ZW50OwogICAgYXNzZXJ0Lm9rKGJvb2ttYXJrQ29udGVudD8uWyJ0ZXh0L2h0bWwiXSk7CiAgICBhc3NlcnQuZXF1YWwoYm9va21hcmtDb250ZW50Py5bImFwcGxpY2F0aW9uL2pzb24iXSwgdW5kZWZpbmVkKTsKCiAgICBjb25zdCBhZHZhbmNlZCA9CiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5BZHZhbmNlZEF1dGhDb25maWdJbnB1dERhdGEucHJvcGVydGllczsKICAgIGFzc2VydC5lcXVhbChhZHZhbmNlZD8uaWRsZV90dGxfc2Vjb25kcz8ubWluaW11bSwgMzAwKTsKICAgIGFzc2VydC5lcXVhbChhZHZhbmNlZD8uaWRsZV90dGxfc2Vjb25kcz8ubWF4aW11bSwgMl81OTJfMDAwKTsKICAgIGFzc2VydC5lcXVhbChhZHZhbmNlZD8ubWF4X2xpZmV0aW1lX3NlY29uZHM/Lm1heGltdW0sIDMxXzUzNl8wMDApOwogICAgYXNzZXJ0LmVxdWFsKGFkdmFuY2VkPy5ncm91cHM/Lm1heEl0ZW1zLCAxNik7CiAgICBhc3NlcnQub2soCiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5BZHZhbmNlZEF1dGhEZXRhaWxzRGF0YS5yZXF1aXJlZD8uaW5jbHVkZXMoCiAgICAgICAgInJldmlzaW9uIiwKICAgICAgKSwKICAgICk7CiAgfSk7CgogIGl0KCJkZXJpdmVzIGZyb250ZW5kIG1vZGVscyBhbmQgbm9ybWFsaXplcyB0aGUgYWR2YW5jZWQtYXV0aCBmb3JtIGJvdW5kYXJ5IiwgKCkgPT4gewogICAgY29uc3QgdHlwZXMgPSByZWFkU291cmNlKCIuLi9zcmMvdHlwZXMvY29yZS50cyIpOwogICAgY29uc3QgY29uZmlnQXBpID0gcmVhZFNvdXJjZSgiLi4vc3JjL2xpYi9hcGkvY29uZmlnLXByb3h5LWFwaS50cyIpOwogICAgY29uc3Qgc3RhdGljQ29uZmlnQXBpID0gcmVhZFNvdXJjZSgKICAgICAgIi4uL3NyYy9saWIvYXBpL2NvbmZpZy1ob3N0LW1hcHBpbmctc3RhdGljLWFwaS50cyIsCiAgICApOwogICAgY29uc3QgYWR2YW5jZWRBdXRoVmlldyA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L1N1YmRvbWFpbkFkdmFuY2VkQXV0aC52dWUiLAogICAgKTsKICAgIGNvbnN0IGFkdmFuY2VkQXV0aEVkaXRvciA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L1N1YmRvbWFpbkFkdmFuY2VkQXV0aEVkaXRvci52dWUiLAogICAgKTsKICAgIGNvbnN0IGFkdmFuY2VkQXV0aFBhZ2UgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3N1YmRvbWFpbi1wcm94eS91c2VTdWJkb21haW5BZHZhbmNlZEF1dGhQYWdlLnRzIiwKICAgICk7CiAgICBjb25zdCBhZHZhbmNlZEF1dGhSdWxlR3JvdXBzID0gWwogICAgICByZWFkU291cmNlKCIuLi9zcmMvdmlld3Mvc3ViZG9tYWluLXByb3h5L0FkdmFuY2VkQXV0aFJ1bGVHcm91cHMudnVlIiksCiAgICAgIHJlYWRTb3VyY2UoIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvQWR2YW5jZWRBdXRoUnVsZUdyb3VwQ2FyZC52dWUiKSwKICAgICAgcmVhZFNvdXJjZSgKICAgICAgICAiLi4vc3JjL3ZpZXdzL3N1YmRvbWFpbi1wcm94eS9BZHZhbmNlZEF1dGhDb25kaXRpb25FZGl0b3IudnVlIiwKICAgICAgKSwKICAgIF0uam9pbigiXG4iKTsKICAgIGNvbnN0IGFkdmFuY2VkQXV0aEZvcm0gPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3N1YmRvbWFpbi1wcm94eS9hZHZhbmNlZC1hdXRoLWZvcm0udHMiLAogICAgKTsKCiAgICBmb3IgKGNvbnN0IHNjaGVtYSBvZiBbCiAgICAgICJBZHZhbmNlZEF1dGhDb25kaXRpb25EYXRhIiwKICAgICAgIkFkdmFuY2VkQXV0aFJ1bGVHcm91cERhdGEiLAogICAgICAiQWR2YW5jZWRBdXRoQ29uZmlnRGF0YSIsCiAgICAgICJIb3N0TWFwcGluZ1JlZnJlc2hTdW1tYXJ5RGF0YSIsCiAgICAgICJIb3N0TWFwcGluZ01ldGFkYXRhRGF0YSIsCiAgICBdKSB7CiAgICAgIGFzc2VydC5tYXRjaCh0eXBlcywgbmV3IFJlZ0V4cChgXFxbIiR7c2NoZW1hfSJcXF1gLCAidSIpLCBzY2hlbWEpOwogICAgfQogICAgYXNzZXJ0Lm1hdGNoKGNvbmZpZ0FwaSwgL3NhdGlzZmllcyBBZHZhbmNlZEF1dGhVcGRhdGUvdSk7CiAgICBhc3NlcnQubWF0Y2goY29uZmlnQXBpLCAvc2F0aXNmaWVzIEhvc3RNYXBwaW5nTWV0YWRhdGFCb2R5L3UpOwogICAgYXNzZXJ0Lm1hdGNoKGNvbmZpZ0FwaSwgL3NhdGlzZmllcyBIb3N0TWFwcGluZ0Jhc2ljQXV0aFByb2JlQm9keS91KTsKICAgIGFzc2VydC5tYXRjaChzdGF0aWNDb25maWdBcGksIC9TdGF0aWNQYXRoUHJvYmVCb2R5RGF0YS91KTsKICAgIGFzc2VydC5tYXRjaChzdGF0aWNDb25maWdBcGksIC9zYXRpc2ZpZXMgU3RhdGljUGF0aFByb2JlQm9keS91KTsKICAgIGFzc2VydC5tYXRjaChzdGF0aWNDb25maWdBcGksIC9TdGF0aWNQYXRoUHJvYmVSZXN1bHREYXRhL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFkdmFuY2VkQXV0aEZvcm0sIC9uYW1lOiAiIi91KTsKICAgIGFzc2VydC5tYXRjaChhZHZhbmNlZEF1dGhGb3JtLCAvY29uZGl0aW9uXC5zZWxlY3Rpb25zIFw/XD8gXFtcXS91KTsKICAgIGFzc2VydC5tYXRjaChhZHZhbmNlZEF1dGhWaWV3LCAvdXNlU3ViZG9tYWluQWR2YW5jZWRBdXRoUGFnZS91KTsKICAgIGFzc2VydC5tYXRjaChhZHZhbmNlZEF1dGhWaWV3LCAvU3ViZG9tYWluQWR2YW5jZWRBdXRoRWRpdG9yL3UpOwogICAgYXNzZXJ0LmRvZXNOb3RNYXRjaChhZHZhbmNlZEF1dGhWaWV3LCAvQ29uZmlnQVBJfGNsb25lQWR2YW5jZWRBdXRoQ29uZmlnL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFkdmFuY2VkQXV0aFBhZ2UsIC9jbG9uZUFkdmFuY2VkQXV0aENvbmZpZy91KTsKICAgIGFzc2VydC5tYXRjaChhZHZhbmNlZEF1dGhFZGl0b3IsIC9BZHZhbmNlZEF1dGhSdWxlR3JvdXBzL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFkdmFuY2VkQXV0aEVkaXRvciwgL0FkdmFuY2VkQXV0aER1cmF0aW9uU2V0dGluZ3MvdSk7CiAgICBhc3NlcnQubWF0Y2goCiAgICAgIGFkdmFuY2VkQXV0aFJ1bGVHcm91cHMsCiAgICAgIC9hZHZhbmNlZC1hdXRoLXRhcmdldC1cJFx7Y29uZGl0aW9uXC5pZFx9L3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBhZHZhbmNlZEF1dGhSdWxlR3JvdXBzLAogICAgICAvYWR2YW5jZWQtYXV0aC1vcGVyYXRvci1cJFx7Y29uZGl0aW9uXC5pZFx9L3UsCiAgICApOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBhZHZhbmNlZEF1dGhSdWxlR3JvdXBzLAogICAgICAvYWR2YW5jZWQtYXV0aC12YWx1ZS1cJFx7Y29uZGl0aW9uXC5pZFx9L3UsCiAgICApOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+type PropertySchema = {
+  maximum?: number;
+  minimum?: number;
+  maxItems?: number;
+  writeOnly?: boolean;
+};
+
+type Operation = {
+  "x-fn-knock-contract-source"?: string;
+  responses?: Record<
+    string,
+    { content?: Record<string, Record<string, unknown>> }
+  >;
+};
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  components: {
+    schemas: Record<
+      string,
+      {
+        properties?: Record<string, PropertySchema>;
+        required?: string[];
+      }
+    >;
+  };
+  paths: Record<string, Record<string, Operation>>;
+};
+
+describe("host mapping utility API contract", () => {
+  it("keeps metadata, bookmarks, probes, refresh, and advanced auth typed", () => {
+    for (const [method, path] of [
+      ["post", "/api/admin/config/host_mappings/basic_auth_probe"],
+      ["post", "/api/admin/config/host_mappings/static_path_probe"],
+      ["get", "/api/admin/config/host_mappings/bookmarks/export"],
+      ["post", "/api/admin/config/host_mappings/metadata"],
+      ["post", "/api/admin/config/host_mappings/refresh_titles"],
+      ["get", "/api/admin/config/host_mappings/{host}/advanced_auth"],
+      ["put", "/api/admin/config/host_mappings/{host}/advanced_auth"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("documents static serving and its non-authoritative path probe", () => {
+    const staticServe = contract.components.schemas.StaticServeConfigData;
+    const probeBody = contract.components.schemas.StaticPathProbeBodyData;
+    const probeResult = contract.components.schemas.StaticPathProbeResultData;
+    assert.equal(staticServe.properties?.index_files?.maxItems, 16);
+    assert.deepEqual(probeBody.required, ["target_type", "path"]);
+    for (const field of [
+      "target_type",
+      "normalized_path",
+      "exists",
+      "readable",
+      "actual_type",
+      "error_code",
+    ]) {
+      assert.ok(probeResult.required?.includes(field), field);
+    }
+  });
+
+  it("shows gateway-local Linux, Windows, and read-only Docker path examples", () => {
+    const field = readSource(
+      "../src/views/subdomain-proxy/SubdomainMappingStaticTargetField.vue",
+    );
+    assert.match(field, /staticServe\.pathHint/u);
+    assert.match(field, /v-if="configStore\.isDockerDeployment"/u);
+    assert.match(field, /staticServe\.pathDockerHint/u);
+    assert.doesNotMatch(
+      field,
+      /probeHostMappingStaticPath|staticServe\.probe/u,
+    );
+
+    for (const locale of ["en", "ja-JP", "ko-KR", "zh-CN", "zh-Hant"]) {
+      const source = readSource(
+        `../../../packages/i18n/src/messages/admin/${locale}.ts`,
+      );
+      assert.ok(source.includes("/srv/site"), `${locale} Linux example`);
+      assert.ok(
+        source.includes("C:\\\\Sites\\\\docs"),
+        `${locale} Windows example`,
+      );
+      assert.ok(
+        source.includes("/host/docs:/srv/docs:ro"),
+        `${locale} read-only Docker example`,
+      );
+    }
+  });
+
+  it("keeps Basic Auth secrets write-only and models nullable probe status", () => {
+    assert.equal(
+      contract.components.schemas.HostMappingBasicAuthInputData.properties
+        ?.password?.writeOnly,
+      true,
+    );
+    const probe = contract.components.schemas.HostMappingBasicAuthProbeData;
+    assert.ok(probe.required?.includes("httpStatus"));
+    assert.equal(probe.required?.includes("error") ?? false, false);
+    assert.equal(probe.properties?.httpStatus?.minimum, 100);
+    assert.equal(probe.properties?.httpStatus?.maximum, 599);
+  });
+
+  it("documents bookmark HTML and advanced authentication limits", () => {
+    const bookmarkContent =
+      contract.paths["/api/admin/config/host_mappings/bookmarks/export"]?.get
+        ?.responses?.["200"]?.content;
+    assert.ok(bookmarkContent?.["text/html"]);
+    assert.equal(bookmarkContent?.["application/json"], undefined);
+
+    const advanced =
+      contract.components.schemas.AdvancedAuthConfigInputData.properties;
+    assert.equal(advanced?.idle_ttl_seconds?.minimum, 300);
+    assert.equal(advanced?.idle_ttl_seconds?.maximum, 2_592_000);
+    assert.equal(advanced?.max_lifetime_seconds?.maximum, 31_536_000);
+    assert.equal(advanced?.groups?.maxItems, 16);
+    assert.ok(
+      contract.components.schemas.AdvancedAuthDetailsData.required?.includes(
+        "revision",
+      ),
+    );
+  });
+
+  it("derives frontend models and normalizes the advanced-auth form boundary", () => {
+    const types = readSource("../src/types/core.ts");
+    const configApi = readSource("../src/lib/api/config-proxy-api.ts");
+    const staticConfigApi = readSource(
+      "../src/lib/api/config-host-mapping-static-api.ts",
+    );
+    const advancedAuthView = readSource(
+      "../src/views/subdomain-proxy/SubdomainAdvancedAuth.vue",
+    );
+    const advancedAuthEditor = readSource(
+      "../src/views/subdomain-proxy/SubdomainAdvancedAuthEditor.vue",
+    );
+    const advancedAuthPage = readSource(
+      "../src/views/subdomain-proxy/useSubdomainAdvancedAuthPage.ts",
+    );
+    const advancedAuthRuleGroups = [
+      readSource("../src/views/subdomain-proxy/AdvancedAuthRuleGroups.vue"),
+      readSource("../src/views/subdomain-proxy/AdvancedAuthRuleGroupCard.vue"),
+      readSource(
+        "../src/views/subdomain-proxy/AdvancedAuthConditionEditor.vue",
+      ),
+    ].join("\n");
+    const advancedAuthForm = readSource(
+      "../src/views/subdomain-proxy/advanced-auth-form.ts",
+    );
+
+    for (const schema of [
+      "AdvancedAuthConditionData",
+      "AdvancedAuthRuleGroupData",
+      "AdvancedAuthConfigData",
+      "HostMappingRefreshSummaryData",
+      "HostMappingMetadataData",
+    ]) {
+      assert.match(types, new RegExp(`\\["${schema}"\\]`, "u"), schema);
+    }
+    assert.match(configApi, /satisfies AdvancedAuthUpdate/u);
+    assert.match(configApi, /satisfies HostMappingMetadataBody/u);
+    assert.match(configApi, /satisfies HostMappingBasicAuthProbeBody/u);
+    assert.match(staticConfigApi, /StaticPathProbeBodyData/u);
+    assert.match(staticConfigApi, /satisfies StaticPathProbeBody/u);
+    assert.match(staticConfigApi, /StaticPathProbeResultData/u);
+    assert.match(advancedAuthForm, /name: ""/u);
+    assert.match(advancedAuthForm, /condition\.selections \?\? \[\]/u);
+    assert.match(advancedAuthView, /useSubdomainAdvancedAuthPage/u);
+    assert.match(advancedAuthView, /SubdomainAdvancedAuthEditor/u);
+    assert.doesNotMatch(advancedAuthView, /ConfigAPI|cloneAdvancedAuthConfig/u);
+    assert.match(advancedAuthPage, /cloneAdvancedAuthConfig/u);
+    assert.match(advancedAuthEditor, /AdvancedAuthRuleGroups/u);
+    assert.match(advancedAuthEditor, /AdvancedAuthDurationSettings/u);
+    assert.match(
+      advancedAuthRuleGroups,
+      /advanced-auth-target-\$\{condition\.id\}/u,
+    );
+    assert.match(
+      advancedAuthRuleGroups,
+      /advanced-auth-operator-\$\{condition\.id\}/u,
+    );
+    assert.match(
+      advancedAuthRuleGroups,
+      /advanced-auth-value-\$\{condition\.id\}/u,
+    );
+  });
+});

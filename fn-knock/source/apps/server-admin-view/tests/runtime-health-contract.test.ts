@@ -1,1 +1,141 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7CmNvbnN0IGlzR2VuZXJhdGVkQ29udHJhY3RTb3VyY2UgPSAoc291cmNlOiB1bmtub3duKSA9PgogIHNvdXJjZSA9PT0gInV0b2lwYSIgfHwgc291cmNlID09PSAidXRvaXBhLWRvbWFpbiI7Cgpjb25zdCBjb250cmFjdCA9IEpTT04ucGFyc2UoCiAgcmVhZFNvdXJjZSgiLi4vLi4vLi4vcGFja2FnZXMvYXBpLWNvbnRyYWN0L29wZW5hcGkuanNvbiIpLAopIGFzIHsKICBjb21wb25lbnRzOiB7CiAgICBzY2hlbWFzOiBSZWNvcmQ8CiAgICAgIHN0cmluZywKICAgICAgewogICAgICAgIHByb3BlcnRpZXM/OiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPjsKICAgICAgICByZXF1aXJlZD86IHN0cmluZ1tdOwogICAgICB9CiAgICA+OwogIH07CiAgcGF0aHM6IFJlY29yZDwKICAgIHN0cmluZywKICAgIFJlY29yZDwKICAgICAgc3RyaW5nLAogICAgICB7CiAgICAgICAgIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIj86IHN0cmluZzsKICAgICAgICBwYXJhbWV0ZXJzPzogQXJyYXk8ewogICAgICAgICAgbmFtZT86IHN0cmluZzsKICAgICAgICAgIGluPzogc3RyaW5nOwogICAgICAgICAgc2NoZW1hPzogeyBlbnVtPzogc3RyaW5nW107IG1pbmltdW0/OiBudW1iZXI7IG1heGltdW0/OiBudW1iZXIgfTsKICAgICAgICB9PjsKICAgICAgICByZXNwb25zZXM/OiBSZWNvcmQ8CiAgICAgICAgICBzdHJpbmcsCiAgICAgICAgICB7IGNvbnRlbnQ/OiBSZWNvcmQ8c3RyaW5nLCB7IHNjaGVtYT86IHsgZm9ybWF0Pzogc3RyaW5nIH0gfT4gfQogICAgICAgID47CiAgICAgIH0KICAgID4KICA+Owp9OwoKZGVzY3JpYmUoInJ1bnRpbWUgaGVhbHRoIEFQSSBjb250cmFjdCIsICgpID0+IHsKICBpdCgia2VlcHMgYWxsIHJ1bnRpbWUgaGVhbHRoIG9wZXJhdGlvbnMgdHlwZWQiLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IFttZXRob2QsIHBhdGhdIG9mIFsKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9ydW50aW1lLWhlYWx0aCJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL3J1bnRpbWUtaGVhbHRoL2RlYnVnIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3J1bnRpbWUtaGVhbHRoL2RlYnVnL2NhcHR1cmUiXSwKICAgICAgWyJkZWxldGUiLCAiL2FwaS9hZG1pbi9ydW50aW1lLWhlYWx0aC9kZWJ1Zy9jYXB0dXJlIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3J1bnRpbWUtaGVhbHRoL2RlYnVnL21lbW9yeSJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL3J1bnRpbWUtaGVhbHRoL2dhdGV3YXktbWVtb3J5Il0sCiAgICAgIFsicHV0IiwgIi9hcGkvYWRtaW4vcnVudGltZS1oZWFsdGgvZ2F0ZXdheS1tZW1vcnkiXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vcnVudGltZS1oZWFsdGgvZ2F0ZXdheS1tZW1vcnkvcmVjbGFpbSJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL3J1bnRpbWUtaGVhbHRoL2xvZ3Mve2NvbXBvbmVudH0iXSwKICAgICAgWyJkZWxldGUiLCAiL2FwaS9hZG1pbi9ydW50aW1lLWhlYWx0aC9sb2dzL3tjb21wb25lbnR9Il0sCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vcnVudGltZS1oZWFsdGgvZGlhZ25vc3RpY3MiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi9ydW50aW1lLWhlYWx0aC9kaWFnbm9zdGljcy9hcmNoaXZlIl0sCiAgICBdIGFzIGNvbnN0KSB7CiAgICAgIGFzc2VydC5vaygKICAgICAgICBpc0dlbmVyYXRlZENvbnRyYWN0U291cmNlKAogICAgICAgICAgY29udHJhY3QucGF0aHNbcGF0aF0/LlttZXRob2RdPy5bIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIl0sCiAgICAgICAgKSwKICAgICAgICBgJHttZXRob2QudG9VcHBlckNhc2UoKX0gJHtwYXRofWAsCiAgICAgICk7CiAgICB9CiAgfSk7CgogIGl0KCJib3VuZHMgdGhlIEdvIHJ1bnRpbWUgbWVtb3J5IGNvbnRyYWN0IiwgKCkgPT4gewogICAgY29uc3QgY29uZmlnID0gY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLkdhdGV3YXlNZW1vcnlDb25maWdVcGRhdGVEYXRhCiAgICAgIC5wcm9wZXJ0aWVzPy5nY19wZXJjZW50IGFzCiAgICAgIHsgbWluaW11bT86IG51bWJlcjsgbWF4aW11bT86IG51bWJlciB9IHwgdW5kZWZpbmVkOwogICAgYXNzZXJ0LmVxdWFsKGNvbmZpZz8ubWluaW11bSwgMjUpOwogICAgYXNzZXJ0LmVxdWFsKGNvbmZpZz8ubWF4aW11bSwgNTAwKTsKICAgIGNvbnN0IG1lbW9yeUxpbWl0ID0gY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzCiAgICAgIC5HYXRld2F5TWVtb3J5Q29uZmlnVXBkYXRlRGF0YS5wcm9wZXJ0aWVzPy5tZW1vcnlfbGltaXRfbWliIGFzCiAgICAgIHsgbWluaW11bT86IG51bWJlcjsgbWF4aW11bT86IG51bWJlciB9IHwgdW5kZWZpbmVkOwogICAgYXNzZXJ0LmVxdWFsKG1lbW9yeUxpbWl0Py5taW5pbXVtLCA2NCk7CiAgICBhc3NlcnQuZXF1YWwobWVtb3J5TGltaXQ/Lm1heGltdW0sIDQwOTYpOwogICAgYXNzZXJ0Lm9rKAogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuR2F0ZXdheU1lbW9yeUNvbmZpZ0RhdGEucHJvcGVydGllcwogICAgICAgID8uZWZmZWN0aXZlX21lbW9yeV9saW1pdF9ieXRlcywKICAgICk7CiAgICBhc3NlcnQub2soCiAgICAgIGNvbnRyYWN0LmNvbXBvbmVudHMuc2NoZW1hcy5HYXRld2F5TWVtb3J5UmVjbGFpbURhdGEucHJvcGVydGllcwogICAgICAgID8ucnNzX2J5dGVzLAogICAgKTsKICAgIGFzc2VydC5vaygKICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLkdhdGV3YXlNZW1vcnlSZWNsYWltRGF0YS5wcm9wZXJ0aWVzCiAgICAgICAgPy5tYW5hZ2VkX21lbW9yeV9ieXRlcywKICAgICk7CiAgfSk7CgogIGl0KCJwcmVzZXJ2ZXMgdGhlIGxvZyBib3VuZGFyeSBhbmQgWklQIHJlc3BvbnNlIiwgKCkgPT4gewogICAgY29uc3QgcGFyYW1ldGVycyA9CiAgICAgIGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL3J1bnRpbWUtaGVhbHRoL2xvZ3Mve2NvbXBvbmVudH0iXS5nZXQKICAgICAgICAucGFyYW1ldGVycyA/PyBbXTsKICAgIGNvbnN0IGNvbXBvbmVudCA9IHBhcmFtZXRlcnMuZmluZCgKICAgICAgKHBhcmFtZXRlcikgPT4gcGFyYW1ldGVyLm5hbWUgPT09ICJjb21wb25lbnQiLAogICAgKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoY29tcG9uZW50Py5zY2hlbWE/LmVudW0sIFsKICAgICAgIm1hbmFnZW1lbnQiLAogICAgICAiZ2F0ZXdheV9wcm9jZXNzIiwKICAgIF0pOwogICAgY29uc3QgbGltaXQgPSBwYXJhbWV0ZXJzLmZpbmQoKHBhcmFtZXRlcikgPT4gcGFyYW1ldGVyLm5hbWUgPT09ICJsaW1pdCIpOwogICAgYXNzZXJ0LmVxdWFsKGxpbWl0Py5zY2hlbWE/Lm1pbmltdW0sIDEpOwogICAgYXNzZXJ0LmVxdWFsKGxpbWl0Py5zY2hlbWE/Lm1heGltdW0sIDUwMCk7CgogICAgY29uc3QgYXJjaGl2ZSA9CiAgICAgIGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL3J1bnRpbWUtaGVhbHRoL2RpYWdub3N0aWNzL2FyY2hpdmUiXS5nZXQKICAgICAgICAucmVzcG9uc2VzPy5bIjIwMCJdPy5jb250ZW50ID8/IHt9OwogICAgYXNzZXJ0LmVxdWFsKGFyY2hpdmVbImFwcGxpY2F0aW9uL3ppcCJdPy5zY2hlbWE/LmZvcm1hdCwgImJpbmFyeSIpOwogICAgYXNzZXJ0LmVxdWFsKGFyY2hpdmVbImFwcGxpY2F0aW9uL2pzb24iXSwgdW5kZWZpbmVkKTsKICB9KTsKCiAgaXQoImdlbmVyYXRlcyBmcm9udGVuZCBtb2RlbHMgaW5jbHVkaW5nIHRoZSBjb2xsZWN0aW9uIGJvdW5kYXJ5IiwgKCkgPT4gewogICAgY29uc3QgY29tcG9uZW50ID0KICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLlJ1bnRpbWVDb21wb25lbnRIZWFsdGhEYXRhLnJlcXVpcmVkID8/IFtdOwogICAgZm9yIChjb25zdCBmaWVsZCBvZiBbCiAgICAgICJ2ZXJzaW9uIiwKICAgICAgImNvbW1pdCIsCiAgICAgICJwaWQiLAogICAgICAiaW5zdGFuY2VfaWQiLAogICAgICAic3RhcnRlZF9hdCIsCiAgICAgICJsYXN0X2NoZWNrZWRfYXQiLAogICAgICAibGFzdF9zdWNjZXNzX2F0IiwKICAgICAgInJlYXNvbl9jb2RlIiwKICAgIF0pIHsKICAgICAgYXNzZXJ0Lm9rKGNvbXBvbmVudC5pbmNsdWRlcyhmaWVsZCksIGZpZWxkKTsKICAgIH0KICAgIGFzc2VydC5vaygKICAgICAgY29udHJhY3QuY29tcG9uZW50cy5zY2hlbWFzLlJ1bnRpbWVEaWFnbm9zdGljc0RhdGEucHJvcGVydGllcz8uY29sbGVjdGlvbiwKICAgICk7CgogICAgY29uc3QgdHlwZXMgPSByZWFkU291cmNlKCIuLi9zcmMvdHlwZXMvcnVudGltZS1oZWFsdGgudHMiKTsKICAgIGNvbnN0IGFwaSA9IHJlYWRTb3VyY2UoIi4uL3NyYy9saWIvYXBpL3J1bnRpbWUtaGVhbHRoLnRzIik7CiAgICBhc3NlcnQubWF0Y2godHlwZXMsIC9SdW50aW1lSGVhbHRoU25hcHNob3REYXRhL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHR5cGVzLCAvUnVudGltZURpYWdub3N0aWNzRGF0YS91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2godHlwZXMsIC9leHBvcnQgaW50ZXJmYWNlIFJ1bnRpbWVIZWFsdGhTbmFwc2hvdC91KTsKICAgIGFzc2VydC5tYXRjaChhcGksIC9vcGVyYXRpb25zIGFzIEFwaUNvbnRyYWN0T3BlcmF0aW9ucy91KTsKICAgIGFzc2VydC5tYXRjaChhcGksIC9zYXRpc2ZpZXMgUnVudGltZUxvZ3NRdWVyeS91KTsKICB9KTsKfSk7Cg==
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+const isGeneratedContractSource = (source: unknown) =>
+  source === "utoipa" || source === "utoipa-domain";
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  components: {
+    schemas: Record<
+      string,
+      {
+        properties?: Record<string, unknown>;
+        required?: string[];
+      }
+    >;
+  };
+  paths: Record<
+    string,
+    Record<
+      string,
+      {
+        "x-fn-knock-contract-source"?: string;
+        parameters?: Array<{
+          name?: string;
+          in?: string;
+          schema?: { enum?: string[]; minimum?: number; maximum?: number };
+        }>;
+        responses?: Record<
+          string,
+          { content?: Record<string, { schema?: { format?: string } }> }
+        >;
+      }
+    >
+  >;
+};
+
+describe("runtime health API contract", () => {
+  it("keeps all runtime health operations typed", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/runtime-health"],
+      ["get", "/api/admin/runtime-health/debug"],
+      ["post", "/api/admin/runtime-health/debug/capture"],
+      ["delete", "/api/admin/runtime-health/debug/capture"],
+      ["post", "/api/admin/runtime-health/debug/memory"],
+      ["get", "/api/admin/runtime-health/gateway-memory"],
+      ["put", "/api/admin/runtime-health/gateway-memory"],
+      ["post", "/api/admin/runtime-health/gateway-memory/reclaim"],
+      ["get", "/api/admin/runtime-health/logs/{component}"],
+      ["delete", "/api/admin/runtime-health/logs/{component}"],
+      ["get", "/api/admin/runtime-health/diagnostics"],
+      ["get", "/api/admin/runtime-health/diagnostics/archive"],
+    ] as const) {
+      assert.ok(
+        isGeneratedContractSource(
+          contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        ),
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("bounds the Go runtime memory contract", () => {
+    const config = contract.components.schemas.GatewayMemoryConfigUpdateData
+      .properties?.gc_percent as
+      { minimum?: number; maximum?: number } | undefined;
+    assert.equal(config?.minimum, 25);
+    assert.equal(config?.maximum, 500);
+    const memoryLimit = contract.components.schemas
+      .GatewayMemoryConfigUpdateData.properties?.memory_limit_mib as
+      { minimum?: number; maximum?: number } | undefined;
+    assert.equal(memoryLimit?.minimum, 64);
+    assert.equal(memoryLimit?.maximum, 4096);
+    assert.ok(
+      contract.components.schemas.GatewayMemoryConfigData.properties
+        ?.effective_memory_limit_bytes,
+    );
+    assert.ok(
+      contract.components.schemas.GatewayMemoryReclaimData.properties
+        ?.rss_bytes,
+    );
+    assert.ok(
+      contract.components.schemas.GatewayMemoryReclaimData.properties
+        ?.managed_memory_bytes,
+    );
+  });
+
+  it("preserves the log boundary and ZIP response", () => {
+    const parameters =
+      contract.paths["/api/admin/runtime-health/logs/{component}"].get
+        .parameters ?? [];
+    const component = parameters.find(
+      (parameter) => parameter.name === "component",
+    );
+    assert.deepEqual(component?.schema?.enum, [
+      "management",
+      "gateway_process",
+    ]);
+    const limit = parameters.find((parameter) => parameter.name === "limit");
+    assert.equal(limit?.schema?.minimum, 1);
+    assert.equal(limit?.schema?.maximum, 500);
+
+    const archive =
+      contract.paths["/api/admin/runtime-health/diagnostics/archive"].get
+        .responses?.["200"]?.content ?? {};
+    assert.equal(archive["application/zip"]?.schema?.format, "binary");
+    assert.equal(archive["application/json"], undefined);
+  });
+
+  it("generates frontend models including the collection boundary", () => {
+    const component =
+      contract.components.schemas.RuntimeComponentHealthData.required ?? [];
+    for (const field of [
+      "version",
+      "commit",
+      "pid",
+      "instance_id",
+      "started_at",
+      "last_checked_at",
+      "last_success_at",
+      "reason_code",
+    ]) {
+      assert.ok(component.includes(field), field);
+    }
+    assert.ok(
+      contract.components.schemas.RuntimeDiagnosticsData.properties?.collection,
+    );
+
+    const types = readSource("../src/types/runtime-health.ts");
+    const api = readSource("../src/lib/api/runtime-health.ts");
+    assert.match(types, /RuntimeHealthSnapshotData/u);
+    assert.match(types, /RuntimeDiagnosticsData/u);
+    assert.doesNotMatch(types, /export interface RuntimeHealthSnapshot/u);
+    assert.match(api, /operations as ApiContractOperations/u);
+    assert.match(api, /satisfies RuntimeLogsQuery/u);
+  });
+});

@@ -1,1 +1,263 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGNyYXRlKSBhc3luYyBmbiB2ZXJpZnlfY2FwdGNoYSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBzdWJtaXNzaW9uOiAmQ2FwdGNoYVN1Ym1pc3Npb24sCiAgICBjbGllbnRfaXA6ICZzdHIsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgbGV0IHNldHRpbmdzID0gcnVudGltZV9jb25maWc6OmxvYWRfY2FwdGNoYV9zZXR0aW5ncyhzdGF0ZSkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAiZmFpbGVkIHRvIGxvYWQgY2FwdGNoYSBzZXR0aW5ncyBkdXJpbmcgdmVyaWZpY2F0aW9uIik7CiAgICAgICAgICAgIGF1dGhfcm91dGVfdGV4dCh0cmFuc2xhdG9yLCAiY2FwdGNoYVZlcmlmeUZhaWxlZCIpCiAgICAgICAgfSk/OwogICAgbGV0IHByb3ZpZGVyID0gc2V0dGluZ3MKICAgICAgICAuZ2V0KCJwcm92aWRlciIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcigicG93Iik7CiAgICBsZXQgc3VibWl0dGVkX3Byb3ZpZGVyID0gY2FwdGNoYV9zdWJtaXNzaW9uX3Byb3ZpZGVyKHN1Ym1pc3Npb24pOwogICAgaWYgcHJvdmlkZXIgIT0gc3VibWl0dGVkX3Byb3ZpZGVyIHsKICAgICAgICByZXR1cm4gRXJyKGNhcHRjaGFfdGV4dCh0cmFuc2xhdG9yLCAicHJvdmlkZXJDb25maWdNaXNtYXRjaCIpKTsKICAgIH0KCiAgICBtYXRjaCAocHJvdmlkZXIsIHN1Ym1pc3Npb24pIHsKICAgICAgICAoInBvdyIsIENhcHRjaGFTdWJtaXNzaW9uOjpQb3cgeyBwcm9vZiB9KSA9PiB7CiAgICAgICAgICAgIHZlcmlmeV9wb3dfY2FwdGNoYShzdGF0ZSwgcHJvb2YsIHRyYW5zbGF0b3IpLmF3YWl0CiAgICAgICAgfQogICAgICAgICgidHVybnN0aWxlIiwgQ2FwdGNoYVN1Ym1pc3Npb246OlR1cm5zdGlsZSB7IHRva2VuIH0pID0+IHsKICAgICAgICAgICAgdmVyaWZ5X3R1cm5zdGlsZV9jYXB0Y2hhKHN0YXRlLCAmc2V0dGluZ3MsIHRva2VuLCBjbGllbnRfaXAsIHRyYW5zbGF0b3IpLmF3YWl0CiAgICAgICAgfQogICAgICAgIF8gPT4gRXJyKGNhcHRjaGFfdGV4dCh0cmFuc2xhdG9yLCAicHJvdmlkZXJVbmF2YWlsYWJsZSIpKSwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBjYXB0Y2hhX3N1Ym1pc3Npb25fcHJvdmlkZXIoc3VibWlzc2lvbjogJkNhcHRjaGFTdWJtaXNzaW9uKSAtPiAmJ3N0YXRpYyBzdHIgewogICAgbWF0Y2ggc3VibWlzc2lvbiB7CiAgICAgICAgQ2FwdGNoYVN1Ym1pc3Npb246OlBvdyB7IC4uIH0gPT4gInBvdyIsCiAgICAgICAgQ2FwdGNoYVN1Ym1pc3Npb246OlR1cm5zdGlsZSB7IC4uIH0gPT4gInR1cm5zdGlsZSIsCiAgICB9Cn0KCnB1YihzdXBlcikgYXN5bmMgZm4gdmVyaWZ5X3Bvd19jYXB0Y2hhKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHByb29mOiAmc3RyLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGxldCBTb21lKGtleSkgPSBzdGF0ZQogICAgICAgIC5zZXR0aW5ncwogICAgICAgIC5hbHRjaGFfaG1hY19rZXkKICAgICAgICAuYXNfZGVyZWYoKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgIGVsc2UgewogICAgICAgIHJldHVybiBFcnIoY2FwdGNoYV90ZXh0KHRyYW5zbGF0b3IsICJwb3dTZXJ2ZXJOb3RDb25maWd1cmVkIikpOwogICAgfTsKICAgIGxldCBkZWNvZGVkID0gQkFTRTY0X1NUQU5EQVJECiAgICAgICAgLmRlY29kZShwcm9vZikKICAgICAgICAubWFwX2Vycih8X3wgYXV0aF9yb3V0ZV90ZXh0KHRyYW5zbGF0b3IsICJpbnZhbGlkQ2FwdGNoYVByb29mIikpPzsKICAgIGxldCBkYXRhOiBQb3dQcm9vZiA9IHNlcmRlX2pzb246OmZyb21fc2xpY2UoJmRlY29kZWQpCiAgICAgICAgLm1hcF9lcnIofF98IGF1dGhfcm91dGVfdGV4dCh0cmFuc2xhdG9yLCAiaW52YWxpZENhcHRjaGFQcm9vZiIpKT87CiAgICBsZXQgdmFsaWRhdGlvbiA9IHZhbGlkYXRlX3Bvd19wcm9vZihkYXRhLCBrZXksIHRpbWVfdXRpbHM6Om5vd19tcygpIC8gMTAwMCwgdHJhbnNsYXRvcik/OwogICAgbWF0Y2ggc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5zZXRfbm9uY2VfaWZfbm90X2V4aXN0cygmdmFsaWRhdGlvbi5ub25jZSwgODZfNDAwKQogICAgICAgIC5hd2FpdAogICAgewogICAgICAgIE9rKHRydWUpID0+IE9rKCgpKSwKICAgICAgICBPayhmYWxzZSkgPT4gRXJyKGF1dGhfcm91dGVfdGV4dCh0cmFuc2xhdG9yLCAiY2FwdGNoYUNoYWxsZW5nZUFscmVhZHlVc2VkIikpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gc3RvcmUgY2FwdGNoYSBub25jZSIpOwogICAgICAgICAgICBFcnIoYXV0aF9yb3V0ZV90ZXh0KHRyYW5zbGF0b3IsICJjYXB0Y2hhVmVyaWZ5RmFpbGVkIikpCiAgICAgICAgfQogICAgfQp9CgpwdWIoc3VwZXIpIGZuIHZhbGlkYXRlX3Bvd19wcm9vZigKICAgIGRhdGE6IFBvd1Byb29mLAogICAga2V5OiAmc3RyLAogICAgbm93X3NlY29uZHM6IGk2NCwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IFJlc3VsdDxQb3dWYWxpZGF0aW9uLCBTdHJpbmc+IHsKICAgIGlmIGRhdGEuYWxnb3JpdGhtLmFzX2RlcmVmKCkgIT0gU29tZSgiU0hBLTI1NiIpIHsKICAgICAgICByZXR1cm4gRXJyKGF1dGhfcm91dGVfdGV4dCh0cmFuc2xhdG9yLCAiaW52YWxpZENhcHRjaGFBbGdvcml0aG0iKSk7CiAgICB9CgogICAgbGV0IHJhd19jaGFsbGVuZ2UgPSBkYXRhLmNoYWxsZW5nZS51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgbGV0IGNoYWxsZW5nZSA9IHJhd19jaGFsbGVuZ2UudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBsZXQgbnVtYmVyID0gcG93X251bWJlcl90ZXh0KGRhdGEubnVtYmVyLmFzX3JlZigpKTsKICAgIGxldCBzYWx0ID0gZGF0YS5zYWx0LnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgc2lnbmF0dXJlID0gZGF0YS5zaWduYXR1cmUudW53cmFwX29yX2RlZmF1bHQoKS50b19hc2NpaV9sb3dlcmNhc2UoKTsKICAgIGxldCBleHBlY3RlZF9jaGFsbGVuZ2UgPSBzaGEyNTZfaGV4KGZvcm1hdCEoIntzYWx0fXtudW1iZXJ9IikuYXNfYnl0ZXMoKSk7CiAgICBpZiBleHBlY3RlZF9jaGFsbGVuZ2UKICAgICAgICAuYXNfYnl0ZXMoKQogICAgICAgIC5jdF9lcShjaGFsbGVuZ2UuYXNfYnl0ZXMoKSkKICAgICAgICAudW53cmFwX3U4KCkKICAgICAgICAhPSAxCiAgICB7CiAgICAgICAgcmV0dXJuIEVycihhdXRoX3JvdXRlX3RleHQodHJhbnNsYXRvciwgImludmFsaWRDYXB0Y2hhQ2hhbGxlbmdlIikpOwogICAgfQoKICAgIGxldCBleHBlY3RlZF9zaWduYXR1cmUgPSBobWFjX3NoYTI1Nl9oZXgoa2V5LmFzX2J5dGVzKCksIHJhd19jaGFsbGVuZ2UuYXNfYnl0ZXMoKSk7CiAgICBpZiBleHBlY3RlZF9zaWduYXR1cmUKICAgICAgICAuYXNfYnl0ZXMoKQogICAgICAgIC5jdF9lcShzaWduYXR1cmUuYXNfYnl0ZXMoKSkKICAgICAgICAudW53cmFwX3U4KCkKICAgICAgICAhPSAxCiAgICB7CiAgICAgICAgcmV0dXJuIEVycihhdXRoX3JvdXRlX3RleHQodHJhbnNsYXRvciwgImludmFsaWRDYXB0Y2hhU2lnbmF0dXJlIikpOwogICAgfQoKICAgIGlmIGxldCBTb21lKGV4cGlyZXMpID0gcGFyc2VfcG93X2V4cGlyZXMoJnNhbHQpCiAgICAgICAgJiYgbm93X3NlY29uZHMgPiBleHBpcmVzCiAgICB7CiAgICAgICAgcmV0dXJuIEVycihhdXRoX3JvdXRlX3RleHQodHJhbnNsYXRvciwgImNhcHRjaGFDaGFsbGVuZ2VFeHBpcmVkIikpOwogICAgfQoKICAgIE9rKFBvd1ZhbGlkYXRpb24gewogICAgICAgIG5vbmNlOiByYXdfY2hhbGxlbmdlLAogICAgfSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiB2ZXJpZnlfdHVybnN0aWxlX2NhcHRjaGEoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgc2V0dGluZ3M6ICZWYWx1ZSwKICAgIHRva2VuOiAmc3RyLAogICAgY2xpZW50X2lwOiAmc3RyLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGxldCBzZWNyZXRfa2V5ID0gc2V0dGluZ3MKICAgICAgICAucG9pbnRlcigiL3R1cm5zdGlsZS9zZWNyZXRfa2V5IikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAudW53cmFwX29yKCIiKQogICAgICAgIC50cmltKCkKICAgICAgICAudG9fc3RyaW5nKCk7CiAgICBpZiBzZWNyZXRfa2V5LmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBFcnIoY2FwdGNoYV90ZXh0KHRyYW5zbGF0b3IsICJ0dXJuc3RpbGVTZWNyZXRNaXNzaW5nIikpOwogICAgfQogICAgaWYgdG9rZW4udHJpbSgpLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBFcnIoY2FwdGNoYV90ZXh0KHRyYW5zbGF0b3IsICJ0dXJuc3RpbGVUb2tlblJlcXVpcmVkIikpOwogICAgfQoKICAgIGxldCBib2R5ID0gewogICAgICAgIGxldCBtdXQgc2VyaWFsaXplciA9IHVybDo6Zm9ybV91cmxlbmNvZGVkOjpTZXJpYWxpemVyOjpuZXcoU3RyaW5nOjpuZXcoKSk7CiAgICAgICAgc2VyaWFsaXplci5hcHBlbmRfcGFpcigic2VjcmV0IiwgJnNlY3JldF9rZXkpOwogICAgICAgIHNlcmlhbGl6ZXIuYXBwZW5kX3BhaXIoInJlc3BvbnNlIiwgdG9rZW4udHJpbSgpKTsKICAgICAgICBpZiAhY2xpZW50X2lwLmlzX2VtcHR5KCkgewogICAgICAgICAgICBzZXJpYWxpemVyLmFwcGVuZF9wYWlyKCJyZW1vdGVpcCIsIGNsaWVudF9pcCk7CiAgICAgICAgfQogICAgICAgIHNlcmlhbGl6ZXIuZmluaXNoKCkKICAgIH07CiAgICBsZXQgcmVzcG9uc2UgPSBzdGF0ZQogICAgICAgIC5mYWxsYmFja19jbGllbnQKICAgICAgICAucG9zdChUVVJOU1RJTEVfVkVSSUZZX1VSTCkKICAgICAgICAuaGVhZGVyKGhlYWRlcjo6Q09OVEVOVF9UWVBFLCAiYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkIikKICAgICAgICAuYm9keShib2R5KQogICAgICAgIC5zZW5kKCkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8X3wgY2FwdGNoYV90ZXh0KHRyYW5zbGF0b3IsICJ0dXJuc3RpbGVTZXJ2aWNlVW5hdmFpbGFibGUiKSk/OwogICAgaWYgIXJlc3BvbnNlLnN0YXR1cygpLmlzX3N1Y2Nlc3MoKSB7CiAgICAgICAgcmV0dXJuIEVycihjYXB0Y2hhX3RleHQodHJhbnNsYXRvciwgInR1cm5zdGlsZVNlcnZpY2VVbmF2YWlsYWJsZSIpKTsKICAgIH0KICAgIGxldCByZXN1bHQgPSByZXNwb25zZQogICAgICAgIC5qc29uOjo8VmFsdWU+KCkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8X3wgYXV0aF9yb3V0ZV90ZXh0KHRyYW5zbGF0b3IsICJ0dXJuc3RpbGVSZXNwb25zZUludmFsaWQiKSk/OwogICAgaWYgcmVzdWx0LmdldCgic3VjY2VzcyIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSA9PSBTb21lKHRydWUpIHsKICAgICAgICBPaygoKSkKICAgIH0gZWxzZSBpZiBsZXQgU29tZShyZWFzb24pID0gdHVybnN0aWxlX2Vycm9yX3JlYXNvbigmcmVzdWx0KSB7CiAgICAgICAgRXJyKGNhcHRjaGFfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJ0dXJuc3RpbGVWZXJpZnlGYWlsZWRXaXRoUmVhc29uIiwKICAgICAgICAgICAgJlsoInJlYXNvbiIsIHJlYXNvbildLAogICAgICAgICkpCiAgICB9IGVsc2UgewogICAgICAgIEVycihjYXB0Y2hhX3RleHQodHJhbnNsYXRvciwgInR1cm5zdGlsZVZlcmlmeUZhaWxlZCIpKQogICAgfQp9CgpwdWIoc3VwZXIpIGZuIHBvd19zZWNyZXRfbnVtYmVyX2Zyb21fcmFuZG9tKHZhbHVlOiB1MzIsIG1heF9udW1iZXI6IHUzMikgLT4gdTMyIHsKICAgIHZhbHVlICUgbWF4X251bWJlci5tYXgoMSkKfQoKcHViKHN1cGVyKSBmbiBwb3dfbWF4X251bWJlcl9mb3JfY2xhc3NpZmljYXRpb24oCiAgICBzZXR0aW5nczogJlZhbHVlLAogICAgY2xhc3NpZmljYXRpb246IGNvbW1vbl9hdXRoX2xvY2F0aW9uczo6Q29tbW9uQXV0aExvY2F0aW9uQ2xhc3NpZmljYXRpb24sCikgLT4gdTMyIHsKICAgIGxldCBiYXNlID0gc2V0dGluZ3MKICAgICAgICAucG9pbnRlcigiL3Bvdy9iYXNlX21heF9udW1iZXIiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfdTY0KQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHUzMjo6dHJ5X2Zyb20odmFsdWUpLm9rKCkpCiAgICAgICAgLnVud3JhcF9vcihQT1dfTUFYX05VTUJFUik7CiAgICBsZXQgdW5jb21tb25fZW5hYmxlZCA9IHNldHRpbmdzCiAgICAgICAgLnBvaW50ZXIoIi9wb3cvdW5jb21tb25fbG9jYXRpb24vZW5hYmxlZCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgID09IFNvbWUodHJ1ZSk7CiAgICBpZiB1bmNvbW1vbl9lbmFibGVkCiAgICAgICAgJiYgY2xhc3NpZmljYXRpb24gPT0gY29tbW9uX2F1dGhfbG9jYXRpb25zOjpDb21tb25BdXRoTG9jYXRpb25DbGFzc2lmaWNhdGlvbjo6VW5jb21tb24KICAgIHsKICAgICAgICByZXR1cm4gc2V0dGluZ3MKICAgICAgICAgICAgLnBvaW50ZXIoIi9wb3cvdW5jb21tb25fbG9jYXRpb24vbWF4X251bWJlciIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfdTY0KQogICAgICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB1MzI6OnRyeV9mcm9tKHZhbHVlKS5vaygpKQogICAgICAgICAgICAudW53cmFwX29yKHJ1bnRpbWVfY29uZmlnOjpQT1dfREVGQVVMVF9VTkNPTU1PTl9NQVhfTlVNQkVSIGFzIHUzMikKICAgICAgICAgICAgLm1heChiYXNlKTsKICAgIH0KICAgIGJhc2UKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBwb3dfbWF4X251bWJlcl9mb3JfcmVxdWVzdCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBzZXR0aW5nczogJlZhbHVlLAogICAgaGVhZGVyczogJkhlYWRlck1hcCwKKSAtPiB1MzIgewogICAgaWYgc2V0dGluZ3MKICAgICAgICAucG9pbnRlcigiL3Bvdy91bmNvbW1vbl9sb2NhdGlvbi9lbmFibGVkIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgIT0gU29tZSh0cnVlKQogICAgewogICAgICAgIHJldHVybiBwb3dfbWF4X251bWJlcl9mb3JfY2xhc3NpZmljYXRpb24oCiAgICAgICAgICAgIHNldHRpbmdzLAogICAgICAgICAgICBjb21tb25fYXV0aF9sb2NhdGlvbnM6OkNvbW1vbkF1dGhMb2NhdGlvbkNsYXNzaWZpY2F0aW9uOjpVbmtub3duLAogICAgICAgICk7CiAgICB9CiAgICBsZXQgY2xpZW50X2lwID0gY2xpZW50X2lwX2Zvcl9hdXRoKGhlYWRlcnMpOwogICAgbGV0IGNsYXNzaWZpY2F0aW9uID0gY29tbW9uX2F1dGhfbG9jYXRpb25zOjpjbGFzc2lmeV9hdXRoX2xvY2F0aW9uKHN0YXRlLCAmY2xpZW50X2lwKS5hd2FpdDsKICAgIHBvd19tYXhfbnVtYmVyX2Zvcl9jbGFzc2lmaWNhdGlvbihzZXR0aW5ncywgY2xhc3NpZmljYXRpb24pCn0KCnB1YihzdXBlcikgZm4gcG93X251bWJlcl90ZXh0KHZhbHVlOiBPcHRpb248JlZhbHVlPikgLT4gU3RyaW5nIHsKICAgIGxldCBTb21lKFZhbHVlOjpOdW1iZXIobnVtYmVyKSkgPSB2YWx1ZSBlbHNlIHsKICAgICAgICByZXR1cm4gU3RyaW5nOjpuZXcoKTsKICAgIH07CiAgICBpZiBsZXQgU29tZSh2YWx1ZSkgPSBudW1iZXIuYXNfaTY0KCkgewogICAgICAgIHJldHVybiB2YWx1ZS50b19zdHJpbmcoKTsKICAgIH0KICAgIGlmIGxldCBTb21lKHZhbHVlKSA9IG51bWJlci5hc191NjQoKSB7CiAgICAgICAgcmV0dXJuIHZhbHVlLnRvX3N0cmluZygpOwogICAgfQogICAgbGV0IFNvbWUodmFsdWUpID0gbnVtYmVyLmFzX2Y2NCgpIGVsc2UgewogICAgICAgIHJldHVybiBTdHJpbmc6Om5ldygpOwogICAgfTsKICAgIGlmICF2YWx1ZS5pc19maW5pdGUoKSB7CiAgICAgICAgcmV0dXJuIFN0cmluZzo6bmV3KCk7CiAgICB9CiAgICBpZiB2YWx1ZS5mcmFjdCgpID09IDAuMCAmJiB2YWx1ZSA+PSBpNjQ6Ok1JTiBhcyBmNjQgJiYgdmFsdWUgPD0gaTY0OjpNQVggYXMgZjY0IHsKICAgICAgICAodmFsdWUgYXMgaTY0KS50b19zdHJpbmcoKQogICAgfSBlbHNlIHsKICAgICAgICB2YWx1ZS50b19zdHJpbmcoKQogICAgfQp9CgpwdWIoc3VwZXIpIGZuIHR1cm5zdGlsZV9lcnJvcl9yZWFzb24ocmVzdWx0OiAmVmFsdWUpIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIGxldCByZWFzb24gPSByZXN1bHQKICAgICAgICAuZ2V0KCJlcnJvci1jb2RlcyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSk/CiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXJfbWFwKFZhbHVlOjphc19zdHIpCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpCiAgICAgICAgLmpvaW4oIiwgIik7CiAgICAoIXJlYXNvbi5pc19lbXB0eSgpKS50aGVuX3NvbWUocmVhc29uKQp9Cg==
+use super::*;
+
+pub(crate) async fn verify_captcha(
+    state: &AppState,
+    submission: &CaptchaSubmission,
+    client_ip: &str,
+    translator: &Translator,
+) -> Result<(), String> {
+    let settings = runtime_config::load_captcha_settings(state)
+        .await
+        .map_err(|error| {
+            tracing::warn!(%error, "failed to load captcha settings during verification");
+            auth_route_text(translator, "captchaVerifyFailed")
+        })?;
+    let provider = settings
+        .get("provider")
+        .and_then(Value::as_str)
+        .unwrap_or("pow");
+    let submitted_provider = captcha_submission_provider(submission);
+    if provider != submitted_provider {
+        return Err(captcha_text(translator, "providerConfigMismatch"));
+    }
+
+    match (provider, submission) {
+        ("pow", CaptchaSubmission::Pow { proof }) => {
+            verify_pow_captcha(state, proof, translator).await
+        }
+        ("turnstile", CaptchaSubmission::Turnstile { token }) => {
+            verify_turnstile_captcha(state, &settings, token, client_ip, translator).await
+        }
+        _ => Err(captcha_text(translator, "providerUnavailable")),
+    }
+}
+
+pub(super) fn captcha_submission_provider(submission: &CaptchaSubmission) -> &'static str {
+    match submission {
+        CaptchaSubmission::Pow { .. } => "pow",
+        CaptchaSubmission::Turnstile { .. } => "turnstile",
+    }
+}
+
+pub(super) async fn verify_pow_captcha(
+    state: &AppState,
+    proof: &str,
+    translator: &Translator,
+) -> Result<(), String> {
+    let Some(key) = state
+        .settings
+        .altcha_hmac_key
+        .as_deref()
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+    else {
+        return Err(captcha_text(translator, "powServerNotConfigured"));
+    };
+    let decoded = BASE64_STANDARD
+        .decode(proof)
+        .map_err(|_| auth_route_text(translator, "invalidCaptchaProof"))?;
+    let data: PowProof = serde_json::from_slice(&decoded)
+        .map_err(|_| auth_route_text(translator, "invalidCaptchaProof"))?;
+    let validation = validate_pow_proof(data, key, time_utils::now_ms() / 1000, translator)?;
+    match state
+        .storage
+        .store
+        .set_nonce_if_not_exists(&validation.nonce, 86_400)
+        .await
+    {
+        Ok(true) => Ok(()),
+        Ok(false) => Err(auth_route_text(translator, "captchaChallengeAlreadyUsed")),
+        Err(error) => {
+            tracing::warn!(%error, "failed to store captcha nonce");
+            Err(auth_route_text(translator, "captchaVerifyFailed"))
+        }
+    }
+}
+
+pub(super) fn validate_pow_proof(
+    data: PowProof,
+    key: &str,
+    now_seconds: i64,
+    translator: &Translator,
+) -> Result<PowValidation, String> {
+    if data.algorithm.as_deref() != Some("SHA-256") {
+        return Err(auth_route_text(translator, "invalidCaptchaAlgorithm"));
+    }
+
+    let raw_challenge = data.challenge.unwrap_or_default();
+    let challenge = raw_challenge.to_ascii_lowercase();
+    let number = pow_number_text(data.number.as_ref());
+    let salt = data.salt.unwrap_or_default();
+    let signature = data.signature.unwrap_or_default().to_ascii_lowercase();
+    let expected_challenge = sha256_hex(format!("{salt}{number}").as_bytes());
+    if expected_challenge
+        .as_bytes()
+        .ct_eq(challenge.as_bytes())
+        .unwrap_u8()
+        != 1
+    {
+        return Err(auth_route_text(translator, "invalidCaptchaChallenge"));
+    }
+
+    let expected_signature = hmac_sha256_hex(key.as_bytes(), raw_challenge.as_bytes());
+    if expected_signature
+        .as_bytes()
+        .ct_eq(signature.as_bytes())
+        .unwrap_u8()
+        != 1
+    {
+        return Err(auth_route_text(translator, "invalidCaptchaSignature"));
+    }
+
+    if let Some(expires) = parse_pow_expires(&salt)
+        && now_seconds > expires
+    {
+        return Err(auth_route_text(translator, "captchaChallengeExpired"));
+    }
+
+    Ok(PowValidation {
+        nonce: raw_challenge,
+    })
+}
+
+pub(super) async fn verify_turnstile_captcha(
+    state: &AppState,
+    settings: &Value,
+    token: &str,
+    client_ip: &str,
+    translator: &Translator,
+) -> Result<(), String> {
+    let secret_key = settings
+        .pointer("/turnstile/secret_key")
+        .and_then(Value::as_str)
+        .unwrap_or("")
+        .trim()
+        .to_string();
+    if secret_key.is_empty() {
+        return Err(captcha_text(translator, "turnstileSecretMissing"));
+    }
+    if token.trim().is_empty() {
+        return Err(captcha_text(translator, "turnstileTokenRequired"));
+    }
+
+    let body = {
+        let mut serializer = url::form_urlencoded::Serializer::new(String::new());
+        serializer.append_pair("secret", &secret_key);
+        serializer.append_pair("response", token.trim());
+        if !client_ip.is_empty() {
+            serializer.append_pair("remoteip", client_ip);
+        }
+        serializer.finish()
+    };
+    let response = state
+        .fallback_client
+        .post(TURNSTILE_VERIFY_URL)
+        .header(header::CONTENT_TYPE, "application/x-www-form-urlencoded")
+        .body(body)
+        .send()
+        .await
+        .map_err(|_| captcha_text(translator, "turnstileServiceUnavailable"))?;
+    if !response.status().is_success() {
+        return Err(captcha_text(translator, "turnstileServiceUnavailable"));
+    }
+    let result = response
+        .json::<Value>()
+        .await
+        .map_err(|_| auth_route_text(translator, "turnstileResponseInvalid"))?;
+    if result.get("success").and_then(Value::as_bool) == Some(true) {
+        Ok(())
+    } else if let Some(reason) = turnstile_error_reason(&result) {
+        Err(captcha_text_params(
+            translator,
+            "turnstileVerifyFailedWithReason",
+            &[("reason", reason)],
+        ))
+    } else {
+        Err(captcha_text(translator, "turnstileVerifyFailed"))
+    }
+}
+
+pub(super) fn pow_secret_number_from_random(value: u32, max_number: u32) -> u32 {
+    value % max_number.max(1)
+}
+
+pub(super) fn pow_max_number_for_classification(
+    settings: &Value,
+    classification: common_auth_locations::CommonAuthLocationClassification,
+) -> u32 {
+    let base = settings
+        .pointer("/pow/base_max_number")
+        .and_then(Value::as_u64)
+        .and_then(|value| u32::try_from(value).ok())
+        .unwrap_or(POW_MAX_NUMBER);
+    let uncommon_enabled = settings
+        .pointer("/pow/uncommon_location/enabled")
+        .and_then(Value::as_bool)
+        == Some(true);
+    if uncommon_enabled
+        && classification == common_auth_locations::CommonAuthLocationClassification::Uncommon
+    {
+        return settings
+            .pointer("/pow/uncommon_location/max_number")
+            .and_then(Value::as_u64)
+            .and_then(|value| u32::try_from(value).ok())
+            .unwrap_or(runtime_config::POW_DEFAULT_UNCOMMON_MAX_NUMBER as u32)
+            .max(base);
+    }
+    base
+}
+
+pub(super) async fn pow_max_number_for_request(
+    state: &AppState,
+    settings: &Value,
+    headers: &HeaderMap,
+) -> u32 {
+    if settings
+        .pointer("/pow/uncommon_location/enabled")
+        .and_then(Value::as_bool)
+        != Some(true)
+    {
+        return pow_max_number_for_classification(
+            settings,
+            common_auth_locations::CommonAuthLocationClassification::Unknown,
+        );
+    }
+    let client_ip = client_ip_for_auth(headers);
+    let classification = common_auth_locations::classify_auth_location(state, &client_ip).await;
+    pow_max_number_for_classification(settings, classification)
+}
+
+pub(super) fn pow_number_text(value: Option<&Value>) -> String {
+    let Some(Value::Number(number)) = value else {
+        return String::new();
+    };
+    if let Some(value) = number.as_i64() {
+        return value.to_string();
+    }
+    if let Some(value) = number.as_u64() {
+        return value.to_string();
+    }
+    let Some(value) = number.as_f64() else {
+        return String::new();
+    };
+    if !value.is_finite() {
+        return String::new();
+    }
+    if value.fract() == 0.0 && value >= i64::MIN as f64 && value <= i64::MAX as f64 {
+        (value as i64).to_string()
+    } else {
+        value.to_string()
+    }
+}
+
+pub(super) fn turnstile_error_reason(result: &Value) -> Option<String> {
+    let reason = result
+        .get("error-codes")
+        .and_then(Value::as_array)?
+        .iter()
+        .filter_map(Value::as_str)
+        .filter(|value| !value.is_empty())
+        .collect::<Vec<_>>()
+        .join(", ");
+    (!reason.is_empty()).then_some(reason)
+}

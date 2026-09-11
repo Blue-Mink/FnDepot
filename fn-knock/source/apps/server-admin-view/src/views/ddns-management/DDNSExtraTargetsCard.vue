@@ -1,1 +1,253 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgUGx1cywgUmVmcmVzaEN3LCBUcmFzaDIgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQ2FyZCwgQ2FyZENvbnRlbnQsIENhcmRIZWFkZXIsIENhcmRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IExpdmVTdGF0dXNCYWRnZSBmcm9tICJAL2NvbXBvbmVudHMvTGl2ZVN0YXR1c0JhZGdlLnZ1ZSI7CmltcG9ydCBDb25maXJtRGFuZ2VyUG9wb3ZlciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0NvbmZpcm1EYW5nZXJQb3BvdmVyLnZ1ZSI7CmltcG9ydCBIdW1hbkZyaWVuZGx5VGltZSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0h1bWFuRnJpZW5kbHlUaW1lLnZ1ZSI7CmltcG9ydCBPdmVyZmxvd1Rvb2x0aXBUZXh0IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vT3ZlcmZsb3dUb29sdGlwVGV4dC52dWUiOwppbXBvcnQgeyB0eXBlIERETlNUYXJnZXRTdW1tYXJ5UGF5bG9hZCB9IGZyb20gIkAvbGliL2FwaS9kZG5zIjsKaW1wb3J0IHsKICBnZXRUYXJnZXREaXNwbGF5TmFtZSwKICBzaG91bGRTaG93SVB2NEZvclNjb3BlLAogIHNob3VsZFNob3dJUHY2Rm9yU2NvcGUsCn0gZnJvbSAiLi9tb2RlbCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjb3B5SXBBZGRyZXNzOiAobGFiZWw6ICJJUHY0IiB8ICJJUHY2IiwgdmFsdWU6IHN0cmluZyB8IG51bGwpID0+IHZvaWQ7CiAgZGVsZXRpbmdUYXJnZXRJZDogc3RyaW5nOwogIGRlbGV0ZVRhcmdldDogKHRhcmdldDogREROU1RhcmdldFN1bW1hcnlQYXlsb2FkKSA9PiBQcm9taXNlPHZvaWQ+OwogIGVkaXRUYXJnZXQ6ICh0YXJnZXRJZDogc3RyaW5nKSA9PiB2b2lkOwogIGdldExhc3RDaGVja1Rvb2x0aXBMaW5lczogKHRhcmdldDogREROU1RhcmdldFN1bW1hcnlQYXlsb2FkKSA9PiBzdHJpbmdbXTsKICBpc1NhdmluZ1RhcmdldDogYm9vbGVhbjsKICB0YXJnZXRzOiBERE5TVGFyZ2V0U3VtbWFyeVBheWxvYWRbXTsKICB0ZXN0aW5nVGFyZ2V0SWQ6IHN0cmluZzsKICB0ZXN0VGFyZ2V0OiAodGFyZ2V0OiBERE5TVGFyZ2V0U3VtbWFyeVBheWxvYWQpID0+IFByb21pc2U8dm9pZD47CiAgdG9nZ2xpbmdUYXJnZXRJZDogc3RyaW5nOwogIHRvZ2dsZVRhcmdldDogKAogICAgdGFyZ2V0OiBERE5TVGFyZ2V0U3VtbWFyeVBheWxvYWQsCiAgICBlbmFibGVkOiBib29sZWFuLAogICkgPT4gUHJvbWlzZTx2b2lkPjsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgY3JlYXRlOiBbXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwoKY29uc3QgaGFzVGFyZ2V0cyA9IGNvbXB1dGVkKCgpID0+IHByb3BzLnRhcmdldHMubGVuZ3RoID4gMCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxDYXJkIGNsYXNzPSJnYXAtMiI+CiAgICA8Q2FyZEhlYWRlcj4KICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLXN0YXJ0IHNtOmp1c3RpZnktYmV0d2VlbiIKICAgICAgPgogICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSI+CiAgICAgICAgICA8Q2FyZFRpdGxlIGNsYXNzPSJ0ZXh0LWJhc2UiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLmV4dHJhRG9tYWluc1RpdGxlIikgfX0KICAgICAgICAgIDwvQ2FyZFRpdGxlPgogICAgICAgICAgPHAgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge3sgdCgiYWRtaW4uZGRucy5leHRyYURvbWFpbnNEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgQGNsaWNrPSJlbWl0KCdjcmVhdGUnKSI+CiAgICAgICAgICA8UGx1cyBjbGFzcz0ibXItMS41IGgtNCB3LTQiIC8+CiAgICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLmFkZERvbWFpbiIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvZGl2PgogICAgPC9DYXJkSGVhZGVyPgogICAgPENhcmRDb250ZW50IGNsYXNzPSJzcGFjZS15LTMiPgogICAgICA8ZGl2CiAgICAgICAgdi1pZj0iIWhhc1RhcmdldHMiCiAgICAgICAgY2xhc3M9InJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1kYXNoZWQgcHgtNCBweS02IHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICA+CiAgICAgICAge3sgdCgiYWRtaW4uZGRucy5leHRyYURvbWFpbnNFbXB0eSIpIH19CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiB2LWVsc2UgY2xhc3M9InNwYWNlLXktMyI+CiAgICAgICAgPGRpdgogICAgICAgICAgdi1mb3I9InRhcmdldCBpbiB0YXJnZXRzIgogICAgICAgICAgOmtleT0idGFyZ2V0LmlkIgogICAgICAgICAgY2xhc3M9InJvdW5kZWQteGwgYm9yZGVyIGJnLWNhcmQgcHgtNCBweS00IgogICAgICAgID4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTQgbGc6ZmxleC1yb3cgbGc6aXRlbXMtc3RhcnQgbGc6anVzdGlmeS1iZXR3ZWVuIgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIHNwYWNlLXktMiI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgICAge3sgZ2V0VGFyZ2V0RGlzcGxheU5hbWUodGFyZ2V0KSB9fQogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgPExpdmVTdGF0dXNCYWRnZQogICAgICAgICAgICAgICAgICA6YWN0aXZlPSJ0YXJnZXQuZW5hYmxlZCIKICAgICAgICAgICAgICAgICAgOmFjdGl2ZS1sYWJlbD0idCgnYWRtaW4uZGRucy5hY3RpdmVMYWJlbCcpIgogICAgICAgICAgICAgICAgICA6aW5hY3RpdmUtbGFiZWw9InQoJ2FkbWluLmRkbnMuc3RvcHBlZExhYmVsJykiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxwCiAgICAgICAgICAgICAgICB2LWlmPSJ0YXJnZXQuZG9tYWluU3VtbWFyeSIKICAgICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBicmVhay1hbGwiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgdGFyZ2V0LmRvbWFpblN1bW1hcnkgfX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt7IHRhcmdldC5wcm92aWRlckxhYmVsIH19CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDxwCiAgICAgICAgICAgICAgICB2LWlmPSJ0YXJnZXQubGFzdENoZWNrLm1lc3NhZ2UiCiAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgdGFyZ2V0Lmxhc3RDaGVjay5tZXNzYWdlIH19CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTMgc206Z3JpZC1jb2xzLTMgbGc6bWluLXctWzM2MHB4XSI+CiAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgdi1pZj0ic2hvdWxkU2hvd0lQdjRGb3JTY29wZSh0YXJnZXQudXBkYXRlU2NvcGUpIgogICAgICAgICAgICAgICAgY2xhc3M9InJvdW5kZWQtbGcgcHgtMyBweS0zIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxwCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LVsxMHB4XSB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLmlwdjRBZGRyZXNzIikgfX0KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgICBjbGFzcz0ibXQtMSBpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgcm91bmRlZC1zbSB0ZXh0LWxlZnQgdGV4dC1zbSBmb250LW1vbm8gZm9udC1tZWRpdW0gdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6dGV4dC1wcmltYXJ5IGZvY3VzLXZpc2libGU6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0yIGZvY3VzLXZpc2libGU6cmluZy1yaW5nIGZvY3VzLXZpc2libGU6cmluZy1vZmZzZXQtMiBkaXNhYmxlZDpwb2ludGVyLWV2ZW50cy1ub25lIGRpc2FibGVkOnRleHQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSIhdGFyZ2V0Lmxhc3RJUC5pcHY0IgogICAgICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0iCiAgICAgICAgICAgICAgICAgICAgdGFyZ2V0Lmxhc3RJUC5pcHY0CiAgICAgICAgICAgICAgICAgICAgICA/IHQoJ2FkbWluLmRkbnMuY29weUFkZHJlc3NBcmlhJywgewogICAgICAgICAgICAgICAgICAgICAgICAgIHZlcnNpb246ICdJUHY0JywKICAgICAgICAgICAgICAgICAgICAgICAgICBhZGRyZXNzOiB0YXJnZXQubGFzdElQLmlwdjQsCiAgICAgICAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICAgICAgICA6IHQoJ2FkbWluLmRkbnMuY29weVVuYXZhaWxhYmxlJywgeyB2ZXJzaW9uOiAnSVB2NCcgfSkKICAgICAgICAgICAgICAgICAgIgogICAgICAgICAgICAgICAgICBAY2xpY2s9ImNvcHlJcEFkZHJlc3MoJ0lQdjQnLCB0YXJnZXQubGFzdElQLmlwdjQpIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7eyB0YXJnZXQubGFzdElQLmlwdjQgfHwgIi0tLS4tLS0uLS0tLi0tLSIgfX0KICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIHYtaWY9InNob3VsZFNob3dJUHY2Rm9yU2NvcGUodGFyZ2V0LnVwZGF0ZVNjb3BlKSIKICAgICAgICAgICAgICAgIGNsYXNzPSJyb3VuZGVkLWxnIHB4LTMgcHktMyIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8cAogICAgICAgICAgICAgICAgICBjbGFzcz0idGV4dC1bMTBweF0gdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZGRucy5pcHY2QWRkcmVzcyIpIH19CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgY2xhc3M9Im10LTEgaW5saW5lLWZsZXggbWluLXctMCBtYXgtdy1mdWxsIGl0ZW1zLWNlbnRlciByb3VuZGVkLXNtIHRleHQtbGVmdCB0cmFuc2l0aW9uLWNvbG9ycyBob3Zlcjp0ZXh0LXByaW1hcnkgZm9jdXMtdmlzaWJsZTpvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpyaW5nLTIgZm9jdXMtdmlzaWJsZTpyaW5nLXJpbmcgZm9jdXMtdmlzaWJsZTpyaW5nLW9mZnNldC0yIGRpc2FibGVkOnBvaW50ZXItZXZlbnRzLW5vbmUgZGlzYWJsZWQ6dGV4dC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9IiF0YXJnZXQubGFzdElQLmlwdjYiCiAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSIKICAgICAgICAgICAgICAgICAgICB0YXJnZXQubGFzdElQLmlwdjYKICAgICAgICAgICAgICAgICAgICAgID8gdCgnYWRtaW4uZGRucy5jb3B5QWRkcmVzc0FyaWEnLCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgdmVyc2lvbjogJ0lQdjYnLAogICAgICAgICAgICAgICAgICAgICAgICAgIGFkZHJlc3M6IHRhcmdldC5sYXN0SVAuaXB2NiwKICAgICAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgICAgIDogdCgnYWRtaW4uZGRucy5jb3B5VW5hdmFpbGFibGUnLCB7IHZlcnNpb246ICdJUHY2JyB9KQogICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICAgIEBjbGljaz0iY29weUlwQWRkcmVzcygnSVB2NicsIHRhcmdldC5sYXN0SVAuaXB2NikiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxPdmVyZmxvd1Rvb2x0aXBUZXh0CiAgICAgICAgICAgICAgICAgICAgYXM9InNwYW4iCiAgICAgICAgICAgICAgICAgICAgOnRleHQ9IgogICAgICAgICAgICAgICAgICAgICAgdGFyZ2V0Lmxhc3RJUC5pcHY2IHx8IHQoJ2FkbWluLmRkbnMuYWRkcmVzc05vdERldGVjdGVkJykKICAgICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICAgICAgY2xhc3M9InRleHQtc20gZm9udC1tb25vIGZvbnQtbWVkaXVtIgogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0icm91bmRlZC1sZyBweC0zIHB5LTMiPgogICAgICAgICAgICAgICAgPHAKICAgICAgICAgICAgICAgICAgY2xhc3M9InRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmRkbnMubGFzdENoZWNrIikgfX0KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Im10LTEgdGV4dC1zbSI+CiAgICAgICAgICAgICAgICAgIDxIdW1hbkZyaWVuZGx5VGltZQogICAgICAgICAgICAgICAgICAgIDp2YWx1ZT0idGFyZ2V0Lmxhc3RDaGVjay5jaGVja2VkX2F0IgogICAgICAgICAgICAgICAgICAgIDplbXB0eS10ZXh0PSJ0KCdhZG1pbi5kZG5zLm5ldmVyJykiCiAgICAgICAgICAgICAgICAgICAgOnRvb2x0aXAtbGluZXM9ImdldExhc3RDaGVja1Rvb2x0aXBMaW5lcyh0YXJnZXQpIgogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzcz0ibXQtNCBmbGV4IGZsZXgtd3JhcCBqdXN0aWZ5LWVuZCBnYXAtMiI+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmdUYXJnZXQiCiAgICAgICAgICAgICAgQGNsaWNrPSJlZGl0VGFyZ2V0KHRhcmdldC5pZCkiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLmVkaXQiKSB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJ0ZXN0aW5nVGFyZ2V0SWQgPT09IHRhcmdldC5pZCIKICAgICAgICAgICAgICBAY2xpY2s9InRlc3RUYXJnZXQodGFyZ2V0KSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxSZWZyZXNoQ3cKICAgICAgICAgICAgICAgIHYtaWY9InRlc3RpbmdUYXJnZXRJZCA9PT0gdGFyZ2V0LmlkIgogICAgICAgICAgICAgICAgY2xhc3M9Im1yLTEuNSBoLTMuNSB3LTMuNSBhbmltYXRlLXNwaW4iCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgdGVzdGluZ1RhcmdldElkID09PSB0YXJnZXQuaWQKICAgICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5kZG5zLnVwZGF0aW5nIikKICAgICAgICAgICAgICAgICAgOiB0KCJhZG1pbi5kZG5zLnVwZGF0ZU5vdyIpCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0idG9nZ2xpbmdUYXJnZXRJZCA9PT0gdGFyZ2V0LmlkIgogICAgICAgICAgICAgIEBjbGljaz0idG9nZ2xlVGFyZ2V0KHRhcmdldCwgIXRhcmdldC5lbmFibGVkKSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICB0YXJnZXQuZW5hYmxlZCA/IHQoImFkbWluLmRkbnMuc3RvcCIpIDogdCgiYWRtaW4uZGRucy5zdGFydCIpCiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDxDb25maXJtRGFuZ2VyUG9wb3ZlcgogICAgICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4uZGRucy5kZWxldGVFeHRyYVRpdGxlJykiCiAgICAgICAgICAgICAgOmRlc2NyaXB0aW9uPSIKICAgICAgICAgICAgICAgIHQoJ2FkbWluLmRkbnMuZGVsZXRlRXh0cmFEZXNjcmlwdGlvbicsIHsKICAgICAgICAgICAgICAgICAgbmFtZTogZ2V0VGFyZ2V0RGlzcGxheU5hbWUodGFyZ2V0KSwKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgIgogICAgICAgICAgICAgIDpsb2FkaW5nPSJkZWxldGluZ1RhcmdldElkID09PSB0YXJnZXQuaWQiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJkZWxldGluZ1RhcmdldElkID09PSB0YXJnZXQuaWQiCiAgICAgICAgICAgICAgOm9uLWNvbmZpcm09IigpID0+IGRlbGV0ZVRhcmdldCh0YXJnZXQpIgogICAgICAgICAgICAgIGNvbnRlbnQtY2xhc3M9InctNzIgdGV4dC1sZWZ0IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgICAgOmRpc2FibGVkPSJkZWxldGluZ1RhcmdldElkID09PSB0YXJnZXQuaWQiCiAgICAgICAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LWRlc3RydWN0aXZlIGhvdmVyOnRleHQtZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxUcmFzaDIgY2xhc3M9Im1yLTEuNSBoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgICAgICAge3sKICAgICAgICAgICAgICAgICAgICBkZWxldGluZ1RhcmdldElkID09PSB0YXJnZXQuaWQKICAgICAgICAgICAgICAgICAgICAgID8gdCgiYWRtaW4uZGRucy5kZWxldGluZyIpCiAgICAgICAgICAgICAgICAgICAgICA6IHQoImFkbWluLmRkbnMuZGVsZXRlIikKICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgIDwvQ29uZmlybURhbmdlclBvcG92ZXI+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L0NhcmRDb250ZW50PgogIDwvQ2FyZD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Plus, RefreshCw, Trash2 } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import LiveStatusBadge from "@/components/LiveStatusBadge.vue";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import HumanFriendlyTime from "@admin-shared/components/common/HumanFriendlyTime.vue";
+import OverflowTooltipText from "@admin-shared/components/common/OverflowTooltipText.vue";
+import { type DDNSTargetSummaryPayload } from "@/lib/api/ddns";
+import {
+  getTargetDisplayName,
+  shouldShowIPv4ForScope,
+  shouldShowIPv6ForScope,
+} from "./model";
+
+const props = defineProps<{
+  copyIpAddress: (label: "IPv4" | "IPv6", value: string | null) => void;
+  deletingTargetId: string;
+  deleteTarget: (target: DDNSTargetSummaryPayload) => Promise<void>;
+  editTarget: (targetId: string) => void;
+  getLastCheckTooltipLines: (target: DDNSTargetSummaryPayload) => string[];
+  isSavingTarget: boolean;
+  targets: DDNSTargetSummaryPayload[];
+  testingTargetId: string;
+  testTarget: (target: DDNSTargetSummaryPayload) => Promise<void>;
+  togglingTargetId: string;
+  toggleTarget: (
+    target: DDNSTargetSummaryPayload,
+    enabled: boolean,
+  ) => Promise<void>;
+}>();
+
+const emit = defineEmits<{
+  create: [];
+}>();
+
+const { t } = useI18n();
+
+const hasTargets = computed(() => props.targets.length > 0);
+</script>
+
+<template>
+  <Card class="gap-2">
+    <CardHeader>
+      <div
+        class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+      >
+        <div class="space-y-1">
+          <CardTitle class="text-base">
+            {{ t("admin.ddns.extraDomainsTitle") }}
+          </CardTitle>
+          <p class="text-sm text-muted-foreground">
+            {{ t("admin.ddns.extraDomainsDescription") }}
+          </p>
+        </div>
+        <Button size="sm" @click="emit('create')">
+          <Plus class="mr-1.5 h-4 w-4" />
+          {{ t("admin.ddns.addDomain") }}
+        </Button>
+      </div>
+    </CardHeader>
+    <CardContent class="space-y-3">
+      <div
+        v-if="!hasTargets"
+        class="rounded-xl border border-dashed px-4 py-6 text-sm text-muted-foreground"
+      >
+        {{ t("admin.ddns.extraDomainsEmpty") }}
+      </div>
+
+      <div v-else class="space-y-3">
+        <div
+          v-for="target in targets"
+          :key="target.id"
+          class="rounded-xl border bg-card px-4 py-4"
+        >
+          <div
+            class="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between"
+          >
+            <div class="min-w-0 space-y-2">
+              <div class="flex flex-wrap items-center gap-2">
+                <p class="text-sm font-medium">
+                  {{ getTargetDisplayName(target) }}
+                </p>
+                <LiveStatusBadge
+                  :active="target.enabled"
+                  :active-label="t('admin.ddns.activeLabel')"
+                  :inactive-label="t('admin.ddns.stoppedLabel')"
+                />
+              </div>
+              <p
+                v-if="target.domainSummary"
+                class="text-sm text-muted-foreground break-all"
+              >
+                {{ target.domainSummary }}
+              </p>
+              <p class="text-xs text-muted-foreground">
+                {{ target.providerLabel }}
+              </p>
+              <p
+                v-if="target.lastCheck.message"
+                class="text-xs text-muted-foreground"
+              >
+                {{ target.lastCheck.message }}
+              </p>
+            </div>
+
+            <div class="grid gap-3 sm:grid-cols-3 lg:min-w-[360px]">
+              <div
+                v-if="shouldShowIPv4ForScope(target.updateScope)"
+                class="rounded-lg px-3 py-3"
+              >
+                <p
+                  class="text-[10px] uppercase tracking-wider text-muted-foreground"
+                >
+                  {{ t("admin.ddns.ipv4Address") }}
+                </p>
+                <button
+                  type="button"
+                  class="mt-1 inline-flex items-center rounded-sm text-left text-sm font-mono font-medium transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:text-foreground"
+                  :disabled="!target.lastIP.ipv4"
+                  :aria-label="
+                    target.lastIP.ipv4
+                      ? t('admin.ddns.copyAddressAria', {
+                          version: 'IPv4',
+                          address: target.lastIP.ipv4,
+                        })
+                      : t('admin.ddns.copyUnavailable', { version: 'IPv4' })
+                  "
+                  @click="copyIpAddress('IPv4', target.lastIP.ipv4)"
+                >
+                  {{ target.lastIP.ipv4 || "---.---.---.---" }}
+                </button>
+              </div>
+              <div
+                v-if="shouldShowIPv6ForScope(target.updateScope)"
+                class="rounded-lg px-3 py-3"
+              >
+                <p
+                  class="text-[10px] uppercase tracking-wider text-muted-foreground"
+                >
+                  {{ t("admin.ddns.ipv6Address") }}
+                </p>
+                <button
+                  type="button"
+                  class="mt-1 inline-flex min-w-0 max-w-full items-center rounded-sm text-left transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:text-foreground"
+                  :disabled="!target.lastIP.ipv6"
+                  :aria-label="
+                    target.lastIP.ipv6
+                      ? t('admin.ddns.copyAddressAria', {
+                          version: 'IPv6',
+                          address: target.lastIP.ipv6,
+                        })
+                      : t('admin.ddns.copyUnavailable', { version: 'IPv6' })
+                  "
+                  @click="copyIpAddress('IPv6', target.lastIP.ipv6)"
+                >
+                  <OverflowTooltipText
+                    as="span"
+                    :text="
+                      target.lastIP.ipv6 || t('admin.ddns.addressNotDetected')
+                    "
+                    class="text-sm font-mono font-medium"
+                  />
+                </button>
+              </div>
+              <div class="rounded-lg px-3 py-3">
+                <p
+                  class="text-[10px] uppercase tracking-wider text-muted-foreground"
+                >
+                  {{ t("admin.ddns.lastCheck") }}
+                </p>
+                <div class="mt-1 text-sm">
+                  <HumanFriendlyTime
+                    :value="target.lastCheck.checked_at"
+                    :empty-text="t('admin.ddns.never')"
+                    :tooltip-lines="getLastCheckTooltipLines(target)"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 flex flex-wrap justify-end gap-2">
+            <Button
+              variant="outline"
+              size="sm"
+              :disabled="isSavingTarget"
+              @click="editTarget(target.id)"
+            >
+              {{ t("admin.ddns.edit") }}
+            </Button>
+            <Button
+              variant="outline"
+              size="sm"
+              :disabled="testingTargetId === target.id"
+              @click="testTarget(target)"
+            >
+              <RefreshCw
+                v-if="testingTargetId === target.id"
+                class="mr-1.5 h-3.5 w-3.5 animate-spin"
+              />
+              {{
+                testingTargetId === target.id
+                  ? t("admin.ddns.updating")
+                  : t("admin.ddns.updateNow")
+              }}
+            </Button>
+            <Button
+              variant="outline"
+              size="sm"
+              :disabled="togglingTargetId === target.id"
+              @click="toggleTarget(target, !target.enabled)"
+            >
+              {{
+                target.enabled ? t("admin.ddns.stop") : t("admin.ddns.start")
+              }}
+            </Button>
+            <ConfirmDangerPopover
+              :title="t('admin.ddns.deleteExtraTitle')"
+              :description="
+                t('admin.ddns.deleteExtraDescription', {
+                  name: getTargetDisplayName(target),
+                })
+              "
+              :loading="deletingTargetId === target.id"
+              :disabled="deletingTargetId === target.id"
+              :on-confirm="() => deleteTarget(target)"
+              content-class="w-72 text-left"
+            >
+              <template #trigger>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  :disabled="deletingTargetId === target.id"
+                  class="text-destructive hover:text-destructive"
+                >
+                  <Trash2 class="mr-1.5 h-3.5 w-3.5" />
+                  {{
+                    deletingTargetId === target.id
+                      ? t("admin.ddns.deleting")
+                      : t("admin.ddns.delete")
+                  }}
+                </Button>
+              </template>
+            </ConfirmDangerPopover>
+          </div>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</template>

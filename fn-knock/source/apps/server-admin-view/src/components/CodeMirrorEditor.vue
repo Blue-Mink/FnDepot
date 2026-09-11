@@ -1,1 +1,269 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7CiAgZGVmYXVsdEtleW1hcCwKICBoaXN0b3J5LAogIGhpc3RvcnlLZXltYXAsCiAgaW5kZW50V2l0aFRhYiwKfSBmcm9tICJAY29kZW1pcnJvci9jb21tYW5kcyI7CmltcG9ydCB7CiAgZGVmYXVsdEhpZ2hsaWdodFN0eWxlLAogIFN0cmVhbUxhbmd1YWdlLAogIHN5bnRheEhpZ2hsaWdodGluZywKfSBmcm9tICJAY29kZW1pcnJvci9sYW5ndWFnZSI7CmltcG9ydCB7IGNzcyB9IGZyb20gIkBjb2RlbWlycm9yL2xlZ2FjeS1tb2Rlcy9tb2RlL2NzcyI7CmltcG9ydCB7IGphdmFzY3JpcHQsIGpzb24gfSBmcm9tICJAY29kZW1pcnJvci9sZWdhY3ktbW9kZXMvbW9kZS9qYXZhc2NyaXB0IjsKaW1wb3J0IHsgdG9tbCB9IGZyb20gIkBjb2RlbWlycm9yL2xlZ2FjeS1tb2Rlcy9tb2RlL3RvbWwiOwppbXBvcnQgeyBodG1sLCB4bWwgfSBmcm9tICJAY29kZW1pcnJvci9sZWdhY3ktbW9kZXMvbW9kZS94bWwiOwppbXBvcnQgeyBDb21wYXJ0bWVudCwgRWRpdG9yU3RhdGUsIHR5cGUgRXh0ZW5zaW9uIH0gZnJvbSAiQGNvZGVtaXJyb3Ivc3RhdGUiOwppbXBvcnQgewogIGRyYXdTZWxlY3Rpb24sCiAgRWRpdG9yVmlldywKICBoaWdobGlnaHRBY3RpdmVMaW5lLAogIGhpZ2hsaWdodEFjdGl2ZUxpbmVHdXR0ZXIsCiAga2V5bWFwLAogIGxpbmVOdW1iZXJzLAp9IGZyb20gIkBjb2RlbWlycm9yL3ZpZXciOwppbXBvcnQgewogIGNvbXB1dGVkLAogIG9uQmVmb3JlVW5tb3VudCwKICBvbk1vdW50ZWQsCiAgcmVmLAogIHNoYWxsb3dSZWYsCiAgd2F0Y2gsCiAgdHlwZSBIVE1MQXR0cmlidXRlcywKfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIjsKCmV4cG9ydCB0eXBlIENvZGVFZGl0b3JMYW5ndWFnZSA9CiAgfCAidGV4dCIKICB8ICJ0b21sIgogIHwgImpzb24iCiAgfCAiaHRtbCIKICB8ICJjc3MiCiAgfCAieG1sIgogIHwgImphdmFzY3JpcHQiOwoKaW50ZXJmYWNlIFByb3BzIHsKICBtb2RlbFZhbHVlOiBzdHJpbmc7CiAgbGFuZ3VhZ2U/OiBDb2RlRWRpdG9yTGFuZ3VhZ2U7CiAgbWluSGVpZ2h0Pzogc3RyaW5nOwogIGFyaWFMYWJlbD86IHN0cmluZzsKICBmbHVzaD86IGJvb2xlYW47CiAgY2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXTsKfQoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoZGVmaW5lUHJvcHM8UHJvcHM+KCksIHsKICBsYW5ndWFnZTogInRleHQiLAogIG1pbkhlaWdodDogIjI2MHB4IiwKfSk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIChldmVudDogInVwZGF0ZTptb2RlbFZhbHVlIiwgdmFsdWU6IHN0cmluZyk6IHZvaWQ7Cn0+KCk7Cgpjb25zdCBob3N0UmVmID0gcmVmPEhUTUxEaXZFbGVtZW50IHwgbnVsbD4obnVsbCk7CmNvbnN0IGVkaXRvclZpZXcgPSBzaGFsbG93UmVmPEVkaXRvclZpZXcgfCBudWxsPihudWxsKTsKY29uc3QgbGFuZ3VhZ2VDb21wYXJ0bWVudCA9IG5ldyBDb21wYXJ0bWVudCgpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IGxhbmd1YWdlRXh0ZW5zaW9uczogUmVjb3JkPAogIEV4Y2x1ZGU8Q29kZUVkaXRvckxhbmd1YWdlLCAidGV4dCI+LAogIEV4dGVuc2lvbgo+ID0gewogIHRvbWw6IFN0cmVhbUxhbmd1YWdlLmRlZmluZSh0b21sKSwKICBqc29uOiBTdHJlYW1MYW5ndWFnZS5kZWZpbmUoanNvbiksCiAgaHRtbDogU3RyZWFtTGFuZ3VhZ2UuZGVmaW5lKGh0bWwpLAogIGNzczogU3RyZWFtTGFuZ3VhZ2UuZGVmaW5lKGNzcyksCiAgeG1sOiBTdHJlYW1MYW5ndWFnZS5kZWZpbmUoeG1sKSwKICBqYXZhc2NyaXB0OiBTdHJlYW1MYW5ndWFnZS5kZWZpbmUoamF2YXNjcmlwdCksCn07Cgpjb25zdCBzaGVsbENsYXNzID0gY29tcHV0ZWQoKCkgPT4KICBjbigKICAgICJjb2RlLWVkaXRvci1zaGVsbCIsCiAgICBwcm9wcy5mbHVzaCAmJiAiY29kZS1lZGl0b3Itc2hlbGwtLWZsdXNoIiwKICAgIHByb3BzLmNsYXNzLAogICksCik7CmNvbnN0IHNoZWxsU3R5bGUgPSBjb21wdXRlZCgoKSA9PiAoewogICItLWNvZGUtZWRpdG9yLW1pbi1oZWlnaHQiOiBwcm9wcy5taW5IZWlnaHQsCn0pKTsKY29uc3QgcmVzb2x2ZWRBcmlhTGFiZWwgPSBjb21wdXRlZCgKICAoKSA9PiBwcm9wcy5hcmlhTGFiZWwgfHwgdCgiYWRtaW4uY29tcG9uZW50cy5jb2RlTWlycm9yRWRpdG9yLmFyaWFMYWJlbCIpLAopOwoKZnVuY3Rpb24gZ2V0TGFuZ3VhZ2VFeHRlbnNpb24obGFuZ3VhZ2U6IENvZGVFZGl0b3JMYW5ndWFnZSk6IEV4dGVuc2lvbiB7CiAgaWYgKGxhbmd1YWdlID09PSAidGV4dCIpIHJldHVybiBbXTsKICByZXR1cm4gbGFuZ3VhZ2VFeHRlbnNpb25zW2xhbmd1YWdlXSA/PyBbXTsKfQoKZnVuY3Rpb24gYnVpbGRFZGl0b3JTdGF0ZShkb2M6IHN0cmluZykgewogIHJldHVybiBFZGl0b3JTdGF0ZS5jcmVhdGUoewogICAgZG9jLAogICAgZXh0ZW5zaW9uczogWwogICAgICBsaW5lTnVtYmVycygpLAogICAgICBoaXN0b3J5KCksCiAgICAgIGRyYXdTZWxlY3Rpb24oKSwKICAgICAgaGlnaGxpZ2h0QWN0aXZlTGluZUd1dHRlcigpLAogICAgICBoaWdobGlnaHRBY3RpdmVMaW5lKCksCiAgICAgIHN5bnRheEhpZ2hsaWdodGluZyhkZWZhdWx0SGlnaGxpZ2h0U3R5bGUsIHsgZmFsbGJhY2s6IHRydWUgfSksCiAgICAgIGxhbmd1YWdlQ29tcGFydG1lbnQub2YoZ2V0TGFuZ3VhZ2VFeHRlbnNpb24ocHJvcHMubGFuZ3VhZ2UpKSwKICAgICAga2V5bWFwLm9mKFsuLi5kZWZhdWx0S2V5bWFwLCAuLi5oaXN0b3J5S2V5bWFwLCBpbmRlbnRXaXRoVGFiXSksCiAgICAgIEVkaXRvclZpZXcubGluZVdyYXBwaW5nLAogICAgICBFZGl0b3JWaWV3LmNvbnRlbnRBdHRyaWJ1dGVzLm9mKHsKICAgICAgICAiYXJpYS1sYWJlbCI6IHJlc29sdmVkQXJpYUxhYmVsLnZhbHVlLAogICAgICB9KSwKICAgICAgRWRpdG9yVmlldy51cGRhdGVMaXN0ZW5lci5vZigodXBkYXRlKSA9PiB7CiAgICAgICAgaWYgKCF1cGRhdGUuZG9jQ2hhbmdlZCkgcmV0dXJuOwogICAgICAgIGVtaXQoInVwZGF0ZTptb2RlbFZhbHVlIiwgdXBkYXRlLnN0YXRlLmRvYy50b1N0cmluZygpKTsKICAgICAgfSksCiAgICBdLAogIH0pOwp9Cgpvbk1vdW50ZWQoKCkgPT4gewogIGlmICghaG9zdFJlZi52YWx1ZSkgcmV0dXJuOwogIGVkaXRvclZpZXcudmFsdWUgPSBuZXcgRWRpdG9yVmlldyh7CiAgICBwYXJlbnQ6IGhvc3RSZWYudmFsdWUsCiAgICBzdGF0ZTogYnVpbGRFZGl0b3JTdGF0ZShwcm9wcy5tb2RlbFZhbHVlKSwKICB9KTsKfSk7Cgp3YXRjaCgKICAoKSA9PiBwcm9wcy5tb2RlbFZhbHVlLAogICh2YWx1ZSkgPT4gewogICAgY29uc3QgdmlldyA9IGVkaXRvclZpZXcudmFsdWU7CiAgICBpZiAoIXZpZXcpIHJldHVybjsKICAgIGNvbnN0IGN1cnJlbnQgPSB2aWV3LnN0YXRlLmRvYy50b1N0cmluZygpOwogICAgaWYgKGN1cnJlbnQgPT09IHZhbHVlKSByZXR1cm47CiAgICB2aWV3LmRpc3BhdGNoKHsKICAgICAgY2hhbmdlczogewogICAgICAgIGZyb206IDAsCiAgICAgICAgdG86IHZpZXcuc3RhdGUuZG9jLmxlbmd0aCwKICAgICAgICBpbnNlcnQ6IHZhbHVlLAogICAgICB9LAogICAgfSk7CiAgfSwKKTsKCndhdGNoKAogICgpID0+IHByb3BzLmxhbmd1YWdlLAogIChsYW5ndWFnZSkgPT4gewogICAgY29uc3QgdmlldyA9IGVkaXRvclZpZXcudmFsdWU7CiAgICBpZiAoIXZpZXcpIHJldHVybjsKICAgIHZpZXcuZGlzcGF0Y2goewogICAgICBlZmZlY3RzOiBsYW5ndWFnZUNvbXBhcnRtZW50LnJlY29uZmlndXJlKGdldExhbmd1YWdlRXh0ZW5zaW9uKGxhbmd1YWdlKSksCiAgICB9KTsKICB9LAopOwoKb25CZWZvcmVVbm1vdW50KCgpID0+IHsKICBlZGl0b3JWaWV3LnZhbHVlPy5kZXN0cm95KCk7CiAgZWRpdG9yVmlldy52YWx1ZSA9IG51bGw7Cn0pOwoKZGVmaW5lRXhwb3NlKHsKICBpbnNlcnRUZXh0KHZhbHVlOiBzdHJpbmcpIHsKICAgIGNvbnN0IHZpZXcgPSBlZGl0b3JWaWV3LnZhbHVlOwogICAgaWYgKCF2aWV3KSByZXR1cm47CiAgICBjb25zdCBzZWxlY3Rpb24gPSB2aWV3LnN0YXRlLnNlbGVjdGlvbi5tYWluOwogICAgdmlldy5kaXNwYXRjaCh7CiAgICAgIGNoYW5nZXM6IHsgZnJvbTogc2VsZWN0aW9uLmZyb20sIHRvOiBzZWxlY3Rpb24udG8sIGluc2VydDogdmFsdWUgfSwKICAgICAgc2VsZWN0aW9uOiB7IGFuY2hvcjogc2VsZWN0aW9uLmZyb20gKyB2YWx1ZS5sZW5ndGggfSwKICAgIH0pOwogICAgdmlldy5mb2N1cygpOwogIH0sCn0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IDpjbGFzcz0ic2hlbGxDbGFzcyIgOnN0eWxlPSJzaGVsbFN0eWxlIj4KICAgIDxkaXYgcmVmPSJob3N0UmVmIiBjbGFzcz0iY29kZS1lZGl0b3ItaG9zdCIgLz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzdHlsZSBzY29wZWQ+Ci5jb2RlLWVkaXRvci1zaGVsbCB7CiAgb3ZlcmZsb3c6IGhpZGRlbjsKICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1jb2xvci1ib3JkZXIpOwogIGJvcmRlci1yYWRpdXM6IGNhbGModmFyKC0tcmFkaXVzKSArIDAuMTI1cmVtKTsKICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoCiAgICAxODBkZWcsCiAgICBjb2xvci1taXgoaW4gb2tsYWIsIHZhcigtLWNvbG9yLW11dGVkKSAzOCUsIHZhcigtLWNvbG9yLWNhcmQpKSAwJSwKICAgIHZhcigtLWNvbG9yLWNhcmQpIDEwMCUKICApOwogIGJveC1zaGFkb3c6IGluc2V0IDAgMXB4IDAgY29sb3ItbWl4KGluIG9rbGFiLCB3aGl0ZSA2MCUsIHRyYW5zcGFyZW50KTsKICB0cmFuc2l0aW9uOgogICAgYm9yZGVyLWNvbG9yIDE1MG1zIGVhc2UsCiAgICBib3gtc2hhZG93IDE1MG1zIGVhc2U7Cn0KCi5jb2RlLWVkaXRvci1zaGVsbDpmb2N1cy13aXRoaW4gewogIGJvcmRlci1jb2xvcjogY29sb3ItbWl4KGluIG9rbGFiLCB2YXIoLS1jb2xvci1yaW5nKSA3MCUsIHZhcigtLWNvbG9yLWJvcmRlcikpOwogIGJveC1zaGFkb3c6CiAgICAwIDAgMCAzcHggY29sb3ItbWl4KGluIG9rbGFiLCB2YXIoLS1jb2xvci1yaW5nKSAxOCUsIHRyYW5zcGFyZW50KSwKICAgIGluc2V0IDAgMXB4IDAgY29sb3ItbWl4KGluIG9rbGFiLCB3aGl0ZSA2MCUsIHRyYW5zcGFyZW50KTsKfQoKLmNvZGUtZWRpdG9yLXNoZWxsLmNvZGUtZWRpdG9yLXNoZWxsLS1mbHVzaCB7CiAgYm9yZGVyOiAwOwogIGJvcmRlci1yYWRpdXM6IDA7CiAgYm94LXNoYWRvdzogbm9uZTsKfQoKLmNvZGUtZWRpdG9yLXNoZWxsLmNvZGUtZWRpdG9yLXNoZWxsLS1mbHVzaDpmb2N1cy13aXRoaW4gewogIGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQ7CiAgYm94LXNoYWRvdzogbm9uZTsKfQoKLmNvZGUtZWRpdG9yLWhvc3QgewogIG1pbi1oZWlnaHQ6IHZhcigtLWNvZGUtZWRpdG9yLW1pbi1oZWlnaHQpOwp9CgouY29kZS1lZGl0b3Itc2hlbGwgOmRlZXAoLmNtLWVkaXRvcikgewogIGhlaWdodDogMTAwJTsKICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsKICBjb2xvcjogdmFyKC0tY29sb3ItZm9yZWdyb3VuZCk7CiAgZm9udC1zaXplOiAxM3B4Owp9CgouY29kZS1lZGl0b3Itc2hlbGwgOmRlZXAoLmNtLXNjcm9sbGVyKSB7CiAgbWluLWhlaWdodDogdmFyKC0tY29kZS1lZGl0b3ItbWluLWhlaWdodCk7CiAgZm9udC1mYW1pbHk6CiAgICAiU0YgTW9ubyIsICJDYXNjYWRpYSBDb2RlIiwgIkpldEJyYWlucyBNb25vIiwgdWktbW9ub3NwYWNlLCBTRk1vbm8tUmVndWxhciwKICAgIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCAiTGliZXJhdGlvbiBNb25vIiwgIkNvdXJpZXIgTmV3IiwgbW9ub3NwYWNlOwogIGxpbmUtaGVpZ2h0OiAxLjY1Owp9CgouY29kZS1lZGl0b3Itc2hlbGwgOmRlZXAoLmNtLWNvbnRlbnQpIHsKICBwYWRkaW5nOiAxNHB4IDAgMThweDsKICBjYXJldC1jb2xvcjogdmFyKC0tY29sb3ItZm9yZWdyb3VuZCk7Cn0KCi5jb2RlLWVkaXRvci1zaGVsbCA6ZGVlcCguY20tbGluZSkgewogIHBhZGRpbmc6IDAgMTZweDsKfQoKLmNvZGUtZWRpdG9yLXNoZWxsIDpkZWVwKC5jbS1ndXR0ZXJzKSB7CiAgbWluLWhlaWdodDogdmFyKC0tY29kZS1lZGl0b3ItbWluLWhlaWdodCk7CiAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQKICAgIGNvbG9yLW1peChpbiBva2xhYiwgdmFyKC0tY29sb3ItYm9yZGVyKSA4NSUsIHRyYW5zcGFyZW50KTsKICBiYWNrZ3JvdW5kOiBjb2xvci1taXgoaW4gb2tsYWIsIHZhcigtLWNvbG9yLW11dGVkKSA2NiUsIHZhcigtLWNvbG9yLWNhcmQpKTsKICBjb2xvcjogdmFyKC0tY29sb3ItbXV0ZWQtZm9yZWdyb3VuZCk7Cn0KCi5jb2RlLWVkaXRvci1zaGVsbCA6ZGVlcCguY20tYWN0aXZlTGluZSkgewogIGJhY2tncm91bmQ6IGNvbG9yLW1peChpbiBva2xhYiwgdmFyKC0tY29sb3ItbXV0ZWQpIDQ2JSwgdHJhbnNwYXJlbnQpOwp9CgouY29kZS1lZGl0b3Itc2hlbGwgOmRlZXAoLmNtLWFjdGl2ZUxpbmVHdXR0ZXIpIHsKICBiYWNrZ3JvdW5kOiBjb2xvci1taXgoaW4gb2tsYWIsIHZhcigtLWNvbG9yLW11dGVkKSA3NiUsIHZhcigtLWNvbG9yLWNhcmQpKTsKICBjb2xvcjogdmFyKC0tY29sb3ItZm9yZWdyb3VuZCk7Cn0KCi5jb2RlLWVkaXRvci1zaGVsbCA6ZGVlcCguY20tc2VsZWN0aW9uQmFja2dyb3VuZCksCi5jb2RlLWVkaXRvci1zaGVsbCA6ZGVlcCguY20tY29udGVudCA6OnNlbGVjdGlvbikgewogIGJhY2tncm91bmQ6IGNvbG9yLW1peChpbiBva2xhYiwgdmFyKC0tY29sb3ItcHJpbWFyeSkgMjYlLCB3aGl0ZSA3NCUpOwp9Cjwvc3R5bGU+Cg==
+<script setup lang="ts">
+import {
+  defaultKeymap,
+  history,
+  historyKeymap,
+  indentWithTab,
+} from "@codemirror/commands";
+import {
+  defaultHighlightStyle,
+  StreamLanguage,
+  syntaxHighlighting,
+} from "@codemirror/language";
+import { css } from "@codemirror/legacy-modes/mode/css";
+import { javascript, json } from "@codemirror/legacy-modes/mode/javascript";
+import { toml } from "@codemirror/legacy-modes/mode/toml";
+import { html, xml } from "@codemirror/legacy-modes/mode/xml";
+import { Compartment, EditorState, type Extension } from "@codemirror/state";
+import {
+  drawSelection,
+  EditorView,
+  highlightActiveLine,
+  highlightActiveLineGutter,
+  keymap,
+  lineNumbers,
+} from "@codemirror/view";
+import {
+  computed,
+  onBeforeUnmount,
+  onMounted,
+  ref,
+  shallowRef,
+  watch,
+  type HTMLAttributes,
+} from "vue";
+import { useI18n } from "vue-i18n";
+import { cn } from "@/lib/utils";
+
+export type CodeEditorLanguage =
+  | "text"
+  | "toml"
+  | "json"
+  | "html"
+  | "css"
+  | "xml"
+  | "javascript";
+
+interface Props {
+  modelValue: string;
+  language?: CodeEditorLanguage;
+  minHeight?: string;
+  ariaLabel?: string;
+  flush?: boolean;
+  class?: HTMLAttributes["class"];
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  language: "text",
+  minHeight: "260px",
+});
+
+const emit = defineEmits<{
+  (event: "update:modelValue", value: string): void;
+}>();
+
+const hostRef = ref<HTMLDivElement | null>(null);
+const editorView = shallowRef<EditorView | null>(null);
+const languageCompartment = new Compartment();
+const { t } = useI18n();
+
+const languageExtensions: Record<
+  Exclude<CodeEditorLanguage, "text">,
+  Extension
+> = {
+  toml: StreamLanguage.define(toml),
+  json: StreamLanguage.define(json),
+  html: StreamLanguage.define(html),
+  css: StreamLanguage.define(css),
+  xml: StreamLanguage.define(xml),
+  javascript: StreamLanguage.define(javascript),
+};
+
+const shellClass = computed(() =>
+  cn(
+    "code-editor-shell",
+    props.flush && "code-editor-shell--flush",
+    props.class,
+  ),
+);
+const shellStyle = computed(() => ({
+  "--code-editor-min-height": props.minHeight,
+}));
+const resolvedAriaLabel = computed(
+  () => props.ariaLabel || t("admin.components.codeMirrorEditor.ariaLabel"),
+);
+
+function getLanguageExtension(language: CodeEditorLanguage): Extension {
+  if (language === "text") return [];
+  return languageExtensions[language] ?? [];
+}
+
+function buildEditorState(doc: string) {
+  return EditorState.create({
+    doc,
+    extensions: [
+      lineNumbers(),
+      history(),
+      drawSelection(),
+      highlightActiveLineGutter(),
+      highlightActiveLine(),
+      syntaxHighlighting(defaultHighlightStyle, { fallback: true }),
+      languageCompartment.of(getLanguageExtension(props.language)),
+      keymap.of([...defaultKeymap, ...historyKeymap, indentWithTab]),
+      EditorView.lineWrapping,
+      EditorView.contentAttributes.of({
+        "aria-label": resolvedAriaLabel.value,
+      }),
+      EditorView.updateListener.of((update) => {
+        if (!update.docChanged) return;
+        emit("update:modelValue", update.state.doc.toString());
+      }),
+    ],
+  });
+}
+
+onMounted(() => {
+  if (!hostRef.value) return;
+  editorView.value = new EditorView({
+    parent: hostRef.value,
+    state: buildEditorState(props.modelValue),
+  });
+});
+
+watch(
+  () => props.modelValue,
+  (value) => {
+    const view = editorView.value;
+    if (!view) return;
+    const current = view.state.doc.toString();
+    if (current === value) return;
+    view.dispatch({
+      changes: {
+        from: 0,
+        to: view.state.doc.length,
+        insert: value,
+      },
+    });
+  },
+);
+
+watch(
+  () => props.language,
+  (language) => {
+    const view = editorView.value;
+    if (!view) return;
+    view.dispatch({
+      effects: languageCompartment.reconfigure(getLanguageExtension(language)),
+    });
+  },
+);
+
+onBeforeUnmount(() => {
+  editorView.value?.destroy();
+  editorView.value = null;
+});
+
+defineExpose({
+  insertText(value: string) {
+    const view = editorView.value;
+    if (!view) return;
+    const selection = view.state.selection.main;
+    view.dispatch({
+      changes: { from: selection.from, to: selection.to, insert: value },
+      selection: { anchor: selection.from + value.length },
+    });
+    view.focus();
+  },
+});
+</script>
+
+<template>
+  <div :class="shellClass" :style="shellStyle">
+    <div ref="hostRef" class="code-editor-host" />
+  </div>
+</template>
+
+<style scoped>
+.code-editor-shell {
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: calc(var(--radius) + 0.125rem);
+  background: linear-gradient(
+    180deg,
+    color-mix(in oklab, var(--color-muted) 38%, var(--color-card)) 0%,
+    var(--color-card) 100%
+  );
+  box-shadow: inset 0 1px 0 color-mix(in oklab, white 60%, transparent);
+  transition:
+    border-color 150ms ease,
+    box-shadow 150ms ease;
+}
+
+.code-editor-shell:focus-within {
+  border-color: color-mix(in oklab, var(--color-ring) 70%, var(--color-border));
+  box-shadow:
+    0 0 0 3px color-mix(in oklab, var(--color-ring) 18%, transparent),
+    inset 0 1px 0 color-mix(in oklab, white 60%, transparent);
+}
+
+.code-editor-shell.code-editor-shell--flush {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.code-editor-shell.code-editor-shell--flush:focus-within {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.code-editor-host {
+  min-height: var(--code-editor-min-height);
+}
+
+.code-editor-shell :deep(.cm-editor) {
+  height: 100%;
+  background: transparent;
+  color: var(--color-foreground);
+  font-size: 13px;
+}
+
+.code-editor-shell :deep(.cm-scroller) {
+  min-height: var(--code-editor-min-height);
+  font-family:
+    "SF Mono", "Cascadia Code", "JetBrains Mono", ui-monospace, SFMono-Regular,
+    Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  line-height: 1.65;
+}
+
+.code-editor-shell :deep(.cm-content) {
+  padding: 14px 0 18px;
+  caret-color: var(--color-foreground);
+}
+
+.code-editor-shell :deep(.cm-line) {
+  padding: 0 16px;
+}
+
+.code-editor-shell :deep(.cm-gutters) {
+  min-height: var(--code-editor-min-height);
+  border-right: 1px solid
+    color-mix(in oklab, var(--color-border) 85%, transparent);
+  background: color-mix(in oklab, var(--color-muted) 66%, var(--color-card));
+  color: var(--color-muted-foreground);
+}
+
+.code-editor-shell :deep(.cm-activeLine) {
+  background: color-mix(in oklab, var(--color-muted) 46%, transparent);
+}
+
+.code-editor-shell :deep(.cm-activeLineGutter) {
+  background: color-mix(in oklab, var(--color-muted) 76%, var(--color-card));
+  color: var(--color-foreground);
+}
+
+.code-editor-shell :deep(.cm-selectionBackground),
+.code-editor-shell :deep(.cm-content ::selection) {
+  background: color-mix(in oklab, var(--color-primary) 26%, white 74%);
+}
+</style>

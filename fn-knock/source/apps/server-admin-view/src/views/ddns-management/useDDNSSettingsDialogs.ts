@@ -1,1 +1,256 @@
-aW1wb3J0IHsgcmVmLCB0eXBlIFJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsKICBERE5TQVBJLAogIHR5cGUgREROU0h0dHBUcmFuc3BvcnQsCiAgdHlwZSBERE5TUHVibGljQ2hlY2tTb3VyY2VzUGF5bG9hZCwKICB0eXBlIERETlNQdWJsaWNDaGVja1Rlc3RSZXN1bHRQYXlsb2FkLAogIHR5cGUgREROU1B1YmxpY0Ruc1Byb3ZpZGVyLAp9IGZyb20gIkAvbGliL2FwaS9kZG5zIjsKaW1wb3J0IHsKICBERUZBVUxUX0RETlNfSFRUUF9UUkFOU1BPUlQsCiAgREVGQVVMVF9ERE5TX1BVQkxJQ19ETlNfUFJPVklERVIsCiAgREVGQVVMVF9ERE5TX1VQREFURV9JTlRFUlZBTF9NSU5VVEVTLAogIE1BWF9ERE5TX1VQREFURV9JTlRFUlZBTF9NSU5VVEVTLAogIE1JTl9ERE5TX1VQREFURV9JTlRFUlZBTF9NSU5VVEVTLAogIE5FVFdPUktfSU5URVJGQUNFX0tFWSwKICBub3JtYWxpemVERE5TSHR0cFRyYW5zcG9ydCwKICBub3JtYWxpemVERE5TUHVibGljRG5zUHJvdmlkZXIsCiAgbm9ybWFsaXplTmV0d29ya0ludGVyZmFjZSwKICBub3JtYWxpemVQdWJsaWNDaGVja1NvdXJjZXMsCiAgbm9ybWFsaXplVXBkYXRlSW50ZXJ2YWxNaW51dGVzLAogIHBhcnNlVXBkYXRlSW50ZXJ2YWxEcmFmdCwKfSBmcm9tICIuL21vZGVsIjsKCmV4cG9ydCBjb25zdCB1c2VERE5TU2V0dGluZ3NEaWFsb2dzID0gKHsKICBkZWZhdWx0UHVibGljQ2hlY2tTb3VyY2VzLAogIGh0dHBUcmFuc3BvcnQsCiAgcHJvdmlkZXJDb25maWcsCiAgcHVibGljQ2hlY2tTb3VyY2VzLAogIHB1YmxpY0Ruc1Byb3ZpZGVyLAogIHVwZGF0ZUludGVydmFsTWludXRlcywKfTogewogIGRlZmF1bHRQdWJsaWNDaGVja1NvdXJjZXM6IFJlZjxERE5TUHVibGljQ2hlY2tTb3VyY2VzUGF5bG9hZD47CiAgaHR0cFRyYW5zcG9ydDogUmVmPERETlNIdHRwVHJhbnNwb3J0PjsKICBwcm92aWRlckNvbmZpZzogUmVmPFJlY29yZDxzdHJpbmcsIHN0cmluZz4+OwogIHB1YmxpY0NoZWNrU291cmNlczogUmVmPERETlNQdWJsaWNDaGVja1NvdXJjZXNQYXlsb2FkPjsKICBwdWJsaWNEbnNQcm92aWRlcjogUmVmPERETlNQdWJsaWNEbnNQcm92aWRlcj47CiAgdXBkYXRlSW50ZXJ2YWxNaW51dGVzOiBSZWY8bnVtYmVyPjsKfSkgPT4gewogIGNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IHVwZGF0ZUludGVydmFsRHJhZnQgPSByZWYoU3RyaW5nKERFRkFVTFRfREROU19VUERBVEVfSU5URVJWQUxfTUlOVVRFUykpOwogIGNvbnN0IHB1YmxpY0NoZWNrRHJhZnQgPSByZWY8REROU1B1YmxpY0NoZWNrU291cmNlc1BheWxvYWQ+KAogICAgbm9ybWFsaXplUHVibGljQ2hlY2tTb3VyY2VzKHVuZGVmaW5lZCksCiAgKTsKICBjb25zdCBodHRwVHJhbnNwb3J0RHJhZnQgPSByZWY8REROU0h0dHBUcmFuc3BvcnQ+KAogICAgREVGQVVMVF9ERE5TX0hUVFBfVFJBTlNQT1JULAogICk7CiAgY29uc3QgcHVibGljRG5zUHJvdmlkZXJEcmFmdCA9IHJlZjxERE5TUHVibGljRG5zUHJvdmlkZXI+KAogICAgREVGQVVMVF9ERE5TX1BVQkxJQ19ETlNfUFJPVklERVIsCiAgKTsKICBjb25zdCBwdWJsaWNDaGVja1Rlc3RSZXN1bHRzID0gcmVmPERETlNQdWJsaWNDaGVja1Rlc3RSZXN1bHRQYXlsb2FkW10+KFtdKTsKICBjb25zdCBzaG93VXBkYXRlSW50ZXJ2YWxEaWFsb2cgPSByZWYoZmFsc2UpOwogIGNvbnN0IHNob3dQdWJsaWNDaGVja0RpYWxvZyA9IHJlZihmYWxzZSk7CgogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1NhdmluZ1VwZGF0ZUludGVydmFsLCBydW46IHJ1blNhdmVVcGRhdGVJbnRlcnZhbCB9ID0KICAgIHVzZUFzeW5jQWN0aW9uKHsKICAgICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZGRucy5zYXZlSW50ZXJ2YWxGYWlsZWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICAgIGVycm9yLAogICAgICAgICAgICB0KCJhZG1pbi5kZG5zLnNhdmVJbnRlcnZhbEZhaWxlZCIpLAogICAgICAgICAgKSwKICAgICAgICB9KTsKICAgICAgfSwKICAgIH0pOwoKICBjb25zdCB7CiAgICBpc1BlbmRpbmc6IGlzU2F2aW5nUHVibGljQ2hlY2tTb3VyY2VzLAogICAgcnVuOiBydW5TYXZlUHVibGljQ2hlY2tTb3VyY2VzLAogIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZGRucy5zYXZlUHVibGljQ2hlY2tGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5kZG5zLnNhdmVQdWJsaWNDaGVja0ZhaWxlZCIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSwKICB9KTsKCiAgY29uc3QgewogICAgaXNQZW5kaW5nOiBpc1Rlc3RpbmdQdWJsaWNDaGVja1NvdXJjZXMsCiAgICBydW46IHJ1blRlc3RQdWJsaWNDaGVja1NvdXJjZXMsCiAgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5kZG5zLnRlc3RQdWJsaWNDaGVja1NvdXJjZXNGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5kZG5zLnRlc3RQdWJsaWNDaGVja1NvdXJjZXNGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IG9wZW5VcGRhdGVJbnRlcnZhbERpYWxvZyA9ICgpID0+IHsKICAgIHVwZGF0ZUludGVydmFsRHJhZnQudmFsdWUgPSBTdHJpbmcodXBkYXRlSW50ZXJ2YWxNaW51dGVzLnZhbHVlKTsKICAgIHNob3dVcGRhdGVJbnRlcnZhbERpYWxvZy52YWx1ZSA9IHRydWU7CiAgfTsKCiAgY29uc3Qgc2F2ZVVwZGF0ZUludGVydmFsID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgbmV4dCA9IHBhcnNlVXBkYXRlSW50ZXJ2YWxEcmFmdCh1cGRhdGVJbnRlcnZhbERyYWZ0LnZhbHVlKTsKICAgIGlmIChuZXh0ID09PSBudWxsKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmRkbnMuaW50ZXJ2YWxJbnZhbGlkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogdCgiYWRtaW4uZGRucy5pbnRlcnZhbEludmFsaWREZXNjcmlwdGlvbiIsIHsKICAgICAgICAgIG1pbjogTUlOX0RETlNfVVBEQVRFX0lOVEVSVkFMX01JTlVURVMsCiAgICAgICAgICBtYXg6IE1BWF9ERE5TX1VQREFURV9JTlRFUlZBTF9NSU5VVEVTLAogICAgICAgIH0pLAogICAgICB9KTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGF3YWl0IHJ1blNhdmVVcGRhdGVJbnRlcnZhbCgKICAgICAgKCkgPT4gREROU0FQSS5zYXZlU2V0dGluZ3MoeyB1cGRhdGVJbnRlcnZhbE1pbnV0ZXM6IG5leHQgfSksCiAgICAgIHsKICAgICAgICBvblN1Y2Nlc3M6IChzZXR0aW5ncykgPT4gewogICAgICAgICAgdXBkYXRlSW50ZXJ2YWxNaW51dGVzLnZhbHVlID0gbm9ybWFsaXplVXBkYXRlSW50ZXJ2YWxNaW51dGVzKAogICAgICAgICAgICBzZXR0aW5ncy51cGRhdGVJbnRlcnZhbE1pbnV0ZXMsCiAgICAgICAgICApOwogICAgICAgICAgdXBkYXRlSW50ZXJ2YWxEcmFmdC52YWx1ZSA9IFN0cmluZyh1cGRhdGVJbnRlcnZhbE1pbnV0ZXMudmFsdWUpOwogICAgICAgICAgc2hvd1VwZGF0ZUludGVydmFsRGlhbG9nLnZhbHVlID0gZmFsc2U7CiAgICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmRkbnMuaW50ZXJ2YWxTYXZlZCIpKTsKICAgICAgICB9LAogICAgICB9LAogICAgKTsKICB9OwoKICBjb25zdCBvcGVuUHVibGljQ2hlY2tEaWFsb2cgPSAoKSA9PiB7CiAgICBwdWJsaWNDaGVja0RyYWZ0LnZhbHVlID0gbm9ybWFsaXplUHVibGljQ2hlY2tTb3VyY2VzKAogICAgICBwdWJsaWNDaGVja1NvdXJjZXMudmFsdWUsCiAgICApOwogICAgaHR0cFRyYW5zcG9ydERyYWZ0LnZhbHVlID0gaHR0cFRyYW5zcG9ydC52YWx1ZTsKICAgIHB1YmxpY0Ruc1Byb3ZpZGVyRHJhZnQudmFsdWUgPSBwdWJsaWNEbnNQcm92aWRlci52YWx1ZTsKICAgIHB1YmxpY0NoZWNrVGVzdFJlc3VsdHMudmFsdWUgPSBbXTsKICAgIHNob3dQdWJsaWNDaGVja0RpYWxvZy52YWx1ZSA9IHRydWU7CiAgfTsKCiAgY29uc3QgcmVzdG9yZVB1YmxpY0NoZWNrRGVmYXVsdHMgPSAoKSA9PiB7CiAgICBwdWJsaWNDaGVja0RyYWZ0LnZhbHVlID0gbm9ybWFsaXplUHVibGljQ2hlY2tTb3VyY2VzKAogICAgICBkZWZhdWx0UHVibGljQ2hlY2tTb3VyY2VzLnZhbHVlLAogICAgKTsKICAgIHB1YmxpY0NoZWNrVGVzdFJlc3VsdHMudmFsdWUgPSBbXTsKICB9OwoKICBjb25zdCBzYXZlUHVibGljQ2hlY2tTb3VyY2VzID0gYXN5bmMgKAogICAgbmV4dFNvdXJjZXM6IERETlNQdWJsaWNDaGVja1NvdXJjZXNQYXlsb2FkLAogICAgbmV4dEh0dHBUcmFuc3BvcnQ6IERETlNIdHRwVHJhbnNwb3J0LAogICAgbmV4dFB1YmxpY0Ruc1Byb3ZpZGVyOiBERE5TUHVibGljRG5zUHJvdmlkZXIsCiAgKSA9PiB7CiAgICBhd2FpdCBydW5TYXZlUHVibGljQ2hlY2tTb3VyY2VzKAogICAgICAoKSA9PgogICAgICAgIERETlNBUEkuc2F2ZVNldHRpbmdzKHsKICAgICAgICAgIHB1YmxpY0NoZWNrU291cmNlczogbm9ybWFsaXplUHVibGljQ2hlY2tTb3VyY2VzKG5leHRTb3VyY2VzKSwKICAgICAgICAgIGh0dHBUcmFuc3BvcnQ6IG5vcm1hbGl6ZURETlNIdHRwVHJhbnNwb3J0KG5leHRIdHRwVHJhbnNwb3J0KSwKICAgICAgICAgIHB1YmxpY0Ruc1Byb3ZpZGVyOiBub3JtYWxpemVERE5TUHVibGljRG5zUHJvdmlkZXIoCiAgICAgICAgICAgIG5leHRQdWJsaWNEbnNQcm92aWRlciwKICAgICAgICAgICksCiAgICAgICAgfSksCiAgICAgIHsKICAgICAgICBvblN1Y2Nlc3M6IChzZXR0aW5ncykgPT4gewogICAgICAgICAgZGVmYXVsdFB1YmxpY0NoZWNrU291cmNlcy52YWx1ZSA9IG5vcm1hbGl6ZVB1YmxpY0NoZWNrU291cmNlcygKICAgICAgICAgICAgc2V0dGluZ3MuZGVmYXVsdFB1YmxpY0NoZWNrU291cmNlcywKICAgICAgICAgICk7CiAgICAgICAgICBwdWJsaWNDaGVja1NvdXJjZXMudmFsdWUgPSBub3JtYWxpemVQdWJsaWNDaGVja1NvdXJjZXMoCiAgICAgICAgICAgIHNldHRpbmdzLnB1YmxpY0NoZWNrU291cmNlcywKICAgICAgICAgICAgZGVmYXVsdFB1YmxpY0NoZWNrU291cmNlcy52YWx1ZSwKICAgICAgICAgICk7CiAgICAgICAgICBwdWJsaWNDaGVja0RyYWZ0LnZhbHVlID0gbm9ybWFsaXplUHVibGljQ2hlY2tTb3VyY2VzKAogICAgICAgICAgICBzZXR0aW5ncy5wdWJsaWNDaGVja1NvdXJjZXMsCiAgICAgICAgICAgIGRlZmF1bHRQdWJsaWNDaGVja1NvdXJjZXMudmFsdWUsCiAgICAgICAgICApOwogICAgICAgICAgaHR0cFRyYW5zcG9ydC52YWx1ZSA9IG5vcm1hbGl6ZURETlNIdHRwVHJhbnNwb3J0KAogICAgICAgICAgICBzZXR0aW5ncy5odHRwVHJhbnNwb3J0LAogICAgICAgICAgKTsKICAgICAgICAgIGh0dHBUcmFuc3BvcnREcmFmdC52YWx1ZSA9IGh0dHBUcmFuc3BvcnQudmFsdWU7CiAgICAgICAgICBwdWJsaWNEbnNQcm92aWRlci52YWx1ZSA9IG5vcm1hbGl6ZURETlNQdWJsaWNEbnNQcm92aWRlcigKICAgICAgICAgICAgc2V0dGluZ3MucHVibGljRG5zUHJvdmlkZXIsCiAgICAgICAgICApOwogICAgICAgICAgcHVibGljRG5zUHJvdmlkZXJEcmFmdC52YWx1ZSA9IHB1YmxpY0Ruc1Byb3ZpZGVyLnZhbHVlOwogICAgICAgICAgcHVibGljQ2hlY2tUZXN0UmVzdWx0cy52YWx1ZSA9IFtdOwogICAgICAgICAgc2hvd1B1YmxpY0NoZWNrRGlhbG9nLnZhbHVlID0gZmFsc2U7CiAgICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmRkbnMucHVibGljQ2hlY2tTYXZlZCIpKTsKICAgICAgICB9LAogICAgICB9LAogICAgKTsKICB9OwoKICBjb25zdCB0ZXN0UHVibGljQ2hlY2tTb3VyY2VzID0gYXN5bmMgKAogICAgbmV4dFNvdXJjZXM6IERETlNQdWJsaWNDaGVja1NvdXJjZXNQYXlsb2FkLAogICAgbmV4dEh0dHBUcmFuc3BvcnQ6IERETlNIdHRwVHJhbnNwb3J0LAogICAgbmV4dFB1YmxpY0Ruc1Byb3ZpZGVyOiBERE5TUHVibGljRG5zUHJvdmlkZXIsCiAgKSA9PiB7CiAgICBjb25zdCBzb3VyY2VzID0gbm9ybWFsaXplUHVibGljQ2hlY2tTb3VyY2VzKAogICAgICBuZXh0U291cmNlcywKICAgICAgZGVmYXVsdFB1YmxpY0NoZWNrU291cmNlcy52YWx1ZSwKICAgICk7CiAgICBpZiAoc291cmNlcy5pcHY0Lmxlbmd0aCA9PT0gMCAmJiBzb3VyY2VzLmlwdjYubGVuZ3RoID09PSAwKSB7CiAgICAgIHB1YmxpY0NoZWNrVGVzdFJlc3VsdHMudmFsdWUgPSBbXTsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZGRucy5wdWJsaWNDaGVja05vVGVzdFNvdXJjZXNDb25maWd1cmVkIikpOwogICAgICByZXR1cm47CiAgICB9CgogICAgYXdhaXQgcnVuVGVzdFB1YmxpY0NoZWNrU291cmNlcygKICAgICAgKCkgPT4KICAgICAgICBERE5TQVBJLnRlc3RQdWJsaWNDaGVja1NvdXJjZXMoc291cmNlcywgewogICAgICAgICAgaHR0cFRyYW5zcG9ydDogbm9ybWFsaXplREROU0h0dHBUcmFuc3BvcnQobmV4dEh0dHBUcmFuc3BvcnQpLAogICAgICAgICAgcHVibGljRG5zUHJvdmlkZXI6IG5vcm1hbGl6ZURETlNQdWJsaWNEbnNQcm92aWRlcigKICAgICAgICAgICAgbmV4dFB1YmxpY0Ruc1Byb3ZpZGVyLAogICAgICAgICAgKSwKICAgICAgICAgIG5ldHdvcmtJbnRlcmZhY2U6IG5vcm1hbGl6ZU5ldHdvcmtJbnRlcmZhY2UoCiAgICAgICAgICAgIHByb3ZpZGVyQ29uZmlnLnZhbHVlW05FVFdPUktfSU5URVJGQUNFX0tFWV0sCiAgICAgICAgICApLAogICAgICAgIH0pLAogICAgICB7CiAgICAgICAgb25TdWNjZXNzOiAocGF5bG9hZCkgPT4gewogICAgICAgICAgcHVibGljQ2hlY2tUZXN0UmVzdWx0cy52YWx1ZSA9IHBheWxvYWQucmVzdWx0cyB8fCBbXTsKICAgICAgICAgIGlmIChwdWJsaWNDaGVja1Rlc3RSZXN1bHRzLnZhbHVlLmxlbmd0aCA9PT0gMCkgewogICAgICAgICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5kZG5zLnB1YmxpY0NoZWNrTm9UZXN0U291cmNlc0NvbmZpZ3VyZWQiKSk7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgIH0KICAgICAgICAgIGNvbnN0IGhhc0ZhaWx1cmVzID0gcHVibGljQ2hlY2tUZXN0UmVzdWx0cy52YWx1ZS5zb21lKAogICAgICAgICAgICAoaXRlbSkgPT4gIWl0ZW0uc3VjY2VzcywKICAgICAgICAgICk7CiAgICAgICAgICBpZiAoaGFzRmFpbHVyZXMpIHsKICAgICAgICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uZGRucy5wdWJsaWNDaGVja1Rlc3RDb21wbGV0ZWRXaXRoRXJyb3JzIikpOwogICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5kZG5zLnB1YmxpY0NoZWNrVGVzdENvbXBsZXRlZCIpKTsKICAgICAgICAgIH0KICAgICAgICB9LAogICAgICB9LAogICAgKTsKICB9OwoKICByZXR1cm4gewogICAgaHR0cFRyYW5zcG9ydERyYWZ0LAogICAgaXNTYXZpbmdQdWJsaWNDaGVja1NvdXJjZXMsCiAgICBpc1NhdmluZ1VwZGF0ZUludGVydmFsLAogICAgaXNUZXN0aW5nUHVibGljQ2hlY2tTb3VyY2VzLAogICAgb3BlblB1YmxpY0NoZWNrRGlhbG9nLAogICAgb3BlblVwZGF0ZUludGVydmFsRGlhbG9nLAogICAgcHVibGljQ2hlY2tEcmFmdCwKICAgIHB1YmxpY0NoZWNrVGVzdFJlc3VsdHMsCiAgICBwdWJsaWNEbnNQcm92aWRlckRyYWZ0LAogICAgcmVzdG9yZVB1YmxpY0NoZWNrRGVmYXVsdHMsCiAgICBzYXZlUHVibGljQ2hlY2tTb3VyY2VzLAogICAgc2F2ZVVwZGF0ZUludGVydmFsLAogICAgc2hvd1B1YmxpY0NoZWNrRGlhbG9nLAogICAgc2hvd1VwZGF0ZUludGVydmFsRGlhbG9nLAogICAgdGVzdFB1YmxpY0NoZWNrU291cmNlcywKICAgIHVwZGF0ZUludGVydmFsRHJhZnQsCiAgfTsKfTsK
+import { ref, type Ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import {
+  DDNSAPI,
+  type DDNSHttpTransport,
+  type DDNSPublicCheckSourcesPayload,
+  type DDNSPublicCheckTestResultPayload,
+  type DDNSPublicDnsProvider,
+} from "@/lib/api/ddns";
+import {
+  DEFAULT_DDNS_HTTP_TRANSPORT,
+  DEFAULT_DDNS_PUBLIC_DNS_PROVIDER,
+  DEFAULT_DDNS_UPDATE_INTERVAL_MINUTES,
+  MAX_DDNS_UPDATE_INTERVAL_MINUTES,
+  MIN_DDNS_UPDATE_INTERVAL_MINUTES,
+  NETWORK_INTERFACE_KEY,
+  normalizeDDNSHttpTransport,
+  normalizeDDNSPublicDnsProvider,
+  normalizeNetworkInterface,
+  normalizePublicCheckSources,
+  normalizeUpdateIntervalMinutes,
+  parseUpdateIntervalDraft,
+} from "./model";
+
+export const useDDNSSettingsDialogs = ({
+  defaultPublicCheckSources,
+  httpTransport,
+  providerConfig,
+  publicCheckSources,
+  publicDnsProvider,
+  updateIntervalMinutes,
+}: {
+  defaultPublicCheckSources: Ref<DDNSPublicCheckSourcesPayload>;
+  httpTransport: Ref<DDNSHttpTransport>;
+  providerConfig: Ref<Record<string, string>>;
+  publicCheckSources: Ref<DDNSPublicCheckSourcesPayload>;
+  publicDnsProvider: Ref<DDNSPublicDnsProvider>;
+  updateIntervalMinutes: Ref<number>;
+}) => {
+  const { t } = useI18n();
+  const updateIntervalDraft = ref(String(DEFAULT_DDNS_UPDATE_INTERVAL_MINUTES));
+  const publicCheckDraft = ref<DDNSPublicCheckSourcesPayload>(
+    normalizePublicCheckSources(undefined),
+  );
+  const httpTransportDraft = ref<DDNSHttpTransport>(
+    DEFAULT_DDNS_HTTP_TRANSPORT,
+  );
+  const publicDnsProviderDraft = ref<DDNSPublicDnsProvider>(
+    DEFAULT_DDNS_PUBLIC_DNS_PROVIDER,
+  );
+  const publicCheckTestResults = ref<DDNSPublicCheckTestResultPayload[]>([]);
+  const showUpdateIntervalDialog = ref(false);
+  const showPublicCheckDialog = ref(false);
+
+  const { isPending: isSavingUpdateInterval, run: runSaveUpdateInterval } =
+    useAsyncAction({
+      onError: (error) => {
+        toast.error(t("admin.ddns.saveIntervalFailed"), {
+          description: extractErrorMessage(
+            error,
+            t("admin.ddns.saveIntervalFailed"),
+          ),
+        });
+      },
+    });
+
+  const {
+    isPending: isSavingPublicCheckSources,
+    run: runSavePublicCheckSources,
+  } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.ddns.savePublicCheckFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.ddns.savePublicCheckFailed"),
+        ),
+      });
+    },
+  });
+
+  const {
+    isPending: isTestingPublicCheckSources,
+    run: runTestPublicCheckSources,
+  } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.ddns.testPublicCheckSourcesFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.ddns.testPublicCheckSourcesFailed"),
+        ),
+      });
+    },
+  });
+
+  const openUpdateIntervalDialog = () => {
+    updateIntervalDraft.value = String(updateIntervalMinutes.value);
+    showUpdateIntervalDialog.value = true;
+  };
+
+  const saveUpdateInterval = async () => {
+    const next = parseUpdateIntervalDraft(updateIntervalDraft.value);
+    if (next === null) {
+      toast.error(t("admin.ddns.intervalInvalid"), {
+        description: t("admin.ddns.intervalInvalidDescription", {
+          min: MIN_DDNS_UPDATE_INTERVAL_MINUTES,
+          max: MAX_DDNS_UPDATE_INTERVAL_MINUTES,
+        }),
+      });
+      return;
+    }
+
+    await runSaveUpdateInterval(
+      () => DDNSAPI.saveSettings({ updateIntervalMinutes: next }),
+      {
+        onSuccess: (settings) => {
+          updateIntervalMinutes.value = normalizeUpdateIntervalMinutes(
+            settings.updateIntervalMinutes,
+          );
+          updateIntervalDraft.value = String(updateIntervalMinutes.value);
+          showUpdateIntervalDialog.value = false;
+          toast.success(t("admin.ddns.intervalSaved"));
+        },
+      },
+    );
+  };
+
+  const openPublicCheckDialog = () => {
+    publicCheckDraft.value = normalizePublicCheckSources(
+      publicCheckSources.value,
+    );
+    httpTransportDraft.value = httpTransport.value;
+    publicDnsProviderDraft.value = publicDnsProvider.value;
+    publicCheckTestResults.value = [];
+    showPublicCheckDialog.value = true;
+  };
+
+  const restorePublicCheckDefaults = () => {
+    publicCheckDraft.value = normalizePublicCheckSources(
+      defaultPublicCheckSources.value,
+    );
+    publicCheckTestResults.value = [];
+  };
+
+  const savePublicCheckSources = async (
+    nextSources: DDNSPublicCheckSourcesPayload,
+    nextHttpTransport: DDNSHttpTransport,
+    nextPublicDnsProvider: DDNSPublicDnsProvider,
+  ) => {
+    await runSavePublicCheckSources(
+      () =>
+        DDNSAPI.saveSettings({
+          publicCheckSources: normalizePublicCheckSources(nextSources),
+          httpTransport: normalizeDDNSHttpTransport(nextHttpTransport),
+          publicDnsProvider: normalizeDDNSPublicDnsProvider(
+            nextPublicDnsProvider,
+          ),
+        }),
+      {
+        onSuccess: (settings) => {
+          defaultPublicCheckSources.value = normalizePublicCheckSources(
+            settings.defaultPublicCheckSources,
+          );
+          publicCheckSources.value = normalizePublicCheckSources(
+            settings.publicCheckSources,
+            defaultPublicCheckSources.value,
+          );
+          publicCheckDraft.value = normalizePublicCheckSources(
+            settings.publicCheckSources,
+            defaultPublicCheckSources.value,
+          );
+          httpTransport.value = normalizeDDNSHttpTransport(
+            settings.httpTransport,
+          );
+          httpTransportDraft.value = httpTransport.value;
+          publicDnsProvider.value = normalizeDDNSPublicDnsProvider(
+            settings.publicDnsProvider,
+          );
+          publicDnsProviderDraft.value = publicDnsProvider.value;
+          publicCheckTestResults.value = [];
+          showPublicCheckDialog.value = false;
+          toast.success(t("admin.ddns.publicCheckSaved"));
+        },
+      },
+    );
+  };
+
+  const testPublicCheckSources = async (
+    nextSources: DDNSPublicCheckSourcesPayload,
+    nextHttpTransport: DDNSHttpTransport,
+    nextPublicDnsProvider: DDNSPublicDnsProvider,
+  ) => {
+    const sources = normalizePublicCheckSources(
+      nextSources,
+      defaultPublicCheckSources.value,
+    );
+    if (sources.ipv4.length === 0 && sources.ipv6.length === 0) {
+      publicCheckTestResults.value = [];
+      toast.error(t("admin.ddns.publicCheckNoTestSourcesConfigured"));
+      return;
+    }
+
+    await runTestPublicCheckSources(
+      () =>
+        DDNSAPI.testPublicCheckSources(sources, {
+          httpTransport: normalizeDDNSHttpTransport(nextHttpTransport),
+          publicDnsProvider: normalizeDDNSPublicDnsProvider(
+            nextPublicDnsProvider,
+          ),
+          networkInterface: normalizeNetworkInterface(
+            providerConfig.value[NETWORK_INTERFACE_KEY],
+          ),
+        }),
+      {
+        onSuccess: (payload) => {
+          publicCheckTestResults.value = payload.results || [];
+          if (publicCheckTestResults.value.length === 0) {
+            toast.error(t("admin.ddns.publicCheckNoTestSourcesConfigured"));
+            return;
+          }
+          const hasFailures = publicCheckTestResults.value.some(
+            (item) => !item.success,
+          );
+          if (hasFailures) {
+            toast.error(t("admin.ddns.publicCheckTestCompletedWithErrors"));
+          } else {
+            toast.success(t("admin.ddns.publicCheckTestCompleted"));
+          }
+        },
+      },
+    );
+  };
+
+  return {
+    httpTransportDraft,
+    isSavingPublicCheckSources,
+    isSavingUpdateInterval,
+    isTestingPublicCheckSources,
+    openPublicCheckDialog,
+    openUpdateIntervalDialog,
+    publicCheckDraft,
+    publicCheckTestResults,
+    publicDnsProviderDraft,
+    restorePublicCheckDefaults,
+    savePublicCheckSources,
+    saveUpdateInterval,
+    showPublicCheckDialog,
+    showUpdateIntervalDialog,
+    testPublicCheckSources,
+    updateIntervalDraft,
+  };
+};

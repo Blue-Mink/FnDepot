@@ -1,1 +1,84 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiB2aXNpYmxlX2hvc3RfbWFwcGluZ3MobWFwcGluZ3M6ICZbVmFsdWVdKSAtPiBWZWM8VmFsdWU+IHsKICAgIG1hcHBpbmdzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXIofG1hcHBpbmd8ICFpc19hdXRoX3NlcnZpY2VfbWFwcGluZyhtYXBwaW5nKSkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAuY29sbGVjdCgpCn0KCnB1YihzdXBlcikgZm4gaXNfYXV0aF9zZXJ2aWNlX21hcHBpbmcobWFwcGluZzogJlZhbHVlKSAtPiBib29sIHsKICAgIG1hcHBpbmcKICAgICAgICAuZ2V0KCJ0YXJnZXQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5pc19zb21lX2FuZChpc19hdXRoX3NlcnZpY2VfdGFyZ2V0KQp9CgpwdWIoc3VwZXIpIGZuIGlzX2F1dGhfc2VydmljZV90YXJnZXQodGFyZ2V0OiAmc3RyKSAtPiBib29sIHsKICAgIGlzX2h0dHBfcHJveHlfdGFyZ2V0X3VybCh0YXJnZXQpCiAgICAgICAgJiYgcGFyc2VfdGFyZ2V0X3BvcnQodGFyZ2V0KS5pc19zb21lX2FuZCh8cG9ydHwgcG9ydCA9PSByZXNvbHZlX2F1dGhfc2VydmljZV9wb3J0KCkpCn0KCnB1YihzdXBlcikgZm4gaXNfaHR0cF9wcm94eV90YXJnZXRfdXJsKHRhcmdldDogJnN0cikgLT4gYm9vbCB7CiAgICBVcmw6OnBhcnNlKHRhcmdldC50cmltKCkpLm9rKCkuaXNfc29tZV9hbmQofHVybHwgewogICAgICAgIG1hdGNoZXMhKHVybC5zY2hlbWUoKSwgImh0dHAiIHwgImh0dHBzIiB8ICJ3cyIgfCAid3NzIikgJiYgdXJsLmhvc3Rfc3RyKCkuaXNfc29tZSgpCiAgICB9KQp9CgpwdWIoc3VwZXIpIHVzZSBjcmF0ZTo6cHJveHlfdXRpbHM6OnBhcnNlX3RhcmdldF9wb3J0X2k2NCBhcyBwYXJzZV90YXJnZXRfcG9ydDsKCnB1YihzdXBlcikgZm4gcmVzb2x2ZV9hdXRoX3NlcnZpY2VfcG9ydCgpIC0+IGk2NCB7CiAgICBzdGQ6OmVudjo6dmFyKCJBVVRIX1BPUlQiKQogICAgICAgIC5vaygpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUudHJpbSgpLnBhcnNlOjo8aTY0PigpLm9rKCkpCiAgICAgICAgLmZpbHRlcih8cG9ydHwgKnBvcnQgPiAwKQogICAgICAgIC51bndyYXBfb3IoNzk5NykKfQoKcHViKHN1cGVyKSBmbiBidWlsZF9nYXRld2F5X3Byb3h5X2hlYWRlcl9pdGVtcyhob3N0czogJltWYWx1ZV0sIGNvbmZpZzogJlZhbHVlKSAtPiBWZWM8VmFsdWU+IHsKICAgIGxldCBkaXNhYmxlZCA9IGRpc2FibGVkX2hvc3RzX3NldChjb25maWcpOwogICAgaG9zdHMKICAgICAgICAuaXRlcigpCiAgICAgICAgLm1hcCh8bWFwcGluZ3wgewogICAgICAgICAgICBsZXQgaG9zdCA9IG1hcHBpbmcuZ2V0KCJob3N0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKTsKICAgICAgICAgICAganNvbiEoewogICAgICAgICAgICAgICAgImhvc3QiOiBob3N0LAogICAgICAgICAgICAgICAgInRhcmdldCI6IG1hcHBpbmcuZ2V0KCJ0YXJnZXQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpLnRyaW0oKSwKICAgICAgICAgICAgICAgICJ0aXRsZSI6IG1hcHBpbmcuZ2V0KCJ0aXRsZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIikudHJpbSgpLAogICAgICAgICAgICAgICAgInNlbmRfcHJveHlfaGVhZGVycyI6ICFkaXNhYmxlZC5jb250YWlucygmbm9ybWFsaXplX2hvc3QoaG9zdCkpLAogICAgICAgICAgICB9KQogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3QoKQp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX2dhdGV3YXlfaG9zdF9yZXNwb25zZV9pdGVtcyhob3N0czogJltWYWx1ZV0sIGNvbmZpZzogJlZhbHVlKSAtPiBWZWM8VmFsdWU+IHsKICAgIGxldCBkaXNhYmxlZCA9IGRpc2FibGVkX2hvc3RzX3NldChjb25maWcpOwogICAgaG9zdHMKICAgICAgICAuaXRlcigpCiAgICAgICAgLm1hcCh8bWFwcGluZ3wgewogICAgICAgICAgICBsZXQgaG9zdCA9IG1hcHBpbmcuZ2V0KCJob3N0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKTsKICAgICAgICAgICAganNvbiEoewogICAgICAgICAgICAgICAgImhvc3QiOiBob3N0LAogICAgICAgICAgICAgICAgInRhcmdldCI6IG1hcHBpbmcuZ2V0KCJ0YXJnZXQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpLnRyaW0oKSwKICAgICAgICAgICAgICAgICJ0aXRsZSI6IG1hcHBpbmcuZ2V0KCJ0aXRsZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIikudHJpbSgpLAogICAgICAgICAgICAgICAgInByZXNlcnZlX2hvc3QiOiAhZGlzYWJsZWQuY29udGFpbnMoJm5vcm1hbGl6ZV9ob3N0KGhvc3QpKSwKICAgICAgICAgICAgfSkKICAgICAgICB9KQogICAgICAgIC5jb2xsZWN0KCkKfQoKcHViKHN1cGVyKSBmbiBkaXNhYmxlZF9ob3N0c19zZXQoY29uZmlnOiAmVmFsdWUpIC0+IHN0ZDo6Y29sbGVjdGlvbnM6Okhhc2hTZXQ8U3RyaW5nPiB7CiAgICBjb25maWcKICAgICAgICAuZ2V0KCJkaXNhYmxlZF9ob3N0cyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAubWFwKHxpdGVtc3wgewogICAgICAgICAgICBpdGVtcwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLmZpbHRlcl9tYXAoVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgIC5tYXAobm9ybWFsaXplX2hvc3QpCiAgICAgICAgICAgICAgICAuZmlsdGVyKHxob3N0fCAhaG9zdC5pc19lbXB0eSgpKQogICAgICAgICAgICAgICAgLmNvbGxlY3QoKQogICAgICAgIH0pCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKfQo=
+use super::*;
+
+pub(super) fn visible_host_mappings(mappings: &[Value]) -> Vec<Value> {
+    mappings
+        .iter()
+        .filter(|mapping| !is_auth_service_mapping(mapping))
+        .cloned()
+        .collect()
+}
+
+pub(super) fn is_auth_service_mapping(mapping: &Value) -> bool {
+    mapping
+        .get("target")
+        .and_then(Value::as_str)
+        .is_some_and(is_auth_service_target)
+}
+
+pub(super) fn is_auth_service_target(target: &str) -> bool {
+    is_http_proxy_target_url(target)
+        && parse_target_port(target).is_some_and(|port| port == resolve_auth_service_port())
+}
+
+pub(super) fn is_http_proxy_target_url(target: &str) -> bool {
+    Url::parse(target.trim()).ok().is_some_and(|url| {
+        matches!(url.scheme(), "http" | "https" | "ws" | "wss") && url.host_str().is_some()
+    })
+}
+
+pub(super) use crate::proxy_utils::parse_target_port_i64 as parse_target_port;
+
+pub(super) fn resolve_auth_service_port() -> i64 {
+    std::env::var("AUTH_PORT")
+        .ok()
+        .and_then(|value| value.trim().parse::<i64>().ok())
+        .filter(|port| *port > 0)
+        .unwrap_or(7997)
+}
+
+pub(super) fn build_gateway_proxy_header_items(hosts: &[Value], config: &Value) -> Vec<Value> {
+    let disabled = disabled_hosts_set(config);
+    hosts
+        .iter()
+        .map(|mapping| {
+            let host = mapping.get("host").and_then(Value::as_str).unwrap_or("");
+            json!({
+                "host": host,
+                "target": mapping.get("target").and_then(Value::as_str).unwrap_or("").trim(),
+                "title": mapping.get("title").and_then(Value::as_str).unwrap_or("").trim(),
+                "send_proxy_headers": !disabled.contains(&normalize_host(host)),
+            })
+        })
+        .collect()
+}
+
+pub(super) fn build_gateway_host_response_items(hosts: &[Value], config: &Value) -> Vec<Value> {
+    let disabled = disabled_hosts_set(config);
+    hosts
+        .iter()
+        .map(|mapping| {
+            let host = mapping.get("host").and_then(Value::as_str).unwrap_or("");
+            json!({
+                "host": host,
+                "target": mapping.get("target").and_then(Value::as_str).unwrap_or("").trim(),
+                "title": mapping.get("title").and_then(Value::as_str).unwrap_or("").trim(),
+                "preserve_host": !disabled.contains(&normalize_host(host)),
+            })
+        })
+        .collect()
+}
+
+pub(super) fn disabled_hosts_set(config: &Value) -> std::collections::HashSet<String> {
+    config
+        .get("disabled_hosts")
+        .and_then(Value::as_array)
+        .map(|items| {
+            items
+                .iter()
+                .filter_map(Value::as_str)
+                .map(normalize_host)
+                .filter(|host| !host.is_empty())
+                .collect()
+        })
+        .unwrap_or_default()
+}

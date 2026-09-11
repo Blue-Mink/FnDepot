@@ -1,1 +1,29 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgppbXBvcnQgeyBzZXJpYWxpemVDcmVkZW50aWFsIH0gZnJvbSAiLi4vc3JjL3Bhc3NrZXkvdXRpbHMiOwoKY29uc3QgYnl0ZXMgPSAoLi4udmFsdWVzOiBudW1iZXJbXSkgPT4gbmV3IFVpbnQ4QXJyYXkodmFsdWVzKS5idWZmZXI7CgpkZXNjcmliZSgicGFzc2tleSBjcmVkZW50aWFsIHNlcmlhbGl6YXRpb24iLCAoKSA9PiB7CiAgaXQoInNlcmlhbGl6ZXMgcmVnaXN0cmF0aW9uIHRyYW5zcG9ydHMgaW5zaWRlIHRoZSBXZWJBdXRobiByZXNwb25zZSIsICgpID0+IHsKICAgIGNvbnN0IGNyZWRlbnRpYWwgPSB7CiAgICAgIGlkOiAiY3JlZGVudGlhbC1pZCIsCiAgICAgIHJhd0lkOiBieXRlcygxLCAyLCAzKSwKICAgICAgdHlwZTogInB1YmxpYy1rZXkiLAogICAgICBnZXRDbGllbnRFeHRlbnNpb25SZXN1bHRzOiAoKSA9PiAoeyBjcmVkUHJvcHM6IHsgcms6IHRydWUgfSB9KSwKICAgICAgcmVzcG9uc2U6IHsKICAgICAgICBhdHRlc3RhdGlvbk9iamVjdDogYnl0ZXMoNCwgNSwgNiksCiAgICAgICAgY2xpZW50RGF0YUpTT046IGJ5dGVzKDcsIDgsIDkpLAogICAgICAgIGdldFRyYW5zcG9ydHM6ICgpID0+IFsiaW50ZXJuYWwiLCAiaHlicmlkIl0sCiAgICAgIH0sCiAgICB9IGFzIHVua25vd24gYXMgUHVibGljS2V5Q3JlZGVudGlhbDsKCiAgICBjb25zdCBzZXJpYWxpemVkID0gc2VyaWFsaXplQ3JlZGVudGlhbChjcmVkZW50aWFsKTsKCiAgICBhc3NlcnQuZXF1YWwoInRyYW5zcG9ydHMiIGluIHNlcmlhbGl6ZWQsIGZhbHNlKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoc2VyaWFsaXplZC5yZXNwb25zZS50cmFuc3BvcnRzLCBbImludGVybmFsIiwgImh5YnJpZCJdKTsKICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import { serializeCredential } from "../src/passkey/utils";
+
+const bytes = (...values: number[]) => new Uint8Array(values).buffer;
+
+describe("passkey credential serialization", () => {
+  it("serializes registration transports inside the WebAuthn response", () => {
+    const credential = {
+      id: "credential-id",
+      rawId: bytes(1, 2, 3),
+      type: "public-key",
+      getClientExtensionResults: () => ({ credProps: { rk: true } }),
+      response: {
+        attestationObject: bytes(4, 5, 6),
+        clientDataJSON: bytes(7, 8, 9),
+        getTransports: () => ["internal", "hybrid"],
+      },
+    } as unknown as PublicKeyCredential;
+
+    const serialized = serializeCredential(credential);
+
+    assert.equal("transports" in serialized, false);
+    assert.deepEqual(serialized.response.transports, ["internal", "hybrid"]);
+  });
+});

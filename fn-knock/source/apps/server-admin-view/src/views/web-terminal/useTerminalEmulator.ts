@@ -1,1 +1,294 @@
-aW1wb3J0IHsgbmV4dFRpY2ssIHJlZiwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgdHlwZSB7IFRlcm1pbmFsT3V0cHV0RXZlbnQgfSBmcm9tICJAL2xpYi9hcGkvdGVybWluYWwiOwppbXBvcnQgewogIGVuc3VyZUdob3N0dHksCiAgdHlwZSBBcm1lZE1vZGlmaWVyLAogIHR5cGUgR2hvc3R0eU1vZHVsZSwKfSBmcm9tICIuL3Rlcm1pbmFsLXJ1bnRpbWUiOwppbXBvcnQgeyBmb2N1c0VsZW1lbnRXaXRob3V0U2Nyb2xsIH0gZnJvbSAiLi90ZXJtaW5hbC1kb20iOwppbXBvcnQgeyBkZWNvZGVCYXNlNjRUb0J5dGVzLCBlbmNvZGVDdHJsSW5wdXQgfSBmcm9tICIuL3Rlcm1pbmFsLWlucHV0IjsKaW1wb3J0IHsgY3JlYXRlVGVybWluYWxNb3VzZVJlcG9ydGVyIH0gZnJvbSAiLi90ZXJtaW5hbC1tb3VzZSI7CmltcG9ydCB7IGNyZWF0ZVRlcm1pbmFsRml0Q29udHJvbGxlciB9IGZyb20gIi4vdGVybWluYWwtZml0IjsKaW1wb3J0IHsgY3JlYXRlVGVybWluYWxUb3VjaEdlc3R1cmVzIH0gZnJvbSAiLi90ZXJtaW5hbC10b3VjaCI7CgppbnRlcmZhY2UgVXNlVGVybWluYWxFbXVsYXRvck9wdGlvbnMgewogIGFwcGx5Rm9udFNpemU6ICh2YWx1ZTogbnVtYmVyLCBvcHRpb25zPzogeyBwZXJzaXN0PzogYm9vbGVhbiB9KSA9PiB2b2lkOwogIGNhbkFjY2VwdElucHV0OiAoKSA9PiBib29sZWFuOwogIGNvbXBhY3RWaWV3cG9ydDogUmVmPGJvb2xlYW4+OwogIHBlcnNpc3RGb250U2l6ZTogKCkgPT4gdm9pZDsKICBxdWV1ZUlucHV0OiAocGF5bG9hZDogc3RyaW5nLCBvcHRpb25zPzogeyBpbW1lZGlhdGU/OiBib29sZWFuIH0pID0+IHZvaWQ7CiAgcXVldWVSZW1vdGVSZXNwb25zZTogKHBheWxvYWQ6IHN0cmluZykgPT4gdm9pZDsKICBzY2hlZHVsZVJlc2l6ZTogKCkgPT4gdm9pZDsKICB0ZXJtaW5hbEZvbnRTaXplOiBSZWY8bnVtYmVyPjsKICB0ZXJtaW5hbEZyYW1lUmVmOiBSZWY8SFRNTEVsZW1lbnQgfCBudWxsPjsKICB0cmFuc2xhdGU6IChrZXk6IHN0cmluZykgPT4gc3RyaW5nOwp9CgpleHBvcnQgZnVuY3Rpb24gdXNlVGVybWluYWxFbXVsYXRvcih7CiAgYXBwbHlGb250U2l6ZSwKICBjYW5BY2NlcHRJbnB1dCwKICBjb21wYWN0Vmlld3BvcnQsCiAgcGVyc2lzdEZvbnRTaXplLAogIHF1ZXVlSW5wdXQsCiAgcXVldWVSZW1vdGVSZXNwb25zZSwKICBzY2hlZHVsZVJlc2l6ZSwKICB0ZXJtaW5hbEZvbnRTaXplLAogIHRlcm1pbmFsRnJhbWVSZWYsCiAgdHJhbnNsYXRlLAp9OiBVc2VUZXJtaW5hbEVtdWxhdG9yT3B0aW9ucykgewogIGNvbnN0IHRlcm1pbmFsTW91bnRSZWYgPSByZWY8SFRNTEVsZW1lbnQgfCBudWxsPihudWxsKTsKICBjb25zdCBpc1BpbmNoWm9vbWluZyA9IHJlZihmYWxzZSk7CiAgY29uc3QgYXJtZWRNb2RpZmllciA9IHJlZjxBcm1lZE1vZGlmaWVyIHwgbnVsbD4obnVsbCk7CiAgbGV0IHRlcm06IEluc3RhbmNlVHlwZTxHaG9zdHR5TW9kdWxlWyJUZXJtaW5hbCJdPiB8IG51bGwgPSBudWxsOwogIGxldCBmaXRBZGRvbjogSW5zdGFuY2VUeXBlPEdob3N0dHlNb2R1bGVbIkZpdEFkZG9uIl0+IHwgbnVsbCA9IG51bGw7CiAgbGV0IGxhc3RPdXRwdXRDdXJzb3IgPSAwOwogIGxldCBvdXRwdXRUZXh0RGVjb2RlciA9IG5ldyBUZXh0RGVjb2RlcigpOwogIGxldCByZW1vdGVPdXRwdXRXcml0ZURlcHRoID0gMDsKICBsZXQgdGVybWluYWxJbnRlcm5hbFJlc3BvbnNlRHJvcERlcHRoID0gMDsKICBsZXQgZGlzcG9zZWQgPSBmYWxzZTsKICBsZXQgaW5pdGlhbGl6YXRpb25Qcm9taXNlOiBQcm9taXNlPHZvaWQ+IHwgbnVsbCA9IG51bGw7CgogIGZ1bmN0aW9uIHJ1blRlcm1pbmFsSW50ZXJuYWxNdXRhdGlvbigKICAgIGFjdGlvbjogKCkgPT4gdm9pZCwKICAgIG9wdGlvbnM/OiB7IGRyb3BSZXNwb25zZXM/OiBib29sZWFuIH0sCiAgKSB7CiAgICByZW1vdGVPdXRwdXRXcml0ZURlcHRoICs9IDE7CiAgICBpZiAob3B0aW9ucz8uZHJvcFJlc3BvbnNlcykgdGVybWluYWxJbnRlcm5hbFJlc3BvbnNlRHJvcERlcHRoICs9IDE7CiAgICB0cnkgewogICAgICBhY3Rpb24oKTsKICAgIH0gZmluYWxseSB7CiAgICAgIGlmIChvcHRpb25zPy5kcm9wUmVzcG9uc2VzKSB0ZXJtaW5hbEludGVybmFsUmVzcG9uc2VEcm9wRGVwdGggLT0gMTsKICAgICAgcmVtb3RlT3V0cHV0V3JpdGVEZXB0aCAtPSAxOwogICAgfQogIH0KCiAgY29uc3QgZml0Q29udHJvbGxlciA9IGNyZWF0ZVRlcm1pbmFsRml0Q29udHJvbGxlcih7CiAgICBnZXRGaXRBZGRvbjogKCkgPT4gZml0QWRkb24sCiAgICBnZXRNb3VudEVsZW1lbnQ6ICgpID0+IHRlcm1pbmFsTW91bnRSZWYudmFsdWUsCiAgICBnZXRUZXJtaW5hbDogKCkgPT4gdGVybSwKICAgIHJ1blRlcm1pbmFsTXV0YXRpb246IChtdXRhdGlvbikgPT4KICAgICAgcnVuVGVybWluYWxJbnRlcm5hbE11dGF0aW9uKG11dGF0aW9uLCB7IGRyb3BSZXNwb25zZXM6IHRydWUgfSksCiAgfSk7CgogIGNvbnN0IGdldFRlcm1pbmFsVGV4dElucHV0ID0gKCk6IEhUTUxUZXh0QXJlYUVsZW1lbnQgfCBudWxsID0+IHsKICAgIGNvbnN0IGlucHV0ID0gdGVybWluYWxNb3VudFJlZi52YWx1ZT8ucXVlcnlTZWxlY3RvcigidGV4dGFyZWEiKTsKICAgIHJldHVybiBpbnB1dCBpbnN0YW5jZW9mIEhUTUxUZXh0QXJlYUVsZW1lbnQgPyBpbnB1dCA6IG51bGw7CiAgfTsKCiAgY29uc3Qgc3luY1Rlcm1pbmFsVGV4dElucHV0QW5jaG9yID0gKCkgPT4gewogICAgY29uc3QgdGV4dElucHV0ID0gZ2V0VGVybWluYWxUZXh0SW5wdXQoKTsKICAgIGlmICghdGV4dElucHV0KSByZXR1cm47CiAgICB0ZXh0SW5wdXQuc3R5bGUucG9zaXRpb24gPSBjb21wYWN0Vmlld3BvcnQudmFsdWUgPyAiZml4ZWQiIDogImFic29sdXRlIjsKICAgIHRleHRJbnB1dC5zdHlsZS5sZWZ0ID0gIjAiOwogICAgdGV4dElucHV0LnN0eWxlLnRvcCA9ICIwIjsKICAgIHRleHRJbnB1dC5zdHlsZS53aWR0aCA9ICIxcHgiOwogICAgdGV4dElucHV0LnN0eWxlLmhlaWdodCA9ICIxcHgiOwogICAgdGV4dElucHV0LnN0eWxlLnBhZGRpbmcgPSAiMCI7CiAgICB0ZXh0SW5wdXQuc3R5bGUuYm9yZGVyID0gIm5vbmUiOwogICAgdGV4dElucHV0LnN0eWxlLm1hcmdpbiA9ICIwIjsKICAgIHRleHRJbnB1dC5zdHlsZS5vcGFjaXR5ID0gIjAiOwogICAgdGV4dElucHV0LnN0eWxlLmNsaXBQYXRoID0gImluc2V0KDUwJSkiOwogICAgdGV4dElucHV0LnN0eWxlLm92ZXJmbG93ID0gImhpZGRlbiI7CiAgICB0ZXh0SW5wdXQuc3R5bGUud2hpdGVTcGFjZSA9ICJub3dyYXAiOwogICAgdGV4dElucHV0LnN0eWxlLnJlc2l6ZSA9ICJub25lIjsKICAgIHRleHRJbnB1dC5zdHlsZS5wb2ludGVyRXZlbnRzID0gIm5vbmUiOwogICAgdGV4dElucHV0LnN0eWxlLmZvbnRTaXplID0gIjE2cHgiOwogIH07CgogIGNvbnN0IGZvY3VzVGVybWluYWwgPSAoKSA9PiB7CiAgICBzeW5jVGVybWluYWxUZXh0SW5wdXRBbmNob3IoKTsKICAgIGlmIChjb21wYWN0Vmlld3BvcnQudmFsdWUpIHsKICAgICAgY29uc3QgdGV4dElucHV0ID0gZ2V0VGVybWluYWxUZXh0SW5wdXQoKTsKICAgICAgaWYgKHRleHRJbnB1dCkgewogICAgICAgIGZvY3VzRWxlbWVudFdpdGhvdXRTY3JvbGwodGV4dElucHV0KTsKICAgICAgICB2b2lkIG5leHRUaWNrKCgpID0+IHsKICAgICAgICAgIGNvbnN0IG5leHRJbnB1dCA9IGdldFRlcm1pbmFsVGV4dElucHV0KCk7CiAgICAgICAgICBpZiAobmV4dElucHV0KSBmb2N1c0VsZW1lbnRXaXRob3V0U2Nyb2xsKG5leHRJbnB1dCk7CiAgICAgICAgfSk7CiAgICAgICAgcmV0dXJuOwogICAgICB9CiAgICB9CiAgICB0ZXJtPy5mb2N1cygpOwogICAgdm9pZCBuZXh0VGljaygoKSA9PiB0ZXJtPy5mb2N1cygpKTsKICB9OwoKICBjb25zdCB0b3VjaEdlc3R1cmVzID0gY3JlYXRlVGVybWluYWxUb3VjaEdlc3R1cmVzKHsKICAgIGFwcGx5Rm9udFNpemUsCiAgICBjb21wYWN0Vmlld3BvcnQsCiAgICBnZXRNb3VudEVsZW1lbnQ6ICgpID0+IHRlcm1pbmFsTW91bnRSZWYudmFsdWUsCiAgICBnZXRUZXJtaW5hbDogKCkgPT4gdGVybSwKICAgIGlzUGluY2hab29taW5nLAogICAgcGVyc2lzdEZvbnRTaXplLAogICAgdGVybWluYWxGb250U2l6ZSwKICB9KTsKICBjb25zdCBtb3VzZVJlcG9ydGVyID0gY3JlYXRlVGVybWluYWxNb3VzZVJlcG9ydGVyKHsKICAgIGZvY3VzVGVybWluYWwsCiAgICBnZXRGcmFtZUVsZW1lbnQ6ICgpID0+IHRlcm1pbmFsRnJhbWVSZWYudmFsdWUsCiAgICBnZXRNb3VudEVsZW1lbnQ6ICgpID0+IHRlcm1pbmFsTW91bnRSZWYudmFsdWUsCiAgICBnZXRSb3dIZWlnaHQ6ICgpID0+IHRvdWNoR2VzdHVyZXMuZ2V0Um93SGVpZ2h0KCksCiAgICBnZXRUZXJtaW5hbDogKCkgPT4gdGVybSwKICAgIHF1ZXVlSW5wdXQ6IChwYXlsb2FkKSA9PiBxdWV1ZUlucHV0KHBheWxvYWQsIHsgaW1tZWRpYXRlOiB0cnVlIH0pLAogIH0pOwoKICBjb25zdCByZXNldE91dHB1dFN0YXRlID0gKCkgPT4gewogICAgbGFzdE91dHB1dEN1cnNvciA9IDA7CiAgICBvdXRwdXRUZXh0RGVjb2RlciA9IG5ldyBUZXh0RGVjb2RlcigpOwogIH07CiAgY29uc3Qgd3JpdGVSZW1vdGVUZXJtaW5hbE91dHB1dCA9IChwYXlsb2FkOiBzdHJpbmcpID0+IHsKICAgIGlmICghdGVybSkgcmV0dXJuOwogICAgcmVtb3RlT3V0cHV0V3JpdGVEZXB0aCArPSAxOwogICAgdHJ5IHsKICAgICAgdGVybS53cml0ZShwYXlsb2FkKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHJlbW90ZU91dHB1dFdyaXRlRGVwdGggLT0gMTsKICAgIH0KICB9OwogIGNvbnN0IGNsZWFyVGVybWluYWwgPSAoKSA9PiB7CiAgICByZXNldE91dHB1dFN0YXRlKCk7CiAgICBpZiAoIXRlcm0pIHJldHVybjsKICAgIHRlcm0uY2xlYXI/LigpOwogICAgdGVybS5yZXNldCgpOwogICAgdGVybS53cml0ZSgiXHUwMDFiWzJKXHUwMDFiWzNKXHUwMDFiW0giKTsKICAgIGZvY3VzVGVybWluYWwoKTsKICB9OwogIGNvbnN0IGNsZWFyQXJtZWRNb2RpZmllciA9ICgpID0+IHsKICAgIGFybWVkTW9kaWZpZXIudmFsdWUgPSBudWxsOwogIH07CiAgY29uc3QgYXBwbHlBcm1lZE1vZGlmaWVyVG9JbnB1dCA9ICh2YWx1ZTogc3RyaW5nKSA9PiB7CiAgICBjb25zdCBjdXJyZW50TW9kaWZpZXIgPSBhcm1lZE1vZGlmaWVyLnZhbHVlOwogICAgaWYgKCFjdXJyZW50TW9kaWZpZXIpIHJldHVybiB2YWx1ZTsKICAgIGFybWVkTW9kaWZpZXIudmFsdWUgPSBudWxsOwogICAgaWYgKGN1cnJlbnRNb2RpZmllciA9PT0gImFsdCIpIHJldHVybiBgXHUwMDFiJHt2YWx1ZX1gOwogICAgcmV0dXJuIGVuY29kZUN0cmxJbnB1dCh2YWx1ZSkgPz8gdmFsdWU7CiAgfTsKICBjb25zdCB0b2dnbGVBcm1lZE1vZGlmaWVyID0gKG1vZGlmaWVyOiBBcm1lZE1vZGlmaWVyKSA9PiB7CiAgICBpZiAoIWNhbkFjY2VwdElucHV0KCkpIHJldHVybjsKICAgIGFybWVkTW9kaWZpZXIudmFsdWUgPSBhcm1lZE1vZGlmaWVyLnZhbHVlID09PSBtb2RpZmllciA/IG51bGwgOiBtb2RpZmllcjsKICAgIGZvY3VzVGVybWluYWwoKTsKICB9OwoKICBjb25zdCBhcHBseU91dHB1dEV2ZW50ID0gKGV2ZW50OiBUZXJtaW5hbE91dHB1dEV2ZW50KSA9PiB7CiAgICBpZiAoIXRlcm0pIHJldHVybjsKICAgIGlmIChldmVudC5yZXNldCkgewogICAgICB0ZXJtLnJlc2V0KCk7CiAgICAgIG91dHB1dFRleHREZWNvZGVyID0gbmV3IFRleHREZWNvZGVyKCk7CiAgICAgIGxhc3RPdXRwdXRDdXJzb3IgPSAwOwogICAgfQogICAgaWYgKGV2ZW50LmRhdGFCYXNlNjQpIHsKICAgICAgY29uc3QgcGF5bG9hZCA9IG91dHB1dFRleHREZWNvZGVyLmRlY29kZSgKICAgICAgICBkZWNvZGVCYXNlNjRUb0J5dGVzKGV2ZW50LmRhdGFCYXNlNjQpLAogICAgICAgIHsgc3RyZWFtOiB0cnVlIH0sCiAgICAgICk7CiAgICAgIGlmIChwYXlsb2FkKSB3cml0ZVJlbW90ZVRlcm1pbmFsT3V0cHV0KHBheWxvYWQpOwogICAgfQogICAgbGFzdE91dHB1dEN1cnNvciA9IGV2ZW50LmN1cnNvcjsKICAgIHZvaWQgbmV4dFRpY2soKCkgPT4gZm9jdXNUZXJtaW5hbCgpKTsKICB9OwoKICBjb25zdCBpbml0aWFsaXplVGVybWluYWwgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoZGlzcG9zZWQgfHwgIXRlcm1pbmFsTW91bnRSZWYudmFsdWUgfHwgdGVybSkgcmV0dXJuOwogICAgaWYgKGluaXRpYWxpemF0aW9uUHJvbWlzZSkgcmV0dXJuIGluaXRpYWxpemF0aW9uUHJvbWlzZTsKCiAgICBpbml0aWFsaXphdGlvblByb21pc2UgPSAoYXN5bmMgKCkgPT4gewogICAgICBjb25zdCB7IFRlcm1pbmFsLCBGaXRBZGRvbiwgZ2hvc3R0eSB9ID0gYXdhaXQgZW5zdXJlR2hvc3R0eSgpOwogICAgICBjb25zdCBtb3VudEVsZW1lbnQgPSB0ZXJtaW5hbE1vdW50UmVmLnZhbHVlOwogICAgICBpZiAoZGlzcG9zZWQgfHwgIW1vdW50RWxlbWVudCB8fCB0ZXJtKSByZXR1cm47CgogICAgICBjb25zdCBuZXh0VGVybSA9IG5ldyBUZXJtaW5hbCh7CiAgICAgICAgZ2hvc3R0eSwKICAgICAgICBmb250U2l6ZTogdGVybWluYWxGb250U2l6ZS52YWx1ZSwKICAgICAgICBjdXJzb3JCbGluazogdHJ1ZSwKICAgICAgICBmb250RmFtaWx5OgogICAgICAgICAgJyJTRk1vbm8tUmVndWxhciIsICJTRiBNb25vIiwgdWktbW9ub3NwYWNlLCBNZW5sbywgTW9uYWNvLCBDb25zb2xhcywgbW9ub3NwYWNlJywKICAgICAgICB0aGVtZTogewogICAgICAgICAgYmFja2dyb3VuZDogIiMxYzFjMWUiLAogICAgICAgICAgZm9yZWdyb3VuZDogIiNlYmVlZjIiLAogICAgICAgICAgY3Vyc29yOiAiI2Y4ZmFmYyIsCiAgICAgICAgICBibGFjazogIiMxNDE0MTYiLAogICAgICAgICAgcmVkOiAiI2Y4NzE3MSIsCiAgICAgICAgICBncmVlbjogIiM0YWRlODAiLAogICAgICAgICAgeWVsbG93OiAiI2ZhY2MxNSIsCiAgICAgICAgICBibHVlOiAiIzYwYTVmYSIsCiAgICAgICAgICBtYWdlbnRhOiAiI2Y0NzJiNiIsCiAgICAgICAgICBjeWFuOiAiIzIyZDNlZSIsCiAgICAgICAgICB3aGl0ZTogIiNlMmU4ZjAiLAogICAgICAgICAgYnJpZ2h0QmxhY2s6ICIjNDc1NTY5IiwKICAgICAgICAgIGJyaWdodFJlZDogIiNmYjcxODUiLAogICAgICAgICAgYnJpZ2h0R3JlZW46ICIjODZlZmFjIiwKICAgICAgICAgIGJyaWdodFllbGxvdzogIiNmZGUwNDciLAogICAgICAgICAgYnJpZ2h0Qmx1ZTogIiM5M2M1ZmQiLAogICAgICAgICAgYnJpZ2h0TWFnZW50YTogIiNmOWE4ZDQiLAogICAgICAgICAgYnJpZ2h0Q3lhbjogIiM2N2U4ZjkiLAogICAgICAgICAgYnJpZ2h0V2hpdGU6ICIjZjhmYWZjIiwKICAgICAgICB9LAogICAgICB9KTsKICAgICAgY29uc3QgbmV4dEZpdEFkZG9uID0gbmV3IEZpdEFkZG9uKCk7CiAgICAgIG5leHRUZXJtLmxvYWRBZGRvbihuZXh0Rml0QWRkb24pOwogICAgICBuZXh0VGVybS5vcGVuKG1vdW50RWxlbWVudCk7CiAgICAgIHRlcm0gPSBuZXh0VGVybTsKICAgICAgZml0QWRkb24gPSBuZXh0Rml0QWRkb247CiAgICAgIHN5bmNUZXJtaW5hbFRleHRJbnB1dEFuY2hvcigpOwogICAgICBtb3VzZVJlcG9ydGVyLmJpbmQoKTsKICAgICAgdG91Y2hHZXN0dXJlcy5iaW5kKCk7CiAgICAgIGZpdENvbnRyb2xsZXIuYXBwbHkoKTsKICAgICAgZml0Q29udHJvbGxlci5vYnNlcnZlTW91bnRTaXplKCk7CiAgICAgIGZpdENvbnRyb2xsZXIuc2NoZWR1bGUoKTsKICAgICAgZm9jdXNUZXJtaW5hbCgpOwogICAgICBuZXh0VGVybS5vbkRhdGEoKGRhdGEpID0+IHsKICAgICAgICBpZiAodGVybWluYWxJbnRlcm5hbFJlc3BvbnNlRHJvcERlcHRoID4gMCkgcmV0dXJuOwogICAgICAgIGlmIChyZW1vdGVPdXRwdXRXcml0ZURlcHRoID4gMCkgewogICAgICAgICAgcXVldWVSZW1vdGVSZXNwb25zZShkYXRhKTsKICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgcXVldWVJbnB1dChhcHBseUFybWVkTW9kaWZpZXJUb0lucHV0KGRhdGEpKTsKICAgICAgfSk7CiAgICAgIG5leHRUZXJtLm9uUmVzaXplKHNjaGVkdWxlUmVzaXplKTsKICAgIH0pKCk7CgogICAgdHJ5IHsKICAgICAgYXdhaXQgaW5pdGlhbGl6YXRpb25Qcm9taXNlOwogICAgfSBmaW5hbGx5IHsKICAgICAgaW5pdGlhbGl6YXRpb25Qcm9taXNlID0gbnVsbDsKICAgIH0KICB9OwoKICBjb25zdCBlbnN1cmVUZXJtaW5hbFJlYWR5ID0gYXN5bmMgKCkgPT4gewogICAgaWYgKHRlcm0pIHJldHVybjsKICAgIGF3YWl0IG5leHRUaWNrKCk7CiAgICBhd2FpdCBpbml0aWFsaXplVGVybWluYWwoKTsKICAgIGlmICghdGVybSkgdGhyb3cgbmV3IEVycm9yKHRyYW5zbGF0ZSgiYWRtaW4ud2ViVGVybWluYWwubm90UmVhZHkiKSk7CiAgfTsKCiAgY29uc3QgZGlzcG9zZSA9ICgpID0+IHsKICAgIGRpc3Bvc2VkID0gdHJ1ZTsKICAgIG1vdXNlUmVwb3J0ZXIudW5iaW5kKCk7CiAgICB0b3VjaEdlc3R1cmVzLnVuYmluZCgpOwogICAgZml0Q29udHJvbGxlci5kaXNwb3NlKCk7CiAgICBmaXRBZGRvbj8uZGlzcG9zZSgpOwogICAgdGVybT8uZGlzcG9zZSgpOwogICAgZml0QWRkb24gPSBudWxsOwogICAgdGVybSA9IG51bGw7CiAgfTsKCiAgcmV0dXJuIHsKICAgIGFwcGx5T3V0cHV0RXZlbnQsCiAgICBhcm1lZE1vZGlmaWVyLAogICAgY2xlYXJBcm1lZE1vZGlmaWVyLAogICAgY2xlYXJUZXJtaW5hbCwKICAgIGRpc3Bvc2UsCiAgICBlbnN1cmVUZXJtaW5hbFJlYWR5LAogICAgZm9jdXNUZXJtaW5hbCwKICAgIGdldE91dHB1dEN1cnNvcjogKCkgPT4gbGFzdE91dHB1dEN1cnNvciwKICAgIGdldFRlcm1pbmFsOiAoKSA9PiB0ZXJtLAogICAgZ2V0VGVybWluYWxTaXplOiAoKSA9PiAoewogICAgICBjb2xzOiB0ZXJtPy5jb2xzIHx8IDEyMCwKICAgICAgcm93czogdGVybT8ucm93cyB8fCAzMiwKICAgIH0pLAogICAgaXNQaW5jaFpvb21pbmcsCiAgICByZXNldE91dHB1dFN0YXRlLAogICAgc2NoZWR1bGVGaXQ6IGZpdENvbnRyb2xsZXIuc2NoZWR1bGUsCiAgICBzeW5jVGVybWluYWxUZXh0SW5wdXRBbmNob3IsCiAgICB0ZXJtaW5hbE1vdW50UmVmLAogICAgdG9nZ2xlQXJtZWRNb2RpZmllciwKICB9Owp9Cg==
+import { nextTick, ref, type Ref } from "vue";
+import type { TerminalOutputEvent } from "@/lib/api/terminal";
+import {
+  ensureGhostty,
+  type ArmedModifier,
+  type GhosttyModule,
+} from "./terminal-runtime";
+import { focusElementWithoutScroll } from "./terminal-dom";
+import { decodeBase64ToBytes, encodeCtrlInput } from "./terminal-input";
+import { createTerminalMouseReporter } from "./terminal-mouse";
+import { createTerminalFitController } from "./terminal-fit";
+import { createTerminalTouchGestures } from "./terminal-touch";
+
+interface UseTerminalEmulatorOptions {
+  applyFontSize: (value: number, options?: { persist?: boolean }) => void;
+  canAcceptInput: () => boolean;
+  compactViewport: Ref<boolean>;
+  persistFontSize: () => void;
+  queueInput: (payload: string, options?: { immediate?: boolean }) => void;
+  queueRemoteResponse: (payload: string) => void;
+  scheduleResize: () => void;
+  terminalFontSize: Ref<number>;
+  terminalFrameRef: Ref<HTMLElement | null>;
+  translate: (key: string) => string;
+}
+
+export function useTerminalEmulator({
+  applyFontSize,
+  canAcceptInput,
+  compactViewport,
+  persistFontSize,
+  queueInput,
+  queueRemoteResponse,
+  scheduleResize,
+  terminalFontSize,
+  terminalFrameRef,
+  translate,
+}: UseTerminalEmulatorOptions) {
+  const terminalMountRef = ref<HTMLElement | null>(null);
+  const isPinchZooming = ref(false);
+  const armedModifier = ref<ArmedModifier | null>(null);
+  let term: InstanceType<GhosttyModule["Terminal"]> | null = null;
+  let fitAddon: InstanceType<GhosttyModule["FitAddon"]> | null = null;
+  let lastOutputCursor = 0;
+  let outputTextDecoder = new TextDecoder();
+  let remoteOutputWriteDepth = 0;
+  let terminalInternalResponseDropDepth = 0;
+  let disposed = false;
+  let initializationPromise: Promise<void> | null = null;
+
+  function runTerminalInternalMutation(
+    action: () => void,
+    options?: { dropResponses?: boolean },
+  ) {
+    remoteOutputWriteDepth += 1;
+    if (options?.dropResponses) terminalInternalResponseDropDepth += 1;
+    try {
+      action();
+    } finally {
+      if (options?.dropResponses) terminalInternalResponseDropDepth -= 1;
+      remoteOutputWriteDepth -= 1;
+    }
+  }
+
+  const fitController = createTerminalFitController({
+    getFitAddon: () => fitAddon,
+    getMountElement: () => terminalMountRef.value,
+    getTerminal: () => term,
+    runTerminalMutation: (mutation) =>
+      runTerminalInternalMutation(mutation, { dropResponses: true }),
+  });
+
+  const getTerminalTextInput = (): HTMLTextAreaElement | null => {
+    const input = terminalMountRef.value?.querySelector("textarea");
+    return input instanceof HTMLTextAreaElement ? input : null;
+  };
+
+  const syncTerminalTextInputAnchor = () => {
+    const textInput = getTerminalTextInput();
+    if (!textInput) return;
+    textInput.style.position = compactViewport.value ? "fixed" : "absolute";
+    textInput.style.left = "0";
+    textInput.style.top = "0";
+    textInput.style.width = "1px";
+    textInput.style.height = "1px";
+    textInput.style.padding = "0";
+    textInput.style.border = "none";
+    textInput.style.margin = "0";
+    textInput.style.opacity = "0";
+    textInput.style.clipPath = "inset(50%)";
+    textInput.style.overflow = "hidden";
+    textInput.style.whiteSpace = "nowrap";
+    textInput.style.resize = "none";
+    textInput.style.pointerEvents = "none";
+    textInput.style.fontSize = "16px";
+  };
+
+  const focusTerminal = () => {
+    syncTerminalTextInputAnchor();
+    if (compactViewport.value) {
+      const textInput = getTerminalTextInput();
+      if (textInput) {
+        focusElementWithoutScroll(textInput);
+        void nextTick(() => {
+          const nextInput = getTerminalTextInput();
+          if (nextInput) focusElementWithoutScroll(nextInput);
+        });
+        return;
+      }
+    }
+    term?.focus();
+    void nextTick(() => term?.focus());
+  };
+
+  const touchGestures = createTerminalTouchGestures({
+    applyFontSize,
+    compactViewport,
+    getMountElement: () => terminalMountRef.value,
+    getTerminal: () => term,
+    isPinchZooming,
+    persistFontSize,
+    terminalFontSize,
+  });
+  const mouseReporter = createTerminalMouseReporter({
+    focusTerminal,
+    getFrameElement: () => terminalFrameRef.value,
+    getMountElement: () => terminalMountRef.value,
+    getRowHeight: () => touchGestures.getRowHeight(),
+    getTerminal: () => term,
+    queueInput: (payload) => queueInput(payload, { immediate: true }),
+  });
+
+  const resetOutputState = () => {
+    lastOutputCursor = 0;
+    outputTextDecoder = new TextDecoder();
+  };
+  const writeRemoteTerminalOutput = (payload: string) => {
+    if (!term) return;
+    remoteOutputWriteDepth += 1;
+    try {
+      term.write(payload);
+    } finally {
+      remoteOutputWriteDepth -= 1;
+    }
+  };
+  const clearTerminal = () => {
+    resetOutputState();
+    if (!term) return;
+    term.clear?.();
+    term.reset();
+    term.write("\u001b[2J\u001b[3J\u001b[H");
+    focusTerminal();
+  };
+  const clearArmedModifier = () => {
+    armedModifier.value = null;
+  };
+  const applyArmedModifierToInput = (value: string) => {
+    const currentModifier = armedModifier.value;
+    if (!currentModifier) return value;
+    armedModifier.value = null;
+    if (currentModifier === "alt") return `\u001b${value}`;
+    return encodeCtrlInput(value) ?? value;
+  };
+  const toggleArmedModifier = (modifier: ArmedModifier) => {
+    if (!canAcceptInput()) return;
+    armedModifier.value = armedModifier.value === modifier ? null : modifier;
+    focusTerminal();
+  };
+
+  const applyOutputEvent = (event: TerminalOutputEvent) => {
+    if (!term) return;
+    if (event.reset) {
+      term.reset();
+      outputTextDecoder = new TextDecoder();
+      lastOutputCursor = 0;
+    }
+    if (event.dataBase64) {
+      const payload = outputTextDecoder.decode(
+        decodeBase64ToBytes(event.dataBase64),
+        { stream: true },
+      );
+      if (payload) writeRemoteTerminalOutput(payload);
+    }
+    lastOutputCursor = event.cursor;
+    void nextTick(() => focusTerminal());
+  };
+
+  const initializeTerminal = async () => {
+    if (disposed || !terminalMountRef.value || term) return;
+    if (initializationPromise) return initializationPromise;
+
+    initializationPromise = (async () => {
+      const { Terminal, FitAddon, ghostty } = await ensureGhostty();
+      const mountElement = terminalMountRef.value;
+      if (disposed || !mountElement || term) return;
+
+      const nextTerm = new Terminal({
+        ghostty,
+        fontSize: terminalFontSize.value,
+        cursorBlink: true,
+        fontFamily:
+          '"SFMono-Regular", "SF Mono", ui-monospace, Menlo, Monaco, Consolas, monospace',
+        theme: {
+          background: "#1c1c1e",
+          foreground: "#ebeef2",
+          cursor: "#f8fafc",
+          black: "#141416",
+          red: "#f87171",
+          green: "#4ade80",
+          yellow: "#facc15",
+          blue: "#60a5fa",
+          magenta: "#f472b6",
+          cyan: "#22d3ee",
+          white: "#e2e8f0",
+          brightBlack: "#475569",
+          brightRed: "#fb7185",
+          brightGreen: "#86efac",
+          brightYellow: "#fde047",
+          brightBlue: "#93c5fd",
+          brightMagenta: "#f9a8d4",
+          brightCyan: "#67e8f9",
+          brightWhite: "#f8fafc",
+        },
+      });
+      const nextFitAddon = new FitAddon();
+      nextTerm.loadAddon(nextFitAddon);
+      nextTerm.open(mountElement);
+      term = nextTerm;
+      fitAddon = nextFitAddon;
+      syncTerminalTextInputAnchor();
+      mouseReporter.bind();
+      touchGestures.bind();
+      fitController.apply();
+      fitController.observeMountSize();
+      fitController.schedule();
+      focusTerminal();
+      nextTerm.onData((data) => {
+        if (terminalInternalResponseDropDepth > 0) return;
+        if (remoteOutputWriteDepth > 0) {
+          queueRemoteResponse(data);
+          return;
+        }
+        queueInput(applyArmedModifierToInput(data));
+      });
+      nextTerm.onResize(scheduleResize);
+    })();
+
+    try {
+      await initializationPromise;
+    } finally {
+      initializationPromise = null;
+    }
+  };
+
+  const ensureTerminalReady = async () => {
+    if (term) return;
+    await nextTick();
+    await initializeTerminal();
+    if (!term) throw new Error(translate("admin.webTerminal.notReady"));
+  };
+
+  const dispose = () => {
+    disposed = true;
+    mouseReporter.unbind();
+    touchGestures.unbind();
+    fitController.dispose();
+    fitAddon?.dispose();
+    term?.dispose();
+    fitAddon = null;
+    term = null;
+  };
+
+  return {
+    applyOutputEvent,
+    armedModifier,
+    clearArmedModifier,
+    clearTerminal,
+    dispose,
+    ensureTerminalReady,
+    focusTerminal,
+    getOutputCursor: () => lastOutputCursor,
+    getTerminal: () => term,
+    getTerminalSize: () => ({
+      cols: term?.cols || 120,
+      rows: term?.rows || 32,
+    }),
+    isPinchZooming,
+    resetOutputState,
+    scheduleFit: fitController.schedule,
+    syncTerminalTextInputAnchor,
+    terminalMountRef,
+    toggleArmedModifier,
+  };
+}

@@ -1,1 +1,125 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEFsZXJ0LCBBbGVydERlc2NyaXB0aW9uLCBBbGVydFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2FsZXJ0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgQWxlcnRDaXJjbGUsCiAgQ2hlY2tDaXJjbGUyLAogIFJlZnJlc2hDdywKICBSb2NrZXQsCiAgU3BhcmtsZXMsCn0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IEFib3V0VXBkYXRlVmVyc2lvbkZsb3dBcnJvdyBmcm9tICIuL0Fib3V0VXBkYXRlVmVyc2lvbkZsb3dBcnJvdy52dWUiOwppbXBvcnQgdHlwZSB7IEFib3V0VXBkYXRlUGFnZUNvbnRyb2xsZXIgfSBmcm9tICIuL3VzZUFib3V0VXBkYXRlUGFnZSI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsgY29udHJvbGxlcjogQWJvdXRVcGRhdGVQYWdlQ29udHJvbGxlciB9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgewogIGNhbkluc3RhbGwsCiAgY2FuVHJpZ2dlck9uZUNsaWNrLAogIGNoZWNrTm93LAogIGlzQ2hlY2tpbmcsCiAgb25lQ2xpY2tMYWJlbCwKICBvbmVDbGlja1VwZGF0ZSwKICBzaG93T25lQ2xpY2tVcGRhdGVCdXR0b24sCiAgc3RhdHVzLAogIHZlcnNpb25TdGF0dXNIaW50LAogIHZlcnNpb25TdGF0dXNNZXNzYWdlLAp9ID0gcHJvcHMuY29udHJvbGxlcjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItYm9yZGVyLzUwIGJnLW11dGVkL1swLjE2XSBweC00IHB5LTYiCiAgPgogICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LTEgZmxleC1jb2wgaXRlbXMtY2VudGVyIHNwYWNlLXktMSI+CiAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uYWJvdXRVcGRhdGUuY3VycmVudFZlcnNpb24iKSB9fQogICAgICA8L3NwYW4+CiAgICAgIDxzcGFuIGNsYXNzPSJmb250LW1vbm8gdGV4dC0yeGwgZm9udC1ib2xkIHRyYWNraW5nLXRpZ2h0IHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgc3RhdHVzPy5sb2NhbFZlcnNpb24gfHwgIi4uLiIgfX0KICAgICAgPC9zcGFuPgogICAgPC9kaXY+CgogICAgPGRpdiBjbGFzcz0icHgtNCBtZDpweC04Ij4KICAgICAgPEFib3V0VXBkYXRlVmVyc2lvbkZsb3dBcnJvdyAvPgogICAgPC9kaXY+CgogICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LTEgZmxleC1jb2wgaXRlbXMtY2VudGVyIHNwYWNlLXktMSI+CiAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAge3sgdCgiYWRtaW4uYWJvdXRVcGRhdGUubGF0ZXN0VmVyc2lvbiIpIH19CiAgICAgIDwvc3Bhbj4KICAgICAgPHNwYW4KICAgICAgICBjbGFzcz0iZm9udC1tb25vIHRleHQtMnhsIGZvbnQtYm9sZCB0cmFja2luZy10aWdodCIKICAgICAgICA6Y2xhc3M9InN0YXR1cz8uaGFzVXBkYXRlID8gJ3RleHQtcHJpbWFyeScgOiAndGV4dC1mb3JlZ3JvdW5kJyIKICAgICAgPgogICAgICAgIHt7IHN0YXR1cz8ubGF0ZXN0Py52ZXJzaW9uIHx8ICIuLi4iIH19CiAgICAgIDwvc3Bhbj4KICAgIDwvZGl2PgogIDwvZGl2PgoKICA8ZGl2CiAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBpdGVtcy1zdHJldGNoIGp1c3RpZnktYmV0d2VlbiBnYXAtNiByb3VuZGVkLXhsIGJvcmRlciBib3JkZXItYm9yZGVyLzUwIGJnLW11dGVkL1swLjE0XSBwLTQgc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIgogID4KICAgIDxkaXYgY2xhc3M9ImZsZXggdy1mdWxsIGl0ZW1zLWNlbnRlciBnYXAtMyBzbTp3LWF1dG8iPgogICAgICA8ZGl2CiAgICAgICAgY2xhc3M9ImZsZXggaC0xMCB3LTEwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwiCiAgICAgICAgOmNsYXNzPSIKICAgICAgICAgIHN0YXR1cz8uaGFzVXBkYXRlCiAgICAgICAgICAgID8gJ2JnLXByaW1hcnkvMTAgdGV4dC1wcmltYXJ5JwogICAgICAgICAgICA6ICdiZy1tdXRlZCB0ZXh0LW11dGVkLWZvcmVncm91bmQnCiAgICAgICAgIgogICAgICA+CiAgICAgICAgPFNwYXJrbGVzIHYtaWY9InN0YXR1cz8uaGFzVXBkYXRlIiBjbGFzcz0iaC01IHctNSIgLz4KICAgICAgICA8Q2hlY2tDaXJjbGUyIHYtZWxzZS1pZj0ic3RhdHVzPy51cGRhdGVFbmFibGVkIiBjbGFzcz0iaC01IHctNSIgLz4KICAgICAgICA8QWxlcnRDaXJjbGUgdi1lbHNlIGNsYXNzPSJoLTUgdy01IiAvPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0wLjUiPgogICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj57eyB2ZXJzaW9uU3RhdHVzTWVzc2FnZSB9fTwvcD4KICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt7IHZlcnNpb25TdGF0dXNIaW50IH19PC9wPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxkaXYgY2xhc3M9ImZsZXggdy1mdWxsIGl0ZW1zLWNlbnRlciBnYXAtMiBzbTp3LWF1dG8gc206Z2FwLTMiPgogICAgICA8QnV0dG9uCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICBjbGFzcz0ibWluLXctMCBmbGV4LTEgYm9yZGVyLWJvcmRlci83MCBiZy1jYXJkIHNoYWRvdy1ub25lIGhvdmVyOmJnLW11dGVkLzYwIHNtOnctYXV0byBzbTpmbGV4LW5vbmUgZGFyazpiZy1tdXRlZC8yMCBkYXJrOmhvdmVyOmJnLW11dGVkLzM1IgogICAgICAgIDpkaXNhYmxlZD0iaXNDaGVja2luZyIKICAgICAgICBAY2xpY2s9ImNoZWNrTm93IgogICAgICA+CiAgICAgICAgPFJlZnJlc2hDdwogICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCIKICAgICAgICAgIDpjbGFzcz0iaXNDaGVja2luZyA/ICdhbmltYXRlLXNwaW4nIDogJyciCiAgICAgICAgLz4KICAgICAgICB7eyB0KCJhZG1pbi5hYm91dFVwZGF0ZS5jaGVja1VwZGF0ZSIpIH19CiAgICAgIDwvQnV0dG9uPgogICAgICA8QnV0dG9uCiAgICAgICAgdi1pZj0ic2hvd09uZUNsaWNrVXBkYXRlQnV0dG9uIgogICAgICAgIGNsYXNzPSJtaW4tdy0wIGZsZXgtMSBzaGFkb3ctc20gc206dy1hdXRvIHNtOmZsZXgtbm9uZSIKICAgICAgICA6ZGlzYWJsZWQ9IiFjYW5UcmlnZ2VyT25lQ2xpY2siCiAgICAgICAgOnZhcmlhbnQ9ImNhbkluc3RhbGwgPyAnZGVzdHJ1Y3RpdmUnIDogJ2RlZmF1bHQnIgogICAgICAgIEBjbGljaz0ib25lQ2xpY2tVcGRhdGUiCiAgICAgID4KICAgICAgICA8Um9ja2V0IGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgPHNwYW4gY2xhc3M9InNtOmhpZGRlbiI+CiAgICAgICAgICB7ewogICAgICAgICAgICBjYW5JbnN0YWxsID8gdCgiYWRtaW4uYWJvdXRVcGRhdGUuaW5zdGFsbFJlc3RhcnQiKSA6IG9uZUNsaWNrTGFiZWwKICAgICAgICAgIH19CiAgICAgICAgPC9zcGFuPgogICAgICAgIDxzcGFuIGNsYXNzPSJoaWRkZW4gc206aW5saW5lIj57eyBvbmVDbGlja0xhYmVsIH19PC9zcGFuPgogICAgICA8L0J1dHRvbj4KICAgIDwvZGl2PgogIDwvZGl2PgoKICA8QWxlcnQgdi1pZj0ic3RhdHVzPy5jaGVjay5lcnJvciIgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiIGNsYXNzPSJyb3VuZGVkLXhsIj4KICAgIDxBbGVydENpcmNsZSBjbGFzcz0iaC00IHctNCIgLz4KICAgIDxBbGVydFRpdGxlPnt7IHQoImFkbWluLmFib3V0VXBkYXRlLmNoZWNrRmFpbGVkIikgfX08L0FsZXJ0VGl0bGU+CiAgICA8QWxlcnREZXNjcmlwdGlvbj57eyBzdGF0dXMuY2hlY2suZXJyb3IgfX08L0FsZXJ0RGVzY3JpcHRpb24+CiAgPC9BbGVydD4KCiAgPEFsZXJ0IHYtaWY9InN0YXR1cz8uZG93bmxvYWQuZXJyb3IiIHZhcmlhbnQ9ImRlc3RydWN0aXZlIiBjbGFzcz0icm91bmRlZC14bCI+CiAgICA8QWxlcnRDaXJjbGUgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICA8QWxlcnRUaXRsZT57eyB0KCJhZG1pbi5hYm91dFVwZGF0ZS51cGRhdGVGYWlsZWQiKSB9fTwvQWxlcnRUaXRsZT4KICAgIDxBbGVydERlc2NyaXB0aW9uPnt7IHN0YXR1cy5kb3dubG9hZC5lcnJvciB9fTwvQWxlcnREZXNjcmlwdGlvbj4KICA8L0FsZXJ0Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
+import {
+  AlertCircle,
+  CheckCircle2,
+  RefreshCw,
+  Rocket,
+  Sparkles,
+} from "lucide-vue-next";
+import AboutUpdateVersionFlowArrow from "./AboutUpdateVersionFlowArrow.vue";
+import type { AboutUpdatePageController } from "./useAboutUpdatePage";
+
+const props = defineProps<{ controller: AboutUpdatePageController }>();
+const { t } = useI18n();
+const {
+  canInstall,
+  canTriggerOneClick,
+  checkNow,
+  isChecking,
+  oneClickLabel,
+  oneClickUpdate,
+  showOneClickUpdateButton,
+  status,
+  versionStatusHint,
+  versionStatusMessage,
+} = props.controller;
+</script>
+
+<template>
+  <div
+    class="flex items-center justify-center rounded-2xl border border-border/50 bg-muted/[0.16] px-4 py-6"
+  >
+    <div class="flex flex-1 flex-col items-center space-y-1">
+      <span class="text-sm font-medium text-muted-foreground">
+        {{ t("admin.aboutUpdate.currentVersion") }}
+      </span>
+      <span class="font-mono text-2xl font-bold tracking-tight text-foreground">
+        {{ status?.localVersion || "..." }}
+      </span>
+    </div>
+
+    <div class="px-4 md:px-8">
+      <AboutUpdateVersionFlowArrow />
+    </div>
+
+    <div class="flex flex-1 flex-col items-center space-y-1">
+      <span class="text-sm font-medium text-muted-foreground">
+        {{ t("admin.aboutUpdate.latestVersion") }}
+      </span>
+      <span
+        class="font-mono text-2xl font-bold tracking-tight"
+        :class="status?.hasUpdate ? 'text-primary' : 'text-foreground'"
+      >
+        {{ status?.latest?.version || "..." }}
+      </span>
+    </div>
+  </div>
+
+  <div
+    class="flex flex-col items-stretch justify-between gap-6 rounded-xl border border-border/50 bg-muted/[0.14] p-4 sm:flex-row sm:items-center"
+  >
+    <div class="flex w-full items-center gap-3 sm:w-auto">
+      <div
+        class="flex h-10 w-10 items-center justify-center rounded-full"
+        :class="
+          status?.hasUpdate
+            ? 'bg-primary/10 text-primary'
+            : 'bg-muted text-muted-foreground'
+        "
+      >
+        <Sparkles v-if="status?.hasUpdate" class="h-5 w-5" />
+        <CheckCircle2 v-else-if="status?.updateEnabled" class="h-5 w-5" />
+        <AlertCircle v-else class="h-5 w-5" />
+      </div>
+      <div class="space-y-0.5">
+        <p class="text-sm font-medium">{{ versionStatusMessage }}</p>
+        <p class="text-xs text-muted-foreground">{{ versionStatusHint }}</p>
+      </div>
+    </div>
+
+    <div class="flex w-full items-center gap-2 sm:w-auto sm:gap-3">
+      <Button
+        variant="outline"
+        class="min-w-0 flex-1 border-border/70 bg-card shadow-none hover:bg-muted/60 sm:w-auto sm:flex-none dark:bg-muted/20 dark:hover:bg-muted/35"
+        :disabled="isChecking"
+        @click="checkNow"
+      >
+        <RefreshCw
+          class="mr-2 h-4 w-4"
+          :class="isChecking ? 'animate-spin' : ''"
+        />
+        {{ t("admin.aboutUpdate.checkUpdate") }}
+      </Button>
+      <Button
+        v-if="showOneClickUpdateButton"
+        class="min-w-0 flex-1 shadow-sm sm:w-auto sm:flex-none"
+        :disabled="!canTriggerOneClick"
+        :variant="canInstall ? 'destructive' : 'default'"
+        @click="oneClickUpdate"
+      >
+        <Rocket class="mr-2 h-4 w-4" />
+        <span class="sm:hidden">
+          {{
+            canInstall ? t("admin.aboutUpdate.installRestart") : oneClickLabel
+          }}
+        </span>
+        <span class="hidden sm:inline">{{ oneClickLabel }}</span>
+      </Button>
+    </div>
+  </div>
+
+  <Alert v-if="status?.check.error" variant="destructive" class="rounded-xl">
+    <AlertCircle class="h-4 w-4" />
+    <AlertTitle>{{ t("admin.aboutUpdate.checkFailed") }}</AlertTitle>
+    <AlertDescription>{{ status.check.error }}</AlertDescription>
+  </Alert>
+
+  <Alert v-if="status?.download.error" variant="destructive" class="rounded-xl">
+    <AlertCircle class="h-4 w-4" />
+    <AlertTitle>{{ t("admin.aboutUpdate.updateFailed") }}</AlertTitle>
+    <AlertDescription>{{ status.download.error }}</AlertDescription>
+  </Alert>
+</template>

@@ -1,1 +1,198 @@
-aW1wb3J0IHsgb25CZWZvcmVVbm1vdW50LCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyBJcExvY2F0aW9uQVBJIH0gZnJvbSAiQC9saWIvYXBpL2dhdGV3YXkiOwppbXBvcnQgdHlwZSB7IElwTG9jYXRpb25Mb29rdXBTdGF0dXMsIElwTG9jYXRpb25TbmFwc2hvdCB9IGZyb20gIi4uL3R5cGVzIjsKCmNvbnN0IFBPTExfSU5URVJWQUxfTVMgPSAyMDAwOwpjb25zdCBNQVhfUE9MTF9GQUlMVVJFUyA9IDM7Cgpjb25zdCBpc1BlbmRpbmdTdGF0dXMgPSAoc3RhdHVzPzogSXBMb2NhdGlvbkxvb2t1cFN0YXR1cykgPT4KICBzdGF0dXMgPT09ICJxdWV1ZWQiIHx8IHN0YXR1cyA9PT0gInByb2Nlc3NpbmciOwoKZXhwb3J0IGNvbnN0IG5vcm1hbGl6ZUlwS2V5ID0gKGlwOiBzdHJpbmcpID0+IHsKICBsZXQgY2FuZGlkYXRlID0gU3RyaW5nKGlwIHx8ICIiKS50cmltKCk7CiAgaWYgKCFjYW5kaWRhdGUpIHJldHVybiAiIjsKCiAgY29uc3QgYnJhY2tldGVkTWF0Y2ggPSBjYW5kaWRhdGUubWF0Y2goL15cWyguKylcXSg/OjpcZCspPyQvKTsKICBpZiAoYnJhY2tldGVkTWF0Y2g/LlsxXSkgewogICAgY2FuZGlkYXRlID0gYnJhY2tldGVkTWF0Y2hbMV07CiAgfQoKICBjb25zdCBpcHY0V2l0aFBvcnRNYXRjaCA9IGNhbmRpZGF0ZS5tYXRjaCgvXihcZCtcLlxkK1wuXGQrXC5cZCspOlxkKyQvKTsKICBpZiAoaXB2NFdpdGhQb3J0TWF0Y2g/LlsxXSkgewogICAgY2FuZGlkYXRlID0gaXB2NFdpdGhQb3J0TWF0Y2hbMV07CiAgfQoKICBpZiAoY2FuZGlkYXRlLmluY2x1ZGVzKCIlIikpIHsKICAgIGNhbmRpZGF0ZSA9IGNhbmRpZGF0ZS5zcGxpdCgiJSIpWzBdIHx8IGNhbmRpZGF0ZTsKICB9CgogIGlmIChjYW5kaWRhdGUuc3RhcnRzV2l0aCgiOjpmZmZmOiIpKSB7CiAgICBjYW5kaWRhdGUgPSBjYW5kaWRhdGUuc2xpY2UoIjo6ZmZmZjoiLmxlbmd0aCk7CiAgfQoKICBpZiAoY2FuZGlkYXRlID09PSAiOjoxIikgewogICAgY2FuZGlkYXRlID0gIjEyNy4wLjAuMSI7CiAgfQoKICByZXR1cm4gY2FuZGlkYXRlOwp9OwoKY29uc3QgZGVkdXBlSXBzID0gKGlwczogc3RyaW5nW10pID0+IHsKICBjb25zdCB1bmlxdWVJcHMgPSBuZXcgTWFwPHN0cmluZywgc3RyaW5nPigpOwoKICBmb3IgKGNvbnN0IGlwIG9mIGlwcykgewogICAgY29uc3QgcmF3SXAgPSBTdHJpbmcoaXAgfHwgIiIpLnRyaW0oKTsKICAgIGlmICghcmF3SXApIGNvbnRpbnVlOwoKICAgIGNvbnN0IG5vcm1hbGl6ZWRJcCA9IG5vcm1hbGl6ZUlwS2V5KHJhd0lwKTsKICAgIGNvbnN0IGRlZHVwZUtleSA9IG5vcm1hbGl6ZWRJcCB8fCByYXdJcDsKICAgIGlmICghdW5pcXVlSXBzLmhhcyhkZWR1cGVLZXkpKSB7CiAgICAgIHVuaXF1ZUlwcy5zZXQoZGVkdXBlS2V5LCByYXdJcCk7CiAgICB9CiAgfQoKICByZXR1cm4gWy4uLnVuaXF1ZUlwcy52YWx1ZXMoKV07Cn07CgpleHBvcnQgY29uc3QgdXNlSXBMb2NhdGlvbkJhdGNoID0gKCkgPT4gewogIGNvbnN0IHNuYXBzaG90cyA9IHJlZjxSZWNvcmQ8c3RyaW5nLCBJcExvY2F0aW9uU25hcHNob3Q+Pih7fSk7CgogIGxldCB0cmFja2VkSXBzOiBzdHJpbmdbXSA9IFtdOwogIGxldCBwb2xsVGltZXI6IFJldHVyblR5cGU8dHlwZW9mIHdpbmRvdy5zZXRUaW1lb3V0PiB8IG51bGwgPSBudWxsOwogIGxldCBhY3RpdmVSdW5JZCA9IDA7CiAgbGV0IGNvbnNlY3V0aXZlRmFpbHVyZUNvdW50ID0gMDsKCiAgY29uc3QgY2xlYXJQb2xsVGltZXIgPSAoKSA9PiB7CiAgICBpZiAocG9sbFRpbWVyKSB7CiAgICAgIHdpbmRvdy5jbGVhclRpbWVvdXQocG9sbFRpbWVyKTsKICAgICAgcG9sbFRpbWVyID0gbnVsbDsKICAgIH0KICB9OwoKICBjb25zdCBtZXJnZVNuYXBzaG90cyA9IChpdGVtczogSXBMb2NhdGlvblNuYXBzaG90W10pID0+IHsKICAgIGlmIChpdGVtcy5sZW5ndGggPT09IDApIHJldHVybjsKCiAgICBjb25zdCBuZXh0U25hcHNob3RzID0geyAuLi5zbmFwc2hvdHMudmFsdWUgfTsKICAgIGZvciAoY29uc3QgaXRlbSBvZiBpdGVtcykgewogICAgICBpZiAoaXRlbS5pcCkgewogICAgICAgIG5leHRTbmFwc2hvdHNbaXRlbS5pcF0gPSBpdGVtOwogICAgICB9CiAgICAgIGlmIChpdGVtLm5vcm1hbGl6ZWRJcCkgewogICAgICAgIG5leHRTbmFwc2hvdHNbaXRlbS5ub3JtYWxpemVkSXBdID0gaXRlbTsKICAgICAgfQogICAgfQogICAgc25hcHNob3RzLnZhbHVlID0gbmV4dFNuYXBzaG90czsKICB9OwoKICBjb25zdCBtYXJrU25hcHNob3RzRmFpbGVkID0gKGlwczogc3RyaW5nW10sIGVycm9yOiBzdHJpbmcpID0+IHsKICAgIGlmIChpcHMubGVuZ3RoID09PSAwKSByZXR1cm47CgogICAgY29uc3QgbmV4dFNuYXBzaG90cyA9IHsgLi4uc25hcHNob3RzLnZhbHVlIH07CiAgICBjb25zdCB1cGRhdGVkQXQgPSBEYXRlLm5vdygpOwogICAgZm9yIChjb25zdCBpcCBvZiBpcHMpIHsKICAgICAgY29uc3Qga2V5ID0gU3RyaW5nKGlwIHx8ICIiKS50cmltKCk7CiAgICAgIGlmICgha2V5KSBjb250aW51ZTsKCiAgICAgIGNvbnN0IGN1cnJlbnQgPSBnZXRTbmFwc2hvdChrZXkpOwogICAgICBpZiAoY3VycmVudCAmJiAhaXNQZW5kaW5nU3RhdHVzKGN1cnJlbnQuc3RhdHVzKSkgY29udGludWU7CgogICAgICBjb25zdCBub3JtYWxpemVkSXAgPSBub3JtYWxpemVJcEtleShrZXkpOwogICAgICBjb25zdCBmYWlsZWRTbmFwc2hvdDogSXBMb2NhdGlvblNuYXBzaG90ID0gewogICAgICAgIGlwOiBrZXksCiAgICAgICAgbm9ybWFsaXplZElwLAogICAgICAgIHN0YXR1czogImZhaWxlZCIsCiAgICAgICAgYXR0ZW1wdHM6IGN1cnJlbnQ/LmF0dGVtcHRzID8/IDAsCiAgICAgICAgbWF4QXR0ZW1wdHM6IGN1cnJlbnQ/Lm1heEF0dGVtcHRzID8/IE1BWF9QT0xMX0ZBSUxVUkVTLAogICAgICAgIGxvY2F0aW9uOiAiIiwKICAgICAgICBlcnJvciwKICAgICAgICB1cGRhdGVkQXQsCiAgICAgIH07CgogICAgICBuZXh0U25hcHNob3RzW2tleV0gPSBmYWlsZWRTbmFwc2hvdDsKICAgICAgaWYgKG5vcm1hbGl6ZWRJcCkgewogICAgICAgIG5leHRTbmFwc2hvdHNbbm9ybWFsaXplZElwXSA9IGZhaWxlZFNuYXBzaG90OwogICAgICB9CiAgICB9CgogICAgc25hcHNob3RzLnZhbHVlID0gbmV4dFNuYXBzaG90czsKICB9OwoKICBjb25zdCBzY2hlZHVsZU5leHRQb2xsID0gKHJ1bklkOiBudW1iZXIpID0+IHsKICAgIGNsZWFyUG9sbFRpbWVyKCk7CgogICAgY29uc3QgdW5yZXNvbHZlZElwcyA9IHRyYWNrZWRJcHMuZmlsdGVyKChpcCkgPT4gewogICAgICBjb25zdCBzbmFwc2hvdCA9IGdldFNuYXBzaG90KGlwKTsKICAgICAgcmV0dXJuICFzbmFwc2hvdCB8fCBpc1BlbmRpbmdTdGF0dXMoc25hcHNob3Quc3RhdHVzKTsKICAgIH0pOwoKICAgIGlmICh1bnJlc29sdmVkSXBzLmxlbmd0aCA9PT0gMCkgewogICAgICByZXR1cm47CiAgICB9CgogICAgcG9sbFRpbWVyID0gd2luZG93LnNldFRpbWVvdXQoKCkgPT4gewogICAgICBpZiAocnVuSWQgIT09IGFjdGl2ZVJ1bklkKSByZXR1cm47CiAgICAgIHZvaWQgZmV0Y2hCYXRjaCh1bnJlc29sdmVkSXBzLCBydW5JZCk7CiAgICB9LCBQT0xMX0lOVEVSVkFMX01TKTsKICB9OwoKICBjb25zdCBmZXRjaEJhdGNoID0gYXN5bmMgKGlwczogc3RyaW5nW10sIHJ1bklkOiBudW1iZXIpID0+IHsKICAgIGNvbnN0IHVuaXF1ZUlwcyA9IGRlZHVwZUlwcyhpcHMpOwogICAgaWYgKHVuaXF1ZUlwcy5sZW5ndGggPT09IDApIHsKICAgICAgY2xlYXJQb2xsVGltZXIoKTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIHRyeSB7CiAgICAgIGNvbnN0IGl0ZW1zID0gYXdhaXQgSXBMb2NhdGlvbkFQSS5sb29rdXBCYXRjaCh1bmlxdWVJcHMpOwogICAgICBpZiAocnVuSWQgIT09IGFjdGl2ZVJ1bklkKSByZXR1cm47CiAgICAgIGNvbnNlY3V0aXZlRmFpbHVyZUNvdW50ID0gMDsKICAgICAgbWVyZ2VTbmFwc2hvdHMoaXRlbXMpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgaWYgKHJ1bklkICE9PSBhY3RpdmVSdW5JZCkgcmV0dXJuOwogICAgICBjb25zZWN1dGl2ZUZhaWx1cmVDb3VudCArPSAxOwogICAgICBjb25zb2xlLmVycm9yKCJbaXAtbG9jYXRpb25dIGZhaWxlZCB0byBmZXRjaCBiYXRjaDoiLCBlcnJvcik7CgogICAgICBpZiAoY29uc2VjdXRpdmVGYWlsdXJlQ291bnQgPj0gTUFYX1BPTExfRkFJTFVSRVMpIHsKICAgICAgICBtYXJrU25hcHNob3RzRmFpbGVkKAogICAgICAgICAgdW5pcXVlSXBzLAogICAgICAgICAgYGJhdGNoIGxvb2t1cCBmYWlsZWQgYWZ0ZXIgJHtNQVhfUE9MTF9GQUlMVVJFU30gYXR0ZW1wdHNgLAogICAgICAgICk7CiAgICAgICAgY2xlYXJQb2xsVGltZXIoKTsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgIH0KCiAgICBpZiAocnVuSWQgIT09IGFjdGl2ZVJ1bklkKSByZXR1cm47CiAgICBzY2hlZHVsZU5leHRQb2xsKHJ1bklkKTsKICB9OwoKICBjb25zdCB0cmFja0lwcyA9IChpcHM6IHN0cmluZ1tdKSA9PiB7CiAgICB0cmFja2VkSXBzID0gZGVkdXBlSXBzKGlwcyk7CiAgICBhY3RpdmVSdW5JZCArPSAxOwogICAgY29uc2VjdXRpdmVGYWlsdXJlQ291bnQgPSAwOwogICAgY29uc3QgcnVuSWQgPSBhY3RpdmVSdW5JZDsKCiAgICBjbGVhclBvbGxUaW1lcigpOwogICAgaWYgKHRyYWNrZWRJcHMubGVuZ3RoID09PSAwKSB7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICB2b2lkIGZldGNoQmF0Y2godHJhY2tlZElwcywgcnVuSWQpOwogIH07CgogIGNvbnN0IGdldFNuYXBzaG90ID0gKGlwPzogc3RyaW5nIHwgbnVsbCkgPT4gewogICAgY29uc3Qga2V5ID0gU3RyaW5nKGlwIHx8ICIiKS50cmltKCk7CiAgICBpZiAoIWtleSkgcmV0dXJuIG51bGw7CiAgICByZXR1cm4gc25hcHNob3RzLnZhbHVlW2tleV0gfHwgc25hcHNob3RzLnZhbHVlW25vcm1hbGl6ZUlwS2V5KGtleSldIHx8IG51bGw7CiAgfTsKCiAgb25CZWZvcmVVbm1vdW50KCgpID0+IHsKICAgIGNsZWFyUG9sbFRpbWVyKCk7CiAgfSk7CgogIHJldHVybiB7CiAgICBzbmFwc2hvdHMsCiAgICB0cmFja0lwcywKICAgIGdldFNuYXBzaG90LAogIH07Cn07Cg==
+import { onBeforeUnmount, ref } from "vue";
+import { IpLocationAPI } from "@/lib/api/gateway";
+import type { IpLocationLookupStatus, IpLocationSnapshot } from "../types";
+
+const POLL_INTERVAL_MS = 2000;
+const MAX_POLL_FAILURES = 3;
+
+const isPendingStatus = (status?: IpLocationLookupStatus) =>
+  status === "queued" || status === "processing";
+
+export const normalizeIpKey = (ip: string) => {
+  let candidate = String(ip || "").trim();
+  if (!candidate) return "";
+
+  const bracketedMatch = candidate.match(/^\[(.+)\](?::\d+)?$/);
+  if (bracketedMatch?.[1]) {
+    candidate = bracketedMatch[1];
+  }
+
+  const ipv4WithPortMatch = candidate.match(/^(\d+\.\d+\.\d+\.\d+):\d+$/);
+  if (ipv4WithPortMatch?.[1]) {
+    candidate = ipv4WithPortMatch[1];
+  }
+
+  if (candidate.includes("%")) {
+    candidate = candidate.split("%")[0] || candidate;
+  }
+
+  if (candidate.startsWith("::ffff:")) {
+    candidate = candidate.slice("::ffff:".length);
+  }
+
+  if (candidate === "::1") {
+    candidate = "127.0.0.1";
+  }
+
+  return candidate;
+};
+
+const dedupeIps = (ips: string[]) => {
+  const uniqueIps = new Map<string, string>();
+
+  for (const ip of ips) {
+    const rawIp = String(ip || "").trim();
+    if (!rawIp) continue;
+
+    const normalizedIp = normalizeIpKey(rawIp);
+    const dedupeKey = normalizedIp || rawIp;
+    if (!uniqueIps.has(dedupeKey)) {
+      uniqueIps.set(dedupeKey, rawIp);
+    }
+  }
+
+  return [...uniqueIps.values()];
+};
+
+export const useIpLocationBatch = () => {
+  const snapshots = ref<Record<string, IpLocationSnapshot>>({});
+
+  let trackedIps: string[] = [];
+  let pollTimer: ReturnType<typeof window.setTimeout> | null = null;
+  let activeRunId = 0;
+  let consecutiveFailureCount = 0;
+
+  const clearPollTimer = () => {
+    if (pollTimer) {
+      window.clearTimeout(pollTimer);
+      pollTimer = null;
+    }
+  };
+
+  const mergeSnapshots = (items: IpLocationSnapshot[]) => {
+    if (items.length === 0) return;
+
+    const nextSnapshots = { ...snapshots.value };
+    for (const item of items) {
+      if (item.ip) {
+        nextSnapshots[item.ip] = item;
+      }
+      if (item.normalizedIp) {
+        nextSnapshots[item.normalizedIp] = item;
+      }
+    }
+    snapshots.value = nextSnapshots;
+  };
+
+  const markSnapshotsFailed = (ips: string[], error: string) => {
+    if (ips.length === 0) return;
+
+    const nextSnapshots = { ...snapshots.value };
+    const updatedAt = Date.now();
+    for (const ip of ips) {
+      const key = String(ip || "").trim();
+      if (!key) continue;
+
+      const current = getSnapshot(key);
+      if (current && !isPendingStatus(current.status)) continue;
+
+      const normalizedIp = normalizeIpKey(key);
+      const failedSnapshot: IpLocationSnapshot = {
+        ip: key,
+        normalizedIp,
+        status: "failed",
+        attempts: current?.attempts ?? 0,
+        maxAttempts: current?.maxAttempts ?? MAX_POLL_FAILURES,
+        location: "",
+        error,
+        updatedAt,
+      };
+
+      nextSnapshots[key] = failedSnapshot;
+      if (normalizedIp) {
+        nextSnapshots[normalizedIp] = failedSnapshot;
+      }
+    }
+
+    snapshots.value = nextSnapshots;
+  };
+
+  const scheduleNextPoll = (runId: number) => {
+    clearPollTimer();
+
+    const unresolvedIps = trackedIps.filter((ip) => {
+      const snapshot = getSnapshot(ip);
+      return !snapshot || isPendingStatus(snapshot.status);
+    });
+
+    if (unresolvedIps.length === 0) {
+      return;
+    }
+
+    pollTimer = window.setTimeout(() => {
+      if (runId !== activeRunId) return;
+      void fetchBatch(unresolvedIps, runId);
+    }, POLL_INTERVAL_MS);
+  };
+
+  const fetchBatch = async (ips: string[], runId: number) => {
+    const uniqueIps = dedupeIps(ips);
+    if (uniqueIps.length === 0) {
+      clearPollTimer();
+      return;
+    }
+
+    try {
+      const items = await IpLocationAPI.lookupBatch(uniqueIps);
+      if (runId !== activeRunId) return;
+      consecutiveFailureCount = 0;
+      mergeSnapshots(items);
+    } catch (error) {
+      if (runId !== activeRunId) return;
+      consecutiveFailureCount += 1;
+      console.error("[ip-location] failed to fetch batch:", error);
+
+      if (consecutiveFailureCount >= MAX_POLL_FAILURES) {
+        markSnapshotsFailed(
+          uniqueIps,
+          `batch lookup failed after ${MAX_POLL_FAILURES} attempts`,
+        );
+        clearPollTimer();
+        return;
+      }
+    }
+
+    if (runId !== activeRunId) return;
+    scheduleNextPoll(runId);
+  };
+
+  const trackIps = (ips: string[]) => {
+    trackedIps = dedupeIps(ips);
+    activeRunId += 1;
+    consecutiveFailureCount = 0;
+    const runId = activeRunId;
+
+    clearPollTimer();
+    if (trackedIps.length === 0) {
+      return;
+    }
+
+    void fetchBatch(trackedIps, runId);
+  };
+
+  const getSnapshot = (ip?: string | null) => {
+    const key = String(ip || "").trim();
+    if (!key) return null;
+    return snapshots.value[key] || snapshots.value[normalizeIpKey(key)] || null;
+  };
+
+  onBeforeUnmount(() => {
+    clearPollTimer();
+  });
+
+  return {
+    snapshots,
+    trackIps,
+    getSnapshot,
+  };
+};

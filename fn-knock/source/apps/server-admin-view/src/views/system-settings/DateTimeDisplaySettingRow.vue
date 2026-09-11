@@ -1,1 +1,63 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgdHlwZSB7IERhdGVUaW1lRGlzcGxheU1vZGUgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIGRpc2FibGVkPzogYm9vbGVhbjsKICBtb2RlbFZhbHVlOiBEYXRlVGltZURpc3BsYXlNb2RlOwp9PigpOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICBjaGFuZ2U6IFt2YWx1ZTogRGF0ZVRpbWVEaXNwbGF5TW9kZV07Cn0+KCk7Cgpjb25zdCBzZWxlY3RNb2RlID0gKHZhbHVlOiBEYXRlVGltZURpc3BsYXlNb2RlKSA9PiB7CiAgaWYgKCFwcm9wcy5kaXNhYmxlZCAmJiB2YWx1ZSAhPT0gcHJvcHMubW9kZWxWYWx1ZSkgZW1pdCgiY2hhbmdlIiwgdmFsdWUpOwp9OwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYKICAgIGNsYXNzPSJncmlkIGdhcC0zIHAtNiBzbTpncmlkLWNvbHMtW21pbm1heCgwLDFmcilfYXV0b10gc206aXRlbXMtY2VudGVyIHNtOmdhcC00IgogID4KICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSBwci02Ij4KICAgICAgPGRpdiBjbGFzcz0idGV4dC1iYXNlIGZvbnQtbWVkaXVtIj4KICAgICAgICB7eyB0KCJhZG1pbi5mZWF0dXJlc1NldHRpbmdzLmRhdGVUaW1lRGlzcGxheU1vZGUiKSB9fQogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIHt7IHQoImFkbWluLmZlYXR1cmVzU2V0dGluZ3MuZGF0ZVRpbWVEaXNwbGF5TW9kZUhpbnQiKSB9fQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICAgPGRpdgogICAgICByb2xlPSJncm91cCIKICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLmZlYXR1cmVzU2V0dGluZ3MuZGF0ZVRpbWVEaXNwbGF5TW9kZScpIgogICAgICBjbGFzcz0iaW5saW5lLWZsZXggdy1maXQgcm91bmRlZC1tZCBib3JkZXIgYmctYmFja2dyb3VuZCBwLTEiCiAgICA+CiAgICAgIDxCdXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgOnZhcmlhbnQ9Im1vZGVsVmFsdWUgPT09ICdodW1hbl9mcmllbmRseScgPyAnZGVmYXVsdCcgOiAnZ2hvc3QnIgogICAgICAgIGNsYXNzPSJoLTggcHgtMyIKICAgICAgICA6ZGlzYWJsZWQ9ImRpc2FibGVkIgogICAgICAgIDphcmlhLXByZXNzZWQ9Im1vZGVsVmFsdWUgPT09ICdodW1hbl9mcmllbmRseSciCiAgICAgICAgQGNsaWNrPSJzZWxlY3RNb2RlKCdodW1hbl9mcmllbmRseScpIgogICAgICA+CiAgICAgICAge3sgdCgiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5kYXRlVGltZURpc3BsYXlIdW1hbkZyaWVuZGx5IikgfX0KICAgICAgPC9CdXR0b24+CiAgICAgIDxCdXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgOnZhcmlhbnQ9Im1vZGVsVmFsdWUgPT09ICdmdWxsJyA/ICdkZWZhdWx0JyA6ICdnaG9zdCciCiAgICAgICAgY2xhc3M9ImgtOCBweC0zIgogICAgICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQiCiAgICAgICAgOmFyaWEtcHJlc3NlZD0ibW9kZWxWYWx1ZSA9PT0gJ2Z1bGwnIgogICAgICAgIEBjbGljaz0ic2VsZWN0TW9kZSgnZnVsbCcpIgogICAgICA+CiAgICAgICAge3sgdCgiYWRtaW4uZmVhdHVyZXNTZXR0aW5ncy5kYXRlVGltZURpc3BsYXlGdWxsIikgfX0KICAgICAgPC9CdXR0b24+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { Button } from "@/components/ui/button";
+import type { DateTimeDisplayMode } from "@/types";
+import { useI18n } from "vue-i18n";
+
+const props = defineProps<{
+  disabled?: boolean;
+  modelValue: DateTimeDisplayMode;
+}>();
+
+const emit = defineEmits<{
+  change: [value: DateTimeDisplayMode];
+}>();
+
+const selectMode = (value: DateTimeDisplayMode) => {
+  if (!props.disabled && value !== props.modelValue) emit("change", value);
+};
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <div
+    class="grid gap-3 p-6 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-4"
+  >
+    <div class="space-y-1 pr-6">
+      <div class="text-base font-medium">
+        {{ t("admin.featuresSettings.dateTimeDisplayMode") }}
+      </div>
+      <div class="text-sm text-muted-foreground">
+        {{ t("admin.featuresSettings.dateTimeDisplayModeHint") }}
+      </div>
+    </div>
+    <div
+      role="group"
+      :aria-label="t('admin.featuresSettings.dateTimeDisplayMode')"
+      class="inline-flex w-fit rounded-md border bg-background p-1"
+    >
+      <Button
+        type="button"
+        size="sm"
+        :variant="modelValue === 'human_friendly' ? 'default' : 'ghost'"
+        class="h-8 px-3"
+        :disabled="disabled"
+        :aria-pressed="modelValue === 'human_friendly'"
+        @click="selectMode('human_friendly')"
+      >
+        {{ t("admin.featuresSettings.dateTimeDisplayHumanFriendly") }}
+      </Button>
+      <Button
+        type="button"
+        size="sm"
+        :variant="modelValue === 'full' ? 'default' : 'ghost'"
+        class="h-8 px-3"
+        :disabled="disabled"
+        :aria-pressed="modelValue === 'full'"
+        @click="selectMode('full')"
+      >
+        {{ t("admin.featuresSettings.dateTimeDisplayFull") }}
+      </Button>
+    </div>
+  </div>
+</template>

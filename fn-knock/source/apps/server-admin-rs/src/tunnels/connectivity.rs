@@ -1,1 +1,313 @@
-dXNlIHN0ZDo6dGltZTo6RHVyYXRpb247Cgp1c2UgdG9raW86OnRpbWU6Okluc3RhbnQ7CnVzZSB0b2tpb191dGlsOjpzeW5jOjpDYW5jZWxsYXRpb25Ub2tlbjsKCnB1YihzdXBlcikgY29uc3QgRElTQ09OTkVDVF9HUkFDRV9QRVJJT0Q6IER1cmF0aW9uID0gRHVyYXRpb246OmZyb21fc2VjcygzMCk7CgojW2Rlcml2ZShEZWJ1ZywgRXEsIFBhcnRpYWxFcSldCnB1YihzdXBlcikgc3RydWN0IFR1bm5lbERpc2Nvbm5lY3RFdmVudCB7CiAgICBwdWIoc3VwZXIpIGhhcHBlbmVkX2F0OiBTdHJpbmcsCiAgICBwdWIoc3VwZXIpIG1lc3NhZ2U6IE9wdGlvbjxTdHJpbmc+LAogICAgcHViKHN1cGVyKSBwaWQ6IE9wdGlvbjx1MzI+LAp9CgojW2Rlcml2ZShEZWJ1ZywgRXEsIFBhcnRpYWxFcSldCnB1YihzdXBlcikgZW51bSBDb25uZWN0ZWRFdmVudEFjdGlvbiB7CiAgICBJZ25vcmUsCiAgICBQdWJsaXNoQ29ubmVjdGVkLAogICAgUHVibGlzaERpc2Nvbm5lY3RUaGVuQ29ubmVjdGVkKFR1bm5lbERpc2Nvbm5lY3RFdmVudCksCn0KCiNbZGVyaXZlKENsb25lKV0KcHViKHN1cGVyKSBzdHJ1Y3QgRGlzY29ubmVjdFRpbWVyIHsKICAgIGdlbmVyYXRpb246IHU2NCwKICAgIHB1YihzdXBlcikgZGVhZGxpbmU6IEluc3RhbnQsCiAgICBjYW5jZWxsYXRpb246IENhbmNlbGxhdGlvblRva2VuLAp9CgppbXBsIERpc2Nvbm5lY3RUaW1lciB7CiAgICBwdWIoc3VwZXIpIGFzeW5jIGZuIGNhbmNlbGxlZCgmc2VsZikgewogICAgICAgIHNlbGYuY2FuY2VsbGF0aW9uLmNhbmNlbGxlZCgpLmF3YWl0OwogICAgfQp9CgpzdHJ1Y3QgUGVuZGluZ0Rpc2Nvbm5lY3QgewogICAgdGltZXI6IERpc2Nvbm5lY3RUaW1lciwKICAgIGV2ZW50OiBUdW5uZWxEaXNjb25uZWN0RXZlbnQsCn0KCiNbZGVyaXZlKERlZmF1bHQpXQpwdWIoc3VwZXIpIHN0cnVjdCBUdW5uZWxDb25uZWN0aXZpdHlHYXRlIHsKICAgIGNvbm5lY3RlZDogYm9vbCwKICAgIHN0b3BfcmVxdWVzdGVkOiBib29sLAogICAgcGVuZGluZ19kaXNjb25uZWN0OiBPcHRpb248UGVuZGluZ0Rpc2Nvbm5lY3Q+LAogICAgbmV4dF9nZW5lcmF0aW9uOiB1NjQsCn0KCmltcGwgVHVubmVsQ29ubmVjdGl2aXR5R2F0ZSB7CiAgICAvLyBBIHBlbmRpbmcgb3V0YWdlIGhhcyBub3QgeWV0IGJlZW4gcmVwb3J0ZWQgYXMgZGlzY29ubmVjdGVkLgogICAgcHViKHN1cGVyKSBmbiBoYXNfY29ubmVjdGlvbl9iYXNlbGluZSgmc2VsZikgLT4gYm9vbCB7CiAgICAgICAgc2VsZi5jb25uZWN0ZWQgfHwgc2VsZi5wZW5kaW5nX2Rpc2Nvbm5lY3QuaXNfc29tZSgpCiAgICB9CgogICAgcHViKHN1cGVyKSBmbiBvYnNlcnZlX2Nvbm5lY3RlZCgmbXV0IHNlbGYsIG5vdzogSW5zdGFudCkgLT4gQ29ubmVjdGVkRXZlbnRBY3Rpb24gewogICAgICAgIGlmIHNlbGYuY29ubmVjdGVkIHx8IHNlbGYuc3RvcF9yZXF1ZXN0ZWQgewogICAgICAgICAgICByZXR1cm4gQ29ubmVjdGVkRXZlbnRBY3Rpb246Oklnbm9yZTsKICAgICAgICB9CiAgICAgICAgc2VsZi5jb25uZWN0ZWQgPSB0cnVlOwogICAgICAgIGxldCBTb21lKHBlbmRpbmcpID0gc2VsZi5wZW5kaW5nX2Rpc2Nvbm5lY3QudGFrZSgpIGVsc2UgewogICAgICAgICAgICByZXR1cm4gQ29ubmVjdGVkRXZlbnRBY3Rpb246OlB1Ymxpc2hDb25uZWN0ZWQ7CiAgICAgICAgfTsKICAgICAgICBwZW5kaW5nLnRpbWVyLmNhbmNlbGxhdGlvbi5jYW5jZWwoKTsKICAgICAgICBpZiBub3cgPCBwZW5kaW5nLnRpbWVyLmRlYWRsaW5lIHsKICAgICAgICAgICAgQ29ubmVjdGVkRXZlbnRBY3Rpb246Oklnbm9yZQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIENvbm5lY3RlZEV2ZW50QWN0aW9uOjpQdWJsaXNoRGlzY29ubmVjdFRoZW5Db25uZWN0ZWQocGVuZGluZy5ldmVudCkKICAgICAgICB9CiAgICB9CgogICAgcHViKHN1cGVyKSBmbiBvYnNlcnZlX2Rpc2Nvbm5lY3RlZCgKICAgICAgICAmbXV0IHNlbGYsCiAgICAgICAgbm93OiBJbnN0YW50LAogICAgICAgIGV2ZW50OiBUdW5uZWxEaXNjb25uZWN0RXZlbnQsCiAgICApIC0+IE9wdGlvbjxEaXNjb25uZWN0VGltZXI+IHsKICAgICAgICBpZiAhc2VsZi5jb25uZWN0ZWQgewogICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICB9CiAgICAgICAgc2VsZi5jb25uZWN0ZWQgPSBmYWxzZTsKICAgICAgICBpZiBzZWxmLnN0b3BfcmVxdWVzdGVkIHsKICAgICAgICAgICAgcmV0dXJuIE5vbmU7CiAgICAgICAgfQogICAgICAgIHNlbGYubmV4dF9nZW5lcmF0aW9uID0gc2VsZi5uZXh0X2dlbmVyYXRpb24ud3JhcHBpbmdfYWRkKDEpLm1heCgxKTsKICAgICAgICBsZXQgdGltZXIgPSBEaXNjb25uZWN0VGltZXIgewogICAgICAgICAgICBnZW5lcmF0aW9uOiBzZWxmLm5leHRfZ2VuZXJhdGlvbiwKICAgICAgICAgICAgZGVhZGxpbmU6IG5vdyArIERJU0NPTk5FQ1RfR1JBQ0VfUEVSSU9ELAogICAgICAgICAgICBjYW5jZWxsYXRpb246IENhbmNlbGxhdGlvblRva2VuOjpuZXcoKSwKICAgICAgICB9OwogICAgICAgIHNlbGYucGVuZGluZ19kaXNjb25uZWN0ID0gU29tZShQZW5kaW5nRGlzY29ubmVjdCB7CiAgICAgICAgICAgIHRpbWVyOiB0aW1lci5jbG9uZSgpLAogICAgICAgICAgICBldmVudCwKICAgICAgICB9KTsKICAgICAgICBTb21lKHRpbWVyKQogICAgfQoKICAgIHB1YihzdXBlcikgZm4gY29uZmlybV9kaXNjb25uZWN0KAogICAgICAgICZtdXQgc2VsZiwKICAgICAgICB0aW1lcjogJkRpc2Nvbm5lY3RUaW1lciwKICAgICAgICBub3c6IEluc3RhbnQsCiAgICApIC0+IE9wdGlvbjxUdW5uZWxEaXNjb25uZWN0RXZlbnQ+IHsKICAgICAgICBsZXQgcGVuZGluZyA9IHNlbGYucGVuZGluZ19kaXNjb25uZWN0LmFzX3JlZigpPzsKICAgICAgICBpZiBzZWxmLnN0b3BfcmVxdWVzdGVkCiAgICAgICAgICAgIHx8IHNlbGYuY29ubmVjdGVkCiAgICAgICAgICAgIHx8IHBlbmRpbmcudGltZXIuZ2VuZXJhdGlvbiAhPSB0aW1lci5nZW5lcmF0aW9uCiAgICAgICAgICAgIHx8IG5vdyA8IHBlbmRpbmcudGltZXIuZGVhZGxpbmUKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybiBOb25lOwogICAgICAgIH0KICAgICAgICBzZWxmLnBlbmRpbmdfZGlzY29ubmVjdC50YWtlKCkubWFwKHxwZW5kaW5nfCBwZW5kaW5nLmV2ZW50KQogICAgfQoKICAgIHB1YihzdXBlcikgZm4gc2V0X2V4cGVjdGVkX3N0b3AoJm11dCBzZWxmLCBleHBlY3RlZDogYm9vbCkgewogICAgICAgIHNlbGYuc3RvcF9yZXF1ZXN0ZWQgPSBleHBlY3RlZDsKICAgICAgICBpZiBleHBlY3RlZCB7CiAgICAgICAgICAgIHNlbGYuY29ubmVjdGVkID0gZmFsc2U7CiAgICAgICAgICAgIGlmIGxldCBTb21lKHBlbmRpbmcpID0gc2VsZi5wZW5kaW5nX2Rpc2Nvbm5lY3QudGFrZSgpIHsKICAgICAgICAgICAgICAgIHBlbmRpbmcudGltZXIuY2FuY2VsbGF0aW9uLmNhbmNlbCgpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKCiAgICBmbiBkaXNjb25uZWN0X2V2ZW50KG1lc3NhZ2U6ICZzdHIpIC0+IFR1bm5lbERpc2Nvbm5lY3RFdmVudCB7CiAgICAgICAgVHVubmVsRGlzY29ubmVjdEV2ZW50IHsKICAgICAgICAgICAgaGFwcGVuZWRfYXQ6ICIyMDI2LTA4LTA2VDEyOjM0OjU2WiIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIG1lc3NhZ2U6IFNvbWUobWVzc2FnZS50b19zdHJpbmcoKSksCiAgICAgICAgICAgIHBpZDogU29tZSg0MiksCiAgICAgICAgfQogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGdyYWNlX3BlcmlvZF9pc190aGlydHlfc2Vjb25kcygpIHsKICAgICAgICBhc3NlcnRfZXEhKERJU0NPTk5FQ1RfR1JBQ0VfUEVSSU9ELCBEdXJhdGlvbjo6ZnJvbV9zZWNzKDMwKSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gcHVibGlzaGVzX29ubHlfdGhlX2ZpcnN0X2Nvbm5lY3RlZF9zaWduYWwoKSB7CiAgICAgICAgbGV0IG11dCBnYXRlID0gVHVubmVsQ29ubmVjdGl2aXR5R2F0ZTo6ZGVmYXVsdCgpOwogICAgICAgIGxldCBub3cgPSBJbnN0YW50Ojpub3coKTsKCiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZ2F0ZS5vYnNlcnZlX2Nvbm5lY3RlZChub3cpLAogICAgICAgICAgICBDb25uZWN0ZWRFdmVudEFjdGlvbjo6UHVibGlzaENvbm5lY3RlZAogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxIShnYXRlLm9ic2VydmVfY29ubmVjdGVkKG5vdyksIENvbm5lY3RlZEV2ZW50QWN0aW9uOjpJZ25vcmUpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHJlY29ubmVjdF9iZWZvcmVfY29uZmlybWF0aW9uX3N1cHByZXNzZXNfYm90aF9lZGdlcygpIHsKICAgICAgICBsZXQgbXV0IGdhdGUgPSBUdW5uZWxDb25uZWN0aXZpdHlHYXRlOjpkZWZhdWx0KCk7CiAgICAgICAgbGV0IG5vdyA9IEluc3RhbnQ6Om5vdygpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGdhdGUub2JzZXJ2ZV9jb25uZWN0ZWQobm93KSwKICAgICAgICAgICAgQ29ubmVjdGVkRXZlbnRBY3Rpb246OlB1Ymxpc2hDb25uZWN0ZWQKICAgICAgICApOwoKICAgICAgICBsZXQgdGltZXIgPSBnYXRlCiAgICAgICAgICAgIC5vYnNlcnZlX2Rpc2Nvbm5lY3RlZChub3csIGRpc2Nvbm5lY3RfZXZlbnQoImZpcnN0IikpCiAgICAgICAgICAgIC51bndyYXAoKTsKCiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZ2F0ZS5vYnNlcnZlX2Nvbm5lY3RlZCh0aW1lci5kZWFkbGluZSAtIER1cmF0aW9uOjpmcm9tX21pbGxpcygxKSksCiAgICAgICAgICAgIENvbm5lY3RlZEV2ZW50QWN0aW9uOjpJZ25vcmUKICAgICAgICApOwogICAgICAgIGFzc2VydCEoZ2F0ZS5jb25maXJtX2Rpc2Nvbm5lY3QoJnRpbWVyLCB0aW1lci5kZWFkbGluZSkuaXNfbm9uZSgpKTsKICAgIH0KCiAgICAjW3Rva2lvOjp0ZXN0XQogICAgYXN5bmMgZm4gcmVjb25uZWN0X3dha2VzX3RoZV9jYW5jZWxsZWRfdGltZXJfaW1tZWRpYXRlbHkoKSB7CiAgICAgICAgbGV0IG11dCBnYXRlID0gVHVubmVsQ29ubmVjdGl2aXR5R2F0ZTo6ZGVmYXVsdCgpOwogICAgICAgIGxldCBub3cgPSBJbnN0YW50Ojpub3coKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBnYXRlLm9ic2VydmVfY29ubmVjdGVkKG5vdyksCiAgICAgICAgICAgIENvbm5lY3RlZEV2ZW50QWN0aW9uOjpQdWJsaXNoQ29ubmVjdGVkCiAgICAgICAgKTsKICAgICAgICBsZXQgdGltZXIgPSBnYXRlCiAgICAgICAgICAgIC5vYnNlcnZlX2Rpc2Nvbm5lY3RlZChub3csIGRpc2Nvbm5lY3RfZXZlbnQoImNhbmNlbGxlZCIpKQogICAgICAgICAgICAudW53cmFwKCk7CgogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGdhdGUub2JzZXJ2ZV9jb25uZWN0ZWQobm93ICsgRHVyYXRpb246OmZyb21fc2VjcygxKSksCiAgICAgICAgICAgIENvbm5lY3RlZEV2ZW50QWN0aW9uOjpJZ25vcmUKICAgICAgICApOwoKICAgICAgICB0b2tpbzo6dGltZTo6dGltZW91dChEdXJhdGlvbjo6ZnJvbV9taWxsaXMoNTApLCB0aW1lci5jYW5jZWxsZWQoKSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5leHBlY3QoImNhbmNlbGxlZCB0aW1lciBzaG91bGQgd2FrZSB3aXRob3V0IHdhaXRpbmcgZm9yIGl0cyBkZWFkbGluZSIpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHBlcnNpc3RlbnRfZGlzY29ubmVjdF9pc19jb25maXJtZWRfb25jZV9hbmRfcmVjb3ZlcnlfaXNfcHVibGlzaGVkKCkgewogICAgICAgIGxldCBtdXQgZ2F0ZSA9IFR1bm5lbENvbm5lY3Rpdml0eUdhdGU6OmRlZmF1bHQoKTsKICAgICAgICBsZXQgbm93ID0gSW5zdGFudDo6bm93KCk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZ2F0ZS5vYnNlcnZlX2Nvbm5lY3RlZChub3cpLAogICAgICAgICAgICBDb25uZWN0ZWRFdmVudEFjdGlvbjo6UHVibGlzaENvbm5lY3RlZAogICAgICAgICk7CgogICAgICAgIGxldCB0aW1lciA9IGdhdGUKICAgICAgICAgICAgLm9ic2VydmVfZGlzY29ubmVjdGVkKG5vdywgZGlzY29ubmVjdF9ldmVudCgicGVyc2lzdGVudCIpKQogICAgICAgICAgICAudW53cmFwKCk7CgogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGdhdGUuY29uZmlybV9kaXNjb25uZWN0KCZ0aW1lciwgdGltZXIuZGVhZGxpbmUpLAogICAgICAgICAgICBTb21lKGRpc2Nvbm5lY3RfZXZlbnQoInBlcnNpc3RlbnQiKSkKICAgICAgICApOwogICAgICAgIGFzc2VydCEoZ2F0ZS5jb25maXJtX2Rpc2Nvbm5lY3QoJnRpbWVyLCB0aW1lci5kZWFkbGluZSkuaXNfbm9uZSgpKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBnYXRlLm9ic2VydmVfY29ubmVjdGVkKHRpbWVyLmRlYWRsaW5lKSwKICAgICAgICAgICAgQ29ubmVjdGVkRXZlbnRBY3Rpb246OlB1Ymxpc2hDb25uZWN0ZWQKICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHJlY29ubmVjdF9hdF90aGVfZGVhZGxpbmVfcHVibGlzaGVzX3RoZV9wZW5kaW5nX2Rpc2Nvbm5lY3RfZmlyc3QoKSB7CiAgICAgICAgbGV0IG11dCBnYXRlID0gVHVubmVsQ29ubmVjdGl2aXR5R2F0ZTo6ZGVmYXVsdCgpOwogICAgICAgIGxldCBub3cgPSBJbnN0YW50Ojpub3coKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBnYXRlLm9ic2VydmVfY29ubmVjdGVkKG5vdyksCiAgICAgICAgICAgIENvbm5lY3RlZEV2ZW50QWN0aW9uOjpQdWJsaXNoQ29ubmVjdGVkCiAgICAgICAgKTsKICAgICAgICBsZXQgdGltZXIgPSBnYXRlCiAgICAgICAgICAgIC5vYnNlcnZlX2Rpc2Nvbm5lY3RlZChub3csIGRpc2Nvbm5lY3RfZXZlbnQoImRlYWRsaW5lIikpCiAgICAgICAgICAgIC51bndyYXAoKTsKCiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZ2F0ZS5vYnNlcnZlX2Nvbm5lY3RlZCh0aW1lci5kZWFkbGluZSksCiAgICAgICAgICAgIENvbm5lY3RlZEV2ZW50QWN0aW9uOjpQdWJsaXNoRGlzY29ubmVjdFRoZW5Db25uZWN0ZWQoZGlzY29ubmVjdF9ldmVudCgiZGVhZGxpbmUiKSkKICAgICAgICApOwogICAgICAgIGFzc2VydCEoZ2F0ZS5jb25maXJtX2Rpc2Nvbm5lY3QoJnRpbWVyLCB0aW1lci5kZWFkbGluZSkuaXNfbm9uZSgpKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBlYXJseV90aW1lcl93YWtldXBfZG9lc19ub3RfY29uZmlybV90aGVfZGlzY29ubmVjdCgpIHsKICAgICAgICBsZXQgbXV0IGdhdGUgPSBUdW5uZWxDb25uZWN0aXZpdHlHYXRlOjpkZWZhdWx0KCk7CiAgICAgICAgbGV0IG5vdyA9IEluc3RhbnQ6Om5vdygpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGdhdGUub2JzZXJ2ZV9jb25uZWN0ZWQobm93KSwKICAgICAgICAgICAgQ29ubmVjdGVkRXZlbnRBY3Rpb246OlB1Ymxpc2hDb25uZWN0ZWQKICAgICAgICApOwogICAgICAgIGxldCB0aW1lciA9IGdhdGUKICAgICAgICAgICAgLm9ic2VydmVfZGlzY29ubmVjdGVkKG5vdywgZGlzY29ubmVjdF9ldmVudCgiZWFybHkiKSkKICAgICAgICAgICAgLnVud3JhcCgpOwoKICAgICAgICBhc3NlcnQhKAogICAgICAgICAgICBnYXRlLmNvbmZpcm1fZGlzY29ubmVjdCgmdGltZXIsIHRpbWVyLmRlYWRsaW5lIC0gRHVyYXRpb246OmZyb21fbWlsbGlzKDEpKQogICAgICAgICAgICAgICAgLmlzX25vbmUoKQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZ2F0ZS5jb25maXJtX2Rpc2Nvbm5lY3QoJnRpbWVyLCB0aW1lci5kZWFkbGluZSksCiAgICAgICAgICAgIFNvbWUoZGlzY29ubmVjdF9ldmVudCgiZWFybHkiKSkKICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHN0YWxlX2NvbmZpcm1hdGlvbl9jYW5ub3RfY29uZmlybV9hX2xhdGVyX2Rpc2Nvbm5lY3QoKSB7CiAgICAgICAgbGV0IG11dCBnYXRlID0gVHVubmVsQ29ubmVjdGl2aXR5R2F0ZTo6ZGVmYXVsdCgpOwogICAgICAgIGxldCBub3cgPSBJbnN0YW50Ojpub3coKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBnYXRlLm9ic2VydmVfY29ubmVjdGVkKG5vdyksCiAgICAgICAgICAgIENvbm5lY3RlZEV2ZW50QWN0aW9uOjpQdWJsaXNoQ29ubmVjdGVkCiAgICAgICAgKTsKCiAgICAgICAgbGV0IGZpcnN0X3RpbWVyID0gZ2F0ZQogICAgICAgICAgICAub2JzZXJ2ZV9kaXNjb25uZWN0ZWQobm93LCBkaXNjb25uZWN0X2V2ZW50KCJmaXJzdCIpKQogICAgICAgICAgICAudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZ2F0ZS5vYnNlcnZlX2Nvbm5lY3RlZChub3cgKyBEdXJhdGlvbjo6ZnJvbV9zZWNzKDEpKSwKICAgICAgICAgICAgQ29ubmVjdGVkRXZlbnRBY3Rpb246Oklnbm9yZQogICAgICAgICk7CiAgICAgICAgbGV0IHNlY29uZF90aW1lciA9IGdhdGUKICAgICAgICAgICAgLm9ic2VydmVfZGlzY29ubmVjdGVkKG5vdyArIER1cmF0aW9uOjpmcm9tX3NlY3MoMiksIGRpc2Nvbm5lY3RfZXZlbnQoInNlY29uZCIpKQogICAgICAgICAgICAudW53cmFwKCk7CgogICAgICAgIGFzc2VydCEoCiAgICAgICAgICAgIGdhdGUuY29uZmlybV9kaXNjb25uZWN0KCZmaXJzdF90aW1lciwgc2Vjb25kX3RpbWVyLmRlYWRsaW5lKQogICAgICAgICAgICAgICAgLmlzX25vbmUoKQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZ2F0ZS5jb25maXJtX2Rpc2Nvbm5lY3QoJnNlY29uZF90aW1lciwgc2Vjb25kX3RpbWVyLmRlYWRsaW5lKSwKICAgICAgICAgICAgU29tZShkaXNjb25uZWN0X2V2ZW50KCJzZWNvbmQiKSkKICAgICAgICApOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGV4cGVjdGVkX3N0b3BfY2FuY2Vsc19hX3BlbmRpbmdfZGlzY29ubmVjdCgpIHsKICAgICAgICBsZXQgbXV0IGdhdGUgPSBUdW5uZWxDb25uZWN0aXZpdHlHYXRlOjpkZWZhdWx0KCk7CiAgICAgICAgbGV0IG5vdyA9IEluc3RhbnQ6Om5vdygpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIGdhdGUub2JzZXJ2ZV9jb25uZWN0ZWQobm93KSwKICAgICAgICAgICAgQ29ubmVjdGVkRXZlbnRBY3Rpb246OlB1Ymxpc2hDb25uZWN0ZWQKICAgICAgICApOwogICAgICAgIGxldCB0aW1lciA9IGdhdGUKICAgICAgICAgICAgLm9ic2VydmVfZGlzY29ubmVjdGVkKG5vdywgZGlzY29ubmVjdF9ldmVudCgic3RvcCIpKQogICAgICAgICAgICAudW53cmFwKCk7CgogICAgICAgIGdhdGUuc2V0X2V4cGVjdGVkX3N0b3AodHJ1ZSk7CgogICAgICAgIGFzc2VydCEoZ2F0ZS5jb25maXJtX2Rpc2Nvbm5lY3QoJnRpbWVyLCB0aW1lci5kZWFkbGluZSkuaXNfbm9uZSgpKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBnYXRlLm9ic2VydmVfY29ubmVjdGVkKHRpbWVyLmRlYWRsaW5lKSwKICAgICAgICAgICAgQ29ubmVjdGVkRXZlbnRBY3Rpb246Oklnbm9yZQogICAgICAgICk7CiAgICAgICAgZ2F0ZS5zZXRfZXhwZWN0ZWRfc3RvcChmYWxzZSk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgZ2F0ZS5vYnNlcnZlX2Nvbm5lY3RlZCh0aW1lci5kZWFkbGluZSksCiAgICAgICAgICAgIENvbm5lY3RlZEV2ZW50QWN0aW9uOjpQdWJsaXNoQ29ubmVjdGVkCiAgICAgICAgKTsKICAgIH0KfQo=
+use std::time::Duration;
+
+use tokio::time::Instant;
+use tokio_util::sync::CancellationToken;
+
+pub(super) const DISCONNECT_GRACE_PERIOD: Duration = Duration::from_secs(30);
+
+#[derive(Debug, Eq, PartialEq)]
+pub(super) struct TunnelDisconnectEvent {
+    pub(super) happened_at: String,
+    pub(super) message: Option<String>,
+    pub(super) pid: Option<u32>,
+}
+
+#[derive(Debug, Eq, PartialEq)]
+pub(super) enum ConnectedEventAction {
+    Ignore,
+    PublishConnected,
+    PublishDisconnectThenConnected(TunnelDisconnectEvent),
+}
+
+#[derive(Clone)]
+pub(super) struct DisconnectTimer {
+    generation: u64,
+    pub(super) deadline: Instant,
+    cancellation: CancellationToken,
+}
+
+impl DisconnectTimer {
+    pub(super) async fn cancelled(&self) {
+        self.cancellation.cancelled().await;
+    }
+}
+
+struct PendingDisconnect {
+    timer: DisconnectTimer,
+    event: TunnelDisconnectEvent,
+}
+
+#[derive(Default)]
+pub(super) struct TunnelConnectivityGate {
+    connected: bool,
+    stop_requested: bool,
+    pending_disconnect: Option<PendingDisconnect>,
+    next_generation: u64,
+}
+
+impl TunnelConnectivityGate {
+    // A pending outage has not yet been reported as disconnected.
+    pub(super) fn has_connection_baseline(&self) -> bool {
+        self.connected || self.pending_disconnect.is_some()
+    }
+
+    pub(super) fn observe_connected(&mut self, now: Instant) -> ConnectedEventAction {
+        if self.connected || self.stop_requested {
+            return ConnectedEventAction::Ignore;
+        }
+        self.connected = true;
+        let Some(pending) = self.pending_disconnect.take() else {
+            return ConnectedEventAction::PublishConnected;
+        };
+        pending.timer.cancellation.cancel();
+        if now < pending.timer.deadline {
+            ConnectedEventAction::Ignore
+        } else {
+            ConnectedEventAction::PublishDisconnectThenConnected(pending.event)
+        }
+    }
+
+    pub(super) fn observe_disconnected(
+        &mut self,
+        now: Instant,
+        event: TunnelDisconnectEvent,
+    ) -> Option<DisconnectTimer> {
+        if !self.connected {
+            return None;
+        }
+        self.connected = false;
+        if self.stop_requested {
+            return None;
+        }
+        self.next_generation = self.next_generation.wrapping_add(1).max(1);
+        let timer = DisconnectTimer {
+            generation: self.next_generation,
+            deadline: now + DISCONNECT_GRACE_PERIOD,
+            cancellation: CancellationToken::new(),
+        };
+        self.pending_disconnect = Some(PendingDisconnect {
+            timer: timer.clone(),
+            event,
+        });
+        Some(timer)
+    }
+
+    pub(super) fn confirm_disconnect(
+        &mut self,
+        timer: &DisconnectTimer,
+        now: Instant,
+    ) -> Option<TunnelDisconnectEvent> {
+        let pending = self.pending_disconnect.as_ref()?;
+        if self.stop_requested
+            || self.connected
+            || pending.timer.generation != timer.generation
+            || now < pending.timer.deadline
+        {
+            return None;
+        }
+        self.pending_disconnect.take().map(|pending| pending.event)
+    }
+
+    pub(super) fn set_expected_stop(&mut self, expected: bool) {
+        self.stop_requested = expected;
+        if expected {
+            self.connected = false;
+            if let Some(pending) = self.pending_disconnect.take() {
+                pending.timer.cancellation.cancel();
+            }
+        }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn disconnect_event(message: &str) -> TunnelDisconnectEvent {
+        TunnelDisconnectEvent {
+            happened_at: "2026-08-06T12:34:56Z".to_string(),
+            message: Some(message.to_string()),
+            pid: Some(42),
+        }
+    }
+
+    #[test]
+    fn grace_period_is_thirty_seconds() {
+        assert_eq!(DISCONNECT_GRACE_PERIOD, Duration::from_secs(30));
+    }
+
+    #[test]
+    fn publishes_only_the_first_connected_signal() {
+        let mut gate = TunnelConnectivityGate::default();
+        let now = Instant::now();
+
+        assert_eq!(
+            gate.observe_connected(now),
+            ConnectedEventAction::PublishConnected
+        );
+        assert_eq!(gate.observe_connected(now), ConnectedEventAction::Ignore);
+    }
+
+    #[test]
+    fn reconnect_before_confirmation_suppresses_both_edges() {
+        let mut gate = TunnelConnectivityGate::default();
+        let now = Instant::now();
+        assert_eq!(
+            gate.observe_connected(now),
+            ConnectedEventAction::PublishConnected
+        );
+
+        let timer = gate
+            .observe_disconnected(now, disconnect_event("first"))
+            .unwrap();
+
+        assert_eq!(
+            gate.observe_connected(timer.deadline - Duration::from_millis(1)),
+            ConnectedEventAction::Ignore
+        );
+        assert!(gate.confirm_disconnect(&timer, timer.deadline).is_none());
+    }
+
+    #[tokio::test]
+    async fn reconnect_wakes_the_cancelled_timer_immediately() {
+        let mut gate = TunnelConnectivityGate::default();
+        let now = Instant::now();
+        assert_eq!(
+            gate.observe_connected(now),
+            ConnectedEventAction::PublishConnected
+        );
+        let timer = gate
+            .observe_disconnected(now, disconnect_event("cancelled"))
+            .unwrap();
+
+        assert_eq!(
+            gate.observe_connected(now + Duration::from_secs(1)),
+            ConnectedEventAction::Ignore
+        );
+
+        tokio::time::timeout(Duration::from_millis(50), timer.cancelled())
+            .await
+            .expect("cancelled timer should wake without waiting for its deadline");
+    }
+
+    #[test]
+    fn persistent_disconnect_is_confirmed_once_and_recovery_is_published() {
+        let mut gate = TunnelConnectivityGate::default();
+        let now = Instant::now();
+        assert_eq!(
+            gate.observe_connected(now),
+            ConnectedEventAction::PublishConnected
+        );
+
+        let timer = gate
+            .observe_disconnected(now, disconnect_event("persistent"))
+            .unwrap();
+
+        assert_eq!(
+            gate.confirm_disconnect(&timer, timer.deadline),
+            Some(disconnect_event("persistent"))
+        );
+        assert!(gate.confirm_disconnect(&timer, timer.deadline).is_none());
+        assert_eq!(
+            gate.observe_connected(timer.deadline),
+            ConnectedEventAction::PublishConnected
+        );
+    }
+
+    #[test]
+    fn reconnect_at_the_deadline_publishes_the_pending_disconnect_first() {
+        let mut gate = TunnelConnectivityGate::default();
+        let now = Instant::now();
+        assert_eq!(
+            gate.observe_connected(now),
+            ConnectedEventAction::PublishConnected
+        );
+        let timer = gate
+            .observe_disconnected(now, disconnect_event("deadline"))
+            .unwrap();
+
+        assert_eq!(
+            gate.observe_connected(timer.deadline),
+            ConnectedEventAction::PublishDisconnectThenConnected(disconnect_event("deadline"))
+        );
+        assert!(gate.confirm_disconnect(&timer, timer.deadline).is_none());
+    }
+
+    #[test]
+    fn early_timer_wakeup_does_not_confirm_the_disconnect() {
+        let mut gate = TunnelConnectivityGate::default();
+        let now = Instant::now();
+        assert_eq!(
+            gate.observe_connected(now),
+            ConnectedEventAction::PublishConnected
+        );
+        let timer = gate
+            .observe_disconnected(now, disconnect_event("early"))
+            .unwrap();
+
+        assert!(
+            gate.confirm_disconnect(&timer, timer.deadline - Duration::from_millis(1))
+                .is_none()
+        );
+        assert_eq!(
+            gate.confirm_disconnect(&timer, timer.deadline),
+            Some(disconnect_event("early"))
+        );
+    }
+
+    #[test]
+    fn stale_confirmation_cannot_confirm_a_later_disconnect() {
+        let mut gate = TunnelConnectivityGate::default();
+        let now = Instant::now();
+        assert_eq!(
+            gate.observe_connected(now),
+            ConnectedEventAction::PublishConnected
+        );
+
+        let first_timer = gate
+            .observe_disconnected(now, disconnect_event("first"))
+            .unwrap();
+        assert_eq!(
+            gate.observe_connected(now + Duration::from_secs(1)),
+            ConnectedEventAction::Ignore
+        );
+        let second_timer = gate
+            .observe_disconnected(now + Duration::from_secs(2), disconnect_event("second"))
+            .unwrap();
+
+        assert!(
+            gate.confirm_disconnect(&first_timer, second_timer.deadline)
+                .is_none()
+        );
+        assert_eq!(
+            gate.confirm_disconnect(&second_timer, second_timer.deadline),
+            Some(disconnect_event("second"))
+        );
+    }
+
+    #[test]
+    fn expected_stop_cancels_a_pending_disconnect() {
+        let mut gate = TunnelConnectivityGate::default();
+        let now = Instant::now();
+        assert_eq!(
+            gate.observe_connected(now),
+            ConnectedEventAction::PublishConnected
+        );
+        let timer = gate
+            .observe_disconnected(now, disconnect_event("stop"))
+            .unwrap();
+
+        gate.set_expected_stop(true);
+
+        assert!(gate.confirm_disconnect(&timer, timer.deadline).is_none());
+        assert_eq!(
+            gate.observe_connected(timer.deadline),
+            ConnectedEventAction::Ignore
+        );
+        gate.set_expected_stop(false);
+        assert_eq!(
+            gate.observe_connected(timer.deadline),
+            ConnectedEventAction::PublishConnected
+        );
+    }
+}

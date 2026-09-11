@@ -1,1 +1,83 @@
-aW1wb3J0IHsgZ2V0Q2lkclJlZ2lvblNlbGVjdGlvbkxhYmVsIH0gZnJvbSAiQC90eXBlcy9jaWRyIjsKaW1wb3J0IHR5cGUgewogIFdoaXRlTGlzdFJlY29yZCwKICBXaGl0ZWxpc3RSZWdpb25Hcm91cFJlY29yZCwKICBXaGl0ZWxpc3RSZWdpb25JbnB1dCwKfSBmcm9tICJAL2xpYi9hcGkvd2hpdGVsaXN0IjsKCmV4cG9ydCB0eXBlIFdoaXRlbGlzdFRyYW5zbGF0ZSA9ICgKICBrZXk6IHN0cmluZywKICBwYXJhbXM/OiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiwKKSA9PiBzdHJpbmc7CgpleHBvcnQgY29uc3QgZ2V0V2hpdGVsaXN0UmVzb2x2ZVN0YXR1c0xhYmVsID0gKAogIHJlY29yZDogV2hpdGVMaXN0UmVjb3JkLAogIHRyYW5zbGF0ZTogV2hpdGVsaXN0VHJhbnNsYXRlLAopID0+IHsKICBzd2l0Y2ggKHJlY29yZC5yZXNvbHZlU3RhdHVzKSB7CiAgICBjYXNlICJyZXNvbHZlZCI6CiAgICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLmlwV2hpdGVsaXN0LnJlc29sdmVTdWNjZXNzIik7CiAgICBjYXNlICJlbXB0eSI6CiAgICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLmlwV2hpdGVsaXN0LnJlc29sdmVFbXB0eSIpOwogICAgY2FzZSAiZXJyb3IiOgogICAgICByZXR1cm4gdHJhbnNsYXRlKCJhZG1pbi5pcFdoaXRlbGlzdC5yZXNvbHZlRXJyb3IiKTsKICAgIGRlZmF1bHQ6CiAgICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLmlwV2hpdGVsaXN0LnJlc29sdmVQZW5kaW5nIik7CiAgfQp9OwoKZXhwb3J0IGNvbnN0IGdldFdoaXRlbGlzdFRhcmdldFR5cGVMYWJlbCA9ICgKICB0eXBlOiBXaGl0ZUxpc3RSZWNvcmRbInRhcmdldFR5cGUiXSwKKSA9PiB7CiAgaWYgKHR5cGUgPT09ICJjaWRyIikgcmV0dXJuICJDSURSIjsKICBpZiAodHlwZSA9PT0gImNuYW1lIikgcmV0dXJuICJDTkFNRSI7CiAgcmV0dXJuICJJUCI7Cn07CgpleHBvcnQgY29uc3QgZ2V0V2hpdGVsaXN0UmVzb2x2ZVN0YXR1c1ZhcmlhbnQgPSAoCiAgcmVjb3JkOiBXaGl0ZUxpc3RSZWNvcmQsCik6ICJkZWZhdWx0IiB8ICJzZWNvbmRhcnkiIHwgImRlc3RydWN0aXZlIiB8ICJvdXRsaW5lIiA9PiB7CiAgc3dpdGNoIChyZWNvcmQucmVzb2x2ZVN0YXR1cykgewogICAgY2FzZSAicmVzb2x2ZWQiOgogICAgICByZXR1cm4gImRlZmF1bHQiOwogICAgY2FzZSAiZW1wdHkiOgogICAgICByZXR1cm4gInNlY29uZGFyeSI7CiAgICBjYXNlICJlcnJvciI6CiAgICAgIHJldHVybiAiZGVzdHJ1Y3RpdmUiOwogICAgZGVmYXVsdDoKICAgICAgcmV0dXJuICJvdXRsaW5lIjsKICB9Cn07CgpleHBvcnQgY29uc3QgZm9ybWF0V2hpdGVsaXN0UmVtYWluaW5nID0gKAogIGV4cGlyZUF0OiBudW1iZXIsCiAgdHJhbnNsYXRlOiBXaGl0ZWxpc3RUcmFuc2xhdGUsCiAgbm93U2Vjb25kcyA9IE1hdGguZmxvb3IoRGF0ZS5ub3coKSAvIDEwMDApLAopID0+IHsKICBjb25zdCBkaWZmID0gZXhwaXJlQXQgLSBub3dTZWNvbmRzOwogIGlmIChkaWZmIDw9IDApIHJldHVybiB0cmFuc2xhdGUoImFkbWluLmlwV2hpdGVsaXN0LmV4cGlyZWQiKTsKCiAgY29uc3QgZGF5cyA9IE1hdGguZmxvb3IoZGlmZiAvIDg2XzQwMCk7CiAgY29uc3QgaG91cnMgPSBNYXRoLmZsb29yKChkaWZmICUgODZfNDAwKSAvIDNfNjAwKTsKICBjb25zdCBtaW51dGVzID0gTWF0aC5mbG9vcigoZGlmZiAlIDNfNjAwKSAvIDYwKTsKICBjb25zdCBwYXJ0czogc3RyaW5nW10gPSBbXTsKICBpZiAoZGF5cyA+IDApIHsKICAgIHBhcnRzLnB1c2godHJhbnNsYXRlKCJhZG1pbi5pcFdoaXRlbGlzdC5kYXlzIiwgeyBjb3VudDogZGF5cyB9KSk7CiAgfQogIGlmIChob3VycyA+IDApIHsKICAgIHBhcnRzLnB1c2godHJhbnNsYXRlKCJhZG1pbi5pcFdoaXRlbGlzdC5ob3VycyIsIHsgY291bnQ6IGhvdXJzIH0pKTsKICB9CiAgaWYgKG1pbnV0ZXMgPiAwIHx8IChkYXlzID09PSAwICYmIGhvdXJzID09PSAwKSkgewogICAgcGFydHMucHVzaCgKICAgICAgdHJhbnNsYXRlKCJhZG1pbi5pcFdoaXRlbGlzdC5taW51dGVzQ291bnQiLCB7IGNvdW50OiBtaW51dGVzIH0pLAogICAgKTsKICB9CiAgcmV0dXJuIHRyYW5zbGF0ZSgiYWRtaW4uaXBXaGl0ZWxpc3QucmVtYWluaW5nIiwgeyB2YWx1ZTogcGFydHMuam9pbigiIikgfSk7Cn07CgpleHBvcnQgY29uc3QgZm9ybWF0V2hpdGVsaXN0UmVnaW9uSW5wdXQgPSAocmVnaW9uOiBXaGl0ZWxpc3RSZWdpb25JbnB1dCkgPT4KICBnZXRDaWRyUmVnaW9uU2VsZWN0aW9uTGFiZWwocmVnaW9uLCB7IGluY2x1ZGVQcm92aW5jZTogdHJ1ZSB9KTsKCmV4cG9ydCBjb25zdCBnZXRXaGl0ZWxpc3RSZWdpb25Hcm91cExhYmVsID0gKAogIGdyb3VwOiBXaGl0ZWxpc3RSZWdpb25Hcm91cFJlY29yZCwKKSA9PiBncm91cC5yZWdpb25zLm1hcChmb3JtYXRXaGl0ZWxpc3RSZWdpb25JbnB1dCkuam9pbigiLCAiKTsK
+import { getCidrRegionSelectionLabel } from "@/types/cidr";
+import type {
+  WhiteListRecord,
+  WhitelistRegionGroupRecord,
+  WhitelistRegionInput,
+} from "@/lib/api/whitelist";
+
+export type WhitelistTranslate = (
+  key: string,
+  params?: Record<string, unknown>,
+) => string;
+
+export const getWhitelistResolveStatusLabel = (
+  record: WhiteListRecord,
+  translate: WhitelistTranslate,
+) => {
+  switch (record.resolveStatus) {
+    case "resolved":
+      return translate("admin.ipWhitelist.resolveSuccess");
+    case "empty":
+      return translate("admin.ipWhitelist.resolveEmpty");
+    case "error":
+      return translate("admin.ipWhitelist.resolveError");
+    default:
+      return translate("admin.ipWhitelist.resolvePending");
+  }
+};
+
+export const getWhitelistTargetTypeLabel = (
+  type: WhiteListRecord["targetType"],
+) => {
+  if (type === "cidr") return "CIDR";
+  if (type === "cname") return "CNAME";
+  return "IP";
+};
+
+export const getWhitelistResolveStatusVariant = (
+  record: WhiteListRecord,
+): "default" | "secondary" | "destructive" | "outline" => {
+  switch (record.resolveStatus) {
+    case "resolved":
+      return "default";
+    case "empty":
+      return "secondary";
+    case "error":
+      return "destructive";
+    default:
+      return "outline";
+  }
+};
+
+export const formatWhitelistRemaining = (
+  expireAt: number,
+  translate: WhitelistTranslate,
+  nowSeconds = Math.floor(Date.now() / 1000),
+) => {
+  const diff = expireAt - nowSeconds;
+  if (diff <= 0) return translate("admin.ipWhitelist.expired");
+
+  const days = Math.floor(diff / 86_400);
+  const hours = Math.floor((diff % 86_400) / 3_600);
+  const minutes = Math.floor((diff % 3_600) / 60);
+  const parts: string[] = [];
+  if (days > 0) {
+    parts.push(translate("admin.ipWhitelist.days", { count: days }));
+  }
+  if (hours > 0) {
+    parts.push(translate("admin.ipWhitelist.hours", { count: hours }));
+  }
+  if (minutes > 0 || (days === 0 && hours === 0)) {
+    parts.push(
+      translate("admin.ipWhitelist.minutesCount", { count: minutes }),
+    );
+  }
+  return translate("admin.ipWhitelist.remaining", { value: parts.join("") });
+};
+
+export const formatWhitelistRegionInput = (region: WhitelistRegionInput) =>
+  getCidrRegionSelectionLabel(region, { includeProvince: true });
+
+export const getWhitelistRegionGroupLabel = (
+  group: WhitelistRegionGroupRecord,
+) => group.regions.map(formatWhitelistRegionInput).join(", ");

@@ -1,1 +1,471 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGR5bnVfY2F0YWxvZ19lbnRyeSgpIC0+IFZhbHVlIHsKICAgIHByb3ZpZGVyKAogICAgICAgICJkeW51IiwKICAgICAgICAiRHludSIsCiAgICAgICAgdmVjIVsKICAgICAgICAgICAgZmllbGQoImFwaV9rZXkiLCAiQVBJIEtleSIsICJwYXNzd29yZCIsICJEeW51IEFQSSBLZXkiLCB0cnVlKSwKICAgICAgICAgICAgZmllbGQoImRvbWFpbiIsICJEb21haW4iLCAidGV4dCIsICJob21lLmV4YW1wbGUuY29tIiwgdHJ1ZSksCiAgICAgICAgICAgIGZpZWxkKCJ0dGwiLCAiVFRMIiwgInRleHQiLCAiMTIwIiwgZmFsc2UpLAogICAgICAgICAgICBmaWVsZCgiZ3JvdXAiLCAiR3JvdXAiLCAidGV4dCIsICJkZWZhdWx0IiwgZmFsc2UpLAogICAgICAgIF0sCiAgICApCn0KCnB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBhc3luYyBmbiB1cGRhdGVfZHludSgKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgY29uZmlnOiAmSGFzaE1hcDxTdHJpbmcsIFN0cmluZz4sCiAgICBodHRwX29wdGlvbnM6ICZERE5TSHR0cENsaWVudE9wdGlvbnMsCiAgICBpcHY0OiBPcHRpb248JnN0cj4sCiAgICBpcHY2OiBPcHRpb248JnN0cj4sCikgLT4gYW55aG93OjpSZXN1bHQ8REROU1Byb3ZpZGVyVXBkYXRlUmVzdWx0PiB7CiAgICBsZXQgYXBpX2tleSA9IGNvbmZpZ192YWx1ZShjb25maWcsICJhcGlfa2V5Iik7CiAgICBsZXQgcmF3X2RvbWFpbiA9IGNvbmZpZ192YWx1ZShjb25maWcsICJkb21haW4iKTsKICAgIGxldCB3aWxkY2FyZCA9IHJhd19kb21haW4udHJpbSgpLnN0YXJ0c193aXRoKCIqLiIpOwogICAgbGV0IGRvbWFpbiA9IGlmIHdpbGRjYXJkIHsKICAgICAgICBub3JtYWxpemVfZG9tYWluKHJhd19kb21haW4udHJpbSgpLnRyaW1fc3RhcnRfbWF0Y2hlcygiKi4iKSkKICAgIH0gZWxzZSB7CiAgICAgICAgbm9ybWFsaXplX2RvbWFpbigmcmF3X2RvbWFpbikKICAgIH07CiAgICBpZiBhcGlfa2V5LmlzX2VtcHR5KCkgfHwgZG9tYWluLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBPayhwcm92aWRlcl9mYWlsdXJlKGRkbnNfdGV4dCgKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgInByb3ZpZGVycy5keW51LmNvbmZpZ0luY29tcGxldGUiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSkpOwogICAgfQogICAgaWYgaXB2NC5pc19ub25lKCkgJiYgaXB2Ni5pc19ub25lKCkgewogICAgICAgIHJldHVybiBPayhwcm92aWRlcl9mYWlsdXJlKGRkbnNfdGV4dCgKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgInByb3ZpZGVycy5keW51Lm5vSXBBdmFpbGFibGUiLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSkpOwogICAgfQogICAgbGV0IGNsaWVudCA9IGRkbnNfaHR0cF9jbGllbnQodHJhbnNsYXRvciwgaHR0cF9vcHRpb25zKT87CiAgICBsZXQgcmVzdWx0ID0gYXN5bmMgewogICAgICAgIGlmIHdpbGRjYXJkIHsKICAgICAgICAgICAgcmV0dXJuIHVwZGF0ZV9keW51X3dpbGRjYXJkKAogICAgICAgICAgICAgICAgdHJhbnNsYXRvciwgJmNsaWVudCwgJmFwaV9rZXksIGNvbmZpZywgJmRvbWFpbiwgaXB2NCwgaXB2NiwKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXdhaXQ7CiAgICAgICAgfQogICAgICAgIGxldCByb290ID0gcmVzb2x2ZV9keW51X3Jvb3QodHJhbnNsYXRvciwgJmNsaWVudCwgJmFwaV9rZXksICZkb21haW4pLmF3YWl0PzsKICAgICAgICBsZXQgcHJvdmlkZXJfbGFiZWxfdGV4dCA9IHByb3ZpZGVyX2xhYmVsKFNvbWUoImR5bnUiKSwgdHJhbnNsYXRvcik7CiAgICAgICAgdXBkYXRlX2R1YWxfc3RhY2soCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICZwcm92aWRlcl9sYWJlbF90ZXh0LAogICAgICAgICAgICBpcHY0LAogICAgICAgICAgICBpcHY2LAogICAgICAgICAgICB8cmVjb3JkX3R5cGUsIGlwfCB7CiAgICAgICAgICAgICAgICBsZXQgY2xpZW50ID0gY2xpZW50LmNsb25lKCk7CiAgICAgICAgICAgICAgICBsZXQgYXBpX2tleSA9IGFwaV9rZXkuY2xvbmUoKTsKICAgICAgICAgICAgICAgIGxldCBkb21haW4gPSBkb21haW4uY2xvbmUoKTsKICAgICAgICAgICAgICAgIGxldCByb290ID0gcm9vdC5jbG9uZSgpOwogICAgICAgICAgICAgICAgbGV0IHR0bF9jb25maWcgPSBjb25maWdfdmFsdWUoY29uZmlnLCAidHRsIik7CiAgICAgICAgICAgICAgICBsZXQgZ3JvdXBfY29uZmlnID0gY29uZmlnX3ZhbHVlKGNvbmZpZywgImdyb3VwIik7CiAgICAgICAgICAgICAgICBhc3luYyBtb3ZlIHsKICAgICAgICAgICAgICAgICAgICBsZXQgbGlzdCA9IGR5bnVfcmVxdWVzdCgKICAgICAgICAgICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICAgICAgICAgJmNsaWVudCwKICAgICAgICAgICAgICAgICAgICAgICAgJmFwaV9rZXksCiAgICAgICAgICAgICAgICAgICAgICAgICZmb3JtYXQhKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIi9kbnMvcmVjb3JkL3t9P3JlY29yZFR5cGU9e30iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdXJsX2VuY29kZV9jb21wb25lbnQoJmRvbWFpbiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWNvcmRfdHlwZQogICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICBOb25lLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgICAgICAgICAgICAgIGxldCBleGlzdGluZyA9IGxpc3QKICAgICAgICAgICAgICAgICAgICAgICAgLmdldCgiZG5zUmVjb3JkcyIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbih8cmVjb3Jkc3wgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZmluZF9keW51X3JlY29yZChyZWNvcmRzLCByZWNvcmRfdHlwZSwgJmRvbWFpbiwgJnJvb3Qubm9kZV9uYW1lKQogICAgICAgICAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgICAgICBpZiBsZXQgU29tZShleGlzdGluZykgPSBleGlzdGluZy5jbG9uZSgpCiAgICAgICAgICAgICAgICAgICAgICAgICYmIGR5bnVfcmVjb3JkX2FkZHJlc3MoJmV4aXN0aW5nLCByZWNvcmRfdHlwZSkgPT0gaXAKICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBPaygoKSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGxldCB0dGwgPSBwb3NpdGl2ZV9pNjQoCiAgICAgICAgICAgICAgICAgICAgICAgIFNvbWUoJnR0bF9jb25maWcpLAogICAgICAgICAgICAgICAgICAgICAgICBleGlzdGluZwogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmFzX3JlZigpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofHJlY29yZHwgcmVjb3JkLmdldCgidHRsIikpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5maWx0ZXIofHZhbHVlfCAqdmFsdWUgPiAwKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcigzMDApLAogICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICAgICAgbGV0IGdyb3VwID0gZGVmYXVsdF9zdHJpbmcoCiAgICAgICAgICAgICAgICAgICAgICAgIGdyb3VwX2NvbmZpZy5jbG9uZSgpLAogICAgICAgICAgICAgICAgICAgICAgICBleGlzdGluZwogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmFzX3JlZigpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofHJlY29yZHwgcmVjb3JkLmdldCgiZ3JvdXAiKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcigiIiksCiAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgICAgICBsZXQgbXV0IGJvZHkgPSBqc29uISh7CiAgICAgICAgICAgICAgICAgICAgICAgICJub2RlTmFtZSI6IHJvb3Qubm9kZV9uYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAicmVjb3JkVHlwZSI6IHJlY29yZF90eXBlLAogICAgICAgICAgICAgICAgICAgICAgICAidHRsIjogdHRsLAogICAgICAgICAgICAgICAgICAgICAgICAic3RhdGUiOiBleGlzdGluZy5hc19yZWYoKS5hbmRfdGhlbih8cmVjb3JkfCByZWNvcmQuZ2V0KCJzdGF0ZSIpKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkudW53cmFwX29yKHRydWUpLAogICAgICAgICAgICAgICAgICAgICAgICAiZ3JvdXAiOiBncm91cAogICAgICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgICAgIGlmIHJlY29yZF90eXBlID09ICJBIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGluc2VydF9qc29uX2ZpZWxkKCZtdXQgYm9keSwgImlwdjRBZGRyZXNzIiwganNvbiEoaXApKTsKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBpbnNlcnRfanNvbl9maWVsZCgmbXV0IGJvZHksICJpcHY2QWRkcmVzcyIsIGpzb24hKGlwKSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGxldCBwYXRoID0gaWYgbGV0IFNvbWUoZXhpc3RpbmcpID0gZXhpc3RpbmcgewogICAgICAgICAgICAgICAgICAgICAgICBsZXQgcmVjb3JkX2lkID0gcmVhZF9wb3NpdGl2ZV9pZChleGlzdGluZy5nZXQoImlkIikpLm9rX29yX2Vsc2UofHwgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgYW55aG93Ojphbnlob3chKGRkbnNfdGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwcm92aWRlcnMuZHludS5yZWNvcmRJZE1pc3NpbmciLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICZbXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkpCiAgICAgICAgICAgICAgICAgICAgICAgIH0pPzsKICAgICAgICAgICAgICAgICAgICAgICAgZm9ybWF0ISgiL2Rucy97fS9yZWNvcmQve3JlY29yZF9pZH0iLCByb290LmRvbWFpbl9pZCkKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBmb3JtYXQhKCIvZG5zL3t9L3JlY29yZCIsIHJvb3QuZG9tYWluX2lkKQogICAgICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICAgICAgZHludV9yZXF1ZXN0KHRyYW5zbGF0b3IsICZjbGllbnQsICZhcGlfa2V5LCAmcGF0aCwgU29tZShib2R5KSkuYXdhaXQ/OwogICAgICAgICAgICAgICAgICAgIE9rKCgpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICkKICAgICAgICAuYXdhaXQKICAgIH0KICAgIC5hd2FpdDsKICAgIG1hdGNoIHJlc3VsdCB7CiAgICAgICAgT2socmVzdWx0KSA9PiBPayhyZXN1bHQpLAogICAgICAgIEVycihlcnJvcikgPT4gT2soZHludV9yZXF1ZXN0X2Vycm9yX3Jlc3VsdCh0cmFuc2xhdG9yLCAmZXJyb3IudG9fc3RyaW5nKCkpKSwKICAgIH0KfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGR5bnVfcmVxdWVzdF9lcnJvcl9yZXN1bHQoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIGRldGFpbDogJnN0ciwKKSAtPiBERE5TUHJvdmlkZXJVcGRhdGVSZXN1bHQgewogICAgcHJvdmlkZXJfZmFpbHVyZShkZG5zX3RleHQoCiAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAicHJvdmlkZXJzLmR5bnUucmVxdWVzdEVycm9yIiwKICAgICAgICAmWygiZGV0YWlsIiwgZGV0YWlsLnRvX3N0cmluZygpKV0sCiAgICApKQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgYXN5bmMgZm4gdXBkYXRlX2R5bnVfd2lsZGNhcmQoCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIGNsaWVudDogJkRETlNIdHRwQ2xpZW50LAogICAgYXBpX2tleTogJnN0ciwKICAgIGNvbmZpZzogJkhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgZG9tYWluOiAmc3RyLAogICAgaXB2NDogT3B0aW9uPCZzdHI+LAogICAgaXB2NjogT3B0aW9uPCZzdHI+LAopIC0+IGFueWhvdzo6UmVzdWx0PERETlNQcm92aWRlclVwZGF0ZVJlc3VsdD4gewogICAgbGV0IHJvb3QgPSByZXNvbHZlX2R5bnVfcm9vdCh0cmFuc2xhdG9yLCBjbGllbnQsIGFwaV9rZXksIGRvbWFpbikuYXdhaXQ/OwogICAgaWYgcm9vdC5kb21haW5fbmFtZSAhPSBkb21haW4gfHwgIXJvb3Qubm9kZV9uYW1lLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBPayhwcm92aWRlcl9mYWlsdXJlKGRkbnNfdGV4dCgKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgInByb3ZpZGVycy5keW51LndpbGRjYXJkVW5zdXBwb3J0ZWQiLAogICAgICAgICAgICAmWygiZG9tYWluIiwgZG9tYWluLnRvX3N0cmluZygpKV0sCiAgICAgICAgKSkpOwogICAgfQogICAgbGV0IGRldGFpbHMgPSBkeW51X3JlcXVlc3QoCiAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICBjbGllbnQsCiAgICAgICAgYXBpX2tleSwKICAgICAgICAmZm9ybWF0ISgiL2Rucy97fSIsIHJvb3QuZG9tYWluX2lkKSwKICAgICAgICBOb25lLAogICAgKQogICAgLmF3YWl0PzsKICAgIGxldCBpcHY0X3VuY2hhbmdlZCA9IGlwdjQuaXNfbm9uZV9vcih8aXB8IHsKICAgICAgICBkZXRhaWxzLmdldCgiaXB2NEFkZHJlc3MiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKGlwKQogICAgICAgICAgICAmJiBkZXRhaWxzCiAgICAgICAgICAgICAgICAuZ2V0KCJpcHY0V2lsZGNhcmRBbGlhcyIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgICAgICAgICAudW53cmFwX29yKGZhbHNlKQogICAgfSk7CiAgICBsZXQgaXB2Nl91bmNoYW5nZWQgPSBpcHY2LmlzX25vbmVfb3IofGlwfCB7CiAgICAgICAgZGV0YWlscy5nZXQoImlwdjZBZGRyZXNzIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZShpcCkKICAgICAgICAgICAgJiYgZGV0YWlscwogICAgICAgICAgICAgICAgLmdldCgiaXB2NldpbGRjYXJkQWxpYXMiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcihmYWxzZSkKICAgIH0pOwogICAgaWYgaXB2NF91bmNoYW5nZWQgJiYgaXB2Nl91bmNoYW5nZWQgewogICAgICAgIHJldHVybiBPayhERE5TUHJvdmlkZXJVcGRhdGVSZXN1bHQgewogICAgICAgICAgICBzdWNjZXNzOiB0cnVlLAogICAgICAgICAgICBtZXNzYWdlOiBkZG5zX3RleHQodHJhbnNsYXRvciwgInByb3ZpZGVycy5keW51LndpbGRjYXJkVW5jaGFuZ2VkIiwgJltdKSwKICAgICAgICB9KTsKICAgIH0KICAgIGxldCB0dGwgPSBwb3NpdGl2ZV9pNjQoCiAgICAgICAgY29uZmlnLmdldCgidHRsIiksCiAgICAgICAgZGV0YWlscwogICAgICAgICAgICAuZ2V0KCJ0dGwiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkKICAgICAgICAgICAgLmZpbHRlcih8dmFsdWV8ICp2YWx1ZSA+IDApCiAgICAgICAgICAgIC51bndyYXBfb3IoMzAwKSwKICAgICk7CiAgICBsZXQgZ3JvdXAgPSBkZWZhdWx0X3N0cmluZygKICAgICAgICBjb25maWdfdmFsdWUoY29uZmlnLCAiZ3JvdXAiKSwKICAgICAgICBkZXRhaWxzLmdldCgiZ3JvdXAiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpLAogICAgKTsKICAgIGxldCBtdXQgYm9keSA9IGpzb24hKHsKICAgICAgICAibmFtZSI6IG5vcm1hbGl6ZV9kb21haW4oZGV0YWlscy5nZXQoIm5hbWUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoZG9tYWluKSksCiAgICAgICAgImdyb3VwIjogZ3JvdXAsCiAgICAgICAgInR0bCI6IHR0bCwKICAgICAgICAiaXB2NCI6IGlwdjQuaXNfc29tZSgpIHx8IGRldGFpbHMuZ2V0KCJpcHY0IikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpLnVud3JhcF9vcihmYWxzZSkgfHwgZGV0YWlscy5nZXQoImlwdjRBZGRyZXNzIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikuaXNfc29tZSgpLAogICAgICAgICJpcHY2IjogaXB2Ni5pc19zb21lKCkgfHwgZGV0YWlscy5nZXQoImlwdjYiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkudW53cmFwX29yKGZhbHNlKSB8fCBkZXRhaWxzLmdldCgiaXB2NkFkZHJlc3MiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS5pc19zb21lKCksCiAgICAgICAgImlwdjRXaWxkY2FyZEFsaWFzIjogaXB2NC5pc19zb21lKCkgfHwgZGV0YWlscy5nZXQoImlwdjRXaWxkY2FyZEFsaWFzIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpLnVud3JhcF9vcihmYWxzZSksCiAgICAgICAgImlwdjZXaWxkY2FyZEFsaWFzIjogaXB2Ni5pc19zb21lKCkgfHwgZGV0YWlscy5nZXQoImlwdjZXaWxkY2FyZEFsaWFzIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpLnVud3JhcF9vcihmYWxzZSksCiAgICAgICAgImFsbG93Wm9uZVRyYW5zZmVyIjogZGV0YWlscy5nZXQoImFsbG93Wm9uZVRyYW5zZmVyIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpLnVud3JhcF9vcihmYWxzZSksCiAgICAgICAgImRuc3NlYyI6IGRldGFpbHMuZ2V0KCJkbnNzZWMiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkudW53cmFwX29yKGZhbHNlKQogICAgfSk7CiAgICBpZiBsZXQgU29tZShpcHY0KSA9IGlwdjQub3JfZWxzZSh8fCBkZXRhaWxzLmdldCgiaXB2NEFkZHJlc3MiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSkgewogICAgICAgIGluc2VydF9qc29uX2ZpZWxkKCZtdXQgYm9keSwgImlwdjRBZGRyZXNzIiwganNvbiEoaXB2NCkpOwogICAgfQogICAgaWYgbGV0IFNvbWUoaXB2NikgPSBpcHY2Lm9yX2Vsc2UofHwgZGV0YWlscy5nZXQoImlwdjZBZGRyZXNzIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpIHsKICAgICAgICBpbnNlcnRfanNvbl9maWVsZCgmbXV0IGJvZHksICJpcHY2QWRkcmVzcyIsIGpzb24hKGlwdjYpKTsKICAgIH0KICAgIGR5bnVfcmVxdWVzdCgKICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgIGNsaWVudCwKICAgICAgICBhcGlfa2V5LAogICAgICAgICZmb3JtYXQhKCIvZG5zL3t9Iiwgcm9vdC5kb21haW5faWQpLAogICAgICAgIFNvbWUoYm9keSksCiAgICApCiAgICAuYXdhaXQ/OwogICAgT2soREROU1Byb3ZpZGVyVXBkYXRlUmVzdWx0IHsKICAgICAgICBzdWNjZXNzOiB0cnVlLAogICAgICAgIG1lc3NhZ2U6IGRkbnNfdGV4dCh0cmFuc2xhdG9yLCAicHJvdmlkZXJzLmR5bnUud2lsZGNhcmRTdWNjZXNzIiwgJltdKSwKICAgIH0pCn0KCiNbZGVyaXZlKENsb25lKV0KcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIHN0cnVjdCBEeW51Um9vdCB7CiAgICBwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgZG9tYWluX2lkOiBpNjQsCiAgICBwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgZG9tYWluX25hbWU6IFN0cmluZywKICAgIHB1YihpbiBjcmF0ZTo6ZGRuczo6cm91dGVzKSBub2RlX25hbWU6IFN0cmluZywKfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGFzeW5jIGZuIGR5bnVfcmVxdWVzdCgKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgY2xpZW50OiAmREROU0h0dHBDbGllbnQsCiAgICBhcGlfa2V5OiAmc3RyLAogICAgcGF0aDogJnN0ciwKICAgIGJvZHk6IE9wdGlvbjxWYWx1ZT4sCikgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgIGxldCB1cmwgPSBmb3JtYXQhKCJodHRwczovL2FwaS5keW51LmNvbS92MntwYXRofSIpOwogICAgbGV0IG11dCByZXF1ZXN0ID0gY2xpZW50CiAgICAgICAgLnJlcXVlc3QoCiAgICAgICAgICAgIGlmIGJvZHkuaXNfc29tZSgpIHsKICAgICAgICAgICAgICAgIHJlcXdlc3Q6Ok1ldGhvZDo6UE9TVAogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgcmVxd2VzdDo6TWV0aG9kOjpHRVQKICAgICAgICAgICAgfSwKICAgICAgICAgICAgJnVybCwKICAgICAgICApCiAgICAgICAgLmhlYWRlcihyZXF3ZXN0OjpoZWFkZXI6OkFDQ0VQVCwgImFwcGxpY2F0aW9uL2pzb24iKQogICAgICAgIC5oZWFkZXIoIkFQSS1LZXkiLCBhcGlfa2V5KTsKICAgIGlmIGxldCBTb21lKGJvZHkpID0gYm9keSB7CiAgICAgICAgcmVxdWVzdCA9IHJlcXVlc3QKICAgICAgICAgICAgLmhlYWRlcihyZXF3ZXN0OjpoZWFkZXI6OkNPTlRFTlRfVFlQRSwgImFwcGxpY2F0aW9uL2pzb24iKQogICAgICAgICAgICAuanNvbigmYm9keSk7CiAgICB9CiAgICBsZXQgKHN0YXR1cywgZGF0YSwgdGV4dCkgPSByZXNwb25zZV9qc29uKHRyYW5zbGF0b3IsIHJlcXVlc3Quc2VuZCgpLmF3YWl0PykuYXdhaXQ/OwogICAgYXNzZXJ0X2R5bnVfc3VjY2VzcyhzdGF0dXMsICZkYXRhLCAmdGV4dCk/OwogICAgT2soZGF0YSkKfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGFzc2VydF9keW51X3N1Y2Nlc3MoCiAgICBzdGF0dXM6IFN0YXR1c0NvZGUsCiAgICBkYXRhOiAmVmFsdWUsCiAgICB0ZXh0OiAmc3RyLAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBpZiAhc3RhdHVzLmlzX3N1Y2Nlc3MoKSB7CiAgICAgICAgcmV0dXJuIEVycihhbnlob3c6OmFueWhvdyEoCiAgICAgICAgICAgICJbe31dIHt9IiwKICAgICAgICAgICAgc3RhdHVzLmFzX3UxNigpLAogICAgICAgICAgICBmb3JtYXRfZHludV9lcnJvcihkYXRhLCB0ZXh0KQogICAgICAgICkpOwogICAgfQogICAgaWYgZGF0YS5nZXQoImV4Y2VwdGlvbiIpLmlzX3NvbWUoKSB7CiAgICAgICAgcmV0dXJuIEVycihhbnlob3c6OmFueWhvdyEoInt9IiwgZm9ybWF0X2R5bnVfZXJyb3IoZGF0YSwgdGV4dCkpKTsKICAgIH0KICAgIGlmIGxldCBTb21lKHN0YXR1c19jb2RlKSA9IGRhdGEuZ2V0KCJzdGF0dXNDb2RlIikuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkKICAgICAgICAmJiBzdGF0dXNfY29kZSAhPSAyMDAKICAgIHsKICAgICAgICByZXR1cm4gRXJyKGFueWhvdzo6YW55aG93ISgKICAgICAgICAgICAgIlt7c3RhdHVzX2NvZGV9XSB7fSIsCiAgICAgICAgICAgIGZvcm1hdF9keW51X2Vycm9yKGRhdGEsIHRleHQpCiAgICAgICAgKSk7CiAgICB9CiAgICBPaygoKSkKfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGZvcm1hdF9keW51X2Vycm9yKGRhdGE6ICZWYWx1ZSwgZmFsbGJhY2s6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBpZiBsZXQgU29tZShleGNlcHRpb24pID0gZGF0YS5nZXQoImV4Y2VwdGlvbiIpIHsKICAgICAgICBsZXQgc3RhdHVzID0gZXhjZXB0aW9uCiAgICAgICAgICAgIC5nZXQoInN0YXR1c0NvZGUiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkKICAgICAgICAgICAgLm1hcCh8dmFsdWV8IGZvcm1hdCEoIlt7dmFsdWV9XSAiKSkKICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICAgICAgbGV0IGVycm9yX3R5cGUgPSBleGNlcHRpb24KICAgICAgICAgICAgLmdldCgidHlwZSIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAubWFwKHx2YWx1ZXwgZm9ybWF0ISgie3ZhbHVlfTogIikpCiAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgICAgIGxldCBtZXNzYWdlID0gZXhjZXB0aW9uCiAgICAgICAgICAgIC5nZXQoIm1lc3NhZ2UiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLnVud3JhcF9vcihmYWxsYmFjayk7CiAgICAgICAgcmV0dXJuIGZvcm1hdCEoIntzdGF0dXN9e2Vycm9yX3R5cGV9e21lc3NhZ2V9Iik7CiAgICB9CiAgICBqc29uX3RleHQoZGF0YSwgIm1lc3NhZ2UiKS51bndyYXBfb3JfZWxzZSh8fCBmYWxsYmFjay50b19zdHJpbmcoKSkKfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGFzeW5jIGZuIHJlc29sdmVfZHludV9yb290KAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICBjbGllbnQ6ICZERE5TSHR0cENsaWVudCwKICAgIGFwaV9rZXk6ICZzdHIsCiAgICBkb21haW46ICZzdHIsCikgLT4gYW55aG93OjpSZXN1bHQ8RHludVJvb3Q+IHsKICAgIGxldCByb290ID0gZHludV9yZXF1ZXN0KAogICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgY2xpZW50LAogICAgICAgIGFwaV9rZXksCiAgICAgICAgJmZvcm1hdCEoIi9kbnMvZ2V0cm9vdC97fSIsIHVybF9lbmNvZGVfY29tcG9uZW50KGRvbWFpbikpLAogICAgICAgIE5vbmUsCiAgICApCiAgICAuYXdhaXQ/OwogICAgbGV0IGRvbWFpbl9pZCA9IHJlYWRfcG9zaXRpdmVfaWQocm9vdC5nZXQoImlkIikpLm9rX29yX2Vsc2UofHwgewogICAgICAgIGFueWhvdzo6YW55aG93IShkZG5zX3RleHQodHJhbnNsYXRvciwgInByb3ZpZGVycy5keW51LmludmFsaWRSb290SW5mbyIsICZbXSwpKQogICAgfSk/OwogICAgbGV0IGRvbWFpbl9uYW1lID0gbm9ybWFsaXplX2RvbWFpbigKICAgICAgICByb290LmdldCgiZG9tYWluTmFtZSIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKSwKICAgICk7CiAgICBpZiBkb21haW5fbmFtZS5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gRXJyKGFueWhvdzo6YW55aG93IShkZG5zX3RleHQoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJwcm92aWRlcnMuZHludS5pbnZhbGlkUm9vdEluZm8iLAogICAgICAgICAgICAmW10sCiAgICAgICAgKSkpOwogICAgfQogICAgbGV0IG5vZGVfbmFtZSA9IG5vcm1hbGl6ZV9keW51X25vZGVfbmFtZShyb290LmdldCgibm9kZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpKQogICAgICAgIC5pZl9lbXB0eShidWlsZF9keW51X2ZhbGxiYWNrX25vZGVfbmFtZShkb21haW4sICZkb21haW5fbmFtZSkpOwogICAgT2soRHludVJvb3QgewogICAgICAgIGRvbWFpbl9pZCwKICAgICAgICBkb21haW5fbmFtZSwKICAgICAgICBub2RlX25hbWUsCiAgICB9KQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgZm4gcmVhZF9wb3NpdGl2ZV9pZCh2YWx1ZTogT3B0aW9uPCZWYWx1ZT4pIC0+IE9wdGlvbjxpNjQ+IHsKICAgIHZhbHVlCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgewogICAgICAgICAgICB2YWx1ZQogICAgICAgICAgICAgICAgLmFzX2k2NCgpCiAgICAgICAgICAgICAgICAub3JfZWxzZSh8fCB2YWx1ZS5hc19zdHIoKS5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnBhcnNlKCkub2soKSkpCiAgICAgICAgfSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgKnZhbHVlID4gMCkKfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIG5vcm1hbGl6ZV9keW51X25vZGVfbmFtZSh2YWx1ZTogT3B0aW9uPCZzdHI+KSAtPiBTdHJpbmcgewogICAgbGV0IHRyaW1tZWQgPSB2YWx1ZS51bndyYXBfb3JfZGVmYXVsdCgpLnRyaW0oKTsKICAgIGlmIHRyaW1tZWQgPT0gIkAiIHsKICAgICAgICBTdHJpbmc6Om5ldygpCiAgICB9IGVsc2UgewogICAgICAgIHRyaW1tZWQudG9fc3RyaW5nKCkKICAgIH0KfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGJ1aWxkX2R5bnVfZmFsbGJhY2tfbm9kZV9uYW1lKAogICAgZG9tYWluOiAmc3RyLAogICAgcm9vdF9kb21haW46ICZzdHIsCikgLT4gU3RyaW5nIHsKICAgIGxldCBmcWRuID0gbm9ybWFsaXplX2RvbWFpbihkb21haW4pOwogICAgbGV0IHJvb3QgPSBub3JtYWxpemVfZG9tYWluKHJvb3RfZG9tYWluKTsKICAgIGlmIGZxZG4uaXNfZW1wdHkoKSB8fCByb290LmlzX2VtcHR5KCkgfHwgZnFkbiA9PSByb290IHsKICAgICAgICByZXR1cm4gU3RyaW5nOjpuZXcoKTsKICAgIH0KICAgIGxldCBzdWZmaXggPSBmb3JtYXQhKCIue3Jvb3R9Iik7CiAgICBpZiBmcWRuLmVuZHNfd2l0aCgmc3VmZml4KSB7CiAgICAgICAgZnFkblsuLmZxZG4ubGVuKCkgLSBzdWZmaXgubGVuKCldLnRvX3N0cmluZygpCiAgICB9IGVsc2UgewogICAgICAgIFN0cmluZzo6bmV3KCkKICAgIH0KfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGZpbmRfZHludV9yZWNvcmQoCiAgICByZWNvcmRzOiAmW1ZhbHVlXSwKICAgIHJlY29yZF90eXBlOiAmc3RyLAogICAgZG9tYWluOiAmc3RyLAogICAgbm9kZV9uYW1lOiAmc3RyLAopIC0+IE9wdGlvbjxWYWx1ZT4gewogICAgbGV0IG5vcm1hbGl6ZWRfZG9tYWluID0gbm9ybWFsaXplX2RvbWFpbihkb21haW4pOwogICAgbGV0IG5vcm1hbGl6ZWRfbm9kZSA9IG5vcm1hbGl6ZV9keW51X25vZGVfbmFtZShTb21lKG5vZGVfbmFtZSkpOwogICAgbGV0IG1hdGNoaW5nID0gcmVjb3JkcwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyKHxyZWNvcmR8IHsKICAgICAgICAgICAgcmVjb3JkCiAgICAgICAgICAgICAgICAuZ2V0KCJyZWNvcmRUeXBlIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHx2YWx1ZXwgdmFsdWUuZXFfaWdub3JlX2FzY2lpX2Nhc2UocmVjb3JkX3R5cGUpKQogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBpZiBsZXQgU29tZShyZWNvcmQpID0gbWF0Y2hpbmcKICAgICAgICAuaXRlcigpCiAgICAgICAgLmZpbmQofHJlY29yZHwgYnVpbGRfZHludV9yZWNvcmRfaG9zdG5hbWUocmVjb3JkKSA9PSBub3JtYWxpemVkX2RvbWFpbikKICAgIHsKICAgICAgICByZXR1cm4gU29tZSgoKnJlY29yZCkuY2xvbmUoKSk7CiAgICB9CiAgICBpZiBub3JtYWxpemVkX25vZGUuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBtYXRjaGluZwogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5maW5kKHxyZWNvcmR8IHsKICAgICAgICAgICAgbm9ybWFsaXplX2R5bnVfbm9kZV9uYW1lKHJlY29yZC5nZXQoIm5vZGVOYW1lIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpCiAgICAgICAgICAgICAgICA9PSBub3JtYWxpemVkX25vZGUKICAgICAgICB9KQogICAgICAgIC5jbG9uZWQoKQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgZm4gYnVpbGRfZHludV9yZWNvcmRfaG9zdG5hbWUocmVjb3JkOiAmVmFsdWUpIC0+IFN0cmluZyB7CiAgICBpZiBsZXQgU29tZShob3N0bmFtZSkgPSByZWNvcmQuZ2V0KCJob3N0bmFtZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpIHsKICAgICAgICByZXR1cm4gbm9ybWFsaXplX2RvbWFpbihob3N0bmFtZSk7CiAgICB9CiAgICBsZXQgZG9tYWluX25hbWUgPSBub3JtYWxpemVfZG9tYWluKAogICAgICAgIHJlY29yZAogICAgICAgICAgICAuZ2V0KCJkb21haW5OYW1lIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgKTsKICAgIGlmIGRvbWFpbl9uYW1lLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBTdHJpbmc6Om5ldygpOwogICAgfQogICAgbGV0IG5vZGVfbmFtZSA9IG5vcm1hbGl6ZV9keW51X25vZGVfbmFtZShyZWNvcmQuZ2V0KCJub2RlTmFtZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpKTsKICAgIGlmIG5vZGVfbmFtZS5pc19lbXB0eSgpIHsKICAgICAgICBkb21haW5fbmFtZQogICAgfSBlbHNlIHsKICAgICAgICBmb3JtYXQhKCJ7bm9kZV9uYW1lfS57ZG9tYWluX25hbWV9IikKICAgIH0KfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIGR5bnVfcmVjb3JkX2FkZHJlc3MocmVjb3JkOiAmVmFsdWUsIHJlY29yZF90eXBlOiAmc3RyKSAtPiBTdHJpbmcgewogICAgbGV0IGtleSA9IGlmIHJlY29yZF90eXBlID09ICJBIiB7CiAgICAgICAgImlwdjRBZGRyZXNzIgogICAgfSBlbHNlIHsKICAgICAgICAiaXB2NkFkZHJlc3MiCiAgICB9OwogICAgcmVjb3JkCiAgICAgICAgLmdldChrZXkpCiAgICAgICAgLm9yX2Vsc2UofHwgcmVjb3JkLmdldCgiY29udGVudCIpKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCiAgICAgICAgLnRyaW0oKQogICAgICAgIC50b19zdHJpbmcoKQp9Cg==
+use super::*;
+
+pub(in crate::ddns::routes) fn dynu_catalog_entry() -> Value {
+    provider(
+        "dynu",
+        "Dynu",
+        vec![
+            field("api_key", "API Key", "password", "Dynu API Key", true),
+            field("domain", "Domain", "text", "home.example.com", true),
+            field("ttl", "TTL", "text", "120", false),
+            field("group", "Group", "text", "default", false),
+        ],
+    )
+}
+
+pub(in crate::ddns::routes) async fn update_dynu(
+    translator: &Translator,
+    config: &HashMap<String, String>,
+    http_options: &DDNSHttpClientOptions,
+    ipv4: Option<&str>,
+    ipv6: Option<&str>,
+) -> anyhow::Result<DDNSProviderUpdateResult> {
+    let api_key = config_value(config, "api_key");
+    let raw_domain = config_value(config, "domain");
+    let wildcard = raw_domain.trim().starts_with("*.");
+    let domain = if wildcard {
+        normalize_domain(raw_domain.trim().trim_start_matches("*."))
+    } else {
+        normalize_domain(&raw_domain)
+    };
+    if api_key.is_empty() || domain.is_empty() {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.dynu.configIncomplete",
+            &[],
+        )));
+    }
+    if ipv4.is_none() && ipv6.is_none() {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.dynu.noIpAvailable",
+            &[],
+        )));
+    }
+    let client = ddns_http_client(translator, http_options)?;
+    let result = async {
+        if wildcard {
+            return update_dynu_wildcard(
+                translator, &client, &api_key, config, &domain, ipv4, ipv6,
+            )
+            .await;
+        }
+        let root = resolve_dynu_root(translator, &client, &api_key, &domain).await?;
+        let provider_label_text = provider_label(Some("dynu"), translator);
+        update_dual_stack(
+            translator,
+            &provider_label_text,
+            ipv4,
+            ipv6,
+            |record_type, ip| {
+                let client = client.clone();
+                let api_key = api_key.clone();
+                let domain = domain.clone();
+                let root = root.clone();
+                let ttl_config = config_value(config, "ttl");
+                let group_config = config_value(config, "group");
+                async move {
+                    let list = dynu_request(
+                        translator,
+                        &client,
+                        &api_key,
+                        &format!(
+                            "/dns/record/{}?recordType={}",
+                            url_encode_component(&domain),
+                            record_type
+                        ),
+                        None,
+                    )
+                    .await?;
+                    let existing = list
+                        .get("dnsRecords")
+                        .and_then(Value::as_array)
+                        .and_then(|records| {
+                            find_dynu_record(records, record_type, &domain, &root.node_name)
+                        });
+                    if let Some(existing) = existing.clone()
+                        && dynu_record_address(&existing, record_type) == ip
+                    {
+                        return Ok(());
+                    }
+                    let ttl = positive_i64(
+                        Some(&ttl_config),
+                        existing
+                            .as_ref()
+                            .and_then(|record| record.get("ttl"))
+                            .and_then(Value::as_i64)
+                            .filter(|value| *value > 0)
+                            .unwrap_or(300),
+                    );
+                    let group = default_string(
+                        group_config.clone(),
+                        existing
+                            .as_ref()
+                            .and_then(|record| record.get("group"))
+                            .and_then(Value::as_str)
+                            .unwrap_or(""),
+                    );
+                    let mut body = json!({
+                        "nodeName": root.node_name,
+                        "recordType": record_type,
+                        "ttl": ttl,
+                        "state": existing.as_ref().and_then(|record| record.get("state")).and_then(Value::as_bool).unwrap_or(true),
+                        "group": group
+                    });
+                    if record_type == "A" {
+                        insert_json_field(&mut body, "ipv4Address", json!(ip));
+                    } else {
+                        insert_json_field(&mut body, "ipv6Address", json!(ip));
+                    }
+                    let path = if let Some(existing) = existing {
+                        let record_id = read_positive_id(existing.get("id")).ok_or_else(|| {
+                            anyhow::anyhow!(ddns_text(
+                                translator,
+                                "providers.dynu.recordIdMissing",
+                                &[],
+                            ))
+                        })?;
+                        format!("/dns/{}/record/{record_id}", root.domain_id)
+                    } else {
+                        format!("/dns/{}/record", root.domain_id)
+                    };
+                    dynu_request(translator, &client, &api_key, &path, Some(body)).await?;
+                    Ok(())
+                }
+            },
+        )
+        .await
+    }
+    .await;
+    match result {
+        Ok(result) => Ok(result),
+        Err(error) => Ok(dynu_request_error_result(translator, &error.to_string())),
+    }
+}
+
+pub(in crate::ddns::routes) fn dynu_request_error_result(
+    translator: &Translator,
+    detail: &str,
+) -> DDNSProviderUpdateResult {
+    provider_failure(ddns_text(
+        translator,
+        "providers.dynu.requestError",
+        &[("detail", detail.to_string())],
+    ))
+}
+
+pub(in crate::ddns::routes) async fn update_dynu_wildcard(
+    translator: &Translator,
+    client: &DDNSHttpClient,
+    api_key: &str,
+    config: &HashMap<String, String>,
+    domain: &str,
+    ipv4: Option<&str>,
+    ipv6: Option<&str>,
+) -> anyhow::Result<DDNSProviderUpdateResult> {
+    let root = resolve_dynu_root(translator, client, api_key, domain).await?;
+    if root.domain_name != domain || !root.node_name.is_empty() {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.dynu.wildcardUnsupported",
+            &[("domain", domain.to_string())],
+        )));
+    }
+    let details = dynu_request(
+        translator,
+        client,
+        api_key,
+        &format!("/dns/{}", root.domain_id),
+        None,
+    )
+    .await?;
+    let ipv4_unchanged = ipv4.is_none_or(|ip| {
+        details.get("ipv4Address").and_then(Value::as_str) == Some(ip)
+            && details
+                .get("ipv4WildcardAlias")
+                .and_then(Value::as_bool)
+                .unwrap_or(false)
+    });
+    let ipv6_unchanged = ipv6.is_none_or(|ip| {
+        details.get("ipv6Address").and_then(Value::as_str) == Some(ip)
+            && details
+                .get("ipv6WildcardAlias")
+                .and_then(Value::as_bool)
+                .unwrap_or(false)
+    });
+    if ipv4_unchanged && ipv6_unchanged {
+        return Ok(DDNSProviderUpdateResult {
+            success: true,
+            message: ddns_text(translator, "providers.dynu.wildcardUnchanged", &[]),
+        });
+    }
+    let ttl = positive_i64(
+        config.get("ttl"),
+        details
+            .get("ttl")
+            .and_then(Value::as_i64)
+            .filter(|value| *value > 0)
+            .unwrap_or(300),
+    );
+    let group = default_string(
+        config_value(config, "group"),
+        details.get("group").and_then(Value::as_str).unwrap_or(""),
+    );
+    let mut body = json!({
+        "name": normalize_domain(details.get("name").and_then(Value::as_str).unwrap_or(domain)),
+        "group": group,
+        "ttl": ttl,
+        "ipv4": ipv4.is_some() || details.get("ipv4").and_then(Value::as_bool).unwrap_or(false) || details.get("ipv4Address").and_then(Value::as_str).is_some(),
+        "ipv6": ipv6.is_some() || details.get("ipv6").and_then(Value::as_bool).unwrap_or(false) || details.get("ipv6Address").and_then(Value::as_str).is_some(),
+        "ipv4WildcardAlias": ipv4.is_some() || details.get("ipv4WildcardAlias").and_then(Value::as_bool).unwrap_or(false),
+        "ipv6WildcardAlias": ipv6.is_some() || details.get("ipv6WildcardAlias").and_then(Value::as_bool).unwrap_or(false),
+        "allowZoneTransfer": details.get("allowZoneTransfer").and_then(Value::as_bool).unwrap_or(false),
+        "dnssec": details.get("dnssec").and_then(Value::as_bool).unwrap_or(false)
+    });
+    if let Some(ipv4) = ipv4.or_else(|| details.get("ipv4Address").and_then(Value::as_str)) {
+        insert_json_field(&mut body, "ipv4Address", json!(ipv4));
+    }
+    if let Some(ipv6) = ipv6.or_else(|| details.get("ipv6Address").and_then(Value::as_str)) {
+        insert_json_field(&mut body, "ipv6Address", json!(ipv6));
+    }
+    dynu_request(
+        translator,
+        client,
+        api_key,
+        &format!("/dns/{}", root.domain_id),
+        Some(body),
+    )
+    .await?;
+    Ok(DDNSProviderUpdateResult {
+        success: true,
+        message: ddns_text(translator, "providers.dynu.wildcardSuccess", &[]),
+    })
+}
+
+#[derive(Clone)]
+pub(in crate::ddns::routes) struct DynuRoot {
+    pub(in crate::ddns::routes) domain_id: i64,
+    pub(in crate::ddns::routes) domain_name: String,
+    pub(in crate::ddns::routes) node_name: String,
+}
+
+pub(in crate::ddns::routes) async fn dynu_request(
+    translator: &Translator,
+    client: &DDNSHttpClient,
+    api_key: &str,
+    path: &str,
+    body: Option<Value>,
+) -> anyhow::Result<Value> {
+    let url = format!("https://api.dynu.com/v2{path}");
+    let mut request = client
+        .request(
+            if body.is_some() {
+                reqwest::Method::POST
+            } else {
+                reqwest::Method::GET
+            },
+            &url,
+        )
+        .header(reqwest::header::ACCEPT, "application/json")
+        .header("API-Key", api_key);
+    if let Some(body) = body {
+        request = request
+            .header(reqwest::header::CONTENT_TYPE, "application/json")
+            .json(&body);
+    }
+    let (status, data, text) = response_json(translator, request.send().await?).await?;
+    assert_dynu_success(status, &data, &text)?;
+    Ok(data)
+}
+
+pub(in crate::ddns::routes) fn assert_dynu_success(
+    status: StatusCode,
+    data: &Value,
+    text: &str,
+) -> anyhow::Result<()> {
+    if !status.is_success() {
+        return Err(anyhow::anyhow!(
+            "[{}] {}",
+            status.as_u16(),
+            format_dynu_error(data, text)
+        ));
+    }
+    if data.get("exception").is_some() {
+        return Err(anyhow::anyhow!("{}", format_dynu_error(data, text)));
+    }
+    if let Some(status_code) = data.get("statusCode").and_then(Value::as_i64)
+        && status_code != 200
+    {
+        return Err(anyhow::anyhow!(
+            "[{status_code}] {}",
+            format_dynu_error(data, text)
+        ));
+    }
+    Ok(())
+}
+
+pub(in crate::ddns::routes) fn format_dynu_error(data: &Value, fallback: &str) -> String {
+    if let Some(exception) = data.get("exception") {
+        let status = exception
+            .get("statusCode")
+            .and_then(Value::as_i64)
+            .map(|value| format!("[{value}] "))
+            .unwrap_or_default();
+        let error_type = exception
+            .get("type")
+            .and_then(Value::as_str)
+            .map(|value| format!("{value}: "))
+            .unwrap_or_default();
+        let message = exception
+            .get("message")
+            .and_then(Value::as_str)
+            .unwrap_or(fallback);
+        return format!("{status}{error_type}{message}");
+    }
+    json_text(data, "message").unwrap_or_else(|| fallback.to_string())
+}
+
+pub(in crate::ddns::routes) async fn resolve_dynu_root(
+    translator: &Translator,
+    client: &DDNSHttpClient,
+    api_key: &str,
+    domain: &str,
+) -> anyhow::Result<DynuRoot> {
+    let root = dynu_request(
+        translator,
+        client,
+        api_key,
+        &format!("/dns/getroot/{}", url_encode_component(domain)),
+        None,
+    )
+    .await?;
+    let domain_id = read_positive_id(root.get("id")).ok_or_else(|| {
+        anyhow::anyhow!(ddns_text(translator, "providers.dynu.invalidRootInfo", &[],))
+    })?;
+    let domain_name = normalize_domain(
+        root.get("domainName")
+            .and_then(Value::as_str)
+            .unwrap_or_default(),
+    );
+    if domain_name.is_empty() {
+        return Err(anyhow::anyhow!(ddns_text(
+            translator,
+            "providers.dynu.invalidRootInfo",
+            &[],
+        )));
+    }
+    let node_name = normalize_dynu_node_name(root.get("node").and_then(Value::as_str))
+        .if_empty(build_dynu_fallback_node_name(domain, &domain_name));
+    Ok(DynuRoot {
+        domain_id,
+        domain_name,
+        node_name,
+    })
+}
+
+pub(in crate::ddns::routes) fn read_positive_id(value: Option<&Value>) -> Option<i64> {
+    value
+        .and_then(|value| {
+            value
+                .as_i64()
+                .or_else(|| value.as_str().and_then(|value| value.parse().ok()))
+        })
+        .filter(|value| *value > 0)
+}
+
+pub(in crate::ddns::routes) fn normalize_dynu_node_name(value: Option<&str>) -> String {
+    let trimmed = value.unwrap_or_default().trim();
+    if trimmed == "@" {
+        String::new()
+    } else {
+        trimmed.to_string()
+    }
+}
+
+pub(in crate::ddns::routes) fn build_dynu_fallback_node_name(
+    domain: &str,
+    root_domain: &str,
+) -> String {
+    let fqdn = normalize_domain(domain);
+    let root = normalize_domain(root_domain);
+    if fqdn.is_empty() || root.is_empty() || fqdn == root {
+        return String::new();
+    }
+    let suffix = format!(".{root}");
+    if fqdn.ends_with(&suffix) {
+        fqdn[..fqdn.len() - suffix.len()].to_string()
+    } else {
+        String::new()
+    }
+}
+
+pub(in crate::ddns::routes) fn find_dynu_record(
+    records: &[Value],
+    record_type: &str,
+    domain: &str,
+    node_name: &str,
+) -> Option<Value> {
+    let normalized_domain = normalize_domain(domain);
+    let normalized_node = normalize_dynu_node_name(Some(node_name));
+    let matching = records
+        .iter()
+        .filter(|record| {
+            record
+                .get("recordType")
+                .and_then(Value::as_str)
+                .is_some_and(|value| value.eq_ignore_ascii_case(record_type))
+        })
+        .collect::<Vec<_>>();
+    if let Some(record) = matching
+        .iter()
+        .find(|record| build_dynu_record_hostname(record) == normalized_domain)
+    {
+        return Some((*record).clone());
+    }
+    if normalized_node.is_empty() {
+        return None;
+    }
+    matching
+        .into_iter()
+        .find(|record| {
+            normalize_dynu_node_name(record.get("nodeName").and_then(Value::as_str))
+                == normalized_node
+        })
+        .cloned()
+}
+
+pub(in crate::ddns::routes) fn build_dynu_record_hostname(record: &Value) -> String {
+    if let Some(hostname) = record.get("hostname").and_then(Value::as_str) {
+        return normalize_domain(hostname);
+    }
+    let domain_name = normalize_domain(
+        record
+            .get("domainName")
+            .and_then(Value::as_str)
+            .unwrap_or_default(),
+    );
+    if domain_name.is_empty() {
+        return String::new();
+    }
+    let node_name = normalize_dynu_node_name(record.get("nodeName").and_then(Value::as_str));
+    if node_name.is_empty() {
+        domain_name
+    } else {
+        format!("{node_name}.{domain_name}")
+    }
+}
+
+pub(in crate::ddns::routes) fn dynu_record_address(record: &Value, record_type: &str) -> String {
+    let key = if record_type == "A" {
+        "ipv4Address"
+    } else {
+        "ipv6Address"
+    };
+    record
+        .get(key)
+        .or_else(|| record.get("content"))
+        .and_then(Value::as_str)
+        .unwrap_or_default()
+        .trim()
+        .to_string()
+}

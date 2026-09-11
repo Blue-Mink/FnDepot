@@ -1,1 +1,80 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBtb2JpbGl0eV9sb2dpbl9ldmVudCgKICAgIGlwOiAmc3RyLAogICAgaXBfbG9jYXRpb246IE9wdGlvbjwmc3RyPiwKICAgIGhhcHBlbmVkX2F0OiBPcHRpb248JnN0cj4sCikgLT4gVmFsdWUgewogICAganNvbiEoewogICAgICAgICJ2ZXJzaW9uIjogMSwKICAgICAgICAia2luZCI6ICJsb2dpbiIsCiAgICAgICAgImhhcHBlbmVkQXQiOiBoYXBwZW5lZF9hdC5tYXAoVG9TdHJpbmc6OnRvX3N0cmluZykudW53cmFwX29yX2Vsc2UodGltZV91dGlsczo6bm93X2lzbyksCiAgICAgICAgInNvdXJjZSI6ICJsb2dpbiIsCiAgICAgICAgInRvSXAiOiBpcCwKICAgICAgICAidG9JcExvY2F0aW9uIjogaXBfbG9jYXRpb24uZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLnRyaW0oKS5pc19lbXB0eSgpKSwKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gbW9iaWxpdHlfZHJpZnRfZXZlbnQoCiAgICBzb3VyY2U6ICZzdHIsCiAgICBmcm9tX2lwOiAmc3RyLAogICAgZnJvbV9pcF9sb2NhdGlvbjogT3B0aW9uPCZzdHI+LAogICAgdG9faXA6ICZzdHIsCiAgICB0b19pcF9sb2NhdGlvbjogT3B0aW9uPCZzdHI+LAopIC0+IFZhbHVlIHsKICAgIGpzb24hKHsKICAgICAgICAidmVyc2lvbiI6IDEsCiAgICAgICAgImtpbmQiOiAiZHJpZnQiLAogICAgICAgICJoYXBwZW5lZEF0IjogdGltZV91dGlsczo6bm93X2lzbygpLAogICAgICAgICJzb3VyY2UiOiBub3JtYWxpemVfZHJpZnRfc291cmNlKHNvdXJjZSksCiAgICAgICAgImZyb21JcCI6IGZyb21faXAsCiAgICAgICAgImZyb21JcExvY2F0aW9uIjogZnJvbV9pcF9sb2NhdGlvbi5maWx0ZXIofHZhbHVlfCAhdmFsdWUudHJpbSgpLmlzX2VtcHR5KCkpLAogICAgICAgICJ0b0lwIjogdG9faXAsCiAgICAgICAgInRvSXBMb2NhdGlvbiI6IHRvX2lwX2xvY2F0aW9uLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS50cmltKCkuaXNfZW1wdHkoKSksCiAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIG1vYmlsaXR5X3N1bW1hcnkoZXZlbnRzOiAmW1ZhbHVlXSkgLT4gVmFsdWUgewogICAgbGV0IGRyaWZ0X2V2ZW50cyA9IGV2ZW50cwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyKHxldmVudHwgZXZlbnQuZ2V0KCJraW5kIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSgiZHJpZnQiKSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGxldCBsYXN0X2RyaWZ0ID0gZHJpZnRfZXZlbnRzLmxhc3QoKS5jb3BpZWQoKTsKICAgIGpzb24hKHsKICAgICAgICAiaGFzSGlzdG9yeSI6ICFldmVudHMuaXNfZW1wdHkoKSwKICAgICAgICAiZHJpZnRDb3VudCI6IGRyaWZ0X2V2ZW50cy5sZW4oKSwKICAgICAgICAibGFzdERyaWZ0QXQiOiBsYXN0X2RyaWZ0CiAgICAgICAgICAgIC5hbmRfdGhlbih8ZXZlbnR8IGV2ZW50LmdldCgiaGFwcGVuZWRBdCIpKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0ciksCiAgICAgICAgImxhc3REcmlmdFNvdXJjZSI6IGxhc3RfZHJpZnQKICAgICAgICAgICAgLmFuZF90aGVuKHxldmVudHwgZXZlbnQuZ2V0KCJzb3VyY2UiKSkKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLAogICAgfSkKfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfYWN0aXZlX2lwX3NvdXJjZSh2YWx1ZTogJnN0cikgLT4gJnN0ciB7CiAgICBtYXRjaCB2YWx1ZSB7CiAgICAgICAgImxvZ2luIiB8ICJwcm94eS1zZXNzaW9uIiB8ICJmbm9zLXRva2VuIiB8ICJzZXNzaW9uLXJlZnJlc2giIHwgImJyb3dzZXItc2Vzc2lvbiIgPT4gdmFsdWUsCiAgICAgICAgXyA9PiAic2Vzc2lvbi1yZWZyZXNoIiwKICAgIH0KfQoKcHViKHN1cGVyKSBmbiBub3JtYWxpemVfZHJpZnRfc291cmNlKHZhbHVlOiAmc3RyKSAtPiAmc3RyIHsKICAgIG1hdGNoIHZhbHVlIHsKICAgICAgICAicHJveHktc2Vzc2lvbiIgfCAiZm5vcy10b2tlbiIgfCAic2Vzc2lvbi1yZWZyZXNoIiB8ICJicm93c2VyLXNlc3Npb24iID0+IHZhbHVlLAogICAgICAgIF8gPT4gInNlc3Npb24tcmVmcmVzaCIsCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gcGFyc2VfaXNvX3VuaXgodmFsdWU6IE9wdGlvbjwmc3RyPikgLT4gT3B0aW9uPGk2ND4gewogICAgdmFsdWUKICAgICAgICAuYW5kX3RoZW4odGltZV91dGlsczo6cGFyc2VfaXNvX21zKQogICAgICAgIC5tYXAofG1zfCBtcy5kaXZfZXVjbGlkKDEwMDApKQp9CgpwdWIoc3VwZXIpIGZuIHJlc29sdmVfcHJveHlfc2Vzc2lvbl90dGwoZXhwaXJlX2F0OiBPcHRpb248aTY0PikgLT4gT3B0aW9uPGk2ND4gewogICAgbGV0IHJlbWFpbmluZyA9IGV4cGlyZV9hdD8gLSBub3dfc2Vjb25kcygpOwogICAgKHJlbWFpbmluZyA+IDApLnRoZW5fc29tZShyZW1haW5pbmcpCn0KCnB1YihzdXBlcikgdXNlIGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfc2Vjb25kczsK
+use super::*;
+
+pub(super) fn mobility_login_event(
+    ip: &str,
+    ip_location: Option<&str>,
+    happened_at: Option<&str>,
+) -> Value {
+    json!({
+        "version": 1,
+        "kind": "login",
+        "happenedAt": happened_at.map(ToString::to_string).unwrap_or_else(time_utils::now_iso),
+        "source": "login",
+        "toIp": ip,
+        "toIpLocation": ip_location.filter(|value| !value.trim().is_empty()),
+    })
+}
+
+pub(super) fn mobility_drift_event(
+    source: &str,
+    from_ip: &str,
+    from_ip_location: Option<&str>,
+    to_ip: &str,
+    to_ip_location: Option<&str>,
+) -> Value {
+    json!({
+        "version": 1,
+        "kind": "drift",
+        "happenedAt": time_utils::now_iso(),
+        "source": normalize_drift_source(source),
+        "fromIp": from_ip,
+        "fromIpLocation": from_ip_location.filter(|value| !value.trim().is_empty()),
+        "toIp": to_ip,
+        "toIpLocation": to_ip_location.filter(|value| !value.trim().is_empty()),
+    })
+}
+
+pub(super) fn mobility_summary(events: &[Value]) -> Value {
+    let drift_events = events
+        .iter()
+        .filter(|event| event.get("kind").and_then(Value::as_str) == Some("drift"))
+        .collect::<Vec<_>>();
+    let last_drift = drift_events.last().copied();
+    json!({
+        "hasHistory": !events.is_empty(),
+        "driftCount": drift_events.len(),
+        "lastDriftAt": last_drift
+            .and_then(|event| event.get("happenedAt"))
+            .and_then(Value::as_str),
+        "lastDriftSource": last_drift
+            .and_then(|event| event.get("source"))
+            .and_then(Value::as_str),
+    })
+}
+
+pub(super) fn normalize_active_ip_source(value: &str) -> &str {
+    match value {
+        "login" | "proxy-session" | "fnos-token" | "session-refresh" | "browser-session" => value,
+        _ => "session-refresh",
+    }
+}
+
+pub(super) fn normalize_drift_source(value: &str) -> &str {
+    match value {
+        "proxy-session" | "fnos-token" | "session-refresh" | "browser-session" => value,
+        _ => "session-refresh",
+    }
+}
+
+pub(super) fn parse_iso_unix(value: Option<&str>) -> Option<i64> {
+    value
+        .and_then(time_utils::parse_iso_ms)
+        .map(|ms| ms.div_euclid(1000))
+}
+
+pub(super) fn resolve_proxy_session_ttl(expire_at: Option<i64>) -> Option<i64> {
+    let remaining = expire_at? - now_seconds();
+    (remaining > 0).then_some(remaining)
+}
+
+pub(super) use crate::time_utils::now_seconds;

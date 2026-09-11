@@ -1,1 +1,109 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCBBY21lQXBwbGljYXRpb25EaWFsb2cgZnJvbSAiLi9BY21lQXBwbGljYXRpb25EaWFsb2cudnVlIjsKaW1wb3J0IEFjbWVKb2JQYW5lbCBmcm9tICIuL0FjbWVKb2JQYW5lbC52dWUiOwppbXBvcnQgdHlwZSB7IEFjbWVDZXJ0aWZpY2F0ZUNvbnRyb2xsZXIgfSBmcm9tICIuL2FjbWUtY2VydGlmaWNhdGUtY29udHJhY3QiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7IGNvbnRyb2xsZXI6IEFjbWVDZXJ0aWZpY2F0ZUNvbnRyb2xsZXIgfT4oKTsKY29uc3QgewogIGFuYWx5c2lzLAogIGNhblN0b3BBY3RpdmVKb2IsCiAgY2xvc2VEZWxldGVEaWFsb2csCiAgY29uZmlybURlbGV0ZUNhbmRpZGF0ZSwKICBkZWxldGVDYW5kaWRhdGUsCiAgZGVsZXRlQ2FuZGlkYXRlTGFiZWwsCiAgZGlhbG9nTW9kZSwKICBkbnNQcm92aWRlcnMsCiAgZWRpdGluZ0FwcGxpY2F0aW9uLAogIGZvY3VzQ3JlZGVudGlhbHNGcm9tSm9iLAogIGhhbmRsZURlbGV0ZURpYWxvZ09wZW5DaGFuZ2UsCiAgaXNBY3Rpb25CbG9ja2VkLAogIGlzRGlhbG9nT3BlbiwKICBpc0RpYWxvZ1N1Ym1pdHRpbmcsCiAgaXNNdXRhdGluZywKICBpc1JlZnJlc2hpbmdMb2dzLAogIGlzU3RvcHBpbmdKb2IsCiAgaXNUYWJsZUxvY2tlZCwKICBqb2IsCiAgbG9ncywKICByZWZyZXNoTG9ncywKICBzZWxlY3RlZEFwcGxpY2F0aW9uTGFiZWwsCiAgc3RvcEFjdGl2ZUpvYiwKICBzdWJtaXREaWFsb2csCiAgdCwKfSA9IHByb3BzLmNvbnRyb2xsZXI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgo8QWNtZUpvYlBhbmVsCiAgICAgIHYtaWY9ImpvYiIKICAgICAgOmpvYj0iam9iIgogICAgICA6bG9ncz0ibG9ncyIKICAgICAgOmFuYWx5c2lzPSJhbmFseXNpcyIKICAgICAgOmFwcGxpY2F0aW9uLWxhYmVsPSJzZWxlY3RlZEFwcGxpY2F0aW9uTGFiZWwiCiAgICAgIDppcy1yZWZyZXNoaW5nPSJpc1JlZnJlc2hpbmdMb2dzIgogICAgICA6Y2FuLXN0b3A9ImNhblN0b3BBY3RpdmVKb2IiCiAgICAgIDppcy1zdG9wcGluZz0iaXNTdG9wcGluZ0pvYiIKICAgICAgOnN0b3AtYWN0aW9uPSJzdG9wQWN0aXZlSm9iIgogICAgICBAcmVmcmVzaD0icmVmcmVzaExvZ3MiCiAgICAgIEBmb2N1cy1jcmVkZW50aWFscz0iZm9jdXNDcmVkZW50aWFsc0Zyb21Kb2IiCiAgICAvPgoKICAgIDxBY21lQXBwbGljYXRpb25EaWFsb2cKICAgICAgdi1tb2RlbDpvcGVuPSJpc0RpYWxvZ09wZW4iCiAgICAgIDptb2RlPSJkaWFsb2dNb2RlIgogICAgICA6aW5pdGlhbC12YWx1ZT0iZWRpdGluZ0FwcGxpY2F0aW9uIgogICAgICA6ZG5zLXByb3ZpZGVycz0iZG5zUHJvdmlkZXJzIgogICAgICA6cGVuZGluZz0iaXNEaWFsb2dTdWJtaXR0aW5nIgogICAgICA6cnVudGltZS1sb2NrZWQ9ImlzVGFibGVMb2NrZWQiCiAgICAgIEBzdWJtaXQ9InN1Ym1pdERpYWxvZyIKICAgIC8+CgogICAgPERpYWxvZwogICAgICA6b3Blbj0iQm9vbGVhbihkZWxldGVDYW5kaWRhdGUpIgogICAgICBAdXBkYXRlOm9wZW49ImhhbmRsZURlbGV0ZURpYWxvZ09wZW5DaGFuZ2UiCiAgICA+CiAgICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJzbTptYXgtdy1tZCI+CiAgICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICAgIDxEaWFsb2dUaXRsZT4KICAgICAgICAgICAge3sgdCgiYWRtaW4uYWNtZUNlcnQuY29uZmlybURlbGV0ZUNlcnRpZmljYXRlVGl0bGUiKSB9fQogICAgICAgICAgPC9EaWFsb2dUaXRsZT4KICAgICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbiBjbGFzcz0ibGVhZGluZy02Ij4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICB0KCJhZG1pbi5hY21lQ2VydC5jb25maXJtRGVsZXRlQ2VydGlmaWNhdGVEZXNjcmlwdGlvbiIsIHsKICAgICAgICAgICAgICAgIHRhcmdldDoKICAgICAgICAgICAgICAgICAgZGVsZXRlQ2FuZGlkYXRlTGFiZWwgfHwKICAgICAgICAgICAgICAgICAgdCgiYWRtaW4uYWNtZUNlcnQuY3VycmVudEFwcGxpY2F0aW9uIiksCiAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgfX0KICAgICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ0Zvb3Rlcj4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzTXV0YXRpbmciCiAgICAgICAgICAgIEBjbGljaz0iY2xvc2VEZWxldGVEaWFsb2ciCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImNvbW1vbi5jYW5jZWwiKSB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiCiAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNBY3Rpb25CbG9ja2VkKCkgfHwgIWRlbGV0ZUNhbmRpZGF0ZSIKICAgICAgICAgICAgQGNsaWNrPSJjb25maXJtRGVsZXRlQ2FuZGlkYXRlIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJjb21tb24uY29uZmlybURlbGV0ZSIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgICAgPC9EaWFsb2dDb250ZW50PgogICAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import AcmeApplicationDialog from "./AcmeApplicationDialog.vue";
+import AcmeJobPanel from "./AcmeJobPanel.vue";
+import type { AcmeCertificateController } from "./acme-certificate-contract";
+
+const props = defineProps<{ controller: AcmeCertificateController }>();
+const {
+  analysis,
+  canStopActiveJob,
+  closeDeleteDialog,
+  confirmDeleteCandidate,
+  deleteCandidate,
+  deleteCandidateLabel,
+  dialogMode,
+  dnsProviders,
+  editingApplication,
+  focusCredentialsFromJob,
+  handleDeleteDialogOpenChange,
+  isActionBlocked,
+  isDialogOpen,
+  isDialogSubmitting,
+  isMutating,
+  isRefreshingLogs,
+  isStoppingJob,
+  isTableLocked,
+  job,
+  logs,
+  refreshLogs,
+  selectedApplicationLabel,
+  stopActiveJob,
+  submitDialog,
+  t,
+} = props.controller;
+</script>
+
+<template>
+<AcmeJobPanel
+      v-if="job"
+      :job="job"
+      :logs="logs"
+      :analysis="analysis"
+      :application-label="selectedApplicationLabel"
+      :is-refreshing="isRefreshingLogs"
+      :can-stop="canStopActiveJob"
+      :is-stopping="isStoppingJob"
+      :stop-action="stopActiveJob"
+      @refresh="refreshLogs"
+      @focus-credentials="focusCredentialsFromJob"
+    />
+
+    <AcmeApplicationDialog
+      v-model:open="isDialogOpen"
+      :mode="dialogMode"
+      :initial-value="editingApplication"
+      :dns-providers="dnsProviders"
+      :pending="isDialogSubmitting"
+      :runtime-locked="isTableLocked"
+      @submit="submitDialog"
+    />
+
+    <Dialog
+      :open="Boolean(deleteCandidate)"
+      @update:open="handleDeleteDialogOpenChange"
+    >
+      <DialogContent class="sm:max-w-md">
+        <DialogHeader>
+          <DialogTitle>
+            {{ t("admin.acmeCert.confirmDeleteCertificateTitle") }}
+          </DialogTitle>
+          <DialogDescription class="leading-6">
+            {{
+              t("admin.acmeCert.confirmDeleteCertificateDescription", {
+                target:
+                  deleteCandidateLabel ||
+                  t("admin.acmeCert.currentApplication"),
+              })
+            }}
+          </DialogDescription>
+        </DialogHeader>
+        <DialogFooter>
+          <Button
+            type="button"
+            variant="outline"
+            :disabled="isMutating"
+            @click="closeDeleteDialog"
+          >
+            {{ t("common.cancel") }}
+          </Button>
+          <Button
+            type="button"
+            variant="destructive"
+            :disabled="isActionBlocked() || !deleteCandidate"
+            @click="confirmDeleteCandidate"
+          >
+            {{ t("common.confirmDelete") }}
+          </Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+</template>

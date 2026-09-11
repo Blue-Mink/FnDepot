@@ -1,1 +1,49 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgaXNXZWJTb2NrZXRQcm94eVRhcmdldFVybCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvcHJveHlUYXJnZXRJbnB1dCI7CmltcG9ydCB7CiAgZ2V0TG9jYXRpb25SdWxlc0NvdW50LAogIGdldE1hcHBpbmdTZWN1cml0eUluZGljYXRvclN0YXRlLAogIGlzUHJveHlIb3N0TWFwcGluZywKfSBmcm9tICIuL21vZGVsIjsKaW1wb3J0IHR5cGUgeyBTdWJkb21haW5NYXBwaW5nU3RhdHVzSW5kaWNhdG9yc1Byb3BzIH0gZnJvbSAiLi9zdWJkb21haW4tbWFwcGluZy1zdGF0dXMtY29udHJhY3QiOwppbXBvcnQgU3ViZG9tYWluTWFwcGluZ0FjY2Vzc0luZGljYXRvcnMgZnJvbSAiLi9TdWJkb21haW5NYXBwaW5nQWNjZXNzSW5kaWNhdG9ycy52dWUiOwppbXBvcnQgU3ViZG9tYWluTWFwcGluZ0F2YWlsYWJpbGl0eUluZGljYXRvcnMgZnJvbSAiLi9TdWJkb21haW5NYXBwaW5nQXZhaWxhYmlsaXR5SW5kaWNhdG9ycy52dWUiOwppbXBvcnQgU3ViZG9tYWluTWFwcGluZ1NlY3VyaXR5SW5kaWNhdG9ycyBmcm9tICIuL1N1YmRvbWFpbk1hcHBpbmdTZWN1cml0eUluZGljYXRvcnMudnVlIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8U3ViZG9tYWluTWFwcGluZ1N0YXR1c0luZGljYXRvcnNQcm9wcz4oKTsKY29uc3QgbG9jYXRpb25SdWxlc0NvdW50ID0gY29tcHV0ZWQoKCkgPT4gZ2V0TG9jYXRpb25SdWxlc0NvdW50KHByb3BzLm1hcHBpbmcpKTsKY29uc3Qgc2VjdXJpdHlJbmRpY2F0b3JzID0gY29tcHV0ZWQoKCkgPT4KICBnZXRNYXBwaW5nU2VjdXJpdHlJbmRpY2F0b3JTdGF0ZSh7CiAgICBnbG9iYWxWaXNpYmlsaXR5RW5hYmxlZDogcHJvcHMuZ2xvYmFsVmlzaWJpbGl0eUVuYWJsZWQsCiAgICBnbG9iYWxXYWZFbmFibGVkOiBwcm9wcy5nbG9iYWxXYWZFbmFibGVkLAogICAgaXNBdXRoU2VydmljZTogcHJvcHMuaXNBdXRoU2VydmljZSwKICAgIG1hcHBpbmc6IHByb3BzLm1hcHBpbmcsCiAgfSksCik7CmNvbnN0IHNob3VsZFNob3dUb29sYmFySW5kaWNhdG9yID0gY29tcHV0ZWQoCiAgKCkgPT4KICAgIHByb3BzLmlzR2F0ZXdheVBvcnRhbEVuYWJsZWQgJiYKICAgIGlzUHJveHlIb3N0TWFwcGluZyhwcm9wcy5tYXBwaW5nKSAmJgogICAgcHJvcHMubWFwcGluZy51c2VfYXV0aCAmJgogICAgIXByb3BzLm1hcHBpbmcuc3VwcHJlc3NfdG9vbGJhciAmJgogICAgIWlzV2ViU29ja2V0UHJveHlUYXJnZXRVcmwocHJvcHMubWFwcGluZy50YXJnZXQpLAopOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICBjbGFzcz0iZmxleCBtaW4tdy0wIGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgbWQ6bWluLXctbWF4IG1kOmZsZXgtbm93cmFwIgogID4KICAgIDxTdWJkb21haW5NYXBwaW5nQXZhaWxhYmlsaXR5SW5kaWNhdG9ycyA6bW9kZWw9InByb3BzIiAvPgogICAgPHRlbXBsYXRlIHYtaWY9ImF2YWlsYWJpbGl0eVN0YXRlICE9PSAnZGlzYWJsZWQnIj4KICAgICAgPFN1YmRvbWFpbk1hcHBpbmdBY2Nlc3NJbmRpY2F0b3JzIDptb2RlbD0icHJvcHMiIC8+CiAgICAgIDxTdWJkb21haW5NYXBwaW5nU2VjdXJpdHlJbmRpY2F0b3JzCiAgICAgICAgOmxvY2F0aW9uLXJ1bGVzLWNvdW50PSJsb2NhdGlvblJ1bGVzQ291bnQiCiAgICAgICAgOm1vZGVsPSJwcm9wcyIKICAgICAgICA6c2VjdXJpdHktaW5kaWNhdG9ycz0ic2VjdXJpdHlJbmRpY2F0b3JzIgogICAgICAgIDpzaG91bGQtc2hvdy10b29sYmFyLWluZGljYXRvcj0ic2hvdWxkU2hvd1Rvb2xiYXJJbmRpY2F0b3IiCiAgICAgIC8+CiAgICA8L3RlbXBsYXRlPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed } from "vue";
+import { isWebSocketProxyTargetUrl } from "@admin-shared/utils/proxyTargetInput";
+import {
+  getLocationRulesCount,
+  getMappingSecurityIndicatorState,
+  isProxyHostMapping,
+} from "./model";
+import type { SubdomainMappingStatusIndicatorsProps } from "./subdomain-mapping-status-contract";
+import SubdomainMappingAccessIndicators from "./SubdomainMappingAccessIndicators.vue";
+import SubdomainMappingAvailabilityIndicators from "./SubdomainMappingAvailabilityIndicators.vue";
+import SubdomainMappingSecurityIndicators from "./SubdomainMappingSecurityIndicators.vue";
+
+const props = defineProps<SubdomainMappingStatusIndicatorsProps>();
+const locationRulesCount = computed(() => getLocationRulesCount(props.mapping));
+const securityIndicators = computed(() =>
+  getMappingSecurityIndicatorState({
+    globalVisibilityEnabled: props.globalVisibilityEnabled,
+    globalWafEnabled: props.globalWafEnabled,
+    isAuthService: props.isAuthService,
+    mapping: props.mapping,
+  }),
+);
+const shouldShowToolbarIndicator = computed(
+  () =>
+    props.isGatewayPortalEnabled &&
+    isProxyHostMapping(props.mapping) &&
+    props.mapping.use_auth &&
+    !props.mapping.suppress_toolbar &&
+    !isWebSocketProxyTargetUrl(props.mapping.target),
+);
+</script>
+
+<template>
+  <div
+    class="flex min-w-0 flex-wrap items-center gap-2 text-xs text-muted-foreground md:min-w-max md:flex-nowrap"
+  >
+    <SubdomainMappingAvailabilityIndicators :model="props" />
+    <template v-if="availabilityState !== 'disabled'">
+      <SubdomainMappingAccessIndicators :model="props" />
+      <SubdomainMappingSecurityIndicators
+        :location-rules-count="locationRulesCount"
+        :model="props"
+        :security-indicators="securityIndicators"
+        :should-show-toolbar-indicator="shouldShowToolbarIndicator"
+      />
+    </template>
+  </div>
+</template>

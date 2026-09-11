@@ -1,1 +1,208 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50LCBDYXJkSGVhZGVyLCBDYXJkVGl0bGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7CiAgRHJvcGRvd25NZW51LAogIERyb3Bkb3duTWVudUNvbnRlbnQsCiAgRHJvcGRvd25NZW51SXRlbSwKICBEcm9wZG93bk1lbnVUcmlnZ2VyLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kcm9wZG93bi1tZW51IjsKaW1wb3J0IHsgVGFic0NvbnRlbnQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFicyI7CmltcG9ydCBDb25maXJtRGFuZ2VyUG9wb3ZlciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0NvbmZpcm1EYW5nZXJQb3BvdmVyLnZ1ZSI7CmltcG9ydCB7CiAgQ2hldnJvbkRvd24sCiAgTG9hZGVyMiwKICBNb25pdG9yVXAsCiAgUGVuY2lsLAogIFBsdXMsCiAgUG93ZXIsCiAgUmFkYXIsCiAgVHJhc2gyLAp9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB0eXBlIHsgV29sTWFuYWdlbWVudFBhZ2VDb250cm9sbGVyIH0gZnJvbSAiLi91c2VXb2xNYW5hZ2VtZW50UGFnZSI7CmltcG9ydCB7IGNhblNodXRkb3duV29sVGFyZ2V0IH0gZnJvbSAiLi93b2wtbWFuYWdlbWVudC1tb2RlbCI7CmltcG9ydCBXb2xUYXJnZXRUZWNobmljYWxEZXRhaWxzIGZyb20gIi4vV29sVGFyZ2V0VGVjaG5pY2FsRGV0YWlscy52dWUiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7IGNvbnRyb2xsZXI6IFdvbE1hbmFnZW1lbnRQYWdlQ29udHJvbGxlciB9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgewogIGNoZWNrZWRBdExhYmVsLAogIGRlbGV0ZVRhcmdldCwKICBkZWxldGluZ1RhcmdldElkcywKICBvcGVuQ3JlYXRlVGFyZ2V0LAogIG9wZW5EaXNjb3ZlcnksCiAgb3BlbkVkaXRUYXJnZXQsCiAgb3BlblNodXRkb3duRGlhbG9nLAogIHJlbGF5cywKICBzdGF0dXNMYWJlbCwKICB0YXJnZXRzLAogIHNodXR0aW5nRG93blRhcmdldElkcywKICB3YWtlVGFyZ2V0LAogIHdha2luZ1RhcmdldElkcywKfSA9IHByb3BzLmNvbnRyb2xsZXI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxUYWJzQ29udGVudCB2YWx1ZT0idGFyZ2V0cyIgY2xhc3M9InNwYWNlLXktNCBwdC0yIj4KICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTMgc206ZmxleC1yb3cgc206anVzdGlmeS1iZXR3ZWVuIj4KICAgICAgPHAgY2xhc3M9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0KCJhZG1pbi53b2wudGFyZ2V0c0Rlc2NyaXB0aW9uIikgfX0KICAgICAgPC9wPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWVuZCI+CiAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgY2xhc3M9InJvdW5kZWQtci1ub25lIiBAY2xpY2s9Im9wZW5EaXNjb3ZlcnkiPgogICAgICAgICAgPFJhZGFyIGNsYXNzPSJtci0xLjUgaC00IHctNCIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLndvbC5kaXNjb3ZlckRldmljZXMiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxEcm9wZG93bk1lbnU+CiAgICAgICAgICA8RHJvcGRvd25NZW51VHJpZ2dlciBhcy1jaGlsZD4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIGRhdGEtdGVzdGlkPSJ3b2wtZGV2aWNlLWFjdGlvbnMtbWVudS10cmlnZ2VyIgogICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgIGNsYXNzPSJ3LTggcm91bmRlZC1sLW5vbmUgYm9yZGVyLWwgYm9yZGVyLXByaW1hcnktZm9yZWdyb3VuZC8yMCBweC0wIgogICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdjb21tb24ubW9yZUFjdGlvbnMnKSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxDaGV2cm9uRG93biBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L0Ryb3Bkb3duTWVudVRyaWdnZXI+CiAgICAgICAgICA8RHJvcGRvd25NZW51Q29udGVudCBhbGlnbj0iZW5kIj4KICAgICAgICAgICAgPERyb3Bkb3duTWVudUl0ZW0gQHNlbGVjdD0ib3BlbkNyZWF0ZVRhcmdldCI+CiAgICAgICAgICAgICAgPFBsdXMgY2xhc3M9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi53b2wuYWRkVGFyZ2V0IikgfX0KICAgICAgICAgICAgPC9Ecm9wZG93bk1lbnVJdGVtPgogICAgICAgICAgPC9Ecm9wZG93bk1lbnVDb250ZW50PgogICAgICAgIDwvRHJvcGRvd25NZW51PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICAgPGRpdgogICAgICB2LWlmPSIhdGFyZ2V0cy5sZW5ndGgiCiAgICAgIGNsYXNzPSJyb3VuZGVkLXhsIGJvcmRlciBib3JkZXItZGFzaGVkIHB4LTUgcHktMTIgdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICA+CiAgICAgIHt7IHQoImFkbWluLndvbC5ub1RhcmdldHMiKSB9fQogICAgPC9kaXY+CiAgICA8ZGl2IHYtZWxzZSBjbGFzcz0iZ3JpZCBnYXAtMyB4bDpncmlkLWNvbHMtMiI+CiAgICAgIDxDYXJkCiAgICAgICAgdi1mb3I9InRhcmdldCBpbiB0YXJnZXRzIgogICAgICAgIDprZXk9InRhcmdldC5pZCIKICAgICAgICBjbGFzcz0iZ2FwLTAgb3ZlcmZsb3ctaGlkZGVuIgogICAgICA+CiAgICAgICAgPENhcmRIZWFkZXIgY2xhc3M9InBiLTQiPgogICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQiPgogICAgICAgICAgICA8ZGl2IGRhdGEtdGVzdGlkPSJ3b2wtdGFyZ2V0LXByaW1hcnkiIGNsYXNzPSJtaW4tdy0wIGZsZXgtMSI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgY2xhc3M9ImgtMi41IHctMi41IHNocmluay0wIHJvdW5kZWQtZnVsbCIKICAgICAgICAgICAgICAgICAgOmNsYXNzPSIKICAgICAgICAgICAgICAgICAgICB0YXJnZXQuc3RhdHVzLnN0YXRlID09PSAnb25saW5lJwogICAgICAgICAgICAgICAgICAgICAgPyAnYmctZW1lcmFsZC01MDAnCiAgICAgICAgICAgICAgICAgICAgICA6IHRhcmdldC5zdGF0dXMuc3RhdGUgPT09ICdvZmZsaW5lJwogICAgICAgICAgICAgICAgICAgICAgICA/ICdiZy16aW5jLTQwMCcKICAgICAgICAgICAgICAgICAgICAgICAgOiAnYmctYW1iZXItNDAwJwogICAgICAgICAgICAgICAgICAiCiAgICAgICAgICAgICAgICAgIGFyaWEtaGlkZGVuPSJ0cnVlIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDxDYXJkVGl0bGUgY2xhc3M9ImJyZWFrLXdvcmRzIHRleHQtbGcgbGVhZGluZy02Ij4KICAgICAgICAgICAgICAgICAge3sgdGFyZ2V0Lm5hbWUgfX0KICAgICAgICAgICAgICAgIDwvQ2FyZFRpdGxlPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InNyLW9ubHkiPnt7IHN0YXR1c0xhYmVsKHRhcmdldCkgfX08L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8QmFkZ2UKICAgICAgICAgICAgICBjbGFzcz0ic2hyaW5rLTAiCiAgICAgICAgICAgICAgOnZhcmlhbnQ9InRhcmdldC5lbmFibGVkID8gJ2RlZmF1bHQnIDogJ3NlY29uZGFyeSciCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7ewogICAgICAgICAgICAgICAgdGFyZ2V0LmVuYWJsZWQgPyB0KCJhZG1pbi53b2wuYWN0aXZlIikgOiB0KCJhZG1pbi53b2wuZGlzYWJsZWQiKQogICAgICAgICAgICAgIH19CiAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L0NhcmRIZWFkZXI+CiAgICAgICAgPENhcmRDb250ZW50IGNsYXNzPSJzcGFjZS15LTQiPgogICAgICAgICAgPFdvbFRhcmdldFRlY2huaWNhbERldGFpbHMKICAgICAgICAgICAgZGF0YS10ZXN0aWQ9IndvbC10YXJnZXQtdGVjaG5pY2FsIgogICAgICAgICAgICA6dGFyZ2V0PSJ0YXJnZXQiCiAgICAgICAgICAgIDpoYXMtcmVsYXlzPSJyZWxheXMubGVuZ3RoID4gMCIKICAgICAgICAgICAgOnN0YXR1cy1sYWJlbD0ic3RhdHVzTGFiZWwodGFyZ2V0KSIKICAgICAgICAgICAgOmNoZWNrZWQtYXQtbGFiZWw9ImNoZWNrZWRBdExhYmVsKHRhcmdldCkiCiAgICAgICAgICAvPgogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzcz0iZ3JpZCBnYXAtMiBwdC0xIHNtOmZsZXggc206aXRlbXMtY2VudGVyIHNtOmp1c3RpZnktYmV0d2VlbiIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIGNsYXNzPSJvcmRlci0yIGdyaWQgZ3JpZC1jb2xzLVttaW5tYXgoMCwxZnIpXzIuNzVyZW1dIGdhcC0yIHNtOm9yZGVyLTEgc206ZmxleCBzbTpmbGV4LXdyYXAiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICBjbGFzcz0iaC0xMSB3LWZ1bGwgc206aC04IHNtOnctYXV0byIKICAgICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgIEBjbGljaz0ib3BlbkVkaXRUYXJnZXQodGFyZ2V0KSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8UGVuY2lsIGNsYXNzPSJtci0xLjUgaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgICAgICAgICB7eyB0KCJhZG1pbi53b2wuZWRpdCIpIH19CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPENvbmZpcm1EYW5nZXJQb3BvdmVyCiAgICAgICAgICAgICAgICA6dGl0bGU9InQoJ2FkbWluLndvbC5kZWxldGVUYXJnZXRUaXRsZScpIgogICAgICAgICAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi53b2wuZGVsZXRlVGFyZ2V0RGVzY3JpcHRpb24nKSIKICAgICAgICAgICAgICAgIDpsb2FkaW5nPSJkZWxldGluZ1RhcmdldElkcy5oYXModGFyZ2V0LmlkKSIKICAgICAgICAgICAgICAgIDpvbi1jb25maXJtPSIoKSA9PiBkZWxldGVUYXJnZXQodGFyZ2V0KSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8dGVtcGxhdGUgI3RyaWdnZXI+CiAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgICAgICAgIGNsYXNzPSJoLTExIHctMTEgYm9yZGVyLWRlc3RydWN0aXZlLzI1IGJnLWRlc3RydWN0aXZlLzUgcC0wIHRleHQtZGVzdHJ1Y3RpdmUgaG92ZXI6YmctZGVzdHJ1Y3RpdmUvMTAgaG92ZXI6dGV4dC1kZXN0cnVjdGl2ZSBzbTpoLTggc206dy04IgogICAgICAgICAgICAgICAgICAgIDphcmlhLWxhYmVsPSJ0KCdhZG1pbi53b2wuZGVsZXRlVGFyZ2V0VGl0bGUnKSIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxUcmFzaDIgY2xhc3M9ImgtMy41IHctMy41IiAvPgogICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB2LWlmPSIKICAgICAgICAgICAgICAgIHRhcmdldC5lbmFibGVkICYmCiAgICAgICAgICAgICAgICB0YXJnZXQuc3RhdHVzLnN0YXRlID09PSAnb25saW5lJyAmJgogICAgICAgICAgICAgICAgY2FuU2h1dGRvd25Xb2xUYXJnZXQodGFyZ2V0KQogICAgICAgICAgICAgICIKICAgICAgICAgICAgICB2YXJpYW50PSJkZXN0cnVjdGl2ZSIKICAgICAgICAgICAgICBjbGFzcz0ib3JkZXItMSBoLTExIHctZnVsbCBzbTpvcmRlci0yIHNtOmgtOCBzbTp3LWF1dG8iCiAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgICAgIHdha2luZ1RhcmdldElkcy5oYXModGFyZ2V0LmlkKSB8fAogICAgICAgICAgICAgICAgc2h1dHRpbmdEb3duVGFyZ2V0SWRzLmhhcyh0YXJnZXQuaWQpCiAgICAgICAgICAgICAgIgogICAgICAgICAgICAgIEBjbGljaz0ib3BlblNodXRkb3duRGlhbG9nKHRhcmdldCkiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8TG9hZGVyMgogICAgICAgICAgICAgICAgdi1pZj0ic2h1dHRpbmdEb3duVGFyZ2V0SWRzLmhhcyh0YXJnZXQuaWQpIgogICAgICAgICAgICAgICAgY2xhc3M9Im1yLTEuNSBoLTMuNSB3LTMuNSBhbmltYXRlLXNwaW4iCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8UG93ZXIgdi1lbHNlIGNsYXNzPSJtci0xLjUgaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4ud29sLnNzaC5zaHV0ZG93biIpIH19CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgdi1lbHNlLWlmPSJ0YXJnZXQuc3RhdHVzLnN0YXRlICE9PSAnb25saW5lJyIKICAgICAgICAgICAgICBjbGFzcz0ib3JkZXItMSBoLTExIHctZnVsbCBzbTpvcmRlci0yIHNtOmgtOCBzbTp3LWF1dG8iCiAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgICAgICF0YXJnZXQuZW5hYmxlZCB8fAogICAgICAgICAgICAgICAgKHRhcmdldC5kZWxpdmVyeU1vZGUgPT09ICdyZWxheScgJiYgIXRhcmdldC5yZWxheT8uZW5hYmxlZCkgfHwKICAgICAgICAgICAgICAgIHdha2luZ1RhcmdldElkcy5oYXModGFyZ2V0LmlkKSB8fAogICAgICAgICAgICAgICAgc2h1dHRpbmdEb3duVGFyZ2V0SWRzLmhhcyh0YXJnZXQuaWQpCiAgICAgICAgICAgICAgIgogICAgICAgICAgICAgIEBjbGljaz0id2FrZVRhcmdldCh0YXJnZXQpIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPExvYWRlcjIKICAgICAgICAgICAgICAgIHYtaWY9Indha2luZ1RhcmdldElkcy5oYXModGFyZ2V0LmlkKSIKICAgICAgICAgICAgICAgIGNsYXNzPSJtci0xLjUgaC0zLjUgdy0zLjUgYW5pbWF0ZS1zcGluIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPE1vbml0b3JVcCB2LWVsc2UgY2xhc3M9Im1yLTEuNSBoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi53b2wud2FrZSIpIH19CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgPC9DYXJkPgogICAgPC9kaXY+CiAgPC9UYWJzQ29udGVudD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { TabsContent } from "@/components/ui/tabs";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import {
+  ChevronDown,
+  Loader2,
+  MonitorUp,
+  Pencil,
+  Plus,
+  Power,
+  Radar,
+  Trash2,
+} from "lucide-vue-next";
+import type { WolManagementPageController } from "./useWolManagementPage";
+import { canShutdownWolTarget } from "./wol-management-model";
+import WolTargetTechnicalDetails from "./WolTargetTechnicalDetails.vue";
+
+const props = defineProps<{ controller: WolManagementPageController }>();
+const { t } = useI18n();
+const {
+  checkedAtLabel,
+  deleteTarget,
+  deletingTargetIds,
+  openCreateTarget,
+  openDiscovery,
+  openEditTarget,
+  openShutdownDialog,
+  relays,
+  statusLabel,
+  targets,
+  shuttingDownTargetIds,
+  wakeTarget,
+  wakingTargetIds,
+} = props.controller;
+</script>
+
+<template>
+  <TabsContent value="targets" class="space-y-4 pt-2">
+    <div class="flex flex-col gap-3 sm:flex-row sm:justify-between">
+      <p class="text-sm text-muted-foreground">
+        {{ t("admin.wol.targetsDescription") }}
+      </p>
+      <div class="flex items-center justify-end">
+        <Button size="sm" class="rounded-r-none" @click="openDiscovery">
+          <Radar class="mr-1.5 h-4 w-4" />
+          {{ t("admin.wol.discoverDevices") }}
+        </Button>
+        <DropdownMenu>
+          <DropdownMenuTrigger as-child>
+            <Button
+              data-testid="wol-device-actions-menu-trigger"
+              size="sm"
+              class="w-8 rounded-l-none border-l border-primary-foreground/20 px-0"
+              :aria-label="t('common.moreActions')"
+            >
+              <ChevronDown class="h-4 w-4" />
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent align="end">
+            <DropdownMenuItem @select="openCreateTarget">
+              <Plus class="mr-2 h-4 w-4" />
+              {{ t("admin.wol.addTarget") }}
+            </DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
+      </div>
+    </div>
+    <div
+      v-if="!targets.length"
+      class="rounded-xl border border-dashed px-5 py-12 text-center text-sm text-muted-foreground"
+    >
+      {{ t("admin.wol.noTargets") }}
+    </div>
+    <div v-else class="grid gap-3 xl:grid-cols-2">
+      <Card
+        v-for="target in targets"
+        :key="target.id"
+        class="gap-0 overflow-hidden"
+      >
+        <CardHeader class="pb-4">
+          <div class="flex items-start justify-between gap-4">
+            <div data-testid="wol-target-primary" class="min-w-0 flex-1">
+              <div class="flex items-center gap-2">
+                <span
+                  class="h-2.5 w-2.5 shrink-0 rounded-full"
+                  :class="
+                    target.status.state === 'online'
+                      ? 'bg-emerald-500'
+                      : target.status.state === 'offline'
+                        ? 'bg-zinc-400'
+                        : 'bg-amber-400'
+                  "
+                  aria-hidden="true"
+                />
+                <CardTitle class="break-words text-lg leading-6">
+                  {{ target.name }}
+                </CardTitle>
+                <span class="sr-only">{{ statusLabel(target) }}</span>
+              </div>
+            </div>
+            <Badge
+              class="shrink-0"
+              :variant="target.enabled ? 'default' : 'secondary'"
+            >
+              {{
+                target.enabled ? t("admin.wol.active") : t("admin.wol.disabled")
+              }}
+            </Badge>
+          </div>
+        </CardHeader>
+        <CardContent class="space-y-4">
+          <WolTargetTechnicalDetails
+            data-testid="wol-target-technical"
+            :target="target"
+            :has-relays="relays.length > 0"
+            :status-label="statusLabel(target)"
+            :checked-at-label="checkedAtLabel(target)"
+          />
+          <div
+            class="grid gap-2 pt-1 sm:flex sm:items-center sm:justify-between"
+          >
+            <div
+              class="order-2 grid grid-cols-[minmax(0,1fr)_2.75rem] gap-2 sm:order-1 sm:flex sm:flex-wrap"
+            >
+              <Button
+                class="h-11 w-full sm:h-8 sm:w-auto"
+                variant="outline"
+                size="sm"
+                @click="openEditTarget(target)"
+              >
+                <Pencil class="mr-1.5 h-3.5 w-3.5" />
+                {{ t("admin.wol.edit") }}
+              </Button>
+              <ConfirmDangerPopover
+                :title="t('admin.wol.deleteTargetTitle')"
+                :description="t('admin.wol.deleteTargetDescription')"
+                :loading="deletingTargetIds.has(target.id)"
+                :on-confirm="() => deleteTarget(target)"
+              >
+                <template #trigger>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    class="h-11 w-11 border-destructive/25 bg-destructive/5 p-0 text-destructive hover:bg-destructive/10 hover:text-destructive sm:h-8 sm:w-8"
+                    :aria-label="t('admin.wol.deleteTargetTitle')"
+                  >
+                    <Trash2 class="h-3.5 w-3.5" />
+                  </Button>
+                </template>
+              </ConfirmDangerPopover>
+            </div>
+            <Button
+              v-if="
+                target.enabled &&
+                target.status.state === 'online' &&
+                canShutdownWolTarget(target)
+              "
+              variant="destructive"
+              class="order-1 h-11 w-full sm:order-2 sm:h-8 sm:w-auto"
+              size="sm"
+              :disabled="
+                wakingTargetIds.has(target.id) ||
+                shuttingDownTargetIds.has(target.id)
+              "
+              @click="openShutdownDialog(target)"
+            >
+              <Loader2
+                v-if="shuttingDownTargetIds.has(target.id)"
+                class="mr-1.5 h-3.5 w-3.5 animate-spin"
+              />
+              <Power v-else class="mr-1.5 h-3.5 w-3.5" />
+              {{ t("admin.wol.ssh.shutdown") }}
+            </Button>
+            <Button
+              v-else-if="target.status.state !== 'online'"
+              class="order-1 h-11 w-full sm:order-2 sm:h-8 sm:w-auto"
+              size="sm"
+              :disabled="
+                !target.enabled ||
+                (target.deliveryMode === 'relay' && !target.relay?.enabled) ||
+                wakingTargetIds.has(target.id) ||
+                shuttingDownTargetIds.has(target.id)
+              "
+              @click="wakeTarget(target)"
+            >
+              <Loader2
+                v-if="wakingTargetIds.has(target.id)"
+                class="mr-1.5 h-3.5 w-3.5 animate-spin"
+              />
+              <MonitorUp v-else class="mr-1.5 h-3.5 w-3.5" />
+              {{ t("admin.wol.wake") }}
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+  </TabsContent>
+</template>

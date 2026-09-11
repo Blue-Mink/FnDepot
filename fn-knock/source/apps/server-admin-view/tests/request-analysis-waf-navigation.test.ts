@@ -1,1 +1,57 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IHJlYWRGaWxlU3luYyB9IGZyb20gIm5vZGU6ZnMiOwoKY29uc3QgcmVhZFNvdXJjZSA9IChwYXRoOiBzdHJpbmcpID0+CiAgcmVhZEZpbGVTeW5jKG5ldyBVUkwocGF0aCwgaW1wb3J0Lm1ldGEudXJsKSwgInV0ZjgiKTsKCmRlc2NyaWJlKCJyZXF1ZXN0IGFuYWx5c2lzIFdBRiBuYXZpZ2F0aW9uIiwgKCkgPT4gewogIGl0KCJzaG93cyBXQUYgbG9ncyBiZXR3ZWVuIHJlcXVlc3QgbG9ncyBhbmQgYW5hbHl0aWNzIG9ubHkgd2hlbiBlbmFibGVkIiwgKCkgPT4gewogICAgY29uc3QgcGFnZSA9IHJlYWRTb3VyY2UoIi4uL3NyYy92aWV3cy9SZXF1ZXN0QW5hbHlzaXMudnVlIik7CiAgICBjb25zdCBsb2dzID0gcGFnZS5pbmRleE9mKCc8VGFic1RyaWdnZXIgdmFsdWU9ImxvZ3MiPicpOwogICAgY29uc3Qgd2FmID0gcGFnZS5pbmRleE9mKCc8VGFic1RyaWdnZXIgdi1pZj0ic2hvd1dhZlRhYiIgdmFsdWU9IndhZiI+Jyk7CiAgICBjb25zdCBhbmFseXRpY3MgPSBwYWdlLmluZGV4T2YoJzxUYWJzVHJpZ2dlciB2YWx1ZT0iYW5hbHl0aWNzIj4nKTsKCiAgICBhc3NlcnQub2sobG9ncyA+PSAwKTsKICAgIGFzc2VydC5vayh3YWYgPiBsb2dzKTsKICAgIGFzc2VydC5vayhhbmFseXRpY3MgPiB3YWYpOwogICAgYXNzZXJ0Lm1hdGNoKHBhZ2UsIC9jb25maWdTdG9yZVwuY29uZmlnXD9cLndhZlw/XC5lbmFibGVkID09PSB0cnVlL3UpOwogICAgYXNzZXJ0Lm1hdGNoKAogICAgICBwYWdlLAogICAgICAvc2hvd1dhZlRhYlwudmFsdWUgXD8gXFsibG9ncyIsICJ3YWYiLCAiYW5hbHl0aWNzIlxdIDogXFsibG9ncyIsICJhbmFseXRpY3MiXF0vdSwKICAgICk7CiAgICBhc3NlcnQubWF0Y2gocGFnZSwgL2RlZmF1bHRUYWI6ICJsb2dzIi91KTsKICB9KTsKCiAgaXQoImVtYmVkcyBXQUYgbG9ncyBhbmQgcGxhY2VzIHRoZWlyIGNvbnRyb2xzIGluIHRoZSBzaGFyZWQgdGFiIGFjdGlvbiBhcmVhIiwgKCkgPT4gewogICAgY29uc3QgcGFnZSA9IHJlYWRTb3VyY2UoIi4uL3NyYy92aWV3cy9SZXF1ZXN0QW5hbHlzaXMudnVlIik7CiAgICBjb25zdCB3YWZMb2dzID0gcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL1dBRkxvZ3MudnVlIik7CgogICAgYXNzZXJ0Lm1hdGNoKHBhZ2UsIC9pZD0icmVxdWVzdC1hbmFseXNpcy13YWYtYWN0aW9ucyIvdSk7CiAgICBhc3NlcnQubWF0Y2gocGFnZSwgLzxXQUZMb2dzIHYtaWY9ImN1cnJlbnRUYWIgPT09ICd3YWYnIiBcLz4vdSk7CiAgICBhc3NlcnQubWF0Y2gocGFnZSwgL3YtaWY9ImN1cnJlbnRUYWIgIT09ICd3YWYnICYmICFpc0xvZ2dpbmdFbmFibGVkIi91KTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgd2FmTG9ncywKICAgICAgLzxUZWxlcG9ydCBkZWZlciB0bz0iI3JlcXVlc3QtYW5hbHlzaXMtd2FmLWFjdGlvbnMiPi91LAogICAgKTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2god2FmTG9ncywgL1dBRkxvZ3NEaXNhYmxlZE5vdGljZS91KTsKICB9KTsKCiAgaXQoInJlZGlyZWN0cyB0aGUgbGVnYWN5IHJvdXRlIHdoaWxlIHByZXNlcnZpbmcgdHJhY2UgYW5kIGZpbHRlciBxdWVyaWVzIiwgKCkgPT4gewogICAgY29uc3Qgcm91dGVyID0gcmVhZFNvdXJjZSgiLi4vc3JjL3JvdXRlci9pbmRleC50cyIpOwoKICAgIGFzc2VydC5tYXRjaChyb3V0ZXIsIC9wYXRoOiAid2FmLWxvZ3MiLFxzKnJlZGlyZWN0OiBcKHRvXCkgPT4vdSk7CiAgICBhc3NlcnQubWF0Y2gocm91dGVyLCAvcXVlcnk6IFx7IFwuXC5cLnRvXC5xdWVyeSwgdGFiOiAid2FmIiBcfS91KTsKICB9KTsKCiAgaXQoInVzZXMgb25seSB0aGUgdW5pZmllZCByZXF1ZXN0IGFuYWx5c2lzIHNpZGViYXIgZW50cnkiLCAoKSA9PiB7CiAgICBjb25zdCBuYXZpZ2F0aW9uID0gcmVhZFNvdXJjZSgiLi4vc3JjL3ZpZXdzL2xheW91dC91c2VMYXlvdXROYXZpZ2F0aW9uLnRzIik7CgogICAgYXNzZXJ0Lm1hdGNoKG5hdmlnYXRpb24sIC9pZDogImdhdGV3YXlfcmVxdWVzdF9sb2dzIi91KTsKICAgIGFzc2VydC5tYXRjaChuYXZpZ2F0aW9uLCAvcGF0aDogIlwvcmVxdWVzdC1hbmFseXNpcyIvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKG5hdmlnYXRpb24sIC9pZDogIndhZl9sb2dzIi91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2gobmF2aWdhdGlvbiwgL3BhdGg6ICJcL3dhZi1sb2dzIi91KTsKICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+describe("request analysis WAF navigation", () => {
+  it("shows WAF logs between request logs and analytics only when enabled", () => {
+    const page = readSource("../src/views/RequestAnalysis.vue");
+    const logs = page.indexOf('<TabsTrigger value="logs">');
+    const waf = page.indexOf('<TabsTrigger v-if="showWafTab" value="waf">');
+    const analytics = page.indexOf('<TabsTrigger value="analytics">');
+
+    assert.ok(logs >= 0);
+    assert.ok(waf > logs);
+    assert.ok(analytics > waf);
+    assert.match(page, /configStore\.config\?\.waf\?\.enabled === true/u);
+    assert.match(
+      page,
+      /showWafTab\.value \? \["logs", "waf", "analytics"\] : \["logs", "analytics"\]/u,
+    );
+    assert.match(page, /defaultTab: "logs"/u);
+  });
+
+  it("embeds WAF logs and places their controls in the shared tab action area", () => {
+    const page = readSource("../src/views/RequestAnalysis.vue");
+    const wafLogs = readSource("../src/views/WAFLogs.vue");
+
+    assert.match(page, /id="request-analysis-waf-actions"/u);
+    assert.match(page, /<WAFLogs v-if="currentTab === 'waf'" \/>/u);
+    assert.match(page, /v-if="currentTab !== 'waf' && !isLoggingEnabled"/u);
+    assert.match(
+      wafLogs,
+      /<Teleport defer to="#request-analysis-waf-actions">/u,
+    );
+    assert.doesNotMatch(wafLogs, /WAFLogsDisabledNotice/u);
+  });
+
+  it("redirects the legacy route while preserving trace and filter queries", () => {
+    const router = readSource("../src/router/index.ts");
+
+    assert.match(router, /path: "waf-logs",\s*redirect: \(to\) =>/u);
+    assert.match(router, /query: \{ \.\.\.to\.query, tab: "waf" \}/u);
+  });
+
+  it("uses only the unified request analysis sidebar entry", () => {
+    const navigation = readSource("../src/views/layout/useLayoutNavigation.ts");
+
+    assert.match(navigation, /id: "gateway_request_logs"/u);
+    assert.match(navigation, /path: "\/request-analysis"/u);
+    assert.doesNotMatch(navigation, /id: "waf_logs"/u);
+    assert.doesNotMatch(navigation, /path: "\/waf-logs"/u);
+  });
+});

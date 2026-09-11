@@ -1,1 +1,19 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRHJvcGRvd25NZW51Um9vdEVtaXRzLCBEcm9wZG93bk1lbnVSb290UHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBEcm9wZG93bk1lbnVSb290LCB1c2VGb3J3YXJkUHJvcHNFbWl0cyB9IGZyb20gInJla2EtdWkiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPERyb3Bkb3duTWVudVJvb3RQcm9wcz4oKQpjb25zdCBlbWl0cyA9IGRlZmluZUVtaXRzPERyb3Bkb3duTWVudVJvb3RFbWl0cz4oKQoKY29uc3QgZm9yd2FyZGVkID0gdXNlRm9yd2FyZFByb3BzRW1pdHMocHJvcHMsIGVtaXRzKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RHJvcGRvd25NZW51Um9vdAogICAgdi1zbG90PSJzbG90UHJvcHMiCiAgICBkYXRhLXNsb3Q9ImRyb3Bkb3duLW1lbnUiCiAgICB2LWJpbmQ9ImZvcndhcmRlZCIKICA+CiAgICA8c2xvdCB2LWJpbmQ9InNsb3RQcm9wcyIgLz4KICA8L0Ryb3Bkb3duTWVudVJvb3Q+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { DropdownMenuRootEmits, DropdownMenuRootProps } from "reka-ui"
+import { DropdownMenuRoot, useForwardPropsEmits } from "reka-ui"
+
+const props = defineProps<DropdownMenuRootProps>()
+const emits = defineEmits<DropdownMenuRootEmits>()
+
+const forwarded = useForwardPropsEmits(props, emits)
+</script>
+
+<template>
+  <DropdownMenuRoot
+    v-slot="slotProps"
+    data-slot="dropdown-menu"
+    v-bind="forwarded"
+  >
+    <slot v-bind="slotProps" />
+  </DropdownMenuRoot>
+</template>

@@ -1,1 +1,152 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgQ29tcG9uZW50IH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgY29tcHV0ZWQgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgewogIENhcmQsCiAgQ2FyZENvbnRlbnQsCiAgQ2FyZERlc2NyaXB0aW9uLAogIENhcmRIZWFkZXIsCiAgQ2FyZFRpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgVGFicywgVGFic0xpc3QsIFRhYnNUcmlnZ2VyIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RhYnMiOwppbXBvcnQgeyBTa2VsZXRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9za2VsZXRvbiI7CmltcG9ydCB0eXBlIHsgVGhyZWF0UmFuZ2UgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZVRocmVhdE92ZXJ2aWV3IjsKaW1wb3J0IHsgdXNlRGVsYXllZExvYWRpbmcgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZURlbGF5ZWRMb2FkaW5nIjsKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKAogIGRlZmluZVByb3BzPHsKICAgIHRpdGxlOiBzdHJpbmc7CiAgICBkZXNjcmlwdGlvbjogc3RyaW5nOwogICAgcmFuZ2VLZXk/OiBzdHJpbmc7CiAgICByYW5nZXM/OiBSZWFkb25seUFycmF5PFRocmVhdFJhbmdlPjsKICAgIGlzTG9hZGluZzogYm9vbGVhbjsKICAgIHRpdGxlUmFuZ2VUZXh0OiBzdHJpbmc7CiAgICBwcmltYXJ5TGFiZWw6IHN0cmluZzsKICAgIHByaW1hcnlWYWx1ZTogc3RyaW5nOwogICAgcHJpbWFyeUhpbnQ6IHN0cmluZzsKICAgIHNlY29uZGFyeUxhYmVsOiBzdHJpbmc7CiAgICBzZWNvbmRhcnlWYWx1ZTogc3RyaW5nOwogICAgc2Vjb25kYXJ5SGludDogc3RyaW5nOwogICAgaWNvbjogQ29tcG9uZW50OwogICAgcHJpbWFyeUljb24/OiBDb21wb25lbnQ7CiAgICBzZWNvbmRhcnlJY29uPzogQ29tcG9uZW50OwogICAgc2hvd1JhbmdlVGFicz86IGJvb2xlYW47CiAgICBjaGFydEhlaWdodENsYXNzPzogc3RyaW5nOwogIH0+KCksCiAgewogICAgcmFuZ2VLZXk6ICIiLAogICAgcmFuZ2VzOiAoKSA9PiBbXSwKICAgIHByaW1hcnlJY29uOiB1bmRlZmluZWQsCiAgICBzZWNvbmRhcnlJY29uOiB1bmRlZmluZWQsCiAgICBzaG93UmFuZ2VUYWJzOiB0cnVlLAogICAgY2hhcnRIZWlnaHRDbGFzczogImgtWzI0MHB4XSIsCiAgfSwKKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgInVwZGF0ZTpyYW5nZUtleSI6IFt2YWx1ZTogc3RyaW5nXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBzaG93TG9hZGluZ1NrZWxldG9uID0gdXNlRGVsYXllZExvYWRpbmcoKCkgPT4gcHJvcHMuaXNMb2FkaW5nKTsKCmNvbnN0IGN1cnJlbnRSYW5nZUtleSA9IGNvbXB1dGVkKHsKICBnZXQ6ICgpID0+IHByb3BzLnJhbmdlS2V5LAogIHNldDogKHZhbHVlOiBzdHJpbmcpID0+IHsKICAgIGVtaXQoInVwZGF0ZTpyYW5nZUtleSIsIHZhbHVlKTsKICB9LAp9KTsKY29uc3QgZGVzY3JpcHRpb25XaXRoUmFuZ2UgPSBjb21wdXRlZCgoKSA9PgogIHQoImFkbWluLmNvbXBvbmVudHMudGhyZWF0T3ZlcnZpZXcuZGVzY3JpcHRpb25XaXRoUmFuZ2UiLCB7CiAgICBkZXNjcmlwdGlvbjogcHJvcHMuZGVzY3JpcHRpb24sCiAgICByYW5nZTogcHJvcHMudGl0bGVSYW5nZVRleHQsCiAgfSksCik7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxDYXJkIGNsYXNzPSJvdmVyZmxvdy1oaWRkZW4iPgogICAgPENhcmRIZWFkZXIgY2xhc3M9InBiLTMiPgogICAgICA8ZGl2CiAgICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTMgc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIHNtOmp1c3RpZnktYmV0d2VlbiIKICAgICAgPgogICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxDYXJkVGl0bGUgY2xhc3M9InRleHQtYmFzZSI+e3sgcHJvcHMudGl0bGUgfX08L0NhcmRUaXRsZT4KICAgICAgICAgICAgPENhcmREZXNjcmlwdGlvbj57eyBkZXNjcmlwdGlvbldpdGhSYW5nZSB9fTwvQ2FyZERlc2NyaXB0aW9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdgogICAgICAgICAgdi1pZj0iJHNsb3RzWydoZWFkZXItcmlnaHQnXSIKICAgICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIiCiAgICAgICAgPgogICAgICAgICAgPHNsb3QgbmFtZT0iaGVhZGVyLXJpZ2h0IiAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxUYWJzCiAgICAgICAgICB2LWVsc2UtaWY9InByb3BzLnNob3dSYW5nZVRhYnMiCiAgICAgICAgICB2LW1vZGVsPSJjdXJyZW50UmFuZ2VLZXkiCiAgICAgICAgICBjbGFzcz0idy1mdWxsIHNtOnctYXV0byIKICAgICAgICA+CiAgICAgICAgICA8VGFic0xpc3QgY2xhc3M9InctZnVsbCBzbTp3LWF1dG8iPgogICAgICAgICAgICA8VGFic1RyaWdnZXIKICAgICAgICAgICAgICB2LWZvcj0icmFuZ2UgaW4gcHJvcHMucmFuZ2VzIgogICAgICAgICAgICAgIDprZXk9InJhbmdlLmtleSIKICAgICAgICAgICAgICA6dmFsdWU9InJhbmdlLmtleSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHJhbmdlLmtleSB9fQogICAgICAgICAgICA8L1RhYnNUcmlnZ2VyPgogICAgICAgICAgPC9UYWJzTGlzdD4KICAgICAgICA8L1RhYnM+CiAgICAgIDwvZGl2PgogICAgPC9DYXJkSGVhZGVyPgogICAgPENhcmRDb250ZW50IGNsYXNzPSJwdC0wIj4KICAgICAgPGRpdiB2LWlmPSJwcm9wcy5pc0xvYWRpbmcgJiYgc2hvd0xvYWRpbmdTa2VsZXRvbiIgY2xhc3M9InNwYWNlLXktMyI+CiAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTYgdy01NiIgLz4KICAgICAgICA8U2tlbGV0b24gY2xhc3M9InctZnVsbCIgOmNsYXNzPSJwcm9wcy5jaGFydEhlaWdodENsYXNzIiAvPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiB2LWVsc2UtaWY9IiFwcm9wcy5pc0xvYWRpbmciIGNsYXNzPSJncmlkIGdhcC00Ij4KICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0zIHNtOmdyaWQtY29scy0yIj4KICAgICAgICAgIDxkaXYgY2xhc3M9InJvdW5kZWQtbGcgYm9yZGVyIGJnLW11dGVkLzIwIHB4LTMgcHktMi41Ij4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGNvbXBvbmVudAogICAgICAgICAgICAgICAgOmlzPSJwcm9wcy5wcmltYXJ5SWNvbiB8fCBwcm9wcy5pY29uIgogICAgICAgICAgICAgICAgY2xhc3M9ImgtMy41IHctMy41IgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAge3sgcHJvcHMucHJpbWFyeUxhYmVsIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJtdC0yIHRleHQtMnhsIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHQiPgogICAgICAgICAgICAgIHt7IHByb3BzLnByaW1hcnlWYWx1ZSB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1bMTFweF0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG10LTEiPgogICAgICAgICAgICAgIHt7IHByb3BzLnByaW1hcnlIaW50IH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBiZy1tdXRlZC8yMCBweC0zIHB5LTIuNSI+CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxjb21wb25lbnQKICAgICAgICAgICAgICAgIDppcz0icHJvcHMuc2Vjb25kYXJ5SWNvbiB8fCBwcm9wcy5pY29uIgogICAgICAgICAgICAgICAgY2xhc3M9ImgtMy41IHctMy41IgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAge3sgcHJvcHMuc2Vjb25kYXJ5TGFiZWwgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9Im10LTIgdGV4dC0yeGwgZm9udC1zZW1pYm9sZCB0cmFja2luZy10aWdodCI+CiAgICAgICAgICAgICAge3sgcHJvcHMuc2Vjb25kYXJ5VmFsdWUgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0xIj4KICAgICAgICAgICAgICB7eyBwcm9wcy5zZWNvbmRhcnlIaW50IH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0idy1mdWxsIiA6Y2xhc3M9InByb3BzLmNoYXJ0SGVpZ2h0Q2xhc3MiPgogICAgICAgICAgPHNsb3QgbmFtZT0iY2hhcnQiIC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IHYtZWxzZSBjbGFzcz0iaC1bMjY0cHhdIiBhcmlhLWhpZGRlbj0idHJ1ZSI+PC9kaXY+CiAgICA8L0NhcmRDb250ZW50PgogIDwvQ2FyZD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { Component } from "vue";
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Skeleton } from "@/components/ui/skeleton";
+import type { ThreatRange } from "@admin-shared/composables/useThreatOverview";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+
+const props = withDefaults(
+  defineProps<{
+    title: string;
+    description: string;
+    rangeKey?: string;
+    ranges?: ReadonlyArray<ThreatRange>;
+    isLoading: boolean;
+    titleRangeText: string;
+    primaryLabel: string;
+    primaryValue: string;
+    primaryHint: string;
+    secondaryLabel: string;
+    secondaryValue: string;
+    secondaryHint: string;
+    icon: Component;
+    primaryIcon?: Component;
+    secondaryIcon?: Component;
+    showRangeTabs?: boolean;
+    chartHeightClass?: string;
+  }>(),
+  {
+    rangeKey: "",
+    ranges: () => [],
+    primaryIcon: undefined,
+    secondaryIcon: undefined,
+    showRangeTabs: true,
+    chartHeightClass: "h-[240px]",
+  },
+);
+
+const emit = defineEmits<{
+  "update:rangeKey": [value: string];
+}>();
+
+const { t } = useI18n();
+const showLoadingSkeleton = useDelayedLoading(() => props.isLoading);
+
+const currentRangeKey = computed({
+  get: () => props.rangeKey,
+  set: (value: string) => {
+    emit("update:rangeKey", value);
+  },
+});
+const descriptionWithRange = computed(() =>
+  t("admin.components.threatOverview.descriptionWithRange", {
+    description: props.description,
+    range: props.titleRangeText,
+  }),
+);
+</script>
+
+<template>
+  <Card class="overflow-hidden">
+    <CardHeader class="pb-3">
+      <div
+        class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"
+      >
+        <div class="flex items-center gap-3">
+          <div>
+            <CardTitle class="text-base">{{ props.title }}</CardTitle>
+            <CardDescription>{{ descriptionWithRange }}</CardDescription>
+          </div>
+        </div>
+        <div
+          v-if="$slots['header-right']"
+          class="flex flex-wrap items-center gap-2"
+        >
+          <slot name="header-right" />
+        </div>
+        <Tabs
+          v-else-if="props.showRangeTabs"
+          v-model="currentRangeKey"
+          class="w-full sm:w-auto"
+        >
+          <TabsList class="w-full sm:w-auto">
+            <TabsTrigger
+              v-for="range in props.ranges"
+              :key="range.key"
+              :value="range.key"
+            >
+              {{ range.key }}
+            </TabsTrigger>
+          </TabsList>
+        </Tabs>
+      </div>
+    </CardHeader>
+    <CardContent class="pt-0">
+      <div v-if="props.isLoading && showLoadingSkeleton" class="space-y-3">
+        <Skeleton class="h-6 w-56" />
+        <Skeleton class="w-full" :class="props.chartHeightClass" />
+      </div>
+      <div v-else-if="!props.isLoading" class="grid gap-4">
+        <div class="grid gap-3 sm:grid-cols-2">
+          <div class="rounded-lg border bg-muted/20 px-3 py-2.5">
+            <div
+              class="flex items-center gap-1.5 text-xs text-muted-foreground"
+            >
+              <component
+                :is="props.primaryIcon || props.icon"
+                class="h-3.5 w-3.5"
+              />
+              {{ props.primaryLabel }}
+            </div>
+            <div class="mt-2 text-2xl font-semibold tracking-tight">
+              {{ props.primaryValue }}
+            </div>
+            <div class="text-[11px] text-muted-foreground mt-1">
+              {{ props.primaryHint }}
+            </div>
+          </div>
+          <div class="rounded-lg border bg-muted/20 px-3 py-2.5">
+            <div
+              class="flex items-center gap-1.5 text-xs text-muted-foreground"
+            >
+              <component
+                :is="props.secondaryIcon || props.icon"
+                class="h-3.5 w-3.5"
+              />
+              {{ props.secondaryLabel }}
+            </div>
+            <div class="mt-2 text-2xl font-semibold tracking-tight">
+              {{ props.secondaryValue }}
+            </div>
+            <div class="text-[11px] text-muted-foreground mt-1">
+              {{ props.secondaryHint }}
+            </div>
+          </div>
+        </div>
+        <div class="w-full" :class="props.chartHeightClass">
+          <slot name="chart" />
+        </div>
+      </div>
+      <div v-else class="h-[264px]" aria-hidden="true"></div>
+    </CardContent>
+  </Card>
+</template>

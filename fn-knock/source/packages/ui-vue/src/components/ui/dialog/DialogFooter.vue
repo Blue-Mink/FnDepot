@@ -1,1 +1,27 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IERpYWxvZ0Nsb3NlIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAnQC9jb21wb25lbnRzL3VpL2J1dHRvbicKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCiAgc2hvd0Nsb3NlQnV0dG9uPzogYm9vbGVhbgp9PigpLCB7CiAgc2hvd0Nsb3NlQnV0dG9uOiBmYWxzZSwKfSkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgZGF0YS1zbG90PSJkaWFsb2ctZm9vdGVyIgogICAgOmNsYXNzPSJjbignZmxleCBmbGV4LWNvbC1yZXZlcnNlIGdhcC0yIHNtOmZsZXgtcm93IHNtOmp1c3RpZnktZW5kJywgcHJvcHMuY2xhc3MpIgogID4KICAgIDxzbG90IC8+CiAgICA8RGlhbG9nQ2xvc2Ugdi1pZj0ic2hvd0Nsb3NlQnV0dG9uIiBhcy1jaGlsZD4KICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIj4KICAgICAgICBDbG9zZQogICAgICA8L0J1dHRvbj4KICAgIDwvRGlhbG9nQ2xvc2U+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { DialogClose } from "reka-ui"
+import { cn } from "@/lib/utils"
+import { Button } from '@/components/ui/button'
+
+const props = withDefaults(defineProps<{
+  class?: HTMLAttributes["class"]
+  showCloseButton?: boolean
+}>(), {
+  showCloseButton: false,
+})
+</script>
+
+<template>
+  <div
+    data-slot="dialog-footer"
+    :class="cn('flex flex-col-reverse gap-2 sm:flex-row sm:justify-end', props.class)"
+  >
+    <slot />
+    <DialogClose v-if="showCloseButton" as-child>
+      <Button variant="outline">
+        Close
+      </Button>
+    </DialogClose>
+  </div>
+</template>

@@ -1,1 +1,273 @@
-aW1wb3J0IHR5cGUgeyBHYXRld2F5TG9nRW50cnkgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsgQVVUSF9ERUNJU0lPTl9MQUJFTF9LRVlTIH0gZnJvbSAiQC9saWIvZ2F0ZXdheUxvZ0xhYmVscyI7CmltcG9ydCB7IHJvdXRlVHlwZUxhYmVsIGFzIHJlc29sdmVSb3V0ZVR5cGVMYWJlbCB9IGZyb20gIkAvbGliL3JvdXRlVHlwZSI7CmltcG9ydCB7IG5vcm1hbGl6ZUlwS2V5IH0gZnJvbSAiQC9jb21wb3NhYmxlcy91c2VJcExvY2F0aW9uQmF0Y2giOwppbXBvcnQgdHlwZSB7IEdhdGV3YXlMb2dUcmFuc2xhdG9yIH0gZnJvbSAiLi9nYXRld2F5LXJlcXVlc3QtbG9nLXR5cGVzIjsKCmV4cG9ydCBjb25zdCBmb3JtYXRSdWxlSWRzID0gKHZhbHVlPzogbnVtYmVyW10pID0+CiAgdmFsdWUgJiYgdmFsdWUubGVuZ3RoID4gMCA/IHZhbHVlLmpvaW4oIiwgIikgOiAiLSI7CgpleHBvcnQgY29uc3QgaGFzV0FGU2lnbmFsID0gKGVudHJ5OiBHYXRld2F5TG9nRW50cnkpID0+CiAgQm9vbGVhbihlbnRyeS53YWZfdHJhY2VfaWQpIHx8CiAgQm9vbGVhbihlbnRyeS53YWZfYnVuZGxlKSB8fAogIEJvb2xlYW4oZW50cnkud2FmX2FjdGlvbikgfHwKICBlbnRyeS53YWZfYmxvY2tlZCA9PT0gdHJ1ZSB8fAogIChBcnJheS5pc0FycmF5KGVudHJ5LndhZl9ydWxlX2lkcykgJiYgZW50cnkud2FmX3J1bGVfaWRzLmxlbmd0aCA+IDApOwoKZXhwb3J0IGNvbnN0IGdldFdBRkFjdGlvbiA9IChlbnRyeTogR2F0ZXdheUxvZ0VudHJ5KSA9PgogIFN0cmluZyhlbnRyeS53YWZfYWN0aW9uIHx8ICIiKS50b0xvd2VyQ2FzZSgpOwoKZXhwb3J0IGNvbnN0IGlzV0FGQmxvY2tlZCA9IChlbnRyeTogR2F0ZXdheUxvZ0VudHJ5KSA9PgogIGVudHJ5LndhZl9ibG9ja2VkID09PSB0cnVlIHx8CiAgZ2V0V0FGQWN0aW9uKGVudHJ5KSA9PT0gImJsb2NrIiB8fAogIGdldFdBRkFjdGlvbihlbnRyeSkgPT09ICJkZW55IjsKCmV4cG9ydCBjb25zdCBnZXRXQUZCYWRnZUNsYXNzID0gKGVudHJ5OiBHYXRld2F5TG9nRW50cnkpID0+IHsKICBpZiAoaXNXQUZCbG9ja2VkKGVudHJ5KSkgewogICAgcmV0dXJuICJib3JkZXItcmVkLTUwMC8yMCBiZy10cmFuc3BhcmVudCB0ZXh0LXJlZC02MDAvODAgaG92ZXI6YmctcmVkLTUwMC9bMC4wNF0gZGFyazp0ZXh0LXJlZC0zMDAvODAiOwogIH0KICBpZiAoZ2V0V0FGQWN0aW9uKGVudHJ5KSA9PT0gInBhc3MiKSB7CiAgICByZXR1cm4gImJvcmRlci1lbWVyYWxkLTUwMC8yMCBiZy10cmFuc3BhcmVudCB0ZXh0LWVtZXJhbGQtNjAwLzgwIGhvdmVyOmJnLWVtZXJhbGQtNTAwL1swLjA0XSBkYXJrOnRleHQtZW1lcmFsZC0zMDAvODAiOwogIH0KICByZXR1cm4gImJvcmRlci1tdXRlZC1mb3JlZ3JvdW5kLzIwIGJnLXRyYW5zcGFyZW50IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3ZlcjpiZy1tdXRlZC8zMCI7Cn07CgpleHBvcnQgY29uc3QgZ2V0U3RhdHVzVGV4dENsYXNzID0gKHN0YXR1czogbnVtYmVyKSA9PiB7CiAgaWYgKHN0YXR1cyA+PSA1MDApIHJldHVybiAidGV4dC1yZWQtNjAwIjsKICBpZiAoc3RhdHVzID49IDQwMCkgcmV0dXJuICJ0ZXh0LWFtYmVyLTYwMCI7CiAgcmV0dXJuICJ0ZXh0LWZvcmVncm91bmQiOwp9OwoKZXhwb3J0IGNvbnN0IGdldFN0YXR1c0RvdENsYXNzID0gKHN0YXR1czogbnVtYmVyKSA9PiB7CiAgaWYgKHN0YXR1cyA+PSA1MDApIHJldHVybiAiYmctcmVkLTUwMCI7CiAgaWYgKHN0YXR1cyA+PSA0MDApIHJldHVybiAiYmctYW1iZXItNTAwIjsKICByZXR1cm4gImJnLW11dGVkLWZvcmVncm91bmQvMzUiOwp9OwoKZXhwb3J0IGNvbnN0IGdldEVudHJ5Q2xpZW50SXAgPSAoZW50cnk6IEdhdGV3YXlMb2dFbnRyeSkgPT4KICBlbnRyeS5jbGllbnRfaXAgfHwgZW50cnkucmVtb3RlX2lwIHx8ICIiOwoKZXhwb3J0IGNvbnN0IGdldEVudHJ5QWN0aW9uSXAgPSAoZW50cnk6IEdhdGV3YXlMb2dFbnRyeSkgPT4gewogIGNvbnN0IGNsaWVudElwID0gZ2V0RW50cnlDbGllbnRJcChlbnRyeSk7CiAgcmV0dXJuIG5vcm1hbGl6ZUlwS2V5KGNsaWVudElwKSB8fCBjbGllbnRJcC50cmltKCk7Cn07CgpleHBvcnQgY29uc3QgYnVpbGRHYXRld2F5TG9nU2VsZWN0aW9uS2V5ID0gKAogIGVudHJ5OiBHYXRld2F5TG9nRW50cnksCiAgaW5kZXg6IG51bWJlciwKICBjdXJzb3I6IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQsCikgPT4KICBbCiAgICBjdXJzb3IgfHwgImZpcnN0IiwKICAgIGluZGV4LAogICAgZW50cnkudGltZSB8fCAiIiwKICAgIGVudHJ5Lm1ldGhvZCB8fCAiIiwKICAgIGVudHJ5Lmhvc3QgfHwgIiIsCiAgICBlbnRyeS5yZXF1ZXN0X3VyaSB8fCBlbnRyeS5wYXRoIHx8ICIiLAogICAgZW50cnkuc3RhdHVzID8/ICIiLAogICAgZW50cnkuZHVyYXRpb25fbXMgPz8gIiIsCiAgICBnZXRFbnRyeUFjdGlvbklwKGVudHJ5KSwKICAgIGVudHJ5LnJlbW90ZV9hZGRyIHx8IGVudHJ5LnJlbW90ZV9pcCB8fCAiIiwKICAgIGVudHJ5LndhZl90cmFjZV9pZCB8fCAiIiwKICBdLmpvaW4oInwiKTsKCmV4cG9ydCBjb25zdCBnZXRGb3J3YXJkZWRIZWFkZXJMaW5lcyA9IChlbnRyeTogR2F0ZXdheUxvZ0VudHJ5KSA9PiB7CiAgY29uc3QgbGluZXM6IHN0cmluZ1tdID0gW107CiAgaWYgKGVudHJ5LmVvX2Nvbm5lY3RpbmdfaXApIHsKICAgIGxpbmVzLnB1c2goYEVPLUNvbm5lY3RpbmctSVA6ICR7ZW50cnkuZW9fY29ubmVjdGluZ19pcH1gKTsKICB9CiAgaWYgKGVudHJ5LmFsaV9yZWFsX2NsaWVudF9pcCkgewogICAgbGluZXMucHVzaChgQWxpLVJlYWwtQ2xpZW50LUlQOiAke2VudHJ5LmFsaV9yZWFsX2NsaWVudF9pcH1gKTsKICB9CiAgaWYgKGVudHJ5LnhfZm9yd2FyZGVkX2ZvcikgewogICAgbGluZXMucHVzaChgWC1Gb3J3YXJkZWQtRm9yOiAke2VudHJ5LnhfZm9yd2FyZGVkX2Zvcn1gKTsKICB9CiAgaWYgKGVudHJ5LnhfcmVhbF9pcCkgewogICAgbGluZXMucHVzaChgWC1SZWFsLUlQOiAke2VudHJ5LnhfcmVhbF9pcH1gKTsKICB9CiAgcmV0dXJuIGxpbmVzOwp9OwoKZXhwb3J0IGNvbnN0IHdhZkFjdGlvbkxhYmVsID0gKAogIHZhbHVlOiBzdHJpbmcgfCB1bmRlZmluZWQsCiAgdDogR2F0ZXdheUxvZ1RyYW5zbGF0b3IsCikgPT4gewogIHN3aXRjaCAodmFsdWU/LnRyaW0oKS50b0xvd2VyQ2FzZSgpKSB7CiAgICBjYXNlICJibG9jayI6CiAgICBjYXNlICJkZW55IjoKICAgICAgcmV0dXJuIHQoImFkbWluLndhZkxvZ3MuYWN0aW9ucy5ibG9jayIpOwogICAgY2FzZSAibG9nIjoKICAgIGNhc2UgImRldGVjdCI6CiAgICAgIHJldHVybiB0KCJhZG1pbi53YWZMb2dzLmFjdGlvbnMucmVjb3JkIik7CiAgICBjYXNlICJwYXNzIjoKICAgICAgcmV0dXJuIHQoImFkbWluLndhZkxvZ3MuYWN0aW9ucy5wYXNzIik7CiAgICBkZWZhdWx0OgogICAgICByZXR1cm4gdmFsdWUgfHwgIi0iOwogIH0KfTsKCmV4cG9ydCBjb25zdCB3YWZNb2RlTGFiZWwgPSAoCiAgdmFsdWU6IHN0cmluZyB8IHVuZGVmaW5lZCwKICB0OiBHYXRld2F5TG9nVHJhbnNsYXRvciwKKSA9PiB7CiAgc3dpdGNoICh2YWx1ZT8udHJpbSgpLnRvTG93ZXJDYXNlKCkpIHsKICAgIGNhc2UgImRldGVjdGlvbiI6CiAgICAgIHJldHVybiB0KCJhZG1pbi53YWZMb2dzLm1vZGVzLmRldGVjdGlvbiIpOwogICAgY2FzZSAiYmxvY2tpbmciOgogICAgICByZXR1cm4gdCgiYWRtaW4ud2FmTG9ncy5tb2Rlcy5ibG9ja2luZyIpOwogICAgY2FzZSAib2ZmIjoKICAgICAgcmV0dXJuIHQoImFkbWluLndhZkxvZ3MubW9kZXMub2ZmIik7CiAgICBkZWZhdWx0OgogICAgICByZXR1cm4gdmFsdWUgfHwgIi0iOwogIH0KfTsKCmV4cG9ydCBjb25zdCB3YWZCYWRnZUxhYmVsID0gKAogIGVudHJ5OiBHYXRld2F5TG9nRW50cnksCiAgdDogR2F0ZXdheUxvZ1RyYW5zbGF0b3IsCikgPT4gewogIGlmIChpc1dBRkJsb2NrZWQoZW50cnkpKQogICAgcmV0dXJuIHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy53YWZCYWRnZXMuYmxvY2tlZCIpOwogIGNvbnN0IGFjdGlvbiA9IGdldFdBRkFjdGlvbihlbnRyeSk7CiAgaWYgKGFjdGlvbiA9PT0gInBhc3MiKSByZXR1cm4gdCgiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLndhZkJhZGdlcy5wYXNzIik7CiAgaWYgKGFjdGlvbiA9PT0gImxvZyIgfHwgYWN0aW9uID09PSAiZGV0ZWN0IikKICAgIHJldHVybiB0KCJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3Mud2FmQmFkZ2VzLnJlY29yZCIpOwogIHJldHVybiB0KCJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3Mud2FmQmFkZ2VzLmhpdCIpOwp9OwoKZXhwb3J0IGNvbnN0IHdhZkJhZGdlTWV0YSA9ICgKICBlbnRyeTogR2F0ZXdheUxvZ0VudHJ5LAogIHQ6IEdhdGV3YXlMb2dUcmFuc2xhdG9yLAopID0+IHsKICBpZiAoZW50cnkud2FmX3J1bGVfaWRzPy5sZW5ndGgpIHsKICAgIHJldHVybiBlbnRyeS53YWZfcnVsZV9pZHMubWFwKChpZCkgPT4gYCMke2lkfWApLmpvaW4oIiAiKTsKICB9CiAgcmV0dXJuIGVudHJ5LndhZl90cmFjZV9pZCB8fCB3YWZBY3Rpb25MYWJlbChlbnRyeS53YWZfYWN0aW9uLCB0KTsKfTsKCmV4cG9ydCBjb25zdCB3YWZCYWRnZVRpdGxlID0gKAogIGVudHJ5OiBHYXRld2F5TG9nRW50cnksCiAgdDogR2F0ZXdheUxvZ1RyYW5zbGF0b3IsCikgPT4gewogIGNvbnN0IHBhcnRzID0gW3dhZkJhZGdlTGFiZWwoZW50cnksIHQpXTsKICBpZiAoZW50cnkud2FmX3RyYWNlX2lkKSB7CiAgICBwYXJ0cy5wdXNoKAogICAgICB0KCJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3Mud2FmQmFkZ2VzLnRyYWNlIiwgewogICAgICAgIHRyYWNlOiBlbnRyeS53YWZfdHJhY2VfaWQsCiAgICAgIH0pLAogICAgKTsKICB9CiAgaWYgKGVudHJ5LndhZl9ydWxlX2lkcz8ubGVuZ3RoKSB7CiAgICBwYXJ0cy5wdXNoKAogICAgICB0KCJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3Mud2FmQmFkZ2VzLnJ1bGVzIiwgewogICAgICAgIHJ1bGVzOiBlbnRyeS53YWZfcnVsZV9pZHMuam9pbigiLCAiKSwKICAgICAgfSksCiAgICApOwogIH0KICBpZiAoZW50cnkud2FmX2J1bmRsZSkgewogICAgcGFydHMucHVzaCgKICAgICAgdCgiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLndhZkJhZGdlcy5idW5kbGUiLCB7CiAgICAgICAgYnVuZGxlOiBlbnRyeS53YWZfYnVuZGxlLAogICAgICB9KSwKICAgICk7CiAgfQogIHJldHVybiBwYXJ0cy5qb2luKCIgwrcgIik7Cn07CgpleHBvcnQgY29uc3Qgcm91dGVUeXBlTGFiZWwgPSAoCiAgdmFsdWU6IHN0cmluZyB8IHVuZGVmaW5lZCwKICB0OiBHYXRld2F5TG9nVHJhbnNsYXRvciwKKSA9PiByZXNvbHZlUm91dGVUeXBlTGFiZWwodmFsdWUsIHQpOwoKZXhwb3J0IGNvbnN0IGF1dGhEZWNpc2lvbkxhYmVsID0gKAogIHZhbHVlOiBzdHJpbmcgfCB1bmRlZmluZWQsCiAgdDogR2F0ZXdheUxvZ1RyYW5zbGF0b3IsCikgPT4gewogIGNvbnN0IG5vcm1hbGl6ZWQgPSB2YWx1ZT8udHJpbSgpLnRvTG93ZXJDYXNlKCkgfHwgIiI7CiAgY29uc3QgdHJhbnNsYXRpb25LZXkgPSBBVVRIX0RFQ0lTSU9OX0xBQkVMX0tFWVNbbm9ybWFsaXplZF07CiAgcmV0dXJuIHRyYW5zbGF0aW9uS2V5ID8gdCh0cmFuc2xhdGlvbktleSkgOiB2YWx1ZSB8fCAiLSI7Cn07CgpleHBvcnQgY29uc3QgYXV0aEdyYW50U3RhdGVMYWJlbCA9ICgKICB2YWx1ZTogc3RyaW5nIHwgdW5kZWZpbmVkLAogIHQ6IEdhdGV3YXlMb2dUcmFuc2xhdG9yLAopID0+IHsKICBzd2l0Y2ggKHZhbHVlPy50cmltKCkudG9Mb3dlckNhc2UoKSkgewogICAgY2FzZSAiaXNzdWVkIjoKICAgICAgcmV0dXJuIHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5ncmFudFN0YXRlcy5pc3N1ZWQiKTsKICAgIGNhc2UgInJlbmV3ZWQiOgogICAgICByZXR1cm4gdCgiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmdyYW50U3RhdGVzLnJlbmV3ZWQiKTsKICAgIGNhc2UgInJldXNlZCI6CiAgICAgIHJldHVybiB0KCJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuZ3JhbnRTdGF0ZXMucmV1c2VkIik7CiAgICBjYXNlICJ0cmFuc2llbnQiOgogICAgICByZXR1cm4gdCgiYWRtaW4uZ2F0ZXdheVJlcXVlc3RMb2dzLmdyYW50U3RhdGVzLnRyYW5zaWVudCIpOwogICAgZGVmYXVsdDoKICAgICAgcmV0dXJuIHZhbHVlIHx8ICItIjsKICB9Cn07CgpleHBvcnQgY29uc3QgY3JlZGVudGlhbE1ldGhvZExhYmVsID0gKAogIHZhbHVlOiBzdHJpbmcgfCB1bmRlZmluZWQsCiAgdDogR2F0ZXdheUxvZ1RyYW5zbGF0b3IsCikgPT4gewogIHN3aXRjaCAoU3RyaW5nKHZhbHVlIHx8ICIiKS50b1VwcGVyQ2FzZSgpKSB7CiAgICBjYXNlICJUT1RQIjoKICAgICAgcmV0dXJuIHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5jcmVkZW50aWFsTWV0aG9kcy50b3RwIik7CiAgICBjYXNlICJQQVNTS0VZIjoKICAgICAgcmV0dXJuIHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5jcmVkZW50aWFsTWV0aG9kcy5wYXNza2V5Iik7CiAgICBjYXNlICJPSURDIjoKICAgICAgcmV0dXJuIHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5jcmVkZW50aWFsTWV0aG9kcy5vaWRjIik7CiAgICBjYXNlICJMREFQIjoKICAgICAgcmV0dXJuIHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5jcmVkZW50aWFsTWV0aG9kcy5sZGFwIik7CiAgICBjYXNlICJQQVNTV09SRCI6CiAgICAgIHJldHVybiB0KCJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuY3JlZGVudGlhbE1ldGhvZHMucGFzc3dvcmQiKTsKICAgIGRlZmF1bHQ6CiAgICAgIHJldHVybiB2YWx1ZSB8fCAiIjsKICB9Cn07CgpleHBvcnQgY29uc3QgYWNjZXNzTW9kZUxhYmVsID0gKAogIHZhbHVlOiBzdHJpbmcgfCB1bmRlZmluZWQsCiAgdDogR2F0ZXdheUxvZ1RyYW5zbGF0b3IsCikgPT4gewogIHN3aXRjaCAodmFsdWU/LnRyaW0oKS50b0xvd2VyQ2FzZSgpKSB7CiAgICBjYXNlICJsb2dpbl9maXJzdCI6CiAgICAgIHJldHVybiB0KCJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuYWNjZXNzTW9kZXMubG9naW5GaXJzdCIpOwogICAgY2FzZSAic3RyaWN0X3doaXRlbGlzdCI6CiAgICAgIHJldHVybiB0KCJhZG1pbi5nYXRld2F5UmVxdWVzdExvZ3MuYWNjZXNzTW9kZXMuc3RyaWN0V2hpdGVsaXN0Iik7CiAgICBkZWZhdWx0OgogICAgICByZXR1cm4gdmFsdWUgfHwgIi0iOwogIH0KfTsKCmV4cG9ydCBjb25zdCBmb3JtYXRBdXRoQ3JlZGVudGlhbCA9ICgKICBlbnRyeTogR2F0ZXdheUxvZ0VudHJ5LAogIHQ6IEdhdGV3YXlMb2dUcmFuc2xhdG9yLAopID0+IHsKICBjb25zdCBtZXRob2QgPSBjcmVkZW50aWFsTWV0aG9kTGFiZWwoZW50cnkuYXV0aF9jcmVkZW50aWFsX21ldGhvZCwgdCk7CiAgY29uc3QgbmFtZSA9IGVudHJ5LmF1dGhfY3JlZGVudGlhbF9uYW1lIHx8IGVudHJ5LmF1dGhfY3JlZGVudGlhbF9pZCB8fCAiIjsKICBjb25zdCBwcmltYXJ5ID0gbWV0aG9kICYmIG5hbWUgPyBgJHttZXRob2R9IC8gJHtuYW1lfWAgOiBtZXRob2QgfHwgbmFtZSB8fCAiIjsKICBpZiAoIXByaW1hcnkpIHJldHVybiAiIjsKCiAgY29uc3QgbGlua2VkVG90cE5hbWUgPQogICAgU3RyaW5nKGVudHJ5LmF1dGhfY3JlZGVudGlhbF9tZXRob2QgfHwgIiIpLnRvVXBwZXJDYXNlKCkgPT09ICJUT1RQIgogICAgICA/ICIiCiAgICAgIDogZW50cnkuYXV0aF9saW5rZWRfdG90cF9uYW1lIHx8IGVudHJ5LmF1dGhfbGlua2VkX3RvdHBfaWQgfHwgIiI7CiAgaWYgKCFsaW5rZWRUb3RwTmFtZSkgcmV0dXJuIHByaW1hcnk7CiAgcmV0dXJuIGAke3ByaW1hcnl9ICgke3QoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5saW5rZWRUb3RwIiwgewogICAgbmFtZTogbGlua2VkVG90cE5hbWUsCiAgfSl9KWA7Cn07CgpleHBvcnQgY29uc3QgZm9ybWF0RHVyYXRpb24gPSAodmFsdWU/OiBudW1iZXIpID0+IHsKICBpZiAoIU51bWJlci5pc0Zpbml0ZSh2YWx1ZSkpIHJldHVybiAiLSI7CiAgcmV0dXJuIGAke3ZhbHVlfSBtc2A7Cn07CgpleHBvcnQgY29uc3QgZm9ybWF0Qm9vbGVhbiA9ICgKICB2YWx1ZTogYm9vbGVhbiB8IHVuZGVmaW5lZCwKICB0OiBHYXRld2F5TG9nVHJhbnNsYXRvciwKKSA9PgogIHZhbHVlCiAgICA/IHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5ib29sZWFuLnllcyIpCiAgICA6IHQoImFkbWluLmdhdGV3YXlSZXF1ZXN0TG9ncy5ib29sZWFuLm5vIik7Cg==
+import type { GatewayLogEntry } from "@/types";
+import { AUTH_DECISION_LABEL_KEYS } from "@/lib/gatewayLogLabels";
+import { routeTypeLabel as resolveRouteTypeLabel } from "@/lib/routeType";
+import { normalizeIpKey } from "@/composables/useIpLocationBatch";
+import type { GatewayLogTranslator } from "./gateway-request-log-types";
+
+export const formatRuleIds = (value?: number[]) =>
+  value && value.length > 0 ? value.join(", ") : "-";
+
+export const hasWAFSignal = (entry: GatewayLogEntry) =>
+  Boolean(entry.waf_trace_id) ||
+  Boolean(entry.waf_bundle) ||
+  Boolean(entry.waf_action) ||
+  entry.waf_blocked === true ||
+  (Array.isArray(entry.waf_rule_ids) && entry.waf_rule_ids.length > 0);
+
+export const getWAFAction = (entry: GatewayLogEntry) =>
+  String(entry.waf_action || "").toLowerCase();
+
+export const isWAFBlocked = (entry: GatewayLogEntry) =>
+  entry.waf_blocked === true ||
+  getWAFAction(entry) === "block" ||
+  getWAFAction(entry) === "deny";
+
+export const getWAFBadgeClass = (entry: GatewayLogEntry) => {
+  if (isWAFBlocked(entry)) {
+    return "border-red-500/20 bg-transparent text-red-600/80 hover:bg-red-500/[0.04] dark:text-red-300/80";
+  }
+  if (getWAFAction(entry) === "pass") {
+    return "border-emerald-500/20 bg-transparent text-emerald-600/80 hover:bg-emerald-500/[0.04] dark:text-emerald-300/80";
+  }
+  return "border-muted-foreground/20 bg-transparent text-muted-foreground hover:bg-muted/30";
+};
+
+export const getStatusTextClass = (status: number) => {
+  if (status >= 500) return "text-red-600";
+  if (status >= 400) return "text-amber-600";
+  return "text-foreground";
+};
+
+export const getStatusDotClass = (status: number) => {
+  if (status >= 500) return "bg-red-500";
+  if (status >= 400) return "bg-amber-500";
+  return "bg-muted-foreground/35";
+};
+
+export const getEntryClientIp = (entry: GatewayLogEntry) =>
+  entry.client_ip || entry.remote_ip || "";
+
+export const getEntryActionIp = (entry: GatewayLogEntry) => {
+  const clientIp = getEntryClientIp(entry);
+  return normalizeIpKey(clientIp) || clientIp.trim();
+};
+
+export const buildGatewayLogSelectionKey = (
+  entry: GatewayLogEntry,
+  index: number,
+  cursor: string | null | undefined,
+) =>
+  [
+    cursor || "first",
+    index,
+    entry.time || "",
+    entry.method || "",
+    entry.host || "",
+    entry.request_uri || entry.path || "",
+    entry.status ?? "",
+    entry.duration_ms ?? "",
+    getEntryActionIp(entry),
+    entry.remote_addr || entry.remote_ip || "",
+    entry.waf_trace_id || "",
+  ].join("|");
+
+export const getForwardedHeaderLines = (entry: GatewayLogEntry) => {
+  const lines: string[] = [];
+  if (entry.eo_connecting_ip) {
+    lines.push(`EO-Connecting-IP: ${entry.eo_connecting_ip}`);
+  }
+  if (entry.ali_real_client_ip) {
+    lines.push(`Ali-Real-Client-IP: ${entry.ali_real_client_ip}`);
+  }
+  if (entry.x_forwarded_for) {
+    lines.push(`X-Forwarded-For: ${entry.x_forwarded_for}`);
+  }
+  if (entry.x_real_ip) {
+    lines.push(`X-Real-IP: ${entry.x_real_ip}`);
+  }
+  return lines;
+};
+
+export const wafActionLabel = (
+  value: string | undefined,
+  t: GatewayLogTranslator,
+) => {
+  switch (value?.trim().toLowerCase()) {
+    case "block":
+    case "deny":
+      return t("admin.wafLogs.actions.block");
+    case "log":
+    case "detect":
+      return t("admin.wafLogs.actions.record");
+    case "pass":
+      return t("admin.wafLogs.actions.pass");
+    default:
+      return value || "-";
+  }
+};
+
+export const wafModeLabel = (
+  value: string | undefined,
+  t: GatewayLogTranslator,
+) => {
+  switch (value?.trim().toLowerCase()) {
+    case "detection":
+      return t("admin.wafLogs.modes.detection");
+    case "blocking":
+      return t("admin.wafLogs.modes.blocking");
+    case "off":
+      return t("admin.wafLogs.modes.off");
+    default:
+      return value || "-";
+  }
+};
+
+export const wafBadgeLabel = (
+  entry: GatewayLogEntry,
+  t: GatewayLogTranslator,
+) => {
+  if (isWAFBlocked(entry))
+    return t("admin.gatewayRequestLogs.wafBadges.blocked");
+  const action = getWAFAction(entry);
+  if (action === "pass") return t("admin.gatewayRequestLogs.wafBadges.pass");
+  if (action === "log" || action === "detect")
+    return t("admin.gatewayRequestLogs.wafBadges.record");
+  return t("admin.gatewayRequestLogs.wafBadges.hit");
+};
+
+export const wafBadgeMeta = (
+  entry: GatewayLogEntry,
+  t: GatewayLogTranslator,
+) => {
+  if (entry.waf_rule_ids?.length) {
+    return entry.waf_rule_ids.map((id) => `#${id}`).join(" ");
+  }
+  return entry.waf_trace_id || wafActionLabel(entry.waf_action, t);
+};
+
+export const wafBadgeTitle = (
+  entry: GatewayLogEntry,
+  t: GatewayLogTranslator,
+) => {
+  const parts = [wafBadgeLabel(entry, t)];
+  if (entry.waf_trace_id) {
+    parts.push(
+      t("admin.gatewayRequestLogs.wafBadges.trace", {
+        trace: entry.waf_trace_id,
+      }),
+    );
+  }
+  if (entry.waf_rule_ids?.length) {
+    parts.push(
+      t("admin.gatewayRequestLogs.wafBadges.rules", {
+        rules: entry.waf_rule_ids.join(", "),
+      }),
+    );
+  }
+  if (entry.waf_bundle) {
+    parts.push(
+      t("admin.gatewayRequestLogs.wafBadges.bundle", {
+        bundle: entry.waf_bundle,
+      }),
+    );
+  }
+  return parts.join(" · ");
+};
+
+export const routeTypeLabel = (
+  value: string | undefined,
+  t: GatewayLogTranslator,
+) => resolveRouteTypeLabel(value, t);
+
+export const authDecisionLabel = (
+  value: string | undefined,
+  t: GatewayLogTranslator,
+) => {
+  const normalized = value?.trim().toLowerCase() || "";
+  const translationKey = AUTH_DECISION_LABEL_KEYS[normalized];
+  return translationKey ? t(translationKey) : value || "-";
+};
+
+export const authGrantStateLabel = (
+  value: string | undefined,
+  t: GatewayLogTranslator,
+) => {
+  switch (value?.trim().toLowerCase()) {
+    case "issued":
+      return t("admin.gatewayRequestLogs.grantStates.issued");
+    case "renewed":
+      return t("admin.gatewayRequestLogs.grantStates.renewed");
+    case "reused":
+      return t("admin.gatewayRequestLogs.grantStates.reused");
+    case "transient":
+      return t("admin.gatewayRequestLogs.grantStates.transient");
+    default:
+      return value || "-";
+  }
+};
+
+export const credentialMethodLabel = (
+  value: string | undefined,
+  t: GatewayLogTranslator,
+) => {
+  switch (String(value || "").toUpperCase()) {
+    case "TOTP":
+      return t("admin.gatewayRequestLogs.credentialMethods.totp");
+    case "PASSKEY":
+      return t("admin.gatewayRequestLogs.credentialMethods.passkey");
+    case "OIDC":
+      return t("admin.gatewayRequestLogs.credentialMethods.oidc");
+    case "LDAP":
+      return t("admin.gatewayRequestLogs.credentialMethods.ldap");
+    case "PASSWORD":
+      return t("admin.gatewayRequestLogs.credentialMethods.password");
+    default:
+      return value || "";
+  }
+};
+
+export const accessModeLabel = (
+  value: string | undefined,
+  t: GatewayLogTranslator,
+) => {
+  switch (value?.trim().toLowerCase()) {
+    case "login_first":
+      return t("admin.gatewayRequestLogs.accessModes.loginFirst");
+    case "strict_whitelist":
+      return t("admin.gatewayRequestLogs.accessModes.strictWhitelist");
+    default:
+      return value || "-";
+  }
+};
+
+export const formatAuthCredential = (
+  entry: GatewayLogEntry,
+  t: GatewayLogTranslator,
+) => {
+  const method = credentialMethodLabel(entry.auth_credential_method, t);
+  const name = entry.auth_credential_name || entry.auth_credential_id || "";
+  const primary = method && name ? `${method} / ${name}` : method || name || "";
+  if (!primary) return "";
+
+  const linkedTotpName =
+    String(entry.auth_credential_method || "").toUpperCase() === "TOTP"
+      ? ""
+      : entry.auth_linked_totp_name || entry.auth_linked_totp_id || "";
+  if (!linkedTotpName) return primary;
+  return `${primary} (${t("admin.gatewayRequestLogs.linkedTotp", {
+    name: linkedTotpName,
+  })})`;
+};
+
+export const formatDuration = (value?: number) => {
+  if (!Number.isFinite(value)) return "-";
+  return `${value} ms`;
+};
+
+export const formatBoolean = (
+  value: boolean | undefined,
+  t: GatewayLogTranslator,
+) =>
+  value
+    ? t("admin.gatewayRequestLogs.boolean.yes")
+    : t("admin.gatewayRequestLogs.boolean.no");

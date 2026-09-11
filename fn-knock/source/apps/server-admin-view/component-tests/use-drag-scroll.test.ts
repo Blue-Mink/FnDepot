@@ -1,1 +1,366 @@
-aW1wb3J0IHsgYWZ0ZXJFYWNoLCBiZWZvcmVFYWNoLCBkZXNjcmliZSwgZXhwZWN0LCBpdCwgdmkgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VEcmFnU2Nyb2xsIH0gZnJvbSAiLi4vc3JjL2NvbXBvc2FibGVzL3VzZURyYWdTY3JvbGwiOwoKdHlwZSBMaXN0ZW5lciA9IChldmVudDogRXZlbnQpID0+IHZvaWQ7CgppbnRlcmZhY2UgRmFrZVNjcm9sbEVsZW1lbnQgewogIHNjcm9sbFdpZHRoOiBudW1iZXI7CiAgY2xpZW50V2lkdGg6IG51bWJlcjsKICBzY3JvbGxMZWZ0OiBudW1iZXI7CiAgc2V0UG9pbnRlckNhcHR1cmU6IFJldHVyblR5cGU8dHlwZW9mIHZpLmZuPjsKICBoYXNQb2ludGVyQ2FwdHVyZTogUmV0dXJuVHlwZTx0eXBlb2YgdmkuZm4+OwogIHJlbGVhc2VQb2ludGVyQ2FwdHVyZTogUmV0dXJuVHlwZTx0eXBlb2YgdmkuZm4+OwogIGxpc3RlbmVyczogUmVjb3JkPHN0cmluZywgTGlzdGVuZXJbXT47Cn0KCmNvbnN0IGNyZWF0ZUVsZW1lbnQgPSAob3ZlcnJpZGVzOiBQYXJ0aWFsPEZha2VTY3JvbGxFbGVtZW50PiA9IHt9KSA9PiB7CiAgbGV0IHNjcm9sbExlZnQgPSAxMDA7CiAgY29uc3QgbGlzdGVuZXJzOiBSZWNvcmQ8c3RyaW5nLCBMaXN0ZW5lcltdPiA9IHt9OwogIGNvbnN0IGVsID0gewogICAgc2Nyb2xsV2lkdGg6IDUwMCwKICAgIGNsaWVudFdpZHRoOiAyMDAsCiAgICBnZXQgc2Nyb2xsTGVmdCgpIHsKICAgICAgcmV0dXJuIHNjcm9sbExlZnQ7CiAgICB9LAogICAgc2V0IHNjcm9sbExlZnQodmFsdWU6IG51bWJlcikgewogICAgICBzY3JvbGxMZWZ0ID0gdmFsdWU7CiAgICB9LAogICAgc2V0UG9pbnRlckNhcHR1cmU6IHZpLmZuKCksCiAgICBoYXNQb2ludGVyQ2FwdHVyZTogdmkuZm4oKCkgPT4gdHJ1ZSksCiAgICByZWxlYXNlUG9pbnRlckNhcHR1cmU6IHZpLmZuKCksCiAgICBhZGRFdmVudExpc3RlbmVyOiB2aS5mbigodHlwZTogc3RyaW5nLCBsaXN0ZW5lcjogTGlzdGVuZXIpID0+IHsKICAgICAgKGxpc3RlbmVyc1t0eXBlXSA/Pz0gW10pLnB1c2gobGlzdGVuZXIpOwogICAgfSksCiAgICByZW1vdmVFdmVudExpc3RlbmVyOiB2aS5mbigodHlwZTogc3RyaW5nLCBsaXN0ZW5lcjogTGlzdGVuZXIpID0+IHsKICAgICAgbGlzdGVuZXJzW3R5cGVdID0gKGxpc3RlbmVyc1t0eXBlXSA/PyBbXSkuZmlsdGVyKAogICAgICAgIChpdGVtKSA9PiBpdGVtICE9PSBsaXN0ZW5lciwKICAgICAgKTsKICAgIH0pLAogICAgbGlzdGVuZXJzLAogICAgLi4ub3ZlcnJpZGVzLAogIH07CiAgcmV0dXJuIGVsIGFzIHVua25vd24gYXMgSFRNTEVsZW1lbnQgJiBGYWtlU2Nyb2xsRWxlbWVudDsKfTsKCmNvbnN0IGRvd25FdmVudCA9IChjbGllbnRYOiBudW1iZXIpOiBQb2ludGVyRXZlbnQgPT4KICAoewogICAgYnV0dG9uOiAwLAogICAgcG9pbnRlclR5cGU6ICJtb3VzZSIsCiAgICBwb2ludGVySWQ6IDEsCiAgICBjbGllbnRYLAogICAgcHJldmVudERlZmF1bHQ6IHZpLmZuKCksCiAgfSkgYXMgdW5rbm93biBhcyBQb2ludGVyRXZlbnQ7Cgpjb25zdCBtb3ZlRXZlbnQgPSAoY2xpZW50WDogbnVtYmVyKTogUG9pbnRlckV2ZW50ID0+CiAgKHsKICAgIHBvaW50ZXJJZDogMSwKICAgIGNsaWVudFgsCiAgICBwcmV2ZW50RGVmYXVsdDogdmkuZm4oKSwKICB9KSBhcyB1bmtub3duIGFzIFBvaW50ZXJFdmVudDsKCmNvbnN0IHVwRXZlbnQgPSAoKTogUG9pbnRlckV2ZW50ID0+CiAgKHsgcG9pbnRlcklkOiAxLCB0eXBlOiAicG9pbnRlcnVwIiB9KSBhcyB1bmtub3duIGFzIFBvaW50ZXJFdmVudDsKCmxldCB3aW5kb3dMaXN0ZW5lcnM6IFJlY29yZDxzdHJpbmcsIExpc3RlbmVyW10+OwoKYmVmb3JlRWFjaCgoKSA9PiB7CiAgd2luZG93TGlzdGVuZXJzID0ge307CiAgdmkuc3R1Ykdsb2JhbCgKICAgICJtYXRjaE1lZGlhIiwKICAgIHZpLmZuKCgpID0+ICh7IG1hdGNoZXM6IHRydWUgfSkpLAogICk7CiAgdmkuc3B5T24od2luZG93LCAiYWRkRXZlbnRMaXN0ZW5lciIpLm1vY2tJbXBsZW1lbnRhdGlvbigKICAgICh0eXBlOiBzdHJpbmcsIGxpc3RlbmVyOiBFdmVudExpc3RlbmVyT3JFdmVudExpc3RlbmVyT2JqZWN0KSA9PiB7CiAgICAgICh3aW5kb3dMaXN0ZW5lcnNbdHlwZV0gPz89IFtdKS5wdXNoKGxpc3RlbmVyIGFzIExpc3RlbmVyKTsKICAgIH0sCiAgKTsKICB2aS5zcHlPbih3aW5kb3csICJyZW1vdmVFdmVudExpc3RlbmVyIikubW9ja0ltcGxlbWVudGF0aW9uKAogICAgKHR5cGU6IHN0cmluZywgbGlzdGVuZXI6IEV2ZW50TGlzdGVuZXJPckV2ZW50TGlzdGVuZXJPYmplY3QpID0+IHsKICAgICAgd2luZG93TGlzdGVuZXJzW3R5cGVdID0gKHdpbmRvd0xpc3RlbmVyc1t0eXBlXSA/PyBbXSkuZmlsdGVyKAogICAgICAgIChpdGVtKSA9PiBpdGVtICE9PSAobGlzdGVuZXIgYXMgTGlzdGVuZXIpLAogICAgICApOwogICAgfSwKICApOwp9KTsKCmFmdGVyRWFjaCgoKSA9PiB7CiAgdmkudW5zdHViQWxsR2xvYmFscygpOwogIHZpLnJlc3RvcmVBbGxNb2NrcygpOwp9KTsKCmNvbnN0IGVtaXRXaW5kb3cgPSAodHlwZTogc3RyaW5nLCBldmVudDogRXZlbnQpID0+IHsKICBmb3IgKGNvbnN0IGxpc3RlbmVyIG9mIHdpbmRvd0xpc3RlbmVyc1t0eXBlXSA/PyBbXSkgbGlzdGVuZXIoZXZlbnQpOwp9OwoKY29uc3QgZGlzcGF0Y2hDbGljayA9IChlbDogRmFrZVNjcm9sbEVsZW1lbnQpOiBNb3VzZUV2ZW50ID0+IHsKICBjb25zdCBldmVudCA9IHsKICAgIHByZXZlbnREZWZhdWx0OiB2aS5mbigpLAogICAgc3RvcFByb3BhZ2F0aW9uOiB2aS5mbigpLAogIH0gYXMgdW5rbm93biBhcyBNb3VzZUV2ZW50OwogIGZvciAoY29uc3QgbGlzdGVuZXIgb2YgZWwubGlzdGVuZXJzWyJjbGljayJdID8/IFtdKSBsaXN0ZW5lcihldmVudCk7CiAgcmV0dXJuIGV2ZW50Owp9OwoKZGVzY3JpYmUoInVzZURyYWdTY3JvbGwiLCAoKSA9PiB7CiAgaXQoInNjcm9sbHMgaG9yaXpvbnRhbGx5IHdoaWxlIGRyYWdnaW5nIGJleW9uZCB0aGUgdGhyZXNob2xkIiwgKCkgPT4gewogICAgY29uc3QgZWwgPSBjcmVhdGVFbGVtZW50KCk7CiAgICBjb25zdCBlbFJlZiA9IHJlZjxIVE1MRWxlbWVudCB8IG51bGw+KGVsKTsKICAgIGNvbnN0IHsgaXNEcmFnZ2luZywgb25Qb2ludGVyRG93biB9ID0gdXNlRHJhZ1Njcm9sbChlbFJlZik7CgogICAgY29uc3QgZG93biA9IGRvd25FdmVudCgxMDApOwogICAgb25Qb2ludGVyRG93bihkb3duKTsKICAgIGV4cGVjdChpc0RyYWdnaW5nLnZhbHVlKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChkb3duLnByZXZlbnREZWZhdWx0KS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogICAgZXhwZWN0KGVsLnNldFBvaW50ZXJDYXB0dXJlKS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogICAgZXhwZWN0KHdpbmRvd0xpc3RlbmVyc1sicG9pbnRlcm1vdmUiXSkudG9IYXZlTGVuZ3RoKDEpOwoKICAgIC8vIEJlbG93IHRoZSA2cHggdGhyZXNob2xkOiBubyBzY3JvbGxpbmcgeWV0IGFuZCB0aGUgZ2VzdHVyZSByZW1haW5zIGEgY2xpY2suCiAgICBlbWl0V2luZG93KCJwb2ludGVybW92ZSIsIG1vdmVFdmVudCgxMDIpKTsKICAgIGV4cGVjdChlbC5zY3JvbGxMZWZ0KS50b0JlKDEwMCk7CiAgICBleHBlY3QoaXNEcmFnZ2luZy52YWx1ZSkudG9CZShmYWxzZSk7CgogICAgLy8gRHJhZ2dpbmcgNTBweCB0byB0aGUgcmlnaHQgc2Nyb2xscyBjb250ZW50IDUwcHggdG8gdGhlIGxlZnQuCiAgICBjb25zdCBtb3ZlID0gbW92ZUV2ZW50KDE1MCk7CiAgICBlbWl0V2luZG93KCJwb2ludGVybW92ZSIsIG1vdmUpOwogICAgZXhwZWN0KGVsLnNjcm9sbExlZnQpLnRvQmUoNTApOwogICAgZXhwZWN0KGlzRHJhZ2dpbmcudmFsdWUpLnRvQmUodHJ1ZSk7CiAgICBleHBlY3QobW92ZS5wcmV2ZW50RGVmYXVsdCkudG9IYXZlQmVlbkNhbGxlZFRpbWVzKDEpOwoKICAgIGVtaXRXaW5kb3coInBvaW50ZXJ1cCIsIHVwRXZlbnQoKSk7CiAgICBleHBlY3QoaXNEcmFnZ2luZy52YWx1ZSkudG9CZShmYWxzZSk7CiAgICBleHBlY3QoZWwucmVsZWFzZVBvaW50ZXJDYXB0dXJlKS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogICAgZXhwZWN0KHdpbmRvd0xpc3RlbmVyc1sicG9pbnRlcm1vdmUiXSkudG9IYXZlTGVuZ3RoKDApOwogIH0pOwoKICBpdCgiZW5kcyB0aGUgZHJhZyB3aGVuIHRoZSBwb2ludGVyIGlzIHJlbGVhc2VkIG91dHNpZGUgdGhlIGVsZW1lbnQiLCAoKSA9PiB7CiAgICBjb25zdCBlbCA9IGNyZWF0ZUVsZW1lbnQoKTsKICAgIGNvbnN0IGVsUmVmID0gcmVmPEhUTUxFbGVtZW50IHwgbnVsbD4oZWwpOwogICAgY29uc3QgeyBpc0RyYWdnaW5nLCBvblBvaW50ZXJEb3duIH0gPSB1c2VEcmFnU2Nyb2xsKGVsUmVmKTsKCiAgICBvblBvaW50ZXJEb3duKGRvd25FdmVudCgxMDApKTsKICAgIC8vIFRoZSBwb2ludGVydXAgbGFuZHMgb24gd2luZG93IChvdXRzaWRlIHRoZSBhcmVhKSBpbnN0ZWFkIG9mIHRoZSBlbGVtZW50LgogICAgZW1pdFdpbmRvdygicG9pbnRlcnVwIiwgdXBFdmVudCgpKTsKCiAgICBleHBlY3QoaXNEcmFnZ2luZy52YWx1ZSkudG9CZShmYWxzZSk7CiAgICBleHBlY3Qod2luZG93TGlzdGVuZXJzWyJwb2ludGVybW92ZSJdKS50b0hhdmVMZW5ndGgoMCk7CiAgICBleHBlY3Qod2luZG93TGlzdGVuZXJzWyJwb2ludGVydXAiXSkudG9IYXZlTGVuZ3RoKDApOwogICAgZXhwZWN0KHdpbmRvd0xpc3RlbmVyc1siYmx1ciJdKS50b0hhdmVMZW5ndGgoMCk7CiAgfSk7CgogIGl0KCJlbmRzIHRoZSBkcmFnIHdoZW4gdGhlIHdpbmRvdyBsb3NlcyBmb2N1cyBtaWQtZHJhZyIsICgpID0+IHsKICAgIGNvbnN0IGVsID0gY3JlYXRlRWxlbWVudCgpOwogICAgY29uc3QgZWxSZWYgPSByZWY8SFRNTEVsZW1lbnQgfCBudWxsPihlbCk7CiAgICBjb25zdCB7IGlzRHJhZ2dpbmcsIG9uUG9pbnRlckRvd24gfSA9IHVzZURyYWdTY3JvbGwoZWxSZWYpOwoKICAgIG9uUG9pbnRlckRvd24oZG93bkV2ZW50KDEwMCkpOwogICAgZW1pdFdpbmRvdygicG9pbnRlcm1vdmUiLCBtb3ZlRXZlbnQoMTIwKSk7CiAgICBleHBlY3QoaXNEcmFnZ2luZy52YWx1ZSkudG9CZSh0cnVlKTsKCiAgICBlbWl0V2luZG93KCJibHVyIiwgbmV3IEV2ZW50KCJibHVyIikpOwogICAgZXhwZWN0KGlzRHJhZ2dpbmcudmFsdWUpLnRvQmUoZmFsc2UpOwogICAgZXhwZWN0KHdpbmRvd0xpc3RlbmVyc1sicG9pbnRlcm1vdmUiXSkudG9IYXZlTGVuZ3RoKDApOwogIH0pOwoKICBpdCgic3VwcHJlc3NlcyB0aGUgY2xpY2sgdGhhdCBmb2xsb3dzIGEgcmVhbCBkcmFnIiwgKCkgPT4gewogICAgY29uc3QgZWwgPSBjcmVhdGVFbGVtZW50KCk7CiAgICBjb25zdCBlbFJlZiA9IHJlZjxIVE1MRWxlbWVudCB8IG51bGw+KGVsKTsKICAgIGNvbnN0IHsgb25Qb2ludGVyRG93biB9ID0gdXNlRHJhZ1Njcm9sbChlbFJlZik7CgogICAgb25Qb2ludGVyRG93bihkb3duRXZlbnQoMTAwKSk7CiAgICBlbWl0V2luZG93KCJwb2ludGVybW92ZSIsIG1vdmVFdmVudCgxMzApKTsKICAgIGVtaXRXaW5kb3coInBvaW50ZXJ1cCIsIHVwRXZlbnQoKSk7CgogICAgY29uc3QgY2xpY2sgPSBkaXNwYXRjaENsaWNrKGVsKTsKICAgIGV4cGVjdChjbGljay5wcmV2ZW50RGVmYXVsdCkudG9IYXZlQmVlbkNhbGxlZFRpbWVzKDEpOwogICAgZXhwZWN0KGNsaWNrLnN0b3BQcm9wYWdhdGlvbikudG9IYXZlQmVlbkNhbGxlZFRpbWVzKDEpOwogIH0pOwoKICBpdCgia2VlcHMgYSBjbGVhbiBjbGljayAobm8gZHJhZykgY2xpY2thYmxlIiwgKCkgPT4gewogICAgY29uc3QgZWwgPSBjcmVhdGVFbGVtZW50KCk7CiAgICBjb25zdCBlbFJlZiA9IHJlZjxIVE1MRWxlbWVudCB8IG51bGw+KGVsKTsKICAgIGNvbnN0IHsgb25Qb2ludGVyRG93biB9ID0gdXNlRHJhZ1Njcm9sbChlbFJlZik7CgogICAgb25Qb2ludGVyRG93bihkb3duRXZlbnQoMTAwKSk7CiAgICBlbWl0V2luZG93KCJwb2ludGVydXAiLCB1cEV2ZW50KCkpOwoKICAgIGNvbnN0IGNsaWNrID0gZGlzcGF0Y2hDbGljayhlbCk7CiAgICBleHBlY3QoY2xpY2sucHJldmVudERlZmF1bHQpLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICBleHBlY3QoY2xpY2suc3RvcFByb3BhZ2F0aW9uKS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogIH0pOwoKICBpdCgia2VlcHMgYSBjbGljayB3aXRoIHNtYWxsIHBvaW50ZXIgaml0dGVyIGNsaWNrYWJsZSIsICgpID0+IHsKICAgIGNvbnN0IGVsID0gY3JlYXRlRWxlbWVudCgpOwogICAgY29uc3QgZWxSZWYgPSByZWY8SFRNTEVsZW1lbnQgfCBudWxsPihlbCk7CiAgICBjb25zdCB7IGlzRHJhZ2dpbmcsIG9uUG9pbnRlckRvd24gfSA9IHVzZURyYWdTY3JvbGwoZWxSZWYpOwoKICAgIGNvbnN0IGRvd24gPSBkb3duRXZlbnQoMTAwKTsKICAgIG9uUG9pbnRlckRvd24oZG93bik7CiAgICBlbWl0V2luZG93KCJwb2ludGVybW92ZSIsIG1vdmVFdmVudCgxMDUpKTsKICAgIGVtaXRXaW5kb3coInBvaW50ZXJ1cCIsIHVwRXZlbnQoKSk7CgogICAgY29uc3QgY2xpY2sgPSBkaXNwYXRjaENsaWNrKGVsKTsKICAgIGV4cGVjdChpc0RyYWdnaW5nLnZhbHVlKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChkb3duLnByZXZlbnREZWZhdWx0KS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogICAgZXhwZWN0KGNsaWNrLnByZXZlbnREZWZhdWx0KS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogICAgZXhwZWN0KGNsaWNrLnN0b3BQcm9wYWdhdGlvbikubm90LnRvSGF2ZUJlZW5DYWxsZWQoKTsKICB9KTsKCiAgaXQoImRvZXMgbm90IHN1cHByZXNzIGEgbGF0ZXIgY2xpY2sgd2hlbiBhIGRyYWcgcHJvZHVjZXMgbm8gY2xpY2siLCAoKSA9PiB7CiAgICB2aS51c2VGYWtlVGltZXJzKCk7CiAgICBjb25zdCBlbCA9IGNyZWF0ZUVsZW1lbnQoKTsKICAgIGNvbnN0IGVsUmVmID0gcmVmPEhUTUxFbGVtZW50IHwgbnVsbD4oZWwpOwogICAgY29uc3QgeyBvblBvaW50ZXJEb3duIH0gPSB1c2VEcmFnU2Nyb2xsKGVsUmVmKTsKCiAgICBvblBvaW50ZXJEb3duKGRvd25FdmVudCgxMDApKTsKICAgIGVtaXRXaW5kb3coInBvaW50ZXJtb3ZlIiwgbW92ZUV2ZW50KDEzMCkpOwogICAgZW1pdFdpbmRvdygicG9pbnRlcnVwIiwgdXBFdmVudCgpKTsKICAgIHZpLnJ1bkFsbFRpbWVycygpOwoKICAgIGNvbnN0IGNsaWNrID0gZGlzcGF0Y2hDbGljayhlbCk7CiAgICBleHBlY3QoY2xpY2sucHJldmVudERlZmF1bHQpLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICBleHBlY3QoY2xpY2suc3RvcFByb3BhZ2F0aW9uKS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogICAgdmkudXNlUmVhbFRpbWVycygpOwogIH0pOwoKICBpdCgiaWdub3JlcyBub24tbW91c2UgcG9pbnRlcnMgc28gdG91Y2gga2VlcHMgbmF0aXZlIHBhbm5pbmciLCAoKSA9PiB7CiAgICBjb25zdCBlbCA9IGNyZWF0ZUVsZW1lbnQoKTsKICAgIGNvbnN0IGVsUmVmID0gcmVmPEhUTUxFbGVtZW50IHwgbnVsbD4oZWwpOwogICAgY29uc3QgeyBpc0RyYWdnaW5nLCBvblBvaW50ZXJEb3duIH0gPSB1c2VEcmFnU2Nyb2xsKGVsUmVmKTsKCiAgICBvblBvaW50ZXJEb3duKHsKICAgICAgYnV0dG9uOiAwLAogICAgICBwb2ludGVyVHlwZTogInRvdWNoIiwKICAgICAgcG9pbnRlcklkOiAyLAogICAgICBjbGllbnRYOiAxMDAsCiAgICB9IGFzIHVua25vd24gYXMgUG9pbnRlckV2ZW50KTsKICAgIGV4cGVjdChpc0RyYWdnaW5nLnZhbHVlKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChlbC5zZXRQb2ludGVyQ2FwdHVyZSkubm90LnRvSGF2ZUJlZW5DYWxsZWQoKTsKICAgIGV4cGVjdCh3aW5kb3dMaXN0ZW5lcnNbInBvaW50ZXJtb3ZlIl0pLnRvQmVVbmRlZmluZWQoKTsKICB9KTsKCiAgaXQoImlnbm9yZXMgbW91c2UtbGlrZSBldmVudHMgb24gY29hcnNlIG5vbi1ob3ZlciB0b3VjaCBkZXZpY2VzIiwgKCkgPT4gewogICAgdmkubW9ja2VkKHdpbmRvdy5tYXRjaE1lZGlhKS5tb2NrUmV0dXJuVmFsdWUoewogICAgICBtYXRjaGVzOiBmYWxzZSwKICAgIH0gYXMgTWVkaWFRdWVyeUxpc3QpOwogICAgY29uc3QgZWwgPSBjcmVhdGVFbGVtZW50KCk7CiAgICBjb25zdCBlbFJlZiA9IHJlZjxIVE1MRWxlbWVudCB8IG51bGw+KGVsKTsKICAgIGNvbnN0IHsgb25Qb2ludGVyRG93biB9ID0gdXNlRHJhZ1Njcm9sbChlbFJlZik7CgogICAgb25Qb2ludGVyRG93bihkb3duRXZlbnQoMTAwKSk7CgogICAgZXhwZWN0KHdpbmRvd0xpc3RlbmVyc1sicG9pbnRlcm1vdmUiXSkudG9CZVVuZGVmaW5lZCgpOwogIH0pOwoKICBpdCgic2tpcHMgbW91c2UgZHJhZyBvbiBhIHRvdWNoLWNhcGFibGUgZGVza3RvcCBQQyIsICgpID0+IHsKICAgIHZpLnNweU9uKHdpbmRvdy5uYXZpZ2F0b3IsICJtYXhUb3VjaFBvaW50cyIsICJnZXQiKS5tb2NrUmV0dXJuVmFsdWUoNSk7CiAgICB2aS5zcHlPbih3aW5kb3cubmF2aWdhdG9yLCAicGxhdGZvcm0iLCAiZ2V0IikubW9ja1JldHVyblZhbHVlKCJXaW4zMiIpOwogICAgdmkuc3B5T24od2luZG93Lm5hdmlnYXRvciwgInVzZXJBZ2VudCIsICJnZXQiKS5tb2NrUmV0dXJuVmFsdWUoCiAgICAgICJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSIsCiAgICApOwogICAgY29uc3QgZWwgPSBjcmVhdGVFbGVtZW50KCk7CiAgICBjb25zdCBlbFJlZiA9IHJlZjxIVE1MRWxlbWVudCB8IG51bGw+KGVsKTsKICAgIGNvbnN0IHsgb25Qb2ludGVyRG93biB9ID0gdXNlRHJhZ1Njcm9sbChlbFJlZik7CgogICAgb25Qb2ludGVyRG93bihkb3duRXZlbnQoMTAwKSk7CgogICAgZXhwZWN0KHdpbmRvd0xpc3RlbmVyc1sicG9pbnRlcm1vdmUiXSkudG9CZVVuZGVmaW5lZCgpOwogIH0pOwoKICBpdCgicHJlc2VydmVzIHRoZSBmaXJzdCBjbGljayBpbiBhbiB1bnJlY29nbml6ZWQgdG91Y2ggV2ViVmlldyByZXBvcnRpbmcgbW91c2UgaW5wdXQiLCAoKSA9PiB7CiAgICB2aS5zcHlPbih3aW5kb3cubmF2aWdhdG9yLCAibWF4VG91Y2hQb2ludHMiLCAiZ2V0IikubW9ja1JldHVyblZhbHVlKDUpOwogICAgdmkuc3B5T24od2luZG93Lm5hdmlnYXRvciwgInBsYXRmb3JtIiwgImdldCIpLm1vY2tSZXR1cm5WYWx1ZSgiTGludXggYWFyY2g2NCIpOwogICAgdmkuc3B5T24od2luZG93Lm5hdmlnYXRvciwgInVzZXJBZ2VudCIsICJnZXQiKS5tb2NrUmV0dXJuVmFsdWUoCiAgICAgICJVbnJlY29nbml6ZWQgV2ViVmlldyIsCiAgICApOwogICAgdmkubW9ja2VkKHdpbmRvdy5tYXRjaE1lZGlhKS5tb2NrUmV0dXJuVmFsdWUoewogICAgICBtYXRjaGVzOiB0cnVlLAogICAgfSBhcyBNZWRpYVF1ZXJ5TGlzdCk7CiAgICBjb25zdCBlbCA9IGNyZWF0ZUVsZW1lbnQoKTsKICAgIGNvbnN0IGVsUmVmID0gcmVmPEhUTUxFbGVtZW50IHwgbnVsbD4oZWwpOwogICAgY29uc3QgeyBpc0RyYWdnaW5nLCBvblBvaW50ZXJEb3duIH0gPSB1c2VEcmFnU2Nyb2xsKGVsUmVmKTsKICAgIGNvbnN0IGRvd24gPSBkb3duRXZlbnQoMTAwKTsKICAgIE9iamVjdC5hc3NpZ24oZG93biwgeyB3aWR0aDogMSwgaGVpZ2h0OiAxIH0pOwoKICAgIG9uUG9pbnRlckRvd24oZG93bik7CiAgICBleHBlY3Qod2luZG93TGlzdGVuZXJzWyJwb2ludGVybW92ZSJdKS50b0JlVW5kZWZpbmVkKCk7CiAgICBjb25zdCBtb3ZlID0gbW92ZUV2ZW50KDEwOCk7CiAgICBlbWl0V2luZG93KCJwb2ludGVybW92ZSIsIG1vdmUpOwogICAgZW1pdFdpbmRvdygicG9pbnRlcnVwIiwgdXBFdmVudCgpKTsKICAgIGNvbnN0IGNsaWNrID0gZGlzcGF0Y2hDbGljayhlbCk7CgogICAgZXhwZWN0KGlzRHJhZ2dpbmcudmFsdWUpLnRvQmUoZmFsc2UpOwogICAgZXhwZWN0KGVsLnNjcm9sbExlZnQpLnRvQmUoMTAwKTsKICAgIGV4cGVjdChkb3duLnByZXZlbnREZWZhdWx0KS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogICAgZXhwZWN0KG1vdmUucHJldmVudERlZmF1bHQpLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICBleHBlY3QoY2xpY2sucHJldmVudERlZmF1bHQpLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICBleHBlY3QoY2xpY2suc3RvcFByb3BhZ2F0aW9uKS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogIH0pOwoKICBpdCgiaWdub3JlcyBtaXNjbGFzc2lmaWVkIG1vdXNlIGV2ZW50cyBpbiBhbiBBbmRyb2lkIFdlYlZpZXciLCAoKSA9PiB7CiAgICB2aS5zcHlPbih3aW5kb3cubmF2aWdhdG9yLCAibWF4VG91Y2hQb2ludHMiLCAiZ2V0IikubW9ja1JldHVyblZhbHVlKDUpOwogICAgdmkuc3B5T24od2luZG93Lm5hdmlnYXRvciwgInBsYXRmb3JtIiwgImdldCIpLm1vY2tSZXR1cm5WYWx1ZSgiTGludXggYXJtdjhsIik7CiAgICB2aS5zcHlPbih3aW5kb3cubmF2aWdhdG9yLCAidXNlckFnZW50IiwgImdldCIpLm1vY2tSZXR1cm5WYWx1ZSgKICAgICAgIk1vemlsbGEvNS4wIChMaW51eDsgQW5kcm9pZCAxMjsgSFVBV0VJKSBBcHBsZVdlYktpdC81MzcuMzYgTW9iaWxlIiwKICAgICk7CiAgICBjb25zdCBlbCA9IGNyZWF0ZUVsZW1lbnQoKTsKICAgIGNvbnN0IGVsUmVmID0gcmVmPEhUTUxFbGVtZW50IHwgbnVsbD4oZWwpOwogICAgY29uc3QgeyBvblBvaW50ZXJEb3duIH0gPSB1c2VEcmFnU2Nyb2xsKGVsUmVmKTsKCiAgICBvblBvaW50ZXJEb3duKGRvd25FdmVudCgxMDApKTsKCiAgICBleHBlY3Qod2luZG93TGlzdGVuZXJzWyJwb2ludGVybW92ZSJdKS50b0JlVW5kZWZpbmVkKCk7CiAgfSk7CgogIGl0KCJpZ25vcmVzIG1pc2NsYXNzaWZpZWQgbW91c2UgZXZlbnRzIGZyb20gaVBhZE9TIGRlc2t0b3AgbW9kZSIsICgpID0+IHsKICAgIHZpLnNweU9uKHdpbmRvdy5uYXZpZ2F0b3IsICJtYXhUb3VjaFBvaW50cyIsICJnZXQiKS5tb2NrUmV0dXJuVmFsdWUoNSk7CiAgICB2aS5zcHlPbih3aW5kb3cubmF2aWdhdG9yLCAicGxhdGZvcm0iLCAiZ2V0IikubW9ja1JldHVyblZhbHVlKCJNYWNJbnRlbCIpOwogICAgdmkuc3B5T24od2luZG93Lm5hdmlnYXRvciwgInVzZXJBZ2VudCIsICJnZXQiKS5tb2NrUmV0dXJuVmFsdWUoCiAgICAgICJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNSkgQXBwbGVXZWJLaXQvNjA1LjEuMTUiLAogICAgKTsKICAgIGNvbnN0IGVsID0gY3JlYXRlRWxlbWVudCgpOwogICAgY29uc3QgZWxSZWYgPSByZWY8SFRNTEVsZW1lbnQgfCBudWxsPihlbCk7CiAgICBjb25zdCB7IG9uUG9pbnRlckRvd24gfSA9IHVzZURyYWdTY3JvbGwoZWxSZWYpOwoKICAgIG9uUG9pbnRlckRvd24oZG93bkV2ZW50KDEwMCkpOwoKICAgIGV4cGVjdCh3aW5kb3dMaXN0ZW5lcnNbInBvaW50ZXJtb3ZlIl0pLnRvQmVVbmRlZmluZWQoKTsKICB9KTsKCiAgaXQoImlnbm9yZXMgV2ViVmlldyBtb3VzZSBldmVudHMgdGhhdCBvcmlnaW5hdGVkIGZyb20gdG91Y2giLCAoKSA9PiB7CiAgICBjb25zdCBlbCA9IGNyZWF0ZUVsZW1lbnQoKTsKICAgIGNvbnN0IGVsUmVmID0gcmVmPEhUTUxFbGVtZW50IHwgbnVsbD4oZWwpOwogICAgY29uc3QgeyBvblBvaW50ZXJEb3duIH0gPSB1c2VEcmFnU2Nyb2xsKGVsUmVmKTsKICAgIGNvbnN0IGV2ZW50ID0gZG93bkV2ZW50KDEwMCkgYXMgUG9pbnRlckV2ZW50ICYgewogICAgICBzb3VyY2VDYXBhYmlsaXRpZXM/OiB7IGZpcmVzVG91Y2hFdmVudHM/OiBib29sZWFuIH07CiAgICB9OwogICAgZXZlbnQuc291cmNlQ2FwYWJpbGl0aWVzID0geyBmaXJlc1RvdWNoRXZlbnRzOiB0cnVlIH07CgogICAgb25Qb2ludGVyRG93bihldmVudCk7CgogICAgZXhwZWN0KHdpbmRvd0xpc3RlbmVyc1sicG9pbnRlcm1vdmUiXSkudG9CZVVuZGVmaW5lZCgpOwogIH0pOwoKICBpdCgiaWdub3JlcyBtaXNjbGFzc2lmaWVkIG1vdXNlIGV2ZW50cyB3aXRoIHRvdWNoIGNvbnRhY3QgZ2VvbWV0cnkiLCAoKSA9PiB7CiAgICBjb25zdCBlbCA9IGNyZWF0ZUVsZW1lbnQoKTsKICAgIGNvbnN0IGVsUmVmID0gcmVmPEhUTUxFbGVtZW50IHwgbnVsbD4oZWwpOwogICAgY29uc3QgeyBvblBvaW50ZXJEb3duIH0gPSB1c2VEcmFnU2Nyb2xsKGVsUmVmKTsKICAgIGNvbnN0IGV2ZW50ID0gZG93bkV2ZW50KDEwMCk7CiAgICBPYmplY3QuYXNzaWduKGV2ZW50LCB7IHdpZHRoOiAxMiwgaGVpZ2h0OiAxMCB9KTsKCiAgICBvblBvaW50ZXJEb3duKGV2ZW50KTsKCiAgICBleHBlY3Qod2luZG93TGlzdGVuZXJzWyJwb2ludGVybW92ZSJdKS50b0JlVW5kZWZpbmVkKCk7CiAgfSk7CgogIGl0KCJkb2VzIG5vdGhpbmcgd2hlbiB0aGUgY29udGVudCBmaXRzIHdpdGhpbiB0aGUgdmlld3BvcnQiLCAoKSA9PiB7CiAgICBjb25zdCBlbCA9IGNyZWF0ZUVsZW1lbnQoeyBzY3JvbGxXaWR0aDogMjAwLCBjbGllbnRXaWR0aDogMjAwIH0pOwogICAgY29uc3QgZWxSZWYgPSByZWY8SFRNTEVsZW1lbnQgfCBudWxsPihlbCk7CiAgICBjb25zdCB7IGlzRHJhZ2dpbmcsIG9uUG9pbnRlckRvd24gfSA9IHVzZURyYWdTY3JvbGwoZWxSZWYpOwoKICAgIG9uUG9pbnRlckRvd24oZG93bkV2ZW50KDEwMCkpOwogICAgZXhwZWN0KGlzRHJhZ2dpbmcudmFsdWUpLnRvQmUoZmFsc2UpOwogICAgZXhwZWN0KGVsLnNldFBvaW50ZXJDYXB0dXJlKS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogICAgZXhwZWN0KHdpbmRvd0xpc3RlbmVyc1sicG9pbnRlcm1vdmUiXSkudG9CZVVuZGVmaW5lZCgpOwogIH0pOwp9KTsK
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { ref } from "vue";
+import { useDragScroll } from "../src/composables/useDragScroll";
+
+type Listener = (event: Event) => void;
+
+interface FakeScrollElement {
+  scrollWidth: number;
+  clientWidth: number;
+  scrollLeft: number;
+  setPointerCapture: ReturnType<typeof vi.fn>;
+  hasPointerCapture: ReturnType<typeof vi.fn>;
+  releasePointerCapture: ReturnType<typeof vi.fn>;
+  listeners: Record<string, Listener[]>;
+}
+
+const createElement = (overrides: Partial<FakeScrollElement> = {}) => {
+  let scrollLeft = 100;
+  const listeners: Record<string, Listener[]> = {};
+  const el = {
+    scrollWidth: 500,
+    clientWidth: 200,
+    get scrollLeft() {
+      return scrollLeft;
+    },
+    set scrollLeft(value: number) {
+      scrollLeft = value;
+    },
+    setPointerCapture: vi.fn(),
+    hasPointerCapture: vi.fn(() => true),
+    releasePointerCapture: vi.fn(),
+    addEventListener: vi.fn((type: string, listener: Listener) => {
+      (listeners[type] ??= []).push(listener);
+    }),
+    removeEventListener: vi.fn((type: string, listener: Listener) => {
+      listeners[type] = (listeners[type] ?? []).filter(
+        (item) => item !== listener,
+      );
+    }),
+    listeners,
+    ...overrides,
+  };
+  return el as unknown as HTMLElement & FakeScrollElement;
+};
+
+const downEvent = (clientX: number): PointerEvent =>
+  ({
+    button: 0,
+    pointerType: "mouse",
+    pointerId: 1,
+    clientX,
+    preventDefault: vi.fn(),
+  }) as unknown as PointerEvent;
+
+const moveEvent = (clientX: number): PointerEvent =>
+  ({
+    pointerId: 1,
+    clientX,
+    preventDefault: vi.fn(),
+  }) as unknown as PointerEvent;
+
+const upEvent = (): PointerEvent =>
+  ({ pointerId: 1, type: "pointerup" }) as unknown as PointerEvent;
+
+let windowListeners: Record<string, Listener[]>;
+
+beforeEach(() => {
+  windowListeners = {};
+  vi.stubGlobal(
+    "matchMedia",
+    vi.fn(() => ({ matches: true })),
+  );
+  vi.spyOn(window, "addEventListener").mockImplementation(
+    (type: string, listener: EventListenerOrEventListenerObject) => {
+      (windowListeners[type] ??= []).push(listener as Listener);
+    },
+  );
+  vi.spyOn(window, "removeEventListener").mockImplementation(
+    (type: string, listener: EventListenerOrEventListenerObject) => {
+      windowListeners[type] = (windowListeners[type] ?? []).filter(
+        (item) => item !== (listener as Listener),
+      );
+    },
+  );
+});
+
+afterEach(() => {
+  vi.unstubAllGlobals();
+  vi.restoreAllMocks();
+});
+
+const emitWindow = (type: string, event: Event) => {
+  for (const listener of windowListeners[type] ?? []) listener(event);
+};
+
+const dispatchClick = (el: FakeScrollElement): MouseEvent => {
+  const event = {
+    preventDefault: vi.fn(),
+    stopPropagation: vi.fn(),
+  } as unknown as MouseEvent;
+  for (const listener of el.listeners["click"] ?? []) listener(event);
+  return event;
+};
+
+describe("useDragScroll", () => {
+  it("scrolls horizontally while dragging beyond the threshold", () => {
+    const el = createElement();
+    const elRef = ref<HTMLElement | null>(el);
+    const { isDragging, onPointerDown } = useDragScroll(elRef);
+
+    const down = downEvent(100);
+    onPointerDown(down);
+    expect(isDragging.value).toBe(false);
+    expect(down.preventDefault).not.toHaveBeenCalled();
+    expect(el.setPointerCapture).not.toHaveBeenCalled();
+    expect(windowListeners["pointermove"]).toHaveLength(1);
+
+    // Below the 6px threshold: no scrolling yet and the gesture remains a click.
+    emitWindow("pointermove", moveEvent(102));
+    expect(el.scrollLeft).toBe(100);
+    expect(isDragging.value).toBe(false);
+
+    // Dragging 50px to the right scrolls content 50px to the left.
+    const move = moveEvent(150);
+    emitWindow("pointermove", move);
+    expect(el.scrollLeft).toBe(50);
+    expect(isDragging.value).toBe(true);
+    expect(move.preventDefault).toHaveBeenCalledTimes(1);
+
+    emitWindow("pointerup", upEvent());
+    expect(isDragging.value).toBe(false);
+    expect(el.releasePointerCapture).not.toHaveBeenCalled();
+    expect(windowListeners["pointermove"]).toHaveLength(0);
+  });
+
+  it("ends the drag when the pointer is released outside the element", () => {
+    const el = createElement();
+    const elRef = ref<HTMLElement | null>(el);
+    const { isDragging, onPointerDown } = useDragScroll(elRef);
+
+    onPointerDown(downEvent(100));
+    // The pointerup lands on window (outside the area) instead of the element.
+    emitWindow("pointerup", upEvent());
+
+    expect(isDragging.value).toBe(false);
+    expect(windowListeners["pointermove"]).toHaveLength(0);
+    expect(windowListeners["pointerup"]).toHaveLength(0);
+    expect(windowListeners["blur"]).toHaveLength(0);
+  });
+
+  it("ends the drag when the window loses focus mid-drag", () => {
+    const el = createElement();
+    const elRef = ref<HTMLElement | null>(el);
+    const { isDragging, onPointerDown } = useDragScroll(elRef);
+
+    onPointerDown(downEvent(100));
+    emitWindow("pointermove", moveEvent(120));
+    expect(isDragging.value).toBe(true);
+
+    emitWindow("blur", new Event("blur"));
+    expect(isDragging.value).toBe(false);
+    expect(windowListeners["pointermove"]).toHaveLength(0);
+  });
+
+  it("suppresses the click that follows a real drag", () => {
+    const el = createElement();
+    const elRef = ref<HTMLElement | null>(el);
+    const { onPointerDown } = useDragScroll(elRef);
+
+    onPointerDown(downEvent(100));
+    emitWindow("pointermove", moveEvent(130));
+    emitWindow("pointerup", upEvent());
+
+    const click = dispatchClick(el);
+    expect(click.preventDefault).toHaveBeenCalledTimes(1);
+    expect(click.stopPropagation).toHaveBeenCalledTimes(1);
+  });
+
+  it("keeps a clean click (no drag) clickable", () => {
+    const el = createElement();
+    const elRef = ref<HTMLElement | null>(el);
+    const { onPointerDown } = useDragScroll(elRef);
+
+    onPointerDown(downEvent(100));
+    emitWindow("pointerup", upEvent());
+
+    const click = dispatchClick(el);
+    expect(click.preventDefault).not.toHaveBeenCalled();
+    expect(click.stopPropagation).not.toHaveBeenCalled();
+  });
+
+  it("keeps a click with small pointer jitter clickable", () => {
+    const el = createElement();
+    const elRef = ref<HTMLElement | null>(el);
+    const { isDragging, onPointerDown } = useDragScroll(elRef);
+
+    const down = downEvent(100);
+    onPointerDown(down);
+    emitWindow("pointermove", moveEvent(105));
+    emitWindow("pointerup", upEvent());
+
+    const click = dispatchClick(el);
+    expect(isDragging.value).toBe(false);
+    expect(down.preventDefault).not.toHaveBeenCalled();
+    expect(click.preventDefault).not.toHaveBeenCalled();
+    expect(click.stopPropagation).not.toHaveBeenCalled();
+  });
+
+  it("does not suppress a later click when a drag produces no click", () => {
+    vi.useFakeTimers();
+    const el = createElement();
+    const elRef = ref<HTMLElement | null>(el);
+    const { onPointerDown } = useDragScroll(elRef);
+
+    onPointerDown(downEvent(100));
+    emitWindow("pointermove", moveEvent(130));
+    emitWindow("pointerup", upEvent());
+    vi.runAllTimers();
+
+    const click = dispatchClick(el);
+    expect(click.preventDefault).not.toHaveBeenCalled();
+    expect(click.stopPropagation).not.toHaveBeenCalled();
+    vi.useRealTimers();
+  });
+
+  it("ignores non-mouse pointers so touch keeps native panning", () => {
+    const el = createElement();
+    const elRef = ref<HTMLElement | null>(el);
+    const { isDragging, onPointerDown } = useDragScroll(elRef);
+
+    onPointerDown({
+      button: 0,
+      pointerType: "touch",
+      pointerId: 2,
+      clientX: 100,
+    } as unknown as PointerEvent);
+    expect(isDragging.value).toBe(false);
+    expect(el.setPointerCapture).not.toHaveBeenCalled();
+    expect(windowListeners["pointermove"]).toBeUndefined();
+  });
+
+  it("ignores mouse-like events on coarse non-hover touch devices", () => {
+    vi.mocked(window.matchMedia).mockReturnValue({
+      matches: false,
+    } as MediaQueryList);
+    const el = createElement();
+    const elRef = ref<HTMLElement | null>(el);
+    const { onPointerDown } = useDragScroll(elRef);
+
+    onPointerDown(downEvent(100));
+
+    expect(windowListeners["pointermove"]).toBeUndefined();
+  });
+
+  it("skips mouse drag on a touch-capable desktop PC", () => {
+    vi.spyOn(window.navigator, "maxTouchPoints", "get").mockReturnValue(5);
+    vi.spyOn(window.navigator, "platform", "get").mockReturnValue("Win32");
+    vi.spyOn(window.navigator, "userAgent", "get").mockReturnValue(
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+    );
+    const el = createElement();
+    const elRef = ref<HTMLElement | null>(el);
+    const { onPointerDown } = useDragScroll(elRef);
+
+    onPointerDown(downEvent(100));
+
+    expect(windowListeners["pointermove"]).toBeUndefined();
+  });
+
+  it("preserves the first click in an unrecognized touch WebView reporting mouse input", () => {
+    vi.spyOn(window.navigator, "maxTouchPoints", "get").mockReturnValue(5);
+    vi.spyOn(window.navigator, "platform", "get").mockReturnValue("Linux aarch64");
+    vi.spyOn(window.navigator, "userAgent", "get").mockReturnValue(
+      "Unrecognized WebView",
+    );
+    vi.mocked(window.matchMedia).mockReturnValue({
+      matches: true,
+    } as MediaQueryList);
+    const el = createElement();
+    const elRef = ref<HTMLElement | null>(el);
+    const { isDragging, onPointerDown } = useDragScroll(elRef);
+    const down = downEvent(100);
+    Object.assign(down, { width: 1, height: 1 });
+
+    onPointerDown(down);
+    expect(windowListeners["pointermove"]).toBeUndefined();
+    const move = moveEvent(108);
+    emitWindow("pointermove", move);
+    emitWindow("pointerup", upEvent());
+    const click = dispatchClick(el);
+
+    expect(isDragging.value).toBe(false);
+    expect(el.scrollLeft).toBe(100);
+    expect(down.preventDefault).not.toHaveBeenCalled();
+    expect(move.preventDefault).not.toHaveBeenCalled();
+    expect(click.preventDefault).not.toHaveBeenCalled();
+    expect(click.stopPropagation).not.toHaveBeenCalled();
+  });
+
+  it("ignores misclassified mouse events in an Android WebView", () => {
+    vi.spyOn(window.navigator, "maxTouchPoints", "get").mockReturnValue(5);
+    vi.spyOn(window.navigator, "platform", "get").mockReturnValue("Linux armv8l");
+    vi.spyOn(window.navigator, "userAgent", "get").mockReturnValue(
+      "Mozilla/5.0 (Linux; Android 12; HUAWEI) AppleWebKit/537.36 Mobile",
+    );
+    const el = createElement();
+    const elRef = ref<HTMLElement | null>(el);
+    const { onPointerDown } = useDragScroll(elRef);
+
+    onPointerDown(downEvent(100));
+
+    expect(windowListeners["pointermove"]).toBeUndefined();
+  });
+
+  it("ignores misclassified mouse events from iPadOS desktop mode", () => {
+    vi.spyOn(window.navigator, "maxTouchPoints", "get").mockReturnValue(5);
+    vi.spyOn(window.navigator, "platform", "get").mockReturnValue("MacIntel");
+    vi.spyOn(window.navigator, "userAgent", "get").mockReturnValue(
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15",
+    );
+    const el = createElement();
+    const elRef = ref<HTMLElement | null>(el);
+    const { onPointerDown } = useDragScroll(elRef);
+
+    onPointerDown(downEvent(100));
+
+    expect(windowListeners["pointermove"]).toBeUndefined();
+  });
+
+  it("ignores WebView mouse events that originated from touch", () => {
+    const el = createElement();
+    const elRef = ref<HTMLElement | null>(el);
+    const { onPointerDown } = useDragScroll(elRef);
+    const event = downEvent(100) as PointerEvent & {
+      sourceCapabilities?: { firesTouchEvents?: boolean };
+    };
+    event.sourceCapabilities = { firesTouchEvents: true };
+
+    onPointerDown(event);
+
+    expect(windowListeners["pointermove"]).toBeUndefined();
+  });
+
+  it("ignores misclassified mouse events with touch contact geometry", () => {
+    const el = createElement();
+    const elRef = ref<HTMLElement | null>(el);
+    const { onPointerDown } = useDragScroll(elRef);
+    const event = downEvent(100);
+    Object.assign(event, { width: 12, height: 10 });
+
+    onPointerDown(event);
+
+    expect(windowListeners["pointermove"]).toBeUndefined();
+  });
+
+  it("does nothing when the content fits within the viewport", () => {
+    const el = createElement({ scrollWidth: 200, clientWidth: 200 });
+    const elRef = ref<HTMLElement | null>(el);
+    const { isDragging, onPointerDown } = useDragScroll(elRef);
+
+    onPointerDown(downEvent(100));
+    expect(isDragging.value).toBe(false);
+    expect(el.setPointerCapture).not.toHaveBeenCalled();
+    expect(windowListeners["pointermove"]).toBeUndefined();
+  });
+});

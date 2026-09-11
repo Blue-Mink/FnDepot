@@ -1,1 +1,276 @@
-aW1wb3J0IHR5cGUgewogIE5vdGlmaWNhdGlvbkRlbGl2ZXJ5TGlzdFBheWxvYWQsCiAgTm90aWZpY2F0aW9uRGVsaXZlcnlTdGF0dXMsCiAgTm90aWZpY2F0aW9uUHJvdmlkZXJDYXRhbG9nUGF5bG9hZCwKICBOb3RpZmljYXRpb25Qcm92aWRlckRldGFpbFZpZXcsCiAgTm90aWZpY2F0aW9uUHJvdmlkZXJMaXN0UGF5bG9hZCwKICBOb3RpZmljYXRpb25SdWxlTGlzdFBheWxvYWQsCiAgTm90aWZpY2F0aW9uVHJpZ2dlckxpc3RQYXlsb2FkLAogIE5vdGlmaWNhdGlvblRyaWdnZXJTdGF0dXMsCiAgU3lzdGVtRXZlbnRMZXZlbCwKICBTeXN0ZW1FdmVudFNvdXJjZSwKICBTeXN0ZW1FdmVudFR5cGUsCn0gZnJvbSAiLi4vLi4vdHlwZXMiOwppbXBvcnQgdHlwZSB7CiAgY29tcG9uZW50cyBhcyBBcGlDb250cmFjdENvbXBvbmVudHMsCiAgb3BlcmF0aW9ucyBhcyBBcGlDb250cmFjdE9wZXJhdGlvbnMsCn0gZnJvbSAiQGZuLWtub2NrL2FwaS1jb250cmFjdCI7CmltcG9ydCB7IGFwaUNsaWVudCB9IGZyb20gIi4vY2xpZW50IjsKCnR5cGUgR2V0RXZlbnRzT3BlcmF0aW9uID0gQXBpQ29udHJhY3RPcGVyYXRpb25zWyJnZXRfYXBpX2FkbWluX2V2ZW50cyJdOwp0eXBlIEdldEV2ZW50c1F1ZXJ5ID0gTm9uTnVsbGFibGU8R2V0RXZlbnRzT3BlcmF0aW9uWyJwYXJhbWV0ZXJzIl1bInF1ZXJ5Il0+Owp0eXBlIEdldEV2ZW50c1Jlc3BvbnNlID0KICBHZXRFdmVudHNPcGVyYXRpb25bInJlc3BvbnNlcyJdWzIwMF1bImNvbnRlbnQiXVsiYXBwbGljYXRpb24vanNvbiJdOwp0eXBlIERlbGV0ZUV2ZW50c09wZXJhdGlvbiA9IEFwaUNvbnRyYWN0T3BlcmF0aW9uc1siZGVsZXRlX2FwaV9hZG1pbl9ldmVudHMiXTsKdHlwZSBEZWxldGVFdmVudHNCb2R5ID0KICBEZWxldGVFdmVudHNPcGVyYXRpb25bInJlcXVlc3RCb2R5Il1bImNvbnRlbnQiXVsiYXBwbGljYXRpb24vanNvbiJdOwp0eXBlIERlbGV0ZUV2ZW50c1Jlc3BvbnNlID0KICBEZWxldGVFdmVudHNPcGVyYXRpb25bInJlc3BvbnNlcyJdWzIwMF1bImNvbnRlbnQiXVsiYXBwbGljYXRpb24vanNvbiJdOwp0eXBlIENsZWFyRXZlbnRzUmVzcG9uc2UgPQogIEFwaUNvbnRyYWN0T3BlcmF0aW9uc1siZGVsZXRlX2FwaV9hZG1pbl9ldmVudHNfY2xlYXIiXVsicmVzcG9uc2VzIl1bMjAwXVsiY29udGVudCJdWyJhcHBsaWNhdGlvbi9qc29uIl07CnR5cGUgTm90aWZpY2F0aW9uU2NoZW1hcyA9IEFwaUNvbnRyYWN0Q29tcG9uZW50c1sic2NoZW1hcyJdOwp0eXBlIE5vdGlmaWNhdGlvblByb3ZpZGVyQ3JlYXRlQm9keSA9CiAgTm90aWZpY2F0aW9uU2NoZW1hc1siTm90aWZpY2F0aW9uUHJvdmlkZXJDcmVhdGVCb2R5RGF0YSJdOwp0eXBlIE5vdGlmaWNhdGlvblByb3ZpZGVyVXBkYXRlQm9keSA9CiAgTm90aWZpY2F0aW9uU2NoZW1hc1siTm90aWZpY2F0aW9uUHJvdmlkZXJVcGRhdGVCb2R5RGF0YSJdOwp0eXBlIE5vdGlmaWNhdGlvblByb3ZpZGVyVGVzdEJvZHkgPQogIE5vdGlmaWNhdGlvblNjaGVtYXNbIk5vdGlmaWNhdGlvblByb3ZpZGVyVGVzdEJvZHlEYXRhIl07CnR5cGUgTm90aWZpY2F0aW9uV2ViaG9va0JvZHlQcmV2aWV3UmVzcG9uc2UgPQogIEFwaUNvbnRyYWN0T3BlcmF0aW9uc1sicG9zdF9hcGlfYWRtaW5fbm90aWZpY2F0aW9uc19wcm92aWRlcnNfd2ViaG9va19wcmV2aWV3Il1bInJlc3BvbnNlcyJdWzIwMF1bImNvbnRlbnQiXVsiYXBwbGljYXRpb24vanNvbiJdOwp0eXBlIE5vdGlmaWNhdGlvbldlYmhvb2tCb2R5UHJldmlld0JvZHkgPQogIE5vdGlmaWNhdGlvblNjaGVtYXNbIk5vdGlmaWNhdGlvbldlYmhvb2tCb2R5UHJldmlld0JvZHlEYXRhIl07CnR5cGUgTm90aWZpY2F0aW9uUnVsZUNyZWF0ZUJvZHkgPQogIE5vdGlmaWNhdGlvblNjaGVtYXNbIk5vdGlmaWNhdGlvblJ1bGVDcmVhdGVCb2R5RGF0YSJdOwp0eXBlIE5vdGlmaWNhdGlvblJ1bGVVcGRhdGVCb2R5ID0KICBOb3RpZmljYXRpb25TY2hlbWFzWyJOb3RpZmljYXRpb25SdWxlVXBkYXRlQm9keURhdGEiXTsKdHlwZSBOb3RpZmljYXRpb25UcmlnZ2VyUXVlcnkgPSBOb25OdWxsYWJsZTwKICBBcGlDb250cmFjdE9wZXJhdGlvbnNbImdldF9hcGlfYWRtaW5fbm90aWZpY2F0aW9uc190cmlnZ2VycyJdWyJwYXJhbWV0ZXJzIl1bInF1ZXJ5Il0KPjsKdHlwZSBOb3RpZmljYXRpb25EZWxpdmVyeVF1ZXJ5ID0gTm9uTnVsbGFibGU8CiAgQXBpQ29udHJhY3RPcGVyYXRpb25zWyJnZXRfYXBpX2FkbWluX25vdGlmaWNhdGlvbnNfZGVsaXZlcmllcyJdWyJwYXJhbWV0ZXJzIl1bInF1ZXJ5Il0KPjsKdHlwZSBOb3RpZmljYXRpb25EZWxpdmVyeUNsZWFyQm9keSA9CiAgTm90aWZpY2F0aW9uU2NoZW1hc1siTm90aWZpY2F0aW9uRGVsaXZlcnlDbGVhckJvZHlEYXRhIl07CgpleHBvcnQgdHlwZSB7CiAgTm90aWZpY2F0aW9uRGVsaXZlcnlMaXN0UGF5bG9hZCwKICBOb3RpZmljYXRpb25EZWxpdmVyeVN0YXR1cywKICBOb3RpZmljYXRpb25Qcm92aWRlckNhdGFsb2dQYXlsb2FkLAogIE5vdGlmaWNhdGlvblByb3ZpZGVyRGV0YWlsVmlldywKICBOb3RpZmljYXRpb25Qcm92aWRlckxpc3RQYXlsb2FkLAogIE5vdGlmaWNhdGlvblJ1bGVMaXN0UGF5bG9hZCwKICBOb3RpZmljYXRpb25UcmlnZ2VyTGlzdFBheWxvYWQsCiAgTm90aWZpY2F0aW9uVHJpZ2dlclN0YXR1cywKICBPSURDQmluZGluZywKICBPSURDUHJvdmlkZXJDYXRhbG9nSXRlbSwKICBPSURDUHJvdmlkZXJWaWV3LAogIFN5c3RlbUV2ZW50TGV2ZWwsCiAgU3lzdGVtRXZlbnRMaXN0UGF5bG9hZCwKICBTeXN0ZW1FdmVudFNvdXJjZSwKICBTeXN0ZW1FdmVudFR5cGUsCn0gZnJvbSAiLi4vLi4vdHlwZXMiOwoKZXhwb3J0IGNvbnN0IEV2ZW50Q2VudGVyQVBJID0gewogIGFzeW5jIGdldEV2ZW50cygKICAgIHBhcmFtczogewogICAgICBwYWdlOiBudW1iZXI7CiAgICAgIGxpbWl0OiBzdHJpbmc7CiAgICAgIHNlYXJjaDogc3RyaW5nOwogICAgICB0eXBlPzogU3lzdGVtRXZlbnRUeXBlIHwgImFsbCI7CiAgICAgIGxldmVsPzogU3lzdGVtRXZlbnRMZXZlbCB8ICJhbGwiOwogICAgICBzb3VyY2U/OiBTeXN0ZW1FdmVudFNvdXJjZSB8ICJhbGwiOwogICAgICB0cmFjZUlkPzogc3RyaW5nOwogICAgfSwKICAgIHNpZ25hbD86IEFib3J0U2lnbmFsLAogICk6IFByb21pc2U8R2V0RXZlbnRzUmVzcG9uc2U+IHsKICAgIGNvbnN0IHF1ZXJ5ID0gewogICAgICBwYWdlOiBwYXJhbXMucGFnZSwKICAgICAgbGltaXQ6IHBhcmFtcy5saW1pdCwKICAgICAgc2VhcmNoOiBwYXJhbXMuc2VhcmNoLAogICAgICB0eXBlOiBwYXJhbXMudHlwZSAmJiBwYXJhbXMudHlwZSAhPT0gImFsbCIgPyBwYXJhbXMudHlwZSA6IHVuZGVmaW5lZCwKICAgICAgbGV2ZWw6IHBhcmFtcy5sZXZlbCAmJiBwYXJhbXMubGV2ZWwgIT09ICJhbGwiID8gcGFyYW1zLmxldmVsIDogdW5kZWZpbmVkLAogICAgICBzb3VyY2U6CiAgICAgICAgcGFyYW1zLnNvdXJjZSAmJiBwYXJhbXMuc291cmNlICE9PSAiYWxsIiA/IHBhcmFtcy5zb3VyY2UgOiB1bmRlZmluZWQsCiAgICAgIHRyYWNlX2lkOiBwYXJhbXMudHJhY2VJZD8udHJpbSgpIHx8IHVuZGVmaW5lZCwKICAgIH0gc2F0aXNmaWVzIEdldEV2ZW50c1F1ZXJ5OwogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2V2ZW50cyIsIHsKICAgICAgcGFyYW1zOiBxdWVyeSwKICAgICAgc2lnbmFsLAogICAgfSk7CiAgICByZXR1cm4gcmVzLmRhdGE7CiAgfSwKICBhc3luYyBkZWxldGVFdmVudHMoaWRzOiBzdHJpbmdbXSk6IFByb21pc2U8RGVsZXRlRXZlbnRzUmVzcG9uc2U+IHsKICAgIGNvbnN0IGJvZHkgPSB7IGlkcyB9IHNhdGlzZmllcyBEZWxldGVFdmVudHNCb2R5OwogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmRlbGV0ZSgiL2V2ZW50cyIsIHsgZGF0YTogYm9keSB9KTsKICAgIHJldHVybiByZXMuZGF0YTsKICB9LAogIGFzeW5jIGNsZWFyRXZlbnRzKCk6IFByb21pc2U8Q2xlYXJFdmVudHNSZXNwb25zZT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmRlbGV0ZSgiL2V2ZW50cy9jbGVhciIpOwogICAgcmV0dXJuIHJlcy5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0Tm90aWZpY2F0aW9uUHJvdmlkZXJDYXRhbG9nKCk6IFByb21pc2U8ewogICAgc3VjY2VzczogYm9vbGVhbjsKICAgIGRhdGE6IE5vdGlmaWNhdGlvblByb3ZpZGVyQ2F0YWxvZ1BheWxvYWQ7CiAgICBtZXNzYWdlPzogc3RyaW5nOwogIH0+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9ub3RpZmljYXRpb25zL3Byb3ZpZGVycy9jYXRhbG9nIik7CiAgICByZXR1cm4gcmVzLmRhdGE7CiAgfSwKICBhc3luYyBnZXROb3RpZmljYXRpb25Qcm92aWRlcnMoKTogUHJvbWlzZTx7CiAgICBzdWNjZXNzOiBib29sZWFuOwogICAgZGF0YTogTm90aWZpY2F0aW9uUHJvdmlkZXJMaXN0UGF5bG9hZDsKICAgIG1lc3NhZ2U/OiBzdHJpbmc7CiAgfT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL25vdGlmaWNhdGlvbnMvcHJvdmlkZXJzIik7CiAgICByZXR1cm4gcmVzLmRhdGE7CiAgfSwKICBhc3luYyBnZXROb3RpZmljYXRpb25Qcm92aWRlcihpZDogc3RyaW5nKTogUHJvbWlzZTx7CiAgICBzdWNjZXNzOiBib29sZWFuOwogICAgZGF0YTogTm90aWZpY2F0aW9uUHJvdmlkZXJEZXRhaWxWaWV3OwogICAgbWVzc2FnZT86IHN0cmluZzsKICB9PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KAogICAgICBgL25vdGlmaWNhdGlvbnMvcHJvdmlkZXJzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX1gLAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YTsKICB9LAogIGFzeW5jIGNyZWF0ZU5vdGlmaWNhdGlvblByb3ZpZGVyKHBheWxvYWQ6IE5vdGlmaWNhdGlvblByb3ZpZGVyQ3JlYXRlQm9keSkgewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9ub3RpZmljYXRpb25zL3Byb3ZpZGVycyIsIHBheWxvYWQpOwogICAgcmV0dXJuIHJlcy5kYXRhOwogIH0sCiAgYXN5bmMgdXBkYXRlTm90aWZpY2F0aW9uUHJvdmlkZXIoCiAgICBpZDogc3RyaW5nLAogICAgcGF5bG9hZDogTm90aWZpY2F0aW9uUHJvdmlkZXJVcGRhdGVCb2R5LAogICkgewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBhdGNoKAogICAgICBgL25vdGlmaWNhdGlvbnMvcHJvdmlkZXJzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX1gLAogICAgICBwYXlsb2FkLAogICAgKTsKICAgIHJldHVybiByZXMuZGF0YTsKICB9LAogIGFzeW5jIGRlbGV0ZU5vdGlmaWNhdGlvblByb3ZpZGVyKGlkOiBzdHJpbmcpIHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5kZWxldGUoCiAgICAgIGAvbm90aWZpY2F0aW9ucy9wcm92aWRlcnMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfWAsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhOwogIH0sCiAgYXN5bmMgdGVzdE5vdGlmaWNhdGlvblByb3ZpZGVyKGlkOiBzdHJpbmcpIHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KAogICAgICBgL25vdGlmaWNhdGlvbnMvcHJvdmlkZXJzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KGlkKX0vdGVzdGAsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhOwogIH0sCiAgYXN5bmMgdGVzdE5vdGlmaWNhdGlvblByb3ZpZGVyRHJhZnQocGF5bG9hZDogTm90aWZpY2F0aW9uUHJvdmlkZXJUZXN0Qm9keSkgewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9ub3RpZmljYXRpb25zL3Byb3ZpZGVycy90ZXN0IiwgcGF5bG9hZCk7CiAgICByZXR1cm4gcmVzLmRhdGE7CiAgfSwKICBhc3luYyBwcmV2aWV3Tm90aWZpY2F0aW9uV2ViaG9va0JvZHkoCiAgICBwYXlsb2FkOiBOb3RpZmljYXRpb25XZWJob29rQm9keVByZXZpZXdCb2R5LAogICk6IFByb21pc2U8Tm90aWZpY2F0aW9uV2ViaG9va0JvZHlQcmV2aWV3UmVzcG9uc2U+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5wb3N0KAogICAgICAiL25vdGlmaWNhdGlvbnMvcHJvdmlkZXJzL3dlYmhvb2svcHJldmlldyIsCiAgICAgIHBheWxvYWQsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0Tm90aWZpY2F0aW9uUnVsZXMoKTogUHJvbWlzZTx7CiAgICBzdWNjZXNzOiBib29sZWFuOwogICAgZGF0YTogTm90aWZpY2F0aW9uUnVsZUxpc3RQYXlsb2FkOwogICAgbWVzc2FnZT86IHN0cmluZzsKICB9PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvbm90aWZpY2F0aW9ucy9ydWxlcyIpOwogICAgcmV0dXJuIHJlcy5kYXRhOwogIH0sCiAgYXN5bmMgY3JlYXRlTm90aWZpY2F0aW9uUnVsZShwYXlsb2FkOiBOb3RpZmljYXRpb25SdWxlQ3JlYXRlQm9keSkgewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBvc3QoIi9ub3RpZmljYXRpb25zL3J1bGVzIiwgcGF5bG9hZCk7CiAgICByZXR1cm4gcmVzLmRhdGE7CiAgfSwKICBhc3luYyB1cGRhdGVOb3RpZmljYXRpb25SdWxlKAogICAgaWQ6IHN0cmluZywKICAgIHBheWxvYWQ6IE5vdGlmaWNhdGlvblJ1bGVVcGRhdGVCb2R5LAogICkgewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LnBhdGNoKAogICAgICBgL25vdGlmaWNhdGlvbnMvcnVsZXMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfWAsCiAgICAgIHBheWxvYWQsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhOwogIH0sCiAgYXN5bmMgZGVsZXRlTm90aWZpY2F0aW9uUnVsZShpZDogc3RyaW5nKSB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZGVsZXRlKAogICAgICBgL25vdGlmaWNhdGlvbnMvcnVsZXMvJHtlbmNvZGVVUklDb21wb25lbnQoaWQpfWAsCiAgICApOwogICAgcmV0dXJuIHJlcy5kYXRhOwogIH0sCiAgYXN5bmMgZ2V0Tm90aWZpY2F0aW9uVHJpZ2dlcnMocGFyYW1zOiB7CiAgICBwYWdlOiBudW1iZXI7CiAgICBsaW1pdDogbnVtYmVyOwogICAgcnVsZV9pZD86IHN0cmluZzsKICAgIHN0YXR1cz86IE5vdGlmaWNhdGlvblRyaWdnZXJTdGF0dXMgfCAiYWxsIjsKICB9KTogUHJvbWlzZTx7CiAgICBzdWNjZXNzOiBib29sZWFuOwogICAgZGF0YTogTm90aWZpY2F0aW9uVHJpZ2dlckxpc3RQYXlsb2FkOwogICAgbWVzc2FnZT86IHN0cmluZzsKICB9PiB7CiAgICBjb25zdCBxdWVyeSA9IHsKICAgICAgcGFnZTogcGFyYW1zLnBhZ2UsCiAgICAgIGxpbWl0OiBwYXJhbXMubGltaXQsCiAgICAgIHJ1bGVfaWQ6IHBhcmFtcy5ydWxlX2lkIHx8IHVuZGVmaW5lZCwKICAgICAgc3RhdHVzOgogICAgICAgIHBhcmFtcy5zdGF0dXMgJiYgcGFyYW1zLnN0YXR1cyAhPT0gImFsbCIgPyBwYXJhbXMuc3RhdHVzIDogdW5kZWZpbmVkLAogICAgfSBzYXRpc2ZpZXMgTm90aWZpY2F0aW9uVHJpZ2dlclF1ZXJ5OwogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL25vdGlmaWNhdGlvbnMvdHJpZ2dlcnMiLCB7CiAgICAgIHBhcmFtczogcXVlcnksCiAgICB9KTsKICAgIHJldHVybiByZXMuZGF0YTsKICB9LAogIGFzeW5jIGdldE5vdGlmaWNhdGlvbkRlbGl2ZXJpZXMocGFyYW1zOiB7CiAgICBwYWdlOiBudW1iZXI7CiAgICBsaW1pdDogbnVtYmVyOwogICAgcnVsZV9pZD86IHN0cmluZzsKICAgIHByb3ZpZGVyX2lkPzogc3RyaW5nOwogICAgdHJpZ2dlcl9pZD86IHN0cmluZzsKICAgIHN0YXR1cz86IE5vdGlmaWNhdGlvbkRlbGl2ZXJ5U3RhdHVzIHwgImFsbCI7CiAgfSk6IFByb21pc2U8ewogICAgc3VjY2VzczogYm9vbGVhbjsKICAgIGRhdGE6IE5vdGlmaWNhdGlvbkRlbGl2ZXJ5TGlzdFBheWxvYWQ7CiAgICBtZXNzYWdlPzogc3RyaW5nOwogIH0+IHsKICAgIGNvbnN0IHF1ZXJ5ID0gewogICAgICBwYWdlOiBwYXJhbXMucGFnZSwKICAgICAgbGltaXQ6IHBhcmFtcy5saW1pdCwKICAgICAgcnVsZV9pZDogcGFyYW1zLnJ1bGVfaWQgfHwgdW5kZWZpbmVkLAogICAgICBwcm92aWRlcl9pZDogcGFyYW1zLnByb3ZpZGVyX2lkIHx8IHVuZGVmaW5lZCwKICAgICAgdHJpZ2dlcl9pZDogcGFyYW1zLnRyaWdnZXJfaWQgfHwgdW5kZWZpbmVkLAogICAgICBzdGF0dXM6CiAgICAgICAgcGFyYW1zLnN0YXR1cyAmJiBwYXJhbXMuc3RhdHVzICE9PSAiYWxsIiA/IHBhcmFtcy5zdGF0dXMgOiB1bmRlZmluZWQsCiAgICB9IHNhdGlzZmllcyBOb3RpZmljYXRpb25EZWxpdmVyeVF1ZXJ5OwogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL25vdGlmaWNhdGlvbnMvZGVsaXZlcmllcyIsIHsKICAgICAgcGFyYW1zOiBxdWVyeSwKICAgIH0pOwogICAgcmV0dXJuIHJlcy5kYXRhOwogIH0sCiAgYXN5bmMgY2xlYXJOb3RpZmljYXRpb25EZWxpdmVyaWVzKHBhcmFtczogewogICAgcnVsZV9pZD86IHN0cmluZzsKICAgIHByb3ZpZGVyX2lkPzogc3RyaW5nOwogICAgdHJpZ2dlcl9pZD86IHN0cmluZzsKICAgIHN0YXR1cz86IE5vdGlmaWNhdGlvbkRlbGl2ZXJ5U3RhdHVzIHwgImFsbCI7CiAgfSkgewogICAgY29uc3QgYm9keSA9IHsKICAgICAgcnVsZV9pZDogcGFyYW1zLnJ1bGVfaWQgfHwgdW5kZWZpbmVkLAogICAgICBwcm92aWRlcl9pZDogcGFyYW1zLnByb3ZpZGVyX2lkIHx8IHVuZGVmaW5lZCwKICAgICAgdHJpZ2dlcl9pZDogcGFyYW1zLnRyaWdnZXJfaWQgfHwgdW5kZWZpbmVkLAogICAgICBzdGF0dXM6CiAgICAgICAgcGFyYW1zLnN0YXR1cyAmJiBwYXJhbXMuc3RhdHVzICE9PSAiYWxsIiA/IHBhcmFtcy5zdGF0dXMgOiB1bmRlZmluZWQsCiAgICB9IHNhdGlzZmllcyBOb3RpZmljYXRpb25EZWxpdmVyeUNsZWFyQm9keTsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5kZWxldGUoIi9ub3RpZmljYXRpb25zL2RlbGl2ZXJpZXMiLCB7CiAgICAgIGRhdGE6IGJvZHksCiAgICB9KTsKICAgIHJldHVybiByZXMuZGF0YSBhcyB7CiAgICAgIHN1Y2Nlc3M6IGJvb2xlYW47CiAgICAgIGRhdGE6IHsKICAgICAgICBkZWxldGVkX2NvdW50OiBudW1iZXI7CiAgICAgIH07CiAgICAgIG1lc3NhZ2U/OiBzdHJpbmc7CiAgICB9OwogIH0sCn07Cg==
+import type {
+  NotificationDeliveryListPayload,
+  NotificationDeliveryStatus,
+  NotificationProviderCatalogPayload,
+  NotificationProviderDetailView,
+  NotificationProviderListPayload,
+  NotificationRuleListPayload,
+  NotificationTriggerListPayload,
+  NotificationTriggerStatus,
+  SystemEventLevel,
+  SystemEventSource,
+  SystemEventType,
+} from "../../types";
+import type {
+  components as ApiContractComponents,
+  operations as ApiContractOperations,
+} from "@fn-knock/api-contract";
+import { apiClient } from "./client";
+
+type GetEventsOperation = ApiContractOperations["get_api_admin_events"];
+type GetEventsQuery = NonNullable<GetEventsOperation["parameters"]["query"]>;
+type GetEventsResponse =
+  GetEventsOperation["responses"][200]["content"]["application/json"];
+type DeleteEventsOperation = ApiContractOperations["delete_api_admin_events"];
+type DeleteEventsBody =
+  DeleteEventsOperation["requestBody"]["content"]["application/json"];
+type DeleteEventsResponse =
+  DeleteEventsOperation["responses"][200]["content"]["application/json"];
+type ClearEventsResponse =
+  ApiContractOperations["delete_api_admin_events_clear"]["responses"][200]["content"]["application/json"];
+type NotificationSchemas = ApiContractComponents["schemas"];
+type NotificationProviderCreateBody =
+  NotificationSchemas["NotificationProviderCreateBodyData"];
+type NotificationProviderUpdateBody =
+  NotificationSchemas["NotificationProviderUpdateBodyData"];
+type NotificationProviderTestBody =
+  NotificationSchemas["NotificationProviderTestBodyData"];
+type NotificationWebhookBodyPreviewResponse =
+  ApiContractOperations["post_api_admin_notifications_providers_webhook_preview"]["responses"][200]["content"]["application/json"];
+type NotificationWebhookBodyPreviewBody =
+  NotificationSchemas["NotificationWebhookBodyPreviewBodyData"];
+type NotificationRuleCreateBody =
+  NotificationSchemas["NotificationRuleCreateBodyData"];
+type NotificationRuleUpdateBody =
+  NotificationSchemas["NotificationRuleUpdateBodyData"];
+type NotificationTriggerQuery = NonNullable<
+  ApiContractOperations["get_api_admin_notifications_triggers"]["parameters"]["query"]
+>;
+type NotificationDeliveryQuery = NonNullable<
+  ApiContractOperations["get_api_admin_notifications_deliveries"]["parameters"]["query"]
+>;
+type NotificationDeliveryClearBody =
+  NotificationSchemas["NotificationDeliveryClearBodyData"];
+
+export type {
+  NotificationDeliveryListPayload,
+  NotificationDeliveryStatus,
+  NotificationProviderCatalogPayload,
+  NotificationProviderDetailView,
+  NotificationProviderListPayload,
+  NotificationRuleListPayload,
+  NotificationTriggerListPayload,
+  NotificationTriggerStatus,
+  OIDCBinding,
+  OIDCProviderCatalogItem,
+  OIDCProviderView,
+  SystemEventLevel,
+  SystemEventListPayload,
+  SystemEventSource,
+  SystemEventType,
+} from "../../types";
+
+export const EventCenterAPI = {
+  async getEvents(
+    params: {
+      page: number;
+      limit: string;
+      search: string;
+      type?: SystemEventType | "all";
+      level?: SystemEventLevel | "all";
+      source?: SystemEventSource | "all";
+      traceId?: string;
+    },
+    signal?: AbortSignal,
+  ): Promise<GetEventsResponse> {
+    const query = {
+      page: params.page,
+      limit: params.limit,
+      search: params.search,
+      type: params.type && params.type !== "all" ? params.type : undefined,
+      level: params.level && params.level !== "all" ? params.level : undefined,
+      source:
+        params.source && params.source !== "all" ? params.source : undefined,
+      trace_id: params.traceId?.trim() || undefined,
+    } satisfies GetEventsQuery;
+    const res = await apiClient.get("/events", {
+      params: query,
+      signal,
+    });
+    return res.data;
+  },
+  async deleteEvents(ids: string[]): Promise<DeleteEventsResponse> {
+    const body = { ids } satisfies DeleteEventsBody;
+    const res = await apiClient.delete("/events", { data: body });
+    return res.data;
+  },
+  async clearEvents(): Promise<ClearEventsResponse> {
+    const res = await apiClient.delete("/events/clear");
+    return res.data;
+  },
+  async getNotificationProviderCatalog(): Promise<{
+    success: boolean;
+    data: NotificationProviderCatalogPayload;
+    message?: string;
+  }> {
+    const res = await apiClient.get("/notifications/providers/catalog");
+    return res.data;
+  },
+  async getNotificationProviders(): Promise<{
+    success: boolean;
+    data: NotificationProviderListPayload;
+    message?: string;
+  }> {
+    const res = await apiClient.get("/notifications/providers");
+    return res.data;
+  },
+  async getNotificationProvider(id: string): Promise<{
+    success: boolean;
+    data: NotificationProviderDetailView;
+    message?: string;
+  }> {
+    const res = await apiClient.get(
+      `/notifications/providers/${encodeURIComponent(id)}`,
+    );
+    return res.data;
+  },
+  async createNotificationProvider(payload: NotificationProviderCreateBody) {
+    const res = await apiClient.post("/notifications/providers", payload);
+    return res.data;
+  },
+  async updateNotificationProvider(
+    id: string,
+    payload: NotificationProviderUpdateBody,
+  ) {
+    const res = await apiClient.patch(
+      `/notifications/providers/${encodeURIComponent(id)}`,
+      payload,
+    );
+    return res.data;
+  },
+  async deleteNotificationProvider(id: string) {
+    const res = await apiClient.delete(
+      `/notifications/providers/${encodeURIComponent(id)}`,
+    );
+    return res.data;
+  },
+  async testNotificationProvider(id: string) {
+    const res = await apiClient.post(
+      `/notifications/providers/${encodeURIComponent(id)}/test`,
+    );
+    return res.data;
+  },
+  async testNotificationProviderDraft(payload: NotificationProviderTestBody) {
+    const res = await apiClient.post("/notifications/providers/test", payload);
+    return res.data;
+  },
+  async previewNotificationWebhookBody(
+    payload: NotificationWebhookBodyPreviewBody,
+  ): Promise<NotificationWebhookBodyPreviewResponse> {
+    const res = await apiClient.post(
+      "/notifications/providers/webhook/preview",
+      payload,
+    );
+    return res.data;
+  },
+  async getNotificationRules(): Promise<{
+    success: boolean;
+    data: NotificationRuleListPayload;
+    message?: string;
+  }> {
+    const res = await apiClient.get("/notifications/rules");
+    return res.data;
+  },
+  async createNotificationRule(payload: NotificationRuleCreateBody) {
+    const res = await apiClient.post("/notifications/rules", payload);
+    return res.data;
+  },
+  async updateNotificationRule(
+    id: string,
+    payload: NotificationRuleUpdateBody,
+  ) {
+    const res = await apiClient.patch(
+      `/notifications/rules/${encodeURIComponent(id)}`,
+      payload,
+    );
+    return res.data;
+  },
+  async deleteNotificationRule(id: string) {
+    const res = await apiClient.delete(
+      `/notifications/rules/${encodeURIComponent(id)}`,
+    );
+    return res.data;
+  },
+  async getNotificationTriggers(params: {
+    page: number;
+    limit: number;
+    rule_id?: string;
+    status?: NotificationTriggerStatus | "all";
+  }): Promise<{
+    success: boolean;
+    data: NotificationTriggerListPayload;
+    message?: string;
+  }> {
+    const query = {
+      page: params.page,
+      limit: params.limit,
+      rule_id: params.rule_id || undefined,
+      status:
+        params.status && params.status !== "all" ? params.status : undefined,
+    } satisfies NotificationTriggerQuery;
+    const res = await apiClient.get("/notifications/triggers", {
+      params: query,
+    });
+    return res.data;
+  },
+  async getNotificationDeliveries(params: {
+    page: number;
+    limit: number;
+    rule_id?: string;
+    provider_id?: string;
+    trigger_id?: string;
+    status?: NotificationDeliveryStatus | "all";
+  }): Promise<{
+    success: boolean;
+    data: NotificationDeliveryListPayload;
+    message?: string;
+  }> {
+    const query = {
+      page: params.page,
+      limit: params.limit,
+      rule_id: params.rule_id || undefined,
+      provider_id: params.provider_id || undefined,
+      trigger_id: params.trigger_id || undefined,
+      status:
+        params.status && params.status !== "all" ? params.status : undefined,
+    } satisfies NotificationDeliveryQuery;
+    const res = await apiClient.get("/notifications/deliveries", {
+      params: query,
+    });
+    return res.data;
+  },
+  async clearNotificationDeliveries(params: {
+    rule_id?: string;
+    provider_id?: string;
+    trigger_id?: string;
+    status?: NotificationDeliveryStatus | "all";
+  }) {
+    const body = {
+      rule_id: params.rule_id || undefined,
+      provider_id: params.provider_id || undefined,
+      trigger_id: params.trigger_id || undefined,
+      status:
+        params.status && params.status !== "all" ? params.status : undefined,
+    } satisfies NotificationDeliveryClearBody;
+    const res = await apiClient.delete("/notifications/deliveries", {
+      data: body,
+    });
+    return res.data as {
+      success: boolean;
+      data: {
+        deleted_count: number;
+      };
+      message?: string;
+    };
+  },
+};

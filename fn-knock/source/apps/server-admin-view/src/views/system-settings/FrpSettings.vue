@@ -1,1 +1,15 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IFN5c3RlbUFQSSB9IGZyb20gIkAvbGliL2FwaS9zeXN0ZW0iOwppbXBvcnQgQmluYXJ5UmVzb3VyY2VTZXR0aW5ncyBmcm9tICIuL0JpbmFyeVJlc291cmNlU2V0dGluZ3MudnVlIjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPEJpbmFyeVJlc291cmNlU2V0dGluZ3MKICAgIG1lc3NhZ2Uta2V5LXByZWZpeD0iYWRtaW4uZnJwU2V0dGluZ3MiCiAgICA6ZmV0Y2gtc3RhdHVzPSJTeXN0ZW1BUEkuZ2V0RnJwU3RhdHVzIgogICAgOnN0YXJ0LWRvd25sb2FkPSJTeXN0ZW1BUEkuc3RhcnRGcnBEb3dubG9hZCIKICAgIDpjYW5jZWwtZG93bmxvYWQ9IlN5c3RlbUFQSS5jYW5jZWxGcnBEb3dubG9hZCIKICAgIDpkZWxldGUtcmVzb3VyY2U9IlN5c3RlbUFQSS5kZWxldGVGcnAiCiAgICB2ZXJzaW9uLWF3YXJlCiAgLz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { SystemAPI } from "@/lib/api/system";
+import BinaryResourceSettings from "./BinaryResourceSettings.vue";
+</script>
+
+<template>
+  <BinaryResourceSettings
+    message-key-prefix="admin.frpSettings"
+    :fetch-status="SystemAPI.getFrpStatus"
+    :start-download="SystemAPI.startFrpDownload"
+    :cancel-download="SystemAPI.cancelFrpDownload"
+    :delete-resource="SystemAPI.deleteFrp"
+    version-aware
+  />
+</template>

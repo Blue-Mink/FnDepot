@@ -1,1 +1,148 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAidml0ZSI7CmltcG9ydCB2dWUgZnJvbSAiQHZpdGVqcy9wbHVnaW4tdnVlIjsKaW1wb3J0IHRhaWx3aW5kY3NzIGZyb20gIkB0YWlsd2luZGNzcy92aXRlIjsKaW1wb3J0IHBhdGggZnJvbSAicGF0aCI7Cgp0eXBlIE1vZHVsZUluZm9Mb29rdXAgPSAoaWQ6IHN0cmluZykgPT4gewogIGltcG9ydGVyczogcmVhZG9ubHkgc3RyaW5nW107Cn0gfCBudWxsOwoKLy8gUm9sbGRvd24gY2FuIG90aGVyd2lzZSBlbWl0IGEgc2VwYXJhdGUgc2hhcmVkIGNodW5rIGZvciBldmVyeSBzbGlnaHRseQovLyBkaWZmZXJlbnQgY29tYmluYXRpb24gb2YgYXV0aCByb3V0ZXMuIEZvbGxvdyBzdGF0aWMgaW1wb3J0ZXIgY2hhaW5zIHNvIHRoZQovLyBzbWFsbCBhdXRoLWZsb3cgbW9kdWxlcyBjYW4gYmUgZ3JvdXBlZCB3aXRob3V0IHB1bGxpbmcgb3B0aW9uYWwgZHluYW1pYwovLyBpbXBvcnRzIChsb2NhbGVzLCBBTFRDSEEsIGFuZCB0aGUgUG9XIHdvcmtlcikgaW50byB0aGUgaW5pdGlhbCBidW5kbGUuCmNvbnN0IGlzU3RhdGljYWxseUltcG9ydGVkQnkgPSAoCiAgbW9kdWxlSWQ6IHN0cmluZywKICBnZXRNb2R1bGVJbmZvOiBNb2R1bGVJbmZvTG9va3VwLAogIG1hdGNoZXNJbXBvcnRlcjogKGlkOiBzdHJpbmcpID0+IGJvb2xlYW4sCiAgdmlzaXRlZCA9IG5ldyBTZXQ8c3RyaW5nPigpLAopOiBib29sZWFuID0+IHsKICBpZiAodmlzaXRlZC5oYXMobW9kdWxlSWQpKSByZXR1cm4gZmFsc2U7CiAgdmlzaXRlZC5hZGQobW9kdWxlSWQpOwoKICBjb25zdCBtb2R1bGVJbmZvID0gZ2V0TW9kdWxlSW5mbyhtb2R1bGVJZCk7CiAgaWYgKCFtb2R1bGVJbmZvKSByZXR1cm4gZmFsc2U7CgogIHJldHVybiBtb2R1bGVJbmZvLmltcG9ydGVycy5zb21lKAogICAgKGltcG9ydGVyKSA9PgogICAgICBtYXRjaGVzSW1wb3J0ZXIoaW1wb3J0ZXIpIHx8CiAgICAgIGlzU3RhdGljYWxseUltcG9ydGVkQnkoaW1wb3J0ZXIsIGdldE1vZHVsZUluZm8sIG1hdGNoZXNJbXBvcnRlciwgdmlzaXRlZCksCiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7CiAgYmFzZTogIi4vIiwKICBwdWJsaWNEaXI6IHBhdGgucmVzb2x2ZShfX2Rpcm5hbWUsICIuLi8uLi9wYWNrYWdlcy9pY29ucyIpLAogIHBsdWdpbnM6IFsKICAgIHZ1ZSh7CiAgICAgIHRlbXBsYXRlOiB7CiAgICAgICAgY29tcGlsZXJPcHRpb25zOiB7CiAgICAgICAgICBpc0N1c3RvbUVsZW1lbnQ6IGZ1bmN0aW9uICh0YWcpIHsKICAgICAgICAgICAgcmV0dXJuIHRhZyA9PT0gImFsdGNoYS13aWRnZXQiOwogICAgICAgICAgfSwKICAgICAgICB9LAogICAgICB9LAogICAgfSksCiAgICB0YWlsd2luZGNzcygpLAogIF0sCiAgYnVpbGQ6IHsKICAgIG1hbmlmZXN0OiB0cnVlLAogICAgY3NzTWluaWZ5OiAiZXNidWlsZCIsCiAgICByb2xsdXBPcHRpb25zOiB7CiAgICAgIG91dHB1dDogewogICAgICAgIGNvZGVTcGxpdHRpbmc6IHsKICAgICAgICAgIGdyb3VwczogWwogICAgICAgICAgICAvLyBBdXRoIGlzIGEgc21hbGwsIHNpbmdsZS1lbnRyeSBhcHAuIEtlZXBpbmcgaXRzIHN0YXRpYyBib290c3RyYXAKICAgICAgICAgICAgLy8gdG9nZXRoZXIgYXZvaWRzIHNldmVyYWwgdGlueSBtb2R1bGUtcHJlbG9hZCByZXF1ZXN0cy4KICAgICAgICAgICAgewogICAgICAgICAgICAgIG5hbWU6ICJhdXRoLWluaXRpYWwiLAogICAgICAgICAgICAgIHRhZ3M6IFsiJGluaXRpYWwiXSwKICAgICAgICAgICAgICBwcmlvcml0eTogMTAwLAogICAgICAgICAgICB9LAogICAgICAgICAgICAvLyBLZWVwIEhvbWUncyBkZXBlbmRlbmNpZXMgc2VwYXJhdGUgZnJvbSB0aGUgbG9naW4tb25seSBmbG93IHNvCiAgICAgICAgICAgIC8vIHZpc2l0aW5nIHRoZSBhdXRoZW50aWNhdGVkIGxhbmRpbmcgcGFnZSBkb2VzIG5vdCBkb3dubG9hZCB0aGUKICAgICAgICAgICAgLy8gY29tcGxldGUgbG9naW4gZm9ybS4KICAgICAgICAgICAgewogICAgICAgICAgICAgIGluY2x1ZGVEZXBlbmRlbmNpZXNSZWN1cnNpdmVseTogZmFsc2UsCiAgICAgICAgICAgICAgcHJpb3JpdHk6IDEwLAogICAgICAgICAgICAgIHRlc3Q6IChtb2R1bGVJZCkgPT4KICAgICAgICAgICAgICAgICFtb2R1bGVJZAogICAgICAgICAgICAgICAgICAucmVwbGFjZUFsbCgiXFwiLCAiLyIpCiAgICAgICAgICAgICAgICAgIC5pbmNsdWRlcygiL25vZGVfbW9kdWxlcy9hbHRjaGEvIiksCiAgICAgICAgICAgICAgbmFtZShtb2R1bGVJZCwgY29udGV4dCkgewogICAgICAgICAgICAgICAgY29uc3Qgbm9ybWFsaXplZElkID0gbW9kdWxlSWQucmVwbGFjZUFsbCgiXFwiLCAiLyIpOwogICAgICAgICAgICAgICAgaWYgKG5vcm1hbGl6ZWRJZC5pbmNsdWRlcygiL3NyYy92aWV3cy8iKSkgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICBjb25zdCBnZXRNb2R1bGVJbmZvID0gKGlkOiBzdHJpbmcpID0+IGNvbnRleHQuZ2V0TW9kdWxlSW5mbyhpZCk7CgogICAgICAgICAgICAgICAgY29uc3QgaW1wb3J0ZWRCeVZpZXcgPSAodmlldzogc3RyaW5nKSA9PgogICAgICAgICAgICAgICAgICBpc1N0YXRpY2FsbHlJbXBvcnRlZEJ5KAogICAgICAgICAgICAgICAgICAgIG1vZHVsZUlkLAogICAgICAgICAgICAgICAgICAgIGdldE1vZHVsZUluZm8sCiAgICAgICAgICAgICAgICAgICAgKGltcG9ydGVyKSA9PgogICAgICAgICAgICAgICAgICAgICAgaW1wb3J0ZXIKICAgICAgICAgICAgICAgICAgICAgICAgLnJlcGxhY2VBbGwoIlxcIiwgIi8iKQogICAgICAgICAgICAgICAgICAgICAgICAuc3BsaXQoIj8iLCAxKVswXQogICAgICAgICAgICAgICAgICAgICAgICAuZW5kc1dpdGgoYC9zcmMvdmlld3MvJHt2aWV3fS52dWVgKSwKICAgICAgICAgICAgICAgICAgKTsKCiAgICAgICAgICAgICAgICBpZiAoaW1wb3J0ZWRCeVZpZXcoIkhvbWUiKSkgcmV0dXJuICJhdXRoLWhvbWUiOwogICAgICAgICAgICAgICAgaWYgKGltcG9ydGVkQnlWaWV3KCJMb2dpbiIpKSByZXR1cm4gImF1dGgtbG9naW4iOwoKICAgICAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgIH0sCiAgICAgICAgICBdLAogICAgICAgIH0sCiAgICAgIH0sCiAgICB9LAogIH0sCiAgcmVzb2x2ZTogewogICAgYWxpYXM6IHsKICAgICAgIkAvY29tcG9uZW50cy91aSI6IHBhdGgucmVzb2x2ZSgKICAgICAgICBfX2Rpcm5hbWUsCiAgICAgICAgIi4uLy4uL3BhY2thZ2VzL3VpLXZ1ZS9zcmMvY29tcG9uZW50cy91aSIsCiAgICAgICksCiAgICAgICJAL2xpYi91dGlscyI6IHBhdGgucmVzb2x2ZSgKICAgICAgICBfX2Rpcm5hbWUsCiAgICAgICAgIi4uLy4uL3BhY2thZ2VzL3VpLXZ1ZS9zcmMvbGliL3V0aWxzLnRzIiwKICAgICAgKSwKICAgICAgIkBhZG1pbi1zaGFyZWQiOiBwYXRoLnJlc29sdmUoCiAgICAgICAgX19kaXJuYW1lLAogICAgICAgICIuLi8uLi9wYWNrYWdlcy9hZG1pbi1zaGFyZWQvc3JjIiwKICAgICAgKSwKICAgICAgIkBmcm9udGVuZC1jb3JlIjogcGF0aC5yZXNvbHZlKAogICAgICAgIF9fZGlybmFtZSwKICAgICAgICAiLi4vLi4vcGFja2FnZXMvZnJvbnRlbmQtY29yZS9zcmMiLAogICAgICApLAogICAgICAiQGZuLWtub2NrL2kxOG4vY29yZSI6IHBhdGgucmVzb2x2ZSgKICAgICAgICBfX2Rpcm5hbWUsCiAgICAgICAgIi4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL2NvcmUudHMiLAogICAgICApLAogICAgICAiQGZuLWtub2NrL2kxOG4vdnVlL2F1dGgiOiBwYXRoLnJlc29sdmUoCiAgICAgICAgX19kaXJuYW1lLAogICAgICAgICIuLi8uLi9wYWNrYWdlcy9pMThuL3NyYy92dWUtYXV0aC50cyIsCiAgICAgICksCiAgICAgICJAZm4ta25vY2svaTE4bi92dWUiOiBwYXRoLnJlc29sdmUoCiAgICAgICAgX19kaXJuYW1lLAogICAgICAgICIuLi8uLi9wYWNrYWdlcy9pMThuL3NyYy92dWUudHMiLAogICAgICApLAogICAgICAiQGZuLWtub2NrL2kxOG4iOiBwYXRoLnJlc29sdmUoCiAgICAgICAgX19kaXJuYW1lLAogICAgICAgICIuLi8uLi9wYWNrYWdlcy9pMThuL3NyYy9pbmRleC50cyIsCiAgICAgICksCiAgICAgICJAIjogcGF0aC5yZXNvbHZlKF9fZGlybmFtZSwgIi4vc3JjIiksCiAgICB9LAogIH0sCiAgc2VydmVyOiB7CiAgICBwcm94eTogewogICAgICAiL19fZm4ta25vY2siOiB7CiAgICAgICAgdGFyZ2V0OiAiaHR0cDovL2xvY2FsaG9zdDo3OTk3IiwKICAgICAgICBjaGFuZ2VPcmlnaW46IHRydWUsCiAgICAgIH0sCiAgICAgICIvYXBpIjogewogICAgICAgIHRhcmdldDogImh0dHA6Ly9sb2NhbGhvc3Q6Nzk5NyIsCiAgICAgICAgY2hhbmdlT3JpZ2luOiB0cnVlLAogICAgICB9LAogICAgfSwKICB9LAp9KTsK
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
+import tailwindcss from "@tailwindcss/vite";
+import path from "path";
+
+type ModuleInfoLookup = (id: string) => {
+  importers: readonly string[];
+} | null;
+
+// Rolldown can otherwise emit a separate shared chunk for every slightly
+// different combination of auth routes. Follow static importer chains so the
+// small auth-flow modules can be grouped without pulling optional dynamic
+// imports (locales, ALTCHA, and the PoW worker) into the initial bundle.
+const isStaticallyImportedBy = (
+  moduleId: string,
+  getModuleInfo: ModuleInfoLookup,
+  matchesImporter: (id: string) => boolean,
+  visited = new Set<string>(),
+): boolean => {
+  if (visited.has(moduleId)) return false;
+  visited.add(moduleId);
+
+  const moduleInfo = getModuleInfo(moduleId);
+  if (!moduleInfo) return false;
+
+  return moduleInfo.importers.some(
+    (importer) =>
+      matchesImporter(importer) ||
+      isStaticallyImportedBy(importer, getModuleInfo, matchesImporter, visited),
+  );
+};
+
+export default defineConfig({
+  base: "./",
+  publicDir: path.resolve(__dirname, "../../packages/icons"),
+  plugins: [
+    vue({
+      template: {
+        compilerOptions: {
+          isCustomElement: function (tag) {
+            return tag === "altcha-widget";
+          },
+        },
+      },
+    }),
+    tailwindcss(),
+  ],
+  build: {
+    manifest: true,
+    cssMinify: "esbuild",
+    rollupOptions: {
+      output: {
+        codeSplitting: {
+          groups: [
+            // Auth is a small, single-entry app. Keeping its static bootstrap
+            // together avoids several tiny module-preload requests.
+            {
+              name: "auth-initial",
+              tags: ["$initial"],
+              priority: 100,
+            },
+            // Keep Home's dependencies separate from the login-only flow so
+            // visiting the authenticated landing page does not download the
+            // complete login form.
+            {
+              includeDependenciesRecursively: false,
+              priority: 10,
+              test: (moduleId) =>
+                !moduleId
+                  .replaceAll("\\", "/")
+                  .includes("/node_modules/altcha/"),
+              name(moduleId, context) {
+                const normalizedId = moduleId.replaceAll("\\", "/");
+                if (normalizedId.includes("/src/views/")) return null;
+                const getModuleInfo = (id: string) => context.getModuleInfo(id);
+
+                const importedByView = (view: string) =>
+                  isStaticallyImportedBy(
+                    moduleId,
+                    getModuleInfo,
+                    (importer) =>
+                      importer
+                        .replaceAll("\\", "/")
+                        .split("?", 1)[0]
+                        .endsWith(`/src/views/${view}.vue`),
+                  );
+
+                if (importedByView("Home")) return "auth-home";
+                if (importedByView("Login")) return "auth-login";
+
+                return null;
+              },
+            },
+          ],
+        },
+      },
+    },
+  },
+  resolve: {
+    alias: {
+      "@/components/ui": path.resolve(
+        __dirname,
+        "../../packages/ui-vue/src/components/ui",
+      ),
+      "@/lib/utils": path.resolve(
+        __dirname,
+        "../../packages/ui-vue/src/lib/utils.ts",
+      ),
+      "@admin-shared": path.resolve(
+        __dirname,
+        "../../packages/admin-shared/src",
+      ),
+      "@frontend-core": path.resolve(
+        __dirname,
+        "../../packages/frontend-core/src",
+      ),
+      "@fn-knock/i18n/core": path.resolve(
+        __dirname,
+        "../../packages/i18n/src/core.ts",
+      ),
+      "@fn-knock/i18n/vue/auth": path.resolve(
+        __dirname,
+        "../../packages/i18n/src/vue-auth.ts",
+      ),
+      "@fn-knock/i18n/vue": path.resolve(
+        __dirname,
+        "../../packages/i18n/src/vue.ts",
+      ),
+      "@fn-knock/i18n": path.resolve(
+        __dirname,
+        "../../packages/i18n/src/index.ts",
+      ),
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
+  server: {
+    proxy: {
+      "/__fn-knock": {
+        target: "http://localhost:7997",
+        changeOrigin: true,
+      },
+      "/api": {
+        target: "http://localhost:7997",
+        changeOrigin: true,
+      },
+    },
+  },
+});

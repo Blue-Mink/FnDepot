@@ -1,1 +1,392 @@
-dXNlIHRva2lvX3J1c3FsaXRlOjpydXNxbGl0ZTo6e09wdGlvbmFsRXh0ZW5zaW9uLCBUcmFuc2FjdGlvbiwgVHJhbnNhY3Rpb25CZWhhdmlvciwgcGFyYW1zfTsKCnVzZSBzdXBlcjo6e1N0b3JhZ2VSZXN1bHQsIHJlZGlzX2NvbXBhdDo6Q29ubmVjdGlvbk1hbmFnZXIsIHN0b3JhZ2VfZXJyb3J9OwoKcHViKGNyYXRlKSBjb25zdCBWQUxJREFUSU9OX1BSRUZJWDogJnN0ciA9ICJmbl9rbm9jazpmbm9zLXNoYXJlOnZhbGlkYXRpb246IjsKcHViKGNyYXRlKSBjb25zdCBTRVNTSU9OX1BSRUZJWDogJnN0ciA9ICJmbl9rbm9jazpmbm9zLXNoYXJlOnNlc3Npb246IjsKcHViKGNyYXRlKSBjb25zdCBMT0NLX1BSRUZJWDogJnN0ciA9ICJmbl9rbm9jazpsb2NrOmZub3Mtc2hhcmU6dmFsaWRhdGlvbjoiOwoKY29uc3QgU0NIRU1BX1ZFUlNJT046IGk2NCA9IDE7CmNvbnN0IFNDSEVNQV9OQU1FOiAmc3RyID0gInR5cGVkX2Zub3Nfc2hhcmVfcnVudGltZSI7CmNvbnN0IFNDSEVNQV9TUUw6ICZzdHIgPSByIyIKQ1JFQVRFIFRBQkxFIGZub3Nfc2hhcmVfcnVudGltZV9jYXBhYmlsaXRpZXMgKAogIGNhcGFiaWxpdHlfa2luZCBURVhUIE5PVCBOVUxMIENIRUNLIChjYXBhYmlsaXR5X2tpbmQgSU4gKCd2YWxpZGF0aW9uJywgJ3Nlc3Npb24nLCAnbG9jaycpKSwKICBrZXlfZGlnZXN0IFRFWFQgTk9UIE5VTEwgQ0hFQ0sgKGxlbmd0aChrZXlfZGlnZXN0KSA9IDY0KSwKICBwYXlsb2FkX2pzb24gVEVYVCwKICBndWFyZF9kaWdlc3QgVEVYVCwKICBleHBpcmVzX2F0X21zIElOVEVHRVIgTk9UIE5VTEwgQ0hFQ0sgKGV4cGlyZXNfYXRfbXMgPj0gMCksCiAgdXBkYXRlZF9hdF9tcyBJTlRFR0VSIE5PVCBOVUxMLAogIFBSSU1BUlkgS0VZKGNhcGFiaWxpdHlfa2luZCwga2V5X2RpZ2VzdCksCiAgQ0hFQ0sgKAogICAgKGNhcGFiaWxpdHlfa2luZCBJTiAoJ3ZhbGlkYXRpb24nLCAnc2Vzc2lvbicpIEFORCBwYXlsb2FkX2pzb24gSVMgTk9UIE5VTEwgQU5EIGpzb25fdmFsaWQocGF5bG9hZF9qc29uKSBBTkQgZ3VhcmRfZGlnZXN0IElTIE5VTEwpCiAgICBPUiAoY2FwYWJpbGl0eV9raW5kID0gJ2xvY2snIEFORCBwYXlsb2FkX2pzb24gSVMgTlVMTCBBTkQgZ3VhcmRfZGlnZXN0IElTIE5PVCBOVUxMIEFORCBsZW5ndGgoZ3VhcmRfZGlnZXN0KSA9IDY0KQogICkKKTsKQ1JFQVRFIElOREVYIGlkeF9mbm9zX3NoYXJlX3J1bnRpbWVfZXhwaXJ5IE9OIGZub3Nfc2hhcmVfcnVudGltZV9jYXBhYmlsaXRpZXMoZXhwaXJlc19hdF9tcyk7CiIjOwpjb25zdCBNSUdSQVRJT05TX1NRTDogJnN0ciA9IHIjIgpDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyB0eXBlZF9mbm9zX3NoYXJlX3NjaGVtYV9taWdyYXRpb25zICgKICB2ZXJzaW9uIElOVEVHRVIgUFJJTUFSWSBLRVksCiAgbmFtZSBURVhUIE5PVCBOVUxMLAogIGNoZWNrc3VtIFRFWFQgTk9UIE5VTEwsCiAgYXBwbGllZF9hdF9tcyBJTlRFR0VSIE5PVCBOVUxMCik7CiIjOwoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBQYXJ0aWFsRXEsIEVxKV0KcHViKGNyYXRlKSBzdHJ1Y3QgVHlwZWRGbm9zU2hhcmVDYXBhYmlsaXR5IHsKICAgIHB1YihjcmF0ZSkga2luZDogJidzdGF0aWMgc3RyLAogICAgcHViKGNyYXRlKSBrZXlfZGlnZXN0OiBTdHJpbmcsCiAgICBwdWIoY3JhdGUpIHBheWxvYWRfanNvbjogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIoY3JhdGUpIGd1YXJkX2RpZ2VzdDogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIoY3JhdGUpIGV4cGlyZXNfYXRfbXM6IGk2NCwKfQoKI1tkZXJpdmUoQ2xvbmUpXQpwdWIoY3JhdGUpIHN0cnVjdCBUeXBlZEZub3NTaGFyZVJlcG9zaXRvcnkgewogICAgbWFuYWdlcjogQ29ubmVjdGlvbk1hbmFnZXIsCn0KCmltcGwgVHlwZWRGbm9zU2hhcmVSZXBvc2l0b3J5IHsKICAgIHB1YihjcmF0ZSkgZm4gbmV3KG1hbmFnZXI6IENvbm5lY3Rpb25NYW5hZ2VyKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsgbWFuYWdlciB9CiAgICB9CgogICAgcHViKGNyYXRlKSBhc3luYyBmbiBpbml0aWFsaXplKCZzZWxmKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5jYWxsKHxjb25ufCB7CiAgICAgICAgICAgICAgICBsZXQgdHggPSBjb25uLnRyYW5zYWN0aW9uX3dpdGhfYmVoYXZpb3IoVHJhbnNhY3Rpb25CZWhhdmlvcjo6SW1tZWRpYXRlKT87CiAgICAgICAgICAgICAgICB0eC5leGVjdXRlX2JhdGNoKE1JR1JBVElPTlNfU1FMKT87CiAgICAgICAgICAgICAgICBsZXQgY2hlY2tzdW0gPSBjcmF0ZTo6Y3J5cHRvX3V0aWxzOjpzaGEyNTZfaGV4X2J5dGVzKFNDSEVNQV9TUUwpOwogICAgICAgICAgICAgICAgbGV0IGFwcGxpZWQgPSB0eAogICAgICAgICAgICAgICAgICAgIC5xdWVyeV9yb3coCiAgICAgICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgbmFtZSwgY2hlY2tzdW0gRlJPTSB0eXBlZF9mbm9zX3NoYXJlX3NjaGVtYV9taWdyYXRpb25zIFdIRVJFIHZlcnNpb24gPSA/MSIsCiAgICAgICAgICAgICAgICAgICAgICAgIFtTQ0hFTUFfVkVSU0lPTl0sCiAgICAgICAgICAgICAgICAgICAgICAgIHxyb3d8IE9rKChyb3cuZ2V0Ojo8XywgU3RyaW5nPigwKT8sIHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDEpPykpLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAub3B0aW9uYWwoKT87CiAgICAgICAgICAgICAgICBtYXRjaCBhcHBsaWVkIHsKICAgICAgICAgICAgICAgICAgICBTb21lKChuYW1lLCBzdG9yZWQpKSBpZiBuYW1lID09IFNDSEVNQV9OQU1FICYmIHN0b3JlZCA9PSBjaGVja3N1bSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxldCBleGlzdHMgPSB0eC5xdWVyeV9yb3coCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiU0VMRUNUIEVYSVNUUyhTRUxFQ1QgMSBGUk9NIHNxbGl0ZV9tYXN0ZXIgV0hFUkUgdHlwZSA9ICd0YWJsZScgQU5EIG5hbWUgPSAnZm5vc19zaGFyZV9ydW50aW1lX2NhcGFiaWxpdGllcycpIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgfHJvd3wgcm93LmdldDo6PF8sIGJvb2w+KDApLAogICAgICAgICAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgIWV4aXN0cyB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gRXJyKHN0b3JhZ2VfZXJyb3IoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInR5cGVkIGZuT1Mgc2hhcmUgbWlncmF0aW9uIGlzIHJlY29yZGVkIGJ1dCBpdHMgdGFibGUgaXMgbWlzc2luZyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBTb21lKChuYW1lLCBfKSkgaWYgbmFtZSAhPSBTQ0hFTUFfTkFNRSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigidHlwZWQgZm5PUyBzaGFyZSBtaWdyYXRpb24gbmFtZSBtaXNtYXRjaCIpKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgU29tZShfKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigidHlwZWQgZm5PUyBzaGFyZSBtaWdyYXRpb24gY2hlY2tzdW0gbWlzbWF0Y2giKSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIE5vbmUgPT4gewogICAgICAgICAgICAgICAgICAgICAgICB0eC5leGVjdXRlX2JhdGNoKFNDSEVNQV9TUUwpPzsKICAgICAgICAgICAgICAgICAgICAgICAgdHguZXhlY3V0ZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJJTlNFUlQgSU5UTyB0eXBlZF9mbm9zX3NoYXJlX3NjaGVtYV9taWdyYXRpb25zKHZlcnNpb24sIG5hbWUsIGNoZWNrc3VtLCBhcHBsaWVkX2F0X21zKSBWQUxVRVMgKD8xLCA/MiwgPzMsID80KSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXJhbXMhW1NDSEVNQV9WRVJTSU9OLCBTQ0hFTUFfTkFNRSwgY2hlY2tzdW0sIGNyYXRlOjp0aW1lX3V0aWxzOjpub3dfbXMoKV0sCiAgICAgICAgICAgICAgICAgICAgICAgICk/OwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHR4LmNvbW1pdCgpPzsKICAgICAgICAgICAgICAgIE9rKCgpKQogICAgICAgICAgICB9KQogICAgICAgICAgICAuYXdhaXQKICAgIH0KCiAgICBwdWIoY3JhdGUpIGFzeW5jIGZuIHJlYnVpbGRfZnJvbV9sZWdhY3koJnNlbGYpIC0+IFN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBzZWxmLm1hbmFnZXIKICAgICAgICAgICAgLmNhbGwofGNvbm58IHsKICAgICAgICAgICAgICAgIGxldCB0eCA9IGNvbm4udHJhbnNhY3Rpb25fd2l0aF9iZWhhdmlvcihUcmFuc2FjdGlvbkJlaGF2aW9yOjpJbW1lZGlhdGUpPzsKICAgICAgICAgICAgICAgIFNlbGY6OnJlYnVpbGRfZnJvbV9sZWdhY3lfdHgoJnR4KT87CiAgICAgICAgICAgICAgICB0eC5jb21taXQoKT87CiAgICAgICAgICAgICAgICBPaygoKSkKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmF3YWl0CiAgICB9CgogICAgcHViKGNyYXRlKSBmbiByZWJ1aWxkX2Zyb21fbGVnYWN5X3R4KHR4OiAmVHJhbnNhY3Rpb248J18+KSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICAgICAgbGV0IHJlY29yZHMgPSBsZWdhY3lfcmVjb3Jkc190eCh0eCk/OwogICAgICAgIHR4LmV4ZWN1dGUoIkRFTEVURSBGUk9NIGZub3Nfc2hhcmVfcnVudGltZV9jYXBhYmlsaXRpZXMiLCBbXSk/OwogICAgICAgIGZvciByZWNvcmQgaW4gcmVjb3JkcyB7CiAgICAgICAgICAgIHVwc2VydF90eCh0eCwgJnJlY29yZCk/OwogICAgICAgIH0KICAgICAgICBPaygoKSkKICAgIH0KCiAgICBwdWIoY3JhdGUpIGZuIHJlY29uY2lsZV9sZWdhY3lfa2V5c190eCgKICAgICAgICB0eDogJlRyYW5zYWN0aW9uPCdfPiwKICAgICAgICBrZXlzOiAmW1N0cmluZ10sCiAgICApIC0+IFN0b3JhZ2VSZXN1bHQ8KCk+IHsKICAgICAgICBmb3Iga2V5IGluIGtleXMgewogICAgICAgICAgICBsZXQgU29tZSgoa2luZCwgXykpID0gcGFyc2Vfa2V5KGtleSkgZWxzZSB7CiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgfTsKICAgICAgICAgICAgbGV0IGRpZ2VzdCA9IGtleV9kaWdlc3Qoa2V5KTsKICAgICAgICAgICAgbWF0Y2ggbGl2ZV9sZWdhY3lfcmVjb3JkX3R4KHR4LCBrZXkpPyB7CiAgICAgICAgICAgICAgICBTb21lKHJlY29yZCkgPT4gdXBzZXJ0X3R4KHR4LCAmcmVjb3JkKT8sCiAgICAgICAgICAgICAgICBOb25lID0+IGRlbGV0ZV90eCh0eCwga2luZCwgJmRpZ2VzdCk/LAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIE9rKCgpKQogICAgfQoKICAgIHB1YihjcmF0ZSkgYXN5bmMgZm4gdmVyaWZ5X2FuZF9yZXBhaXJfa2V5KCZzZWxmLCBrZXk6ICZzdHIpIC0+IFN0b3JhZ2VSZXN1bHQ8Ym9vbD4gewogICAgICAgIGxldCBrZXkgPSBrZXkudG9fc3RyaW5nKCk7CiAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgIC5jYWxsKG1vdmUgfGNvbm58IHsKICAgICAgICAgICAgICAgIGxldCB0eCA9IGNvbm4udHJhbnNhY3Rpb25fd2l0aF9iZWhhdmlvcihUcmFuc2FjdGlvbkJlaGF2aW9yOjpJbW1lZGlhdGUpPzsKICAgICAgICAgICAgICAgIGxldCAoa2luZCwgXykgPSBwYXJzZV9rZXkoJmtleSkKICAgICAgICAgICAgICAgICAgICAub2tfb3JfZWxzZSh8fCBzdG9yYWdlX2Vycm9yKCJpbnZhbGlkIGZuT1Mgc2hhcmUgcnVudGltZSBrZXkiKSk/OwogICAgICAgICAgICAgICAgbGV0IGRpZ2VzdCA9IGtleV9kaWdlc3QoJmtleSk7CiAgICAgICAgICAgICAgICBsZXQgcmF3ID0gbGl2ZV9sZWdhY3lfcmF3X3R4KCZ0eCwgJmtleSk/OwogICAgICAgICAgICAgICAgbGV0IGxlZ2FjeSA9IGxpdmVfbGVnYWN5X3JlY29yZF90eCgmdHgsICZrZXkpPzsKICAgICAgICAgICAgICAgIGxldCBpbnZhbGlkID0gcmF3LmlzX3NvbWUoKSAmJiBsZWdhY3kuaXNfbm9uZSgpOwogICAgICAgICAgICAgICAgbGV0IHR5cGVkID0gdHlwZWRfcmVjb3JkX3R4KCZ0eCwga2luZCwgJmRpZ2VzdCk/OwogICAgICAgICAgICAgICAgbGV0IG1hdGNoZWQgPSAhaW52YWxpZCAmJiB0eXBlZCA9PSBsZWdhY3k7CiAgICAgICAgICAgICAgICBpZiAhbWF0Y2hlZCB7CiAgICAgICAgICAgICAgICAgICAgbWF0Y2ggbGVnYWN5IHsKICAgICAgICAgICAgICAgICAgICAgICAgU29tZShyZWNvcmQpID0+IHVwc2VydF90eCgmdHgsICZyZWNvcmQpPywKICAgICAgICAgICAgICAgICAgICAgICAgTm9uZSA9PiBkZWxldGVfdHgoJnR4LCBraW5kLCAmZGlnZXN0KT8sCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdHguY29tbWl0KCk/OwogICAgICAgICAgICAgICAgT2sobWF0Y2hlZCkKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmF3YWl0CiAgICB9CgogICAgI1tjZmcodGVzdCldCiAgICBwdWIoY3JhdGUpIGFzeW5jIGZuIGxvYWRfa2V5KAogICAgICAgICZzZWxmLAogICAgICAgIGtleTogJnN0ciwKICAgICkgLT4gU3RvcmFnZVJlc3VsdDxPcHRpb248VHlwZWRGbm9zU2hhcmVDYXBhYmlsaXR5Pj4gewogICAgICAgIGxldCAoa2luZCwgXykgPSBwYXJzZV9rZXkoa2V5KS5va19vcl9lbHNlKHx8IHN0b3JhZ2VfZXJyb3IoImludmFsaWQgZm5PUyBzaGFyZSBrZXkiKSk/OwogICAgICAgIGxldCBraW5kID0ga2luZC50b19zdHJpbmcoKTsKICAgICAgICBsZXQgZGlnZXN0ID0ga2V5X2RpZ2VzdChrZXkpOwogICAgICAgIHNlbGYubWFuYWdlcgogICAgICAgICAgICAuY2FsbChtb3ZlIHxjb25ufCB0eXBlZF9yZWNvcmRfY29ubihjb25uLCAma2luZCwgJmRpZ2VzdCkpCiAgICAgICAgICAgIC5hd2FpdAogICAgfQoKICAgICNbY2ZnKHRlc3QpXQogICAgcHViKGNyYXRlKSBhc3luYyBmbiBjb3VudCgmc2VsZikgLT4gU3RvcmFnZVJlc3VsdDxpNjQ+IHsKICAgICAgICBzZWxmLm1hbmFnZXIKICAgICAgICAgICAgLmNhbGwofGNvbm58IHsKICAgICAgICAgICAgICAgIGNvbm4ucXVlcnlfcm93KAogICAgICAgICAgICAgICAgICAgICJTRUxFQ1QgQ09VTlQoKikgRlJPTSBmbm9zX3NoYXJlX3J1bnRpbWVfY2FwYWJpbGl0aWVzIiwKICAgICAgICAgICAgICAgICAgICBbXSwKICAgICAgICAgICAgICAgICAgICB8cm93fCByb3cuZ2V0Ojo8XywgaTY0PigwKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIC5tYXBfZXJyKEludG86OmludG8pCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5hd2FpdAogICAgfQp9CgpwdWIoY3JhdGUpIGZuIG93bnNfa2V5KGtleTogJnN0cikgLT4gYm9vbCB7CiAgICBwYXJzZV9rZXkoa2V5KS5pc19zb21lKCkKfQoKZm4gcGFyc2Vfa2V5KGtleTogJnN0cikgLT4gT3B0aW9uPCgmJ3N0YXRpYyBzdHIsICZzdHIpPiB7CiAgICBmb3IgKHByZWZpeCwga2luZCkgaW4gWwogICAgICAgIChWQUxJREFUSU9OX1BSRUZJWCwgInZhbGlkYXRpb24iKSwKICAgICAgICAoU0VTU0lPTl9QUkVGSVgsICJzZXNzaW9uIiksCiAgICAgICAgKExPQ0tfUFJFRklYLCAibG9jayIpLAogICAgXSB7CiAgICAgICAgaWYgbGV0IFNvbWUoc3VmZml4KSA9IGtleS5zdHJpcF9wcmVmaXgocHJlZml4KS5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4gU29tZSgoa2luZCwgc3VmZml4KSk7CiAgICAgICAgfQogICAgfQogICAgTm9uZQp9CgpmbiBrZXlfZGlnZXN0KGtleTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGNyYXRlOjpjcnlwdG9fdXRpbHM6OnNoYTI1Nl9oZXhfc3RyKGtleSkKfQoKZm4gbGl2ZV9sZWdhY3lfcmF3X3R4KHR4OiAmVHJhbnNhY3Rpb248J18+LCBrZXk6ICZzdHIpIC0+IFN0b3JhZ2VSZXN1bHQ8T3B0aW9uPChTdHJpbmcsIGk2NCk+PiB7CiAgICB0eC5xdWVyeV9yb3coCiAgICAgICAgIlNFTEVDVCBzdHJpbmdzLnZhbHVlLCBrZXlzLmV4cGlyZXNfYXRfbXMKICAgICAgICAgRlJPTSBrdl9rZXlzIEFTIGtleXMgSk9JTiBrdl9zdHJpbmdzIEFTIHN0cmluZ3MgT04gc3RyaW5ncy5rZXkgPSBrZXlzLmtleQogICAgICAgICBXSEVSRSBrZXlzLmtleSA9ID8xIEFORCBrZXlzLmtpbmQgPSAnc3RyaW5nJwogICAgICAgICAgIEFORCBrZXlzLmV4cGlyZXNfYXRfbXMgSVMgTk9UIE5VTEwgQU5EIGtleXMuZXhwaXJlc19hdF9tcyA+ID8yIiwKICAgICAgICBwYXJhbXMhW2tleSwgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpXSwKICAgICAgICB8cm93fCBPaygocm93LmdldDo6PF8sIFN0cmluZz4oMCk/LCByb3cuZ2V0Ojo8XywgaTY0PigxKT8pKSwKICAgICkKICAgIC5vcHRpb25hbCgpCiAgICAubWFwX2VycihJbnRvOjppbnRvKQp9CgpmbiBsaXZlX2xlZ2FjeV9yZWNvcmRfdHgoCiAgICB0eDogJlRyYW5zYWN0aW9uPCdfPiwKICAgIGtleTogJnN0ciwKKSAtPiBTdG9yYWdlUmVzdWx0PE9wdGlvbjxUeXBlZEZub3NTaGFyZUNhcGFiaWxpdHk+PiB7CiAgICBsZXQgU29tZSgoa2luZCwgXykpID0gcGFyc2Vfa2V5KGtleSkgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfTsKICAgIGxldCBTb21lKChyYXcsIGV4cGlyZXNfYXRfbXMpKSA9IGxpdmVfbGVnYWN5X3Jhd190eCh0eCwga2V5KT8gZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfTsKICAgIGxldCAocGF5bG9hZF9qc29uLCBndWFyZF9kaWdlc3QpID0gaWYga2luZCA9PSAibG9jayIgewogICAgICAgIGlmIHJhdy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgICAgIH0KICAgICAgICAoTm9uZSwgU29tZShjcmF0ZTo6Y3J5cHRvX3V0aWxzOjpzaGEyNTZfaGV4X3N0cigmcmF3KSkpCiAgICB9IGVsc2UgewogICAgICAgIGxldCBPayh2YWx1ZSkgPSBzZXJkZV9qc29uOjpmcm9tX3N0cjo6PHNlcmRlX2pzb246OlZhbHVlPigmcmF3KSBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgICAgIH07CiAgICAgICAgaWYgIXZhbGlkX2RvY3VtZW50KGtpbmQsICZ2YWx1ZSkgewogICAgICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICAgICAgfQogICAgICAgIChTb21lKHNlcmRlX2pzb246OnRvX3N0cmluZygmdmFsdWUpPyksIE5vbmUpCiAgICB9OwogICAgT2soU29tZShUeXBlZEZub3NTaGFyZUNhcGFiaWxpdHkgewogICAgICAgIGtpbmQsCiAgICAgICAga2V5X2RpZ2VzdDoga2V5X2RpZ2VzdChrZXkpLAogICAgICAgIHBheWxvYWRfanNvbiwKICAgICAgICBndWFyZF9kaWdlc3QsCiAgICAgICAgZXhwaXJlc19hdF9tcywKICAgIH0pKQp9CgpmbiB2YWxpZF9kb2N1bWVudChraW5kOiAmc3RyLCB2YWx1ZTogJnNlcmRlX2pzb246OlZhbHVlKSAtPiBib29sIHsKICAgIGxldCBTb21lKG9iamVjdCkgPSB2YWx1ZS5hc19vYmplY3QoKSBlbHNlIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9OwogICAgbGV0IG5vbmVtcHR5ID0gfG5hbWU6ICZzdHJ8IHsKICAgICAgICBvYmplY3QKICAgICAgICAgICAgLmdldChuYW1lKQogICAgICAgICAgICAuYW5kX3RoZW4oc2VyZGVfanNvbjo6VmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHx2YWx1ZXwgIXZhbHVlLnRyaW0oKS5pc19lbXB0eSgpKQogICAgfTsKICAgIG1hdGNoIGtpbmQgewogICAgICAgICJ2YWxpZGF0aW9uIiA9PiB7CiAgICAgICAgICAgIG9iamVjdAogICAgICAgICAgICAgICAgLmdldCgidmFsaWQiKQogICAgICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHNlcmRlX2pzb246OlZhbHVlOjppc19ib29sZWFuKQogICAgICAgICAgICAgICAgJiYgbm9uZW1wdHkoInZhbGlkYXRpb25TdGF0ZSIpCiAgICAgICAgICAgICAgICAmJiBub25lbXB0eSgic2hhcmVJZCIpCiAgICAgICAgICAgICAgICAmJiBub25lbXB0eSgiYmFja2VuZElkIikKICAgICAgICAgICAgICAgICYmIG5vbmVtcHR5KCJjbGVhblBhdGgiKQogICAgICAgICAgICAgICAgJiYgbm9uZW1wdHkoImNoZWNrZWRBdCIpCiAgICAgICAgfQogICAgICAgICJzZXNzaW9uIiA9PiB7CiAgICAgICAgICAgIG5vbmVtcHR5KCJzaGFyZUlkIikKICAgICAgICAgICAgICAgICYmIG5vbmVtcHR5KCJiYWNrZW5kSWQiKQogICAgICAgICAgICAgICAgJiYgbm9uZW1wdHkoImNsZWFuUGF0aCIpCiAgICAgICAgICAgICAgICAmJiBub25lbXB0eSgiaXNzdWVkQXQiKQogICAgICAgICAgICAgICAgJiYgbm9uZW1wdHkoImxhc3RTZWVuQXQiKQogICAgICAgIH0KICAgICAgICBfID0+IGZhbHNlLAogICAgfQp9CgpmbiBsZWdhY3lfcmVjb3Jkc190eCh0eDogJlRyYW5zYWN0aW9uPCdfPikgLT4gU3RvcmFnZVJlc3VsdDxWZWM8VHlwZWRGbm9zU2hhcmVDYXBhYmlsaXR5Pj4gewogICAgbGV0IG11dCBzdGF0ZW1lbnQgPSB0eC5wcmVwYXJlKAogICAgICAgICJTRUxFQ1Qga2V5IEZST00ga3Zfa2V5cwogICAgICAgICBXSEVSRSBraW5kID0gJ3N0cmluZycgQU5EIGV4cGlyZXNfYXRfbXMgSVMgTk9UIE5VTEwgQU5EIGV4cGlyZXNfYXRfbXMgPiA/MQogICAgICAgICAgIEFORCAoa2V5IExJS0UgPzIgT1Iga2V5IExJS0UgPzMgT1Iga2V5IExJS0UgPzQpCiAgICAgICAgIE9SREVSIEJZIGtleSIsCiAgICApPzsKICAgIGxldCByb3dzID0gc3RhdGVtZW50LnF1ZXJ5X21hcCgKICAgICAgICBwYXJhbXMhWwogICAgICAgICAgICBjcmF0ZTo6dGltZV91dGlsczo6bm93X21zKCksCiAgICAgICAgICAgIGZvcm1hdCEoIntWQUxJREFUSU9OX1BSRUZJWH0lIiksCiAgICAgICAgICAgIGZvcm1hdCEoIntTRVNTSU9OX1BSRUZJWH0lIiksCiAgICAgICAgICAgIGZvcm1hdCEoIntMT0NLX1BSRUZJWH0lIikKICAgICAgICBdLAogICAgICAgIHxyb3d8IHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDApLAogICAgKT87CiAgICBsZXQgbXV0IHJlY29yZHMgPSBWZWM6Om5ldygpOwogICAgZm9yIGtleSBpbiByb3dzIHsKICAgICAgICBpZiBsZXQgU29tZShyZWNvcmQpID0gbGl2ZV9sZWdhY3lfcmVjb3JkX3R4KHR4LCAma2V5Pyk/IHsKICAgICAgICAgICAgcmVjb3Jkcy5wdXNoKHJlY29yZCk7CiAgICAgICAgfQogICAgfQogICAgT2socmVjb3JkcykKfQoKZm4gdHlwZWRfcmVjb3JkX3R4KAogICAgdHg6ICZUcmFuc2FjdGlvbjwnXz4sCiAgICBraW5kOiAmc3RyLAogICAgZGlnZXN0OiAmc3RyLAopIC0+IFN0b3JhZ2VSZXN1bHQ8T3B0aW9uPFR5cGVkRm5vc1NoYXJlQ2FwYWJpbGl0eT4+IHsKICAgIHR5cGVkX3JlY29yZF9xdWVyeSh0eCwga2luZCwgZGlnZXN0KQp9CgojW2NmZyh0ZXN0KV0KZm4gdHlwZWRfcmVjb3JkX2Nvbm4oCiAgICBjb25uOiAmdG9raW9fcnVzcWxpdGU6OnJ1c3FsaXRlOjpDb25uZWN0aW9uLAogICAga2luZDogJnN0ciwKICAgIGRpZ2VzdDogJnN0ciwKKSAtPiBTdG9yYWdlUmVzdWx0PE9wdGlvbjxUeXBlZEZub3NTaGFyZUNhcGFiaWxpdHk+PiB7CiAgICB0eXBlZF9yZWNvcmRfcXVlcnkoY29ubiwga2luZCwgZGlnZXN0KQp9CgpmbiB0eXBlZF9yZWNvcmRfcXVlcnkoCiAgICBjb25uOiAmdG9raW9fcnVzcWxpdGU6OnJ1c3FsaXRlOjpDb25uZWN0aW9uLAogICAga2luZDogJnN0ciwKICAgIGRpZ2VzdDogJnN0ciwKKSAtPiBTdG9yYWdlUmVzdWx0PE9wdGlvbjxUeXBlZEZub3NTaGFyZUNhcGFiaWxpdHk+PiB7CiAgICBjb25uLnF1ZXJ5X3JvdygKICAgICAgICAiU0VMRUNUIHBheWxvYWRfanNvbiwgZ3VhcmRfZGlnZXN0LCBleHBpcmVzX2F0X21zCiAgICAgICAgIEZST00gZm5vc19zaGFyZV9ydW50aW1lX2NhcGFiaWxpdGllcwogICAgICAgICBXSEVSRSBjYXBhYmlsaXR5X2tpbmQgPSA/MSBBTkQga2V5X2RpZ2VzdCA9ID8yIiwKICAgICAgICBwYXJhbXMhW2tpbmQsIGRpZ2VzdF0sCiAgICAgICAgfHJvd3wgewogICAgICAgICAgICBPayhUeXBlZEZub3NTaGFyZUNhcGFiaWxpdHkgewogICAgICAgICAgICAgICAga2luZDogbWF0Y2gga2luZCB7CiAgICAgICAgICAgICAgICAgICAgInZhbGlkYXRpb24iID0+ICJ2YWxpZGF0aW9uIiwKICAgICAgICAgICAgICAgICAgICAic2Vzc2lvbiIgPT4gInNlc3Npb24iLAogICAgICAgICAgICAgICAgICAgIF8gPT4gImxvY2siLAogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIGtleV9kaWdlc3Q6IGRpZ2VzdC50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgIHBheWxvYWRfanNvbjogcm93LmdldCgwKT8sCiAgICAgICAgICAgICAgICBndWFyZF9kaWdlc3Q6IHJvdy5nZXQoMSk/LAogICAgICAgICAgICAgICAgZXhwaXJlc19hdF9tczogcm93LmdldCgyKT8sCiAgICAgICAgICAgIH0pCiAgICAgICAgfSwKICAgICkKICAgIC5vcHRpb25hbCgpCiAgICAubWFwX2VycihJbnRvOjppbnRvKQp9CgpmbiB1cHNlcnRfdHgodHg6ICZUcmFuc2FjdGlvbjwnXz4sIHJlY29yZDogJlR5cGVkRm5vc1NoYXJlQ2FwYWJpbGl0eSkgLT4gU3RvcmFnZVJlc3VsdDwoKT4gewogICAgdHguZXhlY3V0ZSgKICAgICAgICAiSU5TRVJUIElOVE8gZm5vc19zaGFyZV9ydW50aW1lX2NhcGFiaWxpdGllcygKICAgICAgICAgICBjYXBhYmlsaXR5X2tpbmQsIGtleV9kaWdlc3QsIHBheWxvYWRfanNvbiwgZ3VhcmRfZGlnZXN0LCBleHBpcmVzX2F0X21zLCB1cGRhdGVkX2F0X21zCiAgICAgICAgICkgVkFMVUVTICg/MSwgPzIsID8zLCA/NCwgPzUsID82KQogICAgICAgICBPTiBDT05GTElDVChjYXBhYmlsaXR5X2tpbmQsIGtleV9kaWdlc3QpIERPIFVQREFURSBTRVQKICAgICAgICAgICBwYXlsb2FkX2pzb24gPSBleGNsdWRlZC5wYXlsb2FkX2pzb24sCiAgICAgICAgICAgZ3VhcmRfZGlnZXN0ID0gZXhjbHVkZWQuZ3VhcmRfZGlnZXN0LAogICAgICAgICAgIGV4cGlyZXNfYXRfbXMgPSBleGNsdWRlZC5leHBpcmVzX2F0X21zLAogICAgICAgICAgIHVwZGF0ZWRfYXRfbXMgPSBleGNsdWRlZC51cGRhdGVkX2F0X21zCiAgICAgICAgIFdIRVJFIGZub3Nfc2hhcmVfcnVudGltZV9jYXBhYmlsaXRpZXMucGF5bG9hZF9qc29uIElTIE5PVCBleGNsdWRlZC5wYXlsb2FkX2pzb24KICAgICAgICAgICAgT1IgZm5vc19zaGFyZV9ydW50aW1lX2NhcGFiaWxpdGllcy5ndWFyZF9kaWdlc3QgSVMgTk9UIGV4Y2x1ZGVkLmd1YXJkX2RpZ2VzdAogICAgICAgICAgICBPUiBmbm9zX3NoYXJlX3J1bnRpbWVfY2FwYWJpbGl0aWVzLmV4cGlyZXNfYXRfbXMgPD4gZXhjbHVkZWQuZXhwaXJlc19hdF9tcyIsCiAgICAgICAgcGFyYW1zIVsKICAgICAgICAgICAgcmVjb3JkLmtpbmQsCiAgICAgICAgICAgIHJlY29yZC5rZXlfZGlnZXN0LAogICAgICAgICAgICByZWNvcmQucGF5bG9hZF9qc29uLAogICAgICAgICAgICByZWNvcmQuZ3VhcmRfZGlnZXN0LAogICAgICAgICAgICByZWNvcmQuZXhwaXJlc19hdF9tcywKICAgICAgICAgICAgY3JhdGU6OnRpbWVfdXRpbHM6Om5vd19tcygpCiAgICAgICAgXSwKICAgICk/OwogICAgT2soKCkpCn0KCmZuIGRlbGV0ZV90eCh0eDogJlRyYW5zYWN0aW9uPCdfPiwga2luZDogJnN0ciwgZGlnZXN0OiAmc3RyKSAtPiBTdG9yYWdlUmVzdWx0PCgpPiB7CiAgICB0eC5leGVjdXRlKAogICAgICAgICJERUxFVEUgRlJPTSBmbm9zX3NoYXJlX3J1bnRpbWVfY2FwYWJpbGl0aWVzCiAgICAgICAgIFdIRVJFIGNhcGFiaWxpdHlfa2luZCA9ID8xIEFORCBrZXlfZGlnZXN0ID0gPzIiLAogICAgICAgIHBhcmFtcyFba2luZCwgZGlnZXN0XSwKICAgICk/OwogICAgT2soKCkpCn0K
+use tokio_rusqlite::rusqlite::{OptionalExtension, Transaction, TransactionBehavior, params};
+
+use super::{StorageResult, redis_compat::ConnectionManager, storage_error};
+
+pub(crate) const VALIDATION_PREFIX: &str = "fn_knock:fnos-share:validation:";
+pub(crate) const SESSION_PREFIX: &str = "fn_knock:fnos-share:session:";
+pub(crate) const LOCK_PREFIX: &str = "fn_knock:lock:fnos-share:validation:";
+
+const SCHEMA_VERSION: i64 = 1;
+const SCHEMA_NAME: &str = "typed_fnos_share_runtime";
+const SCHEMA_SQL: &str = r#"
+CREATE TABLE fnos_share_runtime_capabilities (
+  capability_kind TEXT NOT NULL CHECK (capability_kind IN ('validation', 'session', 'lock')),
+  key_digest TEXT NOT NULL CHECK (length(key_digest) = 64),
+  payload_json TEXT,
+  guard_digest TEXT,
+  expires_at_ms INTEGER NOT NULL CHECK (expires_at_ms >= 0),
+  updated_at_ms INTEGER NOT NULL,
+  PRIMARY KEY(capability_kind, key_digest),
+  CHECK (
+    (capability_kind IN ('validation', 'session') AND payload_json IS NOT NULL AND json_valid(payload_json) AND guard_digest IS NULL)
+    OR (capability_kind = 'lock' AND payload_json IS NULL AND guard_digest IS NOT NULL AND length(guard_digest) = 64)
+  )
+);
+CREATE INDEX idx_fnos_share_runtime_expiry ON fnos_share_runtime_capabilities(expires_at_ms);
+"#;
+const MIGRATIONS_SQL: &str = r#"
+CREATE TABLE IF NOT EXISTS typed_fnos_share_schema_migrations (
+  version INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  checksum TEXT NOT NULL,
+  applied_at_ms INTEGER NOT NULL
+);
+"#;
+
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub(crate) struct TypedFnosShareCapability {
+    pub(crate) kind: &'static str,
+    pub(crate) key_digest: String,
+    pub(crate) payload_json: Option<String>,
+    pub(crate) guard_digest: Option<String>,
+    pub(crate) expires_at_ms: i64,
+}
+
+#[derive(Clone)]
+pub(crate) struct TypedFnosShareRepository {
+    manager: ConnectionManager,
+}
+
+impl TypedFnosShareRepository {
+    pub(crate) fn new(manager: ConnectionManager) -> Self {
+        Self { manager }
+    }
+
+    pub(crate) async fn initialize(&self) -> StorageResult<()> {
+        self.manager
+            .call(|conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                tx.execute_batch(MIGRATIONS_SQL)?;
+                let checksum = crate::crypto_utils::sha256_hex_bytes(SCHEMA_SQL);
+                let applied = tx
+                    .query_row(
+                        "SELECT name, checksum FROM typed_fnos_share_schema_migrations WHERE version = ?1",
+                        [SCHEMA_VERSION],
+                        |row| Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?)),
+                    )
+                    .optional()?;
+                match applied {
+                    Some((name, stored)) if name == SCHEMA_NAME && stored == checksum => {
+                        let exists = tx.query_row(
+                            "SELECT EXISTS(SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'fnos_share_runtime_capabilities')",
+                            [],
+                            |row| row.get::<_, bool>(0),
+                        )?;
+                        if !exists {
+                            return Err(storage_error(
+                                "typed fnOS share migration is recorded but its table is missing",
+                            ));
+                        }
+                    }
+                    Some((name, _)) if name != SCHEMA_NAME => {
+                        return Err(storage_error("typed fnOS share migration name mismatch"));
+                    }
+                    Some(_) => {
+                        return Err(storage_error("typed fnOS share migration checksum mismatch"));
+                    }
+                    None => {
+                        tx.execute_batch(SCHEMA_SQL)?;
+                        tx.execute(
+                            "INSERT INTO typed_fnos_share_schema_migrations(version, name, checksum, applied_at_ms) VALUES (?1, ?2, ?3, ?4)",
+                            params![SCHEMA_VERSION, SCHEMA_NAME, checksum, crate::time_utils::now_ms()],
+                        )?;
+                    }
+                }
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub(crate) async fn rebuild_from_legacy(&self) -> StorageResult<()> {
+        self.manager
+            .call(|conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                Self::rebuild_from_legacy_tx(&tx)?;
+                tx.commit()?;
+                Ok(())
+            })
+            .await
+    }
+
+    pub(crate) fn rebuild_from_legacy_tx(tx: &Transaction<'_>) -> StorageResult<()> {
+        let records = legacy_records_tx(tx)?;
+        tx.execute("DELETE FROM fnos_share_runtime_capabilities", [])?;
+        for record in records {
+            upsert_tx(tx, &record)?;
+        }
+        Ok(())
+    }
+
+    pub(crate) fn reconcile_legacy_keys_tx(
+        tx: &Transaction<'_>,
+        keys: &[String],
+    ) -> StorageResult<()> {
+        for key in keys {
+            let Some((kind, _)) = parse_key(key) else {
+                continue;
+            };
+            let digest = key_digest(key);
+            match live_legacy_record_tx(tx, key)? {
+                Some(record) => upsert_tx(tx, &record)?,
+                None => delete_tx(tx, kind, &digest)?,
+            }
+        }
+        Ok(())
+    }
+
+    pub(crate) async fn verify_and_repair_key(&self, key: &str) -> StorageResult<bool> {
+        let key = key.to_string();
+        self.manager
+            .call(move |conn| {
+                let tx = conn.transaction_with_behavior(TransactionBehavior::Immediate)?;
+                let (kind, _) = parse_key(&key)
+                    .ok_or_else(|| storage_error("invalid fnOS share runtime key"))?;
+                let digest = key_digest(&key);
+                let raw = live_legacy_raw_tx(&tx, &key)?;
+                let legacy = live_legacy_record_tx(&tx, &key)?;
+                let invalid = raw.is_some() && legacy.is_none();
+                let typed = typed_record_tx(&tx, kind, &digest)?;
+                let matched = !invalid && typed == legacy;
+                if !matched {
+                    match legacy {
+                        Some(record) => upsert_tx(&tx, &record)?,
+                        None => delete_tx(&tx, kind, &digest)?,
+                    }
+                }
+                tx.commit()?;
+                Ok(matched)
+            })
+            .await
+    }
+
+    #[cfg(test)]
+    pub(crate) async fn load_key(
+        &self,
+        key: &str,
+    ) -> StorageResult<Option<TypedFnosShareCapability>> {
+        let (kind, _) = parse_key(key).ok_or_else(|| storage_error("invalid fnOS share key"))?;
+        let kind = kind.to_string();
+        let digest = key_digest(key);
+        self.manager
+            .call(move |conn| typed_record_conn(conn, &kind, &digest))
+            .await
+    }
+
+    #[cfg(test)]
+    pub(crate) async fn count(&self) -> StorageResult<i64> {
+        self.manager
+            .call(|conn| {
+                conn.query_row(
+                    "SELECT COUNT(*) FROM fnos_share_runtime_capabilities",
+                    [],
+                    |row| row.get::<_, i64>(0),
+                )
+                .map_err(Into::into)
+            })
+            .await
+    }
+}
+
+pub(crate) fn owns_key(key: &str) -> bool {
+    parse_key(key).is_some()
+}
+
+fn parse_key(key: &str) -> Option<(&'static str, &str)> {
+    for (prefix, kind) in [
+        (VALIDATION_PREFIX, "validation"),
+        (SESSION_PREFIX, "session"),
+        (LOCK_PREFIX, "lock"),
+    ] {
+        if let Some(suffix) = key.strip_prefix(prefix).filter(|value| !value.is_empty()) {
+            return Some((kind, suffix));
+        }
+    }
+    None
+}
+
+fn key_digest(key: &str) -> String {
+    crate::crypto_utils::sha256_hex_str(key)
+}
+
+fn live_legacy_raw_tx(tx: &Transaction<'_>, key: &str) -> StorageResult<Option<(String, i64)>> {
+    tx.query_row(
+        "SELECT strings.value, keys.expires_at_ms
+         FROM kv_keys AS keys JOIN kv_strings AS strings ON strings.key = keys.key
+         WHERE keys.key = ?1 AND keys.kind = 'string'
+           AND keys.expires_at_ms IS NOT NULL AND keys.expires_at_ms > ?2",
+        params![key, crate::time_utils::now_ms()],
+        |row| Ok((row.get::<_, String>(0)?, row.get::<_, i64>(1)?)),
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+fn live_legacy_record_tx(
+    tx: &Transaction<'_>,
+    key: &str,
+) -> StorageResult<Option<TypedFnosShareCapability>> {
+    let Some((kind, _)) = parse_key(key) else {
+        return Ok(None);
+    };
+    let Some((raw, expires_at_ms)) = live_legacy_raw_tx(tx, key)? else {
+        return Ok(None);
+    };
+    let (payload_json, guard_digest) = if kind == "lock" {
+        if raw.is_empty() {
+            return Ok(None);
+        }
+        (None, Some(crate::crypto_utils::sha256_hex_str(&raw)))
+    } else {
+        let Ok(value) = serde_json::from_str::<serde_json::Value>(&raw) else {
+            return Ok(None);
+        };
+        if !valid_document(kind, &value) {
+            return Ok(None);
+        }
+        (Some(serde_json::to_string(&value)?), None)
+    };
+    Ok(Some(TypedFnosShareCapability {
+        kind,
+        key_digest: key_digest(key),
+        payload_json,
+        guard_digest,
+        expires_at_ms,
+    }))
+}
+
+fn valid_document(kind: &str, value: &serde_json::Value) -> bool {
+    let Some(object) = value.as_object() else {
+        return false;
+    };
+    let nonempty = |name: &str| {
+        object
+            .get(name)
+            .and_then(serde_json::Value::as_str)
+            .is_some_and(|value| !value.trim().is_empty())
+    };
+    match kind {
+        "validation" => {
+            object
+                .get("valid")
+                .is_some_and(serde_json::Value::is_boolean)
+                && nonempty("validationState")
+                && nonempty("shareId")
+                && nonempty("backendId")
+                && nonempty("cleanPath")
+                && nonempty("checkedAt")
+        }
+        "session" => {
+            nonempty("shareId")
+                && nonempty("backendId")
+                && nonempty("cleanPath")
+                && nonempty("issuedAt")
+                && nonempty("lastSeenAt")
+        }
+        _ => false,
+    }
+}
+
+fn legacy_records_tx(tx: &Transaction<'_>) -> StorageResult<Vec<TypedFnosShareCapability>> {
+    let mut statement = tx.prepare(
+        "SELECT key FROM kv_keys
+         WHERE kind = 'string' AND expires_at_ms IS NOT NULL AND expires_at_ms > ?1
+           AND (key LIKE ?2 OR key LIKE ?3 OR key LIKE ?4)
+         ORDER BY key",
+    )?;
+    let rows = statement.query_map(
+        params![
+            crate::time_utils::now_ms(),
+            format!("{VALIDATION_PREFIX}%"),
+            format!("{SESSION_PREFIX}%"),
+            format!("{LOCK_PREFIX}%")
+        ],
+        |row| row.get::<_, String>(0),
+    )?;
+    let mut records = Vec::new();
+    for key in rows {
+        if let Some(record) = live_legacy_record_tx(tx, &key?)? {
+            records.push(record);
+        }
+    }
+    Ok(records)
+}
+
+fn typed_record_tx(
+    tx: &Transaction<'_>,
+    kind: &str,
+    digest: &str,
+) -> StorageResult<Option<TypedFnosShareCapability>> {
+    typed_record_query(tx, kind, digest)
+}
+
+#[cfg(test)]
+fn typed_record_conn(
+    conn: &tokio_rusqlite::rusqlite::Connection,
+    kind: &str,
+    digest: &str,
+) -> StorageResult<Option<TypedFnosShareCapability>> {
+    typed_record_query(conn, kind, digest)
+}
+
+fn typed_record_query(
+    conn: &tokio_rusqlite::rusqlite::Connection,
+    kind: &str,
+    digest: &str,
+) -> StorageResult<Option<TypedFnosShareCapability>> {
+    conn.query_row(
+        "SELECT payload_json, guard_digest, expires_at_ms
+         FROM fnos_share_runtime_capabilities
+         WHERE capability_kind = ?1 AND key_digest = ?2",
+        params![kind, digest],
+        |row| {
+            Ok(TypedFnosShareCapability {
+                kind: match kind {
+                    "validation" => "validation",
+                    "session" => "session",
+                    _ => "lock",
+                },
+                key_digest: digest.to_string(),
+                payload_json: row.get(0)?,
+                guard_digest: row.get(1)?,
+                expires_at_ms: row.get(2)?,
+            })
+        },
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+fn upsert_tx(tx: &Transaction<'_>, record: &TypedFnosShareCapability) -> StorageResult<()> {
+    tx.execute(
+        "INSERT INTO fnos_share_runtime_capabilities(
+           capability_kind, key_digest, payload_json, guard_digest, expires_at_ms, updated_at_ms
+         ) VALUES (?1, ?2, ?3, ?4, ?5, ?6)
+         ON CONFLICT(capability_kind, key_digest) DO UPDATE SET
+           payload_json = excluded.payload_json,
+           guard_digest = excluded.guard_digest,
+           expires_at_ms = excluded.expires_at_ms,
+           updated_at_ms = excluded.updated_at_ms
+         WHERE fnos_share_runtime_capabilities.payload_json IS NOT excluded.payload_json
+            OR fnos_share_runtime_capabilities.guard_digest IS NOT excluded.guard_digest
+            OR fnos_share_runtime_capabilities.expires_at_ms <> excluded.expires_at_ms",
+        params![
+            record.kind,
+            record.key_digest,
+            record.payload_json,
+            record.guard_digest,
+            record.expires_at_ms,
+            crate::time_utils::now_ms()
+        ],
+    )?;
+    Ok(())
+}
+
+fn delete_tx(tx: &Transaction<'_>, kind: &str, digest: &str) -> StorageResult<()> {
+    tx.execute(
+        "DELETE FROM fnos_share_runtime_capabilities
+         WHERE capability_kind = ?1 AND key_digest = ?2",
+        params![kind, digest],
+    )?;
+    Ok(())
+}

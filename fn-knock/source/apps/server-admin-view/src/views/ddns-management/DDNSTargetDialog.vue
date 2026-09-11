@@ -1,1 +1,133 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IFJlZnJlc2hDdyB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB0eXBlIHsgREROU05ldHdvcmtJbnRlcmZhY2VQYXlsb2FkIH0gZnJvbSAiQC9saWIvYXBpL2RkbnMiOwppbXBvcnQgdHlwZSB7CiAgREROU0FkZHJlc3NPcHRpb24sCiAgREROU0xhYmVsS2V5T3B0aW9uLAp9IGZyb20gIi4vZGRucy10YXJnZXQtZGlhbG9nLWNvbnRyYWN0IjsKaW1wb3J0IHR5cGUgewogIERETlNJcFNvdXJjZSwKICBERE5TVXBkYXRlU2NvcGUsCiAgUHJvdmlkZXIsCiAgUHJvdmlkZXJGaWVsZCwKICBUYXJnZXREaWFsb2dTdGF0ZSwKfSBmcm9tICIuL21vZGVsIjsKaW1wb3J0IERETlNUYXJnZXRBZGRyZXNzRmllbGRzIGZyb20gIi4vREROU1RhcmdldEFkZHJlc3NGaWVsZHMudnVlIjsKaW1wb3J0IERETlNUYXJnZXRCYXNpY0ZpZWxkcyBmcm9tICIuL0RETlNUYXJnZXRCYXNpY0ZpZWxkcy52dWUiOwppbXBvcnQgREROU1RhcmdldFByb3ZpZGVyRmllbGRzIGZyb20gIi4vREROU1RhcmdldFByb3ZpZGVyRmllbGRzLnZ1ZSI7CgpkZWZpbmVQcm9wczx7CiAgZGVzY3JpcHRpb246IHN0cmluZzsKICBmb3JtYXREb21haW5GaWVsZDogKCkgPT4gdm9pZDsKICBmb3JtYXRPcHRpb25MYWJlbDogKAogICAgb3B0aW9uOiBERE5TTGFiZWxLZXlPcHRpb248REROU0lwU291cmNlIHwgREROU1VwZGF0ZVNjb3BlPiwKICApID0+IHN0cmluZzsKICBnZXRGaWVsZEF1dG9jb21wbGV0ZTogKGZpZWxkOiBQcm92aWRlckZpZWxkKSA9PiBzdHJpbmc7CiAgZ2V0RmllbGREZXNjcmlwdGlvbjogKGZpZWxkOiBQcm92aWRlckZpZWxkKSA9PiBzdHJpbmc7CiAgaXNGaWVsZFZpc2libGU6IChrZXk6IHN0cmluZykgPT4gYm9vbGVhbjsKICBpc0lwU291cmNlT3B0aW9uRGlzYWJsZWQ6ICgKICAgIHByb3ZpZGVyTmFtZTogc3RyaW5nLAogICAgb3B0aW9uOiBERE5TSXBTb3VyY2UsCiAgKSA9PiBib29sZWFuOwogIGlzU2F2aW5nOiBib29sZWFuOwogIGlzVXBkYXRlU2NvcGVPcHRpb25EaXNhYmxlZDogKAogICAgcHJvdmlkZXJOYW1lOiBzdHJpbmcsCiAgICBvcHRpb246IERETlNVcGRhdGVTY29wZSwKICApID0+IGJvb2xlYW47CiAgbmV0d29ya0ludGVyZmFjZUxhYmVsOiBzdHJpbmc7CiAgb3BlbjogYm9vbGVhbjsKICBwcm92aWRlcnM6IFByb3ZpZGVyW107CiAgcHJvdmlkZXJEZWY6IFByb3ZpZGVyIHwgbnVsbDsKICByZXNvbHZlZE5ldHdvcmtJbnRlcmZhY2VzOiBERE5TTmV0d29ya0ludGVyZmFjZVBheWxvYWRbXTsKICBzaG91bGRTaG93RG9tYWluQmxvY2s6IGJvb2xlYW47CiAgc2hvdWxkU2hvd0ludGVyZmFjZUJsb2NrOiBib29sZWFuOwogIHNob3VsZFNob3dTdGF0aWNCbG9jazogYm9vbGVhbjsKICBzdGF0ZTogVGFyZ2V0RGlhbG9nU3RhdGU7CiAgdGl0bGU6IHN0cmluZzsKICB0b2dnbGVGaWVsZFZpc2liaWxpdHk6IChrZXk6IHN0cmluZykgPT4gdm9pZDsKICB1cGRhdGVTY29wZTogREROU1VwZGF0ZVNjb3BlOwogIGlwdjRPcHRpb25zOiBERE5TQWRkcmVzc09wdGlvbltdOwogIGlwdjZPcHRpb25zOiBERE5TQWRkcmVzc09wdGlvbltdOwp9PigpOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICBjb25maXJtOiBbXTsKICAidXBkYXRlOm5ldHdvcmtJbnRlcmZhY2UiOiBbdmFsdWU6IHN0cmluZ107CiAgInVwZGF0ZTpvcGVuIjogW3ZhbHVlOiBib29sZWFuXTsKICAidXBkYXRlOnByb3ZpZGVyIjogW3ZhbHVlOiBzdHJpbmddOwp9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERpYWxvZyA6b3Blbj0ib3BlbiIgQHVwZGF0ZTpvcGVuPSJlbWl0KCd1cGRhdGU6b3BlbicsICRldmVudCkiPgogICAgPERpYWxvZ0NvbnRlbnQgY2xhc3M9Im1heC1oLVs4OHZoXSBvdmVyZmxvdy15LWF1dG8gc206bWF4LXctWzc2MHB4XSI+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPnt7IHRpdGxlIH19PC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+e3sgZGVzY3JpcHRpb24gfX08L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICA8L0RpYWxvZ0hlYWRlcj4KCiAgICAgIDxkaXYgY2xhc3M9ImRpdmlkZS15IGRpdmlkZS1ib3JkZXIgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbGcgYm9yZGVyIj4KICAgICAgICA8REROU1RhcmdldEJhc2ljRmllbGRzCiAgICAgICAgICA6cHJvdmlkZXJzPSJwcm92aWRlcnMiCiAgICAgICAgICA6c3RhdGU9InN0YXRlIgogICAgICAgICAgQHVwZGF0ZTpwcm92aWRlcj0iZW1pdCgndXBkYXRlOnByb3ZpZGVyJywgJGV2ZW50KSIKICAgICAgICAvPgoKICAgICAgICA8dGVtcGxhdGUgdi1pZj0ic3RhdGUucHJvdmlkZXIiPgogICAgICAgICAgPERETlNUYXJnZXRBZGRyZXNzRmllbGRzCiAgICAgICAgICAgIDpmb3JtYXQtb3B0aW9uLWxhYmVsPSJmb3JtYXRPcHRpb25MYWJlbCIKICAgICAgICAgICAgOmlwdjQtb3B0aW9ucz0iaXB2NE9wdGlvbnMiCiAgICAgICAgICAgIDppcHY2LW9wdGlvbnM9ImlwdjZPcHRpb25zIgogICAgICAgICAgICA6aXMtaXAtc291cmNlLW9wdGlvbi1kaXNhYmxlZD0iaXNJcFNvdXJjZU9wdGlvbkRpc2FibGVkIgogICAgICAgICAgICA6aXMtdXBkYXRlLXNjb3BlLW9wdGlvbi1kaXNhYmxlZD0iaXNVcGRhdGVTY29wZU9wdGlvbkRpc2FibGVkIgogICAgICAgICAgICA6bmV0d29yay1pbnRlcmZhY2UtbGFiZWw9Im5ldHdvcmtJbnRlcmZhY2VMYWJlbCIKICAgICAgICAgICAgOnJlc29sdmVkLW5ldHdvcmstaW50ZXJmYWNlcz0icmVzb2x2ZWROZXR3b3JrSW50ZXJmYWNlcyIKICAgICAgICAgICAgOnNob3VsZC1zaG93LWRvbWFpbi1ibG9jaz0ic2hvdWxkU2hvd0RvbWFpbkJsb2NrIgogICAgICAgICAgICA6c2hvdWxkLXNob3ctaW50ZXJmYWNlLWJsb2NrPSJzaG91bGRTaG93SW50ZXJmYWNlQmxvY2siCiAgICAgICAgICAgIDpzaG91bGQtc2hvdy1zdGF0aWMtYmxvY2s9InNob3VsZFNob3dTdGF0aWNCbG9jayIKICAgICAgICAgICAgOnN0YXRlPSJzdGF0ZSIKICAgICAgICAgICAgOnVwZGF0ZS1zY29wZT0idXBkYXRlU2NvcGUiCiAgICAgICAgICAgIEB1cGRhdGU6bmV0d29yay1pbnRlcmZhY2U9IgogICAgICAgICAgICAgIGVtaXQoJ3VwZGF0ZTpuZXR3b3JrSW50ZXJmYWNlJywgJGV2ZW50KQogICAgICAgICAgICAiCiAgICAgICAgICAvPgogICAgICAgICAgPERETlNUYXJnZXRQcm92aWRlckZpZWxkcwogICAgICAgICAgICB2LWlmPSJwcm92aWRlckRlZiIKICAgICAgICAgICAgOmZvcm1hdC1kb21haW4tZmllbGQ9ImZvcm1hdERvbWFpbkZpZWxkIgogICAgICAgICAgICA6Z2V0LWZpZWxkLWF1dG9jb21wbGV0ZT0iZ2V0RmllbGRBdXRvY29tcGxldGUiCiAgICAgICAgICAgIDpnZXQtZmllbGQtZGVzY3JpcHRpb249ImdldEZpZWxkRGVzY3JpcHRpb24iCiAgICAgICAgICAgIDppcy1maWVsZC12aXNpYmxlPSJpc0ZpZWxkVmlzaWJsZSIKICAgICAgICAgICAgOnByb3ZpZGVyLWRlZj0icHJvdmlkZXJEZWYiCiAgICAgICAgICAgIDpzdGF0ZT0ic3RhdGUiCiAgICAgICAgICAgIDp0b2dnbGUtZmllbGQtdmlzaWJpbGl0eT0idG9nZ2xlRmllbGRWaXNpYmlsaXR5IgogICAgICAgICAgLz4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L2Rpdj4KCiAgICAgIDxEaWFsb2dGb290ZXIgY2xhc3M9ImdhcC0yIj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZyIKICAgICAgICAgIEBjbGljaz0iZW1pdCgndXBkYXRlOm9wZW4nLCBmYWxzZSkiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiY29tbW9uLmNhbmNlbCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbiA6ZGlzYWJsZWQ9ImlzU2F2aW5nIiBAY2xpY2s9ImVtaXQoJ2NvbmZpcm0nKSI+CiAgICAgICAgICA8UmVmcmVzaEN3IHYtaWY9ImlzU2F2aW5nIiBjbGFzcz0ibXItMS41IGgtNCB3LTQgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgICAge3sgaXNTYXZpbmcgPyB0KCJhZG1pbi5kZG5zLnNhdmluZyIpIDogdCgiY29tbW9uLnNhdmUiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgIDwvRGlhbG9nQ29udGVudD4KICA8L0RpYWxvZz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { RefreshCw } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import type { DDNSNetworkInterfacePayload } from "@/lib/api/ddns";
+import type {
+  DDNSAddressOption,
+  DDNSLabelKeyOption,
+} from "./ddns-target-dialog-contract";
+import type {
+  DDNSIpSource,
+  DDNSUpdateScope,
+  Provider,
+  ProviderField,
+  TargetDialogState,
+} from "./model";
+import DDNSTargetAddressFields from "./DDNSTargetAddressFields.vue";
+import DDNSTargetBasicFields from "./DDNSTargetBasicFields.vue";
+import DDNSTargetProviderFields from "./DDNSTargetProviderFields.vue";
+
+defineProps<{
+  description: string;
+  formatDomainField: () => void;
+  formatOptionLabel: (
+    option: DDNSLabelKeyOption<DDNSIpSource | DDNSUpdateScope>,
+  ) => string;
+  getFieldAutocomplete: (field: ProviderField) => string;
+  getFieldDescription: (field: ProviderField) => string;
+  isFieldVisible: (key: string) => boolean;
+  isIpSourceOptionDisabled: (
+    providerName: string,
+    option: DDNSIpSource,
+  ) => boolean;
+  isSaving: boolean;
+  isUpdateScopeOptionDisabled: (
+    providerName: string,
+    option: DDNSUpdateScope,
+  ) => boolean;
+  networkInterfaceLabel: string;
+  open: boolean;
+  providers: Provider[];
+  providerDef: Provider | null;
+  resolvedNetworkInterfaces: DDNSNetworkInterfacePayload[];
+  shouldShowDomainBlock: boolean;
+  shouldShowInterfaceBlock: boolean;
+  shouldShowStaticBlock: boolean;
+  state: TargetDialogState;
+  title: string;
+  toggleFieldVisibility: (key: string) => void;
+  updateScope: DDNSUpdateScope;
+  ipv4Options: DDNSAddressOption[];
+  ipv6Options: DDNSAddressOption[];
+}>();
+
+const emit = defineEmits<{
+  confirm: [];
+  "update:networkInterface": [value: string];
+  "update:open": [value: boolean];
+  "update:provider": [value: string];
+}>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="max-h-[88vh] overflow-y-auto sm:max-w-[760px]">
+      <DialogHeader>
+        <DialogTitle>{{ title }}</DialogTitle>
+        <DialogDescription>{{ description }}</DialogDescription>
+      </DialogHeader>
+
+      <div class="divide-y divide-border overflow-hidden rounded-lg border">
+        <DDNSTargetBasicFields
+          :providers="providers"
+          :state="state"
+          @update:provider="emit('update:provider', $event)"
+        />
+
+        <template v-if="state.provider">
+          <DDNSTargetAddressFields
+            :format-option-label="formatOptionLabel"
+            :ipv4-options="ipv4Options"
+            :ipv6-options="ipv6Options"
+            :is-ip-source-option-disabled="isIpSourceOptionDisabled"
+            :is-update-scope-option-disabled="isUpdateScopeOptionDisabled"
+            :network-interface-label="networkInterfaceLabel"
+            :resolved-network-interfaces="resolvedNetworkInterfaces"
+            :should-show-domain-block="shouldShowDomainBlock"
+            :should-show-interface-block="shouldShowInterfaceBlock"
+            :should-show-static-block="shouldShowStaticBlock"
+            :state="state"
+            :update-scope="updateScope"
+            @update:network-interface="
+              emit('update:networkInterface', $event)
+            "
+          />
+          <DDNSTargetProviderFields
+            v-if="providerDef"
+            :format-domain-field="formatDomainField"
+            :get-field-autocomplete="getFieldAutocomplete"
+            :get-field-description="getFieldDescription"
+            :is-field-visible="isFieldVisible"
+            :provider-def="providerDef"
+            :state="state"
+            :toggle-field-visibility="toggleFieldVisibility"
+          />
+        </template>
+      </div>
+
+      <DialogFooter class="gap-2">
+        <Button
+          variant="outline"
+          :disabled="isSaving"
+          @click="emit('update:open', false)"
+        >
+          {{ t("common.cancel") }}
+        </Button>
+        <Button :disabled="isSaving" @click="emit('confirm')">
+          <RefreshCw v-if="isSaving" class="mr-1.5 h-4 w-4 animate-spin" />
+          {{ isSaving ? t("admin.ddns.saving") : t("common.save") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

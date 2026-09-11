@@ -1,1 +1,146 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB0eXBlIHsKICBTU0xDZXJ0aWZpY2F0ZVN1bW1hcnksCiAgU3ViZG9tYWluQ2VydGlmaWNhdGVMaWJyYXJ5Q292ZXJhZ2UsCn0gZnJvbSAiQC90eXBlcyI7CmltcG9ydCB7CiAgQ2FyZCwKICBDYXJkQ29udGVudCwKICBDYXJkRGVzY3JpcHRpb24sCiAgQ2FyZEZvb3RlciwKICBDYXJkSGVhZGVyLAogIENhcmRUaXRsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7IEFsZXJ0LCBBbGVydERlc2NyaXB0aW9uLCBBbGVydFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2FsZXJ0IjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IENvbmZpcm1EYW5nZXJQb3BvdmVyIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vQ29uZmlybURhbmdlclBvcG92ZXIudnVlIjsKCmRlZmluZVByb3BzPHsKICBhY3RpdmVDZXJ0aWZpY2F0ZTogU1NMQ2VydGlmaWNhdGVTdW1tYXJ5IHwgbnVsbDsKICBjZXJ0aWZpY2F0ZUNvdW50OiBudW1iZXI7CiAgZGVwbG95bWVudE1vZGVMYWJlbDogc3RyaW5nOwogIGlzQWN0aXZhdGluZzogYm9vbGVhbjsKICBpc0NsZWFyaW5nOiBib29sZWFuOwogIGlzVXBkYXRpbmdEZXBsb3ltZW50TW9kZTogYm9vbGVhbjsKICBsaWJyYXJ5Q292ZXJhZ2U6IFN1YmRvbWFpbkNlcnRpZmljYXRlTGlicmFyeUNvdmVyYWdlIHwgbnVsbDsKICBwcmltYXJ5Q2VydGlmaWNhdGVCYWRnZUxhYmVsOiBzdHJpbmc7CiAgcmVjb21tZW5kZWRDZXJ0aWZpY2F0ZUlkOiBzdHJpbmc7CiAgc2hvd011bHRpU25pU3VnZ2VzdGlvbjogYm9vbGVhbjsKICBzdGF0dXNPdmVydmlld1RleHQ6IHN0cmluZzsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgYWN0aXZhdGVSZWNvbW1lbmRlZDogW107CiAgY2xlYXI6IFtdOwogIHN3aXRjaFRvTXVsdGlTbmk6IFtdOwp9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPENhcmQgY2xhc3M9ImR5bmFtaWMtd2hpdGUtY2VydC1jYXJkIj4KICAgIDxDYXJkSGVhZGVyPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTEiPgogICAgICAgICAgPENhcmRUaXRsZSBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgICAgICA8c3Bhbj57eyB0KCJhZG1pbi5jZXJ0Q29uZmlnLmN1cnJlbnRTdGF0dXMiKSB9fTwvc3Bhbj4KICAgICAgICAgICAgPEJhZGdlCiAgICAgICAgICAgICAgOnZhcmlhbnQ9ImFjdGl2ZUNlcnRpZmljYXRlID8gJ2RlZmF1bHQnIDogJ3NlY29uZGFyeSciCiAgICAgICAgICAgICAgOmNsYXNzPSIKICAgICAgICAgICAgICAgIGFjdGl2ZUNlcnRpZmljYXRlID8gJ2JnLWdyZWVuLTYwMCBob3ZlcjpiZy1ncmVlbi02MDAnIDogJycKICAgICAgICAgICAgICAiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyBwcmltYXJ5Q2VydGlmaWNhdGVCYWRnZUxhYmVsIH19CiAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICA8L0NhcmRUaXRsZT4KICAgICAgICAgIDxDYXJkRGVzY3JpcHRpb24gY2xhc3M9ImxlYWRpbmctNiI+CiAgICAgICAgICAgIHt7IHN0YXR1c092ZXJ2aWV3VGV4dCB9fQogICAgICAgICAgPC9DYXJkRGVzY3JpcHRpb24+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAgZ2FwLTIiPgogICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9Im91dGxpbmUiPnt7IGRlcGxveW1lbnRNb2RlTGFiZWwgfX08L0JhZGdlPgogICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9InNlY29uZGFyeSI+CiAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgdCgiYWRtaW4uY2VydENvbmZpZy5jZXJ0aWZpY2F0ZUxpYnJhcnlDb3VudCIsIHsKICAgICAgICAgICAgICAgIGNvdW50OiBjZXJ0aWZpY2F0ZUNvdW50LAogICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L0JhZGdlPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvQ2FyZEhlYWRlcj4KCiAgICA8Q2FyZENvbnRlbnQgdi1pZj0ibGlicmFyeUNvdmVyYWdlIiBjbGFzcz0icHQtMCI+CiAgICAgIDxBbGVydAogICAgICAgIDp2YXJpYW50PSIKICAgICAgICAgIGxpYnJhcnlDb3ZlcmFnZS5zdGF0dXMgPT09ICdtaXNzaW5nJyA/ICdkZXN0cnVjdGl2ZScgOiAnZGVmYXVsdCcKICAgICAgICAiCiAgICAgICAgY2xhc3M9ImR5bmFtaWMtd2hpdGUtZ2xhc3Mtc3VyZmFjZSIKICAgICAgPgogICAgICAgIDxBbGVydFRpdGxlPnt7IHQoImFkbWluLmNlcnRDb25maWcuc3ViZG9tYWluTG9vcFRpdGxlIikgfX08L0FsZXJ0VGl0bGU+CiAgICAgICAgPEFsZXJ0RGVzY3JpcHRpb24gY2xhc3M9ImdyaWQgZ2FwLTIiPgogICAgICAgICAgPHA+e3sgbGlicmFyeUNvdmVyYWdlLnN1bW1hcnkgfX08L3A+CiAgICAgICAgICA8cAogICAgICAgICAgICB2LWlmPSJsaWJyYXJ5Q292ZXJhZ2UuY29tYmluZWRfY292ZXJpbmdfY2VydGlmaWNhdGVfaWRzLmxlbmd0aCA+IDEiCiAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICB0KCJhZG1pbi5jZXJ0Q29uZmlnLmNvbWJpbmVkQ292ZXJhZ2VDb3VudCIsIHsKICAgICAgICAgICAgICAgIGNvdW50OiBsaWJyYXJ5Q292ZXJhZ2UuY29tYmluZWRfY292ZXJpbmdfY2VydGlmaWNhdGVfaWRzLmxlbmd0aCwKICAgICAgICAgICAgICB9KQogICAgICAgICAgICB9fQogICAgICAgICAgPC9wPgogICAgICAgICAgPGRpdgogICAgICAgICAgICB2LWlmPSJsaWJyYXJ5Q292ZXJhZ2Uud2FybmluZ3MubGVuZ3RoIgogICAgICAgICAgICBjbGFzcz0iZ3JpZCBnYXAtMSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdiB2LWZvcj0id2FybmluZyBpbiBsaWJyYXJ5Q292ZXJhZ2Uud2FybmluZ3MiIDprZXk9Indhcm5pbmciPgogICAgICAgICAgICAgIHt7IHdhcm5pbmcgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHYtaWY9InNob3dNdWx0aVNuaVN1Z2dlc3Rpb24iCiAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzVXBkYXRpbmdEZXBsb3ltZW50TW9kZSIKICAgICAgICAgICAgICBAY2xpY2s9ImVtaXQoJ3N3aXRjaFRvTXVsdGlTbmknKSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcuc3dpdGNoVG9NdWx0aVNuaSIpIH19CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgdi1pZj0icmVjb21tZW5kZWRDZXJ0aWZpY2F0ZUlkIgogICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNBY3RpdmF0aW5nIgogICAgICAgICAgICAgIEBjbGljaz0iZW1pdCgnYWN0aXZhdGVSZWNvbW1lbmRlZCcpIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5zd2l0Y2hUb1JlY29tbWVuZGVkIikgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L0FsZXJ0RGVzY3JpcHRpb24+CiAgICAgIDwvQWxlcnQ+CiAgICA8L0NhcmRDb250ZW50PgoKICAgIDxDYXJkRm9vdGVyCiAgICAgIHYtaWY9ImFjdGl2ZUNlcnRpZmljYXRlIgogICAgICBjbGFzcz0iZmxleCBmbGV4LXdyYXAganVzdGlmeS1lbmQgZ2FwLTIgYm9yZGVyLXQgcHQtNiIKICAgID4KICAgICAgPENvbmZpcm1EYW5nZXJQb3BvdmVyCiAgICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5jZXJ0Q29uZmlnLmRpc2FibGVUaXRsZScpIgogICAgICAgIDpkZXNjcmlwdGlvbj0idCgnYWRtaW4uY2VydENvbmZpZy5kaXNhYmxlRGVzY3JpcHRpb24nKSIKICAgICAgICA6Y29uZmlybS10ZXh0PSJ0KCdhZG1pbi5jZXJ0Q29uZmlnLmRpc2FibGVDb25maXJtJykiCiAgICAgICAgOmxvYWRpbmc9ImlzQ2xlYXJpbmciCiAgICAgICAgOmRpc2FibGVkPSJpc0NsZWFyaW5nIgogICAgICAgIDpvbi1jb25maXJtPSIoKSA9PiBlbWl0KCdjbGVhcicpIgogICAgICA+CiAgICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJkZXN0cnVjdGl2ZSIgc2l6ZT0ic20iIDpkaXNhYmxlZD0iaXNDbGVhcmluZyI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcuZGlzYWJsZUh0dHBzIikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwvQ29uZmlybURhbmdlclBvcG92ZXI+CiAgICA8L0NhcmRGb290ZXI+CiAgPC9DYXJkPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import type {
+  SSLCertificateSummary,
+  SubdomainCertificateLibraryCoverage,
+} from "@/types";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+
+defineProps<{
+  activeCertificate: SSLCertificateSummary | null;
+  certificateCount: number;
+  deploymentModeLabel: string;
+  isActivating: boolean;
+  isClearing: boolean;
+  isUpdatingDeploymentMode: boolean;
+  libraryCoverage: SubdomainCertificateLibraryCoverage | null;
+  primaryCertificateBadgeLabel: string;
+  recommendedCertificateId: string;
+  showMultiSniSuggestion: boolean;
+  statusOverviewText: string;
+}>();
+
+const emit = defineEmits<{
+  activateRecommended: [];
+  clear: [];
+  switchToMultiSni: [];
+}>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <Card class="dynamic-white-cert-card">
+    <CardHeader>
+      <div class="flex flex-wrap items-start justify-between gap-3">
+        <div class="grid gap-1">
+          <CardTitle class="flex items-center gap-3">
+            <span>{{ t("admin.certConfig.currentStatus") }}</span>
+            <Badge
+              :variant="activeCertificate ? 'default' : 'secondary'"
+              :class="
+                activeCertificate ? 'bg-green-600 hover:bg-green-600' : ''
+              "
+            >
+              {{ primaryCertificateBadgeLabel }}
+            </Badge>
+          </CardTitle>
+          <CardDescription class="leading-6">
+            {{ statusOverviewText }}
+          </CardDescription>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          <Badge variant="outline">{{ deploymentModeLabel }}</Badge>
+          <Badge variant="secondary">
+            {{
+              t("admin.certConfig.certificateLibraryCount", {
+                count: certificateCount,
+              })
+            }}
+          </Badge>
+        </div>
+      </div>
+    </CardHeader>
+
+    <CardContent v-if="libraryCoverage" class="pt-0">
+      <Alert
+        :variant="
+          libraryCoverage.status === 'missing' ? 'destructive' : 'default'
+        "
+        class="dynamic-white-glass-surface"
+      >
+        <AlertTitle>{{ t("admin.certConfig.subdomainLoopTitle") }}</AlertTitle>
+        <AlertDescription class="grid gap-2">
+          <p>{{ libraryCoverage.summary }}</p>
+          <p
+            v-if="libraryCoverage.combined_covering_certificate_ids.length > 1"
+            class="text-xs text-muted-foreground"
+          >
+            {{
+              t("admin.certConfig.combinedCoverageCount", {
+                count: libraryCoverage.combined_covering_certificate_ids.length,
+              })
+            }}
+          </p>
+          <div
+            v-if="libraryCoverage.warnings.length"
+            class="grid gap-1 text-xs text-muted-foreground"
+          >
+            <div v-for="warning in libraryCoverage.warnings" :key="warning">
+              {{ warning }}
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <Button
+              v-if="showMultiSniSuggestion"
+              size="sm"
+              variant="outline"
+              :disabled="isUpdatingDeploymentMode"
+              @click="emit('switchToMultiSni')"
+            >
+              {{ t("admin.certConfig.switchToMultiSni") }}
+            </Button>
+            <Button
+              v-if="recommendedCertificateId"
+              size="sm"
+              :disabled="isActivating"
+              @click="emit('activateRecommended')"
+            >
+              {{ t("admin.certConfig.switchToRecommended") }}
+            </Button>
+          </div>
+        </AlertDescription>
+      </Alert>
+    </CardContent>
+
+    <CardFooter
+      v-if="activeCertificate"
+      class="flex flex-wrap justify-end gap-2 border-t pt-6"
+    >
+      <ConfirmDangerPopover
+        :title="t('admin.certConfig.disableTitle')"
+        :description="t('admin.certConfig.disableDescription')"
+        :confirm-text="t('admin.certConfig.disableConfirm')"
+        :loading="isClearing"
+        :disabled="isClearing"
+        :on-confirm="() => emit('clear')"
+      >
+        <template #trigger>
+          <Button variant="destructive" size="sm" :disabled="isClearing">
+            {{ t("admin.certConfig.disableHttps") }}
+          </Button>
+        </template>
+      </ConfirmDangerPopover>
+    </CardFooter>
+  </Card>
+</template>

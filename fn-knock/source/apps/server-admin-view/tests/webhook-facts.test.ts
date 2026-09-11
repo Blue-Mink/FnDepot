@@ -1,1 +1,108 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKaW1wb3J0IHsKICBXRUJIT09LX0NPTU1PTl9GQUNUUywKICBXRUJIT09LX0VWRU5UX0ZBQ1RTLAogIFdFQkhPT0tfRkFDVF9MQUJFTFMsCn0gZnJvbSAiLi4vc3JjL3ZpZXdzL2V2ZW50LWNlbnRlci9ub3RpZmljYXRpb25zL3dlYmhvb2stZmFjdHMiOwppbXBvcnQgewogIGNyZWF0ZVdlYmhvb2tTYW1wbGVDb250ZXh0LAogIHZhbGlkYXRlV2ViaG9va0JvZHlDb25maWcsCiAgREVGQVVMVF9XRUJIT09LX0JPRFlfQ09OU1RSQUlOVFMsCn0gZnJvbSAiLi4vc3JjL3ZpZXdzL2V2ZW50LWNlbnRlci9ub3RpZmljYXRpb25zL3dlYmhvb2stYm9keSI7Cgpjb25zdCBzb3VyY2UgPSByZWFkRmlsZVN5bmMoCiAgbmV3IFVSTCgKICAgICIuLi8uLi9zZXJ2ZXItYWRtaW4tcnMvc3JjL25vdGlmaWNhdGlvbnMvcm91dGVzL2RldGFpbHMucnMiLAogICAgaW1wb3J0Lm1ldGEudXJsLAogICksCiAgInV0ZjgiLAopOwpjb25zdCBrZXlzSW4gPSAodGV4dDogc3RyaW5nKSA9PgogIFsuLi50ZXh0Lm1hdGNoQWxsKC8mbXV0IGZhY3RzLFxzKiIoW14iXSspIi9ndSldLm1hcCgobWF0Y2gpID0+IG1hdGNoWzFdISk7CgpkZXNjcmliZSgid2ViaG9vayBkZXRhaWwgdmFyaWFibGUgY2F0YWxvZ3VlIiwgKCkgPT4gewogIGl0KCJjb3ZlcnMgZXZlcnkgZXZlbnQgYW5kIGNvbW1vbiBkZXRhaWwgd2l0aG91dCBkdXBsaWNhdGUga2V5cyIsICgpID0+IHsKICAgIGNvbnN0IGJyYW5jaGVzID0gWy4uLnNvdXJjZS5tYXRjaEFsbCgvXiB7OH0oIkZOX0VWRU5UX1tcc1xTXSo/KSA9PiBcey9nbXUpXTsKICAgIGNvbnN0IGV4cGVjdGVkID0gYnJhbmNoZXMuZmxhdE1hcCgoYnJhbmNoLCBpbmRleCkgPT4gewogICAgICBjb25zdCBlbmQgPQogICAgICAgIGJyYW5jaGVzW2luZGV4ICsgMV0/LmluZGV4ID8/CiAgICAgICAgc291cmNlLmluZGV4T2YoIiAgICAgICAgXyA9PiB7fSIsIGJyYW5jaC5pbmRleCk7CiAgICAgIGNvbnN0IGtleXMgPSBrZXlzSW4oc291cmNlLnNsaWNlKGJyYW5jaC5pbmRleCEgKyBicmFuY2hbMF0ubGVuZ3RoLCBlbmQpKTsKICAgICAgYXNzZXJ0LmVxdWFsKG5ldyBTZXQoa2V5cykuc2l6ZSwga2V5cy5sZW5ndGgpOwogICAgICBhc3NlcnQub2soa2V5cy5ldmVyeSgoa2V5KSA9PiAhV0VCSE9PS19DT01NT05fRkFDVFMuaW5jbHVkZXMoa2V5KSkpOwogICAgICByZXR1cm4gWy4uLmJyYW5jaFsxXSEubWF0Y2hBbGwoLyIoRk5fRVZFTlRfW14iXSspIi9ndSldLm1hcCgobWF0Y2gpID0+ICh7CiAgICAgICAgZXZlbnQ6IG1hdGNoWzFdLAogICAgICAgIGtleXMsCiAgICAgIH0pKTsKICAgIH0pOwogICAgYXNzZXJ0LmRlZXBFcXVhbChXRUJIT09LX0VWRU5UX0ZBQ1RTLCBleHBlY3RlZCk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBXRUJIT09LX0NPTU1PTl9GQUNUUywKICAgICAga2V5c0luKHNvdXJjZS5zbGljZShzb3VyY2UuaW5kZXhPZigiICAgICAgICBfID0+IHt9IikpKSwKICAgICk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBPYmplY3Qua2V5cyhXRUJIT09LX0ZBQ1RfTEFCRUxTKS5zb3J0KCksCiAgICAgIFsuLi5uZXcgU2V0KGtleXNJbihzb3VyY2UpKV0uc29ydCgpLAogICAgKTsKICAgIGZvciAoY29uc3QgW2tleSwgbGFiZWxdIG9mIE9iamVjdC5lbnRyaWVzKFdFQkhPT0tfRkFDVF9MQUJFTFMpKSB7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICBrZXksCiAgICAgICAgbGFiZWwucmVwbGFjZSgvW0EtWl0vZ3UsIChsZXR0ZXIpID0+IGBfJHtsZXR0ZXIudG9Mb3dlckNhc2UoKX1gKSwKICAgICAgKTsKICAgIH0KICB9KTsKCiAgaXQoInByb3ZpZGVzIHNhbXBsZSBkZXRhaWxzIGFuZCBhY2NlcHRzIGV2ZXJ5IGluZGVwZW5kZW50IHZhcmlhYmxlIiwgKCkgPT4gewogICAgY29uc3Qgc2FtcGxlID0gSlNPTi5wYXJzZShjcmVhdGVXZWJob29rU2FtcGxlQ29udGV4dCgpKTsKICAgIGFzc2VydC5lcXVhbChzYW1wbGUubWVzc2FnZS5mYWN0X3ZhbHVlcy5sb2dpbl9pcCwgc2FtcGxlLmV2ZW50LnBheWxvYWQuaXApOwogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgT2JqZWN0LnZhbHVlcyhzYW1wbGUubWVzc2FnZS5mYWN0X3ZhbHVlcyksCiAgICAgIHNhbXBsZS5tZXNzYWdlLmZhY3RzLm1hcCgoZmFjdDogeyB2YWx1ZTogc3RyaW5nIH0pID0+IGZhY3QudmFsdWUpLAogICAgKTsKICAgIGZvciAoY29uc3Qga2V5IG9mIE9iamVjdC5rZXlzKFdFQkhPT0tfRkFDVF9MQUJFTFMpKSB7CiAgICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgICAgdmFsaWRhdGVXZWJob29rQm9keUNvbmZpZygKICAgICAgICAgIHsKICAgICAgICAgICAgbW9kZTogImN1c3RvbSIsCiAgICAgICAgICAgIGZvcm1hdDogImpzb24iLAogICAgICAgICAgICB0ZW1wbGF0ZTogSlNPTi5zdHJpbmdpZnkoewogICAgICAgICAgICAgIHZhbHVlOiBge3ttZXNzYWdlLmZhY3RfdmFsdWVzLiR7a2V5fX19YCwKICAgICAgICAgICAgfSksCiAgICAgICAgICB9LAogICAgICAgICAgREVGQVVMVF9XRUJIT09LX0JPRFlfQ09OU1RSQUlOVFMsCiAgICAgICAgICAicHJvdmlkZXIiLAogICAgICAgICksCiAgICAgICAgW10sCiAgICAgICk7CiAgICB9CiAgfSk7Cn0pOwoKaXQoImtlZXBzIGFsbCBzY29wZWQgYWRtaW4gZGV0YWlsIGxhYmVscyBhbGlnbmVkIHdpdGggc2VydmVyIHRyYW5zbGF0aW9ucyIsIGFzeW5jICgpID0+IHsKICBmb3IgKGNvbnN0IGxvY2FsZSBvZiBbInpoLUNOIiwgInpoLUhhbnQiLCAiZW4iLCAiamEtSlAiLCAia28tS1IiXSkgewogICAgY29uc3QgeyBkZWZhdWx0OiBzY29wZWQgfSA9IGF3YWl0IGltcG9ydCgKICAgICAgYC4uLy4uLy4uL3BhY2thZ2VzL2kxOG4vc3JjL21lc3NhZ2VzL3Njb3Blcy9hZG1pbi8ke2xvY2FsZX0udHNgCiAgICApOwogICAgY29uc3Qgc2VydmVyTW9kdWxlID0gYXdhaXQgaW1wb3J0KAogICAgICBgLi4vLi4vLi4vcGFja2FnZXMvaTE4bi9zcmMvbWVzc2FnZXMvc2VydmVyLyR7bG9jYWxlfS50c2AKICAgICk7CiAgICBjb25zdCBzZXJ2ZXIgPSBPYmplY3QudmFsdWVzKHNlcnZlck1vZHVsZSlbMF0gYXMgewogICAgICBub3RpZmljYXRpb25zOiB7CiAgICAgICAgdGVtcGxhdGVzOiB7IGRldGFpbHM6IHsgZmFjdHM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gfSB9OwogICAgICB9OwogICAgfTsKICAgIGZvciAoY29uc3QgbGFiZWwgb2YgT2JqZWN0LnZhbHVlcyhXRUJIT09LX0ZBQ1RfTEFCRUxTKSkgewogICAgICBpZiAobGFiZWwgPT09ICJob3N0IikgY29udGludWU7CiAgICAgIGFzc2VydC5lcXVhbCgKICAgICAgICB0eXBlb2Ygc2NvcGVkLmFkbWluLm5vdGlmaWNhdGlvbnMuYm9keS5mYWN0TGFiZWxzW2xhYmVsXSwKICAgICAgICAic3RyaW5nIiwKICAgICAgKTsKICAgICAgYXNzZXJ0LmVxdWFsKAogICAgICAgIHNjb3BlZC5hZG1pbi5ub3RpZmljYXRpb25zLmJvZHkuZmFjdExhYmVsc1tsYWJlbF0sCiAgICAgICAgc2VydmVyLm5vdGlmaWNhdGlvbnMudGVtcGxhdGVzLmRldGFpbHMuZmFjdHNbbGFiZWxdLAogICAgICApOwogICAgfQogIH0KfSk7Cg==
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+import {
+  WEBHOOK_COMMON_FACTS,
+  WEBHOOK_EVENT_FACTS,
+  WEBHOOK_FACT_LABELS,
+} from "../src/views/event-center/notifications/webhook-facts";
+import {
+  createWebhookSampleContext,
+  validateWebhookBodyConfig,
+  DEFAULT_WEBHOOK_BODY_CONSTRAINTS,
+} from "../src/views/event-center/notifications/webhook-body";
+
+const source = readFileSync(
+  new URL(
+    "../../server-admin-rs/src/notifications/routes/details.rs",
+    import.meta.url,
+  ),
+  "utf8",
+);
+const keysIn = (text: string) =>
+  [...text.matchAll(/&mut facts,\s*"([^"]+)"/gu)].map((match) => match[1]!);
+
+describe("webhook detail variable catalogue", () => {
+  it("covers every event and common detail without duplicate keys", () => {
+    const branches = [...source.matchAll(/^ {8}("FN_EVENT_[\s\S]*?) => \{/gmu)];
+    const expected = branches.flatMap((branch, index) => {
+      const end =
+        branches[index + 1]?.index ??
+        source.indexOf("        _ => {}", branch.index);
+      const keys = keysIn(source.slice(branch.index! + branch[0].length, end));
+      assert.equal(new Set(keys).size, keys.length);
+      assert.ok(keys.every((key) => !WEBHOOK_COMMON_FACTS.includes(key)));
+      return [...branch[1]!.matchAll(/"(FN_EVENT_[^"]+)"/gu)].map((match) => ({
+        event: match[1],
+        keys,
+      }));
+    });
+    assert.deepEqual(WEBHOOK_EVENT_FACTS, expected);
+    assert.deepEqual(
+      WEBHOOK_COMMON_FACTS,
+      keysIn(source.slice(source.indexOf("        _ => {}"))),
+    );
+    assert.deepEqual(
+      Object.keys(WEBHOOK_FACT_LABELS).sort(),
+      [...new Set(keysIn(source))].sort(),
+    );
+    for (const [key, label] of Object.entries(WEBHOOK_FACT_LABELS)) {
+      assert.equal(
+        key,
+        label.replace(/[A-Z]/gu, (letter) => `_${letter.toLowerCase()}`),
+      );
+    }
+  });
+
+  it("provides sample details and accepts every independent variable", () => {
+    const sample = JSON.parse(createWebhookSampleContext());
+    assert.equal(sample.message.fact_values.login_ip, sample.event.payload.ip);
+    assert.deepEqual(
+      Object.values(sample.message.fact_values),
+      sample.message.facts.map((fact: { value: string }) => fact.value),
+    );
+    for (const key of Object.keys(WEBHOOK_FACT_LABELS)) {
+      assert.deepEqual(
+        validateWebhookBodyConfig(
+          {
+            mode: "custom",
+            format: "json",
+            template: JSON.stringify({
+              value: `{{message.fact_values.${key}}}`,
+            }),
+          },
+          DEFAULT_WEBHOOK_BODY_CONSTRAINTS,
+          "provider",
+        ),
+        [],
+      );
+    }
+  });
+});
+
+it("keeps all scoped admin detail labels aligned with server translations", async () => {
+  for (const locale of ["zh-CN", "zh-Hant", "en", "ja-JP", "ko-KR"]) {
+    const { default: scoped } = await import(
+      `../../../packages/i18n/src/messages/scopes/admin/${locale}.ts`
+    );
+    const serverModule = await import(
+      `../../../packages/i18n/src/messages/server/${locale}.ts`
+    );
+    const server = Object.values(serverModule)[0] as {
+      notifications: {
+        templates: { details: { facts: Record<string, string> } };
+      };
+    };
+    for (const label of Object.values(WEBHOOK_FACT_LABELS)) {
+      if (label === "host") continue;
+      assert.equal(
+        typeof scoped.admin.notifications.body.factLabels[label],
+        "string",
+      );
+      assert.equal(
+        scoped.admin.notifications.body.factLabels[label],
+        server.notifications.templates.details.facts[label],
+      );
+    }
+  }
+});

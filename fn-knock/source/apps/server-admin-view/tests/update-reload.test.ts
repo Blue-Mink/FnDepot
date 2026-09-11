@@ -1,1 +1,128 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyBkZXNjcmliZSwgaXQgfSBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgewogIGJ1aWxkQ2FjaGVCdXN0ZWRBcHBsaWNhdGlvblVybCwKICBjbGFpbUNodW5rUmVsb2FkLAogIGlzRHluYW1pY0ltcG9ydEZhaWx1cmUsCiAgaXNVcGRhdGVkQXBwbGljYXRpb25SZWFkeSwKICB3YWl0Rm9yVXBkYXRlZEFwcGxpY2F0aW9uLAp9IGZyb20gIi4uL3NyYy9saWIvdXBkYXRlLXJlbG9hZCI7CgpkZXNjcmliZSgiRlBLIHVwZGF0ZSByZWxvYWQiLCAoKSA9PiB7CiAgaXQoInJlY29nbml6ZXMgdGhlIHJlc3RhcnRlZCBiYWNrZW5kIGJ5IGl0cyB0YXJnZXQgdmVyc2lvbiIsIGFzeW5jICgpID0+IHsKICAgIGxldCBub3cgPSAwOwogICAgbGV0IGF0dGVtcHRzID0gMDsKICAgIGNvbnN0IHN0YXR1cyA9IGF3YWl0IHdhaXRGb3JVcGRhdGVkQXBwbGljYXRpb24oewogICAgICB0YXJnZXRWZXJzaW9uOiAidjIuMy41IiwKICAgICAgcHJldmlvdXNWZXJzaW9uOiAiMi4zLjQiLAogICAgICB0aW1lb3V0TXM6IDEwXzAwMCwKICAgICAgaW50ZXJ2YWxNczogMV8wMDAsCiAgICAgIG5vdzogKCkgPT4gbm93LAogICAgICBzbGVlcDogYXN5bmMgKGRlbGF5TXMpID0+IHsKICAgICAgICBub3cgKz0gZGVsYXlNczsKICAgICAgfSwKICAgICAgbG9hZFN0YXR1czogYXN5bmMgKCkgPT4gewogICAgICAgIGF0dGVtcHRzICs9IDE7CiAgICAgICAgaWYgKGF0dGVtcHRzID09PSAxKSB0aHJvdyBuZXcgRXJyb3IoIkNHSSBiYWNrZW5kIGlzIHJlc3RhcnRpbmciKTsKICAgICAgICByZXR1cm4geyBsb2NhbFZlcnNpb246IGF0dGVtcHRzID09PSAyID8gIjIuMy40IiA6ICIyLjMuNSIgfTsKICAgICAgfSwKICAgIH0pOwoKICAgIGFzc2VydC5lcXVhbChzdGF0dXM/LmxvY2FsVmVyc2lvbiwgIjIuMy41Iik7CiAgICBhc3NlcnQuZXF1YWwoYXR0ZW1wdHMsIDMpOwogIH0pOwoKICBpdCgiZG9lcyBub3QgYWNjZXB0IHRoZSBvbGQgYmFja2VuZCBhbmQgc3RvcHMgYXQgdGhlIHRpbWVvdXQiLCBhc3luYyAoKSA9PiB7CiAgICBsZXQgbm93ID0gMDsKICAgIGNvbnN0IHN0YXR1cyA9IGF3YWl0IHdhaXRGb3JVcGRhdGVkQXBwbGljYXRpb24oewogICAgICB0YXJnZXRWZXJzaW9uOiAiMi4zLjUiLAogICAgICBwcmV2aW91c1ZlcnNpb246ICIyLjMuNCIsCiAgICAgIHRpbWVvdXRNczogMl8wMDAsCiAgICAgIGludGVydmFsTXM6IDFfMDAwLAogICAgICBub3c6ICgpID0+IG5vdywKICAgICAgc2xlZXA6IGFzeW5jIChkZWxheU1zKSA9PiB7CiAgICAgICAgbm93ICs9IGRlbGF5TXM7CiAgICAgIH0sCiAgICAgIGxvYWRTdGF0dXM6IGFzeW5jICgpID0+ICh7IGxvY2FsVmVyc2lvbjogIjIuMy40IiB9KSwKICAgIH0pOwoKICAgIGFzc2VydC5lcXVhbChzdGF0dXMsIG51bGwpOwogICAgYXNzZXJ0LmVxdWFsKG5vdywgMl8wMDApOwogIH0pOwoKICBpdCgiZmFsbHMgYmFjayB0byBkZXRlY3RpbmcgYSB2ZXJzaW9uIGNoYW5nZSB3aGVuIHRoZSB0YXJnZXQgaXMgYWJzZW50IiwgKCkgPT4gewogICAgYXNzZXJ0LmVxdWFsKAogICAgICBpc1VwZGF0ZWRBcHBsaWNhdGlvblJlYWR5KHsgbG9jYWxWZXJzaW9uOiAiMi4zLjUiIH0sIG51bGwsICIyLjMuNCIpLAogICAgICB0cnVlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgaXNVcGRhdGVkQXBwbGljYXRpb25SZWFkeSh7IGxvY2FsVmVyc2lvbjogIjIuMy40IiB9LCBudWxsLCAiMi4zLjQiKSwKICAgICAgZmFsc2UsCiAgICApOwogIH0pOwoKICBpdCgiY2FjaGUtYnVzdHMgdGhlIHN0YWJsZSBDR0kgZG9jdW1lbnQgd2hpbGUgcHJlc2VydmluZyBpdHMgaGFzaCByb3V0ZSIsICgpID0+IHsKICAgIGNvbnN0IHVybCA9IG5ldyBVUkwoCiAgICAgIGJ1aWxkQ2FjaGVCdXN0ZWRBcHBsaWNhdGlvblVybCgKICAgICAgICAiaHR0cHM6Ly9uYXMuZXhhbXBsZS9jZ2kvVGhpcmRQYXJ0eS9mbi1rbm9jay9pbmRleC5jZ2kvP3NvdXJjZT1kZXNrdG9wIy9hYm91dCIsCiAgICAgICAgMTIzNCwKICAgICAgKSwKICAgICk7CgogICAgYXNzZXJ0LmVxdWFsKHVybC5wYXRobmFtZSwgIi9jZ2kvVGhpcmRQYXJ0eS9mbi1rbm9jay9pbmRleC5jZ2kvIik7CiAgICBhc3NlcnQuZXF1YWwodXJsLnNlYXJjaFBhcmFtcy5nZXQoInNvdXJjZSIpLCAiZGVza3RvcCIpOwogICAgYXNzZXJ0LmVxdWFsKHVybC5zZWFyY2hQYXJhbXMuZ2V0KCJfZm5fa25vY2tfcmVsb2FkIiksICIxMjM0Iik7CiAgICBhc3NlcnQuZXF1YWwodXJsLnNlYXJjaFBhcmFtcy5nZXQoIl9mbl9rbm9ja19yZWxvYWRfcmVhc29uIiksICJ1cGRhdGUiKTsKICAgIGFzc2VydC5lcXVhbCh1cmwuaGFzaCwgIiMvYWJvdXQiKTsKICB9KTsKCiAgaXQoInJlY292ZXJzIGR5bmFtaWMgaW1wb3J0IGZhaWx1cmVzIG9uY2Ugd2l0aG91dCBjcmVhdGluZyBhIHJlbG9hZCBsb29wIiwgKCkgPT4gewogICAgY29uc3QgdmFsdWVzID0gbmV3IE1hcDxzdHJpbmcsIHN0cmluZz4oKTsKICAgIGNvbnN0IHN0b3JhZ2UgPSB7CiAgICAgIGdldEl0ZW06IChrZXk6IHN0cmluZykgPT4gdmFsdWVzLmdldChrZXkpID8/IG51bGwsCiAgICAgIHNldEl0ZW06IChrZXk6IHN0cmluZywgdmFsdWU6IHN0cmluZykgPT4gewogICAgICAgIHZhbHVlcy5zZXQoa2V5LCB2YWx1ZSk7CiAgICAgIH0sCiAgICB9OwoKICAgIGFzc2VydC5lcXVhbCgKICAgICAgaXNEeW5hbWljSW1wb3J0RmFpbHVyZSgKICAgICAgICBuZXcgRXJyb3IoIkZhaWxlZCB0byBmZXRjaCBkeW5hbWljYWxseSBpbXBvcnRlZCBtb2R1bGU6IG9sZC5qcyIpLAogICAgICApLAogICAgICB0cnVlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgaXNEeW5hbWljSW1wb3J0RmFpbHVyZShuZXcgVHlwZUVycm9yKCJGYWlsZWQgdG8gZmV0Y2giKSksCiAgICAgIHRydWUsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKGlzRHluYW1pY0ltcG9ydEZhaWx1cmUobmV3IFR5cGVFcnJvcigiTG9hZCBmYWlsZWQiKSksIHRydWUpOwogICAgYXNzZXJ0LmVxdWFsKGlzRHluYW1pY0ltcG9ydEZhaWx1cmUobmV3IFR5cGVFcnJvcigiSW52YWxpZCBVUkwiKSksIGZhbHNlKTsKICAgIGNvbnN0IGNodW5rRXJyb3IgPSBuZXcgRXJyb3IoIkxvYWRpbmcgYW4gYXBwbGljYXRpb24gcm91dGUgZmFpbGVkIik7CiAgICBjaHVua0Vycm9yLm5hbWUgPSAiQ2h1bmtMb2FkRXJyb3IiOwogICAgYXNzZXJ0LmVxdWFsKGlzRHluYW1pY0ltcG9ydEZhaWx1cmUoY2h1bmtFcnJvciksIHRydWUpOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjbGFpbUNodW5rUmVsb2FkKCJodHRwczovL25hcy5leGFtcGxlL2FwcC8jL2Fib3V0Iiwgc3RvcmFnZSwgMTBfMDAwKSwKICAgICAgdHJ1ZSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGNsYWltQ2h1bmtSZWxvYWQoImh0dHBzOi8vbmFzLmV4YW1wbGUvYXBwLyMvYWJvdXQiLCBzdG9yYWdlLCAxMF8xMDApLAogICAgICBmYWxzZSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIGNsYWltQ2h1bmtSZWxvYWQoCiAgICAgICAgImh0dHBzOi8vbmFzLmV4YW1wbGUvYXBwLz9fZm5fa25vY2tfcmVsb2FkPTEwMDAwJl9mbl9rbm9ja19yZWxvYWRfcmVhc29uPWNodW5rIy9hYm91dCIsCiAgICAgICAgbnVsbCwKICAgICAgICAxMF8xMDAsCiAgICAgICksCiAgICAgIGZhbHNlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgY2xhaW1DaHVua1JlbG9hZCgKICAgICAgICAiaHR0cHM6Ly9uYXMuZXhhbXBsZS9hcHAvP19mbl9rbm9ja19yZWxvYWQ9MTAxMDAmX2ZuX2tub2NrX3JlbG9hZF9yZWFzb249Y2h1bmsjL2Fib3V0IiwKICAgICAgICBudWxsLAogICAgICAgIDEwXzAwMCwKICAgICAgKSwKICAgICAgZmFsc2UsCiAgICApOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import {
+  buildCacheBustedApplicationUrl,
+  claimChunkReload,
+  isDynamicImportFailure,
+  isUpdatedApplicationReady,
+  waitForUpdatedApplication,
+} from "../src/lib/update-reload";
+
+describe("FPK update reload", () => {
+  it("recognizes the restarted backend by its target version", async () => {
+    let now = 0;
+    let attempts = 0;
+    const status = await waitForUpdatedApplication({
+      targetVersion: "v2.3.5",
+      previousVersion: "2.3.4",
+      timeoutMs: 10_000,
+      intervalMs: 1_000,
+      now: () => now,
+      sleep: async (delayMs) => {
+        now += delayMs;
+      },
+      loadStatus: async () => {
+        attempts += 1;
+        if (attempts === 1) throw new Error("CGI backend is restarting");
+        return { localVersion: attempts === 2 ? "2.3.4" : "2.3.5" };
+      },
+    });
+
+    assert.equal(status?.localVersion, "2.3.5");
+    assert.equal(attempts, 3);
+  });
+
+  it("does not accept the old backend and stops at the timeout", async () => {
+    let now = 0;
+    const status = await waitForUpdatedApplication({
+      targetVersion: "2.3.5",
+      previousVersion: "2.3.4",
+      timeoutMs: 2_000,
+      intervalMs: 1_000,
+      now: () => now,
+      sleep: async (delayMs) => {
+        now += delayMs;
+      },
+      loadStatus: async () => ({ localVersion: "2.3.4" }),
+    });
+
+    assert.equal(status, null);
+    assert.equal(now, 2_000);
+  });
+
+  it("falls back to detecting a version change when the target is absent", () => {
+    assert.equal(
+      isUpdatedApplicationReady({ localVersion: "2.3.5" }, null, "2.3.4"),
+      true,
+    );
+    assert.equal(
+      isUpdatedApplicationReady({ localVersion: "2.3.4" }, null, "2.3.4"),
+      false,
+    );
+  });
+
+  it("cache-busts the stable CGI document while preserving its hash route", () => {
+    const url = new URL(
+      buildCacheBustedApplicationUrl(
+        "https://nas.example/cgi/ThirdParty/fn-knock/index.cgi/?source=desktop#/about",
+        1234,
+      ),
+    );
+
+    assert.equal(url.pathname, "/cgi/ThirdParty/fn-knock/index.cgi/");
+    assert.equal(url.searchParams.get("source"), "desktop");
+    assert.equal(url.searchParams.get("_fn_knock_reload"), "1234");
+    assert.equal(url.searchParams.get("_fn_knock_reload_reason"), "update");
+    assert.equal(url.hash, "#/about");
+  });
+
+  it("recovers dynamic import failures once without creating a reload loop", () => {
+    const values = new Map<string, string>();
+    const storage = {
+      getItem: (key: string) => values.get(key) ?? null,
+      setItem: (key: string, value: string) => {
+        values.set(key, value);
+      },
+    };
+
+    assert.equal(
+      isDynamicImportFailure(
+        new Error("Failed to fetch dynamically imported module: old.js"),
+      ),
+      true,
+    );
+    assert.equal(
+      isDynamicImportFailure(new TypeError("Failed to fetch")),
+      true,
+    );
+    assert.equal(isDynamicImportFailure(new TypeError("Load failed")), true);
+    assert.equal(isDynamicImportFailure(new TypeError("Invalid URL")), false);
+    const chunkError = new Error("Loading an application route failed");
+    chunkError.name = "ChunkLoadError";
+    assert.equal(isDynamicImportFailure(chunkError), true);
+    assert.equal(
+      claimChunkReload("https://nas.example/app/#/about", storage, 10_000),
+      true,
+    );
+    assert.equal(
+      claimChunkReload("https://nas.example/app/#/about", storage, 10_100),
+      false,
+    );
+    assert.equal(
+      claimChunkReload(
+        "https://nas.example/app/?_fn_knock_reload=10000&_fn_knock_reload_reason=chunk#/about",
+        null,
+        10_100,
+      ),
+      false,
+    );
+    assert.equal(
+      claimChunkReload(
+        "https://nas.example/app/?_fn_knock_reload=10100&_fn_knock_reload_reason=chunk#/about",
+        null,
+        10_000,
+      ),
+      false,
+    );
+  });
+});

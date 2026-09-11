@@ -1,1 +1,71 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsKICBUb29sdGlwLAogIFRvb2x0aXBDb250ZW50LAogIFRvb2x0aXBQcm92aWRlciwKICBUb29sdGlwVHJpZ2dlciwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdG9vbHRpcCI7CmltcG9ydCB7IHVzZU1lZGlhUXVlcnlNYXRjaCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlTWVkaWFRdWVyeU1hdGNoIjsKaW1wb3J0IHR5cGUgeyBTZXNzaW9uUmVjb3JkIH0gZnJvbSAiLi4vLi4vdHlwZXMiOwppbXBvcnQgewogIGZvcm1hdFNlc3Npb25DcmVkZW50aWFsTG9naW5EZXRhaWwsCiAgZ2V0U2Vzc2lvbkNyZWRlbnRpYWxEaXNwbGF5TmFtZSwKfSBmcm9tICIuL3Nlc3Npb25DcmVkZW50aWFsUHJlc2VudGF0aW9uIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIHNlc3Npb246IFBpY2s8U2Vzc2lvblJlY29yZCwgIm1ldGhvZCIgfCAiY3JlZGVudGlhbE5hbWUiIHwgImxpbmtlZFRvdHBOYW1lIj47Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3Qgb3BlbiA9IHJlZihmYWxzZSk7CmNvbnN0IGlzVG91Y2hJbnRlcmFjdGlvbiA9IHVzZU1lZGlhUXVlcnlNYXRjaCgKICAiKGhvdmVyOiBub25lKSwgKHBvaW50ZXI6IGNvYXJzZSkiLAopOwpjb25zdCB0cmFuc2xhdGUgPSAoa2V5OiBzdHJpbmcsIHBhcmFtcz86IFJlY29yZDxzdHJpbmcsIHN0cmluZz4pID0+CiAgcGFyYW1zID8gdChrZXksIHBhcmFtcykgOiB0KGtleSk7Cgpjb25zdCBkaXNwbGF5TmFtZSA9IGNvbXB1dGVkKCgpID0+CiAgZ2V0U2Vzc2lvbkNyZWRlbnRpYWxEaXNwbGF5TmFtZShwcm9wcy5zZXNzaW9uKSwKKTsKY29uc3QgbG9naW5EZXRhaWwgPSBjb21wdXRlZCgoKSA9PgogIGZvcm1hdFNlc3Npb25DcmVkZW50aWFsTG9naW5EZXRhaWwocHJvcHMuc2Vzc2lvbiwgdHJhbnNsYXRlKSwKKTsKY29uc3Qgc2hvd1Rvb2x0aXAgPSBjb21wdXRlZCgKICAoKSA9PiBCb29sZWFuKGxvZ2luRGV0YWlsLnZhbHVlKSAmJiBsb2dpbkRldGFpbC52YWx1ZSAhPT0gZGlzcGxheU5hbWUudmFsdWUsCik7Cgpjb25zdCBoYW5kbGVPcGVuQ2hhbmdlID0gKG5leHRPcGVuOiBib29sZWFuKSA9PiB7CiAgb3Blbi52YWx1ZSA9IG5leHRPcGVuOwp9OwoKY29uc3QgaGFuZGxlVHJpZ2dlckNsaWNrID0gKCkgPT4gewogIGlmICghc2hvd1Rvb2x0aXAudmFsdWUgfHwgIWlzVG91Y2hJbnRlcmFjdGlvbi52YWx1ZSkgcmV0dXJuOwogIG9wZW4udmFsdWUgPSAhb3Blbi52YWx1ZTsKfTsKCndhdGNoKHNob3dUb29sdGlwLCAodmlzaWJsZSkgPT4gewogIGlmICghdmlzaWJsZSkgb3Blbi52YWx1ZSA9IGZhbHNlOwp9KTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPHNwYW4gdi1pZj0iIXNob3dUb29sdGlwIj57eyBkaXNwbGF5TmFtZSB9fTwvc3Bhbj4KICA8VG9vbHRpcFByb3ZpZGVyIHYtZWxzZT4KICAgIDxUb29sdGlwIDpvcGVuPSJvcGVuIiBAdXBkYXRlOm9wZW49ImhhbmRsZU9wZW5DaGFuZ2UiPgogICAgICA8VG9vbHRpcFRyaWdnZXIgYXMtY2hpbGQ+CiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgY2xhc3M9ImlubGluZS1mbGV4IGN1cnNvci1oZWxwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLXNtIGJvcmRlci0wIGJnLXRyYW5zcGFyZW50IHAtMCB0ZXh0LWxlZnQgZm9udC1pbmhlcml0IHRleHQtaW5oZXJpdCBbbGluZS1oZWlnaHQ6aW5oZXJpdF0gZm9jdXMtdmlzaWJsZTpvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpyaW5nLTIgZm9jdXMtdmlzaWJsZTpyaW5nLXJpbmcgZm9jdXMtdmlzaWJsZTpyaW5nLW9mZnNldC0yIgogICAgICAgICAgQGNsaWNrPSJoYW5kbGVUcmlnZ2VyQ2xpY2siCiAgICAgICAgPgogICAgICAgICAge3sgZGlzcGxheU5hbWUgfX0KICAgICAgICA8L2J1dHRvbj4KICAgICAgPC9Ub29sdGlwVHJpZ2dlcj4KICAgICAgPFRvb2x0aXBDb250ZW50IGNsYXNzPSJtYXgtdy1bbWluKDMycmVtLGNhbGMoMTAwdnctMnJlbSkpXSB0ZXh0LWxlZnQiPgogICAgICAgIDxwIGNsYXNzPSJicmVhay13b3JkcyI+e3sgbG9naW5EZXRhaWwgfX08L3A+CiAgICAgIDwvVG9vbHRpcENvbnRlbnQ+CiAgICA8L1Rvb2x0aXA+CiAgPC9Ub29sdGlwUHJvdmlkZXI+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import { useMediaQueryMatch } from "@admin-shared/composables/useMediaQueryMatch";
+import type { SessionRecord } from "../../types";
+import {
+  formatSessionCredentialLoginDetail,
+  getSessionCredentialDisplayName,
+} from "./sessionCredentialPresentation";
+
+const props = defineProps<{
+  session: Pick<SessionRecord, "method" | "credentialName" | "linkedTotpName">;
+}>();
+
+const { t } = useI18n();
+const open = ref(false);
+const isTouchInteraction = useMediaQueryMatch(
+  "(hover: none), (pointer: coarse)",
+);
+const translate = (key: string, params?: Record<string, string>) =>
+  params ? t(key, params) : t(key);
+
+const displayName = computed(() =>
+  getSessionCredentialDisplayName(props.session),
+);
+const loginDetail = computed(() =>
+  formatSessionCredentialLoginDetail(props.session, translate),
+);
+const showTooltip = computed(
+  () => Boolean(loginDetail.value) && loginDetail.value !== displayName.value,
+);
+
+const handleOpenChange = (nextOpen: boolean) => {
+  open.value = nextOpen;
+};
+
+const handleTriggerClick = () => {
+  if (!showTooltip.value || !isTouchInteraction.value) return;
+  open.value = !open.value;
+};
+
+watch(showTooltip, (visible) => {
+  if (!visible) open.value = false;
+});
+</script>
+
+<template>
+  <span v-if="!showTooltip">{{ displayName }}</span>
+  <TooltipProvider v-else>
+    <Tooltip :open="open" @update:open="handleOpenChange">
+      <TooltipTrigger as-child>
+        <button
+          type="button"
+          class="inline-flex cursor-help items-center justify-center rounded-sm border-0 bg-transparent p-0 text-left font-inherit text-inherit [line-height:inherit] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+          @click="handleTriggerClick"
+        >
+          {{ displayName }}
+        </button>
+      </TooltipTrigger>
+      <TooltipContent class="max-w-[min(32rem,calc(100vw-2rem))] text-left">
+        <p class="break-words">{{ loginDetail }}</p>
+      </TooltipContent>
+    </Tooltip>
+  </TooltipProvider>
+</template>

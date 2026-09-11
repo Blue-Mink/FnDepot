@@ -1,1 +1,97 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBTT1VSQ0VfRE9NQUlOX0tFWSwgU1RBVElDX0lQVjRfS0VZLCBTVEFUSUNfSVBWNl9LRVkgfSBmcm9tICIuL21vZGVsIjsKaW1wb3J0IHR5cGUgeyBERE5TQWRkcmVzc1NvdXJjZUZpZWxkc1Byb3BzIH0gZnJvbSAiLi9kZG5zLWFkZHJlc3Mtc291cmNlLWZpZWxkcy1jb250cmFjdCI7CgpkZWZpbmVQcm9wczx7IG1vZGVsOiBERE5TQWRkcmVzc1NvdXJjZUZpZWxkc1Byb3BzIH0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICB2LWlmPSJtb2RlbC5zaG93U3RhdGljSVB2NElucHV0IgogICAgY2xhc3M9ImdyaWQgaXRlbXMtc3RhcnQgZ2FwLTIgcC00IHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLW11dGVkLzEwIHNtOmdyaWQtY29scy1bMjAwcHhfMWZyXSBzbTpwLTYgbWQ6Z3JpZC1jb2xzLVsyNDBweF8xZnJdIgogID4KICAgIDxkaXYgY2xhc3M9Im10LTEuNSBzcGFjZS15LTEiPgogICAgICA8TGFiZWwgZm9yPSJkZG5zLXN0YXRpYy1pcHY0IiBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAge3sgdCgiYWRtaW4uZGRucy5zdGF0aWNJcHY0TGFiZWwiKSB9fQogICAgICA8L0xhYmVsPgogICAgICA8cCBjbGFzcz0iaGlkZGVuIHByLTQgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgc206YmxvY2siPgogICAgICAgIHt7IHQoImFkbWluLmRkbnMuc3RhdGljSXB2NEhpbnQiKSB9fQogICAgICA8L3A+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9InctZnVsbCBtYXgtdy1tZCBzcGFjZS15LTIiPgogICAgICA8SW5wdXQKICAgICAgICBpZD0iZGRucy1zdGF0aWMtaXB2NCIKICAgICAgICA6bW9kZWwtdmFsdWU9Im1vZGVsLnByb3ZpZGVyQ29uZmlnW1NUQVRJQ19JUFY0X0tFWV0gfHwgJyciCiAgICAgICAgcGxhY2Vob2xkZXI9IjIwMy4wLjExMy4xMCIKICAgICAgICBpbnB1dG1vZGU9ImRlY2ltYWwiCiAgICAgICAgYXV0b2NvbXBsZXRlPSJvZmYiCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iCiAgICAgICAgICBtb2RlbC5zZXRGaWVsZFZhbHVlKFNUQVRJQ19JUFY0X0tFWSwgU3RyaW5nKCRldmVudCkpCiAgICAgICAgIgogICAgICAvPgogICAgICA8cCBjbGFzcz0ibXQtMS41IHRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTpoaWRkZW4iPgogICAgICAgIHt7IHQoImFkbWluLmRkbnMuc3RhdGljSXB2NEhpbnQiKSB9fQogICAgICA8L3A+CiAgICA8L2Rpdj4KICA8L2Rpdj4KCiAgPGRpdgogICAgdi1pZj0ibW9kZWwuc2hvd1N0YXRpY0lQdjZJbnB1dCIKICAgIGNsYXNzPSJncmlkIGl0ZW1zLXN0YXJ0IGdhcC0yIHAtNCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy1tdXRlZC8xMCBzbTpncmlkLWNvbHMtWzIwMHB4XzFmcl0gc206cC02IG1kOmdyaWQtY29scy1bMjQwcHhfMWZyXSIKICA+CiAgICA8ZGl2IGNsYXNzPSJtdC0xLjUgc3BhY2UteS0xIj4KICAgICAgPExhYmVsIGZvcj0iZGRucy1zdGF0aWMtaXB2NiIgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgIHt7IHQoImFkbWluLmRkbnMuc3RhdGljSXB2NkxhYmVsIikgfX0KICAgICAgPC9MYWJlbD4KICAgICAgPHAgY2xhc3M9ImhpZGRlbiBwci00IHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHNtOmJsb2NrIj4KICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLnN0YXRpY0lwdjZIaW50IikgfX0KICAgICAgPC9wPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJ3LWZ1bGwgbWF4LXctbWQgc3BhY2UteS0yIj4KICAgICAgPElucHV0CiAgICAgICAgaWQ9ImRkbnMtc3RhdGljLWlwdjYiCiAgICAgICAgOm1vZGVsLXZhbHVlPSJtb2RlbC5wcm92aWRlckNvbmZpZ1tTVEFUSUNfSVBWNl9LRVldIHx8ICcnIgogICAgICAgIHBsYWNlaG9sZGVyPSIyMDAxOmRiODo6MTAiCiAgICAgICAgYXV0b2NvbXBsZXRlPSJvZmYiCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iCiAgICAgICAgICBtb2RlbC5zZXRGaWVsZFZhbHVlKFNUQVRJQ19JUFY2X0tFWSwgU3RyaW5nKCRldmVudCkpCiAgICAgICAgIgogICAgICAvPgogICAgICA8cCBjbGFzcz0ibXQtMS41IHRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTpoaWRkZW4iPgogICAgICAgIHt7IHQoImFkbWluLmRkbnMuc3RhdGljSXB2NkhpbnQiKSB9fQogICAgICA8L3A+CiAgICA8L2Rpdj4KICA8L2Rpdj4KCiAgPGRpdgogICAgdi1pZj0ibW9kZWwuc2hvd1NvdXJjZURvbWFpbkJsb2NrIgogICAgY2xhc3M9ImdyaWQgaXRlbXMtc3RhcnQgZ2FwLTIgcC00IHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLW11dGVkLzEwIHNtOmdyaWQtY29scy1bMjAwcHhfMWZyXSBzbTpwLTYgbWQ6Z3JpZC1jb2xzLVsyNDBweF8xZnJdIgogID4KICAgIDxkaXYgY2xhc3M9Im10LTEuNSBzcGFjZS15LTEiPgogICAgICA8TGFiZWwgZm9yPSJkZG5zLXNvdXJjZS1kb21haW4iIGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLnNvdXJjZURvbWFpbkxhYmVsIikgfX0KICAgICAgPC9MYWJlbD4KICAgICAgPHAgY2xhc3M9ImhpZGRlbiBwci00IHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHNtOmJsb2NrIj4KICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLnNvdXJjZURvbWFpbkhpbnQiKSB9fQogICAgICA8L3A+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9InctZnVsbCBtYXgtdy1tZCBzcGFjZS15LTIiPgogICAgICA8SW5wdXQKICAgICAgICBpZD0iZGRucy1zb3VyY2UtZG9tYWluIgogICAgICAgIDptb2RlbC12YWx1ZT0ibW9kZWwucHJvdmlkZXJDb25maWdbU09VUkNFX0RPTUFJTl9LRVldIHx8ICcnIgogICAgICAgIHBsYWNlaG9sZGVyPSJvcmlnaW4uZXhhbXBsZS5jb20iCiAgICAgICAgYXV0b2NvbXBsZXRlPSJvZmYiCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iCiAgICAgICAgICBtb2RlbC5zZXRGaWVsZFZhbHVlKFNPVVJDRV9ET01BSU5fS0VZLCBTdHJpbmcoJGV2ZW50KSkKICAgICAgICAiCiAgICAgIC8+CiAgICAgIDxwIGNsYXNzPSJtdC0xLjUgdGV4dC1bMTFweF0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHNtOmhpZGRlbiI+CiAgICAgICAge3sgdCgiYWRtaW4uZGRucy5zb3VyY2VEb21haW5IaW50IikgfX0KICAgICAgPC9wPgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { SOURCE_DOMAIN_KEY, STATIC_IPV4_KEY, STATIC_IPV6_KEY } from "./model";
+import type { DDNSAddressSourceFieldsProps } from "./ddns-address-source-fields-contract";
+
+defineProps<{ model: DDNSAddressSourceFieldsProps }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div
+    v-if="model.showStaticIPv4Input"
+    class="grid items-start gap-2 p-4 transition-colors hover:bg-muted/10 sm:grid-cols-[200px_1fr] sm:p-6 md:grid-cols-[240px_1fr]"
+  >
+    <div class="mt-1.5 space-y-1">
+      <Label for="ddns-static-ipv4" class="text-sm font-medium">
+        {{ t("admin.ddns.staticIpv4Label") }}
+      </Label>
+      <p class="hidden pr-4 text-xs text-muted-foreground sm:block">
+        {{ t("admin.ddns.staticIpv4Hint") }}
+      </p>
+    </div>
+    <div class="w-full max-w-md space-y-2">
+      <Input
+        id="ddns-static-ipv4"
+        :model-value="model.providerConfig[STATIC_IPV4_KEY] || ''"
+        placeholder="203.0.113.10"
+        inputmode="decimal"
+        autocomplete="off"
+        @update:model-value="
+          model.setFieldValue(STATIC_IPV4_KEY, String($event))
+        "
+      />
+      <p class="mt-1.5 text-[11px] text-muted-foreground sm:hidden">
+        {{ t("admin.ddns.staticIpv4Hint") }}
+      </p>
+    </div>
+  </div>
+
+  <div
+    v-if="model.showStaticIPv6Input"
+    class="grid items-start gap-2 p-4 transition-colors hover:bg-muted/10 sm:grid-cols-[200px_1fr] sm:p-6 md:grid-cols-[240px_1fr]"
+  >
+    <div class="mt-1.5 space-y-1">
+      <Label for="ddns-static-ipv6" class="text-sm font-medium">
+        {{ t("admin.ddns.staticIpv6Label") }}
+      </Label>
+      <p class="hidden pr-4 text-xs text-muted-foreground sm:block">
+        {{ t("admin.ddns.staticIpv6Hint") }}
+      </p>
+    </div>
+    <div class="w-full max-w-md space-y-2">
+      <Input
+        id="ddns-static-ipv6"
+        :model-value="model.providerConfig[STATIC_IPV6_KEY] || ''"
+        placeholder="2001:db8::10"
+        autocomplete="off"
+        @update:model-value="
+          model.setFieldValue(STATIC_IPV6_KEY, String($event))
+        "
+      />
+      <p class="mt-1.5 text-[11px] text-muted-foreground sm:hidden">
+        {{ t("admin.ddns.staticIpv6Hint") }}
+      </p>
+    </div>
+  </div>
+
+  <div
+    v-if="model.showSourceDomainBlock"
+    class="grid items-start gap-2 p-4 transition-colors hover:bg-muted/10 sm:grid-cols-[200px_1fr] sm:p-6 md:grid-cols-[240px_1fr]"
+  >
+    <div class="mt-1.5 space-y-1">
+      <Label for="ddns-source-domain" class="text-sm font-medium">
+        {{ t("admin.ddns.sourceDomainLabel") }}
+      </Label>
+      <p class="hidden pr-4 text-xs text-muted-foreground sm:block">
+        {{ t("admin.ddns.sourceDomainHint") }}
+      </p>
+    </div>
+    <div class="w-full max-w-md space-y-2">
+      <Input
+        id="ddns-source-domain"
+        :model-value="model.providerConfig[SOURCE_DOMAIN_KEY] || ''"
+        placeholder="origin.example.com"
+        autocomplete="off"
+        @update:model-value="
+          model.setFieldValue(SOURCE_DOMAIN_KEY, String($event))
+        "
+      />
+      <p class="mt-1.5 text-[11px] text-muted-foreground sm:hidden">
+        {{ t("admin.ddns.sourceDomainHint") }}
+      </p>
+    </div>
+  </div>
+</template>

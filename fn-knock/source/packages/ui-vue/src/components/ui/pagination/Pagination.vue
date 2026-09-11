@@ -1,1 +1,26 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUGFnaW5hdGlvblJvb3RFbWl0cywgUGFnaW5hdGlvblJvb3RQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgUGFnaW5hdGlvblJvb3QsIHVzZUZvcndhcmRQcm9wc0VtaXRzIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8UGFnaW5hdGlvblJvb3RQcm9wcyAmIHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKY29uc3QgZW1pdHMgPSBkZWZpbmVFbWl0czxQYWdpbmF0aW9uUm9vdEVtaXRzPigpCgpjb25zdCBkZWxlZ2F0ZWRQcm9wcyA9IHJlYWN0aXZlT21pdChwcm9wcywgImNsYXNzIikKY29uc3QgZm9yd2FyZGVkID0gdXNlRm9yd2FyZFByb3BzRW1pdHMoZGVsZWdhdGVkUHJvcHMsIGVtaXRzKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UGFnaW5hdGlvblJvb3QKICAgIHYtc2xvdD0ic2xvdFByb3BzIgogICAgZGF0YS1zbG90PSJwYWdpbmF0aW9uIgogICAgdi1iaW5kPSJmb3J3YXJkZWQiCiAgICA6Y2xhc3M9ImNuKCdteC1hdXRvIGZsZXggdy1mdWxsIGp1c3RpZnktY2VudGVyJywgcHJvcHMuY2xhc3MpIgogID4KICAgIDxzbG90IHYtYmluZD0ic2xvdFByb3BzIiAvPgogIDwvUGFnaW5hdGlvblJvb3Q+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { PaginationRootEmits, PaginationRootProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { PaginationRoot, useForwardPropsEmits } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<PaginationRootProps & {
+  class?: HTMLAttributes["class"]
+}>()
+const emits = defineEmits<PaginationRootEmits>()
+
+const delegatedProps = reactiveOmit(props, "class")
+const forwarded = useForwardPropsEmits(delegatedProps, emits)
+</script>
+
+<template>
+  <PaginationRoot
+    v-slot="slotProps"
+    data-slot="pagination"
+    v-bind="forwarded"
+    :class="cn('mx-auto flex w-full justify-center', props.class)"
+  >
+    <slot v-bind="slotProps" />
+  </PaginationRoot>
+</template>

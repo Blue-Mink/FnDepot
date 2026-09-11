@@ -1,1 +1,142 @@
-Y29uc3QgZXNjYXBlSHRtbCA9ICh2YWx1ZTogc3RyaW5nKTogc3RyaW5nID0+CiAgdmFsdWUKICAgIC5yZXBsYWNlKC8mL2d1LCAiJmFtcDsiKQogICAgLnJlcGxhY2UoLzwvZ3UsICImbHQ7IikKICAgIC5yZXBsYWNlKC8+L2d1LCAiJmd0OyIpCiAgICAucmVwbGFjZSgvIi9ndSwgIiZxdW90OyIpCiAgICAucmVwbGFjZSgvJy9ndSwgIiYjMzk7Iik7Cgpjb25zdCByZW5kZXJTdHJvbmdUZXh0ID0gKHZhbHVlOiBzdHJpbmcpOiBzdHJpbmcgPT4KICBlc2NhcGVIdG1sKHZhbHVlKS5yZXBsYWNlKC9cKlwqKFteKlxuXSspXCpcKi9ndSwgIjxzdHJvbmc+JDE8L3N0cm9uZz4iKTsKCmNvbnN0IExJTktfUEFUVEVSTiA9IC8oPzwhISlcWyhbXlxdXG5dKylcXVwoKGh0dHBzPzpcL1wvW15cczw+IicpXSspXCkvZ3U7Cgpjb25zdCBBTEVSVF9QQVRURVJOID0KICAvXj5ccypcWyEoTk9URXxUSVB8SU1QT1JUQU5UfFdBUk5JTkd8Q0FVVElPTilcXVxzKiQvaXU7Cgpjb25zdCBBTEVSVF9MQUJFTFMgPSB7CiAgbm90ZTogIk5vdGUiLAogIHRpcDogIlRpcCIsCiAgaW1wb3J0YW50OiAiSW1wb3J0YW50IiwKICB3YXJuaW5nOiAiV2FybmluZyIsCiAgY2F1dGlvbjogIkNhdXRpb24iLAp9IGFzIGNvbnN0OwoKdHlwZSBBbGVydEtpbmQgPSBrZXlvZiB0eXBlb2YgQUxFUlRfTEFCRUxTOwoKY29uc3QgcmVuZGVySW5saW5lID0gKHNvdXJjZTogc3RyaW5nKTogc3RyaW5nID0+IHsKICBsZXQgaHRtbCA9ICIiOwogIGxldCBjdXJzb3IgPSAwOwoKICBmb3IgKGNvbnN0IG1hdGNoIG9mIHNvdXJjZS5tYXRjaEFsbChMSU5LX1BBVFRFUk4pKSB7CiAgICBjb25zdCBpbmRleCA9IG1hdGNoLmluZGV4OwogICAgaHRtbCArPSByZW5kZXJTdHJvbmdUZXh0KHNvdXJjZS5zbGljZShjdXJzb3IsIGluZGV4KSk7CgogICAgY29uc3QgbGFiZWwgPSBtYXRjaFsxXSA/PyAiIjsKICAgIGNvbnN0IGhyZWYgPSBtYXRjaFsyXSA/PyAiIjsKICAgIGxldCB1cmw6IFVSTDsKICAgIHRyeSB7CiAgICAgIHVybCA9IG5ldyBVUkwoaHJlZik7CiAgICB9IGNhdGNoIHsKICAgICAgaHRtbCArPSByZW5kZXJTdHJvbmdUZXh0KG1hdGNoWzBdKTsKICAgICAgY3Vyc29yID0gaW5kZXggKyBtYXRjaFswXS5sZW5ndGg7CiAgICAgIGNvbnRpbnVlOwogICAgfQoKICAgIGh0bWwgKz0gYDxhIGhyZWY9IiR7ZXNjYXBlSHRtbCh1cmwuaHJlZil9IiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciBub3JlZmVycmVyIj4ke3JlbmRlclN0cm9uZ1RleHQobGFiZWwpfTwvYT5gOwogICAgY3Vyc29yID0gaW5kZXggKyBtYXRjaFswXS5sZW5ndGg7CiAgfQoKICByZXR1cm4gaHRtbCArIHJlbmRlclN0cm9uZ1RleHQoc291cmNlLnNsaWNlKGN1cnNvcikpOwp9OwoKZXhwb3J0IGNvbnN0IHJlbmRlclJlbGVhc2VOb3Rlc0h0bWwgPSAoCiAgcmVsZWFzZU5vdGVzOiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkLAogIGZhbGxiYWNrOiBzdHJpbmcsCik6IHN0cmluZyA9PiB7CiAgY29uc3Qgc291cmNlID0gKHJlbGVhc2VOb3RlcyB8fCBmYWxsYmFjaykudHJpbSgpLnJlcGxhY2UoL1xyXG4/L2d1LCAiXG4iKTsKICByZXR1cm4gcmVuZGVyQmxvY2tzKHNvdXJjZS5zcGxpdCgiXG4iKSk7Cn07Cgpjb25zdCByZW5kZXJCbG9ja3MgPSAobGluZXM6IHN0cmluZ1tdKTogc3RyaW5nID0+IHsKICBjb25zdCBodG1sOiBzdHJpbmdbXSA9IFtdOwogIGxldCBwYXJhZ3JhcGg6IHN0cmluZ1tdID0gW107CiAgbGV0IGxpc3RJdGVtczogc3RyaW5nW10gPSBbXTsKCiAgY29uc3QgZmx1c2hQYXJhZ3JhcGggPSAoKSA9PiB7CiAgICBpZiAocGFyYWdyYXBoLmxlbmd0aCA9PT0gMCkgcmV0dXJuOwogICAgaHRtbC5wdXNoKGA8cD4ke3JlbmRlcklubGluZShwYXJhZ3JhcGguam9pbigiICIpKX08L3A+YCk7CiAgICBwYXJhZ3JhcGggPSBbXTsKICB9OwoKICBjb25zdCBmbHVzaExpc3QgPSAoKSA9PiB7CiAgICBpZiAobGlzdEl0ZW1zLmxlbmd0aCA9PT0gMCkgcmV0dXJuOwogICAgaHRtbC5wdXNoKAogICAgICBgPHVsPiR7bGlzdEl0ZW1zLm1hcCgoaXRlbSkgPT4gYDxsaT4ke3JlbmRlcklubGluZShpdGVtKX08L2xpPmApLmpvaW4oIiIpfTwvdWw+YCwKICAgICk7CiAgICBsaXN0SXRlbXMgPSBbXTsKICB9OwoKICBmb3IgKGxldCBsaW5lSW5kZXggPSAwOyBsaW5lSW5kZXggPCBsaW5lcy5sZW5ndGg7IGxpbmVJbmRleCArPSAxKSB7CiAgICBjb25zdCBsaW5lID0gbGluZXNbbGluZUluZGV4XSA/PyAiIjsKICAgIGNvbnN0IHRyaW1tZWQgPSBsaW5lLnRyaW0oKTsKICAgIGlmICghdHJpbW1lZCkgewogICAgICBmbHVzaFBhcmFncmFwaCgpOwogICAgICBmbHVzaExpc3QoKTsKICAgICAgY29udGludWU7CiAgICB9CgogICAgY29uc3QgYWxlcnQgPSB0cmltbWVkLm1hdGNoKEFMRVJUX1BBVFRFUk4pOwogICAgaWYgKGFsZXJ0KSB7CiAgICAgIGZsdXNoUGFyYWdyYXBoKCk7CiAgICAgIGZsdXNoTGlzdCgpOwoKICAgICAgY29uc3QgYWxlcnRMaW5lczogc3RyaW5nW10gPSBbXTsKICAgICAgd2hpbGUgKGxpbmVJbmRleCArIDEgPCBsaW5lcy5sZW5ndGgpIHsKICAgICAgICBjb25zdCBxdW90ZWRMaW5lID0gKGxpbmVzW2xpbmVJbmRleCArIDFdID8/ICIiKS5tYXRjaCgvXlxzKj5ccz8oLiopJC91KTsKICAgICAgICBpZiAoIXF1b3RlZExpbmUpIGJyZWFrOwogICAgICAgIGFsZXJ0TGluZXMucHVzaChxdW90ZWRMaW5lWzFdID8/ICIiKTsKICAgICAgICBsaW5lSW5kZXggKz0gMTsKICAgICAgfQoKICAgICAgY29uc3Qga2luZCA9IChhbGVydFsxXSA/PyAibm90ZSIpLnRvTG93ZXJDYXNlKCkgYXMgQWxlcnRLaW5kOwogICAgICBjb25zdCBsYWJlbCA9IEFMRVJUX0xBQkVMU1traW5kXTsKICAgICAgaHRtbC5wdXNoKAogICAgICAgIGA8YXNpZGUgY2xhc3M9InJlbGVhc2Utbm90ZS1hbGVydCByZWxlYXNlLW5vdGUtYWxlcnQtLSR7a2luZH0iIGFyaWEtbGFiZWw9IiR7bGFiZWx9Ij5gICsKICAgICAgICAgIGA8cCBjbGFzcz0icmVsZWFzZS1ub3RlLWFsZXJ0X190aXRsZSI+JHtsYWJlbH08L3A+YCArCiAgICAgICAgICBgPGRpdiBjbGFzcz0icmVsZWFzZS1ub3RlLWFsZXJ0X19ib2R5Ij4ke3JlbmRlckJsb2NrcyhhbGVydExpbmVzKX08L2Rpdj5gICsKICAgICAgICAgICI8L2FzaWRlPiIsCiAgICAgICk7CiAgICAgIGNvbnRpbnVlOwogICAgfQoKICAgIGNvbnN0IGhlYWRpbmcgPSB0cmltbWVkLm1hdGNoKC9eI1xzKyguKykkL3UpOwogICAgaWYgKGhlYWRpbmcpIHsKICAgICAgZmx1c2hQYXJhZ3JhcGgoKTsKICAgICAgZmx1c2hMaXN0KCk7CiAgICAgIGh0bWwucHVzaChgPGg0PiR7cmVuZGVySW5saW5lKGhlYWRpbmdbMV0gPz8gIiIpfTwvaDQ+YCk7CiAgICAgIGNvbnRpbnVlOwogICAgfQoKICAgIGlmICgvXi17Myx9JC91LnRlc3QodHJpbW1lZCkpIHsKICAgICAgZmx1c2hQYXJhZ3JhcGgoKTsKICAgICAgZmx1c2hMaXN0KCk7CiAgICAgIGh0bWwucHVzaCgiPGhyPiIpOwogICAgICBjb250aW51ZTsKICAgIH0KCiAgICBjb25zdCBsaXN0SXRlbSA9IHRyaW1tZWQubWF0Y2goL14tXHMrKC4rKSQvdSk7CiAgICBpZiAobGlzdEl0ZW0pIHsKICAgICAgZmx1c2hQYXJhZ3JhcGgoKTsKICAgICAgbGlzdEl0ZW1zLnB1c2gobGlzdEl0ZW1bMV0gPz8gIiIpOwogICAgICBjb250aW51ZTsKICAgIH0KCiAgICBmbHVzaExpc3QoKTsKICAgIHBhcmFncmFwaC5wdXNoKHRyaW1tZWQpOwogIH0KCiAgZmx1c2hQYXJhZ3JhcGgoKTsKICBmbHVzaExpc3QoKTsKICByZXR1cm4gaHRtbC5qb2luKCIiKTsKfTsK
+const escapeHtml = (value: string): string =>
+  value
+    .replace(/&/gu, "&amp;")
+    .replace(/</gu, "&lt;")
+    .replace(/>/gu, "&gt;")
+    .replace(/"/gu, "&quot;")
+    .replace(/'/gu, "&#39;");
+
+const renderStrongText = (value: string): string =>
+  escapeHtml(value).replace(/\*\*([^*\n]+)\*\*/gu, "<strong>$1</strong>");
+
+const LINK_PATTERN = /(?<!!)\[([^\]\n]+)\]\((https?:\/\/[^\s<>"')]+)\)/gu;
+
+const ALERT_PATTERN =
+  /^>\s*\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]\s*$/iu;
+
+const ALERT_LABELS = {
+  note: "Note",
+  tip: "Tip",
+  important: "Important",
+  warning: "Warning",
+  caution: "Caution",
+} as const;
+
+type AlertKind = keyof typeof ALERT_LABELS;
+
+const renderInline = (source: string): string => {
+  let html = "";
+  let cursor = 0;
+
+  for (const match of source.matchAll(LINK_PATTERN)) {
+    const index = match.index;
+    html += renderStrongText(source.slice(cursor, index));
+
+    const label = match[1] ?? "";
+    const href = match[2] ?? "";
+    let url: URL;
+    try {
+      url = new URL(href);
+    } catch {
+      html += renderStrongText(match[0]);
+      cursor = index + match[0].length;
+      continue;
+    }
+
+    html += `<a href="${escapeHtml(url.href)}" target="_blank" rel="noopener noreferrer">${renderStrongText(label)}</a>`;
+    cursor = index + match[0].length;
+  }
+
+  return html + renderStrongText(source.slice(cursor));
+};
+
+export const renderReleaseNotesHtml = (
+  releaseNotes: string | null | undefined,
+  fallback: string,
+): string => {
+  const source = (releaseNotes || fallback).trim().replace(/\r\n?/gu, "\n");
+  return renderBlocks(source.split("\n"));
+};
+
+const renderBlocks = (lines: string[]): string => {
+  const html: string[] = [];
+  let paragraph: string[] = [];
+  let listItems: string[] = [];
+
+  const flushParagraph = () => {
+    if (paragraph.length === 0) return;
+    html.push(`<p>${renderInline(paragraph.join(" "))}</p>`);
+    paragraph = [];
+  };
+
+  const flushList = () => {
+    if (listItems.length === 0) return;
+    html.push(
+      `<ul>${listItems.map((item) => `<li>${renderInline(item)}</li>`).join("")}</ul>`,
+    );
+    listItems = [];
+  };
+
+  for (let lineIndex = 0; lineIndex < lines.length; lineIndex += 1) {
+    const line = lines[lineIndex] ?? "";
+    const trimmed = line.trim();
+    if (!trimmed) {
+      flushParagraph();
+      flushList();
+      continue;
+    }
+
+    const alert = trimmed.match(ALERT_PATTERN);
+    if (alert) {
+      flushParagraph();
+      flushList();
+
+      const alertLines: string[] = [];
+      while (lineIndex + 1 < lines.length) {
+        const quotedLine = (lines[lineIndex + 1] ?? "").match(/^\s*>\s?(.*)$/u);
+        if (!quotedLine) break;
+        alertLines.push(quotedLine[1] ?? "");
+        lineIndex += 1;
+      }
+
+      const kind = (alert[1] ?? "note").toLowerCase() as AlertKind;
+      const label = ALERT_LABELS[kind];
+      html.push(
+        `<aside class="release-note-alert release-note-alert--${kind}" aria-label="${label}">` +
+          `<p class="release-note-alert__title">${label}</p>` +
+          `<div class="release-note-alert__body">${renderBlocks(alertLines)}</div>` +
+          "</aside>",
+      );
+      continue;
+    }
+
+    const heading = trimmed.match(/^#\s+(.+)$/u);
+    if (heading) {
+      flushParagraph();
+      flushList();
+      html.push(`<h4>${renderInline(heading[1] ?? "")}</h4>`);
+      continue;
+    }
+
+    if (/^-{3,}$/u.test(trimmed)) {
+      flushParagraph();
+      flushList();
+      html.push("<hr>");
+      continue;
+    }
+
+    const listItem = trimmed.match(/^-\s+(.+)$/u);
+    if (listItem) {
+      flushParagraph();
+      listItems.push(listItem[1] ?? "");
+      continue;
+    }
+
+    flushList();
+    paragraph.push(trimmed);
+  }
+
+  flushParagraph();
+  flushList();
+  return html.join("");
+};

@@ -1,1 +1,170 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IFJvdGF0ZUNjdyB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7CiAgQnJlYWRjcnVtYiwKICBCcmVhZGNydW1iSXRlbSwKICBCcmVhZGNydW1iTGluaywKICBCcmVhZGNydW1iTGlzdCwKICBCcmVhZGNydW1iUGFnZSwKICBCcmVhZGNydW1iU2VwYXJhdG9yLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9icmVhZGNydW1iIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgQ2FyZCwKICBDYXJkQ29udGVudCwKICBDYXJkRGVzY3JpcHRpb24sCiAgQ2FyZEhlYWRlciwKICBDYXJkVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgeyBTa2VsZXRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9za2VsZXRvbiI7CmltcG9ydCBGbG9hdGluZ0FjdGlvbkRvY2sgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9GbG9hdGluZ0FjdGlvbkRvY2sudnVlIjsKaW1wb3J0IFNjYW5uZXJQYXRoV2hpdGVsaXN0RWRpdG9yIGZyb20gIi4vc2Nhbm5lci1wYXRoLXdoaXRlbGlzdC9TY2FubmVyUGF0aFdoaXRlbGlzdEVkaXRvci52dWUiOwppbXBvcnQgeyB1c2VTY2FubmVyUGF0aFdoaXRlbGlzdFNldHRpbmdzIH0gZnJvbSAiLi9zY2FubmVyLXBhdGgtd2hpdGVsaXN0L3VzZVNjYW5uZXJQYXRoV2hpdGVsaXN0U2V0dGluZ3MiOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IG1vZGVsID0gdXNlU2Nhbm5lclBhdGhXaGl0ZWxpc3RTZXR0aW5ncygpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJzcGFjZS15LTUiPgogICAgPEJyZWFkY3J1bWI+CiAgICAgIDxCcmVhZGNydW1iTGlzdD4KICAgICAgICA8QnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgICA8QnJlYWRjcnVtYkxpbmsgaHJlZj0iIy9zeXN0ZW0iPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zY2FubmVyUGF0aFdoaXRlbGlzdC5zeXN0ZW1TZXR0aW5ncyIpIH19CiAgICAgICAgICA8L0JyZWFkY3J1bWJMaW5rPgogICAgICAgIDwvQnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgPEJyZWFkY3J1bWJTZXBhcmF0b3IgLz4KICAgICAgICA8QnJlYWRjcnVtYkl0ZW0+CiAgICAgICAgICA8QnJlYWRjcnVtYkxpbmsgaHJlZj0iIy9zeXN0ZW0/dGFiPXNjYW5uZXItZmlyZXdhbGwiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zY2FubmVyUGF0aFdoaXRlbGlzdC5zY2FubmVyRmlyZXdhbGwiKSB9fQogICAgICAgICAgPC9CcmVhZGNydW1iTGluaz4KICAgICAgICA8L0JyZWFkY3J1bWJJdGVtPgogICAgICAgIDxCcmVhZGNydW1iU2VwYXJhdG9yIC8+CiAgICAgICAgPEJyZWFkY3J1bWJJdGVtPgogICAgICAgICAgPEJyZWFkY3J1bWJQYWdlPnt7CiAgICAgICAgICAgIHQoImFkbWluLnNjYW5uZXJQYXRoV2hpdGVsaXN0LnRpdGxlIikKICAgICAgICAgIH19PC9CcmVhZGNydW1iUGFnZT4KICAgICAgICA8L0JyZWFkY3J1bWJJdGVtPgogICAgICA8L0JyZWFkY3J1bWJMaXN0PgogICAgPC9CcmVhZGNydW1iPgoKICAgIDxDYXJkIGNsYXNzPSJib3JkZXItYm9yZGVyLzUwIHNoYWRvdy1ub25lIj4KICAgICAgPENhcmRIZWFkZXI+CiAgICAgICAgPGRpdgogICAgICAgICAgY2xhc3M9ImZsZXggZmxleC1jb2wgZ2FwLTQgc206ZmxleC1yb3cgc206aXRlbXMtc3RhcnQgc206anVzdGlmeS1iZXR3ZWVuIgogICAgICAgID4KICAgICAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMS41Ij4KICAgICAgICAgICAgPENhcmRUaXRsZSBjbGFzcz0idGV4dC14bCB0cmFja2luZy10aWdodCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Nhbm5lclBhdGhXaGl0ZWxpc3QudGl0bGUiKSB9fQogICAgICAgICAgICA8L0NhcmRUaXRsZT4KICAgICAgICAgICAgPENhcmREZXNjcmlwdGlvbiBjbGFzcz0ibWF4LXctMnhsIGxlYWRpbmctNiI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Nhbm5lclBhdGhXaGl0ZWxpc3QuZGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgICA8L0NhcmREZXNjcmlwdGlvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgIGNsYXNzPSJzaHJpbmstMCIKICAgICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgICBtb2RlbC5pc0xvYWRpbmcgfHwKICAgICAgICAgICAgICBtb2RlbC5pc1NhdmluZyB8fAogICAgICAgICAgICAgIG1vZGVsLmlzRGVmYXVsdCB8fAogICAgICAgICAgICAgICFtb2RlbC5oYXNTZXR0aW5ncwogICAgICAgICAgICAiCiAgICAgICAgICAgIEBjbGljaz0ibW9kZWwucmVzdG9yZURlZmF1bHRzIgogICAgICAgICAgPgogICAgICAgICAgICA8Um90YXRlQ2N3IGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnNjYW5uZXJQYXRoV2hpdGVsaXN0LnJlc3RvcmVEZWZhdWx0cyIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9DYXJkSGVhZGVyPgoKICAgICAgPENhcmRDb250ZW50CiAgICAgICAgdi1pZj0ibW9kZWwuaXNMb2FkaW5nICYmIG1vZGVsLnNob3dMb2FkaW5nU2tlbGV0b24iCiAgICAgICAgY2xhc3M9ImJvcmRlci10IHB0LTYiCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTQiPgogICAgICAgICAgPFNrZWxldG9uIHYtZm9yPSJpbmRleCBpbiA1IiA6a2V5PSJpbmRleCIgY2xhc3M9ImgtMTAgdy1mdWxsIiAvPgogICAgICAgIDwvZGl2PgogICAgICA8L0NhcmRDb250ZW50PgogICAgICA8Q2FyZENvbnRlbnQKICAgICAgICB2LWVsc2UtaWY9Im1vZGVsLmxvYWRFcnJvciIKICAgICAgICBjbGFzcz0ic3BhY2UteS00IGJvcmRlci10IHB5LTggdGV4dC1jZW50ZXIiCiAgICAgID4KICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIiByb2xlPSJhbGVydCI+CiAgICAgICAgICB7eyBtb2RlbC5sb2FkRXJyb3IgfX0KICAgICAgICA8L3A+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIDpkaXNhYmxlZD0ibW9kZWwuaXNMb2FkaW5nIgogICAgICAgICAgQGNsaWNrPSJtb2RlbC5mZXRjaFNldHRpbmdzIgogICAgICAgID4KICAgICAgICAgIHt7IHQoImFkbWluLnNjYW5uZXJQYXRoV2hpdGVsaXN0LnJldHJ5IikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgPENhcmRDb250ZW50IHYtZWxzZS1pZj0ibW9kZWwuaGFzU2V0dGluZ3MiIGNsYXNzPSJib3JkZXItdCBwdC02Ij4KICAgICAgICA8U2Nhbm5lclBhdGhXaGl0ZWxpc3RFZGl0b3IgOm1vZGVsPSJtb2RlbCIgLz4KICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgPENhcmRDb250ZW50IHYtZWxzZSBjbGFzcz0ibWluLWgtWzI2MHB4XSIgYXJpYS1oaWRkZW49InRydWUiIC8+CgogICAgICA8RmxvYXRpbmdBY3Rpb25Eb2NrCiAgICAgICAgdi1pZj0ibW9kZWwuaGFzU2V0dGluZ3MiCiAgICAgICAgOmFjdGl2ZT0ibW9kZWwuaXNEaXJ0eSIKICAgICAgICBpbmxpbmUtY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBwLTYgYm9yZGVyLXQgYmctbXV0ZWQvMjAgcm91bmRlZC1iLXhsIgogICAgICA+CiAgICAgICAgPHRlbXBsYXRlICNpbmxpbmU+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgdCgKICAgICAgICAgICAgICAgIG1vZGVsLmlzRGlydHkKICAgICAgICAgICAgICAgICAgPyAiYWRtaW4uc2Nhbm5lclBhdGhXaGl0ZWxpc3QuZGlydHkiCiAgICAgICAgICAgICAgICAgIDogImFkbWluLnNjYW5uZXJQYXRoV2hpdGVsaXN0LmNsZWFuIiwKICAgICAgICAgICAgICApCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXggZ2FwLTMiPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICA6ZGlzYWJsZWQ9IiFtb2RlbC5pc0RpcnR5IHx8IG1vZGVsLmlzU2F2aW5nIgogICAgICAgICAgICAgIEBjbGljaz0ibW9kZWwuZGlzY2FyZENoYW5nZXMiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zY2FubmVyUGF0aFdoaXRlbGlzdC5kaXNjYXJkIikgfX0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICA6ZGlzYWJsZWQ9IgogICAgICAgICAgICAgICAgIW1vZGVsLmlzRGlydHkgfHwKICAgICAgICAgICAgICAgIG1vZGVsLmlzU2F2aW5nIHx8CiAgICAgICAgICAgICAgICBPYmplY3Qua2V5cyhtb2RlbC5lbnRyeUVycm9ycykubGVuZ3RoID4gMAogICAgICAgICAgICAgICIKICAgICAgICAgICAgICBAY2xpY2s9Im1vZGVsLnNhdmVTZXR0aW5ncyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLnNjYW5uZXJQYXRoV2hpdGVsaXN0LnNhdmUiKSB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgPHRlbXBsYXRlICNmbG9hdGluZz4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgOmRpc2FibGVkPSIhbW9kZWwuaXNEaXJ0eSB8fCBtb2RlbC5pc1NhdmluZyIKICAgICAgICAgICAgQGNsaWNrPSJtb2RlbC5kaXNjYXJkQ2hhbmdlcyIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Nhbm5lclBhdGhXaGl0ZWxpc3QuZGlzY2FyZCIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgICAhbW9kZWwuaXNEaXJ0eSB8fAogICAgICAgICAgICAgIG1vZGVsLmlzU2F2aW5nIHx8CiAgICAgICAgICAgICAgT2JqZWN0LmtleXMobW9kZWwuZW50cnlFcnJvcnMpLmxlbmd0aCA+IDAKICAgICAgICAgICAgIgogICAgICAgICAgICBAY2xpY2s9Im1vZGVsLnNhdmVTZXR0aW5ncyIKICAgICAgICAgID4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc2Nhbm5lclBhdGhXaGl0ZWxpc3Quc2F2ZSIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L0Zsb2F0aW5nQWN0aW9uRG9jaz4KICAgIDwvQ2FyZD4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { RotateCcw } from "lucide-vue-next";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
+import FloatingActionDock from "@admin-shared/components/common/FloatingActionDock.vue";
+import ScannerPathWhitelistEditor from "./scanner-path-whitelist/ScannerPathWhitelistEditor.vue";
+import { useScannerPathWhitelistSettings } from "./scanner-path-whitelist/useScannerPathWhitelistSettings";
+
+const { t } = useI18n();
+const model = useScannerPathWhitelistSettings();
+</script>
+
+<template>
+  <div class="space-y-5">
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system">
+            {{ t("admin.scannerPathWhitelist.systemSettings") }}
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#/system?tab=scanner-firewall">
+            {{ t("admin.scannerPathWhitelist.scannerFirewall") }}
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbPage>{{
+            t("admin.scannerPathWhitelist.title")
+          }}</BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+
+    <Card class="border-border/50 shadow-none">
+      <CardHeader>
+        <div
+          class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between"
+        >
+          <div class="space-y-1.5">
+            <CardTitle class="text-xl tracking-tight">
+              {{ t("admin.scannerPathWhitelist.title") }}
+            </CardTitle>
+            <CardDescription class="max-w-2xl leading-6">
+              {{ t("admin.scannerPathWhitelist.description") }}
+            </CardDescription>
+          </div>
+          <Button
+            type="button"
+            variant="outline"
+            class="shrink-0"
+            :disabled="
+              model.isLoading ||
+              model.isSaving ||
+              model.isDefault ||
+              !model.hasSettings
+            "
+            @click="model.restoreDefaults"
+          >
+            <RotateCcw class="mr-2 h-4 w-4" />
+            {{ t("admin.scannerPathWhitelist.restoreDefaults") }}
+          </Button>
+        </div>
+      </CardHeader>
+
+      <CardContent
+        v-if="model.isLoading && model.showLoadingSkeleton"
+        class="border-t pt-6"
+      >
+        <div class="space-y-4">
+          <Skeleton v-for="index in 5" :key="index" class="h-10 w-full" />
+        </div>
+      </CardContent>
+      <CardContent
+        v-else-if="model.loadError"
+        class="space-y-4 border-t py-8 text-center"
+      >
+        <p class="text-sm text-destructive" role="alert">
+          {{ model.loadError }}
+        </p>
+        <Button
+          type="button"
+          variant="outline"
+          :disabled="model.isLoading"
+          @click="model.fetchSettings"
+        >
+          {{ t("admin.scannerPathWhitelist.retry") }}
+        </Button>
+      </CardContent>
+      <CardContent v-else-if="model.hasSettings" class="border-t pt-6">
+        <ScannerPathWhitelistEditor :model="model" />
+      </CardContent>
+      <CardContent v-else class="min-h-[260px]" aria-hidden="true" />
+
+      <FloatingActionDock
+        v-if="model.hasSettings"
+        :active="model.isDirty"
+        inline-class="flex items-center justify-between p-6 border-t bg-muted/20 rounded-b-xl"
+      >
+        <template #inline>
+          <div class="text-sm text-muted-foreground">
+            {{
+              t(
+                model.isDirty
+                  ? "admin.scannerPathWhitelist.dirty"
+                  : "admin.scannerPathWhitelist.clean",
+              )
+            }}
+          </div>
+          <div class="flex gap-3">
+            <Button
+              variant="outline"
+              :disabled="!model.isDirty || model.isSaving"
+              @click="model.discardChanges"
+            >
+              {{ t("admin.scannerPathWhitelist.discard") }}
+            </Button>
+            <Button
+              :disabled="
+                !model.isDirty ||
+                model.isSaving ||
+                Object.keys(model.entryErrors).length > 0
+              "
+              @click="model.saveSettings"
+            >
+              {{ t("admin.scannerPathWhitelist.save") }}
+            </Button>
+          </div>
+        </template>
+        <template #floating>
+          <Button
+            variant="outline"
+            :disabled="!model.isDirty || model.isSaving"
+            @click="model.discardChanges"
+          >
+            {{ t("admin.scannerPathWhitelist.discard") }}
+          </Button>
+          <Button
+            :disabled="
+              !model.isDirty ||
+              model.isSaving ||
+              Object.keys(model.entryErrors).length > 0
+            "
+            @click="model.saveSettings"
+          >
+            {{ t("admin.scannerPathWhitelist.save") }}
+          </Button>
+        </template>
+      </FloatingActionDock>
+    </Card>
+  </div>
+</template>

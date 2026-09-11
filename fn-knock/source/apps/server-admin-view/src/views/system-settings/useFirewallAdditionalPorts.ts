@@ -1,1 +1,177 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgU3lzdGVtQVBJIH0gZnJvbSAiQC9saWIvYXBpL3N5c3RlbSI7CmltcG9ydCB7IHVzZUNvbmZpZ1N0b3JlIH0gZnJvbSAiQC9zdG9yZS9jb25maWciOwppbXBvcnQgdHlwZSB7IEZpcmV3YWxsQWRkaXRpb25hbFBvcnRzRGV0YWlscywgUnVuVHlwZSB9IGZyb20gIkAvdHlwZXMiOwppbXBvcnQgeyByZXNvbHZlRmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNTdWNjZXNzTWVzc2FnZUtleSB9IGZyb20gIi4vZmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNNb2RlbCI7Cgp0eXBlIFVzZUZpcmV3YWxsQWRkaXRpb25hbFBvcnRzT3B0aW9ucyA9IHsKICBjYW5NYW5hZ2VIb3N0RmlyZXdhbGw6ICgpID0+IGJvb2xlYW47CiAgaGFzVW5zYXZlZE1vZGVDaGFuZ2VzOiAoKSA9PiBib29sZWFuOwp9OwoKdHlwZSBGaXJld2FsbEFkZGl0aW9uYWxQb3J0c0NvbnRyb2xsZXJEZXBlbmRlbmNpZXMgPSB7CiAgZ2V0RGV0YWlsczogKCkgPT4gUHJvbWlzZTxGaXJld2FsbEFkZGl0aW9uYWxQb3J0c0RldGFpbHM+OwogIG9uTG9hZEVycm9yOiAoZXJyb3I6IHVua25vd24pID0+IHZvaWQ7CiAgb25TYXZlZDogKAogICAgcmVzdWx0OiBGaXJld2FsbEFkZGl0aW9uYWxQb3J0c0RldGFpbHMsCiAgICBzaG93VW5zYXZlZE1vZGVOb3RpY2U6IGJvb2xlYW4sCiAgKSA9PiB2b2lkOwogIG9uU2F2ZUVycm9yOiAoZXJyb3I6IHVua25vd24pID0+IHZvaWQ7CiAgb25VbnN1cHBvcnRlZDogKCkgPT4gdm9pZDsKICBvblVwZGF0ZWQ6IChyZXN1bHQ6IEZpcmV3YWxsQWRkaXRpb25hbFBvcnRzRGV0YWlscykgPT4gdm9pZDsKICB1cGRhdGVQb3J0czogKHBvcnRzOiBudW1iZXJbXSkgPT4gUHJvbWlzZTxGaXJld2FsbEFkZGl0aW9uYWxQb3J0c0RldGFpbHM+Owp9OwoKZXhwb3J0IGNvbnN0IGNyZWF0ZUZpcmV3YWxsQWRkaXRpb25hbFBvcnRzQ29udHJvbGxlciA9ICgKICB7CiAgICBjYW5NYW5hZ2VIb3N0RmlyZXdhbGwsCiAgICBoYXNVbnNhdmVkTW9kZUNoYW5nZXMsCiAgfTogVXNlRmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNPcHRpb25zLAogIGRlcGVuZGVuY2llczogRmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNDb250cm9sbGVyRGVwZW5kZW5jaWVzLAopID0+IHsKICBjb25zdCBvcGVuID0gcmVmKGZhbHNlKTsKICBjb25zdCBkZXRhaWxzID0gcmVmPEZpcmV3YWxsQWRkaXRpb25hbFBvcnRzRGV0YWlscyB8IG51bGw+KG51bGwpOwogIGNvbnN0IGxvYWRGYWlsZWQgPSByZWYoZmFsc2UpOwoKICBjb25zdCB7IGlzUGVuZGluZzogbG9hZGluZywgcnVuOiBydW5Mb2FkIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgbG9hZEZhaWxlZC52YWx1ZSA9IHRydWU7CiAgICAgIGRlcGVuZGVuY2llcy5vbkxvYWRFcnJvcihlcnJvcik7CiAgICB9LAogIH0pOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBzYXZpbmcsIHJ1bjogcnVuU2F2ZSB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogZGVwZW5kZW5jaWVzLm9uU2F2ZUVycm9yLAogIH0pOwoKICBjb25zdCBsb2FkID0gYXN5bmMgKCkgPT4gewogICAgbG9hZEZhaWxlZC52YWx1ZSA9IGZhbHNlOwogICAgYXdhaXQgcnVuTG9hZChhc3luYyAoKSA9PiB7CiAgICAgIGRldGFpbHMudmFsdWUgPSBhd2FpdCBkZXBlbmRlbmNpZXMuZ2V0RGV0YWlscygpOwogICAgfSk7CiAgfTsKICBjb25zdCBvcGVuRGlhbG9nID0gYXN5bmMgKCkgPT4gewogICAgaWYgKCFjYW5NYW5hZ2VIb3N0RmlyZXdhbGwoKSkgewogICAgICBkZXBlbmRlbmNpZXMub25VbnN1cHBvcnRlZCgpOwogICAgICByZXR1cm47CiAgICB9CiAgICBkZXRhaWxzLnZhbHVlID0gbnVsbDsKICAgIGxvYWRGYWlsZWQudmFsdWUgPSBmYWxzZTsKICAgIG9wZW4udmFsdWUgPSB0cnVlOwogICAgYXdhaXQgbG9hZCgpOwogIH07CiAgY29uc3QgdXBkYXRlT3BlbiA9IChuZXh0T3BlbjogYm9vbGVhbikgPT4gewogICAgaWYgKHNhdmluZy52YWx1ZSkgcmV0dXJuOwogICAgb3Blbi52YWx1ZSA9IG5leHRPcGVuOwogIH07CiAgY29uc3Qgc2F2ZSA9IGFzeW5jIChwb3J0czogbnVtYmVyW10pID0+IHsKICAgIGNvbnN0IHNob3dVbnNhdmVkTW9kZU5vdGljZSA9IGhhc1Vuc2F2ZWRNb2RlQ2hhbmdlcygpOwogICAgYXdhaXQgcnVuU2F2ZShhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGRlcGVuZGVuY2llcy51cGRhdGVQb3J0cyhwb3J0cyk7CiAgICAgIGRldGFpbHMudmFsdWUgPSByZXN1bHQ7CiAgICAgIGRlcGVuZGVuY2llcy5vblVwZGF0ZWQocmVzdWx0KTsKICAgICAgb3Blbi52YWx1ZSA9IGZhbHNlOwogICAgICBkZXBlbmRlbmNpZXMub25TYXZlZChyZXN1bHQsIHNob3dVbnNhdmVkTW9kZU5vdGljZSk7CiAgICB9KTsKICB9OwoKICByZXR1cm4gewogICAgZGV0YWlscywKICAgIGxvYWQsCiAgICBsb2FkRmFpbGVkLAogICAgbG9hZGluZywKICAgIG9wZW4sCiAgICBvcGVuRGlhbG9nLAogICAgc2F2ZSwKICAgIHNhdmluZywKICAgIHVwZGF0ZU9wZW4sCiAgfTsKfTsKCmV4cG9ydCBjb25zdCB1c2VGaXJld2FsbEFkZGl0aW9uYWxQb3J0cyA9ICh7CiAgY2FuTWFuYWdlSG9zdEZpcmV3YWxsLAogIGhhc1Vuc2F2ZWRNb2RlQ2hhbmdlcywKfTogVXNlRmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNPcHRpb25zKSA9PiB7CiAgY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwogIGNvbnN0IHsgbG9jYWxlLCB0IH0gPSB1c2VJMThuKCk7CiAgY29uc3QgYXV0b01hbmFnZUZpcmV3YWxsRW5hYmxlZCA9IGNvbXB1dGVkKAogICAgKCkgPT4gY29uZmlnU3RvcmUuY29uZmlnPy5hdXRvX21hbmFnZV9maXJld2FsbCAhPT0gZmFsc2UsCiAgKTsKCiAgY29uc3QgbW9kZUxhYmVsID0gKHJ1blR5cGU6IFJ1blR5cGUpID0+IHsKICAgIGlmIChydW5UeXBlID09PSAwKSByZXR1cm4gdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLmRpcmVjdE1vZGVOYW1lIik7CiAgICBpZiAocnVuVHlwZSA9PT0gMSkgewogICAgICByZXR1cm4gdCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLmFkZGl0aW9uYWxQb3J0cy5yZXZlcnNlTW9kZU5hbWUiKTsKICAgIH0KICAgIHJldHVybiB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3Muc3ViZG9tYWluTW9kZU5hbWUiKTsKICB9OwogIGNvbnN0IGZvcm1hdFBvcnRzID0gKHBvcnRzOiBudW1iZXJbXSkgPT4KICAgIHBvcnRzLmxlbmd0aAogICAgICA/IHBvcnRzLmpvaW4obG9jYWxlLnZhbHVlID09PSAiZW4iID8gIiwgIiA6ICLjgIEiKQogICAgICA6IHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5hZGRpdGlvbmFsUG9ydHMubm9Qb3J0cyIpOwogIGNvbnN0IGVycm9yRGVzY3JpcHRpb24gPSAoZXJyb3I6IHVua25vd24pID0+CiAgICBleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCB0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3Mub3BlcmF0aW9uRmFpbGVkIikpOwoKICBjb25zdCBjb250cm9sbGVyID0gY3JlYXRlRmlyZXdhbGxBZGRpdGlvbmFsUG9ydHNDb250cm9sbGVyKAogICAgeyBjYW5NYW5hZ2VIb3N0RmlyZXdhbGwsIGhhc1Vuc2F2ZWRNb2RlQ2hhbmdlcyB9LAogICAgewogICAgICBnZXREZXRhaWxzOiAoKSA9PiBTeXN0ZW1BUEkuZ2V0RmlyZXdhbGxBZGRpdGlvbmFsUG9ydHMoKSwKICAgICAgdXBkYXRlUG9ydHM6IChwb3J0cykgPT4gU3lzdGVtQVBJLnVwZGF0ZUZpcmV3YWxsQWRkaXRpb25hbFBvcnRzKHBvcnRzKSwKICAgICAgb25Mb2FkRXJyb3I6IChlcnJvcikgPT4gewogICAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5hZGRpdGlvbmFsUG9ydHMubG9hZEZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogZXJyb3JEZXNjcmlwdGlvbihlcnJvciksCiAgICAgICAgfSk7CiAgICAgIH0sCiAgICAgIG9uU2F2ZUVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5ydW5Nb2RlU2V0dGluZ3MuYWRkaXRpb25hbFBvcnRzLnNhdmVGYWlsZWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IGVycm9yRGVzY3JpcHRpb24oZXJyb3IpLAogICAgICAgIH0pOwogICAgICB9LAogICAgICBvblVuc3VwcG9ydGVkOiAoKSA9PiB7CiAgICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLmZpcmV3YWxsVW5zdXBwb3J0ZWRUaXRsZSIpKTsKICAgICAgfSwKICAgICAgb25VcGRhdGVkOiAocmVzdWx0KSA9PiB7CiAgICAgICAgaWYgKGNvbmZpZ1N0b3JlLmNvbmZpZykgewogICAgICAgICAgY29uZmlnU3RvcmUuY29uZmlnLmZpcmV3YWxsX2FkZGl0aW9uYWxfcG9ydHMgPSByZXN1bHQuYWRkaXRpb25hbFBvcnRzOwogICAgICAgIH0KICAgICAgfSwKICAgICAgb25TYXZlZDogKHJlc3VsdCwgc2hvd1Vuc2F2ZWRNb2RlTm90aWNlKSA9PiB7CiAgICAgICAgY29uc3Qgc3VjY2Vzc01lc3NhZ2VLZXkgPQogICAgICAgICAgcmVzb2x2ZUZpcmV3YWxsQWRkaXRpb25hbFBvcnRzU3VjY2Vzc01lc3NhZ2VLZXkoCiAgICAgICAgICAgIHJlc3VsdCwKICAgICAgICAgICAgYXV0b01hbmFnZUZpcmV3YWxsRW5hYmxlZC52YWx1ZSwKICAgICAgICAgICk7CiAgICAgICAgY29uc3QgYmFzZURlc2NyaXB0aW9uID0gcmVzdWx0LmFwcGxpZWROb3cKICAgICAgICAgID8gdChgYWRtaW4ucnVuTW9kZVNldHRpbmdzLmFkZGl0aW9uYWxQb3J0cy4ke3N1Y2Nlc3NNZXNzYWdlS2V5fWAsIHsKICAgICAgICAgICAgICBjb3VudDogcmVzdWx0LmFkZGl0aW9uYWxQb3J0cy5sZW5ndGgsCiAgICAgICAgICAgICAgbW9kZTogbW9kZUxhYmVsKHJlc3VsdC5ydW5UeXBlKSwKICAgICAgICAgICAgICBwb3J0czogZm9ybWF0UG9ydHMocmVzdWx0LmVmZmVjdGl2ZVBvcnRzKSwKICAgICAgICAgICAgfSkKICAgICAgICAgIDogdChgYWRtaW4ucnVuTW9kZVNldHRpbmdzLmFkZGl0aW9uYWxQb3J0cy4ke3N1Y2Nlc3NNZXNzYWdlS2V5fWAsIHsKICAgICAgICAgICAgICBjb3VudDogcmVzdWx0LmFkZGl0aW9uYWxQb3J0cy5sZW5ndGgsCiAgICAgICAgICAgIH0pOwogICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4ucnVuTW9kZVNldHRpbmdzLmFkZGl0aW9uYWxQb3J0cy5zYXZlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogc2hvd1Vuc2F2ZWRNb2RlTm90aWNlCiAgICAgICAgICAgID8gYCR7YmFzZURlc2NyaXB0aW9ufSAke3QoImFkbWluLnJ1bk1vZGVTZXR0aW5ncy5hZGRpdGlvbmFsUG9ydHMuc2F2ZWRNb2RlTm90aWNlIil9YAogICAgICAgICAgICA6IGJhc2VEZXNjcmlwdGlvbiwKICAgICAgICB9KTsKICAgICAgfSwKICAgIH0sCiAgKTsKCiAgcmV0dXJuIHsKICAgIC4uLmNvbnRyb2xsZXIsCiAgICBhdXRvTWFuYWdlRmlyZXdhbGxFbmFibGVkLAogICAgaGFzVW5zYXZlZE1vZGVDaGFuZ2VzOiBjb21wdXRlZCgoKSA9PiBoYXNVbnNhdmVkTW9kZUNoYW5nZXMoKSksCiAgICBtb2RlTGFiZWw6IGNvbXB1dGVkKCgpID0+CiAgICAgIGNvbnRyb2xsZXIuZGV0YWlscy52YWx1ZQogICAgICAgID8gbW9kZUxhYmVsKGNvbnRyb2xsZXIuZGV0YWlscy52YWx1ZS5ydW5UeXBlKQogICAgICAgIDogIiIsCiAgICApLAogIH07Cn07Cg==
+import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { SystemAPI } from "@/lib/api/system";
+import { useConfigStore } from "@/store/config";
+import type { FirewallAdditionalPortsDetails, RunType } from "@/types";
+import { resolveFirewallAdditionalPortsSuccessMessageKey } from "./firewallAdditionalPortsModel";
+
+type UseFirewallAdditionalPortsOptions = {
+  canManageHostFirewall: () => boolean;
+  hasUnsavedModeChanges: () => boolean;
+};
+
+type FirewallAdditionalPortsControllerDependencies = {
+  getDetails: () => Promise<FirewallAdditionalPortsDetails>;
+  onLoadError: (error: unknown) => void;
+  onSaved: (
+    result: FirewallAdditionalPortsDetails,
+    showUnsavedModeNotice: boolean,
+  ) => void;
+  onSaveError: (error: unknown) => void;
+  onUnsupported: () => void;
+  onUpdated: (result: FirewallAdditionalPortsDetails) => void;
+  updatePorts: (ports: number[]) => Promise<FirewallAdditionalPortsDetails>;
+};
+
+export const createFirewallAdditionalPortsController = (
+  {
+    canManageHostFirewall,
+    hasUnsavedModeChanges,
+  }: UseFirewallAdditionalPortsOptions,
+  dependencies: FirewallAdditionalPortsControllerDependencies,
+) => {
+  const open = ref(false);
+  const details = ref<FirewallAdditionalPortsDetails | null>(null);
+  const loadFailed = ref(false);
+
+  const { isPending: loading, run: runLoad } = useAsyncAction({
+    onError: (error) => {
+      loadFailed.value = true;
+      dependencies.onLoadError(error);
+    },
+  });
+  const { isPending: saving, run: runSave } = useAsyncAction({
+    onError: dependencies.onSaveError,
+  });
+
+  const load = async () => {
+    loadFailed.value = false;
+    await runLoad(async () => {
+      details.value = await dependencies.getDetails();
+    });
+  };
+  const openDialog = async () => {
+    if (!canManageHostFirewall()) {
+      dependencies.onUnsupported();
+      return;
+    }
+    details.value = null;
+    loadFailed.value = false;
+    open.value = true;
+    await load();
+  };
+  const updateOpen = (nextOpen: boolean) => {
+    if (saving.value) return;
+    open.value = nextOpen;
+  };
+  const save = async (ports: number[]) => {
+    const showUnsavedModeNotice = hasUnsavedModeChanges();
+    await runSave(async () => {
+      const result = await dependencies.updatePorts(ports);
+      details.value = result;
+      dependencies.onUpdated(result);
+      open.value = false;
+      dependencies.onSaved(result, showUnsavedModeNotice);
+    });
+  };
+
+  return {
+    details,
+    load,
+    loadFailed,
+    loading,
+    open,
+    openDialog,
+    save,
+    saving,
+    updateOpen,
+  };
+};
+
+export const useFirewallAdditionalPorts = ({
+  canManageHostFirewall,
+  hasUnsavedModeChanges,
+}: UseFirewallAdditionalPortsOptions) => {
+  const configStore = useConfigStore();
+  const { locale, t } = useI18n();
+  const autoManageFirewallEnabled = computed(
+    () => configStore.config?.auto_manage_firewall !== false,
+  );
+
+  const modeLabel = (runType: RunType) => {
+    if (runType === 0) return t("admin.runModeSettings.directModeName");
+    if (runType === 1) {
+      return t("admin.runModeSettings.additionalPorts.reverseModeName");
+    }
+    return t("admin.runModeSettings.subdomainModeName");
+  };
+  const formatPorts = (ports: number[]) =>
+    ports.length
+      ? ports.join(locale.value === "en" ? ", " : "、")
+      : t("admin.runModeSettings.additionalPorts.noPorts");
+  const errorDescription = (error: unknown) =>
+    extractErrorMessage(error, t("admin.runModeSettings.operationFailed"));
+
+  const controller = createFirewallAdditionalPortsController(
+    { canManageHostFirewall, hasUnsavedModeChanges },
+    {
+      getDetails: () => SystemAPI.getFirewallAdditionalPorts(),
+      updatePorts: (ports) => SystemAPI.updateFirewallAdditionalPorts(ports),
+      onLoadError: (error) => {
+        toast.error(t("admin.runModeSettings.additionalPorts.loadFailed"), {
+          description: errorDescription(error),
+        });
+      },
+      onSaveError: (error) => {
+        toast.error(t("admin.runModeSettings.additionalPorts.saveFailed"), {
+          description: errorDescription(error),
+        });
+      },
+      onUnsupported: () => {
+        toast.error(t("admin.runModeSettings.firewallUnsupportedTitle"));
+      },
+      onUpdated: (result) => {
+        if (configStore.config) {
+          configStore.config.firewall_additional_ports = result.additionalPorts;
+        }
+      },
+      onSaved: (result, showUnsavedModeNotice) => {
+        const successMessageKey =
+          resolveFirewallAdditionalPortsSuccessMessageKey(
+            result,
+            autoManageFirewallEnabled.value,
+          );
+        const baseDescription = result.appliedNow
+          ? t(`admin.runModeSettings.additionalPorts.${successMessageKey}`, {
+              count: result.additionalPorts.length,
+              mode: modeLabel(result.runType),
+              ports: formatPorts(result.effectivePorts),
+            })
+          : t(`admin.runModeSettings.additionalPorts.${successMessageKey}`, {
+              count: result.additionalPorts.length,
+            });
+        toast.success(t("admin.runModeSettings.additionalPorts.saved"), {
+          description: showUnsavedModeNotice
+            ? `${baseDescription} ${t("admin.runModeSettings.additionalPorts.savedModeNotice")}`
+            : baseDescription,
+        });
+      },
+    },
+  );
+
+  return {
+    ...controller,
+    autoManageFirewallEnabled,
+    hasUnsavedModeChanges: computed(() => hasUnsavedModeChanges()),
+    modeLabel: computed(() =>
+      controller.details.value
+        ? modeLabel(controller.details.value.runType)
+        : "",
+    ),
+  };
+};

@@ -1,1 +1,210 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBhc3luYyBmbiByZXNvbHZlX2JhY2t1cF9hcmNoaXZlX3BhdGgoCiAgICByZWxhdGl2ZV9wYXRoOiAmc3RyLAopIC0+IFJlc3VsdDxQYXRoQnVmLCBCYWNrdXBJbXBvcnRFcnJvcj4gewogICAgbGV0IGRpcmVjdG9yeSA9IGVuc3VyZV9iYWNrdXBfZGlyZWN0b3J5KCkuYXdhaXQ/OwogICAgbGV0IHJlc29sdmVkID0gcmVzb2x2ZV9iYWNrdXBfYXJjaGl2ZV9wYXRoX2xpa2Vfbm9kZSgmZGlyZWN0b3J5LCByZWxhdGl2ZV9wYXRoKT87CiAgICB2YWxpZGF0ZV9leGlzdGluZ19iYWNrdXBfcGF0aCgmZGlyZWN0b3J5LCByZXNvbHZlZCkuYXdhaXQKfQoKcHViKHN1cGVyKSBhc3luYyBmbiB2YWxpZGF0ZV9leGlzdGluZ19iYWNrdXBfcGF0aCgKICAgIGRpcmVjdG9yeTogJlBhdGgsCiAgICByZXNvbHZlZDogUGF0aEJ1ZiwKKSAtPiBSZXN1bHQ8UGF0aEJ1ZiwgQmFja3VwSW1wb3J0RXJyb3I+IHsKICAgIGxldCBtZXRhZGF0YSA9IG1hdGNoIGZzOjpzeW1saW5rX21ldGFkYXRhKCZyZXNvbHZlZCkuYXdhaXQgewogICAgICAgIE9rKG1ldGFkYXRhKSA9PiBtZXRhZGF0YSwKICAgICAgICBFcnIoZXJyb3IpIGlmIGVycm9yLmtpbmQoKSA9PSBpbzo6RXJyb3JLaW5kOjpOb3RGb3VuZCA9PiByZXR1cm4gT2socmVzb2x2ZWQpLAogICAgICAgIEVycihlcnJvcikgPT4gcmV0dXJuIEVycihCYWNrdXBJbXBvcnRFcnJvcjo6aW50ZXJuYWwoZXJyb3IudG9fc3RyaW5nKCkpKSwKICAgIH07CiAgICBpZiBtZXRhZGF0YS5maWxlX3R5cGUoKS5pc19zeW1saW5rKCkgewogICAgICAgIHJldHVybiBFcnIoQmFja3VwSW1wb3J0RXJyb3I6OmJhZF9yZXF1ZXN0KCJCYWNrdXAgcGF0aCBtdXN0IGJlIGEgZmlsZSIpKTsKICAgIH0KICAgIGxldCBjYW5vbmljYWxfcm9vdCA9IGZzOjpjYW5vbmljYWxpemUoZGlyZWN0b3J5KQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgQmFja3VwSW1wb3J0RXJyb3I6OmludGVybmFsKGVycm9yLnRvX3N0cmluZygpKSk/OwogICAgbGV0IGNhbm9uaWNhbF9wYXRoID0gZnM6OmNhbm9uaWNhbGl6ZSgmcmVzb2x2ZWQpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBCYWNrdXBJbXBvcnRFcnJvcjo6aW50ZXJuYWwoZXJyb3IudG9fc3RyaW5nKCkpKT87CiAgICBpZiAhY2Fub25pY2FsX3BhdGguc3RhcnRzX3dpdGgoJmNhbm9uaWNhbF9yb290KSB8fCBjYW5vbmljYWxfcGF0aCA9PSBjYW5vbmljYWxfcm9vdCB7CiAgICAgICAgcmV0dXJuIEVycihCYWNrdXBJbXBvcnRFcnJvcjo6YmFkX3JlcXVlc3QoIkludmFsaWQgYmFja3VwIHBhdGgiKSk7CiAgICB9CiAgICBPayhjYW5vbmljYWxfcGF0aCkKfQoKcHViKHN1cGVyKSBmbiByZXNvbHZlX2JhY2t1cF9hcmNoaXZlX3BhdGhfbGlrZV9ub2RlKAogICAgZGlyZWN0b3J5OiAmUGF0aCwKICAgIHJlbGF0aXZlX3BhdGg6ICZzdHIsCikgLT4gUmVzdWx0PFBhdGhCdWYsIEJhY2t1cEltcG9ydEVycm9yPiB7CiAgICBsZXQgc2FuaXRpemVkID0gcmVsYXRpdmVfcGF0aC5yZXBsYWNlKCdcXCcsICIvIikudHJpbSgpLnRvX3N0cmluZygpOwogICAgaWYgc2FuaXRpemVkLmlzX2VtcHR5KCkgfHwgc2FuaXRpemVkLnN0YXJ0c193aXRoKCcvJykgewogICAgICAgIHJldHVybiBFcnIoQmFja3VwSW1wb3J0RXJyb3I6OmJhZF9yZXF1ZXN0KCJJbnZhbGlkIGJhY2t1cCBwYXRoIikpOwogICAgfQogICAgbGV0IG5vcm1hbGl6ZWRfcm9vdCA9IG5vcm1hbGl6ZV9wYXRoX2xpa2Vfbm9kZShkaXJlY3RvcnkpOwogICAgbGV0IHJlc29sdmVkID0gbm9ybWFsaXplX3BhdGhfbGlrZV9ub2RlKCZub3JtYWxpemVkX3Jvb3Quam9pbigmc2FuaXRpemVkKSk7CiAgICBpZiAhcmVzb2x2ZWQuc3RhcnRzX3dpdGgoJm5vcm1hbGl6ZWRfcm9vdCkgfHwgcmVzb2x2ZWQgPT0gbm9ybWFsaXplZF9yb290IHsKICAgICAgICByZXR1cm4gRXJyKEJhY2t1cEltcG9ydEVycm9yOjpiYWRfcmVxdWVzdCgiSW52YWxpZCBiYWNrdXAgcGF0aCIpKTsKICAgIH0KICAgIE9rKHJlc29sdmVkKQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9wYXRoX2xpa2Vfbm9kZShwYXRoOiAmUGF0aCkgLT4gUGF0aEJ1ZiB7CiAgICAvLyBOb2RlJ3MgcGF0aCBub3JtYWxpemF0aW9uIGtlZXBzIGEgc2VwYXJhdG9yLXJvb3RlZCBwYXRoIGF0IHRoZSByb290LgogICAgLy8gT24gV2luZG93cywgUGF0aDo6aXNfYWJzb2x1dGUgYWRkaXRpb25hbGx5IHJlcXVpcmVzIGEgZHJpdmUgcHJlZml4LAogICAgLy8gd2hpY2ggd291bGQgaW5jb3JyZWN0bHkgcHJlcGVuZCB0aGUgcHJvY2VzcyB3b3JraW5nIGRpcmVjdG9yeSB0bwogICAgLy8gbGVnYWN5IFVuaXggcGF0aHMgc3VjaCBhcyBgL3NoYXJlL2JhY2t1cGAuCiAgICBsZXQgcGF0aCA9IGlmIHBhdGguaGFzX3Jvb3QoKSB7CiAgICAgICAgcGF0aC50b19wYXRoX2J1ZigpCiAgICB9IGVsc2UgewogICAgICAgIHN0ZDo6ZW52OjpjdXJyZW50X2RpcigpCiAgICAgICAgICAgIC51bndyYXBfb3JfZWxzZSh8X3wgUGF0aEJ1Zjo6ZnJvbSgiLiIpKQogICAgICAgICAgICAuam9pbihwYXRoKQogICAgfTsKICAgIGxldCBtdXQgbm9ybWFsaXplZCA9IFBhdGhCdWY6Om5ldygpOwogICAgZm9yIGNvbXBvbmVudCBpbiBwYXRoLmNvbXBvbmVudHMoKSB7CiAgICAgICAgbWF0Y2ggY29tcG9uZW50IHsKICAgICAgICAgICAgQ29tcG9uZW50OjpQcmVmaXgocHJlZml4KSA9PiBub3JtYWxpemVkLnB1c2gocHJlZml4LmFzX29zX3N0cigpKSwKICAgICAgICAgICAgQ29tcG9uZW50OjpSb290RGlyID0+IG5vcm1hbGl6ZWQucHVzaChjb21wb25lbnQuYXNfb3Nfc3RyKCkpLAogICAgICAgICAgICBDb21wb25lbnQ6OkN1ckRpciA9PiB7fQogICAgICAgICAgICBDb21wb25lbnQ6OlBhcmVudERpciA9PiB7CiAgICAgICAgICAgICAgICBub3JtYWxpemVkLnBvcCgpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIENvbXBvbmVudDo6Tm9ybWFsKHBhcnQpID0+IG5vcm1hbGl6ZWQucHVzaChwYXJ0KSwKICAgICAgICB9CiAgICB9CiAgICBub3JtYWxpemVkCn0KCnB1YihzdXBlcikgZm4gaXNfYmFja3VwX2FyY2hpdmVfZmlsZSh2YWx1ZTogJnN0cikgLT4gYm9vbCB7CiAgICBQYXRoOjpuZXcodmFsdWUpCiAgICAgICAgLmV4dGVuc2lvbigpCiAgICAgICAgLmFuZF90aGVuKHxleHRlbnNpb258IGV4dGVuc2lvbi50b19zdHIoKSkKICAgICAgICAuaXNfc29tZV9hbmQofGV4dGVuc2lvbnwgewogICAgICAgICAgICBmb3JtYXQhKCIue30iLCBleHRlbnNpb24udG9fYXNjaWlfbG93ZXJjYXNlKCkpID09IEtOT0NLX0JBQ0tVUF9FWFRFTlNJT04KICAgICAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIGlzX25vZGVfYmFzZTY0KHZhbHVlOiAmc3RyKSAtPiBib29sIHsKICAgIGxldCBieXRlcyA9IHZhbHVlLmFzX2J5dGVzKCk7CiAgICBpZiBieXRlcy5pc19lbXB0eSgpIHx8ICFieXRlcy5sZW4oKS5pc19tdWx0aXBsZV9vZig0KSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQoKICAgIGxldCBwYWRkaW5nID0gYnl0ZXMuaXRlcigpLnJldigpLnRha2Vfd2hpbGUofGJ5dGV8ICoqYnl0ZSA9PSBiJz0nKS5jb3VudCgpOwogICAgaWYgcGFkZGluZyA+IDIgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBsZXQgY29udGVudF9sZW4gPSBieXRlcy5sZW4oKSAtIHBhZGRpbmc7CiAgICBsZXQgZXhwZWN0ZWRfcmVtYWluZGVyID0gbWF0Y2ggcGFkZGluZyB7CiAgICAgICAgMCA9PiAwLAogICAgICAgIDEgPT4gMywKICAgICAgICAyID0+IDIsCiAgICAgICAgXyA9PiB1bnJlYWNoYWJsZSEoKSwKICAgIH07CiAgICBpZiBjb250ZW50X2xlbiAlIDQgIT0gZXhwZWN0ZWRfcmVtYWluZGVyIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CgogICAgYnl0ZXNbLi5jb250ZW50X2xlbl0KICAgICAgICAuaXRlcigpCiAgICAgICAgLmFsbCh8Ynl0ZXwgYnl0ZS5pc19hc2NpaV9hbHBoYW51bWVyaWMoKSB8fCBtYXRjaGVzISgqYnl0ZSwgYicrJyB8IGInLycpKQogICAgICAgICYmIGJ5dGVzW2NvbnRlbnRfbGVuLi5dLml0ZXIoKS5hbGwofGJ5dGV8ICpieXRlID09IGInPScpCn0KCnB1YihzdXBlcikgZm4ganNfbnVtYmVyX2Zyb21fanNvbih2YWx1ZTogJlZhbHVlKSAtPiBPcHRpb248ZjY0PiB7CiAgICBsZXQgbnVtYmVyID0gbWF0Y2ggdmFsdWUgewogICAgICAgIFZhbHVlOjpOdW1iZXIobnVtYmVyKSA9PiBudW1iZXIuYXNfZjY0KCk/LAogICAgICAgIFZhbHVlOjpTdHJpbmcodmFsdWUpID0+IGpzX251bWJlcl9mcm9tX3N0cmluZyh2YWx1ZSk/LAogICAgICAgIFZhbHVlOjpCb29sKHZhbHVlKSA9PiB7CiAgICAgICAgICAgIGlmICp2YWx1ZSB7CiAgICAgICAgICAgICAgICAxLjAKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIDAuMAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIFZhbHVlOjpOdWxsID0+IDAuMCwKICAgICAgICBWYWx1ZTo6QXJyYXkodmFsdWVzKSA9PiBqc19udW1iZXJfZnJvbV9zdHJpbmcoJmpzX2FycmF5X3RvX3N0cmluZyh2YWx1ZXMpKT8sCiAgICAgICAgVmFsdWU6Ok9iamVjdChfKSA9PiByZXR1cm4gTm9uZSwKICAgIH07CiAgICBudW1iZXIuaXNfZmluaXRlKCkudGhlbl9zb21lKG51bWJlcikKfQoKcHViKHN1cGVyKSBmbiBqc19hcnJheV90b19zdHJpbmcodmFsdWVzOiAmW1ZhbHVlXSkgLT4gU3RyaW5nIHsKICAgIHZhbHVlcwogICAgICAgIC5pdGVyKCkKICAgICAgICAubWFwKGpzX3ZhbHVlX3RvX2FycmF5X3N0cmluZykKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKQogICAgICAgIC5qb2luKCIsIikKfQoKcHViKHN1cGVyKSBmbiBqc192YWx1ZV90b19hcnJheV9zdHJpbmcodmFsdWU6ICZWYWx1ZSkgLT4gU3RyaW5nIHsKICAgIG1hdGNoIHZhbHVlIHsKICAgICAgICBWYWx1ZTo6TnVsbCA9PiBTdHJpbmc6Om5ldygpLAogICAgICAgIFZhbHVlOjpTdHJpbmcodmFsdWUpID0+IHZhbHVlLmNsb25lKCksCiAgICAgICAgVmFsdWU6Ok51bWJlcih2YWx1ZSkgPT4gdmFsdWUudG9fc3RyaW5nKCksCiAgICAgICAgVmFsdWU6OkJvb2wodmFsdWUpID0+IHZhbHVlLnRvX3N0cmluZygpLAogICAgICAgIFZhbHVlOjpBcnJheSh2YWx1ZXMpID0+IGpzX2FycmF5X3RvX3N0cmluZyh2YWx1ZXMpLAogICAgICAgIFZhbHVlOjpPYmplY3QoXykgPT4gIltvYmplY3QgT2JqZWN0XSIudG9fc3RyaW5nKCksCiAgICB9Cn0KCnB1YihzdXBlcikgZm4ganNfbnVtYmVyX2Zyb21fc3RyaW5nKHZhbHVlOiAmc3RyKSAtPiBPcHRpb248ZjY0PiB7CiAgICBsZXQgdHJpbW1lZCA9IHZhbHVlLnRyaW0oKTsKICAgIGlmIHRyaW1tZWQuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIFNvbWUoMC4wKTsKICAgIH0KCiAgICBsZXQgcmFkaXhfdmFsdWUgPSBpZiBsZXQgU29tZShyZXN0KSA9IHRyaW1tZWQKICAgICAgICAuc3RyaXBfcHJlZml4KCIweCIpCiAgICAgICAgLm9yX2Vsc2UofHwgdHJpbW1lZC5zdHJpcF9wcmVmaXgoIjBYIikpCiAgICB7CiAgICAgICAgU29tZSh1MTI4Ojpmcm9tX3N0cl9yYWRpeChyZXN0LCAxNikub2soKT8gYXMgZjY0KQogICAgfSBlbHNlIGlmIGxldCBTb21lKHJlc3QpID0gdHJpbW1lZAogICAgICAgIC5zdHJpcF9wcmVmaXgoIjBiIikKICAgICAgICAub3JfZWxzZSh8fCB0cmltbWVkLnN0cmlwX3ByZWZpeCgiMEIiKSkKICAgIHsKICAgICAgICBTb21lKHUxMjg6OmZyb21fc3RyX3JhZGl4KHJlc3QsIDIpLm9rKCk/IGFzIGY2NCkKICAgIH0gZWxzZSBpZiBsZXQgU29tZShyZXN0KSA9IHRyaW1tZWQKICAgICAgICAuc3RyaXBfcHJlZml4KCIwbyIpCiAgICAgICAgLm9yX2Vsc2UofHwgdHJpbW1lZC5zdHJpcF9wcmVmaXgoIjBPIikpCiAgICB7CiAgICAgICAgU29tZSh1MTI4Ojpmcm9tX3N0cl9yYWRpeChyZXN0LCA4KS5vaygpPyBhcyBmNjQpCiAgICB9IGVsc2UgewogICAgICAgIE5vbmUKICAgIH07CgogICAgbWF0Y2ggcmFkaXhfdmFsdWUgewogICAgICAgIFNvbWUodmFsdWUpID0+IFNvbWUodmFsdWUpLAogICAgICAgIE5vbmUgPT4gdHJpbW1lZC5wYXJzZTo6PGY2ND4oKS5vaygpLAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGJhY2t1cF9hcHBfdmVyc2lvbl9zdXBwb3J0ZWQodmVyc2lvbjogJnN0cikgLT4gYm9vbCB7CiAgICBjcmF0ZTo6dmVyc2lvbl91dGlsczo6Y29tcGFyZV92ZXJzaW9uKHZlcnNpb24sIEFQUF9CQUNLVVBfSU1QT1JUX01JTl9WRVJTSU9OKSA+PSAwCiAgICAgICAgJiYgY3JhdGU6OnZlcnNpb25fdXRpbHM6OmNvbXBhcmVfdmVyc2lvbih2ZXJzaW9uLCBBUFBfTE9DQUxfVkVSU0lPTikgPD0gMAp9CgojW2NmZyh0ZXN0KV0KcHViKHN1cGVyKSBmbiBzdW1tYXJpemVfY29tbWFuZF9mYWlsdXJlKHN0ZG91dDogJlt1OF0sIHN0ZGVycjogJlt1OF0pIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIGxldCBzdGRlcnIgPSBTdHJpbmc6OmZyb21fdXRmOF9sb3NzeShzdGRlcnIpOwogICAgbGV0IHN0ZG91dCA9IFN0cmluZzo6ZnJvbV91dGY4X2xvc3N5KHN0ZG91dCk7CiAgICBsZXQgZGV0YWlsID0gaWYgc3RkZXJyLmlzX2VtcHR5KCkgewogICAgICAgIHN0ZG91dC5hc19yZWYoKQogICAgfSBlbHNlIHsKICAgICAgICBzdGRlcnIuYXNfcmVmKCkKICAgIH07CiAgICBsZXQgc3VtbWFyeSA9IGRldGFpbAogICAgICAgIC50cmltKCkKICAgICAgICAubGluZXMoKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC5maWx0ZXIofGxpbmV8ICFsaW5lLmlzX2VtcHR5KCkpCiAgICAgICAgLnJldigpCiAgICAgICAgLnRha2UoMykKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKQogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5yZXYoKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpCiAgICAgICAgLmpvaW4oIiB8ICIpOwogICAgKCFzdW1tYXJ5LmlzX2VtcHR5KCkpLnRoZW5fc29tZShzdW1tYXJ5KQp9Cg==
+use super::*;
+
+pub(super) async fn resolve_backup_archive_path(
+    relative_path: &str,
+) -> Result<PathBuf, BackupImportError> {
+    let directory = ensure_backup_directory().await?;
+    let resolved = resolve_backup_archive_path_like_node(&directory, relative_path)?;
+    validate_existing_backup_path(&directory, resolved).await
+}
+
+pub(super) async fn validate_existing_backup_path(
+    directory: &Path,
+    resolved: PathBuf,
+) -> Result<PathBuf, BackupImportError> {
+    let metadata = match fs::symlink_metadata(&resolved).await {
+        Ok(metadata) => metadata,
+        Err(error) if error.kind() == io::ErrorKind::NotFound => return Ok(resolved),
+        Err(error) => return Err(BackupImportError::internal(error.to_string())),
+    };
+    if metadata.file_type().is_symlink() {
+        return Err(BackupImportError::bad_request("Backup path must be a file"));
+    }
+    let canonical_root = fs::canonicalize(directory)
+        .await
+        .map_err(|error| BackupImportError::internal(error.to_string()))?;
+    let canonical_path = fs::canonicalize(&resolved)
+        .await
+        .map_err(|error| BackupImportError::internal(error.to_string()))?;
+    if !canonical_path.starts_with(&canonical_root) || canonical_path == canonical_root {
+        return Err(BackupImportError::bad_request("Invalid backup path"));
+    }
+    Ok(canonical_path)
+}
+
+pub(super) fn resolve_backup_archive_path_like_node(
+    directory: &Path,
+    relative_path: &str,
+) -> Result<PathBuf, BackupImportError> {
+    let sanitized = relative_path.replace('\\', "/").trim().to_string();
+    if sanitized.is_empty() || sanitized.starts_with('/') {
+        return Err(BackupImportError::bad_request("Invalid backup path"));
+    }
+    let normalized_root = normalize_path_like_node(directory);
+    let resolved = normalize_path_like_node(&normalized_root.join(&sanitized));
+    if !resolved.starts_with(&normalized_root) || resolved == normalized_root {
+        return Err(BackupImportError::bad_request("Invalid backup path"));
+    }
+    Ok(resolved)
+}
+
+pub(super) fn normalize_path_like_node(path: &Path) -> PathBuf {
+    // Node's path normalization keeps a separator-rooted path at the root.
+    // On Windows, Path::is_absolute additionally requires a drive prefix,
+    // which would incorrectly prepend the process working directory to
+    // legacy Unix paths such as `/share/backup`.
+    let path = if path.has_root() {
+        path.to_path_buf()
+    } else {
+        std::env::current_dir()
+            .unwrap_or_else(|_| PathBuf::from("."))
+            .join(path)
+    };
+    let mut normalized = PathBuf::new();
+    for component in path.components() {
+        match component {
+            Component::Prefix(prefix) => normalized.push(prefix.as_os_str()),
+            Component::RootDir => normalized.push(component.as_os_str()),
+            Component::CurDir => {}
+            Component::ParentDir => {
+                normalized.pop();
+            }
+            Component::Normal(part) => normalized.push(part),
+        }
+    }
+    normalized
+}
+
+pub(super) fn is_backup_archive_file(value: &str) -> bool {
+    Path::new(value)
+        .extension()
+        .and_then(|extension| extension.to_str())
+        .is_some_and(|extension| {
+            format!(".{}", extension.to_ascii_lowercase()) == KNOCK_BACKUP_EXTENSION
+        })
+}
+
+pub(super) fn is_node_base64(value: &str) -> bool {
+    let bytes = value.as_bytes();
+    if bytes.is_empty() || !bytes.len().is_multiple_of(4) {
+        return false;
+    }
+
+    let padding = bytes.iter().rev().take_while(|byte| **byte == b'=').count();
+    if padding > 2 {
+        return false;
+    }
+
+    let content_len = bytes.len() - padding;
+    let expected_remainder = match padding {
+        0 => 0,
+        1 => 3,
+        2 => 2,
+        _ => unreachable!(),
+    };
+    if content_len % 4 != expected_remainder {
+        return false;
+    }
+
+    bytes[..content_len]
+        .iter()
+        .all(|byte| byte.is_ascii_alphanumeric() || matches!(*byte, b'+' | b'/'))
+        && bytes[content_len..].iter().all(|byte| *byte == b'=')
+}
+
+pub(super) fn js_number_from_json(value: &Value) -> Option<f64> {
+    let number = match value {
+        Value::Number(number) => number.as_f64()?,
+        Value::String(value) => js_number_from_string(value)?,
+        Value::Bool(value) => {
+            if *value {
+                1.0
+            } else {
+                0.0
+            }
+        }
+        Value::Null => 0.0,
+        Value::Array(values) => js_number_from_string(&js_array_to_string(values))?,
+        Value::Object(_) => return None,
+    };
+    number.is_finite().then_some(number)
+}
+
+pub(super) fn js_array_to_string(values: &[Value]) -> String {
+    values
+        .iter()
+        .map(js_value_to_array_string)
+        .collect::<Vec<_>>()
+        .join(",")
+}
+
+pub(super) fn js_value_to_array_string(value: &Value) -> String {
+    match value {
+        Value::Null => String::new(),
+        Value::String(value) => value.clone(),
+        Value::Number(value) => value.to_string(),
+        Value::Bool(value) => value.to_string(),
+        Value::Array(values) => js_array_to_string(values),
+        Value::Object(_) => "[object Object]".to_string(),
+    }
+}
+
+pub(super) fn js_number_from_string(value: &str) -> Option<f64> {
+    let trimmed = value.trim();
+    if trimmed.is_empty() {
+        return Some(0.0);
+    }
+
+    let radix_value = if let Some(rest) = trimmed
+        .strip_prefix("0x")
+        .or_else(|| trimmed.strip_prefix("0X"))
+    {
+        Some(u128::from_str_radix(rest, 16).ok()? as f64)
+    } else if let Some(rest) = trimmed
+        .strip_prefix("0b")
+        .or_else(|| trimmed.strip_prefix("0B"))
+    {
+        Some(u128::from_str_radix(rest, 2).ok()? as f64)
+    } else if let Some(rest) = trimmed
+        .strip_prefix("0o")
+        .or_else(|| trimmed.strip_prefix("0O"))
+    {
+        Some(u128::from_str_radix(rest, 8).ok()? as f64)
+    } else {
+        None
+    };
+
+    match radix_value {
+        Some(value) => Some(value),
+        None => trimmed.parse::<f64>().ok(),
+    }
+}
+
+pub(super) fn backup_app_version_supported(version: &str) -> bool {
+    crate::version_utils::compare_version(version, APP_BACKUP_IMPORT_MIN_VERSION) >= 0
+        && crate::version_utils::compare_version(version, APP_LOCAL_VERSION) <= 0
+}
+
+#[cfg(test)]
+pub(super) fn summarize_command_failure(stdout: &[u8], stderr: &[u8]) -> Option<String> {
+    let stderr = String::from_utf8_lossy(stderr);
+    let stdout = String::from_utf8_lossy(stdout);
+    let detail = if stderr.is_empty() {
+        stdout.as_ref()
+    } else {
+        stderr.as_ref()
+    };
+    let summary = detail
+        .trim()
+        .lines()
+        .map(str::trim)
+        .filter(|line| !line.is_empty())
+        .rev()
+        .take(3)
+        .collect::<Vec<_>>()
+        .into_iter()
+        .rev()
+        .collect::<Vec<_>>()
+        .join(" | ");
+    (!summary.is_empty()).then_some(summary)
+}

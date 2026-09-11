@@ -1,1 +1,370 @@
-dXNlIHN0ZDo6Y29sbGVjdGlvbnM6OkJUcmVlTWFwOwoKdXNlIHNlcmRlOjp7RGVzZXJpYWxpemUsIFNlcmlhbGl6ZX07CnVzZSB1dG9pcGE6OlRvU2NoZW1hOwoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplLCBUb1NjaGVtYSwgUGFydGlhbEVxLCBFcSwgSGFzaCldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJzbmFrZV9jYXNlIildCnB1YiBlbnVtIFBhbmVsUHJvdmlkZXIgewogICAgU3VuUGFuZWwsCiAgICBPbmVOYXYsCiAgICBWYW5OYXYsCn0KCmltcGwgUGFuZWxQcm92aWRlciB7CiAgICBwdWIgZm4gZGVmYXVsdF9hcGlfcGF0aChzZWxmKSAtPiAmJ3N0YXRpYyBzdHIgewogICAgICAgIG1hdGNoIHNlbGYgewogICAgICAgICAgICBTZWxmOjpTdW5QYW5lbCA9PiAiL29wZW5hcGkvdjEiLAogICAgICAgICAgICBTZWxmOjpPbmVOYXYgPT4gIi9pbmRleC5waHA/Yz1hcGkiLAogICAgICAgICAgICBTZWxmOjpWYW5OYXYgPT4gIi9hcGkiLAogICAgICAgIH0KICAgIH0KCiAgICBwdWIgZm4gbGFiZWwoc2VsZikgLT4gJidzdGF0aWMgc3RyIHsKICAgICAgICBtYXRjaCBzZWxmIHsKICAgICAgICAgICAgU2VsZjo6U3VuUGFuZWwgPT4gIlN1bi1QYW5lbCIsCiAgICAgICAgICAgIFNlbGY6Ok9uZU5hdiA9PiAiT25lTmF2IiwKICAgICAgICAgICAgU2VsZjo6VmFuTmF2ID0+ICJWYW4gTmF2IiwKICAgICAgICB9CiAgICB9Cn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YiBzdHJ1Y3QgUHJvdmlkZXJEZXNjcmlwdG9yIHsKICAgIHB1YiBwcm92aWRlcjogUGFuZWxQcm92aWRlciwKICAgIHB1YiBuYW1lOiBTdHJpbmcsCiAgICBwdWIgZGVmYXVsdF9hcGlfcGF0aDogU3RyaW5nLAogICAgcHViIHN1cHBvcnRzX2RlbGV0ZTogYm9vbCwKICAgIHB1YiBzdXBwb3J0c19pY29uOiBib29sLAogICAgcHViIG5vdGVzOiBWZWM8U3RyaW5nPiwKfQoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIERlYnVnLCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplLCBUb1NjaGVtYSwgUGFydGlhbEVxLCBFcSldCiNbc2VyZGUocmVuYW1lX2FsbCA9ICJzbmFrZV9jYXNlIildCnB1YiBlbnVtIEdyb3VwTW9kZSB7CiAgICBNaXJyb3IsCiAgICBTaW5nbGUsCn0KCmZuIGRlZmF1bHRfbmFtZXNwYWNlKCkgLT4gU3RyaW5nIHsKICAgICJmbi1rbm9jayIudG9fc3RyaW5nKCkKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YiBzdHJ1Y3QgR3JvdXBpbmdDb25maWcgewogICAgcHViIG1vZGU6IEdyb3VwTW9kZSwKICAgICNbc2VyZGUoZGVmYXVsdCA9ICJkZWZhdWx0X25hbWVzcGFjZSIpXQogICAgcHViIG5hbWVzcGFjZTogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBzaW5nbGVfZ3JvdXBfbmFtZTogU3RyaW5nLAp9CgppbXBsIERlZmF1bHQgZm9yIEdyb3VwaW5nQ29uZmlnIHsKICAgIGZuIGRlZmF1bHQoKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsKICAgICAgICAgICAgbW9kZTogR3JvdXBNb2RlOjpNaXJyb3IsCiAgICAgICAgICAgIG5hbWVzcGFjZTogZGVmYXVsdF9uYW1lc3BhY2UoKSwKICAgICAgICAgICAgc2luZ2xlX2dyb3VwX25hbWU6IFN0cmluZzo6bmV3KCksCiAgICAgICAgfQogICAgfQp9CgpmbiBkZWZhdWx0X2ludGVydmFsKCkgLT4gdTMyIHsKICAgIDYwCn0KCmZuIGRlZmF1bHRfYXV0b19zeW5jX2VuYWJsZWQoKSAtPiBib29sIHsKICAgIHRydWUKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YiBzdHJ1Y3QgQXV0b1N5bmNDb25maWcgewogICAgI1tzZXJkZShkZWZhdWx0ID0gImRlZmF1bHRfYXV0b19zeW5jX2VuYWJsZWQiKV0KICAgIHB1YiBlbmFibGVkOiBib29sLAogICAgI1tzZXJkZShkZWZhdWx0ID0gImRlZmF1bHRfaW50ZXJ2YWwiKV0KICAgIHB1YiBpbnRlcnZhbF9taW51dGVzOiB1MzIsCn0KCmltcGwgRGVmYXVsdCBmb3IgQXV0b1N5bmNDb25maWcgewogICAgZm4gZGVmYXVsdCgpIC0+IFNlbGYgewogICAgICAgIFNlbGYgewogICAgICAgICAgICBlbmFibGVkOiBkZWZhdWx0X2F1dG9fc3luY19lbmFibGVkKCksCiAgICAgICAgICAgIGludGVydmFsX21pbnV0ZXM6IGRlZmF1bHRfaW50ZXJ2YWwoKSwKICAgICAgICB9CiAgICB9Cn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVzZXJpYWxpemUsIFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIgc3RydWN0IFBhbmVsQ29ubmVjdGlvbiB7CiAgICBwdWIgaWQ6IFN0cmluZywKICAgIHB1YiBuYW1lOiBTdHJpbmcsCiAgICBwdWIgcHJvdmlkZXI6IFBhbmVsUHJvdmlkZXIsCiAgICBwdWIgYmFzZV91cmw6IFN0cmluZywKICAgIHB1YiBhcGlfcGF0aDogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBhbGxvd19pbnZhbGlkX3RsczogYm9vbCwKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgZ3JvdXBpbmc6IEdyb3VwaW5nQ29uZmlnLAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBhdXRvX3N5bmM6IEF1dG9TeW5jQ29uZmlnLAogICAgcHViIGNyZWRlbnRpYWxfY29uZmlndXJlZDogYm9vbCwKICAgIHB1YiB2ZXJpZmllZF9hdDogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIgdmVyaWZpZWRfdmVyc2lvbjogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIgY3JlYXRlZF9hdDogU3RyaW5nLAogICAgcHViIHVwZGF0ZWRfYXQ6IFN0cmluZywKICAgIHB1YiBsYXN0X3J1bjogT3B0aW9uPFJ1blN1bW1hcnk+LAogICAgcHViIG5leHRfc3luY19hdDogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVzZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViIHN0cnVjdCBDb25uZWN0aW9uSW5wdXQgewogICAgcHViIG5hbWU6IFN0cmluZywKICAgIHB1YiBwcm92aWRlcjogUGFuZWxQcm92aWRlciwKICAgIHB1YiBiYXNlX3VybDogU3RyaW5nLAogICAgcHViIGFwaV9wYXRoOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgYWxsb3dfaW52YWxpZF90bHM6IGJvb2wsCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgcHViIGdyb3VwaW5nOiBHcm91cGluZ0NvbmZpZywKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgYXV0b19zeW5jOiBBdXRvU3luY0NvbmZpZywKICAgIHB1YiBjcmVkZW50aWFsOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgY2xlYXJfY3JlZGVudGlhbDogYm9vbCwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIgc3RydWN0IENvbm5lY3Rpb25VcGRhdGVJbnB1dCB7CiAgICBwdWIgbmFtZTogU3RyaW5nLAogICAgcHViIGJhc2VfdXJsOiBTdHJpbmcsCiAgICBwdWIgYXBpX3BhdGg6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBhbGxvd19pbnZhbGlkX3RsczogYm9vbCwKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgZ3JvdXBpbmc6IEdyb3VwaW5nQ29uZmlnLAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBhdXRvX3N5bmM6IEF1dG9TeW5jQ29uZmlnLAogICAgcHViIGNyZWRlbnRpYWw6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBjbGVhcl9jcmVkZW50aWFsOiBib29sLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YiBzdHJ1Y3QgVGVzdENvbm5lY3Rpb25JbnB1dCB7CiAgICBwdWIgY29ubmVjdGlvbl9pZDogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIgZHJhZnQ6IE9wdGlvbjxDb25uZWN0aW9uSW5wdXQ+LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIgc3RydWN0IFByb2JlUmVzdWx0IHsKICAgIHB1YiBzdWNjZXNzOiBib29sLAogICAgcHViIHByb3ZpZGVyOiBQYW5lbFByb3ZpZGVyLAogICAgcHViIHZlcnNpb246IE9wdGlvbjxTdHJpbmc+LAogICAgcHViIG1lc3NhZ2U6IFN0cmluZywKICAgIHB1YiBjYXBhYmlsaXRpZXM6IEFkYXB0ZXJDYXBhYmlsaXRpZXMsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YiBzdHJ1Y3QgQWRhcHRlckNhcGFiaWxpdGllcyB7CiAgICBwdWIgY2FuX2NyZWF0ZTogYm9vbCwKICAgIHB1YiBjYW5fdXBkYXRlOiBib29sLAogICAgcHViIGNhbl91cGRhdGVfZ3JvdXBzOiBib29sLAogICAgcHViIGNhbl9kZWxldGU6IGJvb2wsCiAgICBwdWIgc3VwcG9ydHNfaWNvbjogYm9vbCwKICAgIHB1YiByZXNpZHVhbF9vbl9kZWxldGU6IGJvb2wsCn0KCiNbZGVyaXZlKENsb25lLCBDb3B5LCBEZWJ1ZywgRGVzZXJpYWxpemUsIFNlcmlhbGl6ZSwgVG9TY2hlbWEsIFBhcnRpYWxFcSwgRXEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAic25ha2VfY2FzZSIpXQpwdWIgZW51bSBQbGFuQWN0aW9uS2luZCB7CiAgICBDcmVhdGUsCiAgICBVcGRhdGUsCiAgICBEZWxldGUsCiAgICBVbmNoYW5nZWQsCiAgICBSZXNpZHVhbCwKICAgIENvbmZsaWN0LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplLCBTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViIHN0cnVjdCBQbGFuQWN0aW9uIHsKICAgIHB1YiBraW5kOiBQbGFuQWN0aW9uS2luZCwKICAgIHB1YiBvYmplY3RfdHlwZTogU3RyaW5nLAogICAgcHViIHNvdXJjZV9pZDogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIgcmVtb3RlX2lkOiBPcHRpb248U3RyaW5nPiwKICAgIHB1YiB0aXRsZTogU3RyaW5nLAogICAgcHViIGRldGFpbDogU3RyaW5nLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplLCBTZXJpYWxpemUsIFRvU2NoZW1hLCBEZWZhdWx0KV0KcHViIHN0cnVjdCBQbGFuQ291bnRzIHsKICAgIHB1YiBjcmVhdGU6IHVzaXplLAogICAgcHViIHVwZGF0ZTogdXNpemUsCiAgICBwdWIgZGVsZXRlOiB1c2l6ZSwKICAgIHB1YiB1bmNoYW5nZWQ6IHVzaXplLAogICAgcHViIHJlc2lkdWFsOiB1c2l6ZSwKICAgIHB1YiBjb25mbGljdDogdXNpemUsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVzZXJpYWxpemUsIFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIgc3RydWN0IFN5bmNQcmV2aWV3IHsKICAgIHB1YiBjb25uZWN0aW9uX2lkOiBTdHJpbmcsCiAgICBwdWIgc291cmNlX3JldmlzaW9uOiBTdHJpbmcsCiAgICBwdWIgcGxhbl9oYXNoOiBTdHJpbmcsCiAgICBwdWIgY291bnRzOiBQbGFuQ291bnRzLAogICAgcHViIGFjdGlvbnM6IFZlYzxQbGFuQWN0aW9uPiwKICAgIHB1YiB3YXJuaW5nczogVmVjPFN0cmluZz4sCiAgICBwdWIgY2FuX2FwcGx5OiBib29sLAogICAgcHViIGV4cGlyZXNfYXQ6IFN0cmluZywKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZWZhdWx0LCBEZXNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIgc3RydWN0IFByZXZpZXdSZXF1ZXN0IHsKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgY2xlYW51cF9yZW1vdGU6IGJvb2wsCiAgICBwdWIgcmVmcmVzaF9yZW1vdGU6IE9wdGlvbjxib29sPiwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZWZhdWx0LCBEZXNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIgc3RydWN0IERlbGV0ZUNvbm5lY3Rpb25SZXF1ZXN0IHsKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgY2xlYW51cF9yZW1vdGU6IGJvb2wsCiAgICBwdWIgc291cmNlX3JldmlzaW9uOiBPcHRpb248U3RyaW5nPiwKICAgIHB1YiBwbGFuX2hhc2g6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YiBzdHJ1Y3QgU3luY1JlcXVlc3QgewogICAgcHViIHNvdXJjZV9yZXZpc2lvbjogU3RyaW5nLAogICAgcHViIHBsYW5faGFzaDogU3RyaW5nLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSwgVG9TY2hlbWEpXQpwdWIgc3RydWN0IFN5bmNBY2NlcHRlZCB7CiAgICBwdWIgcnVuX2lkOiBTdHJpbmcsCn0KCiNbZGVyaXZlKENsb25lLCBDb3B5LCBEZWJ1ZywgRGVzZXJpYWxpemUsIFNlcmlhbGl6ZSwgVG9TY2hlbWEsIFBhcnRpYWxFcSwgRXEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAic25ha2VfY2FzZSIpXQpwdWIgZW51bSBSdW5TdGF0dXMgewogICAgUXVldWVkLAogICAgUnVubmluZywKICAgIFN1Y2Nlc3MsCiAgICBGYWlsZWQsCiAgICBTa2lwcGVkLAogICAgQ29uZmxpY3QsCn0KCiNbZGVyaXZlKENsb25lLCBDb3B5LCBEZWJ1ZywgRGVzZXJpYWxpemUsIFNlcmlhbGl6ZSwgVG9TY2hlbWEsIFBhcnRpYWxFcSwgRXEpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAic25ha2VfY2FzZSIpXQpwdWIgZW51bSBSdW5UcmlnZ2VyIHsKICAgIE1hbnVhbCwKICAgIENvbmZpZ0NoYW5nZSwKICAgIFBlcmlvZGljLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplLCBTZXJpYWxpemUsIFRvU2NoZW1hKV0KcHViIHN0cnVjdCBTeW5jUnVuIHsKICAgIHB1YiBpZDogU3RyaW5nLAogICAgcHViIGNvbm5lY3Rpb25faWQ6IFN0cmluZywKICAgIHB1YiB0cmlnZ2VyOiBSdW5UcmlnZ2VyLAogICAgcHViIHN0YXR1czogUnVuU3RhdHVzLAogICAgcHViIHNvdXJjZV9yZXZpc2lvbjogU3RyaW5nLAogICAgcHViIHBsYW5faGFzaDogU3RyaW5nLAogICAgcHViIGNvdW50czogUGxhbkNvdW50cywKICAgIHB1YiB3YXJuaW5nczogVmVjPFN0cmluZz4sCiAgICBwdWIgbWVzc2FnZTogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIgc3RhcnRlZF9hdDogU3RyaW5nLAogICAgcHViIGZpbmlzaGVkX2F0OiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YiBzdHJ1Y3QgUnVuU3VtbWFyeSB7CiAgICBwdWIgaWQ6IFN0cmluZywKICAgIHB1YiBzdGF0dXM6IFJ1blN0YXR1cywKICAgIHB1YiB0cmlnZ2VyOiBSdW5UcmlnZ2VyLAogICAgcHViIHN0YXJ0ZWRfYXQ6IFN0cmluZywKICAgIHB1YiBmaW5pc2hlZF9hdDogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIgbWVzc2FnZTogT3B0aW9uPFN0cmluZz4sCn0KCmltcGwgRnJvbTwmU3luY1J1bj4gZm9yIFJ1blN1bW1hcnkgewogICAgZm4gZnJvbSh2YWx1ZTogJlN5bmNSdW4pIC0+IFNlbGYgewogICAgICAgIFNlbGYgewogICAgICAgICAgICBpZDogdmFsdWUuaWQuY2xvbmUoKSwKICAgICAgICAgICAgc3RhdHVzOiB2YWx1ZS5zdGF0dXMsCiAgICAgICAgICAgIHRyaWdnZXI6IHZhbHVlLnRyaWdnZXIsCiAgICAgICAgICAgIHN0YXJ0ZWRfYXQ6IHZhbHVlLnN0YXJ0ZWRfYXQuY2xvbmUoKSwKICAgICAgICAgICAgZmluaXNoZWRfYXQ6IHZhbHVlLmZpbmlzaGVkX2F0LmNsb25lKCksCiAgICAgICAgICAgIG1lc3NhZ2U6IHZhbHVlLm1lc3NhZ2UuY2xvbmUoKSwKICAgICAgICB9CiAgICB9Cn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVzZXJpYWxpemUsIFNlcmlhbGl6ZSwgRGVmYXVsdCldCnB1YiBzdHJ1Y3QgTWFuYWdlZE9iamVjdCB7CiAgICBwdWIgcmVtb3RlX2lkOiBTdHJpbmcsCiAgICBwdWIgcmVtb3RlX2dyb3VwX2lkOiBPcHRpb248U3RyaW5nPiwKICAgIHB1YiBmaW5nZXJwcmludDogU3RyaW5nLAogICAgcHViIHRpdGxlOiBTdHJpbmcsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVzZXJpYWxpemUsIFNlcmlhbGl6ZSwgRGVmYXVsdCldCnB1YiBzdHJ1Y3QgTWFuYWdlZFN0YXRlIHsKICAgIHB1YiBncm91cHM6IEJUcmVlTWFwPFN0cmluZywgTWFuYWdlZE9iamVjdD4sCiAgICBwdWIgbGlua3M6IEJUcmVlTWFwPFN0cmluZywgTWFuYWdlZE9iamVjdD4sCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZyldCnB1YiBzdHJ1Y3QgQWRhcHRlckNvbnRleHQgewogICAgcHViIGNvbm5lY3Rpb246IFBhbmVsQ29ubmVjdGlvbiwKICAgIHB1YiBjcmVkZW50aWFsOiBTdHJpbmcsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgRGVmYXVsdCldCnB1YiBzdHJ1Y3QgUmVtb3RlU25hcHNob3QgewogICAgcHViIGdyb3VwczogQlRyZWVNYXA8U3RyaW5nLCBSZW1vdGVPYmplY3Q+LAogICAgcHViIGxpbmtzOiBCVHJlZU1hcDxTdHJpbmcsIFJlbW90ZU9iamVjdD4sCiAgICAvLy8gT2JqZWN0cyBjYXJyeWluZyBhIHByb3ZpZGVyLXNwZWNpZmljIGRldGVybWluaXN0aWMgb3duZXJzaGlwIG1hcmtlci4KICAgIC8vLyBUaGVzZSBjYW4gYmUgcmUtcmVnaXN0ZXJlZCBhZnRlciBhIHByb2Nlc3MgY3Jhc2ggYmV0d2VlbiByZW1vdGUgYXBwbHkKICAgIC8vLyBhbmQgdGhlIGxvY2FsIG93bmVyc2hpcCBjaGVja3BvaW50LgogICAgcHViIHJlY292ZXJlZDogTWFuYWdlZFN0YXRlLAogICAgcHViIHdhcm5pbmdzOiBWZWM8U3RyaW5nPiwKICAgIHB1YiBjb25mbGljdHM6IFZlYzxQbGFuQWN0aW9uPiwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnKV0KcHViIHN0cnVjdCBSZW1vdGVPYmplY3QgewogICAgcHViIHJlbW90ZV9pZDogU3RyaW5nLAogICAgcHViIGZpbmdlcnByaW50OiBTdHJpbmcsCiAgICBwdWIgZXhpc3RzOiBib29sLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcpXQpwdWIgc3RydWN0IEFkYXB0ZXJQbGFuIHsKICAgIHB1YiBwcmV2aWV3OiBTeW5jUHJldmlldywKICAgIHB1YiBwcm9qZWN0aW9uOiBQYW5lbExpbmtQcm9qZWN0aW9uLAogICAgcHViIG1hbmFnZWQ6IE1hbmFnZWRTdGF0ZSwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplKV0KcHViIHN0cnVjdCBQcm9qZWN0ZWRHcm91cCB7CiAgICBwdWIgc291cmNlX2lkOiBTdHJpbmcsCiAgICBwdWIgbmFtZTogU3RyaW5nLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplLCBTZXJpYWxpemUpXQpwdWIgc3RydWN0IFByb2plY3RlZExpbmsgewogICAgcHViIHN5bmNfaWQ6IFN0cmluZywKICAgIHB1YiBncm91cF9zb3VyY2VfaWQ6IFN0cmluZywKICAgIHB1YiB0aXRsZTogU3RyaW5nLAogICAgcHViIHVybDogU3RyaW5nLAogICAgcHViIGljb246IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIERlc2VyaWFsaXplLCBTZXJpYWxpemUpXQpwdWIgc3RydWN0IFBhbmVsTGlua1Byb2plY3Rpb24gewogICAgcHViIHJldmlzaW9uOiBTdHJpbmcsCiAgICBwdWIgZ3JvdXBzOiBWZWM8UHJvamVjdGVkR3JvdXA+LAogICAgcHViIGxpbmtzOiBWZWM8UHJvamVjdGVkTGluaz4sCiAgICBwdWIgd2FybmluZ3M6IFZlYzxTdHJpbmc+LAp9Cg==
+use std::collections::BTreeMap;
+
+use serde::{Deserialize, Serialize};
+use utoipa::ToSchema;
+
+#[derive(Clone, Copy, Debug, Deserialize, Serialize, ToSchema, PartialEq, Eq, Hash)]
+#[serde(rename_all = "snake_case")]
+pub enum PanelProvider {
+    SunPanel,
+    OneNav,
+    VanNav,
+}
+
+impl PanelProvider {
+    pub fn default_api_path(self) -> &'static str {
+        match self {
+            Self::SunPanel => "/openapi/v1",
+            Self::OneNav => "/index.php?c=api",
+            Self::VanNav => "/api",
+        }
+    }
+
+    pub fn label(self) -> &'static str {
+        match self {
+            Self::SunPanel => "Sun-Panel",
+            Self::OneNav => "OneNav",
+            Self::VanNav => "Van Nav",
+        }
+    }
+}
+
+#[derive(Clone, Debug, Serialize, ToSchema)]
+pub struct ProviderDescriptor {
+    pub provider: PanelProvider,
+    pub name: String,
+    pub default_api_path: String,
+    pub supports_delete: bool,
+    pub supports_icon: bool,
+    pub notes: Vec<String>,
+}
+
+#[derive(Clone, Copy, Debug, Deserialize, Serialize, ToSchema, PartialEq, Eq)]
+#[serde(rename_all = "snake_case")]
+pub enum GroupMode {
+    Mirror,
+    Single,
+}
+
+fn default_namespace() -> String {
+    "fn-knock".to_string()
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize, ToSchema)]
+pub struct GroupingConfig {
+    pub mode: GroupMode,
+    #[serde(default = "default_namespace")]
+    pub namespace: String,
+    #[serde(default)]
+    pub single_group_name: String,
+}
+
+impl Default for GroupingConfig {
+    fn default() -> Self {
+        Self {
+            mode: GroupMode::Mirror,
+            namespace: default_namespace(),
+            single_group_name: String::new(),
+        }
+    }
+}
+
+fn default_interval() -> u32 {
+    60
+}
+
+fn default_auto_sync_enabled() -> bool {
+    true
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize, ToSchema)]
+pub struct AutoSyncConfig {
+    #[serde(default = "default_auto_sync_enabled")]
+    pub enabled: bool,
+    #[serde(default = "default_interval")]
+    pub interval_minutes: u32,
+}
+
+impl Default for AutoSyncConfig {
+    fn default() -> Self {
+        Self {
+            enabled: default_auto_sync_enabled(),
+            interval_minutes: default_interval(),
+        }
+    }
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize, ToSchema)]
+pub struct PanelConnection {
+    pub id: String,
+    pub name: String,
+    pub provider: PanelProvider,
+    pub base_url: String,
+    pub api_path: String,
+    #[serde(default)]
+    pub allow_invalid_tls: bool,
+    #[serde(default)]
+    pub grouping: GroupingConfig,
+    #[serde(default)]
+    pub auto_sync: AutoSyncConfig,
+    pub credential_configured: bool,
+    pub verified_at: Option<String>,
+    pub verified_version: Option<String>,
+    pub created_at: String,
+    pub updated_at: String,
+    pub last_run: Option<RunSummary>,
+    pub next_sync_at: Option<String>,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+pub struct ConnectionInput {
+    pub name: String,
+    pub provider: PanelProvider,
+    pub base_url: String,
+    pub api_path: Option<String>,
+    #[serde(default)]
+    pub allow_invalid_tls: bool,
+    #[serde(default)]
+    pub grouping: GroupingConfig,
+    #[serde(default)]
+    pub auto_sync: AutoSyncConfig,
+    pub credential: Option<String>,
+    #[serde(default)]
+    pub clear_credential: bool,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+pub struct ConnectionUpdateInput {
+    pub name: String,
+    pub base_url: String,
+    pub api_path: Option<String>,
+    #[serde(default)]
+    pub allow_invalid_tls: bool,
+    #[serde(default)]
+    pub grouping: GroupingConfig,
+    #[serde(default)]
+    pub auto_sync: AutoSyncConfig,
+    pub credential: Option<String>,
+    #[serde(default)]
+    pub clear_credential: bool,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+pub struct TestConnectionInput {
+    pub connection_id: Option<String>,
+    pub draft: Option<ConnectionInput>,
+}
+
+#[derive(Clone, Debug, Serialize, ToSchema)]
+pub struct ProbeResult {
+    pub success: bool,
+    pub provider: PanelProvider,
+    pub version: Option<String>,
+    pub message: String,
+    pub capabilities: AdapterCapabilities,
+}
+
+#[derive(Clone, Debug, Serialize, ToSchema)]
+pub struct AdapterCapabilities {
+    pub can_create: bool,
+    pub can_update: bool,
+    pub can_update_groups: bool,
+    pub can_delete: bool,
+    pub supports_icon: bool,
+    pub residual_on_delete: bool,
+}
+
+#[derive(Clone, Copy, Debug, Deserialize, Serialize, ToSchema, PartialEq, Eq)]
+#[serde(rename_all = "snake_case")]
+pub enum PlanActionKind {
+    Create,
+    Update,
+    Delete,
+    Unchanged,
+    Residual,
+    Conflict,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize, ToSchema)]
+pub struct PlanAction {
+    pub kind: PlanActionKind,
+    pub object_type: String,
+    pub source_id: Option<String>,
+    pub remote_id: Option<String>,
+    pub title: String,
+    pub detail: String,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize, ToSchema, Default)]
+pub struct PlanCounts {
+    pub create: usize,
+    pub update: usize,
+    pub delete: usize,
+    pub unchanged: usize,
+    pub residual: usize,
+    pub conflict: usize,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize, ToSchema)]
+pub struct SyncPreview {
+    pub connection_id: String,
+    pub source_revision: String,
+    pub plan_hash: String,
+    pub counts: PlanCounts,
+    pub actions: Vec<PlanAction>,
+    pub warnings: Vec<String>,
+    pub can_apply: bool,
+    pub expires_at: String,
+}
+
+#[derive(Clone, Debug, Default, Deserialize, ToSchema)]
+pub struct PreviewRequest {
+    #[serde(default)]
+    pub cleanup_remote: bool,
+    pub refresh_remote: Option<bool>,
+}
+
+#[derive(Clone, Debug, Default, Deserialize, ToSchema)]
+pub struct DeleteConnectionRequest {
+    #[serde(default)]
+    pub cleanup_remote: bool,
+    pub source_revision: Option<String>,
+    pub plan_hash: Option<String>,
+}
+
+#[derive(Clone, Debug, Deserialize, ToSchema)]
+pub struct SyncRequest {
+    pub source_revision: String,
+    pub plan_hash: String,
+}
+
+#[derive(Clone, Debug, Serialize, ToSchema)]
+pub struct SyncAccepted {
+    pub run_id: String,
+}
+
+#[derive(Clone, Copy, Debug, Deserialize, Serialize, ToSchema, PartialEq, Eq)]
+#[serde(rename_all = "snake_case")]
+pub enum RunStatus {
+    Queued,
+    Running,
+    Success,
+    Failed,
+    Skipped,
+    Conflict,
+}
+
+#[derive(Clone, Copy, Debug, Deserialize, Serialize, ToSchema, PartialEq, Eq)]
+#[serde(rename_all = "snake_case")]
+pub enum RunTrigger {
+    Manual,
+    ConfigChange,
+    Periodic,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize, ToSchema)]
+pub struct SyncRun {
+    pub id: String,
+    pub connection_id: String,
+    pub trigger: RunTrigger,
+    pub status: RunStatus,
+    pub source_revision: String,
+    pub plan_hash: String,
+    pub counts: PlanCounts,
+    pub warnings: Vec<String>,
+    pub message: Option<String>,
+    pub started_at: String,
+    pub finished_at: Option<String>,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize, ToSchema)]
+pub struct RunSummary {
+    pub id: String,
+    pub status: RunStatus,
+    pub trigger: RunTrigger,
+    pub started_at: String,
+    pub finished_at: Option<String>,
+    pub message: Option<String>,
+}
+
+impl From<&SyncRun> for RunSummary {
+    fn from(value: &SyncRun) -> Self {
+        Self {
+            id: value.id.clone(),
+            status: value.status,
+            trigger: value.trigger,
+            started_at: value.started_at.clone(),
+            finished_at: value.finished_at.clone(),
+            message: value.message.clone(),
+        }
+    }
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize, Default)]
+pub struct ManagedObject {
+    pub remote_id: String,
+    pub remote_group_id: Option<String>,
+    pub fingerprint: String,
+    pub title: String,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize, Default)]
+pub struct ManagedState {
+    pub groups: BTreeMap<String, ManagedObject>,
+    pub links: BTreeMap<String, ManagedObject>,
+}
+
+#[derive(Clone, Debug)]
+pub struct AdapterContext {
+    pub connection: PanelConnection,
+    pub credential: String,
+}
+
+#[derive(Clone, Debug, Default)]
+pub struct RemoteSnapshot {
+    pub groups: BTreeMap<String, RemoteObject>,
+    pub links: BTreeMap<String, RemoteObject>,
+    /// Objects carrying a provider-specific deterministic ownership marker.
+    /// These can be re-registered after a process crash between remote apply
+    /// and the local ownership checkpoint.
+    pub recovered: ManagedState,
+    pub warnings: Vec<String>,
+    pub conflicts: Vec<PlanAction>,
+}
+
+#[derive(Clone, Debug)]
+pub struct RemoteObject {
+    pub remote_id: String,
+    pub fingerprint: String,
+    pub exists: bool,
+}
+
+#[derive(Clone, Debug)]
+pub struct AdapterPlan {
+    pub preview: SyncPreview,
+    pub projection: PanelLinkProjection,
+    pub managed: ManagedState,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize)]
+pub struct ProjectedGroup {
+    pub source_id: String,
+    pub name: String,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize)]
+pub struct ProjectedLink {
+    pub sync_id: String,
+    pub group_source_id: String,
+    pub title: String,
+    pub url: String,
+    pub icon: Option<String>,
+}
+
+#[derive(Clone, Debug, Deserialize, Serialize)]
+pub struct PanelLinkProjection {
+    pub revision: String,
+    pub groups: Vec<ProjectedGroup>,
+    pub links: Vec<ProjectedLink>,
+    pub warnings: Vec<String>,
+}

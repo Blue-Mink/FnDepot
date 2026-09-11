@@ -1,1 +1,123 @@
-aW1wb3J0IHsKICBERUZBVUxUX0xPQ0FMRSwKICBpbnRlcnBvbGF0ZU1lc3NhZ2UsCiAgbm9ybWFsaXplTG9jYWxlLAogIHJlYWRNZXNzYWdlUGF0aCwKICB0eXBlIExvY2FsZUNvZGUsCiAgdHlwZSBNZXNzYWdlUGFyYW1zLAp9IGZyb20gIi4vY29yZSI7CgpleHBvcnQgdHlwZSBCcm93c2VySTE4blNjb3BlID0gImFkbWluIiB8ICJhdXRoIjsKZXhwb3J0IHR5cGUgU2NvcGVkTG9jYWxlTWVzc2FnZXMgPSBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPjsKZXhwb3J0IHR5cGUgTG9jYWxlTWVzc2FnZXNNb2R1bGUgPSB7CiAgZGVmYXVsdDogU2NvcGVkTG9jYWxlTWVzc2FnZXM7Cn07CmV4cG9ydCB0eXBlIExvY2FsZUxvYWRlck1hcCA9IFJlY29yZDwKICBMb2NhbGVDb2RlLAogICgpID0+IFByb21pc2U8TG9jYWxlTWVzc2FnZXNNb2R1bGU+Cj47Cgpjb25zdCBzY29wZWRMb2FkZXJzID0gbmV3IE1hcDxCcm93c2VySTE4blNjb3BlLCBMb2NhbGVMb2FkZXJNYXA+KCk7CmNvbnN0IGxvYWRlZE1lc3NhZ2VzID0gbmV3IE1hcDxzdHJpbmcsIFNjb3BlZExvY2FsZU1lc3NhZ2VzPigpOwpjb25zdCBwZW5kaW5nTG9hZHMgPSBuZXcgTWFwPHN0cmluZywgUHJvbWlzZTxTY29wZWRMb2NhbGVNZXNzYWdlcz4+KCk7CgpsZXQgYWN0aXZlU2NvcGU6IEJyb3dzZXJJMThuU2NvcGUgfCBudWxsID0gbnVsbDsKbGV0IGFjdGl2ZUxvY2FsZTogTG9jYWxlQ29kZSA9IERFRkFVTFRfTE9DQUxFOwoKY29uc3QgY2FjaGVLZXkgPSAoc2NvcGU6IEJyb3dzZXJJMThuU2NvcGUsIGxvY2FsZTogTG9jYWxlQ29kZSkgPT4KICBgJHtzY29wZX06JHtsb2NhbGV9YDsKCmV4cG9ydCBjb25zdCByZWdpc3RlclNjb3BlZExvY2FsZUxvYWRlcnMgPSAoCiAgc2NvcGU6IEJyb3dzZXJJMThuU2NvcGUsCiAgbG9hZGVyczogTG9jYWxlTG9hZGVyTWFwLAopID0+IHsKICBzY29wZWRMb2FkZXJzLnNldChzY29wZSwgbG9hZGVycyk7Cn07Cgpjb25zdCBnZXRTY29wZWRMb2NhbGVMb2FkZXJzID0gKHNjb3BlOiBCcm93c2VySTE4blNjb3BlKTogTG9jYWxlTG9hZGVyTWFwID0+IHsKICBjb25zdCBsb2FkZXJzID0gc2NvcGVkTG9hZGVycy5nZXQoc2NvcGUpOwogIGlmICghbG9hZGVycykgewogICAgdGhyb3cgbmV3IEVycm9yKGBbaTE4bl0gbm8gbG9jYWxlIGxvYWRlcnMgcmVnaXN0ZXJlZCBmb3Igc2NvcGUgIiR7c2NvcGV9ImApOwogIH0KICByZXR1cm4gbG9hZGVyczsKfTsKCmV4cG9ydCBjb25zdCBzZXRBY3RpdmVCcm93c2VyTG9jYWxlID0gKAogIHNjb3BlOiBCcm93c2VySTE4blNjb3BlLAogIGxvY2FsZTogTG9jYWxlQ29kZSwKKSA9PiB7CiAgYWN0aXZlU2NvcGUgPSBzY29wZTsKICBhY3RpdmVMb2NhbGUgPSBsb2NhbGU7Cn07CgpleHBvcnQgY29uc3QgZ2V0QWN0aXZlQnJvd3NlclNjb3BlID0gKCk6IEJyb3dzZXJJMThuU2NvcGUgPT4KICBhY3RpdmVTY29wZSA/PyAiYWRtaW4iOwoKZXhwb3J0IGNvbnN0IGdldEFjdGl2ZUJyb3dzZXJMb2NhbGUgPSAoKTogTG9jYWxlQ29kZSA9PiBhY3RpdmVMb2NhbGU7CgpleHBvcnQgY29uc3QgZ2V0TG9hZGVkU2NvcGVkTG9jYWxlTWVzc2FnZXMgPSAoCiAgc2NvcGU6IEJyb3dzZXJJMThuU2NvcGUsCiAgbG9jYWxlOiBMb2NhbGVDb2RlLAopOiBTY29wZWRMb2NhbGVNZXNzYWdlcyB8IG51bGwgPT4KICBsb2FkZWRNZXNzYWdlcy5nZXQoY2FjaGVLZXkoc2NvcGUsIGxvY2FsZSkpID8/IG51bGw7CgpleHBvcnQgY29uc3QgbG9hZFNjb3BlZExvY2FsZU1lc3NhZ2VzID0gYXN5bmMgKAogIHNjb3BlOiBCcm93c2VySTE4blNjb3BlLAogIGxvY2FsZTogTG9jYWxlQ29kZSwKKTogUHJvbWlzZTxTY29wZWRMb2NhbGVNZXNzYWdlcz4gPT4gewogIGNvbnN0IGtleSA9IGNhY2hlS2V5KHNjb3BlLCBsb2NhbGUpOwogIGNvbnN0IGxvYWRlZCA9IGxvYWRlZE1lc3NhZ2VzLmdldChrZXkpOwogIGlmIChsb2FkZWQpIHJldHVybiBsb2FkZWQ7CgogIGNvbnN0IHBlbmRpbmcgPSBwZW5kaW5nTG9hZHMuZ2V0KGtleSk7CiAgaWYgKHBlbmRpbmcpIHJldHVybiBwZW5kaW5nOwoKICBjb25zdCBsb2FkID0gZ2V0U2NvcGVkTG9jYWxlTG9hZGVycyhzY29wZSkKICAgIFtsb2NhbGVdKCkKICAgIC50aGVuKChtb2R1bGUpID0+IHsKICAgICAgbG9hZGVkTWVzc2FnZXMuc2V0KGtleSwgbW9kdWxlLmRlZmF1bHQpOwogICAgICByZXR1cm4gbW9kdWxlLmRlZmF1bHQ7CiAgICB9KQogICAgLmZpbmFsbHkoKCkgPT4gewogICAgICBwZW5kaW5nTG9hZHMuZGVsZXRlKGtleSk7CiAgICB9KTsKCiAgcGVuZGluZ0xvYWRzLnNldChrZXksIGxvYWQpOwogIHJldHVybiBsb2FkOwp9OwoKZXhwb3J0IGNvbnN0IGVuc3VyZVNjb3BlZExvY2FsZVJlYWR5ID0gYXN5bmMgKAogIHNjb3BlOiBCcm93c2VySTE4blNjb3BlLAogIGxvY2FsZTogTG9jYWxlQ29kZSwKKTogUHJvbWlzZTx2b2lkPiA9PiB7CiAgYXdhaXQgbG9hZFNjb3BlZExvY2FsZU1lc3NhZ2VzKHNjb3BlLCBsb2NhbGUpOwp9OwoKZXhwb3J0IGNvbnN0IGdldFNjb3BlZExvY2FsZU1lc3NhZ2VzID0gKAogIHNjb3BlOiBCcm93c2VySTE4blNjb3BlLAogIGxvY2FsZTogTG9jYWxlQ29kZSwKKTogUGFydGlhbDxSZWNvcmQ8TG9jYWxlQ29kZSwgU2NvcGVkTG9jYWxlTWVzc2FnZXM+PiA9PiB7CiAgY29uc3QgZW50cmllcyA9IFtsb2NhbGVdCiAgICAubWFwKChjb2RlKSA9PiBbY29kZSwgZ2V0TG9hZGVkU2NvcGVkTG9jYWxlTWVzc2FnZXMoc2NvcGUsIGNvZGUpXSBhcyBjb25zdCkKICAgIC5maWx0ZXIoKGVudHJ5KTogZW50cnkgaXMgcmVhZG9ubHkgW0xvY2FsZUNvZGUsIFNjb3BlZExvY2FsZU1lc3NhZ2VzXSA9PgogICAgICBCb29sZWFuKGVudHJ5WzFdKSwKICAgICk7CgogIHJldHVybiBPYmplY3QuZnJvbUVudHJpZXMoZW50cmllcykgYXMgUGFydGlhbDwKICAgIFJlY29yZDxMb2NhbGVDb2RlLCBTY29wZWRMb2NhbGVNZXNzYWdlcz4KICA+Owp9OwoKZXhwb3J0IGNvbnN0IHRyYW5zbGF0ZUxvYWRlZEJyb3dzZXJNZXNzYWdlID0gKAogIGtleTogc3RyaW5nLAogIHBhcmFtcz86IE1lc3NhZ2VQYXJhbXMsCiAgbG9jYWxlVmFsdWU/OiBzdHJpbmcgfCBudWxsLAopOiBzdHJpbmcgPT4gewogIGNvbnN0IHNjb3BlID0gZ2V0QWN0aXZlQnJvd3NlclNjb3BlKCk7CiAgY29uc3QgbG9jYWxlID0gbm9ybWFsaXplTG9jYWxlKGxvY2FsZVZhbHVlKSA/PyBnZXRBY3RpdmVCcm93c2VyTG9jYWxlKCk7CiAgY29uc3QgdmFsdWUgPQogICAgcmVhZE1lc3NhZ2VQYXRoKGdldExvYWRlZFNjb3BlZExvY2FsZU1lc3NhZ2VzKHNjb3BlLCBsb2NhbGUpLCBrZXkpID8/CiAgICByZWFkTWVzc2FnZVBhdGgoZ2V0TG9hZGVkU2NvcGVkTG9jYWxlTWVzc2FnZXMoc2NvcGUsIERFRkFVTFRfTE9DQUxFKSwga2V5KTsKICBpZiAodHlwZW9mIHZhbHVlICE9PSAic3RyaW5nIikgcmV0dXJuIGtleTsKICByZXR1cm4gaW50ZXJwb2xhdGVNZXNzYWdlKHZhbHVlLCBwYXJhbXMpOwp9Owo=
+import {
+  DEFAULT_LOCALE,
+  interpolateMessage,
+  normalizeLocale,
+  readMessagePath,
+  type LocaleCode,
+  type MessageParams,
+} from "./core";
+
+export type BrowserI18nScope = "admin" | "auth";
+export type ScopedLocaleMessages = Record<string, unknown>;
+export type LocaleMessagesModule = {
+  default: ScopedLocaleMessages;
+};
+export type LocaleLoaderMap = Record<
+  LocaleCode,
+  () => Promise<LocaleMessagesModule>
+>;
+
+const scopedLoaders = new Map<BrowserI18nScope, LocaleLoaderMap>();
+const loadedMessages = new Map<string, ScopedLocaleMessages>();
+const pendingLoads = new Map<string, Promise<ScopedLocaleMessages>>();
+
+let activeScope: BrowserI18nScope | null = null;
+let activeLocale: LocaleCode = DEFAULT_LOCALE;
+
+const cacheKey = (scope: BrowserI18nScope, locale: LocaleCode) =>
+  `${scope}:${locale}`;
+
+export const registerScopedLocaleLoaders = (
+  scope: BrowserI18nScope,
+  loaders: LocaleLoaderMap,
+) => {
+  scopedLoaders.set(scope, loaders);
+};
+
+const getScopedLocaleLoaders = (scope: BrowserI18nScope): LocaleLoaderMap => {
+  const loaders = scopedLoaders.get(scope);
+  if (!loaders) {
+    throw new Error(`[i18n] no locale loaders registered for scope "${scope}"`);
+  }
+  return loaders;
+};
+
+export const setActiveBrowserLocale = (
+  scope: BrowserI18nScope,
+  locale: LocaleCode,
+) => {
+  activeScope = scope;
+  activeLocale = locale;
+};
+
+export const getActiveBrowserScope = (): BrowserI18nScope =>
+  activeScope ?? "admin";
+
+export const getActiveBrowserLocale = (): LocaleCode => activeLocale;
+
+export const getLoadedScopedLocaleMessages = (
+  scope: BrowserI18nScope,
+  locale: LocaleCode,
+): ScopedLocaleMessages | null =>
+  loadedMessages.get(cacheKey(scope, locale)) ?? null;
+
+export const loadScopedLocaleMessages = async (
+  scope: BrowserI18nScope,
+  locale: LocaleCode,
+): Promise<ScopedLocaleMessages> => {
+  const key = cacheKey(scope, locale);
+  const loaded = loadedMessages.get(key);
+  if (loaded) return loaded;
+
+  const pending = pendingLoads.get(key);
+  if (pending) return pending;
+
+  const load = getScopedLocaleLoaders(scope)
+    [locale]()
+    .then((module) => {
+      loadedMessages.set(key, module.default);
+      return module.default;
+    })
+    .finally(() => {
+      pendingLoads.delete(key);
+    });
+
+  pendingLoads.set(key, load);
+  return load;
+};
+
+export const ensureScopedLocaleReady = async (
+  scope: BrowserI18nScope,
+  locale: LocaleCode,
+): Promise<void> => {
+  await loadScopedLocaleMessages(scope, locale);
+};
+
+export const getScopedLocaleMessages = (
+  scope: BrowserI18nScope,
+  locale: LocaleCode,
+): Partial<Record<LocaleCode, ScopedLocaleMessages>> => {
+  const entries = [locale]
+    .map((code) => [code, getLoadedScopedLocaleMessages(scope, code)] as const)
+    .filter((entry): entry is readonly [LocaleCode, ScopedLocaleMessages] =>
+      Boolean(entry[1]),
+    );
+
+  return Object.fromEntries(entries) as Partial<
+    Record<LocaleCode, ScopedLocaleMessages>
+  >;
+};
+
+export const translateLoadedBrowserMessage = (
+  key: string,
+  params?: MessageParams,
+  localeValue?: string | null,
+): string => {
+  const scope = getActiveBrowserScope();
+  const locale = normalizeLocale(localeValue) ?? getActiveBrowserLocale();
+  const value =
+    readMessagePath(getLoadedScopedLocaleMessages(scope, locale), key) ??
+    readMessagePath(getLoadedScopedLocaleMessages(scope, DEFAULT_LOCALE), key);
+  if (typeof value !== "string") return key;
+  return interpolateMessage(value, params);
+};

@@ -1,1 +1,87 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCldPUktGTE9XX0RJUj0iJHtST09UX0RJUn0vLmdpdGh1Yi93b3JrZmxvd3MiCgpmYWlsKCkgewogIHByaW50ZiAnW3Rlc3Qtd29ya2Zsb3ctYWN0aW9uLXBpbnNdIEVSUk9SOiAlc1xuJyAiJCoiID4mMgogIGV4aXQgMQp9Cgphc3NlcnRfYWN0aW9uX3BpbigpIHsKICBsb2NhbCBhY3Rpb249IiQxIgogIGxvY2FsIGV4cGVjdGVkX3NoYT0iJDIiCiAgbG9jYWwgZXhwZWN0ZWRfdmVyc2lvbj0iJDMiCiAgbG9jYWwgY2FsbHMKICBsb2NhbCB1bmV4cGVjdGVkCgogIGNhbGxzPSIkKGdyZXAgLVJIbkYgInVzZXM6ICR7YWN0aW9ufUAiICIke1dPUktGTE9XX0RJUn0iIHx8IHRydWUpIgogIFsgLW4gIiR7Y2FsbHN9IiBdIHx8IGZhaWwgIm5vIHdvcmtmbG93IHVzZXMgJHthY3Rpb259IgoKICB1bmV4cGVjdGVkPSIkKAogICAgcHJpbnRmICclc1xuJyAiJHtjYWxsc30iIHwKICAgICAgZ3JlcCAtdkYgInVzZXM6ICR7YWN0aW9ufUAke2V4cGVjdGVkX3NoYX0gIyAke2V4cGVjdGVkX3ZlcnNpb259IiB8fCB0cnVlCiAgKSIKICBbIC16ICIke3VuZXhwZWN0ZWR9IiBdIHx8IFwKICAgIGZhaWwgIiR7YWN0aW9ufSBtdXN0IGJlIHBpbm5lZCB0byAke2V4cGVjdGVkX3ZlcnNpb259ICgke2V4cGVjdGVkX3NoYX0pOiAke3VuZXhwZWN0ZWR9Igp9Cgphc3NlcnRfYWN0aW9uX3BpbiBcCiAgImFjdGlvbnMvY2hlY2tvdXQiIFwKICAiZGUwZmFjMmU0NTAwZGFiZTAwMDllNjcyMTRmZjVmNTQ0N2NlODNkZCIgXAogICJ2Ni4wLjIiCmFzc2VydF9hY3Rpb25fcGluIFwKICAiYWN0aW9ucy91cGxvYWQtYXJ0aWZhY3QiIFwKICAiMDQzZmI0NmQxYTkzYzc3YWFlNjU2ZTdjMWM2NGE4NzVkMWZjNmEwYSIgXAogICJ2Ny4wLjEiCmFzc2VydF9hY3Rpb25fcGluIFwKICAiYWN0aW9ucy9kb3dubG9hZC1hcnRpZmFjdCIgXAogICIzZTVmNDViMmNmYjkxNzIwNTRiNDA4N2E0MGU4ZTBiNWE1NDYxZTdjIiBcCiAgInY4LjAuMSIKYXNzZXJ0X2FjdGlvbl9waW4gXAogICJhY3Rpb25zL3NldHVwLW5vZGUiIFwKICAiMjQ5OTcwNzI5Y2IwZWYzNTg5NjQ0ZTI4OTY2NDVlNWRjNWJhOWMzOCIgXAogICJ2Ni41LjAiCmFzc2VydF9hY3Rpb25fcGluIFwKICAiU3dhdGluZW0vcnVzdC1jYWNoZSIgXAogICIyMzg2OWE1YmQ2NmM3M2RiM2MwYWM0MDMzMWYzMjA2ZWIyMzc5MWRjIiBcCiAgInYyLjkuMSIKYXNzZXJ0X2FjdGlvbl9waW4gXAogICJkb2NrZXIvc2V0dXAtcWVtdS1hY3Rpb24iIFwKICAiOTZmZTZlZjdmMzM1MTdiNjFjNjFiZTQwYjY4YTE4ODJmMzI2NGZiOCIgXAogICJ2NC4yLjAiCmFzc2VydF9hY3Rpb25fcGluIFwKICAiZG9ja2VyL3NldHVwLWJ1aWxkeC1hY3Rpb24iIFwKICAiYmIwNWYzZjU1MTlkZDg3ZDNiYTc1NGNjNDIzYjY1MmE1ZWRkNmQyYyIgXAogICJ2NC4yLjAiCmFzc2VydF9hY3Rpb25fcGluIFwKICAiZG9ja2VyL2xvZ2luLWFjdGlvbiIgXAogICJhZjFlNzNmOTE4YTAzMTgwMmQzNzZkM2M4YmJjM2ZlNTYxMzBhOWIwIiBcCiAgInY0LjQuMCIKYXNzZXJ0X2FjdGlvbl9waW4gXAogICJkb2NrZXIvYnVpbGQtcHVzaC1hY3Rpb24iIFwKICAiNTNiN2RmOTZjOTFmOWMxMmRjYzhhMDdiY2I5Y2NhY2JlZDM4ODU2YSIgXAogICJ2Ny4zLjAiCmFzc2VydF9hY3Rpb25fcGluIFwKICAiYWN0aW9ucy9hdHRlc3QtYnVpbGQtcHJvdmVuYW5jZSIgXAogICIwZjY3YzNmNDg1NmIyZTMyNjFjMzE5NzZkNjcyNTc4MGU1ZTRjMzczIiBcCiAgInY0LjEuMSIKCmlmIGdyZXAgLVJIRnEgXAogIC1lICJ1c2VzOiBhcmR1aW5vL3NldHVwLXByb3RvY0AiIFwKICAtZSAidXNlczogbWx1Z2cvc2V0dXAtemlnQCIgXAogICIke1dPUktGTE9XX0RJUn0iOyB0aGVuCiAgZmFpbCAid29ya2Zsb3cgc3RpbGwgdXNlcyBhIE5vZGUuanMgMjAgc2V0dXAgYWN0aW9uIgpmaQoKZ3JlcCAtRnEgXAogICdQUk9UT0NfTElOVVhfWDg2XzY0X1NIQTI1NjogIjY5MzBlYmY2MmJkNGVhNjA3Yjk4ZmZmMDUyNTk2YzZlZTU2NGI5ODM1YjRjZTE3MmM3NWEzZjUzYWU5ZDkxYjciJyBcCiAgIiR7V09SS0ZMT1dfRElSfS9yZWxlYXNlLnltbCIgfHwKICBmYWlsICJwcm90b2MgMzUuMSBjaGVja3N1bSBpcyBub3QgcGlubmVkIgpncmVwIC1GcSBcCiAgJ1pJR19MSU5VWF9YODZfNjRfU0hBMjU2OiAiNzBlNDk2NjRhNzQzNzRiNDhiNTFlNmYzZmRmYmY0MzdmNjM5NWQ0MjUwOTA1MDU4OGJkNDlhYmU1MmJhM2QwMCInIFwKICAiJHtXT1JLRkxPV19ESVJ9L3JlbGVhc2UueW1sIiB8fAogIGZhaWwgIlppZyAwLjE2LjAgY2hlY2tzdW0gaXMgbm90IHBpbm5lZCIKCnByaW50ZiAnW3Rlc3Qtd29ya2Zsb3ctYWN0aW9uLXBpbnNdIE5vZGUuanMgMjQgYWN0aW9uIHBpbnMgcGFzc2VkXG4nCg==
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+WORKFLOW_DIR="${ROOT_DIR}/.github/workflows"
+
+fail() {
+  printf '[test-workflow-action-pins] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+assert_action_pin() {
+  local action="$1"
+  local expected_sha="$2"
+  local expected_version="$3"
+  local calls
+  local unexpected
+
+  calls="$(grep -RHnF "uses: ${action}@" "${WORKFLOW_DIR}" || true)"
+  [ -n "${calls}" ] || fail "no workflow uses ${action}"
+
+  unexpected="$(
+    printf '%s\n' "${calls}" |
+      grep -vF "uses: ${action}@${expected_sha} # ${expected_version}" || true
+  )"
+  [ -z "${unexpected}" ] || \
+    fail "${action} must be pinned to ${expected_version} (${expected_sha}): ${unexpected}"
+}
+
+assert_action_pin \
+  "actions/checkout" \
+  "de0fac2e4500dabe0009e67214ff5f5447ce83dd" \
+  "v6.0.2"
+assert_action_pin \
+  "actions/upload-artifact" \
+  "043fb46d1a93c77aae656e7c1c64a875d1fc6a0a" \
+  "v7.0.1"
+assert_action_pin \
+  "actions/download-artifact" \
+  "3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c" \
+  "v8.0.1"
+assert_action_pin \
+  "actions/setup-node" \
+  "249970729cb0ef3589644e2896645e5dc5ba9c38" \
+  "v6.5.0"
+assert_action_pin \
+  "Swatinem/rust-cache" \
+  "23869a5bd66c73db3c0ac40331f3206eb23791dc" \
+  "v2.9.1"
+assert_action_pin \
+  "docker/setup-qemu-action" \
+  "96fe6ef7f33517b61c61be40b68a1882f3264fb8" \
+  "v4.2.0"
+assert_action_pin \
+  "docker/setup-buildx-action" \
+  "bb05f3f5519dd87d3ba754cc423b652a5edd6d2c" \
+  "v4.2.0"
+assert_action_pin \
+  "docker/login-action" \
+  "af1e73f918a031802d376d3c8bbc3fe56130a9b0" \
+  "v4.4.0"
+assert_action_pin \
+  "docker/build-push-action" \
+  "53b7df96c91f9c12dcc8a07bcb9ccacbed38856a" \
+  "v7.3.0"
+assert_action_pin \
+  "actions/attest-build-provenance" \
+  "0f67c3f4856b2e3261c31976d6725780e5e4c373" \
+  "v4.1.1"
+
+if grep -RHFq \
+  -e "uses: arduino/setup-protoc@" \
+  -e "uses: mlugg/setup-zig@" \
+  "${WORKFLOW_DIR}"; then
+  fail "workflow still uses a Node.js 20 setup action"
+fi
+
+grep -Fq \
+  'PROTOC_LINUX_X86_64_SHA256: "6930ebf62bd4ea607b98fff052596c6ee564b9835b4ce172c75a3f53ae9d91b7"' \
+  "${WORKFLOW_DIR}/release.yml" ||
+  fail "protoc 35.1 checksum is not pinned"
+grep -Fq \
+  'ZIG_LINUX_X86_64_SHA256: "70e49664a74374b48b51e6f3fdfbf437f6395d42509050588bd49abe52ba3d00"' \
+  "${WORKFLOW_DIR}/release.yml" ||
+  fail "Zig 0.16.0 checksum is not pinned"
+
+printf '[test-workflow-action-pins] Node.js 24 action pins passed\n'

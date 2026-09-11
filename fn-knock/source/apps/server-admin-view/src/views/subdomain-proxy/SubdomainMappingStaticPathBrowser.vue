@@ -1,1 +1,345 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCB0eXBlIFVud3JhcE5lc3RlZFJlZnMgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgewogIENoZXZyb25MZWZ0LAogIENoZXZyb25SaWdodCwKICBDb3JuZXJEb3duTGVmdCwKICBGaWxlLAogIEZvbGRlciwKICBGb2xkZXJSb290LAogIExvYWRlcjIsCiAgUmVmcmVzaEN3LAogIFJvdGF0ZUNjdywKICBUcmlhbmdsZUFsZXJ0LAp9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsgdXNlQ29uZmlnU3RvcmUgfSBmcm9tICJAL3N0b3JlL2NvbmZpZyI7CmltcG9ydCB0eXBlIHsgU3RhdGljUGF0aEJyb3dzZUVudHJ5IH0gZnJvbSAiQC9saWIvYXBpL2NvbmZpZyI7CmltcG9ydCB0eXBlIHsgdXNlU3RhdGljUGF0aEJyb3dzZXIgfSBmcm9tICIuL3VzZVN0YXRpY1BhdGhCcm93c2VyIjsKCmNvbnN0IHsgZWRpdG9yLCBoaW50IH0gPSBkZWZpbmVQcm9wczx7CiAgaGludD86IHN0cmluZzsKICBlZGl0b3I6IFVud3JhcE5lc3RlZFJlZnM8UmV0dXJuVHlwZTx0eXBlb2YgdXNlU3RhdGljUGF0aEJyb3dzZXI+PjsKfT4oKTsKY29uc3QgeyBsb2NhbGUsIHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgY29uZmlnU3RvcmUgPSB1c2VDb25maWdTdG9yZSgpOwoKY29uc3QgYnJvd3NlclBhdGhMYWJlbCA9IGNvbXB1dGVkKAogICgpID0+CiAgICBlZGl0b3IuY3VycmVudFBhdGggPz8KICAgIHQoImFkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLmJyb3dzZXIucm9vdExvY2F0aW9uIiksCik7Cgpjb25zdCBmb3JtYXRTaXplID0gKHNpemU6IG51bWJlciB8IG51bGwpID0+IHsKICBpZiAoc2l6ZSA9PT0gbnVsbCkgcmV0dXJuICLigJQiOwogIGlmICghTnVtYmVyLmlzRmluaXRlKHNpemUpIHx8IHNpemUgPCAwKSByZXR1cm4gIuKAlCI7CiAgY29uc3QgdW5pdHMgPSBbIkIiLCAiS0IiLCAiTUIiLCAiR0IiLCAiVEIiXTsKICBjb25zdCBleHBvbmVudCA9CiAgICBzaXplID09PSAwCiAgICAgID8gMAogICAgICA6IE1hdGgubWluKHVuaXRzLmxlbmd0aCAtIDEsIE1hdGguZmxvb3IoTWF0aC5sb2coc2l6ZSkgLyBNYXRoLmxvZygxMDI0KSkpOwogIHJldHVybiBgJHtuZXcgSW50bC5OdW1iZXJGb3JtYXQoU3RyaW5nKGxvY2FsZS52YWx1ZSksIHsKICAgIG1heGltdW1GcmFjdGlvbkRpZ2l0czogZXhwb25lbnQgPT09IDAgPyAwIDogMSwKICB9KS5mb3JtYXQoc2l6ZSAvIDEwMjQgKiogZXhwb25lbnQpfSAke3VuaXRzW2V4cG9uZW50XX1gOwp9OwoKY29uc3QgZm9ybWF0TW9kaWZpZWQgPSAodmFsdWU6IHN0cmluZyB8IG51bGwpID0+IHsKICBpZiAoIXZhbHVlKSByZXR1cm4gIuKAlCI7CiAgY29uc3QgZGF0ZSA9IG5ldyBEYXRlKHZhbHVlKTsKICBpZiAoTnVtYmVyLmlzTmFOKGRhdGUuZ2V0VGltZSgpKSkgcmV0dXJuICLigJQiOwogIHJldHVybiBuZXcgSW50bC5EYXRlVGltZUZvcm1hdChTdHJpbmcobG9jYWxlLnZhbHVlKSwgewogICAgZGF0ZVN0eWxlOiAic2hvcnQiLAogICAgdGltZVN0eWxlOiAic2hvcnQiLAogIH0pLmZvcm1hdChkYXRlKTsKfTsKCmNvbnN0IGlzRW50cnlEaXNhYmxlZCA9IChlbnRyeTogU3RhdGljUGF0aEJyb3dzZUVudHJ5KSA9PgogICEoCiAgICAoZW50cnkuZW50cnlfdHlwZSA9PT0gImRpcmVjdG9yeSIgJiYgZW50cnkubmF2aWdhYmxlKSB8fAogICAgKGVkaXRvci50YXJnZXRUeXBlID09PSAiZmlsZSIgJiYKICAgICAgZW50cnkuZW50cnlfdHlwZSA9PT0gImZpbGUiICYmCiAgICAgIGVudHJ5LnNlbGVjdGFibGUpCiAgKTsKY29uc3QgZW50cnlBcmlhTGFiZWwgPSAoZW50cnk6IFN0YXRpY1BhdGhCcm93c2VFbnRyeSkgPT4KICB0KAogICAgZW50cnkuZW50cnlfdHlwZSA9PT0gImRpcmVjdG9yeSIKICAgICAgPyAiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUuYnJvd3Nlci5vcGVuRGlyZWN0b3J5QXJpYSIKICAgICAgOiAiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUuYnJvd3Nlci5zZWxlY3RGaWxlQXJpYSIsCiAgICB7IG5hbWU6IGVudHJ5Lm5hbWUgfSwKICApOwpjb25zdCBoYW5kbGVQYXRoRW50ZXIgPSAoZXZlbnQ6IEtleWJvYXJkRXZlbnQpID0+IHsKICBpZiAoZXZlbnQuaXNDb21wb3NpbmcgfHwgZXZlbnQua2V5Q29kZSA9PT0gMjI5KSByZXR1cm47CiAgZXZlbnQucHJldmVudERlZmF1bHQoKTsKICB2b2lkIGVkaXRvci5uYXZpZ2F0ZVRvUGF0aCgpOwp9Owo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJzcGFjZS15LTQgcGItNSBwdC01IiBkYXRhLXRlc3RpZD0ic3RhdGljLXBhdGgtYnJvd3NlciI+CiAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEiPgogICAgICA8cCBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIHt7IGhpbnQgPz8gdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUuYnJvd3Nlci5oaW50IikgfX0KICAgICAgPC9wPgogICAgICA8cAogICAgICAgIHYtaWY9ImNvbmZpZ1N0b3JlLmlzRG9ja2VyRGVwbG95bWVudCIKICAgICAgICBjbGFzcz0idGV4dC14cyBsZWFkaW5nLTUgdGV4dC1hbWJlci03MDAgZGFyazp0ZXh0LWFtYmVyLTMwMCIKICAgICAgPgogICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLmJyb3dzZXIuZG9ja2VySGludCIpIH19CiAgICAgIDwvcD4KICAgIDwvZGl2PgoKICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiByb3VuZGVkLWxnIGJvcmRlciBiZy1tdXRlZC8xMCBwLTMiPgogICAgICA8Zm9ybSBjbGFzcz0ic3BhY2UteS0xLjUiIEBzdWJtaXQucHJldmVudD0iZWRpdG9yLm5hdmlnYXRlVG9QYXRoIj4KICAgICAgICA8TGFiZWwgZm9yPSJzdGF0aWMtcGF0aC1icm93c2VyLWFkZHJlc3MiIGNsYXNzPSJ0ZXh0LXhzIj4KICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLnBhdGhMYWJlbCIpIH19CiAgICAgICAgPC9MYWJlbD4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IG1pbi13LTAgZ2FwLTIiPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIGlkPSJzdGF0aWMtcGF0aC1icm93c2VyLWFkZHJlc3MiCiAgICAgICAgICAgIDptb2RlbC12YWx1ZT0iZWRpdG9yLnBhdGhEcmFmdCIKICAgICAgICAgICAgY2xhc3M9Im1pbi13LTAgZm9udC1tb25vIgogICAgICAgICAgICBhdXRvY29tcGxldGU9Im9mZiIKICAgICAgICAgICAgYXV0b2NhcGl0YWxpemU9Im5vbmUiCiAgICAgICAgICAgIHNwZWxsY2hlY2s9ImZhbHNlIgogICAgICAgICAgICA6cGxhY2Vob2xkZXI9IgogICAgICAgICAgICAgIHQoJ2FkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLmJyb3dzZXIucm9vdExvY2F0aW9uJykKICAgICAgICAgICAgIgogICAgICAgICAgICBhcmlhLWRlc2NyaWJlZGJ5PSJzdGF0aWMtcGF0aC1icm93c2VyLWFkZHJlc3MtaGludCIKICAgICAgICAgICAgOmFyaWEtaW52YWxpZD0iQm9vbGVhbihlZGl0b3IubG9hZEVycm9yKSIKICAgICAgICAgICAgOmFyaWEtZXJyb3JtZXNzYWdlPSIKICAgICAgICAgICAgICBlZGl0b3IubG9hZEVycm9yID8gJ3N0YXRpYy1wYXRoLWJyb3dzZXItbG9hZC1lcnJvcicgOiB1bmRlZmluZWQKICAgICAgICAgICAgIgogICAgICAgICAgICBAa2V5ZG93bi5lbnRlcj0iaGFuZGxlUGF0aEVudGVyIgogICAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJlZGl0b3IudXBkYXRlUGF0aERyYWZ0IgogICAgICAgICAgLz4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdHlwZT0ic3VibWl0IgogICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgdmFyaWFudD0ic2Vjb25kYXJ5IgogICAgICAgICAgICBjbGFzcz0ic2hyaW5rLTAiCiAgICAgICAgICAgIGRhdGEtdGVzdGlkPSJuYXZpZ2F0ZS1zdGF0aWMtcGF0aCIKICAgICAgICAgID4KICAgICAgICAgICAgPExvYWRlcjIKICAgICAgICAgICAgICB2LWlmPSJlZGl0b3IuaXNMb2FkaW5nIgogICAgICAgICAgICAgIGNsYXNzPSJtci0xLjUgaC00IHctNCBhbmltYXRlLXNwaW4iCiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDxDb3JuZXJEb3duTGVmdCB2LWVsc2UgY2xhc3M9Im1yLTEuNSBoLTQgdy00IiAvPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdGF0aWNTZXJ2ZS5icm93c2VyLm5hdmlnYXRlIikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICAgIDxwCiAgICAgICAgICBpZD0ic3RhdGljLXBhdGgtYnJvd3Nlci1hZGRyZXNzLWhpbnQiCiAgICAgICAgICBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUuYnJvd3Nlci5wYXRoSW5wdXRIaW50IikgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZm9ybT4KCiAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgOmRpc2FibGVkPSJlZGl0b3IuaXNMb2FkaW5nIgogICAgICAgICAgQGNsaWNrPSJlZGl0b3IubmF2aWdhdGVSb290IgogICAgICAgID4KICAgICAgICAgIDxGb2xkZXJSb290IGNsYXNzPSJtci0xLjUgaC00IHctNCIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLmJyb3dzZXIucm9vdCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgOmRpc2FibGVkPSJlZGl0b3IuaXNMb2FkaW5nIHx8IGVkaXRvci5wYXJlbnRQYXRoID09PSBudWxsIgogICAgICAgICAgQGNsaWNrPSJlZGl0b3IubmF2aWdhdGVQYXJlbnQiCiAgICAgICAgPgogICAgICAgICAgPENoZXZyb25MZWZ0IGNsYXNzPSJtci0xLjUgaC00IHctNCIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLmJyb3dzZXIucGFyZW50IikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICBzaXplPSJpY29uIgogICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICBjbGFzcz0ibWwtYXV0byBoLTggdy04IgogICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLmJyb3dzZXIucmVmcmVzaCcpIgogICAgICAgICAgOmRpc2FibGVkPSJlZGl0b3IuaXNMb2FkaW5nIgogICAgICAgICAgQGNsaWNrPSJlZGl0b3IucmVmcmVzaCIKICAgICAgICA+CiAgICAgICAgICA8UmVmcmVzaEN3IGNsYXNzPSJoLTQgdy00IiAvPgogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KCiAgICAgIDxuYXYKICAgICAgICBjbGFzcz0iZmxleCBtaW4tdy0wIGl0ZW1zLWNlbnRlciBnYXAtMSBvdmVyZmxvdy14LWF1dG8gcGItMSB0ZXh0LXNtIgogICAgICAgIDphcmlhLWxhYmVsPSIKICAgICAgICAgIHQoJ2FkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLmJyb3dzZXIuYnJlYWRjcnVtYnNBcmlhJykKICAgICAgICAiCiAgICAgID4KICAgICAgICA8dGVtcGxhdGUKICAgICAgICAgIHYtZm9yPSIoYnJlYWRjcnVtYiwgaW5kZXgpIGluIGVkaXRvci5icmVhZGNydW1icyIKICAgICAgICAgIDprZXk9ImAke2JyZWFkY3J1bWIucGF0aH0tJHtpbmRleH1gIgogICAgICAgID4KICAgICAgICAgIDxDaGV2cm9uUmlnaHQgdi1pZj0iaW5kZXggPiAwIiBjbGFzcz0iaC0zLjUgdy0zLjUgc2hyaW5rLTAiIC8+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgY2xhc3M9Im1heC13LTQ4IHNocmluay0wIHRydW5jYXRlIHJvdW5kZWQgcHgtMS41IHB5LTEgZm9udC1tb25vIHRleHQteHMgaG92ZXI6YmctYWNjZW50IGZvY3VzLXZpc2libGU6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0yIGZvY3VzLXZpc2libGU6cmluZy1yaW5nIGRpc2FibGVkOnRleHQtZm9yZWdyb3VuZCBkaXNhYmxlZDpvcGFjaXR5LTEwMCIKICAgICAgICAgICAgOmRpc2FibGVkPSIKICAgICAgICAgICAgICBlZGl0b3IuaXNMb2FkaW5nIHx8IGJyZWFkY3J1bWIucGF0aCA9PT0gZWRpdG9yLmN1cnJlbnRQYXRoCiAgICAgICAgICAgICIKICAgICAgICAgICAgOnRpdGxlPSJicmVhZGNydW1iLnBhdGgiCiAgICAgICAgICAgIEBjbGljaz0iZWRpdG9yLm5hdmlnYXRlQnJlYWRjcnVtYihicmVhZGNydW1iLnBhdGgpIgogICAgICAgICAgPgogICAgICAgICAgICB7eyBicmVhZGNydW1iLm5hbWUgfX0KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgPHNwYW4KICAgICAgICAgIHYtaWY9ImVkaXRvci5icmVhZGNydW1icy5sZW5ndGggPT09IDAiCiAgICAgICAgICBjbGFzcz0idHJ1bmNhdGUgZm9udC1tb25vIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgOnRpdGxlPSJicm93c2VyUGF0aExhYmVsIgogICAgICAgID4KICAgICAgICAgIHt7IGJyb3dzZXJQYXRoTGFiZWwgfX0KICAgICAgICA8L3NwYW4+CiAgICAgIDwvbmF2PgogICAgPC9kaXY+CgogICAgPGRpdgogICAgICBjbGFzcz0icmVsYXRpdmUgbWluLWgtNTYgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbGcgYm9yZGVyIGJnLWJhY2tncm91bmQiCiAgICAgIDphcmlhLWJ1c3k9ImVkaXRvci5pc0xvYWRpbmciCiAgICA+CiAgICAgIDxkaXYKICAgICAgICBjbGFzcz0iZ3JpZCBncmlkLWNvbHMtW21pbm1heCgwLDFmcilfNnJlbV8xMHJlbV0gYm9yZGVyLWIgYmctbXV0ZWQvNDAgcHgtMyBweS0yIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1heC1zbTpncmlkLWNvbHMtMSIKICAgICAgPgogICAgICAgIDxzcGFuPnt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLmJyb3dzZXIubmFtZSIpIH19PC9zcGFuPgogICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LXJpZ2h0IG1heC1zbTpoaWRkZW4iPgogICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhdGljU2VydmUuYnJvd3Nlci5zaXplIikgfX0KICAgICAgICA8L3NwYW4+CiAgICAgICAgPHNwYW4gY2xhc3M9InRleHQtcmlnaHQgbWF4LXNtOmhpZGRlbiI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdGF0aWNTZXJ2ZS5icm93c2VyLm1vZGlmaWVkIikgfX0KICAgICAgICA8L3NwYW4+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdgogICAgICAgIHYtaWY9ImVkaXRvci5pc0xvYWRpbmcgJiYgIWVkaXRvci5yZXN1bHQiCiAgICAgICAgY2xhc3M9ImZsZXggbWluLWgtNDggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgIHJvbGU9InN0YXR1cyIKICAgICAgPgogICAgICAgIDxMb2FkZXIyIGNsYXNzPSJoLTQgdy00IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdGF0aWNTZXJ2ZS5icm93c2VyLmxvYWRpbmciKSB9fQogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYKICAgICAgICB2LWVsc2UtaWY9ImVkaXRvci5sb2FkRXJyb3IiCiAgICAgICAgY2xhc3M9ImZsZXggbWluLWgtNDggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0zIHB4LTYgcHktOCB0ZXh0LWNlbnRlciIKICAgICAgICByb2xlPSJhbGVydCIKICAgICAgPgogICAgICAgIDxUcmlhbmdsZUFsZXJ0IGNsYXNzPSJoLTYgdy02IHRleHQtZGVzdHJ1Y3RpdmUiIC8+CiAgICAgICAgPHAKICAgICAgICAgIGlkPSJzdGF0aWMtcGF0aC1icm93c2VyLWxvYWQtZXJyb3IiCiAgICAgICAgICBjbGFzcz0ibWF4LXctbWQgdGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgID4KICAgICAgICAgIHt7IGVkaXRvci5sb2FkRXJyb3IgfX0KICAgICAgICA8L3A+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgQGNsaWNrPSJlZGl0b3IubmF2aWdhdGVUb1BhdGgiCiAgICAgICAgPgogICAgICAgICAgPFJvdGF0ZUNjdyBjbGFzcz0ibXItMS41IGgtNCB3LTQiIC8+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdGF0aWNTZXJ2ZS5icm93c2VyLnJldHJ5IikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2CiAgICAgICAgdi1lbHNlLWlmPSJlZGl0b3IuZW50cmllcy5sZW5ndGggPT09IDAiCiAgICAgICAgY2xhc3M9ImZsZXggbWluLWgtNDggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHB4LTYgdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgID4KICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdGF0aWNTZXJ2ZS5icm93c2VyLmVtcHR5IikgfX0KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IHYtZWxzZSBjbGFzcz0iZGl2aWRlLXkiIDpjbGFzcz0iZWRpdG9yLmlzTG9hZGluZyAmJiAnb3BhY2l0eS01MCciPgogICAgICAgIDxidXR0b24KICAgICAgICAgIHYtZm9yPSJlbnRyeSBpbiBlZGl0b3IuZW50cmllcyIKICAgICAgICAgIDprZXk9ImVudHJ5LnBhdGgiCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICBjbGFzcz0iZ3JpZCB3LWZ1bGwgZ3JpZC1jb2xzLVttaW5tYXgoMCwxZnIpXzZyZW1fMTByZW1dIGl0ZW1zLWNlbnRlciBweC0zIHB5LTIuNSB0ZXh0LWxlZnQgdGV4dC1zbSB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy1hY2NlbnQgZm9jdXMtdmlzaWJsZTpvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpyaW5nLTIgZm9jdXMtdmlzaWJsZTpyaW5nLWluc2V0IGZvY3VzLXZpc2libGU6cmluZy1yaW5nIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBkaXNhYmxlZDpvcGFjaXR5LTUwIG1heC1zbTpncmlkLWNvbHMtMSIKICAgICAgICAgIDpjbGFzcz0iCiAgICAgICAgICAgIGVkaXRvci5zZWxlY3Rpb25QYXRoID09PSBlbnRyeS5wYXRoICYmCiAgICAgICAgICAgICdiZy1wcmltYXJ5LzEwIHRleHQtcHJpbWFyeSBob3ZlcjpiZy1wcmltYXJ5LzE1JwogICAgICAgICAgIgogICAgICAgICAgOmRpc2FibGVkPSJlZGl0b3IuaXNMb2FkaW5nIHx8IGlzRW50cnlEaXNhYmxlZChlbnRyeSkiCiAgICAgICAgICA6YXJpYS1sYWJlbD0iZW50cnlBcmlhTGFiZWwoZW50cnkpIgogICAgICAgICAgOmFyaWEtcHJlc3NlZD0iCiAgICAgICAgICAgIGVudHJ5LmVudHJ5X3R5cGUgPT09ICdmaWxlJwogICAgICAgICAgICAgID8gZWRpdG9yLnNlbGVjdGlvblBhdGggPT09IGVudHJ5LnBhdGgKICAgICAgICAgICAgICA6IHVuZGVmaW5lZAogICAgICAgICAgIgogICAgICAgICAgQGNsaWNrPSJlZGl0b3IuYWN0aXZhdGVFbnRyeShlbnRyeSkiCiAgICAgICAgPgogICAgICAgICAgPHNwYW4gY2xhc3M9ImZsZXggbWluLXctMCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICA8Rm9sZGVyCiAgICAgICAgICAgICAgdi1pZj0iZW50cnkuZW50cnlfdHlwZSA9PT0gJ2RpcmVjdG9yeSciCiAgICAgICAgICAgICAgY2xhc3M9ImgtNCB3LTQgc2hyaW5rLTAgdGV4dC1hbWJlci02MDAiCiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDxGaWxlIHYtZWxzZSBjbGFzcz0iaC00IHctNCBzaHJpbmstMCB0ZXh0LW11dGVkLWZvcmVncm91bmQiIC8+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0cnVuY2F0ZSIgOnRpdGxlPSJlbnRyeS5wYXRoIj57eyBlbnRyeS5uYW1lIH19PC9zcGFuPgogICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPHNwYW4gY2xhc3M9InRleHQtcmlnaHQgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgbWF4LXNtOmhpZGRlbiI+CiAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgZW50cnkuZW50cnlfdHlwZSA9PT0gImRpcmVjdG9yeSIKICAgICAgICAgICAgICAgID8gIuKAlCIKICAgICAgICAgICAgICAgIDogZm9ybWF0U2l6ZShlbnRyeS5zaXplX2J5dGVzKQogICAgICAgICAgICB9fQogICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPHNwYW4gY2xhc3M9InRleHQtcmlnaHQgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgbWF4LXNtOmhpZGRlbiI+CiAgICAgICAgICAgIHt7IGZvcm1hdE1vZGlmaWVkKGVudHJ5Lm1vZGlmaWVkX2F0KSB9fQogICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYKICAgICAgICB2LWlmPSJlZGl0b3IucmVzdWx0IgogICAgICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMgYm9yZGVyLXQgYmctbXV0ZWQvMjAgcHgtMyBweS0yIgogICAgICA+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICAgIDpkaXNhYmxlZD0iZWRpdG9yLmlzTG9hZGluZyB8fCAhZWRpdG9yLnByZXZpb3VzQ3Vyc29yIgogICAgICAgICAgQGNsaWNrPSJlZGl0b3IubG9hZFByZXZpb3VzUGFnZSIKICAgICAgICA+CiAgICAgICAgICA8Q2hldnJvbkxlZnQgY2xhc3M9Im1yLTEgaC00IHctNCIgLz4KICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLmJyb3dzZXIucHJldmlvdXNQYWdlIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgOmRpc2FibGVkPSJlZGl0b3IuaXNMb2FkaW5nIHx8ICFlZGl0b3IubmV4dEN1cnNvciIKICAgICAgICAgIEBjbGljaz0iZWRpdG9yLmxvYWROZXh0UGFnZSIKICAgICAgICA+CiAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdGF0aWNTZXJ2ZS5icm93c2VyLm5leHRQYWdlIikgfX0KICAgICAgICAgIDxDaGV2cm9uUmlnaHQgY2xhc3M9Im1sLTEgaC00IHctNCIgLz4KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8ZGl2IGNsYXNzPSJzcGFjZS15LTEgdGV4dC14cyIgYXJpYS1saXZlPSJwb2xpdGUiPgogICAgICA8cCBjbGFzcz0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdGF0aWNTZXJ2ZS5icm93c2VyLnNlbGVjdGVkUGF0aCIpIH19CiAgICAgICAgPHNwYW4gY2xhc3M9ImJyZWFrLWFsbCBmb250LW1vbm8gdGV4dC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHt7CiAgICAgICAgICAgIGVkaXRvci5zZWxlY3Rpb25QYXRoID8/CiAgICAgICAgICAgIHQoImFkbWluLnN1YmRvbWFpblByb3h5LnN0YXRpY1NlcnZlLmJyb3dzZXIubm9TZWxlY3Rpb24iKQogICAgICAgICAgfX0KICAgICAgICA8L3NwYW4+CiAgICAgIDwvcD4KICAgICAgPHAgdi1pZj0iZWRpdG9yLmNvbmZpcm1FcnJvciIgY2xhc3M9InRleHQtZGVzdHJ1Y3RpdmUiIHJvbGU9ImFsZXJ0Ij4KICAgICAgICB7eyBlZGl0b3IuY29uZmlybUVycm9yIH19CiAgICAgIDwvcD4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { computed, type UnwrapNestedRefs } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  ChevronLeft,
+  ChevronRight,
+  CornerDownLeft,
+  File,
+  Folder,
+  FolderRoot,
+  Loader2,
+  RefreshCw,
+  RotateCcw,
+  TriangleAlert,
+} from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { useConfigStore } from "@/store/config";
+import type { StaticPathBrowseEntry } from "@/lib/api/config";
+import type { useStaticPathBrowser } from "./useStaticPathBrowser";
+
+const { editor, hint } = defineProps<{
+  hint?: string;
+  editor: UnwrapNestedRefs<ReturnType<typeof useStaticPathBrowser>>;
+}>();
+const { locale, t } = useI18n();
+const configStore = useConfigStore();
+
+const browserPathLabel = computed(
+  () =>
+    editor.currentPath ??
+    t("admin.subdomainProxy.staticServe.browser.rootLocation"),
+);
+
+const formatSize = (size: number | null) => {
+  if (size === null) return "—";
+  if (!Number.isFinite(size) || size < 0) return "—";
+  const units = ["B", "KB", "MB", "GB", "TB"];
+  const exponent =
+    size === 0
+      ? 0
+      : Math.min(units.length - 1, Math.floor(Math.log(size) / Math.log(1024)));
+  return `${new Intl.NumberFormat(String(locale.value), {
+    maximumFractionDigits: exponent === 0 ? 0 : 1,
+  }).format(size / 1024 ** exponent)} ${units[exponent]}`;
+};
+
+const formatModified = (value: string | null) => {
+  if (!value) return "—";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "—";
+  return new Intl.DateTimeFormat(String(locale.value), {
+    dateStyle: "short",
+    timeStyle: "short",
+  }).format(date);
+};
+
+const isEntryDisabled = (entry: StaticPathBrowseEntry) =>
+  !(
+    (entry.entry_type === "directory" && entry.navigable) ||
+    (editor.targetType === "file" &&
+      entry.entry_type === "file" &&
+      entry.selectable)
+  );
+const entryAriaLabel = (entry: StaticPathBrowseEntry) =>
+  t(
+    entry.entry_type === "directory"
+      ? "admin.subdomainProxy.staticServe.browser.openDirectoryAria"
+      : "admin.subdomainProxy.staticServe.browser.selectFileAria",
+    { name: entry.name },
+  );
+const handlePathEnter = (event: KeyboardEvent) => {
+  if (event.isComposing || event.keyCode === 229) return;
+  event.preventDefault();
+  void editor.navigateToPath();
+};
+</script>
+
+<template>
+  <div class="space-y-4 pb-5 pt-5" data-testid="static-path-browser">
+    <div class="space-y-1">
+      <p class="text-sm text-muted-foreground">
+        {{ hint ?? t("admin.subdomainProxy.staticServe.browser.hint") }}
+      </p>
+      <p
+        v-if="configStore.isDockerDeployment"
+        class="text-xs leading-5 text-amber-700 dark:text-amber-300"
+      >
+        {{ t("admin.subdomainProxy.staticServe.browser.dockerHint") }}
+      </p>
+    </div>
+
+    <div class="space-y-2 rounded-lg border bg-muted/10 p-3">
+      <form class="space-y-1.5" @submit.prevent="editor.navigateToPath">
+        <Label for="static-path-browser-address" class="text-xs">
+          {{ t("admin.subdomainProxy.staticServe.pathLabel") }}
+        </Label>
+        <div class="flex min-w-0 gap-2">
+          <Input
+            id="static-path-browser-address"
+            :model-value="editor.pathDraft"
+            class="min-w-0 font-mono"
+            autocomplete="off"
+            autocapitalize="none"
+            spellcheck="false"
+            :placeholder="
+              t('admin.subdomainProxy.staticServe.browser.rootLocation')
+            "
+            aria-describedby="static-path-browser-address-hint"
+            :aria-invalid="Boolean(editor.loadError)"
+            :aria-errormessage="
+              editor.loadError ? 'static-path-browser-load-error' : undefined
+            "
+            @keydown.enter="handlePathEnter"
+            @update:model-value="editor.updatePathDraft"
+          />
+          <Button
+            type="submit"
+            size="sm"
+            variant="secondary"
+            class="shrink-0"
+            data-testid="navigate-static-path"
+          >
+            <Loader2
+              v-if="editor.isLoading"
+              class="mr-1.5 h-4 w-4 animate-spin"
+            />
+            <CornerDownLeft v-else class="mr-1.5 h-4 w-4" />
+            {{ t("admin.subdomainProxy.staticServe.browser.navigate") }}
+          </Button>
+        </div>
+        <p
+          id="static-path-browser-address-hint"
+          class="text-xs text-muted-foreground"
+        >
+          {{ t("admin.subdomainProxy.staticServe.browser.pathInputHint") }}
+        </p>
+      </form>
+
+      <div class="flex flex-wrap items-center gap-2">
+        <Button
+          type="button"
+          size="sm"
+          variant="outline"
+          :disabled="editor.isLoading"
+          @click="editor.navigateRoot"
+        >
+          <FolderRoot class="mr-1.5 h-4 w-4" />
+          {{ t("admin.subdomainProxy.staticServe.browser.root") }}
+        </Button>
+        <Button
+          type="button"
+          size="sm"
+          variant="outline"
+          :disabled="editor.isLoading || editor.parentPath === null"
+          @click="editor.navigateParent"
+        >
+          <ChevronLeft class="mr-1.5 h-4 w-4" />
+          {{ t("admin.subdomainProxy.staticServe.browser.parent") }}
+        </Button>
+        <Button
+          type="button"
+          size="icon"
+          variant="ghost"
+          class="ml-auto h-8 w-8"
+          :aria-label="t('admin.subdomainProxy.staticServe.browser.refresh')"
+          :disabled="editor.isLoading"
+          @click="editor.refresh"
+        >
+          <RefreshCw class="h-4 w-4" />
+        </Button>
+      </div>
+
+      <nav
+        class="flex min-w-0 items-center gap-1 overflow-x-auto pb-1 text-sm"
+        :aria-label="
+          t('admin.subdomainProxy.staticServe.browser.breadcrumbsAria')
+        "
+      >
+        <template
+          v-for="(breadcrumb, index) in editor.breadcrumbs"
+          :key="`${breadcrumb.path}-${index}`"
+        >
+          <ChevronRight v-if="index > 0" class="h-3.5 w-3.5 shrink-0" />
+          <button
+            type="button"
+            class="max-w-48 shrink-0 truncate rounded px-1.5 py-1 font-mono text-xs hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:text-foreground disabled:opacity-100"
+            :disabled="
+              editor.isLoading || breadcrumb.path === editor.currentPath
+            "
+            :title="breadcrumb.path"
+            @click="editor.navigateBreadcrumb(breadcrumb.path)"
+          >
+            {{ breadcrumb.name }}
+          </button>
+        </template>
+        <span
+          v-if="editor.breadcrumbs.length === 0"
+          class="truncate font-mono text-xs text-muted-foreground"
+          :title="browserPathLabel"
+        >
+          {{ browserPathLabel }}
+        </span>
+      </nav>
+    </div>
+
+    <div
+      class="relative min-h-56 overflow-hidden rounded-lg border bg-background"
+      :aria-busy="editor.isLoading"
+    >
+      <div
+        class="grid grid-cols-[minmax(0,1fr)_6rem_10rem] border-b bg-muted/40 px-3 py-2 text-xs font-medium text-muted-foreground max-sm:grid-cols-1"
+      >
+        <span>{{ t("admin.subdomainProxy.staticServe.browser.name") }}</span>
+        <span class="text-right max-sm:hidden">
+          {{ t("admin.subdomainProxy.staticServe.browser.size") }}
+        </span>
+        <span class="text-right max-sm:hidden">
+          {{ t("admin.subdomainProxy.staticServe.browser.modified") }}
+        </span>
+      </div>
+
+      <div
+        v-if="editor.isLoading && !editor.result"
+        class="flex min-h-48 items-center justify-center gap-2 text-sm text-muted-foreground"
+        role="status"
+      >
+        <Loader2 class="h-4 w-4 animate-spin" />
+        {{ t("admin.subdomainProxy.staticServe.browser.loading") }}
+      </div>
+
+      <div
+        v-else-if="editor.loadError"
+        class="flex min-h-48 flex-col items-center justify-center gap-3 px-6 py-8 text-center"
+        role="alert"
+      >
+        <TriangleAlert class="h-6 w-6 text-destructive" />
+        <p
+          id="static-path-browser-load-error"
+          class="max-w-md text-sm text-destructive"
+        >
+          {{ editor.loadError }}
+        </p>
+        <Button
+          type="button"
+          size="sm"
+          variant="outline"
+          @click="editor.navigateToPath"
+        >
+          <RotateCcw class="mr-1.5 h-4 w-4" />
+          {{ t("admin.subdomainProxy.staticServe.browser.retry") }}
+        </Button>
+      </div>
+
+      <div
+        v-else-if="editor.entries.length === 0"
+        class="flex min-h-48 items-center justify-center px-6 text-center text-sm text-muted-foreground"
+      >
+        {{ t("admin.subdomainProxy.staticServe.browser.empty") }}
+      </div>
+
+      <div v-else class="divide-y" :class="editor.isLoading && 'opacity-50'">
+        <button
+          v-for="entry in editor.entries"
+          :key="entry.path"
+          type="button"
+          class="grid w-full grid-cols-[minmax(0,1fr)_6rem_10rem] items-center px-3 py-2.5 text-left text-sm transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 max-sm:grid-cols-1"
+          :class="
+            editor.selectionPath === entry.path &&
+            'bg-primary/10 text-primary hover:bg-primary/15'
+          "
+          :disabled="editor.isLoading || isEntryDisabled(entry)"
+          :aria-label="entryAriaLabel(entry)"
+          :aria-pressed="
+            entry.entry_type === 'file'
+              ? editor.selectionPath === entry.path
+              : undefined
+          "
+          @click="editor.activateEntry(entry)"
+        >
+          <span class="flex min-w-0 items-center gap-2">
+            <Folder
+              v-if="entry.entry_type === 'directory'"
+              class="h-4 w-4 shrink-0 text-amber-600"
+            />
+            <File v-else class="h-4 w-4 shrink-0 text-muted-foreground" />
+            <span class="truncate" :title="entry.path">{{ entry.name }}</span>
+          </span>
+          <span class="text-right text-xs text-muted-foreground max-sm:hidden">
+            {{
+              entry.entry_type === "directory"
+                ? "—"
+                : formatSize(entry.size_bytes)
+            }}
+          </span>
+          <span class="text-right text-xs text-muted-foreground max-sm:hidden">
+            {{ formatModified(entry.modified_at) }}
+          </span>
+        </button>
+      </div>
+
+      <div
+        v-if="editor.result"
+        class="flex items-center justify-between gap-3 border-t bg-muted/20 px-3 py-2"
+      >
+        <Button
+          type="button"
+          size="sm"
+          variant="ghost"
+          :disabled="editor.isLoading || !editor.previousCursor"
+          @click="editor.loadPreviousPage"
+        >
+          <ChevronLeft class="mr-1 h-4 w-4" />
+          {{ t("admin.subdomainProxy.staticServe.browser.previousPage") }}
+        </Button>
+        <Button
+          type="button"
+          size="sm"
+          variant="ghost"
+          :disabled="editor.isLoading || !editor.nextCursor"
+          @click="editor.loadNextPage"
+        >
+          {{ t("admin.subdomainProxy.staticServe.browser.nextPage") }}
+          <ChevronRight class="ml-1 h-4 w-4" />
+        </Button>
+      </div>
+    </div>
+
+    <div class="space-y-1 text-xs" aria-live="polite">
+      <p class="text-muted-foreground">
+        {{ t("admin.subdomainProxy.staticServe.browser.selectedPath") }}
+        <span class="break-all font-mono text-foreground">
+          {{
+            editor.selectionPath ??
+            t("admin.subdomainProxy.staticServe.browser.noSelection")
+          }}
+        </span>
+      </p>
+      <p v-if="editor.confirmError" class="text-destructive" role="alert">
+        {{ editor.confirmError }}
+      </p>
+    </div>
+  </div>
+</template>

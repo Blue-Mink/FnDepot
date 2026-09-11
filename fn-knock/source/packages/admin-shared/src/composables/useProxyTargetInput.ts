@@ -1,1 +1,86 @@
-aW1wb3J0IHsgcmVmLCB3YXRjaCwgdHlwZSBSZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgewogIERFRkFVTFRfUFJPWFlfVEFSR0VUX1BST1RPQ09MLAogIG5vcm1hbGl6ZVByb3h5VGFyZ2V0SW5wdXQsCiAgcmVzb2x2ZVByb3h5VGFyZ2V0SW5wdXQsCiAgdHlwZSBQcm94eVRhcmdldFByb3RvY29sLAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvcHJveHlUYXJnZXRJbnB1dCI7Cgp0eXBlIFVzZVByb3h5VGFyZ2V0SW5wdXRPcHRpb25zID0gewogIGRlZmF1bHRQb3J0Pzogc3RyaW5nOwogIGRlZmF1bHRQcm90b2NvbD86IFByb3h5VGFyZ2V0UHJvdG9jb2w7Cn07CgpleHBvcnQgY29uc3QgdXNlUHJveHlUYXJnZXRJbnB1dCA9ICgKICBtb2RlbDogUmVmPHN0cmluZz4sCiAgb3B0aW9uczogVXNlUHJveHlUYXJnZXRJbnB1dE9wdGlvbnMgPSB7fSwKKSA9PiB7CiAgY29uc3QgZGVmYXVsdFByb3RvY29sID0KICAgIG9wdGlvbnMuZGVmYXVsdFByb3RvY29sID8/IERFRkFVTFRfUFJPWFlfVEFSR0VUX1BST1RPQ09MOwoKICBjb25zdCBwcm90b2NvbCA9IHJlZjxQcm94eVRhcmdldFByb3RvY29sPihkZWZhdWx0UHJvdG9jb2wpOwogIGNvbnN0IGVuZHBvaW50ID0gcmVmKCIiKTsKICBsZXQgaXNTeW5jaW5nSW50ZXJuYWxseSA9IGZhbHNlOwoKICBjb25zdCBzeW5jRnJvbU1vZGVsID0gKHZhbHVlOiBzdHJpbmcpID0+IHsKICAgIGNvbnN0IHJlc29sdmVkID0gcmVzb2x2ZVByb3h5VGFyZ2V0SW5wdXQoZGVmYXVsdFByb3RvY29sLCB2YWx1ZSk7CgogICAgaXNTeW5jaW5nSW50ZXJuYWxseSA9IHRydWU7CiAgICBwcm90b2NvbC52YWx1ZSA9IHJlc29sdmVkLnByb3RvY29sOwogICAgZW5kcG9pbnQudmFsdWUgPSByZXNvbHZlZC5lbmRwb2ludDsKICAgIGlzU3luY2luZ0ludGVybmFsbHkgPSBmYWxzZTsKICB9OwoKICBjb25zdCBzeW5jVG9Nb2RlbCA9ICgpID0+IHsKICAgIGNvbnN0IG5leHRUYXJnZXQgPSByZXNvbHZlUHJveHlUYXJnZXRJbnB1dCgKICAgICAgcHJvdG9jb2wudmFsdWUsCiAgICAgIGVuZHBvaW50LnZhbHVlLAogICAgKS50YXJnZXQ7CgogICAgaWYgKG1vZGVsLnZhbHVlICE9PSBuZXh0VGFyZ2V0KSB7CiAgICAgIG1vZGVsLnZhbHVlID0gbmV4dFRhcmdldDsKICAgIH0KICB9OwoKICBjb25zdCBub3JtYWxpemUgPSAoKSA9PiB7CiAgICBjb25zdCBub3JtYWxpemVkID0gbm9ybWFsaXplUHJveHlUYXJnZXRJbnB1dCgKICAgICAgcHJvdG9jb2wudmFsdWUsCiAgICAgIGVuZHBvaW50LnZhbHVlLAogICAgICBvcHRpb25zLmRlZmF1bHRQb3J0LAogICAgKTsKCiAgICBpc1N5bmNpbmdJbnRlcm5hbGx5ID0gdHJ1ZTsKICAgIHByb3RvY29sLnZhbHVlID0gbm9ybWFsaXplZC5wcm90b2NvbDsKICAgIGVuZHBvaW50LnZhbHVlID0gbm9ybWFsaXplZC5lbmRwb2ludDsKICAgIGlzU3luY2luZ0ludGVybmFsbHkgPSBmYWxzZTsKCiAgICBpZiAobW9kZWwudmFsdWUgIT09IG5vcm1hbGl6ZWQudGFyZ2V0KSB7CiAgICAgIG1vZGVsLnZhbHVlID0gbm9ybWFsaXplZC50YXJnZXQ7CiAgICB9CgogICAgcmV0dXJuIG5vcm1hbGl6ZWQudGFyZ2V0OwogIH07CgogIHdhdGNoKAogICAgbW9kZWwsCiAgICAobmV4dFZhbHVlKSA9PiB7CiAgICAgIHN5bmNGcm9tTW9kZWwobmV4dFZhbHVlKTsKICAgIH0sCiAgICB7IGltbWVkaWF0ZTogdHJ1ZSwgZmx1c2g6ICJzeW5jIiB9LAogICk7CgogIHdhdGNoKAogICAgW3Byb3RvY29sLCBlbmRwb2ludF0sCiAgICAoKSA9PiB7CiAgICAgIGlmIChpc1N5bmNpbmdJbnRlcm5hbGx5KSByZXR1cm47CiAgICAgIHN5bmNUb01vZGVsKCk7CiAgICB9LAogICAgeyBmbHVzaDogInN5bmMiIH0sCiAgKTsKCiAgcmV0dXJuIHsKICAgIHByb3RvY29sLAogICAgZW5kcG9pbnQsCiAgICBub3JtYWxpemUsCiAgfTsKfTsK
+import { ref, watch, type Ref } from "vue";
+import {
+  DEFAULT_PROXY_TARGET_PROTOCOL,
+  normalizeProxyTargetInput,
+  resolveProxyTargetInput,
+  type ProxyTargetProtocol,
+} from "@admin-shared/utils/proxyTargetInput";
+
+type UseProxyTargetInputOptions = {
+  defaultPort?: string;
+  defaultProtocol?: ProxyTargetProtocol;
+};
+
+export const useProxyTargetInput = (
+  model: Ref<string>,
+  options: UseProxyTargetInputOptions = {},
+) => {
+  const defaultProtocol =
+    options.defaultProtocol ?? DEFAULT_PROXY_TARGET_PROTOCOL;
+
+  const protocol = ref<ProxyTargetProtocol>(defaultProtocol);
+  const endpoint = ref("");
+  let isSyncingInternally = false;
+
+  const syncFromModel = (value: string) => {
+    const resolved = resolveProxyTargetInput(defaultProtocol, value);
+
+    isSyncingInternally = true;
+    protocol.value = resolved.protocol;
+    endpoint.value = resolved.endpoint;
+    isSyncingInternally = false;
+  };
+
+  const syncToModel = () => {
+    const nextTarget = resolveProxyTargetInput(
+      protocol.value,
+      endpoint.value,
+    ).target;
+
+    if (model.value !== nextTarget) {
+      model.value = nextTarget;
+    }
+  };
+
+  const normalize = () => {
+    const normalized = normalizeProxyTargetInput(
+      protocol.value,
+      endpoint.value,
+      options.defaultPort,
+    );
+
+    isSyncingInternally = true;
+    protocol.value = normalized.protocol;
+    endpoint.value = normalized.endpoint;
+    isSyncingInternally = false;
+
+    if (model.value !== normalized.target) {
+      model.value = normalized.target;
+    }
+
+    return normalized.target;
+  };
+
+  watch(
+    model,
+    (nextValue) => {
+      syncFromModel(nextValue);
+    },
+    { immediate: true, flush: "sync" },
+  );
+
+  watch(
+    [protocol, endpoint],
+    () => {
+      if (isSyncingInternally) return;
+      syncToModel();
+    },
+    { flush: "sync" },
+  );
+
+  return {
+    protocol,
+    endpoint,
+    normalize,
+  };
+};

@@ -1,1 +1,26 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdgogICAgZGF0YS1zbG90PSJzaWRlYmFyLW1lbnUtYmFkZ2UiCiAgICBkYXRhLXNpZGViYXI9Im1lbnUtYmFkZ2UiCiAgICA6Y2xhc3M9ImNuKAogICAgICAndGV4dC1zaWRlYmFyLWZvcmVncm91bmQgcG9pbnRlci1ldmVudHMtbm9uZSBhYnNvbHV0ZSByaWdodC0xIGZsZXggaC01IG1pbi13LTUgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgcHgtMSB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRhYnVsYXItbnVtcyBzZWxlY3Qtbm9uZScsCiAgICAgICdwZWVyLWhvdmVyL21lbnUtYnV0dG9uOnRleHQtc2lkZWJhci1hY2NlbnQtZm9yZWdyb3VuZCBwZWVyLWRhdGEtW2FjdGl2ZT10cnVlXS9tZW51LWJ1dHRvbjp0ZXh0LXNpZGViYXItYWNjZW50LWZvcmVncm91bmQnLAogICAgICAncGVlci1kYXRhLVtzaXplPXNtXS9tZW51LWJ1dHRvbjp0b3AtMScsCiAgICAgICdwZWVyLWRhdGEtW3NpemU9ZGVmYXVsdF0vbWVudS1idXR0b246dG9wLTEuNScsCiAgICAgICdwZWVyLWRhdGEtW3NpemU9bGddL21lbnUtYnV0dG9uOnRvcC0yLjUnLAogICAgICAnZ3JvdXAtZGF0YS1bY29sbGFwc2libGU9aWNvbl06aGlkZGVuJywKICAgICAgcHJvcHMuY2xhc3MsCiAgICApIgogID4KICAgIDxzbG90IC8+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { HTMLAttributes } from "vue"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<{
+  class?: HTMLAttributes["class"]
+}>()
+</script>
+
+<template>
+  <div
+    data-slot="sidebar-menu-badge"
+    data-sidebar="menu-badge"
+    :class="cn(
+      'text-sidebar-foreground pointer-events-none absolute right-1 flex h-5 min-w-5 items-center justify-center rounded-md px-1 text-xs font-medium tabular-nums select-none',
+      'peer-hover/menu-button:text-sidebar-accent-foreground peer-data-[active=true]/menu-button:text-sidebar-accent-foreground',
+      'peer-data-[size=sm]/menu-button:top-1',
+      'peer-data-[size=default]/menu-button:top-1.5',
+      'peer-data-[size=lg]/menu-button:top-2.5',
+      'group-data-[collapsible=icon]:hidden',
+      props.class,
+    )"
+  >
+    <slot />
+  </div>
+</template>

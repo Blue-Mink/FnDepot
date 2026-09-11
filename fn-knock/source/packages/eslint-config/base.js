@@ -1,1 +1,32 @@
-aW1wb3J0IGpzIGZyb20gIkBlc2xpbnQvanMiOwppbXBvcnQgZXNsaW50Q29uZmlnUHJldHRpZXIgZnJvbSAiZXNsaW50LWNvbmZpZy1wcmV0dGllciI7CmltcG9ydCB0dXJib1BsdWdpbiBmcm9tICJlc2xpbnQtcGx1Z2luLXR1cmJvIjsKaW1wb3J0IHRzZXNsaW50IGZyb20gInR5cGVzY3JpcHQtZXNsaW50IjsKaW1wb3J0IG9ubHlXYXJuIGZyb20gImVzbGludC1wbHVnaW4tb25seS13YXJuIjsKCi8qKgogKiBBIHNoYXJlZCBFU0xpbnQgY29uZmlndXJhdGlvbiBmb3IgdGhlIHJlcG9zaXRvcnkuCiAqCiAqIEB0eXBlIHtpbXBvcnQoImVzbGludCIpLkxpbnRlci5Db25maWdbXX0KICogKi8KZXhwb3J0IGNvbnN0IGNvbmZpZyA9IFsKICBqcy5jb25maWdzLnJlY29tbWVuZGVkLAogIGVzbGludENvbmZpZ1ByZXR0aWVyLAogIC4uLnRzZXNsaW50LmNvbmZpZ3MucmVjb21tZW5kZWQsCiAgewogICAgcGx1Z2luczogewogICAgICB0dXJibzogdHVyYm9QbHVnaW4sCiAgICB9LAogICAgcnVsZXM6IHsKICAgICAgInR1cmJvL25vLXVuZGVjbGFyZWQtZW52LXZhcnMiOiAid2FybiIsCiAgICB9LAogIH0sCiAgewogICAgcGx1Z2luczogewogICAgICBvbmx5V2FybiwKICAgIH0sCiAgfSwKICB7CiAgICBpZ25vcmVzOiBbImRpc3QvKioiXSwKICB9LApdOwo=
+import js from "@eslint/js";
+import eslintConfigPrettier from "eslint-config-prettier";
+import turboPlugin from "eslint-plugin-turbo";
+import tseslint from "typescript-eslint";
+import onlyWarn from "eslint-plugin-only-warn";
+
+/**
+ * A shared ESLint configuration for the repository.
+ *
+ * @type {import("eslint").Linter.Config[]}
+ * */
+export const config = [
+  js.configs.recommended,
+  eslintConfigPrettier,
+  ...tseslint.configs.recommended,
+  {
+    plugins: {
+      turbo: turboPlugin,
+    },
+    rules: {
+      "turbo/no-undeclared-env-vars": "warn",
+    },
+  },
+  {
+    plugins: {
+      onlyWarn,
+    },
+  },
+  {
+    ignores: ["dist/**"],
+  },
+];

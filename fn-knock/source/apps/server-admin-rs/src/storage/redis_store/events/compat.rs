@@ -1,1 +1,67 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgZm4gc3lzdGVtX2V2ZW50X2RhdGFfa2V5KGlkOiAmc3RyKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgie0VWRU5UU19EQVRBX1BSRUZJWH17aWR9IikKfQoKcHViKGluIGNyYXRlOjpzdG9yYWdlOjpyZWRpc19zdG9yZSkgZm4gc3lzdGVtX2V2ZW50X3N0cmVhbV9pZF9rZXkoaWQ6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7RVZFTlRTX1NUUkVBTV9JRF9QUkVGSVh9e2lkfSIpCn0KcHViKGNyYXRlKSBmbiBzeXN0ZW1fZXZlbnRfbWF0Y2hlc19maWx0ZXJzKAogICAgZXZlbnQ6ICZWYWx1ZSwKICAgIHNlYXJjaDogJnN0ciwKICAgIGV2ZW50X3R5cGU6IE9wdGlvbjwmc3RyPiwKICAgIGxldmVsOiBPcHRpb248JnN0cj4sCiAgICBzb3VyY2U6IE9wdGlvbjwmc3RyPiwKKSAtPiBib29sIHsKICAgIGlmIGV2ZW50X3R5cGUuaXNfc29tZV9hbmQofHZhbHVlfCBldmVudC5nZXQoInR5cGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSAhPSBTb21lKHZhbHVlKSkgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KICAgIGlmIGxldmVsLmlzX3NvbWVfYW5kKHx2YWx1ZXwgZXZlbnQuZ2V0KCJsZXZlbCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpICE9IFNvbWUodmFsdWUpKSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogICAgaWYgc291cmNlLmlzX3NvbWVfYW5kKHx2YWx1ZXwgZXZlbnQuZ2V0KCJzb3VyY2UiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSAhPSBTb21lKHZhbHVlKSkgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBsZXQga2V5d29yZCA9IHNlYXJjaC50cmltKCkudG9fbG93ZXJjYXNlKCk7CiAgICBpZiBrZXl3b3JkLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiB0cnVlOwogICAgfQoKICAgIGxldCBtdXQgaGF5c3RhY2sgPSBTdHJpbmc6Om5ldygpOwogICAgZm9yIGtleSBpbiBbCiAgICAgICAgImlkIiwKICAgICAgICAidHJhY2VfaWQiLAogICAgICAgICJ0eXBlIiwKICAgICAgICAic291cmNlIiwKICAgICAgICAibGV2ZWwiLAogICAgICAgICJoYXBwZW5lZF9hdCIsCiAgICAgICAgImRlZHVwZV9rZXkiLAogICAgXSB7CiAgICAgICAgaWYgbGV0IFNvbWUodmFsdWUpID0gZXZlbnQuZ2V0KGtleSkuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgewogICAgICAgICAgICBoYXlzdGFjay5wdXNoX3N0cih2YWx1ZSk7CiAgICAgICAgICAgIGhheXN0YWNrLnB1c2goJyAnKTsKICAgICAgICB9CiAgICB9CiAgICBpZiBsZXQgU29tZShzdWJqZWN0KSA9IGV2ZW50LmdldCgic3ViamVjdCIpLmFuZF90aGVuKFZhbHVlOjphc19vYmplY3QpIHsKICAgICAgICBmb3Iga2V5IGluIFsia2luZCIsICJpZCJdIHsKICAgICAgICAgICAgaWYgbGV0IFNvbWUodmFsdWUpID0gc3ViamVjdC5nZXQoa2V5KS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSB7CiAgICAgICAgICAgICAgICBoYXlzdGFjay5wdXNoX3N0cih2YWx1ZSk7CiAgICAgICAgICAgICAgICBoYXlzdGFjay5wdXNoKCcgJyk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgaWYgbGV0IFNvbWUodGFncykgPSBldmVudC5nZXQoInRhZ3MiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpIHsKICAgICAgICBmb3IgdGFnIGluIHRhZ3MuaXRlcigpLmZpbHRlcl9tYXAoVmFsdWU6OmFzX3N0cikgewogICAgICAgICAgICBoYXlzdGFjay5wdXNoX3N0cih0YWcpOwogICAgICAgICAgICBoYXlzdGFjay5wdXNoKCcgJyk7CiAgICAgICAgfQogICAgfQogICAgaWYgbGV0IFNvbWUocGF5bG9hZCkgPSBldmVudC5nZXQoInBheWxvYWQiKSB7CiAgICAgICAgaGF5c3RhY2sucHVzaF9zdHIoJnNlcmRlX2pzb246OnRvX3N0cmluZyhwYXlsb2FkKS51bndyYXBfb3JfZGVmYXVsdCgpKTsKICAgIH0KCiAgICBoYXlzdGFjay50b19sb3dlcmNhc2UoKS5jb250YWlucygma2V5d29yZCkKfQo=
+use super::*;
+
+pub(in crate::storage::redis_store) fn system_event_data_key(id: &str) -> String {
+    format!("{EVENTS_DATA_PREFIX}{id}")
+}
+
+pub(in crate::storage::redis_store) fn system_event_stream_id_key(id: &str) -> String {
+    format!("{EVENTS_STREAM_ID_PREFIX}{id}")
+}
+pub(crate) fn system_event_matches_filters(
+    event: &Value,
+    search: &str,
+    event_type: Option<&str>,
+    level: Option<&str>,
+    source: Option<&str>,
+) -> bool {
+    if event_type.is_some_and(|value| event.get("type").and_then(Value::as_str) != Some(value)) {
+        return false;
+    }
+    if level.is_some_and(|value| event.get("level").and_then(Value::as_str) != Some(value)) {
+        return false;
+    }
+    if source.is_some_and(|value| event.get("source").and_then(Value::as_str) != Some(value)) {
+        return false;
+    }
+
+    let keyword = search.trim().to_lowercase();
+    if keyword.is_empty() {
+        return true;
+    }
+
+    let mut haystack = String::new();
+    for key in [
+        "id",
+        "trace_id",
+        "type",
+        "source",
+        "level",
+        "happened_at",
+        "dedupe_key",
+    ] {
+        if let Some(value) = event.get(key).and_then(Value::as_str) {
+            haystack.push_str(value);
+            haystack.push(' ');
+        }
+    }
+    if let Some(subject) = event.get("subject").and_then(Value::as_object) {
+        for key in ["kind", "id"] {
+            if let Some(value) = subject.get(key).and_then(Value::as_str) {
+                haystack.push_str(value);
+                haystack.push(' ');
+            }
+        }
+    }
+
+    if let Some(tags) = event.get("tags").and_then(Value::as_array) {
+        for tag in tags.iter().filter_map(Value::as_str) {
+            haystack.push_str(tag);
+            haystack.push(' ');
+        }
+    }
+    if let Some(payload) = event.get("payload") {
+        haystack.push_str(&serde_json::to_string(payload).unwrap_or_default());
+    }
+
+    haystack.to_lowercase().contains(&keyword)
+}

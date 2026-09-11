@@ -1,1 +1,265 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgcmVhY3RpdmUsIHJlZiwgd2F0Y2ggfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB7IHVzZURlbGF5ZWRMb2FkaW5nIH0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VEZWxheWVkTG9hZGluZyI7CmltcG9ydCB7CiAgSXBMb2NhdGlvblNldHRpbmdzQVBJLAogIHR5cGUgSXBMb2NhdGlvbkFwaUNvbmZpZywKfSBmcm9tICJAL2xpYi9hcGkvY29uZmlnIjsKaW1wb3J0IHsKICBidWlsZElwTG9jYXRpb25TZXR0aW5nc1BheWxvYWQsCiAgREVGQVVMVF9DVVNUT01fQ0lEUl9VUkwsCiAgREVGQVVMVF9DVVNUT01fSVBfTE9PS1VQX1VSTCwKICBpc0h0dHBVcmwsCiAgbm9ybWFsaXplSXBMb2NhdGlvbkJhc2VVcmwsCiAgbm9ybWFsaXplSXBMb2NhdGlvblNldHRpbmdzLAp9IGZyb20gIi4vaXBMb2NhdGlvblNldHRpbmdzTW9kZWwiOwoKZXhwb3J0IGNvbnN0IHVzZUlwTG9jYXRpb25TZXR0aW5ncyA9ICgpID0+IHsKICBjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKICBjb25zdCBzZXR0aW5ncyA9IHJlZjxJcExvY2F0aW9uQXBpQ29uZmlnIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgZm9ybSA9IHJlYWN0aXZlPAogICAgUGljazxJcExvY2F0aW9uQXBpQ29uZmlnLCAiaXBfbG9va3VwX21vZGUiIHwgImNpZHJfbW9kZSI+CiAgPih7IGlwX2xvb2t1cF9tb2RlOiAib25saW5lIiwgY2lkcl9tb2RlOiAib25saW5lIiB9KTsKICBjb25zdCBpcExvb2t1cFVybElucHV0ID0gcmVmKCIiKTsKICBjb25zdCBjaWRyVXJsSW5wdXQgPSByZWYoIiIpOwoKICBjb25zdCBhcHBseURlZmF1bHRDdXN0b21VcmxzID0gKCkgPT4gewogICAgaWYgKAogICAgICBmb3JtLmlwX2xvb2t1cF9tb2RlID09PSAiY3VzdG9tIiAmJgogICAgICAhbm9ybWFsaXplSXBMb2NhdGlvbkJhc2VVcmwoaXBMb29rdXBVcmxJbnB1dC52YWx1ZSkKICAgICkgewogICAgICBpcExvb2t1cFVybElucHV0LnZhbHVlID0gREVGQVVMVF9DVVNUT01fSVBfTE9PS1VQX1VSTDsKICAgIH0KICAgIGlmICgKICAgICAgZm9ybS5jaWRyX21vZGUgPT09ICJjdXN0b20iICYmCiAgICAgICFub3JtYWxpemVJcExvY2F0aW9uQmFzZVVybChjaWRyVXJsSW5wdXQudmFsdWUpCiAgICApIHsKICAgICAgY2lkclVybElucHV0LnZhbHVlID0gREVGQVVMVF9DVVNUT01fQ0lEUl9VUkw7CiAgICB9CiAgfTsKICBjb25zdCBjdXJyZW50UGF5bG9hZCA9IGNvbXB1dGVkKCgpID0+CiAgICBidWlsZElwTG9jYXRpb25TZXR0aW5nc1BheWxvYWQoewogICAgICBjaWRyTW9kZTogZm9ybS5jaWRyX21vZGUsCiAgICAgIGNpZHJVcmw6IGNpZHJVcmxJbnB1dC52YWx1ZSwKICAgICAgaXBMb29rdXBNb2RlOiBmb3JtLmlwX2xvb2t1cF9tb2RlLAogICAgICBpcExvb2t1cFVybDogaXBMb29rdXBVcmxJbnB1dC52YWx1ZSwKICAgIH0pLAogICk7CgogIGNvbnN0IHZhbGlkYXRlQ3VzdG9tVXJscyA9IChwYXlsb2FkOiBJcExvY2F0aW9uQXBpQ29uZmlnKSA9PiB7CiAgICBpZiAocGF5bG9hZC5pcF9sb29rdXBfbW9kZSA9PT0gImN1c3RvbSIpIHsKICAgICAgaWYgKCFwYXlsb2FkLmlwX2xvb2t1cF91cmwpIHsKICAgICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MuaXBMb29rdXBVcmxSZXF1aXJlZCIpKTsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgIH0KICAgICAgaWYgKCFpc0h0dHBVcmwocGF5bG9hZC5pcF9sb29rdXBfdXJsKSkgewogICAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5pcExvb2t1cFVybEludmFsaWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IHQoImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5odHRwVXJsUmVxdWlyZWQiKSwKICAgICAgICB9KTsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgIH0KICAgIH0KICAgIGlmIChwYXlsb2FkLmNpZHJfbW9kZSA9PT0gImN1c3RvbSIpIHsKICAgICAgaWYgKCFwYXlsb2FkLmNpZHJfdXJsKSB7CiAgICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmNpZHJVcmxSZXF1aXJlZCIpKTsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgIH0KICAgICAgaWYgKCFpc0h0dHBVcmwocGF5bG9hZC5jaWRyX3VybCkpIHsKICAgICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MuY2lkclVybEludmFsaWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IHQoImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5odHRwVXJsUmVxdWlyZWQiKSwKICAgICAgICB9KTsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgIH0KICAgIH0KICAgIHJldHVybiB0cnVlOwogIH07CgogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc0xvYWRpbmcsIHJ1bjogcnVuTG9hZFNldHRpbmdzIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmxvYWRGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MubG9hZEZhaWxlZERlc2NyaXB0aW9uIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwogIGNvbnN0IHNob3dMb2FkaW5nU2tlbGV0b24gPSB1c2VEZWxheWVkTG9hZGluZyhpc0xvYWRpbmcpOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1NhdmluZywgcnVuOiBydW5TYXZlU2V0dGluZ3MgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3Muc2F2ZUZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5zYXZlRmFpbGVkRGVzY3JpcHRpb24iKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzVGVzdGluZ0lwTG9va3VwLCBydW46IHJ1blRlc3RJcExvb2t1cCB9ID0gdXNlQXN5bmNBY3Rpb24oCiAgICB7CiAgICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5jb25uZWN0aW9uRmFpbGVkIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgICBlcnJvciwKICAgICAgICAgICAgdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmlwTG9va3VwVW5hdmFpbGFibGUiKSwKICAgICAgICAgICksCiAgICAgICAgfSk7CiAgICAgIH0sCiAgICB9LAogICk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzVGVzdGluZ0NpZHIsIHJ1bjogcnVuVGVzdENpZHIgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MuY29ubmVjdGlvbkZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5jaWRyVW5hdmFpbGFibGUiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IGlzRGlydHkgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoIXNldHRpbmdzLnZhbHVlKSByZXR1cm4gZmFsc2U7CiAgICBjb25zdCBwYXlsb2FkID0gY3VycmVudFBheWxvYWQudmFsdWU7CiAgICByZXR1cm4gKAogICAgICBzZXR0aW5ncy52YWx1ZS5pcF9sb29rdXBfbW9kZSAhPT0gcGF5bG9hZC5pcF9sb29rdXBfbW9kZSB8fAogICAgICBzZXR0aW5ncy52YWx1ZS5pcF9sb29rdXBfdXJsICE9PSBwYXlsb2FkLmlwX2xvb2t1cF91cmwgfHwKICAgICAgc2V0dGluZ3MudmFsdWUuY2lkcl9tb2RlICE9PSBwYXlsb2FkLmNpZHJfbW9kZSB8fAogICAgICBzZXR0aW5ncy52YWx1ZS5jaWRyX3VybCAhPT0gcGF5bG9hZC5jaWRyX3VybAogICAgKTsKICB9KTsKCiAgY29uc3QgYXBwbHlGcm9tU2V0dGluZ3MgPSAoZGF0YTogSXBMb2NhdGlvbkFwaUNvbmZpZykgPT4gewogICAgY29uc3Qgbm9ybWFsaXplZCA9IG5vcm1hbGl6ZUlwTG9jYXRpb25TZXR0aW5ncyhkYXRhKTsKICAgIHNldHRpbmdzLnZhbHVlID0gbm9ybWFsaXplZDsKICAgIGZvcm0uaXBfbG9va3VwX21vZGUgPSBub3JtYWxpemVkLmlwX2xvb2t1cF9tb2RlOwogICAgZm9ybS5jaWRyX21vZGUgPSBub3JtYWxpemVkLmNpZHJfbW9kZTsKICAgIGlwTG9va3VwVXJsSW5wdXQudmFsdWUgPQogICAgICBub3JtYWxpemVkLmlwX2xvb2t1cF9tb2RlID09PSAiY3VzdG9tIiA/IG5vcm1hbGl6ZWQuaXBfbG9va3VwX3VybCA6ICIiOwogICAgY2lkclVybElucHV0LnZhbHVlID0KICAgICAgbm9ybWFsaXplZC5jaWRyX21vZGUgPT09ICJjdXN0b20iID8gbm9ybWFsaXplZC5jaWRyX3VybCA6ICIiOwogICAgYXBwbHlEZWZhdWx0Q3VzdG9tVXJscygpOwogIH07CiAgY29uc3QgZmV0Y2hTZXR0aW5ncyA9IGFzeW5jICgpID0+IHsKICAgIGF3YWl0IHJ1bkxvYWRTZXR0aW5ncyhhc3luYyAoKSA9PiB7CiAgICAgIGFwcGx5RnJvbVNldHRpbmdzKGF3YWl0IElwTG9jYXRpb25TZXR0aW5nc0FQSS5nZXRTZXR0aW5ncygpKTsKICAgIH0pOwogIH07CiAgY29uc3QgcmVzZXRGb3JtID0gKCkgPT4gewogICAgaWYgKHNldHRpbmdzLnZhbHVlKSBhcHBseUZyb21TZXR0aW5ncyhzZXR0aW5ncy52YWx1ZSk7CiAgfTsKCiAgY29uc3QgdmFsaWRhdGVUZXN0VXJsID0gKHZhbHVlOiBzdHJpbmcsIGtpbmQ6ICJpcExvb2t1cCIgfCAiY2lkciIpID0+IHsKICAgIGNvbnN0IHVybCA9IG5vcm1hbGl6ZUlwTG9jYXRpb25CYXNlVXJsKHZhbHVlKTsKICAgIGlmICghdXJsKSB7CiAgICAgIHRvYXN0LmVycm9yKAogICAgICAgIHQoCiAgICAgICAgICBraW5kID09PSAiaXBMb29rdXAiCiAgICAgICAgICAgID8gImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5pcExvb2t1cFVybElucHV0UmVxdWlyZWQiCiAgICAgICAgICAgIDogImFkbWluLmlwTG9jYXRpb25TZXR0aW5ncy5jaWRyVXJsSW5wdXRSZXF1aXJlZCIsCiAgICAgICAgKSwKICAgICAgKTsKICAgICAgcmV0dXJuICIiOwogICAgfQogICAgaWYgKCFpc0h0dHBVcmwodXJsKSkgewogICAgICB0b2FzdC5lcnJvcigKICAgICAgICB0KAogICAgICAgICAga2luZCA9PT0gImlwTG9va3VwIgogICAgICAgICAgICA/ICJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MuaXBMb29rdXBVcmxJbnZhbGlkIgogICAgICAgICAgICA6ICJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MuY2lkclVybEludmFsaWQiLAogICAgICAgICksCiAgICAgICAgeyBkZXNjcmlwdGlvbjogdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmh0dHBVcmxSZXF1aXJlZCIpIH0sCiAgICAgICk7CiAgICAgIHJldHVybiAiIjsKICAgIH0KICAgIHJldHVybiB1cmw7CiAgfTsKCiAgY29uc3QgdGVzdElwTG9va3VwU2VydmljZSA9IGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHVybCA9IHZhbGlkYXRlVGVzdFVybChpcExvb2t1cFVybElucHV0LnZhbHVlLCAiaXBMb29rdXAiKTsKICAgIGlmICghdXJsKSByZXR1cm47CiAgICBhd2FpdCBydW5UZXN0SXBMb29rdXAoYXN5bmMgKCkgPT4gewogICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBJcExvY2F0aW9uU2V0dGluZ3NBUEkudGVzdElwTG9va3VwKHVybCk7CiAgICAgIGlmIChyZXN1bHQuc3VjY2VzcykgewogICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmNvbm5lY3Rpb25TdWNjZXNzIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MuaXBMb29rdXBIZWFsdGh5IiksCiAgICAgICAgfSk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmNvbm5lY3Rpb25GYWlsZWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246CiAgICAgICAgICAgIHJlc3VsdC5tZXNzYWdlIHx8CiAgICAgICAgICAgIHJlc3VsdC5tc2cgfHwKICAgICAgICAgICAgdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmlwTG9va3VwVW5hdmFpbGFibGUiKSwKICAgICAgICB9KTsKICAgICAgfQogICAgfSk7CiAgfTsKICBjb25zdCB0ZXN0Q2lkclNlcnZpY2UgPSBhc3luYyAoKSA9PiB7CiAgICBjb25zdCB1cmwgPSB2YWxpZGF0ZVRlc3RVcmwoY2lkclVybElucHV0LnZhbHVlLCAiY2lkciIpOwogICAgaWYgKCF1cmwpIHJldHVybjsKICAgIGF3YWl0IHJ1blRlc3RDaWRyKGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgSXBMb2NhdGlvblNldHRpbmdzQVBJLnRlc3RDaWRyKHVybCk7CiAgICAgIGlmICghcmVzdWx0LnN1Y2Nlc3MpIHsKICAgICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MuY29ubmVjdGlvbkZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjoKICAgICAgICAgICAgcmVzdWx0Lm1lc3NhZ2UgfHwgdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmNpZHJVbmF2YWlsYWJsZSIpLAogICAgICAgIH0pOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBpZiAocmVzdWx0LmNhcGFiaWxpdGllcz8ub3BlcmF0b3JGaWx0ZXJpbmcuc3VwcG9ydGVkID09PSBmYWxzZSkgewogICAgICAgIHRvYXN0Lndhcm5pbmcodCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmNpZHJVcGdyYWRlUmVxdWlyZWRUaXRsZSIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogdCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmNpZHJVcGdyYWRlUmVxdWlyZWQiLCB7CiAgICAgICAgICAgIHZlcnNpb246CiAgICAgICAgICAgICAgcmVzdWx0LmNhcGFiaWxpdGllcy5vcGVyYXRvckZpbHRlcmluZy5taW5pbXVtQ29udGFpbmVyVmVyc2lvbiwKICAgICAgICAgIH0pLAogICAgICAgIH0pOwogICAgICB9IGVsc2UgewogICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uaXBMb2NhdGlvblNldHRpbmdzLmNvbm5lY3Rpb25TdWNjZXNzIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3MuY2lkckhlYWx0aHkiKSwKICAgICAgICB9KTsKICAgICAgfQogICAgfSk7CiAgfTsKICBjb25zdCBzYXZlU2V0dGluZ3MgPSBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBwYXlsb2FkID0gY3VycmVudFBheWxvYWQudmFsdWU7CiAgICBpZiAoIXZhbGlkYXRlQ3VzdG9tVXJscyhwYXlsb2FkKSkgcmV0dXJuOwogICAgYXdhaXQgcnVuU2F2ZVNldHRpbmdzKCgpID0+IElwTG9jYXRpb25TZXR0aW5nc0FQSS51cGRhdGVTZXR0aW5ncyhwYXlsb2FkKSwgewogICAgICBvblN1Y2Nlc3M6IChkYXRhKSA9PiB7CiAgICAgICAgYXBwbHlGcm9tU2V0dGluZ3MoZGF0YSk7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5pcExvY2F0aW9uU2V0dGluZ3Muc2V0dGluZ3NVcGRhdGVkIikpOwogICAgICB9LAogICAgfSk7CiAgfTsKCiAgd2F0Y2goCiAgICAoKSA9PiBbZm9ybS5pcF9sb29rdXBfbW9kZSwgZm9ybS5jaWRyX21vZGVdIGFzIGNvbnN0LAogICAgYXBwbHlEZWZhdWx0Q3VzdG9tVXJscywKICApOwogIG9uTW91bnRlZCgoKSA9PiB7CiAgICB2b2lkIGZldGNoU2V0dGluZ3MoKTsKICB9KTsKCiAgcmV0dXJuIHsKICAgIGNpZHJEb2NrZXJVcmw6ICJodHRwczovL2h1Yi5kb2NrZXIuY29tL3Iva2NpbG5rL2dvLWNpZHItYXBpIiwKICAgIGNpZHJVcmxJbnB1dCwKICAgIGZvcm0sCiAgICBpcExvb2t1cERvY2tlclVybDogImh0dHBzOi8vaHViLmRvY2tlci5jb20vci9rY2lsbmsvZ28taXBhZGRyZXNzLWFwaSIsCiAgICBpcExvb2t1cFVybElucHV0LAogICAgaXNEaXJ0eSwKICAgIGlzTG9hZGluZywKICAgIGlzU2F2aW5nLAogICAgaXNUZXN0aW5nQ2lkciwKICAgIGlzVGVzdGluZ0lwTG9va3VwLAogICAgcmVzZXRGb3JtLAogICAgc2F2ZVNldHRpbmdzLAogICAgc2hvd0xvYWRpbmdTa2VsZXRvbiwKICAgIHQsCiAgICB0ZXN0Q2lkclNlcnZpY2UsCiAgICB0ZXN0SXBMb29rdXBTZXJ2aWNlLAogIH07Cn07Cg==
+import { computed, onMounted, reactive, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import {
+  IpLocationSettingsAPI,
+  type IpLocationApiConfig,
+} from "@/lib/api/config";
+import {
+  buildIpLocationSettingsPayload,
+  DEFAULT_CUSTOM_CIDR_URL,
+  DEFAULT_CUSTOM_IP_LOOKUP_URL,
+  isHttpUrl,
+  normalizeIpLocationBaseUrl,
+  normalizeIpLocationSettings,
+} from "./ipLocationSettingsModel";
+
+export const useIpLocationSettings = () => {
+  const { t } = useI18n();
+  const settings = ref<IpLocationApiConfig | null>(null);
+  const form = reactive<
+    Pick<IpLocationApiConfig, "ip_lookup_mode" | "cidr_mode">
+  >({ ip_lookup_mode: "online", cidr_mode: "online" });
+  const ipLookupUrlInput = ref("");
+  const cidrUrlInput = ref("");
+
+  const applyDefaultCustomUrls = () => {
+    if (
+      form.ip_lookup_mode === "custom" &&
+      !normalizeIpLocationBaseUrl(ipLookupUrlInput.value)
+    ) {
+      ipLookupUrlInput.value = DEFAULT_CUSTOM_IP_LOOKUP_URL;
+    }
+    if (
+      form.cidr_mode === "custom" &&
+      !normalizeIpLocationBaseUrl(cidrUrlInput.value)
+    ) {
+      cidrUrlInput.value = DEFAULT_CUSTOM_CIDR_URL;
+    }
+  };
+  const currentPayload = computed(() =>
+    buildIpLocationSettingsPayload({
+      cidrMode: form.cidr_mode,
+      cidrUrl: cidrUrlInput.value,
+      ipLookupMode: form.ip_lookup_mode,
+      ipLookupUrl: ipLookupUrlInput.value,
+    }),
+  );
+
+  const validateCustomUrls = (payload: IpLocationApiConfig) => {
+    if (payload.ip_lookup_mode === "custom") {
+      if (!payload.ip_lookup_url) {
+        toast.error(t("admin.ipLocationSettings.ipLookupUrlRequired"));
+        return false;
+      }
+      if (!isHttpUrl(payload.ip_lookup_url)) {
+        toast.error(t("admin.ipLocationSettings.ipLookupUrlInvalid"), {
+          description: t("admin.ipLocationSettings.httpUrlRequired"),
+        });
+        return false;
+      }
+    }
+    if (payload.cidr_mode === "custom") {
+      if (!payload.cidr_url) {
+        toast.error(t("admin.ipLocationSettings.cidrUrlRequired"));
+        return false;
+      }
+      if (!isHttpUrl(payload.cidr_url)) {
+        toast.error(t("admin.ipLocationSettings.cidrUrlInvalid"), {
+          description: t("admin.ipLocationSettings.httpUrlRequired"),
+        });
+        return false;
+      }
+    }
+    return true;
+  };
+
+  const { isPending: isLoading, run: runLoadSettings } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.ipLocationSettings.loadFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.ipLocationSettings.loadFailedDescription"),
+        ),
+      });
+    },
+  });
+  const showLoadingSkeleton = useDelayedLoading(isLoading);
+  const { isPending: isSaving, run: runSaveSettings } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.ipLocationSettings.saveFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.ipLocationSettings.saveFailedDescription"),
+        ),
+      });
+    },
+  });
+  const { isPending: isTestingIpLookup, run: runTestIpLookup } = useAsyncAction(
+    {
+      onError: (error) => {
+        toast.error(t("admin.ipLocationSettings.connectionFailed"), {
+          description: extractErrorMessage(
+            error,
+            t("admin.ipLocationSettings.ipLookupUnavailable"),
+          ),
+        });
+      },
+    },
+  );
+  const { isPending: isTestingCidr, run: runTestCidr } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.ipLocationSettings.connectionFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.ipLocationSettings.cidrUnavailable"),
+        ),
+      });
+    },
+  });
+
+  const isDirty = computed(() => {
+    if (!settings.value) return false;
+    const payload = currentPayload.value;
+    return (
+      settings.value.ip_lookup_mode !== payload.ip_lookup_mode ||
+      settings.value.ip_lookup_url !== payload.ip_lookup_url ||
+      settings.value.cidr_mode !== payload.cidr_mode ||
+      settings.value.cidr_url !== payload.cidr_url
+    );
+  });
+
+  const applyFromSettings = (data: IpLocationApiConfig) => {
+    const normalized = normalizeIpLocationSettings(data);
+    settings.value = normalized;
+    form.ip_lookup_mode = normalized.ip_lookup_mode;
+    form.cidr_mode = normalized.cidr_mode;
+    ipLookupUrlInput.value =
+      normalized.ip_lookup_mode === "custom" ? normalized.ip_lookup_url : "";
+    cidrUrlInput.value =
+      normalized.cidr_mode === "custom" ? normalized.cidr_url : "";
+    applyDefaultCustomUrls();
+  };
+  const fetchSettings = async () => {
+    await runLoadSettings(async () => {
+      applyFromSettings(await IpLocationSettingsAPI.getSettings());
+    });
+  };
+  const resetForm = () => {
+    if (settings.value) applyFromSettings(settings.value);
+  };
+
+  const validateTestUrl = (value: string, kind: "ipLookup" | "cidr") => {
+    const url = normalizeIpLocationBaseUrl(value);
+    if (!url) {
+      toast.error(
+        t(
+          kind === "ipLookup"
+            ? "admin.ipLocationSettings.ipLookupUrlInputRequired"
+            : "admin.ipLocationSettings.cidrUrlInputRequired",
+        ),
+      );
+      return "";
+    }
+    if (!isHttpUrl(url)) {
+      toast.error(
+        t(
+          kind === "ipLookup"
+            ? "admin.ipLocationSettings.ipLookupUrlInvalid"
+            : "admin.ipLocationSettings.cidrUrlInvalid",
+        ),
+        { description: t("admin.ipLocationSettings.httpUrlRequired") },
+      );
+      return "";
+    }
+    return url;
+  };
+
+  const testIpLookupService = async () => {
+    const url = validateTestUrl(ipLookupUrlInput.value, "ipLookup");
+    if (!url) return;
+    await runTestIpLookup(async () => {
+      const result = await IpLocationSettingsAPI.testIpLookup(url);
+      if (result.success) {
+        toast.success(t("admin.ipLocationSettings.connectionSuccess"), {
+          description: t("admin.ipLocationSettings.ipLookupHealthy"),
+        });
+      } else {
+        toast.error(t("admin.ipLocationSettings.connectionFailed"), {
+          description:
+            result.message ||
+            result.msg ||
+            t("admin.ipLocationSettings.ipLookupUnavailable"),
+        });
+      }
+    });
+  };
+  const testCidrService = async () => {
+    const url = validateTestUrl(cidrUrlInput.value, "cidr");
+    if (!url) return;
+    await runTestCidr(async () => {
+      const result = await IpLocationSettingsAPI.testCidr(url);
+      if (!result.success) {
+        toast.error(t("admin.ipLocationSettings.connectionFailed"), {
+          description:
+            result.message || t("admin.ipLocationSettings.cidrUnavailable"),
+        });
+        return;
+      }
+      if (result.capabilities?.operatorFiltering.supported === false) {
+        toast.warning(t("admin.ipLocationSettings.cidrUpgradeRequiredTitle"), {
+          description: t("admin.ipLocationSettings.cidrUpgradeRequired", {
+            version:
+              result.capabilities.operatorFiltering.minimumContainerVersion,
+          }),
+        });
+      } else {
+        toast.success(t("admin.ipLocationSettings.connectionSuccess"), {
+          description: t("admin.ipLocationSettings.cidrHealthy"),
+        });
+      }
+    });
+  };
+  const saveSettings = async () => {
+    const payload = currentPayload.value;
+    if (!validateCustomUrls(payload)) return;
+    await runSaveSettings(() => IpLocationSettingsAPI.updateSettings(payload), {
+      onSuccess: (data) => {
+        applyFromSettings(data);
+        toast.success(t("admin.ipLocationSettings.settingsUpdated"));
+      },
+    });
+  };
+
+  watch(
+    () => [form.ip_lookup_mode, form.cidr_mode] as const,
+    applyDefaultCustomUrls,
+  );
+  onMounted(() => {
+    void fetchSettings();
+  });
+
+  return {
+    cidrDockerUrl: "https://hub.docker.com/r/kcilnk/go-cidr-api",
+    cidrUrlInput,
+    form,
+    ipLookupDockerUrl: "https://hub.docker.com/r/kcilnk/go-ipaddress-api",
+    ipLookupUrlInput,
+    isDirty,
+    isLoading,
+    isSaving,
+    isTestingCidr,
+    isTestingIpLookup,
+    resetForm,
+    saveSettings,
+    showLoadingSkeleton,
+    t,
+    testCidrService,
+    testIpLookupService,
+  };
+};

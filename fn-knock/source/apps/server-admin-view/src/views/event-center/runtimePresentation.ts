@@ -1,1 +1,41 @@
-aW1wb3J0IHR5cGUgewogIFJ1bnRpbWVIZWFsdGhTdGF0dXMsCiAgUnVudGltZU9wZXJhdGlvbmFsTG9nRW50cnksCiAgU3lzdGVtRXZlbnRSZWNvcmQsCn0gZnJvbSAiQC90eXBlcyI7CgpleHBvcnQgY29uc3QgZm9ybWF0UnVudGltZURhdGUgPSAodmFsdWU/OiBzdHJpbmcgfCBudWxsKSA9PgogIHZhbHVlID8gbmV3IERhdGUodmFsdWUpLnRvTG9jYWxlU3RyaW5nKCkgOiAiLSI7CgpleHBvcnQgY29uc3QgZm9ybWF0UnVudGltZUJ5dGVzID0gKGJ5dGVzPzogbnVtYmVyIHwgbnVsbCkgPT4gewogIGlmIChieXRlcyA9PT0gdW5kZWZpbmVkIHx8IGJ5dGVzID09PSBudWxsKSByZXR1cm4gIi0iOwogIGlmIChieXRlcyA8IDEwMjQpIHJldHVybiBgJHtieXRlc30gQmA7CiAgaWYgKGJ5dGVzIDwgMTAyNCAqIDEwMjQpIHJldHVybiBgJHsoYnl0ZXMgLyAxMDI0KS50b0ZpeGVkKDEpfSBLaUJgOwogIHJldHVybiBgJHsoYnl0ZXMgLyAxMDI0IC8gMTAyNCkudG9GaXhlZCgyKX0gTWlCYDsKfTsKCmV4cG9ydCBjb25zdCBydW50aW1lU3RhdHVzQ2xhc3MgPSAoc3RhdHVzOiBSdW50aW1lSGVhbHRoU3RhdHVzKSA9PiB7CiAgaWYgKHN0YXR1cyA9PT0gImhlYWx0aHkiKSB7CiAgICByZXR1cm4gImJvcmRlci1lbWVyYWxkLTUwMC8zMCBiZy1lbWVyYWxkLTUwMC8xMCB0ZXh0LWVtZXJhbGQtNzAwIjsKICB9CiAgaWYgKHN0YXR1cyA9PT0gImRlZ3JhZGVkIiB8fCBzdGF0dXMgPT09ICJibG9ja2VkIikgewogICAgcmV0dXJuICJib3JkZXItYW1iZXItNTAwLzMwIGJnLWFtYmVyLTUwMC8xMCB0ZXh0LWFtYmVyLTcwMCI7CiAgfQogIGlmIChzdGF0dXMgPT09ICJ1bmhlYWx0aHkiKSB7CiAgICByZXR1cm4gImJvcmRlci1yZWQtNTAwLzMwIGJnLXJlZC01MDAvMTAgdGV4dC1yZWQtNzAwIjsKICB9CiAgcmV0dXJuICJib3JkZXItc2xhdGUtNDAwLzMwIGJnLXNsYXRlLTQwMC8xMCB0ZXh0LXNsYXRlLTYwMCI7Cn07CgpleHBvcnQgY29uc3QgZ2V0UnVudGltZUV2ZW50Q29tcG9uZW50ID0gKGV2ZW50OiBTeXN0ZW1FdmVudFJlY29yZCkgPT4KICBTdHJpbmcoZXZlbnQucGF5bG9hZD8uY29tcG9uZW50IHx8IGV2ZW50LnN1YmplY3Q/LmlkIHx8ICItIik7CgpleHBvcnQgY29uc3QgZm9ybWF0UnVudGltZUxvZ0xpbmUgPSAoZW50cnk6IFJ1bnRpbWVPcGVyYXRpb25hbExvZ0VudHJ5KSA9PiB7CiAgY29uc3QgZmllbGRzID0KICAgIGVudHJ5LmZpZWxkcyAmJiBPYmplY3Qua2V5cyhlbnRyeS5maWVsZHMpLmxlbmd0aAogICAgICA/IGAgJHtKU09OLnN0cmluZ2lmeShlbnRyeS5maWVsZHMpfWAKICAgICAgOiAiIjsKICByZXR1cm4gYCR7ZW50cnkudGltZX0gWyR7ZW50cnkubGV2ZWx9XSAke2VudHJ5LmNvbXBvbmVudH0vJHtlbnRyeS5ldmVudH0kewogICAgZW50cnkucmVhc29uX2NvZGUgPyBgICgke2VudHJ5LnJlYXNvbl9jb2RlfSlgIDogIiIKICB9JHtmaWVsZHN9YDsKfTsK
+import type {
+  RuntimeHealthStatus,
+  RuntimeOperationalLogEntry,
+  SystemEventRecord,
+} from "@/types";
+
+export const formatRuntimeDate = (value?: string | null) =>
+  value ? new Date(value).toLocaleString() : "-";
+
+export const formatRuntimeBytes = (bytes?: number | null) => {
+  if (bytes === undefined || bytes === null) return "-";
+  if (bytes < 1024) return `${bytes} B`;
+  if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KiB`;
+  return `${(bytes / 1024 / 1024).toFixed(2)} MiB`;
+};
+
+export const runtimeStatusClass = (status: RuntimeHealthStatus) => {
+  if (status === "healthy") {
+    return "border-emerald-500/30 bg-emerald-500/10 text-emerald-700";
+  }
+  if (status === "degraded" || status === "blocked") {
+    return "border-amber-500/30 bg-amber-500/10 text-amber-700";
+  }
+  if (status === "unhealthy") {
+    return "border-red-500/30 bg-red-500/10 text-red-700";
+  }
+  return "border-slate-400/30 bg-slate-400/10 text-slate-600";
+};
+
+export const getRuntimeEventComponent = (event: SystemEventRecord) =>
+  String(event.payload?.component || event.subject?.id || "-");
+
+export const formatRuntimeLogLine = (entry: RuntimeOperationalLogEntry) => {
+  const fields =
+    entry.fields && Object.keys(entry.fields).length
+      ? ` ${JSON.stringify(entry.fields)}`
+      : "";
+  return `${entry.time} [${entry.level}] ${entry.component}/${entry.event}${
+    entry.reason_code ? ` (${entry.reason_code})` : ""
+  }${fields}`;
+};

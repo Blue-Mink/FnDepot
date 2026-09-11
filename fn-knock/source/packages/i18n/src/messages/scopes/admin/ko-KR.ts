@@ -1,1 +1,13 @@
-aW1wb3J0IHsga29LUkFkbWluIH0gZnJvbSAiLi4vLi4vYWRtaW4va28tS1IiOwppbXBvcnQgeyBrb0tSQXV0aCB9IGZyb20gIi4uLy4uL2F1dGgva28tS1IiOwppbXBvcnQgeyBrb0tSQ29tbW9uIH0gZnJvbSAiLi4vLi4vY29tbW9uL2tvLUtSIjsKaW1wb3J0IHsga29LUkxvY2FsZSB9IGZyb20gIi4uLy4uL2xvY2FsZS9rby1LUiI7CmltcG9ydCB7IGtvS1JTaGFyZWQgfSBmcm9tICIuLi8uLi9zaGFyZWQva28tS1IiOwoKZXhwb3J0IGRlZmF1bHQgewogIGNvbW1vbjoga29LUkNvbW1vbiwKICBsb2NhbGU6IGtvS1JMb2NhbGUsCiAgc2hhcmVkOiBrb0tSU2hhcmVkLAogIGFkbWluOiBrb0tSQWRtaW4sCiAgYXV0aDoga29LUkF1dGgsCn07Cg==
+import { koKRAdmin } from "../../admin/ko-KR";
+import { koKRAuth } from "../../auth/ko-KR";
+import { koKRCommon } from "../../common/ko-KR";
+import { koKRLocale } from "../../locale/ko-KR";
+import { koKRShared } from "../../shared/ko-KR";
+
+export default {
+  common: koKRCommon,
+  locale: koKRLocale,
+  shared: koKRShared,
+  admin: koKRAdmin,
+  auth: koKRAuth,
+};

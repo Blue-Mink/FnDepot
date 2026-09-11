@@ -1,1 +1,87 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgppbXBvcnQgewogIGZvcm1hdEFkdmFuY2VkQXV0aFZhbHVlTGlzdCwKICBnZXRTb3VyY2VOZXR3b3JrVmFsaWRhdGlvbklzc3VlLAogIHBhcnNlQWR2YW5jZWRBdXRoVmFsdWVMaXN0LAogIHBhcnNlU291cmNlTmV0d29ya1RleHRhcmVhLAp9IGZyb20gIi4uL3NyYy92aWV3cy9zdWJkb21haW4tcHJveHkvYWR2YW5jZWQtYXV0aC1zb3VyY2UtbmV0d29yayI7CgpkZXNjcmliZSgiYWR2YW5jZWQgYXV0aGVudGljYXRpb24gc291cmNlIG5ldHdvcmtzIiwgKCkgPT4gewogIGl0KCJwYXJzZXMsIHRyaW1zLCBhbmQgZGVkdXBsaWNhdGVzIGNvbXBhY3QgSVB2NCBhbmQgSVB2NiB2YWx1ZXMiLCAoKSA9PiB7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBwYXJzZVNvdXJjZU5ldHdvcmtUZXh0YXJlYSgKICAgICAgICAiIDE5Mi4wLjIuMTAgXHJcbjIwMDE6ZGI4OjoxMFxuMTkyLjAuMi4xMO+8jDIwMDE6REI4OjoxMCIsCiAgICAgICksCiAgICAgIFsiMTkyLjAuMi4xMCIsICIyMDAxOmRiODo6MTAiXSwKICAgICk7CiAgfSk7CgogIGl0KCJwYXJzZXMgY29tbWEtc2VwYXJhdGVkIHZhbHVlcyB3aXRob3V0IGxvc2luZyBxdW90ZWQgY29tbWFzIiwgKCkgPT4gewogICAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgICAgcGFyc2VBZHZhbmNlZEF1dGhWYWx1ZUxpc3QoCiAgICAgICAgJyBhbHBoYSwgImNvbnRhaW5zLGNvbW1hIu+8jCJzYXkgIiJoZWxsbyIiIlxuIGJldGEgJywKICAgICAgKSwKICAgICAgWyJhbHBoYSIsICJjb250YWlucyxjb21tYSIsICdzYXkgImhlbGxvIicsICJiZXRhIl0sCiAgICApOwogIH0pOwoKICBpdCgiZm9ybWF0cyBhbmQgcGFyc2VzIGNvbXBhY3QgdmFsdWVzIHdpdGhvdXQgY2hhbmdpbmcgdGhlaXIgY29udGVudHMiLCAoKSA9PiB7CiAgICBjb25zdCB2YWx1ZXMgPSBbCiAgICAgICJwbGFpbiIsCiAgICAgICJjb250YWlucyxjb21tYSIsCiAgICAgICLljIXlkKvvvIzpgJflj7ciLAogICAgICAnc2F5ICJoZWxsbyInLAogICAgICAiIHBhZGRlZCAiLAogICAgXTsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIHBhcnNlQWR2YW5jZWRBdXRoVmFsdWVMaXN0KGZvcm1hdEFkdmFuY2VkQXV0aFZhbHVlTGlzdCh2YWx1ZXMpKSwKICAgICAgdmFsdWVzLAogICAgKTsKICB9KTsKCiAgaXQoImFjY2VwdHMgbXVsdGlwbGUgSVB2NCBhbmQgSVB2NiBhZGRyZXNzZXMgZm9yIGV4YWN0IG9wZXJhdG9ycyIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgZ2V0U291cmNlTmV0d29ya1ZhbGlkYXRpb25Jc3N1ZShbIjE5Mi4wLjIuMTAiLCAiMjAwMTpkYjg6OjEwIl0sICJlcXVhbHMiKSwKICAgICAgbnVsbCwKICAgICk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBnZXRTb3VyY2VOZXR3b3JrVmFsaWRhdGlvbklzc3VlKAogICAgICAgIFsiMTkyLjAuMi4xMCIsICIyMDAxOmRiODo6LzMyIl0sCiAgICAgICAgIm5vdF9lcXVhbHMiLAogICAgICApLAogICAgICB7IGtpbmQ6ICJhZGRyZXNzIiwgbGluZTogMiB9LAogICAgKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIGdldFNvdXJjZU5ldHdvcmtWYWxpZGF0aW9uSXNzdWUoCiAgICAgICAgWyIyMDAxOmRiODo6MTAiLCAiMjAwMTpkYjg6OjoxMSJdLAogICAgICAgICJlcXVhbHMiLAogICAgICApLAogICAgICB7IGtpbmQ6ICJhZGRyZXNzIiwgbGluZTogMiB9LAogICAgKTsKICB9KTsKCiAgaXQoImFjY2VwdHMgbXVsdGlwbGUgSVB2NCBhbmQgSVB2NiBDSURScyBhbmQgcmVqZWN0cyBiYXJlIGFkZHJlc3NlcyIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgZ2V0U291cmNlTmV0d29ya1ZhbGlkYXRpb25Jc3N1ZSgKICAgICAgICBbIjE5Mi4wLjIuMC8yNCIsICIyMDAxOmRiODo6LzMyIl0sCiAgICAgICAgImluX2NpZHIiLAogICAgICApLAogICAgICBudWxsLAogICAgKTsKICAgIGFzc2VydC5kZWVwRXF1YWwoCiAgICAgIGdldFNvdXJjZU5ldHdvcmtWYWxpZGF0aW9uSXNzdWUoCiAgICAgICAgWyIxOTIuMC4yLjAvMjQiLCAiMjAwMTpkYjg6OjEwIl0sCiAgICAgICAgIm5vdF9pbl9jaWRyIiwKICAgICAgKSwKICAgICAgeyBraW5kOiAiY2lkciIsIGxpbmU6IDIgfSwKICAgICk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBnZXRTb3VyY2VOZXR3b3JrVmFsaWRhdGlvbklzc3VlKFsiOjovMCIsICIyMDAxOmRiODo6LzEyOSJdLCAiaW5fY2lkciIpLAogICAgICB7IGtpbmQ6ICJjaWRyIiwgbGluZTogMiB9LAogICAgKTsKICB9KTsKfSk7Cg==
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import {
+  formatAdvancedAuthValueList,
+  getSourceNetworkValidationIssue,
+  parseAdvancedAuthValueList,
+  parseSourceNetworkTextarea,
+} from "../src/views/subdomain-proxy/advanced-auth-source-network";
+
+describe("advanced authentication source networks", () => {
+  it("parses, trims, and deduplicates compact IPv4 and IPv6 values", () => {
+    assert.deepEqual(
+      parseSourceNetworkTextarea(
+        " 192.0.2.10 \r\n2001:db8::10\n192.0.2.10，2001:DB8::10",
+      ),
+      ["192.0.2.10", "2001:db8::10"],
+    );
+  });
+
+  it("parses comma-separated values without losing quoted commas", () => {
+    assert.deepEqual(
+      parseAdvancedAuthValueList(
+        ' alpha, "contains,comma"，"say ""hello"""\n beta ',
+      ),
+      ["alpha", "contains,comma", 'say "hello"', "beta"],
+    );
+  });
+
+  it("formats and parses compact values without changing their contents", () => {
+    const values = [
+      "plain",
+      "contains,comma",
+      "包含，逗号",
+      'say "hello"',
+      " padded ",
+    ];
+    assert.deepEqual(
+      parseAdvancedAuthValueList(formatAdvancedAuthValueList(values)),
+      values,
+    );
+  });
+
+  it("accepts multiple IPv4 and IPv6 addresses for exact operators", () => {
+    assert.equal(
+      getSourceNetworkValidationIssue(["192.0.2.10", "2001:db8::10"], "equals"),
+      null,
+    );
+    assert.deepEqual(
+      getSourceNetworkValidationIssue(
+        ["192.0.2.10", "2001:db8::/32"],
+        "not_equals",
+      ),
+      { kind: "address", line: 2 },
+    );
+    assert.deepEqual(
+      getSourceNetworkValidationIssue(
+        ["2001:db8::10", "2001:db8:::11"],
+        "equals",
+      ),
+      { kind: "address", line: 2 },
+    );
+  });
+
+  it("accepts multiple IPv4 and IPv6 CIDRs and rejects bare addresses", () => {
+    assert.equal(
+      getSourceNetworkValidationIssue(
+        ["192.0.2.0/24", "2001:db8::/32"],
+        "in_cidr",
+      ),
+      null,
+    );
+    assert.deepEqual(
+      getSourceNetworkValidationIssue(
+        ["192.0.2.0/24", "2001:db8::10"],
+        "not_in_cidr",
+      ),
+      { kind: "cidr", line: 2 },
+    );
+    assert.deepEqual(
+      getSourceNetworkValidationIssue(["::/0", "2001:db8::/129"], "in_cidr"),
+      { kind: "cidr", line: 2 },
+    );
+  });
+});

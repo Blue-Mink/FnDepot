@@ -1,1 +1,377 @@
-dXNlIHN1cGVyOjoqOwoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnKV0KcHViKGNyYXRlKSBzdHJ1Y3QgUHVibGljSG9zdExpbmtDb250ZXh0IHsKICAgIHNjaGVtZTogJidzdGF0aWMgc3RyLAogICAgYWNjZXNzX2VudHJ5X3BvcnQ6IFN0cmluZywKICAgIG9taXRfYWNjZXNzX2VudHJ5X3BvcnQ6IGJvb2wsCn0KCnB1YihjcmF0ZSkgZm4gcHVibGljX2hvc3RfbGlua19jb250ZXh0KGNvbmZpZzogJlZhbHVlKSAtPiBQdWJsaWNIb3N0TGlua0NvbnRleHQgewogICAgbGV0IHNjaGVtZSA9IHJlc29sdmVfYm9va21hcmtfc2NoZW1lKGNvbmZpZyk7CiAgICBsZXQgcmF3X3B1YmxpY19iYXNlX3VybCA9IGNvbmZpZwogICAgICAgIC5wb2ludGVyKCIvc3ViZG9tYWluX21vZGUvcHVibGljX2F1dGhfYmFzZV91cmwiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3IoIiIpOwogICAgbGV0IHJlc29sdmVkX3B1YmxpY19wb3J0ID0KICAgICAgICByZXNvbHZlX3B1YmxpY19wb3J0X2Zvcl9zY2hlbWUoY29uZmlnLCBzY2hlbWUsIHJhd19wdWJsaWNfYmFzZV91cmwsIHRydWUsIGZhbHNlKTsKICAgIFB1YmxpY0hvc3RMaW5rQ29udGV4dCB7CiAgICAgICAgc2NoZW1lLAogICAgICAgIGFjY2Vzc19lbnRyeV9wb3J0OiByZXNvbHZlZF9wdWJsaWNfcG9ydAogICAgICAgICAgICAubWFwKHxwb3J0fCBwb3J0LnRvX3N0cmluZygpKQogICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofHwgY3JhdGU6OnN5c3RlbV9pbmZvOjpyZXNvbHZlX2FjY2Vzc19lbnRyeV9wb3J0KGNvbmZpZykpLAogICAgICAgIG9taXRfYWNjZXNzX2VudHJ5X3BvcnQ6IHNob3VsZF9vbWl0X3B1YmxpY19hY2Nlc3NfZW50cnlfcG9ydChjb25maWcpCiAgICAgICAgICAgICYmIHJlc29sdmVkX3B1YmxpY19wb3J0LmlzX25vbmUoKSwKICAgIH0KfQoKcHViKGNyYXRlKSBmbiBwdWJsaWNfaG9zdF91cmwoY29udGV4dDogJlB1YmxpY0hvc3RMaW5rQ29udGV4dCwgaG9zdDogJnN0cikgLT4gU3RyaW5nIHsKICAgIGJ1aWxkX2Jvb2ttYXJrX3VybCgKICAgICAgICBob3N0LAogICAgICAgIGNvbnRleHQuc2NoZW1lLAogICAgICAgIFNvbWUoJmNvbnRleHQuYWNjZXNzX2VudHJ5X3BvcnQpLAogICAgICAgIGNvbnRleHQub21pdF9hY2Nlc3NfZW50cnlfcG9ydCwKICAgICkKfQoKcHViKGNyYXRlKSBmbiByZXNvbHZlX3B1YmxpY19ob3N0X3RpdGxlKG9iamVjdDogJk1hcDxTdHJpbmcsIFZhbHVlPiwgaG9zdDogJnN0cikgLT4gU3RyaW5nIHsKICAgIHJlc29sdmVfYm9va21hcmtfdGl0bGUob2JqZWN0LCBob3N0KQp9CgpwdWIoc3VwZXIpIHVzZSBjcmF0ZTo6aHR0cF91dGlsczo6aHRtbF9lc2NhcGUgYXMgZXNjYXBlX2h0bWw7CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX2Jvb2ttYXJrc19kb2N1bWVudCgKICAgIGNvbmZpZzogJlZhbHVlLAogICAgdHJhbnNsYXRvcjogJmNyYXRlOjppMThuOjpUcmFuc2xhdG9yLAopIC0+IFN0cmluZyB7CiAgICBsZXQgc2NoZW1lID0gcmVzb2x2ZV9ib29rbWFya19zY2hlbWUoY29uZmlnKTsKICAgIGxldCByYXdfcHVibGljX2Jhc2VfdXJsID0gY29uZmlnCiAgICAgICAgLnBvaW50ZXIoIi9zdWJkb21haW5fbW9kZS9wdWJsaWNfYXV0aF9iYXNlX3VybCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcigiIik7CiAgICBsZXQgcmVzb2x2ZWRfcHVibGljX3BvcnQgPQogICAgICAgIHJlc29sdmVfcHVibGljX3BvcnRfZm9yX3NjaGVtZShjb25maWcsIHNjaGVtZSwgcmF3X3B1YmxpY19iYXNlX3VybCwgdHJ1ZSwgZmFsc2UpOwogICAgbGV0IGFjY2Vzc19lbnRyeV9wb3J0ID0gcmVzb2x2ZWRfcHVibGljX3BvcnQKICAgICAgICAubWFwKHxwb3J0fCBwb3J0LnRvX3N0cmluZygpKQogICAgICAgIC51bndyYXBfb3JfZWxzZSh8fCBjcmF0ZTo6c3lzdGVtX2luZm86OnJlc29sdmVfYWNjZXNzX2VudHJ5X3BvcnQoY29uZmlnKSk7CiAgICBsZXQgb21pdF9hY2Nlc3NfZW50cnlfcG9ydCA9CiAgICAgICAgc2hvdWxkX29taXRfcHVibGljX2FjY2Vzc19lbnRyeV9wb3J0KGNvbmZpZykgJiYgcmVzb2x2ZWRfcHVibGljX3BvcnQuaXNfbm9uZSgpOwogICAgbGV0IHJvb3RfZG9tYWluID0gY29uZmlnCiAgICAgICAgLnBvaW50ZXIoIi9zdWJkb21haW5fbW9kZS9yb290X2RvbWFpbiIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLnVud3JhcF9vcigiIik7CiAgICBsZXQgZm9sZGVyX3RpdGxlID0gaWYgcm9vdF9kb21haW4uaXNfZW1wdHkoKSB7CiAgICAgICAgdHJhbnNsYXRvci50KCJzZXJ2ZXIuYWRtaW4uaG9zdE1hcHBpbmdzLmJvb2ttYXJrRm9sZGVyRGVmYXVsdCIpCiAgICB9IGVsc2UgewogICAgICAgIHRyYW5zbGF0b3IudF9wYXJhbXMoCiAgICAgICAgICAgICJzZXJ2ZXIuYWRtaW4uaG9zdE1hcHBpbmdzLmJvb2ttYXJrRm9sZGVyRm9yUm9vdCIsCiAgICAgICAgICAgICZbKCJyb290Iiwgcm9vdF9kb21haW4udG9fc3RyaW5nKCkpXSwKICAgICAgICApCiAgICB9OwogICAgbGV0IGFkZF9kYXRlID0gdGltZTo6T2Zmc2V0RGF0ZVRpbWU6Om5vd191dGMoKS51bml4X3RpbWVzdGFtcCgpOwogICAgbGV0IG11dCBsaW5lcyA9IHZlYyFbCiAgICAgICAgIjwhRE9DVFlQRSBORVRTQ0FQRS1Cb29rbWFyay1maWxlLTE+Ii50b19zdHJpbmcoKSwKICAgICAgICAiPCEtLSBUaGlzIGlzIGFuIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkIGZpbGUuIi50b19zdHJpbmcoKSwKICAgICAgICAiICAgICBJdCB3aWxsIGJlIHJlYWQgYW5kIG92ZXJ3cml0dGVuLiIudG9fc3RyaW5nKCksCiAgICAgICAgIiAgICAgRE8gTk9UIEVESVQhIC0tPiIudG9fc3RyaW5nKCksCiAgICAgICAgIjxNRVRBIEhUVFAtRVFVSVY9XCJDb250ZW50LVR5cGVcIiBDT05URU5UPVwidGV4dC9odG1sOyBjaGFyc2V0PVVURi04XCI+Ii50b19zdHJpbmcoKSwKICAgICAgICAiPFRJVExFPkJvb2ttYXJrczwvVElUTEU+Ii50b19zdHJpbmcoKSwKICAgICAgICAiPEgxPkJvb2ttYXJrczwvSDE+Ii50b19zdHJpbmcoKSwKICAgICAgICAiPERMPjxwPiIudG9fc3RyaW5nKCksCiAgICAgICAgZm9ybWF0ISgKICAgICAgICAgICAgIiAgPERUPjxIMyBBRERfREFURT1cInthZGRfZGF0ZX1cIiBMQVNUX01PRElGSUVEPVwie2FkZF9kYXRlfVwiPnt9PC9IMz4iLAogICAgICAgICAgICBlc2NhcGVfaHRtbCgmZm9sZGVyX3RpdGxlKQogICAgICAgICksCiAgICAgICAgIiAgPERMPjxwPiIudG9fc3RyaW5nKCksCiAgICBdOwogICAgbGV0IG1hcHBpbmdzID0gY29uZmlnCiAgICAgICAgLmdldCgiaG9zdF9tYXBwaW5ncyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBncm91cHMgPSBpZiBob3N0X21hcHBpbmdfZ3JvdXBlZF92aWV3X2Zyb21fY29uZmlnKGNvbmZpZykgewogICAgICAgIG5vcm1hbGl6ZV9ob3N0X21hcHBpbmdfZ3JvdXBzKGhvc3RfbWFwcGluZ19ncm91cHNfZnJvbV9jb25maWcoY29uZmlnKSkudW53cmFwX29yX2RlZmF1bHQoKQogICAgfSBlbHNlIHsKICAgICAgICBWZWM6Om5ldygpCiAgICB9OwogICAgaWYgZ3JvdXBzLmlzX2VtcHR5KCkgewogICAgICAgIGZvciBtYXBwaW5nIGluICZtYXBwaW5ncyB7CiAgICAgICAgICAgIGFwcGVuZF9ib29rbWFya19tYXBwaW5nKAogICAgICAgICAgICAgICAgJm11dCBsaW5lcywKICAgICAgICAgICAgICAgIG1hcHBpbmcsCiAgICAgICAgICAgICAgICAiICAgICIsCiAgICAgICAgICAgICAgICBzY2hlbWUsCiAgICAgICAgICAgICAgICAmYWNjZXNzX2VudHJ5X3BvcnQsCiAgICAgICAgICAgICAgICBvbWl0X2FjY2Vzc19lbnRyeV9wb3J0LAogICAgICAgICAgICAgICAgYWRkX2RhdGUsCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfSBlbHNlIHsKICAgICAgICBsZXQgdmFsaWRfZ3JvdXBfaWRzID0gZ3JvdXBzCiAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgLmZpbHRlcl9tYXAofGdyb3VwfCBncm91cC5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpCiAgICAgICAgICAgIC5jb2xsZWN0Ojo8SGFzaFNldDxfPj4oKTsKICAgICAgICBmb3IgZ3JvdXAgaW4gJmdyb3VwcyB7CiAgICAgICAgICAgIGxldCBTb21lKGdyb3VwX2lkKSA9IGdyb3VwLmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICB9OwogICAgICAgICAgICBsZXQgbWVtYmVycyA9IG1hcHBpbmdzCiAgICAgICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgICAgICAuZmlsdGVyKHxtYXBwaW5nfCB7CiAgICAgICAgICAgICAgICAgICAgIW1hcHBpbmcKICAgICAgICAgICAgICAgICAgICAgICAgLmdldCgidGFyZ2V0IikKICAgICAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5pc19zb21lX2FuZChpc19hdXRoX3NlcnZpY2VfdGFyZ2V0KQogICAgICAgICAgICAgICAgICAgICAgICAmJiBtYXBwaW5nLmdldCgiZ3JvdXBfaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKGdyb3VwX2lkKQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgICAgICAgICBpZiBtZW1iZXJzLmlzX2VtcHR5KCkgewogICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgbGV0IG5hbWUgPSBncm91cC5nZXQoIm5hbWUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpOwogICAgICAgICAgICBhcHBlbmRfYm9va21hcmtfZ3JvdXBfc3RhcnQoJm11dCBsaW5lcywgbmFtZSwgYWRkX2RhdGUpOwogICAgICAgICAgICBmb3IgbWFwcGluZyBpbiBtZW1iZXJzIHsKICAgICAgICAgICAgICAgIGFwcGVuZF9ib29rbWFya19tYXBwaW5nKAogICAgICAgICAgICAgICAgICAgICZtdXQgbGluZXMsCiAgICAgICAgICAgICAgICAgICAgbWFwcGluZywKICAgICAgICAgICAgICAgICAgICAiICAgICAgIiwKICAgICAgICAgICAgICAgICAgICBzY2hlbWUsCiAgICAgICAgICAgICAgICAgICAgJmFjY2Vzc19lbnRyeV9wb3J0LAogICAgICAgICAgICAgICAgICAgIG9taXRfYWNjZXNzX2VudHJ5X3BvcnQsCiAgICAgICAgICAgICAgICAgICAgYWRkX2RhdGUsCiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGFwcGVuZF9ib29rbWFya19ncm91cF9lbmQoJm11dCBsaW5lcyk7CiAgICAgICAgfQogICAgICAgIGxldCB1bmdyb3VwZWQgPSBtYXBwaW5ncwogICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgIC5maWx0ZXIofG1hcHBpbmd8IHsKICAgICAgICAgICAgICAgICFtYXBwaW5nCiAgICAgICAgICAgICAgICAgICAgLmdldCgidGFyZ2V0IikKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAuaXNfc29tZV9hbmQoaXNfYXV0aF9zZXJ2aWNlX3RhcmdldCkKICAgICAgICAgICAgICAgICAgICAmJiBtYXBwaW5nCiAgICAgICAgICAgICAgICAgICAgICAgIC5nZXQoImdyb3VwX2lkIikKICAgICAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5pc19ub25lX29yKHxpZHwgIXZhbGlkX2dyb3VwX2lkcy5jb250YWlucyhpZCkpCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgICAgIGlmICF1bmdyb3VwZWQuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIGFwcGVuZF9ib29rbWFya19ncm91cF9zdGFydCgKICAgICAgICAgICAgICAgICZtdXQgbGluZXMsCiAgICAgICAgICAgICAgICAmdHJhbnNsYXRvci50KCJzZXJ2ZXIuYWRtaW4uaG9zdE1hcHBpbmdzLnVuZ3JvdXBlZCIpLAogICAgICAgICAgICAgICAgYWRkX2RhdGUsCiAgICAgICAgICAgICk7CiAgICAgICAgICAgIGZvciBtYXBwaW5nIGluIHVuZ3JvdXBlZCB7CiAgICAgICAgICAgICAgICBhcHBlbmRfYm9va21hcmtfbWFwcGluZygKICAgICAgICAgICAgICAgICAgICAmbXV0IGxpbmVzLAogICAgICAgICAgICAgICAgICAgIG1hcHBpbmcsCiAgICAgICAgICAgICAgICAgICAgIiAgICAgICIsCiAgICAgICAgICAgICAgICAgICAgc2NoZW1lLAogICAgICAgICAgICAgICAgICAgICZhY2Nlc3NfZW50cnlfcG9ydCwKICAgICAgICAgICAgICAgICAgICBvbWl0X2FjY2Vzc19lbnRyeV9wb3J0LAogICAgICAgICAgICAgICAgICAgIGFkZF9kYXRlLAogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBhcHBlbmRfYm9va21hcmtfZ3JvdXBfZW5kKCZtdXQgbGluZXMpOwogICAgICAgIH0KICAgIH0KICAgIGxpbmVzLnB1c2goIiAgPC9ETD48cD4iLnRvX3N0cmluZygpKTsKICAgIGxpbmVzLnB1c2goIjwvREw+PHA+Ii50b19zdHJpbmcoKSk7CiAgICBsaW5lcy5wdXNoKFN0cmluZzo6bmV3KCkpOwogICAgbGluZXMuam9pbigiXG4iKQp9CgpmbiBhcHBlbmRfYm9va21hcmtfZ3JvdXBfc3RhcnQobGluZXM6ICZtdXQgVmVjPFN0cmluZz4sIG5hbWU6ICZzdHIsIGFkZF9kYXRlOiBpNjQpIHsKICAgIGxpbmVzLnB1c2goZm9ybWF0ISgKICAgICAgICAiICAgIDxEVD48SDMgQUREX0RBVEU9XCJ7YWRkX2RhdGV9XCIgTEFTVF9NT0RJRklFRD1cInthZGRfZGF0ZX1cIj57fTwvSDM+IiwKICAgICAgICBlc2NhcGVfaHRtbChuYW1lKQogICAgKSk7CiAgICBsaW5lcy5wdXNoKCIgICAgPERMPjxwPiIudG9fc3RyaW5nKCkpOwp9CgpmbiBhcHBlbmRfYm9va21hcmtfZ3JvdXBfZW5kKGxpbmVzOiAmbXV0IFZlYzxTdHJpbmc+KSB7CiAgICBsaW5lcy5wdXNoKCIgICAgPC9ETD48cD4iLnRvX3N0cmluZygpKTsKfQoKZm4gYXBwZW5kX2Jvb2ttYXJrX21hcHBpbmcoCiAgICBsaW5lczogJm11dCBWZWM8U3RyaW5nPiwKICAgIG1hcHBpbmc6ICZWYWx1ZSwKICAgIGluZGVudDogJnN0ciwKICAgIHNjaGVtZTogJnN0ciwKICAgIGFjY2Vzc19lbnRyeV9wb3J0OiAmc3RyLAogICAgb21pdF9hY2Nlc3NfZW50cnlfcG9ydDogYm9vbCwKICAgIGFkZF9kYXRlOiBpNjQsCikgewogICAgbGV0IFNvbWUob2JqZWN0KSA9IG1hcHBpbmcuYXNfb2JqZWN0KCkgZWxzZSB7CiAgICAgICAgcmV0dXJuOwogICAgfTsKICAgIGlmIG9iamVjdAogICAgICAgIC5nZXQoInRhcmdldCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLmlzX3NvbWVfYW5kKGlzX2F1dGhfc2VydmljZV90YXJnZXQpCiAgICB7CiAgICAgICAgcmV0dXJuOwogICAgfQogICAgbGV0IGhvc3QgPSBvYmplY3QKICAgICAgICAuZ2V0KCJob3N0IikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKG5vcm1hbGl6ZV9ob3N0X3ZhbHVlKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgaWYgaG9zdC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm47CiAgICB9CiAgICBsZXQgaHJlZiA9IGJ1aWxkX2Jvb2ttYXJrX3VybCgKICAgICAgICAmaG9zdCwKICAgICAgICBzY2hlbWUsCiAgICAgICAgU29tZShhY2Nlc3NfZW50cnlfcG9ydCksCiAgICAgICAgb21pdF9hY2Nlc3NfZW50cnlfcG9ydCwKICAgICk7CiAgICBsZXQgdGl0bGUgPSByZXNvbHZlX2Jvb2ttYXJrX3RpdGxlKG9iamVjdCwgJmhvc3QpOwogICAgbGV0IGljb25fYXR0cmlidXRlID0gcmVzb2x2ZV9ob3N0X21hcHBpbmdfaWNvbihvYmplY3QpCiAgICAgICAgLm1hcCh8aWNvbnwgZm9ybWF0ISgiIElDT049XCJ7fVwiIiwgZXNjYXBlX2h0bWwoJmljb24pKSkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxpbmVzLnB1c2goZm9ybWF0ISgKICAgICAgICAie2luZGVudH08RFQ+PEEgSFJFRj1cInt9XCIgQUREX0RBVEU9XCJ7YWRkX2RhdGV9XCJ7aWNvbl9hdHRyaWJ1dGV9Pnt9PC9BPiIsCiAgICAgICAgZXNjYXBlX2h0bWwoJmhyZWYpLAogICAgICAgIGVzY2FwZV9odG1sKCZ0aXRsZSkKICAgICkpOwp9CgpwdWIoc3VwZXIpIGZuIHJlc29sdmVfYm9va21hcmtfc2NoZW1lKGNvbmZpZzogJlZhbHVlKSAtPiAmJ3N0YXRpYyBzdHIgewogICAgbGV0IGNlcnQgPSBjb25maWcKICAgICAgICAucG9pbnRlcigiL3NzbC9jZXJ0IikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAudW53cmFwX29yKCIiKTsKICAgIGxldCBrZXkgPSBjb25maWcKICAgICAgICAucG9pbnRlcigiL3NzbC9rZXkiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC51bndyYXBfb3IoIiIpOwogICAgaWYgIWNlcnQuaXNfZW1wdHkoKSAmJiAha2V5LmlzX2VtcHR5KCkgewogICAgICAgICJodHRwcyIKICAgIH0gZWxzZSB7CiAgICAgICAgImh0dHAiCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gYnVpbGRfYm9va21hcmtfdXJsKAogICAgaG9zdDogJnN0ciwKICAgIHNjaGVtZTogJnN0ciwKICAgIGFjY2Vzc19lbnRyeV9wb3J0OiBPcHRpb248JnN0cj4sCiAgICBvbWl0X2FjY2Vzc19lbnRyeV9wb3J0OiBib29sLAopIC0+IFN0cmluZyB7CiAgICBpZiBvbWl0X2FjY2Vzc19lbnRyeV9wb3J0IHsKICAgICAgICByZXR1cm4gZm9ybWF0ISgie3NjaGVtZX06Ly97aG9zdH0vIik7CiAgICB9CiAgICBsZXQgcG9ydCA9IHJlc29sdmVfYm9va21hcmtfYWNjZXNzX2VudHJ5X3BvcnQoYWNjZXNzX2VudHJ5X3BvcnQpOwogICAgbGV0IHBhcnNlZF9wb3J0ID0gcGFyc2VfanNfcGFyc2VfaW50X3JhZGl4XzEwKCZwb3J0KTsKICAgIGxldCBwb3J0X3N1ZmZpeCA9IGlmIHBvcnQuaXNfZW1wdHkoKQogICAgICAgIHx8IHBhcnNlZF9wb3J0LmlzX3NvbWVfYW5kKHxwb3J0fCBpc19kZWZhdWx0X3NjaGVtZV9wb3J0KHNjaGVtZSwgcG9ydCkpCiAgICB7CiAgICAgICAgU3RyaW5nOjpuZXcoKQogICAgfSBlbHNlIHsKICAgICAgICBmb3JtYXQhKCI6e3BvcnR9IikKICAgIH07CiAgICBmb3JtYXQhKCJ7c2NoZW1lfTovL3tob3N0fXtwb3J0X3N1ZmZpeH0vIikKfQoKcHViKHN1cGVyKSBmbiByZXNvbHZlX2Jvb2ttYXJrX2FjY2Vzc19lbnRyeV9wb3J0KGFjY2Vzc19lbnRyeV9wb3J0OiBPcHRpb248JnN0cj4pIC0+IFN0cmluZyB7CiAgICBsZXQgbm9ybWFsaXplZCA9IGFjY2Vzc19lbnRyeV9wb3J0LnVud3JhcF9vcigiIikudHJpbSgpOwogICAgaWYgbm9ybWFsaXplZC5pc19lbXB0eSgpIHsKICAgICAgICAiNzk5OSIudG9fc3RyaW5nKCkKICAgIH0gZWxzZSB7CiAgICAgICAgbm9ybWFsaXplZC50b19zdHJpbmcoKQogICAgfQp9CgpwdWIoc3VwZXIpIGZuIHJlc29sdmVfYm9va21hcmtfdGl0bGUob2JqZWN0OiAmTWFwPFN0cmluZywgVmFsdWU+LCBob3N0OiAmc3RyKSAtPiBTdHJpbmcgewogICAgbGV0IHRpdGxlX292ZXJyaWRlID0gb2JqZWN0CiAgICAgICAgLmdldCgidGl0bGVfb3ZlcnJpZGUiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC51bndyYXBfb3IoIiIpOwogICAgaWYgIXRpdGxlX292ZXJyaWRlLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiB0aXRsZV9vdmVycmlkZS50b19zdHJpbmcoKTsKICAgIH0KICAgIG9iamVjdAogICAgICAgIC5nZXQoInRpdGxlIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgLnVud3JhcF9vcihob3N0KQogICAgICAgIC50b19zdHJpbmcoKQp9CgpwdWIoc3VwZXIpIGZuIHJlc29sdmVfaG9zdF9tYXBwaW5nX2ljb24ob2JqZWN0OiAmTWFwPFN0cmluZywgVmFsdWU+KSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBbImZhdmljb25fb3ZlcnJpZGUiLCAiZmF2aWNvbiJdCiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLmZpbHRlcl9tYXAofGtleXwgb2JqZWN0LmdldChrZXkpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLm1hcChzdHI6OnRyaW0pKQogICAgICAgIC5maW5kX21hcChub3JtYWxpemVfaW5saW5lX2Zhdmljb25fZGF0YV91cmwpCn0KCnB1YihzdXBlcikgZm4gd2Vic2l0ZV9pY29uX3BhdGgob2JqZWN0OiAmTWFwPFN0cmluZywgVmFsdWU+LCBzeW5jX2lkOiAmc3RyKSAtPiBTdHJpbmcgewogICAgbGV0IGV4dGVuc2lvbiA9IHJlc29sdmVfaG9zdF9tYXBwaW5nX2ljb24ob2JqZWN0KQogICAgICAgIC5tYXAofHZhbHVlfCB7CiAgICAgICAgICAgIGxldCBjb250ZW50X3R5cGUgPSB2YWx1ZQogICAgICAgICAgICAgICAgLnNwbGl0X29uY2UoJywnKQogICAgICAgICAgICAgICAgLm1hcCh8KG1ldGFkYXRhLCBfKXwgbWV0YWRhdGEpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofG1ldGFkYXRhfCBtZXRhZGF0YS5zdHJpcF9wcmVmaXgoImRhdGE6IikpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofG1ldGFkYXRhfCBtZXRhZGF0YS5zcGxpdCgnOycpLm5leHQoKSkKICAgICAgICAgICAgICAgIC51bndyYXBfb3IoIiIpOwogICAgICAgICAgICBtYXRjaCBjb250ZW50X3R5cGUgewogICAgICAgICAgICAgICAgImltYWdlL2F2aWYiID0+ICJhdmlmIiwKICAgICAgICAgICAgICAgICJpbWFnZS9naWYiID0+ICJnaWYiLAogICAgICAgICAgICAgICAgImltYWdlL2pwZWciID0+ICJqcGciLAogICAgICAgICAgICAgICAgImltYWdlL3N2Zyt4bWwiID0+ICJzdmciLAogICAgICAgICAgICAgICAgImltYWdlL3ZuZC5taWNyb3NvZnQuaWNvbiIgfCAiaW1hZ2UveC1pY29uIiA9PiAiaWNvIiwKICAgICAgICAgICAgICAgICJpbWFnZS93ZWJwIiA9PiAid2VicCIsCiAgICAgICAgICAgICAgICBfID0+ICJwbmciLAogICAgICAgICAgICB9CiAgICAgICAgfSkKICAgICAgICAudW53cmFwX29yKCJwbmciKTsKICAgIGZvcm1hdCEoIi9fX2Fzc2V0c19fL3dlYnNpdGVfaWNvbi57c3luY19pZH0ue2V4dGVuc2lvbn0iKQp9CgpwdWIoY3JhdGUpIGZuIHB1YmxpY19wYW5lbF9pY29uX3VybCgKICAgIGNvbnRleHQ6ICZQdWJsaWNIb3N0TGlua0NvbnRleHQsCiAgICBvYmplY3Q6ICZNYXA8U3RyaW5nLCBWYWx1ZT4sCiAgICBob3N0OiAmc3RyLAogICAgc3luY19pZDogJnN0ciwKKSAtPiBTdHJpbmcgewogICAgZm9ybWF0ISgKICAgICAgICAie317fSIsCiAgICAgICAgcHVibGljX2hvc3RfdXJsKGNvbnRleHQsIGhvc3QpLnRyaW1fZW5kX21hdGNoZXMoJy8nKSwKICAgICAgICB3ZWJzaXRlX2ljb25fcGF0aChvYmplY3QsIHN5bmNfaWQpCiAgICApCn0KCnB1YihzdXBlcikgZm4gYnVpbGRfYm9va21hcmtfZmlsZW5hbWUoY29uZmlnOiAmVmFsdWUpIC0+IFN0cmluZyB7CiAgICBsZXQgcm9vdF9kb21haW4gPSBjb25maWcKICAgICAgICAucG9pbnRlcigiL3N1YmRvbWFpbl9tb2RlL3Jvb3RfZG9tYWluIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAudW53cmFwX29yKCIiKTsKICAgIGxldCBub3JtYWxpemVkID0gbm9ybWFsaXplX2Jvb2ttYXJrX2ZpbGVuYW1lX3BhcnQocm9vdF9kb21haW4pOwogICAgaWYgbm9ybWFsaXplZC5pc19lbXB0eSgpIHsKICAgICAgICAiZm4ta25vY2stYm9va21hcmtzLmh0bWwiLnRvX3N0cmluZygpCiAgICB9IGVsc2UgewogICAgICAgIGZvcm1hdCEoImZuLWtub2NrLWJvb2ttYXJrcy17bm9ybWFsaXplZH0uaHRtbCIpCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX2Jvb2ttYXJrX2ZpbGVuYW1lX3BhcnQodmFsdWU6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBsZXQgbXV0IG91dHB1dCA9IFN0cmluZzo6bmV3KCk7CiAgICBsZXQgbXV0IHByZXZpb3VzX2Rhc2ggPSBmYWxzZTsKICAgIGZvciBjaCBpbiB2YWx1ZS50cmltKCkudG9fYXNjaWlfbG93ZXJjYXNlKCkuY2hhcnMoKSB7CiAgICAgICAgaWYgY2guaXNfYXNjaWlfYWxwaGFudW1lcmljKCkgfHwgY2ggPT0gJy4nIHx8IGNoID09ICctJyB7CiAgICAgICAgICAgIG91dHB1dC5wdXNoKGNoKTsKICAgICAgICAgICAgcHJldmlvdXNfZGFzaCA9IGZhbHNlOwogICAgICAgIH0gZWxzZSBpZiAhcHJldmlvdXNfZGFzaCB7CiAgICAgICAgICAgIG91dHB1dC5wdXNoKCctJyk7CiAgICAgICAgICAgIHByZXZpb3VzX2Rhc2ggPSB0cnVlOwogICAgICAgIH0KICAgIH0KICAgIG91dHB1dC50cmltX21hdGNoZXMoJy0nKS50b19zdHJpbmcoKQp9Cg==
+use super::*;
+
+#[derive(Clone, Debug)]
+pub(crate) struct PublicHostLinkContext {
+    scheme: &'static str,
+    access_entry_port: String,
+    omit_access_entry_port: bool,
+}
+
+pub(crate) fn public_host_link_context(config: &Value) -> PublicHostLinkContext {
+    let scheme = resolve_bookmark_scheme(config);
+    let raw_public_base_url = config
+        .pointer("/subdomain_mode/public_auth_base_url")
+        .and_then(Value::as_str)
+        .unwrap_or("");
+    let resolved_public_port =
+        resolve_public_port_for_scheme(config, scheme, raw_public_base_url, true, false);
+    PublicHostLinkContext {
+        scheme,
+        access_entry_port: resolved_public_port
+            .map(|port| port.to_string())
+            .unwrap_or_else(|| crate::system_info::resolve_access_entry_port(config)),
+        omit_access_entry_port: should_omit_public_access_entry_port(config)
+            && resolved_public_port.is_none(),
+    }
+}
+
+pub(crate) fn public_host_url(context: &PublicHostLinkContext, host: &str) -> String {
+    build_bookmark_url(
+        host,
+        context.scheme,
+        Some(&context.access_entry_port),
+        context.omit_access_entry_port,
+    )
+}
+
+pub(crate) fn resolve_public_host_title(object: &Map<String, Value>, host: &str) -> String {
+    resolve_bookmark_title(object, host)
+}
+
+pub(super) use crate::http_utils::html_escape as escape_html;
+
+pub(super) fn build_bookmarks_document(
+    config: &Value,
+    translator: &crate::i18n::Translator,
+) -> String {
+    let scheme = resolve_bookmark_scheme(config);
+    let raw_public_base_url = config
+        .pointer("/subdomain_mode/public_auth_base_url")
+        .and_then(Value::as_str)
+        .unwrap_or("");
+    let resolved_public_port =
+        resolve_public_port_for_scheme(config, scheme, raw_public_base_url, true, false);
+    let access_entry_port = resolved_public_port
+        .map(|port| port.to_string())
+        .unwrap_or_else(|| crate::system_info::resolve_access_entry_port(config));
+    let omit_access_entry_port =
+        should_omit_public_access_entry_port(config) && resolved_public_port.is_none();
+    let root_domain = config
+        .pointer("/subdomain_mode/root_domain")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .unwrap_or("");
+    let folder_title = if root_domain.is_empty() {
+        translator.t("server.admin.hostMappings.bookmarkFolderDefault")
+    } else {
+        translator.t_params(
+            "server.admin.hostMappings.bookmarkFolderForRoot",
+            &[("root", root_domain.to_string())],
+        )
+    };
+    let add_date = time::OffsetDateTime::now_utc().unix_timestamp();
+    let mut lines = vec![
+        "<!DOCTYPE NETSCAPE-Bookmark-file-1>".to_string(),
+        "<!-- This is an automatically generated file.".to_string(),
+        "     It will be read and overwritten.".to_string(),
+        "     DO NOT EDIT! -->".to_string(),
+        "<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=UTF-8\">".to_string(),
+        "<TITLE>Bookmarks</TITLE>".to_string(),
+        "<H1>Bookmarks</H1>".to_string(),
+        "<DL><p>".to_string(),
+        format!(
+            "  <DT><H3 ADD_DATE=\"{add_date}\" LAST_MODIFIED=\"{add_date}\">{}</H3>",
+            escape_html(&folder_title)
+        ),
+        "  <DL><p>".to_string(),
+    ];
+    let mappings = config
+        .get("host_mappings")
+        .and_then(Value::as_array)
+        .cloned()
+        .unwrap_or_default();
+    let groups = if host_mapping_grouped_view_from_config(config) {
+        normalize_host_mapping_groups(host_mapping_groups_from_config(config)).unwrap_or_default()
+    } else {
+        Vec::new()
+    };
+    if groups.is_empty() {
+        for mapping in &mappings {
+            append_bookmark_mapping(
+                &mut lines,
+                mapping,
+                "    ",
+                scheme,
+                &access_entry_port,
+                omit_access_entry_port,
+                add_date,
+            );
+        }
+    } else {
+        let valid_group_ids = groups
+            .iter()
+            .filter_map(|group| group.get("id").and_then(Value::as_str))
+            .collect::<HashSet<_>>();
+        for group in &groups {
+            let Some(group_id) = group.get("id").and_then(Value::as_str) else {
+                continue;
+            };
+            let members = mappings
+                .iter()
+                .filter(|mapping| {
+                    !mapping
+                        .get("target")
+                        .and_then(Value::as_str)
+                        .is_some_and(is_auth_service_target)
+                        && mapping.get("group_id").and_then(Value::as_str) == Some(group_id)
+                })
+                .collect::<Vec<_>>();
+            if members.is_empty() {
+                continue;
+            }
+            let name = group.get("name").and_then(Value::as_str).unwrap_or("");
+            append_bookmark_group_start(&mut lines, name, add_date);
+            for mapping in members {
+                append_bookmark_mapping(
+                    &mut lines,
+                    mapping,
+                    "      ",
+                    scheme,
+                    &access_entry_port,
+                    omit_access_entry_port,
+                    add_date,
+                );
+            }
+            append_bookmark_group_end(&mut lines);
+        }
+        let ungrouped = mappings
+            .iter()
+            .filter(|mapping| {
+                !mapping
+                    .get("target")
+                    .and_then(Value::as_str)
+                    .is_some_and(is_auth_service_target)
+                    && mapping
+                        .get("group_id")
+                        .and_then(Value::as_str)
+                        .is_none_or(|id| !valid_group_ids.contains(id))
+            })
+            .collect::<Vec<_>>();
+        if !ungrouped.is_empty() {
+            append_bookmark_group_start(
+                &mut lines,
+                &translator.t("server.admin.hostMappings.ungrouped"),
+                add_date,
+            );
+            for mapping in ungrouped {
+                append_bookmark_mapping(
+                    &mut lines,
+                    mapping,
+                    "      ",
+                    scheme,
+                    &access_entry_port,
+                    omit_access_entry_port,
+                    add_date,
+                );
+            }
+            append_bookmark_group_end(&mut lines);
+        }
+    }
+    lines.push("  </DL><p>".to_string());
+    lines.push("</DL><p>".to_string());
+    lines.push(String::new());
+    lines.join("\n")
+}
+
+fn append_bookmark_group_start(lines: &mut Vec<String>, name: &str, add_date: i64) {
+    lines.push(format!(
+        "    <DT><H3 ADD_DATE=\"{add_date}\" LAST_MODIFIED=\"{add_date}\">{}</H3>",
+        escape_html(name)
+    ));
+    lines.push("    <DL><p>".to_string());
+}
+
+fn append_bookmark_group_end(lines: &mut Vec<String>) {
+    lines.push("    </DL><p>".to_string());
+}
+
+fn append_bookmark_mapping(
+    lines: &mut Vec<String>,
+    mapping: &Value,
+    indent: &str,
+    scheme: &str,
+    access_entry_port: &str,
+    omit_access_entry_port: bool,
+    add_date: i64,
+) {
+    let Some(object) = mapping.as_object() else {
+        return;
+    };
+    if object
+        .get("target")
+        .and_then(Value::as_str)
+        .is_some_and(is_auth_service_target)
+    {
+        return;
+    }
+    let host = object
+        .get("host")
+        .and_then(Value::as_str)
+        .map(normalize_host_value)
+        .unwrap_or_default();
+    if host.is_empty() {
+        return;
+    }
+    let href = build_bookmark_url(
+        &host,
+        scheme,
+        Some(access_entry_port),
+        omit_access_entry_port,
+    );
+    let title = resolve_bookmark_title(object, &host);
+    let icon_attribute = resolve_host_mapping_icon(object)
+        .map(|icon| format!(" ICON=\"{}\"", escape_html(&icon)))
+        .unwrap_or_default();
+    lines.push(format!(
+        "{indent}<DT><A HREF=\"{}\" ADD_DATE=\"{add_date}\"{icon_attribute}>{}</A>",
+        escape_html(&href),
+        escape_html(&title)
+    ));
+}
+
+pub(super) fn resolve_bookmark_scheme(config: &Value) -> &'static str {
+    let cert = config
+        .pointer("/ssl/cert")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .unwrap_or("");
+    let key = config
+        .pointer("/ssl/key")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .unwrap_or("");
+    if !cert.is_empty() && !key.is_empty() {
+        "https"
+    } else {
+        "http"
+    }
+}
+
+pub(super) fn build_bookmark_url(
+    host: &str,
+    scheme: &str,
+    access_entry_port: Option<&str>,
+    omit_access_entry_port: bool,
+) -> String {
+    if omit_access_entry_port {
+        return format!("{scheme}://{host}/");
+    }
+    let port = resolve_bookmark_access_entry_port(access_entry_port);
+    let parsed_port = parse_js_parse_int_radix_10(&port);
+    let port_suffix = if port.is_empty()
+        || parsed_port.is_some_and(|port| is_default_scheme_port(scheme, port))
+    {
+        String::new()
+    } else {
+        format!(":{port}")
+    };
+    format!("{scheme}://{host}{port_suffix}/")
+}
+
+pub(super) fn resolve_bookmark_access_entry_port(access_entry_port: Option<&str>) -> String {
+    let normalized = access_entry_port.unwrap_or("").trim();
+    if normalized.is_empty() {
+        "7999".to_string()
+    } else {
+        normalized.to_string()
+    }
+}
+
+pub(super) fn resolve_bookmark_title(object: &Map<String, Value>, host: &str) -> String {
+    let title_override = object
+        .get("title_override")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .unwrap_or("");
+    if !title_override.is_empty() {
+        return title_override.to_string();
+    }
+    object
+        .get("title")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .unwrap_or(host)
+        .to_string()
+}
+
+pub(super) fn resolve_host_mapping_icon(object: &Map<String, Value>) -> Option<String> {
+    ["favicon_override", "favicon"]
+        .into_iter()
+        .filter_map(|key| object.get(key).and_then(Value::as_str).map(str::trim))
+        .find_map(normalize_inline_favicon_data_url)
+}
+
+pub(super) fn website_icon_path(object: &Map<String, Value>, sync_id: &str) -> String {
+    let extension = resolve_host_mapping_icon(object)
+        .map(|value| {
+            let content_type = value
+                .split_once(',')
+                .map(|(metadata, _)| metadata)
+                .and_then(|metadata| metadata.strip_prefix("data:"))
+                .and_then(|metadata| metadata.split(';').next())
+                .unwrap_or("");
+            match content_type {
+                "image/avif" => "avif",
+                "image/gif" => "gif",
+                "image/jpeg" => "jpg",
+                "image/svg+xml" => "svg",
+                "image/vnd.microsoft.icon" | "image/x-icon" => "ico",
+                "image/webp" => "webp",
+                _ => "png",
+            }
+        })
+        .unwrap_or("png");
+    format!("/__assets__/website_icon.{sync_id}.{extension}")
+}
+
+pub(crate) fn public_panel_icon_url(
+    context: &PublicHostLinkContext,
+    object: &Map<String, Value>,
+    host: &str,
+    sync_id: &str,
+) -> String {
+    format!(
+        "{}{}",
+        public_host_url(context, host).trim_end_matches('/'),
+        website_icon_path(object, sync_id)
+    )
+}
+
+pub(super) fn build_bookmark_filename(config: &Value) -> String {
+    let root_domain = config
+        .pointer("/subdomain_mode/root_domain")
+        .and_then(Value::as_str)
+        .unwrap_or("");
+    let normalized = normalize_bookmark_filename_part(root_domain);
+    if normalized.is_empty() {
+        "fn-knock-bookmarks.html".to_string()
+    } else {
+        format!("fn-knock-bookmarks-{normalized}.html")
+    }
+}
+
+pub(super) fn normalize_bookmark_filename_part(value: &str) -> String {
+    let mut output = String::new();
+    let mut previous_dash = false;
+    for ch in value.trim().to_ascii_lowercase().chars() {
+        if ch.is_ascii_alphanumeric() || ch == '.' || ch == '-' {
+            output.push(ch);
+            previous_dash = false;
+        } else if !previous_dash {
+            output.push('-');
+            previous_dash = true;
+        }
+    }
+    output.trim_matches('-').to_string()
+}

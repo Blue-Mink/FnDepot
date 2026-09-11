@@ -1,1 +1,37 @@
-dXNlIHNlcmRlX2pzb246OntWYWx1ZSwganNvbn07Cgpjb25zdCBQTEFOX1dBUk5JTkdTOiBbKCZzdHIsICZzdHIpOyA0XSA9IFsKICAgICgKICAgICAgICAiYmV0YVZhbnRhZ2UiLAogICAgICAgICJPcHRpbWl6YXRpb24gaXMgYSBCZXRhIGZlYXR1cmUgbWVhc3VyZWQgZnJvbSB0aGlzIHNlcnZlcidzIG5ldHdvcmsgdmFudGFnZSBwb2ludC4iLAogICAgKSwKICAgICgKICAgICAgICAiY2FuZGlkYXRlRGlzY292ZXJ5T25seSIsCiAgICAgICAgIkJ1aWx0LWluIGFuZCBjdXN0b20gdGhpcmQtcGFydHkgaG9zdG5hbWVzIGFyZSB1c2VkIG9ubHkgdG8gZGlzY292ZXIgY2FuZGlkYXRlIENsb3VkZmxhcmUgSVBzLiBCdXNpbmVzcyBETlMgaXMgbmV2ZXIgcG9pbnRlZCBhdCB0aG9zZSBob3N0bmFtZXMuIiwKICAgICksCiAgICAoCiAgICAgICAgImN1c3RvbUhvc3RuYW1lUXVvdGEiLAogICAgICAgICJDbG91ZGZsYXJlIGZvciBTYWFTIGluY2x1ZGVzIHVwIHRvIDEwMCBleGFjdCBDdXN0b20gSG9zdG5hbWVzIG9uIG5vbi1FbnRlcnByaXNlIHBsYW5zOyBleGNlc3MgZG9tYWlucyB1c2UgdGhlIHdpbGRjYXJkIFR1bm5lbC4iLAogICAgKSwKICAgICgKICAgICAgICAid2lsZGNhcmRGYWxsYmFjayIsCiAgICAgICAgIlRoZSB3aWxkY2FyZCBUdW5uZWwgcmVtYWlucyBjb25maWd1cmVkIGFuZCBpcyByZXN0b3JlZCBhdXRvbWF0aWNhbGx5IGlmIHRoZSBwcmVmZXJyZWQgZWRnZSBwYXRoIGZhaWxzLiIsCiAgICApLApdOwoKcHViKGluIHN1cGVyOjpzdXBlcikgZm4gcGxhbl93YXJuaW5ncyhlbmFibGVkOiBib29sKSAtPiBWZWM8VmFsdWU+IHsKICAgIGlmICFlbmFibGVkIHsKICAgICAgICByZXR1cm4gVmVjOjpuZXcoKTsKICAgIH0KICAgIFBMQU5fV0FSTklOR1MKICAgICAgICAuaXRlcigpCiAgICAgICAgLm1hcCh8KF8sIG1lc3NhZ2UpfCBqc29uIShtZXNzYWdlKSkKICAgICAgICAuY29sbGVjdCgpCn0KCnB1YihpbiBzdXBlcjo6c3VwZXIpIGZuIHBsYW5fd2FybmluZ19jb2RlcyhlbmFibGVkOiBib29sKSAtPiBWZWM8JidzdGF0aWMgc3RyPiB7CiAgICBpZiAhZW5hYmxlZCB7CiAgICAgICAgcmV0dXJuIFZlYzo6bmV3KCk7CiAgICB9CiAgICBQTEFOX1dBUk5JTkdTLml0ZXIoKS5tYXAofChjb2RlLCBfKXwgKmNvZGUpLmNvbGxlY3QoKQp9Cg==
+use serde_json::{Value, json};
+
+const PLAN_WARNINGS: [(&str, &str); 4] = [
+    (
+        "betaVantage",
+        "Optimization is a Beta feature measured from this server's network vantage point.",
+    ),
+    (
+        "candidateDiscoveryOnly",
+        "Built-in and custom third-party hostnames are used only to discover candidate Cloudflare IPs. Business DNS is never pointed at those hostnames.",
+    ),
+    (
+        "customHostnameQuota",
+        "Cloudflare for SaaS includes up to 100 exact Custom Hostnames on non-Enterprise plans; excess domains use the wildcard Tunnel.",
+    ),
+    (
+        "wildcardFallback",
+        "The wildcard Tunnel remains configured and is restored automatically if the preferred edge path fails.",
+    ),
+];
+
+pub(in super::super) fn plan_warnings(enabled: bool) -> Vec<Value> {
+    if !enabled {
+        return Vec::new();
+    }
+    PLAN_WARNINGS
+        .iter()
+        .map(|(_, message)| json!(message))
+        .collect()
+}
+
+pub(in super::super) fn plan_warning_codes(enabled: bool) -> Vec<&'static str> {
+    if !enabled {
+        return Vec::new();
+    }
+    PLAN_WARNINGS.iter().map(|(code, _)| *code).collect()
+}

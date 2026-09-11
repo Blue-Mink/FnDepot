@@ -1,1 +1,82 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsKICBUYWJsZSwKICBUYWJsZUJvZHksCiAgVGFibGVDZWxsLAogIFRhYmxlSGVhZCwKICBUYWJsZUhlYWRlciwKICBUYWJsZVJvdywKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFibGUiOwoKdHlwZSBCbGFja2xpc3RIaXRSb3cgPSB7CiAga2V5OiBzdHJpbmcgfCBudW1iZXI7CiAgdGltZTogc3RyaW5nOwogIHBhdGg6IHN0cmluZzsKICBpbnRlcnZhbDogc3RyaW5nOwp9OwoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoCiAgZGVmaW5lUHJvcHM8ewogICAgcm93czogQmxhY2tsaXN0SGl0Um93W107CiAgICBlbXB0eVRleHQ/OiBzdHJpbmc7CiAgICBhY3Rpb25IZWFkZXI/OiBzdHJpbmc7CiAgfT4oKSwKICB7fSwKKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBzbG90cyA9IGRlZmluZVNsb3RzPHsKICBhY3Rpb24/OiAocHJvcHM6IHsgcm93OiBCbGFja2xpc3RIaXRSb3cgfSkgPT4gdW5rbm93bjsKfT4oKTsKY29uc3QgaGFzQWN0aW9ucyA9IGNvbXB1dGVkKCgpID0+IEJvb2xlYW4oc2xvdHMuYWN0aW9uKSk7CmNvbnN0IHJlc29sdmVkRW1wdHlUZXh0ID0gY29tcHV0ZWQoCiAgKCkgPT4gcHJvcHMuZW1wdHlUZXh0IHx8IHQoImFkbWluLmNvbXBvbmVudHMuYmxhY2tsaXN0SGl0c1RhYmxlLmVtcHR5IiksCik7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImJvcmRlciByb3VuZGVkLW1kIG92ZXJmbG93LWhpZGRlbiI+CiAgICA8VGFibGUgY2xhc3M9InctbWF4IG1pbi13LWZ1bGwiPgogICAgICA8VGFibGVIZWFkZXI+CiAgICAgICAgPFRhYmxlUm93PgogICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bMjIwcHhdIj57ewogICAgICAgICAgICB0KCJhZG1pbi5jb21wb25lbnRzLmJsYWNrbGlzdEhpdHNUYWJsZS52aXNpdGVkQXQiKQogICAgICAgICAgfX08L1RhYmxlSGVhZD4KICAgICAgICAgIDxUYWJsZUhlYWQ+e3sKICAgICAgICAgICAgdCgiYWRtaW4uY29tcG9uZW50cy5ibGFja2xpc3RIaXRzVGFibGUucGF0aCIpCiAgICAgICAgICB9fTwvVGFibGVIZWFkPgogICAgICAgICAgPFRhYmxlSGVhZCBjbGFzcz0idy1bMTYwcHhdIj57ewogICAgICAgICAgICB0KCJhZG1pbi5jb21wb25lbnRzLmJsYWNrbGlzdEhpdHNUYWJsZS5pbnRlcnZhbCIpCiAgICAgICAgICB9fTwvVGFibGVIZWFkPgogICAgICAgICAgPFRhYmxlSGVhZCB2LWlmPSJoYXNBY3Rpb25zIiBjbGFzcz0idy1bMjQwcHhdIHRleHQtcmlnaHQiPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIHByb3BzLmFjdGlvbkhlYWRlciB8fAogICAgICAgICAgICAgIHQoImFkbWluLmNvbXBvbmVudHMuYmxhY2tsaXN0SGl0c1RhYmxlLmFjdGlvbnMiKQogICAgICAgICAgICB9fQogICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgPC9UYWJsZUhlYWRlcj4KICAgICAgPFRhYmxlQm9keT4KICAgICAgICA8VGFibGVSb3cgdi1pZj0icHJvcHMucm93cy5sZW5ndGggPT09IDAiPgogICAgICAgICAgPFRhYmxlQ2VsbAogICAgICAgICAgICA6Y29sc3Bhbj0iaGFzQWN0aW9ucyA/IDQgOiAzIgogICAgICAgICAgICBjbGFzcz0idGV4dC1jZW50ZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHB5LTYiCiAgICAgICAgICAgID57eyByZXNvbHZlZEVtcHR5VGV4dCB9fTwvVGFibGVDZWxsCiAgICAgICAgICA+CiAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICA8VGFibGVSb3cgdi1lbHNlIHYtZm9yPSJyb3cgaW4gcHJvcHMucm93cyIgOmtleT0icm93LmtleSI+CiAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJ3aGl0ZXNwYWNlLW5vd3JhcCI+e3sgcm93LnRpbWUgfX08L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9ImZvbnQtbW9ubyB0ZXh0LXhzIj57eyByb3cucGF0aCB9fTwvVGFibGVDZWxsPgogICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzcz0id2hpdGVzcGFjZS1ub3dyYXAgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57ewogICAgICAgICAgICByb3cuaW50ZXJ2YWwKICAgICAgICAgIH19PC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsIHYtaWY9Imhhc0FjdGlvbnMiIGNsYXNzPSJ0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAgPHNsb3QgbmFtZT0iYWN0aW9uIiA6cm93PSJyb3ciIC8+CiAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICA8L1RhYmxlUm93PgogICAgICA8L1RhYmxlQm9keT4KICAgIDwvVGFibGU+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+
+type BlacklistHitRow = {
+  key: string | number;
+  time: string;
+  path: string;
+  interval: string;
+};
+
+const props = withDefaults(
+  defineProps<{
+    rows: BlacklistHitRow[];
+    emptyText?: string;
+    actionHeader?: string;
+  }>(),
+  {},
+);
+
+const { t } = useI18n();
+const slots = defineSlots<{
+  action?: (props: { row: BlacklistHitRow }) => unknown;
+}>();
+const hasActions = computed(() => Boolean(slots.action));
+const resolvedEmptyText = computed(
+  () => props.emptyText || t("admin.components.blacklistHitsTable.empty"),
+);
+</script>
+
+<template>
+  <div class="border rounded-md overflow-hidden">
+    <Table class="w-max min-w-full">
+      <TableHeader>
+        <TableRow>
+          <TableHead class="w-[220px]">{{
+            t("admin.components.blacklistHitsTable.visitedAt")
+          }}</TableHead>
+          <TableHead>{{
+            t("admin.components.blacklistHitsTable.path")
+          }}</TableHead>
+          <TableHead class="w-[160px]">{{
+            t("admin.components.blacklistHitsTable.interval")
+          }}</TableHead>
+          <TableHead v-if="hasActions" class="w-[240px] text-right">
+            {{
+              props.actionHeader ||
+              t("admin.components.blacklistHitsTable.actions")
+            }}
+          </TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        <TableRow v-if="props.rows.length === 0">
+          <TableCell
+            :colspan="hasActions ? 4 : 3"
+            class="text-center text-muted-foreground py-6"
+            >{{ resolvedEmptyText }}</TableCell
+          >
+        </TableRow>
+        <TableRow v-else v-for="row in props.rows" :key="row.key">
+          <TableCell class="whitespace-nowrap">{{ row.time }}</TableCell>
+          <TableCell class="font-mono text-xs">{{ row.path }}</TableCell>
+          <TableCell class="whitespace-nowrap text-muted-foreground">{{
+            row.interval
+          }}</TableCell>
+          <TableCell v-if="hasActions" class="text-right">
+            <slot name="action" :row="row" />
+          </TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+  </div>
+</template>

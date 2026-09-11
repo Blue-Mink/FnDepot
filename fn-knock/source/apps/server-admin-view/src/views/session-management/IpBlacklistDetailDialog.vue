@@ -1,1 +1,101 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IFNoaWVsZENoZWNrIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCBEZXRhaWxEaWFsb2cgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9EZXRhaWxEaWFsb2cudnVlIjsKaW1wb3J0IEJsYWNrbGlzdEhpdHNUYWJsZSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvc2Vzc2lvbi9CbGFja2xpc3RIaXRzVGFibGUudnVlIjsKaW1wb3J0IHR5cGUgeyBJcEJsYWNrbGlzdFBhZ2VDb250cm9sbGVyIH0gZnJvbSAiLi91c2VJcEJsYWNrbGlzdFBhZ2UiOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7IGNvbnRyb2xsZXI6IElwQmxhY2tsaXN0UGFnZUNvbnRyb2xsZXIgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IHsKICBkZXRhaWxIaXRSb3dzLAogIGRldGFpbFJlY29yZCwKICBmb3JtYXREYXRlLAogIGlzRGV0YWlsTG9hZGluZywKICBpc0RldGFpbHNNb2RhbE9wZW4sCiAgaXNSZXNvbHZpbmdGYWxzZVBvc2l0aXZlLAogIHJlc29sdmVGYWxzZVBvc2l0aXZlLAp9ID0gcHJvcHMuY29udHJvbGxlcjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERldGFpbERpYWxvZwogICAgdi1tb2RlbDpvcGVuPSJpc0RldGFpbHNNb2RhbE9wZW4iCiAgICA6dGl0bGU9InQoJ2FkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0LmRldGFpbFRpdGxlJykiCiAgICA6ZGVzY3JpcHRpb249InQoJ2FkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0LmRldGFpbERlc2NyaXB0aW9uJykiCiAgICBtYXgtd2lkdGgtY2xhc3M9InNtOm1heC13LVs3MDBweF0gbWF4LXctW2NhbGMoMTAwdnctMXJlbSldIHAtNCBzbTpwLTYiCiAgICA6bG9hZGluZz0iaXNEZXRhaWxMb2FkaW5nIgogICAgY2xvc2UtdmFyaWFudD0ib3V0bGluZSIKICA+CiAgICA8ZGl2IHYtaWY9ImRldGFpbFJlY29yZCIgY2xhc3M9InNwYWNlLXktNCBvdmVyZmxvdy14LWF1dG8iPgogICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0zIG1kOmdyaWQtY29scy0yIj4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0ic3BhY2UteS0xIHJvdW5kZWQtbGcgYm9yZGVyIHAtNCIKICAgICAgICAgIDpjbGFzcz0iZGV0YWlsUmVjb3JkLmlwTG9jYXRpb24gPyAnbWQ6Y29sLXNwYW4tMicgOiAnJyIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+SVA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImJyZWFrLWFsbCBmb250LW1vbm8gdGV4dC1iYXNlIj4KICAgICAgICAgICAge3sgZGV0YWlsUmVjb3JkLmlwIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgdi1pZj0iZGV0YWlsUmVjb3JkLmlwTG9jYXRpb24iCiAgICAgICAgICAgIGNsYXNzPSJicmVhay1hbGwgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IGRldGFpbFJlY29yZC5pcExvY2F0aW9uIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIHJvdW5kZWQtbGcgYm9yZGVyIHAtNCI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0LmJsb2NrZWRBdCIpIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImJyZWFrLWFsbCB0ZXh0LWJhc2UiPgogICAgICAgICAgICB7eyBmb3JtYXREYXRlKGRldGFpbFJlY29yZC5ibG9ja2VkQXQpIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIHJvdW5kZWQtbGcgYm9yZGVyIHAtNCI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0LnRyaWdnZXJXaW5kb3ciKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJicmVhay1hbGwgdGV4dC1iYXNlIj4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICB0KCJhZG1pbi5zZXNzaW9ucy5pcEJsYWNrbGlzdC5taW51dGVzIiwgewogICAgICAgICAgICAgICAgY291bnQ6IGRldGFpbFJlY29yZC53aW5kb3dNaW51dGVzLAogICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0yIHJvdW5kZWQtbGcgYm9yZGVyIHAtNCI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0LnRyaWdnZXJUaHJlc2hvbGQiKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJicmVhay1hbGwgdGV4dC1iYXNlIj4KICAgICAgICAgICAge3sKICAgICAgICAgICAgICB0KCJhZG1pbi5zZXNzaW9ucy5pcEJsYWNrbGlzdC50aW1lcyIsIHsKICAgICAgICAgICAgICAgIGNvdW50OiBkZXRhaWxSZWNvcmQudGhyZXNob2xkLAogICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8QmxhY2tsaXN0SGl0c1RhYmxlIDpyb3dzPSJkZXRhaWxIaXRSb3dzIj4KICAgICAgICA8dGVtcGxhdGUgI2FjdGlvbj0ieyByb3cgfSI+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNSZXNvbHZpbmdGYWxzZVBvc2l0aXZlIgogICAgICAgICAgICBAY2xpY2s9InJlc29sdmVGYWxzZVBvc2l0aXZlKHJvdy5wYXRoKSIKICAgICAgICAgID4KICAgICAgICAgICAgPFNoaWVsZENoZWNrIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICAgIHt7IHQoImFkbWluLnNlc3Npb25zLmlwQmxhY2tsaXN0LmFsbG93RmFsc2VQb3NpdGl2ZSIpIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L0JsYWNrbGlzdEhpdHNUYWJsZT4KICAgIDwvZGl2PgogIDwvRGV0YWlsRGlhbG9nPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { ShieldCheck } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import DetailDialog from "@admin-shared/components/common/DetailDialog.vue";
+import BlacklistHitsTable from "@admin-shared/components/session/BlacklistHitsTable.vue";
+import type { IpBlacklistPageController } from "./useIpBlacklistPage";
+
+const props = defineProps<{ controller: IpBlacklistPageController }>();
+const { t } = useI18n();
+const {
+  detailHitRows,
+  detailRecord,
+  formatDate,
+  isDetailLoading,
+  isDetailsModalOpen,
+  isResolvingFalsePositive,
+  resolveFalsePositive,
+} = props.controller;
+</script>
+
+<template>
+  <DetailDialog
+    v-model:open="isDetailsModalOpen"
+    :title="t('admin.sessions.ipBlacklist.detailTitle')"
+    :description="t('admin.sessions.ipBlacklist.detailDescription')"
+    max-width-class="sm:max-w-[700px] max-w-[calc(100vw-1rem)] p-4 sm:p-6"
+    :loading="isDetailLoading"
+    close-variant="outline"
+  >
+    <div v-if="detailRecord" class="space-y-4 overflow-x-auto">
+      <div class="grid gap-3 md:grid-cols-2">
+        <div
+          class="space-y-1 rounded-lg border p-4"
+          :class="detailRecord.ipLocation ? 'md:col-span-2' : ''"
+        >
+          <div class="text-sm text-muted-foreground">IP</div>
+          <div class="break-all font-mono text-base">
+            {{ detailRecord.ip }}
+          </div>
+          <div
+            v-if="detailRecord.ipLocation"
+            class="break-all text-xs text-muted-foreground"
+          >
+            {{ detailRecord.ipLocation }}
+          </div>
+        </div>
+
+        <div class="space-y-2 rounded-lg border p-4">
+          <div class="text-sm text-muted-foreground">
+            {{ t("admin.sessions.ipBlacklist.blockedAt") }}
+          </div>
+          <div class="break-all text-base">
+            {{ formatDate(detailRecord.blockedAt) }}
+          </div>
+        </div>
+
+        <div class="space-y-2 rounded-lg border p-4">
+          <div class="text-sm text-muted-foreground">
+            {{ t("admin.sessions.ipBlacklist.triggerWindow") }}
+          </div>
+          <div class="break-all text-base">
+            {{
+              t("admin.sessions.ipBlacklist.minutes", {
+                count: detailRecord.windowMinutes,
+              })
+            }}
+          </div>
+        </div>
+
+        <div class="space-y-2 rounded-lg border p-4">
+          <div class="text-sm text-muted-foreground">
+            {{ t("admin.sessions.ipBlacklist.triggerThreshold") }}
+          </div>
+          <div class="break-all text-base">
+            {{
+              t("admin.sessions.ipBlacklist.times", {
+                count: detailRecord.threshold,
+              })
+            }}
+          </div>
+        </div>
+      </div>
+
+      <BlacklistHitsTable :rows="detailHitRows">
+        <template #action="{ row }">
+          <Button
+            type="button"
+            variant="outline"
+            size="sm"
+            :disabled="isResolvingFalsePositive"
+            @click="resolveFalsePositive(row.path)"
+          >
+            <ShieldCheck class="mr-2 h-4 w-4" />
+            {{ t("admin.sessions.ipBlacklist.allowFalsePositive") }}
+          </Button>
+        </template>
+      </BlacklistHitsTable>
+    </div>
+  </DetailDialog>
+</template>

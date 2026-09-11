@@ -1,1 +1,104 @@
-aW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgdXNlTG9jYWxQYWdlZExpc3QgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUxvY2FsUGFnZWRMaXN0IjsKaW1wb3J0IHsgdXNlRGVsYXllZExvYWRpbmcgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZURlbGF5ZWRMb2FkaW5nIjsKaW1wb3J0IHR5cGUgeyBXaGl0ZUxpc3RSZWNvcmQgfSBmcm9tICJAL2xpYi9hcGkvd2hpdGVsaXN0IjsKaW1wb3J0IHsgdXNlV2hpdGVsaXN0QWRkUmVjb3JkIH0gZnJvbSAiLi91c2VXaGl0ZWxpc3RBZGRSZWNvcmQiOwppbXBvcnQgeyB1c2VXaGl0ZWxpc3RSZWNvcmRBY3Rpb25zIH0gZnJvbSAiLi91c2VXaGl0ZWxpc3RSZWNvcmRBY3Rpb25zIjsKaW1wb3J0IHsgdXNlV2hpdGVsaXN0UmVjb3JkcyB9IGZyb20gIi4vdXNlV2hpdGVsaXN0UmVjb3JkcyI7CmltcG9ydCB7CiAgZm9ybWF0V2hpdGVsaXN0UmVnaW9uSW5wdXQsCiAgZm9ybWF0V2hpdGVsaXN0UmVtYWluaW5nLAogIGdldFdoaXRlbGlzdFJlZ2lvbkdyb3VwTGFiZWwsCiAgZ2V0V2hpdGVsaXN0UmVzb2x2ZVN0YXR1c0xhYmVsLAogIGdldFdoaXRlbGlzdFJlc29sdmVTdGF0dXNWYXJpYW50LAogIGdldFdoaXRlbGlzdFRhcmdldFR5cGVMYWJlbCwKfSBmcm9tICIuL3doaXRlbGlzdFByZXNlbnRhdGlvbiI7CgpleHBvcnQgZnVuY3Rpb24gdXNlSXBXaGl0ZWxpc3RQYWdlKCkgewogIGNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IHRyYW5zbGF0ZSA9IChrZXk6IHN0cmluZywgcGFyYW1zPzogUmVjb3JkPHN0cmluZywgdW5rbm93bj4pID0+CiAgICBwYXJhbXMgPyB0KGtleSwgcGFyYW1zKSA6IHQoa2V5KTsKICBjb25zdCB7IGZldGNoUmVjb3JkcywgaXNJbml0aWFsaXppbmcsIGxvYWRpbmcsIHJlY29yZHMsIHJlZ2lvbkdyb3VwcyB9ID0KICAgIHVzZVdoaXRlbGlzdFJlY29yZHModHJhbnNsYXRlKTsKICBjb25zdCBzaG93SW5pdGlhbGl6aW5nU2tlbGV0b24gPSB1c2VEZWxheWVkTG9hZGluZyhpc0luaXRpYWxpemluZyk7CgogIGNvbnN0IHsKICAgIHNlYXJjaFF1ZXJ5LAogICAgY3VycmVudFBhZ2UsCiAgICBsaW1pdCwKICAgIHBhcnNlZExpbWl0LAogICAgZmlsdGVyZWRJdGVtczogZmlsdGVyZWRSZWNvcmRzLAogICAgcGFnZWRJdGVtczogcGFnaW5hdGVkUmVjb3JkcywKICAgIGhhbmRsZVBhZ2VDaGFuZ2UsCiAgICBoYW5kbGVMaW1pdENoYW5nZSwKICB9ID0gdXNlTG9jYWxQYWdlZExpc3Q8V2hpdGVMaXN0UmVjb3JkPih7CiAgICBpdGVtczogcmVjb3JkcywKICAgIG5vcm1hbGl6ZVF1ZXJ5OiAocXVlcnkpID0+IHF1ZXJ5LnRvTG93ZXJDYXNlKCksCiAgICBmaWx0ZXI6IChyZWNvcmQsIHF1ZXJ5KSA9PgogICAgICByZWNvcmQuaXAudG9Mb3dlckNhc2UoKS5pbmNsdWRlcyhxdWVyeSkgfHwKICAgICAgQm9vbGVhbihyZWNvcmQuY29tbWVudD8udG9Mb3dlckNhc2UoKS5pbmNsdWRlcyhxdWVyeSkpIHx8CiAgICAgIEJvb2xlYW4oCiAgICAgICAgcmVjb3JkLnJlc29sdmVkVGFyZ2V0cz8uc29tZSgodGFyZ2V0KSA9PgogICAgICAgICAgdGFyZ2V0LnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMocXVlcnkpLAogICAgICAgICksCiAgICAgICksCiAgfSk7CgogIGNvbnN0IHsKICAgIHJlZnJlc2hSZWNvcmQsCiAgICByZWZyZXNoaW5nSWQsCiAgICByZW1vdmVSZWNvcmQsCiAgICByZW1vdmVSZWdpb25Hcm91cCwKICAgIHJlbW92aW5nSWQsCiAgICByZW1vdmluZ1JlZ2lvbkdyb3VwSWQsCiAgICBzYXZlQ29tbWVudCwKICB9ID0gdXNlV2hpdGVsaXN0UmVjb3JkQWN0aW9ucyh7CiAgICBjdXJyZW50UGFnZSwKICAgIGZldGNoUmVjb3JkcywKICAgIHBhZ2luYXRlZFJlY29yZHMsCiAgICByZWNvcmRzLAogICAgdHJhbnNsYXRlLAogIH0pOwoKICBjb25zdCBhZGRSZWNvcmRDb250cm9sbGVyID0gdXNlV2hpdGVsaXN0QWRkUmVjb3JkKHsKICAgIGN1cnJlbnRQYWdlLAogICAgZmV0Y2hSZWNvcmRzLAogICAgc2VhcmNoUXVlcnksCiAgICB0cmFuc2xhdGUsCiAgfSk7CgogIHJldHVybiB7CiAgICAuLi5hZGRSZWNvcmRDb250cm9sbGVyLAogICAgY3VycmVudFBhZ2UsCiAgICBmZXRjaFJlY29yZHMsCiAgICBmaWx0ZXJlZFJlY29yZHMsCiAgICBmb3JtYXRSZWdpb25JbnB1dDogZm9ybWF0V2hpdGVsaXN0UmVnaW9uSW5wdXQsCiAgICBmb3JtYXRSZW1haW5pbmc6IChleHBpcmVBdDogbnVtYmVyKSA9PgogICAgICBmb3JtYXRXaGl0ZWxpc3RSZW1haW5pbmcoZXhwaXJlQXQsIHRyYW5zbGF0ZSksCiAgICBnZXRSZXNvbHZlU3RhdHVzTGFiZWw6IChyZWNvcmQ6IFdoaXRlTGlzdFJlY29yZCkgPT4KICAgICAgZ2V0V2hpdGVsaXN0UmVzb2x2ZVN0YXR1c0xhYmVsKHJlY29yZCwgdHJhbnNsYXRlKSwKICAgIGdldFJlc29sdmVTdGF0dXNWYXJpYW50OiBnZXRXaGl0ZWxpc3RSZXNvbHZlU3RhdHVzVmFyaWFudCwKICAgIGhhbmRsZUxpbWl0Q2hhbmdlLAogICAgaGFuZGxlUGFnZUNoYW5nZSwKICAgIGlzSW5pdGlhbGl6aW5nLAogICAgbGltaXQsCiAgICBsb2FkaW5nLAogICAgcGFnaW5hdGVkUmVjb3JkcywKICAgIHBhcnNlZExpbWl0LAogICAgcmVjb3JkcywKICAgIHJlZnJlc2hpbmdJZCwKICAgIHJlZnJlc2hSZWNvcmQsCiAgICByZWdpb25Hcm91cExhYmVsOiBnZXRXaGl0ZWxpc3RSZWdpb25Hcm91cExhYmVsLAogICAgcmVnaW9uR3JvdXBzLAogICAgcmVtb3ZlUmVjb3JkLAogICAgcmVtb3ZlUmVnaW9uR3JvdXAsCiAgICByZW1vdmluZ0lkLAogICAgcmVtb3ZpbmdSZWdpb25Hcm91cElkLAogICAgc2F2ZUNvbW1lbnQsCiAgICBzZWFyY2hRdWVyeSwKICAgIHNob3dJbml0aWFsaXppbmdTa2VsZXRvbiwKICAgIHRhcmdldFR5cGVCYWRnZUxhYmVsOiBnZXRXaGl0ZWxpc3RUYXJnZXRUeXBlTGFiZWwsCiAgfTsKfQoKZXhwb3J0IHR5cGUgSXBXaGl0ZWxpc3RQYWdlQ29udHJvbGxlciA9IFJldHVyblR5cGU8dHlwZW9mIHVzZUlwV2hpdGVsaXN0UGFnZT47Cg==
+import { useI18n } from "vue-i18n";
+import { useLocalPagedList } from "@admin-shared/composables/useLocalPagedList";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import type { WhiteListRecord } from "@/lib/api/whitelist";
+import { useWhitelistAddRecord } from "./useWhitelistAddRecord";
+import { useWhitelistRecordActions } from "./useWhitelistRecordActions";
+import { useWhitelistRecords } from "./useWhitelistRecords";
+import {
+  formatWhitelistRegionInput,
+  formatWhitelistRemaining,
+  getWhitelistRegionGroupLabel,
+  getWhitelistResolveStatusLabel,
+  getWhitelistResolveStatusVariant,
+  getWhitelistTargetTypeLabel,
+} from "./whitelistPresentation";
+
+export function useIpWhitelistPage() {
+  const { t } = useI18n();
+  const translate = (key: string, params?: Record<string, unknown>) =>
+    params ? t(key, params) : t(key);
+  const { fetchRecords, isInitializing, loading, records, regionGroups } =
+    useWhitelistRecords(translate);
+  const showInitializingSkeleton = useDelayedLoading(isInitializing);
+
+  const {
+    searchQuery,
+    currentPage,
+    limit,
+    parsedLimit,
+    filteredItems: filteredRecords,
+    pagedItems: paginatedRecords,
+    handlePageChange,
+    handleLimitChange,
+  } = useLocalPagedList<WhiteListRecord>({
+    items: records,
+    normalizeQuery: (query) => query.toLowerCase(),
+    filter: (record, query) =>
+      record.ip.toLowerCase().includes(query) ||
+      Boolean(record.comment?.toLowerCase().includes(query)) ||
+      Boolean(
+        record.resolvedTargets?.some((target) =>
+          target.toLowerCase().includes(query),
+        ),
+      ),
+  });
+
+  const {
+    refreshRecord,
+    refreshingId,
+    removeRecord,
+    removeRegionGroup,
+    removingId,
+    removingRegionGroupId,
+    saveComment,
+  } = useWhitelistRecordActions({
+    currentPage,
+    fetchRecords,
+    paginatedRecords,
+    records,
+    translate,
+  });
+
+  const addRecordController = useWhitelistAddRecord({
+    currentPage,
+    fetchRecords,
+    searchQuery,
+    translate,
+  });
+
+  return {
+    ...addRecordController,
+    currentPage,
+    fetchRecords,
+    filteredRecords,
+    formatRegionInput: formatWhitelistRegionInput,
+    formatRemaining: (expireAt: number) =>
+      formatWhitelistRemaining(expireAt, translate),
+    getResolveStatusLabel: (record: WhiteListRecord) =>
+      getWhitelistResolveStatusLabel(record, translate),
+    getResolveStatusVariant: getWhitelistResolveStatusVariant,
+    handleLimitChange,
+    handlePageChange,
+    isInitializing,
+    limit,
+    loading,
+    paginatedRecords,
+    parsedLimit,
+    records,
+    refreshingId,
+    refreshRecord,
+    regionGroupLabel: getWhitelistRegionGroupLabel,
+    regionGroups,
+    removeRecord,
+    removeRegionGroup,
+    removingId,
+    removingRegionGroupId,
+    saveComment,
+    searchQuery,
+    showInitializingSkeleton,
+    targetTypeBadgeLabel: getWhitelistTargetTypeLabel,
+  };
+}
+
+export type IpWhitelistPageController = ReturnType<typeof useIpWhitelistPage>;

@@ -1,1 +1,48 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CmltcG9ydCB7IHJlZiB9IGZyb20gInZ1ZSI7CgppbXBvcnQgeyB1c2VDdXJzb3JQYWdpbmF0aW9uIH0gZnJvbSAiLi4vc3JjL2NvbXBvc2FibGVzL3VzZUN1cnNvclBhZ2luYXRpb24iOwoKZGVzY3JpYmUoInVzZUN1cnNvclBhZ2luYXRpb24iLCAoKSA9PiB7CiAgaXQoInRyYWNrcyBvbGRlciBwYWdlcyBhbmQgcmVzdG9yZXMgY3Vyc29yIGhpc3RvcnkiLCAoKSA9PiB7CiAgICBjb25zdCBsb2FkaW5nID0gcmVmKGZhbHNlKTsKICAgIGNvbnN0IHBhZ2luYXRpb24gPSB1c2VDdXJzb3JQYWdpbmF0aW9uKHsgbG9hZGluZyB9KTsKCiAgICBwYWdpbmF0aW9uLm5leHRDdXJzb3IudmFsdWUgPSAiY3Vyc29yLTEiOwogICAgYXNzZXJ0LmVxdWFsKHBhZ2luYXRpb24ubG9hZE9sZGVyKCksIHRydWUpOwogICAgYXNzZXJ0LmVxdWFsKHBhZ2luYXRpb24uY3VycmVudEN1cnNvci52YWx1ZSwgImN1cnNvci0xIik7CiAgICBhc3NlcnQuZGVlcEVxdWFsKHBhZ2luYXRpb24uY3Vyc29ySGlzdG9yeS52YWx1ZSwgWyIiXSk7CgogICAgcGFnaW5hdGlvbi5uZXh0Q3Vyc29yLnZhbHVlID0gImN1cnNvci0yIjsKICAgIGFzc2VydC5lcXVhbChwYWdpbmF0aW9uLmxvYWRPbGRlcigpLCB0cnVlKTsKICAgIGFzc2VydC5lcXVhbChwYWdpbmF0aW9uLmN1cnJlbnRDdXJzb3IudmFsdWUsICJjdXJzb3ItMiIpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChwYWdpbmF0aW9uLmN1cnNvckhpc3RvcnkudmFsdWUsIFsiIiwgImN1cnNvci0xIl0pOwoKICAgIGFzc2VydC5lcXVhbChwYWdpbmF0aW9uLmxvYWROZXdlcigpLCB0cnVlKTsKICAgIGFzc2VydC5lcXVhbChwYWdpbmF0aW9uLmN1cnJlbnRDdXJzb3IudmFsdWUsICJjdXJzb3ItMSIpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChwYWdpbmF0aW9uLmN1cnNvckhpc3RvcnkudmFsdWUsIFsiIl0pOwoKICAgIGFzc2VydC5lcXVhbChwYWdpbmF0aW9uLmxvYWRGaXJzdCgpLCB0cnVlKTsKICAgIGFzc2VydC5lcXVhbChwYWdpbmF0aW9uLmN1cnJlbnRDdXJzb3IudmFsdWUsICIiKTsKICAgIGFzc2VydC5lcXVhbChwYWdpbmF0aW9uLm5leHRDdXJzb3IudmFsdWUsICIiKTsKICAgIGFzc2VydC5kZWVwRXF1YWwocGFnaW5hdGlvbi5jdXJzb3JIaXN0b3J5LnZhbHVlLCBbXSk7CiAgfSk7CgogIGl0KCJkb2VzIG5vdCBtdXRhdGUgcGFnaW5hdGlvbiB3aGlsZSBhIHBhZ2UgbG9hZCBpcyBwZW5kaW5nIiwgKCkgPT4gewogICAgY29uc3QgbG9hZGluZyA9IHJlZih0cnVlKTsKICAgIGNvbnN0IHBhZ2luYXRpb24gPSB1c2VDdXJzb3JQYWdpbmF0aW9uKHsgbG9hZGluZyB9KTsKICAgIHBhZ2luYXRpb24uY3VycmVudEN1cnNvci52YWx1ZSA9ICJjdXJzb3ItMSI7CiAgICBwYWdpbmF0aW9uLm5leHRDdXJzb3IudmFsdWUgPSAiY3Vyc29yLTIiOwogICAgcGFnaW5hdGlvbi5jdXJzb3JIaXN0b3J5LnZhbHVlID0gWyIiXTsKCiAgICBhc3NlcnQuZXF1YWwocGFnaW5hdGlvbi5sb2FkT2xkZXIoKSwgZmFsc2UpOwogICAgYXNzZXJ0LmVxdWFsKHBhZ2luYXRpb24ubG9hZE5ld2VyKCksIGZhbHNlKTsKICAgIGFzc2VydC5lcXVhbChwYWdpbmF0aW9uLmxvYWRGaXJzdCgpLCBmYWxzZSk7CiAgICBhc3NlcnQuZXF1YWwocGFnaW5hdGlvbi5jdXJyZW50Q3Vyc29yLnZhbHVlLCAiY3Vyc29yLTEiKTsKICAgIGFzc2VydC5lcXVhbChwYWdpbmF0aW9uLm5leHRDdXJzb3IudmFsdWUsICJjdXJzb3ItMiIpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChwYWdpbmF0aW9uLmN1cnNvckhpc3RvcnkudmFsdWUsIFsiIl0pOwogIH0pOwp9KTsK
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import { ref } from "vue";
+
+import { useCursorPagination } from "../src/composables/useCursorPagination";
+
+describe("useCursorPagination", () => {
+  it("tracks older pages and restores cursor history", () => {
+    const loading = ref(false);
+    const pagination = useCursorPagination({ loading });
+
+    pagination.nextCursor.value = "cursor-1";
+    assert.equal(pagination.loadOlder(), true);
+    assert.equal(pagination.currentCursor.value, "cursor-1");
+    assert.deepEqual(pagination.cursorHistory.value, [""]);
+
+    pagination.nextCursor.value = "cursor-2";
+    assert.equal(pagination.loadOlder(), true);
+    assert.equal(pagination.currentCursor.value, "cursor-2");
+    assert.deepEqual(pagination.cursorHistory.value, ["", "cursor-1"]);
+
+    assert.equal(pagination.loadNewer(), true);
+    assert.equal(pagination.currentCursor.value, "cursor-1");
+    assert.deepEqual(pagination.cursorHistory.value, [""]);
+
+    assert.equal(pagination.loadFirst(), true);
+    assert.equal(pagination.currentCursor.value, "");
+    assert.equal(pagination.nextCursor.value, "");
+    assert.deepEqual(pagination.cursorHistory.value, []);
+  });
+
+  it("does not mutate pagination while a page load is pending", () => {
+    const loading = ref(true);
+    const pagination = useCursorPagination({ loading });
+    pagination.currentCursor.value = "cursor-1";
+    pagination.nextCursor.value = "cursor-2";
+    pagination.cursorHistory.value = [""];
+
+    assert.equal(pagination.loadOlder(), false);
+    assert.equal(pagination.loadNewer(), false);
+    assert.equal(pagination.loadFirst(), false);
+    assert.equal(pagination.currentCursor.value, "cursor-1");
+    assert.equal(pagination.nextCursor.value, "cursor-2");
+    assert.deepEqual(pagination.cursorHistory.value, [""]);
+  });
+});

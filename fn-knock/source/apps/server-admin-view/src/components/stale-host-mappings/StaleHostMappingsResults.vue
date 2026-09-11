@@ -1,1 +1,180 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsKICBUYWJsZSwKICBUYWJsZUJvZHksCiAgVGFibGVDZWxsLAogIFRhYmxlSGVhZCwKICBUYWJsZUhlYWRlciwKICBUYWJsZVJvdywKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFibGUiOwppbXBvcnQgdHlwZSB7IFN0YWxlSG9zdE1hcHBpbmdzQ2xlYW51cERpYWxvZ01vZGVsIH0gZnJvbSAiLi91c2VTdGFsZUhvc3RNYXBwaW5nc0NsZWFudXBEaWFsb2ciOwoKZGVmaW5lUHJvcHM8eyBtb2RlbDogU3RhbGVIb3N0TWFwcGluZ3NDbGVhbnVwRGlhbG9nTW9kZWwgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImhpZGRlbiByb3VuZGVkLW1kIGJvcmRlciBiZy1iYWNrZ3JvdW5kIHNtOmJsb2NrIj4KICAgIDxUYWJsZSBjbGFzcz0idy1mdWxsIHRhYmxlLWZpeGVkIiBjb250YWluZXItY2xhc3M9Im92ZXJmbG93LWhpZGRlbiI+CiAgICAgIDxjb2xncm91cD4KICAgICAgICA8Y29sIGNsYXNzPSJ3LVs2JV0iIC8+CiAgICAgICAgPGNvbCBjbGFzcz0idy1bMjElXSIgLz4KICAgICAgICA8Y29sIGNsYXNzPSJ3LVsyOSVdIiAvPgogICAgICAgIDxjb2wgY2xhc3M9InctWzI1JV0iIC8+CiAgICAgICAgPGNvbCBjbGFzcz0idy1bMTklXSIgLz4KICAgICAgPC9jb2xncm91cD4KICAgICAgPFRhYmxlSGVhZGVyCiAgICAgICAgY2xhc3M9InN0aWNreSB0b3AtMCB6LTEwIGJnLWJhY2tncm91bmQgc2hhZG93LXNtIFsmX3RoXTpzdGlja3kgWyZfdGhdOnRvcC0wIFsmX3RoXTp6LTEwIFsmX3RoXTpiZy1iYWNrZ3JvdW5kIgogICAgICA+CiAgICAgICAgPFRhYmxlUm93IGNsYXNzPSJoLTEyIj4KICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9InB4LTQgdGV4dC1jZW50ZXIiPgogICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICB0eXBlPSJjaGVja2JveCIKICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnY29tbW9uLnNlbGVjdEFsbCcpIgogICAgICAgICAgICAgIGNsYXNzPSJoLTQgdy00IGN1cnNvci1wb2ludGVyIgogICAgICAgICAgICAgIDpjaGVja2VkPSJtb2RlbC5pc0FsbFN0YWxlU2VsZWN0ZWQiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJtb2RlbC5zdGFsZVJlc3VsdHMubGVuZ3RoID09PSAwIgogICAgICAgICAgICAgIEBjaGFuZ2U9Im1vZGVsLmhhbmRsZVRvZ2dsZUFsbFN0YWxlIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJweC00Ij4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhbGVDbGVhbnVwQ29sdW1ucy50aXRsZSIpIH19CiAgICAgICAgICA8L1RhYmxlSGVhZD4KICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3M9InB4LTQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdGFsZUNsZWFudXBDb2x1bW5zLmhvc3QiKSB9fQogICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJweC00Ij4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhbGVDbGVhbnVwQ29sdW1ucy50YXJnZXQiKSB9fQogICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzPSJweC00Ij4KICAgICAgICAgICAge3sgdCgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3RhbGVDbGVhbnVwQ29sdW1ucy5zdGF0dXMiKSB9fQogICAgICAgICAgPC9UYWJsZUhlYWQ+CiAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgPC9UYWJsZUhlYWRlcj4KICAgICAgPFRhYmxlQm9keT4KICAgICAgICA8VGFibGVSb3cKICAgICAgICAgIHYtZm9yPSJyZXN1bHQgaW4gbW9kZWwudmlzaWJsZVJlc3VsdHMiCiAgICAgICAgICA6a2V5PSJyZXN1bHQuaG9zdCIKICAgICAgICAgIGNsYXNzPSJoLTE2IgogICAgICAgID4KICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3M9InB4LTQgcHktMyB0ZXh0LWNlbnRlciBhbGlnbi10b3AiPgogICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICB0eXBlPSJjaGVja2JveCIKICAgICAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnY29tbW9uLnNlbGVjdEl0ZW0nLCB7IGl0ZW06IHJlc3VsdC5ob3N0IH0pIgogICAgICAgICAgICAgIGNsYXNzPSJoLTQgdy00IGN1cnNvci1wb2ludGVyIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBkaXNhYmxlZDpvcGFjaXR5LTUwIgogICAgICAgICAgICAgIDpjaGVja2VkPSJtb2RlbC5pc0hvc3RTZWxlY3RlZChyZXN1bHQuaG9zdCkiCiAgICAgICAgICAgICAgOmRpc2FibGVkPSJyZXN1bHQuc3RhdHVzICE9PSAnc3RhbGUnIgogICAgICAgICAgICAgIEBjaGFuZ2U9Im1vZGVsLmhhbmRsZVRvZ2dsZUhvc3QocmVzdWx0Lmhvc3QsICRldmVudCkiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgIDxUYWJsZUNlbGwKICAgICAgICAgICAgY2xhc3M9IndoaXRlc3BhY2Utbm9ybWFsIGJyZWFrLXdvcmRzIHB4LTQgcHktNCB0ZXh0LXNtIGZvbnQtbWVkaXVtIGxlYWRpbmctNiBhbGlnbi10b3AiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IG1vZGVsLmdldE1hcHBpbmdUaXRsZShyZXN1bHQuaG9zdCkgfX0KICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgPFRhYmxlQ2VsbAogICAgICAgICAgICBjbGFzcz0id2hpdGVzcGFjZS1ub3JtYWwgYnJlYWstYWxsIHB4LTQgcHktNCBmb250LW1lZGl1bSBsZWFkaW5nLTYgYWxpZ24tdG9wIgogICAgICAgICAgPgogICAgICAgICAgICB7eyByZXN1bHQuaG9zdCB9fQogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsCiAgICAgICAgICAgIGNsYXNzPSJ3aGl0ZXNwYWNlLW5vcm1hbCBicmVhay1hbGwgcHgtNCBweS00IHRleHQtc20gbGVhZGluZy02IGFsaWduLXRvcCIKICAgICAgICAgID4KICAgICAgICAgICAge3sgcmVzdWx0LnRhcmdldCB9fQogICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzPSJ3aGl0ZXNwYWNlLW5vcm1hbCBweC00IHB5LTQgYWxpZ24tdG9wIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIj4KICAgICAgICAgICAgICA8QmFkZ2UKICAgICAgICAgICAgICAgIDp2YXJpYW50PSJtb2RlbC5nZXRTdGF0dXNCYWRnZVZhcmlhbnQocmVzdWx0LnN0YXR1cykiCiAgICAgICAgICAgICAgICA6Y2xhc3M9Im1vZGVsLmdldFN0YXR1c0JhZGdlQ2xhc3MocmVzdWx0LnN0YXR1cykiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgbW9kZWwuZ2V0U3RhdHVzTGFiZWwocmVzdWx0KSB9fQogICAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICAgICAgPHAKICAgICAgICAgICAgICAgIHYtaWY9InJlc3VsdC5lcnJvciIKICAgICAgICAgICAgICAgIGNsYXNzPSJ3aGl0ZXNwYWNlLW5vcm1hbCBicmVhay13b3JkcyB0ZXh0LXhzIGxlYWRpbmctNSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgcmVzdWx0LmVycm9yIH19CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgIDwvVGFibGVSb3c+CiAgICAgIDwvVGFibGVCb2R5PgogICAgPC9UYWJsZT4KICA8L2Rpdj4KCiAgPGRpdiBjbGFzcz0ic3BhY2UteS0zIHNtOmhpZGRlbiI+CiAgICA8bGFiZWwKICAgICAgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIHJvdW5kZWQtbWQgYm9yZGVyIGJnLWJhY2tncm91bmQgcHgtNCBweS0zIHRleHQtc20gZm9udC1tZWRpdW0iCiAgICA+CiAgICAgIDxpbnB1dAogICAgICAgIHR5cGU9ImNoZWNrYm94IgogICAgICAgIGNsYXNzPSJoLTQgdy00IGN1cnNvci1wb2ludGVyIgogICAgICAgIDpjaGVja2VkPSJtb2RlbC5pc0FsbFN0YWxlU2VsZWN0ZWQiCiAgICAgICAgOmRpc2FibGVkPSJtb2RlbC5zdGFsZVJlc3VsdHMubGVuZ3RoID09PSAwIgogICAgICAgIEBjaGFuZ2U9Im1vZGVsLmhhbmRsZVRvZ2dsZUFsbFN0YWxlIgogICAgICAvPgogICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdGFsZUNsZWFudXBTZWxlY3RBbGwiKSB9fQogICAgPC9sYWJlbD4KCiAgICA8ZGl2CiAgICAgIHYtZm9yPSJyZXN1bHQgaW4gbW9kZWwudmlzaWJsZVJlc3VsdHMiCiAgICAgIDprZXk9ImBtb2JpbGUtJHtyZXN1bHQuaG9zdH1gIgogICAgICBjbGFzcz0icm91bmRlZC1tZCBib3JkZXIgYmctYmFja2dyb3VuZCBwLTQiCiAgICA+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTMiPgogICAgICAgIDxpbnB1dAogICAgICAgICAgdHlwZT0iY2hlY2tib3giCiAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnY29tbW9uLnNlbGVjdEl0ZW0nLCB7IGl0ZW06IHJlc3VsdC5ob3N0IH0pIgogICAgICAgICAgY2xhc3M9Im10LTEgaC00IHctNCBzaHJpbmstMCBjdXJzb3ItcG9pbnRlciBkaXNhYmxlZDpjdXJzb3Itbm90LWFsbG93ZWQgZGlzYWJsZWQ6b3BhY2l0eS01MCIKICAgICAgICAgIDpjaGVja2VkPSJtb2RlbC5pc0hvc3RTZWxlY3RlZChyZXN1bHQuaG9zdCkiCiAgICAgICAgICA6ZGlzYWJsZWQ9InJlc3VsdC5zdGF0dXMgIT09ICdzdGFsZSciCiAgICAgICAgICBAY2hhbmdlPSJtb2RlbC5oYW5kbGVUb2dnbGVIb3N0KHJlc3VsdC5ob3N0LCAkZXZlbnQpIgogICAgICAgIC8+CiAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBmbGV4LTEgc3BhY2UteS0zIj4KICAgICAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAiPgogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnN0YWxlQ2xlYW51cENvbHVtbnMudGl0bGUiKSB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxwIGNsYXNzPSJicmVhay13b3JkcyB0ZXh0LXNtIGZvbnQtbWVkaXVtIGxlYWRpbmctNiI+CiAgICAgICAgICAgICAge3sgbW9kZWwuZ2V0TWFwcGluZ1RpdGxlKHJlc3VsdC5ob3N0KSB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAiPgogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnN0YWxlQ2xlYW51cENvbHVtbnMuaG9zdCIpIH19CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAgY2xhc3M9ImJyZWFrLWFsbCB0ZXh0LXNtIGZvbnQtbWVkaXVtIGxlYWRpbmctNiI+CiAgICAgICAgICAgICAge3sgcmVzdWx0Lmhvc3QgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIj4KICAgICAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5zdWJkb21haW5Qcm94eS5zdGFsZUNsZWFudXBDb2x1bW5zLnRhcmdldCIpIH19CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAgY2xhc3M9ImJyZWFrLWFsbCB0ZXh0LXNtIGxlYWRpbmctNiI+e3sgcmVzdWx0LnRhcmdldCB9fTwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTEiPgogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLnN1YmRvbWFpblByb3h5LnN0YWxlQ2xlYW51cENvbHVtbnMuc3RhdHVzIikgfX0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8QmFkZ2UKICAgICAgICAgICAgICA6dmFyaWFudD0ibW9kZWwuZ2V0U3RhdHVzQmFkZ2VWYXJpYW50KHJlc3VsdC5zdGF0dXMpIgogICAgICAgICAgICAgIDpjbGFzcz0ibW9kZWwuZ2V0U3RhdHVzQmFkZ2VDbGFzcyhyZXN1bHQuc3RhdHVzKSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IG1vZGVsLmdldFN0YXR1c0xhYmVsKHJlc3VsdCkgfX0KICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgPHAKICAgICAgICAgICAgICB2LWlmPSJyZXN1bHQuZXJyb3IiCiAgICAgICAgICAgICAgY2xhc3M9ImJyZWFrLXdvcmRzIHRleHQteHMgbGVhZGluZy01IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHJlc3VsdC5lcnJvciB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import type { StaleHostMappingsCleanupDialogModel } from "./useStaleHostMappingsCleanupDialog";
+
+defineProps<{ model: StaleHostMappingsCleanupDialogModel }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div class="hidden rounded-md border bg-background sm:block">
+    <Table class="w-full table-fixed" container-class="overflow-hidden">
+      <colgroup>
+        <col class="w-[6%]" />
+        <col class="w-[21%]" />
+        <col class="w-[29%]" />
+        <col class="w-[25%]" />
+        <col class="w-[19%]" />
+      </colgroup>
+      <TableHeader
+        class="sticky top-0 z-10 bg-background shadow-sm [&_th]:sticky [&_th]:top-0 [&_th]:z-10 [&_th]:bg-background"
+      >
+        <TableRow class="h-12">
+          <TableHead class="px-4 text-center">
+            <input
+              type="checkbox"
+              :aria-label="t('common.selectAll')"
+              class="h-4 w-4 cursor-pointer"
+              :checked="model.isAllStaleSelected"
+              :disabled="model.staleResults.length === 0"
+              @change="model.handleToggleAllStale"
+            />
+          </TableHead>
+          <TableHead class="px-4">
+            {{ t("admin.subdomainProxy.staleCleanupColumns.title") }}
+          </TableHead>
+          <TableHead class="px-4">
+            {{ t("admin.subdomainProxy.staleCleanupColumns.host") }}
+          </TableHead>
+          <TableHead class="px-4">
+            {{ t("admin.subdomainProxy.staleCleanupColumns.target") }}
+          </TableHead>
+          <TableHead class="px-4">
+            {{ t("admin.subdomainProxy.staleCleanupColumns.status") }}
+          </TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        <TableRow
+          v-for="result in model.visibleResults"
+          :key="result.host"
+          class="h-16"
+        >
+          <TableCell class="px-4 py-3 text-center align-top">
+            <input
+              type="checkbox"
+              :aria-label="t('common.selectItem', { item: result.host })"
+              class="h-4 w-4 cursor-pointer disabled:cursor-not-allowed disabled:opacity-50"
+              :checked="model.isHostSelected(result.host)"
+              :disabled="result.status !== 'stale'"
+              @change="model.handleToggleHost(result.host, $event)"
+            />
+          </TableCell>
+          <TableCell
+            class="whitespace-normal break-words px-4 py-4 text-sm font-medium leading-6 align-top"
+          >
+            {{ model.getMappingTitle(result.host) }}
+          </TableCell>
+          <TableCell
+            class="whitespace-normal break-all px-4 py-4 font-medium leading-6 align-top"
+          >
+            {{ result.host }}
+          </TableCell>
+          <TableCell
+            class="whitespace-normal break-all px-4 py-4 text-sm leading-6 align-top"
+          >
+            {{ result.target }}
+          </TableCell>
+          <TableCell class="whitespace-normal px-4 py-4 align-top">
+            <div class="space-y-1">
+              <Badge
+                :variant="model.getStatusBadgeVariant(result.status)"
+                :class="model.getStatusBadgeClass(result.status)"
+              >
+                {{ model.getStatusLabel(result) }}
+              </Badge>
+              <p
+                v-if="result.error"
+                class="whitespace-normal break-words text-xs leading-5 text-muted-foreground"
+              >
+                {{ result.error }}
+              </p>
+            </div>
+          </TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+  </div>
+
+  <div class="space-y-3 sm:hidden">
+    <label
+      class="flex items-center gap-3 rounded-md border bg-background px-4 py-3 text-sm font-medium"
+    >
+      <input
+        type="checkbox"
+        class="h-4 w-4 cursor-pointer"
+        :checked="model.isAllStaleSelected"
+        :disabled="model.staleResults.length === 0"
+        @change="model.handleToggleAllStale"
+      />
+      {{ t("admin.subdomainProxy.staleCleanupSelectAll") }}
+    </label>
+
+    <div
+      v-for="result in model.visibleResults"
+      :key="`mobile-${result.host}`"
+      class="rounded-md border bg-background p-4"
+    >
+      <div class="flex items-start gap-3">
+        <input
+          type="checkbox"
+          :aria-label="t('common.selectItem', { item: result.host })"
+          class="mt-1 h-4 w-4 shrink-0 cursor-pointer disabled:cursor-not-allowed disabled:opacity-50"
+          :checked="model.isHostSelected(result.host)"
+          :disabled="result.status !== 'stale'"
+          @change="model.handleToggleHost(result.host, $event)"
+        />
+        <div class="min-w-0 flex-1 space-y-3">
+          <div class="min-w-0">
+            <p class="text-xs text-muted-foreground">
+              {{ t("admin.subdomainProxy.staleCleanupColumns.title") }}
+            </p>
+            <p class="break-words text-sm font-medium leading-6">
+              {{ model.getMappingTitle(result.host) }}
+            </p>
+          </div>
+          <div class="min-w-0">
+            <p class="text-xs text-muted-foreground">
+              {{ t("admin.subdomainProxy.staleCleanupColumns.host") }}
+            </p>
+            <p class="break-all text-sm font-medium leading-6">
+              {{ result.host }}
+            </p>
+          </div>
+          <div class="min-w-0">
+            <p class="text-xs text-muted-foreground">
+              {{ t("admin.subdomainProxy.staleCleanupColumns.target") }}
+            </p>
+            <p class="break-all text-sm leading-6">{{ result.target }}</p>
+          </div>
+          <div class="min-w-0 space-y-1">
+            <p class="text-xs text-muted-foreground">
+              {{ t("admin.subdomainProxy.staleCleanupColumns.status") }}
+            </p>
+            <Badge
+              :variant="model.getStatusBadgeVariant(result.status)"
+              :class="model.getStatusBadgeClass(result.status)"
+            >
+              {{ model.getStatusLabel(result) }}
+            </Badge>
+            <p
+              v-if="result.error"
+              class="break-words text-xs leading-5 text-muted-foreground"
+            >
+              {{ result.error }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

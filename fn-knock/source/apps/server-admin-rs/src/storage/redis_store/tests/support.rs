@@ -1,1 +1,67 @@
-dXNlIHN1cGVyOjoqOwp1c2Ugc3RkOjpwYXRoOjpQYXRoOwp1c2UgdGVtcGZpbGU6OlRlbXBEaXI7CnVzZSB0b2tpb19ydXNxbGl0ZTo6T3B0aW9uYWxFeHRlbnNpb247CnVzZSB0b2tpb19ydXNxbGl0ZTo6cnVzcWxpdGU6OkNvbm5lY3Rpb247CgpwdWIoc3VwZXIpIGFzeW5jIGZuIG9wZW5fdGVzdF9zdG9yZSgpIC0+IChUZW1wRGlyLCBTdG9yZSkgewogICAgbGV0IGRpcmVjdG9yeSA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkuZXhwZWN0KCJjcmVhdGUgdGVtcCBkaXIiKTsKICAgIGxldCBzdG9yZSA9IFN0b3JlOjpjb25uZWN0KGRpcmVjdG9yeS5wYXRoKCkuam9pbigiZm4ta25vY2suc3FsaXRlMyIpKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoIm9wZW4gc3RvcmUiKTsKICAgIChkaXJlY3RvcnksIHN0b3JlKQp9CgpwdWIoc3VwZXIpIGZuIG9wZW5fZml4dHVyZV9jb25uZWN0aW9uKHBhdGg6IGltcGwgQXNSZWY8UGF0aD4pIC0+IENvbm5lY3Rpb24gewogICAgQ29ubmVjdGlvbjo6b3BlbihwYXRoKS5leHBlY3QoIm9wZW4gZml4dHVyZSBTUUxpdGUgY29ubmVjdGlvbiIpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gYmxvY2tfcHJpbWFyeV9leGVjdXRvcigKICAgIHN0b3JlOiAmU3RvcmUsCikgLT4gKHN0ZDo6c3luYzo6bXBzYzo6U2VuZGVyPCgpPiwgdG9raW86OnRhc2s6OkpvaW5IYW5kbGU8KCk+KSB7CiAgICBsZXQgbWFuYWdlciA9IHN0b3JlLm1hbmFnZXIuY2xvbmUoKTsKICAgIGxldCAoc3RhcnRlZF90eCwgc3RhcnRlZF9yeCkgPSB0b2tpbzo6c3luYzo6b25lc2hvdDo6Y2hhbm5lbCgpOwogICAgbGV0IChyZWxlYXNlX3R4LCByZWxlYXNlX3J4KSA9IHN0ZDo6c3luYzo6bXBzYzo6Y2hhbm5lbCgpOwogICAgbGV0IHRhc2sgPSB0b2tpbzo6c3Bhd24oYXN5bmMgbW92ZSB7CiAgICAgICAgbWFuYWdlcgogICAgICAgICAgICAuY2FsbChtb3ZlIHxffCB7CiAgICAgICAgICAgICAgICBsZXQgXyA9IHN0YXJ0ZWRfdHguc2VuZCgoKSk7CiAgICAgICAgICAgICAgICByZWxlYXNlX3J4CiAgICAgICAgICAgICAgICAgICAgLnJlY3ZfdGltZW91dChzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX3NlY3MoNSkpCiAgICAgICAgICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBjcmF0ZTo6c3RvcmFnZTo6c3RvcmFnZV9lcnJvcihlcnJvci50b19zdHJpbmcoKSkpPzsKICAgICAgICAgICAgICAgIE9rKCgpKQogICAgICAgICAgICB9KQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgicHJpbWFyeSBibG9ja2VyIik7CiAgICB9KTsKICAgIHN0YXJ0ZWRfcnguYXdhaXQuZXhwZWN0KCJwcmltYXJ5IHN0YXJ0ZWQiKTsKICAgIChyZWxlYXNlX3R4LCB0YXNrKQp9CgpwdWIoc3VwZXIpIGZuIGluc3RhbGxfZmFpbHVyZV90cmlnZ2VyKHBhdGg6IGltcGwgQXNSZWY8UGF0aD4sIHN0YXRlbWVudDogJnN0cikgLT4gQ29ubmVjdGlvbiB7CiAgICBsZXQgY29ubmVjdGlvbiA9IG9wZW5fZml4dHVyZV9jb25uZWN0aW9uKHBhdGgpOwogICAgY29ubmVjdGlvbgogICAgICAgIC5leGVjdXRlX2JhdGNoKHN0YXRlbWVudCkKICAgICAgICAuZXhwZWN0KCJpbnN0YWxsIHR5cGVkIGZhaWx1cmUgdHJpZ2dlciIpOwogICAgY29ubmVjdGlvbgp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHNxbGl0ZV9rZXlfZXhwaXJ5X2F0X21zKHBhdGg6ICZQYXRoLCBrZXk6ICZzdHIpIC0+IE9wdGlvbjxpNjQ+IHsKICAgIGxldCBjb25uZWN0aW9uID0gdG9raW9fcnVzcWxpdGU6OkNvbm5lY3Rpb246Om9wZW4ocGF0aCkKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJvcGVuIGV4cGlyeSBvYnNlcnZlciIpOwogICAgbGV0IGtleSA9IGtleS50b19zdHJpbmcoKTsKICAgIGNvbm5lY3Rpb24KICAgICAgICAuY2FsbChtb3ZlIHxjb25uZWN0aW9ufCB7CiAgICAgICAgICAgIGNvbm5lY3Rpb24KICAgICAgICAgICAgICAgIC5xdWVyeV9yb3coCiAgICAgICAgICAgICAgICAgICAgIlNFTEVDVCBleHBpcmVzX2F0X21zIEZST00ga3Zfa2V5cyBXSEVSRSBrZXkgPSA/MSIsCiAgICAgICAgICAgICAgICAgICAgWyZrZXldLAogICAgICAgICAgICAgICAgICAgIHxyb3d8IHJvdy5nZXQ6OjxfLCBPcHRpb248aTY0Pj4oMCksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAub3B0aW9uYWwoKQogICAgICAgIH0pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgicXVlcnkgZXhwaXJ5IikKICAgICAgICAuZmxhdHRlbigpCn0K
+use super::*;
+use std::path::Path;
+use tempfile::TempDir;
+use tokio_rusqlite::OptionalExtension;
+use tokio_rusqlite::rusqlite::Connection;
+
+pub(super) async fn open_test_store() -> (TempDir, Store) {
+    let directory = tempfile::tempdir().expect("create temp dir");
+    let store = Store::connect(directory.path().join("fn-knock.sqlite3"))
+        .await
+        .expect("open store");
+    (directory, store)
+}
+
+pub(super) fn open_fixture_connection(path: impl AsRef<Path>) -> Connection {
+    Connection::open(path).expect("open fixture SQLite connection")
+}
+
+pub(super) async fn block_primary_executor(
+    store: &Store,
+) -> (std::sync::mpsc::Sender<()>, tokio::task::JoinHandle<()>) {
+    let manager = store.manager.clone();
+    let (started_tx, started_rx) = tokio::sync::oneshot::channel();
+    let (release_tx, release_rx) = std::sync::mpsc::channel();
+    let task = tokio::spawn(async move {
+        manager
+            .call(move |_| {
+                let _ = started_tx.send(());
+                release_rx
+                    .recv_timeout(std::time::Duration::from_secs(5))
+                    .map_err(|error| crate::storage::storage_error(error.to_string()))?;
+                Ok(())
+            })
+            .await
+            .expect("primary blocker");
+    });
+    started_rx.await.expect("primary started");
+    (release_tx, task)
+}
+
+pub(super) fn install_failure_trigger(path: impl AsRef<Path>, statement: &str) -> Connection {
+    let connection = open_fixture_connection(path);
+    connection
+        .execute_batch(statement)
+        .expect("install typed failure trigger");
+    connection
+}
+
+pub(super) async fn sqlite_key_expiry_at_ms(path: &Path, key: &str) -> Option<i64> {
+    let connection = tokio_rusqlite::Connection::open(path)
+        .await
+        .expect("open expiry observer");
+    let key = key.to_string();
+    connection
+        .call(move |connection| {
+            connection
+                .query_row(
+                    "SELECT expires_at_ms FROM kv_keys WHERE key = ?1",
+                    [&key],
+                    |row| row.get::<_, Option<i64>>(0),
+                )
+                .optional()
+        })
+        .await
+        .expect("query expiry")
+        .flatten()
+}

@@ -1,1 +1,146 @@
-dXNlIHN0ZDo6ZnM7Cgp1c2Ugc3VwZXI6OnsKICAgIGRvbWFpbjo6ewogICAgICAgIEF0dGFjaG1lbnRSb2xlLCBBdXRoTWV0aG9kLCBTZXNzaW9uQmFja2VuZCwgU2Vzc2lvblBoYXNlLCBUZXJtaW5hbEVycm9yQ29kZSwgVGVybWluYWxFdmVudCwKICAgICAgICBUZXJtaW5hbEV2ZW50VHlwZSwKICAgIH0sCiAgICBzZWNyZXRzOjp7Q3JlZGVudGlhbEtpbmQsIFRlcm1pbmFsU2VjcmV0U3RvcmV9LAp9OwoKI1t0ZXN0XQpmbiBzZXJpYWxpemVzX3N0YWJsZV93aXJlX2VudW1zKCkgewogICAgYXNzZXJ0X2VxISgKICAgICAgICBzZXJkZV9qc29uOjp0b19zdHJpbmcoJkF1dGhNZXRob2Q6OlByaXZhdGVLZXkpLnVud3JhcCgpLAogICAgICAgIHIjIiJwcml2YXRlS2V5IiIjCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzZXJkZV9qc29uOjp0b19zdHJpbmcoJlNlc3Npb25QaGFzZTo6VmVyaWZ5aW5nSG9zdEtleSkudW53cmFwKCksCiAgICAgICAgciMiInZlcmlmeWluZ0hvc3RLZXkiIiMKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHNlcmRlX2pzb246OnRvX3N0cmluZygmU2Vzc2lvblBoYXNlOjpPcGVuaW5nUHR5KS51bndyYXAoKSwKICAgICAgICByIyIib3BlbmluZ1B0eSIiIwogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc2VyZGVfanNvbjo6dG9fc3RyaW5nKCZTZXNzaW9uQmFja2VuZDo6TG9jYWwpLnVud3JhcCgpLAogICAgICAgIHIjIiJsb2NhbCIiIwogICAgKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc2VyZGVfanNvbjo6dG9fc3RyaW5nKCZUZXJtaW5hbEVycm9yQ29kZTo6SG9zdEtleVJlcXVpcmVkKS51bndyYXAoKSwKICAgICAgICByIyIiaG9zdF9rZXlfcmVxdWlyZWQiIiMKICAgICk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHNlcmRlX2pzb246OnRvX3N0cmluZygmQXR0YWNobWVudFJvbGU6OkNvbnRyb2xsZXIpLnVud3JhcCgpLAogICAgICAgIHIjIiJjb250cm9sbGVyIiIjCiAgICApOwp9CgojW3Rlc3RdCmZuIHN0YXR1c19ldmVudF9jYXJyaWVzX3Rlcm1pbmFsX2ZhaWx1cmVfZGV0YWlscygpIHsKICAgIGxldCBldmVudCA9IFRlcm1pbmFsRXZlbnQgewogICAgICAgIGtpbmQ6IFRlcm1pbmFsRXZlbnRUeXBlOjpTdGF0dXMsCiAgICAgICAgY3Vyc29yOiA3LAogICAgICAgIGRhdGFfYmFzZTY0OiBOb25lLAogICAgICAgIHJlc2V0OiBmYWxzZSwKICAgICAgICBwaGFzZTogU29tZShTZXNzaW9uUGhhc2U6Okxvc3QpLAogICAgICAgIGVycm9yX2NvZGU6IFNvbWUoVGVybWluYWxFcnJvckNvZGU6OlNlc3Npb25Mb3N0KSwKICAgICAgICBlcnJvcl9tZXNzYWdlOiBTb21lKCJjb25uZWN0aW9uIGxvc3QiLnRvX3N0cmluZygpKSwKICAgICAgICBleGl0X2NvZGU6IE5vbmUsCiAgICAgICAgcm9sZTogTm9uZSwKICAgICAgICBnZW5lcmF0aW9uOiBOb25lLAogICAgfTsKICAgIGxldCB2YWx1ZSA9IHNlcmRlX2pzb246OnRvX3ZhbHVlKGV2ZW50KS51bndyYXAoKTsKICAgIGFzc2VydF9lcSEodmFsdWVbInR5cGUiXSwgInN0YXR1cyIpOwogICAgYXNzZXJ0X2VxISh2YWx1ZVsicGhhc2UiXSwgImxvc3QiKTsKICAgIGFzc2VydF9lcSEodmFsdWVbImVycm9yQ29kZSJdLCAic2Vzc2lvbl9sb3N0Iik7CiAgICBhc3NlcnRfZXEhKHZhbHVlWyJlcnJvck1lc3NhZ2UiXSwgImNvbm5lY3Rpb24gbG9zdCIpOwp9CgojW3Rlc3RdCmZuIGVuY3J5cHRzX2FuZF9kb21haW5fc2VwYXJhdGVzX3Rlcm1pbmFsX2NyZWRlbnRpYWxzKCkgewogICAgbGV0IGRpcmVjdG9yeSA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkudW53cmFwKCk7CiAgICBsZXQgc3RvcmUgPSBUZXJtaW5hbFNlY3JldFN0b3JlOjpuZXcoZGlyZWN0b3J5LnBhdGgoKS5qb2luKCJ0ZXJtaW5hbCIpKTsKICAgIHN0b3JlCiAgICAgICAgLndyaXRlKCJ0YXJnZXQtYSIsIENyZWRlbnRpYWxLaW5kOjpQYXNzd29yZCwgYiJzZWNyZXQiKQogICAgICAgIC51bndyYXAoKTsKICAgIHN0b3JlCiAgICAgICAgLndyaXRlKCJ0YXJnZXQtYSIsIENyZWRlbnRpYWxLaW5kOjpQcml2YXRlS2V5LCBiInByaXZhdGUta2V5IikKICAgICAgICAudW53cmFwKCk7CiAgICBhc3NlcnRfZXEhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5yZWFkKCJ0YXJnZXQtYSIsIENyZWRlbnRpYWxLaW5kOjpQYXNzd29yZCkKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC51bndyYXAoKSwKICAgICAgICBiInNlY3JldCIKICAgICk7CiAgICBhc3NlcnQhKAogICAgICAgIHN0b3JlCiAgICAgICAgICAgIC5yZWFkKCJ0YXJnZXQtYiIsIENyZWRlbnRpYWxLaW5kOjpQYXNzd29yZCkKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5pc19ub25lKCkKICAgICk7CiAgICBsZXQgcmF3ID0gZnM6OnJlYWRfdG9fc3RyaW5nKAogICAgICAgIGRpcmVjdG9yeQogICAgICAgICAgICAucGF0aCgpCiAgICAgICAgICAgIC5qb2luKCJ0ZXJtaW5hbC9zZWNyZXRzL3RhcmdldC10YXJnZXQtYS5lbmMiKSwKICAgICkKICAgIC51bndyYXAoKTsKICAgIGFzc2VydCEoIXJhdy5jb250YWlucygic2VjcmV0IikpOwogICAgYXNzZXJ0ISghcmF3LmNvbnRhaW5zKCJwcml2YXRlLWtleSIpKTsKCiAgICBmczo6Y29weSgKICAgICAgICBkaXJlY3RvcnkKICAgICAgICAgICAgLnBhdGgoKQogICAgICAgICAgICAuam9pbigidGVybWluYWwvc2VjcmV0cy90YXJnZXQtdGFyZ2V0LWEuZW5jIiksCiAgICAgICAgZGlyZWN0b3J5CiAgICAgICAgICAgIC5wYXRoKCkKICAgICAgICAgICAgLmpvaW4oInRlcm1pbmFsL3NlY3JldHMvdGFyZ2V0LXRhcmdldC1iLmVuYyIpLAogICAgKQogICAgLnVud3JhcCgpOwogICAgYXNzZXJ0IShzdG9yZS5yZWFkKCJ0YXJnZXQtYiIsIENyZWRlbnRpYWxLaW5kOjpQcml2YXRlS2V5KS5pc19lcnIoKSk7Cn0KCiNbdGVzdF0KZm4gYWxsX3RhcmdldF9jcmVkZW50aWFsc19hcmVfY29tbWl0dGVkX2FzX29uZV9lbmNyeXB0ZWRfYnVuZGxlKCkgewogICAgbGV0IGRpcmVjdG9yeSA9IHRlbXBmaWxlOjp0ZW1wZGlyKCkudW53cmFwKCk7CiAgICBsZXQgc3RvcmUgPSBUZXJtaW5hbFNlY3JldFN0b3JlOjpuZXcoZGlyZWN0b3J5LnBhdGgoKS5qb2luKCJ0ZXJtaW5hbCIpKTsKICAgIHN0b3JlCiAgICAgICAgLndyaXRlKCJ0YXJnZXQtYSIsIENyZWRlbnRpYWxLaW5kOjpQcml2YXRlS2V5LCBiInByaXZhdGUta2V5IikKICAgICAgICAudW53cmFwKCk7CiAgICBzdG9yZQogICAgICAgIC53cml0ZSgidGFyZ2V0LWEiLCBDcmVkZW50aWFsS2luZDo6UGFzc3BocmFzZSwgYiJwYXNzcGhyYXNlIikKICAgICAgICAudW53cmFwKCk7CiAgICBsZXQgZmlsZXMgPSBmczo6cmVhZF9kaXIoZGlyZWN0b3J5LnBhdGgoKS5qb2luKCJ0ZXJtaW5hbC9zZWNyZXRzIikpCiAgICAgICAgLnVud3JhcCgpCiAgICAgICAgLmNvbGxlY3Q6OjxSZXN1bHQ8VmVjPF8+LCBfPj4oKQogICAgICAgIC51bndyYXAoKTsKICAgIGFzc2VydF9lcSEoZmlsZXMubGVuKCksIDEpOwogICAgYXNzZXJ0X2VxIShmaWxlc1swXS5maWxlX25hbWUoKSwgInRhcmdldC10YXJnZXQtYS5lbmMiKTsKICAgIGFzc2VydF9lcSEoCiAgICAgICAgc3RvcmUKICAgICAgICAgICAgLnJlYWQoInRhcmdldC1hIiwgQ3JlZGVudGlhbEtpbmQ6OlByaXZhdGVLZXkpCiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAuYXNfZGVyZWYoKSwKICAgICAgICBTb21lKGIicHJpdmF0ZS1rZXkiLmFzX3NsaWNlKCkpCiAgICApOwogICAgYXNzZXJ0X2VxISgKICAgICAgICBzdG9yZQogICAgICAgICAgICAucmVhZCgidGFyZ2V0LWEiLCBDcmVkZW50aWFsS2luZDo6UGFzc3BocmFzZSkKICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgIC5hc19kZXJlZigpLAogICAgICAgIFNvbWUoYiJwYXNzcGhyYXNlIi5hc19zbGljZSgpKQogICAgKTsKfQoKI1t0ZXN0XQpmbiBjcmVkZW50aWFsX3N0b3JlX3JlamVjdHNfcGF0aF90cmF2ZXJzYWwoKSB7CiAgICBsZXQgZGlyZWN0b3J5ID0gdGVtcGZpbGU6OnRlbXBkaXIoKS51bndyYXAoKTsKICAgIGxldCBzdG9yZSA9IFRlcm1pbmFsU2VjcmV0U3RvcmU6Om5ldyhkaXJlY3RvcnkucGF0aCgpLmpvaW4oInRlcm1pbmFsIikpOwogICAgZm9yIGlkIGluIFsiIiwgIi4uL2VzY2FwZSIsICJ0YXJnZXQvZXNjYXBlIiwgInRhcmdldFxcZXNjYXBlIl0gewogICAgICAgIGFzc2VydCEoc3RvcmUud3JpdGUoaWQsIENyZWRlbnRpYWxLaW5kOjpQYXNzd29yZCwgYiJ4IikuaXNfZXJyKCkpOwogICAgICAgIGFzc2VydCEoc3RvcmUucmVhZChpZCwgQ3JlZGVudGlhbEtpbmQ6OlBhc3N3b3JkKS5pc19lcnIoKSk7CiAgICAgICAgYXNzZXJ0IShzdG9yZS5kZWxldGUoaWQsIENyZWRlbnRpYWxLaW5kOjpQYXNzd29yZCkuaXNfZXJyKCkpOwogICAgfQogICAgYXNzZXJ0ISghZGlyZWN0b3J5LnBhdGgoKS5qb2luKCJlc2NhcGUuZW5jIikuZXhpc3RzKCkpOwp9Cg==
+use std::fs;
+
+use super::{
+    domain::{
+        AttachmentRole, AuthMethod, SessionBackend, SessionPhase, TerminalErrorCode, TerminalEvent,
+        TerminalEventType,
+    },
+    secrets::{CredentialKind, TerminalSecretStore},
+};
+
+#[test]
+fn serializes_stable_wire_enums() {
+    assert_eq!(
+        serde_json::to_string(&AuthMethod::PrivateKey).unwrap(),
+        r#""privateKey""#
+    );
+    assert_eq!(
+        serde_json::to_string(&SessionPhase::VerifyingHostKey).unwrap(),
+        r#""verifyingHostKey""#
+    );
+    assert_eq!(
+        serde_json::to_string(&SessionPhase::OpeningPty).unwrap(),
+        r#""openingPty""#
+    );
+    assert_eq!(
+        serde_json::to_string(&SessionBackend::Local).unwrap(),
+        r#""local""#
+    );
+    assert_eq!(
+        serde_json::to_string(&TerminalErrorCode::HostKeyRequired).unwrap(),
+        r#""host_key_required""#
+    );
+    assert_eq!(
+        serde_json::to_string(&AttachmentRole::Controller).unwrap(),
+        r#""controller""#
+    );
+}
+
+#[test]
+fn status_event_carries_terminal_failure_details() {
+    let event = TerminalEvent {
+        kind: TerminalEventType::Status,
+        cursor: 7,
+        data_base64: None,
+        reset: false,
+        phase: Some(SessionPhase::Lost),
+        error_code: Some(TerminalErrorCode::SessionLost),
+        error_message: Some("connection lost".to_string()),
+        exit_code: None,
+        role: None,
+        generation: None,
+    };
+    let value = serde_json::to_value(event).unwrap();
+    assert_eq!(value["type"], "status");
+    assert_eq!(value["phase"], "lost");
+    assert_eq!(value["errorCode"], "session_lost");
+    assert_eq!(value["errorMessage"], "connection lost");
+}
+
+#[test]
+fn encrypts_and_domain_separates_terminal_credentials() {
+    let directory = tempfile::tempdir().unwrap();
+    let store = TerminalSecretStore::new(directory.path().join("terminal"));
+    store
+        .write("target-a", CredentialKind::Password, b"secret")
+        .unwrap();
+    store
+        .write("target-a", CredentialKind::PrivateKey, b"private-key")
+        .unwrap();
+    assert_eq!(
+        store
+            .read("target-a", CredentialKind::Password)
+            .unwrap()
+            .unwrap(),
+        b"secret"
+    );
+    assert!(
+        store
+            .read("target-b", CredentialKind::Password)
+            .unwrap()
+            .is_none()
+    );
+    let raw = fs::read_to_string(
+        directory
+            .path()
+            .join("terminal/secrets/target-target-a.enc"),
+    )
+    .unwrap();
+    assert!(!raw.contains("secret"));
+    assert!(!raw.contains("private-key"));
+
+    fs::copy(
+        directory
+            .path()
+            .join("terminal/secrets/target-target-a.enc"),
+        directory
+            .path()
+            .join("terminal/secrets/target-target-b.enc"),
+    )
+    .unwrap();
+    assert!(store.read("target-b", CredentialKind::PrivateKey).is_err());
+}
+
+#[test]
+fn all_target_credentials_are_committed_as_one_encrypted_bundle() {
+    let directory = tempfile::tempdir().unwrap();
+    let store = TerminalSecretStore::new(directory.path().join("terminal"));
+    store
+        .write("target-a", CredentialKind::PrivateKey, b"private-key")
+        .unwrap();
+    store
+        .write("target-a", CredentialKind::Passphrase, b"passphrase")
+        .unwrap();
+    let files = fs::read_dir(directory.path().join("terminal/secrets"))
+        .unwrap()
+        .collect::<Result<Vec<_>, _>>()
+        .unwrap();
+    assert_eq!(files.len(), 1);
+    assert_eq!(files[0].file_name(), "target-target-a.enc");
+    assert_eq!(
+        store
+            .read("target-a", CredentialKind::PrivateKey)
+            .unwrap()
+            .as_deref(),
+        Some(b"private-key".as_slice())
+    );
+    assert_eq!(
+        store
+            .read("target-a", CredentialKind::Passphrase)
+            .unwrap()
+            .as_deref(),
+        Some(b"passphrase".as_slice())
+    );
+}
+
+#[test]
+fn credential_store_rejects_path_traversal() {
+    let directory = tempfile::tempdir().unwrap();
+    let store = TerminalSecretStore::new(directory.path().join("terminal"));
+    for id in ["", "../escape", "target/escape", "target\\escape"] {
+        assert!(store.write(id, CredentialKind::Password, b"x").is_err());
+        assert!(store.read(id, CredentialKind::Password).is_err());
+        assert!(store.delete(id, CredentialKind::Password).is_err());
+    }
+    assert!(!directory.path().join("escape.enc").exists());
+}

@@ -1,1 +1,240 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgcmVhY3RpdmUsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgcGFyc2VDaWRyVGV4dGFyZWEgfSBmcm9tICJAYWRtaW4tc2hhcmVkL3V0aWxzL2NpZHIiOwppbXBvcnQgeyBTU0hTZWN1cml0eUFQSSB9IGZyb20gIkAvbGliL2FwaS9zZWN1cml0eSI7CmltcG9ydCB7IHVzZUNvbmZpZ1N0b3JlIH0gZnJvbSAiQC9zdG9yZS9jb25maWciOwppbXBvcnQgdHlwZSB7CiAgU1NIU2VjdXJpdHlCbG9ja0R1cmF0aW9uVW5pdCwKICBTU0hTZWN1cml0eURldGFpbHMsCiAgU1NIU2VjdXJpdHlTZWxlY3Rpb24sCn0gZnJvbSAiQC90eXBlcyI7Cgp0eXBlIFNTSEJsb2NrTGlzdFBhbmVsSW5zdGFuY2UgPSB7CiAgbG9hZEJsb2NrczogKCkgPT4gUHJvbWlzZTx2b2lkPjsKfTsKCmV4cG9ydCBjb25zdCB1c2VTU0hTZWN1cml0eUNvbmZpZyA9ICgpID0+IHsKICBjb25zdCBjb25maWdTdG9yZSA9IHVzZUNvbmZpZ1N0b3JlKCk7CiAgY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CiAgY29uc3QgZGV0YWlscyA9IHJlZjxTU0hTZWN1cml0eURldGFpbHMgfCBudWxsPihudWxsKTsKICBjb25zdCBhY3RpdmVUYWIgPSByZWYoImxvZ2luLWxvZ3MiKTsKICBjb25zdCBpc0NsZWFyRmlyZXdhbGxEaWFsb2dPcGVuID0gcmVmKGZhbHNlKTsKICBjb25zdCBibG9ja0xpc3RQYW5lbCA9IHJlZjxTU0hCbG9ja0xpc3RQYW5lbEluc3RhbmNlIHwgbnVsbD4obnVsbCk7CiAgY29uc3Qgc2V0QmxvY2tMaXN0UGFuZWwgPSAocGFuZWw6IHVua25vd24pID0+IHsKICAgIGJsb2NrTGlzdFBhbmVsLnZhbHVlID0gcGFuZWwgYXMgU1NIQmxvY2tMaXN0UGFuZWxJbnN0YW5jZSB8IG51bGw7CiAgfTsKCiAgY29uc3QgZm9ybSA9IHJlYWN0aXZlKHsKICAgIGVuYWJsZWQ6IGZhbHNlLAogICAgd2luZG93TWludXRlczogMTAsCiAgICBmYWlsZWRMb2dpblRocmVzaG9sZDogNSwKICAgIGJsb2NrRHVyYXRpb25WYWx1ZTogMSwKICAgIGJsb2NrRHVyYXRpb25Vbml0OiAiZGF5IiBhcyBTU0hTZWN1cml0eUJsb2NrRHVyYXRpb25Vbml0LAogICAgYWxsb3dlZFJlZ2lvbnM6IFtdIGFzIFNTSFNlY3VyaXR5U2VsZWN0aW9uW10sCiAgICBjdXN0b21DaWRyc1RleHQ6ICIiLAogIH0pOwoKICBjb25zdCB7IGlzUGVuZGluZzogaXNMb2FkaW5nLCBydW46IHJ1bkxvYWQgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcih0KCJhZG1pbi5zc2hTZWN1cml0eS5sb2FkRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4uc3NoU2VjdXJpdHkubG9hZERlc2NyaXB0aW9uIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9LAogIH0pOwogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1NhdmluZywgcnVuOiBydW5TYXZlIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uc3NoU2VjdXJpdHkuc2F2ZUZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHQoImFkbWluLnNzaFNlY3VyaXR5LnNhdmVEZXNjcmlwdGlvbiIpLAogICAgICAgICksCiAgICAgIH0pOwogICAgfSwKICB9KTsKICBjb25zdCB7IGlzUGVuZGluZzogaXNTeW5jaW5nRmlyZXdhbGwsIHJ1bjogcnVuU3luY0ZpcmV3YWxsIH0gPSB1c2VBc3luY0FjdGlvbigKICAgIHsKICAgICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uc3NoU2VjdXJpdHkuc3luY0ZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgICAgZXJyb3IsCiAgICAgICAgICAgIHQoImFkbWluLnNzaFNlY3VyaXR5LnN5bmNEZXNjcmlwdGlvbiIpLAogICAgICAgICAgKSwKICAgICAgICB9KTsKICAgICAgfSwKICAgIH0sCiAgKTsKCiAgY29uc3QgY3VzdG9tQ2lkcnNTdGF0ZSA9IGNvbXB1dGVkKCgpID0+CiAgICBwYXJzZUNpZHJUZXh0YXJlYShmb3JtLmN1c3RvbUNpZHJzVGV4dCksCiAgKTsKICBjb25zdCBpbnZhbGlkQ3VzdG9tQ2lkcnMgPSBjb21wdXRlZCgoKSA9PiBjdXN0b21DaWRyc1N0YXRlLnZhbHVlLmludmFsaWQpOwogIGNvbnN0IHJlZ2lvbklucHV0c0Rpc2FibGVkID0gY29tcHV0ZWQoKCkgPT4gaXNTYXZpbmcudmFsdWUgfHwgIWZvcm0uZW5hYmxlZCk7CiAgY29uc3Qgc3NoUG9ydHNMYWJlbCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IHBvcnRzID0gZGV0YWlscy52YWx1ZT8uc3VtbWFyeS5zc2hfcG9ydHMgPz8gWzIyXTsKICAgIHJldHVybiBwb3J0cy5sZW5ndGggPiAwCiAgICAgID8gcG9ydHMuam9pbih0KCJhZG1pbi5zc2hTZWN1cml0eS5saXN0U2VwYXJhdG9yIikpCiAgICAgIDogIjIyIjsKICB9KTsKICBjb25zdCBzdW1tYXJ5VGV4dCA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IHN1bW1hcnkgPSBkZXRhaWxzLnZhbHVlPy5zdW1tYXJ5OwogICAgaWYgKCFzdW1tYXJ5KSByZXR1cm4gdCgiYWRtaW4uc3NoU2VjdXJpdHkubm90TG9hZGVkIik7CiAgICByZXR1cm4gdCgiYWRtaW4uc3NoU2VjdXJpdHkuc3VtbWFyeSIsIHsKICAgICAgc3RhdHVzOiBzdW1tYXJ5LmVuYWJsZWQKICAgICAgICA/IHQoImFkbWluLnNzaFNlY3VyaXR5LmVuYWJsZWQiKQogICAgICAgIDogdCgiYWRtaW4uc3NoU2VjdXJpdHkuZGlzYWJsZWQiKSwKICAgICAgcG9ydHM6IHNzaFBvcnRzTGFiZWwudmFsdWUsCiAgICAgIGFsbG93ZWQ6IHN1bW1hcnkuYWxsb3dlZF9jaWRyX2NvdW50LAogICAgICBibG9ja3M6IHN1bW1hcnkuYWN0aXZlX2Jsb2NrX2NvdW50LAogICAgfSk7CiAgfSk7CiAgY29uc3Qgc2F2ZUJsb2NrZWRSZWFzb24gPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoIWRldGFpbHMudmFsdWU/LnN1bW1hcnkuYXZhaWxhYmxlICYmIGZvcm0uZW5hYmxlZCkgewogICAgICByZXR1cm4gKAogICAgICAgIGRldGFpbHMudmFsdWU/LnN1bW1hcnkudW5hdmFpbGFibGVfcmVhc29uIHx8CiAgICAgICAgdCgiYWRtaW4uc3NoU2VjdXJpdHkudW5hdmFpbGFibGVUb0VuYWJsZSIpCiAgICAgICk7CiAgICB9CiAgICBpZiAoaW52YWxpZEN1c3RvbUNpZHJzLnZhbHVlLmxlbmd0aCA+IDApIHsKICAgICAgcmV0dXJuIHQoImFkbWluLnNzaFNlY3VyaXR5LmZpeEN1c3RvbUNpZHJzIik7CiAgICB9CiAgICByZXR1cm4gIiI7CiAgfSk7CgogIGNvbnN0IGFwcGx5RGV0YWlscyA9ICh2YWx1ZTogU1NIU2VjdXJpdHlEZXRhaWxzKSA9PiB7CiAgICBkZXRhaWxzLnZhbHVlID0gdmFsdWU7CiAgICBmb3JtLmVuYWJsZWQgPSB2YWx1ZS5jb25maWcuZW5hYmxlZDsKICAgIGZvcm0ud2luZG93TWludXRlcyA9IHZhbHVlLmNvbmZpZy53aW5kb3dfbWludXRlczsKICAgIGZvcm0uZmFpbGVkTG9naW5UaHJlc2hvbGQgPSB2YWx1ZS5jb25maWcuZmFpbGVkX2xvZ2luX3RocmVzaG9sZDsKICAgIGZvcm0uYmxvY2tEdXJhdGlvblZhbHVlID0gdmFsdWUuY29uZmlnLmJsb2NrX2R1cmF0aW9uX3ZhbHVlOwogICAgZm9ybS5ibG9ja0R1cmF0aW9uVW5pdCA9IHZhbHVlLmNvbmZpZy5ibG9ja19kdXJhdGlvbl91bml0OwogICAgZm9ybS5hbGxvd2VkUmVnaW9ucyA9IHZhbHVlLmNvbmZpZy5hbGxvd2VkX3JlZ2lvbnMubWFwKChpdGVtKSA9PiAoewogICAgICAuLi5pdGVtLAogICAgfSkpOwogICAgZm9ybS5jdXN0b21DaWRyc1RleHQgPSB2YWx1ZS5jb25maWcuY3VzdG9tX2NpZHJzLmpvaW4oIlxuIik7CiAgfTsKCiAgY29uc3QgbG9hZERldGFpbHMgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBydW5Mb2FkKGFzeW5jICgpID0+IHsKICAgICAgYXBwbHlEZXRhaWxzKGF3YWl0IFNTSFNlY3VyaXR5QVBJLmdldERldGFpbHMoKSk7CiAgICB9KTsKICB9OwogIGNvbnN0IHJlbG9hZEJsb2NrTGlzdCA9ICgpID0+CiAgICBibG9ja0xpc3RQYW5lbC52YWx1ZT8ubG9hZEJsb2NrcygpID8/IFByb21pc2UucmVzb2x2ZSgpOwoKICBjb25zdCBzYXZlQ29uZmlnID0gYXN5bmMgKCkgPT4gewogICAgaWYgKHNhdmVCbG9ja2VkUmVhc29uLnZhbHVlKSB7CiAgICAgIHRvYXN0LmVycm9yKHQoImFkbWluLnNzaFNlY3VyaXR5LmNhbm5vdFNhdmUiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBzYXZlQmxvY2tlZFJlYXNvbi52YWx1ZSwKICAgICAgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGF3YWl0IHJ1blNhdmUoCiAgICAgICgpID0+CiAgICAgICAgU1NIU2VjdXJpdHlBUEkudXBkYXRlQ29uZmlnKHsKICAgICAgICAgIGVuYWJsZWQ6IGZvcm0uZW5hYmxlZCwKICAgICAgICAgIHdpbmRvd19taW51dGVzOiBmb3JtLndpbmRvd01pbnV0ZXMsCiAgICAgICAgICBmYWlsZWRfbG9naW5fdGhyZXNob2xkOiBmb3JtLmZhaWxlZExvZ2luVGhyZXNob2xkLAogICAgICAgICAgYmxvY2tfZHVyYXRpb25fdmFsdWU6IGZvcm0uYmxvY2tEdXJhdGlvblZhbHVlLAogICAgICAgICAgYmxvY2tfZHVyYXRpb25fdW5pdDogZm9ybS5ibG9ja0R1cmF0aW9uVW5pdCwKICAgICAgICAgIGFsbG93ZWRfcmVnaW9uczogZm9ybS5hbGxvd2VkUmVnaW9ucy5tYXAoKGl0ZW0pID0+ICh7CiAgICAgICAgICAgIHByb3ZpbmNlOiBpdGVtLnByb3ZpbmNlLAogICAgICAgICAgICBxdWVyeV9jaXR5OiBpdGVtLnF1ZXJ5X2NpdHksCiAgICAgICAgICAgIG9wZXJhdG9yOiBpdGVtLm9wZXJhdG9yLAogICAgICAgICAgfSkpLAogICAgICAgICAgY3VzdG9tX2NpZHJzOiBjdXN0b21DaWRyc1N0YXRlLnZhbHVlLmNpZHJzLAogICAgICAgIH0pLAogICAgICB7CiAgICAgICAgb25TdWNjZXNzOiBhc3luYyAobmV4dERldGFpbHMpID0+IHsKICAgICAgICAgIGFwcGx5RGV0YWlscyhuZXh0RGV0YWlscyk7CiAgICAgICAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLnNzaFNlY3VyaXR5LnNhdmVkIikpOwogICAgICAgICAgYXdhaXQgY29uZmlnU3RvcmUubG9hZENvbmZpZygpOwogICAgICAgIH0sCiAgICAgIH0sCiAgICApOwogIH07CgogIGNvbnN0IHN5bmNGaXJld2FsbCA9IGFzeW5jICgpID0+IHsKICAgIGlmICghZGV0YWlscy52YWx1ZT8uc3VtbWFyeS5hdmFpbGFibGUpIHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uc3NoU2VjdXJpdHkuY2Fubm90U3luYyIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246CiAgICAgICAgICBkZXRhaWxzLnZhbHVlPy5zdW1tYXJ5LnVuYXZhaWxhYmxlX3JlYXNvbiB8fAogICAgICAgICAgdCgiYWRtaW4uc3NoU2VjdXJpdHkudW5hdmFpbGFibGVUb1N5bmMiKSwKICAgICAgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGF3YWl0IHJ1blN5bmNGaXJld2FsbChTU0hTZWN1cml0eUFQSS5zeW5jRmlyZXdhbGwsIHsKICAgICAgb25TdWNjZXNzOiBhc3luYyAocmVzdWx0KSA9PiB7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5zc2hTZWN1cml0eS5maXJld2FsbFN5bmNlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogdCgiYWRtaW4uc3NoU2VjdXJpdHkuZmlyZXdhbGxTeW5jZWREZXNjcmlwdGlvbiIsIHsKICAgICAgICAgICAgYWxsb3dlZDogcmVzdWx0LmFsbG93ZWRfY2lkcnMsCiAgICAgICAgICAgIHN5bmNlZDogcmVzdWx0LnN5bmNlZCwKICAgICAgICAgICAgcG9ydHM6CiAgICAgICAgICAgICAgcmVzdWx0LnBvcnRzLmpvaW4odCgiYWRtaW4uc3NoU2VjdXJpdHkubGlzdFNlcGFyYXRvciIpKSB8fCAiMjIiLAogICAgICAgICAgfSksCiAgICAgICAgfSk7CiAgICAgICAgYXdhaXQgUHJvbWlzZS5hbGwoW2xvYWREZXRhaWxzKCksIHJlbG9hZEJsb2NrTGlzdCgpXSk7CiAgICAgIH0sCiAgICB9KTsKICB9OwoKICBjb25zdCBvcGVuQ2xlYXJGaXJld2FsbERpYWxvZyA9ICgpID0+IHsKICAgIGlmICghZGV0YWlscy52YWx1ZT8uc3VtbWFyeS5hdmFpbGFibGUgfHwgaXNTeW5jaW5nRmlyZXdhbGwudmFsdWUpIHJldHVybjsKICAgIGlzQ2xlYXJGaXJld2FsbERpYWxvZ09wZW4udmFsdWUgPSB0cnVlOwogIH07CiAgY29uc3QgY2xlYXJGaXJld2FsbCA9IGFzeW5jICgpID0+IHsKICAgIGlmICghZGV0YWlscy52YWx1ZT8uc3VtbWFyeS5hdmFpbGFibGUpIHsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4uc3NoU2VjdXJpdHkuY2Fubm90Q2xlYXIiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICAgZGV0YWlscy52YWx1ZT8uc3VtbWFyeS51bmF2YWlsYWJsZV9yZWFzb24gfHwKICAgICAgICAgIHQoImFkbWluLnNzaFNlY3VyaXR5LnVuYXZhaWxhYmxlVG9DbGVhciIpLAogICAgICB9KTsKICAgICAgcmV0dXJuOwogICAgfQogICAgYXdhaXQgcnVuU3luY0ZpcmV3YWxsKFNTSFNlY3VyaXR5QVBJLmNsZWFyRmlyZXdhbGwsIHsKICAgICAgb25TdWNjZXNzOiBhc3luYyAocmVzdWx0KSA9PiB7CiAgICAgICAgaXNDbGVhckZpcmV3YWxsRGlhbG9nT3Blbi52YWx1ZSA9IGZhbHNlOwogICAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uc3NoU2VjdXJpdHkuZmlyZXdhbGxDbGVhcmVkIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiB0KCJhZG1pbi5zc2hTZWN1cml0eS5maXJld2FsbENsZWFyZWREZXNjcmlwdGlvbiIsIHsKICAgICAgICAgICAgY291bnQ6IHJlc3VsdC5jbGVhcmVkX2Jsb2NrcywKICAgICAgICAgIH0pLAogICAgICAgIH0pOwogICAgICAgIGF3YWl0IFByb21pc2UuYWxsKFtsb2FkRGV0YWlscygpLCByZWxvYWRCbG9ja0xpc3QoKV0pOwogICAgICB9LAogICAgfSk7CiAgfTsKCiAgb25Nb3VudGVkKCgpID0+IHsKICAgIHZvaWQgbG9hZERldGFpbHMoKTsKICB9KTsKCiAgcmV0dXJuIHsKICAgIGFjdGl2ZVRhYiwKICAgIGNsZWFyRmlyZXdhbGwsCiAgICBjdXN0b21DaWRyc1N0YXRlLAogICAgZGV0YWlscywKICAgIGZvcm0sCiAgICBpbnZhbGlkQ3VzdG9tQ2lkcnMsCiAgICBpc0NsZWFyRmlyZXdhbGxEaWFsb2dPcGVuLAogICAgaXNMb2FkaW5nLAogICAgaXNTYXZpbmcsCiAgICBpc1N5bmNpbmdGaXJld2FsbCwKICAgIGxvYWREZXRhaWxzLAogICAgb3BlbkNsZWFyRmlyZXdhbGxEaWFsb2csCiAgICByZWdpb25JbnB1dHNEaXNhYmxlZCwKICAgIHNhdmVCbG9ja2VkUmVhc29uLAogICAgc2F2ZUNvbmZpZywKICAgIHNldEJsb2NrTGlzdFBhbmVsLAogICAgc3NoUG9ydHNMYWJlbCwKICAgIHN1bW1hcnlUZXh0LAogICAgc3luY0ZpcmV3YWxsLAogICAgdCwKICB9Owp9Owo=
+import { computed, onMounted, reactive, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { parseCidrTextarea } from "@admin-shared/utils/cidr";
+import { SSHSecurityAPI } from "@/lib/api/security";
+import { useConfigStore } from "@/store/config";
+import type {
+  SSHSecurityBlockDurationUnit,
+  SSHSecurityDetails,
+  SSHSecuritySelection,
+} from "@/types";
+
+type SSHBlockListPanelInstance = {
+  loadBlocks: () => Promise<void>;
+};
+
+export const useSSHSecurityConfig = () => {
+  const configStore = useConfigStore();
+  const { t } = useI18n();
+  const details = ref<SSHSecurityDetails | null>(null);
+  const activeTab = ref("login-logs");
+  const isClearFirewallDialogOpen = ref(false);
+  const blockListPanel = ref<SSHBlockListPanelInstance | null>(null);
+  const setBlockListPanel = (panel: unknown) => {
+    blockListPanel.value = panel as SSHBlockListPanelInstance | null;
+  };
+
+  const form = reactive({
+    enabled: false,
+    windowMinutes: 10,
+    failedLoginThreshold: 5,
+    blockDurationValue: 1,
+    blockDurationUnit: "day" as SSHSecurityBlockDurationUnit,
+    allowedRegions: [] as SSHSecuritySelection[],
+    customCidrsText: "",
+  });
+
+  const { isPending: isLoading, run: runLoad } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.sshSecurity.loadFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.sshSecurity.loadDescription"),
+        ),
+      });
+    },
+  });
+  const { isPending: isSaving, run: runSave } = useAsyncAction({
+    onError: (error) => {
+      toast.error(t("admin.sshSecurity.saveFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.sshSecurity.saveDescription"),
+        ),
+      });
+    },
+  });
+  const { isPending: isSyncingFirewall, run: runSyncFirewall } = useAsyncAction(
+    {
+      onError: (error) => {
+        toast.error(t("admin.sshSecurity.syncFailed"), {
+          description: extractErrorMessage(
+            error,
+            t("admin.sshSecurity.syncDescription"),
+          ),
+        });
+      },
+    },
+  );
+
+  const customCidrsState = computed(() =>
+    parseCidrTextarea(form.customCidrsText),
+  );
+  const invalidCustomCidrs = computed(() => customCidrsState.value.invalid);
+  const regionInputsDisabled = computed(() => isSaving.value || !form.enabled);
+  const sshPortsLabel = computed(() => {
+    const ports = details.value?.summary.ssh_ports ?? [22];
+    return ports.length > 0
+      ? ports.join(t("admin.sshSecurity.listSeparator"))
+      : "22";
+  });
+  const summaryText = computed(() => {
+    const summary = details.value?.summary;
+    if (!summary) return t("admin.sshSecurity.notLoaded");
+    return t("admin.sshSecurity.summary", {
+      status: summary.enabled
+        ? t("admin.sshSecurity.enabled")
+        : t("admin.sshSecurity.disabled"),
+      ports: sshPortsLabel.value,
+      allowed: summary.allowed_cidr_count,
+      blocks: summary.active_block_count,
+    });
+  });
+  const saveBlockedReason = computed(() => {
+    if (!details.value?.summary.available && form.enabled) {
+      return (
+        details.value?.summary.unavailable_reason ||
+        t("admin.sshSecurity.unavailableToEnable")
+      );
+    }
+    if (invalidCustomCidrs.value.length > 0) {
+      return t("admin.sshSecurity.fixCustomCidrs");
+    }
+    return "";
+  });
+
+  const applyDetails = (value: SSHSecurityDetails) => {
+    details.value = value;
+    form.enabled = value.config.enabled;
+    form.windowMinutes = value.config.window_minutes;
+    form.failedLoginThreshold = value.config.failed_login_threshold;
+    form.blockDurationValue = value.config.block_duration_value;
+    form.blockDurationUnit = value.config.block_duration_unit;
+    form.allowedRegions = value.config.allowed_regions.map((item) => ({
+      ...item,
+    }));
+    form.customCidrsText = value.config.custom_cidrs.join("\n");
+  };
+
+  const loadDetails = async () => {
+    await runLoad(async () => {
+      applyDetails(await SSHSecurityAPI.getDetails());
+    });
+  };
+  const reloadBlockList = () =>
+    blockListPanel.value?.loadBlocks() ?? Promise.resolve();
+
+  const saveConfig = async () => {
+    if (saveBlockedReason.value) {
+      toast.error(t("admin.sshSecurity.cannotSave"), {
+        description: saveBlockedReason.value,
+      });
+      return;
+    }
+    await runSave(
+      () =>
+        SSHSecurityAPI.updateConfig({
+          enabled: form.enabled,
+          window_minutes: form.windowMinutes,
+          failed_login_threshold: form.failedLoginThreshold,
+          block_duration_value: form.blockDurationValue,
+          block_duration_unit: form.blockDurationUnit,
+          allowed_regions: form.allowedRegions.map((item) => ({
+            province: item.province,
+            query_city: item.query_city,
+            operator: item.operator,
+          })),
+          custom_cidrs: customCidrsState.value.cidrs,
+        }),
+      {
+        onSuccess: async (nextDetails) => {
+          applyDetails(nextDetails);
+          toast.success(t("admin.sshSecurity.saved"));
+          await configStore.loadConfig();
+        },
+      },
+    );
+  };
+
+  const syncFirewall = async () => {
+    if (!details.value?.summary.available) {
+      toast.error(t("admin.sshSecurity.cannotSync"), {
+        description:
+          details.value?.summary.unavailable_reason ||
+          t("admin.sshSecurity.unavailableToSync"),
+      });
+      return;
+    }
+    await runSyncFirewall(SSHSecurityAPI.syncFirewall, {
+      onSuccess: async (result) => {
+        toast.success(t("admin.sshSecurity.firewallSynced"), {
+          description: t("admin.sshSecurity.firewallSyncedDescription", {
+            allowed: result.allowed_cidrs,
+            synced: result.synced,
+            ports:
+              result.ports.join(t("admin.sshSecurity.listSeparator")) || "22",
+          }),
+        });
+        await Promise.all([loadDetails(), reloadBlockList()]);
+      },
+    });
+  };
+
+  const openClearFirewallDialog = () => {
+    if (!details.value?.summary.available || isSyncingFirewall.value) return;
+    isClearFirewallDialogOpen.value = true;
+  };
+  const clearFirewall = async () => {
+    if (!details.value?.summary.available) {
+      toast.error(t("admin.sshSecurity.cannotClear"), {
+        description:
+          details.value?.summary.unavailable_reason ||
+          t("admin.sshSecurity.unavailableToClear"),
+      });
+      return;
+    }
+    await runSyncFirewall(SSHSecurityAPI.clearFirewall, {
+      onSuccess: async (result) => {
+        isClearFirewallDialogOpen.value = false;
+        toast.success(t("admin.sshSecurity.firewallCleared"), {
+          description: t("admin.sshSecurity.firewallClearedDescription", {
+            count: result.cleared_blocks,
+          }),
+        });
+        await Promise.all([loadDetails(), reloadBlockList()]);
+      },
+    });
+  };
+
+  onMounted(() => {
+    void loadDetails();
+  });
+
+  return {
+    activeTab,
+    clearFirewall,
+    customCidrsState,
+    details,
+    form,
+    invalidCustomCidrs,
+    isClearFirewallDialogOpen,
+    isLoading,
+    isSaving,
+    isSyncingFirewall,
+    loadDetails,
+    openClearFirewallDialog,
+    regionInputsDisabled,
+    saveBlockedReason,
+    saveConfig,
+    setBlockListPanel,
+    sshPortsLabel,
+    summaryText,
+    syncFirewall,
+    t,
+  };
+};

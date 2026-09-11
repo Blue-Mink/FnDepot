@@ -1,1 +1,80 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIFBvcG92ZXIsCiAgUG9wb3ZlckNvbnRlbnQsCiAgUG9wb3ZlclRyaWdnZXIsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3BvcG92ZXIiOwppbXBvcnQgeyBMb2FkZXIyIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHR5cGUgeyBCdXR0b25WYXJpYW50cyB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBjb21wdXRlZCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cygKICBkZWZpbmVQcm9wczx7CiAgICB0aXRsZTogc3RyaW5nOwogICAgZGVzY3JpcHRpb246IHN0cmluZzsKICAgIGNvbmZpcm1UZXh0Pzogc3RyaW5nOwogICAgY2FuY2VsVGV4dD86IHN0cmluZzsKICAgIGNvbmZpcm1WYXJpYW50PzogQnV0dG9uVmFyaWFudHNbInZhcmlhbnQiXTsKICAgIGxvYWRpbmc/OiBib29sZWFuOwogICAgZGlzYWJsZWQ/OiBib29sZWFuOwogICAgY29udGVudENsYXNzPzogc3RyaW5nOwogICAgY2xvc2VPbkNvbmZpcm0/OiBib29sZWFuOwogICAgb25Db25maXJtOiAoKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPjsKICB9PigpLAogIHsKICAgIGNvbmZpcm1WYXJpYW50OiAiZGVzdHJ1Y3RpdmUiLAogICAgbG9hZGluZzogZmFsc2UsCiAgICBkaXNhYmxlZDogZmFsc2UsCiAgICBjb250ZW50Q2xhc3M6ICJ3LTcyIHRleHQtbGVmdCIsCiAgICBjbG9zZU9uQ29uZmlybTogdHJ1ZSwKICB9LAopOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7CmNvbnN0IGNhbmNlbFRleHQgPSBjb21wdXRlZCgoKSA9PiBwcm9wcy5jYW5jZWxUZXh0ID8/IHQoImNvbW1vbi5jYW5jZWwiKSk7CmNvbnN0IGNvbmZpcm1UZXh0ID0gY29tcHV0ZWQoCiAgKCkgPT4gcHJvcHMuY29uZmlybVRleHQgPz8gdCgiY29tbW9uLmNvbmZpcm1EZWxldGUiKSwKKTsKCmNvbnN0IGhhbmRsZUNvbmZpcm0gPSBhc3luYyAoY2xvc2U6ICgpID0+IHZvaWQpID0+IHsKICBhd2FpdCBwcm9wcy5vbkNvbmZpcm0oKTsKICBpZiAocHJvcHMuY2xvc2VPbkNvbmZpcm0pIHsKICAgIGNsb3NlKCk7CiAgfQp9Owo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UG9wb3ZlciB2LXNsb3Q9InsgY2xvc2UgfSI+CiAgICA8UG9wb3ZlclRyaWdnZXIgYXMtY2hpbGQ+CiAgICAgIDxzbG90IG5hbWU9InRyaWdnZXIiIC8+CiAgICA8L1BvcG92ZXJUcmlnZ2VyPgogICAgPFBvcG92ZXJDb250ZW50IDpjbGFzcz0icHJvcHMuY29udGVudENsYXNzIj4KICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMyI+CiAgICAgICAgPHAgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPnt7IHByb3BzLnRpdGxlIH19PC9wPgogICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3sgcHJvcHMuZGVzY3JpcHRpb24gfX08L3A+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBqdXN0aWZ5LWVuZCBnYXAtMiI+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICBAY2xpY2s9ImNsb3NlIgogICAgICAgICAgICA6ZGlzYWJsZWQ9InByb3BzLmxvYWRpbmciCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IGNhbmNlbFRleHQgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICA6dmFyaWFudD0icHJvcHMuY29uZmlybVZhcmlhbnQiCiAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICA6ZGlzYWJsZWQ9InByb3BzLmRpc2FibGVkIHx8IHByb3BzLmxvYWRpbmciCiAgICAgICAgICAgIEBjbGljaz0iaGFuZGxlQ29uZmlybShjbG9zZSkiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxMb2FkZXIyIHYtaWY9InByb3BzLmxvYWRpbmciIGNsYXNzPSJtci0yIGgtMyB3LTMgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgICAgICB7eyBjb25maXJtVGV4dCB9fQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9Qb3BvdmVyQ29udGVudD4KICA8L1BvcG92ZXI+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { Button } from "@/components/ui/button";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import { Loader2 } from "lucide-vue-next";
+import type { ButtonVariants } from "@/components/ui/button";
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+
+const props = withDefaults(
+  defineProps<{
+    title: string;
+    description: string;
+    confirmText?: string;
+    cancelText?: string;
+    confirmVariant?: ButtonVariants["variant"];
+    loading?: boolean;
+    disabled?: boolean;
+    contentClass?: string;
+    closeOnConfirm?: boolean;
+    onConfirm: () => void | Promise<void>;
+  }>(),
+  {
+    confirmVariant: "destructive",
+    loading: false,
+    disabled: false,
+    contentClass: "w-72 text-left",
+    closeOnConfirm: true,
+  },
+);
+
+const { t } = useI18n();
+const cancelText = computed(() => props.cancelText ?? t("common.cancel"));
+const confirmText = computed(
+  () => props.confirmText ?? t("common.confirmDelete"),
+);
+
+const handleConfirm = async (close: () => void) => {
+  await props.onConfirm();
+  if (props.closeOnConfirm) {
+    close();
+  }
+};
+</script>
+
+<template>
+  <Popover v-slot="{ close }">
+    <PopoverTrigger as-child>
+      <slot name="trigger" />
+    </PopoverTrigger>
+    <PopoverContent :class="props.contentClass">
+      <div class="grid gap-3">
+        <p class="text-sm font-medium">{{ props.title }}</p>
+        <p class="text-xs text-muted-foreground">{{ props.description }}</p>
+        <div class="flex justify-end gap-2">
+          <Button
+            variant="outline"
+            size="sm"
+            @click="close"
+            :disabled="props.loading"
+          >
+            {{ cancelText }}
+          </Button>
+          <Button
+            :variant="props.confirmVariant"
+            size="sm"
+            :disabled="props.disabled || props.loading"
+            @click="handleConfirm(close)"
+          >
+            <Loader2 v-if="props.loading" class="mr-2 h-3 w-3 animate-spin" />
+            {{ confirmText }}
+          </Button>
+        </div>
+      </div>
+    </PopoverContent>
+  </Popover>
+</template>

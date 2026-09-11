@@ -1,1 +1,268 @@
-aW1wb3J0IHR5cGUgeyBDb21wdXRlZFJlZiwgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHR5cGUgeyBvcGVyYXRpb25zIGFzIEFwaUNvbnRyYWN0T3BlcmF0aW9ucyB9IGZyb20gIkBmbi1rbm9jay9hcGktY29udHJhY3QiOwppbXBvcnQgeyBjb3B5VGV4dFRvQ2xpcGJvYXJkIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9jb3B5VGV4dFRvQ2xpcGJvYXJkIjsKaW1wb3J0IHsgZG93bmxvYWRCbG9iIH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy9kb3dubG9hZEJsb2IiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgewogIGV4dHJhY3RFcnJvck1lc3NhZ2UsCiAgdXNlQXN5bmNBY3Rpb24sCn0gZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb3NhYmxlcy91c2VBc3luY0FjdGlvbiI7CmltcG9ydCB0eXBlIHsgSG9zdE1hcHBpbmcgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsKICBidWlsZEJvb2ttYXJrRXhwb3J0RmlsZW5hbWUsCiAgaGFzU2FtZU1hcHBpbmdPcmRlciwKICBtZXJnZUZpbHRlcmVkTWFwcGluZ3NPcmRlciwKfSBmcm9tICIuL21vZGVsIjsKCnR5cGUgQXN5bmNBY3Rpb25SdW4gPSA8VD4oCiAgYWN0aW9uOiAoKSA9PiBQcm9taXNlPFQ+LAogIGhvb2tzPzogewogICAgb25TdWNjZXNzPzogKHJlc3VsdDogVCkgPT4gdm9pZCB8IFByb21pc2U8dm9pZD47CiAgfSwKKSA9PiBQcm9taXNlPFQgfCB1bmRlZmluZWQ+OwoKdHlwZSBTeW5jUm91dGVzUmVzdWx0ID0KICBBcGlDb250cmFjdE9wZXJhdGlvbnNbInBvc3RfYXBpX2FkbWluX3N5bmNfcm91dGVzIl1bInJlc3BvbnNlcyJdWzIwMF1bImNvbnRlbnQiXVsiYXBwbGljYXRpb24vanNvbiJdOwoKdHlwZSBSZWZyZXNoVGl0bGVzU3VtbWFyeSA9IHsKICBmYWlsZWQ6IG51bWJlcjsKICBza2lwcGVkOiBudW1iZXI7CiAgdXBkYXRlZDogbnVtYmVyOwp9OwoKdHlwZSBUcmFuc2xhdGUgPSAoa2V5OiBzdHJpbmcsIHBhcmFtcz86IFJlY29yZDxzdHJpbmcsIHVua25vd24+KSA9PiBzdHJpbmc7CgpleHBvcnQgY29uc3QgdXNlU3ViZG9tYWluTWFwcGluZ0xpc3RBY3Rpb25zID0gKHsKICBhbGxNYXBwaW5ncywKICBkb3dubG9hZEJvb2ttYXJrcywKICBkcmFnZ2FibGVWaXNpYmxlTWFwcGluZ3MsCiAgZmlsdGVyZWRNYXBwaW5ncywKICBmb3JtYXRIb3N0V2l0aEFjY2Vzc0VudHJ5UG9ydCwKICBpc0F1dGhTZXJ2aWNlVGFyZ2V0LAogIGlzRGVmYXVsdERvbWFpbkF2YWlsYWJsZSwKICBpc1NhdmluZ01hcHBpbmdzLAogIG5hdmlnYXRlVG9HYXRld2F5TG9jYXRpb25zLAogIHJlZnJlc2hBbGxIb3N0TWFwcGluZ1RpdGxlcywKICByZXNldEZhdmljb25FcnJvcnMsCiAgcnVuU2F2ZU1hcHBpbmdzLAogIHNhdmVIb3N0TWFwcGluZ3MsCiAgc2F2ZWRSb290RG9tYWluLAogIHN5bmNEcmFnZ2FibGVWaXNpYmxlTWFwcGluZ3MsCiAgc3luY1JvdXRlc0FwaSwKICB0cmFuc2xhdGUsCiAgdmlzaWJsZU1hcHBpbmdzLAp9OiB7CiAgYWxsTWFwcGluZ3M6IENvbXB1dGVkUmVmPEhvc3RNYXBwaW5nW10+OwogIGRvd25sb2FkQm9va21hcmtzOiAoKSA9PiBQcm9taXNlPEJsb2I+OwogIGRyYWdnYWJsZVZpc2libGVNYXBwaW5nczogUmVmPEhvc3RNYXBwaW5nW10+OwogIGZpbHRlcmVkTWFwcGluZ3M6IENvbXB1dGVkUmVmPEhvc3RNYXBwaW5nW10+OwogIGZvcm1hdEhvc3RXaXRoQWNjZXNzRW50cnlQb3J0OiAoaG9zdDogc3RyaW5nKSA9PiBzdHJpbmc7CiAgaXNBdXRoU2VydmljZVRhcmdldDogKHRhcmdldDogc3RyaW5nKSA9PiBib29sZWFuOwogIGlzRGVmYXVsdERvbWFpbkF2YWlsYWJsZTogQ29tcHV0ZWRSZWY8Ym9vbGVhbj47CiAgaXNTYXZpbmdNYXBwaW5nczogUmVmPGJvb2xlYW4+OwogIG5hdmlnYXRlVG9HYXRld2F5TG9jYXRpb25zOiAoaG9zdDogc3RyaW5nKSA9PiB2b2lkOwogIHJlZnJlc2hBbGxIb3N0TWFwcGluZ1RpdGxlczogKCkgPT4gUHJvbWlzZTxSZWZyZXNoVGl0bGVzU3VtbWFyeT47CiAgcmVzZXRGYXZpY29uRXJyb3JzOiAoKSA9PiB2b2lkOwogIHJ1blNhdmVNYXBwaW5nczogQXN5bmNBY3Rpb25SdW47CiAgc2F2ZUhvc3RNYXBwaW5nczogKG1hcHBpbmdzOiBIb3N0TWFwcGluZ1tdKSA9PiBQcm9taXNlPHVua25vd24+OwogIHNhdmVkUm9vdERvbWFpbjogQ29tcHV0ZWRSZWY8c3RyaW5nPjsKICBzeW5jRHJhZ2dhYmxlVmlzaWJsZU1hcHBpbmdzOiAoKSA9PiB2b2lkOwogIHN5bmNSb3V0ZXNBcGk6ICgpID0+IFByb21pc2U8U3luY1JvdXRlc1Jlc3VsdD47CiAgdHJhbnNsYXRlOiBUcmFuc2xhdGU7CiAgdmlzaWJsZU1hcHBpbmdzOiBDb21wdXRlZFJlZjxIb3N0TWFwcGluZ1tdPjsKfSkgPT4gewogIGNvbnN0IHsgaXNQZW5kaW5nOiBpc1N5bmNpbmcsIHJ1bjogcnVuU3luY1JvdXRlcyB9ID0gdXNlQXN5bmNBY3Rpb24oewogICAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3luY0ZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICBlcnJvciwKICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3luY0dhdGV3YXlGYWlsZWQiKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0sCiAgfSk7CiAgY29uc3QgeyBpc1BlbmRpbmc6IGlzUmVmcmVzaGluZ1RpdGxlcywgcnVuOiBydW5SZWZyZXNoVGl0bGVzIH0gPQogICAgdXNlQXN5bmNBY3Rpb24oewogICAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgICB0b2FzdC5lcnJvcih0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LnJlZnJlc2hGYWlsZWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgICAgICAgIGVycm9yLAogICAgICAgICAgICB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LnJlZnJlc2hBbGxUaXRsZXNGYWlsZWQiKSwKICAgICAgICAgICksCiAgICAgICAgfSk7CiAgICAgIH0sCiAgICB9KTsKICBjb25zdCB7IGlzUGVuZGluZzogaXNFeHBvcnRpbmdCb29rbWFya3MsIHJ1bjogcnVuRXhwb3J0Qm9va21hcmtzIH0gPQogICAgdXNlQXN5bmNBY3Rpb24oewogICAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgICB0b2FzdC5lcnJvcih0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LmV4cG9ydEZhaWxlZCIpLCB7CiAgICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgICAgZXJyb3IsCiAgICAgICAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuZXhwb3J0Qm9va21hcmtzRmFpbGVkIiksCiAgICAgICAgICApLAogICAgICAgIH0pOwogICAgICB9LAogICAgfSk7CiAgY29uc3Qgc2F2ZU1hcHBpbmdPcmRlciA9IGFzeW5jICgpID0+IHsKICAgIGNvbnN0IG5leHQgPSBtZXJnZUZpbHRlcmVkTWFwcGluZ3NPcmRlcih7CiAgICAgIGFsbE1hcHBpbmdzOiBhbGxNYXBwaW5ncy52YWx1ZSwKICAgICAgZmlsdGVyZWRNYXBwaW5nczogZmlsdGVyZWRNYXBwaW5ncy52YWx1ZSwKICAgICAgaXNQaW5uZWRNYXBwaW5nOiAobWFwcGluZykgPT4gaXNBdXRoU2VydmljZVRhcmdldChtYXBwaW5nLnRhcmdldCksCiAgICAgIG5leHRGaWx0ZXJlZDogZHJhZ2dhYmxlVmlzaWJsZU1hcHBpbmdzLnZhbHVlLAogICAgICB2aXNpYmxlTWFwcGluZ3M6IHZpc2libGVNYXBwaW5ncy52YWx1ZSwKICAgIH0pOwogICAgaWYgKGhhc1NhbWVNYXBwaW5nT3JkZXIobmV4dCwgYWxsTWFwcGluZ3MudmFsdWUpKSB7CiAgICAgIHN5bmNEcmFnZ2FibGVWaXNpYmxlTWFwcGluZ3MoKTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGNvbnN0IHNhdmVkID0gYXdhaXQgcnVuU2F2ZU1hcHBpbmdzKGFzeW5jICgpID0+IHsKICAgICAgYXdhaXQgc2F2ZUhvc3RNYXBwaW5ncyhuZXh0KTsKICAgICAgdG9hc3Quc3VjY2Vzcyh0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5Lm9yZGVyVXBkYXRlZCIpKTsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9KTsKCiAgICBpZiAoc2F2ZWQgIT09IHRydWUpIHsKICAgICAgc3luY0RyYWdnYWJsZVZpc2libGVNYXBwaW5ncygpOwogICAgfQogIH07CgogIGNvbnN0IGNvcHlNYXBwaW5nSG9zdCA9IGFzeW5jIChtYXBwaW5nOiBIb3N0TWFwcGluZykgPT4gewogICAgY29uc3QgaG9zdCA9IGZvcm1hdEhvc3RXaXRoQWNjZXNzRW50cnlQb3J0KG1hcHBpbmcuaG9zdCk7CiAgICBpZiAoIWhvc3QpIHJldHVybjsKCiAgICB0cnkgewogICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBjb3B5VGV4dFRvQ2xpcGJvYXJkKGhvc3QpOwogICAgICBpZiAocmVzdWx0LnZlcmlmaWVkKSB7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5Lmhvc3RDb3BpZWQiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IGhvc3QsCiAgICAgICAgfSk7CiAgICAgICAgcmV0dXJuOwogICAgICB9CgogICAgICB0b2FzdC5pbmZvKHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuY29weUF0dGVtcHRlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGhvc3QsCiAgICAgIH0pOwogICAgfSBjYXRjaCB7CiAgICAgIHRvYXN0LmVycm9yKHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuY29weUZhaWxlZCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuY29weVJlc3RyaWN0ZWQiKSwKICAgICAgfSk7CiAgICB9CiAgfTsKCiAgY29uc3Qgb3BlbkdhdGV3YXlMb2NhdGlvbnMgPSAoaG9zdDogc3RyaW5nKSA9PiB7CiAgICBuYXZpZ2F0ZVRvR2F0ZXdheUxvY2F0aW9ucyhob3N0KTsKICB9OwoKICBjb25zdCBzZXREZWZhdWx0TWFwcGluZyA9IGFzeW5jIChtYXBwaW5nOiBIb3N0TWFwcGluZykgPT4gewogICAgaWYgKAogICAgICBpc1NhdmluZ01hcHBpbmdzLnZhbHVlIHx8CiAgICAgICFpc0RlZmF1bHREb21haW5BdmFpbGFibGUudmFsdWUgfHwKICAgICAgaXNBdXRoU2VydmljZVRhcmdldChtYXBwaW5nLnRhcmdldCkKICAgICkgewogICAgICByZXR1cm47CiAgICB9CgogICAgYXdhaXQgcnVuU2F2ZU1hcHBpbmdzKGFzeW5jICgpID0+IHsKICAgICAgYXdhaXQgc2F2ZUhvc3RNYXBwaW5ncygKICAgICAgICBhbGxNYXBwaW5ncy52YWx1ZS5tYXAoKGl0ZW0pID0+ICh7CiAgICAgICAgICAuLi5pdGVtLAogICAgICAgICAgaXNfZGVmYXVsdDogaXRlbS5ob3N0ID09PSBtYXBwaW5nLmhvc3QsCiAgICAgICAgfSkpLAogICAgICApOwogICAgICB0b2FzdC5zdWNjZXNzKHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuZGVmYXVsdERvbWFpblNldCIpLCB7CiAgICAgICAgZGVzY3JpcHRpb246IGZvcm1hdEhvc3RXaXRoQWNjZXNzRW50cnlQb3J0KG1hcHBpbmcuaG9zdCksCiAgICAgIH0pOwogICAgICByZXR1cm4gdHJ1ZTsKICAgIH0pOwogIH07CgogIGNvbnN0IGNsZWFyRGVmYXVsdE1hcHBpbmcgPSBhc3luYyAobWFwcGluZzogSG9zdE1hcHBpbmcpID0+IHsKICAgIGlmIChpc1NhdmluZ01hcHBpbmdzLnZhbHVlIHx8ICFpc0RlZmF1bHREb21haW5BdmFpbGFibGUudmFsdWUpIHsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGF3YWl0IHJ1blNhdmVNYXBwaW5ncyhhc3luYyAoKSA9PiB7CiAgICAgIGF3YWl0IHNhdmVIb3N0TWFwcGluZ3MoCiAgICAgICAgYWxsTWFwcGluZ3MudmFsdWUubWFwKChpdGVtKSA9PgogICAgICAgICAgaXRlbS5pc19kZWZhdWx0ID8geyAuLi5pdGVtLCBpc19kZWZhdWx0OiBmYWxzZSB9IDogaXRlbSwKICAgICAgICApLAogICAgICApOwogICAgICB0b2FzdC5zdWNjZXNzKHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuZGVmYXVsdERvbWFpbkNsZWFyZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBmb3JtYXRIb3N0V2l0aEFjY2Vzc0VudHJ5UG9ydChtYXBwaW5nLmhvc3QpLAogICAgICB9KTsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9KTsKICB9OwoKICBjb25zdCBzeW5jUm91dGVzID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuU3luY1JvdXRlcygoKSA9PiBzeW5jUm91dGVzQXBpKCksIHsKICAgICAgb25TdWNjZXNzOiAocmVzdWx0KSA9PiB7CiAgICAgICAgaWYgKHJlc3VsdC5zdWNjZXNzKSB7CiAgICAgICAgICB0b2FzdC5zdWNjZXNzKHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkuc3luY2VkR2F0ZXdheSIpLCB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uOiB0cmFuc2xhdGUoCiAgICAgICAgICAgICAgImFkbWluLnN1YmRvbWFpblByb3h5LnN5bmNlZEdhdGV3YXlEZXNjcmlwdGlvbiIsCiAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgaG9zdFJ1bGVzOiByZXN1bHQuZGF0YT8uc3luY2VkX2hvc3RfcnVsZXMgPz8gMCwKICAgICAgICAgICAgICAgIHBhdGhSdWxlczogcmVzdWx0LmRhdGE/LnN5bmNlZF9ydWxlcyA/PyAwLAogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICksCiAgICAgICAgICB9KTsKICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgdG9hc3QuZXJyb3IodHJhbnNsYXRlKCJhZG1pbi5zdWJkb21haW5Qcm94eS5zeW5jRmFpbGVkIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICAgICByZXN1bHQubWVzc2FnZSB8fCB0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LnN5bmNOb1N1Y2Nlc3MiKSwKICAgICAgICB9KTsKICAgICAgfSwKICAgIH0pOwogIH07CgogIGNvbnN0IHJlZnJlc2hBbGxUaXRsZXMgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBydW5SZWZyZXNoVGl0bGVzKCgpID0+IHJlZnJlc2hBbGxIb3N0TWFwcGluZ1RpdGxlcygpLCB7CiAgICAgIG9uU3VjY2VzczogKHN1bW1hcnkpID0+IHsKICAgICAgICB0b2FzdC5zdWNjZXNzKHRyYW5zbGF0ZSgiYWRtaW4uc3ViZG9tYWluUHJveHkudGl0bGVzUmVmcmVzaERvbmUiKSwgewogICAgICAgICAgZGVzY3JpcHRpb246IHRyYW5zbGF0ZSgKICAgICAgICAgICAgImFkbWluLnN1YmRvbWFpblByb3h5LnRpdGxlc1JlZnJlc2hEZXNjcmlwdGlvbiIsCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICBmYWlsZWQ6IHN1bW1hcnkuZmFpbGVkLAogICAgICAgICAgICAgIHNraXBwZWQ6IHN1bW1hcnkuc2tpcHBlZCwKICAgICAgICAgICAgICB1cGRhdGVkOiBzdW1tYXJ5LnVwZGF0ZWQsCiAgICAgICAgICAgIH0sCiAgICAgICAgICApLAogICAgICAgIH0pOwogICAgICAgIHJlc2V0RmF2aWNvbkVycm9ycygpOwogICAgICB9LAogICAgfSk7CiAgfTsKCiAgY29uc3QgZXhwb3J0Qm9va21hcmtzID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcnVuRXhwb3J0Qm9va21hcmtzKCgpID0+IGRvd25sb2FkQm9va21hcmtzKCksIHsKICAgICAgb25TdWNjZXNzOiAoYmxvYikgPT4gewogICAgICAgIGRvd25sb2FkQmxvYihibG9iLCBidWlsZEJvb2ttYXJrRXhwb3J0RmlsZW5hbWUoc2F2ZWRSb290RG9tYWluLnZhbHVlKSk7CiAgICAgICAgdG9hc3Quc3VjY2Vzcyh0cmFuc2xhdGUoImFkbWluLnN1YmRvbWFpblByb3h5LmJvb2ttYXJrc0V4cG9ydGVkIiksIHsKICAgICAgICAgIGRlc2NyaXB0aW9uOiB0cmFuc2xhdGUoCiAgICAgICAgICAgICJhZG1pbi5zdWJkb21haW5Qcm94eS5ib29rbWFya3NFeHBvcnREZXNjcmlwdGlvbiIsCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICBjb3VudDogdmlzaWJsZU1hcHBpbmdzLnZhbHVlLmxlbmd0aCwKICAgICAgICAgICAgfSwKICAgICAgICAgICksCiAgICAgICAgfSk7CiAgICAgIH0sCiAgICB9KTsKICB9OwoKICByZXR1cm4gewogICAgY2xlYXJEZWZhdWx0TWFwcGluZywKICAgIGNvcHlNYXBwaW5nSG9zdCwKICAgIGV4cG9ydEJvb2ttYXJrcywKICAgIGlzRXhwb3J0aW5nQm9va21hcmtzLAogICAgaXNSZWZyZXNoaW5nVGl0bGVzLAogICAgaXNTeW5jaW5nLAogICAgb3BlbkdhdGV3YXlMb2NhdGlvbnMsCiAgICByZWZyZXNoQWxsVGl0bGVzLAogICAgc2F2ZU1hcHBpbmdPcmRlciwKICAgIHNldERlZmF1bHRNYXBwaW5nLAogICAgc3luY1JvdXRlcywKICB9Owp9Owo=
+import type { ComputedRef, Ref } from "vue";
+import type { operations as ApiContractOperations } from "@fn-knock/api-contract";
+import { copyTextToClipboard } from "@admin-shared/utils/copyTextToClipboard";
+import { downloadBlob } from "@admin-shared/utils/downloadBlob";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import type { HostMapping } from "@/types";
+import {
+  buildBookmarkExportFilename,
+  hasSameMappingOrder,
+  mergeFilteredMappingsOrder,
+} from "./model";
+
+type AsyncActionRun = <T>(
+  action: () => Promise<T>,
+  hooks?: {
+    onSuccess?: (result: T) => void | Promise<void>;
+  },
+) => Promise<T | undefined>;
+
+type SyncRoutesResult =
+  ApiContractOperations["post_api_admin_sync_routes"]["responses"][200]["content"]["application/json"];
+
+type RefreshTitlesSummary = {
+  failed: number;
+  skipped: number;
+  updated: number;
+};
+
+type Translate = (key: string, params?: Record<string, unknown>) => string;
+
+export const useSubdomainMappingListActions = ({
+  allMappings,
+  downloadBookmarks,
+  draggableVisibleMappings,
+  filteredMappings,
+  formatHostWithAccessEntryPort,
+  isAuthServiceTarget,
+  isDefaultDomainAvailable,
+  isSavingMappings,
+  navigateToGatewayLocations,
+  refreshAllHostMappingTitles,
+  resetFaviconErrors,
+  runSaveMappings,
+  saveHostMappings,
+  savedRootDomain,
+  syncDraggableVisibleMappings,
+  syncRoutesApi,
+  translate,
+  visibleMappings,
+}: {
+  allMappings: ComputedRef<HostMapping[]>;
+  downloadBookmarks: () => Promise<Blob>;
+  draggableVisibleMappings: Ref<HostMapping[]>;
+  filteredMappings: ComputedRef<HostMapping[]>;
+  formatHostWithAccessEntryPort: (host: string) => string;
+  isAuthServiceTarget: (target: string) => boolean;
+  isDefaultDomainAvailable: ComputedRef<boolean>;
+  isSavingMappings: Ref<boolean>;
+  navigateToGatewayLocations: (host: string) => void;
+  refreshAllHostMappingTitles: () => Promise<RefreshTitlesSummary>;
+  resetFaviconErrors: () => void;
+  runSaveMappings: AsyncActionRun;
+  saveHostMappings: (mappings: HostMapping[]) => Promise<unknown>;
+  savedRootDomain: ComputedRef<string>;
+  syncDraggableVisibleMappings: () => void;
+  syncRoutesApi: () => Promise<SyncRoutesResult>;
+  translate: Translate;
+  visibleMappings: ComputedRef<HostMapping[]>;
+}) => {
+  const { isPending: isSyncing, run: runSyncRoutes } = useAsyncAction({
+    onError: (error) => {
+      toast.error(translate("admin.subdomainProxy.syncFailed"), {
+        description: extractErrorMessage(
+          error,
+          translate("admin.subdomainProxy.syncGatewayFailed"),
+        ),
+      });
+    },
+  });
+  const { isPending: isRefreshingTitles, run: runRefreshTitles } =
+    useAsyncAction({
+      onError: (error) => {
+        toast.error(translate("admin.subdomainProxy.refreshFailed"), {
+          description: extractErrorMessage(
+            error,
+            translate("admin.subdomainProxy.refreshAllTitlesFailed"),
+          ),
+        });
+      },
+    });
+  const { isPending: isExportingBookmarks, run: runExportBookmarks } =
+    useAsyncAction({
+      onError: (error) => {
+        toast.error(translate("admin.subdomainProxy.exportFailed"), {
+          description: extractErrorMessage(
+            error,
+            translate("admin.subdomainProxy.exportBookmarksFailed"),
+          ),
+        });
+      },
+    });
+  const saveMappingOrder = async () => {
+    const next = mergeFilteredMappingsOrder({
+      allMappings: allMappings.value,
+      filteredMappings: filteredMappings.value,
+      isPinnedMapping: (mapping) => isAuthServiceTarget(mapping.target),
+      nextFiltered: draggableVisibleMappings.value,
+      visibleMappings: visibleMappings.value,
+    });
+    if (hasSameMappingOrder(next, allMappings.value)) {
+      syncDraggableVisibleMappings();
+      return;
+    }
+
+    const saved = await runSaveMappings(async () => {
+      await saveHostMappings(next);
+      toast.success(translate("admin.subdomainProxy.orderUpdated"));
+      return true;
+    });
+
+    if (saved !== true) {
+      syncDraggableVisibleMappings();
+    }
+  };
+
+  const copyMappingHost = async (mapping: HostMapping) => {
+    const host = formatHostWithAccessEntryPort(mapping.host);
+    if (!host) return;
+
+    try {
+      const result = await copyTextToClipboard(host);
+      if (result.verified) {
+        toast.success(translate("admin.subdomainProxy.hostCopied"), {
+          description: host,
+        });
+        return;
+      }
+
+      toast.info(translate("admin.subdomainProxy.copyAttempted"), {
+        description: host,
+      });
+    } catch {
+      toast.error(translate("admin.subdomainProxy.copyFailed"), {
+        description: translate("admin.subdomainProxy.copyRestricted"),
+      });
+    }
+  };
+
+  const openGatewayLocations = (host: string) => {
+    navigateToGatewayLocations(host);
+  };
+
+  const setDefaultMapping = async (mapping: HostMapping) => {
+    if (
+      isSavingMappings.value ||
+      !isDefaultDomainAvailable.value ||
+      isAuthServiceTarget(mapping.target)
+    ) {
+      return;
+    }
+
+    await runSaveMappings(async () => {
+      await saveHostMappings(
+        allMappings.value.map((item) => ({
+          ...item,
+          is_default: item.host === mapping.host,
+        })),
+      );
+      toast.success(translate("admin.subdomainProxy.defaultDomainSet"), {
+        description: formatHostWithAccessEntryPort(mapping.host),
+      });
+      return true;
+    });
+  };
+
+  const clearDefaultMapping = async (mapping: HostMapping) => {
+    if (isSavingMappings.value || !isDefaultDomainAvailable.value) {
+      return;
+    }
+
+    await runSaveMappings(async () => {
+      await saveHostMappings(
+        allMappings.value.map((item) =>
+          item.is_default ? { ...item, is_default: false } : item,
+        ),
+      );
+      toast.success(translate("admin.subdomainProxy.defaultDomainCleared"), {
+        description: formatHostWithAccessEntryPort(mapping.host),
+      });
+      return true;
+    });
+  };
+
+  const syncRoutes = async () => {
+    await runSyncRoutes(() => syncRoutesApi(), {
+      onSuccess: (result) => {
+        if (result.success) {
+          toast.success(translate("admin.subdomainProxy.syncedGateway"), {
+            description: translate(
+              "admin.subdomainProxy.syncedGatewayDescription",
+              {
+                hostRules: result.data?.synced_host_rules ?? 0,
+                pathRules: result.data?.synced_rules ?? 0,
+              },
+            ),
+          });
+          return;
+        }
+        toast.error(translate("admin.subdomainProxy.syncFailed"), {
+          description:
+            result.message || translate("admin.subdomainProxy.syncNoSuccess"),
+        });
+      },
+    });
+  };
+
+  const refreshAllTitles = async () => {
+    await runRefreshTitles(() => refreshAllHostMappingTitles(), {
+      onSuccess: (summary) => {
+        toast.success(translate("admin.subdomainProxy.titlesRefreshDone"), {
+          description: translate(
+            "admin.subdomainProxy.titlesRefreshDescription",
+            {
+              failed: summary.failed,
+              skipped: summary.skipped,
+              updated: summary.updated,
+            },
+          ),
+        });
+        resetFaviconErrors();
+      },
+    });
+  };
+
+  const exportBookmarks = async () => {
+    await runExportBookmarks(() => downloadBookmarks(), {
+      onSuccess: (blob) => {
+        downloadBlob(blob, buildBookmarkExportFilename(savedRootDomain.value));
+        toast.success(translate("admin.subdomainProxy.bookmarksExported"), {
+          description: translate(
+            "admin.subdomainProxy.bookmarksExportDescription",
+            {
+              count: visibleMappings.value.length,
+            },
+          ),
+        });
+      },
+    });
+  };
+
+  return {
+    clearDefaultMapping,
+    copyMappingHost,
+    exportBookmarks,
+    isExportingBookmarks,
+    isRefreshingTitles,
+    isSyncing,
+    openGatewayLocations,
+    refreshAllTitles,
+    saveMappingOrder,
+    setDefaultMapping,
+    syncRoutes,
+  };
+};

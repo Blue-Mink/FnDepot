@@ -1,1 +1,238 @@
-aW1wb3J0IHsKICBjb21wdXRlZCwKICBvbkFjdGl2YXRlZCwKICBvbkJlZm9yZVVubW91bnQsCiAgb25EZWFjdGl2YXRlZCwKICBvbk1vdW50ZWQsCiAgcmVmLAogIHdhdGNoLAp9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IHVzZVJvdXRlLCB1c2VSb3V0ZXIgfSBmcm9tICJ2dWUtcm91dGVyIjsKaW1wb3J0IHsgR2F0ZXdheUxvZ3NBUEkgfSBmcm9tICJAL2xpYi9hcGkvZ2F0ZXdheSI7CmltcG9ydCB0eXBlIHsgR2F0ZXdheUxvZ0FuYWx5dGljc1BheWxvYWQgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHsgZXh0cmFjdEVycm9yTWVzc2FnZSB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgewogIGlzVmFsaWRBbmFseXRpY3NSYW5nZSwKICByZXNvbHZlQW5hbHl0aWNzUmFuZ2UsCiAgdG9kYXlEYXRlU3RyaW5nLAogIHR5cGUgUmVxdWVzdEFuYWx5dGljc1JhbmdlS2V5LAp9IGZyb20gIi4vbW9kZWwiOwoKY29uc3QgR0VPX1BPTExfSU5URVJWQUxfTVMgPSA1MDAwOwpjb25zdCBHRU9fTUFYX1BPTExTID0gMTI7CmNvbnN0IFJBTkdFX0tFWVMgPSBuZXcgU2V0PFJlcXVlc3RBbmFseXRpY3NSYW5nZUtleT4oWyJ0b2RheSIsICI3ZCIsICIzMGQiXSk7Cgpjb25zdCByZWFkUXVlcnlWYWx1ZSA9ICh2YWx1ZTogdW5rbm93bikgPT4KICBBcnJheS5pc0FycmF5KHZhbHVlKSA/IFN0cmluZyh2YWx1ZVswXSB8fCAiIikgOiBTdHJpbmcodmFsdWUgfHwgIiIpOwoKZXhwb3J0IGNvbnN0IHVzZUdhdGV3YXlSZXF1ZXN0QW5hbHl0aWNzID0gKCkgPT4gewogIGNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IHJvdXRlID0gdXNlUm91dGUoKTsKICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTsKICBjb25zdCBxdWVyeVJhbmdlID0gcmVhZFF1ZXJ5VmFsdWUoCiAgICByb3V0ZS5xdWVyeS5yYW5nZSwKICApIGFzIFJlcXVlc3RBbmFseXRpY3NSYW5nZUtleTsKICBjb25zdCByYW5nZUtleSA9IHJlZjxSZXF1ZXN0QW5hbHl0aWNzUmFuZ2VLZXk+KAogICAgUkFOR0VfS0VZUy5oYXMocXVlcnlSYW5nZSkgPyBxdWVyeVJhbmdlIDogIjdkIiwKICApOwoKICBjb25zdCBkYXRhID0gcmVmPEdhdGV3YXlMb2dBbmFseXRpY3NQYXlsb2FkIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgbG9hZGluZyA9IHJlZihmYWxzZSk7CiAgY29uc3QgbG9hZEZhaWxlZCA9IHJlZihmYWxzZSk7CiAgY29uc3QgZ2VvUmVmcmVzaFN0YXJ0aW5nID0gcmVmKGZhbHNlKTsKICBjb25zdCBnYXRld2F5VG9kYXkgPSByZWYodG9kYXlEYXRlU3RyaW5nKCkpOwogIGxldCBhY3RpdmVSZXF1ZXN0SWQgPSAwOwogIGxldCBnZW9Qb2xscyA9IDA7CiAgbGV0IGlzQWN0aXZlID0gdHJ1ZTsKICBsZXQgcmVmcmVzaE9uQWN0aXZhdGUgPSBmYWxzZTsKICBsZXQgcG9sbFRpbWVyOiBSZXR1cm5UeXBlPHR5cGVvZiB3aW5kb3cuc2V0VGltZW91dD4gfCBudWxsID0gbnVsbDsKCiAgY29uc3QgYWN0aXZlUmFuZ2UgPSBjb21wdXRlZCgoKSA9PgogICAgcmVzb2x2ZUFuYWx5dGljc1JhbmdlKHJhbmdlS2V5LnZhbHVlLCBnYXRld2F5VG9kYXkudmFsdWUpLAogICk7CiAgY29uc3QgZ2VvUmVmcmVzaGluZyA9IGNvbXB1dGVkKAogICAgKCkgPT4KICAgICAgZ2VvUmVmcmVzaFN0YXJ0aW5nLnZhbHVlIHx8CiAgICAgIEJvb2xlYW4oZGF0YS52YWx1ZT8uZ2VvLnJlZnJlc2hpbmcpIHx8CiAgICAgIGRhdGEudmFsdWU/Lmdlby5zdGF0dXMgPT09ICJyZXNvbHZpbmciLAogICk7CgogIGNvbnN0IGNsZWFyUG9sbFRpbWVyID0gKCkgPT4gewogICAgaWYgKHBvbGxUaW1lcikgewogICAgICB3aW5kb3cuY2xlYXJUaW1lb3V0KHBvbGxUaW1lcik7CiAgICAgIHBvbGxUaW1lciA9IG51bGw7CiAgICB9CiAgfTsKCiAgY29uc3Qgc3luY1JhbmdlUXVlcnkgPSAoKSA9PiB7CiAgICBjb25zdCBuZXh0UXVlcnk6IFJlY29yZDxzdHJpbmcsIHN0cmluZyB8IHN0cmluZ1tdIHwgbnVsbCB8IHVuZGVmaW5lZD4gPSB7CiAgICAgIC4uLnJvdXRlLnF1ZXJ5LAogICAgICByYW5nZTogcmFuZ2VLZXkudmFsdWUsCiAgICB9OwogICAgZGVsZXRlIG5leHRRdWVyeS5mcm9tOwogICAgZGVsZXRlIG5leHRRdWVyeS50bzsKICAgIHZvaWQgcm91dGVyLnJlcGxhY2UoeyBxdWVyeTogbmV4dFF1ZXJ5IH0pOwogIH07CgogIGNvbnN0IHNjaGVkdWxlR2VvUG9sbCA9ICgpID0+IHsKICAgIGNsZWFyUG9sbFRpbWVyKCk7CiAgICBjb25zdCBnZW8gPSBkYXRhLnZhbHVlPy5nZW87CiAgICBpZiAoCiAgICAgICFpc0FjdGl2ZSB8fAogICAgICAhZ2VvIHx8CiAgICAgICghZ2VvLnJlZnJlc2hpbmcgJiYKICAgICAgICAoZ2VvLnN0YXR1cyAhPT0gInJlc29sdmluZyIgfHwgZ2VvUG9sbHMgPj0gR0VPX01BWF9QT0xMUykpCiAgICApIHsKICAgICAgcmV0dXJuOwogICAgfQogICAgcG9sbFRpbWVyID0gd2luZG93LnNldFRpbWVvdXQoKCkgPT4gewogICAgICBnZW9Qb2xscyArPSAxOwogICAgICB2b2lkIGxvYWRBbmFseXRpY3ModHJ1ZSk7CiAgICB9LCBHRU9fUE9MTF9JTlRFUlZBTF9NUyk7CiAgfTsKCiAgY29uc3QgbG9hZEFuYWx5dGljcyA9IGFzeW5jIChzaWxlbnQgPSBmYWxzZSwgcmVzZXREYXRhID0gZmFsc2UpID0+IHsKICAgIGNvbnN0IHJhbmdlID0gYWN0aXZlUmFuZ2UudmFsdWU7CiAgICBpZiAoIWlzVmFsaWRBbmFseXRpY3NSYW5nZShyYW5nZS5mcm9tLCByYW5nZS50bywgZ2F0ZXdheVRvZGF5LnZhbHVlKSkgewogICAgICByZXR1cm47CiAgICB9CiAgICBjb25zdCByZXF1ZXN0SWQgPSArK2FjdGl2ZVJlcXVlc3RJZDsKICAgIGlmICghc2lsZW50KSB7CiAgICAgIGxvYWRGYWlsZWQudmFsdWUgPSBmYWxzZTsKICAgICAgbG9hZGluZy52YWx1ZSA9IHRydWU7CiAgICAgIGlmIChyZXNldERhdGEpIGRhdGEudmFsdWUgPSBudWxsOwogICAgfQogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgR2F0ZXdheUxvZ3NBUEkuZ2V0QW5hbHl0aWNzKHJhbmdlKTsKICAgICAgaWYgKHJlcXVlc3RJZCAhPT0gYWN0aXZlUmVxdWVzdElkKSByZXR1cm47CiAgICAgIGRhdGEudmFsdWUgPSByZXN1bHQ7CiAgICAgIGxvYWRGYWlsZWQudmFsdWUgPSBmYWxzZTsKICAgICAgc2NoZWR1bGVHZW9Qb2xsKCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBpZiAocmVxdWVzdElkICE9PSBhY3RpdmVSZXF1ZXN0SWQpIHJldHVybjsKICAgICAgaWYgKHNpbGVudCkgewogICAgICAgIHNjaGVkdWxlR2VvUG9sbCgpOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBsb2FkRmFpbGVkLnZhbHVlID0gdHJ1ZTsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLmxvYWRGYWlsZWQiKSwgewogICAgICAgIGRlc2NyaXB0aW9uOiBleHRyYWN0RXJyb3JNZXNzYWdlKAogICAgICAgICAgZXJyb3IsCiAgICAgICAgICB0KCJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMubG9hZEZhaWxlZERlc2NyaXB0aW9uIiksCiAgICAgICAgKSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBpZiAocmVxdWVzdElkID09PSBhY3RpdmVSZXF1ZXN0SWQgJiYgIXNpbGVudCkgbG9hZGluZy52YWx1ZSA9IGZhbHNlOwogICAgfQogIH07CgogIGNvbnN0IHNlbGVjdFJhbmdlID0gKHZhbHVlOiBzdHJpbmcgfCBudW1iZXIpID0+IHsKICAgIGNvbnN0IG5leHQgPSBTdHJpbmcodmFsdWUpIGFzIFJlcXVlc3RBbmFseXRpY3NSYW5nZUtleTsKICAgIGlmICghUkFOR0VfS0VZUy5oYXMobmV4dCkpIHJldHVybjsKICAgIGlmIChuZXh0ID09PSByYW5nZUtleS52YWx1ZSkgcmV0dXJuOwogICAgcmFuZ2VLZXkudmFsdWUgPSBuZXh0OwogICAgZ2VvUG9sbHMgPSAwOwogICAgc3luY1JhbmdlUXVlcnkoKTsKICAgIHZvaWQgbG9hZEFuYWx5dGljcyhmYWxzZSwgdHJ1ZSk7CiAgfTsKCiAgY29uc3QgcmVmcmVzaCA9ICgpID0+IHsKICAgIGdlb1BvbGxzID0gMDsKICAgIGNsZWFyUG9sbFRpbWVyKCk7CiAgICB2b2lkIGxvYWRBbmFseXRpY3MoKTsKICB9OwoKICBjb25zdCByZWZyZXNoR2VvID0gYXN5bmMgKCkgPT4gewogICAgaWYgKGdlb1JlZnJlc2hpbmcudmFsdWUpIHJldHVybjsKICAgIGdlb1JlZnJlc2hTdGFydGluZy52YWx1ZSA9IHRydWU7CiAgICB0cnkgewogICAgICBhd2FpdCBHYXRld2F5TG9nc0FQSS5yZWZyZXNoQW5hbHl0aWNzR2VvKGFjdGl2ZVJhbmdlLnZhbHVlKTsKICAgICAgaWYgKGRhdGEudmFsdWUpIGRhdGEudmFsdWUuZ2VvLnJlZnJlc2hpbmcgPSB0cnVlOwogICAgICBnZW9Qb2xscyA9IDA7CiAgICAgIHNjaGVkdWxlR2VvUG9sbCgpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgYXdhaXQgbG9hZEFuYWx5dGljcyh0cnVlKTsKICAgICAgdG9hc3QuZXJyb3IodCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLmdlby5yZWZyZXNoRmFpbGVkIiksIHsKICAgICAgICBkZXNjcmlwdGlvbjogZXh0cmFjdEVycm9yTWVzc2FnZSgKICAgICAgICAgIGVycm9yLAogICAgICAgICAgdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLmdlby5yZWZyZXNoRmFpbGVkRGVzY3JpcHRpb24iKSwKICAgICAgICApLAogICAgICB9KTsKICAgIH0gZmluYWxseSB7CiAgICAgIGdlb1JlZnJlc2hTdGFydGluZy52YWx1ZSA9IGZhbHNlOwogICAgfQogIH07CgogIGNvbnN0IGluaXRpYWxpemUgPSBhc3luYyAoKSA9PiB7CiAgICBsb2FkaW5nLnZhbHVlID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IGRhdGVzID0gYXdhaXQgR2F0ZXdheUxvZ3NBUEkuZ2V0RGF0ZXMoKTsKICAgICAgaWYgKGlzVmFsaWRBbmFseXRpY3NSYW5nZShkYXRlcy50b2RheSwgZGF0ZXMudG9kYXksIGRhdGVzLnRvZGF5KSkgewogICAgICAgIGdhdGV3YXlUb2RheS52YWx1ZSA9IGRhdGVzLnRvZGF5OwogICAgICB9CiAgICB9IGNhdGNoIHsKICAgICAgLy8gVGhlIGFuYWx5dGljcyBlbmRwb2ludCByZW1haW5zIHVzYWJsZSB3aGVuIHRoZSBsaWdodHdlaWdodCBkYXRlcwogICAgICAvLyByZXF1ZXN0IGZhaWxzLCBzbyBmYWxsIGJhY2sgdG8gdGhlIGJyb3dzZXIncyBsb2NhbCBjYWxlbmRhciBkYXRlLgogICAgfQogICAgc3luY1JhbmdlUXVlcnkoKTsKICAgIGF3YWl0IGxvYWRBbmFseXRpY3MoKTsKICB9OwoKICBvbk1vdW50ZWQoKCkgPT4gewogICAgdm9pZCBpbml0aWFsaXplKCk7CiAgfSk7CiAgd2F0Y2goCiAgICAoKSA9PiBbcm91dGUucXVlcnkucmFuZ2UsIHJvdXRlLnF1ZXJ5LmZyb20sIHJvdXRlLnF1ZXJ5LnRvXSwKICAgICgpID0+IHsKICAgICAgY29uc3QgcXVlcnlLZXkgPSByZWFkUXVlcnlWYWx1ZSgKICAgICAgICByb3V0ZS5xdWVyeS5yYW5nZSwKICAgICAgKSBhcyBSZXF1ZXN0QW5hbHl0aWNzUmFuZ2VLZXk7CiAgICAgIGNvbnN0IG5leHRLZXkgPSBSQU5HRV9LRVlTLmhhcyhxdWVyeUtleSkgPyBxdWVyeUtleSA6ICI3ZCI7CiAgICAgIGNvbnN0IHNob3VsZE5vcm1hbGl6ZVF1ZXJ5ID0KICAgICAgICAhUkFOR0VfS0VZUy5oYXMocXVlcnlLZXkpIHx8CiAgICAgICAgQm9vbGVhbihyb3V0ZS5xdWVyeS5mcm9tIHx8IHJvdXRlLnF1ZXJ5LnRvKTsKICAgICAgaWYgKG5leHRLZXkgPT09IHJhbmdlS2V5LnZhbHVlKSB7CiAgICAgICAgaWYgKHNob3VsZE5vcm1hbGl6ZVF1ZXJ5KSBzeW5jUmFuZ2VRdWVyeSgpOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICByYW5nZUtleS52YWx1ZSA9IG5leHRLZXk7CiAgICAgIGdlb1BvbGxzID0gMDsKICAgICAgY2xlYXJQb2xsVGltZXIoKTsKICAgICAgaWYgKHNob3VsZE5vcm1hbGl6ZVF1ZXJ5KSBzeW5jUmFuZ2VRdWVyeSgpOwogICAgICB2b2lkIGxvYWRBbmFseXRpY3MoZmFsc2UsIHRydWUpOwogICAgfSwKICApOwogIG9uQWN0aXZhdGVkKCgpID0+IHsKICAgIGlzQWN0aXZlID0gdHJ1ZTsKICAgIGlmIChyZWZyZXNoT25BY3RpdmF0ZSAmJiBkYXRhLnZhbHVlKSB7CiAgICAgIHJlZnJlc2hPbkFjdGl2YXRlID0gZmFsc2U7CiAgICAgIGdlb1BvbGxzID0gMDsKICAgICAgdm9pZCBsb2FkQW5hbHl0aWNzKHRydWUpOwogICAgICByZXR1cm47CiAgICB9CiAgICBzY2hlZHVsZUdlb1BvbGwoKTsKICB9KTsKICBvbkRlYWN0aXZhdGVkKCgpID0+IHsKICAgIGlzQWN0aXZlID0gZmFsc2U7CiAgICByZWZyZXNoT25BY3RpdmF0ZSA9IHRydWU7CiAgICBjbGVhclBvbGxUaW1lcigpOwogIH0pOwogIG9uQmVmb3JlVW5tb3VudCgoKSA9PiB7CiAgICBpc0FjdGl2ZSA9IGZhbHNlOwogICAgY2xlYXJQb2xsVGltZXIoKTsKICB9KTsKCiAgcmV0dXJuIHsKICAgIGFjdGl2ZVJhbmdlLAogICAgZGF0YSwKICAgIGdlb1JlZnJlc2hpbmcsCiAgICBsb2FkRmFpbGVkLAogICAgbG9hZGluZywKICAgIHJhbmdlS2V5LAogICAgcmVmcmVzaCwKICAgIHJlZnJlc2hHZW8sCiAgICBzZWxlY3RSYW5nZSwKICB9Owp9Owo=
+import {
+  computed,
+  onActivated,
+  onBeforeUnmount,
+  onDeactivated,
+  onMounted,
+  ref,
+  watch,
+} from "vue";
+import { useI18n } from "vue-i18n";
+import { useRoute, useRouter } from "vue-router";
+import { GatewayLogsAPI } from "@/lib/api/gateway";
+import type { GatewayLogAnalyticsPayload } from "@/types";
+import { extractErrorMessage } from "@admin-shared/composables/useAsyncAction";
+import { toast } from "@admin-shared/utils/toast";
+import {
+  isValidAnalyticsRange,
+  resolveAnalyticsRange,
+  todayDateString,
+  type RequestAnalyticsRangeKey,
+} from "./model";
+
+const GEO_POLL_INTERVAL_MS = 5000;
+const GEO_MAX_POLLS = 12;
+const RANGE_KEYS = new Set<RequestAnalyticsRangeKey>(["today", "7d", "30d"]);
+
+const readQueryValue = (value: unknown) =>
+  Array.isArray(value) ? String(value[0] || "") : String(value || "");
+
+export const useGatewayRequestAnalytics = () => {
+  const { t } = useI18n();
+  const route = useRoute();
+  const router = useRouter();
+  const queryRange = readQueryValue(
+    route.query.range,
+  ) as RequestAnalyticsRangeKey;
+  const rangeKey = ref<RequestAnalyticsRangeKey>(
+    RANGE_KEYS.has(queryRange) ? queryRange : "7d",
+  );
+
+  const data = ref<GatewayLogAnalyticsPayload | null>(null);
+  const loading = ref(false);
+  const loadFailed = ref(false);
+  const geoRefreshStarting = ref(false);
+  const gatewayToday = ref(todayDateString());
+  let activeRequestId = 0;
+  let geoPolls = 0;
+  let isActive = true;
+  let refreshOnActivate = false;
+  let pollTimer: ReturnType<typeof window.setTimeout> | null = null;
+
+  const activeRange = computed(() =>
+    resolveAnalyticsRange(rangeKey.value, gatewayToday.value),
+  );
+  const geoRefreshing = computed(
+    () =>
+      geoRefreshStarting.value ||
+      Boolean(data.value?.geo.refreshing) ||
+      data.value?.geo.status === "resolving",
+  );
+
+  const clearPollTimer = () => {
+    if (pollTimer) {
+      window.clearTimeout(pollTimer);
+      pollTimer = null;
+    }
+  };
+
+  const syncRangeQuery = () => {
+    const nextQuery: Record<string, string | string[] | null | undefined> = {
+      ...route.query,
+      range: rangeKey.value,
+    };
+    delete nextQuery.from;
+    delete nextQuery.to;
+    void router.replace({ query: nextQuery });
+  };
+
+  const scheduleGeoPoll = () => {
+    clearPollTimer();
+    const geo = data.value?.geo;
+    if (
+      !isActive ||
+      !geo ||
+      (!geo.refreshing &&
+        (geo.status !== "resolving" || geoPolls >= GEO_MAX_POLLS))
+    ) {
+      return;
+    }
+    pollTimer = window.setTimeout(() => {
+      geoPolls += 1;
+      void loadAnalytics(true);
+    }, GEO_POLL_INTERVAL_MS);
+  };
+
+  const loadAnalytics = async (silent = false, resetData = false) => {
+    const range = activeRange.value;
+    if (!isValidAnalyticsRange(range.from, range.to, gatewayToday.value)) {
+      return;
+    }
+    const requestId = ++activeRequestId;
+    if (!silent) {
+      loadFailed.value = false;
+      loading.value = true;
+      if (resetData) data.value = null;
+    }
+    try {
+      const result = await GatewayLogsAPI.getAnalytics(range);
+      if (requestId !== activeRequestId) return;
+      data.value = result;
+      loadFailed.value = false;
+      scheduleGeoPoll();
+    } catch (error) {
+      if (requestId !== activeRequestId) return;
+      if (silent) {
+        scheduleGeoPoll();
+        return;
+      }
+      loadFailed.value = true;
+      toast.error(t("admin.requestAnalysis.loadFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.requestAnalysis.loadFailedDescription"),
+        ),
+      });
+    } finally {
+      if (requestId === activeRequestId && !silent) loading.value = false;
+    }
+  };
+
+  const selectRange = (value: string | number) => {
+    const next = String(value) as RequestAnalyticsRangeKey;
+    if (!RANGE_KEYS.has(next)) return;
+    if (next === rangeKey.value) return;
+    rangeKey.value = next;
+    geoPolls = 0;
+    syncRangeQuery();
+    void loadAnalytics(false, true);
+  };
+
+  const refresh = () => {
+    geoPolls = 0;
+    clearPollTimer();
+    void loadAnalytics();
+  };
+
+  const refreshGeo = async () => {
+    if (geoRefreshing.value) return;
+    geoRefreshStarting.value = true;
+    try {
+      await GatewayLogsAPI.refreshAnalyticsGeo(activeRange.value);
+      if (data.value) data.value.geo.refreshing = true;
+      geoPolls = 0;
+      scheduleGeoPoll();
+    } catch (error) {
+      await loadAnalytics(true);
+      toast.error(t("admin.requestAnalysis.geo.refreshFailed"), {
+        description: extractErrorMessage(
+          error,
+          t("admin.requestAnalysis.geo.refreshFailedDescription"),
+        ),
+      });
+    } finally {
+      geoRefreshStarting.value = false;
+    }
+  };
+
+  const initialize = async () => {
+    loading.value = true;
+    try {
+      const dates = await GatewayLogsAPI.getDates();
+      if (isValidAnalyticsRange(dates.today, dates.today, dates.today)) {
+        gatewayToday.value = dates.today;
+      }
+    } catch {
+      // The analytics endpoint remains usable when the lightweight dates
+      // request fails, so fall back to the browser's local calendar date.
+    }
+    syncRangeQuery();
+    await loadAnalytics();
+  };
+
+  onMounted(() => {
+    void initialize();
+  });
+  watch(
+    () => [route.query.range, route.query.from, route.query.to],
+    () => {
+      const queryKey = readQueryValue(
+        route.query.range,
+      ) as RequestAnalyticsRangeKey;
+      const nextKey = RANGE_KEYS.has(queryKey) ? queryKey : "7d";
+      const shouldNormalizeQuery =
+        !RANGE_KEYS.has(queryKey) ||
+        Boolean(route.query.from || route.query.to);
+      if (nextKey === rangeKey.value) {
+        if (shouldNormalizeQuery) syncRangeQuery();
+        return;
+      }
+      rangeKey.value = nextKey;
+      geoPolls = 0;
+      clearPollTimer();
+      if (shouldNormalizeQuery) syncRangeQuery();
+      void loadAnalytics(false, true);
+    },
+  );
+  onActivated(() => {
+    isActive = true;
+    if (refreshOnActivate && data.value) {
+      refreshOnActivate = false;
+      geoPolls = 0;
+      void loadAnalytics(true);
+      return;
+    }
+    scheduleGeoPoll();
+  });
+  onDeactivated(() => {
+    isActive = false;
+    refreshOnActivate = true;
+    clearPollTimer();
+  });
+  onBeforeUnmount(() => {
+    isActive = false;
+    clearPollTimer();
+  });
+
+  return {
+    activeRange,
+    data,
+    geoRefreshing,
+    loadFailed,
+    loading,
+    rangeKey,
+    refresh,
+    refreshGeo,
+    selectRange,
+  };
+};

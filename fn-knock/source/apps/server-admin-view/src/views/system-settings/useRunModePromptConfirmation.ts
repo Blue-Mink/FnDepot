@@ -1,1 +1,116 @@
-aW1wb3J0IHsgcmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgU3lzdGVtQVBJLCB0eXBlIFJ1bk1vZGVQcm9tcHRQcmVmZXJlbmNlcyB9IGZyb20gIkAvbGliL2FwaS9zeXN0ZW0iOwppbXBvcnQgdHlwZSB7IFJldmVyc2VQcm94eVN1Ym1vZGUgfSBmcm9tICJAL3R5cGVzIjsKCnR5cGUgUnVuTW9kZSA9IDAgfCAxIHwgMzsKdHlwZSBQcm9tcHRLZXkgPSBrZXlvZiBSdW5Nb2RlUHJvbXB0UHJlZmVyZW5jZXM7CnR5cGUgQXBwbHlSdW5Nb2RlQ2hhbmdlID0gKAogIG1vZGU6IFJ1bk1vZGUsCiAgc3VibW9kZTogUmV2ZXJzZVByb3h5U3VibW9kZSB8IG51bGwsCiAgb3B0aW9uczogewogICAgcHJvbXB0UHJlZmVyZW5jZUtleTogUHJvbXB0S2V5IHwgbnVsbDsKICAgIGRpc2FibGVQcm9tcHQ6IGJvb2xlYW47CiAgICBvblN1Y2Nlc3M6ICgpID0+IHZvaWQ7CiAgfSwKKSA9PiBQcm9taXNlPHZvaWQ+OwoKY29uc3QgZ2V0UHJvbXB0UHJlZmVyZW5jZUtleSA9ICgKICBjdXJyZW50TW9kZTogUnVuTW9kZSwKICBuZXh0TW9kZTogUnVuTW9kZSwKKTogUHJvbXB0S2V5IHwgbnVsbCA9PiB7CiAgaWYgKGN1cnJlbnRNb2RlID09PSAwICYmIG5leHRNb2RlID09PSAxKSByZXR1cm4gImRpcmVjdFRvUmV2ZXJzZVByb3h5IjsKICBpZiAoY3VycmVudE1vZGUgPT09IDEgJiYgbmV4dE1vZGUgPT09IDApIHJldHVybiAicmV2ZXJzZVByb3h5VG9EaXJlY3QiOwogIGlmIChuZXh0TW9kZSA9PT0gMykgcmV0dXJuICJzd2l0Y2hUb1N1YmRvbWFpbiI7CiAgaWYgKGN1cnJlbnRNb2RlID09PSAzICYmIG5leHRNb2RlID09PSAxKSByZXR1cm4gInN1YmRvbWFpblRvUmV2ZXJzZVByb3h5IjsKICByZXR1cm4gbnVsbDsKfTsKCmV4cG9ydCBjb25zdCB1c2VSdW5Nb2RlUHJvbXB0Q29uZmlybWF0aW9uID0gKCkgPT4gewogIGNvbnN0IHBlbmRpbmdNb2RlID0gcmVmPFJ1bk1vZGUgfCBudWxsPihudWxsKTsKICBjb25zdCBwZW5kaW5nU3VibW9kZSA9IHJlZjxSZXZlcnNlUHJveHlTdWJtb2RlIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgcGVuZGluZ1Byb21wdEtleSA9IHJlZjxQcm9tcHRLZXkgfCBudWxsPihudWxsKTsKICBjb25zdCBpc0NvbmZpcm1EaWFsb2dPcGVuID0gcmVmKGZhbHNlKTsKICBjb25zdCBkb250U2hvd0FnYWluQ2hlY2tlZCA9IHJlZihmYWxzZSk7CiAgY29uc3QgcnVuTW9kZVByb21wdFByZWZlcmVuY2VzID0gcmVmPFJ1bk1vZGVQcm9tcHRQcmVmZXJlbmNlcz4oewogICAgZGlyZWN0VG9SZXZlcnNlUHJveHk6IGZhbHNlLAogICAgcmV2ZXJzZVByb3h5VG9EaXJlY3Q6IGZhbHNlLAogICAgc3dpdGNoVG9TdWJkb21haW46IGZhbHNlLAogICAgc3ViZG9tYWluVG9SZXZlcnNlUHJveHk6IGZhbHNlLAogIH0pOwoKICBjb25zdCByZXNldENvbmZpcm1hdGlvbiA9ICgpID0+IHsKICAgIHBlbmRpbmdNb2RlLnZhbHVlID0gbnVsbDsKICAgIHBlbmRpbmdTdWJtb2RlLnZhbHVlID0gbnVsbDsKICAgIHBlbmRpbmdQcm9tcHRLZXkudmFsdWUgPSBudWxsOwogICAgZG9udFNob3dBZ2FpbkNoZWNrZWQudmFsdWUgPSBmYWxzZTsKICB9OwoKICBjb25zdCBjbG9zZUNvbmZpcm1hdGlvbiA9ICgpID0+IHsKICAgIGlzQ29uZmlybURpYWxvZ09wZW4udmFsdWUgPSBmYWxzZTsKICAgIHJlc2V0Q29uZmlybWF0aW9uKCk7CiAgfTsKCiAgY29uc3QgaGFuZGxlQ29uZmlybURpYWxvZ09wZW5DaGFuZ2UgPSAobmV4dE9wZW46IGJvb2xlYW4pID0+IHsKICAgIGlzQ29uZmlybURpYWxvZ09wZW4udmFsdWUgPSBuZXh0T3BlbjsKICAgIGlmICghbmV4dE9wZW4pIHsKICAgICAgcmVzZXRDb25maXJtYXRpb24oKTsKICAgIH0KICB9OwoKICBjb25zdCBxdWV1ZUNvbmZpcm1hdGlvbiA9ICh7CiAgICBjdXJyZW50TW9kZSwKICAgIG5leHRNb2RlLAogICAgbmV4dFN1Ym1vZGUsCiAgfTogewogICAgY3VycmVudE1vZGU6IFJ1bk1vZGU7CiAgICBuZXh0TW9kZTogUnVuTW9kZTsKICAgIG5leHRTdWJtb2RlOiBSZXZlcnNlUHJveHlTdWJtb2RlOwogIH0pID0+IHsKICAgIGNvbnN0IHByb21wdEtleSA9IGdldFByb21wdFByZWZlcmVuY2VLZXkoY3VycmVudE1vZGUsIG5leHRNb2RlKTsKICAgIGlmICghcHJvbXB0S2V5IHx8IHJ1bk1vZGVQcm9tcHRQcmVmZXJlbmNlcy52YWx1ZVtwcm9tcHRLZXldKSB7CiAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBwZW5kaW5nTW9kZS52YWx1ZSA9IG5leHRNb2RlOwogICAgcGVuZGluZ1N1Ym1vZGUudmFsdWUgPSBuZXh0TW9kZSA9PT0gMSA/IG5leHRTdWJtb2RlIDogbnVsbDsKICAgIHBlbmRpbmdQcm9tcHRLZXkudmFsdWUgPSBwcm9tcHRLZXk7CiAgICBkb250U2hvd0FnYWluQ2hlY2tlZC52YWx1ZSA9IGZhbHNlOwogICAgaXNDb25maXJtRGlhbG9nT3Blbi52YWx1ZSA9IHRydWU7CiAgICByZXR1cm4gdHJ1ZTsKICB9OwoKICBjb25zdCBjb25maXJtID0gYXN5bmMgKGFwcGx5UnVuTW9kZUNoYW5nZTogQXBwbHlSdW5Nb2RlQ2hhbmdlKSA9PiB7CiAgICBpZiAocGVuZGluZ01vZGUudmFsdWUgPT09IG51bGwpIHJldHVybjsKICAgIGNvbnN0IG5leHRNb2RlID0gcGVuZGluZ01vZGUudmFsdWU7CiAgICBjb25zdCBuZXh0U3VibW9kZSA9IHBlbmRpbmdTdWJtb2RlLnZhbHVlOwoKICAgIGF3YWl0IGFwcGx5UnVuTW9kZUNoYW5nZShuZXh0TW9kZSwgbmV4dE1vZGUgPT09IDEgPyBuZXh0U3VibW9kZSA6IG51bGwsIHsKICAgICAgcHJvbXB0UHJlZmVyZW5jZUtleTogcGVuZGluZ1Byb21wdEtleS52YWx1ZSwKICAgICAgZGlzYWJsZVByb21wdDogZG9udFNob3dBZ2FpbkNoZWNrZWQudmFsdWUsCiAgICAgIG9uU3VjY2VzczogY2xvc2VDb25maXJtYXRpb24sCiAgICB9KTsKICB9OwoKICBjb25zdCBsb2FkUnVuTW9kZVByb21wdFByZWZlcmVuY2VzID0gYXN5bmMgKCkgPT4gewogICAgdHJ5IHsKICAgICAgcnVuTW9kZVByb21wdFByZWZlcmVuY2VzLnZhbHVlID0KICAgICAgICBhd2FpdCBTeXN0ZW1BUEkuZ2V0UnVuTW9kZVByb21wdFByZWZlcmVuY2VzKCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBjb25zb2xlLndhcm4oImxvYWQgcnVuIG1vZGUgcHJvbXB0IHByZWZlcmVuY2VzIGZhaWxlZDoiLCBlcnJvcik7CiAgICB9CiAgfTsKCiAgcmV0dXJuIHsKICAgIGNsb3NlQ29uZmlybWF0aW9uLAogICAgY29uZmlybSwKICAgIGRvbnRTaG93QWdhaW5DaGVja2VkLAogICAgaGFuZGxlQ29uZmlybURpYWxvZ09wZW5DaGFuZ2UsCiAgICBpc0NvbmZpcm1EaWFsb2dPcGVuLAogICAgbG9hZFJ1bk1vZGVQcm9tcHRQcmVmZXJlbmNlcywKICAgIHBlbmRpbmdNb2RlLAogICAgcGVuZGluZ1Byb21wdEtleSwKICAgIHBlbmRpbmdTdWJtb2RlLAogICAgcXVldWVDb25maXJtYXRpb24sCiAgICBydW5Nb2RlUHJvbXB0UHJlZmVyZW5jZXMsCiAgfTsKfTsK
+import { ref } from "vue";
+import { SystemAPI, type RunModePromptPreferences } from "@/lib/api/system";
+import type { ReverseProxySubmode } from "@/types";
+
+type RunMode = 0 | 1 | 3;
+type PromptKey = keyof RunModePromptPreferences;
+type ApplyRunModeChange = (
+  mode: RunMode,
+  submode: ReverseProxySubmode | null,
+  options: {
+    promptPreferenceKey: PromptKey | null;
+    disablePrompt: boolean;
+    onSuccess: () => void;
+  },
+) => Promise<void>;
+
+const getPromptPreferenceKey = (
+  currentMode: RunMode,
+  nextMode: RunMode,
+): PromptKey | null => {
+  if (currentMode === 0 && nextMode === 1) return "directToReverseProxy";
+  if (currentMode === 1 && nextMode === 0) return "reverseProxyToDirect";
+  if (nextMode === 3) return "switchToSubdomain";
+  if (currentMode === 3 && nextMode === 1) return "subdomainToReverseProxy";
+  return null;
+};
+
+export const useRunModePromptConfirmation = () => {
+  const pendingMode = ref<RunMode | null>(null);
+  const pendingSubmode = ref<ReverseProxySubmode | null>(null);
+  const pendingPromptKey = ref<PromptKey | null>(null);
+  const isConfirmDialogOpen = ref(false);
+  const dontShowAgainChecked = ref(false);
+  const runModePromptPreferences = ref<RunModePromptPreferences>({
+    directToReverseProxy: false,
+    reverseProxyToDirect: false,
+    switchToSubdomain: false,
+    subdomainToReverseProxy: false,
+  });
+
+  const resetConfirmation = () => {
+    pendingMode.value = null;
+    pendingSubmode.value = null;
+    pendingPromptKey.value = null;
+    dontShowAgainChecked.value = false;
+  };
+
+  const closeConfirmation = () => {
+    isConfirmDialogOpen.value = false;
+    resetConfirmation();
+  };
+
+  const handleConfirmDialogOpenChange = (nextOpen: boolean) => {
+    isConfirmDialogOpen.value = nextOpen;
+    if (!nextOpen) {
+      resetConfirmation();
+    }
+  };
+
+  const queueConfirmation = ({
+    currentMode,
+    nextMode,
+    nextSubmode,
+  }: {
+    currentMode: RunMode;
+    nextMode: RunMode;
+    nextSubmode: ReverseProxySubmode;
+  }) => {
+    const promptKey = getPromptPreferenceKey(currentMode, nextMode);
+    if (!promptKey || runModePromptPreferences.value[promptKey]) {
+      return false;
+    }
+
+    pendingMode.value = nextMode;
+    pendingSubmode.value = nextMode === 1 ? nextSubmode : null;
+    pendingPromptKey.value = promptKey;
+    dontShowAgainChecked.value = false;
+    isConfirmDialogOpen.value = true;
+    return true;
+  };
+
+  const confirm = async (applyRunModeChange: ApplyRunModeChange) => {
+    if (pendingMode.value === null) return;
+    const nextMode = pendingMode.value;
+    const nextSubmode = pendingSubmode.value;
+
+    await applyRunModeChange(nextMode, nextMode === 1 ? nextSubmode : null, {
+      promptPreferenceKey: pendingPromptKey.value,
+      disablePrompt: dontShowAgainChecked.value,
+      onSuccess: closeConfirmation,
+    });
+  };
+
+  const loadRunModePromptPreferences = async () => {
+    try {
+      runModePromptPreferences.value =
+        await SystemAPI.getRunModePromptPreferences();
+    } catch (error) {
+      console.warn("load run mode prompt preferences failed:", error);
+    }
+  };
+
+  return {
+    closeConfirmation,
+    confirm,
+    dontShowAgainChecked,
+    handleConfirmDialogOpenChange,
+    isConfirmDialogOpen,
+    loadRunModePromptPreferences,
+    pendingMode,
+    pendingPromptKey,
+    pendingSubmode,
+    queueConfirmation,
+    runModePromptPreferences,
+  };
+};

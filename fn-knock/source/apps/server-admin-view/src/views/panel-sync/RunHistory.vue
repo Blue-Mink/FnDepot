@@ -1,1 +1,69 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB0eXBlIHsgUGFuZWxDb25uZWN0aW9uLCBQYW5lbFN5bmNSdW4gfSBmcm9tICJAL2xpYi9hcGkvcGFuZWwtc3luYy1hcGkiOwoKZGVmaW5lUHJvcHM8ewogIGNvbm5lY3Rpb246IFBhbmVsQ29ubmVjdGlvbiB8IG51bGw7CiAgbG9hZGluZzogYm9vbGVhbjsKICBvcGVuOiBib29sZWFuOwogIHJ1bnM6IFBhbmVsU3luY1J1bltdOwp9PigpOwpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8eyAidXBkYXRlOm9wZW4iOiBbdmFsdWU6IGJvb2xlYW5dIH0+KCk7CmNvbnN0IHsgdCwgbG9jYWxlIH0gPSB1c2VJMThuKCk7CmNvbnN0IGZvcm1hdFRpbWUgPSAodmFsdWU6IHN0cmluZykgPT4KICBuZXcgSW50bC5EYXRlVGltZUZvcm1hdChsb2NhbGUudmFsdWUsIHsKICAgIGRhdGVTdHlsZTogIm1lZGl1bSIsCiAgICB0aW1lU3R5bGU6ICJtZWRpdW0iLAogIH0pLmZvcm1hdChuZXcgRGF0ZSh2YWx1ZSkpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8RGlhbG9nIDpvcGVuPSJvcGVuIiBAdXBkYXRlOm9wZW49ImVtaXQoJ3VwZGF0ZTpvcGVuJywgJGV2ZW50KSI+CiAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ibWF4LWgtWzg1dmhdIG92ZXJmbG93LXktYXV0byBzbTptYXgtdy0yeGwiPgogICAgICA8RGlhbG9nSGVhZGVyCiAgICAgICAgPjxEaWFsb2dUaXRsZT57ewogICAgICAgICAgdCgiYWRtaW4ucGFuZWxTeW5jLmhpc3RvcnlUaXRsZSIsIHsgbmFtZTogY29ubmVjdGlvbj8ubmFtZSA/PyAiIiB9KQogICAgICAgIH19PC9EaWFsb2dUaXRsZQogICAgICAgID48RGlhbG9nRGVzY3JpcHRpb24+e3sKICAgICAgICAgIHQoImFkbWluLnBhbmVsU3luYy5oaXN0b3J5RGVzY3JpcHRpb24iKQogICAgICAgIH19PC9EaWFsb2dEZXNjcmlwdGlvbj48L0RpYWxvZ0hlYWRlcgogICAgICA+CiAgICAgIDxwIHYtaWY9ImxvYWRpbmciIGNsYXNzPSJweS04IHRleHQtY2VudGVyIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7eyB0KCJhZG1pbi5wYW5lbFN5bmMubG9hZGluZ0hpc3RvcnkiKSB9fQogICAgICA8L3A+CiAgICAgIDxwCiAgICAgICAgdi1lbHNlLWlmPSJydW5zLmxlbmd0aCA9PT0gMCIKICAgICAgICBjbGFzcz0icHktOCB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgPgogICAgICAgIHt7IHQoImFkbWluLnBhbmVsU3luYy5ub0hpc3RvcnkiKSB9fQogICAgICA8L3A+CiAgICAgIDxkaXYgdi1lbHNlIGNsYXNzPSJzcGFjZS15LTIiPgogICAgICAgIDxkaXYgdi1mb3I9InJ1biBpbiBydW5zIiA6a2V5PSJydW4uaWQiIGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBwLTMiPgogICAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAge3sgZm9ybWF0VGltZShydW4uc3RhcnRlZF9hdCkgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxCYWRnZSB2YXJpYW50PSJvdXRsaW5lIj57ewogICAgICAgICAgICAgIHQoYGFkbWluLnBhbmVsU3luYy5ydW5TdGF0dXMuJHtydW4uc3RhdHVzfWApCiAgICAgICAgICAgIH19PC9CYWRnZT4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0ibXQtMSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7IHQoYGFkbWluLnBhbmVsU3luYy50cmlnZ2Vycy4ke3J1bi50cmlnZ2VyfWApIH19IMK3ICt7ewogICAgICAgICAgICAgIHJ1bi5jb3VudHMuY3JlYXRlCiAgICAgICAgICAgIH19CiAgICAgICAgICAgIC8gfnt7IHJ1bi5jb3VudHMudXBkYXRlIH19IC8g4oiSe3sgcnVuLmNvdW50cy5kZWxldGUgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPHAgdi1pZj0icnVuLm1lc3NhZ2UiIGNsYXNzPSJtdC0yIHRleHQtc20iPnt7IHJ1bi5tZXNzYWdlIH19PC9wPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvRGlhbG9nQ29udGVudD4KICA8L0RpYWxvZz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import type { PanelConnection, PanelSyncRun } from "@/lib/api/panel-sync-api";
+
+defineProps<{
+  connection: PanelConnection | null;
+  loading: boolean;
+  open: boolean;
+  runs: PanelSyncRun[];
+}>();
+const emit = defineEmits<{ "update:open": [value: boolean] }>();
+const { t, locale } = useI18n();
+const formatTime = (value: string) =>
+  new Intl.DateTimeFormat(locale.value, {
+    dateStyle: "medium",
+    timeStyle: "medium",
+  }).format(new Date(value));
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="max-h-[85vh] overflow-y-auto sm:max-w-2xl">
+      <DialogHeader
+        ><DialogTitle>{{
+          t("admin.panelSync.historyTitle", { name: connection?.name ?? "" })
+        }}</DialogTitle
+        ><DialogDescription>{{
+          t("admin.panelSync.historyDescription")
+        }}</DialogDescription></DialogHeader
+      >
+      <p v-if="loading" class="py-8 text-center text-sm text-muted-foreground">
+        {{ t("admin.panelSync.loadingHistory") }}
+      </p>
+      <p
+        v-else-if="runs.length === 0"
+        class="py-8 text-center text-sm text-muted-foreground"
+      >
+        {{ t("admin.panelSync.noHistory") }}
+      </p>
+      <div v-else class="space-y-2">
+        <div v-for="run in runs" :key="run.id" class="rounded-lg border p-3">
+          <div class="flex items-center justify-between gap-3">
+            <div class="text-sm font-medium">
+              {{ formatTime(run.started_at) }}
+            </div>
+            <Badge variant="outline">{{
+              t(`admin.panelSync.runStatus.${run.status}`)
+            }}</Badge>
+          </div>
+          <div class="mt-1 text-xs text-muted-foreground">
+            {{ t(`admin.panelSync.triggers.${run.trigger}`) }} · +{{
+              run.counts.create
+            }}
+            / ~{{ run.counts.update }} / −{{ run.counts.delete }}
+          </div>
+          <p v-if="run.message" class="mt-2 text-sm">{{ run.message }}</p>
+        </div>
+      </div>
+    </DialogContent>
+  </Dialog>
+</template>

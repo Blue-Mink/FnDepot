@@ -1,1 +1,375 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsKICBBcnJvd0Rvd25MZWZ0LAogIEFycm93VXBSaWdodCwKICBCYW4sCiAgQ2xvY2ssCiAgR2xvYmUsCiAgTmV0d29yaywKICBSb3V0ZSBhcyBSb3V0ZUljb24sCiAgU2hpZWxkQWxlcnQsCiAgVHJpYW5nbGVBbGVydCwKICBXaWZpLAp9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHR5cGUgRGFzaGJvYXJkU3RhdHMsIHR5cGUgVHJhZmZpY1N0YXRzIH0gZnJvbSAiQC9saWIvYXBpL2Rhc2hib2FyZCI7CmltcG9ydCB7IHR5cGUgREROU1N0YXR1c1BheWxvYWQgfSBmcm9tICJAL2xpYi9hcGkvZGRucyI7CmltcG9ydCB7IHR5cGUgVGhyZWF0T3ZlcnZpZXcgfSBmcm9tICJAL3R5cGVzIjsKaW1wb3J0IHR5cGUgeyBUaW1lU2VyaWVzQ2hhcnRTZXJpZXMgfSBmcm9tICJAL2NvbXBvbmVudHMvY2hhcnRzL1RpbWVTZXJpZXNDaGFydC52dWUiOwppbXBvcnQgeyBidWlsZERETlNUaW1lc3RhbXBUb29sdGlwTGluZXMgfSBmcm9tICJAL2xpYi9kZG5zLXRpbWUiOwppbXBvcnQgeyBpc0Nsb3VkZmxhcmVkVHVubmVsQXZhaWxhYmxlIH0gZnJvbSAiQC9saWIvcmV2ZXJzZS1wcm94eS1zdWJtb2RlIjsKaW1wb3J0IHsgdXNlQ29uZmlnU3RvcmUgfSBmcm9tICJAL3N0b3JlL2NvbmZpZyI7CmltcG9ydCB0eXBlIHsgVHVubmVsU3RhdHVzIH0gZnJvbSAiLi91c2VEYXNoYm9hcmRUdW5uZWxTdGF0dXMiOwoKY29uc3QgZGRuc1VwZGF0ZVNjb3BlTGFiZWxLZXlzID0gewogIGR1YWxfc3RhY2s6ICJhZG1pbi5kYXNoYm9hcmQuZGRucy51cGRhdGVTY29wZXMuZHVhbFN0YWNrIiwKICBpcHY2X29ubHk6ICJhZG1pbi5kYXNoYm9hcmQuZGRucy51cGRhdGVTY29wZXMuaXB2Nk9ubHkiLAogIGlwdjRfb25seTogImFkbWluLmRhc2hib2FyZC5kZG5zLnVwZGF0ZVNjb3Blcy5pcHY0T25seSIsCn0gYXMgY29uc3Q7Cgpjb25zdCB0cmFmZmljU2VyaWVzTGFiZWxLZXlzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogICJcdTUxNjVcdTdhZDkiOiAiYWRtaW4uZGFzaGJvYXJkLnRyYWZmaWMuaW5ncmVzc1NlcmllcyIsCiAgIlx1NTFmYVx1N2FkOSI6ICJhZG1pbi5kYXNoYm9hcmQudHJhZmZpYy5lZ3Jlc3NTZXJpZXMiLAp9OwoKY29uc3QgbWV0cmljSWNvblRvbmVzID0gewogIGxpdmVJbmdyZXNzOiB7IGNvbG9yOiAiIzBmNzY2ZSIgfSwKICBsaXZlRWdyZXNzOiB7IGNvbG9yOiAiI2MyNDEwYyIgfSwKICB0b3RhbEluZ3Jlc3M6IHsgY29sb3I6ICIjMGY3NjZlIiB9LAogIHRvdGFsRWdyZXNzOiB7IGNvbG9yOiAiI2MyNDEwYyIgfSwKfSBhcyBjb25zdDsKCmV4cG9ydCBjb25zdCBEQVNIQk9BUkRfVFJBRkZJQ19DT0xPUlMgPSB7CiAgaW5ncmVzczogIiMwZjc2NmUiLAogIGVncmVzczogIiNjMjQxMGMiLAp9IGFzIGNvbnN0OwoKY29uc3Qgbm9ybWFsaXplU2VyaWVzRGF0YSA9ICh2YWx1ZTogdW5rbm93bikgPT4gewogIGlmICghQXJyYXkuaXNBcnJheSh2YWx1ZSkpIHJldHVybiBbXTsKICByZXR1cm4gdmFsdWUKICAgIC5tYXAoKHBvaW50KSA9PiB7CiAgICAgIGlmICghQXJyYXkuaXNBcnJheShwb2ludCkpIHJldHVybiBudWxsOwogICAgICBjb25zdCB0aW1lID0gTnVtYmVyKHBvaW50WzBdKTsKICAgICAgY29uc3QgYW1vdW50ID0gTnVtYmVyKHBvaW50WzFdKTsKICAgICAgaWYgKCFOdW1iZXIuaXNGaW5pdGUodGltZSkgfHwgIU51bWJlci5pc0Zpbml0ZShhbW91bnQpKSByZXR1cm4gbnVsbDsKICAgICAgcmV0dXJuIFt0aW1lLCBhbW91bnRdIGFzIGNvbnN0OwogICAgfSkKICAgIC5maWx0ZXIoKHBvaW50KTogcG9pbnQgaXMgcmVhZG9ubHkgW251bWJlciwgbnVtYmVyXSA9PiBCb29sZWFuKHBvaW50KSk7Cn07CgpleHBvcnQgY29uc3QgdXNlRGFzaGJvYXJkVmlld01vZGVsID0gKHsKICBhY3RpdmVSYW5nZVNlYywKICBjZlN0YXR1cywKICBkZG5zU3RhdHVzLAogIGRlZmF1bHRUdW5uZWwsCiAgZnJwU3RhdHVzLAogIHJlYWx0aW1lSW5CcHMsCiAgcmVhbHRpbWVPdXRCcHMsCiAgcmVhbHRpbWVTdGF0cywKICBzaG93VHVubmVsU2VjdGlvbiwKICBzdGF0cywKICB0aHJlYXRPdmVydmlldywKfTogewogIGFjdGl2ZVJhbmdlU2VjOiAoKSA9PiBudW1iZXI7CiAgY2ZTdGF0dXM6IFJlZjxUdW5uZWxTdGF0dXMgfCBudWxsPjsKICBkZG5zU3RhdHVzOiBSZWY8REROU1N0YXR1c1BheWxvYWQgfCBudWxsPjsKICBkZWZhdWx0VHVubmVsOiBSZWY8ImZycCIgfCAiY2xvdWRmbGFyZWQiPjsKICBmcnBTdGF0dXM6IFJlZjxUdW5uZWxTdGF0dXMgfCBudWxsPjsKICByZWFsdGltZUluQnBzOiBSZWY8bnVtYmVyIHwgbnVsbD47CiAgcmVhbHRpbWVPdXRCcHM6IFJlZjxudW1iZXIgfCBudWxsPjsKICByZWFsdGltZVN0YXRzOiBSZWY8VHJhZmZpY1N0YXRzIHwgbnVsbD47CiAgc2hvd1R1bm5lbFNlY3Rpb246IFJlYWRvbmx5PFJlZjxib29sZWFuPj47CiAgc3RhdHM6IFJlZjxEYXNoYm9hcmRTdGF0cyB8IG51bGw+OwogIHRocmVhdE92ZXJ2aWV3OiBSZWY8VGhyZWF0T3ZlcnZpZXcgfCBudWxsPjsKfSkgPT4gewogIGNvbnN0IGNvbmZpZ1N0b3JlID0gdXNlQ29uZmlnU3RvcmUoKTsKICBjb25zdCB7IGxvY2FsZSwgdCB9ID0gdXNlSTE4bigpOwoKICBjb25zdCBmb3JtYXRCeXRlcyA9IChieXRlczogbnVtYmVyIHwgbnVsbCB8IHVuZGVmaW5lZCkgPT4gewogICAgY29uc3QgdmFsdWUgPSBOdW1iZXIoYnl0ZXMgPz8gMCk7CiAgICBpZiAoIU51bWJlci5pc0Zpbml0ZSh2YWx1ZSkgfHwgdmFsdWUgPD0gMCkgcmV0dXJuICIwIEIiOwogICAgY29uc3QgdW5pdHMgPSBbIkIiLCAiS0IiLCAiTUIiLCAiR0IiLCAiVEIiXSBhcyBjb25zdDsKICAgIGNvbnN0IGV4cG9uZW50ID0gTWF0aC5tYXgoCiAgICAgIDAsCiAgICAgIE1hdGgubWluKHVuaXRzLmxlbmd0aCAtIDEsIE1hdGguZmxvb3IoTWF0aC5sb2codmFsdWUpIC8gTWF0aC5sb2coMTAyNCkpKSwKICAgICk7CiAgICBjb25zdCBub3JtYWxpemVkID0gdmFsdWUgLyAxMDI0ICoqIGV4cG9uZW50OwogICAgY29uc3QgZGlnaXRzID0KICAgICAgZXhwb25lbnQgPT09IDAgPyAwIDogbm9ybWFsaXplZCA+PSAxMDAgPyAwIDogbm9ybWFsaXplZCA+PSAxMCA/IDEgOiAyOwogICAgcmV0dXJuIGAke25vcm1hbGl6ZWQudG9GaXhlZChkaWdpdHMpfSAke3VuaXRzW2V4cG9uZW50XX1gOwogIH07CgogIGNvbnN0IGZvcm1hdEJwcyA9IChicHM6IG51bWJlciB8IG51bGwgfCB1bmRlZmluZWQpID0+CiAgICBgJHtmb3JtYXRCeXRlcyhicHMpfSAvc2A7CgogIGNvbnN0IGZvcm1hdE51bWJlciA9ICh2YWx1ZTogbnVtYmVyIHwgbnVsbCB8IHVuZGVmaW5lZCwgZmFsbGJhY2sgPSAiLSIpID0+IHsKICAgIGlmICh2YWx1ZSA9PT0gbnVsbCB8fCB2YWx1ZSA9PT0gdW5kZWZpbmVkKSByZXR1cm4gZmFsbGJhY2s7CiAgICBjb25zdCBub3JtYWxpemVkID0gTnVtYmVyKHZhbHVlKTsKICAgIGlmICghTnVtYmVyLmlzRmluaXRlKG5vcm1hbGl6ZWQpKSByZXR1cm4gZmFsbGJhY2s7CiAgICByZXR1cm4gbmV3IEludGwuTnVtYmVyRm9ybWF0KFN0cmluZyhsb2NhbGUudmFsdWUpKS5mb3JtYXQoCiAgICAgIE1hdGgucm91bmQobm9ybWFsaXplZCksCiAgICApOwogIH07CgogIGNvbnN0IHRyYW5zbGF0ZVRyYWZmaWNTZXJpZXNOYW1lID0gKG5hbWU6IHVua25vd24pID0+IHsKICAgIGNvbnN0IHZhbHVlID0gU3RyaW5nKG5hbWUgPz8gIiIpOwogICAgY29uc3Qga2V5ID0gdHJhZmZpY1Nlcmllc0xhYmVsS2V5c1t2YWx1ZV07CiAgICByZXR1cm4ga2V5ID8gdChrZXkpIDogdmFsdWU7CiAgfTsKCiAgY29uc3Qgb25saW5lTm93ID0gY29tcHV0ZWQoCiAgICAoKSA9PiByZWFsdGltZVN0YXRzLnZhbHVlPy5hY3RpdmVfY29ubnMgPz8gc3RhdHMudmFsdWU/Lm5vdz8ub25saW5lID8/IG51bGwsCiAgKTsKCiAgY29uc3QgdHJhZmZpY1NlcmllcyA9IGNvbXB1dGVkPFRpbWVTZXJpZXNDaGFydFNlcmllc1tdPigoKSA9PiB7CiAgICBjb25zdCBiYXNlID0gKHN0YXRzLnZhbHVlPy50cmFmZmljLmVjaGFydHMgPz8ge30pIGFzIGFueTsKICAgIGNvbnN0IGNvbG9ycyA9IFsKICAgICAgREFTSEJPQVJEX1RSQUZGSUNfQ09MT1JTLmluZ3Jlc3MsCiAgICAgIERBU0hCT0FSRF9UUkFGRklDX0NPTE9SUy5lZ3Jlc3MsCiAgICBdOwoKICAgIHJldHVybiAoQXJyYXkuaXNBcnJheShiYXNlPy5zZXJpZXMpID8gYmFzZS5zZXJpZXMgOiBbXSkubWFwKAogICAgICAoc2VyaWVzOiBhbnksIGluZGV4OiBudW1iZXIpID0+IHsKICAgICAgICBjb25zdCBjb2xvciA9IGNvbG9yc1tpbmRleCAlIGNvbG9ycy5sZW5ndGhdID8/ICIjMGY3NjZlIjsKICAgICAgICByZXR1cm4gewogICAgICAgICAgbmFtZTogdHJhbnNsYXRlVHJhZmZpY1Nlcmllc05hbWUoc2VyaWVzPy5uYW1lKSwKICAgICAgICAgIGNvbG9yLAogICAgICAgICAgZmlsbDogYCR7Y29sb3J9MTRgLAogICAgICAgICAgZGF0YTogbm9ybWFsaXplU2VyaWVzRGF0YShzZXJpZXM/LmRhdGEpLAogICAgICAgIH07CiAgICAgIH0sCiAgICApOwogIH0pOwoKICBjb25zdCB0aHJlYXRTZXJpZXMgPSBjb21wdXRlZDxUaW1lU2VyaWVzQ2hhcnRTZXJpZXNbXT4oKCkgPT4gWwogICAgewogICAgICBuYW1lOiB0KCJhZG1pbi5kYXNoYm9hcmQuc2VjdXJpdHkuZmFpbGVkTG9naW5zIiksCiAgICAgIGNvbG9yOiAiIzUyNTI1MiIsCiAgICAgIGZpbGw6ICJyZ2JhKDgyLCA4MiwgODIsIDAuMDgpIiwKICAgICAgZGF0YTogdGhyZWF0T3ZlcnZpZXcudmFsdWU/LnNlcmllcy5mYWlsZWRMb2dpbnMgPz8gW10sCiAgICB9LAogICAgewogICAgICBuYW1lOiB0KCJhZG1pbi5kYXNoYm9hcmQuc2VjdXJpdHkuc2Nhbm5lcnMiKSwKICAgICAgY29sb3I6ICIjOTkxYjFiIiwKICAgICAgZmlsbDogInJnYmEoMTUzLCAyNywgMjcsIDAuMDgpIiwKICAgICAgZGF0YTogdGhyZWF0T3ZlcnZpZXcudmFsdWU/LnNlcmllcy5ibG9ja2VkU2Nhbm5lcnMgPz8gW10sCiAgICB9LAogICAgewogICAgICBuYW1lOiAiV0FGIiwKICAgICAgY29sb3I6ICIjYjQ1MzA5IiwKICAgICAgZmlsbDogInJnYmEoMTgwLCA4MywgOSwgMC4wOCkiLAogICAgICBkYXRhOiB0aHJlYXRPdmVydmlldy52YWx1ZT8uc2VyaWVzLndhZkV2ZW50cyA/PyBbXSwKICAgIH0sCiAgXSk7CgogIGNvbnN0IHRpdGxlUmFuZ2VUZXh0ID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3Qgc2Vjb25kcyA9IHN0YXRzLnZhbHVlPy5yYW5nZVNlYyA/PyBhY3RpdmVSYW5nZVNlYygpOwogICAgaWYgKHNlY29uZHMgPCAzNjAwKSB7CiAgICAgIHJldHVybiB0KCJhZG1pbi5kYXNoYm9hcmQuZHVyYXRpb24ubWludXRlcyIsIHsKICAgICAgICBjb3VudDogTWF0aC5yb3VuZChzZWNvbmRzIC8gNjApLAogICAgICB9KTsKICAgIH0KICAgIGlmIChzZWNvbmRzIDwgMjQgKiAzNjAwKSB7CiAgICAgIHJldHVybiB0KCJhZG1pbi5kYXNoYm9hcmQuZHVyYXRpb24uaG91cnMiLCB7CiAgICAgICAgY291bnQ6IE1hdGgucm91bmQoc2Vjb25kcyAvIDM2MDApLAogICAgICB9KTsKICAgIH0KICAgIHJldHVybiB0KCJhZG1pbi5kYXNoYm9hcmQuZHVyYXRpb24uZGF5cyIsIHsKICAgICAgY291bnQ6IE1hdGgucm91bmQoc2Vjb25kcyAvIDg2NDAwKSwKICAgIH0pOwogIH0pOwoKICBjb25zdCBsaXZlTWV0cmljQ2FyZHMgPSBjb21wdXRlZCgoKSA9PiBbCiAgICB7CiAgICAgIGxhYmVsOiB0KCJhZG1pbi5kYXNoYm9hcmQubWV0cmljcy5saXZlSW5ncmVzcyIpLAogICAgICB2YWx1ZToKICAgICAgICByZWFsdGltZUluQnBzLnZhbHVlID09PSBudWxsID8gIi0iIDogZm9ybWF0QnBzKHJlYWx0aW1lSW5CcHMudmFsdWUpLAogICAgICBoaW50OiB0KCJhZG1pbi5kYXNoYm9hcmQubWV0cmljcy5jdXJyZW50UmVjZWl2ZVJhdGUiKSwKICAgICAgaWNvbjogQXJyb3dEb3duTGVmdCwKICAgICAgaWNvblRvbmU6IG1ldHJpY0ljb25Ub25lcy5saXZlSW5ncmVzcywKICAgIH0sCiAgICB7CiAgICAgIGxhYmVsOiB0KCJhZG1pbi5kYXNoYm9hcmQubWV0cmljcy5saXZlRWdyZXNzIiksCiAgICAgIHZhbHVlOgogICAgICAgIHJlYWx0aW1lT3V0QnBzLnZhbHVlID09PSBudWxsID8gIi0iIDogZm9ybWF0QnBzKHJlYWx0aW1lT3V0QnBzLnZhbHVlKSwKICAgICAgaGludDogdCgiYWRtaW4uZGFzaGJvYXJkLm1ldHJpY3MuY3VycmVudFNlbmRSYXRlIiksCiAgICAgIGljb246IEFycm93VXBSaWdodCwKICAgICAgaWNvblRvbmU6IG1ldHJpY0ljb25Ub25lcy5saXZlRWdyZXNzLAogICAgfSwKICAgIHsKICAgICAgbGFiZWw6IHQoImFkbWluLmRhc2hib2FyZC5tZXRyaWNzLnRvdGFsSW5ncmVzcyIpLAogICAgICB2YWx1ZTogZm9ybWF0Qnl0ZXMoc3RhdHMudmFsdWU/LnRvdGFscz8uaW5CeXRlcyksCiAgICAgIGhpbnQ6IHQoImFkbWluLmRhc2hib2FyZC5tZXRyaWNzLnJhbmdlUmVjZWl2ZVRvdGFsIiwgewogICAgICAgIHJhbmdlOiB0aXRsZVJhbmdlVGV4dC52YWx1ZSwKICAgICAgfSksCiAgICAgIGljb246IEFycm93RG93bkxlZnQsCiAgICAgIGljb25Ub25lOiBtZXRyaWNJY29uVG9uZXMudG90YWxJbmdyZXNzLAogICAgfSwKICAgIHsKICAgICAgbGFiZWw6IHQoImFkbWluLmRhc2hib2FyZC5tZXRyaWNzLnRvdGFsRWdyZXNzIiksCiAgICAgIHZhbHVlOiBmb3JtYXRCeXRlcyhzdGF0cy52YWx1ZT8udG90YWxzPy5vdXRCeXRlcyksCiAgICAgIGhpbnQ6IHQoImFkbWluLmRhc2hib2FyZC5tZXRyaWNzLnJhbmdlU2VuZFRvdGFsIiwgewogICAgICAgIHJhbmdlOiB0aXRsZVJhbmdlVGV4dC52YWx1ZSwKICAgICAgfSksCiAgICAgIGljb246IEFycm93VXBSaWdodCwKICAgICAgaWNvblRvbmU6IG1ldHJpY0ljb25Ub25lcy50b3RhbEVncmVzcywKICAgIH0sCiAgXSk7CgogIGNvbnN0IHNlY3VyaXR5Q2FyZHMgPSBjb21wdXRlZCgoKSA9PiBbCiAgICB7CiAgICAgIGxhYmVsOiB0KCJhZG1pbi5kYXNoYm9hcmQuc2VjdXJpdHkuZmFpbGVkTG9naW5zIiksCiAgICAgIHZhbHVlOiBmb3JtYXROdW1iZXIodGhyZWF0T3ZlcnZpZXcudmFsdWU/LnRvdGFscz8uZmFpbGVkTG9naW5zKSwKICAgICAgaGludDogdCgiYWRtaW4uZGFzaGJvYXJkLnNlY3VyaXR5LmZhaWxlZExvZ2luc0hpbnQiKSwKICAgICAgaWNvbjogU2hpZWxkQWxlcnQsCiAgICB9LAogICAgewogICAgICBsYWJlbDogdCgiYWRtaW4uZGFzaGJvYXJkLnNlY3VyaXR5LnNjYW5uZXJzIiksCiAgICAgIHZhbHVlOiBmb3JtYXROdW1iZXIodGhyZWF0T3ZlcnZpZXcudmFsdWU/LnRvdGFscz8uYmxvY2tlZFNjYW5uZXJzKSwKICAgICAgaGludDogdCgiYWRtaW4uZGFzaGJvYXJkLnNlY3VyaXR5LnNjYW5uZXJzSGludCIpLAogICAgICBpY29uOiBCYW4sCiAgICB9LAogICAgewogICAgICBsYWJlbDogIldBRiIsCiAgICAgIHZhbHVlOiBmb3JtYXROdW1iZXIodGhyZWF0T3ZlcnZpZXcudmFsdWU/LnRvdGFscz8ud2FmRXZlbnRzKSwKICAgICAgaGludDogdCgiYWRtaW4uZGFzaGJvYXJkLnNlY3VyaXR5LndhZkhpbnQiKSwKICAgICAgaWNvbjogVHJpYW5nbGVBbGVydCwKICAgIH0sCiAgXSk7CgogIGNvbnN0IGRkbnNTdGF0ZSA9IGNvbXB1dGVkKCgpID0+ICh7CiAgICBhY3RpdmU6IEJvb2xlYW4oZGRuc1N0YXR1cy52YWx1ZT8uZW5hYmxlZCksCiAgICBsYWJlbDogZGRuc1N0YXR1cy52YWx1ZT8uZW5hYmxlZAogICAgICA/IHQoImFkbWluLmRhc2hib2FyZC5kZG5zLmFjdGl2ZVN5bmMiKQogICAgICA6IHQoImFkbWluLmRhc2hib2FyZC5kZG5zLnBhdXNlZCIpLAogIH0pKTsKCiAgY29uc3QgZ2V0RGRuc1RpbWVzdGFtcExhYmVscyA9ICgpID0+ICh7CiAgICBsYXN0U3VjY2Vzc2Z1bFVwZGF0ZTogdCgiYWRtaW4uZGRucy5sYXN0U3VjY2Vzc2Z1bFVwZGF0ZSIpLAogICAgbGFzdENoZWNrOiB0KCJhZG1pbi5kZG5zLmxhc3RDaGVjayIpLAogICAgbmV2ZXI6IHQoImFkbWluLmRkbnMubmV2ZXIiKSwKICB9KTsKCiAgY29uc3QgZGRuc0NhcmRzID0gY29tcHV0ZWQoKCkgPT4gWwogICAgewogICAgICBsYWJlbDogdCgiYWRtaW4uZGFzaGJvYXJkLmRkbnMucHJvdmlkZXIiKSwKICAgICAgdmFsdWU6CiAgICAgICAgZGRuc1N0YXR1cy52YWx1ZT8ucHJvdmlkZXIgfHwgdCgiYWRtaW4uZGFzaGJvYXJkLmRkbnMubm90Q29uZmlndXJlZCIpLAogICAgICBoaW50OgogICAgICAgIChkZG5zU3RhdHVzLnZhbHVlPy5leHRyYVRhcmdldENvdW50IHx8IDApID4gMAogICAgICAgICAgPyB0KCJhZG1pbi5kYXNoYm9hcmQuZGRucy5wcmltYXJ5RHluYW1pY1NlcnZpY2VXaXRoRXh0cmEiLCB7CiAgICAgICAgICAgICAgY291bnQ6IGRkbnNTdGF0dXMudmFsdWU/LmV4dHJhVGFyZ2V0Q291bnQgfHwgMCwKICAgICAgICAgICAgfSkKICAgICAgICAgIDogdCgiYWRtaW4uZGFzaGJvYXJkLmRkbnMucHJpbWFyeUR5bmFtaWNTZXJ2aWNlIiksCiAgICAgIGljb246IE5ldHdvcmssCiAgICB9LAogICAgewogICAgICBsYWJlbDogIklQdjQiLAogICAgICB2YWx1ZTogZGRuc1N0YXR1cy52YWx1ZT8ubGFzdElQPy5pcHY0IHx8ICItLS0uLS0tLi0tLS4tLS0iLAogICAgICBoaW50OiB0KCJhZG1pbi5kYXNoYm9hcmQuZGRucy5sYXN0UmVwb3J0ZWRBZGRyZXNzIiksCiAgICAgIGljb246IFdpZmksCiAgICB9LAogICAgewogICAgICBsYWJlbDogIklQdjYiLAogICAgICB2YWx1ZToKICAgICAgICBkZG5zU3RhdHVzLnZhbHVlPy5sYXN0SVA/LmlwdjYgfHwKICAgICAgICB0KCJhZG1pbi5kYXNoYm9hcmQuZGRucy5ub0FkZHJlc3NEZXRlY3RlZCIpLAogICAgICBoaW50OiB0KCJhZG1pbi5kYXNoYm9hcmQuZGRucy5sYXN0UmVwb3J0ZWRBZGRyZXNzIiksCiAgICAgIGljb246IEdsb2JlLAogICAgfSwKICAgIHsKICAgICAgbGFiZWw6IHQoImFkbWluLmRhc2hib2FyZC5kZG5zLnVwZGF0ZVNjb3BlIiksCiAgICAgIHZhbHVlOiBkZG5zU3RhdHVzLnZhbHVlCiAgICAgICAgPyB0KGRkbnNVcGRhdGVTY29wZUxhYmVsS2V5c1tkZG5zU3RhdHVzLnZhbHVlLnVwZGF0ZVNjb3BlXSkKICAgICAgICA6ICJJUHY0ICYgSVB2NiIsCiAgICAgIGhpbnQ6IHQoImFkbWluLmRhc2hib2FyZC5kZG5zLmFjdGl2ZVBvbGljeSIpLAogICAgICBpY29uOiBSb3V0ZUljb24sCiAgICB9LAogICAgewogICAgICBsYWJlbDogdCgiYWRtaW4uZGFzaGJvYXJkLmRkbnMubGFzdENoZWNrIiksCiAgICAgIHZhbHVlOiBkZG5zU3RhdHVzLnZhbHVlPy5sYXN0Q2hlY2s/LmNoZWNrZWRfYXQgPz8gbnVsbCwKICAgICAgaGludDogdCgiYWRtaW4uZGFzaGJvYXJkLmRkbnMuYXV0b0NoZWNrVGltZSIpLAogICAgICBpY29uOiBDbG9jaywKICAgICAgaXNUaW1lOiB0cnVlLAogICAgICB0b29sdGlwTGluZXM6IGJ1aWxkREROU1RpbWVzdGFtcFRvb2x0aXBMaW5lcyh7CiAgICAgICAgdXBkYXRlZEF0OiBkZG5zU3RhdHVzLnZhbHVlPy5sYXN0SVA/LnVwZGF0ZWRfYXQsCiAgICAgICAgY2hlY2tlZEF0OiBkZG5zU3RhdHVzLnZhbHVlPy5sYXN0Q2hlY2s/LmNoZWNrZWRfYXQsCiAgICAgICAgbG9jYWxlOiBTdHJpbmcobG9jYWxlLnZhbHVlKSwKICAgICAgICBsYWJlbHM6IGdldERkbnNUaW1lc3RhbXBMYWJlbHMoKSwKICAgICAgfSksCiAgICB9LAogICAgewogICAgICBsYWJlbDogdCgiYWRtaW4uZGFzaGJvYXJkLmRkbnMuZXh0cmFEb21haW5zIiksCiAgICAgIHZhbHVlOiBTdHJpbmcoZGRuc1N0YXR1cy52YWx1ZT8uZXh0cmFUYXJnZXRDb3VudCB8fCAwKSwKICAgICAgaGludDoKICAgICAgICAoZGRuc1N0YXR1cy52YWx1ZT8udGFyZ2V0cyB8fCBbXSkuZmlsdGVyKAogICAgICAgICAgKHRhcmdldCkgPT4gIXRhcmdldC5pc1ByaW1hcnkgJiYgdGFyZ2V0Lmxhc3RDaGVjay5vdXRjb21lID09PSAiZXJyb3IiLAogICAgICAgICkubGVuZ3RoID4gMAogICAgICAgICAgPyB0KCJhZG1pbi5kYXNoYm9hcmQuZGRucy5leHRyYURvbWFpbnNFcnJvciIsIHsKICAgICAgICAgICAgICBjb3VudDogKGRkbnNTdGF0dXMudmFsdWU/LnRhcmdldHMgfHwgW10pLmZpbHRlcigKICAgICAgICAgICAgICAgICh0YXJnZXQpID0+CiAgICAgICAgICAgICAgICAgICF0YXJnZXQuaXNQcmltYXJ5ICYmIHRhcmdldC5sYXN0Q2hlY2sub3V0Y29tZSA9PT0gImVycm9yIiwKICAgICAgICAgICAgICApLmxlbmd0aCwKICAgICAgICAgICAgfSkKICAgICAgICAgIDogdCgiYWRtaW4uZGFzaGJvYXJkLmRkbnMuZXh0cmFEb21haW5zQ291bnQiKSwKICAgICAgaWNvbjogR2xvYmUsCiAgICB9LAogIF0pOwoKICBjb25zdCBlbnRyeVN0YXR1c0NhcmRUaXRsZSA9IGNvbXB1dGVkKCgpID0+CiAgICBzaG93VHVubmVsU2VjdGlvbi52YWx1ZQogICAgICA/IHQoImFkbWluLmRhc2hib2FyZC5lbnRyeS5lbnRyeUFuZFR1bm5lbCIpCiAgICAgIDogdCgiYWRtaW4uZGFzaGJvYXJkLmVudHJ5LmVudHJ5U3RhdHVzIiksCiAgKTsKCiAgY29uc3QgZW50cnlTdGF0dXNDYXJkRGVzY3JpcHRpb24gPSBjb21wdXRlZCgoKSA9PgogICAgc2hvd1R1bm5lbFNlY3Rpb24udmFsdWUKICAgICAgPyB0KCJhZG1pbi5kYXNoYm9hcmQuZW50cnkuZGRuc0FuZFR1bm5lbFN0YXR1cyIpCiAgICAgIDogdCgiYWRtaW4uZGFzaGJvYXJkLmVudHJ5LmRkbnNTdGF0dXMiKSwKICApOwoKICBjb25zdCBzaG93Q2xvdWRmbGFyZWRUdW5uZWwgPSBjb21wdXRlZCgKICAgICgpID0+CiAgICAgIGNvbmZpZ1N0b3JlLmNhblVzZUNsb3VkZmxhcmVkICYmCiAgICAgIGlzQ2xvdWRmbGFyZWRUdW5uZWxBdmFpbGFibGUoY29uZmlnU3RvcmUuY29uZmlnKSwKICApOwoKICBjb25zdCB0dW5uZWxDYXJkcyA9IGNvbXB1dGVkKCgpID0+IFsKICAgIC4uLihjb25maWdTdG9yZS5jYW5Vc2VGcnBjCiAgICAgID8gWwogICAgICAgICAgewogICAgICAgICAgICBrZXk6ICJmcnAiIGFzIGNvbnN0LAogICAgICAgICAgICBsYWJlbDogdCgiYWRtaW4uZGFzaGJvYXJkLnR1bm5lbC5mcnAiKSwKICAgICAgICAgICAgc3RhdHVzOiBmcnBTdGF0dXMudmFsdWUsCiAgICAgICAgICAgIGlzRGVmYXVsdDogZGVmYXVsdFR1bm5lbC52YWx1ZSA9PT0gImZycCIsCiAgICAgICAgICB9LAogICAgICAgIF0KICAgICAgOiBbXSksCiAgICAuLi4oc2hvd0Nsb3VkZmxhcmVkVHVubmVsLnZhbHVlCiAgICAgID8gWwogICAgICAgICAgewogICAgICAgICAgICBrZXk6ICJjbG91ZGZsYXJlZCIgYXMgY29uc3QsCiAgICAgICAgICAgIGxhYmVsOiAiQ2xvdWRmbGFyZWQiLAogICAgICAgICAgICBzdGF0dXM6IGNmU3RhdHVzLnZhbHVlLAogICAgICAgICAgICBpc0RlZmF1bHQ6IGRlZmF1bHRUdW5uZWwudmFsdWUgPT09ICJjbG91ZGZsYXJlZCIsCiAgICAgICAgICB9LAogICAgICAgIF0KICAgICAgOiBbXSksCiAgXSk7CgogIHJldHVybiB7CiAgICBkZG5zQ2FyZHMsCiAgICBkZG5zU3RhdGUsCiAgICBlbnRyeVN0YXR1c0NhcmREZXNjcmlwdGlvbiwKICAgIGVudHJ5U3RhdHVzQ2FyZFRpdGxlLAogICAgZm9ybWF0QnBzLAogICAgZm9ybWF0TnVtYmVyLAogICAgbGl2ZU1ldHJpY0NhcmRzLAogICAgb25saW5lTm93LAogICAgc2VjdXJpdHlDYXJkcywKICAgIHRocmVhdFNlcmllcywKICAgIHRpdGxlUmFuZ2VUZXh0LAogICAgdHJhZmZpY1NlcmllcywKICAgIHR1bm5lbENhcmRzLAogIH07Cn07Cg==
+import { computed, type Ref } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  ArrowDownLeft,
+  ArrowUpRight,
+  Ban,
+  Clock,
+  Globe,
+  Network,
+  Route as RouteIcon,
+  ShieldAlert,
+  TriangleAlert,
+  Wifi,
+} from "lucide-vue-next";
+import { type DashboardStats, type TrafficStats } from "@/lib/api/dashboard";
+import { type DDNSStatusPayload } from "@/lib/api/ddns";
+import { type ThreatOverview } from "@/types";
+import type { TimeSeriesChartSeries } from "@/components/charts/TimeSeriesChart.vue";
+import { buildDDNSTimestampTooltipLines } from "@/lib/ddns-time";
+import { isCloudflaredTunnelAvailable } from "@/lib/reverse-proxy-submode";
+import { useConfigStore } from "@/store/config";
+import type { TunnelStatus } from "./useDashboardTunnelStatus";
+
+const ddnsUpdateScopeLabelKeys = {
+  dual_stack: "admin.dashboard.ddns.updateScopes.dualStack",
+  ipv6_only: "admin.dashboard.ddns.updateScopes.ipv6Only",
+  ipv4_only: "admin.dashboard.ddns.updateScopes.ipv4Only",
+} as const;
+
+const trafficSeriesLabelKeys: Record<string, string> = {
+  "\u5165\u7ad9": "admin.dashboard.traffic.ingressSeries",
+  "\u51fa\u7ad9": "admin.dashboard.traffic.egressSeries",
+};
+
+const metricIconTones = {
+  liveIngress: { color: "#0f766e" },
+  liveEgress: { color: "#c2410c" },
+  totalIngress: { color: "#0f766e" },
+  totalEgress: { color: "#c2410c" },
+} as const;
+
+export const DASHBOARD_TRAFFIC_COLORS = {
+  ingress: "#0f766e",
+  egress: "#c2410c",
+} as const;
+
+const normalizeSeriesData = (value: unknown) => {
+  if (!Array.isArray(value)) return [];
+  return value
+    .map((point) => {
+      if (!Array.isArray(point)) return null;
+      const time = Number(point[0]);
+      const amount = Number(point[1]);
+      if (!Number.isFinite(time) || !Number.isFinite(amount)) return null;
+      return [time, amount] as const;
+    })
+    .filter((point): point is readonly [number, number] => Boolean(point));
+};
+
+export const useDashboardViewModel = ({
+  activeRangeSec,
+  cfStatus,
+  ddnsStatus,
+  defaultTunnel,
+  frpStatus,
+  realtimeInBps,
+  realtimeOutBps,
+  realtimeStats,
+  showTunnelSection,
+  stats,
+  threatOverview,
+}: {
+  activeRangeSec: () => number;
+  cfStatus: Ref<TunnelStatus | null>;
+  ddnsStatus: Ref<DDNSStatusPayload | null>;
+  defaultTunnel: Ref<"frp" | "cloudflared">;
+  frpStatus: Ref<TunnelStatus | null>;
+  realtimeInBps: Ref<number | null>;
+  realtimeOutBps: Ref<number | null>;
+  realtimeStats: Ref<TrafficStats | null>;
+  showTunnelSection: Readonly<Ref<boolean>>;
+  stats: Ref<DashboardStats | null>;
+  threatOverview: Ref<ThreatOverview | null>;
+}) => {
+  const configStore = useConfigStore();
+  const { locale, t } = useI18n();
+
+  const formatBytes = (bytes: number | null | undefined) => {
+    const value = Number(bytes ?? 0);
+    if (!Number.isFinite(value) || value <= 0) return "0 B";
+    const units = ["B", "KB", "MB", "GB", "TB"] as const;
+    const exponent = Math.max(
+      0,
+      Math.min(units.length - 1, Math.floor(Math.log(value) / Math.log(1024))),
+    );
+    const normalized = value / 1024 ** exponent;
+    const digits =
+      exponent === 0 ? 0 : normalized >= 100 ? 0 : normalized >= 10 ? 1 : 2;
+    return `${normalized.toFixed(digits)} ${units[exponent]}`;
+  };
+
+  const formatBps = (bps: number | null | undefined) =>
+    `${formatBytes(bps)} /s`;
+
+  const formatNumber = (value: number | null | undefined, fallback = "-") => {
+    if (value === null || value === undefined) return fallback;
+    const normalized = Number(value);
+    if (!Number.isFinite(normalized)) return fallback;
+    return new Intl.NumberFormat(String(locale.value)).format(
+      Math.round(normalized),
+    );
+  };
+
+  const translateTrafficSeriesName = (name: unknown) => {
+    const value = String(name ?? "");
+    const key = trafficSeriesLabelKeys[value];
+    return key ? t(key) : value;
+  };
+
+  const onlineNow = computed(
+    () => realtimeStats.value?.active_conns ?? stats.value?.now?.online ?? null,
+  );
+
+  const trafficSeries = computed<TimeSeriesChartSeries[]>(() => {
+    const base = (stats.value?.traffic.echarts ?? {}) as any;
+    const colors = [
+      DASHBOARD_TRAFFIC_COLORS.ingress,
+      DASHBOARD_TRAFFIC_COLORS.egress,
+    ];
+
+    return (Array.isArray(base?.series) ? base.series : []).map(
+      (series: any, index: number) => {
+        const color = colors[index % colors.length] ?? "#0f766e";
+        return {
+          name: translateTrafficSeriesName(series?.name),
+          color,
+          fill: `${color}14`,
+          data: normalizeSeriesData(series?.data),
+        };
+      },
+    );
+  });
+
+  const threatSeries = computed<TimeSeriesChartSeries[]>(() => [
+    {
+      name: t("admin.dashboard.security.failedLogins"),
+      color: "#525252",
+      fill: "rgba(82, 82, 82, 0.08)",
+      data: threatOverview.value?.series.failedLogins ?? [],
+    },
+    {
+      name: t("admin.dashboard.security.scanners"),
+      color: "#991b1b",
+      fill: "rgba(153, 27, 27, 0.08)",
+      data: threatOverview.value?.series.blockedScanners ?? [],
+    },
+    {
+      name: "WAF",
+      color: "#b45309",
+      fill: "rgba(180, 83, 9, 0.08)",
+      data: threatOverview.value?.series.wafEvents ?? [],
+    },
+  ]);
+
+  const titleRangeText = computed(() => {
+    const seconds = stats.value?.rangeSec ?? activeRangeSec();
+    if (seconds < 3600) {
+      return t("admin.dashboard.duration.minutes", {
+        count: Math.round(seconds / 60),
+      });
+    }
+    if (seconds < 24 * 3600) {
+      return t("admin.dashboard.duration.hours", {
+        count: Math.round(seconds / 3600),
+      });
+    }
+    return t("admin.dashboard.duration.days", {
+      count: Math.round(seconds / 86400),
+    });
+  });
+
+  const liveMetricCards = computed(() => [
+    {
+      label: t("admin.dashboard.metrics.liveIngress"),
+      value:
+        realtimeInBps.value === null ? "-" : formatBps(realtimeInBps.value),
+      hint: t("admin.dashboard.metrics.currentReceiveRate"),
+      icon: ArrowDownLeft,
+      iconTone: metricIconTones.liveIngress,
+    },
+    {
+      label: t("admin.dashboard.metrics.liveEgress"),
+      value:
+        realtimeOutBps.value === null ? "-" : formatBps(realtimeOutBps.value),
+      hint: t("admin.dashboard.metrics.currentSendRate"),
+      icon: ArrowUpRight,
+      iconTone: metricIconTones.liveEgress,
+    },
+    {
+      label: t("admin.dashboard.metrics.totalIngress"),
+      value: formatBytes(stats.value?.totals?.inBytes),
+      hint: t("admin.dashboard.metrics.rangeReceiveTotal", {
+        range: titleRangeText.value,
+      }),
+      icon: ArrowDownLeft,
+      iconTone: metricIconTones.totalIngress,
+    },
+    {
+      label: t("admin.dashboard.metrics.totalEgress"),
+      value: formatBytes(stats.value?.totals?.outBytes),
+      hint: t("admin.dashboard.metrics.rangeSendTotal", {
+        range: titleRangeText.value,
+      }),
+      icon: ArrowUpRight,
+      iconTone: metricIconTones.totalEgress,
+    },
+  ]);
+
+  const securityCards = computed(() => [
+    {
+      label: t("admin.dashboard.security.failedLogins"),
+      value: formatNumber(threatOverview.value?.totals?.failedLogins),
+      hint: t("admin.dashboard.security.failedLoginsHint"),
+      icon: ShieldAlert,
+    },
+    {
+      label: t("admin.dashboard.security.scanners"),
+      value: formatNumber(threatOverview.value?.totals?.blockedScanners),
+      hint: t("admin.dashboard.security.scannersHint"),
+      icon: Ban,
+    },
+    {
+      label: "WAF",
+      value: formatNumber(threatOverview.value?.totals?.wafEvents),
+      hint: t("admin.dashboard.security.wafHint"),
+      icon: TriangleAlert,
+    },
+  ]);
+
+  const ddnsState = computed(() => ({
+    active: Boolean(ddnsStatus.value?.enabled),
+    label: ddnsStatus.value?.enabled
+      ? t("admin.dashboard.ddns.activeSync")
+      : t("admin.dashboard.ddns.paused"),
+  }));
+
+  const getDdnsTimestampLabels = () => ({
+    lastSuccessfulUpdate: t("admin.ddns.lastSuccessfulUpdate"),
+    lastCheck: t("admin.ddns.lastCheck"),
+    never: t("admin.ddns.never"),
+  });
+
+  const ddnsCards = computed(() => [
+    {
+      label: t("admin.dashboard.ddns.provider"),
+      value:
+        ddnsStatus.value?.provider || t("admin.dashboard.ddns.notConfigured"),
+      hint:
+        (ddnsStatus.value?.extraTargetCount || 0) > 0
+          ? t("admin.dashboard.ddns.primaryDynamicServiceWithExtra", {
+              count: ddnsStatus.value?.extraTargetCount || 0,
+            })
+          : t("admin.dashboard.ddns.primaryDynamicService"),
+      icon: Network,
+    },
+    {
+      label: "IPv4",
+      value: ddnsStatus.value?.lastIP?.ipv4 || "---.---.---.---",
+      hint: t("admin.dashboard.ddns.lastReportedAddress"),
+      icon: Wifi,
+    },
+    {
+      label: "IPv6",
+      value:
+        ddnsStatus.value?.lastIP?.ipv6 ||
+        t("admin.dashboard.ddns.noAddressDetected"),
+      hint: t("admin.dashboard.ddns.lastReportedAddress"),
+      icon: Globe,
+    },
+    {
+      label: t("admin.dashboard.ddns.updateScope"),
+      value: ddnsStatus.value
+        ? t(ddnsUpdateScopeLabelKeys[ddnsStatus.value.updateScope])
+        : "IPv4 & IPv6",
+      hint: t("admin.dashboard.ddns.activePolicy"),
+      icon: RouteIcon,
+    },
+    {
+      label: t("admin.dashboard.ddns.lastCheck"),
+      value: ddnsStatus.value?.lastCheck?.checked_at ?? null,
+      hint: t("admin.dashboard.ddns.autoCheckTime"),
+      icon: Clock,
+      isTime: true,
+      tooltipLines: buildDDNSTimestampTooltipLines({
+        updatedAt: ddnsStatus.value?.lastIP?.updated_at,
+        checkedAt: ddnsStatus.value?.lastCheck?.checked_at,
+        locale: String(locale.value),
+        labels: getDdnsTimestampLabels(),
+      }),
+    },
+    {
+      label: t("admin.dashboard.ddns.extraDomains"),
+      value: String(ddnsStatus.value?.extraTargetCount || 0),
+      hint:
+        (ddnsStatus.value?.targets || []).filter(
+          (target) => !target.isPrimary && target.lastCheck.outcome === "error",
+        ).length > 0
+          ? t("admin.dashboard.ddns.extraDomainsError", {
+              count: (ddnsStatus.value?.targets || []).filter(
+                (target) =>
+                  !target.isPrimary && target.lastCheck.outcome === "error",
+              ).length,
+            })
+          : t("admin.dashboard.ddns.extraDomainsCount"),
+      icon: Globe,
+    },
+  ]);
+
+  const entryStatusCardTitle = computed(() =>
+    showTunnelSection.value
+      ? t("admin.dashboard.entry.entryAndTunnel")
+      : t("admin.dashboard.entry.entryStatus"),
+  );
+
+  const entryStatusCardDescription = computed(() =>
+    showTunnelSection.value
+      ? t("admin.dashboard.entry.ddnsAndTunnelStatus")
+      : t("admin.dashboard.entry.ddnsStatus"),
+  );
+
+  const showCloudflaredTunnel = computed(
+    () =>
+      configStore.canUseCloudflared &&
+      isCloudflaredTunnelAvailable(configStore.config),
+  );
+
+  const tunnelCards = computed(() => [
+    ...(configStore.canUseFrpc
+      ? [
+          {
+            key: "frp" as const,
+            label: t("admin.dashboard.tunnel.frp"),
+            status: frpStatus.value,
+            isDefault: defaultTunnel.value === "frp",
+          },
+        ]
+      : []),
+    ...(showCloudflaredTunnel.value
+      ? [
+          {
+            key: "cloudflared" as const,
+            label: "Cloudflared",
+            status: cfStatus.value,
+            isDefault: defaultTunnel.value === "cloudflared",
+          },
+        ]
+      : []),
+  ]);
+
+  return {
+    ddnsCards,
+    ddnsState,
+    entryStatusCardDescription,
+    entryStatusCardTitle,
+    formatBps,
+    formatNumber,
+    liveMetricCards,
+    onlineNow,
+    securityCards,
+    threatSeries,
+    titleRangeText,
+    trafficSeries,
+    tunnelCards,
+  };
+};

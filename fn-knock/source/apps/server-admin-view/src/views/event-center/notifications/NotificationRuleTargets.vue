@@ -1,1 +1,149 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IFBsdXMsIFRyYXNoMiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERyb3Bkb3duTWVudSwKICBEcm9wZG93bk1lbnVDb250ZW50LAogIERyb3Bkb3duTWVudUl0ZW0sCiAgRHJvcGRvd25NZW51VHJpZ2dlciwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZHJvcGRvd24tbWVudSI7CmltcG9ydCB0eXBlIHsgTm90aWZpY2F0aW9uUnVsZUVkaXRvckNvbnRyb2xsZXIgfSBmcm9tICIuL25vdGlmaWNhdGlvbi1ydWxlLWVkaXRvci1jb250cmFjdCI7CmltcG9ydCBTY2hlbWFGaWVsZHNFZGl0b3IgZnJvbSAiLi9TY2hlbWFGaWVsZHNFZGl0b3IudnVlIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8eyBjb250cm9sbGVyOiBOb3RpZmljYXRpb25SdWxlRWRpdG9yQ29udHJvbGxlciB9PigpOwpjb25zdCB7CiAgYWRkVGFyZ2V0LAogIGF2YWlsYWJsZVByb3ZpZGVyc0ZvckFkZCwKICBoYXNBdmFpbGFibGVQcm92aWRlcnNGb3JBZGQsCiAgaGFzUHJvdmlkZXJzLAogIHJlbW92ZVRhcmdldCwKICBwcmV2aWV3V2ViaG9va1RhcmdldCwKICByZXNvbHZlUHJvdmlkZXJEZWZpbml0aW9uQnlJZCwKICByZXNvbHZlUHJvdmlkZXJOYW1lLAogIHJlc29sdmVQcm92aWRlclR5cGVMYWJlbCwKICBydWxlRm9ybSwKICB0ZXN0V2ViaG9va1RhcmdldCwKfSA9IHByb3BzLmNvbnRyb2xsZXI7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8c2VjdGlvbiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTQiPgogICAgPGRpdgogICAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtMyBzbTpmbGV4LXJvdyBzbTppdGVtcy1zdGFydCBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICA+CiAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gZm9udC1zZW1pYm9sZCI+CiAgICAgICAge3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ydWxlcy5ub3RpZmljYXRpb25UYXJnZXRzIikgfX0KICAgICAgPC9kaXY+CiAgICAgIDxEcm9wZG93bk1lbnU+CiAgICAgICAgPERyb3Bkb3duTWVudVRyaWdnZXIgYXMtY2hpbGQ+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICBjbGFzcz0ic2VsZi1zdGFydCIKICAgICAgICAgICAgOmRpc2FibGVkPSIhaGFzUHJvdmlkZXJzIHx8ICFoYXNBdmFpbGFibGVQcm92aWRlcnNGb3JBZGQiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxQbHVzIGNsYXNzPSJtci0yIGgtNCB3LTQiIC8+CiAgICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucnVsZXMuYWRkVGFyZ2V0IikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvRHJvcGRvd25NZW51VHJpZ2dlcj4KICAgICAgICA8RHJvcGRvd25NZW51Q29udGVudCBhbGlnbj0iZW5kIiBjbGFzcz0idy02NCI+CiAgICAgICAgICA8RHJvcGRvd25NZW51SXRlbQogICAgICAgICAgICB2LWZvcj0icHJvdmlkZXIgaW4gYXZhaWxhYmxlUHJvdmlkZXJzRm9yQWRkIgogICAgICAgICAgICA6a2V5PSJwcm92aWRlci5pZCIKICAgICAgICAgICAgQGNsaWNrPSJhZGRUYXJnZXQocHJvdmlkZXIuaWQpIgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IG1pbi13LTAgZmxleC1jb2wiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0cnVuY2F0ZSBmb250LW1lZGl1bSI+e3sgcHJvdmlkZXIubmFtZSB9fTwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgcmVzb2x2ZVByb3ZpZGVyVHlwZUxhYmVsKHByb3ZpZGVyLmlkKSB9fQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgPC9Ecm9wZG93bk1lbnVDb250ZW50PgogICAgICA8L0Ryb3Bkb3duTWVudT4KICAgIDwvZGl2PgoKICAgIDxkaXYgdi1pZj0iIXJ1bGVGb3JtLnRhcmdldHMubGVuZ3RoIiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLnRhcmdldEVtcHR5IikgfX0KICAgIDwvZGl2PgogICAgPGRpdgogICAgICB2LWVsc2UKICAgICAgY2xhc3M9Im1pbi13LTAgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIvNzAgYmctYmFja2dyb3VuZCIKICAgID4KICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJoaWRkZW4gZ3JpZC1jb2xzLVttaW5tYXgoMCwxZnIpXzE4MHB4X2F1dG9dIGdhcC00IGJvcmRlci1iIGJnLW11dGVkLzIwIHB4LTQgcHktMyB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTpncmlkIgogICAgICA+CiAgICAgICAgPGRpdj57eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLnRhcmdldE5hbWUiKSB9fTwvZGl2PgogICAgICAgIDxkaXY+e3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ydWxlcy5wcm92aWRlclR5cGUiKSB9fTwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InRleHQtcmlnaHQiPgogICAgICAgICAge3sgdCgiYWRtaW4ubm90aWZpY2F0aW9ucy5ydWxlcy5hY3Rpb25zIikgfX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2CiAgICAgICAgdi1mb3I9Iih0YXJnZXQsIGluZGV4KSBpbiBydWxlRm9ybS50YXJnZXRzIgogICAgICAgIDprZXk9InRhcmdldC5pZCB8fCBpbmRleCIKICAgICAgICBjbGFzcz0ibWluLXctMCBncmlkIGdyaWQtY29scy1bbWlubWF4KDAsMWZyKV9hdXRvXSBnYXAteC0zIGdhcC15LTMgYm9yZGVyLWIgYm9yZGVyLWJvcmRlci82MCBweC00IHB5LTQgbGFzdDpib3JkZXItYi0wIHNtOmdyaWQtY29scy1bbWlubWF4KDAsMWZyKV8xODBweF9hdXRvXSBzbTpnYXAtNCIKICAgICAgPgogICAgICAgIDxkaXYgY2xhc3M9Im1pbi13LTAgcHItMiBzbTpwci0wIj4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgY2xhc3M9Im1iLTEgdGV4dC1bMTFweF0gZm9udC1tZWRpdW0gdHJhY2tpbmctd2lkZSB0ZXh0LW11dGVkLWZvcmVncm91bmQgc206aGlkZGVuIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLnRhcmdldE5hbWUiKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJicmVhay13b3JkcyB0ZXh0LXNtIGZvbnQtbWVkaXVtIHNtOnRydW5jYXRlIj4KICAgICAgICAgICAge3sgcmVzb2x2ZVByb3ZpZGVyTmFtZSh0YXJnZXQucHJvdmlkZXJfaWQpIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJjb2wtc3Bhbi0yIG1pbi13LTAgc206Y29sLXNwYW4tMSBzbTpwdC0wLjUiPgogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzcz0ibWItMSB0ZXh0LVsxMXB4XSBmb250LW1lZGl1bSB0cmFja2luZy13aWRlIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTpoaWRkZW4iCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IHQoImFkbWluLm5vdGlmaWNhdGlvbnMucnVsZXMucHJvdmlkZXJUeXBlIikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyByZXNvbHZlUHJvdmlkZXJUeXBlTGFiZWwodGFyZ2V0LnByb3ZpZGVyX2lkKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdgogICAgICAgICAgY2xhc3M9ImNvbC1zdGFydC0yIHJvdy1zdGFydC0xIGZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1lbmQgc206Y29sLXN0YXJ0LWF1dG8gc206cm93LXN0YXJ0LWF1dG8iCiAgICAgICAgPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2NvbW1vbi5jb25maXJtRGVsZXRlJykiCiAgICAgICAgICAgIGNsYXNzPSJ0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgICA6ZGlzYWJsZWQ9InJ1bGVGb3JtLnRhcmdldHMubGVuZ3RoIDw9IDEiCiAgICAgICAgICAgIEBjbGljaz0icmVtb3ZlVGFyZ2V0KGluZGV4KSIKICAgICAgICAgID4KICAgICAgICAgICAgPFRyYXNoMiBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9IgogICAgICAgICAgICByZXNvbHZlUHJvdmlkZXJEZWZpbml0aW9uQnlJZCh0YXJnZXQucHJvdmlkZXJfaWQpPy50YXJnZXRfc2NoZW1hCiAgICAgICAgICAgICAgLmxlbmd0aAogICAgICAgICAgIgogICAgICAgICAgY2xhc3M9ImNvbC1zcGFuLTIgbWluLXctMCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItZGFzaGVkIGJnLW11dGVkLzEwIHAtMyBzbTpjb2wtc3Bhbi0zIgogICAgICAgID4KICAgICAgICAgIDxkaXYgY2xhc3M9Im1iLTMgdGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5ub3RpZmljYXRpb25zLnJ1bGVzLnRhcmdldENvbmZpZyIpIH19CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxTY2hlbWFGaWVsZHNFZGl0b3IKICAgICAgICAgICAgOmZpZWxkcz0iCiAgICAgICAgICAgICAgcmVzb2x2ZVByb3ZpZGVyRGVmaW5pdGlvbkJ5SWQodGFyZ2V0LnByb3ZpZGVyX2lkKSEudGFyZ2V0X3NjaGVtYQogICAgICAgICAgICAiCiAgICAgICAgICAgIDptb2RlbC12YWx1ZT0idGFyZ2V0LnRhcmdldF9jb25maWciCiAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9IgogICAgICAgICAgICAgIHJ1bGVGb3JtLnRhcmdldHNbaW5kZXhdIS50YXJnZXRfY29uZmlnID0gJGV2ZW50CiAgICAgICAgICAgICIKICAgICAgICAgICAgQHdlYmhvb2stYm9keS1wcmV2aWV3PSJwcmV2aWV3V2ViaG9va1RhcmdldChpbmRleCkiCiAgICAgICAgICAgIEB3ZWJob29rLWJvZHktdGVzdD0idGVzdFdlYmhvb2tUYXJnZXQoaW5kZXgpIgogICAgICAgICAgLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L3NlY3Rpb24+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { Plus, Trash2 } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import type { NotificationRuleEditorController } from "./notification-rule-editor-contract";
+import SchemaFieldsEditor from "./SchemaFieldsEditor.vue";
+
+const props = defineProps<{ controller: NotificationRuleEditorController }>();
+const {
+  addTarget,
+  availableProvidersForAdd,
+  hasAvailableProvidersForAdd,
+  hasProviders,
+  removeTarget,
+  previewWebhookTarget,
+  resolveProviderDefinitionById,
+  resolveProviderName,
+  resolveProviderTypeLabel,
+  ruleForm,
+  testWebhookTarget,
+} = props.controller;
+const { t } = useI18n();
+</script>
+
+<template>
+  <section class="min-w-0 space-y-4">
+    <div
+      class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+    >
+      <div class="text-sm font-semibold">
+        {{ t("admin.notifications.rules.notificationTargets") }}
+      </div>
+      <DropdownMenu>
+        <DropdownMenuTrigger as-child>
+          <Button
+            variant="outline"
+            size="sm"
+            class="self-start"
+            :disabled="!hasProviders || !hasAvailableProvidersForAdd"
+          >
+            <Plus class="mr-2 h-4 w-4" />
+            {{ t("admin.notifications.rules.addTarget") }}
+          </Button>
+        </DropdownMenuTrigger>
+        <DropdownMenuContent align="end" class="w-64">
+          <DropdownMenuItem
+            v-for="provider in availableProvidersForAdd"
+            :key="provider.id"
+            @click="addTarget(provider.id)"
+          >
+            <div class="flex min-w-0 flex-col">
+              <span class="truncate font-medium">{{ provider.name }}</span>
+              <span class="text-xs text-muted-foreground">
+                {{ resolveProviderTypeLabel(provider.id) }}
+              </span>
+            </div>
+          </DropdownMenuItem>
+        </DropdownMenuContent>
+      </DropdownMenu>
+    </div>
+
+    <div v-if="!ruleForm.targets.length" class="text-sm text-muted-foreground">
+      {{ t("admin.notifications.rules.targetEmpty") }}
+    </div>
+    <div
+      v-else
+      class="min-w-0 overflow-hidden rounded-lg border border-border/70 bg-background"
+    >
+      <div
+        class="hidden grid-cols-[minmax(0,1fr)_180px_auto] gap-4 border-b bg-muted/20 px-4 py-3 text-xs font-medium text-muted-foreground sm:grid"
+      >
+        <div>{{ t("admin.notifications.rules.targetName") }}</div>
+        <div>{{ t("admin.notifications.rules.providerType") }}</div>
+        <div class="text-right">
+          {{ t("admin.notifications.rules.actions") }}
+        </div>
+      </div>
+
+      <div
+        v-for="(target, index) in ruleForm.targets"
+        :key="target.id || index"
+        class="min-w-0 grid grid-cols-[minmax(0,1fr)_auto] gap-x-3 gap-y-3 border-b border-border/60 px-4 py-4 last:border-b-0 sm:grid-cols-[minmax(0,1fr)_180px_auto] sm:gap-4"
+      >
+        <div class="min-w-0 pr-2 sm:pr-0">
+          <div
+            class="mb-1 text-[11px] font-medium tracking-wide text-muted-foreground sm:hidden"
+          >
+            {{ t("admin.notifications.rules.targetName") }}
+          </div>
+          <div class="break-words text-sm font-medium sm:truncate">
+            {{ resolveProviderName(target.provider_id) }}
+          </div>
+        </div>
+        <div class="col-span-2 min-w-0 sm:col-span-1 sm:pt-0.5">
+          <div
+            class="mb-1 text-[11px] font-medium tracking-wide text-muted-foreground sm:hidden"
+          >
+            {{ t("admin.notifications.rules.providerType") }}
+          </div>
+          <div class="text-sm text-muted-foreground">
+            {{ resolveProviderTypeLabel(target.provider_id) }}
+          </div>
+        </div>
+        <div
+          class="col-start-2 row-start-1 flex items-start justify-end sm:col-start-auto sm:row-start-auto"
+        >
+          <Button
+            variant="ghost"
+            size="icon"
+            :aria-label="t('common.confirmDelete')"
+            class="text-destructive"
+            :disabled="ruleForm.targets.length <= 1"
+            @click="removeTarget(index)"
+          >
+            <Trash2 class="h-4 w-4" />
+          </Button>
+        </div>
+        <div
+          v-if="
+            resolveProviderDefinitionById(target.provider_id)?.target_schema
+              .length
+          "
+          class="col-span-2 min-w-0 rounded-md border border-dashed bg-muted/10 p-3 sm:col-span-3"
+        >
+          <div class="mb-3 text-xs font-medium text-muted-foreground">
+            {{ t("admin.notifications.rules.targetConfig") }}
+          </div>
+          <SchemaFieldsEditor
+            :fields="
+              resolveProviderDefinitionById(target.provider_id)!.target_schema
+            "
+            :model-value="target.target_config"
+            @update:model-value="
+              ruleForm.targets[index]!.target_config = $event
+            "
+            @webhook-body-preview="previewWebhookTarget(index)"
+            @webhook-body-test="testWebhookTarget(index)"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+</template>

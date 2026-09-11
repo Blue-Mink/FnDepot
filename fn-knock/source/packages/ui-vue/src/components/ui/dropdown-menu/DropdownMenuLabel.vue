@@ -1,1 +1,23 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRHJvcGRvd25NZW51TGFiZWxQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB0eXBlIHsgSFRNTEF0dHJpYnV0ZXMgfSBmcm9tICJ2dWUiCmltcG9ydCB7IHJlYWN0aXZlT21pdCB9IGZyb20gIkB2dWV1c2UvY29yZSIKaW1wb3J0IHsgRHJvcGRvd25NZW51TGFiZWwsIHVzZUZvcndhcmRQcm9wcyB9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPERyb3Bkb3duTWVudUxhYmVsUHJvcHMgJiB7IGNsYXNzPzogSFRNTEF0dHJpYnV0ZXNbImNsYXNzIl0sIGluc2V0PzogYm9vbGVhbiB9PigpCgpjb25zdCBkZWxlZ2F0ZWRQcm9wcyA9IHJlYWN0aXZlT21pdChwcm9wcywgImNsYXNzIiwgImluc2V0IikKY29uc3QgZm9yd2FyZGVkUHJvcHMgPSB1c2VGb3J3YXJkUHJvcHMoZGVsZWdhdGVkUHJvcHMpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEcm9wZG93bk1lbnVMYWJlbAogICAgZGF0YS1zbG90PSJkcm9wZG93bi1tZW51LWxhYmVsIgogICAgOmRhdGEtaW5zZXQ9Imluc2V0ID8gJycgOiB1bmRlZmluZWQiCiAgICB2LWJpbmQ9ImZvcndhcmRlZFByb3BzIgogICAgOmNsYXNzPSJjbigncHgtMiBweS0xLjUgdGV4dC1zbSBmb250LW1lZGl1bSBkYXRhLVtpbnNldF06cGwtOCcsIHByb3BzLmNsYXNzKSIKICA+CiAgICA8c2xvdCAvPgogIDwvRHJvcGRvd25NZW51TGFiZWw+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { DropdownMenuLabelProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { DropdownMenuLabel, useForwardProps } from "reka-ui"
+import { cn } from "@/lib/utils"
+
+const props = defineProps<DropdownMenuLabelProps & { class?: HTMLAttributes["class"], inset?: boolean }>()
+
+const delegatedProps = reactiveOmit(props, "class", "inset")
+const forwardedProps = useForwardProps(delegatedProps)
+</script>
+
+<template>
+  <DropdownMenuLabel
+    data-slot="dropdown-menu-label"
+    :data-inset="inset ? '' : undefined"
+    v-bind="forwardedProps"
+    :class="cn('px-2 py-1.5 text-sm font-medium data-[inset]:pl-8', props.class)"
+  >
+    <slot />
+  </DropdownMenuLabel>
+</template>

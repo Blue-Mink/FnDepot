@@ -1,1 +1,191 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEV5ZSwgRXllT2ZmIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IENyZWRlbnRpYWxUcmFuc2ZlckhpbnQgZnJvbSAiQC9jb21wb25lbnRzL0NyZWRlbnRpYWxUcmFuc2ZlckhpbnQudnVlIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7CiAgU2VsZWN0LAogIFNlbGVjdENvbnRlbnQsCiAgU2VsZWN0SXRlbSwKICBTZWxlY3RUcmlnZ2VyLAogIFNlbGVjdFZhbHVlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9zZWxlY3QiOwppbXBvcnQgdHlwZSB7IERuc0NyZWRlbnRpYWxUcmFuc2ZlclN1Z2dlc3Rpb24gfSBmcm9tICJAL2xpYi9kbnMtY3JlZGVudGlhbC1icmlkZ2UiOwppbXBvcnQgdHlwZSB7IFByb3ZpZGVyLCBQcm92aWRlckZpZWxkIH0gZnJvbSAiLi9tb2RlbCI7CgpkZWZpbmVQcm9wczx7CiAgY3JlZGVudGlhbFRyYW5zZmVyRGVzY3JpcHRpb246IHN0cmluZzsKICBjcmVkZW50aWFsVHJhbnNmZXJTdWdnZXN0aW9uOiBEbnNDcmVkZW50aWFsVHJhbnNmZXJTdWdnZXN0aW9uIHwgbnVsbDsKICBlbmFibGVGaWVsZEVkaXRpbmc6IChrZXk6IHN0cmluZykgPT4gdm9pZDsKICBmaWVsZFZpc2liaWxpdHk6IFJlY29yZDxzdHJpbmcsIGJvb2xlYW4+OwogIGZvcm1hdERvbWFpbkZpZWxkOiAoKSA9PiB2b2lkOwogIGdldEZpZWxkQXV0b2NvbXBsZXRlOiAoZmllbGQ6IFByb3ZpZGVyRmllbGQpID0+IHN0cmluZzsKICBnZXRGaWVsZERlc2NyaXB0aW9uOiAoZmllbGQ6IFByb3ZpZGVyRmllbGQpID0+IHN0cmluZzsKICBnZXRGaWVsZERvbUlkOiAoaW5kZXg6IG51bWJlcikgPT4gc3RyaW5nOwogIGdldEZpZWxkSW5wdXROYW1lOiAoaW5kZXg6IG51bWJlcikgPT4gc3RyaW5nOwogIGlzRmllbGRFZGl0UmVhZHk6IChrZXk6IHN0cmluZykgPT4gYm9vbGVhbjsKICBpc1RyYW5zZmVyU291cmNlTG9hZGluZzogYm9vbGVhbjsKICBwcm92aWRlckNvbmZpZzogUmVjb3JkPHN0cmluZywgc3RyaW5nPjsKICBwcm92aWRlckRlZjogUHJvdmlkZXIgfCBudWxsOwogIHNldEZpZWxkVmFsdWU6IChrZXk6IHN0cmluZywgdmFsdWU6IHN0cmluZykgPT4gdm9pZDsKICB0b2dnbGVGaWVsZFZpc2liaWxpdHk6IChrZXk6IHN0cmluZykgPT4gdm9pZDsKICB0cmFuc2ZlclNvdXJjZVNjb3BlTGFiZWw6IHN0cmluZzsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgYXBwbHlDcmVkZW50aWFsVHJhbnNmZXI6IFtdOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDx0ZW1wbGF0ZSB2LWlmPSJwcm92aWRlckRlZiI+CiAgICA8ZGl2CiAgICAgIHYtaWY9ImNyZWRlbnRpYWxUcmFuc2ZlclN1Z2dlc3Rpb24iCiAgICAgIGNsYXNzPSJwLTQgc206cC02IGdyaWQgZ2FwLTIgc206Z3JpZC1jb2xzLVsyMDBweF8xZnJdIG1kOmdyaWQtY29scy1bMjQwcHhfMWZyXSBpdGVtcy1zdGFydCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy1tdXRlZC8xMCIKICAgID4KICAgICAgPGRpdiBjbGFzcz0ic3BhY2UteS0xIG10LTEuNSI+CiAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLmNyZWRlbnRpYWxSZXVzZSIpIH19CiAgICAgICAgPC9kaXY+CiAgICAgICAgPHAgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGhpZGRlbiBzbTpibG9jayBwci00Ij4KICAgICAgICAgIHt7IHQoImFkbWluLmRkbnMuY3JlZGVudGlhbFJldXNlSGludCIpIH19CiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3M9InctZnVsbCBtYXgtdy0yeGwgc3BhY2UteS0yIj4KICAgICAgICA8Q3JlZGVudGlhbFRyYW5zZmVySGludAogICAgICAgICAgOmFjdGlvbi1sYWJlbD0iCiAgICAgICAgICAgIHQoJ2FkbWluLmRkbnMuY3JlZGVudGlhbEZpbGxBY3Rpb24nLCB7CiAgICAgICAgICAgICAgc2NvcGU6IHRyYW5zZmVyU291cmNlU2NvcGVMYWJlbCwKICAgICAgICAgICAgfSkKICAgICAgICAgICIKICAgICAgICAgIDpkZXNjcmlwdGlvbj0iY3JlZGVudGlhbFRyYW5zZmVyRGVzY3JpcHRpb24iCiAgICAgICAgICA6ZmllbGRzPSIKICAgICAgICAgICAgY3JlZGVudGlhbFRyYW5zZmVyU3VnZ2VzdGlvbi5maWxsYWJsZUZpZWxkcy5tYXAoCiAgICAgICAgICAgICAgKGZpZWxkKSA9PiBmaWVsZC50YXJnZXRLZXksCiAgICAgICAgICAgICkKICAgICAgICAgICIKICAgICAgICAgIDpsb2FkaW5nPSJpc1RyYW5zZmVyU291cmNlTG9hZGluZyIKICAgICAgICAgIDpzb3VyY2UtbGFiZWw9ImAke3RyYW5zZmVyU291cmNlU2NvcGVMYWJlbH0gwrcgJHtjcmVkZW50aWFsVHJhbnNmZXJTdWdnZXN0aW9uLmJyaWRnZUxhYmVsfWAiCiAgICAgICAgICBAYXBwbHk9ImVtaXQoJ2FwcGx5Q3JlZGVudGlhbFRyYW5zZmVyJykiCiAgICAgICAgLz4KCiAgICAgICAgPHAgY2xhc3M9InRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTpoaWRkZW4gbXQtMS41Ij4KICAgICAgICAgIHt7IHQoImFkbWluLmRkbnMuY3JlZGVudGlhbFJldXNlSGludCIpIH19CiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxkaXYKICAgICAgdi1mb3I9IihmaWVsZCwgaW5kZXgpIGluIHByb3ZpZGVyRGVmLmZpZWxkcyIKICAgICAgOmtleT0iZmllbGQua2V5IgogICAgICBjbGFzcz0icC00IHNtOnAtNiBncmlkIGdhcC0yIHNtOmdyaWQtY29scy1bMjAwcHhfMWZyXSBtZDpncmlkLWNvbHMtWzI0MHB4XzFmcl0gaXRlbXMtc3RhcnQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctbXV0ZWQvMTAiCiAgICA+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMSBtdC0xLjUiPgogICAgICAgIDxMYWJlbAogICAgICAgICAgOmZvcj0iZ2V0RmllbGREb21JZChpbmRleCkiCiAgICAgICAgICBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSIKICAgICAgICA+CiAgICAgICAgICB7eyBmaWVsZC5sYWJlbCB9fQogICAgICAgICAgPHNwYW4gdi1pZj0iZmllbGQucmVxdWlyZWQgIT09IGZhbHNlIiBjbGFzcz0idGV4dC1kZXN0cnVjdGl2ZSI+CiAgICAgICAgICAgICoKICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L0xhYmVsPgogICAgICAgIDxwCiAgICAgICAgICB2LWlmPSJnZXRGaWVsZERlc2NyaXB0aW9uKGZpZWxkKSIKICAgICAgICAgIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBsZWFkaW5nLXJlbGF4ZWQgaGlkZGVuIHNtOmJsb2NrIHByLTQiCiAgICAgICAgPgogICAgICAgICAge3sgZ2V0RmllbGREZXNjcmlwdGlvbihmaWVsZCkgfX0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzcz0idy1mdWxsIG1heC13LW1kIHNwYWNlLXktMiI+CiAgICAgICAgPFNlbGVjdAogICAgICAgICAgdi1pZj0iZmllbGQudHlwZSA9PT0gJ3NlbGVjdCcgJiYgZmllbGQub3B0aW9ucyIKICAgICAgICAgIDptb2RlbFZhbHVlPSIKICAgICAgICAgICAgcHJvdmlkZXJDb25maWdbZmllbGQua2V5XSB8fAogICAgICAgICAgICAoZmllbGQub3B0aW9ucyAmJiBmaWVsZC5vcHRpb25zWzBdPy52YWx1ZSkgfHwKICAgICAgICAgICAgJycKICAgICAgICAgICIKICAgICAgICAgIEB1cGRhdGU6bW9kZWxWYWx1ZT0iCiAgICAgICAgICAgICh2YWw6IGFueSkgPT4gc2V0RmllbGRWYWx1ZShmaWVsZC5rZXksIFN0cmluZyh2YWwgPz8gJycpKQogICAgICAgICAgIgogICAgICAgID4KICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyIGNsYXNzPSJ3LWZ1bGwiIDppZD0iZ2V0RmllbGREb21JZChpbmRleCkiPgogICAgICAgICAgICA8U2VsZWN0VmFsdWUgLz4KICAgICAgICAgIDwvU2VsZWN0VHJpZ2dlcj4KICAgICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgICA8U2VsZWN0SXRlbQogICAgICAgICAgICAgIHYtZm9yPSJvcHQgaW4gZmllbGQub3B0aW9ucyIKICAgICAgICAgICAgICA6a2V5PSJvcHQudmFsdWUiCiAgICAgICAgICAgICAgOnZhbHVlPSJvcHQudmFsdWUiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyBvcHQubGFiZWwgfX0KICAgICAgICAgICAgPC9TZWxlY3RJdGVtPgogICAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICAgIDwvU2VsZWN0PgoKICAgICAgICA8ZGl2IHYtZWxzZS1pZj0iZmllbGQudHlwZSA9PT0gJ3Bhc3N3b3JkJyIgY2xhc3M9InJlbGF0aXZlIj4KICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICA6aWQ9ImdldEZpZWxkRG9tSWQoaW5kZXgpIgogICAgICAgICAgICA6bmFtZT0iZ2V0RmllbGRJbnB1dE5hbWUoaW5kZXgpIgogICAgICAgICAgICA6dHlwZT0iZmllbGRWaXNpYmlsaXR5W2ZpZWxkLmtleV0gPyAndGV4dCcgOiAncGFzc3dvcmQnIgogICAgICAgICAgICA6cGxhY2Vob2xkZXI9ImZpZWxkLnBsYWNlaG9sZGVyIgogICAgICAgICAgICA6YXV0b2NvbXBsZXRlPSJnZXRGaWVsZEF1dG9jb21wbGV0ZShmaWVsZCkiCiAgICAgICAgICAgIDpyZWFkb25seT0iIWlzRmllbGRFZGl0UmVhZHkoZmllbGQua2V5KSIKICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJwcm92aWRlckNvbmZpZ1tmaWVsZC5rZXldIHx8ICcnIgogICAgICAgICAgICBjbGFzcz0icHItMTAiCiAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9IgogICAgICAgICAgICAgICh2YWx1ZTogc3RyaW5nIHwgbnVtYmVyKSA9PgogICAgICAgICAgICAgICAgc2V0RmllbGRWYWx1ZShmaWVsZC5rZXksIFN0cmluZyh2YWx1ZSkpCiAgICAgICAgICAgICIKICAgICAgICAgICAgQGZvY3VzPSJlbmFibGVGaWVsZEVkaXRpbmcoZmllbGQua2V5KSIKICAgICAgICAgICAgQHBvaW50ZXJkb3duPSJlbmFibGVGaWVsZEVkaXRpbmcoZmllbGQua2V5KSIKICAgICAgICAgIC8+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgOmFyaWEtbGFiZWw9IgogICAgICAgICAgICAgIGZpZWxkVmlzaWJpbGl0eVtmaWVsZC5rZXldCiAgICAgICAgICAgICAgICA/IHQoJ2NvbW1vbi5oaWRlU2VjcmV0JykKICAgICAgICAgICAgICAgIDogdCgnY29tbW9uLnNob3dTZWNyZXQnKQogICAgICAgICAgICAiCiAgICAgICAgICAgIGNsYXNzPSJhYnNvbHV0ZSByaWdodC0zIHRvcC0xLzIgLXRyYW5zbGF0ZS15LTEvMiB0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIHRyYW5zaXRpb24tY29sb3JzIgogICAgICAgICAgICBAY2xpY2s9InRvZ2dsZUZpZWxkVmlzaWJpbGl0eShmaWVsZC5rZXkpIgogICAgICAgICAgPgogICAgICAgICAgICA8Y29tcG9uZW50CiAgICAgICAgICAgICAgOmlzPSJmaWVsZFZpc2liaWxpdHlbZmllbGQua2V5XSA/IEV5ZU9mZiA6IEV5ZSIKICAgICAgICAgICAgICBjbGFzcz0iaC00IHctNCIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8SW5wdXQKICAgICAgICAgIHYtZWxzZQogICAgICAgICAgOmlkPSJnZXRGaWVsZERvbUlkKGluZGV4KSIKICAgICAgICAgIDpuYW1lPSJnZXRGaWVsZElucHV0TmFtZShpbmRleCkiCiAgICAgICAgICA6dHlwZT0iZmllbGQudHlwZSIKICAgICAgICAgIDpwbGFjZWhvbGRlcj0iZmllbGQucGxhY2Vob2xkZXIiCiAgICAgICAgICA6YXV0b2NvbXBsZXRlPSJnZXRGaWVsZEF1dG9jb21wbGV0ZShmaWVsZCkiCiAgICAgICAgICA6cmVhZG9ubHk9IiFpc0ZpZWxkRWRpdFJlYWR5KGZpZWxkLmtleSkiCiAgICAgICAgICA6bW9kZWwtdmFsdWU9InByb3ZpZGVyQ29uZmlnW2ZpZWxkLmtleV0gfHwgJyciCiAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSIKICAgICAgICAgICAgKHZhbHVlOiBzdHJpbmcgfCBudW1iZXIpID0+IHNldEZpZWxkVmFsdWUoZmllbGQua2V5LCBTdHJpbmcodmFsdWUpKQogICAgICAgICAgIgogICAgICAgICAgQGZvY3VzPSJlbmFibGVGaWVsZEVkaXRpbmcoZmllbGQua2V5KSIKICAgICAgICAgIEBwb2ludGVyZG93bj0iZW5hYmxlRmllbGRFZGl0aW5nKGZpZWxkLmtleSkiCiAgICAgICAgICBAYmx1cj0iZmllbGQua2V5ID09PSAnZG9tYWluJyAmJiBmb3JtYXREb21haW5GaWVsZCgpIgogICAgICAgIC8+CgogICAgICAgIDxwCiAgICAgICAgICB2LWlmPSJnZXRGaWVsZERlc2NyaXB0aW9uKGZpZWxkKSIKICAgICAgICAgIGNsYXNzPSJ0ZXh0LVsxMXB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQgc206aGlkZGVuIG10LTEuNSIKICAgICAgICA+CiAgICAgICAgICB7eyBnZXRGaWVsZERlc2NyaXB0aW9uKGZpZWxkKSB9fQogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L3RlbXBsYXRlPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { Eye, EyeOff } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import CredentialTransferHint from "@/components/CredentialTransferHint.vue";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import type { DnsCredentialTransferSuggestion } from "@/lib/dns-credential-bridge";
+import type { Provider, ProviderField } from "./model";
+
+defineProps<{
+  credentialTransferDescription: string;
+  credentialTransferSuggestion: DnsCredentialTransferSuggestion | null;
+  enableFieldEditing: (key: string) => void;
+  fieldVisibility: Record<string, boolean>;
+  formatDomainField: () => void;
+  getFieldAutocomplete: (field: ProviderField) => string;
+  getFieldDescription: (field: ProviderField) => string;
+  getFieldDomId: (index: number) => string;
+  getFieldInputName: (index: number) => string;
+  isFieldEditReady: (key: string) => boolean;
+  isTransferSourceLoading: boolean;
+  providerConfig: Record<string, string>;
+  providerDef: Provider | null;
+  setFieldValue: (key: string, value: string) => void;
+  toggleFieldVisibility: (key: string) => void;
+  transferSourceScopeLabel: string;
+}>();
+
+const emit = defineEmits<{
+  applyCredentialTransfer: [];
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <template v-if="providerDef">
+    <div
+      v-if="credentialTransferSuggestion"
+      class="p-4 sm:p-6 grid gap-2 sm:grid-cols-[200px_1fr] md:grid-cols-[240px_1fr] items-start transition-colors hover:bg-muted/10"
+    >
+      <div class="space-y-1 mt-1.5">
+        <div class="text-sm font-medium">
+          {{ t("admin.ddns.credentialReuse") }}
+        </div>
+        <p class="text-xs text-muted-foreground hidden sm:block pr-4">
+          {{ t("admin.ddns.credentialReuseHint") }}
+        </p>
+      </div>
+
+      <div class="w-full max-w-2xl space-y-2">
+        <CredentialTransferHint
+          :action-label="
+            t('admin.ddns.credentialFillAction', {
+              scope: transferSourceScopeLabel,
+            })
+          "
+          :description="credentialTransferDescription"
+          :fields="
+            credentialTransferSuggestion.fillableFields.map(
+              (field) => field.targetKey,
+            )
+          "
+          :loading="isTransferSourceLoading"
+          :source-label="`${transferSourceScopeLabel} · ${credentialTransferSuggestion.bridgeLabel}`"
+          @apply="emit('applyCredentialTransfer')"
+        />
+
+        <p class="text-[11px] text-muted-foreground sm:hidden mt-1.5">
+          {{ t("admin.ddns.credentialReuseHint") }}
+        </p>
+      </div>
+    </div>
+
+    <div
+      v-for="(field, index) in providerDef.fields"
+      :key="field.key"
+      class="p-4 sm:p-6 grid gap-2 sm:grid-cols-[200px_1fr] md:grid-cols-[240px_1fr] items-start transition-colors hover:bg-muted/10"
+    >
+      <div class="space-y-1 mt-1.5">
+        <Label
+          :for="getFieldDomId(index)"
+          class="text-sm font-medium flex items-center gap-1"
+        >
+          {{ field.label }}
+          <span v-if="field.required !== false" class="text-destructive">
+            *
+          </span>
+        </Label>
+        <p
+          v-if="getFieldDescription(field)"
+          class="text-xs text-muted-foreground leading-relaxed hidden sm:block pr-4"
+        >
+          {{ getFieldDescription(field) }}
+        </p>
+      </div>
+
+      <div class="w-full max-w-md space-y-2">
+        <Select
+          v-if="field.type === 'select' && field.options"
+          :modelValue="
+            providerConfig[field.key] ||
+            (field.options && field.options[0]?.value) ||
+            ''
+          "
+          @update:modelValue="
+            (val: any) => setFieldValue(field.key, String(val ?? ''))
+          "
+        >
+          <SelectTrigger class="w-full" :id="getFieldDomId(index)">
+            <SelectValue />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem
+              v-for="opt in field.options"
+              :key="opt.value"
+              :value="opt.value"
+            >
+              {{ opt.label }}
+            </SelectItem>
+          </SelectContent>
+        </Select>
+
+        <div v-else-if="field.type === 'password'" class="relative">
+          <Input
+            :id="getFieldDomId(index)"
+            :name="getFieldInputName(index)"
+            :type="fieldVisibility[field.key] ? 'text' : 'password'"
+            :placeholder="field.placeholder"
+            :autocomplete="getFieldAutocomplete(field)"
+            :readonly="!isFieldEditReady(field.key)"
+            :model-value="providerConfig[field.key] || ''"
+            class="pr-10"
+            @update:model-value="
+              (value: string | number) =>
+                setFieldValue(field.key, String(value))
+            "
+            @focus="enableFieldEditing(field.key)"
+            @pointerdown="enableFieldEditing(field.key)"
+          />
+          <button
+            type="button"
+            :aria-label="
+              fieldVisibility[field.key]
+                ? t('common.hideSecret')
+                : t('common.showSecret')
+            "
+            class="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"
+            @click="toggleFieldVisibility(field.key)"
+          >
+            <component
+              :is="fieldVisibility[field.key] ? EyeOff : Eye"
+              class="h-4 w-4"
+            />
+          </button>
+        </div>
+
+        <Input
+          v-else
+          :id="getFieldDomId(index)"
+          :name="getFieldInputName(index)"
+          :type="field.type"
+          :placeholder="field.placeholder"
+          :autocomplete="getFieldAutocomplete(field)"
+          :readonly="!isFieldEditReady(field.key)"
+          :model-value="providerConfig[field.key] || ''"
+          @update:model-value="
+            (value: string | number) => setFieldValue(field.key, String(value))
+          "
+          @focus="enableFieldEditing(field.key)"
+          @pointerdown="enableFieldEditing(field.key)"
+          @blur="field.key === 'domain' && formatDomainField()"
+        />
+
+        <p
+          v-if="getFieldDescription(field)"
+          class="text-[11px] text-muted-foreground sm:hidden mt-1.5"
+        >
+          {{ getFieldDescription(field) }}
+        </p>
+      </div>
+    </div>
+  </template>
+</template>

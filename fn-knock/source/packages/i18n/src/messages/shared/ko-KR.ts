@@ -1,1 +1,124 @@
-ZXhwb3J0IGNvbnN0IGtvS1JTaGFyZWQgPSB7CiAgYmluYXJ5RG93bmxvYWQ6IHsKICAgIGN1cnJlbnRQbGF0Zm9ybTogIu2YhOyerCDtlIzrnqvtj7wiLAogICAgc3VwcG9ydGVkOiAi7KeA7JuQIiwKICAgIHVuc3VwcG9ydGVkOiAi66+47KeA7JuQIiwKICAgIHJlc291cmNlU3RhdHVzOiAi66as7IaM7IqkIOyDge2DnCIsCiAgICByZWFkeUxhYmVsOiAi7IKs7JqpIOqwgOuKpSIsCiAgICBwZW5kaW5nTGFiZWw6ICLsgqzsmqkg67aI6rCAIiwKICAgIGRvd25sb2FkUHJvZ3Jlc3M6ICLri6TsmrTroZzrk5wg7KeE7ZaJ66WgIiwKICAgIGVycm9yUHJlZml4OiAi7Jik66WYOiAiLAogICAgZG93bmxvYWRCdXR0b246ICLrpqzshozsiqQg64uk7Jq066Gc65OcIiwKICAgIHJlZG93bmxvYWQ6ICLri6Tsi5wg64uk7Jq066Gc65OcIiwKICAgIHJlZG93bmxvYWRDb25maXJtVGl0bGU6ICLsnbQg66as7IaM7Iqk66W8IOuLpOyLnCDri6TsmrTroZzrk5ztlZjsi5zqsqDsirXri4jquYw/IiwKICAgIHJlZG93bmxvYWRDb25maXJtRGVzY3JpcHRpb246ICLquLDsobQg7YyM7J287J2EIOuNruyWtOyUgeuLiOuLpC4iLAogICAgY29uZmlybVJlZG93bmxvYWQ6ICLri6Tsi5wg64uk7Jq066Gc65OcIiwKICAgIGRlbGV0ZTogIuyCreygnCIsCiAgICBkZWxldGVDb25maXJtVGl0bGU6ICLsnbQg66as7IaM7Iqk66W8IOyCreygnO2VmOyLnOqyoOyKteuLiOq5jD8iLAogICAgZGVsZXRlQ29uZmlybURlc2NyaXB0aW9uOiAi7IKs7Jqp7ZWY6riwIOyghOyXkCDri6Tsi5wg64uk7Jq066Gc65Oc7ZW07JW8IO2VqeuLiOuLpC4iLAogICAgY29uZmlybURlbGV0ZTogIuyCreygnCIsCiAgICBkb3dubG9hZGluZzogIuuLpOyatOuhnOuTnCDspJHsnoXri4jri6QuIOyeoOyLnCDquLDri6TroKQg7KO87IS47JqULi4uIiwKICAgIGNhbmNlbFRhc2s6ICLsnpHsl4Ug7Leo7IaMIiwKICB9LAogIGRhdGFTaGFyZUZpbGVQaWNrZXI6IHsKICAgIHRpdGxlOiAiRk5PU+yXkOyEnCDtjIzsnbwg7ISg7YOdIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAi7JWg7ZSM66as7LyA7J207IWYIOujqO2KuCDrlJTroInthLDrpqzsl5DshJwg7J297J2EIOyImCDsnojripQg7YyM7J287J2EIOyEoO2Dne2VmOyEuOyalC4iLAogICAgZGlyZWN0b3J5TGFiZWw6ICLslaDtlIzrpqzsvIDsnbTshZgg7YyM7J28IiwKICAgIGFsZXJ0VGl0bGU6ICLrlJTroInthLDrpqzrpbwg7J297KeAIOuqu+2WiOyKteuLiOuLpC4iLAogICAgdW5hdmFpbGFibGVEZXNjcmlwdGlvbjoKICAgICAgIuuUlOugie2EsOumrOyXkCDslYTsp4Eg7KCR6re87ZWgIOyImCDsl4bsirXri4jri6QuIOyVseydtCDshKTsuZjrkJjslrQg7J6I6rOgIOqzteycoCDrlJTroInthLDrpqzqsIAg7IOd7ISx65CY7JeI64qU7KeAIO2ZleyduO2VmOyEuOyalC4iLAogICAgY29uZmlybVRleHQ6ICLsnbQg7YyM7J28IOyCrOyaqSIsCiAgICBhdmFpbGFibGVEZXNjcmlwdGlvbjogIuyCrOyaqSDqsIDriqXtlZwg7YyM7J28IHtjb3VudH3qsJwiLAogICAgbm9NYXRjaGVkRmlsZXM6ICLsnbzsuZjtlZjripQg7YyM7J287J20IOyXhuyKteuLiOuLpC4iLAogICAgbm9NYXRjaGVkRGVzY3JpcHRpb246CiAgICAgICLri6Trpbgg7YKk7JuM65Oc66W8IOyCrOyaqe2VmOqxsOuCmCDrlJTroInthLDrpqwg66qp66Gd7J2EIOyDiOuhnCDqs6DsuZjshLjsmpQuIiwKICAgIGVtcHR5VGl0bGU6ICLqs7XsnKAg65SU66CJ7YSw66as7JeQIOyCrOyaqSDqsIDriqXtlZwg7YyM7J287J20IOyXhuyKteuLiOuLpC4iLAogICAgZW1wdHlEZXNjcmlwdGlvbjoKICAgICAgIuydtCDrlJTroInthLDrpqzsl5DripQg7J287LmY7ZWY64qUIO2MjOydvOydtCDsl4bsirXri4jri6QuIOyngOybkOuQmOuKlCDtjIzsnbwg7ZiV7Iud7J2EIOy2lOqwgO2VnCDtm4Qg64uk7IucIOyEoO2Dne2VmOyEuOyalC4iLAogICAgbm9FeHRlbnNpb246ICLtmZXsnqXsnpAg7JeG7J2MIiwKICB9LAogIGNlcnRTb3VyY2VGaWVsZDogewogICAgdXBsb2FkRnJvbVBob25lOiAi7Zy064yA7KCE7ZmU7JeQ7IScIOyXheuhnOuTnCIsCiAgICB1cGxvYWRGcm9tQ29tcHV0ZXI6ICLsu7Ttk6jthLDsl5DshJwg7JeF66Gc65OcIiwKICAgIHVwbG9hZEZpbGU6ICLtjIzsnbwg7JeF66Gc65OcIiwKICAgIGNob29zZVNvdXJjZVRpdGxlOiAi7YyM7J28IOqwgOyguOyYrCDsnITsuZgg7ISg7YOdIiwKICAgIGNob29zZVNvdXJjZURlc2NyaXB0aW9uOgogICAgICAi6rCA7KC47JisIOychOy5mOulvCDshKDtg53tlZwg64uk7J2MIHtsYWJlbH0g7YyM7J287J2EIOu2iOufrOyYpOyEuOyalC4iLAogICAgbG9jYWxGaWxlRGVzY3JpcHRpb246CiAgICAgICLsnbQg6riw6riw7JeQ7IScIHt0eXBlc30g7YyM7J287J2EIOyEoO2Dne2VmOuptCDsnpDrj5nsnLzroZwg67aI65+s7Ji164uI64ukLiIsCiAgICBjaG9vc2VGcm9tRm5vczogIkZOT1Psl5DshJwg7ISg7YOdIiwKICAgIHNoYXJlZEZpbGVEZXNjcmlwdGlvbjoKICAgICAgIntzaGFyZU5hbWV9IOujqO2KuCDrlJTroInthLDrpqzsl5DshJwg7LWc64yAIDPri6jqs4Qg7JWE656Y7J2YIOq4sOyhtCDtjIzsnbzsnYQg67aI65+s7Ji164uI64ukLiIsCiAgICBwaWNrZXJUaXRsZTogIkZOT1Psl5DshJwge2xhYmVsfSDshKDtg50iLAogICAgcGlja2VyRGVzY3JpcHRpb246CiAgICAgICLrqLzsoIAg7J247Kad7IScIO2MjOydvOydhCDslaDtlIzrpqzsvIDsnbTshZgg642w7J207YSwID4gZm4ta25vY2vsnLzroZwg7Jiu6riw7IS47JqULiIsCiAgICByZWFkRmlsZTogIuydtCDtjIzsnbwg67aI65+s7Jik6riwIiwKICB9LAogIGxvZ1ZpZXdlcjogewogICAgdGl0bGU6ICLrn7Dtg4DsnoQg66Gc6re4IiwKICAgIGVtcHR5VGV4dDogIuyVhOyngSDroZzqt7jqsIAg7JeG7Iq164uI64ukLiIsCiAgICBsaW5lQ291bnQ6ICJ7Y291bnR97KSEIiwKICB9LAogIGRldGFpbERpYWxvZzogewogICAgY2xvc2U6ICLri6vquLAiLAogICAgY29weUxvZzogIuuhnOq3uCDrs7XsgqwiLAogICAgY29weVN1Y2Nlc3M6ICLroZzqt7jqsIAg67O17IKs65CY7JeI7Iq164uI64ukLiIsCiAgICBjb3B5VW52ZXJpZmllZDogIuuhnOq3uCDrs7Xsgqzrpbwg7Iuc64+E7ZaI7Iq164uI64ukLiIsCiAgICBjb3B5VW52ZXJpZmllZERlc2NyaXB0aW9uOiAi66Gc6re46rCAIOuzteyCrOuQmOyXiOyKteuLiOuLpC4iLAogICAgY29weUZhaWxlZDogIuuhnOq3uOulvCDrs7XsgqztlZjsp4Ag66q77ZaI7Iq164uI64ukLiIsCiAgICBtYW51YWxDb3B5SGludDoKICAgICAgIuydtCDtjpjsnbTsp4DripQg7KCc7ZWc65CcIO2ZmOqyveyXkOyEnCDsi6Ttlokg7KSR7J28IOyImCDsnojsirXri4jri6QuIOyImOuPmeycvOuhnCDrs7XsgqztlZjshLjsmpQuIiwKICB9LAogIGlubGluZUNvbW1lbnRFZGl0b3I6IHsKICAgIHBsYWNlaG9sZGVyOiAi66mU66qoIOyeheugpS4uLiIsCiAgICBlZGl0OiAi66mU66qoIOyImOyglSIsCiAgICBzYXZlOiAi66mU66qoIOyggOyepSIsCiAgICBjYW5jZWw6ICLtjrjsp5Eg7Leo7IaMIiwKICAgIHJlcXVpcmVkOiAi66mU66qo66W8IOyeheugpe2VmOyEuOyalC4iLAogICAgdXBkYXRlRmFpbGVkOiAi66mU66qo66W8IOyImOygle2VmOyngCDrqrvtlojsirXri4jri6QuIiwKICB9LAogIGRlZmF1bHRSb3V0ZUNvbmZpcm06IHsKICAgIGNsZWFyVGl0bGU6ICLquLDrs7gg65287Jqw7Yq466W8IO2VtOygnO2VmOyLnOqyoOyKteuLiOq5jD8iLAogICAgc2V0VGl0bGU6ICLquLDrs7gg65287Jqw7Yq466GcIOyEpOygle2VmOyLnOqyoOyKteuLiOq5jD8iLAogICAgY2xlYXJGbm9zRGVzY3JpcHRpb246CiAgICAgICJ7cG9ydH0g7Y+s7Yq4IOyEnOu5hOyKpOydmCDquLDrs7gg65287Jqw7Yq466W8IO2VtOygnO2VmOuptCBGTk9TIOq4sOuzuCDtla3rqqnsl5Ag7JiB7Zal7J2EIOykhCDsiJgg7J6I7Iq164uI64ukLiIsCiAgICBjbGVhckRlc2NyaXB0aW9uOgogICAgICAi7ZW07KCcIO2bhOyXkOuKlCDquLDrs7gg65287Jqw7Yq46rCAIOyXhuyKteuLiOuLpC4g6rK966Gc6rCAIOydvOy5mO2VmOyngCDslYrripQg7JqU7LKt7J20IOyYiOyDgeuMgOuhnCDsoITri6zrkJjsp4Ag7JWK7J2EIOyImCDsnojsirXri4jri6QuIiwKICAgIHNldERlc2NyaXB0aW9uOgogICAgICAi7ZiE7J6sIOq4sOuzuCDrnbzsmrDtirjripQge3BvcnR9IO2PrO2KuCDshJzruYTsiqTrpbwg6rCA66as7YK164uI64ukLiDri6Trpbgg65287Jqw7Yq466GcIOuwlOq+uOuptCBGTk9TIOq4sOuzuCDtla3rqqnsl5Ag7JiB7Zal7J2EIOykhCDsiJgg7J6I7Iq164uI64ukLiIsCiAgfSwKICBjZXJ0Rm9ybTogewogICAgc3NsQ2VydDogIlNTTCDsnbjspp3shJwiLAogICAgcHJpdmF0ZUtleTogIuqwnOyduCDtgqQiLAogIH0sCiAgcGFnZWRUYWJsZUZvb3RlcjogewogICAgdG90YWw6ICJ7dG90YWx9IHtpdGVtVGV4dH0iLAogICAgcmVjb3JkczogIuqwnCIsCiAgICBwYWdlU2l6ZU9wdGlvbjogIntjb3VudH0g7ZaJIiwKICB9LAogIGRuc0NyZWRlbnRpYWxCcmlkZ2U6IHsKICAgIHByb3ZpZGVyczogewogICAgICBjbG91ZGZsYXJlOiAiQ2xvdWRmbGFyZSIsCiAgICAgIGFsaWRuczogIkFsaWJhYmEgQ2xvdWQgRE5TIiwKICAgICAgZG5zcG9kOiAiRE5TUG9kIiwKICAgICAgdGVuY2VudGNsb3VkOiAiVGVuY2VudCBDbG91ZCBETlMiLAogICAgICBlZGdlb25lOiAiVGVuY2VudCBDbG91ZCBFZGdlT25lIiwKICAgICAgZWRnZW9uZUNuYW1lOiAiVGVuY2VudCBDbG91ZCBFZGdlT25lKENOQU1FIOyXsOqysCkiLAogICAgICBnb2RhZGR5OiAiR29EYWRkeSIsCiAgICAgIHBvcmtidW46ICJQb3JrYnVuIiwKICAgICAgZHludjY6ICJkeW52NiIsCiAgICAgIGR1Y2tkbnM6ICJEdWNrRE5TIiwKICAgIH0sCiAgfSwKICBwcm94eVRhcmdldElucHV0RmllbGQ6IHsKICAgIGhpbnQ6ICLsmbzsqr3sl5DshJwg7ZSE66Gc7Yag7L2c7J2EIOyEoO2Dne2VmOqzoCDsmKTrpbjsqr3sl5DshJwgSVDsmYAg7Y+s7Yq466W8IOyeheugpe2VmOyEuOyalC4g7Y+s7Yq466W8IOyDneuete2VmOuptCDtlITroZzthqDsvZwg6riw67O4IO2PrO2KuOuhnCDsnpDrj5kg7LGE7JuM7KeR64uI64ukLiIsCiAgICBzdWdnZXN0aW9uc0xhYmVsOiAi64yA7IOBIOyjvOyGjCDsoJzslYgiLAogIH0sCiAgY29uZmlnQ29sbGFwc2libGVDYXJkOiB7CiAgICBlZGl0Q29uZmlnOiAi7ISk7KCVIOyImOyglSIsCiAgfSwKICBzdHJlYW1Qcm90b2NvbE11bHRpU2VsZWN0OiB7CiAgICBhcmlhTGFiZWw6ICLsoITshqEg7ZSE66Gc7Yag7L2cIiwKICB9LAp9Owo=
+export const koKRShared = {
+  binaryDownload: {
+    currentPlatform: "현재 플랫폼",
+    supported: "지원",
+    unsupported: "미지원",
+    resourceStatus: "리소스 상태",
+    readyLabel: "사용 가능",
+    pendingLabel: "사용 불가",
+    downloadProgress: "다운로드 진행률",
+    errorPrefix: "오류: ",
+    downloadButton: "리소스 다운로드",
+    redownload: "다시 다운로드",
+    redownloadConfirmTitle: "이 리소스를 다시 다운로드하시겠습니까?",
+    redownloadConfirmDescription: "기존 파일을 덮어씁니다.",
+    confirmRedownload: "다시 다운로드",
+    delete: "삭제",
+    deleteConfirmTitle: "이 리소스를 삭제하시겠습니까?",
+    deleteConfirmDescription: "사용하기 전에 다시 다운로드해야 합니다.",
+    confirmDelete: "삭제",
+    downloading: "다운로드 중입니다. 잠시 기다려 주세요...",
+    cancelTask: "작업 취소",
+  },
+  dataShareFilePicker: {
+    title: "FNOS에서 파일 선택",
+    description:
+      "애플리케이션 루트 디렉터리에서 읽을 수 있는 파일을 선택하세요.",
+    directoryLabel: "애플리케이션 파일",
+    alertTitle: "디렉터리를 읽지 못했습니다.",
+    unavailableDescription:
+      "디렉터리에 아직 접근할 수 없습니다. 앱이 설치되어 있고 공유 디렉터리가 생성되었는지 확인하세요.",
+    confirmText: "이 파일 사용",
+    availableDescription: "사용 가능한 파일 {count}개",
+    noMatchedFiles: "일치하는 파일이 없습니다.",
+    noMatchedDescription:
+      "다른 키워드를 사용하거나 디렉터리 목록을 새로 고치세요.",
+    emptyTitle: "공유 디렉터리에 사용 가능한 파일이 없습니다.",
+    emptyDescription:
+      "이 디렉터리에는 일치하는 파일이 없습니다. 지원되는 파일 형식을 추가한 후 다시 선택하세요.",
+    noExtension: "확장자 없음",
+  },
+  certSourceField: {
+    uploadFromPhone: "휴대전화에서 업로드",
+    uploadFromComputer: "컴퓨터에서 업로드",
+    uploadFile: "파일 업로드",
+    chooseSourceTitle: "파일 가져올 위치 선택",
+    chooseSourceDescription:
+      "가져올 위치를 선택한 다음 {label} 파일을 불러오세요.",
+    localFileDescription:
+      "이 기기에서 {types} 파일을 선택하면 자동으로 불러옵니다.",
+    chooseFromFnos: "FNOS에서 선택",
+    sharedFileDescription:
+      "{shareName} 루트 디렉터리에서 최대 3단계 아래의 기존 파일을 불러옵니다.",
+    pickerTitle: "FNOS에서 {label} 선택",
+    pickerDescription:
+      "먼저 인증서 파일을 애플리케이션 데이터 > fn-knock으로 옮기세요.",
+    readFile: "이 파일 불러오기",
+  },
+  logViewer: {
+    title: "런타임 로그",
+    emptyText: "아직 로그가 없습니다.",
+    lineCount: "{count}줄",
+  },
+  detailDialog: {
+    close: "닫기",
+    copyLog: "로그 복사",
+    copySuccess: "로그가 복사되었습니다.",
+    copyUnverified: "로그 복사를 시도했습니다.",
+    copyUnverifiedDescription: "로그가 복사되었습니다.",
+    copyFailed: "로그를 복사하지 못했습니다.",
+    manualCopyHint:
+      "이 페이지는 제한된 환경에서 실행 중일 수 있습니다. 수동으로 복사하세요.",
+  },
+  inlineCommentEditor: {
+    placeholder: "메모 입력...",
+    edit: "메모 수정",
+    save: "메모 저장",
+    cancel: "편집 취소",
+    required: "메모를 입력하세요.",
+    updateFailed: "메모를 수정하지 못했습니다.",
+  },
+  defaultRouteConfirm: {
+    clearTitle: "기본 라우트를 해제하시겠습니까?",
+    setTitle: "기본 라우트로 설정하시겠습니까?",
+    clearFnosDescription:
+      "{port} 포트 서비스의 기본 라우트를 해제하면 FNOS 기본 항목에 영향을 줄 수 있습니다.",
+    clearDescription:
+      "해제 후에는 기본 라우트가 없습니다. 경로가 일치하지 않는 요청이 예상대로 전달되지 않을 수 있습니다.",
+    setDescription:
+      "현재 기본 라우트는 {port} 포트 서비스를 가리킵니다. 다른 라우트로 바꾸면 FNOS 기본 항목에 영향을 줄 수 있습니다.",
+  },
+  certForm: {
+    sslCert: "SSL 인증서",
+    privateKey: "개인 키",
+  },
+  pagedTableFooter: {
+    total: "{total} {itemText}",
+    records: "개",
+    pageSizeOption: "{count} 행",
+  },
+  dnsCredentialBridge: {
+    providers: {
+      cloudflare: "Cloudflare",
+      alidns: "Alibaba Cloud DNS",
+      dnspod: "DNSPod",
+      tencentcloud: "Tencent Cloud DNS",
+      edgeone: "Tencent Cloud EdgeOne",
+      edgeoneCname: "Tencent Cloud EdgeOne(CNAME 연결)",
+      godaddy: "GoDaddy",
+      porkbun: "Porkbun",
+      dynv6: "dynv6",
+      duckdns: "DuckDNS",
+    },
+  },
+  proxyTargetInputField: {
+    hint: "왼쪽에서 프로토콜을 선택하고 오른쪽에서 IP와 포트를 입력하세요. 포트를 생략하면 프로토콜 기본 포트로 자동 채워집니다.",
+    suggestionsLabel: "대상 주소 제안",
+  },
+  configCollapsibleCard: {
+    editConfig: "설정 수정",
+  },
+  streamProtocolMultiSelect: {
+    ariaLabel: "전송 프로토콜",
+  },
+};

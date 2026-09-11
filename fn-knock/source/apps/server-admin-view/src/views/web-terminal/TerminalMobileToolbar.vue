@@ -1,1 +1,130 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB0eXBlIHsgQXJtZWRNb2RpZmllciB9IGZyb20gIi4vdGVybWluYWwtcnVudGltZSI7Cgp0eXBlIFRvb2xiYXJTaG9ydGN1dCA9IHsKICBpZDogc3RyaW5nOwogIGxhYmVsOiBzdHJpbmc7CiAgdmFsdWU6IHN0cmluZzsKfTsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIGFybWVkTW9kaWZpZXI6IEFybWVkTW9kaWZpZXIgfCBudWxsOwogIGFybWVkTW9kaWZpZXJMYWJlbDogc3RyaW5nOwogIGRpc2FibGVkOiBib29sZWFuOwogIGZvbnRTaXplOiBudW1iZXI7CiAga2VlcEZvY3VzZWQ6IChldmVudDogRXZlbnQpID0+IHZvaWQ7CiAgbW9kaWZpZXJMYWJlbHM6IFJlY29yZDxBcm1lZE1vZGlmaWVyLCBzdHJpbmc+OwogIG5hdmlnYXRpb25TaG9ydGN1dHM6IFRvb2xiYXJTaG9ydGN1dFtdOwogIG51ZGdlRm9udFNpemU6IChkZWx0YTogbnVtYmVyKSA9PiB2b2lkOwogIHByaW1hcnlTaG9ydGN1dHM6IFRvb2xiYXJTaG9ydGN1dFtdOwogIHJlc2V0Rm9udFNpemU6ICgpID0+IHZvaWQ7CiAgc2VuZFNob3J0Y3V0OiAodmFsdWU6IHN0cmluZykgPT4gdm9pZDsKICBzaG93OiBib29sZWFuOwogIHRvZ2dsZU1vZGlmaWVyOiAobW9kaWZpZXI6IEFybWVkTW9kaWZpZXIpID0+IHZvaWQ7Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IG1vZGlmaWVyS2V5cyA9IGNvbXB1dGVkKAogICgpID0+IE9iamVjdC5rZXlzKHByb3BzLm1vZGlmaWVyTGFiZWxzKSBhcyBBcm1lZE1vZGlmaWVyW10sCik7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYKICAgIGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBvdmVyZmxvdy14LWF1dG8gcGItMSBbc2Nyb2xsYmFyLXdpZHRoOm5vbmVdIFsmOjotd2Via2l0LXNjcm9sbGJhcl06aGlkZGVuIgogID4KICAgIDx0ZW1wbGF0ZSB2LWlmPSJzaG93Ij4KICAgICAgPEJ1dHRvbgogICAgICAgIHYtZm9yPSJpdGVtIGluIHByaW1hcnlTaG9ydGN1dHMiCiAgICAgICAgOmtleT0iaXRlbS5pZCIKICAgICAgICBzaXplPSJzbSIKICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgIGNsYXNzPSJoLTkgc2hyaW5rLTAgcm91bmRlZC14bCBib3JkZXItYm9yZGVyLzcwIGJnLWJhY2tncm91bmQvODAgcHgtMyBzaGFkb3ctbm9uZSIKICAgICAgICA6ZGlzYWJsZWQ9ImRpc2FibGVkIgogICAgICAgIEBwb2ludGVyZG93bj0ia2VlcEZvY3VzZWQiCiAgICAgICAgQGNsaWNrPSJzZW5kU2hvcnRjdXQoaXRlbS52YWx1ZSkiCiAgICAgID4KICAgICAgICB7eyBpdGVtLmxhYmVsIH19CiAgICAgIDwvQnV0dG9uPgoKICAgICAgPEJ1dHRvbgogICAgICAgIHYtZm9yPSJtb2RpZmllciBpbiBtb2RpZmllcktleXMiCiAgICAgICAgOmtleT0ibW9kaWZpZXIiCiAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICBjbGFzcz0iaC05IHNocmluay0wIHJvdW5kZWQteGwgcHgtMyBzaGFkb3ctbm9uZSB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICA6Y2xhc3M9IgogICAgICAgICAgYXJtZWRNb2RpZmllciA9PT0gbW9kaWZpZXIKICAgICAgICAgICAgPyAnYm9yZGVyLXByaW1hcnkgYmctcHJpbWFyeSB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCBob3ZlcjpiZy1wcmltYXJ5LzkwIGhvdmVyOnRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kJwogICAgICAgICAgICA6ICdib3JkZXItYm9yZGVyLzcwIGJnLWJhY2tncm91bmQvODAnCiAgICAgICAgIgogICAgICAgIDphcmlhLXByZXNzZWQ9ImFybWVkTW9kaWZpZXIgPT09IG1vZGlmaWVyIgogICAgICAgIDpkaXNhYmxlZD0iZGlzYWJsZWQiCiAgICAgICAgQHBvaW50ZXJkb3duPSJrZWVwRm9jdXNlZCIKICAgICAgICBAY2xpY2s9InRvZ2dsZU1vZGlmaWVyKG1vZGlmaWVyKSIKICAgICAgPgogICAgICAgIHt7IG1vZGlmaWVyTGFiZWxzW21vZGlmaWVyXSB9fQogICAgICA8L0J1dHRvbj4KCiAgICAgIDxCdXR0b24KICAgICAgICB2LWZvcj0iaXRlbSBpbiBuYXZpZ2F0aW9uU2hvcnRjdXRzIgogICAgICAgIDprZXk9Iml0ZW0uaWQiCiAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICBjbGFzcz0iaC05IHNocmluay0wIHJvdW5kZWQteGwgYm9yZGVyLWJvcmRlci83MCBiZy1iYWNrZ3JvdW5kLzgwIHB4LTMgc2hhZG93LW5vbmUiCiAgICAgICAgOmRpc2FibGVkPSJkaXNhYmxlZCIKICAgICAgICBAcG9pbnRlcmRvd249ImtlZXBGb2N1c2VkIgogICAgICAgIEBjbGljaz0ic2VuZFNob3J0Y3V0KGl0ZW0udmFsdWUpIgogICAgICA+CiAgICAgICAge3sgaXRlbS5sYWJlbCB9fQogICAgICA8L0J1dHRvbj4KCiAgICAgIDxkaXYgY2xhc3M9ImgtOCB3LXB4IHNocmluay0wIGJnLWJvcmRlci83MCIgLz4KCiAgICAgIDxkaXYgY2xhc3M9ImZsZXggc2hyaW5rLTAgaXRlbXMtY2VudGVyIGdhcC0xLjUiPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICBjbGFzcz0iaC05IHJvdW5kZWQteGwgcHgtMyB0ZXh0LVsxM3B4XSBmb250LXNlbWlib2xkIgogICAgICAgICAgQHBvaW50ZXJkb3duPSJrZWVwRm9jdXNlZCIKICAgICAgICAgIEBjbGljaz0ibnVkZ2VGb250U2l6ZSgtMSkiCiAgICAgICAgPgogICAgICAgICAgQS0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgY2xhc3M9ImgtOSBtaW4tdy1bNjRweF0gcm91bmRlZC14bCBweC0zIGZvbnQtbW9ubyB0ZXh0LVsxMnB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICBAcG9pbnRlcmRvd249ImtlZXBGb2N1c2VkIgogICAgICAgICAgQGNsaWNrPSJyZXNldEZvbnRTaXplIgogICAgICAgID4KICAgICAgICAgIHt7IGZvbnRTaXplIH19cHgKICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgY2xhc3M9ImgtOSByb3VuZGVkLXhsIHB4LTMgdGV4dC1bMTNweF0gZm9udC1zZW1pYm9sZCIKICAgICAgICAgIEBwb2ludGVyZG93bj0ia2VlcEZvY3VzZWQiCiAgICAgICAgICBAY2xpY2s9Im51ZGdlRm9udFNpemUoMSkiCiAgICAgICAgPgogICAgICAgICAgQSsKICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2CiAgICAgICAgdi1pZj0iYXJtZWRNb2RpZmllciIKICAgICAgICBjbGFzcz0ic2hyaW5rLTAgcm91bmRlZC14bCBib3JkZXIgYm9yZGVyLXByaW1hcnkvMzUgYmctcHJpbWFyeS8xMCBweC0zIHB5LTIgdGV4dC1bMTFweF0gZm9udC1tZWRpdW0gdGV4dC1wcmltYXJ5IgogICAgICA+CiAgICAgICAge3sKICAgICAgICAgIHQoImFkbWluLndlYlRlcm1pbmFsLm1vZGlmaWVyTG9ja2VkIiwgewogICAgICAgICAgICBtb2RpZmllcjogYXJtZWRNb2RpZmllckxhYmVsLAogICAgICAgICAgfSkKICAgICAgICB9fQogICAgICA8L2Rpdj4KICAgIDwvdGVtcGxhdGU+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import type { ArmedModifier } from "./terminal-runtime";
+
+type ToolbarShortcut = {
+  id: string;
+  label: string;
+  value: string;
+};
+
+const props = defineProps<{
+  armedModifier: ArmedModifier | null;
+  armedModifierLabel: string;
+  disabled: boolean;
+  fontSize: number;
+  keepFocused: (event: Event) => void;
+  modifierLabels: Record<ArmedModifier, string>;
+  navigationShortcuts: ToolbarShortcut[];
+  nudgeFontSize: (delta: number) => void;
+  primaryShortcuts: ToolbarShortcut[];
+  resetFontSize: () => void;
+  sendShortcut: (value: string) => void;
+  show: boolean;
+  toggleModifier: (modifier: ArmedModifier) => void;
+}>();
+
+const { t } = useI18n();
+
+const modifierKeys = computed(
+  () => Object.keys(props.modifierLabels) as ArmedModifier[],
+);
+</script>
+
+<template>
+  <div
+    class="flex items-center gap-2 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+  >
+    <template v-if="show">
+      <Button
+        v-for="item in primaryShortcuts"
+        :key="item.id"
+        size="sm"
+        variant="outline"
+        class="h-9 shrink-0 rounded-xl border-border/70 bg-background/80 px-3 shadow-none"
+        :disabled="disabled"
+        @pointerdown="keepFocused"
+        @click="sendShortcut(item.value)"
+      >
+        {{ item.label }}
+      </Button>
+
+      <Button
+        v-for="modifier in modifierKeys"
+        :key="modifier"
+        size="sm"
+        variant="outline"
+        class="h-9 shrink-0 rounded-xl px-3 shadow-none transition-colors"
+        :class="
+          armedModifier === modifier
+            ? 'border-primary bg-primary text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground'
+            : 'border-border/70 bg-background/80'
+        "
+        :aria-pressed="armedModifier === modifier"
+        :disabled="disabled"
+        @pointerdown="keepFocused"
+        @click="toggleModifier(modifier)"
+      >
+        {{ modifierLabels[modifier] }}
+      </Button>
+
+      <Button
+        v-for="item in navigationShortcuts"
+        :key="item.id"
+        size="sm"
+        variant="outline"
+        class="h-9 shrink-0 rounded-xl border-border/70 bg-background/80 px-3 shadow-none"
+        :disabled="disabled"
+        @pointerdown="keepFocused"
+        @click="sendShortcut(item.value)"
+      >
+        {{ item.label }}
+      </Button>
+
+      <div class="h-8 w-px shrink-0 bg-border/70" />
+
+      <div class="flex shrink-0 items-center gap-1.5">
+        <Button
+          size="sm"
+          variant="ghost"
+          class="h-9 rounded-xl px-3 text-[13px] font-semibold"
+          @pointerdown="keepFocused"
+          @click="nudgeFontSize(-1)"
+        >
+          A-
+        </Button>
+        <Button
+          size="sm"
+          variant="ghost"
+          class="h-9 min-w-[64px] rounded-xl px-3 font-mono text-[12px] text-muted-foreground"
+          @pointerdown="keepFocused"
+          @click="resetFontSize"
+        >
+          {{ fontSize }}px
+        </Button>
+        <Button
+          size="sm"
+          variant="ghost"
+          class="h-9 rounded-xl px-3 text-[13px] font-semibold"
+          @pointerdown="keepFocused"
+          @click="nudgeFontSize(1)"
+        >
+          A+
+        </Button>
+      </div>
+
+      <div
+        v-if="armedModifier"
+        class="shrink-0 rounded-xl border border-primary/35 bg-primary/10 px-3 py-2 text-[11px] font-medium text-primary"
+      >
+        {{
+          t("admin.webTerminal.modifierLocked", {
+            modifier: armedModifierLabel,
+          })
+        }}
+      </div>
+    </template>
+  </div>
+</template>

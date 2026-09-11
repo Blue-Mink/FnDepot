@@ -1,1 +1,192 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IENoZWNrIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHR5cGUgeyBMb2NhbGVDb2RlIH0gZnJvbSAiQGZuLWtub2NrL2kxOG4vY29yZSI7CmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwoKZGVmaW5lUHJvcHM8ewogIGlzU2F2aW5nOiBib29sZWFuOwogIG9wZW46IGJvb2xlYW47CiAgb3B0aW9uczogQXJyYXk8eyBsYWJlbDogc3RyaW5nOyB2YWx1ZTogTG9jYWxlQ29kZSB9PjsKICBzZWxlY3RlZExvY2FsZTogTG9jYWxlQ29kZTsKfT4oKTsKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgc2VsZWN0OiBbdmFsdWU6IExvY2FsZUNvZGVdOwogICJ1cGRhdGU6b3BlbiI6IFt2YWx1ZTogYm9vbGVhbl07Cn0+KCk7Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERpYWxvZyA6b3Blbj0ib3BlbiIgQHVwZGF0ZTpvcGVuPSJlbWl0KCd1cGRhdGU6b3BlbicsICRldmVudCkiPgogICAgPERpYWxvZ0NvbnRlbnQgY2xhc3M9ImdhcC0wIG92ZXJmbG93LWhpZGRlbiBwLTAgc206bWF4LXctWzQyMHB4XSI+CiAgICAgIDxEaWFsb2dIZWFkZXIgY2xhc3M9ImJvcmRlci1iIHB4LTUgcHktNCB0ZXh0LWxlZnQiPgogICAgICAgIDxEaWFsb2dUaXRsZT57eyB0KCJsb2NhbGUubGFiZWwiKSB9fTwvRGlhbG9nVGl0bGU+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgogICAgICA8ZGl2IGNsYXNzPSJkaXZpZGUteSI+CiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgdi1mb3I9Im9wdGlvbiBpbiBvcHRpb25zIgogICAgICAgICAgOmtleT0ib3B0aW9uLnZhbHVlIgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgOmNsYXNzPSJbCiAgICAgICAgICAgICdmbGV4IGgtMTQgdy1mdWxsIGl0ZW1zLWNlbnRlciBnYXAtMyBweC01IHRleHQtbGVmdCB0cmFuc2l0aW9uLWNvbG9ycycsCiAgICAgICAgICAgIHNlbGVjdGVkTG9jYWxlID09PSBvcHRpb24udmFsdWUKICAgICAgICAgICAgICA/ICdiZy1tdXRlZC85MCcKICAgICAgICAgICAgICA6ICdob3ZlcjpiZy1tdXRlZC81NScsCiAgICAgICAgICAgIGlzU2F2aW5nID8gJ2N1cnNvci1ub3QtYWxsb3dlZCBvcGFjaXR5LTYwJyA6ICcnLAogICAgICAgICAgXSIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmciCiAgICAgICAgICA6YXJpYS1jdXJyZW50PSJzZWxlY3RlZExvY2FsZSA9PT0gb3B0aW9uLnZhbHVlID8gJ3RydWUnIDogdW5kZWZpbmVkIgogICAgICAgICAgQGNsaWNrPSJlbWl0KCdzZWxlY3QnLCBvcHRpb24udmFsdWUpIgogICAgICAgID4KICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIDpjbGFzcz0iWwogICAgICAgICAgICAgICdncmlkIGgtNSB3LTUgc2hyaW5rLTAgcGxhY2UtaXRlbXMtY2VudGVyIHJvdW5kZWQtZnVsbCBib3JkZXIgdHJhbnNpdGlvbi1jb2xvcnMnLAogICAgICAgICAgICAgIHNlbGVjdGVkTG9jYWxlID09PSBvcHRpb24udmFsdWUKICAgICAgICAgICAgICAgID8gJ2JvcmRlci1lbWVyYWxkLTUwMCBiZy1lbWVyYWxkLTUwMCB0ZXh0LXdoaXRlJwogICAgICAgICAgICAgICAgOiAnYm9yZGVyLW11dGVkLWZvcmVncm91bmQvMzUnLAogICAgICAgICAgICBdIgogICAgICAgICAgPgogICAgICAgICAgICA8Q2hlY2sgdi1pZj0ic2VsZWN0ZWRMb2NhbGUgPT09IG9wdGlvbi52YWx1ZSIgY2xhc3M9ImgtMy41IHctMy41IiAvPgogICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPHNwYW4gY2xhc3M9Im1pbi13LTAgZmxleC0xIHRydW5jYXRlIHRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICB7eyBvcHRpb24ubGFiZWwgfX0KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIGNsYXNzPSJncmlkIGgtNiB3LTggc2hyaW5rLTAgcGxhY2UtaXRlbXMtY2VudGVyIG92ZXJmbG93LWhpZGRlbiByb3VuZGVkLVs1cHhdIGJnLXdoaXRlIHNoYWRvdy1zbSByaW5nLTEgcmluZy1ibGFjay8xMCIKICAgICAgICAgICAgYXJpYS1oaWRkZW49InRydWUiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxzdmcKICAgICAgICAgICAgICB2LWlmPSJvcHRpb24udmFsdWUgPT09ICd6aC1DTiciCiAgICAgICAgICAgICAgdmlld0JveD0iMCAwIDMyIDI0IgogICAgICAgICAgICAgIGNsYXNzPSJoLTYgdy04IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGRlZnM+CiAgICAgICAgICAgICAgICA8cG9seWdvbgogICAgICAgICAgICAgICAgICBpZD0ibG9jYWxlLWZsYWctY24tc3RhciIKICAgICAgICAgICAgICAgICAgcG9pbnRzPSIwLC0xIDAuMjQsLTAuMzIgMC45NiwtMC4zMSAwLjM4LDAuMTIgMC41OSwwLjgyIDAsMC40IC0wLjU5LDAuODIgLTAuMzgsMC4xMiAtMC45NiwtMC4zMSAtMC4yNCwtMC4zMiIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPC9kZWZzPgogICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSIzMiIgaGVpZ2h0PSIyNCIgZmlsbD0iI2YyM2IyZiIgLz4KICAgICAgICAgICAgICA8ZyBmaWxsPSIjZmZkZTQ1Ij4KICAgICAgICAgICAgICAgIDx1c2UKICAgICAgICAgICAgICAgICAgaHJlZj0iI2xvY2FsZS1mbGFnLWNuLXN0YXIiCiAgICAgICAgICAgICAgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYuMiA2LjMpIHNjYWxlKDMpIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDx1c2UKICAgICAgICAgICAgICAgICAgaHJlZj0iI2xvY2FsZS1mbGFnLWNuLXN0YXIiCiAgICAgICAgICAgICAgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyLjYgMy42KSBzY2FsZSgwLjk1KSIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8dXNlCiAgICAgICAgICAgICAgICAgIGhyZWY9IiNsb2NhbGUtZmxhZy1jbi1zdGFyIgogICAgICAgICAgICAgICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNC41IDYuMSkgc2NhbGUoMC45NSkiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPHVzZQogICAgICAgICAgICAgICAgICBocmVmPSIjbG9jYWxlLWZsYWctY24tc3RhciIKICAgICAgICAgICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTQuMiA5LjIpIHNjYWxlKDAuOTUpIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDx1c2UKICAgICAgICAgICAgICAgICAgaHJlZj0iI2xvY2FsZS1mbGFnLWNuLXN0YXIiCiAgICAgICAgICAgICAgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyLjEgMTEuMykgc2NhbGUoMC45NSkiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgIDxzdmcKICAgICAgICAgICAgICB2LWVsc2UtaWY9Im9wdGlvbi52YWx1ZSA9PT0gJ3poLUhhbnQnIgogICAgICAgICAgICAgIHZpZXdCb3g9IjAgMCAzMiAyNCIKICAgICAgICAgICAgICBjbGFzcz0iaC02IHctOCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxkZWZzPgogICAgICAgICAgICAgICAgPHBhdGgKICAgICAgICAgICAgICAgICAgaWQ9ImxvY2FsZS1mbGFnLWhrLXBldGFsIgogICAgICAgICAgICAgICAgICBkPSJNMCwtMC42NSBDLTEuNTUsLTMuMjUgLTAuMjUsLTUuOTUgMi4zNSwtNi4yNSBDNCwtNCAzLjA1LC0xLjQ1IDAuOCwwLjQ1IEMwLjU1LDAuMiAwLjI1LC0wLjE1IDAsLTAuNjVaIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8L2RlZnM+CiAgICAgICAgICAgICAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjI0IiBmaWxsPSIjZjQzYjJmIiAvPgogICAgICAgICAgICAgIDxnIGZpbGw9IiNmZmYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE2IDEyKSI+CiAgICAgICAgICAgICAgICA8dXNlIGhyZWY9IiNsb2NhbGUtZmxhZy1oay1wZXRhbCIgdHJhbnNmb3JtPSJyb3RhdGUoMCkiIC8+CiAgICAgICAgICAgICAgICA8dXNlIGhyZWY9IiNsb2NhbGUtZmxhZy1oay1wZXRhbCIgdHJhbnNmb3JtPSJyb3RhdGUoNzIpIiAvPgogICAgICAgICAgICAgICAgPHVzZSBocmVmPSIjbG9jYWxlLWZsYWctaGstcGV0YWwiIHRyYW5zZm9ybT0icm90YXRlKDE0NCkiIC8+CiAgICAgICAgICAgICAgICA8dXNlIGhyZWY9IiNsb2NhbGUtZmxhZy1oay1wZXRhbCIgdHJhbnNmb3JtPSJyb3RhdGUoMjE2KSIgLz4KICAgICAgICAgICAgICAgIDx1c2UgaHJlZj0iI2xvY2FsZS1mbGFnLWhrLXBldGFsIiB0cmFuc2Zvcm09InJvdGF0ZSgyODgpIiAvPgogICAgICAgICAgICAgICAgPGNpcmNsZSByPSIwLjg1IiAvPgogICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgIDxzdmcKICAgICAgICAgICAgICB2LWVsc2UtaWY9Im9wdGlvbi52YWx1ZSA9PT0gJ2tvLUtSJyIKICAgICAgICAgICAgICB2aWV3Qm94PSItNzIgLTQ4IDE0NCA5NiIKICAgICAgICAgICAgICBjbGFzcz0iaC02IHctOCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0tNzIgLTQ4aDE0NHY5NkgtNzJ6IiAvPgogICAgICAgICAgICAgIDxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSI0Ij4KICAgICAgICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICAgICAgIHRyYW5zZm9ybT0icm90YXRlKDMzLjY5MDA2NzUyNTk4KSIKICAgICAgICAgICAgICAgICAgZD0iTS01MCAtMTJ2MjRtNiAwdi0yNG02IDB2MjRtNzYgMFYxbTAgLTJ2LTExbTYgMHYxMW0wIDJ2MTFtNiAwVjFtMCAtMnYtMTEiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPHBhdGgKICAgICAgICAgICAgICAgICAgdHJhbnNmb3JtPSJyb3RhdGUoLTMzLjY5MDA2NzUyNTk4KSIKICAgICAgICAgICAgICAgICAgZD0iTS01MCAtMTJ2MjRtNiAwVjFtMCAtMnYtMTFtNiAwdjI0bTc2IDBWMW0wIC0ydi0xMW02IDB2MjRtNiAwVjFtMCAtMnYtMTEiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSgzMy42OTAwNjc1MjU5OCkiPgogICAgICAgICAgICAgICAgPHBhdGgKICAgICAgICAgICAgICAgICAgZmlsbD0iI2NkMmUzYSIKICAgICAgICAgICAgICAgICAgZD0iTTEyIDBhMTggMTggMCAxIDEgLTM2IDAgMjQgMjQgMCAxIDEgNDggMCIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8cGF0aAogICAgICAgICAgICAgICAgICBmaWxsPSIjMDA0N2EwIgogICAgICAgICAgICAgICAgICBkPSJNMCAwYTEyIDEyIDAgMSAxIDI0IDAgMjQgMjQgMCAxIDEgLTQ4IDAgMTIgMTIgMCAxIDAgMjQgMCIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgPHN2ZwogICAgICAgICAgICAgIHYtZWxzZS1pZj0ib3B0aW9uLnZhbHVlID09PSAnamEtSlAnIgogICAgICAgICAgICAgIHZpZXdCb3g9IjAgMCAzMiAyNCIKICAgICAgICAgICAgICBjbGFzcz0iaC02IHctOCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSIzMiIgaGVpZ2h0PSIyNCIgZmlsbD0iI2ZmZiIgLz4KICAgICAgICAgICAgICA8Y2lyY2xlIGN4PSIxNiIgY3k9IjEyIiByPSI1LjQiIGZpbGw9IiNiYzAwMmQiIC8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICA8c3ZnIHYtZWxzZSB2aWV3Qm94PSIwIDAgMzIgMjQiIGNsYXNzPSJoLTYgdy04Ij4KICAgICAgICAgICAgICA8cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMjQiIGZpbGw9IiNmOGY4ZjgiIC8+CiAgICAgICAgICAgICAgPGcgZmlsbD0iI2Q2MmQyZCI+CiAgICAgICAgICAgICAgICA8cmVjdCB5PSIwIiB3aWR0aD0iMzIiIGhlaWdodD0iMi4zIiAvPgogICAgICAgICAgICAgICAgPHJlY3QgeT0iNC4zIiB3aWR0aD0iMzIiIGhlaWdodD0iMi4zIiAvPgogICAgICAgICAgICAgICAgPHJlY3QgeT0iOC42IiB3aWR0aD0iMzIiIGhlaWdodD0iMi4zIiAvPgogICAgICAgICAgICAgICAgPHJlY3QgeT0iMTIuOSIgd2lkdGg9IjMyIiBoZWlnaHQ9IjIuMyIgLz4KICAgICAgICAgICAgICAgIDxyZWN0IHk9IjE3LjIiIHdpZHRoPSIzMiIgaGVpZ2h0PSIyLjMiIC8+CiAgICAgICAgICAgICAgICA8cmVjdCB5PSIyMS41IiB3aWR0aD0iMzIiIGhlaWdodD0iMi41IiAvPgogICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICA8cmVjdCB3aWR0aD0iMTQiIGhlaWdodD0iMTIuNCIgZmlsbD0iIzRiNWZiOCIgLz4KICAgICAgICAgICAgICA8ZyBmaWxsPSIjZmZmIj4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjIuMyIgY3k9IjIuMSIgcj0iMC41IiAvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iNSIgY3k9IjIuMSIgcj0iMC41IiAvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iNy43IiBjeT0iMi4xIiByPSIwLjUiIC8+CiAgICAgICAgICAgICAgICA8Y2lyY2xlIGN4PSIxMC40IiBjeT0iMi4xIiByPSIwLjUiIC8+CiAgICAgICAgICAgICAgICA8Y2lyY2xlIGN4PSIzLjY1IiBjeT0iNC42IiByPSIwLjUiIC8+CiAgICAgICAgICAgICAgICA8Y2lyY2xlIGN4PSI2LjM1IiBjeT0iNC42IiByPSIwLjUiIC8+CiAgICAgICAgICAgICAgICA8Y2lyY2xlIGN4PSI5LjA1IiBjeT0iNC42IiByPSIwLjUiIC8+CiAgICAgICAgICAgICAgICA8Y2lyY2xlIGN4PSIxMS43NSIgY3k9IjQuNiIgcj0iMC41IiAvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMi4zIiBjeT0iNy4xIiByPSIwLjUiIC8+CiAgICAgICAgICAgICAgICA8Y2lyY2xlIGN4PSI1IiBjeT0iNy4xIiByPSIwLjUiIC8+CiAgICAgICAgICAgICAgICA8Y2lyY2xlIGN4PSI3LjciIGN5PSI3LjEiIHI9IjAuNSIgLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEwLjQiIGN5PSI3LjEiIHI9IjAuNSIgLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjMuNjUiIGN5PSI5LjYiIHI9IjAuNSIgLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjYuMzUiIGN5PSI5LjYiIHI9IjAuNSIgLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjkuMDUiIGN5PSI5LjYiIHI9IjAuNSIgLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjExLjc1IiBjeT0iOS42IiByPSIwLjUiIC8+CiAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L2J1dHRvbj4KICAgICAgPC9kaXY+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Check } from "lucide-vue-next";
+import type { LocaleCode } from "@fn-knock/i18n/core";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+
+defineProps<{
+  isSaving: boolean;
+  open: boolean;
+  options: Array<{ label: string; value: LocaleCode }>;
+  selectedLocale: LocaleCode;
+}>();
+
+const emit = defineEmits<{
+  select: [value: LocaleCode];
+  "update:open": [value: boolean];
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="gap-0 overflow-hidden p-0 sm:max-w-[420px]">
+      <DialogHeader class="border-b px-5 py-4 text-left">
+        <DialogTitle>{{ t("locale.label") }}</DialogTitle>
+      </DialogHeader>
+      <div class="divide-y">
+        <button
+          v-for="option in options"
+          :key="option.value"
+          type="button"
+          :class="[
+            'flex h-14 w-full items-center gap-3 px-5 text-left transition-colors',
+            selectedLocale === option.value
+              ? 'bg-muted/90'
+              : 'hover:bg-muted/55',
+            isSaving ? 'cursor-not-allowed opacity-60' : '',
+          ]"
+          :disabled="isSaving"
+          :aria-current="selectedLocale === option.value ? 'true' : undefined"
+          @click="emit('select', option.value)"
+        >
+          <span
+            :class="[
+              'grid h-5 w-5 shrink-0 place-items-center rounded-full border transition-colors',
+              selectedLocale === option.value
+                ? 'border-emerald-500 bg-emerald-500 text-white'
+                : 'border-muted-foreground/35',
+            ]"
+          >
+            <Check v-if="selectedLocale === option.value" class="h-3.5 w-3.5" />
+          </span>
+          <span class="min-w-0 flex-1 truncate text-sm font-medium">
+            {{ option.label }}
+          </span>
+          <span
+            class="grid h-6 w-8 shrink-0 place-items-center overflow-hidden rounded-[5px] bg-white shadow-sm ring-1 ring-black/10"
+            aria-hidden="true"
+          >
+            <svg
+              v-if="option.value === 'zh-CN'"
+              viewBox="0 0 32 24"
+              class="h-6 w-8"
+            >
+              <defs>
+                <polygon
+                  id="locale-flag-cn-star"
+                  points="0,-1 0.24,-0.32 0.96,-0.31 0.38,0.12 0.59,0.82 0,0.4 -0.59,0.82 -0.38,0.12 -0.96,-0.31 -0.24,-0.32"
+                />
+              </defs>
+              <rect width="32" height="24" fill="#f23b2f" />
+              <g fill="#ffde45">
+                <use
+                  href="#locale-flag-cn-star"
+                  transform="translate(6.2 6.3) scale(3)"
+                />
+                <use
+                  href="#locale-flag-cn-star"
+                  transform="translate(12.6 3.6) scale(0.95)"
+                />
+                <use
+                  href="#locale-flag-cn-star"
+                  transform="translate(14.5 6.1) scale(0.95)"
+                />
+                <use
+                  href="#locale-flag-cn-star"
+                  transform="translate(14.2 9.2) scale(0.95)"
+                />
+                <use
+                  href="#locale-flag-cn-star"
+                  transform="translate(12.1 11.3) scale(0.95)"
+                />
+              </g>
+            </svg>
+            <svg
+              v-else-if="option.value === 'zh-Hant'"
+              viewBox="0 0 32 24"
+              class="h-6 w-8"
+            >
+              <defs>
+                <path
+                  id="locale-flag-hk-petal"
+                  d="M0,-0.65 C-1.55,-3.25 -0.25,-5.95 2.35,-6.25 C4,-4 3.05,-1.45 0.8,0.45 C0.55,0.2 0.25,-0.15 0,-0.65Z"
+                />
+              </defs>
+              <rect width="32" height="24" fill="#f43b2f" />
+              <g fill="#fff" transform="translate(16 12)">
+                <use href="#locale-flag-hk-petal" transform="rotate(0)" />
+                <use href="#locale-flag-hk-petal" transform="rotate(72)" />
+                <use href="#locale-flag-hk-petal" transform="rotate(144)" />
+                <use href="#locale-flag-hk-petal" transform="rotate(216)" />
+                <use href="#locale-flag-hk-petal" transform="rotate(288)" />
+                <circle r="0.85" />
+              </g>
+            </svg>
+            <svg
+              v-else-if="option.value === 'ko-KR'"
+              viewBox="-72 -48 144 96"
+              class="h-6 w-8"
+            >
+              <path fill="#fff" d="M-72 -48h144v96H-72z" />
+              <g fill="none" stroke="#000" stroke-width="4">
+                <path
+                  transform="rotate(33.69006752598)"
+                  d="M-50 -12v24m6 0v-24m6 0v24m76 0V1m0 -2v-11m6 0v11m0 2v11m6 0V1m0 -2v-11"
+                />
+                <path
+                  transform="rotate(-33.69006752598)"
+                  d="M-50 -12v24m6 0V1m0 -2v-11m6 0v24m76 0V1m0 -2v-11m6 0v24m6 0V1m0 -2v-11"
+                />
+              </g>
+              <g transform="rotate(33.69006752598)">
+                <path
+                  fill="#cd2e3a"
+                  d="M12 0a18 18 0 1 1 -36 0 24 24 0 1 1 48 0"
+                />
+                <path
+                  fill="#0047a0"
+                  d="M0 0a12 12 0 1 1 24 0 24 24 0 1 1 -48 0 12 12 0 1 0 24 0"
+                />
+              </g>
+            </svg>
+            <svg
+              v-else-if="option.value === 'ja-JP'"
+              viewBox="0 0 32 24"
+              class="h-6 w-8"
+            >
+              <rect width="32" height="24" fill="#fff" />
+              <circle cx="16" cy="12" r="5.4" fill="#bc002d" />
+            </svg>
+            <svg v-else viewBox="0 0 32 24" class="h-6 w-8">
+              <rect width="32" height="24" fill="#f8f8f8" />
+              <g fill="#d62d2d">
+                <rect y="0" width="32" height="2.3" />
+                <rect y="4.3" width="32" height="2.3" />
+                <rect y="8.6" width="32" height="2.3" />
+                <rect y="12.9" width="32" height="2.3" />
+                <rect y="17.2" width="32" height="2.3" />
+                <rect y="21.5" width="32" height="2.5" />
+              </g>
+              <rect width="14" height="12.4" fill="#4b5fb8" />
+              <g fill="#fff">
+                <circle cx="2.3" cy="2.1" r="0.5" />
+                <circle cx="5" cy="2.1" r="0.5" />
+                <circle cx="7.7" cy="2.1" r="0.5" />
+                <circle cx="10.4" cy="2.1" r="0.5" />
+                <circle cx="3.65" cy="4.6" r="0.5" />
+                <circle cx="6.35" cy="4.6" r="0.5" />
+                <circle cx="9.05" cy="4.6" r="0.5" />
+                <circle cx="11.75" cy="4.6" r="0.5" />
+                <circle cx="2.3" cy="7.1" r="0.5" />
+                <circle cx="5" cy="7.1" r="0.5" />
+                <circle cx="7.7" cy="7.1" r="0.5" />
+                <circle cx="10.4" cy="7.1" r="0.5" />
+                <circle cx="3.65" cy="9.6" r="0.5" />
+                <circle cx="6.35" cy="9.6" r="0.5" />
+                <circle cx="9.05" cy="9.6" r="0.5" />
+                <circle cx="11.75" cy="9.6" r="0.5" />
+              </g>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </DialogContent>
+  </Dialog>
+</template>

@@ -1,1 +1,393 @@
-dXNlIHN1cGVyOjoqOwoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBTZXJpYWxpemUsIERlc2VyaWFsaXplKV0KcHViIHN0cnVjdCBUb3RwQ3JlZGVudGlhbCB7CiAgICBwdWIgaWQ6IFN0cmluZywKICAgIHB1YiBzZWNyZXQ6IFN0cmluZywKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgY29tbWVudDogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0LCByZW5hbWUgPSAiY3JlYXRlZEF0IildCiAgICBwdWIgY3JlYXRlZF9hdDogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBhY2Nlc3Nfc2NvcGVzOiBWYWx1ZSwKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgc3ViZG9tYWluX2FjY2VzczogVmFsdWUsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgU2VyaWFsaXplLCBEZXNlcmlhbGl6ZSldCnB1YiBzdHJ1Y3QgQXV0aEFjY291bnQgewogICAgcHViIGlkOiBTdHJpbmcsCiAgICBwdWIgdXNlcm5hbWU6IFN0cmluZywKICAgICNbc2VyZGUoZGVmYXVsdCwgcmVuYW1lID0gImRpc3BsYXlOYW1lIildCiAgICBwdWIgZGlzcGxheV9uYW1lOiBTdHJpbmcsCiAgICAjW3NlcmRlKGRlZmF1bHQsIHJlbmFtZSA9ICJzb3VyY2VUb3RwSWQiKV0KICAgIHB1YiBzb3VyY2VfdG90cF9pZDogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0LCByZW5hbWUgPSAiY3JlYXRlZEF0IildCiAgICBwdWIgY3JlYXRlZF9hdDogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0LCByZW5hbWUgPSAidXBkYXRlZEF0IildCiAgICBwdWIgdXBkYXRlZF9hdDogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBhY2Nlc3Nfc2NvcGVzOiBWYWx1ZSwKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgc3ViZG9tYWluX2FjY2VzczogVmFsdWUsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgU2VyaWFsaXplLCBEZXNlcmlhbGl6ZSldCnB1YiBzdHJ1Y3QgQXV0aFBhc3N3b3JkQ3JlZGVudGlhbCB7CiAgICAjW3NlcmRlKHJlbmFtZSA9ICJhY2NvdW50SWQiKV0KICAgIHB1YiBhY2NvdW50X2lkOiBTdHJpbmcsCiAgICBwdWIgYWxnb3JpdGhtOiBTdHJpbmcsCiAgICBwdWIgc2FsdDogU3RyaW5nLAogICAgcHViIGhhc2g6IFN0cmluZywKICAgIHB1YiBuOiB1MzIsCiAgICBwdWIgcjogdTMyLAogICAgcHViIHA6IHUzMiwKICAgIHB1YiBrZXlfbGVuZ3RoOiB1c2l6ZSwKICAgIHB1YiBjcmVhdGVkX2F0OiBTdHJpbmcsCiAgICBwdWIgdXBkYXRlZF9hdDogU3RyaW5nLAp9CgovLy8gVGhlIHRocmVlIHJlY29yZHMgdXBkYXRlZCB0b2dldGhlciBieSBhY2NvdW50IHNldHVwL3Bhc3N3b3JkIGNoYW5nZXMuCiNbZGVyaXZlKENsb25lLCBEZWZhdWx0KV0KcHViKGNyYXRlKSBzdHJ1Y3QgQXV0aEFjY291bnRNdXRhdGlvblNuYXBzaG90IHsKICAgIHB1YiBhY2NvdW50czogVmVjPEF1dGhBY2NvdW50PiwKICAgIHB1YiB0b3RwczogVmVjPFRvdHBDcmVkZW50aWFsPiwKICAgIHB1YiBwYXNzd29yZDogT3B0aW9uPEF1dGhQYXNzd29yZENyZWRlbnRpYWw+LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUpXQpwdWIgc3RydWN0IExvZ2luU2Vzc2lvbiB7CiAgICAjW3NlcmRlKHJlbmFtZSA9ICJ0b3RwSWQiKV0KICAgIHB1YiB0b3RwX2lkOiBTdHJpbmcsCiAgICBwdWIgbWV0aG9kOiBTdHJpbmcsCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJjcmVkZW50aWFsSWQiKV0KICAgIHB1YiBjcmVkZW50aWFsX2lkOiBTdHJpbmcsCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJjcmVkZW50aWFsTmFtZSIpXQogICAgcHViIGNyZWRlbnRpYWxfbmFtZTogU3RyaW5nLAogICAgI1tzZXJkZShyZW5hbWUgPSAibGlua2VkVG90cE5hbWUiLCBza2lwX3NlcmlhbGl6aW5nX2lmID0gIk9wdGlvbjo6aXNfbm9uZSIpXQogICAgcHViIGxpbmtlZF90b3RwX25hbWU6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzZXJkZSgKICAgICAgICBkZWZhdWx0LAogICAgICAgIHJlbmFtZSA9ICJhY2Nlc3NTY29wZXMiLAogICAgICAgIHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIgogICAgKV0KICAgIHB1YiBhY2Nlc3Nfc2NvcGVzOiBPcHRpb248VmFsdWU+LAogICAgI1tzZXJkZSgKICAgICAgICBkZWZhdWx0LAogICAgICAgIHJlbmFtZSA9ICJzdWJkb21haW5BY2Nlc3MiLAogICAgICAgIHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIgogICAgKV0KICAgIHB1YiBzdWJkb21haW5fYWNjZXNzOiBPcHRpb248VmFsdWU+LAogICAgI1tzZXJkZShyZW5hbWUgPSAiZ3JhbnRUeXBlIiwgc2tpcF9zZXJpYWxpemluZ19pZiA9ICJPcHRpb246OmlzX25vbmUiKV0KICAgIHB1YiBncmFudF90eXBlOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2VyZGUoCiAgICAgICAgZGVmYXVsdCwKICAgICAgICByZW5hbWUgPSAicG9zdExvZ2luSXBHcmFudE1vZGUiLAogICAgICAgIHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIgogICAgKV0KICAgIHB1YiBwb3N0X2xvZ2luX2lwX2dyYW50X21vZGU6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzZXJkZSgKICAgICAgICBkZWZhdWx0LAogICAgICAgIHJlbmFtZSA9ICJwb3N0TG9naW5JcEdyYW50UmVjb3JkSWQiLAogICAgICAgIHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIgogICAgKV0KICAgIHB1YiBwb3N0X2xvZ2luX2lwX2dyYW50X3JlY29yZF9pZDogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NlcmRlKAogICAgICAgIGRlZmF1bHQsCiAgICAgICAgcmVuYW1lID0gInN0cmVhbUFjY2Vzc0V4cGlyZXNBdCIsCiAgICAgICAgc2tpcF9zZXJpYWxpemluZ19pZiA9ICJPcHRpb246OmlzX25vbmUiCiAgICApXQogICAgcHViIHN0cmVhbV9hY2Nlc3NfZXhwaXJlc19hdDogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NlcmRlKGRlZmF1bHQsIHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIildCiAgICBwdWIgY29tbWVudDogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIgaXA6IFN0cmluZywKICAgICNbc2VyZGUocmVuYW1lID0gInVzZXJBZ2VudCIpXQogICAgcHViIHVzZXJfYWdlbnQ6IFN0cmluZywKICAgICNbc2VyZGUocmVuYW1lID0gImxvZ2luVGltZSIpXQogICAgcHViIGxvZ2luX3RpbWU6IFN0cmluZywKICAgICNbc2VyZGUocmVuYW1lID0gImV4cGlyZXNBdCIsIHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIildCiAgICBwdWIgZXhwaXJlc19hdDogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJpcExvY2F0aW9uIiwgc2tpcF9zZXJpYWxpemluZ19pZiA9ICJPcHRpb246OmlzX25vbmUiKV0KICAgIHB1YiBpcF9sb2NhdGlvbjogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgU2VyaWFsaXplLCBEZXNlcmlhbGl6ZSldCnB1YiBzdHJ1Y3QgRG9ja2VyQWRtaW5QYXNzd29yZFJlY29yZCB7CiAgICBwdWIgYWxnb3JpdGhtOiBTdHJpbmcsCiAgICBwdWIgc2FsdDogU3RyaW5nLAogICAgcHViIGhhc2g6IFN0cmluZywKICAgIHB1YiBuOiB1MzIsCiAgICBwdWIgcjogdTMyLAogICAgcHViIHA6IHUzMiwKICAgIHB1YiBrZXlfbGVuZ3RoOiB1c2l6ZSwKICAgIHB1YiBjcmVhdGVkX2F0OiBTdHJpbmcsCiAgICBwdWIgdXBkYXRlZF9hdDogU3RyaW5nLAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUpXQpwdWIgc3RydWN0IERvY2tlckFkbWluU2Vzc2lvblJlY29yZCB7CiAgICBwdWIgaWQ6IFN0cmluZywKICAgIHB1YiBjcmVhdGVkX2F0OiBTdHJpbmcsCiAgICBwdWIgdXBkYXRlZF9hdDogU3RyaW5nLAogICAgcHViIGV4cGlyZXNfYXQ6IFN0cmluZywKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgdHRsX3NlY29uZHM6IGk2NCwKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgcGFzc3dvcmRfcmV2aXNpb246IFN0cmluZywKICAgIHB1YiBpcDogU3RyaW5nLAogICAgcHViIHVzZXJfYWdlbnQ6IFN0cmluZywKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBTZXJpYWxpemUsIERlc2VyaWFsaXplKV0KcHViIHN0cnVjdCBMb2dpbkF0dGVtcHRSZWNvcmQgewogICAgcHViIGlwOiBTdHJpbmcsCiAgICBwdWIgYXR0ZW1wdHM6IHUzMiwKICAgIHB1YiBsYXN0X2F0dGVtcHRfYXQ6IFN0cmluZywKICAgIHB1YiBibG9ja2VkX3VudGlsOiBpNjQsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgU2VyaWFsaXplKV0KcHViIHN0cnVjdCBEb2NrZXJBZG1pblJlc2V0U3VtbWFyeSB7CiAgICBwdWIgcGFzc3dvcmRfY2xlYXJlZDogYm9vbCwKICAgIHB1YiBzZXNzaW9uc19jbGVhcmVkOiB1c2l6ZSwKICAgIHB1YiBsb2dpbl9mYWlsdXJlc19jbGVhcmVkOiB1c2l6ZSwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBTZXJpYWxpemUpXQpwdWIgc3RydWN0IExvZ2luQmFja29mZlN0YXR1cyB7CiAgICBwdWIgaXA6IFN0cmluZywKICAgIHB1YiBhdHRlbXB0czogaTY0LAogICAgcHViIGJsb2NrZWQ6IGJvb2wsCiAgICAjW3NlcmRlKHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIiwgcmVuYW1lID0gInJldHJ5QWZ0ZXIiKV0KICAgIHB1YiByZXRyeV9hZnRlcjogT3B0aW9uPGk2ND4sCiAgICAjW3NlcmRlKHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIiwgcmVuYW1lID0gImJsb2NrZWRVbnRpbCIpXQogICAgcHViIGJsb2NrZWRfdW50aWw6IE9wdGlvbjxpNjQ+LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUsIFBhcnRpYWxFcSwgRXEpXQpwdWIgc3RydWN0IFdoaXRlbGlzdFJlY29yZCB7CiAgICBwdWIgaWQ6IFN0cmluZywKICAgIHB1YiBpcDogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0ID0gImRlZmF1bHRfd2hpdGVsaXN0X3RhcmdldF90eXBlIiwgcmVuYW1lID0gInRhcmdldFR5cGUiKV0KICAgIHB1YiB0YXJnZXRfdHlwZTogU3RyaW5nLAogICAgI1tzZXJkZShyZW5hbWUgPSAiZXhwaXJlQXQiKV0KICAgIHB1YiBleHBpcmVfYXQ6IE9wdGlvbjxpNjQ+LAogICAgI1tzZXJkZShkZWZhdWx0ID0gImRlZmF1bHRfd2hpdGVsaXN0X3NvdXJjZSIpXQogICAgcHViIHNvdXJjZTogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0LCByZW5hbWUgPSAiY3JlYXRlZEF0IildCiAgICBwdWIgY3JlYXRlZF9hdDogaTY0LAogICAgI1tzZXJkZShkZWZhdWx0ID0gImRlZmF1bHRfd2hpdGVsaXN0X3N0YXR1cyIpXQogICAgcHViIHN0YXR1czogU3RyaW5nLAogICAgI1tzZXJkZShza2lwX3NlcmlhbGl6aW5nX2lmID0gIk9wdGlvbjo6aXNfbm9uZSIpXQogICAgcHViIGNvbW1lbnQ6IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzZXJkZShza2lwX3NlcmlhbGl6aW5nX2lmID0gIk9wdGlvbjo6aXNfbm9uZSIsIHJlbmFtZSA9ICJpcExvY2F0aW9uIildCiAgICBwdWIgaXBfbG9jYXRpb246IE9wdGlvbjxTdHJpbmc+LAogICAgI1tzZXJkZShza2lwX3NlcmlhbGl6aW5nX2lmID0gIk9wdGlvbjo6aXNfbm9uZSIsIHJlbmFtZSA9ICJyZXNvbHZlZFRhcmdldHMiKV0KICAgIHB1YiByZXNvbHZlZF90YXJnZXRzOiBPcHRpb248VmVjPFN0cmluZz4+LAogICAgI1tzZXJkZSgKICAgICAgICBza2lwX3NlcmlhbGl6aW5nX2lmID0gIk9wdGlvbjo6aXNfbm9uZSIsCiAgICAgICAgcmVuYW1lID0gImNoZWNrSW50ZXJ2YWxNaW51dGVzIgogICAgKV0KICAgIHB1YiBjaGVja19pbnRlcnZhbF9taW51dGVzOiBPcHRpb248aTY0PiwKICAgICNbc2VyZGUoc2tpcF9zZXJpYWxpemluZ19pZiA9ICJPcHRpb246OmlzX25vbmUiLCByZW5hbWUgPSAibGFzdENoZWNrZWRBdCIpXQogICAgcHViIGxhc3RfY2hlY2tlZF9hdDogT3B0aW9uPGk2ND4sCiAgICAjW3NlcmRlKHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIiwgcmVuYW1lID0gImxhc3RSZXNvbHZlZEF0IildCiAgICBwdWIgbGFzdF9yZXNvbHZlZF9hdDogT3B0aW9uPGk2ND4sCiAgICAjW3NlcmRlKHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIiwgcmVuYW1lID0gInJlc29sdmVTdGF0dXMiKV0KICAgIHB1YiByZXNvbHZlX3N0YXR1czogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NlcmRlKHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIiwgcmVuYW1lID0gInJlc29sdmVNZXNzYWdlIildCiAgICBwdWIgcmVzb2x2ZV9tZXNzYWdlOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBTZXJpYWxpemUsIERlc2VyaWFsaXplKV0KcHViIHN0cnVjdCBXaGl0ZWxpc3RDb25jcmV0ZVRhcmdldCB7CiAgICAjW3NlcmRlKHJlbmFtZSA9ICJyZWNvcmRJZCIpXQogICAgcHViIHJlY29yZF9pZDogU3RyaW5nLAogICAgI1tzZXJkZShyZW5hbWUgPSAicmVjb3JkVGFyZ2V0IildCiAgICBwdWIgcmVjb3JkX3RhcmdldDogU3RyaW5nLAogICAgI1tzZXJkZShyZW5hbWUgPSAicmVjb3JkVGFyZ2V0VHlwZSIpXQogICAgcHViIHJlY29yZF90YXJnZXRfdHlwZTogU3RyaW5nLAogICAgcHViIHNvdXJjZTogU3RyaW5nLAogICAgcHViIHRhcmdldDogU3RyaW5nLAogICAgI1tzZXJkZShyZW5hbWUgPSAidGFyZ2V0VHlwZSIpXQogICAgcHViIHRhcmdldF90eXBlOiBTdHJpbmcsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgU2VyaWFsaXplLCBEZXNlcmlhbGl6ZSwgUGFydGlhbEVxLCBFcSldCnB1YiBzdHJ1Y3QgV2hpdGVsaXN0UmVnaW9uSW5wdXQgewogICAgcHViIHByb3ZpbmNlOiBTdHJpbmcsCiAgICAjW3NlcmRlKGRlZmF1bHQsIHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIildCiAgICBwdWIgcXVlcnlfY2l0eTogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NlcmRlKGRlZmF1bHQsIHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIildCiAgICBwdWIgb3BlcmF0b3I6IE9wdGlvbjxjcmF0ZTo6Y2lkcjo6Q2lkck9wZXJhdG9yPiwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBTZXJpYWxpemUsIERlc2VyaWFsaXplLCBQYXJ0aWFsRXEsIEVxKV0KcHViIHN0cnVjdCBXaGl0ZWxpc3RSZWdpb25Hcm91cFJlY29yZCB7CiAgICBwdWIgaWQ6IFN0cmluZywKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgcmVnaW9uczogVmVjPFdoaXRlbGlzdFJlZ2lvbklucHV0PiwKICAgICNbc2VyZGUoZGVmYXVsdCwgc2tpcF9zZXJpYWxpemluZ19pZiA9ICJWZWM6OmlzX2VtcHR5IildCiAgICBwdWIgY2lkcnM6IFZlYzxTdHJpbmc+LAogICAgI1tzZXJkZShkZWZhdWx0LCByZW5hbWUgPSAicG9saWN5SWQiLCBza2lwX3NlcmlhbGl6aW5nX2lmID0gIlN0cmluZzo6aXNfZW1wdHkiKV0KICAgIHB1YiBwb2xpY3lfaWQ6IFN0cmluZywKICAgICNbc2VyZGUoZGVmYXVsdCwgc2tpcF9zZXJpYWxpemluZ19pZiA9ICJPcHRpb246OmlzX25vbmUiKV0KICAgIHB1YiBwb2xpY3k6IE9wdGlvbjxWYWx1ZT4sCiAgICAjW3NlcmRlKGRlZmF1bHQsIHJlbmFtZSA9ICJzb3VyY2VDaWRyQ291bnQiKV0KICAgIHB1YiBzb3VyY2VfY2lkcl9jb3VudDogdXNpemUsCiAgICAjW3NlcmRlKGRlZmF1bHQsIHJlbmFtZSA9ICJyYW5nZUNvdW50IildCiAgICBwdWIgcmFuZ2VfY291bnQ6IHVzaXplLAogICAgI1tzZXJkZShyZW5hbWUgPSAiZXhwaXJlQXQiKV0KICAgIHB1YiBleHBpcmVfYXQ6IE9wdGlvbjxpNjQ+LAogICAgI1tzZXJkZShkZWZhdWx0ID0gImRlZmF1bHRfd2hpdGVsaXN0X3NvdXJjZSIpXQogICAgcHViIHNvdXJjZTogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0LCByZW5hbWUgPSAiY3JlYXRlZEF0IildCiAgICBwdWIgY3JlYXRlZF9hdDogaTY0LAogICAgI1tzZXJkZShkZWZhdWx0LCByZW5hbWUgPSAidXBkYXRlZEF0IildCiAgICBwdWIgdXBkYXRlZF9hdDogaTY0LAogICAgI1tzZXJkZShkZWZhdWx0ID0gImRlZmF1bHRfd2hpdGVsaXN0X3N0YXR1cyIpXQogICAgcHViIHN0YXR1czogU3RyaW5nLAogICAgI1tzZXJkZShza2lwX3NlcmlhbGl6aW5nX2lmID0gIk9wdGlvbjo6aXNfbm9uZSIpXQogICAgcHViIGNvbW1lbnQ6IE9wdGlvbjxTdHJpbmc+LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFNlcmlhbGl6ZSldCnB1YiBzdHJ1Y3QgV2hpdGVsaXN0UmVnaW9uR3JvdXBTdW1tYXJ5IHsKICAgIHB1YiBpZDogU3RyaW5nLAogICAgcHViIHJlZ2lvbnM6IFZlYzxXaGl0ZWxpc3RSZWdpb25JbnB1dD4sCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJleHBpcmVBdCIpXQogICAgcHViIGV4cGlyZV9hdDogT3B0aW9uPGk2ND4sCiAgICBwdWIgc291cmNlOiBTdHJpbmcsCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJjcmVhdGVkQXQiKV0KICAgIHB1YiBjcmVhdGVkX2F0OiBpNjQsCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJ1cGRhdGVkQXQiKV0KICAgIHB1YiB1cGRhdGVkX2F0OiBpNjQsCiAgICBwdWIgc3RhdHVzOiBTdHJpbmcsCiAgICAjW3NlcmRlKHNraXBfc2VyaWFsaXppbmdfaWYgPSAiT3B0aW9uOjppc19ub25lIildCiAgICBwdWIgY29tbWVudDogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJjaWRyQ291bnQiKV0KICAgIHB1YiBjaWRyX2NvdW50OiB1c2l6ZSwKfQoKaW1wbCBXaGl0ZWxpc3RSZWNvcmQgewogICAgcHViIGZuIHRhcmdldF90eXBlKCZzZWxmKSAtPiAmc3RyIHsKICAgICAgICBtYXRjaCBzZWxmLnRhcmdldF90eXBlLmFzX3N0cigpIHsKICAgICAgICAgICAgImNpZHIiID0+ICJjaWRyIiwKICAgICAgICAgICAgImNuYW1lIiA9PiAiY25hbWUiLAogICAgICAgICAgICBfID0+ICJpcCIsCiAgICAgICAgfQogICAgfQoKICAgIHB1YiBmbiBpc19hY3RpdmUoJnNlbGYpIC0+IGJvb2wgewogICAgICAgIHNlbGYuc3RhdHVzID09ICJhY3RpdmUiCiAgICB9CgogICAgcHViIGZuIGNvbmNyZXRlX3RhcmdldHMoJnNlbGYpIC0+IFZlYzxXaGl0ZWxpc3RDb25jcmV0ZVRhcmdldD4gewogICAgICAgIG1hdGNoIHNlbGYudGFyZ2V0X3R5cGUoKSB7CiAgICAgICAgICAgICJjaWRyIiA9PiB2ZWMhW3NlbGYuY29uY3JldGVfdGFyZ2V0KCZzZWxmLmlwLCAiY2lkciIpXSwKICAgICAgICAgICAgImNuYW1lIiA9PiBzZWxmCiAgICAgICAgICAgICAgICAucmVzb2x2ZWRfdGFyZ2V0cwogICAgICAgICAgICAgICAgLmNsb25lKCkKICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCiAgICAgICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgICAgIC5maWx0ZXJfbWFwKHx0YXJnZXR8IHsKICAgICAgICAgICAgICAgICAgICBsZXQgbm9ybWFsaXplZCA9IG5vcm1hbGl6ZV9pcCgmdGFyZ2V0KTsKICAgICAgICAgICAgICAgICAgICAoIW5vcm1hbGl6ZWQuaXNfZW1wdHkoKSkudGhlbl9zb21lKG5vcm1hbGl6ZWQpCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgLmNvbGxlY3Q6OjxCVHJlZVNldDxfPj4oKQogICAgICAgICAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgICAgICAgICAubWFwKHx0YXJnZXR8IHNlbGYuY29uY3JldGVfdGFyZ2V0KCZ0YXJnZXQsICJpcCIpKQogICAgICAgICAgICAgICAgLmNvbGxlY3QoKSwKICAgICAgICAgICAgXyA9PiB2ZWMhW3NlbGYuY29uY3JldGVfdGFyZ2V0KCZzZWxmLmlwLCAiaXAiKV0sCiAgICAgICAgfQogICAgfQoKICAgIGZuIGNvbmNyZXRlX3RhcmdldCgmc2VsZiwgdGFyZ2V0OiAmc3RyLCB0YXJnZXRfdHlwZTogJnN0cikgLT4gV2hpdGVsaXN0Q29uY3JldGVUYXJnZXQgewogICAgICAgIFdoaXRlbGlzdENvbmNyZXRlVGFyZ2V0IHsKICAgICAgICAgICAgcmVjb3JkX2lkOiBzZWxmLmlkLmNsb25lKCksCiAgICAgICAgICAgIHJlY29yZF90YXJnZXQ6IHNlbGYuaXAuY2xvbmUoKSwKICAgICAgICAgICAgcmVjb3JkX3RhcmdldF90eXBlOiBzZWxmLnRhcmdldF90eXBlKCkudG9fc3RyaW5nKCksCiAgICAgICAgICAgIHNvdXJjZTogaWYgc2VsZi5zb3VyY2UgPT0gImF1dG8iIHsKICAgICAgICAgICAgICAgICJhdXRvIi50b19zdHJpbmcoKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgIm1hbnVhbCIudG9fc3RyaW5nKCkKICAgICAgICAgICAgfSwKICAgICAgICAgICAgdGFyZ2V0OiB0YXJnZXQudG9fc3RyaW5nKCksCiAgICAgICAgICAgIHRhcmdldF90eXBlOiB0YXJnZXRfdHlwZS50b19zdHJpbmcoKSwKICAgICAgICB9CiAgICB9Cn0KCmltcGwgV2hpdGVsaXN0UmVnaW9uR3JvdXBSZWNvcmQgewogICAgcHViIGZuIGlzX2FjdGl2ZSgmc2VsZikgLT4gYm9vbCB7CiAgICAgICAgc2VsZi5zdGF0dXMgPT0gImFjdGl2ZSIKICAgIH0KCiAgICBwdWIgZm4gc3VtbWFyeSgmc2VsZikgLT4gV2hpdGVsaXN0UmVnaW9uR3JvdXBTdW1tYXJ5IHsKICAgICAgICBXaGl0ZWxpc3RSZWdpb25Hcm91cFN1bW1hcnkgewogICAgICAgICAgICBpZDogc2VsZi5pZC5jbG9uZSgpLAogICAgICAgICAgICByZWdpb25zOiBzZWxmLnJlZ2lvbnMuY2xvbmUoKSwKICAgICAgICAgICAgZXhwaXJlX2F0OiBzZWxmLmV4cGlyZV9hdCwKICAgICAgICAgICAgc291cmNlOiBzZWxmLnNvdXJjZS5jbG9uZSgpLAogICAgICAgICAgICBjcmVhdGVkX2F0OiBzZWxmLmNyZWF0ZWRfYXQsCiAgICAgICAgICAgIHVwZGF0ZWRfYXQ6IHNlbGYudXBkYXRlZF9hdCwKICAgICAgICAgICAgc3RhdHVzOiBzZWxmLnN0YXR1cy5jbG9uZSgpLAogICAgICAgICAgICBjb21tZW50OiBzZWxmLmNvbW1lbnQuY2xvbmUoKSwKICAgICAgICAgICAgY2lkcl9jb3VudDogaWYgc2VsZi5zb3VyY2VfY2lkcl9jb3VudCA+IDAgewogICAgICAgICAgICAgICAgc2VsZi5zb3VyY2VfY2lkcl9jb3VudAogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgc2VsZi5jaWRycy5sZW4oKQogICAgICAgICAgICB9LAogICAgICAgIH0KICAgIH0KCiAgICBwdWIgZm4gY29uY3JldGVfdGFyZ2V0cygmc2VsZikgLT4gVmVjPFdoaXRlbGlzdENvbmNyZXRlVGFyZ2V0PiB7CiAgICAgICAgc2VsZi5wb2xpY3koKQogICAgICAgICAgICAubWFwKHxwb2xpY3l8IHBvbGljeS50b19jaWRycygpKQogICAgICAgICAgICAudW53cmFwX29yX2Vsc2UofHwgc2VsZi5jaWRycy5jbG9uZSgpKQogICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgLm1hcCh8Y2lkcnwgV2hpdGVsaXN0Q29uY3JldGVUYXJnZXQgewogICAgICAgICAgICAgICAgcmVjb3JkX2lkOiBzZWxmLmlkLmNsb25lKCksCiAgICAgICAgICAgICAgICByZWNvcmRfdGFyZ2V0OiBzZWxmLmlkLmNsb25lKCksCiAgICAgICAgICAgICAgICByZWNvcmRfdGFyZ2V0X3R5cGU6ICJjaWRyIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgIHNvdXJjZTogc2VsZi5zb3VyY2UuY2xvbmUoKSwKICAgICAgICAgICAgICAgIHRhcmdldDogY2lkciwKICAgICAgICAgICAgICAgIHRhcmdldF90eXBlOiAiY2lkciIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5jb2xsZWN0KCkKICAgIH0KCiAgICBwdWIgZm4gcG9saWN5KCZzZWxmKSAtPiBPcHRpb248Y3JhdGU6OmNpZHI6OkNvbXBpbGVkSXBTZXQ+IHsKICAgICAgICBzZWxmLnBvbGljeV9yZXN1bHQoKS5vaygpCiAgICB9CgogICAgcHViIGZuIHBvbGljeV9yZXN1bHQoJnNlbGYpIC0+IFJlc3VsdDxjcmF0ZTo6Y2lkcjo6Q29tcGlsZWRJcFNldCwgU3RyaW5nPiB7CiAgICAgICAgaWYgbGV0IFNvbWUodmFsdWUpID0gc2VsZi5wb2xpY3kuYXNfcmVmKCkgewogICAgICAgICAgICBsZXQgcG9saWN5ID0KICAgICAgICAgICAgICAgIGNyYXRlOjpjaWRyOjpDb21waWxlZElwU2V0Ojpmcm9tX3RyYW5zcG9ydF92YWx1ZSh2YWx1ZSk/LmludG9fY3VycmVudF9mb3JtYXQoKTsKICAgICAgICAgICAgaWYgIXNlbGYucG9saWN5X2lkLnRyaW0oKS5pc19lbXB0eSgpICYmIHNlbGYucG9saWN5X2lkICE9IHBvbGljeS5pZCB7CiAgICAgICAgICAgICAgICByZXR1cm4gRXJyKGZvcm1hdCEoCiAgICAgICAgICAgICAgICAgICAgInBvbGljeSByZWZlcmVuY2UgbWlzbWF0Y2g6IGV4cGVjdGVkIHt9LCBnb3Qge30iLAogICAgICAgICAgICAgICAgICAgIHNlbGYucG9saWN5X2lkLCBwb2xpY3kuaWQKICAgICAgICAgICAgICAgICkpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBPayhwb2xpY3kpOwogICAgICAgIH0KICAgICAgICBjcmF0ZTo6Y2lkcjo6Y29tcGlsZV9pcF9zZXQoJnNlbGYuY2lkcnMpCiAgICB9Cn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgUGFydGlhbEVxKV0KcHViIHN0cnVjdCBUcmFmZmljRGVsdGFQb2ludCB7CiAgICBwdWIgdHM6IGk2NCwKICAgIHB1YiBkZWx0YTogZjY0LAp9CgojW2Rlcml2ZShDbG9uZSwgRGVidWcsIFBhcnRpYWxFcSldCnB1YiBzdHJ1Y3QgVHJhZmZpY1NuYXBzaG90UmVjb3JkIHsKICAgIHB1YiBob3N0OiBPcHRpb248U3RyaW5nPiwKICAgIHB1YiBzdHJlYW06IE9wdGlvbjxTdHJpbmc+LAogICAgcHViIHRvdGFsX2luOiBmNjQsCiAgICBwdWIgdG90YWxfb3V0OiBmNjQsCiAgICBwdWIgZXJyb3JfNXh4OiBmNjQsCn0K
+use super::*;
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
+pub struct TotpCredential {
+    pub id: String,
+    pub secret: String,
+    #[serde(default)]
+    pub comment: String,
+    #[serde(default, rename = "createdAt")]
+    pub created_at: String,
+    #[serde(default)]
+    pub access_scopes: Value,
+    #[serde(default)]
+    pub subdomain_access: Value,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
+pub struct AuthAccount {
+    pub id: String,
+    pub username: String,
+    #[serde(default, rename = "displayName")]
+    pub display_name: String,
+    #[serde(default, rename = "sourceTotpId")]
+    pub source_totp_id: String,
+    #[serde(default, rename = "createdAt")]
+    pub created_at: String,
+    #[serde(default, rename = "updatedAt")]
+    pub updated_at: String,
+    #[serde(default)]
+    pub access_scopes: Value,
+    #[serde(default)]
+    pub subdomain_access: Value,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
+pub struct AuthPasswordCredential {
+    #[serde(rename = "accountId")]
+    pub account_id: String,
+    pub algorithm: String,
+    pub salt: String,
+    pub hash: String,
+    pub n: u32,
+    pub r: u32,
+    pub p: u32,
+    pub key_length: usize,
+    pub created_at: String,
+    pub updated_at: String,
+}
+
+/// The three records updated together by account setup/password changes.
+#[derive(Clone, Default)]
+pub(crate) struct AuthAccountMutationSnapshot {
+    pub accounts: Vec<AuthAccount>,
+    pub totps: Vec<TotpCredential>,
+    pub password: Option<AuthPasswordCredential>,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
+pub struct LoginSession {
+    #[serde(rename = "totpId")]
+    pub totp_id: String,
+    pub method: String,
+    #[serde(rename = "credentialId")]
+    pub credential_id: String,
+    #[serde(rename = "credentialName")]
+    pub credential_name: String,
+    #[serde(rename = "linkedTotpName", skip_serializing_if = "Option::is_none")]
+    pub linked_totp_name: Option<String>,
+    #[serde(
+        default,
+        rename = "accessScopes",
+        skip_serializing_if = "Option::is_none"
+    )]
+    pub access_scopes: Option<Value>,
+    #[serde(
+        default,
+        rename = "subdomainAccess",
+        skip_serializing_if = "Option::is_none"
+    )]
+    pub subdomain_access: Option<Value>,
+    #[serde(rename = "grantType", skip_serializing_if = "Option::is_none")]
+    pub grant_type: Option<String>,
+    #[serde(
+        default,
+        rename = "postLoginIpGrantMode",
+        skip_serializing_if = "Option::is_none"
+    )]
+    pub post_login_ip_grant_mode: Option<String>,
+    #[serde(
+        default,
+        rename = "postLoginIpGrantRecordId",
+        skip_serializing_if = "Option::is_none"
+    )]
+    pub post_login_ip_grant_record_id: Option<String>,
+    #[serde(
+        default,
+        rename = "streamAccessExpiresAt",
+        skip_serializing_if = "Option::is_none"
+    )]
+    pub stream_access_expires_at: Option<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub comment: Option<String>,
+    pub ip: String,
+    #[serde(rename = "userAgent")]
+    pub user_agent: String,
+    #[serde(rename = "loginTime")]
+    pub login_time: String,
+    #[serde(rename = "expiresAt", skip_serializing_if = "Option::is_none")]
+    pub expires_at: Option<String>,
+    #[serde(rename = "ipLocation", skip_serializing_if = "Option::is_none")]
+    pub ip_location: Option<String>,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
+pub struct DockerAdminPasswordRecord {
+    pub algorithm: String,
+    pub salt: String,
+    pub hash: String,
+    pub n: u32,
+    pub r: u32,
+    pub p: u32,
+    pub key_length: usize,
+    pub created_at: String,
+    pub updated_at: String,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
+pub struct DockerAdminSessionRecord {
+    pub id: String,
+    pub created_at: String,
+    pub updated_at: String,
+    pub expires_at: String,
+    #[serde(default)]
+    pub ttl_seconds: i64,
+    #[serde(default)]
+    pub password_revision: String,
+    pub ip: String,
+    pub user_agent: String,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
+pub struct LoginAttemptRecord {
+    pub ip: String,
+    pub attempts: u32,
+    pub last_attempt_at: String,
+    pub blocked_until: i64,
+}
+
+#[derive(Clone, Debug, Serialize)]
+pub struct DockerAdminResetSummary {
+    pub password_cleared: bool,
+    pub sessions_cleared: usize,
+    pub login_failures_cleared: usize,
+}
+
+#[derive(Clone, Debug, Serialize)]
+pub struct LoginBackoffStatus {
+    pub ip: String,
+    pub attempts: i64,
+    pub blocked: bool,
+    #[serde(skip_serializing_if = "Option::is_none", rename = "retryAfter")]
+    pub retry_after: Option<i64>,
+    #[serde(skip_serializing_if = "Option::is_none", rename = "blockedUntil")]
+    pub blocked_until: Option<i64>,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
+pub struct WhitelistRecord {
+    pub id: String,
+    pub ip: String,
+    #[serde(default = "default_whitelist_target_type", rename = "targetType")]
+    pub target_type: String,
+    #[serde(rename = "expireAt")]
+    pub expire_at: Option<i64>,
+    #[serde(default = "default_whitelist_source")]
+    pub source: String,
+    #[serde(default, rename = "createdAt")]
+    pub created_at: i64,
+    #[serde(default = "default_whitelist_status")]
+    pub status: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub comment: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none", rename = "ipLocation")]
+    pub ip_location: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none", rename = "resolvedTargets")]
+    pub resolved_targets: Option<Vec<String>>,
+    #[serde(
+        skip_serializing_if = "Option::is_none",
+        rename = "checkIntervalMinutes"
+    )]
+    pub check_interval_minutes: Option<i64>,
+    #[serde(skip_serializing_if = "Option::is_none", rename = "lastCheckedAt")]
+    pub last_checked_at: Option<i64>,
+    #[serde(skip_serializing_if = "Option::is_none", rename = "lastResolvedAt")]
+    pub last_resolved_at: Option<i64>,
+    #[serde(skip_serializing_if = "Option::is_none", rename = "resolveStatus")]
+    pub resolve_status: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none", rename = "resolveMessage")]
+    pub resolve_message: Option<String>,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
+pub struct WhitelistConcreteTarget {
+    #[serde(rename = "recordId")]
+    pub record_id: String,
+    #[serde(rename = "recordTarget")]
+    pub record_target: String,
+    #[serde(rename = "recordTargetType")]
+    pub record_target_type: String,
+    pub source: String,
+    pub target: String,
+    #[serde(rename = "targetType")]
+    pub target_type: String,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
+pub struct WhitelistRegionInput {
+    pub province: String,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub query_city: Option<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub operator: Option<crate::cidr::CidrOperator>,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
+pub struct WhitelistRegionGroupRecord {
+    pub id: String,
+    #[serde(default)]
+    pub regions: Vec<WhitelistRegionInput>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub cidrs: Vec<String>,
+    #[serde(default, rename = "policyId", skip_serializing_if = "String::is_empty")]
+    pub policy_id: String,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub policy: Option<Value>,
+    #[serde(default, rename = "sourceCidrCount")]
+    pub source_cidr_count: usize,
+    #[serde(default, rename = "rangeCount")]
+    pub range_count: usize,
+    #[serde(rename = "expireAt")]
+    pub expire_at: Option<i64>,
+    #[serde(default = "default_whitelist_source")]
+    pub source: String,
+    #[serde(default, rename = "createdAt")]
+    pub created_at: i64,
+    #[serde(default, rename = "updatedAt")]
+    pub updated_at: i64,
+    #[serde(default = "default_whitelist_status")]
+    pub status: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub comment: Option<String>,
+}
+
+#[derive(Clone, Debug, Serialize)]
+pub struct WhitelistRegionGroupSummary {
+    pub id: String,
+    pub regions: Vec<WhitelistRegionInput>,
+    #[serde(rename = "expireAt")]
+    pub expire_at: Option<i64>,
+    pub source: String,
+    #[serde(rename = "createdAt")]
+    pub created_at: i64,
+    #[serde(rename = "updatedAt")]
+    pub updated_at: i64,
+    pub status: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub comment: Option<String>,
+    #[serde(rename = "cidrCount")]
+    pub cidr_count: usize,
+}
+
+impl WhitelistRecord {
+    pub fn target_type(&self) -> &str {
+        match self.target_type.as_str() {
+            "cidr" => "cidr",
+            "cname" => "cname",
+            _ => "ip",
+        }
+    }
+
+    pub fn is_active(&self) -> bool {
+        self.status == "active"
+    }
+
+    pub fn concrete_targets(&self) -> Vec<WhitelistConcreteTarget> {
+        match self.target_type() {
+            "cidr" => vec![self.concrete_target(&self.ip, "cidr")],
+            "cname" => self
+                .resolved_targets
+                .clone()
+                .unwrap_or_default()
+                .into_iter()
+                .filter_map(|target| {
+                    let normalized = normalize_ip(&target);
+                    (!normalized.is_empty()).then_some(normalized)
+                })
+                .collect::<BTreeSet<_>>()
+                .into_iter()
+                .map(|target| self.concrete_target(&target, "ip"))
+                .collect(),
+            _ => vec![self.concrete_target(&self.ip, "ip")],
+        }
+    }
+
+    fn concrete_target(&self, target: &str, target_type: &str) -> WhitelistConcreteTarget {
+        WhitelistConcreteTarget {
+            record_id: self.id.clone(),
+            record_target: self.ip.clone(),
+            record_target_type: self.target_type().to_string(),
+            source: if self.source == "auto" {
+                "auto".to_string()
+            } else {
+                "manual".to_string()
+            },
+            target: target.to_string(),
+            target_type: target_type.to_string(),
+        }
+    }
+}
+
+impl WhitelistRegionGroupRecord {
+    pub fn is_active(&self) -> bool {
+        self.status == "active"
+    }
+
+    pub fn summary(&self) -> WhitelistRegionGroupSummary {
+        WhitelistRegionGroupSummary {
+            id: self.id.clone(),
+            regions: self.regions.clone(),
+            expire_at: self.expire_at,
+            source: self.source.clone(),
+            created_at: self.created_at,
+            updated_at: self.updated_at,
+            status: self.status.clone(),
+            comment: self.comment.clone(),
+            cidr_count: if self.source_cidr_count > 0 {
+                self.source_cidr_count
+            } else {
+                self.cidrs.len()
+            },
+        }
+    }
+
+    pub fn concrete_targets(&self) -> Vec<WhitelistConcreteTarget> {
+        self.policy()
+            .map(|policy| policy.to_cidrs())
+            .unwrap_or_else(|| self.cidrs.clone())
+            .into_iter()
+            .map(|cidr| WhitelistConcreteTarget {
+                record_id: self.id.clone(),
+                record_target: self.id.clone(),
+                record_target_type: "cidr".to_string(),
+                source: self.source.clone(),
+                target: cidr,
+                target_type: "cidr".to_string(),
+            })
+            .collect()
+    }
+
+    pub fn policy(&self) -> Option<crate::cidr::CompiledIpSet> {
+        self.policy_result().ok()
+    }
+
+    pub fn policy_result(&self) -> Result<crate::cidr::CompiledIpSet, String> {
+        if let Some(value) = self.policy.as_ref() {
+            let policy =
+                crate::cidr::CompiledIpSet::from_transport_value(value)?.into_current_format();
+            if !self.policy_id.trim().is_empty() && self.policy_id != policy.id {
+                return Err(format!(
+                    "policy reference mismatch: expected {}, got {}",
+                    self.policy_id, policy.id
+                ));
+            }
+            return Ok(policy);
+        }
+        crate::cidr::compile_ip_set(&self.cidrs)
+    }
+}
+
+#[derive(Clone, Debug, PartialEq)]
+pub struct TrafficDeltaPoint {
+    pub ts: i64,
+    pub delta: f64,
+}
+
+#[derive(Clone, Debug, PartialEq)]
+pub struct TrafficSnapshotRecord {
+    pub host: Option<String>,
+    pub stream: Option<String>,
+    pub total_in: f64,
+    pub total_out: f64,
+    pub error_5xx: f64,
+}

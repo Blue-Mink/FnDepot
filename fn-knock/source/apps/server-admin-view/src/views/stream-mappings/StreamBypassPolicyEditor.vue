@@ -1,1 +1,106 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IFNhdmUsIFNoaWVsZENoZWNrIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENhcmRDb250ZW50IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IFN3aXRjaCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9zd2l0Y2giOwppbXBvcnQgRmxvYXRpbmdBY3Rpb25Eb2NrIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9jb21tb24vRmxvYXRpbmdBY3Rpb25Eb2NrLnZ1ZSI7CmltcG9ydCBTdHJlYW1CeXBhc3NSdWxlR3JvdXBzIGZyb20gIi4vU3RyZWFtQnlwYXNzUnVsZUdyb3Vwcy52dWUiOwppbXBvcnQgdHlwZSB7IFN0cmVhbUJ5cGFzc1BvbGljeVBhZ2VNb2RlbCB9IGZyb20gIi4vdXNlU3RyZWFtQnlwYXNzUG9saWN5UGFnZSI7CgpkZWZpbmVQcm9wczx7IG1vZGVsOiBTdHJlYW1CeXBhc3NQb2xpY3lQYWdlTW9kZWwgfT4oKTsKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxDYXJkQ29udGVudCBjbGFzcz0ic3BhY2UteS02IHB4LTMgc206cHgtNiI+CiAgICA8c2VjdGlvbiBjbGFzcz0icm91bmRlZC14bCBiZy1tdXRlZC8zMCBwLTQgc206cC01Ij4KICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQiPgogICAgICAgIDxkaXY+CiAgICAgICAgICA8TGFiZWwgZm9yPSJzdHJlYW0tYnlwYXNzLWVuYWJsZWQiIGNsYXNzPSJ0ZXh0LWJhc2UiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5wb2xpY3lFbmFibGVkIikgfX0KICAgICAgICAgIDwvTGFiZWw+CiAgICAgICAgICA8cCBjbGFzcz0ibXQtMSB0ZXh0LXNtIGxlYWRpbmctNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5wb2xpY3lFbmFibGVkRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxTd2l0Y2gKICAgICAgICAgIGlkPSJzdHJlYW0tYnlwYXNzLWVuYWJsZWQiCiAgICAgICAgICA6bW9kZWwtdmFsdWU9Im1vZGVsLmZvcm0uZW5hYmxlZCIKICAgICAgICAgIDpkaXNhYmxlZD0ibW9kZWwuc2F2aW5nIHx8ICFtb2RlbC5hdXRoRW5hYmxlZCIKICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9Im1vZGVsLnNldEVuYWJsZWQiCiAgICAgICAgLz4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYKICAgICAgICB2LWlmPSIhbW9kZWwuYXV0aEVuYWJsZWQiCiAgICAgICAgY2xhc3M9Im10LTQgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWFtYmVyLTMwMC82MCBiZy1hbWJlci01MCBwLTMgdGV4dC1zbSBsZWFkaW5nLTYgdGV4dC1hbWJlci05MDAgZGFyazpib3JkZXItYW1iZXItODAwLzYwIGRhcms6YmctYW1iZXItOTUwLzMwIGRhcms6dGV4dC1hbWJlci0yMDAiCiAgICAgID4KICAgICAgICB7eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5wb2xpY3lBdXRoRGlzYWJsZWROb3RpY2UiKSB9fQogICAgICA8L2Rpdj4KICAgICAgPGRpdgogICAgICAgIHYtaWY9Im1vZGVsLmZvcm0uZW5hYmxlZCIKICAgICAgICBjbGFzcz0ibXQtNCBmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0yIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1wcmltYXJ5LzE1IGJnLXByaW1hcnkvNSBwLTMgdGV4dC14cyBsZWFkaW5nLTUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICA+CiAgICAgICAgPFNoaWVsZENoZWNrIGNsYXNzPSJtdC0wLjUgaC00IHctNCBzaHJpbmstMCB0ZXh0LXByaW1hcnkiIC8+CiAgICAgICAgPHNwYW4+e3sgdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MucG9saWN5VmFsaWRhdGlvbk5vdGljZSIpIH19PC9zcGFuPgogICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KCiAgICA8U3RyZWFtQnlwYXNzUnVsZUdyb3VwcwogICAgICB2LWlmPSJtb2RlbC5mb3JtLmVuYWJsZWQiCiAgICAgIDpmb3JtPSJtb2RlbC5mb3JtIgogICAgICA6c2F2aW5nPSJtb2RlbC5zYXZpbmciCiAgICAgIDp2YWx1ZS1kcmFmdHM9Im1vZGVsLnZhbHVlRHJhZnRzIgogICAgLz4KICA8L0NhcmRDb250ZW50PgoKICA8RmxvYXRpbmdBY3Rpb25Eb2NrCiAgICA6YWN0aXZlPSJtb2RlbC5pc0RpcnR5IgogICAgaW5saW5lLWNsYXNzPSJib3JkZXItdCBib3JkZXItYm9yZGVyLzYwIHAtNSIKICA+CiAgICA8dGVtcGxhdGUgI2lubGluZT4KICAgICAgPGRpdgogICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgID4KICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sKICAgICAgICAgICAgIW1vZGVsLmZvcm0uZW5hYmxlZAogICAgICAgICAgICAgID8gdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MucG9saWN5RGlzYWJsZWRTYXZlSGludCIpCiAgICAgICAgICAgICAgOiBtb2RlbC5pc0Jyb2FkUnVsZQogICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5wb2xpY3lCcm9hZFJ1bGVXYXJuaW5nIikKICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MucG9saWN5U2F2ZUhpbnQiKQogICAgICAgICAgfX0KICAgICAgICA8L3A+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBnYXAtMyBzbTptbC1hdXRvIj4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgOmRpc2FibGVkPSJtb2RlbC5zYXZpbmciCiAgICAgICAgICAgIEBjbGljaz0ibW9kZWwuY2FuY2VsIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJjb21tb24uY2FuY2VsIikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICA6ZGlzYWJsZWQ9IiFtb2RlbC5pc0RpcnR5IHx8IG1vZGVsLnNhdmluZyIKICAgICAgICAgICAgQGNsaWNrPSJtb2RlbC5zYXZlIgogICAgICAgICAgPgogICAgICAgICAgICA8U2F2ZSBjbGFzcz0ibXItMiBoLTQgdy00IiAvPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIG1vZGVsLnNhdmluZwogICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5zYXZpbmdQb2xpY3kiKQogICAgICAgICAgICAgICAgOiB0KCJjb21tb24uc2F2ZSIpCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3RlbXBsYXRlPgogICAgPHRlbXBsYXRlICNmbG9hdGluZz4KICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiA6ZGlzYWJsZWQ9Im1vZGVsLnNhdmluZyIgQGNsaWNrPSJtb2RlbC5jYW5jZWwiPgogICAgICAgIHt7IHQoImNvbW1vbi5jYW5jZWwiKSB9fQogICAgICA8L0J1dHRvbj4KICAgICAgPEJ1dHRvbiA6ZGlzYWJsZWQ9IiFtb2RlbC5pc0RpcnR5IHx8IG1vZGVsLnNhdmluZyIgQGNsaWNrPSJtb2RlbC5zYXZlIj4KICAgICAgICA8U2F2ZSBjbGFzcz0ibXItMiBoLTQgdy00IiAvPnt7IHQoImNvbW1vbi5zYXZlIikgfX0KICAgICAgPC9CdXR0b24+CiAgICA8L3RlbXBsYXRlPgogIDwvRmxvYXRpbmdBY3Rpb25Eb2NrPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { Save, ShieldCheck } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import { CardContent } from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import FloatingActionDock from "@admin-shared/components/common/FloatingActionDock.vue";
+import StreamBypassRuleGroups from "./StreamBypassRuleGroups.vue";
+import type { StreamBypassPolicyPageModel } from "./useStreamBypassPolicyPage";
+
+defineProps<{ model: StreamBypassPolicyPageModel }>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <CardContent class="space-y-6 px-3 sm:px-6">
+    <section class="rounded-xl bg-muted/30 p-4 sm:p-5">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <Label for="stream-bypass-enabled" class="text-base">
+            {{ t("admin.streamMappings.policyEnabled") }}
+          </Label>
+          <p class="mt-1 text-sm leading-6 text-muted-foreground">
+            {{ t("admin.streamMappings.policyEnabledDescription") }}
+          </p>
+        </div>
+        <Switch
+          id="stream-bypass-enabled"
+          :model-value="model.form.enabled"
+          :disabled="model.saving || !model.authEnabled"
+          @update:model-value="model.setEnabled"
+        />
+      </div>
+      <div
+        v-if="!model.authEnabled"
+        class="mt-4 rounded-lg border border-amber-300/60 bg-amber-50 p-3 text-sm leading-6 text-amber-900 dark:border-amber-800/60 dark:bg-amber-950/30 dark:text-amber-200"
+      >
+        {{ t("admin.streamMappings.policyAuthDisabledNotice") }}
+      </div>
+      <div
+        v-if="model.form.enabled"
+        class="mt-4 flex items-start gap-2 rounded-lg border border-primary/15 bg-primary/5 p-3 text-xs leading-5 text-muted-foreground"
+      >
+        <ShieldCheck class="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+        <span>{{ t("admin.streamMappings.policyValidationNotice") }}</span>
+      </div>
+    </section>
+
+    <StreamBypassRuleGroups
+      v-if="model.form.enabled"
+      :form="model.form"
+      :saving="model.saving"
+      :value-drafts="model.valueDrafts"
+    />
+  </CardContent>
+
+  <FloatingActionDock
+    :active="model.isDirty"
+    inline-class="border-t border-border/60 p-5"
+  >
+    <template #inline>
+      <div
+        class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"
+      >
+        <p class="text-sm text-muted-foreground">
+          {{
+            !model.form.enabled
+              ? t("admin.streamMappings.policyDisabledSaveHint")
+              : model.isBroadRule
+                ? t("admin.streamMappings.policyBroadRuleWarning")
+                : t("admin.streamMappings.policySaveHint")
+          }}
+        </p>
+        <div class="flex gap-3 sm:ml-auto">
+          <Button
+            variant="outline"
+            :disabled="model.saving"
+            @click="model.cancel"
+          >
+            {{ t("common.cancel") }}
+          </Button>
+          <Button
+            :disabled="!model.isDirty || model.saving"
+            @click="model.save"
+          >
+            <Save class="mr-2 h-4 w-4" />
+            {{
+              model.saving
+                ? t("admin.streamMappings.savingPolicy")
+                : t("common.save")
+            }}
+          </Button>
+        </div>
+      </div>
+    </template>
+    <template #floating>
+      <Button variant="outline" :disabled="model.saving" @click="model.cancel">
+        {{ t("common.cancel") }}
+      </Button>
+      <Button :disabled="!model.isDirty || model.saving" @click="model.save">
+        <Save class="mr-2 h-4 w-4" />{{ t("common.save") }}
+      </Button>
+    </template>
+  </FloatingActionDock>
+</template>

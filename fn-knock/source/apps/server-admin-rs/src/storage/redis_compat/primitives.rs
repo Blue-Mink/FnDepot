@@ -1,1 +1,493 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBzZXRfY29tbWFuZF90eCgKICAgIHR4OiAmcnVzcWxpdGU6OlRyYW5zYWN0aW9uPCdfPiwKICAgIGFyZ3M6ICZbU3RyaW5nXSwKKSAtPiBSZWRpc1Jlc3VsdDxDbWRPdXRwdXQ+IHsKICAgIGxldCBrZXkgPSBhcmcoYXJncywgMCk/LnRvX3N0cmluZygpOwogICAgbGV0IHZhbHVlID0gYXJnKGFyZ3MsIDEpPy50b19zdHJpbmcoKTsKICAgIGxldCBtdXQgdHRsX21zID0gTm9uZTsKICAgIGxldCBtdXQgbnggPSBmYWxzZTsKICAgIGxldCBtdXQgeHggPSBmYWxzZTsKICAgIGxldCBtdXQgaW5kZXggPSAyOwogICAgd2hpbGUgaW5kZXggPCBhcmdzLmxlbigpIHsKICAgICAgICBtYXRjaCBhcmdzW2luZGV4XS50b19hc2NpaV91cHBlcmNhc2UoKS5hc19zdHIoKSB7CiAgICAgICAgICAgICJFWCIgPT4gewogICAgICAgICAgICAgICAgdHRsX21zID0gYXJncwogICAgICAgICAgICAgICAgICAgIC5nZXQoaW5kZXggKyAxKQogICAgICAgICAgICAgICAgICAgIC5tYXAofHZhbHVlfCBwYXJzZV9pNjQodmFsdWUpKQogICAgICAgICAgICAgICAgICAgIC50cmFuc3Bvc2UoKT87CiAgICAgICAgICAgICAgICB0dGxfbXMgPSB0dGxfbXMubWFwKHx2YWx1ZXwgdmFsdWUubWF4KDEpICogMTAwMCk7CiAgICAgICAgICAgICAgICBpbmRleCArPSAyOwogICAgICAgICAgICB9CiAgICAgICAgICAgICJQWCIgPT4gewogICAgICAgICAgICAgICAgdHRsX21zID0gYXJncwogICAgICAgICAgICAgICAgICAgIC5nZXQoaW5kZXggKyAxKQogICAgICAgICAgICAgICAgICAgIC5tYXAofHZhbHVlfCBwYXJzZV9pNjQodmFsdWUpKQogICAgICAgICAgICAgICAgICAgIC50cmFuc3Bvc2UoKT87CiAgICAgICAgICAgICAgICB0dGxfbXMgPSB0dGxfbXMubWFwKHx2YWx1ZXwgdmFsdWUubWF4KDEpKTsKICAgICAgICAgICAgICAgIGluZGV4ICs9IDI7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgIk5YIiA9PiB7CiAgICAgICAgICAgICAgICBueCA9IHRydWU7CiAgICAgICAgICAgICAgICBpbmRleCArPSAxOwogICAgICAgICAgICB9CiAgICAgICAgICAgICJYWCIgPT4gewogICAgICAgICAgICAgICAgeHggPSB0cnVlOwogICAgICAgICAgICAgICAgaW5kZXggKz0gMTsKICAgICAgICAgICAgfQogICAgICAgICAgICBfID0+IGluZGV4ICs9IDEsCiAgICAgICAgfQogICAgfQogICAgcHVyZ2VfZXhwaXJlZF90eCh0eCwgJmtleSk/OwogICAgaWYgbnggJiYgeHggewogICAgICAgIHJldHVybiBFcnIoc3RvcmFnZV9lcnJvcigiU0VUIGNhbm5vdCBjb21iaW5lIE5YIGFuZCBYWCIpKTsKICAgIH0KICAgIGlmIG54ICYmIGtleV9raW5kX3R4KHR4LCAma2V5KT8uaXNfc29tZSgpIHsKICAgICAgICByZXR1cm4gT2soQ21kT3V0cHV0OjpPcHRpb25hbFN0cmluZyhOb25lKSk7CiAgICB9CiAgICBpZiB4eCAmJiBrZXlfa2luZF90eCh0eCwgJmtleSk/LmlzX25vbmUoKSB7CiAgICAgICAgcmV0dXJuIE9rKENtZE91dHB1dDo6T3B0aW9uYWxTdHJpbmcoTm9uZSkpOwogICAgfQogICAgc2V0X3N0cmluZ190eCh0eCwgJmtleSwgJnZhbHVlLCB0dGxfbXMubWFwKHx0dGx8IG5vd19tcygpICsgdHRsKSk/OwogICAgT2soaWYgbnggfHwgeHggewogICAgICAgIENtZE91dHB1dDo6T3B0aW9uYWxTdHJpbmcoU29tZSgiT0siLnRvX3N0cmluZygpKSkKICAgIH0gZWxzZSB7CiAgICAgICAgQ21kT3V0cHV0OjpTdHJpbmcoIk9LIi50b19zdHJpbmcoKSkKICAgIH0pCn0KCnB1YihzdXBlcikgZm4genJhbmdlX2NvbW1hbmRfdHgoCiAgICB0eDogJnJ1c3FsaXRlOjpUcmFuc2FjdGlvbjwnXz4sCiAgICBhcmdzOiAmW1N0cmluZ10sCiAgICByZXZlcnNlOiBib29sLAopIC0+IFJlZGlzUmVzdWx0PENtZE91dHB1dD4gewogICAgbGV0IGtleSA9IGFyZyhhcmdzLCAwKT87CiAgICBsZXQgc3RhcnQgPSBwYXJzZV9pNjQoYXJnKGFyZ3MsIDEpPyk/IGFzIGlzaXplOwogICAgbGV0IGVuZCA9IHBhcnNlX2k2NChhcmcoYXJncywgMik/KT8gYXMgaXNpemU7CiAgICBsZXQgd2l0aF9zY29yZXMgPSBhcmdzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5hbnkofGFyZ3wgYXJnLmVxX2lnbm9yZV9hc2NpaV9jYXNlKCJXSVRIU0NPUkVTIikpOwogICAgcHVyZ2VfZXhwaXJlZF90eCh0eCwga2V5KT87CiAgICBsZXQgbGVuID0gY291bnRfcm93c190eCh0eCwgIlNFTEVDVCBDT1VOVCgqKSBGUk9NIGt2X3pzZXQgV0hFUkUga2V5ID0gPzEiLCAmWyZrZXldKT87CiAgICBsZXQgU29tZSgob2Zmc2V0LCBsaW1pdCkpID0gbm9ybWFsaXplX3JhbmdlKGxlbiwgc3RhcnQsIGVuZCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKGlmIHdpdGhfc2NvcmVzIHsKICAgICAgICAgICAgQ21kT3V0cHV0OjpaUGFpcnMoVmVjOjpuZXcoKSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBDbWRPdXRwdXQ6OlN0cmluZ3MoVmVjOjpuZXcoKSkKICAgICAgICB9KTsKICAgIH07CiAgICBsZXQgb3JkZXIgPSBpZiByZXZlcnNlIHsKICAgICAgICAiT1JERVIgQlkgc2NvcmUgREVTQywgbWVtYmVyIERFU0MiCiAgICB9IGVsc2UgewogICAgICAgICJPUkRFUiBCWSBzY29yZSBBU0MsIG1lbWJlciBBU0MiCiAgICB9OwogICAgbGV0IHNxbCA9CiAgICAgICAgZm9ybWF0ISgiU0VMRUNUIG1lbWJlciwgc2NvcmUgRlJPTSBrdl96c2V0IFdIRVJFIGtleSA9ID8xIHtvcmRlcn0gTElNSVQgPzIgT0ZGU0VUID8zIik7CiAgICBsZXQgbXV0IHN0bXQgPSB0eC5wcmVwYXJlKCZzcWwpPzsKICAgIGxldCByb3dzID0gc3RtdC5xdWVyeV9tYXAocGFyYW1zIVtrZXksIGxpbWl0LCBvZmZzZXRdLCB8cm93fCB7CiAgICAgICAgT2soKHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDApPywgcm93LmdldDo6PF8sIGY2ND4oMSk/KSkKICAgIH0pPzsKICAgIGxldCBwYWlycyA9IHJvd3MuY29sbGVjdDo6PFJlc3VsdDxWZWM8Xz4sIF8+PigpPzsKICAgIGlmIHdpdGhfc2NvcmVzIHsKICAgICAgICBPayhDbWRPdXRwdXQ6OlpQYWlycyhwYWlycykpCiAgICB9IGVsc2UgewogICAgICAgIE9rKENtZE91dHB1dDo6U3RyaW5ncygKICAgICAgICAgICAgcGFpcnMuaW50b19pdGVyKCkubWFwKHwobWVtYmVyLCBfKXwgbWVtYmVyKS5jb2xsZWN0KCksCiAgICAgICAgKSkKICAgIH0KfQoKcHViKHN1cGVyKSBmbiB6cmFuZ2VieXNjb3JlX2NvbW1hbmRfdHgoCiAgICB0eDogJnJ1c3FsaXRlOjpUcmFuc2FjdGlvbjwnXz4sCiAgICBhcmdzOiAmW1N0cmluZ10sCiAgICByZXZlcnNlOiBib29sLAopIC0+IFJlZGlzUmVzdWx0PENtZE91dHB1dD4gewogICAgbGV0IGtleSA9IGFyZyhhcmdzLCAwKT87CiAgICBsZXQgKG1pbiwgbWF4KSA9IGlmIHJldmVyc2UgewogICAgICAgICgKICAgICAgICAgICAgcGFyc2Vfc2NvcmVfYm91bmQoYXJnKGFyZ3MsIDIpPyk/LAogICAgICAgICAgICBwYXJzZV9zY29yZV9ib3VuZChhcmcoYXJncywgMSk/KT8sCiAgICAgICAgKQogICAgfSBlbHNlIHsKICAgICAgICAoCiAgICAgICAgICAgIHBhcnNlX3Njb3JlX2JvdW5kKGFyZyhhcmdzLCAxKT8pPywKICAgICAgICAgICAgcGFyc2Vfc2NvcmVfYm91bmQoYXJnKGFyZ3MsIDIpPyk/LAogICAgICAgICkKICAgIH07CiAgICBsZXQgd2l0aF9zY29yZXMgPSBhcmdzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5hbnkofGFyZ3wgYXJnLmVxX2lnbm9yZV9hc2NpaV9jYXNlKCJXSVRIU0NPUkVTIikpOwogICAgbGV0IGxpbWl0ID0gYXJncwogICAgICAgIC53aW5kb3dzKDMpCiAgICAgICAgLmZpbmQofHdpbmRvd3wgd2luZG93WzBdLmVxX2lnbm9yZV9hc2NpaV9jYXNlKCJMSU1JVCIpKQogICAgICAgIC5hbmRfdGhlbih8d2luZG93fCBwYXJzZV9pNjQoJndpbmRvd1syXSkub2soKSkKICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUubWF4KDApIGFzIHVzaXplKTsKICAgIGxldCBtZW1iZXJzID0genJhbmdlYnlzY29yZV90eCh0eCwga2V5LCBtaW4sIG1heCwgbGltaXQsIHJldmVyc2UpPzsKICAgIGlmIHdpdGhfc2NvcmVzIHsKICAgICAgICBsZXQgbXV0IHBhaXJzID0gVmVjOjp3aXRoX2NhcGFjaXR5KG1lbWJlcnMubGVuKCkgKiAyKTsKICAgICAgICBmb3IgbWVtYmVyIGluIG1lbWJlcnMgewogICAgICAgICAgICBsZXQgc2NvcmUgPSB0eAogICAgICAgICAgICAgICAgLnF1ZXJ5X3JvdygKICAgICAgICAgICAgICAgICAgICAiU0VMRUNUIHNjb3JlIEZST00ga3ZfenNldCBXSEVSRSBrZXkgPSA/MSBBTkQgbWVtYmVyID0gPzIiLAogICAgICAgICAgICAgICAgICAgIHBhcmFtcyFba2V5LCBtZW1iZXJdLAogICAgICAgICAgICAgICAgICAgIHxyb3d8IHJvdy5nZXQ6OjxfLCBmNjQ+KDApLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgLm9wdGlvbmFsKCk/CiAgICAgICAgICAgICAgICAudW53cmFwX29yKDAuMCk7CiAgICAgICAgICAgIHBhaXJzLnB1c2gobWVtYmVyKTsKICAgICAgICAgICAgcGFpcnMucHVzaChzY29yZS50b19zdHJpbmcoKSk7CiAgICAgICAgfQogICAgICAgIE9rKENtZE91dHB1dDo6U3RyaW5nUGFpcnMocGFpcnMpKQogICAgfSBlbHNlIHsKICAgICAgICBPayhDbWRPdXRwdXQ6OlN0cmluZ3MobWVtYmVycykpCiAgICB9Cn0KCnB1YihzdXBlcikgZm4geGFkZF9jb21tYW5kX3R4KAogICAgdHg6ICZydXNxbGl0ZTo6VHJhbnNhY3Rpb248J18+LAogICAgYXJnczogJltTdHJpbmddLAopIC0+IFJlZGlzUmVzdWx0PENtZE91dHB1dD4gewogICAgbGV0IGtleSA9IGFyZyhhcmdzLCAwKT8udG9fc3RyaW5nKCk7CiAgICBsZXQgcmF3X2lkID0gYXJnKGFyZ3MsIDEpPy50b19zdHJpbmcoKTsKICAgIGlmIGFyZ3MubGVuKCkgPD0gMiB8fCAhYXJnc1syLi5dLmxlbigpLmlzX211bHRpcGxlX29mKDIpIHsKICAgICAgICByZXR1cm4gRXJyKHN0b3JhZ2VfZXJyb3IoIlhBREQgcmVxdWlyZXMgZmllbGQvdmFsdWUgcGFpcnMiKSk7CiAgICB9CiAgICBlbnN1cmVfa2V5X3R4KHR4LCAma2V5LCAic3RyZWFtIiwgTm9uZSk/OwogICAgbGV0IGxhc3RfaWQgPSBzdHJlYW1fbGFzdF9nZW5lcmF0ZWRfaWRfdHgodHgsICZrZXkpPzsKICAgIGxldCBuZXh0X2lkID0gaWYgcmF3X2lkID09ICIqIiB7CiAgICAgICAgbGV0IG5vdyA9IG5vd19tcygpLm1heCgwKSBhcyB1MTI4OwogICAgICAgIGlmIG5vdyA+IGxhc3RfaWQubWlsbGlzZWNvbmRzIHsKICAgICAgICAgICAgUGFyc2VkU3RyZWFtSWQgewogICAgICAgICAgICAgICAgbWlsbGlzZWNvbmRzOiBub3csCiAgICAgICAgICAgICAgICBzZXF1ZW5jZTogMCwKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIFBhcnNlZFN0cmVhbUlkIHsKICAgICAgICAgICAgICAgIG1pbGxpc2Vjb25kczogbGFzdF9pZC5taWxsaXNlY29uZHMsCiAgICAgICAgICAgICAgICBzZXF1ZW5jZTogbGFzdF9pZAogICAgICAgICAgICAgICAgICAgIC5zZXF1ZW5jZQogICAgICAgICAgICAgICAgICAgIC5jaGVja2VkX2FkZCgxKQogICAgICAgICAgICAgICAgICAgIC5va19vcl9lbHNlKHx8IHN0b3JhZ2VfZXJyb3IoInN0cmVhbSBJRCBzZXF1ZW5jZSBvdmVyZmxvdyIpKT8sCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9IGVsc2UgewogICAgICAgIGxldCBleHBsaWNpdCA9IHBhcnNlX3N0cmVhbV9pZCgmcmF3X2lkKQogICAgICAgICAgICAub2tfb3JfZWxzZSh8fCBzdG9yYWdlX2Vycm9yKGZvcm1hdCEoImludmFsaWQgWEFERCBzdHJlYW0gSUQ6IHtyYXdfaWR9IikpKT87CiAgICAgICAgaWYgZXhwbGljaXQgPT0gUGFyc2VkU3RyZWFtSWQ6OmRlZmF1bHQoKSB8fCBleHBsaWNpdCA8PSBsYXN0X2lkIHsKICAgICAgICAgICAgcmV0dXJuIEVycihzdG9yYWdlX2Vycm9yKAogICAgICAgICAgICAgICAgIlhBREQgc3RyZWFtIElEIG11c3QgYmUgZ3JlYXRlciB0aGFuIHRoZSBsYXN0IGdlbmVyYXRlZCBJRCIsCiAgICAgICAgICAgICkpOwogICAgICAgIH0KICAgICAgICBleHBsaWNpdAogICAgfTsKICAgIGxldCBpZCA9IGZvcm1hdCEoInt9LXt9IiwgbmV4dF9pZC5taWxsaXNlY29uZHMsIG5leHRfaWQuc2VxdWVuY2UpOwogICAgbGV0IG11dCBmaWVsZHMgPSBWZWM6OndpdGhfY2FwYWNpdHkoYXJnc1syLi5dLmxlbigpKTsKICAgIGZvciB2YWx1ZSBpbiAmYXJnc1syLi5dIHsKICAgICAgICBmaWVsZHMucHVzaCh2YWx1ZS5jbG9uZSgpKTsKICAgIH0KICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgIklOU0VSVCBJTlRPIGt2X3N0cmVhbShrZXksIGlkLCBpZF9tcywgaWRfc2VxdWVuY2UsIGZpZWxkc19qc29uKQogICAgICAgICBWQUxVRVMgKD8xLCA/MiwgPzMsID80LCA/NSkiLAogICAgICAgIHBhcmFtcyFbCiAgICAgICAgICAgIGtleSwKICAgICAgICAgICAgaWQsCiAgICAgICAgICAgIGk2NDo6dHJ5X2Zyb20obmV4dF9pZC5taWxsaXNlY29uZHMpCiAgICAgICAgICAgICAgICAubWFwX2Vycih8X3wgc3RvcmFnZV9lcnJvcigic3RyZWFtIElEIG1pbGxpc2Vjb25kcyBleGNlZWQgU1FMaXRlIHJhbmdlIikpPywKICAgICAgICAgICAgaTY0Ojp0cnlfZnJvbShuZXh0X2lkLnNlcXVlbmNlKQogICAgICAgICAgICAgICAgLm1hcF9lcnIofF98IHN0b3JhZ2VfZXJyb3IoInN0cmVhbSBJRCBzZXF1ZW5jZSBleGNlZWQgU1FMaXRlIHJhbmdlIikpPywKICAgICAgICAgICAgc2VyZGVfanNvbjo6dG9fc3RyaW5nKCZmaWVsZHMpPwogICAgICAgIF0sCiAgICApPzsKICAgIHNldF9zdHJlYW1fbGFzdF9nZW5lcmF0ZWRfaWRfdHgodHgsICZrZXksIG5leHRfaWQpPzsKICAgIE9rKENtZE91dHB1dDo6U3RyaW5nKGlkKSkKfQoKcHViKGNyYXRlKSBmbiBzdHJpbmdfZ2V0X3R4KAogICAgdHg6ICZydXNxbGl0ZTo6VHJhbnNhY3Rpb248J18+LAogICAga2V5OiAmc3RyLAopIC0+IFJlZGlzUmVzdWx0PE9wdGlvbjxTdHJpbmc+PiB7CiAgICBwdXJnZV9leHBpcmVkX3R4KHR4LCBrZXkpPzsKICAgIGlmIGtleV9raW5kX3R4KHR4LCBrZXkpPyAhPSBTb21lKCJzdHJpbmciLnRvX3N0cmluZygpKSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfQogICAgdHgucXVlcnlfcm93KAogICAgICAgICJTRUxFQ1QgdmFsdWUgRlJPTSBrdl9zdHJpbmdzIFdIRVJFIGtleSA9ID8xIiwKICAgICAgICBwYXJhbXMhW2tleV0sCiAgICAgICAgfHJvd3wgcm93LmdldDo6PF8sIFN0cmluZz4oMCksCiAgICApCiAgICAub3B0aW9uYWwoKQogICAgLm1hcF9lcnIoSW50bzo6aW50bykKfQoKcHViKHN1cGVyKSBmbiBzZXRfc3RyaW5nX3R4KAogICAgdHg6ICZydXNxbGl0ZTo6VHJhbnNhY3Rpb248J18+LAogICAga2V5OiAmc3RyLAogICAgdmFsdWU6ICZzdHIsCiAgICBleHBpcmVzX2F0X21zOiBPcHRpb248aTY0PiwKKSAtPiBSZWRpc1Jlc3VsdDwoKT4gewogICAgZW5zdXJlX2tleV93aXRoX3R0bF9wb2xpY3lfdHgodHgsIGtleSwgInN0cmluZyIsIGV4cGlyZXNfYXRfbXMsIGZhbHNlKT87CiAgICB0eC5leGVjdXRlKAogICAgICAgICJJTlNFUlQgT1IgUkVQTEFDRSBJTlRPIGt2X3N0cmluZ3Moa2V5LCB2YWx1ZSkgVkFMVUVTICg/MSwgPzIpIiwKICAgICAgICBwYXJhbXMhW2tleSwgdmFsdWVdLAogICAgKT87CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBmbiBzZXRfc3RyaW5nX3ByZXNlcnZlX3R0bF90eCgKICAgIHR4OiAmcnVzcWxpdGU6OlRyYW5zYWN0aW9uPCdfPiwKICAgIGtleTogJnN0ciwKICAgIHZhbHVlOiAmc3RyLAopIC0+IFJlZGlzUmVzdWx0PCgpPiB7CiAgICBlbnN1cmVfa2V5X3R4KHR4LCBrZXksICJzdHJpbmciLCBOb25lKT87CiAgICB0eC5leGVjdXRlKAogICAgICAgICJJTlNFUlQgT1IgUkVQTEFDRSBJTlRPIGt2X3N0cmluZ3Moa2V5LCB2YWx1ZSkgVkFMVUVTICg/MSwgPzIpIiwKICAgICAgICBwYXJhbXMhW2tleSwgdmFsdWVdLAogICAgKT87CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBmbiB6cmFuZ2VieXNjb3JlX3R4KAogICAgdHg6ICZydXNxbGl0ZTo6VHJhbnNhY3Rpb248J18+LAogICAga2V5OiAmc3RyLAogICAgbWluOiBTY29yZUJvdW5kLAogICAgbWF4OiBTY29yZUJvdW5kLAogICAgbGltaXQ6IE9wdGlvbjx1c2l6ZT4sCiAgICByZXZlcnNlOiBib29sLAopIC0+IFJlZGlzUmVzdWx0PFZlYzxTdHJpbmc+PiB7CiAgICBwdXJnZV9leHBpcmVkX3R4KHR4LCBrZXkpPzsKICAgIGxldCBvcmRlciA9IGlmIHJldmVyc2UgewogICAgICAgICJPUkRFUiBCWSBzY29yZSBERVNDLCBtZW1iZXIgREVTQyIKICAgIH0gZWxzZSB7CiAgICAgICAgIk9SREVSIEJZIHNjb3JlIEFTQywgbWVtYmVyIEFTQyIKICAgIH07CiAgICBsZXQgbGltaXRfc3FsID0gbGltaXQKICAgICAgICAubWFwKHxsaW1pdHwgZm9ybWF0ISgiIExJTUlUIHt9IiwgbGltaXQpKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgbGV0IG1pbl9vcCA9IGlmIG1pbi5leGNsdXNpdmUgeyAiPiIgfSBlbHNlIHsgIj49IiB9OwogICAgbGV0IG1heF9vcCA9IGlmIG1heC5leGNsdXNpdmUgeyAiPCIgfSBlbHNlIHsgIjw9IiB9OwogICAgbGV0IHNxbCA9IGZvcm1hdCEoCiAgICAgICAgIlNFTEVDVCBtZW1iZXIgRlJPTSBrdl96c2V0IFdIRVJFIGtleSA9ID8xIEFORCBzY29yZSB7bWluX29wfSA/MiBBTkQgc2NvcmUge21heF9vcH0gPzMge29yZGVyfXtsaW1pdF9zcWx9IgogICAgKTsKICAgIGxldCBtdXQgc3RtdCA9IHR4LnByZXBhcmUoJnNxbCk/OwogICAgbGV0IHJvd3MgPSBzdG10LnF1ZXJ5X21hcChwYXJhbXMhW2tleSwgbWluLnZhbHVlLCBtYXgudmFsdWVdLCB8cm93fCByb3cuZ2V0KDApKT87CiAgICByb3dzLmNvbGxlY3Q6OjxSZXN1bHQ8VmVjPFN0cmluZz4sIF8+PigpLm1hcF9lcnIoSW50bzo6aW50bykKfQoKcHViKHN1cGVyKSBmbiBkZWxldGVfenNldF9zY29yZV9yYW5nZV90eCgKICAgIHR4OiAmcnVzcWxpdGU6OlRyYW5zYWN0aW9uPCdfPiwKICAgIGtleTogJnN0ciwKICAgIG1pbjogU2NvcmVCb3VuZCwKICAgIG1heDogU2NvcmVCb3VuZCwKKSAtPiBSZWRpc1Jlc3VsdDx1c2l6ZT4gewogICAgbGV0IG1pbl9vcCA9IGlmIG1pbi5leGNsdXNpdmUgeyAiPiIgfSBlbHNlIHsgIj49IiB9OwogICAgbGV0IG1heF9vcCA9IGlmIG1heC5leGNsdXNpdmUgeyAiPCIgfSBlbHNlIHsgIjw9IiB9OwogICAgbGV0IHNxbCA9CiAgICAgICAgZm9ybWF0ISgiREVMRVRFIEZST00ga3ZfenNldCBXSEVSRSBrZXkgPSA/MSBBTkQgc2NvcmUge21pbl9vcH0gPzIgQU5EIHNjb3JlIHttYXhfb3B9ID8zIik7CiAgICBsZXQgZGVsZXRlZCA9IHR4LmV4ZWN1dGUoJnNxbCwgcGFyYW1zIVtrZXksIG1pbi52YWx1ZSwgbWF4LnZhbHVlXSk/OwogICAgZGVsZXRlX2NvbGxlY3Rpb25fa2V5X2lmX2VtcHR5X3R4KHR4LCBrZXksICJ6c2V0Iik/OwogICAgT2soZGVsZXRlZCkKfQoKcHViKHN1cGVyKSBmbiBjb3VudF96c2V0X3Njb3JlX3JhbmdlX3R4KAogICAgdHg6ICZydXNxbGl0ZTo6VHJhbnNhY3Rpb248J18+LAogICAga2V5OiAmc3RyLAogICAgbWluOiBTY29yZUJvdW5kLAogICAgbWF4OiBTY29yZUJvdW5kLAopIC0+IFJlZGlzUmVzdWx0PGk2ND4gewogICAgbGV0IG1pbl9vcCA9IGlmIG1pbi5leGNsdXNpdmUgeyAiPiIgfSBlbHNlIHsgIj49IiB9OwogICAgbGV0IG1heF9vcCA9IGlmIG1heC5leGNsdXNpdmUgeyAiPCIgfSBlbHNlIHsgIjw9IiB9OwogICAgbGV0IHNxbCA9IGZvcm1hdCEoCiAgICAgICAgIlNFTEVDVCBDT1VOVCgqKSBGUk9NIGt2X3pzZXQgV0hFUkUga2V5ID0gPzEgQU5EIHNjb3JlIHttaW5fb3B9ID8yIEFORCBzY29yZSB7bWF4X29wfSA/MyIKICAgICk7CiAgICB0eC5xdWVyeV9yb3coJnNxbCwgcGFyYW1zIVtrZXksIG1pbi52YWx1ZSwgbWF4LnZhbHVlXSwgfHJvd3wgcm93LmdldCgwKSkKICAgICAgICAubWFwX2VycihJbnRvOjppbnRvKQp9CgpwdWIoc3VwZXIpIGZuIGxpc3RfcmFuZ2VfdHgoCiAgICB0eDogJnJ1c3FsaXRlOjpUcmFuc2FjdGlvbjwnXz4sCiAgICBrZXk6ICZzdHIsCiAgICBzdGFydDogaXNpemUsCiAgICBlbmQ6IGlzaXplLAopIC0+IFJlZGlzUmVzdWx0PFZlYzxTdHJpbmc+PiB7CiAgICBsZXQgbGVuID0gY291bnRfcm93c190eCh0eCwgIlNFTEVDVCBDT1VOVCgqKSBGUk9NIGt2X2xpc3QgV0hFUkUga2V5ID0gPzEiLCAmWyZrZXldKT87CiAgICBsZXQgU29tZSgob2Zmc2V0LCBsaW1pdCkpID0gbm9ybWFsaXplX3JhbmdlKGxlbiwgc3RhcnQsIGVuZCkgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKFZlYzo6bmV3KCkpOwogICAgfTsKICAgIGxldCBtdXQgc3RtdCA9CiAgICAgICAgdHgucHJlcGFyZSgiU0VMRUNUIHZhbHVlIEZST00ga3ZfbGlzdCBXSEVSRSBrZXkgPSA/MSBPUkRFUiBCWSBpZHggQVNDIExJTUlUID8yIE9GRlNFVCA/MyIpPzsKICAgIGxldCByb3dzID0gc3RtdC5xdWVyeV9tYXAocGFyYW1zIVtrZXksIGxpbWl0LCBvZmZzZXRdLCB8cm93fCByb3cuZ2V0KDApKT87CiAgICByb3dzLmNvbGxlY3Q6OjxSZXN1bHQ8VmVjPFN0cmluZz4sIF8+PigpLm1hcF9lcnIoSW50bzo6aW50bykKfQoKcHViKHN1cGVyKSBmbiBzY2FuX2tleXNfdHgoCiAgICB0eDogJnJ1c3FsaXRlOjpUcmFuc2FjdGlvbjwnXz4sCiAgICBwcmVmaXg6ICZzdHIsCikgLT4gUmVkaXNSZXN1bHQ8VmVjPFN0cmluZz4+IHsKICAgIHB1cmdlX2V4cGlyZWRfYWxsX3R4KHR4KT87CiAgICBsZXQgcGF0dGVybiA9IGZvcm1hdCEoInt9JSIsIGVzY2FwZV9saWtlX3BhdHRlcm4ocHJlZml4KSk7CiAgICBsZXQgbXV0IHN0bXQgPQogICAgICAgIHR4LnByZXBhcmUoIlNFTEVDVCBrZXkgRlJPTSBrdl9rZXlzIFdIRVJFIGtleSBMSUtFID8xIEVTQ0FQRSAnXFwnIE9SREVSIEJZIGtleSBBU0MiKT87CiAgICBsZXQgcm93cyA9IHN0bXQucXVlcnlfbWFwKHBhcmFtcyFbcGF0dGVybl0sIHxyb3d8IHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDApKT87CiAgICBsZXQgbXV0IGtleXMgPSByb3dzLmNvbGxlY3Q6OjxSZXN1bHQ8VmVjPF8+LCBfPj4oKT87CiAgICBrZXlzLnNvcnRfYnkofGxlZnQsIHJpZ2h0fCBub2RlX2xvY2FsZV9jb21wYXJlX29yZGVyaW5nKGxlZnQsIHJpZ2h0KSk7CiAgICBPayhrZXlzKQp9CgpwdWIoc3VwZXIpIGZuIGtleXNfbWF0Y2hpbmdfcGF0dGVybl90eCgKICAgIHR4OiAmcnVzcWxpdGU6OlRyYW5zYWN0aW9uPCdfPiwKICAgIHBhdHRlcm46ICZzdHIsCikgLT4gUmVkaXNSZXN1bHQ8VmVjPFN0cmluZz4+IHsKICAgIGxldCBtdXQgc3RhdGVtZW50ID0KICAgICAgICB0eC5wcmVwYXJlKCJTRUxFQ1Qga2V5IEZST00ga3Zfa2V5cyBXSEVSRSBrZXkgTElLRSA/MSBFU0NBUEUgJ1xcJyBPUkRFUiBCWSBrZXkgQVNDIik/OwogICAgc3RhdGVtZW50CiAgICAgICAgLnF1ZXJ5X21hcChbcGF0dGVybl0sIHxyb3d8IHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDApKT8KICAgICAgICAuY29sbGVjdDo6PFJlc3VsdDxWZWM8Xz4sIF8+PigpCiAgICAgICAgLm1hcF9lcnIoSW50bzo6aW50bykKfQoKcHViKHN1cGVyKSBmbiBwdXJnZV9leHBpcmVkKGNvbm46ICZtdXQgcnVzcWxpdGU6OkNvbm5lY3Rpb24sIGtleTogJnN0cikgLT4gUmVkaXNSZXN1bHQ8KCk+IHsKICAgIGxldCB0eCA9IGltbWVkaWF0ZV90cmFuc2FjdGlvbihjb25uKT87CiAgICBsZXQgZGVsZXRlZCA9IHR4LmV4ZWN1dGUoCiAgICAgICAgIkRFTEVURSBGUk9NIGt2X2tleXMgV0hFUkUga2V5ID0gPzEgQU5EIGV4cGlyZXNfYXRfbXMgSVMgTk9UIE5VTEwgQU5EIGV4cGlyZXNfYXRfbXMgPD0gPzIiLAogICAgICAgIHBhcmFtcyFba2V5LCBub3dfbXMoKV0sCiAgICApPzsKICAgIGlmIGRlbGV0ZWQgPiAwIHsKICAgICAgICBzeW5jX3R5cGVkX21vYmlsaXR5X3R4KCZ0eCwgVHlwZWRNb2JpbGl0eVN5bmNTY29wZTo6ZnJvbV9rZXkoa2V5KSk/OwogICAgfQogICAgdHguY29tbWl0KCk/OwogICAgT2soKCkpCn0KCnB1YihzdXBlcikgZm4gcHVyZ2VfZXhwaXJlZF90eCh0eDogJnJ1c3FsaXRlOjpUcmFuc2FjdGlvbjwnXz4sIGtleTogJnN0cikgLT4gUmVkaXNSZXN1bHQ8KCk+IHsKICAgIGxldCBkZWxldGVkID0gdHguZXhlY3V0ZSgKICAgICAgICAiREVMRVRFIEZST00ga3Zfa2V5cyBXSEVSRSBrZXkgPSA/MSBBTkQgZXhwaXJlc19hdF9tcyBJUyBOT1QgTlVMTCBBTkQgZXhwaXJlc19hdF9tcyA8PSA/MiIsCiAgICAgICAgcGFyYW1zIVtrZXksIG5vd19tcygpXSwKICAgICk/OwogICAgaWYgZGVsZXRlZCA+IDAgewogICAgICAgIHN5bmNfdHlwZWRfbW9iaWxpdHlfdHgodHgsIFR5cGVkTW9iaWxpdHlTeW5jU2NvcGU6OmZyb21fa2V5KGtleSkpPzsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGZuIHB1cmdlX2V4cGlyZWRfYWxsX3R4KHR4OiAmcnVzcWxpdGU6OlRyYW5zYWN0aW9uPCdfPikgLT4gUmVkaXNSZXN1bHQ8KCk+IHsKICAgIGxldCBjdXRvZmYgPSBub3dfbXMoKTsKICAgIGxldCBleHBpcmVkX3R5cGVkX3NoYWRvd19rZXlzID0gewogICAgICAgIGxldCBtdXQgc3RhdGVtZW50ID0gdHgucHJlcGFyZSgKICAgICAgICAgICAgIlNFTEVDVCBrZXkgRlJPTSBrdl9rZXlzCiAgICAgICAgICAgICBXSEVSRSBleHBpcmVzX2F0X21zIElTIE5PVCBOVUxMIEFORCBleHBpcmVzX2F0X21zIDw9ID8xIiwKICAgICAgICApPzsKICAgICAgICBzdGF0ZW1lbnQKICAgICAgICAgICAgLnF1ZXJ5X21hcChwYXJhbXMhW2N1dG9mZl0sIHxyb3d8IHJvdy5nZXQ6OjxfLCBTdHJpbmc+KDApKT8KICAgICAgICAgICAgLmNvbGxlY3Q6OjxSZXN1bHQ8VmVjPF8+LCBfPj4oKT8KICAgIH07CiAgICB0eC5leGVjdXRlKAogICAgICAgICJERUxFVEUgRlJPTSBrdl9rZXlzIFdIRVJFIGV4cGlyZXNfYXRfbXMgSVMgTk9UIE5VTEwgQU5EIGV4cGlyZXNfYXRfbXMgPD0gPzEiLAogICAgICAgIHBhcmFtcyFbY3V0b2ZmXSwKICAgICk/OwogICAgc3luY190eXBlZF9tb2JpbGl0eV90eCgKICAgICAgICB0eCwKICAgICAgICBUeXBlZE1vYmlsaXR5U3luY1Njb3BlOjpmcm9tX2tleXMoZXhwaXJlZF90eXBlZF9zaGFkb3dfa2V5cyksCiAgICApPzsKICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGZuIGtleV9raW5kKGNvbm46ICZydXNxbGl0ZTo6Q29ubmVjdGlvbiwga2V5OiAmc3RyKSAtPiBSZWRpc1Jlc3VsdDxPcHRpb248U3RyaW5nPj4gewogICAgY29ubi5xdWVyeV9yb3coCiAgICAgICAgIlNFTEVDVCBraW5kIEZST00ga3Zfa2V5cyBXSEVSRSBrZXkgPSA/MSIsCiAgICAgICAgcGFyYW1zIVtrZXldLAogICAgICAgIHxyb3d8IHJvdy5nZXQoMCksCiAgICApCiAgICAub3B0aW9uYWwoKQogICAgLm1hcF9lcnIoSW50bzo6aW50bykKfQoKcHViKHN1cGVyKSBmbiBrZXlfa2luZF90eCgKICAgIHR4OiAmcnVzcWxpdGU6OlRyYW5zYWN0aW9uPCdfPiwKICAgIGtleTogJnN0ciwKKSAtPiBSZWRpc1Jlc3VsdDxPcHRpb248U3RyaW5nPj4gewogICAgdHgucXVlcnlfcm93KAogICAgICAgICJTRUxFQ1Qga2luZCBGUk9NIGt2X2tleXMgV0hFUkUga2V5ID0gPzEiLAogICAgICAgIHBhcmFtcyFba2V5XSwKICAgICAgICB8cm93fCByb3cuZ2V0KDApLAogICAgKQogICAgLm9wdGlvbmFsKCkKICAgIC5tYXBfZXJyKEludG86OmludG8pCn0KCnB1YihzdXBlcikgZm4gZW5zdXJlX2tleV90eCgKICAgIHR4OiAmcnVzcWxpdGU6OlRyYW5zYWN0aW9uPCdfPiwKICAgIGtleTogJnN0ciwKICAgIGtpbmQ6ICZzdHIsCiAgICBleHBpcmVzX2F0X21zOiBPcHRpb248aTY0PiwKKSAtPiBSZWRpc1Jlc3VsdDwoKT4gewogICAgZW5zdXJlX2tleV93aXRoX3R0bF9wb2xpY3lfdHgodHgsIGtleSwga2luZCwgZXhwaXJlc19hdF9tcywgdHJ1ZSkKfQoKcHViKHN1cGVyKSBmbiBlbnN1cmVfa2V5X3dpdGhfdHRsX3BvbGljeV90eCgKICAgIHR4OiAmcnVzcWxpdGU6OlRyYW5zYWN0aW9uPCdfPiwKICAgIGtleTogJnN0ciwKICAgIGtpbmQ6ICZzdHIsCiAgICBleHBpcmVzX2F0X21zOiBPcHRpb248aTY0PiwKICAgIHByZXNlcnZlX2V4aXN0aW5nX3R0bF93aGVuX25vbmU6IGJvb2wsCikgLT4gUmVkaXNSZXN1bHQ8KCk+IHsKICAgIHB1cmdlX2V4cGlyZWRfdHgodHgsIGtleSk/OwogICAgaWYgbGV0IFNvbWUoZXhpc3RpbmcpID0ga2V5X2tpbmRfdHgodHgsIGtleSk/CiAgICAgICAgJiYgZXhpc3RpbmcgIT0ga2luZAogICAgewogICAgICAgIGRlbGV0ZV9rZXlfdHgodHgsIGtleSk/OwogICAgfQogICAgaWYgcHJlc2VydmVfZXhpc3RpbmdfdHRsX3doZW5fbm9uZSB7CiAgICAgICAgdHguZXhlY3V0ZSgKICAgICAgICAgICAgIklOU0VSVCBJTlRPIGt2X2tleXMoa2V5LCBraW5kLCBleHBpcmVzX2F0X21zKSBWQUxVRVMgKD8xLCA/MiwgPzMpCiAgICAgICAgICAgICBPTiBDT05GTElDVChrZXkpIERPIFVQREFURSBTRVQga2luZCA9IGV4Y2x1ZGVkLmtpbmQsCiAgICAgICAgICAgICAgIGV4cGlyZXNfYXRfbXMgPSBDT0FMRVNDRShleGNsdWRlZC5leHBpcmVzX2F0X21zLCBrdl9rZXlzLmV4cGlyZXNfYXRfbXMpIiwKICAgICAgICAgICAgcGFyYW1zIVtrZXksIGtpbmQsIGV4cGlyZXNfYXRfbXNdLAogICAgICAgICk/OwogICAgfSBlbHNlIHsKICAgICAgICB0eC5leGVjdXRlKAogICAgICAgICAgICAiSU5TRVJUIElOVE8ga3Zfa2V5cyhrZXksIGtpbmQsIGV4cGlyZXNfYXRfbXMpIFZBTFVFUyAoPzEsID8yLCA/MykKICAgICAgICAgICAgIE9OIENPTkZMSUNUKGtleSkgRE8gVVBEQVRFIFNFVCBraW5kID0gZXhjbHVkZWQua2luZCwKICAgICAgICAgICAgICAgZXhwaXJlc19hdF9tcyA9IGV4Y2x1ZGVkLmV4cGlyZXNfYXRfbXMiLAogICAgICAgICAgICBwYXJhbXMhW2tleSwga2luZCwgZXhwaXJlc19hdF9tc10sCiAgICAgICAgKT87CiAgICB9CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBmbiBkZWxldGVfa2V5X3R4KHR4OiAmcnVzcWxpdGU6OlRyYW5zYWN0aW9uPCdfPiwga2V5OiAmc3RyKSAtPiBSZWRpc1Jlc3VsdDx1c2l6ZT4gewogICAgT2sodHguZXhlY3V0ZSgiREVMRVRFIEZST00ga3Zfa2V5cyBXSEVSRSBrZXkgPSA/MSIsIHBhcmFtcyFba2V5XSk/KQp9CgpwdWIoc3VwZXIpIGZuIGRlbGV0ZV9jb2xsZWN0aW9uX2tleV9pZl9lbXB0eV90eCgKICAgIHR4OiAmcnVzcWxpdGU6OlRyYW5zYWN0aW9uPCdfPiwKICAgIGtleTogJnN0ciwKICAgIGtpbmQ6ICZzdHIsCikgLT4gUmVkaXNSZXN1bHQ8KCk+IHsKICAgIGxldCB0YWJsZSA9IG1hdGNoIGtpbmQgewogICAgICAgICJoYXNoIiA9PiAia3ZfaGFzaCIsCiAgICAgICAgImxpc3QiID0+ICJrdl9saXN0IiwKICAgICAgICAic2V0IiA9PiAia3Zfc2V0IiwKICAgICAgICAienNldCIgPT4gImt2X3pzZXQiLAogICAgICAgIF8gPT4gewogICAgICAgICAgICByZXR1cm4gRXJyKHN0b3JhZ2VfZXJyb3IoZm9ybWF0ISgKICAgICAgICAgICAgICAgICJ1bnN1cHBvcnRlZCBjb2xsZWN0aW9uIGtpbmQ6IHtraW5kfSIKICAgICAgICAgICAgKSkpOwogICAgICAgIH0KICAgIH07CiAgICBpZiBrZXlfa2luZF90eCh0eCwga2V5KT8uYXNfZGVyZWYoKSAhPSBTb21lKGtpbmQpIHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQogICAgbGV0IHNxbCA9IGZvcm1hdCEoIlNFTEVDVCBFWElTVFMoU0VMRUNUIDEgRlJPTSB7dGFibGV9IFdIRVJFIGtleSA9ID8xKSIpOwogICAgbGV0IGhhc19tZW1iZXJzID0gdHgucXVlcnlfcm93KCZzcWwsIHBhcmFtcyFba2V5XSwgfHJvd3wgcm93LmdldDo6PF8sIGJvb2w+KDApKT87CiAgICBpZiAhaGFzX21lbWJlcnMgewogICAgICAgIGRlbGV0ZV9rZXlfdHgodHgsIGtleSk/OwogICAgfQogICAgT2soKCkpCn0KCnB1YihzdXBlcikgZm4gaW1tZWRpYXRlX3RyYW5zYWN0aW9uKAogICAgY29ubjogJm11dCBydXNxbGl0ZTo6Q29ubmVjdGlvbiwKKSAtPiBydXNxbGl0ZTo6UmVzdWx0PHJ1c3FsaXRlOjpUcmFuc2FjdGlvbjwnXz4+IHsKICAgIGNvbm4udHJhbnNhY3Rpb25fd2l0aF9iZWhhdmlvcihydXNxbGl0ZTo6VHJhbnNhY3Rpb25CZWhhdmlvcjo6SW1tZWRpYXRlKQp9Cg==
+use super::*;
+
+pub(super) fn set_command_tx(
+    tx: &rusqlite::Transaction<'_>,
+    args: &[String],
+) -> RedisResult<CmdOutput> {
+    let key = arg(args, 0)?.to_string();
+    let value = arg(args, 1)?.to_string();
+    let mut ttl_ms = None;
+    let mut nx = false;
+    let mut xx = false;
+    let mut index = 2;
+    while index < args.len() {
+        match args[index].to_ascii_uppercase().as_str() {
+            "EX" => {
+                ttl_ms = args
+                    .get(index + 1)
+                    .map(|value| parse_i64(value))
+                    .transpose()?;
+                ttl_ms = ttl_ms.map(|value| value.max(1) * 1000);
+                index += 2;
+            }
+            "PX" => {
+                ttl_ms = args
+                    .get(index + 1)
+                    .map(|value| parse_i64(value))
+                    .transpose()?;
+                ttl_ms = ttl_ms.map(|value| value.max(1));
+                index += 2;
+            }
+            "NX" => {
+                nx = true;
+                index += 1;
+            }
+            "XX" => {
+                xx = true;
+                index += 1;
+            }
+            _ => index += 1,
+        }
+    }
+    purge_expired_tx(tx, &key)?;
+    if nx && xx {
+        return Err(storage_error("SET cannot combine NX and XX"));
+    }
+    if nx && key_kind_tx(tx, &key)?.is_some() {
+        return Ok(CmdOutput::OptionalString(None));
+    }
+    if xx && key_kind_tx(tx, &key)?.is_none() {
+        return Ok(CmdOutput::OptionalString(None));
+    }
+    set_string_tx(tx, &key, &value, ttl_ms.map(|ttl| now_ms() + ttl))?;
+    Ok(if nx || xx {
+        CmdOutput::OptionalString(Some("OK".to_string()))
+    } else {
+        CmdOutput::String("OK".to_string())
+    })
+}
+
+pub(super) fn zrange_command_tx(
+    tx: &rusqlite::Transaction<'_>,
+    args: &[String],
+    reverse: bool,
+) -> RedisResult<CmdOutput> {
+    let key = arg(args, 0)?;
+    let start = parse_i64(arg(args, 1)?)? as isize;
+    let end = parse_i64(arg(args, 2)?)? as isize;
+    let with_scores = args
+        .iter()
+        .any(|arg| arg.eq_ignore_ascii_case("WITHSCORES"));
+    purge_expired_tx(tx, key)?;
+    let len = count_rows_tx(tx, "SELECT COUNT(*) FROM kv_zset WHERE key = ?1", &[&key])?;
+    let Some((offset, limit)) = normalize_range(len, start, end) else {
+        return Ok(if with_scores {
+            CmdOutput::ZPairs(Vec::new())
+        } else {
+            CmdOutput::Strings(Vec::new())
+        });
+    };
+    let order = if reverse {
+        "ORDER BY score DESC, member DESC"
+    } else {
+        "ORDER BY score ASC, member ASC"
+    };
+    let sql =
+        format!("SELECT member, score FROM kv_zset WHERE key = ?1 {order} LIMIT ?2 OFFSET ?3");
+    let mut stmt = tx.prepare(&sql)?;
+    let rows = stmt.query_map(params![key, limit, offset], |row| {
+        Ok((row.get::<_, String>(0)?, row.get::<_, f64>(1)?))
+    })?;
+    let pairs = rows.collect::<Result<Vec<_>, _>>()?;
+    if with_scores {
+        Ok(CmdOutput::ZPairs(pairs))
+    } else {
+        Ok(CmdOutput::Strings(
+            pairs.into_iter().map(|(member, _)| member).collect(),
+        ))
+    }
+}
+
+pub(super) fn zrangebyscore_command_tx(
+    tx: &rusqlite::Transaction<'_>,
+    args: &[String],
+    reverse: bool,
+) -> RedisResult<CmdOutput> {
+    let key = arg(args, 0)?;
+    let (min, max) = if reverse {
+        (
+            parse_score_bound(arg(args, 2)?)?,
+            parse_score_bound(arg(args, 1)?)?,
+        )
+    } else {
+        (
+            parse_score_bound(arg(args, 1)?)?,
+            parse_score_bound(arg(args, 2)?)?,
+        )
+    };
+    let with_scores = args
+        .iter()
+        .any(|arg| arg.eq_ignore_ascii_case("WITHSCORES"));
+    let limit = args
+        .windows(3)
+        .find(|window| window[0].eq_ignore_ascii_case("LIMIT"))
+        .and_then(|window| parse_i64(&window[2]).ok())
+        .map(|value| value.max(0) as usize);
+    let members = zrangebyscore_tx(tx, key, min, max, limit, reverse)?;
+    if with_scores {
+        let mut pairs = Vec::with_capacity(members.len() * 2);
+        for member in members {
+            let score = tx
+                .query_row(
+                    "SELECT score FROM kv_zset WHERE key = ?1 AND member = ?2",
+                    params![key, member],
+                    |row| row.get::<_, f64>(0),
+                )
+                .optional()?
+                .unwrap_or(0.0);
+            pairs.push(member);
+            pairs.push(score.to_string());
+        }
+        Ok(CmdOutput::StringPairs(pairs))
+    } else {
+        Ok(CmdOutput::Strings(members))
+    }
+}
+
+pub(super) fn xadd_command_tx(
+    tx: &rusqlite::Transaction<'_>,
+    args: &[String],
+) -> RedisResult<CmdOutput> {
+    let key = arg(args, 0)?.to_string();
+    let raw_id = arg(args, 1)?.to_string();
+    if args.len() <= 2 || !args[2..].len().is_multiple_of(2) {
+        return Err(storage_error("XADD requires field/value pairs"));
+    }
+    ensure_key_tx(tx, &key, "stream", None)?;
+    let last_id = stream_last_generated_id_tx(tx, &key)?;
+    let next_id = if raw_id == "*" {
+        let now = now_ms().max(0) as u128;
+        if now > last_id.milliseconds {
+            ParsedStreamId {
+                milliseconds: now,
+                sequence: 0,
+            }
+        } else {
+            ParsedStreamId {
+                milliseconds: last_id.milliseconds,
+                sequence: last_id
+                    .sequence
+                    .checked_add(1)
+                    .ok_or_else(|| storage_error("stream ID sequence overflow"))?,
+            }
+        }
+    } else {
+        let explicit = parse_stream_id(&raw_id)
+            .ok_or_else(|| storage_error(format!("invalid XADD stream ID: {raw_id}")))?;
+        if explicit == ParsedStreamId::default() || explicit <= last_id {
+            return Err(storage_error(
+                "XADD stream ID must be greater than the last generated ID",
+            ));
+        }
+        explicit
+    };
+    let id = format!("{}-{}", next_id.milliseconds, next_id.sequence);
+    let mut fields = Vec::with_capacity(args[2..].len());
+    for value in &args[2..] {
+        fields.push(value.clone());
+    }
+    tx.execute(
+        "INSERT INTO kv_stream(key, id, id_ms, id_sequence, fields_json)
+         VALUES (?1, ?2, ?3, ?4, ?5)",
+        params![
+            key,
+            id,
+            i64::try_from(next_id.milliseconds)
+                .map_err(|_| storage_error("stream ID milliseconds exceed SQLite range"))?,
+            i64::try_from(next_id.sequence)
+                .map_err(|_| storage_error("stream ID sequence exceed SQLite range"))?,
+            serde_json::to_string(&fields)?
+        ],
+    )?;
+    set_stream_last_generated_id_tx(tx, &key, next_id)?;
+    Ok(CmdOutput::String(id))
+}
+
+pub(crate) fn string_get_tx(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+) -> RedisResult<Option<String>> {
+    purge_expired_tx(tx, key)?;
+    if key_kind_tx(tx, key)? != Some("string".to_string()) {
+        return Ok(None);
+    }
+    tx.query_row(
+        "SELECT value FROM kv_strings WHERE key = ?1",
+        params![key],
+        |row| row.get::<_, String>(0),
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+pub(super) fn set_string_tx(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+    value: &str,
+    expires_at_ms: Option<i64>,
+) -> RedisResult<()> {
+    ensure_key_with_ttl_policy_tx(tx, key, "string", expires_at_ms, false)?;
+    tx.execute(
+        "INSERT OR REPLACE INTO kv_strings(key, value) VALUES (?1, ?2)",
+        params![key, value],
+    )?;
+    Ok(())
+}
+
+pub(super) fn set_string_preserve_ttl_tx(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+    value: &str,
+) -> RedisResult<()> {
+    ensure_key_tx(tx, key, "string", None)?;
+    tx.execute(
+        "INSERT OR REPLACE INTO kv_strings(key, value) VALUES (?1, ?2)",
+        params![key, value],
+    )?;
+    Ok(())
+}
+
+pub(super) fn zrangebyscore_tx(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+    min: ScoreBound,
+    max: ScoreBound,
+    limit: Option<usize>,
+    reverse: bool,
+) -> RedisResult<Vec<String>> {
+    purge_expired_tx(tx, key)?;
+    let order = if reverse {
+        "ORDER BY score DESC, member DESC"
+    } else {
+        "ORDER BY score ASC, member ASC"
+    };
+    let limit_sql = limit
+        .map(|limit| format!(" LIMIT {}", limit))
+        .unwrap_or_default();
+    let min_op = if min.exclusive { ">" } else { ">=" };
+    let max_op = if max.exclusive { "<" } else { "<=" };
+    let sql = format!(
+        "SELECT member FROM kv_zset WHERE key = ?1 AND score {min_op} ?2 AND score {max_op} ?3 {order}{limit_sql}"
+    );
+    let mut stmt = tx.prepare(&sql)?;
+    let rows = stmt.query_map(params![key, min.value, max.value], |row| row.get(0))?;
+    rows.collect::<Result<Vec<String>, _>>().map_err(Into::into)
+}
+
+pub(super) fn delete_zset_score_range_tx(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+    min: ScoreBound,
+    max: ScoreBound,
+) -> RedisResult<usize> {
+    let min_op = if min.exclusive { ">" } else { ">=" };
+    let max_op = if max.exclusive { "<" } else { "<=" };
+    let sql =
+        format!("DELETE FROM kv_zset WHERE key = ?1 AND score {min_op} ?2 AND score {max_op} ?3");
+    let deleted = tx.execute(&sql, params![key, min.value, max.value])?;
+    delete_collection_key_if_empty_tx(tx, key, "zset")?;
+    Ok(deleted)
+}
+
+pub(super) fn count_zset_score_range_tx(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+    min: ScoreBound,
+    max: ScoreBound,
+) -> RedisResult<i64> {
+    let min_op = if min.exclusive { ">" } else { ">=" };
+    let max_op = if max.exclusive { "<" } else { "<=" };
+    let sql = format!(
+        "SELECT COUNT(*) FROM kv_zset WHERE key = ?1 AND score {min_op} ?2 AND score {max_op} ?3"
+    );
+    tx.query_row(&sql, params![key, min.value, max.value], |row| row.get(0))
+        .map_err(Into::into)
+}
+
+pub(super) fn list_range_tx(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+    start: isize,
+    end: isize,
+) -> RedisResult<Vec<String>> {
+    let len = count_rows_tx(tx, "SELECT COUNT(*) FROM kv_list WHERE key = ?1", &[&key])?;
+    let Some((offset, limit)) = normalize_range(len, start, end) else {
+        return Ok(Vec::new());
+    };
+    let mut stmt =
+        tx.prepare("SELECT value FROM kv_list WHERE key = ?1 ORDER BY idx ASC LIMIT ?2 OFFSET ?3")?;
+    let rows = stmt.query_map(params![key, limit, offset], |row| row.get(0))?;
+    rows.collect::<Result<Vec<String>, _>>().map_err(Into::into)
+}
+
+pub(super) fn scan_keys_tx(
+    tx: &rusqlite::Transaction<'_>,
+    prefix: &str,
+) -> RedisResult<Vec<String>> {
+    purge_expired_all_tx(tx)?;
+    let pattern = format!("{}%", escape_like_pattern(prefix));
+    let mut stmt =
+        tx.prepare("SELECT key FROM kv_keys WHERE key LIKE ?1 ESCAPE '\\' ORDER BY key ASC")?;
+    let rows = stmt.query_map(params![pattern], |row| row.get::<_, String>(0))?;
+    let mut keys = rows.collect::<Result<Vec<_>, _>>()?;
+    keys.sort_by(|left, right| node_locale_compare_ordering(left, right));
+    Ok(keys)
+}
+
+pub(super) fn keys_matching_pattern_tx(
+    tx: &rusqlite::Transaction<'_>,
+    pattern: &str,
+) -> RedisResult<Vec<String>> {
+    let mut statement =
+        tx.prepare("SELECT key FROM kv_keys WHERE key LIKE ?1 ESCAPE '\\' ORDER BY key ASC")?;
+    statement
+        .query_map([pattern], |row| row.get::<_, String>(0))?
+        .collect::<Result<Vec<_>, _>>()
+        .map_err(Into::into)
+}
+
+pub(super) fn purge_expired(conn: &mut rusqlite::Connection, key: &str) -> RedisResult<()> {
+    let tx = immediate_transaction(conn)?;
+    let deleted = tx.execute(
+        "DELETE FROM kv_keys WHERE key = ?1 AND expires_at_ms IS NOT NULL AND expires_at_ms <= ?2",
+        params![key, now_ms()],
+    )?;
+    if deleted > 0 {
+        sync_typed_mobility_tx(&tx, TypedMobilitySyncScope::from_key(key))?;
+    }
+    tx.commit()?;
+    Ok(())
+}
+
+pub(super) fn purge_expired_tx(tx: &rusqlite::Transaction<'_>, key: &str) -> RedisResult<()> {
+    let deleted = tx.execute(
+        "DELETE FROM kv_keys WHERE key = ?1 AND expires_at_ms IS NOT NULL AND expires_at_ms <= ?2",
+        params![key, now_ms()],
+    )?;
+    if deleted > 0 {
+        sync_typed_mobility_tx(tx, TypedMobilitySyncScope::from_key(key))?;
+    }
+    Ok(())
+}
+
+pub(super) fn purge_expired_all_tx(tx: &rusqlite::Transaction<'_>) -> RedisResult<()> {
+    let cutoff = now_ms();
+    let expired_typed_shadow_keys = {
+        let mut statement = tx.prepare(
+            "SELECT key FROM kv_keys
+             WHERE expires_at_ms IS NOT NULL AND expires_at_ms <= ?1",
+        )?;
+        statement
+            .query_map(params![cutoff], |row| row.get::<_, String>(0))?
+            .collect::<Result<Vec<_>, _>>()?
+    };
+    tx.execute(
+        "DELETE FROM kv_keys WHERE expires_at_ms IS NOT NULL AND expires_at_ms <= ?1",
+        params![cutoff],
+    )?;
+    sync_typed_mobility_tx(
+        tx,
+        TypedMobilitySyncScope::from_keys(expired_typed_shadow_keys),
+    )?;
+    Ok(())
+}
+
+pub(super) fn key_kind(conn: &rusqlite::Connection, key: &str) -> RedisResult<Option<String>> {
+    conn.query_row(
+        "SELECT kind FROM kv_keys WHERE key = ?1",
+        params![key],
+        |row| row.get(0),
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+pub(super) fn key_kind_tx(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+) -> RedisResult<Option<String>> {
+    tx.query_row(
+        "SELECT kind FROM kv_keys WHERE key = ?1",
+        params![key],
+        |row| row.get(0),
+    )
+    .optional()
+    .map_err(Into::into)
+}
+
+pub(super) fn ensure_key_tx(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+    kind: &str,
+    expires_at_ms: Option<i64>,
+) -> RedisResult<()> {
+    ensure_key_with_ttl_policy_tx(tx, key, kind, expires_at_ms, true)
+}
+
+pub(super) fn ensure_key_with_ttl_policy_tx(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+    kind: &str,
+    expires_at_ms: Option<i64>,
+    preserve_existing_ttl_when_none: bool,
+) -> RedisResult<()> {
+    purge_expired_tx(tx, key)?;
+    if let Some(existing) = key_kind_tx(tx, key)?
+        && existing != kind
+    {
+        delete_key_tx(tx, key)?;
+    }
+    if preserve_existing_ttl_when_none {
+        tx.execute(
+            "INSERT INTO kv_keys(key, kind, expires_at_ms) VALUES (?1, ?2, ?3)
+             ON CONFLICT(key) DO UPDATE SET kind = excluded.kind,
+               expires_at_ms = COALESCE(excluded.expires_at_ms, kv_keys.expires_at_ms)",
+            params![key, kind, expires_at_ms],
+        )?;
+    } else {
+        tx.execute(
+            "INSERT INTO kv_keys(key, kind, expires_at_ms) VALUES (?1, ?2, ?3)
+             ON CONFLICT(key) DO UPDATE SET kind = excluded.kind,
+               expires_at_ms = excluded.expires_at_ms",
+            params![key, kind, expires_at_ms],
+        )?;
+    }
+    Ok(())
+}
+
+pub(super) fn delete_key_tx(tx: &rusqlite::Transaction<'_>, key: &str) -> RedisResult<usize> {
+    Ok(tx.execute("DELETE FROM kv_keys WHERE key = ?1", params![key])?)
+}
+
+pub(super) fn delete_collection_key_if_empty_tx(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+    kind: &str,
+) -> RedisResult<()> {
+    let table = match kind {
+        "hash" => "kv_hash",
+        "list" => "kv_list",
+        "set" => "kv_set",
+        "zset" => "kv_zset",
+        _ => {
+            return Err(storage_error(format!(
+                "unsupported collection kind: {kind}"
+            )));
+        }
+    };
+    if key_kind_tx(tx, key)?.as_deref() != Some(kind) {
+        return Ok(());
+    }
+    let sql = format!("SELECT EXISTS(SELECT 1 FROM {table} WHERE key = ?1)");
+    let has_members = tx.query_row(&sql, params![key], |row| row.get::<_, bool>(0))?;
+    if !has_members {
+        delete_key_tx(tx, key)?;
+    }
+    Ok(())
+}
+
+pub(super) fn immediate_transaction(
+    conn: &mut rusqlite::Connection,
+) -> rusqlite::Result<rusqlite::Transaction<'_>> {
+    conn.transaction_with_behavior(rusqlite::TransactionBehavior::Immediate)
+}

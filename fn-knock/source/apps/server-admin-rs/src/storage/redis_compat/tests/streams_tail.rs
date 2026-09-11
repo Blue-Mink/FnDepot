@@ -1,1 +1,79 @@
-dXNlIHN1cGVyOjoqOwoKI1t0b2tpbzo6dGVzdF0KYXN5bmMgZm4geHJlYWRfdXNlc19zdHJlYW1faWRfb3JkZXJfd2hlbl9jdXJzb3JfZW50cnlfd2FzX2RlbGV0ZWQoKSB7CiAgICBsZXQgbXV0IGNvbm4gPSB0ZW1wX21hbmFnZXIoKS5hd2FpdDsKICAgIGZvciBpZCBpbiBbIjEtMCIsICIyLTAiLCAiMy0wIl0gewogICAgICAgIGxldCBfOiBTdHJpbmcgPSBjbWQoIlhBREQiKQogICAgICAgICAgICAuYXJnKCJmbl9rbm9jazp0ZXN0OnN0cmVhbS1kZWxldGVkLWN1cnNvciIpCiAgICAgICAgICAgIC5hcmcoaWQpCiAgICAgICAgICAgIC5hcmcoInZhbHVlIikKICAgICAgICAgICAgLmFyZyhpZCkKICAgICAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5leHBlY3QoInhhZGQiKTsKICAgIH0KICAgIGxldCBfOiAoKSA9IGNtZCgiWERFTCIpCiAgICAgICAgLmFyZygiZm5fa25vY2s6dGVzdDpzdHJlYW0tZGVsZXRlZC1jdXJzb3IiKQogICAgICAgIC5hcmcoIjItMCIpCiAgICAgICAgLnF1ZXJ5X2FzeW5jKCZtdXQgY29ubikKICAgICAgICAuYXdhaXQKICAgICAgICAuZXhwZWN0KCJ4ZGVsIGN1cnNvciByb3ciKTsKCiAgICBsZXQgcmVwbHkgPSBjb25uCiAgICAgICAgLnhyZWFkX29wdGlvbnMoCiAgICAgICAgICAgICZbImZuX2tub2NrOnRlc3Q6c3RyZWFtLWRlbGV0ZWQtY3Vyc29yIl0sCiAgICAgICAgICAgICZbIjItMCJdLAogICAgICAgICAgICAmc3RyZWFtczo6U3RyZWFtUmVhZE9wdGlvbnM6OmRlZmF1bHQoKS5jb3VudCgxMCksCiAgICAgICAgKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInhyZWFkIikKICAgICAgICAuZXhwZWN0KCJyZXBseSIpOwoKICAgIGxldCBpZHMgPSByZXBseS5rZXlzWzBdCiAgICAgICAgLmlkcwogICAgICAgIC5pdGVyKCkKICAgICAgICAubWFwKHxlbnRyeXwgZW50cnkuaWQuYXNfc3RyKCkpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBhc3NlcnRfZXEhKGlkcywgdmVjIVsiMy0wIl0pOwp9CgojW3Rva2lvOjp0ZXN0XQphc3luYyBmbiBzdHJlYW1fZW50cmllc19wcmVzZXJ2ZV9maWVsZF9vcmRlcl9hbmRfZHVwbGljYXRlcygpIHsKICAgIGxldCBtdXQgY29ubiA9IHRlbXBfbWFuYWdlcigpLmF3YWl0OwogICAgbGV0IF86IFN0cmluZyA9IGNtZCgiWEFERCIpCiAgICAgICAgLmFyZygiZm5fa25vY2s6dGVzdDpzdHJlYW0tb3JkZXIiKQogICAgICAgIC5hcmcoIjEtMCIpCiAgICAgICAgLmFyZygieiIpCiAgICAgICAgLmFyZygibGFzdCIpCiAgICAgICAgLmFyZygiYSIpCiAgICAgICAgLmFyZygiZmlyc3QiKQogICAgICAgIC5hcmcoInoiKQogICAgICAgIC5hcmcoImFnYWluIikKICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgIC5hd2FpdAogICAgICAgIC5leHBlY3QoInhhZGQgb3JkZXJlZCBmaWVsZHMiKTsKCiAgICBsZXQgZW50cmllczogVmVjPChTdHJpbmcsIFZlYzxTdHJpbmc+KT4gPSBjbWQoIlhSQU5HRSIpCiAgICAgICAgLmFyZygiZm5fa25vY2s6dGVzdDpzdHJlYW0tb3JkZXIiKQogICAgICAgIC5hcmcoIi0iKQogICAgICAgIC5hcmcoIisiKQogICAgICAgIC5xdWVyeV9hc3luYygmbXV0IGNvbm4pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLmV4cGVjdCgieHJhbmdlIG9yZGVyZWQgZmllbGRzIik7CgogICAgYXNzZXJ0X2VxISgKICAgICAgICBlbnRyaWVzLAogICAgICAgIHZlYyFbKAogICAgICAgICAgICAiMS0wIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgdmVjIVsKICAgICAgICAgICAgICAgICJ6Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICJsYXN0Ii50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICJhIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgICJmaXJzdCIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICAieiIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICAiYWdhaW4iLnRvX3N0cmluZygpLAogICAgICAgICAgICBdLAogICAgICAgICldCiAgICApOwp9Cg==
+use super::*;
+
+#[tokio::test]
+async fn xread_uses_stream_id_order_when_cursor_entry_was_deleted() {
+    let mut conn = temp_manager().await;
+    for id in ["1-0", "2-0", "3-0"] {
+        let _: String = cmd("XADD")
+            .arg("fn_knock:test:stream-deleted-cursor")
+            .arg(id)
+            .arg("value")
+            .arg(id)
+            .query_async(&mut conn)
+            .await
+            .expect("xadd");
+    }
+    let _: () = cmd("XDEL")
+        .arg("fn_knock:test:stream-deleted-cursor")
+        .arg("2-0")
+        .query_async(&mut conn)
+        .await
+        .expect("xdel cursor row");
+
+    let reply = conn
+        .xread_options(
+            &["fn_knock:test:stream-deleted-cursor"],
+            &["2-0"],
+            &streams::StreamReadOptions::default().count(10),
+        )
+        .await
+        .expect("xread")
+        .expect("reply");
+
+    let ids = reply.keys[0]
+        .ids
+        .iter()
+        .map(|entry| entry.id.as_str())
+        .collect::<Vec<_>>();
+    assert_eq!(ids, vec!["3-0"]);
+}
+
+#[tokio::test]
+async fn stream_entries_preserve_field_order_and_duplicates() {
+    let mut conn = temp_manager().await;
+    let _: String = cmd("XADD")
+        .arg("fn_knock:test:stream-order")
+        .arg("1-0")
+        .arg("z")
+        .arg("last")
+        .arg("a")
+        .arg("first")
+        .arg("z")
+        .arg("again")
+        .query_async(&mut conn)
+        .await
+        .expect("xadd ordered fields");
+
+    let entries: Vec<(String, Vec<String>)> = cmd("XRANGE")
+        .arg("fn_knock:test:stream-order")
+        .arg("-")
+        .arg("+")
+        .query_async(&mut conn)
+        .await
+        .expect("xrange ordered fields");
+
+    assert_eq!(
+        entries,
+        vec![(
+            "1-0".to_string(),
+            vec![
+                "z".to_string(),
+                "last".to_string(),
+                "a".to_string(),
+                "first".to_string(),
+                "z".to_string(),
+                "again".to_string(),
+            ],
+        )]
+    );
+}

@@ -1,1 +1,375 @@
-aW1wb3J0IHsKICBMRUdBQ1lfTU9VU0VfU0VRVUVOQ0VfUFJFRklYLAogIFRFUk1JTkFMX01PVVNFX01BWF9MRUdBQ1lfQ09PUkQsCiAgVEVSTUlOQUxfTU9VU0VfTU9WRV9GTEFHLAogIFRFUk1JTkFMX01PVVNFX1dIRUVMX0RPV04sCiAgVEVSTUlOQUxfTU9VU0VfV0hFRUxfVVAsCiAgdHlwZSBUZXJtaW5hbE1vdXNlQnV0dG9uLAogIHR5cGUgVGVybWluYWxNb3VzZUNlbGwsCiAgdHlwZSBUZXJtaW5hbE1vdXNlUmVwb3J0aW5nU3RhdGUsCn0gZnJvbSAiLi90ZXJtaW5hbC1ydW50aW1lIjsKCnR5cGUgTW91c2VNb2RpZmllckV2ZW50ID0gUGljazwKICBNb3VzZUV2ZW50LAogICJhbHRLZXkiIHwgImN0cmxLZXkiIHwgIm1ldGFLZXkiIHwgInNoaWZ0S2V5Igo+OwoKZXhwb3J0IGNvbnN0IGdldFRlcm1pbmFsTW91c2VCdXR0b24gPSAoCiAgZXZlbnQ6IFBpY2s8TW91c2VFdmVudCwgImJ1dHRvbiI+LAopOiBUZXJtaW5hbE1vdXNlQnV0dG9uIHwgbnVsbCA9PiB7CiAgaWYgKGV2ZW50LmJ1dHRvbiA9PT0gMCkgcmV0dXJuIDA7CiAgaWYgKGV2ZW50LmJ1dHRvbiA9PT0gMSkgcmV0dXJuIDE7CiAgaWYgKGV2ZW50LmJ1dHRvbiA9PT0gMikgcmV0dXJuIDI7CiAgcmV0dXJuIG51bGw7Cn07CgpleHBvcnQgY29uc3QgZ2V0VGVybWluYWxNb3VzZU1vZGlmaWVyQ29kZSA9ICgKICBldmVudDogTW91c2VNb2RpZmllckV2ZW50LAopOiBudW1iZXIgPT4gewogIGxldCBjb2RlID0gMDsKICBpZiAoZXZlbnQuc2hpZnRLZXkpIGNvZGUgKz0gNDsKICBpZiAoZXZlbnQuYWx0S2V5IHx8IGV2ZW50Lm1ldGFLZXkpIGNvZGUgKz0gODsKICBpZiAoZXZlbnQuY3RybEtleSkgY29kZSArPSAxNjsKICByZXR1cm4gY29kZTsKfTsKCmV4cG9ydCBjb25zdCBidWlsZFRlcm1pbmFsTW91c2VTZXF1ZW5jZSA9ICgKICBldmVudDogTW91c2VNb2RpZmllckV2ZW50LAogIHN0YXRlOiBUZXJtaW5hbE1vdXNlUmVwb3J0aW5nU3RhdGUsCiAgYnV0dG9uQ29kZTogbnVtYmVyLAogIGNlbGw6IFRlcm1pbmFsTW91c2VDZWxsLAogIG9wdGlvbnM/OiB7IHJlbGVhc2U/OiBib29sZWFuIH0sCik6IHN0cmluZyA9PiB7CiAgY29uc3QgY29kZSA9IGJ1dHRvbkNvZGUgKyBnZXRUZXJtaW5hbE1vdXNlTW9kaWZpZXJDb2RlKGV2ZW50KTsKICBpZiAoc3RhdGUuc2dyKSB7CiAgICByZXR1cm4gYFx1MDAxYls8JHtjb2RlfTske2NlbGwuY29sfTske2NlbGwucm93fSR7CiAgICAgIG9wdGlvbnM/LnJlbGVhc2UgPyAibSIgOiAiTSIKICAgIH1gOwogIH0KCiAgaWYgKAogICAgY2VsbC5jb2wgPiBURVJNSU5BTF9NT1VTRV9NQVhfTEVHQUNZX0NPT1JEIHx8CiAgICBjZWxsLnJvdyA+IFRFUk1JTkFMX01PVVNFX01BWF9MRUdBQ1lfQ09PUkQKICApIHsKICAgIHJldHVybiAiIjsKICB9CgogIGNvbnN0IGxlZ2FjeUNvZGUgPQogICAgKG9wdGlvbnM/LnJlbGVhc2UgPyAzIDogYnV0dG9uQ29kZSkgKyBnZXRUZXJtaW5hbE1vdXNlTW9kaWZpZXJDb2RlKGV2ZW50KTsKICByZXR1cm4gYCR7TEVHQUNZX01PVVNFX1NFUVVFTkNFX1BSRUZJWH0ke1N0cmluZy5mcm9tQ2hhckNvZGUoCiAgICBsZWdhY3lDb2RlICsgMzIsCiAgICBjZWxsLmNvbCArIDMyLAogICAgY2VsbC5yb3cgKyAzMiwKICApfWA7Cn07CgpleHBvcnQgY29uc3QgZ2V0VGVybWluYWxXaGVlbFN0ZXBDb3VudCA9ICgKICBldmVudDogV2hlZWxFdmVudCwKICBtZXRyaWNzOiB7IHJvd0hlaWdodDogbnVtYmVyOyByb3dzOiBudW1iZXIgfSwKKTogbnVtYmVyID0+IHsKICBjb25zdCBkZWx0YSA9IE1hdGgubWF4KE1hdGguYWJzKGV2ZW50LmRlbHRhWSksIE1hdGguYWJzKGV2ZW50LmRlbHRhWCkpOwogIGlmIChkZWx0YSA8PSAwKSByZXR1cm4gMDsKCiAgaWYgKGV2ZW50LmRlbHRhTW9kZSA9PT0gV2hlZWxFdmVudC5ET01fREVMVEFfTElORSkgewogICAgcmV0dXJuIE1hdGgubWluKDUsIE1hdGgubWF4KDEsIE1hdGgucm91bmQoZGVsdGEpKSk7CiAgfQoKICBpZiAoZXZlbnQuZGVsdGFNb2RlID09PSBXaGVlbEV2ZW50LkRPTV9ERUxUQV9QQUdFKSB7CiAgICByZXR1cm4gTWF0aC5taW4oNSwgTWF0aC5tYXgoMSwgTWF0aC5yb3VuZChkZWx0YSAqIG1ldHJpY3Mucm93cykpKTsKICB9CgogIHJldHVybiBNYXRoLm1pbig1LCBNYXRoLm1heCgxLCBNYXRoLnJvdW5kKGRlbHRhIC8gbWV0cmljcy5yb3dIZWlnaHQpKSk7Cn07Cgp0eXBlIFRlcm1pbmFsTW91c2VSZXBvcnRlclRlcm1pbmFsID0gewogIGNvbHM6IG51bWJlcjsKICByb3dzOiBudW1iZXI7CiAgZ2V0TW9kZTogKG1vZGU6IG51bWJlciwgZGVmYXVsdFZhbHVlOiBib29sZWFuKSA9PiBib29sZWFuOwogIGhhc01vdXNlVHJhY2tpbmc/OiAoKSA9PiBib29sZWFuOwp9OwoKZXhwb3J0IGNvbnN0IGNyZWF0ZVRlcm1pbmFsTW91c2VSZXBvcnRlciA9ICh7CiAgZm9jdXNUZXJtaW5hbCwKICBnZXRGcmFtZUVsZW1lbnQsCiAgZ2V0TW91bnRFbGVtZW50LAogIGdldFJvd0hlaWdodCwKICBnZXRUZXJtaW5hbCwKICBxdWV1ZUlucHV0LAp9OiB7CiAgZm9jdXNUZXJtaW5hbDogKCkgPT4gdm9pZDsKICBnZXRGcmFtZUVsZW1lbnQ6ICgpID0+IEhUTUxFbGVtZW50IHwgbnVsbDsKICBnZXRNb3VudEVsZW1lbnQ6ICgpID0+IEhUTUxFbGVtZW50IHwgbnVsbDsKICBnZXRSb3dIZWlnaHQ6ICgpID0+IG51bWJlcjsKICBnZXRUZXJtaW5hbDogKCkgPT4gVGVybWluYWxNb3VzZVJlcG9ydGVyVGVybWluYWwgfCBudWxsOwogIHF1ZXVlSW5wdXQ6IChwYXlsb2FkOiBzdHJpbmcpID0+IHZvaWQ7Cn0pID0+IHsKICBsZXQgdGFyZ2V0RWxlbWVudDogSFRNTEVsZW1lbnQgfCBudWxsID0gbnVsbDsKICBsZXQgcHJlc3NlZEJ1dHRvbjogVGVybWluYWxNb3VzZUJ1dHRvbiB8IG51bGwgPSBudWxsOwogIGxldCBsYXN0UmVwb3J0S2V5ID0gIiI7CgogIGNvbnN0IGlzTW9kZUVuYWJsZWQgPSAobW9kZTogbnVtYmVyKTogYm9vbGVhbiA9PiB7CiAgICB0cnkgewogICAgICByZXR1cm4gZ2V0VGVybWluYWwoKT8uZ2V0TW9kZShtb2RlLCBmYWxzZSkgPT09IHRydWU7CiAgICB9IGNhdGNoIHsKICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogIH07CgogIGNvbnN0IGdldFJlcG9ydGluZ1N0YXRlID0gKCk6IFRlcm1pbmFsTW91c2VSZXBvcnRpbmdTdGF0ZSA9PiB7CiAgICBjb25zdCBub3JtYWwgPSBpc01vZGVFbmFibGVkKDEwMDApOwogICAgY29uc3QgYnV0dG9uTW90aW9uID0gaXNNb2RlRW5hYmxlZCgxMDAyKTsKICAgIGNvbnN0IGFueU1vdGlvbiA9IGlzTW9kZUVuYWJsZWQoMTAwMyk7CiAgICBjb25zdCBzZ3IgPSBpc01vZGVFbmFibGVkKDEwMDYpOwoKICAgIGxldCBlbmFibGVkID0gbm9ybWFsIHx8IGJ1dHRvbk1vdGlvbiB8fCBhbnlNb3Rpb247CiAgICB0cnkgewogICAgICBpZiAoZ2V0VGVybWluYWwoKT8uaGFzTW91c2VUcmFja2luZz8uKCkgPT09IHRydWUpIHsKICAgICAgICBlbmFibGVkID0gdHJ1ZTsKICAgICAgfQogICAgfSBjYXRjaCB7CiAgICAgIC8vIE1vZGUgcXVlcmllcyBjYW4gdGhyb3cgd2hpbGUgdGhlIHRlcm1pbmFsIGlzIGJlaW5nIG9wZW5lZCBvciBkaXNwb3NlZC4KICAgIH0KCiAgICByZXR1cm4gewogICAgICBlbmFibGVkLAogICAgICBzZ3IsCiAgICAgIGJ1dHRvbk1vdGlvbiwKICAgICAgYW55TW90aW9uLAogICAgfTsKICB9OwoKICBjb25zdCBnZXRDYW52YXMgPSAoKTogSFRNTENhbnZhc0VsZW1lbnQgfCBudWxsID0+IHsKICAgIGNvbnN0IGNhbnZhcyA9IGdldE1vdW50RWxlbWVudCgpPy5xdWVyeVNlbGVjdG9yKCJjYW52YXMiKTsKICAgIHJldHVybiBjYW52YXMgaW5zdGFuY2VvZiBIVE1MQ2FudmFzRWxlbWVudCA/IGNhbnZhcyA6IG51bGw7CiAgfTsKCiAgY29uc3QgZ2V0TW91c2VDZWxsID0gKAogICAgZXZlbnQ6IE1vdXNlRXZlbnQsCiAgICBvcHRpb25zPzogeyBjbGFtcFRvQ2FudmFzPzogYm9vbGVhbiB9LAogICk6IFRlcm1pbmFsTW91c2VDZWxsIHwgbnVsbCA9PiB7CiAgICBjb25zdCB0ZXJtaW5hbCA9IGdldFRlcm1pbmFsKCk7CiAgICBpZiAoIXRlcm1pbmFsKSByZXR1cm4gbnVsbDsKCiAgICBjb25zdCBjYW52YXMgPSBnZXRDYW52YXMoKTsKICAgIGlmICghY2FudmFzKSByZXR1cm4gbnVsbDsKCiAgICBjb25zdCByZWN0ID0gY2FudmFzLmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpOwogICAgaWYgKAogICAgICByZWN0LndpZHRoIDw9IDAgfHwKICAgICAgcmVjdC5oZWlnaHQgPD0gMCB8fAogICAgICB0ZXJtaW5hbC5jb2xzIDw9IDAgfHwKICAgICAgdGVybWluYWwucm93cyA8PSAwCiAgICApIHsKICAgICAgcmV0dXJuIG51bGw7CiAgICB9CgogICAgY29uc3QgaW5zaWRlID0KICAgICAgZXZlbnQuY2xpZW50WCA+PSByZWN0LmxlZnQgJiYKICAgICAgZXZlbnQuY2xpZW50WCA8PSByZWN0LnJpZ2h0ICYmCiAgICAgIGV2ZW50LmNsaWVudFkgPj0gcmVjdC50b3AgJiYKICAgICAgZXZlbnQuY2xpZW50WSA8PSByZWN0LmJvdHRvbTsKICAgIGlmICghaW5zaWRlICYmICFvcHRpb25zPy5jbGFtcFRvQ2FudmFzKSByZXR1cm4gbnVsbDsKCiAgICBjb25zdCBjbGllbnRYID0gTWF0aC5taW4oTWF0aC5tYXgoZXZlbnQuY2xpZW50WCwgcmVjdC5sZWZ0KSwgcmVjdC5yaWdodCk7CiAgICBjb25zdCBjbGllbnRZID0gTWF0aC5taW4oTWF0aC5tYXgoZXZlbnQuY2xpZW50WSwgcmVjdC50b3ApLCByZWN0LmJvdHRvbSk7CiAgICBjb25zdCBjZWxsV2lkdGggPSByZWN0LndpZHRoIC8gdGVybWluYWwuY29sczsKICAgIGNvbnN0IGNlbGxIZWlnaHQgPSByZWN0LmhlaWdodCAvIHRlcm1pbmFsLnJvd3M7CiAgICBjb25zdCBjb2wgPSBNYXRoLm1pbigKICAgICAgdGVybWluYWwuY29scywKICAgICAgTWF0aC5tYXgoMSwgTWF0aC5mbG9vcigoY2xpZW50WCAtIHJlY3QubGVmdCkgLyBjZWxsV2lkdGgpICsgMSksCiAgICApOwogICAgY29uc3Qgcm93ID0gTWF0aC5taW4oCiAgICAgIHRlcm1pbmFsLnJvd3MsCiAgICAgIE1hdGgubWF4KDEsIE1hdGguZmxvb3IoKGNsaWVudFkgLSByZWN0LnRvcCkgLyBjZWxsSGVpZ2h0KSArIDEpLAogICAgKTsKCiAgICByZXR1cm4geyBjb2wsIHJvdyB9OwogIH07CgogIGNvbnN0IHN0b3BNb3VzZUV2ZW50ID0gKGV2ZW50OiBFdmVudCkgPT4gewogICAgZXZlbnQucHJldmVudERlZmF1bHQoKTsKICAgIGV2ZW50LnN0b3BQcm9wYWdhdGlvbigpOwogICAgZXZlbnQuc3RvcEltbWVkaWF0ZVByb3BhZ2F0aW9uKCk7CiAgfTsKCiAgY29uc3QgcXVldWVNb3VzZVNlcXVlbmNlID0gKAogICAgc2VxdWVuY2U6IHN0cmluZywKICAgIHJlcG9ydEtleTogc3RyaW5nLAogICAgb3B0aW9ucz86IHsgZGVkdXBlPzogYm9vbGVhbiB9LAogICkgPT4gewogICAgaWYgKAogICAgICAhc2VxdWVuY2UgfHwKICAgICAgKG9wdGlvbnM/LmRlZHVwZSAhPT0gZmFsc2UgJiYgcmVwb3J0S2V5ID09PSBsYXN0UmVwb3J0S2V5KQogICAgKSB7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGxhc3RSZXBvcnRLZXkgPSByZXBvcnRLZXk7CiAgICBxdWV1ZUlucHV0KHNlcXVlbmNlKTsKICB9OwoKICBjb25zdCByZXBvcnRNb3VzZUV2ZW50ID0gKAogICAgZXZlbnQ6IE1vdXNlRXZlbnQsCiAgICBzdGF0ZTogVGVybWluYWxNb3VzZVJlcG9ydGluZ1N0YXRlLAogICAgYnV0dG9uQ29kZTogbnVtYmVyLAogICAgY2VsbDogVGVybWluYWxNb3VzZUNlbGwsCiAgICBvcHRpb25zPzogeyByZWxlYXNlPzogYm9vbGVhbjsgZGVkdXBlPzogYm9vbGVhbiB9LAogICkgPT4gewogICAgY29uc3Qgc2VxdWVuY2UgPSBidWlsZFRlcm1pbmFsTW91c2VTZXF1ZW5jZSgKICAgICAgZXZlbnQsCiAgICAgIHN0YXRlLAogICAgICBidXR0b25Db2RlLAogICAgICBjZWxsLAogICAgICB7CiAgICAgICAgcmVsZWFzZTogb3B0aW9ucz8ucmVsZWFzZSwKICAgICAgfSwKICAgICk7CiAgICBjb25zdCByZXBvcnRLZXkgPSBbCiAgICAgIG9wdGlvbnM/LnJlbGVhc2UgPyAicmVsZWFzZSIgOiAicHJlc3MiLAogICAgICBidXR0b25Db2RlLAogICAgICBjZWxsLmNvbCwKICAgICAgY2VsbC5yb3csCiAgICAgIGdldFRlcm1pbmFsTW91c2VNb2RpZmllckNvZGUoZXZlbnQpLAogICAgXS5qb2luKCI6Iik7CiAgICBxdWV1ZU1vdXNlU2VxdWVuY2Uoc2VxdWVuY2UsIHJlcG9ydEtleSwgeyBkZWR1cGU6IG9wdGlvbnM/LmRlZHVwZSB9KTsKICB9OwoKICBjb25zdCBoYW5kbGVNb3VzZURvd24gPSAoZXZlbnQ6IE1vdXNlRXZlbnQpID0+IHsKICAgIGlmIChldmVudC5idXR0b24gPT09IDIpIHJldHVybjsKCiAgICBjb25zdCBzdGF0ZSA9IGdldFJlcG9ydGluZ1N0YXRlKCk7CiAgICBpZiAoIXN0YXRlLmVuYWJsZWQpIHJldHVybjsKCiAgICBjb25zdCBidXR0b24gPSBnZXRUZXJtaW5hbE1vdXNlQnV0dG9uKGV2ZW50KTsKICAgIGlmIChidXR0b24gPT09IG51bGwpIHJldHVybjsKCiAgICBjb25zdCBjZWxsID0gZ2V0TW91c2VDZWxsKGV2ZW50KTsKICAgIGlmICghY2VsbCkgcmV0dXJuOwoKICAgIHByZXNzZWRCdXR0b24gPSBidXR0b247CiAgICBsYXN0UmVwb3J0S2V5ID0gIiI7CiAgICBzdG9wTW91c2VFdmVudChldmVudCk7CiAgICBmb2N1c1Rlcm1pbmFsKCk7CiAgICByZXBvcnRNb3VzZUV2ZW50KGV2ZW50LCBzdGF0ZSwgYnV0dG9uLCBjZWxsKTsKICB9OwoKICBjb25zdCBoYW5kbGVNb3VzZU1vdmUgPSAoZXZlbnQ6IE1vdXNlRXZlbnQpID0+IHsKICAgIGNvbnN0IHN0YXRlID0gZ2V0UmVwb3J0aW5nU3RhdGUoKTsKICAgIGlmICghc3RhdGUuZW5hYmxlZCkgcmV0dXJuOwoKICAgIGNvbnN0IHNob3VsZFJlcG9ydCA9CiAgICAgIHN0YXRlLmFueU1vdGlvbiB8fCAoc3RhdGUuYnV0dG9uTW90aW9uICYmIHByZXNzZWRCdXR0b24gIT09IG51bGwpOwogICAgaWYgKCFzaG91bGRSZXBvcnQpIHJldHVybjsKCiAgICBjb25zdCBjZWxsID0gZ2V0TW91c2VDZWxsKGV2ZW50KTsKICAgIGlmICghY2VsbCkgcmV0dXJuOwoKICAgIGNvbnN0IGJ1dHRvbiA9IHByZXNzZWRCdXR0b24gPz8gMDsKICAgIHN0b3BNb3VzZUV2ZW50KGV2ZW50KTsKICAgIHJlcG9ydE1vdXNlRXZlbnQoZXZlbnQsIHN0YXRlLCBidXR0b24gKyBURVJNSU5BTF9NT1VTRV9NT1ZFX0ZMQUcsIGNlbGwpOwogIH07CgogIGNvbnN0IGhhbmRsZU1vdXNlVXAgPSAoZXZlbnQ6IE1vdXNlRXZlbnQpID0+IHsKICAgIGNvbnN0IHN0YXRlID0gZ2V0UmVwb3J0aW5nU3RhdGUoKTsKICAgIGlmICghc3RhdGUuZW5hYmxlZCB8fCBwcmVzc2VkQnV0dG9uID09PSBudWxsKSByZXR1cm47CgogICAgY29uc3QgY2VsbCA9IGdldE1vdXNlQ2VsbChldmVudCwgeyBjbGFtcFRvQ2FudmFzOiB0cnVlIH0pOwogICAgaWYgKCFjZWxsKSByZXR1cm47CgogICAgY29uc3QgYnV0dG9uID0gcHJlc3NlZEJ1dHRvbjsKICAgIHByZXNzZWRCdXR0b24gPSBudWxsOwogICAgc3RvcE1vdXNlRXZlbnQoZXZlbnQpOwogICAgcmVwb3J0TW91c2VFdmVudChldmVudCwgc3RhdGUsIGJ1dHRvbiwgY2VsbCwgeyByZWxlYXNlOiB0cnVlIH0pOwogICAgbGFzdFJlcG9ydEtleSA9ICIiOwogIH07CgogIGNvbnN0IGhhbmRsZU1vdXNlV2hlZWwgPSAoZXZlbnQ6IFdoZWVsRXZlbnQpID0+IHsKICAgIGNvbnN0IHRlcm1pbmFsID0gZ2V0VGVybWluYWwoKTsKICAgIGNvbnN0IHN0YXRlID0gZ2V0UmVwb3J0aW5nU3RhdGUoKTsKICAgIGlmICghc3RhdGUuZW5hYmxlZCkgcmV0dXJuOwoKICAgIGNvbnN0IGNlbGwgPSBnZXRNb3VzZUNlbGwoZXZlbnQpOwogICAgaWYgKCFjZWxsKSByZXR1cm47CgogICAgY29uc3Qgc3RlcHMgPSBnZXRUZXJtaW5hbFdoZWVsU3RlcENvdW50KGV2ZW50LCB7CiAgICAgIHJvd0hlaWdodDogZ2V0Um93SGVpZ2h0KCksCiAgICAgIHJvd3M6IE1hdGgubWF4KDEsIHRlcm1pbmFsPy5yb3dzID8/IDEpLAogICAgfSk7CiAgICBpZiAoc3RlcHMgPD0gMCkgcmV0dXJuOwoKICAgIGNvbnN0IGJ1dHRvbkNvZGUgPQogICAgICAoZXZlbnQuZGVsdGFZIHx8IGV2ZW50LmRlbHRhWCkgPiAwCiAgICAgICAgPyBURVJNSU5BTF9NT1VTRV9XSEVFTF9ET1dOCiAgICAgICAgOiBURVJNSU5BTF9NT1VTRV9XSEVFTF9VUDsKICAgIHN0b3BNb3VzZUV2ZW50KGV2ZW50KTsKICAgIGZvY3VzVGVybWluYWwoKTsKCiAgICBmb3IgKGxldCBpbmRleCA9IDA7IGluZGV4IDwgc3RlcHM7IGluZGV4ICs9IDEpIHsKICAgICAgcmVwb3J0TW91c2VFdmVudChldmVudCwgc3RhdGUsIGJ1dHRvbkNvZGUsIGNlbGwsIHsKICAgICAgICBkZWR1cGU6IGZhbHNlLAogICAgICB9KTsKICAgIH0KICAgIGxhc3RSZXBvcnRLZXkgPSAiIjsKICB9OwoKICBjb25zdCBoYW5kbGVNb3VzZUNsaWNrID0gKGV2ZW50OiBNb3VzZUV2ZW50KSA9PiB7CiAgICBpZiAoZXZlbnQudHlwZSA9PT0gImNvbnRleHRtZW51IikgcmV0dXJuOwoKICAgIGNvbnN0IHN0YXRlID0gZ2V0UmVwb3J0aW5nU3RhdGUoKTsKICAgIGlmICghc3RhdGUuZW5hYmxlZCB8fCAhZ2V0TW91c2VDZWxsKGV2ZW50KSkgcmV0dXJuOwoKICAgIHN0b3BNb3VzZUV2ZW50KGV2ZW50KTsKICAgIGZvY3VzVGVybWluYWwoKTsKICB9OwoKICBjb25zdCBiaW5kID0gKCkgPT4gewogICAgaWYgKHRhcmdldEVsZW1lbnQpIHJldHVybjsKCiAgICBjb25zdCB0YXJnZXQgPSBnZXRGcmFtZUVsZW1lbnQoKSB8fCBnZXRNb3VudEVsZW1lbnQoKTsKICAgIGlmICghdGFyZ2V0KSByZXR1cm47CgogICAgdGFyZ2V0RWxlbWVudCA9IHRhcmdldDsKICAgIHRhcmdldC5hZGRFdmVudExpc3RlbmVyKCJtb3VzZWRvd24iLCBoYW5kbGVNb3VzZURvd24sIHsKICAgICAgY2FwdHVyZTogdHJ1ZSwKICAgIH0pOwogICAgdGFyZ2V0LmFkZEV2ZW50TGlzdGVuZXIoIm1vdXNlbW92ZSIsIGhhbmRsZU1vdXNlTW92ZSwgewogICAgICBjYXB0dXJlOiB0cnVlLAogICAgfSk7CiAgICB0YXJnZXQuYWRkRXZlbnRMaXN0ZW5lcigid2hlZWwiLCBoYW5kbGVNb3VzZVdoZWVsLCB7CiAgICAgIGNhcHR1cmU6IHRydWUsCiAgICAgIHBhc3NpdmU6IGZhbHNlLAogICAgfSk7CiAgICB0YXJnZXQuYWRkRXZlbnRMaXN0ZW5lcigiY2xpY2siLCBoYW5kbGVNb3VzZUNsaWNrLCB7CiAgICAgIGNhcHR1cmU6IHRydWUsCiAgICB9KTsKICAgIHRhcmdldC5hZGRFdmVudExpc3RlbmVyKCJkYmxjbGljayIsIGhhbmRsZU1vdXNlQ2xpY2ssIHsKICAgICAgY2FwdHVyZTogdHJ1ZSwKICAgIH0pOwogICAgdGFyZ2V0LmFkZEV2ZW50TGlzdGVuZXIoImNvbnRleHRtZW51IiwgaGFuZGxlTW91c2VDbGljaywgewogICAgICBjYXB0dXJlOiB0cnVlLAogICAgfSk7CiAgICBkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCJtb3VzZXVwIiwgaGFuZGxlTW91c2VVcCwgewogICAgICBjYXB0dXJlOiB0cnVlLAogICAgfSk7CiAgfTsKCiAgY29uc3QgdW5iaW5kID0gKCkgPT4gewogICAgY29uc3QgdGFyZ2V0ID0gdGFyZ2V0RWxlbWVudDsKICAgIGlmICh0YXJnZXQpIHsKICAgICAgdGFyZ2V0LnJlbW92ZUV2ZW50TGlzdGVuZXIoIm1vdXNlZG93biIsIGhhbmRsZU1vdXNlRG93biwgdHJ1ZSk7CiAgICAgIHRhcmdldC5yZW1vdmVFdmVudExpc3RlbmVyKCJtb3VzZW1vdmUiLCBoYW5kbGVNb3VzZU1vdmUsIHRydWUpOwogICAgICB0YXJnZXQucmVtb3ZlRXZlbnRMaXN0ZW5lcigid2hlZWwiLCBoYW5kbGVNb3VzZVdoZWVsLCB0cnVlKTsKICAgICAgdGFyZ2V0LnJlbW92ZUV2ZW50TGlzdGVuZXIoImNsaWNrIiwgaGFuZGxlTW91c2VDbGljaywgdHJ1ZSk7CiAgICAgIHRhcmdldC5yZW1vdmVFdmVudExpc3RlbmVyKCJkYmxjbGljayIsIGhhbmRsZU1vdXNlQ2xpY2ssIHRydWUpOwogICAgICB0YXJnZXQucmVtb3ZlRXZlbnRMaXN0ZW5lcigiY29udGV4dG1lbnUiLCBoYW5kbGVNb3VzZUNsaWNrLCB0cnVlKTsKICAgIH0KICAgIGRvY3VtZW50LnJlbW92ZUV2ZW50TGlzdGVuZXIoIm1vdXNldXAiLCBoYW5kbGVNb3VzZVVwLCB0cnVlKTsKICAgIHRhcmdldEVsZW1lbnQgPSBudWxsOwogICAgcHJlc3NlZEJ1dHRvbiA9IG51bGw7CiAgICBsYXN0UmVwb3J0S2V5ID0gIiI7CiAgfTsKCiAgcmV0dXJuIHsKICAgIGJpbmQsCiAgICB1bmJpbmQsCiAgfTsKfTsK
+import {
+  LEGACY_MOUSE_SEQUENCE_PREFIX,
+  TERMINAL_MOUSE_MAX_LEGACY_COORD,
+  TERMINAL_MOUSE_MOVE_FLAG,
+  TERMINAL_MOUSE_WHEEL_DOWN,
+  TERMINAL_MOUSE_WHEEL_UP,
+  type TerminalMouseButton,
+  type TerminalMouseCell,
+  type TerminalMouseReportingState,
+} from "./terminal-runtime";
+
+type MouseModifierEvent = Pick<
+  MouseEvent,
+  "altKey" | "ctrlKey" | "metaKey" | "shiftKey"
+>;
+
+export const getTerminalMouseButton = (
+  event: Pick<MouseEvent, "button">,
+): TerminalMouseButton | null => {
+  if (event.button === 0) return 0;
+  if (event.button === 1) return 1;
+  if (event.button === 2) return 2;
+  return null;
+};
+
+export const getTerminalMouseModifierCode = (
+  event: MouseModifierEvent,
+): number => {
+  let code = 0;
+  if (event.shiftKey) code += 4;
+  if (event.altKey || event.metaKey) code += 8;
+  if (event.ctrlKey) code += 16;
+  return code;
+};
+
+export const buildTerminalMouseSequence = (
+  event: MouseModifierEvent,
+  state: TerminalMouseReportingState,
+  buttonCode: number,
+  cell: TerminalMouseCell,
+  options?: { release?: boolean },
+): string => {
+  const code = buttonCode + getTerminalMouseModifierCode(event);
+  if (state.sgr) {
+    return `\u001b[<${code};${cell.col};${cell.row}${
+      options?.release ? "m" : "M"
+    }`;
+  }
+
+  if (
+    cell.col > TERMINAL_MOUSE_MAX_LEGACY_COORD ||
+    cell.row > TERMINAL_MOUSE_MAX_LEGACY_COORD
+  ) {
+    return "";
+  }
+
+  const legacyCode =
+    (options?.release ? 3 : buttonCode) + getTerminalMouseModifierCode(event);
+  return `${LEGACY_MOUSE_SEQUENCE_PREFIX}${String.fromCharCode(
+    legacyCode + 32,
+    cell.col + 32,
+    cell.row + 32,
+  )}`;
+};
+
+export const getTerminalWheelStepCount = (
+  event: WheelEvent,
+  metrics: { rowHeight: number; rows: number },
+): number => {
+  const delta = Math.max(Math.abs(event.deltaY), Math.abs(event.deltaX));
+  if (delta <= 0) return 0;
+
+  if (event.deltaMode === WheelEvent.DOM_DELTA_LINE) {
+    return Math.min(5, Math.max(1, Math.round(delta)));
+  }
+
+  if (event.deltaMode === WheelEvent.DOM_DELTA_PAGE) {
+    return Math.min(5, Math.max(1, Math.round(delta * metrics.rows)));
+  }
+
+  return Math.min(5, Math.max(1, Math.round(delta / metrics.rowHeight)));
+};
+
+type TerminalMouseReporterTerminal = {
+  cols: number;
+  rows: number;
+  getMode: (mode: number, defaultValue: boolean) => boolean;
+  hasMouseTracking?: () => boolean;
+};
+
+export const createTerminalMouseReporter = ({
+  focusTerminal,
+  getFrameElement,
+  getMountElement,
+  getRowHeight,
+  getTerminal,
+  queueInput,
+}: {
+  focusTerminal: () => void;
+  getFrameElement: () => HTMLElement | null;
+  getMountElement: () => HTMLElement | null;
+  getRowHeight: () => number;
+  getTerminal: () => TerminalMouseReporterTerminal | null;
+  queueInput: (payload: string) => void;
+}) => {
+  let targetElement: HTMLElement | null = null;
+  let pressedButton: TerminalMouseButton | null = null;
+  let lastReportKey = "";
+
+  const isModeEnabled = (mode: number): boolean => {
+    try {
+      return getTerminal()?.getMode(mode, false) === true;
+    } catch {
+      return false;
+    }
+  };
+
+  const getReportingState = (): TerminalMouseReportingState => {
+    const normal = isModeEnabled(1000);
+    const buttonMotion = isModeEnabled(1002);
+    const anyMotion = isModeEnabled(1003);
+    const sgr = isModeEnabled(1006);
+
+    let enabled = normal || buttonMotion || anyMotion;
+    try {
+      if (getTerminal()?.hasMouseTracking?.() === true) {
+        enabled = true;
+      }
+    } catch {
+      // Mode queries can throw while the terminal is being opened or disposed.
+    }
+
+    return {
+      enabled,
+      sgr,
+      buttonMotion,
+      anyMotion,
+    };
+  };
+
+  const getCanvas = (): HTMLCanvasElement | null => {
+    const canvas = getMountElement()?.querySelector("canvas");
+    return canvas instanceof HTMLCanvasElement ? canvas : null;
+  };
+
+  const getMouseCell = (
+    event: MouseEvent,
+    options?: { clampToCanvas?: boolean },
+  ): TerminalMouseCell | null => {
+    const terminal = getTerminal();
+    if (!terminal) return null;
+
+    const canvas = getCanvas();
+    if (!canvas) return null;
+
+    const rect = canvas.getBoundingClientRect();
+    if (
+      rect.width <= 0 ||
+      rect.height <= 0 ||
+      terminal.cols <= 0 ||
+      terminal.rows <= 0
+    ) {
+      return null;
+    }
+
+    const inside =
+      event.clientX >= rect.left &&
+      event.clientX <= rect.right &&
+      event.clientY >= rect.top &&
+      event.clientY <= rect.bottom;
+    if (!inside && !options?.clampToCanvas) return null;
+
+    const clientX = Math.min(Math.max(event.clientX, rect.left), rect.right);
+    const clientY = Math.min(Math.max(event.clientY, rect.top), rect.bottom);
+    const cellWidth = rect.width / terminal.cols;
+    const cellHeight = rect.height / terminal.rows;
+    const col = Math.min(
+      terminal.cols,
+      Math.max(1, Math.floor((clientX - rect.left) / cellWidth) + 1),
+    );
+    const row = Math.min(
+      terminal.rows,
+      Math.max(1, Math.floor((clientY - rect.top) / cellHeight) + 1),
+    );
+
+    return { col, row };
+  };
+
+  const stopMouseEvent = (event: Event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    event.stopImmediatePropagation();
+  };
+
+  const queueMouseSequence = (
+    sequence: string,
+    reportKey: string,
+    options?: { dedupe?: boolean },
+  ) => {
+    if (
+      !sequence ||
+      (options?.dedupe !== false && reportKey === lastReportKey)
+    ) {
+      return;
+    }
+    lastReportKey = reportKey;
+    queueInput(sequence);
+  };
+
+  const reportMouseEvent = (
+    event: MouseEvent,
+    state: TerminalMouseReportingState,
+    buttonCode: number,
+    cell: TerminalMouseCell,
+    options?: { release?: boolean; dedupe?: boolean },
+  ) => {
+    const sequence = buildTerminalMouseSequence(
+      event,
+      state,
+      buttonCode,
+      cell,
+      {
+        release: options?.release,
+      },
+    );
+    const reportKey = [
+      options?.release ? "release" : "press",
+      buttonCode,
+      cell.col,
+      cell.row,
+      getTerminalMouseModifierCode(event),
+    ].join(":");
+    queueMouseSequence(sequence, reportKey, { dedupe: options?.dedupe });
+  };
+
+  const handleMouseDown = (event: MouseEvent) => {
+    if (event.button === 2) return;
+
+    const state = getReportingState();
+    if (!state.enabled) return;
+
+    const button = getTerminalMouseButton(event);
+    if (button === null) return;
+
+    const cell = getMouseCell(event);
+    if (!cell) return;
+
+    pressedButton = button;
+    lastReportKey = "";
+    stopMouseEvent(event);
+    focusTerminal();
+    reportMouseEvent(event, state, button, cell);
+  };
+
+  const handleMouseMove = (event: MouseEvent) => {
+    const state = getReportingState();
+    if (!state.enabled) return;
+
+    const shouldReport =
+      state.anyMotion || (state.buttonMotion && pressedButton !== null);
+    if (!shouldReport) return;
+
+    const cell = getMouseCell(event);
+    if (!cell) return;
+
+    const button = pressedButton ?? 0;
+    stopMouseEvent(event);
+    reportMouseEvent(event, state, button + TERMINAL_MOUSE_MOVE_FLAG, cell);
+  };
+
+  const handleMouseUp = (event: MouseEvent) => {
+    const state = getReportingState();
+    if (!state.enabled || pressedButton === null) return;
+
+    const cell = getMouseCell(event, { clampToCanvas: true });
+    if (!cell) return;
+
+    const button = pressedButton;
+    pressedButton = null;
+    stopMouseEvent(event);
+    reportMouseEvent(event, state, button, cell, { release: true });
+    lastReportKey = "";
+  };
+
+  const handleMouseWheel = (event: WheelEvent) => {
+    const terminal = getTerminal();
+    const state = getReportingState();
+    if (!state.enabled) return;
+
+    const cell = getMouseCell(event);
+    if (!cell) return;
+
+    const steps = getTerminalWheelStepCount(event, {
+      rowHeight: getRowHeight(),
+      rows: Math.max(1, terminal?.rows ?? 1),
+    });
+    if (steps <= 0) return;
+
+    const buttonCode =
+      (event.deltaY || event.deltaX) > 0
+        ? TERMINAL_MOUSE_WHEEL_DOWN
+        : TERMINAL_MOUSE_WHEEL_UP;
+    stopMouseEvent(event);
+    focusTerminal();
+
+    for (let index = 0; index < steps; index += 1) {
+      reportMouseEvent(event, state, buttonCode, cell, {
+        dedupe: false,
+      });
+    }
+    lastReportKey = "";
+  };
+
+  const handleMouseClick = (event: MouseEvent) => {
+    if (event.type === "contextmenu") return;
+
+    const state = getReportingState();
+    if (!state.enabled || !getMouseCell(event)) return;
+
+    stopMouseEvent(event);
+    focusTerminal();
+  };
+
+  const bind = () => {
+    if (targetElement) return;
+
+    const target = getFrameElement() || getMountElement();
+    if (!target) return;
+
+    targetElement = target;
+    target.addEventListener("mousedown", handleMouseDown, {
+      capture: true,
+    });
+    target.addEventListener("mousemove", handleMouseMove, {
+      capture: true,
+    });
+    target.addEventListener("wheel", handleMouseWheel, {
+      capture: true,
+      passive: false,
+    });
+    target.addEventListener("click", handleMouseClick, {
+      capture: true,
+    });
+    target.addEventListener("dblclick", handleMouseClick, {
+      capture: true,
+    });
+    target.addEventListener("contextmenu", handleMouseClick, {
+      capture: true,
+    });
+    document.addEventListener("mouseup", handleMouseUp, {
+      capture: true,
+    });
+  };
+
+  const unbind = () => {
+    const target = targetElement;
+    if (target) {
+      target.removeEventListener("mousedown", handleMouseDown, true);
+      target.removeEventListener("mousemove", handleMouseMove, true);
+      target.removeEventListener("wheel", handleMouseWheel, true);
+      target.removeEventListener("click", handleMouseClick, true);
+      target.removeEventListener("dblclick", handleMouseClick, true);
+      target.removeEventListener("contextmenu", handleMouseClick, true);
+    }
+    document.removeEventListener("mouseup", handleMouseUp, true);
+    targetElement = null;
+    pressedButton = null;
+    lastReportKey = "";
+  };
+
+  return {
+    bind,
+    unbind,
+  };
+};

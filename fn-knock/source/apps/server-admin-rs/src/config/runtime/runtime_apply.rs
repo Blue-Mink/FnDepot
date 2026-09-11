@@ -1,1 +1,721 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBsb2dfZ29fdmFsdWVfcmVzdWx0KHJlc3VsdDogUmVzdWx0PFZhbHVlLCBTdHJpbmc+LCBvcGVyYXRpb246ICYnc3RhdGljIHN0cikgewogICAgbWF0Y2ggcmVzdWx0IHsKICAgICAgICBPayh2YWx1ZSkgPT4gewogICAgICAgICAgICBpZiBsZXQgRXJyKGVycm9yKSA9IGVuc3VyZV9nb19zdWNjZXNzKHZhbHVlKSB7CiAgICAgICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsIG9wZXJhdGlvbiwgImdvIGJhY2tlbmQgY2FsbCBmYWlsZWQgZHVyaW5nIHJ1biB0eXBlIGFwcGx5Iik7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgb3BlcmF0aW9uLCAiZ28gYmFja2VuZCByZXF1ZXN0IGZhaWxlZCBkdXJpbmcgcnVuIHR5cGUgYXBwbHkiKTsKICAgICAgICB9CiAgICB9Cn0KCnB1YihzdXBlcikgZm4gbG9nX2dvX3N0YXR1c192YWx1ZV9yZXN1bHQoCiAgICByZXN1bHQ6IFJlc3VsdDwocmVxd2VzdDo6U3RhdHVzQ29kZSwgVmFsdWUpLCBTdHJpbmc+LAogICAgb3BlcmF0aW9uOiAmJ3N0YXRpYyBzdHIsCikgewogICAgbWF0Y2ggcmVzdWx0IHsKICAgICAgICBPaygoc3RhdHVzLCB2YWx1ZSkpID0+IHsKICAgICAgICAgICAgaWYgIXN0YXR1cy5pc19zdWNjZXNzKCkgewogICAgICAgICAgICAgICAgbGV0IGVycm9yID0gZ29fcmVzcG9uc2VfbWVzc2FnZSgmdmFsdWUsICZmb3JtYXQhKCJnbyBiYWNrZW5kIHJldHVybmVkIHtzdGF0dXN9IikpOwogICAgICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCBvcGVyYXRpb24sICJnbyBiYWNrZW5kIGNhbGwgZmFpbGVkIGR1cmluZyBydW4gdHlwZSBhcHBseSIpOwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIGxldCBFcnIoZXJyb3IpID0gZW5zdXJlX2dvX3N1Y2Nlc3ModmFsdWUpIHsKICAgICAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgb3BlcmF0aW9uLCAiZ28gYmFja2VuZCBjYWxsIGZhaWxlZCBkdXJpbmcgcnVuIHR5cGUgYXBwbHkiKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCBvcGVyYXRpb24sICJnbyBiYWNrZW5kIHJlcXVlc3QgZmFpbGVkIGR1cmluZyBydW4gdHlwZSBhcHBseSIpOwogICAgICAgIH0KICAgIH0KfQoKcHViKGNyYXRlKSBhc3luYyBmbiBhcHBseV9ydW5fdHlwZV9jb25maWcoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgX2NvbmZpZzogJlZhbHVlLAogICAgX3J1bl90eXBlOiBpNjQsCikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIHByb3h5X2NvbmZpZzo6d2l0aF9ob3N0X21hcHBpbmdzX3J1bnRpbWVfdHJhbnNhY3Rpb24oc3RhdGUsIHxzdGF0ZXwgYXN5bmMgbW92ZSB7CiAgICAgICAgbGV0IGN1cnJlbnRfY29uZmlnID0gc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5nZXRfY29uZmlnKCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgICAgICBsZXQgY3VycmVudF9ydW5fdHlwZSA9IGN1cnJlbnRfY29uZmlnCiAgICAgICAgICAgIC5nZXQoInJ1bl90eXBlIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19pNjQpCiAgICAgICAgICAgIC51bndyYXBfb3IoMyk7CiAgICAgICAgYXBwbHlfcnVuX3R5cGVfY29uZmlnX2lubmVyKCZzdGF0ZSwgJmN1cnJlbnRfY29uZmlnLCBjdXJyZW50X3J1bl90eXBlLCB0cnVlKS5hd2FpdAogICAgfSkKICAgIC5hd2FpdAp9CgpwdWIoY3JhdGUpIGFzeW5jIGZuIGFwcGx5X3J1bl90eXBlX2NvbmZpZ193aXRoX2hvc3RfcnVsZXNfbG9jaygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBjb25maWc6ICZWYWx1ZSwKICAgIHJ1bl90eXBlOiBpNjQsCikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGFwcGx5X3J1bl90eXBlX2NvbmZpZ19pbm5lcihzdGF0ZSwgY29uZmlnLCBydW5fdHlwZSwgdHJ1ZSkuYXdhaXQKfQoKYXN5bmMgZm4gYXBwbHlfcnVuX3R5cGVfY29uZmlnX2lubmVyKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGNvbmZpZzogJlZhbHVlLAogICAgcnVuX3R5cGU6IGk2NCwKICAgIGhvc3RfcnVsZXNfbG9ja19oZWxkOiBib29sLAopIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBsZXQgcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlID0gbG9hZF9wcm90b2NvbF9tYXBwaW5nX2ZlYXR1cmUoc3RhdGUsIFNvbWUoY29uZmlnKSkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICBsZXQgcHJvdG9jb2xfbWFwcGluZ19lbmFibGVkID0gcnVuX3R5cGUgPT0gMwogICAgICAgICYmIHByb3RvY29sX21hcHBpbmdfZmVhdHVyZQogICAgICAgICAgICAuZ2V0KCJlbmFibGVkIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgICAgICA9PSBTb21lKHRydWUpOwogICAgaWYgcHJvdG9jb2xfbWFwcGluZ19lbmFibGVkIHsKICAgICAgICBwcm94eV9jb25maWc6OnZhbGlkYXRlX3N0cmVhbV9tYXBwaW5nX3J1bnRpbWVfc2FmZXR5KGNvbmZpZykKICAgICAgICAgICAgLm1hcF9lcnIocHJveHlfY29uZmlnOjptYXJrX3N0cmVhbV9tYXBwaW5nX3J1bnRpbWVfZXJyb3IpPzsKICAgIH0KCiAgICBsb2dfZ29fdmFsdWVfcmVzdWx0KAogICAgICAgIHN0YXRlCiAgICAgICAgICAgIC5nYXRld2F5CiAgICAgICAgICAgIC5jbGllbnQKICAgICAgICAgICAgLnNldF9hdXRoX2NvbmZpZygmYnVpbGRfZ2F0ZXdheV9hdXRoX2NvbmZpZyhjb25maWcpKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSksCiAgICAgICAgInN5bmMgYXV0aCBnYXRld2F5IGNvbmZpZyIsCiAgICApOwogICAgbGV0IGRlZmF1bHRfdGhyb3R0bGUgPSBnYXRld2F5X3NldHRpbmdzOjpkZWZhdWx0X3JldmVyc2VfcHJveHlfdGhyb3R0bGUoKTsKICAgIGxldCB0aHJvdHRsZSA9IGNvbmZpZwogICAgICAgIC5nZXQoInJldmVyc2VfcHJveHlfdGhyb3R0bGUiKQogICAgICAgIC51bndyYXBfb3IoJmRlZmF1bHRfdGhyb3R0bGUpOwogICAgbG9nX2dvX3ZhbHVlX3Jlc3VsdCgKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAuY2xpZW50CiAgICAgICAgICAgIC5zZXRfcmV2ZXJzZV9wcm94eV90aHJvdHRsZSh0aHJvdHRsZSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpLAogICAgICAgICJzeW5jIHJldmVyc2UgcHJveHkgdGhyb3R0bGUiLAogICAgKTsKICAgIGxldCBkZWZhdWx0X2NyYXdsZXIgPSBqc29uISh7ICJlbmFibGVkIjogZmFsc2UgfSk7CiAgICBsZXQgY3Jhd2xlciA9IGNvbmZpZwogICAgICAgIC5nZXQoImdhdGV3YXlfY3Jhd2xlcl9ibG9ja2VyIikKICAgICAgICAudW53cmFwX29yKCZkZWZhdWx0X2NyYXdsZXIpOwogICAgbG9nX2dvX3ZhbHVlX3Jlc3VsdCgKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAuY2xpZW50CiAgICAgICAgICAgIC5zZXRfY3Jhd2xlcl9ibG9ja2VyX2NvbmZpZyhjcmF3bGVyKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSksCiAgICAgICAgInN5bmMgY3Jhd2xlciBibG9ja2VyIGNvbmZpZyIsCiAgICApOwogICAgd2hpdGVsaXN0OjpzeW5jX3JldmVyc2VfcHJveHlfdHJ1c3RlZF9pcHMoc3RhdGUpLmF3YWl0OwogICAgaWYgbGV0IEVycihlcnJvcikgPSBnYXRld2F5X3NldHRpbmdzOjpzeW5jX2dhdGV3YXlfdmlzaWJpbGl0eV9ydW50aW1lX2Zyb21fc3RvcmUoc3RhdGUpLmF3YWl0IHsKICAgICAgICB0cmFjaW5nOjp3YXJuISgKICAgICAgICAgICAgJWVycm9yLAogICAgICAgICAgICAiZmFpbGVkIHRvIHN5bmMgZ2F0ZXdheSB2aXNpYmlsaXR5IHJ1bnRpbWUgZHVyaW5nIHJ1biB0eXBlIGFwcGx5IgogICAgICAgICk7CiAgICB9CiAgICBpZiBsZXQgRXJyKGVycm9yKSA9IGdhdGV3YXlfc2V0dGluZ3M6OnN5bmNfZ2F0ZXdheV90YXJnZXRfcnVudGltZV9mb3JfY29uZmlnKAogICAgICAgIHN0YXRlLAogICAgICAgIGNvbmZpZywKICAgICAgICBmYWxzZSwKICAgICAgICBob3N0X3J1bGVzX2xvY2tfaGVsZCwKICAgICkKICAgIC5hd2FpdAogICAgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKAogICAgICAgICAgICAlZXJyb3IsCiAgICAgICAgICAgICJmYWlsZWQgdG8gc3luYyBnYXRld2F5IHRhcmdldCBydW50aW1lIGR1cmluZyBydW4gdHlwZSBhcHBseSIKICAgICAgICApOwogICAgfQoKICAgIGlmIHJ1bl90eXBlID09IDEgewogICAgICAgIGxvZ19nb192YWx1ZV9yZXN1bHQoCiAgICAgICAgICAgIHN0YXRlCiAgICAgICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAgICAgLmNsaWVudAogICAgICAgICAgICAgICAgLnNldF9wcm94eV9wcm90b2NvbF9mb3JjZSh0cnVlKQogICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgImVuYWJsZSBwcm94eSBwcm90b2NvbCBmb3JjZSIsCiAgICAgICAgKTsKICAgICAgICBkaXNhYmxlX3N0cmVhbV9ydWxlcyhzdGF0ZSkuYXdhaXQ/OwoKICAgICAgICBpZiBpc19yZXZlcnNlX3Byb3h5X3N1YmRvbWFpbl9tb2RlKGNvbmZpZykgewogICAgICAgICAgICBsb2dfZ29fdmFsdWVfcmVzdWx0KAogICAgICAgICAgICAgICAgc3RhdGUKICAgICAgICAgICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAgICAgICAgIC5jbGllbnQKICAgICAgICAgICAgICAgICAgICAuZmx1c2hfcnVsZXMoKQogICAgICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAgICAgImZsdXNoIHBhdGggcnVsZXMiLAogICAgICAgICAgICApOwogICAgICAgICAgICBzeW5jX2hvc3RfcnVsZXMoc3RhdGUsIGNvbmZpZywgaG9zdF9ydWxlc19sb2NrX2hlbGQpLmF3YWl0PzsKICAgICAgICAgICAgbG9nX2dvX3N0YXR1c192YWx1ZV9yZXN1bHQoCiAgICAgICAgICAgICAgICBzdGF0ZQogICAgICAgICAgICAgICAgICAgIC5nYXRld2F5CiAgICAgICAgICAgICAgICAgICAgLmNsaWVudAogICAgICAgICAgICAgICAgICAgIC5zZXRfZGVmYXVsdF9yb3V0ZSgiL19fc2VsZWN0X18iKQogICAgICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAgICAgInN5bmMgZGlzYWJsZWQgZGVmYXVsdCByb3V0ZSIsCiAgICAgICAgICAgICk7CiAgICAgICAgICAgIHJldHVybiBPaygoKSk7CiAgICAgICAgfQoKICAgICAgICBzeW5jX2hvc3RfcnVsZXMoc3RhdGUsIGNvbmZpZywgaG9zdF9ydWxlc19sb2NrX2hlbGQpLmF3YWl0PzsKICAgICAgICBzeW5jX3BhdGhfcnVsZXMoc3RhdGUsIGNvbmZpZykuYXdhaXQ7CiAgICAgICAgc3luY19kZWZhdWx0X3JvdXRlKHN0YXRlLCBjb25maWcpLmF3YWl0OwogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CgogICAgbG9nX2dvX3ZhbHVlX3Jlc3VsdCgKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAuY2xpZW50CiAgICAgICAgICAgIC5zZXRfcHJveHlfcHJvdG9jb2xfZm9yY2UoZmFsc2UpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKSwKICAgICAgICAiZGlzYWJsZSBwcm94eSBwcm90b2NvbCBmb3JjZSIsCiAgICApOwoKICAgIGlmIHJ1bl90eXBlID09IDMgewogICAgICAgIGxvZ19nb192YWx1ZV9yZXN1bHQoCiAgICAgICAgICAgIHN0YXRlCiAgICAgICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAgICAgLmNsaWVudAogICAgICAgICAgICAgICAgLmZsdXNoX3J1bGVzKCkKICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSksCiAgICAgICAgICAgICJmbHVzaCBwYXRoIHJ1bGVzIiwKICAgICAgICApOwogICAgICAgIGlmICFwcm90b2NvbF9tYXBwaW5nX2VuYWJsZWQgewogICAgICAgICAgICBkaXNhYmxlX3N0cmVhbV9ydWxlcyhzdGF0ZSkuYXdhaXQ/OwogICAgICAgIH0KICAgICAgICBzeW5jX2hvc3RfcnVsZXMoc3RhdGUsIGNvbmZpZywgaG9zdF9ydWxlc19sb2NrX2hlbGQpLmF3YWl0PzsKICAgICAgICBpZiBwcm90b2NvbF9tYXBwaW5nX2VuYWJsZWQgewogICAgICAgICAgICBzeW5jX3N0cmVhbV9ydWxlcyhzdGF0ZSwgY29uZmlnLCAmcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlKQogICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICAubWFwX2Vycihwcm94eV9jb25maWc6Om1hcmtfc3RyZWFtX21hcHBpbmdfcnVudGltZV9lcnJvcik/OwogICAgICAgIH0KICAgICAgICBzeW5jX2RlZmF1bHRfcm91dGUoc3RhdGUsIGNvbmZpZykuYXdhaXQ7CiAgICAgICAgbWF5YmVfYXBwbHlfaG9zdF9maXJld2FsbChzdGF0ZSwgY29uZmlnLCBydW5fdHlwZSwgcHJvdG9jb2xfbWFwcGluZ19lbmFibGVkKS5hd2FpdD87CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH0KCiAgICBzeW5jX2hvc3RfcnVsZXMoc3RhdGUsIGNvbmZpZywgaG9zdF9ydWxlc19sb2NrX2hlbGQpLmF3YWl0PzsKICAgIGRpc2FibGVfc3RyZWFtX3J1bGVzKHN0YXRlKS5hd2FpdD87CiAgICBzeW5jX3BhdGhfcnVsZXMoc3RhdGUsIGNvbmZpZykuYXdhaXQ7CiAgICBzeW5jX2RlZmF1bHRfcm91dGUoc3RhdGUsIGNvbmZpZykuYXdhaXQ7CiAgICBpZiBydW5fdHlwZSA9PSAwIHsKICAgICAgICBzeW5jX2F1dGhfZW50cnlfcm91dGUoc3RhdGUpLmF3YWl0OwogICAgfQogICAgbWF5YmVfYXBwbHlfaG9zdF9maXJld2FsbChzdGF0ZSwgY29uZmlnLCBydW5fdHlwZSwgcHJvdG9jb2xfbWFwcGluZ19lbmFibGVkKS5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHN5bmNfcGF0aF9ydWxlcyhzdGF0ZTogJkFwcFN0YXRlLCBjb25maWc6ICZWYWx1ZSkgewogICAgbG9nX2dvX3ZhbHVlX3Jlc3VsdCgKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAuY2xpZW50CiAgICAgICAgICAgIC5zZXRfcnVsZXMoCiAgICAgICAgICAgICAgICBjb25maWcKICAgICAgICAgICAgICAgICAgICAuZ2V0KCJwcm94eV9tYXBwaW5ncyIpCiAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcigmVmFsdWU6OkFycmF5KFZlYzo6bmV3KCkpKSwKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSksCiAgICAgICAgInN5bmMgcGF0aCBydWxlcyIsCiAgICApOwp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHN5bmNfaG9zdF9ydWxlcygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBjb25maWc6ICZWYWx1ZSwKICAgIGhvc3RfcnVsZXNfbG9ja19oZWxkOiBib29sLAopIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBpZiBob3N0X3J1bGVzX2xvY2tfaGVsZCB7CiAgICAgICAgcHJveHlfY29uZmlnOjpzeW5jX2dvX2hvc3RfcnVsZXNfZm9yX2NvbmZpZ19sb2NrZWQoc3RhdGUsIGNvbmZpZykuYXdhaXQKICAgIH0gZWxzZSB7CiAgICAgICAgcHJveHlfY29uZmlnOjpzeW5jX2N1cnJlbnRfZ29faG9zdF9ydWxlcyhzdGF0ZSkuYXdhaXQKICAgIH0KfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzeW5jX3N0cmVhbV9ydWxlcygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBjb25maWc6ICZWYWx1ZSwKICAgIHByb3RvY29sX21hcHBpbmdfZmVhdHVyZTogJlZhbHVlLAopIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBsZXQgcGF5bG9hZCA9IGpzb24hKHsKICAgICAgICAiaXRlbXMiOiBjb25maWcKICAgICAgICAgICAgLmdldCgic3RyZWFtX21hcHBpbmdzIikKICAgICAgICAgICAgLnVud3JhcF9vcigmVmFsdWU6OkFycmF5KFZlYzo6bmV3KCkpKSwKICAgICAgICAiYXZhaWxhYmlsaXR5IjogcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlCiAgICAgICAgICAgIC5nZXQoImF2YWlsYWJpbGl0eSIpCiAgICAgICAgICAgIC5jbG9uZWQoKQogICAgICAgICAgICAudW53cmFwX29yKFZhbHVlOjpOdWxsKSwKICAgICAgICAiYWNjZXNzX3BvbGljaWVzIjogY29uZmlnCiAgICAgICAgICAgIC5nZXQoInN0cmVhbV9hY2Nlc3NfcG9saWNpZXMiKQogICAgICAgICAgICAuY2xvbmVkKCkKICAgICAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IFZhbHVlOjpBcnJheShWZWM6Om5ldygpKSksCiAgICB9KTsKICAgIGVuc3VyZV9nb19zdWNjZXNzKAogICAgICAgIHN0YXRlCiAgICAgICAgICAgIC5nYXRld2F5CiAgICAgICAgICAgIC5jbGllbnQKICAgICAgICAgICAgLnNldF9zdHJlYW1fcnVsZXMoJnBheWxvYWQpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT8sCiAgICApCiAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGRpc2FibGVfc3RyZWFtX3J1bGVzKHN0YXRlOiAmQXBwU3RhdGUpIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBlbnN1cmVfZ29fc3VjY2VzcygKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAuY2xpZW50CiAgICAgICAgICAgIC5mbHVzaF9zdHJlYW1fcnVsZXMoKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/LAogICAgKQogICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzeW5jX2F1dGhfZW50cnlfcm91dGUoc3RhdGU6ICZBcHBTdGF0ZSkgewogICAgbG9nX2dvX3ZhbHVlX3Jlc3VsdCgKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAuY2xpZW50CiAgICAgICAgICAgIC5zZXRfcnVsZXMoJmF1dGhfZW50cnlfcm91dGVfcGF5bG9hZChzdGF0ZS5zZXR0aW5ncy5hdXRoX3BvcnQpKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSksCiAgICAgICAgInN5bmMgYXV0aCBlbnRyeSByb3V0ZSIsCiAgICApOwogICAgbG9nX2dvX3N0YXR1c192YWx1ZV9yZXN1bHQoCiAgICAgICAgc3RhdGUKICAgICAgICAgICAgLmdhdGV3YXkKICAgICAgICAgICAgLmNsaWVudAogICAgICAgICAgICAuc2V0X2RlZmF1bHRfcm91dGUoIi9hdXRoIikKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpLAogICAgICAgICJzeW5jIGF1dGggZGVmYXVsdCByb3V0ZSIsCiAgICApOwp9CgpwdWIoc3VwZXIpIGZuIGF1dGhfZW50cnlfcm91dGVfcGF5bG9hZChhdXRoX3BvcnQ6IHUxNikgLT4gVmFsdWUgewogICAganNvbiEoW3sKICAgICAgICAicGF0aCI6ICIvYXV0aCIsCiAgICAgICAgInRhcmdldCI6IGZvcm1hdCEoImh0dHA6Ly8xMjcuMC4wLjE6e2F1dGhfcG9ydH0iKSwKICAgICAgICAicmV3cml0ZV9odG1sIjogZmFsc2UsCiAgICAgICAgInVzZV9hdXRoIjogZmFsc2UsCiAgICAgICAgInVzZV9yb290X21vZGUiOiBmYWxzZSwKICAgICAgICAic3RyaXBfcGF0aCI6IGZhbHNlLAogICAgfV0pCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc3luY19kZWZhdWx0X3JvdXRlKHN0YXRlOiAmQXBwU3RhdGUsIGNvbmZpZzogJlZhbHVlKSB7CiAgICBsZXQgcm91dGUgPSBjb25maWcKICAgICAgICAuZ2V0KCJkZWZhdWx0X3JvdXRlIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAudW53cmFwX29yKCIvX19zZWxlY3RfXyIpOwogICAgbG9nX2dvX3N0YXR1c192YWx1ZV9yZXN1bHQoCiAgICAgICAgc3RhdGUKICAgICAgICAgICAgLmdhdGV3YXkKICAgICAgICAgICAgLmNsaWVudAogICAgICAgICAgICAuc2V0X2RlZmF1bHRfcm91dGUocm91dGUpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKSwKICAgICAgICAic3luYyBkZWZhdWx0IHJvdXRlIiwKICAgICk7Cn0KCnB1YihzdXBlcikgYXN5bmMgZm4gbWF5YmVfYXBwbHlfaG9zdF9maXJld2FsbCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBjb25maWc6ICZWYWx1ZSwKICAgIHJ1bl90eXBlOiBpNjQsCiAgICBwcm90b2NvbF9tYXBwaW5nX2VuYWJsZWQ6IGJvb2wsCikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGlmICFob3N0X2ZpcmV3YWxsX2F2YWlsYWJsZShzdGF0ZSkgewogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CiAgICBpZiBydW5fdHlwZSAhPSAwICYmICFub3JtYWxpemVfYXV0b19tYW5hZ2VfZmlyZXdhbGwoY29uZmlnLmdldCgiYXV0b19tYW5hZ2VfZmlyZXdhbGwiKSkgewogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CiAgICBpZiBydW5fdHlwZSA9PSAxIHsKICAgICAgICBjbGVhcl9sZWdhY3lfZ2F0ZXdheV9yZWRpcmVjdHMoc3RhdGUsIGdhdGV3YXlfcG9ydCgpLCBmYWxzZSkuYXdhaXQ/OwogICAgICAgIGxvZ19nb192YWx1ZV9yZXN1bHQoCiAgICAgICAgICAgIHN0YXRlCiAgICAgICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAgICAgLmNsaWVudAogICAgICAgICAgICAgICAgLmNsZWFuX2lwdGFibGVzKCkKICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSksCiAgICAgICAgICAgICJjbGVhbiBpcHRhYmxlcyIsCiAgICAgICAgKTsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQogICAgbGV0IHBheWxvYWQgPSBqc29uISh7CiAgICAgICAgImNoYWluX25hbWUiOiAiRk4tS05PQ0stRlciLAogICAgICAgICJwYXJlbnRfY2hhaW4iOiBbIklOUFVUIiwgIkRPQ0tFUi1VU0VSIl0sCiAgICAgICAgImV4ZW1wdF9wb3J0cyI6IGV4ZW1wdF9wb3J0cyhjb25maWcsIHByb3RvY29sX21hcHBpbmdfZW5hYmxlZCwgcnVuX3R5cGUpLAogICAgfSk7CiAgICBpZiBydW5fdHlwZSA9PSAzIHsKICAgICAgICBsb2dfZ29fdmFsdWVfcmVzdWx0KAogICAgICAgICAgICBzdGF0ZQogICAgICAgICAgICAgICAgLmdhdGV3YXkKICAgICAgICAgICAgICAgIC5jbGllbnQKICAgICAgICAgICAgICAgIC5pbml0X2lwdGFibGVzKCZwYXlsb2FkKQogICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgImluaXQgZGVmYXVsdCBmaXJld2FsbCIsCiAgICAgICAgKTsKICAgICAgICBjbGVhcl9sZWdhY3lfZ2F0ZXdheV9yZWRpcmVjdHMoc3RhdGUsIGdhdGV3YXlfcG9ydCgpLCBmYWxzZSkuYXdhaXQ/OwogICAgICAgIHN5bmNfYWN0aXZlX3doaXRlbGlzdF90YXJnZXRzKHN0YXRlLCBmYWxzZSkuYXdhaXQ/OwogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CgogICAgY2xlYXJfbGVnYWN5X2dhdGV3YXlfcmVkaXJlY3RzKHN0YXRlLCBnYXRld2F5X3BvcnQoKSwgZmFsc2UpLmF3YWl0PzsKICAgIGxvZ19nb192YWx1ZV9yZXN1bHQoCiAgICAgICAgc3RhdGUKICAgICAgICAgICAgLmdhdGV3YXkKICAgICAgICAgICAgLmNsaWVudAogICAgICAgICAgICAuaW5pdF9pcHRhYmxlcygmcGF5bG9hZCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpLAogICAgICAgICJpbml0IGRlZmF1bHQgZmlyZXdhbGwiLAogICAgKTsKICAgIHN5bmNfYWN0aXZlX3doaXRlbGlzdF90YXJnZXRzKHN0YXRlLCBmYWxzZSkuYXdhaXQ/OwogICAgT2soKCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gcm9sbGJhY2tfY29uZmlnX3Byb3RvY29sX2ZlYXR1cmVfYW5kX3J1bnRpbWUoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgcHJldmlvdXNfY29uZmlnOiAmVmFsdWUsCiAgICBwcmV2aW91c19wcm90b2NvbF9tYXBwaW5nX2ZlYXR1cmU6ICZWYWx1ZSwKICAgIHJ1bl90eXBlOiBpNjQsCikgewogICAgaWYgbGV0IEVycihlcnJvcikgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLnNhdmVfY29uZmlnKHByZXZpb3VzX2NvbmZpZykuYXdhaXQgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byByb2xsYmFjayBydW50aW1lIGNvbmZpZyIpOwogICAgICAgIHJldHVybjsKICAgIH0KICAgIGlmIGxldCBFcnIoZXJyb3IpID0KICAgICAgICBzYXZlX3Byb3RvY29sX21hcHBpbmdfZmVhdHVyZShzdGF0ZSwgcHJldmlvdXNfcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlKS5hd2FpdAogICAgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byByb2xsYmFjayBwcm90b2NvbCBtYXBwaW5nIGZlYXR1cmUiKTsKICAgIH0KICAgIGlmIGxldCBFcnIoZXJyb3IpID0gc3luY19zbWFydF9jb25uZWN0KHN0YXRlLCBwcmV2aW91c19jb25maWcpLmF3YWl0IHsKICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gcm9sbGJhY2sgc21hcnQgY29ubmVjdCBydW50aW1lIik7CiAgICB9CiAgICBpZiBsZXQgRXJyKGVycm9yKSA9IGFwcGx5X3J1bl90eXBlX2NvbmZpZyhzdGF0ZSwgcHJldmlvdXNfY29uZmlnLCBydW5fdHlwZSkuYXdhaXQgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byByb2xsYmFjayBydW50aW1lIHN0YXRlIik7CiAgICB9Cn0KCnB1YihzdXBlcikgYXN5bmMgZm4gcm9sbGJhY2tfcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlX2FuZF9ydW50aW1lKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGNvbmZpZzogJlZhbHVlLAogICAgcHJldmlvdXNfcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlOiAmVmFsdWUsCiAgICBydW5fdHlwZTogaTY0LAopIHsKICAgIGlmIGxldCBFcnIoZXJyb3IpID0KICAgICAgICBzYXZlX3Byb3RvY29sX21hcHBpbmdfZmVhdHVyZShzdGF0ZSwgcHJldmlvdXNfcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlKS5hd2FpdAogICAgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byByb2xsYmFjayBwcm90b2NvbCBtYXBwaW5nIGZlYXR1cmUiKTsKICAgICAgICByZXR1cm47CiAgICB9CiAgICBpZiBsZXQgRXJyKGVycm9yKSA9IGFwcGx5X3J1bl90eXBlX2NvbmZpZyhzdGF0ZSwgY29uZmlnLCBydW5fdHlwZSkuYXdhaXQgewogICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byByb2xsYmFjayBwcm90b2NvbCBtYXBwaW5nIHJ1bnRpbWUgc3RhdGUiKTsKICAgIH0KfQoKcHViKHN1cGVyKSBhc3luYyBmbiByZXNldF9maXJld2FsbF9mb3JfcnVuX3R5cGUoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgcnVuX3R5cGU6IGk2NCwKKSAtPiBSZXN1bHQ8VmFsdWUsIFN0cmluZz4gewogICAgbGV0IGNvbmZpZyA9IHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZ2V0X2NvbmZpZygpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgbGV0IHByb3RvY29sX21hcHBpbmdfZmVhdHVyZSA9IGxvYWRfcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlKHN0YXRlLCBTb21lKCZjb25maWcpKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIGxldCBwcm90b2NvbF9tYXBwaW5nX2VuYWJsZWQgPSBydW5fdHlwZSA9PSAzCiAgICAgICAgJiYgcHJvdG9jb2xfbWFwcGluZ19mZWF0dXJlCiAgICAgICAgICAgIC5nZXQoImVuYWJsZWQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgICAgID09IFNvbWUodHJ1ZSk7CiAgICBjbGVhcl9sZWdhY3lfZ2F0ZXdheV9yZWRpcmVjdHMoc3RhdGUsIGdhdGV3YXlfcG9ydCgpLCB0cnVlKS5hd2FpdD87CiAgICBlbnN1cmVfZ29fc3VjY2VzcygKICAgICAgICBzdGF0ZQogICAgICAgICAgICAuZ2F0ZXdheQogICAgICAgICAgICAuY2xpZW50CiAgICAgICAgICAgIC5jbGVhbl9pcHRhYmxlcygpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT8sCiAgICApCiAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CgogICAgaWYgcnVuX3R5cGUgIT0gMSB7CiAgICAgICAgbGV0IHBheWxvYWQgPSBqc29uISh7CiAgICAgICAgICAgICJjaGFpbl9uYW1lIjogIkZOLUtOT0NLLUZXIiwKICAgICAgICAgICAgInBhcmVudF9jaGFpbiI6IFsiSU5QVVQiLCAiRE9DS0VSLVVTRVIiXSwKICAgICAgICAgICAgImV4ZW1wdF9wb3J0cyI6IGV4ZW1wdF9wb3J0cygmY29uZmlnLCBwcm90b2NvbF9tYXBwaW5nX2VuYWJsZWQsIHJ1bl90eXBlKSwKICAgICAgICB9KTsKICAgICAgICBlbnN1cmVfZ29fc3VjY2VzcygKICAgICAgICAgICAgc3RhdGUKICAgICAgICAgICAgICAgIC5nYXRld2F5CiAgICAgICAgICAgICAgICAuY2xpZW50CiAgICAgICAgICAgICAgICAuaW5pdF9pcHRhYmxlcygmcGF5bG9hZCkKICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/LAogICAgICAgICkKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICB9CgogICAgbGV0IHdoaXRlbGlzdF9zeW5jZWQgPSBpZiBydW5fdHlwZSA9PSAwIHsKICAgICAgICBzeW5jX2FjdGl2ZV93aGl0ZWxpc3RfdGFyZ2V0cyhzdGF0ZSwgdHJ1ZSkuYXdhaXQ/CiAgICB9IGVsc2UgewogICAgICAgIDAKICAgIH07CgogICAgT2soanNvbiEoewogICAgICAgICJydW5UeXBlIjogcnVuX3R5cGUsCiAgICAgICAgImdhdGV3YXlQb3J0IjogZ2F0ZXdheV9wb3J0KCksCiAgICAgICAgImV4ZW1wdFBvcnRzIjogaWYgcnVuX3R5cGUgPT0gMSB7CiAgICAgICAgICAgIFZlYzo6PFN0cmluZz46Om5ldygpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZXhlbXB0X3BvcnRzKCZjb25maWcsIHByb3RvY29sX21hcHBpbmdfZW5hYmxlZCwgcnVuX3R5cGUpCiAgICAgICAgfSwKICAgICAgICAid2hpdGVsaXN0U3luY2VkIjogd2hpdGVsaXN0X3N5bmNlZCwKICAgIH0pKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGNsZWFyX2xlZ2FjeV9nYXRld2F5X3JlZGlyZWN0cygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICB0YXJnZXRfcG9ydDogaTY0LAogICAgc3RyaWN0OiBib29sLAopIC0+IFJlc3VsdDwoKSwgU3RyaW5nPiB7CiAgICBsZXQgdHJhbnNsYXRvciA9IFRyYW5zbGF0b3I6OmZyb21fc3RhdGUoc3RhdGUpLmF3YWl0OwogICAgZm9yIGxpc3Rlbl9wb3J0IGluIExFR0FDWV9SRURJUkVDVEVEX0hUVFBfUE9SVFMgewogICAgICAgIGxldCBmYWxsYmFjayA9IGZpcmV3YWxsX3RleHRfcGFyYW1zKAogICAgICAgICAgICAmdHJhbnNsYXRvciwKICAgICAgICAgICAgImNsZWFyTGVnYWN5VGNwUmVkaXJlY3RGYWlsZWQiLAogICAgICAgICAgICAmWwogICAgICAgICAgICAgICAgKCJsaXN0ZW5Qb3J0IiwgbGlzdGVuX3BvcnQudG9fc3RyaW5nKCkpLAogICAgICAgICAgICAgICAgKCJ0YXJnZXRQb3J0IiwgdGFyZ2V0X3BvcnQudG9fc3RyaW5nKCkpLAogICAgICAgICAgICBdLAogICAgICAgICk7CiAgICAgICAgbGV0IHJlc3VsdCA9IG1hdGNoIHN0YXRlCiAgICAgICAgICAgIC5nYXRld2F5CiAgICAgICAgICAgIC5jbGllbnQKICAgICAgICAgICAgLmNsZWFyX3RjcF9yZWRpcmVjdChsaXN0ZW5fcG9ydCwgdGFyZ2V0X3BvcnQpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgIHsKICAgICAgICAgICAgT2soKHN0YXR1cywgdmFsdWUpKSA9PiB7CiAgICAgICAgICAgICAgICBlbnN1cmVfZ29fc3VjY2Vzc193aXRoX2FjY2VwdGFibGVfY29kZXMoc3RhdHVzLCB2YWx1ZSwgJls0MDRdLCAmZmFsbGJhY2spCiAgICAgICAgICAgIH0KICAgICAgICAgICAgRXJyKF8pID0+IEVycihmYWxsYmFjayksCiAgICAgICAgfTsKICAgICAgICBpZiBzdHJpY3QgewogICAgICAgICAgICByZXN1bHQ/OwogICAgICAgIH0gZWxzZSBpZiBsZXQgRXJyKGVycm9yKSA9IHJlc3VsdCB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKAogICAgICAgICAgICAgICAgJWVycm9yLAogICAgICAgICAgICAgICAgbGlzdGVuX3BvcnQsCiAgICAgICAgICAgICAgICB0YXJnZXRfcG9ydCwKICAgICAgICAgICAgICAgICJmYWlsZWQgdG8gY2xlYXIgbGVnYWN5IFRDUCByZWRpcmVjdCIKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICB9CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzeW5jX2FjdGl2ZV93aGl0ZWxpc3RfdGFyZ2V0cygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBzdHJpY3Q6IGJvb2wsCikgLT4gUmVzdWx0PHVzaXplLCBTdHJpbmc+IHsKICAgIG1hdGNoIHdoaXRlbGlzdDo6c3luY19kaXJlY3RfZmlyZXdhbGxfd2hpdGVsaXN0KHN0YXRlKS5hd2FpdCB7CiAgICAgICAgT2socmFuZ2VfY291bnQpID0+IE9rKHJhbmdlX2NvdW50KSwKICAgICAgICBFcnIoZXJyb3IpIGlmIHN0cmljdCA9PiBFcnIoZXJyb3IudG9fc3RyaW5nKCkpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gc3luYyBjb21waWxlZCB3aGl0ZWxpc3QgcG9saWN5IHRvIEdvIGJhY2tlbmQiKTsKICAgICAgICAgICAgT2soMCkKICAgICAgICB9CiAgICB9Cn0KCnB1YihzdXBlcikgZm4gZW5zdXJlX2dvX3N1Y2Nlc3Nfd2l0aF9hY2NlcHRhYmxlX2NvZGVzKAogICAgc3RhdHVzOiByZXF3ZXN0OjpTdGF0dXNDb2RlLAogICAgdmFsdWU6IFZhbHVlLAogICAgYWNjZXB0YWJsZV9jb2RlczogJlt1MTZdLAogICAgZmFsbGJhY2s6ICZzdHIsCikgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIGxldCBjb2RlID0gaWYgc3RhdHVzLmlzX3N1Y2Nlc3MoKSB7CiAgICAgICAgZ29fcmVzcG9uc2VfY29kZSgmdmFsdWUpLnVud3JhcF9vcl9lbHNlKHx8IHN0YXR1cy5hc191MTYoKSkKICAgIH0gZWxzZSB7CiAgICAgICAgc3RhdHVzLmFzX3UxNigpCiAgICB9OwogICAgaWYgYWNjZXB0YWJsZV9jb2Rlcy5jb250YWlucygmY29kZSkgewogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CiAgICBpZiBzdGF0dXMuaXNfc3VjY2VzcygpCiAgICAgICAgJiYgdmFsdWUKICAgICAgICAgICAgLmdldCgic3VjY2VzcyIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkKICAgICAgICAgICAgLnVud3JhcF9vcih0cnVlKQogICAgewogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9CiAgICBFcnIoZ29fcmVzcG9uc2VfbWVzc2FnZSgmdmFsdWUsIGZhbGxiYWNrKSkKfQoKcHViKHN1cGVyKSBmbiBnb19yZXNwb25zZV9jb2RlKHZhbHVlOiAmVmFsdWUpIC0+IE9wdGlvbjx1MTY+IHsKICAgIHZhbHVlCiAgICAgICAgLmdldCgiY29kZSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc191NjQpCiAgICAgICAgLmFuZF90aGVuKHxjb2RlfCB1MTY6OnRyeV9mcm9tKGNvZGUpLm9rKCkpCn0KCnB1YihzdXBlcikgZm4gZmlyZXdhbGxfcmVzZXRfc3VjY2Vzc19tZXNzYWdlKAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCiAgICBkYXRhOiAmVmFsdWUsCiAgICBydW5fdHlwZTogaTY0LAopIC0+IFN0cmluZyB7CiAgICBsZXQgd2hpdGVsaXN0X21lc3NhZ2UgPSBpZiBydW5fdHlwZSA9PSAwIHsKICAgICAgICBhZG1pbl90ZXh0X3BhcmFtcygKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgImZpcmV3YWxsLndoaXRlbGlzdFN5bmNlZCIsCiAgICAgICAgICAgICZbKAogICAgICAgICAgICAgICAgImNvdW50IiwKICAgICAgICAgICAgICAgIGRhdGEuZ2V0KCJ3aGl0ZWxpc3RTeW5jZWQiKQogICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KQogICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3IoMCkKICAgICAgICAgICAgICAgICAgICAudG9fc3RyaW5nKCksCiAgICAgICAgICAgICldLAogICAgICAgICkKICAgIH0gZWxzZSB7CiAgICAgICAgU3RyaW5nOjpuZXcoKQogICAgfTsKICAgIGxldCBleGVtcHRfcG9ydHNfbWVzc2FnZSA9IGlmIHJ1bl90eXBlID09IDAgfHwgcnVuX3R5cGUgPT0gMyB7CiAgICAgICAgbGV0IHBvcnRzID0gZGF0YQogICAgICAgICAgICAuZ2V0KCJleGVtcHRQb3J0cyIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgICAgIC5tYXAofGl0ZW1zfCB7CiAgICAgICAgICAgICAgICBpdGVtcwogICAgICAgICAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgICAgICAgICAuZmlsdGVyX21hcChWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpCiAgICAgICAgICAgICAgICAgICAgLmpvaW4oIiwgIikKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICAgICAgYWRtaW5fdGV4dF9wYXJhbXModHJhbnNsYXRvciwgImZpcmV3YWxsLmV4ZW1wdFBvcnRzIiwgJlsoInBvcnRzIiwgcG9ydHMpXSkKICAgIH0gZWxzZSB7CiAgICAgICAgU3RyaW5nOjpuZXcoKQogICAgfTsKICAgIGFkbWluX3RleHRfcGFyYW1zKAogICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgImZpcmV3YWxsLnJlc2V0U3VjY2VzcyIsCiAgICAgICAgJlsKICAgICAgICAgICAgKCJydW5UeXBlIiwgYWRtaW5fcnVuX3R5cGVfbGFiZWwodHJhbnNsYXRvciwgcnVuX3R5cGUpKSwKICAgICAgICAgICAgKCJ3aGl0ZWxpc3RNZXNzYWdlIiwgd2hpdGVsaXN0X21lc3NhZ2UpLAogICAgICAgICAgICAoImV4ZW1wdFBvcnRzTWVzc2FnZSIsIGV4ZW1wdF9wb3J0c19tZXNzYWdlKSwKICAgICAgICBdLAogICAgKQp9CgpwdWIoc3VwZXIpIGZuIGFkbWluX3J1bl90eXBlX2xhYmVsKHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLCBydW5fdHlwZTogaTY0KSAtPiBTdHJpbmcgewogICAgbWF0Y2ggcnVuX3R5cGUgewogICAgICAgIDAgPT4gYWRtaW5fdGV4dCh0cmFuc2xhdG9yLCAicnVuVHlwZXMuZGlyZWN0IiksCiAgICAgICAgMSA9PiBhZG1pbl90ZXh0KHRyYW5zbGF0b3IsICJydW5UeXBlcy5yZXZlcnNlUHJveHkiKSwKICAgICAgICAzID0+IGFkbWluX3RleHQodHJhbnNsYXRvciwgInJ1blR5cGVzLnN1YmRvbWFpbiIpLAogICAgICAgIF8gPT4gcnVuX3R5cGUudG9fc3RyaW5nKCksCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gZ2F0ZXdheV9wb3J0KCkgLT4gaTY0IHsKICAgIGdhdGV3YXlfcG9ydF9mcm9tX2VudihzdGQ6OmVudjo6dmFyKCJHT19SRVBST1hZX1BPUlQiKS5vaygpKQp9CgpwdWIoc3VwZXIpIGZuIGdhdGV3YXlfcG9ydF9mcm9tX2Vudih2YWx1ZTogT3B0aW9uPFN0cmluZz4pIC0+IGk2NCB7CiAgICBsZXQgcmF3ID0gdmFsdWUKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8ICI3OTk5Ii50b19zdHJpbmcoKSk7CiAgICBjcmF0ZTo6bm9kZV9jb21wYXQ6OnBhcnNlX2k2NF9wcmVmaXgocmF3LnRyaW1fc3RhcnQoKSkKICAgICAgICAuZmlsdGVyKHxwb3J0fCAqcG9ydCA+IDApCiAgICAgICAgLnVud3JhcF9vcig3OTk5KQp9CgpwdWIoc3VwZXIpIGZuIGV4ZW1wdF9wb3J0cygKICAgIGNvbmZpZzogJlZhbHVlLAogICAgcHJvdG9jb2xfbWFwcGluZ19lbmFibGVkOiBib29sLAogICAgcnVuX3R5cGU6IGk2NCwKKSAtPiBWZWM8U3RyaW5nPiB7CiAgICBleGVtcHRfcG9ydF9udW1iZXJzKGNvbmZpZywgcHJvdG9jb2xfbWFwcGluZ19lbmFibGVkLCBydW5fdHlwZSkKICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAubWFwKHxwb3J0fCBwb3J0LnRvX3N0cmluZygpKQogICAgICAgIC5jb2xsZWN0KCkKfQoKcHViKHN1cGVyKSBmbiBhdXRvbWF0aWNfZXhlbXB0X3BvcnRfbnVtYmVycygKICAgIGNvbmZpZzogJlZhbHVlLAogICAgcHJvdG9jb2xfbWFwcGluZ19lbmFibGVkOiBib29sLAogICAgcnVuX3R5cGU6IGk2NCwKKSAtPiBWZWM8aTY0PiB7CiAgICBpZiBydW5fdHlwZSA9PSAxIHsKICAgICAgICByZXR1cm4gVmVjOjpuZXcoKTsKICAgIH0KICAgIGxldCBtdXQgcG9ydHMgPSBCVHJlZVNldDo6bmV3KCk7CiAgICBwb3J0cy5pbnNlcnQoZ2F0ZXdheV9wb3J0KCkpOwogICAgaWYgcnVuX3R5cGUgPT0gMwogICAgICAgICYmIHByb3RvY29sX21hcHBpbmdfZW5hYmxlZAogICAgICAgICYmIGxldCBTb21lKG1hcHBpbmdzKSA9IGNvbmZpZy5nZXQoInN0cmVhbV9tYXBwaW5ncyIpLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgIHsKICAgICAgICBmb3IgbWFwcGluZyBpbiBtYXBwaW5ncyB7CiAgICAgICAgICAgIGlmIGxldCBTb21lKHBvcnQpID0gbWFwcGluZy5nZXQoImxpc3Rlbl9wb3J0IikuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkKICAgICAgICAgICAgICAgICYmICgxLi49NjU1MzUpLmNvbnRhaW5zKCZwb3J0KQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBwb3J0cy5pbnNlcnQocG9ydCk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICBsZXQgc21hcnQgPSBub3JtYWxpemVfc21hcnRfY29ubmVjdF9jb25maWcoY29uZmlnLmdldCgic21hcnRfY29ubmVjdCIpKTsKICAgIGlmIHJ1bl90eXBlID09IDMKICAgICAgICAmJiBzbWFydC5nZXQoImVuYWJsZWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgPT0gU29tZSh0cnVlKQogICAgICAgICYmIHNtYXJ0CiAgICAgICAgICAgIC5nZXQoInNlbGVjdGVkX2lwdjQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHx2YWx1ZXwgIXZhbHVlLnRyaW0oKS5pc19lbXB0eSgpKQogICAgewogICAgICAgIHBvcnRzLmluc2VydChTTUFSVF9DT05ORUNUX0ROU19QT1JUKTsKICAgIH0KICAgIHBvcnRzLmludG9faXRlcigpLmNvbGxlY3QoKQp9CgpwdWIoc3VwZXIpIGZuIGV4ZW1wdF9wb3J0X251bWJlcnMoCiAgICBjb25maWc6ICZWYWx1ZSwKICAgIHByb3RvY29sX21hcHBpbmdfZW5hYmxlZDogYm9vbCwKICAgIHJ1bl90eXBlOiBpNjQsCikgLT4gVmVjPGk2ND4gewogICAgbGV0IG11dCBwb3J0cyA9IGF1dG9tYXRpY19leGVtcHRfcG9ydF9udW1iZXJzKGNvbmZpZywgcHJvdG9jb2xfbWFwcGluZ19lbmFibGVkLCBydW5fdHlwZSkKICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAuY29sbGVjdDo6PEJUcmVlU2V0PF8+PigpOwogICAgaWYgcnVuX3R5cGUgIT0gMSB7CiAgICAgICAgcG9ydHMuZXh0ZW5kKG5vcm1hbGl6ZV9maXJld2FsbF9hZGRpdGlvbmFsX3BvcnRzKAogICAgICAgICAgICBjb25maWcuZ2V0KCJmaXJld2FsbF9hZGRpdGlvbmFsX3BvcnRzIiksCiAgICAgICAgKSk7CiAgICB9CiAgICBwb3J0cy5pbnRvX2l0ZXIoKS5jb2xsZWN0KCkKfQo=
+use super::*;
+
+pub(super) fn log_go_value_result(result: Result<Value, String>, operation: &'static str) {
+    match result {
+        Ok(value) => {
+            if let Err(error) = ensure_go_success(value) {
+                tracing::warn!(%error, operation, "go backend call failed during run type apply");
+            }
+        }
+        Err(error) => {
+            tracing::warn!(%error, operation, "go backend request failed during run type apply");
+        }
+    }
+}
+
+pub(super) fn log_go_status_value_result(
+    result: Result<(reqwest::StatusCode, Value), String>,
+    operation: &'static str,
+) {
+    match result {
+        Ok((status, value)) => {
+            if !status.is_success() {
+                let error = go_response_message(&value, &format!("go backend returned {status}"));
+                tracing::warn!(%error, operation, "go backend call failed during run type apply");
+                return;
+            }
+            if let Err(error) = ensure_go_success(value) {
+                tracing::warn!(%error, operation, "go backend call failed during run type apply");
+            }
+        }
+        Err(error) => {
+            tracing::warn!(%error, operation, "go backend request failed during run type apply");
+        }
+    }
+}
+
+pub(crate) async fn apply_run_type_config(
+    state: &AppState,
+    _config: &Value,
+    _run_type: i64,
+) -> Result<(), String> {
+    proxy_config::with_host_mappings_runtime_transaction(state, |state| async move {
+        let current_config = state
+            .storage
+            .store
+            .get_config()
+            .await
+            .map_err(|error| error.to_string())?;
+        let current_run_type = current_config
+            .get("run_type")
+            .and_then(Value::as_i64)
+            .unwrap_or(3);
+        apply_run_type_config_inner(&state, &current_config, current_run_type, true).await
+    })
+    .await
+}
+
+pub(crate) async fn apply_run_type_config_with_host_rules_lock(
+    state: &AppState,
+    config: &Value,
+    run_type: i64,
+) -> Result<(), String> {
+    apply_run_type_config_inner(state, config, run_type, true).await
+}
+
+async fn apply_run_type_config_inner(
+    state: &AppState,
+    config: &Value,
+    run_type: i64,
+    host_rules_lock_held: bool,
+) -> Result<(), String> {
+    let protocol_mapping_feature = load_protocol_mapping_feature(state, Some(config))
+        .await
+        .map_err(|error| error.to_string())?;
+    let protocol_mapping_enabled = run_type == 3
+        && protocol_mapping_feature
+            .get("enabled")
+            .and_then(Value::as_bool)
+            == Some(true);
+    if protocol_mapping_enabled {
+        proxy_config::validate_stream_mapping_runtime_safety(config)
+            .map_err(proxy_config::mark_stream_mapping_runtime_error)?;
+    }
+
+    log_go_value_result(
+        state
+            .gateway
+            .client
+            .set_auth_config(&build_gateway_auth_config(config))
+            .await
+            .map_err(|error| error.to_string()),
+        "sync auth gateway config",
+    );
+    let default_throttle = gateway_settings::default_reverse_proxy_throttle();
+    let throttle = config
+        .get("reverse_proxy_throttle")
+        .unwrap_or(&default_throttle);
+    log_go_value_result(
+        state
+            .gateway
+            .client
+            .set_reverse_proxy_throttle(throttle)
+            .await
+            .map_err(|error| error.to_string()),
+        "sync reverse proxy throttle",
+    );
+    let default_crawler = json!({ "enabled": false });
+    let crawler = config
+        .get("gateway_crawler_blocker")
+        .unwrap_or(&default_crawler);
+    log_go_value_result(
+        state
+            .gateway
+            .client
+            .set_crawler_blocker_config(crawler)
+            .await
+            .map_err(|error| error.to_string()),
+        "sync crawler blocker config",
+    );
+    whitelist::sync_reverse_proxy_trusted_ips(state).await;
+    if let Err(error) = gateway_settings::sync_gateway_visibility_runtime_from_store(state).await {
+        tracing::warn!(
+            %error,
+            "failed to sync gateway visibility runtime during run type apply"
+        );
+    }
+    if let Err(error) = gateway_settings::sync_gateway_target_runtime_for_config(
+        state,
+        config,
+        false,
+        host_rules_lock_held,
+    )
+    .await
+    {
+        tracing::warn!(
+            %error,
+            "failed to sync gateway target runtime during run type apply"
+        );
+    }
+
+    if run_type == 1 {
+        log_go_value_result(
+            state
+                .gateway
+                .client
+                .set_proxy_protocol_force(true)
+                .await
+                .map_err(|error| error.to_string()),
+            "enable proxy protocol force",
+        );
+        disable_stream_rules(state).await?;
+
+        if is_reverse_proxy_subdomain_mode(config) {
+            log_go_value_result(
+                state
+                    .gateway
+                    .client
+                    .flush_rules()
+                    .await
+                    .map_err(|error| error.to_string()),
+                "flush path rules",
+            );
+            sync_host_rules(state, config, host_rules_lock_held).await?;
+            log_go_status_value_result(
+                state
+                    .gateway
+                    .client
+                    .set_default_route("/__select__")
+                    .await
+                    .map_err(|error| error.to_string()),
+                "sync disabled default route",
+            );
+            return Ok(());
+        }
+
+        sync_host_rules(state, config, host_rules_lock_held).await?;
+        sync_path_rules(state, config).await;
+        sync_default_route(state, config).await;
+        return Ok(());
+    }
+
+    log_go_value_result(
+        state
+            .gateway
+            .client
+            .set_proxy_protocol_force(false)
+            .await
+            .map_err(|error| error.to_string()),
+        "disable proxy protocol force",
+    );
+
+    if run_type == 3 {
+        log_go_value_result(
+            state
+                .gateway
+                .client
+                .flush_rules()
+                .await
+                .map_err(|error| error.to_string()),
+            "flush path rules",
+        );
+        if !protocol_mapping_enabled {
+            disable_stream_rules(state).await?;
+        }
+        sync_host_rules(state, config, host_rules_lock_held).await?;
+        if protocol_mapping_enabled {
+            sync_stream_rules(state, config, &protocol_mapping_feature)
+                .await
+                .map_err(proxy_config::mark_stream_mapping_runtime_error)?;
+        }
+        sync_default_route(state, config).await;
+        maybe_apply_host_firewall(state, config, run_type, protocol_mapping_enabled).await?;
+        return Ok(());
+    }
+
+    sync_host_rules(state, config, host_rules_lock_held).await?;
+    disable_stream_rules(state).await?;
+    sync_path_rules(state, config).await;
+    sync_default_route(state, config).await;
+    if run_type == 0 {
+        sync_auth_entry_route(state).await;
+    }
+    maybe_apply_host_firewall(state, config, run_type, protocol_mapping_enabled).await
+}
+
+pub(super) async fn sync_path_rules(state: &AppState, config: &Value) {
+    log_go_value_result(
+        state
+            .gateway
+            .client
+            .set_rules(
+                config
+                    .get("proxy_mappings")
+                    .unwrap_or(&Value::Array(Vec::new())),
+            )
+            .await
+            .map_err(|error| error.to_string()),
+        "sync path rules",
+    );
+}
+
+pub(super) async fn sync_host_rules(
+    state: &AppState,
+    config: &Value,
+    host_rules_lock_held: bool,
+) -> Result<(), String> {
+    if host_rules_lock_held {
+        proxy_config::sync_go_host_rules_for_config_locked(state, config).await
+    } else {
+        proxy_config::sync_current_go_host_rules(state).await
+    }
+}
+
+pub(super) async fn sync_stream_rules(
+    state: &AppState,
+    config: &Value,
+    protocol_mapping_feature: &Value,
+) -> Result<(), String> {
+    let payload = json!({
+        "items": config
+            .get("stream_mappings")
+            .unwrap_or(&Value::Array(Vec::new())),
+        "availability": protocol_mapping_feature
+            .get("availability")
+            .cloned()
+            .unwrap_or(Value::Null),
+        "access_policies": config
+            .get("stream_access_policies")
+            .cloned()
+            .unwrap_or_else(|| Value::Array(Vec::new())),
+    });
+    ensure_go_success(
+        state
+            .gateway
+            .client
+            .set_stream_rules(&payload)
+            .await
+            .map_err(|error| error.to_string())?,
+    )
+    .map_err(|error| error.to_string())
+}
+
+pub(super) async fn disable_stream_rules(state: &AppState) -> Result<(), String> {
+    ensure_go_success(
+        state
+            .gateway
+            .client
+            .flush_stream_rules()
+            .await
+            .map_err(|error| error.to_string())?,
+    )
+    .map_err(|error| error.to_string())
+}
+
+pub(super) async fn sync_auth_entry_route(state: &AppState) {
+    log_go_value_result(
+        state
+            .gateway
+            .client
+            .set_rules(&auth_entry_route_payload(state.settings.auth_port))
+            .await
+            .map_err(|error| error.to_string()),
+        "sync auth entry route",
+    );
+    log_go_status_value_result(
+        state
+            .gateway
+            .client
+            .set_default_route("/auth")
+            .await
+            .map_err(|error| error.to_string()),
+        "sync auth default route",
+    );
+}
+
+pub(super) fn auth_entry_route_payload(auth_port: u16) -> Value {
+    json!([{
+        "path": "/auth",
+        "target": format!("http://127.0.0.1:{auth_port}"),
+        "rewrite_html": false,
+        "use_auth": false,
+        "use_root_mode": false,
+        "strip_path": false,
+    }])
+}
+
+pub(super) async fn sync_default_route(state: &AppState, config: &Value) {
+    let route = config
+        .get("default_route")
+        .and_then(Value::as_str)
+        .unwrap_or("/__select__");
+    log_go_status_value_result(
+        state
+            .gateway
+            .client
+            .set_default_route(route)
+            .await
+            .map_err(|error| error.to_string()),
+        "sync default route",
+    );
+}
+
+pub(super) async fn maybe_apply_host_firewall(
+    state: &AppState,
+    config: &Value,
+    run_type: i64,
+    protocol_mapping_enabled: bool,
+) -> Result<(), String> {
+    if !host_firewall_available(state) {
+        return Ok(());
+    }
+    if run_type != 0 && !normalize_auto_manage_firewall(config.get("auto_manage_firewall")) {
+        return Ok(());
+    }
+    if run_type == 1 {
+        clear_legacy_gateway_redirects(state, gateway_port(), false).await?;
+        log_go_value_result(
+            state
+                .gateway
+                .client
+                .clean_iptables()
+                .await
+                .map_err(|error| error.to_string()),
+            "clean iptables",
+        );
+        return Ok(());
+    }
+    let payload = json!({
+        "chain_name": "FN-KNOCK-FW",
+        "parent_chain": ["INPUT", "DOCKER-USER"],
+        "exempt_ports": exempt_ports(config, protocol_mapping_enabled, run_type),
+    });
+    if run_type == 3 {
+        log_go_value_result(
+            state
+                .gateway
+                .client
+                .init_iptables(&payload)
+                .await
+                .map_err(|error| error.to_string()),
+            "init default firewall",
+        );
+        clear_legacy_gateway_redirects(state, gateway_port(), false).await?;
+        sync_active_whitelist_targets(state, false).await?;
+        return Ok(());
+    }
+
+    clear_legacy_gateway_redirects(state, gateway_port(), false).await?;
+    log_go_value_result(
+        state
+            .gateway
+            .client
+            .init_iptables(&payload)
+            .await
+            .map_err(|error| error.to_string()),
+        "init default firewall",
+    );
+    sync_active_whitelist_targets(state, false).await?;
+    Ok(())
+}
+
+pub(super) async fn rollback_config_protocol_feature_and_runtime(
+    state: &AppState,
+    previous_config: &Value,
+    previous_protocol_mapping_feature: &Value,
+    run_type: i64,
+) {
+    if let Err(error) = state.storage.store.save_config(previous_config).await {
+        tracing::warn!(%error, "failed to rollback runtime config");
+        return;
+    }
+    if let Err(error) =
+        save_protocol_mapping_feature(state, previous_protocol_mapping_feature).await
+    {
+        tracing::warn!(%error, "failed to rollback protocol mapping feature");
+    }
+    if let Err(error) = sync_smart_connect(state, previous_config).await {
+        tracing::warn!(%error, "failed to rollback smart connect runtime");
+    }
+    if let Err(error) = apply_run_type_config(state, previous_config, run_type).await {
+        tracing::warn!(%error, "failed to rollback runtime state");
+    }
+}
+
+pub(super) async fn rollback_protocol_mapping_feature_and_runtime(
+    state: &AppState,
+    config: &Value,
+    previous_protocol_mapping_feature: &Value,
+    run_type: i64,
+) {
+    if let Err(error) =
+        save_protocol_mapping_feature(state, previous_protocol_mapping_feature).await
+    {
+        tracing::warn!(%error, "failed to rollback protocol mapping feature");
+        return;
+    }
+    if let Err(error) = apply_run_type_config(state, config, run_type).await {
+        tracing::warn!(%error, "failed to rollback protocol mapping runtime state");
+    }
+}
+
+pub(super) async fn reset_firewall_for_run_type(
+    state: &AppState,
+    run_type: i64,
+) -> Result<Value, String> {
+    let config = state
+        .storage
+        .store
+        .get_config()
+        .await
+        .map_err(|error| error.to_string())?;
+    let protocol_mapping_feature = load_protocol_mapping_feature(state, Some(&config))
+        .await
+        .map_err(|error| error.to_string())?;
+    let protocol_mapping_enabled = run_type == 3
+        && protocol_mapping_feature
+            .get("enabled")
+            .and_then(Value::as_bool)
+            == Some(true);
+    clear_legacy_gateway_redirects(state, gateway_port(), true).await?;
+    ensure_go_success(
+        state
+            .gateway
+            .client
+            .clean_iptables()
+            .await
+            .map_err(|error| error.to_string())?,
+    )
+    .map_err(|error| error.to_string())?;
+
+    if run_type != 1 {
+        let payload = json!({
+            "chain_name": "FN-KNOCK-FW",
+            "parent_chain": ["INPUT", "DOCKER-USER"],
+            "exempt_ports": exempt_ports(&config, protocol_mapping_enabled, run_type),
+        });
+        ensure_go_success(
+            state
+                .gateway
+                .client
+                .init_iptables(&payload)
+                .await
+                .map_err(|error| error.to_string())?,
+        )
+        .map_err(|error| error.to_string())?;
+    }
+
+    let whitelist_synced = if run_type == 0 {
+        sync_active_whitelist_targets(state, true).await?
+    } else {
+        0
+    };
+
+    Ok(json!({
+        "runType": run_type,
+        "gatewayPort": gateway_port(),
+        "exemptPorts": if run_type == 1 {
+            Vec::<String>::new()
+        } else {
+            exempt_ports(&config, protocol_mapping_enabled, run_type)
+        },
+        "whitelistSynced": whitelist_synced,
+    }))
+}
+
+pub(super) async fn clear_legacy_gateway_redirects(
+    state: &AppState,
+    target_port: i64,
+    strict: bool,
+) -> Result<(), String> {
+    let translator = Translator::from_state(state).await;
+    for listen_port in LEGACY_REDIRECTED_HTTP_PORTS {
+        let fallback = firewall_text_params(
+            &translator,
+            "clearLegacyTcpRedirectFailed",
+            &[
+                ("listenPort", listen_port.to_string()),
+                ("targetPort", target_port.to_string()),
+            ],
+        );
+        let result = match state
+            .gateway
+            .client
+            .clear_tcp_redirect(listen_port, target_port)
+            .await
+        {
+            Ok((status, value)) => {
+                ensure_go_success_with_acceptable_codes(status, value, &[404], &fallback)
+            }
+            Err(_) => Err(fallback),
+        };
+        if strict {
+            result?;
+        } else if let Err(error) = result {
+            tracing::warn!(
+                %error,
+                listen_port,
+                target_port,
+                "failed to clear legacy TCP redirect"
+            );
+        }
+    }
+    Ok(())
+}
+
+pub(super) async fn sync_active_whitelist_targets(
+    state: &AppState,
+    strict: bool,
+) -> Result<usize, String> {
+    match whitelist::sync_direct_firewall_whitelist(state).await {
+        Ok(range_count) => Ok(range_count),
+        Err(error) if strict => Err(error.to_string()),
+        Err(error) => {
+            tracing::warn!(%error, "failed to sync compiled whitelist policy to Go backend");
+            Ok(0)
+        }
+    }
+}
+
+pub(super) fn ensure_go_success_with_acceptable_codes(
+    status: reqwest::StatusCode,
+    value: Value,
+    acceptable_codes: &[u16],
+    fallback: &str,
+) -> Result<(), String> {
+    let code = if status.is_success() {
+        go_response_code(&value).unwrap_or_else(|| status.as_u16())
+    } else {
+        status.as_u16()
+    };
+    if acceptable_codes.contains(&code) {
+        return Ok(());
+    }
+    if status.is_success()
+        && value
+            .get("success")
+            .and_then(Value::as_bool)
+            .unwrap_or(true)
+    {
+        return Ok(());
+    }
+    Err(go_response_message(&value, fallback))
+}
+
+pub(super) fn go_response_code(value: &Value) -> Option<u16> {
+    value
+        .get("code")
+        .and_then(Value::as_u64)
+        .and_then(|code| u16::try_from(code).ok())
+}
+
+pub(super) fn firewall_reset_success_message(
+    translator: &Translator,
+    data: &Value,
+    run_type: i64,
+) -> String {
+    let whitelist_message = if run_type == 0 {
+        admin_text_params(
+            translator,
+            "firewall.whitelistSynced",
+            &[(
+                "count",
+                data.get("whitelistSynced")
+                    .and_then(Value::as_i64)
+                    .unwrap_or(0)
+                    .to_string(),
+            )],
+        )
+    } else {
+        String::new()
+    };
+    let exempt_ports_message = if run_type == 0 || run_type == 3 {
+        let ports = data
+            .get("exemptPorts")
+            .and_then(Value::as_array)
+            .map(|items| {
+                items
+                    .iter()
+                    .filter_map(Value::as_str)
+                    .collect::<Vec<_>>()
+                    .join(", ")
+            })
+            .unwrap_or_default();
+        admin_text_params(translator, "firewall.exemptPorts", &[("ports", ports)])
+    } else {
+        String::new()
+    };
+    admin_text_params(
+        translator,
+        "firewall.resetSuccess",
+        &[
+            ("runType", admin_run_type_label(translator, run_type)),
+            ("whitelistMessage", whitelist_message),
+            ("exemptPortsMessage", exempt_ports_message),
+        ],
+    )
+}
+
+pub(super) fn admin_run_type_label(translator: &Translator, run_type: i64) -> String {
+    match run_type {
+        0 => admin_text(translator, "runTypes.direct"),
+        1 => admin_text(translator, "runTypes.reverseProxy"),
+        3 => admin_text(translator, "runTypes.subdomain"),
+        _ => run_type.to_string(),
+    }
+}
+
+pub(super) fn gateway_port() -> i64 {
+    gateway_port_from_env(std::env::var("GO_REPROXY_PORT").ok())
+}
+
+pub(super) fn gateway_port_from_env(value: Option<String>) -> i64 {
+    let raw = value
+        .filter(|value| !value.is_empty())
+        .unwrap_or_else(|| "7999".to_string());
+    crate::node_compat::parse_i64_prefix(raw.trim_start())
+        .filter(|port| *port > 0)
+        .unwrap_or(7999)
+}
+
+pub(super) fn exempt_ports(
+    config: &Value,
+    protocol_mapping_enabled: bool,
+    run_type: i64,
+) -> Vec<String> {
+    exempt_port_numbers(config, protocol_mapping_enabled, run_type)
+        .into_iter()
+        .map(|port| port.to_string())
+        .collect()
+}
+
+pub(super) fn automatic_exempt_port_numbers(
+    config: &Value,
+    protocol_mapping_enabled: bool,
+    run_type: i64,
+) -> Vec<i64> {
+    if run_type == 1 {
+        return Vec::new();
+    }
+    let mut ports = BTreeSet::new();
+    ports.insert(gateway_port());
+    if run_type == 3
+        && protocol_mapping_enabled
+        && let Some(mappings) = config.get("stream_mappings").and_then(Value::as_array)
+    {
+        for mapping in mappings {
+            if let Some(port) = mapping.get("listen_port").and_then(Value::as_i64)
+                && (1..=65535).contains(&port)
+            {
+                ports.insert(port);
+            }
+        }
+    }
+    let smart = normalize_smart_connect_config(config.get("smart_connect"));
+    if run_type == 3
+        && smart.get("enabled").and_then(Value::as_bool) == Some(true)
+        && smart
+            .get("selected_ipv4")
+            .and_then(Value::as_str)
+            .is_some_and(|value| !value.trim().is_empty())
+    {
+        ports.insert(SMART_CONNECT_DNS_PORT);
+    }
+    ports.into_iter().collect()
+}
+
+pub(super) fn exempt_port_numbers(
+    config: &Value,
+    protocol_mapping_enabled: bool,
+    run_type: i64,
+) -> Vec<i64> {
+    let mut ports = automatic_exempt_port_numbers(config, protocol_mapping_enabled, run_type)
+        .into_iter()
+        .collect::<BTreeSet<_>>();
+    if run_type != 1 {
+        ports.extend(normalize_firewall_additional_ports(
+            config.get("firewall_additional_ports"),
+        ));
+    }
+    ports.into_iter().collect()
+}

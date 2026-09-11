@@ -1,1 +1,396 @@
-ZXhwb3J0IGNvbnN0IE1BWF9NQVBQSU5HX0lDT05fU09VUkNFX0JZVEVTID0gNSAqIDEwMjQgKiAxMDI0OwpleHBvcnQgY29uc3QgTUFYX01BUFBJTkdfSUNPTl9PVVRQVVRfQllURVMgPSAxMjggKiAxMDI0OwoKY29uc3QgQUNDRVBURURfTUFQUElOR19JQ09OX01JTUVfVFlQRVMgPSBuZXcgU2V0KFsKICAiaW1hZ2UvcG5nIiwKICAiaW1hZ2UveC1wbmciLAogICJpbWFnZS9qcGVnIiwKICAiaW1hZ2UvanBnIiwKICAiaW1hZ2UvcGpwZWciLAogICJpbWFnZS93ZWJwIiwKICAiaW1hZ2UveC13ZWJwIiwKICAiaW1hZ2UvYXZpZiIsCiAgImltYWdlL3N2Zyt4bWwiLAogICJpbWFnZS94LWljb24iLAogICJpbWFnZS92bmQubWljcm9zb2Z0Lmljb24iLApdKTsKY29uc3QgQUNDRVBURURfTUFQUElOR19JQ09OX0VYVEVOU0lPTlMgPSBuZXcgU2V0KFsKICAicG5nIiwKICAianBnIiwKICAianBlZyIsCiAgIndlYnAiLAogICJhdmlmIiwKICAic3ZnIiwKICAiaWNvIiwKXSk7CgpleHBvcnQgY29uc3QgTUFQUElOR19JQ09OX0ZJTEVfQUNDRVBUID0KICAiLnBuZywuanBnLC5qcGVnLC53ZWJwLC5hdmlmLC5zdmcsLmljbyxpbWFnZS9wbmcsaW1hZ2UvanBlZyxpbWFnZS93ZWJwLGltYWdlL2F2aWYsaW1hZ2Uvc3ZnK3htbCxpbWFnZS94LWljb24saW1hZ2Uvdm5kLm1pY3Jvc29mdC5pY29uIjsKCmNvbnN0IElDT05fQ09MT1JfQU5BTFlTSVNfU0laRSA9IDMyOwpjb25zdCBNSU5fVklTSUJMRV9QSVhFTF9BTFBIQSA9IDE2IC8gMjU1Owpjb25zdCBNSU5fV0hJVEVfUElYRUxfQ0hBTk5FTCA9IDIyNDsKY29uc3QgTUlOX1dISVRFX1BJWEVMX1JBVElPID0gMC42OwoKZXhwb3J0IGNvbnN0IGlzTWFwcGluZ0ljb25QcmVkb21pbmFudGx5V2hpdGUgPSAoCiAgcGl4ZWxEYXRhOiBBcnJheUxpa2U8bnVtYmVyPiwKKTogYm9vbGVhbiA9PiB7CiAgbGV0IHZpc2libGVXZWlnaHQgPSAwOwogIGxldCB3aGl0ZVdlaWdodCA9IDA7CgogIGZvciAobGV0IGluZGV4ID0gMDsgaW5kZXggKyAzIDwgcGl4ZWxEYXRhLmxlbmd0aDsgaW5kZXggKz0gNCkgewogICAgY29uc3QgcmVkID0gcGl4ZWxEYXRhW2luZGV4XSA/PyAwOwogICAgY29uc3QgZ3JlZW4gPSBwaXhlbERhdGFbaW5kZXggKyAxXSA/PyAwOwogICAgY29uc3QgYmx1ZSA9IHBpeGVsRGF0YVtpbmRleCArIDJdID8/IDA7CiAgICBjb25zdCBhbHBoYSA9IChwaXhlbERhdGFbaW5kZXggKyAzXSA/PyAwKSAvIDI1NTsKICAgIGlmIChhbHBoYSA8IE1JTl9WSVNJQkxFX1BJWEVMX0FMUEhBKSBjb250aW51ZTsKCiAgICB2aXNpYmxlV2VpZ2h0ICs9IGFscGhhOwogICAgaWYgKAogICAgICByZWQgPj0gTUlOX1dISVRFX1BJWEVMX0NIQU5ORUwgJiYKICAgICAgZ3JlZW4gPj0gTUlOX1dISVRFX1BJWEVMX0NIQU5ORUwgJiYKICAgICAgYmx1ZSA+PSBNSU5fV0hJVEVfUElYRUxfQ0hBTk5FTAogICAgKSB7CiAgICAgIHdoaXRlV2VpZ2h0ICs9IGFscGhhOwogICAgfQogIH0KCiAgcmV0dXJuICgKICAgIHZpc2libGVXZWlnaHQgPiAwICYmIHdoaXRlV2VpZ2h0IC8gdmlzaWJsZVdlaWdodCA+PSBNSU5fV0hJVEVfUElYRUxfUkFUSU8KICApOwp9OwoKZXhwb3J0IGNvbnN0IG1hcHBpbmdJY29uTmVlZHNEYXJrUHJldmlld0JhY2tncm91bmQgPSAoCiAgaW1hZ2U6IEhUTUxJbWFnZUVsZW1lbnQsCik6IGJvb2xlYW4gPT4gewogIGlmICghaW1hZ2UubmF0dXJhbFdpZHRoIHx8ICFpbWFnZS5uYXR1cmFsSGVpZ2h0KSByZXR1cm4gZmFsc2U7CgogIGNvbnN0IGNhbnZhcyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoImNhbnZhcyIpOwogIGNhbnZhcy53aWR0aCA9IElDT05fQ09MT1JfQU5BTFlTSVNfU0laRTsKICBjYW52YXMuaGVpZ2h0ID0gSUNPTl9DT0xPUl9BTkFMWVNJU19TSVpFOwogIGNvbnN0IGNvbnRleHQgPSBjYW52YXMuZ2V0Q29udGV4dCgiMmQiLCB7IHdpbGxSZWFkRnJlcXVlbnRseTogdHJ1ZSB9KTsKICBpZiAoIWNvbnRleHQpIHJldHVybiBmYWxzZTsKCiAgdHJ5IHsKICAgIGNvbnRleHQuY2xlYXJSZWN0KDAsIDAsIElDT05fQ09MT1JfQU5BTFlTSVNfU0laRSwgSUNPTl9DT0xPUl9BTkFMWVNJU19TSVpFKTsKICAgIGNvbnRleHQuZHJhd0ltYWdlKAogICAgICBpbWFnZSwKICAgICAgMCwKICAgICAgMCwKICAgICAgSUNPTl9DT0xPUl9BTkFMWVNJU19TSVpFLAogICAgICBJQ09OX0NPTE9SX0FOQUxZU0lTX1NJWkUsCiAgICApOwogICAgcmV0dXJuIGlzTWFwcGluZ0ljb25QcmVkb21pbmFudGx5V2hpdGUoCiAgICAgIGNvbnRleHQuZ2V0SW1hZ2VEYXRhKAogICAgICAgIDAsCiAgICAgICAgMCwKICAgICAgICBJQ09OX0NPTE9SX0FOQUxZU0lTX1NJWkUsCiAgICAgICAgSUNPTl9DT0xPUl9BTkFMWVNJU19TSVpFLAogICAgICApLmRhdGEsCiAgICApOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIGZhbHNlOwogIH0KfTsKCmV4cG9ydCB0eXBlIE1hcHBpbmdJY29uRmlsZVZhbGlkYXRpb25Jc3N1ZSA9CiAgInVuc3VwcG9ydGVkX2Zvcm1hdCIgfCAic291cmNlX3Rvb19sYXJnZSIgfCBudWxsOwoKZXhwb3J0IGNsYXNzIE1hcHBpbmdJY29uUHJvY2Vzc2luZ0Vycm9yIGV4dGVuZHMgRXJyb3IgewogIHJlYWRvbmx5IGtpbmQ6CiAgICB8IEV4Y2x1ZGU8TWFwcGluZ0ljb25GaWxlVmFsaWRhdGlvbklzc3VlLCBudWxsPgogICAgfCAiZGVjb2RlX2ZhaWxlZCIKICAgIHwgImVuY29kZV9mYWlsZWQiCiAgICB8ICJvdXRwdXRfdG9vX2xhcmdlIjsKCiAgY29uc3RydWN0b3Ioa2luZDogTWFwcGluZ0ljb25Qcm9jZXNzaW5nRXJyb3JbImtpbmQiXSkgewogICAgc3VwZXIoa2luZCk7CiAgICB0aGlzLm5hbWUgPSAiTWFwcGluZ0ljb25Qcm9jZXNzaW5nRXJyb3IiOwogICAgdGhpcy5raW5kID0ga2luZDsKICB9Cn0KCmV4cG9ydCBjb25zdCBnZXRNYXBwaW5nSWNvbkZpbGVWYWxpZGF0aW9uSXNzdWUgPSAoCiAgZmlsZTogUGljazxGaWxlLCAibmFtZSIgfCAic2l6ZSIgfCAidHlwZSI+LAopOiBNYXBwaW5nSWNvbkZpbGVWYWxpZGF0aW9uSXNzdWUgPT4gewogIGlmIChmaWxlLnNpemUgPiBNQVhfTUFQUElOR19JQ09OX1NPVVJDRV9CWVRFUykgcmV0dXJuICJzb3VyY2VfdG9vX2xhcmdlIjsKICBjb25zdCBleHRlbnNpb24gPSBmaWxlLm5hbWUuc3BsaXQoIi4iKS5wb3AoKT8udG9Mb3dlckNhc2UoKSA/PyAiIjsKICBjb25zdCBtZWRpYVR5cGUgPSBmaWxlLnR5cGUudG9Mb3dlckNhc2UoKTsKICBpZiAoCiAgICAhQUNDRVBURURfTUFQUElOR19JQ09OX01JTUVfVFlQRVMuaGFzKG1lZGlhVHlwZSkgJiYKICAgICFBQ0NFUFRFRF9NQVBQSU5HX0lDT05fRVhURU5TSU9OUy5oYXMoZXh0ZW5zaW9uKQogICkgewogICAgcmV0dXJuICJ1bnN1cHBvcnRlZF9mb3JtYXQiOwogIH0KICByZXR1cm4gbnVsbDsKfTsKCmNvbnN0IEZPUkJJRERFTl9TVkdfRUxFTUVOVFMgPSBuZXcgU2V0KFsKICAiYW5pbWF0ZSIsCiAgImFuaW1hdGVtb3Rpb24iLAogICJhbmltYXRldHJhbnNmb3JtIiwKICAiYXVkaW8iLAogICJkaXNjYXJkIiwKICAiZW1iZWQiLAogICJmb3JlaWdub2JqZWN0IiwKICAiaWZyYW1lIiwKICAib2JqZWN0IiwKICAic2NyaXB0IiwKICAic2V0IiwKICAidmlkZW8iLApdKTsKY29uc3QgU0FGRV9FTUJFRERFRF9TVkdfSU1BR0UgPSAvXmRhdGE6aW1hZ2VcLyg/OnBuZ3xqcGU/Z3x3ZWJwfGdpZik7YmFzZTY0LC9pOwpjb25zdCBBTExPV0VEX1NWR19ET0NUWVBFID0KICAvPCFkb2N0eXBlXHMrc3ZnKD86XHMrKD86c3lzdGVtXHMrKD86IlteIl0qInwnW14nXSonKXxwdWJsaWNccysoPzoiW14iXSoifCdbXiddKicpXHMrKD86IlteIl0qInwnW14nXSonKSkpP1xzKj4vaTsKY29uc3QgU1ZHX1BST0xPR19QUkVGSVggPSAvXlx1RkVGRj8oPzpcc3w8XD9bXHNcU10qP1w/Pnw8IS0tW1xzXFNdKj8tLT4pKiQvOwoKY29uc3QgaGFzRXh0ZXJuYWxTdmdVcmwgPSAodmFsdWU6IHN0cmluZyk6IGJvb2xlYW4gPT4gewogIGNvbnN0IHVybFBhdHRlcm4gPSAvdXJsXChccyooPzoiKFteIl0qKSJ8JyhbXiddKiknfChbXildKikpXHMqXCkvZ2k7CiAgZm9yIChjb25zdCBtYXRjaCBvZiB2YWx1ZS5tYXRjaEFsbCh1cmxQYXR0ZXJuKSkgewogICAgY29uc3QgcmVmZXJlbmNlID0gKG1hdGNoWzFdID8/IG1hdGNoWzJdID8/IG1hdGNoWzNdID8/ICIiKS50cmltKCk7CiAgICBpZiAoIXJlZmVyZW5jZS5zdGFydHNXaXRoKCIjIikpIHJldHVybiB0cnVlOwogIH0KICByZXR1cm4gZmFsc2U7Cn07CgpleHBvcnQgY29uc3QgcHJlcGFyZU1hcHBpbmdJY29uU3ZnU291cmNlID0gKHNvdXJjZVRleHQ6IHN0cmluZyk6IHN0cmluZyA9PiB7CiAgaWYgKC88IWVudGl0eS9pLnRlc3Qoc291cmNlVGV4dCkpIHsKICAgIHRocm93IG5ldyBNYXBwaW5nSWNvblByb2Nlc3NpbmdFcnJvcigiZGVjb2RlX2ZhaWxlZCIpOwogIH0KCiAgY29uc3QgZG9jdHlwZU1hdGNoID0gc291cmNlVGV4dC5tYXRjaChBTExPV0VEX1NWR19ET0NUWVBFKTsKICBsZXQgcHJlcGFyZWRTb3VyY2UgPSBzb3VyY2VUZXh0OwogIGlmIChkb2N0eXBlTWF0Y2g/LmluZGV4ICE9PSB1bmRlZmluZWQpIHsKICAgIGNvbnN0IHByZWZpeCA9IHNvdXJjZVRleHQuc2xpY2UoMCwgZG9jdHlwZU1hdGNoLmluZGV4KTsKICAgIGlmICghU1ZHX1BST0xPR19QUkVGSVgudGVzdChwcmVmaXgpKSB7CiAgICAgIHRocm93IG5ldyBNYXBwaW5nSWNvblByb2Nlc3NpbmdFcnJvcigiZGVjb2RlX2ZhaWxlZCIpOwogICAgfQogICAgcHJlcGFyZWRTb3VyY2UgPQogICAgICBzb3VyY2VUZXh0LnNsaWNlKDAsIGRvY3R5cGVNYXRjaC5pbmRleCkgKwogICAgICBzb3VyY2VUZXh0LnNsaWNlKGRvY3R5cGVNYXRjaC5pbmRleCArIGRvY3R5cGVNYXRjaFswXS5sZW5ndGgpOwogIH0KCiAgLy8gQSByZW1haW5pbmcgZGVjbGFyYXRpb24gaXMgbWFsZm9ybWVkLCBkdXBsaWNhdGVkLCB1c2VzIGEgbm9uLVNWRyByb290LCBvcgogIC8vIGNvbnRhaW5zIGFuIGludGVybmFsIHN1YnNldC4gRG8gbm90IHBhc3MgYW55IG9mIHRob3NlIGZvcm1zIHRvIERPTVBhcnNlci4KICBpZiAoLzwhZG9jdHlwZS9pLnRlc3QocHJlcGFyZWRTb3VyY2UpKSB7CiAgICB0aHJvdyBuZXcgTWFwcGluZ0ljb25Qcm9jZXNzaW5nRXJyb3IoImRlY29kZV9mYWlsZWQiKTsKICB9CiAgcmV0dXJuIHByZXBhcmVkU291cmNlOwp9OwoKY29uc3Qgc2FuaXRpemVTdmdGaWxlID0gYXN5bmMgKGZpbGU6IEZpbGUpOiBQcm9taXNlPEJsb2I+ID0+IHsKICBjb25zdCBzb3VyY2VUZXh0ID0gcHJlcGFyZU1hcHBpbmdJY29uU3ZnU291cmNlKGF3YWl0IGZpbGUudGV4dCgpKTsKICBjb25zdCBkb2N1bWVudE5vZGUgPSBuZXcgRE9NUGFyc2VyKCkucGFyc2VGcm9tU3RyaW5nKAogICAgc291cmNlVGV4dCwKICAgICJpbWFnZS9zdmcreG1sIiwKICApOwogIGlmICgKICAgIGRvY3VtZW50Tm9kZS5xdWVyeVNlbGVjdG9yKCJwYXJzZXJlcnJvciIpIHx8CiAgICBkb2N1bWVudE5vZGUuZG9jdW1lbnRFbGVtZW50LmxvY2FsTmFtZS50b0xvd2VyQ2FzZSgpICE9PSAic3ZnIgogICkgewogICAgdGhyb3cgbmV3IE1hcHBpbmdJY29uUHJvY2Vzc2luZ0Vycm9yKCJkZWNvZGVfZmFpbGVkIik7CiAgfQoKICBjb25zdCByb290ID0gZG9jdW1lbnROb2RlLmRvY3VtZW50RWxlbWVudDsKICBjb25zdCB2aWV3Qm94ID0gcm9vdAogICAgLmdldEF0dHJpYnV0ZSgidmlld0JveCIpCiAgICA/LnRyaW0oKQogICAgLnNwbGl0KC9bXHMsXSsvKQogICAgLm1hcChOdW1iZXIpOwogIGNvbnN0IHZpZXdCb3hXaWR0aCA9IHZpZXdCb3g/LlsyXSA/PyAwOwogIGNvbnN0IHZpZXdCb3hIZWlnaHQgPSB2aWV3Qm94Py5bM10gPz8gMDsKICBpZiAoCiAgICB2aWV3Qm94Py5sZW5ndGggPT09IDQgJiYKICAgIE51bWJlci5pc0Zpbml0ZSh2aWV3Qm94V2lkdGgpICYmCiAgICBOdW1iZXIuaXNGaW5pdGUodmlld0JveEhlaWdodCkgJiYKICAgIHZpZXdCb3hXaWR0aCA+IDAgJiYKICAgIHZpZXdCb3hIZWlnaHQgPiAwICYmCiAgICAoIXJvb3QuaGFzQXR0cmlidXRlKCJ3aWR0aCIpIHx8CiAgICAgICFyb290Lmhhc0F0dHJpYnV0ZSgiaGVpZ2h0IikgfHwKICAgICAgcm9vdC5nZXRBdHRyaWJ1dGUoIndpZHRoIik/LmluY2x1ZGVzKCIlIikgfHwKICAgICAgcm9vdC5nZXRBdHRyaWJ1dGUoImhlaWdodCIpPy5pbmNsdWRlcygiJSIpKQogICkgewogICAgcm9vdC5zZXRBdHRyaWJ1dGUoIndpZHRoIiwgU3RyaW5nKHZpZXdCb3hXaWR0aCkpOwogICAgcm9vdC5zZXRBdHRyaWJ1dGUoImhlaWdodCIsIFN0cmluZyh2aWV3Qm94SGVpZ2h0KSk7CiAgfQoKICBjb25zdCBlbGVtZW50cyA9IFtyb290LCAuLi5BcnJheS5mcm9tKHJvb3QucXVlcnlTZWxlY3RvckFsbCgiKiIpKV07CiAgZm9yIChjb25zdCBlbGVtZW50IG9mIGVsZW1lbnRzKSB7CiAgICBpZiAoRk9SQklEREVOX1NWR19FTEVNRU5UUy5oYXMoZWxlbWVudC5sb2NhbE5hbWUudG9Mb3dlckNhc2UoKSkpIHsKICAgICAgZWxlbWVudC5yZW1vdmUoKTsKICAgICAgY29udGludWU7CiAgICB9CiAgICBpZiAoCiAgICAgIGVsZW1lbnQubG9jYWxOYW1lLnRvTG93ZXJDYXNlKCkgPT09ICJzdHlsZSIgJiYKICAgICAgKC9AaW1wb3J0L2kudGVzdChlbGVtZW50LnRleHRDb250ZW50ID8/ICIiKSB8fAogICAgICAgIGhhc0V4dGVybmFsU3ZnVXJsKGVsZW1lbnQudGV4dENvbnRlbnQgPz8gIiIpKQogICAgKSB7CiAgICAgIGVsZW1lbnQucmVtb3ZlKCk7CiAgICAgIGNvbnRpbnVlOwogICAgfQogICAgZm9yIChjb25zdCBhdHRyaWJ1dGUgb2YgQXJyYXkuZnJvbShlbGVtZW50LmF0dHJpYnV0ZXMpKSB7CiAgICAgIGNvbnN0IG5hbWUgPSBhdHRyaWJ1dGUubmFtZS50b0xvd2VyQ2FzZSgpOwogICAgICBjb25zdCB2YWx1ZSA9IGF0dHJpYnV0ZS52YWx1ZS50cmltKCk7CiAgICAgIGlmIChuYW1lLnN0YXJ0c1dpdGgoIm9uIikpIHsKICAgICAgICBlbGVtZW50LnJlbW92ZUF0dHJpYnV0ZShhdHRyaWJ1dGUubmFtZSk7CiAgICAgICAgY29udGludWU7CiAgICAgIH0KICAgICAgaWYgKG5hbWUgPT09ICJocmVmIiB8fCBuYW1lID09PSAieGxpbms6aHJlZiIpIHsKICAgICAgICBjb25zdCBpc0xvY2FsUmVmZXJlbmNlID0gdmFsdWUuc3RhcnRzV2l0aCgiIyIpOwogICAgICAgIGNvbnN0IGlzU2FmZUVtYmVkZGVkSW1hZ2UgPQogICAgICAgICAgZWxlbWVudC5sb2NhbE5hbWUudG9Mb3dlckNhc2UoKSA9PT0gImltYWdlIiAmJgogICAgICAgICAgU0FGRV9FTUJFRERFRF9TVkdfSU1BR0UudGVzdCh2YWx1ZSk7CiAgICAgICAgaWYgKHZhbHVlICYmICFpc0xvY2FsUmVmZXJlbmNlICYmICFpc1NhZmVFbWJlZGRlZEltYWdlKSB7CiAgICAgICAgICBlbGVtZW50LnJlbW92ZUF0dHJpYnV0ZShhdHRyaWJ1dGUubmFtZSk7CiAgICAgICAgfQogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIGlmIChoYXNFeHRlcm5hbFN2Z1VybCh2YWx1ZSkpIHsKICAgICAgICBlbGVtZW50LnJlbW92ZUF0dHJpYnV0ZShhdHRyaWJ1dGUubmFtZSk7CiAgICAgIH0KICAgIH0KICB9CgogIHJldHVybiBuZXcgQmxvYihbbmV3IFhNTFNlcmlhbGl6ZXIoKS5zZXJpYWxpemVUb1N0cmluZyhyb290KV0sIHsKICAgIHR5cGU6ICJpbWFnZS9zdmcreG1sIiwKICB9KTsKfTsKCmNvbnN0IGlzU3ZnRmlsZSA9IChmaWxlOiBGaWxlKSA9PgogIGZpbGUudHlwZS50b0xvd2VyQ2FzZSgpID09PSAiaW1hZ2Uvc3ZnK3htbCIgfHwKICBmaWxlLm5hbWUudG9Mb3dlckNhc2UoKS5lbmRzV2l0aCgiLnN2ZyIpOwoKY29uc3QgbG9hZEltYWdlRWxlbWVudCA9IChzb3VyY2VGaWxlOiBCbG9iKTogUHJvbWlzZTxIVE1MSW1hZ2VFbGVtZW50PiA9PgogIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgIGNvbnN0IHNvdXJjZSA9IFVSTC5jcmVhdGVPYmplY3RVUkwoc291cmNlRmlsZSk7CiAgICBjb25zdCBpbWFnZSA9IG5ldyBJbWFnZSgpOwogICAgaW1hZ2Uub25sb2FkID0gKCkgPT4gewogICAgICBVUkwucmV2b2tlT2JqZWN0VVJMKHNvdXJjZSk7CiAgICAgIHJlc29sdmUoaW1hZ2UpOwogICAgfTsKICAgIGltYWdlLm9uZXJyb3IgPSAoKSA9PiB7CiAgICAgIFVSTC5yZXZva2VPYmplY3RVUkwoc291cmNlKTsKICAgICAgcmVqZWN0KG5ldyBNYXBwaW5nSWNvblByb2Nlc3NpbmdFcnJvcigiZGVjb2RlX2ZhaWxlZCIpKTsKICAgIH07CiAgICBpbWFnZS5zcmMgPSBzb3VyY2U7CiAgfSk7Cgp0eXBlIERlY29kZWRNYXBwaW5nSWNvbiA9IHsKICBjbG9zZT86ICgpID0+IHZvaWQ7CiAgaGVpZ2h0OiBudW1iZXI7CiAgc291cmNlOiBDYW52YXNJbWFnZVNvdXJjZTsKICB3aWR0aDogbnVtYmVyOwp9OwoKY29uc3QgZGVjb2RlTWFwcGluZ0ljb24gPSBhc3luYyAoCiAgc291cmNlRmlsZTogQmxvYiwKICBhbGxvd0ltYWdlQml0bWFwID0gdHJ1ZSwKKTogUHJvbWlzZTxEZWNvZGVkTWFwcGluZ0ljb24+ID0+IHsKICBpZiAoYWxsb3dJbWFnZUJpdG1hcCAmJiB0eXBlb2YgY3JlYXRlSW1hZ2VCaXRtYXAgPT09ICJmdW5jdGlvbiIpIHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IGJpdG1hcCA9IGF3YWl0IGNyZWF0ZUltYWdlQml0bWFwKHNvdXJjZUZpbGUsIHsKICAgICAgICBpbWFnZU9yaWVudGF0aW9uOiAiZnJvbS1pbWFnZSIsCiAgICAgIH0pOwogICAgICBpZiAoYml0bWFwLndpZHRoICYmIGJpdG1hcC5oZWlnaHQpIHsKICAgICAgICByZXR1cm4gewogICAgICAgICAgY2xvc2U6ICgpID0+IGJpdG1hcC5jbG9zZSgpLAogICAgICAgICAgaGVpZ2h0OiBiaXRtYXAuaGVpZ2h0LAogICAgICAgICAgc291cmNlOiBiaXRtYXAsCiAgICAgICAgICB3aWR0aDogYml0bWFwLndpZHRoLAogICAgICAgIH07CiAgICAgIH0KICAgICAgYml0bWFwLmNsb3NlKCk7CiAgICB9IGNhdGNoIHsKICAgICAgLy8gU29tZSBicm93c2VycyBkZWNvZGUgYSBmb3JtYXQgdGhyb3VnaCA8aW1nPiBidXQgbm90IGNyZWF0ZUltYWdlQml0bWFwLgogICAgfQogIH0KCiAgY29uc3QgaW1hZ2UgPSBhd2FpdCBsb2FkSW1hZ2VFbGVtZW50KHNvdXJjZUZpbGUpOwogIGlmICghaW1hZ2UubmF0dXJhbFdpZHRoIHx8ICFpbWFnZS5uYXR1cmFsSGVpZ2h0KSB7CiAgICB0aHJvdyBuZXcgTWFwcGluZ0ljb25Qcm9jZXNzaW5nRXJyb3IoImRlY29kZV9mYWlsZWQiKTsKICB9CiAgcmV0dXJuIHsKICAgIGhlaWdodDogaW1hZ2UubmF0dXJhbEhlaWdodCwKICAgIHNvdXJjZTogaW1hZ2UsCiAgICB3aWR0aDogaW1hZ2UubmF0dXJhbFdpZHRoLAogIH07Cn07Cgpjb25zdCBjYW52YXNUb0Jsb2IgPSAoCiAgY2FudmFzOiBIVE1MQ2FudmFzRWxlbWVudCwKICBxdWFsaXR5OiBudW1iZXIsCik6IFByb21pc2U8QmxvYj4gPT4KICBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICBjYW52YXMudG9CbG9iKAogICAgICAoYmxvYikgPT4gewogICAgICAgIGlmIChibG9iKSByZXNvbHZlKGJsb2IpOwogICAgICAgIGVsc2UgcmVqZWN0KG5ldyBNYXBwaW5nSWNvblByb2Nlc3NpbmdFcnJvcigiZW5jb2RlX2ZhaWxlZCIpKTsKICAgICAgfSwKICAgICAgImltYWdlL3dlYnAiLAogICAgICBxdWFsaXR5LAogICAgKTsKICB9KTsKCmNvbnN0IGJsb2JUb0RhdGFVcmwgPSAoYmxvYjogQmxvYik6IFByb21pc2U8c3RyaW5nPiA9PgogIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgIGNvbnN0IHJlYWRlciA9IG5ldyBGaWxlUmVhZGVyKCk7CiAgICByZWFkZXIub25sb2FkID0gKCkgPT4KICAgICAgdHlwZW9mIHJlYWRlci5yZXN1bHQgPT09ICJzdHJpbmciCiAgICAgICAgPyByZXNvbHZlKHJlYWRlci5yZXN1bHQpCiAgICAgICAgOiByZWplY3QobmV3IE1hcHBpbmdJY29uUHJvY2Vzc2luZ0Vycm9yKCJlbmNvZGVfZmFpbGVkIikpOwogICAgcmVhZGVyLm9uZXJyb3IgPSAoKSA9PgogICAgICByZWplY3QobmV3IE1hcHBpbmdJY29uUHJvY2Vzc2luZ0Vycm9yKCJlbmNvZGVfZmFpbGVkIikpOwogICAgcmVhZGVyLnJlYWRBc0RhdGFVUkwoYmxvYik7CiAgfSk7CgpleHBvcnQgY29uc3QgcHJvY2Vzc01hcHBpbmdJY29uRmlsZSA9IGFzeW5jIChmaWxlOiBGaWxlKTogUHJvbWlzZTxzdHJpbmc+ID0+IHsKICBjb25zdCB2YWxpZGF0aW9uSXNzdWUgPSBnZXRNYXBwaW5nSWNvbkZpbGVWYWxpZGF0aW9uSXNzdWUoZmlsZSk7CiAgaWYgKHZhbGlkYXRpb25Jc3N1ZSkgdGhyb3cgbmV3IE1hcHBpbmdJY29uUHJvY2Vzc2luZ0Vycm9yKHZhbGlkYXRpb25Jc3N1ZSk7CgogIGNvbnN0IHNvdXJjZUlzU3ZnID0gaXNTdmdGaWxlKGZpbGUpOwogIGNvbnN0IHNvdXJjZUZpbGUgPSBzb3VyY2VJc1N2ZyA/IGF3YWl0IHNhbml0aXplU3ZnRmlsZShmaWxlKSA6IGZpbGU7CiAgY29uc3QgaW1hZ2UgPSBhd2FpdCBkZWNvZGVNYXBwaW5nSWNvbihzb3VyY2VGaWxlLCAhc291cmNlSXNTdmcpOwoKICBjb25zdCBjYW52YXMgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJjYW52YXMiKTsKICBjb25zdCBjb250ZXh0ID0gY2FudmFzLmdldENvbnRleHQoIjJkIik7CiAgaWYgKCFjb250ZXh0KSB7CiAgICBpbWFnZS5jbG9zZT8uKCk7CiAgICB0aHJvdyBuZXcgTWFwcGluZ0ljb25Qcm9jZXNzaW5nRXJyb3IoImVuY29kZV9mYWlsZWQiKTsKICB9CgogIGNvbnN0IGF0dGVtcHRzID0gWwogICAgeyBzaXplOiAyNTYsIHF1YWxpdHk6IDAuOTIgfSwKICAgIHsgc2l6ZTogMjU2LCBxdWFsaXR5OiAwLjgyIH0sCiAgICB7IHNpemU6IDI1NiwgcXVhbGl0eTogMC43MiB9LAogICAgeyBzaXplOiAxOTIsIHF1YWxpdHk6IDAuNzggfSwKICAgIHsgc2l6ZTogMTI4LCBxdWFsaXR5OiAwLjcyIH0sCiAgXTsKICB0cnkgewogICAgZm9yIChjb25zdCBhdHRlbXB0IG9mIGF0dGVtcHRzKSB7CiAgICAgIGNhbnZhcy53aWR0aCA9IGF0dGVtcHQuc2l6ZTsKICAgICAgY2FudmFzLmhlaWdodCA9IGF0dGVtcHQuc2l6ZTsKICAgICAgY29udGV4dC5jbGVhclJlY3QoMCwgMCwgYXR0ZW1wdC5zaXplLCBhdHRlbXB0LnNpemUpOwogICAgICBjb25zdCBzY2FsZSA9IE1hdGgubWluKAogICAgICAgIGF0dGVtcHQuc2l6ZSAvIGltYWdlLndpZHRoLAogICAgICAgIGF0dGVtcHQuc2l6ZSAvIGltYWdlLmhlaWdodCwKICAgICAgKTsKICAgICAgY29uc3Qgd2lkdGggPSBpbWFnZS53aWR0aCAqIHNjYWxlOwogICAgICBjb25zdCBoZWlnaHQgPSBpbWFnZS5oZWlnaHQgKiBzY2FsZTsKICAgICAgY29udGV4dC5kcmF3SW1hZ2UoCiAgICAgICAgaW1hZ2Uuc291cmNlLAogICAgICAgIChhdHRlbXB0LnNpemUgLSB3aWR0aCkgLyAyLAogICAgICAgIChhdHRlbXB0LnNpemUgLSBoZWlnaHQpIC8gMiwKICAgICAgICB3aWR0aCwKICAgICAgICBoZWlnaHQsCiAgICAgICk7CiAgICAgIGNvbnN0IGJsb2IgPSBhd2FpdCBjYW52YXNUb0Jsb2IoY2FudmFzLCBhdHRlbXB0LnF1YWxpdHkpOwogICAgICBpZiAoYmxvYi5zaXplIDw9IE1BWF9NQVBQSU5HX0lDT05fT1VUUFVUX0JZVEVTKSB7CiAgICAgICAgcmV0dXJuIGF3YWl0IGJsb2JUb0RhdGFVcmwoYmxvYik7CiAgICAgIH0KICAgIH0KICB9IGZpbmFsbHkgewogICAgaW1hZ2UuY2xvc2U/LigpOwogIH0KCiAgdGhyb3cgbmV3IE1hcHBpbmdJY29uUHJvY2Vzc2luZ0Vycm9yKCJvdXRwdXRfdG9vX2xhcmdlIik7Cn07Cg==
+export const MAX_MAPPING_ICON_SOURCE_BYTES = 5 * 1024 * 1024;
+export const MAX_MAPPING_ICON_OUTPUT_BYTES = 128 * 1024;
+
+const ACCEPTED_MAPPING_ICON_MIME_TYPES = new Set([
+  "image/png",
+  "image/x-png",
+  "image/jpeg",
+  "image/jpg",
+  "image/pjpeg",
+  "image/webp",
+  "image/x-webp",
+  "image/avif",
+  "image/svg+xml",
+  "image/x-icon",
+  "image/vnd.microsoft.icon",
+]);
+const ACCEPTED_MAPPING_ICON_EXTENSIONS = new Set([
+  "png",
+  "jpg",
+  "jpeg",
+  "webp",
+  "avif",
+  "svg",
+  "ico",
+]);
+
+export const MAPPING_ICON_FILE_ACCEPT =
+  ".png,.jpg,.jpeg,.webp,.avif,.svg,.ico,image/png,image/jpeg,image/webp,image/avif,image/svg+xml,image/x-icon,image/vnd.microsoft.icon";
+
+const ICON_COLOR_ANALYSIS_SIZE = 32;
+const MIN_VISIBLE_PIXEL_ALPHA = 16 / 255;
+const MIN_WHITE_PIXEL_CHANNEL = 224;
+const MIN_WHITE_PIXEL_RATIO = 0.6;
+
+export const isMappingIconPredominantlyWhite = (
+  pixelData: ArrayLike<number>,
+): boolean => {
+  let visibleWeight = 0;
+  let whiteWeight = 0;
+
+  for (let index = 0; index + 3 < pixelData.length; index += 4) {
+    const red = pixelData[index] ?? 0;
+    const green = pixelData[index + 1] ?? 0;
+    const blue = pixelData[index + 2] ?? 0;
+    const alpha = (pixelData[index + 3] ?? 0) / 255;
+    if (alpha < MIN_VISIBLE_PIXEL_ALPHA) continue;
+
+    visibleWeight += alpha;
+    if (
+      red >= MIN_WHITE_PIXEL_CHANNEL &&
+      green >= MIN_WHITE_PIXEL_CHANNEL &&
+      blue >= MIN_WHITE_PIXEL_CHANNEL
+    ) {
+      whiteWeight += alpha;
+    }
+  }
+
+  return (
+    visibleWeight > 0 && whiteWeight / visibleWeight >= MIN_WHITE_PIXEL_RATIO
+  );
+};
+
+export const mappingIconNeedsDarkPreviewBackground = (
+  image: HTMLImageElement,
+): boolean => {
+  if (!image.naturalWidth || !image.naturalHeight) return false;
+
+  const canvas = document.createElement("canvas");
+  canvas.width = ICON_COLOR_ANALYSIS_SIZE;
+  canvas.height = ICON_COLOR_ANALYSIS_SIZE;
+  const context = canvas.getContext("2d", { willReadFrequently: true });
+  if (!context) return false;
+
+  try {
+    context.clearRect(0, 0, ICON_COLOR_ANALYSIS_SIZE, ICON_COLOR_ANALYSIS_SIZE);
+    context.drawImage(
+      image,
+      0,
+      0,
+      ICON_COLOR_ANALYSIS_SIZE,
+      ICON_COLOR_ANALYSIS_SIZE,
+    );
+    return isMappingIconPredominantlyWhite(
+      context.getImageData(
+        0,
+        0,
+        ICON_COLOR_ANALYSIS_SIZE,
+        ICON_COLOR_ANALYSIS_SIZE,
+      ).data,
+    );
+  } catch {
+    return false;
+  }
+};
+
+export type MappingIconFileValidationIssue =
+  "unsupported_format" | "source_too_large" | null;
+
+export class MappingIconProcessingError extends Error {
+  readonly kind:
+    | Exclude<MappingIconFileValidationIssue, null>
+    | "decode_failed"
+    | "encode_failed"
+    | "output_too_large";
+
+  constructor(kind: MappingIconProcessingError["kind"]) {
+    super(kind);
+    this.name = "MappingIconProcessingError";
+    this.kind = kind;
+  }
+}
+
+export const getMappingIconFileValidationIssue = (
+  file: Pick<File, "name" | "size" | "type">,
+): MappingIconFileValidationIssue => {
+  if (file.size > MAX_MAPPING_ICON_SOURCE_BYTES) return "source_too_large";
+  const extension = file.name.split(".").pop()?.toLowerCase() ?? "";
+  const mediaType = file.type.toLowerCase();
+  if (
+    !ACCEPTED_MAPPING_ICON_MIME_TYPES.has(mediaType) &&
+    !ACCEPTED_MAPPING_ICON_EXTENSIONS.has(extension)
+  ) {
+    return "unsupported_format";
+  }
+  return null;
+};
+
+const FORBIDDEN_SVG_ELEMENTS = new Set([
+  "animate",
+  "animatemotion",
+  "animatetransform",
+  "audio",
+  "discard",
+  "embed",
+  "foreignobject",
+  "iframe",
+  "object",
+  "script",
+  "set",
+  "video",
+]);
+const SAFE_EMBEDDED_SVG_IMAGE = /^data:image\/(?:png|jpe?g|webp|gif);base64,/i;
+const ALLOWED_SVG_DOCTYPE =
+  /<!doctype\s+svg(?:\s+(?:system\s+(?:"[^"]*"|'[^']*')|public\s+(?:"[^"]*"|'[^']*')\s+(?:"[^"]*"|'[^']*')))?\s*>/i;
+const SVG_PROLOG_PREFIX = /^\uFEFF?(?:\s|<\?[\s\S]*?\?>|<!--[\s\S]*?-->)*$/;
+
+const hasExternalSvgUrl = (value: string): boolean => {
+  const urlPattern = /url\(\s*(?:"([^"]*)"|'([^']*)'|([^)]*))\s*\)/gi;
+  for (const match of value.matchAll(urlPattern)) {
+    const reference = (match[1] ?? match[2] ?? match[3] ?? "").trim();
+    if (!reference.startsWith("#")) return true;
+  }
+  return false;
+};
+
+export const prepareMappingIconSvgSource = (sourceText: string): string => {
+  if (/<!entity/i.test(sourceText)) {
+    throw new MappingIconProcessingError("decode_failed");
+  }
+
+  const doctypeMatch = sourceText.match(ALLOWED_SVG_DOCTYPE);
+  let preparedSource = sourceText;
+  if (doctypeMatch?.index !== undefined) {
+    const prefix = sourceText.slice(0, doctypeMatch.index);
+    if (!SVG_PROLOG_PREFIX.test(prefix)) {
+      throw new MappingIconProcessingError("decode_failed");
+    }
+    preparedSource =
+      sourceText.slice(0, doctypeMatch.index) +
+      sourceText.slice(doctypeMatch.index + doctypeMatch[0].length);
+  }
+
+  // A remaining declaration is malformed, duplicated, uses a non-SVG root, or
+  // contains an internal subset. Do not pass any of those forms to DOMParser.
+  if (/<!doctype/i.test(preparedSource)) {
+    throw new MappingIconProcessingError("decode_failed");
+  }
+  return preparedSource;
+};
+
+const sanitizeSvgFile = async (file: File): Promise<Blob> => {
+  const sourceText = prepareMappingIconSvgSource(await file.text());
+  const documentNode = new DOMParser().parseFromString(
+    sourceText,
+    "image/svg+xml",
+  );
+  if (
+    documentNode.querySelector("parsererror") ||
+    documentNode.documentElement.localName.toLowerCase() !== "svg"
+  ) {
+    throw new MappingIconProcessingError("decode_failed");
+  }
+
+  const root = documentNode.documentElement;
+  const viewBox = root
+    .getAttribute("viewBox")
+    ?.trim()
+    .split(/[\s,]+/)
+    .map(Number);
+  const viewBoxWidth = viewBox?.[2] ?? 0;
+  const viewBoxHeight = viewBox?.[3] ?? 0;
+  if (
+    viewBox?.length === 4 &&
+    Number.isFinite(viewBoxWidth) &&
+    Number.isFinite(viewBoxHeight) &&
+    viewBoxWidth > 0 &&
+    viewBoxHeight > 0 &&
+    (!root.hasAttribute("width") ||
+      !root.hasAttribute("height") ||
+      root.getAttribute("width")?.includes("%") ||
+      root.getAttribute("height")?.includes("%"))
+  ) {
+    root.setAttribute("width", String(viewBoxWidth));
+    root.setAttribute("height", String(viewBoxHeight));
+  }
+
+  const elements = [root, ...Array.from(root.querySelectorAll("*"))];
+  for (const element of elements) {
+    if (FORBIDDEN_SVG_ELEMENTS.has(element.localName.toLowerCase())) {
+      element.remove();
+      continue;
+    }
+    if (
+      element.localName.toLowerCase() === "style" &&
+      (/@import/i.test(element.textContent ?? "") ||
+        hasExternalSvgUrl(element.textContent ?? ""))
+    ) {
+      element.remove();
+      continue;
+    }
+    for (const attribute of Array.from(element.attributes)) {
+      const name = attribute.name.toLowerCase();
+      const value = attribute.value.trim();
+      if (name.startsWith("on")) {
+        element.removeAttribute(attribute.name);
+        continue;
+      }
+      if (name === "href" || name === "xlink:href") {
+        const isLocalReference = value.startsWith("#");
+        const isSafeEmbeddedImage =
+          element.localName.toLowerCase() === "image" &&
+          SAFE_EMBEDDED_SVG_IMAGE.test(value);
+        if (value && !isLocalReference && !isSafeEmbeddedImage) {
+          element.removeAttribute(attribute.name);
+        }
+        continue;
+      }
+      if (hasExternalSvgUrl(value)) {
+        element.removeAttribute(attribute.name);
+      }
+    }
+  }
+
+  return new Blob([new XMLSerializer().serializeToString(root)], {
+    type: "image/svg+xml",
+  });
+};
+
+const isSvgFile = (file: File) =>
+  file.type.toLowerCase() === "image/svg+xml" ||
+  file.name.toLowerCase().endsWith(".svg");
+
+const loadImageElement = (sourceFile: Blob): Promise<HTMLImageElement> =>
+  new Promise((resolve, reject) => {
+    const source = URL.createObjectURL(sourceFile);
+    const image = new Image();
+    image.onload = () => {
+      URL.revokeObjectURL(source);
+      resolve(image);
+    };
+    image.onerror = () => {
+      URL.revokeObjectURL(source);
+      reject(new MappingIconProcessingError("decode_failed"));
+    };
+    image.src = source;
+  });
+
+type DecodedMappingIcon = {
+  close?: () => void;
+  height: number;
+  source: CanvasImageSource;
+  width: number;
+};
+
+const decodeMappingIcon = async (
+  sourceFile: Blob,
+  allowImageBitmap = true,
+): Promise<DecodedMappingIcon> => {
+  if (allowImageBitmap && typeof createImageBitmap === "function") {
+    try {
+      const bitmap = await createImageBitmap(sourceFile, {
+        imageOrientation: "from-image",
+      });
+      if (bitmap.width && bitmap.height) {
+        return {
+          close: () => bitmap.close(),
+          height: bitmap.height,
+          source: bitmap,
+          width: bitmap.width,
+        };
+      }
+      bitmap.close();
+    } catch {
+      // Some browsers decode a format through <img> but not createImageBitmap.
+    }
+  }
+
+  const image = await loadImageElement(sourceFile);
+  if (!image.naturalWidth || !image.naturalHeight) {
+    throw new MappingIconProcessingError("decode_failed");
+  }
+  return {
+    height: image.naturalHeight,
+    source: image,
+    width: image.naturalWidth,
+  };
+};
+
+const canvasToBlob = (
+  canvas: HTMLCanvasElement,
+  quality: number,
+): Promise<Blob> =>
+  new Promise((resolve, reject) => {
+    canvas.toBlob(
+      (blob) => {
+        if (blob) resolve(blob);
+        else reject(new MappingIconProcessingError("encode_failed"));
+      },
+      "image/webp",
+      quality,
+    );
+  });
+
+const blobToDataUrl = (blob: Blob): Promise<string> =>
+  new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () =>
+      typeof reader.result === "string"
+        ? resolve(reader.result)
+        : reject(new MappingIconProcessingError("encode_failed"));
+    reader.onerror = () =>
+      reject(new MappingIconProcessingError("encode_failed"));
+    reader.readAsDataURL(blob);
+  });
+
+export const processMappingIconFile = async (file: File): Promise<string> => {
+  const validationIssue = getMappingIconFileValidationIssue(file);
+  if (validationIssue) throw new MappingIconProcessingError(validationIssue);
+
+  const sourceIsSvg = isSvgFile(file);
+  const sourceFile = sourceIsSvg ? await sanitizeSvgFile(file) : file;
+  const image = await decodeMappingIcon(sourceFile, !sourceIsSvg);
+
+  const canvas = document.createElement("canvas");
+  const context = canvas.getContext("2d");
+  if (!context) {
+    image.close?.();
+    throw new MappingIconProcessingError("encode_failed");
+  }
+
+  const attempts = [
+    { size: 256, quality: 0.92 },
+    { size: 256, quality: 0.82 },
+    { size: 256, quality: 0.72 },
+    { size: 192, quality: 0.78 },
+    { size: 128, quality: 0.72 },
+  ];
+  try {
+    for (const attempt of attempts) {
+      canvas.width = attempt.size;
+      canvas.height = attempt.size;
+      context.clearRect(0, 0, attempt.size, attempt.size);
+      const scale = Math.min(
+        attempt.size / image.width,
+        attempt.size / image.height,
+      );
+      const width = image.width * scale;
+      const height = image.height * scale;
+      context.drawImage(
+        image.source,
+        (attempt.size - width) / 2,
+        (attempt.size - height) / 2,
+        width,
+        height,
+      );
+      const blob = await canvasToBlob(canvas, attempt.quality);
+      if (blob.size <= MAX_MAPPING_ICON_OUTPUT_BYTES) {
+        return await blobToDataUrl(blob);
+      }
+    }
+  } finally {
+    image.close?.();
+  }
+
+  throw new MappingIconProcessingError("output_too_large");
+};

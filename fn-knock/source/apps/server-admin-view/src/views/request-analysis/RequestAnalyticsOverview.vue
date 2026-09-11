@@ -1,1 +1,92 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7CiAgQWN0aXZpdHksCiAgQXJyb3dVcEZyb21MaW5lLAogIEdhdWdlLAogIFRyaWFuZ2xlQWxlcnQsCiAgVXNlcnNSb3VuZCwKfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBBbGVydCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9hbGVydCI7CmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50LCBDYXJkRGVzY3JpcHRpb24sIENhcmRIZWFkZXIsIENhcmRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IFRpbWVTZXJpZXNDaGFydCBmcm9tICJAL2NvbXBvbmVudHMvY2hhcnRzL1RpbWVTZXJpZXNDaGFydC52dWUiOwppbXBvcnQgdHlwZSB7CiAgUmVxdWVzdEFuYWx5dGljc01ldHJpY0tleSwKICBSZXF1ZXN0QW5hbHl0aWNzUGFnZU1vZGVsLAp9IGZyb20gIi4vdXNlUmVxdWVzdEFuYWx5dGljc1BhZ2UiOwoKZGVmaW5lUHJvcHM8eyBtb2RlbDogUmVxdWVzdEFuYWx5dGljc1BhZ2VNb2RlbCB9PigpOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3QgbWV0cmljSWNvbnM6IFJlY29yZDxSZXF1ZXN0QW5hbHl0aWNzTWV0cmljS2V5LCB0eXBlb2YgQWN0aXZpdHk+ID0gewogIHJlcXVlc3RzOiBBY3Rpdml0eSwKICBjbGllbnRzOiBVc2Vyc1JvdW5kLAogIGVycm9yczogVHJpYW5nbGVBbGVydCwKICBwOTU6IEdhdWdlLAogIHRyYWZmaWM6IEFycm93VXBGcm9tTGluZSwKfTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0iZ3JpZCBncmlkLWNvbHMtMiBnYXAtMi41IHNtOmdhcC0zIGxnOmdyaWQtY29scy0zIHhsOmdyaWQtY29scy01Ij4KICAgIDxDYXJkCiAgICAgIHYtZm9yPSJtZXRyaWMgaW4gbW9kZWwubWV0cmljQ2FyZHMiCiAgICAgIDprZXk9Im1ldHJpYy5rZXkiCiAgICAgIGNsYXNzPSJtaW4tdy0wIHNoYWRvdy1ub25lIgogICAgICA6Y2xhc3M9InsgJ2NvbC1zcGFuLTIgbGc6Y29sLXNwYW4tMSc6IG1ldHJpYy5rZXkgPT09ICd0cmFmZmljJyB9IgogICAgPgogICAgICA8Q2FyZENvbnRlbnQgY2xhc3M9InAtMyBzbTpwLTQiPgogICAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC0yIj4KICAgICAgICAgIDxwIGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3sgbWV0cmljLmxhYmVsIH19PC9wPgogICAgICAgICAgPGNvbXBvbmVudAogICAgICAgICAgICA6aXM9Im1ldHJpY0ljb25zW21ldHJpYy5rZXldIgogICAgICAgICAgICBjbGFzcz0iaC00IHctNCBzaHJpbmstMCB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgIGFyaWEtaGlkZGVuPSJ0cnVlIgogICAgICAgICAgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8cAogICAgICAgICAgY2xhc3M9Im10LTIuNSB0cnVuY2F0ZSB0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHQgdGFidWxhci1udW1zIHNtOm10LTMgc206dGV4dC0yeGwiCiAgICAgICAgICA6dGl0bGU9Im1ldHJpYy52YWx1ZSIKICAgICAgICA+CiAgICAgICAgICB7eyBtZXRyaWMudmFsdWUgfX0KICAgICAgICA8L3A+CiAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICA8L0NhcmQ+CiAgPC9kaXY+CgogIDxDYXJkIGNsYXNzPSJvdmVyZmxvdy1oaWRkZW4gc2hhZG93LW5vbmUiPgogICAgPENhcmRIZWFkZXIgY2xhc3M9ImJvcmRlci1iIHB4LTQgcHktMyBzbTpweC02IHNtOnB5LTQiPgogICAgICA8Q2FyZFRpdGxlIGNsYXNzPSJ0ZXh0LWJhc2UiPgogICAgICAgIHt7IHQoImFkbWluLnJlcXVlc3RBbmFseXNpcy5jaGFydC50aXRsZSIpIH19CiAgICAgIDwvQ2FyZFRpdGxlPgogICAgICA8Q2FyZERlc2NyaXB0aW9uIGNsYXNzPSJ0ZXh0LXhzIHNtOnRleHQtc20iPgogICAgICAgIHt7IHQoImFkbWluLnJlcXVlc3RBbmFseXNpcy5jaGFydC5kZXNjcmlwdGlvbiIpIH19CiAgICAgIDwvQ2FyZERlc2NyaXB0aW9uPgogICAgPC9DYXJkSGVhZGVyPgogICAgPENhcmRDb250ZW50CiAgICAgIGNsYXNzPSJoLVsyODBweF0gcC0yIHNtOmgtWzM4MHB4XSBzbTpwLTQiCiAgICAgIHJvbGU9ImltZyIKICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLnJlcXVlc3RBbmFseXNpcy5jaGFydC5hcmlhTGFiZWwnKSIKICAgID4KICAgICAgPFRpbWVTZXJpZXNDaGFydAogICAgICAgIDpzZXJpZXM9Im1vZGVsLmhhc1JlcXVlc3RzID8gbW9kZWwuY2hhcnRTZXJpZXMgOiBbXSIKICAgICAgICA6dGltZS1mb3JtYXR0ZXI9Im1vZGVsLmZvcm1hdENoYXJ0VGltZSIKICAgICAgICA6ZW1wdHktdGV4dD0idCgnYWRtaW4ucmVxdWVzdEFuYWx5c2lzLmVtcHR5JykiCiAgICAgICAgOm1pbi1oZWlnaHQ9IjIyMCIKICAgICAgLz4KICAgIDwvQ2FyZENvbnRlbnQ+CiAgPC9DYXJkPgoKICA8QWxlcnQKICAgIHYtaWY9Iihtb2RlbC5kYXRhPy5xdWFsaXR5LmludmFsaWRfZW50cmllcyB8fCAwKSA+IDAiCiAgICBjbGFzcz0iYm9yZGVyLWFtYmVyLTUwMC8yNSBiZy1hbWJlci01MDAvNSB0ZXh0LWZvcmVncm91bmQiCiAgPgogICAgPFRyaWFuZ2xlQWxlcnQgY2xhc3M9ImgtNCB3LTQgdGV4dC1hbWJlci02MDAiIC8+CiAgICA8cCBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICB7ewogICAgICAgIHQoImFkbWluLnJlcXVlc3RBbmFseXNpcy5xdWFsaXR5V2FybmluZyIsIHsKICAgICAgICAgIGNvdW50OiBtb2RlbC5kYXRhPy5xdWFsaXR5LmludmFsaWRfZW50cmllcyB8fCAwLAogICAgICAgIH0pCiAgICAgIH19CiAgICA8L3A+CiAgPC9BbGVydD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import {
+  Activity,
+  ArrowUpFromLine,
+  Gauge,
+  TriangleAlert,
+  UsersRound,
+} from "lucide-vue-next";
+import { Alert } from "@/components/ui/alert";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import TimeSeriesChart from "@/components/charts/TimeSeriesChart.vue";
+import type {
+  RequestAnalyticsMetricKey,
+  RequestAnalyticsPageModel,
+} from "./useRequestAnalyticsPage";
+
+defineProps<{ model: RequestAnalyticsPageModel }>();
+const { t } = useI18n();
+const metricIcons: Record<RequestAnalyticsMetricKey, typeof Activity> = {
+  requests: Activity,
+  clients: UsersRound,
+  errors: TriangleAlert,
+  p95: Gauge,
+  traffic: ArrowUpFromLine,
+};
+</script>
+
+<template>
+  <div class="grid grid-cols-2 gap-2.5 sm:gap-3 lg:grid-cols-3 xl:grid-cols-5">
+    <Card
+      v-for="metric in model.metricCards"
+      :key="metric.key"
+      class="min-w-0 shadow-none"
+      :class="{ 'col-span-2 lg:col-span-1': metric.key === 'traffic' }"
+    >
+      <CardContent class="p-3 sm:p-4">
+        <div class="flex items-start justify-between gap-2">
+          <p class="text-xs text-muted-foreground">{{ metric.label }}</p>
+          <component
+            :is="metricIcons[metric.key]"
+            class="h-4 w-4 shrink-0 text-muted-foreground"
+            aria-hidden="true"
+          />
+        </div>
+        <p
+          class="mt-2.5 truncate text-xl font-semibold tracking-tight tabular-nums sm:mt-3 sm:text-2xl"
+          :title="metric.value"
+        >
+          {{ metric.value }}
+        </p>
+      </CardContent>
+    </Card>
+  </div>
+
+  <Card class="overflow-hidden shadow-none">
+    <CardHeader class="border-b px-4 py-3 sm:px-6 sm:py-4">
+      <CardTitle class="text-base">
+        {{ t("admin.requestAnalysis.chart.title") }}
+      </CardTitle>
+      <CardDescription class="text-xs sm:text-sm">
+        {{ t("admin.requestAnalysis.chart.description") }}
+      </CardDescription>
+    </CardHeader>
+    <CardContent
+      class="h-[280px] p-2 sm:h-[380px] sm:p-4"
+      role="img"
+      :aria-label="t('admin.requestAnalysis.chart.ariaLabel')"
+    >
+      <TimeSeriesChart
+        :series="model.hasRequests ? model.chartSeries : []"
+        :time-formatter="model.formatChartTime"
+        :empty-text="t('admin.requestAnalysis.empty')"
+        :min-height="220"
+      />
+    </CardContent>
+  </Card>
+
+  <Alert
+    v-if="(model.data?.quality.invalid_entries || 0) > 0"
+    class="border-amber-500/25 bg-amber-500/5 text-foreground"
+  >
+    <TriangleAlert class="h-4 w-4 text-amber-600" />
+    <p class="text-sm text-muted-foreground">
+      {{
+        t("admin.requestAnalysis.qualityWarning", {
+          count: model.data?.quality.invalid_entries || 0,
+        })
+      }}
+    </p>
+  </Alert>
+</template>

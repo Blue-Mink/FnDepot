@@ -1,1 +1,488 @@
-PHRlbXBsYXRlPgogIDxDYXJkIGNsYXNzPSJ3LWZ1bGwiPgogICAgPENhcmRIZWFkZXI+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC00Ij4KICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0xIj4KICAgICAgICAgIDxDYXJkVGl0bGUgY2xhc3M9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgQUNNRS5zaAogICAgICAgICAgICA8QmFkZ2UgOnZhcmlhbnQ9InN0YXR1c0JhZGdlVmFyaWFudCI+e3sgc3RhdHVzTGFiZWwgfX08L0JhZGdlPgogICAgICAgICAgPC9DYXJkVGl0bGU+CiAgICAgICAgICA8Q2FyZERlc2NyaXB0aW9uPnt7CiAgICAgICAgICAgIHQoImFkbWluLmFjbWVTc2wuZGVzY3JpcHRpb24iKQogICAgICAgICAgfX08L0NhcmREZXNjcmlwdGlvbj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8UmVmcmVzaEJ1dHRvbgogICAgICAgICAgOmxvYWRpbmc9ImlzRmV0Y2hpbmciCiAgICAgICAgICA6ZGlzYWJsZWQ9ImlzSW5pdGlhbGl6aW5nIHx8IGlzRmV0Y2hpbmcgfHwgaXNTd2l0Y2hpbmdDYSIKICAgICAgICAgIEBjbGljaz0iZmV0Y2hTdGF0dXMiCiAgICAgICAgLz4KICAgICAgPC9kaXY+CiAgICA8L0NhcmRIZWFkZXI+CgogICAgPENhcmRDb250ZW50CiAgICAgIHYtaWY9ImlzSW5pdGlhbGl6aW5nICYmIHNob3dJbml0aWFsaXppbmdTa2VsZXRvbiIKICAgICAgY2xhc3M9ImdyaWQgZ2FwLTYiCiAgICA+CiAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ3JpZC1jb2xzLTEgbWQ6Z3JpZC1jb2xzLTMgZ2FwLTQiPgogICAgICAgIDxkaXYgY2xhc3M9ImJvcmRlciBwLTQgcm91bmRlZC1sZyI+CiAgICAgICAgICA8U2tlbGV0b24gY2xhc3M9ImgtNCB3LTIwIG1iLTIiIC8+CiAgICAgICAgICA8U2tlbGV0b24gY2xhc3M9ImgtNSB3LTI0IiAvPgogICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTMgdy00MCBtdC0zIiAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImJvcmRlciBwLTQgcm91bmRlZC1sZyBtZDpjb2wtc3Bhbi0yIj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZsZXgganVzdGlmeS1iZXR3ZWVuIGl0ZW1zLWNlbnRlciI+CiAgICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC00IHctMTYiIC8+CiAgICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC01IHctMTIiIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9Im10LTQiPgogICAgICAgICAgICA8U2tlbGV0b24gY2xhc3M9ImgtMyB3LWZ1bGwiIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L0NhcmRDb250ZW50PgoKICAgIDxDYXJkQ29udGVudCB2LWVsc2UtaWY9IiFpc0luaXRpYWxpemluZyIgY2xhc3M9ImdyaWQgZ2FwLTYiPgogICAgICA8ZGl2IGNsYXNzPSJncmlkIGdyaWQtY29scy0xIG1kOmdyaWQtY29scy0zIGdhcC00Ij4KICAgICAgICA8ZGl2IGNsYXNzPSJib3JkZXIgcC00IHJvdW5kZWQtbGciPgogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbWItMiI+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmFjbWVTc2wuY2xpZW50U3RhdHVzIikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0iZm9udC1tZWRpdW0iPnt7IHN0YXR1c0xhYmVsIH19PC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJtdC0yIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGZvbnQtbW9ubyBicmVhay1hbGwiPgogICAgICAgICAgICB7eyBzdGF0ZT8ubWVzc2FnZSB8fCAiLSIgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzPSJib3JkZXIgcC00IHJvdW5kZWQtbGcgbWQ6Y29sLXNwYW4tMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBpdGVtcy1jZW50ZXIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uYWNtZVNzbC5yZXNvdXJjZVN0YXR1cyIpIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgdi1pZj0iaXNJbnN0YWxsZWQiCiAgICAgICAgICAgICAgOmNsYXNzPSJbCiAgICAgICAgICAgICAgICAncHgtMiBweS0wLjUgcm91bmRlZCB0ZXh0LXhzIGZvbnQtbWVkaXVtJywKICAgICAgICAgICAgICAgICdiZy1ncmVlbi0xMDAgdGV4dC1ncmVlbi03MDAgYm9yZGVyIGJvcmRlci1ncmVlbi0yMDAnLAogICAgICAgICAgICAgIF0iCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5hY21lU3NsLmRvd25sb2FkZWQiKSB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIHYtZWxzZQogICAgICAgICAgICAgIDpjbGFzcz0iWwogICAgICAgICAgICAgICAgJ3B4LTIgcHktMC41IHJvdW5kZWQgdGV4dC14cyBmb250LW1lZGl1bScsCiAgICAgICAgICAgICAgICAnYmcteWVsbG93LTEwMCB0ZXh0LXllbGxvdy03MDAgYm9yZGVyIGJvcmRlci15ZWxsb3ctMjAwJywKICAgICAgICAgICAgICBdIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHNwYW4gdi1pZj0iIWlzSW5zdGFsbGluZyI+e3sKICAgICAgICAgICAgICAgIHQoImFkbWluLmFjbWVTc2wubm90RG93bmxvYWRlZCIpCiAgICAgICAgICAgICAgfX08L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gdi1lbHNlPnt7IHQoImFkbWluLmFjbWVTc2wuZG93bmxvYWRpbmciKSB9fTwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9Im10LTQiPgogICAgICAgICAgICA8UHJvZ3Jlc3Mgdi1pZj0icHJvZ3Jlc3MgPCAxMDAiIDptb2RlbC12YWx1ZT0icHJvZ3Jlc3MiIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYKICAgICAgICAgICAgdi1pZj0ic3RhdGU/LnN0YXR1cyA9PT0gJ2Vycm9yJyIKICAgICAgICAgICAgY2xhc3M9InRleHQtc20gYmctZGVzdHJ1Y3RpdmUvMTAgdGV4dC1kZXN0cnVjdGl2ZSBwLTMgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWRlc3RydWN0aXZlLzIwIG10LTMgYnJlYWstYWxsIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5hY21lU3NsLmVycm9yUHJlZml4IikgfX17eyBzdGF0ZT8ubWVzc2FnZSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIHYtZWxzZS1pZj0iaXNJbnN0YWxsaW5nIgogICAgICAgICAgICBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMyBhbmltYXRlLXB1bHNlIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5hY21lU3NsLmluc3RhbGxpbmdUZXh0IikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgdi1pZj0iaXNJbnN0YWxsZWQiIGNsYXNzPSJyb3VuZGVkLWxnIGJvcmRlciBiZy1tdXRlZC8yMCBwLTQiPgogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0zIHNtOmZsZXgtcm93IHNtOml0ZW1zLXN0YXJ0IHNtOmp1c3RpZnktYmV0d2VlbiBzbTpnYXAtNCIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIG1pbi13LTAgZ2FwLTEiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5hY21lU3NsLmNhVGl0bGUiKSB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmFjbWVTc2wuY2FEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8QmFkZ2UKICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgY2xhc3M9InNocmluay0wIHNlbGYtc3RhcnQgd2hpdGVzcGFjZS1ub3dyYXAiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IGN1cnJlbnRDZXJ0aWZpY2F0ZUF1dGhvcml0eUxhYmVsIH19CiAgICAgICAgICA8L0JhZGdlPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzPSJtdC00IGdyaWQgZ3JpZC1jb2xzLTEgZ2FwLTMgbWQ6Z3JpZC1jb2xzLTIiPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICB2LWZvcj0ib3B0aW9uIGluIGNlcnRpZmljYXRlQXV0aG9yaXR5T3B0aW9ucyIKICAgICAgICAgICAgOmtleT0ib3B0aW9uLnZhbHVlIgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIDpkaXNhYmxlZD0iCiAgICAgICAgICAgICAgaXNTd2l0Y2hpbmdDYSB8fAogICAgICAgICAgICAgIGlzRGVsZXRpbmcgfHwKICAgICAgICAgICAgICBpc0ZldGNoaW5nIHx8CiAgICAgICAgICAgICAgY3VycmVudENlcnRpZmljYXRlQXV0aG9yaXR5ID09PSBvcHRpb24udmFsdWUKICAgICAgICAgICAgIgogICAgICAgICAgICA6Y2xhc3M9IlsKICAgICAgICAgICAgICAncm91bmRlZC14bCBib3JkZXIgcC00IHRleHQtbGVmdCB0cmFuc2l0aW9uLWNvbG9ycyBkaXNhYmxlZDpjdXJzb3Itbm90LWFsbG93ZWQgZGlzYWJsZWQ6b3BhY2l0eS02MCcsCiAgICAgICAgICAgICAgY3VycmVudENlcnRpZmljYXRlQXV0aG9yaXR5ID09PSBvcHRpb24udmFsdWUKICAgICAgICAgICAgICAgID8gJ2JvcmRlci1wcmltYXJ5IGJnLXByaW1hcnkvNSBzaGFkb3ctc20nCiAgICAgICAgICAgICAgICA6ICdib3JkZXItYm9yZGVyIGJnLWJhY2tncm91bmQgaG92ZXI6Ym9yZGVyLXByaW1hcnkvNDAgaG92ZXI6YmctbXV0ZWQvNDAnLAogICAgICAgICAgICBdIgogICAgICAgICAgICBAY2xpY2s9InN3aXRjaENlcnRpZmljYXRlQXV0aG9yaXR5KG9wdGlvbi52YWx1ZSkiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICBjbGFzcz0iZmxleCBmbGV4LWNvbCBnYXAtMyBzbTpmbGV4LXJvdyBzbTppdGVtcy1zdGFydCBzbTpqdXN0aWZ5LWJldHdlZW4iCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIG1pbi13LTAgZ2FwLTEiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1zbSBmb250LW1lZGl1bSI+e3sgb3B0aW9uLmxhYmVsIH19PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgIHt7IG9wdGlvbi5kZXNjcmlwdGlvbiB9fQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgIDpjbGFzcz0iWwogICAgICAgICAgICAgICAgICAnc2VsZi1zdGFydCBzaHJpbmstMCB3aGl0ZXNwYWNlLW5vd3JhcCByb3VuZGVkLWZ1bGwgYm9yZGVyIHB4LTIgcHktMC41IHRleHQtWzExcHhdIGZvbnQtbWVkaXVtJywKICAgICAgICAgICAgICAgICAgY3VycmVudENlcnRpZmljYXRlQXV0aG9yaXR5ID09PSBvcHRpb24udmFsdWUKICAgICAgICAgICAgICAgICAgICA/ICdib3JkZXItcHJpbWFyeS8yMCBiZy1wcmltYXJ5LzEwIHRleHQtcHJpbWFyeScKICAgICAgICAgICAgICAgICAgICA6ICdib3JkZXItYm9yZGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCcsCiAgICAgICAgICAgICAgICBdIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgIGN1cnJlbnRDZXJ0aWZpY2F0ZUF1dGhvcml0eSA9PT0gb3B0aW9uLnZhbHVlCiAgICAgICAgICAgICAgICAgICAgPyB0KCJhZG1pbi5hY21lU3NsLmN1cnJlbnQiKQogICAgICAgICAgICAgICAgICAgIDogdCgiYWRtaW4uYWNtZVNzbC5zd2l0Y2hBY3Rpb24iKQogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3M9Im10LTMgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3sgdCgiYWRtaW4uYWNtZVNzbC5jYUhpbnQiKSB9fQogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYKICAgICAgICAgIHYtaWY9ImlzU3dpdGNoaW5nQ2EiCiAgICAgICAgICBjbGFzcz0ibXQtMyB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBhbmltYXRlLXB1bHNlIgogICAgICAgID4KICAgICAgICAgIHt7IHQoImFkbWluLmFjbWVTc2wuc3dpdGNoaW5nQ2EiKSB9fQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYKICAgICAgICB2LWlmPSIhaXNJbnN0YWxsZWQgJiYgIWlzSW5zdGFsbGluZyIKICAgICAgICBjbGFzcz0icm91bmRlZC1sZyBib3JkZXIgYmctbXV0ZWQvMjAgcC00IgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQiPgogICAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMSI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmFjbWVTc2wuaW5zdGFsbENvbmZpZ1RpdGxlIikgfX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7eyB0KCJhZG1pbi5hY21lU3NsLmluc3RhbGxDb25maWdEZXNjcmlwdGlvbiIpIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3M9Im10LTMiPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICBjbGFzcz0idy1mdWxsIG1kOnctYXV0byIKICAgICAgICAgICAgOmRpc2FibGVkPSJpc1N0YXJ0aW5nSW5zdGFsbCIKICAgICAgICAgICAgQGNsaWNrPSJzdGFydEluc3RhbGwiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgdi1pZj0iaXNTdGFydGluZ0luc3RhbGwiCiAgICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiCiAgICAgICAgICAgID48L3NwYW4+CiAgICAgICAgICAgIHt7IHQoImFkbWluLmFjbWVTc2wuc3RhcnRJbnN0YWxsIikgfX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvQ2FyZENvbnRlbnQ+CiAgICA8Q2FyZENvbnRlbnQgdi1lbHNlIGNsYXNzPSJtaW4taC1bMjIwcHhdIiBhcmlhLWhpZGRlbj0idHJ1ZSI+PC9DYXJkQ29udGVudD4KCiAgICA8Q2FyZEZvb3RlcgogICAgICB2LWlmPSIhaXNJbml0aWFsaXppbmciCiAgICAgIGNsYXNzPSJmbGV4IGp1c3RpZnktZW5kIGdhcC0zIGJvcmRlci10IHB0LTYiCiAgICA+CiAgICAgIDx0ZW1wbGF0ZSB2LWlmPSJpc0luc3RhbGxpbmciPgogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBhbmltYXRlLXB1bHNlIGZsZXggaXRlbXMtY2VudGVyIGgtMTAgbXItYXV0byIKICAgICAgICA+CiAgICAgICAgICB7eyB0KCJhZG1pbi5hY21lU3NsLmluc3RhbGxpbmdUZXh0IikgfX0KICAgICAgICA8L2Rpdj4KICAgICAgICA8UmVmcmVzaEJ1dHRvbgogICAgICAgICAgOmxvYWRpbmc9ImlzRmV0Y2hpbmciCiAgICAgICAgICA6ZGlzYWJsZWQ9ImlzRmV0Y2hpbmciCiAgICAgICAgICBAY2xpY2s9ImZldGNoU3RhdHVzIgogICAgICAgIC8+CiAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDx0ZW1wbGF0ZSB2LWVsc2U+CiAgICAgICAgPENvbmZpcm1EYW5nZXJQb3BvdmVyCiAgICAgICAgICB2LWlmPSJpc0luc3RhbGxlZCIKICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4uYWNtZVNzbC5kZWxldGVUaXRsZScpIgogICAgICAgICAgOmRlc2NyaXB0aW9uPSJ0KCdhZG1pbi5hY21lU3NsLmRlbGV0ZURlc2NyaXB0aW9uJykiCiAgICAgICAgICA6bG9hZGluZz0iaXNEZWxldGluZyIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNEZWxldGluZyB8fCBpc1N3aXRjaGluZ0NhIgogICAgICAgICAgOm9uLWNvbmZpcm09InVuaW5zdGFsbCIKICAgICAgICAgIGNvbnRlbnQtY2xhc3M9InctODAgdGV4dC1sZWZ0IgogICAgICAgID4KICAgICAgICAgIDx0ZW1wbGF0ZSAjdHJpZ2dlcj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHZhcmlhbnQ9ImRlc3RydWN0aXZlIgogICAgICAgICAgICAgIDpkaXNhYmxlZD0iaXNEZWxldGluZyB8fCBpc1N3aXRjaGluZ0NhIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uYWNtZVNzbC5kZWxldGUiKSB9fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgPC9Db25maXJtRGFuZ2VyUG9wb3Zlcj4KICAgICAgPC90ZW1wbGF0ZT4KICAgIDwvQ2FyZEZvb3Rlcj4KICA8L0NhcmQ+CgogIDxEaWFsb2cKICAgIDpvcGVuPSJzaG93U3dpdGNoQ2FEaWFsb2ciCiAgICBAdXBkYXRlOm9wZW49ImhhbmRsZVN3aXRjaENhRGlhbG9nT3BlbkNoYW5nZSIKICA+CiAgICA8RGlhbG9nQ29udGVudCBjbGFzcz0ic206bWF4LXctWzQ2MHB4XSI+CiAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgPERpYWxvZ1RpdGxlPnt7IHQoImFkbWluLmFjbWVTc2wuc3dpdGNoRGlhbG9nVGl0bGUiKSB9fTwvRGlhbG9nVGl0bGU+CiAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAge3sKICAgICAgICAgICAgdCgiYWRtaW4uYWNtZVNzbC5zd2l0Y2hEaWFsb2dEZXNjcmlwdGlvbiIsIHsKICAgICAgICAgICAgICBmcm9tOiBjdXJyZW50Q2VydGlmaWNhdGVBdXRob3JpdHlMYWJlbCwKICAgICAgICAgICAgICB0bzogcGVuZGluZ0NlcnRpZmljYXRlQXV0aG9yaXR5TGFiZWwsCiAgICAgICAgICAgIH0pCiAgICAgICAgICB9fQogICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgIDwvRGlhbG9nSGVhZGVyPgoKICAgICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMyB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgPHA+e3sgdCgiYWRtaW4uYWNtZVNzbC5zd2l0Y2hEaWFsb2dQYXJhZ3JhcGgxIikgfX08L3A+CiAgICAgICAgPHA+e3sgdCgiYWRtaW4uYWNtZVNzbC5zd2l0Y2hEaWFsb2dQYXJhZ3JhcGgyIikgfX08L3A+CiAgICAgIDwvZGl2PgoKICAgICAgPERpYWxvZ0Zvb3Rlcj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgOmRpc2FibGVkPSJpc1N3aXRjaGluZ0NhIgogICAgICAgICAgQGNsaWNrPSJoYW5kbGVTd2l0Y2hDYURpYWxvZ09wZW5DaGFuZ2UoZmFsc2UpIgogICAgICAgID4KICAgICAgICAgIHt7IHQoImNvbW1vbi5jYW5jZWwiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIDpkaXNhYmxlZD0iaXNTd2l0Y2hpbmdDYSIKICAgICAgICAgIEBjbGljaz0iY29uZmlybVN3aXRjaENlcnRpZmljYXRlQXV0aG9yaXR5IgogICAgICAgID4KICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIHYtaWY9ImlzU3dpdGNoaW5nQ2EiCiAgICAgICAgICAgIGNsYXNzPSJtci0yIGgtNCB3LTQgYW5pbWF0ZS1zcGluIHJvdW5kZWQtZnVsbCBib3JkZXItMiBib3JkZXItYmFja2dyb3VuZCBib3JkZXItdC1mb3JlZ3JvdW5kIgogICAgICAgICAgPjwvc3Bhbj4KICAgICAgICAgIHt7IHQoImFkbWluLmFjbWVTc2wuY29uZmlybVN3aXRjaCIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvRGlhbG9nRm9vdGVyPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nPgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiwgY29tcHV0ZWQgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgewogIENhcmQsCiAgQ2FyZEhlYWRlciwKICBDYXJkVGl0bGUsCiAgQ2FyZERlc2NyaXB0aW9uLAogIENhcmRDb250ZW50LAogIENhcmRGb290ZXIsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgUmVmcmVzaEJ1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvUmVmcmVzaEJ1dHRvbi52dWUiOwppbXBvcnQgeyBQcm9ncmVzcyB9IGZyb20gIkAvY29tcG9uZW50cy91aS9wcm9ncmVzcyI7CmltcG9ydCB7IFNrZWxldG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NrZWxldG9uIjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwppbXBvcnQgeyBBY21lQVBJIH0gZnJvbSAiQC9saWIvYXBpL2FjbWUiOwppbXBvcnQgeyB1c2VQb2xsaW5nUmVzb3VyY2VTdGF0dXMgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZVBvbGxpbmdSZXNvdXJjZVN0YXR1cyI7CmltcG9ydCBDb25maXJtRGFuZ2VyUG9wb3ZlciBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvbmVudHMvY29tbW9uL0NvbmZpcm1EYW5nZXJQb3BvdmVyLnZ1ZSI7CmltcG9ydCB7CiAgZXh0cmFjdEVycm9yTWVzc2FnZSwKICB1c2VBc3luY0FjdGlvbiwKfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZUFzeW5jQWN0aW9uIjsKaW1wb3J0IHsgdXNlRGVsYXllZExvYWRpbmcgfSBmcm9tICJAYWRtaW4tc2hhcmVkL2NvbXBvc2FibGVzL3VzZURlbGF5ZWRMb2FkaW5nIjsKCnR5cGUgQWNtZUNlcnRpZmljYXRlQXV0aG9yaXR5ID0gInplcm9zc2wiIHwgImxldHNlbmNyeXB0IjsKdHlwZSBBY21lU3RhdGUgPSB7CiAgc3RhdHVzOiAidW5pbnN0YWxsZWQiIHwgImluc3RhbGxpbmciIHwgImluc3RhbGxlZCIgfCAiZXJyb3IiOwogIHByb2dyZXNzOiBudW1iZXI7CiAgbWVzc2FnZTogc3RyaW5nOwogIGNlcnRpZmljYXRlQXV0aG9yaXR5OiBBY21lQ2VydGlmaWNhdGVBdXRob3JpdHk7CiAgY2VydGlmaWNhdGVBdXRob3JpdHlVcGRhdGVkQXQ/OiBzdHJpbmc7Cn07Cgpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKCmNvbnN0IGNlcnRpZmljYXRlQXV0aG9yaXR5T3B0aW9ucyA9IGNvbXB1dGVkPAogIEFycmF5PHsKICAgIHZhbHVlOiBBY21lQ2VydGlmaWNhdGVBdXRob3JpdHk7CiAgICBsYWJlbDogc3RyaW5nOwogICAgZGVzY3JpcHRpb246IHN0cmluZzsKICB9Pgo+KCgpID0+IFsKICB7CiAgICB2YWx1ZTogImxldHNlbmNyeXB0IiwKICAgIGxhYmVsOiAiTGV0J3MgRW5jcnlwdCIsCiAgICBkZXNjcmlwdGlvbjogdCgiYWRtaW4uYWNtZVNzbC5jYUxldHNFbmNyeXB0RGVzY3JpcHRpb24iKSwKICB9LAogIHsKICAgIHZhbHVlOiAiemVyb3NzbCIsCiAgICBsYWJlbDogIlplcm9TU0wiLAogICAgZGVzY3JpcHRpb246IHQoImFkbWluLmFjbWVTc2wuY2FaZXJvU3NsRGVzY3JpcHRpb24iKSwKICB9LApdKTsKCmNvbnN0IHN0YXRlID0gcmVmPEFjbWVTdGF0ZSB8IG51bGw+KG51bGwpOwpjb25zdCBzaG93U3dpdGNoQ2FEaWFsb2cgPSByZWYoZmFsc2UpOwpjb25zdCBwZW5kaW5nQ2VydGlmaWNhdGVBdXRob3JpdHkgPSByZWY8QWNtZUNlcnRpZmljYXRlQXV0aG9yaXR5IHwgbnVsbD4obnVsbCk7CmNvbnN0IHsgaXNQZW5kaW5nOiBpc0ZldGNoaW5nLCBydW46IHJ1bkZldGNoU3RhdHVzIH0gPSB1c2VBc3luY0FjdGlvbigpOwpjb25zdCB7IGlzUGVuZGluZzogaXNTdGFydGluZ0luc3RhbGwsIHJ1bjogcnVuU3RhcnRJbnN0YWxsIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgb25FcnJvcjogYXN5bmMgKGVycm9yKSA9PiB7CiAgICB0b2FzdC5lcnJvcihleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCB0KCJhZG1pbi5hY21lU3NsLmluc3RhbGxGYWlsZWQiKSkpOwogICAgYXdhaXQgZmV0Y2hTdGF0dXMoKTsKICB9LAp9KTsKY29uc3QgeyBpc1BlbmRpbmc6IGlzRGVsZXRpbmcsIHJ1bjogcnVuVW5pbnN0YWxsIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICB0b2FzdC5lcnJvcihleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCB0KCJhZG1pbi5hY21lU3NsLmRlbGV0ZUZhaWxlZCIpKSk7CiAgICB2b2lkIGZldGNoU3RhdHVzKCk7CiAgfSwKfSk7CmNvbnN0IHsgaXNQZW5kaW5nOiBpc1N3aXRjaGluZ0NhLCBydW46IHJ1blN3aXRjaENhIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICB0b2FzdC5lcnJvcihleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCB0KCJhZG1pbi5hY21lU3NsLnN3aXRjaEZhaWxlZCIpKSk7CiAgICB2b2lkIGZldGNoU3RhdHVzKCk7CiAgfSwKfSk7Cgpjb25zdCBpc0luc3RhbGxpbmcgPSBjb21wdXRlZCgoKSA9PiBzdGF0ZS52YWx1ZT8uc3RhdHVzID09PSAiaW5zdGFsbGluZyIpOwpjb25zdCBpc0luc3RhbGxlZCA9IGNvbXB1dGVkKCgpID0+IHN0YXRlLnZhbHVlPy5zdGF0dXMgPT09ICJpbnN0YWxsZWQiKTsKY29uc3QgY3VycmVudENlcnRpZmljYXRlQXV0aG9yaXR5ID0gY29tcHV0ZWQ8QWNtZUNlcnRpZmljYXRlQXV0aG9yaXR5PigKICAoKSA9PiBzdGF0ZS52YWx1ZT8uY2VydGlmaWNhdGVBdXRob3JpdHkgfHwgInplcm9zc2wiLAopOwpjb25zdCBjdXJyZW50Q2VydGlmaWNhdGVBdXRob3JpdHlMYWJlbCA9IGNvbXB1dGVkKCgpID0+IHsKICByZXR1cm4gKAogICAgY2VydGlmaWNhdGVBdXRob3JpdHlPcHRpb25zLnZhbHVlLmZpbmQoCiAgICAgIChvcHRpb24pID0+IG9wdGlvbi52YWx1ZSA9PT0gY3VycmVudENlcnRpZmljYXRlQXV0aG9yaXR5LnZhbHVlLAogICAgKT8ubGFiZWwgfHwgIlplcm9TU0wiCiAgKTsKfSk7CmNvbnN0IHBlbmRpbmdDZXJ0aWZpY2F0ZUF1dGhvcml0eUxhYmVsID0gY29tcHV0ZWQoKCkgPT4gewogIHJldHVybiAoCiAgICBjZXJ0aWZpY2F0ZUF1dGhvcml0eU9wdGlvbnMudmFsdWUuZmluZCgKICAgICAgKG9wdGlvbikgPT4gb3B0aW9uLnZhbHVlID09PSBwZW5kaW5nQ2VydGlmaWNhdGVBdXRob3JpdHkudmFsdWUsCiAgICApPy5sYWJlbCB8fCAiLSIKICApOwp9KTsKCmNvbnN0IHByb2dyZXNzID0gY29tcHV0ZWQoKCkgPT4gewogIGNvbnN0IHYgPSBzdGF0ZS52YWx1ZT8ucHJvZ3Jlc3MgPz8gMDsKICByZXR1cm4gTWF0aC5tYXgoMCwgTWF0aC5taW4oMTAwLCBOdW1iZXIuaXNGaW5pdGUodikgPyB2IDogMCkpOwp9KTsKCmNvbnN0IHN0YXR1c0xhYmVsID0gY29tcHV0ZWQoKCkgPT4gewogIGNvbnN0IHMgPSBzdGF0ZS52YWx1ZT8uc3RhdHVzOwogIGlmICghcykgcmV0dXJuIHQoImFkbWluLmFjbWVTc2wuc3RhdHVzVW5rbm93biIpOwogIGlmIChzID09PSAiaW5zdGFsbGVkIikgcmV0dXJuIHQoImFkbWluLmFjbWVTc2wuc3RhdHVzSW5zdGFsbGVkIik7CiAgaWYgKHMgPT09ICJpbnN0YWxsaW5nIikgcmV0dXJuIHQoImFkbWluLmFjbWVTc2wuc3RhdHVzSW5zdGFsbGluZyIpOwogIGlmIChzID09PSAiZXJyb3IiKSByZXR1cm4gdCgiYWRtaW4uYWNtZVNzbC5zdGF0dXNFcnJvciIpOwogIHJldHVybiB0KCJhZG1pbi5hY21lU3NsLnN0YXR1c1VuaW5zdGFsbGVkIik7Cn0pOwoKY29uc3Qgc3RhdHVzQmFkZ2VWYXJpYW50ID0gY29tcHV0ZWQoKCkgPT4gewogIGNvbnN0IHMgPSBzdGF0ZS52YWx1ZT8uc3RhdHVzOwogIGlmIChzID09PSAiaW5zdGFsbGVkIikgcmV0dXJuICJkZWZhdWx0IjsKICBpZiAocyA9PT0gImluc3RhbGxpbmciKSByZXR1cm4gInNlY29uZGFyeSI7CiAgaWYgKHMgPT09ICJlcnJvciIpIHJldHVybiAiZGVzdHJ1Y3RpdmUiOwogIHJldHVybiAib3V0bGluZSI7Cn0pOwoKY29uc3QgeyBpc0luaXRpYWxpemluZywgcmVmcmVzaDogZmV0Y2hTdGF0dXMgfSA9CiAgdXNlUG9sbGluZ1Jlc291cmNlU3RhdHVzPEFjbWVTdGF0ZSB8IG51bGw+KHsKICAgIGZldGNoZXI6IGFzeW5jIChzaWduYWwpID0+IHsKICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHJ1bkZldGNoU3RhdHVzKCgpID0+IEFjbWVBUEkuc3RhdHVzKHNpZ25hbCkpOwogICAgICBpZiAoc2lnbmFsPy5hYm9ydGVkKSB0aHJvdyBuZXcgRE9NRXhjZXB0aW9uKCJBYm9ydGVkIiwgIkFib3J0RXJyb3IiKTsKICAgICAgcmV0dXJuIGRhdGEgPz8gc3RhdGUudmFsdWU7CiAgICB9LAogICAgb25EYXRhOiAoZGF0YSkgPT4gewogICAgICBzdGF0ZS52YWx1ZSA9IGRhdGE7CiAgICB9LAogICAgaXNEb3dubG9hZGluZzogKGRhdGEpID0+IGRhdGE/LnN0YXR1cyA9PT0gImluc3RhbGxpbmciLAogIH0pOwpjb25zdCBzaG93SW5pdGlhbGl6aW5nU2tlbGV0b24gPSB1c2VEZWxheWVkTG9hZGluZyhpc0luaXRpYWxpemluZyk7Cgphc3luYyBmdW5jdGlvbiBzdGFydEluc3RhbGwoKSB7CiAgaWYgKGlzSW5zdGFsbGluZy52YWx1ZSkgcmV0dXJuOwogIGF3YWl0IHJ1blN0YXJ0SW5zdGFsbCgoKSA9PiBBY21lQVBJLmluaXQoKSwgewogICAgb25TdWNjZXNzOiBhc3luYyAoKSA9PiB7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uYWNtZVNzbC5pbnN0YWxsU3RhcnRlZCIpKTsKICAgICAgYXdhaXQgZmV0Y2hTdGF0dXMoKTsKICAgIH0sCiAgfSk7Cn0KCmFzeW5jIGZ1bmN0aW9uIHVuaW5zdGFsbCgpIHsKICBpZiAoIWlzSW5zdGFsbGVkLnZhbHVlKSByZXR1cm47CiAgYXdhaXQgcnVuVW5pbnN0YWxsKGFzeW5jICgpID0+IHsKICAgIGF3YWl0IEFjbWVBUEkudW5pbnN0YWxsKCk7CiAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmFjbWVTc2wuZGVsZXRlZCIpKTsKICAgIGF3YWl0IGZldGNoU3RhdHVzKCk7CiAgfSk7Cn0KCmZ1bmN0aW9uIHN3aXRjaENlcnRpZmljYXRlQXV0aG9yaXR5KG5leHQ6IEFjbWVDZXJ0aWZpY2F0ZUF1dGhvcml0eSkgewogIGlmICghaXNJbnN0YWxsZWQudmFsdWUpIHJldHVybjsKICBpZiAoY3VycmVudENlcnRpZmljYXRlQXV0aG9yaXR5LnZhbHVlID09PSBuZXh0KSByZXR1cm47CiAgcGVuZGluZ0NlcnRpZmljYXRlQXV0aG9yaXR5LnZhbHVlID0gbmV4dDsKICBzaG93U3dpdGNoQ2FEaWFsb2cudmFsdWUgPSB0cnVlOwp9Cgphc3luYyBmdW5jdGlvbiBjb25maXJtU3dpdGNoQ2VydGlmaWNhdGVBdXRob3JpdHkoKSB7CiAgY29uc3QgbmV4dCA9IHBlbmRpbmdDZXJ0aWZpY2F0ZUF1dGhvcml0eS52YWx1ZTsKICBpZiAoIW5leHQpIHJldHVybjsKICBhd2FpdCBydW5Td2l0Y2hDYShhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBBY21lQVBJLnVwZGF0ZUNsaWVudFNldHRpbmdzKHsgY2VydGlmaWNhdGVBdXRob3JpdHk6IG5leHQgfSk7CiAgICB0b2FzdC5zdWNjZXNzKAogICAgICB0KCJhZG1pbi5hY21lU3NsLnN3aXRjaGVkVG8iLCB7CiAgICAgICAgbmFtZToKICAgICAgICAgIGNlcnRpZmljYXRlQXV0aG9yaXR5T3B0aW9ucy52YWx1ZS5maW5kKAogICAgICAgICAgICAob3B0aW9uKSA9PiBvcHRpb24udmFsdWUgPT09IG5leHQsCiAgICAgICAgICApPy5sYWJlbCB8fCBuZXh0LAogICAgICB9KSwKICAgICk7CiAgICBzaG93U3dpdGNoQ2FEaWFsb2cudmFsdWUgPSBmYWxzZTsKICAgIHBlbmRpbmdDZXJ0aWZpY2F0ZUF1dGhvcml0eS52YWx1ZSA9IG51bGw7CiAgICBhd2FpdCBmZXRjaFN0YXR1cygpOwogIH0pOwp9CgpmdW5jdGlvbiBoYW5kbGVTd2l0Y2hDYURpYWxvZ09wZW5DaGFuZ2Uob3BlbjogYm9vbGVhbikgewogIHNob3dTd2l0Y2hDYURpYWxvZy52YWx1ZSA9IG9wZW47CiAgaWYgKCFvcGVuICYmICFpc1N3aXRjaGluZ0NhLnZhbHVlKSB7CiAgICBwZW5kaW5nQ2VydGlmaWNhdGVBdXRob3JpdHkudmFsdWUgPSBudWxsOwogIH0KfQo8L3NjcmlwdD4K
+<template>
+  <Card class="w-full">
+    <CardHeader>
+      <div class="flex items-start justify-between gap-4">
+        <div class="grid gap-1">
+          <CardTitle class="flex items-center gap-2">
+            ACME.sh
+            <Badge :variant="statusBadgeVariant">{{ statusLabel }}</Badge>
+          </CardTitle>
+          <CardDescription>{{
+            t("admin.acmeSsl.description")
+          }}</CardDescription>
+        </div>
+        <RefreshButton
+          :loading="isFetching"
+          :disabled="isInitializing || isFetching || isSwitchingCa"
+          @click="fetchStatus"
+        />
+      </div>
+    </CardHeader>
+
+    <CardContent
+      v-if="isInitializing && showInitializingSkeleton"
+      class="grid gap-6"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="border p-4 rounded-lg">
+          <Skeleton class="h-4 w-20 mb-2" />
+          <Skeleton class="h-5 w-24" />
+          <Skeleton class="h-3 w-40 mt-3" />
+        </div>
+        <div class="border p-4 rounded-lg md:col-span-2">
+          <div class="flex justify-between items-center">
+            <Skeleton class="h-4 w-16" />
+            <Skeleton class="h-5 w-12" />
+          </div>
+          <div class="mt-4">
+            <Skeleton class="h-3 w-full" />
+          </div>
+        </div>
+      </div>
+    </CardContent>
+
+    <CardContent v-else-if="!isInitializing" class="grid gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="border p-4 rounded-lg">
+          <div class="text-sm text-muted-foreground mb-2">
+            {{ t("admin.acmeSsl.clientStatus") }}
+          </div>
+          <div class="font-medium">{{ statusLabel }}</div>
+          <div class="mt-2 text-xs text-muted-foreground font-mono break-all">
+            {{ state?.message || "-" }}
+          </div>
+        </div>
+
+        <div class="border p-4 rounded-lg md:col-span-2">
+          <div class="flex justify-between items-center">
+            <div class="text-sm text-muted-foreground">
+              {{ t("admin.acmeSsl.resourceStatus") }}
+            </div>
+            <div
+              v-if="isInstalled"
+              :class="[
+                'px-2 py-0.5 rounded text-xs font-medium',
+                'bg-green-100 text-green-700 border border-green-200',
+              ]"
+            >
+              {{ t("admin.acmeSsl.downloaded") }}
+            </div>
+            <div
+              v-else
+              :class="[
+                'px-2 py-0.5 rounded text-xs font-medium',
+                'bg-yellow-100 text-yellow-700 border border-yellow-200',
+              ]"
+            >
+              <span v-if="!isInstalling">{{
+                t("admin.acmeSsl.notDownloaded")
+              }}</span>
+              <span v-else>{{ t("admin.acmeSsl.downloading") }}</span>
+            </div>
+          </div>
+          <div class="mt-4">
+            <Progress v-if="progress < 100" :model-value="progress" />
+          </div>
+          <div
+            v-if="state?.status === 'error'"
+            class="text-sm bg-destructive/10 text-destructive p-3 rounded-md border border-destructive/20 mt-3 break-all"
+          >
+            {{ t("admin.acmeSsl.errorPrefix") }}{{ state?.message }}
+          </div>
+          <div
+            v-else-if="isInstalling"
+            class="text-sm text-muted-foreground mt-3 animate-pulse"
+          >
+            {{ t("admin.acmeSsl.installingText") }}
+          </div>
+        </div>
+      </div>
+
+      <div v-if="isInstalled" class="rounded-lg border bg-muted/20 p-4">
+        <div
+          class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between sm:gap-4"
+        >
+          <div class="grid min-w-0 gap-1">
+            <div class="text-sm font-medium">
+              {{ t("admin.acmeSsl.caTitle") }}
+            </div>
+            <div class="text-xs text-muted-foreground">
+              {{ t("admin.acmeSsl.caDescription") }}
+            </div>
+          </div>
+          <Badge
+            variant="outline"
+            class="shrink-0 self-start whitespace-nowrap"
+          >
+            {{ currentCertificateAuthorityLabel }}
+          </Badge>
+        </div>
+
+        <div class="mt-4 grid grid-cols-1 gap-3 md:grid-cols-2">
+          <button
+            v-for="option in certificateAuthorityOptions"
+            :key="option.value"
+            type="button"
+            :disabled="
+              isSwitchingCa ||
+              isDeleting ||
+              isFetching ||
+              currentCertificateAuthority === option.value
+            "
+            :class="[
+              'rounded-xl border p-4 text-left transition-colors disabled:cursor-not-allowed disabled:opacity-60',
+              currentCertificateAuthority === option.value
+                ? 'border-primary bg-primary/5 shadow-sm'
+                : 'border-border bg-background hover:border-primary/40 hover:bg-muted/40',
+            ]"
+            @click="switchCertificateAuthority(option.value)"
+          >
+            <div
+              class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+            >
+              <div class="grid min-w-0 gap-1">
+                <div class="text-sm font-medium">{{ option.label }}</div>
+                <div class="text-xs text-muted-foreground">
+                  {{ option.description }}
+                </div>
+              </div>
+              <span
+                :class="[
+                  'self-start shrink-0 whitespace-nowrap rounded-full border px-2 py-0.5 text-[11px] font-medium',
+                  currentCertificateAuthority === option.value
+                    ? 'border-primary/20 bg-primary/10 text-primary'
+                    : 'border-border text-muted-foreground',
+                ]"
+              >
+                {{
+                  currentCertificateAuthority === option.value
+                    ? t("admin.acmeSsl.current")
+                    : t("admin.acmeSsl.switchAction")
+                }}
+              </span>
+            </div>
+          </button>
+        </div>
+
+        <div class="mt-3 text-xs text-muted-foreground">
+          {{ t("admin.acmeSsl.caHint") }}
+        </div>
+        <div
+          v-if="isSwitchingCa"
+          class="mt-3 text-sm text-muted-foreground animate-pulse"
+        >
+          {{ t("admin.acmeSsl.switchingCa") }}
+        </div>
+      </div>
+
+      <div
+        v-if="!isInstalled && !isInstalling"
+        class="rounded-lg border bg-muted/20 p-4"
+      >
+        <div class="flex items-start justify-between gap-4">
+          <div class="grid gap-1">
+            <div class="text-sm font-medium">
+              {{ t("admin.acmeSsl.installConfigTitle") }}
+            </div>
+            <div class="text-xs text-muted-foreground">
+              {{ t("admin.acmeSsl.installConfigDescription") }}
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-3">
+          <Button
+            class="w-full md:w-auto"
+            :disabled="isStartingInstall"
+            @click="startInstall"
+          >
+            <span
+              v-if="isStartingInstall"
+              class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+            ></span>
+            {{ t("admin.acmeSsl.startInstall") }}
+          </Button>
+        </div>
+      </div>
+    </CardContent>
+    <CardContent v-else class="min-h-[220px]" aria-hidden="true"></CardContent>
+
+    <CardFooter
+      v-if="!isInitializing"
+      class="flex justify-end gap-3 border-t pt-6"
+    >
+      <template v-if="isInstalling">
+        <div
+          class="text-sm text-muted-foreground animate-pulse flex items-center h-10 mr-auto"
+        >
+          {{ t("admin.acmeSsl.installingText") }}
+        </div>
+        <RefreshButton
+          :loading="isFetching"
+          :disabled="isFetching"
+          @click="fetchStatus"
+        />
+      </template>
+      <template v-else>
+        <ConfirmDangerPopover
+          v-if="isInstalled"
+          :title="t('admin.acmeSsl.deleteTitle')"
+          :description="t('admin.acmeSsl.deleteDescription')"
+          :loading="isDeleting"
+          :disabled="isDeleting || isSwitchingCa"
+          :on-confirm="uninstall"
+          content-class="w-80 text-left"
+        >
+          <template #trigger>
+            <Button
+              variant="destructive"
+              :disabled="isDeleting || isSwitchingCa"
+            >
+              {{ t("admin.acmeSsl.delete") }}
+            </Button>
+          </template>
+        </ConfirmDangerPopover>
+      </template>
+    </CardFooter>
+  </Card>
+
+  <Dialog
+    :open="showSwitchCaDialog"
+    @update:open="handleSwitchCaDialogOpenChange"
+  >
+    <DialogContent class="sm:max-w-[460px]">
+      <DialogHeader>
+        <DialogTitle>{{ t("admin.acmeSsl.switchDialogTitle") }}</DialogTitle>
+        <DialogDescription>
+          {{
+            t("admin.acmeSsl.switchDialogDescription", {
+              from: currentCertificateAuthorityLabel,
+              to: pendingCertificateAuthorityLabel,
+            })
+          }}
+        </DialogDescription>
+      </DialogHeader>
+
+      <div class="grid gap-3 text-sm text-muted-foreground">
+        <p>{{ t("admin.acmeSsl.switchDialogParagraph1") }}</p>
+        <p>{{ t("admin.acmeSsl.switchDialogParagraph2") }}</p>
+      </div>
+
+      <DialogFooter>
+        <Button
+          variant="outline"
+          :disabled="isSwitchingCa"
+          @click="handleSwitchCaDialogOpenChange(false)"
+        >
+          {{ t("common.cancel") }}
+        </Button>
+        <Button
+          :disabled="isSwitchingCa"
+          @click="confirmSwitchCertificateAuthority"
+        >
+          <span
+            v-if="isSwitchingCa"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          ></span>
+          {{ t("admin.acmeSsl.confirmSwitch") }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>
+
+<script setup lang="ts">
+import { ref, computed } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+  CardContent,
+  CardFooter,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import RefreshButton from "@/components/RefreshButton.vue";
+import { Progress } from "@/components/ui/progress";
+import { Skeleton } from "@/components/ui/skeleton";
+import { Badge } from "@/components/ui/badge";
+import { toast } from "@admin-shared/utils/toast";
+import { AcmeAPI } from "@/lib/api/acme";
+import { usePollingResourceStatus } from "@admin-shared/composables/usePollingResourceStatus";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+
+type AcmeCertificateAuthority = "zerossl" | "letsencrypt";
+type AcmeState = {
+  status: "uninstalled" | "installing" | "installed" | "error";
+  progress: number;
+  message: string;
+  certificateAuthority: AcmeCertificateAuthority;
+  certificateAuthorityUpdatedAt?: string;
+};
+
+const { t } = useI18n();
+
+const certificateAuthorityOptions = computed<
+  Array<{
+    value: AcmeCertificateAuthority;
+    label: string;
+    description: string;
+  }>
+>(() => [
+  {
+    value: "letsencrypt",
+    label: "Let's Encrypt",
+    description: t("admin.acmeSsl.caLetsEncryptDescription"),
+  },
+  {
+    value: "zerossl",
+    label: "ZeroSSL",
+    description: t("admin.acmeSsl.caZeroSslDescription"),
+  },
+]);
+
+const state = ref<AcmeState | null>(null);
+const showSwitchCaDialog = ref(false);
+const pendingCertificateAuthority = ref<AcmeCertificateAuthority | null>(null);
+const { isPending: isFetching, run: runFetchStatus } = useAsyncAction();
+const { isPending: isStartingInstall, run: runStartInstall } = useAsyncAction({
+  onError: async (error) => {
+    toast.error(extractErrorMessage(error, t("admin.acmeSsl.installFailed")));
+    await fetchStatus();
+  },
+});
+const { isPending: isDeleting, run: runUninstall } = useAsyncAction({
+  onError: (error) => {
+    toast.error(extractErrorMessage(error, t("admin.acmeSsl.deleteFailed")));
+    void fetchStatus();
+  },
+});
+const { isPending: isSwitchingCa, run: runSwitchCa } = useAsyncAction({
+  onError: (error) => {
+    toast.error(extractErrorMessage(error, t("admin.acmeSsl.switchFailed")));
+    void fetchStatus();
+  },
+});
+
+const isInstalling = computed(() => state.value?.status === "installing");
+const isInstalled = computed(() => state.value?.status === "installed");
+const currentCertificateAuthority = computed<AcmeCertificateAuthority>(
+  () => state.value?.certificateAuthority || "zerossl",
+);
+const currentCertificateAuthorityLabel = computed(() => {
+  return (
+    certificateAuthorityOptions.value.find(
+      (option) => option.value === currentCertificateAuthority.value,
+    )?.label || "ZeroSSL"
+  );
+});
+const pendingCertificateAuthorityLabel = computed(() => {
+  return (
+    certificateAuthorityOptions.value.find(
+      (option) => option.value === pendingCertificateAuthority.value,
+    )?.label || "-"
+  );
+});
+
+const progress = computed(() => {
+  const v = state.value?.progress ?? 0;
+  return Math.max(0, Math.min(100, Number.isFinite(v) ? v : 0));
+});
+
+const statusLabel = computed(() => {
+  const s = state.value?.status;
+  if (!s) return t("admin.acmeSsl.statusUnknown");
+  if (s === "installed") return t("admin.acmeSsl.statusInstalled");
+  if (s === "installing") return t("admin.acmeSsl.statusInstalling");
+  if (s === "error") return t("admin.acmeSsl.statusError");
+  return t("admin.acmeSsl.statusUninstalled");
+});
+
+const statusBadgeVariant = computed(() => {
+  const s = state.value?.status;
+  if (s === "installed") return "default";
+  if (s === "installing") return "secondary";
+  if (s === "error") return "destructive";
+  return "outline";
+});
+
+const { isInitializing, refresh: fetchStatus } =
+  usePollingResourceStatus<AcmeState | null>({
+    fetcher: async (signal) => {
+      const data = await runFetchStatus(() => AcmeAPI.status(signal));
+      if (signal?.aborted) throw new DOMException("Aborted", "AbortError");
+      return data ?? state.value;
+    },
+    onData: (data) => {
+      state.value = data;
+    },
+    isDownloading: (data) => data?.status === "installing",
+  });
+const showInitializingSkeleton = useDelayedLoading(isInitializing);
+
+async function startInstall() {
+  if (isInstalling.value) return;
+  await runStartInstall(() => AcmeAPI.init(), {
+    onSuccess: async () => {
+      toast.success(t("admin.acmeSsl.installStarted"));
+      await fetchStatus();
+    },
+  });
+}
+
+async function uninstall() {
+  if (!isInstalled.value) return;
+  await runUninstall(async () => {
+    await AcmeAPI.uninstall();
+    toast.success(t("admin.acmeSsl.deleted"));
+    await fetchStatus();
+  });
+}
+
+function switchCertificateAuthority(next: AcmeCertificateAuthority) {
+  if (!isInstalled.value) return;
+  if (currentCertificateAuthority.value === next) return;
+  pendingCertificateAuthority.value = next;
+  showSwitchCaDialog.value = true;
+}
+
+async function confirmSwitchCertificateAuthority() {
+  const next = pendingCertificateAuthority.value;
+  if (!next) return;
+  await runSwitchCa(async () => {
+    await AcmeAPI.updateClientSettings({ certificateAuthority: next });
+    toast.success(
+      t("admin.acmeSsl.switchedTo", {
+        name:
+          certificateAuthorityOptions.value.find(
+            (option) => option.value === next,
+          )?.label || next,
+      }),
+    );
+    showSwitchCaDialog.value = false;
+    pendingCertificateAuthority.value = null;
+    await fetchStatus();
+  });
+}
+
+function handleSwitchCaDialogOpenChange(open: boolean) {
+  showSwitchCaDialog.value = open;
+  if (!open && !isSwitchingCa.value) {
+    pendingCertificateAuthority.value = null;
+  }
+}
+</script>

@@ -1,1 +1,83 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCkdPX1JFUE9TSVRPUlk9IiR7Rk5fS05PQ0tfR09fUkVBVVRIX1BST1hZX0RJUjotJHtGTl9LTk9DS19HT19SRUFVVEhfUFJPWFlfUkVQTzotJHtST09UX0RJUn0vLi4vR28tUmVhdXRoLVByb3h5fX0iCgpmYWlsKCkgewogIHByaW50ZiAnW3Rlc3QtcnVudGltZS1oZWFsdGgtcGxhdGZvcm0tY29udHJhY3RdIEVSUk9SOiAlc1xuJyAiJCoiID4mMgogIGV4aXQgMQp9Cgphc3NlcnRfY29udGFpbnMoKSB7CiAgbG9jYWwgZmlsZT0iJDEiIGV4cGVjdGVkPSIkMiIgbGFiZWw9IiQzIgogIGdyZXAgLUZxIC0tICIke2V4cGVjdGVkfSIgIiR7ZmlsZX0iIHx8IGZhaWwgIiR7bGFiZWx9OiAke2ZpbGV9IGlzIG1pc3NpbmcgJHtleHBlY3RlZH0iCn0KClsgLWQgIiR7R09fUkVQT1NJVE9SWX0iIF0gfHwgZmFpbCAiR28gcmVwb3NpdG9yeSBub3QgZm91bmQ6ICR7R09fUkVQT1NJVE9SWX0iCgpQUk9UTz0iJHtST09UX0RJUn0vcGFja2FnZXMvZ3JwYy1jb250cmFjdHMvcHJvdG8vZm5rbm9jay92MS9nYXRld2F5LnByb3RvIgpSVU5USU1FPSIke1JPT1RfRElSfS9hcHBzL3NlcnZlci1hZG1pbi1ycy9zcmMvcnVudGltZV9oZWFsdGgucnMiClJPVVRFUz0iJHtST09UX0RJUn0vYXBwcy9zZXJ2ZXItYWRtaW4tcnMvc3JjL3J1bnRpbWVfaGVhbHRoL3JvdXRlcy5ycyIKVklFVz0iJHtST09UX0RJUn0vYXBwcy9zZXJ2ZXItYWRtaW4tdmlldy9zcmMvdmlld3MvZXZlbnQtY2VudGVyL1J1bnRpbWVDb21wb25lbnRDYXJkLnZ1ZSIKVEFCPSIke1JPT1RfRElSfS9hcHBzL3NlcnZlci1hZG1pbi12aWV3L3NyYy92aWV3cy9ldmVudC1jZW50ZXIvUnVudGltZVRhYi52dWUiCkFQST0iJHtST09UX0RJUn0vYXBwcy9zZXJ2ZXItYWRtaW4tdmlldy9zcmMvbGliL2FwaS9ydW50aW1lLWhlYWx0aC50cyIKV0lORE9XUz0iJHtST09UX0RJUn0vYXBwcy9zZXJ2ZXItYWRtaW4tcnMvc3JjL3dpbmRvd3Nfc2VydmljZS5ycyIKCmFzc2VydF9jb250YWlucyAiJHtQUk9UT30iICd1aW50NjQgcnNzX2J5dGVzID0gOTsnICdzaGFyZWQgUlNTIGZpZWxkJwpmb3IgdGFyZ2V0IGluIGxpbnV4IG1hY29zOyBkbwogIGFzc2VydF9jb250YWlucyAiJHtSVU5USU1FfSIgInRhcmdldF9vcyA9IFwiJHt0YXJnZXR9XCIiICJSdXN0ICR7dGFyZ2V0fSBSU1MgaW1wbGVtZW50YXRpb24iCmRvbmUKYXNzZXJ0X2NvbnRhaW5zICIke1JVTlRJTUV9IiAnI1tjZmcod2luZG93cyldJyAnUnVzdCB3aW5kb3dzIFJTUyBpbXBsZW1lbnRhdGlvbicKZm9yIHRhcmdldCBpbiBsaW51eCBkYXJ3aW4gd2luZG93cyBvdGhlcjsgZG8KICBmaWxlPSIke0dPX1JFUE9TSVRPUll9L3BrZy9hZG1pbi9ydW50aW1lX3Jzc18ke3RhcmdldH0uZ28iCiAgWyAtZiAiJHtmaWxlfSIgXSB8fCBmYWlsICJHbyBSU1MgaW1wbGVtZW50YXRpb24gaXMgbWlzc2luZzogJHtmaWxlfSIKICBhc3NlcnRfY29udGFpbnMgIiR7ZmlsZX0iICdmdW5jIGN1cnJlbnRQcm9jZXNzUlNTQnl0ZXMoKSB1aW50NjQnICJHbyAke3RhcmdldH0gUlNTIGltcGxlbWVudGF0aW9uIgpkb25lCmFzc2VydF9jb250YWlucyAiJHtWSUVXfSIgJ2NvbXBvbmVudC5yc3NfYnl0ZXMgIT0gbnVsbCcgJ1JTUyBVSSB2aXNpYmlsaXR5JwojIFJ1bnRpbWUtaGVhbHRoIHJvdXRlcyBhcmUgcmVnaXN0ZXJlZCB0aHJvdWdoIHV0b2lwYS1heHVtIHNvIHRoZSBleGVjdXRhYmxlCiMgcm91dGVyIGFuZCB0aGUgZ2VuZXJhdGVkIE9wZW5BUEkgb3BlcmF0aW9uIHN0YXkgY291cGxlZC4gIEtlZXAgYm90aCBtZXRob2RzCiMgaW4gdGhlIHNhbWUgcm91dGUgZGVjbGFyYXRpb246IHNlcGFyYXRlIHJlZ2lzdHJhdGlvbnMgb2YgdGhlIHNhbWUgcGF0aCBjYW4KIyBkcmlmdCBhcGFydCB3aGlsZSByZW1haW5pbmcgc3VwZXJmaWNpYWxseSBkaXNjb3ZlcmFibGUgYnkgYSBzb3VyY2Ugc2Nhbi4KYXNzZXJ0X2NvbnRhaW5zICIke1JPVVRFU30iICdyb3V0ZXMhKHJ1bnRpbWVfbG9ncywgY2xlYXJfcnVudGltZV9sb2dzKScgJ2NsZWFyLWxvZyBBUEkgcm91dGUnCmFzc2VydF9jb250YWlucyAiJHtBUEl9IiAnYXBpQ2xpZW50LmRlbGV0ZScgJ2NsZWFyLWxvZyBmcm9udGVuZCBjbGllbnQnCmFzc2VydF9jb250YWlucyAiJHtUQUJ9IiAnQ29uZmlybURhbmdlclBvcG92ZXInICdjbGVhci1sb2cgY29uZmlybWF0aW9uIFVJJwoKZm9yIGxhdW5jaGVyIGluIFwKICAiJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay9jbWQvbWFpbiIgXAogICIke1JPT1RfRElSfS9hcHBzL2ZuLWtub2NrLWxpdGUvY21kL21haW4iIFwKICAiJHtST09UX0RJUn0vZGVwbG95L2xpbnV4L2ZuLWtub2NrLWVudHJ5cG9pbnQiIFwKICAiJHtST09UX0RJUn0vZGVwbG95L2RvY2tlci9lbnRyeXBvaW50LnNoIiBcCiAgIiR7Uk9PVF9ESVJ9L2RlcGxveS9vcGVud3J0L2V0Yy9pbml0LmQvZm4ta25vY2siIFwKICAiJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay1zeW5vbG9neS9wYWNrYWdlL2Jpbi9mbi1rbm9jay1lbnRyeXBvaW50IgpkbwogIGFzc2VydF9jb250YWlucyAiJHtsYXVuY2hlcn0iICdydW50aW1lL2xvZ3MnICdwbGF0Zm9ybSBydW50aW1lIGxvZyBkaXJlY3RvcnknCiAgYXNzZXJ0X2NvbnRhaW5zICIke2xhdW5jaGVyfSIgJ0ZOX0tOT0NLX0RBVEFfRElSJyAncGxhdGZvcm0gc2hhcmVkIGRhdGEgZGlyZWN0b3J5Jwpkb25lCmZvciBuYXRpdmVfZnBrX2xhdW5jaGVyIGluIFwKICAiJHtST09UX0RJUn0vYXBwcy9mbi1rbm9jay9jbWQvbWFpbiIgXAogICIke1JPT1RfRElSfS9hcHBzL2ZuLWtub2NrLWxpdGUvY21kL21haW4iCmRvCiAgYXNzZXJ0X2NvbnRhaW5zICIke25hdGl2ZV9mcGtfbGF1bmNoZXJ9IiAnRk5fS05PQ0tfU1RBUlRfVElNRU9VVF9TRUNPTkRTOi0zMDAnICdGUEsgZml2ZS1taW51dGUgc3RhcnR1cCBidWRnZXQnCiAgYXNzZXJ0X2NvbnRhaW5zICIke25hdGl2ZV9mcGtfbGF1bmNoZXJ9IiAnRk5fS05PQ0tfU1RPUF9USU1FT1VUX1NFQ09ORFM6LTc1JyAnRlBLIGdyYWNlZnVsIHN0b3AgYnVkZ2V0JwogIGFzc2VydF9jb250YWlucyAiJHtuYXRpdmVfZnBrX2xhdW5jaGVyfSIgJ0ZOX0tOT0NLX0ZPUkNFX0tJTExfVElNRU9VVF9TRUNPTkRTOi0xMCcgJ0ZQSyBmb3JjZWQgc3RvcCBidWRnZXQnCiAgYXNzZXJ0X2NvbnRhaW5zICIke25hdGl2ZV9mcGtfbGF1bmNoZXJ9IiAnRk5fS05PQ0tfUkVBRFlfRklMRT0iJHtSRUFESU5FU1NfTUFSS0VSfSInICdGUEsgY29tcGxldGUgcmVhZGluZXNzIG1hcmtlcicKICBhc3NlcnRfY29udGFpbnMgIiR7bmF0aXZlX2Zwa19sYXVuY2hlcn0iICd3YWl0X3J1bnRpbWVfcmVhZHknICdGUEsgcmVhZGluZXNzIHdhaXQnCiAgYXNzZXJ0X2NvbnRhaW5zICIke25hdGl2ZV9mcGtfbGF1bmNoZXJ9IiAnSW5jb21wbGV0ZSBydW50aW1lIGRldGVjdGVkJyAnRlBLIHBhcnRpYWwtcnVudGltZSBjb2xkIHJlc3RhcnQnCiAgYXNzZXJ0X2NvbnRhaW5zICIke25hdGl2ZV9mcGtfbGF1bmNoZXJ9IiAnc3RvcF9tYXRjaGluZ19wcm9jZXNzZXMgIiR7QkFDS0VORF9FTlRSWX0iJyAnRlBLIG9ycGhhbmVkIGJhY2tlbmQgY29uZmlybWF0aW9uJwogIGFzc2VydF9jb250YWlucyAiJHtuYXRpdmVfZnBrX2xhdW5jaGVyfSIgJ3N0b3BfbWF0Y2hpbmdfcHJvY2Vzc2VzICIke0dBVEVXQVlfQklOfSInICdGUEsgb3JwaGFuZWQgZ2F0ZXdheSBjb25maXJtYXRpb24nCmRvbmUKYXNzZXJ0X2NvbnRhaW5zICIke1JPT1RfRElSfS9hcHBzL2ZuLWtub2NrL2NtZC9tYWluIiAnRk5fS05PQ0tfRklSRVdBTExfV0FJVF9TRUNPTkRTOi0xJyAnRlBLIGJvdW5kZWQgZmlyZXdhbGwgbG9jayBidWRnZXQnCmFzc2VydF9jb250YWlucyAiJHtXSU5ET1dTfSIgJ0ZOX0tOT0NLX1JVTlRJTUVfVEFSR0VUIiwgIndpbmRvd3MiJyAnV2luZG93cyBydW50aW1lIHRhcmdldCcKYXNzZXJ0X2NvbnRhaW5zICIke1dJTkRPV1N9IiAncGF0aHMuZGF0YS5qb2luKCJydW50aW1lL2xvZ3MiKScgJ1dpbmRvd3MgcnVudGltZSBsb2cgZGlyZWN0b3J5Jwphc3NlcnRfY29udGFpbnMgIiR7UlVOVElNRX0iICdsZXQgbXV0IGV4aXRfY29kZSA9IDB1MzI7JyAnV2luZG93cyBwcm9jZXNzIGV4aXQtY29kZSB0eXBlJwphc3NlcnRfY29udGFpbnMgIiR7UlVOVElNRX0iICdleGl0X2NvZGUgPT0gU1RJTExfQUNUSVZFIGFzIHUzMicgJ1dpbmRvd3MgYWN0aXZlLXByb2Nlc3Mgc3RhdHVzIHR5cGUnCgphc3NlcnRfY29udGFpbnMgIiR7UlVOVElNRX0iICdSVU5USU1FX1NUQVRFX1RUTF9TRUNPTkRTOiBpNjQgPSA3ICogMjQgKiA2MCAqIDYwJyAncnVudGltZSBzdGF0ZSBUVEwnCmFzc2VydF9jb250YWlucyAiJHtSVU5USU1FfSIgJ1BFTkRJTkdfRVZFTlRfVFRMOiBEdXJhdGlvbiA9IER1cmF0aW9uOjpmcm9tX3NlY3MoNjAgKiA2MCknICdwZW5kaW5nIGV2ZW50IFRUTCcKYXNzZXJ0X2NvbnRhaW5zICIke1JVTlRJTUV9IiAnU1VQRVJWSVNPUl9ISU5UX1RUTDogRHVyYXRpb24gPSBEdXJhdGlvbjo6ZnJvbV9zZWNzKDcgKiAyNCAqIDYwICogNjApJyAnc3VwZXJ2aXNvciBoaW50IFRUTCcKYXNzZXJ0X2NvbnRhaW5zICIke1JVTlRJTUV9IiAnU1VQRVJWSVNPUl9URU1QX1RUTDogRHVyYXRpb24gPSBEdXJhdGlvbjo6ZnJvbV9zZWNzKDI0ICogNjAgKiA2MCknICdzdXBlcnZpc29yIHRlbXAgVFRMJwphc3NlcnRfY29udGFpbnMgIiR7UlVOVElNRX0iICdMT0dfUkVQRUFUX1RUTDogRHVyYXRpb24gPSBEdXJhdGlvbjo6ZnJvbV9zZWNzKDUgKiA2MCknICdyZXBlYXQgYWdncmVnYXRpb24gVFRMJwphc3NlcnRfY29udGFpbnMgIiR7Uk9VVEVTfSIgJ0xPR19DVVRPRkZfTVM6IGk2NCA9IDI0ICogNjAgKiA2MCAqIDEwMDAnICd2aXNpYmxlIGxvZyBUVEwnCgpwcmludGYgJ1t0ZXN0LXJ1bnRpbWUtaGVhbHRoLXBsYXRmb3JtLWNvbnRyYWN0XSBjcm9zcy1wbGF0Zm9ybSBSU1MsIGxvZ3MsIGNsZWFyIEFQSSwgYW5kIFRUTCBjb250cmFjdCBwYXNzZWRcbicK
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+GO_REPOSITORY="${FN_KNOCK_GO_REAUTH_PROXY_DIR:-${FN_KNOCK_GO_REAUTH_PROXY_REPO:-${ROOT_DIR}/../Go-Reauth-Proxy}}"
+
+fail() {
+  printf '[test-runtime-health-platform-contract] ERROR: %s\n' "$*" >&2
+  exit 1
+}
+
+assert_contains() {
+  local file="$1" expected="$2" label="$3"
+  grep -Fq -- "${expected}" "${file}" || fail "${label}: ${file} is missing ${expected}"
+}
+
+[ -d "${GO_REPOSITORY}" ] || fail "Go repository not found: ${GO_REPOSITORY}"
+
+PROTO="${ROOT_DIR}/packages/grpc-contracts/proto/fnknock/v1/gateway.proto"
+RUNTIME="${ROOT_DIR}/apps/server-admin-rs/src/runtime_health.rs"
+ROUTES="${ROOT_DIR}/apps/server-admin-rs/src/runtime_health/routes.rs"
+VIEW="${ROOT_DIR}/apps/server-admin-view/src/views/event-center/RuntimeComponentCard.vue"
+TAB="${ROOT_DIR}/apps/server-admin-view/src/views/event-center/RuntimeTab.vue"
+API="${ROOT_DIR}/apps/server-admin-view/src/lib/api/runtime-health.ts"
+WINDOWS="${ROOT_DIR}/apps/server-admin-rs/src/windows_service.rs"
+
+assert_contains "${PROTO}" 'uint64 rss_bytes = 9;' 'shared RSS field'
+for target in linux macos; do
+  assert_contains "${RUNTIME}" "target_os = \"${target}\"" "Rust ${target} RSS implementation"
+done
+assert_contains "${RUNTIME}" '#[cfg(windows)]' 'Rust windows RSS implementation'
+for target in linux darwin windows other; do
+  file="${GO_REPOSITORY}/pkg/admin/runtime_rss_${target}.go"
+  [ -f "${file}" ] || fail "Go RSS implementation is missing: ${file}"
+  assert_contains "${file}" 'func currentProcessRSSBytes() uint64' "Go ${target} RSS implementation"
+done
+assert_contains "${VIEW}" 'component.rss_bytes != null' 'RSS UI visibility'
+# Runtime-health routes are registered through utoipa-axum so the executable
+# router and the generated OpenAPI operation stay coupled.  Keep both methods
+# in the same route declaration: separate registrations of the same path can
+# drift apart while remaining superficially discoverable by a source scan.
+assert_contains "${ROUTES}" 'routes!(runtime_logs, clear_runtime_logs)' 'clear-log API route'
+assert_contains "${API}" 'apiClient.delete' 'clear-log frontend client'
+assert_contains "${TAB}" 'ConfirmDangerPopover' 'clear-log confirmation UI'
+
+for launcher in \
+  "${ROOT_DIR}/apps/fn-knock/cmd/main" \
+  "${ROOT_DIR}/apps/fn-knock-lite/cmd/main" \
+  "${ROOT_DIR}/deploy/linux/fn-knock-entrypoint" \
+  "${ROOT_DIR}/deploy/docker/entrypoint.sh" \
+  "${ROOT_DIR}/deploy/openwrt/etc/init.d/fn-knock" \
+  "${ROOT_DIR}/apps/fn-knock-synology/package/bin/fn-knock-entrypoint"
+do
+  assert_contains "${launcher}" 'runtime/logs' 'platform runtime log directory'
+  assert_contains "${launcher}" 'FN_KNOCK_DATA_DIR' 'platform shared data directory'
+done
+for native_fpk_launcher in \
+  "${ROOT_DIR}/apps/fn-knock/cmd/main" \
+  "${ROOT_DIR}/apps/fn-knock-lite/cmd/main"
+do
+  assert_contains "${native_fpk_launcher}" 'FN_KNOCK_START_TIMEOUT_SECONDS:-300' 'FPK five-minute startup budget'
+  assert_contains "${native_fpk_launcher}" 'FN_KNOCK_STOP_TIMEOUT_SECONDS:-75' 'FPK graceful stop budget'
+  assert_contains "${native_fpk_launcher}" 'FN_KNOCK_FORCE_KILL_TIMEOUT_SECONDS:-10' 'FPK forced stop budget'
+  assert_contains "${native_fpk_launcher}" 'FN_KNOCK_READY_FILE="${READINESS_MARKER}"' 'FPK complete readiness marker'
+  assert_contains "${native_fpk_launcher}" 'wait_runtime_ready' 'FPK readiness wait'
+  assert_contains "${native_fpk_launcher}" 'Incomplete runtime detected' 'FPK partial-runtime cold restart'
+  assert_contains "${native_fpk_launcher}" 'stop_matching_processes "${BACKEND_ENTRY}"' 'FPK orphaned backend confirmation'
+  assert_contains "${native_fpk_launcher}" 'stop_matching_processes "${GATEWAY_BIN}"' 'FPK orphaned gateway confirmation'
+done
+assert_contains "${ROOT_DIR}/apps/fn-knock/cmd/main" 'FN_KNOCK_FIREWALL_WAIT_SECONDS:-1' 'FPK bounded firewall lock budget'
+assert_contains "${WINDOWS}" 'FN_KNOCK_RUNTIME_TARGET", "windows"' 'Windows runtime target'
+assert_contains "${WINDOWS}" 'paths.data.join("runtime/logs")' 'Windows runtime log directory'
+assert_contains "${RUNTIME}" 'let mut exit_code = 0u32;' 'Windows process exit-code type'
+assert_contains "${RUNTIME}" 'exit_code == STILL_ACTIVE as u32' 'Windows active-process status type'
+
+assert_contains "${RUNTIME}" 'RUNTIME_STATE_TTL_SECONDS: i64 = 7 * 24 * 60 * 60' 'runtime state TTL'
+assert_contains "${RUNTIME}" 'PENDING_EVENT_TTL: Duration = Duration::from_secs(60 * 60)' 'pending event TTL'
+assert_contains "${RUNTIME}" 'SUPERVISOR_HINT_TTL: Duration = Duration::from_secs(7 * 24 * 60 * 60)' 'supervisor hint TTL'
+assert_contains "${RUNTIME}" 'SUPERVISOR_TEMP_TTL: Duration = Duration::from_secs(24 * 60 * 60)' 'supervisor temp TTL'
+assert_contains "${RUNTIME}" 'LOG_REPEAT_TTL: Duration = Duration::from_secs(5 * 60)' 'repeat aggregation TTL'
+assert_contains "${ROUTES}" 'LOG_CUTOFF_MS: i64 = 24 * 60 * 60 * 1000' 'visible log TTL'
+
+printf '[test-runtime-health-platform-contract] cross-platform RSS, logs, clear API, and TTL contract passed\n'

@@ -1,1 +1,19 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgU2VsZWN0Um9vdEVtaXRzLCBTZWxlY3RSb290UHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgeyBTZWxlY3RSb290LCB1c2VGb3J3YXJkUHJvcHNFbWl0cyB9IGZyb20gInJla2EtdWkiCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPFNlbGVjdFJvb3RQcm9wcz4oKQpjb25zdCBlbWl0cyA9IGRlZmluZUVtaXRzPFNlbGVjdFJvb3RFbWl0cz4oKQoKY29uc3QgZm9yd2FyZGVkID0gdXNlRm9yd2FyZFByb3BzRW1pdHMocHJvcHMsIGVtaXRzKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8U2VsZWN0Um9vdAogICAgdi1zbG90PSJzbG90UHJvcHMiCiAgICBkYXRhLXNsb3Q9InNlbGVjdCIKICAgIHYtYmluZD0iZm9yd2FyZGVkIgogID4KICAgIDxzbG90IHYtYmluZD0ic2xvdFByb3BzIiAvPgogIDwvU2VsZWN0Um9vdD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import type { SelectRootEmits, SelectRootProps } from "reka-ui"
+import { SelectRoot, useForwardPropsEmits } from "reka-ui"
+
+const props = defineProps<SelectRootProps>()
+const emits = defineEmits<SelectRootEmits>()
+
+const forwarded = useForwardPropsEmits(props, emits)
+</script>
+
+<template>
+  <SelectRoot
+    v-slot="slotProps"
+    data-slot="select"
+    v-bind="forwarded"
+  >
+    <slot v-bind="slotProps" />
+  </SelectRoot>
+</template>

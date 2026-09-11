@@ -1,1 +1,5 @@
-IyFbY2ZnX2F0dHIod2luZG93cywgd2luZG93c19zdWJzeXN0ZW0gPSAid2luZG93cyIpXQoKZm4gbWFpbigpIHsKICAgIGZuX2tub2NrX2Rlc2t0b3BfbGliOjpydW4oKTsKfQo=
+#![cfg_attr(windows, windows_subsystem = "windows")]
+
+fn main() {
+    fn_knock_desktop_lib::run();
+}

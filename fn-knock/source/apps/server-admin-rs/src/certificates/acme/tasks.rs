@@ -1,1 +1,488 @@
-dXNlIHN1cGVyOjoqOwoKY29uc3QgREVGQVVMVF9BQ01FX1JFTkVXX0NST046ICZzdHIgPSAiMCAqLzYgKiAqICoiOwpjb25zdCBERUZBVUxUX0FDTUVfUkVORVdfSU5URVJWQUxfU0VDT05EUzogdTY0ID0gNiAqIDYwICogNjA7CnB1YihzdXBlcikgY29uc3QgQUNNRV9SRU5FV19MT0NLX0tFWTogJnN0ciA9ICJmbl9rbm9jazpsb2NrOmFjbWUtcmVuZXciOwoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnKV0Kc3RydWN0IEFjbWVSZW5ld0xlYXNlIHsKICAgIGxvY2tfaWQ6IFN0cmluZywKICAgIHN0YXJ0ZWRfYXQ6IFN0cmluZywKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBydW5fYWNtZV9hdXRvX3JlbmV3X29uY2Uoc3RhdGU6IEFwcFN0YXRlKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgbGV0IFNvbWUobGVhc2UpID0gdHJ5X2FjcXVpcmVfYWNtZV9yZW5ld19sZWFzZSgmc3RhdGUpLmF3YWl0PyBlbHNlIHsKICAgICAgICB0cmFjaW5nOjpkZWJ1ZyEoInNraXBwaW5nIEFDTUUgYXV0by1yZW5ldyBiZWNhdXNlIGFub3RoZXIgc2NhbiBvd25zIHRoZSBsZWFzZSIpOwogICAgICAgIHJldHVybiBPaygoKSk7CiAgICB9OwoKICAgIGxldCByZXN1bHQgPQogICAgICAgIHdpdGhfYWNtZV9yZW5ld19sZWFzZSgmc3RhdGUsICZsZWFzZSwgcnVuX2FjbWVfYXV0b19yZW5ld19sb2NrZWQoc3RhdGUuY2xvbmUoKSkpLmF3YWl0OwogICAgbWF0Y2ggc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5kZWxldGVfbG9ja19pZl9vd25lZChBQ01FX1JFTkVXX0xPQ0tfS0VZLCAmbGVhc2UubG9ja19pZCkKICAgICAgICAuYXdhaXQKICAgIHsKICAgICAgICBPayh0cnVlKSA9PiB7fQogICAgICAgIE9rKGZhbHNlKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKAogICAgICAgICAgICAgICAgbG9ja19pZCA9ICVsZWFzZS5sb2NrX2lkLAogICAgICAgICAgICAgICAgIkFDTUUgYXV0by1yZW5ldyBzY2FuIGxlYXNlIHdhcyBubyBsb25nZXIgb3duZWQgZHVyaW5nIHJlbGVhc2UiCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsIGxvY2tfaWQgPSAlbGVhc2UubG9ja19pZCwgImZhaWxlZCB0byByZWxlYXNlIEFDTUUgYXV0by1yZW5ldyBzY2FuIGxlYXNlIik7CiAgICAgICAgfQogICAgfQogICAgcmVzdWx0Cn0KCmFzeW5jIGZuIHJ1bl9hY21lX2F1dG9fcmVuZXdfbG9ja2VkKHN0YXRlOiBBcHBTdGF0ZSkgLT4gYW55aG93OjpSZXN1bHQ8KCk+IHsKICAgIGxldCB0ID0gVHJhbnNsYXRvcjo6ZnJvbV9zdGF0ZSgmc3RhdGUpLmF3YWl0OwogICAgbGV0IGluc3RhbGxfc3RhdGUgPSBjdXJyZW50X2FjbWVfaW5zdGFsbF9zdGF0ZSgmc3RhdGUsICZ0KS5hd2FpdDsKICAgIGlmIGluc3RhbGxfc3RhdGUuZ2V0KCJzdGF0dXMiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSAhPSBTb21lKCJpbnN0YWxsZWQiKSB7CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH0KICAgIGxldCBhY3RpdmVfbG9jayA9IGdldF9hY3RpdmVfYWNtZV9ydW50aW1lX2xvY2soJnN0YXRlKS5hd2FpdD87CiAgICBpZiBhY3RpdmVfbG9jay5nZXQoImxvY2tlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSA9PSBTb21lKHRydWUpIHsKICAgICAgICByZXR1cm4gT2soKCkpOwogICAgfQoKICAgIGxldCB0aHJlc2hvbGRfc2Vjb25kcyA9IGFjbWVfcmVuZXdfZGF5cygpICogMjQgKiA2MCAqIDYwOwogICAgbGV0IG5vdyA9IHRpbWVfdXRpbHM6Om5vd19tcygpIC8gMTAwMDsKICAgIGxldCBtdXQgcmVuZXdhYmxlID0gVmVjOjpuZXcoKTsKICAgIGZvciBhcHBsaWNhdGlvbiBpbiByZWFkX2FjbWVfYXBwbGljYXRpb25zKCZzdGF0ZSkuYXdhaXQ/IHsKICAgICAgICBpZiBhcHBsaWNhdGlvbi5nZXQoInJlbmV3RW5hYmxlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSA9PSBTb21lKGZhbHNlKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBpZiAhYXV0b19yZW5ld19yZXRyeV9hbGxvd2VkKCZhcHBsaWNhdGlvbiwgbm93KSB7CiAgICAgICAgICAgIGxldCBhcHBsaWNhdGlvbl9pZCA9IGFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICAuZ2V0KCJpZCIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgICAgICAgICB0cmFjaW5nOjppbmZvISgKICAgICAgICAgICAgICAgICVhcHBsaWNhdGlvbl9pZCwKICAgICAgICAgICAgICAgICJza2lwcGluZyBBQ01FIGF1dG8tcmVuZXcgZHVyaW5nIGZhaWx1cmUgYmFja29mZiIKICAgICAgICAgICAgKTsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBTb21lKGNlcnRpZmljYXRlKSA9CiAgICAgICAgICAgIGdldF91c2FibGVfaXNzdWVkX2NlcnRpZmljYXRlX2Zvcl9hcHBsaWNhdGlvbigmc3RhdGUsICZhcHBsaWNhdGlvbikuYXdhaXQ/CiAgICAgICAgZWxzZSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH07CiAgICAgICAgbGV0IFNvbWUodmFsaWRfdG8pID0gcGFyc2VfYWNtZV9jZXJ0aWZpY2F0ZV9leHBpcmF0aW9uKCZjZXJ0aWZpY2F0ZSkgZWxzZSB7CiAgICAgICAgICAgIGxldCBhcHBsaWNhdGlvbl9pZCA9IGFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICAuZ2V0KCJpZCIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgICAgICAgICBsZXQgcHJpbWFyeV9kb21haW4gPSBhcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgLmdldCgicHJpbWFyeURvbWFpbiIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgICAgICAgICBsZXQgdmFsaWRfdG8gPSBjZXJ0aWZpY2F0ZQogICAgICAgICAgICAgICAgLnBvaW50ZXIoIi9jZXJ0SW5mby92YWxpZFRvIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKAogICAgICAgICAgICAgICAgJWFwcGxpY2F0aW9uX2lkLAogICAgICAgICAgICAgICAgJXByaW1hcnlfZG9tYWluLAogICAgICAgICAgICAgICAgJXZhbGlkX3RvLAogICAgICAgICAgICAgICAgInNraXBwaW5nIEFDTUUgYXV0by1yZW5ldyBiZWNhdXNlIGNlcnRpZmljYXRlIGV4cGlyYXRpb24gaXMgaW52YWxpZCIKICAgICAgICAgICAgKTsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfTsKICAgICAgICBpZiAhY2VydGlmaWNhdGVfZHVlX2Zvcl9yZW5ld2FsKHZhbGlkX3RvLCBub3csIHRocmVzaG9sZF9zZWNvbmRzKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICByZW5ld2FibGUucHVzaCgodmFsaWRfdG8sIGFwcGxpY2F0aW9uKSk7CiAgICB9CiAgICByZW5ld2FibGUuc29ydF9ieV9rZXkofCh2YWxpZF90bywgXyl8ICp2YWxpZF90byk7CgogICAgZm9yIChfLCBhcHBsaWNhdGlvbikgaW4gcmVuZXdhYmxlIHsKICAgICAgICBtYXRjaCBzdGFydF9hY21lX2FwcGxpY2F0aW9uX2pvYihzdGF0ZS5jbG9uZSgpLCBhcHBsaWNhdGlvbiwgImF1dG9fcmVuZXciLCB0LmNsb25lKCkpLmF3YWl0CiAgICAgICAgewogICAgICAgICAgICBPaygoam9iLCBfbG9jaykpID0+IHsKICAgICAgICAgICAgICAgIGlmIHdhaXRfZm9yX2FjbWVfam9iX2NvbXBsZXRpb24oJnN0YXRlLCAmam9iKS5hd2FpdD8gPT0gU29tZSgic3RvcHBlZCIudG9fc3RyaW5nKCkpCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgICAgIGlmIGVycm9yLnRvX3N0cmluZygpID09IHQudCgic2VydmVyLmFjbWVKb2JSdW5uZXIuYWN0aXZlVGFza1J1bm5pbmciKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgImZhaWxlZCB0byBzdGFydCBBQ01FIGF1dG8tcmVuZXcgam9iIik7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgaWYgbGV0IEVycihlcnJvcikgPSByZWNvbmNpbGVfYWNtZV9zc2xfZGVwbG95bWVudCgmc3RhdGUpLmF3YWl0IHsKICAgICAgICB0cmFjaW5nOjp3YXJuISglZXJyb3IsICJmYWlsZWQgdG8gcmVjb25jaWxlIEFDTUUgU1NMIGRlcGxveW1lbnQgYWZ0ZXIgYXV0by1yZW5ldyIpOwogICAgfQogICAgT2soKCkpCn0KCmZuIGF1dG9fcmVuZXdfcmV0cnlfYWxsb3dlZChhcHBsaWNhdGlvbjogJlZhbHVlLCBub3c6IGk2NCkgLT4gYm9vbCB7CiAgICBhdXRvX3JlbmV3X3JldHJ5X2FsbG93ZWRfd2l0aF9iYWNrb2ZmKGFwcGxpY2F0aW9uLCBub3csIGFjbWVfcmVuZXdfZmFpbHVyZV9iYWNrb2ZmX3NlY29uZHMoKSkKfQoKcHViKHN1cGVyKSBmbiBhdXRvX3JlbmV3X3JldHJ5X2FsbG93ZWRfd2l0aF9iYWNrb2ZmKAogICAgYXBwbGljYXRpb246ICZWYWx1ZSwKICAgIG5vdzogaTY0LAogICAgYmFja29mZl9zZWNvbmRzOiBpNjQsCikgLT4gYm9vbCB7CiAgICBpZiAhbWF0Y2hlcyEoCiAgICAgICAgYXBwbGljYXRpb24uZ2V0KCJsYXRlc3RKb2JTdGF0dXMiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSwKICAgICAgICBTb21lKCJmYWlsZWQiIHwgInN0b3BwZWQiKQogICAgKSB7CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CiAgICBsZXQgU29tZShsYXRlc3Rfam9iX2F0KSA9IGFwcGxpY2F0aW9uCiAgICAgICAgLmdldCgibGF0ZXN0Sm9iQXQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5hbmRfdGhlbihwYXJzZV9jZXJ0aWZpY2F0ZV91bml4X3RpbWVzdGFtcCkKICAgIGVsc2UgewogICAgICAgIHJldHVybiB0cnVlOwogICAgfTsKICAgIGxldCB1cGRhdGVkX2F0ID0gYXBwbGljYXRpb24KICAgICAgICAuZ2V0KCJ1cGRhdGVkQXQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5hbmRfdGhlbihwYXJzZV9jZXJ0aWZpY2F0ZV91bml4X3RpbWVzdGFtcCk7CiAgICBpZiB1cGRhdGVkX2F0LmlzX3NvbWVfYW5kKHx1cGRhdGVkX2F0fCB1cGRhdGVkX2F0ID4gbGF0ZXN0X2pvYl9hdCkgewogICAgICAgIHJldHVybiB0cnVlOwogICAgfQogICAgbm93LnNhdHVyYXRpbmdfc3ViKGxhdGVzdF9qb2JfYXQpID49IGJhY2tvZmZfc2Vjb25kcwp9CgpmbiBhY21lX3JlbmV3X2ZhaWx1cmVfYmFja29mZl9zZWNvbmRzKCkgLT4gaTY0IHsKICAgIGVudjo6dmFyKCJBQ01FX1JFTkVXX0ZBSUxVUkVfQkFDS09GRl9TRUNPTkRTIikKICAgICAgICAub2soKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLnBhcnNlOjo8aTY0PigpLm9rKCkpCiAgICAgICAgLnVud3JhcF9vcig2ICogNjAgKiA2MCkKICAgICAgICAuY2xhbXAoNjAsIDcgKiAyNCAqIDYwICogNjApCn0KCmFzeW5jIGZuIHRyeV9hY3F1aXJlX2FjbWVfcmVuZXdfbGVhc2UoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAopIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PE9wdGlvbjxBY21lUmVuZXdMZWFzZT4+IHsKICAgIGxldCBsZWFzZSA9IEFjbWVSZW5ld0xlYXNlIHsKICAgICAgICBsb2NrX2lkOiB1dWlkOjpVdWlkOjpuZXdfdjQoKS50b19zdHJpbmcoKSwKICAgICAgICBzdGFydGVkX2F0OiBub3dfbm9kZV9pc28oKSwKICAgIH07CiAgICBsZXQgYWNxdWlyZWQgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLnNldF9qc29uX3ZhbHVlX254X2V4KAogICAgICAgICAgICBBQ01FX1JFTkVXX0xPQ0tfS0VZLAogICAgICAgICAgICAmYWNtZV9yZW5ld19sZWFzZV92YWx1ZSgmbGVhc2UpLAogICAgICAgICAgICBhY21lX3JlbmV3X2xvY2tfdHRsX3NlY29uZHMoKSwKICAgICAgICApCiAgICAgICAgLmF3YWl0PzsKICAgIE9rKGFjcXVpcmVkLnRoZW5fc29tZShsZWFzZSkpCn0KCmZuIGFjbWVfcmVuZXdfbGVhc2VfdmFsdWUobGVhc2U6ICZBY21lUmVuZXdMZWFzZSkgLT4gVmFsdWUgewogICAganNvbiEoewogICAgICAgICJsb2NrSWQiOiBsZWFzZS5sb2NrX2lkLAogICAgICAgICJzdGFydGVkQXQiOiBsZWFzZS5zdGFydGVkX2F0LAogICAgICAgICJoZWFydGJlYXRBdCI6IG5vd19ub2RlX2lzbygpLAogICAgfSkKfQoKYXN5bmMgZm4gd2l0aF9hY21lX3JlbmV3X2xlYXNlPFQ+KAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGxlYXNlOiAmQWNtZVJlbmV3TGVhc2UsCiAgICB3b3JrOiBpbXBsIHN0ZDo6ZnV0dXJlOjpGdXR1cmU8T3V0cHV0ID0gYW55aG93OjpSZXN1bHQ8VD4+LAopIC0+IGFueWhvdzo6UmVzdWx0PFQ+IHsKICAgIHRva2lvOjpwaW4hKHdvcmspOwogICAgbGV0IGhlYXJ0YmVhdF9zZWNvbmRzID0gKGFjbWVfcmVuZXdfbG9ja190dGxfc2Vjb25kcygpIC8gMykuY2xhbXAoMzAsIDMwMCkgYXMgdTY0OwogICAgbGV0IG11dCBoZWFydGJlYXQgPSB0b2tpb190aW1lOjppbnRlcnZhbChzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX3NlY3MoaGVhcnRiZWF0X3NlY29uZHMpKTsKICAgIGhlYXJ0YmVhdC5zZXRfbWlzc2VkX3RpY2tfYmVoYXZpb3IoTWlzc2VkVGlja0JlaGF2aW9yOjpEZWxheSk7CiAgICBoZWFydGJlYXQudGljaygpLmF3YWl0OwogICAgbG9vcCB7CiAgICAgICAgdG9raW86OnNlbGVjdCEgewogICAgICAgICAgICByZXN1bHQgPSAmbXV0IHdvcmsgPT4gcmV0dXJuIHJlc3VsdCwKICAgICAgICAgICAgXyA9IGhlYXJ0YmVhdC50aWNrKCkgPT4gewogICAgICAgICAgICAgICAgbGV0IHJlZnJlc2hlZCA9IHN0YXRlCiAgICAgICAgICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgICAgICAgICAuc3RvcmUKICAgICAgICAgICAgICAgICAgICAuc2V0X2pzb25fbG9ja19pZl9vd25lZF9leCgKICAgICAgICAgICAgICAgICAgICAgICAgQUNNRV9SRU5FV19MT0NLX0tFWSwKICAgICAgICAgICAgICAgICAgICAgICAgJmxlYXNlLmxvY2tfaWQsCiAgICAgICAgICAgICAgICAgICAgICAgICZhY21lX3JlbmV3X2xlYXNlX3ZhbHVlKGxlYXNlKSwKICAgICAgICAgICAgICAgICAgICAgICAgYWNtZV9yZW5ld19sb2NrX3R0bF9zZWNvbmRzKCksCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgICAgICAgICBpZiAhcmVmcmVzaGVkIHsKICAgICAgICAgICAgICAgICAgICBhbnlob3c6OmJhaWwhKCJBQ01FIGF1dG8tcmVuZXcgc2NhbiBsZWFzZSB3YXMgbG9zdCIpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHJlY29uY2lsZV9hY21lX3NzbF9kZXBsb3ltZW50KHN0YXRlOiAmQXBwU3RhdGUpIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgYXBwbGljYXRpb25zID0gcmVhZF9hY21lX2FwcGxpY2F0aW9ucyhzdGF0ZSkuYXdhaXQ/OwogICAgbGV0IHQgPSBUcmFuc2xhdG9yOjpmcm9tX3N0YXRlKHN0YXRlKS5hd2FpdDsKICAgIGxldCBtdXQgY29uZmlnID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQ/OwogICAgbGV0IHByZXZpb3VzX3NzbCA9IGNvbmZpZy5nZXQoInNzbCIpLmNsb25lZCgpOwogICAgbGV0IG11dCBkZXBsb3ltZW50X2NoYW5nZWQgPSBmYWxzZTsKCiAgICBmb3IgYXBwbGljYXRpb24gaW4gYXBwbGljYXRpb25zIHsKICAgICAgICBpZiBhcHBsaWNhdGlvbi5nZXQoInJlbmV3RW5hYmxlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKSA9PSBTb21lKGZhbHNlKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KCiAgICAgICAgbGV0IGFwcGxpY2F0aW9uX2lkID0gYXBwbGljYXRpb24KICAgICAgICAgICAgLmdldCgiaWQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICAgICAgLnRvX3N0cmluZygpOwogICAgICAgIGlmIGFwcGxpY2F0aW9uX2lkLmlzX2VtcHR5KCkgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CgogICAgICAgIGxldCByZXN1bHQ6IGFueWhvdzo6UmVzdWx0PGJvb2w+ID0gYXN5bmMgewogICAgICAgICAgICBsZXQgU29tZShpc3N1ZWRfY2VydGlmaWNhdGUpID0KICAgICAgICAgICAgICAgIGdldF91c2FibGVfaXNzdWVkX2NlcnRpZmljYXRlX2Zvcl9hcHBsaWNhdGlvbihzdGF0ZSwgJmFwcGxpY2F0aW9uKS5hd2FpdD8KICAgICAgICAgICAgZWxzZSB7CiAgICAgICAgICAgICAgICByZXR1cm4gT2soZmFsc2UpOwogICAgICAgICAgICB9OwogICAgICAgICAgICBsZXQgbGlua2VkX2NlcnRpZmljYXRlID0KICAgICAgICAgICAgICAgIHJlcGxhY2VtZW50X2xpYnJhcnlfY2VydGlmaWNhdGUoJmNvbmZpZywgJmFwcGxpY2F0aW9uX2lkLCAmaXNzdWVkX2NlcnRpZmljYXRlKTsKICAgICAgICAgICAgbGV0IGxpYnJhcnlfbWF0Y2hlc19pc3N1ZWQgPSBsaW5rZWRfY2VydGlmaWNhdGUuYXNfcmVmKCkuaXNfc29tZV9hbmQofGNlcnRpZmljYXRlfCB7CiAgICAgICAgICAgICAgICBzYW1lX3BlbSgKICAgICAgICAgICAgICAgICAgICBjZXJ0aWZpY2F0ZS5nZXQoImNlcnQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSwKICAgICAgICAgICAgICAgICAgICBpc3N1ZWRfY2VydGlmaWNhdGUuZ2V0KCJjZXJ0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0ciksCiAgICAgICAgICAgICAgICApICYmIHNhbWVfcGVtKAogICAgICAgICAgICAgICAgICAgIGNlcnRpZmljYXRlLmdldCgia2V5IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0ciksCiAgICAgICAgICAgICAgICAgICAgaXNzdWVkX2NlcnRpZmljYXRlLmdldCgia2V5IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0ciksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0pOwogICAgICAgICAgICBpZiBsaWJyYXJ5X21hdGNoZXNfaXNzdWVkIHsKICAgICAgICAgICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGxldCBsaW5rZWRfaWQgPSBsaW5rZWRfY2VydGlmaWNhdGUKICAgICAgICAgICAgICAgIC5hc19yZWYoKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKHxjZXJ0aWZpY2F0ZXwgY2VydGlmaWNhdGUuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpKQogICAgICAgICAgICAgICAgLm1hcChzdHI6OnRvX3N0cmluZyk7CiAgICAgICAgICAgIGlmIGxldCBTb21lKGxpbmtlZF9pZCkgPSBsaW5rZWRfaWQuYXNfZGVyZWYoKSB7CiAgICAgICAgICAgICAgICBsaW5rX2lzc3VlZF9jZXJ0aWZpY2F0ZV90b19saWJyYXJ5KHN0YXRlLCAmYXBwbGljYXRpb25faWQsIGxpbmtlZF9pZCkuYXdhaXQ/OwogICAgICAgICAgICB9CiAgICAgICAgICAgIGxldCBub3JtYWxpemVkX3NzbCA9IHNzbDo6bm9ybWFsaXplX3NzbF9jb25maWcoY29uZmlnLmdldCgic3NsIikpOwogICAgICAgICAgICBsZXQgc2hvdWxkX2FjdGl2YXRlID0gbGlua2VkX2lkLmFzX2RlcmVmKCkuaXNfc29tZV9hbmQofGlkfCB7CiAgICAgICAgICAgICAgICBub3JtYWxpemVkX3NzbC5nZXQoImFjdGl2ZV9jZXJ0X2lkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZShpZCkKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIGxldCBsYWJlbCA9IGxpbmtlZF9jZXJ0aWZpY2F0ZQogICAgICAgICAgICAgICAgLmFzX3JlZigpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofGNlcnRpZmljYXRlfCBjZXJ0aWZpY2F0ZS5nZXQoImxhYmVsIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpCiAgICAgICAgICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgICAgICAgICAgICAgLm9yX2Vsc2UofHwgewogICAgICAgICAgICAgICAgICAgIGFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICAgICAgICAgIC5nZXQoIm5hbWUiKQogICAgICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAgICAgLm1hcChzdHI6OnRvX3N0cmluZykKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICAub3JfZWxzZSh8fCB7CiAgICAgICAgICAgICAgICAgICAgYXBwbGljYXRpb24KICAgICAgICAgICAgICAgICAgICAgICAgLmdldCgicHJpbWFyeURvbWFpbiIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgICAgICAgICAgICAgfSk7CgogICAgICAgICAgICBzYXZlX2FjbWVfY2VydGlmaWNhdGVfdG9fbGlicmFyeV9ieV9hcHBsaWNhdGlvbigKICAgICAgICAgICAgICAgIHN0YXRlLAogICAgICAgICAgICAgICAgJmFwcGxpY2F0aW9uLAogICAgICAgICAgICAgICAgc2hvdWxkX2FjdGl2YXRlLAogICAgICAgICAgICAgICAgbGFiZWwuYXNfZGVyZWYoKSwKICAgICAgICAgICAgICAgICZ0LAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgICAgIGNvbmZpZyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0PzsKICAgICAgICAgICAgT2soc2hvdWxkX2FjdGl2YXRlCiAgICAgICAgICAgICAgICB8fCBjb25maWcKICAgICAgICAgICAgICAgICAgICAucG9pbnRlcigiL3NzbC9kZXBsb3ltZW50X21vZGUiKQogICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgID09IFNvbWUoIm11bHRpX3NuaSIpKQogICAgICAgIH0KICAgICAgICAuYXdhaXQ7CgogICAgICAgIG1hdGNoIHJlc3VsdCB7CiAgICAgICAgICAgIE9rKGNoYW5nZWQpID0+IGRlcGxveW1lbnRfY2hhbmdlZCB8PSBjaGFuZ2VkLAogICAgICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgICAgIGxldCBkb21haW4gPSBhcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgICAgIC5nZXQoInByaW1hcnlEb21haW4iKQogICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3IoJmFwcGxpY2F0aW9uX2lkKTsKICAgICAgICAgICAgICAgIHRyYWNpbmc6Ondhcm4hKCVlcnJvciwgJWRvbWFpbiwgIkFDTUUgY2VydGlmaWNhdGUgbGlicmFyeSByZWNvbmNpbGUgZmFpbGVkIik7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgbGV0IGNlcnRpZmljYXRlcyA9IGNvbmZpZwogICAgICAgIC5wb2ludGVyKCIvc3NsL2NlcnRpZmljYXRlcyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBhY3RpdmVfY2VydF9pZCA9IGNvbmZpZwogICAgICAgIC5wb2ludGVyKCIvc3NsL2FjdGl2ZV9jZXJ0X2lkIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cik7CiAgICBsZXQgYWN0aXZlX2NlcnRpZmljYXRlID0gY2VydGlmaWNhdGVzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maW5kKHxjZXJ0aWZpY2F0ZXwgY2VydGlmaWNhdGUuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IGFjdGl2ZV9jZXJ0X2lkKTsKICAgIGxldCBoYXNfYWNtZV9jZXJ0aWZpY2F0ZSA9IGNlcnRpZmljYXRlcwogICAgICAgIC5pdGVyKCkKICAgICAgICAuYW55KHxjZXJ0aWZpY2F0ZXwgY2VydGlmaWNhdGUuZ2V0KCJzb3VyY2UiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKCJhY21lIikpOwogICAgbGV0IGRlcGxveW1lbnRfbW9kZSA9IGNvbmZpZwogICAgICAgIC5wb2ludGVyKCIvc3NsL2RlcGxveW1lbnRfbW9kZSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpOwogICAgbGV0IHNob3VsZF9zeW5jID0gZGVwbG95bWVudF9jaGFuZ2VkCiAgICAgICAgfHwgKGhhc19hY21lX2NlcnRpZmljYXRlCiAgICAgICAgICAgICYmIChkZXBsb3ltZW50X21vZGUgPT0gU29tZSgibXVsdGlfc25pIikKICAgICAgICAgICAgICAgIHx8IGFjdGl2ZV9jZXJ0aWZpY2F0ZQogICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbih8Y2VydGlmaWNhdGV8IGNlcnRpZmljYXRlLmdldCgic291cmNlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpCiAgICAgICAgICAgICAgICAgICAgPT0gU29tZSgiYWNtZSIpKSk7CiAgICBpZiBzaG91bGRfc3luYyB7CiAgICAgICAgc3luY19zc2xfZGVwbG95bWVudF93aXRoX3JvbGxiYWNrKHN0YXRlLCBwcmV2aW91c19zc2wuYXNfcmVmKCksICZjb25maWcpLmF3YWl0PzsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGZuIHNhbWVfcGVtKGxlZnQ6IE9wdGlvbjwmc3RyPiwgcmlnaHQ6IE9wdGlvbjwmc3RyPikgLT4gYm9vbCB7CiAgICBsZWZ0LnVud3JhcF9vcigiIikudHJpbSgpID09IHJpZ2h0LnVud3JhcF9vcigiIikudHJpbSgpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gd2FpdF9mb3JfYWNtZV9qb2JfY29tcGxldGlvbigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBqb2I6ICZWYWx1ZSwKKSAtPiBhbnlob3c6OlJlc3VsdDxPcHRpb248U3RyaW5nPj4gewogICAgbGV0IFNvbWUoam9iX2lkKSA9IGpvYi5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfTsKICAgIGZvciBfIGluIDAuLmFjbWVfcmVuZXdfd2FpdF9pdGVyYXRpb25zKCkgewogICAgICAgIGlmIGxldCBTb21lKGxhdGVzdCkgPSBnZXRfYWNtZV9qb2Ioc3RhdGUsIGpvYl9pZCkuYXdhaXQ/CiAgICAgICAgICAgICYmIGxldCBTb21lKHN0YXR1cykgPSBsYXRlc3QuZ2V0KCJzdGF0dXMiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAmJiBtYXRjaGVzIShzdGF0dXMsICJzdWNjZWVkZWQiIHwgImZhaWxlZCIgfCAic3RvcHBlZCIpCiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gT2soU29tZShzdGF0dXMudG9fc3RyaW5nKCkpKTsKICAgICAgICB9CiAgICAgICAgdG9raW9fdGltZTo6c2xlZXAoc3RkOjp0aW1lOjpEdXJhdGlvbjo6ZnJvbV9zZWNzKDUpKS5hd2FpdDsKICAgIH0KICAgIE9rKE5vbmUpCn0KCnB1YihzdXBlcikgZm4gYWNtZV9yZW5ld19pbnRlcnZhbCgpIC0+IHN0ZDo6dGltZTo6RHVyYXRpb24gewogICAgbGV0IGNyb24gPSBlbnY6OnZhcigiQUNNRV9SRU5FV19DUk9OIikub2soKTsKICAgIGxldCBpbnRlcnZhbF9zZWNvbmRzID0gZW52Ojp2YXIoIkFDTUVfUkVORVdfSU5URVJWQUxfU0VDT05EUyIpLm9rKCk7CiAgICBhY21lX3JlbmV3X2ludGVydmFsX2Zyb21fdmFsdWVzKGNyb24uYXNfZGVyZWYoKSwgaW50ZXJ2YWxfc2Vjb25kcy5hc19kZXJlZigpKQp9CgpwdWIoc3VwZXIpIGZuIGFjbWVfcmVuZXdfaW50ZXJ2YWxfZnJvbV92YWx1ZXMoCiAgICBjcm9uOiBPcHRpb248JnN0cj4sCiAgICBpbnRlcnZhbF9zZWNvbmRzOiBPcHRpb248JnN0cj4sCikgLT4gc3RkOjp0aW1lOjpEdXJhdGlvbiB7CiAgICBsZXQgc2Vjb25kcyA9IGNyb24KICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLnRyaW0oKS5pc19lbXB0eSgpKQogICAgICAgIC5tYXAofHZhbHVlfCB7CiAgICAgICAgICAgIGNyYXRlOjpzZXR0aW5nczo6cGFyc2VfY3Jvbl9pbnRlcnZhbF9zZWNvbmRzKHZhbHVlLCBERUZBVUxUX0FDTUVfUkVORVdfSU5URVJWQUxfU0VDT05EUykKICAgICAgICB9KQogICAgICAgIC5vcl9lbHNlKHx8IHsKICAgICAgICAgICAgaW50ZXJ2YWxfc2Vjb25kcwogICAgICAgICAgICAgICAgLmFuZF90aGVuKGNyYXRlOjpub2RlX2NvbXBhdDo6cGFyc2VfaTY0X3ByZWZpeF90cmltX3N0YXJ0KQogICAgICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdTY0Ojp0cnlfZnJvbSh2YWx1ZSkub2soKSkKICAgICAgICAgICAgICAgIC5maWx0ZXIofHZhbHVlfCAqdmFsdWUgPiAwKQogICAgICAgIH0pCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IHsKICAgICAgICAgICAgY3JhdGU6OnNldHRpbmdzOjpwYXJzZV9jcm9uX2ludGVydmFsX3NlY29uZHMoCiAgICAgICAgICAgICAgICBERUZBVUxUX0FDTUVfUkVORVdfQ1JPTiwKICAgICAgICAgICAgICAgIERFRkFVTFRfQUNNRV9SRU5FV19JTlRFUlZBTF9TRUNPTkRTLAogICAgICAgICAgICApCiAgICAgICAgfSkKICAgICAgICAuY2xhbXAoNjAsIDcgKiAyNCAqIDYwICogNjApOwogICAgc3RkOjp0aW1lOjpEdXJhdGlvbjo6ZnJvbV9zZWNzKHNlY29uZHMpCn0KCnB1YihzdXBlcikgZm4gYWNtZV9yZW5ld19kYXlzKCkgLT4gaTY0IHsKICAgIGVudjo6dmFyKCJBQ01FX1JFTkVXX0RBWVMiKQogICAgICAgIC5vaygpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUucGFyc2U6OjxpNjQ+KCkub2soKSkKICAgICAgICAudW53cmFwX29yKDMwKQogICAgICAgIC5jbGFtcCgxLCA5MCkKfQoKcHViKHN1cGVyKSBmbiBhY21lX3JlbmV3X2xvY2tfdHRsX3NlY29uZHMoKSAtPiB1c2l6ZSB7CiAgICBlbnY6OnZhcigiQUNNRV9SRU5FV19MT0NLX1RUTCIpCiAgICAgICAgLm9rKCkKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5wYXJzZTo6PHVzaXplPigpLm9rKCkpCiAgICAgICAgLnVud3JhcF9vcigzNjAwKQogICAgICAgIC5jbGFtcCg2MCwgNiAqIDYwICogNjApCn0KCnB1YihzdXBlcikgZm4gYWNtZV9yZW5ld193YWl0X2l0ZXJhdGlvbnMoKSAtPiB1c2l6ZSB7CiAgICBlbnY6OnZhcigiQUNNRV9SRU5FV19XQUlUX1NFQ09ORFMiKQogICAgICAgIC5vaygpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUucGFyc2U6Ojx1c2l6ZT4oKS5vaygpKQogICAgICAgIC51bndyYXBfb3IoMiAqIDYwICogNjApCiAgICAgICAgLmNsYW1wKDYwLCAyNCAqIDYwICogNjApCiAgICAgICAgLyA1Cn0KCnB1YihzdXBlcikgZm4gcGFyc2VfY2VydGlmaWNhdGVfdW5peF90aW1lc3RhbXAodmFsdWU6ICZzdHIpIC0+IE9wdGlvbjxpNjQ+IHsKICAgIGxldCB2YWx1ZSA9IHZhbHVlLnRyaW0oKTsKICAgIE9mZnNldERhdGVUaW1lOjpwYXJzZSh2YWx1ZSwgJlJmYzMzMzkpCiAgICAgICAgLm9rKCkKICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUudW5peF90aW1lc3RhbXAoKSkKICAgICAgICAub3JfZWxzZSh8fCBwYXJzZV9vcGVuc3NsX3V0Y190aW1lc3RhbXAodmFsdWUpKQp9CgpmbiBwYXJzZV9vcGVuc3NsX3V0Y190aW1lc3RhbXAodmFsdWU6ICZzdHIpIC0+IE9wdGlvbjxpNjQ+IHsKICAgIGxldCBtdXQgcGFydHMgPSB2YWx1ZS5zcGxpdF9hc2NpaV93aGl0ZXNwYWNlKCk7CiAgICBsZXQgbW9udGggPSBtYXRjaCBwYXJ0cy5uZXh0KCk/IHsKICAgICAgICAiSmFuIiA9PiBNb250aDo6SmFudWFyeSwKICAgICAgICAiRmViIiA9PiBNb250aDo6RmVicnVhcnksCiAgICAgICAgIk1hciIgPT4gTW9udGg6Ok1hcmNoLAogICAgICAgICJBcHIiID0+IE1vbnRoOjpBcHJpbCwKICAgICAgICAiTWF5IiA9PiBNb250aDo6TWF5LAogICAgICAgICJKdW4iID0+IE1vbnRoOjpKdW5lLAogICAgICAgICJKdWwiID0+IE1vbnRoOjpKdWx5LAogICAgICAgICJBdWciID0+IE1vbnRoOjpBdWd1c3QsCiAgICAgICAgIlNlcCIgPT4gTW9udGg6OlNlcHRlbWJlciwKICAgICAgICAiT2N0IiA9PiBNb250aDo6T2N0b2JlciwKICAgICAgICAiTm92IiA9PiBNb250aDo6Tm92ZW1iZXIsCiAgICAgICAgIkRlYyIgPT4gTW9udGg6OkRlY2VtYmVyLAogICAgICAgIF8gPT4gcmV0dXJuIE5vbmUsCiAgICB9OwogICAgbGV0IGRheSA9IHBhcnRzLm5leHQoKT8ucGFyc2U6Ojx1OD4oKS5vaygpPzsKICAgIGxldCBtdXQgY2xvY2sgPSBwYXJ0cy5uZXh0KCk/LnNwbGl0KCc6Jyk7CiAgICBsZXQgaG91ciA9IGNsb2NrLm5leHQoKT8ucGFyc2U6Ojx1OD4oKS5vaygpPzsKICAgIGxldCBtaW51dGUgPSBjbG9jay5uZXh0KCk/LnBhcnNlOjo8dTg+KCkub2soKT87CiAgICBsZXQgc2Vjb25kID0gY2xvY2submV4dCgpPy5wYXJzZTo6PHU4PigpLm9rKCk/OwogICAgaWYgY2xvY2submV4dCgpLmlzX3NvbWUoKSB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBsZXQgeWVhciA9IHBhcnRzLm5leHQoKT8ucGFyc2U6OjxpMzI+KCkub2soKT87CiAgICBpZiAhbWF0Y2hlcyEocGFydHMubmV4dCgpLCBTb21lKCJHTVQiIHwgIlVUQyIpKSB8fCBwYXJ0cy5uZXh0KCkuaXNfc29tZSgpIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIGxldCBkYXRlID0gRGF0ZTo6ZnJvbV9jYWxlbmRhcl9kYXRlKHllYXIsIG1vbnRoLCBkYXkpLm9rKCk/OwogICAgbGV0IHRpbWUgPSBUaW1lOjpmcm9tX2htcyhob3VyLCBtaW51dGUsIHNlY29uZCkub2soKT87CiAgICBTb21lKAogICAgICAgIFByaW1pdGl2ZURhdGVUaW1lOjpuZXcoZGF0ZSwgdGltZSkKICAgICAgICAgICAgLmFzc3VtZV91dGMoKQogICAgICAgICAgICAudW5peF90aW1lc3RhbXAoKSwKICAgICkKfQoKcHViKHN1cGVyKSBmbiBwYXJzZV9hY21lX2NlcnRpZmljYXRlX2V4cGlyYXRpb24oY2VydGlmaWNhdGU6ICZWYWx1ZSkgLT4gT3B0aW9uPGk2ND4gewogICAgY2VydGlmaWNhdGUKICAgICAgICAucG9pbnRlcigiL2NlcnRJbmZvL3ZhbGlkVG8iKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5hbmRfdGhlbihwYXJzZV9jZXJ0aWZpY2F0ZV91bml4X3RpbWVzdGFtcCkKfQoKcHViKHN1cGVyKSBmbiBjZXJ0aWZpY2F0ZV9kdWVfZm9yX3JlbmV3YWwodmFsaWRfdG86IGk2NCwgbm93OiBpNjQsIHRocmVzaG9sZF9zZWNvbmRzOiBpNjQpIC0+IGJvb2wgewogICAgdmFsaWRfdG8uc2F0dXJhdGluZ19zdWIobm93KSA8PSB0aHJlc2hvbGRfc2Vjb25kcwp9Cg==
+use super::*;
+
+const DEFAULT_ACME_RENEW_CRON: &str = "0 */6 * * *";
+const DEFAULT_ACME_RENEW_INTERVAL_SECONDS: u64 = 6 * 60 * 60;
+pub(super) const ACME_RENEW_LOCK_KEY: &str = "fn_knock:lock:acme-renew";
+
+#[derive(Clone, Debug)]
+struct AcmeRenewLease {
+    lock_id: String,
+    started_at: String,
+}
+
+pub(super) async fn run_acme_auto_renew_once(state: AppState) -> anyhow::Result<()> {
+    let Some(lease) = try_acquire_acme_renew_lease(&state).await? else {
+        tracing::debug!("skipping ACME auto-renew because another scan owns the lease");
+        return Ok(());
+    };
+
+    let result =
+        with_acme_renew_lease(&state, &lease, run_acme_auto_renew_locked(state.clone())).await;
+    match state
+        .storage
+        .store
+        .delete_lock_if_owned(ACME_RENEW_LOCK_KEY, &lease.lock_id)
+        .await
+    {
+        Ok(true) => {}
+        Ok(false) => {
+            tracing::warn!(
+                lock_id = %lease.lock_id,
+                "ACME auto-renew scan lease was no longer owned during release"
+            );
+        }
+        Err(error) => {
+            tracing::warn!(%error, lock_id = %lease.lock_id, "failed to release ACME auto-renew scan lease");
+        }
+    }
+    result
+}
+
+async fn run_acme_auto_renew_locked(state: AppState) -> anyhow::Result<()> {
+    let t = Translator::from_state(&state).await;
+    let install_state = current_acme_install_state(&state, &t).await;
+    if install_state.get("status").and_then(Value::as_str) != Some("installed") {
+        return Ok(());
+    }
+    let active_lock = get_active_acme_runtime_lock(&state).await?;
+    if active_lock.get("locked").and_then(Value::as_bool) == Some(true) {
+        return Ok(());
+    }
+
+    let threshold_seconds = acme_renew_days() * 24 * 60 * 60;
+    let now = time_utils::now_ms() / 1000;
+    let mut renewable = Vec::new();
+    for application in read_acme_applications(&state).await? {
+        if application.get("renewEnabled").and_then(Value::as_bool) == Some(false) {
+            continue;
+        }
+        if !auto_renew_retry_allowed(&application, now) {
+            let application_id = application
+                .get("id")
+                .and_then(Value::as_str)
+                .unwrap_or_default();
+            tracing::info!(
+                %application_id,
+                "skipping ACME auto-renew during failure backoff"
+            );
+            continue;
+        }
+        let Some(certificate) =
+            get_usable_issued_certificate_for_application(&state, &application).await?
+        else {
+            continue;
+        };
+        let Some(valid_to) = parse_acme_certificate_expiration(&certificate) else {
+            let application_id = application
+                .get("id")
+                .and_then(Value::as_str)
+                .unwrap_or_default();
+            let primary_domain = application
+                .get("primaryDomain")
+                .and_then(Value::as_str)
+                .unwrap_or_default();
+            let valid_to = certificate
+                .pointer("/certInfo/validTo")
+                .and_then(Value::as_str)
+                .unwrap_or_default();
+            tracing::warn!(
+                %application_id,
+                %primary_domain,
+                %valid_to,
+                "skipping ACME auto-renew because certificate expiration is invalid"
+            );
+            continue;
+        };
+        if !certificate_due_for_renewal(valid_to, now, threshold_seconds) {
+            continue;
+        }
+        renewable.push((valid_to, application));
+    }
+    renewable.sort_by_key(|(valid_to, _)| *valid_to);
+
+    for (_, application) in renewable {
+        match start_acme_application_job(state.clone(), application, "auto_renew", t.clone()).await
+        {
+            Ok((job, _lock)) => {
+                if wait_for_acme_job_completion(&state, &job).await? == Some("stopped".to_string())
+                {
+                    return Ok(());
+                }
+            }
+            Err(error) => {
+                if error.to_string() == t.t("server.acmeJobRunner.activeTaskRunning") {
+                    return Ok(());
+                }
+                tracing::warn!(%error, "failed to start ACME auto-renew job");
+            }
+        }
+    }
+
+    if let Err(error) = reconcile_acme_ssl_deployment(&state).await {
+        tracing::warn!(%error, "failed to reconcile ACME SSL deployment after auto-renew");
+    }
+    Ok(())
+}
+
+fn auto_renew_retry_allowed(application: &Value, now: i64) -> bool {
+    auto_renew_retry_allowed_with_backoff(application, now, acme_renew_failure_backoff_seconds())
+}
+
+pub(super) fn auto_renew_retry_allowed_with_backoff(
+    application: &Value,
+    now: i64,
+    backoff_seconds: i64,
+) -> bool {
+    if !matches!(
+        application.get("latestJobStatus").and_then(Value::as_str),
+        Some("failed" | "stopped")
+    ) {
+        return true;
+    }
+    let Some(latest_job_at) = application
+        .get("latestJobAt")
+        .and_then(Value::as_str)
+        .and_then(parse_certificate_unix_timestamp)
+    else {
+        return true;
+    };
+    let updated_at = application
+        .get("updatedAt")
+        .and_then(Value::as_str)
+        .and_then(parse_certificate_unix_timestamp);
+    if updated_at.is_some_and(|updated_at| updated_at > latest_job_at) {
+        return true;
+    }
+    now.saturating_sub(latest_job_at) >= backoff_seconds
+}
+
+fn acme_renew_failure_backoff_seconds() -> i64 {
+    env::var("ACME_RENEW_FAILURE_BACKOFF_SECONDS")
+        .ok()
+        .and_then(|value| value.parse::<i64>().ok())
+        .unwrap_or(6 * 60 * 60)
+        .clamp(60, 7 * 24 * 60 * 60)
+}
+
+async fn try_acquire_acme_renew_lease(
+    state: &AppState,
+) -> crate::storage::StorageResult<Option<AcmeRenewLease>> {
+    let lease = AcmeRenewLease {
+        lock_id: uuid::Uuid::new_v4().to_string(),
+        started_at: now_node_iso(),
+    };
+    let acquired = state
+        .storage
+        .store
+        .set_json_value_nx_ex(
+            ACME_RENEW_LOCK_KEY,
+            &acme_renew_lease_value(&lease),
+            acme_renew_lock_ttl_seconds(),
+        )
+        .await?;
+    Ok(acquired.then_some(lease))
+}
+
+fn acme_renew_lease_value(lease: &AcmeRenewLease) -> Value {
+    json!({
+        "lockId": lease.lock_id,
+        "startedAt": lease.started_at,
+        "heartbeatAt": now_node_iso(),
+    })
+}
+
+async fn with_acme_renew_lease<T>(
+    state: &AppState,
+    lease: &AcmeRenewLease,
+    work: impl std::future::Future<Output = anyhow::Result<T>>,
+) -> anyhow::Result<T> {
+    tokio::pin!(work);
+    let heartbeat_seconds = (acme_renew_lock_ttl_seconds() / 3).clamp(30, 300) as u64;
+    let mut heartbeat = tokio_time::interval(std::time::Duration::from_secs(heartbeat_seconds));
+    heartbeat.set_missed_tick_behavior(MissedTickBehavior::Delay);
+    heartbeat.tick().await;
+    loop {
+        tokio::select! {
+            result = &mut work => return result,
+            _ = heartbeat.tick() => {
+                let refreshed = state
+                    .storage
+                    .store
+                    .set_json_lock_if_owned_ex(
+                        ACME_RENEW_LOCK_KEY,
+                        &lease.lock_id,
+                        &acme_renew_lease_value(lease),
+                        acme_renew_lock_ttl_seconds(),
+                    )
+                    .await?;
+                if !refreshed {
+                    anyhow::bail!("ACME auto-renew scan lease was lost");
+                }
+            }
+        }
+    }
+}
+
+pub(super) async fn reconcile_acme_ssl_deployment(state: &AppState) -> anyhow::Result<()> {
+    let applications = read_acme_applications(state).await?;
+    let t = Translator::from_state(state).await;
+    let mut config = state.storage.store.get_config().await?;
+    let previous_ssl = config.get("ssl").cloned();
+    let mut deployment_changed = false;
+
+    for application in applications {
+        if application.get("renewEnabled").and_then(Value::as_bool) == Some(false) {
+            continue;
+        }
+
+        let application_id = application
+            .get("id")
+            .and_then(Value::as_str)
+            .unwrap_or_default()
+            .to_string();
+        if application_id.is_empty() {
+            continue;
+        }
+
+        let result: anyhow::Result<bool> = async {
+            let Some(issued_certificate) =
+                get_usable_issued_certificate_for_application(state, &application).await?
+            else {
+                return Ok(false);
+            };
+            let linked_certificate =
+                replacement_library_certificate(&config, &application_id, &issued_certificate);
+            let library_matches_issued = linked_certificate.as_ref().is_some_and(|certificate| {
+                same_pem(
+                    certificate.get("cert").and_then(Value::as_str),
+                    issued_certificate.get("cert").and_then(Value::as_str),
+                ) && same_pem(
+                    certificate.get("key").and_then(Value::as_str),
+                    issued_certificate.get("key").and_then(Value::as_str),
+                )
+            });
+            if library_matches_issued {
+                return Ok(false);
+            }
+
+            let linked_id = linked_certificate
+                .as_ref()
+                .and_then(|certificate| certificate.get("id").and_then(Value::as_str))
+                .map(str::to_string);
+            if let Some(linked_id) = linked_id.as_deref() {
+                link_issued_certificate_to_library(state, &application_id, linked_id).await?;
+            }
+            let normalized_ssl = ssl::normalize_ssl_config(config.get("ssl"));
+            let should_activate = linked_id.as_deref().is_some_and(|id| {
+                normalized_ssl.get("active_cert_id").and_then(Value::as_str) == Some(id)
+            });
+            let label = linked_certificate
+                .as_ref()
+                .and_then(|certificate| certificate.get("label").and_then(Value::as_str))
+                .map(str::to_string)
+                .or_else(|| {
+                    application
+                        .get("name")
+                        .and_then(Value::as_str)
+                        .map(str::to_string)
+                })
+                .or_else(|| {
+                    application
+                        .get("primaryDomain")
+                        .and_then(Value::as_str)
+                        .map(str::to_string)
+                });
+
+            save_acme_certificate_to_library_by_application(
+                state,
+                &application,
+                should_activate,
+                label.as_deref(),
+                &t,
+            )
+            .await?;
+            config = state.storage.store.get_config().await?;
+            Ok(should_activate
+                || config
+                    .pointer("/ssl/deployment_mode")
+                    .and_then(Value::as_str)
+                    == Some("multi_sni"))
+        }
+        .await;
+
+        match result {
+            Ok(changed) => deployment_changed |= changed,
+            Err(error) => {
+                let domain = application
+                    .get("primaryDomain")
+                    .and_then(Value::as_str)
+                    .unwrap_or(&application_id);
+                tracing::warn!(%error, %domain, "ACME certificate library reconcile failed");
+            }
+        }
+    }
+
+    let certificates = config
+        .pointer("/ssl/certificates")
+        .and_then(Value::as_array)
+        .cloned()
+        .unwrap_or_default();
+    let active_cert_id = config
+        .pointer("/ssl/active_cert_id")
+        .and_then(Value::as_str);
+    let active_certificate = certificates
+        .iter()
+        .find(|certificate| certificate.get("id").and_then(Value::as_str) == active_cert_id);
+    let has_acme_certificate = certificates
+        .iter()
+        .any(|certificate| certificate.get("source").and_then(Value::as_str) == Some("acme"));
+    let deployment_mode = config
+        .pointer("/ssl/deployment_mode")
+        .and_then(Value::as_str);
+    let should_sync = deployment_changed
+        || (has_acme_certificate
+            && (deployment_mode == Some("multi_sni")
+                || active_certificate
+                    .and_then(|certificate| certificate.get("source").and_then(Value::as_str))
+                    == Some("acme")));
+    if should_sync {
+        sync_ssl_deployment_with_rollback(state, previous_ssl.as_ref(), &config).await?;
+    }
+    Ok(())
+}
+
+pub(super) fn same_pem(left: Option<&str>, right: Option<&str>) -> bool {
+    left.unwrap_or("").trim() == right.unwrap_or("").trim()
+}
+
+pub(super) async fn wait_for_acme_job_completion(
+    state: &AppState,
+    job: &Value,
+) -> anyhow::Result<Option<String>> {
+    let Some(job_id) = job.get("id").and_then(Value::as_str) else {
+        return Ok(None);
+    };
+    for _ in 0..acme_renew_wait_iterations() {
+        if let Some(latest) = get_acme_job(state, job_id).await?
+            && let Some(status) = latest.get("status").and_then(Value::as_str)
+            && matches!(status, "succeeded" | "failed" | "stopped")
+        {
+            return Ok(Some(status.to_string()));
+        }
+        tokio_time::sleep(std::time::Duration::from_secs(5)).await;
+    }
+    Ok(None)
+}
+
+pub(super) fn acme_renew_interval() -> std::time::Duration {
+    let cron = env::var("ACME_RENEW_CRON").ok();
+    let interval_seconds = env::var("ACME_RENEW_INTERVAL_SECONDS").ok();
+    acme_renew_interval_from_values(cron.as_deref(), interval_seconds.as_deref())
+}
+
+pub(super) fn acme_renew_interval_from_values(
+    cron: Option<&str>,
+    interval_seconds: Option<&str>,
+) -> std::time::Duration {
+    let seconds = cron
+        .filter(|value| !value.trim().is_empty())
+        .map(|value| {
+            crate::settings::parse_cron_interval_seconds(value, DEFAULT_ACME_RENEW_INTERVAL_SECONDS)
+        })
+        .or_else(|| {
+            interval_seconds
+                .and_then(crate::node_compat::parse_i64_prefix_trim_start)
+                .and_then(|value| u64::try_from(value).ok())
+                .filter(|value| *value > 0)
+        })
+        .unwrap_or_else(|| {
+            crate::settings::parse_cron_interval_seconds(
+                DEFAULT_ACME_RENEW_CRON,
+                DEFAULT_ACME_RENEW_INTERVAL_SECONDS,
+            )
+        })
+        .clamp(60, 7 * 24 * 60 * 60);
+    std::time::Duration::from_secs(seconds)
+}
+
+pub(super) fn acme_renew_days() -> i64 {
+    env::var("ACME_RENEW_DAYS")
+        .ok()
+        .and_then(|value| value.parse::<i64>().ok())
+        .unwrap_or(30)
+        .clamp(1, 90)
+}
+
+pub(super) fn acme_renew_lock_ttl_seconds() -> usize {
+    env::var("ACME_RENEW_LOCK_TTL")
+        .ok()
+        .and_then(|value| value.parse::<usize>().ok())
+        .unwrap_or(3600)
+        .clamp(60, 6 * 60 * 60)
+}
+
+pub(super) fn acme_renew_wait_iterations() -> usize {
+    env::var("ACME_RENEW_WAIT_SECONDS")
+        .ok()
+        .and_then(|value| value.parse::<usize>().ok())
+        .unwrap_or(2 * 60 * 60)
+        .clamp(60, 24 * 60 * 60)
+        / 5
+}
+
+pub(super) fn parse_certificate_unix_timestamp(value: &str) -> Option<i64> {
+    let value = value.trim();
+    OffsetDateTime::parse(value, &Rfc3339)
+        .ok()
+        .map(|value| value.unix_timestamp())
+        .or_else(|| parse_openssl_utc_timestamp(value))
+}
+
+fn parse_openssl_utc_timestamp(value: &str) -> Option<i64> {
+    let mut parts = value.split_ascii_whitespace();
+    let month = match parts.next()? {
+        "Jan" => Month::January,
+        "Feb" => Month::February,
+        "Mar" => Month::March,
+        "Apr" => Month::April,
+        "May" => Month::May,
+        "Jun" => Month::June,
+        "Jul" => Month::July,
+        "Aug" => Month::August,
+        "Sep" => Month::September,
+        "Oct" => Month::October,
+        "Nov" => Month::November,
+        "Dec" => Month::December,
+        _ => return None,
+    };
+    let day = parts.next()?.parse::<u8>().ok()?;
+    let mut clock = parts.next()?.split(':');
+    let hour = clock.next()?.parse::<u8>().ok()?;
+    let minute = clock.next()?.parse::<u8>().ok()?;
+    let second = clock.next()?.parse::<u8>().ok()?;
+    if clock.next().is_some() {
+        return None;
+    }
+    let year = parts.next()?.parse::<i32>().ok()?;
+    if !matches!(parts.next(), Some("GMT" | "UTC")) || parts.next().is_some() {
+        return None;
+    }
+    let date = Date::from_calendar_date(year, month, day).ok()?;
+    let time = Time::from_hms(hour, minute, second).ok()?;
+    Some(
+        PrimitiveDateTime::new(date, time)
+            .assume_utc()
+            .unix_timestamp(),
+    )
+}
+
+pub(super) fn parse_acme_certificate_expiration(certificate: &Value) -> Option<i64> {
+    certificate
+        .pointer("/certInfo/validTo")
+        .and_then(Value::as_str)
+        .and_then(parse_certificate_unix_timestamp)
+}
+
+pub(super) fn certificate_due_for_renewal(valid_to: i64, now: i64, threshold_seconds: i64) -> bool {
+    valid_to.saturating_sub(now) <= threshold_seconds
+}

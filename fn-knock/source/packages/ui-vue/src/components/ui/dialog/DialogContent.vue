@@ -1,1 +1,94 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgRGlhbG9nQ29udGVudEVtaXRzLCBEaWFsb2dDb250ZW50UHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgeyBjb21wdXRlZCB9IGZyb20gInZ1ZSIKaW1wb3J0IHsgcmVhY3RpdmVPbWl0IH0gZnJvbSAiQHZ1ZXVzZS9jb3JlIgppbXBvcnQgeyBYIH0gZnJvbSAibHVjaWRlLXZ1ZS1uZXh0IgppbXBvcnQgewogIERpYWxvZ0Nsb3NlLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nUG9ydGFsLAogIGluamVjdERpYWxvZ1Jvb3RDb250ZXh0LAogIHVzZUZvcndhcmRQcm9wc0VtaXRzLAp9IGZyb20gInJla2EtdWkiCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCmltcG9ydCBEaWFsb2dPdmVybGF5IGZyb20gIi4vRGlhbG9nT3ZlcmxheS52dWUiCmltcG9ydCB7IHVzZU1vYmlsZURpYWxvZ0lucHV0RnVsbHNjcmVlbiB9IGZyb20gIi4vdXNlTW9iaWxlRGlhbG9nSW5wdXRGdWxsc2NyZWVuIgoKZGVmaW5lT3B0aW9ucyh7CiAgaW5oZXJpdEF0dHJzOiBmYWxzZSwKfSkKCmNvbnN0IHByb3BzID0gd2l0aERlZmF1bHRzKGRlZmluZVByb3BzPERpYWxvZ0NvbnRlbnRQcm9wcyAmIHsKICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdLAogIGlucHV0RnVsbHNjcmVlbj86IGJvb2xlYW4KICBvdmVybGF5Q2xhc3M/OiBIVE1MQXR0cmlidXRlc1siY2xhc3MiXSwKICBzaG93Q2xvc2VCdXR0b24/OiBib29sZWFuCn0+KCksIHsKICBpbnB1dEZ1bGxzY3JlZW46IHRydWUsCiAgc2hvd0Nsb3NlQnV0dG9uOiB0cnVlLAp9KQpjb25zdCBlbWl0cyA9IGRlZmluZUVtaXRzPERpYWxvZ0NvbnRlbnRFbWl0cz4oKQoKY29uc3QgZGVsZWdhdGVkUHJvcHMgPSByZWFjdGl2ZU9taXQoCiAgcHJvcHMsCiAgImNsYXNzIiwKICAiaW5wdXRGdWxsc2NyZWVuIiwKICAib3ZlcmxheUNsYXNzIiwKICAic2hvd0Nsb3NlQnV0dG9uIiwKKQoKY29uc3QgZm9yd2FyZGVkID0gdXNlRm9yd2FyZFByb3BzRW1pdHMoZGVsZWdhdGVkUHJvcHMsIGVtaXRzKQpjb25zdCByb290Q29udGV4dCA9IGluamVjdERpYWxvZ1Jvb3RDb250ZXh0KCkKY29uc3QgaXNJbnB1dEZ1bGxzY3JlZW5PcGVuID0gY29tcHV0ZWQoCiAgKCkgPT4gcHJvcHMuaW5wdXRGdWxsc2NyZWVuICYmIHJvb3RDb250ZXh0Lm9wZW4udmFsdWUsCikKY29uc3QgewogIGNvbnRlbnRTdHlsZSwKICBoYW5kbGVGb2N1c0luLAogIGhhbmRsZUZvY3VzT3V0LAogIGlzSW5wdXRGdWxsc2NyZWVuLAogIGlzU29mdEtleWJvYXJkVmlzaWJsZSwKICBzaG91bGRTY3JvbGxDb250ZW50LAp9ID0gdXNlTW9iaWxlRGlhbG9nSW5wdXRGdWxsc2NyZWVuKHsgaXNEaWFsb2dPcGVuOiBpc0lucHV0RnVsbHNjcmVlbk9wZW4gfSkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERpYWxvZ1BvcnRhbD4KICAgIDxEaWFsb2dPdmVybGF5IDpjbGFzcz0icHJvcHMub3ZlcmxheUNsYXNzIiAvPgogICAgPERpYWxvZ0NvbnRlbnQKICAgICAgZGF0YS1zbG90PSJkaWFsb2ctY29udGVudCIKICAgICAgY2xhc3M9Imdyb3VwL2RpYWxvZyIKICAgICAgOmRhdGEtaW5wdXQtZnVsbHNjcmVlbj0icHJvcHMuaW5wdXRGdWxsc2NyZWVuICYmIGlzSW5wdXRGdWxsc2NyZWVuIgogICAgICA6ZGF0YS1zb2Z0LWtleWJvYXJkLXZpc2libGU9IgogICAgICAgIHByb3BzLmlucHV0RnVsbHNjcmVlbiAmJiBpc1NvZnRLZXlib2FyZFZpc2libGUKICAgICAgIgogICAgICB2LWJpbmQ9InsgLi4uJGF0dHJzLCAuLi5mb3J3YXJkZWQgfSIKICAgICAgOnN0eWxlPSJwcm9wcy5pbnB1dEZ1bGxzY3JlZW4gPyBjb250ZW50U3R5bGUgOiB1bmRlZmluZWQiCiAgICAgIDpjbGFzcz0iCiAgICAgICAgY24oCiAgICAgICAgICAnYmctYmFja2dyb3VuZCBkYXRhLVtzdGF0ZT1vcGVuXTphbmltYXRlLWluIGRhdGEtW3N0YXRlPWNsb3NlZF06YW5pbWF0ZS1vdXQgZGF0YS1bc3RhdGU9Y2xvc2VkXTpmYWRlLW91dC0wIGRhdGEtW3N0YXRlPW9wZW5dOmZhZGUtaW4tMCBkYXRhLVtzdGF0ZT1jbG9zZWRdOnpvb20tb3V0LTk1IGRhdGEtW3N0YXRlPW9wZW5dOnpvb20taW4tOTUgZml4ZWQgdG9wLVs1MCVdIGxlZnQtWzUwJV0gei01MCBncmlkIHctZnVsbCBtYXgtdy1bY2FsYygxMDAlLTJyZW0pXSB0cmFuc2xhdGUteC1bLTUwJV0gdHJhbnNsYXRlLXktWy01MCVdIGdhcC00IHJvdW5kZWQtbGcgYm9yZGVyIHAtNiBzaGFkb3ctbGcgZHVyYXRpb24tMjAwIHNtOm1heC13LWxnJywKICAgICAgICAgIHByb3BzLmNsYXNzLAogICAgICAgICAgcHJvcHMuaW5wdXRGdWxsc2NyZWVuCiAgICAgICAgICAgICYmIGlzSW5wdXRGdWxsc2NyZWVuCiAgICAgICAgICAgICYmICdtYXgtc206IWluc2V0LXgtMCBtYXgtc206IWJvdHRvbS1hdXRvIG1heC1zbTohdG9wLVt2YXIoLS1kaWFsb2ctaW5wdXQtdmlld3BvcnQtdG9wKV0gbWF4LXNtOiFoLVt2YXIoLS1kaWFsb2ctaW5wdXQtdmlld3BvcnQtaGVpZ2h0KV0gbWF4LXNtOiFtYXgtaC1bdmFyKC0tZGlhbG9nLWlucHV0LXZpZXdwb3J0LWhlaWdodCldIG1heC1zbTohbWF4LXctbm9uZSBtYXgtc206IXRyYW5zbGF0ZS14LTAgbWF4LXNtOiF0cmFuc2xhdGUteS0wIG1heC1zbTohcm91bmRlZC1ub25lIG1heC1zbTohYm9yZGVyLTAnLAogICAgICAgICAgcHJvcHMuaW5wdXRGdWxsc2NyZWVuCiAgICAgICAgICAgICYmIHNob3VsZFNjcm9sbENvbnRlbnQKICAgICAgICAgICAgJiYgJ21heC1zbTohb3ZlcmZsb3cteS1hdXRvIG1heC1zbTpvdmVyc2Nyb2xsLWNvbnRhaW4nLAogICAgICAgICkiCiAgICAgIEBmb2N1c2luPSJwcm9wcy5pbnB1dEZ1bGxzY3JlZW4gJiYgaGFuZGxlRm9jdXNJbigkZXZlbnQpIgogICAgICBAZm9jdXNvdXQ9InByb3BzLmlucHV0RnVsbHNjcmVlbiAmJiBoYW5kbGVGb2N1c091dCgkZXZlbnQpIgogICAgPgogICAgICA8c2xvdCAvPgoKICAgICAgPERpYWxvZ0Nsb3NlCiAgICAgICAgdi1pZj0ic2hvd0Nsb3NlQnV0dG9uIgogICAgICAgIGRhdGEtc2xvdD0iZGlhbG9nLWNsb3NlIgogICAgICAgIGNsYXNzPSJyaW5nLW9mZnNldC1iYWNrZ3JvdW5kIGZvY3VzOnJpbmctcmluZyBkYXRhLVtzdGF0ZT1vcGVuXTpiZy1hY2NlbnQgZGF0YS1bc3RhdGU9b3Blbl06dGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGFic29sdXRlIHRvcC00IHJpZ2h0LTQgcm91bmRlZC14cyBvcGFjaXR5LTcwIHRyYW5zaXRpb24tb3BhY2l0eSBob3ZlcjpvcGFjaXR5LTEwMCBmb2N1czpyaW5nLTIgZm9jdXM6cmluZy1vZmZzZXQtMiBmb2N1czpvdXRsaW5lLWhpZGRlbiBkaXNhYmxlZDpwb2ludGVyLWV2ZW50cy1ub25lIFsmX3N2Z106cG9pbnRlci1ldmVudHMtbm9uZSBbJl9zdmddOnNocmluay0wIFsmX3N2Zzpub3QoW2NsYXNzKj0nc2l6ZS0nXSldOnNpemUtNCIKICAgICAgPgogICAgICAgIDxYIC8+CiAgICAgICAgPHNwYW4gY2xhc3M9InNyLW9ubHkiPkNsb3NlPC9zcGFuPgogICAgICA8L0RpYWxvZ0Nsb3NlPgogICAgPC9EaWFsb2dDb250ZW50PgogIDwvRGlhbG9nUG9ydGFsPgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import type { DialogContentEmits, DialogContentProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import { computed } from "vue"
+import { reactiveOmit } from "@vueuse/core"
+import { X } from "lucide-vue-next"
+import {
+  DialogClose,
+  DialogContent,
+  DialogPortal,
+  injectDialogRootContext,
+  useForwardPropsEmits,
+} from "reka-ui"
+import { cn } from "@/lib/utils"
+import DialogOverlay from "./DialogOverlay.vue"
+import { useMobileDialogInputFullscreen } from "./useMobileDialogInputFullscreen"
+
+defineOptions({
+  inheritAttrs: false,
+})
+
+const props = withDefaults(defineProps<DialogContentProps & {
+  class?: HTMLAttributes["class"],
+  inputFullscreen?: boolean
+  overlayClass?: HTMLAttributes["class"],
+  showCloseButton?: boolean
+}>(), {
+  inputFullscreen: true,
+  showCloseButton: true,
+})
+const emits = defineEmits<DialogContentEmits>()
+
+const delegatedProps = reactiveOmit(
+  props,
+  "class",
+  "inputFullscreen",
+  "overlayClass",
+  "showCloseButton",
+)
+
+const forwarded = useForwardPropsEmits(delegatedProps, emits)
+const rootContext = injectDialogRootContext()
+const isInputFullscreenOpen = computed(
+  () => props.inputFullscreen && rootContext.open.value,
+)
+const {
+  contentStyle,
+  handleFocusIn,
+  handleFocusOut,
+  isInputFullscreen,
+  isSoftKeyboardVisible,
+  shouldScrollContent,
+} = useMobileDialogInputFullscreen({ isDialogOpen: isInputFullscreenOpen })
+</script>
+
+<template>
+  <DialogPortal>
+    <DialogOverlay :class="props.overlayClass" />
+    <DialogContent
+      data-slot="dialog-content"
+      class="group/dialog"
+      :data-input-fullscreen="props.inputFullscreen && isInputFullscreen"
+      :data-soft-keyboard-visible="
+        props.inputFullscreen && isSoftKeyboardVisible
+      "
+      v-bind="{ ...$attrs, ...forwarded }"
+      :style="props.inputFullscreen ? contentStyle : undefined"
+      :class="
+        cn(
+          'bg-background data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 fixed top-[50%] left-[50%] z-50 grid w-full max-w-[calc(100%-2rem)] translate-x-[-50%] translate-y-[-50%] gap-4 rounded-lg border p-6 shadow-lg duration-200 sm:max-w-lg',
+          props.class,
+          props.inputFullscreen
+            && isInputFullscreen
+            && 'max-sm:!inset-x-0 max-sm:!bottom-auto max-sm:!top-[var(--dialog-input-viewport-top)] max-sm:!h-[var(--dialog-input-viewport-height)] max-sm:!max-h-[var(--dialog-input-viewport-height)] max-sm:!max-w-none max-sm:!translate-x-0 max-sm:!translate-y-0 max-sm:!rounded-none max-sm:!border-0',
+          props.inputFullscreen
+            && shouldScrollContent
+            && 'max-sm:!overflow-y-auto max-sm:overscroll-contain',
+        )"
+      @focusin="props.inputFullscreen && handleFocusIn($event)"
+      @focusout="props.inputFullscreen && handleFocusOut($event)"
+    >
+      <slot />
+
+      <DialogClose
+        v-if="showCloseButton"
+        data-slot="dialog-close"
+        class="ring-offset-background focus:ring-ring data-[state=open]:bg-accent data-[state=open]:text-muted-foreground absolute top-4 right-4 rounded-xs opacity-70 transition-opacity hover:opacity-100 focus:ring-2 focus:ring-offset-2 focus:outline-hidden disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+      >
+        <X />
+        <span class="sr-only">Close</span>
+      </DialogClose>
+    </DialogContent>
+  </DialogPortal>
+</template>

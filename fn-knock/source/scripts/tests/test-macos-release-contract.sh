@@ -1,1 +1,85 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4vLi4iICYmIHB3ZCkiCk1BQ09TX1dPUktGTE9XPSIke1JPT1RfRElSfS8uZ2l0aHViL3dvcmtmbG93cy9tYWNvcy55bWwiClNVUFBMRU1FTlRBTF9XT1JLRkxPVz0iJHtST09UX0RJUn0vLmdpdGh1Yi93b3JrZmxvd3MvbWFjb3MtcmVsZWFzZS55bWwiCmZhaWwoKSB7IHByaW50ZiAnW3Rlc3QtbWFjb3MtcmVsZWFzZS1jb250cmFjdF0gRVJST1I6ICVzXG4nICIkKiIgPiYyOyBleGl0IDE7IH0KCmZvciBzY3JpcHQgaW4gXAogIGRlcGxveS9tYWNvcy9pbnN0YWxsLnNoIFwKICBkZXBsb3kvbWFjb3Mva25vY2sgXAogIGRlcGxveS9tYWNvcy9mbi1rbm9jay1lbnRyeXBvaW50IFwKICBkZXBsb3kvbWFjb3MvdGVzdHMvdGVzdC1tYWNvcy1tYW5hZ2VtZW50LnNoIFwKICBzY3JpcHRzL2ZuLWtub2NrLW1hY29zLWxhdW5jaGQtc21va2Uuc2ggXAogIHNjcmlwdHMvZm4ta25vY2stbWFjb3Mtc21va2Uuc2ggXAogIHNjcmlwdHMvZm4ta25vY2stbWFjb3MtcGFja2FnZS5zaApkbwogIGJhc2ggLW4gIiR7Uk9PVF9ESVJ9LyR7c2NyaXB0fSIgfHwgZmFpbCAiaW52YWxpZCBzaGVsbCBzeW50YXg6ICR7c2NyaXB0fSIKZG9uZQpzaCAtbiAiJHtST09UX0RJUn0vZGVwbG95L21hY29zL2luc3RhbGwuc2giIHx8IGZhaWwgImluc3RhbGxlciBpcyBub3QgdmFsaWQgUE9TSVggc2hlbGwiCgpncmVwIC1GcSAnRk5fS05PQ0tfUlVOVElNRV9UQVJHRVQ9Im1hY29zIicgIiR7Uk9PVF9ESVJ9L2RlcGxveS9tYWNvcy9mbi1rbm9jay1lbnRyeXBvaW50IiB8fCBcCiAgZmFpbCAibWFjT1MgcnVudGltZSB0YXJnZXQgaXMgbWlzc2luZyIKZ3JlcCAtRnEgJ0ZOX0tOT0NLX0RJU0FCTEVfSVBUQUJMRVM9MScgIiR7Uk9PVF9ESVJ9L2RlcGxveS9tYWNvcy9mbi1rbm9jay1lbnRyeXBvaW50IiB8fCBcCiAgZmFpbCAibWFjT1MgZ2F0ZXdheSBkb2VzIG5vdCBkaXNhYmxlIGlwdGFibGVzIgpncmVwIC1GcSAnQURNSU5fVklFV19IT1NUPTEyNy4wLjAuMScgIiR7Uk9PVF9ESVJ9L2RlcGxveS9tYWNvcy9mbi1rbm9jay5lbnYiIHx8IFwKICBmYWlsICJtYWNPUyBhZG1pbiB2aWV3IGlzIG5vdCBsb29wYmFjay1vbmx5IGJ5IGRlZmF1bHQiCmdyZXAgLUZxICdtYWNvcy0xNS1pbnRlbCcgIiR7TUFDT1NfV09SS0ZMT1d9IiB8fCBcCiAgZmFpbCAiSW50ZWwgcnVubmVyIGlzIG1pc3NpbmciCmdyZXAgLUZxICdydW5uZXI6IG1hY29zLTE1JyAiJHtNQUNPU19XT1JLRkxPV30iIHx8IFwKICBmYWlsICJBcHBsZSBTaWxpY29uIHJ1bm5lciBpcyBtaXNzaW5nIgpncmVwIC1GcSAnICAgICAgLSAidioiJyAiJHtNQUNPU19XT1JLRkxPV30iIHx8IFwKICBmYWlsICJtYWNPUyBDTEkgd29ya2Zsb3cgaXMgbm90IHRyaWdnZXJlZCBieSByZWxlYXNlIHRhZ3MiCmlmIGdyZXAgLUZxICcgIHB1bGxfcmVxdWVzdDonICIke01BQ09TX1dPUktGTE9XfSIgfHwgZ3JlcCAtRnEgJyAgICBicmFuY2hlczogW21haW5dJyAiJHtNQUNPU19XT1JLRkxPV30iOyB0aGVuCiAgZmFpbCAibWFjT1MgQ0xJIHdvcmtmbG93IG11c3Qgbm90IHJ1biBmb3IgZXZlcnkgcHVsbCByZXF1ZXN0IG9yIG1haW4gYnJhbmNoIHB1c2giCmZpCmdyZXAgLUZxICdmbi1rbm9jay1tYWNvcy0ke3ZlcnNpb259LWFtZDY0LnRhci5neicgIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvZm4ta25vY2stcmVsZWFzZS1maW5hbGl6ZS5tanMiIHx8IFwKICBmYWlsICJhbWQ2NCByZWxlYXNlIGludmVudG9yeSBlbnRyeSBpcyBtaXNzaW5nIgpncmVwIC1GcSAnZm4ta25vY2stbWFjb3MtJHt2ZXJzaW9ufS1hcm02NC50YXIuZ3onICIke1JPT1RfRElSfS9zY3JpcHRzL2ZuLWtub2NrLXJlbGVhc2UtZmluYWxpemUubWpzIiB8fCBcCiAgZmFpbCAiYXJtNjQgcmVsZWFzZSBpbnZlbnRvcnkgZW50cnkgaXMgbWlzc2luZyIKZ3JlcCAtRnEgJ2hvc3RfZmlyZXdhbGxfYXZhaWxhYmxlOiBmYWxzZScgIiR7Uk9PVF9ESVJ9L2FwcHMvc2VydmVyLWFkbWluLXJzL3NyYy9pbmZyYS9ydW50aW1lX3Byb2ZpbGUucnMiIHx8IFwKICBmYWlsICJtYWNPUyBmaXJld2FsbCBjYXBhYmlsaXR5IGlzIG5vdCBkaXNhYmxlZCIKZ3JlcCAtRnEgJ1sgIiR7YW5zd2VyfSIgPSAiREVMRVRFIiBdJyAiJHtST09UX0RJUn0vZGVwbG95L21hY29zL2tub2NrIiB8fCBcCiAgZmFpbCAicHVyZ2UgdW5pbnN0YWxsIGRvZXMgbm90IHJlcXVpcmUgdGhlIERFTEVURSBjb25maXJtYXRpb24iCmdyZXAgLUZxICdmbi1rbm9jay1tYWNvcy1sYXVuY2hkLXNtb2tlLnNoJyAiJHtST09UX0RJUn0vLmdpdGh1Yi93b3JrZmxvd3MvcmVsZWFzZS55bWwiIHx8IFwKICBmYWlsICJyZWxlYXNlIENJIGRvZXMgbm90IGV4ZXJjaXNlIHRoZSByZWFsIGxhdW5jaGQgbGlmZWN5Y2xlIgppZiBncmVwIC1GcSAnIiR7QVJDSElWRX0uc2hhMjU2IicgIiR7Uk9PVF9ESVJ9L3NjcmlwdHMvZm4ta25vY2stbWFjb3MtcGFja2FnZS5zaCI7IHRoZW4KICBmYWlsICJtYWNPUyBwYWNrYWdlciBtdXN0IG5vdCBjcmVhdGUgaW5kZXBlbmRlbnQgU0hBLTI1NiBzaWRlY2FycyIKZmkKZ3JlcCAtRnEgJzxrZXk+VW1hc2s8L2tleT4nICIke1JPT1RfRElSfS9kZXBsb3kvbWFjb3MvY24uZm5rbm9jay5zZXJ2aWNlLnBsaXN0IiB8fCBcCiAgZmFpbCAiTGF1bmNoRGFlbW9uIGRvZXMgbm90IHNldCBhIHJlc3RyaWN0aXZlIHVtYXNrIgoKWyAtZiAiJHtTVVBQTEVNRU5UQUxfV09SS0ZMT1d9IiBdIHx8IGZhaWwgIm1hY09TIHN1cHBsZW1lbnRhbCByZWxlYXNlIHdvcmtmbG93IGlzIG1pc3NpbmciCmdyZXAgLUZxICd1c2VzOiAuLy5naXRodWIvd29ya2Zsb3dzL21hY29zLnltbCcgIiR7U1VQUExFTUVOVEFMX1dPUktGTE9XfSIgfHwgXAogIGZhaWwgIm1hY09TIHN1cHBsZW1lbnRhbCByZWxlYXNlIGRvZXMgbm90IHJldXNlIHRoZSBuYXRpdmUgQ0kgYnVpbGQiCmdyZXAgLUZxICdncm91cDogZm4ta25vY2stc3RhYmxlLXJlbGVhc2UnICIke1NVUFBMRU1FTlRBTF9XT1JLRkxPV30iIHx8IFwKICBmYWlsICJtYWNPUyBzdXBwbGVtZW50YWwgcmVsZWFzZSBkb2VzIG5vdCBzaGFyZSB0aGUgc3RhYmxlIHJlbGVhc2UgbG9jayIKZ3JlcCAtRnEgJ25vZGUgLi9zY3JpcHRzL2ZuLWtub2NrLWNvcy1wdWJsaXNoLm1qcyBwbGFuLW1hY29zJyAiJHtTVVBQTEVNRU5UQUxfV09SS0ZMT1d9IiB8fCBcCiAgZmFpbCAibWFjT1Mgc3VwcGxlbWVudGFsIHJlbGVhc2UgZG9lcyBub3QgZ2VuZXJhdGUgYSBkcnktcnVuIHBsYW4iCmdyZXAgLUZxICdub2RlIC4vc2NyaXB0cy9mbi1rbm9jay1jb3MtcHVibGlzaC5tanMgY2hlY2stbWFjb3MnICIke1NVUFBMRU1FTlRBTF9XT1JLRkxPV30iIHx8IFwKICBmYWlsICJtYWNPUyBzdXBwbGVtZW50YWwgcmVsZWFzZSBkb2VzIG5vdCBwcmVmbGlnaHQgQ09TIgpncmVwIC1GcSAnbm9kZSAuL3NjcmlwdHMvZm4ta25vY2stY29zLXB1Ymxpc2gubWpzIHB1Ymxpc2gtbWFjb3MnICIke1NVUFBMRU1FTlRBTF9XT1JLRkxPV30iIHx8IFwKICBmYWlsICJtYWNPUyBzdXBwbGVtZW50YWwgcmVsZWFzZSBkb2VzIG5vdCBwdWJsaXNoIENPUyB0cmFuc2FjdGlvbmFsbHkiCmdyZXAgLUZxICdzdWJqZWN0LXBhdGg6IGRpc3QvbWFjb3MtcmVsZWFzZS1hc3NldHMvKi50YXIuZ3onICIke1NVUFBMRU1FTlRBTF9XT1JLRkxPV30iIHx8IFwKICBmYWlsICJtYWNPUyBzdXBwbGVtZW50YWwgcmVsZWFzZSBkb2VzIG5vdCBhdHRlc3QgYm90aCBhcmNoaXZlcyIKZ3JlcCAtRnEgLS0gJy0gbmFtZTogUm9sbCBiYWNrIEdpdEh1YiBSZWxlYXNlIGlmIENPUyBwdWJsaWNhdGlvbiBmYWlsZWQnICIke1NVUFBMRU1FTlRBTF9XT1JLRkxPV30iIHx8IFwKICBmYWlsICJtYWNPUyBzdXBwbGVtZW50YWwgcmVsZWFzZSBkb2VzIG5vdCBjb21wZW5zYXRlIEdpdEh1YiBtdXRhdGlvbnMiCmdyZXAgLUZxICdnaCByZWxlYXNlIGRlbGV0ZS1hc3NldCAiJHt0YWd9IiAiJHt1cGxvYWRlZF9uYW1lfSInICIke1NVUFBMRU1FTlRBTF9XT1JLRkxPV30iIHx8IFwKICBmYWlsICJtYWNPUyBzdXBwbGVtZW50YWwgcm9sbGJhY2sgZG9lcyBub3QgcmVtb3ZlIG5ld2x5IGFkZGVkIGFzc2V0cyIKZ3JlcCAtRnEgJ3R5cGU6IGJvb2xlYW4nICIke1NVUFBMRU1FTlRBTF9XT1JLRkxPV30iIHx8IFwKICBmYWlsICJtYWNPUyBzdXBwbGVtZW50YWwgcmVsZWFzZSBwdWJsaXNoIGNvbmZpcm1hdGlvbiBpcyBub3QgYm9vbGVhbiIKCnByZWZsaWdodF9saW5lPSIkKGdyZXAgLW5GICdub2RlIC4vc2NyaXB0cy9mbi1rbm9jay1jb3MtcHVibGlzaC5tanMgY2hlY2stbWFjb3MnICIke1NVUFBMRU1FTlRBTF9XT1JLRkxPV30iIHwgY3V0IC1kOiAtZjEpIgpnaXRodWJfbGluZT0iJChncmVwIC1uRiAtLSAnLSBuYW1lOiBBZGQgbWFjT1MgcGFja2FnZXMgdG8gdGhlIGV4aXN0aW5nIEdpdEh1YiBSZWxlYXNlJyAiJHtTVVBQTEVNRU5UQUxfV09SS0ZMT1d9IiB8IGN1dCAtZDogLWYxKSIKcHVibGlzaF9saW5lPSIkKGdyZXAgLW5GICdub2RlIC4vc2NyaXB0cy9mbi1rbm9jay1jb3MtcHVibGlzaC5tanMgcHVibGlzaC1tYWNvcycgIiR7U1VQUExFTUVOVEFMX1dPUktGTE9XfSIgfCBjdXQgLWQ6IC1mMSkiClsgIiR7cHJlZmxpZ2h0X2xpbmV9IiAtbHQgIiR7Z2l0aHViX2xpbmV9IiBdIHx8IFwKICBmYWlsICJDT1MgcHJlZmxpZ2h0IG11c3QgaGFwcGVuIGJlZm9yZSBHaXRIdWIgUmVsZWFzZSBtdXRhdGlvbiIKWyAiJHtnaXRodWJfbGluZX0iIC1sdCAiJHtwdWJsaXNoX2xpbmV9IiBdIHx8IFwKICBmYWlsICJsYXRlc3QuanNvbiBtdXN0IGJlIGNvbW1pdHRlZCBhZnRlciBHaXRIdWIgUmVsZWFzZSBhc3NldHMiCmdyZXAgLUZxICdwdWJsaXNoTW9kZTogIm1hY29zLW9ubHkiJyAiJHtST09UX0RJUn0vc2NyaXB0cy9mbi1rbm9jay1jb3MtcHVibGlzaC5tanMiIHx8IFwKICBmYWlsICJtYWNPUyBDT1MgcGxhbiBpcyBub3QgbWFya2VkIGFzIGEgcGFydGlhbCBwdWJsaWNhdGlvbiIKZ3JlcCAtRnEgJy4uLmN1cnJlbnQucGFja2FnZXMsJyAiJHtST09UX0RJUn0vc2NyaXB0cy9mbi1rbm9jay1jb3MtcHVibGlzaC5tanMiIHx8IFwKICBmYWlsICJtYWNPUyBsYXRlc3QgbWVyZ2UgZG9lcyBub3QgcHJlc2VydmUgb3RoZXIgcGFja2FnZSBub2RlcyIKCnByaW50ZiAnW3Rlc3QtbWFjb3MtcmVsZWFzZS1jb250cmFjdF0gbWFjT1MgcmVsZWFzZSBjb250cmFjdCBwYXNzZWRcbicK
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+MACOS_WORKFLOW="${ROOT_DIR}/.github/workflows/macos.yml"
+SUPPLEMENTAL_WORKFLOW="${ROOT_DIR}/.github/workflows/macos-release.yml"
+fail() { printf '[test-macos-release-contract] ERROR: %s\n' "$*" >&2; exit 1; }
+
+for script in \
+  deploy/macos/install.sh \
+  deploy/macos/knock \
+  deploy/macos/fn-knock-entrypoint \
+  deploy/macos/tests/test-macos-management.sh \
+  scripts/fn-knock-macos-launchd-smoke.sh \
+  scripts/fn-knock-macos-smoke.sh \
+  scripts/fn-knock-macos-package.sh
+do
+  bash -n "${ROOT_DIR}/${script}" || fail "invalid shell syntax: ${script}"
+done
+sh -n "${ROOT_DIR}/deploy/macos/install.sh" || fail "installer is not valid POSIX shell"
+
+grep -Fq 'FN_KNOCK_RUNTIME_TARGET="macos"' "${ROOT_DIR}/deploy/macos/fn-knock-entrypoint" || \
+  fail "macOS runtime target is missing"
+grep -Fq 'FN_KNOCK_DISABLE_IPTABLES=1' "${ROOT_DIR}/deploy/macos/fn-knock-entrypoint" || \
+  fail "macOS gateway does not disable iptables"
+grep -Fq 'ADMIN_VIEW_HOST=127.0.0.1' "${ROOT_DIR}/deploy/macos/fn-knock.env" || \
+  fail "macOS admin view is not loopback-only by default"
+grep -Fq 'macos-15-intel' "${MACOS_WORKFLOW}" || \
+  fail "Intel runner is missing"
+grep -Fq 'runner: macos-15' "${MACOS_WORKFLOW}" || \
+  fail "Apple Silicon runner is missing"
+grep -Fq '      - "v*"' "${MACOS_WORKFLOW}" || \
+  fail "macOS CLI workflow is not triggered by release tags"
+if grep -Fq '  pull_request:' "${MACOS_WORKFLOW}" || grep -Fq '    branches: [main]' "${MACOS_WORKFLOW}"; then
+  fail "macOS CLI workflow must not run for every pull request or main branch push"
+fi
+grep -Fq 'fn-knock-macos-${version}-amd64.tar.gz' "${ROOT_DIR}/scripts/fn-knock-release-finalize.mjs" || \
+  fail "amd64 release inventory entry is missing"
+grep -Fq 'fn-knock-macos-${version}-arm64.tar.gz' "${ROOT_DIR}/scripts/fn-knock-release-finalize.mjs" || \
+  fail "arm64 release inventory entry is missing"
+grep -Fq 'host_firewall_available: false' "${ROOT_DIR}/apps/server-admin-rs/src/infra/runtime_profile.rs" || \
+  fail "macOS firewall capability is not disabled"
+grep -Fq '[ "${answer}" = "DELETE" ]' "${ROOT_DIR}/deploy/macos/knock" || \
+  fail "purge uninstall does not require the DELETE confirmation"
+grep -Fq 'fn-knock-macos-launchd-smoke.sh' "${ROOT_DIR}/.github/workflows/release.yml" || \
+  fail "release CI does not exercise the real launchd lifecycle"
+if grep -Fq '"${ARCHIVE}.sha256"' "${ROOT_DIR}/scripts/fn-knock-macos-package.sh"; then
+  fail "macOS packager must not create independent SHA-256 sidecars"
+fi
+grep -Fq '<key>Umask</key>' "${ROOT_DIR}/deploy/macos/cn.fnknock.service.plist" || \
+  fail "LaunchDaemon does not set a restrictive umask"
+
+[ -f "${SUPPLEMENTAL_WORKFLOW}" ] || fail "macOS supplemental release workflow is missing"
+grep -Fq 'uses: ./.github/workflows/macos.yml' "${SUPPLEMENTAL_WORKFLOW}" || \
+  fail "macOS supplemental release does not reuse the native CI build"
+grep -Fq 'group: fn-knock-stable-release' "${SUPPLEMENTAL_WORKFLOW}" || \
+  fail "macOS supplemental release does not share the stable release lock"
+grep -Fq 'node ./scripts/fn-knock-cos-publish.mjs plan-macos' "${SUPPLEMENTAL_WORKFLOW}" || \
+  fail "macOS supplemental release does not generate a dry-run plan"
+grep -Fq 'node ./scripts/fn-knock-cos-publish.mjs check-macos' "${SUPPLEMENTAL_WORKFLOW}" || \
+  fail "macOS supplemental release does not preflight COS"
+grep -Fq 'node ./scripts/fn-knock-cos-publish.mjs publish-macos' "${SUPPLEMENTAL_WORKFLOW}" || \
+  fail "macOS supplemental release does not publish COS transactionally"
+grep -Fq 'subject-path: dist/macos-release-assets/*.tar.gz' "${SUPPLEMENTAL_WORKFLOW}" || \
+  fail "macOS supplemental release does not attest both archives"
+grep -Fq -- '- name: Roll back GitHub Release if COS publication failed' "${SUPPLEMENTAL_WORKFLOW}" || \
+  fail "macOS supplemental release does not compensate GitHub mutations"
+grep -Fq 'gh release delete-asset "${tag}" "${uploaded_name}"' "${SUPPLEMENTAL_WORKFLOW}" || \
+  fail "macOS supplemental rollback does not remove newly added assets"
+grep -Fq 'type: boolean' "${SUPPLEMENTAL_WORKFLOW}" || \
+  fail "macOS supplemental release publish confirmation is not boolean"
+
+preflight_line="$(grep -nF 'node ./scripts/fn-knock-cos-publish.mjs check-macos' "${SUPPLEMENTAL_WORKFLOW}" | cut -d: -f1)"
+github_line="$(grep -nF -- '- name: Add macOS packages to the existing GitHub Release' "${SUPPLEMENTAL_WORKFLOW}" | cut -d: -f1)"
+publish_line="$(grep -nF 'node ./scripts/fn-knock-cos-publish.mjs publish-macos' "${SUPPLEMENTAL_WORKFLOW}" | cut -d: -f1)"
+[ "${preflight_line}" -lt "${github_line}" ] || \
+  fail "COS preflight must happen before GitHub Release mutation"
+[ "${github_line}" -lt "${publish_line}" ] || \
+  fail "latest.json must be committed after GitHub Release assets"
+grep -Fq 'publishMode: "macos-only"' "${ROOT_DIR}/scripts/fn-knock-cos-publish.mjs" || \
+  fail "macOS COS plan is not marked as a partial publication"
+grep -Fq '...current.packages,' "${ROOT_DIR}/scripts/fn-knock-cos-publish.mjs" || \
+  fail "macOS latest merge does not preserve other package nodes"
+
+printf '[test-macos-release-contract] macOS release contract passed\n'

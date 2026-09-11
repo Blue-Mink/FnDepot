@@ -1,1 +1,117 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IENoZXZyb25Eb3duLCBDaGVjayB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7CiAgQXV0b2NvbXBsZXRlQW5jaG9yLAogIEF1dG9jb21wbGV0ZUNvbnRlbnQsCiAgQXV0b2NvbXBsZXRlRW1wdHksCiAgQXV0b2NvbXBsZXRlR3JvdXAsCiAgQXV0b2NvbXBsZXRlSW5wdXQsCiAgQXV0b2NvbXBsZXRlSXRlbSwKICBBdXRvY29tcGxldGVJdGVtSW5kaWNhdG9yLAogIEF1dG9jb21wbGV0ZUxhYmVsLAogIEF1dG9jb21wbGV0ZVBvcnRhbCwKICBBdXRvY29tcGxldGVSb290LAogIEF1dG9jb21wbGV0ZVRyaWdnZXIsCiAgQXV0b2NvbXBsZXRlVmlld3BvcnQsCn0gZnJvbSAicmVrYS11aSI7CmltcG9ydCB7IGFkdmFuY2VkQXV0aFJlcXVlc3RIZWFkZXJHcm91cHMgfSBmcm9tICIuL2FkdmFuY2VkLWF1dGgtcmVxdWVzdC1oZWFkZXJzIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIGlkOiBzdHJpbmc7CiAgbW9kZWxWYWx1ZT86IHN0cmluZzsKICBkaXNhYmxlZD86IGJvb2xlYW47Cn0+KCk7Cgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICJ1cGRhdGU6bW9kZWxWYWx1ZSI6IFt2YWx1ZTogc3RyaW5nXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwoKY29uc3QgdXBkYXRlVmFsdWUgPSAodmFsdWU6IHN0cmluZykgPT4gZW1pdCgidXBkYXRlOm1vZGVsVmFsdWUiLCB2YWx1ZSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxBdXRvY29tcGxldGVSb290CiAgICA6bW9kZWwtdmFsdWU9InByb3BzLm1vZGVsVmFsdWUgPz8gJyciCiAgICA6ZGlzYWJsZWQ9InByb3BzLmRpc2FibGVkIgogICAgb3Blbi1vbi1mb2N1cwogICAgb3Blbi1vbi1jbGljawogICAgOnJlc2V0LXNlYXJjaC10ZXJtLW9uLWJsdXI9ImZhbHNlIgogICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0idXBkYXRlVmFsdWUiCiAgPgogICAgPEF1dG9jb21wbGV0ZUFuY2hvciBjbGFzcz0icmVsYXRpdmUgdy1mdWxsIj4KICAgICAgPCEtLQogICAgICAgIExldCBSZWthIG93biB0aGUgbmF0aXZlIGlucHV0IGFuZCBjb21wb3NpdGlvbiBldmVudHMuIFdyYXBwaW5nIHRoZQogICAgICAgIHByb2plY3QgSW5wdXQgaGVyZSBhZGRzIGEgc2Vjb25kIHYtbW9kZWwgdGhhdCBjYW4gZHJvcCByYXBpZCBvciBJTUUKICAgICAgICBpbnB1dCB3aGlsZSB0aGUgc3VnZ2VzdGlvbiBsaXN0IGlzIGZpbHRlcmluZy4KICAgICAgLS0+CiAgICAgIDxBdXRvY29tcGxldGVJbnB1dAogICAgICAgIDppZD0icHJvcHMuaWQiCiAgICAgICAgZGF0YS1zbG90PSJpbnB1dCIKICAgICAgICBjbGFzcz0iZmlsZTp0ZXh0LWZvcmVncm91bmQgcGxhY2Vob2xkZXI6dGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHNlbGVjdGlvbjpiZy1wcmltYXJ5IHNlbGVjdGlvbjp0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCBkYXJrOmJnLWlucHV0LzMwIGJvcmRlci1pbnB1dCBoLTkgdy1mdWxsIG1pbi13LTAgcm91bmRlZC1tZCBib3JkZXIgYmctdHJhbnNwYXJlbnQgcHktMSBwci0xMCBwbC0zIHRleHQtYmFzZSBzaGFkb3cteHMgdHJhbnNpdGlvbi1bY29sb3IsYm94LXNoYWRvd10gb3V0bGluZS1ub25lIGZpbGU6aW5saW5lLWZsZXggZmlsZTpoLTcgZmlsZTpib3JkZXItMCBmaWxlOmJnLXRyYW5zcGFyZW50IGZpbGU6dGV4dC1zbSBmaWxlOmZvbnQtbWVkaXVtIGRpc2FibGVkOnBvaW50ZXItZXZlbnRzLW5vbmUgZGlzYWJsZWQ6Y3Vyc29yLW5vdC1hbGxvd2VkIGRpc2FibGVkOm9wYWNpdHktNTAgbWQ6dGV4dC1zbSBmb2N1cy12aXNpYmxlOmJvcmRlci1yaW5nIGZvY3VzLXZpc2libGU6cmluZy1yaW5nLzUwIGZvY3VzLXZpc2libGU6cmluZy1bM3B4XSBhcmlhLWludmFsaWQ6cmluZy1kZXN0cnVjdGl2ZS8yMCBkYXJrOmFyaWEtaW52YWxpZDpyaW5nLWRlc3RydWN0aXZlLzQwIGFyaWEtaW52YWxpZDpib3JkZXItZGVzdHJ1Y3RpdmUiCiAgICAgICAgOnBsYWNlaG9sZGVyPSJ0KCdhZG1pbi5hZHZhbmNlZEF1dGguaGVhZGVyTmFtZVBsYWNlaG9sZGVyJykiCiAgICAgICAgOmRpc2FibGVkPSJwcm9wcy5kaXNhYmxlZCIKICAgICAgICBhdXRvY29tcGxldGU9Im9mZiIKICAgICAgICBhdXRvY2FwaXRhbGl6ZT0ib2ZmIgogICAgICAgIGF1dG9jb3JyZWN0PSJvZmYiCiAgICAgICAgOnNwZWxsY2hlY2s9ImZhbHNlIgogICAgICAgIGRhdGEtZm9ybS10eXBlPSJvdGhlciIKICAgICAgICBkYXRhLTFwLWlnbm9yZT0idHJ1ZSIKICAgICAgICBkYXRhLWxwaWdub3JlPSJ0cnVlIgogICAgICAgIGRhdGEtYndpZ25vcmU9InRydWUiCiAgICAgIC8+CiAgICAgIDxBdXRvY29tcGxldGVUcmlnZ2VyCiAgICAgICAgY2xhc3M9ImFic29sdXRlIGluc2V0LXktMCByaWdodC0wIGZsZXggdy0xMCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1yLW1kIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBvdXRsaW5lLW5vbmUgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIGZvY3VzLXZpc2libGU6cmluZy1yaW5nLzUwIGZvY3VzLXZpc2libGU6cmluZy1bM3B4XSBkaXNhYmxlZDpwb2ludGVyLWV2ZW50cy1ub25lIGRpc2FibGVkOm9wYWNpdHktNTAiCiAgICAgICAgOmFyaWEtbGFiZWw9InQoJ2FkbWluLmFkdmFuY2VkQXV0aC5vcGVuSGVhZGVyU3VnZ2VzdGlvbnMnKSIKICAgICAgPgogICAgICAgIDxDaGV2cm9uRG93biBjbGFzcz0iaC00IHctNCIgLz4KICAgICAgPC9BdXRvY29tcGxldGVUcmlnZ2VyPgogICAgPC9BdXRvY29tcGxldGVBbmNob3I+CgogICAgPEF1dG9jb21wbGV0ZVBvcnRhbD4KICAgICAgPEF1dG9jb21wbGV0ZUNvbnRlbnQKICAgICAgICBwb3NpdGlvbj0icG9wcGVyIgogICAgICAgIGFsaWduPSJzdGFydCIKICAgICAgICA6c2lkZS1vZmZzZXQ9IjQiCiAgICAgICAgY2xhc3M9InotNTAgbWF4LWgtW21pbigyMHJlbSx2YXIoLS1yZWthLWNvbWJvYm94LWNvbnRlbnQtYXZhaWxhYmxlLWhlaWdodCkpXSB3LVt2YXIoLS1yZWthLWNvbWJvYm94LXRyaWdnZXItd2lkdGgpXSBtaW4tdy01NiBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1tZCBib3JkZXIgYmctcG9wb3ZlciB0ZXh0LXBvcG92ZXItZm9yZWdyb3VuZCBzaGFkb3ctbWQgZGF0YS1bc3RhdGU9b3Blbl06YW5pbWF0ZS1pbiBkYXRhLVtzdGF0ZT1jbG9zZWRdOmFuaW1hdGUtb3V0IGRhdGEtW3N0YXRlPWNsb3NlZF06ZmFkZS1vdXQtMCBkYXRhLVtzdGF0ZT1vcGVuXTpmYWRlLWluLTAgZGF0YS1bc3RhdGU9Y2xvc2VkXTp6b29tLW91dC05NSBkYXRhLVtzdGF0ZT1vcGVuXTp6b29tLWluLTk1IgogICAgICA+CiAgICAgICAgPEF1dG9jb21wbGV0ZVZpZXdwb3J0CiAgICAgICAgICBjbGFzcz0ibWF4LWgtW21pbigyMHJlbSx2YXIoLS1yZWthLWNvbWJvYm94LWNvbnRlbnQtYXZhaWxhYmxlLWhlaWdodCkpXSBvdmVyZmxvdy15LWF1dG8gcC0xIgogICAgICAgID4KICAgICAgICAgIDxBdXRvY29tcGxldGVFbXB0eQogICAgICAgICAgICBjbGFzcz0icHgtMyBweS02IHRleHQtY2VudGVyIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5hZHZhbmNlZEF1dGguY3VzdG9tSGVhZGVySGludCIpIH19CiAgICAgICAgICA8L0F1dG9jb21wbGV0ZUVtcHR5PgoKICAgICAgICAgIDxBdXRvY29tcGxldGVHcm91cAogICAgICAgICAgICB2LWZvcj0iZ3JvdXAgaW4gYWR2YW5jZWRBdXRoUmVxdWVzdEhlYWRlckdyb3VwcyIKICAgICAgICAgICAgOmtleT0iZ3JvdXAuaWQiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxBdXRvY29tcGxldGVMYWJlbAogICAgICAgICAgICAgIGNsYXNzPSJweC0yIHB5LTEuNSB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt7IHQoZ3JvdXAubGFiZWxLZXkpIH19CiAgICAgICAgICAgIDwvQXV0b2NvbXBsZXRlTGFiZWw+CiAgICAgICAgICAgIDxBdXRvY29tcGxldGVJdGVtCiAgICAgICAgICAgICAgdi1mb3I9ImhlYWRlciBpbiBncm91cC5oZWFkZXJzIgogICAgICAgICAgICAgIDprZXk9ImhlYWRlciIKICAgICAgICAgICAgICA6dmFsdWU9ImhlYWRlciIKICAgICAgICAgICAgICA6dGV4dC12YWx1ZT0iaGVhZGVyIgogICAgICAgICAgICAgIGNsYXNzPSJyZWxhdGl2ZSBmbGV4IGN1cnNvci1kZWZhdWx0IHNlbGVjdC1ub25lIGl0ZW1zLWNlbnRlciByb3VuZGVkLXNtIHB5LTEuNSBwci04IHBsLTIgdGV4dC1zbSBvdXRsaW5lLW5vbmUgZGF0YS1bZGlzYWJsZWRdOnBvaW50ZXItZXZlbnRzLW5vbmUgZGF0YS1baGlnaGxpZ2h0ZWRdOmJnLWFjY2VudCBkYXRhLVtoaWdobGlnaHRlZF06dGV4dC1hY2NlbnQtZm9yZWdyb3VuZCBkYXRhLVtkaXNhYmxlZF06b3BhY2l0eS01MCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJmb250LW1vbm8iPnt7IGhlYWRlciB9fTwvc3Bhbj4KICAgICAgICAgICAgICA8QXV0b2NvbXBsZXRlSXRlbUluZGljYXRvcgogICAgICAgICAgICAgICAgY2xhc3M9ImFic29sdXRlIHJpZ2h0LTIgZmxleCBoLTQgdy00IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8Q2hlY2sgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgPC9BdXRvY29tcGxldGVJdGVtSW5kaWNhdG9yPgogICAgICAgICAgICA8L0F1dG9jb21wbGV0ZUl0ZW0+CiAgICAgICAgICA8L0F1dG9jb21wbGV0ZUdyb3VwPgogICAgICAgIDwvQXV0b2NvbXBsZXRlVmlld3BvcnQ+CiAgICAgIDwvQXV0b2NvbXBsZXRlQ29udGVudD4KICAgIDwvQXV0b2NvbXBsZXRlUG9ydGFsPgogIDwvQXV0b2NvbXBsZXRlUm9vdD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { ChevronDown, Check } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import {
+  AutocompleteAnchor,
+  AutocompleteContent,
+  AutocompleteEmpty,
+  AutocompleteGroup,
+  AutocompleteInput,
+  AutocompleteItem,
+  AutocompleteItemIndicator,
+  AutocompleteLabel,
+  AutocompletePortal,
+  AutocompleteRoot,
+  AutocompleteTrigger,
+  AutocompleteViewport,
+} from "reka-ui";
+import { advancedAuthRequestHeaderGroups } from "./advanced-auth-request-headers";
+
+const props = defineProps<{
+  id: string;
+  modelValue?: string;
+  disabled?: boolean;
+}>();
+
+const emit = defineEmits<{
+  "update:modelValue": [value: string];
+}>();
+
+const { t } = useI18n();
+
+const updateValue = (value: string) => emit("update:modelValue", value);
+</script>
+
+<template>
+  <AutocompleteRoot
+    :model-value="props.modelValue ?? ''"
+    :disabled="props.disabled"
+    open-on-focus
+    open-on-click
+    :reset-search-term-on-blur="false"
+    @update:model-value="updateValue"
+  >
+    <AutocompleteAnchor class="relative w-full">
+      <!--
+        Let Reka own the native input and composition events. Wrapping the
+        project Input here adds a second v-model that can drop rapid or IME
+        input while the suggestion list is filtering.
+      -->
+      <AutocompleteInput
+        :id="props.id"
+        data-slot="input"
+        class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input h-9 w-full min-w-0 rounded-md border bg-transparent py-1 pr-10 pl-3 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive"
+        :placeholder="t('admin.advancedAuth.headerNamePlaceholder')"
+        :disabled="props.disabled"
+        autocomplete="off"
+        autocapitalize="off"
+        autocorrect="off"
+        :spellcheck="false"
+        data-form-type="other"
+        data-1p-ignore="true"
+        data-lpignore="true"
+        data-bwignore="true"
+      />
+      <AutocompleteTrigger
+        class="absolute inset-y-0 right-0 flex w-10 items-center justify-center rounded-r-md text-muted-foreground outline-none transition-colors hover:text-foreground focus-visible:ring-ring/50 focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50"
+        :aria-label="t('admin.advancedAuth.openHeaderSuggestions')"
+      >
+        <ChevronDown class="h-4 w-4" />
+      </AutocompleteTrigger>
+    </AutocompleteAnchor>
+
+    <AutocompletePortal>
+      <AutocompleteContent
+        position="popper"
+        align="start"
+        :side-offset="4"
+        class="z-50 max-h-[min(20rem,var(--reka-combobox-content-available-height))] w-[var(--reka-combobox-trigger-width)] min-w-56 overflow-hidden rounded-md border bg-popover text-popover-foreground shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95"
+      >
+        <AutocompleteViewport
+          class="max-h-[min(20rem,var(--reka-combobox-content-available-height))] overflow-y-auto p-1"
+        >
+          <AutocompleteEmpty
+            class="px-3 py-6 text-center text-sm text-muted-foreground"
+          >
+            {{ t("admin.advancedAuth.customHeaderHint") }}
+          </AutocompleteEmpty>
+
+          <AutocompleteGroup
+            v-for="group in advancedAuthRequestHeaderGroups"
+            :key="group.id"
+          >
+            <AutocompleteLabel
+              class="px-2 py-1.5 text-xs font-medium text-muted-foreground"
+            >
+              {{ t(group.labelKey) }}
+            </AutocompleteLabel>
+            <AutocompleteItem
+              v-for="header in group.headers"
+              :key="header"
+              :value="header"
+              :text-value="header"
+              class="relative flex cursor-default select-none items-center rounded-sm py-1.5 pr-8 pl-2 text-sm outline-none data-[disabled]:pointer-events-none data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground data-[disabled]:opacity-50"
+            >
+              <span class="font-mono">{{ header }}</span>
+              <AutocompleteItemIndicator
+                class="absolute right-2 flex h-4 w-4 items-center justify-center"
+              >
+                <Check class="h-4 w-4" />
+              </AutocompleteItemIndicator>
+            </AutocompleteItem>
+          </AutocompleteGroup>
+        </AutocompleteViewport>
+      </AutocompleteContent>
+    </AutocompletePortal>
+  </AutocompleteRoot>
+</template>

@@ -1,1 +1,207 @@
-IyEvYmluL3NoCgpSVU5USU1FX1BPUlRfRklMRT0iIgoKaWYgWyAtbiAiJHtUUklNX1BLR1ZBUjotfSIgXTsgdGhlbgogICAgUlVOVElNRV9QT1JUX0ZJTEU9IiR7VFJJTV9QS0dWQVJ9L3J1bnRpbWUtcG9ydHMuZW52IgplbGlmIFsgLW4gIiR7Y2dpTmFtZTotfSIgXTsgdGhlbgogICAgUlVOVElNRV9QT1JUX0ZJTEU9Ii92YXIvYXBwcy8ke2NnaU5hbWV9L3Zhci9ydW50aW1lLXBvcnRzLmVudiIKZWxpZiBbIC1uICIke1NDUklQVF9GSUxFTkFNRTotfSIgXTsgdGhlbgogICAgY2FzZSAiJHtTQ1JJUFRfRklMRU5BTUV9IiBpbgogICAgICAgICovdGFyZ2V0L3VpL2luZGV4LmNnaSkKICAgICAgICAgICAgUlVOVElNRV9QT1JUX0ZJTEU9IiR7U0NSSVBUX0ZJTEVOQU1FJS90YXJnZXQvdWkvaW5kZXguY2dpfS92YXIvcnVudGltZS1wb3J0cy5lbnYiCiAgICAgICAgICAgIDs7CiAgICBlc2FjCmZpCgppZiBbIC1uICIke1JVTlRJTUVfUE9SVF9GSUxFfSIgXSAmJiBbIC1yICIke1JVTlRJTUVfUE9SVF9GSUxFfSIgXTsgdGhlbgogICAgLiAiJHtSVU5USU1FX1BPUlRfRklMRX0iCmZpCgpUQVJHRVRfSE9TVD0ke0FETUlOX1RBUkdFVF9IT1NUOi0iMTI3LjAuMC4xIn0KCmlmIFsgLW4gIiRBRE1JTl9UQVJHRVRfUE9SVCIgXTsgdGhlbgogICAgVEFSR0VUX1BPUlQ9IiRBRE1JTl9UQVJHRVRfUE9SVCIKZWxpZiBbIC1uICIkQkFDS0VORF9QT1JUIiBdOyB0aGVuCiAgICBUQVJHRVRfUE9SVD0iJEJBQ0tFTkRfUE9SVCIKZWxpZiBbIC1uICIkd2l6YXJkX2JhY2tlbmRfcG9ydCIgXTsgdGhlbgogICAgVEFSR0VUX1BPUlQ9IiR3aXphcmRfYmFja2VuZF9wb3J0IgplbGlmIFsgLW4gIiRBRE1JTl9WSUVXX1BPUlQiIF07IHRoZW4KICAgIFRBUkdFVF9QT1JUPSIkQURNSU5fVklFV19QT1JUIgplbGlmIFsgLW4gIiR3aXphcmRfYWRtaW5fdmlld19wb3J0IiBdOyB0aGVuCiAgICBUQVJHRVRfUE9SVD0iJHdpemFyZF9hZG1pbl92aWV3X3BvcnQiCmVsc2UKICAgIFRBUkdFVF9QT1JUPSI3OTk4IgpmaQoKVEFSR0VUX1NDSEVNRT0ke0FETUlOX1RBUkdFVF9TQ0hFTUU6LSJodHRwIn0KCmd1ZXNzX2NvbnRlbnRfdHlwZSgpIHsKICAgIGNhc2UgIiQxIiBpbgogICAgICAgICouanN8Ki5tanMpICAgICAgIHByaW50ZiAiQ29udGVudC1UeXBlOiB0ZXh0L2phdmFzY3JpcHQ7IGNoYXJzZXQ9dXRmLThcclxuIiA7OwogICAgICAgICouY3NzKSAgICAgICAgICAgIHByaW50ZiAiQ29udGVudC1UeXBlOiB0ZXh0L2NzczsgY2hhcnNldD11dGYtOFxyXG4iIDs7CiAgICAgICAgKi5odG1sfCIvInwqLyApICAgcHJpbnRmICJDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD11dGYtOFxyXG4iIDs7CiAgICAgICAgKi5qc29ufCoubWFwfC9hcGkvKikgcHJpbnRmICJDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb247IGNoYXJzZXQ9dXRmLThcclxuIiA7OwogICAgICAgICouc3ZnKSAgICAgICAgICAgIHByaW50ZiAiQ29udGVudC1UeXBlOiBpbWFnZS9zdmcreG1sXHJcbiIgOzsKICAgICAgICAqLnBuZykgICAgICAgICAgICBwcmludGYgIkNvbnRlbnQtVHlwZTogaW1hZ2UvcG5nXHJcbiIgOzsKICAgICAgICAqLmpwZ3wqLmpwZWcpICAgICBwcmludGYgIkNvbnRlbnQtVHlwZTogaW1hZ2UvanBlZ1xyXG4iIDs7CiAgICAgICAgKi5naWYpICAgICAgICAgICAgcHJpbnRmICJDb250ZW50LVR5cGU6IGltYWdlL2dpZlxyXG4iIDs7CiAgICAgICAgKi53ZWJwKSAgICAgICAgICAgcHJpbnRmICJDb250ZW50LVR5cGU6IGltYWdlL3dlYnBcclxuIiA7OwogICAgICAgICouaWNvKSAgICAgICAgICAgIHByaW50ZiAiQ29udGVudC1UeXBlOiBpbWFnZS94LWljb25cclxuIiA7OwogICAgICAgICoud2FzbSkgICAgICAgICAgIHByaW50ZiAiQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi93YXNtXHJcbiIgOzsKICAgICAgICAqKSAgICAgICAgICAgICAgICBwcmludGYgIkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtXHJcbiIgOzsKICAgIGVzYWMKfQoKZW1pdF91cHN0cmVhbV9oZWFkZXIoKSB7CiAgICBIRUFERVJfTkFNRT0iJDEiCiAgICBIRUFERVJfTElORT0kKGdyZXAgLWkgIl4ke0hFQURFUl9OQU1FfToiICIkSEVBREVSX0ZJTEUiIHwgdGFpbCAtMSB8IHRyIC1kICdccicpCiAgICBpZiBbIC1uICIkSEVBREVSX0xJTkUiIF07IHRoZW4KICAgICAgICBwcmludGYgIiVzXHJcbiIgIiRIRUFERVJfTElORSIKICAgIGZpCn0KCmlzX2h0bWxfcmVzcG9uc2UoKSB7CiAgICBjYXNlICIke1JFTF9QQVRIOi0vfSIgaW4KICAgICAgICAvfC9pbmRleC5odG1sKSByZXR1cm4gMCA7OwogICAgZXNhYwogICAgY2FzZSAiJHtDT05URU5UX1RZUEVfTElORTotfSIgaW4KICAgICAgICAqW1R0XVtFZV1bWHhdW1R0XS9bSGhdW1R0XVtNbV1bTGxdKikgcmV0dXJuIDAgOzsKICAgIGVzYWMKICAgIHJldHVybiAxCn0KCmVtaXRfdXBzdHJlYW1fY2FjaGVfaGVhZGVycygpIHsKICAgIGlmIGlzX2h0bWxfcmVzcG9uc2U7IHRoZW4KICAgICAgICAjIFRoZSBGUEsgcmVwbGFjZXMgZmluZ2VycHJpbnRlZCBhc3NldHMgZHVyaW5nIGFuIHVwZ3JhZGUuIE5ldmVyIGxldAogICAgICAgICMgYW4gSFRNTCBkb2N1bWVudCBvdXRsaXZlIHRoZSBhc3NldCBnZW5lcmF0aW9uIGl0IHJlZmVyZW5jZXMsCiAgICAgICAgIyBpbmNsdWRpbmcgU1BBIGZhbGxiYWNrcyBhbmQgYXV0aGVudGljYXRpb24gdmlld3MuCiAgICAgICAgcHJpbnRmICJDYWNoZS1Db250cm9sOiBwcml2YXRlLCBuby1zdG9yZSwgbm8tY2FjaGUsIG1heC1hZ2U9MCwgbXVzdC1yZXZhbGlkYXRlXHJcbiIKICAgICAgICBwcmludGYgIkNETi1DYWNoZS1Db250cm9sOiBuby1zdG9yZVxyXG4iCiAgICAgICAgcHJpbnRmICJTdXJyb2dhdGUtQ29udHJvbDogbm8tc3RvcmVcclxuIgogICAgICAgIHByaW50ZiAiUHJhZ21hOiBuby1jYWNoZVxyXG4iCiAgICAgICAgcHJpbnRmICJFeHBpcmVzOiAwXHJcbiIKICAgIGVsc2UKICAgICAgICBlbWl0X3Vwc3RyZWFtX2hlYWRlciAiQ2FjaGUtQ29udHJvbCIKICAgICAgICBlbWl0X3Vwc3RyZWFtX2hlYWRlciAiQ0ROLUNhY2hlLUNvbnRyb2wiCiAgICAgICAgZW1pdF91cHN0cmVhbV9oZWFkZXIgIlN1cnJvZ2F0ZS1Db250cm9sIgogICAgICAgIGVtaXRfdXBzdHJlYW1faGVhZGVyICJFeHBpcmVzIgogICAgICAgIGVtaXRfdXBzdHJlYW1faGVhZGVyICJQcmFnbWEiCiAgICBmaQogICAgZW1pdF91cHN0cmVhbV9oZWFkZXIgIkVUYWciCiAgICBlbWl0X3Vwc3RyZWFtX2hlYWRlciAiTGFzdC1Nb2RpZmllZCIKICAgIGVtaXRfdXBzdHJlYW1faGVhZGVyICJWYXJ5Igp9CgpSRVFfVVJJPSR7UkVRVUVTVF9VUkk6LSIifQpVUklfTk9fUVVFUlk9IiR7UkVRX1VSSSUlXD8qfSIKUVVFUllfU1RSSU5HPSR7UVVFUllfU1RSSU5HOi0iIn0KCmNhc2UgIiRVUklfTk9fUVVFUlkiIGluCiAgICAqL2luZGV4LmNnaSkKICAgICAgICBpZiBbIC1uICIkUVVFUllfU1RSSU5HIiBdOyB0aGVuCiAgICAgICAgICAgIExPQ0FUSU9OPSIke1VSSV9OT19RVUVSWX0vPyR7UVVFUllfU1RSSU5HfSIKICAgICAgICBlbHNlCiAgICAgICAgICAgIExPQ0FUSU9OPSIke1VSSV9OT19RVUVSWX0vIgogICAgICAgIGZpCiAgICAgICAgcHJpbnRmICJTdGF0dXM6IDMwMiBGb3VuZFxyXG4iCiAgICAgICAgcHJpbnRmICJMb2NhdGlvbjogJXNcclxuIiAiJExPQ0FUSU9OIgogICAgICAgIHByaW50ZiAiQ29udGVudC1UeXBlOiB0ZXh0L3BsYWluOyBjaGFyc2V0PXV0Zi04XHJcbiIKICAgICAgICBwcmludGYgIkNhY2hlLUNvbnRyb2w6IHByaXZhdGUsIG5vLXN0b3JlLCBuby1jYWNoZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGVcclxuIgogICAgICAgIHByaW50ZiAiUHJhZ21hOiBuby1jYWNoZVxyXG4iCiAgICAgICAgcHJpbnRmICJFeHBpcmVzOiAwXHJcblxyXG4iCiAgICAgICAgcHJpbnRmICJSZWRpcmVjdGluZ1xuIgogICAgICAgIGV4aXQgMAogICAgICAgIDs7CmVzYWMKCmNhc2UgIiRVUklfTk9fUVVFUlkiIGluCiAgICAqaW5kZXguY2dpKikgUkVMX1BBVEg9IiR7VVJJX05PX1FVRVJZIyppbmRleC5jZ2l9IiA7OwogICAgKikgICAgICAgICAgIFJFTF9QQVRIPSIkVVJJX05PX1FVRVJZIiA7Owplc2FjCgppZiBbIC16ICIkUkVMX1BBVEgiIF07IHRoZW4KICAgIFJFTF9QQVRIPSIvIgpmaQoKY2FzZSAiJFJFTF9QQVRIIiBpbgogICAgKi4uKikKICAgICAgICBwcmludGYgIlN0YXR1czogNDAwIEJhZCBSZXF1ZXN0XHJcbiIKICAgICAgICBwcmludGYgIkNvbnRlbnQtVHlwZTogdGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOFxyXG5cclxuIgogICAgICAgIHByaW50ZiAiQmFkIFJlcXVlc3RcbiIKICAgICAgICBleGl0IDEKICAgICAgICA7Owplc2FjCgpUQVJHRVRfVVJMPSIke1RBUkdFVF9TQ0hFTUV9Oi8vJHtUQVJHRVRfSE9TVH06JHtUQVJHRVRfUE9SVH0ke1JFTF9QQVRIfSIKaWYgWyAtbiAiJFFVRVJZX1NUUklORyIgXTsgdGhlbgogICAgVEFSR0VUX1VSTD0iJHtUQVJHRVRfVVJMfT8ke1FVRVJZX1NUUklOR30iCmZpCgpzZXQgLS0gLXMKClsgLW4gIiRIVFRQX1hfVElNRVNUQU1QIiBdICAgICAgJiYgc2V0IC0tICIkQCIgLUggIngtdGltZXN0YW1wOiAkSFRUUF9YX1RJTUVTVEFNUCIKWyAtbiAiJEhUVFBfWF9OT05DRSIgXSAgICAgICAgICAmJiBzZXQgLS0gIiRAIiAtSCAieC1ub25jZTogJEhUVFBfWF9OT05DRSIKWyAtbiAiJEhUVFBfWF9TSUdOQVRVUkUiIF0gICAgICAmJiBzZXQgLS0gIiRAIiAtSCAieC1zaWduYXR1cmU6ICRIVFRQX1hfU0lHTkFUVVJFIgpbIC1uICIkSFRUUF9YX1JFUVVFU1RFRF9XSVRIIiBdICYmIHNldCAtLSAiJEAiIC1IICJ4LXJlcXVlc3RlZC13aXRoOiAkSFRUUF9YX1JFUVVFU1RFRF9XSVRIIgpbIC1uICIkSFRUUF9BQ0NFUFQiIF0gICAgICAgICAgICYmIHNldCAtLSAiJEAiIC1IICJhY2NlcHQ6ICRIVFRQX0FDQ0VQVCIKIyBEbyBub3QgbmVnb3RpYXRlIGEgY29tcHJlc3NlZCByZXByZXNlbnRhdGlvbiBhY3Jvc3MgdGhlIGZuT1MgQ0dJIGJvdW5kYXJ5LgojIFNvbWUgZW1iZWRkZWQgQW5kcm9pZC9IdWF3ZWkgV2ViVmlld3MgY2FjaGUgYSBCcm90bGkgbW9kdWxlIHJlc3BvbnNlIHdpdGgKIyBpbmNvbnNpc3RlbnQgcmVwcmVzZW50YXRpb24gbWV0YWRhdGE6IHRoZSBmaXJzdCBsb2FkIHN1Y2NlZWRzLCB0aGVuIGxhdGVyCiMgbG9hZHMgZmFpbCBiZWZvcmUgdGhlIG1vZHVsZSBjYW4gZXhlY3V0ZS4gVGhlIGxvb3BiYWNrIGhvcCBpcyBsb2NhbCwgc28gc2VuZAojIHJhdyBieXRlcyBoZXJlIGFuZCBrZWVwIHByZWNvbXByZXNzZWQgYXNzZXRzIGF2YWlsYWJsZSB0byBkaXJlY3QgSFRUUCBjbGllbnRzLgpbIC1uICIkSFRUUF9BQ0NFUFRfTEFOR1VBR0UiIF0gICYmIHNldCAtLSAiJEAiIC1IICJhY2NlcHQtbGFuZ3VhZ2U6ICRIVFRQX0FDQ0VQVF9MQU5HVUFHRSIKWyAtbiAiJEhUVFBfVVNFUl9BR0VOVCIgXSAgICAgICAmJiBzZXQgLS0gIiRAIiAtSCAidXNlci1hZ2VudDogJEhUVFBfVVNFUl9BR0VOVCIKWyAtbiAiJEhUVFBfT1JJR0lOIiBdICAgICAgICAgICAmJiBzZXQgLS0gIiRAIiAtSCAib3JpZ2luOiAkSFRUUF9PUklHSU4iClsgLW4gIiRIVFRQX1JFRkVSRVIiIF0gICAgICAgICAgJiYgc2V0IC0tICIkQCIgLUggInJlZmVyZXI6ICRIVFRQX1JFRkVSRVIiCgoKTUVUSE9EPSR7UkVRVUVTVF9NRVRIT0Q6LSJHRVQifQpzZXQgLS0gIiRAIiAtWCAiJE1FVEhPRCIKCmNhc2UgIiRNRVRIT0QiIGluCiAgICBQT1NUfFBVVHxQQVRDSHxERUxFVEUpCiAgICAgICAgUkVRX0NPTlRFTlRfVFlQRT0ke0NPTlRFTlRfVFlQRTotImFwcGxpY2F0aW9uL2pzb24ifQogICAgICAgIHNldCAtLSAiJEAiIC1IICJDb250ZW50LVR5cGU6ICRSRVFfQ09OVEVOVF9UWVBFIgogICAgICAgIHNldCAtLSAiJEAiIC0tZGF0YS1iaW5hcnkgQC0gCiAgICAgICAgOzsKZXNhYwoKSEVBREVSX0ZJTEU9JChta3RlbXApCkJPRFlfRklMRT0kKG1rdGVtcCkKCnRyYXAgJ3JtIC1mICIkSEVBREVSX0ZJTEUiICIkQk9EWV9GSUxFIicgRVhJVAoKY3VybCAiJEAiIC1EICIkSEVBREVSX0ZJTEUiIC1vICIkQk9EWV9GSUxFIiAiJFRBUkdFVF9VUkwiID4vZGV2L251bGwgMj4mMQpDVVJMX0VYSVQ9JD8KCmlmIFsgJENVUkxfRVhJVCAtbmUgMCBdOyB0aGVuCiAgICBwcmludGYgIlN0YXR1czogNTAyIEJhZCBHYXRld2F5XHJcbiIKICAgIHByaW50ZiAiQ29udGVudC1UeXBlOiB0ZXh0L3BsYWluOyBjaGFyc2V0PXV0Zi04XHJcbiIKICAgIHByaW50ZiAiQ2FjaGUtQ29udHJvbDogbm8tc3RvcmVcclxuXHJcbiIKICAgIHByaW50ZiAi6L+e5o6l5ZCO56uv5aSx6LSl44CC5Y+v6IO95pivIGZuLWtub2NrIOeoi+W6j+acquWQr+WKqO+8jOivt+WwneivlemHjeWQr+ivpeW6lOeUqOOAglxuIgogICAgZXhpdCAwCmZpCgpTVEFUVVNfTElORT0kKGdyZXAgJ15IVFRQLycgIiRIRUFERVJfRklMRSIgfCB0YWlsIC0xIHwgdHIgLWQgJ1xyJykKU1RBVFVTX0NPREU9JChlY2hvICIkU1RBVFVTX0xJTkUiIHwgYXdrICd7cHJpbnQgJDJ9JykKU1RBVFVTX1RFWFQ9JChlY2hvICIkU1RBVFVTX0xJTkUiIHwgYXdrICd7JDE9IiI7ICQyPSIiOyBzdWIoIl5bIFx0XSsiLCAiIik7IHByaW50fScpCgppZiBbICIkU1RBVFVTX0NPREUiICE9ICIyMDAiIF0gJiYgWyAtbiAiJFNUQVRVU19DT0RFIiBdOyB0aGVuCiAgICBwcmludGYgIlN0YXR1czogJXMgJXNcclxuIiAiJFNUQVRVU19DT0RFIiAiJFNUQVRVU19URVhUIgpmaQoKQ09OVEVOVF9UWVBFX0xJTkU9JChncmVwIC1pICdeY29udGVudC10eXBlOicgIiRIRUFERVJfRklMRSIgfCB0YWlsIC0xIHwgdHIgLWQgJ1xyJykKCmlmIFsgLW4gIiRDT05URU5UX1RZUEVfTElORSIgXTsgdGhlbgogICAgcHJpbnRmICIlc1xyXG4iICIkQ09OVEVOVF9UWVBFX0xJTkUiCmVsc2UKICAgIGd1ZXNzX2NvbnRlbnRfdHlwZSAiJFJFTF9QQVRIIgpmaQoKZW1pdF91cHN0cmVhbV9jYWNoZV9oZWFkZXJzCmVtaXRfdXBzdHJlYW1faGVhZGVyICJDb250ZW50LUxlbmd0aCIKZW1pdF91cHN0cmVhbV9oZWFkZXIgIkNvbnRlbnQtRGlzcG9zaXRpb24iCmVtaXRfdXBzdHJlYW1faGVhZGVyICJYLUNvbnRlbnQtVHlwZS1PcHRpb25zIgpwcmludGYgIlxyXG4iCmNhdCAiJEJPRFlfRklMRSIK
+#!/bin/sh
+
+RUNTIME_PORT_FILE=""
+
+if [ -n "${TRIM_PKGVAR:-}" ]; then
+    RUNTIME_PORT_FILE="${TRIM_PKGVAR}/runtime-ports.env"
+elif [ -n "${cgiName:-}" ]; then
+    RUNTIME_PORT_FILE="/var/apps/${cgiName}/var/runtime-ports.env"
+elif [ -n "${SCRIPT_FILENAME:-}" ]; then
+    case "${SCRIPT_FILENAME}" in
+        */target/ui/index.cgi)
+            RUNTIME_PORT_FILE="${SCRIPT_FILENAME%/target/ui/index.cgi}/var/runtime-ports.env"
+            ;;
+    esac
+fi
+
+if [ -n "${RUNTIME_PORT_FILE}" ] && [ -r "${RUNTIME_PORT_FILE}" ]; then
+    . "${RUNTIME_PORT_FILE}"
+fi
+
+TARGET_HOST=${ADMIN_TARGET_HOST:-"127.0.0.1"}
+
+if [ -n "$ADMIN_TARGET_PORT" ]; then
+    TARGET_PORT="$ADMIN_TARGET_PORT"
+elif [ -n "$BACKEND_PORT" ]; then
+    TARGET_PORT="$BACKEND_PORT"
+elif [ -n "$wizard_backend_port" ]; then
+    TARGET_PORT="$wizard_backend_port"
+elif [ -n "$ADMIN_VIEW_PORT" ]; then
+    TARGET_PORT="$ADMIN_VIEW_PORT"
+elif [ -n "$wizard_admin_view_port" ]; then
+    TARGET_PORT="$wizard_admin_view_port"
+else
+    TARGET_PORT="7998"
+fi
+
+TARGET_SCHEME=${ADMIN_TARGET_SCHEME:-"http"}
+
+guess_content_type() {
+    case "$1" in
+        *.js|*.mjs)       printf "Content-Type: text/javascript; charset=utf-8\r\n" ;;
+        *.css)            printf "Content-Type: text/css; charset=utf-8\r\n" ;;
+        *.html|"/"|*/ )   printf "Content-Type: text/html; charset=utf-8\r\n" ;;
+        *.json|*.map|/api/*) printf "Content-Type: application/json; charset=utf-8\r\n" ;;
+        *.svg)            printf "Content-Type: image/svg+xml\r\n" ;;
+        *.png)            printf "Content-Type: image/png\r\n" ;;
+        *.jpg|*.jpeg)     printf "Content-Type: image/jpeg\r\n" ;;
+        *.gif)            printf "Content-Type: image/gif\r\n" ;;
+        *.webp)           printf "Content-Type: image/webp\r\n" ;;
+        *.ico)            printf "Content-Type: image/x-icon\r\n" ;;
+        *.wasm)           printf "Content-Type: application/wasm\r\n" ;;
+        *)                printf "Content-Type: application/octet-stream\r\n" ;;
+    esac
+}
+
+emit_upstream_header() {
+    HEADER_NAME="$1"
+    HEADER_LINE=$(grep -i "^${HEADER_NAME}:" "$HEADER_FILE" | tail -1 | tr -d '\r')
+    if [ -n "$HEADER_LINE" ]; then
+        printf "%s\r\n" "$HEADER_LINE"
+    fi
+}
+
+is_html_response() {
+    case "${REL_PATH:-/}" in
+        /|/index.html) return 0 ;;
+    esac
+    case "${CONTENT_TYPE_LINE:-}" in
+        *[Tt][Ee][Xx][Tt]/[Hh][Tt][Mm][Ll]*) return 0 ;;
+    esac
+    return 1
+}
+
+emit_upstream_cache_headers() {
+    if is_html_response; then
+        # The FPK replaces fingerprinted assets during an upgrade. Never let
+        # an HTML document outlive the asset generation it references,
+        # including SPA fallbacks and authentication views.
+        printf "Cache-Control: private, no-store, no-cache, max-age=0, must-revalidate\r\n"
+        printf "CDN-Cache-Control: no-store\r\n"
+        printf "Surrogate-Control: no-store\r\n"
+        printf "Pragma: no-cache\r\n"
+        printf "Expires: 0\r\n"
+    else
+        emit_upstream_header "Cache-Control"
+        emit_upstream_header "CDN-Cache-Control"
+        emit_upstream_header "Surrogate-Control"
+        emit_upstream_header "Expires"
+        emit_upstream_header "Pragma"
+    fi
+    emit_upstream_header "ETag"
+    emit_upstream_header "Last-Modified"
+    emit_upstream_header "Vary"
+}
+
+REQ_URI=${REQUEST_URI:-""}
+URI_NO_QUERY="${REQ_URI%%\?*}"
+QUERY_STRING=${QUERY_STRING:-""}
+
+case "$URI_NO_QUERY" in
+    */index.cgi)
+        if [ -n "$QUERY_STRING" ]; then
+            LOCATION="${URI_NO_QUERY}/?${QUERY_STRING}"
+        else
+            LOCATION="${URI_NO_QUERY}/"
+        fi
+        printf "Status: 302 Found\r\n"
+        printf "Location: %s\r\n" "$LOCATION"
+        printf "Content-Type: text/plain; charset=utf-8\r\n"
+        printf "Cache-Control: private, no-store, no-cache, max-age=0, must-revalidate\r\n"
+        printf "Pragma: no-cache\r\n"
+        printf "Expires: 0\r\n\r\n"
+        printf "Redirecting\n"
+        exit 0
+        ;;
+esac
+
+case "$URI_NO_QUERY" in
+    *index.cgi*) REL_PATH="${URI_NO_QUERY#*index.cgi}" ;;
+    *)           REL_PATH="$URI_NO_QUERY" ;;
+esac
+
+if [ -z "$REL_PATH" ]; then
+    REL_PATH="/"
+fi
+
+case "$REL_PATH" in
+    *..*)
+        printf "Status: 400 Bad Request\r\n"
+        printf "Content-Type: text/plain; charset=utf-8\r\n\r\n"
+        printf "Bad Request\n"
+        exit 1
+        ;;
+esac
+
+TARGET_URL="${TARGET_SCHEME}://${TARGET_HOST}:${TARGET_PORT}${REL_PATH}"
+if [ -n "$QUERY_STRING" ]; then
+    TARGET_URL="${TARGET_URL}?${QUERY_STRING}"
+fi
+
+set -- -s
+
+[ -n "$HTTP_X_TIMESTAMP" ]      && set -- "$@" -H "x-timestamp: $HTTP_X_TIMESTAMP"
+[ -n "$HTTP_X_NONCE" ]          && set -- "$@" -H "x-nonce: $HTTP_X_NONCE"
+[ -n "$HTTP_X_SIGNATURE" ]      && set -- "$@" -H "x-signature: $HTTP_X_SIGNATURE"
+[ -n "$HTTP_X_REQUESTED_WITH" ] && set -- "$@" -H "x-requested-with: $HTTP_X_REQUESTED_WITH"
+[ -n "$HTTP_ACCEPT" ]           && set -- "$@" -H "accept: $HTTP_ACCEPT"
+# Do not negotiate a compressed representation across the fnOS CGI boundary.
+# Some embedded Android/Huawei WebViews cache a Brotli module response with
+# inconsistent representation metadata: the first load succeeds, then later
+# loads fail before the module can execute. The loopback hop is local, so send
+# raw bytes here and keep precompressed assets available to direct HTTP clients.
+[ -n "$HTTP_ACCEPT_LANGUAGE" ]  && set -- "$@" -H "accept-language: $HTTP_ACCEPT_LANGUAGE"
+[ -n "$HTTP_USER_AGENT" ]       && set -- "$@" -H "user-agent: $HTTP_USER_AGENT"
+[ -n "$HTTP_ORIGIN" ]           && set -- "$@" -H "origin: $HTTP_ORIGIN"
+[ -n "$HTTP_REFERER" ]          && set -- "$@" -H "referer: $HTTP_REFERER"
+
+
+METHOD=${REQUEST_METHOD:-"GET"}
+set -- "$@" -X "$METHOD"
+
+case "$METHOD" in
+    POST|PUT|PATCH|DELETE)
+        REQ_CONTENT_TYPE=${CONTENT_TYPE:-"application/json"}
+        set -- "$@" -H "Content-Type: $REQ_CONTENT_TYPE"
+        set -- "$@" --data-binary @- 
+        ;;
+esac
+
+HEADER_FILE=$(mktemp)
+BODY_FILE=$(mktemp)
+
+trap 'rm -f "$HEADER_FILE" "$BODY_FILE"' EXIT
+
+curl "$@" -D "$HEADER_FILE" -o "$BODY_FILE" "$TARGET_URL" >/dev/null 2>&1
+CURL_EXIT=$?
+
+if [ $CURL_EXIT -ne 0 ]; then
+    printf "Status: 502 Bad Gateway\r\n"
+    printf "Content-Type: text/plain; charset=utf-8\r\n"
+    printf "Cache-Control: no-store\r\n\r\n"
+    printf "连接后端失败。可能是 fn-knock 程序未启动，请尝试重启该应用。\n"
+    exit 0
+fi
+
+STATUS_LINE=$(grep '^HTTP/' "$HEADER_FILE" | tail -1 | tr -d '\r')
+STATUS_CODE=$(echo "$STATUS_LINE" | awk '{print $2}')
+STATUS_TEXT=$(echo "$STATUS_LINE" | awk '{$1=""; $2=""; sub("^[ \t]+", ""); print}')
+
+if [ "$STATUS_CODE" != "200" ] && [ -n "$STATUS_CODE" ]; then
+    printf "Status: %s %s\r\n" "$STATUS_CODE" "$STATUS_TEXT"
+fi
+
+CONTENT_TYPE_LINE=$(grep -i '^content-type:' "$HEADER_FILE" | tail -1 | tr -d '\r')
+
+if [ -n "$CONTENT_TYPE_LINE" ]; then
+    printf "%s\r\n" "$CONTENT_TYPE_LINE"
+else
+    guess_content_type "$REL_PATH"
+fi
+
+emit_upstream_cache_headers
+emit_upstream_header "Content-Length"
+emit_upstream_header "Content-Disposition"
+emit_upstream_header "X-Content-Type-Options"
+printf "\r\n"
+cat "$BODY_FILE"

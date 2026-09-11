@@ -1,1 +1,236 @@
-ZXhwb3J0IGNvbnN0IHBlcmNlbnRpbGUgPSAodmFsdWVzLCBwZXJjZW50aWxlVmFsdWUpID0+IHsKICBpZiAoIUFycmF5LmlzQXJyYXkodmFsdWVzKSB8fCB2YWx1ZXMubGVuZ3RoID09PSAwKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoImNhbm5vdCBjYWxjdWxhdGUgYSBwZXJjZW50aWxlIHdpdGhvdXQgc2FtcGxlcyIpOwogIH0KICBpZiAoIShwZXJjZW50aWxlVmFsdWUgPiAwICYmIHBlcmNlbnRpbGVWYWx1ZSA8PSAxKSkgewogICAgdGhyb3cgbmV3IEVycm9yKCJwZXJjZW50aWxlIG11c3QgYmUgZ3JlYXRlciB0aGFuIDAgYW5kIG5vIGdyZWF0ZXIgdGhhbiAxIik7CiAgfQogIGlmICghdmFsdWVzLmV2ZXJ5KCh2YWx1ZSkgPT4gTnVtYmVyLmlzRmluaXRlKHZhbHVlKSAmJiB2YWx1ZSA+PSAwKSkgewogICAgdGhyb3cgbmV3IEVycm9yKAogICAgICAicnVudGltZSBwZXJmb3JtYW5jZSBzYW1wbGVzIG11c3QgYmUgZmluaXRlIG5vbi1uZWdhdGl2ZSBudW1iZXJzIiwKICAgICk7CiAgfQogIGNvbnN0IHNvcnRlZCA9IFsuLi52YWx1ZXNdLnNvcnQoKGxlZnQsIHJpZ2h0KSA9PiBsZWZ0IC0gcmlnaHQpOwogIHJldHVybiBzb3J0ZWRbTWF0aC5jZWlsKHNvcnRlZC5sZW5ndGggKiBwZXJjZW50aWxlVmFsdWUpIC0gMV07Cn07Cgpjb25zdCBub25OdWxsVmFsdWVzID0gKHNhbXBsZXMsIGZpZWxkKSA9PgogIHNhbXBsZXMKICAgIC5tYXAoKHNhbXBsZSkgPT4gc2FtcGxlW2ZpZWxkXSkKICAgIC5maWx0ZXIoKHZhbHVlKSA9PiB0eXBlb2YgdmFsdWUgPT09ICJudW1iZXIiICYmIE51bWJlci5pc0Zpbml0ZSh2YWx1ZSkpOwoKY29uc3QgY2hlY2twb2ludFZhbHVlcyA9IChzYW1wbGVzLCBjaGVja3BvaW50LCBmaWVsZCkgPT4KICBzYW1wbGVzCiAgICAubWFwKChzYW1wbGUpID0+IHNhbXBsZS5jaGVja3BvaW50cz8uW2NoZWNrcG9pbnRdPy5bZmllbGRdKQogICAgLmZpbHRlcigodmFsdWUpID0+IHR5cGVvZiB2YWx1ZSA9PT0gIm51bWJlciIgJiYgTnVtYmVyLmlzRmluaXRlKHZhbHVlKSk7Cgpjb25zdCBsb2FkVmFsdWVzID0gKHNhbXBsZXMsIG5hbWUsIGZpZWxkKSA9PgogIHNhbXBsZXMKICAgIC5mbGF0TWFwKChzYW1wbGUpID0+IHNhbXBsZS5sb2FkcyA/PyBbXSkKICAgIC5maWx0ZXIoKGxvYWQpID0+IGxvYWQubmFtZSA9PT0gbmFtZSkKICAgIC5tYXAoKGxvYWQpID0+IGxvYWRbZmllbGRdKQogICAgLmZpbHRlcigodmFsdWUpID0+IHR5cGVvZiB2YWx1ZSA9PT0gIm51bWJlciIgJiYgTnVtYmVyLmlzRmluaXRlKHZhbHVlKSk7CgpleHBvcnQgY29uc3Qgc3VtbWFyaXplUnVudGltZVNhbXBsZXMgPSAoc2FtcGxlcykgPT4gewogIGlmICghQXJyYXkuaXNBcnJheShzYW1wbGVzKSB8fCBzYW1wbGVzLmxlbmd0aCA9PT0gMCkgewogICAgdGhyb3cgbmV3IEVycm9yKCJydW50aW1lIHBlcmZvcm1hbmNlIHJlcXVpcmVzIGF0IGxlYXN0IG9uZSBzYW1wbGUiKTsKICB9CiAgY29uc3QgcmVhZGluZXNzID0gbm9uTnVsbFZhbHVlcyhzYW1wbGVzLCAicmVhZGluZXNzX21zIik7CiAgaWYgKHJlYWRpbmVzcy5sZW5ndGggIT09IHNhbXBsZXMubGVuZ3RoKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICJldmVyeSBydW50aW1lIHBlcmZvcm1hbmNlIHNhbXBsZSBtdXN0IGNvbnRhaW4gcmVhZGluZXNzX21zIiwKICAgICk7CiAgfQogIGNvbnN0IGlzVjIgPSBzYW1wbGVzLmV2ZXJ5KChzYW1wbGUpID0+IHNhbXBsZS5jaGVja3BvaW50cz8uc3RhYmxlXzEwcyk7CiAgY29uc3QgbWFuYWdlbWVudFJTUyA9IGlzVjIKICAgID8gY2hlY2twb2ludFZhbHVlcyhzYW1wbGVzLCAic3RhYmxlXzEwcyIsICJtYW5hZ2VtZW50X3Jzc19ieXRlcyIpCiAgICA6IG5vbk51bGxWYWx1ZXMoc2FtcGxlcywgIm1hbmFnZW1lbnRfcnNzX2J5dGVzIik7CiAgaWYgKG1hbmFnZW1lbnRSU1MubGVuZ3RoICE9PSBzYW1wbGVzLmxlbmd0aCkgewogICAgdGhyb3cgbmV3IEVycm9yKAogICAgICAiZXZlcnkgcnVudGltZSBwZXJmb3JtYW5jZSBzYW1wbGUgbXVzdCBjb250YWluIHN0YWJsZSBtYW5hZ2VtZW50IFJTUyIsCiAgICApOwogIH0KICBjb25zdCBnYXRld2F5UlNTID0gaXNWMgogICAgPyBjaGVja3BvaW50VmFsdWVzKHNhbXBsZXMsICJzdGFibGVfMTBzIiwgImdhdGV3YXlfcnNzX2J5dGVzIikKICAgIDogbm9uTnVsbFZhbHVlcyhzYW1wbGVzLCAiZ2F0ZXdheV9yc3NfYnl0ZXMiKTsKICBjb25zdCBsb2FkUGVha1JTUyA9IGNoZWNrcG9pbnRWYWx1ZXMoCiAgICBzYW1wbGVzLAogICAgImxvYWRfcGVhayIsCiAgICAiZ2F0ZXdheV9yc3NfYnl0ZXMiLAogICk7CiAgY29uc3QgcG9zdExvYWRSU1MgPSBjaGVja3BvaW50VmFsdWVzKAogICAgc2FtcGxlcywKICAgICJwb3N0X2xvYWRfMzBzIiwKICAgICJnYXRld2F5X3Jzc19ieXRlcyIsCiAgKTsKICBjb25zdCBwb3N0UmVjbGFpbVJTUyA9IGNoZWNrcG9pbnRWYWx1ZXMoCiAgICBzYW1wbGVzLAogICAgInBvc3RfcmVjbGFpbSIsCiAgICAiZ2F0ZXdheV9yc3NfYnl0ZXMiLAogICk7CiAgY29uc3QgcHJveHlUaHJvdWdocHV0ID0gbG9hZFZhbHVlcygKICAgIHNhbXBsZXMsCiAgICAicHJveHlfMm1pYiIsCiAgICAicmVxdWVzdHNfcGVyX3NlY29uZCIsCiAgKTsKICBjb25zdCBtYW5hZ2VtZW50VGhyb3VnaHB1dCA9IGxvYWRWYWx1ZXMoCiAgICBzYW1wbGVzLAogICAgIm1hbmFnZW1lbnRfbG9jYWxlIiwKICAgICJyZXF1ZXN0c19wZXJfc2Vjb25kIiwKICApOwogIGNvbnN0IG1hbmFnZW1lbnRMb2FkUlNTID0gY2hlY2twb2ludFZhbHVlcygKICAgIHNhbXBsZXMsCiAgICAibG9hZF9wZWFrIiwKICAgICJtYW5hZ2VtZW50X3Jzc19ieXRlcyIsCiAgKTsKICBjb25zdCBtYW5hZ2VtZW50UmV0YWluZWRSU1MgPSBjaGVja3BvaW50VmFsdWVzKAogICAgc2FtcGxlcywKICAgICJwb3N0X2xvYWRfMzBzIiwKICAgICJtYW5hZ2VtZW50X3Jzc19ieXRlcyIsCiAgKTsKICBjb25zdCBtYW5hZ2VtZW50UmVjbGFpbWVkUlNTID0gY2hlY2twb2ludFZhbHVlcygKICAgIHNhbXBsZXMsCiAgICAicG9zdF9yZWNsYWltIiwKICAgICJtYW5hZ2VtZW50X3Jzc19ieXRlcyIsCiAgKTsKICAvLyBMaW51eCByZXRhaW5zIFZtSFdNIGFmdGVyIGEgc2hvcnQgYWxsb2NhdGlvbiBidXJzdCBoYXMgYWxyZWFkeSBlbmRlZC4KICAvLyBLZWVwIGl0IHNlcGFyYXRlIGZyb20gcGVyLWxvYWQgUlNTOiBpdCBpbmNsdWRlcyBwcm9jZXNzIHN0YXJ0dXAgYXMgd2VsbC4KICBjb25zdCBtYW5hZ2VtZW50TGlmZXRpbWVSU1MgPSBzYW1wbGVzCiAgICAubWFwKChzYW1wbGUpID0+CiAgICAgIE1hdGgubWF4KAogICAgICAgIC4uLk9iamVjdC52YWx1ZXMoc2FtcGxlLmNoZWNrcG9pbnRzID8/IHt9KQogICAgICAgICAgLm1hcCgoY2hlY2twb2ludCkgPT4gY2hlY2twb2ludC5tYW5hZ2VtZW50X3BlYWtfcnNzX2J5dGVzKQogICAgICAgICAgLmZpbHRlcigKICAgICAgICAgICAgKHZhbHVlKSA9PiB0eXBlb2YgdmFsdWUgPT09ICJudW1iZXIiICYmIE51bWJlci5pc0Zpbml0ZSh2YWx1ZSksCiAgICAgICAgICApLAogICAgICApLAogICAgKQogICAgLmZpbHRlcihOdW1iZXIuaXNGaW5pdGUpOwogIHJldHVybiB7CiAgICByZWFkaW5lc3NfcDk1X21zOiBwZXJjZW50aWxlKHJlYWRpbmVzcywgMC45NSksCiAgICBtYW5hZ2VtZW50X3Jzc19wOTVfYnl0ZXM6IHBlcmNlbnRpbGUobWFuYWdlbWVudFJTUywgMC45NSksCiAgICBtYW5hZ2VtZW50X2xpZmV0aW1lX3BlYWtfcnNzX3A5NV9ieXRlczoKICAgICAgbWFuYWdlbWVudExpZmV0aW1lUlNTLmxlbmd0aCA+IDAKICAgICAgICA/IHBlcmNlbnRpbGUobWFuYWdlbWVudExpZmV0aW1lUlNTLCAwLjk1KQogICAgICAgIDogbnVsbCwKICAgIG1hbmFnZW1lbnRfbG9hZF9wZWFrX3Jzc19wOTVfYnl0ZXM6CiAgICAgIG1hbmFnZW1lbnRMb2FkUlNTLmxlbmd0aCA+IDAgPyBwZXJjZW50aWxlKG1hbmFnZW1lbnRMb2FkUlNTLCAwLjk1KSA6IG51bGwsCiAgICBtYW5hZ2VtZW50X3Bvc3RfbG9hZF9yc3NfcDk1X2J5dGVzOgogICAgICBtYW5hZ2VtZW50UmV0YWluZWRSU1MubGVuZ3RoID4gMAogICAgICAgID8gcGVyY2VudGlsZShtYW5hZ2VtZW50UmV0YWluZWRSU1MsIDAuOTUpCiAgICAgICAgOiBudWxsLAogICAgbWFuYWdlbWVudF9wb3N0X3JlY2xhaW1fcnNzX3A5NV9ieXRlczoKICAgICAgbWFuYWdlbWVudFJlY2xhaW1lZFJTUy5sZW5ndGggPiAwCiAgICAgICAgPyBwZXJjZW50aWxlKG1hbmFnZW1lbnRSZWNsYWltZWRSU1MsIDAuOTUpCiAgICAgICAgOiBudWxsLAogICAgbWFuYWdlbWVudF9sb2NhbGVfcnBzX3A1MDoKICAgICAgbWFuYWdlbWVudFRocm91Z2hwdXQubGVuZ3RoID4gMAogICAgICAgID8gcGVyY2VudGlsZShtYW5hZ2VtZW50VGhyb3VnaHB1dCwgMC41KQogICAgICAgIDogbnVsbCwKICAgIGdhdGV3YXlfcnNzX3A5NV9ieXRlczoKICAgICAgZ2F0ZXdheVJTUy5sZW5ndGggPT09IHNhbXBsZXMubGVuZ3RoCiAgICAgICAgPyBwZXJjZW50aWxlKGdhdGV3YXlSU1MsIDAuOTUpCiAgICAgICAgOiBudWxsLAogICAgZ2F0ZXdheV9sb2FkX3BlYWtfcnNzX3A5NV9ieXRlczoKICAgICAgbG9hZFBlYWtSU1MubGVuZ3RoID4gMCA/IHBlcmNlbnRpbGUobG9hZFBlYWtSU1MsIDAuOTUpIDogbnVsbCwKICAgIGdhdGV3YXlfcG9zdF9sb2FkX3Jzc19wOTVfYnl0ZXM6CiAgICAgIHBvc3RMb2FkUlNTLmxlbmd0aCA+IDAgPyBwZXJjZW50aWxlKHBvc3RMb2FkUlNTLCAwLjk1KSA6IG51bGwsCiAgICBnYXRld2F5X3Bvc3RfcmVjbGFpbV9yc3NfcDk1X2J5dGVzOgogICAgICBwb3N0UmVjbGFpbVJTUy5sZW5ndGggPiAwID8gcGVyY2VudGlsZShwb3N0UmVjbGFpbVJTUywgMC45NSkgOiBudWxsLAogICAgcHJveHlfMm1pYl9ycHNfcDUwOgogICAgICBwcm94eVRocm91Z2hwdXQubGVuZ3RoID4gMCA/IHBlcmNlbnRpbGUocHJveHlUaHJvdWdocHV0LCAwLjUpIDogbnVsbCwKICB9Owp9OwoKZXhwb3J0IGNvbnN0IGNvbXBhcmVSdW50aW1lU3VtbWFyaWVzID0gKGJhc2UsIGN1cnJlbnQsIG9wdGlvbnMgPSB7fSkgPT4gewogIGNvbnN0IHRvbGVyYW5jZXMgPSB7CiAgICByZWFkaW5lc3M6IDAuMSwKICAgIHJzczogMC4wNSwKICAgIHRocm91Z2hwdXQ6IDAuMDUsCiAgICAvLyBPcmRpbmFyeSBQUnMgbXVzdCBhdm9pZCByZWdyZXNzaW9uczsgYW4gaW1wcm92ZW1lbnQgdGFyZ2V0IGlzIG9wdC1pbi4KICAgIGxvYWRSc3NJbXByb3ZlbWVudDogMCwKICAgIC4uLm9wdGlvbnMsCiAgfTsKICBjb25zdCByZXF1aXJlZCA9IG5ldyBTZXQoWyJyZWFkaW5lc3NfcDk1X21zIiwgIm1hbmFnZW1lbnRfcnNzX3A5NV9ieXRlcyJdKTsKICBjb25zdCBnYXRld2F5TG9hZFJzc0ZpZWxkcyA9IFsKICAgICJnYXRld2F5X2xvYWRfcGVha19yc3NfcDk1X2J5dGVzIiwKICAgICJnYXRld2F5X3Bvc3RfbG9hZF9yc3NfcDk1X2J5dGVzIiwKICAgICJnYXRld2F5X3Bvc3RfcmVjbGFpbV9yc3NfcDk1X2J5dGVzIiwKICBdOwogIGNvbnN0IGNoZWNrcyA9IFsKICAgIFsicmVhZGluZXNzX3A5NV9tcyIsIHRvbGVyYW5jZXMucmVhZGluZXNzXSwKICAgIFsibWFuYWdlbWVudF9yc3NfcDk1X2J5dGVzIiwgdG9sZXJhbmNlcy5yc3NdLAogICAgWyJtYW5hZ2VtZW50X2xpZmV0aW1lX3BlYWtfcnNzX3A5NV9ieXRlcyIsIHRvbGVyYW5jZXMucnNzXSwKICAgIFsibWFuYWdlbWVudF9sb2FkX3BlYWtfcnNzX3A5NV9ieXRlcyIsIHRvbGVyYW5jZXMucnNzXSwKICAgIFsibWFuYWdlbWVudF9wb3N0X2xvYWRfcnNzX3A5NV9ieXRlcyIsIHRvbGVyYW5jZXMucnNzXSwKICAgIFsibWFuYWdlbWVudF9wb3N0X3JlY2xhaW1fcnNzX3A5NV9ieXRlcyIsIHRvbGVyYW5jZXMucnNzXSwKICAgIFsibWFuYWdlbWVudF9sb2NhbGVfcnBzX3A1MCIsIHRvbGVyYW5jZXMudGhyb3VnaHB1dCwgIm1pbmltdW0iXSwKICAgIFsiZ2F0ZXdheV9yc3NfcDk1X2J5dGVzIiwgdG9sZXJhbmNlcy5yc3NdLAogICAgLi4uZ2F0ZXdheUxvYWRSc3NGaWVsZHMubWFwKChmaWVsZCkgPT4gW2ZpZWxkLCB0b2xlcmFuY2VzLnJzc10pLAogICAgWyJwcm94eV8ybWliX3Jwc19wNTAiLCB0b2xlcmFuY2VzLnRocm91Z2hwdXQsICJtaW5pbXVtIl0sCiAgXTsKICBjb25zdCBmYWlsdXJlcyA9IFtdOwogIGNvbnN0IHZhbGlkSW1wcm92ZW1lbnQgPQogICAgTnVtYmVyLmlzRmluaXRlKHRvbGVyYW5jZXMubG9hZFJzc0ltcHJvdmVtZW50KSAmJgogICAgdG9sZXJhbmNlcy5sb2FkUnNzSW1wcm92ZW1lbnQgPj0gMCAmJgogICAgdG9sZXJhbmNlcy5sb2FkUnNzSW1wcm92ZW1lbnQgPD0gMTsKICBpZiAoIXZhbGlkSW1wcm92ZW1lbnQpIHsKICAgIGZhaWx1cmVzLnB1c2goImxvYWQgUlNTIGhhcyBhbiBpbnZhbGlkIGltcHJvdmVtZW50IHJlcXVpcmVtZW50Iik7CiAgfQogIGZvciAoY29uc3QgW2ZpZWxkLCB0b2xlcmFuY2UsIGRpcmVjdGlvbiA9ICJtYXhpbXVtIl0gb2YgY2hlY2tzKSB7CiAgICBjb25zdCBiYXNlVmFsdWUgPSBiYXNlW2ZpZWxkXTsKICAgIGNvbnN0IGN1cnJlbnRWYWx1ZSA9IGN1cnJlbnRbZmllbGRdOwogICAgaWYgKGJhc2VWYWx1ZSA9PSBudWxsICYmIGN1cnJlbnRWYWx1ZSA9PSBudWxsICYmICFyZXF1aXJlZC5oYXMoZmllbGQpKQogICAgICBjb250aW51ZTsKICAgIGlmICghKE51bWJlci5pc0Zpbml0ZShiYXNlVmFsdWUpICYmIGJhc2VWYWx1ZSA+PSAwKSkgewogICAgICBmYWlsdXJlcy5wdXNoKGAke2ZpZWxkfSBpcyBtaXNzaW5nIGZyb20gdGhlIGJhc2VsaW5lIHJlc3VsdGApOwogICAgICBjb250aW51ZTsKICAgIH0KICAgIGlmICghKE51bWJlci5pc0Zpbml0ZShjdXJyZW50VmFsdWUpICYmIGN1cnJlbnRWYWx1ZSA+PSAwKSkgewogICAgICBmYWlsdXJlcy5wdXNoKGAke2ZpZWxkfSBpcyBtaXNzaW5nIGZyb20gdGhlIGN1cnJlbnQgcmVzdWx0YCk7CiAgICAgIGNvbnRpbnVlOwogICAgfQogICAgaWYgKCEoTnVtYmVyLmlzRmluaXRlKHRvbGVyYW5jZSkgJiYgdG9sZXJhbmNlID49IDAgJiYgdG9sZXJhbmNlIDw9IDEwKSkgewogICAgICBmYWlsdXJlcy5wdXNoKGAke2ZpZWxkfSBoYXMgYW4gaW52YWxpZCByZWdyZXNzaW9uIHRvbGVyYW5jZWApOwogICAgICBjb250aW51ZTsKICAgIH0KICAgIGNvbnN0IHJlZ3Jlc3NlZCA9CiAgICAgIGRpcmVjdGlvbiA9PT0gIm1pbmltdW0iCiAgICAgICAgPyBiYXNlVmFsdWUgPiAwICYmIGN1cnJlbnRWYWx1ZSA8IGJhc2VWYWx1ZSAqICgxIC0gdG9sZXJhbmNlKQogICAgICAgIDogYmFzZVZhbHVlID09PSAwCiAgICAgICAgICA/IGN1cnJlbnRWYWx1ZSA+IDAKICAgICAgICAgIDogY3VycmVudFZhbHVlID4gYmFzZVZhbHVlICogKDEgKyB0b2xlcmFuY2UpOwogICAgaWYgKHJlZ3Jlc3NlZCkgewogICAgICBjb25zdCBjaGFuZ2UgPQogICAgICAgIGJhc2VWYWx1ZSA9PT0gMAogICAgICAgICAgPyAiaW5jcmVhc2VkIGZyb20gemVybyIKICAgICAgICAgIDogYHJlZ3Jlc3NlZCAkeygoY3VycmVudFZhbHVlIC8gYmFzZVZhbHVlIC0gMSkgKiAxMDApLnRvRml4ZWQoMSl9JWA7CiAgICAgIGZhaWx1cmVzLnB1c2goCiAgICAgICAgYCR7ZmllbGR9ICR7Y2hhbmdlfSAoJHtiYXNlVmFsdWV9IC0+ICR7Y3VycmVudFZhbHVlfTsgbGltaXQgJHsodG9sZXJhbmNlICogMTAwKS50b0ZpeGVkKDEpfSUpYCwKICAgICAgKTsKICAgIH0KICB9CiAgaWYgKCF2YWxpZEltcHJvdmVtZW50IHx8IHRvbGVyYW5jZXMubG9hZFJzc0ltcHJvdmVtZW50ID09PSAwKSByZXR1cm4gZmFpbHVyZXM7CiAgZm9yIChjb25zdCBmaWVsZCBvZiBnYXRld2F5TG9hZFJzc0ZpZWxkcykgewogICAgY29uc3QgYmFzZVZhbHVlID0gYmFzZVtmaWVsZF07CiAgICBjb25zdCBjdXJyZW50VmFsdWUgPSBjdXJyZW50W2ZpZWxkXTsKICAgIGlmIChiYXNlVmFsdWUgPT0gbnVsbCAmJiBjdXJyZW50VmFsdWUgPT0gbnVsbCkgY29udGludWU7CiAgICAvLyBNaXNzaW5nL2ludmFsaWQgdmFsdWVzIHdlcmUgYWxyZWFkeSByZXBvcnRlZCBieSB0aGUgcmVncmVzc2lvbiBjaGVja3MuCiAgICBpZiAoCiAgICAgICEoTnVtYmVyLmlzRmluaXRlKGJhc2VWYWx1ZSkgJiYgYmFzZVZhbHVlID49IDApIHx8CiAgICAgICEoTnVtYmVyLmlzRmluaXRlKGN1cnJlbnRWYWx1ZSkgJiYgY3VycmVudFZhbHVlID49IDApCiAgICApCiAgICAgIGNvbnRpbnVlOwogICAgaWYgKGJhc2VWYWx1ZSA9PT0gMCkgewogICAgICBmYWlsdXJlcy5wdXNoKGAke2ZpZWxkfSBjYW5ub3QgbWVhc3VyZSBhbiBpbXByb3ZlbWVudCBmcm9tIGEgemVybyBiYXNlbGluZWApOwogICAgICBjb250aW51ZTsKICAgIH0KICAgIGNvbnN0IGltcHJvdmVtZW50ID0gMSAtIGN1cnJlbnRWYWx1ZSAvIGJhc2VWYWx1ZTsKICAgIGlmIChpbXByb3ZlbWVudCArIDFlLTEyIDwgdG9sZXJhbmNlcy5sb2FkUnNzSW1wcm92ZW1lbnQpIHsKICAgICAgZmFpbHVyZXMucHVzaCgKICAgICAgICBgJHtmaWVsZH0gaW1wcm92ZWQgJHsoaW1wcm92ZW1lbnQgKiAxMDApLnRvRml4ZWQoMSl9JSAoJHtiYXNlVmFsdWV9IC0+ICR7Y3VycmVudFZhbHVlfTsgcmVxdWlyZWQgJHsodG9sZXJhbmNlcy5sb2FkUnNzSW1wcm92ZW1lbnQgKiAxMDApLnRvRml4ZWQoMSl9JSlgLAogICAgICApOwogICAgfQogIH0KICByZXR1cm4gZmFpbHVyZXM7Cn07Cg==
+export const percentile = (values, percentileValue) => {
+  if (!Array.isArray(values) || values.length === 0) {
+    throw new Error("cannot calculate a percentile without samples");
+  }
+  if (!(percentileValue > 0 && percentileValue <= 1)) {
+    throw new Error("percentile must be greater than 0 and no greater than 1");
+  }
+  if (!values.every((value) => Number.isFinite(value) && value >= 0)) {
+    throw new Error(
+      "runtime performance samples must be finite non-negative numbers",
+    );
+  }
+  const sorted = [...values].sort((left, right) => left - right);
+  return sorted[Math.ceil(sorted.length * percentileValue) - 1];
+};
+
+const nonNullValues = (samples, field) =>
+  samples
+    .map((sample) => sample[field])
+    .filter((value) => typeof value === "number" && Number.isFinite(value));
+
+const checkpointValues = (samples, checkpoint, field) =>
+  samples
+    .map((sample) => sample.checkpoints?.[checkpoint]?.[field])
+    .filter((value) => typeof value === "number" && Number.isFinite(value));
+
+const loadValues = (samples, name, field) =>
+  samples
+    .flatMap((sample) => sample.loads ?? [])
+    .filter((load) => load.name === name)
+    .map((load) => load[field])
+    .filter((value) => typeof value === "number" && Number.isFinite(value));
+
+export const summarizeRuntimeSamples = (samples) => {
+  if (!Array.isArray(samples) || samples.length === 0) {
+    throw new Error("runtime performance requires at least one sample");
+  }
+  const readiness = nonNullValues(samples, "readiness_ms");
+  if (readiness.length !== samples.length) {
+    throw new Error(
+      "every runtime performance sample must contain readiness_ms",
+    );
+  }
+  const isV2 = samples.every((sample) => sample.checkpoints?.stable_10s);
+  const managementRSS = isV2
+    ? checkpointValues(samples, "stable_10s", "management_rss_bytes")
+    : nonNullValues(samples, "management_rss_bytes");
+  if (managementRSS.length !== samples.length) {
+    throw new Error(
+      "every runtime performance sample must contain stable management RSS",
+    );
+  }
+  const gatewayRSS = isV2
+    ? checkpointValues(samples, "stable_10s", "gateway_rss_bytes")
+    : nonNullValues(samples, "gateway_rss_bytes");
+  const loadPeakRSS = checkpointValues(
+    samples,
+    "load_peak",
+    "gateway_rss_bytes",
+  );
+  const postLoadRSS = checkpointValues(
+    samples,
+    "post_load_30s",
+    "gateway_rss_bytes",
+  );
+  const postReclaimRSS = checkpointValues(
+    samples,
+    "post_reclaim",
+    "gateway_rss_bytes",
+  );
+  const proxyThroughput = loadValues(
+    samples,
+    "proxy_2mib",
+    "requests_per_second",
+  );
+  const managementThroughput = loadValues(
+    samples,
+    "management_locale",
+    "requests_per_second",
+  );
+  const managementLoadRSS = checkpointValues(
+    samples,
+    "load_peak",
+    "management_rss_bytes",
+  );
+  const managementRetainedRSS = checkpointValues(
+    samples,
+    "post_load_30s",
+    "management_rss_bytes",
+  );
+  const managementReclaimedRSS = checkpointValues(
+    samples,
+    "post_reclaim",
+    "management_rss_bytes",
+  );
+  // Linux retains VmHWM after a short allocation burst has already ended.
+  // Keep it separate from per-load RSS: it includes process startup as well.
+  const managementLifetimeRSS = samples
+    .map((sample) =>
+      Math.max(
+        ...Object.values(sample.checkpoints ?? {})
+          .map((checkpoint) => checkpoint.management_peak_rss_bytes)
+          .filter(
+            (value) => typeof value === "number" && Number.isFinite(value),
+          ),
+      ),
+    )
+    .filter(Number.isFinite);
+  return {
+    readiness_p95_ms: percentile(readiness, 0.95),
+    management_rss_p95_bytes: percentile(managementRSS, 0.95),
+    management_lifetime_peak_rss_p95_bytes:
+      managementLifetimeRSS.length > 0
+        ? percentile(managementLifetimeRSS, 0.95)
+        : null,
+    management_load_peak_rss_p95_bytes:
+      managementLoadRSS.length > 0 ? percentile(managementLoadRSS, 0.95) : null,
+    management_post_load_rss_p95_bytes:
+      managementRetainedRSS.length > 0
+        ? percentile(managementRetainedRSS, 0.95)
+        : null,
+    management_post_reclaim_rss_p95_bytes:
+      managementReclaimedRSS.length > 0
+        ? percentile(managementReclaimedRSS, 0.95)
+        : null,
+    management_locale_rps_p50:
+      managementThroughput.length > 0
+        ? percentile(managementThroughput, 0.5)
+        : null,
+    gateway_rss_p95_bytes:
+      gatewayRSS.length === samples.length
+        ? percentile(gatewayRSS, 0.95)
+        : null,
+    gateway_load_peak_rss_p95_bytes:
+      loadPeakRSS.length > 0 ? percentile(loadPeakRSS, 0.95) : null,
+    gateway_post_load_rss_p95_bytes:
+      postLoadRSS.length > 0 ? percentile(postLoadRSS, 0.95) : null,
+    gateway_post_reclaim_rss_p95_bytes:
+      postReclaimRSS.length > 0 ? percentile(postReclaimRSS, 0.95) : null,
+    proxy_2mib_rps_p50:
+      proxyThroughput.length > 0 ? percentile(proxyThroughput, 0.5) : null,
+  };
+};
+
+export const compareRuntimeSummaries = (base, current, options = {}) => {
+  const tolerances = {
+    readiness: 0.1,
+    rss: 0.05,
+    throughput: 0.05,
+    // Ordinary PRs must avoid regressions; an improvement target is opt-in.
+    loadRssImprovement: 0,
+    ...options,
+  };
+  const required = new Set(["readiness_p95_ms", "management_rss_p95_bytes"]);
+  const gatewayLoadRssFields = [
+    "gateway_load_peak_rss_p95_bytes",
+    "gateway_post_load_rss_p95_bytes",
+    "gateway_post_reclaim_rss_p95_bytes",
+  ];
+  const checks = [
+    ["readiness_p95_ms", tolerances.readiness],
+    ["management_rss_p95_bytes", tolerances.rss],
+    ["management_lifetime_peak_rss_p95_bytes", tolerances.rss],
+    ["management_load_peak_rss_p95_bytes", tolerances.rss],
+    ["management_post_load_rss_p95_bytes", tolerances.rss],
+    ["management_post_reclaim_rss_p95_bytes", tolerances.rss],
+    ["management_locale_rps_p50", tolerances.throughput, "minimum"],
+    ["gateway_rss_p95_bytes", tolerances.rss],
+    ...gatewayLoadRssFields.map((field) => [field, tolerances.rss]),
+    ["proxy_2mib_rps_p50", tolerances.throughput, "minimum"],
+  ];
+  const failures = [];
+  const validImprovement =
+    Number.isFinite(tolerances.loadRssImprovement) &&
+    tolerances.loadRssImprovement >= 0 &&
+    tolerances.loadRssImprovement <= 1;
+  if (!validImprovement) {
+    failures.push("load RSS has an invalid improvement requirement");
+  }
+  for (const [field, tolerance, direction = "maximum"] of checks) {
+    const baseValue = base[field];
+    const currentValue = current[field];
+    if (baseValue == null && currentValue == null && !required.has(field))
+      continue;
+    if (!(Number.isFinite(baseValue) && baseValue >= 0)) {
+      failures.push(`${field} is missing from the baseline result`);
+      continue;
+    }
+    if (!(Number.isFinite(currentValue) && currentValue >= 0)) {
+      failures.push(`${field} is missing from the current result`);
+      continue;
+    }
+    if (!(Number.isFinite(tolerance) && tolerance >= 0 && tolerance <= 10)) {
+      failures.push(`${field} has an invalid regression tolerance`);
+      continue;
+    }
+    const regressed =
+      direction === "minimum"
+        ? baseValue > 0 && currentValue < baseValue * (1 - tolerance)
+        : baseValue === 0
+          ? currentValue > 0
+          : currentValue > baseValue * (1 + tolerance);
+    if (regressed) {
+      const change =
+        baseValue === 0
+          ? "increased from zero"
+          : `regressed ${((currentValue / baseValue - 1) * 100).toFixed(1)}%`;
+      failures.push(
+        `${field} ${change} (${baseValue} -> ${currentValue}; limit ${(tolerance * 100).toFixed(1)}%)`,
+      );
+    }
+  }
+  if (!validImprovement || tolerances.loadRssImprovement === 0) return failures;
+  for (const field of gatewayLoadRssFields) {
+    const baseValue = base[field];
+    const currentValue = current[field];
+    if (baseValue == null && currentValue == null) continue;
+    // Missing/invalid values were already reported by the regression checks.
+    if (
+      !(Number.isFinite(baseValue) && baseValue >= 0) ||
+      !(Number.isFinite(currentValue) && currentValue >= 0)
+    )
+      continue;
+    if (baseValue === 0) {
+      failures.push(`${field} cannot measure an improvement from a zero baseline`);
+      continue;
+    }
+    const improvement = 1 - currentValue / baseValue;
+    if (improvement + 1e-12 < tolerances.loadRssImprovement) {
+      failures.push(
+        `${field} improved ${(improvement * 100).toFixed(1)}% (${baseValue} -> ${currentValue}; required ${(tolerances.loadRssImprovement * 100).toFixed(1)}%)`,
+      );
+    }
+  }
+  return failures;
+};

@@ -1,1 +1,301 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIGFwcGx5X2tleXdvcmRfcHJlZml4KHZhbHVlOiAmc3RyLCBrZXl3b3JkOiAmc3RyKSAtPiBTdHJpbmcgewogICAgbGV0IGtleXdvcmQgPSBrZXl3b3JkLnRyaW0oKTsKICAgIGxldCB2YWx1ZSA9IHZhbHVlLnRyaW0oKTsKICAgIGlmIGtleXdvcmQuaXNfZW1wdHkoKSB8fCB2YWx1ZS5jb250YWlucyhrZXl3b3JkKSB7CiAgICAgICAgdmFsdWUudG9fc3RyaW5nKCkKICAgIH0gZWxzZSBpZiB2YWx1ZS5pc19lbXB0eSgpIHsKICAgICAgICBrZXl3b3JkLnRvX3N0cmluZygpCiAgICB9IGVsc2UgewogICAgICAgIGZvcm1hdCEoIlt7a2V5d29yZH1dIHt2YWx1ZX0iKQogICAgfQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgdXNlIGNyYXRlOjpjcnlwdG9fdXRpbHM6OmhtYWNfc2hhMjU2X2Jhc2U2NDsKCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBmbiBhcHBlbmRfcXVlcnlfcGFyYW1zKAogICAgdXJsOiAmc3RyLAogICAgcGFyYW1zOiAmWygmc3RyLCBTdHJpbmcpXSwKKSAtPiBTdHJpbmcgewogICAgaWYgbGV0IE9rKG11dCBwYXJzZWQpID0gdXJsOjpVcmw6OnBhcnNlKHVybCkgewogICAgICAgIHsKICAgICAgICAgICAgbGV0IG11dCBxdWVyeSA9IHBhcnNlZC5xdWVyeV9wYWlyc19tdXQoKTsKICAgICAgICAgICAgZm9yIChrZXksIHZhbHVlKSBpbiBwYXJhbXMgewogICAgICAgICAgICAgICAgcXVlcnkuYXBwZW5kX3BhaXIoa2V5LCB2YWx1ZSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIHBhcnNlZC50b19zdHJpbmcoKTsKICAgIH0KICAgIGxldCBtdXQgc2VyaWFsaXplciA9IHVybDo6Zm9ybV91cmxlbmNvZGVkOjpTZXJpYWxpemVyOjpuZXcoU3RyaW5nOjpuZXcoKSk7CiAgICBmb3IgKGtleSwgdmFsdWUpIGluIHBhcmFtcyB7CiAgICAgICAgc2VyaWFsaXplci5hcHBlbmRfcGFpcihrZXksIHZhbHVlKTsKICAgIH0KICAgIGxldCBxdWVyeSA9IHNlcmlhbGl6ZXIuZmluaXNoKCk7CiAgICBmb3JtYXQhKAogICAgICAgICJ7fXt9e30iLAogICAgICAgIHVybCwKICAgICAgICBpZiB1cmwuY29udGFpbnMoJz8nKSB7ICImIiB9IGVsc2UgeyAiPyIgfSwKICAgICAgICBxdWVyeQogICAgKQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgZm4gcmVkYWN0X3F1ZXJ5X3ZhbHVlKHZhbHVlOiAmc3RyLCBrZXk6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBpZiBsZXQgT2sobXV0IHVybCkgPSB1cmw6OlVybDo6cGFyc2UodmFsdWUpIHsKICAgICAgICBpZiB1cmwucXVlcnlfcGFpcnMoKS5hbnkofChuYW1lLCBfKXwgbmFtZSA9PSBrZXkpIHsKICAgICAgICAgICAgbGV0IHBhaXJzID0gdXJsCiAgICAgICAgICAgICAgICAucXVlcnlfcGFpcnMoKQogICAgICAgICAgICAgICAgLm1hcCh8KG5hbWUsIHZhbHVlKXwgewogICAgICAgICAgICAgICAgICAgIGlmIG5hbWUgPT0ga2V5IHsKICAgICAgICAgICAgICAgICAgICAgICAgKG5hbWUudG9fc3RyaW5nKCksICI8cmVkYWN0ZWQ+Ii50b19zdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAobmFtZS50b19zdHJpbmcoKSwgdmFsdWUudG9fc3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgICAgICAgICB1cmwuc2V0X3F1ZXJ5KE5vbmUpOwogICAgICAgICAgICBmb3IgKG5hbWUsIHZhbHVlKSBpbiBwYWlycyB7CiAgICAgICAgICAgICAgICB1cmwucXVlcnlfcGFpcnNfbXV0KCkuYXBwZW5kX3BhaXIoJm5hbWUsICZ2YWx1ZSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIHVybC50b19zdHJpbmcoKTsKICAgIH0KICAgIHZhbHVlLnJlcGxhY2UoJmZvcm1hdCEoIntrZXl9PSIpLCAmZm9ybWF0ISgie2tleX09PHJlZGFjdGVkPiIpKQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgZm4gcmVkYWN0X3BhdGhfdGFpbCh2YWx1ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGlmIGxldCBPayhtdXQgdXJsKSA9IHVybDo6VXJsOjpwYXJzZSh2YWx1ZSkgewogICAgICAgIGlmIGxldCBPayhtdXQgc2VnbWVudHMpID0gdXJsLnBhdGhfc2VnbWVudHNfbXV0KCkgewogICAgICAgICAgICBzZWdtZW50cy5wb3AoKS5wdXNoKCI8cmVkYWN0ZWQ+Iik7CiAgICAgICAgfQogICAgICAgIHJldHVybiB1cmwudG9fc3RyaW5nKCk7CiAgICB9CiAgICB2YWx1ZS50b19zdHJpbmcoKQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgZm4gcmVzb2x2ZV9wdXNocGx1c191cmwoYmFzZV91cmw6ICZzdHIpIC0+IFN0cmluZyB7CiAgICBsZXQgdHJpbW1lZCA9IGJhc2VfdXJsLnRyaW1fZW5kX21hdGNoZXMoJy8nKTsKICAgIGxldCBsb3dlciA9IHRyaW1tZWQudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBpZiBsb3dlci5lbmRzX3dpdGgoIi9zZW5kIikgfHwgbG93ZXIuZW5kc193aXRoKCIvYmF0Y2hzZW5kIikgewogICAgICAgIHRyaW1tZWQudG9fc3RyaW5nKCkKICAgIH0gZWxzZSB7CiAgICAgICAgZm9ybWF0ISgie3RyaW1tZWR9L3NlbmQiKQogICAgfQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgZm4gcmVzb2x2ZV9tYWdpY3B1c2hfdXJsKAogICAgYmFzZV91cmw6ICZzdHIsCiAgICB0b2tlbjogJnN0ciwKICAgIGRlbGl2ZXJ5X21vZGU6ICZzdHIsCikgLT4gU3RyaW5nIHsKICAgIGxldCBiYXNlID0gYmFzZV91cmwudHJpbV9lbmRfbWF0Y2hlcygnLycpOwogICAgbGV0IGxvd2VyID0gYmFzZS50b19hc2NpaV9sb3dlcmNhc2UoKTsKICAgIGlmIGRlbGl2ZXJ5X21vZGUgPT0gImluYm91bmQiIHsKICAgICAgICBpZiBwYXRoX21hdGNoZXNfbWFnaWNwdXNoX2VuZHBvaW50X3dpdGhfdGFpbCgmbG93ZXIsICIvYXBpL2luYm91bmQiKSB7CiAgICAgICAgICAgIGJhc2UudG9fc3RyaW5nKCkKICAgICAgICB9IGVsc2UgaWYgbG93ZXIuZW5kc193aXRoKCIvYXBpL2luYm91bmQiKSB7CiAgICAgICAgICAgIGZvcm1hdCEoIntiYXNlfS97fSIsIHVybF9lbmNvZGVfY29tcG9uZW50KHRva2VuKSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBmb3JtYXQhKCJ7YmFzZX0vYXBpL2luYm91bmQve30iLCB1cmxfZW5jb2RlX2NvbXBvbmVudCh0b2tlbikpCiAgICAgICAgfQogICAgfSBlbHNlIGlmIGxvd2VyLmVuZHNfd2l0aCgiL2FwaS9wdXNoIikKICAgICAgICB8fCBwYXRoX21hdGNoZXNfbWFnaWNwdXNoX2VuZHBvaW50X3dpdGhfdGFpbCgmbG93ZXIsICIvYXBpL3B1c2giKQogICAgewogICAgICAgIGJhc2UudG9fc3RyaW5nKCkKICAgIH0gZWxzZSB7CiAgICAgICAgZm9ybWF0ISgie2Jhc2V9L2FwaS9wdXNoIikKICAgIH0KfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIHBhdGhfbWF0Y2hlc19tYWdpY3B1c2hfZW5kcG9pbnRfd2l0aF90YWlsKAogICAgdmFsdWU6ICZzdHIsCiAgICBlbmRwb2ludDogJnN0ciwKKSAtPiBib29sIHsKICAgIGxldCBTb21lKChwcmVmaXgsIHRhaWwpKSA9IHZhbHVlLnJzcGxpdF9vbmNlKCcvJykgZWxzZSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfTsKICAgIHByZWZpeC5lbmRzX3dpdGgoZW5kcG9pbnQpICYmICF0YWlsLmlzX2VtcHR5KCkgJiYgIXRhaWwuY29udGFpbnMoJy8nKQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgdXNlIGNyYXRlOjpodHRwX3V0aWxzOjp1cmxfZW5jb2RlX2NvbXBvbmVudDsKCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBmbiBqc29uX2k2NCh2YWx1ZTogJlZhbHVlLCBrZXk6ICZzdHIpIC0+IE9wdGlvbjxpNjQ+IHsKICAgIHZhbHVlLmdldChrZXkpLmFuZF90aGVuKHZhbHVlX2FzX2k2NCkKfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIGpzb25faTY0X2FueSh2YWx1ZTogJlZhbHVlLCBrZXlzOiAmWyZzdHJdKSAtPiBPcHRpb248aTY0PiB7CiAgICBrZXlzLml0ZXIoKS5maW5kX21hcCh8a2V5fCBqc29uX2k2NCh2YWx1ZSwga2V5KSkKfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIHZhbHVlX2FzX2k2NCh2YWx1ZTogJlZhbHVlKSAtPiBPcHRpb248aTY0PiB7CiAgICB2YWx1ZS5hc19pNjQoKS5vcl9lbHNlKHx8IHsKICAgICAgICB2YWx1ZQogICAgICAgICAgICAuYXNfc3RyKCkKICAgICAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgcGFyc2VfaW50X3ByZWZpeF9saWtlX25vZGUodmFsdWUsIDEwKSkKICAgIH0pCn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBmbiBqc29uX3RleHQodmFsdWU6ICZWYWx1ZSwga2V5OiAmc3RyKSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICB2YWx1ZQogICAgICAgIC5nZXQoa2V5KQogICAgICAgIC5tYXAodmFsdWVfdG9fdHJpbW1lZF9zdHJpbmcpCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgZm4ganNvbl90ZXh0X2FueSgKICAgIHZhbHVlOiAmVmFsdWUsCiAgICBrZXlzOiAmWyZzdHJdLAopIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIGtleXMuaXRlcigpLmZpbmRfbWFwKHxrZXl8IGpzb25fdGV4dCh2YWx1ZSwga2V5KSkKfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIGRlZmF1bHRfc210cF9wb3J0KHNlY3VyaXR5OiAmc3RyKSAtPiBpNjQgewogICAgbWF0Y2ggc2VjdXJpdHkgewogICAgICAgICJzdGFydHRscyIgPT4gNTg3LAogICAgICAgICJub25lIiA9PiAyNSwKICAgICAgICBfID0+IDQ2NSwKICAgIH0KfQoKCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBmbiBwYXJzZV9tYWlsYm94ZXMoCiAgICB2YWx1ZTogJnN0ciwKICAgIGZpZWxkX2tleTogJnN0ciwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IFJlc3VsdDxWZWM8TWFpbGJveD4sIFN0cmluZz4gewogICAgbGV0IGZpZWxkX2xhYmVsID0KICAgICAgICBub3RpZmljYXRpb25fcHJvdmlkZXJfZmllbGRfdGV4dCh0cmFuc2xhdG9yLCAiZW1haWwiLCBmaWVsZF9rZXksICJhZGRyZXNzTGFiZWwiLCBmaWVsZF9rZXkpOwogICAgdmFsdWUKICAgICAgICAuc3BsaXQoWycsJywgJ1xuJ10pCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIC5tYXAofHZhbHVlfCB7CiAgICAgICAgICAgIHZhbHVlLnBhcnNlOjo8TWFpbGJveD4oKS5tYXBfZXJyKHxffCB7CiAgICAgICAgICAgICAgICBub3RpZmljYXRpb25fcHJvdmlkZXJfZXJyb3JfdGV4dCgKICAgICAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgICAgICJlbWFpbCIsCiAgICAgICAgICAgICAgICAgICAgImludmFsaWRFbWFpbEFkZHJlc3MiLAogICAgICAgICAgICAgICAgICAgICZbKCJmaWVsZCIsIGZpZWxkX2xhYmVsLmNsb25lKCkpLCAoInZhbHVlIiwgdmFsdWUudG9fc3RyaW5nKCkpXSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSkKICAgICAgICB9KQogICAgICAgIC5jb2xsZWN0KCkKfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIGJ1aWxkX2Zyb21fbWFpbGJveCgKICAgIGFkZHJlc3M6ICZzdHIsCiAgICBuYW1lOiAmc3RyLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gUmVzdWx0PE1haWxib3gsIFN0cmluZz4gewogICAgaWYgbmFtZS50cmltKCkuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIGFkZHJlc3MucGFyc2U6OjxNYWlsYm94PigpLm1hcF9lcnIofF98IHsKICAgICAgICAgICAgbm90aWZpY2F0aW9uX3Byb3ZpZGVyX2Vycm9yX3RleHQodHJhbnNsYXRvciwgImVtYWlsIiwgImludmFsaWRGcm9tQWRkcmVzcyIsICZbXSkKICAgICAgICB9KTsKICAgIH0KICAgIGxldCBhZGRyZXNzID0gYWRkcmVzcy5wYXJzZTo6PEFkZHJlc3M+KCkubWFwX2Vycih8X3wgewogICAgICAgIG5vdGlmaWNhdGlvbl9wcm92aWRlcl9lcnJvcl90ZXh0KHRyYW5zbGF0b3IsICJlbWFpbCIsICJpbnZhbGlkRnJvbUFkZHJlc3MiLCAmW10pCiAgICB9KT87CiAgICBPayhNYWlsYm94OjpuZXcoU29tZShuYW1lLnRyaW0oKS50b19zdHJpbmcoKSksIGFkZHJlc3MpKQp9CgpwdWIoaW4gY3JhdGU6Om5vdGlmaWNhdGlvbnM6OnJvdXRlcykgZm4gYnVpbGRfZW1haWxfcGxhaW5fdGV4dF9ib2R5KAogICAgbWVzc2FnZTogJlZhbHVlLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gU3RyaW5nIHsKICAgIGxldCBtdXQgYm9keSA9IGJ1aWxkX3RleHRfYm9keShtZXNzYWdlKTsKICAgIGxldCBtdXQgZm9vdGVyID0gVmVjOjpuZXcoKTsKICAgIGxldCBzZXZlcml0eSA9IG1lc3NhZ2VfdGV4dChtZXNzYWdlLCAic2V2ZXJpdHkiKTsKICAgIGlmICFzZXZlcml0eS5pc19lbXB0eSgpIHsKICAgICAgICBmb290ZXIucHVzaChub3RpZmljYXRpb25fZW1haWxfbWVzc2FnZV90ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAic2V2ZXJpdHkiLAogICAgICAgICAgICAmWygidmFsdWUiLCBzZXZlcml0eSldLAogICAgICAgICkpOwogICAgfQogICAgbGV0IGV2ZW50X2lkID0gbWVzc2FnZV90ZXh0KG1lc3NhZ2UsICJldmVudF9pZCIpOwogICAgaWYgIWV2ZW50X2lkLmlzX2VtcHR5KCkgewogICAgICAgIGZvb3Rlci5wdXNoKG5vdGlmaWNhdGlvbl9lbWFpbF9tZXNzYWdlX3RleHQoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJldmVudElkIiwKICAgICAgICAgICAgJlsoInZhbHVlIiwgZXZlbnRfaWQpXSwKICAgICAgICApKTsKICAgIH0KICAgIGxldCBvY2N1cnJlZF9hdCA9IG1lc3NhZ2VfdGV4dChtZXNzYWdlLCAib2NjdXJyZWRfYXQiKTsKICAgIGlmICFvY2N1cnJlZF9hdC5pc19lbXB0eSgpIHsKICAgICAgICBmb290ZXIucHVzaChub3RpZmljYXRpb25fZW1haWxfbWVzc2FnZV90ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAib2NjdXJyZWRBdCIsCiAgICAgICAgICAgICZbKCJ2YWx1ZSIsIG9jY3VycmVkX2F0KV0sCiAgICAgICAgKSk7CiAgICB9CiAgICBpZiAhZm9vdGVyLmlzX2VtcHR5KCkgewogICAgICAgIGJvZHkucHVzaF9zdHIoIlxuXG4iKTsKICAgICAgICBib2R5LnB1c2hfc3RyKCZmb290ZXIuam9pbigiXG4iKSk7CiAgICB9CiAgICBib2R5Cn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBmbiByZXNvbHZlX3dlYmhvb2tfdXJsKAogICAgYmFzZV91cmw6ICZzdHIsCiAgICBlbmRwb2ludF9wYXRoOiAmc3RyLAopIC0+IFN0cmluZyB7CiAgICBpZiBlbmRwb2ludF9wYXRoLnRyaW0oKS5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gYmFzZV91cmwudG9fc3RyaW5nKCk7CiAgICB9CiAgICBpZiBsZXQgT2soYmFzZSkgPSB1cmw6OlVybDo6cGFyc2UoYmFzZV91cmwpCiAgICAgICAgJiYgbGV0IE9rKGpvaW5lZCkgPSBiYXNlLmpvaW4oZW5kcG9pbnRfcGF0aCkKICAgIHsKICAgICAgICByZXR1cm4gam9pbmVkLnRvX3N0cmluZygpOwogICAgfQogICAgZm9ybWF0ISgKICAgICAgICAie30ve30iLAogICAgICAgIGJhc2VfdXJsLnRyaW1fZW5kX21hdGNoZXMoJy8nKSwKICAgICAgICBlbmRwb2ludF9wYXRoLnRyaW1fc3RhcnRfbWF0Y2hlcygnLycpCiAgICApCn0KCnB1YihpbiBjcmF0ZTo6bm90aWZpY2F0aW9uczo6cm91dGVzKSBmbiB2YWx1ZV90b19oZWFkZXJfc3RyaW5nKHZhbHVlOiAmVmFsdWUpIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIG1hdGNoIHZhbHVlIHsKICAgICAgICBWYWx1ZTo6TnVsbCA9PiBOb25lLAogICAgICAgIFZhbHVlOjpTdHJpbmcodmFsdWUpID0+IHsKICAgICAgICAgICAgbGV0IHRyaW1tZWQgPSB2YWx1ZS50cmltKCk7CiAgICAgICAgICAgIGlmIHRyaW1tZWQuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgICAgICBOb25lCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBTb21lKHRyaW1tZWQudG9fc3RyaW5nKCkpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgVmFsdWU6OkJvb2wodmFsdWUpID0+IFNvbWUodmFsdWUudG9fc3RyaW5nKCkpLAogICAgICAgIFZhbHVlOjpOdW1iZXIodmFsdWUpID0+IFNvbWUodmFsdWUudG9fc3RyaW5nKCkpLAogICAgICAgIF8gPT4gTm9uZSwKICAgIH0KfQoKcHViKGluIGNyYXRlOjpub3RpZmljYXRpb25zOjpyb3V0ZXMpIGZuIGFwcGx5X3Byb3ZpZGVyX3Rlc3RfcmVzdWx0KAogICAgcHJvdmlkZXI6ICZtdXQgVmFsdWUsCiAgICByZXN1bHQ6ICZQcm92aWRlclRlc3RSZXN1bHQsCikgewogICAgbGV0IFNvbWUob2JqZWN0KSA9IHByb3ZpZGVyLmFzX29iamVjdF9tdXQoKSBlbHNlIHsKICAgICAgICByZXR1cm47CiAgICB9OwogICAgb2JqZWN0Lmluc2VydCgKICAgICAgICAibGFzdF90ZXN0X2F0Ii50b19zdHJpbmcoKSwKICAgICAgICBWYWx1ZTo6U3RyaW5nKHRpbWVfdXRpbHM6Om5vd19pc28oKSksCiAgICApOwogICAgb2JqZWN0Lmluc2VydCgKICAgICAgICAibGFzdF90ZXN0X3N0YXR1cyIudG9fc3RyaW5nKCksCiAgICAgICAgVmFsdWU6OlN0cmluZyhpZiByZXN1bHQuc3VjY2VzcyB7ICJzdWNjZXNzIiB9IGVsc2UgeyAiZmFpbGVkIiB9LnRvX3N0cmluZygpKSwKICAgICk7CiAgICBvYmplY3QuaW5zZXJ0KAogICAgICAgICJsYXN0X2Vycm9yIi50b19zdHJpbmcoKSwKICAgICAgICBpZiByZXN1bHQuc3VjY2VzcyB7CiAgICAgICAgICAgIFZhbHVlOjpOdWxsCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgVmFsdWU6OlN0cmluZyhyZXN1bHQubWVzc2FnZS5jbG9uZSgpKQogICAgICAgIH0sCiAgICApOwogICAgb2JqZWN0Lmluc2VydCgKICAgICAgICAidXBkYXRlZF9hdCIudG9fc3RyaW5nKCksCiAgICAgICAgVmFsdWU6OlN0cmluZyh0aW1lX3V0aWxzOjpub3dfaXNvKCkpLAogICAgKTsKfQo=
+use super::*;
+
+pub(in crate::notifications::routes) fn apply_keyword_prefix(value: &str, keyword: &str) -> String {
+    let keyword = keyword.trim();
+    let value = value.trim();
+    if keyword.is_empty() || value.contains(keyword) {
+        value.to_string()
+    } else if value.is_empty() {
+        keyword.to_string()
+    } else {
+        format!("[{keyword}] {value}")
+    }
+}
+
+pub(in crate::notifications::routes) use crate::crypto_utils::hmac_sha256_base64;
+
+pub(in crate::notifications::routes) fn append_query_params(
+    url: &str,
+    params: &[(&str, String)],
+) -> String {
+    if let Ok(mut parsed) = url::Url::parse(url) {
+        {
+            let mut query = parsed.query_pairs_mut();
+            for (key, value) in params {
+                query.append_pair(key, value);
+            }
+        }
+        return parsed.to_string();
+    }
+    let mut serializer = url::form_urlencoded::Serializer::new(String::new());
+    for (key, value) in params {
+        serializer.append_pair(key, value);
+    }
+    let query = serializer.finish();
+    format!(
+        "{}{}{}",
+        url,
+        if url.contains('?') { "&" } else { "?" },
+        query
+    )
+}
+
+pub(in crate::notifications::routes) fn redact_query_value(value: &str, key: &str) -> String {
+    if let Ok(mut url) = url::Url::parse(value) {
+        if url.query_pairs().any(|(name, _)| name == key) {
+            let pairs = url
+                .query_pairs()
+                .map(|(name, value)| {
+                    if name == key {
+                        (name.to_string(), "<redacted>".to_string())
+                    } else {
+                        (name.to_string(), value.to_string())
+                    }
+                })
+                .collect::<Vec<_>>();
+            url.set_query(None);
+            for (name, value) in pairs {
+                url.query_pairs_mut().append_pair(&name, &value);
+            }
+        }
+        return url.to_string();
+    }
+    value.replace(&format!("{key}="), &format!("{key}=<redacted>"))
+}
+
+pub(in crate::notifications::routes) fn redact_path_tail(value: &str) -> String {
+    if let Ok(mut url) = url::Url::parse(value) {
+        if let Ok(mut segments) = url.path_segments_mut() {
+            segments.pop().push("<redacted>");
+        }
+        return url.to_string();
+    }
+    value.to_string()
+}
+
+pub(in crate::notifications::routes) fn resolve_pushplus_url(base_url: &str) -> String {
+    let trimmed = base_url.trim_end_matches('/');
+    let lower = trimmed.to_ascii_lowercase();
+    if lower.ends_with("/send") || lower.ends_with("/batchsend") {
+        trimmed.to_string()
+    } else {
+        format!("{trimmed}/send")
+    }
+}
+
+pub(in crate::notifications::routes) fn resolve_magicpush_url(
+    base_url: &str,
+    token: &str,
+    delivery_mode: &str,
+) -> String {
+    let base = base_url.trim_end_matches('/');
+    let lower = base.to_ascii_lowercase();
+    if delivery_mode == "inbound" {
+        if path_matches_magicpush_endpoint_with_tail(&lower, "/api/inbound") {
+            base.to_string()
+        } else if lower.ends_with("/api/inbound") {
+            format!("{base}/{}", url_encode_component(token))
+        } else {
+            format!("{base}/api/inbound/{}", url_encode_component(token))
+        }
+    } else if lower.ends_with("/api/push")
+        || path_matches_magicpush_endpoint_with_tail(&lower, "/api/push")
+    {
+        base.to_string()
+    } else {
+        format!("{base}/api/push")
+    }
+}
+
+pub(in crate::notifications::routes) fn path_matches_magicpush_endpoint_with_tail(
+    value: &str,
+    endpoint: &str,
+) -> bool {
+    let Some((prefix, tail)) = value.rsplit_once('/') else {
+        return false;
+    };
+    prefix.ends_with(endpoint) && !tail.is_empty() && !tail.contains('/')
+}
+
+pub(in crate::notifications::routes) use crate::http_utils::url_encode_component;
+
+pub(in crate::notifications::routes) fn json_i64(value: &Value, key: &str) -> Option<i64> {
+    value.get(key).and_then(value_as_i64)
+}
+
+pub(in crate::notifications::routes) fn json_i64_any(value: &Value, keys: &[&str]) -> Option<i64> {
+    keys.iter().find_map(|key| json_i64(value, key))
+}
+
+pub(in crate::notifications::routes) fn value_as_i64(value: &Value) -> Option<i64> {
+    value.as_i64().or_else(|| {
+        value
+            .as_str()
+            .and_then(|value| parse_int_prefix_like_node(value, 10))
+    })
+}
+
+pub(in crate::notifications::routes) fn json_text(value: &Value, key: &str) -> Option<String> {
+    value
+        .get(key)
+        .map(value_to_trimmed_string)
+        .filter(|value| !value.is_empty())
+}
+
+pub(in crate::notifications::routes) fn json_text_any(
+    value: &Value,
+    keys: &[&str],
+) -> Option<String> {
+    keys.iter().find_map(|key| json_text(value, key))
+}
+
+pub(in crate::notifications::routes) fn default_smtp_port(security: &str) -> i64 {
+    match security {
+        "starttls" => 587,
+        "none" => 25,
+        _ => 465,
+    }
+}
+
+
+pub(in crate::notifications::routes) fn parse_mailboxes(
+    value: &str,
+    field_key: &str,
+    translator: &Translator,
+) -> Result<Vec<Mailbox>, String> {
+    let field_label =
+        notification_provider_field_text(translator, "email", field_key, "addressLabel", field_key);
+    value
+        .split([',', '\n'])
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .map(|value| {
+            value.parse::<Mailbox>().map_err(|_| {
+                notification_provider_error_text(
+                    translator,
+                    "email",
+                    "invalidEmailAddress",
+                    &[("field", field_label.clone()), ("value", value.to_string())],
+                )
+            })
+        })
+        .collect()
+}
+
+pub(in crate::notifications::routes) fn build_from_mailbox(
+    address: &str,
+    name: &str,
+    translator: &Translator,
+) -> Result<Mailbox, String> {
+    if name.trim().is_empty() {
+        return address.parse::<Mailbox>().map_err(|_| {
+            notification_provider_error_text(translator, "email", "invalidFromAddress", &[])
+        });
+    }
+    let address = address.parse::<Address>().map_err(|_| {
+        notification_provider_error_text(translator, "email", "invalidFromAddress", &[])
+    })?;
+    Ok(Mailbox::new(Some(name.trim().to_string()), address))
+}
+
+pub(in crate::notifications::routes) fn build_email_plain_text_body(
+    message: &Value,
+    translator: &Translator,
+) -> String {
+    let mut body = build_text_body(message);
+    let mut footer = Vec::new();
+    let severity = message_text(message, "severity");
+    if !severity.is_empty() {
+        footer.push(notification_email_message_text(
+            translator,
+            "severity",
+            &[("value", severity)],
+        ));
+    }
+    let event_id = message_text(message, "event_id");
+    if !event_id.is_empty() {
+        footer.push(notification_email_message_text(
+            translator,
+            "eventId",
+            &[("value", event_id)],
+        ));
+    }
+    let occurred_at = message_text(message, "occurred_at");
+    if !occurred_at.is_empty() {
+        footer.push(notification_email_message_text(
+            translator,
+            "occurredAt",
+            &[("value", occurred_at)],
+        ));
+    }
+    if !footer.is_empty() {
+        body.push_str("\n\n");
+        body.push_str(&footer.join("\n"));
+    }
+    body
+}
+
+pub(in crate::notifications::routes) fn resolve_webhook_url(
+    base_url: &str,
+    endpoint_path: &str,
+) -> String {
+    if endpoint_path.trim().is_empty() {
+        return base_url.to_string();
+    }
+    if let Ok(base) = url::Url::parse(base_url)
+        && let Ok(joined) = base.join(endpoint_path)
+    {
+        return joined.to_string();
+    }
+    format!(
+        "{}/{}",
+        base_url.trim_end_matches('/'),
+        endpoint_path.trim_start_matches('/')
+    )
+}
+
+pub(in crate::notifications::routes) fn value_to_header_string(value: &Value) -> Option<String> {
+    match value {
+        Value::Null => None,
+        Value::String(value) => {
+            let trimmed = value.trim();
+            if trimmed.is_empty() {
+                None
+            } else {
+                Some(trimmed.to_string())
+            }
+        }
+        Value::Bool(value) => Some(value.to_string()),
+        Value::Number(value) => Some(value.to_string()),
+        _ => None,
+    }
+}
+
+pub(in crate::notifications::routes) fn apply_provider_test_result(
+    provider: &mut Value,
+    result: &ProviderTestResult,
+) {
+    let Some(object) = provider.as_object_mut() else {
+        return;
+    };
+    object.insert(
+        "last_test_at".to_string(),
+        Value::String(time_utils::now_iso()),
+    );
+    object.insert(
+        "last_test_status".to_string(),
+        Value::String(if result.success { "success" } else { "failed" }.to_string()),
+    );
+    object.insert(
+        "last_error".to_string(),
+        if result.success {
+            Value::Null
+        } else {
+            Value::String(result.message.clone())
+        },
+    );
+    object.insert(
+        "updated_at".to_string(),
+        Value::String(time_utils::now_iso()),
+    );
+}

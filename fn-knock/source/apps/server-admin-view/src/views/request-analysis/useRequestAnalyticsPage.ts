@@ -1,1 +1,315 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlYWN0aXZlIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHR5cGUgeyBUaW1lU2VyaWVzQ2hhcnRTZXJpZXMgfSBmcm9tICJAL2NvbXBvbmVudHMvY2hhcnRzL1RpbWVTZXJpZXNDaGFydC52dWUiOwppbXBvcnQgdHlwZSB7IEdhdGV3YXlMb2dBbmFseXRpY3NQYXlsb2FkIH0gZnJvbSAiQC90eXBlcyI7CmltcG9ydCB7CiAgYW5hbHl0aWNzQ291bnRyeUxhYmVsLAogIGFuYWx5dGljc0RpbWVuc2lvbkxhYmVsLAogIGFuYWx5dGljc1JlZ2lvbkxhYmVsLAogIGFuYWx5dGljc1RpbWVzdGFtcE9mZnNldE1pbnV0ZXMsCiAgZm9ybWF0QW5hbHl0aWNzQnl0ZXMsCiAgZm9ybWF0QW5hbHl0aWNzRHVyYXRpb24sCiAgZm9ybWF0QW5hbHl0aWNzTnVtYmVyLAogIGZvcm1hdEFuYWx5dGljc1BlcmNlbnQsCiAgbWFwQW5hbHl0aWNzQnVja2V0cywKfSBmcm9tICIuL21vZGVsIjsKaW1wb3J0IHsgdXNlR2F0ZXdheVJlcXVlc3RBbmFseXRpY3MgfSBmcm9tICIuL3VzZUdhdGV3YXlSZXF1ZXN0QW5hbHl0aWNzIjsKCmV4cG9ydCB0eXBlIFJlcXVlc3RBbmFseXRpY3NNZXRyaWNLZXkgPQogIHwgInJlcXVlc3RzIgogIHwgImNsaWVudHMiCiAgfCAiZXJyb3JzIgogIHwgInA5NSIKICB8ICJ0cmFmZmljIjsKCnR5cGUgQW5hbHl0aWNzRGltZW5zaW9uS2V5ID0ga2V5b2YgR2F0ZXdheUxvZ0FuYWx5dGljc1BheWxvYWRbImRpbWVuc2lvbnMiXTsKCmV4cG9ydCBjb25zdCB1c2VSZXF1ZXN0QW5hbHl0aWNzUGFnZSA9ICgpID0+IHsKICBjb25zdCB7IGxvY2FsZSwgdCB9ID0gdXNlSTE4bigpOwogIGNvbnN0IHJlc291cmNlID0gdXNlR2F0ZXdheVJlcXVlc3RBbmFseXRpY3MoKTsKICBjb25zdCBsb2NhbGVDb2RlID0gY29tcHV0ZWQoKCkgPT4gU3RyaW5nKGxvY2FsZS52YWx1ZSkpOwogIGNvbnN0IGhhc1JlcXVlc3RzID0gY29tcHV0ZWQoCiAgICAoKSA9PiAocmVzb3VyY2UuZGF0YS52YWx1ZT8uc3VtbWFyeS5yZXF1ZXN0cyB8fCAwKSA+IDAsCiAgKTsKCiAgY29uc3QgbWV0cmljQ2FyZHMgPSBjb21wdXRlZDwKICAgIEFycmF5PHsga2V5OiBSZXF1ZXN0QW5hbHl0aWNzTWV0cmljS2V5OyBsYWJlbDogc3RyaW5nOyB2YWx1ZTogc3RyaW5nIH0+CiAgPigoKSA9PiB7CiAgICBjb25zdCBzdW1tYXJ5ID0gcmVzb3VyY2UuZGF0YS52YWx1ZT8uc3VtbWFyeTsKICAgIHJldHVybiBbCiAgICAgIHsKICAgICAgICBrZXk6ICJyZXF1ZXN0cyIsCiAgICAgICAgbGFiZWw6IHQoImFkbWluLnJlcXVlc3RBbmFseXNpcy5tZXRyaWNzLnJlcXVlc3RzIiksCiAgICAgICAgdmFsdWU6IGZvcm1hdEFuYWx5dGljc051bWJlcigKICAgICAgICAgIHN1bW1hcnk/LnJlcXVlc3RzIHx8IDAsCiAgICAgICAgICBsb2NhbGVDb2RlLnZhbHVlLAogICAgICAgICksCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBrZXk6ICJjbGllbnRzIiwKICAgICAgICBsYWJlbDogdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLm1ldHJpY3MudW5pcXVlQ2xpZW50cyIpLAogICAgICAgIHZhbHVlOiBmb3JtYXRBbmFseXRpY3NOdW1iZXIoCiAgICAgICAgICBzdW1tYXJ5Py51bmlxdWVfY2xpZW50cyB8fCAwLAogICAgICAgICAgbG9jYWxlQ29kZS52YWx1ZSwKICAgICAgICApLAogICAgICB9LAogICAgICB7CiAgICAgICAga2V5OiAiZXJyb3JzIiwKICAgICAgICBsYWJlbDogdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLm1ldHJpY3Muc2VydmVyRXJyb3JSYXRlIiksCiAgICAgICAgdmFsdWU6IGZvcm1hdEFuYWx5dGljc1BlcmNlbnQoCiAgICAgICAgICBzdW1tYXJ5Py5zZXJ2ZXJfZXJyb3JfcmF0ZSB8fCAwLAogICAgICAgICAgbG9jYWxlQ29kZS52YWx1ZSwKICAgICAgICApLAogICAgICB9LAogICAgICB7CiAgICAgICAga2V5OiAicDk1IiwKICAgICAgICBsYWJlbDogdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLm1ldHJpY3MucDk1RHVyYXRpb24iKSwKICAgICAgICB2YWx1ZTogZm9ybWF0QW5hbHl0aWNzRHVyYXRpb24oCiAgICAgICAgICBzdW1tYXJ5Py5wOTVfZHVyYXRpb25fbXMgfHwgMCwKICAgICAgICAgIGxvY2FsZUNvZGUudmFsdWUsCiAgICAgICAgKSwKICAgICAgfSwKICAgICAgewogICAgICAgIGtleTogInRyYWZmaWMiLAogICAgICAgIGxhYmVsOiB0KCJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMubWV0cmljcy5ieXRlc091dCIpLAogICAgICAgIHZhbHVlOiBmb3JtYXRBbmFseXRpY3NCeXRlcygKICAgICAgICAgIHN1bW1hcnk/LmJ5dGVzX291dCB8fCAwLAogICAgICAgICAgbG9jYWxlQ29kZS52YWx1ZSwKICAgICAgICApLAogICAgICB9LAogICAgXTsKICB9KTsKCiAgY29uc3QgY2hhcnRTZXJpZXMgPSBjb21wdXRlZDxUaW1lU2VyaWVzQ2hhcnRTZXJpZXNbXT4oKCkgPT4gWwogICAgewogICAgICBuYW1lOiB0KCJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMuY2hhcnQucmVxdWVzdHMiKSwKICAgICAgY29sb3I6ICIjMjU2M2ViIiwKICAgICAgZmlsbDogInJnYmEoMzcsIDk5LCAyMzUsIDAuMTIpIiwKICAgICAgZGF0YToKICAgICAgICByZXNvdXJjZS5kYXRhLnZhbHVlPy5zZXJpZXMubWFwKChwb2ludCkgPT4gWwogICAgICAgICAgcG9pbnQuYnVja2V0X3N0YXJ0LAogICAgICAgICAgcG9pbnQucmVxdWVzdHMsCiAgICAgICAgXSkgfHwgW10sCiAgICB9LAogICAgewogICAgICBuYW1lOiB0KCJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMuY2hhcnQuY2xpZW50RXJyb3JzIiksCiAgICAgIGNvbG9yOiAiI2Q5NzcwNiIsCiAgICAgIGZpbGw6ICJyZ2JhKDIxNywgMTE5LCA2LCAwLjA0KSIsCiAgICAgIGRhdGE6CiAgICAgICAgcmVzb3VyY2UuZGF0YS52YWx1ZT8uc2VyaWVzLm1hcCgocG9pbnQpID0+IFsKICAgICAgICAgIHBvaW50LmJ1Y2tldF9zdGFydCwKICAgICAgICAgIHBvaW50LmNsaWVudF9lcnJvcnMsCiAgICAgICAgXSkgfHwgW10sCiAgICB9LAogICAgewogICAgICBuYW1lOiB0KCJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMuY2hhcnQuc2VydmVyRXJyb3JzIiksCiAgICAgIGNvbG9yOiAiI2RjMjYyNiIsCiAgICAgIGZpbGw6ICJyZ2JhKDIyMCwgMzgsIDM4LCAwLjA0KSIsCiAgICAgIGRhdGE6CiAgICAgICAgcmVzb3VyY2UuZGF0YS52YWx1ZT8uc2VyaWVzLm1hcCgocG9pbnQpID0+IFsKICAgICAgICAgIHBvaW50LmJ1Y2tldF9zdGFydCwKICAgICAgICAgIHBvaW50LnNlcnZlcl9lcnJvcnMsCiAgICAgICAgXSkgfHwgW10sCiAgICB9LAogIF0pOwogIGNvbnN0IGNoYXJ0VGltZU9mZnNldHMgPSBjb21wdXRlZCgoKSA9PgogICAgKHJlc291cmNlLmRhdGEudmFsdWU/LnNlcmllcyB8fCBbXSkKICAgICAgLm1hcCgocG9pbnQpID0+ICh7CiAgICAgICAgdGltZXN0YW1wOiBEYXRlLnBhcnNlKHBvaW50LmJ1Y2tldF9zdGFydCksCiAgICAgICAgb2Zmc2V0OiBhbmFseXRpY3NUaW1lc3RhbXBPZmZzZXRNaW51dGVzKHBvaW50LmJ1Y2tldF9zdGFydCksCiAgICAgIH0pKQogICAgICAuZmlsdGVyKChwb2ludCkgPT4gTnVtYmVyLmlzRmluaXRlKHBvaW50LnRpbWVzdGFtcCkpLAogICk7CiAgY29uc3QgZ2F0ZXdheUNoYXJ0VGltZXN0YW1wID0gKHZhbHVlOiBudW1iZXIpID0+IHsKICAgIGxldCBvZmZzZXQgPSAwOwogICAgbGV0IGRpc3RhbmNlID0gTnVtYmVyLlBPU0lUSVZFX0lORklOSVRZOwogICAgZm9yIChjb25zdCBwb2ludCBvZiBjaGFydFRpbWVPZmZzZXRzLnZhbHVlKSB7CiAgICAgIGNvbnN0IG5leHREaXN0YW5jZSA9IE1hdGguYWJzKHBvaW50LnRpbWVzdGFtcCAtIHZhbHVlKTsKICAgICAgaWYgKG5leHREaXN0YW5jZSA8IGRpc3RhbmNlKSB7CiAgICAgICAgb2Zmc2V0ID0gcG9pbnQub2Zmc2V0OwogICAgICAgIGRpc3RhbmNlID0gbmV4dERpc3RhbmNlOwogICAgICB9CiAgICB9CiAgICByZXR1cm4gdmFsdWUgKyBvZmZzZXQgKiA2MF8wMDA7CiAgfTsKICBjb25zdCBmb3JtYXRDaGFydFRpbWUgPSAodmFsdWU6IG51bWJlcikgPT4gewogICAgY29uc3QgZ3JhbnVsYXJpdHkgPSByZXNvdXJjZS5kYXRhLnZhbHVlPy5yYW5nZS5ncmFudWxhcml0eTsKICAgIHJldHVybiBuZXcgSW50bC5EYXRlVGltZUZvcm1hdChsb2NhbGVDb2RlLnZhbHVlLCB7CiAgICAgIG1vbnRoOiAic2hvcnQiLAogICAgICBkYXk6ICJudW1lcmljIiwKICAgICAgLi4uKGdyYW51bGFyaXR5ID09PSAiZGF5IgogICAgICAgID8ge30KICAgICAgICA6IHsgaG91cjogIjItZGlnaXQiLCBtaW51dGU6ICIyLWRpZ2l0IiB9KSwKICAgICAgdGltZVpvbmU6ICJVVEMiLAogICAgfSkuZm9ybWF0KG5ldyBEYXRlKGdhdGV3YXlDaGFydFRpbWVzdGFtcCh2YWx1ZSkpKTsKICB9OwoKICBjb25zdCBkaW1lbnNpb25JdGVtcyA9IChrZXk6IEFuYWx5dGljc0RpbWVuc2lvbktleSkgPT4KICAgIG1hcEFuYWx5dGljc0J1Y2tldHMoCiAgICAgIHJlc291cmNlLmRhdGEudmFsdWU/LmRpbWVuc2lvbnNba2V5XSB8fCBbXSwKICAgICAgKHZhbHVlKSA9PiBhbmFseXRpY3NEaW1lbnNpb25MYWJlbCh2YWx1ZSwgdCksCiAgICApOwogIGNvbnN0IHRhcmdldFRhYnMgPSBjb21wdXRlZCgoKSA9PiBbCiAgICB7CiAgICAgIGtleTogInBhdGhzIiwKICAgICAgbGFiZWw6IHQoImFkbWluLnJlcXVlc3RBbmFseXNpcy50YWJzLnBhdGhzIiksCiAgICAgIGl0ZW1zOiBkaW1lbnNpb25JdGVtcygicGF0aHMiKSwKICAgIH0sCiAgICB7CiAgICAgIGtleTogInJvdXRlcyIsCiAgICAgIGxhYmVsOiB0KCJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMudGFicy5yb3V0ZXMiKSwKICAgICAgaXRlbXM6IGRpbWVuc2lvbkl0ZW1zKCJyb3V0ZXMiKSwKICAgIH0sCiAgICB7CiAgICAgIGtleTogImhvc3RzIiwKICAgICAgbGFiZWw6IHQoImFkbWluLnJlcXVlc3RBbmFseXNpcy50YWJzLmhvc3RzIiksCiAgICAgIGl0ZW1zOiBkaW1lbnNpb25JdGVtcygiaG9zdHMiKSwKICAgIH0sCiAgICB7CiAgICAgIGtleTogInVwc3RyZWFtcyIsCiAgICAgIGxhYmVsOiB0KCJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMudGFicy51cHN0cmVhbXMiKSwKICAgICAgaXRlbXM6IGRpbWVuc2lvbkl0ZW1zKCJ1cHN0cmVhbXMiKSwKICAgIH0sCiAgXSk7CiAgY29uc3Qgc291cmNlVGFicyA9IGNvbXB1dGVkKCgpID0+IFsKICAgIHsKICAgICAga2V5OiAicmVmZXJyZXJzIiwKICAgICAgbGFiZWw6IHQoImFkbWluLnJlcXVlc3RBbmFseXNpcy50YWJzLnJlZmVycmVycyIpLAogICAgICBpdGVtczogZGltZW5zaW9uSXRlbXMoInJlZmVycmVycyIpLAogICAgfSwKICAgIHsKICAgICAga2V5OiAidXRtX3NvdXJjZXMiLAogICAgICBsYWJlbDogdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLnRhYnMudXRtU291cmNlcyIpLAogICAgICBpdGVtczogZGltZW5zaW9uSXRlbXMoInV0bV9zb3VyY2VzIiksCiAgICB9LAogICAgewogICAgICBrZXk6ICJ1dG1fbWVkaXVtcyIsCiAgICAgIGxhYmVsOiB0KCJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMudGFicy51dG1NZWRpdW1zIiksCiAgICAgIGl0ZW1zOiBkaW1lbnNpb25JdGVtcygidXRtX21lZGl1bXMiKSwKICAgIH0sCiAgICB7CiAgICAgIGtleTogInV0bV9jYW1wYWlnbnMiLAogICAgICBsYWJlbDogdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLnRhYnMudXRtQ2FtcGFpZ25zIiksCiAgICAgIGl0ZW1zOiBkaW1lbnNpb25JdGVtcygidXRtX2NhbXBhaWducyIpLAogICAgfSwKICBdKTsKCiAgY29uc3QgZ2VvRm9vdGVyID0gKAogICAgc3RhdHVzOiAiY29tcGxldGUiIHwgInJlc29sdmluZyIgfCAicGFydGlhbCIsCiAgICByZXNvbHZlZDogbnVtYmVyLAogICAgdG90YWw6IG51bWJlciwKICAgIGNvdmVyYWdlOiBudW1iZXIsCiAgKSA9PiB7CiAgICBpZiAoc3RhdHVzID09PSAicmVzb2x2aW5nIikgewogICAgICByZXR1cm4gdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLmdlby5yZXNvbHZpbmciLCB7IHJlc29sdmVkLCB0b3RhbCB9KTsKICAgIH0KICAgIHJldHVybiB0KAogICAgICBzdGF0dXMgPT09ICJjb21wbGV0ZSIKICAgICAgICA/ICJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMuZ2VvLmNvbXBsZXRlIgogICAgICAgIDogImFkbWluLnJlcXVlc3RBbmFseXNpcy5nZW8ucGFydGlhbCIsCiAgICAgIHsgY292ZXJhZ2U6IGZvcm1hdEFuYWx5dGljc1BlcmNlbnQoY292ZXJhZ2UsIGxvY2FsZUNvZGUudmFsdWUpIH0sCiAgICApOwogIH07CiAgY29uc3QgZ2VvVGFicyA9IGNvbXB1dGVkKCgpID0+IHsKICAgIGNvbnN0IGdlbyA9IHJlc291cmNlLmRhdGEudmFsdWU/LmdlbzsKICAgIHJldHVybiBbCiAgICAgIHsKICAgICAgICBrZXk6ICJjb3VudHJpZXMiLAogICAgICAgIGxhYmVsOiB0KCJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMudGFicy5jb3VudHJpZXMiKSwKICAgICAgICBtZXRyaWNMYWJlbDogdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLm1ldHJpY3MudW5pcXVlQ2xpZW50cyIpLAogICAgICAgIGl0ZW1zOiBtYXBBbmFseXRpY3NCdWNrZXRzKGdlbz8uaXRlbXMgfHwgW10sICh2YWx1ZSkgPT4KICAgICAgICAgIGFuYWx5dGljc0NvdW50cnlMYWJlbCh2YWx1ZSwgbG9jYWxlQ29kZS52YWx1ZSwgdCksCiAgICAgICAgKSwKICAgICAgICBmb290ZXI6IGdlbwogICAgICAgICAgPyBnZW9Gb290ZXIoCiAgICAgICAgICAgICAgZ2VvLnN0YXR1cywKICAgICAgICAgICAgICBnZW8ucmVzb2x2ZWRfY2xpZW50cywKICAgICAgICAgICAgICBnZW8udG90YWxfY2xpZW50cywKICAgICAgICAgICAgICBnZW8uY292ZXJhZ2UsCiAgICAgICAgICAgICkKICAgICAgICAgIDogIiIsCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBrZXk6ICJyZWdpb25zIiwKICAgICAgICBsYWJlbDogdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLnRhYnMucmVnaW9ucyIpLAogICAgICAgIG1ldHJpY0xhYmVsOiB0KCJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMubWV0cmljcy51bmlxdWVDbGllbnRzIiksCiAgICAgICAgaXRlbXM6IChnZW8/LnJlZ2lvbnMgfHwgW10pLm1hcCgoaXRlbSkgPT4gKHsKICAgICAgICAgIC4uLml0ZW0sCiAgICAgICAgICBsYWJlbDogYW5hbHl0aWNzUmVnaW9uTGFiZWwoaXRlbSwgbG9jYWxlQ29kZS52YWx1ZSwgdCksCiAgICAgICAgfSkpLAogICAgICAgIGZvb3RlcjogZ2VvCiAgICAgICAgICA/IGdlb0Zvb3RlcigKICAgICAgICAgICAgICBnZW8ucmVnaW9uX3N0YXR1cywKICAgICAgICAgICAgICBnZW8ucmVzb2x2ZWRfcmVnaW9uX2NsaWVudHMsCiAgICAgICAgICAgICAgZ2VvLnRvdGFsX2NsaWVudHMsCiAgICAgICAgICAgICAgZ2VvLnJlZ2lvbl9jb3ZlcmFnZSwKICAgICAgICAgICAgKQogICAgICAgICAgOiAiIiwKICAgICAgfSwKICAgIF07CiAgfSk7CiAgY29uc3QgY2xpZW50VGFicyA9IGNvbXB1dGVkKCgpID0+IFsKICAgIHsKICAgICAga2V5OiAiZGV2aWNlcyIsCiAgICAgIGxhYmVsOiB0KCJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMudGFicy5kZXZpY2VzIiksCiAgICAgIGl0ZW1zOiBkaW1lbnNpb25JdGVtcygiZGV2aWNlcyIpLAogICAgfSwKICAgIHsKICAgICAga2V5OiAiYnJvd3NlcnMiLAogICAgICBsYWJlbDogdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLnRhYnMuYnJvd3NlcnMiKSwKICAgICAgaXRlbXM6IGRpbWVuc2lvbkl0ZW1zKCJicm93c2VycyIpLAogICAgfSwKICAgIHsKICAgICAga2V5OiAib3BlcmF0aW5nX3N5c3RlbXMiLAogICAgICBsYWJlbDogdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLnRhYnMub3BlcmF0aW5nU3lzdGVtcyIpLAogICAgICBpdGVtczogZGltZW5zaW9uSXRlbXMoIm9wZXJhdGluZ19zeXN0ZW1zIiksCiAgICB9LAogIF0pOwogIGNvbnN0IHJlc3BvbnNlVGFicyA9IGNvbXB1dGVkKCgpID0+IFsKICAgIHsKICAgICAga2V5OiAic3RhdHVzZXMiLAogICAgICBsYWJlbDogdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLnRhYnMuc3RhdHVzZXMiKSwKICAgICAgaXRlbXM6IGRpbWVuc2lvbkl0ZW1zKCJzdGF0dXNlcyIpLAogICAgfSwKICAgIHsKICAgICAga2V5OiAibWV0aG9kcyIsCiAgICAgIGxhYmVsOiB0KCJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMudGFicy5tZXRob2RzIiksCiAgICAgIGl0ZW1zOiBkaW1lbnNpb25JdGVtcygibWV0aG9kcyIpLAogICAgfSwKICAgIHsKICAgICAga2V5OiAibGF0ZW5jeV9iYW5kcyIsCiAgICAgIGxhYmVsOiB0KCJhZG1pbi5yZXF1ZXN0QW5hbHlzaXMudGFicy5sYXRlbmN5IiksCiAgICAgIGl0ZW1zOiBkaW1lbnNpb25JdGVtcygibGF0ZW5jeV9iYW5kcyIpLAogICAgfSwKICBdKTsKICBjb25zdCBzZWN1cml0eVRhYnMgPSBjb21wdXRlZCgoKSA9PiBbCiAgICB7CiAgICAgIGtleTogImF1dGhfZGVjaXNpb25zIiwKICAgICAgbGFiZWw6IHQoImFkbWluLnJlcXVlc3RBbmFseXNpcy50YWJzLmF1dGhEZWNpc2lvbnMiKSwKICAgICAgaXRlbXM6IGRpbWVuc2lvbkl0ZW1zKCJhdXRoX2RlY2lzaW9ucyIpLAogICAgfSwKICAgIHsKICAgICAga2V5OiAid2FmX2FjdGlvbnMiLAogICAgICBsYWJlbDogdCgiYWRtaW4ucmVxdWVzdEFuYWx5c2lzLnRhYnMud2FmQWN0aW9ucyIpLAogICAgICBpdGVtczogZGltZW5zaW9uSXRlbXMoIndhZl9hY3Rpb25zIiksCiAgICB9LAogIF0pOwoKICByZXR1cm4gcmVhY3RpdmUoewogICAgLi4ucmVzb3VyY2UsCiAgICBjaGFydFNlcmllcywKICAgIGNsaWVudFRhYnMsCiAgICBmb3JtYXRDaGFydFRpbWUsCiAgICBnZW9UYWJzLAogICAgaGFzUmVxdWVzdHMsCiAgICBtZXRyaWNDYXJkcywKICAgIHJlc3BvbnNlVGFicywKICAgIHNlY3VyaXR5VGFicywKICAgIHNvdXJjZVRhYnMsCiAgICB0YXJnZXRUYWJzLAogIH0pOwp9OwoKZXhwb3J0IHR5cGUgUmVxdWVzdEFuYWx5dGljc1BhZ2VNb2RlbCA9IFJldHVyblR5cGU8CiAgdHlwZW9mIHVzZVJlcXVlc3RBbmFseXRpY3NQYWdlCj47Cg==
+import { computed, reactive } from "vue";
+import { useI18n } from "vue-i18n";
+import type { TimeSeriesChartSeries } from "@/components/charts/TimeSeriesChart.vue";
+import type { GatewayLogAnalyticsPayload } from "@/types";
+import {
+  analyticsCountryLabel,
+  analyticsDimensionLabel,
+  analyticsRegionLabel,
+  analyticsTimestampOffsetMinutes,
+  formatAnalyticsBytes,
+  formatAnalyticsDuration,
+  formatAnalyticsNumber,
+  formatAnalyticsPercent,
+  mapAnalyticsBuckets,
+} from "./model";
+import { useGatewayRequestAnalytics } from "./useGatewayRequestAnalytics";
+
+export type RequestAnalyticsMetricKey =
+  | "requests"
+  | "clients"
+  | "errors"
+  | "p95"
+  | "traffic";
+
+type AnalyticsDimensionKey = keyof GatewayLogAnalyticsPayload["dimensions"];
+
+export const useRequestAnalyticsPage = () => {
+  const { locale, t } = useI18n();
+  const resource = useGatewayRequestAnalytics();
+  const localeCode = computed(() => String(locale.value));
+  const hasRequests = computed(
+    () => (resource.data.value?.summary.requests || 0) > 0,
+  );
+
+  const metricCards = computed<
+    Array<{ key: RequestAnalyticsMetricKey; label: string; value: string }>
+  >(() => {
+    const summary = resource.data.value?.summary;
+    return [
+      {
+        key: "requests",
+        label: t("admin.requestAnalysis.metrics.requests"),
+        value: formatAnalyticsNumber(
+          summary?.requests || 0,
+          localeCode.value,
+        ),
+      },
+      {
+        key: "clients",
+        label: t("admin.requestAnalysis.metrics.uniqueClients"),
+        value: formatAnalyticsNumber(
+          summary?.unique_clients || 0,
+          localeCode.value,
+        ),
+      },
+      {
+        key: "errors",
+        label: t("admin.requestAnalysis.metrics.serverErrorRate"),
+        value: formatAnalyticsPercent(
+          summary?.server_error_rate || 0,
+          localeCode.value,
+        ),
+      },
+      {
+        key: "p95",
+        label: t("admin.requestAnalysis.metrics.p95Duration"),
+        value: formatAnalyticsDuration(
+          summary?.p95_duration_ms || 0,
+          localeCode.value,
+        ),
+      },
+      {
+        key: "traffic",
+        label: t("admin.requestAnalysis.metrics.bytesOut"),
+        value: formatAnalyticsBytes(
+          summary?.bytes_out || 0,
+          localeCode.value,
+        ),
+      },
+    ];
+  });
+
+  const chartSeries = computed<TimeSeriesChartSeries[]>(() => [
+    {
+      name: t("admin.requestAnalysis.chart.requests"),
+      color: "#2563eb",
+      fill: "rgba(37, 99, 235, 0.12)",
+      data:
+        resource.data.value?.series.map((point) => [
+          point.bucket_start,
+          point.requests,
+        ]) || [],
+    },
+    {
+      name: t("admin.requestAnalysis.chart.clientErrors"),
+      color: "#d97706",
+      fill: "rgba(217, 119, 6, 0.04)",
+      data:
+        resource.data.value?.series.map((point) => [
+          point.bucket_start,
+          point.client_errors,
+        ]) || [],
+    },
+    {
+      name: t("admin.requestAnalysis.chart.serverErrors"),
+      color: "#dc2626",
+      fill: "rgba(220, 38, 38, 0.04)",
+      data:
+        resource.data.value?.series.map((point) => [
+          point.bucket_start,
+          point.server_errors,
+        ]) || [],
+    },
+  ]);
+  const chartTimeOffsets = computed(() =>
+    (resource.data.value?.series || [])
+      .map((point) => ({
+        timestamp: Date.parse(point.bucket_start),
+        offset: analyticsTimestampOffsetMinutes(point.bucket_start),
+      }))
+      .filter((point) => Number.isFinite(point.timestamp)),
+  );
+  const gatewayChartTimestamp = (value: number) => {
+    let offset = 0;
+    let distance = Number.POSITIVE_INFINITY;
+    for (const point of chartTimeOffsets.value) {
+      const nextDistance = Math.abs(point.timestamp - value);
+      if (nextDistance < distance) {
+        offset = point.offset;
+        distance = nextDistance;
+      }
+    }
+    return value + offset * 60_000;
+  };
+  const formatChartTime = (value: number) => {
+    const granularity = resource.data.value?.range.granularity;
+    return new Intl.DateTimeFormat(localeCode.value, {
+      month: "short",
+      day: "numeric",
+      ...(granularity === "day"
+        ? {}
+        : { hour: "2-digit", minute: "2-digit" }),
+      timeZone: "UTC",
+    }).format(new Date(gatewayChartTimestamp(value)));
+  };
+
+  const dimensionItems = (key: AnalyticsDimensionKey) =>
+    mapAnalyticsBuckets(
+      resource.data.value?.dimensions[key] || [],
+      (value) => analyticsDimensionLabel(value, t),
+    );
+  const targetTabs = computed(() => [
+    {
+      key: "paths",
+      label: t("admin.requestAnalysis.tabs.paths"),
+      items: dimensionItems("paths"),
+    },
+    {
+      key: "routes",
+      label: t("admin.requestAnalysis.tabs.routes"),
+      items: dimensionItems("routes"),
+    },
+    {
+      key: "hosts",
+      label: t("admin.requestAnalysis.tabs.hosts"),
+      items: dimensionItems("hosts"),
+    },
+    {
+      key: "upstreams",
+      label: t("admin.requestAnalysis.tabs.upstreams"),
+      items: dimensionItems("upstreams"),
+    },
+  ]);
+  const sourceTabs = computed(() => [
+    {
+      key: "referrers",
+      label: t("admin.requestAnalysis.tabs.referrers"),
+      items: dimensionItems("referrers"),
+    },
+    {
+      key: "utm_sources",
+      label: t("admin.requestAnalysis.tabs.utmSources"),
+      items: dimensionItems("utm_sources"),
+    },
+    {
+      key: "utm_mediums",
+      label: t("admin.requestAnalysis.tabs.utmMediums"),
+      items: dimensionItems("utm_mediums"),
+    },
+    {
+      key: "utm_campaigns",
+      label: t("admin.requestAnalysis.tabs.utmCampaigns"),
+      items: dimensionItems("utm_campaigns"),
+    },
+  ]);
+
+  const geoFooter = (
+    status: "complete" | "resolving" | "partial",
+    resolved: number,
+    total: number,
+    coverage: number,
+  ) => {
+    if (status === "resolving") {
+      return t("admin.requestAnalysis.geo.resolving", { resolved, total });
+    }
+    return t(
+      status === "complete"
+        ? "admin.requestAnalysis.geo.complete"
+        : "admin.requestAnalysis.geo.partial",
+      { coverage: formatAnalyticsPercent(coverage, localeCode.value) },
+    );
+  };
+  const geoTabs = computed(() => {
+    const geo = resource.data.value?.geo;
+    return [
+      {
+        key: "countries",
+        label: t("admin.requestAnalysis.tabs.countries"),
+        metricLabel: t("admin.requestAnalysis.metrics.uniqueClients"),
+        items: mapAnalyticsBuckets(geo?.items || [], (value) =>
+          analyticsCountryLabel(value, localeCode.value, t),
+        ),
+        footer: geo
+          ? geoFooter(
+              geo.status,
+              geo.resolved_clients,
+              geo.total_clients,
+              geo.coverage,
+            )
+          : "",
+      },
+      {
+        key: "regions",
+        label: t("admin.requestAnalysis.tabs.regions"),
+        metricLabel: t("admin.requestAnalysis.metrics.uniqueClients"),
+        items: (geo?.regions || []).map((item) => ({
+          ...item,
+          label: analyticsRegionLabel(item, localeCode.value, t),
+        })),
+        footer: geo
+          ? geoFooter(
+              geo.region_status,
+              geo.resolved_region_clients,
+              geo.total_clients,
+              geo.region_coverage,
+            )
+          : "",
+      },
+    ];
+  });
+  const clientTabs = computed(() => [
+    {
+      key: "devices",
+      label: t("admin.requestAnalysis.tabs.devices"),
+      items: dimensionItems("devices"),
+    },
+    {
+      key: "browsers",
+      label: t("admin.requestAnalysis.tabs.browsers"),
+      items: dimensionItems("browsers"),
+    },
+    {
+      key: "operating_systems",
+      label: t("admin.requestAnalysis.tabs.operatingSystems"),
+      items: dimensionItems("operating_systems"),
+    },
+  ]);
+  const responseTabs = computed(() => [
+    {
+      key: "statuses",
+      label: t("admin.requestAnalysis.tabs.statuses"),
+      items: dimensionItems("statuses"),
+    },
+    {
+      key: "methods",
+      label: t("admin.requestAnalysis.tabs.methods"),
+      items: dimensionItems("methods"),
+    },
+    {
+      key: "latency_bands",
+      label: t("admin.requestAnalysis.tabs.latency"),
+      items: dimensionItems("latency_bands"),
+    },
+  ]);
+  const securityTabs = computed(() => [
+    {
+      key: "auth_decisions",
+      label: t("admin.requestAnalysis.tabs.authDecisions"),
+      items: dimensionItems("auth_decisions"),
+    },
+    {
+      key: "waf_actions",
+      label: t("admin.requestAnalysis.tabs.wafActions"),
+      items: dimensionItems("waf_actions"),
+    },
+  ]);
+
+  return reactive({
+    ...resource,
+    chartSeries,
+    clientTabs,
+    formatChartTime,
+    geoTabs,
+    hasRequests,
+    metricCards,
+    responseTabs,
+    securityTabs,
+    sourceTabs,
+    targetTabs,
+  });
+};
+
+export type RequestAnalyticsPageModel = ReturnType<
+  typeof useRequestAnalyticsPage
+>;

@@ -1,1 +1,542 @@
-dXNlIHN0ZDo6ewogICAgY29sbGVjdGlvbnM6OntCVHJlZU1hcCwgSGFzaFNldH0sCiAgICBuZXQ6OklwQWRkciwKfTsKCnVzZSBzZXJkZV9qc29uOjp7TWFwLCBWYWx1ZSwganNvbn07Cgp1c2UgY3JhdGU6OnsKICAgIGF1dGhfbW9iaWxpdHksCiAgICBhdXRoX21vYmlsaXR5X2tleXM6OnsKICAgICAgICBzdW1tYXJ5X2tleSBhcyBhdXRoX21vYmlsaXR5X3N1bW1hcnlfa2V5LCB0aW1lbGluZV9rZXkgYXMgYXV0aF9tb2JpbGl0eV90aW1lbGluZV9rZXksCiAgICB9LAogICAgaHR0cF91dGlscywKICAgIGkxOG46OlRyYW5zbGF0b3IsCiAgICBpcF9sb2NhdGlvbiwKICAgIHN0YXRlOjpBcHBTdGF0ZSwKICAgIHN0b3JlOjpXaGl0ZWxpc3RSZWNvcmQsCiAgICB0aW1lX3V0aWxzLCB3aGl0ZWxpc3QsCn07CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGVuc3VyZV9zZXNzaW9uX2NvbW1lbnQoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgc2Vzc2lvbl9pZDogJnN0ciwKICAgIG11dCBkYXRhOiBWYWx1ZSwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IFZhbHVlIHsKICAgIGxldCBTb21lKG9iamVjdCkgPSBkYXRhLmFzX29iamVjdF9tdXQoKSBlbHNlIHsKICAgICAgICByZXR1cm4gZGF0YTsKICAgIH07CiAgICBpZiBvYmplY3QuY29udGFpbnNfa2V5KCJjb21tZW50IikgewogICAgICAgIGxldCBjb21tZW50ID0gbm9ybWFsaXplX2F1dG9faXBfZ3JhbnRfY29tbWVudF92YWx1ZSgKICAgICAgICAgICAgb2JqZWN0LmdldCgiY29tbWVudCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICk7CiAgICAgICAgaWYgb2JqZWN0LmdldCgiY29tbWVudCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpICE9IFNvbWUoY29tbWVudC5hc19zdHIoKSkgewogICAgICAgICAgICBvYmplY3QuaW5zZXJ0KCJjb21tZW50Ii50b19zdHJpbmcoKSwgVmFsdWU6OlN0cmluZyhjb21tZW50KSk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBkYXRhOwogICAgfQoKICAgIGxldCBjb21tZW50ID0gbWF0Y2ggcmVzb2x2ZV9zZXNzaW9uX2RlZmF1bHRfY29tbWVudChzdGF0ZSwgc2Vzc2lvbl9pZCwgJmRhdGEsIHRyYW5zbGF0b3IpLmF3YWl0CiAgICB7CiAgICAgICAgT2soU29tZShjb21tZW50KSkgPT4gY29tbWVudCwKICAgICAgICBPayhOb25lKSA9PiByZXR1cm4gZGF0YSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAlc2Vzc2lvbl9pZCwgImZhaWxlZCB0byByZXNvbHZlIHNlc3Npb24gZGVmYXVsdCBjb21tZW50Iik7CiAgICAgICAgICAgIHJldHVybiBkYXRhOwogICAgICAgIH0KICAgIH07CgogICAgbGV0IG11dCB1cGRhdGVzID0gTWFwOjpuZXcoKTsKICAgIHVwZGF0ZXMuaW5zZXJ0KCJjb21tZW50Ii50b19zdHJpbmcoKSwgVmFsdWU6OlN0cmluZyhjb21tZW50LmNsb25lKCkpKTsKICAgIG1hdGNoIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAudXBkYXRlX3Nlc3Npb25fdmFsdWUoc2Vzc2lvbl9pZCwgdXBkYXRlcykKICAgICAgICAuYXdhaXQKICAgIHsKICAgICAgICBPayhTb21lKHVwZGF0ZWQpKSA9PiB1cGRhdGVkLAogICAgICAgIE9rKE5vbmUpIHwgRXJyKF8pID0+IHsKICAgICAgICAgICAgaWYgbGV0IFNvbWUob2JqZWN0KSA9IGRhdGEuYXNfb2JqZWN0X211dCgpIHsKICAgICAgICAgICAgICAgIG9iamVjdC5pbnNlcnQoImNvbW1lbnQiLnRvX3N0cmluZygpLCBWYWx1ZTo6U3RyaW5nKGNvbW1lbnQpKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBkYXRhCiAgICAgICAgfQogICAgfQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHJlc29sdmVfc2Vzc2lvbl9kZWZhdWx0X2NvbW1lbnQoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgc2Vzc2lvbl9pZDogJnN0ciwKICAgIHNlc3Npb246ICZWYWx1ZSwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IGFueWhvdzo6UmVzdWx0PE9wdGlvbjxTdHJpbmc+PiB7CiAgICBpZiBsZXQgU29tZShyZWNvcmRfaWQpID0gc2Vzc2lvbgogICAgICAgIC5nZXQoInBvc3RMb2dpbklwR3JhbnRSZWNvcmRJZCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgICYmIGxldCBTb21lKHJlY29yZCkgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF93aGl0ZWxpc3RfcmVjb3JkKHJlY29yZF9pZCkuYXdhaXQ/CiAgICAgICAgJiYgcmVjb3JkLnN0YXR1cyA9PSAiYWN0aXZlIgogICAgICAgICYmIGxldCBTb21lKGNvbW1lbnQpID0gcmVjb3JkLmNvbW1lbnQuYXNfZGVyZWYoKQogICAgewogICAgICAgIHJldHVybiBPayhTb21lKG5vcm1hbGl6ZV9hdXRvX2lwX2dyYW50X2NvbW1lbnRfdmFsdWUoCiAgICAgICAgICAgIFNvbWUoY29tbWVudCksCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgKSkpOwogICAgfQoKICAgIGlmIGxldCBTb21lKHJlY29yZF9pZCkgPSBhdXRoX21vYmlsaXR5OjpsaXN0X3Nlc3Npb25fd2hpdGVsaXN0X3JlY29yZF9pZHMoc3RhdGUsIHNlc3Npb25faWQpCiAgICAgICAgLmF3YWl0PwogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5uZXh0KCkKICAgICAgICAmJiBsZXQgU29tZShyZWNvcmQpID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfd2hpdGVsaXN0X3JlY29yZCgmcmVjb3JkX2lkKS5hd2FpdD8KICAgICAgICAmJiByZWNvcmQuc3RhdHVzID09ICJhY3RpdmUiCiAgICAgICAgJiYgbGV0IFNvbWUoY29tbWVudCkgPSByZWNvcmQuY29tbWVudC5hc19kZXJlZigpCiAgICB7CiAgICAgICAgcmV0dXJuIE9rKFNvbWUobm9ybWFsaXplX2F1dG9faXBfZ3JhbnRfY29tbWVudF92YWx1ZSgKICAgICAgICAgICAgU29tZShjb21tZW50KSwKICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICApKSk7CiAgICB9CgogICAgaWYgbGV0IFNvbWUoaXApID0gc2Vzc2lvbgogICAgICAgIC5nZXQoImlwIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKGh0dHBfdXRpbHM6Om5vcm1hbGl6ZV9pcCkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgJiYgbGV0IFNvbWUocmVjb3JkKSA9IGxhdGVzdF9hY3RpdmVfd2hpdGVsaXN0X3JlY29yZF9ieV9pcChzdGF0ZSwgJmlwKS5hd2FpdD8KICAgICAgICAmJiBsZXQgU29tZShjb21tZW50KSA9IHJlY29yZC5jb21tZW50LmFzX2RlcmVmKCkKICAgIHsKICAgICAgICByZXR1cm4gT2soU29tZShub3JtYWxpemVfYXV0b19pcF9ncmFudF9jb21tZW50X3ZhbHVlKAogICAgICAgICAgICBTb21lKGNvbW1lbnQpLAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICkpKTsKICAgIH0KCiAgICBPayhOb25lKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGxhdGVzdF9hY3RpdmVfd2hpdGVsaXN0X3JlY29yZF9ieV9pcCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBpcDogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDxPcHRpb248V2hpdGVsaXN0UmVjb3JkPj4gewogICAgbGV0IHRhcmdldF9pcCA9IGlwLnBhcnNlOjo8SXBBZGRyPigpLm9rKCk7CiAgICBsZXQgbm93ID0gdGltZV91dGlsczo6bm93X21zKCkuZGl2X2V1Y2xpZCgxMDAwKTsKICAgIGxldCBtdXQgcmVjb3JkcyA9IHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAubGlzdF93aGl0ZWxpc3RfcmVjb3JkcygpCiAgICAgICAgLmF3YWl0PwogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5maWx0ZXIofHJlY29yZHwgcmVjb3JkLnN0YXR1cyA9PSAiYWN0aXZlIikKICAgICAgICAuZmlsdGVyKHxyZWNvcmR8IHJlY29yZC5leHBpcmVfYXQuaXNfbm9uZV9vcih8ZXhwaXJlX2F0fCBleHBpcmVfYXQgPiBub3cpKQogICAgICAgIC5maWx0ZXIofHJlY29yZHwgbWF0Y2ggcmVjb3JkLnRhcmdldF90eXBlKCkgewogICAgICAgICAgICAiaXAiID0+IHJlY29yZC5pcCA9PSBpcCwKICAgICAgICAgICAgImNpZHIiID0+IHRhcmdldF9pcC5pc19zb21lX2FuZCh8dGFyZ2V0X2lwfCB7CiAgICAgICAgICAgICAgICByZWNvcmQKICAgICAgICAgICAgICAgICAgICAuaXAKICAgICAgICAgICAgICAgICAgICAucGFyc2U6OjxpcG5ldDo6SXBOZXQ+KCkKICAgICAgICAgICAgICAgICAgICAuaXNfb2tfYW5kKHxuZXR3b3JrfCBuZXR3b3JrLmNvbnRhaW5zKCZ0YXJnZXRfaXApKQogICAgICAgICAgICB9KSwKICAgICAgICAgICAgXyA9PiBmYWxzZSwKICAgICAgICB9KQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgcmVjb3Jkcy5zb3J0X2J5X2tleSh8cmVjb3JkfCBzdGQ6OmNtcDo6UmV2ZXJzZShyZWNvcmQuY3JlYXRlZF9hdCkpOwogICAgT2socmVjb3Jkcy5pbnRvX2l0ZXIoKS5uZXh0KCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc3luY19zZXNzaW9uX3doaXRlbGlzdF9jb21tZW50cygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBzZXNzaW9uX2lkOiAmc3RyLAogICAgc2Vzc2lvbjogJlZhbHVlLAogICAgY29tbWVudDogJnN0ciwKKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgbGV0IG11dCByZWNvcmRfaWRzID0gSGFzaFNldDo6bmV3KCk7CiAgICBpZiBsZXQgU29tZShyZWNvcmRfaWQpID0gc2Vzc2lvbgogICAgICAgIC5nZXQoInBvc3RMb2dpbklwR3JhbnRSZWNvcmRJZCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgewogICAgICAgIHJlY29yZF9pZHMuaW5zZXJ0KHJlY29yZF9pZC50b19zdHJpbmcoKSk7CiAgICB9CiAgICBmb3IgcmVjb3JkX2lkIGluIGF1dGhfbW9iaWxpdHk6Omxpc3Rfc2Vzc2lvbl93aGl0ZWxpc3RfcmVjb3JkX2lkcyhzdGF0ZSwgc2Vzc2lvbl9pZCkuYXdhaXQ/IHsKICAgICAgICByZWNvcmRfaWRzLmluc2VydChyZWNvcmRfaWQpOwogICAgfQoKICAgIGxldCBtdXQgY2hhbmdlZCA9IGZhbHNlOwogICAgZm9yIHJlY29yZF9pZCBpbiByZWNvcmRfaWRzIHsKICAgICAgICBjaGFuZ2VkIHw9IHN0YXRlCiAgICAgICAgICAgIC5zdG9yYWdlCiAgICAgICAgICAgIC5zdG9yZQogICAgICAgICAgICAudXBkYXRlX3doaXRlbGlzdF9jb21tZW50KCZyZWNvcmRfaWQsIGNvbW1lbnQudG9fc3RyaW5nKCkpCiAgICAgICAgICAgIC5hd2FpdD8KICAgICAgICAgICAgLmlzX3NvbWUoKTsKICAgIH0KICAgIGlmIGNoYW5nZWQgewogICAgICAgIHdoaXRlbGlzdDo6c3luY19yZXZlcnNlX3Byb3h5X3RydXN0ZWRfaXBzKHN0YXRlKS5hd2FpdDsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGZuIG5vcm1hbGl6ZV9hdXRvX2lwX2dyYW50X2NvbW1lbnRfdmFsdWUoCiAgICB2YWx1ZTogT3B0aW9uPCZzdHI+LAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gU3RyaW5nIHsKICAgIGxldCB0cmltbWVkID0gdmFsdWUudW53cmFwX29yKCIiKS50cmltKCk7CiAgICBpZiB0cmltbWVkLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBTdHJpbmc6Om5ldygpOwogICAgfQogICAgaWYgYXV0aF9tb2JpbGl0eTo6aXNfYXV0b19pcF9ncmFudF9jb21tZW50KHRyaW1tZWQpIHsKICAgICAgICB0cmFuc2xhdG9yLnQoImF1dGguYXV0b0lwR3JhbnRDb21tZW50IikKICAgIH0gZWxzZSB7CiAgICAgICAgdHJpbW1lZC50b19zdHJpbmcoKQogICAgfQp9CgpwdWIoc3VwZXIpIGZuIHNlc3Npb25fcmVjb3JkKGlkOiBTdHJpbmcsIGRhdGE6IFZhbHVlKSAtPiBWYWx1ZSB7CiAgICBtYXRjaCBkYXRhIHsKICAgICAgICBWYWx1ZTo6T2JqZWN0KG11dCBvYmplY3QpID0+IHsKICAgICAgICAgICAgb2JqZWN0Lmluc2VydCgiaWQiLnRvX3N0cmluZygpLCBWYWx1ZTo6U3RyaW5nKGlkKSk7CiAgICAgICAgICAgIFZhbHVlOjpPYmplY3Qob2JqZWN0KQogICAgICAgIH0KICAgICAgICBvdGhlciA9PiBqc29uISh7ICJpZCI6IGlkLCAiZGF0YSI6IG90aGVyIH0pLAogICAgfQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHNlc3Npb25fcmVjb3JkX3dpdGhfbW9iaWxpdHkoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaWQ6IFN0cmluZywKICAgIGRhdGE6IFZhbHVlLAopIC0+IFZhbHVlIHsKICAgIGxldCBtdXQgcmVjb3JkID0gc2Vzc2lvbl9yZWNvcmQoaWQuY2xvbmUoKSwgZGF0YSk7CiAgICBsZXQgZGV0YWlscyA9IHNlc3Npb25fbW9iaWxpdHlfZGV0YWlsc192YWx1ZShzdGF0ZSwgJmlkLCBTb21lKCZyZWNvcmQpKS5hd2FpdDsKICAgIGxldCBmbm9zX2F0dGFjaG1lbnRzID0gbGlzdF9zZXNzaW9uX2F0dGFjaG1lbnRzKHN0YXRlLCAmaWQsICJmbm9zLXRva2VuIikuYXdhaXQ7CiAgICBsZXQgdHJpbV9tZWRpYV9hdHRhY2htZW50cyA9IGxpc3Rfc2Vzc2lvbl9hdHRhY2htZW50cyhzdGF0ZSwgJmlkLCAidHJpbS1tZWRpYS10b2tlbiIpLmF3YWl0OwogICAgaWYgbGV0IFNvbWUob2JqZWN0KSA9IHJlY29yZC5hc19vYmplY3RfbXV0KCkgewogICAgICAgIG9iamVjdC5pbnNlcnQoCiAgICAgICAgICAgICJtb2JpbGl0eSIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGRldGFpbHMKICAgICAgICAgICAgICAgIC5nZXQoInN1bW1hcnkiKQogICAgICAgICAgICAgICAgLmNsb25lZCgpCiAgICAgICAgICAgICAgICAudW53cmFwX29yX2Vsc2UoZGVmYXVsdF9tb2JpbGl0eV9zdW1tYXJ5KSwKICAgICAgICApOwogICAgICAgIG9iamVjdC5pbnNlcnQoCiAgICAgICAgICAgICJmbm9zQXR0YWNobWVudHMiLnRvX3N0cmluZygpLAogICAgICAgICAgICBWYWx1ZTo6QXJyYXkoZm5vc19hdHRhY2htZW50cyksCiAgICAgICAgKTsKICAgICAgICBvYmplY3QuaW5zZXJ0KAogICAgICAgICAgICAidHJpbU1lZGlhQXR0YWNobWVudHMiLnRvX3N0cmluZygpLAogICAgICAgICAgICBWYWx1ZTo6QXJyYXkodHJpbV9tZWRpYV9hdHRhY2htZW50cyksCiAgICAgICAgKTsKICAgIH0KICAgIGh5ZHJhdGVfc2Vzc2lvbl9yZWNvcmRfaXBfbG9jYXRpb24oc3RhdGUsICZtdXQgcmVjb3JkKS5hd2FpdDsKICAgIHJlY29yZAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGh5ZHJhdGVfc2Vzc2lvbl9yZWNvcmRfaXBfbG9jYXRpb24oc3RhdGU6ICZBcHBTdGF0ZSwgcmVjb3JkOiAmbXV0IFZhbHVlKSB7CiAgICBsZXQgaWQgPSByZWNvcmQKICAgICAgICAuZ2V0KCJpZCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcigiIikKICAgICAgICAudHJpbSgpCiAgICAgICAgLnRvX3N0cmluZygpOwogICAgbGV0IGlwID0gcmVjb3JkCiAgICAgICAgLmdldCgiaXAiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC51bndyYXBfb3IoIiIpCiAgICAgICAgLnRyaW0oKQogICAgICAgIC50b19zdHJpbmcoKTsKICAgIGlmIGlkLmlzX2VtcHR5KCkgfHwgaXAuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuOwogICAgfQoKICAgIG1hdGNoIGlwX2xvY2F0aW9uOjpyZWdpc3Rlcl91c2FnZShzdGF0ZSwgJmlwLCB2ZWMhW2Zvcm1hdCEoInNlc3Npb258e2lkfSIpXSkuYXdhaXQgewogICAgICAgIE9rKGxvY2F0aW9uKSBpZiAhbG9jYXRpb24udHJpbSgpLmlzX2VtcHR5KCkgPT4gewogICAgICAgICAgICBpZiBsZXQgU29tZShvYmplY3QpID0gcmVjb3JkLmFzX29iamVjdF9tdXQoKSB7CiAgICAgICAgICAgICAgICBvYmplY3QuaW5zZXJ0KCJpcExvY2F0aW9uIi50b19zdHJpbmcoKSwgVmFsdWU6OlN0cmluZyhsb2NhdGlvbikpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIE9rKF8pID0+IHt9CiAgICAgICAgRXJyKGVycm9yKSA9PiB7CiAgICAgICAgICAgIHRyYWNpbmc6OmRlYnVnISglZXJyb3IsICVpZCwgJWlwLCAiZmFpbGVkIHRvIGh5ZHJhdGUgYXV0aCBzZXNzaW9uIElQIGxvY2F0aW9uIikKICAgICAgICB9CiAgICB9Cn0KCnB1YihzdXBlcikgYXN5bmMgZm4gbGlzdF9zZXNzaW9uX2F0dGFjaG1lbnRzKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHNlc3Npb25faWQ6ICZzdHIsCiAgICBzdWJqZWN0X3R5cGU6ICZzdHIsCikgLT4gVmVjPFZhbHVlPiB7CiAgICBtYXRjaCBsaXN0X3Nlc3Npb25fYXR0YWNobWVudHNfaW5uZXIoc3RhdGUsIHNlc3Npb25faWQsIHN1YmplY3RfdHlwZSkuYXdhaXQgewogICAgICAgIE9rKHZhbHVlKSA9PiB2YWx1ZSwKICAgICAgICBFcnIoZXJyb3IpID0+IHsKICAgICAgICAgICAgdHJhY2luZzo6d2FybiEoJWVycm9yLCAlc2Vzc2lvbl9pZCwgJXN1YmplY3RfdHlwZSwgImZhaWxlZCB0byBsaXN0IGF1dGggbW9iaWxpdHkgc2Vzc2lvbiBhdHRhY2htZW50cyIpOwogICAgICAgICAgICBWZWM6Om5ldygpCiAgICAgICAgfQogICAgfQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGxpc3Rfc2Vzc2lvbl9hdHRhY2htZW50c19pbm5lcigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBzZXNzaW9uX2lkOiAmc3RyLAogICAgc3ViamVjdF90eXBlOiAmc3RyLAopIC0+IGFueWhvdzo6UmVzdWx0PFZlYzxWYWx1ZT4+IHsKICAgIGxldCBiaW5kaW5nX3ByZWZpeCA9IGZvcm1hdCEoImZuX2tub2NrOmF1dGhfbW9iaWxpdHk6YmluZGluZzp7c3ViamVjdF90eXBlfToiKTsKICAgIGxldCBhdHRhY2htZW50X2tleXMgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmxpc3RfYXV0aF9tb2JpbGl0eV9zZXNzaW9uX2JpbmRpbmdfa2V5cyhzZXNzaW9uX2lkKQogICAgICAgIC5hd2FpdD8KICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAuZmlsdGVyKHxrZXl8IGtleS5zdGFydHNfd2l0aCgmYmluZGluZ19wcmVmaXgpKQogICAgICAgIC5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgaWYgYXR0YWNobWVudF9rZXlzLmlzX2VtcHR5KCkgewogICAgICAgIHJldHVybiBPayhWZWM6Om5ldygpKTsKICAgIH0KCiAgICBsZXQgbXV0IHN0YWxlX2tleXMgPSBWZWM6Om5ldygpOwogICAgbGV0IG11dCBhdHRhY2htZW50cyA9IFZlYzo6bmV3KCk7CiAgICBmb3Igc3RvcmFnZV9rZXkgaW4gYXR0YWNobWVudF9rZXlzIHsKICAgICAgICBsZXQgU29tZShiaW5kaW5nKSA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2pzb25fdmFsdWUoJnN0b3JhZ2Vfa2V5KS5hd2FpdD8gZWxzZSB7CiAgICAgICAgICAgIHN0YWxlX2tleXMucHVzaChzdG9yYWdlX2tleSk7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH07CiAgICAgICAgaWYgbGV0IFNvbWUoYXR0YWNobWVudCkgPQogICAgICAgICAgICBzZXNzaW9uX2F0dGFjaG1lbnRfZnJvbV9iaW5kaW5nKCZiaW5kaW5nLCBzZXNzaW9uX2lkLCBzdWJqZWN0X3R5cGUpCiAgICAgICAgewogICAgICAgICAgICBhdHRhY2htZW50cy5wdXNoKGF0dGFjaG1lbnQpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHN0YWxlX2tleXMucHVzaChzdG9yYWdlX2tleSk7CiAgICAgICAgfQogICAgfQogICAgaWYgIXN0YWxlX2tleXMuaXNfZW1wdHkoKSB7CiAgICAgICAgc3RhdGUKICAgICAgICAgICAgLnN0b3JhZ2UKICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgIC5yZW1vdmVfYXV0aF9tb2JpbGl0eV9zZXNzaW9uX2JpbmRpbmdzKHNlc3Npb25faWQsICZzdGFsZV9rZXlzKQogICAgICAgICAgICAuYXdhaXQ/OwogICAgfQoKICAgIGF0dGFjaG1lbnRzLnNvcnRfYnkofGxlZnQsIHJpZ2h0fCB7CiAgICAgICAgbGV0IGxlZnRfbXMgPSBsZWZ0CiAgICAgICAgICAgIC5nZXQoImxhc3RTZWVuQXQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLmFuZF90aGVuKHRpbWVfdXRpbHM6OnBhcnNlX2lzb19tcykKICAgICAgICAgICAgLnVud3JhcF9vcigwKTsKICAgICAgICBsZXQgcmlnaHRfbXMgPSByaWdodAogICAgICAgICAgICAuZ2V0KCJsYXN0U2VlbkF0IikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgIC5hbmRfdGhlbih0aW1lX3V0aWxzOjpwYXJzZV9pc29fbXMpCiAgICAgICAgICAgIC51bndyYXBfb3IoMCk7CiAgICAgICAgcmlnaHRfbXMuY21wKCZsZWZ0X21zKQogICAgfSk7CiAgICBPayhhdHRhY2htZW50cykKfQoKcHViKHN1cGVyKSBmbiBzZXNzaW9uX2F0dGFjaG1lbnRfZnJvbV9iaW5kaW5nKAogICAgYmluZGluZzogJlZhbHVlLAogICAgc2Vzc2lvbl9pZDogJnN0ciwKICAgIHN1YmplY3RfdHlwZTogJnN0ciwKKSAtPiBPcHRpb248VmFsdWU+IHsKICAgIGlmIGJpbmRpbmcuZ2V0KCJzdWJqZWN0VHlwZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpICE9IFNvbWUoc3ViamVjdF90eXBlKQogICAgICAgIHx8IGJpbmRpbmcuZ2V0KCJvd25lclNlc3Npb25JZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpICE9IFNvbWUoc2Vzc2lvbl9pZCkKICAgIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KCiAgICBsZXQgZXhwaXJlX2F0ID0gYmluZGluZwogICAgICAgIC5nZXQoImV4cGlyZUF0IikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2k2NCkKICAgICAgICAubWFwKHxzZWNvbmRzfCBWYWx1ZTo6U3RyaW5nKHRpbWVfdXRpbHM6Omlzb19mcm9tX21zKHNlY29uZHMuc2F0dXJhdGluZ19tdWwoMTAwMCkpKSkKICAgICAgICAudW53cmFwX29yKFZhbHVlOjpOdWxsKTsKICAgIFNvbWUoanNvbiEoewogICAgICAgICJzdWJqZWN0SGFzaCI6IGJpbmRpbmcuZ2V0KCJzdWJqZWN0SGFzaCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIiksCiAgICAgICAgImN1cnJlbnRJcCI6IGJpbmRpbmcuZ2V0KCJjdXJyZW50SXAiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpLAogICAgICAgICJjcmVhdGVkQXQiOiBiaW5kaW5nLmdldCgiY3JlYXRlZEF0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKSwKICAgICAgICAibGFzdFNlZW5BdCI6IGJpbmRpbmcuZ2V0KCJsYXN0U2VlbkF0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKSwKICAgICAgICAiZXhwaXJlc0F0IjogZXhwaXJlX2F0LAogICAgfSkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc2Vzc2lvbl9tb2JpbGl0eV9kZXRhaWxzX3ZhbHVlKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHNlc3Npb25faWQ6ICZzdHIsCiAgICBmYWxsYmFja19zZXNzaW9uOiBPcHRpb248JlZhbHVlPiwKKSAtPiBWYWx1ZSB7CiAgICBsZXQgbXV0IGV2ZW50cyA9IHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuZ2V0X2pzb25fdmFsdWUoJmF1dGhfbW9iaWxpdHlfdGltZWxpbmVfa2V5KHNlc3Npb25faWQpKQogICAgICAgIC5hd2FpdAogICAgICAgIC5vaygpCiAgICAgICAgLmZsYXR0ZW4oKQogICAgICAgIC5hbmRfdGhlbih8dmFsdWV8IHZhbHVlLmFzX2FycmF5KCkuY2xvbmVkKCkpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAuZmlsdGVyKFZhbHVlOjppc19vYmplY3QpCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBldmVudHMuc29ydF9ieSh8bGVmdCwgcmlnaHR8IHsKICAgICAgICBsZXQgbGVmdF9tcyA9IGxlZnQKICAgICAgICAgICAgLmdldCgiaGFwcGVuZWRBdCIpCiAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAuYW5kX3RoZW4odGltZV91dGlsczo6cGFyc2VfaXNvX21zKQogICAgICAgICAgICAudW53cmFwX29yKDApOwogICAgICAgIGxldCByaWdodF9tcyA9IHJpZ2h0CiAgICAgICAgICAgIC5nZXQoImhhcHBlbmVkQXQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLmFuZF90aGVuKHRpbWVfdXRpbHM6OnBhcnNlX2lzb19tcykKICAgICAgICAgICAgLnVud3JhcF9vcigwKTsKICAgICAgICBsZWZ0X21zLmNtcCgmcmlnaHRfbXMpCiAgICB9KTsKICAgIGlmIGV2ZW50cy5pc19lbXB0eSgpCiAgICAgICAgJiYgbGV0IFNvbWUoc2Vzc2lvbikgPSBmYWxsYmFja19zZXNzaW9uCiAgICAgICAgJiYgbGV0IFNvbWUobG9naW5fZXZlbnQpID0gYnVpbGRfbW9iaWxpdHlfbG9naW5fZXZlbnQoc2Vzc2lvbikKICAgIHsKICAgICAgICBldmVudHMucHVzaChsb2dpbl9ldmVudCk7CiAgICB9CgogICAgbGV0IHN0b3JlZF9zdW1tYXJ5ID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfanNvbl92YWx1ZSgmYXV0aF9tb2JpbGl0eV9zdW1tYXJ5X2tleShzZXNzaW9uX2lkKSkKICAgICAgICAuYXdhaXQKICAgICAgICAub2soKQogICAgICAgIC5mbGF0dGVuKCkKICAgICAgICAuZmlsdGVyKHZhbGlkX21vYmlsaXR5X3N1bW1hcnkpOwogICAgbGV0IHN1bW1hcnkgPSBzdG9yZWRfc3VtbWFyeS51bndyYXBfb3JfZWxzZSh8fCBidWlsZF9tb2JpbGl0eV9zdW1tYXJ5KCZldmVudHMpKTsKICAgIGpzb24hKHsKICAgICAgICAic3VtbWFyeSI6IHN1bW1hcnksCiAgICAgICAgImV2ZW50cyI6IGV2ZW50cywKICAgIH0pCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gaHlkcmF0ZV9tb2JpbGl0eV9ldmVudF9pcF9sb2NhdGlvbnMoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgc2Vzc2lvbl9pZDogJnN0ciwKICAgIGRldGFpbHM6ICZtdXQgVmFsdWUsCikgewogICAgbGV0IFNvbWUoZXZlbnRzKSA9IGRldGFpbHMuZ2V0X211dCgiZXZlbnRzIikuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5X211dCkgZWxzZSB7CiAgICAgICAgcmV0dXJuOwogICAgfTsKICAgIGlmIGV2ZW50cy5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm47CiAgICB9CgogICAgbGV0IG11dCBzZWVuID0gSGFzaFNldDo6bmV3KCk7CiAgICBsZXQgbXV0IGlwcyA9IFZlYzo6bmV3KCk7CiAgICBmb3IgZXZlbnQgaW4gZXZlbnRzLml0ZXIoKSB7CiAgICAgICAgZm9yIGlwX2tleSBpbiBbInRvSXAiLCAiZnJvbUlwIl0gewogICAgICAgICAgICBsZXQgaXAgPSBldmVudAogICAgICAgICAgICAgICAgLmdldChpcF9rZXkpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgIC51bndyYXBfb3IoIiIpCiAgICAgICAgICAgICAgICAudHJpbSgpOwogICAgICAgICAgICBsZXQgbm9ybWFsaXplZF9pcCA9IGh0dHBfdXRpbHM6Om5vcm1hbGl6ZV9pcChpcCk7CiAgICAgICAgICAgIGlmICFub3JtYWxpemVkX2lwLmlzX2VtcHR5KCkgJiYgc2Vlbi5pbnNlcnQobm9ybWFsaXplZF9pcC5jbG9uZSgpKSB7CiAgICAgICAgICAgICAgICBpcHMucHVzaChub3JtYWxpemVkX2lwKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBsZXQgcmVmZXJlbmNlID0gZm9ybWF0ISgic2Vzc2lvbi10aW1lbGluZXx7c2Vzc2lvbl9pZH0iKTsKICAgIGxldCBtdXQgbG9jYXRpb25zID0gQlRyZWVNYXA6Om5ldygpOwogICAgZm9yIGlwIGluIGlwcyB7CiAgICAgICAgbWF0Y2ggaXBfbG9jYXRpb246OnJlZ2lzdGVyX3VzYWdlKHN0YXRlLCAmaXAsIHZlYyFbcmVmZXJlbmNlLmNsb25lKCldKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKGxvY2F0aW9uKSBpZiAhbG9jYXRpb24udHJpbSgpLmlzX2VtcHR5KCkgPT4gewogICAgICAgICAgICAgICAgbG9jYXRpb25zLmluc2VydChpcCwgbG9jYXRpb24pOwogICAgICAgICAgICB9CiAgICAgICAgICAgIE9rKF8pID0+IHt9CiAgICAgICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICAgICAgdHJhY2luZzo6ZGVidWchKCVlcnJvciwgJXNlc3Npb25faWQsICVpcCwgImZhaWxlZCB0byBoeWRyYXRlIGF1dGggbW9iaWxpdHkgZXZlbnQgSVAgbG9jYXRpb24iKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIGFwcGx5X21vYmlsaXR5X2V2ZW50X2lwX2xvY2F0aW9ucyhldmVudHMsICZsb2NhdGlvbnMpOwp9CgpwdWIoc3VwZXIpIGZuIGFwcGx5X21vYmlsaXR5X2V2ZW50X2lwX2xvY2F0aW9ucygKICAgIGV2ZW50czogJm11dCBbVmFsdWVdLAogICAgbG9jYXRpb25zOiAmQlRyZWVNYXA8U3RyaW5nLCBTdHJpbmc+LAopIHsKICAgIGlmIGxvY2F0aW9ucy5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm47CiAgICB9CiAgICBmb3IgZXZlbnQgaW4gZXZlbnRzIHsKICAgICAgICBsZXQgU29tZShvYmplY3QpID0gZXZlbnQuYXNfb2JqZWN0X211dCgpIGVsc2UgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9OwogICAgICAgIGZvciAoaXBfa2V5LCBsb2NhdGlvbl9rZXkpIGluIFsoInRvSXAiLCAidG9JcExvY2F0aW9uIiksICgiZnJvbUlwIiwgImZyb21JcExvY2F0aW9uIildIHsKICAgICAgICAgICAgbGV0IGlwID0gb2JqZWN0LmdldChpcF9rZXkpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIik7CiAgICAgICAgICAgIGxldCBub3JtYWxpemVkX2lwID0gaHR0cF91dGlsczo6bm9ybWFsaXplX2lwKGlwKTsKICAgICAgICAgICAgaWYgbGV0IFNvbWUobG9jYXRpb24pID0gbG9jYXRpb25zLmdldCgmbm9ybWFsaXplZF9pcCkgewogICAgICAgICAgICAgICAgb2JqZWN0Lmluc2VydChsb2NhdGlvbl9rZXkudG9fc3RyaW5nKCksIFZhbHVlOjpTdHJpbmcobG9jYXRpb24uY2xvbmUoKSkpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX21vYmlsaXR5X2xvZ2luX2V2ZW50KHNlc3Npb246ICZWYWx1ZSkgLT4gT3B0aW9uPFZhbHVlPiB7CiAgICBsZXQgaXAgPSBzZXNzaW9uLmdldCgiaXAiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKT8udHJpbSgpOwogICAgaWYgaXAuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBsZXQgbXV0IGV2ZW50ID0gTWFwOjpuZXcoKTsKICAgIGV2ZW50Lmluc2VydCgidmVyc2lvbiIudG9fc3RyaW5nKCksIFZhbHVlOjpOdW1iZXIoMS5pbnRvKCkpKTsKICAgIGV2ZW50Lmluc2VydCgia2luZCIudG9fc3RyaW5nKCksIFZhbHVlOjpTdHJpbmcoImxvZ2luIi50b19zdHJpbmcoKSkpOwogICAgbGV0IGhhcHBlbmVkX2F0ID0gc2Vzc2lvbgogICAgICAgIC5nZXQoImxvZ2luVGltZSIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS50cmltKCkuaXNfZW1wdHkoKSkKICAgICAgICAubWFwKFRvU3RyaW5nOjp0b19zdHJpbmcpCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHRpbWVfdXRpbHM6Om5vd19pc28pOwogICAgZXZlbnQuaW5zZXJ0KCJoYXBwZW5lZEF0Ii50b19zdHJpbmcoKSwgVmFsdWU6OlN0cmluZyhoYXBwZW5lZF9hdCkpOwogICAgZXZlbnQuaW5zZXJ0KCJzb3VyY2UiLnRvX3N0cmluZygpLCBWYWx1ZTo6U3RyaW5nKCJsb2dpbiIudG9fc3RyaW5nKCkpKTsKICAgIGV2ZW50Lmluc2VydCgidG9JcCIudG9fc3RyaW5nKCksIFZhbHVlOjpTdHJpbmcoaXAudG9fc3RyaW5nKCkpKTsKICAgIGlmIGxldCBTb21lKGxvY2F0aW9uKSA9IHNlc3Npb24KICAgICAgICAuZ2V0KCJpcExvY2F0aW9uIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLnRyaW0oKS5pc19lbXB0eSgpKQogICAgewogICAgICAgIGV2ZW50Lmluc2VydCgKICAgICAgICAgICAgInRvSXBMb2NhdGlvbiIudG9fc3RyaW5nKCksCiAgICAgICAgICAgIFZhbHVlOjpTdHJpbmcobG9jYXRpb24udG9fc3RyaW5nKCkpLAogICAgICAgICk7CiAgICB9CiAgICBTb21lKFZhbHVlOjpPYmplY3QoZXZlbnQpKQp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX21vYmlsaXR5X3N1bW1hcnkoZXZlbnRzOiAmW1ZhbHVlXSkgLT4gVmFsdWUgewogICAgbGV0IGRyaWZ0X2V2ZW50cyA9IGV2ZW50cwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyKHxldmVudHwgZXZlbnQuZ2V0KCJraW5kIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSgiZHJpZnQiKSkKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGxldCBsYXN0X2RyaWZ0ID0gZHJpZnRfZXZlbnRzLmxhc3QoKS5jb3BpZWQoKTsKICAgIGpzb24hKHsKICAgICAgICAiaGFzSGlzdG9yeSI6ICFldmVudHMuaXNfZW1wdHkoKSwKICAgICAgICAiZHJpZnRDb3VudCI6IGRyaWZ0X2V2ZW50cy5sZW4oKSwKICAgICAgICAibGFzdERyaWZ0QXQiOiBsYXN0X2RyaWZ0CiAgICAgICAgICAgIC5hbmRfdGhlbih8ZXZlbnR8IGV2ZW50LmdldCgiaGFwcGVuZWRBdCIpKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0ciksCiAgICAgICAgImxhc3REcmlmdFNvdXJjZSI6IGxhc3RfZHJpZnQKICAgICAgICAgICAgLmFuZF90aGVuKHxldmVudHwgZXZlbnQuZ2V0KCJzb3VyY2UiKSkKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLAogICAgfSkKfQoKcHViKHN1cGVyKSBmbiBkZWZhdWx0X21vYmlsaXR5X3N1bW1hcnkoKSAtPiBWYWx1ZSB7CiAgICBqc29uISh7CiAgICAgICAgImhhc0hpc3RvcnkiOiBmYWxzZSwKICAgICAgICAiZHJpZnRDb3VudCI6IDAsCiAgICAgICAgImxhc3REcmlmdEF0IjogbnVsbCwKICAgICAgICAibGFzdERyaWZ0U291cmNlIjogbnVsbCwKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gdmFsaWRfbW9iaWxpdHlfc3VtbWFyeSh2YWx1ZTogJlZhbHVlKSAtPiBib29sIHsKICAgIHZhbHVlLmdldCgiaGFzSGlzdG9yeSIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKS5pc19zb21lKCkKICAgICAgICAmJiB2YWx1ZS5nZXQoImRyaWZ0Q291bnQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KS5pc19zb21lKCkKfQo=
+use std::{
+    collections::{BTreeMap, HashSet},
+    net::IpAddr,
+};
+
+use serde_json::{Map, Value, json};
+
+use crate::{
+    auth_mobility,
+    auth_mobility_keys::{
+        summary_key as auth_mobility_summary_key, timeline_key as auth_mobility_timeline_key,
+    },
+    http_utils,
+    i18n::Translator,
+    ip_location,
+    state::AppState,
+    store::WhitelistRecord,
+    time_utils, whitelist,
+};
+
+pub(super) async fn ensure_session_comment(
+    state: &AppState,
+    session_id: &str,
+    mut data: Value,
+    translator: &Translator,
+) -> Value {
+    let Some(object) = data.as_object_mut() else {
+        return data;
+    };
+    if object.contains_key("comment") {
+        let comment = normalize_auto_ip_grant_comment_value(
+            object.get("comment").and_then(Value::as_str),
+            translator,
+        );
+        if object.get("comment").and_then(Value::as_str) != Some(comment.as_str()) {
+            object.insert("comment".to_string(), Value::String(comment));
+        }
+        return data;
+    }
+
+    let comment = match resolve_session_default_comment(state, session_id, &data, translator).await
+    {
+        Ok(Some(comment)) => comment,
+        Ok(None) => return data,
+        Err(error) => {
+            tracing::warn!(%error, %session_id, "failed to resolve session default comment");
+            return data;
+        }
+    };
+
+    let mut updates = Map::new();
+    updates.insert("comment".to_string(), Value::String(comment.clone()));
+    match state
+        .storage
+        .store
+        .update_session_value(session_id, updates)
+        .await
+    {
+        Ok(Some(updated)) => updated,
+        Ok(None) | Err(_) => {
+            if let Some(object) = data.as_object_mut() {
+                object.insert("comment".to_string(), Value::String(comment));
+            }
+            data
+        }
+    }
+}
+
+pub(super) async fn resolve_session_default_comment(
+    state: &AppState,
+    session_id: &str,
+    session: &Value,
+    translator: &Translator,
+) -> anyhow::Result<Option<String>> {
+    if let Some(record_id) = session
+        .get("postLoginIpGrantRecordId")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        && let Some(record) = state.storage.store.get_whitelist_record(record_id).await?
+        && record.status == "active"
+        && let Some(comment) = record.comment.as_deref()
+    {
+        return Ok(Some(normalize_auto_ip_grant_comment_value(
+            Some(comment),
+            translator,
+        )));
+    }
+
+    if let Some(record_id) = auth_mobility::list_session_whitelist_record_ids(state, session_id)
+        .await?
+        .into_iter()
+        .next()
+        && let Some(record) = state.storage.store.get_whitelist_record(&record_id).await?
+        && record.status == "active"
+        && let Some(comment) = record.comment.as_deref()
+    {
+        return Ok(Some(normalize_auto_ip_grant_comment_value(
+            Some(comment),
+            translator,
+        )));
+    }
+
+    if let Some(ip) = session
+        .get("ip")
+        .and_then(Value::as_str)
+        .map(http_utils::normalize_ip)
+        .filter(|value| !value.is_empty())
+        && let Some(record) = latest_active_whitelist_record_by_ip(state, &ip).await?
+        && let Some(comment) = record.comment.as_deref()
+    {
+        return Ok(Some(normalize_auto_ip_grant_comment_value(
+            Some(comment),
+            translator,
+        )));
+    }
+
+    Ok(None)
+}
+
+pub(super) async fn latest_active_whitelist_record_by_ip(
+    state: &AppState,
+    ip: &str,
+) -> anyhow::Result<Option<WhitelistRecord>> {
+    let target_ip = ip.parse::<IpAddr>().ok();
+    let now = time_utils::now_ms().div_euclid(1000);
+    let mut records = state
+        .storage
+        .store
+        .list_whitelist_records()
+        .await?
+        .into_iter()
+        .filter(|record| record.status == "active")
+        .filter(|record| record.expire_at.is_none_or(|expire_at| expire_at > now))
+        .filter(|record| match record.target_type() {
+            "ip" => record.ip == ip,
+            "cidr" => target_ip.is_some_and(|target_ip| {
+                record
+                    .ip
+                    .parse::<ipnet::IpNet>()
+                    .is_ok_and(|network| network.contains(&target_ip))
+            }),
+            _ => false,
+        })
+        .collect::<Vec<_>>();
+    records.sort_by_key(|record| std::cmp::Reverse(record.created_at));
+    Ok(records.into_iter().next())
+}
+
+pub(super) async fn sync_session_whitelist_comments(
+    state: &AppState,
+    session_id: &str,
+    session: &Value,
+    comment: &str,
+) -> anyhow::Result<()> {
+    let mut record_ids = HashSet::new();
+    if let Some(record_id) = session
+        .get("postLoginIpGrantRecordId")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+    {
+        record_ids.insert(record_id.to_string());
+    }
+    for record_id in auth_mobility::list_session_whitelist_record_ids(state, session_id).await? {
+        record_ids.insert(record_id);
+    }
+
+    let mut changed = false;
+    for record_id in record_ids {
+        changed |= state
+            .storage
+            .store
+            .update_whitelist_comment(&record_id, comment.to_string())
+            .await?
+            .is_some();
+    }
+    if changed {
+        whitelist::sync_reverse_proxy_trusted_ips(state).await;
+    }
+    Ok(())
+}
+
+pub(super) fn normalize_auto_ip_grant_comment_value(
+    value: Option<&str>,
+    translator: &Translator,
+) -> String {
+    let trimmed = value.unwrap_or("").trim();
+    if trimmed.is_empty() {
+        return String::new();
+    }
+    if auth_mobility::is_auto_ip_grant_comment(trimmed) {
+        translator.t("auth.autoIpGrantComment")
+    } else {
+        trimmed.to_string()
+    }
+}
+
+pub(super) fn session_record(id: String, data: Value) -> Value {
+    match data {
+        Value::Object(mut object) => {
+            object.insert("id".to_string(), Value::String(id));
+            Value::Object(object)
+        }
+        other => json!({ "id": id, "data": other }),
+    }
+}
+
+pub(super) async fn session_record_with_mobility(
+    state: &AppState,
+    id: String,
+    data: Value,
+) -> Value {
+    let mut record = session_record(id.clone(), data);
+    let details = session_mobility_details_value(state, &id, Some(&record)).await;
+    let fnos_attachments = list_session_attachments(state, &id, "fnos-token").await;
+    let trim_media_attachments = list_session_attachments(state, &id, "trim-media-token").await;
+    if let Some(object) = record.as_object_mut() {
+        object.insert(
+            "mobility".to_string(),
+            details
+                .get("summary")
+                .cloned()
+                .unwrap_or_else(default_mobility_summary),
+        );
+        object.insert(
+            "fnosAttachments".to_string(),
+            Value::Array(fnos_attachments),
+        );
+        object.insert(
+            "trimMediaAttachments".to_string(),
+            Value::Array(trim_media_attachments),
+        );
+    }
+    hydrate_session_record_ip_location(state, &mut record).await;
+    record
+}
+
+pub(super) async fn hydrate_session_record_ip_location(state: &AppState, record: &mut Value) {
+    let id = record
+        .get("id")
+        .and_then(Value::as_str)
+        .unwrap_or("")
+        .trim()
+        .to_string();
+    let ip = record
+        .get("ip")
+        .and_then(Value::as_str)
+        .unwrap_or("")
+        .trim()
+        .to_string();
+    if id.is_empty() || ip.is_empty() {
+        return;
+    }
+
+    match ip_location::register_usage(state, &ip, vec![format!("session|{id}")]).await {
+        Ok(location) if !location.trim().is_empty() => {
+            if let Some(object) = record.as_object_mut() {
+                object.insert("ipLocation".to_string(), Value::String(location));
+            }
+        }
+        Ok(_) => {}
+        Err(error) => {
+            tracing::debug!(%error, %id, %ip, "failed to hydrate auth session IP location")
+        }
+    }
+}
+
+pub(super) async fn list_session_attachments(
+    state: &AppState,
+    session_id: &str,
+    subject_type: &str,
+) -> Vec<Value> {
+    match list_session_attachments_inner(state, session_id, subject_type).await {
+        Ok(value) => value,
+        Err(error) => {
+            tracing::warn!(%error, %session_id, %subject_type, "failed to list auth mobility session attachments");
+            Vec::new()
+        }
+    }
+}
+
+pub(super) async fn list_session_attachments_inner(
+    state: &AppState,
+    session_id: &str,
+    subject_type: &str,
+) -> anyhow::Result<Vec<Value>> {
+    let binding_prefix = format!("fn_knock:auth_mobility:binding:{subject_type}:");
+    let attachment_keys = state
+        .storage
+        .store
+        .list_auth_mobility_session_binding_keys(session_id)
+        .await?
+        .into_iter()
+        .filter(|key| key.starts_with(&binding_prefix))
+        .collect::<Vec<_>>();
+    if attachment_keys.is_empty() {
+        return Ok(Vec::new());
+    }
+
+    let mut stale_keys = Vec::new();
+    let mut attachments = Vec::new();
+    for storage_key in attachment_keys {
+        let Some(binding) = state.storage.store.get_json_value(&storage_key).await? else {
+            stale_keys.push(storage_key);
+            continue;
+        };
+        if let Some(attachment) =
+            session_attachment_from_binding(&binding, session_id, subject_type)
+        {
+            attachments.push(attachment);
+        } else {
+            stale_keys.push(storage_key);
+        }
+    }
+    if !stale_keys.is_empty() {
+        state
+            .storage
+            .store
+            .remove_auth_mobility_session_bindings(session_id, &stale_keys)
+            .await?;
+    }
+
+    attachments.sort_by(|left, right| {
+        let left_ms = left
+            .get("lastSeenAt")
+            .and_then(Value::as_str)
+            .and_then(time_utils::parse_iso_ms)
+            .unwrap_or(0);
+        let right_ms = right
+            .get("lastSeenAt")
+            .and_then(Value::as_str)
+            .and_then(time_utils::parse_iso_ms)
+            .unwrap_or(0);
+        right_ms.cmp(&left_ms)
+    });
+    Ok(attachments)
+}
+
+pub(super) fn session_attachment_from_binding(
+    binding: &Value,
+    session_id: &str,
+    subject_type: &str,
+) -> Option<Value> {
+    if binding.get("subjectType").and_then(Value::as_str) != Some(subject_type)
+        || binding.get("ownerSessionId").and_then(Value::as_str) != Some(session_id)
+    {
+        return None;
+    }
+
+    let expire_at = binding
+        .get("expireAt")
+        .and_then(Value::as_i64)
+        .map(|seconds| Value::String(time_utils::iso_from_ms(seconds.saturating_mul(1000))))
+        .unwrap_or(Value::Null);
+    Some(json!({
+        "subjectHash": binding.get("subjectHash").and_then(Value::as_str).unwrap_or(""),
+        "currentIp": binding.get("currentIp").and_then(Value::as_str).unwrap_or(""),
+        "createdAt": binding.get("createdAt").and_then(Value::as_str).unwrap_or(""),
+        "lastSeenAt": binding.get("lastSeenAt").and_then(Value::as_str).unwrap_or(""),
+        "expiresAt": expire_at,
+    }))
+}
+
+pub(super) async fn session_mobility_details_value(
+    state: &AppState,
+    session_id: &str,
+    fallback_session: Option<&Value>,
+) -> Value {
+    let mut events = state
+        .storage
+        .store
+        .get_json_value(&auth_mobility_timeline_key(session_id))
+        .await
+        .ok()
+        .flatten()
+        .and_then(|value| value.as_array().cloned())
+        .unwrap_or_default()
+        .into_iter()
+        .filter(Value::is_object)
+        .collect::<Vec<_>>();
+    events.sort_by(|left, right| {
+        let left_ms = left
+            .get("happenedAt")
+            .and_then(Value::as_str)
+            .and_then(time_utils::parse_iso_ms)
+            .unwrap_or(0);
+        let right_ms = right
+            .get("happenedAt")
+            .and_then(Value::as_str)
+            .and_then(time_utils::parse_iso_ms)
+            .unwrap_or(0);
+        left_ms.cmp(&right_ms)
+    });
+    if events.is_empty()
+        && let Some(session) = fallback_session
+        && let Some(login_event) = build_mobility_login_event(session)
+    {
+        events.push(login_event);
+    }
+
+    let stored_summary = state
+        .storage
+        .store
+        .get_json_value(&auth_mobility_summary_key(session_id))
+        .await
+        .ok()
+        .flatten()
+        .filter(valid_mobility_summary);
+    let summary = stored_summary.unwrap_or_else(|| build_mobility_summary(&events));
+    json!({
+        "summary": summary,
+        "events": events,
+    })
+}
+
+pub(super) async fn hydrate_mobility_event_ip_locations(
+    state: &AppState,
+    session_id: &str,
+    details: &mut Value,
+) {
+    let Some(events) = details.get_mut("events").and_then(Value::as_array_mut) else {
+        return;
+    };
+    if events.is_empty() {
+        return;
+    }
+
+    let mut seen = HashSet::new();
+    let mut ips = Vec::new();
+    for event in events.iter() {
+        for ip_key in ["toIp", "fromIp"] {
+            let ip = event
+                .get(ip_key)
+                .and_then(Value::as_str)
+                .unwrap_or("")
+                .trim();
+            let normalized_ip = http_utils::normalize_ip(ip);
+            if !normalized_ip.is_empty() && seen.insert(normalized_ip.clone()) {
+                ips.push(normalized_ip);
+            }
+        }
+    }
+
+    let reference = format!("session-timeline|{session_id}");
+    let mut locations = BTreeMap::new();
+    for ip in ips {
+        match ip_location::register_usage(state, &ip, vec![reference.clone()]).await {
+            Ok(location) if !location.trim().is_empty() => {
+                locations.insert(ip, location);
+            }
+            Ok(_) => {}
+            Err(error) => {
+                tracing::debug!(%error, %session_id, %ip, "failed to hydrate auth mobility event IP location");
+            }
+        }
+    }
+    apply_mobility_event_ip_locations(events, &locations);
+}
+
+pub(super) fn apply_mobility_event_ip_locations(
+    events: &mut [Value],
+    locations: &BTreeMap<String, String>,
+) {
+    if locations.is_empty() {
+        return;
+    }
+    for event in events {
+        let Some(object) = event.as_object_mut() else {
+            continue;
+        };
+        for (ip_key, location_key) in [("toIp", "toIpLocation"), ("fromIp", "fromIpLocation")] {
+            let ip = object.get(ip_key).and_then(Value::as_str).unwrap_or("");
+            let normalized_ip = http_utils::normalize_ip(ip);
+            if let Some(location) = locations.get(&normalized_ip) {
+                object.insert(location_key.to_string(), Value::String(location.clone()));
+            }
+        }
+    }
+}
+
+pub(super) fn build_mobility_login_event(session: &Value) -> Option<Value> {
+    let ip = session.get("ip").and_then(Value::as_str)?.trim();
+    if ip.is_empty() {
+        return None;
+    }
+    let mut event = Map::new();
+    event.insert("version".to_string(), Value::Number(1.into()));
+    event.insert("kind".to_string(), Value::String("login".to_string()));
+    let happened_at = session
+        .get("loginTime")
+        .and_then(Value::as_str)
+        .filter(|value| !value.trim().is_empty())
+        .map(ToString::to_string)
+        .unwrap_or_else(time_utils::now_iso);
+    event.insert("happenedAt".to_string(), Value::String(happened_at));
+    event.insert("source".to_string(), Value::String("login".to_string()));
+    event.insert("toIp".to_string(), Value::String(ip.to_string()));
+    if let Some(location) = session
+        .get("ipLocation")
+        .and_then(Value::as_str)
+        .filter(|value| !value.trim().is_empty())
+    {
+        event.insert(
+            "toIpLocation".to_string(),
+            Value::String(location.to_string()),
+        );
+    }
+    Some(Value::Object(event))
+}
+
+pub(super) fn build_mobility_summary(events: &[Value]) -> Value {
+    let drift_events = events
+        .iter()
+        .filter(|event| event.get("kind").and_then(Value::as_str) == Some("drift"))
+        .collect::<Vec<_>>();
+    let last_drift = drift_events.last().copied();
+    json!({
+        "hasHistory": !events.is_empty(),
+        "driftCount": drift_events.len(),
+        "lastDriftAt": last_drift
+            .and_then(|event| event.get("happenedAt"))
+            .and_then(Value::as_str),
+        "lastDriftSource": last_drift
+            .and_then(|event| event.get("source"))
+            .and_then(Value::as_str),
+    })
+}
+
+pub(super) fn default_mobility_summary() -> Value {
+    json!({
+        "hasHistory": false,
+        "driftCount": 0,
+        "lastDriftAt": null,
+        "lastDriftSource": null,
+    })
+}
+
+pub(super) fn valid_mobility_summary(value: &Value) -> bool {
+    value.get("hasHistory").and_then(Value::as_bool).is_some()
+        && value.get("driftCount").and_then(Value::as_i64).is_some()
+}

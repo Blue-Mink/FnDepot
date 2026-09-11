@@ -1,1 +1,123 @@
-aW1wb3J0IHsgZmx1c2hQcm9taXNlcywgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBkZWZpbmVDb21wb25lbnQsIGgsIHJlZiB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IGNyZWF0ZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IGJlZm9yZUVhY2gsIGRlc2NyaWJlLCBleHBlY3QsIGl0LCB2aSB9IGZyb20gInZpdGVzdCI7CmltcG9ydCB0eXBlIHsgQ2xvdWRmbGFyZWRDb25maWcgfSBmcm9tICIuLi9zcmMvbGliL2FwaS90dW5uZWwiOwoKY29uc3QgbGlmZWN5Y2xlID0gdmkuaG9pc3RlZCgoKSA9PiAoewogIGFwcGx5TWFuYWdlZENvbmZpZzogdmkuZm4oKSwKICBsb2FkQWNjZXNzRW50cnlQb3J0OiB2aS5mbigpLAogIGxvYWRDb25maWc6IHZpLmZuKCksCiAgbG9hZEVudmlyb25tZW50Q29uZmlnOiB2aS5mbigpLAogIGxvYWRNYW5hZ2VkU3RhdGU6IHZpLmZuKCksCiAgbG9hZFN0YXR1czogdmkuZm4oKSwKICByZWNvdmVyUmVjb25jaWxlOiB2aS5mbigpLAogIHN0YXJ0TWFuYWdlZFBvbGxpbmc6IHZpLmZuKCksCiAgc3RhcnRSdW50aW1lUG9sbGluZzogdmkuZm4oKSwKICBzdG9wTWFuYWdlZDogdmkuZm4oKSwKICBzdG9wT3B0aW1pemF0aW9uOiB2aS5mbigpLAogIHN0b3BSdW50aW1lUG9sbGluZzogdmkuZm4oKSwKfSkpOwoKdmkubW9jaygiLi4vc3JjL3ZpZXdzL3R1bm5lbC9jbG91ZGZsYXJlL3VzZUNsb3VkZmxhcmVkUnVudGltZSIsICgpID0+ICh7CiAgdXNlQ2xvdWRmbGFyZWRSdW50aW1lOiAoewogICAgb25Db25maWdMb2FkZWQsCiAgfTogewogICAgb25Db25maWdMb2FkZWQ6IChjb25maWc6IENsb3VkZmxhcmVkQ29uZmlnKSA9PiB2b2lkOwogIH0pID0+ICh7CiAgICBsb2FkQWNjZXNzRW50cnlQb3J0OiBhc3luYyAoKSA9PiBsaWZlY3ljbGUubG9hZEFjY2Vzc0VudHJ5UG9ydCgpLAogICAgbG9hZENvbmZpZzogYXN5bmMgKCkgPT4gewogICAgICBsaWZlY3ljbGUubG9hZENvbmZpZygpOwogICAgICBvbkNvbmZpZ0xvYWRlZCh7fSBhcyBDbG91ZGZsYXJlZENvbmZpZyk7CiAgICB9LAogICAgbG9hZEVudmlyb25tZW50Q29uZmlnOiBhc3luYyAoKSA9PiBsaWZlY3ljbGUubG9hZEVudmlyb25tZW50Q29uZmlnKCksCiAgICBsb2FkU3RhdHVzOiBhc3luYyAoKSA9PiBsaWZlY3ljbGUubG9hZFN0YXR1cygpLAogICAgc3RhcnRQb2xsaW5nOiBsaWZlY3ljbGUuc3RhcnRSdW50aW1lUG9sbGluZywKICAgIHN0b3BQb2xsaW5nOiBsaWZlY3ljbGUuc3RvcFJ1bnRpbWVQb2xsaW5nLAogICAgdHVubmVsVG9rZW5Db25maWd1cmVkOiByZWYoZmFsc2UpLAogIH0pLAp9KSk7Cgp2aS5tb2NrKCIuLi9zcmMvdmlld3MvdHVubmVsL2Nsb3VkZmxhcmUvdXNlQ2xvdWRmbGFyZU1hbmFnZWRUdW5uZWwiLCAoKSA9PiAoewogIHVzZUNsb3VkZmxhcmVNYW5hZ2VkVHVubmVsOiAoKSA9PiAoewogICAgYXBwbHlDb25maWc6IGxpZmVjeWNsZS5hcHBseU1hbmFnZWRDb25maWcsCiAgICBsb2FkTWFuYWdlZFN0YXRlOiBhc3luYyAoKSA9PiBsaWZlY3ljbGUubG9hZE1hbmFnZWRTdGF0ZSgpLAogICAgbWFuYWdlZFN0YXRlOiByZWYobnVsbCksCiAgICBvcHRpbWl6YXRpb25FbmFibGVkOiByZWYoZmFsc2UpLAogICAgcHJlcGFyZU9wdGltaXphdGlvbkNvbmZsaWN0UmVzb2x1dGlvbjogdmkuZm4oKSwKICAgIHByZXZpZXdSZWNvbmNpbGU6IHZpLmZuKCksCiAgICByZWNvbmNpbGVQbGFuOiByZWYobnVsbCksCiAgICByZWNvdmVyQWN0aXZlUmVjb25jaWxlSm9iOiBhc3luYyAoKSA9PiBsaWZlY3ljbGUucmVjb3ZlclJlY29uY2lsZSgpLAogICAgc3RhcnRQb2xsaW5nOiBsaWZlY3ljbGUuc3RhcnRNYW5hZ2VkUG9sbGluZywKICAgIHN0b3A6IGxpZmVjeWNsZS5zdG9wTWFuYWdlZCwKICB9KSwKfSkpOwoKdmkubW9jaygiLi4vc3JjL3ZpZXdzL3R1bm5lbC9jbG91ZGZsYXJlL3VzZUNsb3VkZmxhcmVPcHRpbWl6YXRpb24iLCAoKSA9PiAoewogIHVzZUNsb3VkZmxhcmVPcHRpbWl6YXRpb246ICgpID0+ICh7IHN0b3A6IGxpZmVjeWNsZS5zdG9wT3B0aW1pemF0aW9uIH0pLAp9KSk7CgppbXBvcnQgeyB1c2VDbG91ZGZsYXJlVHVubmVsQ29udHJvbGxlciB9IGZyb20gIi4uL3NyYy92aWV3cy90dW5uZWwvY2xvdWRmbGFyZS91c2VDbG91ZGZsYXJlVHVubmVsQ29udHJvbGxlciI7CgpkZXNjcmliZSgidXNlQ2xvdWRmbGFyZVR1bm5lbENvbnRyb2xsZXIiLCAoKSA9PiB7CiAgYmVmb3JlRWFjaCgoKSA9PiB7CiAgICB2aS5jbGVhckFsbE1vY2tzKCk7CiAgfSk7CgogIGl0KCJjb29yZGluYXRlcyBpbml0aWFsaXphdGlvbiBhbmQgb3ducyB0ZWFyZG93biB3aXRob3V0IGRvbWFpbiBBUEkgbG9naWMiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBjb21wb25lbnQgPSBkZWZpbmVDb21wb25lbnQoewogICAgICBzZXR1cCgpIHsKICAgICAgICB1c2VDbG91ZGZsYXJlVHVubmVsQ29udHJvbGxlcigpOwogICAgICAgIHJldHVybiAoKSA9PiBoKCJkaXYiKTsKICAgICAgfSwKICAgIH0pOwogICAgY29uc3QgaTE4biA9IGNyZWF0ZUkxOG4oeyBsZWdhY3k6IGZhbHNlLCBsb2NhbGU6ICJlbiIgfSk7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoY29tcG9uZW50LCB7IGdsb2JhbDogeyBwbHVnaW5zOiBbaTE4bl0gfSB9KTsKICAgIGF3YWl0IGZsdXNoUHJvbWlzZXMoKTsKCiAgICBmb3IgKGNvbnN0IGluaXRpYWxpemVkIG9mIFsKICAgICAgbGlmZWN5Y2xlLmxvYWRBY2Nlc3NFbnRyeVBvcnQsCiAgICAgIGxpZmVjeWNsZS5sb2FkQ29uZmlnLAogICAgICBsaWZlY3ljbGUubG9hZEVudmlyb25tZW50Q29uZmlnLAogICAgICBsaWZlY3ljbGUubG9hZE1hbmFnZWRTdGF0ZSwKICAgICAgbGlmZWN5Y2xlLmxvYWRTdGF0dXMsCiAgICAgIGxpZmVjeWNsZS5yZWNvdmVyUmVjb25jaWxlLAogICAgICBsaWZlY3ljbGUuc3RhcnRNYW5hZ2VkUG9sbGluZywKICAgICAgbGlmZWN5Y2xlLnN0YXJ0UnVudGltZVBvbGxpbmcsCiAgICBdKSB7CiAgICAgIGV4cGVjdChpbml0aWFsaXplZCkudG9IYXZlQmVlbkNhbGxlZFRpbWVzKDEpOwogICAgfQogICAgZXhwZWN0KGxpZmVjeWNsZS5hcHBseU1hbmFnZWRDb25maWcpLnRvSGF2ZUJlZW5DYWxsZWRUaW1lcygxKTsKCiAgICB3cmFwcGVyLnVubW91bnQoKTsKICAgIGV4cGVjdChsaWZlY3ljbGUuc3RvcE1hbmFnZWQpLnRvSGF2ZUJlZW5DYWxsZWRUaW1lcygxKTsKICAgIGV4cGVjdChsaWZlY3ljbGUuc3RvcE9wdGltaXphdGlvbikudG9IYXZlQmVlbkNhbGxlZFRpbWVzKDEpOwogICAgZXhwZWN0KGxpZmVjeWNsZS5zdG9wUnVudGltZVBvbGxpbmcpLnRvSGF2ZUJlZW5DYWxsZWRUaW1lcygxKTsKICB9KTsKCiAgaXQoImRvZXMgbm90IHN0YXJ0IHBvbGxpbmcgd2hlbiBpbml0aWFsaXphdGlvbiBmaW5pc2hlcyBhZnRlciB1bm1vdW50IiwgYXN5bmMgKCkgPT4gewogICAgbGV0IHJlc29sdmVTdGF0dXM6ICgoKSA9PiB2b2lkKSB8IHVuZGVmaW5lZDsKICAgIGxpZmVjeWNsZS5sb2FkU3RhdHVzLm1vY2tSZXR1cm5WYWx1ZU9uY2UoCiAgICAgIG5ldyBQcm9taXNlPHZvaWQ+KChyZXNvbHZlKSA9PiB7CiAgICAgICAgcmVzb2x2ZVN0YXR1cyA9IHJlc29sdmU7CiAgICAgIH0pLAogICAgKTsKCiAgICBjb25zdCBjb21wb25lbnQgPSBkZWZpbmVDb21wb25lbnQoewogICAgICBzZXR1cCgpIHsKICAgICAgICB1c2VDbG91ZGZsYXJlVHVubmVsQ29udHJvbGxlcigpOwogICAgICAgIHJldHVybiAoKSA9PiBoKCJkaXYiKTsKICAgICAgfSwKICAgIH0pOwogICAgY29uc3QgaTE4biA9IGNyZWF0ZUkxOG4oeyBsZWdhY3k6IGZhbHNlLCBsb2NhbGU6ICJlbiIgfSk7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnQoY29tcG9uZW50LCB7IGdsb2JhbDogeyBwbHVnaW5zOiBbaTE4bl0gfSB9KTsKICAgIGF3YWl0IFByb21pc2UucmVzb2x2ZSgpOwoKICAgIHdyYXBwZXIudW5tb3VudCgpOwogICAgcmVzb2x2ZVN0YXR1cz8uKCk7CiAgICBhd2FpdCBmbHVzaFByb21pc2VzKCk7CgogICAgZXhwZWN0KGxpZmVjeWNsZS5zdGFydE1hbmFnZWRQb2xsaW5nKS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogICAgZXhwZWN0KGxpZmVjeWNsZS5zdGFydFJ1bnRpbWVQb2xsaW5nKS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogIH0pOwp9KTsK
+import { flushPromises, mount } from "@vue/test-utils";
+import { defineComponent, h, ref } from "vue";
+import { createI18n } from "vue-i18n";
+import { beforeEach, describe, expect, it, vi } from "vitest";
+import type { CloudflaredConfig } from "../src/lib/api/tunnel";
+
+const lifecycle = vi.hoisted(() => ({
+  applyManagedConfig: vi.fn(),
+  loadAccessEntryPort: vi.fn(),
+  loadConfig: vi.fn(),
+  loadEnvironmentConfig: vi.fn(),
+  loadManagedState: vi.fn(),
+  loadStatus: vi.fn(),
+  recoverReconcile: vi.fn(),
+  startManagedPolling: vi.fn(),
+  startRuntimePolling: vi.fn(),
+  stopManaged: vi.fn(),
+  stopOptimization: vi.fn(),
+  stopRuntimePolling: vi.fn(),
+}));
+
+vi.mock("../src/views/tunnel/cloudflare/useCloudflaredRuntime", () => ({
+  useCloudflaredRuntime: ({
+    onConfigLoaded,
+  }: {
+    onConfigLoaded: (config: CloudflaredConfig) => void;
+  }) => ({
+    loadAccessEntryPort: async () => lifecycle.loadAccessEntryPort(),
+    loadConfig: async () => {
+      lifecycle.loadConfig();
+      onConfigLoaded({} as CloudflaredConfig);
+    },
+    loadEnvironmentConfig: async () => lifecycle.loadEnvironmentConfig(),
+    loadStatus: async () => lifecycle.loadStatus(),
+    startPolling: lifecycle.startRuntimePolling,
+    stopPolling: lifecycle.stopRuntimePolling,
+    tunnelTokenConfigured: ref(false),
+  }),
+}));
+
+vi.mock("../src/views/tunnel/cloudflare/useCloudflareManagedTunnel", () => ({
+  useCloudflareManagedTunnel: () => ({
+    applyConfig: lifecycle.applyManagedConfig,
+    loadManagedState: async () => lifecycle.loadManagedState(),
+    managedState: ref(null),
+    optimizationEnabled: ref(false),
+    prepareOptimizationConflictResolution: vi.fn(),
+    previewReconcile: vi.fn(),
+    reconcilePlan: ref(null),
+    recoverActiveReconcileJob: async () => lifecycle.recoverReconcile(),
+    startPolling: lifecycle.startManagedPolling,
+    stop: lifecycle.stopManaged,
+  }),
+}));
+
+vi.mock("../src/views/tunnel/cloudflare/useCloudflareOptimization", () => ({
+  useCloudflareOptimization: () => ({ stop: lifecycle.stopOptimization }),
+}));
+
+import { useCloudflareTunnelController } from "../src/views/tunnel/cloudflare/useCloudflareTunnelController";
+
+describe("useCloudflareTunnelController", () => {
+  beforeEach(() => {
+    vi.clearAllMocks();
+  });
+
+  it("coordinates initialization and owns teardown without domain API logic", async () => {
+    const component = defineComponent({
+      setup() {
+        useCloudflareTunnelController();
+        return () => h("div");
+      },
+    });
+    const i18n = createI18n({ legacy: false, locale: "en" });
+    const wrapper = mount(component, { global: { plugins: [i18n] } });
+    await flushPromises();
+
+    for (const initialized of [
+      lifecycle.loadAccessEntryPort,
+      lifecycle.loadConfig,
+      lifecycle.loadEnvironmentConfig,
+      lifecycle.loadManagedState,
+      lifecycle.loadStatus,
+      lifecycle.recoverReconcile,
+      lifecycle.startManagedPolling,
+      lifecycle.startRuntimePolling,
+    ]) {
+      expect(initialized).toHaveBeenCalledTimes(1);
+    }
+    expect(lifecycle.applyManagedConfig).toHaveBeenCalledTimes(1);
+
+    wrapper.unmount();
+    expect(lifecycle.stopManaged).toHaveBeenCalledTimes(1);
+    expect(lifecycle.stopOptimization).toHaveBeenCalledTimes(1);
+    expect(lifecycle.stopRuntimePolling).toHaveBeenCalledTimes(1);
+  });
+
+  it("does not start polling when initialization finishes after unmount", async () => {
+    let resolveStatus: (() => void) | undefined;
+    lifecycle.loadStatus.mockReturnValueOnce(
+      new Promise<void>((resolve) => {
+        resolveStatus = resolve;
+      }),
+    );
+
+    const component = defineComponent({
+      setup() {
+        useCloudflareTunnelController();
+        return () => h("div");
+      },
+    });
+    const i18n = createI18n({ legacy: false, locale: "en" });
+    const wrapper = mount(component, { global: { plugins: [i18n] } });
+    await Promise.resolve();
+
+    wrapper.unmount();
+    resolveStatus?.();
+    await flushPromises();
+
+    expect(lifecycle.startManagedPolling).not.toHaveBeenCalled();
+    expect(lifecycle.startRuntimePolling).not.toHaveBeenCalled();
+  });
+});

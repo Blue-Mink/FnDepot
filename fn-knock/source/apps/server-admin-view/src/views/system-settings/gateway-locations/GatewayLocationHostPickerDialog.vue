@@ -1,1 +1,101 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB0eXBlIHsgSG9zdE1hcHBpbmcgfSBmcm9tICJAL3R5cGVzIjsKCmRlZmluZVByb3BzPHsKICBtYXBwaW5nczogSG9zdE1hcHBpbmdbXTsKICBvcGVuOiBib29sZWFuOwogIHNlbGVjdGVkSG9zdDogc3RyaW5nOwogIHNlbGVjdGVkTWFwcGluZzogSG9zdE1hcHBpbmcgfCBudWxsOwp9PigpOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICBzZWxlY3Q6IFtob3N0OiBzdHJpbmddOwogICJ1cGRhdGU6b3BlbiI6IFtvcGVuOiBib29sZWFuXTsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwoKY29uc3QgZ2V0TWFwcGluZ1RpdGxlID0gKG1hcHBpbmc/OiBIb3N0TWFwcGluZyB8IG51bGwpID0+CiAgbWFwcGluZz8udGl0bGVfb3ZlcnJpZGUudHJpbSgpIHx8IG1hcHBpbmc/LnRpdGxlLnRyaW0oKSB8fCAiLSI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iZW1pdCgndXBkYXRlOm9wZW4nLCAkZXZlbnQpIj4KICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJzbTptYXgtdy1bNzYwcHhdIj4KICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICA8RGlhbG9nVGl0bGU+CiAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MuY2hvb3NlSG9zdCIpIH19CiAgICAgICAgPC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24gY2xhc3M9ImxlYWRpbmctNiI+CiAgICAgICAgICB7eyB0KCJhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MuY2hvb3NlSG9zdERlc2NyaXB0aW9uIikgfX0KICAgICAgICAgIDxzcGFuIGNsYXNzPSJmb250LW1lZGl1bSB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgICAgICB7ewogICAgICAgICAgICAgIHNlbGVjdGVkTWFwcGluZz8uaG9zdCB8fAogICAgICAgICAgICAgIHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5ub3RTZWxlY3RlZCIpCiAgICAgICAgICAgIH19CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8dGVtcGxhdGUgdi1pZj0ic2VsZWN0ZWRNYXBwaW5nIj4KICAgICAgICAgICAgwrcge3sgZ2V0TWFwcGluZ1RpdGxlKHNlbGVjdGVkTWFwcGluZykgfX0KICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgPC9EaWFsb2dIZWFkZXI+CgogICAgICA8ZGl2IGNsYXNzPSJncmlkIG1heC1oLVs2MHZoXSBnYXAtMiBvdmVyZmxvdy15LWF1dG8gcHItMSI+CiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgdi1mb3I9Im1hcHBpbmcgaW4gbWFwcGluZ3MiCiAgICAgICAgICA6a2V5PSJtYXBwaW5nLmhvc3QiCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICBjbGFzcz0idy1mdWxsIHJvdW5kZWQtbWQgYm9yZGVyIHB4LTQgcHktMyB0ZXh0LWxlZnQgdHJhbnNpdGlvbi1jb2xvcnMgZm9jdXMtdmlzaWJsZTpvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpyaW5nLTEgZm9jdXMtdmlzaWJsZTpyaW5nLXJpbmcvNDAiCiAgICAgICAgICA6Y2xhc3M9IgogICAgICAgICAgICBtYXBwaW5nLmhvc3QgPT09IHNlbGVjdGVkSG9zdAogICAgICAgICAgICAgID8gJ2JvcmRlci1ib3JkZXIgYmctbXV0ZWQvNDAnCiAgICAgICAgICAgICAgOiAnYm9yZGVyLWJvcmRlci82MCBiZy1iYWNrZ3JvdW5kIGhvdmVyOmJvcmRlci1wcmltYXJ5LzMwIGhvdmVyOmJnLW11dGVkLzIwJwogICAgICAgICAgIgogICAgICAgICAgQGNsaWNrPSJlbWl0KCdzZWxlY3QnLCBtYXBwaW5nLmhvc3QpIgogICAgICAgID4KICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIGNsYXNzPSJncmlkIG1pbi13LTAgZ2FwLTMgc206Z3JpZC1jb2xzLVttaW5tYXgoMCwxLjJmcilfbWlubWF4KDAsMWZyKV0gc206aXRlbXMtY2VudGVyIgogICAgICAgICAgPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTEiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJmbGV4IG1pbi13LTAgZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0idHJ1bmNhdGUgdGV4dC1zbSBmb250LXNlbWlib2xkIj4KICAgICAgICAgICAgICAgICAge3sgbWFwcGluZy5ob3N0IH19CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8QmFkZ2Ugdi1pZj0ibWFwcGluZy5ob3N0ID09PSBzZWxlY3RlZEhvc3QiIHZhcmlhbnQ9InNlY29uZGFyeSI+CiAgICAgICAgICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5jdXJyZW50IikgfX0KICAgICAgICAgICAgICAgIDwvQmFkZ2U+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICB7eyBtYXBwaW5nLmxvY2F0aW9ucz8ubGVuZ3RoID8/IDAgfX0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImJsb2NrIHRydW5jYXRlIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgICAgIG1hcHBpbmcudGFyZ2V0IHx8CiAgICAgICAgICAgICAgICAgIHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5ub3RTZWxlY3RlZCIpCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPC9zcGFuPgoKICAgICAgICAgICAgPHNwYW4gY2xhc3M9Im1pbi13LTAgc3BhY2UteS0xIj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0idGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLnNpdGVUaXRsZSIpIH19CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJibG9jayB0cnVuY2F0ZSB0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgIHt7IGdldE1hcHBpbmdUaXRsZShtYXBwaW5nKSB9fQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvRGlhbG9nQ29udGVudD4KICA8L0RpYWxvZz4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Badge } from "@/components/ui/badge";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import type { HostMapping } from "@/types";
+
+defineProps<{
+  mappings: HostMapping[];
+  open: boolean;
+  selectedHost: string;
+  selectedMapping: HostMapping | null;
+}>();
+
+const emit = defineEmits<{
+  select: [host: string];
+  "update:open": [open: boolean];
+}>();
+
+const { t } = useI18n();
+
+const getMappingTitle = (mapping?: HostMapping | null) =>
+  mapping?.title_override.trim() || mapping?.title.trim() || "-";
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="sm:max-w-[760px]">
+      <DialogHeader>
+        <DialogTitle>
+          {{ t("admin.gatewayLocationsSettings.chooseHost") }}
+        </DialogTitle>
+        <DialogDescription class="leading-6">
+          {{ t("admin.gatewayLocationsSettings.chooseHostDescription") }}
+          <span class="font-medium text-foreground">
+            {{
+              selectedMapping?.host ||
+              t("admin.gatewayLocationsSettings.notSelected")
+            }}
+          </span>
+          <template v-if="selectedMapping">
+            · {{ getMappingTitle(selectedMapping) }}
+          </template>
+        </DialogDescription>
+      </DialogHeader>
+
+      <div class="grid max-h-[60vh] gap-2 overflow-y-auto pr-1">
+        <button
+          v-for="mapping in mappings"
+          :key="mapping.host"
+          type="button"
+          class="w-full rounded-md border px-4 py-3 text-left transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring/40"
+          :class="
+            mapping.host === selectedHost
+              ? 'border-border bg-muted/40'
+              : 'border-border/60 bg-background hover:border-primary/30 hover:bg-muted/20'
+          "
+          @click="emit('select', mapping.host)"
+        >
+          <span
+            class="grid min-w-0 gap-3 sm:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] sm:items-center"
+          >
+            <span class="min-w-0 space-y-1">
+              <span class="flex min-w-0 flex-wrap items-center gap-2">
+                <span class="truncate text-sm font-semibold">
+                  {{ mapping.host }}
+                </span>
+                <Badge v-if="mapping.host === selectedHost" variant="secondary">
+                  {{ t("admin.gatewayLocationsSettings.current") }}
+                </Badge>
+                <span class="text-xs text-muted-foreground">
+                  {{ mapping.locations?.length ?? 0 }}
+                </span>
+              </span>
+              <span class="block truncate text-sm text-muted-foreground">
+                {{
+                  mapping.target ||
+                  t("admin.gatewayLocationsSettings.notSelected")
+                }}
+              </span>
+            </span>
+
+            <span class="min-w-0 space-y-1">
+              <span class="text-xs font-medium text-muted-foreground">
+                {{ t("admin.gatewayLocationsSettings.siteTitle") }}
+              </span>
+              <span class="block truncate text-sm font-medium">
+                {{ getMappingTitle(mapping) }}
+              </span>
+            </span>
+          </span>
+        </button>
+      </div>
+    </DialogContent>
+  </Dialog>
+</template>

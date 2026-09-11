@@ -1,1 +1,34 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUGFnaW5hdGlvbkxpc3RJdGVtUHJvcHMgfSBmcm9tICJyZWthLXVpIgppbXBvcnQgdHlwZSB7IEhUTUxBdHRyaWJ1dGVzIH0gZnJvbSAidnVlIgppbXBvcnQgdHlwZSB7IEJ1dHRvblZhcmlhbnRzIH0gZnJvbSAnQC9jb21wb25lbnRzL3VpL2J1dHRvbicKaW1wb3J0IHsgUGFnaW5hdGlvbkxpc3RJdGVtIH0gZnJvbSAicmVrYS11aSIKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyIKaW1wb3J0IHsgYnV0dG9uVmFyaWFudHMgfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvYnV0dG9uJwoKY29uc3QgcHJvcHMgPSB3aXRoRGVmYXVsdHMoZGVmaW5lUHJvcHM8UGFnaW5hdGlvbkxpc3RJdGVtUHJvcHMgJiB7CiAgc2l6ZT86IEJ1dHRvblZhcmlhbnRzWyJzaXplIl0KICBjbGFzcz86IEhUTUxBdHRyaWJ1dGVzWyJjbGFzcyJdCiAgaXNBY3RpdmU/OiBib29sZWFuCn0+KCksIHsKICBzaXplOiAiaWNvbiIsCn0pCgo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8UGFnaW5hdGlvbkxpc3RJdGVtCiAgICBkYXRhLXNsb3Q9InBhZ2luYXRpb24taXRlbSIKICAgIDp2YWx1ZT0icHJvcHMudmFsdWUiCiAgICA6YXM9InByb3BzLmFzIgogICAgOmFzLWNoaWxkPSJwcm9wcy5hc0NoaWxkIgogICAgOmNsYXNzPSJjbigKICAgICAgYnV0dG9uVmFyaWFudHMoewogICAgICAgIHZhcmlhbnQ6IGlzQWN0aXZlID8gJ291dGxpbmUnIDogJ2dob3N0JywKICAgICAgICBzaXplLAogICAgICB9KSwKICAgICAgcHJvcHMuY2xhc3MpIgogID4KICAgIDxzbG90IC8+CiAgPC9QYWdpbmF0aW9uTGlzdEl0ZW0+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import type { PaginationListItemProps } from "reka-ui"
+import type { HTMLAttributes } from "vue"
+import type { ButtonVariants } from '@/components/ui/button'
+import { PaginationListItem } from "reka-ui"
+import { cn } from "@/lib/utils"
+import { buttonVariants } from '@/components/ui/button'
+
+const props = withDefaults(defineProps<PaginationListItemProps & {
+  size?: ButtonVariants["size"]
+  class?: HTMLAttributes["class"]
+  isActive?: boolean
+}>(), {
+  size: "icon",
+})
+
+</script>
+
+<template>
+  <PaginationListItem
+    data-slot="pagination-item"
+    :value="props.value"
+    :as="props.as"
+    :as-child="props.asChild"
+    :class="cn(
+      buttonVariants({
+        variant: isActive ? 'outline' : 'ghost',
+        size,
+      }),
+      props.class)"
+  >
+    <slot />
+  </PaginationListItem>
+</template>

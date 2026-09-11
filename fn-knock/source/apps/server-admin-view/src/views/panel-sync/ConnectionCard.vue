@@ -1,1 +1,150 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlSTE4biB9IGZyb20gInZ1ZS1pMThuIjsKaW1wb3J0IHsgSGlzdG9yeSwgUGVuY2lsLCBQbGF5LCBQbHVnWmFwLCBUcmFzaDIgfSBmcm9tICJsdWNpZGUtdnVlLW5leHQiOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDYXJkLCBDYXJkQ29udGVudCwgQ2FyZEhlYWRlciwgQ2FyZFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgeyBTd2l0Y2ggfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3dpdGNoIjsKaW1wb3J0IHR5cGUgeyBQYW5lbENvbm5lY3Rpb24gfSBmcm9tICJAL2xpYi9hcGkvcGFuZWwtc3luYy1hcGkiOwppbXBvcnQgeyBjb21wb3NlUGFuZWxFbmRwb2ludFVybCB9IGZyb20gIi4vcGFuZWwtc3luYy1tb2RlbCI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBjb25uZWN0aW9uOiBQYW5lbENvbm5lY3Rpb247CiAgZGVsZXRpbmc6IGJvb2xlYW47CiAgcHJldmlld2luZzogYm9vbGVhbjsKICB0ZXN0aW5nOiBib29sZWFuOwp9PigpOwpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIGRlbGV0ZTogW107CiAgZWRpdDogW107CiAgaGlzdG9yeTogW107CiAgcHJldmlldzogW107CiAgdGVzdDogW107CiAgInRvZ2dsZS1hdXRvIjogW3ZhbHVlOiBib29sZWFuXTsKfT4oKTsKY29uc3QgeyB0LCBsb2NhbGUgfSA9IHVzZUkxOG4oKTsKY29uc3QgdmVyaWZpZWQgPSBjb21wdXRlZCgoKSA9PiBCb29sZWFuKHByb3BzLmNvbm5lY3Rpb24udmVyaWZpZWRfYXQpKTsKY29uc3QgcHJvdmlkZXJOYW1lID0gY29tcHV0ZWQoCiAgKCkgPT4KICAgICh7IHN1bl9wYW5lbDogIlN1bi1QYW5lbCIsIG9uZV9uYXY6ICJPbmVOYXYiLCB2YW5fbmF2OiAiVmFuIE5hdiIgfSlbCiAgICAgIHByb3BzLmNvbm5lY3Rpb24ucHJvdmlkZXIKICAgIF0sCik7CmNvbnN0IGZvcm1hdFRpbWUgPSAodmFsdWU/OiBzdHJpbmcgfCBudWxsKSA9PgogIHZhbHVlCiAgICA/IG5ldyBJbnRsLkRhdGVUaW1lRm9ybWF0KGxvY2FsZS52YWx1ZSwgewogICAgICAgIGRhdGVTdHlsZTogIm1lZGl1bSIsCiAgICAgICAgdGltZVN0eWxlOiAic2hvcnQiLAogICAgICB9KS5mb3JtYXQobmV3IERhdGUodmFsdWUpKQogICAgOiAiLS0iOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8Q2FyZCBjbGFzcz0iYm9yZGVyLWJvcmRlci82MCBzaGFkb3ctbm9uZSI+CiAgICA8Q2FyZEhlYWRlciBjbGFzcz0icGItMyI+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICA8ZGl2IGNsYXNzPSJtaW4tdy0wIj4KICAgICAgICAgIDxDYXJkVGl0bGUgY2xhc3M9InRydW5jYXRlIHRleHQtYmFzZSI+e3sKICAgICAgICAgICAgY29ubmVjdGlvbi5uYW1lCiAgICAgICAgICB9fTwvQ2FyZFRpdGxlPgogICAgICAgICAgPHAgY2xhc3M9Im10LTEgdHJ1bmNhdGUgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7eyBwcm92aWRlck5hbWUgfX0gwrcKICAgICAgICAgICAge3sKICAgICAgICAgICAgICBjb21wb3NlUGFuZWxFbmRwb2ludFVybChjb25uZWN0aW9uLmJhc2VfdXJsLCBjb25uZWN0aW9uLmFwaV9wYXRoKQogICAgICAgICAgICB9fQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxCYWRnZSA6dmFyaWFudD0idmVyaWZpZWQgPyAnZGVmYXVsdCcgOiAnc2Vjb25kYXJ5JyI+CiAgICAgICAgICB7ewogICAgICAgICAgICB2ZXJpZmllZAogICAgICAgICAgICAgID8gdCgiYWRtaW4ucGFuZWxTeW5jLnN0YXR1cy52ZXJpZmllZCIpCiAgICAgICAgICAgICAgOiB0KCJhZG1pbi5wYW5lbFN5bmMuc3RhdHVzLmRyYWZ0IikKICAgICAgICAgIH19CiAgICAgICAgPC9CYWRnZT4KICAgICAgPC9kaXY+CiAgICA8L0NhcmRIZWFkZXI+CiAgICA8Q2FyZENvbnRlbnQgY2xhc3M9InNwYWNlLXktNCI+CiAgICAgIDxkaXYgY2xhc3M9ImdyaWQgZ2FwLTIgdGV4dC1zbSBzbTpncmlkLWNvbHMtMiI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgID57eyB0KCJhZG1pbi5wYW5lbFN5bmMubGFzdFJ1biIpIH1977yaPC9zcGFuCiAgICAgICAgICA+CiAgICAgICAgICB7ewogICAgICAgICAgICBjb25uZWN0aW9uLmxhc3RfcnVuCiAgICAgICAgICAgICAgPyB0KGBhZG1pbi5wYW5lbFN5bmMucnVuU3RhdHVzLiR7Y29ubmVjdGlvbi5sYXN0X3J1bi5zdGF0dXN9YCkKICAgICAgICAgICAgICA6ICItLSIKICAgICAgICAgIH19CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgID57eyB0KCJhZG1pbi5wYW5lbFN5bmMubmV4dFJ1biIpIH1977yaPC9zcGFuCiAgICAgICAgICA+CiAgICAgICAgICB7eyBmb3JtYXRUaW1lKGNvbm5lY3Rpb24ubmV4dF9zeW5jX2F0KSB9fQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHJvdW5kZWQtbGcgYm9yZGVyIHAtMyI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQtc20gZm9udC1tZWRpdW0iPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5wYW5lbFN5bmMuYXV0b1N5bmMiKSB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHt7CiAgICAgICAgICAgICAgdCgiYWRtaW4ucGFuZWxTeW5jLmV2ZXJ5TWludXRlcyIsIHsKICAgICAgICAgICAgICAgIGNvdW50OiBjb25uZWN0aW9uLmF1dG9fc3luYz8uaW50ZXJ2YWxfbWludXRlcyA/PyA2MCwKICAgICAgICAgICAgICB9KQogICAgICAgICAgICB9fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPFN3aXRjaAogICAgICAgICAgOm1vZGVsLXZhbHVlPSJjb25uZWN0aW9uLmF1dG9fc3luYz8uZW5hYmxlZCA/PyB0cnVlIgogICAgICAgICAgOmRpc2FibGVkPSIhdmVyaWZpZWQiCiAgICAgICAgICA6YXJpYS1sYWJlbD0idCgnYWRtaW4ucGFuZWxTeW5jLmF1dG9TeW5jJykiCiAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJlbWl0KCd0b2dnbGUtYXV0bycsICRldmVudCkiCiAgICAgICAgLz4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9InRlc3RpbmciCiAgICAgICAgICBAY2xpY2s9ImVtaXQoJ3Rlc3QnKSIKICAgICAgICA+CiAgICAgICAgICA8UGx1Z1phcCBjbGFzcz0ibXItMS41IGgtNCB3LTQiIC8+CiAgICAgICAgICB7ewogICAgICAgICAgICB0ZXN0aW5nID8gdCgiYWRtaW4ucGFuZWxTeW5jLnRlc3RpbmciKSA6IHQoImFkbWluLnBhbmVsU3luYy50ZXN0IikKICAgICAgICAgIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICA6ZGlzYWJsZWQ9IiF2ZXJpZmllZCB8fCBwcmV2aWV3aW5nIgogICAgICAgICAgQGNsaWNrPSJlbWl0KCdwcmV2aWV3JykiCiAgICAgICAgPgogICAgICAgICAgPFBsYXkgY2xhc3M9Im1yLTEuNSBoLTQgdy00IiAvPgogICAgICAgICAge3sKICAgICAgICAgICAgcHJldmlld2luZwogICAgICAgICAgICAgID8gdCgiYWRtaW4ucGFuZWxTeW5jLnByZXZpZXdpbmciKQogICAgICAgICAgICAgIDogdCgiYWRtaW4ucGFuZWxTeW5jLnByZXZpZXciKQogICAgICAgICAgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uIHNpemU9InNtIiB2YXJpYW50PSJnaG9zdCIgQGNsaWNrPSJlbWl0KCdoaXN0b3J5JykiPgogICAgICAgICAgPEhpc3RvcnkgY2xhc3M9Im1yLTEuNSBoLTQgdy00IiAvPnt7IHQoImFkbWluLnBhbmVsU3luYy5oaXN0b3J5IikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uIHNpemU9InNtIiB2YXJpYW50PSJnaG9zdCIgQGNsaWNrPSJlbWl0KCdlZGl0JykiPgogICAgICAgICAgPFBlbmNpbCBjbGFzcz0ibXItMS41IGgtNCB3LTQiIC8+e3sgdCgiY29tbW9uLmVkaXQiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICBjbGFzcz0idGV4dC1kZXN0cnVjdGl2ZSBob3Zlcjp0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgOmRpc2FibGVkPSJkZWxldGluZyIKICAgICAgICAgIEBjbGljaz0iZW1pdCgnZGVsZXRlJykiCiAgICAgICAgPgogICAgICAgICAgPFRyYXNoMiBjbGFzcz0ibXItMS41IGgtNCB3LTQiIC8+e3sKICAgICAgICAgICAgdCgiYWRtaW4ucGFuZWxTeW5jLmFjdGlvbnMuZGVsZXRlIikKICAgICAgICAgIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvZGl2PgogICAgPC9DYXJkQ29udGVudD4KICA8L0NhcmQ+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { History, Pencil, Play, PlugZap, Trash2 } from "lucide-vue-next";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Switch } from "@/components/ui/switch";
+import type { PanelConnection } from "@/lib/api/panel-sync-api";
+import { composePanelEndpointUrl } from "./panel-sync-model";
+
+const props = defineProps<{
+  connection: PanelConnection;
+  deleting: boolean;
+  previewing: boolean;
+  testing: boolean;
+}>();
+const emit = defineEmits<{
+  delete: [];
+  edit: [];
+  history: [];
+  preview: [];
+  test: [];
+  "toggle-auto": [value: boolean];
+}>();
+const { t, locale } = useI18n();
+const verified = computed(() => Boolean(props.connection.verified_at));
+const providerName = computed(
+  () =>
+    ({ sun_panel: "Sun-Panel", one_nav: "OneNav", van_nav: "Van Nav" })[
+      props.connection.provider
+    ],
+);
+const formatTime = (value?: string | null) =>
+  value
+    ? new Intl.DateTimeFormat(locale.value, {
+        dateStyle: "medium",
+        timeStyle: "short",
+      }).format(new Date(value))
+    : "--";
+</script>
+
+<template>
+  <Card class="border-border/60 shadow-none">
+    <CardHeader class="pb-3">
+      <div class="flex items-start justify-between gap-3">
+        <div class="min-w-0">
+          <CardTitle class="truncate text-base">{{
+            connection.name
+          }}</CardTitle>
+          <p class="mt-1 truncate text-sm text-muted-foreground">
+            {{ providerName }} ·
+            {{
+              composePanelEndpointUrl(connection.base_url, connection.api_path)
+            }}
+          </p>
+        </div>
+        <Badge :variant="verified ? 'default' : 'secondary'">
+          {{
+            verified
+              ? t("admin.panelSync.status.verified")
+              : t("admin.panelSync.status.draft")
+          }}
+        </Badge>
+      </div>
+    </CardHeader>
+    <CardContent class="space-y-4">
+      <div class="grid gap-2 text-sm sm:grid-cols-2">
+        <div>
+          <span class="text-muted-foreground"
+            >{{ t("admin.panelSync.lastRun") }}：</span
+          >
+          {{
+            connection.last_run
+              ? t(`admin.panelSync.runStatus.${connection.last_run.status}`)
+              : "--"
+          }}
+        </div>
+        <div>
+          <span class="text-muted-foreground"
+            >{{ t("admin.panelSync.nextRun") }}：</span
+          >
+          {{ formatTime(connection.next_sync_at) }}
+        </div>
+      </div>
+      <div class="flex items-center justify-between rounded-lg border p-3">
+        <div>
+          <div class="text-sm font-medium">
+            {{ t("admin.panelSync.autoSync") }}
+          </div>
+          <div class="text-xs text-muted-foreground">
+            {{
+              t("admin.panelSync.everyMinutes", {
+                count: connection.auto_sync?.interval_minutes ?? 60,
+              })
+            }}
+          </div>
+        </div>
+        <Switch
+          :model-value="connection.auto_sync?.enabled ?? true"
+          :disabled="!verified"
+          :aria-label="t('admin.panelSync.autoSync')"
+          @update:model-value="emit('toggle-auto', $event)"
+        />
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <Button
+          size="sm"
+          variant="outline"
+          :disabled="testing"
+          @click="emit('test')"
+        >
+          <PlugZap class="mr-1.5 h-4 w-4" />
+          {{
+            testing ? t("admin.panelSync.testing") : t("admin.panelSync.test")
+          }}
+        </Button>
+        <Button
+          size="sm"
+          :disabled="!verified || previewing"
+          @click="emit('preview')"
+        >
+          <Play class="mr-1.5 h-4 w-4" />
+          {{
+            previewing
+              ? t("admin.panelSync.previewing")
+              : t("admin.panelSync.preview")
+          }}
+        </Button>
+        <Button size="sm" variant="ghost" @click="emit('history')">
+          <History class="mr-1.5 h-4 w-4" />{{ t("admin.panelSync.history") }}
+        </Button>
+        <Button size="sm" variant="ghost" @click="emit('edit')">
+          <Pencil class="mr-1.5 h-4 w-4" />{{ t("common.edit") }}
+        </Button>
+        <Button
+          size="sm"
+          variant="ghost"
+          class="text-destructive hover:text-destructive"
+          :disabled="deleting"
+          @click="emit('delete')"
+        >
+          <Trash2 class="mr-1.5 h-4 w-4" />{{
+            t("admin.panelSync.actions.delete")
+          }}
+        </Button>
+      </div>
+    </CardContent>
+  </Card>
+</template>

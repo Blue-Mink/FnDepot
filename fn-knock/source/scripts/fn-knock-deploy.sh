@@ -1,1 +1,650 @@
-IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKClJPT1RfRElSPSIkKGNkICIkKGRpcm5hbWUgIiR7QkFTSF9TT1VSQ0VbMF19IikvLi4iICYmIHB3ZCkiCmNkICIke1JPT1RfRElSfSIKc291cmNlICIke1JPT1RfRElSfS9zY3JpcHRzL3ZlcnNpb24uc2giCgpSRU1PVEVfSE9TVD0iJHtGTl9LTk9DS19SRU1PVEVfSE9TVDotcm9vdEAxOTIuMTY4LjMxLjk4fSIKUkVNT1RFX0RJUj0iJHtGTl9LTk9DS19SRU1PVEVfRElSOi0vdG1wL2ZuLWtub2NrLWZwa30iCkFQUF9OQU1FPSIke0ZOX0tOT0NLX0FQUF9OQU1FOi1mbi1rbm9ja30iCkFQUF9WRVJTSU9OPSIkKGZuX2tub2NrX2FwcF92ZXJzaW9uICIke1JPT1RfRElSfSIpIgpMT0NBTF9BUFBfRElSPSIke0ZOX0tOT0NLX0xPQ0FMX0FQUF9ESVI6LWFwcHMvZm4ta25vY2t9IgpMT0NBTF9GUEtfUEFUSD0iJHtGTl9LTk9DS19MT0NBTF9GUEtfUEFUSDotYXBwcy9mbi1rbm9jay9kaXN0L2ZuLWtub2NrLmZwa30iClJFTU9URV9TT1VSQ0VfRElSPSIke1JFTU9URV9ESVJ9L3NyYyIKUkVNT1RFX0JVSUxEX0FNRDY0X0RJUj0iJHtSRU1PVEVfRElSfS9idWlsZC1hbWQ2NCIKUkVNT1RFX0JVSUxEX0FSTTY0X0RJUj0iJHtSRU1PVEVfRElSfS9idWlsZC1hcm02NCIKUkVNT1RFX0ZQS19BTUQ2NF9QQVRIPSIke1JFTU9URV9ESVJ9LyR7QVBQX05BTUV9LWFtZDY0LmZwayIKUkVNT1RFX0ZQS19BUk02NF9QQVRIPSIke1JFTU9URV9ESVJ9LyR7QVBQX05BTUV9LWFybTY0LmZwayIKUkVNT1RFX1VJX0lOREVYPSIvdXNyL2xvY2FsL2FwcHMvQGFwcGNlbnRlci8ke0FQUF9OQU1FfS91aS9pbmRleC5jZ2kiClJFTU9URV9MSUZFQ1lDTEVfTUFJTj0iL3Zhci9hcHBzLyR7QVBQX05BTUV9L2NtZC9tYWluIgpSRU1PVEVfTE9HX0ZJTEU9Ii91c3IvbG9jYWwvYXBwcy9AYXBwZGF0YS8ke0FQUF9OQU1FfS9pbmZvLmxvZyIKUkVNT1RFX0lOU1RBTExfRU5WX1BBVEg9IiR7UkVNT1RFX0RJUn0vaW5zdGFsbC5lbnYiClJFTU9URV9BUFBDRU5URVJfVE1QX0RJUj0iJHtGTl9LTk9DS19SRU1PVEVfQVBQQ0VOVEVSX1RNUF9ESVI6LS90bXAvYXBwY2VudGVyfSIKV0laQVJEX0FETUlOX1ZJRVdfUE9SVD0iJHtGTl9LTk9DS19XSVpBUkRfQURNSU5fVklFV19QT1JUOi03OTkxfSIKV0laQVJEX0JBQ0tFTkRfUE9SVD0iJHtGTl9LTk9DS19XSVpBUkRfQkFDS0VORF9QT1JUOi03OTk4fSIKV0laQVJEX0FVVEhfUE9SVD0iJHtGTl9LTk9DS19XSVpBUkRfQVVUSF9QT1JUOi03OTk3fSIKV0laQVJEX0dPX0JBQ0tFTkRfUE9SVD0iJHtGTl9LTk9DS19XSVpBUkRfR09fQkFDS0VORF9QT1JUOi03OTk2fSIKV0laQVJEX0dPX1JFUFJPWFlfUE9SVD0iJHtGTl9LTk9DS19XSVpBUkRfR09fUkVQUk9YWV9QT1JUOi03OTk5fSIKCmxvZygpIHsKICBlY2hvICJbZm4ta25vY2stZGVwbG95XSAkKiIKfQoKZGVyaXZlX2FyY2hfZnBrX3BhdGgoKSB7CiAgbG9jYWwgYmFzZV9wYXRoPSIkMSIKICBsb2NhbCBhcmNoPSIkMiIKICBsb2NhbCBkaXJfbmFtZQogIGxvY2FsIGZpbGVfbmFtZQogIGxvY2FsIGZpbGVfc3RlbQoKICBkaXJfbmFtZT0iJChkaXJuYW1lICIke2Jhc2VfcGF0aH0iKSIKICBmaWxlX25hbWU9IiQoYmFzZW5hbWUgIiR7YmFzZV9wYXRofSIpIgogIGZpbGVfc3RlbT0iJHtmaWxlX25hbWUlLmZwa30iCgogIGlmIFsgIiR7ZmlsZV9zdGVtfSIgPSAiJHtmaWxlX25hbWV9IiBdOyB0aGVuCiAgICBlY2hvICIke2Rpcl9uYW1lfS8ke2ZpbGVfbmFtZX0tJHthcmNofS5mcGsiCiAgICByZXR1cm4gMAogIGZpCgogIGVjaG8gIiR7ZGlyX25hbWV9LyR7ZmlsZV9zdGVtfS0ke2FyY2h9LmZwayIKfQoKTE9DQUxfRlBLX0FNRDY0X1BBVEg9IiQoZGVyaXZlX2FyY2hfZnBrX3BhdGggIiR7TE9DQUxfRlBLX1BBVEh9IiAiYW1kNjQiKSIKTE9DQUxfRlBLX0FSTTY0X1BBVEg9IiQoZGVyaXZlX2FyY2hfZnBrX3BhdGggIiR7TE9DQUxfRlBLX1BBVEh9IiAiYXJtNjQiKSIKRlBLX0FSQ0hFUz0oKQoKZ2V0X3JlbW90ZV9zdGF0dXMoKSB7CiAgc3NoICIke1JFTU9URV9IT1NUfSIgImFwcGNlbnRlci1jbGkgc3RhdHVzICcke0FQUF9OQU1FfScgMj4vZGV2L251bGwgfHwgdHJ1ZSIKfQoKcmVzb2x2ZV9yZW1vdGVfaW5zdGFsbF92b2x1bWUoKSB7CiAgbG9jYWwgY29uZmlndXJlZF92b2x1bWU9IiR7Rk5fS05PQ0tfUkVNT1RFX0lOU1RBTExfVk9MVU1FOi19IgoKICBpZiBbIC1uICIke2NvbmZpZ3VyZWRfdm9sdW1lfSIgXTsgdGhlbgogICAgY2FzZSAiJHtjb25maWd1cmVkX3ZvbHVtZX0iIGluCiAgICAgIDB8KlshMC05XSopCiAgICAgICAgZWNobyAiRVJST1I6IEZOX0tOT0NLX1JFTU9URV9JTlNUQUxMX1ZPTFVNRSBtdXN0IGJlIGEgcG9zaXRpdmUgdm9sdW1lIGluZGV4IiA+JjIKICAgICAgICByZXR1cm4gMQogICAgICAgIDs7CiAgICBlc2FjCgogICAgZWNobyAiJHtjb25maWd1cmVkX3ZvbHVtZX0iCiAgICByZXR1cm4gMAogIGZpCgogIHNzaCAiJHtSRU1PVEVfSE9TVH0iICcKICAgIGZvciBkaXIgaW4gL3ZvbFsxLTldKjsgZG8KICAgICAgWyAtZCAiJHtkaXJ9L0BhcHBjZW50ZXIiIF0gfHwgY29udGludWUKICAgICAgdm9sdW1lPSIke2RpciMvdm9sfSIKICAgICAgY2FzZSAiJHt2b2x1bWV9IiBpbgogICAgICAgICIifCpbITAtOV0qKQogICAgICAgICAgY29udGludWUKICAgICAgICAgIDs7CiAgICAgIGVzYWMKICAgICAgZWNobyAiJHt2b2x1bWV9IgogICAgICBleGl0IDAKICAgIGRvbmUKICAnCn0KCnJlYWRfZnBrX2FyY2hlcygpIHsKICBsb2NhbCByYXc9IiR7Rk5fS05PQ0tfRlBLX0FSQ0hFUzotYW1kNjQgYXJtNjR9IgogIHJhdz0iJHtyYXcvLywvIH0iCgogIGxvY2FsIGFyY2gKICBsb2NhbCBub3JtYWxpemVkCiAgbG9jYWwgc2Vlbj0iICIKCiAgZm9yIGFyY2ggaW4gJHtyYXd9OyBkbwogICAgY2FzZSAiJHthcmNofSIgaW4KICAgICAgYW1kNjR8eDg2fHg4Nl82NCkKICAgICAgICBub3JtYWxpemVkPSJhbWQ2NCIKICAgICAgICA7OwogICAgICBhcm02NHxhYXJjaDY0KQogICAgICAgIG5vcm1hbGl6ZWQ9ImFybTY0IgogICAgICAgIDs7CiAgICAgICopCiAgICAgICAgZWNobyAiRVJST1I6IGludmFsaWQgRlBLIGFyY2hpdGVjdHVyZTogJHthcmNofTsgZXhwZWN0ZWQgYW1kNjQveDg2IG9yIGFybTY0IiA+JjIKICAgICAgICBleGl0IDEKICAgICAgICA7OwogICAgZXNhYwoKICAgIGNhc2UgIiR7c2Vlbn0iIGluCiAgICAgICoiICR7bm9ybWFsaXplZH0gIiopIDs7CiAgICAgICopCiAgICAgICAgRlBLX0FSQ0hFUys9KCIke25vcm1hbGl6ZWR9IikKICAgICAgICBzZWVuPSIke3NlZW59JHtub3JtYWxpemVkfSAiCiAgICAgICAgOzsKICAgIGVzYWMKICBkb25lCgogIGlmIFsgIiR7I0ZQS19BUkNIRVNbQF19IiAtZXEgMCBdOyB0aGVuCiAgICBlY2hvICJFUlJPUjogRlBLIGFyY2hpdGVjdHVyZSBsaXN0IGlzIGVtcHR5IiA+JjIKICAgIGV4aXQgMQogIGZpCn0KCmZwa19hcmNoX2VuYWJsZWQoKSB7CiAgbG9jYWwgdGFyZ2V0PSIkMSIKICBsb2NhbCBhcmNoCgogIGZvciBhcmNoIGluICIke0ZQS19BUkNIRVNbQF19IjsgZG8KICAgIGlmIFsgIiR7YXJjaH0iID0gIiR7dGFyZ2V0fSIgXTsgdGhlbgogICAgICByZXR1cm4gMAogICAgZmkKICBkb25lCgogIHJldHVybiAxCn0KCmFzc2VydF9yZW1vdGVfaW5zdGFsbGVkKCkgewogIGxvY2FsIHN0YXR1cwogIHN0YXR1cz0iJChnZXRfcmVtb3RlX3N0YXR1cykiCiAgZWNobyAiJHtzdGF0dXN9IgogIGlmIGVjaG8gIiR7c3RhdHVzfSIgfCBncmVwIC1xaSAibm9pbnN0YWxsIjsgdGhlbgogICAgZWNobyAiRVJST1I6IGFwcGxpY2F0aW9uICcke0FQUF9OQU1FfScgaXMgbm90IGluc3RhbGxlZCBvbiByZW1vdGUgaG9zdCIgPiYyCiAgICBleGl0IDEKICBmaQp9Cgp3YWl0X2Zvcl9yZW1vdGVfcnVubmluZygpIHsKICBsb2NhbCB0aW1lb3V0PSIke0ZOX0tOT0NLX1JFTU9URV9TVEFSVF9USU1FT1VUOi02MH0iCiAgbG9jYWwgc3RhcnRlZF9hdAogIGxvY2FsIHN0YXR1cwoKICBjYXNlICIke3RpbWVvdXR9IiBpbgogICAgMHwqWyEwLTldKikKICAgICAgZWNobyAiRVJST1I6IEZOX0tOT0NLX1JFTU9URV9TVEFSVF9USU1FT1VUIG11c3QgYmUgYSBwb3NpdGl2ZSBudW1iZXIgb2Ygc2Vjb25kcyIgPiYyCiAgICAgIHJldHVybiAxCiAgICAgIDs7CiAgZXNhYwoKICBzdGFydGVkX2F0PSIkKGRhdGUgKyVzKSIKICB3aGlsZSB0cnVlOyBkbwogICAgc3RhdHVzPSIkKGdldF9yZW1vdGVfc3RhdHVzKSIKICAgIGVjaG8gIiR7c3RhdHVzfSIKICAgIGlmIGVjaG8gIiR7c3RhdHVzfSIgfCBncmVwIC1xaSAicnVubmluZyI7IHRoZW4KICAgICAgcmV0dXJuIDAKICAgIGZpCiAgICBpZiBlY2hvICIke3N0YXR1c30iIHwgZ3JlcCAtcWkgIm5vaW5zdGFsbCI7IHRoZW4KICAgICAgZWNobyAiRVJST1I6IGFwcGxpY2F0aW9uICcke0FQUF9OQU1FfScgaXMgbm90IGluc3RhbGxlZCBvbiByZW1vdGUgaG9zdCIgPiYyCiAgICAgIHJldHVybiAxCiAgICBmaQogICAgaWYgWyAiJCgoICQoZGF0ZSArJXMpIC0gc3RhcnRlZF9hdCApKSIgLWdlICIke3RpbWVvdXR9IiBdOyB0aGVuCiAgICAgIGVjaG8gIkVSUk9SOiBhcHBsaWNhdGlvbiAnJHtBUFBfTkFNRX0nIGRpZCBub3QgcmVhY2ggcnVubmluZyBzdGF0ZSB3aXRoaW4gJHt0aW1lb3V0fXMiID4mMgogICAgICByZXR1cm4gMQogICAgZmkKICAgIHNsZWVwIDIKICBkb25lCn0KCnJlc29sdmVfcmVtb3RlX3VpX2luZGV4KCkgewogIHNzaCAiJHtSRU1PVEVfSE9TVH0iICJmb3IgcCBpbiAnJHtSRU1PVEVfVUlfSU5ERVh9JyAnL3Vzci9sb2NhbC9hcHBzL0BhcHBjZW50ZXIvJHtBUFBfTkFNRX0vYXBwL3VpL2luZGV4LmNnaSc7IGRvIGlmIFsgLWYgXCJcJHBcIiBdOyB0aGVuIGVjaG8gXCJcJHBcIjsgZXhpdCAwOyBmaTsgZG9uZTsgZXhpdCAxIgp9CgpyZXNvbHZlX3JlbW90ZV93d3dfaW5kZXgoKSB7CiAgc3NoICIke1JFTU9URV9IT1NUfSIgImZvciBwIGluICcvdXNyL2xvY2FsL2FwcHMvQGFwcGNlbnRlci8ke0FQUF9OQU1FfS91aS93d3cvaW5kZXguaHRtbCcgJy91c3IvbG9jYWwvYXBwcy9AYXBwY2VudGVyLyR7QVBQX05BTUV9L2FwcC91aS93d3cvaW5kZXguaHRtbCc7IGRvIGlmIFsgLWYgXCJcJHBcIiBdOyB0aGVuIGVjaG8gXCJcJHBcIjsgZXhpdCAwOyBmaTsgZG9uZTsgZXhpdCAxIgp9CgpyZXNvbHZlX2RlcGxveV9ydXN0X2J1aWxkZXIoKSB7CiAgbG9jYWwgYnVpbGRlcj0iJHtGTl9LTk9DS19GUEtfUlVTVF9CVUlMREVSOi1hdXRvfSIKCiAgY2FzZSAiJHtidWlsZGVyfSIgaW4KICAgICIiKQogICAgICBlY2hvICJhdXRvIgogICAgICA7OwogICAgYXV0b3x6aWd8ZG9ja2VyKQogICAgICBlY2hvICIke2J1aWxkZXJ9IgogICAgICA7OwogICAgKikKICAgICAgZWNobyAiRVJST1I6IHVuc3VwcG9ydGVkIEZOX0tOT0NLX0ZQS19SVVNUX0JVSUxERVI9JHtidWlsZGVyfTsgZXhwZWN0ZWQgYXV0bywgemlnLCBvciBkb2NrZXIiID4mMgogICAgICBleGl0IDEKICAgICAgOzsKICBlc2FjCn0KCnJ1bl9sb2NhbF9wYWNrYWdlKCkgewogIGxvY2FsIHJ1c3RfYnVpbGRlcgogIGxvY2FsIGJ1aWxkX3NjcmlwdD0iJHtMT0NBTF9BUFBfRElSfS9zY3JpcHRzL2J1aWxkLXBhY2thZ2Uuc2giCgogIHJ1c3RfYnVpbGRlcj0iJChyZXNvbHZlX2RlcGxveV9ydXN0X2J1aWxkZXIpIgogIGlmIFsgISAteCAiJHtidWlsZF9zY3JpcHR9IiBdOyB0aGVuCiAgICBlY2hvICJFUlJPUjogbG9jYWwgcGFja2FnZSBidWlsZCBzY3JpcHQgaXMgbWlzc2luZyBvciBub3QgZXhlY3V0YWJsZTogJHtidWlsZF9zY3JpcHR9IiA+JjIKICAgIGV4aXQgMQogIGZpCgogIGxvZyAiU3RlcCAxLzQ6IEJ1aWxkIHBhY2thZ2UgYXNzZXRzIGxvY2FsbHkgKCR7RlBLX0FSQ0hFU1sqXX0sIFJ1c3QgYnVpbGRlcjogJHtydXN0X2J1aWxkZXJ9KSIKICBGTl9LTk9DS19GUEtfUlVTVF9CVUlMREVSPSIke3J1c3RfYnVpbGRlcn0iICIke2J1aWxkX3NjcmlwdH0iCn0KCnJ1bl9yZW1vdGVfcGFja19mb3JfYXJjaCgpIHsKICBsb2NhbCBhcmNoPSIkMSIKICBsb2NhbCBidWlsZF9kaXI9IiQyIgogIGxvY2FsIG91dHB1dF9wYXRoPSIkMyIKCiAgbG9nICJTdGVwIDIvNDogQnVpbGQgJHthcmNofSBGUEsgb24gcmVtb3RlIGhvc3QiCiAgc3NoICIke1JFTU9URV9IT1NUfSIgYmFzaCAtcyAtLSAiJHtSRU1PVEVfU09VUkNFX0RJUn0iICIke2J1aWxkX2Rpcn0iICIke291dHB1dF9wYXRofSIgIiR7QVBQX05BTUV9IiAiJHthcmNofSIgPDwnRU9GJwpzZXQgLWV1byBwaXBlZmFpbAoKc291cmNlX2Rpcj0iJDEiCmJ1aWxkX2Rpcj0iJDIiCm91dHB1dF9wYXRoPSIkMyIKYXBwX25hbWU9IiQ0IgphcmNoPSIkNSIKCmdhdGV3YXlfYmlucz0oCiAgImdvLXJlYXV0aC1wcm94eS1saW51eC1hbWQ2NCIKICAiZ28tcmVhdXRoLXByb3h5LWxpbnV4LWFybTY0IgogICJnby1yZWF1dGgtcHJveHktbGludXgtYXJtIgopCgpjYXNlICIke2FyY2h9IiBpbgogIGFtZDY0KQogICAga2VlcF9iaW49ImdvLXJlYXV0aC1wcm94eS1saW51eC1hbWQ2NCIKICAgIGtlZXBfcnVzdF9iaW49InNlcnZlci1hZG1pbi1ycy1saW51eC1hbWQ2NCIKICAgIGluc3RhbGxfZGVwX2FwcHM9IiIKICAgIG1hbmlmZXN0X3BsYXRmb3JtPSJ4ODYiCiAgICA7OwogIGFybTY0KQogICAga2VlcF9iaW49ImdvLXJlYXV0aC1wcm94eS1saW51eC1hcm02NCIKICAgIGtlZXBfcnVzdF9iaW49InNlcnZlci1hZG1pbi1ycy1saW51eC1hcm02NCIKICAgIGluc3RhbGxfZGVwX2FwcHM9IiIKICAgIG1hbmlmZXN0X3BsYXRmb3JtPSJhcm0iCiAgICA7OwogICopCiAgICBlY2hvICJbcmVtb3RlLWZuLWtub2NrXSB1bnN1cHBvcnRlZCBhcmNoOiAke2FyY2h9IiA+JjIKICAgIGV4aXQgMQogICAgOzsKZXNhYwoKcm0gLXJmICIke2J1aWxkX2Rpcn0iCm1rZGlyIC1wICIke2J1aWxkX2Rpcn0iCnJzeW5jIC1hIC0tZGVsZXRlICIke3NvdXJjZV9kaXJ9LyIgIiR7YnVpbGRfZGlyfS8iCgojIE5ldmVyIHNoaXAgRmluZGVyL0FwcGxlRG91YmxlIG1ldGFkYXRhIHRoYXQgbWF5IGV4aXN0IGluIGEgZGV2ZWxvcGVyJ3MKIyB3b3JraW5nIGNvcHkuIEJlc2lkZXMgYmVpbmcgbm9pc2UsIGZucGFjayB3b3VsZCBvdGhlcndpc2UgcGxhY2UgaXQgaW5zaWRlCiMgYXBwLnRneiB3aGVyZSBpdCBjYW5ub3QgYmUgcmVtb3ZlZCBhZnRlciBpbnN0YWxsYXRpb24uCmZpbmQgIiR7YnVpbGRfZGlyfSIgLXR5cGUgZiBcKCAtbmFtZSAnLkRTX1N0b3JlJyAtbyAtbmFtZSAnLl8qJyBcKSAtZGVsZXRlCgojIGZucGFjayB3cmFwcyBhcHAvIGluIGEgZ3ppcCBhcmNoaXZlLCBzbyBnemlwIHNpZGVjYXJzIGJhcmVseSBjb21wcmVzcyBhZ2Fpbi4KIyBSZXRhaW4gQnJvdGxpIHNpZGVjYXJzIHBsdXMgdGhlIG9yaWdpbmFsIGZpbGVzIGZvciB0cmFuc3BhcmVudCBmYWxsYmFjay4KZmluZCBcCiAgIiR7YnVpbGRfZGlyfS9hcHAvdWkvd3d3IiBcCiAgIiR7YnVpbGRfZGlyfS9hcHAvc2VydmVyLWF1dGgtdmlldy9kaXN0IiBcCiAgLXR5cGUgZiAtbmFtZSAnKi5neicgLWRlbGV0ZQoKZm9yIGJpbiBpbiAiJHtnYXRld2F5X2JpbnNbQF19IjsgZG8KICBpZiBbICIke2Jpbn0iICE9ICIke2tlZXBfYmlufSIgXTsgdGhlbgogICAgcm0gLWYgIiR7YnVpbGRfZGlyfS9hcHAvc2VydmVyLyR7YmlufSIKICBmaQpkb25lCgpjaG1vZCAreCAiJHtidWlsZF9kaXJ9L2FwcC9zZXJ2ZXIvJHtrZWVwX2Jpbn0iIDI+L2Rldi9udWxsIHx8IHRydWUKCmlmIFsgISAteCAiJHtidWlsZF9kaXJ9L2FwcC9zZXJ2ZXIvJHtrZWVwX3J1c3RfYmlufSIgXTsgdGhlbgogIGVjaG8gIltyZW1vdGUtZm4ta25vY2tdIG1pc3NpbmcgUnVzdCBiYWNrZW5kIGZvciAke2FyY2h9OiBhcHAvc2VydmVyLyR7a2VlcF9ydXN0X2Jpbn0iID4mMgogIGV4aXQgMQpmaQpjcCAtZiAiJHtidWlsZF9kaXJ9L2FwcC9zZXJ2ZXIvJHtrZWVwX3J1c3RfYmlufSIgIiR7YnVpbGRfZGlyfS9hcHAvc2VydmVyL3NlcnZlci1hZG1pbi1ycyIKcm0gLWYgIiR7YnVpbGRfZGlyfSIvYXBwL3NlcnZlci9zZXJ2ZXItYWRtaW4tcnMtbGludXgtKgpjaG1vZCAreCAiJHtidWlsZF9kaXJ9L2FwcC9zZXJ2ZXIvc2VydmVyLWFkbWluLXJzIgoKbWFuaWZlc3RfZmlsZT0iJHtidWlsZF9kaXJ9L21hbmlmZXN0Igp0bXBfbWFuaWZlc3Q9IiQobWt0ZW1wKSIKYXdrIC12IGRlcF9hcHBzPSIke2luc3RhbGxfZGVwX2FwcHN9IiAtdiBwbGF0Zm9ybT0iJHttYW5pZmVzdF9wbGF0Zm9ybX0iICcKICBCRUdJTiB7IHVwZGF0ZWQgPSAwIH0KICAvXnBsYXRmb3JtPS8gewogICAgcHJpbnQgInBsYXRmb3JtPSIgcGxhdGZvcm0KICAgIG5leHQKICB9CiAgL15pbnN0YWxsX2RlcF9hcHBzPS8gewogICAgcHJpbnQgImluc3RhbGxfZGVwX2FwcHM9IiBkZXBfYXBwcwogICAgdXBkYXRlZCA9IDEKICAgIG5leHQKICB9CiAgeyBwcmludCB9CiAgRU5EIHsKICAgIGlmICghdXBkYXRlZCkgewogICAgICBwcmludCAiaW5zdGFsbF9kZXBfYXBwcz0iIGRlcF9hcHBzCiAgICB9CiAgfQonICIke21hbmlmZXN0X2ZpbGV9IiA+ICIke3RtcF9tYW5pZmVzdH0iCm12ICIke3RtcF9tYW5pZmVzdH0iICIke21hbmlmZXN0X2ZpbGV9IgoKY2QgIiR7YnVpbGRfZGlyfSIKcm0gLWYgIiR7YXBwX25hbWV9LmZwayIKZm5wYWNrIGJ1aWxkIC1kIC4KbXYgLWYgIiR7YXBwX25hbWV9LmZwayIgIiR7b3V0cHV0X3BhdGh9IgplY2hvICJbcmVtb3RlLWZuLWtub2NrXSBidWlsdCAke2FyY2h9IHBhY2thZ2UgLT4gJHtvdXRwdXRfcGF0aH0iCkVPRgp9Cgp2ZXJpZnlfZnBrX3BheWxvYWQoKSB7CiAgbG9jYWwgZnBrX3BhdGg9IiQxIgogIGxvY2FsIGtlZXBfYmluPSIkMiIKICBsb2NhbCBydXN0X2FyY2g9IiQzIgogIGxvY2FsIGFwcF9saXN0aW5nCiAgbG9jYWwgbm9ybWFsaXplZF9saXN0aW5nCiAgbG9jYWwgYmluCiAgbG9jYWwgcnVzdF90bXAKICBsb2NhbCBydXN0X2ZpbGVfaW5mbwoKICBpZiAhIGFwcF9saXN0aW5nPSIkKHRhciAteE96ZiAiJHtmcGtfcGF0aH0iIGFwcC50Z3ogfCB0YXIgLXR6ZiAtKSI7IHRoZW4KICAgIGVjaG8gIkVSUk9SOiBmYWlsZWQgdG8gaW5zcGVjdCBGUEsgYXBwIHBheWxvYWQ6ICR7ZnBrX3BhdGh9IiA+JjIKICAgIGV4aXQgMQogIGZpCgogIG5vcm1hbGl6ZWRfbGlzdGluZz0iJChwcmludGYgJyVzXG4nICIke2FwcF9saXN0aW5nfSIgfCBzZWQgJ3MjXlwuLyMjJykiCiAgaWYgcHJpbnRmICclc1xuJyAiJHtub3JtYWxpemVkX2xpc3Rpbmd9IiB8IGdyZXAgLUVxICcoXnwvKVwuRFNfU3RvcmUkfChefC8pXC5fJzsgdGhlbgogICAgZWNobyAiRVJST1I6IEZQSyAke2Zwa19wYXRofSBjb250YWlucyBtYWNPUyBtZXRhZGF0YSBmaWxlcyIgPiYyCiAgICBleGl0IDEKICBmaQogIGlmICEgcHJpbnRmICclc1xuJyAiJHtub3JtYWxpemVkX2xpc3Rpbmd9IiB8IFwKICAgIGdyZXAgLUVxICJedWkvd3d3L2Fzc2V0cy92JHtBUFBfVkVSU0lPTi8vLi9cXC59L1teL10rJCI7IHRoZW4KICAgIGVjaG8gIkVSUk9SOiBGUEsgJHtmcGtfcGF0aH0gaXMgbWlzc2luZyB0aGUgdmVyc2lvbmVkIGFkbWluIGFzc2V0IG5hbWVzcGFjZSBmb3IgJHtBUFBfVkVSU0lPTn0iID4mMgogICAgZXhpdCAxCiAgZmkKICBpZiAhIHByaW50ZiAnJXNcbicgIiR7bm9ybWFsaXplZF9saXN0aW5nfSIgfCBncmVwIC1GeHEgInNlcnZlci8ke2tlZXBfYmlufSI7IHRoZW4KICAgIGVjaG8gIkVSUk9SOiBGUEsgJHtmcGtfcGF0aH0gaXMgbWlzc2luZyBleHBlY3RlZCBnYXRld2F5IGJpbmFyeTogJHtrZWVwX2Jpbn0iID4mMgogICAgZXhpdCAxCiAgZmkKCiAgZm9yIGJpbiBpbiBcCiAgICBnby1yZWF1dGgtcHJveHktbGludXgtYW1kNjQgXAogICAgZ28tcmVhdXRoLXByb3h5LWxpbnV4LWFybTY0IFwKICAgIGdvLXJlYXV0aC1wcm94eS1saW51eC1hcm0KICBkbwogICAgaWYgWyAiJHtiaW59IiAhPSAiJHtrZWVwX2Jpbn0iIF0gJiYgcHJpbnRmICclc1xuJyAiJHtub3JtYWxpemVkX2xpc3Rpbmd9IiB8IGdyZXAgLUZ4cSAic2VydmVyLyR7YmlufSI7IHRoZW4KICAgICAgZWNobyAiRVJST1I6IEZQSyAke2Zwa19wYXRofSBjb250YWlucyBub24tdGFyZ2V0IGdhdGV3YXkgYmluYXJ5OiAke2Jpbn0iID4mMgogICAgICBleGl0IDEKICAgIGZpCiAgZG9uZQoKICBpZiAhIHByaW50ZiAnJXNcbicgIiR7bm9ybWFsaXplZF9saXN0aW5nfSIgfCBncmVwIC1GeHEgInNlcnZlci9zZXJ2ZXItYWRtaW4tcnMiOyB0aGVuCiAgICBlY2hvICJFUlJPUjogRlBLICR7ZnBrX3BhdGh9IGlzIG1pc3NpbmcgUnVzdCBiYWNrZW5kOiBzZXJ2ZXIvc2VydmVyLWFkbWluLXJzIiA+JjIKICAgIGV4aXQgMQogIGZpCiAgaWYgcHJpbnRmICclc1xuJyAiJHtub3JtYWxpemVkX2xpc3Rpbmd9IiB8IGdyZXAgLUVxICdec2VydmVyL3NlcnZlci1hZG1pbi1ycy1saW51eC0nOyB0aGVuCiAgICBlY2hvICJFUlJPUjogRlBLICR7ZnBrX3BhdGh9IGNvbnRhaW5zIHN0YWdpbmcgUnVzdCBiYWNrZW5kIGJpbmFyaWVzIiA+JjIKICAgIGV4aXQgMQogIGZpCgogIHJ1c3RfdG1wPSIkKG1rdGVtcCkiCiAgaWYgISB0YXIgLXhPemYgIiR7ZnBrX3BhdGh9IiBhcHAudGd6IHwgdGFyIC14T3pmIC0gc2VydmVyL3NlcnZlci1hZG1pbi1ycyA+ICIke3J1c3RfdG1wfSIgMj4vZGV2L251bGw7IHRoZW4KICAgIHJtIC1mICIke3J1c3RfdG1wfSIKICAgIGVjaG8gIkVSUk9SOiBmYWlsZWQgdG8gZXh0cmFjdCBSdXN0IGJhY2tlbmQgZnJvbSBGUEs6ICR7ZnBrX3BhdGh9IiA+JjIKICAgIGV4aXQgMQogIGZpCiAgcnVzdF9maWxlX2luZm89IiQoZmlsZSAtYiAiJHtydXN0X3RtcH0iKSIKICBybSAtZiAiJHtydXN0X3RtcH0iCiAgY2FzZSAiJHtydXN0X2FyY2h9IiBpbgogICAgYW1kNjQpCiAgICAgIGlmICEgcHJpbnRmICclc1xuJyAiJHtydXN0X2ZpbGVfaW5mb30iIHwgZ3JlcCAtRXEgJ0VMRiA2NC1iaXQgTFNCLip4ODYtNjQnOyB0aGVuCiAgICAgICAgZWNobyAiRVJST1I6IEZQSyAke2Zwa19wYXRofSBSdXN0IGJhY2tlbmQgaXMgbm90IExpbnV4IHg4Ni02NCBFTEY6ICR7cnVzdF9maWxlX2luZm99IiA+JjIKICAgICAgICBleGl0IDEKICAgICAgZmkKICAgICAgOzsKICAgIGFybTY0KQogICAgICBpZiAhIHByaW50ZiAnJXNcbicgIiR7cnVzdF9maWxlX2luZm99IiB8IGdyZXAgLUVxICdFTEYgNjQtYml0IExTQi4qKEFSTSBhYXJjaDY0fGFhcmNoNjQpJzsgdGhlbgogICAgICAgIGVjaG8gIkVSUk9SOiBGUEsgJHtmcGtfcGF0aH0gUnVzdCBiYWNrZW5kIGlzIG5vdCBMaW51eCBhcm02NCBFTEY6ICR7cnVzdF9maWxlX2luZm99IiA+JjIKICAgICAgICBleGl0IDEKICAgICAgZmkKICAgICAgOzsKICAgICopCiAgICAgIGVjaG8gIkVSUk9SOiB1bnN1cHBvcnRlZCBSdXN0IGJhY2tlbmQgYXJjaCB2ZXJpZmllcjogJHtydXN0X2FyY2h9IiA+JjIKICAgICAgZXhpdCAxCiAgICAgIDs7CiAgZXNhYwp9CgpydW5fcmVtb3RlX3BhY2soKSB7CiAgbG9nICJTdGVwIDIvNDogVXBsb2FkIGFwcCBzb3VyY2VzIHRvIHJlbW90ZSBmbnBhY2sgZGlyZWN0b3J5IgogIHNzaCAiJHtSRU1PVEVfSE9TVH0iICJta2RpciAtcCAnJHtSRU1PVEVfRElSfScgJyR7UkVNT1RFX1NPVVJDRV9ESVJ9JyIKICByc3luYyAtYXogLS1kZWxldGUgLS1kZWxldGUtZXhjbHVkZWQgXAogICAgLS1leGNsdWRlICcuRFNfU3RvcmUnIFwKICAgIC0tZXhjbHVkZSAnLl8qJyBcCiAgICAiJHtMT0NBTF9BUFBfRElSfS8iICIke1JFTU9URV9IT1NUfToke1JFTU9URV9TT1VSQ0VfRElSfS8iCgogIGlmIGZwa19hcmNoX2VuYWJsZWQgImFtZDY0IjsgdGhlbgogICAgcnVuX3JlbW90ZV9wYWNrX2Zvcl9hcmNoICJhbWQ2NCIgIiR7UkVNT1RFX0JVSUxEX0FNRDY0X0RJUn0iICIke1JFTU9URV9GUEtfQU1ENjRfUEFUSH0iCiAgZmkKICBpZiBmcGtfYXJjaF9lbmFibGVkICJhcm02NCI7IHRoZW4KICAgIHJ1bl9yZW1vdGVfcGFja19mb3JfYXJjaCAiYXJtNjQiICIke1JFTU9URV9CVUlMRF9BUk02NF9ESVJ9IiAiJHtSRU1PVEVfRlBLX0FSTTY0X1BBVEh9IgogIGZpCgogIGxvZyAiU3RlcCAyLzQ6IFB1bGwgZ2VuZXJhdGVkIEZQS3MgYmFjayB0byBsb2NhbCB3b3Jrc3BhY2UiCiAgbWtkaXIgLXAgIiQoZGlybmFtZSAiJHtMT0NBTF9GUEtfQU1ENjRfUEFUSH0iKSIKICBpZiBmcGtfYXJjaF9lbmFibGVkICJhbWQ2NCI7IHRoZW4KICAgIHNjcCAiJHtSRU1PVEVfSE9TVH06JHtSRU1PVEVfRlBLX0FNRDY0X1BBVEh9IiAiJHtMT0NBTF9GUEtfQU1ENjRfUEFUSH0iCiAgICB2ZXJpZnlfZnBrX3BheWxvYWQgIiR7TE9DQUxfRlBLX0FNRDY0X1BBVEh9IiAiZ28tcmVhdXRoLXByb3h5LWxpbnV4LWFtZDY0IiAiYW1kNjQiCiAgZmkKICBpZiBmcGtfYXJjaF9lbmFibGVkICJhcm02NCI7IHRoZW4KICAgIHNjcCAiJHtSRU1PVEVfSE9TVH06JHtSRU1PVEVfRlBLX0FSTTY0X1BBVEh9IiAiJHtMT0NBTF9GUEtfQVJNNjRfUEFUSH0iCiAgICB2ZXJpZnlfZnBrX3BheWxvYWQgIiR7TE9DQUxfRlBLX0FSTTY0X1BBVEh9IiAiZ28tcmVhdXRoLXByb3h5LWxpbnV4LWFybTY0IiAiYXJtNjQiCiAgZmkKfQoKcnVuX3JlbW90ZV9pbnN0YWxsKCkgewogIGxvY2FsIGluc3RhbGxfY29tbWFuZAogIGxvY2FsIGluc3RhbGxfdm9sdW1lCiAgbG9jYWwgc3RhdHVzCgogIGlmICEgZnBrX2FyY2hfZW5hYmxlZCAiYW1kNjQiOyB0aGVuCiAgICBlY2hvICJFUlJPUjogaW5zdGFsbC1yZW1vdGUgaW5zdGFsbHMgdGhlIHg4Ni9hbWQ2NCBGUEs7IGluY2x1ZGUgYW1kNjQgaW4gRk5fS05PQ0tfRlBLX0FSQ0hFUyIgPiYyCiAgICBleGl0IDEKICBmaQoKICBzdGF0dXM9IiQoZ2V0X3JlbW90ZV9zdGF0dXMpIgogIGlmIGVjaG8gIiR7c3RhdHVzfSIgfCBncmVwIC1xaSAibm9pbnN0YWxsIjsgdGhlbgogICAgbG9nICJTdGVwIDMvNDogTm8gaW5zdGFsbGVkIGFwcCB2ZXJzaW9uIHRvIHJlbW92ZSIKICBlbHNlCiAgICBsb2cgIlN0ZXAgMy80OiBTdGFnZSB0aGUgcGFja2FnZWQgbGlmZWN5Y2xlIGVudHJ5cG9pbnQgZm9yIHVwZ3JhZGUgY29tcGF0aWJpbGl0eSIKICAgIHNzaCAiJHtSRU1PVEVfSE9TVH0iICJzZXQgLWV1Cm5leHQ9JyR7UkVNT1RFX0xJRkVDWUNMRV9NQUlOfS5kZXBsb3ktbmV4dCcKdGFyIC14T3pmICcke1JFTU9URV9GUEtfQU1ENjRfUEFUSH0nIGNtZC9tYWluID4gXCJcJHtuZXh0fVwiCmNobW9kIDA3NTUgXCJcJHtuZXh0fVwiCm12IC1mIFwiXCR7bmV4dH1cIiAnJHtSRU1PVEVfTElGRUNZQ0xFX01BSU59JyIKCiAgICBsb2cgIlN0ZXAgMy80OiBTdG9wIGFuZCB1bmluc3RhbGwgb2xkIGFwcCB2ZXJzaW9uIgogICAgaWYgZWNobyAiJHtzdGF0dXN9IiB8IGdyZXAgLUVxaSAic3RhcnRpbmd8cnVubmluZyI7IHRoZW4KICAgICAgaWYgISBzc2ggIiR7UkVNT1RFX0hPU1R9IiAiYXBwY2VudGVyLWNsaSBzdG9wICcke0FQUF9OQU1FfSciOyB0aGVuCiAgICAgICAgbG9nICJTdGVwIDMvNDogU3RvcCBmYWlsZWQ7IHJlZnVzaW5nIHRvIGNvbnRpbnVlIGludG8gYSBwYXJ0aWFsIHVwZ3JhZGUiCiAgICAgICAgc3NoICIke1JFTU9URV9IT1NUfSIgInRhaWwgLW4gMTIwICcke1JFTU9URV9MT0dfRklMRX0nIHx8IHRydWUiCiAgICAgICAgZXhpdCAxCiAgICAgIGZpCiAgICBmaQogICAgaWYgISBzc2ggIiR7UkVNT1RFX0hPU1R9IiAiYXBwY2VudGVyLWNsaSB1bmluc3RhbGwgJyR7QVBQX05BTUV9JyI7IHRoZW4KICAgICAgbG9nICJTdGVwIDMvNDogVW5pbnN0YWxsIGZhaWxlZDsgcmVmdXNpbmcgdG8gaW5zdGFsbCBvdmVyIHRoZSBleGlzdGluZyBhcHAiCiAgICAgIHNzaCAiJHtSRU1PVEVfSE9TVH0iICJ0YWlsIC1uIDEyMCAvdmFyL2xvZy90cmltX2FwcF9jZW50ZXIvZXJyb3IubG9nIHx8IHRydWUiCiAgICAgIGV4aXQgMQogICAgZmkKICAgIHN0YXR1cz0iJChnZXRfcmVtb3RlX3N0YXR1cykiCiAgICBpZiAhIGVjaG8gIiR7c3RhdHVzfSIgfCBncmVwIC1xaSAibm9pbnN0YWxsIjsgdGhlbgogICAgICBlY2hvICJFUlJPUjogYXBwbGljYXRpb24gJyR7QVBQX05BTUV9JyBpcyBzdGlsbCBpbnN0YWxsZWQgYWZ0ZXIgdW5pbnN0YWxsIiA+JjIKICAgICAgZXhpdCAxCiAgICBmaQogIGZpCgogIGxvZyAiU3RlcCAzLzQ6IFByZXBhcmUgd2l6YXJkIGVudiBmaWxlIGZvciBDTEkgaW5zdGFsbGF0aW9uIgogIHNzaCAiJHtSRU1PVEVfSE9TVH0iICJjYXQgPiAnJHtSRU1PVEVfSU5TVEFMTF9FTlZfUEFUSH0nIDw8J0VPRicKd2l6YXJkX2FkbWluX3ZpZXdfcG9ydD0ke1dJWkFSRF9BRE1JTl9WSUVXX1BPUlR9CndpemFyZF9iYWNrZW5kX3BvcnQ9JHtXSVpBUkRfQkFDS0VORF9QT1JUfQp3aXphcmRfYXV0aF9wb3J0PSR7V0laQVJEX0FVVEhfUE9SVH0Kd2l6YXJkX2dvX2JhY2tlbmRfcG9ydD0ke1dJWkFSRF9HT19CQUNLRU5EX1BPUlR9CndpemFyZF9nb19yZXByb3h5X3BvcnQ9JHtXSVpBUkRfR09fUkVQUk9YWV9QT1JUfQpFT0YiCgogIGxvZyAiU3RlcCAzLzQ6IEVuc3VyZSBhcHBjZW50ZXIgdGVtcCBkaXJlY3RvcnkgZXhpc3RzIgogIHNzaCAiJHtSRU1PVEVfSE9TVH0iICJta2RpciAtcCAnJHtSRU1PVEVfQVBQQ0VOVEVSX1RNUF9ESVJ9JyIKCiAgaW5zdGFsbF92b2x1bWU9IiQocmVzb2x2ZV9yZW1vdGVfaW5zdGFsbF92b2x1bWUpIgogIGxvZyAiU3RlcCAzLzQ6IEluc3RhbGwgYW5kIHN0YXJ0IG5ldyBhbWQ2NCBGUEsiCiAgaWYgWyAtbiAiJHtpbnN0YWxsX3ZvbHVtZX0iIF07IHRoZW4KICAgIGxvZyAiU3RlcCAzLzQ6IFVzZSBhcHBjZW50ZXIgdm9sdW1lICR7aW5zdGFsbF92b2x1bWV9IgogICAgaW5zdGFsbF9jb21tYW5kPSJhcHBjZW50ZXItY2xpIGluc3RhbGwtZnBrICcke1JFTU9URV9GUEtfQU1ENjRfUEFUSH0nIC0tZW52ICcke1JFTU9URV9JTlNUQUxMX0VOVl9QQVRIfScgLS12b2x1bWUgJyR7aW5zdGFsbF92b2x1bWV9JyIKICBlbHNlCiAgICBsb2cgIlN0ZXAgMy80OiBObyBhcHBjZW50ZXIgdm9sdW1lIGRldGVjdGVkOyB1c2UgdGhlIHJlbW90ZSBDTEkgZGVmYXVsdCIKICAgIGluc3RhbGxfY29tbWFuZD0iYXBwY2VudGVyLWNsaSBpbnN0YWxsLWZwayAnJHtSRU1PVEVfRlBLX0FNRDY0X1BBVEh9JyAtLWVudiAnJHtSRU1PVEVfSU5TVEFMTF9FTlZfUEFUSH0nIgogIGZpCiAgaWYgISBzc2ggIiR7UkVNT1RFX0hPU1R9IiAiJHtpbnN0YWxsX2NvbW1hbmR9IjsgdGhlbgogICAgbG9nICJTdGVwIDMvNDogSW5zdGFsbCBmYWlsZWQsIHRhaWxpbmcgYXBwY2VudGVyIGVycm9yIGxvZyBmb3IgZGlhZ25vc3RpY3MiCiAgICBzc2ggIiR7UkVNT1RFX0hPU1R9IiAidGFpbCAtbiAxMjAgL3Zhci9sb2cvdHJpbV9hcHBfY2VudGVyL2Vycm9yLmxvZyB8fCB0cnVlIgogICAgZXhpdCAxCiAgZmkKICBsb2cgIlN0ZXAgMy80OiBWZXJpZnkgaW5zdGFsbGF0aW9uIHN0YXRlIgogIGFzc2VydF9yZW1vdGVfaW5zdGFsbGVkCiAgc3RhdHVzPSIkKGdldF9yZW1vdGVfc3RhdHVzKSIKICBpZiBlY2hvICIke3N0YXR1c30iIHwgZ3JlcCAtRXFpICJzdGFydGluZ3xydW5uaW5nIjsgdGhlbgogICAgbG9nICJTdGVwIDMvNDogQXBwY2VudGVyIGFscmVhZHkgcmVwb3J0cyAke3N0YXR1c307IHNraXAgZHVwbGljYXRlIHN0YXJ0IgogIGVsc2UKICAgIHNzaCAiJHtSRU1PVEVfSE9TVH0iICJhcHBjZW50ZXItY2xpIHN0YXJ0ICcke0FQUF9OQU1FfSciCiAgZmkKICBsb2cgIlN0ZXAgMy80OiBWZXJpZnkgcnVudGltZSBzdGF0ZSIKICB3YWl0X2Zvcl9yZW1vdGVfcnVubmluZwoKICBsb2cgIlN0ZXAgMy80OiBUYWlsIHJ1bnRpbWUgbG9nIgogIHNzaCAiJHtSRU1PVEVfSE9TVH0iICJ0YWlsIC1uIDIwMCAnJHtSRU1PVEVfTE9HX0ZJTEV9JyB8fCB0cnVlIgp9CgpydW5fcmVtb3RlX3ZlcmlmeSgpIHsKICBhc3NlcnRfcmVtb3RlX2luc3RhbGxlZCA+L2Rldi9udWxsCiAgbG9nICJTdGVwIDQvNDogVmVyaWZ5IGluc3RhbGxlZCBpbmRleC5jZ2kgaGFzaCIKICBsb2NhbCBsb2NhbF9oYXNoCiAgbG9jYWwgcmVtb3RlX2hhc2gKICBsb2NhbCByZW1vdGVfdWlfaW5kZXgKICBsb2NhbF9oYXNoPSIkKHNoYXN1bSAtYSAyNTYgIiR7TE9DQUxfQVBQX0RJUn0vYXBwL3VpL2luZGV4LmNnaSIgfCBhd2sgJ3twcmludCAkMX0nKSIKICByZW1vdGVfdWlfaW5kZXg9IiQocmVzb2x2ZV9yZW1vdGVfdWlfaW5kZXgpIiB8fCB7CiAgICBlY2hvICJFUlJPUjogdW5hYmxlIHRvIGxvY2F0ZSByZW1vdGUgaW5kZXguY2dpIGZvciAnJHtBUFBfTkFNRX0nIiA+JjIKICAgIGV4aXQgMQogIH0KICByZW1vdGVfaGFzaD0iJChzc2ggIiR7UkVNT1RFX0hPU1R9IiAic2hhc3VtIC1hIDI1NiAnJHtyZW1vdGVfdWlfaW5kZXh9JyB8IGF3ayAne3ByaW50IFwkMX0nIikiCiAgZWNobyAibG9jYWwgaW5kZXguY2dpICBzaGEyNTY6ICR7bG9jYWxfaGFzaH0iCiAgZWNobyAicmVtb3RlIGluZGV4LmNnaSBzaGEyNTY6ICR7cmVtb3RlX2hhc2h9IgogIGVjaG8gInJlbW90ZSBpbmRleC5jZ2kgcGF0aDogJHtyZW1vdGVfdWlfaW5kZXh9IgoKICBpZiBbICIke2xvY2FsX2hhc2h9IiAhPSAiJHtyZW1vdGVfaGFzaH0iIF07IHRoZW4KICAgIGVjaG8gIkVSUk9SOiBpbnN0YWxsZWQgaW5kZXguY2dpIGRvZXMgbm90IG1hdGNoIGxvY2FsIHBhY2thZ2UgZmlsZSIgPiYyCiAgICBleGl0IDEKICBmaQoKICBsb2cgIlN0ZXAgNC80OiBWZXJpZnkgaW5zdGFsbGVkIHVpL3d3dy9pbmRleC5odG1sIGhhc2giCiAgbG9jYWwgbG9jYWxfd3d3X2luZGV4CiAgbG9jYWwgcmVtb3RlX3d3d19pbmRleAogIGxvY2FsIGxvY2FsX3d3d19oYXNoCiAgbG9jYWwgcmVtb3RlX3d3d19oYXNoCiAgbG9jYWxfd3d3X2luZGV4PSIke0xPQ0FMX0FQUF9ESVJ9L2FwcC91aS93d3cvaW5kZXguaHRtbCIKICByZW1vdGVfd3d3X2luZGV4PSIkKHJlc29sdmVfcmVtb3RlX3d3d19pbmRleCkiIHx8IHsKICAgIGVjaG8gIkVSUk9SOiB1bmFibGUgdG8gbG9jYXRlIHJlbW90ZSB1aS93d3cvaW5kZXguaHRtbCBmb3IgJyR7QVBQX05BTUV9JyIgPiYyCiAgICBleGl0IDEKICB9CiAgbG9jYWxfd3d3X2hhc2g9IiQoc2hhc3VtIC1hIDI1NiAiJHtsb2NhbF93d3dfaW5kZXh9IiB8IGF3ayAne3ByaW50ICQxfScpIgogIHJlbW90ZV93d3dfaGFzaD0iJChzc2ggIiR7UkVNT1RFX0hPU1R9IiAic2hhc3VtIC1hIDI1NiAnJHtyZW1vdGVfd3d3X2luZGV4fScgfCBhd2sgJ3twcmludCBcJDF9JyIpIgogIGVjaG8gImxvY2FsIGluZGV4Lmh0bWwgIHNoYTI1NjogJHtsb2NhbF93d3dfaGFzaH0iCiAgZWNobyAicmVtb3RlIGluZGV4Lmh0bWwgc2hhMjU2OiAke3JlbW90ZV93d3dfaGFzaH0iCiAgZWNobyAicmVtb3RlIGluZGV4Lmh0bWwgcGF0aDogJHtyZW1vdGVfd3d3X2luZGV4fSIKCiAgaWYgWyAiJHtsb2NhbF93d3dfaGFzaH0iICE9ICIke3JlbW90ZV93d3dfaGFzaH0iIF07IHRoZW4KICAgIGVjaG8gIkVSUk9SOiBpbnN0YWxsZWQgdWkvd3d3L2luZGV4Lmh0bWwgZG9lcyBub3QgbWF0Y2ggbG9jYWwgcGFja2FnZSBmaWxlIiA+JjIKICAgIGV4aXQgMQogIGZpCgogIGxvZyAiU3RlcCA0LzQ6IFZlcmlmeSBpbnN0YWxsZWQgU1NMU2V0dGluZ3MgYXNzZXRzIgogIGxvY2FsIGxvY2FsX2Fzc2V0c19kaXIKICBsb2NhbCByZW1vdGVfYXNzZXRzX2RpcgogIGxvY2FsIGxvY2FsX3NzbF9hc3NldHMKICBsb2NhbCByZW1vdGVfc3NsX2Fzc2V0cwogIGxvY2FsIGFzc2V0X25hbWUKICBsb2NhbCBhc3NldF9sb2NhbF9oYXNoCiAgbG9jYWwgYXNzZXRfcmVtb3RlX2hhc2gKICBsb2NhbF9hc3NldHNfZGlyPSIke0xPQ0FMX0FQUF9ESVJ9L2FwcC91aS93d3cvYXNzZXRzIgogIHJlbW90ZV9hc3NldHNfZGlyPSIkKGRpcm5hbWUgIiR7cmVtb3RlX3d3d19pbmRleH0iKS9hc3NldHMiCiAgbG9jYWxfc3NsX2Fzc2V0cz0iJChmaW5kICIke2xvY2FsX2Fzc2V0c19kaXJ9IiAtbWF4ZGVwdGggMSAtdHlwZSBmIC1uYW1lICdTU0xTZXR0aW5ncy0qLmpzJyB8IHNlZCAnc3wuKi98fCcgfCBzb3J0KSIKICByZW1vdGVfc3NsX2Fzc2V0cz0iJChzc2ggIiR7UkVNT1RFX0hPU1R9IiAiZmluZCAnJHtyZW1vdGVfYXNzZXRzX2Rpcn0nIC1tYXhkZXB0aCAxIC10eXBlIGYgLW5hbWUgJ1NTTFNldHRpbmdzLSouanMnIHwgc2VkICdzfC4qL3x8JyB8IHNvcnQiKSIKICBlY2hvICJsb2NhbCBTU0xTZXR0aW5ncyBhc3NldHM6IgogIHByaW50ZiAnJXNcbicgIiR7bG9jYWxfc3NsX2Fzc2V0c30iCiAgZWNobyAicmVtb3RlIFNTTFNldHRpbmdzIGFzc2V0czoiCiAgcHJpbnRmICclc1xuJyAiJHtyZW1vdGVfc3NsX2Fzc2V0c30iCgogIGlmIFsgIiR7bG9jYWxfc3NsX2Fzc2V0c30iICE9ICIke3JlbW90ZV9zc2xfYXNzZXRzfSIgXTsgdGhlbgogICAgZWNobyAiRVJST1I6IGluc3RhbGxlZCBTU0xTZXR0aW5ncyBhc3NldHMgZG8gbm90IG1hdGNoIGxvY2FsIHBhY2thZ2UgZmlsZXMiID4mMgogICAgZXhpdCAxCiAgZmkKCiAgd2hpbGUgSUZTPSByZWFkIC1yIGFzc2V0X25hbWU7IGRvCiAgICBbIC1uICIke2Fzc2V0X25hbWV9IiBdIHx8IGNvbnRpbnVlCiAgICBhc3NldF9sb2NhbF9oYXNoPSIkKHNoYXN1bSAtYSAyNTYgIiR7bG9jYWxfYXNzZXRzX2Rpcn0vJHthc3NldF9uYW1lfSIgfCBhd2sgJ3twcmludCAkMX0nKSIKICAgIGFzc2V0X3JlbW90ZV9oYXNoPSIkKHNzaCAiJHtSRU1PVEVfSE9TVH0iICJzaGFzdW0gLWEgMjU2ICcke3JlbW90ZV9hc3NldHNfZGlyfS8ke2Fzc2V0X25hbWV9JyB8IGF3ayAne3ByaW50IFwkMX0nIikiCiAgICBlY2hvICJsb2NhbCAke2Fzc2V0X25hbWV9ICBzaGEyNTY6ICR7YXNzZXRfbG9jYWxfaGFzaH0iCiAgICBlY2hvICJyZW1vdGUgJHthc3NldF9uYW1lfSBzaGEyNTY6ICR7YXNzZXRfcmVtb3RlX2hhc2h9IgogICAgaWYgWyAiJHthc3NldF9sb2NhbF9oYXNofSIgIT0gIiR7YXNzZXRfcmVtb3RlX2hhc2h9IiBdOyB0aGVuCiAgICAgIGVjaG8gIkVSUk9SOiBpbnN0YWxsZWQgJHthc3NldF9uYW1lfSBkb2VzIG5vdCBtYXRjaCBsb2NhbCBwYWNrYWdlIGZpbGUiID4mMgogICAgICBleGl0IDEKICAgIGZpCiAgZG9uZSA8PEVPRgoke2xvY2FsX3NzbF9hc3NldHN9CkVPRgoKICBsb2cgIlN0ZXAgNC80OiBTaG93IGtleSBzZWN0aW9uIGZyb20gcmVtb3RlIGluZGV4LmNnaSIKICBzc2ggIiR7UkVNT1RFX0hPU1R9IiAic2VkIC1uICcxNzAsMjgwcCcgJyR7cmVtb3RlX3VpX2luZGV4fSciCn0KCnVzYWdlKCkgewogIGNhdCA8PCdFT0YnClVzYWdlOgogIGJhc2ggLi9zY3JpcHRzL2ZuLWtub2NrLWRlcGxveS5zaCA8Y29tbWFuZD4KCkNvbW1hbmRzOgogIHBhY2stcmVtb3RlICAgICBSdW4gbG9jYWwgcGFja2FnZSBidWlsZCArIHJlbW90ZSBmbnBhY2sgYnVpbGQgKyBkb3dubG9hZCBnZW5lcmF0ZWQgRlBLcwogIGluc3RhbGwtcmVtb3RlICBJbnN0YWxsL3N0YXJ0IGFtZDY0IEZQSyBvbiByZW1vdGUgaG9zdCBhbmQgcHJpbnQgcnVudGltZSBsb2dzCiAgdmVyaWZ5LXJlbW90ZSAgIFZlcmlmeSBpbnN0YWxsZWQgaW5kZXguY2dpIGhhc2ggYW5kIHByaW50IGtleSBsaW5lcwogIGRlcGxveSAgICAgICAgICBSdW4gYWxsIHN0ZXBzIGluIG9yZGVyIChwYWNrLXJlbW90ZSAtPiBpbnN0YWxsLXJlbW90ZSAtPiB2ZXJpZnktcmVtb3RlKQoKT3B0aW9uYWwgZW52IG92ZXJyaWRlczoKICBGTl9LTk9DS19SRU1PVEVfSE9TVCAgKGRlZmF1bHQ6IHJvb3RAMTkyLjE2OC4zMS45OCkKICBGTl9LTk9DS19SRU1PVEVfRElSICAgKGRlZmF1bHQ6IC90bXAvZm4ta25vY2stZnBrKQogIEZOX0tOT0NLX1JFTU9URV9JTlNUQUxMX1ZPTFVNRSAob3B0aW9uYWwgcG9zaXRpdmUgdm9sdW1lIGluZGV4OyBhdXRvLWRldGVjdGVkIGZyb20gL3ZvbE4vQGFwcGNlbnRlcikKICBGTl9LTk9DS19SRU1PVEVfU1RBUlRfVElNRU9VVCAoZGVmYXVsdDogNjAgc2Vjb25kcykKICBGTl9LTk9DS19BUFBfTkFNRSAgICAgKGRlZmF1bHQ6IGZuLWtub2NrKQogIEZOX0tOT0NLX0xPQ0FMX0FQUF9ESVIgKGRlZmF1bHQ6IGFwcHMvZm4ta25vY2spCiAgRk5fS05PQ0tfTE9DQUxfRlBLX1BBVEggKGRlZmF1bHQ6IGFwcHMvZm4ta25vY2svZGlzdC9mbi1rbm9jay5mcGs7IGRvd25sb2FkcyBhcyAtYW1kNjQvLWFybTY0KQogIEZOX0tOT0NLX0ZQS19BUkNIRVMgKHNwYWNlL2NvbW1hIGxpc3Q6IGFtZDY0L3g4NiBhbmQvb3IgYXJtNjQ7IGRlZmF1bHQ6IGFtZDY0IGFybTY0KQogIEZOX0tOT0NLX1dJWkFSRF9BRE1JTl9WSUVXX1BPUlQgKGRlZmF1bHQ6IDc5OTEpCiAgRk5fS05PQ0tfV0laQVJEX0JBQ0tFTkRfUE9SVCAoZGVmYXVsdDogNzk5OCkKICBGTl9LTk9DS19XSVpBUkRfQVVUSF9QT1JUIChkZWZhdWx0OiA3OTk3KQogIEZOX0tOT0NLX1dJWkFSRF9HT19CQUNLRU5EX1BPUlQgKGRlZmF1bHQ6IDc5OTYpCiAgRk5fS05PQ0tfV0laQVJEX0dPX1JFUFJPWFlfUE9SVCAoZGVmYXVsdDogNzk5OSkKICBGTl9LTk9DS19GUEtfUlVTVF9CVUlMREVSIChhdXRvfHppZ3xkb2NrZXI7IGRlZmF1bHQ6IGF1dG8pCiAgRk5fS05PQ0tfUlVTVF9QQVJBTExFTF9SRUxFQVNFIChzZXQgMSB0byB1c2UgdGhpbiBMVE8gKyBtdWx0aSBjb2RlZ2VuIHVuaXRzIGZvciBmYXN0ZXIgYnVpbGRzKQogIENBUkdPX0JVSUxEX0pPQlMgKENhcmdvIGpvYiBjb3VudDsgZGVmYXVsdHMgdG8gQ1BVIGNvdW50IHdoZW4gRk5fS05PQ0tfUlVTVF9QQVJBTExFTF9SRUxFQVNFPTEpCiAgQ0FSR09fUFJPRklMRV9SRUxFQVNFX0xUTyAob3B0aW9uYWwgQ2FyZ28gcmVsZWFzZSBMVE8gb3ZlcnJpZGUsIGUuZy4gdGhpbikKICBDQVJHT19QUk9GSUxFX1JFTEVBU0VfQ09ERUdFTl9VTklUUyAob3B0aW9uYWwgcmVsZWFzZSBjb2RlZ2VuIHVuaXRzIG92ZXJyaWRlKQpFT0YKfQoKcmVhZF9mcGtfYXJjaGVzCgpjbWQ9IiR7MTotfSIKY2FzZSAiJHtjbWR9IiBpbgogIHBhY2stcmVtb3RlKQogICAgcnVuX2xvY2FsX3BhY2thZ2UKICAgIHJ1bl9yZW1vdGVfcGFjawogICAgOzsKICBpbnN0YWxsLXJlbW90ZSkKICAgIHJ1bl9yZW1vdGVfaW5zdGFsbAogICAgOzsKICB2ZXJpZnktcmVtb3RlKQogICAgcnVuX3JlbW90ZV92ZXJpZnkKICAgIDs7CiAgZGVwbG95KQogICAgcnVuX2xvY2FsX3BhY2thZ2UKICAgIHJ1bl9yZW1vdGVfcGFjawogICAgcnVuX3JlbW90ZV9pbnN0YWxsCiAgICBydW5fcmVtb3RlX3ZlcmlmeQogICAgbG9nICJDb21wbGV0ZWQgZGVwbG95bWVudC4iCiAgICA7OwogICopCiAgICB1c2FnZQogICAgZXhpdCAxCiAgICA7Owplc2FjCg==
+#!/bin/bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "${ROOT_DIR}"
+source "${ROOT_DIR}/scripts/version.sh"
+
+REMOTE_HOST="${FN_KNOCK_REMOTE_HOST:-root@192.168.31.98}"
+REMOTE_DIR="${FN_KNOCK_REMOTE_DIR:-/tmp/fn-knock-fpk}"
+APP_NAME="${FN_KNOCK_APP_NAME:-fn-knock}"
+APP_VERSION="$(fn_knock_app_version "${ROOT_DIR}")"
+LOCAL_APP_DIR="${FN_KNOCK_LOCAL_APP_DIR:-apps/fn-knock}"
+LOCAL_FPK_PATH="${FN_KNOCK_LOCAL_FPK_PATH:-apps/fn-knock/dist/fn-knock.fpk}"
+REMOTE_SOURCE_DIR="${REMOTE_DIR}/src"
+REMOTE_BUILD_AMD64_DIR="${REMOTE_DIR}/build-amd64"
+REMOTE_BUILD_ARM64_DIR="${REMOTE_DIR}/build-arm64"
+REMOTE_FPK_AMD64_PATH="${REMOTE_DIR}/${APP_NAME}-amd64.fpk"
+REMOTE_FPK_ARM64_PATH="${REMOTE_DIR}/${APP_NAME}-arm64.fpk"
+REMOTE_UI_INDEX="/usr/local/apps/@appcenter/${APP_NAME}/ui/index.cgi"
+REMOTE_LIFECYCLE_MAIN="/var/apps/${APP_NAME}/cmd/main"
+REMOTE_LOG_FILE="/usr/local/apps/@appdata/${APP_NAME}/info.log"
+REMOTE_INSTALL_ENV_PATH="${REMOTE_DIR}/install.env"
+REMOTE_APPCENTER_TMP_DIR="${FN_KNOCK_REMOTE_APPCENTER_TMP_DIR:-/tmp/appcenter}"
+WIZARD_ADMIN_VIEW_PORT="${FN_KNOCK_WIZARD_ADMIN_VIEW_PORT:-7991}"
+WIZARD_BACKEND_PORT="${FN_KNOCK_WIZARD_BACKEND_PORT:-7998}"
+WIZARD_AUTH_PORT="${FN_KNOCK_WIZARD_AUTH_PORT:-7997}"
+WIZARD_GO_BACKEND_PORT="${FN_KNOCK_WIZARD_GO_BACKEND_PORT:-7996}"
+WIZARD_GO_REPROXY_PORT="${FN_KNOCK_WIZARD_GO_REPROXY_PORT:-7999}"
+
+log() {
+  echo "[fn-knock-deploy] $*"
+}
+
+derive_arch_fpk_path() {
+  local base_path="$1"
+  local arch="$2"
+  local dir_name
+  local file_name
+  local file_stem
+
+  dir_name="$(dirname "${base_path}")"
+  file_name="$(basename "${base_path}")"
+  file_stem="${file_name%.fpk}"
+
+  if [ "${file_stem}" = "${file_name}" ]; then
+    echo "${dir_name}/${file_name}-${arch}.fpk"
+    return 0
+  fi
+
+  echo "${dir_name}/${file_stem}-${arch}.fpk"
+}
+
+LOCAL_FPK_AMD64_PATH="$(derive_arch_fpk_path "${LOCAL_FPK_PATH}" "amd64")"
+LOCAL_FPK_ARM64_PATH="$(derive_arch_fpk_path "${LOCAL_FPK_PATH}" "arm64")"
+FPK_ARCHES=()
+
+get_remote_status() {
+  ssh "${REMOTE_HOST}" "appcenter-cli status '${APP_NAME}' 2>/dev/null || true"
+}
+
+resolve_remote_install_volume() {
+  local configured_volume="${FN_KNOCK_REMOTE_INSTALL_VOLUME:-}"
+
+  if [ -n "${configured_volume}" ]; then
+    case "${configured_volume}" in
+      0|*[!0-9]*)
+        echo "ERROR: FN_KNOCK_REMOTE_INSTALL_VOLUME must be a positive volume index" >&2
+        return 1
+        ;;
+    esac
+
+    echo "${configured_volume}"
+    return 0
+  fi
+
+  ssh "${REMOTE_HOST}" '
+    for dir in /vol[1-9]*; do
+      [ -d "${dir}/@appcenter" ] || continue
+      volume="${dir#/vol}"
+      case "${volume}" in
+        ""|*[!0-9]*)
+          continue
+          ;;
+      esac
+      echo "${volume}"
+      exit 0
+    done
+  '
+}
+
+read_fpk_arches() {
+  local raw="${FN_KNOCK_FPK_ARCHES:-amd64 arm64}"
+  raw="${raw//,/ }"
+
+  local arch
+  local normalized
+  local seen=" "
+
+  for arch in ${raw}; do
+    case "${arch}" in
+      amd64|x86|x86_64)
+        normalized="amd64"
+        ;;
+      arm64|aarch64)
+        normalized="arm64"
+        ;;
+      *)
+        echo "ERROR: invalid FPK architecture: ${arch}; expected amd64/x86 or arm64" >&2
+        exit 1
+        ;;
+    esac
+
+    case "${seen}" in
+      *" ${normalized} "*) ;;
+      *)
+        FPK_ARCHES+=("${normalized}")
+        seen="${seen}${normalized} "
+        ;;
+    esac
+  done
+
+  if [ "${#FPK_ARCHES[@]}" -eq 0 ]; then
+    echo "ERROR: FPK architecture list is empty" >&2
+    exit 1
+  fi
+}
+
+fpk_arch_enabled() {
+  local target="$1"
+  local arch
+
+  for arch in "${FPK_ARCHES[@]}"; do
+    if [ "${arch}" = "${target}" ]; then
+      return 0
+    fi
+  done
+
+  return 1
+}
+
+assert_remote_installed() {
+  local status
+  status="$(get_remote_status)"
+  echo "${status}"
+  if echo "${status}" | grep -qi "noinstall"; then
+    echo "ERROR: application '${APP_NAME}' is not installed on remote host" >&2
+    exit 1
+  fi
+}
+
+wait_for_remote_running() {
+  local timeout="${FN_KNOCK_REMOTE_START_TIMEOUT:-60}"
+  local started_at
+  local status
+
+  case "${timeout}" in
+    0|*[!0-9]*)
+      echo "ERROR: FN_KNOCK_REMOTE_START_TIMEOUT must be a positive number of seconds" >&2
+      return 1
+      ;;
+  esac
+
+  started_at="$(date +%s)"
+  while true; do
+    status="$(get_remote_status)"
+    echo "${status}"
+    if echo "${status}" | grep -qi "running"; then
+      return 0
+    fi
+    if echo "${status}" | grep -qi "noinstall"; then
+      echo "ERROR: application '${APP_NAME}' is not installed on remote host" >&2
+      return 1
+    fi
+    if [ "$(( $(date +%s) - started_at ))" -ge "${timeout}" ]; then
+      echo "ERROR: application '${APP_NAME}' did not reach running state within ${timeout}s" >&2
+      return 1
+    fi
+    sleep 2
+  done
+}
+
+resolve_remote_ui_index() {
+  ssh "${REMOTE_HOST}" "for p in '${REMOTE_UI_INDEX}' '/usr/local/apps/@appcenter/${APP_NAME}/app/ui/index.cgi'; do if [ -f \"\$p\" ]; then echo \"\$p\"; exit 0; fi; done; exit 1"
+}
+
+resolve_remote_www_index() {
+  ssh "${REMOTE_HOST}" "for p in '/usr/local/apps/@appcenter/${APP_NAME}/ui/www/index.html' '/usr/local/apps/@appcenter/${APP_NAME}/app/ui/www/index.html'; do if [ -f \"\$p\" ]; then echo \"\$p\"; exit 0; fi; done; exit 1"
+}
+
+resolve_deploy_rust_builder() {
+  local builder="${FN_KNOCK_FPK_RUST_BUILDER:-auto}"
+
+  case "${builder}" in
+    "")
+      echo "auto"
+      ;;
+    auto|zig|docker)
+      echo "${builder}"
+      ;;
+    *)
+      echo "ERROR: unsupported FN_KNOCK_FPK_RUST_BUILDER=${builder}; expected auto, zig, or docker" >&2
+      exit 1
+      ;;
+  esac
+}
+
+run_local_package() {
+  local rust_builder
+  local build_script="${LOCAL_APP_DIR}/scripts/build-package.sh"
+
+  rust_builder="$(resolve_deploy_rust_builder)"
+  if [ ! -x "${build_script}" ]; then
+    echo "ERROR: local package build script is missing or not executable: ${build_script}" >&2
+    exit 1
+  fi
+
+  log "Step 1/4: Build package assets locally (${FPK_ARCHES[*]}, Rust builder: ${rust_builder})"
+  FN_KNOCK_FPK_RUST_BUILDER="${rust_builder}" "${build_script}"
+}
+
+run_remote_pack_for_arch() {
+  local arch="$1"
+  local build_dir="$2"
+  local output_path="$3"
+
+  log "Step 2/4: Build ${arch} FPK on remote host"
+  ssh "${REMOTE_HOST}" bash -s -- "${REMOTE_SOURCE_DIR}" "${build_dir}" "${output_path}" "${APP_NAME}" "${arch}" <<'EOF'
+set -euo pipefail
+
+source_dir="$1"
+build_dir="$2"
+output_path="$3"
+app_name="$4"
+arch="$5"
+
+gateway_bins=(
+  "go-reauth-proxy-linux-amd64"
+  "go-reauth-proxy-linux-arm64"
+  "go-reauth-proxy-linux-arm"
+)
+
+case "${arch}" in
+  amd64)
+    keep_bin="go-reauth-proxy-linux-amd64"
+    keep_rust_bin="server-admin-rs-linux-amd64"
+    install_dep_apps=""
+    manifest_platform="x86"
+    ;;
+  arm64)
+    keep_bin="go-reauth-proxy-linux-arm64"
+    keep_rust_bin="server-admin-rs-linux-arm64"
+    install_dep_apps=""
+    manifest_platform="arm"
+    ;;
+  *)
+    echo "[remote-fn-knock] unsupported arch: ${arch}" >&2
+    exit 1
+    ;;
+esac
+
+rm -rf "${build_dir}"
+mkdir -p "${build_dir}"
+rsync -a --delete "${source_dir}/" "${build_dir}/"
+
+# Never ship Finder/AppleDouble metadata that may exist in a developer's
+# working copy. Besides being noise, fnpack would otherwise place it inside
+# app.tgz where it cannot be removed after installation.
+find "${build_dir}" -type f \( -name '.DS_Store' -o -name '._*' \) -delete
+
+# fnpack wraps app/ in a gzip archive, so gzip sidecars barely compress again.
+# Retain Brotli sidecars plus the original files for transparent fallback.
+find \
+  "${build_dir}/app/ui/www" \
+  "${build_dir}/app/server-auth-view/dist" \
+  -type f -name '*.gz' -delete
+
+for bin in "${gateway_bins[@]}"; do
+  if [ "${bin}" != "${keep_bin}" ]; then
+    rm -f "${build_dir}/app/server/${bin}"
+  fi
+done
+
+chmod +x "${build_dir}/app/server/${keep_bin}" 2>/dev/null || true
+
+if [ ! -x "${build_dir}/app/server/${keep_rust_bin}" ]; then
+  echo "[remote-fn-knock] missing Rust backend for ${arch}: app/server/${keep_rust_bin}" >&2
+  exit 1
+fi
+cp -f "${build_dir}/app/server/${keep_rust_bin}" "${build_dir}/app/server/server-admin-rs"
+rm -f "${build_dir}"/app/server/server-admin-rs-linux-*
+chmod +x "${build_dir}/app/server/server-admin-rs"
+
+manifest_file="${build_dir}/manifest"
+tmp_manifest="$(mktemp)"
+awk -v dep_apps="${install_dep_apps}" -v platform="${manifest_platform}" '
+  BEGIN { updated = 0 }
+  /^platform=/ {
+    print "platform=" platform
+    next
+  }
+  /^install_dep_apps=/ {
+    print "install_dep_apps=" dep_apps
+    updated = 1
+    next
+  }
+  { print }
+  END {
+    if (!updated) {
+      print "install_dep_apps=" dep_apps
+    }
+  }
+' "${manifest_file}" > "${tmp_manifest}"
+mv "${tmp_manifest}" "${manifest_file}"
+
+cd "${build_dir}"
+rm -f "${app_name}.fpk"
+fnpack build -d .
+mv -f "${app_name}.fpk" "${output_path}"
+echo "[remote-fn-knock] built ${arch} package -> ${output_path}"
+EOF
+}
+
+verify_fpk_payload() {
+  local fpk_path="$1"
+  local keep_bin="$2"
+  local rust_arch="$3"
+  local app_listing
+  local normalized_listing
+  local bin
+  local rust_tmp
+  local rust_file_info
+
+  if ! app_listing="$(tar -xOzf "${fpk_path}" app.tgz | tar -tzf -)"; then
+    echo "ERROR: failed to inspect FPK app payload: ${fpk_path}" >&2
+    exit 1
+  fi
+
+  normalized_listing="$(printf '%s\n' "${app_listing}" | sed 's#^\./##')"
+  if printf '%s\n' "${normalized_listing}" | grep -Eq '(^|/)\.DS_Store$|(^|/)\._'; then
+    echo "ERROR: FPK ${fpk_path} contains macOS metadata files" >&2
+    exit 1
+  fi
+  if ! printf '%s\n' "${normalized_listing}" | \
+    grep -Eq "^ui/www/assets/v${APP_VERSION//./\\.}/[^/]+$"; then
+    echo "ERROR: FPK ${fpk_path} is missing the versioned admin asset namespace for ${APP_VERSION}" >&2
+    exit 1
+  fi
+  if ! printf '%s\n' "${normalized_listing}" | grep -Fxq "server/${keep_bin}"; then
+    echo "ERROR: FPK ${fpk_path} is missing expected gateway binary: ${keep_bin}" >&2
+    exit 1
+  fi
+
+  for bin in \
+    go-reauth-proxy-linux-amd64 \
+    go-reauth-proxy-linux-arm64 \
+    go-reauth-proxy-linux-arm
+  do
+    if [ "${bin}" != "${keep_bin}" ] && printf '%s\n' "${normalized_listing}" | grep -Fxq "server/${bin}"; then
+      echo "ERROR: FPK ${fpk_path} contains non-target gateway binary: ${bin}" >&2
+      exit 1
+    fi
+  done
+
+  if ! printf '%s\n' "${normalized_listing}" | grep -Fxq "server/server-admin-rs"; then
+    echo "ERROR: FPK ${fpk_path} is missing Rust backend: server/server-admin-rs" >&2
+    exit 1
+  fi
+  if printf '%s\n' "${normalized_listing}" | grep -Eq '^server/server-admin-rs-linux-'; then
+    echo "ERROR: FPK ${fpk_path} contains staging Rust backend binaries" >&2
+    exit 1
+  fi
+
+  rust_tmp="$(mktemp)"
+  if ! tar -xOzf "${fpk_path}" app.tgz | tar -xOzf - server/server-admin-rs > "${rust_tmp}" 2>/dev/null; then
+    rm -f "${rust_tmp}"
+    echo "ERROR: failed to extract Rust backend from FPK: ${fpk_path}" >&2
+    exit 1
+  fi
+  rust_file_info="$(file -b "${rust_tmp}")"
+  rm -f "${rust_tmp}"
+  case "${rust_arch}" in
+    amd64)
+      if ! printf '%s\n' "${rust_file_info}" | grep -Eq 'ELF 64-bit LSB.*x86-64'; then
+        echo "ERROR: FPK ${fpk_path} Rust backend is not Linux x86-64 ELF: ${rust_file_info}" >&2
+        exit 1
+      fi
+      ;;
+    arm64)
+      if ! printf '%s\n' "${rust_file_info}" | grep -Eq 'ELF 64-bit LSB.*(ARM aarch64|aarch64)'; then
+        echo "ERROR: FPK ${fpk_path} Rust backend is not Linux arm64 ELF: ${rust_file_info}" >&2
+        exit 1
+      fi
+      ;;
+    *)
+      echo "ERROR: unsupported Rust backend arch verifier: ${rust_arch}" >&2
+      exit 1
+      ;;
+  esac
+}
+
+run_remote_pack() {
+  log "Step 2/4: Upload app sources to remote fnpack directory"
+  ssh "${REMOTE_HOST}" "mkdir -p '${REMOTE_DIR}' '${REMOTE_SOURCE_DIR}'"
+  rsync -az --delete --delete-excluded \
+    --exclude '.DS_Store' \
+    --exclude '._*' \
+    "${LOCAL_APP_DIR}/" "${REMOTE_HOST}:${REMOTE_SOURCE_DIR}/"
+
+  if fpk_arch_enabled "amd64"; then
+    run_remote_pack_for_arch "amd64" "${REMOTE_BUILD_AMD64_DIR}" "${REMOTE_FPK_AMD64_PATH}"
+  fi
+  if fpk_arch_enabled "arm64"; then
+    run_remote_pack_for_arch "arm64" "${REMOTE_BUILD_ARM64_DIR}" "${REMOTE_FPK_ARM64_PATH}"
+  fi
+
+  log "Step 2/4: Pull generated FPKs back to local workspace"
+  mkdir -p "$(dirname "${LOCAL_FPK_AMD64_PATH}")"
+  if fpk_arch_enabled "amd64"; then
+    scp "${REMOTE_HOST}:${REMOTE_FPK_AMD64_PATH}" "${LOCAL_FPK_AMD64_PATH}"
+    verify_fpk_payload "${LOCAL_FPK_AMD64_PATH}" "go-reauth-proxy-linux-amd64" "amd64"
+  fi
+  if fpk_arch_enabled "arm64"; then
+    scp "${REMOTE_HOST}:${REMOTE_FPK_ARM64_PATH}" "${LOCAL_FPK_ARM64_PATH}"
+    verify_fpk_payload "${LOCAL_FPK_ARM64_PATH}" "go-reauth-proxy-linux-arm64" "arm64"
+  fi
+}
+
+run_remote_install() {
+  local install_command
+  local install_volume
+  local status
+
+  if ! fpk_arch_enabled "amd64"; then
+    echo "ERROR: install-remote installs the x86/amd64 FPK; include amd64 in FN_KNOCK_FPK_ARCHES" >&2
+    exit 1
+  fi
+
+  status="$(get_remote_status)"
+  if echo "${status}" | grep -qi "noinstall"; then
+    log "Step 3/4: No installed app version to remove"
+  else
+    log "Step 3/4: Stage the packaged lifecycle entrypoint for upgrade compatibility"
+    ssh "${REMOTE_HOST}" "set -eu
+next='${REMOTE_LIFECYCLE_MAIN}.deploy-next'
+tar -xOzf '${REMOTE_FPK_AMD64_PATH}' cmd/main > \"\${next}\"
+chmod 0755 \"\${next}\"
+mv -f \"\${next}\" '${REMOTE_LIFECYCLE_MAIN}'"
+
+    log "Step 3/4: Stop and uninstall old app version"
+    if echo "${status}" | grep -Eqi "starting|running"; then
+      if ! ssh "${REMOTE_HOST}" "appcenter-cli stop '${APP_NAME}'"; then
+        log "Step 3/4: Stop failed; refusing to continue into a partial upgrade"
+        ssh "${REMOTE_HOST}" "tail -n 120 '${REMOTE_LOG_FILE}' || true"
+        exit 1
+      fi
+    fi
+    if ! ssh "${REMOTE_HOST}" "appcenter-cli uninstall '${APP_NAME}'"; then
+      log "Step 3/4: Uninstall failed; refusing to install over the existing app"
+      ssh "${REMOTE_HOST}" "tail -n 120 /var/log/trim_app_center/error.log || true"
+      exit 1
+    fi
+    status="$(get_remote_status)"
+    if ! echo "${status}" | grep -qi "noinstall"; then
+      echo "ERROR: application '${APP_NAME}' is still installed after uninstall" >&2
+      exit 1
+    fi
+  fi
+
+  log "Step 3/4: Prepare wizard env file for CLI installation"
+  ssh "${REMOTE_HOST}" "cat > '${REMOTE_INSTALL_ENV_PATH}' <<'EOF'
+wizard_admin_view_port=${WIZARD_ADMIN_VIEW_PORT}
+wizard_backend_port=${WIZARD_BACKEND_PORT}
+wizard_auth_port=${WIZARD_AUTH_PORT}
+wizard_go_backend_port=${WIZARD_GO_BACKEND_PORT}
+wizard_go_reproxy_port=${WIZARD_GO_REPROXY_PORT}
+EOF"
+
+  log "Step 3/4: Ensure appcenter temp directory exists"
+  ssh "${REMOTE_HOST}" "mkdir -p '${REMOTE_APPCENTER_TMP_DIR}'"
+
+  install_volume="$(resolve_remote_install_volume)"
+  log "Step 3/4: Install and start new amd64 FPK"
+  if [ -n "${install_volume}" ]; then
+    log "Step 3/4: Use appcenter volume ${install_volume}"
+    install_command="appcenter-cli install-fpk '${REMOTE_FPK_AMD64_PATH}' --env '${REMOTE_INSTALL_ENV_PATH}' --volume '${install_volume}'"
+  else
+    log "Step 3/4: No appcenter volume detected; use the remote CLI default"
+    install_command="appcenter-cli install-fpk '${REMOTE_FPK_AMD64_PATH}' --env '${REMOTE_INSTALL_ENV_PATH}'"
+  fi
+  if ! ssh "${REMOTE_HOST}" "${install_command}"; then
+    log "Step 3/4: Install failed, tailing appcenter error log for diagnostics"
+    ssh "${REMOTE_HOST}" "tail -n 120 /var/log/trim_app_center/error.log || true"
+    exit 1
+  fi
+  log "Step 3/4: Verify installation state"
+  assert_remote_installed
+  status="$(get_remote_status)"
+  if echo "${status}" | grep -Eqi "starting|running"; then
+    log "Step 3/4: Appcenter already reports ${status}; skip duplicate start"
+  else
+    ssh "${REMOTE_HOST}" "appcenter-cli start '${APP_NAME}'"
+  fi
+  log "Step 3/4: Verify runtime state"
+  wait_for_remote_running
+
+  log "Step 3/4: Tail runtime log"
+  ssh "${REMOTE_HOST}" "tail -n 200 '${REMOTE_LOG_FILE}' || true"
+}
+
+run_remote_verify() {
+  assert_remote_installed >/dev/null
+  log "Step 4/4: Verify installed index.cgi hash"
+  local local_hash
+  local remote_hash
+  local remote_ui_index
+  local_hash="$(shasum -a 256 "${LOCAL_APP_DIR}/app/ui/index.cgi" | awk '{print $1}')"
+  remote_ui_index="$(resolve_remote_ui_index)" || {
+    echo "ERROR: unable to locate remote index.cgi for '${APP_NAME}'" >&2
+    exit 1
+  }
+  remote_hash="$(ssh "${REMOTE_HOST}" "shasum -a 256 '${remote_ui_index}' | awk '{print \$1}'")"
+  echo "local index.cgi  sha256: ${local_hash}"
+  echo "remote index.cgi sha256: ${remote_hash}"
+  echo "remote index.cgi path: ${remote_ui_index}"
+
+  if [ "${local_hash}" != "${remote_hash}" ]; then
+    echo "ERROR: installed index.cgi does not match local package file" >&2
+    exit 1
+  fi
+
+  log "Step 4/4: Verify installed ui/www/index.html hash"
+  local local_www_index
+  local remote_www_index
+  local local_www_hash
+  local remote_www_hash
+  local_www_index="${LOCAL_APP_DIR}/app/ui/www/index.html"
+  remote_www_index="$(resolve_remote_www_index)" || {
+    echo "ERROR: unable to locate remote ui/www/index.html for '${APP_NAME}'" >&2
+    exit 1
+  }
+  local_www_hash="$(shasum -a 256 "${local_www_index}" | awk '{print $1}')"
+  remote_www_hash="$(ssh "${REMOTE_HOST}" "shasum -a 256 '${remote_www_index}' | awk '{print \$1}'")"
+  echo "local index.html  sha256: ${local_www_hash}"
+  echo "remote index.html sha256: ${remote_www_hash}"
+  echo "remote index.html path: ${remote_www_index}"
+
+  if [ "${local_www_hash}" != "${remote_www_hash}" ]; then
+    echo "ERROR: installed ui/www/index.html does not match local package file" >&2
+    exit 1
+  fi
+
+  log "Step 4/4: Verify installed SSLSettings assets"
+  local local_assets_dir
+  local remote_assets_dir
+  local local_ssl_assets
+  local remote_ssl_assets
+  local asset_name
+  local asset_local_hash
+  local asset_remote_hash
+  local_assets_dir="${LOCAL_APP_DIR}/app/ui/www/assets"
+  remote_assets_dir="$(dirname "${remote_www_index}")/assets"
+  local_ssl_assets="$(find "${local_assets_dir}" -maxdepth 1 -type f -name 'SSLSettings-*.js' | sed 's|.*/||' | sort)"
+  remote_ssl_assets="$(ssh "${REMOTE_HOST}" "find '${remote_assets_dir}' -maxdepth 1 -type f -name 'SSLSettings-*.js' | sed 's|.*/||' | sort")"
+  echo "local SSLSettings assets:"
+  printf '%s\n' "${local_ssl_assets}"
+  echo "remote SSLSettings assets:"
+  printf '%s\n' "${remote_ssl_assets}"
+
+  if [ "${local_ssl_assets}" != "${remote_ssl_assets}" ]; then
+    echo "ERROR: installed SSLSettings assets do not match local package files" >&2
+    exit 1
+  fi
+
+  while IFS= read -r asset_name; do
+    [ -n "${asset_name}" ] || continue
+    asset_local_hash="$(shasum -a 256 "${local_assets_dir}/${asset_name}" | awk '{print $1}')"
+    asset_remote_hash="$(ssh "${REMOTE_HOST}" "shasum -a 256 '${remote_assets_dir}/${asset_name}' | awk '{print \$1}'")"
+    echo "local ${asset_name}  sha256: ${asset_local_hash}"
+    echo "remote ${asset_name} sha256: ${asset_remote_hash}"
+    if [ "${asset_local_hash}" != "${asset_remote_hash}" ]; then
+      echo "ERROR: installed ${asset_name} does not match local package file" >&2
+      exit 1
+    fi
+  done <<EOF
+${local_ssl_assets}
+EOF
+
+  log "Step 4/4: Show key section from remote index.cgi"
+  ssh "${REMOTE_HOST}" "sed -n '170,280p' '${remote_ui_index}'"
+}
+
+usage() {
+  cat <<'EOF'
+Usage:
+  bash ./scripts/fn-knock-deploy.sh <command>
+
+Commands:
+  pack-remote     Run local package build + remote fnpack build + download generated FPKs
+  install-remote  Install/start amd64 FPK on remote host and print runtime logs
+  verify-remote   Verify installed index.cgi hash and print key lines
+  deploy          Run all steps in order (pack-remote -> install-remote -> verify-remote)
+
+Optional env overrides:
+  FN_KNOCK_REMOTE_HOST  (default: root@192.168.31.98)
+  FN_KNOCK_REMOTE_DIR   (default: /tmp/fn-knock-fpk)
+  FN_KNOCK_REMOTE_INSTALL_VOLUME (optional positive volume index; auto-detected from /volN/@appcenter)
+  FN_KNOCK_REMOTE_START_TIMEOUT (default: 60 seconds)
+  FN_KNOCK_APP_NAME     (default: fn-knock)
+  FN_KNOCK_LOCAL_APP_DIR (default: apps/fn-knock)
+  FN_KNOCK_LOCAL_FPK_PATH (default: apps/fn-knock/dist/fn-knock.fpk; downloads as -amd64/-arm64)
+  FN_KNOCK_FPK_ARCHES (space/comma list: amd64/x86 and/or arm64; default: amd64 arm64)
+  FN_KNOCK_WIZARD_ADMIN_VIEW_PORT (default: 7991)
+  FN_KNOCK_WIZARD_BACKEND_PORT (default: 7998)
+  FN_KNOCK_WIZARD_AUTH_PORT (default: 7997)
+  FN_KNOCK_WIZARD_GO_BACKEND_PORT (default: 7996)
+  FN_KNOCK_WIZARD_GO_REPROXY_PORT (default: 7999)
+  FN_KNOCK_FPK_RUST_BUILDER (auto|zig|docker; default: auto)
+  FN_KNOCK_RUST_PARALLEL_RELEASE (set 1 to use thin LTO + multi codegen units for faster builds)
+  CARGO_BUILD_JOBS (Cargo job count; defaults to CPU count when FN_KNOCK_RUST_PARALLEL_RELEASE=1)
+  CARGO_PROFILE_RELEASE_LTO (optional Cargo release LTO override, e.g. thin)
+  CARGO_PROFILE_RELEASE_CODEGEN_UNITS (optional release codegen units override)
+EOF
+}
+
+read_fpk_arches
+
+cmd="${1:-}"
+case "${cmd}" in
+  pack-remote)
+    run_local_package
+    run_remote_pack
+    ;;
+  install-remote)
+    run_remote_install
+    ;;
+  verify-remote)
+    run_remote_verify
+    ;;
+  deploy)
+    run_local_package
+    run_remote_pack
+    run_remote_install
+    run_remote_verify
+    log "Completed deployment."
+    ;;
+  *)
+    usage
+    exit 1
+    ;;
+esac

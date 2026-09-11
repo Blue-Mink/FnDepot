@@ -1,1 +1,63 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHR5cGUgUmVmIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgdXNlRG5zQ3JlZGVudGlhbFRyYW5zZmVyIH0gZnJvbSAiQC9jb21wb3NhYmxlcy91c2VEbnNDcmVkZW50aWFsVHJhbnNmZXIiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkBhZG1pbi1zaGFyZWQvdXRpbHMvdG9hc3QiOwoKdHlwZSBUcmFuc2xhdGUgPSAoCiAga2V5OiBzdHJpbmcsCiAgcGFyYW1zPzogUmVjb3JkPHN0cmluZywgc3RyaW5nIHwgbnVtYmVyPiwKKSA9PiBzdHJpbmc7CgppbnRlcmZhY2UgVXNlREROU0NyZWRlbnRpYWxUcmFuc2ZlckhpbnRPcHRpb25zIHsKICBlbmFibGVGaWVsZEVkaXRpbmc6IChrZXk6IHN0cmluZykgPT4gdm9pZDsKICBwcm92aWRlckNvbmZpZzogUmVmPFJlY29yZDxzdHJpbmcsIHN0cmluZz4+OwogIHNlbGVjdGVkUHJvdmlkZXI6IFJlZjxzdHJpbmc+OwogIHRyYW5zbGF0ZTogVHJhbnNsYXRlOwp9CgpleHBvcnQgZnVuY3Rpb24gdXNlREROU0NyZWRlbnRpYWxUcmFuc2ZlckhpbnQoewogIGVuYWJsZUZpZWxkRWRpdGluZywKICBwcm92aWRlckNvbmZpZywKICBzZWxlY3RlZFByb3ZpZGVyLAogIHRyYW5zbGF0ZSwKfTogVXNlREROU0NyZWRlbnRpYWxUcmFuc2ZlckhpbnRPcHRpb25zKSB7CiAgY29uc3QgewogICAgYXBwbHlTdWdnZXN0aW9uLAogICAgaXNMb2FkaW5nU291cmNlOiBpc1RyYW5zZmVyU291cmNlTG9hZGluZywKICAgIHNvdXJjZVNjb3BlTGFiZWw6IHRyYW5zZmVyU291cmNlU2NvcGVMYWJlbCwKICAgIHN1Z2dlc3Rpb246IGNyZWRlbnRpYWxUcmFuc2ZlclN1Z2dlc3Rpb24sCiAgfSA9IHVzZURuc0NyZWRlbnRpYWxUcmFuc2Zlcih7CiAgICB0YXJnZXQ6ICJkZG5zIiwKICAgIHByb3ZpZGVySWQ6IHNlbGVjdGVkUHJvdmlkZXIsCiAgICB0YXJnZXRDcmVkZW50aWFsczogcHJvdmlkZXJDb25maWcsCiAgfSk7CgogIGNvbnN0IGNyZWRlbnRpYWxUcmFuc2ZlckRlc2NyaXB0aW9uID0gY29tcHV0ZWQoKCkgPT4gewogICAgY29uc3Qgc3VnZ2VzdGlvbiA9IGNyZWRlbnRpYWxUcmFuc2ZlclN1Z2dlc3Rpb24udmFsdWU7CiAgICBpZiAoIXN1Z2dlc3Rpb24pIHJldHVybiAiIjsKICAgIHJldHVybiB0cmFuc2xhdGUoImFkbWluLmRkbnMuY3JlZGVudGlhbFRyYW5zZmVyRGVzY3JpcHRpb24iLCB7CiAgICAgIHNjb3BlOiB0cmFuc2ZlclNvdXJjZVNjb3BlTGFiZWwudmFsdWUsCiAgICAgIGJyaWRnZTogc3VnZ2VzdGlvbi5icmlkZ2VMYWJlbCwKICAgICAgY291bnQ6IHN1Z2dlc3Rpb24uZmlsbGFibGVGaWVsZHMubGVuZ3RoLAogICAgfSk7CiAgfSk7CgogIGNvbnN0IGFwcGx5Q3JlZGVudGlhbFRyYW5zZmVyID0gKCkgPT4gewogICAgY29uc3QgcmVzdWx0ID0gYXBwbHlTdWdnZXN0aW9uKCk7CiAgICBpZiAoIXJlc3VsdCkgcmV0dXJuOwogICAgZm9yIChjb25zdCBrZXkgb2YgcmVzdWx0LmFwcGxpZWRLZXlzKSBlbmFibGVGaWVsZEVkaXRpbmcoa2V5KTsKICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgIHRyYW5zbGF0ZSgiYWRtaW4uZGRucy5jcmVkZW50aWFsc0FwcGxpZWQiLCB7CiAgICAgICAgc2NvcGU6IHRyYW5zZmVyU291cmNlU2NvcGVMYWJlbC52YWx1ZSwKICAgICAgICBjb3VudDogcmVzdWx0LmNvdW50LAogICAgICB9KSwKICAgICk7CiAgfTsKCiAgcmV0dXJuIHsKICAgIGFwcGx5Q3JlZGVudGlhbFRyYW5zZmVyLAogICAgY3JlZGVudGlhbFRyYW5zZmVyRGVzY3JpcHRpb24sCiAgICBjcmVkZW50aWFsVHJhbnNmZXJTdWdnZXN0aW9uLAogICAgaXNUcmFuc2ZlclNvdXJjZUxvYWRpbmcsCiAgICB0cmFuc2ZlclNvdXJjZVNjb3BlTGFiZWwsCiAgfTsKfQo=
+import { computed, type Ref } from "vue";
+import { useDnsCredentialTransfer } from "@/composables/useDnsCredentialTransfer";
+import { toast } from "@admin-shared/utils/toast";
+
+type Translate = (
+  key: string,
+  params?: Record<string, string | number>,
+) => string;
+
+interface UseDDNSCredentialTransferHintOptions {
+  enableFieldEditing: (key: string) => void;
+  providerConfig: Ref<Record<string, string>>;
+  selectedProvider: Ref<string>;
+  translate: Translate;
+}
+
+export function useDDNSCredentialTransferHint({
+  enableFieldEditing,
+  providerConfig,
+  selectedProvider,
+  translate,
+}: UseDDNSCredentialTransferHintOptions) {
+  const {
+    applySuggestion,
+    isLoadingSource: isTransferSourceLoading,
+    sourceScopeLabel: transferSourceScopeLabel,
+    suggestion: credentialTransferSuggestion,
+  } = useDnsCredentialTransfer({
+    target: "ddns",
+    providerId: selectedProvider,
+    targetCredentials: providerConfig,
+  });
+
+  const credentialTransferDescription = computed(() => {
+    const suggestion = credentialTransferSuggestion.value;
+    if (!suggestion) return "";
+    return translate("admin.ddns.credentialTransferDescription", {
+      scope: transferSourceScopeLabel.value,
+      bridge: suggestion.bridgeLabel,
+      count: suggestion.fillableFields.length,
+    });
+  });
+
+  const applyCredentialTransfer = () => {
+    const result = applySuggestion();
+    if (!result) return;
+    for (const key of result.appliedKeys) enableFieldEditing(key);
+    toast.success(
+      translate("admin.ddns.credentialsApplied", {
+        scope: transferSourceScopeLabel.value,
+        count: result.count,
+      }),
+    );
+  };
+
+  return {
+    applyCredentialTransfer,
+    credentialTransferDescription,
+    credentialTransferSuggestion,
+    isTransferSourceLoading,
+    transferSourceScopeLabel,
+  };
+}

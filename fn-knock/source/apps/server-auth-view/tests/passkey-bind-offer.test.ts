@@ -1,1 +1,69 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5vZGUiIC8+CgppbXBvcnQgYXNzZXJ0IGZyb20gIm5vZGU6YXNzZXJ0L3N0cmljdCI7CmltcG9ydCB7IGRlc2NyaWJlLCBpdCB9IGZyb20gIm5vZGU6dGVzdCI7CgppbXBvcnQgewogIHBhc3NrZXlCaW5kaW5nQ29weUtleXMsCiAgc2hvdWxkT2ZmZXJQYXNza2V5QmluZGluZywKfSBmcm9tICIuLi9zcmMvbGliL3Bhc3NrZXktYmluZC1vZmZlciI7CgpkZXNjcmliZSgiUGFzc2tleSBiaW5kaW5nIG9mZmVyIiwgKCkgPT4gewogIGl0KCJvZmZlcnMgYmluZGluZyBvbiBhbm90aGVyIGJyb3dzZXIgZXZlbiB3aGVuIHRoZSBhY2NvdW50IGFscmVhZHkgaGFzIGEgUGFzc2tleSIsICgpID0+IHsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgc2hvdWxkT2ZmZXJQYXNza2V5QmluZGluZyh7CiAgICAgICAgY2FuQmluZFBhc3NrZXk6IHRydWUsCiAgICAgICAgY3VycmVudEJyb3dzZXJIYXNLbm93blBhc3NrZXk6IGZhbHNlLAogICAgICAgIGlzUGFzc2tleVN1cHBvcnRlZDogdHJ1ZSwKICAgICAgICBsb2dpbk1vZGU6ICJ0b3RwIiwKICAgICAgfSksCiAgICAgIHRydWUsCiAgICApOwogICAgYXNzZXJ0LmRlZXBFcXVhbChwYXNza2V5QmluZGluZ0NvcHlLZXlzKHRydWUpLCB7CiAgICAgIGJ1dHRvbjogImF1dGguaG9tZS5hZGRQYXNza2V5IiwKICAgICAgaGludDogImF1dGguaG9tZS5wYXNza2V5QXZhaWxhYmxlQWRkRGV2aWNlIiwKICAgIH0pOwogIH0pOwoKICBpdCgiaGlkZXMgYmluZGluZyB3aGVuIHRoaXMgYnJvd3NlciBhbHJlYWR5IGhhcyBhIGtub3duIFBhc3NrZXkiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHNob3VsZE9mZmVyUGFzc2tleUJpbmRpbmcoewogICAgICAgIGNhbkJpbmRQYXNza2V5OiB0cnVlLAogICAgICAgIGN1cnJlbnRCcm93c2VySGFzS25vd25QYXNza2V5OiB0cnVlLAogICAgICAgIGlzUGFzc2tleVN1cHBvcnRlZDogdHJ1ZSwKICAgICAgICBsb2dpbk1vZGU6ICJ0b3RwIiwKICAgICAgfSksCiAgICAgIGZhbHNlLAogICAgKTsKICB9KTsKCiAgaXQoImRvZXMgbm90IG9mZmVyIGJpbmRpbmcgd2hlbiBiaW5kaW5nIG9yIFBhc3NrZXkgaXMgdW5hdmFpbGFibGUiLCAoKSA9PiB7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHNob3VsZE9mZmVyUGFzc2tleUJpbmRpbmcoewogICAgICAgIGNhbkJpbmRQYXNza2V5OiBmYWxzZSwKICAgICAgICBjdXJyZW50QnJvd3Nlckhhc0tub3duUGFzc2tleTogZmFsc2UsCiAgICAgICAgaXNQYXNza2V5U3VwcG9ydGVkOiB0cnVlLAogICAgICAgIGxvZ2luTW9kZTogInRvdHAiLAogICAgICB9KSwKICAgICAgZmFsc2UsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBzaG91bGRPZmZlclBhc3NrZXlCaW5kaW5nKHsKICAgICAgICBjYW5CaW5kUGFzc2tleTogdHJ1ZSwKICAgICAgICBjdXJyZW50QnJvd3Nlckhhc0tub3duUGFzc2tleTogZmFsc2UsCiAgICAgICAgaXNQYXNza2V5U3VwcG9ydGVkOiBmYWxzZSwKICAgICAgICBsb2dpbk1vZGU6ICJ0b3RwIiwKICAgICAgfSksCiAgICAgIGZhbHNlLAogICAgKTsKICAgIGFzc2VydC5lcXVhbCgKICAgICAgc2hvdWxkT2ZmZXJQYXNza2V5QmluZGluZyh7CiAgICAgICAgY2FuQmluZFBhc3NrZXk6IHRydWUsCiAgICAgICAgY3VycmVudEJyb3dzZXJIYXNLbm93blBhc3NrZXk6IGZhbHNlLAogICAgICAgIGlzUGFzc2tleVN1cHBvcnRlZDogdHJ1ZSwKICAgICAgICBsb2dpbk1vZGU6ICJwYXNzd29yZCIsCiAgICAgIH0pLAogICAgICBmYWxzZSwKICAgICk7CiAgfSk7Cn0pOwo=
+/// <reference types="node" />
+
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+
+import {
+  passkeyBindingCopyKeys,
+  shouldOfferPasskeyBinding,
+} from "../src/lib/passkey-bind-offer";
+
+describe("Passkey binding offer", () => {
+  it("offers binding on another browser even when the account already has a Passkey", () => {
+    assert.equal(
+      shouldOfferPasskeyBinding({
+        canBindPasskey: true,
+        currentBrowserHasKnownPasskey: false,
+        isPasskeySupported: true,
+        loginMode: "totp",
+      }),
+      true,
+    );
+    assert.deepEqual(passkeyBindingCopyKeys(true), {
+      button: "auth.home.addPasskey",
+      hint: "auth.home.passkeyAvailableAddDevice",
+    });
+  });
+
+  it("hides binding when this browser already has a known Passkey", () => {
+    assert.equal(
+      shouldOfferPasskeyBinding({
+        canBindPasskey: true,
+        currentBrowserHasKnownPasskey: true,
+        isPasskeySupported: true,
+        loginMode: "totp",
+      }),
+      false,
+    );
+  });
+
+  it("does not offer binding when binding or Passkey is unavailable", () => {
+    assert.equal(
+      shouldOfferPasskeyBinding({
+        canBindPasskey: false,
+        currentBrowserHasKnownPasskey: false,
+        isPasskeySupported: true,
+        loginMode: "totp",
+      }),
+      false,
+    );
+    assert.equal(
+      shouldOfferPasskeyBinding({
+        canBindPasskey: true,
+        currentBrowserHasKnownPasskey: false,
+        isPasskeySupported: false,
+        loginMode: "totp",
+      }),
+      false,
+    );
+    assert.equal(
+      shouldOfferPasskeyBinding({
+        canBindPasskey: true,
+        currentBrowserHasKnownPasskey: false,
+        isPasskeySupported: true,
+        loginMode: "password",
+      }),
+      false,
+    );
+  });
+});

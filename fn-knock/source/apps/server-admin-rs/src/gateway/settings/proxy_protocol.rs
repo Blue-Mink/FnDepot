@@ -1,1 +1,261 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBmbiBkZWZhdWx0X2dhdGV3YXlfcHJveHlfcHJvdG9jb2woKSAtPiBWYWx1ZSB7CiAgICBqc29uISh7ICJlbmFibGVkIjogZmFsc2UsICJ0cnVzdGVkX3NvdXJjZXMiOiBbXSB9KQp9CgpwdWIoc3VwZXIpIGZuIG1hbmFnZWRfZnJwX3Byb3h5X3Byb3RvY29sX2VuYWJsZWQoY29uZmlnOiAmVmFsdWUpIC0+IGJvb2wgewogICAgY29uZmlnLmdldCgicnVuX3R5cGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KSA9PSBTb21lKDEpCn0KCnB1YihzdXBlcikgZm4gbm9ybWFsaXplX2dhdGV3YXlfcHJveHlfcHJvdG9jb2wodmFsdWU6ICZWYWx1ZSkgLT4gUmVzdWx0PFZhbHVlLCBTdHJpbmc+IHsKICAgIGxldCBlbmFibGVkID0gdmFsdWUKICAgICAgICAuZ2V0KCJlbmFibGVkIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgLnVud3JhcF9vcihmYWxzZSk7CiAgICBsZXQgcmF3X3NvdXJjZXMgPSB2YWx1ZQogICAgICAgIC5nZXQoInRydXN0ZWRfc291cmNlcyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBtdXQgc291cmNlcyA9IEJUcmVlU2V0OjpuZXcoKTsKCiAgICBmb3IgcmF3IGluIHJhd19zb3VyY2VzIHsKICAgICAgICBsZXQgc291cmNlID0gcmF3CiAgICAgICAgICAgIC5hc19zdHIoKQogICAgICAgICAgICAub2tfb3JfZWxzZSh8fCAiRWFjaCB0cnVzdGVkIFBST1hZIHNvdXJjZSBtdXN0IGJlIGEgc3RyaW5nIi50b19zdHJpbmcoKSk/CiAgICAgICAgICAgIC50cmltKCk7CiAgICAgICAgaWYgc291cmNlLmlzX2VtcHR5KCkgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgaWYgbGV0IE9rKGFkZHJlc3MpID0gc291cmNlLnBhcnNlOjo8SXBBZGRyPigpIHsKICAgICAgICAgICAgbGV0IGNhbm9uaWNhbCA9IG1hdGNoIGFkZHJlc3MgewogICAgICAgICAgICAgICAgSXBBZGRyOjpWNihhZGRyZXNzKSA9PiBhZGRyZXNzCiAgICAgICAgICAgICAgICAgICAgLnRvX2lwdjRfbWFwcGVkKCkKICAgICAgICAgICAgICAgICAgICAubWFwKElwQWRkcjo6VjQpCiAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcihJcEFkZHI6OlY2KGFkZHJlc3MpKSwKICAgICAgICAgICAgICAgIGFkZHJlc3MgPT4gYWRkcmVzcywKICAgICAgICAgICAgfTsKICAgICAgICAgICAgc291cmNlcy5pbnNlcnQoY2Fub25pY2FsLnRvX3N0cmluZygpKTsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBuZXR3b3JrID0gc291cmNlCiAgICAgICAgICAgIC5wYXJzZTo6PElwTmV0PigpCiAgICAgICAgICAgIC5tYXBfZXJyKHxffCBmb3JtYXQhKCJUcnVzdGVkIFBST1hZIHNvdXJjZSB7c291cmNlOj99IG11c3QgYmUgYW4gSVAgYWRkcmVzcyBvciBDSURSIikpPwogICAgICAgICAgICAudHJ1bmMoKTsKICAgICAgICBpZiBuZXR3b3JrLnByZWZpeF9sZW4oKSA9PSAwIHsKICAgICAgICAgICAgcmV0dXJuIEVycihmb3JtYXQhKAogICAgICAgICAgICAgICAgIlRydXN0ZWQgUFJPWFkgc291cmNlIHtzb3VyY2U6P30gbXVzdCBub3QgY292ZXIgZXZlcnkgYWRkcmVzcyIKICAgICAgICAgICAgKSk7CiAgICAgICAgfQogICAgICAgIHNvdXJjZXMuaW5zZXJ0KG5ldHdvcmsudG9fc3RyaW5nKCkpOwogICAgfQoKICAgIGlmIGVuYWJsZWQgJiYgc291cmNlcy5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gRXJyKAogICAgICAgICAgICAiQXQgbGVhc3Qgb25lIHRydXN0ZWQgc291cmNlIGlzIHJlcXVpcmVkIHdoZW4gUFJPWFkgcHJvdG9jb2wgaXMgZW5hYmxlZCIudG9fc3RyaW5nKCksCiAgICAgICAgKTsKICAgIH0KCiAgICBPayhqc29uISh7CiAgICAgICAgImVuYWJsZWQiOiBlbmFibGVkLAogICAgICAgICJ0cnVzdGVkX3NvdXJjZXMiOiBzb3VyY2VzLmludG9faXRlcigpLmNvbGxlY3Q6OjxWZWM8Xz4+KCksCiAgICB9KSkKfQoKcHViKHN1cGVyKSBmbiBnYXRld2F5X3Byb3h5X3Byb3RvY29sX2Zyb21fYm9keShib2R5OiAmVmFsdWUpIC0+IFJlc3VsdDxWYWx1ZSwgU3RyaW5nPiB7CiAgICBsZXQgb2JqZWN0ID0gYm9keQogICAgICAgIC5hc19vYmplY3QoKQogICAgICAgIC5va19vcl9lbHNlKHx8ICJHYXRld2F5IFBST1hZIHByb3RvY29sIHBheWxvYWQgbXVzdCBiZSBhbiBvYmplY3QiLnRvX3N0cmluZygpKT87CiAgICBpZiAhb2JqZWN0LmdldCgiZW5hYmxlZCIpLmlzX3NvbWVfYW5kKFZhbHVlOjppc19ib29sZWFuKSB7CiAgICAgICAgcmV0dXJuIEVycigiUFJPWFkgcHJvdG9jb2wgZW5hYmxlZCBtdXN0IGJlIGEgYm9vbGVhbiIudG9fc3RyaW5nKCkpOwogICAgfQogICAgaWYgIW9iamVjdC5nZXQoInRydXN0ZWRfc291cmNlcyIpLmlzX3NvbWVfYW5kKFZhbHVlOjppc19hcnJheSkgewogICAgICAgIHJldHVybiBFcnIoIlBST1hZIHByb3RvY29sIHRydXN0ZWRfc291cmNlcyBtdXN0IGJlIGFuIGFycmF5Ii50b19zdHJpbmcoKSk7CiAgICB9CiAgICBub3JtYWxpemVfZ2F0ZXdheV9wcm94eV9wcm90b2NvbChib2R5KQp9CgpwdWIoc3VwZXIpIGZuIGJ1aWxkX2dhdGV3YXlfcHJveHlfcHJvdG9jb2xfcmVzcG9uc2UoY29uZmlnOiAmVmFsdWUpIC0+IFJlc3VsdDxWYWx1ZSwgU3RyaW5nPiB7CiAgICBsZXQgZXh0ZXJuYWwgPSBub3JtYWxpemVfZ2F0ZXdheV9wcm94eV9wcm90b2NvbCgKICAgICAgICBjb25maWcKICAgICAgICAgICAgLmdldCgiZ2F0ZXdheV9wcm94eV9wcm90b2NvbCIpCiAgICAgICAgICAgIC51bndyYXBfb3IoJmRlZmF1bHRfZ2F0ZXdheV9wcm94eV9wcm90b2NvbCgpKSwKICAgICk/OwogICAgbGV0IG1hbmFnZWQgPSBtYW5hZ2VkX2ZycF9wcm94eV9wcm90b2NvbF9lbmFibGVkKGNvbmZpZyk7CiAgICBsZXQgZW5hYmxlZCA9IGV4dGVybmFsCiAgICAgICAgLmdldCgiZW5hYmxlZCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgIC51bndyYXBfb3IoZmFsc2UpOwogICAgT2soanNvbiEoewogICAgICAgICJlbmFibGVkIjogZW5hYmxlZCwKICAgICAgICAidHJ1c3RlZF9zb3VyY2VzIjogZXh0ZXJuYWwuZ2V0KCJ0cnVzdGVkX3NvdXJjZXMiKS5jbG9uZWQoKS51bndyYXBfb3JfZWxzZSh8fCBqc29uIShbXSkpLAogICAgICAgICJtYW5hZ2VkX2ZycF9lbmFibGVkIjogbWFuYWdlZCwKICAgICAgICAiZWZmZWN0aXZlX2VuYWJsZWQiOiBtYW5hZ2VkIHx8IGVuYWJsZWQsCiAgICB9KSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBzeW5jX2dhdGV3YXlfcHJveHlfcHJvdG9jb2xfcnVudGltZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBjb25maWc6ICZWYWx1ZSwKKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgbGV0IG5vcm1hbGl6ZWQgPSBub3JtYWxpemVfZ2F0ZXdheV9wcm94eV9wcm90b2NvbCgKICAgICAgICBjb25maWcKICAgICAgICAgICAgLmdldCgiZ2F0ZXdheV9wcm94eV9wcm90b2NvbCIpCiAgICAgICAgICAgIC51bndyYXBfb3IoJmRlZmF1bHRfZ2F0ZXdheV9wcm94eV9wcm90b2NvbCgpKSwKICAgICk/OwogICAgbGV0IGV4cGVjdGVkX2VuYWJsZWQgPSBub3JtYWxpemVkCiAgICAgICAgLmdldCgiZW5hYmxlZCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgIC51bndyYXBfb3IoZmFsc2UpOwogICAgbGV0IGV4cGVjdGVkX3NvdXJjZXMgPSBub3JtYWxpemVkCiAgICAgICAgLmdldCgidHJ1c3RlZF9zb3VyY2VzIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5pbnRvX2l0ZXIoKQogICAgICAgIC5mbGF0dGVuKCkKICAgICAgICAuZmlsdGVyX21hcChWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5tYXAoVG9TdHJpbmc6OnRvX3N0cmluZykKICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgIGxldCAoYXBwbGllZF9lbmFibGVkLCBhcHBsaWVkX3NvdXJjZXMpID0gc3RhdGUKICAgICAgICAuZ2F0ZXdheQogICAgICAgIC5jbGllbnQKICAgICAgICAuc2V0X2dhdGV3YXlfcHJveHlfcHJvdG9jb2xfY29uZmlnKGV4cGVjdGVkX2VuYWJsZWQsIGV4cGVjdGVkX3NvdXJjZXMuY2xvbmUoKSkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICBpZiBhcHBsaWVkX2VuYWJsZWQgIT0gZXhwZWN0ZWRfZW5hYmxlZCB8fCBhcHBsaWVkX3NvdXJjZXMgIT0gZXhwZWN0ZWRfc291cmNlcyB7CiAgICAgICAgcmV0dXJuIEVycihmb3JtYXQhKAogICAgICAgICAgICAiR28gZ2F0ZXdheSBkaWQgbm90IGFwcGx5IFBST1hZIHByb3RvY29sIGNvbmZpZyAoZW5hYmxlZD17ZXhwZWN0ZWRfZW5hYmxlZH0sIHRydXN0ZWRfc291cmNlcz17ZXhwZWN0ZWRfc291cmNlczo/fSkiCiAgICAgICAgKSk7CiAgICB9CiAgICBPaygoKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiB1cGRhdGVfZ2F0ZXdheV9wcm94eV9wcm90b2NvbF9pbm5lcigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBib2R5OiAmVmFsdWUsCikgLT4gUmVzdWx0PFZhbHVlLCBTdHJpbmc+IHsKICAgIGxldCBub3JtYWxpemVkID0gZ2F0ZXdheV9wcm94eV9wcm90b2NvbF9mcm9tX2JvZHkoYm9keSk/OwogICAgLy8gU2hhcmUgdGhlIGdhdGV3YXkgcnVudGltZSB0cmFuc2FjdGlvbiB3aXRoIHN0YXJ0dXAgYW5kIGhvc3QtcnVsZSBzeW5jczoKICAgIC8vIGFsbCBvZiB0aGVtIGNhbiByZWNvbmZpZ3VyZSB0aGUgc2FtZSBHbyBsaXN0ZW5lciBhbmQgbXVzdCBub3QgaW50ZXJsZWF2ZQogICAgLy8gcGVyc2lzdGVuY2UsIGFwcGxpY2F0aW9uLCBvciByb2xsYmFjay4KICAgIHByb3h5X2NvbmZpZzo6d2l0aF9ob3N0X21hcHBpbmdzX3J1bnRpbWVfdHJhbnNhY3Rpb24oc3RhdGUsIG1vdmUgfHN0YXRlfCBhc3luYyBtb3ZlIHsKICAgICAgICB1cGRhdGVfZ2F0ZXdheV9wcm94eV9wcm90b2NvbF9sb2NrZWQoJnN0YXRlLCBub3JtYWxpemVkKS5hd2FpdAogICAgfSkKICAgIC5hd2FpdD87CgogICAgbGV0IGN1cnJlbnQgPSBzdGF0ZQogICAgICAgIC5zdG9yYWdlCiAgICAgICAgLnN0b3JlCiAgICAgICAgLmdldF9jb25maWcoKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgZXJyb3IudG9fc3RyaW5nKCkpPzsKICAgIGJ1aWxkX2dhdGV3YXlfcHJveHlfcHJvdG9jb2xfcmVzcG9uc2UoJmN1cnJlbnQpCn0KCmFzeW5jIGZuIHVwZGF0ZV9nYXRld2F5X3Byb3h5X3Byb3RvY29sX2xvY2tlZCgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBub3JtYWxpemVkOiBWYWx1ZSwKKSAtPiBSZXN1bHQ8KCksIFN0cmluZz4gewogICAgbGV0IHByZXZpb3VzID0gc3RhdGUKICAgICAgICAuc3RvcmFnZQogICAgICAgIC5zdG9yZQogICAgICAgIC5nZXRfY29uZmlnKCkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICBsZXQgbXV0IG5leHQgPSBwcmV2aW91cy5jbG9uZSgpOwogICAgZW5zdXJlX29iamVjdCgmbXV0IG5leHQpLmluc2VydCgiZ2F0ZXdheV9wcm94eV9wcm90b2NvbCIudG9fc3RyaW5nKCksIG5vcm1hbGl6ZWQpOwoKICAgIHN0YXRlCiAgICAgICAgLnN0b3JhZ2UKICAgICAgICAuc3RvcmUKICAgICAgICAuc2F2ZV9jb25maWcoJm5leHQpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIofGVycm9yfCBlcnJvci50b19zdHJpbmcoKSk/OwogICAgaWYgbGV0IEVycihlcnJvcikgPSBzeW5jX2dhdGV3YXlfcHJveHlfcHJvdG9jb2xfcnVudGltZShzdGF0ZSwgJm5leHQpLmF3YWl0IHsKICAgICAgICBsZXQgc3RvcmFnZV9yb2xsYmFja19lcnJvciA9CiAgICAgICAgICAgIHN0YXRlCiAgICAgICAgICAgICAgICAuc3RvcmFnZQogICAgICAgICAgICAgICAgLnN0b3JlCiAgICAgICAgICAgICAgICAuc2F2ZV9jb25maWcoJnByZXZpb3VzKQogICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICAuZXJyKCkKICAgICAgICAgICAgICAgIC5tYXAofHJvbGxiYWNrX2Vycm9yfCB7CiAgICAgICAgICAgICAgICAgICAgZm9ybWF0ISgiZmFpbGVkIHRvIHJlc3RvcmUgcHJldmlvdXMgUFJPWFkgcHJvdG9jb2wgY29uZmlnOiB7cm9sbGJhY2tfZXJyb3J9IikKICAgICAgICAgICAgICAgIH0pOwogICAgICAgIGxldCBydW50aW1lX3JvbGxiYWNrX2Vycm9yID0gc3luY19nYXRld2F5X3Byb3h5X3Byb3RvY29sX3J1bnRpbWUoc3RhdGUsICZwcmV2aW91cykKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5lcnIoKQogICAgICAgICAgICAubWFwKHxyb2xsYmFja19lcnJvcnwgewogICAgICAgICAgICAgICAgZm9ybWF0ISgiZmFpbGVkIHRvIHJlc3RvcmUgcHJldmlvdXMgUFJPWFkgcHJvdG9jb2wgcnVudGltZToge3JvbGxiYWNrX2Vycm9yfSIpCiAgICAgICAgICAgIH0pOwogICAgICAgIGxldCByb2xsYmFja19mYWlsdXJlcyA9IFtzdG9yYWdlX3JvbGxiYWNrX2Vycm9yLCBydW50aW1lX3JvbGxiYWNrX2Vycm9yXQogICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgLmZsYXR0ZW4oKQogICAgICAgICAgICAuY29sbGVjdDo6PFZlYzxfPj4oKTsKICAgICAgICBpZiByb2xsYmFja19mYWlsdXJlcy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgcmV0dXJuIEVycihlcnJvcik7CiAgICAgICAgfQogICAgICAgIHJldHVybiBFcnIoZm9ybWF0ISgie2Vycm9yfTsge30iLCByb2xsYmFja19mYWlsdXJlcy5qb2luKCI7ICIpKSk7CiAgICB9CiAgICBPaygoKSkKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CgogICAgI1t0ZXN0XQogICAgZm4gbm9ybWFsaXplc19hbmRfZGVkdXBsaWNhdGVzX3RydXN0ZWRfc291cmNlcygpIHsKICAgICAgICBsZXQgdmFsdWUgPSBqc29uISh7CiAgICAgICAgICAgICJlbmFibGVkIjogdHJ1ZSwKICAgICAgICAgICAgInRydXN0ZWRfc291cmNlcyI6IFsKICAgICAgICAgICAgICAgICIgMTkyLjAuMi4xMCAiLAogICAgICAgICAgICAgICAgIjE5Mi4wLjIuMTAiLAogICAgICAgICAgICAgICAgIjo6ZmZmZjoxOTIuMC4yLjEwIiwKICAgICAgICAgICAgICAgICIxMC4wLjAuOS8yNCIsCiAgICAgICAgICAgICAgICAiMjAwMTpkYjg6OjEvNjQiCiAgICAgICAgICAgIF0KICAgICAgICB9KTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICBub3JtYWxpemVfZ2F0ZXdheV9wcm94eV9wcm90b2NvbCgmdmFsdWUpLnVud3JhcCgpLAogICAgICAgICAgICBqc29uISh7CiAgICAgICAgICAgICAgICAiZW5hYmxlZCI6IHRydWUsCiAgICAgICAgICAgICAgICAidHJ1c3RlZF9zb3VyY2VzIjogWyIxMC4wLjAuMC8yNCIsICIxOTIuMC4yLjEwIiwgIjIwMDE6ZGI4OjovNjQiXQogICAgICAgICAgICB9KQogICAgICAgICk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gcmVqZWN0c19taXNzaW5nX2Ruc19hbmRfd29ybGRfc291cmNlcygpIHsKICAgICAgICBmb3IgdmFsdWUgaW4gWwogICAgICAgICAgICBqc29uISh7ImVuYWJsZWQiOiB0cnVlLCAidHJ1c3RlZF9zb3VyY2VzIjogW119KSwKICAgICAgICAgICAganNvbiEoeyJlbmFibGVkIjogdHJ1ZSwgInRydXN0ZWRfc291cmNlcyI6IFsicHJveHkuZXhhbXBsZS5jb20iXX0pLAogICAgICAgICAgICBqc29uISh7ImVuYWJsZWQiOiB0cnVlLCAidHJ1c3RlZF9zb3VyY2VzIjogWyIwLjAuMC4wLzAiXX0pLAogICAgICAgICAgICBqc29uISh7ImVuYWJsZWQiOiB0cnVlLCAidHJ1c3RlZF9zb3VyY2VzIjogWyI6Oi8wIl19KSwKICAgICAgICBdIHsKICAgICAgICAgICAgYXNzZXJ0IShub3JtYWxpemVfZ2F0ZXdheV9wcm94eV9wcm90b2NvbCgmdmFsdWUpLmlzX2VycigpLCAie3ZhbHVlfSIpOwogICAgICAgIH0KICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiByZXNwb25zZV9kaXN0aW5ndWlzaGVzX21hbmFnZWRfYW5kX2V4dGVybmFsX2VuYWJsZW1lbnQoKSB7CiAgICAgICAgbGV0IG1hbmFnZWQgPSBidWlsZF9nYXRld2F5X3Byb3h5X3Byb3RvY29sX3Jlc3BvbnNlKCZqc29uISh7CiAgICAgICAgICAgICJydW5fdHlwZSI6IDEsCiAgICAgICAgICAgICJnYXRld2F5X3Byb3h5X3Byb3RvY29sIjogeyJlbmFibGVkIjogZmFsc2UsICJ0cnVzdGVkX3NvdXJjZXMiOiBbXX0KICAgICAgICB9KSkKICAgICAgICAudW53cmFwKCk7CiAgICAgICAgYXNzZXJ0X2VxIShtYW5hZ2VkWyJtYW5hZ2VkX2ZycF9lbmFibGVkIl0sIHRydWUpOwogICAgICAgIGFzc2VydF9lcSEobWFuYWdlZFsiZWZmZWN0aXZlX2VuYWJsZWQiXSwgdHJ1ZSk7CgogICAgICAgIGxldCBleHRlcm5hbCA9IGJ1aWxkX2dhdGV3YXlfcHJveHlfcHJvdG9jb2xfcmVzcG9uc2UoJmpzb24hKHsKICAgICAgICAgICAgInJ1bl90eXBlIjogMCwKICAgICAgICAgICAgImdhdGV3YXlfcHJveHlfcHJvdG9jb2wiOiB7CiAgICAgICAgICAgICAgICAiZW5hYmxlZCI6IHRydWUsCiAgICAgICAgICAgICAgICAidHJ1c3RlZF9zb3VyY2VzIjogWyIxOTIuMC4yLjEwIl0KICAgICAgICAgICAgfQogICAgICAgIH0pKQogICAgICAgIC51bndyYXAoKTsKICAgICAgICBhc3NlcnRfZXEhKGV4dGVybmFsWyJtYW5hZ2VkX2ZycF9lbmFibGVkIl0sIGZhbHNlKTsKICAgICAgICBhc3NlcnRfZXEhKGV4dGVybmFsWyJlZmZlY3RpdmVfZW5hYmxlZCJdLCB0cnVlKTsKICAgIH0KfQo=
+use super::*;
+
+pub(super) fn default_gateway_proxy_protocol() -> Value {
+    json!({ "enabled": false, "trusted_sources": [] })
+}
+
+pub(super) fn managed_frp_proxy_protocol_enabled(config: &Value) -> bool {
+    config.get("run_type").and_then(Value::as_i64) == Some(1)
+}
+
+pub(super) fn normalize_gateway_proxy_protocol(value: &Value) -> Result<Value, String> {
+    let enabled = value
+        .get("enabled")
+        .and_then(Value::as_bool)
+        .unwrap_or(false);
+    let raw_sources = value
+        .get("trusted_sources")
+        .and_then(Value::as_array)
+        .cloned()
+        .unwrap_or_default();
+    let mut sources = BTreeSet::new();
+
+    for raw in raw_sources {
+        let source = raw
+            .as_str()
+            .ok_or_else(|| "Each trusted PROXY source must be a string".to_string())?
+            .trim();
+        if source.is_empty() {
+            continue;
+        }
+        if let Ok(address) = source.parse::<IpAddr>() {
+            let canonical = match address {
+                IpAddr::V6(address) => address
+                    .to_ipv4_mapped()
+                    .map(IpAddr::V4)
+                    .unwrap_or(IpAddr::V6(address)),
+                address => address,
+            };
+            sources.insert(canonical.to_string());
+            continue;
+        }
+        let network = source
+            .parse::<IpNet>()
+            .map_err(|_| format!("Trusted PROXY source {source:?} must be an IP address or CIDR"))?
+            .trunc();
+        if network.prefix_len() == 0 {
+            return Err(format!(
+                "Trusted PROXY source {source:?} must not cover every address"
+            ));
+        }
+        sources.insert(network.to_string());
+    }
+
+    if enabled && sources.is_empty() {
+        return Err(
+            "At least one trusted source is required when PROXY protocol is enabled".to_string(),
+        );
+    }
+
+    Ok(json!({
+        "enabled": enabled,
+        "trusted_sources": sources.into_iter().collect::<Vec<_>>(),
+    }))
+}
+
+pub(super) fn gateway_proxy_protocol_from_body(body: &Value) -> Result<Value, String> {
+    let object = body
+        .as_object()
+        .ok_or_else(|| "Gateway PROXY protocol payload must be an object".to_string())?;
+    if !object.get("enabled").is_some_and(Value::is_boolean) {
+        return Err("PROXY protocol enabled must be a boolean".to_string());
+    }
+    if !object.get("trusted_sources").is_some_and(Value::is_array) {
+        return Err("PROXY protocol trusted_sources must be an array".to_string());
+    }
+    normalize_gateway_proxy_protocol(body)
+}
+
+pub(super) fn build_gateway_proxy_protocol_response(config: &Value) -> Result<Value, String> {
+    let external = normalize_gateway_proxy_protocol(
+        config
+            .get("gateway_proxy_protocol")
+            .unwrap_or(&default_gateway_proxy_protocol()),
+    )?;
+    let managed = managed_frp_proxy_protocol_enabled(config);
+    let enabled = external
+        .get("enabled")
+        .and_then(Value::as_bool)
+        .unwrap_or(false);
+    Ok(json!({
+        "enabled": enabled,
+        "trusted_sources": external.get("trusted_sources").cloned().unwrap_or_else(|| json!([])),
+        "managed_frp_enabled": managed,
+        "effective_enabled": managed || enabled,
+    }))
+}
+
+pub(super) async fn sync_gateway_proxy_protocol_runtime(
+    state: &AppState,
+    config: &Value,
+) -> Result<(), String> {
+    let normalized = normalize_gateway_proxy_protocol(
+        config
+            .get("gateway_proxy_protocol")
+            .unwrap_or(&default_gateway_proxy_protocol()),
+    )?;
+    let expected_enabled = normalized
+        .get("enabled")
+        .and_then(Value::as_bool)
+        .unwrap_or(false);
+    let expected_sources = normalized
+        .get("trusted_sources")
+        .and_then(Value::as_array)
+        .into_iter()
+        .flatten()
+        .filter_map(Value::as_str)
+        .map(ToString::to_string)
+        .collect::<Vec<_>>();
+    let (applied_enabled, applied_sources) = state
+        .gateway
+        .client
+        .set_gateway_proxy_protocol_config(expected_enabled, expected_sources.clone())
+        .await
+        .map_err(|error| error.to_string())?;
+    if applied_enabled != expected_enabled || applied_sources != expected_sources {
+        return Err(format!(
+            "Go gateway did not apply PROXY protocol config (enabled={expected_enabled}, trusted_sources={expected_sources:?})"
+        ));
+    }
+    Ok(())
+}
+
+pub(super) async fn update_gateway_proxy_protocol_inner(
+    state: &AppState,
+    body: &Value,
+) -> Result<Value, String> {
+    let normalized = gateway_proxy_protocol_from_body(body)?;
+    // Share the gateway runtime transaction with startup and host-rule syncs:
+    // all of them can reconfigure the same Go listener and must not interleave
+    // persistence, application, or rollback.
+    proxy_config::with_host_mappings_runtime_transaction(state, move |state| async move {
+        update_gateway_proxy_protocol_locked(&state, normalized).await
+    })
+    .await?;
+
+    let current = state
+        .storage
+        .store
+        .get_config()
+        .await
+        .map_err(|error| error.to_string())?;
+    build_gateway_proxy_protocol_response(&current)
+}
+
+async fn update_gateway_proxy_protocol_locked(
+    state: &AppState,
+    normalized: Value,
+) -> Result<(), String> {
+    let previous = state
+        .storage
+        .store
+        .get_config()
+        .await
+        .map_err(|error| error.to_string())?;
+    let mut next = previous.clone();
+    ensure_object(&mut next).insert("gateway_proxy_protocol".to_string(), normalized);
+
+    state
+        .storage
+        .store
+        .save_config(&next)
+        .await
+        .map_err(|error| error.to_string())?;
+    if let Err(error) = sync_gateway_proxy_protocol_runtime(state, &next).await {
+        let storage_rollback_error =
+            state
+                .storage
+                .store
+                .save_config(&previous)
+                .await
+                .err()
+                .map(|rollback_error| {
+                    format!("failed to restore previous PROXY protocol config: {rollback_error}")
+                });
+        let runtime_rollback_error = sync_gateway_proxy_protocol_runtime(state, &previous)
+            .await
+            .err()
+            .map(|rollback_error| {
+                format!("failed to restore previous PROXY protocol runtime: {rollback_error}")
+            });
+        let rollback_failures = [storage_rollback_error, runtime_rollback_error]
+            .into_iter()
+            .flatten()
+            .collect::<Vec<_>>();
+        if rollback_failures.is_empty() {
+            return Err(error);
+        }
+        return Err(format!("{error}; {}", rollback_failures.join("; ")));
+    }
+    Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn normalizes_and_deduplicates_trusted_sources() {
+        let value = json!({
+            "enabled": true,
+            "trusted_sources": [
+                " 192.0.2.10 ",
+                "192.0.2.10",
+                "::ffff:192.0.2.10",
+                "10.0.0.9/24",
+                "2001:db8::1/64"
+            ]
+        });
+        assert_eq!(
+            normalize_gateway_proxy_protocol(&value).unwrap(),
+            json!({
+                "enabled": true,
+                "trusted_sources": ["10.0.0.0/24", "192.0.2.10", "2001:db8::/64"]
+            })
+        );
+    }
+
+    #[test]
+    fn rejects_missing_dns_and_world_sources() {
+        for value in [
+            json!({"enabled": true, "trusted_sources": []}),
+            json!({"enabled": true, "trusted_sources": ["proxy.example.com"]}),
+            json!({"enabled": true, "trusted_sources": ["0.0.0.0/0"]}),
+            json!({"enabled": true, "trusted_sources": ["::/0"]}),
+        ] {
+            assert!(normalize_gateway_proxy_protocol(&value).is_err(), "{value}");
+        }
+    }
+
+    #[test]
+    fn response_distinguishes_managed_and_external_enablement() {
+        let managed = build_gateway_proxy_protocol_response(&json!({
+            "run_type": 1,
+            "gateway_proxy_protocol": {"enabled": false, "trusted_sources": []}
+        }))
+        .unwrap();
+        assert_eq!(managed["managed_frp_enabled"], true);
+        assert_eq!(managed["effective_enabled"], true);
+
+        let external = build_gateway_proxy_protocol_response(&json!({
+            "run_type": 0,
+            "gateway_proxy_protocol": {
+                "enabled": true,
+                "trusted_sources": ["192.0.2.10"]
+            }
+        }))
+        .unwrap();
+        assert_eq!(external["managed_frp_enabled"], false);
+        assert_eq!(external["effective_enabled"], true);
+    }
+}

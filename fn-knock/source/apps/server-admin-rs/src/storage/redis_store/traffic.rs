@@ -1,1 +1,378 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBjb25zdCBUUkFGRklDX0tFWV9JTkRFWDogJnN0ciA9ICJmbl9rbm9jazp0cmFmZmljOmtleXMiOwpwdWIoc3VwZXIpIGNvbnN0IEVSUk9SNVhYX0tFWV9JTkRFWDogJnN0ciA9ICJmbl9rbm9jazplcnJvcnM6NXh4OmtleXMiOwpwdWIoc3VwZXIpIGZuIHRyYWZmaWNfc2NvcGVfc2VnbWVudCgKICAgIHVzZXJfaWQ6ICZzdHIsCiAgICBob3N0OiBPcHRpb248JnN0cj4sCiAgICBzdHJlYW06IE9wdGlvbjwmc3RyPiwKKSAtPiBTdHJpbmcgewogICAgbGV0IGhvc3QgPSBob3N0Lm1hcChzdHI6OnRyaW0pLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKTsKICAgIGxldCBzdHJlYW0gPSBzdHJlYW0ubWFwKHN0cjo6dHJpbSkuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpOwogICAgbWF0Y2ggKGhvc3QsIHN0cmVhbSkgewogICAgICAgIChTb21lKGhvc3QpLCBfKSA9PiB7CiAgICAgICAgICAgIGxldCBlbmNvZGVkID0gY3JhdGU6Omh0dHBfdXRpbHM6OnVybF9lbmNvZGVfY29tcG9uZW50KGhvc3QpOwogICAgICAgICAgICBmb3JtYXQhKCJ7dXNlcl9pZH06aG9zdDp7ZW5jb2RlZH0iKQogICAgICAgIH0KICAgICAgICAoTm9uZSwgU29tZShzdHJlYW0pKSA9PiB7CiAgICAgICAgICAgIGxldCBlbmNvZGVkID0gY3JhdGU6Omh0dHBfdXRpbHM6OnVybF9lbmNvZGVfY29tcG9uZW50KHN0cmVhbSk7CiAgICAgICAgICAgIGZvcm1hdCEoInt1c2VyX2lkfTpzdHJlYW06e2VuY29kZWR9IikKICAgICAgICB9CiAgICAgICAgKE5vbmUsIE5vbmUpID0+IHVzZXJfaWQudG9fc3RyaW5nKCksCiAgICB9Cn0KCnB1YihzdXBlcikgZm4gdHJhZmZpY19rZXkoCiAgICB1c2VyX2lkOiAmc3RyLAogICAgZGlyZWN0aW9uOiAmc3RyLAogICAgaG9zdDogT3B0aW9uPCZzdHI+LAogICAgc3RyZWFtOiBPcHRpb248JnN0cj4sCikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoCiAgICAgICAgImZuX2tub2NrOnRyYWZmaWM6e306e30iLAogICAgICAgIHRyYWZmaWNfc2NvcGVfc2VnbWVudCh1c2VyX2lkLCBob3N0LCBzdHJlYW0pLAogICAgICAgIGRpcmVjdGlvbgogICAgKQp9CgpwdWIoc3VwZXIpIGZuIHRyYWZmaWNfbGFzdF90b3RhbF9rZXkoCiAgICB1c2VyX2lkOiAmc3RyLAogICAgZGlyZWN0aW9uOiAmc3RyLAogICAgaG9zdDogT3B0aW9uPCZzdHI+LAogICAgc3RyZWFtOiBPcHRpb248JnN0cj4sCikgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoCiAgICAgICAgImZuX2tub2NrOnRyYWZmaWM6bGFzdDp7fTp7fSIsCiAgICAgICAgdHJhZmZpY19zY29wZV9zZWdtZW50KHVzZXJfaWQsIGhvc3QsIHN0cmVhbSksCiAgICAgICAgZGlyZWN0aW9uCiAgICApCn0KCnB1YihzdXBlcikgZm4gZXJyb3I1eHhfa2V5KHVzZXJfaWQ6ICZzdHIsIGhvc3Q6IE9wdGlvbjwmc3RyPiwgc3RyZWFtOiBPcHRpb248JnN0cj4pIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKAogICAgICAgICJmbl9rbm9jazplcnJvcnM6e306NXh4IiwKICAgICAgICB0cmFmZmljX3Njb3BlX3NlZ21lbnQodXNlcl9pZCwgaG9zdCwgc3RyZWFtKQogICAgKQp9CgpwdWIoc3VwZXIpIGZuIGVycm9yNXh4X2xhc3RfdG90YWxfa2V5KAogICAgdXNlcl9pZDogJnN0ciwKICAgIGhvc3Q6IE9wdGlvbjwmc3RyPiwKICAgIHN0cmVhbTogT3B0aW9uPCZzdHI+LAopIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKAogICAgICAgICJmbl9rbm9jazplcnJvcnM6bGFzdDp7fTo1eHgiLAogICAgICAgIHRyYWZmaWNfc2NvcGVfc2VnbWVudCh1c2VyX2lkLCBob3N0LCBzdHJlYW0pCiAgICApCn0KCnB1YihzdXBlcikgZm4gY2hyb25vX2xpa2Vfbm93X3NlY29uZHMoKSAtPiBpNjQgewogICAgc3RkOjp0aW1lOjpTeXN0ZW1UaW1lOjpub3coKQogICAgICAgIC5kdXJhdGlvbl9zaW5jZShzdGQ6OnRpbWU6OlVOSVhfRVBPQ0gpCiAgICAgICAgLm1hcCh8ZHVyYXRpb258IGR1cmF0aW9uLmFzX3NlY3MoKSBhcyBpNjQpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCkKfQoKcHViKHN1cGVyKSBmbiBwYXJzZV9maW5pdGUodmFsdWU6ICZPcHRpb248U3RyaW5nPikgLT4gT3B0aW9uPGY2ND4gewogICAgbGV0IHBhcnNlZCA9IHZhbHVlLmFzX3JlZigpPy5wYXJzZTo6PGY2ND4oKS5vaygpPzsKICAgIHBhcnNlZC5pc19maW5pdGUoKS50aGVuX3NvbWUocGFyc2VkKQp9CgpwdWIoc3VwZXIpIGZuIGNvbXB1dGVfY291bnRlcl9kZWx0YShjdXJyZW50X3RvdGFsOiBmNjQsIGxhc3RfdG90YWw6IE9wdGlvbjxmNjQ+KSAtPiBmNjQgewogICAgaWYgIWN1cnJlbnRfdG90YWwuaXNfZmluaXRlKCkgfHwgY3VycmVudF90b3RhbCA8IDAuMCB7CiAgICAgICAgcmV0dXJuIDAuMDsKICAgIH0KICAgIGxldCBTb21lKGxhc3RfdG90YWwpID0gbGFzdF90b3RhbCBlbHNlIHsKICAgICAgICByZXR1cm4gY3VycmVudF90b3RhbDsKICAgIH07CiAgICBpZiAhbGFzdF90b3RhbC5pc19maW5pdGUoKSB8fCBsYXN0X3RvdGFsIDwgMC4wIHsKICAgICAgICByZXR1cm4gY3VycmVudF90b3RhbDsKICAgIH0KICAgIGlmIGN1cnJlbnRfdG90YWwgPj0gbGFzdF90b3RhbCB7CiAgICAgICAgY3VycmVudF90b3RhbCAtIGxhc3RfdG90YWwKICAgIH0gZWxzZSB7CiAgICAgICAgY3VycmVudF90b3RhbAogICAgfQp9CgpwdWIoc3VwZXIpIGZuIGZpbml0ZV9udW1iZXJfc3RyaW5nKHZhbHVlOiBmNjQpIC0+IFN0cmluZyB7CiAgICBpZiAhdmFsdWUuaXNfZmluaXRlKCkgfHwgdmFsdWUgPD0gMC4wIHsKICAgICAgICByZXR1cm4gIjAiLnRvX3N0cmluZygpOwogICAgfQogICAgaWYgdmFsdWUuZnJhY3QoKSA9PSAwLjAgewogICAgICAgIGZvcm1hdCEoInt2YWx1ZTouMH0iKQogICAgfSBlbHNlIHsKICAgICAgICB2YWx1ZS50b19zdHJpbmcoKQogICAgfQp9CgpwdWIoc3VwZXIpIGZuIHRyYWZmaWNfbWVtYmVyKHRzOiBpNjQsIGRlbHRhOiBmNjQpIC0+IFN0cmluZyB7CiAgICBmb3JtYXQhKCJ7dHN9Ont9IiwgZmluaXRlX251bWJlcl9zdHJpbmcoZGVsdGEpKQp9CgpwdWIoc3VwZXIpIGZuIHBhcnNlX3RyYWZmaWNfcG9pbnRzKG1lbWJlcnM6ICZbU3RyaW5nXSkgLT4gVmVjPFRyYWZmaWNEZWx0YVBvaW50PiB7CiAgICBsZXQgbXV0IHBvaW50cyA9IFZlYzo6bmV3KCk7CiAgICBmb3IgbWVtYmVyIGluIG1lbWJlcnMgewogICAgICAgIGxldCBTb21lKCh0cywgZGVsdGEpKSA9IG1lbWJlci5zcGxpdF9vbmNlKCc6JykgZWxzZSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH07CiAgICAgICAgbGV0IE9rKHRzKSA9IHRzLnBhcnNlOjo8aTY0PigpIGVsc2UgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9OwogICAgICAgIGxldCBPayhkZWx0YSkgPSBkZWx0YS5wYXJzZTo6PGY2ND4oKSBlbHNlIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfTsKICAgICAgICBpZiAhZGVsdGEuaXNfZmluaXRlKCkgewogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgcG9pbnRzLnB1c2goVHJhZmZpY0RlbHRhUG9pbnQgeyB0cywgZGVsdGEgfSk7CiAgICB9CiAgICBwb2ludHMKfQoKaW1wbCBTdG9yZSB7CiAgICBwdWIgYXN5bmMgZm4gbGlzdF90cmFmZmljX3BvaW50cygKICAgICAgICAmc2VsZiwKICAgICAgICB1c2VyX2lkOiAmc3RyLAogICAgICAgIGRpcmVjdGlvbjogJnN0ciwKICAgICAgICBmcm9tX3NlYzogaTY0LAogICAgICAgIHRvX3NlYzogaTY0LAogICAgICAgIGhvc3Q6IE9wdGlvbjwmc3RyPiwKICAgICAgICBzdHJlYW06IE9wdGlvbjwmc3RyPiwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8VmVjPFRyYWZmaWNEZWx0YVBvaW50Pj4gewogICAgICAgIGxldCBrZXkgPSB0cmFmZmljX2tleSh1c2VyX2lkLCBkaXJlY3Rpb24sIGhvc3QsIHN0cmVhbSk7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IG1lbWJlcnM6IFZlYzxTdHJpbmc+ID0gY29ubi56cmFuZ2VieXNjb3JlX2FuYWx5dGljcyhrZXksIGZyb21fc2VjLCB0b19zZWMpLmF3YWl0PzsKICAgICAgICBPayhwYXJzZV90cmFmZmljX3BvaW50cygmbWVtYmVycykpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIGxpc3RfZXJyb3I1eHhfcG9pbnRzKAogICAgICAgICZzZWxmLAogICAgICAgIHVzZXJfaWQ6ICZzdHIsCiAgICAgICAgZnJvbV9zZWM6IGk2NCwKICAgICAgICB0b19zZWM6IGk2NCwKICAgICAgICBob3N0OiBPcHRpb248JnN0cj4sCiAgICAgICAgc3RyZWFtOiBPcHRpb248JnN0cj4sCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PFZlYzxUcmFmZmljRGVsdGFQb2ludD4+IHsKICAgICAgICBsZXQga2V5ID0gZXJyb3I1eHhfa2V5KHVzZXJfaWQsIGhvc3QsIHN0cmVhbSk7CiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IG1lbWJlcnM6IFZlYzxTdHJpbmc+ID0gY29ubi56cmFuZ2VieXNjb3JlX2FuYWx5dGljcyhrZXksIGZyb21fc2VjLCB0b19zZWMpLmF3YWl0PzsKICAgICAgICBPayhwYXJzZV90cmFmZmljX3BvaW50cygmbWVtYmVycykpCiAgICB9CgogICAgcHViIGFzeW5jIGZuIHJlY29yZF90cmFmZmljX3NuYXBzaG90KAogICAgICAgICZzZWxmLAogICAgICAgIHVzZXJfaWQ6ICZzdHIsCiAgICAgICAgcmVjb3JkczogJltUcmFmZmljU25hcHNob3RSZWNvcmRdLAogICAgICAgIG5vd19zZWM6IGk2NCwKICAgICAgICBrZWVwX3NlY29uZHM6IGk2NCwKICAgICkgLT4gY3JhdGU6OnN0b3JhZ2U6OlN0b3JhZ2VSZXN1bHQ8KGY2NCwgZjY0LCBmNjQpPiB7CiAgICAgICAgaWYgcmVjb3Jkcy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgcmV0dXJuIE9rKCgwLjAsIDAuMCwgMC4wKSk7CiAgICAgICAgfQoKICAgICAgICBsZXQga2VlcF9zZWNvbmRzID0ga2VlcF9zZWNvbmRzLmNsYW1wKDYwLCAzNjUgKiAyNCAqIDM2MDApOwogICAgICAgIGxldCBleHBpcmVfYmVmb3JlX3NlYyA9IG5vd19zZWMgLSBrZWVwX3NlY29uZHM7CiAgICAgICAgbGV0IG11dCBsYXN0X2tleXMgPSBWZWM6OndpdGhfY2FwYWNpdHkocmVjb3Jkcy5sZW4oKSAqIDMpOwogICAgICAgIGZvciByZWNvcmQgaW4gcmVjb3JkcyB7CiAgICAgICAgICAgIGxhc3Rfa2V5cy5wdXNoKHRyYWZmaWNfbGFzdF90b3RhbF9rZXkoCiAgICAgICAgICAgICAgICB1c2VyX2lkLAogICAgICAgICAgICAgICAgImluIiwKICAgICAgICAgICAgICAgIHJlY29yZC5ob3N0LmFzX2RlcmVmKCksCiAgICAgICAgICAgICAgICByZWNvcmQuc3RyZWFtLmFzX2RlcmVmKCksCiAgICAgICAgICAgICkpOwogICAgICAgICAgICBsYXN0X2tleXMucHVzaCh0cmFmZmljX2xhc3RfdG90YWxfa2V5KAogICAgICAgICAgICAgICAgdXNlcl9pZCwKICAgICAgICAgICAgICAgICJvdXQiLAogICAgICAgICAgICAgICAgcmVjb3JkLmhvc3QuYXNfZGVyZWYoKSwKICAgICAgICAgICAgICAgIHJlY29yZC5zdHJlYW0uYXNfZGVyZWYoKSwKICAgICAgICAgICAgKSk7CiAgICAgICAgICAgIGxhc3Rfa2V5cy5wdXNoKGVycm9yNXh4X2xhc3RfdG90YWxfa2V5KAogICAgICAgICAgICAgICAgdXNlcl9pZCwKICAgICAgICAgICAgICAgIHJlY29yZC5ob3N0LmFzX2RlcmVmKCksCiAgICAgICAgICAgICAgICByZWNvcmQuc3RyZWFtLmFzX2RlcmVmKCksCiAgICAgICAgICAgICkpOwogICAgICAgIH0KCiAgICAgICAgbGV0IG11dCBjb25uID0gc2VsZi5jb25uKCk7CiAgICAgICAgbGV0IGxhc3RfdmFsdWVzOiBWZWM8T3B0aW9uPFN0cmluZz4+ID0gcmVkaXM6OmNtZCgiTUdFVCIpCiAgICAgICAgICAgIC5hcmcobGFzdF9rZXlzKQogICAgICAgICAgICAucXVlcnlfYXN5bmMoJm11dCBjb25uKQogICAgICAgICAgICAuYXdhaXQ/OwoKICAgICAgICBsZXQgbXV0IHBpcGUgPSByZWRpczo6cGlwZSgpOwogICAgICAgIGxldCBtdXQgZ2xvYmFsX2RlbHRhX2luID0gMC4wOwogICAgICAgIGxldCBtdXQgZ2xvYmFsX2RlbHRhX291dCA9IDAuMDsKICAgICAgICBsZXQgbXV0IGdsb2JhbF9kZWx0YV81eHggPSAwLjA7CgogICAgICAgIGZvciAoaW5kZXgsIHJlY29yZCkgaW4gcmVjb3Jkcy5pdGVyKCkuZW51bWVyYXRlKCkgewogICAgICAgICAgICBsZXQgb2Zmc2V0ID0gaW5kZXggKiAzOwogICAgICAgICAgICBsZXQgbGFzdF9pbiA9IGxhc3RfdmFsdWVzLmdldChvZmZzZXQpLmFuZF90aGVuKHBhcnNlX2Zpbml0ZSk7CiAgICAgICAgICAgIGxldCBsYXN0X291dCA9IGxhc3RfdmFsdWVzLmdldChvZmZzZXQgKyAxKS5hbmRfdGhlbihwYXJzZV9maW5pdGUpOwogICAgICAgICAgICBsZXQgbGFzdF81eHggPSBsYXN0X3ZhbHVlcy5nZXQob2Zmc2V0ICsgMikuYW5kX3RoZW4ocGFyc2VfZmluaXRlKTsKICAgICAgICAgICAgbGV0IGRlbHRhX2luID0gY29tcHV0ZV9jb3VudGVyX2RlbHRhKHJlY29yZC50b3RhbF9pbiwgbGFzdF9pbik7CiAgICAgICAgICAgIGxldCBkZWx0YV9vdXQgPSBjb21wdXRlX2NvdW50ZXJfZGVsdGEocmVjb3JkLnRvdGFsX291dCwgbGFzdF9vdXQpOwogICAgICAgICAgICBsZXQgZGVsdGFfNXh4ID0gY29tcHV0ZV9jb3VudGVyX2RlbHRhKHJlY29yZC5lcnJvcl81eHgsIGxhc3RfNXh4KTsKCiAgICAgICAgICAgIGlmIHJlY29yZC5ob3N0LmlzX25vbmUoKSAmJiByZWNvcmQuc3RyZWFtLmlzX25vbmUoKSB7CiAgICAgICAgICAgICAgICBnbG9iYWxfZGVsdGFfaW4gPSBkZWx0YV9pbjsKICAgICAgICAgICAgICAgIGdsb2JhbF9kZWx0YV9vdXQgPSBkZWx0YV9vdXQ7CiAgICAgICAgICAgICAgICBnbG9iYWxfZGVsdGFfNXh4ID0gZGVsdGFfNXh4OwogICAgICAgICAgICB9CgogICAgICAgICAgICBsZXQga2V5X2luID0gdHJhZmZpY19rZXkoCiAgICAgICAgICAgICAgICB1c2VyX2lkLAogICAgICAgICAgICAgICAgImluIiwKICAgICAgICAgICAgICAgIHJlY29yZC5ob3N0LmFzX2RlcmVmKCksCiAgICAgICAgICAgICAgICByZWNvcmQuc3RyZWFtLmFzX2RlcmVmKCksCiAgICAgICAgICAgICk7CiAgICAgICAgICAgIGxldCBrZXlfb3V0ID0gdHJhZmZpY19rZXkoCiAgICAgICAgICAgICAgICB1c2VyX2lkLAogICAgICAgICAgICAgICAgIm91dCIsCiAgICAgICAgICAgICAgICByZWNvcmQuaG9zdC5hc19kZXJlZigpLAogICAgICAgICAgICAgICAgcmVjb3JkLnN0cmVhbS5hc19kZXJlZigpLAogICAgICAgICAgICApOwogICAgICAgICAgICBsZXQga2V5XzV4eCA9IGVycm9yNXh4X2tleSh1c2VyX2lkLCByZWNvcmQuaG9zdC5hc19kZXJlZigpLCByZWNvcmQuc3RyZWFtLmFzX2RlcmVmKCkpOwoKICAgICAgICAgICAgcGlwZS5zZXQoCiAgICAgICAgICAgICAgICB0cmFmZmljX2xhc3RfdG90YWxfa2V5KAogICAgICAgICAgICAgICAgICAgIHVzZXJfaWQsCiAgICAgICAgICAgICAgICAgICAgImluIiwKICAgICAgICAgICAgICAgICAgICByZWNvcmQuaG9zdC5hc19kZXJlZigpLAogICAgICAgICAgICAgICAgICAgIHJlY29yZC5zdHJlYW0uYXNfZGVyZWYoKSwKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBmaW5pdGVfbnVtYmVyX3N0cmluZyhyZWNvcmQudG90YWxfaW4pLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5pZ25vcmUoKTsKICAgICAgICAgICAgcGlwZS5zZXQoCiAgICAgICAgICAgICAgICB0cmFmZmljX2xhc3RfdG90YWxfa2V5KAogICAgICAgICAgICAgICAgICAgIHVzZXJfaWQsCiAgICAgICAgICAgICAgICAgICAgIm91dCIsCiAgICAgICAgICAgICAgICAgICAgcmVjb3JkLmhvc3QuYXNfZGVyZWYoKSwKICAgICAgICAgICAgICAgICAgICByZWNvcmQuc3RyZWFtLmFzX2RlcmVmKCksCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgZmluaXRlX251bWJlcl9zdHJpbmcocmVjb3JkLnRvdGFsX291dCksCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmlnbm9yZSgpOwogICAgICAgICAgICBwaXBlLnNldCgKICAgICAgICAgICAgICAgIGVycm9yNXh4X2xhc3RfdG90YWxfa2V5KHVzZXJfaWQsIHJlY29yZC5ob3N0LmFzX2RlcmVmKCksIHJlY29yZC5zdHJlYW0uYXNfZGVyZWYoKSksCiAgICAgICAgICAgICAgICBmaW5pdGVfbnVtYmVyX3N0cmluZyhyZWNvcmQuZXJyb3JfNXh4KSwKICAgICAgICAgICAgKQogICAgICAgICAgICAuaWdub3JlKCk7CgogICAgICAgICAgICBwaXBlLnphZGQoJmtleV9pbiwgdHJhZmZpY19tZW1iZXIobm93X3NlYywgZGVsdGFfaW4pLCBub3dfc2VjKQogICAgICAgICAgICAgICAgLmlnbm9yZSgpOwogICAgICAgICAgICBwaXBlLnphZGQoJmtleV9vdXQsIHRyYWZmaWNfbWVtYmVyKG5vd19zZWMsIGRlbHRhX291dCksIG5vd19zZWMpCiAgICAgICAgICAgICAgICAuaWdub3JlKCk7CiAgICAgICAgICAgIHBpcGUuemFkZCgma2V5XzV4eCwgdHJhZmZpY19tZW1iZXIobm93X3NlYywgZGVsdGFfNXh4KSwgbm93X3NlYykKICAgICAgICAgICAgICAgIC5pZ25vcmUoKTsKICAgICAgICAgICAgcGlwZS5zYWRkKFRSQUZGSUNfS0VZX0lOREVYLCAma2V5X2luKS5pZ25vcmUoKTsKICAgICAgICAgICAgcGlwZS5zYWRkKFRSQUZGSUNfS0VZX0lOREVYLCAma2V5X291dCkuaWdub3JlKCk7CiAgICAgICAgICAgIHBpcGUuc2FkZChFUlJPUjVYWF9LRVlfSU5ERVgsICZrZXlfNXh4KS5pZ25vcmUoKTsKICAgICAgICAgICAgcGlwZS56cmVtYnlzY29yZSgma2V5X2luLCAwLCBleHBpcmVfYmVmb3JlX3NlYykuaWdub3JlKCk7CiAgICAgICAgICAgIHBpcGUuenJlbWJ5c2NvcmUoJmtleV9vdXQsIDAsIGV4cGlyZV9iZWZvcmVfc2VjKS5pZ25vcmUoKTsKICAgICAgICAgICAgcGlwZS56cmVtYnlzY29yZSgma2V5XzV4eCwgMCwgZXhwaXJlX2JlZm9yZV9zZWMpLmlnbm9yZSgpOwogICAgICAgIH0KCiAgICAgICAgbGV0IF86ICgpID0gcGlwZQogICAgICAgICAgICAucXVlcnlfYXN5bmNfbmFtZWQoJm11dCBjb25uLCAidHJhZmZpYy5zbmFwc2hvdC5wZXJzaXN0IikKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBPaygoZ2xvYmFsX2RlbHRhX2luLCBnbG9iYWxfZGVsdGFfb3V0LCBnbG9iYWxfZGVsdGFfNXh4KSkKICAgIH0KCiAgICBwdWIgYXN5bmMgZm4gY2xlYW51cF90cmFmZmljX21ldHJpY3MoCiAgICAgICAgJnNlbGYsCiAgICAgICAga2VlcF9zZWNvbmRzOiBpNjQsCiAgICApIC0+IGNyYXRlOjpzdG9yYWdlOjpTdG9yYWdlUmVzdWx0PHVzaXplPiB7CiAgICAgICAgbGV0IGtlZXBfc2Vjb25kcyA9IGtlZXBfc2Vjb25kcy5jbGFtcCg2MCwgMzY1ICogMjQgKiAzNjAwKTsKICAgICAgICBsZXQgZXhwaXJlX2JlZm9yZV9zZWMgPSBjaHJvbm9fbGlrZV9ub3dfc2Vjb25kcygpIC0ga2VlcF9zZWNvbmRzOwogICAgICAgIGxldCBtdXQgY29ubiA9IHNlbGYuY29ubigpOwogICAgICAgIGxldCB0cmFmZmljX2tleXM6IFZlYzxTdHJpbmc+ID0gY29ubi5zbWVtYmVycyhUUkFGRklDX0tFWV9JTkRFWCkuYXdhaXQ/OwogICAgICAgIGxldCBlcnJvcl9rZXlzOiBWZWM8U3RyaW5nPiA9IGNvbm4uc21lbWJlcnMoRVJST1I1WFhfS0VZX0lOREVYKS5hd2FpdD87CiAgICAgICAgbGV0IGtleXMgPSB0cmFmZmljX2tleXMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAuY2hhaW4oZXJyb3Jfa2V5cy5pdGVyKCkpCiAgICAgICAgICAgIC5maWx0ZXIofGtleXwgIWtleS50cmltKCkuaXNfZW1wdHkoKSkKICAgICAgICAgICAgLmNsb25lZCgpCiAgICAgICAgICAgIC5jb2xsZWN0Ojo8SGFzaFNldDxfPj4oKQogICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICAgICAgaWYga2V5cy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgcmV0dXJuIE9rKDApOwogICAgICAgIH0KICAgICAgICBsZXQgbXV0IHBpcGUgPSByZWRpczo6cGlwZSgpOwogICAgICAgIGZvciBrZXkgaW4gJmtleXMgewogICAgICAgICAgICBwaXBlLnpyZW1ieXNjb3JlKGtleSwgMCwgZXhwaXJlX2JlZm9yZV9zZWMpLmlnbm9yZSgpOwogICAgICAgIH0KICAgICAgICBsZXQgXzogKCkgPSBwaXBlCiAgICAgICAgICAgIC5xdWVyeV9hc3luY19uYW1lZCgmbXV0IGNvbm4sICJ0cmFmZmljLnJldGVudGlvbi5wcnVuZSIpCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgc2VsZi5jbGVhbnVwX2VtcHR5X3RyYWZmaWNfbWV0cmljX2tleXMoJnRyYWZmaWNfa2V5cywgVFJBRkZJQ19LRVlfSU5ERVgpCiAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgc2VsZi5jbGVhbnVwX2VtcHR5X3RyYWZmaWNfbWV0cmljX2tleXMoJmVycm9yX2tleXMsIEVSUk9SNVhYX0tFWV9JTkRFWCkKICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICBPayhrZXlzLmxlbigpKQogICAgfQoKICAgIGFzeW5jIGZuIGNsZWFudXBfZW1wdHlfdHJhZmZpY19tZXRyaWNfa2V5cygKICAgICAgICAmc2VsZiwKICAgICAgICBrZXlzOiAmW1N0cmluZ10sCiAgICAgICAgaW5kZXhfa2V5OiAmc3RyLAogICAgKSAtPiBjcmF0ZTo6c3RvcmFnZTo6U3RvcmFnZVJlc3VsdDwoKT4gewogICAgICAgIGZvciBjaHVuayBpbiBrZXlzLmNodW5rcygxMDApIHsKICAgICAgICAgICAgbGV0IGtleXMgPSBjaHVuay50b192ZWMoKTsKICAgICAgICAgICAgbGV0IGluZGV4X2tleSA9IGluZGV4X2tleS50b19zdHJpbmcoKTsKICAgICAgICAgICAgc2VsZi5tYW5hZ2VyCiAgICAgICAgICAgICAgICAuY2FsbChtb3ZlIHxjb25ufCB7CiAgICAgICAgICAgICAgICAgICAgbGV0IHR4ID0gY29ubi50cmFuc2FjdGlvbl93aXRoX2JlaGF2aW9yKAogICAgICAgICAgICAgICAgICAgICAgICB0b2tpb19ydXNxbGl0ZTo6cnVzcWxpdGU6OlRyYW5zYWN0aW9uQmVoYXZpb3I6OkltbWVkaWF0ZSwKICAgICAgICAgICAgICAgICAgICApPzsKICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxldCBtdXQgZXhpc3RzID0gdHgucHJlcGFyZV9jYWNoZWQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiU0VMRUNUIEVYSVNUUyhTRUxFQ1QgMSBGUk9NIGt2X3pzZXQgV0hFUkUga2V5ID0gPzEpIiwKICAgICAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICAgICAgICAgIGxldCBtdXQgcmVtb3ZlX2luZGV4ID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR4LnByZXBhcmVfY2FjaGVkKCJERUxFVEUgRlJPTSBrdl9zZXQgV0hFUkUga2V5ID0gPzEgQU5EIG1lbWJlciA9ID8yIik/OwogICAgICAgICAgICAgICAgICAgICAgICBsZXQgbXV0IHJlbW92ZV9rZXkgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHgucHJlcGFyZV9jYWNoZWQoIkRFTEVURSBGUk9NIGt2X2tleXMgV0hFUkUga2V5ID0gPzEiKT87CiAgICAgICAgICAgICAgICAgICAgICAgIGZvciBrZXkgaW4ga2V5cy5pdGVyKCkuZmlsdGVyKHxrZXl8ICFrZXkudHJpbSgpLmlzX2VtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIGV4aXN0cy5xdWVyeV9yb3coW2tleV0sIHxyb3d8IHJvdy5nZXQ6OjxfLCBib29sPigwKSk/IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIENoZWNrIGFuZCByZW1vdmFsIHNoYXJlIGEgdHJhbnNhY3Rpb24sIHNvIGEgbmV3CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBzYW1wbGUgY2Fubm90IGFycml2ZSBiZXR3ZWVuIHRoZW0gYW5kIGJlIGRlbGV0ZWQuCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZW1vdmVfaW5kZXguZXhlY3V0ZShbJmluZGV4X2tleSwga2V5XSk/OwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVtb3ZlX2tleS5leGVjdXRlKFtrZXldKT87CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiBsZXQgU29tZShsYXN0X2tleSkgPSB0cmFmZmljX2xhc3RfdG90YWxfa2V5X2Zvcl9tZXRyaWNfa2V5KGtleSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlbW92ZV9rZXkuZXhlY3V0ZShbJmxhc3Rfa2V5XSk/OwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHR4LmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAgICAgICAgICJERUxFVEUgRlJPTSBrdl9rZXlzIFdIRVJFIGtleSA9ID8xCiAgICAgICAgICAgICAgICAgICAgICAgICBBTkQgTk9UIEVYSVNUUyhTRUxFQ1QgMSBGUk9NIGt2X3NldCBXSEVSRSBrZXkgPSA/MSkiLAogICAgICAgICAgICAgICAgICAgICAgICBbJmluZGV4X2tleV0sCiAgICAgICAgICAgICAgICAgICAgKT87CiAgICAgICAgICAgICAgICAgICAgdHguY29tbWl0KCk/OwogICAgICAgICAgICAgICAgICAgIE9rKCgpKQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC5hd2FpdD87CiAgICAgICAgfQogICAgICAgIE9rKCgpKQogICAgfQp9CgpwdWIoc3VwZXIpIGZuIHRyYWZmaWNfbGFzdF90b3RhbF9rZXlfZm9yX21ldHJpY19rZXkoa2V5OiAmc3RyKSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBsZXQga2V5ID0ga2V5LnRyaW0oKTsKICAgIGlmIGxldCBTb21lKHJlc3QpID0ga2V5LnN0cmlwX3ByZWZpeCgiZm5fa25vY2s6dHJhZmZpYzoiKQogICAgICAgICYmIChyZXN0LmVuZHNfd2l0aCgiOmluIikgfHwgcmVzdC5lbmRzX3dpdGgoIjpvdXQiKSkKICAgIHsKICAgICAgICByZXR1cm4gU29tZShmb3JtYXQhKCJmbl9rbm9jazp0cmFmZmljOmxhc3Q6e3Jlc3R9IikpOwogICAgfQogICAgaWYgbGV0IFNvbWUocmVzdCkgPSBrZXkuc3RyaXBfcHJlZml4KCJmbl9rbm9jazplcnJvcnM6IikKICAgICAgICAmJiByZXN0LmVuZHNfd2l0aCgiOjV4eCIpCiAgICB7CiAgICAgICAgcmV0dXJuIFNvbWUoZm9ybWF0ISgiZm5fa25vY2s6ZXJyb3JzOmxhc3Q6e3Jlc3R9IikpOwogICAgfQogICAgTm9uZQp9Cg==
+use super::*;
+
+pub(super) const TRAFFIC_KEY_INDEX: &str = "fn_knock:traffic:keys";
+pub(super) const ERROR5XX_KEY_INDEX: &str = "fn_knock:errors:5xx:keys";
+pub(super) fn traffic_scope_segment(
+    user_id: &str,
+    host: Option<&str>,
+    stream: Option<&str>,
+) -> String {
+    let host = host.map(str::trim).filter(|value| !value.is_empty());
+    let stream = stream.map(str::trim).filter(|value| !value.is_empty());
+    match (host, stream) {
+        (Some(host), _) => {
+            let encoded = crate::http_utils::url_encode_component(host);
+            format!("{user_id}:host:{encoded}")
+        }
+        (None, Some(stream)) => {
+            let encoded = crate::http_utils::url_encode_component(stream);
+            format!("{user_id}:stream:{encoded}")
+        }
+        (None, None) => user_id.to_string(),
+    }
+}
+
+pub(super) fn traffic_key(
+    user_id: &str,
+    direction: &str,
+    host: Option<&str>,
+    stream: Option<&str>,
+) -> String {
+    format!(
+        "fn_knock:traffic:{}:{}",
+        traffic_scope_segment(user_id, host, stream),
+        direction
+    )
+}
+
+pub(super) fn traffic_last_total_key(
+    user_id: &str,
+    direction: &str,
+    host: Option<&str>,
+    stream: Option<&str>,
+) -> String {
+    format!(
+        "fn_knock:traffic:last:{}:{}",
+        traffic_scope_segment(user_id, host, stream),
+        direction
+    )
+}
+
+pub(super) fn error5xx_key(user_id: &str, host: Option<&str>, stream: Option<&str>) -> String {
+    format!(
+        "fn_knock:errors:{}:5xx",
+        traffic_scope_segment(user_id, host, stream)
+    )
+}
+
+pub(super) fn error5xx_last_total_key(
+    user_id: &str,
+    host: Option<&str>,
+    stream: Option<&str>,
+) -> String {
+    format!(
+        "fn_knock:errors:last:{}:5xx",
+        traffic_scope_segment(user_id, host, stream)
+    )
+}
+
+pub(super) fn chrono_like_now_seconds() -> i64 {
+    std::time::SystemTime::now()
+        .duration_since(std::time::UNIX_EPOCH)
+        .map(|duration| duration.as_secs() as i64)
+        .unwrap_or_default()
+}
+
+pub(super) fn parse_finite(value: &Option<String>) -> Option<f64> {
+    let parsed = value.as_ref()?.parse::<f64>().ok()?;
+    parsed.is_finite().then_some(parsed)
+}
+
+pub(super) fn compute_counter_delta(current_total: f64, last_total: Option<f64>) -> f64 {
+    if !current_total.is_finite() || current_total < 0.0 {
+        return 0.0;
+    }
+    let Some(last_total) = last_total else {
+        return current_total;
+    };
+    if !last_total.is_finite() || last_total < 0.0 {
+        return current_total;
+    }
+    if current_total >= last_total {
+        current_total - last_total
+    } else {
+        current_total
+    }
+}
+
+pub(super) fn finite_number_string(value: f64) -> String {
+    if !value.is_finite() || value <= 0.0 {
+        return "0".to_string();
+    }
+    if value.fract() == 0.0 {
+        format!("{value:.0}")
+    } else {
+        value.to_string()
+    }
+}
+
+pub(super) fn traffic_member(ts: i64, delta: f64) -> String {
+    format!("{ts}:{}", finite_number_string(delta))
+}
+
+pub(super) fn parse_traffic_points(members: &[String]) -> Vec<TrafficDeltaPoint> {
+    let mut points = Vec::new();
+    for member in members {
+        let Some((ts, delta)) = member.split_once(':') else {
+            continue;
+        };
+        let Ok(ts) = ts.parse::<i64>() else {
+            continue;
+        };
+        let Ok(delta) = delta.parse::<f64>() else {
+            continue;
+        };
+        if !delta.is_finite() {
+            continue;
+        }
+        points.push(TrafficDeltaPoint { ts, delta });
+    }
+    points
+}
+
+impl Store {
+    pub async fn list_traffic_points(
+        &self,
+        user_id: &str,
+        direction: &str,
+        from_sec: i64,
+        to_sec: i64,
+        host: Option<&str>,
+        stream: Option<&str>,
+    ) -> crate::storage::StorageResult<Vec<TrafficDeltaPoint>> {
+        let key = traffic_key(user_id, direction, host, stream);
+        let mut conn = self.conn();
+        let members: Vec<String> = conn.zrangebyscore_analytics(key, from_sec, to_sec).await?;
+        Ok(parse_traffic_points(&members))
+    }
+
+    pub async fn list_error5xx_points(
+        &self,
+        user_id: &str,
+        from_sec: i64,
+        to_sec: i64,
+        host: Option<&str>,
+        stream: Option<&str>,
+    ) -> crate::storage::StorageResult<Vec<TrafficDeltaPoint>> {
+        let key = error5xx_key(user_id, host, stream);
+        let mut conn = self.conn();
+        let members: Vec<String> = conn.zrangebyscore_analytics(key, from_sec, to_sec).await?;
+        Ok(parse_traffic_points(&members))
+    }
+
+    pub async fn record_traffic_snapshot(
+        &self,
+        user_id: &str,
+        records: &[TrafficSnapshotRecord],
+        now_sec: i64,
+        keep_seconds: i64,
+    ) -> crate::storage::StorageResult<(f64, f64, f64)> {
+        if records.is_empty() {
+            return Ok((0.0, 0.0, 0.0));
+        }
+
+        let keep_seconds = keep_seconds.clamp(60, 365 * 24 * 3600);
+        let expire_before_sec = now_sec - keep_seconds;
+        let mut last_keys = Vec::with_capacity(records.len() * 3);
+        for record in records {
+            last_keys.push(traffic_last_total_key(
+                user_id,
+                "in",
+                record.host.as_deref(),
+                record.stream.as_deref(),
+            ));
+            last_keys.push(traffic_last_total_key(
+                user_id,
+                "out",
+                record.host.as_deref(),
+                record.stream.as_deref(),
+            ));
+            last_keys.push(error5xx_last_total_key(
+                user_id,
+                record.host.as_deref(),
+                record.stream.as_deref(),
+            ));
+        }
+
+        let mut conn = self.conn();
+        let last_values: Vec<Option<String>> = redis::cmd("MGET")
+            .arg(last_keys)
+            .query_async(&mut conn)
+            .await?;
+
+        let mut pipe = redis::pipe();
+        let mut global_delta_in = 0.0;
+        let mut global_delta_out = 0.0;
+        let mut global_delta_5xx = 0.0;
+
+        for (index, record) in records.iter().enumerate() {
+            let offset = index * 3;
+            let last_in = last_values.get(offset).and_then(parse_finite);
+            let last_out = last_values.get(offset + 1).and_then(parse_finite);
+            let last_5xx = last_values.get(offset + 2).and_then(parse_finite);
+            let delta_in = compute_counter_delta(record.total_in, last_in);
+            let delta_out = compute_counter_delta(record.total_out, last_out);
+            let delta_5xx = compute_counter_delta(record.error_5xx, last_5xx);
+
+            if record.host.is_none() && record.stream.is_none() {
+                global_delta_in = delta_in;
+                global_delta_out = delta_out;
+                global_delta_5xx = delta_5xx;
+            }
+
+            let key_in = traffic_key(
+                user_id,
+                "in",
+                record.host.as_deref(),
+                record.stream.as_deref(),
+            );
+            let key_out = traffic_key(
+                user_id,
+                "out",
+                record.host.as_deref(),
+                record.stream.as_deref(),
+            );
+            let key_5xx = error5xx_key(user_id, record.host.as_deref(), record.stream.as_deref());
+
+            pipe.set(
+                traffic_last_total_key(
+                    user_id,
+                    "in",
+                    record.host.as_deref(),
+                    record.stream.as_deref(),
+                ),
+                finite_number_string(record.total_in),
+            )
+            .ignore();
+            pipe.set(
+                traffic_last_total_key(
+                    user_id,
+                    "out",
+                    record.host.as_deref(),
+                    record.stream.as_deref(),
+                ),
+                finite_number_string(record.total_out),
+            )
+            .ignore();
+            pipe.set(
+                error5xx_last_total_key(user_id, record.host.as_deref(), record.stream.as_deref()),
+                finite_number_string(record.error_5xx),
+            )
+            .ignore();
+
+            pipe.zadd(&key_in, traffic_member(now_sec, delta_in), now_sec)
+                .ignore();
+            pipe.zadd(&key_out, traffic_member(now_sec, delta_out), now_sec)
+                .ignore();
+            pipe.zadd(&key_5xx, traffic_member(now_sec, delta_5xx), now_sec)
+                .ignore();
+            pipe.sadd(TRAFFIC_KEY_INDEX, &key_in).ignore();
+            pipe.sadd(TRAFFIC_KEY_INDEX, &key_out).ignore();
+            pipe.sadd(ERROR5XX_KEY_INDEX, &key_5xx).ignore();
+            pipe.zrembyscore(&key_in, 0, expire_before_sec).ignore();
+            pipe.zrembyscore(&key_out, 0, expire_before_sec).ignore();
+            pipe.zrembyscore(&key_5xx, 0, expire_before_sec).ignore();
+        }
+
+        let _: () = pipe
+            .query_async_named(&mut conn, "traffic.snapshot.persist")
+            .await?;
+        Ok((global_delta_in, global_delta_out, global_delta_5xx))
+    }
+
+    pub async fn cleanup_traffic_metrics(
+        &self,
+        keep_seconds: i64,
+    ) -> crate::storage::StorageResult<usize> {
+        let keep_seconds = keep_seconds.clamp(60, 365 * 24 * 3600);
+        let expire_before_sec = chrono_like_now_seconds() - keep_seconds;
+        let mut conn = self.conn();
+        let traffic_keys: Vec<String> = conn.smembers(TRAFFIC_KEY_INDEX).await?;
+        let error_keys: Vec<String> = conn.smembers(ERROR5XX_KEY_INDEX).await?;
+        let keys = traffic_keys
+            .iter()
+            .chain(error_keys.iter())
+            .filter(|key| !key.trim().is_empty())
+            .cloned()
+            .collect::<HashSet<_>>()
+            .into_iter()
+            .collect::<Vec<_>>();
+        if keys.is_empty() {
+            return Ok(0);
+        }
+        let mut pipe = redis::pipe();
+        for key in &keys {
+            pipe.zrembyscore(key, 0, expire_before_sec).ignore();
+        }
+        let _: () = pipe
+            .query_async_named(&mut conn, "traffic.retention.prune")
+            .await?;
+        self.cleanup_empty_traffic_metric_keys(&traffic_keys, TRAFFIC_KEY_INDEX)
+            .await?;
+        self.cleanup_empty_traffic_metric_keys(&error_keys, ERROR5XX_KEY_INDEX)
+            .await?;
+        Ok(keys.len())
+    }
+
+    async fn cleanup_empty_traffic_metric_keys(
+        &self,
+        keys: &[String],
+        index_key: &str,
+    ) -> crate::storage::StorageResult<()> {
+        for chunk in keys.chunks(100) {
+            let keys = chunk.to_vec();
+            let index_key = index_key.to_string();
+            self.manager
+                .call(move |conn| {
+                    let tx = conn.transaction_with_behavior(
+                        tokio_rusqlite::rusqlite::TransactionBehavior::Immediate,
+                    )?;
+                    {
+                        let mut exists = tx.prepare_cached(
+                            "SELECT EXISTS(SELECT 1 FROM kv_zset WHERE key = ?1)",
+                        )?;
+                        let mut remove_index =
+                            tx.prepare_cached("DELETE FROM kv_set WHERE key = ?1 AND member = ?2")?;
+                        let mut remove_key =
+                            tx.prepare_cached("DELETE FROM kv_keys WHERE key = ?1")?;
+                        for key in keys.iter().filter(|key| !key.trim().is_empty()) {
+                            if exists.query_row([key], |row| row.get::<_, bool>(0))? {
+                                continue;
+                            }
+                            // Check and removal share a transaction, so a new
+                            // sample cannot arrive between them and be deleted.
+                            remove_index.execute([&index_key, key])?;
+                            remove_key.execute([key])?;
+                            if let Some(last_key) = traffic_last_total_key_for_metric_key(key) {
+                                remove_key.execute([&last_key])?;
+                            }
+                        }
+                    }
+                    tx.execute(
+                        "DELETE FROM kv_keys WHERE key = ?1
+                         AND NOT EXISTS(SELECT 1 FROM kv_set WHERE key = ?1)",
+                        [&index_key],
+                    )?;
+                    tx.commit()?;
+                    Ok(())
+                })
+                .await?;
+        }
+        Ok(())
+    }
+}
+
+pub(super) fn traffic_last_total_key_for_metric_key(key: &str) -> Option<String> {
+    let key = key.trim();
+    if let Some(rest) = key.strip_prefix("fn_knock:traffic:")
+        && (rest.ends_with(":in") || rest.ends_with(":out"))
+    {
+        return Some(format!("fn_knock:traffic:last:{rest}"));
+    }
+    if let Some(rest) = key.strip_prefix("fn_knock:errors:")
+        && rest.ends_with(":5xx")
+    {
+        return Some(format!("fn_knock:errors:last:{rest}"));
+    }
+    None
+}

@@ -1,1 +1,43 @@
-Ly8hIFByaXZhdGUgY3JlZGVudGlhbCBBQ0xzIHNoYXJlZCBieSBsb2NhbCBzZWNyZXQgc3RvcmVzLgp1c2Ugc3RkOjpwYXRoOjp7UGF0aCwgUGF0aEJ1Zn07CgpwdWIoY3JhdGUpIGZuIHNlY3VyZV93aW5kb3dzX3BhdGgocGF0aDogJlBhdGgsIGRpcmVjdG9yeTogYm9vbCkgLT4gUmVzdWx0PCgpLCBTdHJpbmc+IHsKICAgIHVzZSBzdGQ6OnByb2Nlc3M6OntDb21tYW5kLCBTdGRpb307CgogICAgbGV0IHN5c3RlbV9yb290ID0gc3RkOjplbnY6OnZhcl9vcygiU3lzdGVtUm9vdCIpLnVud3JhcF9vcl9lbHNlKHx8IHIiQzpcV2luZG93cyIuaW50bygpKTsKICAgIGxldCBpY2FjbHMgPSBQYXRoQnVmOjpmcm9tKHN5c3RlbV9yb290KQogICAgICAgIC5qb2luKCJTeXN0ZW0zMiIpCiAgICAgICAgLmpvaW4oImljYWNscy5leGUiKTsKICAgIGlmICFpY2FjbHMuaXNfZmlsZSgpIHsKICAgICAgICByZXR1cm4gRXJyKGZvcm1hdCEoCiAgICAgICAgICAgICJyZXF1aXJlZCBXaW5kb3dzIEFDTCB0b29sIGlzIG1pc3Npbmc6IHt9IiwKICAgICAgICAgICAgaWNhY2xzLmRpc3BsYXkoKQogICAgICAgICkpOwogICAgfQogICAgbGV0IGdyYW50czogJlsmc3RyXSA9IGlmIGRpcmVjdG9yeSB7CiAgICAgICAgJlsKICAgICAgICAgICAgIipTLTEtNS0xODpGIiwKICAgICAgICAgICAgIipTLTEtNS0xODooT0kpKENJKUYiLAogICAgICAgICAgICAiKlMtMS01LTMyLTU0NDpGIiwKICAgICAgICAgICAgIipTLTEtNS0zMi01NDQ6KE9JKShDSSlGIiwKICAgICAgICAgICAgciJOVCBTRVJWSUNFXEZuS25vY2s6TSIsCiAgICAgICAgICAgIHIiTlQgU0VSVklDRVxGbktub2NrOihPSSkoQ0kpTSIsCiAgICAgICAgXQogICAgfSBlbHNlIHsKICAgICAgICAmWyIqUy0xLTUtMTg6RiIsICIqUy0xLTUtMzItNTQ0OkYiLCByIk5UIFNFUlZJQ0VcRm5Lbm9jazpNIl0KICAgIH07CiAgICBsZXQgc3RhdHVzID0gQ29tbWFuZDo6bmV3KGljYWNscykKICAgICAgICAuYXJnKHBhdGgpCiAgICAgICAgLmFyZ3MoWyIvaW5oZXJpdGFuY2U6ciIsICIvZ3JhbnQ6ciJdKQogICAgICAgIC5hcmdzKGdyYW50cykKICAgICAgICAuYXJncyhbIi9MIiwgIi9RIl0pCiAgICAgICAgLnN0ZGluKFN0ZGlvOjpudWxsKCkpCiAgICAgICAgLnN0ZG91dChTdGRpbzo6bnVsbCgpKQogICAgICAgIC5zdGRlcnIoU3RkaW86Om51bGwoKSkKICAgICAgICAuc3RhdHVzKCkKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IGVycm9yLnRvX3N0cmluZygpKT87CiAgICBpZiAhc3RhdHVzLnN1Y2Nlc3MoKSB7CiAgICAgICAgcmV0dXJuIEVycihmb3JtYXQhKCJpY2FjbHMuZXhlIGZhaWxlZCB3aXRoIHtzdGF0dXN9IikpOwogICAgfQogICAgT2soKCkpCn0K
+//! Private credential ACLs shared by local secret stores.
+use std::path::{Path, PathBuf};
+
+pub(crate) fn secure_windows_path(path: &Path, directory: bool) -> Result<(), String> {
+    use std::process::{Command, Stdio};
+
+    let system_root = std::env::var_os("SystemRoot").unwrap_or_else(|| r"C:\Windows".into());
+    let icacls = PathBuf::from(system_root)
+        .join("System32")
+        .join("icacls.exe");
+    if !icacls.is_file() {
+        return Err(format!(
+            "required Windows ACL tool is missing: {}",
+            icacls.display()
+        ));
+    }
+    let grants: &[&str] = if directory {
+        &[
+            "*S-1-5-18:F",
+            "*S-1-5-18:(OI)(CI)F",
+            "*S-1-5-32-544:F",
+            "*S-1-5-32-544:(OI)(CI)F",
+            r"NT SERVICE\FnKnock:M",
+            r"NT SERVICE\FnKnock:(OI)(CI)M",
+        ]
+    } else {
+        &["*S-1-5-18:F", "*S-1-5-32-544:F", r"NT SERVICE\FnKnock:M"]
+    };
+    let status = Command::new(icacls)
+        .arg(path)
+        .args(["/inheritance:r", "/grant:r"])
+        .args(grants)
+        .args(["/L", "/Q"])
+        .stdin(Stdio::null())
+        .stdout(Stdio::null())
+        .stderr(Stdio::null())
+        .status()
+        .map_err(|error| error.to_string())?;
+    if !status.success() {
+        return Err(format!("icacls.exe failed with {status}"));
+    }
+    Ok(())
+}

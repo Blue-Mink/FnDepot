@@ -1,1 +1,154 @@
-dXNlIHN1cGVyOjoqOwoKcHViKHN1cGVyKSBjb25zdCBDT05GSUdfS0VZOiAmc3RyID0gImZuX2tub2NrOmNvbmZpZyI7CnB1YihzdXBlcikgY29uc3QgSE9TVF9NQVBQSU5HU19HRU5FUkFUSU9OX0tFWTogJnN0ciA9ICJmbl9rbm9jazpjb25maWc6aG9zdF9tYXBwaW5nczpnZW5lcmF0aW9uIjsKcHViKGNyYXRlKSBjb25zdCBDT05GSUdfR0VORVJBVElPTl9NQVJLRVI6ICZzdHIgPSAiX19mbl9rbm9ja19pbnRlcm5hbF9ob3N0X21hcHBpbmdzX2dlbmVyYXRpb24iOwoKcHViKGNyYXRlKSBmbiBzdHJpcF9pbnRlcm5hbF9jb25maWdfbWV0YWRhdGEoY29uZmlnOiAmbXV0IFZhbHVlKSB7CiAgICBpZiBsZXQgU29tZShvYmplY3QpID0gY29uZmlnLmFzX29iamVjdF9tdXQoKSB7CiAgICAgICAgb2JqZWN0LnJlbW92ZShDT05GSUdfR0VORVJBVElPTl9NQVJLRVIpOwogICAgfQp9CgpwdWIoY3JhdGUpIGZuIHJlZmVyZW5jZWRfaG9zdF9pcHNldF9wb2xpY3lfaWRzPCdhPigKICAgIG1hcHBpbmdzOiBpbXBsIEludG9JdGVyYXRvcjxJdGVtID0gJidhIFZhbHVlPiwKKSAtPiBCVHJlZVNldDxTdHJpbmc+IHsKICAgIGxldCBtdXQgcmVmZXJlbmNlZCA9IEJUcmVlU2V0OjpuZXcoKTsKICAgIGZvciBtYXBwaW5nIGluIG1hcHBpbmdzIHsKICAgICAgICBpZiBsZXQgU29tZShpZCkgPSBtYXBwaW5nCiAgICAgICAgICAgIC5wb2ludGVyKCIvdmlzaWJpbGl0eS9wb2xpY3lfaWQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICB7CiAgICAgICAgICAgIHJlZmVyZW5jZWQuaW5zZXJ0KGlkLnRvX3N0cmluZygpKTsKICAgICAgICB9CiAgICAgICAgZm9yIGNvbmRpdGlvbiBpbiBtYXBwaW5nCiAgICAgICAgICAgIC5wb2ludGVyKCIvYWR2YW5jZWRfYXV0aC9ncm91cHMiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgLmZsYXR0ZW4oKQogICAgICAgICAgICAuZmlsdGVyX21hcCh8Z3JvdXB8IGdyb3VwLmdldCgiY29uZGl0aW9ucyIpLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkpCiAgICAgICAgICAgIC5mbGF0dGVuKCkKICAgICAgICB7CiAgICAgICAgICAgIGlmIGxldCBTb21lKGlkKSA9IGNvbmRpdGlvbgogICAgICAgICAgICAgICAgLmdldCgicG9saWN5X2lkIikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHJlZmVyZW5jZWQuaW5zZXJ0KGlkLnRvX3N0cmluZygpKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIHJlZmVyZW5jZWQKfQoKI1tkZXJpdmUoQ2xvbmUpXQpwdWIgc3RydWN0IFN0b3JlIHsKICAgIHB1YihzdXBlcikgbWFuYWdlcjogQ29ubmVjdGlvbk1hbmFnZXIsCiAgICBwdWIoc3VwZXIpIHBhdGg6IFBhdGhCdWYsCiAgICBwdWIoc3VwZXIpIGNvbmZpZ19zbmFwc2hvdDogQXJjPEFyY1N3YXA8VmFsdWU+PiwKICAgIHB1YihzdXBlcikgY29uZmlnX3NuYXBzaG90X3JldmlzaW9uOiBBcmM8U3RkTXV0ZXg8dTY0Pj4sCiAgICBwdWIoc3VwZXIpIGNvbmZpZ19zbmFwc2hvdF91cGRhdGVzOiB0b2tpbzo6c3luYzo6d2F0Y2g6OlNlbmRlcjx1NjQ+LAogICAgcHViKGNyYXRlKSBhdXRoX2FjY291bnRfbXV0YXRpb25fbG9jazogQXJjPHRva2lvOjpzeW5jOjpNdXRleDwoKT4+LAogICAgcHViKHN1cGVyKSB0eXBlZDogVHlwZWRSZXBvc2l0b3JpZXMsCiAgICBwdWIoc3VwZXIpIHR5cGVkX2NvbmZpZ19wcmltYXJ5X2Jvb3RzdHJhcHBlZDogQXJjPEF0b21pY0Jvb2w+LAogICAgcHViKHN1cGVyKSB0eXBlZF9jb25maWdfc2hhZG93OiBTaGFkb3dUcmFja2VyLAogICAgcHViKHN1cGVyKSB0eXBlZF9kb2NrZXJfYWRtaW5fc2hhZG93OiBTaGFkb3dUcmFja2VyLAogICAgcHViKHN1cGVyKSB0eXBlZF9ldmVudF9kZWR1cGVfc2hhZG93OiBTaGFkb3dUcmFja2VyLAogICAgcHViKHN1cGVyKSB0eXBlZF9ldmVudHNfc2hhZG93OiBTaGFkb3dUcmFja2VyLAogICAgcHViKHN1cGVyKSB0eXBlZF9mbm9zX3NoYXJlX3NoYWRvdzogU2hhZG93VHJhY2tlciwKICAgIHB1YihzdXBlcikgdHlwZWRfaG1hY19ub25jZV9zaGFkb3c6IFNoYWRvd1RyYWNrZXIsCiAgICBwdWIoc3VwZXIpIHR5cGVkX2lkZW50aXR5X3J1bnRpbWVfc2hhZG93OiBTaGFkb3dUcmFja2VyLAogICAgcHViKHN1cGVyKSB0eXBlZF9sb2dpbl9iYWNrb2ZmX3NoYWRvdzogU2hhZG93VHJhY2tlciwKICAgIHB1YihzdXBlcikgdHlwZWRfbW9iaWxpdHlfc2hhZG93OiBTaGFkb3dUcmFja2VyLAogICAgcHViKHN1cGVyKSB0eXBlZF9ub3RpZmljYXRpb25fcnVudGltZV9zaGFkb3c6IFNoYWRvd1RyYWNrZXIsCiAgICBwdWIoc3VwZXIpIHR5cGVkX3Bhc3NrZXlfcnVudGltZV9zaGFkb3c6IFNoYWRvd1RyYWNrZXIsCiAgICBwdWIoc3VwZXIpIHR5cGVkX3N1YmRvbWFpbl9ncmFudF9zaGFkb3c6IFNoYWRvd1RyYWNrZXIsCiAgICBwdWIoc3VwZXIpIHR5cGVkX3N1YmRvbWFpbl9yYXRlX2xpbWl0X3NoYWRvdzogU2hhZG93VHJhY2tlciwKICAgIHB1YihzdXBlcikgdHlwZWRfd2hpdGVsaXN0X3NoYWRvdzogU2hhZG93VHJhY2tlciwKICAgIHB1YihzdXBlcikgdHlwZWRfd2hpdGVsaXN0X3J1bnRpbWVfc2hhZG93OiBTaGFkb3dUcmFja2VyLAogICAgcHViKHN1cGVyKSB0eXBlZF93b2xfY29vbGRvd25fc2hhZG93OiBTaGFkb3dUcmFja2VyLAp9CgojW2Rlcml2ZShDbG9uZSldCnB1YihzdXBlcikgc3RydWN0IFR5cGVkUmVwb3NpdG9yaWVzIHsKICAgIHB1YihzdXBlcikgdHlwZWRfY29uZmlnOiBUeXBlZENvbmZpZ1JlcG9zaXRvcnksCiAgICBwdWIoc3VwZXIpIHR5cGVkX2RvY2tlcl9hZG1pbjogVHlwZWREb2NrZXJBZG1pblJlcG9zaXRvcnksCiAgICBwdWIoc3VwZXIpIHR5cGVkX2V2ZW50X2RlZHVwZTogVHlwZWRFdmVudERlZHVwZVJlcG9zaXRvcnksCiAgICBwdWIoc3VwZXIpIHR5cGVkX2V2ZW50czogVHlwZWRFdmVudFJlcG9zaXRvcnksCiAgICBwdWIoc3VwZXIpIHR5cGVkX2Zub3Nfc2hhcmU6IFR5cGVkRm5vc1NoYXJlUmVwb3NpdG9yeSwKICAgIHB1YihzdXBlcikgdHlwZWRfaG1hY19ub25jZTogVHlwZWRIbWFjTm9uY2VSZXBvc2l0b3J5LAogICAgcHViKHN1cGVyKSB0eXBlZF9pZGVudGl0eV9ydW50aW1lOiBUeXBlZElkZW50aXR5UnVudGltZVJlcG9zaXRvcnksCiAgICBwdWIoc3VwZXIpIHR5cGVkX2xvZ2luX2JhY2tvZmY6IFR5cGVkTG9naW5CYWNrb2ZmUmVwb3NpdG9yeSwKICAgIHB1YihzdXBlcikgdHlwZWRfbW9iaWxpdHk6IFR5cGVkTW9iaWxpdHlSZXBvc2l0b3J5LAogICAgcHViKHN1cGVyKSB0eXBlZF9ub3RpZmljYXRpb25fcnVudGltZTogVHlwZWROb3RpZmljYXRpb25SdW50aW1lUmVwb3NpdG9yeSwKICAgIHB1YihzdXBlcikgdHlwZWRfbm90aWZpY2F0aW9uczogVHlwZWROb3RpZmljYXRpb25SZXBvc2l0b3J5LAogICAgcHViKHN1cGVyKSB0eXBlZF9wYXNza2V5X3J1bnRpbWU6IFR5cGVkUGFzc2tleVJ1bnRpbWVSZXBvc2l0b3J5LAogICAgcHViKHN1cGVyKSB0eXBlZF9zdWJkb21haW5fZ3JhbnQ6IFR5cGVkU3ViZG9tYWluR3JhbnRSZXBvc2l0b3J5LAogICAgcHViKHN1cGVyKSB0eXBlZF9zdWJkb21haW5fcmF0ZV9saW1pdDogVHlwZWRTdWJkb21haW5SYXRlTGltaXRSZXBvc2l0b3J5LAogICAgcHViKHN1cGVyKSB0eXBlZF93aGl0ZWxpc3Q6IFR5cGVkV2hpdGVsaXN0UmVwb3NpdG9yeSwKICAgIHB1YihzdXBlcikgdHlwZWRfd2hpdGVsaXN0X3J1bnRpbWU6IFR5cGVkV2hpdGVsaXN0UnVudGltZVJlcG9zaXRvcnksCiAgICBwdWIoc3VwZXIpIHR5cGVkX3dvbF9jb29sZG93bjogVHlwZWRXb2xDb29sZG93blJlcG9zaXRvcnksCn0KCiNbZGVyaXZlKENsb25lKV0KcHViKHN1cGVyKSBzdHJ1Y3QgU2hhZG93VHJhY2tlciB7CiAgICBwaGFzZTogJidzdGF0aWMgc3RyLAogICAgaGVhbHRoeTogQXJjPEF0b21pY0Jvb2w+LAogICAgbWlzbWF0Y2hlczogQXJjPEF0b21pY1U2ND4sCn0KCmltcGwgU2hhZG93VHJhY2tlciB7CiAgICBwdWIoc3VwZXIpIGZuIG5ldyhwaGFzZTogJidzdGF0aWMgc3RyKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsKICAgICAgICAgICAgcGhhc2UsCiAgICAgICAgICAgIGhlYWx0aHk6IEFyYzo6bmV3KEF0b21pY0Jvb2w6Om5ldyh0cnVlKSksCiAgICAgICAgICAgIG1pc21hdGNoZXM6IEFyYzo6bmV3KEF0b21pY1U2NDo6bmV3KDApKSwKICAgICAgICB9CiAgICB9CgogICAgcHViKHN1cGVyKSBmbiBzdGF0dXMoJnNlbGYpIC0+IFR5cGVkQ29uZmlnU2hhZG93U3RhdHVzIHsKICAgICAgICBUeXBlZENvbmZpZ1NoYWRvd1N0YXR1cyB7CiAgICAgICAgICAgIHBoYXNlOiBzZWxmLnBoYXNlLAogICAgICAgICAgICBoZWFsdGh5OiBzZWxmLmhlYWx0aHkubG9hZChBdG9taWNPcmRlcmluZzo6QWNxdWlyZSksCiAgICAgICAgICAgIG1pc21hdGNoX2NvdW50OiBzZWxmLm1pc21hdGNoZXMubG9hZChBdG9taWNPcmRlcmluZzo6QWNxdWlyZSksCiAgICAgICAgfQogICAgfQoKICAgIHB1YihzdXBlcikgZm4gbWFya19oZWFsdGh5KCZzZWxmKSAtPiBib29sIHsKICAgICAgICAhc2VsZi5oZWFsdGh5LnN3YXAodHJ1ZSwgQXRvbWljT3JkZXJpbmc6OkFjcVJlbCkKICAgIH0KCiAgICBwdWIoc3VwZXIpIGZuIHNldF9oZWFsdGh5KCZzZWxmKSB7CiAgICAgICAgc2VsZi5oZWFsdGh5LnN0b3JlKHRydWUsIEF0b21pY09yZGVyaW5nOjpSZWxlYXNlKTsKICAgIH0KCiAgICBwdWIoc3VwZXIpIGZuIG1hcmtfbWlzbWF0Y2goJnNlbGYpIC0+IGJvb2wgewogICAgICAgIHNlbGYubWlzbWF0Y2hlcy5mZXRjaF9hZGQoMSwgQXRvbWljT3JkZXJpbmc6OlJlbGF4ZWQpOwogICAgICAgIHNlbGYuaGVhbHRoeS5zd2FwKGZhbHNlLCBBdG9taWNPcmRlcmluZzo6QWNxUmVsKQogICAgfQoKICAgICNbY2ZnKHRlc3QpXQogICAgcHViKHN1cGVyKSBmbiBtaXNtYXRjaF9jb3VudCgmc2VsZikgLT4gdTY0IHsKICAgICAgICBzZWxmLm1pc21hdGNoZXMubG9hZChBdG9taWNPcmRlcmluZzo6QWNxdWlyZSkKICAgIH0KfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBTZXJpYWxpemUpXQpwdWIoY3JhdGUpIHN0cnVjdCBUeXBlZENvbmZpZ1NoYWRvd1N0YXR1cyB7CiAgICBwdWIoY3JhdGUpIHBoYXNlOiAmJ3N0YXRpYyBzdHIsCiAgICBwdWIoY3JhdGUpIGhlYWx0aHk6IGJvb2wsCiAgICBwdWIoY3JhdGUpIG1pc21hdGNoX2NvdW50OiB1NjQsCn0KCiNbZGVyaXZlKENsb25lLCBEZWJ1ZywgU2VyaWFsaXplLCBEZXNlcmlhbGl6ZSldCnB1YihzdXBlcikgc3RydWN0IExvZ2luQmFja29mZkF0dGVtcHRTdGF0ZSB7CiAgICBwdWIoc3VwZXIpIGlwOiBTdHJpbmcsCiAgICBwdWIoc3VwZXIpIGF0dGVtcHRzOiBpNjQsCiAgICAjW3NlcmRlKGRlZmF1bHQsIHJlbmFtZSA9ICJsYXN0QXR0ZW1wdCIpXQogICAgcHViKHN1cGVyKSBsYXN0X2F0dGVtcHQ6IGk2NCwKICAgICNbc2VyZGUoZGVmYXVsdCwgcmVuYW1lID0gImJsb2NrZWRVbnRpbCIpXQogICAgcHViKHN1cGVyKSBibG9ja2VkX3VudGlsOiBPcHRpb248aTY0PiwKfQo=
+use super::*;
+
+pub(super) const CONFIG_KEY: &str = "fn_knock:config";
+pub(super) const HOST_MAPPINGS_GENERATION_KEY: &str = "fn_knock:config:host_mappings:generation";
+pub(crate) const CONFIG_GENERATION_MARKER: &str = "__fn_knock_internal_host_mappings_generation";
+
+pub(crate) fn strip_internal_config_metadata(config: &mut Value) {
+    if let Some(object) = config.as_object_mut() {
+        object.remove(CONFIG_GENERATION_MARKER);
+    }
+}
+
+pub(crate) fn referenced_host_ipset_policy_ids<'a>(
+    mappings: impl IntoIterator<Item = &'a Value>,
+) -> BTreeSet<String> {
+    let mut referenced = BTreeSet::new();
+    for mapping in mappings {
+        if let Some(id) = mapping
+            .pointer("/visibility/policy_id")
+            .and_then(Value::as_str)
+            .map(str::trim)
+            .filter(|value| !value.is_empty())
+        {
+            referenced.insert(id.to_string());
+        }
+        for condition in mapping
+            .pointer("/advanced_auth/groups")
+            .and_then(Value::as_array)
+            .into_iter()
+            .flatten()
+            .filter_map(|group| group.get("conditions").and_then(Value::as_array))
+            .flatten()
+        {
+            if let Some(id) = condition
+                .get("policy_id")
+                .and_then(Value::as_str)
+                .map(str::trim)
+                .filter(|value| !value.is_empty())
+            {
+                referenced.insert(id.to_string());
+            }
+        }
+    }
+    referenced
+}
+
+#[derive(Clone)]
+pub struct Store {
+    pub(super) manager: ConnectionManager,
+    pub(super) path: PathBuf,
+    pub(super) config_snapshot: Arc<ArcSwap<Value>>,
+    pub(super) config_snapshot_revision: Arc<StdMutex<u64>>,
+    pub(super) config_snapshot_updates: tokio::sync::watch::Sender<u64>,
+    pub(crate) auth_account_mutation_lock: Arc<tokio::sync::Mutex<()>>,
+    pub(super) typed: TypedRepositories,
+    pub(super) typed_config_primary_bootstrapped: Arc<AtomicBool>,
+    pub(super) typed_config_shadow: ShadowTracker,
+    pub(super) typed_docker_admin_shadow: ShadowTracker,
+    pub(super) typed_event_dedupe_shadow: ShadowTracker,
+    pub(super) typed_events_shadow: ShadowTracker,
+    pub(super) typed_fnos_share_shadow: ShadowTracker,
+    pub(super) typed_hmac_nonce_shadow: ShadowTracker,
+    pub(super) typed_identity_runtime_shadow: ShadowTracker,
+    pub(super) typed_login_backoff_shadow: ShadowTracker,
+    pub(super) typed_mobility_shadow: ShadowTracker,
+    pub(super) typed_notification_runtime_shadow: ShadowTracker,
+    pub(super) typed_passkey_runtime_shadow: ShadowTracker,
+    pub(super) typed_subdomain_grant_shadow: ShadowTracker,
+    pub(super) typed_subdomain_rate_limit_shadow: ShadowTracker,
+    pub(super) typed_whitelist_shadow: ShadowTracker,
+    pub(super) typed_whitelist_runtime_shadow: ShadowTracker,
+    pub(super) typed_wol_cooldown_shadow: ShadowTracker,
+}
+
+#[derive(Clone)]
+pub(super) struct TypedRepositories {
+    pub(super) typed_config: TypedConfigRepository,
+    pub(super) typed_docker_admin: TypedDockerAdminRepository,
+    pub(super) typed_event_dedupe: TypedEventDedupeRepository,
+    pub(super) typed_events: TypedEventRepository,
+    pub(super) typed_fnos_share: TypedFnosShareRepository,
+    pub(super) typed_hmac_nonce: TypedHmacNonceRepository,
+    pub(super) typed_identity_runtime: TypedIdentityRuntimeRepository,
+    pub(super) typed_login_backoff: TypedLoginBackoffRepository,
+    pub(super) typed_mobility: TypedMobilityRepository,
+    pub(super) typed_notification_runtime: TypedNotificationRuntimeRepository,
+    pub(super) typed_notifications: TypedNotificationRepository,
+    pub(super) typed_passkey_runtime: TypedPasskeyRuntimeRepository,
+    pub(super) typed_subdomain_grant: TypedSubdomainGrantRepository,
+    pub(super) typed_subdomain_rate_limit: TypedSubdomainRateLimitRepository,
+    pub(super) typed_whitelist: TypedWhitelistRepository,
+    pub(super) typed_whitelist_runtime: TypedWhitelistRuntimeRepository,
+    pub(super) typed_wol_cooldown: TypedWolCooldownRepository,
+}
+
+#[derive(Clone)]
+pub(super) struct ShadowTracker {
+    phase: &'static str,
+    healthy: Arc<AtomicBool>,
+    mismatches: Arc<AtomicU64>,
+}
+
+impl ShadowTracker {
+    pub(super) fn new(phase: &'static str) -> Self {
+        Self {
+            phase,
+            healthy: Arc::new(AtomicBool::new(true)),
+            mismatches: Arc::new(AtomicU64::new(0)),
+        }
+    }
+
+    pub(super) fn status(&self) -> TypedConfigShadowStatus {
+        TypedConfigShadowStatus {
+            phase: self.phase,
+            healthy: self.healthy.load(AtomicOrdering::Acquire),
+            mismatch_count: self.mismatches.load(AtomicOrdering::Acquire),
+        }
+    }
+
+    pub(super) fn mark_healthy(&self) -> bool {
+        !self.healthy.swap(true, AtomicOrdering::AcqRel)
+    }
+
+    pub(super) fn set_healthy(&self) {
+        self.healthy.store(true, AtomicOrdering::Release);
+    }
+
+    pub(super) fn mark_mismatch(&self) -> bool {
+        self.mismatches.fetch_add(1, AtomicOrdering::Relaxed);
+        self.healthy.swap(false, AtomicOrdering::AcqRel)
+    }
+
+    #[cfg(test)]
+    pub(super) fn mismatch_count(&self) -> u64 {
+        self.mismatches.load(AtomicOrdering::Acquire)
+    }
+}
+
+#[derive(Clone, Debug, Serialize)]
+pub(crate) struct TypedConfigShadowStatus {
+    pub(crate) phase: &'static str,
+    pub(crate) healthy: bool,
+    pub(crate) mismatch_count: u64,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
+pub(super) struct LoginBackoffAttemptState {
+    pub(super) ip: String,
+    pub(super) attempts: i64,
+    #[serde(default, rename = "lastAttempt")]
+    pub(super) last_attempt: i64,
+    #[serde(default, rename = "blockedUntil")]
+    pub(super) blocked_until: Option<i64>,
+}

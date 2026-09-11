@@ -1,1 +1,245 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgdGVzdCBmcm9tICJub2RlOnRlc3QiOwppbXBvcnQgdHlwZSB7IERETlNOZXR3b3JrSW50ZXJmYWNlUGF5bG9hZCB9IGZyb20gIi4uL3NyYy9saWIvYXBpL2RkbnMiOwppbXBvcnQgewogIEFMTE9XX1BSSVZBVEVfQUREUkVTU0VTX0tFWSwKICBJTlRFUkZBQ0VfSVBWNl9TRUxFQ1RPUl9LRVksCiAgSVBfU09VUkNFX0tFWSwKICBORVRXT1JLX0lOVEVSRkFDRV9LRVksCiAgVVBEQVRFX1NDT1BFX0tFWSwKICBidWlsZEludGVyZmFjZVNlbGVjdG9yRnJvbUxlZ2FjeUluZGV4LAogIGJ1aWxkSW50ZXJmYWNlQWRkcmVzc0NhbmRpZGF0ZXMsCiAgYnVpbGROZXR3b3JrSW50ZXJmYWNlQWRkcmVzc09wdGlvbnMsCiAgZXh0cmFjdENvbW1vblRhcmdldENvbmZpZywKICBpcHY2SW50ZXJmYWNlSWRGcm9tQWRkcmVzcywKICBwYXJzZUludGVyZmFjZVNlbGVjdG9yLAogIHNlcmlhbGl6ZUludGVyZmFjZVNlbGVjdG9yLAogIHZhbGlkYXRlREROU0NvbW1vbkNvbmZpZywKfSBmcm9tICIuLi9zcmMvdmlld3MvZGRucy1tYW5hZ2VtZW50L21vZGVsIjsKCmNvbnN0IG5ldHdvcmtJbnRlcmZhY2U6IERETlNOZXR3b3JrSW50ZXJmYWNlUGF5bG9hZCA9IHsKICBuYW1lOiAiZXRoMCIsCiAgbGFiZWw6ICJldGgwIiwKICBzdW1tYXJ5OiAiSVB2NiIsCiAgaGFzSXB2NDogZmFsc2UsCiAgaGFzSXB2NjogdHJ1ZSwKICBhZGRyZXNzZXM6IFtdLAogIHNlbGVjdGFibGVBZGRyZXNzZXM6IFsKICAgIHsKICAgICAgZmFtaWx5OiAiaXB2NiIsCiAgICAgIGFkZHJlc3M6ICIyMDAxOmRiODoxOjoxMjM0IiwKICAgICAgY2lkcjogIjIwMDE6ZGI4OjE6OjEyMzQvNjQiLAogICAgICBpbnRlcm5hbDogZmFsc2UsCiAgICAgIHRlbXBvcmFyeTogZmFsc2UsCiAgICB9LAogIF0sCiAgcHJpdmF0ZUFkZHJlc3NlczogWwogICAgewogICAgICBmYW1pbHk6ICJpcHY2IiwKICAgICAgYWRkcmVzczogImZkMDA6OjEyMzQiLAogICAgICBjaWRyOiAiZmQwMDo6MTIzNC82NCIsCiAgICAgIGludGVybmFsOiBmYWxzZSwKICAgICAgdGVtcG9yYXJ5OiBmYWxzZSwKICAgIH0sCiAgXSwKfTsKCnRlc3QoInByaXZhdGUgaW50ZXJmYWNlIGNhbmRpZGF0ZXMgcmVxdWlyZSBleHBsaWNpdCBvcHQtaW4gYW5kIGZvbGxvdyBwdWJsaWMgY2FuZGlkYXRlcyIsICgpID0+IHsKICBhc3NlcnQuZGVlcEVxdWFsKAogICAgYnVpbGRJbnRlcmZhY2VBZGRyZXNzQ2FuZGlkYXRlcyhuZXR3b3JrSW50ZXJmYWNlLCBmYWxzZSkubWFwKAogICAgICAoaXRlbSkgPT4gaXRlbS5hZGRyZXNzLAogICAgKSwKICAgIFsiMjAwMTpkYjg6MTo6MTIzNCJdLAogICk7CiAgYXNzZXJ0LmRlZXBFcXVhbCgKICAgIGJ1aWxkSW50ZXJmYWNlQWRkcmVzc0NhbmRpZGF0ZXMobmV0d29ya0ludGVyZmFjZSwgdHJ1ZSkubWFwKAogICAgICAoaXRlbSkgPT4gaXRlbS5hZGRyZXNzLAogICAgKSwKICAgIFsiMjAwMTpkYjg6MTo6MTIzNCIsICJmZDAwOjoxMjM0Il0sCiAgKTsKICBhc3NlcnQuZGVlcEVxdWFsKAogICAgYnVpbGROZXR3b3JrSW50ZXJmYWNlQWRkcmVzc09wdGlvbnMoCiAgICAgIG5ldHdvcmtJbnRlcmZhY2UsCiAgICAgICJpcHY2IiwKICAgICAgKGl0ZW0pID0+IGl0ZW0uYWRkcmVzcywKICAgICAgdHJ1ZSwKICAgICkubWFwKChpdGVtKSA9PiBpdGVtLmxhYmVsKSwKICAgIFsiMjAwMTpkYjg6MTo6MTIzNCIsICJmZDAwOjoxMjM0Il0sCiAgKTsKfSk7Cgp0ZXN0KCJleHRyYWN0cyBhIGNhbm9uaWNhbCBJUHY2IGxvd2VyLTY0LWJpdCBpbnRlcmZhY2UgSUQiLCAoKSA9PiB7CiAgYXNzZXJ0LmVxdWFsKAogICAgaXB2NkludGVyZmFjZUlkRnJvbUFkZHJlc3MoIjIwMDE6ZGI4OjE6OjEyMzQiKSwKICAgICIwMDAwOjAwMDA6MDAwMDoxMjM0IiwKICApOwp9KTsKCnRlc3QoIm1pZ3JhdGVzIGEgbGVnYWN5IElQdjYgaW5kZXggdG8gYSBzb2Z0IHByZWZlcnJlZC1hZGRyZXNzIHNlbGVjdG9yIiwgKCkgPT4gewogIGNvbnN0IHJlc3VsdCA9IGJ1aWxkSW50ZXJmYWNlU2VsZWN0b3JGcm9tTGVnYWN5SW5kZXgoCiAgICBuZXR3b3JrSW50ZXJmYWNlLAogICAgImlwdjYiLAogICAgIjAiLAogICk7CiAgYXNzZXJ0LmVxdWFsKHJlc3VsdC5taWdyYXRlZCwgdHJ1ZSk7CiAgYXNzZXJ0LmVxdWFsKHJlc3VsdC5zZWxlY3Rvci5tb2RlLCAiYXV0byIpOwogIGFzc2VydC5lcXVhbChyZXN1bHQuc2VsZWN0b3IucHJlZmVycmVkQWRkcmVzcywgIjIwMDE6ZGI4OjE6OjEyMzQiKTsKICBhc3NlcnQuZXF1YWwocmVzdWx0LnNlbGVjdG9yLmlwdjZJbnRlcmZhY2VJZCwgdW5kZWZpbmVkKTsKICBhc3NlcnQuZXF1YWwocmVzdWx0LnNlbGVjdG9yLmFsbG93VGVtcG9yYXJ5LCBmYWxzZSk7Cn0pOwoKdGVzdCgidGVtcG9yYXJ5IGxlZ2FjeSBhZGRyZXNzZXMgcmV0YWluIGV4cGxpY2l0IG9wdC1pbiBkdXJpbmcgbWlncmF0aW9uIiwgKCkgPT4gewogIGNvbnN0IG9wdGlvbiA9IHN0cnVjdHVyZWRDbG9uZShuZXR3b3JrSW50ZXJmYWNlKTsKICBvcHRpb24uc2VsZWN0YWJsZUFkZHJlc3Nlc1swXSEudGVtcG9yYXJ5ID0gdHJ1ZTsKICBjb25zdCByZXN1bHQgPSBidWlsZEludGVyZmFjZVNlbGVjdG9yRnJvbUxlZ2FjeUluZGV4KG9wdGlvbiwgImlwdjYiLCAiMCIpOwogIGFzc2VydC5lcXVhbChyZXN1bHQuc2VsZWN0b3IubW9kZSwgImF1dG8iKTsKICBhc3NlcnQuZXF1YWwocmVzdWx0LnNlbGVjdG9yLmFsbG93VGVtcG9yYXJ5LCB0cnVlKTsKICBhc3NlcnQuZXF1YWwocmVzdWx0LnNlbGVjdG9yLmlwdjZJbnRlcmZhY2VJZCwgdW5kZWZpbmVkKTsKfSk7Cgp0ZXN0KCJ1bmtub3duIElQdjYgc3RhdHVzIGRvZXMgbm90IGFzc3VtZSB0aGUgaW50ZXJmYWNlIElEIGlzIHN0YWJsZSIsICgpID0+IHsKICBjb25zdCBvcHRpb24gPSBzdHJ1Y3R1cmVkQ2xvbmUobmV0d29ya0ludGVyZmFjZSk7CiAgZGVsZXRlIG9wdGlvbi5zZWxlY3RhYmxlQWRkcmVzc2VzWzBdIS50ZW1wb3Jhcnk7CiAgY29uc3QgcmVzdWx0ID0gYnVpbGRJbnRlcmZhY2VTZWxlY3RvckZyb21MZWdhY3lJbmRleChvcHRpb24sICJpcHY2IiwgIjAiKTsKICBhc3NlcnQuZXF1YWwocmVzdWx0LnNlbGVjdG9yLm1vZGUsICJhdXRvIik7CiAgYXNzZXJ0LmVxdWFsKHJlc3VsdC5zZWxlY3Rvci5pcHY2SW50ZXJmYWNlSWQsIHVuZGVmaW5lZCk7Cn0pOwoKdGVzdCgiZG9lcyBub3QgbWlncmF0ZSBhbiB1bnJlc29sdmVkIGxlZ2FjeSBpbmRleCIsICgpID0+IHsKICBjb25zdCByZXN1bHQgPSBidWlsZEludGVyZmFjZVNlbGVjdG9yRnJvbUxlZ2FjeUluZGV4KAogICAgbmV0d29ya0ludGVyZmFjZSwKICAgICJpcHY2IiwKICAgICIzIiwKICApOwogIGFzc2VydC5lcXVhbChyZXN1bHQubWlncmF0ZWQsIGZhbHNlKTsKICBhc3NlcnQuZXF1YWwocmVzdWx0LnNlbGVjdG9yLnByZWZlcnJlZEFkZHJlc3MsIHVuZGVmaW5lZCk7Cn0pOwoKdGVzdCgiZG9lcyBub3QgdHJlYXQgYSBtaXNzaW5nIGxlZ2FjeSBpbmRleCBhcyBpbmRleCB6ZXJvIiwgKCkgPT4gewogIGNvbnN0IHJlc3VsdCA9IGJ1aWxkSW50ZXJmYWNlU2VsZWN0b3JGcm9tTGVnYWN5SW5kZXgoCiAgICBuZXR3b3JrSW50ZXJmYWNlLAogICAgImlwdjYiLAogICAgIiIsCiAgKTsKICBhc3NlcnQuZXF1YWwocmVzdWx0Lm1pZ3JhdGVkLCBmYWxzZSk7CiAgYXNzZXJ0LmVxdWFsKHJlc3VsdC5zZWxlY3Rvci5wcmVmZXJyZWRBZGRyZXNzLCB1bmRlZmluZWQpOwp9KTsKCnRlc3QoImxlZ2FjeSBtaWdyYXRpb24gcmVjb3ZlcnMgdGhlIHB1Ymxpc2hlZCBhZGRyZXNzIGJlZm9yZSB1c2luZyBpdHMgaW5kZXgiLCAoKSA9PiB7CiAgY29uc3Qgb3B0aW9uID0gc3RydWN0dXJlZENsb25lKG5ldHdvcmtJbnRlcmZhY2UpOwogIG9wdGlvbi5zZWxlY3RhYmxlQWRkcmVzc2VzLnVuc2hpZnQoewogICAgLi4ub3B0aW9uLnNlbGVjdGFibGVBZGRyZXNzZXNbMF0hLAogICAgYWRkcmVzczogIjIwMDE6ZGI4OjE6OjEwMDAiLAogIH0pOwogIGNvbnN0IHJlc3VsdCA9IGJ1aWxkSW50ZXJmYWNlU2VsZWN0b3JGcm9tTGVnYWN5SW5kZXgoCiAgICBvcHRpb24sCiAgICAiaXB2NiIsCiAgICAiMCIsCiAgICAiMjAwMTpkYjg6MTo6MTIzNCIsCiAgKTsKICBhc3NlcnQuZXF1YWwocmVzdWx0LnNlbGVjdG9yLnByZWZlcnJlZEFkZHJlc3MsICIyMDAxOmRiODoxOjoxMjM0Iik7Cn0pOwoKdGVzdCgibGVnYWN5IG1pZ3JhdGlvbiBmb2xsb3dzIGEgY2hhbmdlZCBwcmVmaXggd2hlbiB0aGUgaW50ZXJmYWNlIElEIG1hdGNoZXMiLCAoKSA9PiB7CiAgY29uc3QgcmVzdWx0ID0gYnVpbGRJbnRlcmZhY2VTZWxlY3RvckZyb21MZWdhY3lJbmRleCgKICAgIG5ldHdvcmtJbnRlcmZhY2UsCiAgICAiaXB2NiIsCiAgICAiMyIsCiAgICAiMjAwMTpkYjg6ZmZmZjo6MTIzNCIsCiAgKTsKICBhc3NlcnQuZXF1YWwocmVzdWx0Lm1pZ3JhdGVkLCB0cnVlKTsKICBhc3NlcnQuZXF1YWwocmVzdWx0LnNlbGVjdG9yLnByZWZlcnJlZEFkZHJlc3MsICIyMDAxOmRiODoxOjoxMjM0Iik7CiAgYXNzZXJ0LmVxdWFsKHJlc3VsdC5zZWxlY3Rvci5pcHY2SW50ZXJmYWNlSWQsIHVuZGVmaW5lZCk7Cn0pOwoKdGVzdCgicGFyc2VzIHNlbGVjdG9yIEpTT04gYW5kIHJlamVjdHMgdW5zdXBwb3J0ZWQgdmVyc2lvbnMiLCAoKSA9PiB7CiAgY29uc3Qgc2VsZWN0b3IgPSBidWlsZEludGVyZmFjZVNlbGVjdG9yRnJvbUxlZ2FjeUluZGV4KAogICAgbmV0d29ya0ludGVyZmFjZSwKICAgICJpcHY2IiwKICAgICIwIiwKICApLnNlbGVjdG9yOwogIGFzc2VydC5kZWVwRXF1YWwoCiAgICBwYXJzZUludGVyZmFjZVNlbGVjdG9yKHNlcmlhbGl6ZUludGVyZmFjZVNlbGVjdG9yKHNlbGVjdG9yKSksCiAgICBzZWxlY3RvciwKICApOwogIGFzc2VydC5lcXVhbCgKICAgIHBhcnNlSW50ZXJmYWNlU2VsZWN0b3IoCiAgICAgIEpTT04uc3RyaW5naWZ5KHsgdmVyc2lvbjogMiwgbW9kZTogImF1dG8iLCBhbGxvd1RlbXBvcmFyeTogZmFsc2UgfSksCiAgICApLAogICAgbnVsbCwKICApOwp9KTsKCnRlc3QoImludGVyZmFjZSB2YWxpZGF0aW9uIGFjY2VwdHMgYSBzZW1hbnRpYyBzZWxlY3RvciB3aXRob3V0IGFuIGluZGV4IiwgKCkgPT4gewogIGNvbnN0IHNlbGVjdG9yID0gYnVpbGRJbnRlcmZhY2VTZWxlY3RvckZyb21MZWdhY3lJbmRleCgKICAgIG5ldHdvcmtJbnRlcmZhY2UsCiAgICAiaXB2NiIsCiAgICAiMCIsCiAgKS5zZWxlY3RvcjsKICBjb25zdCBpc3N1ZSA9IHZhbGlkYXRlREROU0NvbW1vbkNvbmZpZyh7CiAgICBjb25maWc6IHsKICAgICAgW0lQX1NPVVJDRV9LRVldOiAiaW50ZXJmYWNlIiwKICAgICAgW05FVFdPUktfSU5URVJGQUNFX0tFWV06ICJldGgwIiwKICAgICAgW1VQREFURV9TQ09QRV9LRVldOiAiaXB2Nl9vbmx5IiwKICAgICAgW0lOVEVSRkFDRV9JUFY2X1NFTEVDVE9SX0tFWV06IHNlcmlhbGl6ZUludGVyZmFjZVNlbGVjdG9yKHNlbGVjdG9yKSwKICAgIH0sCiAgICBpcFNvdXJjZTogImludGVyZmFjZSIsCiAgICBpcHY0T3B0aW9uczogW10sCiAgICBpcHY2T3B0aW9uczogW3sgdmFsdWU6ICIwIiwgbGFiZWw6ICJJUHY2IiB9XSwKICAgIHByb3ZpZGVyTmFtZTogImNsb3VkZmxhcmUiLAogICAgcHJvdmlkZXJzOiBbXSwKICAgIHVwZGF0ZVNjb3BlOiAiaXB2Nl9vbmx5IiwKICB9KTsKICBhc3NlcnQuZXF1YWwoaXNzdWUsIG51bGwpOwp9KTsKCnRlc3QoImludGVyZmFjZSB2YWxpZGF0aW9uIGFsbG93cyBpbXBsaWNpdCBhdXRvbWF0aWMgSVB2NiBzZWxlY3Rpb24iLCAoKSA9PiB7CiAgY29uc3QgaXNzdWUgPSB2YWxpZGF0ZURETlNDb21tb25Db25maWcoewogICAgY29uZmlnOiB7CiAgICAgIFtJUF9TT1VSQ0VfS0VZXTogImludGVyZmFjZSIsCiAgICAgIFtORVRXT1JLX0lOVEVSRkFDRV9LRVldOiAiZXRoMCIsCiAgICAgIFtVUERBVEVfU0NPUEVfS0VZXTogImlwdjZfb25seSIsCiAgICB9LAogICAgaXBTb3VyY2U6ICJpbnRlcmZhY2UiLAogICAgaXB2NE9wdGlvbnM6IFtdLAogICAgaXB2Nk9wdGlvbnM6IFt7IHZhbHVlOiAiMCIsIGxhYmVsOiAiSVB2NiIgfV0sCiAgICBwcm92aWRlck5hbWU6ICJjbG91ZGZsYXJlIiwKICAgIHByb3ZpZGVyczogW10sCiAgICB1cGRhdGVTY29wZTogImlwdjZfb25seSIsCiAgfSk7CiAgYXNzZXJ0LmVxdWFsKGlzc3VlLCBudWxsKTsKfSk7Cgp0ZXN0KCJpbnRlcmZhY2UgdmFsaWRhdGlvbiBzdGlsbCByZWplY3RzIG1hbGZvcm1lZCBleHBsaWNpdCBzZWxlY3RvcnMiLCAoKSA9PiB7CiAgY29uc3QgaXNzdWUgPSB2YWxpZGF0ZURETlNDb21tb25Db25maWcoewogICAgY29uZmlnOiB7CiAgICAgIFtJUF9TT1VSQ0VfS0VZXTogImludGVyZmFjZSIsCiAgICAgIFtORVRXT1JLX0lOVEVSRkFDRV9LRVldOiAiZXRoMCIsCiAgICAgIFtVUERBVEVfU0NPUEVfS0VZXTogImlwdjZfb25seSIsCiAgICAgIFtJTlRFUkZBQ0VfSVBWNl9TRUxFQ1RPUl9LRVldOiAie2ludmFsaWQiLAogICAgfSwKICAgIGlwU291cmNlOiAiaW50ZXJmYWNlIiwKICAgIGlwdjRPcHRpb25zOiBbXSwKICAgIGlwdjZPcHRpb25zOiBbeyB2YWx1ZTogIjAiLCBsYWJlbDogIklQdjYiIH1dLAogICAgcHJvdmlkZXJOYW1lOiAiY2xvdWRmbGFyZSIsCiAgICBwcm92aWRlcnM6IFtdLAogICAgdXBkYXRlU2NvcGU6ICJpcHY2X29ubHkiLAogIH0pOwogIGFzc2VydC5lcXVhbChpc3N1ZT8ubWVzc2FnZUtleSwgImFkbWluLmRkbnMuaW50ZXJmYWNlU2VsZWN0b3JJbnZhbGlkIik7Cn0pOwoKdGVzdCgibG9hZGVkIHRhcmdldCBub3JtYWxpemF0aW9uIHByZXNlcnZlcyB0aGUgSVB2NiBzZWxlY3RvciIsICgpID0+IHsKICBjb25zdCBzZWxlY3RvciA9IHNlcmlhbGl6ZUludGVyZmFjZVNlbGVjdG9yKHsKICAgIHZlcnNpb246IDEsCiAgICBtb2RlOiAicnVsZXMiLAogICAgaW5jbHVkZUNpZHJzOiBbIjI0MDk6OGE3NDo6LzMyIl0sCiAgICBhbGxvd1RlbXBvcmFyeTogZmFsc2UsCiAgfSk7CiAgY29uc3Qgbm9ybWFsaXplZCA9IGV4dHJhY3RDb21tb25UYXJnZXRDb25maWcoewogICAgW0lOVEVSRkFDRV9JUFY2X1NFTEVDVE9SX0tFWV06IHNlbGVjdG9yLAogICAgW0FMTE9XX1BSSVZBVEVfQUREUkVTU0VTX0tFWV06ICJUUlVFIiwKICB9KTsKCiAgYXNzZXJ0LmVxdWFsKG5vcm1hbGl6ZWRbSU5URVJGQUNFX0lQVjZfU0VMRUNUT1JfS0VZXSwgc2VsZWN0b3IpOwogIGFzc2VydC5lcXVhbChub3JtYWxpemVkW0FMTE9XX1BSSVZBVEVfQUREUkVTU0VTX0tFWV0sICJ0cnVlIik7Cn0pOwo=
+import assert from "node:assert/strict";
+import test from "node:test";
+import type { DDNSNetworkInterfacePayload } from "../src/lib/api/ddns";
+import {
+  ALLOW_PRIVATE_ADDRESSES_KEY,
+  INTERFACE_IPV6_SELECTOR_KEY,
+  IP_SOURCE_KEY,
+  NETWORK_INTERFACE_KEY,
+  UPDATE_SCOPE_KEY,
+  buildInterfaceSelectorFromLegacyIndex,
+  buildInterfaceAddressCandidates,
+  buildNetworkInterfaceAddressOptions,
+  extractCommonTargetConfig,
+  ipv6InterfaceIdFromAddress,
+  parseInterfaceSelector,
+  serializeInterfaceSelector,
+  validateDDNSCommonConfig,
+} from "../src/views/ddns-management/model";
+
+const networkInterface: DDNSNetworkInterfacePayload = {
+  name: "eth0",
+  label: "eth0",
+  summary: "IPv6",
+  hasIpv4: false,
+  hasIpv6: true,
+  addresses: [],
+  selectableAddresses: [
+    {
+      family: "ipv6",
+      address: "2001:db8:1::1234",
+      cidr: "2001:db8:1::1234/64",
+      internal: false,
+      temporary: false,
+    },
+  ],
+  privateAddresses: [
+    {
+      family: "ipv6",
+      address: "fd00::1234",
+      cidr: "fd00::1234/64",
+      internal: false,
+      temporary: false,
+    },
+  ],
+};
+
+test("private interface candidates require explicit opt-in and follow public candidates", () => {
+  assert.deepEqual(
+    buildInterfaceAddressCandidates(networkInterface, false).map(
+      (item) => item.address,
+    ),
+    ["2001:db8:1::1234"],
+  );
+  assert.deepEqual(
+    buildInterfaceAddressCandidates(networkInterface, true).map(
+      (item) => item.address,
+    ),
+    ["2001:db8:1::1234", "fd00::1234"],
+  );
+  assert.deepEqual(
+    buildNetworkInterfaceAddressOptions(
+      networkInterface,
+      "ipv6",
+      (item) => item.address,
+      true,
+    ).map((item) => item.label),
+    ["2001:db8:1::1234", "fd00::1234"],
+  );
+});
+
+test("extracts a canonical IPv6 lower-64-bit interface ID", () => {
+  assert.equal(
+    ipv6InterfaceIdFromAddress("2001:db8:1::1234"),
+    "0000:0000:0000:1234",
+  );
+});
+
+test("migrates a legacy IPv6 index to a soft preferred-address selector", () => {
+  const result = buildInterfaceSelectorFromLegacyIndex(
+    networkInterface,
+    "ipv6",
+    "0",
+  );
+  assert.equal(result.migrated, true);
+  assert.equal(result.selector.mode, "auto");
+  assert.equal(result.selector.preferredAddress, "2001:db8:1::1234");
+  assert.equal(result.selector.ipv6InterfaceId, undefined);
+  assert.equal(result.selector.allowTemporary, false);
+});
+
+test("temporary legacy addresses retain explicit opt-in during migration", () => {
+  const option = structuredClone(networkInterface);
+  option.selectableAddresses[0]!.temporary = true;
+  const result = buildInterfaceSelectorFromLegacyIndex(option, "ipv6", "0");
+  assert.equal(result.selector.mode, "auto");
+  assert.equal(result.selector.allowTemporary, true);
+  assert.equal(result.selector.ipv6InterfaceId, undefined);
+});
+
+test("unknown IPv6 status does not assume the interface ID is stable", () => {
+  const option = structuredClone(networkInterface);
+  delete option.selectableAddresses[0]!.temporary;
+  const result = buildInterfaceSelectorFromLegacyIndex(option, "ipv6", "0");
+  assert.equal(result.selector.mode, "auto");
+  assert.equal(result.selector.ipv6InterfaceId, undefined);
+});
+
+test("does not migrate an unresolved legacy index", () => {
+  const result = buildInterfaceSelectorFromLegacyIndex(
+    networkInterface,
+    "ipv6",
+    "3",
+  );
+  assert.equal(result.migrated, false);
+  assert.equal(result.selector.preferredAddress, undefined);
+});
+
+test("does not treat a missing legacy index as index zero", () => {
+  const result = buildInterfaceSelectorFromLegacyIndex(
+    networkInterface,
+    "ipv6",
+    "",
+  );
+  assert.equal(result.migrated, false);
+  assert.equal(result.selector.preferredAddress, undefined);
+});
+
+test("legacy migration recovers the published address before using its index", () => {
+  const option = structuredClone(networkInterface);
+  option.selectableAddresses.unshift({
+    ...option.selectableAddresses[0]!,
+    address: "2001:db8:1::1000",
+  });
+  const result = buildInterfaceSelectorFromLegacyIndex(
+    option,
+    "ipv6",
+    "0",
+    "2001:db8:1::1234",
+  );
+  assert.equal(result.selector.preferredAddress, "2001:db8:1::1234");
+});
+
+test("legacy migration follows a changed prefix when the interface ID matches", () => {
+  const result = buildInterfaceSelectorFromLegacyIndex(
+    networkInterface,
+    "ipv6",
+    "3",
+    "2001:db8:ffff::1234",
+  );
+  assert.equal(result.migrated, true);
+  assert.equal(result.selector.preferredAddress, "2001:db8:1::1234");
+  assert.equal(result.selector.ipv6InterfaceId, undefined);
+});
+
+test("parses selector JSON and rejects unsupported versions", () => {
+  const selector = buildInterfaceSelectorFromLegacyIndex(
+    networkInterface,
+    "ipv6",
+    "0",
+  ).selector;
+  assert.deepEqual(
+    parseInterfaceSelector(serializeInterfaceSelector(selector)),
+    selector,
+  );
+  assert.equal(
+    parseInterfaceSelector(
+      JSON.stringify({ version: 2, mode: "auto", allowTemporary: false }),
+    ),
+    null,
+  );
+});
+
+test("interface validation accepts a semantic selector without an index", () => {
+  const selector = buildInterfaceSelectorFromLegacyIndex(
+    networkInterface,
+    "ipv6",
+    "0",
+  ).selector;
+  const issue = validateDDNSCommonConfig({
+    config: {
+      [IP_SOURCE_KEY]: "interface",
+      [NETWORK_INTERFACE_KEY]: "eth0",
+      [UPDATE_SCOPE_KEY]: "ipv6_only",
+      [INTERFACE_IPV6_SELECTOR_KEY]: serializeInterfaceSelector(selector),
+    },
+    ipSource: "interface",
+    ipv4Options: [],
+    ipv6Options: [{ value: "0", label: "IPv6" }],
+    providerName: "cloudflare",
+    providers: [],
+    updateScope: "ipv6_only",
+  });
+  assert.equal(issue, null);
+});
+
+test("interface validation allows implicit automatic IPv6 selection", () => {
+  const issue = validateDDNSCommonConfig({
+    config: {
+      [IP_SOURCE_KEY]: "interface",
+      [NETWORK_INTERFACE_KEY]: "eth0",
+      [UPDATE_SCOPE_KEY]: "ipv6_only",
+    },
+    ipSource: "interface",
+    ipv4Options: [],
+    ipv6Options: [{ value: "0", label: "IPv6" }],
+    providerName: "cloudflare",
+    providers: [],
+    updateScope: "ipv6_only",
+  });
+  assert.equal(issue, null);
+});
+
+test("interface validation still rejects malformed explicit selectors", () => {
+  const issue = validateDDNSCommonConfig({
+    config: {
+      [IP_SOURCE_KEY]: "interface",
+      [NETWORK_INTERFACE_KEY]: "eth0",
+      [UPDATE_SCOPE_KEY]: "ipv6_only",
+      [INTERFACE_IPV6_SELECTOR_KEY]: "{invalid",
+    },
+    ipSource: "interface",
+    ipv4Options: [],
+    ipv6Options: [{ value: "0", label: "IPv6" }],
+    providerName: "cloudflare",
+    providers: [],
+    updateScope: "ipv6_only",
+  });
+  assert.equal(issue?.messageKey, "admin.ddns.interfaceSelectorInvalid");
+});
+
+test("loaded target normalization preserves the IPv6 selector", () => {
+  const selector = serializeInterfaceSelector({
+    version: 1,
+    mode: "rules",
+    includeCidrs: ["2409:8a74::/32"],
+    allowTemporary: false,
+  });
+  const normalized = extractCommonTargetConfig({
+    [INTERFACE_IPV6_SELECTOR_KEY]: selector,
+    [ALLOW_PRIVATE_ADDRESSES_KEY]: "TRUE",
+  });
+
+  assert.equal(normalized[INTERFACE_IPV6_SELECTOR_KEY], selector);
+  assert.equal(normalized[ALLOW_PRIVATE_ADDRESSES_KEY], "true");
+});

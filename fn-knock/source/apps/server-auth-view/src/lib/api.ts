@@ -1,1 +1,150 @@
-aW1wb3J0IHsgY3JlYXRlQXBpQ2xpZW50IH0gZnJvbSAiQGZyb250ZW5kLWNvcmUvYXBpL2NyZWF0ZUFwaUNsaWVudCI7CmltcG9ydCB7IGJyb3dzZXJUIH0gZnJvbSAiQGZuLWtub2NrL2kxOG4vdnVlL2F1dGgiOwppbXBvcnQgdHlwZSB7IEludGVybmFsQXhpb3NSZXF1ZXN0Q29uZmlnIH0gZnJvbSAiYXhpb3MiOwppbXBvcnQgdHlwZSB7CiAgQXV0aEJvb3RzdHJhcERhdGEsCiAgQXV0aENsaWVudExvY2F0aW9uRGF0YSwKICBBdXRoU2Vzc2lvbkRhdGEsCn0gZnJvbSAiQGZyb250ZW5kLWNvcmUvYXV0aC90eXBlcyI7CmltcG9ydCB0eXBlIHsgQ2FwdGNoYVB1YmxpY1NldHRpbmdzIH0gZnJvbSAiQGZyb250ZW5kLWNvcmUvY2FwdGNoYS90eXBlcyI7Cgp0eXBlIE5vU3RvcmVQYXJhbXMgPSBSZWNvcmQ8c3RyaW5nLCBzdHJpbmcgfCBudW1iZXIgfCBib29sZWFuIHwgdW5kZWZpbmVkPjsKCmNvbnN0IGRldGVjdEFwcEJhc2VQcmVmaXggPSAoKSA9PiB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm4gIiI7CiAgY29uc3QgcGF0aG5hbWUgPSB3aW5kb3cubG9jYXRpb24ucGF0aG5hbWUgfHwgIi8iOwoKICBpZiAocGF0aG5hbWUgPT09ICIvX19hdXRoX18iIHx8IHBhdGhuYW1lLnN0YXJ0c1dpdGgoIi9fX2F1dGhfXy8iKSkgewogICAgcmV0dXJuICIvX19hdXRoX18iOwogIH0KCiAgaWYgKHBhdGhuYW1lID09PSAiL2F1dGgiIHx8IHBhdGhuYW1lLnN0YXJ0c1dpdGgoIi9hdXRoLyIpKSB7CiAgICByZXR1cm4gIi9hdXRoIjsKICB9CgogIHJldHVybiAiIjsKfTsKCmNvbnN0IGpvaW5XaXRoQmFzZVByZWZpeCA9IChiYXNlUHJlZml4OiBzdHJpbmcsIHBhdGg6IHN0cmluZykgPT4gewogIGNvbnN0IG5vcm1hbGl6ZWRQYXRoID0gcGF0aC5zdGFydHNXaXRoKCIvIikgPyBwYXRoIDogYC8ke3BhdGh9YDsKICByZXR1cm4gYmFzZVByZWZpeCA/IGAke2Jhc2VQcmVmaXh9JHtub3JtYWxpemVkUGF0aH1gIDogbm9ybWFsaXplZFBhdGg7Cn07Cgpjb25zdCBhcHBCYXNlUHJlZml4ID0gZGV0ZWN0QXBwQmFzZVByZWZpeCgpOwoKZXhwb3J0IGNvbnN0IGF1dGhBcGlCYXNlUGF0aCA9IGpvaW5XaXRoQmFzZVByZWZpeChhcHBCYXNlUHJlZml4LCAiL2FwaS9hdXRoIik7CmV4cG9ydCBjb25zdCBidWlsZEF1dGhBcGlQYXRoID0gKHBhdGg6IHN0cmluZykgPT4KICBqb2luV2l0aEJhc2VQcmVmaXgoYXV0aEFwaUJhc2VQYXRoLCBwYXRoKTsKCmV4cG9ydCBjb25zdCB3aXRoTm9TdG9yZVBhcmFtcyA9IChwYXJhbXM/OiBOb1N0b3JlUGFyYW1zKSA9PiAoewogIC4uLihwYXJhbXMgfHwge30pLAogIF90czogRGF0ZS5ub3coKSwKfSk7Cgpjb25zdCBBQlNPTFVURV9VUkxfUkUgPSAvXlthLXpBLVpdW2EtekEtWlxkK1wtLl0qOi87Cgpjb25zdCBidWlsZE5vU3RvcmVSZXF1ZXN0SGVhZGVycyA9IChoZWFkZXJzPzogSGVhZGVyc0luaXQpID0+IHsKICBjb25zdCBuZXh0ID0gbmV3IEhlYWRlcnMoaGVhZGVycyk7CiAgbmV4dC5zZXQoIkNhY2hlLUNvbnRyb2wiLCAibm8tY2FjaGUiKTsKICBuZXh0LnNldCgiUHJhZ21hIiwgIm5vLWNhY2hlIik7CiAgcmV0dXJuIG5leHQ7Cn07CgpleHBvcnQgY29uc3Qgd2l0aE5vU3RvcmVVcmwgPSAoaW5wdXQ6IHN0cmluZyB8IFVSTCkgPT4gewogIGNvbnN0IG9yaWdpbmFsID0gaW5wdXQgaW5zdGFuY2VvZiBVUkwgPyBpbnB1dC50b1N0cmluZygpIDogaW5wdXQ7CiAgY29uc3QgYmFzZU9yaWdpbiA9CiAgICB0eXBlb2Ygd2luZG93ICE9PSAidW5kZWZpbmVkIiA/IHdpbmRvdy5sb2NhdGlvbi5vcmlnaW4gOiAiaHR0cDovLzEyNy4wLjAuMSI7CiAgY29uc3QgdXJsID0gbmV3IFVSTChvcmlnaW5hbCwgYmFzZU9yaWdpbik7CgogIHVybC5zZWFyY2hQYXJhbXMuc2V0KCJfdHMiLCBEYXRlLm5vdygpLnRvU3RyaW5nKCkpOwoKICBpZiAoaW5wdXQgaW5zdGFuY2VvZiBVUkwgfHwgQUJTT0xVVEVfVVJMX1JFLnRlc3Qob3JpZ2luYWwpKSB7CiAgICByZXR1cm4gdXJsLnRvU3RyaW5nKCk7CiAgfQoKICByZXR1cm4gYCR7dXJsLnBhdGhuYW1lfSR7dXJsLnNlYXJjaH0ke3VybC5oYXNofWA7Cn07CgpleHBvcnQgY29uc3QgZmV0Y2hOb1N0b3JlID0gKGlucHV0OiBzdHJpbmcgfCBVUkwsIGluaXQ/OiBSZXF1ZXN0SW5pdCkgPT4KICBmZXRjaCh3aXRoTm9TdG9yZVVybChpbnB1dCksIHsKICAgIC4uLmluaXQsCiAgICBjYWNoZTogIm5vLXN0b3JlIiwKICAgIGhlYWRlcnM6IGJ1aWxkTm9TdG9yZVJlcXVlc3RIZWFkZXJzKGluaXQ/LmhlYWRlcnMpLAogIH0pOwoKY29uc3QgYXBwbHlOb1N0b3JlUmVxdWVzdERlZmF1bHRzID0gKGNvbmZpZzogSW50ZXJuYWxBeGlvc1JlcXVlc3RDb25maWcpID0+IHsKICBjb25zdCBtZXRob2QgPSBTdHJpbmcoY29uZmlnLm1ldGhvZCB8fCAiZ2V0IikudG9Mb3dlckNhc2UoKTsKICBpZiAobWV0aG9kICE9PSAiZ2V0IiAmJiBtZXRob2QgIT09ICJoZWFkIikgewogICAgcmV0dXJuIGNvbmZpZzsKICB9CgogIGNvbmZpZy5oZWFkZXJzWyJDYWNoZS1Db250cm9sIl0gPSAibm8tY2FjaGUiOwogIGNvbmZpZy5oZWFkZXJzLlByYWdtYSA9ICJuby1jYWNoZSI7CgogIGlmICgKICAgIGNvbmZpZy5wYXJhbXMgJiYKICAgIHR5cGVvZiBjb25maWcucGFyYW1zID09PSAib2JqZWN0IiAmJgogICAgIUFycmF5LmlzQXJyYXkoY29uZmlnLnBhcmFtcykgJiYKICAgICJfdHMiIGluIChjb25maWcucGFyYW1zIGFzIFJlY29yZDxzdHJpbmcsIHVua25vd24+KQogICkgewogICAgcmV0dXJuIGNvbmZpZzsKICB9CgogIGNvbmZpZy5wYXJhbXMgPQogICAgY29uZmlnLnBhcmFtcyAmJiB0eXBlb2YgY29uZmlnLnBhcmFtcyA9PT0gIm9iamVjdCIKICAgICAgPyB7CiAgICAgICAgICAuLi4oY29uZmlnLnBhcmFtcyBhcyBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiksCiAgICAgICAgICBfdHM6IERhdGUubm93KCksCiAgICAgICAgfQogICAgICA6IHsgX3RzOiBEYXRlLm5vdygpIH07CgogIHJldHVybiBjb25maWc7Cn07CgpleHBvcnQgY29uc3QgYXBpQ2xpZW50ID0gY3JlYXRlQXBpQ2xpZW50KHsKICBiYXNlVVJMOiBhdXRoQXBpQmFzZVBhdGgsCiAgaW52YWxpZFJlc3BvbnNlTWVzc2FnZTogKCkgPT4gYnJvd3NlclQoImNvbW1vbi5pbnZhbGlkQXBpUmVzcG9uc2UiKSwKfSk7CgphcGlDbGllbnQuaW50ZXJjZXB0b3JzLnJlcXVlc3QudXNlKChjb25maWcpID0+CiAgYXBwbHlOb1N0b3JlUmVxdWVzdERlZmF1bHRzKGNvbmZpZyksCik7CgpleHBvcnQgY29uc3QgQ2FwdGNoYUFQSSA9IHsKICBhc3luYyBnZXRDb25maWcoKTogUHJvbWlzZTxDYXB0Y2hhUHVibGljU2V0dGluZ3M+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9jYXB0Y2hhL2NvbmZpZyIsIHsKICAgICAgcGFyYW1zOiB3aXRoTm9TdG9yZVBhcmFtcygpLAogICAgfSk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGdldFBvd0NoYWxsZW5nZShzaWduYWw/OiBBYm9ydFNpZ25hbCkgewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2NoYWxsZW5nZSIsIHsKICAgICAgcGFyYW1zOiB3aXRoTm9TdG9yZVBhcmFtcygpLAogICAgICBzaWduYWwsCiAgICB9KTsKICAgIHJldHVybiByZXMuZGF0YTsKICB9LAp9OwoKZXhwb3J0IGNvbnN0IEF1dGhBUEkgPSB7CiAgYXN5bmMgZ2V0Qm9vdHN0cmFwKHJlZGlyZWN0VXJpPzogc3RyaW5nIHwgbnVsbCk6IFByb21pc2U8QXV0aEJvb3RzdHJhcERhdGE+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFwaUNsaWVudC5nZXQoIi9ib290c3RyYXAiLCB7CiAgICAgIHBhcmFtczogd2l0aE5vU3RvcmVQYXJhbXMoCiAgICAgICAgcmVkaXJlY3RVcmkgPyB7IHJlZGlyZWN0X3VyaTogcmVkaXJlY3RVcmkgfSA6IHVuZGVmaW5lZCwKICAgICAgKSwKICAgIH0pOwogICAgcmV0dXJuIHJlcy5kYXRhLmRhdGE7CiAgfSwKICBhc3luYyBnZXRTZXNzaW9uKCk6IFByb21pc2U8QXV0aFNlc3Npb25EYXRhPiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcGlDbGllbnQuZ2V0KCIvc2Vzc2lvbiIsIHsKICAgICAgcGFyYW1zOiB3aXRoTm9TdG9yZVBhcmFtcygpLAogICAgfSk7CiAgICByZXR1cm4gcmVzLmRhdGEuZGF0YTsKICB9LAogIGFzeW5jIGdldENsaWVudExvY2F0aW9uKCk6IFByb21pc2U8QXV0aENsaWVudExvY2F0aW9uRGF0YT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgYXBpQ2xpZW50LmdldCgiL2lwL2xvY2F0aW9uIiwgewogICAgICBwYXJhbXM6IHdpdGhOb1N0b3JlUGFyYW1zKCksCiAgICB9KTsKICAgIHJldHVybiByZXMuZGF0YS5kYXRhOwogIH0sCn07Cg==
+import { createApiClient } from "@frontend-core/api/createApiClient";
+import { browserT } from "@fn-knock/i18n/vue/auth";
+import type { InternalAxiosRequestConfig } from "axios";
+import type {
+  AuthBootstrapData,
+  AuthClientLocationData,
+  AuthSessionData,
+} from "@frontend-core/auth/types";
+import type { CaptchaPublicSettings } from "@frontend-core/captcha/types";
+
+type NoStoreParams = Record<string, string | number | boolean | undefined>;
+
+const detectAppBasePrefix = () => {
+  if (typeof window === "undefined") return "";
+  const pathname = window.location.pathname || "/";
+
+  if (pathname === "/__auth__" || pathname.startsWith("/__auth__/")) {
+    return "/__auth__";
+  }
+
+  if (pathname === "/auth" || pathname.startsWith("/auth/")) {
+    return "/auth";
+  }
+
+  return "";
+};
+
+const joinWithBasePrefix = (basePrefix: string, path: string) => {
+  const normalizedPath = path.startsWith("/") ? path : `/${path}`;
+  return basePrefix ? `${basePrefix}${normalizedPath}` : normalizedPath;
+};
+
+const appBasePrefix = detectAppBasePrefix();
+
+export const authApiBasePath = joinWithBasePrefix(appBasePrefix, "/api/auth");
+export const buildAuthApiPath = (path: string) =>
+  joinWithBasePrefix(authApiBasePath, path);
+
+export const withNoStoreParams = (params?: NoStoreParams) => ({
+  ...(params || {}),
+  _ts: Date.now(),
+});
+
+const ABSOLUTE_URL_RE = /^[a-zA-Z][a-zA-Z\d+\-.]*:/;
+
+const buildNoStoreRequestHeaders = (headers?: HeadersInit) => {
+  const next = new Headers(headers);
+  next.set("Cache-Control", "no-cache");
+  next.set("Pragma", "no-cache");
+  return next;
+};
+
+export const withNoStoreUrl = (input: string | URL) => {
+  const original = input instanceof URL ? input.toString() : input;
+  const baseOrigin =
+    typeof window !== "undefined" ? window.location.origin : "http://127.0.0.1";
+  const url = new URL(original, baseOrigin);
+
+  url.searchParams.set("_ts", Date.now().toString());
+
+  if (input instanceof URL || ABSOLUTE_URL_RE.test(original)) {
+    return url.toString();
+  }
+
+  return `${url.pathname}${url.search}${url.hash}`;
+};
+
+export const fetchNoStore = (input: string | URL, init?: RequestInit) =>
+  fetch(withNoStoreUrl(input), {
+    ...init,
+    cache: "no-store",
+    headers: buildNoStoreRequestHeaders(init?.headers),
+  });
+
+const applyNoStoreRequestDefaults = (config: InternalAxiosRequestConfig) => {
+  const method = String(config.method || "get").toLowerCase();
+  if (method !== "get" && method !== "head") {
+    return config;
+  }
+
+  config.headers["Cache-Control"] = "no-cache";
+  config.headers.Pragma = "no-cache";
+
+  if (
+    config.params &&
+    typeof config.params === "object" &&
+    !Array.isArray(config.params) &&
+    "_ts" in (config.params as Record<string, unknown>)
+  ) {
+    return config;
+  }
+
+  config.params =
+    config.params && typeof config.params === "object"
+      ? {
+          ...(config.params as Record<string, unknown>),
+          _ts: Date.now(),
+        }
+      : { _ts: Date.now() };
+
+  return config;
+};
+
+export const apiClient = createApiClient({
+  baseURL: authApiBasePath,
+  invalidResponseMessage: () => browserT("common.invalidApiResponse"),
+});
+
+apiClient.interceptors.request.use((config) =>
+  applyNoStoreRequestDefaults(config),
+);
+
+export const CaptchaAPI = {
+  async getConfig(): Promise<CaptchaPublicSettings> {
+    const res = await apiClient.get("/captcha/config", {
+      params: withNoStoreParams(),
+    });
+    return res.data.data;
+  },
+  async getPowChallenge(signal?: AbortSignal) {
+    const res = await apiClient.get("/challenge", {
+      params: withNoStoreParams(),
+      signal,
+    });
+    return res.data;
+  },
+};
+
+export const AuthAPI = {
+  async getBootstrap(redirectUri?: string | null): Promise<AuthBootstrapData> {
+    const res = await apiClient.get("/bootstrap", {
+      params: withNoStoreParams(
+        redirectUri ? { redirect_uri: redirectUri } : undefined,
+      ),
+    });
+    return res.data.data;
+  },
+  async getSession(): Promise<AuthSessionData> {
+    const res = await apiClient.get("/session", {
+      params: withNoStoreParams(),
+    });
+    return res.data.data;
+  },
+  async getClientLocation(): Promise<AuthClientLocationData> {
+    const res = await apiClient.get("/ip/location", {
+      params: withNoStoreParams(),
+    });
+    return res.data.data;
+  },
+};

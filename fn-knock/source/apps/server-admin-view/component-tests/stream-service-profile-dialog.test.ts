@@ -1,1 +1,127 @@
-aW1wb3J0IHsgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBjcmVhdGVJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBkZXNjcmliZSwgZXhwZWN0LCBpdCB9IGZyb20gInZpdGVzdCI7CmltcG9ydCB0eXBlIHsgU3RyZWFtU2VydmljZUNhdGFsb2cgfSBmcm9tICIuLi9zcmMvbGliL2FwaS9jb25maWciOwppbXBvcnQgdHlwZSB7IFN0cmVhbU1hcHBpbmcgfSBmcm9tICIuLi9zcmMvdHlwZXMiOwppbXBvcnQgU3RyZWFtU2VydmljZVByb2ZpbGVEaWFsb2cgZnJvbSAiLi4vc3JjL3ZpZXdzL3N0cmVhbS1tYXBwaW5ncy9TdHJlYW1TZXJ2aWNlUHJvZmlsZURpYWxvZy52dWUiOwoKY29uc3QgbWFwcGluZyA9IHsKICBsaXN0ZW5fcG9ydDogNjc4OCwKICBwcm90b2NvbDogInRjcCIsCiAgc2VydmljZV9wcm9maWxlOiB7CiAgICBzZXJ2aWNlX2lkOiAiZWFzeXRpZXIiLAogICAgc291cmNlOiAicHJvYmUiLAogICAgc3RyaWN0X2NhcGFibGU6IGZhbHNlLAogIH0sCiAgdGFyZ2V0OiAiMTkyLjE2OC4zMS45ODoxMTAxMCIsCn0gYXMgU3RyZWFtTWFwcGluZzsKCmNvbnN0IGNhdGFsb2c6IFN0cmVhbVNlcnZpY2VDYXRhbG9nID0gewogIGNsYXNzaWZpZXJfdmVyc2lvbjogInN0cmVhbS1zaWduYXR1cmVzLXY0IiwKICBpdGVtczogWwogICAgewogICAgICBhY3RpdmVfcHJvYmVfc3VwcG9ydGVkOiB0cnVlLAogICAgICBkaXNwbGF5X25hbWU6ICJFYXN5VGllciIsCiAgICAgIHNlcnZpY2VfZmFtaWx5OiAidnBuIiwKICAgICAgc2VydmljZV9pZDogImVhc3l0aWVyIiwKICAgICAgc3RyaWN0X2NhcGFibGU6IGZhbHNlLAogICAgICB0cmFuc3BvcnRzOiBbInRjcCJdLAogICAgfSwKICAgIHsKICAgICAgYWN0aXZlX3Byb2JlX3N1cHBvcnRlZDogdHJ1ZSwKICAgICAgZGlzcGxheV9uYW1lOiAiV2ViREFWIiwKICAgICAgc2VydmljZV9mYW1pbHk6ICJmaWxlX3NlcnZpY2UiLAogICAgICBzZXJ2aWNlX2lkOiAid2ViZGF2IiwKICAgICAgc3RyaWN0X2NhcGFibGU6IHRydWUsCiAgICAgIHRyYW5zcG9ydHM6IFsidGNwIl0sCiAgICB9LAogICAgewogICAgICBhY3RpdmVfcHJvYmVfc3VwcG9ydGVkOiB0cnVlLAogICAgICBkaXNwbGF5X25hbWU6ICJPTlZJRiIsCiAgICAgIHNlcnZpY2VfZmFtaWx5OiAidmlkZW8iLAogICAgICBzZXJ2aWNlX2lkOiAib252aWYiLAogICAgICBzdHJpY3RfY2FwYWJsZTogdHJ1ZSwKICAgICAgdHJhbnNwb3J0czogWyJ1ZHAiXSwKICAgIH0sCiAgXSwKfTsKCmNvbnN0IHBhc3N0aHJvdWdoID0geyB0ZW1wbGF0ZTogIjxkaXY+PHNsb3QgLz48L2Rpdj4iIH07CgpkZXNjcmliZSgic3RyZWFtIHNlcnZpY2UgcHJvZmlsZSBkaWFsb2ciLCAoKSA9PiB7CiAgaXQoIm9mZmVycyBpZGVudGlmaWNhdGlvbi1vbmx5IFRDUCBzZXJ2aWNlcyBhbmQgZXhwbGFpbnMgdGhlaXIgc2FmZSBiZWhhdmlvciIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHdyYXBwZXIgPSBtb3VudChTdHJlYW1TZXJ2aWNlUHJvZmlsZURpYWxvZywgewogICAgICBwcm9wczogewogICAgICAgIGNhdGFsb2csCiAgICAgICAgaW5pdGlhbFNlcnZpY2VJZDogImVhc3l0aWVyIiwKICAgICAgICBsb2FkaW5nOiBmYWxzZSwKICAgICAgICBtYXBwaW5nLAogICAgICAgIG9wZW46IGZhbHNlLAogICAgICB9LAogICAgICBnbG9iYWw6IHsKICAgICAgICBwbHVnaW5zOiBbCiAgICAgICAgICBjcmVhdGVJMThuKHsKICAgICAgICAgICAgbGVnYWN5OiBmYWxzZSwKICAgICAgICAgICAgbG9jYWxlOiAiZW4iLAogICAgICAgICAgICBtZXNzYWdlczogewogICAgICAgICAgICAgIGVuOiB7CiAgICAgICAgICAgICAgICBhZG1pbjogewogICAgICAgICAgICAgICAgICBzdHJlYW1NYXBwaW5nczogewogICAgICAgICAgICAgICAgICAgIGNhbmNlbDogIkNhbmNlbCIsCiAgICAgICAgICAgICAgICAgICAgY29uZmlybVNlcnZpY2U6ICJDb25maXJtIGFuZCBlbmFibGUgdmFsaWRhdGlvbiIsCiAgICAgICAgICAgICAgICAgICAgY29uZmlybVNlcnZpY2VJZGVudGlmaWNhdGlvbk9ubHk6ICJDb25maXJtIHNlcnZpY2UgdHlwZSIsCiAgICAgICAgICAgICAgICAgICAgc2VsZWN0U2VydmljZURlc2NyaXB0aW9uOiAiU2VsZWN0IGEgc2VydmljZSIsCiAgICAgICAgICAgICAgICAgICAgc2VsZWN0U2VydmljZUlkZW50aWZpY2F0aW9uT25seVdhcm5pbmc6CiAgICAgICAgICAgICAgICAgICAgICAiU3RyaWN0IHZhbGlkYXRpb24gcmVtYWlucyBvZmYgYW5kIHRoZSBtYXBwaW5nIHN0YXlzIGVuYWJsZWQuIiwKICAgICAgICAgICAgICAgICAgICBzZWxlY3RTZXJ2aWNlUGxhY2Vob2xkZXI6ICJTZWxlY3QiLAogICAgICAgICAgICAgICAgICAgIHNlbGVjdFNlcnZpY2VUaXRsZTogIlNwZWNpZnkgc2VydmljZSB0eXBlIiwKICAgICAgICAgICAgICAgICAgICBzZWxlY3RTZXJ2aWNlV2FybmluZzoKICAgICAgICAgICAgICAgICAgICAgICJBIHdyb25nIHN0cmljdCBjaG9pY2UgcmVqZWN0cyBjb25uZWN0aW9ucy4iLAogICAgICAgICAgICAgICAgICAgIHNlcnZpY2VJZGVudGlmaWNhdGlvbk9ubHk6ICJJZGVudGlmaWNhdGlvbiBvbmx5IiwKICAgICAgICAgICAgICAgICAgICBzZXJ2aWNlUHJvZmlsZTogIlNlcnZpY2UgaWRlbnRpZmljYXRpb24iLAogICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICB9LAogICAgICAgICAgICB9LAogICAgICAgICAgfSksCiAgICAgICAgXSwKICAgICAgICBzdHViczogewogICAgICAgICAgQnV0dG9uOiB7CiAgICAgICAgICAgIHByb3BzOiBbImRpc2FibGVkIl0sCiAgICAgICAgICAgIHRlbXBsYXRlOiAnPGJ1dHRvbiA6ZGlzYWJsZWQ9ImRpc2FibGVkIj48c2xvdCAvPjwvYnV0dG9uPicsCiAgICAgICAgICB9LAogICAgICAgICAgRGlhbG9nOiBwYXNzdGhyb3VnaCwKICAgICAgICAgIERpYWxvZ0NvbnRlbnQ6IHBhc3N0aHJvdWdoLAogICAgICAgICAgRGlhbG9nRGVzY3JpcHRpb246IHBhc3N0aHJvdWdoLAogICAgICAgICAgRGlhbG9nRm9vdGVyOiBwYXNzdGhyb3VnaCwKICAgICAgICAgIERpYWxvZ0hlYWRlcjogcGFzc3Rocm91Z2gsCiAgICAgICAgICBEaWFsb2dUaXRsZTogcGFzc3Rocm91Z2gsCiAgICAgICAgICBMYWJlbDogcGFzc3Rocm91Z2gsCiAgICAgICAgfSwKICAgICAgfSwKICAgIH0pOwoKICAgIGF3YWl0IHdyYXBwZXIuc2V0UHJvcHMoeyBvcGVuOiB0cnVlIH0pOwoKICAgIGNvbnN0IHNlbGVjdCA9IHdyYXBwZXIuZ2V0KCJzZWxlY3QiKTsKICAgIGV4cGVjdChzZWxlY3QuZWxlbWVudC52YWx1ZSkudG9CZSgiZWFzeXRpZXIiKTsKICAgIGV4cGVjdCgKICAgICAgc2VsZWN0LmZpbmRBbGwoIm9wdGlvbiIpLm1hcCgob3B0aW9uKSA9PiBvcHRpb24uYXR0cmlidXRlcygidmFsdWUiKSksCiAgICApLnRvRXF1YWwoWyIiLCAiZWFzeXRpZXIiLCAid2ViZGF2Il0pOwogICAgZXhwZWN0KHdyYXBwZXIudGV4dCgpKS50b0NvbnRhaW4oIkVhc3lUaWVyIMK3IHZwbiDCtyBJZGVudGlmaWNhdGlvbiBvbmx5Iik7CiAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLnRvQ29udGFpbigKICAgICAgIlN0cmljdCB2YWxpZGF0aW9uIHJlbWFpbnMgb2ZmIGFuZCB0aGUgbWFwcGluZyBzdGF5cyBlbmFibGVkLiIsCiAgICApOwogICAgZXhwZWN0KHdyYXBwZXIudGV4dCgpKS50b0NvbnRhaW4oIkNvbmZpcm0gc2VydmljZSB0eXBlIik7CiAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLm5vdC50b0NvbnRhaW4oCiAgICAgICJBIHdyb25nIHN0cmljdCBjaG9pY2UgcmVqZWN0cyBjb25uZWN0aW9ucy4iLAogICAgKTsKCiAgICBhd2FpdCBzZWxlY3Quc2V0VmFsdWUoIndlYmRhdiIpOwogICAgZXhwZWN0KHdyYXBwZXIudGV4dCgpKS50b0NvbnRhaW4oIkNvbmZpcm0gYW5kIGVuYWJsZSB2YWxpZGF0aW9uIik7CiAgICBleHBlY3Qod3JhcHBlci50ZXh0KCkpLnRvQ29udGFpbigKICAgICAgIkEgd3Jvbmcgc3RyaWN0IGNob2ljZSByZWplY3RzIGNvbm5lY3Rpb25zLiIsCiAgICApOwogICAgd3JhcHBlci51bm1vdW50KCk7CiAgfSk7Cn0pOwo=
+import { mount } from "@vue/test-utils";
+import { createI18n } from "vue-i18n";
+import { describe, expect, it } from "vitest";
+import type { StreamServiceCatalog } from "../src/lib/api/config";
+import type { StreamMapping } from "../src/types";
+import StreamServiceProfileDialog from "../src/views/stream-mappings/StreamServiceProfileDialog.vue";
+
+const mapping = {
+  listen_port: 6788,
+  protocol: "tcp",
+  service_profile: {
+    service_id: "easytier",
+    source: "probe",
+    strict_capable: false,
+  },
+  target: "192.168.31.98:11010",
+} as StreamMapping;
+
+const catalog: StreamServiceCatalog = {
+  classifier_version: "stream-signatures-v4",
+  items: [
+    {
+      active_probe_supported: true,
+      display_name: "EasyTier",
+      service_family: "vpn",
+      service_id: "easytier",
+      strict_capable: false,
+      transports: ["tcp"],
+    },
+    {
+      active_probe_supported: true,
+      display_name: "WebDAV",
+      service_family: "file_service",
+      service_id: "webdav",
+      strict_capable: true,
+      transports: ["tcp"],
+    },
+    {
+      active_probe_supported: true,
+      display_name: "ONVIF",
+      service_family: "video",
+      service_id: "onvif",
+      strict_capable: true,
+      transports: ["udp"],
+    },
+  ],
+};
+
+const passthrough = { template: "<div><slot /></div>" };
+
+describe("stream service profile dialog", () => {
+  it("offers identification-only TCP services and explains their safe behavior", async () => {
+    const wrapper = mount(StreamServiceProfileDialog, {
+      props: {
+        catalog,
+        initialServiceId: "easytier",
+        loading: false,
+        mapping,
+        open: false,
+      },
+      global: {
+        plugins: [
+          createI18n({
+            legacy: false,
+            locale: "en",
+            messages: {
+              en: {
+                admin: {
+                  streamMappings: {
+                    cancel: "Cancel",
+                    confirmService: "Confirm and enable validation",
+                    confirmServiceIdentificationOnly: "Confirm service type",
+                    selectServiceDescription: "Select a service",
+                    selectServiceIdentificationOnlyWarning:
+                      "Strict validation remains off and the mapping stays enabled.",
+                    selectServicePlaceholder: "Select",
+                    selectServiceTitle: "Specify service type",
+                    selectServiceWarning:
+                      "A wrong strict choice rejects connections.",
+                    serviceIdentificationOnly: "Identification only",
+                    serviceProfile: "Service identification",
+                  },
+                },
+              },
+            },
+          }),
+        ],
+        stubs: {
+          Button: {
+            props: ["disabled"],
+            template: '<button :disabled="disabled"><slot /></button>',
+          },
+          Dialog: passthrough,
+          DialogContent: passthrough,
+          DialogDescription: passthrough,
+          DialogFooter: passthrough,
+          DialogHeader: passthrough,
+          DialogTitle: passthrough,
+          Label: passthrough,
+        },
+      },
+    });
+
+    await wrapper.setProps({ open: true });
+
+    const select = wrapper.get("select");
+    expect(select.element.value).toBe("easytier");
+    expect(
+      select.findAll("option").map((option) => option.attributes("value")),
+    ).toEqual(["", "easytier", "webdav"]);
+    expect(wrapper.text()).toContain("EasyTier · vpn · Identification only");
+    expect(wrapper.text()).toContain(
+      "Strict validation remains off and the mapping stays enabled.",
+    );
+    expect(wrapper.text()).toContain("Confirm service type");
+    expect(wrapper.text()).not.toContain(
+      "A wrong strict choice rejects connections.",
+    );
+
+    await select.setValue("webdav");
+    expect(wrapper.text()).toContain("Confirm and enable validation");
+    expect(wrapper.text()).toContain(
+      "A wrong strict choice rejects connections.",
+    );
+    wrapper.unmount();
+  });
+});

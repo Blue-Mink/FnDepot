@@ -1,1 +1,212 @@
-dXNlIHN1cGVyOjoqOwoKI1thbGxvdyhjbGlwcHk6OnRvb19tYW55X2FyZ3VtZW50cyldCnB1YihzdXBlcikgYXN5bmMgZm4gaW5zcGVjdF9hdXhpbGlhcnlfZG5zKAogICAgYXBpOiAmQ2xvdWRmbGFyZUFwaSwKICAgIHpvbmVfaWQ6ICZzdHIsCiAgICBuYW1lOiAmc3RyLAogICAgb3duZWRfaWQ6IE9wdGlvbjwmc3RyPiwKICAgIGxvZ2ljYWxfaWQ6ICZzdHIsCiAgICBpbnN0YW5jZV9pZDogJnN0ciwKICAgIHJlY29yZF90eXBlOiAmc3RyLAogICAgY29udGVudDogT3B0aW9uPCZzdHI+LAogICAgcHJveGllZDogYm9vbCwKICAgIG9wZXJhdGlvbnM6ICZtdXQgVmVjPFZhbHVlPiwKICAgIGNvbmZsaWN0czogJm11dCBWZWM8VmFsdWU+LAogICAgcmVtb3RlX3NuYXBzaG90OiAmbXV0IFZlYzxWYWx1ZT4sCikgLT4gUmVzdWx0PCgpLCBDbG91ZGZsYXJlQXBpRXJyb3I+IHsKICAgIGxldCByZWNvcmRzID0gYXBpLmxpc3RfZG5zX3JlY29yZHMoem9uZV9pZCwgU29tZShuYW1lKSkuYXdhaXQ/OwogICAgcmVtb3RlX3NuYXBzaG90LnB1c2goanNvbiEoewogICAgICAgICJob3N0bmFtZSI6IG5hbWUsCiAgICAgICAgImRuc1JlY29yZHMiOiByZWNvcmRzLmNsb25lKCksCiAgICB9KSk7CiAgICBpZiByZWNvcmRzLmlzX2VtcHR5KCkgewogICAgICAgIG9wZXJhdGlvbnMucHVzaChwcmV2aWV3X29wZXJhdGlvbihsb2dpY2FsX2lkLCAiZG5zIiwgImNyZWF0ZSIsIG5hbWUsIGZhbHNlKSk7CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH0KICAgIGxldCByZWNvcmQgPSBvd25lZF9pZAogICAgICAgIC5hbmRfdGhlbih8aWR8IHsKICAgICAgICAgICAgcmVjb3JkcwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLmZpbmQofHJlY29yZHwgcmVjb3JkLmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKGlkKSkKICAgICAgICB9KQogICAgICAgIC5vcl9lbHNlKHx8IHsKICAgICAgICAgICAgcmVjb3JkcwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLmZpbmQofHJlY29yZHwgaXNfbWFuYWdlZF9kbnMocmVjb3JkLCBpbnN0YW5jZV9pZCkpCiAgICAgICAgfSkKICAgICAgICAudW53cmFwX29yKCZyZWNvcmRzWzBdKTsKICAgIGlmIHJlY29yZHMubGVuKCkgPT0gMQogICAgICAgICYmIGRuc19yZWNvcmRfb3duZWRfZm9yX3VwZGF0ZShyZWNvcmQsIG93bmVkX2lkLCBpbnN0YW5jZV9pZCwgcmVjb3JkX3R5cGUsIGNvbnRlbnQsIHByb3hpZWQpCiAgICB7CiAgICAgICAgb3BlcmF0aW9ucy5wdXNoKHByZXZpZXdfb3BlcmF0aW9uKGxvZ2ljYWxfaWQsICJkbnMiLCAidXBkYXRlIiwgbmFtZSwgdHJ1ZSkpOwogICAgfSBlbHNlIHsKICAgICAgICBsZXQgc2luZ2xlX3JlY29yZCA9IHJlY29yZHMubGVuKCkgPT0gMTsKICAgICAgICBjb25mbGljdHMucHVzaChqc29uISh7CiAgICAgICAgICAgICJpZCI6IGxvZ2ljYWxfaWQsCiAgICAgICAgICAgICJraW5kIjogImRucyIsCiAgICAgICAgICAgICJ0YXJnZXQiOiBuYW1lLAogICAgICAgICAgICAibWVzc2FnZUNvZGUiOiBpZiBzaW5nbGVfcmVjb3JkIHsgIm9wdGltaXphdGlvbkRuc0NvbmZsaWN0IiB9IGVsc2UgeyAibXVsdGlwbGVPcHRpbWl6YXRpb25EbnNDb25mbGljdCIgfSwKICAgICAgICAgICAgIm1lc3NhZ2UiOiBpZiBzaW5nbGVfcmVjb3JkIHsKICAgICAgICAgICAgICAgICJBbiB1bm93bmVkIEROUyByZWNvcmQgYWxyZWFkeSB1c2VzIHRoZSBvcHRpbWl6YXRpb24gaG9zdG5hbWUiCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAiTXVsdGlwbGUgRE5TIHJlY29yZHMgYWxyZWFkeSB1c2UgdGhlIG9wdGltaXphdGlvbiBob3N0bmFtZSIKICAgICAgICAgICAgfSwKICAgICAgICAgICAgInRha2VvdmVyQWxsb3dlZCI6IHNpbmdsZV9yZWNvcmQsCiAgICAgICAgICAgICJkZXRhaWxzIjogZG5zX2NvbmZsaWN0X2RldGFpbHMoCiAgICAgICAgICAgICAgICAmcmVjb3JkcywKICAgICAgICAgICAgICAgIGluc3RhbmNlX2lkLAogICAgICAgICAgICAgICAgcmVjb3JkX3R5cGUsCiAgICAgICAgICAgICAgICBjb250ZW50LnVud3JhcF9vcigiIiksCiAgICAgICAgICAgICAgICBwcm94aWVkLAogICAgICAgICAgICApLAogICAgICAgIH0pKTsKICAgIH0KICAgIE9rKCgpKQp9CgpwdWIoc3VwZXIpIGZuIHJlY292ZXJhYmxlX2ZuX2tub2NrX2N1c3RvbV9ob3N0bmFtZV9mcm9tX3NuYXBzaG90KAogICAgY3VzdG9tOiAmVmFsdWUsCiAgICBleGFjdF9yZWNvcmRzOiAmW1ZhbHVlXSwKICAgIG9yaWdpbl9yZWNvcmRzOiAmW1ZhbHVlXSwKICAgIHJlY292ZXJ5X29yaWdpbjogT3B0aW9uPCZzdHI+LAogICAgcm9vdDogJnN0ciwKICAgIGN1cnJlbnRfaW5zdGFuY2VfaWQ6ICZzdHIsCiAgICByZWNvdmVyZWRfb3JpZ2luOiBPcHRpb248JlZhbHVlPiwKKSAtPiBPcHRpb248UmVjb3ZlcmFibGVDdXN0b21Ib3N0bmFtZT4gewogICAgbGV0IG9yaWdpbl9ob3N0bmFtZSA9IGN1c3RvbQogICAgICAgIC5nZXQoImN1c3RvbV9vcmlnaW5fc2VydmVyIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cik/CiAgICAgICAgLnRyaW0oKQogICAgICAgIC50cmltX2VuZF9tYXRjaGVzKCcuJykKICAgICAgICAudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBsZXQgZXhwZWN0ZWRfcmVjb3Zlcnlfb3JpZ2luID0gcmVjb3Zlcnlfb3JpZ2luPwogICAgICAgIC50cmltKCkKICAgICAgICAudHJpbV9lbmRfbWF0Y2hlcygnLicpCiAgICAgICAgLnRvX2FzY2lpX2xvd2VyY2FzZSgpOwogICAgaWYgb3JpZ2luX2hvc3RuYW1lICE9IGV4cGVjdGVkX3JlY292ZXJ5X29yaWdpbiB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBsZXQgbGVnYWN5X2luc3RhbmNlX2lkID0gZm5fa25vY2tfb3JpZ2luX2luc3RhbmNlKCZvcmlnaW5faG9zdG5hbWUsIHJvb3QpPzsKICAgIGxldCBob3N0bmFtZSA9IGN1c3RvbS5nZXQoImhvc3RuYW1lIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cik/OwogICAgbGV0IGV4cGVjdGVkX2VkZ2UgPSBmb3JtYXQhKCJmbmtub2NrLWVkZ2Ute2xlZ2FjeV9pbnN0YW5jZV9pZH0ue3Jvb3R9Iik7CiAgICBsZXQgZXhhY3RfZG5zID0gZXhhY3RfcmVjb3Jkcy5pdGVyKCkuZmluZCh8cmVjb3JkfCB7CiAgICAgICAgcmVjb3JkCiAgICAgICAgICAgIC5nZXQoIm5hbWUiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHx2YWx1ZXwgdmFsdWUuZXFfaWdub3JlX2FzY2lpX2Nhc2UoaG9zdG5hbWUpKQogICAgICAgICAgICAmJiByZWNvcmQuZ2V0KCJ0eXBlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSgiQ05BTUUiKQogICAgICAgICAgICAmJiByZWNvcmQKICAgICAgICAgICAgICAgIC5nZXQoImNvbnRlbnQiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAuaXNfc29tZV9hbmQofHZhbHVlfCB7CiAgICAgICAgICAgICAgICAgICAgdmFsdWUuZXFfaWdub3JlX2FzY2lpX2Nhc2UoJmV4cGVjdGVkX2VkZ2UpCiAgICAgICAgICAgICAgICAgICAgICAgIHx8IHZhbHVlLmVxX2lnbm9yZV9hc2NpaV9jYXNlKCZvcmlnaW5faG9zdG5hbWUpCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAmJiByZWNvcmQuZ2V0KCJwcm94aWVkIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpID09IFNvbWUoZmFsc2UpCiAgICAgICAgICAgICYmIGlzX21hbmFnZWRfZG5zKHJlY29yZCwgJmxlZ2FjeV9pbnN0YW5jZV9pZCkKICAgIH0pPzsKICAgIGxldCBvcmlnaW5fZG5zID0gb3JpZ2luX3JlY29yZHMuaXRlcigpLmZpbmQofHJlY29yZHwgewogICAgICAgIGxldCB0dW5uZWxfdGFyZ2V0ID0gcmVjb3JkCiAgICAgICAgICAgIC5nZXQoImNvbnRlbnQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLm1hcCh8dmFsdWV8IHZhbHVlLnRyaW0oKS50cmltX2VuZF9tYXRjaGVzKCcuJykpOwogICAgICAgIHJlY29yZAogICAgICAgICAgICAuZ2V0KCJuYW1lIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgIC5pc19zb21lX2FuZCh8dmFsdWV8IHZhbHVlLmVxX2lnbm9yZV9hc2NpaV9jYXNlKCZvcmlnaW5faG9zdG5hbWUpKQogICAgICAgICAgICAmJiByZWNvcmQuZ2V0KCJ0eXBlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSgiQ05BTUUiKQogICAgICAgICAgICAmJiB0dW5uZWxfdGFyZ2V0LmlzX3NvbWVfYW5kKHx2YWx1ZXwgewogICAgICAgICAgICAgICAgdmFsdWUKICAgICAgICAgICAgICAgICAgICAuc3RyaXBfc3VmZml4KCIuY2ZhcmdvdHVubmVsLmNvbSIpCiAgICAgICAgICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHxpZHwgdXVpZDo6VXVpZDo6cGFyc2Vfc3RyKGlkKS5pc19vaygpKQogICAgICAgICAgICB9KQogICAgICAgICAgICAmJiByZWNvcmQuZ2V0KCJwcm94aWVkIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpID09IFNvbWUodHJ1ZSkKICAgICAgICAgICAgJiYgKGlzX21hbmFnZWRfZG5zKHJlY29yZCwgJmxlZ2FjeV9pbnN0YW5jZV9pZCkKICAgICAgICAgICAgICAgIHx8IHJlY292ZXJlZF9vcmlnaW4uaXNfc29tZV9hbmQofHNhdmVkfCB7CiAgICAgICAgICAgICAgICAgICAgc2F2ZWQuZ2V0KCJyZWNvdmVyZWRGcm9tSW5zdGFuY2UiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgICAgICA9PSBTb21lKGxlZ2FjeV9pbnN0YW5jZV9pZC5hc19zdHIoKSkKICAgICAgICAgICAgICAgICAgICAgICAgJiYgc2F2ZWQuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PSByZWNvcmQuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgICAgICYmIHNhdmVkLmdldCgibmFtZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PSByZWNvcmQuZ2V0KCJuYW1lIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAgICAgJiYgc2F2ZWQuZ2V0KCJ0eXBlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAgICAgICAgID09IHJlY29yZC5nZXQoInR5cGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgICAgICAmJiBzYXZlZC5nZXQoImNvbnRlbnQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPT0gcmVjb3JkLmdldCgiY29udGVudCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgICAgICYmIHNhdmVkLmdldCgicHJveGllZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPT0gcmVjb3JkLmdldCgicHJveGllZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKQogICAgICAgICAgICAgICAgICAgICAgICAmJiBpc19tYW5hZ2VkX2RucyhyZWNvcmQsIGN1cnJlbnRfaW5zdGFuY2VfaWQpCiAgICAgICAgICAgICAgICB9KSkKICAgIH0pPzsKICAgIFNvbWUoUmVjb3ZlcmFibGVDdXN0b21Ib3N0bmFtZSB7CiAgICAgICAgbGVnYWN5X2luc3RhbmNlX2lkLAogICAgICAgIG9yaWdpbl9ob3N0bmFtZSwKICAgICAgICBvcmlnaW5fZG5zOiBvcmlnaW5fZG5zLmNsb25lKCksCiAgICAgICAgZXhhY3RfZG5zOiBleGFjdF9kbnMuY2xvbmUoKSwKICAgIH0pCn0KCiNbYWxsb3coY2xpcHB5Ojp0b29fbWFueV9hcmd1bWVudHMpXQpwdWIoc3VwZXIpIGFzeW5jIGZuIGluc3BlY3RfcmVjb3ZlcmFibGVfZm5fa25vY2tfY3VzdG9tX2hvc3RuYW1lKAogICAgYXBpOiAmQ2xvdWRmbGFyZUFwaSwKICAgIHpvbmVfaWQ6ICZzdHIsCiAgICByb290OiAmc3RyLAogICAgY3VzdG9tOiAmVmFsdWUsCiAgICBleGFjdF9yZWNvcmRzOiAmW1ZhbHVlXSwKICAgIHJlY292ZXJ5X29yaWdpbjogT3B0aW9uPCZzdHI+LAogICAgY3VycmVudF9pbnN0YW5jZV9pZDogJnN0ciwKICAgIHJlY292ZXJlZF9vcmlnaW46IE9wdGlvbjwmVmFsdWU+LAopIC0+IFJlc3VsdDwoT3B0aW9uPFJlY292ZXJhYmxlQ3VzdG9tSG9zdG5hbWU+LCBWZWM8VmFsdWU+KSwgQ2xvdWRmbGFyZUFwaUVycm9yPiB7CiAgICBsZXQgU29tZShvcmlnaW5faG9zdG5hbWUpID0gY3VzdG9tCiAgICAgICAgLmdldCgiY3VzdG9tX29yaWdpbl9zZXJ2ZXIiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCBmbl9rbm9ja19vcmlnaW5faW5zdGFuY2UodmFsdWUsIHJvb3QpLmlzX3NvbWUoKSkKICAgIGVsc2UgewogICAgICAgIHJldHVybiBPaygoTm9uZSwgVmVjOjpuZXcoKSkpOwogICAgfTsKICAgIGxldCBvcmlnaW5fcmVjb3JkcyA9IGFwaS5saXN0X2Ruc19yZWNvcmRzKHpvbmVfaWQsIFNvbWUob3JpZ2luX2hvc3RuYW1lKSkuYXdhaXQ/OwogICAgbGV0IHJlY292ZXJhYmxlID0gcmVjb3ZlcmFibGVfZm5fa25vY2tfY3VzdG9tX2hvc3RuYW1lX2Zyb21fc25hcHNob3QoCiAgICAgICAgY3VzdG9tLAogICAgICAgIGV4YWN0X3JlY29yZHMsCiAgICAgICAgJm9yaWdpbl9yZWNvcmRzLAogICAgICAgIHJlY292ZXJ5X29yaWdpbiwKICAgICAgICByb290LAogICAgICAgIGN1cnJlbnRfaW5zdGFuY2VfaWQsCiAgICAgICAgcmVjb3ZlcmVkX29yaWdpbiwKICAgICk7CiAgICBPaygocmVjb3ZlcmFibGUsIG9yaWdpbl9yZWNvcmRzKSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBhZG9wdF9yZWNvdmVyYWJsZV9mbl9rbm9ja19vcmlnaW4oCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgYXBpOiAmQ2xvdWRmbGFyZUFwaSwKICAgIHpvbmVfaWQ6ICZzdHIsCiAgICBvd25lcnNoaXA6ICZtdXQgVmFsdWUsCiAgICByZWNvdmVyYWJsZTogJlJlY292ZXJhYmxlQ3VzdG9tSG9zdG5hbWUsCiAgICBvcmlnaW5fdGFyZ2V0OiAmc3RyLAogICAgaW5zdGFuY2VfaWQ6ICZzdHIsCikgLT4gUmVzdWx0PCgpLCBDbG91ZGZsYXJlQXBpRXJyb3I+IHsKICAgIGxldCBvcmlnaW5fZG5zID0gdXBzZXJ0X21hbmFnZWRfZG5zKAogICAgICAgIGFwaSwKICAgICAgICBNYW5hZ2VkRG5zUmVxdWVzdCB7CiAgICAgICAgICAgIHpvbmVfaWQsCiAgICAgICAgICAgIG5hbWU6ICZyZWNvdmVyYWJsZS5vcmlnaW5faG9zdG5hbWUsCiAgICAgICAgICAgIHJlY29yZF90eXBlOiAiQ05BTUUiLAogICAgICAgICAgICBjb250ZW50OiBvcmlnaW5fdGFyZ2V0LAogICAgICAgICAgICBwcm94aWVkOiB0cnVlLAogICAgICAgICAgICBvd25lZF9pZDogcmVjb3ZlcmFibGUub3JpZ2luX2Rucy5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0ciksCiAgICAgICAgICAgIHRha2VvdmVyOiB0cnVlLAogICAgICAgICAgICBpbnN0YW5jZV9pZCwKICAgICAgICB9LAogICAgKQogICAgLmF3YWl0PzsKICAgIGxldCBtdXQgcmVjb3ZlcmVkX29yaWdpbiA9IG9yaWdpbl9kbnM7CiAgICBlbnN1cmVfb2JqZWN0KCZtdXQgcmVjb3ZlcmVkX29yaWdpbikuaW5zZXJ0KAogICAgICAgICJyZWNvdmVyZWRGcm9tSW5zdGFuY2UiLnRvX3N0cmluZygpLAogICAgICAgIGpzb24hKHJlY292ZXJhYmxlLmxlZ2FjeV9pbnN0YW5jZV9pZCksCiAgICApOwogICAgZW5zdXJlX25lc3RlZF9vYmplY3Qob3duZXJzaGlwLCAmWyJvcHRpbWl6YXRpb24iLCAicmVjb3ZlcmVkT3JpZ2lucyJdKQogICAgICAgIC5pbnNlcnQocmVjb3ZlcmFibGUub3JpZ2luX2hvc3RuYW1lLmNsb25lKCksIHJlY292ZXJlZF9vcmlnaW4pOwogICAgc2F2ZV9tYW5hZ2VkX3N0YXRlKHN0YXRlLCBvd25lcnNoaXApLmF3YWl0Cn0K
+use super::*;
+
+#[allow(clippy::too_many_arguments)]
+pub(super) async fn inspect_auxiliary_dns(
+    api: &CloudflareApi,
+    zone_id: &str,
+    name: &str,
+    owned_id: Option<&str>,
+    logical_id: &str,
+    instance_id: &str,
+    record_type: &str,
+    content: Option<&str>,
+    proxied: bool,
+    operations: &mut Vec<Value>,
+    conflicts: &mut Vec<Value>,
+    remote_snapshot: &mut Vec<Value>,
+) -> Result<(), CloudflareApiError> {
+    let records = api.list_dns_records(zone_id, Some(name)).await?;
+    remote_snapshot.push(json!({
+        "hostname": name,
+        "dnsRecords": records.clone(),
+    }));
+    if records.is_empty() {
+        operations.push(preview_operation(logical_id, "dns", "create", name, false));
+        return Ok(());
+    }
+    let record = owned_id
+        .and_then(|id| {
+            records
+                .iter()
+                .find(|record| record.get("id").and_then(Value::as_str) == Some(id))
+        })
+        .or_else(|| {
+            records
+                .iter()
+                .find(|record| is_managed_dns(record, instance_id))
+        })
+        .unwrap_or(&records[0]);
+    if records.len() == 1
+        && dns_record_owned_for_update(record, owned_id, instance_id, record_type, content, proxied)
+    {
+        operations.push(preview_operation(logical_id, "dns", "update", name, true));
+    } else {
+        let single_record = records.len() == 1;
+        conflicts.push(json!({
+            "id": logical_id,
+            "kind": "dns",
+            "target": name,
+            "messageCode": if single_record { "optimizationDnsConflict" } else { "multipleOptimizationDnsConflict" },
+            "message": if single_record {
+                "An unowned DNS record already uses the optimization hostname"
+            } else {
+                "Multiple DNS records already use the optimization hostname"
+            },
+            "takeoverAllowed": single_record,
+            "details": dns_conflict_details(
+                &records,
+                instance_id,
+                record_type,
+                content.unwrap_or(""),
+                proxied,
+            ),
+        }));
+    }
+    Ok(())
+}
+
+pub(super) fn recoverable_fn_knock_custom_hostname_from_snapshot(
+    custom: &Value,
+    exact_records: &[Value],
+    origin_records: &[Value],
+    recovery_origin: Option<&str>,
+    root: &str,
+    current_instance_id: &str,
+    recovered_origin: Option<&Value>,
+) -> Option<RecoverableCustomHostname> {
+    let origin_hostname = custom
+        .get("custom_origin_server")
+        .and_then(Value::as_str)?
+        .trim()
+        .trim_end_matches('.')
+        .to_ascii_lowercase();
+    let expected_recovery_origin = recovery_origin?
+        .trim()
+        .trim_end_matches('.')
+        .to_ascii_lowercase();
+    if origin_hostname != expected_recovery_origin {
+        return None;
+    }
+    let legacy_instance_id = fn_knock_origin_instance(&origin_hostname, root)?;
+    let hostname = custom.get("hostname").and_then(Value::as_str)?;
+    let expected_edge = format!("fnknock-edge-{legacy_instance_id}.{root}");
+    let exact_dns = exact_records.iter().find(|record| {
+        record
+            .get("name")
+            .and_then(Value::as_str)
+            .is_some_and(|value| value.eq_ignore_ascii_case(hostname))
+            && record.get("type").and_then(Value::as_str) == Some("CNAME")
+            && record
+                .get("content")
+                .and_then(Value::as_str)
+                .is_some_and(|value| {
+                    value.eq_ignore_ascii_case(&expected_edge)
+                        || value.eq_ignore_ascii_case(&origin_hostname)
+                })
+            && record.get("proxied").and_then(Value::as_bool) == Some(false)
+            && is_managed_dns(record, &legacy_instance_id)
+    })?;
+    let origin_dns = origin_records.iter().find(|record| {
+        let tunnel_target = record
+            .get("content")
+            .and_then(Value::as_str)
+            .map(|value| value.trim().trim_end_matches('.'));
+        record
+            .get("name")
+            .and_then(Value::as_str)
+            .is_some_and(|value| value.eq_ignore_ascii_case(&origin_hostname))
+            && record.get("type").and_then(Value::as_str) == Some("CNAME")
+            && tunnel_target.is_some_and(|value| {
+                value
+                    .strip_suffix(".cfargotunnel.com")
+                    .is_some_and(|id| uuid::Uuid::parse_str(id).is_ok())
+            })
+            && record.get("proxied").and_then(Value::as_bool) == Some(true)
+            && (is_managed_dns(record, &legacy_instance_id)
+                || recovered_origin.is_some_and(|saved| {
+                    saved.get("recoveredFromInstance").and_then(Value::as_str)
+                        == Some(legacy_instance_id.as_str())
+                        && saved.get("id").and_then(Value::as_str)
+                            == record.get("id").and_then(Value::as_str)
+                        && saved.get("name").and_then(Value::as_str)
+                            == record.get("name").and_then(Value::as_str)
+                        && saved.get("type").and_then(Value::as_str)
+                            == record.get("type").and_then(Value::as_str)
+                        && saved.get("content").and_then(Value::as_str)
+                            == record.get("content").and_then(Value::as_str)
+                        && saved.get("proxied").and_then(Value::as_bool)
+                            == record.get("proxied").and_then(Value::as_bool)
+                        && is_managed_dns(record, current_instance_id)
+                }))
+    })?;
+    Some(RecoverableCustomHostname {
+        legacy_instance_id,
+        origin_hostname,
+        origin_dns: origin_dns.clone(),
+        exact_dns: exact_dns.clone(),
+    })
+}
+
+#[allow(clippy::too_many_arguments)]
+pub(super) async fn inspect_recoverable_fn_knock_custom_hostname(
+    api: &CloudflareApi,
+    zone_id: &str,
+    root: &str,
+    custom: &Value,
+    exact_records: &[Value],
+    recovery_origin: Option<&str>,
+    current_instance_id: &str,
+    recovered_origin: Option<&Value>,
+) -> Result<(Option<RecoverableCustomHostname>, Vec<Value>), CloudflareApiError> {
+    let Some(origin_hostname) = custom
+        .get("custom_origin_server")
+        .and_then(Value::as_str)
+        .filter(|value| fn_knock_origin_instance(value, root).is_some())
+    else {
+        return Ok((None, Vec::new()));
+    };
+    let origin_records = api.list_dns_records(zone_id, Some(origin_hostname)).await?;
+    let recoverable = recoverable_fn_knock_custom_hostname_from_snapshot(
+        custom,
+        exact_records,
+        &origin_records,
+        recovery_origin,
+        root,
+        current_instance_id,
+        recovered_origin,
+    );
+    Ok((recoverable, origin_records))
+}
+
+pub(super) async fn adopt_recoverable_fn_knock_origin(
+    state: &AppState,
+    api: &CloudflareApi,
+    zone_id: &str,
+    ownership: &mut Value,
+    recoverable: &RecoverableCustomHostname,
+    origin_target: &str,
+    instance_id: &str,
+) -> Result<(), CloudflareApiError> {
+    let origin_dns = upsert_managed_dns(
+        api,
+        ManagedDnsRequest {
+            zone_id,
+            name: &recoverable.origin_hostname,
+            record_type: "CNAME",
+            content: origin_target,
+            proxied: true,
+            owned_id: recoverable.origin_dns.get("id").and_then(Value::as_str),
+            takeover: true,
+            instance_id,
+        },
+    )
+    .await?;
+    let mut recovered_origin = origin_dns;
+    ensure_object(&mut recovered_origin).insert(
+        "recoveredFromInstance".to_string(),
+        json!(recoverable.legacy_instance_id),
+    );
+    ensure_nested_object(ownership, &["optimization", "recoveredOrigins"])
+        .insert(recoverable.origin_hostname.clone(), recovered_origin);
+    save_managed_state(state, ownership).await
+}

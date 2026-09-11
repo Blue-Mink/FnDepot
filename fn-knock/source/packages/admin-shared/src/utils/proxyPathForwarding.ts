@@ -1,1 +1,103 @@
-ZXhwb3J0IHR5cGUgUHJveHlQYXRoRm9yd2FyZGluZ01vZGUgPSAia2VlcCIgfCAic3RyaXAiOwoKZXhwb3J0IHR5cGUgUHJveHlQYXRoRm9yd2FyZGluZ1ByZXZpZXcgPSB7CiAgcmVxdWVzdFBhdGg6IHN0cmluZzsKICB1cHN0cmVhbVBhdGg6IHN0cmluZzsKfTsKCmNvbnN0IGVuc3VyZUxlYWRpbmdTbGFzaCA9ICh2YWx1ZTogc3RyaW5nKTogc3RyaW5nID0+CiAgdmFsdWUuc3RhcnRzV2l0aCgiLyIpID8gdmFsdWUgOiBgLyR7dmFsdWV9YDsKCmNvbnN0IHNpbmdsZUpvaW5pbmdTbGFzaCA9IChsZWZ0OiBzdHJpbmcsIHJpZ2h0OiBzdHJpbmcpOiBzdHJpbmcgPT4gewogIGNvbnN0IGxlZnRIYXNTbGFzaCA9IGxlZnQuZW5kc1dpdGgoIi8iKTsKICBjb25zdCByaWdodEhhc1NsYXNoID0gcmlnaHQuc3RhcnRzV2l0aCgiLyIpOwogIGlmIChsZWZ0SGFzU2xhc2ggJiYgcmlnaHRIYXNTbGFzaCkgcmV0dXJuIGxlZnQgKyByaWdodC5zbGljZSgxKTsKICBpZiAoIWxlZnRIYXNTbGFzaCAmJiAhcmlnaHRIYXNTbGFzaCkgcmV0dXJuIGAke2xlZnR9LyR7cmlnaHR9YDsKICByZXR1cm4gbGVmdCArIHJpZ2h0Owp9OwoKZXhwb3J0IGNvbnN0IGNsZWFuUHJveHlSb3V0ZVBhdGggPSAodmFsdWU6IHN0cmluZyk6IHN0cmluZyA9PiB7CiAgY29uc3QgcmF3ID0gdmFsdWUudHJpbSgpOwogIGlmICghcmF3LnN0YXJ0c1dpdGgoIi8iKSkgcmV0dXJuIHJhdzsKCiAgY29uc3Qgc2VnbWVudHM6IHN0cmluZ1tdID0gW107CiAgZm9yIChjb25zdCBzZWdtZW50IG9mIHJhdy5zcGxpdCgiLyIpKSB7CiAgICBpZiAoIXNlZ21lbnQgfHwgc2VnbWVudCA9PT0gIi4iKSBjb250aW51ZTsKICAgIGlmIChzZWdtZW50ID09PSAiLi4iKSB7CiAgICAgIHNlZ21lbnRzLnBvcCgpOwogICAgICBjb250aW51ZTsKICAgIH0KICAgIHNlZ21lbnRzLnB1c2goc2VnbWVudCk7CiAgfQoKICByZXR1cm4gYC8ke3NlZ21lbnRzLmpvaW4oIi8iKX1gOwp9OwoKZXhwb3J0IGNvbnN0IHJlc29sdmVQcm94eVRhcmdldFBhdGggPSAodGFyZ2V0OiBzdHJpbmcpOiBzdHJpbmcgPT4gewogIGNvbnN0IHJhdyA9IHRhcmdldC50cmltKCk7CiAgaWYgKCFyYXcpIHJldHVybiAiIjsKCiAgdHJ5IHsKICAgIGNvbnN0IHBhcnNlZCA9IG5ldyBVUkwocmF3KTsKICAgIHJldHVybiBwYXJzZWQucGF0aG5hbWUgfHwgIiI7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gIiI7CiAgfQp9OwoKZXhwb3J0IGNvbnN0IHN0cmlwTWF0Y2hlZFJvdXRlUGF0aCA9ICgKICByZXF1ZXN0UGF0aDogc3RyaW5nLAogIHJvdXRlUGF0aDogc3RyaW5nLAopOiBzdHJpbmcgPT4gewogIGNvbnN0IG5vcm1hbGl6ZWRSZXF1ZXN0UGF0aCA9IGVuc3VyZUxlYWRpbmdTbGFzaChyZXF1ZXN0UGF0aCk7CiAgaWYgKCFyb3V0ZVBhdGggfHwgcm91dGVQYXRoID09PSAiLyIpIHJldHVybiBub3JtYWxpemVkUmVxdWVzdFBhdGg7CgogIGNvbnN0IG5leHRQYXRoID0gbm9ybWFsaXplZFJlcXVlc3RQYXRoLnN0YXJ0c1dpdGgocm91dGVQYXRoKQogICAgPyBub3JtYWxpemVkUmVxdWVzdFBhdGguc2xpY2Uocm91dGVQYXRoLmxlbmd0aCkKICAgIDogbm9ybWFsaXplZFJlcXVlc3RQYXRoOwogIHJldHVybiBlbnN1cmVMZWFkaW5nU2xhc2gobmV4dFBhdGgpOwp9OwoKZXhwb3J0IGNvbnN0IGJ1aWxkUHJveHlGb3J3YXJkZWRQYXRoID0gKAogIHRhcmdldFBhdGg6IHN0cmluZywKICByZXF1ZXN0UGF0aDogc3RyaW5nLAogIG1vZGU6IFByb3h5UGF0aEZvcndhcmRpbmdNb2RlLAogIHJvdXRlUGF0aDogc3RyaW5nLAopOiBzdHJpbmcgPT4gewogIGNvbnN0IHJvdXRlT3V0cHV0UGF0aCA9CiAgICBtb2RlID09PSAic3RyaXAiCiAgICAgID8gc3RyaXBNYXRjaGVkUm91dGVQYXRoKHJlcXVlc3RQYXRoLCByb3V0ZVBhdGgpCiAgICAgIDogZW5zdXJlTGVhZGluZ1NsYXNoKHJlcXVlc3RQYXRoKTsKICByZXR1cm4gdGFyZ2V0UGF0aAogICAgPyBzaW5nbGVKb2luaW5nU2xhc2godGFyZ2V0UGF0aCwgcm91dGVPdXRwdXRQYXRoKQogICAgOiByb3V0ZU91dHB1dFBhdGg7Cn07CgpleHBvcnQgY29uc3QgYnVpbGRQcm94eVBhdGhGb3J3YXJkaW5nUHJldmlldyA9ICh7CiAgcm91dGVQYXRoLAogIHRhcmdldCwKICBtb2RlLAogIHNhbXBsZVN1ZmZpeCA9ICIvZXhhbXBsZSIsCn06IHsKICByb3V0ZVBhdGg6IHN0cmluZzsKICB0YXJnZXQ6IHN0cmluZzsKICBtb2RlOiBQcm94eVBhdGhGb3J3YXJkaW5nTW9kZTsKICBzYW1wbGVTdWZmaXg/OiBzdHJpbmc7Cn0pOiBQcm94eVBhdGhGb3J3YXJkaW5nUHJldmlldyA9PiB7CiAgY29uc3QgY2xlYW5lZFJvdXRlUGF0aCA9IGNsZWFuUHJveHlSb3V0ZVBhdGgocm91dGVQYXRoKTsKICBjb25zdCByZXF1ZXN0U3VmZml4ID0gZW5zdXJlTGVhZGluZ1NsYXNoKHNhbXBsZVN1ZmZpeC50cmltKCkgfHwgIi9leGFtcGxlIik7CiAgY29uc3QgcmVxdWVzdFBhdGggPQogICAgY2xlYW5lZFJvdXRlUGF0aCAmJiBjbGVhbmVkUm91dGVQYXRoICE9PSAiLyIKICAgICAgPyBzaW5nbGVKb2luaW5nU2xhc2goY2xlYW5lZFJvdXRlUGF0aCwgcmVxdWVzdFN1ZmZpeCkKICAgICAgOiByZXF1ZXN0U3VmZml4OwoKICByZXR1cm4gewogICAgcmVxdWVzdFBhdGgsCiAgICB1cHN0cmVhbVBhdGg6IGJ1aWxkUHJveHlGb3J3YXJkZWRQYXRoKAogICAgICByZXNvbHZlUHJveHlUYXJnZXRQYXRoKHRhcmdldCksCiAgICAgIHJlcXVlc3RQYXRoLAogICAgICBtb2RlLAogICAgICBjbGVhbmVkUm91dGVQYXRoLAogICAgKSwKICB9Owp9Owo=
+export type ProxyPathForwardingMode = "keep" | "strip";
+
+export type ProxyPathForwardingPreview = {
+  requestPath: string;
+  upstreamPath: string;
+};
+
+const ensureLeadingSlash = (value: string): string =>
+  value.startsWith("/") ? value : `/${value}`;
+
+const singleJoiningSlash = (left: string, right: string): string => {
+  const leftHasSlash = left.endsWith("/");
+  const rightHasSlash = right.startsWith("/");
+  if (leftHasSlash && rightHasSlash) return left + right.slice(1);
+  if (!leftHasSlash && !rightHasSlash) return `${left}/${right}`;
+  return left + right;
+};
+
+export const cleanProxyRoutePath = (value: string): string => {
+  const raw = value.trim();
+  if (!raw.startsWith("/")) return raw;
+
+  const segments: string[] = [];
+  for (const segment of raw.split("/")) {
+    if (!segment || segment === ".") continue;
+    if (segment === "..") {
+      segments.pop();
+      continue;
+    }
+    segments.push(segment);
+  }
+
+  return `/${segments.join("/")}`;
+};
+
+export const resolveProxyTargetPath = (target: string): string => {
+  const raw = target.trim();
+  if (!raw) return "";
+
+  try {
+    const parsed = new URL(raw);
+    return parsed.pathname || "";
+  } catch {
+    return "";
+  }
+};
+
+export const stripMatchedRoutePath = (
+  requestPath: string,
+  routePath: string,
+): string => {
+  const normalizedRequestPath = ensureLeadingSlash(requestPath);
+  if (!routePath || routePath === "/") return normalizedRequestPath;
+
+  const nextPath = normalizedRequestPath.startsWith(routePath)
+    ? normalizedRequestPath.slice(routePath.length)
+    : normalizedRequestPath;
+  return ensureLeadingSlash(nextPath);
+};
+
+export const buildProxyForwardedPath = (
+  targetPath: string,
+  requestPath: string,
+  mode: ProxyPathForwardingMode,
+  routePath: string,
+): string => {
+  const routeOutputPath =
+    mode === "strip"
+      ? stripMatchedRoutePath(requestPath, routePath)
+      : ensureLeadingSlash(requestPath);
+  return targetPath
+    ? singleJoiningSlash(targetPath, routeOutputPath)
+    : routeOutputPath;
+};
+
+export const buildProxyPathForwardingPreview = ({
+  routePath,
+  target,
+  mode,
+  sampleSuffix = "/example",
+}: {
+  routePath: string;
+  target: string;
+  mode: ProxyPathForwardingMode;
+  sampleSuffix?: string;
+}): ProxyPathForwardingPreview => {
+  const cleanedRoutePath = cleanProxyRoutePath(routePath);
+  const requestSuffix = ensureLeadingSlash(sampleSuffix.trim() || "/example");
+  const requestPath =
+    cleanedRoutePath && cleanedRoutePath !== "/"
+      ? singleJoiningSlash(cleanedRoutePath, requestSuffix)
+      : requestSuffix;
+
+  return {
+    requestPath,
+    upstreamPath: buildProxyForwardedPath(
+      resolveProxyTargetPath(target),
+      requestPath,
+      mode,
+      cleanedRoutePath,
+    ),
+  };
+};

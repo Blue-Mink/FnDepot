@@ -1,1 +1,19 @@
-aW1wb3J0IHR5cGUgeyBEZXBsb3ltZW50VGFyZ2V0IH0gZnJvbSAiLi4vdHlwZXMiOwoKZXhwb3J0IGNvbnN0IHByb3RlY3RlZEFkbWluUGFuZWxEZXBsb3ltZW50VGFyZ2V0cyA9IFsKICAiZG9ja2VyIiwKICAib3BlbndydCIsCiAgImxpbnV4IiwKICAibWFjb3MiLAogICJ3aW5kb3dzIiwKXSBhcyBjb25zdCBzYXRpc2ZpZXMgUmVhZG9ubHlBcnJheTxEZXBsb3ltZW50VGFyZ2V0PjsKCmV4cG9ydCB0eXBlIFByb3RlY3RlZEFkbWluUGFuZWxEZXBsb3ltZW50VGFyZ2V0ID0KICAodHlwZW9mIHByb3RlY3RlZEFkbWluUGFuZWxEZXBsb3ltZW50VGFyZ2V0cylbbnVtYmVyXTsKCmV4cG9ydCBjb25zdCBpc1Byb3RlY3RlZEFkbWluUGFuZWxEZXBsb3ltZW50VGFyZ2V0ID0gKAogIHRhcmdldD86IERlcGxveW1lbnRUYXJnZXQsCik6IHRhcmdldCBpcyBQcm90ZWN0ZWRBZG1pblBhbmVsRGVwbG95bWVudFRhcmdldCA9PgogIHByb3RlY3RlZEFkbWluUGFuZWxEZXBsb3ltZW50VGFyZ2V0cy5zb21lKAogICAgKGNhbmRpZGF0ZSkgPT4gY2FuZGlkYXRlID09PSB0YXJnZXQsCiAgKTsK
+import type { DeploymentTarget } from "../types";
+
+export const protectedAdminPanelDeploymentTargets = [
+  "docker",
+  "openwrt",
+  "linux",
+  "macos",
+  "windows",
+] as const satisfies ReadonlyArray<DeploymentTarget>;
+
+export type ProtectedAdminPanelDeploymentTarget =
+  (typeof protectedAdminPanelDeploymentTargets)[number];
+
+export const isProtectedAdminPanelDeploymentTarget = (
+  target?: DeploymentTarget,
+): target is ProtectedAdminPanelDeploymentTarget =>
+  protectedAdminPanelDeploymentTargets.some(
+    (candidate) => candidate === target,
+  );

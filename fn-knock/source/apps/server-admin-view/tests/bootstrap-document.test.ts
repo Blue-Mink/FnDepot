@@ -1,1 +1,26 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHRlc3QgZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHNvdXJjZSA9IHJlYWRGaWxlU3luYyhuZXcgVVJMKCIuLi9pbmRleC5odG1sIiwgaW1wb3J0Lm1ldGEudXJsKSwgInV0ZjgiKTsKCnRlc3QoImFkbWluIGRvY3VtZW50IHJlbmRlcnMgYSBzdGF0aWMgc2hlbGwgYmVmb3JlIHRoZSBtb2R1bGUgZ3JhcGggZXhlY3V0ZXMiLCAoKSA9PiB7CiAgYXNzZXJ0Lm1hdGNoKHNvdXJjZSwgL2RhdGEtZm4ta25vY2stYm9vdHN0cmFwLXNoZWxsL3UpOwogIGFzc2VydC5tYXRjaChzb3VyY2UsIC9kYXRhLWZuLWtub2NrLW1vdW50ZWQvdSk7Cn0pOwoKdGVzdCgiYWRtaW4gZG9jdW1lbnQgZXhwb3NlcyByZWNvdmVyeSB3aGVuIGEgbW9kdWxlIGZhaWxzIGJlZm9yZSBtYWluIGV4ZWN1dGVzIiwgKCkgPT4gewogIGFzc2VydC5tYXRjaChzb3VyY2UsIC9IVE1MU2NyaXB0RWxlbWVudC91KTsKICBhc3NlcnQubWF0Y2goc291cmNlLCAvbW9kdWxlcHJlbG9hZC91KTsKICBhc3NlcnQubWF0Y2goc291cmNlLCAvdW5oYW5kbGVkcmVqZWN0aW9uL3UpOwogIGFzc2VydC5tYXRjaChzb3VyY2UsIC9kYXRhLWZuLWtub2NrLWJvb3RzdHJhcC1yZXRyeS91KTsKICBhc3NlcnQubWF0Y2goc291cmNlLCAvY2xhaW1BdXRvbWF0aWNSZWxvYWQvdSk7CiAgYXNzZXJ0Lm1hdGNoKHNvdXJjZSwgL2F1dG9tYXRpY1JlbG9hZENsYWltZWQvdSk7CiAgYXNzZXJ0Lm1hdGNoKHNvdXJjZSwgL3ByZXZpb3VzUmVhc29uID09PSAic3RhbGUtYXNzZXQiL3UpOwogIGFzc2VydC5tYXRjaChzb3VyY2UsIC9fZm5fa25vY2tfcmVsb2FkX3JlYXNvbi91KTsKICBhc3NlcnQub2soCiAgICBzb3VyY2UuaW5kZXhPZigiX19mbktub2NrRWFybHlSZXNvdXJjZUZhaWx1cmUiKSA8CiAgICAgIHNvdXJjZS5pbmRleE9mKCd0eXBlPSJtb2R1bGUiJyksCiAgICAidGhlIGVhcmx5IHJlc291cmNlIGZhaWx1cmUgbGlzdGVuZXIgbXVzdCBwcmVjZWRlIHRoZSBlbnRyeSBtb2R1bGUiLAogICk7Cn0pOwo=
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import test from "node:test";
+
+const source = readFileSync(new URL("../index.html", import.meta.url), "utf8");
+
+test("admin document renders a static shell before the module graph executes", () => {
+  assert.match(source, /data-fn-knock-bootstrap-shell/u);
+  assert.match(source, /data-fn-knock-mounted/u);
+});
+
+test("admin document exposes recovery when a module fails before main executes", () => {
+  assert.match(source, /HTMLScriptElement/u);
+  assert.match(source, /modulepreload/u);
+  assert.match(source, /unhandledrejection/u);
+  assert.match(source, /data-fn-knock-bootstrap-retry/u);
+  assert.match(source, /claimAutomaticReload/u);
+  assert.match(source, /automaticReloadClaimed/u);
+  assert.match(source, /previousReason === "stale-asset"/u);
+  assert.match(source, /_fn_knock_reload_reason/u);
+  assert.ok(
+    source.indexOf("__fnKnockEarlyResourceFailure") <
+      source.indexOf('type="module"'),
+    "the early resource failure listener must precede the entry module",
+  );
+});

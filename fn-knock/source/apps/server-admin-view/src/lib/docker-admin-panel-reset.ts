@@ -1,1 +1,125 @@
-aW1wb3J0IHR5cGUgeyBEZXBsb3ltZW50VGFyZ2V0IH0gZnJvbSAiLi4vdHlwZXMiOwppbXBvcnQgewogIGlzUHJvdGVjdGVkQWRtaW5QYW5lbERlcGxveW1lbnRUYXJnZXQsCiAgdHlwZSBQcm90ZWN0ZWRBZG1pblBhbmVsRGVwbG95bWVudFRhcmdldCwKfSBmcm9tICIuL2FkbWluLXBhbmVsLXJ1bnRpbWUiOwoKZXhwb3J0IGNvbnN0IGRvY2tlckFkbWluUGFuZWxSZXNldENvbW1hbmRzID0gewogIHNzaDogInNzaCByb290QDxkb2NrZXItaG9zdD4iLAogIGNvbXBvc2U6CiAgICAiY2QgL29wdC9mbi1rbm9jay1kb2NrZXIgJiYgZG9ja2VyIGNvbXBvc2UgZXhlYyAtVCBmbi1rbm9jayBmbi1rbm9jay1yZXNldC1wYW5lbC1wYXNzd29yZCIsCiAgZG9ja2VyRXhlYzoKICAgICJkb2NrZXIgZXhlYyAtaXQgXCIkKGRvY2tlciBwcyAtLWZpbHRlciBsYWJlbD1jb20uZG9ja2VyLmNvbXBvc2Uuc2VydmljZT1mbi1rbm9jayAtLWZvcm1hdCAne3suTmFtZXN9fScgfCBoZWFkIC1uIDEpXCIgZm4ta25vY2stcmVzZXQtcGFuZWwtcGFzc3dvcmQiLAp9IGFzIGNvbnN0OwoKZXhwb3J0IGNvbnN0IG9wZW5XcnRBZG1pblBhbmVsUmVzZXRDb21tYW5kcyA9IHsKICBzc2g6ICJzc2ggcm9vdEA8b3BlbndydC1ob3N0PiIsCiAgcmVzZXQ6ICJmbi1rbm9jay1yZXNldC1wYW5lbC1wYXNzd29yZCIsCn0gYXMgY29uc3Q7CgpleHBvcnQgY29uc3QgbGludXhBZG1pblBhbmVsUmVzZXRDb21tYW5kcyA9IHsKICByZXNldDogInN1ZG8ga25vY2sgcmVzZXQtcGFuZWwtcGFzc3dvcmQiLAp9IGFzIGNvbnN0OwoKZXhwb3J0IGNvbnN0IG1hY29zQWRtaW5QYW5lbFJlc2V0Q29tbWFuZHMgPSB7CiAgcmVzZXQ6ICJzdWRvIGtub2NrIHJlc2V0LXBhbmVsLXBhc3N3b3JkIiwKfSBhcyBjb25zdDsKCmV4cG9ydCBjb25zdCB3aW5kb3dzQWRtaW5QYW5lbFJlc2V0Q29tbWFuZHMgPSB7CiAgcmVzZXQ6CiAgICAnJiAiJGVudjpQcm9ncmFtRmlsZXNcXEtub2NrIOaVsumXqFxcZm4ta25vY2stc2VydmljZS5leGUiIHJlc2V0LXBhbmVsLXBhc3N3b3JkJywKfSBhcyBjb25zdDsKCnR5cGUgQWRtaW5QYW5lbFJlc2V0RGVzY3JpcHRpb25LZXkgPQogIHwgImFkbWluLmNvbXBvbmVudHMuZG9ja2VyQWRtaW5HYXRlLnJlc2V0RGVzY3JpcHRpb24iCiAgfCAiYWRtaW4uY29tcG9uZW50cy5kb2NrZXJBZG1pbkdhdGUucmVzZXREZXNjcmlwdGlvbkRldmljZSIKICB8ICJhZG1pbi5jb21wb25lbnRzLmRvY2tlckFkbWluR2F0ZS5yZXNldERlc2NyaXB0aW9uV2luZG93cyI7Cgp0eXBlIEFkbWluUGFuZWxSZXNldFN0ZXBMYWJlbEtleSA9CiAgfCAiYWRtaW4uY29tcG9uZW50cy5kb2NrZXJBZG1pbkdhdGUucmVzZXRTdGVwU3NoIgogIHwgImFkbWluLmNvbXBvbmVudHMuZG9ja2VyQWRtaW5HYXRlLnJlc2V0U3RlcENvbXBvc2UiCiAgfCAiYWRtaW4uY29tcG9uZW50cy5kb2NrZXJBZG1pbkdhdGUucmVzZXRTdGVwRG9ja2VyRXhlYyIKICB8ICJhZG1pbi5jb21wb25lbnRzLmRvY2tlckFkbWluR2F0ZS5yZXNldFN0ZXBPcGVuV3J0U3NoIgogIHwgImFkbWluLmNvbXBvbmVudHMuZG9ja2VyQWRtaW5HYXRlLnJlc2V0U3RlcE9wZW5XcnRDb21tYW5kIgogIHwgImFkbWluLmNvbXBvbmVudHMuZG9ja2VyQWRtaW5HYXRlLnJlc2V0U3RlcExpbnV4IgogIHwgImFkbWluLmNvbXBvbmVudHMuZG9ja2VyQWRtaW5HYXRlLnJlc2V0U3RlcFdpbmRvd3MiOwoKZXhwb3J0IHR5cGUgQWRtaW5QYW5lbFJlc2V0R3VpZGUgPSB7CiAgZGVzY3JpcHRpb25LZXk6IEFkbWluUGFuZWxSZXNldERlc2NyaXB0aW9uS2V5OwogIHN0ZXBzOiBSZWFkb25seUFycmF5PHsKICAgIGxhYmVsS2V5OiBBZG1pblBhbmVsUmVzZXRTdGVwTGFiZWxLZXk7CiAgICBjb21tYW5kOiBzdHJpbmc7CiAgfT47Cn07Cgpjb25zdCByZXNldEd1aWRlcyA9IHsKICBkb2NrZXI6IHsKICAgIGRlc2NyaXB0aW9uS2V5OiAiYWRtaW4uY29tcG9uZW50cy5kb2NrZXJBZG1pbkdhdGUucmVzZXREZXNjcmlwdGlvbiIsCiAgICBzdGVwczogWwogICAgICB7CiAgICAgICAgbGFiZWxLZXk6ICJhZG1pbi5jb21wb25lbnRzLmRvY2tlckFkbWluR2F0ZS5yZXNldFN0ZXBTc2giLAogICAgICAgIGNvbW1hbmQ6IGRvY2tlckFkbWluUGFuZWxSZXNldENvbW1hbmRzLnNzaCwKICAgICAgfSwKICAgICAgewogICAgICAgIGxhYmVsS2V5OiAiYWRtaW4uY29tcG9uZW50cy5kb2NrZXJBZG1pbkdhdGUucmVzZXRTdGVwQ29tcG9zZSIsCiAgICAgICAgY29tbWFuZDogZG9ja2VyQWRtaW5QYW5lbFJlc2V0Q29tbWFuZHMuY29tcG9zZSwKICAgICAgfSwKICAgICAgewogICAgICAgIGxhYmVsS2V5OiAiYWRtaW4uY29tcG9uZW50cy5kb2NrZXJBZG1pbkdhdGUucmVzZXRTdGVwRG9ja2VyRXhlYyIsCiAgICAgICAgY29tbWFuZDogZG9ja2VyQWRtaW5QYW5lbFJlc2V0Q29tbWFuZHMuZG9ja2VyRXhlYywKICAgICAgfSwKICAgIF0sCiAgfSwKICBvcGVud3J0OiB7CiAgICBkZXNjcmlwdGlvbktleTogImFkbWluLmNvbXBvbmVudHMuZG9ja2VyQWRtaW5HYXRlLnJlc2V0RGVzY3JpcHRpb25EZXZpY2UiLAogICAgc3RlcHM6IFsKICAgICAgewogICAgICAgIGxhYmVsS2V5OiAiYWRtaW4uY29tcG9uZW50cy5kb2NrZXJBZG1pbkdhdGUucmVzZXRTdGVwT3BlbldydFNzaCIsCiAgICAgICAgY29tbWFuZDogb3BlbldydEFkbWluUGFuZWxSZXNldENvbW1hbmRzLnNzaCwKICAgICAgfSwKICAgICAgewogICAgICAgIGxhYmVsS2V5OiAiYWRtaW4uY29tcG9uZW50cy5kb2NrZXJBZG1pbkdhdGUucmVzZXRTdGVwT3BlbldydENvbW1hbmQiLAogICAgICAgIGNvbW1hbmQ6IG9wZW5XcnRBZG1pblBhbmVsUmVzZXRDb21tYW5kcy5yZXNldCwKICAgICAgfSwKICAgIF0sCiAgfSwKICBsaW51eDogewogICAgZGVzY3JpcHRpb25LZXk6ICJhZG1pbi5jb21wb25lbnRzLmRvY2tlckFkbWluR2F0ZS5yZXNldERlc2NyaXB0aW9uRGV2aWNlIiwKICAgIHN0ZXBzOiBbCiAgICAgIHsKICAgICAgICBsYWJlbEtleTogImFkbWluLmNvbXBvbmVudHMuZG9ja2VyQWRtaW5HYXRlLnJlc2V0U3RlcExpbnV4IiwKICAgICAgICBjb21tYW5kOiBsaW51eEFkbWluUGFuZWxSZXNldENvbW1hbmRzLnJlc2V0LAogICAgICB9LAogICAgXSwKICB9LAogIG1hY29zOiB7CiAgICBkZXNjcmlwdGlvbktleTogImFkbWluLmNvbXBvbmVudHMuZG9ja2VyQWRtaW5HYXRlLnJlc2V0RGVzY3JpcHRpb25EZXZpY2UiLAogICAgc3RlcHM6IFsKICAgICAgewogICAgICAgIGxhYmVsS2V5OiAiYWRtaW4uY29tcG9uZW50cy5kb2NrZXJBZG1pbkdhdGUucmVzZXRTdGVwTGludXgiLAogICAgICAgIGNvbW1hbmQ6IG1hY29zQWRtaW5QYW5lbFJlc2V0Q29tbWFuZHMucmVzZXQsCiAgICAgIH0sCiAgICBdLAogIH0sCiAgd2luZG93czogewogICAgZGVzY3JpcHRpb25LZXk6ICJhZG1pbi5jb21wb25lbnRzLmRvY2tlckFkbWluR2F0ZS5yZXNldERlc2NyaXB0aW9uV2luZG93cyIsCiAgICBzdGVwczogWwogICAgICB7CiAgICAgICAgbGFiZWxLZXk6ICJhZG1pbi5jb21wb25lbnRzLmRvY2tlckFkbWluR2F0ZS5yZXNldFN0ZXBXaW5kb3dzIiwKICAgICAgICBjb21tYW5kOiB3aW5kb3dzQWRtaW5QYW5lbFJlc2V0Q29tbWFuZHMucmVzZXQsCiAgICAgIH0sCiAgICBdLAogIH0sCn0gYXMgY29uc3Qgc2F0aXNmaWVzIFJlY29yZDwKICBQcm90ZWN0ZWRBZG1pblBhbmVsRGVwbG95bWVudFRhcmdldCwKICBBZG1pblBhbmVsUmVzZXRHdWlkZQo+OwoKZXhwb3J0IGNvbnN0IHJlc29sdmVBZG1pblBhbmVsUmVzZXRHdWlkZSA9ICgKICBkZXBsb3ltZW50VGFyZ2V0PzogRGVwbG95bWVudFRhcmdldCwKKTogQWRtaW5QYW5lbFJlc2V0R3VpZGUgfCBudWxsID0+IHsKICBpZiAoIWlzUHJvdGVjdGVkQWRtaW5QYW5lbERlcGxveW1lbnRUYXJnZXQoZGVwbG95bWVudFRhcmdldCkpIHsKICAgIHJldHVybiBudWxsOwogIH0KICByZXR1cm4gcmVzZXRHdWlkZXNbZGVwbG95bWVudFRhcmdldF07Cn07Cg==
+import type { DeploymentTarget } from "../types";
+import {
+  isProtectedAdminPanelDeploymentTarget,
+  type ProtectedAdminPanelDeploymentTarget,
+} from "./admin-panel-runtime";
+
+export const dockerAdminPanelResetCommands = {
+  ssh: "ssh root@<docker-host>",
+  compose:
+    "cd /opt/fn-knock-docker && docker compose exec -T fn-knock fn-knock-reset-panel-password",
+  dockerExec:
+    "docker exec -it \"$(docker ps --filter label=com.docker.compose.service=fn-knock --format '{{.Names}}' | head -n 1)\" fn-knock-reset-panel-password",
+} as const;
+
+export const openWrtAdminPanelResetCommands = {
+  ssh: "ssh root@<openwrt-host>",
+  reset: "fn-knock-reset-panel-password",
+} as const;
+
+export const linuxAdminPanelResetCommands = {
+  reset: "sudo knock reset-panel-password",
+} as const;
+
+export const macosAdminPanelResetCommands = {
+  reset: "sudo knock reset-panel-password",
+} as const;
+
+export const windowsAdminPanelResetCommands = {
+  reset:
+    '& "$env:ProgramFiles\\Knock 敲门\\fn-knock-service.exe" reset-panel-password',
+} as const;
+
+type AdminPanelResetDescriptionKey =
+  | "admin.components.dockerAdminGate.resetDescription"
+  | "admin.components.dockerAdminGate.resetDescriptionDevice"
+  | "admin.components.dockerAdminGate.resetDescriptionWindows";
+
+type AdminPanelResetStepLabelKey =
+  | "admin.components.dockerAdminGate.resetStepSsh"
+  | "admin.components.dockerAdminGate.resetStepCompose"
+  | "admin.components.dockerAdminGate.resetStepDockerExec"
+  | "admin.components.dockerAdminGate.resetStepOpenWrtSsh"
+  | "admin.components.dockerAdminGate.resetStepOpenWrtCommand"
+  | "admin.components.dockerAdminGate.resetStepLinux"
+  | "admin.components.dockerAdminGate.resetStepWindows";
+
+export type AdminPanelResetGuide = {
+  descriptionKey: AdminPanelResetDescriptionKey;
+  steps: ReadonlyArray<{
+    labelKey: AdminPanelResetStepLabelKey;
+    command: string;
+  }>;
+};
+
+const resetGuides = {
+  docker: {
+    descriptionKey: "admin.components.dockerAdminGate.resetDescription",
+    steps: [
+      {
+        labelKey: "admin.components.dockerAdminGate.resetStepSsh",
+        command: dockerAdminPanelResetCommands.ssh,
+      },
+      {
+        labelKey: "admin.components.dockerAdminGate.resetStepCompose",
+        command: dockerAdminPanelResetCommands.compose,
+      },
+      {
+        labelKey: "admin.components.dockerAdminGate.resetStepDockerExec",
+        command: dockerAdminPanelResetCommands.dockerExec,
+      },
+    ],
+  },
+  openwrt: {
+    descriptionKey: "admin.components.dockerAdminGate.resetDescriptionDevice",
+    steps: [
+      {
+        labelKey: "admin.components.dockerAdminGate.resetStepOpenWrtSsh",
+        command: openWrtAdminPanelResetCommands.ssh,
+      },
+      {
+        labelKey: "admin.components.dockerAdminGate.resetStepOpenWrtCommand",
+        command: openWrtAdminPanelResetCommands.reset,
+      },
+    ],
+  },
+  linux: {
+    descriptionKey: "admin.components.dockerAdminGate.resetDescriptionDevice",
+    steps: [
+      {
+        labelKey: "admin.components.dockerAdminGate.resetStepLinux",
+        command: linuxAdminPanelResetCommands.reset,
+      },
+    ],
+  },
+  macos: {
+    descriptionKey: "admin.components.dockerAdminGate.resetDescriptionDevice",
+    steps: [
+      {
+        labelKey: "admin.components.dockerAdminGate.resetStepLinux",
+        command: macosAdminPanelResetCommands.reset,
+      },
+    ],
+  },
+  windows: {
+    descriptionKey: "admin.components.dockerAdminGate.resetDescriptionWindows",
+    steps: [
+      {
+        labelKey: "admin.components.dockerAdminGate.resetStepWindows",
+        command: windowsAdminPanelResetCommands.reset,
+      },
+    ],
+  },
+} as const satisfies Record<
+  ProtectedAdminPanelDeploymentTarget,
+  AdminPanelResetGuide
+>;
+
+export const resolveAdminPanelResetGuide = (
+  deploymentTarget?: DeploymentTarget,
+): AdminPanelResetGuide | null => {
+  if (!isProtectedAdminPanelDeploymentTarget(deploymentTarget)) {
+    return null;
+  }
+  return resetGuides[deploymentTarget];
+};

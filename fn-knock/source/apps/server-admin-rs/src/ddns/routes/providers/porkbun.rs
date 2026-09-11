@@ -1,1 +1,161 @@
-dXNlIHN1cGVyOjoqOwoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGZuIHBvcmtidW5fY2F0YWxvZ19lbnRyeSgpIC0+IFZhbHVlIHsKICAgIHByb3ZpZGVyKAogICAgICAgICJwb3JrYnVuIiwKICAgICAgICAiUG9ya2J1biIsCiAgICAgICAgdmVjIVsKICAgICAgICAgICAgZmllbGQoImFwaV9rZXkiLCAiQVBJIEtleSIsICJ0ZXh0IiwgIlBvcmtidW4gQVBJIEtleSIsIHRydWUpLAogICAgICAgICAgICBmaWVsZCgKICAgICAgICAgICAgICAgICJzZWNyZXRfYXBpX2tleSIsCiAgICAgICAgICAgICAgICAiU2VjcmV0IEFQSSBLZXkiLAogICAgICAgICAgICAgICAgInBhc3N3b3JkIiwKICAgICAgICAgICAgICAgICJQb3JrYnVuIFNlY3JldCBBUEkgS2V5IiwKICAgICAgICAgICAgICAgIHRydWUsCiAgICAgICAgICAgICksCiAgICAgICAgICAgIGZpZWxkKCJyb290X2RvbWFpbiIsICJSb290IERvbWFpbiIsICJ0ZXh0IiwgImV4YW1wbGUuY29tIiwgdHJ1ZSksCiAgICAgICAgICAgIGZpZWxkKCJkb21haW4iLCAiRG9tYWluIiwgInRleHQiLCAiaG9tZS5leGFtcGxlLmNvbSIsIHRydWUpLAogICAgICAgICAgICBmaWVsZCgidHRsIiwgIlRUTCIsICJ0ZXh0IiwgIjYwMCIsIGZhbHNlKSwKICAgICAgICBdLAogICAgKQp9CgpwdWIoaW4gY3JhdGU6OmRkbnM6OnJvdXRlcykgYXN5bmMgZm4gdXBkYXRlX3BvcmtidW4oCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKICAgIGNvbmZpZzogJkhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgaHR0cF9vcHRpb25zOiAmREROU0h0dHBDbGllbnRPcHRpb25zLAogICAgaXB2NDogT3B0aW9uPCZzdHI+LAogICAgaXB2NjogT3B0aW9uPCZzdHI+LAopIC0+IGFueWhvdzo6UmVzdWx0PERETlNQcm92aWRlclVwZGF0ZVJlc3VsdD4gewogICAgbGV0IGFwaV9rZXkgPSBjb25maWdfdmFsdWUoY29uZmlnLCAiYXBpX2tleSIpOwogICAgbGV0IHNlY3JldF9hcGlfa2V5ID0gY29uZmlnX3ZhbHVlKGNvbmZpZywgInNlY3JldF9hcGlfa2V5Iik7CiAgICBsZXQgcm9vdF9kb21haW4gPSBjb25maWdfdmFsdWUoY29uZmlnLCAicm9vdF9kb21haW4iKTsKICAgIGxldCBkb21haW4gPSBjb25maWdfdmFsdWUoY29uZmlnLCAiZG9tYWluIik7CiAgICBpZiBhcGlfa2V5LmlzX2VtcHR5KCkKICAgICAgICB8fCBzZWNyZXRfYXBpX2tleS5pc19lbXB0eSgpCiAgICAgICAgfHwgcm9vdF9kb21haW4uaXNfZW1wdHkoKQogICAgICAgIHx8IGRvbWFpbi5pc19lbXB0eSgpCiAgICB7CiAgICAgICAgcmV0dXJuIE9rKHByb3ZpZGVyX2ZhaWx1cmUoZGRuc190ZXh0KAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAicHJvdmlkZXJzLnBvcmtidW4uY29uZmlnSW5jb21wbGV0ZSIsCiAgICAgICAgICAgICZbXSwKICAgICAgICApKSk7CiAgICB9CiAgICBsZXQgdHRsID0gcG9zaXRpdmVfaTY0KGNvbmZpZy5nZXQoInR0bCIpLCA2MDApLnRvX3N0cmluZygpOwogICAgbGV0IHBhcnNlZCA9IHNwbGl0X2RvbWFpbih0cmFuc2xhdG9yLCAmZG9tYWluLCAmcm9vdF9kb21haW4pPzsKICAgIGxldCBjbGllbnQgPSBkZG5zX2h0dHBfY2xpZW50KHRyYW5zbGF0b3IsIGh0dHBfb3B0aW9ucyk/OwogICAgbGV0IHF1ZXJ5X2ZhaWxlZCA9IGRkbnNfdGV4dCh0cmFuc2xhdG9yLCAicHJvdmlkZXJzLnBvcmtidW4ucXVlcnlSZWNvcmRGYWlsZWQiLCAmW10pOwogICAgbGV0IHVwZGF0ZV9mYWlsZWQgPSBkZG5zX3RleHQodHJhbnNsYXRvciwgInByb3ZpZGVycy5wb3JrYnVuLnVwZGF0ZVJlY29yZEZhaWxlZCIsICZbXSk7CiAgICBsZXQgY3JlYXRlX2ZhaWxlZCA9IGRkbnNfdGV4dCh0cmFuc2xhdG9yLCAicHJvdmlkZXJzLnBvcmtidW4uY3JlYXRlUmVjb3JkRmFpbGVkIiwgJltdKTsKICAgIGxldCBwcm92aWRlcl9sYWJlbF90ZXh0ID0gcHJvdmlkZXJfbGFiZWwoU29tZSgicG9ya2J1biIpLCB0cmFuc2xhdG9yKTsKCiAgICB1cGRhdGVfZHVhbF9zdGFjaygKICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICZwcm92aWRlcl9sYWJlbF90ZXh0LAogICAgICAgIGlwdjQsCiAgICAgICAgaXB2NiwKICAgICAgICB8cmVjb3JkX3R5cGUsIGlwfCB7CiAgICAgICAgICAgIGxldCBjbGllbnQgPSBjbGllbnQuY2xvbmUoKTsKICAgICAgICAgICAgbGV0IGFwaV9rZXkgPSBhcGlfa2V5LmNsb25lKCk7CiAgICAgICAgICAgIGxldCBzZWNyZXRfYXBpX2tleSA9IHNlY3JldF9hcGlfa2V5LmNsb25lKCk7CiAgICAgICAgICAgIGxldCByb290X2RvbWFpbiA9IHBhcnNlZC5yb290X2RvbWFpbi5jbG9uZSgpOwogICAgICAgICAgICBsZXQgcmVjb3JkX25hbWUgPSBwYXJzZWQucmVjb3JkX25hbWUuY2xvbmUoKTsKICAgICAgICAgICAgbGV0IHR0bCA9IHR0bC5jbG9uZSgpOwogICAgICAgICAgICBsZXQgcXVlcnlfZmFpbGVkID0gcXVlcnlfZmFpbGVkLmNsb25lKCk7CiAgICAgICAgICAgIGxldCB1cGRhdGVfZmFpbGVkID0gdXBkYXRlX2ZhaWxlZC5jbG9uZSgpOwogICAgICAgICAgICBsZXQgY3JlYXRlX2ZhaWxlZCA9IGNyZWF0ZV9mYWlsZWQuY2xvbmUoKTsKICAgICAgICAgICAgYXN5bmMgbW92ZSB7CiAgICAgICAgICAgICAgICBsZXQgbGlzdCA9IHBvcmtidW5fcmVxdWVzdCgKICAgICAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgICAgICZjbGllbnQsCiAgICAgICAgICAgICAgICAgICAgJmZvcm1hdCEoCiAgICAgICAgICAgICAgICAgICAgICAgICIvcmV0cmlldmVCeU5hbWVUeXBlL3t9L3t9L3t9IiwKICAgICAgICAgICAgICAgICAgICAgICAgdXJsX2VuY29kZV9jb21wb25lbnQoJnJvb3RfZG9tYWluKSwKICAgICAgICAgICAgICAgICAgICAgICAgcmVjb3JkX3R5cGUsCiAgICAgICAgICAgICAgICAgICAgICAgIHVybF9lbmNvZGVfY29tcG9uZW50KCZyZWNvcmRfbmFtZSkKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICZhcGlfa2V5LAogICAgICAgICAgICAgICAgICAgICZzZWNyZXRfYXBpX2tleSwKICAgICAgICAgICAgICAgICAgICBqc29uISh7fSksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAuYXdhaXQ/OwogICAgICAgICAgICAgICAgaWYgbGlzdC5nZXQoInN0YXR1cyIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpICE9IFNvbWUoIlNVQ0NFU1MiKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihhbnlob3c6OmFueWhvdyEoCiAgICAgICAgICAgICAgICAgICAgICAgICJ7fSIsCiAgICAgICAgICAgICAgICAgICAgICAgIGpzb25fdGV4dCgmbGlzdCwgIm1lc3NhZ2UiKS51bndyYXBfb3JfZWxzZSh8fCBxdWVyeV9mYWlsZWQuY2xvbmUoKSkKICAgICAgICAgICAgICAgICAgICApKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGxldCBleGlzdGluZ19jb250ZW50ID0gbGlzdAogICAgICAgICAgICAgICAgICAgIC5nZXQoInJlY29yZHMiKQogICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKHxpdGVtc3wgaXRlbXMuZmlyc3QoKSkKICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4ofHJlY29yZHwgcmVjb3JkLmdldCgiY29udGVudCIpKQogICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKTsKICAgICAgICAgICAgICAgIGlmIGV4aXN0aW5nX2NvbnRlbnQgPT0gU29tZShpcC5hc19zdHIoKSkgewogICAgICAgICAgICAgICAgICAgIHJldHVybiBPaygoKSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBsZXQgcGF0aCA9IGlmIGV4aXN0aW5nX2NvbnRlbnQuaXNfc29tZSgpIHsKICAgICAgICAgICAgICAgICAgICBmb3JtYXQhKAogICAgICAgICAgICAgICAgICAgICAgICAiL2VkaXRCeU5hbWVUeXBlL3t9L3t9L3t9IiwKICAgICAgICAgICAgICAgICAgICAgICAgdXJsX2VuY29kZV9jb21wb25lbnQoJnJvb3RfZG9tYWluKSwKICAgICAgICAgICAgICAgICAgICAgICAgcmVjb3JkX3R5cGUsCiAgICAgICAgICAgICAgICAgICAgICAgIHVybF9lbmNvZGVfY29tcG9uZW50KCZyZWNvcmRfbmFtZSkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGZvcm1hdCEoIi9jcmVhdGUve30iLCB1cmxfZW5jb2RlX2NvbXBvbmVudCgmcm9vdF9kb21haW4pKQogICAgICAgICAgICAgICAgfTsKICAgICAgICAgICAgICAgIGxldCBtdXQgYm9keSA9IGpzb24hKHsKICAgICAgICAgICAgICAgICAgICAiY29udGVudCI6IGlwLAogICAgICAgICAgICAgICAgICAgICJ0dGwiOiB0dGwKICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgaWYgZXhpc3RpbmdfY29udGVudC5pc19ub25lKCkKICAgICAgICAgICAgICAgICAgICAmJiBsZXQgU29tZShvYmplY3QpID0gYm9keS5hc19vYmplY3RfbXV0KCkKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBvYmplY3QuaW5zZXJ0KCJuYW1lIi50b19zdHJpbmcoKSwganNvbiEocmVjb3JkX25hbWUpKTsKICAgICAgICAgICAgICAgICAgICBvYmplY3QuaW5zZXJ0KCJ0eXBlIi50b19zdHJpbmcoKSwganNvbiEocmVjb3JkX3R5cGUpKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGxldCByZXN1bHQgPQogICAgICAgICAgICAgICAgICAgIHBvcmtidW5fcmVxdWVzdCh0cmFuc2xhdG9yLCAmY2xpZW50LCAmcGF0aCwgJmFwaV9rZXksICZzZWNyZXRfYXBpX2tleSwgYm9keSkKICAgICAgICAgICAgICAgICAgICAgICAgLmF3YWl0PzsKICAgICAgICAgICAgICAgIGlmIHJlc3VsdC5nZXQoInN0YXR1cyIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoIlNVQ0NFU1MiKSB7CiAgICAgICAgICAgICAgICAgICAgT2soKCkpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGxldCBmYWxsYmFjayA9IGlmIGV4aXN0aW5nX2NvbnRlbnQuaXNfc29tZSgpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdXBkYXRlX2ZhaWxlZC5jbG9uZSgpCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgY3JlYXRlX2ZhaWxlZC5jbG9uZSgpCiAgICAgICAgICAgICAgICAgICAgfTsKICAgICAgICAgICAgICAgICAgICBFcnIoYW55aG93Ojphbnlob3chKAogICAgICAgICAgICAgICAgICAgICAgICAie30iLAogICAgICAgICAgICAgICAgICAgICAgICBqc29uX3RleHQoJnJlc3VsdCwgIm1lc3NhZ2UiKS51bndyYXBfb3IoZmFsbGJhY2spCiAgICAgICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICApCiAgICAuYXdhaXQKfQoKcHViKGluIGNyYXRlOjpkZG5zOjpyb3V0ZXMpIGFzeW5jIGZuIHBvcmtidW5fcmVxdWVzdCgKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAogICAgY2xpZW50OiAmREROU0h0dHBDbGllbnQsCiAgICBwYXRoOiAmc3RyLAogICAgYXBpX2tleTogJnN0ciwKICAgIHNlY3JldF9hcGlfa2V5OiAmc3RyLAogICAgYm9keTogVmFsdWUsCikgLT4gYW55aG93OjpSZXN1bHQ8VmFsdWU+IHsKICAgIGxldCBtdXQgcGF5bG9hZCA9IGJvZHkuYXNfb2JqZWN0KCkuY2xvbmVkKCkudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIHBheWxvYWQuaW5zZXJ0KCJhcGlrZXkiLnRvX3N0cmluZygpLCBqc29uIShhcGlfa2V5KSk7CiAgICBwYXlsb2FkLmluc2VydCgic2VjcmV0YXBpa2V5Ii50b19zdHJpbmcoKSwganNvbiEoc2VjcmV0X2FwaV9rZXkpKTsKICAgIGxldCAoX3N0YXR1cywgdmFsdWUsIF90ZXh0KSA9IHJlc3BvbnNlX2pzb24oCiAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICBjbGllbnQKICAgICAgICAgICAgLnBvc3QoZm9ybWF0ISgiaHR0cHM6Ly9wb3JrYnVuLmNvbS9hcGkvanNvbi92My9kbnN7cGF0aH0iKSkKICAgICAgICAgICAgLmpzb24oJlZhbHVlOjpPYmplY3QocGF5bG9hZCkpCiAgICAgICAgICAgIC5zZW5kKCkKICAgICAgICAgICAgLmF3YWl0PywKICAgICkKICAgIC5hd2FpdD87CiAgICBPayh2YWx1ZSkKfQo=
+use super::*;
+
+pub(in crate::ddns::routes) fn porkbun_catalog_entry() -> Value {
+    provider(
+        "porkbun",
+        "Porkbun",
+        vec![
+            field("api_key", "API Key", "text", "Porkbun API Key", true),
+            field(
+                "secret_api_key",
+                "Secret API Key",
+                "password",
+                "Porkbun Secret API Key",
+                true,
+            ),
+            field("root_domain", "Root Domain", "text", "example.com", true),
+            field("domain", "Domain", "text", "home.example.com", true),
+            field("ttl", "TTL", "text", "600", false),
+        ],
+    )
+}
+
+pub(in crate::ddns::routes) async fn update_porkbun(
+    translator: &Translator,
+    config: &HashMap<String, String>,
+    http_options: &DDNSHttpClientOptions,
+    ipv4: Option<&str>,
+    ipv6: Option<&str>,
+) -> anyhow::Result<DDNSProviderUpdateResult> {
+    let api_key = config_value(config, "api_key");
+    let secret_api_key = config_value(config, "secret_api_key");
+    let root_domain = config_value(config, "root_domain");
+    let domain = config_value(config, "domain");
+    if api_key.is_empty()
+        || secret_api_key.is_empty()
+        || root_domain.is_empty()
+        || domain.is_empty()
+    {
+        return Ok(provider_failure(ddns_text(
+            translator,
+            "providers.porkbun.configIncomplete",
+            &[],
+        )));
+    }
+    let ttl = positive_i64(config.get("ttl"), 600).to_string();
+    let parsed = split_domain(translator, &domain, &root_domain)?;
+    let client = ddns_http_client(translator, http_options)?;
+    let query_failed = ddns_text(translator, "providers.porkbun.queryRecordFailed", &[]);
+    let update_failed = ddns_text(translator, "providers.porkbun.updateRecordFailed", &[]);
+    let create_failed = ddns_text(translator, "providers.porkbun.createRecordFailed", &[]);
+    let provider_label_text = provider_label(Some("porkbun"), translator);
+
+    update_dual_stack(
+        translator,
+        &provider_label_text,
+        ipv4,
+        ipv6,
+        |record_type, ip| {
+            let client = client.clone();
+            let api_key = api_key.clone();
+            let secret_api_key = secret_api_key.clone();
+            let root_domain = parsed.root_domain.clone();
+            let record_name = parsed.record_name.clone();
+            let ttl = ttl.clone();
+            let query_failed = query_failed.clone();
+            let update_failed = update_failed.clone();
+            let create_failed = create_failed.clone();
+            async move {
+                let list = porkbun_request(
+                    translator,
+                    &client,
+                    &format!(
+                        "/retrieveByNameType/{}/{}/{}",
+                        url_encode_component(&root_domain),
+                        record_type,
+                        url_encode_component(&record_name)
+                    ),
+                    &api_key,
+                    &secret_api_key,
+                    json!({}),
+                )
+                .await?;
+                if list.get("status").and_then(Value::as_str) != Some("SUCCESS") {
+                    return Err(anyhow::anyhow!(
+                        "{}",
+                        json_text(&list, "message").unwrap_or_else(|| query_failed.clone())
+                    ));
+                }
+                let existing_content = list
+                    .get("records")
+                    .and_then(Value::as_array)
+                    .and_then(|items| items.first())
+                    .and_then(|record| record.get("content"))
+                    .and_then(Value::as_str);
+                if existing_content == Some(ip.as_str()) {
+                    return Ok(());
+                }
+                let path = if existing_content.is_some() {
+                    format!(
+                        "/editByNameType/{}/{}/{}",
+                        url_encode_component(&root_domain),
+                        record_type,
+                        url_encode_component(&record_name)
+                    )
+                } else {
+                    format!("/create/{}", url_encode_component(&root_domain))
+                };
+                let mut body = json!({
+                    "content": ip,
+                    "ttl": ttl
+                });
+                if existing_content.is_none()
+                    && let Some(object) = body.as_object_mut()
+                {
+                    object.insert("name".to_string(), json!(record_name));
+                    object.insert("type".to_string(), json!(record_type));
+                }
+                let result =
+                    porkbun_request(translator, &client, &path, &api_key, &secret_api_key, body)
+                        .await?;
+                if result.get("status").and_then(Value::as_str) == Some("SUCCESS") {
+                    Ok(())
+                } else {
+                    let fallback = if existing_content.is_some() {
+                        update_failed.clone()
+                    } else {
+                        create_failed.clone()
+                    };
+                    Err(anyhow::anyhow!(
+                        "{}",
+                        json_text(&result, "message").unwrap_or(fallback)
+                    ))
+                }
+            }
+        },
+    )
+    .await
+}
+
+pub(in crate::ddns::routes) async fn porkbun_request(
+    translator: &Translator,
+    client: &DDNSHttpClient,
+    path: &str,
+    api_key: &str,
+    secret_api_key: &str,
+    body: Value,
+) -> anyhow::Result<Value> {
+    let mut payload = body.as_object().cloned().unwrap_or_default();
+    payload.insert("apikey".to_string(), json!(api_key));
+    payload.insert("secretapikey".to_string(), json!(secret_api_key));
+    let (_status, value, _text) = response_json(
+        translator,
+        client
+            .post(format!("https://porkbun.com/api/json/v3/dns{path}"))
+            .json(&Value::Object(payload))
+            .send()
+            .await?,
+    )
+    .await?;
+    Ok(value)
+}

@@ -1,1 +1,64 @@
-aW1wb3J0IHsgbW91bnQgfSBmcm9tICJAdnVlL3Rlc3QtdXRpbHMiOwppbXBvcnQgeyBjcmVhdGVJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgeyBkZXNjcmliZSwgZXhwZWN0LCBpdCB9IGZyb20gInZpdGVzdCI7CgppbXBvcnQgRG9ja2VyQWRtaW5QYXNzd29yZElucHV0IGZyb20gIi4uL3NyYy9jb21wb25lbnRzL0RvY2tlckFkbWluUGFzc3dvcmRJbnB1dC52dWUiOwoKZnVuY3Rpb24gbW91bnRQYXNzd29yZElucHV0KGRpc2FibGVkID0gZmFsc2UpIHsKICBjb25zdCBpMThuID0gY3JlYXRlSTE4bih7CiAgICBsZWdhY3k6IGZhbHNlLAogICAgbG9jYWxlOiAiZW4iLAogICAgbWVzc2FnZXM6IHsKICAgICAgZW46IHsKICAgICAgICBhZG1pbjogewogICAgICAgICAgZG9ja2VyQWRtaW46IHsKICAgICAgICAgICAgaGlkZVBhc3N3b3JkOiAiSGlkZSBwYXNzd29yZCIsCiAgICAgICAgICAgIHNob3dQYXNzd29yZDogIlNob3cgcGFzc3dvcmQiLAogICAgICAgICAgfSwKICAgICAgICB9LAogICAgICB9LAogICAgfSwKICB9KTsKCiAgcmV0dXJuIG1vdW50KERvY2tlckFkbWluUGFzc3dvcmRJbnB1dCwgewogICAgcHJvcHM6IHsKICAgICAgZGlzYWJsZWQsCiAgICAgIGlkOiAiYWRtaW4tcGFzc3dvcmQiLAogICAgICBtb2RlbFZhbHVlOiAiaW5pdGlhbC1zZWNyZXQiLAogICAgfSwKICAgIGF0dHJzOiB7CiAgICAgIGF1dG9jb21wbGV0ZTogImN1cnJlbnQtcGFzc3dvcmQiLAogICAgfSwKICAgIGdsb2JhbDogeyBwbHVnaW5zOiBbaTE4bl0gfSwKICB9KTsKfQoKZGVzY3JpYmUoIkRvY2tlckFkbWluUGFzc3dvcmRJbnB1dCIsICgpID0+IHsKICBpdCgidG9nZ2xlcyByZWFsIHBhc3N3b3JkIHZpc2liaWxpdHkgYW5kIGVtaXRzIGVkaXRlZCB2YWx1ZXMiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnRQYXNzd29yZElucHV0KCk7CiAgICBjb25zdCBpbnB1dCA9IHdyYXBwZXIuZ2V0KCJpbnB1dCIpOwogICAgY29uc3QgdG9nZ2xlID0gd3JhcHBlci5nZXQoImJ1dHRvbiIpOwoKICAgIGV4cGVjdChpbnB1dC5hdHRyaWJ1dGVzKCJ0eXBlIikpLnRvQmUoInBhc3N3b3JkIik7CiAgICBleHBlY3QoaW5wdXQuYXR0cmlidXRlcygiYXV0b2NvbXBsZXRlIikpLnRvQmUoImN1cnJlbnQtcGFzc3dvcmQiKTsKICAgIGV4cGVjdCh0b2dnbGUuYXR0cmlidXRlcygiYXJpYS1sYWJlbCIpKS50b0JlKCJTaG93IHBhc3N3b3JkIik7CgogICAgYXdhaXQgdG9nZ2xlLnRyaWdnZXIoImNsaWNrIik7CiAgICBleHBlY3QoaW5wdXQuYXR0cmlidXRlcygidHlwZSIpKS50b0JlKCJ0ZXh0Iik7CiAgICBleHBlY3QodG9nZ2xlLmF0dHJpYnV0ZXMoImFyaWEtbGFiZWwiKSkudG9CZSgiSGlkZSBwYXNzd29yZCIpOwoKICAgIGF3YWl0IGlucHV0LnNldFZhbHVlKCJ1cGRhdGVkLXNlY3JldCIpOwogICAgZXhwZWN0KHdyYXBwZXIuZW1pdHRlZCgidXBkYXRlOm1vZGVsVmFsdWUiKT8uYXQoLTEpKS50b0VxdWFsKFsKICAgICAgInVwZGF0ZWQtc2VjcmV0IiwKICAgIF0pOwoKICAgIGF3YWl0IHdyYXBwZXIuc2V0UHJvcHMoeyBtb2RlbFZhbHVlOiAiIiB9KTsKICAgIGV4cGVjdChpbnB1dC5hdHRyaWJ1dGVzKCJ0eXBlIikpLnRvQmUoInBhc3N3b3JkIik7CiAgfSk7CgogIGl0KCJkaXNhYmxlcyBib3RoIGVkaXRpbmcgYW5kIHZpc2liaWxpdHkgY29udHJvbHMiLCAoKSA9PiB7CiAgICBjb25zdCB3cmFwcGVyID0gbW91bnRQYXNzd29yZElucHV0KHRydWUpOwogICAgZXhwZWN0KHdyYXBwZXIuZ2V0KCJpbnB1dCIpLmF0dHJpYnV0ZXMoKSkudG9IYXZlUHJvcGVydHkoImRpc2FibGVkIik7CiAgICBleHBlY3Qod3JhcHBlci5nZXQoImJ1dHRvbiIpLmF0dHJpYnV0ZXMoKSkudG9IYXZlUHJvcGVydHkoImRpc2FibGVkIik7CiAgfSk7Cn0pOwo=
+import { mount } from "@vue/test-utils";
+import { createI18n } from "vue-i18n";
+import { describe, expect, it } from "vitest";
+
+import DockerAdminPasswordInput from "../src/components/DockerAdminPasswordInput.vue";
+
+function mountPasswordInput(disabled = false) {
+  const i18n = createI18n({
+    legacy: false,
+    locale: "en",
+    messages: {
+      en: {
+        admin: {
+          dockerAdmin: {
+            hidePassword: "Hide password",
+            showPassword: "Show password",
+          },
+        },
+      },
+    },
+  });
+
+  return mount(DockerAdminPasswordInput, {
+    props: {
+      disabled,
+      id: "admin-password",
+      modelValue: "initial-secret",
+    },
+    attrs: {
+      autocomplete: "current-password",
+    },
+    global: { plugins: [i18n] },
+  });
+}
+
+describe("DockerAdminPasswordInput", () => {
+  it("toggles real password visibility and emits edited values", async () => {
+    const wrapper = mountPasswordInput();
+    const input = wrapper.get("input");
+    const toggle = wrapper.get("button");
+
+    expect(input.attributes("type")).toBe("password");
+    expect(input.attributes("autocomplete")).toBe("current-password");
+    expect(toggle.attributes("aria-label")).toBe("Show password");
+
+    await toggle.trigger("click");
+    expect(input.attributes("type")).toBe("text");
+    expect(toggle.attributes("aria-label")).toBe("Hide password");
+
+    await input.setValue("updated-secret");
+    expect(wrapper.emitted("update:modelValue")?.at(-1)).toEqual([
+      "updated-secret",
+    ]);
+
+    await wrapper.setProps({ modelValue: "" });
+    expect(input.attributes("type")).toBe("password");
+  });
+
+  it("disables both editing and visibility controls", () => {
+    const wrapper = mountPasswordInput(true);
+    expect(wrapper.get("input").attributes()).toHaveProperty("disabled");
+    expect(wrapper.get("button").attributes()).toHaveProperty("disabled");
+  });
+});

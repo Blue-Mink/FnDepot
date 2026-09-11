@@ -1,1 +1,443 @@
-dXNlIHN1cGVyOjoqOwoKY29uc3QgTUFYX09JRENfUkVTUE9OU0VfQllURVM6IHVzaXplID0gMTAyNCAqIDEwMjQ7CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGJ1aWxkX3N0YW5kYXJkX29pZGNfYXV0aG9yaXphdGlvbl91cmwoCiAgICBwcm92aWRlcjogJlZhbHVlLAogICAgY2FsbGJhY2tfdXJsOiAmc3RyLAogICAgc3RhdGVfdG9rZW46ICZzdHIsCiAgICBub25jZTogJnN0ciwKICAgIGNvZGVfdmVyaWZpZXI6ICZzdHIsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBSZXN1bHQ8U3RyaW5nLCBTdHJpbmc+IHsKICAgIGxldCBkaXNjb3ZlcnkgPSByZXNvbHZlX2Rpc2NvdmVyeV93aXRoX3RyYW5zbGF0b3IocHJvdmlkZXIsIHRyYW5zbGF0b3IpLmF3YWl0PzsKICAgIGxldCBjb25maWcgPSBwcm92aWRlcl9jb25maWcocHJvdmlkZXIsIHRyYW5zbGF0b3IpPzsKICAgIGxldCBjbGllbnRfaWQgPSBzdHJpbmdfZmllbGQoY29uZmlnLCAiY2xpZW50X2lkIikKICAgICAgICAub2tfb3JfZWxzZSh8fCBvaWRjX3RleHQodHJhbnNsYXRvciwgImNsaWVudElkTWlzc2luZyIpKT87CiAgICBsZXQgbXV0IHVybCA9IFVybDo6cGFyc2UoCiAgICAgICAgZGlzY292ZXJ5CiAgICAgICAgICAgIC5nZXQoImF1dGhvcml6YXRpb25fZW5kcG9pbnQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLm9rX29yX2Vsc2UofHwgb2lkY190ZXh0KHRyYW5zbGF0b3IsICJhdXRob3JpemF0aW9uRW5kcG9pbnRNaXNzaW5nIikpPywKICAgICkKICAgIC5tYXBfZXJyKHxffCBvaWRjX3RleHQodHJhbnNsYXRvciwgImF1dGhvcml6YXRpb25FbmRwb2ludEludmFsaWQiKSk/OwogICAgewogICAgICAgIGxldCBtdXQgcGFyYW1zID0gdXJsLnF1ZXJ5X3BhaXJzX211dCgpOwogICAgICAgIHBhcmFtcy5hcHBlbmRfcGFpcigiY2xpZW50X2lkIiwgY2xpZW50X2lkKTsKICAgICAgICBwYXJhbXMuYXBwZW5kX3BhaXIoInJlc3BvbnNlX3R5cGUiLCAiY29kZSIpOwogICAgICAgIHBhcmFtcy5hcHBlbmRfcGFpcigicmVkaXJlY3RfdXJpIiwgY2FsbGJhY2tfdXJsKTsKICAgICAgICBwYXJhbXMuYXBwZW5kX3BhaXIoCiAgICAgICAgICAgICJzY29wZSIsCiAgICAgICAgICAgICZzY29wZXMoY29uZmlnLCAmWyJvcGVuaWQiLCAicHJvZmlsZSIsICJlbWFpbCJdKS5qb2luKCIgIiksCiAgICAgICAgKTsKICAgICAgICBwYXJhbXMuYXBwZW5kX3BhaXIoInN0YXRlIiwgc3RhdGVfdG9rZW4pOwogICAgICAgIHBhcmFtcy5hcHBlbmRfcGFpcigibm9uY2UiLCBub25jZSk7CiAgICAgICAgcGFyYW1zLmFwcGVuZF9wYWlyKCJjb2RlX2NoYWxsZW5nZSIsICZjcmVhdGVfcGtjZV9jaGFsbGVuZ2UoY29kZV92ZXJpZmllcikpOwogICAgICAgIHBhcmFtcy5hcHBlbmRfcGFpcigiY29kZV9jaGFsbGVuZ2VfbWV0aG9kIiwgIlMyNTYiKTsKICAgICAgICBpZiBwcm92aWRlci5nZXQoInR5cGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKCJmbmtub2NrX3FxIikgewogICAgICAgICAgICBsZXQgcHJvdmlkZXJfaWQgPSBwcm92aWRlci5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKTsKICAgICAgICAgICAgbGV0IG11dCBtZXRhZGF0YV91cmwgPSBVcmw6OnBhcnNlKGNhbGxiYWNrX3VybCkKICAgICAgICAgICAgICAgIC5tYXBfZXJyKHxffCBvaWRjX3RleHQodHJhbnNsYXRvciwgImF1dGhvcml6YXRpb25FbmRwb2ludEludmFsaWQiKSk/OwogICAgICAgICAgICBsZXQgY2FsbGJhY2tfc3VmZml4ID0gZm9ybWF0ISgiL2NhbGxiYWNrL3twcm92aWRlcl9pZH0iKTsKICAgICAgICAgICAgbGV0IHBhdGggPSBtZXRhZGF0YV91cmwucGF0aCgpLnRvX3N0cmluZygpOwogICAgICAgICAgICBsZXQgU29tZShwcmVmaXgpID0gcGF0aC5zdHJpcF9zdWZmaXgoJmNhbGxiYWNrX3N1ZmZpeCkgZWxzZSB7CiAgICAgICAgICAgICAgICByZXR1cm4gRXJyKG9pZGNfdGV4dCh0cmFuc2xhdG9yLCAiYXV0aG9yaXphdGlvbkVuZHBvaW50SW52YWxpZCIpKTsKICAgICAgICAgICAgfTsKICAgICAgICAgICAgbWV0YWRhdGFfdXJsLnNldF9wYXRoKCZmb3JtYXQhKCJ7cHJlZml4fS9jbGllbnQtbWV0YWRhdGEiKSk7CiAgICAgICAgICAgIG1ldGFkYXRhX3VybC5zZXRfcXVlcnkoU29tZSgmZm9ybWF0ISgicHJvdmlkZXJfaWQ9e30iLCBlbmNvZGVfcXVlcnkocHJvdmlkZXJfaWQpKSkpOwogICAgICAgICAgICBwYXJhbXMuYXBwZW5kX3BhaXIoImNsaWVudF9tZXRhZGF0YV91cmkiLCBtZXRhZGF0YV91cmwuYXNfc3RyKCkpOwogICAgICAgIH0KICAgICAgICBmb3IgKGtleSwgdmFsdWUpIGluIGV4dHJhX2F1dGhfcGFyYW1zKGNvbmZpZykgewogICAgICAgICAgICBwYXJhbXMuYXBwZW5kX3BhaXIoJmtleSwgJnZhbHVlKTsKICAgICAgICB9CiAgICB9CiAgICBPayh1cmwudG9fc3RyaW5nKCkpCn0KCnB1YihzdXBlcikgZm4gYnVpbGRfb2F1dGhfcHJvZmlsZV9hdXRob3JpemF0aW9uX3VybCgKICAgIHByb3ZpZGVyOiAmVmFsdWUsCiAgICBjYWxsYmFja191cmw6ICZzdHIsCiAgICBzdGF0ZV90b2tlbjogJnN0ciwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IFJlc3VsdDxTdHJpbmcsIFN0cmluZz4gewogICAgbGV0IGNvbmZpZyA9IHByb3ZpZGVyX2NvbmZpZyhwcm92aWRlciwgdHJhbnNsYXRvcik/OwogICAgbGV0IGNsaWVudF9pZCA9IHN0cmluZ19maWVsZChjb25maWcsICJjbGllbnRfaWQiKQogICAgICAgIC5va19vcl9lbHNlKHx8IG9pZGNfdGV4dCh0cmFuc2xhdG9yLCAiY2xpZW50SWRNaXNzaW5nIikpPzsKICAgIGxldCBlbmRwb2ludCA9IHN0cmluZ19maWVsZChjb25maWcsICJhdXRob3JpemF0aW9uX2VuZHBvaW50IikKICAgICAgICAub2tfb3JfZWxzZSh8fCBvaWRjX3RleHQodHJhbnNsYXRvciwgImF1dGhvcml6YXRpb25FbmRwb2ludE1pc3NpbmciKSk/OwogICAgbGV0IG11dCB1cmwgPQogICAgICAgIFVybDo6cGFyc2UoZW5kcG9pbnQpLm1hcF9lcnIofF98IG9pZGNfdGV4dCh0cmFuc2xhdG9yLCAiYXV0aG9yaXphdGlvbkVuZHBvaW50SW52YWxpZCIpKT87CiAgICB7CiAgICAgICAgbGV0IG11dCBwYXJhbXMgPSB1cmwucXVlcnlfcGFpcnNfbXV0KCk7CiAgICAgICAgcGFyYW1zLmFwcGVuZF9wYWlyKCJjbGllbnRfaWQiLCBjbGllbnRfaWQpOwogICAgICAgIHBhcmFtcy5hcHBlbmRfcGFpcigicmVzcG9uc2VfdHlwZSIsICJjb2RlIik7CiAgICAgICAgcGFyYW1zLmFwcGVuZF9wYWlyKCJyZWRpcmVjdF91cmkiLCBjYWxsYmFja191cmwpOwogICAgICAgIHBhcmFtcy5hcHBlbmRfcGFpcigic2NvcGUiLCAmc2NvcGVzKGNvbmZpZywgJltdKS5qb2luKCIgIikpOwogICAgICAgIHBhcmFtcy5hcHBlbmRfcGFpcigic3RhdGUiLCBzdGF0ZV90b2tlbik7CiAgICAgICAgZm9yIChrZXksIHZhbHVlKSBpbiBleHRyYV9hdXRoX3BhcmFtcyhjb25maWcpIHsKICAgICAgICAgICAgcGFyYW1zLmFwcGVuZF9wYWlyKCZrZXksICZ2YWx1ZSk7CiAgICAgICAgfQogICAgfQogICAgT2sodXJsLnRvX3N0cmluZygpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHJlc29sdmVfc3RhbmRhcmRfb2lkY19jYWxsYmFjaygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBwcm92aWRlcjogJlZhbHVlLAogICAgY29kZTogJnN0ciwKICAgIGNhbGxiYWNrX3VybDogJnN0ciwKICAgIGF1dGhfc3RhdGU6ICZWYWx1ZSwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IFJlc3VsdDxFeHRlcm5hbFByb2ZpbGUsIFN0cmluZz4gewogICAgbGV0IGRpc2NvdmVyeSA9IHJlc29sdmVfZGlzY292ZXJ5X3dpdGhfdHJhbnNsYXRvcihwcm92aWRlciwgdHJhbnNsYXRvcikuYXdhaXQ/OwogICAgbGV0IGNvbmZpZyA9IHByb3ZpZGVyX2NvbmZpZyhwcm92aWRlciwgdHJhbnNsYXRvcik/OwogICAgbGV0IHRva2VuX2VuZHBvaW50ID0gZGlzY292ZXJ5CiAgICAgICAgLmdldCgidG9rZW5fZW5kcG9pbnQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5va19vcl9lbHNlKHx8IG9pZGNfdGV4dCh0cmFuc2xhdG9yLCAidG9rZW5FbmRwb2ludE1pc3NpbmciKSk/OwogICAgbGV0IGNsaWVudF9pZCA9IHN0cmluZ19maWVsZChjb25maWcsICJjbGllbnRfaWQiKS51bndyYXBfb3IoIiIpOwogICAgbGV0IGNsaWVudF9zZWNyZXQgPSBzdHJpbmdfZmllbGQoY29uZmlnLCAiY2xpZW50X3NlY3JldCIpLnVud3JhcF9vcigiIik7CiAgICBsZXQgbXV0IGZvcm0gPSB2ZWMhWwogICAgICAgICgiZ3JhbnRfdHlwZSIsICJhdXRob3JpemF0aW9uX2NvZGUiLnRvX3N0cmluZygpKSwKICAgICAgICAoImNsaWVudF9pZCIsIGNsaWVudF9pZC50b19zdHJpbmcoKSksCiAgICAgICAgKCJjbGllbnRfc2VjcmV0IiwgY2xpZW50X3NlY3JldC50b19zdHJpbmcoKSksCiAgICAgICAgKCJjb2RlIiwgY29kZS50b19zdHJpbmcoKSksCiAgICAgICAgKCJyZWRpcmVjdF91cmkiLCBjYWxsYmFja191cmwudG9fc3RyaW5nKCkpLAogICAgXTsKICAgIGlmIGxldCBTb21lKGNvZGVfdmVyaWZpZXIpID0gYXV0aF9zdGF0ZS5nZXQoImNvZGVfdmVyaWZpZXIiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSB7CiAgICAgICAgZm9ybS5wdXNoKCgiY29kZV92ZXJpZmllciIsIGNvZGVfdmVyaWZpZXIudG9fc3RyaW5nKCkpKTsKICAgIH0KICAgIGxldCB0b2tlbl9wYXlsb2FkID0gZXhjaGFuZ2VfZm9ybV90b2tlbihzdGF0ZSwgdG9rZW5fZW5kcG9pbnQsICZmb3JtLCBOb25lLCB0cmFuc2xhdG9yKS5hd2FpdD87CiAgICB2ZXJpZnlfc3RhbmRhcmRfb2lkY19wcm9maWxlKAogICAgICAgIHN0YXRlLAogICAgICAgIHByb3ZpZGVyLAogICAgICAgICZ0b2tlbl9wYXlsb2FkLAogICAgICAgICZkaXNjb3ZlcnksCiAgICAgICAgYXV0aF9zdGF0ZS5nZXQoIm5vbmNlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0ciksCiAgICAgICAgdHJhbnNsYXRvciwKICAgICkKICAgIC5hd2FpdAp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHJlc29sdmVfb2F1dGhfcHJvZmlsZV9jYWxsYmFjaygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBwcm92aWRlcjogJlZhbHVlLAogICAgY29kZTogJnN0ciwKICAgIGNhbGxiYWNrX3VybDogJnN0ciwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IFJlc3VsdDxFeHRlcm5hbFByb2ZpbGUsIFN0cmluZz4gewogICAgbGV0IGNvbmZpZyA9IHByb3ZpZGVyX2NvbmZpZyhwcm92aWRlciwgdHJhbnNsYXRvcik/OwogICAgbGV0IHRva2VuX2VuZHBvaW50ID0gc3RyaW5nX2ZpZWxkKGNvbmZpZywgInRva2VuX2VuZHBvaW50IikKICAgICAgICAub2tfb3JfZWxzZSh8fCBvaWRjX3RleHQodHJhbnNsYXRvciwgInRva2VuRW5kcG9pbnRNaXNzaW5nIikpPzsKICAgIGxldCBjbGllbnRfaWQgPSBzdHJpbmdfZmllbGQoY29uZmlnLCAiY2xpZW50X2lkIikudW53cmFwX29yKCIiKTsKICAgIGxldCBjbGllbnRfc2VjcmV0ID0gc3RyaW5nX2ZpZWxkKGNvbmZpZywgImNsaWVudF9zZWNyZXQiKS51bndyYXBfb3IoIiIpOwogICAgbGV0IGZvcm0gPSB2ZWMhWwogICAgICAgICgiZ3JhbnRfdHlwZSIsICJhdXRob3JpemF0aW9uX2NvZGUiLnRvX3N0cmluZygpKSwKICAgICAgICAoImNsaWVudF9pZCIsIGNsaWVudF9pZC50b19zdHJpbmcoKSksCiAgICAgICAgKCJjbGllbnRfc2VjcmV0IiwgY2xpZW50X3NlY3JldC50b19zdHJpbmcoKSksCiAgICAgICAgKCJjb2RlIiwgY29kZS50b19zdHJpbmcoKSksCiAgICAgICAgKCJyZWRpcmVjdF91cmkiLCBjYWxsYmFja191cmwudG9fc3RyaW5nKCkpLAogICAgXTsKICAgIGxldCBoZWFkZXJzID0gKHByb3ZpZGVyLmdldCgidHlwZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoImdpdGh1YiIpKQogICAgICAgIC50aGVuX3NvbWUodmVjIVsoIkFjY2VwdCIsICJhcHBsaWNhdGlvbi9qc29uIildKTsKICAgIGxldCB0b2tlbl9wYXlsb2FkID0KICAgICAgICBleGNoYW5nZV9mb3JtX3Rva2VuKHN0YXRlLCB0b2tlbl9lbmRwb2ludCwgJmZvcm0sIGhlYWRlcnMsIHRyYW5zbGF0b3IpLmF3YWl0PzsKICAgIGxldCBhY2Nlc3NfdG9rZW4gPSBzdHJpbmdfZmllbGRfZnJvbV92YWx1ZSgmdG9rZW5fcGF5bG9hZCwgImFjY2Vzc190b2tlbiIpCiAgICAgICAgLm9rX29yX2Vsc2UofHwgb2lkY190ZXh0KHRyYW5zbGF0b3IsICJhY2Nlc3NUb2tlbk1pc3NpbmciKSk/OwogICAgaWYgcHJvdmlkZXIuZ2V0KCJ0eXBlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSgiZ2l0aHViIikgewogICAgICAgIHJldHVybiBmZXRjaF9naXRodWJfcHJvZmlsZShzdGF0ZSwgcHJvdmlkZXIsIGFjY2Vzc190b2tlbiwgdHJhbnNsYXRvcikuYXdhaXQ7CiAgICB9CiAgICBFcnIob2lkY190ZXh0KHRyYW5zbGF0b3IsICJwcm92aWRlclVuc3VwcG9ydGVkIikpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gZXhjaGFuZ2VfZm9ybV90b2tlbigKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBlbmRwb2ludDogJnN0ciwKICAgIGZpZWxkczogJlsoJnN0ciwgU3RyaW5nKV0sCiAgICBleHRyYV9oZWFkZXJzOiBPcHRpb248VmVjPCgmc3RyLCAmc3RyKT4+LAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gUmVzdWx0PFZhbHVlLCBTdHJpbmc+IHsKICAgIGxldCBib2R5ID0gewogICAgICAgIGxldCBtdXQgc2VyaWFsaXplciA9IHVybDo6Zm9ybV91cmxlbmNvZGVkOjpTZXJpYWxpemVyOjpuZXcoU3RyaW5nOjpuZXcoKSk7CiAgICAgICAgZm9yIChrZXksIHZhbHVlKSBpbiBmaWVsZHMgewogICAgICAgICAgICBzZXJpYWxpemVyLmFwcGVuZF9wYWlyKGtleSwgdmFsdWUpOwogICAgICAgIH0KICAgICAgICBzZXJpYWxpemVyLmZpbmlzaCgpCiAgICB9OwogICAgbGV0IG11dCByZXF1ZXN0ID0gb2lkY19odHRwX3JlcXVlc3Qoc3RhdGUuZmFsbGJhY2tfY2xpZW50LnBvc3QoZW5kcG9pbnQpLCAiYXBwbGljYXRpb24vanNvbiIpCiAgICAgICAgLmhlYWRlcihoZWFkZXI6OkNPTlRFTlRfVFlQRSwgImFwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZCIpCiAgICAgICAgLmJvZHkoYm9keSk7CiAgICBmb3IgKGtleSwgdmFsdWUpIGluIGV4dHJhX2hlYWRlcnMudW53cmFwX29yX2RlZmF1bHQoKSB7CiAgICAgICAgcmVxdWVzdCA9IHJlcXVlc3QuaGVhZGVyKGtleSwgdmFsdWUpOwogICAgfQogICAgbGV0IHJlc3BvbnNlID0gcmVxdWVzdC5zZW5kKCkuYXdhaXQubWFwX2Vycih8ZXJyb3J8IHsKICAgICAgICBvaWRjX3RleHRfcGFyYW1zKAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAidG9rZW5SZXF1ZXN0RmFpbGVkIiwKICAgICAgICAgICAgJlsoImRldGFpbCIsIGVycm9yLnRvX3N0cmluZygpKV0sCiAgICAgICAgKQogICAgfSk/OwogICAgcGFyc2VfaHR0cF9wYXlsb2FkKHJlc3BvbnNlLCB0cmFuc2xhdG9yKS5hd2FpdAp9CgpwdWIoc3VwZXIpIGZuIG9pZGNfaHR0cF9yZXF1ZXN0KAogICAgcmVxdWVzdDogcmVxd2VzdDo6UmVxdWVzdEJ1aWxkZXIsCiAgICBhY2NlcHQ6ICYnc3RhdGljIHN0ciwKKSAtPiByZXF3ZXN0OjpSZXF1ZXN0QnVpbGRlciB7CiAgICByZXF1ZXN0CiAgICAgICAgLmhlYWRlcihoZWFkZXI6OkFDQ0VQVCwgYWNjZXB0KQogICAgICAgIC5oZWFkZXIoaGVhZGVyOjpVU0VSX0FHRU5ULCBPSURDX0hUVFBfVVNFUl9BR0VOVCkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBwYXJzZV9odHRwX3BheWxvYWQoCiAgICByZXNwb25zZTogcmVxd2VzdDo6UmVzcG9uc2UsCiAgICB0cmFuc2xhdG9yOiAmVHJhbnNsYXRvciwKKSAtPiBSZXN1bHQ8VmFsdWUsIFN0cmluZz4gewogICAgbGV0IHN0YXR1cyA9IHJlc3BvbnNlLnN0YXR1cygpOwogICAgbGV0IGNvbnRlbnRfdHlwZSA9IHJlc3BvbnNlCiAgICAgICAgLmhlYWRlcnMoKQogICAgICAgIC5nZXQoaGVhZGVyOjpDT05URU5UX1RZUEUpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUudG9fc3RyKCkub2soKSkKICAgICAgICAudW53cmFwX29yKCIiKQogICAgICAgIC50b19zdHJpbmcoKTsKICAgIGxldCB0ZXh0ID0gY3JhdGU6Omh0dHBfYm9keTo6cmVhZF9yZXNwb25zZV90ZXh0X2xpbWl0ZWQocmVzcG9uc2UsIE1BWF9PSURDX1JFU1BPTlNFX0JZVEVTKQogICAgICAgIC5hd2FpdAogICAgICAgIC5tYXBfZXJyKHxlcnJvcnwgewogICAgICAgICAgICBvaWRjX3RleHRfcGFyYW1zKAogICAgICAgICAgICAgICAgdHJhbnNsYXRvciwKICAgICAgICAgICAgICAgICJyZWFkUmVzcG9uc2VGYWlsZWQiLAogICAgICAgICAgICAgICAgJlsoImRldGFpbCIsIGVycm9yLnRvX3N0cmluZygpKV0sCiAgICAgICAgICAgICkKICAgICAgICB9KT87CiAgICBpZiAhc3RhdHVzLmlzX3N1Y2Nlc3MoKSB7CiAgICAgICAgcmV0dXJuIEVycihvaWRjX3RleHRfcGFyYW1zKAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAiaHR0cFJlc3BvbnNlRmFpbGVkIiwKICAgICAgICAgICAgJlsKICAgICAgICAgICAgICAgICgic3RhdHVzIiwgc3RhdHVzLnRvX3N0cmluZygpKSwKICAgICAgICAgICAgICAgICgiZGV0YWlsIiwgdGV4dC5jaGFycygpLnRha2UoMTYwKS5jb2xsZWN0Ojo8U3RyaW5nPigpKSwKICAgICAgICAgICAgXSwKICAgICAgICApKTsKICAgIH0KICAgIHBhcnNlX2pzb25fb3JfZm9ybSgmdGV4dCwgJmNvbnRlbnRfdHlwZSwgdHJhbnNsYXRvcikKfQoKcHViKHN1cGVyKSBmbiBwYXJzZV9qc29uX29yX2Zvcm0oCiAgICB0ZXh0OiAmc3RyLAogICAgY29udGVudF90eXBlOiAmc3RyLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gUmVzdWx0PFZhbHVlLCBTdHJpbmc+IHsKICAgIGxldCB0cmltbWVkID0gdGV4dC50cmltKCk7CiAgICBpZiBjb250ZW50X3R5cGUuY29udGFpbnMoImpzb24iKSB8fCB0cmltbWVkLnN0YXJ0c193aXRoKCd7JykgewogICAgICAgIHNlcmRlX2pzb246OmZyb21fc3RyKHRyaW1tZWQpLm1hcF9lcnIofGVycm9yfCB7CiAgICAgICAgICAgIG9pZGNfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgImpzb25SZXNwb25zZUludmFsaWQiLAogICAgICAgICAgICAgICAgJlsoImRldGFpbCIsIGVycm9yLnRvX3N0cmluZygpKV0sCiAgICAgICAgICAgICkKICAgICAgICB9KQogICAgfSBlbHNlIHsKICAgICAgICBsZXQgb2JqZWN0ID0gdXJsOjpmb3JtX3VybGVuY29kZWQ6OnBhcnNlKHRyaW1tZWQuYXNfYnl0ZXMoKSkKICAgICAgICAgICAgLm1hcCh8KGtleSwgdmFsdWUpfCAoa2V5LmludG9fb3duZWQoKSwgVmFsdWU6OlN0cmluZyh2YWx1ZS5pbnRvX293bmVkKCkpKSkKICAgICAgICAgICAgLmNvbGxlY3Q6OjxNYXA8XywgXz4+KCk7CiAgICAgICAgT2soVmFsdWU6Ok9iamVjdChvYmplY3QpKQogICAgfQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIHZlcmlmeV9zdGFuZGFyZF9vaWRjX3Byb2ZpbGUoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgcHJvdmlkZXI6ICZWYWx1ZSwKICAgIHRva2VuX3BheWxvYWQ6ICZWYWx1ZSwKICAgIGRpc2NvdmVyeTogJlZhbHVlLAogICAgZXhwZWN0ZWRfbm9uY2U6IE9wdGlvbjwmc3RyPiwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IFJlc3VsdDxFeHRlcm5hbFByb2ZpbGUsIFN0cmluZz4gewogICAgbGV0IGlkX3Rva2VuID0gdG9rZW5fcGF5bG9hZAogICAgICAgIC5nZXQoImlkX3Rva2VuIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLnRyaW0oKS5pc19lbXB0eSgpKQogICAgICAgIC5va19vcl9lbHNlKHx8IG9pZGNfdGV4dCh0cmFuc2xhdG9yLCAiaWRUb2tlbk1pc3NpbmciKSk/OwogICAgbGV0IGp3a3NfdXJpID0gZGlzY292ZXJ5CiAgICAgICAgLmdldCgiandrc191cmkiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5va19vcl9lbHNlKHx8IG9pZGNfdGV4dCh0cmFuc2xhdG9yLCAiandrc1VyaU1pc3NpbmciKSk/OwogICAgbGV0IGp3a3MgPSBvaWRjX2h0dHBfcmVxdWVzdChzdGF0ZS5mYWxsYmFja19jbGllbnQuZ2V0KGp3a3NfdXJpKSwgImFwcGxpY2F0aW9uL2pzb24iKQogICAgICAgIC5zZW5kKCkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IHsKICAgICAgICAgICAgb2lkY190ZXh0X3BhcmFtcygKICAgICAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICAgICAiandrc0ZldGNoRmFpbGVkIiwKICAgICAgICAgICAgICAgICZbKCJkZXRhaWwiLCBlcnJvci50b19zdHJpbmcoKSldLAogICAgICAgICAgICApCiAgICAgICAgfSk/CiAgICAgICAgLmpzb246OjxKd2tTZXQ+KCkKICAgICAgICAuYXdhaXQKICAgICAgICAubWFwX2Vycih8ZXJyb3J8IHsKICAgICAgICAgICAgb2lkY190ZXh0X3BhcmFtcyh0cmFuc2xhdG9yLCAiandrc0ludmFsaWQiLCAmWygiZGV0YWlsIiwgZXJyb3IudG9fc3RyaW5nKCkpXSkKICAgICAgICB9KT87CiAgICBsZXQgaGVhZGVyID0gZGVjb2RlX2hlYWRlcihpZF90b2tlbikubWFwX2Vycih8ZXJyb3J8IHsKICAgICAgICBvaWRjX3RleHRfcGFyYW1zKAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAidG9rZW5IZWFkZXJJbnZhbGlkIiwKICAgICAgICAgICAgJlsoImRldGFpbCIsIGVycm9yLnRvX3N0cmluZygpKV0sCiAgICAgICAgKQogICAgfSk/OwogICAgbGV0IGp3ayA9IHNlbGVjdF9qd2soJmp3a3MsIGhlYWRlci5raWQuYXNfZGVyZWYoKSkKICAgICAgICAub2tfb3JfZWxzZSh8fCBvaWRjX3RleHQodHJhbnNsYXRvciwgInNpZ25pbmdLZXlVbmF2YWlsYWJsZSIpKT87CiAgICBsZXQgZGVjb2Rpbmdfa2V5ID0gRGVjb2RpbmdLZXk6OmZyb21fandrKGp3aykubWFwX2Vycih8ZXJyb3J8IHsKICAgICAgICBvaWRjX3RleHRfcGFyYW1zKAogICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAic2lnbmluZ0tleUludmFsaWQiLAogICAgICAgICAgICAmWygiZGV0YWlsIiwgZXJyb3IudG9fc3RyaW5nKCkpXSwKICAgICAgICApCiAgICB9KT87CiAgICBsZXQgY29uZmlnID0gcHJvdmlkZXJfY29uZmlnKHByb3ZpZGVyLCB0cmFuc2xhdG9yKT87CiAgICBsZXQgY2xpZW50X2lkID0gc3RyaW5nX2ZpZWxkKGNvbmZpZywgImNsaWVudF9pZCIpLnVud3JhcF9vcigiIik7CiAgICBsZXQgZGlzY292ZXJ5X2lzc3VlciA9IGRpc2NvdmVyeQogICAgICAgIC5nZXQoImlzc3VlciIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcigiIik7CiAgICBsZXQgaXNzdWVyX2Zvcl92ZXJpZnkgPSAoIWRpc2NvdmVyeV9pc3N1ZXIuY29udGFpbnMoInt0ZW5hbnRpZH0iKSkudGhlbl9zb21lKGRpc2NvdmVyeV9pc3N1ZXIpOwogICAgbGV0IG11dCB2YWxpZGF0aW9uID0gVmFsaWRhdGlvbjo6bmV3KGhlYWRlci5hbGcpOwogICAgdmFsaWRhdGlvbi5zZXRfYXVkaWVuY2UoJltjbGllbnRfaWRdKTsKICAgIGlmIGxldCBTb21lKGlzc3VlcikgPSBpc3N1ZXJfZm9yX3ZlcmlmeSB7CiAgICAgICAgdmFsaWRhdGlvbi5zZXRfaXNzdWVyKCZbaXNzdWVyXSk7CiAgICB9CiAgICBsZXQgdG9rZW4gPSBkZWNvZGU6OjxWYWx1ZT4oaWRfdG9rZW4sICZkZWNvZGluZ19rZXksICZ2YWxpZGF0aW9uKS5tYXBfZXJyKHxlcnJvcnwgewogICAgICAgIG9pZGNfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgIHRyYW5zbGF0b3IsCiAgICAgICAgICAgICJpZFRva2VuVmVyaWZpY2F0aW9uRmFpbGVkIiwKICAgICAgICAgICAgJlsoImRldGFpbCIsIGVycm9yLnRvX3N0cmluZygpKV0sCiAgICAgICAgKQogICAgfSk/OwogICAgbGV0IHBheWxvYWQgPSB0b2tlbi5jbGFpbXM7CiAgICBpZiBsZXQgU29tZShleHBlY3RlZF9ub25jZSkgPSBleHBlY3RlZF9ub25jZQogICAgICAgICYmIHBheWxvYWQuZ2V0KCJub25jZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpICE9IFNvbWUoZXhwZWN0ZWRfbm9uY2UpCiAgICB7CiAgICAgICAgcmV0dXJuIEVycihvaWRjX3RleHQodHJhbnNsYXRvciwgIm5vbmNlQ2hlY2tGYWlsZWQiKSk7CiAgICB9CiAgICBpZiBpc3N1ZXJfZm9yX3ZlcmlmeS5pc19ub25lKCkgewogICAgICAgIGxldCBpc3N1ZXIgPSBwYXlsb2FkLmdldCgiaXNzIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKTsKICAgICAgICBpZiAhaXNzdWVyLnN0YXJ0c193aXRoKCJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vIikgewogICAgICAgICAgICByZXR1cm4gRXJyKG9pZGNfdGV4dCh0cmFuc2xhdG9yLCAiaXNzdWVyQ2hlY2tGYWlsZWQiKSk7CiAgICAgICAgfQogICAgfQogICAgbGV0IHN1YmplY3QgPSBwYXlsb2FkCiAgICAgICAgLmdldCgic3ViIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLnRyaW0oKS5pc19lbXB0eSgpKQogICAgICAgIC5va19vcl9lbHNlKHx8IG9pZGNfdGV4dCh0cmFuc2xhdG9yLCAic3ViamVjdEVtcHR5IikpPzsKICAgIGxldCBtdXQgdXNlcmluZm8gPSBWYWx1ZTo6T2JqZWN0KE1hcDo6bmV3KCkpOwogICAgaWYgbGV0IFNvbWUoZW5kcG9pbnQpID0gZGlzY292ZXJ5CiAgICAgICAgLmdldCgidXNlcmluZm9fZW5kcG9pbnQiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUudHJpbSgpLmlzX2VtcHR5KCkpCiAgICAgICAgJiYgbGV0IFNvbWUoYWNjZXNzX3Rva2VuKSA9IHRva2VuX3BheWxvYWQuZ2V0KCJhY2Nlc3NfdG9rZW4iKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICYmIGxldCBPayhyZXNwb25zZSkgPQogICAgICAgICAgICBvaWRjX2h0dHBfcmVxdWVzdChzdGF0ZS5mYWxsYmFja19jbGllbnQuZ2V0KGVuZHBvaW50KSwgImFwcGxpY2F0aW9uL2pzb24iKQogICAgICAgICAgICAgICAgLmJlYXJlcl9hdXRoKGFjY2Vzc190b2tlbikKICAgICAgICAgICAgICAgIC5zZW5kKCkKICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgICYmIHJlc3BvbnNlLnN0YXR1cygpLmlzX3N1Y2Nlc3MoKQogICAgICAgICYmIGxldCBPayhwYXlsb2FkKSA9IHBhcnNlX2h0dHBfcGF5bG9hZChyZXNwb25zZSwgdHJhbnNsYXRvcikuYXdhaXQKICAgIHsKICAgICAgICB1c2VyaW5mbyA9IHBheWxvYWQ7CiAgICB9CiAgICBsZXQgcGljayA9IHxrZXk6ICZzdHJ8IHVzZXJpbmZvLmdldChrZXkpLm9yX2Vsc2UofHwgcGF5bG9hZC5nZXQoa2V5KSk7CiAgICBPayhFeHRlcm5hbFByb2ZpbGUgewogICAgICAgIGlzc3VlcjogcGF5bG9hZAogICAgICAgICAgICAuZ2V0KCJpc3MiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgLnVud3JhcF9vcihkaXNjb3ZlcnlfaXNzdWVyKQogICAgICAgICAgICAudG9fc3RyaW5nKCksCiAgICAgICAgc3ViamVjdDogc3ViamVjdC50b19zdHJpbmcoKSwKICAgICAgICBkaXNwbGF5X25hbWU6IG9wdGlvbmFsX3N0cmluZyhwaWNrKCJuYW1lIikpCiAgICAgICAgICAgIC5vcl9lbHNlKHx8IG9wdGlvbmFsX3N0cmluZyhwaWNrKCJwcmVmZXJyZWRfdXNlcm5hbWUiKSkpLAogICAgICAgIGVtYWlsOiBvcHRpb25hbF9zdHJpbmcocGljaygiZW1haWwiKSksCiAgICAgICAgZW1haWxfdmVyaWZpZWQ6IFNvbWUodmFsdWVfdHJ1dGh5KHBpY2soImVtYWlsX3ZlcmlmaWVkIikpKSwKICAgICAgICBhdmF0YXJfdXJsOiBvcHRpb25hbF9zdHJpbmcocGljaygicGljdHVyZSIpKSwKICAgIH0pCn0KCnB1YihzdXBlcikgZm4gc2VsZWN0X2p3azwnYT4oandrczogJidhIEp3a1NldCwga2lkOiBPcHRpb248JnN0cj4pIC0+IE9wdGlvbjwmJ2EgSndrPiB7CiAgICBpZiBsZXQgU29tZShraWQpID0ga2lkCiAgICAgICAgJiYgbGV0IFNvbWUoandrKSA9IGp3a3MKICAgICAgICAgICAgLmtleXMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAuZmluZCh8andrfCBqd2suY29tbW9uLmtleV9pZC5hc19kZXJlZigpID09IFNvbWUoa2lkKSkKICAgIHsKICAgICAgICByZXR1cm4gU29tZShqd2spOwogICAgfQogICAgandrcy5rZXlzLmZpcnN0KCkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBmZXRjaF9naXRodWJfcHJvZmlsZSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBwcm92aWRlcjogJlZhbHVlLAogICAgYWNjZXNzX3Rva2VuOiAmc3RyLAogICAgdHJhbnNsYXRvcjogJlRyYW5zbGF0b3IsCikgLT4gUmVzdWx0PEV4dGVybmFsUHJvZmlsZSwgU3RyaW5nPiB7CiAgICBsZXQgY29uZmlnID0gcHJvdmlkZXJfY29uZmlnKHByb3ZpZGVyLCB0cmFuc2xhdG9yKT87CiAgICBsZXQgdXNlcl9lbmRwb2ludCA9CiAgICAgICAgc3RyaW5nX2ZpZWxkKGNvbmZpZywgInVzZXJpbmZvX2VuZHBvaW50IikudW53cmFwX29yKCJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXIiKTsKICAgIGxldCB1c2VyID0gZ2l0aHViX2FwaV9yZXF1ZXN0KCZzdGF0ZS5mYWxsYmFja19jbGllbnQsIHVzZXJfZW5kcG9pbnQsIGFjY2Vzc190b2tlbikKICAgICAgICAuc2VuZCgpCiAgICAgICAgLmF3YWl0CiAgICAgICAgLm1hcF9lcnIofGVycm9yfCB7CiAgICAgICAgICAgIG9pZGNfdGV4dF9wYXJhbXMoCiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLAogICAgICAgICAgICAgICAgImdpdGh1YlByb2ZpbGVSZXF1ZXN0RmFpbGVkIiwKICAgICAgICAgICAgICAgICZbKCJkZXRhaWwiLCBlcnJvci50b19zdHJpbmcoKSldLAogICAgICAgICAgICApCiAgICAgICAgfSk/OwogICAgbGV0IHVzZXIgPSBwYXJzZV9odHRwX3BheWxvYWQodXNlciwgdHJhbnNsYXRvcikuYXdhaXQ/OwogICAgbGV0IHN1YmplY3QgPSBvcHRpb25hbF9zdHJpbmcodXNlci5nZXQoImlkIikpCiAgICAgICAgLm9yX2Vsc2UofHwgewogICAgICAgICAgICB1c2VyLmdldCgiaWQiKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19pNjQpCiAgICAgICAgICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUudG9fc3RyaW5nKCkpCiAgICAgICAgfSkKICAgICAgICAub2tfb3JfZWxzZSh8fCBvaWRjX3RleHQodHJhbnNsYXRvciwgImdpdGh1YlVzZXJJZEVtcHR5IikpPzsKICAgIGxldCBtdXQgZW1haWwgPSBvcHRpb25hbF9zdHJpbmcodXNlci5nZXQoImVtYWlsIikpOwogICAgbGV0IG11dCBlbWFpbF92ZXJpZmllZCA9IGZhbHNlOwogICAgaWYgbGV0IFNvbWUoZW5kcG9pbnQpID0gc3RyaW5nX2ZpZWxkKGNvbmZpZywgImVtYWlsc19lbmRwb2ludCIpCiAgICAgICAgJiYgbGV0IE9rKHJlc3BvbnNlKSA9IGdpdGh1Yl9hcGlfcmVxdWVzdCgmc3RhdGUuZmFsbGJhY2tfY2xpZW50LCBlbmRwb2ludCwgYWNjZXNzX3Rva2VuKQogICAgICAgICAgICAuc2VuZCgpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICYmIHJlc3BvbnNlLnN0YXR1cygpLmlzX3N1Y2Nlc3MoKQogICAgICAgICYmIGxldCBPayhlbWFpbHMpID0KICAgICAgICAgICAgY3JhdGU6Omh0dHBfYm9keTo6cmVhZF9yZXNwb25zZV9qc29uX2xpbWl0ZWQ6OjxWYWx1ZT4ocmVzcG9uc2UsIE1BWF9PSURDX1JFU1BPTlNFX0JZVEVTKQogICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgJiYgbGV0IFNvbWUoaXRlbXMpID0gZW1haWxzLmFzX2FycmF5KCkKICAgICAgICAmJiBsZXQgU29tZShwcmltYXJ5KSA9IGl0ZW1zCiAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgLmZpbmQofGl0ZW18IGl0ZW0uZ2V0KCJwcmltYXJ5IikuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpID09IFNvbWUodHJ1ZSkpCiAgICAgICAgICAgIC5vcl9lbHNlKHx8IGl0ZW1zLmZpcnN0KCkpCiAgICB7CiAgICAgICAgZW1haWwgPSBvcHRpb25hbF9zdHJpbmcocHJpbWFyeS5nZXQoImVtYWlsIikpLm9yKGVtYWlsKTsKICAgICAgICBlbWFpbF92ZXJpZmllZCA9IHByaW1hcnkKICAgICAgICAgICAgLmdldCgidmVyaWZpZWQiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2Jvb2wpCiAgICAgICAgICAgIC51bndyYXBfb3IoZW1haWwuaXNfc29tZSgpKTsKICAgIH0KICAgIE9rKEV4dGVybmFsUHJvZmlsZSB7CiAgICAgICAgaXNzdWVyOiAiZ2l0aHViIi50b19zdHJpbmcoKSwKICAgICAgICBzdWJqZWN0LAogICAgICAgIGRpc3BsYXlfbmFtZTogb3B0aW9uYWxfc3RyaW5nKHVzZXIuZ2V0KCJuYW1lIikpCiAgICAgICAgICAgIC5vcl9lbHNlKHx8IG9wdGlvbmFsX3N0cmluZyh1c2VyLmdldCgibG9naW4iKSkpLAogICAgICAgIGVtYWlsLAogICAgICAgIGVtYWlsX3ZlcmlmaWVkOiBTb21lKGVtYWlsX3ZlcmlmaWVkKSwKICAgICAgICBhdmF0YXJfdXJsOiBvcHRpb25hbF9zdHJpbmcodXNlci5nZXQoImF2YXRhcl91cmwiKSksCiAgICB9KQp9CgpwdWIoc3VwZXIpIGZuIGdpdGh1Yl9hcGlfcmVxdWVzdCgKICAgIGNsaWVudDogJnJlcXdlc3Q6OkNsaWVudCwKICAgIGVuZHBvaW50OiAmc3RyLAogICAgYWNjZXNzX3Rva2VuOiAmc3RyLAopIC0+IHJlcXdlc3Q6OlJlcXVlc3RCdWlsZGVyIHsKICAgIG9pZGNfaHR0cF9yZXF1ZXN0KGNsaWVudC5nZXQoZW5kcG9pbnQpLCAiYXBwbGljYXRpb24vdm5kLmdpdGh1Yitqc29uIikKICAgICAgICAuaGVhZGVyKCJYLUdpdEh1Yi1BcGktVmVyc2lvbiIsICIyMDIyLTExLTI4IikKICAgICAgICAuYmVhcmVyX2F1dGgoYWNjZXNzX3Rva2VuKQp9Cg==
+use super::*;
+
+const MAX_OIDC_RESPONSE_BYTES: usize = 1024 * 1024;
+
+pub(super) async fn build_standard_oidc_authorization_url(
+    provider: &Value,
+    callback_url: &str,
+    state_token: &str,
+    nonce: &str,
+    code_verifier: &str,
+    translator: &Translator,
+) -> Result<String, String> {
+    let discovery = resolve_discovery_with_translator(provider, translator).await?;
+    let config = provider_config(provider, translator)?;
+    let client_id = string_field(config, "client_id")
+        .ok_or_else(|| oidc_text(translator, "clientIdMissing"))?;
+    let mut url = Url::parse(
+        discovery
+            .get("authorization_endpoint")
+            .and_then(Value::as_str)
+            .ok_or_else(|| oidc_text(translator, "authorizationEndpointMissing"))?,
+    )
+    .map_err(|_| oidc_text(translator, "authorizationEndpointInvalid"))?;
+    {
+        let mut params = url.query_pairs_mut();
+        params.append_pair("client_id", client_id);
+        params.append_pair("response_type", "code");
+        params.append_pair("redirect_uri", callback_url);
+        params.append_pair(
+            "scope",
+            &scopes(config, &["openid", "profile", "email"]).join(" "),
+        );
+        params.append_pair("state", state_token);
+        params.append_pair("nonce", nonce);
+        params.append_pair("code_challenge", &create_pkce_challenge(code_verifier));
+        params.append_pair("code_challenge_method", "S256");
+        if provider.get("type").and_then(Value::as_str) == Some("fnknock_qq") {
+            let provider_id = provider.get("id").and_then(Value::as_str).unwrap_or("");
+            let mut metadata_url = Url::parse(callback_url)
+                .map_err(|_| oidc_text(translator, "authorizationEndpointInvalid"))?;
+            let callback_suffix = format!("/callback/{provider_id}");
+            let path = metadata_url.path().to_string();
+            let Some(prefix) = path.strip_suffix(&callback_suffix) else {
+                return Err(oidc_text(translator, "authorizationEndpointInvalid"));
+            };
+            metadata_url.set_path(&format!("{prefix}/client-metadata"));
+            metadata_url.set_query(Some(&format!("provider_id={}", encode_query(provider_id))));
+            params.append_pair("client_metadata_uri", metadata_url.as_str());
+        }
+        for (key, value) in extra_auth_params(config) {
+            params.append_pair(&key, &value);
+        }
+    }
+    Ok(url.to_string())
+}
+
+pub(super) fn build_oauth_profile_authorization_url(
+    provider: &Value,
+    callback_url: &str,
+    state_token: &str,
+    translator: &Translator,
+) -> Result<String, String> {
+    let config = provider_config(provider, translator)?;
+    let client_id = string_field(config, "client_id")
+        .ok_or_else(|| oidc_text(translator, "clientIdMissing"))?;
+    let endpoint = string_field(config, "authorization_endpoint")
+        .ok_or_else(|| oidc_text(translator, "authorizationEndpointMissing"))?;
+    let mut url =
+        Url::parse(endpoint).map_err(|_| oidc_text(translator, "authorizationEndpointInvalid"))?;
+    {
+        let mut params = url.query_pairs_mut();
+        params.append_pair("client_id", client_id);
+        params.append_pair("response_type", "code");
+        params.append_pair("redirect_uri", callback_url);
+        params.append_pair("scope", &scopes(config, &[]).join(" "));
+        params.append_pair("state", state_token);
+        for (key, value) in extra_auth_params(config) {
+            params.append_pair(&key, &value);
+        }
+    }
+    Ok(url.to_string())
+}
+
+pub(super) async fn resolve_standard_oidc_callback(
+    state: &AppState,
+    provider: &Value,
+    code: &str,
+    callback_url: &str,
+    auth_state: &Value,
+    translator: &Translator,
+) -> Result<ExternalProfile, String> {
+    let discovery = resolve_discovery_with_translator(provider, translator).await?;
+    let config = provider_config(provider, translator)?;
+    let token_endpoint = discovery
+        .get("token_endpoint")
+        .and_then(Value::as_str)
+        .ok_or_else(|| oidc_text(translator, "tokenEndpointMissing"))?;
+    let client_id = string_field(config, "client_id").unwrap_or("");
+    let client_secret = string_field(config, "client_secret").unwrap_or("");
+    let mut form = vec![
+        ("grant_type", "authorization_code".to_string()),
+        ("client_id", client_id.to_string()),
+        ("client_secret", client_secret.to_string()),
+        ("code", code.to_string()),
+        ("redirect_uri", callback_url.to_string()),
+    ];
+    if let Some(code_verifier) = auth_state.get("code_verifier").and_then(Value::as_str) {
+        form.push(("code_verifier", code_verifier.to_string()));
+    }
+    let token_payload = exchange_form_token(state, token_endpoint, &form, None, translator).await?;
+    verify_standard_oidc_profile(
+        state,
+        provider,
+        &token_payload,
+        &discovery,
+        auth_state.get("nonce").and_then(Value::as_str),
+        translator,
+    )
+    .await
+}
+
+pub(super) async fn resolve_oauth_profile_callback(
+    state: &AppState,
+    provider: &Value,
+    code: &str,
+    callback_url: &str,
+    translator: &Translator,
+) -> Result<ExternalProfile, String> {
+    let config = provider_config(provider, translator)?;
+    let token_endpoint = string_field(config, "token_endpoint")
+        .ok_or_else(|| oidc_text(translator, "tokenEndpointMissing"))?;
+    let client_id = string_field(config, "client_id").unwrap_or("");
+    let client_secret = string_field(config, "client_secret").unwrap_or("");
+    let form = vec![
+        ("grant_type", "authorization_code".to_string()),
+        ("client_id", client_id.to_string()),
+        ("client_secret", client_secret.to_string()),
+        ("code", code.to_string()),
+        ("redirect_uri", callback_url.to_string()),
+    ];
+    let headers = (provider.get("type").and_then(Value::as_str) == Some("github"))
+        .then_some(vec![("Accept", "application/json")]);
+    let token_payload =
+        exchange_form_token(state, token_endpoint, &form, headers, translator).await?;
+    let access_token = string_field_from_value(&token_payload, "access_token")
+        .ok_or_else(|| oidc_text(translator, "accessTokenMissing"))?;
+    if provider.get("type").and_then(Value::as_str) == Some("github") {
+        return fetch_github_profile(state, provider, access_token, translator).await;
+    }
+    Err(oidc_text(translator, "providerUnsupported"))
+}
+
+pub(super) async fn exchange_form_token(
+    state: &AppState,
+    endpoint: &str,
+    fields: &[(&str, String)],
+    extra_headers: Option<Vec<(&str, &str)>>,
+    translator: &Translator,
+) -> Result<Value, String> {
+    let body = {
+        let mut serializer = url::form_urlencoded::Serializer::new(String::new());
+        for (key, value) in fields {
+            serializer.append_pair(key, value);
+        }
+        serializer.finish()
+    };
+    let mut request = oidc_http_request(state.fallback_client.post(endpoint), "application/json")
+        .header(header::CONTENT_TYPE, "application/x-www-form-urlencoded")
+        .body(body);
+    for (key, value) in extra_headers.unwrap_or_default() {
+        request = request.header(key, value);
+    }
+    let response = request.send().await.map_err(|error| {
+        oidc_text_params(
+            translator,
+            "tokenRequestFailed",
+            &[("detail", error.to_string())],
+        )
+    })?;
+    parse_http_payload(response, translator).await
+}
+
+pub(super) fn oidc_http_request(
+    request: reqwest::RequestBuilder,
+    accept: &'static str,
+) -> reqwest::RequestBuilder {
+    request
+        .header(header::ACCEPT, accept)
+        .header(header::USER_AGENT, OIDC_HTTP_USER_AGENT)
+}
+
+pub(super) async fn parse_http_payload(
+    response: reqwest::Response,
+    translator: &Translator,
+) -> Result<Value, String> {
+    let status = response.status();
+    let content_type = response
+        .headers()
+        .get(header::CONTENT_TYPE)
+        .and_then(|value| value.to_str().ok())
+        .unwrap_or("")
+        .to_string();
+    let text = crate::http_body::read_response_text_limited(response, MAX_OIDC_RESPONSE_BYTES)
+        .await
+        .map_err(|error| {
+            oidc_text_params(
+                translator,
+                "readResponseFailed",
+                &[("detail", error.to_string())],
+            )
+        })?;
+    if !status.is_success() {
+        return Err(oidc_text_params(
+            translator,
+            "httpResponseFailed",
+            &[
+                ("status", status.to_string()),
+                ("detail", text.chars().take(160).collect::<String>()),
+            ],
+        ));
+    }
+    parse_json_or_form(&text, &content_type, translator)
+}
+
+pub(super) fn parse_json_or_form(
+    text: &str,
+    content_type: &str,
+    translator: &Translator,
+) -> Result<Value, String> {
+    let trimmed = text.trim();
+    if content_type.contains("json") || trimmed.starts_with('{') {
+        serde_json::from_str(trimmed).map_err(|error| {
+            oidc_text_params(
+                translator,
+                "jsonResponseInvalid",
+                &[("detail", error.to_string())],
+            )
+        })
+    } else {
+        let object = url::form_urlencoded::parse(trimmed.as_bytes())
+            .map(|(key, value)| (key.into_owned(), Value::String(value.into_owned())))
+            .collect::<Map<_, _>>();
+        Ok(Value::Object(object))
+    }
+}
+
+pub(super) async fn verify_standard_oidc_profile(
+    state: &AppState,
+    provider: &Value,
+    token_payload: &Value,
+    discovery: &Value,
+    expected_nonce: Option<&str>,
+    translator: &Translator,
+) -> Result<ExternalProfile, String> {
+    let id_token = token_payload
+        .get("id_token")
+        .and_then(Value::as_str)
+        .filter(|value| !value.trim().is_empty())
+        .ok_or_else(|| oidc_text(translator, "idTokenMissing"))?;
+    let jwks_uri = discovery
+        .get("jwks_uri")
+        .and_then(Value::as_str)
+        .ok_or_else(|| oidc_text(translator, "jwksUriMissing"))?;
+    let jwks = oidc_http_request(state.fallback_client.get(jwks_uri), "application/json")
+        .send()
+        .await
+        .map_err(|error| {
+            oidc_text_params(
+                translator,
+                "jwksFetchFailed",
+                &[("detail", error.to_string())],
+            )
+        })?
+        .json::<JwkSet>()
+        .await
+        .map_err(|error| {
+            oidc_text_params(translator, "jwksInvalid", &[("detail", error.to_string())])
+        })?;
+    let header = decode_header(id_token).map_err(|error| {
+        oidc_text_params(
+            translator,
+            "tokenHeaderInvalid",
+            &[("detail", error.to_string())],
+        )
+    })?;
+    let jwk = select_jwk(&jwks, header.kid.as_deref())
+        .ok_or_else(|| oidc_text(translator, "signingKeyUnavailable"))?;
+    let decoding_key = DecodingKey::from_jwk(jwk).map_err(|error| {
+        oidc_text_params(
+            translator,
+            "signingKeyInvalid",
+            &[("detail", error.to_string())],
+        )
+    })?;
+    let config = provider_config(provider, translator)?;
+    let client_id = string_field(config, "client_id").unwrap_or("");
+    let discovery_issuer = discovery
+        .get("issuer")
+        .and_then(Value::as_str)
+        .unwrap_or("");
+    let issuer_for_verify = (!discovery_issuer.contains("{tenantid}")).then_some(discovery_issuer);
+    let mut validation = Validation::new(header.alg);
+    validation.set_audience(&[client_id]);
+    if let Some(issuer) = issuer_for_verify {
+        validation.set_issuer(&[issuer]);
+    }
+    let token = decode::<Value>(id_token, &decoding_key, &validation).map_err(|error| {
+        oidc_text_params(
+            translator,
+            "idTokenVerificationFailed",
+            &[("detail", error.to_string())],
+        )
+    })?;
+    let payload = token.claims;
+    if let Some(expected_nonce) = expected_nonce
+        && payload.get("nonce").and_then(Value::as_str) != Some(expected_nonce)
+    {
+        return Err(oidc_text(translator, "nonceCheckFailed"));
+    }
+    if issuer_for_verify.is_none() {
+        let issuer = payload.get("iss").and_then(Value::as_str).unwrap_or("");
+        if !issuer.starts_with("https://login.microsoftonline.com/") {
+            return Err(oidc_text(translator, "issuerCheckFailed"));
+        }
+    }
+    let subject = payload
+        .get("sub")
+        .and_then(Value::as_str)
+        .filter(|value| !value.trim().is_empty())
+        .ok_or_else(|| oidc_text(translator, "subjectEmpty"))?;
+    let mut userinfo = Value::Object(Map::new());
+    if let Some(endpoint) = discovery
+        .get("userinfo_endpoint")
+        .and_then(Value::as_str)
+        .filter(|value| !value.trim().is_empty())
+        && let Some(access_token) = token_payload.get("access_token").and_then(Value::as_str)
+        && let Ok(response) =
+            oidc_http_request(state.fallback_client.get(endpoint), "application/json")
+                .bearer_auth(access_token)
+                .send()
+                .await
+        && response.status().is_success()
+        && let Ok(payload) = parse_http_payload(response, translator).await
+    {
+        userinfo = payload;
+    }
+    let pick = |key: &str| userinfo.get(key).or_else(|| payload.get(key));
+    Ok(ExternalProfile {
+        issuer: payload
+            .get("iss")
+            .and_then(Value::as_str)
+            .unwrap_or(discovery_issuer)
+            .to_string(),
+        subject: subject.to_string(),
+        display_name: optional_string(pick("name"))
+            .or_else(|| optional_string(pick("preferred_username"))),
+        email: optional_string(pick("email")),
+        email_verified: Some(value_truthy(pick("email_verified"))),
+        avatar_url: optional_string(pick("picture")),
+    })
+}
+
+pub(super) fn select_jwk<'a>(jwks: &'a JwkSet, kid: Option<&str>) -> Option<&'a Jwk> {
+    if let Some(kid) = kid
+        && let Some(jwk) = jwks
+            .keys
+            .iter()
+            .find(|jwk| jwk.common.key_id.as_deref() == Some(kid))
+    {
+        return Some(jwk);
+    }
+    jwks.keys.first()
+}
+
+pub(super) async fn fetch_github_profile(
+    state: &AppState,
+    provider: &Value,
+    access_token: &str,
+    translator: &Translator,
+) -> Result<ExternalProfile, String> {
+    let config = provider_config(provider, translator)?;
+    let user_endpoint =
+        string_field(config, "userinfo_endpoint").unwrap_or("https://api.github.com/user");
+    let user = github_api_request(&state.fallback_client, user_endpoint, access_token)
+        .send()
+        .await
+        .map_err(|error| {
+            oidc_text_params(
+                translator,
+                "githubProfileRequestFailed",
+                &[("detail", error.to_string())],
+            )
+        })?;
+    let user = parse_http_payload(user, translator).await?;
+    let subject = optional_string(user.get("id"))
+        .or_else(|| {
+            user.get("id")
+                .and_then(Value::as_i64)
+                .map(|value| value.to_string())
+        })
+        .ok_or_else(|| oidc_text(translator, "githubUserIdEmpty"))?;
+    let mut email = optional_string(user.get("email"));
+    let mut email_verified = false;
+    if let Some(endpoint) = string_field(config, "emails_endpoint")
+        && let Ok(response) = github_api_request(&state.fallback_client, endpoint, access_token)
+            .send()
+            .await
+        && response.status().is_success()
+        && let Ok(emails) =
+            crate::http_body::read_response_json_limited::<Value>(response, MAX_OIDC_RESPONSE_BYTES)
+                .await
+        && let Some(items) = emails.as_array()
+        && let Some(primary) = items
+            .iter()
+            .find(|item| item.get("primary").and_then(Value::as_bool) == Some(true))
+            .or_else(|| items.first())
+    {
+        email = optional_string(primary.get("email")).or(email);
+        email_verified = primary
+            .get("verified")
+            .and_then(Value::as_bool)
+            .unwrap_or(email.is_some());
+    }
+    Ok(ExternalProfile {
+        issuer: "github".to_string(),
+        subject,
+        display_name: optional_string(user.get("name"))
+            .or_else(|| optional_string(user.get("login"))),
+        email,
+        email_verified: Some(email_verified),
+        avatar_url: optional_string(user.get("avatar_url")),
+    })
+}
+
+pub(super) fn github_api_request(
+    client: &reqwest::Client,
+    endpoint: &str,
+    access_token: &str,
+) -> reqwest::RequestBuilder {
+    oidc_http_request(client.get(endpoint), "application/vnd.github+json")
+        .header("X-GitHub-Api-Version", "2022-11-28")
+        .bearer_auth(access_token)
+}

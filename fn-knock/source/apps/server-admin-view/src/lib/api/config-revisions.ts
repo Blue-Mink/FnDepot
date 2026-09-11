@@ -1,1 +1,31 @@
-aW1wb3J0IHR5cGUgeyBBcHBDb25maWcsIEhvc3RNYXBwaW5nLCBIb3N0TWFwcGluZ0dyb3VwIH0gZnJvbSAiLi4vLi4vdHlwZXMiOwoKZXhwb3J0IGNvbnN0IEhPU1RfTUFQUElOR1NfUkVWSVNJT05fSEVBREVSID0gIngtaG9zdC1tYXBwaW5ncy1yZXZpc2lvbiI7CmV4cG9ydCBjb25zdCBIT1NUX01BUFBJTkdfQ0FUQUxPR19SRVZJU0lPTl9IRUFERVIgPQogICJ4LWhvc3QtbWFwcGluZy1jYXRhbG9nLXJldmlzaW9uIjsKCmV4cG9ydCBjb25zdCBob3N0TWFwcGluZ3NSZXZpc2lvbkZyb21IZWFkZXJzID0gKAogIGhlYWRlcnM6IFJlY29yZDxzdHJpbmcsIHVua25vd24+LAopOiBzdHJpbmcgfCBudWxsID0+IHsKICBjb25zdCB2YWx1ZSA9IFN0cmluZyhoZWFkZXJzW0hPU1RfTUFQUElOR1NfUkVWSVNJT05fSEVBREVSXSA/PyAiIikudHJpbSgpOwogIHJldHVybiB2YWx1ZSB8fCBudWxsOwp9OwoKZXhwb3J0IGludGVyZmFjZSBSZXZpc2lvbmVkQ29uZmlnIHsKICBjb25maWc6IEFwcENvbmZpZzsKICBob3N0TWFwcGluZ3NSZXZpc2lvbjogc3RyaW5nIHwgbnVsbDsKICBob3N0TWFwcGluZ0NhdGFsb2dSZXZpc2lvbjogc3RyaW5nIHwgbnVsbDsKfQoKZXhwb3J0IGludGVyZmFjZSBSZXZpc2lvbmVkSG9zdE1hcHBpbmdzIHsKICBtYXBwaW5nczogSG9zdE1hcHBpbmdbXTsKICByZXZpc2lvbjogc3RyaW5nIHwgbnVsbDsKfQoKZXhwb3J0IGludGVyZmFjZSBSZXZpc2lvbmVkSG9zdE1hcHBpbmdDYXRhbG9nIHsKICBtYXBwaW5nczogSG9zdE1hcHBpbmdbXTsKICBncm91cHM6IEhvc3RNYXBwaW5nR3JvdXBbXTsKICBncm91cGVkVmlldzogYm9vbGVhbjsKICByZXZpc2lvbjogc3RyaW5nIHwgbnVsbDsKICBob3N0TWFwcGluZ3NSZXZpc2lvbjogc3RyaW5nIHwgbnVsbDsKfQo=
+import type { AppConfig, HostMapping, HostMappingGroup } from "../../types";
+
+export const HOST_MAPPINGS_REVISION_HEADER = "x-host-mappings-revision";
+export const HOST_MAPPING_CATALOG_REVISION_HEADER =
+  "x-host-mapping-catalog-revision";
+
+export const hostMappingsRevisionFromHeaders = (
+  headers: Record<string, unknown>,
+): string | null => {
+  const value = String(headers[HOST_MAPPINGS_REVISION_HEADER] ?? "").trim();
+  return value || null;
+};
+
+export interface RevisionedConfig {
+  config: AppConfig;
+  hostMappingsRevision: string | null;
+  hostMappingCatalogRevision: string | null;
+}
+
+export interface RevisionedHostMappings {
+  mappings: HostMapping[];
+  revision: string | null;
+}
+
+export interface RevisionedHostMappingCatalog {
+  mappings: HostMapping[];
+  groups: HostMappingGroup[];
+  groupedView: boolean;
+  revision: string | null;
+  hostMappingsRevision: string | null;
+}

@@ -1,1 +1,174 @@
-aW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgZGVzY3JpYmUsIGl0IH0gZnJvbSAibm9kZTp0ZXN0IjsKCmNvbnN0IHJlYWRTb3VyY2UgPSAocGF0aDogc3RyaW5nKSA9PgogIHJlYWRGaWxlU3luYyhuZXcgVVJMKHBhdGgsIGltcG9ydC5tZXRhLnVybCksICJ1dGY4Iik7Cgp0eXBlIFNjaGVtYSA9IHsKICAkcmVmPzogc3RyaW5nOwogIGNvbnN0PzogYm9vbGVhbiB8IG51bWJlciB8IHN0cmluZzsKICBkZWZhdWx0PzogbnVtYmVyIHwgc3RyaW5nOwogIGRlc2NyaXB0aW9uPzogc3RyaW5nOwogIGVudW0/OiBBcnJheTxudWxsIHwgbnVtYmVyIHwgc3RyaW5nPjsKICBmb3JtYXQ/OiBzdHJpbmc7CiAgbWF4aW11bT86IG51bWJlcjsKICBtaW5pbXVtPzogbnVtYmVyOwogIG1pbkl0ZW1zPzogbnVtYmVyOwogIHBhdHRlcm4/OiBzdHJpbmc7CiAgcHJvcGVydGllcz86IFJlY29yZDxzdHJpbmcsIFNjaGVtYT47CiAgcmVxdWlyZWQ/OiBzdHJpbmdbXTsKfTsKCnR5cGUgT3BlcmF0aW9uID0gewogICJ4LWZuLWtub2NrLWNvbnRyYWN0LXNvdXJjZSI/OiBzdHJpbmc7CiAgcGFyYW1ldGVycz86IEFycmF5PHsgbmFtZT86IHN0cmluZzsgc2NoZW1hPzogU2NoZW1hIH0+OwogIHJlcXVlc3RCb2R5PzogewogICAgY29udGVudD86IFJlY29yZDxzdHJpbmcsIHsgc2NoZW1hPzogU2NoZW1hIH0+OwogIH07Cn07Cgpjb25zdCBjb250cmFjdCA9IEpTT04ucGFyc2UoCiAgcmVhZFNvdXJjZSgiLi4vLi4vLi4vcGFja2FnZXMvYXBpLWNvbnRyYWN0L29wZW5hcGkuanNvbiIpLAopIGFzIHsKICBjb21wb25lbnRzOiB7IHNjaGVtYXM6IFJlY29yZDxzdHJpbmcsIFNjaGVtYT4gfTsKICBwYXRoczogUmVjb3JkPHN0cmluZywgUmVjb3JkPHN0cmluZywgT3BlcmF0aW9uPj47Cn07CgpkZXNjcmliZSgiV0FGIEFQSSBjb250cmFjdCIsICgpID0+IHsKICBpdCgia2VlcHMgZXZlcnkgV0FGIG9wZXJhdGlvbiBvbiB0aGUgcnVudGltZSBVdG9pcGEgcm91dGVyIiwgKCkgPT4gewogICAgZm9yIChjb25zdCBbbWV0aG9kLCBwYXRoXSBvZiBbCiAgICAgIFsiZ2V0IiwgIi9hcGkvYWRtaW4vd2FmL2RldGFpbHMiXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi93YWYvc3RhdHVzIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3dhZi9jb25maWciXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vd2FmL21hbmlmZXN0L3JlZnJlc2giXSwKICAgICAgWyJwb3N0IiwgIi9hcGkvYWRtaW4vd2FmL3N5c3RlbS9zeW5jIl0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3dhZi9ydWxlcy9yZWNvbW1lbmRlZCJdLAogICAgICBbInBvc3QiLCAiL2FwaS9hZG1pbi93YWYvcnVsZXMvZW5hYmxlZCJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL3dhZi9ydWxlcy97c291cmNlfS97ZmlsZW5hbWV9Il0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3dhZi9jdXN0b20vdXBsb2FkIl0sCiAgICAgIFsiZGVsZXRlIiwgIi9hcGkvYWRtaW4vd2FmL2N1c3RvbS97ZmlsZW5hbWV9Il0sCiAgICAgIFsicG9zdCIsICIvYXBpL2FkbWluL3dhZi9ldmVudHMvZHJhaW4iXSwKICAgICAgWyJnZXQiLCAiL2FwaS9hZG1pbi93YWYvbG9ncyJdLAogICAgICBbImdldCIsICIvYXBpL2FkbWluL3dhZi9sb2dzL3t0cmFjZV9pZH0iXSwKICAgICAgWyJkZWxldGUiLCAiL2FwaS9hZG1pbi93YWYvbG9ncyJdLAogICAgXSBhcyBjb25zdCkgewogICAgICBhc3NlcnQuZXF1YWwoCiAgICAgICAgY29udHJhY3QucGF0aHNbcGF0aF0/LlttZXRob2RdPy5bIngtZm4ta25vY2stY29udHJhY3Qtc291cmNlIl0sCiAgICAgICAgInV0b2lwYSIsCiAgICAgICAgYCR7bWV0aG9kLnRvVXBwZXJDYXNlKCl9ICR7cGF0aH1gLAogICAgICApOwogICAgfQogIH0pOwoKICBpdCgic2VwYXJhdGVzIG11dGFibGUgV0FGIHNldHRpbmdzIGZyb20gcnVudGltZS1vd25lZCBmaWVsZHMiLCAoKSA9PiB7CiAgICBjb25zdCBjb25maWcgPSBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuV2FmQ29uZmlnRGF0YTsKICAgIGFzc2VydC5lcXVhbChjb25maWcucHJvcGVydGllcz8ubW9kZT8uY29uc3QsICJibG9ja2luZyIpOwogICAgYXNzZXJ0LmVxdWFsKGNvbmZpZy5wcm9wZXJ0aWVzPy5hY3RpdmVfYnVuZGxlX2lkPy5jb25zdCwgImxvY2FsIik7CiAgICBhc3NlcnQuZXF1YWwoY29uZmlnLnByb3BlcnRpZXM/LnBhcmFub2lhX2xldmVsPy5taW5pbXVtLCAxKTsKICAgIGFzc2VydC5lcXVhbChjb25maWcucHJvcGVydGllcz8ucGFyYW5vaWFfbGV2ZWw/Lm1heGltdW0sIDQpOwogICAgYXNzZXJ0LmRlZXBFcXVhbChjb25maWcucHJvcGVydGllcz8uYmxvY2tfYmVoYXZpb3I/LmVudW0sIFsKICAgICAgImVycm9yX3BhZ2UiLAogICAgICAicmVzZXRfY29ubmVjdGlvbiIsCiAgICBdKTsKCiAgICBjb25zdCB1cGRhdGUgPSBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuV2FmQ29uZmlnVXBkYXRlRGF0YTsKICAgIGFzc2VydC5kZWVwRXF1YWwodXBkYXRlLnJlcXVpcmVkID8/IFtdLCBbXSk7CiAgICBhc3NlcnQuZGVlcEVxdWFsKE9iamVjdC5rZXlzKHVwZGF0ZS5wcm9wZXJ0aWVzID8/IHt9KS5zb3J0KCksIFsKICAgICAgImJsb2NrX2JlaGF2aW9yIiwKICAgICAgImNvbW1vbl9sb2NhdGlvbl9leGVtcHRfZW5hYmxlZCIsCiAgICAgICJlbmFibGVkIiwKICAgICAgImV4ZWN1dGluZ19wYXJhbm9pYV9sZXZlbCIsCiAgICAgICJwYXJhbm9pYV9sZXZlbCIsCiAgICAgICJwcml2YXRlX2lwX2V4ZW1wdF9lbmFibGVkIiwKICAgICAgInN5c3RlbV9ydWxlc19hdXRvX3VwZGF0ZV9lbmFibGVkIiwKICAgIF0pOwogIH0pOwoKICBpdCgiZG9jdW1lbnRzIHJ1bGUgc291cmNlcyBhbmQgdXBsb2FkIHNhZmV0eSBib3VuZGFyaWVzIiwgKCkgPT4gewogICAgY29uc3QgcGFyYW1ldGVycyA9CiAgICAgIGNvbnRyYWN0LnBhdGhzWyIvYXBpL2FkbWluL3dhZi9ydWxlcy97c291cmNlfS97ZmlsZW5hbWV9Il0uZ2V0CiAgICAgICAgLnBhcmFtZXRlcnMgPz8gW107CiAgICBhc3NlcnQuZGVlcEVxdWFsKAogICAgICBwYXJhbWV0ZXJzLmZpbmQoKHBhcmFtZXRlcikgPT4gcGFyYW1ldGVyLm5hbWUgPT09ICJzb3VyY2UiKT8uc2NoZW1hPy5lbnVtLAogICAgICBbInN5c3RlbSIsICJjdXN0b20iXSwKICAgICk7CiAgICBhc3NlcnQuZXF1YWwoCiAgICAgIHBhcmFtZXRlcnMuZmluZCgocGFyYW1ldGVyKSA9PiBwYXJhbWV0ZXIubmFtZSA9PT0gImZpbGVuYW1lIik/LnNjaGVtYQogICAgICAgID8ucGF0dGVybiwKICAgICAgIig/aSlcXC5jb25mJCIsCiAgICApOwogICAgYXNzZXJ0LmVxdWFsKAogICAgICBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuV2FmVXBsb2FkQm9keURhdGEucHJvcGVydGllcz8uZmlsZXM/Lm1pbkl0ZW1zLAogICAgICAxLAogICAgKTsKICAgIGNvbnN0IGZpbGUgPSBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuV2FmVXBsb2FkRmlsZURhdGE7CiAgICBhc3NlcnQuZXF1YWwoZmlsZS5wcm9wZXJ0aWVzPy5jb250ZW50X2Jhc2U2ND8uZm9ybWF0LCAiYnl0ZSIpOwogICAgYXNzZXJ0Lm1hdGNoKGZpbGUucHJvcGVydGllcz8uY29udGVudF9iYXNlNjQ/LmRlc2NyaXB0aW9uID8/ICIiLCAvMSBNaUIvdSk7CiAgfSk7CgogIGl0KCJwcmVzZXJ2ZXMgbG9nIHBhZ2luYXRpb24gY29tcGF0aWJpbGl0eSBhbmQgdGhlIHJlYWwgZHJhaW4gc2hhcGUiLCAoKSA9PiB7CiAgICBjb25zdCBwYXJhbWV0ZXJzID0KICAgICAgY29udHJhY3QucGF0aHNbIi9hcGkvYWRtaW4vd2FmL2xvZ3MiXS5nZXQucGFyYW1ldGVycyA/PyBbXTsKICAgIGNvbnN0IGN1cnNvciA9IHBhcmFtZXRlcnMuZmluZCgKICAgICAgKHBhcmFtZXRlcikgPT4gcGFyYW1ldGVyLm5hbWUgPT09ICJjdXJzb3IiLAogICAgKT8uc2NoZW1hOwogICAgY29uc3QgbGltaXQgPSBwYXJhbWV0ZXJzLmZpbmQoCiAgICAgIChwYXJhbWV0ZXIpID0+IHBhcmFtZXRlci5uYW1lID09PSAibGltaXQiLAogICAgKT8uc2NoZW1hOwogICAgYXNzZXJ0LmVxdWFsKGN1cnNvcj8uZGVmYXVsdCwgIjAiKTsKICAgIGFzc2VydC5lcXVhbChjdXJzb3I/LnBhdHRlcm4sICJeXFxzKlsrLV0/XFxkKyIpOwogICAgYXNzZXJ0LmVxdWFsKGxpbWl0Py5kZWZhdWx0LCAiNTAiKTsKICAgIGFzc2VydC5lcXVhbChsaW1pdD8ucGF0dGVybiwgIl5cXHMqWystXT9cXGQrIik7CgogICAgY29uc3QgZHJhaW4gPSBjb250cmFjdC5jb21wb25lbnRzLnNjaGVtYXMuV2FmRHJhaW5SZXN1bHREYXRhOwogICAgYXNzZXJ0Lm9rKGRyYWluLnJlcXVpcmVkPy5pbmNsdWRlcygiZHJhaW5lZCIpKTsKICAgIGFzc2VydC5vayhkcmFpbi5yZXF1aXJlZD8uaW5jbHVkZXMoInJlbWFpbmluZyIpKTsKICAgIGFzc2VydC5lcXVhbChkcmFpbi5wcm9wZXJ0aWVzPy5ldmVudHMsIHVuZGVmaW5lZCk7CiAgfSk7CgogIGl0KCJkZXJpdmVzIGZyb250ZW5kIHJlc3BvbnNlcywgcmVxdWVzdCBib2RpZXMsIGFuZCBsb2cgcXVlcmllcyIsICgpID0+IHsKICAgIGNvbnN0IHR5cGVzID0gcmVhZFNvdXJjZSgiLi4vc3JjL3R5cGVzL3dhZi50cyIpOwogICAgY29uc3QgYXBpID0gcmVhZFNvdXJjZSgiLi4vc3JjL2xpYi9hcGkvZ2F0ZXdheS50cyIpOwogICAgZm9yIChjb25zdCBzY2hlbWEgb2YgWwogICAgICAiV2FmQ29uZmlnRGF0YSIsCiAgICAgICJXYWZEZXRhaWxzRGF0YSIsCiAgICAgICJXYWZSdWxlRmlsZURhdGEiLAogICAgICAiV2FmRXZlbnREYXRhIiwKICAgICAgIldhZkxvZ0VudHJpZXNEYXRhIiwKICAgICAgIldhZkRyYWluUmVzdWx0RGF0YSIsCiAgICBdKSB7CiAgICAgIGFzc2VydC5tYXRjaCh0eXBlcywgbmV3IFJlZ0V4cChgXFxbIiR7c2NoZW1hfSJcXF1gLCAidSIpLCBzY2hlbWEpOwogICAgfQogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL1xbIldhZkNvbmZpZ1VwZGF0ZURhdGEiXF0vdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvXFsiV2FmUnVsZVRvZ2dsZUJvZHlEYXRhIlxdL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL1xbIldhZlVwbG9hZEJvZHlEYXRhIlxdL3UpOwogICAgYXNzZXJ0Lm1hdGNoKGFwaSwgL2dldF9hcGlfYWRtaW5fd2FmX2xvZ3MvdSk7CiAgICBhc3NlcnQubWF0Y2goYXBpLCAvc2F0aXNmaWVzIFdhZkxvZ0RlbGV0ZUJvZHkvdSk7CiAgICBhc3NlcnQuZG9lc05vdE1hdGNoKHR5cGVzLCAvaW50ZXJmYWNlIFdBRkNvbmZpZy91KTsKICAgIGFzc2VydC5kb2VzTm90TWF0Y2godHlwZXMsIC9pbnRlcmZhY2UgV0FGRXZlbnQvdSk7CiAgfSk7CgogIGl0KCJ3aXJlcyB0aGUgV0FGIGJsb2NrIHJlc3BvbnNlIHNlbGVjdG9yIHRvIGltbWVkaWF0ZSBzYXZlIGFuZCByb2xsYmFjayIsICgpID0+IHsKICAgIGNvbnN0IHZpZXcgPSByZWFkU291cmNlKCIuLi9zcmMvdmlld3Mvc3lzdGVtLXNldHRpbmdzL1dBRlNldHRpbmdzLnZ1ZSIpOwogICAgY29uc3Qgc2V0dGluZ3MgPSByZWFkU291cmNlKAogICAgICAiLi4vc3JjL3ZpZXdzL3N5c3RlbS1zZXR0aW5ncy93YWYtc2V0dGluZ3MvdXNlV0FGU2V0dGluZ3MudHMiLAogICAgKTsKICAgIGNvbnN0IHJvdyA9IHJlYWRTb3VyY2UoCiAgICAgICIuLi9zcmMvdmlld3Mvc3lzdGVtLXNldHRpbmdzL3dhZi1zZXR0aW5ncy9XQUZCbG9ja0JlaGF2aW9yU2V0dGluZ1Jvdy52dWUiLAogICAgKTsKCiAgICBhc3NlcnQubWF0Y2godmlldywgLzxXQUZCbG9ja0JlaGF2aW9yU2V0dGluZ1Jvdy91KTsKICAgIGFzc2VydC5tYXRjaCh2aWV3LCAvdi1pZj0iZm9ybVwuZW5hYmxlZCIvdSk7CiAgICBhc3NlcnQubWF0Y2godmlldywgL0B1cGRhdGU6bW9kZWwtdmFsdWU9ImhhbmRsZUJsb2NrQmVoYXZpb3JDaGFuZ2UiL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHNldHRpbmdzLCAvYmxvY2tfYmVoYXZpb3I6ICJlcnJvcl9wYWdlIi91KTsKICAgIGFzc2VydC5tYXRjaCgKICAgICAgc2V0dGluZ3MsCiAgICAgIC9XQUZBUElcLnVwZGF0ZUNvbmZpZ1woXHsgYmxvY2tfYmVoYXZpb3I6IG5vcm1hbGl6ZWQgXH1cKS91LAogICAgKTsKICAgIGFzc2VydC5tYXRjaChzZXR0aW5ncywgL2Zvcm1cLmJsb2NrX2JlaGF2aW9yID0gcHJldmlvdXNCZWhhdmlvci91KTsKICAgIGFzc2VydC5tYXRjaChyb3csIC9zZWxlY3RCZWhhdmlvclwoJ2Vycm9yX3BhZ2UnXCkvdSk7CiAgICBhc3NlcnQubWF0Y2gocm93LCAvc2VsZWN0QmVoYXZpb3JcKCdyZXNldF9jb25uZWN0aW9uJ1wpL3UpOwogICAgYXNzZXJ0Lm1hdGNoKHJvdywgLzphcmlhLXByZXNzZWQ9L3UpOwogIH0pOwp9KTsK
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { describe, it } from "node:test";
+
+const readSource = (path: string) =>
+  readFileSync(new URL(path, import.meta.url), "utf8");
+
+type Schema = {
+  $ref?: string;
+  const?: boolean | number | string;
+  default?: number | string;
+  description?: string;
+  enum?: Array<null | number | string>;
+  format?: string;
+  maximum?: number;
+  minimum?: number;
+  minItems?: number;
+  pattern?: string;
+  properties?: Record<string, Schema>;
+  required?: string[];
+};
+
+type Operation = {
+  "x-fn-knock-contract-source"?: string;
+  parameters?: Array<{ name?: string; schema?: Schema }>;
+  requestBody?: {
+    content?: Record<string, { schema?: Schema }>;
+  };
+};
+
+const contract = JSON.parse(
+  readSource("../../../packages/api-contract/openapi.json"),
+) as {
+  components: { schemas: Record<string, Schema> };
+  paths: Record<string, Record<string, Operation>>;
+};
+
+describe("WAF API contract", () => {
+  it("keeps every WAF operation on the runtime Utoipa router", () => {
+    for (const [method, path] of [
+      ["get", "/api/admin/waf/details"],
+      ["get", "/api/admin/waf/status"],
+      ["post", "/api/admin/waf/config"],
+      ["post", "/api/admin/waf/manifest/refresh"],
+      ["post", "/api/admin/waf/system/sync"],
+      ["post", "/api/admin/waf/rules/recommended"],
+      ["post", "/api/admin/waf/rules/enabled"],
+      ["get", "/api/admin/waf/rules/{source}/{filename}"],
+      ["post", "/api/admin/waf/custom/upload"],
+      ["delete", "/api/admin/waf/custom/{filename}"],
+      ["post", "/api/admin/waf/events/drain"],
+      ["get", "/api/admin/waf/logs"],
+      ["get", "/api/admin/waf/logs/{trace_id}"],
+      ["delete", "/api/admin/waf/logs"],
+    ] as const) {
+      assert.equal(
+        contract.paths[path]?.[method]?.["x-fn-knock-contract-source"],
+        "utoipa",
+        `${method.toUpperCase()} ${path}`,
+      );
+    }
+  });
+
+  it("separates mutable WAF settings from runtime-owned fields", () => {
+    const config = contract.components.schemas.WafConfigData;
+    assert.equal(config.properties?.mode?.const, "blocking");
+    assert.equal(config.properties?.active_bundle_id?.const, "local");
+    assert.equal(config.properties?.paranoia_level?.minimum, 1);
+    assert.equal(config.properties?.paranoia_level?.maximum, 4);
+    assert.deepEqual(config.properties?.block_behavior?.enum, [
+      "error_page",
+      "reset_connection",
+    ]);
+
+    const update = contract.components.schemas.WafConfigUpdateData;
+    assert.deepEqual(update.required ?? [], []);
+    assert.deepEqual(Object.keys(update.properties ?? {}).sort(), [
+      "block_behavior",
+      "common_location_exempt_enabled",
+      "enabled",
+      "executing_paranoia_level",
+      "paranoia_level",
+      "private_ip_exempt_enabled",
+      "system_rules_auto_update_enabled",
+    ]);
+  });
+
+  it("documents rule sources and upload safety boundaries", () => {
+    const parameters =
+      contract.paths["/api/admin/waf/rules/{source}/{filename}"].get
+        .parameters ?? [];
+    assert.deepEqual(
+      parameters.find((parameter) => parameter.name === "source")?.schema?.enum,
+      ["system", "custom"],
+    );
+    assert.equal(
+      parameters.find((parameter) => parameter.name === "filename")?.schema
+        ?.pattern,
+      "(?i)\\.conf$",
+    );
+    assert.equal(
+      contract.components.schemas.WafUploadBodyData.properties?.files?.minItems,
+      1,
+    );
+    const file = contract.components.schemas.WafUploadFileData;
+    assert.equal(file.properties?.content_base64?.format, "byte");
+    assert.match(file.properties?.content_base64?.description ?? "", /1 MiB/u);
+  });
+
+  it("preserves log pagination compatibility and the real drain shape", () => {
+    const parameters =
+      contract.paths["/api/admin/waf/logs"].get.parameters ?? [];
+    const cursor = parameters.find(
+      (parameter) => parameter.name === "cursor",
+    )?.schema;
+    const limit = parameters.find(
+      (parameter) => parameter.name === "limit",
+    )?.schema;
+    assert.equal(cursor?.default, "0");
+    assert.equal(cursor?.pattern, "^\\s*[+-]?\\d+");
+    assert.equal(limit?.default, "50");
+    assert.equal(limit?.pattern, "^\\s*[+-]?\\d+");
+
+    const drain = contract.components.schemas.WafDrainResultData;
+    assert.ok(drain.required?.includes("drained"));
+    assert.ok(drain.required?.includes("remaining"));
+    assert.equal(drain.properties?.events, undefined);
+  });
+
+  it("derives frontend responses, request bodies, and log queries", () => {
+    const types = readSource("../src/types/waf.ts");
+    const api = readSource("../src/lib/api/gateway.ts");
+    for (const schema of [
+      "WafConfigData",
+      "WafDetailsData",
+      "WafRuleFileData",
+      "WafEventData",
+      "WafLogEntriesData",
+      "WafDrainResultData",
+    ]) {
+      assert.match(types, new RegExp(`\\["${schema}"\\]`, "u"), schema);
+    }
+    assert.match(api, /\["WafConfigUpdateData"\]/u);
+    assert.match(api, /\["WafRuleToggleBodyData"\]/u);
+    assert.match(api, /\["WafUploadBodyData"\]/u);
+    assert.match(api, /get_api_admin_waf_logs/u);
+    assert.match(api, /satisfies WafLogDeleteBody/u);
+    assert.doesNotMatch(types, /interface WAFConfig/u);
+    assert.doesNotMatch(types, /interface WAFEvent/u);
+  });
+
+  it("wires the WAF block response selector to immediate save and rollback", () => {
+    const view = readSource("../src/views/system-settings/WAFSettings.vue");
+    const settings = readSource(
+      "../src/views/system-settings/waf-settings/useWAFSettings.ts",
+    );
+    const row = readSource(
+      "../src/views/system-settings/waf-settings/WAFBlockBehaviorSettingRow.vue",
+    );
+
+    assert.match(view, /<WAFBlockBehaviorSettingRow/u);
+    assert.match(view, /v-if="form\.enabled"/u);
+    assert.match(view, /@update:model-value="handleBlockBehaviorChange"/u);
+    assert.match(settings, /block_behavior: "error_page"/u);
+    assert.match(
+      settings,
+      /WAFAPI\.updateConfig\(\{ block_behavior: normalized \}\)/u,
+    );
+    assert.match(settings, /form\.block_behavior = previousBehavior/u);
+    assert.match(row, /selectBehavior\('error_page'\)/u);
+    assert.match(row, /selectBehavior\('reset_connection'\)/u);
+    assert.match(row, /:aria-pressed=/u);
+  });
+});

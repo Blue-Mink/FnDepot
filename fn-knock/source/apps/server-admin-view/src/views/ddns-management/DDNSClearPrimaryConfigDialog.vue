@@ -1,1 +1,57 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IFJlZnJlc2hDdyB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgewogIERpYWxvZywKICBEaWFsb2dDb250ZW50LAogIERpYWxvZ0Rlc2NyaXB0aW9uLAogIERpYWxvZ0Zvb3RlciwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CgpkZWZpbmVQcm9wczx7CiAgaXNDbGVhcmluZzogYm9vbGVhbjsKICBvcGVuOiBib29sZWFuOwp9PigpOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICBjb25maXJtOiBbXTsKICAidXBkYXRlOm9wZW4iOiBbdmFsdWU6IGJvb2xlYW5dOwp9PigpOwoKY29uc3QgeyB0IH0gPSB1c2VJMThuKCk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEaWFsb2cgOm9wZW49Im9wZW4iIEB1cGRhdGU6b3Blbj0iZW1pdCgndXBkYXRlOm9wZW4nLCAkZXZlbnQpIj4KICAgIDxEaWFsb2dDb250ZW50IGNsYXNzPSJzbTptYXgtdy1bNDIwcHhdIj4KICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICA8RGlhbG9nVGl0bGU+e3sgdCgiYWRtaW4uZGRucy5jbGVhclByaW1hcnlUaXRsZSIpIH19PC9EaWFsb2dUaXRsZT4KICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICB7eyB0KCJhZG1pbi5kZG5zLmNsZWFyUHJpbWFyeURlc2NyaXB0aW9uIikgfX0KICAgICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICA8L0RpYWxvZ0hlYWRlcj4KICAgICAgPERpYWxvZ0Zvb3Rlcj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgOmRpc2FibGVkPSJpc0NsZWFyaW5nIgogICAgICAgICAgQGNsaWNrPSJlbWl0KCd1cGRhdGU6b3BlbicsIGZhbHNlKSIKICAgICAgICA+CiAgICAgICAgICB7eyB0KCJjb21tb24uY2FuY2VsIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB2YXJpYW50PSJkZXN0cnVjdGl2ZSIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNDbGVhcmluZyIKICAgICAgICAgIEBjbGljaz0iZW1pdCgnY29uZmlybScpIgogICAgICAgID4KICAgICAgICAgIDxSZWZyZXNoQ3cgdi1pZj0iaXNDbGVhcmluZyIgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4iIC8+CiAgICAgICAgICB7ewogICAgICAgICAgICBpc0NsZWFyaW5nID8gdCgiYWRtaW4uZGRucy5jbGVhcmluZyIpIDogdCgiYWRtaW4uZGRucy5jb25maXJtQ2xlYXIiKQogICAgICAgICAgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9EaWFsb2dGb290ZXI+CiAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgPC9EaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { RefreshCw } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+
+defineProps<{
+  isClearing: boolean;
+  open: boolean;
+}>();
+
+const emit = defineEmits<{
+  confirm: [];
+  "update:open": [value: boolean];
+}>();
+
+const { t } = useI18n();
+</script>
+
+<template>
+  <Dialog :open="open" @update:open="emit('update:open', $event)">
+    <DialogContent class="sm:max-w-[420px]">
+      <DialogHeader>
+        <DialogTitle>{{ t("admin.ddns.clearPrimaryTitle") }}</DialogTitle>
+        <DialogDescription>
+          {{ t("admin.ddns.clearPrimaryDescription") }}
+        </DialogDescription>
+      </DialogHeader>
+      <DialogFooter>
+        <Button
+          variant="outline"
+          :disabled="isClearing"
+          @click="emit('update:open', false)"
+        >
+          {{ t("common.cancel") }}
+        </Button>
+        <Button
+          variant="destructive"
+          :disabled="isClearing"
+          @click="emit('confirm')"
+        >
+          <RefreshCw v-if="isClearing" class="mr-2 h-4 w-4 animate-spin" />
+          {{
+            isClearing ? t("admin.ddns.clearing") : t("admin.ddns.confirmClear")
+          }}
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>

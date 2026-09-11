@@ -1,1 +1,142 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBuZXh0VGljaywgb25Nb3VudGVkLCByZWFjdGl2ZSwgcmVmLCB3YXRjaCB9IGZyb20gInZ1ZSI7CmltcG9ydCB7IHVzZVJvdXRlIH0gZnJvbSAidnVlLXJvdXRlciI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgU3RhdGljUGF0aEJyb3dzZXIgZnJvbSAiLi4vc3ViZG9tYWluLXByb3h5L1N1YmRvbWFpbk1hcHBpbmdTdGF0aWNQYXRoQnJvd3Nlci52dWUiOwppbXBvcnQgeyB1c2VTdGF0aWNQYXRoQnJvd3NlciB9IGZyb20gIi4uL3N1YmRvbWFpbi1wcm94eS91c2VTdGF0aWNQYXRoQnJvd3NlciI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBhY3R1YWxEaXJlY3Rvcnk6IHN0cmluZzsKICBkZWZhdWx0RGlyZWN0b3J5OiBzdHJpbmc7CiAgZGlzYWJsZWQ6IGJvb2xlYW47Cn0+KCk7CmNvbnN0IG1vZGVsID0gZGVmaW5lTW9kZWw8c3RyaW5nPih7IHJlcXVpcmVkOiB0cnVlIH0pOwpjb25zdCB7IHQgfSA9IHVzZUkxOG4oKTsKY29uc3Qgcm91dGUgPSB1c2VSb3V0ZSgpOwpjb25zdCBvcGVuID0gcmVmKGZhbHNlKTsKY29uc3QgZWRpdG9yID0gcmVhY3RpdmUoCiAgdXNlU3RhdGljUGF0aEJyb3dzZXIoewogICAgZm9yTG9nU3RvcmFnZTogdHJ1ZSwKICAgIGFjdGl2ZTogY29tcHV0ZWQoKCkgPT4gb3Blbi52YWx1ZSksCiAgICBhcHBseVBhdGg6IChwYXRoKSA9PiB7CiAgICAgIG1vZGVsLnZhbHVlID0gcGF0aDsKICAgIH0sCiAgICBjdXJyZW50VGFyZ2V0VHlwZTogY29tcHV0ZWQoKCkgPT4gImRpcmVjdG9yeSIgYXMgY29uc3QpLAogICAgaXNEaWFsb2dPcGVuOiBvcGVuLAogICAgb3BlblZpZXc6ICgpID0+IHsKICAgICAgb3Blbi52YWx1ZSA9IHRydWU7CiAgICB9LAogICAgcmV0dXJuQmFzaWNWaWV3OiAoKSA9PiB7CiAgICAgIG9wZW4udmFsdWUgPSBmYWxzZTsKICAgIH0sCiAgICB0cmFuc2xhdGU6IChrZXksIHBhcmFtcykgPT4gKHBhcmFtcyA/IHQoa2V5LCBwYXJhbXMpIDogdChrZXkpKSwKICB9KSwKKTsKY29uc3QgYnJvd3NlID0gKCkgPT4gewogIG9wZW4udmFsdWUgPSB0cnVlOwogIGVkaXRvci5vcGVuUGF0aEJyb3dzZXIoCiAgICAiZGlyZWN0b3J5IiwKICAgIG1vZGVsLnZhbHVlIHx8IHByb3BzLmFjdHVhbERpcmVjdG9yeSB8fCBwcm9wcy5kZWZhdWx0RGlyZWN0b3J5LAogICk7Cn07CmNvbnN0IGZvY3VzRGlyZWN0b3J5ID0gYXN5bmMgKCkgPT4gewogIGlmIChyb3V0ZS5oYXNoICE9PSAiI2dhdGV3YXktbG9nLWRpcmVjdG9yeSIpIHJldHVybjsKICBhd2FpdCBuZXh0VGljaygpOwogIGNvbnN0IGlucHV0ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImdhdGV3YXktbG9nLWRpcmVjdG9yeSIpOwogIGlucHV0Py5zY3JvbGxJbnRvVmlldyh7IGJsb2NrOiAiY2VudGVyIiB9KTsKICBpbnB1dD8uZm9jdXMoeyBwcmV2ZW50U2Nyb2xsOiB0cnVlIH0pOwp9Owpvbk1vdW50ZWQoZm9jdXNEaXJlY3RvcnkpOwp3YXRjaCgoKSA9PiByb3V0ZS5oYXNoLCBmb2N1c0RpcmVjdG9yeSk7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNwYWNlLXktMyBwLTYiPgogICAgPExhYmVsIGZvcj0iZ2F0ZXdheS1sb2ctZGlyZWN0b3J5IiBjbGFzcz0idGV4dC1iYXNlIj57ewogICAgICB0KCJhZG1pbi5nYXRld2F5TG9nZ2luZy5kaXJlY3RvcnlMYWJlbCIpCiAgICB9fTwvTGFiZWw+CiAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtY29sIGdhcC0yIHNtOmZsZXgtcm93Ij4KICAgICAgPElucHV0CiAgICAgICAgaWQ9ImdhdGV3YXktbG9nLWRpcmVjdG9yeSIKICAgICAgICB2LW1vZGVsPSJtb2RlbCIKICAgICAgICBjbGFzcz0ibWluLXctMCBmb250LW1vbm8iCiAgICAgICAgOmRpc2FibGVkPSJkaXNhYmxlZCIKICAgICAgICA6cGxhY2Vob2xkZXI9ImRlZmF1bHREaXJlY3RvcnkiCiAgICAgICAgYXV0b2NvbXBsZXRlPSJvZmYiCiAgICAgICAgYXV0b2NhcGl0YWxpemU9Im5vbmUiCiAgICAgICAgOnNwZWxsY2hlY2s9ImZhbHNlIgogICAgICAgIGFyaWEtZGVzY3JpYmVkYnk9ImdhdGV3YXktbG9nLWRpcmVjdG9yeS1oZWxwIgogICAgICAvPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4IHNocmluay0wIGdhcC0yIj4KICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIDpkaXNhYmxlZD0iZGlzYWJsZWQiIEBjbGljaz0iYnJvd3NlIj57ewogICAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheUxvZ2dpbmcuYnJvd3NlRGlyZWN0b3J5IikKICAgICAgICB9fTwvQnV0dG9uPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICA6ZGlzYWJsZWQ9ImRpc2FibGVkIHx8ICFtb2RlbCIKICAgICAgICAgIEBjbGljaz0ibW9kZWwgPSAnJyIKICAgICAgICAgID57eyB0KCJhZG1pbi5nYXRld2F5TG9nZ2luZy5yZXN0b3JlRGVmYXVsdERpcmVjdG9yeSIpIH19PC9CdXR0b24KICAgICAgICA+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8ZGl2CiAgICAgIGlkPSJnYXRld2F5LWxvZy1kaXJlY3RvcnktaGVscCIKICAgICAgY2xhc3M9InNwYWNlLXktMSBicmVhay1hbGwgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICA+CiAgICAgIDxwPgogICAgICAgIHt7CiAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5TG9nZ2luZy5hY3R1YWxEaXJlY3RvcnkiLCB7CiAgICAgICAgICAgIHBhdGg6IGFjdHVhbERpcmVjdG9yeSB8fCAi4oCUIiwKICAgICAgICAgIH0pCiAgICAgICAgfX0KICAgICAgPC9wPgogICAgICA8cD4KICAgICAgICB7ewogICAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheUxvZ2dpbmcuZGVmYXVsdERpcmVjdG9yeSIsIHsKICAgICAgICAgICAgcGF0aDogZGVmYXVsdERpcmVjdG9yeSB8fCAi4oCUIiwKICAgICAgICAgIH0pCiAgICAgICAgfX0KICAgICAgPC9wPgogICAgICA8cD57eyB0KCJhZG1pbi5nYXRld2F5TG9nZ2luZy5kaXJlY3RvcnlIZWxwIikgfX08L3A+CiAgICA8L2Rpdj4KICAgIDxEaWFsb2cgdi1tb2RlbDpvcGVuPSJvcGVuIj4KICAgICAgPERpYWxvZ0NvbnRlbnQgY2xhc3M9ImZsZXggbWF4LWgtWzg1ZHZoXSBmbGV4LWNvbCBzbTptYXgtdy0zeGwiPgogICAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgICA8RGlhbG9nVGl0bGU+e3sKICAgICAgICAgICAgdCgiYWRtaW4uZ2F0ZXdheUxvZ2dpbmcuYnJvd3NlRGlyZWN0b3J5IikKICAgICAgICAgIH19PC9EaWFsb2dUaXRsZT4KICAgICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj57ewogICAgICAgICAgICB0KCJhZG1pbi5nYXRld2F5TG9nZ2luZy5kaXJlY3RvcnlCcm93c2VySGVscCIpCiAgICAgICAgICB9fTwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgICAgPGRpdiBjbGFzcz0ibWluLWgtMCBvdmVyZmxvdy15LWF1dG8iPgogICAgICAgICAgPFN0YXRpY1BhdGhCcm93c2VyCiAgICAgICAgICAgIDplZGl0b3I9ImVkaXRvciIKICAgICAgICAgICAgOmhpbnQ9InQoJ2FkbWluLmdhdGV3YXlMb2dnaW5nLmRpcmVjdG9yeUJyb3dzZXJIZWxwJykiCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxEaWFsb2dGb290ZXI+CiAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0iZWRpdG9yLmNhbmNlbCI+e3sKICAgICAgICAgICAgdCgiY29tbW9uLmNhbmNlbCIpCiAgICAgICAgICB9fTwvQnV0dG9uPgogICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICA6ZGlzYWJsZWQ9IiFlZGl0b3IuY2FuQ29uZmlybSIKICAgICAgICAgICAgQGNsaWNrPSJlZGl0b3IuY29uZmlybVNlbGVjdGlvbiIKICAgICAgICAgICAgPnt7IHQoImFkbWluLmdhdGV3YXlMb2dnaW5nLnNlbGVjdERpcmVjdG9yeSIpIH19PC9CdXR0b24KICAgICAgICAgID4KICAgICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgICAgPC9EaWFsb2dDb250ZW50PgogICAgPC9EaWFsb2c+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed, nextTick, onMounted, reactive, ref, watch } from "vue";
+import { useRoute } from "vue-router";
+import { useI18n } from "vue-i18n";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import StaticPathBrowser from "../subdomain-proxy/SubdomainMappingStaticPathBrowser.vue";
+import { useStaticPathBrowser } from "../subdomain-proxy/useStaticPathBrowser";
+
+const props = defineProps<{
+  actualDirectory: string;
+  defaultDirectory: string;
+  disabled: boolean;
+}>();
+const model = defineModel<string>({ required: true });
+const { t } = useI18n();
+const route = useRoute();
+const open = ref(false);
+const editor = reactive(
+  useStaticPathBrowser({
+    forLogStorage: true,
+    active: computed(() => open.value),
+    applyPath: (path) => {
+      model.value = path;
+    },
+    currentTargetType: computed(() => "directory" as const),
+    isDialogOpen: open,
+    openView: () => {
+      open.value = true;
+    },
+    returnBasicView: () => {
+      open.value = false;
+    },
+    translate: (key, params) => (params ? t(key, params) : t(key)),
+  }),
+);
+const browse = () => {
+  open.value = true;
+  editor.openPathBrowser(
+    "directory",
+    model.value || props.actualDirectory || props.defaultDirectory,
+  );
+};
+const focusDirectory = async () => {
+  if (route.hash !== "#gateway-log-directory") return;
+  await nextTick();
+  const input = document.getElementById("gateway-log-directory");
+  input?.scrollIntoView({ block: "center" });
+  input?.focus({ preventScroll: true });
+};
+onMounted(focusDirectory);
+watch(() => route.hash, focusDirectory);
+</script>
+
+<template>
+  <div class="space-y-3 p-6">
+    <Label for="gateway-log-directory" class="text-base">{{
+      t("admin.gatewayLogging.directoryLabel")
+    }}</Label>
+    <div class="flex flex-col gap-2 sm:flex-row">
+      <Input
+        id="gateway-log-directory"
+        v-model="model"
+        class="min-w-0 font-mono"
+        :disabled="disabled"
+        :placeholder="defaultDirectory"
+        autocomplete="off"
+        autocapitalize="none"
+        :spellcheck="false"
+        aria-describedby="gateway-log-directory-help"
+      />
+      <div class="flex shrink-0 gap-2">
+        <Button variant="outline" :disabled="disabled" @click="browse">{{
+          t("admin.gatewayLogging.browseDirectory")
+        }}</Button>
+        <Button
+          variant="outline"
+          :disabled="disabled || !model"
+          @click="model = ''"
+          >{{ t("admin.gatewayLogging.restoreDefaultDirectory") }}</Button
+        >
+      </div>
+    </div>
+    <div
+      id="gateway-log-directory-help"
+      class="space-y-1 break-all text-sm text-muted-foreground"
+    >
+      <p>
+        {{
+          t("admin.gatewayLogging.actualDirectory", {
+            path: actualDirectory || "—",
+          })
+        }}
+      </p>
+      <p>
+        {{
+          t("admin.gatewayLogging.defaultDirectory", {
+            path: defaultDirectory || "—",
+          })
+        }}
+      </p>
+      <p>{{ t("admin.gatewayLogging.directoryHelp") }}</p>
+    </div>
+    <Dialog v-model:open="open">
+      <DialogContent class="flex max-h-[85dvh] flex-col sm:max-w-3xl">
+        <DialogHeader>
+          <DialogTitle>{{
+            t("admin.gatewayLogging.browseDirectory")
+          }}</DialogTitle>
+          <DialogDescription>{{
+            t("admin.gatewayLogging.directoryBrowserHelp")
+          }}</DialogDescription>
+        </DialogHeader>
+        <div class="min-h-0 overflow-y-auto">
+          <StaticPathBrowser
+            :editor="editor"
+            :hint="t('admin.gatewayLogging.directoryBrowserHelp')"
+          />
+        </div>
+        <DialogFooter>
+          <Button variant="outline" @click="editor.cancel">{{
+            t("common.cancel")
+          }}</Button>
+          <Button
+            :disabled="!editor.canConfirm"
+            @click="editor.confirmSelection"
+            >{{ t("admin.gatewayLogging.selectDirectory") }}</Button
+          >
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  </div>
+</template>

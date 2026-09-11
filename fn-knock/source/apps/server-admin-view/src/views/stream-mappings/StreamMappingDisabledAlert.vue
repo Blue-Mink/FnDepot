@@ -1,1 +1,80 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgVHJpYW5nbGVBbGVydCB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IEFsZXJ0LCBBbGVydERlc2NyaXB0aW9uLCBBbGVydFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2FsZXJ0IjsKaW1wb3J0IHR5cGUgeyBQcm90b2NvbE1hcHBpbmdGZWF0dXJlQ29uZmlnIH0gZnJvbSAiQC90eXBlcyI7Cgp0eXBlIFByb3RvY29sTWFwcGluZ1J1bnRpbWVJc3N1ZSA9IE5vbk51bGxhYmxlPAogIFByb3RvY29sTWFwcGluZ0ZlYXR1cmVDb25maWdbInJ1bnRpbWVfaXNzdWUiXQo+OwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgcnVudGltZUlzc3VlPzogUHJvdG9jb2xNYXBwaW5nUnVudGltZUlzc3VlIHwgbnVsbDsKfT4oKTsKCmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwpjb25zdCBwcm90b2NvbExhYmVsID0gY29tcHV0ZWQoCiAgKCkgPT4gcHJvcHMucnVudGltZUlzc3VlPy5wcm90b2NvbD8udG9VcHBlckNhc2UoKSA/PyAiVENQL1VEUCIsCik7CmNvbnN0IGlzc3VlU3VtbWFyeSA9IGNvbXB1dGVkKCgpID0+IHsKICBjb25zdCBpc3N1ZSA9IHByb3BzLnJ1bnRpbWVJc3N1ZTsKICBpZiAoIWlzc3VlKSByZXR1cm4gIiI7CiAgaWYgKAogICAgaXNzdWUuY29kZSA9PT0gImxvY2FsX3BvcnRfbG9vcCIgJiYKICAgIGlzc3VlLmxpc3Rlbl9wb3J0ICE9PSBudWxsICYmCiAgICBpc3N1ZS50YXJnZXQKICApIHsKICAgIHJldHVybiB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5ydW50aW1lSXNzdWVMb2NhbExvb3AiLCB7CiAgICAgIHByb3RvY29sOiBwcm90b2NvbExhYmVsLnZhbHVlLAogICAgICBwb3J0OiBpc3N1ZS5saXN0ZW5fcG9ydCwKICAgICAgdGFyZ2V0OiBpc3N1ZS50YXJnZXQsCiAgICB9KTsKICB9CiAgaWYgKGlzc3VlLmNvZGUgPT09ICJsaXN0ZW5fcG9ydF9pbl91c2UiICYmIGlzc3VlLmxpc3Rlbl9wb3J0ICE9PSBudWxsKSB7CiAgICByZXR1cm4gdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MucnVudGltZUlzc3VlUG9ydEluVXNlIiwgewogICAgICBwcm90b2NvbDogcHJvdG9jb2xMYWJlbC52YWx1ZSwKICAgICAgcG9ydDogaXNzdWUubGlzdGVuX3BvcnQsCiAgICB9KTsKICB9CiAgcmV0dXJuIHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnJ1bnRpbWVJc3N1ZUZhbGxiYWNrIik7Cn0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8QWxlcnQKICAgIGNsYXNzPSJpdGVtcy1zdGFydCByb3VuZGVkLXhsIGJvcmRlci1hbWJlci0yMDAgYmctYW1iZXItNTAvODAgdGV4dC1hbWJlci05NTAgc2hhZG93LW5vbmUiCiAgPgogICAgPFRyaWFuZ2xlQWxlcnQgY2xhc3M9Im10LTAuNSBoLTQgdy00IHNocmluay0wIiAvPgogICAgPGRpdiBjbGFzcz0ibWluLXctMCBzcGFjZS15LTIiPgogICAgICA8QWxlcnRUaXRsZT4KICAgICAgICB7ewogICAgICAgICAgcnVudGltZUlzc3VlCiAgICAgICAgICAgID8gdCgiYWRtaW4uc3RyZWFtTWFwcGluZ3MucnVudGltZURpc2FibGVkVGl0bGUiKQogICAgICAgICAgICA6IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLmRpc2FibGVkVGl0bGUiKQogICAgICAgIH19CiAgICAgIDwvQWxlcnRUaXRsZT4KICAgICAgPEFsZXJ0RGVzY3JpcHRpb24gY2xhc3M9InNwYWNlLXktMiB0ZXh0LXNtIGxlYWRpbmctNiB0ZXh0LWFtYmVyLTkwMCI+CiAgICAgICAgPHAgdi1pZj0icnVudGltZUlzc3VlIj57eyBpc3N1ZVN1bW1hcnkgfX08L3A+CiAgICAgICAgPHA+CiAgICAgICAgICB7ewogICAgICAgICAgICBydW50aW1lSXNzdWUKICAgICAgICAgICAgICA/IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLnJ1bnRpbWVJc3N1ZVJlY292ZXJ5IikKICAgICAgICAgICAgICA6IHQoImFkbWluLnN0cmVhbU1hcHBpbmdzLmRpc2FibGVkRGVzY3JpcHRpb24iKQogICAgICAgICAgfX0KICAgICAgICA8L3A+CiAgICAgICAgPGRpdgogICAgICAgICAgdi1pZj0icnVudGltZUlzc3VlIgogICAgICAgICAgY2xhc3M9InJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1hbWJlci0yMDAvODAgYmctd2hpdGUvNjAgcHgtMyBweS0yIgogICAgICAgID4KICAgICAgICAgIDxkaXYgY2xhc3M9InRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1hbWJlci04MDAiPgogICAgICAgICAgICB7eyB0KCJhZG1pbi5zdHJlYW1NYXBwaW5ncy5ydW50aW1lSXNzdWVEZXRhaWxzIikgfX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGNvZGUgY2xhc3M9Im10LTEgYmxvY2sgYnJlYWstYWxsIHRleHQteHMgdGV4dC1hbWJlci05NTAiPnt7CiAgICAgICAgICAgIHJ1bnRpbWVJc3N1ZS5tZXNzYWdlCiAgICAgICAgICB9fTwvY29kZT4KICAgICAgICA8L2Rpdj4KICAgICAgPC9BbGVydERlc2NyaXB0aW9uPgogICAgPC9kaXY+CiAgPC9BbGVydD4KPC90ZW1wbGF0ZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+import { TriangleAlert } from "lucide-vue-next";
+import { useI18n } from "vue-i18n";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import type { ProtocolMappingFeatureConfig } from "@/types";
+
+type ProtocolMappingRuntimeIssue = NonNullable<
+  ProtocolMappingFeatureConfig["runtime_issue"]
+>;
+
+const props = defineProps<{
+  runtimeIssue?: ProtocolMappingRuntimeIssue | null;
+}>();
+
+const { t } = useI18n();
+const protocolLabel = computed(
+  () => props.runtimeIssue?.protocol?.toUpperCase() ?? "TCP/UDP",
+);
+const issueSummary = computed(() => {
+  const issue = props.runtimeIssue;
+  if (!issue) return "";
+  if (
+    issue.code === "local_port_loop" &&
+    issue.listen_port !== null &&
+    issue.target
+  ) {
+    return t("admin.streamMappings.runtimeIssueLocalLoop", {
+      protocol: protocolLabel.value,
+      port: issue.listen_port,
+      target: issue.target,
+    });
+  }
+  if (issue.code === "listen_port_in_use" && issue.listen_port !== null) {
+    return t("admin.streamMappings.runtimeIssuePortInUse", {
+      protocol: protocolLabel.value,
+      port: issue.listen_port,
+    });
+  }
+  return t("admin.streamMappings.runtimeIssueFallback");
+});
+</script>
+
+<template>
+  <Alert
+    class="items-start rounded-xl border-amber-200 bg-amber-50/80 text-amber-950 shadow-none"
+  >
+    <TriangleAlert class="mt-0.5 h-4 w-4 shrink-0" />
+    <div class="min-w-0 space-y-2">
+      <AlertTitle>
+        {{
+          runtimeIssue
+            ? t("admin.streamMappings.runtimeDisabledTitle")
+            : t("admin.streamMappings.disabledTitle")
+        }}
+      </AlertTitle>
+      <AlertDescription class="space-y-2 text-sm leading-6 text-amber-900">
+        <p v-if="runtimeIssue">{{ issueSummary }}</p>
+        <p>
+          {{
+            runtimeIssue
+              ? t("admin.streamMappings.runtimeIssueRecovery")
+              : t("admin.streamMappings.disabledDescription")
+          }}
+        </p>
+        <div
+          v-if="runtimeIssue"
+          class="rounded-md border border-amber-200/80 bg-white/60 px-3 py-2"
+        >
+          <div class="text-xs font-medium text-amber-800">
+            {{ t("admin.streamMappings.runtimeIssueDetails") }}
+          </div>
+          <code class="mt-1 block break-all text-xs text-amber-950">{{
+            runtimeIssue.message
+          }}</code>
+        </div>
+      </AlertDescription>
+    </div>
+  </Alert>
+</template>

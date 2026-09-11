@@ -1,1 +1,16 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCBTdWJkb21haW5Qcm94eURpYWxvZ3MgZnJvbSAiLi9zdWJkb21haW4tcHJveHkvU3ViZG9tYWluUHJveHlEaWFsb2dzLnZ1ZSI7CmltcG9ydCBTdWJkb21haW5CYXRjaEFjdGlvbkRpYWxvZ3MgZnJvbSAiLi9zdWJkb21haW4tcHJveHkvU3ViZG9tYWluQmF0Y2hBY3Rpb25EaWFsb2dzLnZ1ZSI7CmltcG9ydCBTdWJkb21haW5Qcm94eU92ZXJ2aWV3IGZyb20gIi4vc3ViZG9tYWluLXByb3h5L1N1YmRvbWFpblByb3h5T3ZlcnZpZXcudnVlIjsKaW1wb3J0IHsgdXNlU3ViZG9tYWluUHJveHlQYWdlIH0gZnJvbSAiLi9zdWJkb21haW4tcHJveHkvdXNlU3ViZG9tYWluUHJveHlQYWdlIjsKCmNvbnN0IGNvbnRyb2xsZXIgPSB1c2VTdWJkb21haW5Qcm94eVBhZ2UoKTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0ic3BhY2UteS02Ij4KICAgIDxTdWJkb21haW5Qcm94eU92ZXJ2aWV3IDpjb250cm9sbGVyPSJjb250cm9sbGVyLm92ZXJ2aWV3IiAvPgogICAgPFN1YmRvbWFpblByb3h5RGlhbG9ncyA6Y29udHJvbGxlcj0iY29udHJvbGxlci5kaWFsb2dzIiAvPgogICAgPFN1YmRvbWFpbkJhdGNoQWN0aW9uRGlhbG9ncyA6Y29udHJvbGxlcj0iY29udHJvbGxlci5kaWFsb2dzIiAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import SubdomainProxyDialogs from "./subdomain-proxy/SubdomainProxyDialogs.vue";
+import SubdomainBatchActionDialogs from "./subdomain-proxy/SubdomainBatchActionDialogs.vue";
+import SubdomainProxyOverview from "./subdomain-proxy/SubdomainProxyOverview.vue";
+import { useSubdomainProxyPage } from "./subdomain-proxy/useSubdomainProxyPage";
+
+const controller = useSubdomainProxyPage();
+</script>
+
+<template>
+  <div class="space-y-6">
+    <SubdomainProxyOverview :controller="controller.overview" />
+    <SubdomainProxyDialogs :controller="controller.dialogs" />
+    <SubdomainBatchActionDialogs :controller="controller.dialogs" />
+  </div>
+</template>

@@ -1,1 +1,108 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHVzZUkxOG4gfSBmcm9tICJ2dWUtaTE4biI7CmltcG9ydCB7IFRyYXNoMiB9IGZyb20gImx1Y2lkZS12dWUtbmV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IFJlc3BvbnNlQm9keUVkaXRvciBmcm9tICJAL2NvbXBvbmVudHMvUmVzcG9uc2VCb2R5RWRpdG9yLnZ1ZSI7CmltcG9ydCBSZXNwb25zZUNvbnRlbnRUeXBlRmllbGQgZnJvbSAiQC9jb21wb25lbnRzL1Jlc3BvbnNlQ29udGVudFR5cGVGaWVsZC52dWUiOwppbXBvcnQgQ29uZmlybURhbmdlclBvcG92ZXIgZnJvbSAiQGFkbWluLXNoYXJlZC9jb21wb25lbnRzL2NvbW1vbi9Db25maXJtRGFuZ2VyUG9wb3Zlci52dWUiOwppbXBvcnQgdHlwZSB7IEdhdGV3YXlMb2NhdGlvbkZvcm0gfSBmcm9tICIuL2dhdGV3YXlMb2NhdGlvbk1vZGVsIjsKCmRlZmluZVByb3BzPHsgZm9ybTogR2F0ZXdheUxvY2F0aW9uRm9ybSB9PigpOwpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogIGFkZEhlYWRlcjogW107CiAgcmVtb3ZlSGVhZGVyOiBbaW5kZXg6IG51bWJlcl07Cn0+KCk7CmNvbnN0IHsgdCB9ID0gdXNlSTE4bigpOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJzcGFjZS15LTQiPgogICAgPGRpdiBjbGFzcz0iZ3JpZCBnYXAtMyBzbTpncmlkLWNvbHMtWzguNXJlbV9taW5tYXgoMCwxZnIpXSI+CiAgICAgIDxkaXYgY2xhc3M9InNwYWNlLXktMiI+CiAgICAgICAgPExhYmVsIGZvcj0icmVzcG9uc2Utc3RhdHVzIj4KICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5zdGF0dXNDb2RlIikgfX0KICAgICAgICA8L0xhYmVsPgogICAgICAgIDxJbnB1dAogICAgICAgICAgaWQ9InJlc3BvbnNlLXN0YXR1cyIKICAgICAgICAgIHYtbW9kZWwubnVtYmVyPSJmb3JtLnJlc3BvbnNlLnN0YXR1cyIKICAgICAgICAgIHR5cGU9Im51bWJlciIKICAgICAgICAgIG1pbj0iMTAwIgogICAgICAgICAgbWF4PSI1OTkiCiAgICAgICAgLz4KICAgICAgPC9kaXY+CiAgICAgIDxSZXNwb25zZUNvbnRlbnRUeXBlRmllbGQKICAgICAgICB2LW1vZGVsPSJmb3JtLnJlc3BvbnNlLmNvbnRlbnRfdHlwZSIKICAgICAgICBpbnB1dC1pZD0icmVzcG9uc2UtY29udGVudC10eXBlIgogICAgICAgIHNlbGVjdC1pZD0icmVzcG9uc2UtY29udGVudC10eXBlLXByZXNldCIKICAgICAgLz4KICAgIDwvZGl2PgoKICAgIDxSZXNwb25zZUJvZHlFZGl0b3IKICAgICAgdi1tb2RlbD0iZm9ybS5yZXNwb25zZS5ib2R5IgogICAgICA6Y29udGVudC10eXBlPSJmb3JtLnJlc3BvbnNlLmNvbnRlbnRfdHlwZSIKICAgIC8+CgogICAgPGRpdiBjbGFzcz0ic3BhY2UteS0zIj4KICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5yZXNwb25zZUhlYWRlcnMiKSB9fQogICAgICAgIDwvZGl2PgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgIEBjbGljaz0iZW1pdCgnYWRkSGVhZGVyJykiCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLmFkZFJlc3BvbnNlSGVhZGVyIikgfX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYKICAgICAgICB2LWlmPSJmb3JtLmhlYWRlcnMubGVuZ3RoID09PSAwIgogICAgICAgIGNsYXNzPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgPgogICAgICAgIHt7IHQoImFkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5ub0N1c3RvbVJlc3BvbnNlSGVhZGVycyIpIH19CiAgICAgIDwvZGl2PgogICAgICA8ZGl2CiAgICAgICAgdi1mb3I9IihoZWFkZXIsIGluZGV4KSBpbiBmb3JtLmhlYWRlcnMiCiAgICAgICAgOmtleT0iaW5kZXgiCiAgICAgICAgY2xhc3M9ImdyaWQgZ2FwLTIgc206Z3JpZC1jb2xzLVttaW5tYXgoMCwxZnIpX21pbm1heCgwLDFmcilfMi41cmVtXSIKICAgICAgPgogICAgICAgIDxJbnB1dAogICAgICAgICAgdi1tb2RlbD0iaGVhZGVyLm5hbWUiCiAgICAgICAgICBhcmlhLWxhYmVsPSJYLUV4YW1wbGUiCiAgICAgICAgICBwbGFjZWhvbGRlcj0iWC1FeGFtcGxlIgogICAgICAgIC8+CiAgICAgICAgPElucHV0IHYtbW9kZWw9ImhlYWRlci52YWx1ZSIgYXJpYS1sYWJlbD0idmFsdWUiIHBsYWNlaG9sZGVyPSJ2YWx1ZSIgLz4KICAgICAgICA8Q29uZmlybURhbmdlclBvcG92ZXIKICAgICAgICAgIDp0aXRsZT0idCgnYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLmRlbGV0ZUhlYWRlclRpdGxlJykiCiAgICAgICAgICA6ZGVzY3JpcHRpb249IgogICAgICAgICAgICB0KCdhZG1pbi5nYXRld2F5TG9jYXRpb25zU2V0dGluZ3MuZGVsZXRlSGVhZGVyRGVzY3JpcHRpb24nLCB7CiAgICAgICAgICAgICAgbmFtZToKICAgICAgICAgICAgICAgIGhlYWRlci5uYW1lLnRyaW0oKSB8fAogICAgICAgICAgICAgICAgdCgnYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLnVubmFtZWRIZWFkZXInKSwKICAgICAgICAgICAgfSkKICAgICAgICAgICIKICAgICAgICAgIDpjb25maXJtLXRleHQ9InQoJ2FkbWluLmdhdGV3YXlMb2NhdGlvbnNTZXR0aW5ncy5jb25maXJtRGVsZXRlJykiCiAgICAgICAgICA6b24tY29uZmlybT0iKCkgPT4gZW1pdCgncmVtb3ZlSGVhZGVyJywgaW5kZXgpIgogICAgICAgICAgY29udGVudC1jbGFzcz0idy02NCB0ZXh0LWxlZnQiCiAgICAgICAgPgogICAgICAgICAgPHRlbXBsYXRlICN0cmlnZ2VyPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgIHNpemU9Imljb24iCiAgICAgICAgICAgICAgY2xhc3M9InRleHQtZGVzdHJ1Y3RpdmUgaG92ZXI6YmctZGVzdHJ1Y3RpdmUvMTAgaG92ZXI6dGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxUcmFzaDIgY2xhc3M9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InNyLW9ubHkiPgogICAgICAgICAgICAgICAge3sgdCgiYWRtaW4uZ2F0ZXdheUxvY2F0aW9uc1NldHRpbmdzLmRlbGV0ZUhlYWRlclNyIikgfX0KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICA8L0NvbmZpcm1EYW5nZXJQb3BvdmVyPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import { Trash2 } from "lucide-vue-next";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import ResponseBodyEditor from "@/components/ResponseBodyEditor.vue";
+import ResponseContentTypeField from "@/components/ResponseContentTypeField.vue";
+import ConfirmDangerPopover from "@admin-shared/components/common/ConfirmDangerPopover.vue";
+import type { GatewayLocationForm } from "./gatewayLocationModel";
+
+defineProps<{ form: GatewayLocationForm }>();
+const emit = defineEmits<{
+  addHeader: [];
+  removeHeader: [index: number];
+}>();
+const { t } = useI18n();
+</script>
+
+<template>
+  <div class="space-y-4">
+    <div class="grid gap-3 sm:grid-cols-[8.5rem_minmax(0,1fr)]">
+      <div class="space-y-2">
+        <Label for="response-status">
+          {{ t("admin.gatewayLocationsSettings.statusCode") }}
+        </Label>
+        <Input
+          id="response-status"
+          v-model.number="form.response.status"
+          type="number"
+          min="100"
+          max="599"
+        />
+      </div>
+      <ResponseContentTypeField
+        v-model="form.response.content_type"
+        input-id="response-content-type"
+        select-id="response-content-type-preset"
+      />
+    </div>
+
+    <ResponseBodyEditor
+      v-model="form.response.body"
+      :content-type="form.response.content_type"
+    />
+
+    <div class="space-y-3">
+      <div class="flex items-center justify-between gap-3">
+        <div class="text-sm font-medium">
+          {{ t("admin.gatewayLocationsSettings.responseHeaders") }}
+        </div>
+        <Button
+          type="button"
+          variant="outline"
+          size="sm"
+          @click="emit('addHeader')"
+        >
+          {{ t("admin.gatewayLocationsSettings.addResponseHeader") }}
+        </Button>
+      </div>
+      <div
+        v-if="form.headers.length === 0"
+        class="text-sm text-muted-foreground"
+      >
+        {{ t("admin.gatewayLocationsSettings.noCustomResponseHeaders") }}
+      </div>
+      <div
+        v-for="(header, index) in form.headers"
+        :key="index"
+        class="grid gap-2 sm:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_2.5rem]"
+      >
+        <Input
+          v-model="header.name"
+          aria-label="X-Example"
+          placeholder="X-Example"
+        />
+        <Input v-model="header.value" aria-label="value" placeholder="value" />
+        <ConfirmDangerPopover
+          :title="t('admin.gatewayLocationsSettings.deleteHeaderTitle')"
+          :description="
+            t('admin.gatewayLocationsSettings.deleteHeaderDescription', {
+              name:
+                header.name.trim() ||
+                t('admin.gatewayLocationsSettings.unnamedHeader'),
+            })
+          "
+          :confirm-text="t('admin.gatewayLocationsSettings.confirmDelete')"
+          :on-confirm="() => emit('removeHeader', index)"
+          content-class="w-64 text-left"
+        >
+          <template #trigger>
+            <Button
+              type="button"
+              variant="ghost"
+              size="icon"
+              class="text-destructive hover:bg-destructive/10 hover:text-destructive"
+            >
+              <Trash2 class="h-4 w-4" />
+              <span class="sr-only">
+                {{ t("admin.gatewayLocationsSettings.deleteHeaderSr") }}
+              </span>
+            </Button>
+          </template>
+        </ConfirmDangerPopover>
+      </div>
+    </div>
+  </div>
+</template>

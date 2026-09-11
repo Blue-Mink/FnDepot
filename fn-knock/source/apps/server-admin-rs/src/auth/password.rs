@@ -1,1 +1,464 @@
-dXNlIHNjcnlwdDo6e1BhcmFtcyBhcyBTY3J5cHRQYXJhbXMsIHNjcnlwdH07CnVzZSBzdGQ6OnsKICAgIHN5bmM6OntBcmMsIE9uY2VMb2NrfSwKICAgIHRpbWU6OkR1cmF0aW9uLAp9Owp1c2Ugc3VidGxlOjpDb25zdGFudFRpbWVFcTsKdXNlIHRva2lvOjpzeW5jOjpTZW1hcGhvcmU7Cgp1c2UgY3JhdGU6OntjcnlwdG9fdXRpbHM6OnJhbmRvbV9ieXRlcywgc3RvcmU6OkF1dGhQYXNzd29yZENyZWRlbnRpYWwsIHRpbWVfdXRpbHN9OwoKY29uc3QgU0NSWVBUX046IHUzMiA9IDE2XzM4NDsKY29uc3QgU0NSWVBUX1I6IHUzMiA9IDg7CmNvbnN0IFNDUllQVF9QOiB1MzIgPSAxOwpjb25zdCBTQ1JZUFRfS0VZX0xFTkdUSDogdXNpemUgPSA2NDsKY29uc3QgU0NSWVBUX1NBTFRfSEVYX0xFTkdUSDogdXNpemUgPSAzMjsKY29uc3QgU0NSWVBUX0hBU0hfSEVYX0xFTkdUSDogdXNpemUgPSBTQ1JZUFRfS0VZX0xFTkdUSCAqIDI7CmNvbnN0IERVTU1ZX1BBU1NXT1JEX1NBTFRfSEVYOiAmc3RyID0gIjAwMDEwMjAzMDQwNTA2MDcwODA5MGEwYjBjMGQwZTBmIjsKY29uc3QgUEFTU1dPUkRfSEFTSF9RVUVVRV9MSU1JVDogdXNpemUgPSA4Owpjb25zdCBQQVNTV09SRF9IQVNIX1FVRVVFX1RJTUVPVVQ6IER1cmF0aW9uID0gRHVyYXRpb246OmZyb21fc2VjcygzKTsKLy8gTmV3IHJlY29yZHMgdXNlIDE2LWJ5dGUgc2FsdHMuIEFjY2VwdCByZWFzb25hYmx5IHNpemVkIGhpc3RvcmljYWwgc2FsdHMsCi8vIHdpdGhvdXQgZHVwbGljYXRpbmcgYW4gYXJiaXRyYXJpbHkgbGFyZ2UgdmFsdWUgcmVzdG9yZWQgZnJvbSBhIGJhY2t1cC4KY29uc3QgTUFYX1BBU1NXT1JEX1NBTFRfQllURVM6IHVzaXplID0gMTAyNDsKcHViKGNyYXRlKSBjb25zdCBNQVhfQVVUSF9QQVNTV09SRF9CWVRFUzogdXNpemUgPSAxMjg7CgojW2Rlcml2ZShEZWJ1ZywgdGhpc2Vycm9yOjpFcnJvcildCiNbZXJyb3IoInBhc3N3b3JkIGhhc2hpbmcgaXMgYnVzeTsgcmV0cnkgc2hvcnRseSIpXQpzdHJ1Y3QgUGFzc3dvcmRIYXNoQnVzeTsKCnB1YihjcmF0ZSkgZm4gaXNfcGFzc3dvcmRfaGFzaF9idXN5KGVycm9yOiAmYW55aG93OjpFcnJvcikgLT4gYm9vbCB7CiAgICBlcnJvci5kb3duY2FzdF9yZWY6OjxQYXNzd29yZEhhc2hCdXN5PigpLmlzX3NvbWUoKQp9CgpwdWIoY3JhdGUpIGZuIHBhc3N3b3JkX2hhc2hfZXJyb3JfcmVzcG9uc2UoCiAgICBlcnJvcjogJmFueWhvdzo6RXJyb3IsCiAgICBtZXNzYWdlOiBTdHJpbmcsCikgLT4gYXh1bTo6cmVzcG9uc2U6OlJlc3BvbnNlIHsKICAgIHVzZSBheHVtOjpodHRwOjp7SGVhZGVyVmFsdWUsIFN0YXR1c0NvZGUsIGhlYWRlcn07CiAgICBsZXQgYnVzeSA9IGlzX3Bhc3N3b3JkX2hhc2hfYnVzeShlcnJvcik7CiAgICBsZXQgbXV0IHJlc3BvbnNlID0gY3JhdGU6OnJlc3BvbnNlOjplcnJvcigKICAgICAgICBpZiBidXN5IHsKICAgICAgICAgICAgU3RhdHVzQ29kZTo6U0VSVklDRV9VTkFWQUlMQUJMRQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIFN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUgogICAgICAgIH0sCiAgICAgICAgbWVzc2FnZSwKICAgICk7CiAgICBpZiBidXN5IHsKICAgICAgICByZXNwb25zZQogICAgICAgICAgICAuaGVhZGVyc19tdXQoKQogICAgICAgICAgICAuaW5zZXJ0KGhlYWRlcjo6UkVUUllfQUZURVIsIEhlYWRlclZhbHVlOjpmcm9tX3N0YXRpYygiMyIpKTsKICAgIH0KICAgIHJlc3BvbnNlCn0KCnN0cnVjdCBQYXNzd29yZEhhc2hQb29sIHsKICAgIHdvcmtlcnM6IEFyYzxTZW1hcGhvcmU+LAogICAgYWRtaXNzaW9uOiBBcmM8U2VtYXBob3JlPiwKICAgIHF1ZXVlX3RpbWVvdXQ6IER1cmF0aW9uLAp9CgppbXBsIFBhc3N3b3JkSGFzaFBvb2wgewogICAgZm4gbmV3KHdvcmtlcnM6IHVzaXplLCBxdWV1ZWQ6IHVzaXplLCBxdWV1ZV90aW1lb3V0OiBEdXJhdGlvbikgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7CiAgICAgICAgICAgIHdvcmtlcnM6IEFyYzo6bmV3KFNlbWFwaG9yZTo6bmV3KHdvcmtlcnMpKSwKICAgICAgICAgICAgYWRtaXNzaW9uOiBBcmM6Om5ldyhTZW1hcGhvcmU6Om5ldyh3b3JrZXJzICsgcXVldWVkKSksCiAgICAgICAgICAgIHF1ZXVlX3RpbWVvdXQsCiAgICAgICAgfQogICAgfQoKICAgIGFzeW5jIGZuIHJ1bjxULCBGPigmc2VsZiwgd29yazogRikgLT4gYW55aG93OjpSZXN1bHQ8VD4KICAgIHdoZXJlCiAgICAgICAgVDogU2VuZCArICdzdGF0aWMsCiAgICAgICAgRjogRm5PbmNlKCkgLT4gYW55aG93OjpSZXN1bHQ8VD4gKyBTZW5kICsgJ3N0YXRpYywKICAgIHsKICAgICAgICBsZXQgYWRtaXNzaW9uID0gc2VsZgogICAgICAgICAgICAuYWRtaXNzaW9uCiAgICAgICAgICAgIC5jbG9uZSgpCiAgICAgICAgICAgIC50cnlfYWNxdWlyZV9vd25lZCgpCiAgICAgICAgICAgIC5tYXBfZXJyKHxffCBQYXNzd29yZEhhc2hCdXN5KT87CiAgICAgICAgbGV0IHdvcmtlciA9IHRva2lvOjp0aW1lOjp0aW1lb3V0KHNlbGYucXVldWVfdGltZW91dCwgc2VsZi53b3JrZXJzLmNsb25lKCkuYWNxdWlyZV9vd25lZCgpKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLm1hcF9lcnIofF98IFBhc3N3b3JkSGFzaEJ1c3kpPwogICAgICAgICAgICAubWFwX2Vycih8X3wgUGFzc3dvcmRIYXNoQnVzeSk/OwogICAgICAgIC8vIEEgY2FuY2VsbGVkIEhUVFAgcmVxdWVzdCBjYW5ub3QgY2FuY2VsIGEgcnVubmluZyBibG9ja2luZyBjbG9zdXJlLgogICAgICAgIC8vIEtlZXAgQk9USCBzbG90cyB3aXRoIHRoZSBhY3R1YWwgd29yaywgaW5jbHVkaW5nIHRpbWUgcXVldWVkIGluIFRva2lvJ3MKICAgICAgICAvLyBibG9ja2luZyBwb29sLCBzbyBjYW5jZWxsYXRpb24gY2Fubm90IGFkbWl0IG1vcmUgZXhwZW5zaXZlIGhhc2hlcy4KICAgICAgICB0b2tpbzo6dGFzazo6c3Bhd25fYmxvY2tpbmcobW92ZSB8fCB7CiAgICAgICAgICAgIGxldCAoX2FkbWlzc2lvbiwgX3dvcmtlcikgPSAoYWRtaXNzaW9uLCB3b3JrZXIpOwogICAgICAgICAgICB3b3JrKCkKICAgICAgICB9KQogICAgICAgIC5hd2FpdD8KICAgIH0KfQoKZm4gcGFzc3dvcmRfaGFzaF9wb29sKCkgLT4gJidzdGF0aWMgUGFzc3dvcmRIYXNoUG9vbCB7CiAgICBzdGF0aWMgUE9PTDogT25jZUxvY2s8UGFzc3dvcmRIYXNoUG9vbD4gPSBPbmNlTG9jazo6bmV3KCk7CiAgICBQT09MLmdldF9vcl9pbml0KHx8IHsKICAgICAgICAvLyBFYWNoIHN1cHBvcnRlZCBzY3J5cHQgaGFzaCBuZWVkcyAxNiBNaUIuIExlYXZlIGFtcGxlIGhlYWRyb29tIG9uCiAgICAgICAgLy8gc21hbGwvY2dyb3VwLWxpbWl0ZWQgYXBwbGlhbmNlcyBhbmQgY2FwIGxhcmdlciBob3N0cyBhdCB0d28gaGFzaGVzLgogICAgICAgIGxldCAobWVtb3J5LCBfKSA9IGNyYXRlOjppbmZyYTo6c3lzdGVtX3Jlc291cmNlczo6ZWZmZWN0aXZlX21lbW9yeV9ieXRlcygpOwogICAgICAgIGxldCBtZW1vcnlfd29ya2VycyA9IG1lbW9yeS5tYXBfb3IoMSwgfGJ5dGVzfCB7CiAgICAgICAgICAgIChieXRlcyAvICgyNTYgKiAxMDI0ICogMTAyNCkpLmNsYW1wKDEsIDIpIGFzIHVzaXplCiAgICAgICAgfSk7CiAgICAgICAgbGV0IGNwdXMgPSBzdGQ6OnRocmVhZDo6YXZhaWxhYmxlX3BhcmFsbGVsaXNtKCkubWFwX29yKDEsIHVzaXplOjpmcm9tKTsKICAgICAgICBQYXNzd29yZEhhc2hQb29sOjpuZXcoCiAgICAgICAgICAgIGNwdXMubWluKG1lbW9yeV93b3JrZXJzKSwKICAgICAgICAgICAgUEFTU1dPUkRfSEFTSF9RVUVVRV9MSU1JVCwKICAgICAgICAgICAgUEFTU1dPUkRfSEFTSF9RVUVVRV9USU1FT1VULAogICAgICAgICkKICAgIH0pCn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gbWFrZV9hdXRoX3Bhc3N3b3JkX2NyZWRlbnRpYWwoCiAgICBhY2NvdW50X2lkOiAmc3RyLAogICAgcGFzc3dvcmQ6ICZzdHIsCiAgICBjcmVhdGVkX2F0OiBPcHRpb248U3RyaW5nPiwKKSAtPiBhbnlob3c6OlJlc3VsdDxBdXRoUGFzc3dvcmRDcmVkZW50aWFsPiB7CiAgICBsZXQgbm93ID0gdGltZV91dGlsczo6bm93X2lzbygpOwogICAgbGV0IHNhbHQgPSBoZXg6OmVuY29kZShyYW5kb21fYnl0ZXM6OjwxNj4oKSk7CiAgICBsZXQgaGFzaCA9IGRlcml2ZV9wYXNzd29yZF9oYXNoKAogICAgICAgIHBhc3N3b3JkLAogICAgICAgICZzYWx0LAogICAgICAgIFNDUllQVF9OLAogICAgICAgIFNDUllQVF9SLAogICAgICAgIFNDUllQVF9QLAogICAgICAgIFNDUllQVF9LRVlfTEVOR1RILAogICAgKQogICAgLmF3YWl0PzsKICAgIE9rKEF1dGhQYXNzd29yZENyZWRlbnRpYWwgewogICAgICAgIGFjY291bnRfaWQ6IGFjY291bnRfaWQudG9fc3RyaW5nKCksCiAgICAgICAgYWxnb3JpdGhtOiAic2NyeXB0Ii50b19zdHJpbmcoKSwKICAgICAgICBzYWx0LAogICAgICAgIGhhc2gsCiAgICAgICAgbjogU0NSWVBUX04sCiAgICAgICAgcjogU0NSWVBUX1IsCiAgICAgICAgcDogU0NSWVBUX1AsCiAgICAgICAga2V5X2xlbmd0aDogU0NSWVBUX0tFWV9MRU5HVEgsCiAgICAgICAgY3JlYXRlZF9hdDogY3JlYXRlZF9hdC51bndyYXBfb3JfZWxzZSh8fCBub3cuY2xvbmUoKSksCiAgICAgICAgdXBkYXRlZF9hdDogbm93LAogICAgfSkKfQoKcHViKGNyYXRlKSBhc3luYyBmbiB2ZXJpZnlfYXV0aF9wYXNzd29yZCgKICAgIHBhc3N3b3JkOiAmc3RyLAogICAgcmVjb3JkOiAmQXV0aFBhc3N3b3JkQ3JlZGVudGlhbCwKKSAtPiBhbnlob3c6OlJlc3VsdDxib29sPiB7CiAgICBpZiBwYXNzd29yZC5sZW4oKSA+IE1BWF9BVVRIX1BBU1NXT1JEX0JZVEVTIHx8IHJlY29yZC5hbGdvcml0aG0gIT0gInNjcnlwdCIgewogICAgICAgIHJldHVybiBPayhmYWxzZSk7CiAgICB9CiAgICBsZXQgZXhwZWN0ZWQgPSBkZXJpdmVfcGFzc3dvcmRfaGFzaCgKICAgICAgICBwYXNzd29yZCwKICAgICAgICAmcmVjb3JkLnNhbHQsCiAgICAgICAgcmVjb3JkLm4ubWF4KDIpLAogICAgICAgIHJlY29yZC5yLm1heCgxKSwKICAgICAgICByZWNvcmQucC5tYXgoMSksCiAgICAgICAgcmVjb3JkLmtleV9sZW5ndGgubWF4KDEpLAogICAgKQogICAgLmF3YWl0PzsKICAgIE9rKGV4cGVjdGVkCiAgICAgICAgLmFzX2J5dGVzKCkKICAgICAgICAuY3RfZXEocmVjb3JkLmhhc2guYXNfYnl0ZXMoKSkKICAgICAgICAudW53cmFwX3U4KCkKICAgICAgICA9PSAxKQp9CgpwdWIoY3JhdGUpIGZuIGlzX3N1cHBvcnRlZF9hdXRoX3Bhc3N3b3JkX2NyZWRlbnRpYWwocmVjb3JkOiAmQXV0aFBhc3N3b3JkQ3JlZGVudGlhbCkgLT4gYm9vbCB7CiAgICAhcmVjb3JkLmFjY291bnRfaWQudHJpbSgpLmlzX2VtcHR5KCkKICAgICAgICAmJiByZWNvcmQuYWxnb3JpdGhtID09ICJzY3J5cHQiCiAgICAgICAgJiYgcmVjb3JkLm4gPT0gU0NSWVBUX04KICAgICAgICAmJiByZWNvcmQuciA9PSBTQ1JZUFRfUgogICAgICAgICYmIHJlY29yZC5wID09IFNDUllQVF9QCiAgICAgICAgJiYgcmVjb3JkLmtleV9sZW5ndGggPT0gU0NSWVBUX0tFWV9MRU5HVEgKICAgICAgICAmJiByZWNvcmQuc2FsdC5sZW4oKSA9PSBTQ1JZUFRfU0FMVF9IRVhfTEVOR1RICiAgICAgICAgJiYgcmVjb3JkLmhhc2gubGVuKCkgPT0gU0NSWVBUX0hBU0hfSEVYX0xFTkdUSAogICAgICAgICYmIGlzX2hleF9zdHJpbmcoJnJlY29yZC5zYWx0KQogICAgICAgICYmIGlzX2hleF9zdHJpbmcoJnJlY29yZC5oYXNoKQp9CgpwdWIoY3JhdGUpIGFzeW5jIGZuIGNvbnN1bWVfZHVtbXlfYXV0aF9wYXNzd29yZF9oYXNoKHBhc3N3b3JkOiAmc3RyKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgbGV0IF8gPSBkZXJpdmVfcGFzc3dvcmRfaGFzaCgKICAgICAgICBwYXNzd29yZCwKICAgICAgICBEVU1NWV9QQVNTV09SRF9TQUxUX0hFWCwKICAgICAgICBTQ1JZUFRfTiwKICAgICAgICBTQ1JZUFRfUiwKICAgICAgICBTQ1JZUFRfUCwKICAgICAgICBTQ1JZUFRfS0VZX0xFTkdUSCwKICAgICkKICAgIC5hd2FpdD87CiAgICBPaygoKSkKfQoKcHViKGNyYXRlKSBmbiB2YWxpZGF0ZV9hdXRoX3Bhc3N3b3JkKHBhc3N3b3JkOiAmc3RyKSAtPiBSZXN1bHQ8KCksICYnc3RhdGljIHN0cj4gewogICAgaWYgcGFzc3dvcmQuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIEVycigicGFzc3dvcmRUb29TaG9ydCIpOwogICAgfQogICAgaWYgcGFzc3dvcmQubGVuKCkgPiBNQVhfQVVUSF9QQVNTV09SRF9CWVRFUyB7CiAgICAgICAgcmV0dXJuIEVycigicGFzc3dvcmRUb29Mb25nIik7CiAgICB9CiAgICBPaygoKSkKfQoKcHViKGNyYXRlKSBhc3luYyBmbiBkZXJpdmVfcGFzc3dvcmRfaGFzaCgKICAgIHBhc3N3b3JkOiAmc3RyLAogICAgc2FsdF9oZXg6ICZzdHIsCiAgICBuOiB1MzIsCiAgICByOiB1MzIsCiAgICBwOiB1MzIsCiAgICBrZXlfbGVuZ3RoOiB1c2l6ZSwKKSAtPiBhbnlob3c6OlJlc3VsdDxTdHJpbmc+IHsKICAgIGFueWhvdzo6ZW5zdXJlISgKICAgICAgICBwYXNzd29yZC5sZW4oKSA8PSBNQVhfQVVUSF9QQVNTV09SRF9CWVRFUywKICAgICAgICAicGFzc3dvcmQgZXhjZWVkcyBoYXNoaW5nIGlucHV0IGxpbWl0IgogICAgKTsKICAgIGxldCBwYXJhbXMgPSBwYXNzd29yZF9oYXNoX3BhcmFtcyhuLCByLCBwLCBrZXlfbGVuZ3RoKT87CiAgICB2YWxpZGF0ZV9wYXNzd29yZF9oYXNoX3NhbHQoc2FsdF9oZXgpPzsKICAgIGxldCBwYXNzd29yZCA9IHBhc3N3b3JkLnRvX293bmVkKCk7CiAgICBsZXQgc2FsdF9oZXggPSBzYWx0X2hleC50b19vd25lZCgpOwogICAgcGFzc3dvcmRfaGFzaF9wb29sKCkKICAgICAgICAucnVuKG1vdmUgfHwgewogICAgICAgICAgICBsZXQgc2FsdCA9IGhleDo6ZGVjb2RlKHNhbHRfaGV4KT87CiAgICAgICAgICAgIGxldCBtdXQgb3V0cHV0ID0gdmVjIVswdTg7IGtleV9sZW5ndGhdOwogICAgICAgICAgICBzY3J5cHQocGFzc3dvcmQuYXNfYnl0ZXMoKSwgJnNhbHQsICZwYXJhbXMsICZtdXQgb3V0cHV0KT87CiAgICAgICAgICAgIE9rKGhleDo6ZW5jb2RlKG91dHB1dCkpCiAgICAgICAgfSkKICAgICAgICAuYXdhaXQKfQoKZm4gdmFsaWRhdGVfcGFzc3dvcmRfaGFzaF9zYWx0KHNhbHRfaGV4OiAmc3RyKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgYW55aG93OjplbnN1cmUhKAogICAgICAgIHNhbHRfaGV4LmxlbigpIDw9IE1BWF9QQVNTV09SRF9TQUxUX0JZVEVTICogMgogICAgICAgICAgICAmJiBzYWx0X2hleC5sZW4oKS5pc19tdWx0aXBsZV9vZigyKQogICAgICAgICAgICAmJiBpc19oZXhfc3RyaW5nKHNhbHRfaGV4KSwKICAgICAgICAiaW52YWxpZCBvciBvdmVyc2l6ZWQgcGFzc3dvcmQgc2FsdCIKICAgICk7CiAgICBPaygoKSkKfQoKZm4gcGFzc3dvcmRfaGFzaF9wYXJhbXMobjogdTMyLCByOiB1MzIsIHA6IHUzMiwga2V5X2xlbmd0aDogdXNpemUpIC0+IGFueWhvdzo6UmVzdWx0PFNjcnlwdFBhcmFtcz4gewogICAgYW55aG93OjplbnN1cmUhKG4gPj0gMiAmJiBuLmlzX3Bvd2VyX29mX3R3bygpLCAiaW52YWxpZCBzY3J5cHQgTiBwYXJhbWV0ZXIiKTsKICAgIGFueWhvdzo6ZW5zdXJlISgKICAgICAgICByID4gMCAmJiBwID4gMCAmJiAoMS4uPVNDUllQVF9LRVlfTEVOR1RIKS5jb250YWlucygma2V5X2xlbmd0aCksCiAgICAgICAgImludmFsaWQgc2NyeXB0IHBhcmFtZXRlcnMiCiAgICApOwogICAgLy8gQ2hlY2sgZXZlcnkgYWxsb2NhdGlvbi93b3JrIGZhY3RvciBiZWZvcmUgYWRtaXR0aW5nIHRoZSBvcGVyYXRpb24uIFN0b3JlZAogICAgLy8gcmVjb3JkcyAoaW5jbHVkaW5nIHdob2xlLWJhY2t1cCByZXN0b3JlcykgYXJlIG5vdCBuZWNlc3NhcmlseSBwcm9kdWNlZCBieQogICAgLy8gdGhpcyB2ZXJzaW9uJ3MgYWNjb3VudC1jcmVhdGlvbiBwYXRoLiBOZXZlciB3ZWFrZW4gYW4gb3Zlci1idWRnZXQgaGFzaCBieQogICAgLy8gY2xhbXBpbmcgaXQ7IHJlamVjdCBpdC4gTG93ZXItY29zdCBsZWdhY3kgcmVjb3JkcyByZXRhaW4gdGhlaXIgcGFyYW1ldGVycy4KICAgIGxldCByMTI4ID0gdTY0Ojpmcm9tKHIpLmNoZWNrZWRfbXVsKDEyOCk7CiAgICBsZXQgbWVtb3J5ID0gdTY0Ojpmcm9tKG4pCiAgICAgICAgLmNoZWNrZWRfYWRkKHU2NDo6ZnJvbShwKSkKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5jaGVja2VkX2FkZCgxKSkKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCByMTI4LmFuZF90aGVuKHxyMTI4fCB2YWx1ZS5jaGVja2VkX211bChyMTI4KSkpCiAgICAgICAgLmFuZF90aGVuKHx2YWx1ZXwgdmFsdWUuY2hlY2tlZF9hZGQoa2V5X2xlbmd0aCBhcyB1NjQpKTsKICAgIGxldCB3b3JrID0gdTY0Ojpmcm9tKG4pCiAgICAgICAgLmNoZWNrZWRfbXVsKHU2NDo6ZnJvbShyKSkKICAgICAgICAuYW5kX3RoZW4ofHZhbHVlfCB2YWx1ZS5jaGVja2VkX211bCh1NjQ6OmZyb20ocCkpKTsKICAgIGNvbnN0IE1FTU9SWV9CVURHRVQ6IHU2NCA9CiAgICAgICAgMTI4ICogU0NSWVBUX1IgYXMgdTY0ICogKFNDUllQVF9OIGFzIHU2NCArIFNDUllQVF9QIGFzIHU2NCArIDEpICsgU0NSWVBUX0tFWV9MRU5HVEggYXMgdTY0OwogICAgY29uc3QgV09SS19CVURHRVQ6IHU2NCA9IFNDUllQVF9OIGFzIHU2NCAqIFNDUllQVF9SIGFzIHU2NCAqIFNDUllQVF9QIGFzIHU2NDsKICAgIGFueWhvdzo6ZW5zdXJlISgKICAgICAgICBtZW1vcnkuaXNfc29tZV9hbmQofGJ5dGVzfCBieXRlcyA8PSBNRU1PUllfQlVER0VUKQogICAgICAgICAgICAmJiB3b3JrLmlzX3NvbWVfYW5kKHx3b3JrfCB3b3JrIDw9IFdPUktfQlVER0VUKSwKICAgICAgICAic2NyeXB0IHBhcmFtZXRlcnMgZXhjZWVkIHBhc3N3b3JkIGhhc2hpbmcgcmVzb3VyY2UgYnVkZ2V0IgogICAgKTsKICAgIE9rKFNjcnlwdFBhcmFtczo6bmV3KG4uaWxvZzIoKSBhcyB1OCwgciwgcCk/KQp9CgpmbiBpc19oZXhfc3RyaW5nKHZhbHVlOiAmc3RyKSAtPiBib29sIHsKICAgIHZhbHVlLmNoYXJzKCkuYWxsKHxjaHwgY2guaXNfYXNjaWlfaGV4ZGlnaXQoKSkKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CgogICAgI1t0ZXN0XQogICAgZm4gdmFsaWRhdGVzX2F1dGhfcGFzc3dvcmRfcnVsZXMoKSB7CiAgICAgICAgYXNzZXJ0ISh2YWxpZGF0ZV9hdXRoX3Bhc3N3b3JkKCJhYmMxMjMiKS5pc19vaygpKTsKICAgICAgICBhc3NlcnQhKHZhbGlkYXRlX2F1dGhfcGFzc3dvcmQoImEiKS5pc19vaygpKTsKICAgICAgICBhc3NlcnQhKHZhbGlkYXRlX2F1dGhfcGFzc3dvcmQoImFiY2RlZiIpLmlzX29rKCkpOwogICAgICAgIGFzc2VydCEodmFsaWRhdGVfYXV0aF9wYXNzd29yZCgiMTIzNDU2IikuaXNfb2soKSk7CiAgICAgICAgYXNzZXJ0ISh2YWxpZGF0ZV9hdXRoX3Bhc3N3b3JkKCJhYmMgMTIzIikuaXNfb2soKSk7CiAgICAgICAgYXNzZXJ0ISh2YWxpZGF0ZV9hdXRoX3Bhc3N3b3JkKCIiKS5pc19lcnIoKSk7CiAgICB9CgogICAgI1t0b2tpbzo6dGVzdF0KICAgIGFzeW5jIGZuIHZlcmlmaWVzX3NjcnlwdF9hdXRoX3Bhc3N3b3JkX3JlY29yZCgpIHsKICAgICAgICBsZXQgcmVjb3JkID0gbWFrZV9hdXRoX3Bhc3N3b3JkX2NyZWRlbnRpYWwoImFjY291bnQtMSIsICJhYmMxMjMiLCBOb25lKQogICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgLmV4cGVjdCgibWFrZSByZWNvcmQiKTsKICAgICAgICBhc3NlcnQhKGlzX3N1cHBvcnRlZF9hdXRoX3Bhc3N3b3JkX2NyZWRlbnRpYWwoJnJlY29yZCkpOwogICAgICAgIGFzc2VydCEoCiAgICAgICAgICAgIHZlcmlmeV9hdXRoX3Bhc3N3b3JkKCJhYmMxMjMiLCAmcmVjb3JkKQogICAgICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgICAgICAuZXhwZWN0KCJ2ZXJpZnkiKQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgIXZlcmlmeV9hdXRoX3Bhc3N3b3JkKCJ3cm9uZzEyMyIsICZyZWNvcmQpCiAgICAgICAgICAgICAgICAuYXdhaXQKICAgICAgICAgICAgICAgIC5leHBlY3QoInZlcmlmeSB3cm9uZyIpCiAgICAgICAgKTsKICAgIH0KCiAgICAjW3Rva2lvOjp0ZXN0XQogICAgYXN5bmMgZm4gcmVqZWN0c191bnN1cHBvcnRlZF9wYXNzd29yZF9oYXNoX3BhcmFtZXRlcnMoKSB7CiAgICAgICAgbGV0IG11dCByZWNvcmQgPSBtYWtlX2F1dGhfcGFzc3dvcmRfY3JlZGVudGlhbCgiYWNjb3VudC0xIiwgImFiYzEyMyIsIE5vbmUpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAuZXhwZWN0KCJtYWtlIHJlY29yZCIpOwogICAgICAgIHJlY29yZC5rZXlfbGVuZ3RoID0gMV8wMDBfMDAwOwogICAgICAgIGFzc2VydCEoIWlzX3N1cHBvcnRlZF9hdXRoX3Bhc3N3b3JkX2NyZWRlbnRpYWwoJnJlY29yZCkpOwoKICAgICAgICBsZXQgbXV0IHJlY29yZCA9IG1ha2VfYXV0aF9wYXNzd29yZF9jcmVkZW50aWFsKCJhY2NvdW50LTEiLCAiYWJjMTIzIiwgTm9uZSkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5leHBlY3QoIm1ha2UgcmVjb3JkIik7CiAgICAgICAgcmVjb3JkLmhhc2ggPSAiYWJjZGVmIi50b19zdHJpbmcoKTsKICAgICAgICBhc3NlcnQhKCFpc19zdXBwb3J0ZWRfYXV0aF9wYXNzd29yZF9jcmVkZW50aWFsKCZyZWNvcmQpKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBwYXNzd29yZF9oYXNoX3Jlc291cmNlX2J1ZGdldF9yZWplY3RzX292ZXJzaXplZF9hbmRfaW52YWxpZF9yZWNvcmRzKCkgewogICAgICAgIGFzc2VydCEocGFzc3dvcmRfaGFzaF9wYXJhbXMoU0NSWVBUX04sIFNDUllQVF9SLCBTQ1JZUFRfUCwgU0NSWVBUX0tFWV9MRU5HVEgpLmlzX29rKCkpOwogICAgICAgIGFzc2VydCEocGFzc3dvcmRfaGFzaF9wYXJhbXMoMTAyNCwgOCwgMSwgMzIpLmlzX29rKCkpOwogICAgICAgIGZvciAobiwgciwgcCwgbGVuKSBpbiBbCiAgICAgICAgICAgICgzMl83NjgsIDgsIDEsIDY0KSwKICAgICAgICAgICAgKDE2XzM4NCwgOCwgMiwgNjQpLAogICAgICAgICAgICAoMTZfMzg0LCA4LCAxLCAxXzAwMF8wMDApLAogICAgICAgICAgICAoMTZfMzg1LCA4LCAxLCA2NCksCiAgICAgICAgICAgICgyLCA2NV81MzYsIDEsIDY0KSwKICAgICAgICAgICAgKDEgPDwgMzEsIHUzMjo6TUFYLCB1MzI6Ok1BWCwgNjQpLAogICAgICAgIF0gewogICAgICAgICAgICBhc3NlcnQhKAogICAgICAgICAgICAgICAgcGFzc3dvcmRfaGFzaF9wYXJhbXMobiwgciwgcCwgbGVuKS5pc19lcnIoKSwKICAgICAgICAgICAgICAgICJhY2NlcHRlZCB7bn0ve3J9L3twfS97bGVufSIKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gcGFzc3dvcmRfc2FsdF9pc19ib3VuZGVkX2JlZm9yZV9jbG9uaW5nX29yX2RlY29kaW5nKCkgewogICAgICAgIGFzc2VydCEodmFsaWRhdGVfcGFzc3dvcmRfaGFzaF9zYWx0KERVTU1ZX1BBU1NXT1JEX1NBTFRfSEVYKS5pc19vaygpKTsKICAgICAgICBhc3NlcnQhKHZhbGlkYXRlX3Bhc3N3b3JkX2hhc2hfc2FsdCgmImFCIi5yZXBlYXQoTUFYX1BBU1NXT1JEX1NBTFRfQllURVMpKS5pc19vaygpKTsKICAgICAgICBhc3NlcnQhKHZhbGlkYXRlX3Bhc3N3b3JkX2hhc2hfc2FsdCgmImFhIi5yZXBlYXQoTUFYX1BBU1NXT1JEX1NBTFRfQllURVMgKyAxKSkuaXNfZXJyKCkpOwogICAgICAgIGFzc2VydCEodmFsaWRhdGVfcGFzc3dvcmRfaGFzaF9zYWx0KCIwIikuaXNfZXJyKCkpOwogICAgICAgIGFzc2VydCEodmFsaWRhdGVfcGFzc3dvcmRfaGFzaF9zYWx0KCJ4eCIpLmlzX2VycigpKTsKICAgIH0KCiAgICAjW3Rva2lvOjp0ZXN0XQogICAgYXN5bmMgZm4gb3ZlcnNpemVkX3Bhc3N3b3Jkc19hcmVfcmVqZWN0ZWRfYmVmb3JlX2hhc2hfd29yaygpIHsKICAgICAgICBsZXQgcGFzc3dvcmQgPSAieCIucmVwZWF0KE1BWF9BVVRIX1BBU1NXT1JEX0JZVEVTICsgMSk7CiAgICAgICAgYXNzZXJ0ISgKICAgICAgICAgICAgZGVyaXZlX3Bhc3N3b3JkX2hhc2goCiAgICAgICAgICAgICAgICAmcGFzc3dvcmQsCiAgICAgICAgICAgICAgICBEVU1NWV9QQVNTV09SRF9TQUxUX0hFWCwKICAgICAgICAgICAgICAgIFNDUllQVF9OLAogICAgICAgICAgICAgICAgU0NSWVBUX1IsCiAgICAgICAgICAgICAgICBTQ1JZUFRfUCwKICAgICAgICAgICAgICAgIFNDUllQVF9LRVlfTEVOR1RICiAgICAgICAgICAgICkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC5pc19lcnIoKQogICAgICAgICk7CiAgICAgICAgbGV0IG11dCByZWNvcmQgPSBtYWtlX2F1dGhfcGFzc3dvcmRfY3JlZGVudGlhbCgiYWNjb3VudCIsICJ2YWxpZCIsIE5vbmUpCiAgICAgICAgICAgIC5hd2FpdAogICAgICAgICAgICAudW53cmFwKCk7CiAgICAgICAgLy8gSW52YWxpZCBzdG9yZWQgcGFyYW1ldGVycyB3b3VsZCBlcnJvciBpZiBvdmVyc2l6ZWQgdmVyaWZpY2F0aW9uCiAgICAgICAgLy8gcmVhY2hlZCB0aGUgS0RGOyBpbnB1dCByZWplY3Rpb24gbXVzdCBiZSBhIG5vcm1hbCBmYWxzZSByZXN1bHQuCiAgICAgICAgcmVjb3JkLm4gPSB1MzI6Ok1BWDsKICAgICAgICBhc3NlcnQhKCF2ZXJpZnlfYXV0aF9wYXNzd29yZCgmcGFzc3dvcmQsICZyZWNvcmQpLmF3YWl0LnVud3JhcCgpKTsKICAgIH0KCiAgICAjW3Rva2lvOjp0ZXN0XQogICAgYXN5bmMgZm4gY2FuY2VsbGVkX3F1ZXVlZF9oYXNoX3JlbGVhc2VzX2FkbWlzc2lvbl93aXRob3V0X3J1bm5pbmdfd29yaygpIHsKICAgICAgICBsZXQgcG9vbCA9IEFyYzo6bmV3KFBhc3N3b3JkSGFzaFBvb2w6Om5ldygxLCAxLCBEdXJhdGlvbjo6ZnJvbV9zZWNzKDEwKSkpOwogICAgICAgIGxldCB3b3JrZXIgPSBwb29sLndvcmtlcnMuY2xvbmUoKS5hY3F1aXJlX293bmVkKCkuYXdhaXQudW53cmFwKCk7CiAgICAgICAgbGV0IHF1ZXVlZF9wb29sID0gcG9vbC5jbG9uZSgpOwogICAgICAgIGxldCBxdWV1ZWQgPSB0b2tpbzo6c3Bhd24oYXN5bmMgbW92ZSB7CiAgICAgICAgICAgIHF1ZXVlZF9wb29sCiAgICAgICAgICAgICAgICAucnVuKHx8IC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7IHBhbmljISgiY2FuY2VsbGVkIHF1ZXVlZCBoYXNoIGV4ZWN1dGVkIikgfSkKICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgIH0pOwogICAgICAgIHRva2lvOjp0aW1lOjp0aW1lb3V0KER1cmF0aW9uOjpmcm9tX3NlY3MoMSksIGFzeW5jIHsKICAgICAgICAgICAgd2hpbGUgcG9vbC5hZG1pc3Npb24uYXZhaWxhYmxlX3Blcm1pdHMoKSA9PSAyIHsKICAgICAgICAgICAgICAgIHRva2lvOjp0YXNrOjp5aWVsZF9ub3coKS5hd2FpdDsKICAgICAgICAgICAgfQogICAgICAgIH0pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgICAgIHF1ZXVlZC5hYm9ydCgpOwogICAgICAgIGFzc2VydCEocXVldWVkLmF3YWl0LnVud3JhcF9lcnIoKS5pc19jYW5jZWxsZWQoKSk7CiAgICAgICAgYXNzZXJ0X2VxIShwb29sLmFkbWlzc2lvbi5hdmFpbGFibGVfcGVybWl0cygpLCAyKTsKICAgICAgICBkcm9wKHdvcmtlcik7CiAgICAgICAgcG9vbC5ydW4ofHwgT2soKCkpKS5hd2FpdC51bndyYXAoKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBwYXNzd29yZF9oYXNoX292ZXJsb2FkX2lzX3JldHJ5YWJsZSgpIHsKICAgICAgICBsZXQgcmVzcG9uc2UgPSBwYXNzd29yZF9oYXNoX2Vycm9yX3Jlc3BvbnNlKCZQYXNzd29yZEhhc2hCdXN5LmludG8oKSwgImJ1c3kiLnRvX3N0cmluZygpKTsKICAgICAgICBhc3NlcnRfZXEhKAogICAgICAgICAgICByZXNwb25zZS5zdGF0dXMoKSwKICAgICAgICAgICAgYXh1bTo6aHR0cDo6U3RhdHVzQ29kZTo6U0VSVklDRV9VTkFWQUlMQUJMRQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0X2VxIShyZXNwb25zZS5oZWFkZXJzKClbYXh1bTo6aHR0cDo6aGVhZGVyOjpSRVRSWV9BRlRFUl0sICIzIik7CiAgICB9CgogICAgI1t0b2tpbzo6dGVzdF0KICAgIGFzeW5jIGZuIGNhbmNlbGxlZF9wYXNzd29yZF9yZXF1ZXN0X2tlZXBzX2NhcGFjaXR5X3VudGlsX2Jsb2NraW5nX3dvcmtfZmluaXNoZXMoKSB7CiAgICAgICAgbGV0IHBvb2wgPSBBcmM6Om5ldyhQYXNzd29yZEhhc2hQb29sOjpuZXcoMSwgMCwgRHVyYXRpb246OmZyb21fc2VjcygxKSkpOwogICAgICAgIGxldCAoc3RhcnRlZF90eCwgc3RhcnRlZF9yeCkgPSB0b2tpbzo6c3luYzo6b25lc2hvdDo6Y2hhbm5lbCgpOwogICAgICAgIGxldCAocmVsZWFzZV90eCwgcmVsZWFzZV9yeCkgPSBzdGQ6OnN5bmM6Om1wc2M6OmNoYW5uZWwoKTsKICAgICAgICBsZXQgdGFza19wb29sID0gcG9vbC5jbG9uZSgpOwogICAgICAgIGxldCB0YXNrID0gdG9raW86OnNwYXduKGFzeW5jIG1vdmUgewogICAgICAgICAgICB0YXNrX3Bvb2wKICAgICAgICAgICAgICAgIC5ydW4obW92ZSB8fCB7CiAgICAgICAgICAgICAgICAgICAgbGV0IF8gPSBzdGFydGVkX3R4LnNlbmQoKCkpOwogICAgICAgICAgICAgICAgICAgIHJlbGVhc2VfcngucmVjdigpLnVud3JhcCgpOwogICAgICAgICAgICAgICAgICAgIE9rKCgpKQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC5hd2FpdAogICAgICAgIH0pOwogICAgICAgIC8vIFRoaXMgc2luZ2xlLXRocmVhZCBydW50aW1lIHJlbWFpbnMgcmVzcG9uc2l2ZSB3aGlsZSB0aGUgY2xvc3VyZSBpcwogICAgICAgIC8vIGJsb2NrZWQuIEFib3J0aW5nIG9ubHkgaXRzIGFzeW5jIGNhbGxlciBtdXN0IG5vdCBmcmVlIGl0cyBoYXNoIHNsb3QuCiAgICAgICAgdG9raW86OnRpbWU6OnRpbWVvdXQoRHVyYXRpb246OmZyb21fc2VjcygxKSwgc3RhcnRlZF9yeCkKICAgICAgICAgICAgLmF3YWl0CiAgICAgICAgICAgIC51bndyYXAoKQogICAgICAgICAgICAudW53cmFwKCk7CiAgICAgICAgdGFzay5hYm9ydCgpOwogICAgICAgIGxldCBfID0gdGFzay5hd2FpdDsKICAgICAgICBsZXQgcmVqZWN0ZWQgPSBwb29sLnJ1bih8fCBPaygoKSkpLmF3YWl0LnVud3JhcF9lcnIoKTsKICAgICAgICBhc3NlcnQhKGlzX3Bhc3N3b3JkX2hhc2hfYnVzeSgmcmVqZWN0ZWQpKTsKICAgICAgICByZWxlYXNlX3R4LnNlbmQoKCkpLnVud3JhcCgpOwogICAgICAgIHRva2lvOjp0aW1lOjp0aW1lb3V0KER1cmF0aW9uOjpmcm9tX3NlY3MoMSksIGFzeW5jIHsKICAgICAgICAgICAgd2hpbGUgcG9vbC5hZG1pc3Npb24uYXZhaWxhYmxlX3Blcm1pdHMoKSA9PSAwIHsKICAgICAgICAgICAgICAgIHRva2lvOjp0YXNrOjp5aWVsZF9ub3coKS5hd2FpdDsKICAgICAgICAgICAgfQogICAgICAgIH0pCiAgICAgICAgLmF3YWl0CiAgICAgICAgLnVud3JhcCgpOwogICAgICAgIHBvb2wucnVuKHx8IE9rKCgpKSkuYXdhaXQudW53cmFwKCk7CiAgICB9CgogICAgI1t0b2tpbzo6dGVzdF0KICAgIGFzeW5jIGZuIHBhc3N3b3JkX2hhc2hfcXVldWVfaXNfYm91bmRlZF9hbmRfd2FpdF9oYXNfYV9kZWFkbGluZSgpIHsKICAgICAgICBsZXQgcG9vbCA9IEFyYzo6bmV3KFBhc3N3b3JkSGFzaFBvb2w6Om5ldygxLCAxLCBEdXJhdGlvbjo6ZnJvbV9taWxsaXMoMjUpKSk7CiAgICAgICAgbGV0IHdvcmtlciA9IHBvb2wud29ya2Vycy5jbG9uZSgpLmFjcXVpcmVfb3duZWQoKS5hd2FpdC51bndyYXAoKTsKICAgICAgICBsZXQgdGFza19wb29sID0gcG9vbC5jbG9uZSgpOwogICAgICAgIGxldCBxdWV1ZWQgPSB0b2tpbzo6c3Bhd24oYXN5bmMgbW92ZSB7IHRhc2tfcG9vbC5ydW4ofHwgT2soKCkpKS5hd2FpdCB9KTsKICAgICAgICB0b2tpbzo6dGltZTo6dGltZW91dChEdXJhdGlvbjo6ZnJvbV9zZWNzKDEpLCBhc3luYyB7CiAgICAgICAgICAgIHdoaWxlIHBvb2wuYWRtaXNzaW9uLmF2YWlsYWJsZV9wZXJtaXRzKCkgPT0gMiB7CiAgICAgICAgICAgICAgICB0b2tpbzo6dGFzazo6eWllbGRfbm93KCkuYXdhaXQ7CiAgICAgICAgICAgIH0KICAgICAgICB9KQogICAgICAgIC5hd2FpdAogICAgICAgIC51bndyYXAoKTsKICAgICAgICAvLyBTaW11bGF0ZSB0aGUgcnVubmluZyByZXF1ZXN0J3MgYWRtaXNzaW9uIGluZGVwZW5kZW50bHkgb2YgdGhlIGhlbGQKICAgICAgICAvLyB3b3JrZXIgc28gdGhpcyB0ZXN0IGV4ZXJjaXNlcyBvbmx5IGFkbWlzc2lvbiBhbmQgcXVldWUgZGVhZGxpbmVzLgogICAgICAgIGxldCBydW5uaW5nX2FkbWlzc2lvbiA9IHBvb2wuYWRtaXNzaW9uLmNsb25lKCkuYWNxdWlyZV9vd25lZCgpLmF3YWl0LnVud3JhcCgpOwogICAgICAgIGFzc2VydCEoaXNfcGFzc3dvcmRfaGFzaF9idXN5KAogICAgICAgICAgICAmcG9vbC5ydW4ofHwgT2soKCkpKS5hd2FpdC51bndyYXBfZXJyKCkKICAgICAgICApKTsKICAgICAgICBhc3NlcnQhKGlzX3Bhc3N3b3JkX2hhc2hfYnVzeSgmcXVldWVkLmF3YWl0LnVud3JhcCgpLnVud3JhcF9lcnIoKSkpOwogICAgICAgIGRyb3AoKHJ1bm5pbmdfYWRtaXNzaW9uLCB3b3JrZXIpKTsKICAgICAgICBwb29sLnJ1bih8fCBPaygoKSkpLmF3YWl0LnVud3JhcCgpOwogICAgfQp9Cg==
+use scrypt::{Params as ScryptParams, scrypt};
+use std::{
+    sync::{Arc, OnceLock},
+    time::Duration,
+};
+use subtle::ConstantTimeEq;
+use tokio::sync::Semaphore;
+
+use crate::{crypto_utils::random_bytes, store::AuthPasswordCredential, time_utils};
+
+const SCRYPT_N: u32 = 16_384;
+const SCRYPT_R: u32 = 8;
+const SCRYPT_P: u32 = 1;
+const SCRYPT_KEY_LENGTH: usize = 64;
+const SCRYPT_SALT_HEX_LENGTH: usize = 32;
+const SCRYPT_HASH_HEX_LENGTH: usize = SCRYPT_KEY_LENGTH * 2;
+const DUMMY_PASSWORD_SALT_HEX: &str = "000102030405060708090a0b0c0d0e0f";
+const PASSWORD_HASH_QUEUE_LIMIT: usize = 8;
+const PASSWORD_HASH_QUEUE_TIMEOUT: Duration = Duration::from_secs(3);
+// New records use 16-byte salts. Accept reasonably sized historical salts,
+// without duplicating an arbitrarily large value restored from a backup.
+const MAX_PASSWORD_SALT_BYTES: usize = 1024;
+pub(crate) const MAX_AUTH_PASSWORD_BYTES: usize = 128;
+
+#[derive(Debug, thiserror::Error)]
+#[error("password hashing is busy; retry shortly")]
+struct PasswordHashBusy;
+
+pub(crate) fn is_password_hash_busy(error: &anyhow::Error) -> bool {
+    error.downcast_ref::<PasswordHashBusy>().is_some()
+}
+
+pub(crate) fn password_hash_error_response(
+    error: &anyhow::Error,
+    message: String,
+) -> axum::response::Response {
+    use axum::http::{HeaderValue, StatusCode, header};
+    let busy = is_password_hash_busy(error);
+    let mut response = crate::response::error(
+        if busy {
+            StatusCode::SERVICE_UNAVAILABLE
+        } else {
+            StatusCode::INTERNAL_SERVER_ERROR
+        },
+        message,
+    );
+    if busy {
+        response
+            .headers_mut()
+            .insert(header::RETRY_AFTER, HeaderValue::from_static("3"));
+    }
+    response
+}
+
+struct PasswordHashPool {
+    workers: Arc<Semaphore>,
+    admission: Arc<Semaphore>,
+    queue_timeout: Duration,
+}
+
+impl PasswordHashPool {
+    fn new(workers: usize, queued: usize, queue_timeout: Duration) -> Self {
+        Self {
+            workers: Arc::new(Semaphore::new(workers)),
+            admission: Arc::new(Semaphore::new(workers + queued)),
+            queue_timeout,
+        }
+    }
+
+    async fn run<T, F>(&self, work: F) -> anyhow::Result<T>
+    where
+        T: Send + 'static,
+        F: FnOnce() -> anyhow::Result<T> + Send + 'static,
+    {
+        let admission = self
+            .admission
+            .clone()
+            .try_acquire_owned()
+            .map_err(|_| PasswordHashBusy)?;
+        let worker = tokio::time::timeout(self.queue_timeout, self.workers.clone().acquire_owned())
+            .await
+            .map_err(|_| PasswordHashBusy)?
+            .map_err(|_| PasswordHashBusy)?;
+        // A cancelled HTTP request cannot cancel a running blocking closure.
+        // Keep BOTH slots with the actual work, including time queued in Tokio's
+        // blocking pool, so cancellation cannot admit more expensive hashes.
+        tokio::task::spawn_blocking(move || {
+            let (_admission, _worker) = (admission, worker);
+            work()
+        })
+        .await?
+    }
+}
+
+fn password_hash_pool() -> &'static PasswordHashPool {
+    static POOL: OnceLock<PasswordHashPool> = OnceLock::new();
+    POOL.get_or_init(|| {
+        // Each supported scrypt hash needs 16 MiB. Leave ample headroom on
+        // small/cgroup-limited appliances and cap larger hosts at two hashes.
+        let (memory, _) = crate::infra::system_resources::effective_memory_bytes();
+        let memory_workers = memory.map_or(1, |bytes| {
+            (bytes / (256 * 1024 * 1024)).clamp(1, 2) as usize
+        });
+        let cpus = std::thread::available_parallelism().map_or(1, usize::from);
+        PasswordHashPool::new(
+            cpus.min(memory_workers),
+            PASSWORD_HASH_QUEUE_LIMIT,
+            PASSWORD_HASH_QUEUE_TIMEOUT,
+        )
+    })
+}
+
+pub(crate) async fn make_auth_password_credential(
+    account_id: &str,
+    password: &str,
+    created_at: Option<String>,
+) -> anyhow::Result<AuthPasswordCredential> {
+    let now = time_utils::now_iso();
+    let salt = hex::encode(random_bytes::<16>());
+    let hash = derive_password_hash(
+        password,
+        &salt,
+        SCRYPT_N,
+        SCRYPT_R,
+        SCRYPT_P,
+        SCRYPT_KEY_LENGTH,
+    )
+    .await?;
+    Ok(AuthPasswordCredential {
+        account_id: account_id.to_string(),
+        algorithm: "scrypt".to_string(),
+        salt,
+        hash,
+        n: SCRYPT_N,
+        r: SCRYPT_R,
+        p: SCRYPT_P,
+        key_length: SCRYPT_KEY_LENGTH,
+        created_at: created_at.unwrap_or_else(|| now.clone()),
+        updated_at: now,
+    })
+}
+
+pub(crate) async fn verify_auth_password(
+    password: &str,
+    record: &AuthPasswordCredential,
+) -> anyhow::Result<bool> {
+    if password.len() > MAX_AUTH_PASSWORD_BYTES || record.algorithm != "scrypt" {
+        return Ok(false);
+    }
+    let expected = derive_password_hash(
+        password,
+        &record.salt,
+        record.n.max(2),
+        record.r.max(1),
+        record.p.max(1),
+        record.key_length.max(1),
+    )
+    .await?;
+    Ok(expected
+        .as_bytes()
+        .ct_eq(record.hash.as_bytes())
+        .unwrap_u8()
+        == 1)
+}
+
+pub(crate) fn is_supported_auth_password_credential(record: &AuthPasswordCredential) -> bool {
+    !record.account_id.trim().is_empty()
+        && record.algorithm == "scrypt"
+        && record.n == SCRYPT_N
+        && record.r == SCRYPT_R
+        && record.p == SCRYPT_P
+        && record.key_length == SCRYPT_KEY_LENGTH
+        && record.salt.len() == SCRYPT_SALT_HEX_LENGTH
+        && record.hash.len() == SCRYPT_HASH_HEX_LENGTH
+        && is_hex_string(&record.salt)
+        && is_hex_string(&record.hash)
+}
+
+pub(crate) async fn consume_dummy_auth_password_hash(password: &str) -> anyhow::Result<()> {
+    let _ = derive_password_hash(
+        password,
+        DUMMY_PASSWORD_SALT_HEX,
+        SCRYPT_N,
+        SCRYPT_R,
+        SCRYPT_P,
+        SCRYPT_KEY_LENGTH,
+    )
+    .await?;
+    Ok(())
+}
+
+pub(crate) fn validate_auth_password(password: &str) -> Result<(), &'static str> {
+    if password.is_empty() {
+        return Err("passwordTooShort");
+    }
+    if password.len() > MAX_AUTH_PASSWORD_BYTES {
+        return Err("passwordTooLong");
+    }
+    Ok(())
+}
+
+pub(crate) async fn derive_password_hash(
+    password: &str,
+    salt_hex: &str,
+    n: u32,
+    r: u32,
+    p: u32,
+    key_length: usize,
+) -> anyhow::Result<String> {
+    anyhow::ensure!(
+        password.len() <= MAX_AUTH_PASSWORD_BYTES,
+        "password exceeds hashing input limit"
+    );
+    let params = password_hash_params(n, r, p, key_length)?;
+    validate_password_hash_salt(salt_hex)?;
+    let password = password.to_owned();
+    let salt_hex = salt_hex.to_owned();
+    password_hash_pool()
+        .run(move || {
+            let salt = hex::decode(salt_hex)?;
+            let mut output = vec![0u8; key_length];
+            scrypt(password.as_bytes(), &salt, &params, &mut output)?;
+            Ok(hex::encode(output))
+        })
+        .await
+}
+
+fn validate_password_hash_salt(salt_hex: &str) -> anyhow::Result<()> {
+    anyhow::ensure!(
+        salt_hex.len() <= MAX_PASSWORD_SALT_BYTES * 2
+            && salt_hex.len().is_multiple_of(2)
+            && is_hex_string(salt_hex),
+        "invalid or oversized password salt"
+    );
+    Ok(())
+}
+
+fn password_hash_params(n: u32, r: u32, p: u32, key_length: usize) -> anyhow::Result<ScryptParams> {
+    anyhow::ensure!(n >= 2 && n.is_power_of_two(), "invalid scrypt N parameter");
+    anyhow::ensure!(
+        r > 0 && p > 0 && (1..=SCRYPT_KEY_LENGTH).contains(&key_length),
+        "invalid scrypt parameters"
+    );
+    // Check every allocation/work factor before admitting the operation. Stored
+    // records (including whole-backup restores) are not necessarily produced by
+    // this version's account-creation path. Never weaken an over-budget hash by
+    // clamping it; reject it. Lower-cost legacy records retain their parameters.
+    let r128 = u64::from(r).checked_mul(128);
+    let memory = u64::from(n)
+        .checked_add(u64::from(p))
+        .and_then(|value| value.checked_add(1))
+        .and_then(|value| r128.and_then(|r128| value.checked_mul(r128)))
+        .and_then(|value| value.checked_add(key_length as u64));
+    let work = u64::from(n)
+        .checked_mul(u64::from(r))
+        .and_then(|value| value.checked_mul(u64::from(p)));
+    const MEMORY_BUDGET: u64 =
+        128 * SCRYPT_R as u64 * (SCRYPT_N as u64 + SCRYPT_P as u64 + 1) + SCRYPT_KEY_LENGTH as u64;
+    const WORK_BUDGET: u64 = SCRYPT_N as u64 * SCRYPT_R as u64 * SCRYPT_P as u64;
+    anyhow::ensure!(
+        memory.is_some_and(|bytes| bytes <= MEMORY_BUDGET)
+            && work.is_some_and(|work| work <= WORK_BUDGET),
+        "scrypt parameters exceed password hashing resource budget"
+    );
+    Ok(ScryptParams::new(n.ilog2() as u8, r, p)?)
+}
+
+fn is_hex_string(value: &str) -> bool {
+    value.chars().all(|ch| ch.is_ascii_hexdigit())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn validates_auth_password_rules() {
+        assert!(validate_auth_password("abc123").is_ok());
+        assert!(validate_auth_password("a").is_ok());
+        assert!(validate_auth_password("abcdef").is_ok());
+        assert!(validate_auth_password("123456").is_ok());
+        assert!(validate_auth_password("abc 123").is_ok());
+        assert!(validate_auth_password("").is_err());
+    }
+
+    #[tokio::test]
+    async fn verifies_scrypt_auth_password_record() {
+        let record = make_auth_password_credential("account-1", "abc123", None)
+            .await
+            .expect("make record");
+        assert!(is_supported_auth_password_credential(&record));
+        assert!(
+            verify_auth_password("abc123", &record)
+                .await
+                .expect("verify")
+        );
+        assert!(
+            !verify_auth_password("wrong123", &record)
+                .await
+                .expect("verify wrong")
+        );
+    }
+
+    #[tokio::test]
+    async fn rejects_unsupported_password_hash_parameters() {
+        let mut record = make_auth_password_credential("account-1", "abc123", None)
+            .await
+            .expect("make record");
+        record.key_length = 1_000_000;
+        assert!(!is_supported_auth_password_credential(&record));
+
+        let mut record = make_auth_password_credential("account-1", "abc123", None)
+            .await
+            .expect("make record");
+        record.hash = "abcdef".to_string();
+        assert!(!is_supported_auth_password_credential(&record));
+    }
+
+    #[test]
+    fn password_hash_resource_budget_rejects_oversized_and_invalid_records() {
+        assert!(password_hash_params(SCRYPT_N, SCRYPT_R, SCRYPT_P, SCRYPT_KEY_LENGTH).is_ok());
+        assert!(password_hash_params(1024, 8, 1, 32).is_ok());
+        for (n, r, p, len) in [
+            (32_768, 8, 1, 64),
+            (16_384, 8, 2, 64),
+            (16_384, 8, 1, 1_000_000),
+            (16_385, 8, 1, 64),
+            (2, 65_536, 1, 64),
+            (1 << 31, u32::MAX, u32::MAX, 64),
+        ] {
+            assert!(
+                password_hash_params(n, r, p, len).is_err(),
+                "accepted {n}/{r}/{p}/{len}"
+            );
+        }
+    }
+
+    #[test]
+    fn password_salt_is_bounded_before_cloning_or_decoding() {
+        assert!(validate_password_hash_salt(DUMMY_PASSWORD_SALT_HEX).is_ok());
+        assert!(validate_password_hash_salt(&"aB".repeat(MAX_PASSWORD_SALT_BYTES)).is_ok());
+        assert!(validate_password_hash_salt(&"aa".repeat(MAX_PASSWORD_SALT_BYTES + 1)).is_err());
+        assert!(validate_password_hash_salt("0").is_err());
+        assert!(validate_password_hash_salt("xx").is_err());
+    }
+
+    #[tokio::test]
+    async fn oversized_passwords_are_rejected_before_hash_work() {
+        let password = "x".repeat(MAX_AUTH_PASSWORD_BYTES + 1);
+        assert!(
+            derive_password_hash(
+                &password,
+                DUMMY_PASSWORD_SALT_HEX,
+                SCRYPT_N,
+                SCRYPT_R,
+                SCRYPT_P,
+                SCRYPT_KEY_LENGTH
+            )
+            .await
+            .is_err()
+        );
+        let mut record = make_auth_password_credential("account", "valid", None)
+            .await
+            .unwrap();
+        // Invalid stored parameters would error if oversized verification
+        // reached the KDF; input rejection must be a normal false result.
+        record.n = u32::MAX;
+        assert!(!verify_auth_password(&password, &record).await.unwrap());
+    }
+
+    #[tokio::test]
+    async fn cancelled_queued_hash_releases_admission_without_running_work() {
+        let pool = Arc::new(PasswordHashPool::new(1, 1, Duration::from_secs(10)));
+        let worker = pool.workers.clone().acquire_owned().await.unwrap();
+        let queued_pool = pool.clone();
+        let queued = tokio::spawn(async move {
+            queued_pool
+                .run(|| -> anyhow::Result<()> { panic!("cancelled queued hash executed") })
+                .await
+        });
+        tokio::time::timeout(Duration::from_secs(1), async {
+            while pool.admission.available_permits() == 2 {
+                tokio::task::yield_now().await;
+            }
+        })
+        .await
+        .unwrap();
+        queued.abort();
+        assert!(queued.await.unwrap_err().is_cancelled());
+        assert_eq!(pool.admission.available_permits(), 2);
+        drop(worker);
+        pool.run(|| Ok(())).await.unwrap();
+    }
+
+    #[test]
+    fn password_hash_overload_is_retryable() {
+        let response = password_hash_error_response(&PasswordHashBusy.into(), "busy".to_string());
+        assert_eq!(
+            response.status(),
+            axum::http::StatusCode::SERVICE_UNAVAILABLE
+        );
+        assert_eq!(response.headers()[axum::http::header::RETRY_AFTER], "3");
+    }
+
+    #[tokio::test]
+    async fn cancelled_password_request_keeps_capacity_until_blocking_work_finishes() {
+        let pool = Arc::new(PasswordHashPool::new(1, 0, Duration::from_secs(1)));
+        let (started_tx, started_rx) = tokio::sync::oneshot::channel();
+        let (release_tx, release_rx) = std::sync::mpsc::channel();
+        let task_pool = pool.clone();
+        let task = tokio::spawn(async move {
+            task_pool
+                .run(move || {
+                    let _ = started_tx.send(());
+                    release_rx.recv().unwrap();
+                    Ok(())
+                })
+                .await
+        });
+        // This single-thread runtime remains responsive while the closure is
+        // blocked. Aborting only its async caller must not free its hash slot.
+        tokio::time::timeout(Duration::from_secs(1), started_rx)
+            .await
+            .unwrap()
+            .unwrap();
+        task.abort();
+        let _ = task.await;
+        let rejected = pool.run(|| Ok(())).await.unwrap_err();
+        assert!(is_password_hash_busy(&rejected));
+        release_tx.send(()).unwrap();
+        tokio::time::timeout(Duration::from_secs(1), async {
+            while pool.admission.available_permits() == 0 {
+                tokio::task::yield_now().await;
+            }
+        })
+        .await
+        .unwrap();
+        pool.run(|| Ok(())).await.unwrap();
+    }
+
+    #[tokio::test]
+    async fn password_hash_queue_is_bounded_and_wait_has_a_deadline() {
+        let pool = Arc::new(PasswordHashPool::new(1, 1, Duration::from_millis(25)));
+        let worker = pool.workers.clone().acquire_owned().await.unwrap();
+        let task_pool = pool.clone();
+        let queued = tokio::spawn(async move { task_pool.run(|| Ok(())).await });
+        tokio::time::timeout(Duration::from_secs(1), async {
+            while pool.admission.available_permits() == 2 {
+                tokio::task::yield_now().await;
+            }
+        })
+        .await
+        .unwrap();
+        // Simulate the running request's admission independently of the held
+        // worker so this test exercises only admission and queue deadlines.
+        let running_admission = pool.admission.clone().acquire_owned().await.unwrap();
+        assert!(is_password_hash_busy(
+            &pool.run(|| Ok(())).await.unwrap_err()
+        ));
+        assert!(is_password_hash_busy(&queued.await.unwrap().unwrap_err()));
+        drop((running_admission, worker));
+        pool.run(|| Ok(())).await.unwrap();
+    }
+}

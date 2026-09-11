@@ -1,1 +1,470 @@
-PHRlbXBsYXRlPgogIDxDYXJkCiAgICB2LWlmPSIKICAgICAgIWhhc0xvYWRlZFNTTFN0YXR1cyB8fCAoaXNMb2FkaW5nICYmIHNob3dMb2FkaW5nU2tlbGV0b24gJiYgIXNzbFN0YXR1cykKICAgICIKICAgIGNsYXNzPSJkeW5hbWljLXdoaXRlLWNlcnQtY2FyZCIKICA+CiAgICA8Q2FyZEhlYWRlcj4KICAgICAgPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgICA8Q2FyZFRpdGxlPnt7IHQoImFkbWluLmNlcnRDb25maWcudGl0bGUiKSB9fTwvQ2FyZFRpdGxlPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPENhcmREZXNjcmlwdGlvbj57eyB0KCJjb21tb24ubG9hZGluZ0NvbmZpZyIpIH19PC9DYXJkRGVzY3JpcHRpb24+CiAgICA8L0NhcmRIZWFkZXI+CiAgICA8Q2FyZENvbnRlbnQgY2xhc3M9ImdyaWQgZ2FwLTQiPgogICAgICA8ZGl2CiAgICAgICAgY2xhc3M9ImR5bmFtaWMtd2hpdGUtY2VydC1zdWJzdXJmYWNlIGdyaWQgZ2FwLTMgcm91bmRlZC1sZyBib3JkZXIgYmctbXV0ZWQvMzAgcC00IgogICAgICA+CiAgICAgICAgPGRpdgogICAgICAgICAgY2xhc3M9ImdyaWQgZ3JpZC1jb2xzLVs4OHB4X21pbm1heCgwLDFmcildIGdhcC15LTMgdGV4dC1zbSBzbTpncmlkLWNvbHMtWzEwMHB4X21pbm1heCgwLDFmcildIgogICAgICAgID4KICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC00IHctMTYiIC8+CiAgICAgICAgICA8U2tlbGV0b24gY2xhc3M9ImgtNCB3LTU2IiAvPgogICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy0xNiIgLz4KICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC00IHctNjQiIC8+CiAgICAgICAgICA8U2tlbGV0b24gY2xhc3M9ImgtNCB3LTE2IiAvPgogICAgICAgICAgPFNrZWxldG9uIGNsYXNzPSJoLTQgdy00MCIgLz4KICAgICAgICAgIDxTa2VsZXRvbiBjbGFzcz0iaC00IHctMTYiIC8+CiAgICAgICAgICA8U2tlbGV0b24gY2xhc3M9ImgtNCB3LTQ4IiAvPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvQ2FyZENvbnRlbnQ+CiAgPC9DYXJkPgoKICA8ZGl2IHYtZWxzZSBjbGFzcz0iZ3JpZCBnYXAtNCI+CiAgICA8Q2VydGlmaWNhdGVTdGF0dXNDYXJkCiAgICAgIDphY3RpdmUtY2VydGlmaWNhdGU9ImFjdGl2ZUNlcnRpZmljYXRlIgogICAgICA6Y2VydGlmaWNhdGUtY291bnQ9ImNlcnRpZmljYXRlcy5sZW5ndGgiCiAgICAgIDpkZXBsb3ltZW50LW1vZGUtbGFiZWw9ImRlcGxveW1lbnRNb2RlTGFiZWwiCiAgICAgIDppcy1hY3RpdmF0aW5nPSJpc0FjdGl2YXRpbmciCiAgICAgIDppcy1jbGVhcmluZz0iaXNDbGVhcmluZyIKICAgICAgOmlzLXVwZGF0aW5nLWRlcGxveW1lbnQtbW9kZT0iaXNVcGRhdGluZ0RlcGxveW1lbnRNb2RlIgogICAgICA6bGlicmFyeS1jb3ZlcmFnZT0ibGlicmFyeUNvdmVyYWdlIgogICAgICA6cHJpbWFyeS1jZXJ0aWZpY2F0ZS1iYWRnZS1sYWJlbD0icHJpbWFyeUNlcnRpZmljYXRlQmFkZ2VMYWJlbCIKICAgICAgOnJlY29tbWVuZGVkLWNlcnRpZmljYXRlLWlkPSJyZWNvbW1lbmRlZENlcnRpZmljYXRlSWQiCiAgICAgIDpzaG93LW11bHRpLXNuaS1zdWdnZXN0aW9uPSJzaG93TXVsdGlTbmlTdWdnZXN0aW9uIgogICAgICA6c3RhdHVzLW92ZXJ2aWV3LXRleHQ9InN0YXR1c092ZXJ2aWV3VGV4dCIKICAgICAgQGFjdGl2YXRlLXJlY29tbWVuZGVkPSJhY3RpdmF0ZVJlY29tbWVuZGVkQ2VydGlmaWNhdGUiCiAgICAgIEBjbGVhcj0iaGFuZGxlQ2xlYXIiCiAgICAgIEBzd2l0Y2gtdG8tbXVsdGktc25pPSJ1cGRhdGVEZXBsb3ltZW50TW9kZSgnbXVsdGlfc25pJykiCiAgICAvPgoKICAgIDxDZXJ0aWZpY2F0ZURlcGxveW1lbnRDYXJkCiAgICAgIDpjZXJ0aWZpY2F0ZS1jb3VudD0iY2VydGlmaWNhdGVzLmxlbmd0aCIKICAgICAgOmNvbmZpZ3VyZWQtZGVwbG95bWVudC1tb2RlLWxhYmVsPSJjb25maWd1cmVkRGVwbG95bWVudE1vZGVMYWJlbCIKICAgICAgOmRlcGxveWVkLWdhdGV3YXktY2VydGlmaWNhdGVzPSJkZXBsb3llZEdhdGV3YXlDZXJ0aWZpY2F0ZXMiCiAgICAgIDpkZXBsb3ltZW50LWNhcmQtY2xhc3M9ImRlcGxveW1lbnRDYXJkQ2xhc3MiCiAgICAgIDpkZXBsb3ltZW50LW1vZGUtZGVzY3JpcHRpb249ImRlcGxveW1lbnRNb2RlRGVzY3JpcHRpb24iCiAgICAgIDpkZXBsb3ltZW50LW1vZGUtbWlzbWF0Y2g9ImRlcGxveW1lbnRNb2RlTWlzbWF0Y2giCiAgICAgIDpkZXBsb3ltZW50LW1vZGUtc2hvcnQtbGFiZWw9ImRlcGxveW1lbnRNb2RlU2hvcnRMYWJlbCIKICAgICAgOmRlcGxveW1lbnQtc2VjdGlvbi1jb25maWd1cmVkPSJkZXBsb3ltZW50U2VjdGlvbkNvbmZpZ3VyZWQiCiAgICAgIDpkZXBsb3ltZW50LXN1bW1hcnk9ImRlcGxveW1lbnRTdW1tYXJ5IgogICAgICA6Z2F0ZXdheS1jZXJ0aWZpY2F0ZS1rZXk9ImdhdGV3YXlDZXJ0aWZpY2F0ZUtleSIKICAgICAgOmdhdGV3YXktY2VydGlmaWNhdGUtbGFiZWw9ImdhdGV3YXlDZXJ0aWZpY2F0ZUxhYmVsIgogICAgICA6Z2F0ZXdheS1kZXBsb3ltZW50LXN1bW1hcnk9ImdhdGV3YXlEZXBsb3ltZW50U3VtbWFyeSIKICAgICAgOmdhdGV3YXktc3luYy1lcnJvcj0iZ2F0ZXdheVN5bmNFcnJvciIKICAgICAgOmlzLXVwZGF0aW5nLWRlcGxveW1lbnQtbW9kZT0iaXNVcGRhdGluZ0RlcGxveW1lbnRNb2RlIgogICAgICA6bXVsdGktc25pLXByZXZpZXc9Im11bHRpU25pUHJldmlldyIKICAgICAgOnBlbmRpbmctZGVwbG95bWVudC1tb2RlPSJwZW5kaW5nRGVwbG95bWVudE1vZGUiCiAgICAgIDpyZWFkeT0iaGFzTG9hZGVkU1NMU3RhdHVzIgogICAgICA6c2luZ2xlLWFjdGl2ZS1wcmV2aWV3PSJzaW5nbGVBY3RpdmVQcmV2aWV3IgogICAgICA6c3NsLXN0YXR1cz0ic3NsU3RhdHVzIgogICAgICBAdXBkYXRlLW1vZGU9InVwZGF0ZURlcGxveW1lbnRNb2RlIgogICAgLz4KCiAgICA8QWN0aXZlQ2VydGlmaWNhdGVEZXRhaWxzQ2FyZAogICAgICA6YWN0aXZlLWNlcnRpZmljYXRlPSJhY3RpdmVDZXJ0aWZpY2F0ZSIKICAgICAgOmNvdmVyYWdlLWJhZGdlLWNsYXNzPSJjb3ZlcmFnZUJhZGdlQ2xhc3MiCiAgICAgIDpjb3ZlcmFnZS1iYWRnZS1sYWJlbD0iY292ZXJhZ2VCYWRnZUxhYmVsIgogICAgICA6Y292ZXJhZ2UtYmFkZ2UtdmFyaWFudD0iY292ZXJhZ2VCYWRnZVZhcmlhbnQiCiAgICAgIDpjdXJyZW50LWNlcnRpZmljYXRlLXN1bW1hcnk9ImN1cnJlbnRDZXJ0aWZpY2F0ZVN1bW1hcnkiCiAgICAgIDpmb3JtYXQtZGF0ZT0iZm9ybWF0RGF0ZSIKICAgICAgOmZvcm1hdC1kbj0iZm9ybWF0RE4iCiAgICAgIDppcy1leHBpcmVkPSJpc0V4cGlyZWQiCiAgICAgIDppcy1leHBpcmluZy1zb29uPSJpc0V4cGlyaW5nU29vbiIKICAgICAgOnJlYWR5PSJoYXNMb2FkZWRTU0xTdGF0dXMiCiAgICAgIDpzb3VyY2UtbGFiZWw9InNvdXJjZUxhYmVsIgogICAgICA6c3ViZG9tYWluLWNvdmVyYWdlPSJzdWJkb21haW5Db3ZlcmFnZSIKICAgICAgOnVuY292ZXJlZC1ob3N0cy1wcmV2aWV3PSJ1bmNvdmVyZWRIb3N0c1ByZXZpZXciCiAgICAvPgoKICAgIDxDb25maWdDb2xsYXBzaWJsZUNhcmQKICAgICAgOnRpdGxlPSJ0KCdhZG1pbi5jZXJ0Q29uZmlnLm1hbnVhbFVwbG9hZFRpdGxlJykiCiAgICAgIDpjb25maWd1cmVkPSJtYW51YWxVcGxvYWRDb25maWd1cmVkIgogICAgICA6cmVhZHk9Imhhc0xvYWRlZFNTTFN0YXR1cyIKICAgICAgOmVkaXQtbGFiZWw9InQoJ2FkbWluLmNlcnRDb25maWcuZXhwYW5kRm9ybScpIgogICAgICBjb2xsYXBzZWQtY29udGVudC1jbGFzcz0ibWluLWgtWzc2cHhdIGZsZXggZmxleC1jb2wgaXRlbXMtc3RhcnQgZ2FwLTMgc206aC1bNDBweF0gc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIHNtOmp1c3RpZnktYmV0d2VlbiIKICAgICAgc3VtbWFyeS1jbGFzcz0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgbWF4LXctZnVsbCB3aGl0ZXNwYWNlLW5vcm1hbCBicmVhay13b3JkcyBzbTp0cnVuY2F0ZSIKICAgICAgZXhwYW5kZWQtY29udGVudC1jbGFzcz0icC0wIHNtOnAtMCIKICAgICAgYWN0aW9ucy1jbGFzcz0iYm9yZGVyLXQgYmctbXV0ZWQvMzAgcHgtNCBweS00IHNtOnB4LTYgZmxleCBmbGV4LWNvbC1yZXZlcnNlIGdhcC0yIHJvdW5kZWQtYi1sZyBzbTpmbGV4LXJvdyBzbTppdGVtcy1jZW50ZXIgc206anVzdGlmeS1lbmQiCiAgICAgIGNhcmQtY2xhc3M9ImR5bmFtaWMtd2hpdGUtY2VydC1jYXJkIgogICAgPgogICAgICA8dGVtcGxhdGUgI3N1bW1hcnk+e3sgbWFudWFsVXBsb2FkU3VtbWFyeSB9fTwvdGVtcGxhdGU+CgogICAgICA8dGVtcGxhdGUgI2RlZmF1bHQ+CiAgICAgICAgPGRpdiBjbGFzcz0iZGl2aWRlLXkgZGl2aWRlLWJvcmRlciI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC0yIHAtNCBzbTpwLTYiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy51cGxvYWROZXdUaXRsZSIpIH19CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHt7IHQoImFkbWluLmNlcnRDb25maWcudXBsb2FkRGVzY3JpcHRpb24iKSB9fQogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIGdhcC02IHAtNCBzbTpwLTYiPgogICAgICAgICAgICA8Q2VydEZvcm0KICAgICAgICAgICAgICB2LW1vZGVsOmNlcnQ9ImZvcm1EYXRhLmNlcnQiCiAgICAgICAgICAgICAgdi1tb2RlbDpzc2xLZXk9ImZvcm1EYXRhLmtleSIKICAgICAgICAgICAgICA6c2hhcmUtbmFtZT0ic3NsU2hhcmVkRmlsZXMuc2hhcmVOYW1lIgogICAgICAgICAgICAgIDpzaGFyZWQtZmlsZXM9InNzbFNoYXJlZEZpbGVzLmZpbGVzIgogICAgICAgICAgICAgIDpzaGFyZWQtZmlsZXMtYXZhaWxhYmxlPSJzc2xTaGFyZWRGaWxlcy5hdmFpbGFibGUiCiAgICAgICAgICAgICAgOnNoYXJlZC1maWxlcy1sb2FkaW5nPSJpc0xvYWRpbmdTaGFyZWRGaWxlcyIKICAgICAgICAgICAgICA6c2hhcmVkLWZpbGVzLWVycm9yPSJzaGFyZWRGaWxlc0Vycm9yIgogICAgICAgICAgICAgIDpzaGFyZWQtZmlsZS1zZWxlY3Rpbmc9ImlzUmVhZGluZ1NoYXJlZEZpbGUiCiAgICAgICAgICAgICAgQHJlcXVlc3Qtc2hhcmVkLWZpbGVzPSJoYW5kbGVTaGFyZWRGaWxlc1JlcXVlc3QiCiAgICAgICAgICAgICAgQHNlbGVjdC1zaGFyZWQtZmlsZT0iaGFuZGxlQ3JlYXRlU2hhcmVkRmlsZVNlbGVjdCIKICAgICAgICAgICAgLz4KCiAgICAgICAgICAgIDxBbGVydCB2LWlmPSJlcnJvck1lc3NhZ2UiIHZhcmlhbnQ9ImRlc3RydWN0aXZlIj4KICAgICAgICAgICAgICA8QWxlcnRUaXRsZT57ewogICAgICAgICAgICAgICAgdCgiYWRtaW4uY2VydENvbmZpZy52YWxpZGF0aW9uRmFpbGVkIikKICAgICAgICAgICAgICB9fTwvQWxlcnRUaXRsZT4KICAgICAgICAgICAgICA8QWxlcnREZXNjcmlwdGlvbj57eyBlcnJvck1lc3NhZ2UgfX08L0FsZXJ0RGVzY3JpcHRpb24+CiAgICAgICAgICAgIDwvQWxlcnQ+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC90ZW1wbGF0ZT4KCiAgICAgIDx0ZW1wbGF0ZSAjYWN0aW9ucz0ieyBjb2xsYXBzZSB9Ij4KICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIEBjbGljaz0iY29sbGFwc2UiPgogICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5jb2xsYXBzZSIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmcgfHwgKCFmb3JtRGF0YS5jZXJ0ICYmICFmb3JtRGF0YS5rZXkpIgogICAgICAgICAgQGNsaWNrPSJyZXNldE1hbnVhbFVwbG9hZEZvcm0iCiAgICAgICAgPgogICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5jbGVhciIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIDpkaXNhYmxlZD0iaXNTYXZpbmcgfHwgIWZvcm1EYXRhLmNlcnQgfHwgIWZvcm1EYXRhLmtleSIKICAgICAgICAgIEBjbGljaz0iaGFuZGxlU2F2ZShmYWxzZSkiCiAgICAgICAgPgogICAgICAgICAgPHNwYW4KICAgICAgICAgICAgdi1pZj0iaXNTYXZpbmcgJiYgcGVuZGluZ1NhdmVNb2RlID09PSAnc3RvcmUnIgogICAgICAgICAgICBjbGFzcz0ibXItMiBoLTQgdy00IGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLWJhY2tncm91bmQgYm9yZGVyLXQtZm9yZWdyb3VuZCIKICAgICAgICAgID48L3NwYW4+CiAgICAgICAgICB7eyB0KCJhZG1pbi5jZXJ0Q29uZmlnLnN0b3JlT25seSIpIH19CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgOmRpc2FibGVkPSJpc1NhdmluZyB8fCAhZm9ybURhdGEuY2VydCB8fCAhZm9ybURhdGEua2V5IgogICAgICAgICAgQGNsaWNrPSJoYW5kbGVTYXZlKHRydWUpIgogICAgICAgID4KICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIHYtaWY9ImlzU2F2aW5nICYmIHBlbmRpbmdTYXZlTW9kZSA9PT0gJ2FjdGl2YXRlJyIKICAgICAgICAgICAgY2xhc3M9Im1yLTIgaC00IHctNCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1iYWNrZ3JvdW5kIGJvcmRlci10LWZvcmVncm91bmQiCiAgICAgICAgICA+PC9zcGFuPgogICAgICAgICAge3sgdCgiYWRtaW4uY2VydENvbmZpZy5zYXZlQW5kQWN0aXZhdGUiKSB9fQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L3RlbXBsYXRlPgogICAgPC9Db25maWdDb2xsYXBzaWJsZUNhcmQ+CgogICAgPEV4dGVybmFsQ2VydGlmaWNhdGVEZXBsb3ltZW50Q2FyZCAvPgoKICAgIDxDZXJ0aWZpY2F0ZUxpYnJhcnlDYXJkCiAgICAgIDphY3RpdmF0ZS1idXR0b24tbGFiZWw9ImFjdGl2YXRlQnV0dG9uTGFiZWwiCiAgICAgIDphY3RpdmF0ZS1jZXJ0aWZpY2F0ZT0iYWN0aXZhdGVDZXJ0aWZpY2F0ZSIKICAgICAgOmFjdGl2YXRpbmctY2VydGlmaWNhdGUtaWQ9ImFjdGl2YXRpbmdDZXJ0aWZpY2F0ZUlkIgogICAgICA6Y2VydGlmaWNhdGUtZGlzcGxheS1sYWJlbD0iY2VydGlmaWNhdGVEaXNwbGF5TGFiZWwiCiAgICAgIDpjZXJ0aWZpY2F0ZS1yb2xlLWxhYmVsPSJjZXJ0aWZpY2F0ZVJvbGVMYWJlbCIKICAgICAgOmNlcnRpZmljYXRlcz0iY2VydGlmaWNhdGVzIgogICAgICA6Y2xlYXItbGlicmFyeT0iaGFuZGxlQ2xlYXJMaWJyYXJ5IgogICAgICA6Y292ZXJhZ2UtYmFkZ2UtY2xhc3M9ImNvdmVyYWdlQmFkZ2VDbGFzcyIKICAgICAgOmNvdmVyYWdlLWJhZGdlLWxhYmVsPSJjb3ZlcmFnZUJhZGdlTGFiZWwiCiAgICAgIDpjb3ZlcmFnZS1iYWRnZS12YXJpYW50PSJjb3ZlcmFnZUJhZGdlVmFyaWFudCIKICAgICAgOmRlbGV0ZS1jZXJ0aWZpY2F0ZT0iZGVsZXRlQ2VydGlmaWNhdGUiCiAgICAgIDpkZWxldGluZy1jZXJ0aWZpY2F0ZS1pZD0iZGVsZXRpbmdDZXJ0aWZpY2F0ZUlkIgogICAgICA6ZG93bmxvYWQtY2VydGlmaWNhdGU9ImRvd25sb2FkQ2VydGlmaWNhdGUiCiAgICAgIDpkb3dubG9hZGluZy1jZXJ0aWZpY2F0ZS1pZD0iZG93bmxvYWRpbmdDZXJ0aWZpY2F0ZUlkIgogICAgICA6Zm9ybWF0LWRhdGU9ImZvcm1hdERhdGUiCiAgICAgIDppcy1hY3RpdmF0aW5nPSJpc0FjdGl2YXRpbmciCiAgICAgIDppcy1jbGVhcmluZy1saWJyYXJ5PSJpc0NsZWFyaW5nTGlicmFyeSIKICAgICAgOmlzLWRlbGV0aW5nPSJpc0RlbGV0aW5nIgogICAgICA6aXMtZG93bmxvYWRpbmc9ImlzRG93bmxvYWRpbmciCiAgICAgIDppcy1tdXRhdGlvbi1wZW5kaW5nPSJpc0FjdGl2YXRpbmcgfHwgaXNEZWxldGluZyB8fCBpc0NsZWFyaW5nTGlicmFyeSIKICAgICAgOnJlYWR5PSJoYXNMb2FkZWRTU0xTdGF0dXMiCiAgICAgIDpzb3VyY2UtbGFiZWw9InNvdXJjZUxhYmVsIgogICAgICA6c3VtbWFyeT0iY2VydGlmaWNhdGVMaWJyYXJ5U3VtbWFyeSIKICAgIC8+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KaW1wb3J0IHsgb25Nb3VudGVkLCByZWYgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VJMThuIH0gZnJvbSAidnVlLWkxOG4iOwppbXBvcnQgewogIENhcmQsCiAgQ2FyZENvbnRlbnQsCiAgQ2FyZERlc2NyaXB0aW9uLAogIENhcmRIZWFkZXIsCiAgQ2FyZFRpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IEFsZXJ0LCBBbGVydERlc2NyaXB0aW9uLCBBbGVydFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2FsZXJ0IjsKaW1wb3J0IHsgU2tlbGV0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2tlbGV0b24iOwppbXBvcnQgQ29uZmlnQ29sbGFwc2libGVDYXJkIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9Db25maWdDb2xsYXBzaWJsZUNhcmQudnVlIjsKaW1wb3J0IENlcnRGb3JtIGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9uZW50cy9zc2wvQ2VydEZvcm0udnVlIjsKaW1wb3J0IHsKICBleHRyYWN0RXJyb3JNZXNzYWdlLAogIHVzZUFzeW5jQWN0aW9uLAp9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlQXN5bmNBY3Rpb24iOwppbXBvcnQgeyB1c2VEZWxheWVkTG9hZGluZyB9IGZyb20gIkBhZG1pbi1zaGFyZWQvY29tcG9zYWJsZXMvdXNlRGVsYXllZExvYWRpbmciOwppbXBvcnQgeyBDb25maWdBUEkgfSBmcm9tICJAL2xpYi9hcGkvY29uZmlnIjsKaW1wb3J0IHR5cGUgeyBTU0xTdGF0dXMgfSBmcm9tICIuLi8uLi90eXBlcyI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQGFkbWluLXNoYXJlZC91dGlscy90b2FzdCI7CmltcG9ydCBBY3RpdmVDZXJ0aWZpY2F0ZURldGFpbHNDYXJkIGZyb20gIi4vQWN0aXZlQ2VydGlmaWNhdGVEZXRhaWxzQ2FyZC52dWUiOwppbXBvcnQgQ2VydGlmaWNhdGVEZXBsb3ltZW50Q2FyZCBmcm9tICIuL0NlcnRpZmljYXRlRGVwbG95bWVudENhcmQudnVlIjsKaW1wb3J0IEV4dGVybmFsQ2VydGlmaWNhdGVEZXBsb3ltZW50Q2FyZCBmcm9tICIuL0V4dGVybmFsQ2VydGlmaWNhdGVEZXBsb3ltZW50Q2FyZC52dWUiOwppbXBvcnQgQ2VydGlmaWNhdGVMaWJyYXJ5Q2FyZCBmcm9tICIuL0NlcnRpZmljYXRlTGlicmFyeUNhcmQudnVlIjsKaW1wb3J0IENlcnRpZmljYXRlU3RhdHVzQ2FyZCBmcm9tICIuL0NlcnRpZmljYXRlU3RhdHVzQ2FyZC52dWUiOwppbXBvcnQgeyB1c2VDZXJ0aWZpY2F0ZUxpYnJhcnlEb3dubG9hZCB9IGZyb20gIi4vdXNlQ2VydGlmaWNhdGVMaWJyYXJ5RG93bmxvYWQiOwppbXBvcnQgeyB1c2VDZXJ0Q29uZmlnVmlld01vZGVsIH0gZnJvbSAiLi91c2VDZXJ0Q29uZmlnVmlld01vZGVsIjsKaW1wb3J0IHsgdXNlU1NMU2hhcmVkRmlsZXMgfSBmcm9tICIuL3VzZVNTTFNoYXJlZEZpbGVzIjsKCmNvbnN0IHNzbFN0YXR1cyA9IHJlZjxTU0xTdGF0dXMgfCBudWxsPihudWxsKTsKY29uc3QgeyB0LCBsb2NhbGUgfSA9IHVzZUkxOG4oKTsKY29uc3QgaGFzTG9hZGVkU1NMU3RhdHVzID0gcmVmKGZhbHNlKTsKY29uc3QgZXJyb3JNZXNzYWdlID0gcmVmKCIiKTsKY29uc3QgZm9ybURhdGEgPSByZWYoeyBjZXJ0OiAiIiwga2V5OiAiIiB9KTsKY29uc3QgcGVuZGluZ1NhdmVNb2RlID0gcmVmPCJzdG9yZSIgfCAiYWN0aXZhdGUiIHwgbnVsbD4obnVsbCk7CmNvbnN0IGFjdGl2YXRpbmdDZXJ0aWZpY2F0ZUlkID0gcmVmPHN0cmluZyB8IG51bGw+KG51bGwpOwpjb25zdCBkZWxldGluZ0NlcnRpZmljYXRlSWQgPSByZWY8c3RyaW5nIHwgbnVsbD4obnVsbCk7CmNvbnN0IHBlbmRpbmdEZXBsb3ltZW50TW9kZSA9IHJlZjwic2luZ2xlX2FjdGl2ZSIgfCAibXVsdGlfc25pIiB8IG51bGw+KG51bGwpOwoKY29uc3QgewogIGhhbmRsZUNyZWF0ZVNoYXJlZEZpbGVTZWxlY3QsCiAgaGFuZGxlU2hhcmVkRmlsZXNSZXF1ZXN0LAogIGlzTG9hZGluZ1NoYXJlZEZpbGVzLAogIGlzUmVhZGluZ1NoYXJlZEZpbGUsCiAgc2hhcmVkRmlsZXNFcnJvciwKICBzc2xTaGFyZWRGaWxlcywKfSA9IHVzZVNTTFNoYXJlZEZpbGVzKHsKICBmb3JtRGF0YSwKICB0cmFuc2xhdGU6IChrZXksIHBhcmFtcykgPT4gKHBhcmFtcyA/IHQoa2V5LCBwYXJhbXMpIDogdChrZXkpKSwKfSk7Cgpjb25zdCB7IGlzUGVuZGluZzogaXNTYXZpbmcsIHJ1bjogcnVuU2F2ZVNTTCB9ID0gdXNlQXN5bmNBY3Rpb24oewogIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgY29uc3QgbWVzc2FnZSA9IGV4dHJhY3RFcnJvck1lc3NhZ2UoCiAgICAgIGVycm9yLAogICAgICB0KCJhZG1pbi5jZXJ0Q29uZmlnLnNhdmVGYWlsZWQiKSwKICAgICk7CiAgICBlcnJvck1lc3NhZ2UudmFsdWUgPSBtZXNzYWdlOwogICAgdG9hc3QuZXJyb3IobWVzc2FnZSk7CiAgfSwKfSk7CmNvbnN0IHsgaXNQZW5kaW5nOiBpc0NsZWFyaW5nLCBydW46IHJ1bkNsZWFyU1NMIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICB0b2FzdC5lcnJvcigKICAgICAgZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiYWRtaW4uY2VydENvbmZpZy5kaXNhYmxlRmFpbGVkIikpLAogICAgKTsKICB9LAp9KTsKY29uc3QgeyBpc1BlbmRpbmc6IGlzTG9hZGluZywgcnVuOiBydW5Mb2FkU1NMU3RhdHVzIH0gPSB1c2VBc3luY0FjdGlvbih7CiAgb25FcnJvcjogKGVycm9yKSA9PiB7CiAgICBjb25zb2xlLmVycm9yKCJGYWlsZWQgdG8gbG9hZCBTU0wgc3RhdHVzOiIsIGVycm9yKTsKICB9LAp9KTsKY29uc3QgeyBpc1BlbmRpbmc6IGlzQWN0aXZhdGluZywgcnVuOiBydW5BY3RpdmF0ZVNTTCB9ID0gdXNlQXN5bmNBY3Rpb24oewogIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgdG9hc3QuZXJyb3IoCiAgICAgIGV4dHJhY3RFcnJvck1lc3NhZ2UoZXJyb3IsIHQoImFkbWluLmNlcnRDb25maWcuc3dpdGNoQ2VydGlmaWNhdGVGYWlsZWQiKSksCiAgICApOwogIH0sCn0pOwpjb25zdCB7IGlzUGVuZGluZzogaXNEZWxldGluZywgcnVuOiBydW5EZWxldGVTU0wgfSA9IHVzZUFzeW5jQWN0aW9uKHsKICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgIHRvYXN0LmVycm9yKGV4dHJhY3RFcnJvck1lc3NhZ2UoZXJyb3IsIHQoImFkbWluLmNlcnRDb25maWcuZGVsZXRlRmFpbGVkIikpKTsKICB9LAp9KTsKY29uc3QgeyBpc1BlbmRpbmc6IGlzQ2xlYXJpbmdMaWJyYXJ5LCBydW46IHJ1bkNsZWFyU1NMTGlicmFyeSB9ID0KICB1c2VBc3luY0FjdGlvbih7CiAgICBvbkVycm9yOiAoZXJyb3IpID0+IHsKICAgICAgdG9hc3QuZXJyb3IoCiAgICAgICAgZXh0cmFjdEVycm9yTWVzc2FnZShlcnJvciwgdCgiYWRtaW4uY2VydENvbmZpZy5jbGVhckxpYnJhcnlGYWlsZWQiKSksCiAgICAgICk7CiAgICB9LAogIH0pOwpjb25zdCB7IGlzUGVuZGluZzogaXNVcGRhdGluZ0RlcGxveW1lbnRNb2RlLCBydW46IHJ1blVwZGF0ZURlcGxveW1lbnRNb2RlIH0gPQogIHVzZUFzeW5jQWN0aW9uKHsKICAgIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgICB0b2FzdC5lcnJvcigKICAgICAgICBleHRyYWN0RXJyb3JNZXNzYWdlKGVycm9yLCB0KCJhZG1pbi5jZXJ0Q29uZmlnLnN3aXRjaE1vZGVGYWlsZWQiKSksCiAgICAgICk7CiAgICB9LAogIH0pOwoKY29uc3Qgc2hvd0xvYWRpbmdTa2VsZXRvbiA9IHVzZURlbGF5ZWRMb2FkaW5nKGlzTG9hZGluZyk7CmNvbnN0IHsgZG93bmxvYWRDZXJ0aWZpY2F0ZSwgZG93bmxvYWRpbmdDZXJ0aWZpY2F0ZUlkLCBpc0Rvd25sb2FkaW5nIH0gPQogIHVzZUNlcnRpZmljYXRlTGlicmFyeURvd25sb2FkKChrZXkpID0+IHQoa2V5KSk7Cgpjb25zdCB7CiAgYWN0aXZhdGVCdXR0b25MYWJlbCwKICBhY3RpdmVDZXJ0aWZpY2F0ZSwKICBjZXJ0aWZpY2F0ZURpc3BsYXlMYWJlbCwKICBjZXJ0aWZpY2F0ZUxpYnJhcnlTdW1tYXJ5LAogIGNlcnRpZmljYXRlUm9sZUxhYmVsLAogIGNlcnRpZmljYXRlcywKICBjb25maWd1cmVkRGVwbG95bWVudE1vZGVMYWJlbCwKICBjb3ZlcmFnZUJhZGdlQ2xhc3MsCiAgY292ZXJhZ2VCYWRnZUxhYmVsLAogIGNvdmVyYWdlQmFkZ2VWYXJpYW50LAogIGN1cnJlbnRDZXJ0aWZpY2F0ZVN1bW1hcnksCiAgZGVwbG95ZWRHYXRld2F5Q2VydGlmaWNhdGVzLAogIGRlcGxveW1lbnRDYXJkQ2xhc3MsCiAgZGVwbG95bWVudE1vZGVEZXNjcmlwdGlvbiwKICBkZXBsb3ltZW50TW9kZUxhYmVsLAogIGRlcGxveW1lbnRNb2RlTWlzbWF0Y2gsCiAgZGVwbG95bWVudE1vZGVTaG9ydExhYmVsLAogIGRlcGxveW1lbnRTZWN0aW9uQ29uZmlndXJlZCwKICBkZXBsb3ltZW50U3VtbWFyeSwKICBmb3JtYXREYXRlLAogIGZvcm1hdEROLAogIGdhdGV3YXlDZXJ0aWZpY2F0ZUtleSwKICBnYXRld2F5Q2VydGlmaWNhdGVMYWJlbCwKICBnYXRld2F5RGVwbG95bWVudFN1bW1hcnksCiAgZ2F0ZXdheVN5bmNFcnJvciwKICBpc0V4cGlyZWQsCiAgaXNFeHBpcmluZ1Nvb24sCiAgbGlicmFyeUNvdmVyYWdlLAogIG1hbnVhbFVwbG9hZENvbmZpZ3VyZWQsCiAgbWFudWFsVXBsb2FkU3VtbWFyeSwKICBtdWx0aVNuaVByZXZpZXcsCiAgcHJpbWFyeUNlcnRpZmljYXRlQmFkZ2VMYWJlbCwKICByZWNvbW1lbmRlZENlcnRpZmljYXRlSWQsCiAgc2hvd011bHRpU25pU3VnZ2VzdGlvbiwKICBzaW5nbGVBY3RpdmVQcmV2aWV3LAogIHNvdXJjZUxhYmVsLAogIHN0YXR1c092ZXJ2aWV3VGV4dCwKICBzdWJkb21haW5Db3ZlcmFnZSwKICB1bmNvdmVyZWRIb3N0c1ByZXZpZXcsCn0gPSB1c2VDZXJ0Q29uZmlnVmlld01vZGVsKHsKICBmb3JtRGF0YSwKICBsb2NhbGUsCiAgc3NsU3RhdHVzLAogIHRyYW5zbGF0ZTogKGtleSwgcGFyYW1zKSA9PiAocGFyYW1zID8gdChrZXksIHBhcmFtcykgOiB0KGtleSkpLAp9KTsKCm9uTW91bnRlZCgoKSA9PiB7CiAgdm9pZCBsb2FkU1NMU3RhdHVzKCk7Cn0pOwoKYXN5bmMgZnVuY3Rpb24gbG9hZFNTTFN0YXR1cygpIHsKICBhd2FpdCBydW5Mb2FkU1NMU3RhdHVzKGFzeW5jICgpID0+IHsKICAgIHNzbFN0YXR1cy52YWx1ZSA9IGF3YWl0IENvbmZpZ0FQSS5nZXRTU0xTdGF0dXMoKTsKICB9KTsKICBoYXNMb2FkZWRTU0xTdGF0dXMudmFsdWUgPSB0cnVlOwp9Cgphc3luYyBmdW5jdGlvbiBoYW5kbGVTYXZlKGFjdGl2YXRlOiBib29sZWFuKSB7CiAgcGVuZGluZ1NhdmVNb2RlLnZhbHVlID0gYWN0aXZhdGUgPyAiYWN0aXZhdGUiIDogInN0b3JlIjsKICBlcnJvck1lc3NhZ2UudmFsdWUgPSAiIjsKICBhd2FpdCBydW5TYXZlU1NMKGFzeW5jICgpID0+IHsKICAgIGF3YWl0IENvbmZpZ0FQSS5zZXRTU0woewogICAgICBsYWJlbDogdCgiYWRtaW4uY2VydENvbmZpZy5tYW51YWxDZXJ0aWZpY2F0ZUxhYmVsIiksCiAgICAgIHNvdXJjZTogIm1hbnVhbCIsCiAgICAgIGNlcnQ6IGZvcm1EYXRhLnZhbHVlLmNlcnQsCiAgICAgIGtleTogZm9ybURhdGEudmFsdWUua2V5LAogICAgICBhY3RpdmF0ZSwKICAgIH0pOwogICAgZm9ybURhdGEudmFsdWUgPSB7IGNlcnQ6ICIiLCBrZXk6ICIiIH07CiAgICBhd2FpdCBsb2FkU1NMU3RhdHVzKCk7CiAgICB0b2FzdC5zdWNjZXNzKAogICAgICBhY3RpdmF0ZQogICAgICAgID8gdCgiYWRtaW4uY2VydENvbmZpZy5zYXZlQW5kQWN0aXZhdGVTdWNjZXNzIikKICAgICAgICA6IHQoImFkbWluLmNlcnRDb25maWcuc2F2ZVRvTGlicmFyeVN1Y2Nlc3MiKSwKICAgICk7CiAgfSk7CiAgcGVuZGluZ1NhdmVNb2RlLnZhbHVlID0gbnVsbDsKfQoKZnVuY3Rpb24gcmVzZXRNYW51YWxVcGxvYWRGb3JtKCkgewogIGZvcm1EYXRhLnZhbHVlID0geyBjZXJ0OiAiIiwga2V5OiAiIiB9OwogIGVycm9yTWVzc2FnZS52YWx1ZSA9ICIiOwp9Cgphc3luYyBmdW5jdGlvbiBoYW5kbGVDbGVhcigpIHsKICBhd2FpdCBydW5DbGVhclNTTChhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBDb25maWdBUEkuZGVsZXRlU1NMKCk7CiAgICBhd2FpdCBsb2FkU1NMU3RhdHVzKCk7CiAgICB0b2FzdC5zdWNjZXNzKHQoImFkbWluLmNlcnRDb25maWcuZGlzYWJsZVN1Y2Nlc3MiKSk7CiAgfSk7Cn0KCmFzeW5jIGZ1bmN0aW9uIGFjdGl2YXRlQ2VydGlmaWNhdGUoaWQ6IHN0cmluZykgewogIGlmIChpc0xpYnJhcnlNdXRhdGlvblBlbmRpbmcoKSkgcmV0dXJuOwogIGFjdGl2YXRpbmdDZXJ0aWZpY2F0ZUlkLnZhbHVlID0gaWQ7CiAgdHJ5IHsKICAgIGF3YWl0IHJ1bkFjdGl2YXRlU1NMKGFzeW5jICgpID0+IHsKICAgICAgYXdhaXQgQ29uZmlnQVBJLmFjdGl2YXRlU1NMQ2VydGlmaWNhdGUoaWQpOwogICAgICBhd2FpdCBsb2FkU1NMU3RhdHVzKCk7CiAgICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgICAgc3NsU3RhdHVzLnZhbHVlPy5kZXBsb3ltZW50TW9kZSA9PT0gIm11bHRpX3NuaSIKICAgICAgICAgID8gdCgiYWRtaW4uY2VydENvbmZpZy5kZWZhdWx0Q2VydGlmaWNhdGVTd2l0Y2hlZCIpCiAgICAgICAgICA6IHQoImFkbWluLmNlcnRDb25maWcuYWN0aXZlQ2VydGlmaWNhdGVTd2l0Y2hlZCIpLAogICAgICApOwogICAgfSk7CiAgfSBmaW5hbGx5IHsKICAgIGFjdGl2YXRpbmdDZXJ0aWZpY2F0ZUlkLnZhbHVlID0gbnVsbDsKICB9Cn0KCmFzeW5jIGZ1bmN0aW9uIGFjdGl2YXRlUmVjb21tZW5kZWRDZXJ0aWZpY2F0ZSgpIHsKICBpZiAoIXJlY29tbWVuZGVkQ2VydGlmaWNhdGVJZC52YWx1ZSkgcmV0dXJuOwogIGF3YWl0IGFjdGl2YXRlQ2VydGlmaWNhdGUocmVjb21tZW5kZWRDZXJ0aWZpY2F0ZUlkLnZhbHVlKTsKfQoKYXN5bmMgZnVuY3Rpb24gdXBkYXRlRGVwbG95bWVudE1vZGUobW9kZTogInNpbmdsZV9hY3RpdmUiIHwgIm11bHRpX3NuaSIpIHsKICBpZiAoIXNzbFN0YXR1cy52YWx1ZSB8fCBzc2xTdGF0dXMudmFsdWUuZGVwbG95bWVudE1vZGUgPT09IG1vZGUpIHJldHVybjsKICBwZW5kaW5nRGVwbG95bWVudE1vZGUudmFsdWUgPSBtb2RlOwogIGF3YWl0IHJ1blVwZGF0ZURlcGxveW1lbnRNb2RlKGFzeW5jICgpID0+IHsKICAgIHNzbFN0YXR1cy52YWx1ZSA9IGF3YWl0IENvbmZpZ0FQSS51cGRhdGVTU0xEZXBsb3ltZW50TW9kZShtb2RlKTsKICAgIHRvYXN0LnN1Y2Nlc3MoCiAgICAgIG1vZGUgPT09ICJtdWx0aV9zbmkiCiAgICAgICAgPyB0KCJhZG1pbi5jZXJ0Q29uZmlnLnN3aXRjaGVkVG9NdWx0aVNuaSIpCiAgICAgICAgOiB0KCJhZG1pbi5jZXJ0Q29uZmlnLnN3aXRjaGVkVG9TaW5nbGVBY3RpdmUiKSwKICAgICk7CiAgfSk7CiAgcGVuZGluZ0RlcGxveW1lbnRNb2RlLnZhbHVlID0gbnVsbDsKfQoKYXN5bmMgZnVuY3Rpb24gZGVsZXRlQ2VydGlmaWNhdGUoaWQ6IHN0cmluZykgewogIGlmIChpc0xpYnJhcnlNdXRhdGlvblBlbmRpbmcoKSkgcmV0dXJuOwogIGRlbGV0aW5nQ2VydGlmaWNhdGVJZC52YWx1ZSA9IGlkOwogIHRyeSB7CiAgICBhd2FpdCBydW5EZWxldGVTU0woYXN5bmMgKCkgPT4gewogICAgICBhd2FpdCBDb25maWdBUEkuZGVsZXRlU1NMQ2VydGlmaWNhdGUoaWQpOwogICAgICBhd2FpdCBsb2FkU1NMU3RhdHVzKCk7CiAgICAgIHRvYXN0LnN1Y2Nlc3ModCgiYWRtaW4uY2VydENvbmZpZy5kZWxldGVTdWNjZXNzIikpOwogICAgfSk7CiAgfSBmaW5hbGx5IHsKICAgIGRlbGV0aW5nQ2VydGlmaWNhdGVJZC52YWx1ZSA9IG51bGw7CiAgfQp9Cgphc3luYyBmdW5jdGlvbiBoYW5kbGVDbGVhckxpYnJhcnkoKSB7CiAgaWYgKGlzTGlicmFyeU11dGF0aW9uUGVuZGluZygpKSByZXR1cm47CiAgYXdhaXQgcnVuQ2xlYXJTU0xMaWJyYXJ5KGFzeW5jICgpID0+IHsKICAgIGF3YWl0IENvbmZpZ0FQSS5jbGVhclNTTENlcnRpZmljYXRlTGlicmFyeSgpOwogICAgYXdhaXQgbG9hZFNTTFN0YXR1cygpOwogICAgdG9hc3Quc3VjY2Vzcyh0KCJhZG1pbi5jZXJ0Q29uZmlnLmNsZWFyTGlicmFyeVN1Y2Nlc3MiKSk7CiAgfSk7Cn0KCmNvbnN0IGlzTGlicmFyeU11dGF0aW9uUGVuZGluZyA9ICgpID0+CiAgaXNBY3RpdmF0aW5nLnZhbHVlIHx8IGlzRGVsZXRpbmcudmFsdWUgfHwgaXNDbGVhcmluZ0xpYnJhcnkudmFsdWU7Cjwvc2NyaXB0Pgo=
+<template>
+  <Card
+    v-if="
+      !hasLoadedSSLStatus || (isLoading && showLoadingSkeleton && !sslStatus)
+    "
+    class="dynamic-white-cert-card"
+  >
+    <CardHeader>
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <CardTitle>{{ t("admin.certConfig.title") }}</CardTitle>
+        </div>
+      </div>
+      <CardDescription>{{ t("common.loadingConfig") }}</CardDescription>
+    </CardHeader>
+    <CardContent class="grid gap-4">
+      <div
+        class="dynamic-white-cert-subsurface grid gap-3 rounded-lg border bg-muted/30 p-4"
+      >
+        <div
+          class="grid grid-cols-[88px_minmax(0,1fr)] gap-y-3 text-sm sm:grid-cols-[100px_minmax(0,1fr)]"
+        >
+          <Skeleton class="h-4 w-16" />
+          <Skeleton class="h-4 w-56" />
+          <Skeleton class="h-4 w-16" />
+          <Skeleton class="h-4 w-64" />
+          <Skeleton class="h-4 w-16" />
+          <Skeleton class="h-4 w-40" />
+          <Skeleton class="h-4 w-16" />
+          <Skeleton class="h-4 w-48" />
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <div v-else class="grid gap-4">
+    <CertificateStatusCard
+      :active-certificate="activeCertificate"
+      :certificate-count="certificates.length"
+      :deployment-mode-label="deploymentModeLabel"
+      :is-activating="isActivating"
+      :is-clearing="isClearing"
+      :is-updating-deployment-mode="isUpdatingDeploymentMode"
+      :library-coverage="libraryCoverage"
+      :primary-certificate-badge-label="primaryCertificateBadgeLabel"
+      :recommended-certificate-id="recommendedCertificateId"
+      :show-multi-sni-suggestion="showMultiSniSuggestion"
+      :status-overview-text="statusOverviewText"
+      @activate-recommended="activateRecommendedCertificate"
+      @clear="handleClear"
+      @switch-to-multi-sni="updateDeploymentMode('multi_sni')"
+    />
+
+    <CertificateDeploymentCard
+      :certificate-count="certificates.length"
+      :configured-deployment-mode-label="configuredDeploymentModeLabel"
+      :deployed-gateway-certificates="deployedGatewayCertificates"
+      :deployment-card-class="deploymentCardClass"
+      :deployment-mode-description="deploymentModeDescription"
+      :deployment-mode-mismatch="deploymentModeMismatch"
+      :deployment-mode-short-label="deploymentModeShortLabel"
+      :deployment-section-configured="deploymentSectionConfigured"
+      :deployment-summary="deploymentSummary"
+      :gateway-certificate-key="gatewayCertificateKey"
+      :gateway-certificate-label="gatewayCertificateLabel"
+      :gateway-deployment-summary="gatewayDeploymentSummary"
+      :gateway-sync-error="gatewaySyncError"
+      :is-updating-deployment-mode="isUpdatingDeploymentMode"
+      :multi-sni-preview="multiSniPreview"
+      :pending-deployment-mode="pendingDeploymentMode"
+      :ready="hasLoadedSSLStatus"
+      :single-active-preview="singleActivePreview"
+      :ssl-status="sslStatus"
+      @update-mode="updateDeploymentMode"
+    />
+
+    <ActiveCertificateDetailsCard
+      :active-certificate="activeCertificate"
+      :coverage-badge-class="coverageBadgeClass"
+      :coverage-badge-label="coverageBadgeLabel"
+      :coverage-badge-variant="coverageBadgeVariant"
+      :current-certificate-summary="currentCertificateSummary"
+      :format-date="formatDate"
+      :format-dn="formatDN"
+      :is-expired="isExpired"
+      :is-expiring-soon="isExpiringSoon"
+      :ready="hasLoadedSSLStatus"
+      :source-label="sourceLabel"
+      :subdomain-coverage="subdomainCoverage"
+      :uncovered-hosts-preview="uncoveredHostsPreview"
+    />
+
+    <ConfigCollapsibleCard
+      :title="t('admin.certConfig.manualUploadTitle')"
+      :configured="manualUploadConfigured"
+      :ready="hasLoadedSSLStatus"
+      :edit-label="t('admin.certConfig.expandForm')"
+      collapsed-content-class="min-h-[76px] flex flex-col items-start gap-3 sm:h-[40px] sm:flex-row sm:items-center sm:justify-between"
+      summary-class="text-xs text-muted-foreground max-w-full whitespace-normal break-words sm:truncate"
+      expanded-content-class="p-0 sm:p-0"
+      actions-class="border-t bg-muted/30 px-4 py-4 sm:px-6 flex flex-col-reverse gap-2 rounded-b-lg sm:flex-row sm:items-center sm:justify-end"
+      card-class="dynamic-white-cert-card"
+    >
+      <template #summary>{{ manualUploadSummary }}</template>
+
+      <template #default>
+        <div class="divide-y divide-border">
+          <div class="grid gap-2 p-4 sm:p-6">
+            <div class="text-base font-semibold">
+              {{ t("admin.certConfig.uploadNewTitle") }}
+            </div>
+            <p class="text-sm text-muted-foreground">
+              {{ t("admin.certConfig.uploadDescription") }}
+            </p>
+          </div>
+
+          <div class="grid gap-6 p-4 sm:p-6">
+            <CertForm
+              v-model:cert="formData.cert"
+              v-model:sslKey="formData.key"
+              :share-name="sslSharedFiles.shareName"
+              :shared-files="sslSharedFiles.files"
+              :shared-files-available="sslSharedFiles.available"
+              :shared-files-loading="isLoadingSharedFiles"
+              :shared-files-error="sharedFilesError"
+              :shared-file-selecting="isReadingSharedFile"
+              @request-shared-files="handleSharedFilesRequest"
+              @select-shared-file="handleCreateSharedFileSelect"
+            />
+
+            <Alert v-if="errorMessage" variant="destructive">
+              <AlertTitle>{{
+                t("admin.certConfig.validationFailed")
+              }}</AlertTitle>
+              <AlertDescription>{{ errorMessage }}</AlertDescription>
+            </Alert>
+          </div>
+        </div>
+      </template>
+
+      <template #actions="{ collapse }">
+        <Button variant="outline" @click="collapse">
+          {{ t("admin.certConfig.collapse") }}
+        </Button>
+        <Button
+          variant="outline"
+          :disabled="isSaving || (!formData.cert && !formData.key)"
+          @click="resetManualUploadForm"
+        >
+          {{ t("admin.certConfig.clear") }}
+        </Button>
+        <Button
+          variant="outline"
+          :disabled="isSaving || !formData.cert || !formData.key"
+          @click="handleSave(false)"
+        >
+          <span
+            v-if="isSaving && pendingSaveMode === 'store'"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          ></span>
+          {{ t("admin.certConfig.storeOnly") }}
+        </Button>
+        <Button
+          :disabled="isSaving || !formData.cert || !formData.key"
+          @click="handleSave(true)"
+        >
+          <span
+            v-if="isSaving && pendingSaveMode === 'activate'"
+            class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-background border-t-foreground"
+          ></span>
+          {{ t("admin.certConfig.saveAndActivate") }}
+        </Button>
+      </template>
+    </ConfigCollapsibleCard>
+
+    <ExternalCertificateDeploymentCard />
+
+    <CertificateLibraryCard
+      :activate-button-label="activateButtonLabel"
+      :activate-certificate="activateCertificate"
+      :activating-certificate-id="activatingCertificateId"
+      :certificate-display-label="certificateDisplayLabel"
+      :certificate-role-label="certificateRoleLabel"
+      :certificates="certificates"
+      :clear-library="handleClearLibrary"
+      :coverage-badge-class="coverageBadgeClass"
+      :coverage-badge-label="coverageBadgeLabel"
+      :coverage-badge-variant="coverageBadgeVariant"
+      :delete-certificate="deleteCertificate"
+      :deleting-certificate-id="deletingCertificateId"
+      :download-certificate="downloadCertificate"
+      :downloading-certificate-id="downloadingCertificateId"
+      :format-date="formatDate"
+      :is-activating="isActivating"
+      :is-clearing-library="isClearingLibrary"
+      :is-deleting="isDeleting"
+      :is-downloading="isDownloading"
+      :is-mutation-pending="isActivating || isDeleting || isClearingLibrary"
+      :ready="hasLoadedSSLStatus"
+      :source-label="sourceLabel"
+      :summary="certificateLibrarySummary"
+    />
+  </div>
+</template>
+
+<script setup lang="ts">
+import { onMounted, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Skeleton } from "@/components/ui/skeleton";
+import ConfigCollapsibleCard from "@admin-shared/components/ConfigCollapsibleCard.vue";
+import CertForm from "@admin-shared/components/ssl/CertForm.vue";
+import {
+  extractErrorMessage,
+  useAsyncAction,
+} from "@admin-shared/composables/useAsyncAction";
+import { useDelayedLoading } from "@admin-shared/composables/useDelayedLoading";
+import { ConfigAPI } from "@/lib/api/config";
+import type { SSLStatus } from "../../types";
+import { toast } from "@admin-shared/utils/toast";
+import ActiveCertificateDetailsCard from "./ActiveCertificateDetailsCard.vue";
+import CertificateDeploymentCard from "./CertificateDeploymentCard.vue";
+import ExternalCertificateDeploymentCard from "./ExternalCertificateDeploymentCard.vue";
+import CertificateLibraryCard from "./CertificateLibraryCard.vue";
+import CertificateStatusCard from "./CertificateStatusCard.vue";
+import { useCertificateLibraryDownload } from "./useCertificateLibraryDownload";
+import { useCertConfigViewModel } from "./useCertConfigViewModel";
+import { useSSLSharedFiles } from "./useSSLSharedFiles";
+
+const sslStatus = ref<SSLStatus | null>(null);
+const { t, locale } = useI18n();
+const hasLoadedSSLStatus = ref(false);
+const errorMessage = ref("");
+const formData = ref({ cert: "", key: "" });
+const pendingSaveMode = ref<"store" | "activate" | null>(null);
+const activatingCertificateId = ref<string | null>(null);
+const deletingCertificateId = ref<string | null>(null);
+const pendingDeploymentMode = ref<"single_active" | "multi_sni" | null>(null);
+
+const {
+  handleCreateSharedFileSelect,
+  handleSharedFilesRequest,
+  isLoadingSharedFiles,
+  isReadingSharedFile,
+  sharedFilesError,
+  sslSharedFiles,
+} = useSSLSharedFiles({
+  formData,
+  translate: (key, params) => (params ? t(key, params) : t(key)),
+});
+
+const { isPending: isSaving, run: runSaveSSL } = useAsyncAction({
+  onError: (error) => {
+    const message = extractErrorMessage(
+      error,
+      t("admin.certConfig.saveFailed"),
+    );
+    errorMessage.value = message;
+    toast.error(message);
+  },
+});
+const { isPending: isClearing, run: runClearSSL } = useAsyncAction({
+  onError: (error) => {
+    toast.error(
+      extractErrorMessage(error, t("admin.certConfig.disableFailed")),
+    );
+  },
+});
+const { isPending: isLoading, run: runLoadSSLStatus } = useAsyncAction({
+  onError: (error) => {
+    console.error("Failed to load SSL status:", error);
+  },
+});
+const { isPending: isActivating, run: runActivateSSL } = useAsyncAction({
+  onError: (error) => {
+    toast.error(
+      extractErrorMessage(error, t("admin.certConfig.switchCertificateFailed")),
+    );
+  },
+});
+const { isPending: isDeleting, run: runDeleteSSL } = useAsyncAction({
+  onError: (error) => {
+    toast.error(extractErrorMessage(error, t("admin.certConfig.deleteFailed")));
+  },
+});
+const { isPending: isClearingLibrary, run: runClearSSLLibrary } =
+  useAsyncAction({
+    onError: (error) => {
+      toast.error(
+        extractErrorMessage(error, t("admin.certConfig.clearLibraryFailed")),
+      );
+    },
+  });
+const { isPending: isUpdatingDeploymentMode, run: runUpdateDeploymentMode } =
+  useAsyncAction({
+    onError: (error) => {
+      toast.error(
+        extractErrorMessage(error, t("admin.certConfig.switchModeFailed")),
+      );
+    },
+  });
+
+const showLoadingSkeleton = useDelayedLoading(isLoading);
+const { downloadCertificate, downloadingCertificateId, isDownloading } =
+  useCertificateLibraryDownload((key) => t(key));
+
+const {
+  activateButtonLabel,
+  activeCertificate,
+  certificateDisplayLabel,
+  certificateLibrarySummary,
+  certificateRoleLabel,
+  certificates,
+  configuredDeploymentModeLabel,
+  coverageBadgeClass,
+  coverageBadgeLabel,
+  coverageBadgeVariant,
+  currentCertificateSummary,
+  deployedGatewayCertificates,
+  deploymentCardClass,
+  deploymentModeDescription,
+  deploymentModeLabel,
+  deploymentModeMismatch,
+  deploymentModeShortLabel,
+  deploymentSectionConfigured,
+  deploymentSummary,
+  formatDate,
+  formatDN,
+  gatewayCertificateKey,
+  gatewayCertificateLabel,
+  gatewayDeploymentSummary,
+  gatewaySyncError,
+  isExpired,
+  isExpiringSoon,
+  libraryCoverage,
+  manualUploadConfigured,
+  manualUploadSummary,
+  multiSniPreview,
+  primaryCertificateBadgeLabel,
+  recommendedCertificateId,
+  showMultiSniSuggestion,
+  singleActivePreview,
+  sourceLabel,
+  statusOverviewText,
+  subdomainCoverage,
+  uncoveredHostsPreview,
+} = useCertConfigViewModel({
+  formData,
+  locale,
+  sslStatus,
+  translate: (key, params) => (params ? t(key, params) : t(key)),
+});
+
+onMounted(() => {
+  void loadSSLStatus();
+});
+
+async function loadSSLStatus() {
+  await runLoadSSLStatus(async () => {
+    sslStatus.value = await ConfigAPI.getSSLStatus();
+  });
+  hasLoadedSSLStatus.value = true;
+}
+
+async function handleSave(activate: boolean) {
+  pendingSaveMode.value = activate ? "activate" : "store";
+  errorMessage.value = "";
+  await runSaveSSL(async () => {
+    await ConfigAPI.setSSL({
+      label: t("admin.certConfig.manualCertificateLabel"),
+      source: "manual",
+      cert: formData.value.cert,
+      key: formData.value.key,
+      activate,
+    });
+    formData.value = { cert: "", key: "" };
+    await loadSSLStatus();
+    toast.success(
+      activate
+        ? t("admin.certConfig.saveAndActivateSuccess")
+        : t("admin.certConfig.saveToLibrarySuccess"),
+    );
+  });
+  pendingSaveMode.value = null;
+}
+
+function resetManualUploadForm() {
+  formData.value = { cert: "", key: "" };
+  errorMessage.value = "";
+}
+
+async function handleClear() {
+  await runClearSSL(async () => {
+    await ConfigAPI.deleteSSL();
+    await loadSSLStatus();
+    toast.success(t("admin.certConfig.disableSuccess"));
+  });
+}
+
+async function activateCertificate(id: string) {
+  if (isLibraryMutationPending()) return;
+  activatingCertificateId.value = id;
+  try {
+    await runActivateSSL(async () => {
+      await ConfigAPI.activateSSLCertificate(id);
+      await loadSSLStatus();
+      toast.success(
+        sslStatus.value?.deploymentMode === "multi_sni"
+          ? t("admin.certConfig.defaultCertificateSwitched")
+          : t("admin.certConfig.activeCertificateSwitched"),
+      );
+    });
+  } finally {
+    activatingCertificateId.value = null;
+  }
+}
+
+async function activateRecommendedCertificate() {
+  if (!recommendedCertificateId.value) return;
+  await activateCertificate(recommendedCertificateId.value);
+}
+
+async function updateDeploymentMode(mode: "single_active" | "multi_sni") {
+  if (!sslStatus.value || sslStatus.value.deploymentMode === mode) return;
+  pendingDeploymentMode.value = mode;
+  await runUpdateDeploymentMode(async () => {
+    sslStatus.value = await ConfigAPI.updateSSLDeploymentMode(mode);
+    toast.success(
+      mode === "multi_sni"
+        ? t("admin.certConfig.switchedToMultiSni")
+        : t("admin.certConfig.switchedToSingleActive"),
+    );
+  });
+  pendingDeploymentMode.value = null;
+}
+
+async function deleteCertificate(id: string) {
+  if (isLibraryMutationPending()) return;
+  deletingCertificateId.value = id;
+  try {
+    await runDeleteSSL(async () => {
+      await ConfigAPI.deleteSSLCertificate(id);
+      await loadSSLStatus();
+      toast.success(t("admin.certConfig.deleteSuccess"));
+    });
+  } finally {
+    deletingCertificateId.value = null;
+  }
+}
+
+async function handleClearLibrary() {
+  if (isLibraryMutationPending()) return;
+  await runClearSSLLibrary(async () => {
+    await ConfigAPI.clearSSLCertificateLibrary();
+    await loadSSLStatus();
+    toast.success(t("admin.certConfig.clearLibrarySuccess"));
+  });
+}
+
+const isLibraryMutationPending = () =>
+  isActivating.value || isDeleting.value || isClearingLibrary.value;
+</script>

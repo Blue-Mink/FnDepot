@@ -1,1 +1,418 @@
-Ly8hIEJvdW5kZWQsIG9wdC1pbiBvcGVyYXRpb24gbWVhc3VyZW1lbnRzLiBMYWJlbHMgYXJlIGNvbXBpbGUtdGltZSBpZGVudGlmaWVycywKLy8hIG5ldmVyIFNRTCB0ZXh0LCByZXF1ZXN0IGZpZWxkcywgb3IgY29uZmlndXJhdGlvbiB2YWx1ZXMuCgp1c2Ugc3RkOjp7CiAgICBjb2xsZWN0aW9uczo6SGFzaE1hcCwKICAgIHN5bmM6OnsKICAgICAgICBBcmMsIE11dGV4LAogICAgICAgIGF0b21pYzo6e0F0b21pY1U2NCwgT3JkZXJpbmd9LAogICAgfSwKICAgIHRocmVhZDo6VGhyZWFkSWQsCiAgICB0aW1lOjpJbnN0YW50LAp9OwoKdXNlIHNlcmRlOjp7RGVzZXJpYWxpemUsIFNlcmlhbGl6ZX07CnVzZSB1dG9pcGE6OlRvU2NoZW1hOwoKY29uc3QgTUFYX09QRVJBVElPTlM6IHVzaXplID0gMTI4Owpjb25zdCBNQVhfTEFCRUxfQ0hBUlM6IHVzaXplID0gMjAwOwoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZWZhdWx0LCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihjcmF0ZSkgc3RydWN0IE9wZXJhdGlvblNuYXBzaG90IHsKICAgIHB1YihjcmF0ZSkgZ2VuZXJhdGlvbjogdTY0LAogICAgcHViKGNyYXRlKSBhY3RpdmU6IGJvb2wsCiAgICBwdWIoY3JhdGUpIGVsYXBzZWRfbXM6IHU2NCwKICAgIC8vLyBTY29wZXMgb21pdHRlZCBhZnRlciB0aGUgZGlzdGluY3Qgb3BlcmF0aW9uIGxpbWl0IHdhcyByZWFjaGVkLgogICAgcHViKGNyYXRlKSBkcm9wcGVkX29wZXJhdGlvbnM6IHU2NCwKICAgIHB1YihjcmF0ZSkgb3BlcmF0aW9uczogVmVjPE9wZXJhdGlvblN0YXRzPiwKfQoKI1tkZXJpdmUoQ2xvbmUsIERlYnVnLCBEZWZhdWx0LCBEZXNlcmlhbGl6ZSwgU2VyaWFsaXplLCBUb1NjaGVtYSldCnB1YihjcmF0ZSkgc3RydWN0IE9wZXJhdGlvblN0YXRzIHsKICAgIHB1YihjcmF0ZSkga2luZDogU3RyaW5nLAogICAgcHViKGNyYXRlKSBsYWJlbDogU3RyaW5nLAogICAgLy8vIENvbXBsZXRlZCBzY29wZXMsIGluY2x1ZGluZyBmYWlsdXJlcyBhbmQgY2FuY2VsbGF0aW9ucy4KICAgIHB1YihjcmF0ZSkgY2FsbHM6IHU2NCwKICAgIHB1YihjcmF0ZSkgZmFpbHVyZXM6IHU2NCwKICAgIHB1YihjcmF0ZSkgY2FuY2VsbGVkOiB1NjQsCiAgICAvLy8gU2NvcGVzIHN0aWxsIHJ1bm5pbmcsIG9yIHVuZmluaXNoZWQgd2hlbiBjYXB0dXJlIHN0b3BwZWQuCiAgICBwdWIoY3JhdGUpIGluX2ZsaWdodDogdTY0LAogICAgcHViKGNyYXRlKSB0b3RhbF93YWxsX21zOiBmNjQsCiAgICBwdWIoY3JhdGUpIG1heF93YWxsX21zOiBmNjQsCiAgICAvLy8gQXZhaWxhYmxlIG9ubHkgZm9yIHNjb3BlcyBtZWFzdXJlZCBvbiBvbmUgU1FMaXRlIGV4ZWN1dGlvbiB0aHJlYWQuCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgcHViKGNyYXRlKSB0b3RhbF9jcHVfbXM6IE9wdGlvbjxmNjQ+LAogICAgI1tzY2hlbWEocmVxdWlyZWQgPSB0cnVlKV0KICAgIHB1YihjcmF0ZSkgbWF4X2NwdV9tczogT3B0aW9uPGY2ND4sCiAgICAvLy8gU3VtIG9mIGl0ZW0gY291bnRzIGV4cGxpY2l0bHkgc3VwcGxpZWQgYnkgdGhlIGluc3RydW1lbnRlZCBvcGVyYXRpb24uCiAgICAjW3NjaGVtYShyZXF1aXJlZCA9IHRydWUpXQogICAgcHViKGNyYXRlKSByb3dzOiBPcHRpb248dTY0PiwKfQoKI1tkZXJpdmUoQ2xvbmUsIENvcHksIEVxLCBIYXNoLCBQYXJ0aWFsRXEpXQpzdHJ1Y3QgT3BlcmF0aW9uS2V5IHsKICAgIGtpbmQ6ICYnc3RhdGljIHN0ciwKICAgIGxhYmVsOiAmJ3N0YXRpYyBzdHIsCn0KCiNbZGVyaXZlKERlZmF1bHQpXQpzdHJ1Y3QgQ2FwdHVyZVN0YXRlIHsKICAgIGdlbmVyYXRpb246IHU2NCwKICAgIHN0YXJ0ZWQ6IE9wdGlvbjxJbnN0YW50PiwKICAgIHN0b3BwZWQ6IE9wdGlvbjxJbnN0YW50PiwKICAgIGRyb3BwZWRfb3BlcmF0aW9uczogdTY0LAogICAgb3BlcmF0aW9uczogSGFzaE1hcDxPcGVyYXRpb25LZXksIE9wZXJhdGlvblN0YXRzPiwKfQoKI1tkZXJpdmUoRGVmYXVsdCldCnB1YihjcmF0ZSkgc3RydWN0IE9wZXJhdGlvblJlY29yZGVyIHsKICAgIC8vIFplcm8gbGV0cyBkaXNhYmxlZCBzY29wZXMgYXZvaWQgbG9ja2luZywgYWxsb2NhdGluZywgb3IgcmVhZGluZyBjbG9ja3MuCiAgICBhY3RpdmVfZ2VuZXJhdGlvbjogQXRvbWljVTY0LAogICAgc3RhdGU6IE11dGV4PENhcHR1cmVTdGF0ZT4sCn0KCmltcGwgT3BlcmF0aW9uUmVjb3JkZXIgewogICAgcHViKGNyYXRlKSBmbiBzdGFydCgmc2VsZikgLT4gdTY0IHsKICAgICAgICBsZXQgbXV0IHN0YXRlID0gc2VsZi5zdGF0ZS5sb2NrKCkudW53cmFwX29yX2Vsc2UofGVycm9yfCBlcnJvci5pbnRvX2lubmVyKCkpOwogICAgICAgIGxldCBnZW5lcmF0aW9uID0gc3RhdGUuZ2VuZXJhdGlvbi53cmFwcGluZ19hZGQoMSkubWF4KDEpOwogICAgICAgICpzdGF0ZSA9IENhcHR1cmVTdGF0ZSB7CiAgICAgICAgICAgIGdlbmVyYXRpb24sCiAgICAgICAgICAgIHN0YXJ0ZWQ6IFNvbWUoSW5zdGFudDo6bm93KCkpLAogICAgICAgICAgICAuLkNhcHR1cmVTdGF0ZTo6ZGVmYXVsdCgpCiAgICAgICAgfTsKICAgICAgICBzZWxmLmFjdGl2ZV9nZW5lcmF0aW9uLnN0b3JlKGdlbmVyYXRpb24sIE9yZGVyaW5nOjpSZWxlYXNlKTsKICAgICAgICBnZW5lcmF0aW9uCiAgICB9CgogICAgcHViKGNyYXRlKSBmbiBzdG9wKCZzZWxmLCBnZW5lcmF0aW9uOiB1NjQpIHsKICAgICAgICBsZXQgbXV0IHN0YXRlID0gc2VsZi5zdGF0ZS5sb2NrKCkudW53cmFwX29yX2Vsc2UofGVycm9yfCBlcnJvci5pbnRvX2lubmVyKCkpOwogICAgICAgIGlmIHN0YXRlLmdlbmVyYXRpb24gPT0gZ2VuZXJhdGlvbiAmJiBzdGF0ZS5zdGFydGVkLmlzX3NvbWUoKSAmJiBzdGF0ZS5zdG9wcGVkLmlzX25vbmUoKSB7CiAgICAgICAgICAgIHN0YXRlLnN0b3BwZWQgPSBTb21lKEluc3RhbnQ6Om5vdygpKTsKICAgICAgICAgICAgc2VsZi5hY3RpdmVfZ2VuZXJhdGlvbi5zdG9yZSgwLCBPcmRlcmluZzo6UmVsZWFzZSk7CiAgICAgICAgfQogICAgfQoKICAgIHB1YihjcmF0ZSkgZm4gc25hcHNob3QoJnNlbGYpIC0+IE9wZXJhdGlvblNuYXBzaG90IHsKICAgICAgICBsZXQgc3RhdGUgPSBzZWxmLnN0YXRlLmxvY2soKS51bndyYXBfb3JfZWxzZSh8ZXJyb3J8IGVycm9yLmludG9faW5uZXIoKSk7CiAgICAgICAgbGV0IG11dCBvcGVyYXRpb25zID0gc3RhdGUub3BlcmF0aW9ucy52YWx1ZXMoKS5jbG9uZWQoKS5jb2xsZWN0Ojo8VmVjPF8+PigpOwogICAgICAgIG9wZXJhdGlvbnMuc29ydF9ieSh8YSwgYnwgewogICAgICAgICAgICBiLnRvdGFsX3dhbGxfbXMKICAgICAgICAgICAgICAgIC50b3RhbF9jbXAoJmEudG90YWxfd2FsbF9tcykKICAgICAgICAgICAgICAgIC50aGVuX3dpdGgofHwgYS5raW5kLmNtcCgmYi5raW5kKSkKICAgICAgICAgICAgICAgIC50aGVuX3dpdGgofHwgYS5sYWJlbC5jbXAoJmIubGFiZWwpKQogICAgICAgIH0pOwogICAgICAgIE9wZXJhdGlvblNuYXBzaG90IHsKICAgICAgICAgICAgZ2VuZXJhdGlvbjogc3RhdGUuZ2VuZXJhdGlvbiwKICAgICAgICAgICAgYWN0aXZlOiBzdGF0ZS5zdGFydGVkLmlzX3NvbWUoKSAmJiBzdGF0ZS5zdG9wcGVkLmlzX25vbmUoKSwKICAgICAgICAgICAgZWxhcHNlZF9tczogc3RhdGUuc3RhcnRlZC5tYXBfb3IoMCwgfHN0YXJ0ZWR8IHsKICAgICAgICAgICAgICAgIHN0YXRlCiAgICAgICAgICAgICAgICAgICAgLnN0b3BwZWQKICAgICAgICAgICAgICAgICAgICAudW53cmFwX29yX2Vsc2UoSW5zdGFudDo6bm93KQogICAgICAgICAgICAgICAgICAgIC5zYXR1cmF0aW5nX2R1cmF0aW9uX3NpbmNlKHN0YXJ0ZWQpCiAgICAgICAgICAgICAgICAgICAgLmFzX21pbGxpcygpCiAgICAgICAgICAgICAgICAgICAgLm1pbih1MTI4Ojpmcm9tKHU2NDo6TUFYKSkgYXMgdTY0CiAgICAgICAgICAgIH0pLAogICAgICAgICAgICBkcm9wcGVkX29wZXJhdGlvbnM6IHN0YXRlLmRyb3BwZWRfb3BlcmF0aW9ucywKICAgICAgICAgICAgb3BlcmF0aW9ucywKICAgICAgICB9CiAgICB9CgogICAgcHViKGNyYXRlKSBmbiBzY29wZSgKICAgICAgICBzZWxmOiAmQXJjPFNlbGY+LAogICAgICAgIGtpbmQ6ICYnc3RhdGljIHN0ciwKICAgICAgICBsYWJlbDogJidzdGF0aWMgc3RyLAogICAgKSAtPiBPcGVyYXRpb25HdWFyZCB7CiAgICAgICAgc2VsZi5iZWdpbl9zY29wZShraW5kLCBsYWJlbCwgZmFsc2UpCiAgICB9CgogICAgLy8vIENhbGwgYW5kIGZpbmlzaCB0aGlzIHNjb3BlIGluc2lkZSB0aGUgYWN0dWFsIFNRTGl0ZSBjbG9zdXJlLCBuZXZlcgogICAgLy8vIGFyb3VuZCB0aGUgYXN5bmMgYWRtaXNzaW9uL3N1Ym1pc3Npb24gZnV0dXJlLgogICAgcHViKGNyYXRlKSBmbiBzY29wZV9zcWxpdGUoCiAgICAgICAgc2VsZjogJkFyYzxTZWxmPiwKICAgICAgICBraW5kOiAmJ3N0YXRpYyBzdHIsCiAgICAgICAgbGFiZWw6ICYnc3RhdGljIHN0ciwKICAgICkgLT4gT3BlcmF0aW9uR3VhcmQgewogICAgICAgIHNlbGYuYmVnaW5fc2NvcGUoa2luZCwgbGFiZWwsIHRydWUpCiAgICB9CgogICAgZm4gYmVnaW5fc2NvcGUoCiAgICAgICAgc2VsZjogJkFyYzxTZWxmPiwKICAgICAgICBraW5kOiAmJ3N0YXRpYyBzdHIsCiAgICAgICAgbGFiZWw6ICYnc3RhdGljIHN0ciwKICAgICAgICBtZWFzdXJlX2NwdTogYm9vbCwKICAgICkgLT4gT3BlcmF0aW9uR3VhcmQgewogICAgICAgIGxldCBnZW5lcmF0aW9uID0gc2VsZi5hY3RpdmVfZ2VuZXJhdGlvbi5sb2FkKE9yZGVyaW5nOjpBY3F1aXJlKTsKICAgICAgICBpZiBnZW5lcmF0aW9uID09IDAgewogICAgICAgICAgICByZXR1cm4gT3BlcmF0aW9uR3VhcmQ6OmRlZmF1bHQoKTsKICAgICAgICB9CiAgICAgICAgbGV0IGtleSA9IE9wZXJhdGlvbktleSB7IGtpbmQsIGxhYmVsIH07CiAgICAgICAgbGV0IG11dCBzdGF0ZSA9IHNlbGYuc3RhdGUubG9jaygpLnVud3JhcF9vcl9lbHNlKHxlcnJvcnwgZXJyb3IuaW50b19pbm5lcigpKTsKICAgICAgICBpZiBzdGF0ZS5nZW5lcmF0aW9uICE9IGdlbmVyYXRpb24gfHwgc3RhdGUuc3RvcHBlZC5pc19zb21lKCkgewogICAgICAgICAgICByZXR1cm4gT3BlcmF0aW9uR3VhcmQ6OmRlZmF1bHQoKTsKICAgICAgICB9CiAgICAgICAgaWYgIXN0YXRlLm9wZXJhdGlvbnMuY29udGFpbnNfa2V5KCZrZXkpIHsKICAgICAgICAgICAgaWYgc3RhdGUub3BlcmF0aW9ucy5sZW4oKSA+PSBNQVhfT1BFUkFUSU9OUyB7CiAgICAgICAgICAgICAgICBzdGF0ZS5kcm9wcGVkX29wZXJhdGlvbnMgPSBzdGF0ZS5kcm9wcGVkX29wZXJhdGlvbnMuc2F0dXJhdGluZ19hZGQoMSk7CiAgICAgICAgICAgICAgICByZXR1cm4gT3BlcmF0aW9uR3VhcmQ6OmRlZmF1bHQoKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBzdGF0ZS5vcGVyYXRpb25zLmluc2VydCgKICAgICAgICAgICAgICAgIGtleSwKICAgICAgICAgICAgICAgIE9wZXJhdGlvblN0YXRzIHsKICAgICAgICAgICAgICAgICAgICBraW5kOiBib3VuZGVkX2xhYmVsKGtpbmQpLAogICAgICAgICAgICAgICAgICAgIGxhYmVsOiBib3VuZGVkX2xhYmVsKGxhYmVsKSwKICAgICAgICAgICAgICAgICAgICAuLk9wZXJhdGlvblN0YXRzOjpkZWZhdWx0KCkKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIGxldCBTb21lKHN0YXRzKSA9IHN0YXRlLm9wZXJhdGlvbnMuZ2V0X211dCgma2V5KSBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuIE9wZXJhdGlvbkd1YXJkOjpkZWZhdWx0KCk7CiAgICAgICAgfTsKICAgICAgICBzdGF0cy5pbl9mbGlnaHQgPSBzdGF0cy5pbl9mbGlnaHQuc2F0dXJhdGluZ19hZGQoMSk7CiAgICAgICAgZHJvcChzdGF0ZSk7CiAgICAgICAgT3BlcmF0aW9uR3VhcmQgewogICAgICAgICAgICBhY3RpdmU6IFNvbWUoQWN0aXZlT3BlcmF0aW9uIHsKICAgICAgICAgICAgICAgIHJlY29yZGVyOiBzZWxmLmNsb25lKCksCiAgICAgICAgICAgICAgICBnZW5lcmF0aW9uLAogICAgICAgICAgICAgICAga2V5LAogICAgICAgICAgICAgICAgc3RhcnRlZDogSW5zdGFudDo6bm93KCksCiAgICAgICAgICAgICAgICBjcHU6IG1lYXN1cmVfY3B1LnRoZW4odGhyZWFkX2NwdV9zdGFydCkuZmxhdHRlbigpLAogICAgICAgICAgICB9KSwKICAgICAgICAgICAgb3V0Y29tZTogTm9uZSwKICAgICAgICB9CiAgICB9CgogICAgZm4gY29tcGxldGUoJnNlbGYsIGFjdGl2ZTogJkFjdGl2ZU9wZXJhdGlvbiwgb3V0Y29tZTogT3B0aW9uPChib29sLCBPcHRpb248dTY0Pik+KSB7CiAgICAgICAgaWYgc2VsZi5hY3RpdmVfZ2VuZXJhdGlvbi5sb2FkKE9yZGVyaW5nOjpBY3F1aXJlKSAhPSBhY3RpdmUuZ2VuZXJhdGlvbiB7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgbGV0IHdhbGxfbXMgPSBhY3RpdmUuc3RhcnRlZC5lbGFwc2VkKCkuYXNfc2Vjc19mNjQoKSAqIDEwMDAuMDsKICAgICAgICBsZXQgY3B1X21zID0gYWN0aXZlLmNwdS5hbmRfdGhlbih8KHRocmVhZCwgc3RhcnRlZCl8IHsKICAgICAgICAgICAgKHRocmVhZCA9PSBzdGQ6OnRocmVhZDo6Y3VycmVudCgpLmlkKCkpCiAgICAgICAgICAgICAgICAudGhlbih0aHJlYWRfY3B1X25zKQogICAgICAgICAgICAgICAgLmZsYXR0ZW4oKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKHxmaW5pc2hlZHwgZmluaXNoZWQuY2hlY2tlZF9zdWIoc3RhcnRlZCkpCiAgICAgICAgICAgICAgICAubWFwKHxlbGFwc2VkfCBlbGFwc2VkIGFzIGY2NCAvIDFfMDAwXzAwMC4wKQogICAgICAgIH0pOwogICAgICAgIGxldCBtdXQgc3RhdGUgPSBzZWxmLnN0YXRlLmxvY2soKS51bndyYXBfb3JfZWxzZSh8ZXJyb3J8IGVycm9yLmludG9faW5uZXIoKSk7CiAgICAgICAgaWYgc3RhdGUuZ2VuZXJhdGlvbiAhPSBhY3RpdmUuZ2VuZXJhdGlvbiB8fCBzdGF0ZS5zdG9wcGVkLmlzX3NvbWUoKSB7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgbGV0IFNvbWUoc3RhdHMpID0gc3RhdGUub3BlcmF0aW9ucy5nZXRfbXV0KCZhY3RpdmUua2V5KSBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH07CiAgICAgICAgc3RhdHMuaW5fZmxpZ2h0ID0gc3RhdHMuaW5fZmxpZ2h0LnNhdHVyYXRpbmdfc3ViKDEpOwogICAgICAgIHN0YXRzLmNhbGxzID0gc3RhdHMuY2FsbHMuc2F0dXJhdGluZ19hZGQoMSk7CiAgICAgICAgbWF0Y2ggb3V0Y29tZSB7CiAgICAgICAgICAgIE5vbmUgPT4gc3RhdHMuY2FuY2VsbGVkID0gc3RhdHMuY2FuY2VsbGVkLnNhdHVyYXRpbmdfYWRkKDEpLAogICAgICAgICAgICBTb21lKChzdWNjZXNzLCByb3dzKSkgPT4gewogICAgICAgICAgICAgICAgaWYgIXN1Y2Nlc3MgewogICAgICAgICAgICAgICAgICAgIHN0YXRzLmZhaWx1cmVzID0gc3RhdHMuZmFpbHVyZXMuc2F0dXJhdGluZ19hZGQoMSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiBsZXQgU29tZShyb3dzKSA9IHJvd3MgewogICAgICAgICAgICAgICAgICAgIHN0YXRzLnJvd3MgPSBTb21lKHN0YXRzLnJvd3MudW53cmFwX29yKDApLnNhdHVyYXRpbmdfYWRkKHJvd3MpKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBzdGF0cy50b3RhbF93YWxsX21zICs9IHdhbGxfbXM7CiAgICAgICAgc3RhdHMubWF4X3dhbGxfbXMgPSBzdGF0cy5tYXhfd2FsbF9tcy5tYXgod2FsbF9tcyk7CiAgICAgICAgaWYgbGV0IFNvbWUoY3B1X21zKSA9IGNwdV9tcyB7CiAgICAgICAgICAgIHN0YXRzLnRvdGFsX2NwdV9tcyA9IFNvbWUoc3RhdHMudG90YWxfY3B1X21zLnVud3JhcF9vcigwLjApICsgY3B1X21zKTsKICAgICAgICAgICAgc3RhdHMubWF4X2NwdV9tcyA9IFNvbWUoc3RhdHMubWF4X2NwdV9tcy51bndyYXBfb3IoMC4wKS5tYXgoY3B1X21zKSk7CiAgICAgICAgfQogICAgfQp9CgpzdHJ1Y3QgQWN0aXZlT3BlcmF0aW9uIHsKICAgIHJlY29yZGVyOiBBcmM8T3BlcmF0aW9uUmVjb3JkZXI+LAogICAgZ2VuZXJhdGlvbjogdTY0LAogICAga2V5OiBPcGVyYXRpb25LZXksCiAgICBzdGFydGVkOiBJbnN0YW50LAogICAgY3B1OiBPcHRpb248KFRocmVhZElkLCB1NjQpPiwKfQoKI1tkZXJpdmUoRGVmYXVsdCldCnB1YihjcmF0ZSkgc3RydWN0IE9wZXJhdGlvbkd1YXJkIHsKICAgIGFjdGl2ZTogT3B0aW9uPEFjdGl2ZU9wZXJhdGlvbj4sCiAgICBvdXRjb21lOiBPcHRpb248KGJvb2wsIE9wdGlvbjx1NjQ+KT4sCn0KCmltcGwgT3BlcmF0aW9uR3VhcmQgewogICAgcHViKGNyYXRlKSBmbiBmaW5pc2gobXV0IHNlbGYsIHN1Y2Nlc3M6IGJvb2wsIHJvd3M6IE9wdGlvbjx1NjQ+KSB7CiAgICAgICAgc2VsZi5vdXRjb21lID0gU29tZSgoc3VjY2Vzcywgcm93cykpOwogICAgfQp9CgppbXBsIERyb3AgZm9yIE9wZXJhdGlvbkd1YXJkIHsKICAgIGZuIGRyb3AoJm11dCBzZWxmKSB7CiAgICAgICAgaWYgbGV0IFNvbWUoYWN0aXZlKSA9IHNlbGYuYWN0aXZlLnRha2UoKSB7CiAgICAgICAgICAgIGFjdGl2ZS5yZWNvcmRlci5jb21wbGV0ZSgmYWN0aXZlLCBzZWxmLm91dGNvbWUpOwogICAgICAgIH0KICAgIH0KfQoKZm4gYm91bmRlZF9sYWJlbCh2YWx1ZTogJnN0cikgLT4gU3RyaW5nIHsKICAgIGxldCBtdXQgbGFiZWwgPSB2YWx1ZQogICAgICAgIC5jaGFycygpCiAgICAgICAgLm1hcCh8Y2h8IGlmIGNoLmlzX2NvbnRyb2woKSB7ICcgJyB9IGVsc2UgeyBjaCB9KQogICAgICAgIC50YWtlKE1BWF9MQUJFTF9DSEFSUyArIDEpCiAgICAgICAgLmNvbGxlY3Q6OjxTdHJpbmc+KCk7CiAgICBpZiBsYWJlbC5jaGFycygpLmNvdW50KCkgPiBNQVhfTEFCRUxfQ0hBUlMgewogICAgICAgIC8vIEtlZXAgbG9uZyBtb25vbW9ycGhpemVkIHR5cGUgbmFtZXMgZGlzdGluZ3Vpc2hhYmxlIGFmdGVyIHRydW5jYXRpb24uCiAgICAgICAgbGV0IGhhc2ggPSB2YWx1ZS5ieXRlcygpLmZvbGQoMHhjYmYyOWNlNDg0MjIyMzI1X3U2NCwgfGhhc2gsIGJ5dGV8IHsKICAgICAgICAgICAgKGhhc2ggXiB1NjQ6OmZyb20oYnl0ZSkpLndyYXBwaW5nX211bCgweDEwMDAwMDAwMWIzKQogICAgICAgIH0pOwogICAgICAgIGxhYmVsID0gbGFiZWwuY2hhcnMoKS50YWtlKE1BWF9MQUJFTF9DSEFSUyAtIDE3KS5jb2xsZWN0KCk7CiAgICAgICAgbGFiZWwucHVzaF9zdHIoJmZvcm1hdCEoIuKApntoYXNoOjAxNnh9IikpOwogICAgfQogICAgbGFiZWwKfQoKZm4gdGhyZWFkX2NwdV9zdGFydCgpIC0+IE9wdGlvbjwoVGhyZWFkSWQsIHU2NCk+IHsKICAgIHRocmVhZF9jcHVfbnMoKS5tYXAofG5zfCAoc3RkOjp0aHJlYWQ6OmN1cnJlbnQoKS5pZCgpLCBucykpCn0KCiNbY2ZnKHVuaXgpXQpmbiB0aHJlYWRfY3B1X25zKCkgLT4gT3B0aW9uPHU2ND4gewogICAgbGV0IG11dCB2YWx1ZSA9IHN0ZDo6bWVtOjpNYXliZVVuaW5pdDo6PGxpYmM6OnRpbWVzcGVjPjo6dW5pbml0KCk7CiAgICAvLyBTQUZFVFk6IGNsb2NrX2dldHRpbWUgaW5pdGlhbGl6ZXMgdGhpcyB0aW1lc3BlYyBvbiBzdWNjZXNzLCBhbmQgYSB0aHJlYWQKICAgIC8vIENQVSBjbG9jayBtZWFzdXJlcyBvbmx5IHRoZSBjYWxsaW5nIG5hdGl2ZSB0aHJlYWQuCiAgICBpZiB1bnNhZmUgeyBsaWJjOjpjbG9ja19nZXR0aW1lKGxpYmM6OkNMT0NLX1RIUkVBRF9DUFVUSU1FX0lELCB2YWx1ZS5hc19tdXRfcHRyKCkpIH0gIT0gMCB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICAvLyBTQUZFVFk6IHRoZSBzdWNjZXNzZnVsIGNhbGwgYWJvdmUgaW5pdGlhbGl6ZWQgYm90aCBmaWVsZHMuCiAgICBsZXQgdmFsdWUgPSB1bnNhZmUgeyB2YWx1ZS5hc3N1bWVfaW5pdCgpIH07CiAgICB1NjQ6OnRyeV9mcm9tKHZhbHVlLnR2X3NlYykKICAgICAgICAub2soKT8KICAgICAgICAuY2hlY2tlZF9tdWwoMV8wMDBfMDAwXzAwMCk/CiAgICAgICAgLmNoZWNrZWRfYWRkKHU2NDo6dHJ5X2Zyb20odmFsdWUudHZfbnNlYykub2soKT8pCn0KCiNbY2ZnKG5vdCh1bml4KSldCmZuIHRocmVhZF9jcHVfbnMoKSAtPiBPcHRpb248dTY0PiB7CiAgICBOb25lCn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjoqOwoKICAgICNbdGVzdF0KICAgIGZuIGRpc2FibGVkX29wZXJhdGlvbl9zY29wZXNfZG9fbm90X2xvY2tfYWxsb2NhdGVfb3JfcmV0YWluX3JlY29yZGVyKCkgewogICAgICAgIGxldCByZWNvcmRlciA9IEFyYzo6bmV3KE9wZXJhdGlvblJlY29yZGVyOjpkZWZhdWx0KCkpOwogICAgICAgIGxldCBzdGF0ZV9sb2NrID0gcmVjb3JkZXIuc3RhdGUubG9jaygpLnVud3JhcCgpOwogICAgICAgIGxldCBzY29wZSA9IHJlY29yZGVyLnNjb3BlKCJ0YXNrIiwgImRpc2FibGVkIik7CiAgICAgICAgbGV0IHNxbGl0ZSA9IHJlY29yZGVyLnNjb3BlX3NxbGl0ZSgic3FsaXRlX3ByaW1hcnkiLCAiZGlzYWJsZWQiKTsKICAgICAgICBhc3NlcnQhKHNjb3BlLmFjdGl2ZS5pc19ub25lKCkpOwogICAgICAgIGFzc2VydCEoc3FsaXRlLmFjdGl2ZS5pc19ub25lKCkpOwogICAgICAgIGFzc2VydF9lcSEoQXJjOjpzdHJvbmdfY291bnQoJnJlY29yZGVyKSwgMSk7CiAgICAgICAgZHJvcChzdGF0ZV9sb2NrKTsKICAgICAgICBhc3NlcnQhKHJlY29yZGVyLnNuYXBzaG90KCkub3BlcmF0aW9ucy5pc19lbXB0eSgpKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBvcGVyYXRpb25fY2FwdHVyZV9jb3VudHNfc3VjY2Vzc19lcnJvcl9jYW5jZWxfYW5kX2ZyZWV6ZXNfYXRfc3RvcCgpIHsKICAgICAgICBsZXQgcmVjb3JkZXIgPSBBcmM6Om5ldyhPcGVyYXRpb25SZWNvcmRlcjo6ZGVmYXVsdCgpKTsKICAgICAgICBsZXQgZ2VuZXJhdGlvbiA9IHJlY29yZGVyLnN0YXJ0KCk7CiAgICAgICAgcmVjb3JkZXIuc2NvcGUoInRhc2siLCAicm91bmQiKS5maW5pc2godHJ1ZSwgU29tZSgyKSk7CiAgICAgICAgcmVjb3JkZXIuc2NvcGUoInRhc2siLCAicm91bmQiKS5maW5pc2goZmFsc2UsIFNvbWUoMykpOwogICAgICAgIGRyb3AocmVjb3JkZXIuc2NvcGUoInRhc2siLCAicm91bmQiKSk7CiAgICAgICAgbGV0IHVuZmluaXNoZWQgPSByZWNvcmRlci5zY29wZSgidGFzayIsICJyb3VuZCIpOwogICAgICAgIHJlY29yZGVyLnN0b3AoZ2VuZXJhdGlvbik7CiAgICAgICAgbGV0IHN0b3BwZWQgPSByZWNvcmRlci5zbmFwc2hvdCgpOwogICAgICAgIGxldCBzdGF0cyA9ICZzdG9wcGVkLm9wZXJhdGlvbnNbMF07CiAgICAgICAgYXNzZXJ0ISghc3RvcHBlZC5hY3RpdmUpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgICgKICAgICAgICAgICAgICAgIHN0YXRzLmNhbGxzLAogICAgICAgICAgICAgICAgc3RhdHMuZmFpbHVyZXMsCiAgICAgICAgICAgICAgICBzdGF0cy5jYW5jZWxsZWQsCiAgICAgICAgICAgICAgICBzdGF0cy5pbl9mbGlnaHQKICAgICAgICAgICAgKSwKICAgICAgICAgICAgKDMsIDEsIDEsIDEpCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRfZXEhKHN0YXRzLnJvd3MsIFNvbWUoNSkpOwogICAgICAgIGFzc2VydF9lcSEoc3RhdHMudG90YWxfY3B1X21zLCBOb25lKTsKICAgICAgICB1bmZpbmlzaGVkLmZpbmlzaCh0cnVlLCBTb21lKDEwMCkpOwogICAgICAgIHN0ZDo6dGhyZWFkOjpzbGVlcChzdGQ6OnRpbWU6OkR1cmF0aW9uOjpmcm9tX21pbGxpcygzKSk7CiAgICAgICAgYXNzZXJ0X2VxISgKICAgICAgICAgICAgc2VyZGVfanNvbjo6dG9fdmFsdWUocmVjb3JkZXIuc25hcHNob3QoKSkudW53cmFwKCksCiAgICAgICAgICAgIHNlcmRlX2pzb246OnRvX3ZhbHVlKHN0b3BwZWQpLnVud3JhcCgpCiAgICAgICAgKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBvcGVyYXRpb25fY2FwdHVyZV9nZW5lcmF0aW9uc19pc29sYXRlX29sZF9ndWFyZHNfYW5kX3N0b3BfcmVxdWVzdHMoKSB7CiAgICAgICAgbGV0IHJlY29yZGVyID0gQXJjOjpuZXcoT3BlcmF0aW9uUmVjb3JkZXI6OmRlZmF1bHQoKSk7CiAgICAgICAgbGV0IG9sZF9nZW5lcmF0aW9uID0gcmVjb3JkZXIuc3RhcnQoKTsKICAgICAgICBsZXQgb2xkX3Njb3BlID0gcmVjb3JkZXIuc2NvcGUoInRhc2siLCAib2xkIik7CiAgICAgICAgbGV0IGdlbmVyYXRpb24gPSByZWNvcmRlci5zdGFydCgpOwogICAgICAgIHJlY29yZGVyLnN0b3Aob2xkX2dlbmVyYXRpb24pOwogICAgICAgIG9sZF9zY29wZS5maW5pc2goZmFsc2UsIFNvbWUoOTkpKTsKICAgICAgICByZWNvcmRlci5zY29wZSgidGFzayIsICJuZXciKS5maW5pc2godHJ1ZSwgTm9uZSk7CiAgICAgICAgbGV0IHNuYXBzaG90ID0gcmVjb3JkZXIuc25hcHNob3QoKTsKICAgICAgICBhc3NlcnQhKHNuYXBzaG90LmFjdGl2ZSk7CiAgICAgICAgYXNzZXJ0X2VxIShzbmFwc2hvdC5nZW5lcmF0aW9uLCBnZW5lcmF0aW9uKTsKICAgICAgICBhc3NlcnRfZXEhKHNuYXBzaG90Lm9wZXJhdGlvbnMubGVuKCksIDEpOwogICAgICAgIGFzc2VydF9lcSEoc25hcHNob3Qub3BlcmF0aW9uc1swXS5sYWJlbCwgIm5ldyIpOwogICAgICAgIGFzc2VydF9lcSEoc25hcHNob3Qub3BlcmF0aW9uc1swXS5jYWxscywgMSk7CiAgICAgICAgYXNzZXJ0X2VxIShzbmFwc2hvdC5vcGVyYXRpb25zWzBdLmZhaWx1cmVzLCAwKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBvcGVyYXRpb25fY2FwdHVyZV9ib3VuZHNfbGFiZWxzX2FuZF9vdmVyZmxvd193aXRob3V0X2xvc2luZ19rbm93bl9vcGVyYXRpb25zKCkgewogICAgICAgIGxldCByZWNvcmRlciA9IEFyYzo6bmV3KE9wZXJhdGlvblJlY29yZGVyOjpkZWZhdWx0KCkpOwogICAgICAgIHJlY29yZGVyLnN0YXJ0KCk7CiAgICAgICAgZm9yIGluZGV4IGluIDAuLk1BWF9PUEVSQVRJT05TICsgMyB7CiAgICAgICAgICAgIGxldCBsYWJlbCA9IEJveDo6bGVhayhmb3JtYXQhKCJvcGVyYXRpb24te2luZGV4fSIpLmludG9fYm94ZWRfc3RyKCkpOwogICAgICAgICAgICByZWNvcmRlci5zY29wZSgidGFzayIsIGxhYmVsKS5maW5pc2godHJ1ZSwgTm9uZSk7CiAgICAgICAgfQogICAgICAgIHJlY29yZGVyLnNjb3BlKCJ0YXNrIiwgIm9wZXJhdGlvbi0wIikuZmluaXNoKHRydWUsIE5vbmUpOwogICAgICAgIGxldCBzbmFwc2hvdCA9IHJlY29yZGVyLnNuYXBzaG90KCk7CiAgICAgICAgYXNzZXJ0X2VxIShzbmFwc2hvdC5vcGVyYXRpb25zLmxlbigpLCBNQVhfT1BFUkFUSU9OUyk7CiAgICAgICAgYXNzZXJ0X2VxIShzbmFwc2hvdC5kcm9wcGVkX29wZXJhdGlvbnMsIDMpOwogICAgICAgIGFzc2VydF9lcSEoCiAgICAgICAgICAgIHNuYXBzaG90CiAgICAgICAgICAgICAgICAub3BlcmF0aW9ucwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLmZpbmQofHN0YXRzfCBzdGF0cy5sYWJlbCA9PSAib3BlcmF0aW9uLTAiKQogICAgICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgICAgICAuY2FsbHMsCiAgICAgICAgICAgIDIKICAgICAgICApOwogICAgICAgIGxldCBsb25nID0gIueVjCIucmVwZWF0KE1BWF9MQUJFTF9DSEFSUyArIDEpOwogICAgICAgIGxldCB0cnVuY2F0ZWQgPSBib3VuZGVkX2xhYmVsKCZsb25nKTsKICAgICAgICBhc3NlcnRfZXEhKHRydW5jYXRlZC5jaGFycygpLmNvdW50KCksIE1BWF9MQUJFTF9DSEFSUyk7CiAgICAgICAgYXNzZXJ0X25lISh0cnVuY2F0ZWQsIGJvdW5kZWRfbGFiZWwoJihsb25nICsgIngiKSkpOwogICAgICAgIGFzc2VydF9lcSEoYm91bmRlZF9sYWJlbCgibmFtZVxud2l0aFx0Y29udHJvbHMiKSwgIm5hbWUgd2l0aCBjb250cm9scyIpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHNxbGl0ZV9vcGVyYXRpb25fY3B1X2Nsb2NrX2lzX29wdGlvbmFsX2FuZF9uZXZlcl91c2VkX2Fjcm9zc190aHJlYWRzKCkgewogICAgICAgIGxldCByZWNvcmRlciA9IEFyYzo6bmV3KE9wZXJhdGlvblJlY29yZGVyOjpkZWZhdWx0KCkpOwogICAgICAgIHJlY29yZGVyLnN0YXJ0KCk7CiAgICAgICAgbGV0IHNjb3BlID0gcmVjb3JkZXIuc2NvcGVfc3FsaXRlKCJzcWxpdGVfcHJpbWFyeSIsICJzYW1lLXRocmVhZCIpOwogICAgICAgIGZvciB2YWx1ZSBpbiAwLi4xMF8wMDAgewogICAgICAgICAgICBzdGQ6OmhpbnQ6OmJsYWNrX2JveCh2YWx1ZSAqIDMpOwogICAgICAgIH0KICAgICAgICBzY29wZS5maW5pc2godHJ1ZSwgTm9uZSk7CiAgICAgICAgbGV0IG1vdmVkID0gcmVjb3JkZXIuc2NvcGVfc3FsaXRlKCJzcWxpdGVfcHJpbWFyeSIsICJkaWZmZXJlbnQtdGhyZWFkIik7CiAgICAgICAgc3RkOjp0aHJlYWQ6OnNjb3BlKHx0aHJlYWRzfCB7CiAgICAgICAgICAgIHRocmVhZHMuc3Bhd24obW92ZSB8fCBtb3ZlZC5maW5pc2godHJ1ZSwgTm9uZSkpOwogICAgICAgIH0pOwogICAgICAgIGxldCBzbmFwc2hvdCA9IHJlY29yZGVyLnNuYXBzaG90KCk7CiAgICAgICAgbGV0IHNhbWUgPSBzbmFwc2hvdAogICAgICAgICAgICAub3BlcmF0aW9ucwogICAgICAgICAgICAuaXRlcigpCiAgICAgICAgICAgIC5maW5kKHxzdGF0c3wgc3RhdHMubGFiZWwgPT0gInNhbWUtdGhyZWFkIikKICAgICAgICAgICAgLnVud3JhcCgpOwogICAgICAgIGlmIHRocmVhZF9jcHVfbnMoKS5pc19zb21lKCkgewogICAgICAgICAgICBhc3NlcnQhKHNhbWUudG90YWxfY3B1X21zLmlzX3NvbWVfYW5kKHxjcHV8IGNwdSA+PSAwLjApKTsKICAgICAgICB9CiAgICAgICAgbGV0IG1vdmVkID0gc25hcHNob3QKICAgICAgICAgICAgLm9wZXJhdGlvbnMKICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAuZmluZCh8c3RhdHN8IHN0YXRzLmxhYmVsID09ICJkaWZmZXJlbnQtdGhyZWFkIikKICAgICAgICAgICAgLnVud3JhcCgpOwogICAgICAgIGFzc2VydF9lcSEobW92ZWQudG90YWxfY3B1X21zLCBOb25lKTsKICAgIH0KfQo=
+//! Bounded, opt-in operation measurements. Labels are compile-time identifiers,
+//! never SQL text, request fields, or configuration values.
+
+use std::{
+    collections::HashMap,
+    sync::{
+        Arc, Mutex,
+        atomic::{AtomicU64, Ordering},
+    },
+    thread::ThreadId,
+    time::Instant,
+};
+
+use serde::{Deserialize, Serialize};
+use utoipa::ToSchema;
+
+const MAX_OPERATIONS: usize = 128;
+const MAX_LABEL_CHARS: usize = 200;
+
+#[derive(Clone, Debug, Default, Deserialize, Serialize, ToSchema)]
+pub(crate) struct OperationSnapshot {
+    pub(crate) generation: u64,
+    pub(crate) active: bool,
+    pub(crate) elapsed_ms: u64,
+    /// Scopes omitted after the distinct operation limit was reached.
+    pub(crate) dropped_operations: u64,
+    pub(crate) operations: Vec<OperationStats>,
+}
+
+#[derive(Clone, Debug, Default, Deserialize, Serialize, ToSchema)]
+pub(crate) struct OperationStats {
+    pub(crate) kind: String,
+    pub(crate) label: String,
+    /// Completed scopes, including failures and cancellations.
+    pub(crate) calls: u64,
+    pub(crate) failures: u64,
+    pub(crate) cancelled: u64,
+    /// Scopes still running, or unfinished when capture stopped.
+    pub(crate) in_flight: u64,
+    pub(crate) total_wall_ms: f64,
+    pub(crate) max_wall_ms: f64,
+    /// Available only for scopes measured on one SQLite execution thread.
+    #[schema(required = true)]
+    pub(crate) total_cpu_ms: Option<f64>,
+    #[schema(required = true)]
+    pub(crate) max_cpu_ms: Option<f64>,
+    /// Sum of item counts explicitly supplied by the instrumented operation.
+    #[schema(required = true)]
+    pub(crate) rows: Option<u64>,
+}
+
+#[derive(Clone, Copy, Eq, Hash, PartialEq)]
+struct OperationKey {
+    kind: &'static str,
+    label: &'static str,
+}
+
+#[derive(Default)]
+struct CaptureState {
+    generation: u64,
+    started: Option<Instant>,
+    stopped: Option<Instant>,
+    dropped_operations: u64,
+    operations: HashMap<OperationKey, OperationStats>,
+}
+
+#[derive(Default)]
+pub(crate) struct OperationRecorder {
+    // Zero lets disabled scopes avoid locking, allocating, or reading clocks.
+    active_generation: AtomicU64,
+    state: Mutex<CaptureState>,
+}
+
+impl OperationRecorder {
+    pub(crate) fn start(&self) -> u64 {
+        let mut state = self.state.lock().unwrap_or_else(|error| error.into_inner());
+        let generation = state.generation.wrapping_add(1).max(1);
+        *state = CaptureState {
+            generation,
+            started: Some(Instant::now()),
+            ..CaptureState::default()
+        };
+        self.active_generation.store(generation, Ordering::Release);
+        generation
+    }
+
+    pub(crate) fn stop(&self, generation: u64) {
+        let mut state = self.state.lock().unwrap_or_else(|error| error.into_inner());
+        if state.generation == generation && state.started.is_some() && state.stopped.is_none() {
+            state.stopped = Some(Instant::now());
+            self.active_generation.store(0, Ordering::Release);
+        }
+    }
+
+    pub(crate) fn snapshot(&self) -> OperationSnapshot {
+        let state = self.state.lock().unwrap_or_else(|error| error.into_inner());
+        let mut operations = state.operations.values().cloned().collect::<Vec<_>>();
+        operations.sort_by(|a, b| {
+            b.total_wall_ms
+                .total_cmp(&a.total_wall_ms)
+                .then_with(|| a.kind.cmp(&b.kind))
+                .then_with(|| a.label.cmp(&b.label))
+        });
+        OperationSnapshot {
+            generation: state.generation,
+            active: state.started.is_some() && state.stopped.is_none(),
+            elapsed_ms: state.started.map_or(0, |started| {
+                state
+                    .stopped
+                    .unwrap_or_else(Instant::now)
+                    .saturating_duration_since(started)
+                    .as_millis()
+                    .min(u128::from(u64::MAX)) as u64
+            }),
+            dropped_operations: state.dropped_operations,
+            operations,
+        }
+    }
+
+    pub(crate) fn scope(
+        self: &Arc<Self>,
+        kind: &'static str,
+        label: &'static str,
+    ) -> OperationGuard {
+        self.begin_scope(kind, label, false)
+    }
+
+    /// Call and finish this scope inside the actual SQLite closure, never
+    /// around the async admission/submission future.
+    pub(crate) fn scope_sqlite(
+        self: &Arc<Self>,
+        kind: &'static str,
+        label: &'static str,
+    ) -> OperationGuard {
+        self.begin_scope(kind, label, true)
+    }
+
+    fn begin_scope(
+        self: &Arc<Self>,
+        kind: &'static str,
+        label: &'static str,
+        measure_cpu: bool,
+    ) -> OperationGuard {
+        let generation = self.active_generation.load(Ordering::Acquire);
+        if generation == 0 {
+            return OperationGuard::default();
+        }
+        let key = OperationKey { kind, label };
+        let mut state = self.state.lock().unwrap_or_else(|error| error.into_inner());
+        if state.generation != generation || state.stopped.is_some() {
+            return OperationGuard::default();
+        }
+        if !state.operations.contains_key(&key) {
+            if state.operations.len() >= MAX_OPERATIONS {
+                state.dropped_operations = state.dropped_operations.saturating_add(1);
+                return OperationGuard::default();
+            }
+            state.operations.insert(
+                key,
+                OperationStats {
+                    kind: bounded_label(kind),
+                    label: bounded_label(label),
+                    ..OperationStats::default()
+                },
+            );
+        }
+        let Some(stats) = state.operations.get_mut(&key) else {
+            return OperationGuard::default();
+        };
+        stats.in_flight = stats.in_flight.saturating_add(1);
+        drop(state);
+        OperationGuard {
+            active: Some(ActiveOperation {
+                recorder: self.clone(),
+                generation,
+                key,
+                started: Instant::now(),
+                cpu: measure_cpu.then(thread_cpu_start).flatten(),
+            }),
+            outcome: None,
+        }
+    }
+
+    fn complete(&self, active: &ActiveOperation, outcome: Option<(bool, Option<u64>)>) {
+        if self.active_generation.load(Ordering::Acquire) != active.generation {
+            return;
+        }
+        let wall_ms = active.started.elapsed().as_secs_f64() * 1000.0;
+        let cpu_ms = active.cpu.and_then(|(thread, started)| {
+            (thread == std::thread::current().id())
+                .then(thread_cpu_ns)
+                .flatten()
+                .and_then(|finished| finished.checked_sub(started))
+                .map(|elapsed| elapsed as f64 / 1_000_000.0)
+        });
+        let mut state = self.state.lock().unwrap_or_else(|error| error.into_inner());
+        if state.generation != active.generation || state.stopped.is_some() {
+            return;
+        }
+        let Some(stats) = state.operations.get_mut(&active.key) else {
+            return;
+        };
+        stats.in_flight = stats.in_flight.saturating_sub(1);
+        stats.calls = stats.calls.saturating_add(1);
+        match outcome {
+            None => stats.cancelled = stats.cancelled.saturating_add(1),
+            Some((success, rows)) => {
+                if !success {
+                    stats.failures = stats.failures.saturating_add(1);
+                }
+                if let Some(rows) = rows {
+                    stats.rows = Some(stats.rows.unwrap_or(0).saturating_add(rows));
+                }
+            }
+        }
+        stats.total_wall_ms += wall_ms;
+        stats.max_wall_ms = stats.max_wall_ms.max(wall_ms);
+        if let Some(cpu_ms) = cpu_ms {
+            stats.total_cpu_ms = Some(stats.total_cpu_ms.unwrap_or(0.0) + cpu_ms);
+            stats.max_cpu_ms = Some(stats.max_cpu_ms.unwrap_or(0.0).max(cpu_ms));
+        }
+    }
+}
+
+struct ActiveOperation {
+    recorder: Arc<OperationRecorder>,
+    generation: u64,
+    key: OperationKey,
+    started: Instant,
+    cpu: Option<(ThreadId, u64)>,
+}
+
+#[derive(Default)]
+pub(crate) struct OperationGuard {
+    active: Option<ActiveOperation>,
+    outcome: Option<(bool, Option<u64>)>,
+}
+
+impl OperationGuard {
+    pub(crate) fn finish(mut self, success: bool, rows: Option<u64>) {
+        self.outcome = Some((success, rows));
+    }
+}
+
+impl Drop for OperationGuard {
+    fn drop(&mut self) {
+        if let Some(active) = self.active.take() {
+            active.recorder.complete(&active, self.outcome);
+        }
+    }
+}
+
+fn bounded_label(value: &str) -> String {
+    let mut label = value
+        .chars()
+        .map(|ch| if ch.is_control() { ' ' } else { ch })
+        .take(MAX_LABEL_CHARS + 1)
+        .collect::<String>();
+    if label.chars().count() > MAX_LABEL_CHARS {
+        // Keep long monomorphized type names distinguishable after truncation.
+        let hash = value.bytes().fold(0xcbf29ce484222325_u64, |hash, byte| {
+            (hash ^ u64::from(byte)).wrapping_mul(0x100000001b3)
+        });
+        label = label.chars().take(MAX_LABEL_CHARS - 17).collect();
+        label.push_str(&format!("…{hash:016x}"));
+    }
+    label
+}
+
+fn thread_cpu_start() -> Option<(ThreadId, u64)> {
+    thread_cpu_ns().map(|ns| (std::thread::current().id(), ns))
+}
+
+#[cfg(unix)]
+fn thread_cpu_ns() -> Option<u64> {
+    let mut value = std::mem::MaybeUninit::<libc::timespec>::uninit();
+    // SAFETY: clock_gettime initializes this timespec on success, and a thread
+    // CPU clock measures only the calling native thread.
+    if unsafe { libc::clock_gettime(libc::CLOCK_THREAD_CPUTIME_ID, value.as_mut_ptr()) } != 0 {
+        return None;
+    }
+    // SAFETY: the successful call above initialized both fields.
+    let value = unsafe { value.assume_init() };
+    u64::try_from(value.tv_sec)
+        .ok()?
+        .checked_mul(1_000_000_000)?
+        .checked_add(u64::try_from(value.tv_nsec).ok()?)
+}
+
+#[cfg(not(unix))]
+fn thread_cpu_ns() -> Option<u64> {
+    None
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn disabled_operation_scopes_do_not_lock_allocate_or_retain_recorder() {
+        let recorder = Arc::new(OperationRecorder::default());
+        let state_lock = recorder.state.lock().unwrap();
+        let scope = recorder.scope("task", "disabled");
+        let sqlite = recorder.scope_sqlite("sqlite_primary", "disabled");
+        assert!(scope.active.is_none());
+        assert!(sqlite.active.is_none());
+        assert_eq!(Arc::strong_count(&recorder), 1);
+        drop(state_lock);
+        assert!(recorder.snapshot().operations.is_empty());
+    }
+
+    #[test]
+    fn operation_capture_counts_success_error_cancel_and_freezes_at_stop() {
+        let recorder = Arc::new(OperationRecorder::default());
+        let generation = recorder.start();
+        recorder.scope("task", "round").finish(true, Some(2));
+        recorder.scope("task", "round").finish(false, Some(3));
+        drop(recorder.scope("task", "round"));
+        let unfinished = recorder.scope("task", "round");
+        recorder.stop(generation);
+        let stopped = recorder.snapshot();
+        let stats = &stopped.operations[0];
+        assert!(!stopped.active);
+        assert_eq!(
+            (
+                stats.calls,
+                stats.failures,
+                stats.cancelled,
+                stats.in_flight
+            ),
+            (3, 1, 1, 1)
+        );
+        assert_eq!(stats.rows, Some(5));
+        assert_eq!(stats.total_cpu_ms, None);
+        unfinished.finish(true, Some(100));
+        std::thread::sleep(std::time::Duration::from_millis(3));
+        assert_eq!(
+            serde_json::to_value(recorder.snapshot()).unwrap(),
+            serde_json::to_value(stopped).unwrap()
+        );
+    }
+
+    #[test]
+    fn operation_capture_generations_isolate_old_guards_and_stop_requests() {
+        let recorder = Arc::new(OperationRecorder::default());
+        let old_generation = recorder.start();
+        let old_scope = recorder.scope("task", "old");
+        let generation = recorder.start();
+        recorder.stop(old_generation);
+        old_scope.finish(false, Some(99));
+        recorder.scope("task", "new").finish(true, None);
+        let snapshot = recorder.snapshot();
+        assert!(snapshot.active);
+        assert_eq!(snapshot.generation, generation);
+        assert_eq!(snapshot.operations.len(), 1);
+        assert_eq!(snapshot.operations[0].label, "new");
+        assert_eq!(snapshot.operations[0].calls, 1);
+        assert_eq!(snapshot.operations[0].failures, 0);
+    }
+
+    #[test]
+    fn operation_capture_bounds_labels_and_overflow_without_losing_known_operations() {
+        let recorder = Arc::new(OperationRecorder::default());
+        recorder.start();
+        for index in 0..MAX_OPERATIONS + 3 {
+            let label = Box::leak(format!("operation-{index}").into_boxed_str());
+            recorder.scope("task", label).finish(true, None);
+        }
+        recorder.scope("task", "operation-0").finish(true, None);
+        let snapshot = recorder.snapshot();
+        assert_eq!(snapshot.operations.len(), MAX_OPERATIONS);
+        assert_eq!(snapshot.dropped_operations, 3);
+        assert_eq!(
+            snapshot
+                .operations
+                .iter()
+                .find(|stats| stats.label == "operation-0")
+                .unwrap()
+                .calls,
+            2
+        );
+        let long = "界".repeat(MAX_LABEL_CHARS + 1);
+        let truncated = bounded_label(&long);
+        assert_eq!(truncated.chars().count(), MAX_LABEL_CHARS);
+        assert_ne!(truncated, bounded_label(&(long + "x")));
+        assert_eq!(bounded_label("name\nwith\tcontrols"), "name with controls");
+    }
+
+    #[test]
+    fn sqlite_operation_cpu_clock_is_optional_and_never_used_across_threads() {
+        let recorder = Arc::new(OperationRecorder::default());
+        recorder.start();
+        let scope = recorder.scope_sqlite("sqlite_primary", "same-thread");
+        for value in 0..10_000 {
+            std::hint::black_box(value * 3);
+        }
+        scope.finish(true, None);
+        let moved = recorder.scope_sqlite("sqlite_primary", "different-thread");
+        std::thread::scope(|threads| {
+            threads.spawn(move || moved.finish(true, None));
+        });
+        let snapshot = recorder.snapshot();
+        let same = snapshot
+            .operations
+            .iter()
+            .find(|stats| stats.label == "same-thread")
+            .unwrap();
+        if thread_cpu_ns().is_some() {
+            assert!(same.total_cpu_ms.is_some_and(|cpu| cpu >= 0.0));
+        }
+        let moved = snapshot
+            .operations
+            .iter()
+            .find(|stats| stats.label == "different-thread")
+            .unwrap();
+        assert_eq!(moved.total_cpu_ms, None);
+    }
+}

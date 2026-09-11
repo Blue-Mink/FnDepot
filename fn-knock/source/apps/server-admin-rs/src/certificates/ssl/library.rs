@@ -1,1 +1,526 @@
-dXNlIHN1cGVyOjoqOwoKZm4gbm9ybWFsaXplZF9jZXJ0aWZpY2F0ZV9kb21haW5fc2V0KGNlcnQ6ICZzdHIpIC0+IEJUcmVlU2V0PFN0cmluZz4gewogICAgcGFyc2VfY2VydF9pbmZvKGNlcnQpCiAgICAgICAgLm1hcCh8aW5mb3wgY2VydGlmaWNhdGVfaW5mb19kbnNfbmFtZXMoJmluZm8pKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpCiAgICAgICAgLmludG9faXRlcigpCiAgICAgICAgLm1hcCh8ZG9tYWlufCBjcmF0ZTo6Y2VydGlmaWNhdGVzOjpkb21haW5fdXRpbHM6Om5vcm1hbGl6ZV9kb21haW5fbmFtZSgmZG9tYWluKSkKICAgICAgICAuZmlsdGVyKHxkb21haW58ICFkb21haW4uaXNfZW1wdHkoKSkKICAgICAgICAuY29sbGVjdCgpCn0KCmZuIHJlamVjdF9hY21lX2V4dGVybmFsX2RvbWFpbl9jb25mbGljdCgKICAgIGNlcnRpZmljYXRlczogJltWYWx1ZV0sCiAgICBpbmNvbWluZ19jZXJ0OiAmc3RyLAopIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgaW5jb21pbmdfZG9tYWlucyA9IG5vcm1hbGl6ZWRfY2VydGlmaWNhdGVfZG9tYWluX3NldChpbmNvbWluZ19jZXJ0KTsKICAgIGlmIGluY29taW5nX2RvbWFpbnMuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE9rKCgpKTsKICAgIH0KICAgIGlmIGxldCBTb21lKGNvbmZsaWN0aW5nX2lkKSA9IGNlcnRpZmljYXRlcwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyKHxjZXJ0aWZpY2F0ZXwgY2VydGlmaWNhdGUuZ2V0KCJzb3VyY2UiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKCJleHRlcm5hbCIpKQogICAgICAgIC5maW5kX21hcCh8Y2VydGlmaWNhdGV8IHsKICAgICAgICAgICAgbGV0IGRvbWFpbnMgPSBjZXJ0aWZpY2F0ZQogICAgICAgICAgICAgICAgLmdldCgiY2VydCIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgIC5tYXAobm9ybWFsaXplZF9jZXJ0aWZpY2F0ZV9kb21haW5fc2V0KQogICAgICAgICAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICAgICAgICAgICghZG9tYWlucy5pc19kaXNqb2ludCgmaW5jb21pbmdfZG9tYWlucykpLnRoZW4ofHwgewogICAgICAgICAgICAgICAgY2VydGlmaWNhdGUKICAgICAgICAgICAgICAgICAgICAuZ2V0KCJpZCIpCiAgICAgICAgICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgICAgICAgICAgICAgLnVud3JhcF9vcigiZXh0ZXJuYWwgY2VydGlmaWNhdGUiKQogICAgICAgICAgICAgICAgICAgIC50b19zdHJpbmcoKQogICAgICAgICAgICB9KQogICAgICAgIH0pCiAgICB7CiAgICAgICAgYW55aG93OjpiYWlsISgKICAgICAgICAgICAgIkFDTUUgY2VydGlmaWNhdGUgZGVwbG95bWVudCBpcyBibG9ja2VkIGJlY2F1c2UgZXh0ZXJuYWwgY2VydGlmaWNhdGUge2NvbmZsaWN0aW5nX2lkfSBvd25zIGFuIG92ZXJsYXBwaW5nIFNBTiBzZXQiCiAgICAgICAgKTsKICAgIH0KICAgIE9rKCgpKQp9CgojW2Rlcml2ZShEZWJ1ZywgRXEsIFBhcnRpYWxFcSldCnB1YihzdXBlcikgZW51bSBDZXJ0aWZpY2F0ZVBhaXJMb29rdXA8J2E+IHsKICAgIEZvdW5kKCYnYSBzdHIsICYnYSBzdHIpLAogICAgSW52YWxpZCwKICAgIE1pc3NpbmcsCn0KCnB1YihzdXBlcikgZm4gY2VydGlmaWNhdGVfcGFpcl9ieV9pZDwnYT4oc3NsOiAmJ2EgVmFsdWUsIGlkOiAmc3RyKSAtPiBDZXJ0aWZpY2F0ZVBhaXJMb29rdXA8J2E+IHsKICAgIGxldCBTb21lKGNlcnRpZmljYXRlKSA9CiAgICAgICAgc3NsLmdldCgiY2VydGlmaWNhdGVzIikKICAgICAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAgICAgLmFuZF90aGVuKHxjZXJ0aWZpY2F0ZXN8IHsKICAgICAgICAgICAgICAgIGNlcnRpZmljYXRlcwogICAgICAgICAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgICAgICAgICAuZmluZCh8Y2VydGlmaWNhdGV8IGNlcnRpZmljYXRlLmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKGlkKSkKICAgICAgICAgICAgfSkKICAgIGVsc2UgewogICAgICAgIHJldHVybiBDZXJ0aWZpY2F0ZVBhaXJMb29rdXA6Ok1pc3Npbmc7CiAgICB9OwogICAgbGV0IFNvbWUoKGNlcnQsIGtleSkpID0gY2VydGlmaWNhdGUKICAgICAgICAuZ2V0KCJjZXJ0IikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAuemlwKGNlcnRpZmljYXRlLmdldCgia2V5IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpCiAgICBlbHNlIHsKICAgICAgICByZXR1cm4gQ2VydGlmaWNhdGVQYWlyTG9va3VwOjpJbnZhbGlkOwogICAgfTsKICAgIGlmIGNlcnQudHJpbSgpLmlzX2VtcHR5KCkgfHwga2V5LnRyaW0oKS5pc19lbXB0eSgpIHsKICAgICAgICBDZXJ0aWZpY2F0ZVBhaXJMb29rdXA6OkludmFsaWQKICAgIH0gZWxzZSB7CiAgICAgICAgQ2VydGlmaWNhdGVQYWlyTG9va3VwOjpGb3VuZChjZXJ0LCBrZXkpCiAgICB9Cn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc2F2ZV9zc2xfY2VydGlmaWNhdGUoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaW5wdXQ6IFNhdmVDZXJ0aWZpY2F0ZUJvZHksCiAgICBhY3RpdmF0ZTogYm9vbCwKKSAtPiBhbnlob3c6OlJlc3VsdDxWYWx1ZT4gewogICAgbGV0IF9ndWFyZCA9IHN0YXRlLmdhdGV3YXkuc3NsX3VwZGF0ZV9sb2NrLmxvY2soKS5hd2FpdDsKICAgIHZhbGlkYXRlX3NzbF9jZXJ0KCZpbnB1dC5jZXJ0LCAmaW5wdXQua2V5KT87CiAgICBsZXQgbXV0IGNvbmZpZyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0PzsKICAgIGxldCBzc2wgPSBub3JtYWxpemVfc3NsX2NvbmZpZyhjb25maWcuZ2V0KCJzc2wiKSk7CiAgICBsZXQgbXV0IGNlcnRpZmljYXRlcyA9IHNzbAogICAgICAgIC5nZXQoImNlcnRpZmljYXRlcyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBjZXJ0ID0gaW5wdXQuY2VydC50cmltKCkudG9fc3RyaW5nKCk7CiAgICBsZXQga2V5ID0gaW5wdXQua2V5LnRyaW0oKS50b19zdHJpbmcoKTsKICAgIGxldCBpZCA9IGlucHV0CiAgICAgICAgLmlkCiAgICAgICAgLmFzX2RlcmVmKCkKICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgLm1hcChzdHI6OnRvX3N0cmluZykKICAgICAgICAub3JfZWxzZSh8fCB7CiAgICAgICAgICAgIGNlcnRpZmljYXRlcwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLmZpbmQofGl0ZW18IHsKICAgICAgICAgICAgICAgICAgICBpdGVtLmdldCgiY2VydCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoY2VydC5hc19zdHIoKSkKICAgICAgICAgICAgICAgICAgICAgICAgJiYgaXRlbS5nZXQoImtleSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpID09IFNvbWUoa2V5LmFzX3N0cigpKQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC5hbmRfdGhlbih8aXRlbXwgaXRlbS5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpCiAgICAgICAgICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgICAgIH0pCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IGJ1aWxkX3NzbF9jZXJ0aWZpY2F0ZV9pZCgmY2VydCwgJmtleSkpOwogICAgbGV0IGV4aXN0aW5nID0gY2VydGlmaWNhdGVzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maW5kKHxpdGVtfCBpdGVtLmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKGlkLmFzX3N0cigpKSkKICAgICAgICAuY2xvbmVkKCk7CiAgICBsZXQgbm93ID0gbm93X25vZGVfaXNvKCk7CiAgICBsZXQgc291cmNlID0gbm9ybWFsaXplX2NlcnRpZmljYXRlX3NvdXJjZShpbnB1dC5zb3VyY2UuYXNfZGVyZWYoKSk7CiAgICBpZiBzb3VyY2UgPT0gImFjbWUiIHsKICAgICAgICByZWplY3RfYWNtZV9leHRlcm5hbF9kb21haW5fY29uZmxpY3QoJmNlcnRpZmljYXRlcywgJmNlcnQpPzsKICAgIH0KICAgIGxldCBzb3VyY2VfcHJvdmlkZXIgPSBpbnB1dAogICAgICAgIC5zb3VyY2VfcHJvdmlkZXIKICAgICAgICAuYXNfZGVyZWYoKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKTsKICAgIGxldCBwcmltYXJ5X2RvbWFpbiA9IGlucHV0CiAgICAgICAgLnByaW1hcnlfZG9tYWluCiAgICAgICAgLmFzX2RlcmVmKCkKICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUudHJpbSgpLnRvX2FzY2lpX2xvd2VyY2FzZSgpKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSk7CiAgICBsZXQgc291cmNlX3JlZl9pZCA9IGlucHV0CiAgICAgICAgLnNvdXJjZV9yZWZfaWQKICAgICAgICAuYXNfZGVyZWYoKQogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKTsKICAgIGxldCBsYWJlbCA9IGlucHV0CiAgICAgICAgLmxhYmVsCiAgICAgICAgLmFzX2RlcmVmKCkKICAgICAgICAubWFwKHN0cjo6dHJpbSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgLm1hcChzdHI6OnRvX3N0cmluZykKICAgICAgICAub3JfZWxzZSh8fCB7CiAgICAgICAgICAgIGV4aXN0aW5nCiAgICAgICAgICAgICAgICAuYXNfcmVmKCkKICAgICAgICAgICAgICAgIC5hbmRfdGhlbih8aXRlbXwgaXRlbS5nZXQoImxhYmVsIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikpCiAgICAgICAgICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgICAgIH0pCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IGRlZmF1bHRfY2VydGlmaWNhdGVfbGFiZWwoc291cmNlLCBwcmltYXJ5X2RvbWFpbi5hc19kZXJlZigpKSk7CiAgICBsZXQgY3JlYXRlZF9hdCA9IGV4aXN0aW5nCiAgICAgICAgLmFzX3JlZigpCiAgICAgICAgLmFuZF90aGVuKHxpdGVtfCBpdGVtLmdldCgiY3JlYXRlZF9hdCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUudHJpbSgpLmlzX2VtcHR5KCkpCiAgICAgICAgLnVud3JhcF9vcigmbm93KQogICAgICAgIC50b19zdHJpbmcoKTsKICAgIGxldCBtdXQgbmV4dCA9IE1hcDo6bmV3KCk7CiAgICBuZXh0Lmluc2VydCgiaWQiLnRvX3N0cmluZygpLCBqc29uIShpZCkpOwogICAgbmV4dC5pbnNlcnQoImxhYmVsIi50b19zdHJpbmcoKSwganNvbiEobGFiZWwpKTsKICAgIG5leHQuaW5zZXJ0KCJzb3VyY2UiLnRvX3N0cmluZygpLCBqc29uIShzb3VyY2UpKTsKICAgIGlmIHNvdXJjZSA9PSAiZXh0ZXJuYWwiCiAgICAgICAgJiYgbGV0IFNvbWUoc291cmNlX3Byb3ZpZGVyKSA9IHNvdXJjZV9wcm92aWRlcgogICAgewogICAgICAgIG5leHQuaW5zZXJ0KCJzb3VyY2VfcHJvdmlkZXIiLnRvX3N0cmluZygpLCBqc29uIShzb3VyY2VfcHJvdmlkZXIpKTsKICAgIH0KICAgIGlmIGxldCBTb21lKHByaW1hcnlfZG9tYWluKSA9IHByaW1hcnlfZG9tYWluIHsKICAgICAgICBuZXh0Lmluc2VydCgicHJpbWFyeV9kb21haW4iLnRvX3N0cmluZygpLCBqc29uIShwcmltYXJ5X2RvbWFpbikpOwogICAgfQogICAgaWYgbGV0IFNvbWUoc291cmNlX3JlZl9pZCkgPSBzb3VyY2VfcmVmX2lkIHsKICAgICAgICBuZXh0Lmluc2VydCgic291cmNlX3JlZl9pZCIudG9fc3RyaW5nKCksIGpzb24hKHNvdXJjZV9yZWZfaWQpKTsKICAgIH0KICAgIG5leHQuaW5zZXJ0KCJjZXJ0Ii50b19zdHJpbmcoKSwganNvbiEoY2VydCkpOwogICAgbmV4dC5pbnNlcnQoImtleSIudG9fc3RyaW5nKCksIGpzb24hKGtleSkpOwogICAgbmV4dC5pbnNlcnQoImNyZWF0ZWRfYXQiLnRvX3N0cmluZygpLCBqc29uIShjcmVhdGVkX2F0KSk7CiAgICBuZXh0Lmluc2VydCgidXBkYXRlZF9hdCIudG9fc3RyaW5nKCksIGpzb24hKG5vdykpOwogICAgbGV0IG5leHQgPSBWYWx1ZTo6T2JqZWN0KG5leHQpOwogICAgY2VydGlmaWNhdGVzLnJldGFpbih8aXRlbXwgewogICAgICAgIGl0ZW0uZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpICE9IG5leHQuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICB9KTsKICAgIGNlcnRpZmljYXRlcy5pbnNlcnQoMCwgbmV4dC5jbG9uZSgpKTsKICAgIGxldCBtdXQgbmV4dF9zc2wgPSBzc2w7CiAgICBuZXh0X3NzbFsiY2VydGlmaWNhdGVzIl0gPSBWYWx1ZTo6QXJyYXkoY2VydGlmaWNhdGVzKTsKICAgIGlmIGFjdGl2YXRlIHsKICAgICAgICBsZXQgaWQgPSBuZXh0LmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpOwogICAgICAgIC8vIEtlZXAgdGhlIGxlZ2FjeSBtaXJyb3IgYWxpZ25lZCBiZWZvcmUgbm9ybWFsaXphdGlvbiBydW5zIGluc2lkZQogICAgICAgIC8vIGBtaXJyb3JfYWN0aXZlX3NzbF9jZXJ0aWZpY2F0ZWAuIE90aGVyd2lzZSByZXBsYWNpbmcgYW4gYWN0aXZlCiAgICAgICAgLy8gY2VydGlmaWNhdGUgaW4gcGxhY2UgbWFrZXMgdGhlIHN0YWxlIFBFTSBwYWlyIGxvb2sgbGlrZSBhbgogICAgICAgIC8vIHVucmVsYXRlZCBsZWdhY3kgY2VydGlmaWNhdGUgYW5kIGluc2VydHMgYSBkdXBsaWNhdGUgbGlicmFyeSBpdGVtLgogICAgICAgIG5leHRfc3NsWyJjZXJ0Il0gPSBuZXh0LmdldCgiY2VydCIpLmNsb25lZCgpLnVud3JhcF9vcl9lbHNlKHx8IGpzb24hKCIiKSk7CiAgICAgICAgbmV4dF9zc2xbImtleSJdID0gbmV4dC5nZXQoImtleSIpLmNsb25lZCgpLnVud3JhcF9vcl9lbHNlKHx8IGpzb24hKCIiKSk7CiAgICAgICAgbmV4dF9zc2wgPSBtaXJyb3JfYWN0aXZlX3NzbF9jZXJ0aWZpY2F0ZSgmbmV4dF9zc2wsIFNvbWUoaWQpKTsKICAgIH0KICAgIGNvbmZpZ1sic3NsIl0gPSBuZXh0X3NzbDsKICAgIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuc2F2ZV9jb25maWcoJmNvbmZpZykuYXdhaXQ/OwogICAgY3JhdGU6OmZub3NfY2VydGlmaWNhdGVfc3luYzo6bm90aWZ5X2NlcnRpZmljYXRlX2xpYnJhcnlfY2hhbmdlZChzdGF0ZSk7CiAgICBPayhuZXh0KQp9CgojW2FsbG93KGNsaXBweTo6dG9vX21hbnlfYXJndW1lbnRzKV0KcHViKGNyYXRlKSBhc3luYyBmbiBzYXZlX2FjbWVfY2VydGlmaWNhdGVfdG9fbGlicmFyeSgKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBpZDogT3B0aW9uPCZzdHI+LAogICAgbGFiZWw6IE9wdGlvbjwmc3RyPiwKICAgIHByaW1hcnlfZG9tYWluOiAmc3RyLAogICAgc291cmNlX3JlZl9pZDogT3B0aW9uPCZzdHI+LAogICAgY2VydDogJnN0ciwKICAgIGtleTogJnN0ciwKICAgIGFjdGl2YXRlOiBib29sLAopIC0+IGFueWhvdzo6UmVzdWx0PFZhbHVlPiB7CiAgICBsZXQgbm9ybWFsaXplZF9kb21haW4gPSBwcmltYXJ5X2RvbWFpbi50cmltKCkudG9fYXNjaWlfbG93ZXJjYXNlKCk7CiAgICBsZXQgbm9ybWFsaXplZF9yZWYgPSBzb3VyY2VfcmVmX2lkCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKTsKICAgIGxldCBtdXQgcmVzb2x2ZWRfaWQgPSBpZAogICAgICAgIC5tYXAoc3RyOjp0cmltKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSkKICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKTsKICAgIGlmIHJlc29sdmVkX2lkLmlzX25vbmUoKSB7CiAgICAgICAgcmVzb2x2ZWRfaWQgPSBmaW5kX2FjbWVfc3NsX2NlcnRpZmljYXRlKHN0YXRlLCBub3JtYWxpemVkX3JlZiwgU29tZSgmbm9ybWFsaXplZF9kb21haW4pKQogICAgICAgICAgICAuYXdhaXQ/CiAgICAgICAgICAgIC5hbmRfdGhlbih8Y2VydGlmaWNhdGV8IHsKICAgICAgICAgICAgICAgIGNlcnRpZmljYXRlCiAgICAgICAgICAgICAgICAgICAgLmdldCgiaWQiKQogICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpCiAgICAgICAgICAgIH0pOwogICAgfQoKICAgIHNhdmVfc3NsX2NlcnRpZmljYXRlKAogICAgICAgIHN0YXRlLAogICAgICAgIFNhdmVDZXJ0aWZpY2F0ZUJvZHkgewogICAgICAgICAgICBpZDogcmVzb2x2ZWRfaWQsCiAgICAgICAgICAgIGxhYmVsOiBsYWJlbAogICAgICAgICAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpCiAgICAgICAgICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKSwKICAgICAgICAgICAgc291cmNlOiBTb21lKCJhY21lIi50b19zdHJpbmcoKSksCiAgICAgICAgICAgIHNvdXJjZV9wcm92aWRlcjogTm9uZSwKICAgICAgICAgICAgcHJpbWFyeV9kb21haW46IFNvbWUobm9ybWFsaXplZF9kb21haW4pLAogICAgICAgICAgICBzb3VyY2VfcmVmX2lkOiBub3JtYWxpemVkX3JlZi5tYXAoc3RyOjp0b19zdHJpbmcpLAogICAgICAgICAgICBjZXJ0OiBjZXJ0LnRvX3N0cmluZygpLAogICAgICAgICAgICBrZXk6IGtleS50b19zdHJpbmcoKSwKICAgICAgICAgICAgYWN0aXZhdGU6IFNvbWUoYWN0aXZhdGUpLAogICAgICAgIH0sCiAgICAgICAgYWN0aXZhdGUsCiAgICApCiAgICAuYXdhaXQKfQoKcHViKGNyYXRlKSBhc3luYyBmbiBhdXRvX3NlbGVjdF9jZXJ0aWZpY2F0ZV9mb3Jfc3ViZG9tYWluKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHRyYW5zbGF0b3I6ICZUcmFuc2xhdG9yLAopIC0+IGFueWhvdzo6UmVzdWx0PE9wdGlvbjxWYWx1ZT4+IHsKICAgIGxldCBjb25maWcgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9jb25maWcoKS5hd2FpdD87CiAgICBsZXQgc3NsID0gbm9ybWFsaXplX3NzbF9jb25maWcoY29uZmlnLmdldCgic3NsIikpOwogICAgbGV0IGNlcnRpZmljYXRlcyA9IHNzbAogICAgICAgIC5nZXQoImNlcnRpZmljYXRlcyIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19hcnJheSkKICAgICAgICAuY2xvbmVkKCkKICAgICAgICAudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBhY3RpdmVfY2VydGlmaWNhdGVfaWQgPSBzc2wKICAgICAgICAuZ2V0KCJhY3RpdmVfY2VydF9pZCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKQogICAgICAgIC5tYXAoc3RyOjp0b19zdHJpbmcpOwogICAgbGV0IGRlcGxveW1lbnRfbW9kZSA9CiAgICAgICAgbm9ybWFsaXplX2RlcGxveW1lbnRfbW9kZShzc2wuZ2V0KCJkZXBsb3ltZW50X21vZGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSk7CiAgICBsZXQgaW52ZW50b3J5X2NlcnRpZmljYXRlcyA9IGNlcnRpZmljYXRlcwogICAgICAgIC5pdGVyKCkKICAgICAgICAuZmlsdGVyX21hcCh8Y2VydGlmaWNhdGV8IHsKICAgICAgICAgICAgbGV0IGlkID0gY2VydGlmaWNhdGUuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpPy50b19zdHJpbmcoKTsKICAgICAgICAgICAgU29tZShDZXJ0aWZpY2F0ZUNvdmVyYWdlSW5wdXQgewogICAgICAgICAgICAgICAgaWQsCiAgICAgICAgICAgICAgICBjZXJ0aWZpY2F0ZV9kb21haW5zOiBjZXJ0aWZpY2F0ZQogICAgICAgICAgICAgICAgICAgIC5nZXQoImNlcnQiKQogICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKQogICAgICAgICAgICAgICAgICAgIC5hbmRfdGhlbihwYXJzZV9jZXJ0X2luZm8pCiAgICAgICAgICAgICAgICAgICAgLm1hcCh8aW5mb3wgY2VydGlmaWNhdGVfaW5mb19kbnNfbmFtZXMoJmluZm8pKQogICAgICAgICAgICAgICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICAgICB9KQogICAgICAgIH0pCiAgICAgICAgLmNvbGxlY3Q6OjxWZWM8Xz4+KCk7CiAgICBsZXQgY292ZXJhZ2UgPSBidWlsZF9zdWJkb21haW5fY2VydGlmaWNhdGVfaW52ZW50b3J5X2NvdmVyYWdlKAogICAgICAgIHN0YXRlLnNldHRpbmdzLmF1dGhfcG9ydCwKICAgICAgICAmY29uZmlnLAogICAgICAgICZpbnZlbnRvcnlfY2VydGlmaWNhdGVzLAogICAgICAgIGFjdGl2ZV9jZXJ0aWZpY2F0ZV9pZC5hc19kZXJlZigpLAogICAgICAgIGRlcGxveW1lbnRfbW9kZSwKICAgICAgICB0cmFuc2xhdG9yLAogICAgKTsKICAgIGlmIGNvdmVyYWdlLmdldCgiY2FuX2F1dG9fYWN0aXZhdGUiKS5hbmRfdGhlbihWYWx1ZTo6YXNfYm9vbCkgIT0gU29tZSh0cnVlKSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfQogICAgbGV0IFNvbWUoc3VnZ2VzdGVkX2NlcnRpZmljYXRlX2lkKSA9IGNvdmVyYWdlCiAgICAgICAgLmdldCgic3VnZ2VzdGVkX2NlcnRpZmljYXRlX2lkIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAubWFwKHN0cjo6dG9fc3RyaW5nKQogICAgZWxzZSB7CiAgICAgICAgcmV0dXJuIE9rKE5vbmUpOwogICAgfTsKCiAgICBsZXQgU29tZShjYW5kaWRhdGUpID0KICAgICAgICBzZXRfYWN0aXZlX3NzbF9jZXJ0aWZpY2F0ZShzdGF0ZSwgU29tZShzdWdnZXN0ZWRfY2VydGlmaWNhdGVfaWQuYXNfc3RyKCkpKS5hd2FpdD8KICAgIGVsc2UgewogICAgICAgIHJldHVybiBPayhOb25lKTsKICAgIH07CgogICAgbWF0Y2ggc3luY19zc2xfZGVwbG95bWVudF90b19nYXRld2F5KHN0YXRlLCBOb25lKS5hd2FpdCB7CiAgICAgICAgT2soKCkpID0+IE9rKFNvbWUoanNvbiEoewogICAgICAgICAgICAiYXBwbGllZCI6IHRydWUsCiAgICAgICAgICAgICJjZXJ0aWZpY2F0ZV9pZCI6IGNhbmRpZGF0ZS5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKSwKICAgICAgICAgICAgImxhYmVsIjogY2FuZGlkYXRlLmdldCgibGFiZWwiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKS51bndyYXBfb3IoIiIpLAogICAgICAgICAgICAibWVzc2FnZSI6IHRyYW5zbGF0b3IudCgic2VydmVyLmFkbWluLnN1YmRvbWFpbk1vZGUuc3NsQXV0b1NlbGVjdGVkIikKICAgICAgICB9KSkpLAogICAgICAgIEVycihlcnJvcikgPT4gewogICAgICAgICAgICBsZXQgXyA9IHNldF9hY3RpdmVfc3NsX2NlcnRpZmljYXRlKHN0YXRlLCBhY3RpdmVfY2VydGlmaWNhdGVfaWQuYXNfZGVyZWYoKSkuYXdhaXQ7CiAgICAgICAgICAgIGxldCBfID0gc3luY19zc2xfZGVwbG95bWVudF90b19nYXRld2F5KHN0YXRlLCBOb25lKS5hd2FpdDsKICAgICAgICAgICAgbGV0IGRldGFpbCA9IGVycm9yLnRvX3N0cmluZygpOwogICAgICAgICAgICBsZXQgbWVzc2FnZSA9IGlmIGRldGFpbC50cmltKCkuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgICAgICB0cmFuc2xhdG9yLnQoInNlcnZlci5hZG1pbi5zdWJkb21haW5Nb2RlLnNzbEF1dG9TZWxlY3Rpb25TeW5jRmFpbGVkIikKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGRldGFpbAogICAgICAgICAgICB9OwogICAgICAgICAgICBPayhTb21lKGpzb24hKHsKICAgICAgICAgICAgICAgICJhcHBsaWVkIjogZmFsc2UsCiAgICAgICAgICAgICAgICAiY2VydGlmaWNhdGVfaWQiOiBjYW5kaWRhdGUuZ2V0KCJpZCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIiksCiAgICAgICAgICAgICAgICAibGFiZWwiOiBjYW5kaWRhdGUuZ2V0KCJsYWJlbCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIiksCiAgICAgICAgICAgICAgICAibWVzc2FnZSI6IG1lc3NhZ2UKICAgICAgICAgICAgfSkpKQogICAgICAgIH0KICAgIH0KfQoKcHViKHN1cGVyKSBhc3luYyBmbiBmaW5kX2FjbWVfc3NsX2NlcnRpZmljYXRlKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIHNvdXJjZV9yZWZfaWQ6IE9wdGlvbjwmc3RyPiwKICAgIHByaW1hcnlfZG9tYWluOiBPcHRpb248JnN0cj4sCikgLT4gYW55aG93OjpSZXN1bHQ8T3B0aW9uPFZhbHVlPj4gewogICAgbGV0IGNvbmZpZyA9IHN0YXRlLnN0b3JhZ2Uuc3RvcmUuZ2V0X2NvbmZpZygpLmF3YWl0PzsKICAgIGxldCBzc2wgPSBub3JtYWxpemVfc3NsX2NvbmZpZyhjb25maWcuZ2V0KCJzc2wiKSk7CiAgICBsZXQgbm9ybWFsaXplZF9yZWYgPSBzb3VyY2VfcmVmX2lkCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKTsKICAgIGxldCBub3JtYWxpemVkX2RvbWFpbiA9IHByaW1hcnlfZG9tYWluCiAgICAgICAgLm1hcCh8dmFsdWV8IHZhbHVlLnRyaW0oKS50b19hc2NpaV9sb3dlcmNhc2UoKSkKICAgICAgICAuZmlsdGVyKHx2YWx1ZXwgIXZhbHVlLmlzX2VtcHR5KCkpOwogICAgT2soc3NsCiAgICAgICAgLmdldCgiY2VydGlmaWNhdGVzIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5hbmRfdGhlbih8Y2VydGlmaWNhdGVzfCB7CiAgICAgICAgICAgIGNlcnRpZmljYXRlcwogICAgICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAgICAgLmZpbmQofGNlcnRpZmljYXRlfCB7CiAgICAgICAgICAgICAgICAgICAgY2VydGlmaWNhdGUuZ2V0KCJzb3VyY2UiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKCJhY21lIikKICAgICAgICAgICAgICAgICAgICAgICAgJiYgKG5vcm1hbGl6ZWRfcmVmLmlzX3NvbWVfYW5kKHxpZHwgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2VydGlmaWNhdGUuZ2V0KCJzb3VyY2VfcmVmX2lkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZShpZCkKICAgICAgICAgICAgICAgICAgICAgICAgfSkgfHwgbm9ybWFsaXplZF9kb21haW4uYXNfZGVyZWYoKS5pc19zb21lX2FuZCh8ZG9tYWlufCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjZXJ0aWZpY2F0ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5nZXQoInByaW1hcnlfZG9tYWluIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaXNfc29tZV9hbmQofHZhbHVlfCB2YWx1ZS50cmltKCkuZXFfaWdub3JlX2FzY2lpX2Nhc2UoZG9tYWluKSkKICAgICAgICAgICAgICAgICAgICAgICAgfSkpCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgLmNsb25lZCgpCiAgICAgICAgfSkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gYWN0aXZhdGVfc3NsX2NlcnRpZmljYXRlKHN0YXRlOiAmQXBwU3RhdGUsIGlkOiAmc3RyKSAtPiBhbnlob3c6OlJlc3VsdDxib29sPiB7CiAgICBPayhzZXRfYWN0aXZlX3NzbF9jZXJ0aWZpY2F0ZShzdGF0ZSwgU29tZShpZCkpLmF3YWl0Py5pc19zb21lKCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gc2V0X2FjdGl2ZV9zc2xfY2VydGlmaWNhdGUoCiAgICBzdGF0ZTogJkFwcFN0YXRlLAogICAgaWQ6IE9wdGlvbjwmc3RyPiwKKSAtPiBhbnlob3c6OlJlc3VsdDxPcHRpb248VmFsdWU+PiB7CiAgICBsZXQgX2d1YXJkID0gc3RhdGUuZ2F0ZXdheS5zc2xfdXBkYXRlX2xvY2subG9jaygpLmF3YWl0OwogICAgbGV0IG11dCBjb25maWcgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9jb25maWcoKS5hd2FpdD87CiAgICBsZXQgc3NsID0gbm9ybWFsaXplX3NzbF9jb25maWcoY29uZmlnLmdldCgic3NsIikpOwogICAgbGV0IG5vcm1hbGl6ZWRfaWQgPSBpZC5tYXAoc3RyOjp0cmltKS5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSk7CiAgICBsZXQgY2FuZGlkYXRlID0gbm9ybWFsaXplZF9pZC5hbmRfdGhlbih8aWR8IHsKICAgICAgICBzc2wuZ2V0KCJjZXJ0aWZpY2F0ZXMiKQogICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KT8KICAgICAgICAgICAgLml0ZXIoKQogICAgICAgICAgICAuZmluZCh8aXRlbXwgaXRlbS5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZShpZCkpCiAgICAgICAgICAgIC5jbG9uZWQoKQogICAgfSk7CiAgICBpZiBub3JtYWxpemVkX2lkLmlzX3NvbWUoKSAmJiBjYW5kaWRhdGUuaXNfbm9uZSgpIHsKICAgICAgICByZXR1cm4gT2soTm9uZSk7CiAgICB9CiAgICBjb25maWdbInNzbCJdID0gbWlycm9yX2FjdGl2ZV9zc2xfY2VydGlmaWNhdGUoJnNzbCwgbm9ybWFsaXplZF9pZCk7CiAgICBzdGF0ZS5zdG9yYWdlLnN0b3JlLnNhdmVfY29uZmlnKCZjb25maWcpLmF3YWl0PzsKICAgIE9rKGNhbmRpZGF0ZSkKfQoKcHViKHN1cGVyKSBhc3luYyBmbiBkZWxldGVfc3NsX2NlcnRpZmljYXRlKAogICAgc3RhdGU6ICZBcHBTdGF0ZSwKICAgIGlkOiAmc3RyLAopIC0+IGFueWhvdzo6UmVzdWx0PChib29sLCBib29sKT4gewogICAgbGV0IF9ndWFyZCA9IHN0YXRlLmdhdGV3YXkuc3NsX3VwZGF0ZV9sb2NrLmxvY2soKS5hd2FpdDsKICAgIGxldCBtdXQgY29uZmlnID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQ/OwogICAgbGV0IHNzbCA9IG5vcm1hbGl6ZV9zc2xfY29uZmlnKGNvbmZpZy5nZXQoInNzbCIpKTsKICAgIGxldCBhY3RpdmVfaWQgPSBzc2wKICAgICAgICAuZ2V0KCJhY3RpdmVfY2VydF9pZCIpCiAgICAgICAgLmFuZF90aGVuKFZhbHVlOjphc19zdHIpCiAgICAgICAgLnVud3JhcF9vcigiIikKICAgICAgICAudG9fc3RyaW5nKCk7CiAgICBsZXQgY2VydGlmaWNhdGVzID0gc3NsCiAgICAgICAgLmdldCgiY2VydGlmaWNhdGVzIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX2FycmF5KQogICAgICAgIC5jbG9uZWQoKQogICAgICAgIC51bndyYXBfb3JfZGVmYXVsdCgpOwogICAgbGV0IHJlbW92ZWQgPSBjZXJ0aWZpY2F0ZXMKICAgICAgICAuaXRlcigpCiAgICAgICAgLmFueSh8aXRlbXwgaXRlbS5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZShpZCkpOwogICAgaWYgIXJlbW92ZWQgewogICAgICAgIHJldHVybiBPaygoZmFsc2UsIGZhbHNlKSk7CiAgICB9CiAgICBsZXQgbXV0IG5leHRfc3NsID0gc3NsOwogICAgbmV4dF9zc2xbImNlcnRpZmljYXRlcyJdID0gVmFsdWU6OkFycmF5KAogICAgICAgIGNlcnRpZmljYXRlcwogICAgICAgICAgICAuaW50b19pdGVyKCkKICAgICAgICAgICAgLmZpbHRlcih8aXRlbXwgaXRlbS5nZXQoImlkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgIT0gU29tZShpZCkpCiAgICAgICAgICAgIC5jb2xsZWN0KCksCiAgICApOwogICAgbGV0IHJlbW92ZWRfYWN0aXZlID0gYWN0aXZlX2lkID09IGlkOwogICAgbmV4dF9zc2wgPSBtaXJyb3JfYWN0aXZlX3NzbF9jZXJ0aWZpY2F0ZSgKICAgICAgICAmbmV4dF9zc2wsCiAgICAgICAgaWYgcmVtb3ZlZF9hY3RpdmUgewogICAgICAgICAgICBOb25lCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgU29tZSgmYWN0aXZlX2lkKQogICAgICAgIH0sCiAgICApOwogICAgY29uZmlnWyJzc2wiXSA9IG5leHRfc3NsOwogICAgc3RhdGUuc3RvcmFnZS5zdG9yZS5zYXZlX2NvbmZpZygmY29uZmlnKS5hd2FpdD87CiAgICBjcmF0ZTo6Zm5vc19jZXJ0aWZpY2F0ZV9zeW5jOjpub3RpZnlfY2VydGlmaWNhdGVfbGlicmFyeV9jaGFuZ2VkKHN0YXRlKTsKICAgIE9rKCh0cnVlLCByZW1vdmVkX2FjdGl2ZSkpCn0KCnB1YihjcmF0ZSkgYXN5bmMgZm4gZGVsZXRlX2FjbWVfc3NsX2NlcnRpZmljYXRlcygKICAgIHN0YXRlOiAmQXBwU3RhdGUsCiAgICBhcHBsaWNhdGlvbl9pZDogT3B0aW9uPCZzdHI+LAogICAgcHJpbWFyeV9kb21haW46IE9wdGlvbjwmc3RyPiwKKSAtPiBhbnlob3c6OlJlc3VsdDwodXNpemUsIGJvb2wpPiB7CiAgICBsZXQgX2d1YXJkID0gc3RhdGUuZ2F0ZXdheS5zc2xfdXBkYXRlX2xvY2subG9jaygpLmF3YWl0OwogICAgbGV0IG11dCBjb25maWcgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9jb25maWcoKS5hd2FpdD87CiAgICBsZXQgc3NsID0gbm9ybWFsaXplX3NzbF9jb25maWcoY29uZmlnLmdldCgic3NsIikpOwogICAgbGV0IGFjdGl2ZV9pZCA9IHNzbAogICAgICAgIC5nZXQoImFjdGl2ZV9jZXJ0X2lkIikKICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAudW53cmFwX29yKCIiKQogICAgICAgIC50b19zdHJpbmcoKTsKICAgIGxldCBjZXJ0aWZpY2F0ZXMgPSBzc2wKICAgICAgICAuZ2V0KCJjZXJ0aWZpY2F0ZXMiKQogICAgICAgIC5hbmRfdGhlbihWYWx1ZTo6YXNfYXJyYXkpCiAgICAgICAgLmNsb25lZCgpCiAgICAgICAgLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgbm9ybWFsaXplZF9hcHBsaWNhdGlvbl9pZCA9IGFwcGxpY2F0aW9uX2lkCiAgICAgICAgLm1hcChzdHI6OnRyaW0pCiAgICAgICAgLmZpbHRlcih8dmFsdWV8ICF2YWx1ZS5pc19lbXB0eSgpKTsKICAgIGxldCBub3JtYWxpemVkX3ByaW1hcnlfZG9tYWluID0gcHJpbWFyeV9kb21haW4KICAgICAgICAubWFwKHx2YWx1ZXwgdmFsdWUudHJpbSgpLnRvX2FzY2lpX2xvd2VyY2FzZSgpKQogICAgICAgIC5maWx0ZXIofHZhbHVlfCAhdmFsdWUuaXNfZW1wdHkoKSk7CgogICAgbGV0IG11dCByZW1vdmVkID0gVmVjOjpuZXcoKTsKICAgIGxldCBtdXQga2VwdCA9IFZlYzo6bmV3KCk7CiAgICBmb3IgY2VydGlmaWNhdGUgaW4gY2VydGlmaWNhdGVzIHsKICAgICAgICBsZXQgaXNfYWNtZSA9IGNlcnRpZmljYXRlLmdldCgic291cmNlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSgiYWNtZSIpOwogICAgICAgIGxldCBtYXRjaGVzX3JlZiA9IG5vcm1hbGl6ZWRfYXBwbGljYXRpb25faWQKICAgICAgICAgICAgLmlzX3NvbWVfYW5kKHxpZHwgY2VydGlmaWNhdGUuZ2V0KCJzb3VyY2VfcmVmX2lkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZShpZCkpOwogICAgICAgIGxldCBtYXRjaGVzX2RvbWFpbiA9IG5vcm1hbGl6ZWRfcHJpbWFyeV9kb21haW4uYXNfZGVyZWYoKS5pc19zb21lX2FuZCh8ZG9tYWlufCB7CiAgICAgICAgICAgIGNlcnRpZmljYXRlCiAgICAgICAgICAgICAgICAuZ2V0KCJwcmltYXJ5X2RvbWFpbiIpCiAgICAgICAgICAgICAgICAuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikKICAgICAgICAgICAgICAgIC5pc19zb21lX2FuZCh8dmFsdWV8IHZhbHVlLnRyaW0oKS5lcV9pZ25vcmVfYXNjaWlfY2FzZShkb21haW4pKQogICAgICAgIH0pOwogICAgICAgIGlmIGlzX2FjbWUgJiYgKG1hdGNoZXNfcmVmIHx8IG1hdGNoZXNfZG9tYWluKSB7CiAgICAgICAgICAgIHJlbW92ZWQucHVzaChjZXJ0aWZpY2F0ZSk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAga2VwdC5wdXNoKGNlcnRpZmljYXRlKTsKICAgICAgICB9CiAgICB9CgogICAgaWYgcmVtb3ZlZC5pc19lbXB0eSgpIHsKICAgICAgICByZXR1cm4gT2soKDAsIGZhbHNlKSk7CiAgICB9CgogICAgbGV0IHJlbW92ZWRfYWN0aXZlID0gcmVtb3ZlZAogICAgICAgIC5pdGVyKCkKICAgICAgICAuYW55KHxpdGVtfCBpdGVtLmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSA9PSBTb21lKGFjdGl2ZV9pZC5hc19zdHIoKSkpOwogICAgbGV0IG11dCBuZXh0X3NzbCA9IHNzbDsKICAgIG5leHRfc3NsWyJjZXJ0aWZpY2F0ZXMiXSA9IFZhbHVlOjpBcnJheShrZXB0KTsKICAgIG5leHRfc3NsID0gbWlycm9yX2FjdGl2ZV9zc2xfY2VydGlmaWNhdGUoCiAgICAgICAgJm5leHRfc3NsLAogICAgICAgIGlmIHJlbW92ZWRfYWN0aXZlIHsKICAgICAgICAgICAgTm9uZQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIFNvbWUoJmFjdGl2ZV9pZCkKICAgICAgICB9LAogICAgKTsKICAgIGNvbmZpZ1sic3NsIl0gPSBuZXh0X3NzbDsKICAgIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuc2F2ZV9jb25maWcoJmNvbmZpZykuYXdhaXQ/OwogICAgY3JhdGU6OmZub3NfY2VydGlmaWNhdGVfc3luYzo6bm90aWZ5X2NlcnRpZmljYXRlX2xpYnJhcnlfY2hhbmdlZChzdGF0ZSk7CiAgICBPaygocmVtb3ZlZC5sZW4oKSwgcmVtb3ZlZF9hY3RpdmUpKQp9CgpwdWIoc3VwZXIpIGFzeW5jIGZuIGNsZWFyX3NzbF9jZXJ0aWZpY2F0ZV9saWJyYXJ5KHN0YXRlOiAmQXBwU3RhdGUpIC0+IGFueWhvdzo6UmVzdWx0PCgpPiB7CiAgICBsZXQgX2d1YXJkID0gc3RhdGUuZ2F0ZXdheS5zc2xfdXBkYXRlX2xvY2subG9jaygpLmF3YWl0OwogICAgbGV0IG11dCBjb25maWcgPSBzdGF0ZS5zdG9yYWdlLnN0b3JlLmdldF9jb25maWcoKS5hd2FpdD87CiAgICBsZXQgbXV0IHNzbCA9IG5vcm1hbGl6ZV9zc2xfY29uZmlnKGNvbmZpZy5nZXQoInNzbCIpKTsKICAgIHNzbFsiY2VydGlmaWNhdGVzIl0gPSBqc29uIShbXSk7CiAgICBjb25maWdbInNzbCJdID0gbWlycm9yX2FjdGl2ZV9zc2xfY2VydGlmaWNhdGUoJnNzbCwgTm9uZSk7CiAgICBzdGF0ZS5zdG9yYWdlLnN0b3JlLnNhdmVfY29uZmlnKCZjb25maWcpLmF3YWl0PzsKICAgIGNyYXRlOjpmbm9zX2NlcnRpZmljYXRlX3N5bmM6Om5vdGlmeV9jZXJ0aWZpY2F0ZV9saWJyYXJ5X2NoYW5nZWQoc3RhdGUpOwogICAgT2soKCkpCn0KCnB1YihzdXBlcikgYXN5bmMgZm4gY2xlYXJfYWN0aXZlX3NzbChzdGF0ZTogJkFwcFN0YXRlKSAtPiBhbnlob3c6OlJlc3VsdDwoKT4gewogICAgbGV0IF9ndWFyZCA9IHN0YXRlLmdhdGV3YXkuc3NsX3VwZGF0ZV9sb2NrLmxvY2soKS5hd2FpdDsKICAgIGxldCBtdXQgY29uZmlnID0gc3RhdGUuc3RvcmFnZS5zdG9yZS5nZXRfY29uZmlnKCkuYXdhaXQ/OwogICAgbGV0IHNzbCA9IG5vcm1hbGl6ZV9zc2xfY29uZmlnKGNvbmZpZy5nZXQoInNzbCIpKTsKICAgIGNvbmZpZ1sic3NsIl0gPSBtaXJyb3JfYWN0aXZlX3NzbF9jZXJ0aWZpY2F0ZSgmc3NsLCBOb25lKTsKICAgIHN0YXRlLnN0b3JhZ2Uuc3RvcmUuc2F2ZV9jb25maWcoJmNvbmZpZykuYXdhaXQ/OwogICAgT2soKCkpCn0K
+use super::*;
+
+fn normalized_certificate_domain_set(cert: &str) -> BTreeSet<String> {
+    parse_cert_info(cert)
+        .map(|info| certificate_info_dns_names(&info))
+        .unwrap_or_default()
+        .into_iter()
+        .map(|domain| crate::certificates::domain_utils::normalize_domain_name(&domain))
+        .filter(|domain| !domain.is_empty())
+        .collect()
+}
+
+fn reject_acme_external_domain_conflict(
+    certificates: &[Value],
+    incoming_cert: &str,
+) -> anyhow::Result<()> {
+    let incoming_domains = normalized_certificate_domain_set(incoming_cert);
+    if incoming_domains.is_empty() {
+        return Ok(());
+    }
+    if let Some(conflicting_id) = certificates
+        .iter()
+        .filter(|certificate| certificate.get("source").and_then(Value::as_str) == Some("external"))
+        .find_map(|certificate| {
+            let domains = certificate
+                .get("cert")
+                .and_then(Value::as_str)
+                .map(normalized_certificate_domain_set)
+                .unwrap_or_default();
+            (!domains.is_disjoint(&incoming_domains)).then(|| {
+                certificate
+                    .get("id")
+                    .and_then(Value::as_str)
+                    .unwrap_or("external certificate")
+                    .to_string()
+            })
+        })
+    {
+        anyhow::bail!(
+            "ACME certificate deployment is blocked because external certificate {conflicting_id} owns an overlapping SAN set"
+        );
+    }
+    Ok(())
+}
+
+#[derive(Debug, Eq, PartialEq)]
+pub(super) enum CertificatePairLookup<'a> {
+    Found(&'a str, &'a str),
+    Invalid,
+    Missing,
+}
+
+pub(super) fn certificate_pair_by_id<'a>(ssl: &'a Value, id: &str) -> CertificatePairLookup<'a> {
+    let Some(certificate) =
+        ssl.get("certificates")
+            .and_then(Value::as_array)
+            .and_then(|certificates| {
+                certificates
+                    .iter()
+                    .find(|certificate| certificate.get("id").and_then(Value::as_str) == Some(id))
+            })
+    else {
+        return CertificatePairLookup::Missing;
+    };
+    let Some((cert, key)) = certificate
+        .get("cert")
+        .and_then(Value::as_str)
+        .zip(certificate.get("key").and_then(Value::as_str))
+    else {
+        return CertificatePairLookup::Invalid;
+    };
+    if cert.trim().is_empty() || key.trim().is_empty() {
+        CertificatePairLookup::Invalid
+    } else {
+        CertificatePairLookup::Found(cert, key)
+    }
+}
+
+pub(super) async fn save_ssl_certificate(
+    state: &AppState,
+    input: SaveCertificateBody,
+    activate: bool,
+) -> anyhow::Result<Value> {
+    let _guard = state.gateway.ssl_update_lock.lock().await;
+    validate_ssl_cert(&input.cert, &input.key)?;
+    let mut config = state.storage.store.get_config().await?;
+    let ssl = normalize_ssl_config(config.get("ssl"));
+    let mut certificates = ssl
+        .get("certificates")
+        .and_then(Value::as_array)
+        .cloned()
+        .unwrap_or_default();
+    let cert = input.cert.trim().to_string();
+    let key = input.key.trim().to_string();
+    let id = input
+        .id
+        .as_deref()
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .map(str::to_string)
+        .or_else(|| {
+            certificates
+                .iter()
+                .find(|item| {
+                    item.get("cert").and_then(Value::as_str) == Some(cert.as_str())
+                        && item.get("key").and_then(Value::as_str) == Some(key.as_str())
+                })
+                .and_then(|item| item.get("id").and_then(Value::as_str))
+                .map(str::to_string)
+        })
+        .unwrap_or_else(|| build_ssl_certificate_id(&cert, &key));
+    let existing = certificates
+        .iter()
+        .find(|item| item.get("id").and_then(Value::as_str) == Some(id.as_str()))
+        .cloned();
+    let now = now_node_iso();
+    let source = normalize_certificate_source(input.source.as_deref());
+    if source == "acme" {
+        reject_acme_external_domain_conflict(&certificates, &cert)?;
+    }
+    let source_provider = input
+        .source_provider
+        .as_deref()
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .map(str::to_string);
+    let primary_domain = input
+        .primary_domain
+        .as_deref()
+        .map(|value| value.trim().to_ascii_lowercase())
+        .filter(|value| !value.is_empty());
+    let source_ref_id = input
+        .source_ref_id
+        .as_deref()
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .map(str::to_string);
+    let label = input
+        .label
+        .as_deref()
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .map(str::to_string)
+        .or_else(|| {
+            existing
+                .as_ref()
+                .and_then(|item| item.get("label").and_then(Value::as_str))
+                .map(str::to_string)
+        })
+        .unwrap_or_else(|| default_certificate_label(source, primary_domain.as_deref()));
+    let created_at = existing
+        .as_ref()
+        .and_then(|item| item.get("created_at").and_then(Value::as_str))
+        .filter(|value| !value.trim().is_empty())
+        .unwrap_or(&now)
+        .to_string();
+    let mut next = Map::new();
+    next.insert("id".to_string(), json!(id));
+    next.insert("label".to_string(), json!(label));
+    next.insert("source".to_string(), json!(source));
+    if source == "external"
+        && let Some(source_provider) = source_provider
+    {
+        next.insert("source_provider".to_string(), json!(source_provider));
+    }
+    if let Some(primary_domain) = primary_domain {
+        next.insert("primary_domain".to_string(), json!(primary_domain));
+    }
+    if let Some(source_ref_id) = source_ref_id {
+        next.insert("source_ref_id".to_string(), json!(source_ref_id));
+    }
+    next.insert("cert".to_string(), json!(cert));
+    next.insert("key".to_string(), json!(key));
+    next.insert("created_at".to_string(), json!(created_at));
+    next.insert("updated_at".to_string(), json!(now));
+    let next = Value::Object(next);
+    certificates.retain(|item| {
+        item.get("id").and_then(Value::as_str) != next.get("id").and_then(Value::as_str)
+    });
+    certificates.insert(0, next.clone());
+    let mut next_ssl = ssl;
+    next_ssl["certificates"] = Value::Array(certificates);
+    if activate {
+        let id = next.get("id").and_then(Value::as_str).unwrap_or("");
+        // Keep the legacy mirror aligned before normalization runs inside
+        // `mirror_active_ssl_certificate`. Otherwise replacing an active
+        // certificate in place makes the stale PEM pair look like an
+        // unrelated legacy certificate and inserts a duplicate library item.
+        next_ssl["cert"] = next.get("cert").cloned().unwrap_or_else(|| json!(""));
+        next_ssl["key"] = next.get("key").cloned().unwrap_or_else(|| json!(""));
+        next_ssl = mirror_active_ssl_certificate(&next_ssl, Some(id));
+    }
+    config["ssl"] = next_ssl;
+    state.storage.store.save_config(&config).await?;
+    crate::fnos_certificate_sync::notify_certificate_library_changed(state);
+    Ok(next)
+}
+
+#[allow(clippy::too_many_arguments)]
+pub(crate) async fn save_acme_certificate_to_library(
+    state: &AppState,
+    id: Option<&str>,
+    label: Option<&str>,
+    primary_domain: &str,
+    source_ref_id: Option<&str>,
+    cert: &str,
+    key: &str,
+    activate: bool,
+) -> anyhow::Result<Value> {
+    let normalized_domain = primary_domain.trim().to_ascii_lowercase();
+    let normalized_ref = source_ref_id
+        .map(str::trim)
+        .filter(|value| !value.is_empty());
+    let mut resolved_id = id
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .map(str::to_string);
+    if resolved_id.is_none() {
+        resolved_id = find_acme_ssl_certificate(state, normalized_ref, Some(&normalized_domain))
+            .await?
+            .and_then(|certificate| {
+                certificate
+                    .get("id")
+                    .and_then(Value::as_str)
+                    .map(str::to_string)
+            });
+    }
+
+    save_ssl_certificate(
+        state,
+        SaveCertificateBody {
+            id: resolved_id,
+            label: label
+                .map(str::trim)
+                .filter(|value| !value.is_empty())
+                .map(str::to_string),
+            source: Some("acme".to_string()),
+            source_provider: None,
+            primary_domain: Some(normalized_domain),
+            source_ref_id: normalized_ref.map(str::to_string),
+            cert: cert.to_string(),
+            key: key.to_string(),
+            activate: Some(activate),
+        },
+        activate,
+    )
+    .await
+}
+
+pub(crate) async fn auto_select_certificate_for_subdomain(
+    state: &AppState,
+    translator: &Translator,
+) -> anyhow::Result<Option<Value>> {
+    let config = state.storage.store.get_config().await?;
+    let ssl = normalize_ssl_config(config.get("ssl"));
+    let certificates = ssl
+        .get("certificates")
+        .and_then(Value::as_array)
+        .cloned()
+        .unwrap_or_default();
+    let active_certificate_id = ssl
+        .get("active_cert_id")
+        .and_then(Value::as_str)
+        .map(str::trim)
+        .filter(|value| !value.is_empty())
+        .map(str::to_string);
+    let deployment_mode =
+        normalize_deployment_mode(ssl.get("deployment_mode").and_then(Value::as_str));
+    let inventory_certificates = certificates
+        .iter()
+        .filter_map(|certificate| {
+            let id = certificate.get("id").and_then(Value::as_str)?.to_string();
+            Some(CertificateCoverageInput {
+                id,
+                certificate_domains: certificate
+                    .get("cert")
+                    .and_then(Value::as_str)
+                    .and_then(parse_cert_info)
+                    .map(|info| certificate_info_dns_names(&info))
+                    .unwrap_or_default(),
+            })
+        })
+        .collect::<Vec<_>>();
+    let coverage = build_subdomain_certificate_inventory_coverage(
+        state.settings.auth_port,
+        &config,
+        &inventory_certificates,
+        active_certificate_id.as_deref(),
+        deployment_mode,
+        translator,
+    );
+    if coverage.get("can_auto_activate").and_then(Value::as_bool) != Some(true) {
+        return Ok(None);
+    }
+    let Some(suggested_certificate_id) = coverage
+        .get("suggested_certificate_id")
+        .and_then(Value::as_str)
+        .map(str::to_string)
+    else {
+        return Ok(None);
+    };
+
+    let Some(candidate) =
+        set_active_ssl_certificate(state, Some(suggested_certificate_id.as_str())).await?
+    else {
+        return Ok(None);
+    };
+
+    match sync_ssl_deployment_to_gateway(state, None).await {
+        Ok(()) => Ok(Some(json!({
+            "applied": true,
+            "certificate_id": candidate.get("id").and_then(Value::as_str).unwrap_or(""),
+            "label": candidate.get("label").and_then(Value::as_str).unwrap_or(""),
+            "message": translator.t("server.admin.subdomainMode.sslAutoSelected")
+        }))),
+        Err(error) => {
+            let _ = set_active_ssl_certificate(state, active_certificate_id.as_deref()).await;
+            let _ = sync_ssl_deployment_to_gateway(state, None).await;
+            let detail = error.to_string();
+            let message = if detail.trim().is_empty() {
+                translator.t("server.admin.subdomainMode.sslAutoSelectionSyncFailed")
+            } else {
+                detail
+            };
+            Ok(Some(json!({
+                "applied": false,
+                "certificate_id": candidate.get("id").and_then(Value::as_str).unwrap_or(""),
+                "label": candidate.get("label").and_then(Value::as_str).unwrap_or(""),
+                "message": message
+            })))
+        }
+    }
+}
+
+pub(super) async fn find_acme_ssl_certificate(
+    state: &AppState,
+    source_ref_id: Option<&str>,
+    primary_domain: Option<&str>,
+) -> anyhow::Result<Option<Value>> {
+    let config = state.storage.store.get_config().await?;
+    let ssl = normalize_ssl_config(config.get("ssl"));
+    let normalized_ref = source_ref_id
+        .map(str::trim)
+        .filter(|value| !value.is_empty());
+    let normalized_domain = primary_domain
+        .map(|value| value.trim().to_ascii_lowercase())
+        .filter(|value| !value.is_empty());
+    Ok(ssl
+        .get("certificates")
+        .and_then(Value::as_array)
+        .and_then(|certificates| {
+            certificates
+                .iter()
+                .find(|certificate| {
+                    certificate.get("source").and_then(Value::as_str) == Some("acme")
+                        && (normalized_ref.is_some_and(|id| {
+                            certificate.get("source_ref_id").and_then(Value::as_str) == Some(id)
+                        }) || normalized_domain.as_deref().is_some_and(|domain| {
+                            certificate
+                                .get("primary_domain")
+                                .and_then(Value::as_str)
+                                .is_some_and(|value| value.trim().eq_ignore_ascii_case(domain))
+                        }))
+                })
+                .cloned()
+        }))
+}
+
+pub(super) async fn activate_ssl_certificate(state: &AppState, id: &str) -> anyhow::Result<bool> {
+    Ok(set_active_ssl_certificate(state, Some(id)).await?.is_some())
+}
+
+pub(super) async fn set_active_ssl_certificate(
+    state: &AppState,
+    id: Option<&str>,
+) -> anyhow::Result<Option<Value>> {
+    let _guard = state.gateway.ssl_update_lock.lock().await;
+    let mut config = state.storage.store.get_config().await?;
+    let ssl = normalize_ssl_config(config.get("ssl"));
+    let normalized_id = id.map(str::trim).filter(|value| !value.is_empty());
+    let candidate = normalized_id.and_then(|id| {
+        ssl.get("certificates")
+            .and_then(Value::as_array)?
+            .iter()
+            .find(|item| item.get("id").and_then(Value::as_str) == Some(id))
+            .cloned()
+    });
+    if normalized_id.is_some() && candidate.is_none() {
+        return Ok(None);
+    }
+    config["ssl"] = mirror_active_ssl_certificate(&ssl, normalized_id);
+    state.storage.store.save_config(&config).await?;
+    Ok(candidate)
+}
+
+pub(super) async fn delete_ssl_certificate(
+    state: &AppState,
+    id: &str,
+) -> anyhow::Result<(bool, bool)> {
+    let _guard = state.gateway.ssl_update_lock.lock().await;
+    let mut config = state.storage.store.get_config().await?;
+    let ssl = normalize_ssl_config(config.get("ssl"));
+    let active_id = ssl
+        .get("active_cert_id")
+        .and_then(Value::as_str)
+        .unwrap_or("")
+        .to_string();
+    let certificates = ssl
+        .get("certificates")
+        .and_then(Value::as_array)
+        .cloned()
+        .unwrap_or_default();
+    let removed = certificates
+        .iter()
+        .any(|item| item.get("id").and_then(Value::as_str) == Some(id));
+    if !removed {
+        return Ok((false, false));
+    }
+    let mut next_ssl = ssl;
+    next_ssl["certificates"] = Value::Array(
+        certificates
+            .into_iter()
+            .filter(|item| item.get("id").and_then(Value::as_str) != Some(id))
+            .collect(),
+    );
+    let removed_active = active_id == id;
+    next_ssl = mirror_active_ssl_certificate(
+        &next_ssl,
+        if removed_active {
+            None
+        } else {
+            Some(&active_id)
+        },
+    );
+    config["ssl"] = next_ssl;
+    state.storage.store.save_config(&config).await?;
+    crate::fnos_certificate_sync::notify_certificate_library_changed(state);
+    Ok((true, removed_active))
+}
+
+pub(crate) async fn delete_acme_ssl_certificates(
+    state: &AppState,
+    application_id: Option<&str>,
+    primary_domain: Option<&str>,
+) -> anyhow::Result<(usize, bool)> {
+    let _guard = state.gateway.ssl_update_lock.lock().await;
+    let mut config = state.storage.store.get_config().await?;
+    let ssl = normalize_ssl_config(config.get("ssl"));
+    let active_id = ssl
+        .get("active_cert_id")
+        .and_then(Value::as_str)
+        .unwrap_or("")
+        .to_string();
+    let certificates = ssl
+        .get("certificates")
+        .and_then(Value::as_array)
+        .cloned()
+        .unwrap_or_default();
+    let normalized_application_id = application_id
+        .map(str::trim)
+        .filter(|value| !value.is_empty());
+    let normalized_primary_domain = primary_domain
+        .map(|value| value.trim().to_ascii_lowercase())
+        .filter(|value| !value.is_empty());
+
+    let mut removed = Vec::new();
+    let mut kept = Vec::new();
+    for certificate in certificates {
+        let is_acme = certificate.get("source").and_then(Value::as_str) == Some("acme");
+        let matches_ref = normalized_application_id
+            .is_some_and(|id| certificate.get("source_ref_id").and_then(Value::as_str) == Some(id));
+        let matches_domain = normalized_primary_domain.as_deref().is_some_and(|domain| {
+            certificate
+                .get("primary_domain")
+                .and_then(Value::as_str)
+                .is_some_and(|value| value.trim().eq_ignore_ascii_case(domain))
+        });
+        if is_acme && (matches_ref || matches_domain) {
+            removed.push(certificate);
+        } else {
+            kept.push(certificate);
+        }
+    }
+
+    if removed.is_empty() {
+        return Ok((0, false));
+    }
+
+    let removed_active = removed
+        .iter()
+        .any(|item| item.get("id").and_then(Value::as_str) == Some(active_id.as_str()));
+    let mut next_ssl = ssl;
+    next_ssl["certificates"] = Value::Array(kept);
+    next_ssl = mirror_active_ssl_certificate(
+        &next_ssl,
+        if removed_active {
+            None
+        } else {
+            Some(&active_id)
+        },
+    );
+    config["ssl"] = next_ssl;
+    state.storage.store.save_config(&config).await?;
+    crate::fnos_certificate_sync::notify_certificate_library_changed(state);
+    Ok((removed.len(), removed_active))
+}
+
+pub(super) async fn clear_ssl_certificate_library(state: &AppState) -> anyhow::Result<()> {
+    let _guard = state.gateway.ssl_update_lock.lock().await;
+    let mut config = state.storage.store.get_config().await?;
+    let mut ssl = normalize_ssl_config(config.get("ssl"));
+    ssl["certificates"] = json!([]);
+    config["ssl"] = mirror_active_ssl_certificate(&ssl, None);
+    state.storage.store.save_config(&config).await?;
+    crate::fnos_certificate_sync::notify_certificate_library_changed(state);
+    Ok(())
+}
+
+pub(super) async fn clear_active_ssl(state: &AppState) -> anyhow::Result<()> {
+    let _guard = state.gateway.ssl_update_lock.lock().await;
+    let mut config = state.storage.store.get_config().await?;
+    let ssl = normalize_ssl_config(config.get("ssl"));
+    config["ssl"] = mirror_active_ssl_certificate(&ssl, None);
+    state.storage.store.save_config(&config).await?;
+    Ok(())
+}
